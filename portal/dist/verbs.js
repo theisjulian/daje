@@ -109,6 +109,24 @@ const VB_DATA = [
   ['salire', 'hinaufgehen, einsteigen', 'irr', 'ire', {
     aux: 'essere', pres: ['salgo', 'sali', 'sale', 'saliamo', 'salite', 'salgono']
   }],
+  ['piacere', 'gefallen', 'irr', 'ere', {
+    aux: 'essere', pp: 'piaciuto', pres: ['piaccio', 'piaci', 'piace', 'piacciamo', 'piacete', 'piacciono']
+  }],
+  ['togliere', 'entfernen, ausziehen', 'irr', 'ere', {
+    pp: 'tolto', pres: ['tolgo', 'togli', 'toglie', 'togliamo', 'togliete', 'tolgono']
+  }],
+  ['raccogliere', 'sammeln, aufheben', 'irr', 'ere', {
+    pp: 'raccolto', pres: ['raccolgo', 'raccogli', 'raccoglie', 'raccogliamo', 'raccogliete', 'raccolgono']
+  }],
+  ['cadere', 'fallen', 'irr', 'ere', {
+    aux: 'essere', pp: 'caduto', fut: 'cadr'
+  }],
+  ['valere', 'gelten, wert sein', 'irr', 'ere', {
+    aux: 'essere', pp: 'valso', pres: ['valgo', 'vali', 'vale', 'valiamo', 'valete', 'valgono'], fut: 'varr'
+  }],
+  ['porre', 'legen, stellen', 'irr', 'ere', {
+    pp: 'posto', pres: ['pongo', 'poni', 'pone', 'poniamo', 'ponete', 'pongono'], impf: 'ponev', fut: 'porr'
+  }],
   ['chiamarsi', 'heißen', 'refl', 'are', {}],
   ['alzarsi', 'aufstehen', 'refl', 'are', {}],
   ['lavarsi', 'sich waschen', 'refl', 'are', {}],
