@@ -129,7 +129,8 @@ function renderVocabDoc() {
 }
 function docWordFile() {
   const sheet = $('teaching-print').cloneNode(true);
-  sheet.querySelectorAll('.print-controls,.doc-options,img').forEach(n => n.remove());
+  sheet.querySelectorAll('.paper').forEach(p => (p.style.zoom = ''));
+  sheet.querySelectorAll('.print-controls,.doc-options,.dlg-head,.dlg-side,img').forEach(n => n.remove());
   sheet.querySelectorAll('.doc-logo').forEach(n => (n.textContent = 'theis'));
   const ac = sheet.style.getPropertyValue('--doc-ac') || '#1a6dff';
   const css = `body{font-family:Calibri,Arial,sans-serif;font-size:11pt;color:#111}h1{font-size:22pt;color:${ac}}h3{font-size:12pt;margin:0}table{border-collapse:collapse;width:100%}th{background:#eef2f8;text-align:left;border:1px solid #bbb;padding:6px}td{border:1px solid #ccc;padding:6px}td.blank{height:26pt}header{border-bottom:2px solid ${ac};margin-bottom:12pt}footer{border-top:1px solid #bbb;margin-top:18pt;padding-top:6pt;font-size:9pt}li{margin:12pt 0}`;

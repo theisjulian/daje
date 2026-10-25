@@ -88,8 +88,6 @@ printTeaching = function (solutions) {
   document.body.classList.add('previewing-teaching');
 };
 document.addEventListener('change', e => {
-  const m = e.target.closest('select[data-hb="mode"]');
-  if (m) { printTeaching(m.value === '1'); return; }
-  const o = e.target.closest('[data-hb-opt]');
+    const o = e.target.closest('[data-hb-opt]');
   if (o) { hbOpt[o.dataset.hbOpt] = o.checked; printTeaching(hbOpt.solutions); }
 });
