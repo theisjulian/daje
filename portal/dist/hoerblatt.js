@@ -64,7 +64,7 @@ function hbHTML(x, sol) {
   <h1>${esc(x.title)}</h1>
   <div class="hb-meta"><span>${esc(lang)}</span><span>${esc(x.level)}</span><span>${esc(t.min(x.estimatedMinutes))}</span></div>
   ${sol ? '' : `<table class="hb-id"><tr><td>${esc(t.name)}</td><td>${esc(t.cls)}</td><td>${esc(t.date)}</td><td class="pts">${esc(t.pts)} &nbsp; / ${total}</td></tr></table>`}
-  ${sol ? '' : `<div class="hb-box"><b>${esc(t.listen)}</b>${hbOpt.link && !local && !speech ? `<span>${esc(t.online)}: ${esc(link)}</span>` : ''}</div>`}
+  ${sol ? '' : `<div class="hb-box"><b>${esc(t.listen)}</b>${hbOpt.link && !local && !speech ? `<span>${esc(t.online)}: ${esc(link)}</span>${typeof qrSVG === 'function' ? `<i class="hb-qr">${qrSVG(link, 'QR')}</i>` : ''}` : ''}</div>`}
   <ol class="hb-list">${qs}</ol>
   ${sol && hbOpt.transcript && x.transcript ? `<section class="hb-tr"><h3>${esc(t.tr)}</h3><p>${esc(x.transcript).replace(/\n+/g, '<br>')}</p></section>` : ''}
   <footer class="hb-src"><b>${esc(t.src)}</b> ${x.sources.map(s => esc(s.citation)).join(' · ')}${speech ? ' · ' + esc(t.demo) : ''}</footer>

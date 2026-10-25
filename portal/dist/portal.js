@@ -75,7 +75,7 @@ function isWorkingLesson(x) {
 function workingLessonNotice(x) {
   return isWorkingLesson(x)
     ? '<div class="editor-banner"><b>Arbeitsfassung · Prüfung offen.</b> Aufgaben, Transkript, Zeitmarken und Nutzungsrechte sind noch nicht abschließend geprüft. ' +
-        (!x.transcript ? 'Das vollständige Transkript fehlt noch. ' : '') +
+        (!x.transcript && !x.series ? 'Das vollständige Transkript fehlt noch. ' : '') +
         '<button class="quiet" data-nav="redaktion">In der Redaktion bearbeiten</button></div>'
     : '';
 }
@@ -580,6 +580,7 @@ function portalClick(e) {
       b.textContent = 'Aufnahme fortsetzen';
     }
   }
+  if (a === 'series-clear') { portalFilters.series = ''; refreshCatalog(); }
   if (a === 'copy-embed') {
     const x = currentLesson();
     const url =
@@ -731,7 +732,7 @@ function printTeaching(solutions) {
     })
     .join(
       ''
-    )}</ol><footer><h3>Medium und Quelle</h3>${x.sources.map(s => `<p>${esc(s.citation)}${s.url ? '<br>' + esc(s.url) : ''}</p>`).join('')}<p>${x.media.type === 'audio' ? esc(x.media.url) : x.media.type === 'youtube' ? 'https://www.youtube.com/watch?v=' + x.media.videoId : 'Browser-Sprachausgabe des eigenen Übungstextes im Portal.'}</p></footer>`;
+    )}</ol><footer><h3>Medium und Quelle</h3>${x.sources.map(s => `<p>${esc(s.citation)}${s.url ? '<br>' + esc(s.url) : ''}</p>`).join('')}<p>${x.media.type === 'audio' ? esc(x.media.url) : x.media.type === 'youtube' ? 'https://www.youtube.com/watch?v=' + x.media.videoId : x.media.type === 'film' ? 'Film: ' + x.media.title + (x.media.year ? ' (' + x.media.year + ')' : '') + ' – Szene wird im Unterricht gezeigt.' : 'Browser-Sprachausgabe des eigenen Übungstextes im Portal.'}</p></footer>`;
   if ($('teaching-dialog')?.open) $('teaching-dialog').close();
   document.body.classList.add('previewing-teaching');
   window.scrollTo({ top: 0, behavior: 'instant' });

@@ -1,0 +1,383 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "listening",
+ "id": "50special-base",
+ "title": "50 Special · Base",
+ "language": "it",
+ "level": "A2",
+ "description": "Tema, vocabolario e piccola intervista: una canzone sull’estate e sulla Vespa.",
+ "topics": [
+  "Musica",
+  "Estate",
+  "Bologna"
+ ],
+ "cover": "wave",
+ "estimatedMinutes": 21,
+ "media": {
+  "type": "youtube",
+  "videoId": "NF9n5M5qhyU"
+ },
+ "transcript": "",
+ "series": "50-special",
+ "seriesTitle": "50 Special · Lunapop",
+ "levelLabel": "Base (livello intermedio)",
+ "teacherNotes": {
+  "warmup": [
+   "Immagine: una Vespa rossa su una strada di collina. Che cosa vi viene in mente?",
+   "Domanda: come immaginate l’estate perfetta in Italia?"
+  ],
+  "steps": [
+   "1. Impulso immagine e vocabolario.",
+   "2. Primo ascolto: tema e stato d’animo.",
+   "3. Secondo ascolto: dettagli e lacune (nel documento originale).",
+   "4. Lettura dell’intervista a Cremonini e trasformazione in terza persona."
+  ],
+  "tips": [
+   "Il testo originale della canzone resta nel file privato: usare solo per le lacune.",
+   "Chiedere agli alunni di segnare le parole ripetute nel ritornello."
+  ],
+  "followUp": [
+   "Che cosa ti dà libertà nella tua vita? Scrivi 3 frasi.",
+   "Cerca una canzone italiana sull’estate e presentala."
+  ]
+ },
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+   "url": "",
+   "rights": "own"
+  },
+  {
+   "kind": "external",
+   "citation": "Video ufficiale presso il fornitore; verificare incorporabilità e diritti prima dell’uso.",
+   "url": "https://www.youtube.com/watch?v=NF9n5M5qhyU",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+ ],
+ "questions": [
+  {
+   "id": "q1",
+   "type": "single_choice",
+   "prompt": "Prima dell’ascolto: Che cos’è una Vespa?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Un tipo di scooter italiano"
+    },
+    {
+     "id": "b",
+     "text": "Un frutto"
+    },
+    {
+     "id": "c",
+     "text": "Un tipo di pasta"
+    },
+    {
+     "id": "d",
+     "text": "Un fiume"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "La Vespa è uno scooter italiano famoso nel mondo."
+  },
+  {
+   "id": "q2",
+   "type": "single_choice",
+   "prompt": "Durante l’ascolto: Di che cosa parla la canzone?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Di un giro in Vespa in estate"
+    },
+    {
+     "id": "b",
+     "text": "Di una gara di nuoto"
+    },
+    {
+     "id": "c",
+     "text": "Di una cena di Natale"
+    },
+    {
+     "id": "d",
+     "text": "Di una lezione di storia"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Il tema è la libertà dell’estate e della Vespa."
+  },
+  {
+   "id": "q3",
+   "type": "true_false",
+   "prompt": "Nella canzone qualcuno vuole andare fuori città.",
+   "answer": true,
+   "explanation": "Il ritornello ripete il desiderio di partire."
+  },
+  {
+   "id": "q4",
+   "type": "single_choice",
+   "prompt": "Quale stagione è al centro della canzone?",
+   "options": [
+    {
+     "id": "a",
+     "text": "L’estate"
+    },
+    {
+     "id": "b",
+     "text": "L’inverno"
+    },
+    {
+     "id": "c",
+     "text": "L’autunno"
+    },
+    {
+     "id": "d",
+     "text": "La primavera"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "L’estate e le vacanze."
+  },
+  {
+   "id": "q5",
+   "type": "single_choice",
+   "prompt": "Perché la Vespa è importante per il protagonista?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Gli dà libertà e allontana i problemi"
+    },
+    {
+     "id": "b",
+     "text": "È molto costosa"
+    },
+    {
+     "id": "c",
+     "text": "È di suo padre"
+    },
+    {
+     "id": "d",
+     "text": "È rotta"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "La Vespa è simbolo di libertà."
+  },
+  {
+   "id": "q6",
+   "type": "true_false",
+   "prompt": "La canzone nomina un posto vicino a Bologna (i colli).",
+   "answer": true,
+   "explanation": "La zona di Bologna è importante nel testo e nella storia della band."
+  },
+  {
+   "id": "q7",
+   "type": "gap_fill",
+   "prompt": "Completa le frasi (estate, Vespa, festa, vacanza).",
+   "text": "Il ragazzo ha una [[a]] e vuole andare a una [[b]]. È [[c]] e vuole partire per una [[d]].",
+   "gaps": [
+    {
+     "id": "a",
+     "acceptedAnswers": [
+      "Vespa"
+     ]
+    },
+    {
+     "id": "b",
+     "acceptedAnswers": [
+      "festa"
+     ]
+    },
+    {
+     "id": "c",
+     "acceptedAnswers": [
+      "estate"
+     ]
+    },
+    {
+     "id": "d",
+     "acceptedAnswers": [
+      "vacanza"
+     ]
+    }
+   ],
+   "explanation": "Vocabolario della canzone."
+  },
+  {
+   "id": "q8",
+   "type": "matching",
+   "prompt": "Collega la parola al significato.",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "la Vespa",
+     "right": "scooter italiano"
+    },
+    {
+     "id": "p2",
+     "left": "il colle",
+     "right": "collina"
+    },
+    {
+     "id": "p3",
+     "left": "la festa",
+     "right": "party"
+    },
+    {
+     "id": "p4",
+     "left": "girare",
+     "right": "andare in giro"
+    }
+   ],
+   "explanation": "Parole utili."
+  },
+  {
+   "id": "q9",
+   "type": "single_choice",
+   "prompt": "Quale città è la patria dei Lunapop?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Bologna"
+    },
+    {
+     "id": "b",
+     "text": "Napoli"
+    },
+    {
+     "id": "c",
+     "text": "Torino"
+    },
+    {
+     "id": "d",
+     "text": "Palermo"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "I Lunapop sono di Bologna."
+  },
+  {
+   "id": "q10",
+   "type": "true_false",
+   "prompt": "Cesare Cremonini è il cantante dei Lunapop.",
+   "answer": true,
+   "explanation": "Cremonini era il cantante della band."
+  },
+  {
+   "id": "q11",
+   "type": "single_choice",
+   "prompt": "Quale espressione descrive l’atmosfera?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Spensierata e allegra"
+    },
+    {
+     "id": "b",
+     "text": "Triste e lenta"
+    },
+    {
+     "id": "c",
+     "text": "Spaventosa"
+    },
+    {
+     "id": "d",
+     "text": "Noiosa"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Un brano leggero e solare."
+  },
+  {
+   "id": "q12",
+   "type": "single_choice",
+   "prompt": "Leggi l’intervista a Cremonini (testo breve): Dove è cresciuto?",
+   "options": [
+    {
+     "id": "a",
+     "text": "In campagna vicino a Bologna"
+    },
+    {
+     "id": "b",
+     "text": "A Roma"
+    },
+    {
+     "id": "c",
+     "text": "A Milano"
+    },
+    {
+     "id": "d",
+     "text": "In montagna"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Racconta di essere cresciuto in campagna vicino a Bologna."
+  },
+  {
+   "id": "q13",
+   "type": "single_choice",
+   "prompt": "Chi cucinava i tortelloni la domenica?",
+   "options": [
+    {
+     "id": "a",
+     "text": "La nonna"
+    },
+    {
+     "id": "b",
+     "text": "Il papà"
+    },
+    {
+     "id": "c",
+     "text": "Lo zio"
+    },
+    {
+     "id": "d",
+     "text": "Un amico"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "La nonna cucinava tortelloni e tagliatelle."
+  },
+  {
+   "id": "q14",
+   "type": "single_choice",
+   "prompt": "Come chiama Cremonini il gruppo di amici a Bologna?",
+   "options": [
+    {
+     "id": "a",
+     "text": "La balotta"
+    },
+    {
+     "id": "b",
+     "text": "La pizza"
+    },
+    {
+     "id": "c",
+     "text": "La famiglia"
+    },
+    {
+     "id": "d",
+     "text": "La squadra"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "La compagnia di amici si chiama “la balotta”."
+  },
+  {
+   "id": "q15",
+   "type": "short_answer",
+   "prompt": "Trasforma in terza persona: “Io sono cresciuto in campagna.” → Lui è cresciuto … (completa con una parola)",
+   "acceptedAnswers": [
+    "in campagna"
+   ],
+   "modelAnswer": "in campagna",
+   "explanation": "Passaggio da io a lui."
+  }
+ ],
+ "vocabularyIds": []
+}

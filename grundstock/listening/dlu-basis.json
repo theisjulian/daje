@@ -1,0 +1,329 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "listening",
+ "id": "dlu-basis",
+ "title": "Don’t Look Up · Basis",
+ "language": "en",
+ "level": "B1",
+ "description": "Vocabulary, global comprehension and reported speech for a satirical film.",
+ "topics": [
+  "Film",
+  "Media",
+  "Climate"
+ ],
+ "cover": "wave",
+ "estimatedMinutes": 17,
+ "media": {
+  "type": "film",
+  "title": "Don’t Look Up",
+  "year": 2021,
+  "scene": "Scientists try to warn the world about a comet."
+ },
+ "transcript": "",
+ "series": "dont-look-up",
+ "seriesTitle": "Don’t Look Up · Adam McKay",
+ "levelLabel": "Basis",
+ "teacherNotes": {
+  "warmup": [
+   "Discuss in pairs: How do people today get most of their news — from experts, social media, or friends?",
+   "What do you think the title “Don’t Look Up” could mean?"
+  ],
+  "steps": [
+   "1. Pre-watching vocabulary.",
+   "2. Watch in two parts.",
+   "3. Global comprehension, then detail.",
+   "4. Language focus."
+  ],
+  "tips": [
+   "The film is satirical; discuss real-world parallels (climate, pandemic)."
+  ],
+  "followUp": [
+   "Write a short opinion paragraph (120–150 words): Is the film a comedy or a warning?",
+   "Which character do you identify with, and why?"
+  ]
+ },
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+   "url": "",
+   "rights": "own"
+  }
+ ],
+ "reviewNotes": [
+  "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+ ],
+ "questions": [
+  {
+   "id": "q1",
+   "type": "single_choice",
+   "prompt": "Before watching: What does “to deny” mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "to refuse to believe something"
+    },
+    {
+     "id": "b",
+     "text": "to wait"
+    },
+    {
+     "id": "c",
+     "text": "to build"
+    },
+    {
+     "id": "d",
+     "text": "to repair"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "to deny = leugnen."
+  },
+  {
+   "id": "q2",
+   "type": "matching",
+   "prompt": "Vocabulary: match.",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "comet",
+     "right": "object from space made of ice and dust"
+    },
+    {
+     "id": "p2",
+     "left": "scientist",
+     "right": "person who studies the natural world"
+    },
+    {
+     "id": "p3",
+     "left": "to warn",
+     "right": "to tell someone about a danger"
+    },
+    {
+     "id": "p4",
+     "left": "panic",
+     "right": "sudden fear"
+    },
+    {
+     "id": "p5",
+     "left": "to ignore",
+     "right": "not to pay attention"
+    }
+   ],
+   "explanation": "Key words from the worksheet."
+  },
+  {
+   "id": "q3",
+   "type": "single_choice",
+   "prompt": "What do the scientists discover?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A comet heading for Earth"
+    },
+    {
+     "id": "b",
+     "text": "A new planet"
+    },
+    {
+     "id": "c",
+     "text": "Aliens"
+    },
+    {
+     "id": "d",
+     "text": "A new star"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "The comet will hit Earth."
+  },
+  {
+   "id": "q4",
+   "type": "single_choice",
+   "prompt": "How does the president react at first?",
+   "options": [
+    {
+     "id": "a",
+     "text": "She delays action"
+    },
+    {
+     "id": "b",
+     "text": "She believes them immediately"
+    },
+    {
+     "id": "c",
+     "text": "She fires everyone"
+    },
+    {
+     "id": "d",
+     "text": "She calls the army"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "She is more interested in politics."
+  },
+  {
+   "id": "q5",
+   "type": "single_choice",
+   "prompt": "What happens when they appear on TV?",
+   "options": [
+    {
+     "id": "a",
+     "text": "People joke about it"
+    },
+    {
+     "id": "b",
+     "text": "People panic"
+    },
+    {
+     "id": "c",
+     "text": "They are arrested"
+    },
+    {
+     "id": "d",
+     "text": "Nothing"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "The media does not take it seriously."
+  },
+  {
+   "id": "q6",
+   "type": "single_choice",
+   "prompt": "Why is the campaign called “Don’t Look Up”?",
+   "options": [
+    {
+     "id": "a",
+     "text": "To make people ignore the danger"
+    },
+    {
+     "id": "b",
+     "text": "To protect them"
+    },
+    {
+     "id": "c",
+     "text": "To hide stars"
+    },
+    {
+     "id": "d",
+     "text": "To sell telescopes"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "It tells people not to look at the sky."
+  },
+  {
+   "id": "q7",
+   "type": "gap_fill",
+   "prompt": "Complete the sentences (ignore, panic, scientist, president).",
+   "text": "The [[a]] checks the data. The [[b]] does not want to act. People [[c]] when they hear the news, but many still [[d]] the warning.",
+   "gaps": [
+    {
+     "id": "a",
+     "acceptedAnswers": [
+      "scientist"
+     ]
+    },
+    {
+     "id": "b",
+     "acceptedAnswers": [
+      "president"
+     ]
+    },
+    {
+     "id": "c",
+     "acceptedAnswers": [
+      "panic"
+     ]
+    },
+    {
+     "id": "d",
+     "acceptedAnswers": [
+      "ignore"
+     ]
+    }
+   ],
+   "explanation": "Vocabulary in context."
+  },
+  {
+   "id": "q8",
+   "type": "true_false",
+   "prompt": "The film is a serious documentary.",
+   "answer": false,
+   "explanation": "It is a satirical comedy."
+  },
+  {
+   "id": "q9",
+   "type": "gap_fill",
+   "prompt": "Reported speech: complete.",
+   "text": "Kate said that a comet [[a]] coming to destroy Earth. Dr Mindy said that they [[b]] act now.",
+   "gaps": [
+    {
+     "id": "a",
+     "acceptedAnswers": [
+      "was"
+     ]
+    },
+    {
+     "id": "b",
+     "acceptedAnswers": [
+      "had to",
+      "must",
+      "needed to"
+     ]
+    }
+   ],
+   "explanation": "Backshift."
+  },
+  {
+   "id": "q10",
+   "type": "single_choice",
+   "prompt": "Who is the tech billionaire?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Peter Isherwell"
+    },
+    {
+     "id": "b",
+     "text": "Randall Mindy"
+    },
+    {
+     "id": "c",
+     "text": "Kate Dibiasky"
+    },
+    {
+     "id": "d",
+     "text": "Jason Orlean"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Peter Isherwell."
+  },
+  {
+   "id": "q11",
+   "type": "true_false",
+   "prompt": "After watching: The film criticises politicians, media and society.",
+   "answer": true,
+   "explanation": "Satire of several groups."
+  },
+  {
+   "id": "q12",
+   "type": "short_answer",
+   "prompt": "Name one emotion you feel after the film (English).",
+   "acceptedAnswers": [
+    "anger",
+    "sadness",
+    "fear",
+    "hope",
+    "laughter",
+    "worry"
+   ],
+   "modelAnswer": "anger / sadness",
+   "explanation": "Many answers possible."
+  }
+ ],
+ "vocabularyIds": []
+}

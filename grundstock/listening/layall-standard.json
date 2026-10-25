@@ -1,0 +1,310 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "listening",
+ "id": "layall-standard",
+ "title": "Lay All Your Love On Me · Standard",
+ "language": "en",
+ "level": "B2",
+ "description": "Kontrast zwischen Musik und Text, Wortschatz und Etymologie.",
+ "topics": [
+  "Musik",
+  "Gefühle",
+  "Sprache"
+ ],
+ "cover": "wave",
+ "estimatedMinutes": 15,
+ "media": {
+  "type": "youtube",
+  "videoId": "CQKyLOQPTPo"
+ },
+ "transcript": "",
+ "series": "lay-all-your-love",
+ "seriesTitle": "Lay All Your Love On Me · ABBA",
+ "levelLabel": "Standard",
+ "teacherNotes": {
+  "warmup": [
+   "Hörimpuls: Die Musik ohne Text – wie fühlt sie sich an? Danach Text.",
+   "Frage: Wie klingen Lieder über Eifersucht normalerweise?"
+  ],
+  "steps": [
+   "1. Musikalischer Eindruck.",
+   "2. Textebene.",
+   "3. Vokabeln, Etymologie (vice).",
+   "4. Interpretation."
+  ],
+  "tips": [
+   "Latein-Hinweis: Wortschatz über Wortfamilien erschließen."
+  ],
+  "followUp": [
+   "Schreibe eine kurze Interpretation (100 Wörter).",
+   "Vergleiche mit einem modernen Lied zu Eifersucht."
+  ]
+ },
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+   "url": "",
+   "rights": "own"
+  },
+  {
+   "kind": "external",
+   "citation": "Offizielles Video beim Anbieter; Einbettbarkeit und Rechte vor dem Einsatz prüfen.",
+   "url": "https://www.youtube.com/watch?v=CQKyLOQPTPo",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+ ],
+ "questions": [
+  {
+   "id": "q1",
+   "type": "single_choice",
+   "prompt": "Welcher Gegensatz prägt das Lied?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Tanzbare Musik und besorgter Text"
+    },
+    {
+     "id": "b",
+     "text": "Laute Musik und Stille"
+    },
+    {
+     "id": "c",
+     "text": "Langsames Tempo und schneller Text"
+    },
+    {
+     "id": "d",
+     "text": "Jazz und Metal"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Klang und Inhalt widersprechen sich bewusst."
+  },
+  {
+   "id": "q2",
+   "type": "multiple_choice",
+   "prompt": "Welche Gefühle zeigt der Text? (mehrere)",
+   "options": [
+    {
+     "id": "a",
+     "text": "Eifersucht"
+    },
+    {
+     "id": "b",
+     "text": "Verletzlichkeit"
+    },
+    {
+     "id": "c",
+     "text": "Gleichgültigkeit"
+    },
+    {
+     "id": "d",
+     "text": "Angst vor Verlust"
+    },
+    {
+     "id": "e",
+     "text": "Stolz"
+    }
+   ],
+   "correctOptionIds": [
+    "a",
+    "b",
+    "d"
+   ],
+   "explanation": "Verliebtheit macht verletzlich."
+  },
+  {
+   "id": "q3",
+   "type": "single_choice",
+   "prompt": "Was bedeutet „to lay love on someone\" sinngemäß?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Liebe zeigen und geben"
+    },
+    {
+     "id": "b",
+     "text": "Liebe verstecken"
+    },
+    {
+     "id": "c",
+     "text": "Liebe verkaufen"
+    },
+    {
+     "id": "d",
+     "text": "Liebe vergessen"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Sinngemäß: „Schenk mir deine ganze Zuneigung.\""
+  },
+  {
+   "id": "q4",
+   "type": "single_choice",
+   "prompt": "Welcher lateinische Wortstamm steckt hinter „vice\" (Laster)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "vitium (Fehler)"
+    },
+    {
+     "id": "b",
+     "text": "vita (Leben)"
+    },
+    {
+     "id": "c",
+     "text": "vinum (Wein)"
+    },
+    {
+     "id": "d",
+     "text": "victor (Sieger)"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "vice kommt von lat. vitium."
+  },
+  {
+   "id": "q5",
+   "type": "gap_fill",
+   "prompt": "Ergänze die Wörter (potential, possessive, overturn, unsatisfied).",
+   "text": "She admits that she has become [[a]]. Every other woman looks like a [[b]] danger. Her old rules [[c]], and she feels [[d]] when he is away.",
+   "gaps": [
+    {
+     "id": "a",
+     "acceptedAnswers": [
+      "possessive"
+     ]
+    },
+    {
+     "id": "b",
+     "acceptedAnswers": [
+      "potential"
+     ]
+    },
+    {
+     "id": "c",
+     "acceptedAnswers": [
+      "overturn"
+     ]
+    },
+    {
+     "id": "d",
+     "acceptedAnswers": [
+      "unsatisfied"
+     ]
+    }
+   ],
+   "explanation": "Wortschatz für Gefühle in Beziehungen."
+  },
+  {
+   "id": "q6",
+   "type": "matching",
+   "prompt": "Verbinde Wort und Bedeutung.",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "possessive",
+     "right": "besitzergreifend"
+    },
+    {
+     "id": "p2",
+     "left": "vulnerable",
+     "right": "verletzlich"
+    },
+    {
+     "id": "p3",
+     "left": "devotion",
+     "right": "Hingabe"
+    },
+    {
+     "id": "p4",
+     "left": "overturn",
+     "right": "umwerfen"
+    }
+   ],
+   "explanation": "Zentrale Begriffe."
+  },
+  {
+   "id": "q7",
+   "type": "true_false",
+   "prompt": "Die Erzählerin hatte schon vorher viele leidenschaftliche Beziehungen.",
+   "answer": false,
+   "explanation": "Sie sagt sinngemäß, dass frühere Affären kurz und selten waren."
+  },
+  {
+   "id": "q8",
+   "type": "single_choice",
+   "prompt": "Welche Perspektive nimmt das Lied ein?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Ich-Perspektive"
+    },
+    {
+     "id": "b",
+     "text": "Allwissender Erzähler"
+    },
+    {
+     "id": "c",
+     "text": "Zweite Person"
+    },
+    {
+     "id": "d",
+     "text": "Dritte Person"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Ich-Erzählerin."
+  },
+  {
+   "id": "q9",
+   "type": "single_choice",
+   "prompt": "Wie wirkt der Refrain?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Er ist ein dringender Appell"
+    },
+    {
+     "id": "b",
+     "text": "Er ist ein Befehl an alle"
+    },
+    {
+     "id": "c",
+     "text": "Er erzählt Geschichte"
+    },
+    {
+     "id": "d",
+     "text": "Er ist stumm"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Bitte und Forderung zugleich."
+  },
+  {
+   "id": "q10",
+   "type": "short_answer",
+   "prompt": "Nenne zwei Synonyme für „jealous\" (englisch, eines reicht).",
+   "acceptedAnswers": [
+    "envious",
+    "possessive",
+    "suspicious"
+   ],
+   "modelAnswer": "envious",
+   "explanation": "Mehrere sind möglich."
+  },
+  {
+   "id": "q11",
+   "type": "true_false",
+   "prompt": "Nach dem Hören: Der Text zeigt, dass Liebe auch Unsicherheit bedeuten kann.",
+   "answer": true,
+   "explanation": "Das ist die Kernbotschaft."
+  }
+ ],
+ "vocabularyIds": []
+}

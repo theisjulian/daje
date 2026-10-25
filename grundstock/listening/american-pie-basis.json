@@ -1,0 +1,336 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "listening",
+ "id": "american-pie-basis",
+ "title": "American Pie · Basis",
+ "language": "en",
+ "level": "A2",
+ "description": "Geschichte und Stimmung des Folk-Klassikers; einfache Wörter und „used to\".",
+ "topics": [
+  "Musik",
+  "Geschichte",
+  "USA"
+ ],
+ "cover": "wave",
+ "estimatedMinutes": 17,
+ "media": {
+  "type": "youtube",
+  "videoId": "PRpiBpDy7MQ"
+ },
+ "transcript": "",
+ "series": "american-pie",
+ "seriesTitle": "American Pie · Don McLean",
+ "levelLabel": "Basis",
+ "teacherNotes": {
+  "warmup": [
+   "Bild: Foto von 1950er US-Jugendkultur (Diner, Jukebox, Chevy). Was seht ihr?",
+   "Was war „die gute alte Zeit\" für eure Großeltern?"
+  ],
+  "steps": [
+   "1. Bild und Kontext.",
+   "2. Hören in Abschnitten (Strophe 1 + Refrain).",
+   "3. Wortschatz.",
+   "4. Gefühle sammeln."
+  ],
+  "tips": [
+   "Das Lied ist lang – in zwei Sitzungen teilen oder nur den Anfang nutzen.",
+   "Lückentext mit dem Original privat importieren; Refrain-Wörter getrennt setzen, damit Wiederholungen nicht verraten."
+  ],
+  "followUp": [
+   "Wie fühlst du dich beim Hören? Schreibe zwei Sätze.",
+   "Welches Ereignis würdest du in einem eigenen Lied festhalten?"
+  ]
+ },
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+   "url": "",
+   "rights": "own"
+  },
+  {
+   "kind": "external",
+   "citation": "Lyric-Video bei YouTube (Anbieter nicht geprüft); alternativ eine offizielle Aufnahme verwenden. Einbettbarkeit und Rechte prüfen.",
+   "url": "https://www.youtube.com/watch?v=PRpiBpDy7MQ",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+ ],
+ "questions": [
+  {
+   "id": "q1",
+   "type": "true_false",
+   "prompt": "Vor dem Hören: „American Pie\" ist ein sehr langes Lied (mehr als acht Minuten).",
+   "answer": true,
+   "explanation": "Die Albumfassung dauert über 8 Minuten."
+  },
+  {
+   "id": "q2",
+   "type": "single_choice",
+   "prompt": "Beim Hören: In welchem Jahrzehnt erschien das Lied?",
+   "options": [
+    {
+     "id": "a",
+     "text": "1950er"
+    },
+    {
+     "id": "b",
+     "text": "1970er"
+    },
+    {
+     "id": "c",
+     "text": "1990er"
+    },
+    {
+     "id": "d",
+     "text": "2010er"
+    }
+   ],
+   "correctOptionId": "b",
+   "explanation": "Veröffentlicht 1971."
+  },
+  {
+   "id": "q3",
+   "type": "single_choice",
+   "prompt": "Welches Ereignis nennt der Sänger „the day the music died\"?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Ein Flugzeugabsturz mit drei Rockstars 1959"
+    },
+    {
+     "id": "b",
+     "text": "Ein Brand in einem Konzertsaal"
+    },
+    {
+     "id": "c",
+     "text": "Das Ende des Radios"
+    },
+    {
+     "id": "d",
+     "text": "Ein Sturm"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Am 3. Februar 1959 starben Buddy Holly, Ritchie Valens und The Big Bopper."
+  },
+  {
+   "id": "q4",
+   "type": "single_choice",
+   "prompt": "Welchen Job hatte der Erzähler als Jugendlicher?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Zeitungsausträger"
+    },
+    {
+     "id": "b",
+     "text": "Koch"
+    },
+    {
+     "id": "c",
+     "text": "Pilot"
+    },
+    {
+     "id": "d",
+     "text": "Lehrer"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Er lieferte Zeitungen aus und erfuhr so vom Unglück."
+  },
+  {
+   "id": "q5",
+   "type": "multiple_choice",
+   "prompt": "Welche Dinge nennt das Lied oder gehören zum Thema? (mehrere)",
+   "options": [
+    {
+     "id": "a",
+     "text": "Musik"
+    },
+    {
+     "id": "b",
+     "text": "Tanzen"
+    },
+    {
+     "id": "c",
+     "text": "Autos (Chevy)"
+    },
+    {
+     "id": "d",
+     "text": "Unterwasserwelt"
+    },
+    {
+     "id": "e",
+     "text": "Whiskey und Rye"
+    }
+   ],
+   "correctOptionIds": [
+    "a",
+    "b",
+    "c",
+    "e"
+   ],
+   "explanation": "Alltagsbilder der amerikanischen Kultur der 50er/60er."
+  },
+  {
+   "id": "q6",
+   "type": "gap_fill",
+   "prompt": "Setze die Wörter ein (music, dance, school, radio, smile).",
+   "text": "The singer remembers how the [[a]] made him [[b]]. He went to [[c]] and listened to the [[d]].",
+   "gaps": [
+    {
+     "id": "a",
+     "acceptedAnswers": [
+      "music"
+     ]
+    },
+    {
+     "id": "b",
+     "acceptedAnswers": [
+      "smile"
+     ]
+    },
+    {
+     "id": "c",
+     "acceptedAnswers": [
+      "school"
+     ]
+    },
+    {
+     "id": "d",
+     "acceptedAnswers": [
+      "radio"
+     ]
+    }
+   ],
+   "explanation": "Alltag eines Jugendlichen in den 50ern."
+  },
+  {
+   "id": "q7",
+   "type": "single_choice",
+   "prompt": "Wie ist die Stimmung des Liedes?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Wehmütig und nachdenklich"
+    },
+    {
+     "id": "b",
+     "text": "Aggressiv"
+    },
+    {
+     "id": "c",
+     "text": "Humorvoll"
+    },
+    {
+     "id": "d",
+     "text": "Gruselig"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Rückblick mit Wehmut."
+  },
+  {
+   "id": "q8",
+   "type": "matching",
+   "prompt": "Verbinde die Wörter mit der Bedeutung.",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "levee",
+     "right": "Damm"
+    },
+    {
+     "id": "p2",
+     "left": "whiskey",
+     "right": "Whisky"
+    },
+    {
+     "id": "p3",
+     "left": "dry",
+     "right": "trocken"
+    },
+    {
+     "id": "p4",
+     "left": "pie",
+     "right": "Kuchen"
+    }
+   ],
+   "explanation": "Wörter aus dem Refrain-Wortfeld."
+  },
+  {
+   "id": "q9",
+   "type": "single_choice",
+   "prompt": "Welches Instrument prägt den Anfang?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Gitarre / Folk-Sound"
+    },
+    {
+     "id": "b",
+     "text": "Dudelsack"
+    },
+    {
+     "id": "c",
+     "text": "Trompete"
+    },
+    {
+     "id": "d",
+     "text": "Synthesizer"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Folk-Rock mit Gitarre und später Band."
+  },
+  {
+   "id": "q10",
+   "type": "single_choice",
+   "prompt": "Übersetze: „I used to listen to the radio.\"",
+   "options": [
+    {
+     "id": "a",
+     "text": "Ich höre jetzt Radio."
+    },
+    {
+     "id": "b",
+     "text": "Früher habe ich Radio gehört."
+    },
+    {
+     "id": "c",
+     "text": "Ich werde Radio hören."
+    },
+    {
+     "id": "d",
+     "text": "Ich habe nie Radio gehört."
+    }
+   ],
+   "correctOptionId": "b",
+   "explanation": "used to = früher (gewohnheitsmäßig)."
+  },
+  {
+   "id": "q11",
+   "type": "true_false",
+   "prompt": "Das Lied ist nur ein Tanzlied ohne tieferen Sinn.",
+   "answer": false,
+   "explanation": "Viele deuten es als Rückblick auf das Ende einer Ära."
+  },
+  {
+   "id": "q12",
+   "type": "short_answer",
+   "prompt": "Wie heißt der Sänger? (Nachname)",
+   "acceptedAnswers": [
+    "McLean",
+    "Mclean"
+   ],
+   "modelAnswer": "McLean",
+   "explanation": "Don McLean."
+  }
+ ],
+ "vocabularyIds": []
+}

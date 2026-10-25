@@ -133,8 +133,21 @@
         fail('estimatedMinutes', 'ganze Zahl von 1 bis 90 erwartet');
       const m = obj(a.media, 'media');
       out.media = { type: m.type };
-      if (!['speech', 'audio', 'youtube'].includes(m.type))
-        fail('media.type', 'speech, audio oder youtube erwartet');
+      if (!['speech', 'audio', 'youtube', 'film'].includes(m.type))
+        fail('media.type', 'speech, audio, youtube oder film erwartet');
+      if (m.type === 'film') {
+        out.media.title = str(m.title, 'media.title', 120);
+        if (m.year !== undefined) {
+          if (!Number.isInteger(m.year) || m.year < 1890 || m.year > 2100) fail('media.year', 'Jahr erwartet');
+          else out.media.year = m.year;
+        }
+        if (m.scene !== undefined) out.media.scene = str(m.scene, 'media.scene', 300);
+        if (m.trailerVideoId !== undefined) {
+          if (typeof m.trailerVideoId !== 'string' || !/^[A-Za-z0-9_-]{11}$/.test(m.trailerVideoId))
+            fail('media.trailerVideoId', 'elfstellige YouTube-Video-ID erwartet');
+          else out.media.trailerVideoId = m.trailerVideoId;
+        }
+      }
       if (m.type === 'speech') out.media.text = str(m.text, 'media.text', 12000);
       else if (m.type === 'audio') out.media.url = url(m.url, 'media.url');
       else if (m.type === 'youtube') {
@@ -150,6 +163,16 @@
           fail('media.end', 'muss nach media.start liegen');
       }
       out.transcript = str(a.transcript, 'transcript', 16000, true);
+      if (a.series !== undefined) out.series = id(a.series, 'series');
+      if (a.seriesTitle !== undefined) out.seriesTitle = str(a.seriesTitle, 'seriesTitle', 80);
+      if (a.levelLabel !== undefined) out.levelLabel = str(a.levelLabel, 'levelLabel', 40);
+      if (a.teacherNotes !== undefined) {
+        const t = obj(a.teacherNotes, 'teacherNotes');
+        out.teacherNotes = {};
+        if (t.warmup !== undefined) out.teacherNotes.warmup = strings(t.warmup, 'teacherNotes.warmup', 6);
+        for (const f of ['steps', 'tips', 'followUp'])
+          if (t[f] !== undefined) out.teacherNotes[f] = strings(t[f], 'teacherNotes.' + f, 10);
+      }
       if (a.coverImage !== undefined) {
         if (
           typeof a.coverImage !== 'string' ||

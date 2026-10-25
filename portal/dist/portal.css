@@ -1766,3 +1766,43 @@ body.previewing-teaching #teaching-print {
 .activity-word-preview p span {
   color: var(--label-2);
 }
+
+/* ---------- QR-Code, Stufenwahl, Unterrichtsidee, Film ---------- */
+#qr-dialog { width: min(96vw, 640px); max-height: 96dvh; padding: clamp(16px, 4vw, 28px); border-radius: 24px; text-align: center; overflow: auto; }
+#qr-dialog .qr-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+#qr-dialog h2 { margin: 10px 0 12px; font-size: clamp(22px, 5vw, 30px); }
+.qr-tabs { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-bottom: 14px; }
+.qr-tabs button { display: grid; gap: 1px; min-width: 88px; min-height: 48px; padding: 8px 14px; border-radius: 14px; border: 1px solid var(--line, #d7dbe4); background: transparent; color: inherit; font: inherit; cursor: pointer; }
+.qr-tabs button small { opacity: .6; font-size: 11px; }
+.qr-tabs button[aria-selected="true"] { background: var(--blue, #0071e3); border-color: transparent; color: #fff; }
+.qr-card { width: min(78vw, 64dvh, 460px); aspect-ratio: 1; margin: 0 auto; padding: 0; background: #fff; border-radius: 18px; box-shadow: 0 6px 30px rgba(0,0,0,.14); overflow: hidden; }
+.qr-svg { display: block; width: 100%; height: 100%; }
+.qr-sub { margin: 14px 0 2px; font-weight: 650; }
+.qr-url { margin: 0 0 14px; font-size: 13px; opacity: .65; word-break: break-all; }
+.share-qr { width: 200px; max-width: 70%; margin: 12px auto; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,.14); }
+.hb-qr { display: block; width: 74px; height: 74px; margin-left: auto; flex: none; }
+.hb-box:has(.hb-qr) { display: flex; align-items: center; gap: 12px; }
+.series-switch { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 4px 0 18px; }
+.series-switch > span { font-size: 13px; font-weight: 650; opacity: .7; }
+.series-switch > div { display: flex; gap: 8px; flex-wrap: wrap; }
+.series-switch button { display: grid; gap: 1px; min-height: 48px; padding: 8px 16px; border-radius: 14px; border: 1px solid var(--line, #d7dbe4); background: transparent; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.series-switch button small { opacity: .6; font-size: 11px; }
+.series-switch button[aria-pressed="true"] { background: var(--blue, #0071e3); border-color: transparent; color: #fff; }
+.teacher-notes { margin: 0 0 16px; padding: 14px 16px; border-radius: 18px; border: 1px solid var(--line, #d7dbe4); background: color-mix(in srgb, var(--blue, #0071e3) 6%, transparent); }
+.teacher-notes summary { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; cursor: pointer; }
+.teacher-notes summary span { font-size: 13px; opacity: .65; }
+.teacher-notes h4 { margin: 12px 0 4px; font-size: 13px; text-transform: uppercase; letter-spacing: .06em; opacity: .7; }
+.teacher-notes ul { margin: 0; padding-left: 20px; }
+.teacher-notes li { margin: 3px 0; }
+.player-frame.film { display: grid; place-items: center; aspect-ratio: 16 / 9; background: linear-gradient(135deg, #1c2540, #3b2f5c); color: #fff; border-radius: 18px; padding: 20px; text-align: center; }
+.film-card { display: grid; gap: 6px; max-width: 28em; }
+.film-card b { font-size: clamp(22px, 5vw, 32px); line-height: 1.1; }
+.film-card p { margin: 0; opacity: .8; font-size: 14px; }
+.film-kicker { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; opacity: .7; }
+@media (max-width: 640px) { .teacher-actions { flex-wrap: wrap; } .teacher-actions .button { flex: 1 1 100%; } }
+
+.learn-note { margin: 14px 0; padding: 14px 16px; border-radius: 18px; border: 1px solid var(--line, #d7dbe4); }
+.learn-note > b { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; opacity: .7; }
+.learn-note ul { margin: 6px 0 0; padding-left: 20px; }
+.learn-note li { margin: 4px 0; }
+.learn-note small { display: block; margin-top: 8px; opacity: .6; }

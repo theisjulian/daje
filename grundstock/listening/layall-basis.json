@@ -1,0 +1,283 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "listening",
+ "id": "layall-basis",
+ "title": "Lay All Your Love On Me · Basis",
+ "language": "en",
+ "level": "B1",
+ "description": "Gefühle und Wortschatz in einem Disco-Klassiker verstehen.",
+ "topics": [
+  "Musik",
+  "Gefühle",
+  "ABBA"
+ ],
+ "cover": "wave",
+ "estimatedMinutes": 15,
+ "media": {
+  "type": "youtube",
+  "videoId": "CQKyLOQPTPo"
+ },
+ "transcript": "",
+ "series": "lay-all-your-love",
+ "seriesTitle": "Lay All Your Love On Me · ABBA",
+ "levelLabel": "Basis",
+ "teacherNotes": {
+  "warmup": [
+   "Frage: Wann wart ihr zum ersten Mal richtig eifersüchtig? Gefühl beschreiben.",
+   "Bild: Disco-Kugel / 80er."
+  ],
+  "steps": [
+   "1. Wortschatz.",
+   "2. Hören: Gefühle sammeln.",
+   "3. Wörter einsetzen.",
+   "4. Nachdenken: Passen Musik und Text zusammen?"
+  ],
+  "tips": [
+   "Das Lied hat einen starken Kontrast zwischen fröhlicher Musik und besorgtem Text – gut für Diskussion."
+  ],
+  "followUp": [
+   "Warum klingt traurige Eifersucht hier so tanzbar?",
+   "Schreibe zwei Sätze über Gefühle, die du schwer beschreiben kannst."
+  ]
+ },
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+   "url": "",
+   "rights": "own"
+  },
+  {
+   "kind": "external",
+   "citation": "Offizielles Video beim Anbieter; Einbettbarkeit und Rechte vor dem Einsatz prüfen.",
+   "url": "https://www.youtube.com/watch?v=CQKyLOQPTPo",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+ ],
+ "questions": [
+  {
+   "id": "q1",
+   "type": "true_false",
+   "prompt": "Vor dem Hören: ABBA kommt aus Schweden.",
+   "answer": true,
+   "explanation": "Die Band wurde in Stockholm gegründet."
+  },
+  {
+   "id": "q2",
+   "type": "matching",
+   "prompt": "Wortschatz vorab: Verbinde.",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "jealous",
+     "right": "eifersüchtig"
+    },
+    {
+     "id": "p2",
+     "left": "threat",
+     "right": "Bedrohung"
+    },
+    {
+     "id": "p3",
+     "left": "careless",
+     "right": "sorglos"
+    },
+    {
+     "id": "p4",
+     "left": "beg",
+     "right": "bitten, flehen"
+    }
+   ],
+   "explanation": "Vokabeln aus den Aufgaben."
+  },
+  {
+   "id": "q3",
+   "type": "single_choice",
+   "prompt": "Beim Hören: Wie fühlt sich die Erzählerin?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Verliebt und etwas unsicher"
+    },
+    {
+     "id": "b",
+     "text": "Müde"
+    },
+    {
+     "id": "c",
+     "text": "Wütend auf alle"
+    },
+    {
+     "id": "d",
+     "text": "Gelangweilt"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Neue Gefühle bringen Angst und Eifersucht."
+  },
+  {
+   "id": "q4",
+   "type": "true_false",
+   "prompt": "Die Erzählerin war immer eifersüchtig.",
+   "answer": false,
+   "explanation": "Früher war sie es nicht – das hat sich geändert."
+  },
+  {
+   "id": "q5",
+   "type": "single_choice",
+   "prompt": "Was sagt sie über sich selbst?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Sie ist ungewohnt eifersüchtig geworden"
+    },
+    {
+     "id": "b",
+     "text": "Sie ist sehr reich"
+    },
+    {
+     "id": "c",
+     "text": "Sie reist viel"
+    },
+    {
+     "id": "d",
+     "text": "Sie ist müde von der Arbeit"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Die Verliebtheit verändert sie."
+  },
+  {
+   "id": "q6",
+   "type": "single_choice",
+   "prompt": "Welche Musikrichtung?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Disco-Pop"
+    },
+    {
+     "id": "b",
+     "text": "Heavy Metal"
+    },
+    {
+     "id": "c",
+     "text": "Country"
+    },
+    {
+     "id": "d",
+     "text": "Klassik"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Tanzbarer Pop mit starkem Bass."
+  },
+  {
+   "id": "q7",
+   "type": "gap_fill",
+   "prompt": "Ergänze (jealous, love, fear, dear).",
+   "text": "She feels [[a]] and in [[b]]. She asks her [[c]] for more attention and feels [[d]] when he is away.",
+   "gaps": [
+    {
+     "id": "a",
+     "acceptedAnswers": [
+      "jealous"
+     ]
+    },
+    {
+     "id": "b",
+     "acceptedAnswers": [
+      "love"
+     ]
+    },
+    {
+     "id": "c",
+     "acceptedAnswers": [
+      "dear"
+     ]
+    },
+    {
+     "id": "d",
+     "acceptedAnswers": [
+      "fear"
+     ]
+    }
+   ],
+   "explanation": "Gefühlswörter."
+  },
+  {
+   "id": "q8",
+   "type": "single_choice",
+   "prompt": "Wie heißt der Song richtig?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Lay All Your Love On Me"
+    },
+    {
+     "id": "b",
+     "text": "Lay All Your Love Off Me"
+    },
+    {
+     "id": "c",
+     "text": "Say All Your Love On Me"
+    },
+    {
+     "id": "d",
+     "text": "Lay Down Your Love"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Der Titel fordert: „Leg all deine Liebe auf mich.\""
+  },
+  {
+   "id": "q9",
+   "type": "true_false",
+   "prompt": "Das Lied erschien 1980.",
+   "answer": true,
+   "explanation": "Es stammt vom Album „Super Trouper\"."
+  },
+  {
+   "id": "q10",
+   "type": "single_choice",
+   "prompt": "Welches Wort bedeutet „Bedrohung\"?",
+   "options": [
+    {
+     "id": "a",
+     "text": "threat"
+    },
+    {
+     "id": "b",
+     "text": "trade"
+    },
+    {
+     "id": "c",
+     "text": "trap"
+    },
+    {
+     "id": "d",
+     "text": "train"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "threat."
+  },
+  {
+   "id": "q11",
+   "type": "short_answer",
+   "prompt": "Wie heißt die Band? (ein Wort)",
+   "acceptedAnswers": [
+    "ABBA",
+    "Abba"
+   ],
+   "modelAnswer": "ABBA",
+   "explanation": "Aus den Anfangsbuchstaben der vier Mitglieder."
+  }
+ ],
+ "vocabularyIds": []
+}

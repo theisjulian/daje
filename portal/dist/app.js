@@ -638,6 +638,9 @@ document.addEventListener('click', e => {
       $('share-url').value = u.href;
       $('copy-result').textContent =
         'Der Link öffnet diese Hörübung. Persönliche Antworten und Notizen werden nicht geteilt.';
+      const sq = $('share-qr');
+      sq.innerHTML = typeof qrSVG === 'function' ? qrSVG(u.href, 'QR-Code zur Hörübung') : '';
+      sq.hidden = !sq.innerHTML;
       $('share-dialog').showModal();
       return;
     }
@@ -651,6 +654,7 @@ document.addEventListener('click', e => {
     u.searchParams.set('anzahl', config.count);
     $('share-url').value = u.href;
     $('copy-result').textContent = '';
+    if ($('share-qr')) $('share-qr').hidden = true;
     $('share-dialog').showModal();
   }
   if (b.id === 'copy-link') {
@@ -706,6 +710,7 @@ setupI18n();
 mirrorLanguageSelect();
 applyLook();
 if (params.get('hoeren')) openListening(params.get('hoeren'));
+else if (params.get('reihe')) openSeries(params.get('reihe'));
 else nav(params.has('kapitel') ? 'lernen' : 'start');
 setInterval(() => {
   if (prefs.skin === 'tag' && prefs.phase === 'auto') applyLook();

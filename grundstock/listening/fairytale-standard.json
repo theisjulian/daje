@@ -1,0 +1,309 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "listening",
+ "id": "fairytale-standard",
+ "title": "Fairytale of New York · Standard",
+ "language": "en",
+ "level": "B1",
+ "description": "Handlung, Stimmung und Wortschatz eines ungewöhnlichen Weihnachtsliedes.",
+ "topics": [
+  "Musik",
+  "Weihnachten",
+  "Beziehungen"
+ ],
+ "cover": "wave",
+ "estimatedMinutes": 17,
+ "media": {
+  "type": "youtube",
+  "videoId": "j9jbdgZidu8"
+ },
+ "transcript": "",
+ "series": "fairytale-of-new-york",
+ "seriesTitle": "Fairytale of New York · The Pogues",
+ "levelLabel": "Standard",
+ "teacherNotes": {
+  "warmup": [
+   "Bild: Weihnachtsmarkt vs. Gefängniszelle. Welche Geschichte passt?",
+   "Frage: Kennt ihr Weihnachtslieder, die nicht ganz fröhlich sind?"
+  ],
+  "steps": [
+   "1. Titel und Erwartung.",
+   "2. Hören in Abschnitten.",
+   "3. Wortschatz.",
+   "4. Fassungen und Zensur besprechen."
+  ],
+  "tips": [
+   "Ausgang: „Streitlied\" – Abstand wahren, nicht stereotyp verwenden.",
+   "Ältere Klassen: Diskussion über Sprache im Wandel."
+  ],
+  "followUp": [
+   "Wie wirkt die Mischung aus Streit und Zärtlichkeit auf dich?",
+   "Schreibe einen kurzen Dialog des Paares am nächsten Morgen."
+  ]
+ },
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+   "url": "",
+   "rights": "own"
+  },
+  {
+   "kind": "external",
+   "citation": "Offizielles Video beim Anbieter. Das Lied enthält beleidigende Wörter; im Radio gibt es bearbeitete Fassungen. Vor dem Einsatz Fassung und Eignung prüfen.",
+   "url": "https://www.youtube.com/watch?v=j9jbdgZidu8",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+ ],
+ "questions": [
+  {
+   "id": "q1",
+   "type": "true_false",
+   "prompt": "Vor dem Hören: „Fairytale of New York\" ist ein Weihnachtslied.",
+   "answer": true,
+   "explanation": "Es spielt an Heiligabend."
+  },
+  {
+   "id": "q2",
+   "type": "single_choice",
+   "prompt": "Beim Hören: Wo beginnt die Geschichte?",
+   "options": [
+    {
+     "id": "a",
+     "text": "In einer Zelle (Ausnüchterungszelle)"
+    },
+    {
+     "id": "b",
+     "text": "In einer Schule"
+    },
+    {
+     "id": "c",
+     "text": "In einem Flugzeug"
+    },
+    {
+     "id": "d",
+     "text": "In einem Restaurant"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Der Erzähler beginnt in der Ausnüchterungszelle der Polizei."
+  },
+  {
+   "id": "q3",
+   "type": "single_choice",
+   "prompt": "Wer singt abwechselnd?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Ein Mann und eine Frau"
+    },
+    {
+     "id": "b",
+     "text": "Zwei Männer"
+    },
+    {
+     "id": "c",
+     "text": "Ein Kinderchor"
+    },
+    {
+     "id": "d",
+     "text": "Nur ein Chor"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Ein Streitgespräch mit Duett."
+  },
+  {
+   "id": "q4",
+   "type": "single_choice",
+   "prompt": "Wie ist die Stimmung?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Zwischen Streit und Nostalgie"
+    },
+    {
+     "id": "b",
+     "text": "Nur lustig"
+    },
+    {
+     "id": "c",
+     "text": "Nur gruselig"
+    },
+    {
+     "id": "d",
+     "text": "Nur langweilig"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Mal zärtlich, mal bissig."
+  },
+  {
+   "id": "q5",
+   "type": "matching",
+   "prompt": "Wortschatz: Verbinde.",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Christmas Eve",
+     "right": "Heiligabend"
+    },
+    {
+     "id": "p2",
+     "left": "dream",
+     "right": "Traum"
+    },
+    {
+     "id": "p3",
+     "left": "argue",
+     "right": "streiten"
+    },
+    {
+     "id": "p4",
+     "left": "immigrant",
+     "right": "Einwanderer"
+    }
+   ],
+   "explanation": "Schlüsselbegriffe."
+  },
+  {
+   "id": "q6",
+   "type": "true_false",
+   "prompt": "Das Paar hat viel Geld und lebt luxuriös.",
+   "answer": false,
+   "explanation": "Die Geschichte erzählt von Armut und enttäuschten Träumen."
+  },
+  {
+   "id": "q7",
+   "type": "single_choice",
+   "prompt": "Welche Stadt steht im Titel?",
+   "options": [
+    {
+     "id": "a",
+     "text": "New York"
+    },
+    {
+     "id": "b",
+     "text": "London"
+    },
+    {
+     "id": "c",
+     "text": "Dublin"
+    },
+    {
+     "id": "d",
+     "text": "Boston"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Der Titel nennt New York."
+  },
+  {
+   "id": "q8",
+   "type": "gap_fill",
+   "prompt": "Ergänze (Christmas, dream, fight, memory).",
+   "text": "It is [[a]] Eve. The couple remembers a [[b]] and a [[c]] from the past, but also a happy [[d]].",
+   "gaps": [
+    {
+     "id": "a",
+     "acceptedAnswers": [
+      "Christmas"
+     ]
+    },
+    {
+     "id": "b",
+     "acceptedAnswers": [
+      "dream"
+     ]
+    },
+    {
+     "id": "c",
+     "acceptedAnswers": [
+      "fight"
+     ]
+    },
+    {
+     "id": "d",
+     "acceptedAnswers": [
+      "memory"
+     ]
+    }
+   ],
+   "explanation": "Wortfeld Weihnachten und Erinnerung."
+  },
+  {
+   "id": "q9",
+   "type": "single_choice",
+   "prompt": "Welche Musik bestimmt das Lied?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Irischer Folk/Punk mit Klavier"
+    },
+    {
+     "id": "b",
+     "text": "Heavy Metal"
+    },
+    {
+     "id": "c",
+     "text": "Techno"
+    },
+    {
+     "id": "d",
+     "text": "Reggae"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "The Pogues sind eine irische Folk-Punk-Band."
+  },
+  {
+   "id": "q10",
+   "type": "true_false",
+   "prompt": "Das Lied hat bis heute einen festen Platz in britischen Weihnachtsplaylists.",
+   "answer": true,
+   "explanation": "Es kehrt jedes Jahr in die Charts zurück."
+  },
+  {
+   "id": "q11",
+   "type": "single_choice",
+   "prompt": "Welcher Aspekt macht das Lied kontrovers?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Manche Wörter im Text sind beleidigend"
+    },
+    {
+     "id": "b",
+     "text": "Das Tempo"
+    },
+    {
+     "id": "c",
+     "text": "Die Länge"
+    },
+    {
+     "id": "d",
+     "text": "Der Titel"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Einige Zeilen wurden in Radiofassungen verändert."
+  },
+  {
+   "id": "q12",
+   "type": "short_answer",
+   "prompt": "Wie heißt die Band? (englisch, ein Wort + Nachname-Wort)",
+   "acceptedAnswers": [
+    "The Pogues",
+    "Pogues"
+   ],
+   "modelAnswer": "The Pogues",
+   "explanation": "Irische Band mit Sänger Shane MacGowan."
+  }
+ ],
+ "vocabularyIds": []
+}

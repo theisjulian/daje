@@ -1,0 +1,330 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "listening",
+ "id": "tusi-avanzata",
+ "title": "Tu si a fine do’ munno · Avanzata",
+ "language": "it",
+ "level": "B1",
+ "description": "Dialetto, identità e social: lingua del testo e articolo di approfondimento.",
+ "topics": [
+  "Musica",
+  "Dialetti",
+  "Società"
+ ],
+ "cover": "wave",
+ "estimatedMinutes": 17,
+ "media": {
+  "type": "youtube",
+  "videoId": "4zE1RnQnwcQ"
+ },
+ "transcript": "",
+ "series": "tu-si-a-fine-do-munno",
+ "seriesTitle": "Tu si a fine do’ munno · Angelo Famao",
+ "levelLabel": "Avanzata",
+ "teacherNotes": {
+  "warmup": [
+   "Parlate delle lingue che usate a casa. Quando cambiate lingua?",
+   "Domanda: lo standard è migliore del dialetto?"
+  ],
+  "steps": [
+   "1. Articolo sul dialetto (lettura).",
+   "2. Ascolto e identificazione di parole dialettali.",
+   "3. Traduzione in standard.",
+   "4. Discussione."
+  ],
+  "tips": [
+   "Collegare con identità regionale; usare esempi dei social."
+  ],
+  "followUp": [
+   "Scrivi un breve commento: i dialetti sono un valore o un limite?",
+   "Presenta una canzone in dialetto a scelta."
+  ]
+ },
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+   "url": "",
+   "rights": "own"
+  },
+  {
+   "kind": "external",
+   "citation": "Video ufficiale presso il fornitore; verificare incorporabilità e diritti prima dell’uso.",
+   "url": "https://www.youtube.com/watch?v=4zE1RnQnwcQ",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+ ],
+ "questions": [
+  {
+   "id": "q1",
+   "type": "single_choice",
+   "prompt": "Quale funzione ha il dialetto nel testo?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Dà identità e calore regionale"
+    },
+    {
+     "id": "b",
+     "text": "È un errore"
+    },
+    {
+     "id": "c",
+     "text": "Serve a nascondere il significato"
+    },
+    {
+     "id": "d",
+     "text": "È solo decorativo"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Dialetto come identità."
+  },
+  {
+   "id": "q2",
+   "type": "matching",
+   "prompt": "Collega le forme dialettali all’italiano.",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "si suonn",
+     "right": "sei un sogno"
+    },
+    {
+     "id": "p2",
+     "left": "je pens a te",
+     "right": "io penso a te"
+    },
+    {
+     "id": "p3",
+     "left": "teng",
+     "right": "ho"
+    },
+    {
+     "id": "p4",
+     "left": "o",
+     "right": "il"
+    }
+   ],
+   "explanation": "Esercizio di traduzione."
+  },
+  {
+   "id": "q3",
+   "type": "multiple_choice",
+   "prompt": "Che cosa si vede nella lingua del testo? (più risposte)",
+   "options": [
+    {
+     "id": "a",
+     "text": "Mescolanza di codici"
+    },
+    {
+     "id": "b",
+     "text": "Frasi molto lunghe"
+    },
+    {
+     "id": "c",
+     "text": "Espressioni affettive"
+    },
+    {
+     "id": "d",
+     "text": "Termini tecnici"
+    }
+   ],
+   "correctOptionIds": [
+    "a",
+    "c"
+   ],
+   "explanation": "Italiano e napoletano si alternano."
+  },
+  {
+   "id": "q4",
+   "type": "single_choice",
+   "prompt": "Perché i dialetti spopolano sui social (articolo sul dialetto)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Sono divertenti e creano identità"
+    },
+    {
+     "id": "b",
+     "text": "Sono obbligatori"
+    },
+    {
+     "id": "c",
+     "text": "Sono più semplici"
+    },
+    {
+     "id": "d",
+     "text": "Sono vietati"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Meme, battute, canzoni."
+  },
+  {
+   "id": "q5",
+   "type": "true_false",
+   "prompt": "Secondo l’articolo molti italiani parlano ancora un dialetto in famiglia.",
+   "answer": true,
+   "explanation": "L’articolo cita dati sulla diffusione."
+  },
+  {
+   "id": "q6",
+   "type": "single_choice",
+   "prompt": "Quale effetto ha il ritornello?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Ripetizione e vicinanza"
+    },
+    {
+     "id": "b",
+     "text": "Distacco"
+    },
+    {
+     "id": "c",
+     "text": "Noia"
+    },
+    {
+     "id": "d",
+     "text": "Rabbia"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Struttura ripetitiva e canto."
+  },
+  {
+   "id": "q7",
+   "type": "single_choice",
+   "prompt": "Che cosa significa “mescolare italiano e dialetto”?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Alternare due codici linguistici"
+    },
+    {
+     "id": "b",
+     "text": "Tradurre dall’inglese"
+    },
+    {
+     "id": "c",
+     "text": "Parlare piano"
+    },
+    {
+     "id": "d",
+     "text": "Parlare in fretta"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Code-switching."
+  },
+  {
+   "id": "q8",
+   "type": "gap_fill",
+   "prompt": "Completa (dialetto, identità, social, tradizione).",
+   "text": "Il [[a]] è parte dell’[[b]] regionale. Oggi si diffonde sui [[c]] e unisce [[d]] e modernità.",
+   "gaps": [
+    {
+     "id": "a",
+     "acceptedAnswers": [
+      "dialetto"
+     ]
+    },
+    {
+     "id": "b",
+     "acceptedAnswers": [
+      "identità"
+     ]
+    },
+    {
+     "id": "c",
+     "acceptedAnswers": [
+      "social"
+     ]
+    },
+    {
+     "id": "d",
+     "acceptedAnswers": [
+      "tradizione"
+     ]
+    }
+   ],
+   "explanation": "Lessico dell’articolo."
+  },
+  {
+   "id": "q9",
+   "type": "single_choice",
+   "prompt": "Quale registro usa l’artista?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Colloquiale e affettuoso"
+    },
+    {
+     "id": "b",
+     "text": "Burocratico"
+    },
+    {
+     "id": "c",
+     "text": "Scientifico"
+    },
+    {
+     "id": "d",
+     "text": "Poetico arcaico"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Tono diretto."
+  },
+  {
+   "id": "q10",
+   "type": "true_false",
+   "prompt": "La canzone è un esempio di musica popolare contemporanea.",
+   "answer": true,
+   "explanation": "Pop con elementi regionali."
+  },
+  {
+   "id": "q11",
+   "type": "short_answer",
+   "prompt": "Trova un sinonimo di “amore” (una parola).",
+   "acceptedAnswers": [
+    "affetto",
+    "passione",
+    "amore"
+   ],
+   "modelAnswer": "affetto",
+   "explanation": "Più risposte possibili."
+  },
+  {
+   "id": "q12",
+   "type": "single_choice",
+   "prompt": "Quale compito del foglio è consigliato?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Evidenziare le parti in dialetto e tradurle"
+    },
+    {
+     "id": "b",
+     "text": "Riscrivere il testo in inglese"
+    },
+    {
+     "id": "c",
+     "text": "Imparare a memoria"
+    },
+    {
+     "id": "d",
+     "text": "Cantare in coro"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Compito 1 del foglio."
+  }
+ ],
+ "vocabularyIds": []
+}

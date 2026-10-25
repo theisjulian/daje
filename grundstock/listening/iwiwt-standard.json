@@ -1,0 +1,316 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "listening",
+ "id": "iwiwt-standard",
+ "title": "I Want It That Way · Standard",
+ "language": "en",
+ "level": "B1",
+ "description": "Thema, Stimmung und Mehrdeutigkeit eines Popklassikers; Wortschatz und Reported Speech.",
+ "topics": [
+  "Musik",
+  "Liebe",
+  "Sprache"
+ ],
+ "cover": "wave",
+ "estimatedMinutes": 17,
+ "media": {
+  "type": "youtube",
+  "videoId": "4fndeDfaWCg"
+ },
+ "transcript": "",
+ "series": "i-want-it-that-way",
+ "seriesTitle": "I Want It That Way · Backstreet Boys",
+ "levelLabel": "Standard",
+ "teacherNotes": {
+  "warmup": [
+   "Hört den Anfang und sammelt Gefühle als Wortwolke.",
+   "Frage: Was ist ein „Ohrwurm\"? Warum bleiben manche Lieder im Kopf?"
+  ],
+  "steps": [
+   "1. Wortschatz klären.",
+   "2. Hören: Thema, Gefühl.",
+   "3. Mehrdeutigkeit diskutieren.",
+   "4. Mini-Aufsatz: „This or that way?\""
+  ],
+  "tips": [
+   "Gut als Brücke zu Songwriting und Pop-Industrie."
+  ],
+  "followUp": [
+   "Schreibe 100 Wörter: Was bedeutet „that way\" für dich?",
+   "Diskutiere: Müssen Liedtexte immer Sinn ergeben?"
+  ]
+ },
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+   "url": "",
+   "rights": "own"
+  },
+  {
+   "kind": "external",
+   "citation": "Offizielles Video beim Anbieter; Einbettbarkeit und Rechte vor dem Einsatz prüfen.",
+   "url": "https://www.youtube.com/watch?v=4fndeDfaWCg",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+ ],
+ "questions": [
+  {
+   "id": "q1",
+   "type": "short_answer",
+   "prompt": "Vor dem Hören: Nenne ein englisches Wort, das du bei einer Liebesballade erwartest.",
+   "acceptedAnswers": [
+    "love",
+    "heart",
+    "pain",
+    "miss",
+    "tears"
+   ],
+   "modelAnswer": "love / heart",
+   "explanation": "Erwartungen aktivieren."
+  },
+  {
+   "id": "q2",
+   "type": "matching",
+   "prompt": "Verbinde Wort und Bedeutung.",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "heartache",
+     "right": "seelischer Schmerz"
+    },
+    {
+     "id": "p2",
+     "left": "desire",
+     "right": "starker Wunsch"
+    },
+    {
+     "id": "p3",
+     "left": "distance",
+     "right": "räumlicher oder emotionaler Abstand"
+    },
+    {
+     "id": "p4",
+     "left": "ambiguous",
+     "right": "mehrdeutig"
+    }
+   ],
+   "explanation": "Wortschatz für das Gespräch über das Lied."
+  },
+  {
+   "id": "q3",
+   "type": "multiple_choice",
+   "prompt": "Welche Aussagen passen zum Lied? (mehrere)",
+   "options": [
+    {
+     "id": "a",
+     "text": "Die Beziehung ist schwierig"
+    },
+    {
+     "id": "b",
+     "text": "Es gibt Unsicherheit über die Wünsche des anderen"
+    },
+    {
+     "id": "c",
+     "text": "Das Lied beschreibt eine glückliche Hochzeit"
+    },
+    {
+     "id": "d",
+     "text": "Es geht um Sehnsucht"
+    },
+    {
+     "id": "e",
+     "text": "Es geht um ein Fußballspiel"
+    }
+   ],
+   "correctOptionIds": [
+    "a",
+    "b",
+    "d"
+   ],
+   "explanation": "Gefühlsmischung aus Liebe, Streit und Unklarheit."
+  },
+  {
+   "id": "q4",
+   "type": "single_choice",
+   "prompt": "Wie nennt man Lieder wie dieses?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Ballade"
+    },
+    {
+     "id": "b",
+     "text": "Marsch"
+    },
+    {
+     "id": "c",
+     "text": "Choral"
+    },
+    {
+     "id": "d",
+     "text": "Rap-Battle"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Ruhige, gefühlvolle Popballade."
+  },
+  {
+   "id": "q5",
+   "type": "single_choice",
+   "prompt": "Warum wird der Titel oft diskutiert?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Weil er schlecht geschrieben ist"
+    },
+    {
+     "id": "b",
+     "text": "Weil „that way\" nicht klar sagt, was gemeint ist"
+    },
+    {
+     "id": "c",
+     "text": "Weil er verboten wurde"
+    },
+    {
+     "id": "d",
+     "text": "Weil er sehr lang ist"
+    }
+   ],
+   "correctOptionId": "b",
+   "explanation": "Mehrdeutigkeit: Wer will was, und welcher „Weg\"?"
+  },
+  {
+   "id": "q6",
+   "type": "true_false",
+   "prompt": "Das Lied wurde von den Bandmitgliedern selbst geschrieben.",
+   "answer": false,
+   "explanation": "Es stammt von den Songwritern Max Martin und Andreas Carlsson."
+  },
+  {
+   "id": "q7",
+   "type": "single_choice",
+   "prompt": "Welche Zeitform passt? „Right now, they … together.\"",
+   "options": [
+    {
+     "id": "a",
+     "text": "is"
+    },
+    {
+     "id": "b",
+     "text": "are"
+    },
+    {
+     "id": "c",
+     "text": "am"
+    },
+    {
+     "id": "d",
+     "text": "be"
+    }
+   ],
+   "correctOptionId": "b",
+   "explanation": "Plural: are."
+  },
+  {
+   "id": "q8",
+   "type": "gap_fill",
+   "prompt": "Reported Speech: Ergänze.",
+   "text": "The singer said that he [[a]] his partner very much. He added that they [[b]] apart for too long.",
+   "gaps": [
+    {
+     "id": "a",
+     "acceptedAnswers": [
+      "loved"
+     ]
+    },
+    {
+     "id": "b",
+     "acceptedAnswers": [
+      "had been",
+      "were"
+     ]
+    }
+   ],
+   "explanation": "Backshift: love → loved; have been → had been."
+  },
+  {
+   "id": "q9",
+   "type": "single_choice",
+   "prompt": "Welche Ausdrucksform erzeugt im Chor Nähe?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Mehrstimmiger Gesang"
+    },
+    {
+     "id": "b",
+     "text": "Nur Schlagzeug"
+    },
+    {
+     "id": "c",
+     "text": "Rap"
+    },
+    {
+     "id": "d",
+     "text": "Sprechgesang"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Harmonien sind ein Markenzeichen der Band."
+  },
+  {
+   "id": "q10",
+   "type": "true_false",
+   "prompt": "Das Lied erzählt eine genaue Geschichte mit Anfang, Mitte und Schluss.",
+   "answer": false,
+   "explanation": "Es ist eher ein Gefühlsbild als eine Handlung."
+  },
+  {
+   "id": "q11",
+   "type": "short_answer",
+   "prompt": "Welches Adjektiv beschreibt die Stimmung am besten? (englisch)",
+   "acceptedAnswers": [
+    "melancholic",
+    "sad",
+    "emotional",
+    "longing",
+    "wistful",
+    "sentimental"
+   ],
+   "modelAnswer": "melancholic",
+   "explanation": "Mehrere Antworten sind möglich."
+  },
+  {
+   "id": "q12",
+   "type": "single_choice",
+   "prompt": "Welche Aussage über die Mehrdeutigkeit ist richtig?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Sie macht das Lied für viele Hörer persönlich deutbar."
+    },
+    {
+     "id": "b",
+     "text": "Sie macht es unverständlich."
+    },
+    {
+     "id": "c",
+     "text": "Sie ist ein Fehler."
+    },
+    {
+     "id": "d",
+     "text": "Sie kommt nur im Video vor."
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Offene Bedeutung = viele Anknüpfungspunkte."
+  }
+ ],
+ "vocabularyIds": []
+}

@@ -4,6 +4,8625 @@ const STOCK_PACKAGES = [
  {
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "50special-avanzata",
+  "title": "50 Special · Avanzata",
+  "language": "it",
+  "level": "B1",
+  "description": "Analisi dei simboli e del linguaggio, lessico e condizionale; comprensione dell’intervista a Cremonini.",
+  "topics": [
+   "Musica",
+   "Estate",
+   "Analisi"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "external",
+    "citation": "Video ufficiale presso il fornitore; verificare incorporabilità e diritti prima dell’uso.",
+    "url": "https://www.youtube.com/watch?v=NF9n5M5qhyU",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 18,
+  "media": {
+   "type": "youtube",
+   "videoId": "NF9n5M5qhyU"
+  },
+  "transcript": "",
+  "series": "50-special",
+  "seriesTitle": "50 Special · Lunapop",
+  "levelLabel": "Avanzata (livello superiore)",
+  "teacherNotes": {
+   "warmup": [
+    "Domanda: perché alcune canzoni diventano “tormentoni”?",
+    "Ascoltate 20 secondi: che immagini vi vengono?"
+   ],
+   "steps": [
+    "1. Ascolto globale.",
+    "2. Analisi del testo (tema, simboli).",
+    "3. Lessico e condizionale.",
+    "4. Intervista di Cremonini, domande di comprensione."
+   ],
+   "tips": [
+    "Per la versione avanzata usare il testo originale in file privato per le lacune."
+   ],
+   "followUp": [
+    "Scrivi un breve testo: Che cosa rappresenta per te un mezzo di libertà?",
+    "Confronta con una canzone estiva del tuo paese."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Analisi: Qual è il ruolo simbolico della Vespa nel testo?",
+    "explanation": "La Vespa rappresenta libertà, amicizia, giovinezza.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Libertà e giovinezza"
+     },
+     {
+      "id": "b",
+      "text": "Ricchezza"
+     },
+     {
+      "id": "c",
+      "text": "Pericolo"
+     },
+     {
+      "id": "d",
+      "text": "Lavoro"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q2",
+    "type": "multiple_choice",
+    "prompt": "Quali temi emergono? (più risposte)",
+    "explanation": "Temi leggeri e solari.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Libertà"
+     },
+     {
+      "id": "b",
+      "text": "Estate"
+     },
+     {
+      "id": "c",
+      "text": "Amicizia"
+     },
+     {
+      "id": "d",
+      "text": "Guerra"
+     },
+     {
+      "id": "e",
+      "text": "Paura"
+     }
+    ],
+    "correctOptionIds": [
+     "a",
+     "b",
+     "c"
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Come descriveresti il linguaggio della canzone?",
+    "explanation": "Lessico semplice, vicino ai giovani.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Semplice e colloquiale"
+     },
+     {
+      "id": "b",
+      "text": "Molto formale"
+     },
+     {
+      "id": "c",
+      "text": "Dialettale puro"
+     },
+     {
+      "id": "d",
+      "text": "Tecnico"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q4",
+    "type": "matching",
+    "prompt": "Collega termini e sinonimi.",
+    "explanation": "Parole del testo (verbi e aggettivi).",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "truccata",
+      "right": "modificata"
+     },
+     {
+      "id": "p2",
+      "left": "sfiorare",
+      "right": "quasi toccare"
+     },
+     {
+      "id": "p3",
+      "left": "ingranare",
+      "right": "inserire la marcia"
+     },
+     {
+      "id": "p4",
+      "left": "fare in fretta",
+      "right": "sbrigarsi"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q5",
+    "type": "true_false",
+    "prompt": "Il brano è stato scritto da cantautori anziani.",
+    "explanation": "I Lunapop erano molto giovani.",
+    "answer": false
+   },
+   {
+    "id": "q6",
+    "type": "single_choice",
+    "prompt": "Quali emozioni prevalgono?",
+    "explanation": "Tono positivo.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Spensieratezza e voglia di vivere"
+     },
+     {
+      "id": "b",
+      "text": "Rabbia"
+     },
+     {
+      "id": "c",
+      "text": "Nostalgia triste"
+     },
+     {
+      "id": "d",
+      "text": "Angoscia"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q7",
+    "type": "single_choice",
+    "prompt": "Perché il ritornello funziona bene?",
+    "explanation": "Elementi tipici dei tormentoni estivi.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Ripetizione e melodia semplice"
+     },
+     {
+      "id": "b",
+      "text": "È molto lungo"
+     },
+     {
+      "id": "c",
+      "text": "È sussurrato"
+     },
+     {
+      "id": "d",
+      "text": "Cambia ogni volta"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q8",
+    "type": "single_choice",
+    "prompt": "Che cos’è un “tormentone”?",
+    "explanation": "Tormentone = hit estivo.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Una canzone molto popolare in un’estate"
+     },
+     {
+      "id": "b",
+      "text": "Una canzone triste"
+     },
+     {
+      "id": "c",
+      "text": "Un tipo di danza"
+     },
+     {
+      "id": "d",
+      "text": "Un film"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q9",
+    "type": "matching",
+    "prompt": "Lessico: abbina.",
+    "explanation": "Parole legate a Bologna e alla campagna.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "il colle",
+      "right": "la collina"
+     },
+     {
+      "id": "p2",
+      "left": "la balotta",
+      "right": "il gruppo di amici (bolognese)"
+     },
+     {
+      "id": "p3",
+      "left": "la cascina",
+      "right": "la casa di campagna"
+     },
+     {
+      "id": "p4",
+      "left": "l’estate",
+      "right": "la stagione calda"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q10",
+    "type": "gap_fill",
+    "prompt": "Completa con il condizionale (vorrei, potrebbe, sarebbe, andrei).",
+    "explanation": "Esercizio sul condizionale.",
+    "text": "Io [[a]] con la Vespa al mare. Con gli amici [[b]] bellissimo. Una Vespa [[c]] portarci fuori città e [[d]] volentieri.",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "andrei"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "sarebbe"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "potrebbe"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "vorrei"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q11",
+    "type": "single_choice",
+    "prompt": "Intervista: Che cosa significa “la balotta”?",
+    "explanation": "Espressione bolognese.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Gruppo di amici"
+     },
+     {
+      "id": "b",
+      "text": "Squadra di calcio"
+     },
+     {
+      "id": "c",
+      "text": "Famiglia"
+     },
+     {
+      "id": "d",
+      "text": "Classe"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q12",
+    "type": "single_choice",
+    "prompt": "Quale squadra è tornata in Serie A nel 2015 (nell’intervista)?",
+    "explanation": "Cremonini parla del Bologna.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Bologna"
+     },
+     {
+      "id": "b",
+      "text": "Napoli"
+     },
+     {
+      "id": "c",
+      "text": "Torino"
+     },
+     {
+      "id": "d",
+      "text": "Palermo"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q13",
+    "type": "short_answer",
+    "prompt": "Con la sua Vespa rossa, in quale città della Romagna andava Cremonini da Bologna? (una parola)",
+    "explanation": "La tratta Bologna–Riccione.",
+    "acceptedAnswers": [
+     "Riccione"
+    ],
+    "modelAnswer": "Riccione"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "50special-base",
+  "title": "50 Special · Base",
+  "language": "it",
+  "level": "A2",
+  "description": "Tema, vocabolario e piccola intervista: una canzone sull’estate e sulla Vespa.",
+  "topics": [
+   "Musica",
+   "Estate",
+   "Bologna"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "external",
+    "citation": "Video ufficiale presso il fornitore; verificare incorporabilità e diritti prima dell’uso.",
+    "url": "https://www.youtube.com/watch?v=NF9n5M5qhyU",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 21,
+  "media": {
+   "type": "youtube",
+   "videoId": "NF9n5M5qhyU"
+  },
+  "transcript": "",
+  "series": "50-special",
+  "seriesTitle": "50 Special · Lunapop",
+  "levelLabel": "Base (livello intermedio)",
+  "teacherNotes": {
+   "warmup": [
+    "Immagine: una Vespa rossa su una strada di collina. Che cosa vi viene in mente?",
+    "Domanda: come immaginate l’estate perfetta in Italia?"
+   ],
+   "steps": [
+    "1. Impulso immagine e vocabolario.",
+    "2. Primo ascolto: tema e stato d’animo.",
+    "3. Secondo ascolto: dettagli e lacune (nel documento originale).",
+    "4. Lettura dell’intervista a Cremonini e trasformazione in terza persona."
+   ],
+   "tips": [
+    "Il testo originale della canzone resta nel file privato: usare solo per le lacune.",
+    "Chiedere agli alunni di segnare le parole ripetute nel ritornello."
+   ],
+   "followUp": [
+    "Che cosa ti dà libertà nella tua vita? Scrivi 3 frasi.",
+    "Cerca una canzone italiana sull’estate e presentala."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Prima dell’ascolto: Che cos’è una Vespa?",
+    "explanation": "La Vespa è uno scooter italiano famoso nel mondo.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Un tipo di scooter italiano"
+     },
+     {
+      "id": "b",
+      "text": "Un frutto"
+     },
+     {
+      "id": "c",
+      "text": "Un tipo di pasta"
+     },
+     {
+      "id": "d",
+      "text": "Un fiume"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q2",
+    "type": "single_choice",
+    "prompt": "Durante l’ascolto: Di che cosa parla la canzone?",
+    "explanation": "Il tema è la libertà dell’estate e della Vespa.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Di un giro in Vespa in estate"
+     },
+     {
+      "id": "b",
+      "text": "Di una gara di nuoto"
+     },
+     {
+      "id": "c",
+      "text": "Di una cena di Natale"
+     },
+     {
+      "id": "d",
+      "text": "Di una lezione di storia"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q3",
+    "type": "true_false",
+    "prompt": "Nella canzone qualcuno vuole andare fuori città.",
+    "explanation": "Il ritornello ripete il desiderio di partire.",
+    "answer": true
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Quale stagione è al centro della canzone?",
+    "explanation": "L’estate e le vacanze.",
+    "options": [
+     {
+      "id": "a",
+      "text": "L’estate"
+     },
+     {
+      "id": "b",
+      "text": "L’inverno"
+     },
+     {
+      "id": "c",
+      "text": "L’autunno"
+     },
+     {
+      "id": "d",
+      "text": "La primavera"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "Perché la Vespa è importante per il protagonista?",
+    "explanation": "La Vespa è simbolo di libertà.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Gli dà libertà e allontana i problemi"
+     },
+     {
+      "id": "b",
+      "text": "È molto costosa"
+     },
+     {
+      "id": "c",
+      "text": "È di suo padre"
+     },
+     {
+      "id": "d",
+      "text": "È rotta"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q6",
+    "type": "true_false",
+    "prompt": "La canzone nomina un posto vicino a Bologna (i colli).",
+    "explanation": "La zona di Bologna è importante nel testo e nella storia della band.",
+    "answer": true
+   },
+   {
+    "id": "q7",
+    "type": "gap_fill",
+    "prompt": "Completa le frasi (estate, Vespa, festa, vacanza).",
+    "explanation": "Vocabolario della canzone.",
+    "text": "Il ragazzo ha una [[a]] e vuole andare a una [[b]]. È [[c]] e vuole partire per una [[d]].",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "Vespa"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "festa"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "estate"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "vacanza"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q8",
+    "type": "matching",
+    "prompt": "Collega la parola al significato.",
+    "explanation": "Parole utili.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "la Vespa",
+      "right": "scooter italiano"
+     },
+     {
+      "id": "p2",
+      "left": "il colle",
+      "right": "collina"
+     },
+     {
+      "id": "p3",
+      "left": "la festa",
+      "right": "party"
+     },
+     {
+      "id": "p4",
+      "left": "girare",
+      "right": "andare in giro"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Quale città è la patria dei Lunapop?",
+    "explanation": "I Lunapop sono di Bologna.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Bologna"
+     },
+     {
+      "id": "b",
+      "text": "Napoli"
+     },
+     {
+      "id": "c",
+      "text": "Torino"
+     },
+     {
+      "id": "d",
+      "text": "Palermo"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "true_false",
+    "prompt": "Cesare Cremonini è il cantante dei Lunapop.",
+    "explanation": "Cremonini era il cantante della band.",
+    "answer": true
+   },
+   {
+    "id": "q11",
+    "type": "single_choice",
+    "prompt": "Quale espressione descrive l’atmosfera?",
+    "explanation": "Un brano leggero e solare.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Spensierata e allegra"
+     },
+     {
+      "id": "b",
+      "text": "Triste e lenta"
+     },
+     {
+      "id": "c",
+      "text": "Spaventosa"
+     },
+     {
+      "id": "d",
+      "text": "Noiosa"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q12",
+    "type": "single_choice",
+    "prompt": "Leggi l’intervista a Cremonini (testo breve): Dove è cresciuto?",
+    "explanation": "Racconta di essere cresciuto in campagna vicino a Bologna.",
+    "options": [
+     {
+      "id": "a",
+      "text": "In campagna vicino a Bologna"
+     },
+     {
+      "id": "b",
+      "text": "A Roma"
+     },
+     {
+      "id": "c",
+      "text": "A Milano"
+     },
+     {
+      "id": "d",
+      "text": "In montagna"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q13",
+    "type": "single_choice",
+    "prompt": "Chi cucinava i tortelloni la domenica?",
+    "explanation": "La nonna cucinava tortelloni e tagliatelle.",
+    "options": [
+     {
+      "id": "a",
+      "text": "La nonna"
+     },
+     {
+      "id": "b",
+      "text": "Il papà"
+     },
+     {
+      "id": "c",
+      "text": "Lo zio"
+     },
+     {
+      "id": "d",
+      "text": "Un amico"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q14",
+    "type": "single_choice",
+    "prompt": "Come chiama Cremonini il gruppo di amici a Bologna?",
+    "explanation": "La compagnia di amici si chiama “la balotta”.",
+    "options": [
+     {
+      "id": "a",
+      "text": "La balotta"
+     },
+     {
+      "id": "b",
+      "text": "La pizza"
+     },
+     {
+      "id": "c",
+      "text": "La famiglia"
+     },
+     {
+      "id": "d",
+      "text": "La squadra"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q15",
+    "type": "short_answer",
+    "prompt": "Trasforma in terza persona: “Io sono cresciuto in campagna.” → Lui è cresciuto … (completa con una parola)",
+    "explanation": "Passaggio da io a lui.",
+    "acceptedAnswers": [
+     "in campagna"
+    ],
+    "modelAnswer": "in campagna"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "american-pie-basis",
+  "title": "American Pie · Basis",
+  "language": "en",
+  "level": "A2",
+  "description": "Geschichte und Stimmung des Folk-Klassikers; einfache Wörter und „used to\".",
+  "topics": [
+   "Musik",
+   "Geschichte",
+   "USA"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "external",
+    "citation": "Lyric-Video bei YouTube (Anbieter nicht geprüft); alternativ eine offizielle Aufnahme verwenden. Einbettbarkeit und Rechte prüfen.",
+    "url": "https://www.youtube.com/watch?v=PRpiBpDy7MQ",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 17,
+  "media": {
+   "type": "youtube",
+   "videoId": "PRpiBpDy7MQ"
+  },
+  "transcript": "",
+  "series": "american-pie",
+  "seriesTitle": "American Pie · Don McLean",
+  "levelLabel": "Basis",
+  "teacherNotes": {
+   "warmup": [
+    "Bild: Foto von 1950er US-Jugendkultur (Diner, Jukebox, Chevy). Was seht ihr?",
+    "Was war „die gute alte Zeit\" für eure Großeltern?"
+   ],
+   "steps": [
+    "1. Bild und Kontext.",
+    "2. Hören in Abschnitten (Strophe 1 + Refrain).",
+    "3. Wortschatz.",
+    "4. Gefühle sammeln."
+   ],
+   "tips": [
+    "Das Lied ist lang – in zwei Sitzungen teilen oder nur den Anfang nutzen.",
+    "Lückentext mit dem Original privat importieren; Refrain-Wörter getrennt setzen, damit Wiederholungen nicht verraten."
+   ],
+   "followUp": [
+    "Wie fühlst du dich beim Hören? Schreibe zwei Sätze.",
+    "Welches Ereignis würdest du in einem eigenen Lied festhalten?"
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "true_false",
+    "prompt": "Vor dem Hören: „American Pie\" ist ein sehr langes Lied (mehr als acht Minuten).",
+    "explanation": "Die Albumfassung dauert über 8 Minuten.",
+    "answer": true
+   },
+   {
+    "id": "q2",
+    "type": "single_choice",
+    "prompt": "Beim Hören: In welchem Jahrzehnt erschien das Lied?",
+    "explanation": "Veröffentlicht 1971.",
+    "options": [
+     {
+      "id": "a",
+      "text": "1950er"
+     },
+     {
+      "id": "b",
+      "text": "1970er"
+     },
+     {
+      "id": "c",
+      "text": "1990er"
+     },
+     {
+      "id": "d",
+      "text": "2010er"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Welches Ereignis nennt der Sänger „the day the music died\"?",
+    "explanation": "Am 3. Februar 1959 starben Buddy Holly, Ritchie Valens und The Big Bopper.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Ein Flugzeugabsturz mit drei Rockstars 1959"
+     },
+     {
+      "id": "b",
+      "text": "Ein Brand in einem Konzertsaal"
+     },
+     {
+      "id": "c",
+      "text": "Das Ende des Radios"
+     },
+     {
+      "id": "d",
+      "text": "Ein Sturm"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Welchen Job hatte der Erzähler als Jugendlicher?",
+    "explanation": "Er lieferte Zeitungen aus und erfuhr so vom Unglück.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Zeitungsausträger"
+     },
+     {
+      "id": "b",
+      "text": "Koch"
+     },
+     {
+      "id": "c",
+      "text": "Pilot"
+     },
+     {
+      "id": "d",
+      "text": "Lehrer"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q5",
+    "type": "multiple_choice",
+    "prompt": "Welche Dinge nennt das Lied oder gehören zum Thema? (mehrere)",
+    "explanation": "Alltagsbilder der amerikanischen Kultur der 50er/60er.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Musik"
+     },
+     {
+      "id": "b",
+      "text": "Tanzen"
+     },
+     {
+      "id": "c",
+      "text": "Autos (Chevy)"
+     },
+     {
+      "id": "d",
+      "text": "Unterwasserwelt"
+     },
+     {
+      "id": "e",
+      "text": "Whiskey und Rye"
+     }
+    ],
+    "correctOptionIds": [
+     "a",
+     "b",
+     "c",
+     "e"
+    ]
+   },
+   {
+    "id": "q6",
+    "type": "gap_fill",
+    "prompt": "Setze die Wörter ein (music, dance, school, radio, smile).",
+    "explanation": "Alltag eines Jugendlichen in den 50ern.",
+    "text": "The singer remembers how the [[a]] made him [[b]]. He went to [[c]] and listened to the [[d]].",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "music"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "smile"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "school"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "radio"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q7",
+    "type": "single_choice",
+    "prompt": "Wie ist die Stimmung des Liedes?",
+    "explanation": "Rückblick mit Wehmut.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Wehmütig und nachdenklich"
+     },
+     {
+      "id": "b",
+      "text": "Aggressiv"
+     },
+     {
+      "id": "c",
+      "text": "Humorvoll"
+     },
+     {
+      "id": "d",
+      "text": "Gruselig"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q8",
+    "type": "matching",
+    "prompt": "Verbinde die Wörter mit der Bedeutung.",
+    "explanation": "Wörter aus dem Refrain-Wortfeld.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "levee",
+      "right": "Damm"
+     },
+     {
+      "id": "p2",
+      "left": "whiskey",
+      "right": "Whisky"
+     },
+     {
+      "id": "p3",
+      "left": "dry",
+      "right": "trocken"
+     },
+     {
+      "id": "p4",
+      "left": "pie",
+      "right": "Kuchen"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Welches Instrument prägt den Anfang?",
+    "explanation": "Folk-Rock mit Gitarre und später Band.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Gitarre / Folk-Sound"
+     },
+     {
+      "id": "b",
+      "text": "Dudelsack"
+     },
+     {
+      "id": "c",
+      "text": "Trompete"
+     },
+     {
+      "id": "d",
+      "text": "Synthesizer"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "single_choice",
+    "prompt": "Übersetze: „I used to listen to the radio.\"",
+    "explanation": "used to = früher (gewohnheitsmäßig).",
+    "options": [
+     {
+      "id": "a",
+      "text": "Ich höre jetzt Radio."
+     },
+     {
+      "id": "b",
+      "text": "Früher habe ich Radio gehört."
+     },
+     {
+      "id": "c",
+      "text": "Ich werde Radio hören."
+     },
+     {
+      "id": "d",
+      "text": "Ich habe nie Radio gehört."
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q11",
+    "type": "true_false",
+    "prompt": "Das Lied ist nur ein Tanzlied ohne tieferen Sinn.",
+    "explanation": "Viele deuten es als Rückblick auf das Ende einer Ära.",
+    "answer": false
+   },
+   {
+    "id": "q12",
+    "type": "short_answer",
+    "prompt": "Wie heißt der Sänger? (Nachname)",
+    "explanation": "Don McLean.",
+    "acceptedAnswers": [
+     "McLean",
+     "Mclean"
+    ],
+    "modelAnswer": "McLean"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "american-pie-standard",
+  "title": "American Pie · Standard",
+  "language": "en",
+  "level": "B2",
+  "description": "Deutung des Klassikers: Kontext, Bilder, Erinnerung; Vergangenheitsformen und Fachbegriffe.",
+  "topics": [
+   "Musik",
+   "Geschichte",
+   "Interpretation"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "external",
+    "citation": "Lyric-Video bei YouTube (Anbieter nicht geprüft); alternativ eine offizielle Aufnahme verwenden. Einbettbarkeit und Rechte prüfen.",
+    "url": "https://www.youtube.com/watch?v=PRpiBpDy7MQ",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 17,
+  "media": {
+   "type": "youtube",
+   "videoId": "PRpiBpDy7MQ"
+  },
+  "transcript": "",
+  "series": "american-pie",
+  "seriesTitle": "American Pie · Don McLean",
+  "levelLabel": "Standard",
+  "teacherNotes": {
+   "warmup": [
+    "Bild-Impuls: Titelseite einer Zeitung von 1959. Was ist passiert?",
+    "Frage: Welches Ereignis markiert für eure Generation „das Ende einer Ära\"?"
+   ],
+   "steps": [
+    "1. Kontext 1959 klären.",
+    "2. Hören mit Suchauftrag: Bilder, Figuren.",
+    "3. Interpretationsrunde.",
+    "4. Sprachlicher Teil."
+   ],
+   "tips": [
+    "Wikipedia/Songfacts zur Deutung als Hintergrundlektüre.",
+    "Lückentext privat importieren."
+   ],
+   "followUp": [
+    "Welche Deutung überzeugt dich? Begründe in 100 Wörtern.",
+    "Schreibe die Chronik eines Ereignisses, das du erlebt hast, als „Song-Prosa\"."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Vor dem Hören: Was bedeutet „the day the music died\"?",
+    "explanation": "Metapher für den Tod mehrerer Rockpioniere 1959.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Das Radio ging kaputt"
+     },
+     {
+      "id": "b",
+      "text": "Ein tragisches Ereignis, das für viele das Ende einer Musikepoche markierte"
+     },
+     {
+      "id": "c",
+      "text": "Ein Konzert wurde abgesagt"
+     },
+     {
+      "id": "d",
+      "text": "Ein Lied wurde verboten"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "Bringe die Ebenen der Interpretation in sinnvolle Reihenfolge (konkret → abstrakt).",
+    "explanation": "Das Lied wird oft als Chronik des Wandels gelesen.",
+    "items": [
+     {
+      "id": "o1",
+      "text": "Zeitungsausträger erfährt von einem Unglück"
+     },
+     {
+      "id": "o2",
+      "text": "Trauer um drei Musiker"
+     },
+     {
+      "id": "o3",
+      "text": "Ende der unschuldigen Rock-’n’-Roll-Zeit"
+     },
+     {
+      "id": "o4",
+      "text": "Wandel der US-Gesellschaft in den 1960ern"
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "multiple_choice",
+    "prompt": "Welche Figuren/Bilder werden oft symbolisch gedeutet? (mehrere)",
+    "explanation": "Viele Zeilen gelten als Chiffren für Musiker und Ereignisse.",
+    "options": [
+     {
+      "id": "a",
+      "text": "König, Königin, Narr (Jester)"
+     },
+     {
+      "id": "b",
+      "text": "Chevy am Damm"
+     },
+     {
+      "id": "c",
+      "text": "Eine Wetterstation"
+     },
+     {
+      "id": "d",
+      "text": "Quartett im Park"
+     }
+    ],
+    "correctOptionIds": [
+     "a",
+     "b",
+     "d"
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Was zeigt das Lied über Erinnerung?",
+    "explanation": "Nostalgie schafft Mythen.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Sie ist immer objektiv"
+     },
+     {
+      "id": "b",
+      "text": "Sie ist emotional gefärbt und verklärt Vergangenes"
+     },
+     {
+      "id": "c",
+      "text": "Sie ist nutzlos"
+     },
+     {
+      "id": "d",
+      "text": "Sie ist unwichtig"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "Welche Textform dominiert?",
+    "explanation": "Strophen erzählen, Refrain bindet zusammen.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Erzählend mit Refrain"
+     },
+     {
+      "id": "b",
+      "text": "Dialog"
+     },
+     {
+      "id": "c",
+      "text": "Brief"
+     },
+     {
+      "id": "d",
+      "text": "Dramatischer Monolog"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q6",
+    "type": "matching",
+    "prompt": "Verbinde Begriff und Bedeutung.",
+    "explanation": "Fachbegriffe für Interpretation.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "nostalgia",
+      "right": "Sehnsucht nach der Vergangenheit"
+     },
+     {
+      "id": "p2",
+      "left": "metaphor",
+      "right": "Bild im übertragenen Sinn"
+     },
+     {
+      "id": "p3",
+      "left": "era",
+      "right": "Zeitalter"
+     },
+     {
+      "id": "p4",
+      "left": "mourning",
+      "right": "Trauer"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q7",
+    "type": "gap_fill",
+    "prompt": "Ergänze: used to / would / was / had.",
+    "explanation": "Verschiedene Vergangenheitsformen.",
+    "text": "When he was young, he [[a]] listen to the radio every night. He [[b]] dance with friends. Later he realised that the music [[c]] changed and nothing [[d]] the same.",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "used to"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "would"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "had"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "was"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q8",
+    "type": "true_false",
+    "prompt": "Die genaue Bedeutung aller Zeilen ist offiziell erklärt.",
+    "explanation": "McLean hat nie jede Zeile erklärt; Deutungen sind offen.",
+    "answer": false
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Wie beeinflusst die Länge des Liedes die Wirkung?",
+    "explanation": "Das Lied verläuft in Kapiteln.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Sie wirkt wie eine erzählte Chronik"
+     },
+     {
+      "id": "b",
+      "text": "Sie macht es nur ermüdend"
+     },
+     {
+      "id": "c",
+      "text": "Sie ist Zufall"
+     },
+     {
+      "id": "d",
+      "text": "Sie ist Vorgabe des Radios"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "single_choice",
+    "prompt": "Kontext: Welche Gruppe von Hörern fühlt sich besonders angesprochen?",
+    "explanation": "Generationenerfahrung.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Menschen, die die 60er erlebt haben"
+     },
+     {
+      "id": "b",
+      "text": "Nur Kinder"
+     },
+     {
+      "id": "c",
+      "text": "Nur Musiker"
+     },
+     {
+      "id": "d",
+      "text": "Niemand"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q11",
+    "type": "short_answer",
+    "prompt": "Nenne ein Wort für „Wehmut\" (englisch).",
+    "explanation": "Mehrere Wörter möglich.",
+    "acceptedAnswers": [
+     "nostalgia",
+     "wistfulness",
+     "melancholy"
+    ],
+    "modelAnswer": "nostalgia"
+   },
+   {
+    "id": "q12",
+    "type": "true_false",
+    "prompt": "Das Lied ist ein gutes Beispiel für Folk-Rock.",
+    "explanation": "Gitarrengeführt, erzählend, später mit Band.",
+    "answer": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "ceancoradomani-avanzata",
+  "title": "C’è ancora domani · Avanzata",
+  "language": "it",
+  "level": "B2",
+  "description": "Analisi di stile, temi e lessico astratto; tempi del passato e commento.",
+  "topics": [
+   "Film",
+   "Analisi",
+   "Società"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 17,
+  "media": {
+   "type": "film",
+   "title": "C’è ancora domani",
+   "year": 2023,
+   "scene": "Film in bianco e nero ambientato a Roma, quartiere Testaccio, nel 1946."
+  },
+  "transcript": "",
+  "series": "ce-ancora-domani",
+  "seriesTitle": "C’è ancora domani · Paola Cortellesi",
+  "levelLabel": "Avanzata",
+  "teacherNotes": {
+   "warmup": [
+    "Domanda: quali film conoscete sul ruolo delle donne nella storia?",
+    "Impulso: ascoltate la prima canzone e discutete l’effetto."
+   ],
+   "steps": [
+    "1. Lettura dell’articolo.",
+    "2. Visione e analisi.",
+    "3. Lessico.",
+    "4. Discussione: la lotta per l’uguaglianza è finita?"
+   ],
+   "tips": [
+    "Preparare gli alunni al tema."
+   ],
+   "followUp": [
+    "Riassumi l’articolo in 80–100 parole.",
+    "Commento personale: La lotta per l’uguaglianza non è finita."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Quale funzione ha il bianco e nero?",
+    "explanation": "Estetica che richiama la memoria.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Creare distanza e valore simbolico"
+     },
+     {
+      "id": "b",
+      "text": "Ridurre i costi"
+     },
+     {
+      "id": "c",
+      "text": "Imitare la TV"
+     },
+     {
+      "id": "d",
+      "text": "Nessuna"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q2",
+    "type": "single_choice",
+    "prompt": "Come è rappresentata la violenza?",
+    "explanation": "Scelta stilistica che ha fatto discutere.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Con coreografie quasi danzate"
+     },
+     {
+      "id": "b",
+      "text": "In modo molto realistico"
+     },
+     {
+      "id": "c",
+      "text": "Mai mostrata"
+     },
+     {
+      "id": "d",
+      "text": "Con commenti"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Perché la storia di Delia è rappresentativa?",
+    "explanation": "Come nelle storie di nonne e bisnonne.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Racconta l’esperienza di molte donne dell’epoca"
+     },
+     {
+      "id": "b",
+      "text": "È una storia vera di una persona"
+     },
+     {
+      "id": "c",
+      "text": "È una fiaba"
+     },
+     {
+      "id": "d",
+      "text": "È un caso unico"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q4",
+    "type": "multiple_choice",
+    "prompt": "Quali temi emergono? (più risposte)",
+    "explanation": "Temi centrali.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Patriarcato"
+     },
+     {
+      "id": "b",
+      "text": "Povertà"
+     },
+     {
+      "id": "c",
+      "text": "Solidarietà tra donne"
+     },
+     {
+      "id": "d",
+      "text": "Sport"
+     },
+     {
+      "id": "e",
+      "text": "Turismo"
+     }
+    ],
+    "correctOptionIds": [
+     "a",
+     "b",
+     "c"
+    ]
+   },
+   {
+    "id": "q5",
+    "type": "matching",
+    "prompt": "Collega concetti e definizioni.",
+    "explanation": "Lessico per l’analisi.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "il patriarcato",
+      "right": "sistema in cui gli uomini hanno più potere"
+     },
+     {
+      "id": "p2",
+      "left": "la dignità",
+      "right": "rispetto di sé"
+     },
+     {
+      "id": "p3",
+      "left": "il sacrificio",
+      "right": "rinuncia per aiutare gli altri"
+     },
+     {
+      "id": "p4",
+      "left": "l’uguaglianza",
+      "right": "stessi diritti per tutte le persone"
+     },
+     {
+      "id": "p5",
+      "left": "l’indipendenza economica",
+      "right": "possibilità di mantenersi da sola"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q6",
+    "type": "single_choice",
+    "prompt": "Che ruolo ha la musica moderna nel film?",
+    "explanation": "Contrasto tra epoca e musica.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Crea un effetto di attualità e contrasto"
+     },
+     {
+      "id": "b",
+      "text": "Serve a riempire"
+     },
+     {
+      "id": "c",
+      "text": "È casuale"
+     },
+     {
+      "id": "d",
+      "text": "Non c’è"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q7",
+    "type": "true_false",
+    "prompt": "Il finale dà una conclusione positiva e simbolica.",
+    "explanation": "Il voto diventa atto di libertà.",
+    "answer": true
+   },
+   {
+    "id": "q8",
+    "type": "single_choice",
+    "prompt": "Perché il diritto di voto è importante?",
+    "explanation": "È un passo storico.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Rappresenta l’emancipazione e la dignità"
+     },
+     {
+      "id": "b",
+      "text": "Serve solo alle elezioni"
+     },
+     {
+      "id": "c",
+      "text": "È decorativo"
+     },
+     {
+      "id": "d",
+      "text": "È vietato"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Che effetto ha il dialetto?",
+    "explanation": "Autenticità.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Rende i personaggi autentici e popolari"
+     },
+     {
+      "id": "b",
+      "text": "Confonde"
+     },
+     {
+      "id": "c",
+      "text": "È decorativo"
+     },
+     {
+      "id": "d",
+      "text": "È un errore"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "gap_fill",
+    "prompt": "Passato prossimo e imperfetto: completa.",
+    "explanation": "Uso dei tempi del passato.",
+    "text": "Delia [[a]] (essere) una donna forte. Ogni giorno [[b]] (lavorare) molto e [[c]] (sperare) in un futuro migliore. Alla fine [[d]] (decidere) di votare.",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "era"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "lavorava"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "sperava"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "ha deciso"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q11",
+    "type": "single_choice",
+    "prompt": "Tipologia testuale: l’articolo sul film è…",
+    "explanation": "Testo informativo con elementi di commento.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Una recensione informativa"
+     },
+     {
+      "id": "b",
+      "text": "Un dialogo"
+     },
+     {
+      "id": "c",
+      "text": "Una poesia"
+     },
+     {
+      "id": "d",
+      "text": "Una ricetta"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q12",
+    "type": "short_answer",
+    "prompt": "Scrivi un aggettivo che descrive Delia.",
+    "explanation": "Varie risposte possibili.",
+    "acceptedAnswers": [
+     "coraggiosa",
+     "forte",
+     "paziente",
+     "determinata",
+     "sensibile"
+    ],
+    "modelAnswer": "coraggiosa"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "ceancoradomani-base",
+  "title": "C’è ancora domani · Base",
+  "language": "it",
+  "level": "B1",
+  "description": "Contesto storico, personaggi e temi del film di Cortellesi; lessico del dopoguerra.",
+  "topics": [
+   "Film",
+   "Storia",
+   "Donne"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 20,
+  "media": {
+   "type": "film",
+   "title": "C’è ancora domani",
+   "year": 2023,
+   "scene": "Film in bianco e nero ambientato a Roma, quartiere Testaccio, nel 1946."
+  },
+  "transcript": "",
+  "series": "ce-ancora-domani",
+  "seriesTitle": "C’è ancora domani · Paola Cortellesi",
+  "levelLabel": "Base",
+  "teacherNotes": {
+   "warmup": [
+    "Immagine: una scheda elettorale del 1946. Che cosa vi dice?",
+    "Domanda: da quando votano le donne nel vostro paese?"
+   ],
+   "steps": [
+    "1. Contesto storico (1946).",
+    "2. Visione.",
+    "3. Compiti di comprensione.",
+    "4. Discussione sulla condizione femminile."
+   ],
+   "tips": [
+    "Il film mostra violenza domestica: informare la classe prima.",
+    "Collegamento con educazione civica."
+   ],
+   "followUp": [
+    "Descrivi Delia in 5 frasi.",
+    "Che cosa significa “C’è ancora domani” per te?"
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "true_false",
+    "prompt": "Prima del film: Il film è ambientato nel secondo dopoguerra.",
+    "explanation": "Siamo a Roma, nel 1946.",
+    "answer": true
+   },
+   {
+    "id": "q2",
+    "type": "single_choice",
+    "prompt": "Chi è Delia?",
+    "explanation": "Delia vive a Testaccio.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Una casalinga romana con tre figli"
+     },
+     {
+      "id": "b",
+      "text": "Una maestra"
+     },
+     {
+      "id": "c",
+      "text": "Una dottoressa"
+     },
+     {
+      "id": "d",
+      "text": "Una cantante"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Come si chiama il marito?",
+    "explanation": "Ivano, interpretato da Valerio Mastandrea.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Ivano"
+     },
+     {
+      "id": "b",
+      "text": "Nino"
+     },
+     {
+      "id": "c",
+      "text": "Franco"
+     },
+     {
+      "id": "d",
+      "text": "Marco"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q4",
+    "type": "true_false",
+    "prompt": "Delia ha un rapporto sereno con il marito.",
+    "explanation": "Il marito è dispotico e violento.",
+    "answer": false
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "Come si chiama la figlia grande?",
+    "explanation": "Marcella sogna una vita diversa.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Marcella"
+     },
+     {
+      "id": "b",
+      "text": "Lucia"
+     },
+     {
+      "id": "c",
+      "text": "Franca"
+     },
+     {
+      "id": "d",
+      "text": "Giulia"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q6",
+    "type": "single_choice",
+    "prompt": "Perché il film è in bianco e nero?",
+    "explanation": "Scelta stilistica.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Per evocare il passato e un effetto da fiaba/ricordo"
+     },
+     {
+      "id": "b",
+      "text": "Per risparmiare"
+     },
+     {
+      "id": "c",
+      "text": "Perché è vecchio"
+     },
+     {
+      "id": "d",
+      "text": "Per caso"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q7",
+    "type": "gap_fill",
+    "prompt": "Completa (voto, donne, lettera, 1946).",
+    "explanation": "Collegamento tra storia e Storia.",
+    "text": "Nel [[a]] le [[b]] votano per la prima volta. Delia riceve una [[c]] misteriosa: è importante per il suo [[d]].",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "1946"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "donne"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "lettera"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "voto"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q8",
+    "type": "matching",
+    "prompt": "Abbina personaggio e ruolo.",
+    "explanation": "I personaggi principali.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Delia",
+      "right": "madre e protagonista"
+     },
+     {
+      "id": "p2",
+      "left": "Ivano",
+      "right": "marito violento"
+     },
+     {
+      "id": "p3",
+      "left": "Marcella",
+      "right": "figlia che vuole sposarsi"
+     },
+     {
+      "id": "p4",
+      "left": "Marisa",
+      "right": "amica di Delia"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Quale tema è centrale?",
+    "explanation": "Tema principale.",
+    "options": [
+     {
+      "id": "a",
+      "text": "La condizione femminile nel dopoguerra"
+     },
+     {
+      "id": "b",
+      "text": "Il calcio"
+     },
+     {
+      "id": "c",
+      "text": "La moda"
+     },
+     {
+      "id": "d",
+      "text": "La scuola"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "true_false",
+    "prompt": "Il film ha vinto più premi (David di Donatello, Nastro d’Argento).",
+    "explanation": "Ha ricevuto molti riconoscimenti.",
+    "answer": true
+   },
+   {
+    "id": "q11",
+    "type": "single_choice",
+    "prompt": "Quale dialetto parlano molti personaggi?",
+    "explanation": "Roma, quartiere Testaccio.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Romanesco"
+     },
+     {
+      "id": "b",
+      "text": "Napoletano"
+     },
+     {
+      "id": "c",
+      "text": "Veneto"
+     },
+     {
+      "id": "d",
+      "text": "Siciliano"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q12",
+    "type": "matching",
+    "prompt": "Lessico: abbina.",
+    "explanation": "Parole chiave dell’esercizio lessicale.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "il dopoguerra",
+      "right": "periodo dopo una guerra"
+     },
+     {
+      "id": "p2",
+      "left": "il diritto di voto",
+      "right": "diritto di partecipare alle elezioni"
+     },
+     {
+      "id": "p3",
+      "left": "la violenza domestica",
+      "right": "violenza in famiglia"
+     },
+     {
+      "id": "p4",
+      "left": "l’emancipazione",
+      "right": "conquista di libertà"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q13",
+    "type": "single_choice",
+    "prompt": "Che cosa significa il titolo?",
+    "explanation": "Il domani è ancora possibile.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Speranza nel futuro"
+     },
+     {
+      "id": "b",
+      "text": "La fine di tutto"
+     },
+     {
+      "id": "c",
+      "text": "Una promessa mantenuta"
+     },
+     {
+      "id": "d",
+      "text": "Una minaccia"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q14",
+    "type": "true_false",
+    "prompt": "Dopo il film: Il film collega passato e presente.",
+    "explanation": "La violenza e l’uguaglianza sono temi attuali.",
+    "answer": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "dlbia-standard",
+  "title": "Don’t Look Back in Anger · Standard",
+  "language": "en",
+  "level": "B1",
+  "description": "Thema und Stimmung des Britpop-Klassikers; Wortschatz zu Gefühlen und Ratschlägen.",
+  "topics": [
+   "Musik",
+   "Britpop",
+   "Gefühle"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "external",
+    "citation": "Offizielles Video beim Anbieter; Einbettbarkeit und Rechte vor dem Einsatz prüfen.",
+    "url": "https://www.youtube.com/watch?v=YZG7z4FOn0g",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 17,
+  "media": {
+   "type": "youtube",
+   "videoId": "YZG7z4FOn0g"
+  },
+  "transcript": "",
+  "series": "dont-look-back",
+  "seriesTitle": "Don’t Look Back in Anger · Oasis",
+  "levelLabel": "Standard",
+  "teacherNotes": {
+   "warmup": [
+    "Bild: Skyline von Manchester. Was wisst ihr über die Stadt?",
+    "Frage: Wann ist es besser, etwas loszulassen?"
+   ],
+   "steps": [
+    "1. Kontext Britpop.",
+    "2. Hören: Intro, Stimmung.",
+    "3. Wortschatz.",
+    "4. Gespräch über Loslassen."
+   ],
+   "tips": [
+    "Gut kombinierbar mit Aktualität (Anschlag 2017) – sensibel behandeln.",
+    "Lückentext privat importieren."
+   ],
+   "followUp": [
+    "Worüber solltest du „nicht im Zorn zurückblicken\"? Schreibe drei Sätze."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "short_answer",
+    "prompt": "Vor dem Hören: Aus welcher Stadt kommt die Band Oasis? (ein Wort)",
+    "explanation": "Oasis wurde in Manchester gegründet.",
+    "acceptedAnswers": [
+     "Manchester"
+    ],
+    "modelAnswer": "Manchester"
+   },
+   {
+    "id": "q2",
+    "type": "true_false",
+    "prompt": "Britpop war eine britische Musikrichtung der 1990er.",
+    "explanation": "Oasis und Blur waren die bekanntesten Bands.",
+    "answer": true
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Beim Hören: Wie beginnt das Lied?",
+    "explanation": "Das Klavier-Intro ist sehr bekannt.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Mit einem Klavier"
+     },
+     {
+      "id": "b",
+      "text": "Mit Schlagzeug-Solo"
+     },
+     {
+      "id": "c",
+      "text": "Mit Dudelsack"
+     },
+     {
+      "id": "d",
+      "text": "A cappella"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Welche Grundbotschaft hat das Lied?",
+    "explanation": "Der Titel ist selbst die Botschaft.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Man soll nicht im Zorn zurückblicken, sondern loslassen"
+     },
+     {
+      "id": "b",
+      "text": "Man soll immer streiten"
+     },
+     {
+      "id": "c",
+      "text": "Man soll auswandern"
+     },
+     {
+      "id": "d",
+      "text": "Man soll Rache nehmen"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q5",
+    "type": "matching",
+    "prompt": "Wortschatz: Verbinde.",
+    "explanation": "Wörter aus dem Themenfeld.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "anger",
+      "right": "Wut"
+     },
+     {
+      "id": "p2",
+      "left": "revolution",
+      "right": "Umsturz, Wandel"
+     },
+     {
+      "id": "p3",
+      "left": "fade away",
+      "right": "langsam verschwinden"
+     },
+     {
+      "id": "p4",
+      "left": "bloom",
+      "right": "blühen"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q6",
+    "type": "gap_fill",
+    "prompt": "Ergänze (look, never, anger, past).",
+    "explanation": "Kernwörter des Liedes.",
+    "text": "Don’t [[a]] back in [[b]]. You should leave the [[c]] behind and [[d]] give up.",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "look"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "anger"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "past"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "never"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q7",
+    "type": "single_choice",
+    "prompt": "Wie klingt das Lied?",
+    "explanation": "Britpop-Hymne.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Hymnenhaft und mitsingbar"
+     },
+     {
+      "id": "b",
+      "text": "Wie Jazz"
+     },
+     {
+      "id": "c",
+      "text": "Wie Techno"
+     },
+     {
+      "id": "d",
+      "text": "Wie Oper"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q8",
+    "type": "true_false",
+    "prompt": "Das Lied wurde nach dem Anschlag in Manchester 2017 bei Gedenkfeiern gesungen.",
+    "explanation": "Es wurde zu einem Symbol des Zusammenhalts.",
+    "answer": true
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Welche Zeitform nutzt man für „du solltest loslassen\"?",
+    "explanation": "should = Ratschlag.",
+    "options": [
+     {
+      "id": "a",
+      "text": "should"
+     },
+     {
+      "id": "b",
+      "text": "shall"
+     },
+     {
+      "id": "c",
+      "text": "would"
+     },
+     {
+      "id": "d",
+      "text": "might"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "single_choice",
+    "prompt": "Welche Geschichte erzählt das Lied konkret?",
+    "explanation": "Der Text arbeitet mit Bildern und Anspielungen.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Eine klare Handlung"
+     },
+     {
+      "id": "b",
+      "text": "Bilder und Gedanken ohne feste Handlung"
+     },
+     {
+      "id": "c",
+      "text": "Ein Märchen"
+     },
+     {
+      "id": "d",
+      "text": "Ein Krimi"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q11",
+    "type": "true_false",
+    "prompt": "Nach dem Hören: Das Lied ist ein gutes Beispiel für einen Ohrwurm-Refrain.",
+    "explanation": "Einfacher, einprägsamer Refrain.",
+    "answer": true
+   },
+   {
+    "id": "q12",
+    "type": "short_answer",
+    "prompt": "Nenne ein Wort für „Wut\" (englisch).",
+    "explanation": "Titelwort.",
+    "acceptedAnswers": [
+     "anger",
+     "rage",
+     "fury"
+    ],
+    "modelAnswer": "anger"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "dlbia-vertiefung",
+  "title": "Don’t Look Back in Anger · Vertiefung",
+  "language": "en",
+  "level": "B2",
+  "description": "Bildsprache, Struktur und Wirkung der Hymne; Conditionals und Fachbegriffe.",
+  "topics": [
+   "Musik",
+   "Analyse",
+   "Britpop"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "external",
+    "citation": "Offizielles Video beim Anbieter; Einbettbarkeit und Rechte vor dem Einsatz prüfen.",
+    "url": "https://www.youtube.com/watch?v=YZG7z4FOn0g",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 17,
+  "media": {
+   "type": "youtube",
+   "videoId": "YZG7z4FOn0g"
+  },
+  "transcript": "",
+  "series": "dont-look-back",
+  "seriesTitle": "Don’t Look Back in Anger · Oasis",
+  "levelLabel": "Vertiefung",
+  "teacherNotes": {
+   "warmup": [
+    "Kontext: Britpop vs. Grunge. Welche Bands kennt ihr?",
+    "Warum werden bestimmte Lieder zu „Hymnen\"?"
+   ],
+   "steps": [
+    "1. Hören mit Fokus Struktur.",
+    "2. Interpretation von Bildern.",
+    "3. Grammatik (Conditionals).",
+    "4. Diskussion."
+   ],
+   "tips": [
+    "Bezug zu Gedenkfeiern kann tiefgehend sein; sensibel einführen."
+   ],
+   "followUp": [
+    "Analysiere den Refrain: Warum funktioniert er?",
+    "Schreibe einen Kommentar: Kann Musik wirklich heilen?"
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Welche Textebene dominiert?",
+    "explanation": "Surreale, offene Bilder statt eindeutiger Handlung.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Bildhaft, assoziativ"
+     },
+     {
+      "id": "b",
+      "text": "Wörtliche Reportage"
+     },
+     {
+      "id": "c",
+      "text": "Gebrauchsanweisung"
+     },
+     {
+      "id": "d",
+      "text": "Dialog"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q2",
+    "type": "multiple_choice",
+    "prompt": "Welche Wirkungen erzeugt das Klavier-Intro? (mehrere)",
+    "explanation": "Das Intro erinnert an bekannte Klavierballaden.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Feierlichkeit"
+     },
+     {
+      "id": "b",
+      "text": "Wiedererkennung"
+     },
+     {
+      "id": "c",
+      "text": "Anspannung wie im Thriller"
+     },
+     {
+      "id": "d",
+      "text": "Nähe zu klassischen Popballaden"
+     }
+    ],
+    "correctOptionIds": [
+     "a",
+     "b",
+     "d"
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Warum eignet sich der Refrain zum Mitsingen?",
+    "explanation": "Einfachheit und Wiederholung schaffen Gemeinschaft.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Er ist kurz, wiederholt und stark betont"
+     },
+     {
+      "id": "b",
+      "text": "Er ist sehr leise"
+     },
+     {
+      "id": "c",
+      "text": "Er ist auf Latein"
+     },
+     {
+      "id": "d",
+      "text": "Er ist improvisiert"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q4",
+    "type": "matching",
+    "prompt": "Verbinde Begriff und Funktion.",
+    "explanation": "Songstruktur-Begriffe.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Refrain",
+      "right": "wiederkehrende Kernbotschaft"
+     },
+     {
+      "id": "p2",
+      "left": "Strophe",
+      "right": "Bilder und Entwicklung"
+     },
+     {
+      "id": "p3",
+      "left": "Bridge",
+      "right": "Übergang/Kontrast"
+     },
+     {
+      "id": "p4",
+      "left": "Outro",
+      "right": "Ausklang"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "Was bedeutet das Verb „to fade\"?",
+    "explanation": "to fade = verblassen.",
+    "options": [
+     {
+      "id": "a",
+      "text": "verblassen"
+     },
+     {
+      "id": "b",
+      "text": "verbrennen"
+     },
+     {
+      "id": "c",
+      "text": "verstecken"
+     },
+     {
+      "id": "d",
+      "text": "verändern"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q6",
+    "type": "gap_fill",
+    "prompt": "Conditionals: Ergänze.",
+    "explanation": "Type 1 und Type 3.",
+    "text": "If you [[a]] back in anger, you will not move on. If you had let go earlier, you [[b]] have been happier.",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "look"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "would"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q7",
+    "type": "single_choice",
+    "prompt": "Welche Haltung wird im Text eingenommen?",
+    "explanation": "Optimistische Grundhaltung.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Versöhnlich und nach vorn gerichtet"
+     },
+     {
+      "id": "b",
+      "text": "Radikal und rachsüchtig"
+     },
+     {
+      "id": "c",
+      "text": "Gleichgültig"
+     },
+     {
+      "id": "d",
+      "text": "Ironisch"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q8",
+    "type": "true_false",
+    "prompt": "Das Lied steht für eine Generation, die gegen starre Verhältnisse protestiert.",
+    "explanation": "Britpop als Lebensgefühl der 90er.",
+    "answer": true
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Welche Rolle spielt Mehrdeutigkeit im Text?",
+    "explanation": "Offene Bilder = Identifikation.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Sie lädt zu persönlichen Deutungen ein"
+     },
+     {
+      "id": "b",
+      "text": "Sie macht das Lied schlechter"
+     },
+     {
+      "id": "c",
+      "text": "Sie ist ein Fehler"
+     },
+     {
+      "id": "d",
+      "text": "Sie verhindert Mitsingen"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "true_false",
+    "prompt": "Das Lied wird heute nur noch selten gespielt.",
+    "explanation": "Es ist bis heute ein Hit und wird bei Konzerten oft gemeinsam gesungen.",
+    "answer": false
+   },
+   {
+    "id": "q11",
+    "type": "short_answer",
+    "prompt": "Nenne ein englisches Wort für „loslassen\" (z. B. let …).",
+    "explanation": "to let go = loslassen.",
+    "acceptedAnswers": [
+     "let go",
+     "letgo",
+     "release"
+    ],
+    "modelAnswer": "let go"
+   },
+   {
+    "id": "q12",
+    "type": "single_choice",
+    "prompt": "Wie wirkt die Wiederholung des Titels im Lied?",
+    "explanation": "Wiederholung als rhetorisches Mittel.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Sie verstärkt die Botschaft"
+     },
+     {
+      "id": "b",
+      "text": "Sie ist Füllmaterial"
+     },
+     {
+      "id": "c",
+      "text": "Sie verwirrt"
+     },
+     {
+      "id": "d",
+      "text": "Sie ist verboten"
+     }
+    ],
+    "correctOptionId": "a"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "dlu-basis",
+  "title": "Don’t Look Up · Basis",
+  "language": "en",
+  "level": "B1",
+  "description": "Vocabulary, global comprehension and reported speech for a satirical film.",
+  "topics": [
+   "Film",
+   "Media",
+   "Climate"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 17,
+  "media": {
+   "type": "film",
+   "title": "Don’t Look Up",
+   "year": 2021,
+   "scene": "Scientists try to warn the world about a comet."
+  },
+  "transcript": "",
+  "series": "dont-look-up",
+  "seriesTitle": "Don’t Look Up · Adam McKay",
+  "levelLabel": "Basis",
+  "teacherNotes": {
+   "warmup": [
+    "Discuss in pairs: How do people today get most of their news — from experts, social media, or friends?",
+    "What do you think the title “Don’t Look Up” could mean?"
+   ],
+   "steps": [
+    "1. Pre-watching vocabulary.",
+    "2. Watch in two parts.",
+    "3. Global comprehension, then detail.",
+    "4. Language focus."
+   ],
+   "tips": [
+    "The film is satirical; discuss real-world parallels (climate, pandemic)."
+   ],
+   "followUp": [
+    "Write a short opinion paragraph (120–150 words): Is the film a comedy or a warning?",
+    "Which character do you identify with, and why?"
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Before watching: What does “to deny” mean?",
+    "explanation": "to deny = leugnen.",
+    "options": [
+     {
+      "id": "a",
+      "text": "to refuse to believe something"
+     },
+     {
+      "id": "b",
+      "text": "to wait"
+     },
+     {
+      "id": "c",
+      "text": "to build"
+     },
+     {
+      "id": "d",
+      "text": "to repair"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q2",
+    "type": "matching",
+    "prompt": "Vocabulary: match.",
+    "explanation": "Key words from the worksheet.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "comet",
+      "right": "object from space made of ice and dust"
+     },
+     {
+      "id": "p2",
+      "left": "scientist",
+      "right": "person who studies the natural world"
+     },
+     {
+      "id": "p3",
+      "left": "to warn",
+      "right": "to tell someone about a danger"
+     },
+     {
+      "id": "p4",
+      "left": "panic",
+      "right": "sudden fear"
+     },
+     {
+      "id": "p5",
+      "left": "to ignore",
+      "right": "not to pay attention"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "What do the scientists discover?",
+    "explanation": "The comet will hit Earth.",
+    "options": [
+     {
+      "id": "a",
+      "text": "A comet heading for Earth"
+     },
+     {
+      "id": "b",
+      "text": "A new planet"
+     },
+     {
+      "id": "c",
+      "text": "Aliens"
+     },
+     {
+      "id": "d",
+      "text": "A new star"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "How does the president react at first?",
+    "explanation": "She is more interested in politics.",
+    "options": [
+     {
+      "id": "a",
+      "text": "She delays action"
+     },
+     {
+      "id": "b",
+      "text": "She believes them immediately"
+     },
+     {
+      "id": "c",
+      "text": "She fires everyone"
+     },
+     {
+      "id": "d",
+      "text": "She calls the army"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "What happens when they appear on TV?",
+    "explanation": "The media does not take it seriously.",
+    "options": [
+     {
+      "id": "a",
+      "text": "People joke about it"
+     },
+     {
+      "id": "b",
+      "text": "People panic"
+     },
+     {
+      "id": "c",
+      "text": "They are arrested"
+     },
+     {
+      "id": "d",
+      "text": "Nothing"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q6",
+    "type": "single_choice",
+    "prompt": "Why is the campaign called “Don’t Look Up”?",
+    "explanation": "It tells people not to look at the sky.",
+    "options": [
+     {
+      "id": "a",
+      "text": "To make people ignore the danger"
+     },
+     {
+      "id": "b",
+      "text": "To protect them"
+     },
+     {
+      "id": "c",
+      "text": "To hide stars"
+     },
+     {
+      "id": "d",
+      "text": "To sell telescopes"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q7",
+    "type": "gap_fill",
+    "prompt": "Complete the sentences (ignore, panic, scientist, president).",
+    "explanation": "Vocabulary in context.",
+    "text": "The [[a]] checks the data. The [[b]] does not want to act. People [[c]] when they hear the news, but many still [[d]] the warning.",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "scientist"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "president"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "panic"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "ignore"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q8",
+    "type": "true_false",
+    "prompt": "The film is a serious documentary.",
+    "explanation": "It is a satirical comedy.",
+    "answer": false
+   },
+   {
+    "id": "q9",
+    "type": "gap_fill",
+    "prompt": "Reported speech: complete.",
+    "explanation": "Backshift.",
+    "text": "Kate said that a comet [[a]] coming to destroy Earth. Dr Mindy said that they [[b]] act now.",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "was"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "had to",
+       "must",
+       "needed to"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q10",
+    "type": "single_choice",
+    "prompt": "Who is the tech billionaire?",
+    "explanation": "Peter Isherwell.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Peter Isherwell"
+     },
+     {
+      "id": "b",
+      "text": "Randall Mindy"
+     },
+     {
+      "id": "c",
+      "text": "Kate Dibiasky"
+     },
+     {
+      "id": "d",
+      "text": "Jason Orlean"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q11",
+    "type": "true_false",
+    "prompt": "After watching: The film criticises politicians, media and society.",
+    "explanation": "Satire of several groups.",
+    "answer": true
+   },
+   {
+    "id": "q12",
+    "type": "short_answer",
+    "prompt": "Name one emotion you feel after the film (English).",
+    "explanation": "Many answers possible.",
+    "acceptedAnswers": [
+     "anger",
+     "sadness",
+     "fear",
+     "hope",
+     "laughter",
+     "worry"
+    ],
+    "modelAnswer": "anger / sadness"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "dlu-vertiefung",
+  "title": "Don’t Look Up · Vertiefung",
+  "language": "en",
+  "level": "B2",
+  "description": "Satire, detail questions and language focus: vocabulary in context and reported speech.",
+  "topics": [
+   "Film",
+   "Satire",
+   "Media"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 17,
+  "media": {
+   "type": "film",
+   "title": "Don’t Look Up",
+   "year": 2021,
+   "scene": "Scientists try to warn the world about a comet."
+  },
+  "transcript": "",
+  "series": "dont-look-up",
+  "seriesTitle": "Don’t Look Up · Adam McKay",
+  "levelLabel": "Vertiefung",
+  "teacherNotes": {
+   "warmup": [
+    "Where do you get your news? Make a quick class poll.",
+    "Look at the poster: what mood does it create?"
+   ],
+   "steps": [
+    "1. Poll and prediction.",
+    "2. Watching with comprehension tasks.",
+    "3. Detail questions.",
+    "4. Writing task."
+   ],
+   "tips": [
+    "Connect to media literacy and climate communication."
+   ],
+   "followUp": [
+    "Write a short opinion paragraph (120–150 words).",
+    "Debate: Who is most responsible — politicians, media or society?"
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "What is ironic about the campaign?",
+    "explanation": "The slogan ignores the threat.",
+    "options": [
+     {
+      "id": "a",
+      "text": "It encourages people to deny what is obvious"
+     },
+     {
+      "id": "b",
+      "text": "It saves lives"
+     },
+     {
+      "id": "c",
+      "text": "It is expensive"
+     },
+     {
+      "id": "d",
+      "text": "It is funny"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q2",
+    "type": "multiple_choice",
+    "prompt": "Which targets does the satire have? (several)",
+    "explanation": "Politicians, media and tech.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Politicians"
+     },
+     {
+      "id": "b",
+      "text": "Media"
+     },
+     {
+      "id": "c",
+      "text": "Tech billionaires"
+     },
+     {
+      "id": "d",
+      "text": "Teachers"
+     },
+     {
+      "id": "e",
+      "text": "Farmers"
+     }
+    ],
+    "correctOptionIds": [
+     "a",
+     "b",
+     "c"
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Why does Kate become angry during the talk show?",
+    "explanation": "The media trivialises the news.",
+    "options": [
+     {
+      "id": "a",
+      "text": "The hosts do not take the threat seriously"
+     },
+     {
+      "id": "b",
+      "text": "She is hungry"
+     },
+     {
+      "id": "c",
+      "text": "She is late"
+     },
+     {
+      "id": "d",
+      "text": "She forgot something"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "What is one of Dr Mindy’s weaknesses?",
+    "explanation": "He enjoys media attention.",
+    "options": [
+     {
+      "id": "a",
+      "text": "He is influenced by fame and attention"
+     },
+     {
+      "id": "b",
+      "text": "He is lazy"
+     },
+     {
+      "id": "c",
+      "text": "He is evil"
+     },
+     {
+      "id": "d",
+      "text": "He is rich"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "What role does Peter Isherwell play?",
+    "explanation": "He sees the comet as a business opportunity.",
+    "options": [
+     {
+      "id": "a",
+      "text": "He wants to profit from the comet"
+     },
+     {
+      "id": "b",
+      "text": "He destroys it"
+     },
+     {
+      "id": "c",
+      "text": "He is a journalist"
+     },
+     {
+      "id": "d",
+      "text": "He is a teacher"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q6",
+    "type": "single_choice",
+    "prompt": "How do ordinary people react when they finally see the comet?",
+    "explanation": "Divided reactions.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Some are shocked, others still deny it"
+     },
+     {
+      "id": "b",
+      "text": "All help"
+     },
+     {
+      "id": "c",
+      "text": "All run away"
+     },
+     {
+      "id": "d",
+      "text": "All celebrate"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q7",
+    "type": "single_choice",
+    "prompt": "What message is hidden in the final dinner scene?",
+    "explanation": "People share a last meal.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Togetherness at the end"
+     },
+     {
+      "id": "b",
+      "text": "Wealth"
+     },
+     {
+      "id": "c",
+      "text": "Technology"
+     },
+     {
+      "id": "d",
+      "text": "Revenge"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q8",
+    "type": "gap_fill",
+    "prompt": "Vocabulary in context: complete with deny, warning, campaign, meltdown, data.",
+    "explanation": "Vocabulary from the worksheet.",
+    "text": "The scientists collected a lot of [[a]] but the government did not take the [[b]] seriously. The president started a [[c]] and Kate had an emotional [[d]].",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "data"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "warning"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "campaign"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "meltdown"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Reported speech: “Everything is under control.” →",
+    "explanation": "Backshift is → was.",
+    "options": [
+     {
+      "id": "a",
+      "text": "She said that everything was under control."
+     },
+     {
+      "id": "b",
+      "text": "She said that everything is under control."
+     },
+     {
+      "id": "c",
+      "text": "She says that everything had been under control."
+     },
+     {
+      "id": "d",
+      "text": "She said everything will be under control."
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "true_false",
+    "prompt": "The film uses humour to strengthen its message.",
+    "explanation": "Satire.",
+    "answer": true
+   },
+   {
+    "id": "q11",
+    "type": "single_choice",
+    "prompt": "Would you call it a comedy or a warning? Choose the best summary.",
+    "explanation": "Dark satire.",
+    "options": [
+     {
+      "id": "a",
+      "text": "A comedy that works as a warning"
+     },
+     {
+      "id": "b",
+      "text": "Only a comedy"
+     },
+     {
+      "id": "c",
+      "text": "Only a documentary"
+     },
+     {
+      "id": "d",
+      "text": "A romance"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q12",
+    "type": "short_answer",
+    "prompt": "Which character do you identify with? Write the name.",
+    "explanation": "Open question.",
+    "acceptedAnswers": [
+     "Kate",
+     "Mindy",
+     "Randall",
+     "Kate Dibiasky"
+    ],
+    "modelAnswer": "Kate"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "fairytale-standard",
+  "title": "Fairytale of New York · Standard",
+  "language": "en",
+  "level": "B1",
+  "description": "Handlung, Stimmung und Wortschatz eines ungewöhnlichen Weihnachtsliedes.",
+  "topics": [
+   "Musik",
+   "Weihnachten",
+   "Beziehungen"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "external",
+    "citation": "Offizielles Video beim Anbieter. Das Lied enthält beleidigende Wörter; im Radio gibt es bearbeitete Fassungen. Vor dem Einsatz Fassung und Eignung prüfen.",
+    "url": "https://www.youtube.com/watch?v=j9jbdgZidu8",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 17,
+  "media": {
+   "type": "youtube",
+   "videoId": "j9jbdgZidu8"
+  },
+  "transcript": "",
+  "series": "fairytale-of-new-york",
+  "seriesTitle": "Fairytale of New York · The Pogues",
+  "levelLabel": "Standard",
+  "teacherNotes": {
+   "warmup": [
+    "Bild: Weihnachtsmarkt vs. Gefängniszelle. Welche Geschichte passt?",
+    "Frage: Kennt ihr Weihnachtslieder, die nicht ganz fröhlich sind?"
+   ],
+   "steps": [
+    "1. Titel und Erwartung.",
+    "2. Hören in Abschnitten.",
+    "3. Wortschatz.",
+    "4. Fassungen und Zensur besprechen."
+   ],
+   "tips": [
+    "Ausgang: „Streitlied\" – Abstand wahren, nicht stereotyp verwenden.",
+    "Ältere Klassen: Diskussion über Sprache im Wandel."
+   ],
+   "followUp": [
+    "Wie wirkt die Mischung aus Streit und Zärtlichkeit auf dich?",
+    "Schreibe einen kurzen Dialog des Paares am nächsten Morgen."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "true_false",
+    "prompt": "Vor dem Hören: „Fairytale of New York\" ist ein Weihnachtslied.",
+    "explanation": "Es spielt an Heiligabend.",
+    "answer": true
+   },
+   {
+    "id": "q2",
+    "type": "single_choice",
+    "prompt": "Beim Hören: Wo beginnt die Geschichte?",
+    "explanation": "Der Erzähler beginnt in der Ausnüchterungszelle der Polizei.",
+    "options": [
+     {
+      "id": "a",
+      "text": "In einer Zelle (Ausnüchterungszelle)"
+     },
+     {
+      "id": "b",
+      "text": "In einer Schule"
+     },
+     {
+      "id": "c",
+      "text": "In einem Flugzeug"
+     },
+     {
+      "id": "d",
+      "text": "In einem Restaurant"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Wer singt abwechselnd?",
+    "explanation": "Ein Streitgespräch mit Duett.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Ein Mann und eine Frau"
+     },
+     {
+      "id": "b",
+      "text": "Zwei Männer"
+     },
+     {
+      "id": "c",
+      "text": "Ein Kinderchor"
+     },
+     {
+      "id": "d",
+      "text": "Nur ein Chor"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Wie ist die Stimmung?",
+    "explanation": "Mal zärtlich, mal bissig.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Zwischen Streit und Nostalgie"
+     },
+     {
+      "id": "b",
+      "text": "Nur lustig"
+     },
+     {
+      "id": "c",
+      "text": "Nur gruselig"
+     },
+     {
+      "id": "d",
+      "text": "Nur langweilig"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q5",
+    "type": "matching",
+    "prompt": "Wortschatz: Verbinde.",
+    "explanation": "Schlüsselbegriffe.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Christmas Eve",
+      "right": "Heiligabend"
+     },
+     {
+      "id": "p2",
+      "left": "dream",
+      "right": "Traum"
+     },
+     {
+      "id": "p3",
+      "left": "argue",
+      "right": "streiten"
+     },
+     {
+      "id": "p4",
+      "left": "immigrant",
+      "right": "Einwanderer"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q6",
+    "type": "true_false",
+    "prompt": "Das Paar hat viel Geld und lebt luxuriös.",
+    "explanation": "Die Geschichte erzählt von Armut und enttäuschten Träumen.",
+    "answer": false
+   },
+   {
+    "id": "q7",
+    "type": "single_choice",
+    "prompt": "Welche Stadt steht im Titel?",
+    "explanation": "Der Titel nennt New York.",
+    "options": [
+     {
+      "id": "a",
+      "text": "New York"
+     },
+     {
+      "id": "b",
+      "text": "London"
+     },
+     {
+      "id": "c",
+      "text": "Dublin"
+     },
+     {
+      "id": "d",
+      "text": "Boston"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q8",
+    "type": "gap_fill",
+    "prompt": "Ergänze (Christmas, dream, fight, memory).",
+    "explanation": "Wortfeld Weihnachten und Erinnerung.",
+    "text": "It is [[a]] Eve. The couple remembers a [[b]] and a [[c]] from the past, but also a happy [[d]].",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "Christmas"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "dream"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "fight"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "memory"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Welche Musik bestimmt das Lied?",
+    "explanation": "The Pogues sind eine irische Folk-Punk-Band.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Irischer Folk/Punk mit Klavier"
+     },
+     {
+      "id": "b",
+      "text": "Heavy Metal"
+     },
+     {
+      "id": "c",
+      "text": "Techno"
+     },
+     {
+      "id": "d",
+      "text": "Reggae"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "true_false",
+    "prompt": "Das Lied hat bis heute einen festen Platz in britischen Weihnachtsplaylists.",
+    "explanation": "Es kehrt jedes Jahr in die Charts zurück.",
+    "answer": true
+   },
+   {
+    "id": "q11",
+    "type": "single_choice",
+    "prompt": "Welcher Aspekt macht das Lied kontrovers?",
+    "explanation": "Einige Zeilen wurden in Radiofassungen verändert.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Manche Wörter im Text sind beleidigend"
+     },
+     {
+      "id": "b",
+      "text": "Das Tempo"
+     },
+     {
+      "id": "c",
+      "text": "Die Länge"
+     },
+     {
+      "id": "d",
+      "text": "Der Titel"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q12",
+    "type": "short_answer",
+    "prompt": "Wie heißt die Band? (englisch, ein Wort + Nachname-Wort)",
+    "explanation": "Irische Band mit Sänger Shane MacGowan.",
+    "acceptedAnswers": [
+     "The Pogues",
+     "Pogues"
+    ],
+    "modelAnswer": "The Pogues"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "fairytale-vertiefung",
+  "title": "Fairytale of New York · Vertiefung",
+  "language": "en",
+  "level": "B2",
+  "description": "Analyse von Erzählform, Kontrast und Sprachwandel; Reported Speech und Fachbegriffe.",
+  "topics": [
+   "Musik",
+   "Analyse",
+   "Sprache"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "external",
+    "citation": "Offizielles Video beim Anbieter. Das Lied enthält beleidigende Wörter; im Radio gibt es bearbeitete Fassungen. Vor dem Einsatz Fassung und Eignung prüfen.",
+    "url": "https://www.youtube.com/watch?v=j9jbdgZidu8",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 17,
+  "media": {
+   "type": "youtube",
+   "videoId": "j9jbdgZidu8"
+  },
+  "transcript": "",
+  "series": "fairytale-of-new-york",
+  "seriesTitle": "Fairytale of New York · The Pogues",
+  "levelLabel": "Vertiefung",
+  "teacherNotes": {
+   "warmup": [
+    "Impuls: Gegensatz „Fairytale\" vs. Realität. Was erwartet ihr?",
+    "Warum sind Weihnachtslieder oft kitschig?"
+   ],
+   "steps": [
+    "1. Titel analysieren.",
+    "2. Hören und Bilder sammeln.",
+    "3. Sprachliche Analyse.",
+    "4. Diskussion zu Sprache und Zensur."
+   ],
+   "tips": [
+    "Bei Diskussion Offenheit für verschiedene Meinungen."
+   ],
+   "followUp": [
+    "Schreibe einen Kommentar zur Debatte um Radiofassungen.",
+    "Vergleiche das Lied mit einem klassischen Weihnachtslied."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Welche Erzählstruktur nutzt das Lied?",
+    "explanation": "Ein Streitgespräch mit Erinnerungen.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Wechselgesang mit Rückblenden"
+     },
+     {
+      "id": "b",
+      "text": "Chronologischer Bericht"
+     },
+     {
+      "id": "c",
+      "text": "Monolog"
+     },
+     {
+      "id": "d",
+      "text": "Brief"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q2",
+    "type": "multiple_choice",
+    "prompt": "Welche Themen sind zentral? (mehrere)",
+    "explanation": "Soziales Realismus-Bild.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Armut"
+     },
+     {
+      "id": "b",
+      "text": "Enttäuschte Träume"
+     },
+     {
+      "id": "c",
+      "text": "Sucht"
+     },
+     {
+      "id": "d",
+      "text": "Liebe trotz Konflikt"
+     },
+     {
+      "id": "e",
+      "text": "Reichtum"
+     }
+    ],
+    "correctOptionIds": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Welche Rolle spielt Irland im Text?",
+    "explanation": "Irische Einwanderer in New York.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Auswanderer-Erfahrung"
+     },
+     {
+      "id": "b",
+      "text": "Urlaubsziel"
+     },
+     {
+      "id": "c",
+      "text": "Fußball"
+     },
+     {
+      "id": "d",
+      "text": "Sprache"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Wie zeigt sich die Doppelbödigkeit?",
+    "explanation": "Kontrast als Stilmittel.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Weihnachtsstimmung trifft auf harte Wirklichkeit"
+     },
+     {
+      "id": "b",
+      "text": "Nur Humor"
+     },
+     {
+      "id": "c",
+      "text": "Nur Tragik"
+     },
+     {
+      "id": "d",
+      "text": "Beliebig"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q5",
+    "type": "true_false",
+    "prompt": "Beide Figuren sind eindeutig gut oder böse.",
+    "explanation": "Beide haben Stärken und Fehler.",
+    "answer": false
+   },
+   {
+    "id": "q6",
+    "type": "single_choice",
+    "prompt": "Welche Funktion hat der Dialog?",
+    "explanation": "Direkte Rede erzeugt Nähe.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Er macht den Konflikt lebendig"
+     },
+     {
+      "id": "b",
+      "text": "Er füllt Zeit"
+     },
+     {
+      "id": "c",
+      "text": "Er ist zufällig"
+     },
+     {
+      "id": "d",
+      "text": "Er ist nur Gesang"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q7",
+    "type": "gap_fill",
+    "prompt": "Reported Speech: Ergänze.",
+    "explanation": "Backshift.",
+    "text": "He said that he [[a]] dreaming of a better life. She told him that he [[b]] a failure, but later she admitted that she [[c]] still loved him.",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "was"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "was"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "had"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q8",
+    "type": "matching",
+    "prompt": "Verbinde Begriff und Bedeutung.",
+    "explanation": "Interpretationsvokabular.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "irony",
+      "right": "Gegensatz zwischen Gesagtem und Gemeintem"
+     },
+     {
+      "id": "p2",
+      "left": "nostalgia",
+      "right": "Sehnsucht nach früheren Zeiten"
+     },
+     {
+      "id": "p3",
+      "left": "conflict",
+      "right": "Streit/Gegensatz"
+     },
+     {
+      "id": "p4",
+      "left": "resignation",
+      "right": "Aufgeben, Hinnehmen"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Warum ist die Sprachwahl im Lied umstritten?",
+    "explanation": "Sprachwandel und Verantwortung.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Einige Wörter gelten heute als beleidigend"
+     },
+     {
+      "id": "b",
+      "text": "Die Sprache ist zu einfach"
+     },
+     {
+      "id": "c",
+      "text": "Der Dialekt ist unbekannt"
+     },
+     {
+      "id": "d",
+      "text": "Es gibt keine Kritik"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "true_false",
+    "prompt": "Dass das Lied in Radiofassungen verändert wurde, zeigt Sprachwandel.",
+    "explanation": "Gesellschaftliche Normen ändern sich.",
+    "answer": true
+   },
+   {
+    "id": "q11",
+    "type": "short_answer",
+    "prompt": "Nenne ein Adjektiv für die Stimmung (englisch).",
+    "explanation": "Gegensatz von süß und bitter.",
+    "acceptedAnswers": [
+     "bittersweet",
+     "melancholic",
+     "nostalgic",
+     "tense"
+    ],
+    "modelAnswer": "bittersweet"
+   },
+   {
+    "id": "q12",
+    "type": "single_choice",
+    "prompt": "Was kritisiert der Text implizit?",
+    "explanation": "Reflektiert Lebensrealitäten.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Soziale Not und zerplatzte Träume"
+     },
+     {
+      "id": "b",
+      "text": "Weihnachtseinkäufe"
+     },
+     {
+      "id": "c",
+      "text": "Wetter"
+     },
+     {
+      "id": "d",
+      "text": "Mode"
+     }
+    ],
+    "correctOptionId": "a"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "iwiwt-basis",
+  "title": "I Want It That Way · Basis",
+  "language": "en",
+  "level": "A2",
+  "description": "Gefühle und Schlüsselwörter in einem Popklassiker erkennen, mit einfacher Grammatik zur dritten Person.",
+  "topics": [
+   "Musik",
+   "Liebe",
+   "Gefühle"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "external",
+    "citation": "Offizielles Video beim Anbieter; Einbettbarkeit und Rechte vor dem Einsatz prüfen.",
+    "url": "https://www.youtube.com/watch?v=4fndeDfaWCg",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 20,
+  "media": {
+   "type": "youtube",
+   "videoId": "4fndeDfaWCg"
+  },
+  "transcript": "",
+  "series": "i-want-it-that-way",
+  "seriesTitle": "I Want It That Way · Backstreet Boys",
+  "levelLabel": "Basis",
+  "teacherNotes": {
+   "warmup": [
+    "Bild: Foto eines Flughafens oder zwei Menschen am Telefon. Was könnte das Lied erzählen?",
+    "Habt ihr ein Lied, das ihr mit „Herzschmerz\" verbindet?"
+   ],
+   "steps": [
+    "1. Wörter vorab klären (Aufgabe 2).",
+    "2. Erstes Hören: Thema und Gefühl (3–5).",
+    "3. Zweites Hören: Details; Grammatikaufgabe.",
+    "4. Video ansehen; Gespräch zur Mehrdeutigkeit des Titels."
+   ],
+   "tips": [
+    "Sehr gut als Einstieg in die Band-Kultur der 90er.",
+    "Lückentext mit dem Original privat importieren und beim Refrain Wiederholungen zählen lassen."
+   ],
+   "followUp": [
+    "Was könnte „that way\" bedeuten? Schreibe zwei Möglichkeiten.",
+    "Schreibe in 3 Sätzen, worum es in deinem Lieblingslied geht."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "true_false",
+    "prompt": "Vor dem Hören: Backstreet Boys sind eine Popband („boy band\") aus den USA.",
+    "explanation": "Die Band wurde in den 1990ern berühmt.",
+    "answer": true
+   },
+   {
+    "id": "q2",
+    "type": "matching",
+    "prompt": "Wortschatz vorab: Verbinde.",
+    "explanation": "Diese Wörter kommen im Lied oder in den Aufgaben vor.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "heart",
+      "right": "Herz"
+     },
+     {
+      "id": "p2",
+      "left": "desire",
+      "right": "Wunsch, Sehnsucht"
+     },
+     {
+      "id": "p3",
+      "left": "fire",
+      "right": "Feuer"
+     },
+     {
+      "id": "p4",
+      "left": "ache",
+      "right": "Schmerz"
+     },
+     {
+      "id": "p5",
+      "left": "far away",
+      "right": "weit weg"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Beim Hören: Um welches Thema geht es hauptsächlich?",
+    "explanation": "Es geht um eine Beziehung mit Streit und Sehnsucht.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Eine Reise in den Urlaub"
+     },
+     {
+      "id": "b",
+      "text": "Liebe und Schmerz in einer Beziehung"
+     },
+     {
+      "id": "c",
+      "text": "Ein Fußballspiel"
+     },
+     {
+      "id": "d",
+      "text": "Schule und Hausaufgaben"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Welches Gefühl ist zentral?",
+    "explanation": "Das Lied dreht sich um „heartache\".",
+    "options": [
+     {
+      "id": "a",
+      "text": "Langeweile"
+     },
+     {
+      "id": "b",
+      "text": "Herzschmerz"
+     },
+     {
+      "id": "c",
+      "text": "Hunger"
+     },
+     {
+      "id": "d",
+      "text": "Müdigkeit"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "Was sagt die Person über den anderen Menschen?",
+    "explanation": "Der andere Mensch bedeutet dem Sänger alles.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Er/Sie ist unwichtig."
+     },
+     {
+      "id": "b",
+      "text": "Er/Sie ist sehr wichtig – wie ein Feuer und ein Wunsch."
+     },
+     {
+      "id": "c",
+      "text": "Er/Sie wohnt in Berlin."
+     },
+     {
+      "id": "d",
+      "text": "Er/Sie ist langweilig."
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q6",
+    "type": "true_false",
+    "prompt": "Die Person ist sicher, was ihr Partner/ihre Partnerin will.",
+    "explanation": "Gerade das Unklare („that way\") ist Teil des Liedes.",
+    "answer": false
+   },
+   {
+    "id": "q7",
+    "type": "single_choice",
+    "prompt": "Welche Frage kehrt immer wieder im Lied?",
+    "explanation": "Die Person fragt, warum alles so schwierig ist.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Wo ist die Schule?"
+     },
+     {
+      "id": "b",
+      "text": "Warum ist es so, wie es ist?"
+     },
+     {
+      "id": "c",
+      "text": "Wie spät ist es?"
+     },
+     {
+      "id": "d",
+      "text": "Wer hat gewonnen?"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q8",
+    "type": "gap_fill",
+    "prompt": "Ergänze die Wörter (heart, fire, far, love).",
+    "explanation": "Einfache Wörter aus dem Themenfeld Liebe.",
+    "text": "You are my [[a]]. I can’t reach your [[b]]. Our [[c]] is strong, but we are [[d]] from each other.",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "fire"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "heart"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "love"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "far"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Wie klingt die Musik?",
+    "explanation": "Mehrstimmiger Gesang, ruhiger Beat.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Wie Metal"
+     },
+     {
+      "id": "b",
+      "text": "Weich und emotional (Popballade)"
+     },
+     {
+      "id": "c",
+      "text": "Wie Techno"
+     },
+     {
+      "id": "d",
+      "text": "Wie Oper"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q10",
+    "type": "true_false",
+    "prompt": "Im Video sieht man die Band oft in einem Flughafen.",
+    "explanation": "Das berühmte Video spielt in einem großen Flughafenterminal.",
+    "answer": true
+   },
+   {
+    "id": "q11",
+    "type": "single_choice",
+    "prompt": "Wähle den richtigen Satz auf Englisch:",
+    "explanation": "Third person singular: wants.",
+    "options": [
+     {
+      "id": "a",
+      "text": "He want it that way."
+     },
+     {
+      "id": "b",
+      "text": "He wants it that way."
+     },
+     {
+      "id": "c",
+      "text": "He wanting it that way."
+     },
+     {
+      "id": "d",
+      "text": "He wanted it that ways."
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q12",
+    "type": "matching",
+    "prompt": "Verbinde Satzanfang und Ende (Grammatik: Present Simple).",
+    "explanation": "Be careful with -s and doesn’t.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "I",
+      "right": "want it that way"
+     },
+     {
+      "id": "p2",
+      "left": "She",
+      "right": "wants it that way"
+     },
+     {
+      "id": "p3",
+      "left": "They",
+      "right": "want it that way"
+     },
+     {
+      "id": "p4",
+      "left": "He",
+      "right": "doesn’t want it that way"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q13",
+    "type": "true_false",
+    "prompt": "Nach dem Hören: Der Titel „That way\" ist eindeutig und klar erklärt.",
+    "explanation": "Viele Fans diskutieren bis heute, was genau „that way\" bedeutet.",
+    "answer": false
+   },
+   {
+    "id": "q14",
+    "type": "short_answer",
+    "prompt": "Schreibe das Wort für „Herzschmerz\" auf Englisch (ein Wort).",
+    "explanation": "heart + ache = heartache.",
+    "acceptedAnswers": [
+     "heartache"
+    ],
+    "modelAnswer": "heartache"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "iwiwt-standard",
+  "title": "I Want It That Way · Standard",
+  "language": "en",
+  "level": "B1",
+  "description": "Thema, Stimmung und Mehrdeutigkeit eines Popklassikers; Wortschatz und Reported Speech.",
+  "topics": [
+   "Musik",
+   "Liebe",
+   "Sprache"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "external",
+    "citation": "Offizielles Video beim Anbieter; Einbettbarkeit und Rechte vor dem Einsatz prüfen.",
+    "url": "https://www.youtube.com/watch?v=4fndeDfaWCg",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 17,
+  "media": {
+   "type": "youtube",
+   "videoId": "4fndeDfaWCg"
+  },
+  "transcript": "",
+  "series": "i-want-it-that-way",
+  "seriesTitle": "I Want It That Way · Backstreet Boys",
+  "levelLabel": "Standard",
+  "teacherNotes": {
+   "warmup": [
+    "Hört den Anfang und sammelt Gefühle als Wortwolke.",
+    "Frage: Was ist ein „Ohrwurm\"? Warum bleiben manche Lieder im Kopf?"
+   ],
+   "steps": [
+    "1. Wortschatz klären.",
+    "2. Hören: Thema, Gefühl.",
+    "3. Mehrdeutigkeit diskutieren.",
+    "4. Mini-Aufsatz: „This or that way?\""
+   ],
+   "tips": [
+    "Gut als Brücke zu Songwriting und Pop-Industrie."
+   ],
+   "followUp": [
+    "Schreibe 100 Wörter: Was bedeutet „that way\" für dich?",
+    "Diskutiere: Müssen Liedtexte immer Sinn ergeben?"
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "short_answer",
+    "prompt": "Vor dem Hören: Nenne ein englisches Wort, das du bei einer Liebesballade erwartest.",
+    "explanation": "Erwartungen aktivieren.",
+    "acceptedAnswers": [
+     "love",
+     "heart",
+     "pain",
+     "miss",
+     "tears"
+    ],
+    "modelAnswer": "love / heart"
+   },
+   {
+    "id": "q2",
+    "type": "matching",
+    "prompt": "Verbinde Wort und Bedeutung.",
+    "explanation": "Wortschatz für das Gespräch über das Lied.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "heartache",
+      "right": "seelischer Schmerz"
+     },
+     {
+      "id": "p2",
+      "left": "desire",
+      "right": "starker Wunsch"
+     },
+     {
+      "id": "p3",
+      "left": "distance",
+      "right": "räumlicher oder emotionaler Abstand"
+     },
+     {
+      "id": "p4",
+      "left": "ambiguous",
+      "right": "mehrdeutig"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q3",
+    "type": "multiple_choice",
+    "prompt": "Welche Aussagen passen zum Lied? (mehrere)",
+    "explanation": "Gefühlsmischung aus Liebe, Streit und Unklarheit.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Die Beziehung ist schwierig"
+     },
+     {
+      "id": "b",
+      "text": "Es gibt Unsicherheit über die Wünsche des anderen"
+     },
+     {
+      "id": "c",
+      "text": "Das Lied beschreibt eine glückliche Hochzeit"
+     },
+     {
+      "id": "d",
+      "text": "Es geht um Sehnsucht"
+     },
+     {
+      "id": "e",
+      "text": "Es geht um ein Fußballspiel"
+     }
+    ],
+    "correctOptionIds": [
+     "a",
+     "b",
+     "d"
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Wie nennt man Lieder wie dieses?",
+    "explanation": "Ruhige, gefühlvolle Popballade.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Ballade"
+     },
+     {
+      "id": "b",
+      "text": "Marsch"
+     },
+     {
+      "id": "c",
+      "text": "Choral"
+     },
+     {
+      "id": "d",
+      "text": "Rap-Battle"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "Warum wird der Titel oft diskutiert?",
+    "explanation": "Mehrdeutigkeit: Wer will was, und welcher „Weg\"?",
+    "options": [
+     {
+      "id": "a",
+      "text": "Weil er schlecht geschrieben ist"
+     },
+     {
+      "id": "b",
+      "text": "Weil „that way\" nicht klar sagt, was gemeint ist"
+     },
+     {
+      "id": "c",
+      "text": "Weil er verboten wurde"
+     },
+     {
+      "id": "d",
+      "text": "Weil er sehr lang ist"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q6",
+    "type": "true_false",
+    "prompt": "Das Lied wurde von den Bandmitgliedern selbst geschrieben.",
+    "explanation": "Es stammt von den Songwritern Max Martin und Andreas Carlsson.",
+    "answer": false
+   },
+   {
+    "id": "q7",
+    "type": "single_choice",
+    "prompt": "Welche Zeitform passt? „Right now, they … together.\"",
+    "explanation": "Plural: are.",
+    "options": [
+     {
+      "id": "a",
+      "text": "is"
+     },
+     {
+      "id": "b",
+      "text": "are"
+     },
+     {
+      "id": "c",
+      "text": "am"
+     },
+     {
+      "id": "d",
+      "text": "be"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q8",
+    "type": "gap_fill",
+    "prompt": "Reported Speech: Ergänze.",
+    "explanation": "Backshift: love → loved; have been → had been.",
+    "text": "The singer said that he [[a]] his partner very much. He added that they [[b]] apart for too long.",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "loved"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "had been",
+       "were"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Welche Ausdrucksform erzeugt im Chor Nähe?",
+    "explanation": "Harmonien sind ein Markenzeichen der Band.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Mehrstimmiger Gesang"
+     },
+     {
+      "id": "b",
+      "text": "Nur Schlagzeug"
+     },
+     {
+      "id": "c",
+      "text": "Rap"
+     },
+     {
+      "id": "d",
+      "text": "Sprechgesang"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "true_false",
+    "prompt": "Das Lied erzählt eine genaue Geschichte mit Anfang, Mitte und Schluss.",
+    "explanation": "Es ist eher ein Gefühlsbild als eine Handlung.",
+    "answer": false
+   },
+   {
+    "id": "q11",
+    "type": "short_answer",
+    "prompt": "Welches Adjektiv beschreibt die Stimmung am besten? (englisch)",
+    "explanation": "Mehrere Antworten sind möglich.",
+    "acceptedAnswers": [
+     "melancholic",
+     "sad",
+     "emotional",
+     "longing",
+     "wistful",
+     "sentimental"
+    ],
+    "modelAnswer": "melancholic"
+   },
+   {
+    "id": "q12",
+    "type": "single_choice",
+    "prompt": "Welche Aussage über die Mehrdeutigkeit ist richtig?",
+    "explanation": "Offene Bedeutung = viele Anknüpfungspunkte.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Sie macht das Lied für viele Hörer persönlich deutbar."
+     },
+     {
+      "id": "b",
+      "text": "Sie macht es unverständlich."
+     },
+     {
+      "id": "c",
+      "text": "Sie ist ein Fehler."
+     },
+     {
+      "id": "d",
+      "text": "Sie kommt nur im Video vor."
+     }
+    ],
+    "correctOptionId": "a"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "lavitaebella-avanzata",
+  "title": "La vita è bella · Avanzata",
+  "language": "it",
+  "level": "B2",
+  "description": "Analisi di temi, ironia e simboli; congiuntivo e lessico analitico.",
+  "topics": [
+   "Film",
+   "Analisi",
+   "Storia"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 17,
+  "media": {
+   "type": "film",
+   "title": "La vita è bella",
+   "year": 1997,
+   "scene": "Scena a scelta dell’insegnante: l’arrivo in città, il “gioco” nel campo o il finale."
+  },
+  "transcript": "",
+  "series": "la-vita-e-bella",
+  "seriesTitle": "La vita è bella · Roberto Benigni",
+  "levelLabel": "Avanzata",
+  "teacherNotes": {
+   "warmup": [
+    "Domanda: come si racconta una tragedia ai bambini?",
+    "Immagine: un gioco e un campo: che contrasto notate?"
+   ],
+   "steps": [
+    "1. Analisi dei temi.",
+    "2. Visione con compiti.",
+    "3. Discussione.",
+    "4. Recensione."
+   ],
+   "tips": [
+    "Possibile collegamento con la Giornata della Memoria."
+   ],
+   "followUp": [
+    "Scrivi una recensione e valuta il film con 5 stelle.",
+    "Discuti: È giusto usare la comicità per temi seri?"
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Quale genere mescola il film?",
+    "explanation": "Il contrasto è centrale.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Commedia e tragedia"
+     },
+     {
+      "id": "b",
+      "text": "Horror"
+     },
+     {
+      "id": "c",
+      "text": "Documentario"
+     },
+     {
+      "id": "d",
+      "text": "Fantascienza"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q2",
+    "type": "multiple_choice",
+    "prompt": "Quali temi emergono? (più risposte)",
+    "explanation": "I tre temi chiave.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Amore paterno"
+     },
+     {
+      "id": "b",
+      "text": "Fantasia come protezione"
+     },
+     {
+      "id": "c",
+      "text": "Resistenza"
+     },
+     {
+      "id": "d",
+      "text": "Sport"
+     },
+     {
+      "id": "e",
+      "text": "Politica locale"
+     }
+    ],
+    "correctOptionIds": [
+     "a",
+     "b",
+     "c"
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Che funzione ha la narrazione di Giosuè adulto?",
+    "explanation": "Racconto di ricordi.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Dà una cornice memoriale"
+     },
+     {
+      "id": "b",
+      "text": "Annuncia la fine"
+     },
+     {
+      "id": "c",
+      "text": "Serve a spiegare la storia"
+     },
+     {
+      "id": "d",
+      "text": "Aggiunge comicità"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q4",
+    "type": "matching",
+    "prompt": "Collega termini analitici e spiegazioni.",
+    "explanation": "Lessico analitico.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "ironia",
+      "right": "dire il contrario di ciò che si pensa"
+     },
+     {
+      "id": "p2",
+      "left": "grottesco",
+      "right": "comico e tragico insieme"
+     },
+     {
+      "id": "p3",
+      "left": "simbolo",
+      "right": "elemento che rappresenta un’idea"
+     },
+     {
+      "id": "p4",
+      "left": "narratore",
+      "right": "chi racconta"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "Che cosa simboleggia il carro armato?",
+    "explanation": "Per Giosuè è il premio, per noi la fine del lager.",
+    "options": [
+     {
+      "id": "a",
+      "text": "La speranza e la liberazione"
+     },
+     {
+      "id": "b",
+      "text": "La guerra"
+     },
+     {
+      "id": "c",
+      "text": "Il denaro"
+     },
+     {
+      "id": "d",
+      "text": "La scuola"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q6",
+    "type": "single_choice",
+    "prompt": "Perché la prima parte è importante?",
+    "explanation": "Costruisce il personaggio.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Mostra la personalità di Guido e il suo modo di vivere"
+     },
+     {
+      "id": "b",
+      "text": "Racconta la guerra"
+     },
+     {
+      "id": "c",
+      "text": "Spiega la storia"
+     },
+     {
+      "id": "d",
+      "text": "È inutile"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q7",
+    "type": "true_false",
+    "prompt": "Il film è stato criticato da alcuni per aver trattato la Shoah con humor.",
+    "explanation": "Il dibattito è reale.",
+    "answer": true
+   },
+   {
+    "id": "q8",
+    "type": "single_choice",
+    "prompt": "Che effetto ha il finale?",
+    "explanation": "Finale commovente.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Emozione e commozione"
+     },
+     {
+      "id": "b",
+      "text": "Noia"
+     },
+     {
+      "id": "c",
+      "text": "Rabbia"
+     },
+     {
+      "id": "d",
+      "text": "Indifferenza"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q9",
+    "type": "gap_fill",
+    "prompt": "Congiuntivo: completa.",
+    "explanation": "Congiuntivo presente.",
+    "text": "Penso che Guido [[a]] molto coraggioso e che il gioco [[b]] un atto d’amore. Credo che Dora [[c]] la scelta giusta e che Giosuè non [[d]] la verità.",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "sia"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "sia"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "faccia"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "sappia"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q10",
+    "type": "single_choice",
+    "prompt": "Quale espressione descrive Guido?",
+    "explanation": "Un personaggio che usa l’umorismo.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Ottimista e creativo"
+     },
+     {
+      "id": "b",
+      "text": "Cupo e rigido"
+     },
+     {
+      "id": "c",
+      "text": "Indifferente"
+     },
+     {
+      "id": "d",
+      "text": "Arrabbiato"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q11",
+    "type": "short_answer",
+    "prompt": "Scrivi un aggettivo per descrivere l’atmosfera del film.",
+    "explanation": "Altre risposte possibili.",
+    "acceptedAnswers": [
+     "commovente",
+     "drammatico",
+     "tragicomico",
+     "toccante"
+    ],
+    "modelAnswer": "commovente"
+   },
+   {
+    "id": "q12",
+    "type": "single_choice",
+    "prompt": "Quale musica accompagna il film?",
+    "explanation": "Musica di Nicola Piovani.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Colonna sonora premiata con l’Oscar"
+     },
+     {
+      "id": "b",
+      "text": "Rock"
+     },
+     {
+      "id": "c",
+      "text": "Jazz"
+     },
+     {
+      "id": "d",
+      "text": "Nessuna"
+     }
+    ],
+    "correctOptionId": "a"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "lavitaebella-base",
+  "title": "La vita è bella · Base",
+  "language": "it",
+  "level": "B1",
+  "description": "Trama, lessico e struttura del film di Benigni: ordine degli eventi, riassunto, preposizioni.",
+  "topics": [
+   "Film",
+   "Storia",
+   "Famiglia"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 21,
+  "media": {
+   "type": "film",
+   "title": "La vita è bella",
+   "year": 1997,
+   "scene": "Scena a scelta dell’insegnante: l’arrivo in città, il “gioco” nel campo o il finale."
+  },
+  "transcript": "",
+  "series": "la-vita-e-bella",
+  "seriesTitle": "La vita è bella · Roberto Benigni",
+  "levelLabel": "Base",
+  "teacherNotes": {
+   "warmup": [
+    "Immagine: una locandina del film o un cavallo bianco. Che cosa notate?",
+    "Domanda: si può scherzare sulla guerra? Quando è giusto?"
+   ],
+   "steps": [
+    "1. Preparazione al lessico.",
+    "2. Visione in due parti.",
+    "3. Esercizi di ordine e riassunto.",
+    "4. Discussione finale."
+   ],
+   "tips": [
+    "Tema delicato (Shoah): preparare gli alunni e lasciare spazio per le emozioni."
+   ],
+   "followUp": [
+    "Scrivi una recensione del film (80–100 parole).",
+    "Quale scena ti ha colpito di più e perché?"
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "true_false",
+    "prompt": "Prima del film: “La vita è bella” è un film italiano del 1997.",
+    "explanation": "Diretto e interpretato da Roberto Benigni.",
+    "answer": true
+   },
+   {
+    "id": "q2",
+    "type": "single_choice",
+    "prompt": "Chi è il protagonista Guido?",
+    "explanation": "Guido Orefice, durante il fascismo.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Un giovane ebreo che arriva ad Arezzo"
+     },
+     {
+      "id": "b",
+      "text": "Un soldato tedesco"
+     },
+     {
+      "id": "c",
+      "text": "Un medico"
+     },
+     {
+      "id": "d",
+      "text": "Un professore di storia"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Come fa Guido a incontrare Dora la prima volta?",
+    "explanation": "Un incontro per caso lo fa innamorare.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Per caso, durante il viaggio"
+     },
+     {
+      "id": "b",
+      "text": "In chiesa"
+     },
+     {
+      "id": "c",
+      "text": "In ospedale"
+     },
+     {
+      "id": "d",
+      "text": "In una libreria"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q4",
+    "type": "ordering",
+    "prompt": "Metti in ordine la prima parte del film.",
+    "explanation": "Ordine cronologico della prima parte.",
+    "items": [
+     {
+      "id": "o1",
+      "text": "Guido incontra Dora e si innamora"
+     },
+     {
+      "id": "o2",
+      "text": "Guido lavora come cameriere al Grand Hotel"
+     },
+     {
+      "id": "o3",
+      "text": "Guido finge di essere un ispettore e rivede Dora"
+     },
+     {
+      "id": "o4",
+      "text": "Dora scappa con Guido su un cavallo"
+     },
+     {
+      "id": "o5",
+      "text": "Nasce Giosuè"
+     }
+    ]
+   },
+   {
+    "id": "q5",
+    "type": "ordering",
+    "prompt": "Metti in ordine la seconda parte del film.",
+    "explanation": "La seconda parte racconta il campo.",
+    "items": [
+     {
+      "id": "o1",
+      "text": "La famiglia viene deportata nel campo"
+     },
+     {
+      "id": "o2",
+      "text": "Guido racconta che è un gioco a premi"
+     },
+     {
+      "id": "o3",
+      "text": "Guido nasconde Giosuè nella cabina"
+     },
+     {
+      "id": "o4",
+      "text": "Il campo viene liberato"
+     },
+     {
+      "id": "o5",
+      "text": "Giosuè ritrova la madre"
+     }
+    ]
+   },
+   {
+    "id": "q6",
+    "type": "gap_fill",
+    "prompt": "Completa il riassunto (campo, gioco, premio, carro armato).",
+    "explanation": "Il gioco protegge Giosuè.",
+    "text": "Nel [[a]] Guido dice al figlio che tutto è un [[b]]. Il vincitore riceve un [[c]]: un vero [[d]].",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "campo"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "gioco"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "premio"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "carro armato"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q7",
+    "type": "single_choice",
+    "prompt": "Perché Guido inventa il gioco?",
+    "explanation": "È un atto d’amore.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Per proteggere suo figlio dalla realtà"
+     },
+     {
+      "id": "b",
+      "text": "Per divertirsi"
+     },
+     {
+      "id": "c",
+      "text": "Per fuggire"
+     },
+     {
+      "id": "d",
+      "text": "Per ingannare i nazisti"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q8",
+    "type": "true_false",
+    "prompt": "Dora sale volontariamente sul treno per stare con la famiglia.",
+    "explanation": "Chiede di salire anche lei.",
+    "answer": true
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Quale premio vince alla fine Giosuè (secondo lui)?",
+    "explanation": "L’arrivo del carro armato americano.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Un carro armato"
+     },
+     {
+      "id": "b",
+      "text": "Una bicicletta"
+     },
+     {
+      "id": "c",
+      "text": "Un cane"
+     },
+     {
+      "id": "d",
+      "text": "Una casa"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "matching",
+    "prompt": "Lessico del film: abbina.",
+    "explanation": "Parole chiave.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "il campo di concentramento",
+      "right": "luogo di prigionia nazista"
+     },
+     {
+      "id": "p2",
+      "left": "deportare",
+      "right": "portare via con la forza"
+     },
+     {
+      "id": "p3",
+      "left": "l’inganno",
+      "right": "la finzione"
+     },
+     {
+      "id": "p4",
+      "left": "il sacrificio",
+      "right": "rinuncia per aiutare gli altri"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q11",
+    "type": "single_choice",
+    "prompt": "Scegli la preposizione: “Guido riesce … nascondere Giosuè.”",
+    "explanation": "riuscire a + infinito.",
+    "options": [
+     {
+      "id": "a",
+      "text": "a"
+     },
+     {
+      "id": "b",
+      "text": "di"
+     },
+     {
+      "id": "c",
+      "text": "per"
+     },
+     {
+      "id": "d",
+      "text": "da"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q12",
+    "type": "single_choice",
+    "prompt": "Scegli la preposizione: “Giosuè esce … cabina.”",
+    "explanation": "uscire da + la = dalla.",
+    "options": [
+     {
+      "id": "a",
+      "text": "dalla"
+     },
+     {
+      "id": "b",
+      "text": "della"
+     },
+     {
+      "id": "c",
+      "text": "per la"
+     },
+     {
+      "id": "d",
+      "text": "nella"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q13",
+    "type": "single_choice",
+    "prompt": "Quanti Oscar ha vinto il film?",
+    "explanation": "Miglior film straniero, miglior attore, miglior colonna sonora.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Tre"
+     },
+     {
+      "id": "b",
+      "text": "Uno"
+     },
+     {
+      "id": "c",
+      "text": "Cinque"
+     },
+     {
+      "id": "d",
+      "text": "Nessuno"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q14",
+    "type": "true_false",
+    "prompt": "Dopo il film: La fantasia può essere una forma di resistenza.",
+    "explanation": "È il messaggio centrale.",
+    "answer": true
+   },
+   {
+    "id": "q15",
+    "type": "single_choice",
+    "prompt": "Chi racconta la storia?",
+    "explanation": "La voce narrante è Giosuè.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Giosuè da adulto"
+     },
+     {
+      "id": "b",
+      "text": "Guido"
+     },
+     {
+      "id": "c",
+      "text": "Dora"
+     },
+     {
+      "id": "d",
+      "text": "Un soldato"
+     }
+    ],
+    "correctOptionId": "a"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "layall-basis",
+  "title": "Lay All Your Love On Me · Basis",
+  "language": "en",
+  "level": "B1",
+  "description": "Gefühle und Wortschatz in einem Disco-Klassiker verstehen.",
+  "topics": [
+   "Musik",
+   "Gefühle",
+   "ABBA"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "external",
+    "citation": "Offizielles Video beim Anbieter; Einbettbarkeit und Rechte vor dem Einsatz prüfen.",
+    "url": "https://www.youtube.com/watch?v=CQKyLOQPTPo",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 15,
+  "media": {
+   "type": "youtube",
+   "videoId": "CQKyLOQPTPo"
+  },
+  "transcript": "",
+  "series": "lay-all-your-love",
+  "seriesTitle": "Lay All Your Love On Me · ABBA",
+  "levelLabel": "Basis",
+  "teacherNotes": {
+   "warmup": [
+    "Frage: Wann wart ihr zum ersten Mal richtig eifersüchtig? Gefühl beschreiben.",
+    "Bild: Disco-Kugel / 80er."
+   ],
+   "steps": [
+    "1. Wortschatz.",
+    "2. Hören: Gefühle sammeln.",
+    "3. Wörter einsetzen.",
+    "4. Nachdenken: Passen Musik und Text zusammen?"
+   ],
+   "tips": [
+    "Das Lied hat einen starken Kontrast zwischen fröhlicher Musik und besorgtem Text – gut für Diskussion."
+   ],
+   "followUp": [
+    "Warum klingt traurige Eifersucht hier so tanzbar?",
+    "Schreibe zwei Sätze über Gefühle, die du schwer beschreiben kannst."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "true_false",
+    "prompt": "Vor dem Hören: ABBA kommt aus Schweden.",
+    "explanation": "Die Band wurde in Stockholm gegründet.",
+    "answer": true
+   },
+   {
+    "id": "q2",
+    "type": "matching",
+    "prompt": "Wortschatz vorab: Verbinde.",
+    "explanation": "Vokabeln aus den Aufgaben.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "jealous",
+      "right": "eifersüchtig"
+     },
+     {
+      "id": "p2",
+      "left": "threat",
+      "right": "Bedrohung"
+     },
+     {
+      "id": "p3",
+      "left": "careless",
+      "right": "sorglos"
+     },
+     {
+      "id": "p4",
+      "left": "beg",
+      "right": "bitten, flehen"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Beim Hören: Wie fühlt sich die Erzählerin?",
+    "explanation": "Neue Gefühle bringen Angst und Eifersucht.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Verliebt und etwas unsicher"
+     },
+     {
+      "id": "b",
+      "text": "Müde"
+     },
+     {
+      "id": "c",
+      "text": "Wütend auf alle"
+     },
+     {
+      "id": "d",
+      "text": "Gelangweilt"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q4",
+    "type": "true_false",
+    "prompt": "Die Erzählerin war immer eifersüchtig.",
+    "explanation": "Früher war sie es nicht – das hat sich geändert.",
+    "answer": false
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "Was sagt sie über sich selbst?",
+    "explanation": "Die Verliebtheit verändert sie.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Sie ist ungewohnt eifersüchtig geworden"
+     },
+     {
+      "id": "b",
+      "text": "Sie ist sehr reich"
+     },
+     {
+      "id": "c",
+      "text": "Sie reist viel"
+     },
+     {
+      "id": "d",
+      "text": "Sie ist müde von der Arbeit"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q6",
+    "type": "single_choice",
+    "prompt": "Welche Musikrichtung?",
+    "explanation": "Tanzbarer Pop mit starkem Bass.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Disco-Pop"
+     },
+     {
+      "id": "b",
+      "text": "Heavy Metal"
+     },
+     {
+      "id": "c",
+      "text": "Country"
+     },
+     {
+      "id": "d",
+      "text": "Klassik"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q7",
+    "type": "gap_fill",
+    "prompt": "Ergänze (jealous, love, fear, dear).",
+    "explanation": "Gefühlswörter.",
+    "text": "She feels [[a]] and in [[b]]. She asks her [[c]] for more attention and feels [[d]] when he is away.",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "jealous"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "love"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "dear"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "fear"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q8",
+    "type": "single_choice",
+    "prompt": "Wie heißt der Song richtig?",
+    "explanation": "Der Titel fordert: „Leg all deine Liebe auf mich.\"",
+    "options": [
+     {
+      "id": "a",
+      "text": "Lay All Your Love On Me"
+     },
+     {
+      "id": "b",
+      "text": "Lay All Your Love Off Me"
+     },
+     {
+      "id": "c",
+      "text": "Say All Your Love On Me"
+     },
+     {
+      "id": "d",
+      "text": "Lay Down Your Love"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q9",
+    "type": "true_false",
+    "prompt": "Das Lied erschien 1980.",
+    "explanation": "Es stammt vom Album „Super Trouper\".",
+    "answer": true
+   },
+   {
+    "id": "q10",
+    "type": "single_choice",
+    "prompt": "Welches Wort bedeutet „Bedrohung\"?",
+    "explanation": "threat.",
+    "options": [
+     {
+      "id": "a",
+      "text": "threat"
+     },
+     {
+      "id": "b",
+      "text": "trade"
+     },
+     {
+      "id": "c",
+      "text": "trap"
+     },
+     {
+      "id": "d",
+      "text": "train"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q11",
+    "type": "short_answer",
+    "prompt": "Wie heißt die Band? (ein Wort)",
+    "explanation": "Aus den Anfangsbuchstaben der vier Mitglieder.",
+    "acceptedAnswers": [
+     "ABBA",
+     "Abba"
+    ],
+    "modelAnswer": "ABBA"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "layall-standard",
+  "title": "Lay All Your Love On Me · Standard",
+  "language": "en",
+  "level": "B2",
+  "description": "Kontrast zwischen Musik und Text, Wortschatz und Etymologie.",
+  "topics": [
+   "Musik",
+   "Gefühle",
+   "Sprache"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "external",
+    "citation": "Offizielles Video beim Anbieter; Einbettbarkeit und Rechte vor dem Einsatz prüfen.",
+    "url": "https://www.youtube.com/watch?v=CQKyLOQPTPo",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 15,
+  "media": {
+   "type": "youtube",
+   "videoId": "CQKyLOQPTPo"
+  },
+  "transcript": "",
+  "series": "lay-all-your-love",
+  "seriesTitle": "Lay All Your Love On Me · ABBA",
+  "levelLabel": "Standard",
+  "teacherNotes": {
+   "warmup": [
+    "Hörimpuls: Die Musik ohne Text – wie fühlt sie sich an? Danach Text.",
+    "Frage: Wie klingen Lieder über Eifersucht normalerweise?"
+   ],
+   "steps": [
+    "1. Musikalischer Eindruck.",
+    "2. Textebene.",
+    "3. Vokabeln, Etymologie (vice).",
+    "4. Interpretation."
+   ],
+   "tips": [
+    "Latein-Hinweis: Wortschatz über Wortfamilien erschließen."
+   ],
+   "followUp": [
+    "Schreibe eine kurze Interpretation (100 Wörter).",
+    "Vergleiche mit einem modernen Lied zu Eifersucht."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Welcher Gegensatz prägt das Lied?",
+    "explanation": "Klang und Inhalt widersprechen sich bewusst.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Tanzbare Musik und besorgter Text"
+     },
+     {
+      "id": "b",
+      "text": "Laute Musik und Stille"
+     },
+     {
+      "id": "c",
+      "text": "Langsames Tempo und schneller Text"
+     },
+     {
+      "id": "d",
+      "text": "Jazz und Metal"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q2",
+    "type": "multiple_choice",
+    "prompt": "Welche Gefühle zeigt der Text? (mehrere)",
+    "explanation": "Verliebtheit macht verletzlich.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Eifersucht"
+     },
+     {
+      "id": "b",
+      "text": "Verletzlichkeit"
+     },
+     {
+      "id": "c",
+      "text": "Gleichgültigkeit"
+     },
+     {
+      "id": "d",
+      "text": "Angst vor Verlust"
+     },
+     {
+      "id": "e",
+      "text": "Stolz"
+     }
+    ],
+    "correctOptionIds": [
+     "a",
+     "b",
+     "d"
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Was bedeutet „to lay love on someone\" sinngemäß?",
+    "explanation": "Sinngemäß: „Schenk mir deine ganze Zuneigung.\"",
+    "options": [
+     {
+      "id": "a",
+      "text": "Liebe zeigen und geben"
+     },
+     {
+      "id": "b",
+      "text": "Liebe verstecken"
+     },
+     {
+      "id": "c",
+      "text": "Liebe verkaufen"
+     },
+     {
+      "id": "d",
+      "text": "Liebe vergessen"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Welcher lateinische Wortstamm steckt hinter „vice\" (Laster)?",
+    "explanation": "vice kommt von lat. vitium.",
+    "options": [
+     {
+      "id": "a",
+      "text": "vitium (Fehler)"
+     },
+     {
+      "id": "b",
+      "text": "vita (Leben)"
+     },
+     {
+      "id": "c",
+      "text": "vinum (Wein)"
+     },
+     {
+      "id": "d",
+      "text": "victor (Sieger)"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q5",
+    "type": "gap_fill",
+    "prompt": "Ergänze die Wörter (potential, possessive, overturn, unsatisfied).",
+    "explanation": "Wortschatz für Gefühle in Beziehungen.",
+    "text": "She admits that she has become [[a]]. Every other woman looks like a [[b]] danger. Her old rules [[c]], and she feels [[d]] when he is away.",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "possessive"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "potential"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "overturn"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "unsatisfied"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q6",
+    "type": "matching",
+    "prompt": "Verbinde Wort und Bedeutung.",
+    "explanation": "Zentrale Begriffe.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "possessive",
+      "right": "besitzergreifend"
+     },
+     {
+      "id": "p2",
+      "left": "vulnerable",
+      "right": "verletzlich"
+     },
+     {
+      "id": "p3",
+      "left": "devotion",
+      "right": "Hingabe"
+     },
+     {
+      "id": "p4",
+      "left": "overturn",
+      "right": "umwerfen"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q7",
+    "type": "true_false",
+    "prompt": "Die Erzählerin hatte schon vorher viele leidenschaftliche Beziehungen.",
+    "explanation": "Sie sagt sinngemäß, dass frühere Affären kurz und selten waren.",
+    "answer": false
+   },
+   {
+    "id": "q8",
+    "type": "single_choice",
+    "prompt": "Welche Perspektive nimmt das Lied ein?",
+    "explanation": "Ich-Erzählerin.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Ich-Perspektive"
+     },
+     {
+      "id": "b",
+      "text": "Allwissender Erzähler"
+     },
+     {
+      "id": "c",
+      "text": "Zweite Person"
+     },
+     {
+      "id": "d",
+      "text": "Dritte Person"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Wie wirkt der Refrain?",
+    "explanation": "Bitte und Forderung zugleich.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Er ist ein dringender Appell"
+     },
+     {
+      "id": "b",
+      "text": "Er ist ein Befehl an alle"
+     },
+     {
+      "id": "c",
+      "text": "Er erzählt Geschichte"
+     },
+     {
+      "id": "d",
+      "text": "Er ist stumm"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "short_answer",
+    "prompt": "Nenne zwei Synonyme für „jealous\" (englisch, eines reicht).",
+    "explanation": "Mehrere sind möglich.",
+    "acceptedAnswers": [
+     "envious",
+     "possessive",
+     "suspicious"
+    ],
+    "modelAnswer": "envious"
+   },
+   {
+    "id": "q11",
+    "type": "true_false",
+    "prompt": "Nach dem Hören: Der Text zeigt, dass Liebe auch Unsicherheit bedeuten kann.",
+    "explanation": "Das ist die Kernbotschaft.",
+    "answer": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "perfetti-avanzata",
+  "title": "Perfetti sconosciuti · Avanzata",
+  "language": "it",
+  "level": "B2",
+  "description": "Analisi di metafore, finale e temi; periodo ipotetico e lessico astratto.",
+  "topics": [
+   "Film",
+   "Analisi",
+   "Società"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 17,
+  "media": {
+   "type": "film",
+   "title": "Perfetti sconosciuti",
+   "year": 2016,
+   "scene": "Cena tra amici con un gioco sui cellulari."
+  },
+  "transcript": "",
+  "series": "perfetti-sconosciuti",
+  "seriesTitle": "Perfetti sconosciuti · Paolo Genovese",
+  "levelLabel": "Avanzata",
+  "teacherNotes": {
+   "warmup": [
+    "Domanda: i cellulari ci avvicinano o ci allontanano?",
+    "Impulso: osservate un’immagine di una cena con telefoni sul tavolo."
+   ],
+   "steps": [
+    "1. Dibattito iniziale.",
+    "2. Visione e note.",
+    "3. Analisi del finale.",
+    "4. Discussione."
+   ],
+   "tips": [
+    "Nel finale lasciare spazio alle interpretazioni."
+   ],
+   "followUp": [
+    "Scrivi un breve saggio: Privacy e fiducia nell’era dei social.",
+    "Che cosa cambieresti nel finale?"
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Quale metafora usa il film per il cellulare?",
+    "explanation": "La scatola nera registra ciò che è nascosto.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Scatola nera"
+     },
+     {
+      "id": "b",
+      "text": "Specchio"
+     },
+     {
+      "id": "c",
+      "text": "Porta"
+     },
+     {
+      "id": "d",
+      "text": "Finestra"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q2",
+    "type": "multiple_choice",
+    "prompt": "Quali temi emergono? (più risposte)",
+    "explanation": "Temi centrali.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Fiducia"
+     },
+     {
+      "id": "b",
+      "text": "Privacy"
+     },
+     {
+      "id": "c",
+      "text": "Menzogna"
+     },
+     {
+      "id": "d",
+      "text": "Sport"
+     },
+     {
+      "id": "e",
+      "text": "Natura"
+     }
+    ],
+    "correctOptionIds": [
+     "a",
+     "b",
+     "c"
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Perché l’ambiente chiuso (una sola stanza) è efficace?",
+    "explanation": "Unità di luogo.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Aumenta la tensione e la concentrazione"
+     },
+     {
+      "id": "b",
+      "text": "È economico"
+     },
+     {
+      "id": "c",
+      "text": "È caso"
+     },
+     {
+      "id": "d",
+      "text": "Evita musica"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q4",
+    "type": "matching",
+    "prompt": "Collega concetti e definizioni.",
+    "explanation": "Lessico.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "il segreto",
+      "right": "ciò che si nasconde agli altri"
+     },
+     {
+      "id": "p2",
+      "left": "la fiducia",
+      "right": "sicurezza nell’altro"
+     },
+     {
+      "id": "p3",
+      "left": "la bugia",
+      "right": "affermazione falsa"
+     },
+     {
+      "id": "p4",
+      "left": "la privacy",
+      "right": "sfera personale protetta"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "Quale ruolo ha il finale?",
+    "explanation": "Finale ambivalente.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Mette in dubbio ciò che abbiamo visto"
+     },
+     {
+      "id": "b",
+      "text": "Conferma tutto"
+     },
+     {
+      "id": "c",
+      "text": "Spiega tutto"
+     },
+     {
+      "id": "d",
+      "text": "Non c’è"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q6",
+    "type": "gap_fill",
+    "prompt": "Periodo ipotetico: completa.",
+    "explanation": "Periodo ipotetico del secondo tipo.",
+    "text": "Se il gioco [[a]] (non esistere), le coppie [[b]] (restare) tranquille. Se tutti [[c]] (dire) la verità, forse [[d]] (litigare) meno.",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "non esistesse"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "resterebbero"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "dicessero"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "litigherebbero"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q7",
+    "type": "single_choice",
+    "prompt": "Quale critica sociale emerge?",
+    "explanation": "Apparenza vs. realtà.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Dipendenza dalla tecnologia e dalle apparenze"
+     },
+     {
+      "id": "b",
+      "text": "La povertà"
+     },
+     {
+      "id": "c",
+      "text": "La scuola"
+     },
+     {
+      "id": "d",
+      "text": "Il traffico"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q8",
+    "type": "true_false",
+    "prompt": "Il film mette in luce le differenze tra vita pubblica, privata e segreta.",
+    "explanation": "Idea di base.",
+    "answer": true
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Quale effetto ha il montaggio dei messaggi?",
+    "explanation": "Suspense.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Crea suspense"
+     },
+     {
+      "id": "b",
+      "text": "Rende comico"
+     },
+     {
+      "id": "c",
+      "text": "Rallenta"
+     },
+     {
+      "id": "d",
+      "text": "Non ha effetto"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "short_answer",
+    "prompt": "Scrivi un sinonimo di “segreto” (una parola).",
+    "explanation": "Più risposte possibili.",
+    "acceptedAnswers": [
+     "mistero",
+     "riservato",
+     "nascosto"
+    ],
+    "modelAnswer": "mistero"
+   },
+   {
+    "id": "q11",
+    "type": "true_false",
+    "prompt": "Il film suggerisce che conosciamo davvero chi ci sta accanto.",
+    "explanation": "Il titolo ironizza.",
+    "answer": false
+   },
+   {
+    "id": "q12",
+    "type": "single_choice",
+    "prompt": "Perché è un film “universale”?",
+    "explanation": "Tema universale: tanti remake.",
+    "options": [
+     {
+      "id": "a",
+      "text": "I temi valgono per molte culture"
+     },
+     {
+      "id": "b",
+      "text": "Perché è breve"
+     },
+     {
+      "id": "c",
+      "text": "Perché è muto"
+     },
+     {
+      "id": "d",
+      "text": "Perché ha molti effetti"
+     }
+    ],
+    "correctOptionId": "a"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "perfetti-base",
+  "title": "Perfetti sconosciuti · Base",
+  "language": "it",
+  "level": "B1",
+  "description": "Personaggi, trama e tema del film: fiducia, segreti e smartphone.",
+  "topics": [
+   "Film",
+   "Amicizia",
+   "Tecnologia"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 20,
+  "media": {
+   "type": "film",
+   "title": "Perfetti sconosciuti",
+   "year": 2016,
+   "scene": "Cena tra amici con un gioco sui cellulari."
+  },
+  "transcript": "",
+  "series": "perfetti-sconosciuti",
+  "seriesTitle": "Perfetti sconosciuti · Paolo Genovese",
+  "levelLabel": "Base",
+  "teacherNotes": {
+   "warmup": [
+    "Domanda: mettereste il vostro telefono al centro del tavolo? Perché?",
+    "Impulso: tre vite — pubblica, privata, segreta. Che cosa ne pensate?"
+   ],
+   "steps": [
+    "1. Discussione.",
+    "2. Visione.",
+    "3. Compiti 1–5 del foglio.",
+    "4. Riflessione sulla privacy."
+   ],
+   "tips": [
+    "Alcune scene hanno contenuto adulto: controllare la classe.",
+    "Collegamento con tema social e privacy."
+   ],
+   "followUp": [
+    "Scrivi 5 frasi: Che cosa cambia se tutti vedono il tuo telefono?",
+    "Discuti: Fiducia o controllo?"
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "true_false",
+    "prompt": "Prima del film: Il film è una commedia italiana del 2016.",
+    "explanation": "Regia di Paolo Genovese.",
+    "answer": true
+   },
+   {
+    "id": "q2",
+    "type": "single_choice",
+    "prompt": "Che cosa succede durante la cena?",
+    "explanation": "Il gioco mette alla prova la fiducia.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Gli amici condividono i messaggi dei cellulari"
+     },
+     {
+      "id": "b",
+      "text": "Un incendio"
+     },
+     {
+      "id": "c",
+      "text": "Una gara"
+     },
+     {
+      "id": "d",
+      "text": "Una lezione"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Quanti amici partecipano alla cena?",
+    "explanation": "Sette amici.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Sette"
+     },
+     {
+      "id": "b",
+      "text": "Due"
+     },
+     {
+      "id": "c",
+      "text": "Quattro"
+     },
+     {
+      "id": "d",
+      "text": "Dieci"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Quale evento naturale accompagna la serata?",
+    "explanation": "Eclissi lunare.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Un’eclissi di luna"
+     },
+     {
+      "id": "b",
+      "text": "Un temporale"
+     },
+     {
+      "id": "c",
+      "text": "Un terremoto"
+     },
+     {
+      "id": "d",
+      "text": "Una nevicata"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q5",
+    "type": "true_false",
+    "prompt": "Tutti gli amici hanno la coscienza pulita.",
+    "explanation": "Il gioco rivela segreti.",
+    "answer": false
+   },
+   {
+    "id": "q6",
+    "type": "matching",
+    "prompt": "Abbina professione e personaggio.",
+    "explanation": "Alcune figure del film.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Rocco",
+      "right": "chirurgo plastico"
+     },
+     {
+      "id": "p2",
+      "left": "Eva",
+      "right": "psicoterapeuta"
+     },
+     {
+      "id": "p3",
+      "left": "Peppe",
+      "right": "amico single"
+     },
+     {
+      "id": "p4",
+      "left": "Carlotta",
+      "right": "moglie di Lele"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q7",
+    "type": "single_choice",
+    "prompt": "Che cosa significa “perfetti sconosciuti”?",
+    "explanation": "Si crede di conoscere gli altri.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Persone che si conoscono bene ma hanno segreti"
+     },
+     {
+      "id": "b",
+      "text": "Estranei"
+     },
+     {
+      "id": "c",
+      "text": "Colleghi"
+     },
+     {
+      "id": "d",
+      "text": "Parenti"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q8",
+    "type": "gap_fill",
+    "prompt": "Completa (segreti, cellulare, cena, amici).",
+    "explanation": "Riassunto base.",
+    "text": "Durante la [[a]] gli [[b]] mettono il [[c]] sul tavolo e scoprono dei [[d]].",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "cena"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "amici"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "cellulare"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "segreti"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Quale tema è centrale?",
+    "explanation": "Tema centrale.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Fiducia e segreti"
+     },
+     {
+      "id": "b",
+      "text": "Sport"
+     },
+     {
+      "id": "c",
+      "text": "Moda"
+     },
+     {
+      "id": "d",
+      "text": "Viaggi"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "true_false",
+    "prompt": "Il cellulare è descritto come “scatola nera” della vita.",
+    "explanation": "Metafora del film.",
+    "answer": true
+   },
+   {
+    "id": "q11",
+    "type": "single_choice",
+    "prompt": "Quale effetto ha l’eclissi?",
+    "explanation": "Lato nascosto che emerge.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Simbolo del lato nascosto"
+     },
+     {
+      "id": "b",
+      "text": "Rende più romantico"
+     },
+     {
+      "id": "c",
+      "text": "Nessuno"
+     },
+     {
+      "id": "d",
+      "text": "Spaventa"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q12",
+    "type": "single_choice",
+    "prompt": "Che genere è?",
+    "explanation": "Commedia amara.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Commedia con toni drammatici"
+     },
+     {
+      "id": "b",
+      "text": "Horror"
+     },
+     {
+      "id": "c",
+      "text": "Western"
+     },
+     {
+      "id": "d",
+      "text": "Documentario"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q13",
+    "type": "single_choice",
+    "prompt": "Chi ha scritto e diretto il film?",
+    "explanation": "Regia di Genovese.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Paolo Genovese"
+     },
+     {
+      "id": "b",
+      "text": "Paola Cortellesi"
+     },
+     {
+      "id": "c",
+      "text": "Roberto Benigni"
+     },
+     {
+      "id": "d",
+      "text": "Nanni Moretti"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q14",
+    "type": "true_false",
+    "prompt": "Dopo il film: Il film è stato rifatto in molti paesi.",
+    "explanation": "È uno dei film più rifatti.",
+    "answer": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "stan-basis",
+  "title": "Stan · Basis (Kl. 7)",
+  "language": "en",
+  "level": "A2",
+  "description": "Ein Lied über einen Fan, der auf Antwort wartet: Handlung verstehen, Stimmung erkennen, einfache Wörter üben.",
+  "topics": [
+   "Musik",
+   "Briefe",
+   "Fans"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "external",
+    "citation": "Offizielle Eminem-Version beim Anbieter. Explizite Fassung: für jüngere Klassen die bereinigte Fassung wählen oder nur die Anfangsminuten zeigen.",
+    "url": "https://www.youtube.com/watch?v=gOMhN-hfMtY",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 22,
+  "media": {
+   "type": "youtube",
+   "videoId": "gOMhN-hfMtY"
+  },
+  "transcript": "",
+  "series": "stan",
+  "seriesTitle": "Stan · Eminem feat. Dido",
+  "levelLabel": "Basis",
+  "teacherNotes": {
+   "warmup": [
+    "Höre die ersten zehn Sekunden. Was für eine Geschichte erwartest du? Sammle drei Adjektive.",
+    "Was bedeutet es, ein „Fan\" zu sein? Wann wird Bewunderung zu viel?"
+   ],
+   "steps": [
+    "1. Erste zehn Sekunden hören, Erwartungen sammeln (Partnerarbeit).",
+    "2. Lied einmal komplett hören: Wer schreibt wem? (Aufgaben 2–4)",
+    "3. Zweites Hören: Stimmung und Briefe ordnen (5–7).",
+    "4. Wortschatz und Auswertung; zum Schluss das Video ansehen und mit den eigenen Bildern vergleichen."
+   ],
+   "tips": [
+    "Thema Gewalt und Suizid vorab ansprechen und Ausstiegsmöglichkeit anbieten.",
+    "Bei Klasse 7 nur bereinigte Fassung; das Ende zusammen besprechen statt allein lesen lassen."
+   ],
+   "followUp": [
+    "Wie fühlst du dich nach dem Lied? Schreibe zwei Sätze.",
+    "Gibt es ein Lied, das du deiner Klasse vorstellen möchtest? Erstelle ein kurzes Arbeitsblatt."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "true_false",
+    "prompt": "Vor dem Hören: Hör nur die ersten zehn Sekunden. Der Anfang klingt eher ruhig und traurig als fröhlich.",
+    "explanation": "Regen, Klavier und eine ruhige Frauenstimme erzeugen eine gedrückte Stimmung.",
+    "answer": true
+   },
+   {
+    "id": "q2",
+    "type": "single_choice",
+    "prompt": "Beim Hören: Wer schreibt in dem Lied Briefe?",
+    "explanation": "Stan ist ein Fan des Rappers und schreibt ihm mehrmals.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Ein großer Fan"
+     },
+     {
+      "id": "b",
+      "text": "Ein Lehrer"
+     },
+     {
+      "id": "c",
+      "text": "Eine Postbotin"
+     },
+     {
+      "id": "d",
+      "text": "Ein Polizist"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "An wen sind die Briefe gerichtet?",
+    "explanation": "Stan spricht den Rapper mit dem Namen Slim an.",
+    "options": [
+     {
+      "id": "a",
+      "text": "An seine Mutter"
+     },
+     {
+      "id": "b",
+      "text": "An den Rapper (Slim)"
+     },
+     {
+      "id": "c",
+      "text": "An einen Freund aus der Schule"
+     },
+     {
+      "id": "d",
+      "text": "An eine Zeitung"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Was wünscht sich Stan von dem Rapper?",
+    "explanation": "Er wartet auf Post oder einen Anruf und wird immer unruhiger, weil nichts kommt.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Geld"
+     },
+     {
+      "id": "b",
+      "text": "Eine Antwort"
+     },
+     {
+      "id": "c",
+      "text": "Ein Haus"
+     },
+     {
+      "id": "d",
+      "text": "Ein neues Handy"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q5",
+    "type": "true_false",
+    "prompt": "Stan schreibt nur einen einzigen Brief.",
+    "explanation": "Es sind mehrere Briefe; mit jedem wird Stan ungeduldiger.",
+    "answer": false
+   },
+   {
+    "id": "q6",
+    "type": "ordering",
+    "prompt": "Bring die Stimmung von Stan in die richtige Reihenfolge (erst ... dann ...).",
+    "explanation": "So verändert sich Stans Haltung von Brief zu Brief.",
+    "items": [
+     {
+      "id": "o1",
+      "text": "Er ist neugierig und freundlich"
+     },
+     {
+      "id": "o2",
+      "text": "Er wartet und wird enttäuscht"
+     },
+     {
+      "id": "o3",
+      "text": "Er wird wütend"
+     },
+     {
+      "id": "o4",
+      "text": "Er trifft eine schlimme Entscheidung"
+     }
+    ]
+   },
+   {
+    "id": "q7",
+    "type": "matching",
+    "prompt": "Ordne zu: Was passt zu welchem Brief?",
+    "explanation": "Die Briefe werden Schritt für Schritt dunkler.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Brief 1",
+      "right": "freundlich, erzählt von sich"
+     },
+     {
+      "id": "p2",
+      "left": "Brief 2",
+      "right": "enttäuscht, weil keine Antwort kommt"
+     },
+     {
+      "id": "p3",
+      "left": "Brief 3",
+      "right": "sehr wütend und gefährlich"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q8",
+    "type": "short_answer",
+    "prompt": "Wie heißt der kleine Bruder, den Stan erwähnt? (ein Wort)",
+    "explanation": "Der Bruder ist erst sechs Jahre alt; Stan sagt, ein Autogramm für ihn wäre schön gewesen.",
+    "acceptedAnswers": [
+     "Matthew"
+    ],
+    "modelAnswer": "Matthew"
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Warum ist Stan so enttäuscht?",
+    "explanation": "Stan fühlt sich von seinem Idol nicht ernst genommen.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Er hat sein Telefon verloren"
+     },
+     {
+      "id": "b",
+      "text": "Der Rapper hat ihm nicht geantwortet und kein Autogramm gegeben"
+     },
+     {
+      "id": "c",
+      "text": "Das Konzert war abgesagt"
+     },
+     {
+      "id": "d",
+      "text": "Seine Freundin ist weggezogen"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q10",
+    "type": "true_false",
+    "prompt": "Am Ende antwortet der Rapper – aber zu spät.",
+    "explanation": "Slim schreibt zurück und gibt freundliche Ratschläge; da ist die Geschichte schon schlimm ausgegangen.",
+    "answer": true
+   },
+   {
+    "id": "q11",
+    "type": "gap_fill",
+    "prompt": "Wortschatz: Ergänze das englische Wort (Hilfe: fan, letter, wait, angry).",
+    "explanation": "Die vier Schlüsselwörter der Geschichte.",
+    "text": "Stan is a big [[a]] of the rapper. He writes a [[b]] and has to [[c]] for an answer. In the end he is very [[d]].",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "fan"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "letter"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "wait"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "angry"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q12",
+    "type": "matching",
+    "prompt": "Wortschatz: Verbinde Wort und Bedeutung.",
+    "explanation": "Diese Wörter kommen im Lied vor oder gehören zur Geschichte.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "fan",
+      "right": "Person, die jemanden sehr bewundert"
+     },
+     {
+      "id": "p2",
+      "left": "autograph",
+      "right": "Unterschrift einer berühmten Person"
+     },
+     {
+      "id": "p3",
+      "left": "ignore",
+      "right": "nicht beachten"
+     },
+     {
+      "id": "p4",
+      "left": "pregnant",
+      "right": "schwanger"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q13",
+    "type": "single_choice",
+    "prompt": "Wortschatz: „He ignored my letters\" bedeutet …",
+    "explanation": "to ignore = nicht beachten.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Er hat die Briefe gelesen."
+     },
+     {
+      "id": "b",
+      "text": "Er hat die Briefe nicht beachtet."
+     },
+     {
+      "id": "c",
+      "text": "Er hat die Briefe verbrannt."
+     },
+     {
+      "id": "d",
+      "text": "Er hat die Briefe geliebt."
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q14",
+    "type": "true_false",
+    "prompt": "Nach dem Hören: Das Lied ist eine echte, wahre Geschichte über einen bestimmten Fan.",
+    "explanation": "Die Geschichte ist erfunden; sie zeigt, was passieren kann, wenn Bewunderung zu Besessenheit wird.",
+    "answer": false
+   },
+   {
+    "id": "q15",
+    "type": "single_choice",
+    "prompt": "Wie ist die Stimmung am Ende des Liedes?",
+    "explanation": "Die Geschichte endet tragisch.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Fröhlich und lustig"
+     },
+     {
+      "id": "b",
+      "text": "Traurig und bedrückend"
+     },
+     {
+      "id": "c",
+      "text": "Wie ein Partylied"
+     },
+     {
+      "id": "d",
+      "text": "Langweilig"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q16",
+    "type": "single_choice",
+    "prompt": "Welche Aufgabe hat Dido in dem Lied?",
+    "explanation": "Ihr Gesang kommt aus einem eigenen Lied und gibt der Geschichte Ruhe und Trauer.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Sie rappt die Strophen"
+     },
+     {
+      "id": "b",
+      "text": "Sie singt den ruhigen Refrain"
+     },
+     {
+      "id": "c",
+      "text": "Sie ist die Freundin im Video"
+     },
+     {
+      "id": "d",
+      "text": "Sie schreibt den Brief"
+     }
+    ],
+    "correctOptionId": "b"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "stan-standard",
+  "title": "Stan · Standard (Kl. 9/10)",
+  "language": "en",
+  "level": "B1",
+  "description": "Handlung, Figuren und Wirkung des Liedes: Reihenfolge, Gefühle, Wortschatz zu Fan-Verhalten.",
+  "topics": [
+   "Musik",
+   "Briefe",
+   "Fans",
+   "Social Media"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "external",
+    "citation": "Offizielle Eminem-Version beim Anbieter. Explizite Fassung: für jüngere Klassen die bereinigte Fassung wählen oder nur die Anfangsminuten zeigen.",
+    "url": "https://www.youtube.com/watch?v=gOMhN-hfMtY",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 21,
+  "media": {
+   "type": "youtube",
+   "videoId": "gOMhN-hfMtY"
+  },
+  "transcript": "",
+  "series": "stan",
+  "seriesTitle": "Stan · Eminem feat. Dido",
+  "levelLabel": "Standard",
+  "teacherNotes": {
+   "warmup": [
+    "Erwartung: Nur die ersten zehn Sekunden hören. Worum könnte es gehen?",
+    "Wie reagieren Fans, wenn Idole nicht antworten? Beispiele aus Social Media?"
+   ],
+   "steps": [
+    "1. Hörerwartung (10 Sekunden).",
+    "2. Globalverstehen: Figuren und Handlung (Aufgaben 2–4).",
+    "3. Detail: Reihenfolge und Gefühle (3, 7).",
+    "4. Wortschatz, dann Video mit Bleep-Version vergleichen und über Zensur sprechen."
+   ],
+   "tips": [
+    "Auf Themen Gewalt und Suizid vorbereiten; Gesprächsangebot machen.",
+    "Als Lernprodukt: Antwortbrief von Stans Mutter schreiben lassen."
+   ],
+   "followUp": [
+    "Charakterisiere Stan in 5 Sätzen.",
+    "Das Video verwendet eine bereinigte Fassung: Wie findest du das? Begründe.",
+    "Schreibe einen Brief von Stans Mutter an Slim."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "short_answer",
+    "prompt": "Vor dem Hören: Wie wirkt der Anfang des Liedes auf dich? Nenne ein passendes Adjektiv (z. B. gloomy).",
+    "explanation": "Regen, Klavier und die ruhige Stimme erzeugen eine bedrückte Stimmung.",
+    "acceptedAnswers": [
+     "gloomy",
+     "sad",
+     "melancholic",
+     "calm",
+     "dark",
+     "quiet"
+    ],
+    "modelAnswer": "gloomy / sad"
+   },
+   {
+    "id": "q2",
+    "type": "matching",
+    "prompt": "Beim Hören: Ordne die Personen den Rollen zu.",
+    "explanation": "Das sind die wichtigsten Figuren und Stimmen.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Stan",
+      "right": "schreibt die Briefe"
+     },
+     {
+      "id": "p2",
+      "left": "Slim",
+      "right": "der Rapper, an den die Briefe gehen"
+     },
+     {
+      "id": "p3",
+      "left": "Matthew",
+      "right": "Stans kleiner Bruder"
+     },
+     {
+      "id": "p4",
+      "left": "Dido",
+      "right": "singt den ruhigen Refrain"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Bring die Ereignisse in die richtige Reihenfolge.",
+    "explanation": "So entwickelt sich die Geschichte.",
+    "items": [
+     {
+      "id": "o1",
+      "text": "Stan schreibt freundlich und erzählt von sich"
+     },
+     {
+      "id": "o2",
+      "text": "Er ist enttäuscht, weil keine Antwort kommt"
+     },
+     {
+      "id": "o3",
+      "text": "Er wirft dem Rapper vor, seine Fans zu ignorieren"
+     },
+     {
+      "id": "o4",
+      "text": "Er nimmt eine Kassette auf und fährt los"
+     },
+     {
+      "id": "o5",
+      "text": "Slim antwortet"
+     }
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Was macht Stan in seinem dritten Brief?",
+    "explanation": "Der dritte „Brief\" ist eine Tonaufnahme; das Auto spielt am Ende eine tödliche Rolle.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Er bedankt sich"
+     },
+     {
+      "id": "b",
+      "text": "Er spricht auf eine Kassette, während er betrunken Auto fährt"
+     },
+     {
+      "id": "c",
+      "text": "Er schlägt ein Treffen vor"
+     },
+     {
+      "id": "d",
+      "text": "Er bittet um Geld"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q5",
+    "type": "true_false",
+    "prompt": "Stan erreicht sein Ziel: Er trifft den Rapper persönlich.",
+    "explanation": "Sie begegnen sich nie; Slims Antwort kommt zu spät.",
+    "answer": false
+   },
+   {
+    "id": "q6",
+    "type": "single_choice",
+    "prompt": "Wer hat Stan nach seinem Verständnis im Stich gelassen?",
+    "explanation": "Er sieht sich vom Idol ignoriert.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Seine Eltern"
+     },
+     {
+      "id": "b",
+      "text": "Sein Idol"
+     },
+     {
+      "id": "c",
+      "text": "Seine Lehrerin"
+     },
+     {
+      "id": "d",
+      "text": "Die Polizei"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q7",
+    "type": "multiple_choice",
+    "prompt": "Welche Gefühle zeigt Stan im Verlauf des Liedes? (mehrere)",
+    "explanation": "Von Begeisterung zu Verzweiflung; Langeweile kommt nicht vor.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Bewunderung"
+     },
+     {
+      "id": "b",
+      "text": "Enttäuschung"
+     },
+     {
+      "id": "c",
+      "text": "Wut"
+     },
+     {
+      "id": "d",
+      "text": "Langeweile"
+     },
+     {
+      "id": "e",
+      "text": "Verzweiflung"
+     }
+    ],
+    "correctOptionIds": [
+     "a",
+     "b",
+     "c",
+     "e"
+    ]
+   },
+   {
+    "id": "q8",
+    "type": "single_choice",
+    "prompt": "Welche Textsorte spielt in dem Lied die wichtigste Rolle?",
+    "explanation": "Die ganze Handlung wird durch Briefe erzählt.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Rezept"
+     },
+     {
+      "id": "b",
+      "text": "Brief"
+     },
+     {
+      "id": "c",
+      "text": "Tagebuch"
+     },
+     {
+      "id": "d",
+      "text": "Zeitungsartikel"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q9",
+    "type": "gap_fill",
+    "prompt": "Wortschatz: Setze passende Wörter ein (obsessed, admire, ignore, upset).",
+    "explanation": "Wörter für Gefühle und Handlungen.",
+    "text": "Stan is [[a]] with the rapper. He used to [[b]] him, but now he feels [[c]] because the rapper seems to [[d]] his letters.",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "obsessed"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "admire"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "upset"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "ignore"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q10",
+    "type": "matching",
+    "prompt": "Wortschatz: Verbinde Wort und Bedeutung.",
+    "explanation": "Typische Wörter, um Stans Haltung zu beschreiben.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "idol",
+      "right": "Person, die man sehr bewundert"
+     },
+     {
+      "id": "p2",
+      "left": "disappointed",
+      "right": "enttäuscht"
+     },
+     {
+      "id": "p3",
+      "left": "autograph",
+      "right": "Unterschrift"
+     },
+     {
+      "id": "p4",
+      "left": "desperate",
+      "right": "verzweifelt"
+     },
+     {
+      "id": "p5",
+      "left": "obsessed",
+      "right": "von etwas besessen"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q11",
+    "type": "single_choice",
+    "prompt": "Welches Wort passt zu „He sent three letters but nobody answered\"?",
+    "explanation": "Er fühlt sich ignoriert.",
+    "options": [
+     {
+      "id": "a",
+      "text": "grateful"
+     },
+     {
+      "id": "b",
+      "text": "ignored"
+     },
+     {
+      "id": "c",
+      "text": "proud"
+     },
+     {
+      "id": "d",
+      "text": "relieved"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q12",
+    "type": "single_choice",
+    "prompt": "Kontrolliere: „Stan wrote to the rapper because he …\"",
+    "explanation": "Motiv der Briefe ist Bewunderung.",
+    "options": [
+     {
+      "id": "a",
+      "text": "wanted to sell something"
+     },
+     {
+      "id": "b",
+      "text": "admired him"
+     },
+     {
+      "id": "c",
+      "text": "was his neighbour"
+     },
+     {
+      "id": "d",
+      "text": "needed a job"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q13",
+    "type": "true_false",
+    "prompt": "Nach dem Hören: Das Video erzählt die Geschichte genauso wie der Text, ohne zusätzliche Informationen.",
+    "explanation": "Das Video zeigt zusätzliche Szenen (Stans Zimmer, sein Umfeld), die im Text nur angedeutet werden.",
+    "answer": false
+   },
+   {
+    "id": "q14",
+    "type": "single_choice",
+    "prompt": "Das Lied benutzt ein Sample aus einem anderen Lied. Was bewirkt es?",
+    "explanation": "Der ruhige Gesang kontrastiert mit der Wut im Rap.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Es macht das Lied lustig"
+     },
+     {
+      "id": "b",
+      "text": "Es gibt dem Rap eine ruhige, traurige Gegenstimme"
+     },
+     {
+      "id": "c",
+      "text": "Es erzählt die Geschichte weiter"
+     },
+     {
+      "id": "d",
+      "text": "Es soll nur Platz füllen"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q15",
+    "type": "true_false",
+    "prompt": "Das Lied ist heute noch aktuell: Auch Influencer und Fans erleben ähnliche Beziehungen.",
+    "explanation": "Stichwort parasoziale Beziehung – einseitige Bindung an Prominente.",
+    "answer": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "stan-vertiefung",
+  "title": "Stan · Vertiefung (Oberstufe)",
+  "language": "en",
+  "level": "B2",
+  "description": "Analyse von Erzählform, Stilmitteln und Wirkung; Grammatik (Reported Speech, Conditionals) und Wortschatz im Kontext.",
+  "topics": [
+   "Musik",
+   "Analyse",
+   "Fans",
+   "Medienkritik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "external",
+    "citation": "Offizielle Eminem-Version beim Anbieter. Explizite Fassung: für jüngere Klassen die bereinigte Fassung wählen oder nur die Anfangsminuten zeigen.",
+    "url": "https://www.youtube.com/watch?v=gOMhN-hfMtY",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 20,
+  "media": {
+   "type": "youtube",
+   "videoId": "gOMhN-hfMtY"
+  },
+  "transcript": "",
+  "series": "stan",
+  "seriesTitle": "Stan · Eminem feat. Dido",
+  "levelLabel": "Vertiefung",
+  "teacherNotes": {
+   "warmup": [
+    "Erwartungen zum Titel und zu den ersten Sekunden notieren.",
+    "Warum können Beziehungen zu Prominenten problematisch werden?"
+   ],
+   "steps": [
+    "1. Hören und Plot-Aufgabe (2–3).",
+    "2. Zweites Hören: Stilmittel und Perspektive.",
+    "3. Grammatikblock: Reported Speech, Conditionals.",
+    "4. Rechercheauftrag: parasoziale Beziehung, Vergleich mit Influencern; Rollenspiel Stan–Slim."
+   ],
+   "tips": [
+    "Gut kombinierbar mit Briefform (Letter writing) und Stilanalyse.",
+    "Hinweis auf sensible Themen; keine Vertiefung der Gewaltdetails nötig."
+   ],
+   "followUp": [
+    "Schreibe Stans Brief ein Jahr später aus seiner Sicht (hypothetisch).",
+    "Diskutiere in Gruppen: Welche Verantwortung haben Stars gegenüber Fans?",
+    "Recherchiere „parasocial relationships\" und präsentiere kurz."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "short_answer",
+    "prompt": "Vor dem Hören: Warum sind Intro und Gesang im Kontrast zum Rap wirksam? Nenne ein Schlüsselwort (contrast, tension, calm …).",
+    "explanation": "Das Sample liefert einen Gegenpol zum aufgebrachten Rap.",
+    "acceptedAnswers": [
+     "contrast",
+     "tension",
+     "calm",
+     "irony"
+    ],
+    "modelAnswer": "contrast / tension"
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "Rekonstruiere den Erzählbogen.",
+    "explanation": "Briefroman im Lied; die Wendepunkte markieren Schritte der Eskalation.",
+    "items": [
+     {
+      "id": "o1",
+      "text": "Begeisterung (Brief 1)"
+     },
+     {
+      "id": "o2",
+      "text": "Verunsicherung und Ungeduld (Brief 2)"
+     },
+     {
+      "id": "o3",
+      "text": "Wut und Eskalation (Brief 3)"
+     },
+     {
+      "id": "o4",
+      "text": "Slims Antwort kommt zu spät"
+     },
+     {
+      "id": "o5",
+      "text": "Rückblick: Stans Geschichte als Warnung"
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Welche Funktion hat der Brief Slims am Ende?",
+    "explanation": "Der freundliche Brief steht im Kontrast zur Katastrophe: zu spät, zu wenig.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Er löst den Konflikt"
+     },
+     {
+      "id": "b",
+      "text": "Er zeigt die Tragik des Missverständnisses"
+     },
+     {
+      "id": "c",
+      "text": "Er ist reiner Spaß"
+     },
+     {
+      "id": "d",
+      "text": "Er erklärt das Lied"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q4",
+    "type": "multiple_choice",
+    "prompt": "Welche Stilmittel fallen auf? (mehrere)",
+    "explanation": "Briefform und Ich-Perspektive dominieren; Fragen und Anreden an Slim erzeugen Nähe.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Briefform"
+     },
+     {
+      "id": "b",
+      "text": "Ich-Erzähler"
+     },
+     {
+      "id": "c",
+      "text": "Rhetorische Fragen"
+     },
+     {
+      "id": "d",
+      "text": "Parallelismus"
+     },
+     {
+      "id": "e",
+      "text": "Dialogische Struktur"
+     }
+    ],
+    "correctOptionIds": [
+     "a",
+     "b",
+     "c",
+     "e"
+    ]
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "Welche Beziehung beschreibt der Begriff „parasocial relationship\"?",
+    "explanation": "Fans fühlen sich verbunden, die berühmte Person kennt sie aber nicht.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Freundschaft unter Kollegen"
+     },
+     {
+      "id": "b",
+      "text": "Einseitige emotionale Bindung an eine bekannte Person"
+     },
+     {
+      "id": "c",
+      "text": "Streit zwischen Nachbarn"
+     },
+     {
+      "id": "d",
+      "text": "Geschäftsbeziehung"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q6",
+    "type": "single_choice",
+    "prompt": "Welche Rolle spielt die Perspektive des Ich-Erzählers?",
+    "explanation": "Man erlebt alles aus Stans Sicht, sieht aber auch, was er nicht sieht.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Sie macht die Geschichte glaubwürdiger und intimer"
+     },
+     {
+      "id": "b",
+      "text": "Sie macht den Text objektiv"
+     },
+     {
+      "id": "c",
+      "text": "Sie ersetzt den Refrain"
+     },
+     {
+      "id": "d",
+      "text": "Sie zeigt nur Slims Sicht"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q7",
+    "type": "gap_fill",
+    "prompt": "Reported Speech: Ergänze (had written, hadn’t answered, would reply, was).",
+    "explanation": "Backshift: Present → Past, Past → Past Perfect, will → would.",
+    "text": "Stan said that he [[a]] to Slim several times, but Slim [[b]]. He hoped Slim [[c]] soon. He added that his girlfriend [[d]] pregnant.",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "had written"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "hadn’t answered",
+       "had not answered"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "would reply"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "was"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q8",
+    "type": "single_choice",
+    "prompt": "Conditional: „If Slim had answered earlier, Stan … feel better.\"",
+    "explanation": "Third conditional: if + Past Perfect, would have + Participle.",
+    "options": [
+     {
+      "id": "a",
+      "text": "would"
+     },
+     {
+      "id": "b",
+      "text": "would have"
+     },
+     {
+      "id": "c",
+      "text": "will"
+     },
+     {
+      "id": "d",
+      "text": "had"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q9",
+    "type": "matching",
+    "prompt": "Synonyme: Verbinde passende Paare.",
+    "explanation": "Wörter zur Beschreibung von Stans Zustand.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "devoted",
+      "right": "loyal"
+     },
+     {
+      "id": "p2",
+      "left": "angry",
+      "right": "furious"
+     },
+     {
+      "id": "p3",
+      "left": "ignored",
+      "right": "overlooked"
+     },
+     {
+      "id": "p4",
+      "left": "obsessed",
+      "right": "fixated"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q10",
+    "type": "matching",
+    "prompt": "Antonyme: Verbinde Gegensatzpaare.",
+    "explanation": "Gegensätze helfen, Nuancen zu erkennen.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "devoted",
+      "right": "indifferent"
+     },
+     {
+      "id": "p2",
+      "left": "angry",
+      "right": "calm"
+     },
+     {
+      "id": "p3",
+      "left": "ignored",
+      "right": "noticed"
+     },
+     {
+      "id": "p4",
+      "left": "obsessed",
+      "right": "detached"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q11",
+    "type": "single_choice",
+    "prompt": "Welche Aussage fasst die gesellschaftliche Kritik des Liedes am besten zusammen?",
+    "explanation": "Der Text warnt vor Eskalation durch Idealisierung und Ausbleiben von Zuwendung.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Berühmte Menschen sind unfreundlich."
+     },
+     {
+      "id": "b",
+      "text": "Intensive Fan-Bindung kann gefährlich werden, wenn keine Grenzen existieren."
+     },
+     {
+      "id": "c",
+      "text": "Briefe sind veraltet."
+     },
+     {
+      "id": "d",
+      "text": "Musik sollte nie traurig sein."
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q12",
+    "type": "true_false",
+    "prompt": "Das Sample aus einem fremden Lied wirkt nur dekorativ und hat keine inhaltliche Funktion.",
+    "explanation": "Es setzt einen Gefühlsrahmen und verstärkt die Tragik.",
+    "answer": false
+   },
+   {
+    "id": "q13",
+    "type": "single_choice",
+    "prompt": "Welche Veränderung der Medienlandschaft seit 2000 verschärft das Thema?",
+    "explanation": "Direktnachrichten, Livestreams und Kommentare erzeugen Nähe – und Erwartungen.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Social Media erleichtert scheinbaren Kontakt zu Stars"
+     },
+     {
+      "id": "b",
+      "text": "Briefe sind schneller geworden"
+     },
+     {
+      "id": "c",
+      "text": "Radios sind verschwunden"
+     },
+     {
+      "id": "d",
+      "text": "Konzerte sind kostenlos"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q14",
+    "type": "true_false",
+    "prompt": "Das Video ergänzt Informationen, die der Text nicht liefert.",
+    "explanation": "Bilder zeigen Umfeld und Details, die den Text deuten.",
+    "answer": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "tusi-avanzata",
+  "title": "Tu si a fine do’ munno · Avanzata",
+  "language": "it",
+  "level": "B1",
+  "description": "Dialetto, identità e social: lingua del testo e articolo di approfondimento.",
+  "topics": [
+   "Musica",
+   "Dialetti",
+   "Società"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "external",
+    "citation": "Video ufficiale presso il fornitore; verificare incorporabilità e diritti prima dell’uso.",
+    "url": "https://www.youtube.com/watch?v=4zE1RnQnwcQ",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 17,
+  "media": {
+   "type": "youtube",
+   "videoId": "4zE1RnQnwcQ"
+  },
+  "transcript": "",
+  "series": "tu-si-a-fine-do-munno",
+  "seriesTitle": "Tu si a fine do’ munno · Angelo Famao",
+  "levelLabel": "Avanzata",
+  "teacherNotes": {
+   "warmup": [
+    "Parlate delle lingue che usate a casa. Quando cambiate lingua?",
+    "Domanda: lo standard è migliore del dialetto?"
+   ],
+   "steps": [
+    "1. Articolo sul dialetto (lettura).",
+    "2. Ascolto e identificazione di parole dialettali.",
+    "3. Traduzione in standard.",
+    "4. Discussione."
+   ],
+   "tips": [
+    "Collegare con identità regionale; usare esempi dei social."
+   ],
+   "followUp": [
+    "Scrivi un breve commento: i dialetti sono un valore o un limite?",
+    "Presenta una canzone in dialetto a scelta."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Quale funzione ha il dialetto nel testo?",
+    "explanation": "Dialetto come identità.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Dà identità e calore regionale"
+     },
+     {
+      "id": "b",
+      "text": "È un errore"
+     },
+     {
+      "id": "c",
+      "text": "Serve a nascondere il significato"
+     },
+     {
+      "id": "d",
+      "text": "È solo decorativo"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q2",
+    "type": "matching",
+    "prompt": "Collega le forme dialettali all’italiano.",
+    "explanation": "Esercizio di traduzione.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "si suonn",
+      "right": "sei un sogno"
+     },
+     {
+      "id": "p2",
+      "left": "je pens a te",
+      "right": "io penso a te"
+     },
+     {
+      "id": "p3",
+      "left": "teng",
+      "right": "ho"
+     },
+     {
+      "id": "p4",
+      "left": "o",
+      "right": "il"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q3",
+    "type": "multiple_choice",
+    "prompt": "Che cosa si vede nella lingua del testo? (più risposte)",
+    "explanation": "Italiano e napoletano si alternano.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Mescolanza di codici"
+     },
+     {
+      "id": "b",
+      "text": "Frasi molto lunghe"
+     },
+     {
+      "id": "c",
+      "text": "Espressioni affettive"
+     },
+     {
+      "id": "d",
+      "text": "Termini tecnici"
+     }
+    ],
+    "correctOptionIds": [
+     "a",
+     "c"
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Perché i dialetti spopolano sui social (articolo sul dialetto)?",
+    "explanation": "Meme, battute, canzoni.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Sono divertenti e creano identità"
+     },
+     {
+      "id": "b",
+      "text": "Sono obbligatori"
+     },
+     {
+      "id": "c",
+      "text": "Sono più semplici"
+     },
+     {
+      "id": "d",
+      "text": "Sono vietati"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q5",
+    "type": "true_false",
+    "prompt": "Secondo l’articolo molti italiani parlano ancora un dialetto in famiglia.",
+    "explanation": "L’articolo cita dati sulla diffusione.",
+    "answer": true
+   },
+   {
+    "id": "q6",
+    "type": "single_choice",
+    "prompt": "Quale effetto ha il ritornello?",
+    "explanation": "Struttura ripetitiva e canto.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Ripetizione e vicinanza"
+     },
+     {
+      "id": "b",
+      "text": "Distacco"
+     },
+     {
+      "id": "c",
+      "text": "Noia"
+     },
+     {
+      "id": "d",
+      "text": "Rabbia"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q7",
+    "type": "single_choice",
+    "prompt": "Che cosa significa “mescolare italiano e dialetto”?",
+    "explanation": "Code-switching.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Alternare due codici linguistici"
+     },
+     {
+      "id": "b",
+      "text": "Tradurre dall’inglese"
+     },
+     {
+      "id": "c",
+      "text": "Parlare piano"
+     },
+     {
+      "id": "d",
+      "text": "Parlare in fretta"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q8",
+    "type": "gap_fill",
+    "prompt": "Completa (dialetto, identità, social, tradizione).",
+    "explanation": "Lessico dell’articolo.",
+    "text": "Il [[a]] è parte dell’[[b]] regionale. Oggi si diffonde sui [[c]] e unisce [[d]] e modernità.",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "dialetto"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "identità"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "social"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "tradizione"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Quale registro usa l’artista?",
+    "explanation": "Tono diretto.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Colloquiale e affettuoso"
+     },
+     {
+      "id": "b",
+      "text": "Burocratico"
+     },
+     {
+      "id": "c",
+      "text": "Scientifico"
+     },
+     {
+      "id": "d",
+      "text": "Poetico arcaico"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "true_false",
+    "prompt": "La canzone è un esempio di musica popolare contemporanea.",
+    "explanation": "Pop con elementi regionali.",
+    "answer": true
+   },
+   {
+    "id": "q11",
+    "type": "short_answer",
+    "prompt": "Trova un sinonimo di “amore” (una parola).",
+    "explanation": "Più risposte possibili.",
+    "acceptedAnswers": [
+     "affetto",
+     "passione",
+     "amore"
+    ],
+    "modelAnswer": "affetto"
+   },
+   {
+    "id": "q12",
+    "type": "single_choice",
+    "prompt": "Quale compito del foglio è consigliato?",
+    "explanation": "Compito 1 del foglio.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Evidenziare le parti in dialetto e tradurle"
+     },
+     {
+      "id": "b",
+      "text": "Riscrivere il testo in inglese"
+     },
+     {
+      "id": "c",
+      "text": "Imparare a memoria"
+     },
+     {
+      "id": "d",
+      "text": "Cantare in coro"
+     }
+    ],
+    "correctOptionId": "a"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "tusi-base",
+  "title": "Tu si a fine do’ munno · Base",
+  "language": "it",
+  "level": "A2",
+  "description": "Una canzone d’amore con dialetto napoletano: tema, parole chiave, dialetto e italiano standard.",
+  "topics": [
+   "Musica",
+   "Dialetti",
+   "Napoli"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+    "url": "",
+    "rights": "own"
+   },
+   {
+    "kind": "external",
+    "citation": "Video ufficiale presso il fornitore; verificare incorporabilità e diritti prima dell’uso.",
+    "url": "https://www.youtube.com/watch?v=4zE1RnQnwcQ",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 17,
+  "media": {
+   "type": "youtube",
+   "videoId": "4zE1RnQnwcQ"
+  },
+  "transcript": "",
+  "series": "tu-si-a-fine-do-munno",
+  "seriesTitle": "Tu si a fine do’ munno · Angelo Famao",
+  "levelLabel": "Base",
+  "teacherNotes": {
+   "warmup": [
+    "Domanda: conoscete un dialetto o una lingua regionale?",
+    "Ascoltate 10 secondi: riconoscete parole italiane?"
+   ],
+   "steps": [
+    "1. Che cosa è un dialetto?",
+    "2. Primo ascolto: tema.",
+    "3. Evidenziare parti dialettali nel testo privato.",
+    "4. Tradurre in italiano standard (Compito 1 del foglio)."
+   ],
+   "tips": [
+    "Raccomandare altre canzoni in dialetto (Liberato, Mannarino)."
+   ],
+   "followUp": [
+    "Cerca una canzone in dialetto e presentala.",
+    "Quali parole del tuo dialetto/della tua lingua familiare usi con gli amici?"
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Prima dell’ascolto: Che cos’è un dialetto?",
+    "explanation": "I dialetti italiani sono forme locali, non errori.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Una variante regionale di una lingua"
+     },
+     {
+      "id": "b",
+      "text": "Una lingua straniera"
+     },
+     {
+      "id": "c",
+      "text": "Un tipo di canzone"
+     },
+     {
+      "id": "d",
+      "text": "Un errore"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q2",
+    "type": "single_choice",
+    "prompt": "Durante l’ascolto: Di che cosa parla la canzone?",
+    "explanation": "È una canzone d’amore.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Di una persona amata"
+     },
+     {
+      "id": "b",
+      "text": "Di una gita"
+     },
+     {
+      "id": "c",
+      "text": "Di un esame"
+     },
+     {
+      "id": "d",
+      "text": "Di cibo"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q3",
+    "type": "true_false",
+    "prompt": "Il cantante vuole stare con la persona di cui parla.",
+    "explanation": "Esprime una grande voglia di stare insieme.",
+    "answer": true
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Il testo mescola…",
+    "explanation": "Un testo in dialetto napoletano e italiano.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Italiano e napoletano"
+     },
+     {
+      "id": "b",
+      "text": "Inglese e francese"
+     },
+     {
+      "id": "c",
+      "text": "Solo inglese"
+     },
+     {
+      "id": "d",
+      "text": "Solo latino"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q5",
+    "type": "matching",
+    "prompt": "Dialetto → italiano standard: collega.",
+    "explanation": "Forme dialettali comuni.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Tu si",
+      "right": "Tu sei"
+     },
+     {
+      "id": "p2",
+      "left": "Cu tte",
+      "right": "Con te"
+     },
+     {
+      "id": "p3",
+      "left": "teng na vogl",
+      "right": "ho una voglia"
+     },
+     {
+      "id": "p4",
+      "left": "o primo pensiero",
+      "right": "il primo pensiero"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q6",
+    "type": "single_choice",
+    "prompt": "Che cosa significa più o meno “fine do’ munno”?",
+    "explanation": "Espressione iperbolica positiva.",
+    "options": [
+     {
+      "id": "a",
+      "text": "La fine del mondo (in senso: sei fantastica/o)"
+     },
+     {
+      "id": "b",
+      "text": "Un posto lontano"
+     },
+     {
+      "id": "c",
+      "text": "Una canzone triste"
+     },
+     {
+      "id": "d",
+      "text": "Una festa"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q7",
+    "type": "gap_fill",
+    "prompt": "Completa (amore, sogni, testa, pensiero).",
+    "explanation": "Parole del testo in italiano.",
+    "text": "Il cantante dice che sei il primo [[a]], parla di [[b]] e di [[c]] e ti fa girare la [[d]].",
+    "gaps": [
+     {
+      "id": "a",
+      "acceptedAnswers": [
+       "pensiero"
+      ]
+     },
+     {
+      "id": "b",
+      "acceptedAnswers": [
+       "sogni"
+      ]
+     },
+     {
+      "id": "c",
+      "acceptedAnswers": [
+       "amore"
+      ]
+     },
+     {
+      "id": "d",
+      "acceptedAnswers": [
+       "testa"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q8",
+    "type": "true_false",
+    "prompt": "La canzone è stata registrata nel 2018.",
+    "explanation": "Il singolo è del 2018.",
+    "answer": true
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Chi canta?",
+    "explanation": "Angelo Famao.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Angelo Famao"
+     },
+     {
+      "id": "b",
+      "text": "Mannarino"
+     },
+     {
+      "id": "c",
+      "text": "Liberato"
+     },
+     {
+      "id": "d",
+      "text": "Elisa"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "single_choice",
+    "prompt": "Che atmosfera ha la canzone?",
+    "explanation": "Tono romantico e ritmo leggero.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Romantica e vivace"
+     },
+     {
+      "id": "b",
+      "text": "Cupa"
+     },
+     {
+      "id": "c",
+      "text": "Aggressiva"
+     },
+     {
+      "id": "d",
+      "text": "Lenta e triste"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q11",
+    "type": "true_false",
+    "prompt": "Dopo l’ascolto: I dialetti in Italia sono solo parlati dagli anziani.",
+    "explanation": "Anche i giovani li usano, soprattutto sui social.",
+    "answer": false
+   },
+   {
+    "id": "q12",
+    "type": "short_answer",
+    "prompt": "Trova nel testo: come si dice “con te” in dialetto? (due parole)",
+    "explanation": "Cu tte = con te.",
+    "acceptedAnswers": [
+     "cu tte",
+     "cu te",
+     "Cu tte"
+    ],
+    "modelAnswer": "cu tte"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
   "kind": "vocabulary",
   "id": "it-ecco1-aa-arbeitsauftraege",
   "title": "Ecco più 1 · Arbeitsaufträge",

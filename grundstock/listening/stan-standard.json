@@ -1,0 +1,410 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "listening",
+ "id": "stan-standard",
+ "title": "Stan · Standard (Kl. 9/10)",
+ "language": "en",
+ "level": "B1",
+ "description": "Handlung, Figuren und Wirkung des Liedes: Reihenfolge, Gefühle, Wortschatz zu Fan-Verhalten.",
+ "topics": [
+  "Musik",
+  "Briefe",
+  "Fans",
+  "Social Media"
+ ],
+ "cover": "wave",
+ "estimatedMinutes": 21,
+ "media": {
+  "type": "youtube",
+  "videoId": "gOMhN-hfMtY"
+ },
+ "transcript": "",
+ "series": "stan",
+ "seriesTitle": "Stan · Eminem feat. Dido",
+ "levelLabel": "Standard",
+ "teacherNotes": {
+  "warmup": [
+   "Erwartung: Nur die ersten zehn Sekunden hören. Worum könnte es gehen?",
+   "Wie reagieren Fans, wenn Idole nicht antworten? Beispiele aus Social Media?"
+  ],
+  "steps": [
+   "1. Hörerwartung (10 Sekunden).",
+   "2. Globalverstehen: Figuren und Handlung (Aufgaben 2–4).",
+   "3. Detail: Reihenfolge und Gefühle (3, 7).",
+   "4. Wortschatz, dann Video mit Bleep-Version vergleichen und über Zensur sprechen."
+  ],
+  "tips": [
+   "Auf Themen Gewalt und Suizid vorbereiten; Gesprächsangebot machen.",
+   "Als Lernprodukt: Antwortbrief von Stans Mutter schreiben lassen."
+  ],
+  "followUp": [
+   "Charakterisiere Stan in 5 Sätzen.",
+   "Das Video verwendet eine bereinigte Fassung: Wie findest du das? Begründe.",
+   "Schreibe einen Brief von Stans Mutter an Slim."
+  ]
+ },
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+   "url": "",
+   "rights": "own"
+  },
+  {
+   "kind": "external",
+   "citation": "Offizielle Eminem-Version beim Anbieter. Explizite Fassung: für jüngere Klassen die bereinigte Fassung wählen oder nur die Anfangsminuten zeigen.",
+   "url": "https://www.youtube.com/watch?v=gOMhN-hfMtY",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+ ],
+ "questions": [
+  {
+   "id": "q1",
+   "type": "short_answer",
+   "prompt": "Vor dem Hören: Wie wirkt der Anfang des Liedes auf dich? Nenne ein passendes Adjektiv (z. B. gloomy).",
+   "acceptedAnswers": [
+    "gloomy",
+    "sad",
+    "melancholic",
+    "calm",
+    "dark",
+    "quiet"
+   ],
+   "modelAnswer": "gloomy / sad",
+   "explanation": "Regen, Klavier und die ruhige Stimme erzeugen eine bedrückte Stimmung."
+  },
+  {
+   "id": "q2",
+   "type": "matching",
+   "prompt": "Beim Hören: Ordne die Personen den Rollen zu.",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Stan",
+     "right": "schreibt die Briefe"
+    },
+    {
+     "id": "p2",
+     "left": "Slim",
+     "right": "der Rapper, an den die Briefe gehen"
+    },
+    {
+     "id": "p3",
+     "left": "Matthew",
+     "right": "Stans kleiner Bruder"
+    },
+    {
+     "id": "p4",
+     "left": "Dido",
+     "right": "singt den ruhigen Refrain"
+    }
+   ],
+   "explanation": "Das sind die wichtigsten Figuren und Stimmen."
+  },
+  {
+   "id": "q3",
+   "type": "ordering",
+   "prompt": "Bring die Ereignisse in die richtige Reihenfolge.",
+   "items": [
+    {
+     "id": "o1",
+     "text": "Stan schreibt freundlich und erzählt von sich"
+    },
+    {
+     "id": "o2",
+     "text": "Er ist enttäuscht, weil keine Antwort kommt"
+    },
+    {
+     "id": "o3",
+     "text": "Er wirft dem Rapper vor, seine Fans zu ignorieren"
+    },
+    {
+     "id": "o4",
+     "text": "Er nimmt eine Kassette auf und fährt los"
+    },
+    {
+     "id": "o5",
+     "text": "Slim antwortet"
+    }
+   ],
+   "explanation": "So entwickelt sich die Geschichte."
+  },
+  {
+   "id": "q4",
+   "type": "single_choice",
+   "prompt": "Was macht Stan in seinem dritten Brief?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Er bedankt sich"
+    },
+    {
+     "id": "b",
+     "text": "Er spricht auf eine Kassette, während er betrunken Auto fährt"
+    },
+    {
+     "id": "c",
+     "text": "Er schlägt ein Treffen vor"
+    },
+    {
+     "id": "d",
+     "text": "Er bittet um Geld"
+    }
+   ],
+   "correctOptionId": "b",
+   "explanation": "Der dritte „Brief\" ist eine Tonaufnahme; das Auto spielt am Ende eine tödliche Rolle."
+  },
+  {
+   "id": "q5",
+   "type": "true_false",
+   "prompt": "Stan erreicht sein Ziel: Er trifft den Rapper persönlich.",
+   "answer": false,
+   "explanation": "Sie begegnen sich nie; Slims Antwort kommt zu spät."
+  },
+  {
+   "id": "q6",
+   "type": "single_choice",
+   "prompt": "Wer hat Stan nach seinem Verständnis im Stich gelassen?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Seine Eltern"
+    },
+    {
+     "id": "b",
+     "text": "Sein Idol"
+    },
+    {
+     "id": "c",
+     "text": "Seine Lehrerin"
+    },
+    {
+     "id": "d",
+     "text": "Die Polizei"
+    }
+   ],
+   "correctOptionId": "b",
+   "explanation": "Er sieht sich vom Idol ignoriert."
+  },
+  {
+   "id": "q7",
+   "type": "multiple_choice",
+   "prompt": "Welche Gefühle zeigt Stan im Verlauf des Liedes? (mehrere)",
+   "options": [
+    {
+     "id": "a",
+     "text": "Bewunderung"
+    },
+    {
+     "id": "b",
+     "text": "Enttäuschung"
+    },
+    {
+     "id": "c",
+     "text": "Wut"
+    },
+    {
+     "id": "d",
+     "text": "Langeweile"
+    },
+    {
+     "id": "e",
+     "text": "Verzweiflung"
+    }
+   ],
+   "correctOptionIds": [
+    "a",
+    "b",
+    "c",
+    "e"
+   ],
+   "explanation": "Von Begeisterung zu Verzweiflung; Langeweile kommt nicht vor."
+  },
+  {
+   "id": "q8",
+   "type": "single_choice",
+   "prompt": "Welche Textsorte spielt in dem Lied die wichtigste Rolle?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Rezept"
+    },
+    {
+     "id": "b",
+     "text": "Brief"
+    },
+    {
+     "id": "c",
+     "text": "Tagebuch"
+    },
+    {
+     "id": "d",
+     "text": "Zeitungsartikel"
+    }
+   ],
+   "correctOptionId": "b",
+   "explanation": "Die ganze Handlung wird durch Briefe erzählt."
+  },
+  {
+   "id": "q9",
+   "type": "gap_fill",
+   "prompt": "Wortschatz: Setze passende Wörter ein (obsessed, admire, ignore, upset).",
+   "text": "Stan is [[a]] with the rapper. He used to [[b]] him, but now he feels [[c]] because the rapper seems to [[d]] his letters.",
+   "gaps": [
+    {
+     "id": "a",
+     "acceptedAnswers": [
+      "obsessed"
+     ]
+    },
+    {
+     "id": "b",
+     "acceptedAnswers": [
+      "admire"
+     ]
+    },
+    {
+     "id": "c",
+     "acceptedAnswers": [
+      "upset"
+     ]
+    },
+    {
+     "id": "d",
+     "acceptedAnswers": [
+      "ignore"
+     ]
+    }
+   ],
+   "explanation": "Wörter für Gefühle und Handlungen."
+  },
+  {
+   "id": "q10",
+   "type": "matching",
+   "prompt": "Wortschatz: Verbinde Wort und Bedeutung.",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "idol",
+     "right": "Person, die man sehr bewundert"
+    },
+    {
+     "id": "p2",
+     "left": "disappointed",
+     "right": "enttäuscht"
+    },
+    {
+     "id": "p3",
+     "left": "autograph",
+     "right": "Unterschrift"
+    },
+    {
+     "id": "p4",
+     "left": "desperate",
+     "right": "verzweifelt"
+    },
+    {
+     "id": "p5",
+     "left": "obsessed",
+     "right": "von etwas besessen"
+    }
+   ],
+   "explanation": "Typische Wörter, um Stans Haltung zu beschreiben."
+  },
+  {
+   "id": "q11",
+   "type": "single_choice",
+   "prompt": "Welches Wort passt zu „He sent three letters but nobody answered\"?",
+   "options": [
+    {
+     "id": "a",
+     "text": "grateful"
+    },
+    {
+     "id": "b",
+     "text": "ignored"
+    },
+    {
+     "id": "c",
+     "text": "proud"
+    },
+    {
+     "id": "d",
+     "text": "relieved"
+    }
+   ],
+   "correctOptionId": "b",
+   "explanation": "Er fühlt sich ignoriert."
+  },
+  {
+   "id": "q12",
+   "type": "single_choice",
+   "prompt": "Kontrolliere: „Stan wrote to the rapper because he …\"",
+   "options": [
+    {
+     "id": "a",
+     "text": "wanted to sell something"
+    },
+    {
+     "id": "b",
+     "text": "admired him"
+    },
+    {
+     "id": "c",
+     "text": "was his neighbour"
+    },
+    {
+     "id": "d",
+     "text": "needed a job"
+    }
+   ],
+   "correctOptionId": "b",
+   "explanation": "Motiv der Briefe ist Bewunderung."
+  },
+  {
+   "id": "q13",
+   "type": "true_false",
+   "prompt": "Nach dem Hören: Das Video erzählt die Geschichte genauso wie der Text, ohne zusätzliche Informationen.",
+   "answer": false,
+   "explanation": "Das Video zeigt zusätzliche Szenen (Stans Zimmer, sein Umfeld), die im Text nur angedeutet werden."
+  },
+  {
+   "id": "q14",
+   "type": "single_choice",
+   "prompt": "Das Lied benutzt ein Sample aus einem anderen Lied. Was bewirkt es?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Es macht das Lied lustig"
+    },
+    {
+     "id": "b",
+     "text": "Es gibt dem Rap eine ruhige, traurige Gegenstimme"
+    },
+    {
+     "id": "c",
+     "text": "Es erzählt die Geschichte weiter"
+    },
+    {
+     "id": "d",
+     "text": "Es soll nur Platz füllen"
+    }
+   ],
+   "correctOptionId": "b",
+   "explanation": "Der ruhige Gesang kontrastiert mit der Wut im Rap."
+  },
+  {
+   "id": "q15",
+   "type": "true_false",
+   "prompt": "Das Lied ist heute noch aktuell: Auch Influencer und Fans erleben ähnliche Beziehungen.",
+   "answer": true,
+   "explanation": "Stichwort parasoziale Beziehung – einseitige Bindung an Prominente."
+  }
+ ],
+ "vocabularyIds": []
+}

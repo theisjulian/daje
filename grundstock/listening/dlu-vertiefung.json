@@ -1,0 +1,347 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "listening",
+ "id": "dlu-vertiefung",
+ "title": "Don’t Look Up · Vertiefung",
+ "language": "en",
+ "level": "B2",
+ "description": "Satire, detail questions and language focus: vocabulary in context and reported speech.",
+ "topics": [
+  "Film",
+  "Satire",
+  "Media"
+ ],
+ "cover": "wave",
+ "estimatedMinutes": 17,
+ "media": {
+  "type": "film",
+  "title": "Don’t Look Up",
+  "year": 2021,
+  "scene": "Scientists try to warn the world about a comet."
+ },
+ "transcript": "",
+ "series": "dont-look-up",
+ "seriesTitle": "Don’t Look Up · Adam McKay",
+ "levelLabel": "Vertiefung",
+ "teacherNotes": {
+  "warmup": [
+   "Where do you get your news? Make a quick class poll.",
+   "Look at the poster: what mood does it create?"
+  ],
+  "steps": [
+   "1. Poll and prediction.",
+   "2. Watching with comprehension tasks.",
+   "3. Detail questions.",
+   "4. Writing task."
+  ],
+  "tips": [
+   "Connect to media literacy and climate communication."
+  ],
+  "followUp": [
+   "Write a short opinion paragraph (120–150 words).",
+   "Debate: Who is most responsible — politicians, media or society?"
+  ]
+ },
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Aufgaben (theis), orientiert an Arbeitsblättern des Autors; enthält keinen Liedtext und keine Filmdialoge.",
+   "url": "",
+   "rights": "own"
+  }
+ ],
+ "reviewNotes": [
+  "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+ ],
+ "questions": [
+  {
+   "id": "q1",
+   "type": "single_choice",
+   "prompt": "What is ironic about the campaign?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It encourages people to deny what is obvious"
+    },
+    {
+     "id": "b",
+     "text": "It saves lives"
+    },
+    {
+     "id": "c",
+     "text": "It is expensive"
+    },
+    {
+     "id": "d",
+     "text": "It is funny"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "The slogan ignores the threat."
+  },
+  {
+   "id": "q2",
+   "type": "multiple_choice",
+   "prompt": "Which targets does the satire have? (several)",
+   "options": [
+    {
+     "id": "a",
+     "text": "Politicians"
+    },
+    {
+     "id": "b",
+     "text": "Media"
+    },
+    {
+     "id": "c",
+     "text": "Tech billionaires"
+    },
+    {
+     "id": "d",
+     "text": "Teachers"
+    },
+    {
+     "id": "e",
+     "text": "Farmers"
+    }
+   ],
+   "correctOptionIds": [
+    "a",
+    "b",
+    "c"
+   ],
+   "explanation": "Politicians, media and tech."
+  },
+  {
+   "id": "q3",
+   "type": "single_choice",
+   "prompt": "Why does Kate become angry during the talk show?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The hosts do not take the threat seriously"
+    },
+    {
+     "id": "b",
+     "text": "She is hungry"
+    },
+    {
+     "id": "c",
+     "text": "She is late"
+    },
+    {
+     "id": "d",
+     "text": "She forgot something"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "The media trivialises the news."
+  },
+  {
+   "id": "q4",
+   "type": "single_choice",
+   "prompt": "What is one of Dr Mindy’s weaknesses?",
+   "options": [
+    {
+     "id": "a",
+     "text": "He is influenced by fame and attention"
+    },
+    {
+     "id": "b",
+     "text": "He is lazy"
+    },
+    {
+     "id": "c",
+     "text": "He is evil"
+    },
+    {
+     "id": "d",
+     "text": "He is rich"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "He enjoys media attention."
+  },
+  {
+   "id": "q5",
+   "type": "single_choice",
+   "prompt": "What role does Peter Isherwell play?",
+   "options": [
+    {
+     "id": "a",
+     "text": "He wants to profit from the comet"
+    },
+    {
+     "id": "b",
+     "text": "He destroys it"
+    },
+    {
+     "id": "c",
+     "text": "He is a journalist"
+    },
+    {
+     "id": "d",
+     "text": "He is a teacher"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "He sees the comet as a business opportunity."
+  },
+  {
+   "id": "q6",
+   "type": "single_choice",
+   "prompt": "How do ordinary people react when they finally see the comet?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Some are shocked, others still deny it"
+    },
+    {
+     "id": "b",
+     "text": "All help"
+    },
+    {
+     "id": "c",
+     "text": "All run away"
+    },
+    {
+     "id": "d",
+     "text": "All celebrate"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Divided reactions."
+  },
+  {
+   "id": "q7",
+   "type": "single_choice",
+   "prompt": "What message is hidden in the final dinner scene?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Togetherness at the end"
+    },
+    {
+     "id": "b",
+     "text": "Wealth"
+    },
+    {
+     "id": "c",
+     "text": "Technology"
+    },
+    {
+     "id": "d",
+     "text": "Revenge"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "People share a last meal."
+  },
+  {
+   "id": "q8",
+   "type": "gap_fill",
+   "prompt": "Vocabulary in context: complete with deny, warning, campaign, meltdown, data.",
+   "text": "The scientists collected a lot of [[a]] but the government did not take the [[b]] seriously. The president started a [[c]] and Kate had an emotional [[d]].",
+   "gaps": [
+    {
+     "id": "a",
+     "acceptedAnswers": [
+      "data"
+     ]
+    },
+    {
+     "id": "b",
+     "acceptedAnswers": [
+      "warning"
+     ]
+    },
+    {
+     "id": "c",
+     "acceptedAnswers": [
+      "campaign"
+     ]
+    },
+    {
+     "id": "d",
+     "acceptedAnswers": [
+      "meltdown"
+     ]
+    }
+   ],
+   "explanation": "Vocabulary from the worksheet."
+  },
+  {
+   "id": "q9",
+   "type": "single_choice",
+   "prompt": "Reported speech: “Everything is under control.” →",
+   "options": [
+    {
+     "id": "a",
+     "text": "She said that everything was under control."
+    },
+    {
+     "id": "b",
+     "text": "She said that everything is under control."
+    },
+    {
+     "id": "c",
+     "text": "She says that everything had been under control."
+    },
+    {
+     "id": "d",
+     "text": "She said everything will be under control."
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Backshift is → was."
+  },
+  {
+   "id": "q10",
+   "type": "true_false",
+   "prompt": "The film uses humour to strengthen its message.",
+   "answer": true,
+   "explanation": "Satire."
+  },
+  {
+   "id": "q11",
+   "type": "single_choice",
+   "prompt": "Would you call it a comedy or a warning? Choose the best summary.",
+   "options": [
+    {
+     "id": "a",
+     "text": "A comedy that works as a warning"
+    },
+    {
+     "id": "b",
+     "text": "Only a comedy"
+    },
+    {
+     "id": "c",
+     "text": "Only a documentary"
+    },
+    {
+     "id": "d",
+     "text": "A romance"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Dark satire."
+  },
+  {
+   "id": "q12",
+   "type": "short_answer",
+   "prompt": "Which character do you identify with? Write the name.",
+   "acceptedAnswers": [
+    "Kate",
+    "Mindy",
+    "Randall",
+    "Kate Dibiasky"
+   ],
+   "modelAnswer": "Kate",
+   "explanation": "Open question."
+  }
+ ],
+ "vocabularyIds": []
+}

@@ -6,7 +6,7 @@
  */
 
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
-const MEDIA_LABELS = { video: 'Video', audio: 'Audio', speech: 'Stimme' };
+const MEDIA_LABELS = { video: 'Video', audio: 'Audio', speech: 'Stimme', film: 'Film' };
 const TRANSCRIPT_LABELS = {
   it: {
     auto: 'Trascrizione generata automaticamente',
@@ -39,7 +39,7 @@ if (EMBED) document.documentElement.dataset.embed = '1';
 
 const isTeacher = () => portalAudience === 'teach';
 const mediaKind = x =>
-  x.media.type === 'youtube' ? 'video' : x.media.type === 'audio' ? 'audio' : 'speech';
+  x.media.type === 'youtube' ? 'video' : x.media.type === 'audio' ? 'audio' : x.media.type === 'film' ? 'film' : 'speech';
 const levelClass = level => 'lvl-' + String(level || 'a1')[0].toLowerCase();
 const levelPill = level => `<span class="lvl ${levelClass(level)}">${esc(level)}</span>`;
 const plural = (n, one, many) => n + ' ' + (n === 1 ? one : many);
@@ -297,6 +297,7 @@ function filteredLessons() {
       (f.language === 'all' || x.language === f.language) &&
       (f.level === 'all' || x.level === f.level) &&
       (!f.media || f.media === 'all' || mediaKind(x) === f.media) &&
+      (!f.series || x.series === f.series) &&
       !(f.hideWorking && isWorkingLesson(x)) &&
       (x.title + ' ' + x.description + ' ' + x.topics.join(' '))
         .toLocaleLowerCase()
@@ -323,7 +324,8 @@ function refreshCatalog() {
       'Hier ist es noch ruhig.',
       'Für diese Auswahl gibt es noch keine Hörübung. Wähle eine andere Sprache oder ein anderes Niveau.'
     );
-  $('catalog-count').textContent = plural(list.length, 'Hörübung', 'Hörübungen');
+  $('catalog-count').innerHTML = esc(plural(list.length, 'Hörübung', 'Hörübungen')) +
+    (portalFilters.series ? ` · <button class="quiet" data-portal="series-clear">Alle Hörübungen anzeigen</button>` : '');
   document.querySelectorAll('[data-portal="filter-set"]').forEach(b => {
     b.setAttribute(
       'aria-pressed',
@@ -370,6 +372,9 @@ function emptyPortal(title, text) {
 /* ---------- Übungsseite ---------- */
 
 function playerHTML(x) {
+  if (x.media.type === 'film') {
+    return `<div class="player-frame film"><div class="film-card"><span class="film-kicker">Film${x.media.year ? ' · ' + x.media.year : ''}</span><b>${esc(x.media.title)}</b>${x.media.scene ? `<p>${esc(x.media.scene)}</p>` : ''}</div></div><p class="player-note">Die Szene zeigt deine Lehrkraft im Unterricht. Die Aufgaben kannst du trotzdem schon ansehen und danach lösen.</p>${x.media.trailerVideoId ? `<p class="player-note"><a href="https://www.youtube.com/watch?v=${x.media.trailerVideoId}" target="_blank" rel="noopener">Trailer ansehen</a></p>` : ''}`;
+  }
   if (x.media.type === 'youtube') {
     return `<div class="player-frame" id="youtube-container" data-cover>
         <button class="player-poster" data-portal="load-youtube" aria-label="Video laden und abspielen">
@@ -579,6 +584,30 @@ function toolsHTML(x, state, preview) {
   <details class="tool-card listen-sources"><summary>Quelle und Hinweise</summary>${sources}${teacher ? x.reviewNotes.map(t => `<p class="muted">${esc(t)}</p>`).join('') : ''}</details>`;
 }
 
+function seriesSwitcher(x) {
+  if (!x.series || EMBED) return '';
+  const sib = qrEntries(x);
+  if (sib.length < 2) return '';
+  return `<nav class="series-switch" aria-label="Stufe wählen"><span>${esc(x.seriesTitle || 'Stufen')}</span><div>${sib
+    .map(y => `<button data-lesson="${esc(y.id)}" aria-pressed="${y.id === x.id}"><b>${esc(y.levelLabel || y.level)}</b><small>${esc(y.level)}</small></button>`)
+    .join('')}</div></nav>`;
+}
+function noteList(h, a) {
+  return a && a.length ? `<h4>${h}</h4><ul>${a.map(i => `<li>${esc(i)}</li>`).join('')}</ul>` : '';
+}
+function teacherNotesHTML(x) {
+  const t = x.teacherNotes;
+  if (!t || !(t.steps || t.tips)) return '';
+  return `<details class="teacher-notes" open><summary><b>Unterrichtsidee</b><span>Ablauf und Tipps</span></summary>${noteList('Ablauf', t.steps)}${noteList('Tipps', t.tips)}</details>`;
+}
+function warmupHTML(x) {
+  const t = x.teacherNotes;
+  return t && t.warmup ? `<section class="learn-note"><b>Vor dem Hören</b>${noteList('', t.warmup)}</section>` : '';
+}
+function followHTML(x) {
+  const t = x.teacherNotes;
+  return t && t.followUp ? `<section class="learn-note"><b>Zum Weiterdenken</b>${noteList('', t.followUp)}<small>Mündlich oder schriftlich – ohne automatische Auswertung.</small></section>` : '';
+}
 function renderListening(preview = false) {
   const x = currentLesson();
   if (!x) return nav('hoeren');
@@ -590,7 +619,7 @@ function renderListening(preview = false) {
   const working = isWorkingLesson(x);
   $('main').innerHTML = `<div class="page lesson-page">
     ${EMBED ? '' : '<button class="quiet back-link" data-nav="hoeren">Alle Hörübungen</button>'}
-    ${working ? `<div class="draftbar"><b>Arbeitsfassung</b><span>Aufgaben, Transkript und Nutzungsrechte sind noch nicht abschließend geprüft.${!x.transcript ? ' Das Transkript fehlt noch.' : ''}</span>${teacher ? '<button class="quiet" data-nav="redaktion">In der Redaktion öffnen</button>' : ''}</div>` : ''}
+    ${working ? `<div class="draftbar"><b>Arbeitsfassung</b><span>Aufgaben, Transkript und Nutzungsrechte sind noch nicht abschließend geprüft.${!x.transcript && !x.series ? ' Das Transkript fehlt noch.' : ''}</span>${teacher ? '<button class="quiet" data-nav="redaktion">In der Redaktion öffnen</button>' : ''}</div>` : ''}
     ${preview ? '<div class="draftbar"><b>Entwurf</b><span>Lokaler Redaktionsentwurf, nicht freigegeben.</span></div>' : ''}
     <header class="lesson-head">
       <div>
@@ -600,17 +629,20 @@ function renderListening(preview = false) {
       </div>
       ${favoriteButton('listening', x.id)}
     </header>
+    ${seriesSwitcher(x)}
     <div class="listening-layout">
       <div class="l-side">
         <section class="media-box">${playerHTML(x)}</section>
+        ${warmupHTML(x)}
         <div class="l-tools">${toolsHTML(x, state, preview)}</div>
       </div>
       <section class="l-tasks">
         ${
           teacher && !preview
-            ? `<section class="teacher-bar"><div><b>Für den Unterricht</b><span>Aufgabenblatt, Lösungsschlüssel und Link</span></div><div class="teacher-actions"><button class="button secondary" data-teaching="${esc(x.id)}">Material und Druck</button><button class="button secondary" data-portal="copy-embed">Einbett-Code kopieren</button><button class="button secondary" data-portal="toggle-key" aria-pressed="${teacherKeyVisible}">${teacherKeyVisible ? 'Lösungen ausblenden' : 'Lösungen einblenden'}</button></div></section>`
+            ? `<section class="teacher-bar"><div><b>Für den Unterricht</b><span>Aufgabenblatt, Lösungsschlüssel und Link</span></div><div class="teacher-actions"><button class="button secondary" data-teaching="${esc(x.id)}">Material und Druck</button><button class="button secondary" data-qr-show="${esc(x.id)}">QR-Code zeigen</button><button class="button secondary" data-portal="copy-embed">Einbett-Code kopieren</button><button class="button secondary" data-portal="toggle-key" aria-pressed="${teacherKeyVisible}">${teacherKeyVisible ? 'Lösungen ausblenden' : 'Lösungen einblenden'}</button></div></section>`
             : ''
         }
+        ${teacher && !preview ? teacherNotesHTML(x) : ''}
         <div class="tasks-head"><h2>${teacher ? 'Aufgaben' : 'Was hast du verstanden?'}</h2><span id="listen-answer-count">${count} / ${x.questions.length} beantwortet</span></div>
         <div class="qsteps" id="qsteps" aria-hidden="true">${stepsHTML(x, state)}</div>
         ${resultBanner(x, state)}
@@ -618,6 +650,7 @@ function renderListening(preview = false) {
           ${x.questions.map((q, i) => questionHTML(x, q, i, state)).join('')}
           <div class="checkbar"><span id="check-hint">${state.checked ? 'Du kannst Antworten ändern und erneut prüfen.' : 'Lösungen erscheinen nach der Korrektur.'}</span><button class="button primary large" type="submit">${state.checked ? 'Erneut prüfen' : 'Antworten korrigieren'}</button></div>
         </form>
+        ${followHTML(x)}
         <section class="note-card"><label class="field"><span>${teacher ? 'Notiz zur Unterrichtsplanung' : 'Deine Notiz zu dieser Übung'}</span><textarea id="listening-note" maxlength="2000" placeholder="Was möchtest du dir merken?">${esc(portalProfile().notes[x.id] || '')}</textarea></label><small id="note-status" role="status">Nur im aktuellen lokalen Lernprofil gespeichert.</small></section>
         <div class="session-actions"><button class="button secondary" data-portal="reset-listening">Neue Runde beginnen</button></div>
       </section>
