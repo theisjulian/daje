@@ -12,6 +12,7 @@ Optionen: --model NAME  --limit N  --keep-transcripts  --mock  --pause SEKUNDEN
 Bereits vorhandene Pakete werden übersprungen (Wiederaufnahme nach Abbruch möglich).
 """
 import argparse, base64, csv, hashlib, json, os, re, subprocess, sys, time, urllib.error, urllib.parse, urllib.request
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -19,6 +20,25 @@ CMD = ROOT / "portal/dist/imports/KI-Kommandodatei.md"
 EXAMPLES = ROOT / "portal/dist/examples"
 OUT = ROOT / "grundstock"
 API = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+
+def _zertifikate():
+    """macOS-Python von python.org findet oft keine Zertifikate. Dann das System-Bündel nutzen."""
+    import ssl
+    for pfad in ("/etc/ssl/cert.pem", "/private/etc/ssl/cert.pem"):
+        if os.path.exists(pfad):
+            ctx = ssl.create_default_context(cafile=pfad)
+            urllib.request.install_opener(urllib.request.build_opener(urllib.request.HTTPSHandler(context=ctx)))
+            return
+    try:
+        import certifi
+        ctx = ssl.create_default_context(cafile=certifi.where())
+        urllib.request.install_opener(urllib.request.build_opener(urllib.request.HTTPSHandler(context=ctx)))
+    except ImportError:
+        pass
+
+
+_zertifikate()
+
 
 SERIE = """
 SERIENMODUS (verbindlich, gilt zusätzlich zur Kommandodatei):
