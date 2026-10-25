@@ -84,7 +84,7 @@ function setupShell() {
   document.querySelector('.wordmark')?.remove();
   const appname = document.querySelector('.appname');
   appname.innerHTML =
-    '<a href="#start" data-nav="start">ripassà.</a><small>Hören und Wortschatz</small>';
+    '<a href="#start" data-nav="start">daje</a><small>Hören und Wortschatz</small>';
   document.querySelector('.nav-list').innerHTML =
     PRIMARY_NAV.map(navButton).join('') +
     '<hr class="nav-sep">' +
@@ -104,7 +104,7 @@ function setupShell() {
   brand.className = 'top-brand';
   brand.href = '#start';
   brand.dataset.nav = 'start';
-  brand.textContent = 'ripassà.';
+  brand.textContent = 'daje';
   const sw = document.createElement('div');
   sw.className = 'audience-switch';
   sw.setAttribute('role', 'group');

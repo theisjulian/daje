@@ -382,9 +382,9 @@ function helpV2() {
 }
 function setupExtras() {
   initProfiles();
-  document.title = 'ripassà. · Sprachen lernen · theis';
+  document.title = 'daje · Sprachen lernen · theis';
   document.querySelector('.appname').innerHTML =
-    '<img class="app-icon" src="assets/ripassa-icon.png" alt=""><span>ripassà.<small>Wortschatz und Verben</small></span>';
+    '<img class="app-icon" src="assets/daje-icon.png" alt=""><span>daje<small>Wortschatz und Verben</small></span>';
   const b = document.createElement('button');
   b.className = 'button secondary';
   b.id = 'profile-open';

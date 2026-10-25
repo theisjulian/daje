@@ -45,3 +45,12 @@ Wenn die Schnittstelle überlastet ist oder du lieber im Browser arbeitest:
 2. Datei komplett in einen neuen Chat auf gemini.google.com einfügen (Modell Pro bzw. Thinking). Gemini liefert pro Antwort ein Paket; jeweils „weiter“ schreiben.
 3. Alle Antworten nacheinander in `werkzeuge/antworten.txt` kopieren (Codeblöcke und Zwischentext dürfen drinbleiben).
 4. Menü **7**: liest ein, prüft mit dem Importvertrag und denselben Qualitätsregeln wie die automatische Erzeugung (Aufgabenzahl nach Länge, Typenmix, Zeitmarken) und bündelt. Pakete, die durchfallen, landen in `werkzeuge/abgelehnt/`.
+
+
+## Lieder mit Lückentext (privat)
+
+Lieder laufen als Pakete mit YouTube-Video und eigenen Aufgaben; der Liedtext bleibt privat und kommt nie ins Repository. Für den Lückentext den Text lokal einfügen und die Regeln der Kommandodatei (Abschnitt „Lieder: Lückentext aus dem Liedtext“) anwenden: 8 bis 14 Inhaltswörter, aus jedem Refrain-Block nur eine Lücke und dasselbe Wort nur einmal, Wortbank mit Ablenkern im ersten Durchgang.
+
+## Aufgabenumfang
+
+Seit 25.10.2026: 10 bis 20 Aufgaben je Hörpaket in Blöcken (Vor dem Hören, Beim Hören, Sprache, Nach dem Hören) und `teacherNotes`. Die automatische Prüfung (`qualitaet` in `gemini_grundstock.py`) verlangt entsprechend mindestens 10 Aufgaben.

@@ -436,7 +436,7 @@ function setupPortal() {
       '<button class="quiet" data-nav="redaktion">Redaktion</button>'
     );
   document.querySelector('.foot>span').textContent =
-    'ripassà. · Hörverstehen und Wortschatz · private Vorschau';
+    'daje · Hörverstehen und Wortschatz · private Vorschau';
   portalAudience = portalProfile().audience === 'teach' ? 'teach' : 'learn';
   applyAudienceLabels();
   document.addEventListener('click', portalClick);
@@ -737,7 +737,7 @@ function printTeaching(solutions) {
     sheet.id = 'teaching-print';
     document.body.append(sheet);
   }
-  sheet.innerHTML = `<div class="print-controls"><button class="button secondary" data-portal="close-print">Zurück zur Hörübung</button><button class="button primary" data-portal="do-print">Drucken / als PDF speichern</button></div><header><b>theis · ripassà.</b><span>${solutions ? 'Lösungsschlüssel' : 'Aufgabenblatt'}</span></header><h1>${esc(x.title)}</h1><p>${portalLang(x.language)} · ${x.level} · ca. ${x.estimatedMinutes} Minuten Übungszeit</p>${!solutions ? '<p>Name: ______________________________ &nbsp; Datum: ______________</p>' : ''}${x.media.type === 'speech' ? '<p class="print-demo">Demo mit synthetischer Browserstimme; keine authentische Aufnahme.</p>' : ''}<ol>${x.questions
+  sheet.innerHTML = `<div class="print-controls"><button class="button secondary" data-portal="close-print">Zurück zur Hörübung</button><button class="button primary" data-portal="do-print">Drucken / als PDF speichern</button></div><header><b>theis · daje</b><span>${solutions ? 'Lösungsschlüssel' : 'Aufgabenblatt'}</span></header><h1>${esc(x.title)}</h1><p>${portalLang(x.language)} · ${x.level} · ca. ${x.estimatedMinutes} Minuten Übungszeit</p>${!solutions ? '<p>Name: ______________________________ &nbsp; Datum: ______________</p>' : ''}${x.media.type === 'speech' ? '<p class="print-demo">Demo mit synthetischer Browserstimme; keine authentische Aufnahme.</p>' : ''}<ol>${x.questions
     .map(q => {
       const answer = solutionText(q);
       return `<li><h3>${esc(q.prompt)}</h3>${solutions ? `<p><b>${esc(answer)}</b></p><p>${esc(q.explanation)}</p>${q.type === 'short_answer' ? `<p>Weitere hinterlegte Varianten: ${esc(q.acceptedAnswers.join(' / '))}</p>` : ''}` : printBody(q)}</li>`;

@@ -213,7 +213,7 @@ Das Portal ist für Schülerinnen und Schüler ab etwa Klasse 8 und für Lehrkr�
 6. **Eindeutige Lösung.** Bei Kurzantworten und Lücken alle fachlich richtigen Schreibweisen hinterlegen (Zahl als Ziffer und Wort, mit und ohne Artikel, Akzente korrekt). Keine Aufgabe, bei der mehrere Antworten gleichermaßen vertretbar sind, aber nur eine akzeptiert wird.
 7. **Hilfreiche Erklärung (Deutsch).** 1 bis 2 Sätze: was gesagt wird, warum die richtige Antwort stimmt und woran man typische Fehlentscheidungen erkennt. Keine internen Prüfhinweise, keine Wörter wie „Gemini“, „Audioabgleich“, „Entwurf“ in `explanation`, `description` oder `prompt`. Solche Hinweise gehören in `reviewNotes` und den Prüfbericht.
 8. **Passend zum Niveau (GER).** Anforderungen an Tempo, Länge, Detailtiefe und Schlussfolgerung zum Zielniveau wählen; Aufgabenformat allein bestimmt das Niveau nicht.
-9. **Anzahl nach Ergiebigkeit.** Orientierung: unter 1 Minute 3 bis 5 Aufgaben, 1 bis 3 Minuten 5 bis 8, länger 8 bis 12. Keine künstlichen Doppelungen.
+9. **Anzahl nach Ergiebigkeit.** Orientierung (Stand 25.10.2026): 10 bis 20 Aufgaben in Blöcken, siehe Abschnitt „Aufgabenumfang und Mischung“. Keine künstlichen Doppelungen.
 
 ### Aufgabentypen und wann man sie nutzt
 
@@ -291,9 +291,23 @@ Wenn dir für den Inhalt ein Feld fehlt, das das Schema nicht kennt, erfinde es 
 
 ## Aufgabenumfang und Mischung (verbindlich, Stand 25.10.2026)
 
-- Anzahl nach Länge des gesprochenen Teils: etwa eine Aufgabe pro 30 bis 45 Sekunden, mindestens 6, höchstens 16. Ein kurzer Beitrag mit nur 2 oder 3 Aufgaben ist nicht zulässig.
+- Anzahl nach Länge des gesprochenen Teils (Stand 25.10.2026, ersetzt alle älteren Richtwerte): etwa eine Aufgabe pro 20 bis 30 Sekunden, mindestens 10, höchstens 20. Ein Beitrag mit nur 2 bis 6 Aufgaben ist nicht zulässig. Bei sehr kurzen Clips (unter einer Minute) reichen 8 bis 10 Aufgaben, dann stärker Sprache und Transfer einbeziehen.
+- Aufbau in Blöcken, wie im Fremdsprachenunterricht üblich: (1) Vor dem Hören: Vorwissen, Wortfeld, Erwartung (2 bis 3 Aufgaben, ohne Lösungen zu verraten); (2) Beim Hören: Global- und Detailverstehen in Textreihenfolge (6 bis 10); (3) Sprache: Wendungen, Formen und Wortschatz aus dem Text (2 bis 4, z. B. matching, gap_fill); (4) Nach dem Hören: Transfer, Haltung, Anwendung (1 bis 2, auswertbar; offene Aufgaben gehören in teacherNotes.followUp). Den Block im prompt-Anfang benennen, z. B. „Prima dell’ascolto: …“, „Durante l’ascolto: …“, „Lessico: …“, „Dopo l’ascolto: …“ bzw. „Before listening: …“.
+- Zusätzlich je Paket `teacherNotes` (warmup, steps, tips, followUp) für die Lehrkräfteansicht ausfüllen.
 - Mindestens 4 verschiedene Aufgabentypen (unter 2 Minuten Länge 3). `true_false` höchstens 20 Prozent der Aufgaben und nie als Hauptform; nicht mehr als drei gleiche Typen hintereinander.
 - Verlauf: Globalverstehen, dann Detailverstehen in Textreihenfolge, zuletzt Schlussfolgern oder Haltung (ab B1). Auf A1/A2 konkrete Informationen (Zahlen, Orte, Personen, Handlungen), ab B1 Absichten, Begründungen, Haltungen, ab B2 Ton und Argumentation.
 - Distraktoren plausibel und gleich lang, nicht wörtlich im Text und nicht ohne Hören lösbar. Fragen und Antworten in der Zielsprache und höchstens eine Stufe über dem Niveau des Hörtexts.
 - Jede Lösung mit Zeitmarke `[mm:ss]` am Anfang der `explanation` belegen.
 - `sources.citation` enthält nur die Quellenangabe, keine Bewertung wie „ungeprüft“; Unsicherheiten gehören in `reviewNotes`.
+
+
+## Lieder: Lückentext aus dem Liedtext (Stand 25.10.2026)
+
+Die Lehrkraft arbeitet im Italienisch- und Englischunterricht gern mit Liedern und lässt Wörter aus dem Liedtext fehlen. Für Lieder gilt daher:
+
+- **Der Liedtext bleibt ein privater Import.** Er wird nie in `transcript`, in Aufgaben, in Beispiele oder in öffentliche Dateien geschrieben. Das Paket zeigt nur das Video (youtube) und eigene Aufgaben.
+- Eigene Aufgaben zum Lied (ohne Zitate aus dem Text): Vorentlastung (Thema, Wortfeld, Bild), Gesamtstimmung, Instrumente/Stimme/Tempo, Thema und Aussage, Bildebene im Video, Sprache (Wendungen, Zeitform, Wortfeld, Register), Nachbereitung und Transfer. Zeitmarken nur, wenn belegt.
+- **Lückentext-Vorschlag:** Mit dem privat eingefügten Liedtext (nur lokal) 8 bis 14 Lücken planen. Bevorzugt Inhaltswörter (Nomen, Verben, Adjektive), die man beim Hören gut unterscheiden kann. Nicht Eigennamen, nicht Füllwörter.
+- **Refrain-Regel:** Wiederholt sich eine Zeile im Refrain, kommt aus jedem Refrain-Block höchstens EINE Lücke, und dasselbe Wort wird nur einmal gelöscht; sonst verraten die Wiederholungen die Lösung. Lücken gleichmäßig über Strophe 1, Strophe 2, Bridge und Refrain verteilen und nie zwei Lücken in direkter Folge.
+- Erster Durchgang: Lücken mit Wortbank (inkl. 2 bis 3 Ablenker) für A2/B1; zweiter Durchgang ohne Wortbank für B1/B2. Zeilenfolge unverändert, damit mitgelesen werden kann.
+- Ausgabe privat: Als Arbeitsblatt (Zeilen mit Lücken `_____`) plus Lösungsblatt in einer lokalen Datei, nicht im Repository. Im Portal-Paket nur der Hinweis in `teacherNotes.tips`: „Lückentext aus dem Originaltext privat vorbereiten (Refrain-Regel)“.

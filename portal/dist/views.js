@@ -655,7 +655,7 @@ function renderListening(preview = false) {
         <div class="session-actions"><button class="button secondary" data-portal="reset-listening">Neue Runde beginnen</button></div>
       </section>
     </div>
-    ${EMBED ? `<footer class="embed-foot"><a class="brandmark" href="${esc(location.origin + location.pathname)}" target="_blank" rel="noopener">ripassà. · © 2026 <span class="embed-logo">theis</span></a></footer>` : ''}
+    ${EMBED ? `<footer class="embed-foot"><a class="brandmark" href="${esc(location.origin + location.pathname)}" target="_blank" rel="noopener">daje · © 2026 <span class="embed-logo">theis</span></a></footer>` : ''}
   </div>`;
   const audio = $('listening-audio');
   if (audio) {

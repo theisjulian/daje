@@ -221,7 +221,7 @@ def qualitaet(res, level):
     qs = res.get("questions", [])
     stamps = [int(m) * 60 + int(sec) for m, sec in re.findall(r"\[(\d{1,2}):(\d{2})\]", res.get("transcript", ""))]
     dauer = max(stamps) if stamps else 0
-    minimum = max(6, min(16, round(dauer / 40))) if dauer else 6
+    minimum = max(10, min(20, round(dauer / 25))) if dauer else 10
     probleme = []
     if len(qs) < minimum:
         probleme.append(f"Nur {len(qs)} Aufgaben, bei dieser Länge mindestens {minimum} nötig")

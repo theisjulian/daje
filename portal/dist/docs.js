@@ -3,7 +3,7 @@
  * Dokumente: Wortlisten und Aufgabenblätter als PDF (Browserdruck) oder Word-Datei,
  * mit wählbaren Spalten und Dokument-Designs.
  */
-const DOC_BRAND = 'ripassà.';
+const DOC_BRAND = 'daje';
 const DOC_DESIGNS = [
   ['schlicht', 'Schlicht', 'Nüchtern, schwarz-weiß'],
   ['modern', 'Modern', 'Akzentfarbe deines Designs'],
