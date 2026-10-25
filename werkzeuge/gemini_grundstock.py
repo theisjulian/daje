@@ -85,10 +85,9 @@ Wortliste (eine Zeile pro Eintrag, optional "Wort;Übersetzung"):
 {words}"""
 
 
-def csv_zeilen(pfad):
-    """CSV lesen, egal ob aus Numbers/Excel gespeichert (UTF-8, UTF-16, Windows- oder Mac-Zeichensatz)."""
-    roh = open(pfad, "rb").read()
-    text = None
+def text_lesen(pfad):
+    """Textdatei lesen, egal in welchem Zeichensatz (Numbers/Excel). Wird in UTF-8 umgewandelt (Sicherung als .bak)."""
+    roh = Path(pfad).read_bytes()
     kandidaten = ("utf-16",) if roh[:2] in (b"\xff\xfe", b"\xfe\xff") else ()
     for enc in kandidaten + ("utf-8-sig", "mac_roman", "cp1252"):
         try:
@@ -97,6 +96,16 @@ def csv_zeilen(pfad):
         except (UnicodeDecodeError, UnicodeError):
             continue
     text = text.replace("\r\n", "\n").replace("\r", "\n")
+    if enc != "utf-8-sig" or roh[:3] == b"\xef\xbb\xbf":
+        sicherung = Path(str(pfad) + ".bak")
+        if not sicherung.exists():
+            sicherung.write_bytes(roh)
+        Path(pfad).write_text(text, encoding="utf8")
+    return text
+
+
+def csv_zeilen(pfad):
+    text = text_lesen(pfad)
     erste = text.split("\n", 1)[0]
     trenner = ";" if ";" in erste else "\t" if "\t" in erste else ","
     return list(csv.DictReader(text.split("\n"), delimiter=trenner))
@@ -381,10 +390,10 @@ def suche(args):
     bekannt = set()
     ziel = Path(args.liste)
     if ziel.exists():
-        bekannt |= set(re.findall(r"[A-Za-z0-9_-]{11}", ziel.read_text(encoding="utf8")))
+        bekannt |= set(re.findall(r"[A-Za-z0-9_-]{11}", text_lesen(ziel)))
     inv = ROOT / "INHALTSINVENTAR.json"
     if inv.exists():
-        bekannt |= set(re.findall(r'"([A-Za-z0-9_-]{11})"', inv.read_text(encoding="utf8")))
+        bekannt |= set(re.findall(r'"([A-Za-z0-9_-]{11})"', text_lesen(inv)))
     neu = []
     for zeile in csv_zeilen(args.themen):
         lang, level, thema, q = zeile["sprache"], zeile["niveau"], zeile["thema"], zeile["suchbegriff"]
