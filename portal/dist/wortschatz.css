@@ -24,3 +24,15 @@
 @media(min-width:900px){.ws-action{left:251px}}
 @media(max-width:899px){.ws-action{bottom:calc(66px + env(safe-area-inset-bottom));padding-bottom:12px}.ws-page{padding-bottom:190px}}
 .ws-tools label{flex-wrap:wrap}.ws-tools select{flex:1 1 220px;min-width:0}
+
+.ws-books{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(46%,190px),1fr));gap:16px;margin:0 0 8px}
+.ws-cover{--bk:#c8402c;position:relative;display:flex;flex-direction:column;justify-content:space-between;aspect-ratio:3/4;padding:18px 16px 16px;border:0;border-radius:6px 16px 16px 6px;color:#fff;text-align:left;font:inherit;cursor:pointer;overflow:hidden;background:linear-gradient(160deg,color-mix(in srgb,var(--bk) 100%,#fff 12%),var(--bk) 55%,color-mix(in srgb,var(--bk) 78%,#000));box-shadow:0 10px 26px rgba(0,0,0,.2),inset 7px 0 0 rgba(0,0,0,.18),inset 8px 0 0 rgba(255,255,255,.18);transition:transform .2s var(--spring),box-shadow .2s}
+.ws-cover:hover{transform:translateY(-4px) rotate(-.6deg)}
+.ws-cover[data-vol="1"]{--bk:#c8402c}.ws-cover[data-vol="2"]{--bk:#0e8b86}.ws-cover[data-vol="3"]{--bk:#4b4fc4}.ws-cover[data-vol="4"]{--bk:#b9760f}.ws-cover[data-vol="0"]{--bk:#44506a}
+.wc-pub{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;opacity:.8;padding-left:6px}
+.wc-series{font-family:var(--display);font-size:clamp(26px,6.5vw,34px);font-weight:700;letter-spacing:-.03em;line-height:.95;padding-left:6px;margin-top:6px}
+.wc-num{font-family:var(--display);font-size:clamp(88px,22vw,132px);font-weight:800;line-height:.8;letter-spacing:-.06em;padding-left:2px;opacity:.95;margin:auto 0 6px}
+.wc-foot{display:flex;justify-content:space-between;gap:8px;font-size:12px;font-weight:600;opacity:.9;padding-left:6px;flex-wrap:wrap}
+.wc-bar{position:absolute;left:8px;right:0;bottom:0;height:5px;background:rgba(255,255,255,.22)}.wc-bar i{display:block;height:100%;background:#fff}
+.ws-cover .wc-foot{margin-bottom:4px}
+@media(max-width:560px){.ws-cover{aspect-ratio:1/1.05;padding:14px 12px 12px}.wc-num{font-size:84px}.wc-series{font-size:24px}}

@@ -21,7 +21,7 @@ let wsSynth = null;
     const t = x.catalog && x.catalog.textbook;
     if (t && t.series) {
       const vol = Number(t.volume) || 0;
-      return { id: 'tb:' + t.series + ':' + vol, title: t.series + (vol ? ' ' + vol : ''), kind: 'Lehrwerk', sub: t.publisher || '', series: t.series, volume: vol };
+      return { id: 'tb:' + t.series + ':' + vol, title: t.series + (vol ? ' ' + vol : ''), kind: 'Lehrwerk', sub: t.publisher || '', series: t.series, volume: vol, grade: x.catalog.grade || 0 };
     }
     const name = x.collection || 'Weitere Listen';
     return name === 'Hörverstehen'
@@ -37,7 +37,7 @@ let wsSynth = null;
     };
     const bookId = 'tb:Ecco più:1';
     const eccoIn = contentList('vocabulary').some(x => collectionOf(x).id === bookId);
-    const baseColl = { id: bookId, title: 'Ecco più 1', kind: 'Lehrwerk', sub: 'Cornelsen', series: 'Ecco più', volume: 1 };
+    const baseColl = { id: bookId, title: 'Ecco più 1', kind: 'Lehrwerk', sub: 'Cornelsen', series: 'Ecco più', volume: 1, grade: 8 };
     const packaged = contentList('vocabulary').some(x => /^it-ecco1-(ciao|u1-)/.test(x.id));
     (packaged ? [] : GROUPS).forEach(([g, , label]) => {
       const ws0 = WORDS.filter(w => w.group === g);
@@ -76,8 +76,10 @@ let wsSynth = null;
     const lead = teacher
       ? ''
       : `<section class="feature-card"><div><div class="eyebrow">Heute</div><h2>${due ? plural(due, 'Wort wartet', 'Wörter warten') + ' auf ein Wiedersehen.' : 'Eine kleine Runde passt immer.'}</h2><p>${done} von ${goal} Wörtern heute geübt.</p>${bar(goal, Math.min(goal, done))}</div><button class="button primary large" data-extra="recommend">${due ? 'Jetzt wiederholen' : 'Runde starten'}</button></section>`;
+    const books = cs => `<div class="ws-books">${cs.map(c => `<button class="ws-cover" data-ws="open" data-coll="${esc(c.id)}" data-vol="${c.volume}" aria-label="${esc(c.title)} öffnen"><span class="wc-pub">${esc(c.sub || 'Lehrwerk')}</span><span class="wc-series">${esc(c.series)}</span><span class="wc-num">${c.volume || ''}</span><span class="wc-foot"><span>${c.grade ? 'Klasse ' + c.grade : 'Lehrwerk'}</span><span>${plural(c.n, 'Wort', 'Wörter')}</span></span><span class="wc-bar" aria-hidden="true"><i style="width:${c.n ? Math.round((100 * c.seen) / c.n) : 0}%"></i></span></button>`).join('')}</div>`;
     const group = (title, kinds) => {
       const cs = all.filter(c => kinds.includes(c.kind));
+      if (kinds[0] === 'Lehrwerk' && cs.length) return `${sectionHead('', title)}${books(cs)}`;
       return cs.length
         ? `${sectionHead('', title)}<div class="cards-grid ws-colls">${cs.map(c => `<button class="ws-coll" data-ws="open" data-coll="${esc(c.id)}"><span class="ws-kind">${esc(c.kind)}${c.sub ? ' · ' + esc(c.sub) : ''}</span><b>${esc(c.title)}</b><span class="ws-meta">${plural(c.secs.length, 'Abschnitt', 'Abschnitte')} · ${plural(c.n, 'Wort', 'Wörter')}</span>${bar(c.n, c.seen)}<span class="ws-state">${c.seen} von ${c.n} schon geübt</span></button>`).join('')}</div>`
         : '';
