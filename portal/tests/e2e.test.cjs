@@ -293,7 +293,7 @@ async function step(name, fn) {
     await dp.click('#q-q1 .opt:has-text("In Piazza Castello")');
     await dp.click('#q-q2 .opt:has-text("Prendono un gelato")');
     await dp.click('#q-q2 .opt:has-text("Vanno al parco")');
-    await dp.click('#q-q3 .opt:has-text("Falsch")');
+    await dp.click('#q-q3 .opt:has-text("Falso")');
     await dp.selectOption('#q-q4 select[data-part="p1"]', { label: 'gelato al limone' });
     await dp.selectOption('#q-q4 select[data-part="p2"]', { label: 'gelato al cioccolato' });
     for (const [i, n] of [
