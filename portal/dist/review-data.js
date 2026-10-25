@@ -110,7 +110,7 @@ const LISTENING_REVIEW_SEEDS = [
     language: 'it',
     level: 'A2',
     description:
-      'Un cliente ordina e precisa quello che desidera. Hörstrecke laut Gemini 00:00–00:55; der Player zeigt das ganze Video.',
+      'Un cliente ordina e precisa quello che desidera.',
     topics: ['al bar'],
     cover: 'wave',
     estimatedMinutes: 5,
@@ -195,7 +195,7 @@ const LISTENING_REVIEW_SEEDS = [
     language: 'it',
     level: 'A2',
     description:
-      'Un invito tra amici e un impegno da rispettare. Hörstrecke laut Gemini 00:10–01:26; der Player zeigt das ganze Video.',
+      'Un invito tra amici e un impegno da rispettare.',
     topics: ['vita quotidiana', 'tempo libero'],
     cover: 'wave',
     estimatedMinutes: 5,

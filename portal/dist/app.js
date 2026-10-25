@@ -115,6 +115,10 @@ function shuffle(a) {
 }
 let toastTimer;
 function toast(s) {
+  if (typeof uiTranslateText === 'function') {
+    const m = String(s).match(/^(Einbett-Code kopiert\. Direktlink:) (.*)$/);
+    s = m ? uiTranslateText(m[1]) + ' ' + m[2] : uiTranslateText(String(s));
+  }
   $('toast').textContent = s;
   $('toast').hidden = false;
   clearTimeout(toastTimer);

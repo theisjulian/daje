@@ -756,9 +756,32 @@ let uiLocale = 'de',
   uiAttrRecords = new WeakMap(),
   uiObserver = null;
 const UI_LOOKUP = new Map(UI_ROWS.map(row => [row[0], row]));
-function uiTranslateText(source) {
+if (typeof UI_ROWS_EXTRA !== 'undefined')
+  for (const row of UI_ROWS_EXTRA) if (!UI_LOOKUP.has(row[0])) UI_LOOKUP.set(row[0], row);
+const UI_IDX = { de: 0, it: 1, en: 2, fr: 3, 'it-simple': 4 };
+function uiFill(text, nums) {
+  let i = 0;
+  return text.replace(/\{n\}/g, () => (i < nums.length ? nums[i++] : '{n}'));
+}
+function uiExact(source) {
   const row = UI_LOOKUP.get(source);
-  if (row) return row[{ de: 0, it: 1, en: 2, fr: 3, 'it-simple': 4 }[uiLocale]];
+  if (row) return row[UI_IDX[uiLocale]];
+  const nums = source.match(/\d+/g);
+  if (nums) {
+    const row2 = UI_LOOKUP.get(source.replace(/\d+/g, '{n}'));
+    if (row2) return uiFill(row2[UI_IDX[uiLocale]], nums);
+  }
+  return null;
+}
+function uiTranslateText(source) {
+  if (uiLocale === 'de') return source;
+  const exact = uiExact(source);
+  if (exact !== null) return exact;
+  if (source.includes(' · ')) {
+    const parts = source.split(' · ');
+    const mapped = parts.map(p => uiTranslateText(p));
+    if (mapped.some((p, i) => p !== parts[i])) return mapped.join(' · ');
+  }
   const patterns = [
     [
       /^Deine Antwort auf (.+) · Artikel mitlernen$/,
@@ -773,16 +796,49 @@ function uiTranslateText(source) {
       /^(\d+) \/ (\d+) beantwortet$/,
       ['$1 / $2 risposte', '$1 / $2 answered', '$1 / $2 réponses', '$1 / $2 risposte']
     ],
-    [/^(\d+) Wörter$/, ['$1 parole', '$1 words', '$1 mots', '$1 parole']]
+    [/^(\d+) Wörter$/, ['$1 parole', '$1 words', '$1 mots', '$1 parole']],
+    [
+      /^Zu „(.+)“ passend$/,
+      ['Abbina a «$1»', 'Matches “$1”', 'Correspond à « $1 »', 'Va con «$1»']
+    ],
+    [/^Lücke (\d+)$/, ['Spazio $1', 'Gap $1', 'Trou $1', 'Spazio $1']],
+    [
+      /^Position für „(.+)“$/,
+      ['Posizione per «$1»', 'Position for “$1”', 'Position pour « $1 »', 'Posizione per «$1»']
+    ],
+    [
+      /^(.+): geübte Einträge$/,
+      ['$1: voci esercitate', '$1: entries practised', '$1 : entrées travaillées', '$1: voci fatte'],
+      true
+    ],
+    [/^(.+) öffnen$/, ['Apri $1', 'Open $1', 'Ouvrir $1', 'Apri $1'], true],
+    [
+      /^(.*?) Hörstrecke laut Gemini (\S+); der Player zeigt das ganze Video\.$/,
+      [
+        '$1 Tratto di ascolto secondo Gemini: $2; il player mostra l’intero video.',
+        '$1 Listening section according to Gemini: $2; the player shows the whole video.',
+        '$1 Passage d’écoute selon Gemini : $2 ; le lecteur affiche toute la vidéo.',
+        '$1 Parte da ascoltare (secondo Gemini): $2. Il player mostra tutto il video.'
+      ]
+    ]
   ];
-  for (const [re, options] of patterns)
-    if (re.test(source) && uiLocale !== 'de')
-      return source.replace(re, options[{ it: 0, en: 1, fr: 2, 'it-simple': 3 }[uiLocale]]);
+  for (const [re, options, inner] of patterns) {
+    const m = source.match(re);
+    if (!m) continue;
+    const tpl = options[{ it: 0, en: 1, fr: 2, 'it-simple': 3 }[uiLocale]];
+    return tpl.replace(/\$(\d)/g, (_, i) => (inner && i === '1' ? uiTranslateText(m[1]) : m[i]));
+  }
+  const up = source.toUpperCase() === source && /[A-ZÄÖÜ]{3}/.test(source);
+  if (up) {
+    const low = source.toLowerCase();
+    for (const [k] of UI_LOOKUP)
+      if (k.toLowerCase() === low) return uiExact(k).toUpperCase();
+  }
   return source;
 }
 function translateUI() {
   const skip =
-    '.studio-editor,.studio-import,.studio-paste,.studio-inventory,.word-display,.card-example,.match-tile,.lesson-body h3,.vocabulary-card h3,.listen-transcript p,.listen-sources,#teaching-print,script,style,textarea,option[data-no-translate]';
+    '.studio-editor,.studio-import,.studio-paste,.studio-inventory,.word-display,.card-example,.match-tile,.lesson-body h3,.vocabulary-card h3,.listen-transcript p,.listen-sources,#teaching-print .paper,script,style,textarea,option[data-no-translate]';
   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
   let n;
   while ((n = walker.nextNode())) {
@@ -799,10 +855,10 @@ function translateUI() {
       uiTextRecords.set(n, { source, last: output });
     }
   }
-  for (const el of document.querySelectorAll('[placeholder],[aria-label]')) {
+  for (const el of document.querySelectorAll('[placeholder],[aria-label],[title]')) {
     if (el.closest(skip)) continue;
     let records = uiAttrRecords.get(el) || {};
-    for (const key of ['placeholder', 'aria-label']) {
+    for (const key of ['placeholder', 'aria-label', 'title']) {
       if (!el.hasAttribute(key)) continue;
       const value = el.getAttribute(key),
         old = records[key],
