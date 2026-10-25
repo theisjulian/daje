@@ -288,3 +288,12 @@ Gilt für Hörübungen und Wortlisten. Alle Felder sind optional; nur ausfüllen
 ### Schemawunsch
 
 Wenn dir für den Inhalt ein Feld fehlt, das das Schema nicht kennt, erfinde es nicht, sondern nenne den Wunsch in `reviewNotes` mit dem Präfix `SCHEMAWUNSCH:` (Feldname, Zweck, Beispielwert). So können wir das Schema später gezielt erweitern, ohne Daten zu verlieren.
+
+## Aufgabenumfang und Mischung (verbindlich, Stand 25.10.2026)
+
+- Anzahl nach Länge des gesprochenen Teils: etwa eine Aufgabe pro 30 bis 45 Sekunden, mindestens 6, höchstens 16. Ein kurzer Beitrag mit nur 2 oder 3 Aufgaben ist nicht zulässig.
+- Mindestens 4 verschiedene Aufgabentypen (unter 2 Minuten Länge 3). `true_false` höchstens 20 Prozent der Aufgaben und nie als Hauptform; nicht mehr als drei gleiche Typen hintereinander.
+- Verlauf: Globalverstehen, dann Detailverstehen in Textreihenfolge, zuletzt Schlussfolgern oder Haltung (ab B1). Auf A1/A2 konkrete Informationen (Zahlen, Orte, Personen, Handlungen), ab B1 Absichten, Begründungen, Haltungen, ab B2 Ton und Argumentation.
+- Distraktoren plausibel und gleich lang, nicht wörtlich im Text und nicht ohne Hören lösbar. Fragen und Antworten in der Zielsprache und höchstens eine Stufe über dem Niveau des Hörtexts.
+- Jede Lösung mit Zeitmarke `[mm:ss]` am Anfang der `explanation` belegen.
+- `sources.citation` enthält nur die Quellenangabe, keine Bewertung wie „ungeprüft“; Unsicherheiten gehören in `reviewNotes`.

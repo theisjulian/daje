@@ -51,8 +51,22 @@ SERIENMODUS (verbindlich, gilt zusätzlich zur Kommandodatei):
   Die Zeitmarke muss im Video wirklich so liegen; erfinde keine.
 - Gib coverQuery an (englischer Suchbegriff, konkretes fotografierbares Motiv).
 - Nimm 6 bis 12 zentrale Wörter in vocabulary auf (Schema 1.1) mit translations (de), example.
-- Mindestens drei verschiedene Aufgabentypen (bei Clips unter 2 Minuten zwei).
-- sources: eine Quelle kind external mit Kanal, Titel und URL des Videos, rights "needs_review".
+- AUFGABENQUALITÄT (verbindlich, Lehrkräfte prüfen das):
+  * Anzahl nach Länge des gesprochenen Teils: etwa eine Aufgabe pro 30 bis 45 Sekunden, mindestens 6,
+    höchstens 16. Ein 3-Minuten-Beitrag braucht also etwa 6 bis 9 Aufgaben, nie nur 2 oder 3.
+  * Mindestens 4 verschiedene Aufgabentypen (bei Clips unter 2 Minuten 3). Typen: single_choice,
+    multiple_choice, true_false, matching, ordering, gap_fill, short_answer. true_false höchstens 20 Prozent
+    und nie als einzige einfache Form; nie mehr als 3 gleiche Typen hintereinander.
+  * Reihenfolge: zuerst Globalverstehen (Thema, Textsorte, Sprecher, Situation), dann Detailverstehen in der
+    Reihenfolge des Textes, zuletzt Schlussfolgern oder Meinung (ab B1). Auf A1/A2: Zahlen, Orte, Personen,
+    Handlungen; ab B1: Absichten, Begründungen, Haltungen, implizite Aussagen; ab B2/C1: Ton, Argumentationslinie.
+  * Distraktoren müssen plausibel, gleich lang und im Text weder wörtlich noch eindeutig ausgeschlossen sein.
+    Keine Fragen, die man ohne Hören aus Allgemeinwissen lösen kann. Keine Fragen nach Wortlaut-Wiedergabe.
+  * Alle Fragen, Antworten und Anweisungen in der Zielsprache, dem Niveau angemessen formuliert
+    (Wortschatz und Satzbau höchstens eine Stufe über dem Hörtext).
+  * Jede Lösung muss am Ton belegbar sein; Zeitmarke in der explanation, Begründung auf Deutsch, ein bis zwei Sätze.
+- sources: eine Quelle kind external mit Kanal, Titel und URL des Videos, rights "needs_review". citation nur die
+  Quellenangabe (Kanal, Titel), keine Bewertungen wie „ungeprüft“; solche Hinweise gehören in reviewNotes.
 - reviewNotes: nur echte Unsicherheiten, kurz.
 """
 PRUEFER = """Du bist Prüfer. Dir liegen das Video und ein Aufgabenpaket vor. Prüfe jede Aufgabe:
@@ -181,6 +195,27 @@ def titelbild_holen(pkg, pid, mock=False):
     return False
 
 
+def qualitaet(res, level):
+    """Mindeststandards für Aufgaben. Gibt Probleme als Liste zurück."""
+    qs = res.get("questions", [])
+    stamps = [int(m) * 60 + int(sec) for m, sec in re.findall(r"\[(\d{1,2}):(\d{2})\]", res.get("transcript", ""))]
+    dauer = max(stamps) if stamps else 0
+    minimum = max(6, min(16, round(dauer / 40))) if dauer else 6
+    probleme = []
+    if len(qs) < minimum:
+        probleme.append(f"Nur {len(qs)} Aufgaben, bei dieser Länge mindestens {minimum} nötig")
+    typen = [q.get("type") for q in qs]
+    soll = 3 if dauer and dauer < 120 else 4
+    if len(set(typen)) < soll:
+        probleme.append(f"Nur {len(set(typen))} Aufgabentypen, mindestens {soll} nötig")
+    if typen and typen.count("true_false") > max(1, round(len(typen) * 0.2)):
+        probleme.append("Zu viele true_false-Aufgaben (höchstens 20 Prozent)")
+    ohne = [q.get("id") for q in qs if not re.match(r"\s*\[\d{1,2}:\d{2}\]", q.get("explanation", ""))]
+    if len(ohne) > len(qs) / 3:
+        probleme.append("explanation beginnt nicht bei jeder Aufgabe mit der Zeitmarke [mm:ss]")
+    return probleme
+
+
 def hoeren(args):
     system = CMD.read_text(encoding="utf8") + "\n" + SERIE
     mock = None
@@ -242,8 +277,14 @@ def hoeren(args):
             c = check(tmp)
             tmp.unlink()
             if c["ok"]:
-                pkg, fehler = res, ""
-                break
+                prob = qualitaet(res, level) if not args.mock else []
+                if not prob or runde == 2:
+                    pkg, fehler = res, ""
+                    if prob:
+                        res.setdefault("reviewNotes", []).append("QUALITÄT: " + "; ".join(prob))
+                    break
+                fehler = "QUALITÄT, bitte alle Punkte beheben und mehr bzw. andere Aufgaben ergänzen: " + "; ".join(prob)
+                continue
             fehler = "; ".join(c["errors"][:8])
         if not pkg:
             print(f"[{i}] {pid}: FEHLER {fehler[:120]}")
