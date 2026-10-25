@@ -564,9 +564,24 @@ function portalClick(e) {
     return;
   }
   if (a === 'do-print') {
-    document.body.classList.add('printing-teaching');
-    window.print();
-    document.body.classList.remove('printing-teaching');
+    // iOS/Safari druckt asynchron: Der Druck-Zustand muss bis zum Ende des Dialogs bleiben,
+    // sonst wird nur die erste Seite (Bildschirmhöhe) erfasst.
+    const body = document.body;
+    body.classList.add('printing-teaching');
+    let done = false;
+    const finish = () => {
+      if (done) return;
+      done = true;
+      body.classList.remove('printing-teaching');
+      window.removeEventListener('afterprint', finish);
+      document.removeEventListener('pointerdown', onTouch, true);
+      clearTimeout(timer);
+    };
+    const onTouch = () => setTimeout(finish, 400);
+    const timer = setTimeout(finish, 120000);
+    window.addEventListener('afterprint', finish);
+    setTimeout(() => document.addEventListener('pointerdown', onTouch, true), 1500);
+    setTimeout(() => window.print(), 120);
     return;
   }
   if (a === 'print-questions') printTeaching(false);

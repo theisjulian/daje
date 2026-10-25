@@ -235,3 +235,9 @@ body.previewing-teaching #teaching-print.dlg-mode{position:fixed;inset:0;z-index
   #teaching-print .paper.pg .doc-foot{margin-top:10px}
   @page{size:A4;margin:16mm 15mm 14mm}
 }
+
+/* Druck: nie auf Bildschirmhöhe begrenzen (iOS/Safari schneidet sonst nach Seite 1 ab) */
+@media print {
+  html:has(body.printing-teaching), body.printing-teaching { height: auto !important; min-height: 0 !important; overflow: visible !important; position: static !important; }
+  body.printing-teaching #teaching-print, body.printing-teaching #teaching-print .dlg-prev, body.printing-teaching #teaching-print .dlg-grid, body.printing-teaching #teaching-print .pages, body.printing-teaching #teaching-print .paper { height: auto !important; max-height: none !important; overflow: visible !important; position: static !important; }
+}

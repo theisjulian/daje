@@ -45,12 +45,12 @@ function dlgPaginate() {
   const pages = paper.parentElement;
   pages.style.zoom = 1;
   const cs = getComputedStyle(paper), padY = parseFloat(cs.paddingTop) + parseFloat(cs.paddingBottom);
-  const inner = 1122 - padY - 6;
+  const inner = 1122 - padY - 100; // Druckfläche A4 (267 mm = 1009 px) ist kleiner als die Bildschirmseite
   const foot = paper.querySelector('.doc-foot'), thead = table.tHead;
   const footH = (foot ? foot.offsetHeight : 0) + 30;
-  const topH = table.offsetTop - parseFloat(cs.paddingTop);
+  const topH = table.getBoundingClientRect().top - paper.getBoundingClientRect().top - parseFloat(cs.paddingTop);
   const headH = thead.offsetHeight;
-  const rows = [...table.tBodies[0].rows], hs = rows.map(r => r.getBoundingClientRect().height);
+  const rows = [...table.tBodies[0].rows], hs = rows.map(r => r.offsetHeight);
   const chunks = [];
   let cur = [], used = 0, cap = inner - topH - headH - footH;
   rows.forEach((r, i) => {
@@ -59,7 +59,7 @@ function dlgPaginate() {
       const moved = last.classList.contains('doc-sec') ? [cur.pop()] : [];
       chunks.push(cur);
       cur = moved;
-      used = moved.reduce((s, m) => s + m.getBoundingClientRect().height, 0);
+      used = moved.reduce((s, m) => s + m.offsetHeight, 0);
       cap = inner - headH - footH;
     }
     cur.push(r);
