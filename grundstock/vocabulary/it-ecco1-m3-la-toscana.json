@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +34,11 @@
    "translations": [
     "zum Beispiel"
    ],
-   "page": "201"
+   "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "related": "E for example; F par exemple"
   },
   {
    "id": "m3-la-toscana-002",
@@ -43,6 +47,10 @@
     "der Dom"
    ],
    "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "A Milano avete visitato il duomo?",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -60,6 +68,10 @@
     "die Kuppel"
    ],
    "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "La cupola è alta e molto grande.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -78,6 +90,11 @@
     "die Besichtigung"
    ],
    "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Penso spesso alla nostra visita a Torino.",
+   "related": "E visit",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -94,7 +111,11 @@
    "translations": [
     "normalerweise"
    ],
-   "page": "201"
+   "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Normalmente la prima lezione comincia alle 8."
   },
   {
    "id": "m3-la-toscana-006",
@@ -105,7 +126,11 @@
     "verlieren"
    ],
    "page": "201",
-   "usage": "Partizip: perso"
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Oggi Laura ha perso il treno.",
+   "usage": "p.p. perso"
   },
   {
    "id": "m3-la-toscana-007",
@@ -114,6 +139,10 @@
     "besonders"
    ],
    "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Mia nonna è una donna molto particolare.",
    "usage": "agg."
   },
   {
@@ -122,7 +151,11 @@
    "translations": [
     "je(mals)"
    ],
-   "page": "201"
+   "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Voi siete mai andati a un concerto di Liga?"
   },
   {
    "id": "m3-la-toscana-009",
@@ -132,7 +165,11 @@
     "das Andenken"
    ],
    "page": "201",
-   "usage": "Pl.: i souvenir",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Ho portato dei souvenir alla mia famiglia.",
+   "usage": "pl. i souvenir",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -149,15 +186,33 @@
    "translations": [
     "voll von etw./jdm"
    ],
-   "page": "201"
+   "page": "201",
+   "tags": [
+    "fakultativ"
+   ]
   },
   {
    "id": "m3-la-toscana-011",
-   "target": "il/la turista",
+   "target": "il turista",
    "translations": [
-    "der Tourist / die Touristin"
+    "der/die Tourist/-in"
    ],
-   "page": "201"
+   "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "A Roma ci sono tanti turisti.",
+   "related": "E tourist; F touriste",
+   "usage": "f. la turista",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
   },
   {
    "id": "m3-la-toscana-012",
@@ -166,6 +221,11 @@
     "der Garten"
    ],
    "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Davanti alla casa c’è un bel giardino.",
+   "related": "F jardin",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -183,6 +243,11 @@
     "der Turm"
    ],
    "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Questa torre è molto alta.",
+   "related": "F tour",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -200,7 +265,11 @@
     "nämlich",
     "tatsächlich"
    ],
-   "page": "201"
+   "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Marco è già tornato. Infatti lo vedo oggi."
   },
   {
    "id": "m3-la-toscana-015",
@@ -209,6 +278,10 @@
     "der Glockenturm"
    ],
    "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "A Pisa siamo saliti sul campanile.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -226,9 +299,14 @@
     "(be)zahlen"
    ],
    "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "related": "E pay; F payer",
    "acceptedAnswers": [
     "pagare"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
    "id": "m3-la-toscana-017",
@@ -237,6 +315,10 @@
     "der Karneval"
    ],
    "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Domani vado a una festa di carnevale.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -254,6 +336,10 @@
     "der Festzug"
    ],
    "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Oggi un grande corteo parte da Piazza Duomo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -270,7 +356,12 @@
    "translations": [
     "sich über jdn lustig machen"
    ],
-   "page": "201"
+   "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Luca prende in giro suo fratello.",
+   "usage": "Abc"
   },
   {
    "id": "m3-la-toscana-020",
@@ -278,7 +369,11 @@
    "translations": [
     "früher oder später"
    ],
-   "page": "201"
+   "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Prima o poi voglio visitare anche Roma."
   },
   {
    "id": "m3-la-toscana-021",
@@ -287,6 +382,10 @@
     "die Ruhe"
    ],
    "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "related": "F tranquillité",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -304,7 +403,11 @@
     "die Landschaft"
    ],
    "page": "201",
-   "usage": "Pl.: i paesaggi",
+   "tags": [
+    "fakultativ"
+   ],
+   "related": "F paysage",
+   "usage": "pl. i paesaggi",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -321,7 +424,12 @@
    "translations": [
     "bestaunen"
    ],
-   "page": "201"
+   "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "A Torino ammiro il parco.",
+   "related": "E to admire; L admirari"
   },
   {
    "id": "m3-la-toscana-024",
@@ -330,6 +438,10 @@
     "der Wein"
    ],
    "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "related": "E wine; F vin; L vinum",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -347,7 +459,12 @@
     "das Hostel",
     "die (Jugend-)Herberge"
    ],
-   "page": "201"
+   "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Gli alberghi costano troppo. Abbiamo cercato un ostello.",
+   "related": "E hostel"
   },
   {
    "id": "m3-la-toscana-026",
@@ -357,7 +474,11 @@
     "draußen",
     "hinaus"
    ],
-   "page": "201"
+   "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Oggi andiamo fuori Torino per vedere i nonni."
   },
   {
    "id": "m3-la-toscana-027",
@@ -365,7 +486,11 @@
    "translations": [
     "an deiner Stelle"
    ],
-   "page": "201"
+   "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Al posto tuo andrei a casa. È già tardi."
   },
   {
    "id": "m3-la-toscana-028",
@@ -374,6 +499,11 @@
     "das Dorf"
    ],
    "page": "201",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Luca abita in un paese vicino a Torino.",
+   "related": "≠ città",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",

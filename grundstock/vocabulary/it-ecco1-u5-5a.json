@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +34,8 @@
    "translations": [
     "der Engel"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "related": "E angel; F l’ange"
   },
   {
    "id": "u5-5a-002",
@@ -44,7 +45,8 @@
     "verrückt"
    ],
    "page": "187-188",
-   "usage": "Pl.: pazzeschi/-che"
+   "example": "Ho una novità pazzesca!",
+   "usage": "pl. pazzeschi/-che"
   },
   {
    "id": "u5-5a-003",
@@ -53,7 +55,9 @@
     "der Anfang"
    ],
    "page": "187-188",
-   "usage": "Pl.: gli inizi"
+   "example": "Partiamo dall’inizio.",
+   "related": "≠ la fine; L initium",
+   "usage": "pl. gli inizi"
   },
   {
    "id": "u5-5a-004",
@@ -62,16 +66,27 @@
     "gestern"
    ],
    "page": "187-188",
+   "related": "≠ domani; F hier; L heri",
    "usage": "avv."
   },
   {
    "id": "u5-5a-005",
-   "target": "il/la parente",
+   "target": "il parente",
    "translations": [
     "der/die Verwandte"
    ],
    "page": "187-188",
-   "usage": "Pl.: i parenti"
+   "example": "Unterscheide: it. i parenti – die Verwandten; engl. parents – die Eltern",
+   "usage": "pl. i parenti",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
   },
   {
    "id": "u5-5a-006",
@@ -79,7 +94,9 @@
    "translations": [
     "einladen"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "example": "Alla festa invito gli amici.",
+   "related": "E invite; F inviter"
   },
   {
    "id": "u5-5a-007",
@@ -91,7 +108,9 @@
     "den"
    ],
    "page": "187-188",
-   "usage": "Relativpronomen"
+   "example": "La nonna, che ha 82 anni, ha ballato.",
+   "related": "F qui/-e",
+   "usage": "pron. rel. Das Wort che hat verschiedene Verwendungen: Che lingue parli? – Welche Sprachen sprichst du? / Che buono! – Wie lecker! / Che fortuna! – Was für ein Glück! / Che cosa ti piace? – Was gefällt dir? / Sappiamo che è così. – Wir wissen, dass es so ist. / Che ore sono? – Wieviel Uhr ist es? / Il ragazzo che vedi è Khalid. – Der Junge, den du siehst, ist Khalid."
   },
   {
    "id": "u5-5a-008",
@@ -101,6 +120,7 @@
     "meistens"
    ],
    "page": "187-188",
+   "example": "Mia cugina di solito è simpatica.",
    "usage": "avv."
   },
   {
@@ -108,10 +128,11 @@
    "target": "rompere",
    "translations": [
     "kaputt machen",
-    "nerven"
+    "hier: nerven"
    ],
    "page": "187-188",
-   "usage": "Partizip: rotto; hier: nerven"
+   "related": "L rumpere",
+   "usage": "p.p. rotto"
   },
   {
    "id": "u5-5a-010",
@@ -121,9 +142,12 @@
     "aufrechterhalten"
    ],
    "page": "187-188",
+   "example": "Puoi mantenere un segreto?",
+   "related": "E to maintain; ▸ tenere",
    "acceptedAnswers": [
     "mantenere"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
    "id": "u5-5a-011",
@@ -132,6 +156,7 @@
     "das Geheimnis"
    ],
    "page": "187-188",
+   "related": "E secret; F le secret",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -149,9 +174,11 @@
     "halten"
    ],
    "page": "187-188",
+   "related": "F tenir; L tenere",
    "acceptedAnswers": [
     "tenere"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
    "id": "u5-5a-013",
@@ -161,6 +188,7 @@
     "der Vortrag"
    ],
    "page": "187-188",
+   "example": "Mio zio ha tenuto un discorso.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -176,9 +204,10 @@
    "target": "la donna",
    "translations": [
     "die Frau",
-    "die Dame"
+    "Dame"
    ],
    "page": "187-188",
+   "related": "L domina",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -195,7 +224,8 @@
    "translations": [
     "lebhaft"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "related": "▸ la vita"
   },
   {
    "id": "u5-5a-016",
@@ -203,7 +233,8 @@
    "translations": [
     "für sein/ihr Alter"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "example": "Mia nonna è molto vivace alla sua età."
   },
   {
    "id": "u5-5a-017",
@@ -211,7 +242,8 @@
    "translations": [
     "ehrlich"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "related": "E sincere; F sincère"
   },
   {
    "id": "u5-5a-018",
@@ -219,16 +251,17 @@
    "translations": [
     "erfahren haben"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "usage": "Abc: so – ich weiß; ho saputo – ich habe erfahren"
   },
   {
    "id": "u5-5a-019",
    "target": "la vetrina",
    "translations": [
-    "das Schaufenster",
-    "die Schaufensterscheibe"
+    "das/die Schaufenster(scheibe)"
    ],
    "page": "187-188",
+   "example": "Papà ha rotto una vetrina con il pallone.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -243,10 +276,11 @@
    "id": "u5-5a-020",
    "target": "la serata",
    "translations": [
-    "der Abend"
+    "der Abend (Verlauf)"
    ],
    "page": "187-188",
-   "usage": "im Verlauf",
+   "related": "▸ la sera; F la soirée",
+   "usage": "Unterscheide: 1. den Abend in seinem Verlauf: Abbiamo passato una bella serata al ristorante. – Wir haben einen schönen Abend im Restaurant verbracht. 2. den Abend als Zeitangabe: Domani sera andiamo al ristorante. – Morgen Abend gehen wir ins Restaurant.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -264,6 +298,8 @@
     "das Abendessen"
    ],
    "page": "187-188",
+   "example": "Stasera mio padre prepara la cena.",
+   "related": "L cena",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -276,19 +312,42 @@
   },
   {
    "id": "u5-5a-022",
-   "target": "il/la cameriere/-a",
+   "target": "il cameriere",
    "translations": [
-    "der Kellner / die Kellnerin"
+    "der Kellner"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "example": "Il cameriere del ristorante porta la cena.",
+   "usage": "f. la cameriera",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
   },
   {
    "id": "u5-5a-023",
-   "target": "il/la vicino/-a",
+   "target": "il vicino",
    "translations": [
-    "der Nachbar / die Nachbarin"
+    "der/die Nachbar/-in"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "example": "Il mio vicino ha un cane.",
+   "related": "▸ vicino a; L vicinus",
+   "usage": "f. la vicina",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
   },
   {
    "id": "u5-5a-024",
@@ -296,7 +355,9 @@
    "translations": [
     "schüchtern"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "example": "Il ragazzo parla poco – è timido.",
+   "related": "E timid"
   },
   {
    "id": "u5-5a-025",
@@ -305,7 +366,9 @@
     "sich blamieren",
     "einen schlechten Eindruck machen"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "example": "Ho fatto una figuraccia davanti a tutti.",
+   "usage": "Abc"
   },
   {
    "id": "u5-5a-026",
@@ -314,7 +377,9 @@
     "öffnen"
    ],
    "page": "187-188",
-   "usage": "Partizip: aperto"
+   "example": "Il cameriere apre la bottiglia.",
+   "related": "▸ aperto/-a; L aperire",
+   "usage": "p.p. aperto"
   },
   {
    "id": "u5-5a-027",
@@ -323,6 +388,8 @@
     "die Flasche"
    ],
    "page": "187-188",
+   "example": "Il cameriere apre la bottiglia.",
+   "related": "E bottle; F la bouteille",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -338,10 +405,11 @@
    "target": "lavare",
    "translations": [
     "(ab)waschen",
-    "nass spritzen"
+    "hier: nass spritzen"
    ],
    "page": "187-188",
-   "usage": "hier: nass spritzen"
+   "example": "Lavo le mani prima di mangiare.",
+   "related": "F laver; L lavare"
   },
   {
    "id": "u5-5a-029",
@@ -349,7 +417,9 @@
    "translations": [
     "arm"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "example": "Il povero cane è bagnato.",
+   "related": "E poor; F pauvre; L pauper/-eris"
   },
   {
    "id": "u5-5a-030",
@@ -358,6 +428,7 @@
     "plötzlich"
    ],
    "page": "187-188",
+   "example": "Improvvisamente la porta si apre.",
    "usage": "avv."
   },
   {
@@ -366,7 +437,8 @@
    "translations": [
     "Herzlichen Glückwunsch!"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "example": "Tanti auguri, nonna!"
   },
   {
    "id": "u5-5a-032",
@@ -374,7 +446,8 @@
    "translations": [
     "Alles Gute zum Geburtstag!"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "example": "Buon compleanno, Anna!"
   },
   {
    "id": "u5-5a-033",
@@ -382,7 +455,8 @@
    "translations": [
     "wiedererkennen"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "related": "▸ conoscere; F reconnaître"
   },
   {
    "id": "u5-5a-034",
@@ -390,28 +464,33 @@
    "translations": [
     "viel"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "example": "Ho tanti amici.",
+   "related": "≠ poco/-a; L tantus"
   },
   {
    "id": "u5-5a-035",
    "target": "fa",
    "translations": [
-    "vor"
+    "vor (zeitlich)"
    ],
    "page": "187-188",
-   "usage": "zeitlich, nachgestellt"
+   "example": "L’autobus è partito cinque minuti fa.",
+   "usage": "prep. (nachgestellt). Unterscheide: due anni fa – vor zwei Jahren; Anna fa i compiti. – Anna macht Hausaufgaben."
   },
   {
    "id": "u5-5a-036",
-   "target": "i gemelli",
+   "target": "il gemello",
    "translations": [
-    "die Zwillinge"
+    "der Zwilling"
    ],
    "page": "187-188",
-   "usage": "pl.",
+   "example": "Anna ha due fratelli gemelli.",
+   "related": "F les jumeaux; L gemelli",
+   "usage": "pl. i gemelli",
    "grammar": {
     "partOfSpeech": "noun",
-    "article": "i",
+    "article": "il",
     "gender": "masculine"
    },
    "answerPolicy": {
@@ -427,6 +506,7 @@
     "gleich"
    ],
    "page": "187-188",
+   "example": "Frank è uguale a Matthias. Sono come gemelli.",
    "usage": "agg."
   },
   {
@@ -437,6 +517,7 @@
     "die Art"
    ],
    "page": "187-188",
+   "example": "Il calcio è un tipo di sport.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -454,7 +535,8 @@
     "humorvoll",
     "witzig"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "example": "Mio zio è molto divertente e spiritoso."
   },
   {
    "id": "u5-5a-040",
@@ -479,11 +561,14 @@
    "translations": [
     "schwierig"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "example": "Il compito di latino è difficile.",
+   "related": "≠ facile; L difficilis/-e",
+   "usage": "Unterscheide: Il compito è facile. – Die Aufgabe ist einfach/leicht (vgl. engl. easy). Il compito è difficile. – Die Aufgabe ist schwierig/schwer (vgl. engl. difficult). La borsa è leggera. – Die Tasche ist leicht (Gewicht; vgl. engl. light). La borsa è pesante. – Die Tasche ist schwer (Gewicht; vgl. engl. heavy)."
   },
   {
    "id": "u5-5a-042",
-   "target": "Italia",
+   "target": "l’Italia",
    "translations": [
     "Italien"
    ],
@@ -496,7 +581,10 @@
     "sich vertragen",
     "gut verstehen"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "example": "Io e mia sorella andiamo d’accordo.",
+   "related": "F être d’accord",
+   "usage": "Abc"
   },
   {
    "id": "u5-5a-044",
@@ -505,6 +593,7 @@
     "das Profil"
    ],
    "page": "187-188",
+   "example": "Quasi tutti hanno un profilo in Internet.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -519,35 +608,53 @@
    "id": "u5-5a-045",
    "target": "l’abbraccio",
    "translations": [
-    "die Umarmung"
+    "die Umarmung",
+    "Herzliche Grüße (Brief)"
    ],
    "page": "187-188",
-   "usage": "Pl.: gli abbracci"
+   "example": "Un abbraccio dalla tua amica!",
+   "related": "E embrace",
+   "usage": "pl. gli abbracci. Un abbraccio"
   },
   {
    "id": "u5-5a-046",
-   "target": "Un abbraccio",
-   "translations": [
-    "Herzliche Grüße"
-   ],
-   "page": "187-188",
-   "usage": "Brief, Mail"
-  },
-  {
-   "id": "u5-5a-047",
    "target": "A presto!",
    "translations": [
     "Bis bald!"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "example": "A presto, ragazzi!"
   },
   {
-   "id": "u5-5a-048",
+   "id": "u5-5a-047",
    "target": "il saluto",
    "translations": [
     "der Gruß"
    ],
    "page": "187-188",
+   "example": "Tanti saluti a tutti!",
+   "related": "F le salut; L salut",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-048",
+   "target": "il consiglio",
+   "translations": [
+    "der Rat",
+    "Tipp"
+   ],
+   "page": "187-188",
+   "example": "Hai un consiglio per me?",
+   "related": "F le conseil; L consilium",
+   "usage": "pl. i consigli",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -560,31 +667,11 @@
   },
   {
    "id": "u5-5a-049",
-   "target": "il consiglio",
-   "translations": [
-    "der Rat",
-    "der Tipp"
-   ],
-   "page": "187-188",
-   "usage": "Pl.: i consigli",
-   "grammar": {
-    "partOfSpeech": "noun",
-    "article": "il",
-    "gender": "masculine"
-   },
-   "answerPolicy": {
-    "article": "required",
-    "typo": "hint"
-   }
-  },
-  {
-   "id": "u5-5a-050",
    "target": "Roma",
    "translations": [
-    "Rom"
+    "Rom (die Hauptstadt von Italien)"
    ],
-   "page": "187-188",
-   "usage": "die Hauptstadt von Italien"
+   "page": "187-188"
   }
  ],
  "catalog": {

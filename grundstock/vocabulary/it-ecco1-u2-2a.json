@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -36,6 +36,7 @@
     "die Mutter"
    ],
    "page": "173-174",
+   "related": "≠ papà",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -65,25 +66,52 @@
   },
   {
    "id": "u2-2a-003",
-   "target": "la signora / il signore",
+   "target": "la signora",
    "translations": [
     "die Frau",
-    "die Dame / der Herr"
+    "die Dame"
    ],
-   "page": "173-174"
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
   },
   {
    "id": "u2-2a-004",
+   "target": "il signore",
+   "translations": [
+    "der Herr"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-005",
    "target": "da",
    "translations": [
     "von … (her)",
     "aus",
     "seit"
    ],
-   "page": "173-174"
+   "page": "173-174",
+   "example": "Torno da Lecce."
   },
   {
-   "id": "u2-2a-005",
+   "id": "u2-2a-006",
    "target": "il mercato",
    "translations": [
     "der Markt"
@@ -100,7 +128,7 @@
    }
   },
   {
-   "id": "u2-2a-006",
+   "id": "u2-2a-007",
    "target": "la borsa",
    "translations": [
     "die Tasche (zum Tragen)"
@@ -117,12 +145,13 @@
    }
   },
   {
-   "id": "u2-2a-007",
+   "id": "u2-2a-008",
    "target": "la spesa",
    "translations": [
     "der Einkauf"
    ],
    "page": "173-174",
+   "example": "Torno dal mercato con la spesa.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -134,7 +163,7 @@
    }
   },
   {
-   "id": "u2-2a-008",
+   "id": "u2-2a-009",
    "target": "la borsa della spesa",
    "translations": [
     "die Einkaufstasche"
@@ -151,34 +180,39 @@
    }
   },
   {
-   "id": "u2-2a-009",
+   "id": "u2-2a-010",
    "target": "entrare (in)",
    "translations": [
     "hereinkommen (in)"
    ],
    "page": "173-174",
+   "example": "Entro in casa.",
+   "related": "E to enter; F entrer",
    "acceptedAnswers": [
     "entrare"
    ]
   },
   {
-   "id": "u2-2a-010",
+   "id": "u2-2a-011",
    "target": "questo/-a",
    "translations": [
     "diese(r, s)"
    ],
-   "page": "173-174"
+   "page": "173-174",
+   "example": "Di chi è questo cellulare? – È mio."
   },
   {
-   "id": "u2-2a-011",
+   "id": "u2-2a-012",
    "target": "Perché?",
    "translations": [
     "Warum?"
    ],
-   "page": "173-174"
+   "page": "173-174",
+   "related": "F pourquoi",
+   "usage": "Die Fragepronomen: Chi? – Wer? Wen?; Che (cosa)? – Was? Welche(s/r)?; Come? – Wie?; Quando? – Wann?; Quanto? – Wie viel(e)?; Dove? – Wo?; Di dove? – Woher?; Perché? – Warum?"
   },
   {
-   "id": "u2-2a-012",
+   "id": "u2-2a-013",
    "target": "lo zaino",
    "translations": [
     "der Rucksack"
@@ -195,14 +229,15 @@
    }
   },
   {
-   "id": "u2-2a-013",
+   "id": "u2-2a-014",
    "target": "il corridoio",
    "translations": [
     "der Flur",
     "der Korridor"
    ],
    "page": "173-174",
-   "usage": "Pl.: i corridoi",
+   "related": "E corridor",
+   "usage": "pl. i corridoi",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -214,30 +249,13 @@
    }
   },
   {
-   "id": "u2-2a-014",
+   "id": "u2-2a-015",
    "target": "la cosa",
    "translations": [
     "die Sache"
    ],
    "page": "173-174",
-   "grammar": {
-    "partOfSpeech": "noun",
-    "article": "la",
-    "gender": "feminine"
-   },
-   "answerPolicy": {
-    "article": "required",
-    "typo": "hint"
-   }
-  },
-  {
-   "id": "u2-2a-015",
-   "target": "la terra",
-   "translations": [
-    "der Boden",
-    "die Erde"
-   ],
-   "page": "173-174",
+   "related": "F la chose",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -250,37 +268,13 @@
   },
   {
    "id": "u2-2a-016",
-   "target": "per terra",
+   "target": "la terra",
    "translations": [
-    "auf dem Boden",
-    "auf der Erde"
-   ],
-   "page": "173-174"
-  },
-  {
-   "id": "u2-2a-017",
-   "target": "il disordine",
-   "translations": [
-    "die Unordnung"
+    "der Boden",
+    "die Erde"
    ],
    "page": "173-174",
-   "grammar": {
-    "partOfSpeech": "noun",
-    "article": "il",
-    "gender": "masculine"
-   },
-   "answerPolicy": {
-    "article": "required",
-    "typo": "hint"
-   }
-  },
-  {
-   "id": "u2-2a-018",
-   "target": "la cucina",
-   "translations": [
-    "die Küche"
-   ],
-   "page": "173-174",
+   "related": "F la terre; L terra",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -292,21 +286,23 @@
    }
   },
   {
-   "id": "u2-2a-019",
-   "target": "mettere",
+   "id": "u2-2a-017",
+   "target": "per terra",
    "translations": [
-    "legen",
-    "stellen"
+    "auf dem Boden",
+    "auf der Erde"
    ],
    "page": "173-174"
   },
   {
-   "id": "u2-2a-020",
-   "target": "il tavolo",
+   "id": "u2-2a-018",
+   "target": "il disordine",
    "translations": [
-    "der Tisch"
+    "die Unordnung"
    ],
    "page": "173-174",
+   "example": "Dov’è lo zaino? Che disordine!",
+   "related": "= caos; E disorder",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -318,16 +314,65 @@
    }
   },
   {
+   "id": "u2-2a-019",
+   "target": "la cucina",
+   "translations": [
+    "die Küche"
+   ],
+   "page": "173-174",
+   "related": "F la cuisine",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-020",
+   "target": "mettere",
+   "translations": [
+    "legen",
+    "stellen"
+   ],
+   "page": "173-174",
+   "example": "Filippo mette lo zaino in corridoio.",
+   "related": "F mettre"
+  },
+  {
    "id": "u2-2a-021",
+   "target": "il tavolo",
+   "translations": [
+    "der Tisch"
+   ],
+   "page": "173-174",
+   "example": "La borsa è sul tavolo.",
+   "related": "E table; F la table",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-022",
    "target": "ancora",
    "translations": [
     "noch"
    ],
    "page": "173-174",
+   "related": "F encore",
    "usage": "avv."
   },
   {
-   "id": "u2-2a-022",
+   "id": "u2-2a-023",
    "target": "la merenda",
    "translations": [
     "der Snack",
@@ -345,10 +390,10 @@
    }
   },
   {
-   "id": "u2-2a-023",
+   "id": "u2-2a-024",
    "target": "il fon",
    "translations": [
-    "der Föhn"
+    "der Fön"
    ],
    "page": "173-174",
    "grammar": {
@@ -362,15 +407,16 @@
    }
   },
   {
-   "id": "u2-2a-024",
+   "id": "u2-2a-025",
    "target": "su",
    "translations": [
     "auf"
    ],
-   "page": "173-174"
+   "page": "173-174",
+   "related": "F sur"
   },
   {
-   "id": "u2-2a-025",
+   "id": "u2-2a-026",
    "target": "la sedia",
    "translations": [
     "der Stuhl"
@@ -387,15 +433,16 @@
    }
   },
   {
-   "id": "u2-2a-026",
+   "id": "u2-2a-027",
    "target": "possibile",
    "translations": [
     "möglich"
    ],
-   "page": "173-174"
+   "page": "173-174",
+   "related": "E possible; F possible"
   },
   {
-   "id": "u2-2a-027",
+   "id": "u2-2a-028",
    "target": "l’asciugamano",
    "translations": [
     "das Handtuch"
@@ -403,7 +450,7 @@
    "page": "173-174"
   },
   {
-   "id": "u2-2a-028",
+   "id": "u2-2a-029",
    "target": "la vasca (da bagno)",
    "translations": [
     "die (Bade-)Wanne"
@@ -412,7 +459,7 @@
    "acceptedAnswers": [
     "la vasca"
    ],
-   "usage": "Pl.: le vasche",
+   "usage": "pl. le vasche",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -424,12 +471,14 @@
    }
   },
   {
-   "id": "u2-2a-029",
+   "id": "u2-2a-030",
    "target": "il bagno",
    "translations": [
     "das Bad"
    ],
    "page": "173-174",
+   "example": "La vasca è in bagno.",
+   "related": "F le bain",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -441,26 +490,30 @@
    }
   },
   {
-   "id": "u2-2a-030",
+   "id": "u2-2a-031",
    "target": "cercare (-chi-)",
    "translations": [
     "suchen"
    ],
    "page": "173-174",
+   "example": "Cerco il mio cellulare. Dov’è?",
+   "related": "F chercher",
    "acceptedAnswers": [
     "cercare"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
-   "id": "u2-2a-031",
+   "id": "u2-2a-032",
    "target": "incredibile",
    "translations": [
     "unglaublich"
    ],
-   "page": "173-174"
+   "page": "173-174",
+   "related": "E incredible; F incroyable"
   },
   {
-   "id": "u2-2a-032",
+   "id": "u2-2a-033",
    "target": "il salotto",
    "translations": [
     "das Wohnzimmer"
@@ -477,7 +530,7 @@
    }
   },
   {
-   "id": "u2-2a-033",
+   "id": "u2-2a-034",
    "target": "la roba",
    "translations": [
     "das Zeug"
@@ -494,7 +547,7 @@
    }
   },
   {
-   "id": "u2-2a-034",
+   "id": "u2-2a-035",
    "target": "la borsa da calcio",
    "translations": [
     "die Fußballtasche"
@@ -511,37 +564,23 @@
    }
   },
   {
-   "id": "u2-2a-035",
+   "id": "u2-2a-036",
    "target": "accanto a",
    "translations": [
     "neben"
    ],
-   "page": "173-174"
+   "page": "173-174",
+   "example": "Il gatto è accanto al divano."
   },
   {
-   "id": "u2-2a-036",
+   "id": "u2-2a-037",
    "target": "il televisore",
    "translations": [
     "der Fernseher"
    ],
    "page": "173-174",
-   "grammar": {
-    "partOfSpeech": "noun",
-    "article": "il",
-    "gender": "masculine"
-   },
-   "answerPolicy": {
-    "article": "required",
-    "typo": "hint"
-   }
-  },
-  {
-   "id": "u2-2a-037",
-   "target": "il pallone",
-   "translations": [
-    "der Ball"
-   ],
-   "page": "173-174",
+   "example": "Il televisore è in salotto.",
+   "related": "E television",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -554,19 +593,41 @@
   },
   {
    "id": "u2-2a-038",
+   "target": "il pallone",
+   "translations": [
+    "der Ball"
+   ],
+   "page": "173-174",
+   "example": "Il pallone è nella borsa da calcio.",
+   "related": "F le ballon",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-039",
    "target": "sotto",
    "translations": [
     "unter"
    ],
-   "page": "173-174"
+   "page": "173-174",
+   "example": "Il pallone è sotto il tavolo.",
+   "related": "≠ su"
   },
   {
-   "id": "u2-2a-039",
+   "id": "u2-2a-040",
    "target": "i vestiti",
    "translations": [
     "die Kleidung"
    ],
    "page": "173-174",
+   "related": "L vestis",
    "usage": "pl.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -579,21 +640,23 @@
    }
   },
   {
-   "id": "u2-2a-040",
+   "id": "u2-2a-041",
    "target": "l’armadio",
    "translations": [
     "der Schrank"
    ],
    "page": "173-174",
-   "usage": "Pl.: gli armadi"
+   "related": "F l’armoire",
+   "usage": "pl. gli armadi"
   },
   {
-   "id": "u2-2a-041",
+   "id": "u2-2a-042",
    "target": "la rivista",
    "translations": [
     "die Zeitschrift"
    ],
    "page": "173-174",
+   "related": "F la revue",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -605,12 +668,13 @@
    }
   },
   {
-   "id": "u2-2a-042",
+   "id": "u2-2a-043",
    "target": "lo scaffale",
    "translations": [
     "das Regal"
    ],
    "page": "173-174",
+   "example": "Le riviste sono sullo scaffale.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -622,13 +686,14 @@
    }
   },
   {
-   "id": "u2-2a-043",
+   "id": "u2-2a-044",
    "target": "il comò",
    "translations": [
     "die Kommode"
    ],
    "page": "173-174",
-   "usage": "Pl.: i comò",
+   "related": "F la commode",
+   "usage": "pl. i comò",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -640,7 +705,7 @@
    }
   },
   {
-   "id": "u2-2a-044",
+   "id": "u2-2a-045",
    "target": "il rossetto",
    "translations": [
     "der Lippenstift"
@@ -657,7 +722,7 @@
    }
   },
   {
-   "id": "u2-2a-045",
+   "id": "u2-2a-046",
    "target": "così",
    "translations": [
     "so"
@@ -666,7 +731,7 @@
    "usage": "avv."
   },
   {
-   "id": "u2-2a-046",
+   "id": "u2-2a-047",
    "target": "Così non va!",
    "translations": [
     "So läuft das nicht!"
@@ -674,12 +739,13 @@
    "page": "173-174"
   },
   {
-   "id": "u2-2a-047",
+   "id": "u2-2a-048",
    "target": "qualcosa",
    "translations": [
     "etwas"
    ],
-   "page": "173-174"
+   "page": "173-174",
+   "example": "Cerchi qualcosa? – Sì, lo zaino."
   }
  ],
  "catalog": {

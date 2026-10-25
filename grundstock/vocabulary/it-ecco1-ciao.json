@@ -1,0 +1,338 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-ciao",
+ "title": "Ecco più 1 · Ciao! · Ciao!",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Ciao!“ aus Ecco più 1 (Ciao!, Ciao!).",
+ "topics": [
+  "Begrüßung",
+  "Vorstellen",
+  "Sprachen"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Ciao! · Ciao!",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 167-168 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "ciao-001",
+   "target": "Ciao!",
+   "translations": [
+    "Hallo!",
+    "Servus!"
+   ],
+   "page": "167-168",
+   "example": "Ciao, Marco!"
+  },
+  {
+   "id": "ciao-002",
+   "target": "i ragazzi",
+   "translations": [
+    "die Jugendlichen"
+   ],
+   "page": "167-168",
+   "usage": "pl.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "i",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "ciao-003",
+   "target": "mi chiamo",
+   "translations": [
+    "ich heiße"
+   ],
+   "page": "167-168",
+   "example": "Mi chiamo Sofia."
+  },
+  {
+   "id": "ciao-004",
+   "target": "sono",
+   "translations": [
+    "ich bin"
+   ],
+   "page": "167-168",
+   "example": "Sono di Roma."
+  },
+  {
+   "id": "ciao-005",
+   "target": "di",
+   "translations": [
+    "aus (ursprüngliche Herkunft)"
+   ],
+   "page": "167-168",
+   "example": "Siamo di Napoli."
+  },
+  {
+   "id": "ciao-006",
+   "target": "parlo",
+   "translations": [
+    "ich spreche"
+   ],
+   "page": "167-168",
+   "example": "Parlo italiano e tedesco.",
+   "related": "F parler"
+  },
+  {
+   "id": "ciao-007",
+   "target": "l’italiano",
+   "translations": [
+    "Italienisch (Sprache)"
+   ],
+   "page": "167-168",
+   "related": "E Italian; F italien",
+   "usage": "m."
+  },
+  {
+   "id": "ciao-008",
+   "target": "il francese",
+   "translations": [
+    "Französisch (Sprache)"
+   ],
+   "page": "167-168",
+   "related": "E French; F français",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "ciao-009",
+   "target": "e",
+   "translations": [
+    "und"
+   ],
+   "page": "167-168",
+   "related": "F et; L et"
+  },
+  {
+   "id": "ciao-010",
+   "target": "il tedesco",
+   "translations": [
+    "Deutsch (Sprache)"
+   ],
+   "page": "167-168",
+   "example": "Parlo tedesco.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "ciao-011",
+   "target": "l’inglese",
+   "translations": [
+    "Englisch (Sprache)"
+   ],
+   "page": "167-168",
+   "related": "E English",
+   "usage": "m."
+  },
+  {
+   "id": "ciao-012",
+   "target": "Salve!",
+   "translations": [
+    "Hallo!",
+    "Servus!"
+   ],
+   "page": "167-168",
+   "related": "L salve"
+  },
+  {
+   "id": "ciao-013",
+   "target": "il sardo",
+   "translations": [
+    "Sardisch (Sprache)"
+   ],
+   "page": "167-168",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "ciao-014",
+   "target": "Buongiorno!",
+   "translations": [
+    "Guten Tag!",
+    "Grüß Gott!"
+   ],
+   "page": "167-168",
+   "related": "F bonjour",
+   "usage": "Unterscheide: Buongiorno zu Erwachsenen, zum Beispiel zur Lehrkraft – Ciao unter Freunden"
+  },
+  {
+   "id": "ciao-015",
+   "target": "l’arabo",
+   "translations": [
+    "Arabisch (Sprache)"
+   ],
+   "page": "167-168",
+   "related": "F arabe"
+  },
+  {
+   "id": "ciao-016",
+   "target": "tu",
+   "translations": [
+    "du"
+   ],
+   "page": "167-168",
+   "related": "F tu; L tu"
+  },
+  {
+   "id": "ciao-017",
+   "target": "Chi?",
+   "translations": [
+    "Wer?",
+    "Wen?"
+   ],
+   "page": "167-168",
+   "related": "F qui"
+  },
+  {
+   "id": "ciao-018",
+   "target": "Chi sei?",
+   "translations": [
+    "Wer bist du?"
+   ],
+   "page": "167-168",
+   "example": "Chi sei? – Sono Luca."
+  },
+  {
+   "id": "ciao-019",
+   "target": "Come?",
+   "translations": [
+    "Wie?"
+   ],
+   "page": "167-168",
+   "related": "F comment"
+  },
+  {
+   "id": "ciao-020",
+   "target": "Come ti chiami?",
+   "translations": [
+    "Wie heißt du?"
+   ],
+   "page": "167-168",
+   "example": "Come ti chiami? – Mi chiamo Elena."
+  },
+  {
+   "id": "ciao-021",
+   "target": "Di dove?",
+   "translations": [
+    "Woher?"
+   ],
+   "page": "167-168"
+  },
+  {
+   "id": "ciao-022",
+   "target": "Di dove sei?",
+   "translations": [
+    "Woher bist du?"
+   ],
+   "page": "167-168",
+   "example": "Di dove sei? – Sono di Torino."
+  },
+  {
+   "id": "ciao-023",
+   "target": "Che?",
+   "translations": [
+    "Was (für)?",
+    "Welche/r + Subst.?"
+   ],
+   "page": "167-168"
+  },
+  {
+   "id": "ciao-024",
+   "target": "la lingua",
+   "translations": [
+    "die Sprache"
+   ],
+   "page": "167-168",
+   "related": "E language; F la langue; L lingua",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "ciao-025",
+   "target": "parli",
+   "translations": [
+    "du sprichst"
+   ],
+   "page": "167-168"
+  },
+  {
+   "id": "ciao-026",
+   "target": "Che lingue parli?",
+   "translations": [
+    "Welche Sprachen sprichst du?"
+   ],
+   "page": "167-168"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Ciao!",
+   "section": "Ciao!",
+   "pages": "167-168"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Begrüßung",
+   "Vorstellen",
+   "Sprachen"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

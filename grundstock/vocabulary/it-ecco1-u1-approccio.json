@@ -1,0 +1,342 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-u1-approccio",
+ "title": "Ecco più 1 · Unità 1 · Approccio",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Benvenuti a Torino“ aus Ecco più 1 (Unità 1, Approccio).",
+ "topics": [
+  "Stadt",
+  "Vorstellen",
+  "Orte"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Unità 1 · Approccio",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 168-169 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u1-approccio-001",
+   "target": "benvenuto/-a",
+   "translations": [
+    "willkommen"
+   ],
+   "page": "168-169",
+   "related": "F bienvenue"
+  },
+  {
+   "id": "u1-approccio-002",
+   "target": "Ecco …!",
+   "translations": [
+    "Schau(t) …!",
+    "Hier ist …!",
+    "Da sind …!"
+   ],
+   "page": "168-169",
+   "related": "L ecce"
+  },
+  {
+   "id": "u1-approccio-003",
+   "target": "la piazza",
+   "translations": [
+    "der Platz",
+    "die Straße"
+   ],
+   "page": "168-169",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-004",
+   "target": "il centro",
+   "translations": [
+    "das Zentrum"
+   ],
+   "page": "168-169",
+   "example": "Il centro è bello.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-005",
+   "target": "di",
+   "translations": [
+    "von (Genitiv)"
+   ],
+   "page": "168-169",
+   "related": "F de"
+  },
+  {
+   "id": "u1-approccio-006",
+   "target": "il fiume",
+   "translations": [
+    "der Fluss"
+   ],
+   "page": "168-169",
+   "related": "L flumen",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-007",
+   "target": "con",
+   "translations": [
+    "mit"
+   ],
+   "page": "168-169",
+   "example": "Vado con Anna.",
+   "related": "L cum"
+  },
+  {
+   "id": "u1-approccio-008",
+   "target": "il ponte",
+   "translations": [
+    "die Brücke"
+   ],
+   "page": "168-169",
+   "related": "F le pont; L pons",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-009",
+   "target": "l’industria",
+   "translations": [
+    "die Industrie"
+   ],
+   "page": "168-169",
+   "related": "E industry"
+  },
+  {
+   "id": "u1-approccio-010",
+   "target": "è",
+   "translations": [
+    "(er/sie/es) ist"
+   ],
+   "page": "168-169",
+   "usage": "Unterscheide: è – er, sie, es ist; e – und"
+  },
+  {
+   "id": "u1-approccio-011",
+   "target": "importante",
+   "translations": [
+    "wichtig"
+   ],
+   "page": "168-169",
+   "related": "E important"
+  },
+  {
+   "id": "u1-approccio-012",
+   "target": "per",
+   "translations": [
+    "für"
+   ],
+   "page": "168-169",
+   "related": "F pour; L per"
+  },
+  {
+   "id": "u1-approccio-013",
+   "target": "la città",
+   "translations": [
+    "die Stadt"
+   ],
+   "page": "168-169",
+   "related": "E city; L civitas",
+   "usage": "pl. le città",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-014",
+   "target": "il parco",
+   "translations": [
+    "der Park"
+   ],
+   "page": "168-169",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-015",
+   "target": "Bellissimo!",
+   "translations": [
+    "Sehr schön!"
+   ],
+   "page": "168-169"
+  },
+  {
+   "id": "u1-approccio-016",
+   "target": "il simbolo",
+   "translations": [
+    "das Symbol"
+   ],
+   "page": "168-169",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-017",
+   "target": "lo stadio",
+   "translations": [
+    "das Stadion"
+   ],
+   "page": "168-169",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-018",
+   "target": "Forza!",
+   "translations": [
+    "Auf geht’s!",
+    "Nur Mut!"
+   ],
+   "page": "168-169"
+  },
+  {
+   "id": "u1-approccio-019",
+   "target": "l’amico/-a",
+   "translations": [
+    "der/die Freund/-in"
+   ],
+   "page": "168-169",
+   "related": "F l’ami/e"
+  },
+  {
+   "id": "u1-approccio-020",
+   "target": "in",
+   "translations": [
+    "in"
+   ],
+   "page": "168-169",
+   "example": "Abito in Italia."
+  },
+  {
+   "id": "u1-approccio-021",
+   "target": "la via",
+   "translations": [
+    "die Straße"
+   ],
+   "page": "168-169",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-022",
+   "target": "passeggiare",
+   "translations": [
+    "spazieren gehen"
+   ],
+   "page": "168-169",
+   "example": "Passeggiamo nel parco."
+  },
+  {
+   "id": "u1-approccio-023",
+   "target": "qui/qua",
+   "translations": [
+    "hier"
+   ],
+   "page": "168-169",
+   "usage": "avv."
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "Approccio",
+   "pages": "168-169"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Stadt",
+   "Vorstellen",
+   "Orte"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

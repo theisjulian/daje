@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,7 @@
     "das Zimmer"
    ],
    "page": "175-176",
+   "example": "Questa è la mia camera!",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -52,6 +53,7 @@
     "das Bett"
    ],
    "page": "175-176",
+   "related": "F le lit",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -88,10 +90,11 @@
     "fahren"
    ],
    "page": "175-176",
+   "example": "Adesso vado a casa e poi allo stadio.",
    "acceptedAnswers": [
     "andare"
    ],
-   "usage": "unregelmäßig"
+   "usage": "Abc. Das Verb andare entspricht in Bedeutung und Verwendung weitgehend dem englischen to go."
   },
   {
    "id": "u2-2b-005",
@@ -100,7 +103,8 @@
     "das Poster"
    ],
    "page": "175-176",
-   "usage": "Pl.: i poster",
+   "example": "Nella camera c’è un poster di una cantante.",
+   "usage": "pl. i poster",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -118,7 +122,9 @@
     "groß",
     "großartig"
    ],
-   "page": "175-176"
+   "page": "175-176",
+   "example": "Il poster è grande.",
+   "related": "E grand; F grand(e)"
   },
   {
    "id": "u2-2b-007",
@@ -126,7 +132,8 @@
    "translations": [
     "klein"
    ],
-   "page": "175-176"
+   "page": "175-176",
+   "related": "≠ grande"
   },
   {
    "id": "u2-2b-008",
@@ -144,7 +151,7 @@
     "das Foto"
    ],
    "page": "175-176",
-   "usage": "Pl.: le foto",
+   "usage": "pl. le foto",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -161,7 +168,8 @@
    "translations": [
     "das Autogramm"
    ],
-   "page": "175-176"
+   "page": "175-176",
+   "related": "F l’autographe"
   },
   {
    "id": "u2-2b-011",
@@ -170,6 +178,8 @@
     "das Konzert"
    ],
    "page": "175-176",
+   "example": "Il concerto è a Lecce.",
+   "related": "E concert",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -182,12 +192,21 @@
   },
   {
    "id": "u2-2b-012",
-   "target": "lo zio / la zia",
+   "target": "lo zio",
    "translations": [
-    "der Onkel / die Tante"
+    "der Onkel"
    ],
    "page": "175-176",
-   "usage": "Pl.: gli zii / le zie"
+   "usage": "f. la zia; pl. gli zii/le zie",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
   },
   {
    "id": "u2-2b-013",
@@ -197,6 +216,7 @@
     "der Aufseher"
    ],
    "page": "175-176",
+   "related": "L custos",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -214,6 +234,7 @@
     "während"
    ],
    "page": "175-176",
+   "related": "E during",
    "usage": "prep."
   },
   {
@@ -223,6 +244,7 @@
     "immer"
    ],
    "page": "175-176",
+   "related": "L semper",
    "usage": "avv."
   },
   {
@@ -232,7 +254,9 @@
     "hören",
     "fühlen"
    ],
-   "page": "175-176"
+   "page": "175-176",
+   "example": "Sento la musica.",
+   "related": "L sentire"
   },
   {
    "id": "u2-2b-017",
@@ -240,7 +264,8 @@
    "translations": [
     "letzte(r, s)"
    ],
-   "page": "175-176"
+   "page": "175-176",
+   "related": "L ultimus"
   },
   {
    "id": "u2-2b-018",
@@ -249,7 +274,8 @@
     "die Neuigkeit"
    ],
    "page": "175-176",
-   "usage": "Pl.: le novità",
+   "example": "Lui sente sempre le ultime novità.",
+   "usage": "pl. le novità",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -262,12 +288,22 @@
   },
   {
    "id": "u2-2b-019",
-   "target": "il cantante / la cantante",
+   "target": "il cantante",
    "translations": [
-    "der Sänger / die Sängerin"
+    "der Sänger"
    ],
    "page": "175-176",
-   "usage": "Pl.: i cantanti"
+   "related": "▸ la canzone",
+   "usage": "f. la cantante; pl. i cantanti/le cantanti",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
   },
   {
    "id": "u2-2b-020",
@@ -277,16 +313,18 @@
     "kostenlos"
    ],
    "page": "175-176",
+   "example": "Filippo va ai concerti gratis.",
    "usage": "avv."
   },
   {
    "id": "u2-2b-021",
    "target": "davanti a",
    "translations": [
-    "vor"
+    "vor (örtlich)"
    ],
    "page": "175-176",
-   "usage": "örtlich, prep."
+   "related": "F devant",
+   "usage": "prep."
   },
   {
    "id": "u2-2b-022",
@@ -295,7 +333,7 @@
     "der Computer"
    ],
    "page": "175-176",
-   "usage": "Pl.: i computer",
+   "usage": "pl. i computer",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -321,7 +359,8 @@
    "translations": [
     "neu"
    ],
-   "page": "175-176"
+   "page": "175-176",
+   "related": "F nouveau, nouvelle; L novus"
   },
   {
    "id": "u2-2b-025",
@@ -330,6 +369,7 @@
     "das Modell"
    ],
    "page": "175-176",
+   "example": "Il computer è tutto nuovo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -345,10 +385,10 @@
    "target": "me",
    "translations": [
     "mich",
-    "mir"
+    "mir (nach Präp.)"
    ],
    "page": "175-176",
-   "usage": "nach Präposition"
+   "example": "Per me la musica è importante."
   },
   {
    "id": "u2-2b-027",
@@ -357,6 +397,8 @@
     "sehr"
    ],
    "page": "175-176",
+   "example": "Il computer è molto importante.",
+   "related": "L multum",
    "usage": "avv."
   },
   {
@@ -374,7 +416,8 @@
    "translations": [
     "nützlich"
    ],
-   "page": "175-176"
+   "page": "175-176",
+   "related": "F utile; L utilis"
   },
   {
    "id": "u2-2b-030",
@@ -383,6 +426,7 @@
     "fast"
    ],
    "page": "175-176",
+   "example": "Sul computer ho quasi tutto.",
    "usage": "avv."
   },
   {
@@ -392,7 +436,8 @@
     "das Videospiel"
    ],
    "page": "175-176",
-   "usage": "Pl.: i videogiochi",
+   "example": "I miei videogiochi sono sul computer.",
+   "usage": "pl. i videogiochi",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -410,6 +455,8 @@
     "das Buch"
    ],
    "page": "175-176",
+   "example": "I libri sono sullo scaffale.",
+   "related": "F le livre; L liber",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -425,9 +472,10 @@
    "target": "la memoria",
    "translations": [
     "die Erinnerung",
-    "der Speicherplatz"
+    "hier: der Speicherplatz"
    ],
    "page": "175-176",
+   "related": "E memory; F la mémoire",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -445,6 +493,8 @@
     "zu (sehr/viel)"
    ],
    "page": "175-176",
+   "example": "Ho tutto sul computer, ma la memoria è sempre troppo piccola.",
+   "related": "F trop",
    "usage": "avv."
   },
   {
@@ -454,6 +504,7 @@
     "die Wand"
    ],
    "page": "175-176",
+   "example": "Alla parete c’è un poster.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -471,6 +522,7 @@
     "der Strand"
    ],
    "page": "175-176",
+   "example": "Nella foto c’è la spiaggia di Pescoluse.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -496,7 +548,8 @@
     "alt"
    ],
    "page": "175-176",
-   "usage": "Pl. m.: vecchi"
+   "related": "≠ nuovo/-a; F vieux, vieille",
+   "usage": "pl. vecchi m."
   },
   {
    "id": "u2-2b-039",
@@ -506,6 +559,7 @@
     "der Urlaub"
    ],
    "page": "175-176",
+   "related": "E vacation; F les vacances",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -522,7 +576,9 @@
    "translations": [
     "schlafen"
    ],
-   "page": "175-176"
+   "page": "175-176",
+   "example": "Dormo nel letto.",
+   "related": "F dormir; L dormire"
   },
   {
    "id": "u2-2b-041",
@@ -531,7 +587,8 @@
     "folgen",
     "verfolgen"
    ],
-   "page": "175-176"
+   "page": "175-176",
+   "related": "L sequi"
   },
   {
    "id": "u2-2b-042",
@@ -540,6 +597,7 @@
     "die Nachricht"
    ],
    "page": "175-176",
+   "example": "Greta non ha notizie degli amici.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -557,7 +615,8 @@
     "die Idee"
    ],
    "page": "175-176",
-   "usage": "Pl.: le idee"
+   "example": "Ho un’idea!",
+   "usage": "pl. le idee"
   },
   {
    "id": "u2-2b-044",
@@ -566,7 +625,9 @@
     "zuhören",
     "anhören"
    ],
-   "page": "175-176"
+   "page": "175-176",
+   "example": "Mi piace ascoltare musica.",
+   "usage": "Das Verb ascoltare steht im Italienischen nur mit direktem Objekt ohne Präposition: ascoltare qualcosa/qualcuno – etw. anhören, jmd. zuhören. Vergleiche: vedere – to see; guardare – to look; sentire – to hear; ascoltare – to listen to. ascoltare musica = Musik anhören (bewusst und absichtlich); sentire musica = Musik hören (unabsichtlich akustisch wahrnehmen)"
   },
   {
    "id": "u2-2b-045",
@@ -576,10 +637,12 @@
     "tun"
    ],
    "page": "175-176",
+   "example": "Non mi piace fare i compiti.",
+   "related": "F faire; L facere",
    "acceptedAnswers": [
     "fare"
    ],
-   "usage": "unregelmäßig"
+   "usage": "Abc"
   },
   {
    "id": "u2-2b-046",
@@ -597,7 +660,8 @@
    "translations": [
     "online sein"
    ],
-   "page": "175-176"
+   "page": "175-176",
+   "usage": "Abc"
   },
   {
    "id": "u2-2b-048",
@@ -607,6 +671,7 @@
     "das Schicksal"
    ],
    "page": "175-176",
+   "related": "L fortuna",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -624,10 +689,12 @@
     "etw. spielen"
    ],
    "page": "175-176",
+   "example": "Filippo gioca a calcio.",
+   "related": "F jouer à …",
    "acceptedAnswers": [
     "giocare a qs"
    ],
-   "usage": "unregelmäßig"
+   "usage": "Abc"
   },
   {
    "id": "u2-2b-050",

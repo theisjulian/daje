@@ -24,7 +24,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -469,7 +469,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -870,6 +870,415 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "vocabulary",
+  "id": "it-ecco1-ciao",
+  "title": "Ecco più 1 · Ciao! · Ciao!",
+  "language": "it",
+  "level": "A1",
+  "description": "Wortschatz zu „Ciao!“ aus Ecco più 1 (Ciao!, Ciao!).",
+  "topics": [
+   "Begrüßung",
+   "Vorstellen",
+   "Sprachen"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 167-168 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Ciao!",
+    "section": "Ciao!",
+    "pages": "167-168"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "themes": [
+    "Begrüßung",
+    "Vorstellen",
+    "Sprachen"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 1 (Cornelsen)",
+  "section": "Ciao! · Ciao!",
+  "entries": [
+   {
+    "id": "ciao-001",
+    "target": "Ciao!",
+    "translations": [
+     "Hallo!",
+     "Servus!"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ciao, Marco!",
+    "definition": "",
+    "page": "167-168"
+   },
+   {
+    "id": "ciao-002",
+    "target": "i ragazzi",
+    "translations": [
+     "die Jugendlichen"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "pl.",
+    "page": "167-168",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "i"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "ciao-003",
+    "target": "mi chiamo",
+    "translations": [
+     "ich heiße"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mi chiamo Sofia.",
+    "definition": "",
+    "page": "167-168"
+   },
+   {
+    "id": "ciao-004",
+    "target": "sono",
+    "translations": [
+     "ich bin"
+    ],
+    "acceptedAnswers": [],
+    "example": "Sono di Roma.",
+    "definition": "",
+    "page": "167-168"
+   },
+   {
+    "id": "ciao-005",
+    "target": "di",
+    "translations": [
+     "aus (ursprüngliche Herkunft)"
+    ],
+    "acceptedAnswers": [],
+    "example": "Siamo di Napoli.",
+    "definition": "",
+    "page": "167-168"
+   },
+   {
+    "id": "ciao-006",
+    "target": "parlo",
+    "translations": [
+     "ich spreche"
+    ],
+    "acceptedAnswers": [],
+    "example": "Parlo italiano e tedesco.",
+    "definition": "",
+    "page": "167-168",
+    "related": "F parler"
+   },
+   {
+    "id": "ciao-007",
+    "target": "l’italiano",
+    "translations": [
+     "Italienisch (Sprache)"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "m.",
+    "page": "167-168",
+    "related": "E Italian; F italien"
+   },
+   {
+    "id": "ciao-008",
+    "target": "il francese",
+    "translations": [
+     "Französisch (Sprache)"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "167-168",
+    "related": "E French; F français",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "ciao-009",
+    "target": "e",
+    "translations": [
+     "und"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "167-168",
+    "related": "F et; L et"
+   },
+   {
+    "id": "ciao-010",
+    "target": "il tedesco",
+    "translations": [
+     "Deutsch (Sprache)"
+    ],
+    "acceptedAnswers": [],
+    "example": "Parlo tedesco.",
+    "definition": "",
+    "page": "167-168",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "ciao-011",
+    "target": "l’inglese",
+    "translations": [
+     "Englisch (Sprache)"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "m.",
+    "page": "167-168",
+    "related": "E English"
+   },
+   {
+    "id": "ciao-012",
+    "target": "Salve!",
+    "translations": [
+     "Hallo!",
+     "Servus!"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "167-168",
+    "related": "L salve"
+   },
+   {
+    "id": "ciao-013",
+    "target": "il sardo",
+    "translations": [
+     "Sardisch (Sprache)"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "167-168",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "ciao-014",
+    "target": "Buongiorno!",
+    "translations": [
+     "Guten Tag!",
+     "Grüß Gott!"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "Unterscheide: Buongiorno zu Erwachsenen, zum Beispiel zur Lehrkraft – Ciao unter Freunden",
+    "page": "167-168",
+    "related": "F bonjour"
+   },
+   {
+    "id": "ciao-015",
+    "target": "l’arabo",
+    "translations": [
+     "Arabisch (Sprache)"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "167-168",
+    "related": "F arabe"
+   },
+   {
+    "id": "ciao-016",
+    "target": "tu",
+    "translations": [
+     "du"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "167-168",
+    "related": "F tu; L tu"
+   },
+   {
+    "id": "ciao-017",
+    "target": "Chi?",
+    "translations": [
+     "Wer?",
+     "Wen?"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "167-168",
+    "related": "F qui"
+   },
+   {
+    "id": "ciao-018",
+    "target": "Chi sei?",
+    "translations": [
+     "Wer bist du?"
+    ],
+    "acceptedAnswers": [],
+    "example": "Chi sei? – Sono Luca.",
+    "definition": "",
+    "page": "167-168"
+   },
+   {
+    "id": "ciao-019",
+    "target": "Come?",
+    "translations": [
+     "Wie?"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "167-168",
+    "related": "F comment"
+   },
+   {
+    "id": "ciao-020",
+    "target": "Come ti chiami?",
+    "translations": [
+     "Wie heißt du?"
+    ],
+    "acceptedAnswers": [],
+    "example": "Come ti chiami? – Mi chiamo Elena.",
+    "definition": "",
+    "page": "167-168"
+   },
+   {
+    "id": "ciao-021",
+    "target": "Di dove?",
+    "translations": [
+     "Woher?"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "167-168"
+   },
+   {
+    "id": "ciao-022",
+    "target": "Di dove sei?",
+    "translations": [
+     "Woher bist du?"
+    ],
+    "acceptedAnswers": [],
+    "example": "Di dove sei? – Sono di Torino.",
+    "definition": "",
+    "page": "167-168"
+   },
+   {
+    "id": "ciao-023",
+    "target": "Che?",
+    "translations": [
+     "Was (für)?",
+     "Welche/r + Subst.?"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "167-168"
+   },
+   {
+    "id": "ciao-024",
+    "target": "la lingua",
+    "translations": [
+     "die Sprache"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "167-168",
+    "related": "E language; F la langue; L lingua",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "ciao-025",
+    "target": "parli",
+    "translations": [
+     "du sprichst"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "167-168"
+   },
+   {
+    "id": "ciao-026",
+    "target": "Che lingue parli?",
+    "translations": [
+     "Welche Sprachen sprichst du?"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "167-168"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
   "id": "it-ecco1-m1-giro-ditalia",
   "title": "Ecco più 1 · Modulo · Giro d’Italia",
   "language": "it",
@@ -889,7 +1298,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -928,7 +1337,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "199"
+    "page": "199",
+    "related": "≠ buongiorno; ▸ buono/-a, la sera"
    },
    {
     "id": "m1-giro-ditalia-002",
@@ -957,8 +1367,9 @@ const STOCK_PACKAGES = [
      "die Provinz"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Rivarolo Canavese è in provincia di Torino.",
     "definition": "",
+    "usage": "Eine italienische Provinz entspricht in etwa einem deutschen Landkreis.",
     "page": "199",
     "grammar": {
      "partOfSpeech": "noun",
@@ -977,9 +1388,12 @@ const STOCK_PACKAGES = [
      "live"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Seguo dal vivo il Giro d’Italia.",
     "definition": "",
     "usage": "avv.",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "199"
    },
    {
@@ -992,7 +1406,11 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "m.",
-    "page": "199"
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "199",
+    "related": "▸ arrivare; E arrival; F l’arrivée"
    },
    {
     "id": "m1-giro-ditalia-006",
@@ -1001,8 +1419,11 @@ const STOCK_PACKAGES = [
      "die Etappe"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il Giro d’Italia ha molte tappe.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "199",
     "grammar": {
      "partOfSpeech": "noun",
@@ -1021,8 +1442,11 @@ const STOCK_PACKAGES = [
      "die Menschenmenge"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La folla sta seguendo la partita nello stadio.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "199",
     "grammar": {
      "partOfSpeech": "noun",
@@ -1036,18 +1460,45 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "m1-giro-ditalia-008",
-    "target": "il/la ciclista",
+    "target": "aspettare",
+    "translations": [
+     "(er)warten"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "199"
+   },
+   {
+    "id": "m1-giro-ditalia-009",
+    "target": "il ciclista",
     "translations": [
      "der/die Fahrradfahrer/-in"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: i ciclisti/-e",
-    "page": "199"
+    "usage": "pl. i ciclisti/-e",
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "199",
+    "related": "▸ la bicicletta; E cyclist; F le/la cycliste",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
    },
    {
-    "id": "m1-giro-ditalia-009",
+    "id": "m1-giro-ditalia-010",
     "target": "al momento",
     "translations": [
      "momentan"
@@ -1055,21 +1506,27 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "199"
    },
    {
-    "id": "m1-giro-ditalia-010",
+    "id": "m1-giro-ditalia-011",
     "target": "nessuno/-a",
     "translations": [
      "niemand"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Dove sono? Non vedo nessuno.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "199"
    },
    {
-    "id": "m1-giro-ditalia-011",
+    "id": "m1-giro-ditalia-012",
     "target": "non … mai",
     "translations": [
      "nie(mals)"
@@ -1077,10 +1534,13 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "199"
    },
    {
-    "id": "m1-giro-ditalia-012",
+    "id": "m1-giro-ditalia-013",
     "target": "ci sentiamo",
     "translations": [
      "wir hören uns"
@@ -1088,10 +1548,13 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "199"
    },
    {
-    "id": "m1-giro-ditalia-013",
+    "id": "m1-giro-ditalia-014",
     "target": "se no",
     "translations": [
      "ansonsten"
@@ -1099,32 +1562,42 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "199"
-   },
-   {
-    "id": "m1-giro-ditalia-014",
-    "target": "spostarsi",
-    "translations": [
-     "wegbewegen",
-     "Platz machen"
+    "tags": [
+     "fakultativ"
     ],
-    "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
-    "usage": "hier: Platz machen",
     "page": "199"
    },
    {
     "id": "m1-giro-ditalia-015",
+    "target": "spostarsi",
+    "translations": [
+     "wegbewegen",
+     "hier: Platz machen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non li vedo. Puoi spostarti un po’?",
+    "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "199",
+    "related": "▸ il posto"
+   },
+   {
+    "id": "m1-giro-ditalia-016",
     "target": "più",
     "translations": [
      "mehr"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Dov’è Anna? Non la vedo più.",
     "definition": "",
     "usage": "avv.",
-    "page": "199"
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "199",
+    "related": "F plus"
    }
   ]
  },
@@ -1152,7 +1625,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -1192,7 +1665,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200",
+    "related": "E culture; F culture",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -1211,9 +1688,13 @@ const STOCK_PACKAGES = [
      "halten für"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il prof considera Marco un bravo ragazzo.",
     "definition": "",
-    "page": "200"
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "200",
+    "related": "E to consider; F considérer"
    },
    {
     "id": "m2-arte-cultura-scienze-003",
@@ -1222,8 +1703,11 @@ const STOCK_PACKAGES = [
      "deshalb"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Sono stanco, per questo stasera non vengo.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200"
    },
    {
@@ -1233,8 +1717,11 @@ const STOCK_PACKAGES = [
      "reisen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mi piace viaggiare e vedere il mondo.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200"
    },
    {
@@ -1244,8 +1731,11 @@ const STOCK_PACKAGES = [
      "das Jenseits"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il libro di Dante parla di un viaggio nell’Aldilà.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200"
    },
    {
@@ -1256,9 +1746,12 @@ const STOCK_PACKAGES = [
      "die Epoche"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mia nonna ha libri di molte epoche.",
     "definition": "",
-    "usage": "Pl.: le epoche",
+    "usage": "pl. le epoche",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200"
    },
    {
@@ -1271,7 +1764,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "200"
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "200",
+    "related": "E intelligent; F intelligent/-e"
    },
    {
     "id": "m2-arte-cultura-scienze-008",
@@ -1280,9 +1777,13 @@ const STOCK_PACKAGES = [
      "aktiv"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A Luca piace essere attivo e fare sport.",
     "definition": "",
-    "page": "200"
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "200",
+    "related": "E active"
    },
    {
     "id": "m2-arte-cultura-scienze-009",
@@ -1291,8 +1792,11 @@ const STOCK_PACKAGES = [
      "unter anderem"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Oggi tra l’altro devo fare la spesa.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200"
    },
    {
@@ -1302,8 +1806,11 @@ const STOCK_PACKAGES = [
      "die 1-Euro-Münze"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Per comprare il biglietto devi avere monete.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200",
     "grammar": {
      "partOfSpeech": "noun",
@@ -1322,8 +1829,11 @@ const STOCK_PACKAGES = [
      "geboren werden"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Leonardo è nato nel 1452.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200"
    },
    {
@@ -1333,9 +1843,13 @@ const STOCK_PACKAGES = [
      "berühmt"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ligabue è un cantante famoso.",
     "definition": "",
-    "page": "200"
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "200",
+    "related": "E famous"
    },
    {
     "id": "m2-arte-cultura-scienze-013",
@@ -1345,8 +1859,11 @@ const STOCK_PACKAGES = [
      "das Bild"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Durante la lezione d’arte Mia fa un bel disegno.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200",
     "grammar": {
      "partOfSpeech": "noun",
@@ -1365,10 +1882,14 @@ const STOCK_PACKAGES = [
      "das Genie"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Non devi essere un genio per capirlo.",
     "definition": "",
-    "usage": "Pl.: i geni",
+    "usage": "pl. i geni",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200",
+    "related": "E genius",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -1387,8 +1908,11 @@ const STOCK_PACKAGES = [
      "das Bild"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mi piacciono i dipinti di Van Gogh.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200",
     "grammar": {
      "partOfSpeech": "noun",
@@ -1407,8 +1931,11 @@ const STOCK_PACKAGES = [
      "aufbewahren"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mio nonno conserva tutte le foto di famiglia.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200"
    },
    {
@@ -1418,8 +1945,11 @@ const STOCK_PACKAGES = [
      "ungefähr"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "È presto, sono circa le 7.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200"
    },
    {
@@ -1430,9 +1960,12 @@ const STOCK_PACKAGES = [
      "die Aufzeichnungen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho bisogno dei miei appunti per fare il compito.",
     "definition": "",
     "usage": "pl.",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200",
     "grammar": {
      "partOfSpeech": "noun",
@@ -1453,7 +1986,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "200"
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "200",
+    "related": "E helicopter; F l’hélicoptère"
    },
    {
     "id": "m2-arte-cultura-scienze-020",
@@ -1462,9 +1999,12 @@ const STOCK_PACKAGES = [
      "alle"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Alla festa sono venuti tutti gli amici.",
     "definition": "",
     "usage": "pl.",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200"
    },
    {
@@ -1474,9 +2014,13 @@ const STOCK_PACKAGES = [
      "das Lächeln"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Questo ragazzo ha un bel sorriso.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200",
+    "related": "F sourire",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -1494,8 +2038,11 @@ const STOCK_PACKAGES = [
      "geheimnisvoll"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Laura mi ha raccontato una storia misteriosa.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200"
    },
    {
@@ -1505,9 +2052,13 @@ const STOCK_PACKAGES = [
      "das Museum"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La domenica siamo andati al museo.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200",
+    "related": "E museum",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -1522,12 +2073,16 @@ const STOCK_PACKAGES = [
     "id": "m2-arte-cultura-scienze-024",
     "target": "l’olandese",
     "translations": [
-     "der Holländer / die Holländerin"
+     "der Holländer",
+     "die Holländerin"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Alla partita di calcio sono venuti molti olandesi.",
     "definition": "",
     "usage": "m./f.",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200"
    },
    {
@@ -1541,7 +2096,12 @@ const STOCK_PACKAGES = [
     ],
     "example": "",
     "definition": "",
-    "page": "200"
+    "usage": "Abc",
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "200",
+    "related": "F construire; L struere"
    },
    {
     "id": "m2-arte-cultura-scienze-026",
@@ -1550,8 +2110,11 @@ const STOCK_PACKAGES = [
      "das Fernrohr"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Quando va al mare, mio nonno porta il cannocchiale.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200",
     "grammar": {
      "partOfSpeech": "noun",
@@ -1570,8 +2133,11 @@ const STOCK_PACKAGES = [
      "die Kopie"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Non è la vera Mona Lisa, è solo una copia.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200",
     "grammar": {
      "partOfSpeech": "noun",
@@ -1590,8 +2156,11 @@ const STOCK_PACKAGES = [
      "die Hilfe"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho bisogno di aiuto con i compiti.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200"
    },
    {
@@ -1602,9 +2171,13 @@ const STOCK_PACKAGES = [
      "das Weltall"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La terra non è al centro dell’universo.",
     "definition": "",
-    "page": "200"
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "200",
+    "related": "E universe"
    },
    {
     "id": "m2-arte-cultura-scienze-030",
@@ -1615,6 +2188,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200",
     "grammar": {
      "partOfSpeech": "noun",
@@ -1635,6 +2211,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200"
    },
    {
@@ -1644,8 +2223,11 @@ const STOCK_PACKAGES = [
      "die Nationalhymne"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Sai cantare l’inno nazionale italiano?",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200"
    },
    {
@@ -1655,19 +2237,26 @@ const STOCK_PACKAGES = [
      "offiziell"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Qui la lingua ufficiale è l’inglese.",
     "definition": "",
-    "page": "200"
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "200",
+    "related": "E official"
    },
    {
     "id": "m2-arte-cultura-scienze-034",
     "target": "l’opera",
     "translations": [
-     "die Oper"
+     "Oper"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "«La Traviata» è un’opera di Verdi.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200"
    },
    {
@@ -1679,7 +2268,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200",
+    "related": "E success; F succès",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -1692,14 +2285,27 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "m2-arte-cultura-scienze-036",
-    "target": "lo scrittore / la scrittrice",
+    "target": "lo scrittore",
     "translations": [
-     "der Schriftsteller / die Schriftstellerin"
+     "der/die Schriftsteller/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Hai letto qualcosa di questo scrittore?",
     "definition": "",
-    "page": "200"
+    "usage": "f. la scrittrice",
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "200",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "lo"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
    },
    {
     "id": "m2-arte-cultura-scienze-037",
@@ -1709,8 +2315,11 @@ const STOCK_PACKAGES = [
      "das Libretto"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Solera ha scritto il libretto per «Nabucco».",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "200",
     "grammar": {
      "partOfSpeech": "noun",
@@ -1748,7 +2357,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -1788,7 +2397,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "201"
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "201",
+    "related": "E for example; F par exemple"
    },
    {
     "id": "m3-la-toscana-002",
@@ -1797,8 +2410,11 @@ const STOCK_PACKAGES = [
      "der Dom"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A Milano avete visitato il duomo?",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201",
     "grammar": {
      "partOfSpeech": "noun",
@@ -1817,8 +2433,11 @@ const STOCK_PACKAGES = [
      "die Kuppel"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La cupola è alta e molto grande.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201",
     "grammar": {
      "partOfSpeech": "noun",
@@ -1838,9 +2457,13 @@ const STOCK_PACKAGES = [
      "die Besichtigung"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Penso spesso alla nostra visita a Torino.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201",
+    "related": "E visit",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -1858,8 +2481,11 @@ const STOCK_PACKAGES = [
      "normalerweise"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Normalmente la prima lezione comincia alle 8.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201"
    },
    {
@@ -1871,9 +2497,12 @@ const STOCK_PACKAGES = [
      "verlieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Oggi Laura ha perso il treno.",
     "definition": "",
-    "usage": "Partizip: perso",
+    "usage": "p.p. perso",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201"
    },
    {
@@ -1883,9 +2512,12 @@ const STOCK_PACKAGES = [
      "besonders"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mia nonna è una donna molto particolare.",
     "definition": "",
     "usage": "agg.",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201"
    },
    {
@@ -1895,8 +2527,11 @@ const STOCK_PACKAGES = [
      "je(mals)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Voi siete mai andati a un concerto di Liga?",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201"
    },
    {
@@ -1907,9 +2542,12 @@ const STOCK_PACKAGES = [
      "das Andenken"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho portato dei souvenir alla mia famiglia.",
     "definition": "",
-    "usage": "Pl.: i souvenir",
+    "usage": "pl. i souvenir",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201",
     "grammar": {
      "partOfSpeech": "noun",
@@ -1930,18 +2568,35 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201"
    },
    {
     "id": "m3-la-toscana-011",
-    "target": "il/la turista",
+    "target": "il turista",
     "translations": [
-     "der Tourist / die Touristin"
+     "der/die Tourist/-in"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A Roma ci sono tanti turisti.",
     "definition": "",
-    "page": "201"
+    "usage": "f. la turista",
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "201",
+    "related": "E tourist; F touriste",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
    },
    {
     "id": "m3-la-toscana-012",
@@ -1950,9 +2605,13 @@ const STOCK_PACKAGES = [
      "der Garten"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Davanti alla casa c’è un bel giardino.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201",
+    "related": "F jardin",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -1970,9 +2629,13 @@ const STOCK_PACKAGES = [
      "der Turm"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Questa torre è molto alta.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201",
+    "related": "F tour",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -1991,8 +2654,11 @@ const STOCK_PACKAGES = [
      "tatsächlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Marco è già tornato. Infatti lo vedo oggi.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201"
    },
    {
@@ -2002,8 +2668,11 @@ const STOCK_PACKAGES = [
      "der Glockenturm"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A Pisa siamo saliti sul campanile.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201",
     "grammar": {
      "partOfSpeech": "noun",
@@ -2026,7 +2695,12 @@ const STOCK_PACKAGES = [
     ],
     "example": "",
     "definition": "",
-    "page": "201"
+    "usage": "Abc",
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "201",
+    "related": "E pay; F payer"
    },
    {
     "id": "m3-la-toscana-017",
@@ -2035,8 +2709,11 @@ const STOCK_PACKAGES = [
      "der Karneval"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Domani vado a una festa di carnevale.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201",
     "grammar": {
      "partOfSpeech": "noun",
@@ -2055,8 +2732,11 @@ const STOCK_PACKAGES = [
      "der Festzug"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Oggi un grande corteo parte da Piazza Duomo.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201",
     "grammar": {
      "partOfSpeech": "noun",
@@ -2075,8 +2755,12 @@ const STOCK_PACKAGES = [
      "sich über jdn lustig machen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Luca prende in giro suo fratello.",
     "definition": "",
+    "usage": "Abc",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201"
    },
    {
@@ -2086,8 +2770,11 @@ const STOCK_PACKAGES = [
      "früher oder später"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Prima o poi voglio visitare anche Roma.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201"
    },
    {
@@ -2099,7 +2786,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201",
+    "related": "F tranquillité",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -2119,8 +2810,12 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: i paesaggi",
+    "usage": "pl. i paesaggi",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201",
+    "related": "F paysage",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -2138,9 +2833,13 @@ const STOCK_PACKAGES = [
      "bestaunen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A Torino ammiro il parco.",
     "definition": "",
-    "page": "201"
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "201",
+    "related": "E to admire; L admirari"
    },
    {
     "id": "m3-la-toscana-024",
@@ -2151,7 +2850,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201",
+    "related": "E wine; F vin; L vinum",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -2170,9 +2873,13 @@ const STOCK_PACKAGES = [
      "die (Jugend-)Herberge"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Gli alberghi costano troppo. Abbiamo cercato un ostello.",
     "definition": "",
-    "page": "201"
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "201",
+    "related": "E hostel"
    },
    {
     "id": "m3-la-toscana-026",
@@ -2183,8 +2890,11 @@ const STOCK_PACKAGES = [
      "hinaus"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Oggi andiamo fuori Torino per vedere i nonni.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201"
    },
    {
@@ -2194,8 +2904,11 @@ const STOCK_PACKAGES = [
      "an deiner Stelle"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Al posto tuo andrei a casa. È già tardi.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201"
    },
    {
@@ -2205,9 +2918,13 @@ const STOCK_PACKAGES = [
      "das Dorf"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Luca abita in un paese vicino a Torino.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201",
+    "related": "≠ città",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -2244,7 +2961,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -2283,8 +3000,11 @@ const STOCK_PACKAGES = [
      "so lala"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ieri mia nonna è stata male. Oggi sta così così.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202"
    },
    {
@@ -2296,6 +3016,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202"
    },
    {
@@ -2307,6 +3030,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -2327,6 +3053,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -2342,12 +3071,14 @@ const STOCK_PACKAGES = [
     "id": "m4-incontro-con-liga-005",
     "target": "la giornata",
     "translations": [
-     "der Tag"
+     "der Tag (Verlauf)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Abbiamo passato una bella giornata.",
     "definition": "",
-    "usage": "im Verlauf",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -2366,34 +3097,59 @@ const STOCK_PACKAGES = [
      "das Treffen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Oggi abbiamo un incontro con il nostro prof.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202"
    },
    {
     "id": "m4-incontro-con-liga-007",
+    "target": "infatti",
+    "translations": [
+     "nämlich",
+     "tatsächlich"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "201-202",
+    "related": "E in fact; F en fait"
+   },
+   {
+    "id": "m4-incontro-con-liga-008",
     "target": "più di",
     "translations": [
      "mehr als"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho invitato più di 20 amici.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202"
    },
    {
-    "id": "m4-incontro-con-liga-008",
+    "id": "m4-incontro-con-liga-009",
     "target": "qualcuno",
     "translations": [
      "jemand"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Qualcuno di voi ha visto il mio zaino?",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202"
    },
    {
-    "id": "m4-incontro-con-liga-009",
+    "id": "m4-incontro-con-liga-010",
     "target": "Non ci credo!",
     "translations": [
      "Das glaube ich nicht!"
@@ -2401,55 +3157,71 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202"
    },
    {
-    "id": "m4-incontro-con-liga-010",
+    "id": "m4-incontro-con-liga-011",
     "target": "invidiare",
     "translations": [
      "beneiden"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Vai al concerto di Ligabue? Come ti invidio!",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202"
    },
    {
-    "id": "m4-incontro-con-liga-011",
+    "id": "m4-incontro-con-liga-012",
     "target": "annoiarsi",
     "translations": [
      "sich langweilen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Senza gli amici Lara si annoia.",
     "definition": "",
-    "page": "201-202"
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "201-202",
+    "related": "F s’ennuyer"
    },
    {
-    "id": "m4-incontro-con-liga-012",
+    "id": "m4-incontro-con-liga-013",
     "target": "calmarsi",
     "translations": [
      "sich beruhigen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Perché sei così nervoso? Devi calmarti!",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202"
    },
    {
-    "id": "m4-incontro-con-liga-013",
+    "id": "m4-incontro-con-liga-014",
     "target": "apposta per",
     "translations": [
      "nur",
      "extra für jdn"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho comprato una torta apposta per te.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202"
    },
    {
-    "id": "m4-incontro-con-liga-014",
+    "id": "m4-incontro-con-liga-015",
     "target": "Roba da matti!",
     "translations": [
      "Ich werde verrückt!"
@@ -2457,73 +3229,94 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202"
    },
    {
-    "id": "m4-incontro-con-liga-015",
+    "id": "m4-incontro-con-liga-016",
     "target": "toccare",
     "translations": [
      "dran sein",
      "an der Reihe sein"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Quando è toccato a me, ho risposto.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202"
    },
    {
-    "id": "m4-incontro-con-liga-016",
+    "id": "m4-incontro-con-liga-017",
     "target": "Mi dia …",
     "translations": [
      "Geben Sie mir …"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mi dia sette panini, per favore.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202"
    },
    {
-    "id": "m4-incontro-con-liga-017",
+    "id": "m4-incontro-con-liga-018",
     "target": "darsi del tu",
     "translations": [
      "sich duzen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "I nostri prof ci danno del tu.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202"
    },
    {
-    "id": "m4-incontro-con-liga-018",
+    "id": "m4-incontro-con-liga-019",
     "target": "darsi del Lei",
     "translations": [
      "sich siezen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Non conosco bene tua zia. Perciò le do del Lei.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202"
    },
    {
-    "id": "m4-incontro-con-liga-019",
+    "id": "m4-incontro-con-liga-020",
     "target": "bastare",
     "translations": [
      "genügen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ci bastano due giorni per riposarci.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202"
    },
    {
-    "id": "m4-incontro-con-liga-020",
+    "id": "m4-incontro-con-liga-021",
     "target": "il chiasso",
     "translations": [
      "der Lärm"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "I ragazzi fanno chiasso davanti al bar.",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -2536,14 +3329,42 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "m4-incontro-con-liga-021",
+    "id": "m4-incontro-con-liga-022",
     "target": "la sala",
     "translations": [
      "der Saal"
     ],
     "acceptedAnswers": [],
+    "example": "I ragazzi entrano nella sala.",
+    "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "201-202",
+    "related": "F salle",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "m4-incontro-con-liga-023",
+    "target": "la metà di",
+    "translations": [
+     "die Hälfte von (½)"
+    ],
+    "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "usage": "Bruchzahlen: un terzo di = ein Drittel von (⅓); un quarto di = ein Viertel von (¼). Unterscheide: la metà = die Hälfte (sostantivo); mezzo/-a = halb (aggettivo)",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "201-202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -2554,6 +3375,1650 @@ const STOCK_PACKAGES = [
      "article": "required",
      "typo": "hint"
     }
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco1-u1-1a",
+  "title": "Ecco più 1 · Unità 1 · 1A",
+  "language": "it",
+  "level": "A1",
+  "description": "Wortschatz zu „Torino, via Principe Amedeo“ aus Ecco più 1 (Unità 1, 1A).",
+  "topics": [
+   "Wohnen",
+   "Vorstellen",
+   "Alltag"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 169-170 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "1A",
+    "pages": "169-170"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "themes": [
+    "Wohnen",
+    "Vorstellen",
+    "Alltag"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 1 (Cornelsen)",
+  "section": "Unità 1 · 1A",
+  "entries": [
+   {
+    "id": "u1-1a-001",
+    "target": "abitare",
+    "translations": [
+     "wohnen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abito a Milano.",
+    "definition": "",
+    "page": "169-170",
+    "related": "F habiter; L habitare"
+   },
+   {
+    "id": "u1-1a-002",
+    "target": "a",
+    "translations": [
+     "in, an, bei"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170",
+    "related": "F à; L ad"
+   },
+   {
+    "id": "u1-1a-003",
+    "target": "lì/là",
+    "translations": [
+     "da, dort"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "avv.",
+    "page": "169-170",
+    "related": "≠ qui/qua"
+   },
+   {
+    "id": "u1-1a-004",
+    "target": "incontrare",
+    "translations": [
+     "treffen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Incontro un’amica in centro.",
+    "definition": "",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-005",
+    "target": "il/la ragazzo/-a",
+    "translations": [
+     "der Junge/Bub",
+     "das Mädchen"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-006",
+    "target": "adesso",
+    "translations": [
+     "jetzt"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "avv.",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-007",
+    "target": "sì",
+    "translations": [
+     "ja"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170",
+    "related": "≠ no"
+   },
+   {
+    "id": "u1-1a-008",
+    "target": "essere",
+    "translations": [
+     "sein"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "Abc",
+    "page": "169-170",
+    "related": "F être; L esse"
+   },
+   {
+    "id": "u1-1a-009",
+    "target": "Piacere!",
+    "translations": [
+     "Angenehm!"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-010",
+    "target": "anche",
+    "translations": [
+     "auch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Unterscheide: Vor io wird anche apostrophiert: Sono di Torino anch’io.",
+    "definition": "",
+    "usage": "avv.",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-011",
+    "target": "Che carino!",
+    "translations": [
+     "Wie niedlich!"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-012",
+    "target": "il gatto",
+    "translations": [
+     "die Katze"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1a-013",
+    "target": "si chiama",
+    "translations": [
+     "(er/sie/es) heißt"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-014",
+    "target": "Come si chiama?",
+    "translations": [
+     "Wie heißt (er/sie)?"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-015",
+    "target": "non",
+    "translations": [
+     "nicht"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non sono di Roma.",
+    "definition": "",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-016",
+    "target": "stare bene/male",
+    "translations": [
+     "es geht gut/schlecht"
+    ],
+    "acceptedAnswers": [],
+    "example": "Come stai? – Sto bene.",
+    "definition": "",
+    "usage": "Abc",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-017",
+    "target": "bene",
+    "translations": [
+     "gut"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "avv.",
+    "page": "169-170",
+    "related": "≠ male; F bien; L bene"
+   },
+   {
+    "id": "u1-1a-018",
+    "target": "male",
+    "translations": [
+     "schlecht"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "avv.",
+    "page": "169-170",
+    "related": "F mal; L male"
+   },
+   {
+    "id": "u1-1a-019",
+    "target": "vero?",
+    "translations": [
+     "nicht wahr?"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-020",
+    "target": "È vero!",
+    "translations": [
+     "Das stimmt!"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-021",
+    "target": "arrivare",
+    "translations": [
+     "ankommen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Arrivo alle otto.",
+    "definition": "",
+    "page": "169-170",
+    "related": "E to arrive; F arriver"
+   },
+   {
+    "id": "u1-1a-022",
+    "target": "Come va?",
+    "translations": [
+     "Wie geht’s (denn so)?"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-023",
+    "target": "Ciao, bella!",
+    "translations": [
+     "Hallo Schöne!"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "(auch scherzhaft)",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-024",
+    "target": "tutto",
+    "translations": [
+     "alles"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170",
+    "related": "F tout/-e"
+   },
+   {
+    "id": "u1-1a-025",
+    "target": "Tutto bene?/!",
+    "translations": [
+     "Alles in Ordnung?/!"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-026",
+    "target": "Come stai?",
+    "translations": [
+     "Wie geht es dir?"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-027",
+    "target": "grazie",
+    "translations": [
+     "danke"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-028",
+    "target": "ma",
+    "translations": [
+     "aber"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170",
+    "related": "F mais"
+   },
+   {
+    "id": "u1-1a-029",
+    "target": "Dove?",
+    "translations": [
+     "Wo?"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "Unterscheide: Dove? – Wo?; Dov’è? – Wo ist (er/sie)?; Di dov’è? – Woher ist (er/sie)?",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-030",
+    "target": "Senti!",
+    "translations": [
+     "Hör mal!"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-031",
+    "target": "la scuola",
+    "translations": [
+     "die Schule"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170",
+    "related": "E school",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1a-032",
+    "target": "Boh!",
+    "translations": [
+     "Keine Ahnung!",
+     "Ist mir egal!"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-033",
+    "target": "il liceo",
+    "translations": [
+     "das Gymnasium"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170",
+    "related": "F le lycée",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1a-034",
+    "target": "no",
+    "translations": [
+     "nein"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170",
+    "related": "≠ sì"
+   },
+   {
+    "id": "u1-1a-035",
+    "target": "Che bello!",
+    "translations": [
+     "Wie schön!"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170"
+   },
+   {
+    "id": "u1-1a-036",
+    "target": "forse",
+    "translations": [
+     "vielleicht"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "avv.",
+    "page": "169-170",
+    "related": "L fortasse"
+   },
+   {
+    "id": "u1-1a-037",
+    "target": "la classe",
+    "translations": [
+     "die Klasse"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "169-170",
+    "related": "E class; F la classe",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1a-038",
+    "target": "insieme",
+    "translations": [
+     "zusammen",
+     "gemeinsam"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "avv.",
+    "page": "169-170"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco1-u1-1b",
+  "title": "Ecco più 1 · Unità 1 · 1B",
+  "language": "it",
+  "level": "A1",
+  "description": "Wortschatz zu „In giro per il quartiere“ aus Ecco più 1 (Unità 1, 1B).",
+  "topics": [
+   "Stadt",
+   "Freizeit",
+   "Sport"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 170-171 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "1B",
+    "pages": "170-171"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "themes": [
+    "Stadt",
+    "Freizeit",
+    "Sport"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 1 (Cornelsen)",
+  "section": "Unità 1 · 1B",
+  "entries": [
+   {
+    "id": "u1-1b-001",
+    "target": "il giro",
+    "translations": [
+     "die Rundfahrt",
+     "der Spaziergang"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "170-171",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-002",
+    "target": "il quartiere",
+    "translations": [
+     "das Wohnviertel"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "170-171",
+    "related": "F le quartier",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-003",
+    "target": "oggi",
+    "translations": [
+     "heute"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "avv.",
+    "page": "170-171"
+   },
+   {
+    "id": "u1-1b-004",
+    "target": "prendere",
+    "translations": [
+     "nehmen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Prendo un caffè.",
+    "definition": "",
+    "page": "170-171",
+    "related": "F prendre"
+   },
+   {
+    "id": "u1-1b-005",
+    "target": "la bicicletta",
+    "translations": [
+     "das Fahrrad"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "170-171",
+    "related": "E bicycle; F la bicyclette",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-006",
+    "target": "visitare qs",
+    "translations": [
+     "etw. besichtigen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Visitiamo il museo.",
+    "definition": "",
+    "usage": "Unterscheide: visitare heißt nur „etw. besichtigen“, nicht „jdn besuchen“",
+    "page": "170-171",
+    "related": "E to visit; F visiter"
+   },
+   {
+    "id": "u1-1b-007",
+    "target": "c’è",
+    "translations": [
+     "es gibt",
+     "da/dort ist + Sg."
+    ],
+    "acceptedAnswers": [],
+    "example": "A Roma c’è il Colosseo.",
+    "definition": "",
+    "usage": "Unterscheide: c’è – es gibt, da ist; che? – was?",
+    "page": "170-171"
+   },
+   {
+    "id": "u1-1b-008",
+    "target": "ci sono",
+    "translations": [
+     "es gibt",
+     "da/dort sind + Pl."
+    ],
+    "acceptedAnswers": [],
+    "example": "Nel parco ci sono due bambini.",
+    "definition": "",
+    "page": "170-171"
+   },
+   {
+    "id": "u1-1b-009",
+    "target": "il negozio",
+    "translations": [
+     "das Geschäft",
+     "der Laden"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "pl. i negozi",
+    "page": "170-171",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-010",
+    "target": "il papà",
+    "translations": [
+     "der Papa"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "Unterscheide: il papà – der Papa; il papa – der Papst",
+    "page": "170-171",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-011",
+    "target": "fantastico/-a",
+    "translations": [
+     "fantastisch"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "pl. fantastici/fantastiche",
+    "page": "170-171"
+   },
+   {
+    "id": "u1-1b-012",
+    "target": "vendere",
+    "translations": [
+     "verkaufen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il negozio vende scarpe.",
+    "definition": "",
+    "page": "170-171",
+    "related": "F vendre; L vendere"
+   },
+   {
+    "id": "u1-1b-013",
+    "target": "lo sport",
+    "translations": [
+     "der Sport"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "pl. gli sport",
+    "page": "170-171",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "lo"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-014",
+    "target": "il calciatore",
+    "translations": [
+     "der Fußballer",
+     "der Fußballspieler"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "170-171",
+    "related": "▸ il calcio",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-015",
+    "target": "guardare",
+    "translations": [
+     "ansehen",
+     "schauen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Guardo un film.",
+    "definition": "",
+    "page": "170-171"
+   },
+   {
+    "id": "u1-1b-016",
+    "target": "spesso",
+    "translations": [
+     "oft"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "avv.",
+    "page": "170-171"
+   },
+   {
+    "id": "u1-1b-017",
+    "target": "la partita",
+    "translations": [
+     "die Partie",
+     "das Spiel (Ballsport)"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "170-171",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-018",
+    "target": "dopo",
+    "translations": [
+     "danach",
+     "dann"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "avv.",
+    "page": "170-171"
+   },
+   {
+    "id": "u1-1b-019",
+    "target": "passare per qs",
+    "translations": [
+     "durch etw. durchfahren/-gehen"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "170-171",
+    "related": "F passer (par)"
+   },
+   {
+    "id": "u1-1b-020",
+    "target": "il campo",
+    "translations": [
+     "das Feld",
+     "das Spielfeld (Ballsport)"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "170-171",
+    "related": "F le champ; L campus",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-021",
+    "target": "il campo sportivo",
+    "translations": [
+     "der Sportplatz"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "170-171",
+    "related": "▸ lo sport",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-022",
+    "target": "la pista di skateboard",
+    "translations": [
+     "die Skaterbahn"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "170-171",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-023",
+    "target": "il campo di calcio",
+    "translations": [
+     "der Fußballplatz"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "170-171",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-024",
+    "target": "il campo di basket",
+    "translations": [
+     "der Basketballplatz"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "170-171",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-025",
+    "target": "ideale",
+    "translations": [
+     "ideal"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "170-171"
+   },
+   {
+    "id": "u1-1b-026",
+    "target": "per + inf.",
+    "translations": [
+     "für",
+     "um … zu"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il parco è ideale per giocare.",
+    "definition": "",
+    "page": "170-171"
+   },
+   {
+    "id": "u1-1b-027",
+    "target": "pattinare (inline)",
+    "translations": [
+     "inlineskaten"
+    ],
+    "acceptedAnswers": [
+     "pattinare"
+    ],
+    "example": "",
+    "definition": "",
+    "page": "170-171"
+   },
+   {
+    "id": "u1-1b-028",
+    "target": "vedere",
+    "translations": [
+     "sehen",
+     "wahrnehmen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Vedo un bel film.",
+    "definition": "",
+    "page": "170-171",
+    "related": "F voir; L videre"
+   },
+   {
+    "id": "u1-1b-029",
+    "target": "i pattini (in linea)",
+    "translations": [
+     "die Inlineskates"
+    ],
+    "acceptedAnswers": [
+     "i pattini"
+    ],
+    "example": "",
+    "definition": "",
+    "usage": "pl.",
+    "page": "170-171",
+    "related": "▸ pattinare inline",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "i"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-030",
+    "target": "già",
+    "translations": [
+     "schon",
+     "bereits",
+     "gewiss"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "avv.",
+    "page": "170-171"
+   },
+   {
+    "id": "u1-1b-031",
+    "target": "tornare",
+    "translations": [
+     "zurückkehren",
+     "zurückkommen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Torno a casa alle tre.",
+    "definition": "",
+    "page": "170-171"
+   },
+   {
+    "id": "u1-1b-032",
+    "target": "poi",
+    "translations": [
+     "dann",
+     "danach"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "avv.",
+    "page": "170-171",
+    "related": "= dopo"
+   },
+   {
+    "id": "u1-1b-033",
+    "target": "in",
+    "translations": [
+     "in",
+     "zu",
+     "nach (Richtung)"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "Unterscheide: 1. bei Ländern/Regionen: Abito in Italia (Wo?); Torno in Italia (Wohin?) – 2. bei Städten: Abito a Torino (Wo?); Torno a Torino (Wohin?) – 3. auch: Sono a scuola (Wo?); Torno a scuola (Wohin?)",
+    "page": "170-171"
+   },
+   {
+    "id": "u1-1b-034",
+    "target": "l’attrazione",
+    "translations": [
+     "die Attraktion"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "f.",
+    "page": "170-171"
+   },
+   {
+    "id": "u1-1b-035",
+    "target": "l’edificio",
+    "translations": [
+     "das Gebäude"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "pl. gli edifici",
+    "page": "170-171",
+    "related": "F l’édifice; L aedificium"
+   },
+   {
+    "id": "u1-1b-036",
+    "target": "il palazzo",
+    "translations": [
+     "der Palast"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "170-171",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-037",
+    "target": "Come no?",
+    "translations": [
+     "Warum nicht?"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "170-171"
+   },
+   {
+    "id": "u1-1b-038",
+    "target": "in fondo",
+    "translations": [
+     "hinten",
+     "im Hintergrund"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "avv.",
+    "page": "170-171"
+   },
+   {
+    "id": "u1-1b-039",
+    "target": "da",
+    "translations": [
+     "bei + Pers."
+    ],
+    "acceptedAnswers": [],
+    "example": "Sono da Marco.",
+    "definition": "",
+    "page": "170-171"
+   },
+   {
+    "id": "u1-1b-040",
+    "target": "Dai!",
+    "translations": [
+     "Los!"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dai, andiamo!",
+    "definition": "",
+    "usage": "richtet sich an eine Person",
+    "page": "170-171"
+   },
+   {
+    "id": "u1-1b-041",
+    "target": "Ciao a tutti!",
+    "translations": [
+     "Hallo alle zusammen!"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "170-171"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco1-u1-approccio",
+  "title": "Ecco più 1 · Unità 1 · Approccio",
+  "language": "it",
+  "level": "A1",
+  "description": "Wortschatz zu „Benvenuti a Torino“ aus Ecco più 1 (Unità 1, Approccio).",
+  "topics": [
+   "Stadt",
+   "Vorstellen",
+   "Orte"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 168-169 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "Approccio",
+    "pages": "168-169"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "themes": [
+    "Stadt",
+    "Vorstellen",
+    "Orte"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 1 (Cornelsen)",
+  "section": "Unità 1 · Approccio",
+  "entries": [
+   {
+    "id": "u1-approccio-001",
+    "target": "benvenuto/-a",
+    "translations": [
+     "willkommen"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "168-169",
+    "related": "F bienvenue"
+   },
+   {
+    "id": "u1-approccio-002",
+    "target": "Ecco …!",
+    "translations": [
+     "Schau(t) …!",
+     "Hier ist …!",
+     "Da sind …!"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "168-169",
+    "related": "L ecce"
+   },
+   {
+    "id": "u1-approccio-003",
+    "target": "la piazza",
+    "translations": [
+     "der Platz",
+     "die Straße"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "168-169",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-004",
+    "target": "il centro",
+    "translations": [
+     "das Zentrum"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il centro è bello.",
+    "definition": "",
+    "page": "168-169",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-005",
+    "target": "di",
+    "translations": [
+     "von (Genitiv)"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "168-169",
+    "related": "F de"
+   },
+   {
+    "id": "u1-approccio-006",
+    "target": "il fiume",
+    "translations": [
+     "der Fluss"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "168-169",
+    "related": "L flumen",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-007",
+    "target": "con",
+    "translations": [
+     "mit"
+    ],
+    "acceptedAnswers": [],
+    "example": "Vado con Anna.",
+    "definition": "",
+    "page": "168-169",
+    "related": "L cum"
+   },
+   {
+    "id": "u1-approccio-008",
+    "target": "il ponte",
+    "translations": [
+     "die Brücke"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "168-169",
+    "related": "F le pont; L pons",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-009",
+    "target": "l’industria",
+    "translations": [
+     "die Industrie"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "168-169",
+    "related": "E industry"
+   },
+   {
+    "id": "u1-approccio-010",
+    "target": "è",
+    "translations": [
+     "(er/sie/es) ist"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "Unterscheide: è – er, sie, es ist; e – und",
+    "page": "168-169"
+   },
+   {
+    "id": "u1-approccio-011",
+    "target": "importante",
+    "translations": [
+     "wichtig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "168-169",
+    "related": "E important"
+   },
+   {
+    "id": "u1-approccio-012",
+    "target": "per",
+    "translations": [
+     "für"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "168-169",
+    "related": "F pour; L per"
+   },
+   {
+    "id": "u1-approccio-013",
+    "target": "la città",
+    "translations": [
+     "die Stadt"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "pl. le città",
+    "page": "168-169",
+    "related": "E city; L civitas",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-014",
+    "target": "il parco",
+    "translations": [
+     "der Park"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "168-169",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-015",
+    "target": "Bellissimo!",
+    "translations": [
+     "Sehr schön!"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "168-169"
+   },
+   {
+    "id": "u1-approccio-016",
+    "target": "il simbolo",
+    "translations": [
+     "das Symbol"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "168-169",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-017",
+    "target": "lo stadio",
+    "translations": [
+     "das Stadion"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "168-169",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "lo"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-018",
+    "target": "Forza!",
+    "translations": [
+     "Auf geht’s!",
+     "Nur Mut!"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "168-169"
+   },
+   {
+    "id": "u1-approccio-019",
+    "target": "l’amico/-a",
+    "translations": [
+     "der/die Freund/-in"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "168-169",
+    "related": "F l’ami/e"
+   },
+   {
+    "id": "u1-approccio-020",
+    "target": "in",
+    "translations": [
+     "in"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abito in Italia.",
+    "definition": "",
+    "page": "168-169"
+   },
+   {
+    "id": "u1-approccio-021",
+    "target": "la via",
+    "translations": [
+     "die Straße"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "168-169",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-022",
+    "target": "passeggiare",
+    "translations": [
+     "spazieren gehen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Passeggiamo nel parco.",
+    "definition": "",
+    "page": "168-169"
+   },
+   {
+    "id": "u1-approccio-023",
+    "target": "qui/qua",
+    "translations": [
+     "hier"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "avv.",
+    "page": "168-169"
    }
   ]
  },
@@ -2581,7 +5046,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -2623,6 +5088,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "173-174",
+    "related": "≠ papà",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -2655,18 +5121,47 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "u2-2a-003",
-    "target": "la signora / il signore",
+    "target": "la signora",
     "translations": [
      "die Frau",
-     "die Dame / der Herr"
+     "die Dame"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "173-174"
+    "page": "173-174",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
    },
    {
     "id": "u2-2a-004",
+    "target": "il signore",
+    "translations": [
+     "der Herr"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "173-174",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-2a-005",
     "target": "da",
     "translations": [
      "von … (her)",
@@ -2674,12 +5169,12 @@ const STOCK_PACKAGES = [
      "seit"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Torno da Lecce.",
     "definition": "",
     "page": "173-174"
    },
    {
-    "id": "u2-2a-005",
+    "id": "u2-2a-006",
     "target": "il mercato",
     "translations": [
      "der Markt"
@@ -2699,7 +5194,7 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-006",
+    "id": "u2-2a-007",
     "target": "la borsa",
     "translations": [
      "die Tasche (zum Tragen)"
@@ -2719,13 +5214,13 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-007",
+    "id": "u2-2a-008",
     "target": "la spesa",
     "translations": [
      "der Einkauf"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Torno dal mercato con la spesa.",
     "definition": "",
     "page": "173-174",
     "grammar": {
@@ -2739,7 +5234,7 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-008",
+    "id": "u2-2a-009",
     "target": "la borsa della spesa",
     "translations": [
      "die Einkaufstasche"
@@ -2759,7 +5254,7 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-009",
+    "id": "u2-2a-010",
     "target": "entrare (in)",
     "translations": [
      "hereinkommen (in)"
@@ -2767,23 +5262,24 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "entrare"
     ],
-    "example": "",
+    "example": "Entro in casa.",
     "definition": "",
-    "page": "173-174"
+    "page": "173-174",
+    "related": "E to enter; F entrer"
    },
    {
-    "id": "u2-2a-010",
+    "id": "u2-2a-011",
     "target": "questo/-a",
     "translations": [
      "diese(r, s)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Di chi è questo cellulare? – È mio.",
     "definition": "",
     "page": "173-174"
    },
    {
-    "id": "u2-2a-011",
+    "id": "u2-2a-012",
     "target": "Perché?",
     "translations": [
      "Warum?"
@@ -2791,10 +5287,12 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "173-174"
+    "usage": "Die Fragepronomen: Chi? – Wer? Wen?; Che (cosa)? – Was? Welche(s/r)?; Come? – Wie?; Quando? – Wann?; Quanto? – Wie viel(e)?; Dove? – Wo?; Di dove? – Woher?; Perché? – Warum?",
+    "page": "173-174",
+    "related": "F pourquoi"
    },
    {
-    "id": "u2-2a-012",
+    "id": "u2-2a-013",
     "target": "lo zaino",
     "translations": [
      "der Rucksack"
@@ -2814,7 +5312,7 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-013",
+    "id": "u2-2a-014",
     "target": "il corridoio",
     "translations": [
      "der Flur",
@@ -2823,8 +5321,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: i corridoi",
+    "usage": "pl. i corridoi",
     "page": "173-174",
+    "related": "E corridor",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -2836,7 +5335,7 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-014",
+    "id": "u2-2a-015",
     "target": "la cosa",
     "translations": [
      "die Sache"
@@ -2845,27 +5344,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "173-174",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine",
-     "article": "la"
-    },
-    "answerPolicy": {
-     "article": "required",
-     "typo": "hint"
-    }
-   },
-   {
-    "id": "u2-2a-015",
-    "target": "la terra",
-    "translations": [
-     "der Boden",
-     "die Erde"
-    ],
-    "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
-    "page": "173-174",
+    "related": "F la chose",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -2878,46 +5357,16 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "u2-2a-016",
-    "target": "per terra",
+    "target": "la terra",
     "translations": [
-     "auf dem Boden",
-     "auf der Erde"
-    ],
-    "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
-    "page": "173-174"
-   },
-   {
-    "id": "u2-2a-017",
-    "target": "il disordine",
-    "translations": [
-     "die Unordnung"
+     "der Boden",
+     "die Erde"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
     "page": "173-174",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine",
-     "article": "il"
-    },
-    "answerPolicy": {
-     "article": "required",
-     "typo": "hint"
-    }
-   },
-   {
-    "id": "u2-2a-018",
-    "target": "la cucina",
-    "translations": [
-     "die Küche"
-    ],
-    "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
-    "page": "173-174",
+    "related": "F la terre; L terra",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -2929,11 +5378,11 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-019",
-    "target": "mettere",
+    "id": "u2-2a-017",
+    "target": "per terra",
     "translations": [
-     "legen",
-     "stellen"
+     "auf dem Boden",
+     "auf der Erde"
     ],
     "acceptedAnswers": [],
     "example": "",
@@ -2941,15 +5390,16 @@ const STOCK_PACKAGES = [
     "page": "173-174"
    },
    {
-    "id": "u2-2a-020",
-    "target": "il tavolo",
+    "id": "u2-2a-018",
+    "target": "il disordine",
     "translations": [
-     "der Tisch"
+     "die Unordnung"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Dov’è lo zaino? Che disordine!",
     "definition": "",
     "page": "173-174",
+    "related": "= caos; E disorder",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -2961,7 +5411,62 @@ const STOCK_PACKAGES = [
     }
    },
    {
+    "id": "u2-2a-019",
+    "target": "la cucina",
+    "translations": [
+     "die Küche"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "173-174",
+    "related": "F la cuisine",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-2a-020",
+    "target": "mettere",
+    "translations": [
+     "legen",
+     "stellen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Filippo mette lo zaino in corridoio.",
+    "definition": "",
+    "page": "173-174",
+    "related": "F mettre"
+   },
+   {
     "id": "u2-2a-021",
+    "target": "il tavolo",
+    "translations": [
+     "der Tisch"
+    ],
+    "acceptedAnswers": [],
+    "example": "La borsa è sul tavolo.",
+    "definition": "",
+    "page": "173-174",
+    "related": "E table; F la table",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-2a-022",
     "target": "ancora",
     "translations": [
      "noch"
@@ -2970,10 +5475,11 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "avv.",
-    "page": "173-174"
+    "page": "173-174",
+    "related": "F encore"
    },
    {
-    "id": "u2-2a-022",
+    "id": "u2-2a-023",
     "target": "la merenda",
     "translations": [
      "der Snack",
@@ -2994,10 +5500,10 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-023",
+    "id": "u2-2a-024",
     "target": "il fon",
     "translations": [
-     "der Föhn"
+     "der Fön"
     ],
     "acceptedAnswers": [],
     "example": "",
@@ -3014,7 +5520,7 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-024",
+    "id": "u2-2a-025",
     "target": "su",
     "translations": [
      "auf"
@@ -3022,10 +5528,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "173-174"
+    "page": "173-174",
+    "related": "F sur"
    },
    {
-    "id": "u2-2a-025",
+    "id": "u2-2a-026",
     "target": "la sedia",
     "translations": [
      "der Stuhl"
@@ -3045,7 +5552,7 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-026",
+    "id": "u2-2a-027",
     "target": "possibile",
     "translations": [
      "möglich"
@@ -3053,10 +5560,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "173-174"
+    "page": "173-174",
+    "related": "E possible; F possible"
    },
    {
-    "id": "u2-2a-027",
+    "id": "u2-2a-028",
     "target": "l’asciugamano",
     "translations": [
      "das Handtuch"
@@ -3067,7 +5575,7 @@ const STOCK_PACKAGES = [
     "page": "173-174"
    },
    {
-    "id": "u2-2a-028",
+    "id": "u2-2a-029",
     "target": "la vasca (da bagno)",
     "translations": [
      "die (Bade-)Wanne"
@@ -3077,7 +5585,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "",
     "definition": "",
-    "usage": "Pl.: le vasche",
+    "usage": "pl. le vasche",
     "page": "173-174",
     "grammar": {
      "partOfSpeech": "noun",
@@ -3090,15 +5598,16 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-029",
+    "id": "u2-2a-030",
     "target": "il bagno",
     "translations": [
      "das Bad"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La vasca è in bagno.",
     "definition": "",
     "page": "173-174",
+    "related": "F le bain",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -3110,7 +5619,7 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-030",
+    "id": "u2-2a-031",
     "target": "cercare (-chi-)",
     "translations": [
      "suchen"
@@ -3118,12 +5627,14 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "cercare"
     ],
-    "example": "",
+    "example": "Cerco il mio cellulare. Dov’è?",
     "definition": "",
-    "page": "173-174"
+    "usage": "Abc",
+    "page": "173-174",
+    "related": "F chercher"
    },
    {
-    "id": "u2-2a-031",
+    "id": "u2-2a-032",
     "target": "incredibile",
     "translations": [
      "unglaublich"
@@ -3131,10 +5642,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "173-174"
+    "page": "173-174",
+    "related": "E incredible; F incroyable"
    },
    {
-    "id": "u2-2a-032",
+    "id": "u2-2a-033",
     "target": "il salotto",
     "translations": [
      "das Wohnzimmer"
@@ -3154,7 +5666,7 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-033",
+    "id": "u2-2a-034",
     "target": "la roba",
     "translations": [
      "das Zeug"
@@ -3174,7 +5686,7 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-034",
+    "id": "u2-2a-035",
     "target": "la borsa da calcio",
     "translations": [
      "die Fußballtasche"
@@ -3194,46 +5706,27 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-035",
+    "id": "u2-2a-036",
     "target": "accanto a",
     "translations": [
      "neben"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il gatto è accanto al divano.",
     "definition": "",
     "page": "173-174"
    },
    {
-    "id": "u2-2a-036",
+    "id": "u2-2a-037",
     "target": "il televisore",
     "translations": [
      "der Fernseher"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il televisore è in salotto.",
     "definition": "",
     "page": "173-174",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine",
-     "article": "il"
-    },
-    "answerPolicy": {
-     "article": "required",
-     "typo": "hint"
-    }
-   },
-   {
-    "id": "u2-2a-037",
-    "target": "il pallone",
-    "translations": [
-     "der Ball"
-    ],
-    "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
-    "page": "173-174",
+    "related": "E television",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -3246,17 +5739,39 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "u2-2a-038",
+    "target": "il pallone",
+    "translations": [
+     "der Ball"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il pallone è nella borsa da calcio.",
+    "definition": "",
+    "page": "173-174",
+    "related": "F le ballon",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-2a-039",
     "target": "sotto",
     "translations": [
      "unter"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il pallone è sotto il tavolo.",
     "definition": "",
-    "page": "173-174"
+    "page": "173-174",
+    "related": "≠ su"
    },
    {
-    "id": "u2-2a-039",
+    "id": "u2-2a-040",
     "target": "i vestiti",
     "translations": [
      "die Kleidung"
@@ -3266,6 +5781,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "pl.",
     "page": "173-174",
+    "related": "L vestis",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -3277,7 +5793,7 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-040",
+    "id": "u2-2a-041",
     "target": "l’armadio",
     "translations": [
      "der Schrank"
@@ -3285,11 +5801,12 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: gli armadi",
-    "page": "173-174"
+    "usage": "pl. gli armadi",
+    "page": "173-174",
+    "related": "F l’armoire"
    },
    {
-    "id": "u2-2a-041",
+    "id": "u2-2a-042",
     "target": "la rivista",
     "translations": [
      "die Zeitschrift"
@@ -3298,6 +5815,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "173-174",
+    "related": "F la revue",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -3309,13 +5827,13 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-042",
+    "id": "u2-2a-043",
     "target": "lo scaffale",
     "translations": [
      "das Regal"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Le riviste sono sullo scaffale.",
     "definition": "",
     "page": "173-174",
     "grammar": {
@@ -3329,7 +5847,7 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-043",
+    "id": "u2-2a-044",
     "target": "il comò",
     "translations": [
      "die Kommode"
@@ -3337,8 +5855,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: i comò",
+    "usage": "pl. i comò",
     "page": "173-174",
+    "related": "F la commode",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -3350,7 +5869,7 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-044",
+    "id": "u2-2a-045",
     "target": "il rossetto",
     "translations": [
      "der Lippenstift"
@@ -3370,7 +5889,7 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u2-2a-045",
+    "id": "u2-2a-046",
     "target": "così",
     "translations": [
      "so"
@@ -3382,7 +5901,7 @@ const STOCK_PACKAGES = [
     "page": "173-174"
    },
    {
-    "id": "u2-2a-046",
+    "id": "u2-2a-047",
     "target": "Così non va!",
     "translations": [
      "So läuft das nicht!"
@@ -3393,13 +5912,13 @@ const STOCK_PACKAGES = [
     "page": "173-174"
    },
    {
-    "id": "u2-2a-047",
+    "id": "u2-2a-048",
     "target": "qualcosa",
     "translations": [
      "etwas"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Cerchi qualcosa? – Sì, lo zaino.",
     "definition": "",
     "page": "173-174"
    }
@@ -3429,7 +5948,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -3467,7 +5986,7 @@ const STOCK_PACKAGES = [
      "das Zimmer"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Questa è la mia camera!",
     "definition": "",
     "page": "175-176",
     "grammar": {
@@ -3490,6 +6009,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "175-176",
+    "related": "F le lit",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -3531,9 +6051,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "andare"
     ],
-    "example": "",
+    "example": "Adesso vado a casa e poi allo stadio.",
     "definition": "",
-    "usage": "unregelmäßig",
+    "usage": "Abc. Das Verb andare entspricht in Bedeutung und Verwendung weitgehend dem englischen to go.",
     "page": "175-176"
    },
    {
@@ -3543,9 +6063,9 @@ const STOCK_PACKAGES = [
      "das Poster"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Nella camera c’è un poster di una cantante.",
     "definition": "",
-    "usage": "Pl.: i poster",
+    "usage": "pl. i poster",
     "page": "175-176",
     "grammar": {
      "partOfSpeech": "noun",
@@ -3565,9 +6085,10 @@ const STOCK_PACKAGES = [
      "großartig"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il poster è grande.",
     "definition": "",
-    "page": "175-176"
+    "page": "175-176",
+    "related": "E grand; F grand(e)"
    },
    {
     "id": "u2-2b-007",
@@ -3578,7 +6099,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "175-176"
+    "page": "175-176",
+    "related": "≠ grande"
    },
    {
     "id": "u2-2b-008",
@@ -3601,7 +6123,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: le foto",
+    "usage": "pl. le foto",
     "page": "175-176",
     "grammar": {
      "partOfSpeech": "noun",
@@ -3622,7 +6144,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "175-176"
+    "page": "175-176",
+    "related": "F l’autographe"
    },
    {
     "id": "u2-2b-011",
@@ -3631,9 +6154,10 @@ const STOCK_PACKAGES = [
      "das Konzert"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il concerto è a Lecce.",
     "definition": "",
     "page": "175-176",
+    "related": "E concert",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -3646,15 +6170,24 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "u2-2b-012",
-    "target": "lo zio / la zia",
+    "target": "lo zio",
     "translations": [
-     "der Onkel / die Tante"
+     "der Onkel"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: gli zii / le zie",
-    "page": "175-176"
+    "usage": "f. la zia; pl. gli zii/le zie",
+    "page": "175-176",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "lo"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
    },
    {
     "id": "u2-2b-013",
@@ -3667,6 +6200,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "175-176",
+    "related": "L custos",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -3687,7 +6221,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "prep.",
-    "page": "175-176"
+    "page": "175-176",
+    "related": "E during"
    },
    {
     "id": "u2-2b-015",
@@ -3699,7 +6234,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "avv.",
-    "page": "175-176"
+    "page": "175-176",
+    "related": "L semper"
    },
    {
     "id": "u2-2b-016",
@@ -3709,9 +6245,10 @@ const STOCK_PACKAGES = [
      "fühlen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Sento la musica.",
     "definition": "",
-    "page": "175-176"
+    "page": "175-176",
+    "related": "L sentire"
    },
    {
     "id": "u2-2b-017",
@@ -3722,7 +6259,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "175-176"
+    "page": "175-176",
+    "related": "L ultimus"
    },
    {
     "id": "u2-2b-018",
@@ -3731,9 +6269,9 @@ const STOCK_PACKAGES = [
      "die Neuigkeit"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Lui sente sempre le ultime novità.",
     "definition": "",
-    "usage": "Pl.: le novità",
+    "usage": "pl. le novità",
     "page": "175-176",
     "grammar": {
      "partOfSpeech": "noun",
@@ -3747,15 +6285,25 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "u2-2b-019",
-    "target": "il cantante / la cantante",
+    "target": "il cantante",
     "translations": [
-     "der Sänger / die Sängerin"
+     "der Sänger"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: i cantanti",
-    "page": "175-176"
+    "usage": "f. la cantante; pl. i cantanti/le cantanti",
+    "page": "175-176",
+    "related": "▸ la canzone",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
    },
    {
     "id": "u2-2b-020",
@@ -3765,7 +6313,7 @@ const STOCK_PACKAGES = [
      "kostenlos"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Filippo va ai concerti gratis.",
     "definition": "",
     "usage": "avv.",
     "page": "175-176"
@@ -3774,13 +6322,14 @@ const STOCK_PACKAGES = [
     "id": "u2-2b-021",
     "target": "davanti a",
     "translations": [
-     "vor"
+     "vor (örtlich)"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "örtlich, prep.",
-    "page": "175-176"
+    "usage": "prep.",
+    "page": "175-176",
+    "related": "F devant"
    },
    {
     "id": "u2-2b-022",
@@ -3791,7 +6340,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: i computer",
+    "usage": "pl. i computer",
     "page": "175-176",
     "grammar": {
      "partOfSpeech": "noun",
@@ -3824,7 +6373,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "175-176"
+    "page": "175-176",
+    "related": "F nouveau, nouvelle; L novus"
    },
    {
     "id": "u2-2b-025",
@@ -3833,7 +6383,7 @@ const STOCK_PACKAGES = [
      "das Modell"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il computer è tutto nuovo.",
     "definition": "",
     "page": "175-176",
     "grammar": {
@@ -3851,12 +6401,11 @@ const STOCK_PACKAGES = [
     "target": "me",
     "translations": [
      "mich",
-     "mir"
+     "mir (nach Präp.)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Per me la musica è importante.",
     "definition": "",
-    "usage": "nach Präposition",
     "page": "175-176"
    },
    {
@@ -3866,10 +6415,11 @@ const STOCK_PACKAGES = [
      "sehr"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il computer è molto importante.",
     "definition": "",
     "usage": "avv.",
-    "page": "175-176"
+    "page": "175-176",
+    "related": "L multum"
    },
    {
     "id": "u2-2b-028",
@@ -3892,7 +6442,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "175-176"
+    "page": "175-176",
+    "related": "F utile; L utilis"
    },
    {
     "id": "u2-2b-030",
@@ -3901,7 +6452,7 @@ const STOCK_PACKAGES = [
      "fast"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Sul computer ho quasi tutto.",
     "definition": "",
     "usage": "avv.",
     "page": "175-176"
@@ -3913,9 +6464,9 @@ const STOCK_PACKAGES = [
      "das Videospiel"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "I miei videogiochi sono sul computer.",
     "definition": "",
-    "usage": "Pl.: i videogiochi",
+    "usage": "pl. i videogiochi",
     "page": "175-176",
     "grammar": {
      "partOfSpeech": "noun",
@@ -3934,9 +6485,10 @@ const STOCK_PACKAGES = [
      "das Buch"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "I libri sono sullo scaffale.",
     "definition": "",
     "page": "175-176",
+    "related": "F le livre; L liber",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -3952,12 +6504,13 @@ const STOCK_PACKAGES = [
     "target": "la memoria",
     "translations": [
      "die Erinnerung",
-     "der Speicherplatz"
+     "hier: der Speicherplatz"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
     "page": "175-176",
+    "related": "E memory; F la mémoire",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -3975,10 +6528,11 @@ const STOCK_PACKAGES = [
      "zu (sehr/viel)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho tutto sul computer, ma la memoria è sempre troppo piccola.",
     "definition": "",
     "usage": "avv.",
-    "page": "175-176"
+    "page": "175-176",
+    "related": "F trop"
    },
    {
     "id": "u2-2b-035",
@@ -3987,7 +6541,7 @@ const STOCK_PACKAGES = [
      "die Wand"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Alla parete c’è un poster.",
     "definition": "",
     "page": "175-176",
     "grammar": {
@@ -4007,7 +6561,7 @@ const STOCK_PACKAGES = [
      "der Strand"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Nella foto c’è la spiaggia di Pescoluse.",
     "definition": "",
     "page": "175-176",
     "grammar": {
@@ -4040,8 +6594,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl. m.: vecchi",
-    "page": "175-176"
+    "usage": "pl. vecchi m.",
+    "page": "175-176",
+    "related": "≠ nuovo/-a; F vieux, vieille"
    },
    {
     "id": "u2-2b-039",
@@ -4054,6 +6609,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "175-176",
+    "related": "E vacation; F les vacances",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -4071,9 +6627,10 @@ const STOCK_PACKAGES = [
      "schlafen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Dormo nel letto.",
     "definition": "",
-    "page": "175-176"
+    "page": "175-176",
+    "related": "F dormir; L dormire"
    },
    {
     "id": "u2-2b-041",
@@ -4085,7 +6642,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "175-176"
+    "page": "175-176",
+    "related": "L sequi"
    },
    {
     "id": "u2-2b-042",
@@ -4094,7 +6652,7 @@ const STOCK_PACKAGES = [
      "die Nachricht"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Greta non ha notizie degli amici.",
     "definition": "",
     "page": "175-176",
     "grammar": {
@@ -4114,9 +6672,9 @@ const STOCK_PACKAGES = [
      "die Idee"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho un’idea!",
     "definition": "",
-    "usage": "Pl.: le idee",
+    "usage": "pl. le idee",
     "page": "175-176"
    },
    {
@@ -4127,8 +6685,9 @@ const STOCK_PACKAGES = [
      "anhören"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mi piace ascoltare musica.",
     "definition": "",
+    "usage": "Das Verb ascoltare steht im Italienischen nur mit direktem Objekt ohne Präposition: ascoltare qualcosa/qualcuno – etw. anhören, jmd. zuhören. Vergleiche: vedere – to see; guardare – to look; sentire – to hear; ascoltare – to listen to. ascoltare musica = Musik anhören (bewusst und absichtlich); sentire musica = Musik hören (unabsichtlich akustisch wahrnehmen)",
     "page": "175-176"
    },
    {
@@ -4141,10 +6700,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "fare"
     ],
-    "example": "",
+    "example": "Non mi piace fare i compiti.",
     "definition": "",
-    "usage": "unregelmäßig",
-    "page": "175-176"
+    "usage": "Abc",
+    "page": "175-176",
+    "related": "F faire; L facere"
    },
    {
     "id": "u2-2b-046",
@@ -4168,6 +6728,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "usage": "Abc",
     "page": "175-176"
    },
    {
@@ -4181,6 +6742,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "175-176",
+    "related": "L fortuna",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -4200,10 +6762,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "giocare a qs"
     ],
-    "example": "",
+    "example": "Filippo gioca a calcio.",
     "definition": "",
-    "usage": "unregelmäßig",
-    "page": "175-176"
+    "usage": "Abc",
+    "page": "175-176",
+    "related": "F jouer à …"
    },
    {
     "id": "u2-2b-050",
@@ -4243,7 +6806,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -4283,7 +6846,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "172-173"
+    "page": "172-173",
+    "related": "F mon/ma"
    },
    {
     "id": "u2-approccio-002",
@@ -4295,6 +6859,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "172-173",
+    "related": "F le monde; L mundus",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -4312,9 +6877,10 @@ const STOCK_PACKAGES = [
      "der Name"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il mio nome è Tina.",
     "definition": "",
     "page": "172-173",
+    "related": "L nomen",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -4335,6 +6901,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "172-173",
+    "related": "▸ il nome",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -4354,7 +6921,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "172-173"
+    "page": "172-173",
+    "related": "L aetas"
    },
    {
     "id": "u2-approccio-006",
@@ -4365,8 +6933,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "unregelmäßig",
-    "page": "172-173"
+    "usage": "Abc",
+    "page": "172-173",
+    "related": "F avoir"
    },
    {
     "id": "u2-approccio-007",
@@ -4377,7 +6946,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "172-173"
+    "page": "172-173",
+    "related": "F l’an; L annus"
    },
    {
     "id": "u2-approccio-008",
@@ -4412,6 +6982,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "172-173",
+    "related": "E number; F le numéro; L numerus",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -4432,6 +7003,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "172-173",
+    "related": "E cell phone",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -4452,6 +7024,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "172-173",
+    "related": "E family; F la famille; L familia",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -4472,6 +7045,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "172-173",
+    "related": "L pater",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -4492,6 +7066,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "172-173",
+    "related": "L mater",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -4504,7 +7079,7 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "u2-approccio-015",
-    "target": "mi piace + sg.",
+    "target": "mi piace",
     "translations": [
      "mir gefällt + Sg.",
      "ich mag"
@@ -4512,11 +7087,13 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "172-173"
+    "usage": "+ sg.",
+    "page": "172-173",
+    "related": "▸ piacere"
    },
    {
     "id": "u2-approccio-016",
-    "target": "mi piacciono + pl.",
+    "target": "mi piacciono",
     "translations": [
      "mir gefallen + Pl.",
      "ich mag"
@@ -4524,6 +7101,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "usage": "+ pl.",
     "page": "172-173"
    },
    {
@@ -4562,13 +7140,13 @@ const STOCK_PACKAGES = [
     "id": "u2-approccio-019",
     "target": "la storia",
     "translations": [
-     "die Geschichte"
+     "Geschichte (Schulfach)"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Schulfach",
     "page": "172-173",
+    "related": "E history; F l’histoire",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -4583,13 +7161,13 @@ const STOCK_PACKAGES = [
     "id": "u2-approccio-020",
     "target": "la filosofia",
     "translations": [
-     "die Philosophie"
+     "Philosophie (Schulfach)"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Schulfach",
     "page": "172-173",
+    "related": "E philosophy; F la philosophie",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -4610,6 +7188,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "usage": "Abc",
     "page": "172-173"
    },
    {
@@ -4639,8 +7218,9 @@ const STOCK_PACKAGES = [
      "das Haus"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La mia famiglia ha una casa a Lecce.",
     "definition": "",
+    "usage": "Unterscheide: Sono a casa. – Ich bin zu Hause. / Torno a casa. – Ich komme nach Hause zurück.",
     "page": "172-173",
     "grammar": {
      "partOfSpeech": "noun",
@@ -4671,7 +7251,7 @@ const STOCK_PACKAGES = [
      "aufräumen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Non mi piace mettere in ordine!",
     "definition": "",
     "page": "172-173"
    },
@@ -4684,7 +7264,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "172-173"
+    "page": "172-173",
+    "related": "L quantus"
    },
    {
     "id": "u2-approccio-027",
@@ -4695,6 +7276,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "usage": "Nach dem Alter fragt man im Italienischen anders als im Deutschen: Quanti anni hai? – Ho 14 anni.",
     "page": "172-173"
    },
    {
@@ -4706,18 +7288,21 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "172-173"
+    "usage": "Unterscheide: Quale + è → Qual è il cognome di Filippo?; Quale? = Welche(r/s)? (aus einer Auswahl), engl. Which?; Che? = Was für? (allgemein), engl. What?",
+    "page": "172-173",
+    "related": "L qualis"
    },
    {
     "id": "u2-approccio-029",
     "target": "tuo/-a",
     "translations": [
-     "deine(r, s)"
+     "dein(e/r/s)"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "172-173"
+    "page": "172-173",
+    "related": "F ton/ta; L tuus"
    },
    {
     "id": "u2-approccio-030",
@@ -4727,7 +7312,7 @@ const STOCK_PACKAGES = [
      "Was gefällt dir?"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Che cosa ti piace? – Mi piace la musica.",
     "definition": "",
     "page": "172-173"
    },
@@ -4741,6 +7326,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "172-173",
+    "related": "F la soeur; L soror",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -4755,7 +7341,7 @@ const STOCK_PACKAGES = [
     "id": "u2-approccio-032",
     "target": "il calcio",
     "translations": [
-     "der Fußball"
+     "Fußball"
     ],
     "acceptedAnswers": [],
     "example": "",
@@ -4778,9 +7364,10 @@ const STOCK_PACKAGES = [
      "lieben"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Amo la mia famiglia.",
     "definition": "",
-    "page": "172-173"
+    "page": "172-173",
+    "related": "F aimer; L amare"
    },
    {
     "id": "u2-approccio-034",
@@ -4810,9 +7397,10 @@ const STOCK_PACKAGES = [
      "kennen lernen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Conosci Giorgia?",
     "definition": "",
-    "page": "172-173"
+    "page": "172-173",
+    "related": "L cognoscere"
    },
    {
     "id": "u2-approccio-036",
@@ -4886,6 +7474,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "172-173",
+    "related": "F le frère; L frater; ≠ la sorella",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -4907,6 +7496,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "172-173",
+    "related": "E lesson; F la leçon",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -4927,6 +7517,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "172-173",
+    "related": "E dance; F la danse",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -4961,13 +7552,15 @@ const STOCK_PACKAGES = [
     "id": "u2-approccio-043",
     "target": "lo studio",
     "translations": [
-     "das Studio"
+     "das Lernen",
+     "das Studium"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: gli studi",
+    "usage": "pl. gli studi. Unterscheide: Ho lezioni di danza in uno studio. – Ich habe Tanzkurse in einem Studio. / Dopo lo studio incontro i miei amici. – Nach dem Lernen treffe ich meine Freunde.",
     "page": "172-173",
+    "related": "L studium",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -4985,7 +7578,7 @@ const STOCK_PACKAGES = [
      "tanzen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mi piace ballare.",
     "definition": "",
     "page": "172-173"
    },
@@ -4997,9 +7590,11 @@ const STOCK_PACKAGES = [
      "das Lied"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mi piacciono le canzoni italiane.",
     "definition": "",
+    "usage": "Die Musikrichtungen werden an musica und canzone einfach angehängt: la musica hip hop, la musica rock, la canzone pop",
     "page": "172-173",
+    "related": "F la chanson",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -5029,14 +7624,14 @@ const STOCK_PACKAGES = [
   "sources": [
    {
     "kind": "provided",
-    "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 178-179 (vom Nutzer bereitgestellte Seiten)",
+    "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 178-180 (vom Nutzer bereitgestellte Seiten)",
     "url": "",
     "rights": "needs_review"
    }
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -5048,7 +7643,7 @@ const STOCK_PACKAGES = [
     "volume": "1",
     "unit": "Unità 3",
     "section": "3A",
-    "pages": "178-179"
+    "pages": "178-180"
    },
    "grade": 8,
    "foreignLanguageNo": 3,
@@ -5074,9 +7669,9 @@ const STOCK_PACKAGES = [
      "das Klassenzimmer"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Alle 8 entriamo in aula.",
     "definition": "",
-    "page": "178-179"
+    "page": "178-180"
    },
    {
     "id": "u3-3a-002",
@@ -5087,9 +7682,10 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "capire"
     ],
-    "example": "",
+    "example": "Non capisco il compito di matematica.",
     "definition": "",
-    "page": "178-179"
+    "usage": "Abc",
+    "page": "178-180"
    },
    {
     "id": "u3-3a-003",
@@ -5098,9 +7694,9 @@ const STOCK_PACKAGES = [
      "Wie sagt man …?"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Come si dice «Schule» in italiano?",
     "definition": "",
-    "page": "178-179"
+    "page": "178-180"
    },
    {
     "id": "u3-3a-004",
@@ -5111,7 +7707,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "178-179"
+    "page": "178-180"
    },
    {
     "id": "u3-3a-005",
@@ -5120,9 +7716,9 @@ const STOCK_PACKAGES = [
      "Was bedeutet …?"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Che significa «scuola» in tedesco?",
     "definition": "",
-    "page": "178-179"
+    "page": "178-180"
    },
    {
     "id": "u3-3a-006",
@@ -5133,7 +7729,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "178-179"
+    "page": "178-180",
+    "related": "F autre; L alter"
    },
    {
     "id": "u3-3a-007",
@@ -5142,9 +7739,9 @@ const STOCK_PACKAGES = [
      "Entschuldigen Sie!"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Scusi! Sono in ritardo.",
     "definition": "",
-    "page": "178-179"
+    "page": "178-180"
    },
    {
     "id": "u3-3a-008",
@@ -5155,9 +7752,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "il/la prof"
     ],
-    "example": "",
+    "example": "Lo Scifo è il prof di mate.",
     "definition": "",
-    "page": "178-179"
+    "usage": "Unterscheide: il professore – il professor De Carli",
+    "page": "178-180",
+    "related": "F le/la professeur"
    },
    {
     "id": "u3-3a-009",
@@ -5166,9 +7765,9 @@ const STOCK_PACKAGES = [
      "der Streik"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Sono in ritardo perché c’è sciopero.",
     "definition": "",
-    "page": "178-179",
+    "page": "178-180",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -5183,14 +7782,14 @@ const STOCK_PACKAGES = [
     "id": "u3-3a-010",
     "target": "partire",
     "translations": [
-     "weggehen",
-     "wegfahren",
+     "weggehen/-fahren",
      "abreisen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Parto da casa alle sette.",
     "definition": "",
-    "page": "178-179"
+    "page": "178-180",
+    "related": "F partir; ≠ arrivare"
    },
    {
     "id": "u3-3a-011",
@@ -5200,9 +7799,10 @@ const STOCK_PACKAGES = [
      "rennen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Sei in ritardo. Corri un po’!",
     "definition": "",
-    "page": "178-179"
+    "page": "178-180",
+    "related": "F courir; L currere"
    },
    {
     "id": "u3-3a-012",
@@ -5212,9 +7812,10 @@ const STOCK_PACKAGES = [
      "der Ort"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il corridoio è il mio posto preferito.",
     "definition": "",
-    "page": "178-179",
+    "page": "178-180",
+    "related": "F poste",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -5234,7 +7835,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "178-179"
+    "page": "178-180"
    },
    {
     "id": "u3-3a-014",
@@ -5243,10 +7844,11 @@ const STOCK_PACKAGES = [
      "die Abfrage"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Leo è nervoso per l’interrogazione.",
     "definition": "",
     "usage": "f.",
-    "page": "178-179"
+    "page": "178-180",
+    "related": "F l’interrogation"
    },
    {
     "id": "u3-3a-015",
@@ -5257,7 +7859,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "178-179",
+    "page": "178-180",
+    "related": "E voice; F la voix; L vox",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -5277,7 +7880,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "178-179"
+    "page": "178-180",
+    "related": "F penser"
    },
    {
     "id": "u3-3a-017",
@@ -5288,9 +7892,10 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "spiegare"
     ],
-    "example": "",
+    "example": "Il prof non spiega bene. Non capisco i compiti.",
     "definition": "",
-    "page": "178-179"
+    "usage": "Abc",
+    "page": "178-180"
    },
    {
     "id": "u3-3a-018",
@@ -5299,9 +7904,9 @@ const STOCK_PACKAGES = [
      "der Nil"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il Nilo è un fiume grande.",
     "definition": "",
-    "page": "178-179",
+    "page": "178-180",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -5323,8 +7928,8 @@ const STOCK_PACKAGES = [
     ],
     "example": "",
     "definition": "",
-    "usage": "unregelmäßig",
-    "page": "178-179"
+    "usage": "Abc",
+    "page": "178-180"
    },
    {
     "id": "u3-3a-020",
@@ -5333,9 +7938,9 @@ const STOCK_PACKAGES = [
      "der Blödsinn"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Non dire sciocchezze!",
     "definition": "",
-    "page": "178-179",
+    "page": "178-180",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -5355,8 +7960,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: i millenni",
-    "page": "178-179",
+    "usage": "pl. i millenni",
+    "page": "178-180",
+    "related": "E millennium",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -5376,7 +7982,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "178-179",
+    "page": "178-180",
+    "related": "F la vie; L vita",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -5391,13 +7998,13 @@ const STOCK_PACKAGES = [
     "id": "u3-3a-023",
     "target": "il/la secchione/-a",
     "translations": [
-     "der Streber / die Streberin"
+     "der/die Streber/-in"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
     "usage": "fam.",
-    "page": "178-179"
+    "page": "178-180"
    },
    {
     "id": "u3-3a-024",
@@ -5408,7 +8015,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "178-179"
+    "page": "178-180"
    },
    {
     "id": "u3-3a-025",
@@ -5419,9 +8026,10 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "restituire"
     ],
-    "example": "",
+    "example": "Il prof restituisce i compiti.",
     "definition": "",
-    "page": "178-179"
+    "usage": "Abc",
+    "page": "178-180"
    },
    {
     "id": "u3-3a-026",
@@ -5432,7 +8040,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "178-179",
+    "page": "178-180",
+    "related": "E solution; F la solution",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -5453,7 +8062,10 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "178-179",
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "178-180",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -5475,7 +8087,8 @@ const STOCK_PACKAGES = [
     ],
     "example": "",
     "definition": "",
-    "page": "178-179"
+    "usage": "Abc",
+    "page": "178-180"
    },
    {
     "id": "u3-3a-029",
@@ -5485,9 +8098,9 @@ const STOCK_PACKAGES = [
      "tüchtig"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il prof è bravo. Spiega molto bene.",
     "definition": "",
-    "page": "178-179"
+    "page": "178-180"
    },
    {
     "id": "u3-3a-030",
@@ -5497,10 +8110,10 @@ const STOCK_PACKAGES = [
      "dagegen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mi piace l’arte. La storia invece non mi piace.",
     "definition": "",
     "usage": "avv.",
-    "page": "178-179"
+    "page": "178-180"
    },
    {
     "id": "u3-3a-031",
@@ -5509,9 +8122,9 @@ const STOCK_PACKAGES = [
      "die Note"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Che voto hai preso, Khalid?",
     "definition": "",
-    "page": "178-179",
+    "page": "178-180",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -5529,9 +8142,10 @@ const STOCK_PACKAGES = [
      "zufrieden"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Khalid non è contento del suo voto.",
     "definition": "",
-    "page": "178-179"
+    "page": "178-180",
+    "related": "E/F content"
    },
    {
     "id": "u3-3a-033",
@@ -5540,10 +8154,10 @@ const STOCK_PACKAGES = [
      "das Problem"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il prof spiega un problema.",
     "definition": "",
-    "usage": "m.",
-    "page": "178-179",
+    "usage": "m. Einige maskuline Substantive enden auf -a, aber der Plural endet auf -i.",
+    "page": "178-180",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -5561,9 +8175,9 @@ const STOCK_PACKAGES = [
      "die Geometrie"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "In matematica mi piace la geometria.",
     "definition": "",
-    "page": "178-179",
+    "page": "178-180",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -5582,9 +8196,11 @@ const STOCK_PACKAGES = [
      "aufpassen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ragazzi, fate attenzione!",
     "definition": "",
-    "page": "178-179"
+    "usage": "Abc",
+    "page": "178-180",
+    "related": "E attention"
    },
    {
     "id": "u3-3a-036",
@@ -5596,9 +8212,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "finire"
     ],
-    "example": "",
+    "example": "La scuola finisce all’una.",
     "definition": "",
-    "page": "178-179"
+    "usage": "Abc",
+    "page": "178-180",
+    "related": "≠ cominciare; E to finish"
    },
    {
     "id": "u3-3a-037",
@@ -5607,9 +8225,9 @@ const STOCK_PACKAGES = [
      "bitte"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ragazzi, i compiti adesso, per favore!",
     "definition": "",
-    "page": "178-179"
+    "page": "178-180"
    },
    {
     "id": "u3-3a-038",
@@ -5618,10 +8236,11 @@ const STOCK_PACKAGES = [
      "die Information"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Cerco un’informazione in Internet.",
     "definition": "",
     "usage": "f.",
-    "page": "178-179"
+    "page": "178-180",
+    "related": "E information"
    },
    {
     "id": "u3-3a-039",
@@ -5630,9 +8249,9 @@ const STOCK_PACKAGES = [
      "das Referat"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "I ragazzi ascoltano la relazione di Giorgia.",
     "definition": "",
-    "page": "178-179",
+    "page": "178-180",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -5652,8 +8271,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: gli esercizi",
-    "page": "178-179"
+    "usage": "pl. gli esercizi",
+    "page": "178-180",
+    "related": "E exercise; F l’exercice"
    },
    {
     "id": "u3-3a-041",
@@ -5662,9 +8282,10 @@ const STOCK_PACKAGES = [
      "die Seite"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Fate l’esercizio 2 a pagina 58!",
     "definition": "",
-    "page": "178-179",
+    "page": "178-180",
+    "related": "E page; F la page",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -5682,9 +8303,10 @@ const STOCK_PACKAGES = [
      "Hören Sie!"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Senta, scusi!",
     "definition": "",
-    "page": "178-179"
+    "page": "178-180",
+    "related": "▸ sentire"
    },
    {
     "id": "u3-3a-043",
@@ -5693,10 +8315,11 @@ const STOCK_PACKAGES = [
      "morgen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "I compiti sono per domani.",
     "definition": "",
     "usage": "avv.",
-    "page": "178-179"
+    "page": "178-180",
+    "related": "≠ oggi; F demain"
    },
    {
     "id": "u3-3a-044",
@@ -5709,7 +8332,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "avv.",
-    "page": "178-179"
+    "page": "178-180"
    },
    {
     "id": "u3-3a-045",
@@ -5720,7 +8343,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "178-179"
+    "page": "178-180",
+    "related": "≠ buongiorno"
    }
   ]
  },
@@ -5741,14 +8365,14 @@ const STOCK_PACKAGES = [
   "sources": [
    {
     "kind": "provided",
-    "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 179-181 (vom Nutzer bereitgestellte Seiten)",
+    "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 180-181 (vom Nutzer bereitgestellte Seiten)",
     "url": "",
     "rights": "needs_review"
    }
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -5760,7 +8384,7 @@ const STOCK_PACKAGES = [
     "volume": "1",
     "unit": "Unità 3",
     "section": "3B",
-    "pages": "179-181"
+    "pages": "180-181"
    },
    "grade": 8,
    "foreignLanguageNo": 3,
@@ -5789,8 +8413,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "örtlich",
-    "page": "179-181"
+    "usage": "Unterscheide: Vengo fra/tra cinque minuti. – Ich komme in fünf Minuten. (zeitlich); Fra/Tra Giorgia e Anna sta Khalid. – Zwischen Giorgia und Anna steht Khalid. (örtlich)",
+    "page": "180-181"
    },
    {
     "id": "u3-3b-002",
@@ -5799,9 +8423,10 @@ const STOCK_PACKAGES = [
      "das Kapitel"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il libro ha sette capitoli.",
     "definition": "",
-    "page": "179-181",
+    "page": "180-181",
+    "related": "F le chapitre",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -5820,10 +8445,10 @@ const STOCK_PACKAGES = [
      "genug"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "In italiano vado abbastanza bene.",
     "definition": "",
     "usage": "avv.",
-    "page": "179-181"
+    "page": "180-181"
    },
    {
     "id": "u3-3b-004",
@@ -5832,9 +8457,10 @@ const STOCK_PACKAGES = [
      "lesen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mi piace leggere libri.",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181",
+    "related": "L legere"
    },
    {
     "id": "u3-3b-005",
@@ -5847,7 +8473,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "agg.",
-    "page": "179-181"
+    "page": "180-181"
    },
    {
     "id": "u3-3b-006",
@@ -5856,9 +8482,10 @@ const STOCK_PACKAGES = [
      "kreativ"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "In arte siamo molto creativi.",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181",
+    "related": "F créatif"
    },
    {
     "id": "u3-3b-007",
@@ -5869,7 +8496,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181",
+    "related": "F écrire; L scribere"
    },
    {
     "id": "u3-3b-008",
@@ -5879,10 +8507,10 @@ const STOCK_PACKAGES = [
      "das Thema"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "In italiano scriviamo il tema.",
     "definition": "",
-    "usage": "Pl.: i temi",
-    "page": "179-181",
+    "usage": "pl. i temi",
+    "page": "180-181",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -5900,10 +8528,11 @@ const STOCK_PACKAGES = [
      "manchmal"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Qualche volta leggo libri, ma non spesso.",
     "definition": "",
     "usage": "avv.",
-    "page": "179-181"
+    "page": "180-181",
+    "related": "≠ spesso"
    },
    {
     "id": "u3-3b-010",
@@ -5912,9 +8541,9 @@ const STOCK_PACKAGES = [
      "das Gedicht"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Khalid scrive anche poesie.",
     "definition": "",
-    "page": "179-181",
+    "page": "180-181",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -5934,7 +8563,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181"
    },
    {
     "id": "u3-3b-012",
@@ -5944,9 +8573,9 @@ const STOCK_PACKAGES = [
      "umso besser"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il latino è pesante. Meno male che il prof è bravo.",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181"
    },
    {
     "id": "u3-3b-013",
@@ -5957,7 +8586,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "179-181"
+    "usage": "Unterscheide: Che fortuna! – Was für ein Glück!; che ho una camera mia! – dass ich ein eigenes Zimmer habe!",
+    "page": "180-181"
    },
    {
     "id": "u3-3b-014",
@@ -5968,7 +8598,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "179-181",
+    "page": "180-181",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -5986,9 +8616,10 @@ const STOCK_PACKAGES = [
      "blond"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Friederike è bionda.",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181",
+    "related": "F blond(e)"
    },
    {
     "id": "u3-3b-016",
@@ -5997,13 +8628,12 @@ const STOCK_PACKAGES = [
      "ihn",
      "ihm",
      "sie",
-     "ihr"
+     "ihr (nach Präp.)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Da lei facciamo sempre attenzione.",
     "definition": "",
-    "usage": "nach Präposition",
-    "page": "179-181"
+    "page": "180-181"
    },
    {
     "id": "u3-3b-017",
@@ -6012,10 +8642,10 @@ const STOCK_PACKAGES = [
      "genau"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il rock è proprio la mia musica.",
     "definition": "",
     "usage": "avv.",
-    "page": "179-181"
+    "page": "180-181"
    },
    {
     "id": "u3-3b-018",
@@ -6026,7 +8656,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181",
+    "related": "F raconter"
    },
    {
     "id": "u3-3b-019",
@@ -6037,23 +8668,24 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "dare"
     ],
-    "example": "",
+    "example": "Il prof dà i voti ai ragazzi.",
     "definition": "",
-    "usage": "unregelmäßig",
-    "page": "179-181"
+    "usage": "Abc",
+    "page": "180-181",
+    "related": "≠ prendere; L dare"
    },
    {
     "id": "u3-3b-020",
     "target": "alto/-a",
     "translations": [
      "hoch",
-     "gut"
+     "hier: gut"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Evviva! Ho preso un voto alto.",
     "definition": "",
-    "usage": "hier: gut",
-    "page": "179-181"
+    "page": "180-181",
+    "related": "L altus"
    },
    {
     "id": "u3-3b-021",
@@ -6063,21 +8695,20 @@ const STOCK_PACKAGES = [
      "sobald"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Quando il De Carli arriva, Khalid non c’è.",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181"
    },
    {
     "id": "u3-3b-022",
     "target": "tocca a qn",
     "translations": [
-     "jd ist an der Reihe",
-     "jd ist dran"
+     "jd ist an der Reihe/dran"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Adesso tocca a me.",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181"
    },
    {
     "id": "u3-3b-023",
@@ -6086,9 +8717,9 @@ const STOCK_PACKAGES = [
      "schreien"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Khalid grida: aiuto!",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181"
    },
    {
     "id": "u3-3b-024",
@@ -6099,7 +8730,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "179-181",
+    "page": "180-181",
+    "related": "E mystery",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -6115,26 +8747,24 @@ const STOCK_PACKAGES = [
     "target": "te",
     "translations": [
      "dich",
-     "dir"
+     "dir (nach Präp.)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Vado a scuola con te.",
     "definition": "",
-    "usage": "nach Präposition",
-    "page": "179-181"
+    "page": "180-181"
    },
    {
     "id": "u3-3b-026",
     "target": "brutto/-a",
     "translations": [
      "hässlich",
-     "schlecht"
+     "hier: schlecht"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "hier: schlecht",
-    "page": "179-181"
+    "page": "180-181"
    },
    {
     "id": "u3-3b-027",
@@ -6143,9 +8773,9 @@ const STOCK_PACKAGES = [
      "langweilig"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Secondo me storia è noiosa. Dormo sempre.",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181"
    },
    {
     "id": "u3-3b-028",
@@ -6156,7 +8786,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181",
+    "related": "F parler"
    },
    {
     "id": "u3-3b-029",
@@ -6167,7 +8798,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181"
    },
    {
     "id": "u3-3b-030",
@@ -6178,7 +8809,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181",
+    "related": "≠ vecchio; F jeune"
    },
    {
     "id": "u3-3b-031",
@@ -6191,7 +8823,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181"
    },
    {
     "id": "u3-3b-032",
@@ -6200,9 +8832,10 @@ const STOCK_PACKAGES = [
      "modisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La prof ha sempre vestiti alla moda.",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181",
+    "related": "F à la mode"
    },
    {
     "id": "u3-3b-033",
@@ -6211,9 +8844,10 @@ const STOCK_PACKAGES = [
      "aufmerksam"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "I ragazzi ascoltano e stanno attenti.",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181",
+    "related": "L attentus"
    },
    {
     "id": "u3-3b-034",
@@ -6222,10 +8856,10 @@ const STOCK_PACKAGES = [
      "wirklich"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Questo prof è davvero bravo.",
     "definition": "",
     "usage": "avv.",
-    "page": "179-181"
+    "page": "180-181"
    },
    {
     "id": "u3-3b-035",
@@ -6236,7 +8870,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "179-181",
+    "page": "180-181",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -6251,12 +8885,12 @@ const STOCK_PACKAGES = [
     "id": "u3-3b-036",
     "target": "siciliano/-a",
     "translations": [
-     "sizilianisch"
+     "sizilianisch (Herkunft)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Luigi è di Palermo. È siciliano.",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181"
    },
    {
     "id": "u3-3b-037",
@@ -6265,9 +8899,10 @@ const STOCK_PACKAGES = [
      "die Regel"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Khalid spiega la regola a Giorgia.",
     "definition": "",
-    "page": "179-181",
+    "page": "180-181",
+    "related": "F la règle",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -6280,14 +8915,25 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "u3-3b-038",
-    "target": "lo studente / la studentessa",
+    "target": "lo studente",
     "translations": [
-     "der Schüler / die Schülerin"
+     "der Schüler"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il prof dà voti agli studenti.",
     "definition": "",
-    "page": "179-181"
+    "usage": "f. la studentessa",
+    "page": "180-181",
+    "related": "E student",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "lo"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
    },
    {
     "id": "u3-3b-039",
@@ -6297,10 +8943,11 @@ const STOCK_PACKAGES = [
      "sympathisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il nuovo prof è molto simpatico.",
     "definition": "",
-    "usage": "Pl.: simpatici/simpatiche",
-    "page": "179-181"
+    "usage": "pl. simpatici/simpatiche",
+    "page": "180-181",
+    "related": "F sympa"
    },
    {
     "id": "u3-3b-040",
@@ -6310,10 +8957,10 @@ const STOCK_PACKAGES = [
      "zumindest"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Almeno io capisco matematica.",
     "definition": "",
     "usage": "avv.",
-    "page": "179-181"
+    "page": "180-181"
    },
    {
     "id": "u3-3b-041",
@@ -6325,7 +8972,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181",
+    "related": "F facile; L facilis"
    },
    {
     "id": "u3-3b-042",
@@ -6334,10 +8982,11 @@ const STOCK_PACKAGES = [
      "die Medien"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il prof è bravo con i nuovi media.",
     "definition": "",
     "usage": "pl.",
-    "page": "179-181",
+    "page": "180-181",
+    "related": "F les médias",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -6356,21 +9005,22 @@ const STOCK_PACKAGES = [
      "(be)nutzen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Greta usa molto i nuovi media.",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181",
+    "related": "E to use"
    },
    {
     "id": "u3-3b-044",
     "target": "bravissimo/-a",
     "translations": [
      "sehr gut",
-     "sehr tüchtig"
+     "tüchtig"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Khalid è bravissimo in italiano.",
     "definition": "",
-    "page": "179-181"
+    "page": "180-181"
    },
    {
     "id": "u3-3b-045",
@@ -6382,8 +9032,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: i pomeriggi",
-    "page": "179-181",
+    "usage": "pl. i pomeriggi",
+    "page": "180-181",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -6402,10 +9052,10 @@ const STOCK_PACKAGES = [
      "das Kaffee(-haus)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Prendiamo un caffè?",
     "definition": "",
-    "usage": "Pl.: i caffè",
-    "page": "179-181",
+    "usage": "pl. i caffè",
+    "page": "180-181",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -6418,14 +9068,25 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "u3-3b-047",
-    "target": "il/la testimone",
+    "target": "il testimone",
     "translations": [
-     "der Zeuge / die Zeugin"
+     "der Zeuge"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "179-181"
+    "usage": "f. la testimone",
+    "page": "180-181",
+    "related": "F le témoin; L testis",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
    }
   ]
  },
@@ -6453,7 +9114,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -6492,10 +9153,11 @@ const STOCK_PACKAGES = [
      "der Zeitplan"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Abbiamo un nuovo orario.",
     "definition": "",
-    "usage": "Pl.: gli orari",
-    "page": "177-178"
+    "usage": "pl. gli orari",
+    "page": "177-178",
+    "related": "F l’horaire"
    },
    {
     "id": "u3-approccio-002",
@@ -6507,6 +9169,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "177-178",
+    "related": "F le jour",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -6525,24 +9188,26 @@ const STOCK_PACKAGES = [
      "die Unterrichtsstunde"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La terza ora ho storia.",
     "definition": "",
-    "page": "177-178"
+    "page": "177-178",
+    "related": "F l’heure; L hora"
    },
    {
     "id": "u3-approccio-004",
-    "target": "la settimana",
+    "target": "i giorni della settimana",
     "translations": [
-     "die Woche"
+     "die Wochentage"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "usage": "(il) lunedì – Montag; (il) martedì – Dienstag; (il) mercoledì – Mittwoch; (il) giovedì – Donnerstag; (il) venerdì – Freitag; (il) sabato – Samstag; (la) domenica – Sonntag. Unterscheide: Il martedì vado sempre nello studio di danza. – Dienstags gehe ich immer ins Tanzstudio. / Martedì incontro la mia amica. – Diesen Dienstag treffe ich meine Freundin.",
     "page": "177-178",
     "grammar": {
      "partOfSpeech": "noun",
-     "gender": "feminine",
-     "article": "la"
+     "gender": "masculine",
+     "article": "i"
     },
     "answerPolicy": {
      "article": "required",
@@ -6551,115 +9216,17 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "u3-approccio-005",
-    "target": "(il) lunedì",
-    "translations": [
-     "Montag"
-    ],
-    "acceptedAnswers": [
-     "lunedì",
-     "il lunedì"
-    ],
-    "example": "",
-    "definition": "",
-    "page": "177-178"
-   },
-   {
-    "id": "u3-approccio-006",
-    "target": "(il) martedì",
-    "translations": [
-     "Dienstag"
-    ],
-    "acceptedAnswers": [
-     "martedì",
-     "il martedì"
-    ],
-    "example": "",
-    "definition": "",
-    "page": "177-178"
-   },
-   {
-    "id": "u3-approccio-007",
-    "target": "(il) mercoledì",
-    "translations": [
-     "Mittwoch"
-    ],
-    "acceptedAnswers": [
-     "mercoledì",
-     "il mercoledì"
-    ],
-    "example": "",
-    "definition": "",
-    "page": "177-178"
-   },
-   {
-    "id": "u3-approccio-008",
-    "target": "(il) giovedì",
-    "translations": [
-     "Donnerstag"
-    ],
-    "acceptedAnswers": [
-     "giovedì",
-     "il giovedì"
-    ],
-    "example": "",
-    "definition": "",
-    "page": "177-178"
-   },
-   {
-    "id": "u3-approccio-009",
-    "target": "(il) venerdì",
-    "translations": [
-     "Freitag"
-    ],
-    "acceptedAnswers": [
-     "venerdì",
-     "il venerdì"
-    ],
-    "example": "",
-    "definition": "",
-    "page": "177-178"
-   },
-   {
-    "id": "u3-approccio-010",
-    "target": "(il) sabato",
-    "translations": [
-     "Samstag"
-    ],
-    "acceptedAnswers": [
-     "sabato",
-     "il sabato"
-    ],
-    "example": "",
-    "definition": "",
-    "page": "177-178"
-   },
-   {
-    "id": "u3-approccio-011",
-    "target": "(la) domenica",
-    "translations": [
-     "Sonntag"
-    ],
-    "acceptedAnswers": [
-     "domenica",
-     "la domenica"
-    ],
-    "example": "",
-    "definition": "",
-    "page": "177-178"
-   },
-   {
-    "id": "u3-approccio-012",
     "target": "la mate(matica)",
     "translations": [
-     "Mathe(matik)"
+     "Mathe(matik) (Schulfach)"
     ],
     "acceptedAnswers": [
      "la mate"
     ],
     "example": "",
     "definition": "",
-    "usage": "Schulfach",
     "page": "177-178",
+    "related": "E mathematics; F les mathématiques",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -6671,15 +9238,14 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u3-approccio-013",
+    "id": "u3-approccio-006",
     "target": "la storia dell’arte",
     "translations": [
-     "die Kunstgeschichte"
+     "Kunstgeschichte (Schulfach)"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Schulfach",
     "page": "177-178",
     "grammar": {
      "partOfSpeech": "noun",
@@ -6692,16 +9258,16 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u3-approccio-014",
+    "id": "u3-approccio-007",
     "target": "la religione",
     "translations": [
-     "die Religion"
+     "Religion (Schulfach)"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Schulfach",
     "page": "177-178",
+    "related": "E religion",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -6713,16 +9279,16 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u3-approccio-015",
+    "id": "u3-approccio-008",
     "target": "la fisica",
     "translations": [
-     "die Physik"
+     "Physik (Schulfach)"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Schulfach",
     "page": "177-178",
+    "related": "E physics; F la physique",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -6734,16 +9300,16 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u3-approccio-016",
+    "id": "u3-approccio-009",
     "target": "il latino",
     "translations": [
-     "Latein"
+     "Latein (Schulfach)"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Schulfach",
     "page": "177-178",
+    "related": "E Latin; F le latin",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -6755,16 +9321,16 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u3-approccio-017",
+    "id": "u3-approccio-010",
     "target": "le scienze",
     "translations": [
-     "die Naturwissenschaften"
+     "Naturwissenschaften (Schulfach)"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Schulfach",
     "page": "177-178",
+    "related": "E science; L scientia",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -6776,87 +9342,90 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u3-approccio-018",
+    "id": "u3-approccio-011",
     "target": "l’educazione fisica",
     "translations": [
-     "der Sport"
+     "Sport (Schulfach)"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Schulfach, f.",
-    "page": "177-178"
+    "usage": "f.",
+    "page": "177-178",
+    "related": "E physical education"
    },
    {
-    "id": "u3-approccio-019",
+    "id": "u3-approccio-012",
     "target": "l’arte",
     "translations": [
-     "die Kunst"
+     "Kunst (Schulfach)"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Schulfach, m.",
-    "page": "177-178"
+    "usage": "m.",
+    "page": "177-178",
+    "related": "E art; F l’art"
    },
    {
-    "id": "u3-approccio-020",
+    "id": "u3-approccio-013",
     "target": "terribile",
     "translations": [
      "schrecklich"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il nuovo orario è terribile.",
     "definition": "",
-    "page": "177-178"
+    "page": "177-178",
+    "related": "E/F terrible"
    },
    {
-    "id": "u3-approccio-021",
+    "id": "u3-approccio-014",
     "target": "alle …, all’ …",
     "translations": [
      "um … (Uhr)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Alle otto abbiamo fisica e alle nove latino.",
     "definition": "",
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-022",
+    "id": "u3-approccio-015",
     "target": "dalle … all’/alle …",
     "translations": [
      "von … bis …"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Dalle 9 alle 10 abbiamo storia.",
     "definition": "",
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-023",
+    "id": "u3-approccio-016",
     "target": "secondo me",
     "translations": [
      "meiner Meinung nach"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Secondo me due ore di sport sono troppe.",
     "definition": "",
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-024",
+    "id": "u3-approccio-017",
     "target": "presto",
     "translations": [
      "früh"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La prima ora è troppo presto!",
     "definition": "",
     "usage": "avv.",
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-025",
+    "id": "u3-approccio-018",
     "target": "avere ragione",
     "translations": [
      "Recht haben"
@@ -6864,22 +9433,24 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "177-178"
+    "usage": "Abc",
+    "page": "177-178",
+    "related": "F avoir raison"
    },
    {
-    "id": "u3-approccio-026",
+    "id": "u3-approccio-019",
     "target": "preferito/-a",
     "translations": [
      "Lieblings-",
      "bevorzugt"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La mia materia preferita è storia.",
     "definition": "",
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-027",
+    "id": "u3-approccio-020",
     "target": "purtroppo",
     "translations": [
      "leider"
@@ -6891,7 +9462,7 @@ const STOCK_PACKAGES = [
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-028",
+    "id": "u3-approccio-021",
     "target": "interrogare (-ghi-)",
     "translations": [
      "befragen",
@@ -6902,16 +9473,18 @@ const STOCK_PACKAGES = [
     ],
     "example": "",
     "definition": "",
-    "page": "177-178"
+    "usage": "Abc",
+    "page": "177-178",
+    "related": "F interroger"
    },
    {
-    "id": "u3-approccio-029",
+    "id": "u3-approccio-022",
     "target": "il minuto",
     "translations": [
      "die Minute"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Sono 100 minuti di matematica.",
     "definition": "",
     "page": "177-178",
     "grammar": {
@@ -6925,7 +9498,7 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u3-approccio-030",
+    "id": "u3-approccio-023",
     "target": "troppo/-a",
     "translations": [
      "zu viel"
@@ -6936,58 +9509,80 @@ const STOCK_PACKAGES = [
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-031",
+    "id": "u3-approccio-024",
     "target": "un po’",
     "translations": [
      "etwas",
      "ein bisschen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Parlo un po’ di italiano.",
     "definition": "",
     "usage": "avv.",
-    "page": "177-178"
+    "page": "177-178",
+    "related": "F un peu"
    },
    {
-    "id": "u3-approccio-032",
+    "id": "u3-approccio-025",
     "target": "solo",
     "translations": [
      "nur",
      "erst"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A scuola oggi ho solo due ore.",
     "definition": "",
     "usage": "avv.",
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-033",
+    "id": "u3-approccio-026",
+    "target": "la settimana",
+    "translations": [
+     "die Woche"
+    ],
+    "acceptedAnswers": [],
+    "example": "La settimana ha 7 giorni.",
+    "definition": "",
+    "page": "177-178",
+    "related": "F la semaine",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-approccio-027",
     "target": "poco/-a",
     "translations": [
      "wenig"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Abbiamo poche ore di sport.",
     "definition": "",
-    "usage": "Pl.: pochi/-e",
+    "usage": "pl. pochi/-e",
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-034",
+    "id": "u3-approccio-028",
     "target": "prima",
     "translations": [
      "früher",
      "vorher"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Lisa! Parti da casa prima!",
     "definition": "",
     "usage": "avv.",
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-035",
+    "id": "u3-approccio-029",
     "target": "A che ora?",
     "translations": [
      "Um wie viel Uhr?"
@@ -6995,10 +9590,12 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "177-178"
+    "usage": "Unterscheide: A che ora vai a casa? – Alle due. / All’una.",
+    "page": "177-178",
+    "related": "F A quelle heure?"
    },
    {
-    "id": "u3-approccio-036",
+    "id": "u3-approccio-030",
     "target": "allora",
     "translations": [
      "also"
@@ -7010,7 +9607,7 @@ const STOCK_PACKAGES = [
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-037",
+    "id": "u3-approccio-031",
     "target": "(l’una) e mezzo",
     "translations": [
      "halb (zwei)"
@@ -7018,12 +9615,12 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "e mezzo"
     ],
-    "example": "",
+    "example": "Torno a casa alle due e mezzo.",
     "definition": "",
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-038",
+    "id": "u3-approccio-032",
     "target": "(le due) meno un quarto",
     "translations": [
      "Viertel vor (zwei)"
@@ -7031,12 +9628,12 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "meno un quarto"
     ],
-    "example": "",
+    "example": "Che ore sono? – Sono le due meno un quarto.",
     "definition": "",
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-039",
+    "id": "u3-approccio-033",
     "target": "il quarto",
     "translations": [
      "das Viertel"
@@ -7056,15 +9653,14 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u3-approccio-040",
+    "id": "u3-approccio-034",
     "target": "la supplenza",
     "translations": [
-     "die Vertretung"
+     "die Vertretung (Schule)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il prof non c’è. Abbiamo una supplenza.",
     "definition": "",
-    "usage": "Schule",
     "page": "177-178",
     "grammar": {
      "partOfSpeech": "noun",
@@ -7077,19 +9673,19 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u3-approccio-041",
+    "id": "u3-approccio-035",
     "target": "saltare",
     "translations": [
      "(über)springen",
-     "ausfallen"
+     "hier: ausfallen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Che bello! La sesta ora salta!",
     "definition": "",
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-042",
+    "id": "u3-approccio-036",
     "target": "Evviva!",
     "translations": [
      "Hurra!",
@@ -7101,7 +9697,7 @@ const STOCK_PACKAGES = [
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-043",
+    "id": "u3-approccio-037",
     "target": "Che ore sono?",
     "translations": [
      "Wie spät ist es?"
@@ -7109,10 +9705,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "usage": "Che ore sono? È l’una. / Sono le due. / … le otto e un quarto. / … le otto e mezzo. / … le nove meno un quarto. / … le nove in punto.",
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-044",
+    "id": "u3-approccio-038",
     "target": "Aiuto!",
     "translations": [
      "Hilfe!"
@@ -7123,7 +9720,7 @@ const STOCK_PACKAGES = [
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-045",
+    "id": "u3-approccio-039",
     "target": "cominciare (a + inf.)",
     "translations": [
      "anfangen",
@@ -7132,24 +9729,24 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "cominciare"
     ],
-    "example": "",
+    "example": "La scuola comincia alle 8 e 15.",
     "definition": "",
-    "page": "177-178"
+    "page": "177-178",
+    "related": "F commencer"
    },
    {
-    "id": "u3-approccio-046",
+    "id": "u3-approccio-040",
     "target": "fra/tra",
     "translations": [
-     "in"
+     "in (zeitlich)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La lezione comincia tra 5 minuti.",
     "definition": "",
-    "usage": "zeitlich",
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-047",
+    "id": "u3-approccio-041",
     "target": "di nuovo",
     "translations": [
      "wieder",
@@ -7159,22 +9756,23 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "avv.",
-    "page": "177-178"
+    "page": "177-178",
+    "related": "▸ nuovo"
    },
    {
-    "id": "u3-approccio-048",
+    "id": "u3-approccio-042",
     "target": "in ritardo",
     "translations": [
      "verspätet"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Aiuto! Sono già le 8 e 15. Sono in ritardo.",
     "definition": "",
     "usage": "avv.",
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-049",
+    "id": "u3-approccio-043",
     "target": "sicuramente",
     "translations": [
      "sicher"
@@ -7186,7 +9784,7 @@ const STOCK_PACKAGES = [
     "page": "177-178"
    },
    {
-    "id": "u3-approccio-050",
+    "id": "u3-approccio-044",
     "target": "prendere una nota sul registro",
     "translations": [
      "einen Eintrag ins Klassenbuch bekommen"
@@ -7194,6 +9792,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "usage": "Abc",
     "page": "177-178"
    }
   ]
@@ -7222,7 +9821,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -7260,9 +9859,9 @@ const STOCK_PACKAGES = [
      "der Ski"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mi piace fare sci.",
     "definition": "",
-    "usage": "Pl.: gli sci",
+    "usage": "pl. gli sci",
     "page": "183-185",
     "grammar": {
      "partOfSpeech": "noun",
@@ -7281,10 +9880,11 @@ const STOCK_PACKAGES = [
      "frisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La neve è fresca.",
     "definition": "",
-    "usage": "Pl.: freschi/-e",
-    "page": "183-185"
+    "usage": "pl. freschi/-e",
+    "page": "183-185",
+    "related": "E fresh; F frais, fraîche"
    },
    {
     "id": "u4-4a-003",
@@ -7313,7 +9913,7 @@ const STOCK_PACKAGES = [
      "die Alpen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Sulle Alpi c’è la neve.",
     "definition": "",
     "usage": "pl.",
     "page": "183-185",
@@ -7334,7 +9934,7 @@ const STOCK_PACKAGES = [
      "nach"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Dopo la scuola vado a casa.",
     "definition": "",
     "page": "183-185"
    },
@@ -7348,6 +9948,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "183-185",
+    "related": "F la porte; L porta",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -7365,7 +9966,7 @@ const STOCK_PACKAGES = [
      "offen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La porta è aperta.",
     "definition": "",
     "page": "183-185"
    },
@@ -7373,12 +9974,11 @@ const STOCK_PACKAGES = [
     "id": "u4-4a-008",
     "target": "noi/voi",
     "translations": [
-     "uns/euch"
+     "uns/euch (nach Präp.)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Vieni con noi in montagna?",
     "definition": "",
-    "usage": "nach Präposition",
     "page": "183-185"
    },
    {
@@ -7393,7 +9993,9 @@ const STOCK_PACKAGES = [
     ],
     "example": "",
     "definition": "",
-    "page": "183-185"
+    "usage": "Abc",
+    "page": "183-185",
+    "related": "F devoir; L debere"
    },
    {
     "id": "u4-4a-010",
@@ -7404,9 +10006,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "venire"
     ],
-    "example": "",
+    "example": "Anna, vieni anche tu?",
     "definition": "",
-    "page": "183-185"
+    "usage": "Abc",
+    "page": "183-185",
+    "related": "F venir; L venire"
    },
    {
     "id": "u4-4a-011",
@@ -7417,9 +10021,9 @@ const STOCK_PACKAGES = [
      "dorthin"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Vieni a casa mia? – Sì, ci vengo.",
     "definition": "",
-    "usage": "avv.",
+    "usage": "avv. Beachte: ci steht unmittelbar vor dem konjugierten Verb: Vieni in spiaggia con noi? – No, non ci vengo. Non ho tempo.",
     "page": "183-185"
    },
    {
@@ -7430,8 +10034,9 @@ const STOCK_PACKAGES = [
      "Ich mache mit!"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Devi venire anche tu! – Sì, ci sto!",
     "definition": "",
+    "usage": "Das Verb stare hat viele unterschiedliche Verwendungen: Come stai? – Sto bene. / State attenti! – Gebt Acht! / Leo sta volentieri in montagna. – Leo ist gerne im Gebirge. / Giorgia sta spesso con i suoi amici. – Giorgia ist häufig mit ihren Freunden zusammen. / Chi viene a sciare con me? – Ci sto. – Ich bin dabei.",
     "page": "183-185"
    },
    {
@@ -7443,7 +10048,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "183-185"
+    "page": "183-185",
+    "related": "E to prepare; F préparer"
    },
    {
     "id": "u4-4a-014",
@@ -7452,7 +10058,7 @@ const STOCK_PACKAGES = [
      "die Piste"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "In montagna ci sono le piste da sci.",
     "definition": "",
     "page": "183-185",
     "grammar": {
@@ -7474,9 +10080,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "solo/-a"
     ],
-    "example": "",
+    "example": "Anna, non vengo. Devi andare da sola.",
     "definition": "",
-    "page": "183-185"
+    "usage": "Unterscheide: Non vado da solo. – Ich fahre nicht alleine. / Vado a Sestriere solo con gli amici. – Ich fahre nur mit den Freunden nach Sestriere.",
+    "page": "183-185",
+    "related": "L solus"
    },
    {
     "id": "u4-4a-016",
@@ -7485,8 +10093,9 @@ const STOCK_PACKAGES = [
      "ich habe bekommen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Per il mio compleanno ho avuto uno snowboard.",
     "definition": "",
+    "usage": "Abc",
     "page": "183-185"
    },
    {
@@ -7496,7 +10105,7 @@ const STOCK_PACKAGES = [
      "der Geburtstag"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho avuto uno snowboard per il mio compleanno.",
     "definition": "",
     "page": "183-185",
     "grammar": {
@@ -7517,7 +10126,7 @@ const STOCK_PACKAGES = [
      "vorbereitet"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Partiamo! Siete pronti?",
     "definition": "",
     "page": "183-185"
    },
@@ -7528,9 +10137,11 @@ const STOCK_PACKAGES = [
      "jdm helfen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Khalid aiuta il suo papà.",
     "definition": "",
-    "page": "183-185"
+    "usage": "Das Verb aiutare steht im Italienischen anders als im Deutschen mit direktem Objekt: Ich helfe den Freunden. – Aiuto gli amici.",
+    "page": "183-185",
+    "related": "F aider qn; ▸ Aiuto!"
    },
    {
     "id": "u4-4a-020",
@@ -7541,9 +10152,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "potere"
     ],
-    "example": "",
+    "example": "Devo fare i compiti. Non posso venire.",
     "definition": "",
-    "page": "183-185"
+    "usage": "Abc",
+    "page": "183-185",
+    "related": "F pouvoir; L posse"
    },
    {
     "id": "u4-4a-021",
@@ -7563,7 +10176,7 @@ const STOCK_PACKAGES = [
      "jedenfalls"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Comunque è stata una bella partita.",
     "definition": "",
     "usage": "avv.",
     "page": "183-185"
@@ -7577,7 +10190,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "183-185"
+    "page": "183-185",
+    "related": "F prochain(e); L proximus"
    },
    {
     "id": "u4-4a-024",
@@ -7586,7 +10200,7 @@ const STOCK_PACKAGES = [
      "das Mal"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Oggi non posso. Vengo la prossima volta.",
     "definition": "",
     "page": "183-185",
     "grammar": {
@@ -7608,7 +10222,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "183-185"
+    "page": "183-185",
+    "related": "≠ interrogare; F répondre; L respondere"
    },
    {
     "id": "u4-4a-026",
@@ -7617,21 +10232,23 @@ const STOCK_PACKAGES = [
      "Entschuldige!"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Scusa! Ma non posso venire.",
     "definition": "",
-    "page": "183-185"
+    "page": "183-185",
+    "related": "▸ scusi"
    },
    {
     "id": "u4-4a-027",
     "target": "l’artista",
     "translations": [
-     "der Künstler / die Künstlerin"
+     "der/die Künstler/-in"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "m./f., Pl.: gli artisti",
-    "page": "183-185"
+    "usage": "m./f.; pl. gli artisti m.",
+    "page": "183-185",
+    "related": "▸ l’arte; E artist; F l’artiste"
    },
    {
     "id": "u4-4a-028",
@@ -7644,21 +10261,25 @@ const STOCK_PACKAGES = [
     ],
     "example": "",
     "definition": "",
-    "page": "183-185"
+    "usage": "Abc",
+    "page": "183-185",
+    "related": "F vouloir; L velle"
    },
    {
     "id": "u4-4a-029",
     "target": "sapere (so)",
     "translations": [
      "wissen",
-     "können"
+     "auch: können"
     ],
     "acceptedAnswers": [
      "sapere"
     ],
-    "example": "",
+    "example": "Anna non sa pattinare.",
     "definition": "",
-    "page": "183-185"
+    "usage": "Abc",
+    "page": "183-185",
+    "related": "F savoir"
    },
    {
     "id": "u4-4a-030",
@@ -7679,7 +10300,7 @@ const STOCK_PACKAGES = [
      "organisieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La madre di Anna organizza un concerto.",
     "definition": "",
     "page": "183-185"
    },
@@ -7693,7 +10314,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "183-185"
+    "page": "183-185",
+    "related": "▸ lo studente; E study; L studere"
    },
    {
     "id": "u4-4a-033",
@@ -7705,6 +10327,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "183-185",
+    "related": "L salus",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -7725,8 +10348,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: gli studi",
+    "usage": "pl. gli studi. Unterscheide: Ho lezioni di danza in uno studio. – Ich habe Tanzkurse in einem Studio. / Dopo lo studio incontro i miei amici. – Nach dem Lernen treffe ich meine Freunde.",
     "page": "183-185",
+    "related": "L studium",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -7746,7 +10370,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "183-185"
+    "page": "183-185",
+    "related": "L occidere"
    },
    {
     "id": "u4-4a-036",
@@ -7769,10 +10394,11 @@ const STOCK_PACKAGES = [
      "endlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Adesso arriva Khalid. Finalmente!",
     "definition": "",
     "usage": "avv.",
-    "page": "183-185"
+    "page": "183-185",
+    "related": "▸ finire; E finally"
    },
    {
     "id": "u4-4a-038",
@@ -7783,7 +10409,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "sciare"
     ],
-    "example": "",
+    "example": "D’inverno vado a sciare.",
     "definition": "",
     "page": "183-185"
    },
@@ -7794,7 +10420,7 @@ const STOCK_PACKAGES = [
      "schneien"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A Lecce non nevica spesso.",
     "definition": "",
     "page": "183-185"
    },
@@ -7805,7 +10431,7 @@ const STOCK_PACKAGES = [
      "der Norden"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Al nord tutti sanno sciare.",
     "definition": "",
     "page": "183-185",
     "grammar": {
@@ -7840,8 +10466,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "imparare"
     ],
-    "example": "",
+    "example": "Filippo vuole imparare a sciare.",
     "definition": "",
+    "usage": "Unterscheide: Voglio imparare il tedesco. – Ich möchte Deutsch lernen. / Oggi devo ancora studiare per il compito di tedesco. – Heute muss ich noch für die Deutschschulaufgabe lernen.",
     "page": "183-185"
    },
    {
@@ -7862,7 +10489,7 @@ const STOCK_PACKAGES = [
      "sicher"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Vuoi venire anche tu? – Sì, certo!",
     "definition": "",
     "usage": "avv.",
     "page": "183-185"
@@ -7876,8 +10503,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "dimenticare"
     ],
-    "example": "",
+    "example": "Non dimenticare i compiti a casa!",
     "definition": "",
+    "usage": "Abc",
     "page": "183-185"
    },
    {
@@ -7889,9 +10517,10 @@ const STOCK_PACKAGES = [
      "mitbringen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A scuola dobbiamo portare i libri.",
     "definition": "",
-    "page": "183-185"
+    "page": "183-185",
+    "related": "F porter; L portare"
    },
    {
     "id": "u4-4a-047",
@@ -7900,10 +10529,11 @@ const STOCK_PACKAGES = [
      "absolut"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Dovete assolutamente venire!",
     "definition": "",
     "usage": "avv.",
-    "page": "183-185"
+    "page": "183-185",
+    "related": "E absolutely"
    }
   ]
  },
@@ -7931,7 +10561,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -7969,10 +10599,11 @@ const STOCK_PACKAGES = [
      "weiß"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La neve è bianca.",
     "definition": "",
-    "usage": "Pl.: bianchi/bianche",
-    "page": "185-186"
+    "usage": "pl. bianchi/bianche",
+    "page": "185-186",
+    "related": "F blanc(he)"
    },
    {
     "id": "u4-4b-002",
@@ -7983,7 +10614,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "185-186"
+    "page": "185-186",
+    "related": "≠ bianco; F noir/e"
    },
    {
     "id": "u4-4b-003",
@@ -7992,9 +10624,10 @@ const STOCK_PACKAGES = [
      "fallen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Filippo cade con lo snowboard.",
     "definition": "",
-    "page": "185-186"
+    "page": "185-186",
+    "related": "L cadere"
    },
    {
     "id": "u4-4b-004",
@@ -8007,7 +10640,8 @@ const STOCK_PACKAGES = [
     ],
     "example": "",
     "definition": "",
-    "page": "185-186"
+    "page": "185-186",
+    "related": "L probare"
    },
    {
     "id": "u4-4b-005",
@@ -8038,10 +10672,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "rimanere"
     ],
-    "example": "",
+    "example": "Anna rimane a casa per studiare.",
     "definition": "",
-    "usage": "Partizip: rimasto",
-    "page": "185-186"
+    "usage": "Abc; p.p. rimasto",
+    "page": "185-186",
+    "related": "E to remain"
    },
    {
     "id": "u4-4b-007",
@@ -8053,6 +10688,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "185-186",
+    "related": "F le pied; L pes",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -8065,14 +10701,16 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "u4-4b-008",
-    "target": "stanco/-a",
+    "target": "stanco/-a (morto/-a)",
     "translations": [
-     "(tod-)müde"
+     "(tot-)müde"
     ],
-    "acceptedAnswers": [],
-    "example": "",
+    "acceptedAnswers": [
+     "stanco/-a"
+    ],
+    "example": "Anna ha fatto molto sport. Adesso è stanca.",
     "definition": "",
-    "usage": "Pl.: stanchi/-che",
+    "usage": "pl. stanchi/-che",
     "page": "185-186"
    },
    {
@@ -8084,8 +10722,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Partizip: perso",
-    "page": "185-186"
+    "usage": "p.p. perso",
+    "page": "185-186",
+    "related": "F perdre; L perdere"
    },
    {
     "id": "u4-4b-010",
@@ -8094,9 +10733,10 @@ const STOCK_PACKAGES = [
      "gegen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La Juve ha perso contro l’Inter.",
     "definition": "",
-    "page": "185-186"
+    "page": "185-186",
+    "related": "L contra"
    },
    {
     "id": "u4-4b-011",
@@ -8105,7 +10745,7 @@ const STOCK_PACKAGES = [
      "enttäuscht"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Khalid è deluso perché la Juve ha perso.",
     "definition": "",
     "page": "185-186"
    },
@@ -8120,8 +10760,9 @@ const STOCK_PACKAGES = [
     ],
     "example": "",
     "definition": "",
-    "usage": "Partizip: deciso",
-    "page": "185-186"
+    "usage": "p.p. deciso",
+    "page": "185-186",
+    "related": "E to decide; F décider"
    },
    {
     "id": "u4-4b-013",
@@ -8130,9 +10771,10 @@ const STOCK_PACKAGES = [
      "die Nachricht"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Anna scrive un messaggio.",
     "definition": "",
     "page": "185-186",
+    "related": "E message; F le message",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -8150,7 +10792,7 @@ const STOCK_PACKAGES = [
      "eben"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho appena visto il tuo messaggio.",
     "definition": "",
     "usage": "avv.",
     "page": "185-186"
@@ -8165,6 +10807,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "185-186",
+    "related": "F le résultat",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -8193,21 +10836,22 @@ const STOCK_PACKAGES = [
      "jdn anrufen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Giorgia telefona a Filippo.",
     "definition": "",
+    "usage": "Das Verb telefonare steht im Italienischen anders als im Deutschen mit indirektem Objekt: Ich rufe Giorgia an. – Telefono a Giorgia.",
     "page": "185-186"
    },
    {
     "id": "u4-4b-018",
-    "target": "Pronto!/?",
+    "target": "Pronto!?",
     "translations": [
-     "Hallo!/?"
+     "Hallo!? (am Telefon)"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "am Telefon",
-    "page": "185-186"
+    "page": "185-186",
+    "related": "▸ pronto/-a"
    },
    {
     "id": "u4-4b-019",
@@ -8218,9 +10862,10 @@ const STOCK_PACKAGES = [
      "verlassen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Lascia perdere!",
     "definition": "",
-    "page": "185-186"
+    "page": "185-186",
+    "related": "F laisser"
    },
    {
     "id": "u4-4b-020",
@@ -8240,7 +10885,7 @@ const STOCK_PACKAGES = [
      "in der Nähe von"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Anna abita vicino al centro.",
     "definition": "",
     "page": "185-186"
    },
@@ -8254,7 +10899,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: i bar",
+    "usage": "pl. i bar",
     "page": "185-186",
     "grammar": {
      "partOfSpeech": "noun",
@@ -8273,9 +10918,12 @@ const STOCK_PACKAGES = [
      "das Weichei"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Non fare il pappamolle!",
     "definition": "",
     "usage": "fam.",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "185-186",
     "grammar": {
      "partOfSpeech": "noun",
@@ -8294,9 +10942,9 @@ const STOCK_PACKAGES = [
      "die Straßenbahn"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Per arrivare in centro puoi prendere il tram.",
     "definition": "",
-    "usage": "Pl.: i tram",
+    "usage": "pl. i tram",
     "page": "185-186",
     "grammar": {
      "partOfSpeech": "noun",
@@ -8315,7 +10963,7 @@ const STOCK_PACKAGES = [
      "überhaupt nicht"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Non abbiamo studiato per niente!",
     "definition": "",
     "usage": "avv.",
     "page": "185-186"
@@ -8328,21 +10976,21 @@ const STOCK_PACKAGES = [
      "demnach"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Dunque … Come posso dire? Ah, ecco …",
     "definition": "",
     "usage": "avv.",
-    "page": "185-186"
+    "page": "185-186",
+    "related": "F donc"
    },
    {
     "id": "u4-4b-027",
     "target": "segnare",
     "translations": [
-     "ein Tor schießen"
+     "hier: ein Tor schießen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La Juve ha segnato.",
     "definition": "",
-    "usage": "hier",
     "page": "185-186"
    },
    {
@@ -8350,10 +10998,10 @@ const STOCK_PACKAGES = [
     "target": "l’intervallo",
     "translations": [
      "die Pause",
-     "die Halbzeitpause"
+     "Halbzeitpause"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Dopo l’intervallo l’Inter ha segnato.",
     "definition": "",
     "page": "185-186"
    },
@@ -8366,8 +11014,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: i gol",
+    "usage": "pl. i gol",
     "page": "185-186",
+    "related": "E goal",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -8397,10 +11046,11 @@ const STOCK_PACKAGES = [
      "aussteigen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Sono arrivata. Devo scendere dal tram.",
     "definition": "",
-    "usage": "Partizip: sceso",
-    "page": "185-186"
+    "usage": "p.p. sceso",
+    "page": "185-186",
+    "related": "F descendre; L descendere"
    },
    {
     "id": "u4-4b-032",
@@ -8409,9 +11059,9 @@ const STOCK_PACKAGES = [
      "die Rangliste"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La Juve è scesa in classifica.",
     "definition": "",
-    "usage": "Pl.: le classifiche",
+    "usage": "pl. le classifiche",
     "page": "185-186",
     "grammar": {
      "partOfSpeech": "noun",
@@ -8430,9 +11080,10 @@ const STOCK_PACKAGES = [
      "der Abend"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La sera sono stanca e vado a letto.",
     "definition": "",
     "page": "185-186",
+    "related": "F le soir",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -8473,7 +11124,7 @@ const STOCK_PACKAGES = [
      "unterhaltsam"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il fine settimana è stato divertente.",
     "definition": "",
     "page": "185-186"
    },
@@ -8485,10 +11136,11 @@ const STOCK_PACKAGES = [
      "siegen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La Juve ha vinto 2:1.",
     "definition": "",
-    "usage": "Partizip: vinto",
-    "page": "185-186"
+    "usage": "p.p. vinto",
+    "page": "185-186",
+    "related": "L vincere"
    },
    {
     "id": "u4-4b-037",
@@ -8499,8 +11151,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Partizip: riso",
-    "page": "185-186"
+    "usage": "p.p. riso",
+    "page": "185-186",
+    "related": "F rire; L ridere"
    },
    {
     "id": "u4-4b-038",
@@ -8509,7 +11162,7 @@ const STOCK_PACKAGES = [
      "viel"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "È stato divertente. Abbiamo riso parecchio.",
     "definition": "",
     "usage": "avv.",
     "page": "185-186"
@@ -8522,9 +11175,10 @@ const STOCK_PACKAGES = [
      "nett"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "I genitori di Leo sono gentili.",
     "definition": "",
-    "page": "185-186"
+    "page": "185-186",
+    "related": "F gentil/-le"
    },
    {
     "id": "u4-4b-040",
@@ -8533,7 +11187,7 @@ const STOCK_PACKAGES = [
      "verbringen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Abbiamo passato una domenica bellissima.",
     "definition": "",
     "page": "185-186"
    },
@@ -8557,7 +11211,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "am Telefon",
+    "usage": "Telefonat",
     "page": "185-186"
    },
    {
@@ -8597,7 +11251,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -8636,9 +11290,10 @@ const STOCK_PACKAGES = [
      "das Wetter"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Scusa, non ho tempo. A Sestriere non fa spesso brutto tempo.",
     "definition": "",
     "page": "182-183",
+    "related": "F le temps; L tempus",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -8656,9 +11311,10 @@ const STOCK_PACKAGES = [
      "frei"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Nel tempo libero incontro gli amici.",
     "definition": "",
-    "page": "182-183"
+    "page": "182-183",
+    "related": "F libre"
    },
    {
     "id": "u4-approccio-003",
@@ -8689,7 +11345,7 @@ const STOCK_PACKAGES = [
      "die Eltern"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "I miei genitori hanno una casa a Sestriere.",
     "definition": "",
     "usage": "pl.",
     "page": "182-183",
@@ -8712,7 +11368,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "182-183"
+    "page": "182-183",
+    "related": "E apartment; F l’appartement"
    },
    {
     "id": "u4-approccio-007",
@@ -8723,7 +11380,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "182-183"
+    "page": "182-183",
+    "related": "≠ cercare; F trouver"
    },
    {
     "id": "u4-approccio-008",
@@ -8732,7 +11390,7 @@ const STOCK_PACKAGES = [
      "der Schnee"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A Sestriere Leo trova sempre neve.",
     "definition": "",
     "page": "182-183",
     "grammar": {
@@ -8754,7 +11412,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: le politiche",
+    "usage": "pl. le politiche",
     "page": "182-183",
     "grammar": {
      "partOfSpeech": "noun",
@@ -8774,20 +11432,21 @@ const STOCK_PACKAGES = [
      "diskutieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mi piace discutere di politica.",
     "definition": "",
-    "page": "182-183"
+    "page": "182-183",
+    "related": "F discuter"
    },
    {
     "id": "u4-approccio-011",
     "target": "suonare",
     "translations": [
-     "spielen"
+     "spielen + Instrument"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Instrument",
+    "usage": "Unterscheide: Fußball spielen – giocare a calcio; Klavier spielen – suonare il pianoforte. Das Musikinstrument steht nach suonare immer mit dem bestimmten Artikel.",
     "page": "182-183"
    },
    {
@@ -8797,9 +11456,10 @@ const STOCK_PACKAGES = [
      "das Klavier"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Anna suona il pianoforte.",
     "definition": "",
     "page": "182-183",
+    "related": "E piano",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -8820,6 +11480,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "182-183",
+    "related": "F la flûte traversière",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -8837,7 +11498,7 @@ const STOCK_PACKAGES = [
      "das Instrument"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il mio strumento preferito è il pianoforte.",
     "definition": "",
     "page": "182-183",
     "grammar": {
@@ -8859,7 +11520,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "182-183"
+    "usage": "Unterscheide: Perché la matematica è facile per Khalid? – Warum ist Mathematik einfach für Khalid? / La matematica è facile per Khalid perché capisce tutto subito. – Mathematik ist einfach für Khalid, weil er alles sofort versteht.",
+    "page": "182-183",
+    "related": "F accompagner; E to accompany"
    },
    {
     "id": "u4-approccio-016",
@@ -8870,7 +11533,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "182-183"
+    "page": "182-183",
+    "related": "F chanter; L cantare"
    },
    {
     "id": "u4-approccio-017",
@@ -8881,8 +11545,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: classici/classiche",
-    "page": "182-183"
+    "usage": "pl. classici/classiche",
+    "page": "182-183",
+    "related": "F classique"
    },
    {
     "id": "u4-approccio-018",
@@ -8891,9 +11556,10 @@ const STOCK_PACKAGES = [
      "leicht"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La musica pop è musica leggera.",
     "definition": "",
-    "page": "182-183"
+    "page": "182-183",
+    "related": "F léger, légère"
    },
    {
     "id": "u4-approccio-019",
@@ -8902,7 +11568,7 @@ const STOCK_PACKAGES = [
      "Volleyball"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Anna gioca a pallavolo.",
     "definition": "",
     "page": "182-183",
     "grammar": {
@@ -8922,7 +11588,7 @@ const STOCK_PACKAGES = [
      "der Winter"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "D’inverno c’è la neve.",
     "definition": "",
     "usage": "m.",
     "page": "182-183"
@@ -8934,8 +11600,9 @@ const STOCK_PACKAGES = [
      "eislaufen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "D’inverno vado a pattinare.",
     "definition": "",
+    "usage": "Unterscheide: pattinare – eislaufen, inlineskaten; pattinare su(l) ghiaccio – eislaufen; pattinare inline – inlineskaten. Wenn es Missverständnisse geben könnte, muss man sul ghiaccio oder inline entsprechend ergänzen.",
     "page": "182-183"
    },
    {
@@ -8945,9 +11612,10 @@ const STOCK_PACKAGES = [
      "die Leidenschaft"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho una passione per l’arte.",
     "definition": "",
     "page": "182-183",
+    "related": "E passion; F la passion",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -8965,9 +11633,9 @@ const STOCK_PACKAGES = [
      "das Hobby"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Qual è il tuo hobby? – Suono il flauto.",
     "definition": "",
-    "usage": "Pl.: gli hobby",
+    "usage": "pl. gli hobby",
     "page": "182-183"
    },
    {
@@ -8977,7 +11645,7 @@ const STOCK_PACKAGES = [
      "in Verbindung mit jdm/etw."
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Con il computer sono collegato con gli amici.",
     "definition": "",
     "page": "182-183"
    },
@@ -8988,7 +11656,7 @@ const STOCK_PACKAGES = [
      "außerdem"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Amo il calcio e inoltre mi piace la musica.",
     "definition": "",
     "usage": "avv.",
     "page": "182-183"
@@ -9000,7 +11668,7 @@ const STOCK_PACKAGES = [
      "gern(e)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ascolto volentieri la musica di Liga.",
     "definition": "",
     "usage": "avv.",
     "page": "182-183"
@@ -9024,9 +11692,10 @@ const STOCK_PACKAGES = [
      "die Gitarre"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il mio strumento preferito è la chitarra.",
     "definition": "",
     "page": "182-183",
+    "related": "E guitar",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -9047,6 +11716,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "182-183",
+    "related": "E group; F le groupe",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -9064,7 +11734,7 @@ const STOCK_PACKAGES = [
      "die Rock-Gruppe"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Suono la chitarra in un gruppo.",
     "definition": "",
     "page": "182-183",
     "grammar": {
@@ -9086,7 +11756,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "182-183"
+    "page": "182-183",
+    "related": "▸ perché?"
    },
    {
     "id": "u4-approccio-032",
@@ -9095,7 +11766,7 @@ const STOCK_PACKAGES = [
      "das Training"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Gioco a calcio. Vado all’allenamento il mercoledì.",
     "definition": "",
     "page": "182-183"
    },
@@ -9106,7 +11777,7 @@ const STOCK_PACKAGES = [
      "modern"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Giorgia fa danza moderna.",
     "definition": "",
     "page": "182-183"
    },
@@ -9120,6 +11791,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "182-183",
+    "related": "E movement; F le mouvement",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -9137,7 +11809,7 @@ const STOCK_PACKAGES = [
      "der Applaus"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Amo l’applauso quando ballo.",
     "definition": "",
     "page": "182-183"
    },
@@ -9151,6 +11823,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "182-183",
+    "related": "L finis",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -9170,8 +11843,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: i fine settimana",
+    "usage": "pl. i fine settimana",
     "page": "182-183",
+    "related": "▸ la settimana",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -9190,9 +11864,10 @@ const STOCK_PACKAGES = [
      "das Gebirge"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Sabato vado in montagna.",
     "definition": "",
     "page": "182-183",
+    "related": "E mountain",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -9210,10 +11885,11 @@ const STOCK_PACKAGES = [
      "der Sommer"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "D’estate vado in spiaggia.",
     "definition": "",
     "usage": "f.",
-    "page": "182-183"
+    "page": "182-183",
+    "related": "≠ l’inverno; F l’été"
    }
   ]
  },
@@ -9241,7 +11917,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -9281,7 +11957,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "187-188"
+    "page": "187-188",
+    "related": "E angel; F l’ange"
    },
    {
     "id": "u5-5a-002",
@@ -9291,9 +11968,9 @@ const STOCK_PACKAGES = [
      "verrückt"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho una novità pazzesca!",
     "definition": "",
-    "usage": "Pl.: pazzeschi/-che",
+    "usage": "pl. pazzeschi/-che",
     "page": "187-188"
    },
    {
@@ -9303,10 +11980,11 @@ const STOCK_PACKAGES = [
      "der Anfang"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Partiamo dall’inizio.",
     "definition": "",
-    "usage": "Pl.: gli inizi",
-    "page": "187-188"
+    "usage": "pl. gli inizi",
+    "page": "187-188",
+    "related": "≠ la fine; L initium"
    },
    {
     "id": "u5-5a-004",
@@ -9318,19 +11996,29 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "avv.",
-    "page": "187-188"
+    "page": "187-188",
+    "related": "≠ domani; F hier; L heri"
    },
    {
     "id": "u5-5a-005",
-    "target": "il/la parente",
+    "target": "il parente",
     "translations": [
      "der/die Verwandte"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Unterscheide: it. i parenti – die Verwandten; engl. parents – die Eltern",
     "definition": "",
-    "usage": "Pl.: i parenti",
-    "page": "187-188"
+    "usage": "pl. i parenti",
+    "page": "187-188",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
    },
    {
     "id": "u5-5a-006",
@@ -9339,9 +12027,10 @@ const STOCK_PACKAGES = [
      "einladen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Alla festa invito gli amici.",
     "definition": "",
-    "page": "187-188"
+    "page": "187-188",
+    "related": "E invite; F inviter"
    },
    {
     "id": "u5-5a-007",
@@ -9353,10 +12042,11 @@ const STOCK_PACKAGES = [
      "den"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La nonna, che ha 82 anni, ha ballato.",
     "definition": "",
-    "usage": "Relativpronomen",
-    "page": "187-188"
+    "usage": "pron. rel. Das Wort che hat verschiedene Verwendungen: Che lingue parli? – Welche Sprachen sprichst du? / Che buono! – Wie lecker! / Che fortuna! – Was für ein Glück! / Che cosa ti piace? – Was gefällt dir? / Sappiamo che è così. – Wir wissen, dass es so ist. / Che ore sono? – Wieviel Uhr ist es? / Il ragazzo che vedi è Khalid. – Der Junge, den du siehst, ist Khalid.",
+    "page": "187-188",
+    "related": "F qui/-e"
    },
    {
     "id": "u5-5a-008",
@@ -9366,7 +12056,7 @@ const STOCK_PACKAGES = [
      "meistens"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mia cugina di solito è simpatica.",
     "definition": "",
     "usage": "avv.",
     "page": "187-188"
@@ -9376,13 +12066,14 @@ const STOCK_PACKAGES = [
     "target": "rompere",
     "translations": [
      "kaputt machen",
-     "nerven"
+     "hier: nerven"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Partizip: rotto; hier: nerven",
-    "page": "187-188"
+    "usage": "p.p. rotto",
+    "page": "187-188",
+    "related": "L rumpere"
    },
    {
     "id": "u5-5a-010",
@@ -9394,9 +12085,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "mantenere"
     ],
-    "example": "",
+    "example": "Puoi mantenere un segreto?",
     "definition": "",
-    "page": "187-188"
+    "usage": "Abc",
+    "page": "187-188",
+    "related": "E to maintain; ▸ tenere"
    },
    {
     "id": "u5-5a-011",
@@ -9408,6 +12101,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "187-188",
+    "related": "E secret; F le secret",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -9429,7 +12123,9 @@ const STOCK_PACKAGES = [
     ],
     "example": "",
     "definition": "",
-    "page": "187-188"
+    "usage": "Abc",
+    "page": "187-188",
+    "related": "F tenir; L tenere"
    },
    {
     "id": "u5-5a-013",
@@ -9439,7 +12135,7 @@ const STOCK_PACKAGES = [
      "der Vortrag"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mio zio ha tenuto un discorso.",
     "definition": "",
     "page": "187-188",
     "grammar": {
@@ -9457,12 +12153,13 @@ const STOCK_PACKAGES = [
     "target": "la donna",
     "translations": [
      "die Frau",
-     "die Dame"
+     "Dame"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
     "page": "187-188",
+    "related": "L domina",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -9482,7 +12179,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "187-188"
+    "page": "187-188",
+    "related": "▸ la vita"
    },
    {
     "id": "u5-5a-016",
@@ -9491,7 +12189,7 @@ const STOCK_PACKAGES = [
      "für sein/ihr Alter"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mia nonna è molto vivace alla sua età.",
     "definition": "",
     "page": "187-188"
    },
@@ -9504,7 +12202,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "187-188"
+    "page": "187-188",
+    "related": "E sincere; F sincère"
    },
    {
     "id": "u5-5a-018",
@@ -9515,17 +12214,17 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "usage": "Abc: so – ich weiß; ho saputo – ich habe erfahren",
     "page": "187-188"
    },
    {
     "id": "u5-5a-019",
     "target": "la vetrina",
     "translations": [
-     "das Schaufenster",
-     "die Schaufensterscheibe"
+     "das/die Schaufenster(scheibe)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Papà ha rotto una vetrina con il pallone.",
     "definition": "",
     "page": "187-188",
     "grammar": {
@@ -9542,13 +12241,14 @@ const STOCK_PACKAGES = [
     "id": "u5-5a-020",
     "target": "la serata",
     "translations": [
-     "der Abend"
+     "der Abend (Verlauf)"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "im Verlauf",
+    "usage": "Unterscheide: 1. den Abend in seinem Verlauf: Abbiamo passato una bella serata al ristorante. – Wir haben einen schönen Abend im Restaurant verbracht. 2. den Abend als Zeitangabe: Domani sera andiamo al ristorante. – Morgen Abend gehen wir ins Restaurant.",
     "page": "187-188",
+    "related": "▸ la sera; F la soirée",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -9566,9 +12266,10 @@ const STOCK_PACKAGES = [
      "das Abendessen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Stasera mio padre prepara la cena.",
     "definition": "",
     "page": "187-188",
+    "related": "L cena",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -9581,25 +12282,46 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "u5-5a-022",
-    "target": "il/la cameriere/-a",
+    "target": "il cameriere",
     "translations": [
-     "der Kellner / die Kellnerin"
+     "der Kellner"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il cameriere del ristorante porta la cena.",
     "definition": "",
-    "page": "187-188"
+    "usage": "f. la cameriera",
+    "page": "187-188",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
    },
    {
     "id": "u5-5a-023",
-    "target": "il/la vicino/-a",
+    "target": "il vicino",
     "translations": [
-     "der Nachbar / die Nachbarin"
+     "der/die Nachbar/-in"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il mio vicino ha un cane.",
     "definition": "",
-    "page": "187-188"
+    "usage": "f. la vicina",
+    "page": "187-188",
+    "related": "▸ vicino a; L vicinus",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
    },
    {
     "id": "u5-5a-024",
@@ -9608,9 +12330,10 @@ const STOCK_PACKAGES = [
      "schüchtern"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il ragazzo parla poco – è timido.",
     "definition": "",
-    "page": "187-188"
+    "page": "187-188",
+    "related": "E timid"
    },
    {
     "id": "u5-5a-025",
@@ -9620,8 +12343,9 @@ const STOCK_PACKAGES = [
      "einen schlechten Eindruck machen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho fatto una figuraccia davanti a tutti.",
     "definition": "",
+    "usage": "Abc",
     "page": "187-188"
    },
    {
@@ -9631,10 +12355,11 @@ const STOCK_PACKAGES = [
      "öffnen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il cameriere apre la bottiglia.",
     "definition": "",
-    "usage": "Partizip: aperto",
-    "page": "187-188"
+    "usage": "p.p. aperto",
+    "page": "187-188",
+    "related": "▸ aperto/-a; L aperire"
    },
    {
     "id": "u5-5a-027",
@@ -9643,9 +12368,10 @@ const STOCK_PACKAGES = [
      "die Flasche"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il cameriere apre la bottiglia.",
     "definition": "",
     "page": "187-188",
+    "related": "E bottle; F la bouteille",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -9661,13 +12387,13 @@ const STOCK_PACKAGES = [
     "target": "lavare",
     "translations": [
      "(ab)waschen",
-     "nass spritzen"
+     "hier: nass spritzen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Lavo le mani prima di mangiare.",
     "definition": "",
-    "usage": "hier: nass spritzen",
-    "page": "187-188"
+    "page": "187-188",
+    "related": "F laver; L lavare"
    },
    {
     "id": "u5-5a-029",
@@ -9676,9 +12402,10 @@ const STOCK_PACKAGES = [
      "arm"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il povero cane è bagnato.",
     "definition": "",
-    "page": "187-188"
+    "page": "187-188",
+    "related": "E poor; F pauvre; L pauper/-eris"
    },
    {
     "id": "u5-5a-030",
@@ -9687,7 +12414,7 @@ const STOCK_PACKAGES = [
      "plötzlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Improvvisamente la porta si apre.",
     "definition": "",
     "usage": "avv.",
     "page": "187-188"
@@ -9699,7 +12426,7 @@ const STOCK_PACKAGES = [
      "Herzlichen Glückwunsch!"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Tanti auguri, nonna!",
     "definition": "",
     "page": "187-188"
    },
@@ -9710,7 +12437,7 @@ const STOCK_PACKAGES = [
      "Alles Gute zum Geburtstag!"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Buon compleanno, Anna!",
     "definition": "",
     "page": "187-188"
    },
@@ -9723,7 +12450,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "187-188"
+    "page": "187-188",
+    "related": "▸ conoscere; F reconnaître"
    },
    {
     "id": "u5-5a-034",
@@ -9732,37 +12460,39 @@ const STOCK_PACKAGES = [
      "viel"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho tanti amici.",
     "definition": "",
-    "page": "187-188"
+    "page": "187-188",
+    "related": "≠ poco/-a; L tantus"
    },
    {
     "id": "u5-5a-035",
     "target": "fa",
     "translations": [
-     "vor"
+     "vor (zeitlich)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "L’autobus è partito cinque minuti fa.",
     "definition": "",
-    "usage": "zeitlich, nachgestellt",
+    "usage": "prep. (nachgestellt). Unterscheide: due anni fa – vor zwei Jahren; Anna fa i compiti. – Anna macht Hausaufgaben.",
     "page": "187-188"
    },
    {
     "id": "u5-5a-036",
-    "target": "i gemelli",
+    "target": "il gemello",
     "translations": [
-     "die Zwillinge"
+     "der Zwilling"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Anna ha due fratelli gemelli.",
     "definition": "",
-    "usage": "pl.",
+    "usage": "pl. i gemelli",
     "page": "187-188",
+    "related": "F les jumeaux; L gemelli",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
-     "article": "i"
+     "article": "il"
     },
     "answerPolicy": {
      "article": "required",
@@ -9777,7 +12507,7 @@ const STOCK_PACKAGES = [
      "gleich"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Frank è uguale a Matthias. Sono come gemelli.",
     "definition": "",
     "usage": "agg.",
     "page": "187-188"
@@ -9790,7 +12520,7 @@ const STOCK_PACKAGES = [
      "die Art"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il calcio è un tipo di sport.",
     "definition": "",
     "page": "187-188",
     "grammar": {
@@ -9811,7 +12541,7 @@ const STOCK_PACKAGES = [
      "witzig"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mio zio è molto divertente e spiritoso.",
     "definition": "",
     "page": "187-188"
    },
@@ -9842,13 +12572,15 @@ const STOCK_PACKAGES = [
      "schwierig"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il compito di latino è difficile.",
     "definition": "",
-    "page": "187-188"
+    "usage": "Unterscheide: Il compito è facile. – Die Aufgabe ist einfach/leicht (vgl. engl. easy). Il compito è difficile. – Die Aufgabe ist schwierig/schwer (vgl. engl. difficult). La borsa è leggera. – Die Tasche ist leicht (Gewicht; vgl. engl. light). La borsa è pesante. – Die Tasche ist schwer (Gewicht; vgl. engl. heavy).",
+    "page": "187-188",
+    "related": "≠ facile; L difficilis/-e"
    },
    {
     "id": "u5-5a-042",
-    "target": "Italia",
+    "target": "l’Italia",
     "translations": [
      "Italien"
     ],
@@ -9865,9 +12597,11 @@ const STOCK_PACKAGES = [
      "gut verstehen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Io e mia sorella andiamo d’accordo.",
     "definition": "",
-    "page": "187-188"
+    "usage": "Abc",
+    "page": "187-188",
+    "related": "F être d’accord"
    },
    {
     "id": "u5-5a-044",
@@ -9876,7 +12610,7 @@ const STOCK_PACKAGES = [
      "das Profil"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Quasi tutti hanno un profilo in Internet.",
     "definition": "",
     "page": "187-188",
     "grammar": {
@@ -9893,47 +12627,61 @@ const STOCK_PACKAGES = [
     "id": "u5-5a-045",
     "target": "l’abbraccio",
     "translations": [
-     "die Umarmung"
+     "die Umarmung",
+     "Herzliche Grüße (Brief)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Un abbraccio dalla tua amica!",
     "definition": "",
-    "usage": "Pl.: gli abbracci",
-    "page": "187-188"
+    "usage": "pl. gli abbracci. Un abbraccio",
+    "page": "187-188",
+    "related": "E embrace"
    },
    {
     "id": "u5-5a-046",
-    "target": "Un abbraccio",
-    "translations": [
-     "Herzliche Grüße"
-    ],
-    "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
-    "usage": "Brief, Mail",
-    "page": "187-188"
-   },
-   {
-    "id": "u5-5a-047",
     "target": "A presto!",
     "translations": [
      "Bis bald!"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A presto, ragazzi!",
     "definition": "",
     "page": "187-188"
    },
    {
-    "id": "u5-5a-048",
+    "id": "u5-5a-047",
     "target": "il saluto",
     "translations": [
      "der Gruß"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Tanti saluti a tutti!",
     "definition": "",
     "page": "187-188",
+    "related": "F le salut; L salut",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u5-5a-048",
+    "target": "il consiglio",
+    "translations": [
+     "der Rat",
+     "Tipp"
+    ],
+    "acceptedAnswers": [],
+    "example": "Hai un consiglio per me?",
+    "definition": "",
+    "usage": "pl. i consigli",
+    "page": "187-188",
+    "related": "F le conseil; L consilium",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -9946,36 +12694,13 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "u5-5a-049",
-    "target": "il consiglio",
-    "translations": [
-     "der Rat",
-     "der Tipp"
-    ],
-    "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
-    "usage": "Pl.: i consigli",
-    "page": "187-188",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine",
-     "article": "il"
-    },
-    "answerPolicy": {
-     "article": "required",
-     "typo": "hint"
-    }
-   },
-   {
-    "id": "u5-5a-050",
     "target": "Roma",
     "translations": [
-     "Rom"
+     "Rom (die Hauptstadt von Italien)"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "die Hauptstadt von Italien",
     "page": "187-188"
    }
   ]
@@ -10003,7 +12728,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -10040,7 +12765,7 @@ const STOCK_PACKAGES = [
      "römisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La mia amica è di Roma. È romana.",
     "definition": "",
     "page": "188-190"
    },
@@ -10055,7 +12780,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "avv.",
-    "page": "188-190"
+    "page": "188-190",
+    "related": "▸ ultimo/-a"
    },
    {
     "id": "u5-5b-003",
@@ -10065,10 +12791,11 @@ const STOCK_PACKAGES = [
      "viel"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A scuola devo studiare tanto!",
     "definition": "",
-    "usage": "avv.",
-    "page": "188-190"
+    "usage": "avv. Unterscheide: Il film è poco interessante. – Der Film ist wenig/kaum interessant. La pizza è molto buona. – Die Pizza ist sehr gut. I cugini sono tanto carini. – Die Cousins sind sehr süß. La mia camera è troppo piccola. – Mein Zimmer ist zu klein.",
+    "page": "188-190",
+    "related": "= molto; F tant"
    },
    {
     "id": "u5-5b-004",
@@ -10077,7 +12804,7 @@ const STOCK_PACKAGES = [
      "(das) Ostern"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A Pasqua ci sono le vacanze.",
     "definition": "",
     "page": "188-190",
     "grammar": {
@@ -10097,9 +12824,9 @@ const STOCK_PACKAGES = [
      "die Reise"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "In vacanza voglio fare un viaggio a Roma.",
     "definition": "",
-    "usage": "Pl.: i viaggi",
+    "usage": "pl. i viaggi",
     "page": "188-190",
     "grammar": {
      "partOfSpeech": "noun",
@@ -10118,9 +12845,10 @@ const STOCK_PACKAGES = [
      "die Ruhe"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mantieni la calma!",
     "definition": "",
     "page": "188-190",
+    "related": "E calm; F le calme",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -10138,9 +12866,10 @@ const STOCK_PACKAGES = [
      "der Flug"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Cerco un volo per Roma in Internet.",
     "definition": "",
     "page": "188-190",
+    "related": "F le vol",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -10158,9 +12887,10 @@ const STOCK_PACKAGES = [
      "der Preis"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho trovato un volo a buon prezzo.",
     "definition": "",
     "page": "188-190",
+    "related": "E price; L pretium",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -10190,9 +12920,10 @@ const STOCK_PACKAGES = [
      "kaufen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Compro un vestito al negozio.",
     "definition": "",
-    "page": "188-190"
+    "page": "188-190",
+    "related": "≠ vendere"
    },
    {
     "id": "u5-5b-011",
@@ -10202,9 +12933,10 @@ const STOCK_PACKAGES = [
      "das Ticket"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Filippo organizza i biglietti per il volo.",
     "definition": "",
     "page": "188-190",
+    "related": "F le billet",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -10222,9 +12954,10 @@ const STOCK_PACKAGES = [
      "der Flughafen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "All’aeroporto ci sono molti aerei.",
     "definition": "",
-    "page": "188-190"
+    "page": "188-190",
+    "related": "E airport; F l’aéroport"
    },
    {
     "id": "u5-5b-013",
@@ -10233,9 +12966,9 @@ const STOCK_PACKAGES = [
      "der Bus"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Abbiamo perso l’autobus.",
     "definition": "",
-    "usage": "Pl.: gli autobus",
+    "usage": "pl. gli autobus",
     "page": "188-190"
    },
    {
@@ -10245,9 +12978,10 @@ const STOCK_PACKAGES = [
      "der Bahnhof"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Prendo l’autobus dalla stazione.",
     "definition": "",
     "page": "188-190",
+    "related": "E station",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -10277,10 +13011,11 @@ const STOCK_PACKAGES = [
      "versprechen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Telefono subito, promesso!",
     "definition": "",
-    "usage": "Partizip: promesso",
-    "page": "188-190"
+    "usage": "p.p. promesso",
+    "page": "188-190",
+    "related": "L promittere"
    },
    {
     "id": "u5-5b-017",
@@ -10289,7 +13024,7 @@ const STOCK_PACKAGES = [
      "die Haltestelle"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Devo scendere alla prossima fermata.",
     "definition": "",
     "page": "188-190",
     "grammar": {
@@ -10310,7 +13045,7 @@ const STOCK_PACKAGES = [
      "erwarten"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "I ragazzi aspettano l’autobus alla fermata.",
     "definition": "",
     "page": "188-190"
    },
@@ -10322,9 +13057,10 @@ const STOCK_PACKAGES = [
      "(über)prüfen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Devo controllare l’orario dell’autobus.",
     "definition": "",
-    "page": "188-190"
+    "page": "188-190",
+    "related": "E to control"
    },
    {
     "id": "u5-5b-020",
@@ -10334,9 +13070,10 @@ const STOCK_PACKAGES = [
      "die Bahn"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Prendiamo il treno per il centro.",
     "definition": "",
     "page": "188-190",
+    "related": "E train",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -10367,7 +13104,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: i taxi",
+    "usage": "pl. i taxi",
     "page": "188-190",
     "grammar": {
      "partOfSpeech": "noun",
@@ -10386,9 +13123,10 @@ const STOCK_PACKAGES = [
      "kosten"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il biglietto per il volo costa tanto.",
     "definition": "",
-    "page": "188-190"
+    "page": "188-190",
+    "related": "E to cost"
    },
    {
     "id": "u5-5b-024",
@@ -10398,7 +13136,7 @@ const STOCK_PACKAGES = [
      "eine Menge"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il taxi costa un sacco! Ho un sacco di compiti per domani.",
     "definition": "",
     "usage": "fam.",
     "page": "188-190"
@@ -10413,6 +13151,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "188-190",
+    "related": "▸ essere in ritardo",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -10442,7 +13181,7 @@ const STOCK_PACKAGES = [
      "Das macht nichts!"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Scusa! Sono in ritardo. – Non fa niente!",
     "definition": "",
     "page": "188-190"
    },
@@ -10465,7 +13204,7 @@ const STOCK_PACKAGES = [
      "die Maschine"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Vado all’aeroporto in macchina.",
     "definition": "",
     "page": "188-190",
     "grammar": {
@@ -10487,7 +13226,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "188-190"
+    "page": "188-190",
+    "related": "≠ con; F sans"
    },
    {
     "id": "u5-5b-031",
@@ -10499,9 +13239,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "salire"
     ],
-    "example": "",
+    "example": "Il treno parte. Devo salire.",
     "definition": "",
-    "page": "188-190"
+    "usage": "Abc",
+    "page": "188-190",
+    "related": "≠ scendere"
    },
    {
     "id": "u5-5b-032",
@@ -10511,7 +13253,7 @@ const STOCK_PACKAGES = [
      "in Kürze"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Tra poco siamo arrivati.",
     "definition": "",
     "page": "188-190"
    },
@@ -10523,8 +13265,9 @@ const STOCK_PACKAGES = [
      "gehen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Dalla stazione dobbiamo camminare un po’.",
     "definition": "",
+    "usage": "Unterscheide: Devo camminare circa 35 minuti per arrivare a scuola. – Ich muss etwa 35 Minuten gehen/laufen, um in die Schule zu gelangen. La mattina devo andare a scuola. – Morgens muss ich in die Schule gehen. Mit camminare ist die Bewegung oder Bewegungsart gemeint. Einige Verben bilden das passato prossimo unregelmäßig: Ho camminato un’ora. – Ich bin eine Stunde lang spazieren gegangen.",
     "page": "188-190"
    }
   ]
@@ -10552,7 +13295,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -10589,7 +13332,7 @@ const STOCK_PACKAGES = [
      "das Fest"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Per il mio compleanno faccio una festa.",
     "definition": "",
     "page": "186",
     "grammar": {
@@ -10604,50 +13347,91 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "u5-approccio-002",
-    "target": "il/la figlio/-a",
+    "target": "il figlio",
     "translations": [
-     "der Sohn / die Tochter",
+     "der Sohn",
+     "die Tochter",
      "das Kind"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: i figli",
-    "page": "186"
+    "usage": "f. la figlia; pl. i figli",
+    "page": "186",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
    },
    {
     "id": "u5-approccio-003",
-    "target": "il figlio unico / la figlia unica",
+    "target": "il figlio unico",
     "translations": [
      "das Einzelkind"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Anna non ha fratelli. È figlia unica.",
     "definition": "",
-    "usage": "Pl.: i figli unici / le figlie uniche",
-    "page": "186"
+    "usage": "pl. i figli unici; f. la figlia unica, pl. le figlie uniche",
+    "page": "186",
+    "related": "L filius/-a",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
    },
    {
     "id": "u5-approccio-004",
-    "target": "il/la nonno/-a",
+    "target": "il nonno",
     "translations": [
-     "der Opa / die Oma"
+     "der Opa",
+     "die Oma"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mia nonna ha 70 anni.",
     "definition": "",
-    "page": "186"
+    "usage": "f. la nonna",
+    "page": "186",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
    },
    {
     "id": "u5-approccio-005",
-    "target": "il/la cugino/-a",
+    "target": "il cugino",
     "translations": [
-     "der Cousin / die Cousine"
+     "der/die Kusin/-e"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mio cugino Frank è tedesco.",
     "definition": "",
-    "page": "186"
+    "usage": "f. la cugina",
+    "page": "186",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
    },
    {
     "id": "u5-approccio-006",
@@ -10659,6 +13443,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "186",
+    "related": "E surprise; F la surprise",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -10676,7 +13461,7 @@ const STOCK_PACKAGES = [
      "feiern"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "I ragazzi festeggiano il compleanno di Anna.",
     "definition": "",
     "page": "186"
    },
@@ -10687,7 +13472,7 @@ const STOCK_PACKAGES = [
      "das Restaurant"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Stasera andiamo al ristorante.",
     "definition": "",
     "page": "186",
     "grammar": {
@@ -10707,9 +13492,10 @@ const STOCK_PACKAGES = [
      "wann?"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Quando finisce la scuola?",
     "definition": "",
-    "page": "186"
+    "page": "186",
+    "related": "F quand; L quando"
    },
    {
     "id": "u5-approccio-010",
@@ -10718,7 +13504,7 @@ const STOCK_PACKAGES = [
      "es wird gebeten"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Si prega di rispondere.",
     "definition": "",
     "page": "186"
    },
@@ -10730,7 +13516,7 @@ const STOCK_PACKAGES = [
      "bis spätestens"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Si prega di rispondere entro il primo marzo.",
     "definition": "",
     "usage": "avv.",
     "page": "186"
@@ -10760,7 +13546,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -10799,7 +13585,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "191-192"
+    "page": "191-192",
+    "related": "E jealous; F jaloux, jalouse"
    },
    {
     "id": "u6-6a-002",
@@ -10808,7 +13595,7 @@ const STOCK_PACKAGES = [
      "die Haare"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Vedi i ragazzi con i capelli neri?",
     "definition": "",
     "usage": "pl.",
     "page": "191-192",
@@ -10829,9 +13616,9 @@ const STOCK_PACKAGES = [
      "lockig"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Khalid ha i capelli ricci.",
     "definition": "",
-    "usage": "Pl.: ricci/-e",
+    "usage": "pl. ricci/-e",
     "page": "191-192"
    },
    {
@@ -10841,85 +13628,64 @@ const STOCK_PACKAGES = [
      "jene(r, s)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Quale ragazzo? – Quel ragazzo là!",
     "definition": "",
     "page": "191-192"
    },
    {
     "id": "u6-6a-005",
-    "target": "gli occhiali (da sole)",
-    "translations": [
-     "die (Sonnen-)Brille"
-    ],
-    "acceptedAnswers": [
-     "gli occhiali"
-    ],
-    "example": "",
-    "definition": "",
-    "usage": "pl.",
-    "page": "191-192",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine",
-     "article": "gli"
-    },
-    "answerPolicy": {
-     "article": "required",
-     "typo": "hint"
-    }
-   },
-   {
-    "id": "u6-6a-006",
     "target": "uscire (esco)",
     "translations": [
-     "hinausgehen",
-     "hinauskommen"
+     "hinausgehen/-kommen"
     ],
     "acceptedAnswers": [
      "uscire"
     ],
-    "example": "",
+    "example": "Il ragazzo esce dal negozio.",
     "definition": "",
-    "page": "191-192"
+    "usage": "Abc",
+    "page": "191-192",
+    "related": "≠ entrare; L exire"
    },
    {
-    "id": "u6-6a-007",
+    "id": "u6-6a-006",
     "target": "l’occhio",
     "translations": [
      "das Auge"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Vedo con gli occhi.",
     "definition": "",
-    "usage": "Pl.: gli occhi",
-    "page": "191-192"
+    "usage": "pl. gli occhi",
+    "page": "191-192",
+    "related": "L oculus"
    },
    {
-    "id": "u6-6a-008",
+    "id": "u6-6a-007",
     "target": "marrone",
     "translations": [
      "braun"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Gli occhi di Khalid sono marroni.",
     "definition": "",
     "usage": "agg.",
     "page": "191-192"
    },
    {
-    "id": "u6-6a-009",
+    "id": "u6-6a-008",
     "target": "nascondere",
     "translations": [
      "verstecken"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Khalid nasconde gli occhi sotto gli occhiali.",
     "definition": "",
-    "usage": "Partizip: nascosto",
+    "usage": "p.p. nascosto",
     "page": "191-192"
    },
    {
-    "id": "u6-6a-010",
+    "id": "u6-6a-009",
     "target": "esagerare",
     "translations": [
      "übertreiben"
@@ -10927,16 +13693,17 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "191-192"
+    "page": "191-192",
+    "related": "E to exaggerate; F exagérer"
    },
    {
-    "id": "u6-6a-011",
+    "id": "u6-6a-010",
     "target": "la cassa",
     "translations": [
      "die Kasse"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Al negozio c’è una cassa.",
     "definition": "",
     "page": "191-192",
     "grammar": {
@@ -10950,37 +13717,15 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u6-6a-012",
-    "target": "il/la commesso/-a",
+    "id": "u6-6a-011",
+    "target": "il commesso",
     "translations": [
-     "der Verkäufer / die Verkäuferin"
+     "der/die Verkäufer/-in"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il commesso vende i vestiti.",
     "definition": "",
-    "page": "191-192"
-   },
-   {
-    "id": "u6-6a-013",
-    "target": "l’hard disk esterno",
-    "translations": [
-     "die externe Festplatte"
-    ],
-    "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
-    "page": "191-192"
-   },
-   {
-    "id": "u6-6a-014",
-    "target": "il film",
-    "translations": [
-     "der Film"
-    ],
-    "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
-    "usage": "Pl.: i film",
+    "usage": "f. la commessa",
     "page": "191-192",
     "grammar": {
      "partOfSpeech": "noun",
@@ -10993,53 +13738,101 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u6-6a-015",
+    "id": "u6-6a-012",
+    "target": "l’hard disk esterno",
+    "translations": [
+     "die externe Festplatte"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
+    "page": "191-192"
+   },
+   {
+    "id": "u6-6a-013",
+    "target": "il film",
+    "translations": [
+     "der Film"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ho visto un film in tv.",
+    "definition": "",
+    "usage": "pl. i film",
+    "page": "191-192",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u6-6a-014",
     "target": "tardi",
     "translations": [
      "spät"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Sono stanco. Sono andato al letto tardi.",
     "definition": "",
     "usage": "avv.",
-    "page": "191-192"
+    "page": "191-192",
+    "related": "≠ presto; F tard"
+   },
+   {
+    "id": "u6-6a-015",
+    "target": "il collega",
+    "translations": [
+     "der Kollege",
+     "die Kollegin"
+    ],
+    "acceptedAnswers": [],
+    "example": "C’è tanto da fare, colleghi!",
+    "definition": "",
+    "usage": "f. la collega; pl. i colleghi/le colleghe",
+    "page": "191-192",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
    },
    {
     "id": "u6-6a-016",
-    "target": "il/la collega",
-    "translations": [
-     "der Kollege / die Kollegin"
-    ],
-    "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
-    "usage": "Pl.: i colleghi / le colleghe",
-    "page": "191-192"
-   },
-   {
-    "id": "u6-6a-017",
     "target": "da",
     "translations": [
      "zu"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "C’è tanto da fare.",
     "definition": "",
+    "usage": "Die Präposition da hat verschiedene Verwendungen: Filippo è da Leonardo. – Filippo ist bei Leonardo. / Giorgia parte da Roma. – Giorgia reist aus Rom ab. / Ci sono molte cose da mangiare. – Es gibt viele Dinge zu essen.",
     "page": "191-192"
    },
    {
-    "id": "u6-6a-018",
+    "id": "u6-6a-017",
     "target": "mangiare",
     "translations": [
      "essen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A cena la famiglia mangia insieme.",
     "definition": "",
-    "page": "191-192"
+    "page": "191-192",
+    "related": "F manger"
    },
    {
-    "id": "u6-6a-019",
+    "id": "u6-6a-018",
     "target": "bere (bevo)",
     "translations": [
      "trinken"
@@ -11047,22 +13840,25 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "bere"
     ],
-    "example": "",
+    "example": "Tutti portano qualcosa da mangiare e da bere.",
     "definition": "",
-    "usage": "Partizip: bevuto",
-    "page": "191-192"
+    "usage": "Abc; p.p. bevuto",
+    "page": "191-192",
+    "related": "L bibere"
    },
    {
-    "id": "u6-6a-020",
+    "id": "u6-6a-019",
     "target": "chiamare",
     "translations": [
      "rufen",
      "anrufen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Invito anche Anna. La chiamo subito.",
     "definition": "",
-    "page": "191-192"
+    "usage": "Unterscheide: Chiamo Anna. – Ich rufe Anna an. / Mi chiamo Anna. – Ich heiße Anna.",
+    "page": "191-192",
+    "related": "L clamare"
    }
   ]
  },
@@ -11090,7 +13886,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -11131,6 +13927,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "192-194",
+    "related": "F le pain; L panis",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -11149,7 +13946,7 @@ const STOCK_PACKAGES = [
      "die Semmel"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A scuola mangio un panino.",
     "definition": "",
     "page": "192-194",
     "grammar": {
@@ -11171,6 +13968,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "usage": "un etto – 100 Gramm; due etti – 200 Gramm; tre etti – 300 Gramm etc.",
     "page": "192-194"
    },
    {
@@ -11180,7 +13978,7 @@ const STOCK_PACKAGES = [
      "der Schinken"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Prendo un etto di prosciutto.",
     "definition": "",
     "page": "192-194",
     "grammar": {
@@ -11202,7 +14000,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "192-194"
+    "page": "192-194",
+    "related": "F cru(e)"
    },
    {
     "id": "u6-6b-006",
@@ -11211,7 +14010,7 @@ const STOCK_PACKAGES = [
      "die Orangenlimonade"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Da bere ho portato una bottiglia di aranciata.",
     "definition": "",
     "page": "192-194"
    },
@@ -11222,7 +14021,7 @@ const STOCK_PACKAGES = [
      "die Tüte"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Per la spesa prendo una busta.",
     "definition": "",
     "page": "192-194",
     "grammar": {
@@ -11242,7 +14041,7 @@ const STOCK_PACKAGES = [
      "die Chips"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Amo mangiare le patatine davanti alla tv.",
     "definition": "",
     "usage": "pl.",
     "page": "192-194",
@@ -11263,7 +14062,7 @@ const STOCK_PACKAGES = [
      "die Person"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Prepariamo una cena per sei persone.",
     "definition": "",
     "page": "192-194",
     "grammar": {
@@ -11283,10 +14082,11 @@ const STOCK_PACKAGES = [
      "das Ei"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A Pasqua mangio le uova.",
     "definition": "",
-    "usage": "m., Pl.: le uova (f.)",
-    "page": "192-194"
+    "usage": "m.; pl. le uova f.",
+    "page": "192-194",
+    "related": "F l’œuf"
    },
    {
     "id": "u6-6b-011",
@@ -11315,7 +14115,7 @@ const STOCK_PACKAGES = [
      "die Butter"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mi piace il pane con burro.",
     "definition": "",
     "page": "192-194",
     "grammar": {
@@ -11335,9 +14135,9 @@ const STOCK_PACKAGES = [
      "der Saft"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Bevo un succo.",
     "definition": "",
-    "usage": "Pl.: i succhi",
+    "usage": "pl. i succhi",
     "page": "192-194",
     "grammar": {
      "partOfSpeech": "noun",
@@ -11359,6 +14159,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "192-194",
+    "related": "E fruit; F le fruit",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -11377,7 +14178,7 @@ const STOCK_PACKAGES = [
      "einige"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho portato delle mele.",
     "definition": "",
     "page": "192-194"
    },
@@ -11388,7 +14189,7 @@ const STOCK_PACKAGES = [
      "der Salat"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Anna prepara un’insalata di pomodori.",
     "definition": "",
     "page": "192-194"
    },
@@ -11419,7 +14220,7 @@ const STOCK_PACKAGES = [
      "das Schwein"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Khalid non mangia la carne di maiale.",
     "definition": "",
     "page": "192-194",
     "grammar": {
@@ -11442,8 +14243,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: i formaggi",
+    "usage": "pl. i formaggi. il panino al formaggio – das Käsebrötchen; il panino al prosciutto – das Schinkenbrötchen",
     "page": "192-194",
+    "related": "F le fromage",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -11462,9 +14264,9 @@ const STOCK_PACKAGES = [
      "dazu"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mi mancano delle mele. Ne prendo cinque.",
     "definition": "",
-    "usage": "avv.",
+    "usage": "avv. Beachte die Satzstellung: Mi piace questo formaggio. Ne prendo due etti. Ne steht unmittelbar vor dem konjugierten Verb.",
     "page": "192-194"
    },
    {
@@ -11488,9 +14290,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "mancare"
     ],
-    "example": "",
+    "example": "Per l’insalata mancano i pomodori.",
     "definition": "",
-    "page": "192-194"
+    "usage": "Abc",
+    "page": "192-194",
+    "related": "F manquer"
    },
    {
     "id": "u6-6b-023",
@@ -11502,7 +14306,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "avv.",
-    "page": "192-194"
+    "page": "192-194",
+    "related": "F meilleur(e); L melior"
    },
    {
     "id": "u6-6b-024",
@@ -11512,9 +14317,10 @@ const STOCK_PACKAGES = [
      "senden"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Anna manda un messaggio a Leo.",
     "definition": "",
-    "page": "192-194"
+    "page": "192-194",
+    "related": "L mandare"
    },
    {
     "id": "u6-6b-025",
@@ -11524,9 +14330,9 @@ const STOCK_PACKAGES = [
      "bitten"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Giorgia chiama Leo e gli chiede di venire.",
     "definition": "",
-    "usage": "Partizip: chiesto",
+    "usage": "p.p. chiesto. Beachte die verschiedenen Verwendungen: Khalid chiede un po’ di pane a suo padre. – Khalid bittet seinen Vater um etwas Brot. / Anna chiede a Khalid: „Vieni stasera?“ – Anna fragt Khalid: „Kommst du heute Abend?“ / Anna chiede a Khalid di venire alla festa. – Anna bittet Khalid zum Fest zu kommen. Ein Infinitiv wird an chiedere mit der Präposition di angeschlossen.",
     "page": "192-194"
    },
    {
@@ -11537,9 +14343,11 @@ const STOCK_PACKAGES = [
      "benötigen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho bisogno di pane per la cena.",
     "definition": "",
-    "page": "192-194"
+    "usage": "Abc",
+    "page": "192-194",
+    "related": "F avoir besoin"
    },
    {
     "id": "u6-6b-027",
@@ -11550,7 +14358,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "192-194"
+    "page": "192-194",
+    "related": "F l’ail"
    },
    {
     "id": "u6-6b-028",
@@ -11601,9 +14410,10 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "l’acqua"
     ],
-    "example": "",
+    "example": "D’estate bevo due litri di acqua.",
     "definition": "",
-    "page": "192-194"
+    "page": "192-194",
+    "related": "L aqua"
    },
    {
     "id": "u6-6b-031",
@@ -11629,11 +14439,14 @@ const STOCK_PACKAGES = [
     "id": "u6-6b-032",
     "target": "la fontina",
     "translations": [
-     "Käsesorte"
+     "Käseorte"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "tags": [
+     "fakultativ"
+    ],
     "page": "192-194",
     "grammar": {
      "partOfSpeech": "noun",
@@ -11652,8 +14465,9 @@ const STOCK_PACKAGES = [
      "bei jdm vorbeischauen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Khalid fa un salto da suo padre.",
     "definition": "",
+    "usage": "Abc",
     "page": "192-194"
    },
    {
@@ -11687,8 +14501,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "avv.",
-    "page": "192-194"
+    "usage": "avv. Unterscheide: Mi puoi passare l’acqua, per favore? – Kannst Du mir bitte das Wasser reichen? / Grazie di tutto! – Prego! – Danke für alles – Bitteschön!",
+    "page": "192-194",
+    "related": "≠ grazie"
    },
    {
     "id": "u6-6b-037",
@@ -11698,7 +14513,7 @@ const STOCK_PACKAGES = [
      "ich hätte gerne"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Vorrei un etto di prosciutto.",
     "definition": "",
     "page": "192-194"
    },
@@ -11709,7 +14524,7 @@ const STOCK_PACKAGES = [
      "halb"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Vorrei mezzo chilo di funghi.",
     "definition": "",
     "page": "192-194"
    },
@@ -11717,10 +14532,10 @@ const STOCK_PACKAGES = [
     "id": "u6-6b-039",
     "target": "il chilo",
     "translations": [
-     "das Kilo(gramm)"
+     "das Kilo(-gramm)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Prendo un chilo di pomodori.",
     "definition": "",
     "page": "192-194",
     "grammar": {
@@ -11742,7 +14557,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: i funghi",
+    "usage": "pl. i funghi",
     "page": "192-194",
     "grammar": {
      "partOfSpeech": "noun",
@@ -11804,7 +14619,7 @@ const STOCK_PACKAGES = [
      "der Kuchen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Per il compleanno mangiamo la torta.",
     "definition": "",
     "page": "192-194",
     "grammar": {
@@ -11844,9 +14659,10 @@ const STOCK_PACKAGES = [
      "kochen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La madre sa cucinare bene.",
     "definition": "",
-    "page": "192-194"
+    "page": "192-194",
+    "related": "▸ la cucina; F cuisiner"
    },
    {
     "id": "u6-6b-047",
@@ -11856,9 +14672,10 @@ const STOCK_PACKAGES = [
      "der Nachtisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La torta è un dolce.",
     "definition": "",
     "page": "192-194",
+    "related": "L dulcis/-e",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -11890,9 +14707,10 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "la fame"
     ],
-    "example": "",
+    "example": "È pronta la cena? Ho una fame da lupi!",
     "definition": "",
     "page": "192-194",
+    "related": "F la faim",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -11914,6 +14732,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "192-194",
+    "related": "F le parfum",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -11933,7 +14752,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "192-194"
+    "page": "192-194",
+    "related": "F Bon appétit!"
    },
    {
     "id": "u6-6b-052",
@@ -11942,7 +14762,7 @@ const STOCK_PACKAGES = [
      "das Gemüse"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mangio tanta frutta e verdura.",
     "definition": "",
     "page": "192-194",
     "grammar": {
@@ -11962,7 +14782,7 @@ const STOCK_PACKAGES = [
      "du könntest"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Khalid, potresti portare i pomodori?",
     "definition": "",
     "page": "192-194"
    }
@@ -11992,7 +14812,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -12070,21 +14890,21 @@ const STOCK_PACKAGES = [
      "mir"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Non mi piace.",
     "definition": "",
     "page": "190-191"
    },
    {
     "id": "u6-approccio-004",
-    "target": "sta/stanno a qn",
+    "target": "stare a qn",
     "translations": [
-     "jd steht/stehen"
+     "jdm stehen (Kleidung)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Questo vestito mi sta bene.",
     "definition": "",
-    "usage": "Kleidung",
-    "page": "190-191"
+    "page": "190-191",
+    "related": "L stare"
    },
    {
     "id": "u6-approccio-005",
@@ -12093,10 +14913,11 @@ const STOCK_PACKAGES = [
      "die Hosen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "I pantaloni stanno bene a Marco.",
     "definition": "",
     "usage": "pl.",
     "page": "190-191",
+    "related": "F le pantalon",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -12114,7 +14935,7 @@ const STOCK_PACKAGES = [
      "dir"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "I pantaloni ti stanno bene.",
     "definition": "",
     "page": "190-191"
    },
@@ -12125,10 +14946,11 @@ const STOCK_PACKAGES = [
      "sehr gut"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ti sta benissimo!",
     "definition": "",
     "usage": "avv.",
-    "page": "190-191"
+    "page": "190-191",
+    "related": "= molto bene"
    },
    {
     "id": "u6-approccio-008",
@@ -12137,7 +14959,7 @@ const STOCK_PACKAGES = [
      "der Rock"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Vuoi i pantaloni o una gonna?",
     "definition": "",
     "page": "190-191",
     "grammar": {
@@ -12168,7 +14990,7 @@ const STOCK_PACKAGES = [
      "anziehen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Che cosa metto oggi?",
     "definition": "",
     "page": "190-191"
    },
@@ -12179,7 +15001,7 @@ const STOCK_PACKAGES = [
      "das T-Shirt"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Che pantaloni metto con questa maglietta?",
     "definition": "",
     "page": "190-191",
     "grammar": {
@@ -12202,22 +15024,22 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "scegliere"
     ],
-    "example": "",
+    "example": "I pantaloni o la gonna? Puoi scegliere.",
     "definition": "",
-    "usage": "Partizip: scelto",
+    "usage": "Abc; p.p. scelto",
     "page": "190-191"
    },
    {
     "id": "u6-approccio-013",
     "target": "il paio",
     "translations": [
-     "das Paar"
+     "das Paar (Kleidung)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Voglio comprare un paio di pantaloni.",
     "definition": "",
-    "usage": "Kleidung",
     "page": "190-191",
+    "related": "E pair",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -12268,9 +15090,10 @@ const STOCK_PACKAGES = [
      "die Größe"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Che taglia porti?",
     "definition": "",
     "page": "190-191",
+    "related": "F la taille",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -12288,7 +15111,7 @@ const STOCK_PACKAGES = [
      "der Pullover"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "D’estate non devo mettere un maglione.",
     "definition": "",
     "page": "190-191",
     "grammar": {
@@ -12310,7 +15133,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "190-191"
+    "page": "190-191",
+    "related": "F rouge"
    },
    {
     "id": "u6-approccio-019",
@@ -12319,9 +15143,9 @@ const STOCK_PACKAGES = [
      "die Jacke"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "D’inverno mi metto la giacca.",
     "definition": "",
-    "usage": "Pl.: le giacche",
+    "usage": "pl. le giacche",
     "page": "190-191",
     "grammar": {
      "partOfSpeech": "noun",
@@ -12342,7 +15166,6 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: le scarpe",
     "page": "190-191",
     "grammar": {
      "partOfSpeech": "noun",
@@ -12361,9 +15184,9 @@ const STOCK_PACKAGES = [
      "der Stiefel"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "D’inverno porto gli stivali.",
     "definition": "",
-    "usage": "Pl.: gli stivali",
+    "usage": "pl. gli stivali",
     "page": "190-191",
     "grammar": {
      "partOfSpeech": "noun",
@@ -12380,7 +15203,7 @@ const STOCK_PACKAGES = [
     "target": "il vestito",
     "translations": [
      "das Kleid",
-     "der Anzug"
+     "auch: der Anzug"
     ],
     "acceptedAnswers": [],
     "example": "",
@@ -12398,6 +15221,17 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "u6-approccio-023",
+    "target": "bianco/-a",
+    "translations": [
+     "weiß"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "190-191"
+   },
+   {
+    "id": "u6-approccio-024",
     "target": "giallo/-a",
     "translations": [
      "gelb"
@@ -12408,7 +15242,7 @@ const STOCK_PACKAGES = [
     "page": "190-191"
    },
    {
-    "id": "u6-approccio-024",
+    "id": "u6-approccio-025",
     "target": "arancione",
     "translations": [
      "orange"
@@ -12419,7 +15253,7 @@ const STOCK_PACKAGES = [
     "page": "190-191"
    },
    {
-    "id": "u6-approccio-025",
+    "id": "u6-approccio-026",
     "target": "rosa",
     "translations": [
      "rosa"
@@ -12430,7 +15264,7 @@ const STOCK_PACKAGES = [
     "page": "190-191"
    },
    {
-    "id": "u6-approccio-026",
+    "id": "u6-approccio-027",
     "target": "viola",
     "translations": [
      "violett"
@@ -12441,7 +15275,18 @@ const STOCK_PACKAGES = [
     "page": "190-191"
    },
    {
-    "id": "u6-approccio-027",
+    "id": "u6-approccio-028",
+    "target": "blu",
+    "translations": [
+     "dunkelblau"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "190-191"
+   },
+   {
+    "id": "u6-approccio-029",
     "target": "verde",
     "translations": [
      "grün"
@@ -12452,7 +15297,7 @@ const STOCK_PACKAGES = [
     "page": "190-191"
    },
    {
-    "id": "u6-approccio-028",
+    "id": "u6-approccio-030",
     "target": "marrone",
     "translations": [
      "braun"
@@ -12463,7 +15308,7 @@ const STOCK_PACKAGES = [
     "page": "190-191"
    },
    {
-    "id": "u6-approccio-029",
+    "id": "u6-approccio-031",
     "target": "grigio/-a",
     "translations": [
      "grau"
@@ -12472,6 +15317,62 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "190-191"
+   },
+   {
+    "id": "u6-approccio-032",
+    "target": "nero/-a",
+    "translations": [
+     "schwarz"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "190-191"
+   },
+   {
+    "id": "u6-approccio-033",
+    "target": "la camicia",
+    "translations": [
+     "das Hemd",
+     "die Bluse"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "190-191",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u6-approccio-034",
+    "target": "gli occhiali (da sole)",
+    "translations": [
+     "die (Sonnen-)Brille"
+    ],
+    "acceptedAnswers": [
+     "gli occhiali"
+    ],
+    "example": "Con gli occhiali vedo bene.",
+    "definition": "",
+    "usage": "pl.",
+    "page": "190-191",
+    "related": "▸ l’occhio",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "gli"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
    }
   ]
  },
@@ -12499,7 +15400,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -12540,7 +15441,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "195-197"
+    "page": "195-197",
+    "related": "F chaud; L calidus"
    },
    {
     "id": "u7-7a-002",
@@ -12550,8 +15452,9 @@ const STOCK_PACKAGES = [
      "heiß sein"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "In estate fa caldo.",
     "definition": "",
+    "usage": "Abc",
     "page": "195-197"
    },
    {
@@ -12570,12 +15473,13 @@ const STOCK_PACKAGES = [
     "target": "tutto/-a",
     "translations": [
      "ganz",
-     "jede(r, s)"
+     "jede(r, s)",
+     "pl.: alle"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: alle",
+    "usage": "Beachte die Stellung: tutto + [bestimmter Artikel] + [Substantiv]: tutto l’anno – das ganze Jahr. Unterscheide: Voglio vedere tutta la partita. – Ich will das ganze Spiel sehen. / Voglio vedere tutto. – Ich will alles sehen.",
     "page": "195-197"
    },
    {
@@ -12584,13 +15488,15 @@ const STOCK_PACKAGES = [
     "translations": [
      "morgens",
      "vormittags",
-     "am Morgen"
+     "am Morgen",
+     "am Vormittag"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
     "usage": "avv.",
     "page": "195-197",
+    "related": "≠ la sera; F le matin",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -12608,7 +15514,7 @@ const STOCK_PACKAGES = [
      "aufwachen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Durante le vacanze Filippo si sveglia tardi.",
     "definition": "",
     "page": "195-197"
    },
@@ -12619,9 +15525,11 @@ const STOCK_PACKAGES = [
      "kühl sein"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La sera fa fresco. Vado dentro.",
     "definition": "",
-    "page": "195-197"
+    "usage": "Abc",
+    "page": "195-197",
+    "related": "▸ fresco"
    },
    {
     "id": "u7-7a-008",
@@ -12630,7 +15538,7 @@ const STOCK_PACKAGES = [
      "aufstehen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Durante la settimana Anna si alza presto.",
     "definition": "",
     "page": "195-197"
    },
@@ -12644,9 +15552,10 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "mettersi a qs"
     ],
-    "example": "",
+    "example": "Filippo si mette a studiare.",
     "definition": "",
-    "page": "195-197"
+    "page": "195-197",
+    "related": "▸ mettere"
    },
    {
     "id": "u7-7a-010",
@@ -12656,7 +15565,7 @@ const STOCK_PACKAGES = [
      "am Mittag"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A mezzogiorno mangio un panino.",
     "definition": "",
     "usage": "avv.",
     "page": "195-197"
@@ -12668,7 +15577,7 @@ const STOCK_PACKAGES = [
      "die Pause"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Sono stanca. Adesso faccio una pausa.",
     "definition": "",
     "page": "195-197",
     "grammar": {
@@ -12688,9 +15597,10 @@ const STOCK_PACKAGES = [
      "sich ausruhen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Dopo il lavoro mi riposo.",
     "definition": "",
-    "page": "195-197"
+    "page": "195-197",
+    "related": "F se reposer"
    },
    {
     "id": "u7-7a-013",
@@ -12699,7 +15609,7 @@ const STOCK_PACKAGES = [
      "bis"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Filippo studia fino a tardi.",
     "definition": "",
     "usage": "prep.",
     "page": "195-197"
@@ -12711,7 +15621,7 @@ const STOCK_PACKAGES = [
      "vor etw."
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Prima di andare a letto Filippo si fa la doccia.",
     "definition": "",
     "page": "195-197"
    },
@@ -12722,8 +15632,9 @@ const STOCK_PACKAGES = [
      "(sich) duschen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Dopo lo sport mi faccio la doccia.",
     "definition": "",
+    "usage": "Abc",
     "page": "195-197"
    },
    {
@@ -12735,9 +15646,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "rinfrescarsi"
     ],
-    "example": "",
+    "example": "Faccio una doccia per rinfrescarmi.",
     "definition": "",
-    "page": "195-197"
+    "usage": "Abc",
+    "page": "195-197",
+    "related": "▸ fresco/-a; E to refresh"
    },
    {
     "id": "u7-7a-017",
@@ -12746,19 +15659,20 @@ const STOCK_PACKAGES = [
      "erhalten"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Anna riceve un messaggio da Leo.",
     "definition": "",
-    "page": "195-197"
+    "page": "195-197",
+    "related": "E to receive"
    },
    {
     "id": "u7-7a-018",
     "target": "la cartolina",
     "translations": [
      "die Postkarte",
-     "die Ansichtskarte"
+     "Ansichtskarte"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Filippo ha ricevuto una cartolina da Anna.",
     "definition": "",
     "page": "195-197",
     "grammar": {
@@ -12792,6 +15706,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "195-197",
+    "related": "▸ chiamare",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -12807,13 +15722,14 @@ const STOCK_PACKAGES = [
     "target": "caro/-a",
     "translations": [
      "lieb",
-     "teuer"
+     "teuer",
+     "auch: liebe/-r (Brief)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Cara Greta, caro Filippo, …",
     "definition": "",
-    "usage": "auch: liebe/-r im Brief",
-    "page": "195-197"
+    "page": "195-197",
+    "related": "F cher, chère; L carus"
    },
    {
     "id": "u7-7a-022",
@@ -12824,7 +15740,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "195-197"
+    "page": "195-197",
+    "related": "F pleuvoir"
    },
    {
     "id": "u7-7a-023",
@@ -12833,7 +15750,7 @@ const STOCK_PACKAGES = [
      "sich befinden"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La Mole Antonelliana si trova a Torino.",
     "definition": "",
     "page": "195-197"
    },
@@ -12844,9 +15761,10 @@ const STOCK_PACKAGES = [
      "sich gut fühlen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mi trovo bene al mare.",
     "definition": "",
-    "page": "195-197"
+    "page": "195-197",
+    "related": "▸ trovare"
    },
    {
     "id": "u7-7a-025",
@@ -12855,7 +15773,7 @@ const STOCK_PACKAGES = [
      "der Ausflug"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il fine settimana facciamo una gita.",
     "definition": "",
     "page": "195-197",
     "grammar": {
@@ -12899,18 +15817,18 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "195-197"
+    "page": "195-197",
+    "related": "= va bene"
    },
    {
     "id": "u7-7a-029",
     "target": "il grado",
     "translations": [
-     "der Grad"
+     "das Grad (Temperatur)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Che fresco! Sono solo 12 gradi!",
     "definition": "",
-    "usage": "Temperatur",
     "page": "195-197",
     "grammar": {
      "partOfSpeech": "noun",
@@ -12932,6 +15850,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "195-197",
+    "related": "F la mer; L mare",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -12974,6 +15893,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "195-197",
+    "related": "F le vent; L ventus",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -13002,9 +15922,9 @@ const STOCK_PACKAGES = [
      "das Tretboot"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "In spiaggia abbiamo preso un pedalò.",
     "definition": "",
-    "usage": "Pl.: i pedalò",
+    "usage": "pl. i pedalò",
     "page": "195-197",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13035,8 +15955,9 @@ const STOCK_PACKAGES = [
      "weh tun"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Sono caduta. Mi fa male il piede.",
     "definition": "",
+    "usage": "Abc",
     "page": "195-197"
    },
    {
@@ -13046,7 +15967,7 @@ const STOCK_PACKAGES = [
      "der Rücken"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mi fa male la schiena.",
     "definition": "",
     "page": "195-197",
     "grammar": {
@@ -13063,12 +15984,13 @@ const STOCK_PACKAGES = [
     "id": "u7-7a-038",
     "target": "fare schifo",
     "translations": [
-     "abscheulich sein",
+     "abscheulich",
      "eklig sein"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il caffè non è abbastanza caldo. Così fa schifo!",
     "definition": "",
+    "usage": "Abc",
     "page": "195-197"
    },
    {
@@ -13102,6 +16024,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "195-197",
+    "related": "E courage; F le courage",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -13133,18 +16056,32 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "far vedere"
     ],
-    "example": "",
+    "example": "Leo, fai vedere la cartolina di Anna!",
     "definition": "",
+    "usage": "Abc",
     "page": "195-197"
    },
    {
     "id": "u7-7a-043",
+    "target": "fare",
+    "translations": [
+     "machen",
+     "tun"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "Verschiedene Verwendungen: Che cosa facciamo? – Was machen wir? / fare attenzione – aufpassen / fare una figuraccia – sich blamieren / fare un salto da qn – bei jdm vorbeischauen / fare il bagno – baden / fa caldo – es ist heiß / mi fa male la schiena – ich habe Rückenschmerzen / fa schifo – es ist eklig",
+    "page": "195-197"
+   },
+   {
+    "id": "u7-7a-044",
     "target": "la scottatura",
     "translations": [
      "der Sonnenbrand"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho preso troppo sole. Adesso ho una scottatura.",
     "definition": "",
     "page": "195-197",
     "grammar": {
@@ -13158,19 +16095,19 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u7-7a-044",
+    "id": "u7-7a-045",
     "target": "lamentarsi",
     "translations": [
      "jammern",
      "sich beschweren"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A Leo fa male la schiena. Si lamenta tutto il tempo.",
     "definition": "",
     "page": "195-197"
    },
    {
-    "id": "u7-7a-045",
+    "id": "u7-7a-046",
     "target": "grave",
     "translations": [
      "schlimm",
@@ -13179,18 +16116,20 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "195-197"
+    "page": "195-197",
+    "related": "F grave; L gravis/-e"
    },
    {
-    "id": "u7-7a-046",
+    "id": "u7-7a-047",
     "target": "il mal di testa",
     "translations": [
      "die Kopfschmerzen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho studiato troppo: ho mal di testa.",
     "definition": "",
     "page": "195-197",
+    "related": "F le mal de tête",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -13202,16 +16141,29 @@ const STOCK_PACKAGES = [
     }
    },
    {
-    "id": "u7-7a-047",
+    "id": "u7-7a-048",
     "target": "chiudere",
     "translations": [
      "schließen",
-     "aufhören"
+     "hier: aufhören"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Partizip: chiuso",
+    "usage": "p.p. chiuso",
+    "page": "195-197",
+    "related": "≠ aprire; L claudere"
+   },
+   {
+    "id": "u7-7a-049",
+    "target": "Che tempo fa?",
+    "translations": [
+     "Wie ist das Wetter?"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "C’è il sole. / Piove. / Nevica. Fa freddo. / Fa caldo. / Fa fresco. / C’è vento.",
     "page": "195-197"
    }
   ]
@@ -13240,7 +16192,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -13273,14 +16225,15 @@ const STOCK_PACKAGES = [
   "entries": [
    {
     "id": "u7-7b-001",
-    "target": "l’adulto/-a",
+    "target": "l’adulto",
     "translations": [
      "der/die Erwachsene"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "197-198"
+    "page": "197-198",
+    "related": "E adult; F l’adulte"
    },
    {
     "id": "u7-7b-002",
@@ -13291,6 +16244,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
+    "usage": "Alcune persone sono in spiaggia e altre sono in piazza a prendere un caffè. – Einige Leute sind am Strand, andere sind auf dem Platz, um einen Kaffee zu trinken.",
     "page": "197-198"
    },
    {
@@ -13304,6 +16258,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "197-198",
+    "related": "E monument; F le monument; L monumentum",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -13321,9 +16276,9 @@ const STOCK_PACKAGES = [
      "historisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il centro storico di Sanremo è molto bello.",
     "definition": "",
-    "usage": "Pl.: storici/storiche",
+    "usage": "pl. storici/storiche",
     "page": "197-198"
    },
    {
@@ -13333,7 +16288,7 @@ const STOCK_PACKAGES = [
      "die Gasse"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Al centro storico ci sono tanti vicoli.",
     "definition": "",
     "page": "197-198",
     "grammar": {
@@ -13353,7 +16308,7 @@ const STOCK_PACKAGES = [
      "eng"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "I vicoli sono stretti.",
     "definition": "",
     "page": "197-198"
    },
@@ -13364,7 +16319,7 @@ const STOCK_PACKAGES = [
      "gegenüber"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il bar è di fronte al palazzo.",
     "definition": "",
     "usage": "prep.",
     "page": "197-198"
@@ -13376,7 +16331,7 @@ const STOCK_PACKAGES = [
      "die Kathedrale"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "La cattedrale si trova in piazza.",
     "definition": "",
     "page": "197-198",
     "grammar": {
@@ -13416,9 +16371,10 @@ const STOCK_PACKAGES = [
      "das Stück"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho fame. Mi dai un pezzo di pane?",
     "definition": "",
     "page": "197-198",
+    "related": "E piece",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -13438,17 +16394,18 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "197-198"
+    "page": "197-198",
+    "related": "≠ caldo"
    },
    {
     "id": "u7-7b-012",
     "target": "lo scontrino",
     "translations": [
      "der Kassenbon",
-     "der Kassenzettel"
+     "Kassenzettel"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Al bar prendiamo lo scontrino alla cassa.",
     "definition": "",
     "page": "197-198",
     "grammar": {
@@ -13470,9 +16427,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "sedersi"
     ],
-    "example": "",
+    "example": "Leo si siede sulla sedia.",
     "definition": "",
-    "page": "197-198"
+    "usage": "Abc",
+    "page": "197-198",
+    "related": "▸ la sedia"
    },
    {
     "id": "u7-7b-014",
@@ -13481,9 +16440,10 @@ const STOCK_PACKAGES = [
      "sich verabreden"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Anna e Leo si danno appuntamento alle sette.",
     "definition": "",
-    "page": "197-198"
+    "page": "197-198",
+    "related": "E appointment"
    },
    {
     "id": "u7-7b-015",
@@ -13492,9 +16452,9 @@ const STOCK_PACKAGES = [
      "der Parkplatz"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Metto la macchina sul parcheggio.",
     "definition": "",
-    "usage": "Pl.: i parcheggi",
+    "usage": "pl. i parcheggi",
     "page": "197-198",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13513,7 +16473,7 @@ const STOCK_PACKAGES = [
      "die Orientierung"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il GPS è per l’orientamento.",
     "definition": "",
     "page": "197-198"
    },
@@ -13524,7 +16484,7 @@ const STOCK_PACKAGES = [
      "jdm/(auf) etw. vertrauen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Io non mi fido del GPS.",
     "definition": "",
     "page": "197-198"
    },
@@ -13535,7 +16495,7 @@ const STOCK_PACKAGES = [
      "in Richtung"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "I ragazzi corrono verso il casinò.",
     "definition": "",
     "usage": "prep.",
     "page": "197-198"
@@ -13550,6 +16510,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "197-198",
+    "related": "L theatrum",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -13567,9 +16528,9 @@ const STOCK_PACKAGES = [
      "der Ort"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Sanremo è un luogo dove molte persone si divertono.",
     "definition": "",
-    "usage": "Pl.: i luoghi",
+    "usage": "pl. i luoghi",
     "page": "197-198",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13588,9 +16549,9 @@ const STOCK_PACKAGES = [
      "das Festival"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A Sanremo c’è il festival di musica.",
     "definition": "",
-    "usage": "Pl.: i festival",
+    "usage": "pl. i festival",
     "page": "197-198",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13606,25 +16567,33 @@ const STOCK_PACKAGES = [
     "id": "u7-7b-022",
     "target": "a",
     "translations": [
-     "im"
+     "im + Monatsnamen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A luglio vado in Italia.",
     "definition": "",
-    "usage": "+ Monatsnamen",
     "page": "197-198"
    },
    {
     "id": "u7-7b-023",
-    "target": "il/la fan",
+    "target": "il fan",
     "translations": [
      "der Fan"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Filippo è un fan di Ligabue.",
     "definition": "",
-    "usage": "Pl.: i fan",
-    "page": "197-198"
+    "usage": "pl. i fan",
+    "page": "197-198",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
    },
    {
     "id": "u7-7b-024",
@@ -13633,7 +16602,7 @@ const STOCK_PACKAGES = [
      "unterschreiben"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ligabue firma degli autografi per i suoi fan.",
     "definition": "",
     "page": "197-198"
    },
@@ -13644,10 +16613,11 @@ const STOCK_PACKAGES = [
      "sogar"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Amo Liga. Ho perfino un autografo.",
     "definition": "",
     "usage": "avv.",
-    "page": "197-198"
+    "page": "197-198",
+    "related": "= addirittura"
    },
    {
     "id": "u7-7b-026",
@@ -13656,7 +16626,7 @@ const STOCK_PACKAGES = [
      "von jdm/etw. begeistert"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Tutti sono entusiasti dell’idea.",
     "definition": "",
     "page": "197-198"
    },
@@ -13667,7 +16637,7 @@ const STOCK_PACKAGES = [
      "geradeaus"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Per arrivare in centro dobbiamo andare dritto.",
     "definition": "",
     "usage": "avv.",
     "page": "197-198"
@@ -13679,9 +16649,10 @@ const STOCK_PACKAGES = [
      "einige"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "A Roma faccio qualche foto.",
     "definition": "",
-    "page": "197-198"
+    "page": "197-198",
+    "related": "F quelque"
    },
    {
     "id": "u7-7b-029",
@@ -13690,7 +16661,7 @@ const STOCK_PACKAGES = [
      "die Strandpromenade"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Andiamo sul lungomare.",
     "definition": "",
     "page": "197-198",
     "grammar": {
@@ -13710,9 +16681,9 @@ const STOCK_PACKAGES = [
      "jdn/etw. bemerken"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Giorgia si accorge di essere in ritardo.",
     "definition": "",
-    "usage": "Partizip: accorto",
+    "usage": "p.p. accorto",
     "page": "197-198"
    },
    {
@@ -13750,12 +16721,12 @@ const STOCK_PACKAGES = [
     "id": "u7-7b-033",
     "target": "scarico/-a",
     "translations": [
-     "leer"
+     "leer (Batterie, Akku)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Il mio cellulare è scarico.",
     "definition": "",
-    "usage": "Batterie, Akku; Pl.: scarichi/-che",
+    "usage": "pl. scarichi/-che",
     "page": "197-198"
    },
    {
@@ -13768,6 +16739,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "197-198",
+    "related": "▸ la via",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -13788,7 +16760,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "197-198"
+    "page": "197-198",
+    "related": "F juste; L iustus"
    },
    {
     "id": "u7-7b-036",
@@ -13797,9 +16770,10 @@ const STOCK_PACKAGES = [
      "überqueren"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Attraversa la strada!",
     "definition": "",
-    "page": "197-198"
+    "page": "197-198",
+    "related": "F traverser"
    },
    {
     "id": "u7-7b-037",
@@ -13829,7 +16803,7 @@ const STOCK_PACKAGES = [
      "abbiegen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Dovete girare a sinistra.",
     "definition": "",
     "page": "197-198"
    },
@@ -13840,10 +16814,11 @@ const STOCK_PACKAGES = [
      "links"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Devi girare a sinistra.",
     "definition": "",
     "usage": "avv.",
-    "page": "197-198"
+    "page": "197-198",
+    "related": "L sinister"
    },
    {
     "id": "u7-7b-040",
@@ -13852,9 +16827,9 @@ const STOCK_PACKAGES = [
      "die Kreuzung"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "All’incrocio girate a sinistra.",
     "definition": "",
-    "usage": "Pl.: gli incroci",
+    "usage": "pl. gli incroci",
     "page": "197-198"
    },
    {
@@ -13867,7 +16842,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "avv.",
-    "page": "197-198"
+    "page": "197-198",
+    "related": "≠ a sinistra; F à droite; L dexter"
    },
    {
     "id": "u7-7b-042",
@@ -13887,7 +16863,7 @@ const STOCK_PACKAGES = [
      "der Fahrradweg"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "In Liguria c’è una pista ciclabile lunga.",
     "definition": "",
     "page": "197-198",
     "grammar": {
@@ -13908,9 +16884,10 @@ const STOCK_PACKAGES = [
      "sehr gut"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Andiamo in bici. – Ottima idea!",
     "definition": "",
-    "page": "197-198"
+    "page": "197-198",
+    "related": "L optimus"
    }
   ]
  },
@@ -13938,7 +16915,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -13973,13 +16950,14 @@ const STOCK_PACKAGES = [
     "id": "u7-approccio-001",
     "target": "ogni",
     "translations": [
-     "jede(r)",
+     "jede/r",
      "jedes"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ogni estate andiamo in montagna.",
     "definition": "",
-    "page": "194-195"
+    "page": "194-195",
+    "related": "L omnis"
    },
    {
     "id": "u7-approccio-002",
@@ -13990,19 +16968,19 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "194-195"
+    "page": "194-195",
+    "related": "F tranquille; L tranquillus"
    },
    {
     "id": "u7-approccio-003",
     "target": "loro",
     "translations": [
      "sie",
-     "ihnen"
+     "ihnen (nach Präp.)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "È molto interessante per loro.",
     "definition": "",
-    "usage": "nach Präposition",
     "page": "194-195"
    },
    {
@@ -14013,7 +16991,7 @@ const STOCK_PACKAGES = [
      "Ich freue mich darauf!"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Non vedo l’ora di andare in vacanza!",
     "definition": "",
     "page": "194-195"
    },
@@ -14021,12 +16999,11 @@ const STOCK_PACKAGES = [
     "id": "u7-approccio-005",
     "target": "i miei",
     "translations": [
-     "meine Eltern"
+     "hier: meine Eltern"
     ],
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "hier",
     "page": "194-195",
     "grammar": {
      "partOfSpeech": "noun",
@@ -14046,10 +17023,11 @@ const STOCK_PACKAGES = [
      "weit"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Da Torino a Lecce è un viaggio lungo.",
     "definition": "",
-    "usage": "Pl.: lunghi/-e",
-    "page": "194-195"
+    "usage": "pl. lunghi/-e",
+    "page": "194-195",
+    "related": "L longus"
    },
    {
     "id": "u7-approccio-007",
@@ -14058,10 +17036,11 @@ const STOCK_PACKAGES = [
      "die Prüfung"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Sono nervoso – domani ho l’esame.",
     "definition": "",
     "usage": "m.",
-    "page": "194-195"
+    "page": "194-195",
+    "related": "E exam"
    },
    {
     "id": "u7-approccio-008",
@@ -14070,7 +17049,7 @@ const STOCK_PACKAGES = [
      "die Nachprüfung"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Dopo le vacanze ho l’esame di riparazione.",
     "definition": "",
     "usage": "m.",
     "page": "194-195"
@@ -14096,8 +17075,9 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "usage": "Pl.: gli spazi",
+    "usage": "pl. gli spazi. Unterscheide: È un posto fantastico. – Es ist ein toller Ort. / Questa piazza mi piace. – Dieser Platz gefällt mir. / Nella macchina non c’è abbastanza spazio/posto per tutto. – Im Auto ist nicht genug Platz für alles.",
     "page": "194-195",
+    "related": "E space; F l’espace; L spatium",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -14115,8 +17095,9 @@ const STOCK_PACKAGES = [
      "baden (gehen)"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Mi piace fare il bagno nel mare.",
     "definition": "",
+    "usage": "Abc",
     "page": "194-195"
    },
    {
@@ -14126,9 +17107,10 @@ const STOCK_PACKAGES = [
      "die Sonne"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "In Italia c’è tanto sole.",
     "definition": "",
     "page": "194-195",
+    "related": "F le soleil; L sol",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -14146,7 +17128,7 @@ const STOCK_PACKAGES = [
      "sich sonnen"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "In spiaggia Anna prende il sole.",
     "definition": "",
     "page": "194-195"
    },
@@ -14178,7 +17160,7 @@ const STOCK_PACKAGES = [
      "Wie öde!"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Devo studiare. Che barba!",
     "definition": "",
     "page": "194-195"
    },
@@ -14189,7 +17171,7 @@ const STOCK_PACKAGES = [
      "abreisen nach"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Giorgia parte per la Liguria.",
     "definition": "",
     "page": "194-195"
    },
@@ -14213,7 +17195,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "194-195"
+    "page": "194-195",
+    "related": "≠ lungo/-a; F bref, brève; L brevis/-e"
    },
    {
     "id": "u7-approccio-019",
@@ -14222,9 +17205,9 @@ const STOCK_PACKAGES = [
      "das Hotel"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "In vacanza prendiamo una camera in albergo.",
     "definition": "",
-    "usage": "Pl.: gli alberghi",
+    "usage": "pl. gli alberghi",
     "page": "194-195"
    },
    {
@@ -14237,6 +17220,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "194-195",
+    "related": "▸ passeggiare",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -14257,9 +17241,11 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "preferire"
     ],
-    "example": "",
+    "example": "Non amo la montagna. Preferisco andare al mare.",
     "definition": "",
-    "page": "194-195"
+    "usage": "Abc",
+    "page": "194-195",
+    "related": "E to prefer; F préférer"
    },
    {
     "id": "u7-approccio-022",
@@ -14269,7 +17255,7 @@ const STOCK_PACKAGES = [
      "deshalb"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Non mi piace la montagna, perciò vado al mare.",
     "definition": "",
     "usage": "avv.",
     "page": "194-195"
@@ -14283,7 +17269,7 @@ const STOCK_PACKAGES = [
      "sich ändern"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Ho cambiato il numero di cellulare. Guarda! Il tempo cambia.",
     "definition": "",
     "page": "194-195"
    },
@@ -14305,9 +17291,9 @@ const STOCK_PACKAGES = [
      "der Campingplatz"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "Quest’anno andiamo in campeggio.",
     "definition": "",
-    "usage": "Pl.: i campeggi",
+    "usage": "pl. i campeggi",
     "page": "194-195",
     "grammar": {
      "partOfSpeech": "noun",
@@ -14326,9 +17312,10 @@ const STOCK_PACKAGES = [
      "das Zelt"
     ],
     "acceptedAnswers": [],
-    "example": "",
+    "example": "In campeggio dormo in una tenda.",
     "definition": "",
     "page": "194-195",
+    "related": "E tent",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -14376,7 +17363,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -15060,7 +18047,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -15927,7 +18914,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -16548,7 +19535,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -17156,7 +20143,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -17862,7 +20849,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -18382,7 +21369,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -19017,7 +22004,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -19633,7 +22620,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -20093,7 +23080,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -20451,7 +23438,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -21012,7 +23999,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -21650,7 +24637,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -22143,7 +25130,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -22851,7 +25838,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -23284,7 +26271,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -23977,7 +26964,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -24684,7 +27671,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -25123,7 +28110,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -25828,7 +28815,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -26599,7 +29586,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -27364,7 +30351,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -27921,7 +30908,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -28658,7 +31645,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -29375,7 +32362,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -30019,7 +33006,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",

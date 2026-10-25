@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,7 @@
     "das Brot"
    ],
    "page": "192-194",
+   "related": "F le pain; L panis",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -53,6 +54,7 @@
     "die Semmel"
    ],
    "page": "192-194",
+   "example": "A scuola mangio un panino.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -69,7 +71,8 @@
    "translations": [
     "100 Gramm"
    ],
-   "page": "192-194"
+   "page": "192-194",
+   "usage": "un etto – 100 Gramm; due etti – 200 Gramm; tre etti – 300 Gramm etc."
   },
   {
    "id": "u6-6b-004",
@@ -78,6 +81,7 @@
     "der Schinken"
    ],
    "page": "192-194",
+   "example": "Prendo un etto di prosciutto.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -94,7 +98,8 @@
    "translations": [
     "roh"
    ],
-   "page": "192-194"
+   "page": "192-194",
+   "related": "F cru(e)"
   },
   {
    "id": "u6-6b-006",
@@ -102,7 +107,8 @@
    "translations": [
     "die Orangenlimonade"
    ],
-   "page": "192-194"
+   "page": "192-194",
+   "example": "Da bere ho portato una bottiglia di aranciata."
   },
   {
    "id": "u6-6b-007",
@@ -111,6 +117,7 @@
     "die Tüte"
    ],
    "page": "192-194",
+   "example": "Per la spesa prendo una busta.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -128,6 +135,7 @@
     "die Chips"
    ],
    "page": "192-194",
+   "example": "Amo mangiare le patatine davanti alla tv.",
    "usage": "pl.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -146,6 +154,7 @@
     "die Person"
    ],
    "page": "192-194",
+   "example": "Prepariamo una cena per sei persone.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -163,7 +172,9 @@
     "das Ei"
    ],
    "page": "192-194",
-   "usage": "m., Pl.: le uova (f.)"
+   "example": "A Pasqua mangio le uova.",
+   "related": "F l’œuf",
+   "usage": "m.; pl. le uova f."
   },
   {
    "id": "u6-6b-011",
@@ -189,6 +200,7 @@
     "die Butter"
    ],
    "page": "192-194",
+   "example": "Mi piace il pane con burro.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -206,7 +218,8 @@
     "der Saft"
    ],
    "page": "192-194",
-   "usage": "Pl.: i succhi",
+   "example": "Bevo un succo.",
+   "usage": "pl. i succhi",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -224,6 +237,7 @@
     "das Obst"
    ],
    "page": "192-194",
+   "related": "E fruit; F le fruit",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -241,7 +255,8 @@
     "ein paar (von)",
     "einige"
    ],
-   "page": "192-194"
+   "page": "192-194",
+   "example": "Ho portato delle mele."
   },
   {
    "id": "u6-6b-016",
@@ -249,7 +264,8 @@
    "translations": [
     "der Salat"
    ],
-   "page": "192-194"
+   "page": "192-194",
+   "example": "Anna prepara un’insalata di pomodori."
   },
   {
    "id": "u6-6b-017",
@@ -275,6 +291,7 @@
     "das Schwein"
    ],
    "page": "192-194",
+   "example": "Khalid non mangia la carne di maiale.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -293,7 +310,8 @@
     "die Käsesorten"
    ],
    "page": "192-194",
-   "usage": "Pl.: i formaggi",
+   "related": "F le fromage",
+   "usage": "pl. i formaggi. il panino al formaggio – das Käsebrötchen; il panino al prosciutto – das Schinkenbrötchen",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -312,7 +330,8 @@
     "dazu"
    ],
    "page": "192-194",
-   "usage": "avv."
+   "example": "Mi mancano delle mele. Ne prendo cinque.",
+   "usage": "avv. Beachte die Satzstellung: Mi piace questo formaggio. Ne prendo due etti. Ne steht unmittelbar vor dem konjugierten Verb."
   },
   {
    "id": "u6-6b-021",
@@ -330,9 +349,12 @@
     "fehlen"
    ],
    "page": "192-194",
+   "example": "Per l’insalata mancano i pomodori.",
+   "related": "F manquer",
    "acceptedAnswers": [
     "mancare"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
    "id": "u6-6b-023",
@@ -341,6 +363,7 @@
     "besser"
    ],
    "page": "192-194",
+   "related": "F meilleur(e); L melior",
    "usage": "avv."
   },
   {
@@ -350,7 +373,9 @@
     "schicken",
     "senden"
    ],
-   "page": "192-194"
+   "page": "192-194",
+   "example": "Anna manda un messaggio a Leo.",
+   "related": "L mandare"
   },
   {
    "id": "u6-6b-025",
@@ -360,7 +385,8 @@
     "bitten"
    ],
    "page": "192-194",
-   "usage": "Partizip: chiesto"
+   "example": "Giorgia chiama Leo e gli chiede di venire.",
+   "usage": "p.p. chiesto. Beachte die verschiedenen Verwendungen: Khalid chiede un po’ di pane a suo padre. – Khalid bittet seinen Vater um etwas Brot. / Anna chiede a Khalid: „Vieni stasera?“ – Anna fragt Khalid: „Kommst du heute Abend?“ / Anna chiede a Khalid di venire alla festa. – Anna bittet Khalid zum Fest zu kommen. Ein Infinitiv wird an chiedere mit der Präposition di angeschlossen."
   },
   {
    "id": "u6-6b-026",
@@ -369,7 +395,10 @@
     "jdn/etw. brauchen",
     "benötigen"
    ],
-   "page": "192-194"
+   "page": "192-194",
+   "example": "Ho bisogno di pane per la cena.",
+   "related": "F avoir besoin",
+   "usage": "Abc"
   },
   {
    "id": "u6-6b-027",
@@ -377,7 +406,8 @@
    "translations": [
     "der Knoblauch"
    ],
-   "page": "192-194"
+   "page": "192-194",
+   "related": "F l’ail"
   },
   {
    "id": "u6-6b-028",
@@ -420,6 +450,8 @@
     "das (Mineral-)Wasser"
    ],
    "page": "192-194",
+   "example": "D’estate bevo due litri di acqua.",
+   "related": "L aqua",
    "acceptedAnswers": [
     "l’acqua"
    ]
@@ -445,9 +477,12 @@
    "id": "u6-6b-032",
    "target": "la fontina",
    "translations": [
-    "Käsesorte"
+    "Käseorte"
    ],
    "page": "192-194",
+   "tags": [
+    "fakultativ"
+   ],
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -464,7 +499,9 @@
    "translations": [
     "bei jdm vorbeischauen"
    ],
-   "page": "192-194"
+   "page": "192-194",
+   "example": "Khalid fa un salto da suo padre.",
+   "usage": "Abc"
   },
   {
    "id": "u6-6b-034",
@@ -489,7 +526,8 @@
     "bitte"
    ],
    "page": "192-194",
-   "usage": "avv."
+   "related": "≠ grazie",
+   "usage": "avv. Unterscheide: Mi puoi passare l’acqua, per favore? – Kannst Du mir bitte das Wasser reichen? / Grazie di tutto! – Prego! – Danke für alles – Bitteschön!"
   },
   {
    "id": "u6-6b-037",
@@ -498,7 +536,8 @@
     "ich möchte",
     "ich hätte gerne"
    ],
-   "page": "192-194"
+   "page": "192-194",
+   "example": "Vorrei un etto di prosciutto."
   },
   {
    "id": "u6-6b-038",
@@ -506,15 +545,17 @@
    "translations": [
     "halb"
    ],
-   "page": "192-194"
+   "page": "192-194",
+   "example": "Vorrei mezzo chilo di funghi."
   },
   {
    "id": "u6-6b-039",
    "target": "il chilo",
    "translations": [
-    "das Kilo(gramm)"
+    "das Kilo(-gramm)"
    ],
    "page": "192-194",
+   "example": "Prendo un chilo di pomodori.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -532,7 +573,7 @@
     "der Pilz"
    ],
    "page": "192-194",
-   "usage": "Pl.: i funghi",
+   "usage": "pl. i funghi",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -584,6 +625,7 @@
     "der Kuchen"
    ],
    "page": "192-194",
+   "example": "Per il compleanno mangiamo la torta.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -617,7 +659,9 @@
    "translations": [
     "kochen"
    ],
-   "page": "192-194"
+   "page": "192-194",
+   "example": "La madre sa cucinare bene.",
+   "related": "▸ la cucina; F cuisiner"
   },
   {
    "id": "u6-6b-047",
@@ -627,6 +671,8 @@
     "der Nachtisch"
    ],
    "page": "192-194",
+   "example": "La torta è un dolce.",
+   "related": "L dulcis/-e",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -653,6 +699,8 @@
     "der (Bären-)Hunger"
    ],
    "page": "192-194",
+   "example": "È pronta la cena? Ho una fame da lupi!",
+   "related": "F la faim",
    "acceptedAnswers": [
     "la fame"
    ],
@@ -674,6 +722,7 @@
     "das Parfüm"
    ],
    "page": "192-194",
+   "related": "F le parfum",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -690,7 +739,8 @@
    "translations": [
     "Guten Appetit!"
    ],
-   "page": "192-194"
+   "page": "192-194",
+   "related": "F Bon appétit!"
   },
   {
    "id": "u6-6b-052",
@@ -699,6 +749,7 @@
     "das Gemüse"
    ],
    "page": "192-194",
+   "example": "Mangio tanta frutta e verdura.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -715,7 +766,8 @@
    "translations": [
     "du könntest"
    ],
-   "page": "192-194"
+   "page": "192-194",
+   "example": "Khalid, potresti portare i pomodori?"
   }
  ],
  "catalog": {

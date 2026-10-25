@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -32,10 +32,12 @@
    "id": "u7-approccio-001",
    "target": "ogni",
    "translations": [
-    "jede(r)",
+    "jede/r",
     "jedes"
    ],
-   "page": "194-195"
+   "page": "194-195",
+   "example": "Ogni estate andiamo in montagna.",
+   "related": "L omnis"
   },
   {
    "id": "u7-approccio-002",
@@ -43,17 +45,18 @@
    "translations": [
     "ruhig"
    ],
-   "page": "194-195"
+   "page": "194-195",
+   "related": "F tranquille; L tranquillus"
   },
   {
    "id": "u7-approccio-003",
    "target": "loro",
    "translations": [
     "sie",
-    "ihnen"
+    "ihnen (nach Präp.)"
    ],
    "page": "194-195",
-   "usage": "nach Präposition"
+   "example": "È molto interessante per loro."
   },
   {
    "id": "u7-approccio-004",
@@ -62,16 +65,16 @@
     "Ich kann es nicht erwarten!",
     "Ich freue mich darauf!"
    ],
-   "page": "194-195"
+   "page": "194-195",
+   "example": "Non vedo l’ora di andare in vacanza!"
   },
   {
    "id": "u7-approccio-005",
    "target": "i miei",
    "translations": [
-    "meine Eltern"
+    "hier: meine Eltern"
    ],
    "page": "194-195",
-   "usage": "hier",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "i",
@@ -90,7 +93,9 @@
     "weit"
    ],
    "page": "194-195",
-   "usage": "Pl.: lunghi/-e"
+   "example": "Da Torino a Lecce è un viaggio lungo.",
+   "related": "L longus",
+   "usage": "pl. lunghi/-e"
   },
   {
    "id": "u7-approccio-007",
@@ -99,6 +104,8 @@
     "die Prüfung"
    ],
    "page": "194-195",
+   "example": "Sono nervoso – domani ho l’esame.",
+   "related": "E exam",
    "usage": "m."
   },
   {
@@ -108,6 +115,7 @@
     "die Nachprüfung"
    ],
    "page": "194-195",
+   "example": "Dopo le vacanze ho l’esame di riparazione.",
    "usage": "m."
   },
   {
@@ -126,7 +134,8 @@
     "der Platz"
    ],
    "page": "194-195",
-   "usage": "Pl.: gli spazi",
+   "related": "E space; F l’espace; L spatium",
+   "usage": "pl. gli spazi. Unterscheide: È un posto fantastico. – Es ist ein toller Ort. / Questa piazza mi piace. – Dieser Platz gefällt mir. / Nella macchina non c’è abbastanza spazio/posto per tutto. – Im Auto ist nicht genug Platz für alles.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -143,7 +152,9 @@
    "translations": [
     "baden (gehen)"
    ],
-   "page": "194-195"
+   "page": "194-195",
+   "example": "Mi piace fare il bagno nel mare.",
+   "usage": "Abc"
   },
   {
    "id": "u7-approccio-012",
@@ -152,6 +163,8 @@
     "die Sonne"
    ],
    "page": "194-195",
+   "example": "In Italia c’è tanto sole.",
+   "related": "F le soleil; L sol",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -168,7 +181,8 @@
    "translations": [
     "sich sonnen"
    ],
-   "page": "194-195"
+   "page": "194-195",
+   "example": "In spiaggia Anna prende il sole."
   },
   {
    "id": "u7-approccio-014",
@@ -194,7 +208,8 @@
     "Wie langweilig!",
     "Wie öde!"
    ],
-   "page": "194-195"
+   "page": "194-195",
+   "example": "Devo studiare. Che barba!"
   },
   {
    "id": "u7-approccio-016",
@@ -202,7 +217,8 @@
    "translations": [
     "abreisen nach"
    ],
-   "page": "194-195"
+   "page": "194-195",
+   "example": "Giorgia parte per la Liguria."
   },
   {
    "id": "u7-approccio-017",
@@ -218,7 +234,8 @@
    "translations": [
     "kurz"
    ],
-   "page": "194-195"
+   "page": "194-195",
+   "related": "≠ lungo/-a; F bref, brève; L brevis/-e"
   },
   {
    "id": "u7-approccio-019",
@@ -227,7 +244,8 @@
     "das Hotel"
    ],
    "page": "194-195",
-   "usage": "Pl.: gli alberghi"
+   "example": "In vacanza prendiamo una camera in albergo.",
+   "usage": "pl. gli alberghi"
   },
   {
    "id": "u7-approccio-020",
@@ -236,6 +254,7 @@
     "der Spaziergang"
    ],
    "page": "194-195",
+   "related": "▸ passeggiare",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -254,9 +273,12 @@
     "lieber machen"
    ],
    "page": "194-195",
+   "example": "Non amo la montagna. Preferisco andare al mare.",
+   "related": "E to prefer; F préférer",
    "acceptedAnswers": [
     "preferire"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
    "id": "u7-approccio-022",
@@ -266,6 +288,7 @@
     "deshalb"
    ],
    "page": "194-195",
+   "example": "Non mi piace la montagna, perciò vado al mare.",
    "usage": "avv."
   },
   {
@@ -276,7 +299,8 @@
     "wechseln",
     "sich ändern"
    ],
-   "page": "194-195"
+   "page": "194-195",
+   "example": "Ho cambiato il numero di cellulare. Guarda! Il tempo cambia."
   },
   {
    "id": "u7-approccio-024",
@@ -293,7 +317,8 @@
     "der Campingplatz"
    ],
    "page": "194-195",
-   "usage": "Pl.: i campeggi",
+   "example": "Quest’anno andiamo in campeggio.",
+   "usage": "pl. i campeggi",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -311,6 +336,8 @@
     "das Zelt"
    ],
    "page": "194-195",
+   "example": "In campeggio dormo in una tenda.",
+   "related": "E tent",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",

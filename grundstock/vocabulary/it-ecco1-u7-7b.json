@@ -24,17 +24,18 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
   {
    "id": "u7-7b-001",
-   "target": "l’adulto/-a",
+   "target": "l’adulto",
    "translations": [
     "der/die Erwachsene"
    ],
-   "page": "197-198"
+   "page": "197-198",
+   "related": "E adult; F l’adulte"
   },
   {
    "id": "u7-7b-002",
@@ -42,7 +43,8 @@
    "translations": [
     "einige"
    ],
-   "page": "197-198"
+   "page": "197-198",
+   "usage": "Alcune persone sono in spiaggia e altre sono in piazza a prendere un caffè. – Einige Leute sind am Strand, andere sind auf dem Platz, um einen Kaffee zu trinken."
   },
   {
    "id": "u7-7b-003",
@@ -52,6 +54,7 @@
     "das Monument"
    ],
    "page": "197-198",
+   "related": "E monument; F le monument; L monumentum",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -69,7 +72,8 @@
     "historisch"
    ],
    "page": "197-198",
-   "usage": "Pl.: storici/storiche"
+   "example": "Il centro storico di Sanremo è molto bello.",
+   "usage": "pl. storici/storiche"
   },
   {
    "id": "u7-7b-005",
@@ -78,6 +82,7 @@
     "die Gasse"
    ],
    "page": "197-198",
+   "example": "Al centro storico ci sono tanti vicoli.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -94,7 +99,8 @@
    "translations": [
     "eng"
    ],
-   "page": "197-198"
+   "page": "197-198",
+   "example": "I vicoli sono stretti."
   },
   {
    "id": "u7-7b-007",
@@ -103,6 +109,7 @@
     "gegenüber"
    ],
    "page": "197-198",
+   "example": "Il bar è di fronte al palazzo.",
    "usage": "prep."
   },
   {
@@ -112,6 +119,7 @@
     "die Kathedrale"
    ],
    "page": "197-198",
+   "example": "La cattedrale si trova in piazza.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -146,6 +154,8 @@
     "das Stück"
    ],
    "page": "197-198",
+   "example": "Ho fame. Mi dai un pezzo di pane?",
+   "related": "E piece",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -162,16 +172,18 @@
    "translations": [
     "kalt"
    ],
-   "page": "197-198"
+   "page": "197-198",
+   "related": "≠ caldo"
   },
   {
    "id": "u7-7b-012",
    "target": "lo scontrino",
    "translations": [
     "der Kassenbon",
-    "der Kassenzettel"
+    "Kassenzettel"
    ],
    "page": "197-198",
+   "example": "Al bar prendiamo lo scontrino alla cassa.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -189,9 +201,12 @@
     "sich setzen"
    ],
    "page": "197-198",
+   "example": "Leo si siede sulla sedia.",
+   "related": "▸ la sedia",
    "acceptedAnswers": [
     "sedersi"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
    "id": "u7-7b-014",
@@ -199,7 +214,9 @@
    "translations": [
     "sich verabreden"
    ],
-   "page": "197-198"
+   "page": "197-198",
+   "example": "Anna e Leo si danno appuntamento alle sette.",
+   "related": "E appointment"
   },
   {
    "id": "u7-7b-015",
@@ -208,7 +225,8 @@
     "der Parkplatz"
    ],
    "page": "197-198",
-   "usage": "Pl.: i parcheggi",
+   "example": "Metto la macchina sul parcheggio.",
+   "usage": "pl. i parcheggi",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -225,7 +243,8 @@
    "translations": [
     "die Orientierung"
    ],
-   "page": "197-198"
+   "page": "197-198",
+   "example": "Il GPS è per l’orientamento."
   },
   {
    "id": "u7-7b-017",
@@ -233,7 +252,8 @@
    "translations": [
     "jdm/(auf) etw. vertrauen"
    ],
-   "page": "197-198"
+   "page": "197-198",
+   "example": "Io non mi fido del GPS."
   },
   {
    "id": "u7-7b-018",
@@ -242,6 +262,7 @@
     "in Richtung"
    ],
    "page": "197-198",
+   "example": "I ragazzi corrono verso il casinò.",
    "usage": "prep."
   },
   {
@@ -251,6 +272,7 @@
     "das Theater"
    ],
    "page": "197-198",
+   "related": "L theatrum",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -268,7 +290,8 @@
     "der Ort"
    ],
    "page": "197-198",
-   "usage": "Pl.: i luoghi",
+   "example": "Sanremo è un luogo dove molte persone si divertono.",
+   "usage": "pl. i luoghi",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -286,7 +309,8 @@
     "das Festival"
    ],
    "page": "197-198",
-   "usage": "Pl.: i festival",
+   "example": "A Sanremo c’è il festival di musica.",
+   "usage": "pl. i festival",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -301,19 +325,29 @@
    "id": "u7-7b-022",
    "target": "a",
    "translations": [
-    "im"
+    "im + Monatsnamen"
    ],
    "page": "197-198",
-   "usage": "+ Monatsnamen"
+   "example": "A luglio vado in Italia."
   },
   {
    "id": "u7-7b-023",
-   "target": "il/la fan",
+   "target": "il fan",
    "translations": [
     "der Fan"
    ],
    "page": "197-198",
-   "usage": "Pl.: i fan"
+   "example": "Filippo è un fan di Ligabue.",
+   "usage": "pl. i fan",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
   },
   {
    "id": "u7-7b-024",
@@ -321,7 +355,8 @@
    "translations": [
     "unterschreiben"
    ],
-   "page": "197-198"
+   "page": "197-198",
+   "example": "Ligabue firma degli autografi per i suoi fan."
   },
   {
    "id": "u7-7b-025",
@@ -330,6 +365,8 @@
     "sogar"
    ],
    "page": "197-198",
+   "example": "Amo Liga. Ho perfino un autografo.",
+   "related": "= addirittura",
    "usage": "avv."
   },
   {
@@ -338,7 +375,8 @@
    "translations": [
     "von jdm/etw. begeistert"
    ],
-   "page": "197-198"
+   "page": "197-198",
+   "example": "Tutti sono entusiasti dell’idea."
   },
   {
    "id": "u7-7b-027",
@@ -347,6 +385,7 @@
     "geradeaus"
    ],
    "page": "197-198",
+   "example": "Per arrivare in centro dobbiamo andare dritto.",
    "usage": "avv."
   },
   {
@@ -355,7 +394,9 @@
    "translations": [
     "einige"
    ],
-   "page": "197-198"
+   "page": "197-198",
+   "example": "A Roma faccio qualche foto.",
+   "related": "F quelque"
   },
   {
    "id": "u7-7b-029",
@@ -364,6 +405,7 @@
     "die Strandpromenade"
    ],
    "page": "197-198",
+   "example": "Andiamo sul lungomare.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -381,7 +423,8 @@
     "jdn/etw. bemerken"
    ],
    "page": "197-198",
-   "usage": "Partizip: accorto"
+   "example": "Giorgia si accorge di essere in ritardo.",
+   "usage": "p.p. accorto"
   },
   {
    "id": "u7-7b-031",
@@ -412,10 +455,11 @@
    "id": "u7-7b-033",
    "target": "scarico/-a",
    "translations": [
-    "leer"
+    "leer (Batterie, Akku)"
    ],
    "page": "197-198",
-   "usage": "Batterie, Akku; Pl.: scarichi/-che"
+   "example": "Il mio cellulare è scarico.",
+   "usage": "pl. scarichi/-che"
   },
   {
    "id": "u7-7b-034",
@@ -424,6 +468,7 @@
     "die Straße"
    ],
    "page": "197-198",
+   "related": "▸ la via",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -441,7 +486,8 @@
     "richtig",
     "gerecht"
    ],
-   "page": "197-198"
+   "page": "197-198",
+   "related": "F juste; L iustus"
   },
   {
    "id": "u7-7b-036",
@@ -449,7 +495,9 @@
    "translations": [
     "überqueren"
    ],
-   "page": "197-198"
+   "page": "197-198",
+   "example": "Attraversa la strada!",
+   "related": "F traverser"
   },
   {
    "id": "u7-7b-037",
@@ -475,7 +523,8 @@
     "drehen",
     "abbiegen"
    ],
-   "page": "197-198"
+   "page": "197-198",
+   "example": "Dovete girare a sinistra."
   },
   {
    "id": "u7-7b-039",
@@ -484,6 +533,8 @@
     "links"
    ],
    "page": "197-198",
+   "example": "Devi girare a sinistra.",
+   "related": "L sinister",
    "usage": "avv."
   },
   {
@@ -493,7 +544,8 @@
     "die Kreuzung"
    ],
    "page": "197-198",
-   "usage": "Pl.: gli incroci"
+   "example": "All’incrocio girate a sinistra.",
+   "usage": "pl. gli incroci"
   },
   {
    "id": "u7-7b-041",
@@ -502,6 +554,7 @@
     "rechts"
    ],
    "page": "197-198",
+   "related": "≠ a sinistra; F à droite; L dexter",
    "usage": "avv."
   },
   {
@@ -519,6 +572,7 @@
     "der Fahrradweg"
    ],
    "page": "197-198",
+   "example": "In Liguria c’è una pista ciclabile lunga.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -536,7 +590,9 @@
     "ausgezeichnet",
     "sehr gut"
    ],
-   "page": "197-198"
+   "page": "197-198",
+   "example": "Andiamo in bici. – Ottima idea!",
+   "related": "L optimus"
   }
  ],
  "catalog": {

@@ -23,7 +23,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -33,7 +33,8 @@
    "translations": [
     "eifersüchtig"
    ],
-   "page": "191-192"
+   "page": "191-192",
+   "related": "E jealous; F jaloux, jalouse"
   },
   {
    "id": "u6-6a-002",
@@ -42,6 +43,7 @@
     "die Haare"
    ],
    "page": "191-192",
+   "example": "Vedi i ragazzi con i capelli neri?",
    "usage": "pl.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -60,7 +62,8 @@
     "lockig"
    ],
    "page": "191-192",
-   "usage": "Pl.: ricci/-e"
+   "example": "Khalid ha i capelli ricci.",
+   "usage": "pl. ricci/-e"
   },
   {
    "id": "u6-6a-004",
@@ -68,83 +71,71 @@
    "translations": [
     "jene(r, s)"
    ],
-   "page": "191-192"
+   "page": "191-192",
+   "example": "Quale ragazzo? – Quel ragazzo là!"
   },
   {
    "id": "u6-6a-005",
-   "target": "gli occhiali (da sole)",
+   "target": "uscire (esco)",
    "translations": [
-    "die (Sonnen-)Brille"
+    "hinausgehen/-kommen"
    ],
    "page": "191-192",
+   "example": "Il ragazzo esce dal negozio.",
+   "related": "≠ entrare; L exire",
    "acceptedAnswers": [
-    "gli occhiali"
+    "uscire"
    ],
-   "usage": "pl.",
-   "grammar": {
-    "partOfSpeech": "noun",
-    "article": "gli",
-    "gender": "masculine"
-   },
-   "answerPolicy": {
-    "article": "required",
-    "typo": "hint"
-   }
+   "usage": "Abc"
   },
   {
    "id": "u6-6a-006",
-   "target": "uscire (esco)",
-   "translations": [
-    "hinausgehen",
-    "hinauskommen"
-   ],
-   "page": "191-192",
-   "acceptedAnswers": [
-    "uscire"
-   ]
-  },
-  {
-   "id": "u6-6a-007",
    "target": "l’occhio",
    "translations": [
     "das Auge"
    ],
    "page": "191-192",
-   "usage": "Pl.: gli occhi"
+   "example": "Vedo con gli occhi.",
+   "related": "L oculus",
+   "usage": "pl. gli occhi"
   },
   {
-   "id": "u6-6a-008",
+   "id": "u6-6a-007",
    "target": "marrone",
    "translations": [
     "braun"
    ],
    "page": "191-192",
+   "example": "Gli occhi di Khalid sono marroni.",
    "usage": "agg."
   },
   {
-   "id": "u6-6a-009",
+   "id": "u6-6a-008",
    "target": "nascondere",
    "translations": [
     "verstecken"
    ],
    "page": "191-192",
-   "usage": "Partizip: nascosto"
+   "example": "Khalid nasconde gli occhi sotto gli occhiali.",
+   "usage": "p.p. nascosto"
   },
   {
-   "id": "u6-6a-010",
+   "id": "u6-6a-009",
    "target": "esagerare",
    "translations": [
     "übertreiben"
    ],
-   "page": "191-192"
+   "page": "191-192",
+   "related": "E to exaggerate; F exagérer"
   },
   {
-   "id": "u6-6a-011",
+   "id": "u6-6a-010",
    "target": "la cassa",
    "translations": [
     "die Kasse"
    ],
    "page": "191-192",
+   "example": "Al negozio c’è una cassa.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -156,29 +147,14 @@
    }
   },
   {
-   "id": "u6-6a-012",
-   "target": "il/la commesso/-a",
+   "id": "u6-6a-011",
+   "target": "il commesso",
    "translations": [
-    "der Verkäufer / die Verkäuferin"
-   ],
-   "page": "191-192"
-  },
-  {
-   "id": "u6-6a-013",
-   "target": "l’hard disk esterno",
-   "translations": [
-    "die externe Festplatte"
-   ],
-   "page": "191-192"
-  },
-  {
-   "id": "u6-6a-014",
-   "target": "il film",
-   "translations": [
-    "der Film"
+    "der/die Verkäufer/-in"
    ],
    "page": "191-192",
-   "usage": "Pl.: i film",
+   "example": "Il commesso vende i vestiti.",
+   "usage": "f. la commessa",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -190,59 +166,111 @@
    }
   },
   {
-   "id": "u6-6a-015",
+   "id": "u6-6a-012",
+   "target": "l’hard disk esterno",
+   "translations": [
+    "die externe Festplatte"
+   ],
+   "page": "191-192",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "u6-6a-013",
+   "target": "il film",
+   "translations": [
+    "der Film"
+   ],
+   "page": "191-192",
+   "example": "Ho visto un film in tv.",
+   "usage": "pl. i film",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6a-014",
    "target": "tardi",
    "translations": [
     "spät"
    ],
    "page": "191-192",
+   "example": "Sono stanco. Sono andato al letto tardi.",
+   "related": "≠ presto; F tard",
    "usage": "avv."
   },
   {
-   "id": "u6-6a-016",
-   "target": "il/la collega",
+   "id": "u6-6a-015",
+   "target": "il collega",
    "translations": [
-    "der Kollege / die Kollegin"
+    "der Kollege",
+    "die Kollegin"
    ],
    "page": "191-192",
-   "usage": "Pl.: i colleghi / le colleghe"
+   "example": "C’è tanto da fare, colleghi!",
+   "usage": "f. la collega; pl. i colleghi/le colleghe",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
   },
   {
-   "id": "u6-6a-017",
+   "id": "u6-6a-016",
    "target": "da",
    "translations": [
     "zu"
    ],
-   "page": "191-192"
+   "page": "191-192",
+   "example": "C’è tanto da fare.",
+   "usage": "Die Präposition da hat verschiedene Verwendungen: Filippo è da Leonardo. – Filippo ist bei Leonardo. / Giorgia parte da Roma. – Giorgia reist aus Rom ab. / Ci sono molte cose da mangiare. – Es gibt viele Dinge zu essen."
   },
   {
-   "id": "u6-6a-018",
+   "id": "u6-6a-017",
    "target": "mangiare",
    "translations": [
     "essen"
    ],
-   "page": "191-192"
+   "page": "191-192",
+   "example": "A cena la famiglia mangia insieme.",
+   "related": "F manger"
   },
   {
-   "id": "u6-6a-019",
+   "id": "u6-6a-018",
    "target": "bere (bevo)",
    "translations": [
     "trinken"
    ],
    "page": "191-192",
+   "example": "Tutti portano qualcosa da mangiare e da bere.",
+   "related": "L bibere",
    "acceptedAnswers": [
     "bere"
    ],
-   "usage": "Partizip: bevuto"
+   "usage": "Abc; p.p. bevuto"
   },
   {
-   "id": "u6-6a-020",
+   "id": "u6-6a-019",
    "target": "chiamare",
    "translations": [
     "rufen",
     "anrufen"
    ],
-   "page": "191-192"
+   "page": "191-192",
+   "example": "Invito anche Anna. La chiamo subito.",
+   "related": "L clamare",
+   "usage": "Unterscheide: Chiamo Anna. – Ich rufe Anna an. / Mi chiamo Anna. – Ich heiße Anna."
   }
  ],
  "catalog": {

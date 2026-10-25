@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,10 @@
     "die Kultur"
    ],
    "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "related": "E culture; F culture",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -52,7 +56,12 @@
     "etw./jdn betrachten als",
     "halten für"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Il prof considera Marco un bravo ragazzo.",
+   "related": "E to consider; F considérer"
   },
   {
    "id": "m2-arte-cultura-scienze-003",
@@ -60,7 +69,11 @@
    "translations": [
     "deshalb"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Sono stanco, per questo stasera non vengo."
   },
   {
    "id": "m2-arte-cultura-scienze-004",
@@ -68,7 +81,11 @@
    "translations": [
     "reisen"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Mi piace viaggiare e vedere il mondo."
   },
   {
    "id": "m2-arte-cultura-scienze-005",
@@ -76,7 +93,11 @@
    "translations": [
     "das Jenseits"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Il libro di Dante parla di un viaggio nell’Aldilà."
   },
   {
    "id": "m2-arte-cultura-scienze-006",
@@ -86,7 +107,11 @@
     "die Epoche"
    ],
    "page": "200",
-   "usage": "Pl.: le epoche"
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Mia nonna ha libri di molte epoche.",
+   "usage": "pl. le epoche"
   },
   {
    "id": "m2-arte-cultura-scienze-007",
@@ -95,7 +120,11 @@
     "klug",
     "intelligent"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "related": "E intelligent; F intelligent/-e"
   },
   {
    "id": "m2-arte-cultura-scienze-008",
@@ -103,7 +132,12 @@
    "translations": [
     "aktiv"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "A Luca piace essere attivo e fare sport.",
+   "related": "E active"
   },
   {
    "id": "m2-arte-cultura-scienze-009",
@@ -111,7 +145,11 @@
    "translations": [
     "unter anderem"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Oggi tra l’altro devo fare la spesa."
   },
   {
    "id": "m2-arte-cultura-scienze-010",
@@ -120,6 +158,10 @@
     "die 1-Euro-Münze"
    ],
    "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Per comprare il biglietto devi avere monete.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -136,7 +178,11 @@
    "translations": [
     "geboren werden"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Leonardo è nato nel 1452."
   },
   {
    "id": "m2-arte-cultura-scienze-012",
@@ -144,7 +190,12 @@
    "translations": [
     "berühmt"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Ligabue è un cantante famoso.",
+   "related": "E famous"
   },
   {
    "id": "m2-arte-cultura-scienze-013",
@@ -154,6 +205,10 @@
     "das Bild"
    ],
    "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Durante la lezione d’arte Mia fa un bel disegno.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -171,7 +226,12 @@
     "das Genie"
    ],
    "page": "200",
-   "usage": "Pl.: i geni",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Non devi essere un genio per capirlo.",
+   "related": "E genius",
+   "usage": "pl. i geni",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -190,6 +250,10 @@
     "das Bild"
    ],
    "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Mi piacciono i dipinti di Van Gogh.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -206,7 +270,11 @@
    "translations": [
     "aufbewahren"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Mio nonno conserva tutte le foto di famiglia."
   },
   {
    "id": "m2-arte-cultura-scienze-017",
@@ -214,7 +282,11 @@
    "translations": [
     "ungefähr"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "È presto, sono circa le 7."
   },
   {
    "id": "m2-arte-cultura-scienze-018",
@@ -224,6 +296,10 @@
     "die Aufzeichnungen"
    ],
    "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Ho bisogno dei miei appunti per fare il compito.",
    "usage": "pl.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -241,7 +317,11 @@
    "translations": [
     "der Hubschrauber"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "related": "E helicopter; F l’hélicoptère"
   },
   {
    "id": "m2-arte-cultura-scienze-020",
@@ -250,6 +330,10 @@
     "alle"
    ],
    "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Alla festa sono venuti tutti gli amici.",
    "usage": "pl."
   },
   {
@@ -259,6 +343,11 @@
     "das Lächeln"
    ],
    "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Questo ragazzo ha un bel sorriso.",
+   "related": "F sourire",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -275,7 +364,11 @@
    "translations": [
     "geheimnisvoll"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Laura mi ha raccontato una storia misteriosa."
   },
   {
    "id": "m2-arte-cultura-scienze-023",
@@ -284,6 +377,11 @@
     "das Museum"
    ],
    "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "La domenica siamo andati al museo.",
+   "related": "E museum",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -298,9 +396,14 @@
    "id": "m2-arte-cultura-scienze-024",
    "target": "l’olandese",
    "translations": [
-    "der Holländer / die Holländerin"
+    "der Holländer",
+    "die Holländerin"
    ],
    "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Alla partita di calcio sono venuti molti olandesi.",
    "usage": "m./f."
   },
   {
@@ -310,9 +413,14 @@
     "bauen"
    ],
    "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "related": "F construire; L struere",
    "acceptedAnswers": [
     "costruire"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
    "id": "m2-arte-cultura-scienze-026",
@@ -321,6 +429,10 @@
     "das Fernrohr"
    ],
    "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Quando va al mare, mio nonno porta il cannocchiale.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -338,6 +450,10 @@
     "die Kopie"
    ],
    "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Non è la vera Mona Lisa, è solo una copia.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -354,7 +470,11 @@
    "translations": [
     "die Hilfe"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Ho bisogno di aiuto con i compiti."
   },
   {
    "id": "m2-arte-cultura-scienze-029",
@@ -363,7 +483,12 @@
     "das Universum",
     "das Weltall"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "La terra non è al centro dell’universo.",
+   "related": "E universe"
   },
   {
    "id": "m2-arte-cultura-scienze-030",
@@ -372,6 +497,9 @@
     "die Kirche"
    ],
    "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -388,7 +516,10 @@
    "translations": [
     "das Urteil aufheben"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ]
   },
   {
    "id": "m2-arte-cultura-scienze-032",
@@ -396,7 +527,11 @@
    "translations": [
     "die Nationalhymne"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Sai cantare l’inno nazionale italiano?"
   },
   {
    "id": "m2-arte-cultura-scienze-033",
@@ -404,15 +539,24 @@
    "translations": [
     "offiziell"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Qui la lingua ufficiale è l’inglese.",
+   "related": "E official"
   },
   {
    "id": "m2-arte-cultura-scienze-034",
    "target": "l’opera",
    "translations": [
-    "die Oper"
+    "Oper"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "«La Traviata» è un’opera di Verdi."
   },
   {
    "id": "m2-arte-cultura-scienze-035",
@@ -421,6 +565,10 @@
     "der Erfolg"
    ],
    "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "related": "E success; F succès",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -433,11 +581,25 @@
   },
   {
    "id": "m2-arte-cultura-scienze-036",
-   "target": "lo scrittore / la scrittrice",
+   "target": "lo scrittore",
    "translations": [
-    "der Schriftsteller / die Schriftstellerin"
+    "der/die Schriftsteller/in"
    ],
-   "page": "200"
+   "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Hai letto qualcosa di questo scrittore?",
+   "usage": "f. la scrittrice",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
   },
   {
    "id": "m2-arte-cultura-scienze-037",
@@ -447,6 +609,10 @@
     "das Libretto"
    ],
    "page": "200",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Solera ha scritto il libretto per «Nabucco».",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",

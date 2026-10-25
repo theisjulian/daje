@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,7 +35,11 @@
     "einigermaßen gut",
     "so lala"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Ieri mia nonna è stata male. Oggi sta così così."
   },
   {
    "id": "m4-incontro-con-liga-002",
@@ -43,7 +47,10 @@
    "translations": [
     "nicht einmal"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ]
   },
   {
    "id": "m4-incontro-con-liga-003",
@@ -52,6 +59,9 @@
     "das Drittel"
    ],
    "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ],
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -69,6 +79,9 @@
     "die Hälfte"
    ],
    "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ],
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -83,10 +96,13 @@
    "id": "m4-incontro-con-liga-005",
    "target": "la giornata",
    "translations": [
-    "der Tag"
+    "der Tag (Verlauf)"
    ],
    "page": "201-202",
-   "usage": "im Verlauf",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Abbiamo passato una bella giornata.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -103,121 +119,193 @@
    "translations": [
     "das Treffen"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Oggi abbiamo un incontro con il nostro prof."
   },
   {
    "id": "m4-incontro-con-liga-007",
+   "target": "infatti",
+   "translations": [
+    "nämlich",
+    "tatsächlich"
+   ],
+   "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ],
+   "related": "E in fact; F en fait"
+  },
+  {
+   "id": "m4-incontro-con-liga-008",
    "target": "più di",
    "translations": [
     "mehr als"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Ho invitato più di 20 amici."
   },
   {
-   "id": "m4-incontro-con-liga-008",
+   "id": "m4-incontro-con-liga-009",
    "target": "qualcuno",
    "translations": [
     "jemand"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Qualcuno di voi ha visto il mio zaino?"
   },
   {
-   "id": "m4-incontro-con-liga-009",
+   "id": "m4-incontro-con-liga-010",
    "target": "Non ci credo!",
    "translations": [
     "Das glaube ich nicht!"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ]
   },
   {
-   "id": "m4-incontro-con-liga-010",
+   "id": "m4-incontro-con-liga-011",
    "target": "invidiare",
    "translations": [
     "beneiden"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Vai al concerto di Ligabue? Come ti invidio!"
   },
   {
-   "id": "m4-incontro-con-liga-011",
+   "id": "m4-incontro-con-liga-012",
    "target": "annoiarsi",
    "translations": [
     "sich langweilen"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Senza gli amici Lara si annoia.",
+   "related": "F s’ennuyer"
   },
   {
-   "id": "m4-incontro-con-liga-012",
+   "id": "m4-incontro-con-liga-013",
    "target": "calmarsi",
    "translations": [
     "sich beruhigen"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Perché sei così nervoso? Devi calmarti!"
   },
   {
-   "id": "m4-incontro-con-liga-013",
+   "id": "m4-incontro-con-liga-014",
    "target": "apposta per",
    "translations": [
     "nur",
     "extra für jdn"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Ho comprato una torta apposta per te."
   },
   {
-   "id": "m4-incontro-con-liga-014",
+   "id": "m4-incontro-con-liga-015",
    "target": "Roba da matti!",
    "translations": [
     "Ich werde verrückt!"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ]
   },
   {
-   "id": "m4-incontro-con-liga-015",
+   "id": "m4-incontro-con-liga-016",
    "target": "toccare",
    "translations": [
     "dran sein",
     "an der Reihe sein"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Quando è toccato a me, ho risposto."
   },
   {
-   "id": "m4-incontro-con-liga-016",
+   "id": "m4-incontro-con-liga-017",
    "target": "Mi dia …",
    "translations": [
     "Geben Sie mir …"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Mi dia sette panini, per favore."
   },
   {
-   "id": "m4-incontro-con-liga-017",
+   "id": "m4-incontro-con-liga-018",
    "target": "darsi del tu",
    "translations": [
     "sich duzen"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "I nostri prof ci danno del tu."
   },
   {
-   "id": "m4-incontro-con-liga-018",
+   "id": "m4-incontro-con-liga-019",
    "target": "darsi del Lei",
    "translations": [
     "sich siezen"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Non conosco bene tua zia. Perciò le do del Lei."
   },
   {
-   "id": "m4-incontro-con-liga-019",
+   "id": "m4-incontro-con-liga-020",
    "target": "bastare",
    "translations": [
     "genügen"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Ci bastano due giorni per riposarci."
   },
   {
-   "id": "m4-incontro-con-liga-020",
+   "id": "m4-incontro-con-liga-021",
    "target": "il chiasso",
    "translations": [
     "der Lärm"
    ],
    "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "I ragazzi fanno chiasso davanti al bar.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -229,12 +317,38 @@
    }
   },
   {
-   "id": "m4-incontro-con-liga-021",
+   "id": "m4-incontro-con-liga-022",
    "target": "la sala",
    "translations": [
     "der Saal"
    ],
    "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "I ragazzi entrano nella sala.",
+   "related": "F salle",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m4-incontro-con-liga-023",
+   "target": "la metà di",
+   "translations": [
+    "die Hälfte von (½)"
+   ],
+   "page": "201-202",
+   "tags": [
+    "fakultativ"
+   ],
+   "usage": "Bruchzahlen: un terzo di = ein Drittel von (⅓); un quarto di = ein Viertel von (¼). Unterscheide: la metà = die Hälfte (sostantivo); mezzo/-a = halb (aggettivo)",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",

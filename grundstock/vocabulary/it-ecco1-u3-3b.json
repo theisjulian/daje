@@ -18,13 +18,13 @@
  "sources": [
   {
    "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 179-181 (vom Nutzer bereitgestellte Seiten)",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 180-181 (vom Nutzer bereitgestellte Seiten)",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,8 +35,8 @@
     "zwischen",
     "unter"
    ],
-   "page": "179-181",
-   "usage": "örtlich"
+   "page": "180-181",
+   "usage": "Unterscheide: Vengo fra/tra cinque minuti. – Ich komme in fünf Minuten. (zeitlich); Fra/Tra Giorgia e Anna sta Khalid. – Zwischen Giorgia und Anna steht Khalid. (örtlich)"
   },
   {
    "id": "u3-3b-002",
@@ -44,7 +44,9 @@
    "translations": [
     "das Kapitel"
    ],
-   "page": "179-181",
+   "page": "180-181",
+   "example": "Il libro ha sette capitoli.",
+   "related": "F le chapitre",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -62,7 +64,8 @@
     "ziemlich",
     "genug"
    ],
-   "page": "179-181",
+   "page": "180-181",
+   "example": "In italiano vado abbastanza bene.",
    "usage": "avv."
   },
   {
@@ -71,7 +74,9 @@
    "translations": [
     "lesen"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "example": "Mi piace leggere libri.",
+   "related": "L legere"
   },
   {
    "id": "u3-3b-005",
@@ -80,7 +85,7 @@
     "gewichtig",
     "schwer"
    ],
-   "page": "179-181",
+   "page": "180-181",
    "usage": "agg."
   },
   {
@@ -89,7 +94,9 @@
    "translations": [
     "kreativ"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "example": "In arte siamo molto creativi.",
+   "related": "F créatif"
   },
   {
    "id": "u3-3b-007",
@@ -97,7 +104,8 @@
    "translations": [
     "schreiben"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "related": "F écrire; L scribere"
   },
   {
    "id": "u3-3b-008",
@@ -106,8 +114,9 @@
     "der Aufsatz",
     "das Thema"
    ],
-   "page": "179-181",
-   "usage": "Pl.: i temi",
+   "page": "180-181",
+   "example": "In italiano scriviamo il tema.",
+   "usage": "pl. i temi",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -124,7 +133,9 @@
    "translations": [
     "manchmal"
    ],
-   "page": "179-181",
+   "page": "180-181",
+   "example": "Qualche volta leggo libri, ma non spesso.",
+   "related": "≠ spesso",
    "usage": "avv."
   },
   {
@@ -133,7 +144,8 @@
    "translations": [
     "das Gedicht"
    ],
-   "page": "179-181",
+   "page": "180-181",
+   "example": "Khalid scrive anche poesie.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -150,7 +162,7 @@
    "translations": [
     "unzufrieden"
    ],
-   "page": "179-181"
+   "page": "180-181"
   },
   {
    "id": "u3-3b-012",
@@ -159,7 +171,8 @@
     "zum Glück",
     "umso besser"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "example": "Il latino è pesante. Meno male che il prof è bravo."
   },
   {
    "id": "u3-3b-013",
@@ -167,7 +180,8 @@
    "translations": [
     "dass"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "usage": "Unterscheide: Che fortuna! – Was für ein Glück!; che ho una camera mia! – dass ich ein eigenes Zimmer habe!"
   },
   {
    "id": "u3-3b-014",
@@ -175,7 +189,7 @@
    "translations": [
     "die Fremdsprachenassistentin"
    ],
-   "page": "179-181",
+   "page": "180-181",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -192,7 +206,9 @@
    "translations": [
     "blond"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "example": "Friederike è bionda.",
+   "related": "F blond(e)"
   },
   {
    "id": "u3-3b-016",
@@ -201,10 +217,10 @@
     "ihn",
     "ihm",
     "sie",
-    "ihr"
+    "ihr (nach Präp.)"
    ],
-   "page": "179-181",
-   "usage": "nach Präposition"
+   "page": "180-181",
+   "example": "Da lei facciamo sempre attenzione."
   },
   {
    "id": "u3-3b-017",
@@ -212,7 +228,8 @@
    "translations": [
     "genau"
    ],
-   "page": "179-181",
+   "page": "180-181",
+   "example": "Il rock è proprio la mia musica.",
    "usage": "avv."
   },
   {
@@ -221,7 +238,8 @@
    "translations": [
     "erzählen"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "related": "F raconter"
   },
   {
    "id": "u3-3b-019",
@@ -229,21 +247,24 @@
    "translations": [
     "geben"
    ],
-   "page": "179-181",
+   "page": "180-181",
+   "example": "Il prof dà i voti ai ragazzi.",
+   "related": "≠ prendere; L dare",
    "acceptedAnswers": [
     "dare"
    ],
-   "usage": "unregelmäßig"
+   "usage": "Abc"
   },
   {
    "id": "u3-3b-020",
    "target": "alto/-a",
    "translations": [
     "hoch",
-    "gut"
+    "hier: gut"
    ],
-   "page": "179-181",
-   "usage": "hier: gut"
+   "page": "180-181",
+   "example": "Evviva! Ho preso un voto alto.",
+   "related": "L altus"
   },
   {
    "id": "u3-3b-021",
@@ -252,16 +273,17 @@
     "wenn",
     "sobald"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "example": "Quando il De Carli arriva, Khalid non c’è."
   },
   {
    "id": "u3-3b-022",
    "target": "tocca a qn",
    "translations": [
-    "jd ist an der Reihe",
-    "jd ist dran"
+    "jd ist an der Reihe/dran"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "example": "Adesso tocca a me."
   },
   {
    "id": "u3-3b-023",
@@ -269,7 +291,8 @@
    "translations": [
     "schreien"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "example": "Khalid grida: aiuto!"
   },
   {
    "id": "u3-3b-024",
@@ -277,7 +300,8 @@
    "translations": [
     "das Geheimnis"
    ],
-   "page": "179-181",
+   "page": "180-181",
+   "related": "E mystery",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -293,20 +317,19 @@
    "target": "te",
    "translations": [
     "dich",
-    "dir"
+    "dir (nach Präp.)"
    ],
-   "page": "179-181",
-   "usage": "nach Präposition"
+   "page": "180-181",
+   "example": "Vado a scuola con te."
   },
   {
    "id": "u3-3b-026",
    "target": "brutto/-a",
    "translations": [
     "hässlich",
-    "schlecht"
+    "hier: schlecht"
    ],
-   "page": "179-181",
-   "usage": "hier: schlecht"
+   "page": "180-181"
   },
   {
    "id": "u3-3b-027",
@@ -314,7 +337,8 @@
    "translations": [
     "langweilig"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "example": "Secondo me storia è noiosa. Dormo sempre."
   },
   {
    "id": "u3-3b-028",
@@ -322,7 +346,8 @@
    "translations": [
     "sprechen"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "related": "F parler"
   },
   {
    "id": "u3-3b-029",
@@ -330,7 +355,7 @@
    "translations": [
     "der/die Jugendliche"
    ],
-   "page": "179-181"
+   "page": "180-181"
   },
   {
    "id": "u3-3b-030",
@@ -338,7 +363,8 @@
    "translations": [
     "jung"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "related": "≠ vecchio; F jeune"
   },
   {
    "id": "u3-3b-031",
@@ -348,7 +374,7 @@
     "hübsch",
     "nett"
    ],
-   "page": "179-181"
+   "page": "180-181"
   },
   {
    "id": "u3-3b-032",
@@ -356,7 +382,9 @@
    "translations": [
     "modisch"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "example": "La prof ha sempre vestiti alla moda.",
+   "related": "F à la mode"
   },
   {
    "id": "u3-3b-033",
@@ -364,7 +392,9 @@
    "translations": [
     "aufmerksam"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "example": "I ragazzi ascoltano e stanno attenti.",
+   "related": "L attentus"
   },
   {
    "id": "u3-3b-034",
@@ -372,7 +402,8 @@
    "translations": [
     "wirklich"
    ],
-   "page": "179-181",
+   "page": "180-181",
+   "example": "Questo prof è davvero bravo.",
    "usage": "avv."
   },
   {
@@ -381,7 +412,7 @@
    "translations": [
     "der Mathematiker"
    ],
-   "page": "179-181",
+   "page": "180-181",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -396,9 +427,10 @@
    "id": "u3-3b-036",
    "target": "siciliano/-a",
    "translations": [
-    "sizilianisch"
+    "sizilianisch (Herkunft)"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "example": "Luigi è di Palermo. È siciliano."
   },
   {
    "id": "u3-3b-037",
@@ -406,7 +438,9 @@
    "translations": [
     "die Regel"
    ],
-   "page": "179-181",
+   "page": "180-181",
+   "example": "Khalid spiega la regola a Giorgia.",
+   "related": "F la règle",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -419,11 +453,23 @@
   },
   {
    "id": "u3-3b-038",
-   "target": "lo studente / la studentessa",
+   "target": "lo studente",
    "translations": [
-    "der Schüler / die Schülerin"
+    "der Schüler"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "example": "Il prof dà voti agli studenti.",
+   "related": "E student",
+   "usage": "f. la studentessa",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
   },
   {
    "id": "u3-3b-039",
@@ -432,8 +478,10 @@
     "nett",
     "sympathisch"
    ],
-   "page": "179-181",
-   "usage": "Pl.: simpatici/simpatiche"
+   "page": "180-181",
+   "example": "Il nuovo prof è molto simpatico.",
+   "related": "F sympa",
+   "usage": "pl. simpatici/simpatiche"
   },
   {
    "id": "u3-3b-040",
@@ -442,7 +490,8 @@
     "wenigstens",
     "zumindest"
    ],
-   "page": "179-181",
+   "page": "180-181",
+   "example": "Almeno io capisco matematica.",
    "usage": "avv."
   },
   {
@@ -452,7 +501,8 @@
     "leicht",
     "einfach"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "related": "F facile; L facilis"
   },
   {
    "id": "u3-3b-042",
@@ -460,7 +510,9 @@
    "translations": [
     "die Medien"
    ],
-   "page": "179-181",
+   "page": "180-181",
+   "example": "Il prof è bravo con i nuovi media.",
+   "related": "F les médias",
    "usage": "pl.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -479,16 +531,19 @@
     "gebrauchen",
     "(be)nutzen"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "example": "Greta usa molto i nuovi media.",
+   "related": "E to use"
   },
   {
    "id": "u3-3b-044",
    "target": "bravissimo/-a",
    "translations": [
     "sehr gut",
-    "sehr tüchtig"
+    "tüchtig"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "example": "Khalid è bravissimo in italiano."
   },
   {
    "id": "u3-3b-045",
@@ -497,8 +552,8 @@
     "der Nachmittag",
     "nachmittags"
    ],
-   "page": "179-181",
-   "usage": "Pl.: i pomeriggi",
+   "page": "180-181",
+   "usage": "pl. i pomeriggi",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -516,8 +571,9 @@
     "der Kaffee",
     "das Kaffee(-haus)"
    ],
-   "page": "179-181",
-   "usage": "Pl.: i caffè",
+   "page": "180-181",
+   "example": "Prendiamo un caffè?",
+   "usage": "pl. i caffè",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -530,11 +586,22 @@
   },
   {
    "id": "u3-3b-047",
-   "target": "il/la testimone",
+   "target": "il testimone",
    "translations": [
-    "der Zeuge / die Zeugin"
+    "der Zeuge"
    ],
-   "page": "179-181"
+   "page": "180-181",
+   "related": "F le témoin; L testis",
+   "usage": "f. la testimone",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
   }
  ],
  "catalog": {
@@ -545,7 +612,7 @@
    "volume": "1",
    "unit": "Unità 3",
    "section": "3B",
-   "pages": "179-181"
+   "pages": "180-181"
   },
   "grade": 8,
   "foreignLanguageNo": 3,

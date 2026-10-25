@@ -23,7 +23,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,6 +34,7 @@
     "das Fest"
    ],
    "page": "186",
+   "example": "Per il mio compleanno faccio una festa.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -46,38 +47,82 @@
   },
   {
    "id": "u5-approccio-002",
-   "target": "il/la figlio/-a",
+   "target": "il figlio",
    "translations": [
-    "der Sohn / die Tochter",
+    "der Sohn",
+    "die Tochter",
     "das Kind"
    ],
    "page": "186",
-   "usage": "Pl.: i figli"
+   "usage": "f. la figlia; pl. i figli",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
   },
   {
    "id": "u5-approccio-003",
-   "target": "il figlio unico / la figlia unica",
+   "target": "il figlio unico",
    "translations": [
     "das Einzelkind"
    ],
    "page": "186",
-   "usage": "Pl.: i figli unici / le figlie uniche"
+   "example": "Anna non ha fratelli. È figlia unica.",
+   "related": "L filius/-a",
+   "usage": "pl. i figli unici; f. la figlia unica, pl. le figlie uniche",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
   },
   {
    "id": "u5-approccio-004",
-   "target": "il/la nonno/-a",
+   "target": "il nonno",
    "translations": [
-    "der Opa / die Oma"
+    "der Opa",
+    "die Oma"
    ],
-   "page": "186"
+   "page": "186",
+   "example": "Mia nonna ha 70 anni.",
+   "usage": "f. la nonna",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
   },
   {
    "id": "u5-approccio-005",
-   "target": "il/la cugino/-a",
+   "target": "il cugino",
    "translations": [
-    "der Cousin / die Cousine"
+    "der/die Kusin/-e"
    ],
-   "page": "186"
+   "page": "186",
+   "example": "Mio cugino Frank è tedesco.",
+   "usage": "f. la cugina",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
   },
   {
    "id": "u5-approccio-006",
@@ -86,6 +131,7 @@
     "die Überraschung"
    ],
    "page": "186",
+   "related": "E surprise; F la surprise",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -102,7 +148,8 @@
    "translations": [
     "feiern"
    ],
-   "page": "186"
+   "page": "186",
+   "example": "I ragazzi festeggiano il compleanno di Anna."
   },
   {
    "id": "u5-approccio-008",
@@ -111,6 +158,7 @@
     "das Restaurant"
    ],
    "page": "186",
+   "example": "Stasera andiamo al ristorante.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -127,7 +175,9 @@
    "translations": [
     "wann?"
    ],
-   "page": "186"
+   "page": "186",
+   "example": "Quando finisce la scuola?",
+   "related": "F quand; L quando"
   },
   {
    "id": "u5-approccio-010",
@@ -135,7 +185,8 @@
    "translations": [
     "es wird gebeten"
    ],
-   "page": "186"
+   "page": "186",
+   "example": "Si prega di rispondere."
   },
   {
    "id": "u5-approccio-011",
@@ -145,6 +196,7 @@
     "bis spätestens"
    ],
    "page": "186",
+   "example": "Si prega di rispondere entro il primo marzo.",
    "usage": "avv."
   }
  ],

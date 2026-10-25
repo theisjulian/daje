@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,7 +35,8 @@
     "der Ski"
    ],
    "page": "183-185",
-   "usage": "Pl.: gli sci",
+   "example": "Mi piace fare sci.",
+   "usage": "pl. gli sci",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -53,7 +54,9 @@
     "frisch"
    ],
    "page": "183-185",
-   "usage": "Pl.: freschi/-e"
+   "example": "La neve è fresca.",
+   "related": "E fresh; F frais, fraîche",
+   "usage": "pl. freschi/-e"
   },
   {
    "id": "u4-4a-003",
@@ -79,6 +82,7 @@
     "die Alpen"
    ],
    "page": "183-185",
+   "example": "Sulle Alpi c’è la neve.",
    "usage": "pl.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -96,7 +100,8 @@
    "translations": [
     "nach"
    ],
-   "page": "183-185"
+   "page": "183-185",
+   "example": "Dopo la scuola vado a casa."
   },
   {
    "id": "u4-4a-006",
@@ -105,6 +110,7 @@
     "die Tür"
    ],
    "page": "183-185",
+   "related": "F la porte; L porta",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -121,16 +127,17 @@
    "translations": [
     "offen"
    ],
-   "page": "183-185"
+   "page": "183-185",
+   "example": "La porta è aperta."
   },
   {
    "id": "u4-4a-008",
    "target": "noi/voi",
    "translations": [
-    "uns/euch"
+    "uns/euch (nach Präp.)"
    ],
    "page": "183-185",
-   "usage": "nach Präposition"
+   "example": "Vieni con noi in montagna?"
   },
   {
    "id": "u4-4a-009",
@@ -140,9 +147,11 @@
     "sollen"
    ],
    "page": "183-185",
+   "related": "F devoir; L debere",
    "acceptedAnswers": [
     "dovere"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
    "id": "u4-4a-010",
@@ -151,9 +160,12 @@
     "kommen"
    ],
    "page": "183-185",
+   "example": "Anna, vieni anche tu?",
+   "related": "F venir; L venire",
    "acceptedAnswers": [
     "venire"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
    "id": "u4-4a-011",
@@ -164,7 +176,8 @@
     "dorthin"
    ],
    "page": "183-185",
-   "usage": "avv."
+   "example": "Vieni a casa mia? – Sì, ci vengo.",
+   "usage": "avv. Beachte: ci steht unmittelbar vor dem konjugierten Verb: Vieni in spiaggia con noi? – No, non ci vengo. Non ho tempo."
   },
   {
    "id": "u4-4a-012",
@@ -173,7 +186,9 @@
     "Ich bin dabei!",
     "Ich mache mit!"
    ],
-   "page": "183-185"
+   "page": "183-185",
+   "example": "Devi venire anche tu! – Sì, ci sto!",
+   "usage": "Das Verb stare hat viele unterschiedliche Verwendungen: Come stai? – Sto bene. / State attenti! – Gebt Acht! / Leo sta volentieri in montagna. – Leo ist gerne im Gebirge. / Giorgia sta spesso con i suoi amici. – Giorgia ist häufig mit ihren Freunden zusammen. / Chi viene a sciare con me? – Ci sto. – Ich bin dabei."
   },
   {
    "id": "u4-4a-013",
@@ -181,7 +196,8 @@
    "translations": [
     "vorbereiten"
    ],
-   "page": "183-185"
+   "page": "183-185",
+   "related": "E to prepare; F préparer"
   },
   {
    "id": "u4-4a-014",
@@ -190,6 +206,7 @@
     "die Piste"
    ],
    "page": "183-185",
+   "example": "In montagna ci sono le piste da sci.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -207,9 +224,12 @@
     "allein"
    ],
    "page": "183-185",
+   "example": "Anna, non vengo. Devi andare da sola.",
+   "related": "L solus",
    "acceptedAnswers": [
     "solo/-a"
-   ]
+   ],
+   "usage": "Unterscheide: Non vado da solo. – Ich fahre nicht alleine. / Vado a Sestriere solo con gli amici. – Ich fahre nur mit den Freunden nach Sestriere."
   },
   {
    "id": "u4-4a-016",
@@ -217,7 +237,9 @@
    "translations": [
     "ich habe bekommen"
    ],
-   "page": "183-185"
+   "page": "183-185",
+   "example": "Per il mio compleanno ho avuto uno snowboard.",
+   "usage": "Abc"
   },
   {
    "id": "u4-4a-017",
@@ -226,6 +248,7 @@
     "der Geburtstag"
    ],
    "page": "183-185",
+   "example": "Ho avuto uno snowboard per il mio compleanno.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -243,7 +266,8 @@
     "fertig",
     "vorbereitet"
    ],
-   "page": "183-185"
+   "page": "183-185",
+   "example": "Partiamo! Siete pronti?"
   },
   {
    "id": "u4-4a-019",
@@ -251,7 +275,10 @@
    "translations": [
     "jdm helfen"
    ],
-   "page": "183-185"
+   "page": "183-185",
+   "example": "Khalid aiuta il suo papà.",
+   "related": "F aider qn; ▸ Aiuto!",
+   "usage": "Das Verb aiutare steht im Italienischen anders als im Deutschen mit direktem Objekt: Ich helfe den Freunden. – Aiuto gli amici."
   },
   {
    "id": "u4-4a-020",
@@ -260,9 +287,12 @@
     "können"
    ],
    "page": "183-185",
+   "example": "Devo fare i compiti. Non posso venire.",
+   "related": "F pouvoir; L posse",
    "acceptedAnswers": [
     "potere"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
    "id": "u4-4a-021",
@@ -279,6 +309,7 @@
     "jedenfalls"
    ],
    "page": "183-185",
+   "example": "Comunque è stata una bella partita.",
    "usage": "avv."
   },
   {
@@ -287,7 +318,8 @@
    "translations": [
     "nächste(r, s)"
    ],
-   "page": "183-185"
+   "page": "183-185",
+   "related": "F prochain(e); L proximus"
   },
   {
    "id": "u4-4a-024",
@@ -296,6 +328,7 @@
     "das Mal"
    ],
    "page": "183-185",
+   "example": "Oggi non posso. Vengo la prossima volta.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -312,7 +345,8 @@
    "translations": [
     "antworten"
    ],
-   "page": "183-185"
+   "page": "183-185",
+   "related": "≠ interrogare; F répondre; L respondere"
   },
   {
    "id": "u4-4a-026",
@@ -320,16 +354,19 @@
    "translations": [
     "Entschuldige!"
    ],
-   "page": "183-185"
+   "page": "183-185",
+   "example": "Scusa! Ma non posso venire.",
+   "related": "▸ scusi"
   },
   {
    "id": "u4-4a-027",
    "target": "l’artista",
    "translations": [
-    "der Künstler / die Künstlerin"
+    "der/die Künstler/-in"
    ],
    "page": "183-185",
-   "usage": "m./f., Pl.: gli artisti"
+   "related": "▸ l’arte; E artist; F l’artiste",
+   "usage": "m./f.; pl. gli artisti m."
   },
   {
    "id": "u4-4a-028",
@@ -338,21 +375,26 @@
     "wollen"
    ],
    "page": "183-185",
+   "related": "F vouloir; L velle",
    "acceptedAnswers": [
     "volere"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
    "id": "u4-4a-029",
    "target": "sapere (so)",
    "translations": [
     "wissen",
-    "können"
+    "auch: können"
    ],
    "page": "183-185",
+   "example": "Anna non sa pattinare.",
+   "related": "F savoir",
    "acceptedAnswers": [
     "sapere"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
    "id": "u4-4a-030",
@@ -369,7 +411,8 @@
    "translations": [
     "organisieren"
    ],
-   "page": "183-185"
+   "page": "183-185",
+   "example": "La madre di Anna organizza un concerto."
   },
   {
    "id": "u4-4a-032",
@@ -378,7 +421,8 @@
     "studieren",
     "lernen"
    ],
-   "page": "183-185"
+   "page": "183-185",
+   "related": "▸ lo studente; E study; L studere"
   },
   {
    "id": "u4-4a-033",
@@ -387,6 +431,7 @@
     "die Gesundheit"
    ],
    "page": "183-185",
+   "related": "L salus",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -405,7 +450,8 @@
     "das Studium"
    ],
    "page": "183-185",
-   "usage": "Pl.: gli studi",
+   "related": "L studium",
+   "usage": "pl. gli studi. Unterscheide: Ho lezioni di danza in uno studio. – Ich habe Tanzkurse in einem Studio. / Dopo lo studio incontro i miei amici. – Nach dem Lernen treffe ich meine Freunde.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -422,7 +468,8 @@
    "translations": [
     "töten"
    ],
-   "page": "183-185"
+   "page": "183-185",
+   "related": "L occidere"
   },
   {
    "id": "u4-4a-036",
@@ -443,6 +490,8 @@
     "endlich"
    ],
    "page": "183-185",
+   "example": "Adesso arriva Khalid. Finalmente!",
+   "related": "▸ finire; E finally",
    "usage": "avv."
   },
   {
@@ -452,6 +501,7 @@
     "Ski fahren"
    ],
    "page": "183-185",
+   "example": "D’inverno vado a sciare.",
    "acceptedAnswers": [
     "sciare"
    ]
@@ -462,7 +512,8 @@
    "translations": [
     "schneien"
    ],
-   "page": "183-185"
+   "page": "183-185",
+   "example": "A Lecce non nevica spesso."
   },
   {
    "id": "u4-4a-040",
@@ -471,6 +522,7 @@
     "der Norden"
    ],
    "page": "183-185",
+   "example": "Al nord tutti sanno sciare.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -498,9 +550,11 @@
     "lernen (etw. zu tun)"
    ],
    "page": "183-185",
+   "example": "Filippo vuole imparare a sciare.",
    "acceptedAnswers": [
     "imparare"
-   ]
+   ],
+   "usage": "Unterscheide: Voglio imparare il tedesco. – Ich möchte Deutsch lernen. / Oggi devo ancora studiare per il compito di tedesco. – Heute muss ich noch für die Deutschschulaufgabe lernen."
   },
   {
    "id": "u4-4a-043",
@@ -517,6 +571,7 @@
     "sicher"
    ],
    "page": "183-185",
+   "example": "Vuoi venire anche tu? – Sì, certo!",
    "usage": "avv."
   },
   {
@@ -526,9 +581,11 @@
     "vergessen"
    ],
    "page": "183-185",
+   "example": "Non dimenticare i compiti a casa!",
    "acceptedAnswers": [
     "dimenticare"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
    "id": "u4-4a-046",
@@ -538,7 +595,9 @@
     "bringen",
     "mitbringen"
    ],
-   "page": "183-185"
+   "page": "183-185",
+   "example": "A scuola dobbiamo portare i libri.",
+   "related": "F porter; L portare"
   },
   {
    "id": "u4-4a-047",
@@ -547,6 +606,8 @@
     "absolut"
    ],
    "page": "183-185",
+   "example": "Dovete assolutamente venire!",
+   "related": "E absolutely",
    "usage": "avv."
   }
  ],

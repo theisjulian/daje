@@ -23,7 +23,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -33,7 +33,8 @@
    "translations": [
     "römisch"
    ],
-   "page": "188-190"
+   "page": "188-190",
+   "example": "La mia amica è di Roma. È romana."
   },
   {
    "id": "u5-5b-002",
@@ -43,6 +44,7 @@
     "vor kurzem"
    ],
    "page": "188-190",
+   "related": "▸ ultimo/-a",
    "usage": "avv."
   },
   {
@@ -53,7 +55,9 @@
     "viel"
    ],
    "page": "188-190",
-   "usage": "avv."
+   "example": "A scuola devo studiare tanto!",
+   "related": "= molto; F tant",
+   "usage": "avv. Unterscheide: Il film è poco interessante. – Der Film ist wenig/kaum interessant. La pizza è molto buona. – Die Pizza ist sehr gut. I cugini sono tanto carini. – Die Cousins sind sehr süß. La mia camera è troppo piccola. – Mein Zimmer ist zu klein."
   },
   {
    "id": "u5-5b-004",
@@ -62,6 +66,7 @@
     "(das) Ostern"
    ],
    "page": "188-190",
+   "example": "A Pasqua ci sono le vacanze.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -79,7 +84,8 @@
     "die Reise"
    ],
    "page": "188-190",
-   "usage": "Pl.: i viaggi",
+   "example": "In vacanza voglio fare un viaggio a Roma.",
+   "usage": "pl. i viaggi",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -97,6 +103,8 @@
     "die Ruhe"
    ],
    "page": "188-190",
+   "example": "Mantieni la calma!",
+   "related": "E calm; F le calme",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -114,6 +122,8 @@
     "der Flug"
    ],
    "page": "188-190",
+   "example": "Cerco un volo per Roma in Internet.",
+   "related": "F le vol",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -131,6 +141,8 @@
     "der Preis"
    ],
    "page": "188-190",
+   "example": "Ho trovato un volo a buon prezzo.",
+   "related": "E price; L pretium",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -156,7 +168,9 @@
    "translations": [
     "kaufen"
    ],
-   "page": "188-190"
+   "page": "188-190",
+   "example": "Compro un vestito al negozio.",
+   "related": "≠ vendere"
   },
   {
    "id": "u5-5b-011",
@@ -166,6 +180,8 @@
     "das Ticket"
    ],
    "page": "188-190",
+   "example": "Filippo organizza i biglietti per il volo.",
+   "related": "F le billet",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -182,7 +198,9 @@
    "translations": [
     "der Flughafen"
    ],
-   "page": "188-190"
+   "page": "188-190",
+   "example": "All’aeroporto ci sono molti aerei.",
+   "related": "E airport; F l’aéroport"
   },
   {
    "id": "u5-5b-013",
@@ -191,7 +209,8 @@
     "der Bus"
    ],
    "page": "188-190",
-   "usage": "Pl.: gli autobus"
+   "example": "Abbiamo perso l’autobus.",
+   "usage": "pl. gli autobus"
   },
   {
    "id": "u5-5b-014",
@@ -200,6 +219,8 @@
     "der Bahnhof"
    ],
    "page": "188-190",
+   "example": "Prendo l’autobus dalla stazione.",
+   "related": "E station",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -226,7 +247,9 @@
     "versprechen"
    ],
    "page": "188-190",
-   "usage": "Partizip: promesso"
+   "example": "Telefono subito, promesso!",
+   "related": "L promittere",
+   "usage": "p.p. promesso"
   },
   {
    "id": "u5-5b-017",
@@ -235,6 +258,7 @@
     "die Haltestelle"
    ],
    "page": "188-190",
+   "example": "Devo scendere alla prossima fermata.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -252,7 +276,8 @@
     "warten",
     "erwarten"
    ],
-   "page": "188-190"
+   "page": "188-190",
+   "example": "I ragazzi aspettano l’autobus alla fermata."
   },
   {
    "id": "u5-5b-019",
@@ -261,7 +286,9 @@
     "kontrollieren",
     "(über)prüfen"
    ],
-   "page": "188-190"
+   "page": "188-190",
+   "example": "Devo controllare l’orario dell’autobus.",
+   "related": "E to control"
   },
   {
    "id": "u5-5b-020",
@@ -271,6 +298,8 @@
     "die Bahn"
    ],
    "page": "188-190",
+   "example": "Prendiamo il treno per il centro.",
+   "related": "E train",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -296,7 +325,7 @@
     "das Taxi"
    ],
    "page": "188-190",
-   "usage": "Pl.: i taxi",
+   "usage": "pl. i taxi",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -313,7 +342,9 @@
    "translations": [
     "kosten"
    ],
-   "page": "188-190"
+   "page": "188-190",
+   "example": "Il biglietto per il volo costa tanto.",
+   "related": "E to cost"
   },
   {
    "id": "u5-5b-024",
@@ -323,6 +354,7 @@
     "eine Menge"
    ],
    "page": "188-190",
+   "example": "Il taxi costa un sacco! Ho un sacco di compiti per domani.",
    "usage": "fam."
   },
   {
@@ -332,6 +364,7 @@
     "die Verspätung"
    ],
    "page": "188-190",
+   "related": "▸ essere in ritardo",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -357,7 +390,8 @@
    "translations": [
     "Das macht nichts!"
    ],
-   "page": "188-190"
+   "page": "188-190",
+   "example": "Scusa! Sono in ritardo. – Non fa niente!"
   },
   {
    "id": "u5-5b-028",
@@ -375,6 +409,7 @@
     "die Maschine"
    ],
    "page": "188-190",
+   "example": "Vado all’aeroporto in macchina.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -391,7 +426,8 @@
    "translations": [
     "ohne"
    ],
-   "page": "188-190"
+   "page": "188-190",
+   "related": "≠ con; F sans"
   },
   {
    "id": "u5-5b-031",
@@ -401,9 +437,12 @@
     "einsteigen"
    ],
    "page": "188-190",
+   "example": "Il treno parte. Devo salire.",
+   "related": "≠ scendere",
    "acceptedAnswers": [
     "salire"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
    "id": "u5-5b-032",
@@ -412,7 +451,8 @@
     "gleich",
     "in Kürze"
    ],
-   "page": "188-190"
+   "page": "188-190",
+   "example": "Tra poco siamo arrivati."
   },
   {
    "id": "u5-5b-033",
@@ -421,7 +461,9 @@
     "laufen",
     "gehen"
    ],
-   "page": "188-190"
+   "page": "188-190",
+   "example": "Dalla stazione dobbiamo camminare un po’.",
+   "usage": "Unterscheide: Devo camminare circa 35 minuti per arrivare a scuola. – Ich muss etwa 35 Minuten gehen/laufen, um in die Schule zu gelangen. La mattina devo andare a scuola. – Morgens muss ich in die Schule gehen. Mit camminare ist die Bewegung oder Bewegungsart gemeint. Einige Verben bilden das passato prossimo unregelmäßig: Ho camminato un’ora. – Ich bin eine Stunde lang spazieren gegangen."
   }
  ],
  "catalog": {

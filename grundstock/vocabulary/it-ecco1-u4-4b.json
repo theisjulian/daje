@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,7 +35,9 @@
     "weiß"
    ],
    "page": "185-186",
-   "usage": "Pl.: bianchi/bianche"
+   "example": "La neve è bianca.",
+   "related": "F blanc(he)",
+   "usage": "pl. bianchi/bianche"
   },
   {
    "id": "u4-4b-002",
@@ -43,7 +45,8 @@
    "translations": [
     "schwarz"
    ],
-   "page": "185-186"
+   "page": "185-186",
+   "related": "≠ bianco; F noir/e"
   },
   {
    "id": "u4-4b-003",
@@ -51,7 +54,9 @@
    "translations": [
     "fallen"
    ],
-   "page": "185-186"
+   "page": "185-186",
+   "example": "Filippo cade con lo snowboard.",
+   "related": "L cadere"
   },
   {
    "id": "u4-4b-004",
@@ -60,6 +65,7 @@
     "probieren (etw. zu tun)"
    ],
    "page": "185-186",
+   "related": "L probare",
    "acceptedAnswers": [
     "provare"
    ]
@@ -88,10 +94,12 @@
     "bleiben"
    ],
    "page": "185-186",
+   "example": "Anna rimane a casa per studiare.",
+   "related": "E to remain",
    "acceptedAnswers": [
     "rimanere"
    ],
-   "usage": "Partizip: rimasto"
+   "usage": "Abc; p.p. rimasto"
   },
   {
    "id": "u4-4b-007",
@@ -100,6 +108,7 @@
     "der Fuß"
    ],
    "page": "185-186",
+   "related": "F le pied; L pes",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -112,12 +121,16 @@
   },
   {
    "id": "u4-4b-008",
-   "target": "stanco/-a",
+   "target": "stanco/-a (morto/-a)",
    "translations": [
-    "(tod-)müde"
+    "(tot-)müde"
    ],
    "page": "185-186",
-   "usage": "Pl.: stanchi/-che"
+   "example": "Anna ha fatto molto sport. Adesso è stanca.",
+   "acceptedAnswers": [
+    "stanco/-a"
+   ],
+   "usage": "pl. stanchi/-che"
   },
   {
    "id": "u4-4b-009",
@@ -126,7 +139,8 @@
     "verlieren"
    ],
    "page": "185-186",
-   "usage": "Partizip: perso"
+   "related": "F perdre; L perdere",
+   "usage": "p.p. perso"
   },
   {
    "id": "u4-4b-010",
@@ -134,7 +148,9 @@
    "translations": [
     "gegen"
    ],
-   "page": "185-186"
+   "page": "185-186",
+   "example": "La Juve ha perso contro l’Inter.",
+   "related": "L contra"
   },
   {
    "id": "u4-4b-011",
@@ -142,7 +158,8 @@
    "translations": [
     "enttäuscht"
    ],
-   "page": "185-186"
+   "page": "185-186",
+   "example": "Khalid è deluso perché la Juve ha perso."
   },
   {
    "id": "u4-4b-012",
@@ -151,10 +168,11 @@
     "entscheiden (etw. zu tun)"
    ],
    "page": "185-186",
+   "related": "E to decide; F décider",
    "acceptedAnswers": [
     "decidere"
    ],
-   "usage": "Partizip: deciso"
+   "usage": "p.p. deciso"
   },
   {
    "id": "u4-4b-013",
@@ -163,6 +181,8 @@
     "die Nachricht"
    ],
    "page": "185-186",
+   "example": "Anna scrive un messaggio.",
+   "related": "E message; F le message",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -180,6 +200,7 @@
     "eben"
    ],
    "page": "185-186",
+   "example": "Ho appena visto il tuo messaggio.",
    "usage": "avv."
   },
   {
@@ -189,6 +210,7 @@
     "das Ergebnis"
    ],
    "page": "185-186",
+   "related": "F le résultat",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -213,16 +235,18 @@
    "translations": [
     "jdn anrufen"
    ],
-   "page": "185-186"
+   "page": "185-186",
+   "example": "Giorgia telefona a Filippo.",
+   "usage": "Das Verb telefonare steht im Italienischen anders als im Deutschen mit indirektem Objekt: Ich rufe Giorgia an. – Telefono a Giorgia."
   },
   {
    "id": "u4-4b-018",
-   "target": "Pronto!/?",
+   "target": "Pronto!?",
    "translations": [
-    "Hallo!/?"
+    "Hallo!? (am Telefon)"
    ],
    "page": "185-186",
-   "usage": "am Telefon"
+   "related": "▸ pronto/-a"
   },
   {
    "id": "u4-4b-019",
@@ -232,7 +256,9 @@
     "zulassen",
     "verlassen"
    ],
-   "page": "185-186"
+   "page": "185-186",
+   "example": "Lascia perdere!",
+   "related": "F laisser"
   },
   {
    "id": "u4-4b-020",
@@ -248,7 +274,8 @@
    "translations": [
     "in der Nähe von"
    ],
-   "page": "185-186"
+   "page": "185-186",
+   "example": "Anna abita vicino al centro."
   },
   {
    "id": "u4-4b-022",
@@ -258,7 +285,7 @@
     "das Café"
    ],
    "page": "185-186",
-   "usage": "Pl.: i bar",
+   "usage": "pl. i bar",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -276,6 +303,10 @@
     "das Weichei"
    ],
    "page": "185-186",
+   "tags": [
+    "fakultativ"
+   ],
+   "example": "Non fare il pappamolle!",
    "usage": "fam.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -294,7 +325,8 @@
     "die Straßenbahn"
    ],
    "page": "185-186",
-   "usage": "Pl.: i tram",
+   "example": "Per arrivare in centro puoi prendere il tram.",
+   "usage": "pl. i tram",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -312,6 +344,7 @@
     "überhaupt nicht"
    ],
    "page": "185-186",
+   "example": "Non abbiamo studiato per niente!",
    "usage": "avv."
   },
   {
@@ -322,25 +355,28 @@
     "demnach"
    ],
    "page": "185-186",
+   "example": "Dunque … Come posso dire? Ah, ecco …",
+   "related": "F donc",
    "usage": "avv."
   },
   {
    "id": "u4-4b-027",
    "target": "segnare",
    "translations": [
-    "ein Tor schießen"
+    "hier: ein Tor schießen"
    ],
    "page": "185-186",
-   "usage": "hier"
+   "example": "La Juve ha segnato."
   },
   {
    "id": "u4-4b-028",
    "target": "l’intervallo",
    "translations": [
     "die Pause",
-    "die Halbzeitpause"
+    "Halbzeitpause"
    ],
-   "page": "185-186"
+   "page": "185-186",
+   "example": "Dopo l’intervallo l’Inter ha segnato."
   },
   {
    "id": "u4-4b-029",
@@ -349,7 +385,8 @@
     "das Tor"
    ],
    "page": "185-186",
-   "usage": "Pl.: i gol",
+   "related": "E goal",
+   "usage": "pl. i gol",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -376,7 +413,9 @@
     "aussteigen"
    ],
    "page": "185-186",
-   "usage": "Partizip: sceso"
+   "example": "Sono arrivata. Devo scendere dal tram.",
+   "related": "F descendre; L descendere",
+   "usage": "p.p. sceso"
   },
   {
    "id": "u4-4b-032",
@@ -385,7 +424,8 @@
     "die Rangliste"
    ],
    "page": "185-186",
-   "usage": "Pl.: le classifiche",
+   "example": "La Juve è scesa in classifica.",
+   "usage": "pl. le classifiche",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -403,6 +443,8 @@
     "der Abend"
    ],
    "page": "185-186",
+   "example": "La sera sono stanca e vado a letto.",
+   "related": "F le soir",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -439,7 +481,8 @@
     "lustig",
     "unterhaltsam"
    ],
-   "page": "185-186"
+   "page": "185-186",
+   "example": "Il fine settimana è stato divertente."
   },
   {
    "id": "u4-4b-036",
@@ -449,7 +492,9 @@
     "siegen"
    ],
    "page": "185-186",
-   "usage": "Partizip: vinto"
+   "example": "La Juve ha vinto 2:1.",
+   "related": "L vincere",
+   "usage": "p.p. vinto"
   },
   {
    "id": "u4-4b-037",
@@ -458,7 +503,8 @@
     "lachen"
    ],
    "page": "185-186",
-   "usage": "Partizip: riso"
+   "related": "F rire; L ridere",
+   "usage": "p.p. riso"
   },
   {
    "id": "u4-4b-038",
@@ -467,6 +513,7 @@
     "viel"
    ],
    "page": "185-186",
+   "example": "È stato divertente. Abbiamo riso parecchio.",
    "usage": "avv."
   },
   {
@@ -476,7 +523,9 @@
     "freundlich",
     "nett"
    ],
-   "page": "185-186"
+   "page": "185-186",
+   "example": "I genitori di Leo sono gentili.",
+   "related": "F gentil/-le"
   },
   {
    "id": "u4-4b-040",
@@ -484,7 +533,8 @@
    "translations": [
     "verbringen"
    ],
-   "page": "185-186"
+   "page": "185-186",
+   "example": "Abbiamo passato una domenica bellissima."
   },
   {
    "id": "u4-4b-041",
@@ -501,7 +551,7 @@
     "Bis später!"
    ],
    "page": "185-186",
-   "usage": "am Telefon"
+   "usage": "Telefonat"
   },
   {
    "id": "u4-4b-043",

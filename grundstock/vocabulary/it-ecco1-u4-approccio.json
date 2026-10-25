@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -36,6 +36,8 @@
     "das Wetter"
    ],
    "page": "182-183",
+   "example": "Scusa, non ho tempo. A Sestriere non fa spesso brutto tempo.",
+   "related": "F le temps; L tempus",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -52,7 +54,9 @@
    "translations": [
     "frei"
    ],
-   "page": "182-183"
+   "page": "182-183",
+   "example": "Nel tempo libero incontro gli amici.",
+   "related": "F libre"
   },
   {
    "id": "u4-approccio-003",
@@ -77,6 +81,7 @@
     "die Eltern"
    ],
    "page": "182-183",
+   "example": "I miei genitori hanno una casa a Sestriere.",
    "usage": "pl.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -94,7 +99,8 @@
    "translations": [
     "die Wohnung"
    ],
-   "page": "182-183"
+   "page": "182-183",
+   "related": "E apartment; F l’appartement"
   },
   {
    "id": "u4-approccio-007",
@@ -102,7 +108,8 @@
    "translations": [
     "finden"
    ],
-   "page": "182-183"
+   "page": "182-183",
+   "related": "≠ cercare; F trouver"
   },
   {
    "id": "u4-approccio-008",
@@ -111,6 +118,7 @@
     "der Schnee"
    ],
    "page": "182-183",
+   "example": "A Sestriere Leo trova sempre neve.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -128,7 +136,7 @@
     "die Politik"
    ],
    "page": "182-183",
-   "usage": "Pl.: le politiche",
+   "usage": "pl. le politiche",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -146,16 +154,18 @@
     "besprechen",
     "diskutieren"
    ],
-   "page": "182-183"
+   "page": "182-183",
+   "example": "Mi piace discutere di politica.",
+   "related": "F discuter"
   },
   {
    "id": "u4-approccio-011",
    "target": "suonare",
    "translations": [
-    "spielen"
+    "spielen + Instrument"
    ],
    "page": "182-183",
-   "usage": "Instrument"
+   "usage": "Unterscheide: Fußball spielen – giocare a calcio; Klavier spielen – suonare il pianoforte. Das Musikinstrument steht nach suonare immer mit dem bestimmten Artikel."
   },
   {
    "id": "u4-approccio-012",
@@ -164,6 +174,8 @@
     "das Klavier"
    ],
    "page": "182-183",
+   "example": "Anna suona il pianoforte.",
+   "related": "E piano",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -181,6 +193,7 @@
     "die Querflöte"
    ],
    "page": "182-183",
+   "related": "F la flûte traversière",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -198,6 +211,7 @@
     "das Instrument"
    ],
    "page": "182-183",
+   "example": "Il mio strumento preferito è il pianoforte.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -214,7 +228,9 @@
    "translations": [
     "begleiten"
    ],
-   "page": "182-183"
+   "page": "182-183",
+   "related": "F accompagner; E to accompany",
+   "usage": "Unterscheide: Perché la matematica è facile per Khalid? – Warum ist Mathematik einfach für Khalid? / La matematica è facile per Khalid perché capisce tutto subito. – Mathematik ist einfach für Khalid, weil er alles sofort versteht."
   },
   {
    "id": "u4-approccio-016",
@@ -222,7 +238,8 @@
    "translations": [
     "singen"
    ],
-   "page": "182-183"
+   "page": "182-183",
+   "related": "F chanter; L cantare"
   },
   {
    "id": "u4-approccio-017",
@@ -231,7 +248,8 @@
     "klassisch"
    ],
    "page": "182-183",
-   "usage": "Pl.: classici/classiche"
+   "related": "F classique",
+   "usage": "pl. classici/classiche"
   },
   {
    "id": "u4-approccio-018",
@@ -239,7 +257,9 @@
    "translations": [
     "leicht"
    ],
-   "page": "182-183"
+   "page": "182-183",
+   "example": "La musica pop è musica leggera.",
+   "related": "F léger, légère"
   },
   {
    "id": "u4-approccio-019",
@@ -248,6 +268,7 @@
     "Volleyball"
    ],
    "page": "182-183",
+   "example": "Anna gioca a pallavolo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -265,6 +286,7 @@
     "der Winter"
    ],
    "page": "182-183",
+   "example": "D’inverno c’è la neve.",
    "usage": "m."
   },
   {
@@ -273,7 +295,9 @@
    "translations": [
     "eislaufen"
    ],
-   "page": "182-183"
+   "page": "182-183",
+   "example": "D’inverno vado a pattinare.",
+   "usage": "Unterscheide: pattinare – eislaufen, inlineskaten; pattinare su(l) ghiaccio – eislaufen; pattinare inline – inlineskaten. Wenn es Missverständnisse geben könnte, muss man sul ghiaccio oder inline entsprechend ergänzen."
   },
   {
    "id": "u4-approccio-022",
@@ -282,6 +306,8 @@
     "die Leidenschaft"
    ],
    "page": "182-183",
+   "example": "Ho una passione per l’arte.",
+   "related": "E passion; F la passion",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -299,7 +325,8 @@
     "das Hobby"
    ],
    "page": "182-183",
-   "usage": "Pl.: gli hobby"
+   "example": "Qual è il tuo hobby? – Suono il flauto.",
+   "usage": "pl. gli hobby"
   },
   {
    "id": "u4-approccio-024",
@@ -307,7 +334,8 @@
    "translations": [
     "in Verbindung mit jdm/etw."
    ],
-   "page": "182-183"
+   "page": "182-183",
+   "example": "Con il computer sono collegato con gli amici."
   },
   {
    "id": "u4-approccio-025",
@@ -316,6 +344,7 @@
     "außerdem"
    ],
    "page": "182-183",
+   "example": "Amo il calcio e inoltre mi piace la musica.",
    "usage": "avv."
   },
   {
@@ -325,6 +354,7 @@
     "gern(e)"
    ],
    "page": "182-183",
+   "example": "Ascolto volentieri la musica di Liga.",
    "usage": "avv."
   },
   {
@@ -343,6 +373,8 @@
     "die Gitarre"
    ],
    "page": "182-183",
+   "example": "Il mio strumento preferito è la chitarra.",
+   "related": "E guitar",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -360,6 +392,7 @@
     "die Gruppe"
    ],
    "page": "182-183",
+   "related": "E group; F le groupe",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -377,6 +410,7 @@
     "die Rock-Gruppe"
    ],
    "page": "182-183",
+   "example": "Suono la chitarra in un gruppo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -393,7 +427,8 @@
    "translations": [
     "weil"
    ],
-   "page": "182-183"
+   "page": "182-183",
+   "related": "▸ perché?"
   },
   {
    "id": "u4-approccio-032",
@@ -401,7 +436,8 @@
    "translations": [
     "das Training"
    ],
-   "page": "182-183"
+   "page": "182-183",
+   "example": "Gioco a calcio. Vado all’allenamento il mercoledì."
   },
   {
    "id": "u4-approccio-033",
@@ -409,7 +445,8 @@
    "translations": [
     "modern"
    ],
-   "page": "182-183"
+   "page": "182-183",
+   "example": "Giorgia fa danza moderna."
   },
   {
    "id": "u4-approccio-034",
@@ -418,6 +455,7 @@
     "die Bewegung"
    ],
    "page": "182-183",
+   "related": "E movement; F le mouvement",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -434,7 +472,8 @@
    "translations": [
     "der Applaus"
    ],
-   "page": "182-183"
+   "page": "182-183",
+   "example": "Amo l’applauso quando ballo."
   },
   {
    "id": "u4-approccio-036",
@@ -443,6 +482,7 @@
     "das Ende"
    ],
    "page": "182-183",
+   "related": "L finis",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -460,7 +500,8 @@
     "das Wochenende"
    ],
    "page": "182-183",
-   "usage": "Pl.: i fine settimana",
+   "related": "▸ la settimana",
+   "usage": "pl. i fine settimana",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -479,6 +520,8 @@
     "das Gebirge"
    ],
    "page": "182-183",
+   "example": "Sabato vado in montagna.",
+   "related": "E mountain",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -496,6 +539,8 @@
     "der Sommer"
    ],
    "page": "182-183",
+   "example": "D’estate vado in spiaggia.",
+   "related": "≠ l’inverno; F l’été",
    "usage": "f."
   }
  ],

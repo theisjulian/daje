@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -36,7 +36,9 @@
     "der Zeitplan"
    ],
    "page": "177-178",
-   "usage": "Pl.: gli orari"
+   "example": "Abbiamo un nuovo orario.",
+   "related": "F l’horaire",
+   "usage": "pl. gli orari"
   },
   {
    "id": "u3-approccio-002",
@@ -45,6 +47,7 @@
     "der Tag"
    ],
    "page": "177-178",
+   "related": "F le jour",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -62,19 +65,22 @@
     "die Stunde",
     "die Unterrichtsstunde"
    ],
-   "page": "177-178"
+   "page": "177-178",
+   "example": "La terza ora ho storia.",
+   "related": "F l’heure; L hora"
   },
   {
    "id": "u3-approccio-004",
-   "target": "la settimana",
+   "target": "i giorni della settimana",
    "translations": [
-    "die Woche"
+    "die Wochentage"
    ],
    "page": "177-178",
+   "usage": "(il) lunedì – Montag; (il) martedì – Dienstag; (il) mercoledì – Mittwoch; (il) giovedì – Donnerstag; (il) venerdì – Freitag; (il) sabato – Samstag; (la) domenica – Sonntag. Unterscheide: Il martedì vado sempre nello studio di danza. – Dienstags gehe ich immer ins Tanzstudio. / Martedì incontro la mia amica. – Diesen Dienstag treffe ich meine Freundin.",
    "grammar": {
     "partOfSpeech": "noun",
-    "article": "la",
-    "gender": "feminine"
+    "article": "i",
+    "gender": "masculine"
    },
    "answerPolicy": {
     "article": "required",
@@ -83,99 +89,15 @@
   },
   {
    "id": "u3-approccio-005",
-   "target": "(il) lunedì",
-   "translations": [
-    "Montag"
-   ],
-   "page": "177-178",
-   "acceptedAnswers": [
-    "lunedì",
-    "il lunedì"
-   ]
-  },
-  {
-   "id": "u3-approccio-006",
-   "target": "(il) martedì",
-   "translations": [
-    "Dienstag"
-   ],
-   "page": "177-178",
-   "acceptedAnswers": [
-    "martedì",
-    "il martedì"
-   ]
-  },
-  {
-   "id": "u3-approccio-007",
-   "target": "(il) mercoledì",
-   "translations": [
-    "Mittwoch"
-   ],
-   "page": "177-178",
-   "acceptedAnswers": [
-    "mercoledì",
-    "il mercoledì"
-   ]
-  },
-  {
-   "id": "u3-approccio-008",
-   "target": "(il) giovedì",
-   "translations": [
-    "Donnerstag"
-   ],
-   "page": "177-178",
-   "acceptedAnswers": [
-    "giovedì",
-    "il giovedì"
-   ]
-  },
-  {
-   "id": "u3-approccio-009",
-   "target": "(il) venerdì",
-   "translations": [
-    "Freitag"
-   ],
-   "page": "177-178",
-   "acceptedAnswers": [
-    "venerdì",
-    "il venerdì"
-   ]
-  },
-  {
-   "id": "u3-approccio-010",
-   "target": "(il) sabato",
-   "translations": [
-    "Samstag"
-   ],
-   "page": "177-178",
-   "acceptedAnswers": [
-    "sabato",
-    "il sabato"
-   ]
-  },
-  {
-   "id": "u3-approccio-011",
-   "target": "(la) domenica",
-   "translations": [
-    "Sonntag"
-   ],
-   "page": "177-178",
-   "acceptedAnswers": [
-    "domenica",
-    "la domenica"
-   ]
-  },
-  {
-   "id": "u3-approccio-012",
    "target": "la mate(matica)",
    "translations": [
-    "Mathe(matik)"
+    "Mathe(matik) (Schulfach)"
    ],
    "page": "177-178",
+   "related": "E mathematics; F les mathématiques",
    "acceptedAnswers": [
     "la mate"
    ],
-   "usage": "Schulfach",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -187,13 +109,12 @@
    }
   },
   {
-   "id": "u3-approccio-013",
+   "id": "u3-approccio-006",
    "target": "la storia dell’arte",
    "translations": [
-    "die Kunstgeschichte"
+    "Kunstgeschichte (Schulfach)"
    ],
    "page": "177-178",
-   "usage": "Schulfach",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -205,13 +126,13 @@
    }
   },
   {
-   "id": "u3-approccio-014",
+   "id": "u3-approccio-007",
    "target": "la religione",
    "translations": [
-    "die Religion"
+    "Religion (Schulfach)"
    ],
    "page": "177-178",
-   "usage": "Schulfach",
+   "related": "E religion",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -223,13 +144,13 @@
    }
   },
   {
-   "id": "u3-approccio-015",
+   "id": "u3-approccio-008",
    "target": "la fisica",
    "translations": [
-    "die Physik"
+    "Physik (Schulfach)"
    ],
    "page": "177-178",
-   "usage": "Schulfach",
+   "related": "E physics; F la physique",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -241,13 +162,13 @@
    }
   },
   {
-   "id": "u3-approccio-016",
+   "id": "u3-approccio-009",
    "target": "il latino",
    "translations": [
-    "Latein"
+    "Latein (Schulfach)"
    ],
    "page": "177-178",
-   "usage": "Schulfach",
+   "related": "E Latin; F le latin",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -259,13 +180,13 @@
    }
   },
   {
-   "id": "u3-approccio-017",
+   "id": "u3-approccio-010",
    "target": "le scienze",
    "translations": [
-    "die Naturwissenschaften"
+    "Naturwissenschaften (Schulfach)"
    ],
    "page": "177-178",
-   "usage": "Schulfach",
+   "related": "E science; L scientia",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "le",
@@ -277,83 +198,94 @@
    }
   },
   {
-   "id": "u3-approccio-018",
+   "id": "u3-approccio-011",
    "target": "l’educazione fisica",
    "translations": [
-    "der Sport"
+    "Sport (Schulfach)"
    ],
    "page": "177-178",
-   "usage": "Schulfach, f."
+   "related": "E physical education",
+   "usage": "f."
   },
   {
-   "id": "u3-approccio-019",
+   "id": "u3-approccio-012",
    "target": "l’arte",
    "translations": [
-    "die Kunst"
+    "Kunst (Schulfach)"
    ],
    "page": "177-178",
-   "usage": "Schulfach, m."
+   "related": "E art; F l’art",
+   "usage": "m."
   },
   {
-   "id": "u3-approccio-020",
+   "id": "u3-approccio-013",
    "target": "terribile",
    "translations": [
     "schrecklich"
    ],
-   "page": "177-178"
+   "page": "177-178",
+   "example": "Il nuovo orario è terribile.",
+   "related": "E/F terrible"
   },
   {
-   "id": "u3-approccio-021",
+   "id": "u3-approccio-014",
    "target": "alle …, all’ …",
    "translations": [
     "um … (Uhr)"
    ],
-   "page": "177-178"
+   "page": "177-178",
+   "example": "Alle otto abbiamo fisica e alle nove latino."
   },
   {
-   "id": "u3-approccio-022",
+   "id": "u3-approccio-015",
    "target": "dalle … all’/alle …",
    "translations": [
     "von … bis …"
    ],
-   "page": "177-178"
+   "page": "177-178",
+   "example": "Dalle 9 alle 10 abbiamo storia."
   },
   {
-   "id": "u3-approccio-023",
+   "id": "u3-approccio-016",
    "target": "secondo me",
    "translations": [
     "meiner Meinung nach"
    ],
-   "page": "177-178"
+   "page": "177-178",
+   "example": "Secondo me due ore di sport sono troppe."
   },
   {
-   "id": "u3-approccio-024",
+   "id": "u3-approccio-017",
    "target": "presto",
    "translations": [
     "früh"
    ],
    "page": "177-178",
+   "example": "La prima ora è troppo presto!",
    "usage": "avv."
   },
   {
-   "id": "u3-approccio-025",
+   "id": "u3-approccio-018",
    "target": "avere ragione",
    "translations": [
     "Recht haben"
    ],
-   "page": "177-178"
+   "page": "177-178",
+   "related": "F avoir raison",
+   "usage": "Abc"
   },
   {
-   "id": "u3-approccio-026",
+   "id": "u3-approccio-019",
    "target": "preferito/-a",
    "translations": [
     "Lieblings-",
     "bevorzugt"
    ],
-   "page": "177-178"
+   "page": "177-178",
+   "example": "La mia materia preferita è storia."
   },
   {
-   "id": "u3-approccio-027",
+   "id": "u3-approccio-020",
    "target": "purtroppo",
    "translations": [
     "leider"
@@ -362,24 +294,27 @@
    "usage": "avv."
   },
   {
-   "id": "u3-approccio-028",
+   "id": "u3-approccio-021",
    "target": "interrogare (-ghi-)",
    "translations": [
     "befragen",
     "ausfragen"
    ],
    "page": "177-178",
+   "related": "F interroger",
    "acceptedAnswers": [
     "interrogare"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
-   "id": "u3-approccio-029",
+   "id": "u3-approccio-022",
    "target": "il minuto",
    "translations": [
     "die Minute"
    ],
    "page": "177-178",
+   "example": "Sono 100 minuti di matematica.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -391,7 +326,7 @@
    }
   },
   {
-   "id": "u3-approccio-030",
+   "id": "u3-approccio-023",
    "target": "troppo/-a",
    "translations": [
     "zu viel"
@@ -399,54 +334,80 @@
    "page": "177-178"
   },
   {
-   "id": "u3-approccio-031",
+   "id": "u3-approccio-024",
    "target": "un po’",
    "translations": [
     "etwas",
     "ein bisschen"
    ],
    "page": "177-178",
+   "example": "Parlo un po’ di italiano.",
+   "related": "F un peu",
    "usage": "avv."
   },
   {
-   "id": "u3-approccio-032",
+   "id": "u3-approccio-025",
    "target": "solo",
    "translations": [
     "nur",
     "erst"
    ],
    "page": "177-178",
+   "example": "A scuola oggi ho solo due ore.",
    "usage": "avv."
   },
   {
-   "id": "u3-approccio-033",
+   "id": "u3-approccio-026",
+   "target": "la settimana",
+   "translations": [
+    "die Woche"
+   ],
+   "page": "177-178",
+   "example": "La settimana ha 7 giorni.",
+   "related": "F la semaine",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-027",
    "target": "poco/-a",
    "translations": [
     "wenig"
    ],
    "page": "177-178",
-   "usage": "Pl.: pochi/-e"
+   "example": "Abbiamo poche ore di sport.",
+   "usage": "pl. pochi/-e"
   },
   {
-   "id": "u3-approccio-034",
+   "id": "u3-approccio-028",
    "target": "prima",
    "translations": [
     "früher",
     "vorher"
    ],
    "page": "177-178",
+   "example": "Lisa! Parti da casa prima!",
    "usage": "avv."
   },
   {
-   "id": "u3-approccio-035",
+   "id": "u3-approccio-029",
    "target": "A che ora?",
    "translations": [
     "Um wie viel Uhr?"
    ],
-   "page": "177-178"
+   "page": "177-178",
+   "related": "F A quelle heure?",
+   "usage": "Unterscheide: A che ora vai a casa? – Alle due. / All’una."
   },
   {
-   "id": "u3-approccio-036",
+   "id": "u3-approccio-030",
    "target": "allora",
    "translations": [
     "also"
@@ -455,29 +416,31 @@
    "usage": "avv."
   },
   {
-   "id": "u3-approccio-037",
+   "id": "u3-approccio-031",
    "target": "(l’una) e mezzo",
    "translations": [
     "halb (zwei)"
    ],
    "page": "177-178",
+   "example": "Torno a casa alle due e mezzo.",
    "acceptedAnswers": [
     "e mezzo"
    ]
   },
   {
-   "id": "u3-approccio-038",
+   "id": "u3-approccio-032",
    "target": "(le due) meno un quarto",
    "translations": [
     "Viertel vor (zwei)"
    ],
    "page": "177-178",
+   "example": "Che ore sono? – Sono le due meno un quarto.",
    "acceptedAnswers": [
     "meno un quarto"
    ]
   },
   {
-   "id": "u3-approccio-039",
+   "id": "u3-approccio-033",
    "target": "il quarto",
    "translations": [
     "das Viertel"
@@ -494,13 +457,13 @@
    }
   },
   {
-   "id": "u3-approccio-040",
+   "id": "u3-approccio-034",
    "target": "la supplenza",
    "translations": [
-    "die Vertretung"
+    "die Vertretung (Schule)"
    ],
    "page": "177-178",
-   "usage": "Schule",
+   "example": "Il prof non c’è. Abbiamo una supplenza.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -512,16 +475,17 @@
    }
   },
   {
-   "id": "u3-approccio-041",
+   "id": "u3-approccio-035",
    "target": "saltare",
    "translations": [
     "(über)springen",
-    "ausfallen"
+    "hier: ausfallen"
    ],
-   "page": "177-178"
+   "page": "177-178",
+   "example": "Che bello! La sesta ora salta!"
   },
   {
-   "id": "u3-approccio-042",
+   "id": "u3-approccio-036",
    "target": "Evviva!",
    "translations": [
     "Hurra!",
@@ -530,15 +494,16 @@
    "page": "177-178"
   },
   {
-   "id": "u3-approccio-043",
+   "id": "u3-approccio-037",
    "target": "Che ore sono?",
    "translations": [
     "Wie spät ist es?"
    ],
-   "page": "177-178"
+   "page": "177-178",
+   "usage": "Che ore sono? È l’una. / Sono le due. / … le otto e un quarto. / … le otto e mezzo. / … le nove meno un quarto. / … le nove in punto."
   },
   {
-   "id": "u3-approccio-044",
+   "id": "u3-approccio-038",
    "target": "Aiuto!",
    "translations": [
     "Hilfe!"
@@ -546,47 +511,51 @@
    "page": "177-178"
   },
   {
-   "id": "u3-approccio-045",
+   "id": "u3-approccio-039",
    "target": "cominciare (a + inf.)",
    "translations": [
     "anfangen",
     "beginnen (etw. zu tun)"
    ],
    "page": "177-178",
+   "example": "La scuola comincia alle 8 e 15.",
+   "related": "F commencer",
    "acceptedAnswers": [
     "cominciare"
    ]
   },
   {
-   "id": "u3-approccio-046",
+   "id": "u3-approccio-040",
    "target": "fra/tra",
    "translations": [
-    "in"
+    "in (zeitlich)"
    ],
    "page": "177-178",
-   "usage": "zeitlich"
+   "example": "La lezione comincia tra 5 minuti."
   },
   {
-   "id": "u3-approccio-047",
+   "id": "u3-approccio-041",
    "target": "di nuovo",
    "translations": [
     "wieder",
     "erneut"
    ],
    "page": "177-178",
+   "related": "▸ nuovo",
    "usage": "avv."
   },
   {
-   "id": "u3-approccio-048",
+   "id": "u3-approccio-042",
    "target": "in ritardo",
    "translations": [
     "verspätet"
    ],
    "page": "177-178",
+   "example": "Aiuto! Sono già le 8 e 15. Sono in ritardo.",
    "usage": "avv."
   },
   {
-   "id": "u3-approccio-049",
+   "id": "u3-approccio-043",
    "target": "sicuramente",
    "translations": [
     "sicher"
@@ -595,12 +564,13 @@
    "usage": "avv."
   },
   {
-   "id": "u3-approccio-050",
+   "id": "u3-approccio-044",
    "target": "prendere una nota sul registro",
    "translations": [
     "einen Eintrag ins Klassenbuch bekommen"
    ],
-   "page": "177-178"
+   "page": "177-178",
+   "usage": "Abc"
   }
  ],
  "catalog": {

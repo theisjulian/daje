@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -68,16 +68,18 @@
    "translations": [
     "mir"
    ],
-   "page": "190-191"
+   "page": "190-191",
+   "example": "Non mi piace."
   },
   {
    "id": "u6-approccio-004",
-   "target": "sta/stanno a qn",
+   "target": "stare a qn",
    "translations": [
-    "jd steht/stehen"
+    "jdm stehen (Kleidung)"
    ],
    "page": "190-191",
-   "usage": "Kleidung"
+   "example": "Questo vestito mi sta bene.",
+   "related": "L stare"
   },
   {
    "id": "u6-approccio-005",
@@ -86,6 +88,8 @@
     "die Hosen"
    ],
    "page": "190-191",
+   "example": "I pantaloni stanno bene a Marco.",
+   "related": "F le pantalon",
    "usage": "pl.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -103,7 +107,8 @@
    "translations": [
     "dir"
    ],
-   "page": "190-191"
+   "page": "190-191",
+   "example": "I pantaloni ti stanno bene."
   },
   {
    "id": "u6-approccio-007",
@@ -112,6 +117,8 @@
     "sehr gut"
    ],
    "page": "190-191",
+   "example": "Ti sta benissimo!",
+   "related": "= molto bene",
    "usage": "avv."
   },
   {
@@ -121,6 +128,7 @@
     "der Rock"
    ],
    "page": "190-191",
+   "example": "Vuoi i pantaloni o una gonna?",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -145,7 +153,8 @@
    "translations": [
     "anziehen"
    ],
-   "page": "190-191"
+   "page": "190-191",
+   "example": "Che cosa metto oggi?"
   },
   {
    "id": "u6-approccio-011",
@@ -154,6 +163,7 @@
     "das T-Shirt"
    ],
    "page": "190-191",
+   "example": "Che pantaloni metto con questa maglietta?",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -172,19 +182,21 @@
     "aussuchen"
    ],
    "page": "190-191",
+   "example": "I pantaloni o la gonna? Puoi scegliere.",
    "acceptedAnswers": [
     "scegliere"
    ],
-   "usage": "Partizip: scelto"
+   "usage": "Abc; p.p. scelto"
   },
   {
    "id": "u6-approccio-013",
    "target": "il paio",
    "translations": [
-    "das Paar"
+    "das Paar (Kleidung)"
    ],
    "page": "190-191",
-   "usage": "Kleidung",
+   "example": "Voglio comprare un paio di pantaloni.",
+   "related": "E pair",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -229,6 +241,8 @@
     "die Größe"
    ],
    "page": "190-191",
+   "example": "Che taglia porti?",
+   "related": "F la taille",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -246,6 +260,7 @@
     "der Pullover"
    ],
    "page": "190-191",
+   "example": "D’estate non devo mettere un maglione.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -262,7 +277,8 @@
    "translations": [
     "rot"
    ],
-   "page": "190-191"
+   "page": "190-191",
+   "related": "F rouge"
   },
   {
    "id": "u6-approccio-019",
@@ -271,7 +287,8 @@
     "die Jacke"
    ],
    "page": "190-191",
-   "usage": "Pl.: le giacche",
+   "example": "D’inverno mi metto la giacca.",
+   "usage": "pl. le giacche",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -289,7 +306,6 @@
     "der Schuh"
    ],
    "page": "190-191",
-   "usage": "Pl.: le scarpe",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -307,7 +323,8 @@
     "der Stiefel"
    ],
    "page": "190-191",
-   "usage": "Pl.: gli stivali",
+   "example": "D’inverno porto gli stivali.",
+   "usage": "pl. gli stivali",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -323,7 +340,7 @@
    "target": "il vestito",
    "translations": [
     "das Kleid",
-    "der Anzug"
+    "auch: der Anzug"
    ],
    "page": "190-191",
    "grammar": {
@@ -338,6 +355,14 @@
   },
   {
    "id": "u6-approccio-023",
+   "target": "bianco/-a",
+   "translations": [
+    "weiß"
+   ],
+   "page": "190-191"
+  },
+  {
+   "id": "u6-approccio-024",
    "target": "giallo/-a",
    "translations": [
     "gelb"
@@ -345,7 +370,7 @@
    "page": "190-191"
   },
   {
-   "id": "u6-approccio-024",
+   "id": "u6-approccio-025",
    "target": "arancione",
    "translations": [
     "orange"
@@ -353,7 +378,7 @@
    "page": "190-191"
   },
   {
-   "id": "u6-approccio-025",
+   "id": "u6-approccio-026",
    "target": "rosa",
    "translations": [
     "rosa"
@@ -361,7 +386,7 @@
    "page": "190-191"
   },
   {
-   "id": "u6-approccio-026",
+   "id": "u6-approccio-027",
    "target": "viola",
    "translations": [
     "violett"
@@ -369,7 +394,15 @@
    "page": "190-191"
   },
   {
-   "id": "u6-approccio-027",
+   "id": "u6-approccio-028",
+   "target": "blu",
+   "translations": [
+    "dunkelblau"
+   ],
+   "page": "190-191"
+  },
+  {
+   "id": "u6-approccio-029",
    "target": "verde",
    "translations": [
     "grün"
@@ -377,7 +410,7 @@
    "page": "190-191"
   },
   {
-   "id": "u6-approccio-028",
+   "id": "u6-approccio-030",
    "target": "marrone",
    "translations": [
     "braun"
@@ -385,12 +418,61 @@
    "page": "190-191"
   },
   {
-   "id": "u6-approccio-029",
+   "id": "u6-approccio-031",
    "target": "grigio/-a",
    "translations": [
     "grau"
    ],
    "page": "190-191"
+  },
+  {
+   "id": "u6-approccio-032",
+   "target": "nero/-a",
+   "translations": [
+    "schwarz"
+   ],
+   "page": "190-191"
+  },
+  {
+   "id": "u6-approccio-033",
+   "target": "la camicia",
+   "translations": [
+    "das Hemd",
+    "die Bluse"
+   ],
+   "page": "190-191",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-034",
+   "target": "gli occhiali (da sole)",
+   "translations": [
+    "die (Sonnen-)Brille"
+   ],
+   "page": "190-191",
+   "example": "Con gli occhiali vedo bene.",
+   "related": "▸ l’occhio",
+   "acceptedAnswers": [
+    "gli occhiali"
+   ],
+   "usage": "pl.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "gli",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
   }
  ],
  "catalog": {

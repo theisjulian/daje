@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +34,8 @@
    "translations": [
     "mein"
    ],
-   "page": "172-173"
+   "page": "172-173",
+   "related": "F mon/ma"
   },
   {
    "id": "u2-approccio-002",
@@ -43,6 +44,7 @@
     "die Welt"
    ],
    "page": "172-173",
+   "related": "F le monde; L mundus",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -60,6 +62,8 @@
     "der Name"
    ],
    "page": "172-173",
+   "example": "Il mio nome è Tina.",
+   "related": "L nomen",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -77,6 +81,7 @@
     "der Nachname"
    ],
    "page": "172-173",
+   "related": "▸ il nome",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -93,7 +98,8 @@
    "translations": [
     "das Alter"
    ],
-   "page": "172-173"
+   "page": "172-173",
+   "related": "L aetas"
   },
   {
    "id": "u2-approccio-006",
@@ -102,7 +108,8 @@
     "haben"
    ],
    "page": "172-173",
-   "usage": "unregelmäßig"
+   "related": "F avoir",
+   "usage": "Abc"
   },
   {
    "id": "u2-approccio-007",
@@ -110,7 +117,8 @@
    "translations": [
     "das Jahr"
    ],
-   "page": "172-173"
+   "page": "172-173",
+   "related": "F l’an; L annus"
   },
   {
    "id": "u2-approccio-008",
@@ -136,6 +144,7 @@
     "die Nummer"
    ],
    "page": "172-173",
+   "related": "E number; F le numéro; L numerus",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -153,6 +162,7 @@
     "das Handy"
    ],
    "page": "172-173",
+   "related": "E cell phone",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -170,6 +180,7 @@
     "die Familie"
    ],
    "page": "172-173",
+   "related": "E family; F la famille; L familia",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -187,6 +198,7 @@
     "der Vater"
    ],
    "page": "172-173",
+   "related": "L pater",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -204,6 +216,7 @@
     "die Mutter"
    ],
    "page": "172-173",
+   "related": "L mater",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -216,21 +229,24 @@
   },
   {
    "id": "u2-approccio-015",
-   "target": "mi piace + sg.",
+   "target": "mi piace",
    "translations": [
     "mir gefällt + Sg.",
     "ich mag"
    ],
-   "page": "172-173"
+   "page": "172-173",
+   "related": "▸ piacere",
+   "usage": "+ sg."
   },
   {
    "id": "u2-approccio-016",
-   "target": "mi piacciono + pl.",
+   "target": "mi piacciono",
    "translations": [
     "mir gefallen + Pl.",
     "ich mag"
    ],
-   "page": "172-173"
+   "page": "172-173",
+   "usage": "+ pl."
   },
   {
    "id": "u2-approccio-017",
@@ -262,10 +278,10 @@
    "id": "u2-approccio-019",
    "target": "la storia",
    "translations": [
-    "die Geschichte"
+    "Geschichte (Schulfach)"
    ],
    "page": "172-173",
-   "usage": "Schulfach",
+   "related": "E history; F l’histoire",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -280,10 +296,10 @@
    "id": "u2-approccio-020",
    "target": "la filosofia",
    "translations": [
-    "die Philosophie"
+    "Philosophie (Schulfach)"
    ],
    "page": "172-173",
-   "usage": "Schulfach",
+   "related": "E philosophy; F la philosophie",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -301,7 +317,8 @@
     "Snowboard fahren",
     "snowboarden"
    ],
-   "page": "172-173"
+   "page": "172-173",
+   "usage": "Abc"
   },
   {
    "id": "u2-approccio-022",
@@ -327,6 +344,8 @@
     "das Haus"
    ],
    "page": "172-173",
+   "example": "La mia famiglia ha una casa a Lecce.",
+   "usage": "Unterscheide: Sono a casa. – Ich bin zu Hause. / Torno a casa. – Ich komme nach Hause zurück.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -352,7 +371,8 @@
    "translations": [
     "aufräumen"
    ],
-   "page": "172-173"
+   "page": "172-173",
+   "example": "Non mi piace mettere in ordine!"
   },
   {
    "id": "u2-approccio-026",
@@ -360,7 +380,8 @@
    "translations": [
     "Wie viel?"
    ],
-   "page": "172-173"
+   "page": "172-173",
+   "related": "L quantus"
   },
   {
    "id": "u2-approccio-027",
@@ -368,7 +389,8 @@
    "translations": [
     "Wie alt bist du?"
    ],
-   "page": "172-173"
+   "page": "172-173",
+   "usage": "Nach dem Alter fragt man im Italienischen anders als im Deutschen: Quanti anni hai? – Ho 14 anni."
   },
   {
    "id": "u2-approccio-028",
@@ -376,15 +398,18 @@
    "translations": [
     "Welche(r, s)?"
    ],
-   "page": "172-173"
+   "page": "172-173",
+   "related": "L qualis",
+   "usage": "Unterscheide: Quale + è → Qual è il cognome di Filippo?; Quale? = Welche(r/s)? (aus einer Auswahl), engl. Which?; Che? = Was für? (allgemein), engl. What?"
   },
   {
    "id": "u2-approccio-029",
    "target": "tuo/-a",
    "translations": [
-    "deine(r, s)"
+    "dein(e/r/s)"
    ],
-   "page": "172-173"
+   "page": "172-173",
+   "related": "F ton/ta; L tuus"
   },
   {
    "id": "u2-approccio-030",
@@ -393,7 +418,8 @@
     "Was magst du?",
     "Was gefällt dir?"
    ],
-   "page": "172-173"
+   "page": "172-173",
+   "example": "Che cosa ti piace? – Mi piace la musica."
   },
   {
    "id": "u2-approccio-031",
@@ -402,6 +428,7 @@
     "die Schwester"
    ],
    "page": "172-173",
+   "related": "F la soeur; L soror",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -416,7 +443,7 @@
    "id": "u2-approccio-032",
    "target": "il calcio",
    "translations": [
-    "der Fußball"
+    "Fußball"
    ],
    "page": "172-173",
    "grammar": {
@@ -435,7 +462,9 @@
    "translations": [
     "lieben"
    ],
-   "page": "172-173"
+   "page": "172-173",
+   "example": "Amo la mia famiglia.",
+   "related": "F aimer; L amare"
   },
   {
    "id": "u2-approccio-034",
@@ -461,7 +490,9 @@
     "kennen",
     "kennen lernen"
    ],
-   "page": "172-173"
+   "page": "172-173",
+   "example": "Conosci Giorgia?",
+   "related": "L cognoscere"
   },
   {
    "id": "u2-approccio-036",
@@ -523,6 +554,7 @@
     "der Bruder"
    ],
    "page": "172-173",
+   "related": "F le frère; L frater; ≠ la sorella",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -541,6 +573,7 @@
     "die Unterrichtsstunde"
    ],
    "page": "172-173",
+   "related": "E lesson; F la leçon",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -558,6 +591,7 @@
     "der Tanz"
    ],
    "page": "172-173",
+   "related": "E dance; F la danse",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -589,10 +623,12 @@
    "id": "u2-approccio-043",
    "target": "lo studio",
    "translations": [
-    "das Studio"
+    "das Lernen",
+    "das Studium"
    ],
    "page": "172-173",
-   "usage": "Pl.: gli studi",
+   "related": "L studium",
+   "usage": "pl. gli studi. Unterscheide: Ho lezioni di danza in uno studio. – Ich habe Tanzkurse in einem Studio. / Dopo lo studio incontro i miei amici. – Nach dem Lernen treffe ich meine Freunde.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -609,7 +645,8 @@
    "translations": [
     "tanzen"
    ],
-   "page": "172-173"
+   "page": "172-173",
+   "example": "Mi piace ballare."
   },
   {
    "id": "u2-approccio-045",
@@ -619,6 +656,9 @@
     "das Lied"
    ],
    "page": "172-173",
+   "example": "Mi piacciono le canzoni italiane.",
+   "related": "F la chanson",
+   "usage": "Die Musikrichtungen werden an musica und canzone einfach angehängt: la musica hip hop, la musica rock, la canzone pop",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",

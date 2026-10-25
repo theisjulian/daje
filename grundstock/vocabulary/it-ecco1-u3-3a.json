@@ -18,13 +18,13 @@
  "sources": [
   {
    "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 178-179 (vom Nutzer bereitgestellte Seiten)",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 178-180 (vom Nutzer bereitgestellte Seiten)",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +34,8 @@
    "translations": [
     "das Klassenzimmer"
    ],
-   "page": "178-179"
+   "page": "178-180",
+   "example": "Alle 8 entriamo in aula."
   },
   {
    "id": "u3-3a-002",
@@ -42,10 +43,12 @@
    "translations": [
     "verstehen"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "example": "Non capisco il compito di matematica.",
    "acceptedAnswers": [
     "capire"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
    "id": "u3-3a-003",
@@ -53,7 +56,8 @@
    "translations": [
     "Wie sagt man …?"
    ],
-   "page": "178-179"
+   "page": "178-180",
+   "example": "Come si dice «Schule» in italiano?"
   },
   {
    "id": "u3-3a-004",
@@ -61,7 +65,7 @@
    "translations": [
     "Wie schreibt man …?"
    ],
-   "page": "178-179"
+   "page": "178-180"
   },
   {
    "id": "u3-3a-005",
@@ -69,7 +73,8 @@
    "translations": [
     "Was bedeutet …?"
    ],
-   "page": "178-179"
+   "page": "178-180",
+   "example": "Che significa «scuola» in tedesco?"
   },
   {
    "id": "u3-3a-006",
@@ -77,7 +82,8 @@
    "translations": [
     "andere(r, s)"
    ],
-   "page": "178-179"
+   "page": "178-180",
+   "related": "F autre; L alter"
   },
   {
    "id": "u3-3a-007",
@@ -85,7 +91,8 @@
    "translations": [
     "Entschuldigen Sie!"
    ],
-   "page": "178-179"
+   "page": "178-180",
+   "example": "Scusi! Sono in ritardo."
   },
   {
    "id": "u3-3a-008",
@@ -93,10 +100,13 @@
    "translations": [
     "der/die Lehrer/-in"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "example": "Lo Scifo è il prof di mate.",
+   "related": "F le/la professeur",
    "acceptedAnswers": [
     "il/la prof"
-   ]
+   ],
+   "usage": "Unterscheide: il professore – il professor De Carli"
   },
   {
    "id": "u3-3a-009",
@@ -104,7 +114,8 @@
    "translations": [
     "der Streik"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "example": "Sono in ritardo perché c’è sciopero.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -119,11 +130,12 @@
    "id": "u3-3a-010",
    "target": "partire",
    "translations": [
-    "weggehen",
-    "wegfahren",
+    "weggehen/-fahren",
     "abreisen"
    ],
-   "page": "178-179"
+   "page": "178-180",
+   "example": "Parto da casa alle sette.",
+   "related": "F partir; ≠ arrivare"
   },
   {
    "id": "u3-3a-011",
@@ -132,7 +144,9 @@
     "eilen",
     "rennen"
    ],
-   "page": "178-179"
+   "page": "178-180",
+   "example": "Sei in ritardo. Corri un po’!",
+   "related": "F courir; L currere"
   },
   {
    "id": "u3-3a-012",
@@ -141,7 +155,9 @@
     "der Platz",
     "der Ort"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "example": "Il corridoio è il mio posto preferito.",
+   "related": "F poste",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -158,7 +174,7 @@
    "translations": [
     "nervös"
    ],
-   "page": "178-179"
+   "page": "178-180"
   },
   {
    "id": "u3-3a-014",
@@ -166,7 +182,9 @@
    "translations": [
     "die Abfrage"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "example": "Leo è nervoso per l’interrogazione.",
+   "related": "F l’interrogation",
    "usage": "f."
   },
   {
@@ -175,7 +193,8 @@
    "translations": [
     "die Stimme"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "related": "E voice; F la voix; L vox",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -192,7 +211,8 @@
    "translations": [
     "denken"
    ],
-   "page": "178-179"
+   "page": "178-180",
+   "related": "F penser"
   },
   {
    "id": "u3-3a-017",
@@ -200,10 +220,12 @@
    "translations": [
     "erklären"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "example": "Il prof non spiega bene. Non capisco i compiti.",
    "acceptedAnswers": [
     "spiegare"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
    "id": "u3-3a-018",
@@ -211,7 +233,8 @@
    "translations": [
     "der Nil"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "example": "Il Nilo è un fiume grande.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -228,11 +251,11 @@
    "translations": [
     "sagen"
    ],
-   "page": "178-179",
+   "page": "178-180",
    "acceptedAnswers": [
     "dire"
    ],
-   "usage": "unregelmäßig"
+   "usage": "Abc"
   },
   {
    "id": "u3-3a-020",
@@ -240,7 +263,8 @@
    "translations": [
     "der Blödsinn"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "example": "Non dire sciocchezze!",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -257,8 +281,9 @@
    "translations": [
     "das Jahrtausend"
    ],
-   "page": "178-179",
-   "usage": "Pl.: i millenni",
+   "page": "178-180",
+   "related": "E millennium",
+   "usage": "pl. i millenni",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -275,7 +300,8 @@
    "translations": [
     "das Leben"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "related": "F la vie; L vita",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -290,9 +316,9 @@
    "id": "u3-3a-023",
    "target": "il/la secchione/-a",
    "translations": [
-    "der Streber / die Streberin"
+    "der/die Streber/-in"
    ],
-   "page": "178-179",
+   "page": "178-180",
    "usage": "fam."
   },
   {
@@ -301,7 +327,7 @@
    "translations": [
     "auswendig"
    ],
-   "page": "178-179"
+   "page": "178-180"
   },
   {
    "id": "u3-3a-025",
@@ -309,10 +335,12 @@
    "translations": [
     "zurückgeben"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "example": "Il prof restituisce i compiti.",
    "acceptedAnswers": [
     "restituire"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
    "id": "u3-3a-026",
@@ -320,7 +348,8 @@
    "translations": [
     "die Lösung"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "related": "E solution; F la solution",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -338,7 +367,10 @@
     "die interaktive Tafel",
     "das Whiteboard"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "tags": [
+    "fakultativ"
+   ],
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -355,10 +387,11 @@
    "translations": [
     "eine (Note) bekommen haben"
    ],
-   "page": "178-179",
+   "page": "178-180",
    "acceptedAnswers": [
     "avere preso un"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
    "id": "u3-3a-029",
@@ -367,7 +400,8 @@
     "gut",
     "tüchtig"
    ],
-   "page": "178-179"
+   "page": "178-180",
+   "example": "Il prof è bravo. Spiega molto bene."
   },
   {
    "id": "u3-3a-030",
@@ -376,7 +410,8 @@
     "hingegen",
     "dagegen"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "example": "Mi piace l’arte. La storia invece non mi piace.",
    "usage": "avv."
   },
   {
@@ -385,7 +420,8 @@
    "translations": [
     "die Note"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "example": "Che voto hai preso, Khalid?",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -402,7 +438,9 @@
    "translations": [
     "zufrieden"
    ],
-   "page": "178-179"
+   "page": "178-180",
+   "example": "Khalid non è contento del suo voto.",
+   "related": "E/F content"
   },
   {
    "id": "u3-3a-033",
@@ -410,8 +448,9 @@
    "translations": [
     "das Problem"
    ],
-   "page": "178-179",
-   "usage": "m.",
+   "page": "178-180",
+   "example": "Il prof spiega un problema.",
+   "usage": "m. Einige maskuline Substantive enden auf -a, aber der Plural endet auf -i.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -428,7 +467,8 @@
    "translations": [
     "die Geometrie"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "example": "In matematica mi piace la geometria.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -446,7 +486,10 @@
     "aufmerksam sein",
     "aufpassen"
    ],
-   "page": "178-179"
+   "page": "178-180",
+   "example": "Ragazzi, fate attenzione!",
+   "related": "E attention",
+   "usage": "Abc"
   },
   {
    "id": "u3-3a-036",
@@ -455,10 +498,13 @@
     "beenden",
     "enden"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "example": "La scuola finisce all’una.",
+   "related": "≠ cominciare; E to finish",
    "acceptedAnswers": [
     "finire"
-   ]
+   ],
+   "usage": "Abc"
   },
   {
    "id": "u3-3a-037",
@@ -466,7 +512,8 @@
    "translations": [
     "bitte"
    ],
-   "page": "178-179"
+   "page": "178-180",
+   "example": "Ragazzi, i compiti adesso, per favore!"
   },
   {
    "id": "u3-3a-038",
@@ -474,7 +521,9 @@
    "translations": [
     "die Information"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "example": "Cerco un’informazione in Internet.",
+   "related": "E information",
    "usage": "f."
   },
   {
@@ -483,7 +532,8 @@
    "translations": [
     "das Referat"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "example": "I ragazzi ascoltano la relazione di Giorgia.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -500,8 +550,9 @@
    "translations": [
     "die Übung"
    ],
-   "page": "178-179",
-   "usage": "Pl.: gli esercizi"
+   "page": "178-180",
+   "related": "E exercise; F l’exercice",
+   "usage": "pl. gli esercizi"
   },
   {
    "id": "u3-3a-041",
@@ -509,7 +560,9 @@
    "translations": [
     "die Seite"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "example": "Fate l’esercizio 2 a pagina 58!",
+   "related": "E page; F la page",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -526,7 +579,9 @@
    "translations": [
     "Hören Sie!"
    ],
-   "page": "178-179"
+   "page": "178-180",
+   "example": "Senta, scusi!",
+   "related": "▸ sentire"
   },
   {
    "id": "u3-3a-043",
@@ -534,7 +589,9 @@
    "translations": [
     "morgen"
    ],
-   "page": "178-179",
+   "page": "178-180",
+   "example": "I compiti sono per domani.",
+   "related": "≠ oggi; F demain",
    "usage": "avv."
   },
   {
@@ -544,7 +601,7 @@
     "jedoch",
     "aber"
    ],
-   "page": "178-179",
+   "page": "178-180",
    "usage": "avv."
   },
   {
@@ -553,7 +610,8 @@
    "translations": [
     "Auf Wiedersehen!"
    ],
-   "page": "178-179"
+   "page": "178-180",
+   "related": "≠ buongiorno"
   }
  ],
  "catalog": {
@@ -564,7 +622,7 @@
    "volume": "1",
    "unit": "Unità 3",
    "section": "3A",
-   "pages": "178-179"
+   "pages": "178-180"
   },
   "grade": 8,
   "foreignLanguageNo": 3,

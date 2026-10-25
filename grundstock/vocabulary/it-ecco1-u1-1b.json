@@ -1,0 +1,583 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-u1-1b",
+ "title": "Ecco più 1 · Unità 1 · 1B",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „In giro per il quartiere“ aus Ecco più 1 (Unità 1, 1B).",
+ "topics": [
+  "Stadt",
+  "Freizeit",
+  "Sport"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Unità 1 · 1B",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 170-171 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u1-1b-001",
+   "target": "il giro",
+   "translations": [
+    "die Rundfahrt",
+    "der Spaziergang"
+   ],
+   "page": "170-171",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-002",
+   "target": "il quartiere",
+   "translations": [
+    "das Wohnviertel"
+   ],
+   "page": "170-171",
+   "related": "F le quartier",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-003",
+   "target": "oggi",
+   "translations": [
+    "heute"
+   ],
+   "page": "170-171",
+   "usage": "avv."
+  },
+  {
+   "id": "u1-1b-004",
+   "target": "prendere",
+   "translations": [
+    "nehmen"
+   ],
+   "page": "170-171",
+   "example": "Prendo un caffè.",
+   "related": "F prendre"
+  },
+  {
+   "id": "u1-1b-005",
+   "target": "la bicicletta",
+   "translations": [
+    "das Fahrrad"
+   ],
+   "page": "170-171",
+   "related": "E bicycle; F la bicyclette",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-006",
+   "target": "visitare qs",
+   "translations": [
+    "etw. besichtigen"
+   ],
+   "page": "170-171",
+   "example": "Visitiamo il museo.",
+   "related": "E to visit; F visiter",
+   "usage": "Unterscheide: visitare heißt nur „etw. besichtigen“, nicht „jdn besuchen“"
+  },
+  {
+   "id": "u1-1b-007",
+   "target": "c’è",
+   "translations": [
+    "es gibt",
+    "da/dort ist + Sg."
+   ],
+   "page": "170-171",
+   "example": "A Roma c’è il Colosseo.",
+   "usage": "Unterscheide: c’è – es gibt, da ist; che? – was?"
+  },
+  {
+   "id": "u1-1b-008",
+   "target": "ci sono",
+   "translations": [
+    "es gibt",
+    "da/dort sind + Pl."
+   ],
+   "page": "170-171",
+   "example": "Nel parco ci sono due bambini."
+  },
+  {
+   "id": "u1-1b-009",
+   "target": "il negozio",
+   "translations": [
+    "das Geschäft",
+    "der Laden"
+   ],
+   "page": "170-171",
+   "usage": "pl. i negozi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-010",
+   "target": "il papà",
+   "translations": [
+    "der Papa"
+   ],
+   "page": "170-171",
+   "usage": "Unterscheide: il papà – der Papa; il papa – der Papst",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-011",
+   "target": "fantastico/-a",
+   "translations": [
+    "fantastisch"
+   ],
+   "page": "170-171",
+   "usage": "pl. fantastici/fantastiche"
+  },
+  {
+   "id": "u1-1b-012",
+   "target": "vendere",
+   "translations": [
+    "verkaufen"
+   ],
+   "page": "170-171",
+   "example": "Il negozio vende scarpe.",
+   "related": "F vendre; L vendere"
+  },
+  {
+   "id": "u1-1b-013",
+   "target": "lo sport",
+   "translations": [
+    "der Sport"
+   ],
+   "page": "170-171",
+   "usage": "pl. gli sport",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-014",
+   "target": "il calciatore",
+   "translations": [
+    "der Fußballer",
+    "der Fußballspieler"
+   ],
+   "page": "170-171",
+   "related": "▸ il calcio",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-015",
+   "target": "guardare",
+   "translations": [
+    "ansehen",
+    "schauen"
+   ],
+   "page": "170-171",
+   "example": "Guardo un film."
+  },
+  {
+   "id": "u1-1b-016",
+   "target": "spesso",
+   "translations": [
+    "oft"
+   ],
+   "page": "170-171",
+   "usage": "avv."
+  },
+  {
+   "id": "u1-1b-017",
+   "target": "la partita",
+   "translations": [
+    "die Partie",
+    "das Spiel (Ballsport)"
+   ],
+   "page": "170-171",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-018",
+   "target": "dopo",
+   "translations": [
+    "danach",
+    "dann"
+   ],
+   "page": "170-171",
+   "usage": "avv."
+  },
+  {
+   "id": "u1-1b-019",
+   "target": "passare per qs",
+   "translations": [
+    "durch etw. durchfahren/-gehen"
+   ],
+   "page": "170-171",
+   "related": "F passer (par)"
+  },
+  {
+   "id": "u1-1b-020",
+   "target": "il campo",
+   "translations": [
+    "das Feld",
+    "das Spielfeld (Ballsport)"
+   ],
+   "page": "170-171",
+   "related": "F le champ; L campus",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-021",
+   "target": "il campo sportivo",
+   "translations": [
+    "der Sportplatz"
+   ],
+   "page": "170-171",
+   "related": "▸ lo sport",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-022",
+   "target": "la pista di skateboard",
+   "translations": [
+    "die Skaterbahn"
+   ],
+   "page": "170-171",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-023",
+   "target": "il campo di calcio",
+   "translations": [
+    "der Fußballplatz"
+   ],
+   "page": "170-171",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-024",
+   "target": "il campo di basket",
+   "translations": [
+    "der Basketballplatz"
+   ],
+   "page": "170-171",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-025",
+   "target": "ideale",
+   "translations": [
+    "ideal"
+   ],
+   "page": "170-171"
+  },
+  {
+   "id": "u1-1b-026",
+   "target": "per + inf.",
+   "translations": [
+    "für",
+    "um … zu"
+   ],
+   "page": "170-171",
+   "example": "Il parco è ideale per giocare."
+  },
+  {
+   "id": "u1-1b-027",
+   "target": "pattinare (inline)",
+   "translations": [
+    "inlineskaten"
+   ],
+   "page": "170-171",
+   "acceptedAnswers": [
+    "pattinare"
+   ]
+  },
+  {
+   "id": "u1-1b-028",
+   "target": "vedere",
+   "translations": [
+    "sehen",
+    "wahrnehmen"
+   ],
+   "page": "170-171",
+   "example": "Vedo un bel film.",
+   "related": "F voir; L videre"
+  },
+  {
+   "id": "u1-1b-029",
+   "target": "i pattini (in linea)",
+   "translations": [
+    "die Inlineskates"
+   ],
+   "page": "170-171",
+   "related": "▸ pattinare inline",
+   "acceptedAnswers": [
+    "i pattini"
+   ],
+   "usage": "pl.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "i",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-030",
+   "target": "già",
+   "translations": [
+    "schon",
+    "bereits",
+    "gewiss"
+   ],
+   "page": "170-171",
+   "usage": "avv."
+  },
+  {
+   "id": "u1-1b-031",
+   "target": "tornare",
+   "translations": [
+    "zurückkehren",
+    "zurückkommen"
+   ],
+   "page": "170-171",
+   "example": "Torno a casa alle tre."
+  },
+  {
+   "id": "u1-1b-032",
+   "target": "poi",
+   "translations": [
+    "dann",
+    "danach"
+   ],
+   "page": "170-171",
+   "related": "= dopo",
+   "usage": "avv."
+  },
+  {
+   "id": "u1-1b-033",
+   "target": "in",
+   "translations": [
+    "in",
+    "zu",
+    "nach (Richtung)"
+   ],
+   "page": "170-171",
+   "usage": "Unterscheide: 1. bei Ländern/Regionen: Abito in Italia (Wo?); Torno in Italia (Wohin?) – 2. bei Städten: Abito a Torino (Wo?); Torno a Torino (Wohin?) – 3. auch: Sono a scuola (Wo?); Torno a scuola (Wohin?)"
+  },
+  {
+   "id": "u1-1b-034",
+   "target": "l’attrazione",
+   "translations": [
+    "die Attraktion"
+   ],
+   "page": "170-171",
+   "usage": "f."
+  },
+  {
+   "id": "u1-1b-035",
+   "target": "l’edificio",
+   "translations": [
+    "das Gebäude"
+   ],
+   "page": "170-171",
+   "related": "F l’édifice; L aedificium",
+   "usage": "pl. gli edifici"
+  },
+  {
+   "id": "u1-1b-036",
+   "target": "il palazzo",
+   "translations": [
+    "der Palast"
+   ],
+   "page": "170-171",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-037",
+   "target": "Come no?",
+   "translations": [
+    "Warum nicht?"
+   ],
+   "page": "170-171"
+  },
+  {
+   "id": "u1-1b-038",
+   "target": "in fondo",
+   "translations": [
+    "hinten",
+    "im Hintergrund"
+   ],
+   "page": "170-171",
+   "usage": "avv."
+  },
+  {
+   "id": "u1-1b-039",
+   "target": "da",
+   "translations": [
+    "bei + Pers."
+   ],
+   "page": "170-171",
+   "example": "Sono da Marco."
+  },
+  {
+   "id": "u1-1b-040",
+   "target": "Dai!",
+   "translations": [
+    "Los!"
+   ],
+   "page": "170-171",
+   "example": "Dai, andiamo!",
+   "usage": "richtet sich an eine Person"
+  },
+  {
+   "id": "u1-1b-041",
+   "target": "Ciao a tutti!",
+   "translations": [
+    "Hallo alle zusammen!"
+   ],
+   "page": "170-171"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "1B",
+   "pages": "170-171"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Stadt",
+   "Freizeit",
+   "Sport"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}
