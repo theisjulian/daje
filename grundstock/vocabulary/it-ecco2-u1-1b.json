@@ -1,0 +1,495 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u1-1b",
+ "title": "Ecco più 2 · Unità 1 · 1B L’incontro d’estate",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Die Begegnung im Sommer“ aus Ecco più 2 (Unità 1, 1B L’incontro d’estate).",
+ "topics": [
+  "Sommer",
+  "Begegnung",
+  "Erzählen"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 1 · 1B L’incontro d’estate",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 201-202 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u1-1b-001",
+   "target": "il concorso",
+   "translations": [
+    "der Wettbewerb"
+   ],
+   "page": "201-202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-002",
+   "target": "il racconto",
+   "translations": [
+    "die Erzählung",
+    "die Geschichte"
+   ],
+   "page": "201-202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-003",
+   "target": "l’avventura",
+   "translations": [
+    "das Abenteuer"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "u1-1b-004",
+   "target": "un giorno",
+   "translations": [
+    "eines Tages"
+   ],
+   "page": "201-202",
+   "usage": "avv."
+  },
+  {
+   "id": "u1-1b-005",
+   "target": "mentre",
+   "translations": [
+    "während"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "u1-1b-006",
+   "target": "ad un tratto",
+   "translations": [
+    "plötzlich",
+    "auf einmal"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "u1-1b-007",
+   "target": "colpire (-sc-)",
+   "translations": [
+    "treffen",
+    "schlagen",
+    "beeindrucken"
+   ],
+   "page": "201-202",
+   "acceptedAnswers": [
+    "colpire"
+   ],
+   "usage": "Abc"
+  },
+  {
+   "id": "u1-1b-008",
+   "target": "volare",
+   "translations": [
+    "fliegen"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "u1-1b-009",
+   "target": "arrabbiarsi",
+   "translations": [
+    "sich ärgern",
+    "wütend werden"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "u1-1b-010",
+   "target": "naturalmente",
+   "translations": [
+    "natürlich",
+    "selbstverständlich"
+   ],
+   "page": "201-202",
+   "usage": "avv."
+  },
+  {
+   "id": "u1-1b-011",
+   "target": "la testa",
+   "translations": [
+    "der Kopf"
+   ],
+   "page": "201-202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-012",
+   "target": "basso/-a",
+   "translations": [
+    "klein (Körpergröße)",
+    "niedrig"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "u1-1b-013",
+   "target": "corto/-a",
+   "translations": [
+    "kurz"
+   ],
+   "page": "201-202",
+   "usage": "≠ lungo"
+  },
+  {
+   "id": "u1-1b-014",
+   "target": "scusarsi",
+   "translations": [
+    "sich entschuldigen"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "u1-1b-015",
+   "target": "austriaco/-a",
+   "translations": [
+    "österreichisch"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "u1-1b-016",
+   "target": "Vienna",
+   "translations": [
+    "Wien (Hauptstadt von Österreich)"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "u1-1b-017",
+   "target": "sorridere a qn, sorriso",
+   "translations": [
+    "jdn anlächeln"
+   ],
+   "page": "201-202",
+   "usage": "p.p. sorriso"
+  },
+  {
+   "id": "u1-1b-018",
+   "target": "togliersi qs (tolgo), tolto",
+   "translations": [
+    "sich etw. entfernen"
+   ],
+   "page": "201-202",
+   "acceptedAnswers": [
+    "togliersi qs, tolto"
+   ],
+   "usage": "p.p. tolto"
+  },
+  {
+   "id": "u1-1b-019",
+   "target": "il cinema, i cinema",
+   "translations": [
+    "das Kino"
+   ],
+   "page": "201-202",
+   "usage": "pl. i cinema",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-020",
+   "target": "il cinema all’aperto",
+   "translations": [
+    "das Freiluftkino",
+    "das Open-air-Kino"
+   ],
+   "page": "201-202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-021",
+   "target": "arrivare a prendere qn",
+   "translations": [
+    "jdn abholen"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "u1-1b-022",
+   "target": "salutare",
+   "translations": [
+    "grüßen",
+    "begrüßen"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "u1-1b-023",
+   "target": "il momento",
+   "translations": [
+    "der Moment"
+   ],
+   "page": "201-202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-024",
+   "target": "succedere, successo",
+   "translations": [
+    "geschehen",
+    "passieren"
+   ],
+   "page": "201-202",
+   "usage": "p.p. successo"
+  },
+  {
+   "id": "u1-1b-025",
+   "target": "imbarazzante",
+   "translations": [
+    "peinlich",
+    "unangenehm"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "u1-1b-026",
+   "target": "fermare",
+   "translations": [
+    "anhalten",
+    "stoppen"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "u1-1b-027",
+   "target": "sconosciuto/-a",
+   "translations": [
+    "unbekannt"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "u1-1b-028",
+   "target": "l’attimo",
+   "translations": [
+    "der Augenblick",
+    "der Moment"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "u1-1b-029",
+   "target": "la paura",
+   "translations": [
+    "die Angst"
+   ],
+   "page": "201-202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-030",
+   "target": "perdersi qs",
+   "translations": [
+    "etw. versäumen",
+    "verpassen",
+    "sich verlaufen"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "u1-1b-031",
+   "target": "riuscire a + inf. (riesco), riuscito",
+   "translations": [
+    "schaffen (etw. zu tun)"
+   ],
+   "page": "201-202",
+   "acceptedAnswers": [
+    "riuscire a + inf., riuscito"
+   ],
+   "usage": "p.p. riuscito"
+  },
+  {
+   "id": "u1-1b-032",
+   "target": "convincere di + sost. / a fare qs, convinto",
+   "translations": [
+    "überzeugen",
+    "überreden"
+   ],
+   "page": "201-202",
+   "usage": "p.p. convinto"
+  },
+  {
+   "id": "u1-1b-033",
+   "target": "la giornata",
+   "translations": [
+    "der Tag (Verlauf)"
+   ],
+   "page": "201-202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-034",
+   "target": "l’addio, gli addii",
+   "translations": [
+    "der Abschied"
+   ],
+   "page": "201-202",
+   "usage": "pl. gli addii"
+  },
+  {
+   "id": "u1-1b-035",
+   "target": "il contatto",
+   "translations": [
+    "der Kontakt"
+   ],
+   "page": "201-202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-036",
+   "target": "scambiarsi qs",
+   "translations": [
+    "sich etw. austauschen"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "u1-1b-037",
+   "target": "il pacchetto",
+   "translations": [
+    "das Päckchen",
+    "das Paket"
+   ],
+   "page": "201-202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-038",
+   "target": "il ricordo di qs/qn",
+   "translations": [
+    "die Erinnerung an etw./jmd"
+   ],
+   "page": "201-202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 1",
+   "section": "1B L’incontro d’estate",
+   "pages": "201-202"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Sommer",
+   "Begegnung",
+   "Erzählen"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

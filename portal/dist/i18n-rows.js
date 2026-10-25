@@ -1988,5 +1988,7 @@ const UI_ROWS_EXTRA = [
 ["{n} Wörter", "{n} parole", "{n} words", "{n} mots", "{n} parole"],
 ["{n} Abschnitte ausgewählt", "{n} paragrafi scelti", "{n} sections selected", "{n} sections sélectionnées", "{n} paragrafi scelti"],
 ["{n} Abschnitt ausgewählt", "{n} paragrafo scelto", "{n} section selected", "{n} section sélectionnée", "{n} paragrafo scelto"],
-["Wörter, die bleiben.", "Parole che restano.", "Words that stay.", "Des mots qui restent.", "Parole che restano."]
+["Wörter, die bleiben.", "Parole che restano.", "Words that stay.", "Des mots qui restent.", "Parole che restano."],
+["Fakultativen Wortschatz (im Buch kursiv) einbeziehen", "Includi il lessico facoltativo (in corsivo nel libro)", "Include optional vocabulary (italic in the book)", "Inclure le vocabulaire facultatif (en italique dans le livre)", "Includi le parole facoltative (in corsivo nel libro)"],
+["als bekannt voraussetzen und mitrechnen", "considera già noto e conteggia", "assume as known and include", "considérer comme acquis et inclure", "considera già noto e conta"]
 ];

@@ -1,0 +1,543 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u6-approccio",
+ "title": "Ecco più 2 · Unità 6 · Approccio",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „L’Italia creativa e moderna“ aus Ecco più 2 (Unità 6, Approccio).",
+ "topics": [
+  "Industrie",
+  "Norditalien",
+  "Süditalien",
+  "Landschaft"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 6 · Approccio",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 222-223 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u6-approccio-001",
+   "target": "il triangolo industriale",
+   "translations": [
+    "das Industriedreieck (Mailand-Genua-Turin)"
+   ],
+   "page": "222-223",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-002",
+   "target": "la concentrazione",
+   "translations": [
+    "die Konzentration"
+   ],
+   "page": "222-223",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-003",
+   "target": "il servizio, i servizi",
+   "translations": [
+    "die Dienstleistung"
+   ],
+   "page": "222-223",
+   "usage": "pl. i servizi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-004",
+   "target": "l’auto(mobile)",
+   "translations": [
+    "das Auto(mobil)"
+   ],
+   "page": "222-223",
+   "acceptedAnswers": [
+    "l’auto"
+   ],
+   "usage": "f."
+  },
+  {
+   "id": "u6-approccio-005",
+   "target": "la borsa",
+   "translations": [
+    "die Börse",
+    "Aktien"
+   ],
+   "page": "222-223",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-006",
+   "target": "il settentrione",
+   "translations": [
+    "der Norden"
+   ],
+   "page": "222-223",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-007",
+   "target": "la decina",
+   "translations": [
+    "etwa zehn"
+   ],
+   "page": "222-223",
+   "usage": "il centinaio = etwa hundert, pl. le centinaia; il migliaio = etwa tausend, pl. le migliaia",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-008",
+   "target": "la pianura",
+   "translations": [
+    "die Ebene",
+    "das Flachland"
+   ],
+   "page": "222-223",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-009",
+   "target": "l’agricoltura",
+   "translations": [
+    "die Landwirtschaft",
+    "der Ackerbau"
+   ],
+   "page": "222-223"
+  },
+  {
+   "id": "u6-approccio-010",
+   "target": "l’allevamento",
+   "translations": [
+    "die Tierhaltung",
+    "die Tierzucht"
+   ],
+   "page": "222-223"
+  },
+  {
+   "id": "u6-approccio-011",
+   "target": "fornire (-sc-)",
+   "translations": [
+    "liefern"
+   ],
+   "page": "222-223",
+   "acceptedAnswers": [
+    "fornire"
+   ],
+   "usage": "Abc"
+  },
+  {
+   "id": "u6-approccio-012",
+   "target": "scorrere, scorso",
+   "translations": [
+    "fließen",
+    "strömen"
+   ],
+   "page": "222-223",
+   "usage": "p.p. scorso"
+  },
+  {
+   "id": "u6-approccio-013",
+   "target": "il lago, i laghi",
+   "translations": [
+    "der See"
+   ],
+   "page": "222-223",
+   "usage": "pl. i laghi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-014",
+   "target": "l’Appennino",
+   "translations": [
+    "der Apennin (Gebirge)"
+   ],
+   "page": "222-223"
+  },
+  {
+   "id": "u6-approccio-015",
+   "target": "settentrionale",
+   "translations": [
+    "nördlich"
+   ],
+   "page": "222-223"
+  },
+  {
+   "id": "u6-approccio-016",
+   "target": "l’accesso",
+   "translations": [
+    "die Anbindung",
+    "der Zugang"
+   ],
+   "page": "222-223"
+  },
+  {
+   "id": "u6-approccio-017",
+   "target": "trarre (traggo), tratto",
+   "translations": [
+    "ziehen",
+    "entnehmen"
+   ],
+   "page": "222-223",
+   "acceptedAnswers": [
+    "trarre, tratto"
+   ],
+   "usage": "p.p. tratto"
+  },
+  {
+   "id": "u6-approccio-018",
+   "target": "il profitto",
+   "translations": [
+    "der Nutzen",
+    "der Profit"
+   ],
+   "page": "222-223",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-019",
+   "target": "il turismo (balneare)",
+   "translations": [
+    "der (Bade-)Tourismus"
+   ],
+   "page": "222-223",
+   "acceptedAnswers": [
+    "il turismo"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-020",
+   "target": "attrarre (attraggo), attratto",
+   "translations": [
+    "anziehen"
+   ],
+   "page": "222-223",
+   "acceptedAnswers": [
+    "attrarre, attratto"
+   ],
+   "usage": "p.p. attratto"
+  },
+  {
+   "id": "u6-approccio-021",
+   "target": "il paesaggio, i paesaggi",
+   "translations": [
+    "die Landschaft"
+   ],
+   "page": "222-223",
+   "usage": "pl. i paesaggi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-022",
+   "target": "il tratto",
+   "translations": [
+    "der Abschnitt"
+   ],
+   "page": "222-223",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-023",
+   "target": "la collina",
+   "translations": [
+    "der Hügel"
+   ],
+   "page": "222-223",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-024",
+   "target": "la catena montuosa",
+   "translations": [
+    "die Gebirgskette"
+   ],
+   "page": "222-223",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-025",
+   "target": "il meridione / il mezzogiorno",
+   "translations": [
+    "der Süden"
+   ],
+   "page": "222-223"
+  },
+  {
+   "id": "u6-approccio-026",
+   "target": "includere, incluso",
+   "translations": [
+    "einbeziehen"
+   ],
+   "page": "222-223",
+   "usage": "p.p. incluso"
+  },
+  {
+   "id": "u6-approccio-027",
+   "target": "meridionale",
+   "translations": [
+    "südlich"
+   ],
+   "page": "222-223"
+  },
+  {
+   "id": "u6-approccio-028",
+   "target": "particolare",
+   "translations": [
+    "besonderer",
+    "besondere/-s"
+   ],
+   "page": "222-223"
+  },
+  {
+   "id": "u6-approccio-029",
+   "target": "l’importanza",
+   "translations": [
+    "die Wichtigkeit",
+    "die Bedeutung"
+   ],
+   "page": "222-223"
+  },
+  {
+   "id": "u6-approccio-030",
+   "target": "la pesca",
+   "translations": [
+    "die Fischerei"
+   ],
+   "page": "222-223",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-031",
+   "target": "il guadagno",
+   "translations": [
+    "der Verdienst"
+   ],
+   "page": "222-223",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-032",
+   "target": "il vulcano",
+   "translations": [
+    "der Vulkan"
+   ],
+   "page": "222-223",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-033",
+   "target": "la disoccupazione",
+   "translations": [
+    "die Arbeitslosigkeit"
+   ],
+   "page": "222-223",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-034",
+   "target": "la criminalità",
+   "translations": [
+    "die Kriminalität"
+   ],
+   "page": "222-223",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-035",
+   "target": "originario/-a di",
+   "translations": [
+    "ursprünglich aus"
+   ],
+   "page": "222-223"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 6",
+   "section": "Approccio",
+   "pages": "222-223"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Industrie",
+   "Norditalien",
+   "Süditalien",
+   "Landschaft"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

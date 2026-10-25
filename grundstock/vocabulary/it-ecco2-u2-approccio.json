@@ -1,0 +1,387 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u2-approccio",
+ "title": "Ecco più 2 · Unità 2 · Approccio",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „I giovani oggi – Media e impegno sociale“ aus Ecco più 2 (Unità 2, Approccio).",
+ "topics": [
+  "Medien",
+  "Jugend",
+  "Kommunikation"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 2 · Approccio",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 203 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u2-approccio-001",
+   "target": "il mezzo",
+   "translations": [
+    "das Mittel"
+   ],
+   "page": "203",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-002",
+   "target": "la comunicazione",
+   "translations": [
+    "die Kommunikation"
+   ],
+   "page": "203",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-003",
+   "target": "il giornale",
+   "translations": [
+    "die Zeitung"
+   ],
+   "page": "203",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-004",
+   "target": "la radio",
+   "translations": [
+    "das Radio"
+   ],
+   "page": "203",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-005",
+   "target": "la trasmissione",
+   "translations": [
+    "die Übertragung",
+    "die Sendung (Fernsehen)"
+   ],
+   "page": "203",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-006",
+   "target": "il talent show",
+   "translations": [
+    "die Talentshow"
+   ],
+   "page": "203",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-007",
+   "target": "la soap opera",
+   "translations": [
+    "die Seifenoper"
+   ],
+   "page": "203",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-008",
+   "target": "raramente",
+   "translations": [
+    "selten"
+   ],
+   "page": "203",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-approccio-009",
+   "target": "il documentario, i documentari",
+   "translations": [
+    "der Dokumentarfilm",
+    "die Dokumentation"
+   ],
+   "page": "203",
+   "usage": "pl. i documentari",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-010",
+   "target": "il telegiornale",
+   "translations": [
+    "die (Fernseh-)Nachrichten"
+   ],
+   "page": "203",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-011",
+   "target": "non … mai",
+   "translations": [
+    "nie(mals)"
+   ],
+   "page": "203"
+  },
+  {
+   "id": "u2-approccio-012",
+   "target": "il titolo",
+   "translations": [
+    "der Titel",
+    "die Überschrift"
+   ],
+   "page": "203",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-013",
+   "target": "confrontare",
+   "translations": [
+    "vergleichen",
+    "gegenüberstellen"
+   ],
+   "page": "203"
+  },
+  {
+   "id": "u2-approccio-014",
+   "target": "il/la compagno/-a (di classe)",
+   "translations": [
+    "der/die Klassenkamerad/in"
+   ],
+   "page": "203",
+   "acceptedAnswers": [
+    "il/la compagno/-a"
+   ]
+  },
+  {
+   "id": "u2-approccio-015",
+   "target": "servire a qs/qn",
+   "translations": [
+    "etw./jdm dienen",
+    "nützen",
+    "brauchen"
+   ],
+   "page": "203"
+  },
+  {
+   "id": "u2-approccio-016",
+   "target": "ritoccare",
+   "translations": [
+    "bearbeiten",
+    "retuschieren"
+   ],
+   "page": "203"
+  },
+  {
+   "id": "u2-approccio-017",
+   "target": "lo schermo",
+   "translations": [
+    "der Bildschirm"
+   ],
+   "page": "203",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-018",
+   "target": "nessuno",
+   "translations": [
+    "niemand"
+   ],
+   "page": "203"
+  },
+  {
+   "id": "u2-approccio-019",
+   "target": "la ricerca",
+   "translations": [
+    "die Recherche",
+    "die Suche"
+   ],
+   "page": "203",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-020",
+   "target": "scaricare",
+   "translations": [
+    "herunterladen"
+   ],
+   "page": "203"
+  },
+  {
+   "id": "u2-approccio-021",
+   "target": "registrare",
+   "translations": [
+    "aufnehmen",
+    "aufzeichnen"
+   ],
+   "page": "203"
+  },
+  {
+   "id": "u2-approccio-022",
+   "target": "il brano",
+   "translations": [
+    "das Musikstück"
+   ],
+   "page": "203",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-023",
+   "target": "lo streaming",
+   "translations": [
+    "das Streaming"
+   ],
+   "page": "203",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-024",
+   "target": "sportivo/-a",
+   "translations": [
+    "sportlich"
+   ],
+   "page": "203"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 2",
+   "section": "Approccio",
+   "pages": "203"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Medien",
+   "Jugend",
+   "Kommunikation"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

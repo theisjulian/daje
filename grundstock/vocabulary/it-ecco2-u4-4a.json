@@ -1,0 +1,347 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u4-4a",
+ "title": "Ecco più 2 · Unità 4 · 4A Ragazzi, mi serve un consiglio",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Hilfe und Ratschläge“ aus Ecco più 2 (Unità 4, 4A Ragazzi, mi serve un consiglio).",
+ "topics": [
+  "Hilfe",
+  "Jobs",
+  "Technik"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 4 · 4A Ragazzi, mi serve un consiglio",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 214 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u4-4a-001",
+   "target": "il display",
+   "translations": [
+    "das Display"
+   ],
+   "page": "214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-002",
+   "target": "riparare",
+   "translations": [
+    "reparieren"
+   ],
+   "page": "214"
+  },
+  {
+   "id": "u4-4a-003",
+   "target": "l’esperto/-a",
+   "translations": [
+    "der Experte",
+    "die Expertin"
+   ],
+   "page": "214"
+  },
+  {
+   "id": "u4-4a-004",
+   "target": "essere sicuro/-a di qs / + inf.",
+   "translations": [
+    "sicher sein"
+   ],
+   "page": "214",
+   "usage": "Abc"
+  },
+  {
+   "id": "u4-4a-005",
+   "target": "dare una mano a qn",
+   "translations": [
+    "jdm helfen"
+   ],
+   "page": "214",
+   "usage": "Abc"
+  },
+  {
+   "id": "u4-4a-006",
+   "target": "rompersi, rotto",
+   "translations": [
+    "kaputtgehen"
+   ],
+   "page": "214",
+   "usage": "p.p. rotto"
+  },
+  {
+   "id": "u4-4a-007",
+   "target": "il ferro",
+   "translations": [
+    "das Eisen"
+   ],
+   "page": "214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-008",
+   "target": "l’offerta",
+   "translations": [
+    "das Angebot",
+    "die Spende"
+   ],
+   "page": "214"
+  },
+  {
+   "id": "u4-4a-009",
+   "target": "il/la titolare",
+   "translations": [
+    "der/die Ladenbesitzer/in"
+   ],
+   "page": "214"
+  },
+  {
+   "id": "u4-4a-010",
+   "target": "il modello",
+   "translations": [
+    "das Modell"
+   ],
+   "page": "214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-011",
+   "target": "usato/-a",
+   "translations": [
+    "gebraucht"
+   ],
+   "page": "214",
+   "usage": "≠ nuovo"
+  },
+  {
+   "id": "u4-4a-012",
+   "target": "il lavoretto",
+   "translations": [
+    "der Job"
+   ],
+   "page": "214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-013",
+   "target": "fare il/la baby-sitter",
+   "translations": [
+    "babysitten"
+   ],
+   "page": "214",
+   "usage": "Abc"
+  },
+  {
+   "id": "u4-4a-014",
+   "target": "il/la dog-sitter",
+   "translations": [
+    "der/die Hundesitter/in"
+   ],
+   "page": "214"
+  },
+  {
+   "id": "u4-4a-015",
+   "target": "il tablet",
+   "translations": [
+    "das Tablet"
+   ],
+   "page": "214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-016",
+   "target": "qualcuno",
+   "translations": [
+    "jemand"
+   ],
+   "page": "214"
+  },
+  {
+   "id": "u4-4a-017",
+   "target": "Come mai?",
+   "translations": [
+    "Wieso?",
+    "Wie kommt es?"
+   ],
+   "page": "214"
+  },
+  {
+   "id": "u4-4a-018",
+   "target": "rotto/-a",
+   "translations": [
+    "kaputt",
+    "gebrochen"
+   ],
+   "page": "214"
+  },
+  {
+   "id": "u4-4a-019",
+   "target": "l’altro ieri",
+   "translations": [
+    "vorgestern"
+   ],
+   "page": "214",
+   "usage": "avv."
+  },
+  {
+   "id": "u4-4a-020",
+   "target": "faccia a faccia",
+   "translations": [
+    "von Angesicht zu Angesicht"
+   ],
+   "page": "214"
+  },
+  {
+   "id": "u4-4a-021",
+   "target": "sul serio",
+   "translations": [
+    "im Ernst",
+    "ernsthaft"
+   ],
+   "page": "214"
+  },
+  {
+   "id": "u4-4a-022",
+   "target": "stare attento/-a a qn/qs",
+   "translations": [
+    "aufpassen auf jdn/etw."
+   ],
+   "page": "214",
+   "usage": "Unterscheide: stare attento (auf der Hut sein) – fare attenzione (aufmerksam sein)"
+  },
+  {
+   "id": "u4-4a-023",
+   "target": "costoso/-a",
+   "translations": [
+    "teuer"
+   ],
+   "page": "214"
+  },
+  {
+   "id": "u4-4a-024",
+   "target": "il regalo",
+   "translations": [
+    "das Geschenk"
+   ],
+   "page": "214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-025",
+   "target": "dispiacere",
+   "translations": [
+    "leidtun"
+   ],
+   "page": "214",
+   "usage": "mi dispiace = das tut mir leid"
+  },
+  {
+   "id": "u4-4a-026",
+   "target": "l’incidente",
+   "translations": [
+    "der Unfall"
+   ],
+   "page": "214",
+   "usage": "m."
+  },
+  {
+   "id": "u4-4a-027",
+   "target": "connesso/-a",
+   "translations": [
+    "verbunden"
+   ],
+   "page": "214"
+  },
+  {
+   "id": "u4-4a-028",
+   "target": "malato/-a",
+   "translations": [
+    "krank"
+   ],
+   "page": "214"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 4",
+   "section": "4A Ragazzi, mi serve un consiglio",
+   "pages": "214"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Hilfe",
+   "Jobs",
+   "Technik"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

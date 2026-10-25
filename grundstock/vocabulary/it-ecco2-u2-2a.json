@@ -1,0 +1,501 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u2-2a",
+ "title": "Ecco più 2 · Unità 2 · 2A Rischi di Internet",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Gefahren im Internet“ aus Ecco più 2 (Unità 2, 2A Rischi di Internet).",
+ "topics": [
+  "Internet",
+  "Risiken",
+  "Medien"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 2 · 2A Rischi di Internet",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 203-205 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u2-2a-001",
+   "target": "il rischio",
+   "translations": [
+    "das Risiko"
+   ],
+   "page": "203-205",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-002",
+   "target": "il caso",
+   "translations": [
+    "der Fall",
+    "der Vorfall"
+   ],
+   "page": "203-205",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-003",
+   "target": "scorso/-a",
+   "translations": [
+    "vergangen",
+    "vorig"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-004",
+   "target": "informare",
+   "translations": [
+    "informieren"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-005",
+   "target": "il/la preside",
+   "translations": [
+    "der/die Schulleiter/in"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-006",
+   "target": "consegnare",
+   "translations": [
+    "abgeben",
+    "übergeben"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-007",
+   "target": "permettere, permesso",
+   "translations": [
+    "erlauben"
+   ],
+   "page": "203-205",
+   "usage": "p.p. permesso"
+  },
+  {
+   "id": "u2-2a-008",
+   "target": "permettersi, permesso",
+   "translations": [
+    "sich erlauben"
+   ],
+   "page": "203-205",
+   "usage": "p.p. permesso"
+  },
+  {
+   "id": "u2-2a-009",
+   "target": "il comportamento",
+   "translations": [
+    "das Verhalten"
+   ],
+   "page": "203-205",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-010",
+   "target": "del genere",
+   "translations": [
+    "derartig"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-011",
+   "target": "evitare",
+   "translations": [
+    "vermeiden"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-012",
+   "target": "la sospensione",
+   "translations": [
+    "die Suspendierung",
+    "der Schulverweis"
+   ],
+   "page": "203-205",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-013",
+   "target": "i social media",
+   "translations": [
+    "die sozialen Medien"
+   ],
+   "page": "203-205",
+   "usage": "pl.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "i",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-014",
+   "target": "filmare",
+   "translations": [
+    "filmen"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-015",
+   "target": "fare dei selfie",
+   "translations": [
+    "Selbstporträts aufnehmen"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-016",
+   "target": "il commento",
+   "translations": [
+    "der Kommentar"
+   ],
+   "page": "203-205",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-017",
+   "target": "se",
+   "translations": [
+    "wenn"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-018",
+   "target": "cattivo/-a",
+   "translations": [
+    "böse",
+    "gemein"
+   ],
+   "page": "203-205",
+   "usage": "≠ buono/-a"
+  },
+  {
+   "id": "u2-2a-019",
+   "target": "sembrare",
+   "translations": [
+    "scheinen"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-020",
+   "target": "sé",
+   "translations": [
+    "sich"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-021",
+   "target": "stesso/-a",
+   "translations": [
+    "selbst"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-022",
+   "target": "in seguito",
+   "translations": [
+    "darauf(-hin)"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-023",
+   "target": "sperare",
+   "translations": [
+    "hoffen"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-024",
+   "target": "il/la responsabile",
+   "translations": [
+    "der/die Verantwortliche"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-025",
+   "target": "la situazione",
+   "translations": [
+    "die Situation"
+   ],
+   "page": "203-205",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-026",
+   "target": "necessario/-a",
+   "translations": [
+    "notwendig",
+    "nötig"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-027",
+   "target": "vietare",
+   "translations": [
+    "verbieten"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-028",
+   "target": "l’insegnante",
+   "translations": [
+    "der/die Lehrer/in"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-029",
+   "target": "inevitabile",
+   "translations": [
+    "unvermeidbar"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-030",
+   "target": "concentrarsi su qs",
+   "translations": [
+    "sich auf etw. konzentrieren"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-031",
+   "target": "credere",
+   "translations": [
+    "glauben"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-032",
+   "target": "in realtà",
+   "translations": [
+    "tatsächlich"
+   ],
+   "page": "203-205",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-2a-033",
+   "target": "l’uso",
+   "translations": [
+    "der Gebrauch",
+    "die Benutzung"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-034",
+   "target": "stupido/-a",
+   "translations": [
+    "dumm"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-035",
+   "target": "annoiarsi",
+   "translations": [
+    "sich langweilen"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-036",
+   "target": "vero/-a",
+   "translations": [
+    "wahr",
+    "echt"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-037",
+   "target": "intelligente",
+   "translations": [
+    "intelligent",
+    "klug"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-038",
+   "target": "avere voglia di qs/qn / + inf.",
+   "translations": [
+    "Lust haben (auf etw./jmd) / (etw. zu tun)"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-039",
+   "target": "fuori",
+   "translations": [
+    "außerhalb",
+    "außen",
+    "draußen",
+    "hinaus"
+   ],
+   "page": "203-205",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-2a-040",
+   "target": "dentro",
+   "translations": [
+    "innen",
+    "drinnen",
+    "hinein"
+   ],
+   "page": "203-205",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-2a-041",
+   "target": "dipendente da qs",
+   "translations": [
+    "abhängig von etw."
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-042",
+   "target": "avere a che fare con qs/qn",
+   "translations": [
+    "mit etw./jdm zu tun haben"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-043",
+   "target": "confrontare",
+   "translations": [
+    "hier: konfrontieren"
+   ],
+   "page": "203-205"
+  },
+  {
+   "id": "u2-2a-044",
+   "target": "la conseguenza",
+   "translations": [
+    "das Nachspiel",
+    "die Konsequenz"
+   ],
+   "page": "203-205",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 2",
+   "section": "2A Rischi di Internet",
+   "pages": "203-205"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Internet",
+   "Risiken",
+   "Medien"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

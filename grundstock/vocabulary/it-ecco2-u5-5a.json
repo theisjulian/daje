@@ -1,0 +1,583 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u5-5a",
+ "title": "Ecco più 2 · Unità 5 · 5A Eppur si muove",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Galileo Galilei“ aus Ecco più 2 (Unità 5, 5A Eppur si muove).",
+ "topics": [
+  "Galilei",
+  "Wissenschaft",
+  "Geschichte"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 5 · 5A Eppur si muove",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 219-220 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u5-5a-001",
+   "target": "Eppur si muove!",
+   "translations": [
+    "Und sie bewegt sich doch! (Zitat)"
+   ],
+   "page": "219-220"
+  },
+  {
+   "id": "u5-5a-002",
+   "target": "nascere, nato",
+   "translations": [
+    "geboren werden"
+   ],
+   "page": "219-220",
+   "usage": "p.p. nato"
+  },
+  {
+   "id": "u5-5a-003",
+   "target": "frequentare",
+   "translations": [
+    "besuchen"
+   ],
+   "page": "219-220",
+   "usage": "Unterscheide: frequentare (Kurs, Unterricht) – andare a trovare / visitare"
+  },
+  {
+   "id": "u5-5a-004",
+   "target": "la medicina",
+   "translations": [
+    "die Medizin (hier: Studium)"
+   ],
+   "page": "219-220",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-005",
+   "target": "la meccanica",
+   "translations": [
+    "die Mechanik"
+   ],
+   "page": "219-220",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-006",
+   "target": "fare parte di qs",
+   "translations": [
+    "teilnehmen an etw."
+   ],
+   "page": "219-220"
+  },
+  {
+   "id": "u5-5a-007",
+   "target": "confrontarsi con qs",
+   "translations": [
+    "sich mit etw. auseinandersetzen"
+   ],
+   "page": "219-220"
+  },
+  {
+   "id": "u5-5a-008",
+   "target": "l’apparecchio, gli apparecchi",
+   "translations": [
+    "der Apparat"
+   ],
+   "page": "219-220",
+   "usage": "pl. gli apparecchi"
+  },
+  {
+   "id": "u5-5a-009",
+   "target": "la corte",
+   "translations": [
+    "der Hof",
+    "der Fürstenhof"
+   ],
+   "page": "219-220",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-010",
+   "target": "affermare",
+   "translations": [
+    "behaupten"
+   ],
+   "page": "219-220"
+  },
+  {
+   "id": "u5-5a-011",
+   "target": "l’universo",
+   "translations": [
+    "das Universum"
+   ],
+   "page": "219-220"
+  },
+  {
+   "id": "u5-5a-012",
+   "target": "la difficoltà",
+   "translations": [
+    "die Schwierigkeit"
+   ],
+   "page": "219-220",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-013",
+   "target": "infine",
+   "translations": [
+    "schließlich",
+    "letztendlich"
+   ],
+   "page": "219-220"
+  },
+  {
+   "id": "u5-5a-014",
+   "target": "il processo",
+   "translations": [
+    "der Prozess"
+   ],
+   "page": "219-220",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-015",
+   "target": "la prigione",
+   "translations": [
+    "das Gefängnis"
+   ],
+   "page": "219-220",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-016",
+   "target": "pubblicare",
+   "translations": [
+    "veröffentlichen"
+   ],
+   "page": "219-220"
+  },
+  {
+   "id": "u5-5a-017",
+   "target": "la teoria",
+   "translations": [
+    "die Theorie"
+   ],
+   "page": "219-220",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-018",
+   "target": "la villa",
+   "translations": [
+    "das Landhaus",
+    "die Villa"
+   ],
+   "page": "219-220",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-019",
+   "target": "la morte",
+   "translations": [
+    "der Tod"
+   ],
+   "page": "219-220",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-020",
+   "target": "futuro/-a",
+   "translations": [
+    "zukünftig"
+   ],
+   "page": "219-220"
+  },
+  {
+   "id": "u5-5a-021",
+   "target": "interessare",
+   "translations": [
+    "interessieren"
+   ],
+   "page": "219-220"
+  },
+  {
+   "id": "u5-5a-022",
+   "target": "il disegno",
+   "translations": [
+    "die Zeichnung",
+    "das Bild"
+   ],
+   "page": "219-220",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-023",
+   "target": "il cielo",
+   "translations": [
+    "der Himmel"
+   ],
+   "page": "219-220",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-024",
+   "target": "la guerra",
+   "translations": [
+    "der Krieg"
+   ],
+   "page": "219-220",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-025",
+   "target": "la battaglia",
+   "translations": [
+    "der Kampf",
+    "die Schlacht"
+   ],
+   "page": "219-220",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-026",
+   "target": "il laboratorio, i laboratori",
+   "translations": [
+    "das Labor"
+   ],
+   "page": "219-220",
+   "usage": "pl. i laboratori",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-027",
+   "target": "il punto",
+   "translations": [
+    "der Punkt"
+   ],
+   "page": "219-220",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-028",
+   "target": "la Via Lattea",
+   "translations": [
+    "die Milchstraße"
+   ],
+   "page": "219-220",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-029",
+   "target": "la stella",
+   "translations": [
+    "der Stern"
+   ],
+   "page": "219-220",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-030",
+   "target": "la scoperta",
+   "translations": [
+    "die Entdeckung",
+    "die Erfindung"
+   ],
+   "page": "219-220",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-031",
+   "target": "la sintonia",
+   "translations": [
+    "der Einklang"
+   ],
+   "page": "219-220",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-032",
+   "target": "la Bibbia",
+   "translations": [
+    "die Bibel"
+   ],
+   "page": "219-220",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-033",
+   "target": "prendere una decisione",
+   "translations": [
+    "eine Entscheidung fassen"
+   ],
+   "page": "219-220"
+  },
+  {
+   "id": "u5-5a-034",
+   "target": "la decisione",
+   "translations": [
+    "die Entscheidung"
+   ],
+   "page": "219-220",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-035",
+   "target": "l’ignorante",
+   "translations": [
+    "der Ignorant",
+    "der Banause"
+   ],
+   "page": "219-220",
+   "usage": "m./f."
+  },
+  {
+   "id": "u5-5a-036",
+   "target": "ovvio/-a",
+   "translations": [
+    "offensichtlich",
+    "selbstverständlich"
+   ],
+   "page": "219-220"
+  },
+  {
+   "id": "u5-5a-037",
+   "target": "rinnegare",
+   "translations": [
+    "verleugnen",
+    "ablehnen",
+    "seine Überzeugung aufgeben"
+   ],
+   "page": "219-220"
+  },
+  {
+   "id": "u5-5a-038",
+   "target": "ufficiale",
+   "translations": [
+    "offiziell"
+   ],
+   "page": "219-220"
+  },
+  {
+   "id": "u5-5a-039",
+   "target": "intorno a qn/qs",
+   "translations": [
+    "um jdn/etw. herum"
+   ],
+   "page": "219-220"
+  },
+  {
+   "id": "u5-5a-040",
+   "target": "sbagliarsi",
+   "translations": [
+    "sich irren",
+    "sich täuschen"
+   ],
+   "page": "219-220"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 5",
+   "section": "5A Eppur si muove",
+   "pages": "219-220"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Galilei",
+   "Wissenschaft",
+   "Geschichte"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

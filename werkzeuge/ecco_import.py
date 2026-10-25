@@ -6,6 +6,7 @@ import json, re, sys, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / 'grundstock' / 'vocabulary'
+BOOK = {'prefix':'ecco1','series':'Ecco più','volume':'1','grade':8,'fl':3,'cefr':'A1'}
 ART = re.compile(r'^(il|lo|la|l’|gli|le|i) ')
 
 def slug(s):
@@ -26,10 +27,11 @@ def variants(t):
 
 def build(header, rows):
     sid, unit, sect, title, pages, themes = [x.strip() for x in header.split('|')][:6]
-    pkg_id = 'it-ecco1-' + sid
+    pkg_id = f"it-{BOOK['prefix']}-" + sid
     entries = []
-    for i, (t, trs, hint) in enumerate(rows, 1):
+    for i, (t, trs, hint, opt) in enumerate(rows, 1):
         e = {'id': f'{sid}-{i:03d}', 'target': t, 'translations': trs, 'page': pages}
+        if opt: e['tags'] = ['fakultativ']
         acc = variants(t)
         if acc: e['acceptedAnswers'] = acc
         if hint: e['usage'] = hint
@@ -44,21 +46,21 @@ def build(header, rows):
             e['grammar'] = g
             e['answerPolicy'] = {'article': 'required', 'typo': 'hint'}
         entries.append(e)
-    full = f'Ecco più 1 · {unit} · {sect}' if not unit.startswith('Anhang') else f'Ecco più 1 · {sect}'
+    full = f"{BOOK['series']} {BOOK['volume']} · {unit} · {sect}" if not unit.startswith('Anhang') else f"{BOOK['series']} {BOOK['volume']} · {sect}"
     p = {
         'format': 'theis-learning-package', 'schemaVersion': '1.2', 'kind': 'vocabulary',
-        'id': pkg_id, 'title': full, 'language': 'it', 'translationLanguage': 'de', 'level': 'A1',
-        'description': f'Wortschatz zu „{title}“ aus Ecco più 1 ({unit}, {sect}).',
+        'id': pkg_id, 'title': full, 'language': 'it', 'translationLanguage': 'de', 'level': BOOK['cefr'],
+        'description': f'Wortschatz zu „{title}“ aus {BOOK['series']} {BOOK['volume']} ({unit}, {sect}).',
         'topics': [x.strip() for x in themes.split(',')][:8],
-        'collection': 'Ecco più 1 (Cornelsen)', 'section': f'{unit} · {sect}',
-        'sources': [{'kind': 'provided', 'citation': f'Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. {pages} (vom Nutzer bereitgestellte Seiten)', 'rights': 'needs_review'}],
+        'collection': f"{BOOK['series']} {BOOK['volume']} (Cornelsen)", 'section': f'{unit} · {sect}',
+        'sources': [{'kind': 'provided', 'citation': f'{BOOK['series']} {BOOK['volume']}, Cornelsen, Lista cronologica / Anhang, S. {pages} (vom Nutzer bereitgestellte Seiten)', 'rights': 'needs_review'}],
         'reviewNotes': ['Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.',
                         'Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).',
                         'Plural-, Partizip- und Zusatzangaben stehen im Feld usage.'],
         'entries': entries,
         'catalog': {'origin': 'textbook',
-                    'textbook': {'publisher': 'Cornelsen', 'series': 'Ecco più', 'volume': '1', 'unit': unit, 'section': sect, 'pages': pages},
-                    'grade': 8, 'foreignLanguageNo': 3, 'cefr': 'A1',
+                    'textbook': {'publisher': 'Cornelsen', 'series': BOOK['series'], 'volume': BOOK['volume'], 'unit': unit, 'section': sect, 'pages': pages},
+                    'grade': BOOK['grade'], 'foreignLanguageNo': BOOK['fl'], 'cefr': BOOK['cefr'],
                     'themes': [x.strip() for x in themes.split(',')][:5], 'tags': ['lehrwerk', 'vokabeln']}
     }
     return pkg_id, p
@@ -66,21 +68,31 @@ def build(header, rows):
 def parse(path):
     pk, cur = [], None
     for line in path.read_text(encoding='utf-8').splitlines():
-        if not line.strip() or line.startswith('#'): continue
+        if not line.strip(): continue
+        if line.startswith('#!buch'):
+            for kv in line.split()[1:]:
+                k, v = kv.split('=', 1); v = v.replace('_', ' ')
+                BOOK[{'fl': 'fl'}.get(k, k)] = int(v) if k in ('grade', 'fl') else v
+            continue
+        if line.startswith('#'): continue
         if line.startswith('@'):
             cur = (line[1:], []); pk.append(cur); continue
         parts = line.split('|')
         t = parts[0].strip().replace("'", '’')
+        opt = t.startswith('*')
+        t = t.lstrip('*').strip()
         trs = [x.strip() for x in parts[1].split(';') if x.strip()]
         hint = parts[2].strip() if len(parts) > 2 else ''
-        cur[1].append((t, trs, hint))
+        cur[1].append((t, trs, hint, opt))
     return pk
 
 if __name__ == '__main__':
-    files = [pathlib.Path(a) for a in sys.argv[1:]] or sorted((ROOT / 'werkzeuge' / 'ecco1').glob('*.txt'))
+    files = [pathlib.Path(a) for a in sys.argv[1:]] or sorted((ROOT / 'werkzeuge').glob('ecco[0-9]/*.txt'))
     OUT.mkdir(parents=True, exist_ok=True)
     n = 0
+    DEFAULT = dict(BOOK)
     for f in files:
+        BOOK.clear(); BOOK.update(DEFAULT)
         for header, rows in parse(f):
             pid, pkg = build(header, rows)
             (OUT / f'{pid}.json').write_text(json.dumps(pkg, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')

@@ -1,0 +1,412 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u3-approccio",
+ "title": "Ecco più 2 · Unità 3 · Approccio",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Roma, capitale d’Italia“ aus Ecco più 2 (Unità 3, Approccio).",
+ "topics": [
+  "Rom",
+  "Stadt",
+  "Sehenswürdigkeiten"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 3 · Approccio",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 207-208 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u3-approccio-001",
+   "target": "la capitale",
+   "translations": [
+    "die Hauptstadt"
+   ],
+   "page": "207-208",
+   "usage": "Unterscheide: la capitale (Land) – il capoluogo (Region)",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-002",
+   "target": "la sede",
+   "translations": [
+    "der Wohnsitz",
+    "der Firmensitz"
+   ],
+   "page": "207-208",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-003",
+   "target": "il papa",
+   "translations": [
+    "der Papst"
+   ],
+   "page": "207-208",
+   "usage": "pl. i papi; il papà, i papà = Papa",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-004",
+   "target": "fare shopping",
+   "translations": [
+    "shoppen",
+    "bummeln"
+   ],
+   "page": "207-208"
+  },
+  {
+   "id": "u3-approccio-005",
+   "target": "elegante",
+   "translations": [
+    "elegant"
+   ],
+   "page": "207-208"
+  },
+  {
+   "id": "u3-approccio-006",
+   "target": "il locale",
+   "translations": [
+    "das Lokal"
+   ],
+   "page": "207-208",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-007",
+   "target": "stupendo/-a",
+   "translations": [
+    "wunderbar"
+   ],
+   "page": "207-208"
+  },
+  {
+   "id": "u3-approccio-008",
+   "target": "l’incontro",
+   "translations": [
+    "das Treffen"
+   ],
+   "page": "207-208"
+  },
+  {
+   "id": "u3-approccio-009",
+   "target": "la fontana",
+   "translations": [
+    "der Brunnen"
+   ],
+   "page": "207-208",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-010",
+   "target": "il/la musicista, i musicisti",
+   "translations": [
+    "der/die Musiker/in"
+   ],
+   "page": "207-208",
+   "usage": "pl. i musicisti"
+  },
+  {
+   "id": "u3-approccio-011",
+   "target": "la traccia",
+   "translations": [
+    "die Spur"
+   ],
+   "page": "207-208",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-012",
+   "target": "antico/-a, antichi/-e",
+   "translations": [
+    "antik",
+    "altertümlich",
+    "alt"
+   ],
+   "page": "207-208",
+   "usage": "pl. antichi/-e"
+  },
+  {
+   "id": "u3-approccio-013",
+   "target": "l’Impero Romano",
+   "translations": [
+    "das Römische Reich"
+   ],
+   "page": "207-208"
+  },
+  {
+   "id": "u3-approccio-014",
+   "target": "raggiungere (raggiungo), raggiunto",
+   "translations": [
+    "erreichen"
+   ],
+   "page": "207-208",
+   "acceptedAnswers": [
+    "raggiungere, raggiunto"
+   ],
+   "usage": "p.p. raggiunto"
+  },
+  {
+   "id": "u3-approccio-015",
+   "target": "il binario, i binari",
+   "translations": [
+    "das Gleis"
+   ],
+   "page": "207-208",
+   "usage": "pl. i binari",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-016",
+   "target": "la sedia a rotelle",
+   "translations": [
+    "der Rollstuhl"
+   ],
+   "page": "207-208",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-017",
+   "target": "l’ascensore",
+   "translations": [
+    "der Fahrstuhl",
+    "der Aufzug"
+   ],
+   "page": "207-208",
+   "usage": "m."
+  },
+  {
+   "id": "u3-approccio-018",
+   "target": "le scale",
+   "translations": [
+    "die Treppe"
+   ],
+   "page": "207-208",
+   "usage": "pl.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "le",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-019",
+   "target": "la scala mobile",
+   "translations": [
+    "die Rolltreppe"
+   ],
+   "page": "207-208",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-020",
+   "target": "la metro(politana)",
+   "translations": [
+    "die Metro",
+    "die U-Bahn"
+   ],
+   "page": "207-208",
+   "acceptedAnswers": [
+    "la metro"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-021",
+   "target": "la linea, le linee",
+   "translations": [
+    "die Linie (Bahn)"
+   ],
+   "page": "207-208",
+   "usage": "pl. le linee",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-022",
+   "target": "la direzione",
+   "translations": [
+    "die Richtung"
+   ],
+   "page": "207-208",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-023",
+   "target": "pagare",
+   "translations": [
+    "(be)zahlen"
+   ],
+   "page": "207-208"
+  },
+  {
+   "id": "u3-approccio-024",
+   "target": "singolo",
+   "translations": [
+    "einfach",
+    "Einzel-"
+   ],
+   "page": "207-208"
+  },
+  {
+   "id": "u3-approccio-025",
+   "target": "l’ora di punta",
+   "translations": [
+    "die Hauptverkehrszeit",
+    "der Berufsverkehr"
+   ],
+   "page": "207-208"
+  },
+  {
+   "id": "u3-approccio-026",
+   "target": "avere senso",
+   "translations": [
+    "Sinn haben"
+   ],
+   "page": "207-208",
+   "usage": "Unterscheide: to make sense (engl.) – avere senso (ital.)"
+  },
+  {
+   "id": "u3-approccio-027",
+   "target": "l’angolo",
+   "translations": [
+    "die Ecke"
+   ],
+   "page": "207-208"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 3",
+   "section": "Approccio",
+   "pages": "207-208"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Rom",
+   "Stadt",
+   "Sehenswürdigkeiten"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

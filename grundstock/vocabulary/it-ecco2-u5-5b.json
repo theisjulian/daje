@@ -1,0 +1,630 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u5-5b",
+ "title": "Ecco più 2 · Unità 5 · 5B Una corsa tra ieri e oggi",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Ein Rennen zwischen gestern und heute“ aus Ecco più 2 (Unità 5, 5B Una corsa tra ieri e oggi).",
+ "topics": [
+  "Tradition",
+  "Gubbio",
+  "Brauchtum"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 5 · 5B Una corsa tra ieri e oggi",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 220-221 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u5-5b-001",
+   "target": "la fazione",
+   "translations": [
+    "die Gruppe",
+    "die Fraktion"
+   ],
+   "page": "220-221",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-002",
+   "target": "gli eugubini",
+   "translations": [
+    "Einwohner von Gubbio"
+   ],
+   "page": "220-221",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "gli",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-003",
+   "target": "la corsa",
+   "translations": [
+    "der Lauf",
+    "das Rennen"
+   ],
+   "page": "220-221",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-004",
+   "target": "l’origine",
+   "translations": [
+    "die Herkunft"
+   ],
+   "page": "220-221",
+   "usage": "f."
+  },
+  {
+   "id": "u5-5b-005",
+   "target": "religioso/-a",
+   "translations": [
+    "religiös"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-006",
+   "target": "il legno",
+   "translations": [
+    "das Holz"
+   ],
+   "page": "220-221",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-007",
+   "target": "maschio/-a",
+   "translations": [
+    "männlich"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-008",
+   "target": "la cima",
+   "translations": [
+    "die Spitze",
+    "der Gipfel",
+    "das Ende"
+   ],
+   "page": "220-221",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-009",
+   "target": "la statua",
+   "translations": [
+    "die Statue",
+    "das Standbild"
+   ],
+   "page": "220-221",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-010",
+   "target": "di riferimento",
+   "translations": [
+    "Bezugs-"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-011",
+   "target": "dividersi, diviso",
+   "translations": [
+    "sich teilen"
+   ],
+   "page": "220-221",
+   "usage": "p.p. diviso"
+  },
+  {
+   "id": "u5-5b-012",
+   "target": "indossare",
+   "translations": [
+    "anhaben",
+    "tragen (Kleidung)"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-013",
+   "target": "il costume",
+   "translations": [
+    "das Kostüm",
+    "die Tracht",
+    "der Brauch"
+   ],
+   "page": "220-221",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-014",
+   "target": "azzurro/-a",
+   "translations": [
+    "blau"
+   ],
+   "page": "220-221",
+   "usage": "Unterscheide: celeste (hellblau) – blu (dunkelblau) – azzurro (mittelblau); gli azzurri = Fußballnationalmannschaft"
+  },
+  {
+   "id": "u5-5b-015",
+   "target": "tradizionale",
+   "translations": [
+    "traditionell",
+    "üblich"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-016",
+   "target": "l’orgoglio",
+   "translations": [
+    "der Stolz"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-017",
+   "target": "il maschio, i maschi",
+   "translations": [
+    "der Mann"
+   ],
+   "page": "220-221",
+   "usage": "pl. i maschi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-018",
+   "target": "tale",
+   "translations": [
+    "derartig",
+    "solche(r)"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-019",
+   "target": "antiquato/-a",
+   "translations": [
+    "altertümlich",
+    "antiquiert"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-020",
+   "target": "la tradizione",
+   "translations": [
+    "die Tradition"
+   ],
+   "page": "220-221",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-021",
+   "target": "il valore",
+   "translations": [
+    "der Wert"
+   ],
+   "page": "220-221",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-022",
+   "target": "piuttosto",
+   "translations": [
+    "eher"
+   ],
+   "page": "220-221",
+   "usage": "avv."
+  },
+  {
+   "id": "u5-5b-023",
+   "target": "la superstizione",
+   "translations": [
+    "der Aberglaube"
+   ],
+   "page": "220-221",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-024",
+   "target": "in (13)",
+   "translations": [
+    "zu (dreizehnt)"
+   ],
+   "page": "220-221",
+   "acceptedAnswers": [
+    "in"
+   ]
+  },
+  {
+   "id": "u5-5b-025",
+   "target": "il corno rosso",
+   "translations": [
+    "das rote Horn"
+   ],
+   "page": "220-221",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-026",
+   "target": "il malocchio",
+   "translations": [
+    "der böse Blick"
+   ],
+   "page": "220-221",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-027",
+   "target": "anziano/-a",
+   "translations": [
+    "alt",
+    "betagt"
+   ],
+   "page": "220-221",
+   "usage": "= vecchio/-a"
+  },
+  {
+   "id": "u5-5b-028",
+   "target": "considerare",
+   "translations": [
+    "jdn/etw. halten für"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-029",
+   "target": "impegnativo/-a",
+   "translations": [
+    "hier: anspruchsvoll",
+    "anstrengend"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-030",
+   "target": "pesare",
+   "translations": [
+    "wiegen"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-031",
+   "target": "ciascuno/-a",
+   "translations": [
+    "jede/r/s"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-032",
+   "target": "il più (+avv.) possibile",
+   "translations": [
+    "so (+Adv.) wie möglich"
+   ],
+   "page": "220-221",
+   "acceptedAnswers": [
+    "il più possibile"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-033",
+   "target": "verticale",
+   "translations": [
+    "senkrecht"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-034",
+   "target": "il percorso",
+   "translations": [
+    "der Weg",
+    "die Strecke"
+   ],
+   "page": "220-221",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-035",
+   "target": "totale",
+   "translations": [
+    "ganz",
+    "gesamt"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-036",
+   "target": "la gara",
+   "translations": [
+    "der Wettbewerb",
+    "Wettkampf"
+   ],
+   "page": "220-221",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-037",
+   "target": "fare bella figura",
+   "translations": [
+    "einen guten Eindruck machen"
+   ],
+   "page": "220-221",
+   "usage": "Abc"
+  },
+  {
+   "id": "u5-5b-038",
+   "target": "il/la turista",
+   "translations": [
+    "der/die Tourist/in"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-039",
+   "target": "rendere qn/qs + agg., reso",
+   "translations": [
+    "jdn/etw. + Adj. machen"
+   ],
+   "page": "220-221",
+   "usage": "p.p. reso"
+  },
+  {
+   "id": "u5-5b-040",
+   "target": "dimostrare",
+   "translations": [
+    "zeigen",
+    "beweisen"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-041",
+   "target": "svolgersi, svolto",
+   "translations": [
+    "sich abspielen",
+    "ablaufen"
+   ],
+   "page": "220-221",
+   "usage": "p.p. svolto"
+  },
+  {
+   "id": "u5-5b-042",
+   "target": "successivo/-a",
+   "translations": [
+    "nachfolgend",
+    "anschließend"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-043",
+   "target": "l’onore",
+   "translations": [
+    "die Ehre"
+   ],
+   "page": "220-221",
+   "usage": "m."
+  },
+  {
+   "id": "u5-5b-044",
+   "target": "autentico/-a",
+   "translations": [
+    "echt",
+    "original",
+    "authentisch"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-045",
+   "target": "esercitarsi",
+   "translations": [
+    "üben",
+    "sich schulen"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-046",
+   "target": "l’atteggiamento",
+   "translations": [
+    "die Einstellung",
+    "die Haltung"
+   ],
+   "page": "220-221"
+  },
+  {
+   "id": "u5-5b-047",
+   "target": "il dubbio, i dubbi",
+   "translations": [
+    "der Zweifel"
+   ],
+   "page": "220-221",
+   "usage": "pl. i dubbi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 5",
+   "section": "5B Una corsa tra ieri e oggi",
+   "pages": "220-221"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Tradition",
+   "Gubbio",
+   "Brauchtum"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

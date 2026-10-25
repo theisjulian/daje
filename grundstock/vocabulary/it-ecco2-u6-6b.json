@@ -1,0 +1,585 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u6-6b",
+ "title": "Ecco più 2 · Unità 6 · 6B Creatività italiana: due ritratti",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Zwei Porträts“ aus Ecco più 2 (Unità 6, 6B Creatività italiana: due ritratti).",
+ "topics": [
+  "Kunst",
+  "Musik",
+  "Kreativität"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 6 · 6B Creatività italiana: due ritratti",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 225-226 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u6-6b-001",
+   "target": "il volto",
+   "translations": [
+    "das Gesicht"
+   ],
+   "page": "225-226",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-002",
+   "target": "il teatro lirico",
+   "translations": [
+    "das lyrische Theater",
+    "die Oper"
+   ],
+   "page": "225-226",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-003",
+   "target": "il/la cantante lirico/-a",
+   "translations": [
+    "der/die Opernsänger/in"
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-004",
+   "target": "l’entrata",
+   "translations": [
+    "hier: der Auftritt"
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-005",
+   "target": "la scena",
+   "translations": [
+    "die Bühne"
+   ],
+   "page": "225-226",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-006",
+   "target": "la comparsa",
+   "translations": [
+    "der/die Statist/in"
+   ],
+   "page": "225-226",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-007",
+   "target": "l’adolescenza",
+   "translations": [
+    "die Jugend(-zeit)"
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-008",
+   "target": "l’interesse",
+   "translations": [
+    "das Interesse"
+   ],
+   "page": "225-226",
+   "usage": "m."
+  },
+  {
+   "id": "u6-6b-009",
+   "target": "artistico/-a",
+   "translations": [
+    "künstlerisch"
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-010",
+   "target": "il canto",
+   "translations": [
+    "der Gesang",
+    "das Singen"
+   ],
+   "page": "225-226",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-011",
+   "target": "la partecipazione",
+   "translations": [
+    "die Teilnahme"
+   ],
+   "page": "225-226",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-012",
+   "target": "farsi notare",
+   "translations": [
+    "auf sich aufmerksam machen"
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-013",
+   "target": "l’epoca, le epoche",
+   "translations": [
+    "die Epoche",
+    "die Zeit"
+   ],
+   "page": "225-226",
+   "usage": "pl. le epoche"
+  },
+  {
+   "id": "u6-6b-014",
+   "target": "debuttare",
+   "translations": [
+    "debütieren",
+    "zum ersten Mal öffentlich auftreten"
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-015",
+   "target": "la serie, le serie",
+   "translations": [
+    "die Reihe",
+    "die Serie"
+   ],
+   "page": "225-226",
+   "usage": "pl. le serie",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-016",
+   "target": "l’opera",
+   "translations": [
+    "die Oper",
+    "das Werk"
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-017",
+   "target": "incidere, inciso",
+   "translations": [
+    "aufnehmen (Ton)"
+   ],
+   "page": "225-226",
+   "usage": "p.p. inciso"
+  },
+  {
+   "id": "u6-6b-018",
+   "target": "il CD",
+   "translations": [
+    "die CD"
+   ],
+   "page": "225-226",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-019",
+   "target": "la partitura",
+   "translations": [
+    "die Partitur",
+    "die Noten"
+   ],
+   "page": "225-226",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-020",
+   "target": "la registrazione",
+   "translations": [
+    "die Aufnahme"
+   ],
+   "page": "225-226",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-021",
+   "target": "sposato/-a",
+   "translations": [
+    "verheiratet"
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-022",
+   "target": "oltre a qn/qs",
+   "translations": [
+    "außer jdm/etw."
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-023",
+   "target": "la fondazione",
+   "translations": [
+    "die Gründung",
+    "die Stiftung"
+   ],
+   "page": "225-226",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-024",
+   "target": "promuovere, promosso",
+   "translations": [
+    "promoten",
+    "befördern"
+   ],
+   "page": "225-226",
+   "usage": "p.p. promosso"
+  },
+  {
+   "id": "u6-6b-025",
+   "target": "l’eccellenza",
+   "translations": [
+    "die Spitzenklasse"
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-026",
+   "target": "l’architettura",
+   "translations": [
+    "die Architektur"
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-027",
+   "target": "contemporaneo/-a",
+   "translations": [
+    "zeitgenössisch"
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-028",
+   "target": "il costruttore, la costruttrice",
+   "translations": [
+    "der/die Bauunternehmer/in"
+   ],
+   "page": "225-226",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-029",
+   "target": "segnato/-a",
+   "translations": [
+    "gezeichnet"
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-030",
+   "target": "l’infanzia",
+   "translations": [
+    "die Kindheit"
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-031",
+   "target": "insegnare",
+   "translations": [
+    "lehren",
+    "unterrichten"
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-032",
+   "target": "lo studio",
+   "translations": [
+    "hier: Ingenieurbüro"
+   ],
+   "page": "225-226",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-033",
+   "target": "la notorietà",
+   "translations": [
+    "die Bekanntheit",
+    "die Berühmtheit"
+   ],
+   "page": "225-226",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-034",
+   "target": "progettare",
+   "translations": [
+    "entwerfen",
+    "planen"
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-035",
+   "target": "avanguardistico/-a",
+   "translations": [
+    "avantgardistisch",
+    "bahnbrechend"
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-036",
+   "target": "la fama mondiale",
+   "translations": [
+    "der Weltruhm"
+   ],
+   "page": "225-226",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-037",
+   "target": "il grattacielo",
+   "translations": [
+    "das Hochhaus",
+    "der Wolkenkratzer"
+   ],
+   "page": "225-226",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-038",
+   "target": "nominare",
+   "translations": [
+    "ernennen"
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-039",
+   "target": "lo stipendio, gli stipendi",
+   "translations": [
+    "der Lohn",
+    "das Gehalt",
+    "das Arbeitsentgelt"
+   ],
+   "page": "225-226",
+   "usage": "pl. gli stipendi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-040",
+   "target": "finanziare",
+   "translations": [
+    "finanzieren"
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-041",
+   "target": "la periferia",
+   "translations": [
+    "die Peripherie",
+    "der Stadtrand",
+    "die Vorstadt"
+   ],
+   "page": "225-226",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-042",
+   "target": "l’esperienza",
+   "translations": [
+    "die Erfahrung"
+   ],
+   "page": "225-226"
+  },
+  {
+   "id": "u6-6b-043",
+   "target": "mettere a disposizione",
+   "translations": [
+    "zur Verfügung stellen"
+   ],
+   "page": "225-226"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 6",
+   "section": "6B Creatività italiana: due ritratti",
+   "pages": "225-226"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Kunst",
+   "Musik",
+   "Kreativität"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

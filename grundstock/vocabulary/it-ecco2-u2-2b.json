@@ -1,0 +1,494 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u2-2b",
+ "title": "Ecco più 2 · Unità 2 · 2B Che ne pensi?",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Soziales Engagement“ aus Ecco più 2 (Unità 2, 2B Che ne pensi?).",
+ "topics": [
+  "Engagement",
+  "Gesellschaft",
+  "Freiwillige"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 2 · 2B Che ne pensi?",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 205-206 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u2-2b-001",
+   "target": "partecipare a",
+   "translations": [
+    "teilnehmen an"
+   ],
+   "page": "205-206"
+  },
+  {
+   "id": "u2-2b-002",
+   "target": "la discussione",
+   "translations": [
+    "die Diskussion"
+   ],
+   "page": "205-206",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-003",
+   "target": "il programma",
+   "translations": [
+    "das Programm"
+   ],
+   "page": "205-206",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-004",
+   "target": "l’impegno",
+   "translations": [
+    "das Engagement",
+    "der Einsatz"
+   ],
+   "page": "205-206"
+  },
+  {
+   "id": "u2-2b-005",
+   "target": "sociale",
+   "translations": [
+    "sozial"
+   ],
+   "page": "205-206"
+  },
+  {
+   "id": "u2-2b-006",
+   "target": "il padre",
+   "translations": [
+    "hier: der Pater (Kirche)"
+   ],
+   "page": "205-206",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-007",
+   "target": "occuparsi di qs/qn",
+   "translations": [
+    "sich kümmern um jdn/etw.",
+    "sich beschäftigen mit"
+   ],
+   "page": "205-206"
+  },
+  {
+   "id": "u2-2b-008",
+   "target": "il progetto",
+   "translations": [
+    "das Projekt"
+   ],
+   "page": "205-206",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-009",
+   "target": "presentare",
+   "translations": [
+    "präsentieren"
+   ],
+   "page": "205-206"
+  },
+  {
+   "id": "u2-2b-010",
+   "target": "in diretta",
+   "translations": [
+    "live",
+    "direkt (Medien)"
+   ],
+   "page": "205-206"
+  },
+  {
+   "id": "u2-2b-011",
+   "target": "disposto/-a a + inf.",
+   "translations": [
+    "bereit (etw. zu tun)"
+   ],
+   "page": "205-206"
+  },
+  {
+   "id": "u2-2b-012",
+   "target": "parecchi, parecchie",
+   "translations": [
+    "viele",
+    "mehrere"
+   ],
+   "page": "205-206"
+  },
+  {
+   "id": "u2-2b-013",
+   "target": "il/la volontario/-a, i volontari, le volontarie",
+   "translations": [
+    "der/die Freiwillige"
+   ],
+   "page": "205-206",
+   "usage": "pl. i volontari, le volontarie"
+  },
+  {
+   "id": "u2-2b-014",
+   "target": "l’attività",
+   "translations": [
+    "die Aktivität",
+    "die Tätigkeit"
+   ],
+   "page": "205-206"
+  },
+  {
+   "id": "u2-2b-015",
+   "target": "l’immigrato/-a",
+   "translations": [
+    "der/die Einwanderer/-in"
+   ],
+   "page": "205-206"
+  },
+  {
+   "id": "u2-2b-016",
+   "target": "straniero/-a",
+   "translations": [
+    "ausländisch",
+    "fremd"
+   ],
+   "page": "205-206"
+  },
+  {
+   "id": "u2-2b-017",
+   "target": "la squadra",
+   "translations": [
+    "die Mannschaft",
+    "das Team"
+   ],
+   "page": "205-206",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-018",
+   "target": "l’impressione",
+   "translations": [
+    "der Eindruck"
+   ],
+   "page": "205-206",
+   "usage": "f."
+  },
+  {
+   "id": "u2-2b-019",
+   "target": "impegnarsi (in qs)",
+   "translations": [
+    "sich engagieren",
+    "sich für etw. einsetzen"
+   ],
+   "page": "205-206",
+   "acceptedAnswers": [
+    "impegnarsi"
+   ]
+  },
+  {
+   "id": "u2-2b-020",
+   "target": "in parte",
+   "translations": [
+    "teilweise"
+   ],
+   "page": "205-206"
+  },
+  {
+   "id": "u2-2b-021",
+   "target": "essere d’accordo con qn",
+   "translations": [
+    "mit jdm einer Meinung sein",
+    "einig sein"
+   ],
+   "page": "205-206"
+  },
+  {
+   "id": "u2-2b-022",
+   "target": "richiedere, richiesto",
+   "translations": [
+    "erfordern",
+    "verlangen"
+   ],
+   "page": "205-206",
+   "usage": "p.p. richiesto"
+  },
+  {
+   "id": "u2-2b-023",
+   "target": "regolare",
+   "translations": [
+    "regelmäßig"
+   ],
+   "page": "205-206",
+   "usage": "agg."
+  },
+  {
+   "id": "u2-2b-024",
+   "target": "il pranzo",
+   "translations": [
+    "das Mittagessen",
+    "das Festessen",
+    "das Mahl"
+   ],
+   "page": "205-206",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-025",
+   "target": "Natale",
+   "translations": [
+    "Weihnachten"
+   ],
+   "page": "205-206",
+   "usage": "m."
+  },
+  {
+   "id": "u2-2b-026",
+   "target": "interrompere, interrotto",
+   "translations": [
+    "unterbrechen"
+   ],
+   "page": "205-206",
+   "usage": "p.p. interrotto"
+  },
+  {
+   "id": "u2-2b-027",
+   "target": "il/la boy-/girl-scout",
+   "translations": [
+    "der/die Pfadfinder/in"
+   ],
+   "page": "205-206"
+  },
+  {
+   "id": "u2-2b-028",
+   "target": "altrimenti",
+   "translations": [
+    "ansonsten",
+    "sonst"
+   ],
+   "page": "205-206"
+  },
+  {
+   "id": "u2-2b-029",
+   "target": "esistere, esistito",
+   "translations": [
+    "existieren",
+    "vorhanden sein"
+   ],
+   "page": "205-206",
+   "usage": "p.p. esistito"
+  },
+  {
+   "id": "u2-2b-030",
+   "target": "sensato/-a",
+   "translations": [
+    "sinnvoll"
+   ],
+   "page": "205-206"
+  },
+  {
+   "id": "u2-2b-031",
+   "target": "concreto/-a",
+   "translations": [
+    "konkret"
+   ],
+   "page": "205-206"
+  },
+  {
+   "id": "u2-2b-032",
+   "target": "raccogliere (raccolgo), raccolto",
+   "translations": [
+    "(auf-/ein-)sammeln"
+   ],
+   "page": "205-206",
+   "acceptedAnswers": [
+    "raccogliere, raccolto"
+   ],
+   "usage": "p.p. raccolto"
+  },
+  {
+   "id": "u2-2b-033",
+   "target": "i rifiuti",
+   "translations": [
+    "der Abfall",
+    "der Müll"
+   ],
+   "page": "205-206",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "i",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-034",
+   "target": "ambientale",
+   "translations": [
+    "Umwelt-"
+   ],
+   "page": "205-206",
+   "usage": "agg."
+  },
+  {
+   "id": "u2-2b-035",
+   "target": "darsi da fare",
+   "translations": [
+    "sich einsetzen",
+    "sich engagieren"
+   ],
+   "page": "205-206",
+   "usage": "=impegnarsi"
+  },
+  {
+   "id": "u2-2b-036",
+   "target": "impegnato/-a",
+   "translations": [
+    "beschäftigt"
+   ],
+   "page": "205-206"
+  },
+  {
+   "id": "u2-2b-037",
+   "target": "dubitare",
+   "translations": [
+    "bezweifeln"
+   ],
+   "page": "205-206"
+  },
+  {
+   "id": "u2-2b-038",
+   "target": "valere (valgo), valso",
+   "translations": [
+    "gelten"
+   ],
+   "page": "205-206",
+   "acceptedAnswers": [
+    "valere, valso"
+   ],
+   "usage": "p.p. valso"
+  },
+  {
+   "id": "u2-2b-039",
+   "target": "la gente",
+   "translations": [
+    "die Leute"
+   ],
+   "page": "205-206",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-040",
+   "target": "parere, parso",
+   "translations": [
+    "scheinen"
+   ],
+   "page": "205-206",
+   "usage": "p.p. parso"
+  },
+  {
+   "id": "u2-2b-041",
+   "target": "intendere, inteso",
+   "translations": [
+    "meinen",
+    "beabsichtigen etw. zu tun"
+   ],
+   "page": "205-206",
+   "usage": "p.p. inteso"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 2",
+   "section": "2B Che ne pensi?",
+   "pages": "205-206"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Engagement",
+   "Gesellschaft",
+   "Freiwillige"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

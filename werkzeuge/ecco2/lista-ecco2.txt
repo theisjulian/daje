@@ -1,0 +1,998 @@
+# Ecco più 2 · Lista cronologica ab S. 198 (Scan vom Nutzer bereitgestellt)
+# Format wie ecco1; Zeilenanfang * = fakultativer Wortschatz (im Buch kursiv)
+#!buch prefix=ecco2 series=Ecco_più volume=2 grade=9 fl=3 cefr=A2
+@ u1-approccio | Unità 1 | Approccio | La Puglia – allora e oggi | 198-199 | Apulien,Geografie,Landschaft
+il tacco, i tacchi|der Absatz|pl. i tacchi
+la superficie, le superfici|die Fläche;die Oberfläche|pl. le superfici
+il chilometro (quadrato)|der (Quadrat-)Kilometer
+il milione|die Million
+l’abitante|der/die Bewohner/-in|m./f.
+il capoluogo, i capoluoghi|die Landeshauptstadt|pl. i capoluoghi
+l’albero|der Baum
+creare|bilden;erschaffen
+il bosco, i boschi|der Wald|pl. i boschi
+l’ombra|der Schatten
+il santo / la santa|der/die Heilige
+la chiesa|die Kirche
+celebrare|feiern
+da … a|von … bis
+famoso/-a|berühmt;bekannt
+infatti|tatsächlich
+la moneta|die Münze
+il centesimo|der Cent
+il castello|die Burg;das Schloss
+medi(o)evale|mittelalterlich
+l’imperatore / l’imperatrice|der/die Kaiser/-in
+il tetto|das Dach
+tipico/-a|typisch
+la pietra|der Stein
+Sapevi che …|Wusstest du, dass …
+la regione|die Region
+l’olio|das Öl
+l’oliva|die Olive
+la produzione|die Produktion
+la pasta|die Pasta;die Nudeln
+la costa|die Küste
+offrire, offerto|(an-)bieten|p.p. offerto
+la sabbia|der Sand
+lo scoglio|die Klippe
+dappertutto|überall
+pulito/-a|sauber
+l’esempio, gli esempi|das Beispiel|pl. gli esempi
+il porto|der Hafen
+nord|Norden
+sud|Süden
+est|Osten
+ovest|Westen
+@ u1-1a | Unità 1 | 1A Allora tutto era diverso | Früher war alles anders | 199-200 | Früher,Alltag,Zeit
+allora|damals;dann
+diverso/-a|anders;verschieden
+vivere, vissuto|leben;erleben|p.p. vissuto
+il paese|das Dorf;der Ort;das Land
+a piedi|zu Fuß
+diventare|werden (zu)
+quanto|wie (sehr)|avv.
+pigro/-a|faul;träge
+anzi|sogar;vielmehr;im Gegenteil
+la messa|der Gottesdienst;die (heilige) Messe
+faticoso/-a|anstrengend;mühsam
+la campagna|das Land|≠ la città
+lavorare|arbeiten
+il/la bambino/-a|das Kind;der Junge / das Mädchen
+da bambino/-a|als Kind
+il pericolo|die Gefahr
+(fare) due chiacchiere|eine Plauderei;ein Schwätzchen (halten)
+conoscersi|sich kennen
+incontrarsi|sich treffen
+ad un certo punto|irgendwann
+bisogna + inf.|Es ist nötig (etw. zu tun);Man muss (etw. tun)
+mettersi d’accordo|sich abstimmen;sich einigen
+l’appuntamento|die Verabredung;der Termin
+preciso/-a|genau
+certamente|sicher;gewiss
+si pron.|man
+lo sportello|der (Fahrkarten-)Schalter
+più|mehr
+la ferrovia|die Bahn;die Eisenbahn
+la coda|die Reihe;die Schlange (beim Anstehen)
+in fondo|im Grunde|avv.
+comodo/-a|bequem;komfortabel
+neanche|nicht einmal;auch nicht
+la televisione|das Fernsehen
+avere da fare qs|etw. zu tun haben|Abc
+casomai|eventuell;vielleicht
+la lettera|der Brief;der Buchstabe
+comunicare (-chi-)|kommunizieren|Abc
+lo scherzo|der Scherz;der Witz
+frenetico/-a|schnelllebig;hektisch
+@ u1-1b | Unità 1 | 1B L’incontro d’estate | Die Begegnung im Sommer | 201-202 | Sommer,Begegnung,Erzählen
+il concorso|der Wettbewerb
+il racconto|die Erzählung;die Geschichte
+l’avventura|das Abenteuer
+un giorno|eines Tages|avv.
+mentre|während
+ad un tratto|plötzlich;auf einmal
+colpire (-sc-)|treffen;schlagen;beeindrucken|Abc
+volare|fliegen
+arrabbiarsi|sich ärgern;wütend werden
+naturalmente|natürlich;selbstverständlich|avv.
+la testa|der Kopf
+basso/-a|klein (Körpergröße);niedrig
+corto/-a|kurz|≠ lungo
+scusarsi|sich entschuldigen
+austriaco/-a|österreichisch
+Vienna|Wien (Hauptstadt von Österreich)
+sorridere a qn, sorriso|jdn anlächeln|p.p. sorriso
+togliersi qs (tolgo), tolto|sich etw. entfernen|p.p. tolto
+il cinema, i cinema|das Kino|pl. i cinema
+il cinema all’aperto|das Freiluftkino;das Open-air-Kino
+arrivare a prendere qn|jdn abholen
+salutare|grüßen;begrüßen
+il momento|der Moment
+succedere, successo|geschehen;passieren|p.p. successo
+imbarazzante|peinlich;unangenehm
+fermare|anhalten;stoppen
+sconosciuto/-a|unbekannt
+l’attimo|der Augenblick;der Moment
+la paura|die Angst
+perdersi qs|etw. versäumen;verpassen;sich verlaufen
+riuscire a + inf. (riesco), riuscito|schaffen (etw. zu tun)|p.p. riuscito
+convincere di + sost. / a fare qs, convinto|überzeugen;überreden|p.p. convinto
+la giornata|der Tag (Verlauf)
+l’addio, gli addii|der Abschied|pl. gli addii
+il contatto|der Kontakt
+scambiarsi qs|sich etw. austauschen
+il pacchetto|das Päckchen;das Paket
+il ricordo di qs/qn|die Erinnerung an etw./jmd
+@ u1-per-parlare | Unità 1 | Per parlare | Über ein Land/eine Region sprechen | 202 | Landschaft,Region,Geografie
+il paese|das Land (= Italia, Germania);das Dorf
+la capitale|die Hauptstadt
+il capoluogo|die Landeshauptstadt
+la città|die Stadt
+la via|die Straße;der Weg
+la strada|die Straße
+l’autostrada|die Autobahn
+la strada di campagna|die Landstraße
+la ferrovia|die Eisenbahn
+il fiume|der Fluss
+il mare|das Meer
+il porto|der Hafen
+il monte|der Berg
+la montagna|das Gebirge
+avere un’altezza di (6500) metri|(6500) Meter hoch sein
+il lago|der See
+il bosco|der Wald
+il campo|das Feld
+la campagna|das Land (≠ Stadt)
+trovarsi (nel nord)|sich (im Norden) befinden
+vicino alle (montagne)|in der Nähe der Berge
+non lontano dal (mare)|in der Nähe vom (Meer);nicht weit vom (Meer)
+l’abitante|der/die Einwohner/in
+la lingua ufficiale|die Amtssprache
+(essere) tipico/-a|typisch
+(essere) famoso/-a per …|berühmt/bekannt sein für …
+@ u2-approccio | Unità 2 | Approccio | I giovani oggi – Media e impegno sociale | 203 | Medien,Jugend,Kommunikation
+il mezzo|das Mittel
+la comunicazione|die Kommunikation
+il giornale|die Zeitung
+la radio|das Radio
+la trasmissione|die Übertragung;die Sendung (Fernsehen)
+il talent show|die Talentshow
+la soap opera|die Seifenoper
+raramente|selten|avv.
+il documentario, i documentari|der Dokumentarfilm;die Dokumentation|pl. i documentari
+il telegiornale|die (Fernseh-)Nachrichten
+non … mai|nie(mals)
+il titolo|der Titel;die Überschrift
+confrontare|vergleichen;gegenüberstellen
+il/la compagno/-a (di classe)|der/die Klassenkamerad/in
+servire a qs/qn|etw./jdm dienen;nützen;brauchen
+ritoccare|bearbeiten;retuschieren
+lo schermo|der Bildschirm
+nessuno|niemand
+la ricerca|die Recherche;die Suche
+scaricare|herunterladen
+registrare|aufnehmen;aufzeichnen
+il brano|das Musikstück
+lo streaming|das Streaming
+sportivo/-a|sportlich
+@ u2-2a | Unità 2 | 2A Rischi di Internet | Gefahren im Internet | 203-205 | Internet,Risiken,Medien
+il rischio|das Risiko
+il caso|der Fall;der Vorfall
+scorso/-a|vergangen;vorig
+informare|informieren
+il/la preside|der/die Schulleiter/in
+consegnare|abgeben;übergeben
+permettere, permesso|erlauben|p.p. permesso
+permettersi, permesso|sich erlauben|p.p. permesso
+il comportamento|das Verhalten
+del genere|derartig
+evitare|vermeiden
+la sospensione|die Suspendierung;der Schulverweis
+i social media|die sozialen Medien|pl.
+filmare|filmen
+fare dei selfie|Selbstporträts aufnehmen
+il commento|der Kommentar
+se|wenn
+cattivo/-a|böse;gemein|≠ buono/-a
+sembrare|scheinen
+sé|sich
+stesso/-a|selbst
+in seguito|darauf(-hin)
+sperare|hoffen
+il/la responsabile|der/die Verantwortliche
+la situazione|die Situation
+necessario/-a|notwendig;nötig
+vietare|verbieten
+l’insegnante|der/die Lehrer/in
+inevitabile|unvermeidbar
+concentrarsi su qs|sich auf etw. konzentrieren
+credere|glauben
+in realtà|tatsächlich|avv.
+l’uso|der Gebrauch;die Benutzung
+stupido/-a|dumm
+annoiarsi|sich langweilen
+vero/-a|wahr;echt
+intelligente|intelligent;klug
+avere voglia di qs/qn / + inf.|Lust haben (auf etw./jmd) / (etw. zu tun)
+fuori|außerhalb;außen;draußen;hinaus|avv.
+dentro|innen;drinnen;hinein|avv.
+dipendente da qs|abhängig von etw.
+avere a che fare con qs/qn|mit etw./jdm zu tun haben
+confrontare|hier: konfrontieren
+la conseguenza|das Nachspiel;die Konsequenz
+@ u2-2b | Unità 2 | 2B Che ne pensi? | Soziales Engagement | 205-206 | Engagement,Gesellschaft,Freiwillige
+partecipare a|teilnehmen an
+la discussione|die Diskussion
+il programma|das Programm
+l’impegno|das Engagement;der Einsatz
+sociale|sozial
+il padre|hier: der Pater (Kirche)
+occuparsi di qs/qn|sich kümmern um jdn/etw.;sich beschäftigen mit
+il progetto|das Projekt
+presentare|präsentieren
+in diretta|live;direkt (Medien)
+disposto/-a a + inf.|bereit (etw. zu tun)
+parecchi, parecchie|viele;mehrere
+il/la volontario/-a, i volontari, le volontarie|der/die Freiwillige|pl. i volontari, le volontarie
+l’attività|die Aktivität;die Tätigkeit
+l’immigrato/-a|der/die Einwanderer/-in
+straniero/-a|ausländisch;fremd
+la squadra|die Mannschaft;das Team
+l’impressione|der Eindruck|f.
+impegnarsi (in qs)|sich engagieren;sich für etw. einsetzen
+in parte|teilweise
+essere d’accordo con qn|mit jdm einer Meinung sein;einig sein
+richiedere, richiesto|erfordern;verlangen|p.p. richiesto
+regolare|regelmäßig|agg.
+il pranzo|das Mittagessen;das Festessen;das Mahl
+Natale|Weihnachten|m.
+interrompere, interrotto|unterbrechen|p.p. interrotto
+il/la boy-/girl-scout|der/die Pfadfinder/in
+altrimenti|ansonsten;sonst
+esistere, esistito|existieren;vorhanden sein|p.p. esistito
+sensato/-a|sinnvoll
+concreto/-a|konkret
+raccogliere (raccolgo), raccolto|(auf-/ein-)sammeln|p.p. raccolto
+i rifiuti|der Abfall;der Müll
+ambientale|Umwelt-|agg.
+darsi da fare|sich einsetzen;sich engagieren|=impegnarsi
+impegnato/-a|beschäftigt
+dubitare|bezweifeln
+valere (valgo), valso|gelten|p.p. valso
+la gente|die Leute
+parere, parso|scheinen|p.p. parso
+intendere, inteso|meinen;beabsichtigen etw. zu tun|p.p. inteso
+@ u2-per-parlare | Unità 2 | Per parlare | Medien | 207 | Medien,Fernsehen,Presse
+il reportage|die Reportage
+il telegiornale|die Nachrichten
+la trasmissione sportiva|die Sportsendung
+una trasmissione di|eine Sendung über
+la soap opera|die Seifenoper
+la pubblicità|die Werbung
+il (tele)film|der (Fernseh-)Film
+la serie|die Serie
+la commedia|die Komödie
+l’attore / l’attrice|der/die Schauspieler/in
+l’emittente televisiva|der Fernsehsender
+l’emittente radiofonica|der Radiosender
+il programma televisivo|das Fernsehprogramm
+il film dura (90 minuti)|der Film dauert (90 Minuten)
+la rivista per giovani|die Jugendzeitschrift
+l’intervista|das Interview
+l’oroscopo|das Horoskop
+l’annuncio|die Anzeige
+@ u3-approccio | Unità 3 | Approccio | Roma, capitale d’Italia | 207-208 | Rom,Stadt,Sehenswürdigkeiten
+la capitale|die Hauptstadt|Unterscheide: la capitale (Land) – il capoluogo (Region)
+la sede|der Wohnsitz;der Firmensitz
+il papa|der Papst|pl. i papi; il papà, i papà = Papa
+fare shopping|shoppen;bummeln
+elegante|elegant
+il locale|das Lokal
+stupendo/-a|wunderbar
+l’incontro|das Treffen
+la fontana|der Brunnen
+il/la musicista, i musicisti|der/die Musiker/in|pl. i musicisti
+la traccia|die Spur
+antico/-a, antichi/-e|antik;altertümlich;alt|pl. antichi/-e
+l’Impero Romano|das Römische Reich
+raggiungere (raggiungo), raggiunto|erreichen|p.p. raggiunto
+il binario, i binari|das Gleis|pl. i binari
+la sedia a rotelle|der Rollstuhl
+l’ascensore|der Fahrstuhl;der Aufzug|m.
+le scale|die Treppe|pl.
+la scala mobile|die Rolltreppe
+la metro(politana)|die Metro;die U-Bahn
+la linea, le linee|die Linie (Bahn)|pl. le linee
+la direzione|die Richtung
+pagare|(be)zahlen
+singolo|einfach;Einzel-
+l’ora di punta|die Hauptverkehrszeit;der Berufsverkehr
+avere senso|Sinn haben|Unterscheide: to make sense (engl.) – avere senso (ital.)
+l’angolo|die Ecke
+@ u3-3a | Unità 3 | 3A In giro per Roma | Unterwegs in Rom | 208-209 | Rom,Geschichte,Stadt
+estendersi, esteso|sich erstrecken|p.p. esteso
+il colle|der Hügel
+portare a|hier: führen zu/nach
+eterno/-a|ewig;zeitlos
+la leggenda|die Legende;die Sage
+fondare|gründen
+avanti/dopo Cristo (a./d. C.)|vor/nach Christus
+la basilica, le basiliche|die Basilika|pl. le basiliche
+l’Europa|Europa
+suggestivo/-a|stimmungsvoll;beeindruckend
+il buco, i buchi|das Loch|pl. i buchi
+la serratura|das (Tür-)Schloss
+meraviglioso/-a|wunderbar
+lo stato|der Staat
+autonomo/-a|autonom;unabhängig;selbstständig
+cattolico/-a|katholisch
+il museo|das Museum
+costruire (-sc-)|(er)bauen|Abc
+dipingere, dipinto|malen|p.p. dipinto
+il tempio, i templi|der Tempel|pl. i templi
+il dio, gli dei|der Gott|pl. gli dei
+il secolo|das Jahrhundert
+trasformare|umwandeln;umbauen
+forte|stark;gewaltig
+la cupola|die Kuppel
+scomodo/-a|ungemütlich;unbequem|≠ comodo/-a
+gettare|werfen
+barocco/-a, barocchi/-e|barock;Barock-|pl. barocchi/-e
+guadagnare|verdienen
+i soldi|das Geld|pl.
+il Presidente del Consiglio|der Ministerpräsident
+chic|schick;flott
+Accidenti!|Donnerwetter!
+@ u3-3b | Unità 3 | 3B Un progetto culturale europeo | Ein europäisches Kulturprojekt | 209-210 | Europa,Kultur,Projekt
+europeo/-a, europee|europäisch|pl. f. europee
+ciò che / quello che|(das,) was
+la cultura|die Kultur
+il/la partner|der/die Partner/in
+personalmente|persönlich
+il carattere|der Charakter;die Eigenheit
+nazionale|national
+il parlamento|das Parlament
+olimpico/-a|Olympia-;olympisch
+rilassarsi|sich erholen;sich entspannen
+stamattina|heute früh;heute Morgen
+la visita|die Besichtigung;der Besuch
+il questionario, i questionari|der Fragebogen|pl. i questionari
+compilare|ausfüllen
+piacere|gefallen|Abc
+ovviamente|offensichtlich;natürlich
+spendere, speso|ausgeben|p.p. speso
+il menù|die Speisekarte
+l’acqua frizzante|Wasser mit Kohlensäure
+la trattoria|italienische Gaststättenart
+prenotare|vorbestellen;reservieren
+scoprire, scoperto|entdecken|p.p. scoperto
+il coperto|Gebühr für Tischgedeck
+che cosa vuol dire|was bedeutet (es) / …
+il conto|die Rechnung;die Summe
+separato/-a|getrennt
+quindi|also;daher
+funzionare|funktionieren
+pagare alla romana|Zahlungsart aller Teilnehmer/innen zu gleichen Anteilen
+il modo|die Art;die Weise
+lontano/-a|weit|≠ vicino/-a
+da lontano|von Weitem;aus der Ferne
+in tutti i sensi|in jeder Hinsicht
+strano/-a|seltsam;merkwürdig
+il piatto|das Gericht;die Speise;der Teller
+l’acqua naturale|stilles Wasser
+la differenza|der Unterschied
+avere in comune qs|etw. gemeinsam haben
+sorprendente|überraschend;erstaunlich
+visto che|da
+il/la coetaneo/-a, le coetanee|der/die Alters-/Zeitgenosse/-in|pl. f. le coetanee
+@ u3-per-parlare | Unità 3 | Per parlare | Verkehrsmittel und Restaurant | 211-212 | Verkehr,Reisen,Stadt
+andare in aereo|fliegen
+andare in treno|mit dem Zug fahren
+andare in metropolitana|mit der U-Bahn fahren
+andare in tram|mit der Straßenbahn fahren
+andare in bici|mit dem Fahrrad fahren
+andare a piedi|zu Fuß gehen
+prendere l’autobus|den Bus nehmen
+prendere il treno|den Zug nehmen
+prendere la linea (A)|die Linie (A) nehmen
+prendere il tram|die Straßenbahn nehmen
+prendere l’aereo|das Flugzeug nehmen
+prendere il taxi|das Taxi nehmen
+la fermata|die Haltestelle
+la stazione|der Bahnhof
+comprare un biglietto|ein Ticket kaufen
+arrivare puntualmente / puntuale / in ritardo|pünktlich / zu spät kommen
+La metro parte ogni 10 minuti.|Die U-Bahn fährt alle 10 Minuten.
+La metro è fuori servizio.|Die U-Bahn ist außer Betrieb.
+È l’ora di punta.|Es ist Berufsverkehr.
+C’è traffico.|Es ist (viel) Verkehr.
+L’apparecchio automatico non funziona.|Der Automat funktioniert nicht.
+il menù|die Speisekarte
+l’antipasto|die Vorspeise
+il primo piatto|der erste Gang
+il secondo piatto|der zweite Gang
+il contorno|die Beilage
+il dolce|das Dessert;die Süßspeise
+la carne|das Fleisch
+il pesce|der Fisch
+alla griglia|gegrillt
+fritto/-a|frittiert
+l’insalata|der Salat
+la zuppa, la minestra|die Suppe
+la forchetta|die Gabel
+il coltello|das Messer
+il cucchiaio|der Löffel
+il cucchiaino|der Teelöffel
+il coperto|das Gedeck
+il bicchiere|das Glas
+la mancia|das Trinkgeld
+È molto/troppo piccante.|Es ist sehr/zu scharf.
+È molto/troppo salato/-a.|Es ist sehr/zu salzig.
+Mi fa male la pancia.|Mir tut der Bauch weh.
+Vuoi assaggiare?|Magst du kosten?
+È stato buonissimo/-a.|Es war sehr lecker.
+@ u4-approccio | Unità 4 | Approccio | Andare a scuola e lavorare | 212-214 | Schule,Arbeit,Beruf
+la scuola elementare|die Grundschule
+la scuola media|3-jährige Schule der Sekundarstufe I
+scolastico/-a, scolastici, scolastiche|Schul-|pl. scolastici, scolastiche
+l’obbligo scolastico|die Schulpflicht
+la metà|die Hälfte
+la terza media|dritte Klasse der Sek. I (entspricht 8. Schuljahr)
+il percento|das Prozent|Vor Prozentzahlen steht immer il bzw. l’
+la possibilità|die Möglichkeit
+l’istituto professionale|die Berufsfachschule (Sekundarstufe II)
+l’istituto tecnico|die Fachoberschule (Sekundarstufe II)
+tecnico/-a, tecnici, tecniche|technisch|pl. tecnici, tecniche
+il/la giornalista|der/die Journalist/in
+intervistare|interviewen
+il sogno|der Traum
+la giurisprudenza|Jura;die Rechtswissenschaft
+il/la notaio/-a, i notai|der/die Notar/in|pl. i notai
+la professione|der Beruf
+rispettato/-a|angesehen;respektiert
+il/la restauratore/restauratrice|der/die Restaurator/in
+il mobile|das Möbel(-stück)
+il mestiere|der (Handwerks-)Beruf;das Gewerbe|Unterscheide: il mestiere (handwerklich) – la professione (erlernt)
+il lavoro|die Arbeit
+dare fastidio a qn|jdn stören|Abc
+l’ufficio, gli uffici|das Büro|pl. gli uffici
+viaggiare|reisen
+l’azienda (di export)|das (Export-)Unternehmen
+numeroso/-a|zahlreich;unzählig;kinderreich
+l’asilo|der Kindergarten
+lo stress|der Stress
+la verità|die Wahrheit
+la maturità|das Abitur;die Reife
+la carriera|die Karriere
+non … affatto|(ganz und) gar nicht
+qs piacerebbe a qn|etwas würde jdm gefallen / gefiele jdm
+comandare|befehlen;kommandieren
+vorrebbe|er/sie/es möchte;hätte gern|3. Pers. von vorrei
+il capo|der/die Chef/in
+aggiungere (aggiungo), aggiunto|ergänzen;hinzufügen|p.p. aggiunto
+siccome|da;weil
+*pugliese|apulisch
+la specialità|die Spezialität
+all’estero|im Ausland
+@ u4-4a | Unità 4 | 4A Ragazzi, mi serve un consiglio | Hilfe und Ratschläge | 214 | Hilfe,Jobs,Technik
+il display|das Display
+riparare|reparieren
+l’esperto/-a|der Experte;die Expertin
+essere sicuro/-a di qs / + inf.|sicher sein|Abc
+dare una mano a qn|jdm helfen|Abc
+rompersi, rotto|kaputtgehen|p.p. rotto
+il ferro|das Eisen
+l’offerta|das Angebot;die Spende
+il/la titolare|der/die Ladenbesitzer/in
+il modello|das Modell
+usato/-a|gebraucht|≠ nuovo
+il lavoretto|der Job
+fare il/la baby-sitter|babysitten|Abc
+il/la dog-sitter|der/die Hundesitter/in
+il tablet|das Tablet
+qualcuno|jemand
+Come mai?|Wieso?;Wie kommt es?
+rotto/-a|kaputt;gebrochen
+l’altro ieri|vorgestern|avv.
+faccia a faccia|von Angesicht zu Angesicht
+sul serio|im Ernst;ernsthaft
+stare attento/-a a qn/qs|aufpassen auf jdn/etw.|Unterscheide: stare attento (auf der Hut sein) – fare attenzione (aufmerksam sein)
+costoso/-a|teuer
+il regalo|das Geschenk
+dispiacere|leidtun|mi dispiace = das tut mir leid
+l’incidente|der Unfall|m.
+connesso/-a|verbunden
+malato/-a|krank
+@ u4-4b | Unità 4 | 4B Due carriere | Zwei Karrieren | 215-216 | Beruf,Karriere,Tourismus
+l’imprenditore/imprenditrice|der/die Unternehmer/in
+il/la proprietario/-a|der/die Eigentümer/in
+la visita guidata|die Führung
+l’agenzia|die Agentur
+darsi del tu/Lei|sich duzen/siezen|Abc
+laurearsi in qs|in etw. seinen (Universitäts-)Abschluss machen
+ripetere|wiederholen
+continuo/-a|dauernd;ständig
+la laurea, le lauree|der Abschluss (Universität)|pl. le lauree
+la guida (turistica)|der Reise-/Fremdenführer|f.
+turistico/-a, turistici, turistiche|Touristen-;touristisch|pl. turistici, turistiche
+originalmente|ursprünglich|avv.
+il corso|der Kurs;der Lauf;der Lehrgang
+l’impresa|das Unternehmen
+esatto/-a|richtig;genau
+complimenti per qs|Kompliment (für etw.)
+il successo|der Erfolg
+l’impiegato/-a|der/die Angestellte
+la canoa|das Kanu
+veneziano/-a|venezianisch
+l’intervista|das Interview
+il web design|das Web-Design
+il futuro|die Zukunft|≠ il passato
+la presenza|die Präsenz;die Anwesenheit
+fondamentale|grundlegend;wichtig
+dovunque|überall
+combinare|kombinieren;vereinen
+la conoscenza|die Kenntnis
+lo spirito|der Geist;hier: Sinn
+attraverso|durch;über
+la ragazza alla pari|das Au-pair-Mädchen
+iscriversi, iscritto|sich eintragen;sich anmelden|p.p. iscritto
+la facoltà|die Fakultät
+l’Europa dell’Est|Osteuropa
+l’informatica|die Informatik
+l’occasione|die Gelegenheit;die Chance|f.
+il premio|der Preis;die Auszeichnung
+speciale|besonders;speziell|≠ normale
+veloce|schnell|≠ lento
+rispetto a qn/qs|im Vergleich zu;in Bezug auf jdn/etw.
+il sito Internet|die Internetseite
+dedicarsi a qn/qs|sich jdm/etw. widmen
+esclusivo/-a|ausschließlich;exklusiv
+@ u4-per-parlare | Unità 4 | Per parlare | Jobs und Berufe | 217 | Beruf,Jobs,Ausbildung
+fare il/la baby-sitter|babysitten
+fare il/la dog-sitter|dogsitten
+dare ripetizioni|Nachhilfeunterricht geben
+dare lezioni di (pianoforte)|(Klavier-)Unterricht geben
+consegnare giornali|Zeitungen austragen
+riparare (biciclette)|(Fahrräder) reparieren
+lavare macchine|Autos waschen
+occuparsi di anziani|sich um ältere Menschen kümmern
+fare la spesa per qn|für jdn einkaufen gehen
+tagliare l’erba|Rasen mähen
+fare il/la cameriere/-a|kellnern
+lavorare al (supermercato)|in einem (Supermarkt) arbeiten
+il segretario / la segretaria|der/die Sekretär/in
+il/la pilota|der/die Pilot/in;der/die Rennfahrer/in
+il fotografo / la fotografa|der/die Fotograf/in
+il poliziotto / la poliziotta|der/die Polizist/in
+il cameriere / la cameriera|der/die Kellner/in
+il cuoco / la cuoca|der Koch / die Köchin
+il medico|der Arzt / die Ärztin
+l’artista|der/die Künstler/in|m./f.
+il/la stilista|der/die Designer/in
+l’insegnante|der/die Lehrer/in
+l’avvocato/-essa|der Anwalt / die Anwältin
+l’architetto/-a|der/die Architekt/in
+l’ingegnere|der Ingenieur
+laurearsi in …|einen Hochschulabschluss erwerben in …
+fare un corso di …|einen Lehrgang machen in …
+fare/dare un esame|eine Prüfung ablegen
+iscriversi alla facoltà di …|sich für einen Studiengang in … einschreiben
+passare (un anno) in …|(ein Jahr) in … verbringen
+partecipare a …|teilnehmen an
+studiare …|studieren
+frequentare un corso di …|einen Kurs in … besuchen
+@ u5-approccio | Unità 5 | Approccio | Nel centro d’Italia | 217-218 | Mittelitalien,Urlaub,Camping
+il passo|der Schritt
+a (due passi) da|(zwei Schritte) entfernt von
+la pineta|der Pinienwald
+affittare|(ver)mieten
+la roulotte|der Wohnwagen
+accessibile|zugänglich;erreichbar
+il/la portatore/portatrice di handicap|der/die (Körper-)Behinderte
+la struttura|die Struktur;das Gebäude
+la piscina|das Schwimmbad;der Pool
+il parco giochi, i parchi giochi|der Spielplatz|pl. i parchi giochi
+attrezzato/-a|ausgestattet
+nei dintorni|in der Umgebung
+il mini market|der Einkaufsladen
+il campo da tennis / beach volley|Tennis-/Beachvolleyball-Platz
+l’isola|die Insel
+l’escursione|der Ausflug|f.
+l’agriturismo|der Agrotourismus;Urlaub auf dem Bauernhof
+l’uliveto|der Olivenhain
+la zona|die Zone;die Gegend
+in mezzo (a)|in der Mitte;inmitten (von)|prep.
+il giardino|der Garten
+la natura|die Natur
+il prodotto|das Produkt
+raggiungibile|erreichbar
+lungo|entlang|prep.
+*il Sentiero Francescano|der Franziskusweg
+ci vuole/vogliono + sg.|man braucht|Unterscheide: ci vuole (man braucht) – bisogna (man muss) – ho bisogno di / mi serve (ich brauche)
+il cavallo|das Pferd
+a cavallo|zu Pferd;mit dem Pferd
+il verde|das Grüne
+il cannocchiale|das Fernrohr
+lo/la scienziato/-a|der/die Wissenschaftler/in
+acquistare|erwerben;kaufen
+ridotto/-a|reduziert
+lo sconto|die Ermäßigung;der Rabatt
+il soggiorno|der Aufenthalt
+il periodo|die Periode;der Zeitabschnitt
+contattare|kontaktieren
+disponibile|verfügbar
+la stanza|das Zimmer
+l’aereo|das Flugzeug
+a noleggio|Miet-
+la navetta|der Shuttlebus
+cordialmente|Mit freundlichen Grüßen (Brief)
+ringraziare|danken
+in anticipo|im Voraus
+@ u5-5a | Unità 5 | 5A Eppur si muove | Galileo Galilei | 219-220 | Galilei,Wissenschaft,Geschichte
+Eppur si muove!|Und sie bewegt sich doch! (Zitat)
+nascere, nato|geboren werden|p.p. nato
+frequentare|besuchen|Unterscheide: frequentare (Kurs, Unterricht) – andare a trovare / visitare
+la medicina|die Medizin (hier: Studium)
+la meccanica|die Mechanik
+fare parte di qs|teilnehmen an etw.
+confrontarsi con qs|sich mit etw. auseinandersetzen
+l’apparecchio, gli apparecchi|der Apparat|pl. gli apparecchi
+la corte|der Hof;der Fürstenhof
+affermare|behaupten
+l’universo|das Universum
+la difficoltà|die Schwierigkeit
+infine|schließlich;letztendlich
+il processo|der Prozess
+la prigione|das Gefängnis
+pubblicare|veröffentlichen
+la teoria|die Theorie
+la villa|das Landhaus;die Villa
+la morte|der Tod
+futuro/-a|zukünftig
+interessare|interessieren
+il disegno|die Zeichnung;das Bild
+il cielo|der Himmel
+la guerra|der Krieg
+la battaglia|der Kampf;die Schlacht
+il laboratorio, i laboratori|das Labor|pl. i laboratori
+il punto|der Punkt
+*la Via Lattea|die Milchstraße
+la stella|der Stern
+la scoperta|die Entdeckung;die Erfindung
+la sintonia|der Einklang
+la Bibbia|die Bibel
+prendere una decisione|eine Entscheidung fassen
+la decisione|die Entscheidung
+l’ignorante|der Ignorant;der Banause|m./f.
+ovvio/-a|offensichtlich;selbstverständlich
+rinnegare|verleugnen;ablehnen;seine Überzeugung aufgeben
+ufficiale|offiziell
+intorno a qn/qs|um jdn/etw. herum
+sbagliarsi|sich irren;sich täuschen
+@ u5-5b | Unità 5 | 5B Una corsa tra ieri e oggi | Ein Rennen zwischen gestern und heute | 220-221 | Tradition,Gubbio,Brauchtum
+la fazione|die Gruppe;die Fraktion
+gli eugubini|Einwohner von Gubbio
+la corsa|der Lauf;das Rennen
+l’origine|die Herkunft|f.
+religioso/-a|religiös
+il legno|das Holz
+maschio/-a|männlich
+la cima|die Spitze;der Gipfel;das Ende
+la statua|die Statue;das Standbild
+di riferimento|Bezugs-
+dividersi, diviso|sich teilen|p.p. diviso
+indossare|anhaben;tragen (Kleidung)
+il costume|das Kostüm;die Tracht;der Brauch
+azzurro/-a|blau|Unterscheide: celeste (hellblau) – blu (dunkelblau) – azzurro (mittelblau); gli azzurri = Fußballnationalmannschaft
+tradizionale|traditionell;üblich
+l’orgoglio|der Stolz
+il maschio, i maschi|der Mann|pl. i maschi
+tale|derartig;solche(r)
+antiquato/-a|altertümlich;antiquiert
+la tradizione|die Tradition
+il valore|der Wert
+piuttosto|eher|avv.
+la superstizione|der Aberglaube
+in (13)|zu (dreizehnt)
+*il corno rosso|das rote Horn
+*il malocchio|der böse Blick
+anziano/-a|alt;betagt|= vecchio/-a
+considerare|jdn/etw. halten für
+impegnativo/-a|hier: anspruchsvoll;anstrengend
+pesare|wiegen
+ciascuno/-a|jede/r/s
+il più (+avv.) possibile|so (+Adv.) wie möglich
+verticale|senkrecht
+il percorso|der Weg;die Strecke
+totale|ganz;gesamt
+la gara|der Wettbewerb;Wettkampf
+fare bella figura|einen guten Eindruck machen|Abc
+il/la turista|der/die Tourist/in
+rendere qn/qs + agg., reso|jdn/etw. + Adj. machen|p.p. reso
+dimostrare|zeigen;beweisen
+svolgersi, svolto|sich abspielen;ablaufen|p.p. svolto
+successivo/-a|nachfolgend;anschließend
+l’onore|die Ehre|m.
+autentico/-a|echt;original;authentisch
+esercitarsi|üben;sich schulen
+l’atteggiamento|die Einstellung;die Haltung
+il dubbio, i dubbi|der Zweifel|pl. i dubbi
+@ u5-per-parlare | Unità 5 | Per parlare | Urlaubsorte | 222 | Urlaub,Reisen,Unterkunft
+passare le vacanze|Urlaub verbringen
+vacanze in città|Städtereise
+vacanze al mare|Urlaub am Meer
+vacanze in montagna|Urlaub in den Bergen
+vacanze in campagna|Urlaub auf dem Lande
+vacanze in campeggio|Urlaub auf dem Campingplatz
+l’albergo|das Hotel
+l’appartamento|das Apartment
+il casale|das Bauernhaus
+il campeggio|der Campingplatz
+la roulotte|der Wohnwagen
+la casa mobile|mobile home
+l’ostello|das Hostel;die Jugendherberge
+la stanza|das Zimmer
+la tenda|das Zelt
+il giardino|der Garten
+il balcone|der Balkon
+con una vista (sul) mare|mit Meerblick
+la piscina|der Pool
+il parco giochi|der Spielplatz
+la spiaggia attrezzata|der (mit Schirmen und Liegen) ausgestattete Strand
+il mini market|der Einkaufsladen
+il campo da tennis|der Tennisplatz
+il campo da beach-volley|der Volleyballplatz
+l’escursione a cavallo|der Ausritt;Ausflug mit dem Pferd
+la gita in mountain-bike|die Mountainbike-Tour
+la passeggiata nel verde|das Wandern im Grünen
+fare sci nautico|Wasserski fahren
+fare surf|surfen
+fare sci|Ski fahren
+fare snowboard|Snowboard fahren
+andare in barca|Boot fahren
+@ u6-approccio | Unità 6 | Approccio | L’Italia creativa e moderna | 222-223 | Industrie,Norditalien,Süditalien,Landschaft
+il triangolo industriale|das Industriedreieck (Mailand-Genua-Turin)
+la concentrazione|die Konzentration
+il servizio, i servizi|die Dienstleistung|pl. i servizi
+l’auto(mobile)|das Auto(mobil)|f.
+la borsa|die Börse;Aktien
+il settentrione|der Norden
+la decina|etwa zehn|il centinaio = etwa hundert, pl. le centinaia; il migliaio = etwa tausend, pl. le migliaia
+la pianura|die Ebene;das Flachland
+l’agricoltura|die Landwirtschaft;der Ackerbau
+l’allevamento|die Tierhaltung;die Tierzucht
+fornire (-sc-)|liefern|Abc
+scorrere, scorso|fließen;strömen|p.p. scorso
+il lago, i laghi|der See|pl. i laghi
+l’Appennino|der Apennin (Gebirge)
+settentrionale|nördlich
+l’accesso|die Anbindung;der Zugang
+trarre (traggo), tratto|ziehen;entnehmen|p.p. tratto
+il profitto|der Nutzen;der Profit
+il turismo (balneare)|der (Bade-)Tourismus
+attrarre (attraggo), attratto|anziehen|p.p. attratto
+il paesaggio, i paesaggi|die Landschaft|pl. i paesaggi
+il tratto|der Abschnitt
+la collina|der Hügel
+la catena montuosa|die Gebirgskette
+il meridione / il mezzogiorno|der Süden
+includere, incluso|einbeziehen|p.p. incluso
+meridionale|südlich
+particolare|besonderer;besondere/-s
+l’importanza|die Wichtigkeit;die Bedeutung
+la pesca|die Fischerei
+il guadagno|der Verdienst
+il vulcano|der Vulkan
+la disoccupazione|die Arbeitslosigkeit
+la criminalità|die Kriminalität
+originario/-a di|ursprünglich aus
+@ u6-6a | Unità 6 | 6A Le tante facce di Milano | Die vielen Gesichter Mailands | 223-225 | Mailand,Mode,Stadt
+la faccia|das Gesicht
+lo/la stilista|der/die Designer/in
+disoccupato/-a|arbeitslos
+l’affitto|die Miete
+il/la pendolare|der/die Pendler/in
+Vale la pena.|Es lohnt sich.
+appassionato/-a|begeistert|agg.
+la marca, le marche|die Marke;das Label|pl. le marche
+la creatività|die Kreativität
+il trend|der Trend
+la sfilata|die Modenschau
+l’evento|das Event
+il/la barista|der/die Barkeeper/in
+disegnare|zeichnen;entwerfen
+il ritratto|das Porträt
+il bancario, la bancaria, i bancari, le bancarie|der/die Banker/in|pl. i bancari, le bancarie
+innamorato/-a|verliebt
+economico/-a, economici, economiche|Finanz-;finanziell|pl. economici, economiche
+la banca, le banche|die Bank;Kreditinstitut|pl. le banche
+l’investimento|das Investment;die Investition
+il/la quale|der;die;das|rel. pron.
+l’estero|das Ausland
+la ditta|das Geschäft;die Firma
+il mese|der Monat
+la mostra|die Ausstellung
+il tifoso, la tifosa|der Fan
+tifare per qn/qs|jdn/etw. anfeuern;zu jdm/etw. halten
+l’ingegneria|die Ingenieurwissenschaft
+la residenza|das Wohnheim
+*il politecnico|die Ingenieurakademie;technische Hochschule
+l’ambiente|das Umfeld;die Umgebung;die Umwelt|m.
+sia … che|sowohl … als auch
+avere conosciuto|kennengelernt haben|conosco = ich kenne; ho conosciuto = ich habe kennengelernt
+internazionale|international
+provenire da qs|aus etw. kommen;herkommen|Abc
+fortunato/-a|glücklich|essere fortunato = Glück haben
+il traffico, i traffici|der Verkehr;der Stau|pl. i traffici
+lo scooter|der Motorroller;der Roller
+dato che|angesichts/aufgrund der Tatsache, dass
+il continente|der Kontinent
+l’origine|die Herkunft;der Ursprung;die Quelle|f.
+il terzo|das Drittel|Bruchzahlen: (un) mezzo, un terzo, un quarto …
+l’iscritto/-a|der/die Immatrikulierte
+extracomunitario/-a|nicht EU-;nicht zur EU gehörend
+@ u6-6b | Unità 6 | 6B Creatività italiana: due ritratti | Zwei Porträts | 225-226 | Kunst,Musik,Kreativität
+il volto|das Gesicht
+il teatro lirico|das lyrische Theater;die Oper
+il/la cantante lirico/-a|der/die Opernsänger/in
+l’entrata|hier: der Auftritt
+la scena|die Bühne
+la comparsa|der/die Statist/in
+l’adolescenza|die Jugend(-zeit)
+l’interesse|das Interesse|m.
+artistico/-a|künstlerisch
+il canto|der Gesang;das Singen
+la partecipazione|die Teilnahme
+farsi notare|auf sich aufmerksam machen
+l’epoca, le epoche|die Epoche;die Zeit|pl. le epoche
+debuttare|debütieren;zum ersten Mal öffentlich auftreten
+la serie, le serie|die Reihe;die Serie|pl. le serie
+l’opera|die Oper;das Werk
+incidere, inciso|aufnehmen (Ton)|p.p. inciso
+il CD|die CD
+la partitura|die Partitur;die Noten
+la registrazione|die Aufnahme
+sposato/-a|verheiratet
+oltre a qn/qs|außer jdm/etw.
+la fondazione|die Gründung;die Stiftung
+promuovere, promosso|promoten;befördern|p.p. promosso
+l’eccellenza|die Spitzenklasse
+l’architettura|die Architektur
+contemporaneo/-a|zeitgenössisch
+il costruttore, la costruttrice|der/die Bauunternehmer/in
+segnato/-a|gezeichnet
+l’infanzia|die Kindheit
+insegnare|lehren;unterrichten
+lo studio|hier: Ingenieurbüro
+la notorietà|die Bekanntheit;die Berühmtheit
+progettare|entwerfen;planen
+avanguardistico/-a|avantgardistisch;bahnbrechend
+la fama mondiale|der Weltruhm
+il grattacielo|das Hochhaus;der Wolkenkratzer
+nominare|ernennen
+lo stipendio, gli stipendi|der Lohn;das Gehalt;das Arbeitsentgelt|pl. gli stipendi
+finanziare|finanzieren
+la periferia|die Peripherie;der Stadtrand;die Vorstadt
+l’esperienza|die Erfahrung
+mettere a disposizione|zur Verfügung stellen
+@ u6-per-parlare | Unità 6 | Per parlare | Berühmte Persönlichkeiten und Statistik | 227-228 | Berufe,Kunst,Medien
+l’attore / l’attrice|der/die Schauspieler/in
+il/la cantante rock|der/die Rocksänger/in
+il/la cantante hip hop|der/die Hip-Hop-Sänger/in
+il/la cantante pop|der/die Pop-Sänger/in
+il/la cantante lirico/-a|Opernsänger
+l’imprenditore / l’imprenditrice|der/die Unternehmer/in
+il fondatore / la fondatrice|der/die Gründer/in
+il calciatore|der Fußballer
+il portiere|der Torwart
+l’artista|der/die Künstler/in|m./f.
+il/la stilista|der/die Designer/in
+il/la regista|der/die Regisseur/in
+il/la musicista|der/die Musiker/in
+l’intrattenitore / l’intrattenitrice|der/die Entertainer/in
+il moderatore / la moderatrice|der/die Moderator/in
+lo sportivo / la sportiva|der/die Sportler/in
+lo scienziato / la scienziata|der/die Wissenschaftler/in
+fondare|gründen
+entrare in scena|auftreten
+recitare|spielen (Film)
+dare un concerto|ein Konzert geben
+disegnare|zeichnen
+scoprire|entdecken
+apparire in televisione|im Fernsehen auftreten
+avere una propria trasmissione|eine eigene Sendung haben
+la maggioranza|die Mehrheit
+la minoranza|die Minderheit
+la metà|die Hälfte
+un terzo|ein Drittel
+il grafico|die Grafik
+il sondaggio|die Umfrage
+il diagramma (a torta)|das Kreis-(Diagramm)
+il grafico fa vedere / mostra che …|die Grafik veranschaulicht, dass …
+Circa due terzi credono che …|Fast zwei Drittel glauben, dass …
+Le professioni più ricercate secondo il grafico sono …|Die gefragtesten Berufe sind laut Grafik …
+@ m-uno-stage | Modulo | Uno stage | Das Praktikum (Modul, fakultativ) | 228-229 | Praktikum,Bewerbung,Arbeit
+*lo stage|das Praktikum|[staʒ]: g weich, e am Ende nicht gesprochen
+*il/la protagonista|die Hauptfigur
+*il marketing|das Marketing
+*noto/-a|bekannt
+*sviluppare|entwickeln
+*conosciuto/-a|bekannt
+*l’oggetto|der Betreff (Mail)
+*Gentilissimo/-a|Sehr geehrte/r (Anrede: Brief, Mail)
+*statale|staatlich
+*l’annuncio|die Anzeige (Stellensuche)
+*corrente|fließend (Sprache)
+*oltre a qn/qs|neben jdm/etw.
+*di base|Basis-;Grund-
+*frequentare|besuchen
+*utilizzare|benutzen;anwenden
+*abituale|gewöhnlich
+*la lingua materna|die Muttersprache
+*intensivo/-a|intensiv
+*il livello|das Niveau;das Level
+*scolastico/-a|Schul-;schulisch
+*il senso|der Sinn
+*l’organizzazione|die Organisation|f.
+*individuale|individuell
+*realizzare|realisieren
+*la presentazione|die Präsentation
+*l’abilità|die Fähigkeit;das Geschick
+*l’esperienza|die Erfahrung
+*il/la cliente|der Kunde;die Kundin
+*essere in grado di (fare qs)|in der Lage sein (etw. zu tun)
+*soddisfacente|zufriedenstellend
+*il periodo|der Zeitraum
+*l’entusiasmo|die Begeisterung
+*in attesa|in Erwartung (Brief)
+*cortese|freundlich
+*la risposta|die Antwort
+*porgere i saluti a qn|jdn begrüßen (formell in Briefen)
+*cordiale|herzlich
+*la data di nascita|das Geburtsdatum
+*il diploma|das (Abschluss-)Zeugnis
+*conseguire|erreichen
+*presso|bei;hier: an
+*fluente|fließend (Sprache)
+*scritto/-a|schriftlich
+*orale|mündlich
+*l’applicazione|die Anwendung|f.
+*il supporto|die Unterstützung
+*l’allegato|der Anhang (Mail)
+*il curriculum (vitae)|der Lebenslauf
+*l’istruzione|die Ausbildung;die Weiterbildung|f.
+@ m-musica | Modulo | La musica popolare e la musica leggera italiana | Volksmusik und Schlager (Modul, fakultativ) | 229-230 | Musik,Lied,Kultur
+*trattarsi di qc|sich um etw. handeln
+*popolare|Volks-;populär|agg.
+*la melodia|die Melodie
+*conosciuto/-a|bekannt
+*il testo|der Text
+*originale|Original-;ursprünglich|agg.
+*il dialetto|der Dialekt
+*rispecchiare|widerspiegeln
+*musicale|Musik-;musikalisch
+*tale|solche(r,s);gewisse(r,s)|agg.
+*comporre qc, composto|etw. komponieren|p.p. composto
+*la nazione|die Nation
+*sorprendere, sorpreso|überraschen|p.p. sorpreso
+*regionale|regional
+*il canto|der Gesang
+*l’ottava rima|die Stanze (typische Gedichtform)
+*il palco|die Bühne
+*il cantautore, la cantautrice, i cantautori, le cantautrici|der/die Liedermacher/in|pl. i cantautori, le cantautrici
+*la creazione|die Kreation;die Schöpfung
+*proprio/-a, propri, proprie|eigene(r/s)|pl. propri, proprie
+*la generazione|die Generation
+*il disco, i dischi|die (Musik-)Platte|pl. i dischi
+*il genere|die Art;die Sorte
+*svolgersi, svolto|stattfinden;sich abspielen|p.p. svolto
+*il vincitore|der/die Sieger/in
+*oltre a qn/qs|neben jdm./etw.;außer jdm./etw.
+*la sala|der Saal
+*il casinò, i casinò|das Kasino|pl. i casinò
+*l’edizione|die Ausgabe;die Veranstaltung
+*la categoria|die Kategorie
+*morto/-a|tot
+*l’orchestra|das Orchester
+*il record, i record|der Rekord;die Bestmarke|pl. i record

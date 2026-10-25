@@ -1,0 +1,627 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u5-approccio",
+ "title": "Ecco più 2 · Unità 5 · Approccio",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Nel centro d’Italia“ aus Ecco più 2 (Unità 5, Approccio).",
+ "topics": [
+  "Mittelitalien",
+  "Urlaub",
+  "Camping"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 5 · Approccio",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 217-218 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u5-approccio-001",
+   "target": "il passo",
+   "translations": [
+    "der Schritt"
+   ],
+   "page": "217-218",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-002",
+   "target": "a (due passi) da",
+   "translations": [
+    "(zwei Schritte) entfernt von"
+   ],
+   "page": "217-218",
+   "acceptedAnswers": [
+    "a da"
+   ]
+  },
+  {
+   "id": "u5-approccio-003",
+   "target": "la pineta",
+   "translations": [
+    "der Pinienwald"
+   ],
+   "page": "217-218",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-004",
+   "target": "affittare",
+   "translations": [
+    "(ver)mieten"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-005",
+   "target": "la roulotte",
+   "translations": [
+    "der Wohnwagen"
+   ],
+   "page": "217-218",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-006",
+   "target": "accessibile",
+   "translations": [
+    "zugänglich",
+    "erreichbar"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-007",
+   "target": "il/la portatore/portatrice di handicap",
+   "translations": [
+    "der/die (Körper-)Behinderte"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-008",
+   "target": "la struttura",
+   "translations": [
+    "die Struktur",
+    "das Gebäude"
+   ],
+   "page": "217-218",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-009",
+   "target": "la piscina",
+   "translations": [
+    "das Schwimmbad",
+    "der Pool"
+   ],
+   "page": "217-218",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-010",
+   "target": "il parco giochi, i parchi giochi",
+   "translations": [
+    "der Spielplatz"
+   ],
+   "page": "217-218",
+   "usage": "pl. i parchi giochi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-011",
+   "target": "attrezzato/-a",
+   "translations": [
+    "ausgestattet"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-012",
+   "target": "nei dintorni",
+   "translations": [
+    "in der Umgebung"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-013",
+   "target": "il mini market",
+   "translations": [
+    "der Einkaufsladen"
+   ],
+   "page": "217-218",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-014",
+   "target": "il campo da tennis / beach volley",
+   "translations": [
+    "Tennis-/Beachvolleyball-Platz"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-015",
+   "target": "l’isola",
+   "translations": [
+    "die Insel"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-016",
+   "target": "l’escursione",
+   "translations": [
+    "der Ausflug"
+   ],
+   "page": "217-218",
+   "usage": "f."
+  },
+  {
+   "id": "u5-approccio-017",
+   "target": "l’agriturismo",
+   "translations": [
+    "der Agrotourismus",
+    "Urlaub auf dem Bauernhof"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-018",
+   "target": "l’uliveto",
+   "translations": [
+    "der Olivenhain"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-019",
+   "target": "la zona",
+   "translations": [
+    "die Zone",
+    "die Gegend"
+   ],
+   "page": "217-218",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-020",
+   "target": "in mezzo (a)",
+   "translations": [
+    "in der Mitte",
+    "inmitten (von)"
+   ],
+   "page": "217-218",
+   "acceptedAnswers": [
+    "in mezzo"
+   ],
+   "usage": "prep."
+  },
+  {
+   "id": "u5-approccio-021",
+   "target": "il giardino",
+   "translations": [
+    "der Garten"
+   ],
+   "page": "217-218",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-022",
+   "target": "la natura",
+   "translations": [
+    "die Natur"
+   ],
+   "page": "217-218",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-023",
+   "target": "il prodotto",
+   "translations": [
+    "das Produkt"
+   ],
+   "page": "217-218",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-024",
+   "target": "raggiungibile",
+   "translations": [
+    "erreichbar"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-025",
+   "target": "lungo",
+   "translations": [
+    "entlang"
+   ],
+   "page": "217-218",
+   "usage": "prep."
+  },
+  {
+   "id": "u5-approccio-026",
+   "target": "il Sentiero Francescano",
+   "translations": [
+    "der Franziskusweg"
+   ],
+   "page": "217-218",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-027",
+   "target": "ci vuole/vogliono + sg.",
+   "translations": [
+    "man braucht"
+   ],
+   "page": "217-218",
+   "usage": "Unterscheide: ci vuole (man braucht) – bisogna (man muss) – ho bisogno di / mi serve (ich brauche)"
+  },
+  {
+   "id": "u5-approccio-028",
+   "target": "il cavallo",
+   "translations": [
+    "das Pferd"
+   ],
+   "page": "217-218",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-029",
+   "target": "a cavallo",
+   "translations": [
+    "zu Pferd",
+    "mit dem Pferd"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-030",
+   "target": "il verde",
+   "translations": [
+    "das Grüne"
+   ],
+   "page": "217-218",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-031",
+   "target": "il cannocchiale",
+   "translations": [
+    "das Fernrohr"
+   ],
+   "page": "217-218",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-032",
+   "target": "lo/la scienziato/-a",
+   "translations": [
+    "der/die Wissenschaftler/in"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-033",
+   "target": "acquistare",
+   "translations": [
+    "erwerben",
+    "kaufen"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-034",
+   "target": "ridotto/-a",
+   "translations": [
+    "reduziert"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-035",
+   "target": "lo sconto",
+   "translations": [
+    "die Ermäßigung",
+    "der Rabatt"
+   ],
+   "page": "217-218",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-036",
+   "target": "il soggiorno",
+   "translations": [
+    "der Aufenthalt"
+   ],
+   "page": "217-218",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-037",
+   "target": "il periodo",
+   "translations": [
+    "die Periode",
+    "der Zeitabschnitt"
+   ],
+   "page": "217-218",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-038",
+   "target": "contattare",
+   "translations": [
+    "kontaktieren"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-039",
+   "target": "disponibile",
+   "translations": [
+    "verfügbar"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-040",
+   "target": "la stanza",
+   "translations": [
+    "das Zimmer"
+   ],
+   "page": "217-218",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-041",
+   "target": "l’aereo",
+   "translations": [
+    "das Flugzeug"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-042",
+   "target": "a noleggio",
+   "translations": [
+    "Miet-"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-043",
+   "target": "la navetta",
+   "translations": [
+    "der Shuttlebus"
+   ],
+   "page": "217-218",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-approccio-044",
+   "target": "cordialmente",
+   "translations": [
+    "Mit freundlichen Grüßen (Brief)"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-045",
+   "target": "ringraziare",
+   "translations": [
+    "danken"
+   ],
+   "page": "217-218"
+  },
+  {
+   "id": "u5-approccio-046",
+   "target": "in anticipo",
+   "translations": [
+    "im Voraus"
+   ],
+   "page": "217-218"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 5",
+   "section": "Approccio",
+   "pages": "217-218"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Mittelitalien",
+   "Urlaub",
+   "Camping"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

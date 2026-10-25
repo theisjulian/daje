@@ -1,0 +1,460 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u5-per-parlare",
+ "title": "Ecco più 2 · Unità 5 · Per parlare",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Urlaubsorte“ aus Ecco più 2 (Unità 5, Per parlare).",
+ "topics": [
+  "Urlaub",
+  "Reisen",
+  "Unterkunft"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 5 · Per parlare",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 222 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u5-per-parlare-001",
+   "target": "passare le vacanze",
+   "translations": [
+    "Urlaub verbringen"
+   ],
+   "page": "222"
+  },
+  {
+   "id": "u5-per-parlare-002",
+   "target": "vacanze in città",
+   "translations": [
+    "Städtereise"
+   ],
+   "page": "222"
+  },
+  {
+   "id": "u5-per-parlare-003",
+   "target": "vacanze al mare",
+   "translations": [
+    "Urlaub am Meer"
+   ],
+   "page": "222"
+  },
+  {
+   "id": "u5-per-parlare-004",
+   "target": "vacanze in montagna",
+   "translations": [
+    "Urlaub in den Bergen"
+   ],
+   "page": "222"
+  },
+  {
+   "id": "u5-per-parlare-005",
+   "target": "vacanze in campagna",
+   "translations": [
+    "Urlaub auf dem Lande"
+   ],
+   "page": "222"
+  },
+  {
+   "id": "u5-per-parlare-006",
+   "target": "vacanze in campeggio",
+   "translations": [
+    "Urlaub auf dem Campingplatz"
+   ],
+   "page": "222"
+  },
+  {
+   "id": "u5-per-parlare-007",
+   "target": "l’albergo",
+   "translations": [
+    "das Hotel"
+   ],
+   "page": "222"
+  },
+  {
+   "id": "u5-per-parlare-008",
+   "target": "l’appartamento",
+   "translations": [
+    "das Apartment"
+   ],
+   "page": "222"
+  },
+  {
+   "id": "u5-per-parlare-009",
+   "target": "il casale",
+   "translations": [
+    "das Bauernhaus"
+   ],
+   "page": "222",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-per-parlare-010",
+   "target": "il campeggio",
+   "translations": [
+    "der Campingplatz"
+   ],
+   "page": "222",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-per-parlare-011",
+   "target": "la roulotte",
+   "translations": [
+    "der Wohnwagen"
+   ],
+   "page": "222",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-per-parlare-012",
+   "target": "la casa mobile",
+   "translations": [
+    "mobile home"
+   ],
+   "page": "222",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-per-parlare-013",
+   "target": "l’ostello",
+   "translations": [
+    "das Hostel",
+    "die Jugendherberge"
+   ],
+   "page": "222"
+  },
+  {
+   "id": "u5-per-parlare-014",
+   "target": "la stanza",
+   "translations": [
+    "das Zimmer"
+   ],
+   "page": "222",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-per-parlare-015",
+   "target": "la tenda",
+   "translations": [
+    "das Zelt"
+   ],
+   "page": "222",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-per-parlare-016",
+   "target": "il giardino",
+   "translations": [
+    "der Garten"
+   ],
+   "page": "222",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-per-parlare-017",
+   "target": "il balcone",
+   "translations": [
+    "der Balkon"
+   ],
+   "page": "222",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-per-parlare-018",
+   "target": "con una vista (sul) mare",
+   "translations": [
+    "mit Meerblick"
+   ],
+   "page": "222",
+   "acceptedAnswers": [
+    "con una vista mare"
+   ]
+  },
+  {
+   "id": "u5-per-parlare-019",
+   "target": "la piscina",
+   "translations": [
+    "der Pool"
+   ],
+   "page": "222",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-per-parlare-020",
+   "target": "il parco giochi",
+   "translations": [
+    "der Spielplatz"
+   ],
+   "page": "222",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-per-parlare-021",
+   "target": "la spiaggia attrezzata",
+   "translations": [
+    "der (mit Schirmen und Liegen) ausgestattete Strand"
+   ],
+   "page": "222",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-per-parlare-022",
+   "target": "il mini market",
+   "translations": [
+    "der Einkaufsladen"
+   ],
+   "page": "222",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-per-parlare-023",
+   "target": "il campo da tennis",
+   "translations": [
+    "der Tennisplatz"
+   ],
+   "page": "222",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-per-parlare-024",
+   "target": "il campo da beach-volley",
+   "translations": [
+    "der Volleyballplatz"
+   ],
+   "page": "222",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-per-parlare-025",
+   "target": "l’escursione a cavallo",
+   "translations": [
+    "der Ausritt",
+    "Ausflug mit dem Pferd"
+   ],
+   "page": "222"
+  },
+  {
+   "id": "u5-per-parlare-026",
+   "target": "la gita in mountain-bike",
+   "translations": [
+    "die Mountainbike-Tour"
+   ],
+   "page": "222",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-per-parlare-027",
+   "target": "la passeggiata nel verde",
+   "translations": [
+    "das Wandern im Grünen"
+   ],
+   "page": "222",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-per-parlare-028",
+   "target": "fare sci nautico",
+   "translations": [
+    "Wasserski fahren"
+   ],
+   "page": "222"
+  },
+  {
+   "id": "u5-per-parlare-029",
+   "target": "fare surf",
+   "translations": [
+    "surfen"
+   ],
+   "page": "222"
+  },
+  {
+   "id": "u5-per-parlare-030",
+   "target": "fare sci",
+   "translations": [
+    "Ski fahren"
+   ],
+   "page": "222"
+  },
+  {
+   "id": "u5-per-parlare-031",
+   "target": "fare snowboard",
+   "translations": [
+    "Snowboard fahren"
+   ],
+   "page": "222"
+  },
+  {
+   "id": "u5-per-parlare-032",
+   "target": "andare in barca",
+   "translations": [
+    "Boot fahren"
+   ],
+   "page": "222"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 5",
+   "section": "Per parlare",
+   "pages": "222"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Urlaub",
+   "Reisen",
+   "Unterkunft"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

@@ -1,0 +1,411 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u6-per-parlare",
+ "title": "Ecco più 2 · Unità 6 · Per parlare",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Berühmte Persönlichkeiten und Statistik“ aus Ecco più 2 (Unità 6, Per parlare).",
+ "topics": [
+  "Berufe",
+  "Kunst",
+  "Medien"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 6 · Per parlare",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 227-228 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u6-per-parlare-001",
+   "target": "l’attore / l’attrice",
+   "translations": [
+    "der/die Schauspieler/in"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-002",
+   "target": "il/la cantante rock",
+   "translations": [
+    "der/die Rocksänger/in"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-003",
+   "target": "il/la cantante hip hop",
+   "translations": [
+    "der/die Hip-Hop-Sänger/in"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-004",
+   "target": "il/la cantante pop",
+   "translations": [
+    "der/die Pop-Sänger/in"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-005",
+   "target": "il/la cantante lirico/-a",
+   "translations": [
+    "Opernsänger"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-006",
+   "target": "l’imprenditore / l’imprenditrice",
+   "translations": [
+    "der/die Unternehmer/in"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-007",
+   "target": "il fondatore / la fondatrice",
+   "translations": [
+    "der/die Gründer/in"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-008",
+   "target": "il calciatore",
+   "translations": [
+    "der Fußballer"
+   ],
+   "page": "227-228",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-per-parlare-009",
+   "target": "il portiere",
+   "translations": [
+    "der Torwart"
+   ],
+   "page": "227-228",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-per-parlare-010",
+   "target": "l’artista",
+   "translations": [
+    "der/die Künstler/in"
+   ],
+   "page": "227-228",
+   "usage": "m./f."
+  },
+  {
+   "id": "u6-per-parlare-011",
+   "target": "il/la stilista",
+   "translations": [
+    "der/die Designer/in"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-012",
+   "target": "il/la regista",
+   "translations": [
+    "der/die Regisseur/in"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-013",
+   "target": "il/la musicista",
+   "translations": [
+    "der/die Musiker/in"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-014",
+   "target": "l’intrattenitore / l’intrattenitrice",
+   "translations": [
+    "der/die Entertainer/in"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-015",
+   "target": "il moderatore / la moderatrice",
+   "translations": [
+    "der/die Moderator/in"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-016",
+   "target": "lo sportivo / la sportiva",
+   "translations": [
+    "der/die Sportler/in"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-017",
+   "target": "lo scienziato / la scienziata",
+   "translations": [
+    "der/die Wissenschaftler/in"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-018",
+   "target": "fondare",
+   "translations": [
+    "gründen"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-019",
+   "target": "entrare in scena",
+   "translations": [
+    "auftreten"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-020",
+   "target": "recitare",
+   "translations": [
+    "spielen (Film)"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-021",
+   "target": "dare un concerto",
+   "translations": [
+    "ein Konzert geben"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-022",
+   "target": "disegnare",
+   "translations": [
+    "zeichnen"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-023",
+   "target": "scoprire",
+   "translations": [
+    "entdecken"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-024",
+   "target": "apparire in televisione",
+   "translations": [
+    "im Fernsehen auftreten"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-025",
+   "target": "avere una propria trasmissione",
+   "translations": [
+    "eine eigene Sendung haben"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-026",
+   "target": "la maggioranza",
+   "translations": [
+    "die Mehrheit"
+   ],
+   "page": "227-228",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-per-parlare-027",
+   "target": "la minoranza",
+   "translations": [
+    "die Minderheit"
+   ],
+   "page": "227-228",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-per-parlare-028",
+   "target": "la metà",
+   "translations": [
+    "die Hälfte"
+   ],
+   "page": "227-228",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-per-parlare-029",
+   "target": "un terzo",
+   "translations": [
+    "ein Drittel"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-030",
+   "target": "il grafico",
+   "translations": [
+    "die Grafik"
+   ],
+   "page": "227-228",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-per-parlare-031",
+   "target": "il sondaggio",
+   "translations": [
+    "die Umfrage"
+   ],
+   "page": "227-228",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-per-parlare-032",
+   "target": "il diagramma (a torta)",
+   "translations": [
+    "das Kreis-(Diagramm)"
+   ],
+   "page": "227-228",
+   "acceptedAnswers": [
+    "il diagramma"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-per-parlare-033",
+   "target": "il grafico fa vedere / mostra che …",
+   "translations": [
+    "die Grafik veranschaulicht, dass …"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-034",
+   "target": "Circa due terzi credono che …",
+   "translations": [
+    "Fast zwei Drittel glauben, dass …"
+   ],
+   "page": "227-228"
+  },
+  {
+   "id": "u6-per-parlare-035",
+   "target": "Le professioni più ricercate secondo il grafico sono …",
+   "translations": [
+    "Die gefragtesten Berufe sind laut Grafik …"
+   ],
+   "page": "227-228"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 6",
+   "section": "Per parlare",
+   "pages": "227-228"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Berufe",
+   "Kunst",
+   "Medien"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

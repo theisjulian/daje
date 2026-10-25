@@ -1,0 +1,603 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u6-6a",
+ "title": "Ecco più 2 · Unità 6 · 6A Le tante facce di Milano",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Die vielen Gesichter Mailands“ aus Ecco più 2 (Unità 6, 6A Le tante facce di Milano).",
+ "topics": [
+  "Mailand",
+  "Mode",
+  "Stadt"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 6 · 6A Le tante facce di Milano",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 223-225 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u6-6a-001",
+   "target": "la faccia",
+   "translations": [
+    "das Gesicht"
+   ],
+   "page": "223-225",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6a-002",
+   "target": "lo/la stilista",
+   "translations": [
+    "der/die Designer/in"
+   ],
+   "page": "223-225"
+  },
+  {
+   "id": "u6-6a-003",
+   "target": "disoccupato/-a",
+   "translations": [
+    "arbeitslos"
+   ],
+   "page": "223-225"
+  },
+  {
+   "id": "u6-6a-004",
+   "target": "l’affitto",
+   "translations": [
+    "die Miete"
+   ],
+   "page": "223-225"
+  },
+  {
+   "id": "u6-6a-005",
+   "target": "il/la pendolare",
+   "translations": [
+    "der/die Pendler/in"
+   ],
+   "page": "223-225"
+  },
+  {
+   "id": "u6-6a-006",
+   "target": "Vale la pena.",
+   "translations": [
+    "Es lohnt sich."
+   ],
+   "page": "223-225"
+  },
+  {
+   "id": "u6-6a-007",
+   "target": "appassionato/-a",
+   "translations": [
+    "begeistert"
+   ],
+   "page": "223-225",
+   "usage": "agg."
+  },
+  {
+   "id": "u6-6a-008",
+   "target": "la marca, le marche",
+   "translations": [
+    "die Marke",
+    "das Label"
+   ],
+   "page": "223-225",
+   "usage": "pl. le marche",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6a-009",
+   "target": "la creatività",
+   "translations": [
+    "die Kreativität"
+   ],
+   "page": "223-225",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6a-010",
+   "target": "il trend",
+   "translations": [
+    "der Trend"
+   ],
+   "page": "223-225",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6a-011",
+   "target": "la sfilata",
+   "translations": [
+    "die Modenschau"
+   ],
+   "page": "223-225",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6a-012",
+   "target": "l’evento",
+   "translations": [
+    "das Event"
+   ],
+   "page": "223-225"
+  },
+  {
+   "id": "u6-6a-013",
+   "target": "il/la barista",
+   "translations": [
+    "der/die Barkeeper/in"
+   ],
+   "page": "223-225"
+  },
+  {
+   "id": "u6-6a-014",
+   "target": "disegnare",
+   "translations": [
+    "zeichnen",
+    "entwerfen"
+   ],
+   "page": "223-225"
+  },
+  {
+   "id": "u6-6a-015",
+   "target": "il ritratto",
+   "translations": [
+    "das Porträt"
+   ],
+   "page": "223-225",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6a-016",
+   "target": "il bancario, la bancaria, i bancari, le bancarie",
+   "translations": [
+    "der/die Banker/in"
+   ],
+   "page": "223-225",
+   "usage": "pl. i bancari, le bancarie",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6a-017",
+   "target": "innamorato/-a",
+   "translations": [
+    "verliebt"
+   ],
+   "page": "223-225"
+  },
+  {
+   "id": "u6-6a-018",
+   "target": "economico/-a, economici, economiche",
+   "translations": [
+    "Finanz-",
+    "finanziell"
+   ],
+   "page": "223-225",
+   "usage": "pl. economici, economiche"
+  },
+  {
+   "id": "u6-6a-019",
+   "target": "la banca, le banche",
+   "translations": [
+    "die Bank",
+    "Kreditinstitut"
+   ],
+   "page": "223-225",
+   "usage": "pl. le banche",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6a-020",
+   "target": "l’investimento",
+   "translations": [
+    "das Investment",
+    "die Investition"
+   ],
+   "page": "223-225"
+  },
+  {
+   "id": "u6-6a-021",
+   "target": "il/la quale",
+   "translations": [
+    "der",
+    "die",
+    "das"
+   ],
+   "page": "223-225",
+   "usage": "rel. pron."
+  },
+  {
+   "id": "u6-6a-022",
+   "target": "l’estero",
+   "translations": [
+    "das Ausland"
+   ],
+   "page": "223-225"
+  },
+  {
+   "id": "u6-6a-023",
+   "target": "la ditta",
+   "translations": [
+    "das Geschäft",
+    "die Firma"
+   ],
+   "page": "223-225",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6a-024",
+   "target": "il mese",
+   "translations": [
+    "der Monat"
+   ],
+   "page": "223-225",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6a-025",
+   "target": "la mostra",
+   "translations": [
+    "die Ausstellung"
+   ],
+   "page": "223-225",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6a-026",
+   "target": "il tifoso, la tifosa",
+   "translations": [
+    "der Fan"
+   ],
+   "page": "223-225",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6a-027",
+   "target": "tifare per qn/qs",
+   "translations": [
+    "jdn/etw. anfeuern",
+    "zu jdm/etw. halten"
+   ],
+   "page": "223-225"
+  },
+  {
+   "id": "u6-6a-028",
+   "target": "l’ingegneria",
+   "translations": [
+    "die Ingenieurwissenschaft"
+   ],
+   "page": "223-225"
+  },
+  {
+   "id": "u6-6a-029",
+   "target": "la residenza",
+   "translations": [
+    "das Wohnheim"
+   ],
+   "page": "223-225",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6a-030",
+   "target": "il politecnico",
+   "translations": [
+    "die Ingenieurakademie",
+    "technische Hochschule"
+   ],
+   "page": "223-225",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6a-031",
+   "target": "l’ambiente",
+   "translations": [
+    "das Umfeld",
+    "die Umgebung",
+    "die Umwelt"
+   ],
+   "page": "223-225",
+   "usage": "m."
+  },
+  {
+   "id": "u6-6a-032",
+   "target": "sia … che",
+   "translations": [
+    "sowohl … als auch"
+   ],
+   "page": "223-225"
+  },
+  {
+   "id": "u6-6a-033",
+   "target": "avere conosciuto",
+   "translations": [
+    "kennengelernt haben"
+   ],
+   "page": "223-225",
+   "usage": "conosco = ich kenne; ho conosciuto = ich habe kennengelernt"
+  },
+  {
+   "id": "u6-6a-034",
+   "target": "internazionale",
+   "translations": [
+    "international"
+   ],
+   "page": "223-225"
+  },
+  {
+   "id": "u6-6a-035",
+   "target": "provenire da qs",
+   "translations": [
+    "aus etw. kommen",
+    "herkommen"
+   ],
+   "page": "223-225",
+   "usage": "Abc"
+  },
+  {
+   "id": "u6-6a-036",
+   "target": "fortunato/-a",
+   "translations": [
+    "glücklich"
+   ],
+   "page": "223-225",
+   "usage": "essere fortunato = Glück haben"
+  },
+  {
+   "id": "u6-6a-037",
+   "target": "il traffico, i traffici",
+   "translations": [
+    "der Verkehr",
+    "der Stau"
+   ],
+   "page": "223-225",
+   "usage": "pl. i traffici",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6a-038",
+   "target": "lo scooter",
+   "translations": [
+    "der Motorroller",
+    "der Roller"
+   ],
+   "page": "223-225",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6a-039",
+   "target": "dato che",
+   "translations": [
+    "angesichts/aufgrund der Tatsache, dass"
+   ],
+   "page": "223-225"
+  },
+  {
+   "id": "u6-6a-040",
+   "target": "il continente",
+   "translations": [
+    "der Kontinent"
+   ],
+   "page": "223-225",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6a-041",
+   "target": "l’origine",
+   "translations": [
+    "die Herkunft",
+    "der Ursprung",
+    "die Quelle"
+   ],
+   "page": "223-225",
+   "usage": "f."
+  },
+  {
+   "id": "u6-6a-042",
+   "target": "il terzo",
+   "translations": [
+    "das Drittel"
+   ],
+   "page": "223-225",
+   "usage": "Bruchzahlen: (un) mezzo, un terzo, un quarto …",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6a-043",
+   "target": "l’iscritto/-a",
+   "translations": [
+    "der/die Immatrikulierte"
+   ],
+   "page": "223-225"
+  },
+  {
+   "id": "u6-6a-044",
+   "target": "extracomunitario/-a",
+   "translations": [
+    "nicht EU-",
+    "nicht zur EU gehörend"
+   ],
+   "page": "223-225"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 6",
+   "section": "6A Le tante facce di Milano",
+   "pages": "223-225"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Mailand",
+   "Mode",
+   "Stadt"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

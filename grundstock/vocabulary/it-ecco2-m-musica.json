@@ -1,0 +1,583 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-m-musica",
+ "title": "Ecco più 2 · Modulo · La musica popolare e la musica leggera italiana",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Volksmusik und Schlager (Modul, fakultativ)“ aus Ecco più 2 (Modulo, La musica popolare e la musica leggera italiana).",
+ "topics": [
+  "Musik",
+  "Lied",
+  "Kultur"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Modulo · La musica popolare e la musica leggera italiana",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 229-230 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "m-musica-001",
+   "target": "trattarsi di qc",
+   "translations": [
+    "sich um etw. handeln"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-musica-002",
+   "target": "popolare",
+   "translations": [
+    "Volks-",
+    "populär"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "usage": "agg."
+  },
+  {
+   "id": "m-musica-003",
+   "target": "la melodia",
+   "translations": [
+    "die Melodie"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-musica-004",
+   "target": "conosciuto/-a",
+   "translations": [
+    "bekannt"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-musica-005",
+   "target": "il testo",
+   "translations": [
+    "der Text"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-musica-006",
+   "target": "originale",
+   "translations": [
+    "Original-",
+    "ursprünglich"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "usage": "agg."
+  },
+  {
+   "id": "m-musica-007",
+   "target": "il dialetto",
+   "translations": [
+    "der Dialekt"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-musica-008",
+   "target": "rispecchiare",
+   "translations": [
+    "widerspiegeln"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-musica-009",
+   "target": "musicale",
+   "translations": [
+    "Musik-",
+    "musikalisch"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-musica-010",
+   "target": "tale",
+   "translations": [
+    "solche(r,s)",
+    "gewisse(r,s)"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "usage": "agg."
+  },
+  {
+   "id": "m-musica-011",
+   "target": "comporre qc, composto",
+   "translations": [
+    "etw. komponieren"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "usage": "p.p. composto"
+  },
+  {
+   "id": "m-musica-012",
+   "target": "la nazione",
+   "translations": [
+    "die Nation"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-musica-013",
+   "target": "sorprendere, sorpreso",
+   "translations": [
+    "überraschen"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "usage": "p.p. sorpreso"
+  },
+  {
+   "id": "m-musica-014",
+   "target": "regionale",
+   "translations": [
+    "regional"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-musica-015",
+   "target": "il canto",
+   "translations": [
+    "der Gesang"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-musica-016",
+   "target": "l’ottava rima",
+   "translations": [
+    "die Stanze (typische Gedichtform)"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-musica-017",
+   "target": "il palco",
+   "translations": [
+    "die Bühne"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-musica-018",
+   "target": "il cantautore, la cantautrice, i cantautori, le cantautrici",
+   "translations": [
+    "der/die Liedermacher/in"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "usage": "pl. i cantautori, le cantautrici",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-musica-019",
+   "target": "la creazione",
+   "translations": [
+    "die Kreation",
+    "die Schöpfung"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-musica-020",
+   "target": "proprio/-a, propri, proprie",
+   "translations": [
+    "eigene(r/s)"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "usage": "pl. propri, proprie"
+  },
+  {
+   "id": "m-musica-021",
+   "target": "la generazione",
+   "translations": [
+    "die Generation"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-musica-022",
+   "target": "il disco, i dischi",
+   "translations": [
+    "die (Musik-)Platte"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "usage": "pl. i dischi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-musica-023",
+   "target": "il genere",
+   "translations": [
+    "die Art",
+    "die Sorte"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-musica-024",
+   "target": "svolgersi, svolto",
+   "translations": [
+    "stattfinden",
+    "sich abspielen"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "usage": "p.p. svolto"
+  },
+  {
+   "id": "m-musica-025",
+   "target": "il vincitore",
+   "translations": [
+    "der/die Sieger/in"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-musica-026",
+   "target": "oltre a qn/qs",
+   "translations": [
+    "neben jdm./etw.",
+    "außer jdm./etw."
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-musica-027",
+   "target": "la sala",
+   "translations": [
+    "der Saal"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-musica-028",
+   "target": "il casinò, i casinò",
+   "translations": [
+    "das Kasino"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "usage": "pl. i casinò",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-musica-029",
+   "target": "l’edizione",
+   "translations": [
+    "die Ausgabe",
+    "die Veranstaltung"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-musica-030",
+   "target": "la categoria",
+   "translations": [
+    "die Kategorie"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-musica-031",
+   "target": "morto/-a",
+   "translations": [
+    "tot"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-musica-032",
+   "target": "l’orchestra",
+   "translations": [
+    "das Orchester"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-musica-033",
+   "target": "il record, i record",
+   "translations": [
+    "der Rekord",
+    "die Bestmarke"
+   ],
+   "page": "229-230",
+   "tags": [
+    "fakultativ"
+   ],
+   "usage": "pl. i record",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Modulo",
+   "section": "La musica popolare e la musica leggera italiana",
+   "pages": "229-230"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Musik",
+   "Lied",
+   "Kultur"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

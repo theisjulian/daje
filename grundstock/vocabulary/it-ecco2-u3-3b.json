@@ -1,0 +1,513 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u3-3b",
+ "title": "Ecco più 2 · Unità 3 · 3B Un progetto culturale europeo",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Ein europäisches Kulturprojekt“ aus Ecco più 2 (Unità 3, 3B Un progetto culturale europeo).",
+ "topics": [
+  "Europa",
+  "Kultur",
+  "Projekt"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 3 · 3B Un progetto culturale europeo",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 209-210 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u3-3b-001",
+   "target": "europeo/-a, europee",
+   "translations": [
+    "europäisch"
+   ],
+   "page": "209-210",
+   "usage": "pl. f. europee"
+  },
+  {
+   "id": "u3-3b-002",
+   "target": "ciò che / quello che",
+   "translations": [
+    "(das,) was"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-003",
+   "target": "la cultura",
+   "translations": [
+    "die Kultur"
+   ],
+   "page": "209-210",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-004",
+   "target": "il/la partner",
+   "translations": [
+    "der/die Partner/in"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-005",
+   "target": "personalmente",
+   "translations": [
+    "persönlich"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-006",
+   "target": "il carattere",
+   "translations": [
+    "der Charakter",
+    "die Eigenheit"
+   ],
+   "page": "209-210",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-007",
+   "target": "nazionale",
+   "translations": [
+    "national"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-008",
+   "target": "il parlamento",
+   "translations": [
+    "das Parlament"
+   ],
+   "page": "209-210",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-009",
+   "target": "olimpico/-a",
+   "translations": [
+    "Olympia-",
+    "olympisch"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-010",
+   "target": "rilassarsi",
+   "translations": [
+    "sich erholen",
+    "sich entspannen"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-011",
+   "target": "stamattina",
+   "translations": [
+    "heute früh",
+    "heute Morgen"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-012",
+   "target": "la visita",
+   "translations": [
+    "die Besichtigung",
+    "der Besuch"
+   ],
+   "page": "209-210",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-013",
+   "target": "il questionario, i questionari",
+   "translations": [
+    "der Fragebogen"
+   ],
+   "page": "209-210",
+   "usage": "pl. i questionari",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-014",
+   "target": "compilare",
+   "translations": [
+    "ausfüllen"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-015",
+   "target": "piacere",
+   "translations": [
+    "gefallen"
+   ],
+   "page": "209-210",
+   "usage": "Abc"
+  },
+  {
+   "id": "u3-3b-016",
+   "target": "ovviamente",
+   "translations": [
+    "offensichtlich",
+    "natürlich"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-017",
+   "target": "spendere, speso",
+   "translations": [
+    "ausgeben"
+   ],
+   "page": "209-210",
+   "usage": "p.p. speso"
+  },
+  {
+   "id": "u3-3b-018",
+   "target": "il menù",
+   "translations": [
+    "die Speisekarte"
+   ],
+   "page": "209-210",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-019",
+   "target": "l’acqua frizzante",
+   "translations": [
+    "Wasser mit Kohlensäure"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-020",
+   "target": "la trattoria",
+   "translations": [
+    "italienische Gaststättenart"
+   ],
+   "page": "209-210",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-021",
+   "target": "prenotare",
+   "translations": [
+    "vorbestellen",
+    "reservieren"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-022",
+   "target": "scoprire, scoperto",
+   "translations": [
+    "entdecken"
+   ],
+   "page": "209-210",
+   "usage": "p.p. scoperto"
+  },
+  {
+   "id": "u3-3b-023",
+   "target": "il coperto",
+   "translations": [
+    "Gebühr für Tischgedeck"
+   ],
+   "page": "209-210",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-024",
+   "target": "che cosa vuol dire",
+   "translations": [
+    "was bedeutet (es) / …"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-025",
+   "target": "il conto",
+   "translations": [
+    "die Rechnung",
+    "die Summe"
+   ],
+   "page": "209-210",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-026",
+   "target": "separato/-a",
+   "translations": [
+    "getrennt"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-027",
+   "target": "quindi",
+   "translations": [
+    "also",
+    "daher"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-028",
+   "target": "funzionare",
+   "translations": [
+    "funktionieren"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-029",
+   "target": "pagare alla romana",
+   "translations": [
+    "Zahlungsart aller Teilnehmer/innen zu gleichen Anteilen"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-030",
+   "target": "il modo",
+   "translations": [
+    "die Art",
+    "die Weise"
+   ],
+   "page": "209-210",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-031",
+   "target": "lontano/-a",
+   "translations": [
+    "weit"
+   ],
+   "page": "209-210",
+   "usage": "≠ vicino/-a"
+  },
+  {
+   "id": "u3-3b-032",
+   "target": "da lontano",
+   "translations": [
+    "von Weitem",
+    "aus der Ferne"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-033",
+   "target": "in tutti i sensi",
+   "translations": [
+    "in jeder Hinsicht"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-034",
+   "target": "strano/-a",
+   "translations": [
+    "seltsam",
+    "merkwürdig"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-035",
+   "target": "il piatto",
+   "translations": [
+    "das Gericht",
+    "die Speise",
+    "der Teller"
+   ],
+   "page": "209-210",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-036",
+   "target": "l’acqua naturale",
+   "translations": [
+    "stilles Wasser"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-037",
+   "target": "la differenza",
+   "translations": [
+    "der Unterschied"
+   ],
+   "page": "209-210",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-038",
+   "target": "avere in comune qs",
+   "translations": [
+    "etw. gemeinsam haben"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-039",
+   "target": "sorprendente",
+   "translations": [
+    "überraschend",
+    "erstaunlich"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-040",
+   "target": "visto che",
+   "translations": [
+    "da"
+   ],
+   "page": "209-210"
+  },
+  {
+   "id": "u3-3b-041",
+   "target": "il/la coetaneo/-a, le coetanee",
+   "translations": [
+    "der/die Alters-/Zeitgenosse/-in"
+   ],
+   "page": "209-210",
+   "usage": "pl. f. le coetanee"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 3",
+   "section": "3B Un progetto culturale europeo",
+   "pages": "209-210"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Europa",
+   "Kultur",
+   "Projekt"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

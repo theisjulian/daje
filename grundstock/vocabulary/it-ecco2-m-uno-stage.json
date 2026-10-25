@@ -1,0 +1,720 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-m-uno-stage",
+ "title": "Ecco più 2 · Modulo · Uno stage",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Das Praktikum (Modul, fakultativ)“ aus Ecco più 2 (Modulo, Uno stage).",
+ "topics": [
+  "Praktikum",
+  "Bewerbung",
+  "Arbeit"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Modulo · Uno stage",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 228-229 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "m-uno-stage-001",
+   "target": "lo stage",
+   "translations": [
+    "das Praktikum"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ],
+   "usage": "[staʒ]: g weich, e am Ende nicht gesprochen",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-uno-stage-002",
+   "target": "il/la protagonista",
+   "translations": [
+    "die Hauptfigur"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-003",
+   "target": "il marketing",
+   "translations": [
+    "das Marketing"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-uno-stage-004",
+   "target": "noto/-a",
+   "translations": [
+    "bekannt"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-005",
+   "target": "sviluppare",
+   "translations": [
+    "entwickeln"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-006",
+   "target": "conosciuto/-a",
+   "translations": [
+    "bekannt"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-007",
+   "target": "l’oggetto",
+   "translations": [
+    "der Betreff (Mail)"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-008",
+   "target": "Gentilissimo/-a",
+   "translations": [
+    "Sehr geehrte/r (Anrede: Brief, Mail)"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-009",
+   "target": "statale",
+   "translations": [
+    "staatlich"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-010",
+   "target": "l’annuncio",
+   "translations": [
+    "die Anzeige (Stellensuche)"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-011",
+   "target": "corrente",
+   "translations": [
+    "fließend (Sprache)"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-012",
+   "target": "oltre a qn/qs",
+   "translations": [
+    "neben jdm/etw."
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-013",
+   "target": "di base",
+   "translations": [
+    "Basis-",
+    "Grund-"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-014",
+   "target": "frequentare",
+   "translations": [
+    "besuchen"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-015",
+   "target": "utilizzare",
+   "translations": [
+    "benutzen",
+    "anwenden"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-016",
+   "target": "abituale",
+   "translations": [
+    "gewöhnlich"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-017",
+   "target": "la lingua materna",
+   "translations": [
+    "die Muttersprache"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-uno-stage-018",
+   "target": "intensivo/-a",
+   "translations": [
+    "intensiv"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-019",
+   "target": "il livello",
+   "translations": [
+    "das Niveau",
+    "das Level"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-uno-stage-020",
+   "target": "scolastico/-a",
+   "translations": [
+    "Schul-",
+    "schulisch"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-021",
+   "target": "il senso",
+   "translations": [
+    "der Sinn"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-uno-stage-022",
+   "target": "l’organizzazione",
+   "translations": [
+    "die Organisation"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ],
+   "usage": "f."
+  },
+  {
+   "id": "m-uno-stage-023",
+   "target": "individuale",
+   "translations": [
+    "individuell"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-024",
+   "target": "realizzare",
+   "translations": [
+    "realisieren"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-025",
+   "target": "la presentazione",
+   "translations": [
+    "die Präsentation"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-uno-stage-026",
+   "target": "l’abilità",
+   "translations": [
+    "die Fähigkeit",
+    "das Geschick"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-027",
+   "target": "l’esperienza",
+   "translations": [
+    "die Erfahrung"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-028",
+   "target": "il/la cliente",
+   "translations": [
+    "der Kunde",
+    "die Kundin"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-029",
+   "target": "essere in grado di (fare qs)",
+   "translations": [
+    "in der Lage sein (etw. zu tun)"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ],
+   "acceptedAnswers": [
+    "essere in grado di"
+   ]
+  },
+  {
+   "id": "m-uno-stage-030",
+   "target": "soddisfacente",
+   "translations": [
+    "zufriedenstellend"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-031",
+   "target": "il periodo",
+   "translations": [
+    "der Zeitraum"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-uno-stage-032",
+   "target": "l’entusiasmo",
+   "translations": [
+    "die Begeisterung"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-033",
+   "target": "in attesa",
+   "translations": [
+    "in Erwartung (Brief)"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-034",
+   "target": "cortese",
+   "translations": [
+    "freundlich"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-035",
+   "target": "la risposta",
+   "translations": [
+    "die Antwort"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-uno-stage-036",
+   "target": "porgere i saluti a qn",
+   "translations": [
+    "jdn begrüßen (formell in Briefen)"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-037",
+   "target": "cordiale",
+   "translations": [
+    "herzlich"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-038",
+   "target": "la data di nascita",
+   "translations": [
+    "das Geburtsdatum"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-uno-stage-039",
+   "target": "il diploma",
+   "translations": [
+    "das (Abschluss-)Zeugnis"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-uno-stage-040",
+   "target": "conseguire",
+   "translations": [
+    "erreichen"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-041",
+   "target": "presso",
+   "translations": [
+    "bei",
+    "hier: an"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-042",
+   "target": "fluente",
+   "translations": [
+    "fließend (Sprache)"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-043",
+   "target": "scritto/-a",
+   "translations": [
+    "schriftlich"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-044",
+   "target": "orale",
+   "translations": [
+    "mündlich"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-045",
+   "target": "l’applicazione",
+   "translations": [
+    "die Anwendung"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ],
+   "usage": "f."
+  },
+  {
+   "id": "m-uno-stage-046",
+   "target": "il supporto",
+   "translations": [
+    "die Unterstützung"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-uno-stage-047",
+   "target": "l’allegato",
+   "translations": [
+    "der Anhang (Mail)"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "m-uno-stage-048",
+   "target": "il curriculum (vitae)",
+   "translations": [
+    "der Lebenslauf"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ],
+   "acceptedAnswers": [
+    "il curriculum"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m-uno-stage-049",
+   "target": "l’istruzione",
+   "translations": [
+    "die Ausbildung",
+    "die Weiterbildung"
+   ],
+   "page": "228-229",
+   "tags": [
+    "fakultativ"
+   ],
+   "usage": "f."
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Modulo",
+   "section": "Uno stage",
+   "pages": "228-229"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Praktikum",
+   "Bewerbung",
+   "Arbeit"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

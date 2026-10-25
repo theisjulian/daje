@@ -1,0 +1,580 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u1-approccio",
+ "title": "Ecco più 2 · Unità 1 · Approccio",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „La Puglia – allora e oggi“ aus Ecco più 2 (Unità 1, Approccio).",
+ "topics": [
+  "Apulien",
+  "Geografie",
+  "Landschaft"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 1 · Approccio",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 198-199 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u1-approccio-001",
+   "target": "il tacco, i tacchi",
+   "translations": [
+    "der Absatz"
+   ],
+   "page": "198-199",
+   "usage": "pl. i tacchi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-002",
+   "target": "la superficie, le superfici",
+   "translations": [
+    "die Fläche",
+    "die Oberfläche"
+   ],
+   "page": "198-199",
+   "usage": "pl. le superfici",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-003",
+   "target": "il chilometro (quadrato)",
+   "translations": [
+    "der (Quadrat-)Kilometer"
+   ],
+   "page": "198-199",
+   "acceptedAnswers": [
+    "il chilometro"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-004",
+   "target": "il milione",
+   "translations": [
+    "die Million"
+   ],
+   "page": "198-199",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-005",
+   "target": "l’abitante",
+   "translations": [
+    "der/die Bewohner/-in"
+   ],
+   "page": "198-199",
+   "usage": "m./f."
+  },
+  {
+   "id": "u1-approccio-006",
+   "target": "il capoluogo, i capoluoghi",
+   "translations": [
+    "die Landeshauptstadt"
+   ],
+   "page": "198-199",
+   "usage": "pl. i capoluoghi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-007",
+   "target": "l’albero",
+   "translations": [
+    "der Baum"
+   ],
+   "page": "198-199"
+  },
+  {
+   "id": "u1-approccio-008",
+   "target": "creare",
+   "translations": [
+    "bilden",
+    "erschaffen"
+   ],
+   "page": "198-199"
+  },
+  {
+   "id": "u1-approccio-009",
+   "target": "il bosco, i boschi",
+   "translations": [
+    "der Wald"
+   ],
+   "page": "198-199",
+   "usage": "pl. i boschi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-010",
+   "target": "l’ombra",
+   "translations": [
+    "der Schatten"
+   ],
+   "page": "198-199"
+  },
+  {
+   "id": "u1-approccio-011",
+   "target": "il santo / la santa",
+   "translations": [
+    "der/die Heilige"
+   ],
+   "page": "198-199"
+  },
+  {
+   "id": "u1-approccio-012",
+   "target": "la chiesa",
+   "translations": [
+    "die Kirche"
+   ],
+   "page": "198-199",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-013",
+   "target": "celebrare",
+   "translations": [
+    "feiern"
+   ],
+   "page": "198-199"
+  },
+  {
+   "id": "u1-approccio-014",
+   "target": "da … a",
+   "translations": [
+    "von … bis"
+   ],
+   "page": "198-199"
+  },
+  {
+   "id": "u1-approccio-015",
+   "target": "famoso/-a",
+   "translations": [
+    "berühmt",
+    "bekannt"
+   ],
+   "page": "198-199"
+  },
+  {
+   "id": "u1-approccio-016",
+   "target": "infatti",
+   "translations": [
+    "tatsächlich"
+   ],
+   "page": "198-199"
+  },
+  {
+   "id": "u1-approccio-017",
+   "target": "la moneta",
+   "translations": [
+    "die Münze"
+   ],
+   "page": "198-199",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-018",
+   "target": "il centesimo",
+   "translations": [
+    "der Cent"
+   ],
+   "page": "198-199",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-019",
+   "target": "il castello",
+   "translations": [
+    "die Burg",
+    "das Schloss"
+   ],
+   "page": "198-199",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-020",
+   "target": "medi(o)evale",
+   "translations": [
+    "mittelalterlich"
+   ],
+   "page": "198-199",
+   "acceptedAnswers": [
+    "medievale"
+   ]
+  },
+  {
+   "id": "u1-approccio-021",
+   "target": "l’imperatore / l’imperatrice",
+   "translations": [
+    "der/die Kaiser/-in"
+   ],
+   "page": "198-199"
+  },
+  {
+   "id": "u1-approccio-022",
+   "target": "il tetto",
+   "translations": [
+    "das Dach"
+   ],
+   "page": "198-199",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-023",
+   "target": "tipico/-a",
+   "translations": [
+    "typisch"
+   ],
+   "page": "198-199"
+  },
+  {
+   "id": "u1-approccio-024",
+   "target": "la pietra",
+   "translations": [
+    "der Stein"
+   ],
+   "page": "198-199",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-025",
+   "target": "Sapevi che …",
+   "translations": [
+    "Wusstest du, dass …"
+   ],
+   "page": "198-199"
+  },
+  {
+   "id": "u1-approccio-026",
+   "target": "la regione",
+   "translations": [
+    "die Region"
+   ],
+   "page": "198-199",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-027",
+   "target": "l’olio",
+   "translations": [
+    "das Öl"
+   ],
+   "page": "198-199"
+  },
+  {
+   "id": "u1-approccio-028",
+   "target": "l’oliva",
+   "translations": [
+    "die Olive"
+   ],
+   "page": "198-199"
+  },
+  {
+   "id": "u1-approccio-029",
+   "target": "la produzione",
+   "translations": [
+    "die Produktion"
+   ],
+   "page": "198-199",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-030",
+   "target": "la pasta",
+   "translations": [
+    "die Pasta",
+    "die Nudeln"
+   ],
+   "page": "198-199",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-031",
+   "target": "la costa",
+   "translations": [
+    "die Küste"
+   ],
+   "page": "198-199",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-032",
+   "target": "offrire, offerto",
+   "translations": [
+    "(an-)bieten"
+   ],
+   "page": "198-199",
+   "usage": "p.p. offerto"
+  },
+  {
+   "id": "u1-approccio-033",
+   "target": "la sabbia",
+   "translations": [
+    "der Sand"
+   ],
+   "page": "198-199",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-034",
+   "target": "lo scoglio",
+   "translations": [
+    "die Klippe"
+   ],
+   "page": "198-199",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-035",
+   "target": "dappertutto",
+   "translations": [
+    "überall"
+   ],
+   "page": "198-199"
+  },
+  {
+   "id": "u1-approccio-036",
+   "target": "pulito/-a",
+   "translations": [
+    "sauber"
+   ],
+   "page": "198-199"
+  },
+  {
+   "id": "u1-approccio-037",
+   "target": "l’esempio, gli esempi",
+   "translations": [
+    "das Beispiel"
+   ],
+   "page": "198-199",
+   "usage": "pl. gli esempi"
+  },
+  {
+   "id": "u1-approccio-038",
+   "target": "il porto",
+   "translations": [
+    "der Hafen"
+   ],
+   "page": "198-199",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-039",
+   "target": "nord",
+   "translations": [
+    "Norden"
+   ],
+   "page": "198-199"
+  },
+  {
+   "id": "u1-approccio-040",
+   "target": "sud",
+   "translations": [
+    "Süden"
+   ],
+   "page": "198-199"
+  },
+  {
+   "id": "u1-approccio-041",
+   "target": "est",
+   "translations": [
+    "Osten"
+   ],
+   "page": "198-199"
+  },
+  {
+   "id": "u1-approccio-042",
+   "target": "ovest",
+   "translations": [
+    "Westen"
+   ],
+   "page": "198-199"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 1",
+   "section": "Approccio",
+   "pages": "198-199"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Apulien",
+   "Geografie",
+   "Landschaft"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

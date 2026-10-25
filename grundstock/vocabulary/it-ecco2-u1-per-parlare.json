@@ -1,0 +1,446 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u1-per-parlare",
+ "title": "Ecco più 2 · Unità 1 · Per parlare",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Über ein Land/eine Region sprechen“ aus Ecco più 2 (Unità 1, Per parlare).",
+ "topics": [
+  "Landschaft",
+  "Region",
+  "Geografie"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 1 · Per parlare",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 202 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u1-per-parlare-001",
+   "target": "il paese",
+   "translations": [
+    "das Land (= Italia, Germania)",
+    "das Dorf"
+   ],
+   "page": "202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-per-parlare-002",
+   "target": "la capitale",
+   "translations": [
+    "die Hauptstadt"
+   ],
+   "page": "202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-per-parlare-003",
+   "target": "il capoluogo",
+   "translations": [
+    "die Landeshauptstadt"
+   ],
+   "page": "202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-per-parlare-004",
+   "target": "la città",
+   "translations": [
+    "die Stadt"
+   ],
+   "page": "202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-per-parlare-005",
+   "target": "la via",
+   "translations": [
+    "die Straße",
+    "der Weg"
+   ],
+   "page": "202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-per-parlare-006",
+   "target": "la strada",
+   "translations": [
+    "die Straße"
+   ],
+   "page": "202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-per-parlare-007",
+   "target": "l’autostrada",
+   "translations": [
+    "die Autobahn"
+   ],
+   "page": "202"
+  },
+  {
+   "id": "u1-per-parlare-008",
+   "target": "la strada di campagna",
+   "translations": [
+    "die Landstraße"
+   ],
+   "page": "202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-per-parlare-009",
+   "target": "la ferrovia",
+   "translations": [
+    "die Eisenbahn"
+   ],
+   "page": "202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-per-parlare-010",
+   "target": "il fiume",
+   "translations": [
+    "der Fluss"
+   ],
+   "page": "202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-per-parlare-011",
+   "target": "il mare",
+   "translations": [
+    "das Meer"
+   ],
+   "page": "202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-per-parlare-012",
+   "target": "il porto",
+   "translations": [
+    "der Hafen"
+   ],
+   "page": "202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-per-parlare-013",
+   "target": "il monte",
+   "translations": [
+    "der Berg"
+   ],
+   "page": "202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-per-parlare-014",
+   "target": "la montagna",
+   "translations": [
+    "das Gebirge"
+   ],
+   "page": "202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-per-parlare-015",
+   "target": "avere un’altezza di (6500) metri",
+   "translations": [
+    "(6500) Meter hoch sein"
+   ],
+   "page": "202",
+   "acceptedAnswers": [
+    "avere un’altezza di metri"
+   ]
+  },
+  {
+   "id": "u1-per-parlare-016",
+   "target": "il lago",
+   "translations": [
+    "der See"
+   ],
+   "page": "202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-per-parlare-017",
+   "target": "il bosco",
+   "translations": [
+    "der Wald"
+   ],
+   "page": "202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-per-parlare-018",
+   "target": "il campo",
+   "translations": [
+    "das Feld"
+   ],
+   "page": "202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-per-parlare-019",
+   "target": "la campagna",
+   "translations": [
+    "das Land (≠ Stadt)"
+   ],
+   "page": "202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-per-parlare-020",
+   "target": "trovarsi (nel nord)",
+   "translations": [
+    "sich (im Norden) befinden"
+   ],
+   "page": "202",
+   "acceptedAnswers": [
+    "trovarsi"
+   ]
+  },
+  {
+   "id": "u1-per-parlare-021",
+   "target": "vicino alle (montagne)",
+   "translations": [
+    "in der Nähe der Berge"
+   ],
+   "page": "202",
+   "acceptedAnswers": [
+    "vicino alle"
+   ]
+  },
+  {
+   "id": "u1-per-parlare-022",
+   "target": "non lontano dal (mare)",
+   "translations": [
+    "in der Nähe vom (Meer)",
+    "nicht weit vom (Meer)"
+   ],
+   "page": "202",
+   "acceptedAnswers": [
+    "non lontano dal"
+   ]
+  },
+  {
+   "id": "u1-per-parlare-023",
+   "target": "l’abitante",
+   "translations": [
+    "der/die Einwohner/in"
+   ],
+   "page": "202"
+  },
+  {
+   "id": "u1-per-parlare-024",
+   "target": "la lingua ufficiale",
+   "translations": [
+    "die Amtssprache"
+   ],
+   "page": "202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-per-parlare-025",
+   "target": "(essere) tipico/-a",
+   "translations": [
+    "typisch"
+   ],
+   "page": "202",
+   "acceptedAnswers": [
+    "tipico/-a"
+   ]
+  },
+  {
+   "id": "u1-per-parlare-026",
+   "target": "(essere) famoso/-a per …",
+   "translations": [
+    "berühmt/bekannt sein für …"
+   ],
+   "page": "202",
+   "acceptedAnswers": [
+    "famoso/-a per …"
+   ]
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 1",
+   "section": "Per parlare",
+   "pages": "202"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Landschaft",
+   "Region",
+   "Geografie"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

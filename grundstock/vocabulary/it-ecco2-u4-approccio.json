@@ -1,0 +1,581 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u4-approccio",
+ "title": "Ecco più 2 · Unità 4 · Approccio",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Andare a scuola e lavorare“ aus Ecco più 2 (Unità 4, Approccio).",
+ "topics": [
+  "Schule",
+  "Arbeit",
+  "Beruf"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 4 · Approccio",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 212-214 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u4-approccio-001",
+   "target": "la scuola elementare",
+   "translations": [
+    "die Grundschule"
+   ],
+   "page": "212-214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-002",
+   "target": "la scuola media",
+   "translations": [
+    "3-jährige Schule der Sekundarstufe I"
+   ],
+   "page": "212-214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-003",
+   "target": "scolastico/-a, scolastici, scolastiche",
+   "translations": [
+    "Schul-"
+   ],
+   "page": "212-214",
+   "usage": "pl. scolastici, scolastiche"
+  },
+  {
+   "id": "u4-approccio-004",
+   "target": "l’obbligo scolastico",
+   "translations": [
+    "die Schulpflicht"
+   ],
+   "page": "212-214"
+  },
+  {
+   "id": "u4-approccio-005",
+   "target": "la metà",
+   "translations": [
+    "die Hälfte"
+   ],
+   "page": "212-214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-006",
+   "target": "la terza media",
+   "translations": [
+    "dritte Klasse der Sek. I (entspricht 8. Schuljahr)"
+   ],
+   "page": "212-214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-007",
+   "target": "il percento",
+   "translations": [
+    "das Prozent"
+   ],
+   "page": "212-214",
+   "usage": "Vor Prozentzahlen steht immer il bzw. l’",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-008",
+   "target": "la possibilità",
+   "translations": [
+    "die Möglichkeit"
+   ],
+   "page": "212-214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-009",
+   "target": "l’istituto professionale",
+   "translations": [
+    "die Berufsfachschule (Sekundarstufe II)"
+   ],
+   "page": "212-214"
+  },
+  {
+   "id": "u4-approccio-010",
+   "target": "l’istituto tecnico",
+   "translations": [
+    "die Fachoberschule (Sekundarstufe II)"
+   ],
+   "page": "212-214"
+  },
+  {
+   "id": "u4-approccio-011",
+   "target": "tecnico/-a, tecnici, tecniche",
+   "translations": [
+    "technisch"
+   ],
+   "page": "212-214",
+   "usage": "pl. tecnici, tecniche"
+  },
+  {
+   "id": "u4-approccio-012",
+   "target": "il/la giornalista",
+   "translations": [
+    "der/die Journalist/in"
+   ],
+   "page": "212-214"
+  },
+  {
+   "id": "u4-approccio-013",
+   "target": "intervistare",
+   "translations": [
+    "interviewen"
+   ],
+   "page": "212-214"
+  },
+  {
+   "id": "u4-approccio-014",
+   "target": "il sogno",
+   "translations": [
+    "der Traum"
+   ],
+   "page": "212-214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-015",
+   "target": "la giurisprudenza",
+   "translations": [
+    "Jura",
+    "die Rechtswissenschaft"
+   ],
+   "page": "212-214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-016",
+   "target": "il/la notaio/-a, i notai",
+   "translations": [
+    "der/die Notar/in"
+   ],
+   "page": "212-214",
+   "usage": "pl. i notai"
+  },
+  {
+   "id": "u4-approccio-017",
+   "target": "la professione",
+   "translations": [
+    "der Beruf"
+   ],
+   "page": "212-214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-018",
+   "target": "rispettato/-a",
+   "translations": [
+    "angesehen",
+    "respektiert"
+   ],
+   "page": "212-214"
+  },
+  {
+   "id": "u4-approccio-019",
+   "target": "il/la restauratore/restauratrice",
+   "translations": [
+    "der/die Restaurator/in"
+   ],
+   "page": "212-214"
+  },
+  {
+   "id": "u4-approccio-020",
+   "target": "il mobile",
+   "translations": [
+    "das Möbel(-stück)"
+   ],
+   "page": "212-214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-021",
+   "target": "il mestiere",
+   "translations": [
+    "der (Handwerks-)Beruf",
+    "das Gewerbe"
+   ],
+   "page": "212-214",
+   "usage": "Unterscheide: il mestiere (handwerklich) – la professione (erlernt)",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-022",
+   "target": "il lavoro",
+   "translations": [
+    "die Arbeit"
+   ],
+   "page": "212-214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-023",
+   "target": "dare fastidio a qn",
+   "translations": [
+    "jdn stören"
+   ],
+   "page": "212-214",
+   "usage": "Abc"
+  },
+  {
+   "id": "u4-approccio-024",
+   "target": "l’ufficio, gli uffici",
+   "translations": [
+    "das Büro"
+   ],
+   "page": "212-214",
+   "usage": "pl. gli uffici"
+  },
+  {
+   "id": "u4-approccio-025",
+   "target": "viaggiare",
+   "translations": [
+    "reisen"
+   ],
+   "page": "212-214"
+  },
+  {
+   "id": "u4-approccio-026",
+   "target": "l’azienda (di export)",
+   "translations": [
+    "das (Export-)Unternehmen"
+   ],
+   "page": "212-214",
+   "acceptedAnswers": [
+    "l’azienda"
+   ]
+  },
+  {
+   "id": "u4-approccio-027",
+   "target": "numeroso/-a",
+   "translations": [
+    "zahlreich",
+    "unzählig",
+    "kinderreich"
+   ],
+   "page": "212-214"
+  },
+  {
+   "id": "u4-approccio-028",
+   "target": "l’asilo",
+   "translations": [
+    "der Kindergarten"
+   ],
+   "page": "212-214"
+  },
+  {
+   "id": "u4-approccio-029",
+   "target": "lo stress",
+   "translations": [
+    "der Stress"
+   ],
+   "page": "212-214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-030",
+   "target": "la verità",
+   "translations": [
+    "die Wahrheit"
+   ],
+   "page": "212-214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-031",
+   "target": "la maturità",
+   "translations": [
+    "das Abitur",
+    "die Reife"
+   ],
+   "page": "212-214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-032",
+   "target": "la carriera",
+   "translations": [
+    "die Karriere"
+   ],
+   "page": "212-214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-033",
+   "target": "non … affatto",
+   "translations": [
+    "(ganz und) gar nicht"
+   ],
+   "page": "212-214"
+  },
+  {
+   "id": "u4-approccio-034",
+   "target": "qs piacerebbe a qn",
+   "translations": [
+    "etwas würde jdm gefallen / gefiele jdm"
+   ],
+   "page": "212-214"
+  },
+  {
+   "id": "u4-approccio-035",
+   "target": "comandare",
+   "translations": [
+    "befehlen",
+    "kommandieren"
+   ],
+   "page": "212-214"
+  },
+  {
+   "id": "u4-approccio-036",
+   "target": "vorrebbe",
+   "translations": [
+    "er/sie/es möchte",
+    "hätte gern"
+   ],
+   "page": "212-214",
+   "usage": "3. Pers. von vorrei"
+  },
+  {
+   "id": "u4-approccio-037",
+   "target": "il capo",
+   "translations": [
+    "der/die Chef/in"
+   ],
+   "page": "212-214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-038",
+   "target": "aggiungere (aggiungo), aggiunto",
+   "translations": [
+    "ergänzen",
+    "hinzufügen"
+   ],
+   "page": "212-214",
+   "acceptedAnswers": [
+    "aggiungere, aggiunto"
+   ],
+   "usage": "p.p. aggiunto"
+  },
+  {
+   "id": "u4-approccio-039",
+   "target": "siccome",
+   "translations": [
+    "da",
+    "weil"
+   ],
+   "page": "212-214"
+  },
+  {
+   "id": "u4-approccio-040",
+   "target": "pugliese",
+   "translations": [
+    "apulisch"
+   ],
+   "page": "212-214",
+   "tags": [
+    "fakultativ"
+   ]
+  },
+  {
+   "id": "u4-approccio-041",
+   "target": "la specialità",
+   "translations": [
+    "die Spezialität"
+   ],
+   "page": "212-214",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-042",
+   "target": "all’estero",
+   "translations": [
+    "im Ausland"
+   ],
+   "page": "212-214"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 4",
+   "section": "Approccio",
+   "pages": "212-214"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Schule",
+   "Arbeit",
+   "Beruf"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

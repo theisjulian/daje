@@ -2,7 +2,7 @@
    Neue Bücher oder einzelne Listen (z. B. „Politik Oberstufe“) erscheinen automatisch als eigene Karte. */
 let wsSynth = null;
 {
-  const ws = { coll: null, mode: 'lesson', sel: new Set(), from: '', to: '', cum: true };
+  const ws = { coll: null, mode: 'lesson', sel: new Set(), from: '', to: '', cum: true, opt: true };
   const baseContentList = contentList;
   contentList = function (kind) {
     const list = baseContentList(kind);
@@ -129,16 +129,18 @@ let wsSynth = null;
     const inRange = chosen(c);
     const pageView = `<div class="ws-tools"><label>von Seite <input type="number" inputmode="numeric" data-ws="from" min="${pMin}" max="${pMax}" value="${esc(String(ws.from))}"></label><label>bis einschließlich Seite <input type="number" inputmode="numeric" data-ws="to" min="${pMin}" max="${pMax}" value="${esc(String(ws.to))}"></label><button class="quiet" data-ws="allpages">Ganzes Buch</button></div><p class="muted small">Seitenzahlen beziehen sich auf die Lista cronologica im Anhang des Buchs. Abschnitte, die den Bereich berühren, sind enthalten.</p>${inRange.map(s => `<div class="ws-row"><span class="ws-pick"><span><b>${esc(s.title)}</b><small>${[s.unit, pagesText(s.pages), plural(s.n, 'Wort', 'Wörter')].filter(Boolean).join(' · ')}</small></span></span></div>`).join('') || '<p class="muted">In diesem Bereich liegt noch kein Abschnitt.</p>'}`;
     const prior = earlierVolumes(c);
-    const cumBox = c.volume > 1 && prior.length ? `<label class="ws-cum"><input type="checkbox" data-ws="cum" ${ws.cum ? 'checked' : ''}> ${esc(prior.map(z => z.title).join(', '))} als bekannt voraussetzen und mitrechnen</label>` : '';
+    const cumBox = c.volume > 1 && prior.length ? `<label class="ws-cum"><input type="checkbox" data-ws="cum" ${ws.cum ? 'checked' : ''}> <b>${esc(prior.map(z => z.title).join(', '))}</b> <span>als bekannt voraussetzen und mitrechnen</span></label>` : '';
     const sel = chosen(c);
-    const words = sel.reduce((s, z) => s + z.n, 0) + prior.reduce((s, z) => s + z.n, 0);
+    const words = [...prior.flatMap(z => z.secs), ...sel].reduce((s, z) => s + secWords(z).length, 0);
+    const optBox = c.secs.some(z => z.id && (contentList('vocabulary').find(x => x.id === z.id) || { entries: [] }).entries.some(w => (w.tags || []).includes('fakultativ'))) ? `<label class="ws-cum"><input type="checkbox" data-ws="opt" ${ws.opt ? 'checked' : ''}> Fakultativen Wortschatz (im Buch kursiv) einbeziehen</label>` : '';
     $('main').innerHTML = `<div class="page ws-page">
       <button class="quiet" data-ws="home">← Wortschatz</button>
       <header class="page-head"><div class="eyebrow">${esc(c.kind)}${c.sub ? ' · ' + esc(c.sub) : ''}</div><h1>${esc(c.title)}</h1><p>${plural(c.secs.length, 'Abschnitt', 'Abschnitte')} · ${plural(c.n, 'Wort', 'Wörter')} · ${c.seen} geübt</p></header>
       ${hasPages ? `<div class="ws-seg" role="tablist"><button role="tab" aria-selected="${ws.mode === 'lesson'}" data-ws="mode" data-wsmode="lesson">Nach Lektion</button><button role="tab" aria-selected="${ws.mode === 'page'}" data-ws="mode" data-wsmode="page">Nach Seiten</button></div>` : ''}
       ${cumBox}
+      ${optBox}
       ${ws.mode === 'page' ? pageView : lessonView}
-      <div class="ws-action ${words ? 'on' : ''}"><span><b>${plural(words, 'Wort', 'Wörter')}</b> · ${plural(sel.length + prior.length, 'Abschnitt', 'Abschnitte')} ausgewählt</span><span class="ws-btns"><button class="button primary" data-ws="train" ${words ? '' : 'disabled'}>Auswahl üben</button>${isTeacher() ? `<button class="button secondary" data-ws="print" ${words ? '' : 'disabled'}>Drucken / Word</button>` : ''}</span></div>
+      <div class="ws-action ${words ? 'on' : ''}"><span><b>${plural(words, 'Wort', 'Wörter')}</b> · ${plural(sel.length + prior.reduce((n, z) => n + z.secs.length, 0), 'Abschnitt', 'Abschnitte')} ausgewählt</span><span class="ws-btns"><button class="button primary" data-ws="train" ${words ? '' : 'disabled'}>Auswahl üben</button>${isTeacher() ? `<button class="button secondary" data-ws="print" ${words ? '' : 'disabled'}>Drucken / Word</button>` : ''}</span></div>
     </div>`;
   }
 
@@ -150,7 +152,7 @@ let wsSynth = null;
     if (s.base) return WORDS.filter(w => w.group === s.base);
     const x = contentList('vocabulary').find(z => z.id === s.id);
     return x
-      ? x.entries.map(w => ({ id: x.id + '-' + w.id, target: w.target, translations: w.translations, acceptedAnswers: w.acceptedAnswers, grammar: w.grammar, answerPolicy: w.answerPolicy, language: x.language, label: x.title, def: w.definition, example: w.example, ipa: w.ipa, audio: w.audio, image: w.image }))
+      ? x.entries.filter(w => ws.opt || !(w.tags || []).includes('fakultativ')).map(w => ({ id: x.id + '-' + w.id, target: w.target, translations: w.translations, acceptedAnswers: w.acceptedAnswers, grammar: w.grammar, answerPolicy: w.answerPolicy, language: x.language, label: x.title, def: w.definition, example: w.example, ipa: w.ipa, audio: w.audio, image: w.image }))
       : [];
   };
   const allSecs = c => [...earlierVolumes(c).flatMap(z => z.secs), ...chosen(c)];
@@ -222,6 +224,7 @@ let wsSynth = null;
     const a = t.dataset.ws;
     if (a === 'pick') { t.checked ? ws.sel.add(t.dataset.key) : ws.sel.delete(t.dataset.key); return render(); }
     if (a === 'cum') { ws.cum = t.checked; return render(); }
+    if (a === 'opt') { ws.opt = t.checked; return render(); }
     if (a === 'from' || a === 'to') { ws[a] = t.value; return render(); }
     if (a === 'upto' && t.value) {
       const c = current(), i = c.secs.findIndex(s => s.key === t.value);

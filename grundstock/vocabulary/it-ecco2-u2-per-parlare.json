@@ -1,0 +1,304 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u2-per-parlare",
+ "title": "Ecco più 2 · Unità 2 · Per parlare",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Medien“ aus Ecco più 2 (Unità 2, Per parlare).",
+ "topics": [
+  "Medien",
+  "Fernsehen",
+  "Presse"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 2 · Per parlare",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 207 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u2-per-parlare-001",
+   "target": "il reportage",
+   "translations": [
+    "die Reportage"
+   ],
+   "page": "207",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-per-parlare-002",
+   "target": "il telegiornale",
+   "translations": [
+    "die Nachrichten"
+   ],
+   "page": "207",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-per-parlare-003",
+   "target": "la trasmissione sportiva",
+   "translations": [
+    "die Sportsendung"
+   ],
+   "page": "207",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-per-parlare-004",
+   "target": "una trasmissione di",
+   "translations": [
+    "eine Sendung über"
+   ],
+   "page": "207"
+  },
+  {
+   "id": "u2-per-parlare-005",
+   "target": "la soap opera",
+   "translations": [
+    "die Seifenoper"
+   ],
+   "page": "207",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-per-parlare-006",
+   "target": "la pubblicità",
+   "translations": [
+    "die Werbung"
+   ],
+   "page": "207",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-per-parlare-007",
+   "target": "il (tele)film",
+   "translations": [
+    "der (Fernseh-)Film"
+   ],
+   "page": "207",
+   "acceptedAnswers": [
+    "ilfilm"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-per-parlare-008",
+   "target": "la serie",
+   "translations": [
+    "die Serie"
+   ],
+   "page": "207",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-per-parlare-009",
+   "target": "la commedia",
+   "translations": [
+    "die Komödie"
+   ],
+   "page": "207",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-per-parlare-010",
+   "target": "l’attore / l’attrice",
+   "translations": [
+    "der/die Schauspieler/in"
+   ],
+   "page": "207"
+  },
+  {
+   "id": "u2-per-parlare-011",
+   "target": "l’emittente televisiva",
+   "translations": [
+    "der Fernsehsender"
+   ],
+   "page": "207"
+  },
+  {
+   "id": "u2-per-parlare-012",
+   "target": "l’emittente radiofonica",
+   "translations": [
+    "der Radiosender"
+   ],
+   "page": "207"
+  },
+  {
+   "id": "u2-per-parlare-013",
+   "target": "il programma televisivo",
+   "translations": [
+    "das Fernsehprogramm"
+   ],
+   "page": "207",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-per-parlare-014",
+   "target": "il film dura (90 minuti)",
+   "translations": [
+    "der Film dauert (90 Minuten)"
+   ],
+   "page": "207",
+   "acceptedAnswers": [
+    "il film dura"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-per-parlare-015",
+   "target": "la rivista per giovani",
+   "translations": [
+    "die Jugendzeitschrift"
+   ],
+   "page": "207",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-per-parlare-016",
+   "target": "l’intervista",
+   "translations": [
+    "das Interview"
+   ],
+   "page": "207"
+  },
+  {
+   "id": "u2-per-parlare-017",
+   "target": "l’oroscopo",
+   "translations": [
+    "das Horoskop"
+   ],
+   "page": "207"
+  },
+  {
+   "id": "u2-per-parlare-018",
+   "target": "l’annuncio",
+   "translations": [
+    "die Anzeige"
+   ],
+   "page": "207"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 2",
+   "section": "Per parlare",
+   "pages": "207"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Medien",
+   "Fernsehen",
+   "Presse"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

@@ -1,0 +1,462 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u3-3a",
+ "title": "Ecco più 2 · Unità 3 · 3A In giro per Roma",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Unterwegs in Rom“ aus Ecco più 2 (Unità 3, 3A In giro per Roma).",
+ "topics": [
+  "Rom",
+  "Geschichte",
+  "Stadt"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 3 · 3A In giro per Roma",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 208-209 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u3-3a-001",
+   "target": "estendersi, esteso",
+   "translations": [
+    "sich erstrecken"
+   ],
+   "page": "208-209",
+   "usage": "p.p. esteso"
+  },
+  {
+   "id": "u3-3a-002",
+   "target": "il colle",
+   "translations": [
+    "der Hügel"
+   ],
+   "page": "208-209",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-003",
+   "target": "portare a",
+   "translations": [
+    "hier: führen zu/nach"
+   ],
+   "page": "208-209"
+  },
+  {
+   "id": "u3-3a-004",
+   "target": "eterno/-a",
+   "translations": [
+    "ewig",
+    "zeitlos"
+   ],
+   "page": "208-209"
+  },
+  {
+   "id": "u3-3a-005",
+   "target": "la leggenda",
+   "translations": [
+    "die Legende",
+    "die Sage"
+   ],
+   "page": "208-209",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-006",
+   "target": "fondare",
+   "translations": [
+    "gründen"
+   ],
+   "page": "208-209"
+  },
+  {
+   "id": "u3-3a-007",
+   "target": "avanti/dopo Cristo (a./d. C.)",
+   "translations": [
+    "vor/nach Christus"
+   ],
+   "page": "208-209",
+   "acceptedAnswers": [
+    "avanti/dopo Cristo"
+   ]
+  },
+  {
+   "id": "u3-3a-008",
+   "target": "la basilica, le basiliche",
+   "translations": [
+    "die Basilika"
+   ],
+   "page": "208-209",
+   "usage": "pl. le basiliche",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-009",
+   "target": "l’Europa",
+   "translations": [
+    "Europa"
+   ],
+   "page": "208-209"
+  },
+  {
+   "id": "u3-3a-010",
+   "target": "suggestivo/-a",
+   "translations": [
+    "stimmungsvoll",
+    "beeindruckend"
+   ],
+   "page": "208-209"
+  },
+  {
+   "id": "u3-3a-011",
+   "target": "il buco, i buchi",
+   "translations": [
+    "das Loch"
+   ],
+   "page": "208-209",
+   "usage": "pl. i buchi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-012",
+   "target": "la serratura",
+   "translations": [
+    "das (Tür-)Schloss"
+   ],
+   "page": "208-209",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-013",
+   "target": "meraviglioso/-a",
+   "translations": [
+    "wunderbar"
+   ],
+   "page": "208-209"
+  },
+  {
+   "id": "u3-3a-014",
+   "target": "lo stato",
+   "translations": [
+    "der Staat"
+   ],
+   "page": "208-209",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-015",
+   "target": "autonomo/-a",
+   "translations": [
+    "autonom",
+    "unabhängig",
+    "selbstständig"
+   ],
+   "page": "208-209"
+  },
+  {
+   "id": "u3-3a-016",
+   "target": "cattolico/-a",
+   "translations": [
+    "katholisch"
+   ],
+   "page": "208-209"
+  },
+  {
+   "id": "u3-3a-017",
+   "target": "il museo",
+   "translations": [
+    "das Museum"
+   ],
+   "page": "208-209",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-018",
+   "target": "costruire (-sc-)",
+   "translations": [
+    "(er)bauen"
+   ],
+   "page": "208-209",
+   "acceptedAnswers": [
+    "costruire"
+   ],
+   "usage": "Abc"
+  },
+  {
+   "id": "u3-3a-019",
+   "target": "dipingere, dipinto",
+   "translations": [
+    "malen"
+   ],
+   "page": "208-209",
+   "usage": "p.p. dipinto"
+  },
+  {
+   "id": "u3-3a-020",
+   "target": "il tempio, i templi",
+   "translations": [
+    "der Tempel"
+   ],
+   "page": "208-209",
+   "usage": "pl. i templi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-021",
+   "target": "il dio, gli dei",
+   "translations": [
+    "der Gott"
+   ],
+   "page": "208-209",
+   "usage": "pl. gli dei",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-022",
+   "target": "il secolo",
+   "translations": [
+    "das Jahrhundert"
+   ],
+   "page": "208-209",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-023",
+   "target": "trasformare",
+   "translations": [
+    "umwandeln",
+    "umbauen"
+   ],
+   "page": "208-209"
+  },
+  {
+   "id": "u3-3a-024",
+   "target": "forte",
+   "translations": [
+    "stark",
+    "gewaltig"
+   ],
+   "page": "208-209"
+  },
+  {
+   "id": "u3-3a-025",
+   "target": "la cupola",
+   "translations": [
+    "die Kuppel"
+   ],
+   "page": "208-209",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-026",
+   "target": "scomodo/-a",
+   "translations": [
+    "ungemütlich",
+    "unbequem"
+   ],
+   "page": "208-209",
+   "usage": "≠ comodo/-a"
+  },
+  {
+   "id": "u3-3a-027",
+   "target": "gettare",
+   "translations": [
+    "werfen"
+   ],
+   "page": "208-209"
+  },
+  {
+   "id": "u3-3a-028",
+   "target": "barocco/-a, barocchi/-e",
+   "translations": [
+    "barock",
+    "Barock-"
+   ],
+   "page": "208-209",
+   "usage": "pl. barocchi/-e"
+  },
+  {
+   "id": "u3-3a-029",
+   "target": "guadagnare",
+   "translations": [
+    "verdienen"
+   ],
+   "page": "208-209"
+  },
+  {
+   "id": "u3-3a-030",
+   "target": "i soldi",
+   "translations": [
+    "das Geld"
+   ],
+   "page": "208-209",
+   "usage": "pl.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "i",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-031",
+   "target": "il Presidente del Consiglio",
+   "translations": [
+    "der Ministerpräsident"
+   ],
+   "page": "208-209",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-032",
+   "target": "chic",
+   "translations": [
+    "schick",
+    "flott"
+   ],
+   "page": "208-209"
+  },
+  {
+   "id": "u3-3a-033",
+   "target": "Accidenti!",
+   "translations": [
+    "Donnerwetter!"
+   ],
+   "page": "208-209"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 3",
+   "section": "3A In giro per Roma",
+   "pages": "208-209"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Rom",
+   "Geschichte",
+   "Stadt"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

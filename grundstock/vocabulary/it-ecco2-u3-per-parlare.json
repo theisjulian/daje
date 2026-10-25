@@ -1,0 +1,572 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-u3-per-parlare",
+ "title": "Ecco più 2 · Unità 3 · Per parlare",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Verkehrsmittel und Restaurant“ aus Ecco più 2 (Unità 3, Per parlare).",
+ "topics": [
+  "Verkehr",
+  "Reisen",
+  "Stadt"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Unità 3 · Per parlare",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 211-212 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u3-per-parlare-001",
+   "target": "andare in aereo",
+   "translations": [
+    "fliegen"
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-002",
+   "target": "andare in treno",
+   "translations": [
+    "mit dem Zug fahren"
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-003",
+   "target": "andare in metropolitana",
+   "translations": [
+    "mit der U-Bahn fahren"
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-004",
+   "target": "andare in tram",
+   "translations": [
+    "mit der Straßenbahn fahren"
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-005",
+   "target": "andare in bici",
+   "translations": [
+    "mit dem Fahrrad fahren"
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-006",
+   "target": "andare a piedi",
+   "translations": [
+    "zu Fuß gehen"
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-007",
+   "target": "prendere l’autobus",
+   "translations": [
+    "den Bus nehmen"
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-008",
+   "target": "prendere il treno",
+   "translations": [
+    "den Zug nehmen"
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-009",
+   "target": "prendere la linea (A)",
+   "translations": [
+    "die Linie (A) nehmen"
+   ],
+   "page": "211-212",
+   "acceptedAnswers": [
+    "prendere la linea"
+   ]
+  },
+  {
+   "id": "u3-per-parlare-010",
+   "target": "prendere il tram",
+   "translations": [
+    "die Straßenbahn nehmen"
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-011",
+   "target": "prendere l’aereo",
+   "translations": [
+    "das Flugzeug nehmen"
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-012",
+   "target": "prendere il taxi",
+   "translations": [
+    "das Taxi nehmen"
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-013",
+   "target": "la fermata",
+   "translations": [
+    "die Haltestelle"
+   ],
+   "page": "211-212",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-per-parlare-014",
+   "target": "la stazione",
+   "translations": [
+    "der Bahnhof"
+   ],
+   "page": "211-212",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-per-parlare-015",
+   "target": "comprare un biglietto",
+   "translations": [
+    "ein Ticket kaufen"
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-016",
+   "target": "arrivare puntualmente / puntuale / in ritardo",
+   "translations": [
+    "pünktlich / zu spät kommen"
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-017",
+   "target": "La metro parte ogni 10 minuti.",
+   "translations": [
+    "Die U-Bahn fährt alle 10 Minuten."
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-018",
+   "target": "La metro è fuori servizio.",
+   "translations": [
+    "Die U-Bahn ist außer Betrieb."
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-019",
+   "target": "È l’ora di punta.",
+   "translations": [
+    "Es ist Berufsverkehr."
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-020",
+   "target": "C’è traffico.",
+   "translations": [
+    "Es ist (viel) Verkehr."
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-021",
+   "target": "L’apparecchio automatico non funziona.",
+   "translations": [
+    "Der Automat funktioniert nicht."
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-022",
+   "target": "il menù",
+   "translations": [
+    "die Speisekarte"
+   ],
+   "page": "211-212",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-per-parlare-023",
+   "target": "l’antipasto",
+   "translations": [
+    "die Vorspeise"
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-024",
+   "target": "il primo piatto",
+   "translations": [
+    "der erste Gang"
+   ],
+   "page": "211-212",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-per-parlare-025",
+   "target": "il secondo piatto",
+   "translations": [
+    "der zweite Gang"
+   ],
+   "page": "211-212",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-per-parlare-026",
+   "target": "il contorno",
+   "translations": [
+    "die Beilage"
+   ],
+   "page": "211-212",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-per-parlare-027",
+   "target": "il dolce",
+   "translations": [
+    "das Dessert",
+    "die Süßspeise"
+   ],
+   "page": "211-212",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-per-parlare-028",
+   "target": "la carne",
+   "translations": [
+    "das Fleisch"
+   ],
+   "page": "211-212",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-per-parlare-029",
+   "target": "il pesce",
+   "translations": [
+    "der Fisch"
+   ],
+   "page": "211-212",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-per-parlare-030",
+   "target": "alla griglia",
+   "translations": [
+    "gegrillt"
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-031",
+   "target": "fritto/-a",
+   "translations": [
+    "frittiert"
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-032",
+   "target": "l’insalata",
+   "translations": [
+    "der Salat"
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-033",
+   "target": "la zuppa, la minestra",
+   "translations": [
+    "die Suppe"
+   ],
+   "page": "211-212",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-per-parlare-034",
+   "target": "la forchetta",
+   "translations": [
+    "die Gabel"
+   ],
+   "page": "211-212",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-per-parlare-035",
+   "target": "il coltello",
+   "translations": [
+    "das Messer"
+   ],
+   "page": "211-212",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-per-parlare-036",
+   "target": "il cucchiaio",
+   "translations": [
+    "der Löffel"
+   ],
+   "page": "211-212",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-per-parlare-037",
+   "target": "il cucchiaino",
+   "translations": [
+    "der Teelöffel"
+   ],
+   "page": "211-212",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-per-parlare-038",
+   "target": "il coperto",
+   "translations": [
+    "das Gedeck"
+   ],
+   "page": "211-212",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-per-parlare-039",
+   "target": "il bicchiere",
+   "translations": [
+    "das Glas"
+   ],
+   "page": "211-212",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-per-parlare-040",
+   "target": "la mancia",
+   "translations": [
+    "das Trinkgeld"
+   ],
+   "page": "211-212",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-per-parlare-041",
+   "target": "È molto/troppo piccante.",
+   "translations": [
+    "Es ist sehr/zu scharf."
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-042",
+   "target": "È molto/troppo salato/-a.",
+   "translations": [
+    "Es ist sehr/zu salzig."
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-043",
+   "target": "Mi fa male la pancia.",
+   "translations": [
+    "Mir tut der Bauch weh."
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-044",
+   "target": "Vuoi assaggiare?",
+   "translations": [
+    "Magst du kosten?"
+   ],
+   "page": "211-212"
+  },
+  {
+   "id": "u3-per-parlare-045",
+   "target": "È stato buonissimo/-a.",
+   "translations": [
+    "Es war sehr lecker."
+   ],
+   "page": "211-212"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Unità 3",
+   "section": "Per parlare",
+   "pages": "211-212"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Verkehr",
+   "Reisen",
+   "Stadt"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}
