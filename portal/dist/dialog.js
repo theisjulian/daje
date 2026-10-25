@@ -26,16 +26,65 @@ function dlgShow({ title, side, paper }) {
   dlgStyle(sheet);
   const keepScroll = sheet.querySelector('.dlg-prev')?.scrollTop || 0;
   sheet.innerHTML = `<div class="dlg-head"><button class="dlg-link" data-portal="close-print">Abbrechen</button><b>${esc(title)}</b><span class="dlg-acts"><button class="dlg-link" data-doc="word">Word-Datei</button><button class="dlg-link strong" data-portal="do-print">Als PDF speichern</button></span></div>
-  <div class="dlg-grid"><aside class="dlg-side">${side}</aside><div class="dlg-prev"><div class="paper">${paper}</div></div></div>`;
+  <div class="dlg-grid"><aside class="dlg-side">${side}</aside><div class="dlg-prev"><div class="pages"><div class="paper">${paper}</div></div></div>`;
   document.body.classList.add('previewing-teaching');
+  dlgPaginate();
   dlgFit();
   const pv = sheet.querySelector('.dlg-prev');
   if (pv) pv.scrollTop = keepScroll;
 }
 function dlgFit() {
-  const pv = document.querySelector('#teaching-print .dlg-prev'), p = pv && pv.querySelector('.paper');
+  const pv = document.querySelector('#teaching-print .dlg-prev'), p = pv && pv.querySelector('.pages');
   if (!p) return;
   p.style.zoom = Math.min(1.15, Math.max(0.35, (pv.clientWidth - 28) / 794));
+}
+/* Wortlisten werden in echte A4-Seiten geteilt: Tabellenkopf auf jeder Seite, Abschnittstitel nie allein am Seitenende */
+function dlgPaginate() {
+  const sheet = $('teaching-print'), paper = sheet && sheet.querySelector('.pages > .paper'), table = paper && paper.querySelector('.doc-table');
+  if (!table) return;
+  const pages = paper.parentElement;
+  pages.style.zoom = 1;
+  const cs = getComputedStyle(paper), padY = parseFloat(cs.paddingTop) + parseFloat(cs.paddingBottom);
+  const inner = 1122 - padY - 6;
+  const foot = paper.querySelector('.doc-foot'), thead = table.tHead;
+  const footH = (foot ? foot.offsetHeight : 0) + 30;
+  const topH = table.offsetTop - parseFloat(cs.paddingTop);
+  const headH = thead.offsetHeight;
+  const rows = [...table.tBodies[0].rows], hs = rows.map(r => r.getBoundingClientRect().height);
+  const chunks = [];
+  let cur = [], used = 0, cap = inner - topH - headH - footH;
+  rows.forEach((r, i) => {
+    if (used + hs[i] > cap && cur.length) {
+      const last = cur[cur.length - 1];
+      const moved = last.classList.contains('doc-sec') ? [cur.pop()] : [];
+      chunks.push(cur);
+      cur = moved;
+      used = moved.reduce((s, m) => s + m.getBoundingClientRect().height, 0);
+      cap = inner - headH - footH;
+    }
+    cur.push(r);
+    used += hs[i];
+  });
+  if (cur.length) chunks.push(cur);
+  const tops = [...paper.children].filter(c => c !== table && c !== foot);
+  const out = chunks.map((rs, n) => {
+    const pg = document.createElement('div');
+    pg.className = 'paper pg';
+    if (n === 0) tops.forEach(t => pg.append(t.cloneNode(true)));
+    const t = table.cloneNode(false);
+    t.append(thead.cloneNode(true));
+    const tb = document.createElement('tbody');
+    rs.forEach(r => tb.append(r.cloneNode(true)));
+    t.append(tb);
+    pg.append(t);
+    if (foot) {
+      const f = foot.cloneNode(true);
+      f.insertAdjacentHTML('afterbegin', `<span class="doc-pn">Seite ${n + 1} von ${chunks.length}</span>`);
+      pg.append(f);
+    }
+    return pg;
+  });
+  pages.replaceChildren(...out);
 }
 window.addEventListener('resize', dlgFit);
 const dlgBlock = (h, inner) => `<section class="dlg-block"><h4>${h}</h4>${inner}</section>`;
@@ -46,7 +95,6 @@ renderVocabDoc = function () {
   const L = portalLang(x.language);
   const side =
     dlgBlock('Spalten', avail.map(([k, l]) => `<label class="dlg-check"><input type="checkbox" data-doc-col="${k}" ${docState.cols.includes(k) || k === 'target' ? 'checked' : ''} ${k === 'target' ? 'disabled' : ''}><span>${l}</span></label>`).join('')) +
-    dlgBlock('Aufbau', dlgSeg('data-doc-layout', 'doc-layout', [['list', 'Wortliste'], ['test-de', `Test: ${L}`], ['test-it', 'Test: Deutsch']], docState.layout) + '<p class="dlg-note">Beim Test bleibt die Spalte der gesuchten Sprache leer.</p>') +
     dlgBlock('Design', dlgDesigns()) + dlgBlock('Schrift', dlgFonts()) + dlgBlock('Farbe', dlgAccents());
   dlgShow({ title: x.title.replace(/^Wortschatz · /, ''), side, paper: vocabDocHTML(x) });
 };

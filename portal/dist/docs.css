@@ -220,3 +220,18 @@ body.previewing-teaching #teaching-print.dlg-mode{position:fixed;inset:0;z-index
 #teaching-print[data-design='kontrast'] .doc-table th { background: var(--ac); }
 #teaching-print[data-design='kontrast'] .doc-table td { border-color: var(--ac); }
 .dlg-note { margin: 6px 2px 0; font-size: 12px; color: #777; }
+
+/* Seiten */
+.pages{display:flex;flex-direction:column;align-items:center;gap:22px}
+.paper.pg{display:flex;flex-direction:column;height:1122px;overflow:hidden}
+.paper.pg .doc-foot{margin-top:auto}
+.doc-foot .doc-pn{margin-right:auto;font-size:8.5pt;color:#666}
+.doc-foot{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.doc-logo{height:14px!important}.doc-logo svg,.doc-logo img{height:11px!important;width:auto}
+@media print{
+  .pages{display:block!important;zoom:1!important}
+  #teaching-print .paper.pg{height:auto!important;min-height:0;display:block;overflow:visible!important;break-after:page;page-break-after:always;margin:0}
+  #teaching-print .paper.pg:last-child{break-after:auto;page-break-after:auto}
+  #teaching-print .paper.pg .doc-foot{margin-top:10px}
+  @page{size:A4;margin:16mm 15mm 14mm}
+}

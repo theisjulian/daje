@@ -41,7 +41,7 @@ const DOC_COLUMNS = [
   ['ipa', 'Lautschrift'],
   ['definition', 'Erklärung'],
   ['example', 'Beispiel'],
-  ['usage', 'Verwendung'],
+  ['usage', 'Hinweis'],
   ['related', 'Verwandte Wörter'],
   ['image', 'Bild']
 ];
@@ -51,7 +51,7 @@ try {
 } catch {
   /* ohne Speicher */
 }
-if (!['list', 'test-de', 'test-it'].includes(docState.layout)) docState.layout = 'list';
+docState.layout = 'list';
 const saveDocState = () => {
   try {
     localStorage.setItem('ripassa-doc-v1', JSON.stringify(docState));
@@ -165,7 +165,17 @@ function renderVocabDoc() {
 function docWordFile() {
   const sheet = $('teaching-print').cloneNode(true);
   sheet.querySelectorAll('.paper').forEach(p => (p.style.zoom = ''));
-  sheet.querySelectorAll('.print-controls,.doc-options,.dlg-head,.dlg-side,img').forEach(n => n.remove());
+  sheet.querySelectorAll('.print-controls,.doc-options,.dlg-head,.dlg-side,img,.doc-pn').forEach(n => n.remove());
+  const pgs = [...sheet.querySelectorAll('.pg')];
+  if (pgs.length > 1) {
+    const tb = pgs[0].querySelector('tbody');
+    pgs.slice(1).forEach((p, i) => {
+      p.querySelectorAll('tbody tr').forEach(r => tb.append(r));
+      if (i < pgs.length - 2) p.remove();
+    });
+    pgs[0].querySelector('.doc-foot')?.remove();
+    pgs[pgs.length - 1].querySelectorAll('.doc-table').forEach(t => t.remove());
+  }
   sheet.querySelectorAll('.doc-logo').forEach(n => (n.textContent = 'theis'));
   const ac = sheet.style.getPropertyValue('--doc-ac') || '#1a6dff';
   const wf = (getComputedStyle($('teaching-print').querySelector('.paper') || document.body).fontFamily || 'Calibri, Arial, sans-serif').replace(/"/g, "'");

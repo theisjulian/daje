@@ -33,12 +33,13 @@ let wsSynth = null;
     const map = new Map();
     const add = (c, s) => {
       if (!map.has(c.id)) map.set(c.id, { ...c, secs: [] });
-      map.get(c.id).secs.push({ ...s, order: map.get(c.id).secs.length });
+      map.get(c.id).secs.push({ ...s, coll: c.title, order: map.get(c.id).secs.length });
     };
     const bookId = 'tb:Ecco più:1';
     const eccoIn = contentList('vocabulary').some(x => collectionOf(x).id === bookId);
     const baseColl = { id: bookId, title: 'Ecco più 1', kind: 'Lehrwerk', sub: 'Cornelsen', series: 'Ecco più', volume: 1 };
-    GROUPS.forEach(([g, , label]) => {
+    const packaged = contentList('vocabulary').some(x => /^it-ecco1-(ciao|u1-)/.test(x.id));
+    (packaged ? [] : GROUPS).forEach(([g, , label]) => {
       const ws0 = WORDS.filter(w => w.group === g);
       add(baseColl, { key: 'base:' + g, base: g, title: label, unit: 'Ciao! und Unità 1', pages: BASE_PAGES[g] || null, n: ws0.length, seen: ws0.filter(w => records[w.id]).length });
     });
@@ -183,6 +184,7 @@ let wsSynth = null;
 
   function printSel(c) {
     const secs = allSecs(c);
+    const multi = new Set(secs.map(s => s.coll)).size > 1;
     const entries = secs.flatMap(s =>
       secWords(s).map((w, i) => ({
         id: s.key + '-' + i,
@@ -192,7 +194,7 @@ let wsSynth = null;
         ...(w.example ? { example: w.example } : {}),
         ...(w.related ? { related: w.related } : {}),
         ...(w.usage ? { usage: w.usage } : {}),
-        group: s.title + (s.pages ? ' · ' + pagesText(s.pages) : '')
+        group: (multi ? s.coll + ' · ' : '') + s.title + (s.pages ? ' · ' + pagesText(s.pages) : '')
       }))
     );
     wsSynth = { format: 'theis-learning-package', schemaVersion: '1.2', kind: 'vocabulary', id: 'ws-auswahl', title: c.title + ' · Auswahl', language: 'it', translationLanguage: 'de', level: 'A1', description: '', topics: [], collection: c.title, section: 'Auswahl', sources: [], entries };
