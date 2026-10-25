@@ -42,6 +42,7 @@ const DOC_COLUMNS = [
   ['definition', 'Erklärung'],
   ['example', 'Beispiel'],
   ['usage', 'Hinweis'],
+  ['contrast', 'Unterscheide'],
   ['related', 'Verwandte Wörter'],
   ['image', 'Bild']
 ];

@@ -744,7 +744,7 @@ function printTeaching(solutions) {
     })
     .join(
       ''
-    )}</ol><footer><h3>Medium und Quelle</h3>${x.sources.map(s => `<p>${esc(s.citation)}${s.url ? '<br>' + esc(s.url) : ''}</p>`).join('')}<p>${x.media.type === 'audio' ? esc(x.media.url) : x.media.type === 'youtube' ? 'https://www.youtube.com/watch?v=' + x.media.videoId : x.media.type === 'film' ? 'Film: ' + x.media.title + (x.media.year ? ' (' + x.media.year + ')' : '') + ' – Szene wird im Unterricht gezeigt.' : 'Browser-Sprachausgabe des eigenen Übungstextes im Portal.'}</p></footer>`;
+    )}</ol><footer><h3>Medium und Quelle</h3>${x.sources.map(s => `<p>${esc(s.citation)}${s.url ? '<br>' + esc(s.url) : ''}</p>`).join('')}<p>${x.media.type === 'audio' ? esc(x.media.url) : x.media.type === 'youtube' ? 'https://www.youtube.com/watch?v=' + x.media.videoId : x.media.type === 'link' ? x.media.url : x.media.type === 'film' ? 'Film: ' + x.media.title + (x.media.year ? ' (' + x.media.year + ')' : '') + ' – Szene wird im Unterricht gezeigt.' : 'Browser-Sprachausgabe des eigenen Übungstextes im Portal.'}</p></footer>`;
   if ($('teaching-dialog')?.open) $('teaching-dialog').close();
   document.body.classList.add('previewing-teaching');
   window.scrollTo({ top: 0, behavior: 'instant' });
@@ -793,6 +793,7 @@ function allTrainingWords() {
         example: w.example,
         related: w.related,
         usage: w.usage,
+        contrast: w.contrast,
         ipa: w.ipa,
         audio: w.audio,
         image: w.image

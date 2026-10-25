@@ -49,11 +49,11 @@ const UI_ROWS = [
   ['01 · HÖRVERSTEHEN', '01 · ASCOLTO', '01 · LISTENING', '01 · ÉCOUTE', '01 · ASCOLTA'],
   ['02 · WORTSCHATZ', '02 · LESSICO', '02 · VOCABULARY', '02 · VOCABULAIRE', '02 · PAROLE'],
   [
-    'RIPASSÀ. · HÖRVERSTEHEN UND WORTSCHATZ',
-    'RIPASSÀ. · ASCOLTO E LESSICO',
-    'RIPASSÀ. · LISTENING AND VOCABULARY',
-    'RIPASSÀ. · ÉCOUTE ET VOCABULAIRE',
-    'RIPASSÀ. · ASCOLTO E PAROLE'
+    'DAJE · HÖRVERSTEHEN UND WORTSCHATZ',
+    'DAJE · ASCOLTO E LESSICO',
+    'DAJE · LISTENING AND VOCABULARY',
+    'DAJE · ÉCOUTE ET VOCABULAIRE',
+    'DAJE · ASCOLTO E PAROLE'
   ],
   ['Italienisch', 'Italiano', 'Italian', 'Italien', 'Italiano'],
   ['Französisch', 'Francese', 'French', 'Français', 'Francese'],
@@ -758,18 +758,23 @@ let uiLocale = 'de',
 const UI_LOOKUP = new Map(UI_ROWS.map(row => [row[0], row]));
 if (typeof UI_ROWS_EXTRA !== 'undefined')
   for (const row of UI_ROWS_EXTRA) if (!UI_LOOKUP.has(row[0])) UI_LOOKUP.set(row[0], row);
-const UI_IDX = { de: 0, it: 1, en: 2, fr: 3, 'it-simple': 4 };
+const UI_IDX = { de: 0, it: 1, en: 2, fr: 3, 'it-simple': 4, 'en-simple': 2, 'fr-simple': 3 };
+function uiSimple(loc, text) {
+  if (loc === 'en-simple' && typeof UI_SIMPLE_EN !== 'undefined' && UI_SIMPLE_EN[text]) return UI_SIMPLE_EN[text];
+  if (loc === 'fr-simple' && typeof UI_SIMPLE_FR !== 'undefined' && UI_SIMPLE_FR[text]) return UI_SIMPLE_FR[text];
+  return text;
+}
 function uiFill(text, nums) {
   let i = 0;
   return text.replace(/\{n\}/g, () => (i < nums.length ? nums[i++] : '{n}'));
 }
 function uiExact(source) {
   const row = UI_LOOKUP.get(source);
-  if (row) return row[UI_IDX[uiLocale]];
+  if (row) return uiSimple(uiLocale, row[UI_IDX[uiLocale]]);
   const nums = source.match(/\d+/g);
   if (nums) {
     const row2 = UI_LOOKUP.get(source.replace(/\d+/g, '{n}'));
-    if (row2) return uiFill(row2[UI_IDX[uiLocale]], nums);
+    if (row2) return uiFill(uiSimple(uiLocale, row2[UI_IDX[uiLocale]]), nums);
   }
   return null;
 }
@@ -825,7 +830,7 @@ function uiTranslateText(source) {
   for (const [re, options, inner] of patterns) {
     const m = source.match(re);
     if (!m) continue;
-    const tpl = options[{ it: 0, en: 1, fr: 2, 'it-simple': 3 }[uiLocale]];
+    const tpl = options[{ it: 0, en: 1, fr: 2, 'it-simple': 3, 'en-simple': 1, 'fr-simple': 2 }[uiLocale]];
     return tpl.replace(/\$(\d)/g, (_, i) => (inner && i === '1' ? uiTranslateText(m[1]) : m[i]));
   }
   const up = source.toUpperCase() === source && /[A-ZÄÖÜ]{3}/.test(source);
@@ -869,15 +874,15 @@ function translateUI() {
     }
     uiAttrRecords.set(el, records);
   }
-  document.documentElement.lang = uiLocale === 'it-simple' ? 'it' : uiLocale;
+  document.documentElement.lang = uiLocale.split('-')[0];
 }
 function setupI18n() {
   const saved = read('ripassa-ui-language-v1', 'de');
-  uiLocale = ['de', 'it', 'en', 'fr', 'it-simple'].includes(saved) ? saved : 'de';
+  uiLocale = ['de', 'it', 'en', 'fr', 'it-simple', 'en-simple', 'fr-simple'].includes(saved) ? saved : 'de';
   const label = document.createElement('label');
   label.className = 'ui-language';
   label.innerHTML =
-    '<span class="sr-only">Oberflächensprache</span><select id="ui-language" aria-label="Oberflächensprache"><option value="de">DE · Deutsch</option><option value="it">IT · Italiano</option><option value="en">EN · English</option><option value="fr">FR · Français</option><option value="it-simple">IT · Italiano semplice</option></select>';
+    '<span class="sr-only">Oberflächensprache</span><select id="ui-language" aria-label="Oberflächensprache"><option value="de">DE · Deutsch</option><option value="it">IT · Italiano</option><option value="en">EN · English</option><option value="fr">FR · Français</option><option value="it-simple">IT · Italiano semplice</option><option value="en-simple">EN · Simple English</option><option value="fr-simple">FR · Français facile</option></select>';
   document.querySelector('.top-actions').prepend(label);
   $('ui-language').value = uiLocale;
   $('ui-language').addEventListener('change', e => {

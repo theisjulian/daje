@@ -340,7 +340,7 @@
    "page": "212-214",
    "definition": "Lavoro manuale o artigianale.",
    "example": "Il falegname fa un bel mestiere.",
-   "usage": "Unterscheide: il mestiere (handwerklich) – la professione (erlernt)",
+   "contrast": "il mestiere (handwerklich) – la professione (erlernt)",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",

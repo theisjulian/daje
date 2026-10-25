@@ -38,7 +38,7 @@
    "definition": "Città principale di un paese.",
    "example": "Roma è la capitale d’Italia.",
    "related": "E capital city; F la capitale; L caput",
-   "usage": "Unterscheide: la capitale (Land) – il capoluogo (Region)",
+   "contrast": "la capitale (Land) – il capoluogo (Region)",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -440,7 +440,7 @@
    "page": "207-208",
    "definition": "Essere ragionevole.",
    "example": "La tua idea ha senso.",
-   "usage": "Unterscheide: to make sense (engl.) – avere senso (ital.)"
+   "contrast": "to make sense (engl.) – avere senso (ital.)"
   },
   {
    "id": "u3-approccio-027",

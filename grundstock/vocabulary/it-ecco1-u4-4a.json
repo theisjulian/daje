@@ -248,7 +248,7 @@
    "acceptedAnswers": [
     "solo/-a"
    ],
-   "usage": "Unterscheide: Non vado da solo. – Ich fahre nicht alleine. / Vado a Sestriere solo con gli amici. – Ich fahre nur mit den Freunden nach Sestriere."
+   "contrast": "Non vado da solo. – Ich fahre nicht alleine. / Vado a Sestriere solo con gli amici. – Ich fahre nur mit den Freunden nach Sestriere."
   },
   {
    "id": "u4-4a-016",
@@ -612,7 +612,7 @@
    "acceptedAnswers": [
     "imparare"
    ],
-   "usage": "Unterscheide: Voglio imparare il tedesco. – Ich möchte Deutsch lernen. / Oggi devo ancora studiare per il compito di tedesco. – Heute muss ich noch für die Deutschschulaufgabe lernen."
+   "contrast": "Voglio imparare il tedesco. – Ich möchte Deutsch lernen. / Oggi devo ancora studiare per il compito di tedesco. – Heute muss ich noch für die Deutschschulaufgabe lernen."
   },
   {
    "id": "u4-4a-043",

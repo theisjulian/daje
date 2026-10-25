@@ -39,7 +39,8 @@ def build(header, rows):
         if rel: e['related'] = rel
         acc = variants(t)
         if acc: e['acceptedAnswers'] = acc
-        if hint: e['usage'] = hint
+        if hint.startswith('Unterscheide:'): e['contrast'] = hint[len('Unterscheide:'):].strip()
+        elif hint: e['usage'] = hint
         m = ART.match(t)
         if m and ' / ' not in t and '/' not in t.split(' ')[0]:
             art = m.group(1)

@@ -389,7 +389,7 @@
    "page": "172-173",
    "definition": "Edificio dove si abita.",
    "example": "La mia famiglia ha una casa a Lecce.",
-   "usage": "Unterscheide: Sono a casa. – Ich bin zu Hause. / Torno a casa. – Ich komme nach Hause zurück.",
+   "contrast": "Sono a casa. – Ich bin zu Hause. / Torno a casa. – Ich komme nach Hause zurück.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -453,7 +453,7 @@
    "definition": "Domanda per scegliere tra più cose.",
    "example": "Quale preferisci?",
    "related": "L qualis",
-   "usage": "Unterscheide: Quale + è → Qual è il cognome di Filippo?; Quale? = Welche(r/s)? (aus einer Auswahl), engl. Which?; Che? = Was für? (allgemein), engl. What?"
+   "contrast": "Quale + è → Qual è il cognome di Filippo?; Quale? = Welche(r/s)? (aus einer Auswahl), engl. Which?; Che? = Was für? (allgemein), engl. What?"
   },
   {
    "id": "u2-approccio-029",

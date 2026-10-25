@@ -38,7 +38,7 @@
    "page": "180-181",
    "definition": "Indica il tempo che manca prima di un evento.",
    "example": "Arrivo fra dieci minuti.",
-   "usage": "Unterscheide: Vengo fra/tra cinque minuti. – Ich komme in fünf Minuten. (zeitlich); Fra/Tra Giorgia e Anna sta Khalid. – Zwischen Giorgia und Anna steht Khalid. (örtlich)"
+   "contrast": "Vengo fra/tra cinque minuti. – Ich komme in fünf Minuten. (zeitlich); Fra/Tra Giorgia e Anna sta Khalid. – Zwischen Giorgia und Anna steht Khalid. (örtlich)"
   },
   {
    "id": "u3-3b-002",
@@ -199,7 +199,7 @@
    "page": "180-181",
    "definition": "Piccola parola che introduce una frase.",
    "example": "Penso che sia vero.",
-   "usage": "Unterscheide: Che fortuna! – Was für ein Glück!; che ho una camera mia! – dass ich ein eigenes Zimmer habe!"
+   "contrast": "Che fortuna! – Was für ein Glück!; che ho una camera mia! – dass ich ein eigenes Zimmer habe!"
   },
   {
    "id": "u3-3b-014",

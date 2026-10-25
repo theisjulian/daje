@@ -133,8 +133,12 @@
         fail('estimatedMinutes', 'ganze Zahl von 1 bis 90 erwartet');
       const m = obj(a.media, 'media');
       out.media = { type: m.type };
-      if (!['speech', 'audio', 'youtube', 'film'].includes(m.type))
-        fail('media.type', 'speech, audio, youtube oder film erwartet');
+      if (!['speech', 'audio', 'youtube', 'film', 'link'].includes(m.type))
+        fail('media.type', 'speech, audio, youtube, film oder link erwartet');
+      if (m.type === 'link') {
+        out.media.url = url(m.url, 'media.url');
+        if (m.provider !== undefined) out.media.provider = str(m.provider, 'media.provider', 40);
+      }
       if (m.type === 'film') {
         out.media.title = str(m.title, 'media.title', 120);
         if (m.year !== undefined) {
@@ -335,6 +339,7 @@
           definition: str(w.definition, path + '.definition', 1000, true)
         };
         if (w.usage !== undefined && w.usage !== '') z.usage = str(w.usage, path + '.usage', 500);
+        if (w.contrast !== undefined && w.contrast !== '') z.contrast = str(w.contrast, path + '.contrast', 500);
         if (w.tags !== undefined) z.tags = strings(w.tags, path + '.tags', 8);
         if (w.page !== undefined && w.page !== '') z.page = str(w.page, path + '.page', 30);
         if (w.related !== undefined && w.related !== '') z.related = str(w.related, path + '.related', 300);

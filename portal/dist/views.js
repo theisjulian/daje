@@ -6,7 +6,7 @@
  */
 
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
-const MEDIA_LABELS = { video: 'Video', audio: 'Audio', speech: 'Stimme', film: 'Film' };
+const MEDIA_LABELS = { video: 'Video', audio: 'Audio', speech: 'Stimme', film: 'Film', link: 'Weblink' };
 const TRANSCRIPT_LABELS = {
   it: {
     auto: 'Trascrizione generata automaticamente',
@@ -39,7 +39,7 @@ if (EMBED) document.documentElement.dataset.embed = '1';
 
 const isTeacher = () => portalAudience === 'teach';
 const mediaKind = x =>
-  x.media.type === 'youtube' ? 'video' : x.media.type === 'audio' ? 'audio' : x.media.type === 'film' ? 'film' : 'speech';
+  x.media.type === 'youtube' ? 'video' : x.media.type === 'audio' ? 'audio' : x.media.type === 'film' ? 'film' : x.media.type === 'link' ? 'link' : 'speech';
 const levelClass = level => 'lvl-' + String(level || 'a1')[0].toLowerCase();
 const levelPill = level => `<span class="lvl ${levelClass(level)}">${esc(level)}</span>`;
 const plural = (n, one, many) => n + ' ' + (n === 1 ? one : many);
@@ -372,6 +372,10 @@ function emptyPortal(title, text) {
 /* ---------- Übungsseite ---------- */
 
 function playerHTML(x) {
+  if (x.media.type === 'link') {
+    const host = (() => { try { return new URL(x.media.url).hostname.replace(/^www\./, ''); } catch (e) { return ''; } })();
+    return `<div class="player-frame film"><div class="film-card"><span class="film-kicker">Weblink</span><b>${esc(x.media.provider || host)}</b><p>${esc(host)}</p></div></div><a class="button primary large" href="${esc(x.media.url)}" target="_blank" rel="noopener noreferrer">Beim Anbieter öffnen</a><p class="player-note">Das Medium läuft auf der Seite des Anbieters (z. B. BBC, NPR, TED) und wird nicht in daje eingebettet. Danach hierher zurückkehren und die Aufgaben lösen.</p>`;
+  }
   if (x.media.type === 'film') {
     return `<div class="player-frame film"><div class="film-card"><span class="film-kicker">Film${x.media.year ? ' · ' + x.media.year : ''}</span><b>${esc(x.media.title)}</b>${x.media.scene ? `<p>${esc(x.media.scene)}</p>` : ''}</div></div><p class="player-note">Die Szene zeigt deine Lehrkraft im Unterricht. Die Aufgaben kannst du trotzdem schon ansehen und danach lösen.</p>${x.media.trailerVideoId ? `<p class="player-note"><a href="https://www.youtube.com/watch?v=${x.media.trailerVideoId}" target="_blank" rel="noopener">Trailer ansehen</a></p>` : ''}`;
   }
