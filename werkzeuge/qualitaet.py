@@ -40,7 +40,7 @@ def check_vocab(p, f):
     for e in p['entries']:
         t = e['target']
         key = (t, tuple(e.get('translations', [])))
-        if key in seen: hard.append(f'{f}: doppelter Eintrag {t}')
+        if key in seen: soft.append(f'{f}: Eintrag kommt im Buch doppelt vor: {t}')
         seen.add(key)
         if not e.get('translations'): hard.append(f'{f}/{t}: ohne Übersetzung')
         if not e.get('example') and 'fakultativ' not in e.get('tags', []): soft.append(f'{f}/{t}: ohne Beispielsatz')

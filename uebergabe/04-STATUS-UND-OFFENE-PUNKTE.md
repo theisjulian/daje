@@ -34,3 +34,7 @@ Der private Prototyp enthält review-data.js und interne Prompts unter dist/impo
 ## Standangaben richtig lesen
 
 Der Quellcommit steht in provenance.json. Die Dateinamen früherer Exporte verwenden teilweise v9 als Arbeitsstandlabel. Der Sites-Dienst meldete beim Export latest_version_number 8. Diese beiden Nummernsysteme sind nicht gleichzusetzen. Weder ein neues Deployment noch eine neue Funktion wurde für dieses Paket ausgelöst. Das beigefügte Original-README ist eine fortgeschriebene Entwicklungshistorie mit älteren, später ersetzten Aussagen; für den aktuellen Stand dieses Dokument lesen.
+
+## Nachtrag 25.10.2026
+Erledigt: Hörseiten mobil (mobile.css), Zahlen/Ordnungszahlen/Wochentage/Monate (Ecco 2 S. 183–184), Verbtabellen ergänzt (piacere, togliere, raccogliere, cadere, valere, porre), „Unterscheide“-Kästen (Feld `contrast`), Medientyp `link`, einfache Sprache EN/FR (i18n-simple.js, deckt die längeren Texte ab), Qualitätsskript, Entscheidungen (uebergabe/08).
+Offen/ehrlich: Verbtabellen-Scan S. 188–189, 192–193, 196–197 nicht gesichtet; mebis-Einbettung nicht in mebis getestet; Supabase nur entschieden, nicht gebaut; IPA ohne Daten; Gemini-Lauf braucht Schlüssel (lokal).
