@@ -1,0 +1,197 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-aa-numeri-ordinali",
+ "title": "Ecco più 2 · I numeri ordinali",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Die Ordnungszahlen“ aus Ecco più 2 (Anhang A, I numeri ordinali).",
+ "topics": [
+  "Zahlen",
+  "Ordnungszahlen"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Anhang A · I numeri ordinali",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 184 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "aa-numeri-ordinali-001",
+   "target": "il primo / la prima",
+   "translations": [
+    "der/die Erste"
+   ],
+   "page": "184",
+   "usage": "1°"
+  },
+  {
+   "id": "aa-numeri-ordinali-002",
+   "target": "il secondo / la seconda",
+   "translations": [
+    "der/die Zweite"
+   ],
+   "page": "184",
+   "usage": "2°"
+  },
+  {
+   "id": "aa-numeri-ordinali-003",
+   "target": "il terzo / la terza",
+   "translations": [
+    "der/die Dritte"
+   ],
+   "page": "184",
+   "usage": "3°"
+  },
+  {
+   "id": "aa-numeri-ordinali-004",
+   "target": "il quarto / la quarta",
+   "translations": [
+    "der/die Vierte"
+   ],
+   "page": "184",
+   "usage": "4°"
+  },
+  {
+   "id": "aa-numeri-ordinali-005",
+   "target": "il quinto / la quinta",
+   "translations": [
+    "der/die Fünfte"
+   ],
+   "page": "184",
+   "usage": "5°"
+  },
+  {
+   "id": "aa-numeri-ordinali-006",
+   "target": "il sesto / la sesta",
+   "translations": [
+    "der/die Sechste"
+   ],
+   "page": "184",
+   "usage": "6°"
+  },
+  {
+   "id": "aa-numeri-ordinali-007",
+   "target": "il settimo / la settima",
+   "translations": [
+    "der/die Siebte"
+   ],
+   "page": "184",
+   "usage": "7°"
+  },
+  {
+   "id": "aa-numeri-ordinali-008",
+   "target": "l’ottavo / l’ottava",
+   "translations": [
+    "der/die Achte"
+   ],
+   "page": "184",
+   "usage": "8°"
+  },
+  {
+   "id": "aa-numeri-ordinali-009",
+   "target": "il nono / la nona",
+   "translations": [
+    "der/die Neunte"
+   ],
+   "page": "184",
+   "usage": "9°"
+  },
+  {
+   "id": "aa-numeri-ordinali-010",
+   "target": "il decimo / la decima",
+   "translations": [
+    "der/die Zehnte"
+   ],
+   "page": "184",
+   "usage": "10°"
+  },
+  {
+   "id": "aa-numeri-ordinali-011",
+   "target": "undicesimo/-a",
+   "translations": [
+    "elfte(r)"
+   ],
+   "page": "184",
+   "usage": "11°"
+  },
+  {
+   "id": "aa-numeri-ordinali-012",
+   "target": "dodicesimo/-a",
+   "translations": [
+    "zwölfte(r)"
+   ],
+   "page": "184",
+   "usage": "12°"
+  },
+  {
+   "id": "aa-numeri-ordinali-013",
+   "target": "tredicesimo/-a",
+   "translations": [
+    "dreizehnte(r)"
+   ],
+   "page": "184",
+   "usage": "13°"
+  },
+  {
+   "id": "aa-numeri-ordinali-014",
+   "target": "ventesimo/-a",
+   "translations": [
+    "zwanzigste(r)"
+   ],
+   "page": "184",
+   "usage": "20°"
+  },
+  {
+   "id": "aa-numeri-ordinali-015",
+   "target": "ventunesimo/-a",
+   "translations": [
+    "einundzwanzigste(r)"
+   ],
+   "page": "184",
+   "usage": "21°"
+  },
+  {
+   "id": "aa-numeri-ordinali-016",
+   "target": "quattrocento sessantaseiesimo/-a",
+   "translations": [
+    "vierhundertsechsundsechzigste(r)"
+   ],
+   "page": "184",
+   "usage": "466°"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Anhang A",
+   "section": "I numeri ordinali",
+   "pages": "184"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Zahlen",
+   "Ordnungszahlen"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

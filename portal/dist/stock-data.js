@@ -25960,6 +25960,1546 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "vocabulary",
+  "id": "it-ecco2-aa-giorni",
+  "title": "Ecco più 2 · I giorni della settimana",
+  "language": "it",
+  "level": "A2",
+  "description": "Wortschatz zu „Die Wochentage“ aus Ecco più 2 (Anhang A, I giorni della settimana).",
+  "topics": [
+   "Wochentage",
+   "Zeit"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 184 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "2",
+    "unit": "Anhang A",
+    "section": "I giorni della settimana",
+    "pages": "184"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "themes": [
+    "Wochentage",
+    "Zeit"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 2 (Cornelsen)",
+  "section": "Anhang A · I giorni della settimana",
+  "entries": [
+   {
+    "id": "aa-giorni-001",
+    "target": "il lunedì",
+    "translations": [
+     "der Montag, montags"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "184",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "aa-giorni-002",
+    "target": "il martedì",
+    "translations": [
+     "der Dienstag, dienstags"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "184",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "aa-giorni-003",
+    "target": "il mercoledì",
+    "translations": [
+     "der Mittwoch, mittwochs"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "184",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "aa-giorni-004",
+    "target": "il giovedì",
+    "translations": [
+     "der Donnerstag, donnerstags"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "184",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "aa-giorni-005",
+    "target": "il venerdì",
+    "translations": [
+     "der Freitag, freitags"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "184",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "aa-giorni-006",
+    "target": "il sabato",
+    "translations": [
+     "der Samstag/Sonnabend, samstags"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "184",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "aa-giorni-007",
+    "target": "la domenica",
+    "translations": [
+     "der Sonntag, sonntags"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "184",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco2-aa-mesi",
+  "title": "Ecco più 2 · I mesi dell’anno",
+  "language": "it",
+  "level": "A2",
+  "description": "Wortschatz zu „Die Monate des Jahres“ aus Ecco più 2 (Anhang A, I mesi dell’anno).",
+  "topics": [
+   "Monate",
+   "Zeit"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 184 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "2",
+    "unit": "Anhang A",
+    "section": "I mesi dell’anno",
+    "pages": "184"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "themes": [
+    "Monate",
+    "Zeit"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 2 (Cornelsen)",
+  "section": "Anhang A · I mesi dell’anno",
+  "entries": [
+   {
+    "id": "aa-mesi-001",
+    "target": "gennaio",
+    "translations": [
+     "Januar"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "184"
+   },
+   {
+    "id": "aa-mesi-002",
+    "target": "febbraio",
+    "translations": [
+     "Februar"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "184"
+   },
+   {
+    "id": "aa-mesi-003",
+    "target": "marzo",
+    "translations": [
+     "März"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "184"
+   },
+   {
+    "id": "aa-mesi-004",
+    "target": "aprile",
+    "translations": [
+     "April"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "184"
+   },
+   {
+    "id": "aa-mesi-005",
+    "target": "maggio",
+    "translations": [
+     "Mai"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "184"
+   },
+   {
+    "id": "aa-mesi-006",
+    "target": "giugno",
+    "translations": [
+     "Juni"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "184"
+   },
+   {
+    "id": "aa-mesi-007",
+    "target": "luglio",
+    "translations": [
+     "Juli"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "184"
+   },
+   {
+    "id": "aa-mesi-008",
+    "target": "agosto",
+    "translations": [
+     "August"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "184"
+   },
+   {
+    "id": "aa-mesi-009",
+    "target": "settembre",
+    "translations": [
+     "September"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "184"
+   },
+   {
+    "id": "aa-mesi-010",
+    "target": "ottobre",
+    "translations": [
+     "Oktober"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "184"
+   },
+   {
+    "id": "aa-mesi-011",
+    "target": "novembre",
+    "translations": [
+     "November"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "184"
+   },
+   {
+    "id": "aa-mesi-012",
+    "target": "dicembre",
+    "translations": [
+     "Dezember"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "page": "184"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco2-aa-numeri-0-20",
+  "title": "Ecco più 2 · I numeri 0–20",
+  "language": "it",
+  "level": "A2",
+  "description": "Wortschatz zu „Die Zahlen von 0 bis 20“ aus Ecco più 2 (Anhang A, I numeri 0–20).",
+  "topics": [
+   "Zahlen",
+   "Grundzahlen"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 183 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "2",
+    "unit": "Anhang A",
+    "section": "I numeri 0–20",
+    "pages": "183"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "themes": [
+    "Zahlen",
+    "Grundzahlen"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 2 (Cornelsen)",
+  "section": "Anhang A · I numeri 0–20",
+  "entries": [
+   {
+    "id": "aa-numeri-0-20-001",
+    "target": "zero",
+    "translations": [
+     "null"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "0",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-002",
+    "target": "uno",
+    "translations": [
+     "eins"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "1",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-003",
+    "target": "due",
+    "translations": [
+     "zwei"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "2",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-004",
+    "target": "tre",
+    "translations": [
+     "drei"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "3",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-005",
+    "target": "quattro",
+    "translations": [
+     "vier"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "4",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-006",
+    "target": "cinque",
+    "translations": [
+     "fünf"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "5",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-007",
+    "target": "sei",
+    "translations": [
+     "sechs"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "6",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-008",
+    "target": "sette",
+    "translations": [
+     "sieben"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "7",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-009",
+    "target": "otto",
+    "translations": [
+     "acht"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "8",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-010",
+    "target": "nove",
+    "translations": [
+     "neun"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "9",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-011",
+    "target": "dieci",
+    "translations": [
+     "zehn"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "10",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-012",
+    "target": "undici",
+    "translations": [
+     "elf"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "11",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-013",
+    "target": "dodici",
+    "translations": [
+     "zwölf"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "12",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-014",
+    "target": "tredici",
+    "translations": [
+     "dreizehn"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "13",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-015",
+    "target": "quattordici",
+    "translations": [
+     "vierzehn"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "14",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-016",
+    "target": "quindici",
+    "translations": [
+     "fünfzehn"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "15",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-017",
+    "target": "sedici",
+    "translations": [
+     "sechzehn"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "16",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-018",
+    "target": "diciassette",
+    "translations": [
+     "siebzehn"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "17",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-019",
+    "target": "diciotto",
+    "translations": [
+     "achtzehn"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "18",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-020",
+    "target": "diciannove",
+    "translations": [
+     "neunzehn"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "19",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-0-20-021",
+    "target": "venti",
+    "translations": [
+     "zwanzig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "20",
+    "page": "183"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco2-aa-numeri-21-102",
+  "title": "Ecco più 2 · I numeri 21–102",
+  "language": "it",
+  "level": "A2",
+  "description": "Wortschatz zu „Zahlen von 21 bis 102“ aus Ecco più 2 (Anhang A, I numeri 21–102).",
+  "topics": [
+   "Zahlen",
+   "Grundzahlen"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 183 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "2",
+    "unit": "Anhang A",
+    "section": "I numeri 21–102",
+    "pages": "183"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "themes": [
+    "Zahlen",
+    "Grundzahlen"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 2 (Cornelsen)",
+  "section": "Anhang A · I numeri 21–102",
+  "entries": [
+   {
+    "id": "aa-numeri-21-102-001",
+    "target": "ventuno",
+    "translations": [
+     "einundzwanzig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "21",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-002",
+    "target": "ventidue",
+    "translations": [
+     "zweiundzwanzig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "22",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-003",
+    "target": "ventitré",
+    "translations": [
+     "dreiundzwanzig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "23",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-004",
+    "target": "ventiquattro",
+    "translations": [
+     "vierundzwanzig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "24",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-005",
+    "target": "venticinque",
+    "translations": [
+     "fünfundzwanzig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "25",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-006",
+    "target": "ventisei",
+    "translations": [
+     "sechsundzwanzig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "26",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-007",
+    "target": "ventisette",
+    "translations": [
+     "siebenundzwanzig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "27",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-008",
+    "target": "ventotto",
+    "translations": [
+     "achtundzwanzig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "28",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-009",
+    "target": "ventinove",
+    "translations": [
+     "neunundzwanzig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "29",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-010",
+    "target": "trenta",
+    "translations": [
+     "dreißig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "30",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-011",
+    "target": "trentuno",
+    "translations": [
+     "einunddreißig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "31",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-012",
+    "target": "trentadue",
+    "translations": [
+     "zweiunddreißig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "32",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-013",
+    "target": "trentatré",
+    "translations": [
+     "dreiunddreißig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "33",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-014",
+    "target": "quaranta",
+    "translations": [
+     "vierzig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "40",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-015",
+    "target": "cinquanta",
+    "translations": [
+     "fünfzig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "50",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-016",
+    "target": "sessanta",
+    "translations": [
+     "sechzig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "60",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-017",
+    "target": "settanta",
+    "translations": [
+     "siebzig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "70",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-018",
+    "target": "ottanta",
+    "translations": [
+     "achtzig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "80",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-019",
+    "target": "novanta",
+    "translations": [
+     "neunzig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "90",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-020",
+    "target": "cento",
+    "translations": [
+     "hundert"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "100",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-021",
+    "target": "cent(o)uno",
+    "translations": [
+     "hunderteins"
+    ],
+    "acceptedAnswers": [
+     "centuno"
+    ],
+    "example": "",
+    "definition": "",
+    "usage": "101",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-21-102-022",
+    "target": "centodue",
+    "translations": [
+     "hundertzwei"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "102",
+    "page": "183"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco2-aa-numeri-grandi",
+  "title": "Ecco più 2 · I numeri grandi",
+  "language": "it",
+  "level": "A2",
+  "description": "Wortschatz zu „Hunderter, Tausender, Millionen“ aus Ecco più 2 (Anhang A, I numeri grandi).",
+  "topics": [
+   "Zahlen",
+   "Grundzahlen"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 183 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "2",
+    "unit": "Anhang A",
+    "section": "I numeri grandi",
+    "pages": "183"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "themes": [
+    "Zahlen",
+    "Grundzahlen"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 2 (Cornelsen)",
+  "section": "Anhang A · I numeri grandi",
+  "entries": [
+   {
+    "id": "aa-numeri-grandi-001",
+    "target": "duecento",
+    "translations": [
+     "zweihundert"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "200",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-grandi-002",
+    "target": "duecentocinquanta",
+    "translations": [
+     "zweihundertfünfzig"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "250",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-grandi-003",
+    "target": "trecento",
+    "translations": [
+     "dreihundert"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "300",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-grandi-004",
+    "target": "quattrocento",
+    "translations": [
+     "vierhundert"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "400",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-grandi-005",
+    "target": "cinquecento",
+    "translations": [
+     "fünfhundert"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "500",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-grandi-006",
+    "target": "seicento",
+    "translations": [
+     "sechshundert"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "600",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-grandi-007",
+    "target": "settecento",
+    "translations": [
+     "siebenhundert"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "700",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-grandi-008",
+    "target": "ottocento",
+    "translations": [
+     "achthundert"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "800",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-grandi-009",
+    "target": "novecento",
+    "translations": [
+     "neunhundert"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "900",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-grandi-010",
+    "target": "mille",
+    "translations": [
+     "tausend"
+    ],
+    "acceptedAnswers": [],
+    "example": "pl.: mila",
+    "definition": "",
+    "usage": "1.000",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-grandi-011",
+    "target": "milleuno",
+    "translations": [
+     "eintausendeins"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "1.001",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-grandi-012",
+    "target": "millecento",
+    "translations": [
+     "eintausendeinhundert"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "1.100",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-grandi-013",
+    "target": "duemila",
+    "translations": [
+     "zweitausend"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "2.000",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-grandi-014",
+    "target": "tremila",
+    "translations": [
+     "dreitausend"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "3.000",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-grandi-015",
+    "target": "diecimila",
+    "translations": [
+     "zehntausend"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "10.000",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-grandi-016",
+    "target": "un milione",
+    "translations": [
+     "eine Million"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "1.000.000",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-grandi-017",
+    "target": "due milioni",
+    "translations": [
+     "zwei Millionen"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "2.000.000",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-grandi-018",
+    "target": "un miliardo",
+    "translations": [
+     "eine Milliarde"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "1.000.000.000",
+    "page": "183"
+   },
+   {
+    "id": "aa-numeri-grandi-019",
+    "target": "due miliardi",
+    "translations": [
+     "zwei Milliarden"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "2.000.000.000",
+    "page": "183"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco2-aa-numeri-ordinali",
+  "title": "Ecco più 2 · I numeri ordinali",
+  "language": "it",
+  "level": "A2",
+  "description": "Wortschatz zu „Die Ordnungszahlen“ aus Ecco più 2 (Anhang A, I numeri ordinali).",
+  "topics": [
+   "Zahlen",
+   "Ordnungszahlen"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 184 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "2",
+    "unit": "Anhang A",
+    "section": "I numeri ordinali",
+    "pages": "184"
+   },
+   "grade": 9,
+   "foreignLanguageNo": 3,
+   "cefr": "A2",
+   "themes": [
+    "Zahlen",
+    "Ordnungszahlen"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 2 (Cornelsen)",
+  "section": "Anhang A · I numeri ordinali",
+  "entries": [
+   {
+    "id": "aa-numeri-ordinali-001",
+    "target": "il primo / la prima",
+    "translations": [
+     "der/die Erste"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "1°",
+    "page": "184"
+   },
+   {
+    "id": "aa-numeri-ordinali-002",
+    "target": "il secondo / la seconda",
+    "translations": [
+     "der/die Zweite"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "2°",
+    "page": "184"
+   },
+   {
+    "id": "aa-numeri-ordinali-003",
+    "target": "il terzo / la terza",
+    "translations": [
+     "der/die Dritte"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "3°",
+    "page": "184"
+   },
+   {
+    "id": "aa-numeri-ordinali-004",
+    "target": "il quarto / la quarta",
+    "translations": [
+     "der/die Vierte"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "4°",
+    "page": "184"
+   },
+   {
+    "id": "aa-numeri-ordinali-005",
+    "target": "il quinto / la quinta",
+    "translations": [
+     "der/die Fünfte"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "5°",
+    "page": "184"
+   },
+   {
+    "id": "aa-numeri-ordinali-006",
+    "target": "il sesto / la sesta",
+    "translations": [
+     "der/die Sechste"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "6°",
+    "page": "184"
+   },
+   {
+    "id": "aa-numeri-ordinali-007",
+    "target": "il settimo / la settima",
+    "translations": [
+     "der/die Siebte"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "7°",
+    "page": "184"
+   },
+   {
+    "id": "aa-numeri-ordinali-008",
+    "target": "l’ottavo / l’ottava",
+    "translations": [
+     "der/die Achte"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "8°",
+    "page": "184"
+   },
+   {
+    "id": "aa-numeri-ordinali-009",
+    "target": "il nono / la nona",
+    "translations": [
+     "der/die Neunte"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "9°",
+    "page": "184"
+   },
+   {
+    "id": "aa-numeri-ordinali-010",
+    "target": "il decimo / la decima",
+    "translations": [
+     "der/die Zehnte"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "10°",
+    "page": "184"
+   },
+   {
+    "id": "aa-numeri-ordinali-011",
+    "target": "undicesimo/-a",
+    "translations": [
+     "elfte(r)"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "11°",
+    "page": "184"
+   },
+   {
+    "id": "aa-numeri-ordinali-012",
+    "target": "dodicesimo/-a",
+    "translations": [
+     "zwölfte(r)"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "12°",
+    "page": "184"
+   },
+   {
+    "id": "aa-numeri-ordinali-013",
+    "target": "tredicesimo/-a",
+    "translations": [
+     "dreizehnte(r)"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "13°",
+    "page": "184"
+   },
+   {
+    "id": "aa-numeri-ordinali-014",
+    "target": "ventesimo/-a",
+    "translations": [
+     "zwanzigste(r)"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "20°",
+    "page": "184"
+   },
+   {
+    "id": "aa-numeri-ordinali-015",
+    "target": "ventunesimo/-a",
+    "translations": [
+     "einundzwanzigste(r)"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "21°",
+    "page": "184"
+   },
+   {
+    "id": "aa-numeri-ordinali-016",
+    "target": "quattrocento sessantaseiesimo/-a",
+    "translations": [
+     "vierhundertsechsundsechzigste(r)"
+    ],
+    "acceptedAnswers": [],
+    "example": "",
+    "definition": "",
+    "usage": "466°",
+    "page": "184"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
   "id": "it-ecco2-m-musica",
   "title": "Ecco più 2 · Modulo · La musica popolare e la musica leggera italiana",
   "language": "it",

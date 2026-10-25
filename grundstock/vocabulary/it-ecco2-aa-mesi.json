@@ -1,0 +1,149 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-aa-mesi",
+ "title": "Ecco più 2 · I mesi dell’anno",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Die Monate des Jahres“ aus Ecco più 2 (Anhang A, I mesi dell’anno).",
+ "topics": [
+  "Monate",
+  "Zeit"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Anhang A · I mesi dell’anno",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 184 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "aa-mesi-001",
+   "target": "gennaio",
+   "translations": [
+    "Januar"
+   ],
+   "page": "184"
+  },
+  {
+   "id": "aa-mesi-002",
+   "target": "febbraio",
+   "translations": [
+    "Februar"
+   ],
+   "page": "184"
+  },
+  {
+   "id": "aa-mesi-003",
+   "target": "marzo",
+   "translations": [
+    "März"
+   ],
+   "page": "184"
+  },
+  {
+   "id": "aa-mesi-004",
+   "target": "aprile",
+   "translations": [
+    "April"
+   ],
+   "page": "184"
+  },
+  {
+   "id": "aa-mesi-005",
+   "target": "maggio",
+   "translations": [
+    "Mai"
+   ],
+   "page": "184"
+  },
+  {
+   "id": "aa-mesi-006",
+   "target": "giugno",
+   "translations": [
+    "Juni"
+   ],
+   "page": "184"
+  },
+  {
+   "id": "aa-mesi-007",
+   "target": "luglio",
+   "translations": [
+    "Juli"
+   ],
+   "page": "184"
+  },
+  {
+   "id": "aa-mesi-008",
+   "target": "agosto",
+   "translations": [
+    "August"
+   ],
+   "page": "184"
+  },
+  {
+   "id": "aa-mesi-009",
+   "target": "settembre",
+   "translations": [
+    "September"
+   ],
+   "page": "184"
+  },
+  {
+   "id": "aa-mesi-010",
+   "target": "ottobre",
+   "translations": [
+    "Oktober"
+   ],
+   "page": "184"
+  },
+  {
+   "id": "aa-mesi-011",
+   "target": "novembre",
+   "translations": [
+    "November"
+   ],
+   "page": "184"
+  },
+  {
+   "id": "aa-mesi-012",
+   "target": "dicembre",
+   "translations": [
+    "Dezember"
+   ],
+   "page": "184"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Anhang A",
+   "section": "I mesi dell’anno",
+   "pages": "184"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Monate",
+   "Zeit"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

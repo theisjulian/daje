@@ -1,0 +1,254 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-aa-numeri-21-102",
+ "title": "Ecco più 2 · I numeri 21–102",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Zahlen von 21 bis 102“ aus Ecco più 2 (Anhang A, I numeri 21–102).",
+ "topics": [
+  "Zahlen",
+  "Grundzahlen"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Anhang A · I numeri 21–102",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 183 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "aa-numeri-21-102-001",
+   "target": "ventuno",
+   "translations": [
+    "einundzwanzig"
+   ],
+   "page": "183",
+   "usage": "21"
+  },
+  {
+   "id": "aa-numeri-21-102-002",
+   "target": "ventidue",
+   "translations": [
+    "zweiundzwanzig"
+   ],
+   "page": "183",
+   "usage": "22"
+  },
+  {
+   "id": "aa-numeri-21-102-003",
+   "target": "ventitré",
+   "translations": [
+    "dreiundzwanzig"
+   ],
+   "page": "183",
+   "usage": "23"
+  },
+  {
+   "id": "aa-numeri-21-102-004",
+   "target": "ventiquattro",
+   "translations": [
+    "vierundzwanzig"
+   ],
+   "page": "183",
+   "usage": "24"
+  },
+  {
+   "id": "aa-numeri-21-102-005",
+   "target": "venticinque",
+   "translations": [
+    "fünfundzwanzig"
+   ],
+   "page": "183",
+   "usage": "25"
+  },
+  {
+   "id": "aa-numeri-21-102-006",
+   "target": "ventisei",
+   "translations": [
+    "sechsundzwanzig"
+   ],
+   "page": "183",
+   "usage": "26"
+  },
+  {
+   "id": "aa-numeri-21-102-007",
+   "target": "ventisette",
+   "translations": [
+    "siebenundzwanzig"
+   ],
+   "page": "183",
+   "usage": "27"
+  },
+  {
+   "id": "aa-numeri-21-102-008",
+   "target": "ventotto",
+   "translations": [
+    "achtundzwanzig"
+   ],
+   "page": "183",
+   "usage": "28"
+  },
+  {
+   "id": "aa-numeri-21-102-009",
+   "target": "ventinove",
+   "translations": [
+    "neunundzwanzig"
+   ],
+   "page": "183",
+   "usage": "29"
+  },
+  {
+   "id": "aa-numeri-21-102-010",
+   "target": "trenta",
+   "translations": [
+    "dreißig"
+   ],
+   "page": "183",
+   "usage": "30"
+  },
+  {
+   "id": "aa-numeri-21-102-011",
+   "target": "trentuno",
+   "translations": [
+    "einunddreißig"
+   ],
+   "page": "183",
+   "usage": "31"
+  },
+  {
+   "id": "aa-numeri-21-102-012",
+   "target": "trentadue",
+   "translations": [
+    "zweiunddreißig"
+   ],
+   "page": "183",
+   "usage": "32"
+  },
+  {
+   "id": "aa-numeri-21-102-013",
+   "target": "trentatré",
+   "translations": [
+    "dreiunddreißig"
+   ],
+   "page": "183",
+   "usage": "33"
+  },
+  {
+   "id": "aa-numeri-21-102-014",
+   "target": "quaranta",
+   "translations": [
+    "vierzig"
+   ],
+   "page": "183",
+   "usage": "40"
+  },
+  {
+   "id": "aa-numeri-21-102-015",
+   "target": "cinquanta",
+   "translations": [
+    "fünfzig"
+   ],
+   "page": "183",
+   "usage": "50"
+  },
+  {
+   "id": "aa-numeri-21-102-016",
+   "target": "sessanta",
+   "translations": [
+    "sechzig"
+   ],
+   "page": "183",
+   "usage": "60"
+  },
+  {
+   "id": "aa-numeri-21-102-017",
+   "target": "settanta",
+   "translations": [
+    "siebzig"
+   ],
+   "page": "183",
+   "usage": "70"
+  },
+  {
+   "id": "aa-numeri-21-102-018",
+   "target": "ottanta",
+   "translations": [
+    "achtzig"
+   ],
+   "page": "183",
+   "usage": "80"
+  },
+  {
+   "id": "aa-numeri-21-102-019",
+   "target": "novanta",
+   "translations": [
+    "neunzig"
+   ],
+   "page": "183",
+   "usage": "90"
+  },
+  {
+   "id": "aa-numeri-21-102-020",
+   "target": "cento",
+   "translations": [
+    "hundert"
+   ],
+   "page": "183",
+   "usage": "100"
+  },
+  {
+   "id": "aa-numeri-21-102-021",
+   "target": "cent(o)uno",
+   "translations": [
+    "hunderteins"
+   ],
+   "page": "183",
+   "acceptedAnswers": [
+    "centuno"
+   ],
+   "usage": "101"
+  },
+  {
+   "id": "aa-numeri-21-102-022",
+   "target": "centodue",
+   "translations": [
+    "hundertzwei"
+   ],
+   "page": "183",
+   "usage": "102"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Anhang A",
+   "section": "I numeri 21–102",
+   "pages": "183"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Zahlen",
+   "Grundzahlen"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

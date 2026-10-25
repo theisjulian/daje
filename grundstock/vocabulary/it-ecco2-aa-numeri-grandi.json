@@ -1,0 +1,225 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-aa-numeri-grandi",
+ "title": "Ecco più 2 · I numeri grandi",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Hunderter, Tausender, Millionen“ aus Ecco più 2 (Anhang A, I numeri grandi).",
+ "topics": [
+  "Zahlen",
+  "Grundzahlen"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Anhang A · I numeri grandi",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 183 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "aa-numeri-grandi-001",
+   "target": "duecento",
+   "translations": [
+    "zweihundert"
+   ],
+   "page": "183",
+   "usage": "200"
+  },
+  {
+   "id": "aa-numeri-grandi-002",
+   "target": "duecentocinquanta",
+   "translations": [
+    "zweihundertfünfzig"
+   ],
+   "page": "183",
+   "usage": "250"
+  },
+  {
+   "id": "aa-numeri-grandi-003",
+   "target": "trecento",
+   "translations": [
+    "dreihundert"
+   ],
+   "page": "183",
+   "usage": "300"
+  },
+  {
+   "id": "aa-numeri-grandi-004",
+   "target": "quattrocento",
+   "translations": [
+    "vierhundert"
+   ],
+   "page": "183",
+   "usage": "400"
+  },
+  {
+   "id": "aa-numeri-grandi-005",
+   "target": "cinquecento",
+   "translations": [
+    "fünfhundert"
+   ],
+   "page": "183",
+   "usage": "500"
+  },
+  {
+   "id": "aa-numeri-grandi-006",
+   "target": "seicento",
+   "translations": [
+    "sechshundert"
+   ],
+   "page": "183",
+   "usage": "600"
+  },
+  {
+   "id": "aa-numeri-grandi-007",
+   "target": "settecento",
+   "translations": [
+    "siebenhundert"
+   ],
+   "page": "183",
+   "usage": "700"
+  },
+  {
+   "id": "aa-numeri-grandi-008",
+   "target": "ottocento",
+   "translations": [
+    "achthundert"
+   ],
+   "page": "183",
+   "usage": "800"
+  },
+  {
+   "id": "aa-numeri-grandi-009",
+   "target": "novecento",
+   "translations": [
+    "neunhundert"
+   ],
+   "page": "183",
+   "usage": "900"
+  },
+  {
+   "id": "aa-numeri-grandi-010",
+   "target": "mille",
+   "translations": [
+    "tausend"
+   ],
+   "page": "183",
+   "example": "pl.: mila",
+   "usage": "1.000"
+  },
+  {
+   "id": "aa-numeri-grandi-011",
+   "target": "milleuno",
+   "translations": [
+    "eintausendeins"
+   ],
+   "page": "183",
+   "usage": "1.001"
+  },
+  {
+   "id": "aa-numeri-grandi-012",
+   "target": "millecento",
+   "translations": [
+    "eintausendeinhundert"
+   ],
+   "page": "183",
+   "usage": "1.100"
+  },
+  {
+   "id": "aa-numeri-grandi-013",
+   "target": "duemila",
+   "translations": [
+    "zweitausend"
+   ],
+   "page": "183",
+   "usage": "2.000"
+  },
+  {
+   "id": "aa-numeri-grandi-014",
+   "target": "tremila",
+   "translations": [
+    "dreitausend"
+   ],
+   "page": "183",
+   "usage": "3.000"
+  },
+  {
+   "id": "aa-numeri-grandi-015",
+   "target": "diecimila",
+   "translations": [
+    "zehntausend"
+   ],
+   "page": "183",
+   "usage": "10.000"
+  },
+  {
+   "id": "aa-numeri-grandi-016",
+   "target": "un milione",
+   "translations": [
+    "eine Million"
+   ],
+   "page": "183",
+   "usage": "1.000.000"
+  },
+  {
+   "id": "aa-numeri-grandi-017",
+   "target": "due milioni",
+   "translations": [
+    "zwei Millionen"
+   ],
+   "page": "183",
+   "usage": "2.000.000"
+  },
+  {
+   "id": "aa-numeri-grandi-018",
+   "target": "un miliardo",
+   "translations": [
+    "eine Milliarde"
+   ],
+   "page": "183",
+   "usage": "1.000.000.000"
+  },
+  {
+   "id": "aa-numeri-grandi-019",
+   "target": "due miliardi",
+   "translations": [
+    "zwei Milliarden"
+   ],
+   "page": "183",
+   "usage": "2.000.000.000"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Anhang A",
+   "section": "I numeri grandi",
+   "pages": "183"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Zahlen",
+   "Grundzahlen"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

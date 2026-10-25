@@ -1,0 +1,172 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-aa-giorni",
+ "title": "Ecco più 2 · I giorni della settimana",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Die Wochentage“ aus Ecco più 2 (Anhang A, I giorni della settimana).",
+ "topics": [
+  "Wochentage",
+  "Zeit"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Anhang A · I giorni della settimana",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 184 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "aa-giorni-001",
+   "target": "il lunedì",
+   "translations": [
+    "der Montag, montags"
+   ],
+   "page": "184",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "aa-giorni-002",
+   "target": "il martedì",
+   "translations": [
+    "der Dienstag, dienstags"
+   ],
+   "page": "184",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "aa-giorni-003",
+   "target": "il mercoledì",
+   "translations": [
+    "der Mittwoch, mittwochs"
+   ],
+   "page": "184",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "aa-giorni-004",
+   "target": "il giovedì",
+   "translations": [
+    "der Donnerstag, donnerstags"
+   ],
+   "page": "184",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "aa-giorni-005",
+   "target": "il venerdì",
+   "translations": [
+    "der Freitag, freitags"
+   ],
+   "page": "184",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "aa-giorni-006",
+   "target": "il sabato",
+   "translations": [
+    "der Samstag/Sonnabend, samstags"
+   ],
+   "page": "184",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "aa-giorni-007",
+   "target": "la domenica",
+   "translations": [
+    "der Sonntag, sonntags"
+   ],
+   "page": "184",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Anhang A",
+   "section": "I giorni della settimana",
+   "pages": "184"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Wochentage",
+   "Zeit"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

@@ -996,3 +996,112 @@ Le professioni più ricercate secondo il grafico sono …|Die gefragtesten Beruf
 *morto/-a|tot
 *l’orchestra|das Orchester
 *il record, i record|der Rekord;die Bestmarke|pl. i record
+
+@ aa-numeri-0-20 | Anhang A | I numeri 0–20 | Die Zahlen von 0 bis 20 | 183 | Zahlen,Grundzahlen
+zero|null|0
+uno|eins|1
+due|zwei|2
+tre|drei|3
+quattro|vier|4
+cinque|fünf|5
+sei|sechs|6
+sette|sieben|7
+otto|acht|8
+nove|neun|9
+dieci|zehn|10
+undici|elf|11
+dodici|zwölf|12
+tredici|dreizehn|13
+quattordici|vierzehn|14
+quindici|fünfzehn|15
+sedici|sechzehn|16
+diciassette|siebzehn|17
+diciotto|achtzehn|18
+diciannove|neunzehn|19
+venti|zwanzig|20
+
+@ aa-numeri-21-102 | Anhang A | I numeri 21–102 | Zahlen von 21 bis 102 | 183 | Zahlen,Grundzahlen
+ventuno|einundzwanzig|21
+ventidue|zweiundzwanzig|22
+ventitré|dreiundzwanzig|23
+ventiquattro|vierundzwanzig|24
+venticinque|fünfundzwanzig|25
+ventisei|sechsundzwanzig|26
+ventisette|siebenundzwanzig|27
+ventotto|achtundzwanzig|28
+ventinove|neunundzwanzig|29
+trenta|dreißig|30
+trentuno|einunddreißig|31
+trentadue|zweiunddreißig|32
+trentatré|dreiunddreißig|33
+quaranta|vierzig|40
+cinquanta|fünfzig|50
+sessanta|sechzig|60
+settanta|siebzig|70
+ottanta|achtzig|80
+novanta|neunzig|90
+cento|hundert|100
+cent(o)uno|hunderteins|101
+centodue|hundertzwei|102
+
+@ aa-numeri-grandi | Anhang A | I numeri grandi | Hunderter, Tausender, Millionen | 183 | Zahlen,Grundzahlen
+duecento|zweihundert|200
+duecentocinquanta|zweihundertfünfzig|250
+trecento|dreihundert|300
+quattrocento|vierhundert|400
+cinquecento|fünfhundert|500
+seicento|sechshundert|600
+settecento|siebenhundert|700
+ottocento|achthundert|800
+novecento|neunhundert|900
+mille|tausend|1.000|pl.: mila
+milleuno|eintausendeins|1.001
+millecento|eintausendeinhundert|1.100
+duemila|zweitausend|2.000
+tremila|dreitausend|3.000
+diecimila|zehntausend|10.000
+un milione|eine Million|1.000.000
+due milioni|zwei Millionen|2.000.000
+un miliardo|eine Milliarde|1.000.000.000
+due miliardi|zwei Milliarden|2.000.000.000
+
+@ aa-numeri-ordinali | Anhang A | I numeri ordinali | Die Ordnungszahlen | 184 | Zahlen,Ordnungszahlen
+il primo / la prima|der/die Erste|1°
+il secondo / la seconda|der/die Zweite|2°
+il terzo / la terza|der/die Dritte|3°
+il quarto / la quarta|der/die Vierte|4°
+il quinto / la quinta|der/die Fünfte|5°
+il sesto / la sesta|der/die Sechste|6°
+il settimo / la settima|der/die Siebte|7°
+l’ottavo / l’ottava|der/die Achte|8°
+il nono / la nona|der/die Neunte|9°
+il decimo / la decima|der/die Zehnte|10°
+undicesimo/-a|elfte(r)|11°
+dodicesimo/-a|zwölfte(r)|12°
+tredicesimo/-a|dreizehnte(r)|13°
+ventesimo/-a|zwanzigste(r)|20°
+ventunesimo/-a|einundzwanzigste(r)|21°
+quattrocento sessantaseiesimo/-a|vierhundertsechsundsechzigste(r)|466°
+
+@ aa-giorni | Anhang A | I giorni della settimana | Die Wochentage | 184 | Wochentage,Zeit
+il lunedì|der Montag, montags
+il martedì|der Dienstag, dienstags
+il mercoledì|der Mittwoch, mittwochs
+il giovedì|der Donnerstag, donnerstags
+il venerdì|der Freitag, freitags
+il sabato|der Samstag/Sonnabend, samstags
+la domenica|der Sonntag, sonntags
+
+@ aa-mesi | Anhang A | I mesi dell’anno | Die Monate des Jahres | 184 | Monate,Zeit
+gennaio|Januar
+febbraio|Februar
+marzo|März
+aprile|April
+maggio|Mai
+giugno|Juni
+luglio|Juli
+agosto|August
+settembre|September
+ottobre|Oktober
+novembre|November
+dicembre|Dezember

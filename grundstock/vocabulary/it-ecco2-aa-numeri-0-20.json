@@ -1,0 +1,242 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco2-aa-numeri-0-20",
+ "title": "Ecco più 2 · I numeri 0–20",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A2",
+ "description": "Wortschatz zu „Die Zahlen von 0 bis 20“ aus Ecco più 2 (Anhang A, I numeri 0–20).",
+ "topics": [
+  "Zahlen",
+  "Grundzahlen"
+ ],
+ "collection": "Ecco più 2 (Cornelsen)",
+ "section": "Anhang A · I numeri 0–20",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 183 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "aa-numeri-0-20-001",
+   "target": "zero",
+   "translations": [
+    "null"
+   ],
+   "page": "183",
+   "usage": "0"
+  },
+  {
+   "id": "aa-numeri-0-20-002",
+   "target": "uno",
+   "translations": [
+    "eins"
+   ],
+   "page": "183",
+   "usage": "1"
+  },
+  {
+   "id": "aa-numeri-0-20-003",
+   "target": "due",
+   "translations": [
+    "zwei"
+   ],
+   "page": "183",
+   "usage": "2"
+  },
+  {
+   "id": "aa-numeri-0-20-004",
+   "target": "tre",
+   "translations": [
+    "drei"
+   ],
+   "page": "183",
+   "usage": "3"
+  },
+  {
+   "id": "aa-numeri-0-20-005",
+   "target": "quattro",
+   "translations": [
+    "vier"
+   ],
+   "page": "183",
+   "usage": "4"
+  },
+  {
+   "id": "aa-numeri-0-20-006",
+   "target": "cinque",
+   "translations": [
+    "fünf"
+   ],
+   "page": "183",
+   "usage": "5"
+  },
+  {
+   "id": "aa-numeri-0-20-007",
+   "target": "sei",
+   "translations": [
+    "sechs"
+   ],
+   "page": "183",
+   "usage": "6"
+  },
+  {
+   "id": "aa-numeri-0-20-008",
+   "target": "sette",
+   "translations": [
+    "sieben"
+   ],
+   "page": "183",
+   "usage": "7"
+  },
+  {
+   "id": "aa-numeri-0-20-009",
+   "target": "otto",
+   "translations": [
+    "acht"
+   ],
+   "page": "183",
+   "usage": "8"
+  },
+  {
+   "id": "aa-numeri-0-20-010",
+   "target": "nove",
+   "translations": [
+    "neun"
+   ],
+   "page": "183",
+   "usage": "9"
+  },
+  {
+   "id": "aa-numeri-0-20-011",
+   "target": "dieci",
+   "translations": [
+    "zehn"
+   ],
+   "page": "183",
+   "usage": "10"
+  },
+  {
+   "id": "aa-numeri-0-20-012",
+   "target": "undici",
+   "translations": [
+    "elf"
+   ],
+   "page": "183",
+   "usage": "11"
+  },
+  {
+   "id": "aa-numeri-0-20-013",
+   "target": "dodici",
+   "translations": [
+    "zwölf"
+   ],
+   "page": "183",
+   "usage": "12"
+  },
+  {
+   "id": "aa-numeri-0-20-014",
+   "target": "tredici",
+   "translations": [
+    "dreizehn"
+   ],
+   "page": "183",
+   "usage": "13"
+  },
+  {
+   "id": "aa-numeri-0-20-015",
+   "target": "quattordici",
+   "translations": [
+    "vierzehn"
+   ],
+   "page": "183",
+   "usage": "14"
+  },
+  {
+   "id": "aa-numeri-0-20-016",
+   "target": "quindici",
+   "translations": [
+    "fünfzehn"
+   ],
+   "page": "183",
+   "usage": "15"
+  },
+  {
+   "id": "aa-numeri-0-20-017",
+   "target": "sedici",
+   "translations": [
+    "sechzehn"
+   ],
+   "page": "183",
+   "usage": "16"
+  },
+  {
+   "id": "aa-numeri-0-20-018",
+   "target": "diciassette",
+   "translations": [
+    "siebzehn"
+   ],
+   "page": "183",
+   "usage": "17"
+  },
+  {
+   "id": "aa-numeri-0-20-019",
+   "target": "diciotto",
+   "translations": [
+    "achtzehn"
+   ],
+   "page": "183",
+   "usage": "18"
+  },
+  {
+   "id": "aa-numeri-0-20-020",
+   "target": "diciannove",
+   "translations": [
+    "neunzehn"
+   ],
+   "page": "183",
+   "usage": "19"
+  },
+  {
+   "id": "aa-numeri-0-20-021",
+   "target": "venti",
+   "translations": [
+    "zwanzig"
+   ],
+   "page": "183",
+   "usage": "20"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "2",
+   "unit": "Anhang A",
+   "section": "I numeri 0–20",
+   "pages": "183"
+  },
+  "grade": 9,
+  "foreignLanguageNo": 3,
+  "cefr": "A2",
+  "themes": [
+   "Zahlen",
+   "Grundzahlen"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}
