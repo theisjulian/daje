@@ -29,9 +29,11 @@ def build(header, rows):
     sid, unit, sect, title, pages, themes = [x.strip() for x in header.split('|')][:6]
     pkg_id = f"it-{BOOK['prefix']}-" + sid
     entries = []
-    for i, (t, trs, hint, opt) in enumerate(rows, 1):
+    for i, (t, trs, hint, opt, ex, rel) in enumerate(rows, 1):
         e = {'id': f'{sid}-{i:03d}', 'target': t, 'translations': trs, 'page': pages}
         if opt: e['tags'] = ['fakultativ']
+        if ex: e['example'] = ex
+        if rel: e['related'] = rel
         acc = variants(t)
         if acc: e['acceptedAnswers'] = acc
         if hint: e['usage'] = hint
@@ -55,7 +57,7 @@ def build(header, rows):
         'collection': f"{BOOK['series']} {BOOK['volume']} (Cornelsen)", 'section': f'{unit} · {sect}',
         'sources': [{'kind': 'provided', 'citation': f'{BOOK['series']} {BOOK['volume']}, Cornelsen, Lista cronologica / Anhang, S. {pages} (vom Nutzer bereitgestellte Seiten)', 'rights': 'needs_review'}],
         'reviewNotes': ['Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.',
-                        'Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).',
+                        'Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.',
                         'Plural-, Partizip- und Zusatzangaben stehen im Feld usage.'],
         'entries': entries,
         'catalog': {'origin': 'textbook',
@@ -83,7 +85,9 @@ def parse(path):
         t = t.lstrip('*').strip()
         trs = [x.strip() for x in parts[1].split(';') if x.strip()]
         hint = parts[2].strip() if len(parts) > 2 else ''
-        cur[1].append((t, trs, hint, opt))
+        ex = parts[3].strip() if len(parts) > 3 else ''
+        rel = parts[4].strip() if len(parts) > 4 else ''
+        cur[1].append((t, trs, hint, opt, ex, rel))
     return pk
 
 if __name__ == '__main__':

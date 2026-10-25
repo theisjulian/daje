@@ -345,7 +345,7 @@ function renderSession() {
       : '';
   const content = photo
     ? `<div class="flashcard photo-card"><img src="${PHOTOS[w.photo].file}" alt="${PHOTOS[w.photo].alt}"><div class="photo-content"><div class="eyebrow">Auf Italienisch?</div>${s.checked ? `<div class="word-display" lang="${config.language}">${esc(answer)}</div>${speakHTML(w)}` : ''}${form}${feedback}</div></div>`
-    : `<div class="flashcard ${cards && !s.flipped ? 'tappable' : ''}" ${cards && !s.flipped ? 'data-action="flip" role="button" tabindex="0" aria-label="Karte umdrehen"' : ''}><div class="eyebrow">${def ? 'Welcher Begriff?' : s.flipped ? 'Lösung' : reverse ? portalLang(config.language) : 'Deutsch'}</div>${w.image && !(cards && s.flipped) ? `<img class="card-image" src="${esc(w.image)}" alt="">` : ''}<div class="word-display ${def ? 'is-definition' : ''}" ${s.flipped || reverse || def ? `lang="${config.language}"` : ''}>${esc(cards && s.flipped ? answer : prompt)}</div>${cards && s.flipped ? speakHTML(w) : ''}${cards && s.flipped && w.example ? `<p class="card-example" lang="${config.language}">${esc(w.example)}</p>` : ''}${cards ? '' : form + feedback}</div>`;
+    : `<div class="flashcard ${cards && !s.flipped ? 'tappable' : ''}" ${cards && !s.flipped ? 'data-action="flip" role="button" tabindex="0" aria-label="Karte umdrehen"' : ''}><div class="eyebrow">${def ? 'Welcher Begriff?' : s.flipped ? 'Lösung' : reverse ? portalLang(config.language) : 'Deutsch'}</div>${w.image && !(cards && s.flipped) ? `<img class="card-image" src="${esc(w.image)}" alt="">` : ''}<div class="word-display ${def ? 'is-definition' : ''}" ${s.flipped || reverse || def ? `lang="${config.language}"` : ''}>${esc(cards && s.flipped ? answer : prompt)}</div>${cards && s.flipped ? speakHTML(w) : ''}${cards && s.flipped && w.example ? `<p class="card-example" lang="${config.language}">${esc(w.example)}</p>` : ''}${cards && s.flipped && w.related ? relatedHTML(w.related) : ''}${cards ? '' : form + feedback}</div>`;
   const actions = cards
     ? s.flipped
       ? '<button class="button secondary large" data-rate="no">Nochmal</button><button class="button primary large" data-rate="yes">Gewusst</button>'
@@ -413,6 +413,19 @@ function siblingsOf(w) {
     })
   );
   return [...out.values()];
+}
+// "E: inhabitant; F: l’habitant; L: …" als kleine Chips
+function relatedHTML(r) {
+  const names = { E: 'Englisch', F: 'Französisch', L: 'Latein', S: 'Spanisch', D: 'Deutsch' };
+  const chips = String(r)
+    .split(/\s*[;·]\s*/)
+    .filter(Boolean)
+    .map(p => {
+      const m = p.match(/^([EFLSD])\s*:?\s+(.+)$/);
+      return m ? `<span class="rel" title="${names[m[1]]}"><b>${m[1]}</b> ${esc(m[2])}</span>` : `<span class="rel">${esc(p)}</span>`;
+    })
+    .join('');
+  return `<p class="card-related" aria-label="Verwandte Wörter">${chips}</p>`;
 }
 function checkAnswer() {
   const s = session,

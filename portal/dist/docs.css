@@ -198,3 +198,25 @@ body.previewing-teaching #teaching-print.dlg-mode{position:fixed;inset:0;z-index
 #teaching-print[data-design='minimal'] .doc-table th{background:none;border-bottom:2px solid #000}
 #teaching-print[data-design='minimal'] .doc-table td{border-bottom:1px solid #ccc}
 #teaching-print .paper :is(h1,h2,h3,header,footer,th,td,b){font-family:inherit}
+
+/* Schlicht: nüchterner Standard; Akzentfarbe nur als dünne Linie */
+#teaching-print h1, #teaching-print .paper h1 { text-shadow: none !important; background: none; filter: none; }
+#teaching-print .paper { color: #111; }
+#teaching-print .paper h1 { font-size: 20pt; margin: 0 0 4px; }
+.doc-name { margin: 12px 0 4px; }
+.doc-table tr.doc-sec th { padding-top: 16px; font-size: .86em; letter-spacing: .02em; color: #333; background: none; border: 0; border-bottom: 1px solid #999; text-transform: none; }
+.doc-table td.rel { font-size: .9em; color: #333; }
+#teaching-print[data-design='schlicht'] .doc-table th { border-bottom: 1.5px solid var(--ac); background: none; font-weight: 700; }
+#teaching-print[data-design='schlicht'] .doc-table td { border-bottom: 0.5px solid #c8c8c8; padding: 6px 8px; }
+#teaching-print[data-design='schlicht'] .doc-table td.t { font-weight: 600; }
+#teaching-print[data-design='schlicht'] .doc-foot { margin-top: 28px; font-size: 8.5pt; color: #666; border-top: 0.5px solid #ccc; }
+#teaching-print[data-design='schlicht'] .doc-logo svg, #teaching-print[data-design='schlicht'] .doc-logo img { height: 14px; }
+.dz-schlicht i u:first-child { background: #222; height: 3px; }
+/* Akzentfarbe wirkt in allen Designs sichtbar */
+#teaching-print[data-design='heft'] h1 { background: linear-gradient(transparent 58%, color-mix(in srgb, var(--ac) 35%, white) 58%); }
+#teaching-print[data-design='heft'] .doc-table th { border-bottom-color: var(--ac); }
+#teaching-print[data-design='heft'] .doc-table td { border-bottom-color: color-mix(in srgb, var(--ac) 55%, white); }
+#teaching-print[data-design='klassisch'] .doc-table th { border-bottom-color: var(--ac); }
+#teaching-print[data-design='kontrast'] .doc-table th { background: var(--ac); }
+#teaching-print[data-design='kontrast'] .doc-table td { border-color: var(--ac); }
+.dlg-note { margin: 6px 2px 0; font-size: 12px; color: #777; }

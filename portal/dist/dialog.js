@@ -46,7 +46,7 @@ renderVocabDoc = function () {
   const L = portalLang(x.language);
   const side =
     dlgBlock('Spalten', avail.map(([k, l]) => `<label class="dlg-check"><input type="checkbox" data-doc-col="${k}" ${docState.cols.includes(k) || k === 'target' ? 'checked' : ''} ${k === 'target' ? 'disabled' : ''}><span>${l}</span></label>`).join('')) +
-    dlgBlock('Aufbau', dlgSeg('data-doc-layout', 'doc-layout', [['list', 'Wortliste'], ['test-de', `Test: ${L}`], ['test-it', 'Test: Deutsch']], docState.layout)) +
+    dlgBlock('Aufbau', dlgSeg('data-doc-layout', 'doc-layout', [['list', 'Wortliste'], ['test-de', `Test: ${L}`], ['test-it', 'Test: Deutsch']], docState.layout) + '<p class="dlg-note">Beim Test bleibt die Spalte der gesuchten Sprache leer.</p>') +
     dlgBlock('Design', dlgDesigns()) + dlgBlock('Schrift', dlgFonts()) + dlgBlock('Farbe', dlgAccents());
   dlgShow({ title: x.title.replace(/^Wortschatz · /, ''), side, paper: vocabDocHTML(x) });
 };

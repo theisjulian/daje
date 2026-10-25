@@ -5,6 +5,7 @@
  */
 const DOC_BRAND = 'ripassà.';
 const DOC_DESIGNS = [
+  ['schlicht', 'Schlicht', 'Nüchtern, schwarz-weiß'],
   ['modern', 'Modern', 'Akzentfarbe deines Designs'],
   ['klassisch', 'Klassisch', 'Schwarz-weiß, sparsam im Druck'],
   ['heft', 'Heft', 'Linien und Marker'],
@@ -35,20 +36,22 @@ const DOC_ACCENTS = [
   ['schwarz', 'Schwarz', '#111111']
 ];
 const DOC_COLUMNS = [
-  ['target', 'Wort'],
+  ['target', 'Zielsprache'],
   ['de', 'Deutsch'],
   ['ipa', 'Lautschrift'],
   ['definition', 'Erklärung'],
   ['example', 'Beispiel'],
   ['usage', 'Verwendung'],
+  ['related', 'Verwandte Wörter'],
   ['image', 'Bild']
 ];
-let docState = { design: 'modern', font: 'auto', accent: 'auto', layout: 'list', cols: ['target', 'de'] };
+let docState = { design: 'schlicht', font: 'auto', accent: 'schwarz', layout: 'list', cols: ['target', 'de'] };
 try {
   Object.assign(docState, JSON.parse(localStorage.getItem('ripassa-doc-v1') || '{}'));
 } catch {
   /* ohne Speicher */
 }
+if (!['list', 'test-de', 'test-it'].includes(docState.layout)) docState.layout = 'list';
 const saveDocState = () => {
   try {
     localStorage.setItem('ripassa-doc-v1', JSON.stringify(docState));
@@ -64,7 +67,7 @@ function docFooter() {
 function docColumnsFor(x) {
   const has = k =>
     k === 'target' || k === 'de' || x.entries.some(w => (k === 'definition' ? w.definition : k === 'example' ? w.example : w[k]));
-  return DOC_COLUMNS.filter(([k]) => has(k));
+  return DOC_COLUMNS.filter(([k]) => has(k)).map(([k, l]) => (k === 'target' ? [k, portalLang(x.language)] : [k, l]));
 }
 function docCell(w, k, layout) {
   const t = layout === 'test-de' ? 'target' : layout === 'test-it' ? 'de' : null;
@@ -76,22 +79,30 @@ function docCell(w, k, layout) {
       return `<td>${esc(w.translations.join(' / '))}</td>`;
     case 'image':
       return `<td class="img">${w.image ? `<img src="${esc(w.image)}" alt="">` : ''}</td>`;
+    case 'related':
+      return `<td class="rel">${esc(String(w.related || '').replace(/;\s*/g, ' · '))}</td>`;
     default:
       return `<td>${esc(w[k] || '')}</td>`;
   }
 }
 function vocabDocHTML(x) {
-  const cols = docColumnsFor(x).filter(([k]) => docState.cols.includes(k));
-  const order = cols.length ? cols : [['target', 'Wort'], ['de', 'Deutsch']];
+  const cols = docColumnsFor(x).filter(([k]) => docState.cols.includes(k) || k === 'target');
+  const order = cols.length ? cols : [['target', portalLang(x.language)], ['de', 'Deutsch']];
   const layout = docState.layout;
-  const head = order.map(([, l]) => `<th>${l}</th>`).join('');
+  const head = order.map(([, l]) => `<th>${esc(l)}</th>`).join('');
+  let last = null;
   const rows = x.entries
-    .map(w => `<tr>${order.map(([k]) => docCell(w, k, layout)).join('')}</tr>`)
+    .map(w => {
+      const sec = w.group && w.group !== last ? `<tr class="doc-sec"><th colspan="${order.length}">${esc(w.group)}</th></tr>` : '';
+      last = w.group || last;
+      return sec + `<tr>${order.map(([k]) => docCell(w, k, layout)).join('')}</tr>`;
+    })
     .join('');
-  return `<header><b>theis · ${DOC_BRAND}</b><span>${layout === 'list' ? 'Wortliste' : 'Vokabeltest'}</span></header>
-  <h1>${esc(x.title.replace(/^Wortschatz · /, ''))}</h1>
-  <p class="doc-meta">${esc(portalLang(x.language))} · ${esc(x.level)} · ${x.entries.length} Einträge${x.catalog?.textbook?.series ? ' · ' + esc(x.catalog.textbook.series) + (x.catalog.textbook.volume ? ' ' + esc(x.catalog.textbook.volume) : '') : ''}</p>
-  ${layout !== 'list' ? '<p>Name: ______________________________ &nbsp; Datum: ______________</p>' : ''}
+  const book = x.catalog?.textbook?.series ? ' · ' + esc(x.catalog.textbook.series) + (x.catalog.textbook.volume ? ' ' + esc(x.catalog.textbook.volume) : '') : '';
+  const test = layout === 'test-de' ? 'Test: auf ' + portalLang(x.language) + ' schreiben' : layout === 'test-it' ? 'Test: auf Deutsch schreiben' : '';
+  return `<h1>${esc(x.title.replace(/^Wortschatz · /, ''))}</h1>
+  <p class="doc-meta">${esc(portalLang(x.language))}${x.level && x.level !== 'A1' ? ' · ' + esc(x.level) : ''} · ${x.entries.length} Einträge${book}${test ? ' · ' + esc(test) : ''}</p>
+  ${layout !== 'list' ? '<p class="doc-name">Name: ______________________________ &nbsp; Datum: ______________</p>' : ''}
   <table class="doc-table"><thead><tr>${head}</tr></thead><tbody>${rows}</tbody></table>
   ${docFooter()}`;
 }
@@ -183,9 +194,9 @@ document.addEventListener('click', e => {
     saveDocState();
     renderVocabDoc();
   }
-  const lay = e.target.closest('[data-doc-layout]');
+  const lay = e.target.closest('input[data-doc-layout]');
   if (lay) {
-    docState.layout = lay.dataset.docLayout;
+    docState.layout = lay.value || lay.dataset.docLayout;
     saveDocState();
     renderVocabDoc();
   }

@@ -314,6 +314,7 @@
         if (w.usage !== undefined && w.usage !== '') z.usage = str(w.usage, path + '.usage', 500);
         if (w.tags !== undefined) z.tags = strings(w.tags, path + '.tags', 8);
         if (w.page !== undefined && w.page !== '') z.page = str(w.page, path + '.page', 30);
+        if (w.related !== undefined && w.related !== '') z.related = str(w.related, path + '.related', 300);
         if (w.ipa !== undefined && w.ipa !== '') z.ipa = str(w.ipa, path + '.ipa', 120);
         if (w.audio !== undefined && w.audio !== '') {
           if (typeof w.audio !== 'string' || !/^assets\/audio\/[a-z0-9][a-z0-9/_-]*\.(mp3|m4a|ogg|wav)$/.test(w.audio))

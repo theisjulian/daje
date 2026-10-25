@@ -778,6 +778,8 @@ function allTrainingWords() {
         label: x.section === x.title ? x.title : x.title + ' · ' + x.section,
         def: w.definition,
         example: w.example,
+        related: w.related,
+        usage: w.usage,
         ipa: w.ipa,
         audio: w.audio,
         image: w.image

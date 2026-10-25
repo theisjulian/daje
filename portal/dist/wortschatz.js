@@ -104,9 +104,12 @@ let wsSynth = null;
     c.secs.forEach(s => ws.sel.has(s.key) && out.push(s));
     return out;
   }
-  function earlierVolumes(c) {
-    if (!c.series || c.volume < 2 || !ws.cum) return [];
+  function priorVolumes(c) {
+    if (!c.series || c.volume < 2) return [];
     return sections().filter(z => z.series === c.series && z.volume && z.volume < c.volume);
+  }
+  function earlierVolumes(c) {
+    return ws.cum ? priorVolumes(c) : [];
   }
 
   function collection() {
@@ -129,7 +132,7 @@ let wsSynth = null;
     const inRange = chosen(c);
     const pageView = `<div class="ws-tools"><label>von Seite <input type="number" inputmode="numeric" data-ws="from" min="${pMin}" max="${pMax}" value="${esc(String(ws.from))}"></label><label>bis einschließlich Seite <input type="number" inputmode="numeric" data-ws="to" min="${pMin}" max="${pMax}" value="${esc(String(ws.to))}"></label><button class="quiet" data-ws="allpages">Ganzes Buch</button></div><p class="muted small">Seitenzahlen beziehen sich auf die Lista cronologica im Anhang des Buchs. Abschnitte, die den Bereich berühren, sind enthalten.</p>${inRange.map(s => `<div class="ws-row"><span class="ws-pick"><span><b>${esc(s.title)}</b><small>${[s.unit, pagesText(s.pages), plural(s.n, 'Wort', 'Wörter')].filter(Boolean).join(' · ')}</small></span></span></div>`).join('') || '<p class="muted">In diesem Bereich liegt noch kein Abschnitt.</p>'}`;
     const prior = earlierVolumes(c);
-    const cumBox = c.volume > 1 && prior.length ? `<label class="ws-cum"><input type="checkbox" data-ws="cum" ${ws.cum ? 'checked' : ''}> <b>${esc(prior.map(z => z.title).join(', '))}</b> <span>als bekannt voraussetzen und mitrechnen</span></label>` : '';
+    const cumBox = c.volume > 1 && priorVolumes(c).length ? `<label class="ws-cum"><input type="checkbox" data-ws="cum" ${ws.cum ? 'checked' : ''}> <b>${esc(priorVolumes(c).map(z => z.title).join(', '))}</b> <span>als bekannt voraussetzen und mitrechnen</span></label>` : '';
     const sel = chosen(c);
     const words = [...prior.flatMap(z => z.secs), ...sel].reduce((s, z) => s + secWords(z).length, 0);
     const optBox = c.secs.some(z => z.id && (contentList('vocabulary').find(x => x.id === z.id) || { entries: [] }).entries.some(w => (w.tags || []).includes('fakultativ'))) ? `<label class="ws-cum"><input type="checkbox" data-ws="opt" ${ws.opt ? 'checked' : ''}> Fakultativen Wortschatz (im Buch kursiv) einbeziehen</label>` : '';
@@ -152,7 +155,7 @@ let wsSynth = null;
     if (s.base) return WORDS.filter(w => w.group === s.base);
     const x = contentList('vocabulary').find(z => z.id === s.id);
     return x
-      ? x.entries.filter(w => ws.opt || !(w.tags || []).includes('fakultativ')).map(w => ({ id: x.id + '-' + w.id, target: w.target, translations: w.translations, acceptedAnswers: w.acceptedAnswers, grammar: w.grammar, answerPolicy: w.answerPolicy, language: x.language, label: x.title, def: w.definition, example: w.example, ipa: w.ipa, audio: w.audio, image: w.image }))
+      ? x.entries.filter(w => ws.opt || !(w.tags || []).includes('fakultativ')).map(w => ({ id: x.id + '-' + w.id, target: w.target, translations: w.translations, acceptedAnswers: w.acceptedAnswers, grammar: w.grammar, answerPolicy: w.answerPolicy, language: x.language, label: x.title, def: w.definition, example: w.example, related: w.related, usage: w.usage, ipa: w.ipa, audio: w.audio, image: w.image }))
       : [];
   };
   const allSecs = c => [...earlierVolumes(c).flatMap(z => z.secs), ...chosen(c)];
@@ -186,7 +189,10 @@ let wsSynth = null;
         target: w.target || w.it,
         translations: w.translations || w.de,
         ...(w.definition || w.def ? { definition: w.definition || w.def } : {}),
-        ...(w.example ? { example: w.example } : {})
+        ...(w.example ? { example: w.example } : {}),
+        ...(w.related ? { related: w.related } : {}),
+        ...(w.usage ? { usage: w.usage } : {}),
+        group: s.title + (s.pages ? ' · ' + pagesText(s.pages) : '')
       }))
     );
     wsSynth = { format: 'theis-learning-package', schemaVersion: '1.2', kind: 'vocabulary', id: 'ws-auswahl', title: c.title + ' · Auswahl', language: 'it', translationLanguage: 'de', level: 'A1', description: '', topics: [], collection: c.title, section: 'Auswahl', sources: [], entries };

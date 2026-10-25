@@ -1447,3 +1447,8 @@ html[data-skin='glut'] .primary {
     padding: 5px 0;
   }
 }
+
+/* Verwandte Wörter (E/F/L) auf der Lösungsseite */
+.card-related{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:10px 0 0}
+.card-related .rel{font-size:.85rem;padding:2px 10px;border-radius:99px;background:color-mix(in srgb,var(--blue) 10%,transparent);color:inherit}
+.card-related .rel b{font-size:.72rem;opacity:.65;margin-right:4px}
