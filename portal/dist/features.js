@@ -10,7 +10,10 @@ function startRecommended() {
     w => w.language === config.language && records[w.id]?.due <= nowDate()
   );
   if (due.length) return start(due, 'cards');
-  const selected = pool(),
+  const base = pool(),
+    started = new Set(allTrainingWords().filter(w => records[w.id] && w.label).map(w => w.label)),
+    extra = allTrainingWords().filter(w => w.language === config.language && w.label && started.has(w.label) && !base.some(b => b.id === w.id)),
+    selected = [...base, ...extra],
     fresh = shuffle(selected.filter(w => !records[w.id])),
     known = shuffle(selected.filter(w => records[w.id]));
   start([...fresh, ...known].slice(0, config.count), 'cards');

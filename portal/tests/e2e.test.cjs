@@ -63,6 +63,12 @@ async function step(name, fn) {
 
   async function fresh(viewport) {
     const ctx = await browser.newContext({ viewport, locale: 'de-DE', reducedMotion: 'reduce' });
+    // Die ausgelieferte App enthält keine synthetischen Demo-Hörübungen; für die Tests werden sie ergänzt.
+    await ctx.route('**/listening-data.js', async route => {
+      const res = await route.fetch();
+      const extra = require('fs').readFileSync(require('path').join(__dirname, 'fixtures', 'demo-seeds.js'), 'utf8');
+      await route.fulfill({ response: res, body: (await res.text()) + '\n' + extra });
+    });
     const page = await ctx.newPage();
     page.on('pageerror', e => problems.push('Seitenfehler: ' + e.message));
     page.on('console', m => {

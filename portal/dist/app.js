@@ -384,17 +384,44 @@ const normalize = t =>
     .trim()
     .replace(/\s+/g, ' ');
 const noAccent = t => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+let synCache = { sig: '', map: null };
+const synKey = t => TheisGrading.norm(String(t).replace(/\s*\([^)]*\)/g, '').replace(/^hier:\s*/i, ''));
+// Gleichbedeutende Wörter: andere Einträge, die dieselbe (erste) Übersetzung teilen, z. B. adesso/ora = jetzt.
+function siblingsOf(w) {
+  const all = allTrainingWords(),
+    sig = all.length + ':' + w.language;
+  if (synCache.sig !== sig) {
+    const map = new Map();
+    all.forEach(x =>
+      (x.translations || []).forEach((t, i) => {
+        const k = synKey(t);
+        if (k.length < 3) return;
+        if (!map.has(k)) map.set(k, []);
+        map.get(k).push({ w: x, first: i === 0 });
+      })
+    );
+    synCache = { sig, map };
+  }
+  const out = new Map(),
+    noun = x => x.grammar?.partOfSpeech === 'noun';
+  (w.translations || []).forEach((t, i) =>
+    (synCache.map.get(synKey(t)) || []).forEach(e => {
+      if (e.w.id === w.id || e.w.language !== w.language || noun(e.w) !== noun(w)) return;
+      if (!(i === 0 || e.first)) return;
+      if (TheisGrading.norm(e.w.target) === TheisGrading.norm(w.target)) return;
+      out.set(e.w.id, e.w.target);
+    })
+  );
+  return [...out.values()];
+}
 function checkAnswer() {
   const s = session,
     w = s.words[s.index],
     raw = $('answer').value.trim();
   if (!raw) return;
   s.draft = raw;
-  const result = TheisGrading.compare(
-    w,
-    raw,
-    !(s.mode === 'photo' || s.mode === 'definition' || config.direction === 'de-it')
-  );
+  const rev = !(s.mode === 'photo' || s.mode === 'definition' || config.direction === 'de-it');
+  const result = TheisGrading.compare(w, raw, rev, rev ? [] : siblingsOf(w));
   if (result.status === 'hint') {
     s.usedHint = true;
     s.hint = TheisGrading.hint(w, result.kind, !(s.mode === 'photo' || s.mode === 'definition' || config.direction === 'de-it'));
@@ -409,6 +436,8 @@ function checkAnswer() {
     : 'Noch nicht erkannt. Vergleiche mit der Lösung.';
   if (result.kind === 'article_optional')
     s.feedback = 'Das Wort stimmt. In dieser Liste ist der Artikel optional.';
+  if (result.kind === 'article_indef') s.feedback = 'Richtig. Im Buch steht: ' + w.target;
+  if (result.kind === 'synonym') s.feedback = 'Auch richtig! Im Buch steht: ' + w.target;
   s.checked = true;
   s.hint = '';
   s.hintLevel = 0;

@@ -11,7 +11,7 @@ const w = {
 };
 assert.equal(compare(w, ' IL GELATO! ').status, 'correct');
 assert.equal(compare(w, 'gelato').kind, 'article');
-assert.equal(compare(w, 'la gelato').kind, 'gender');
+assert.equal(compare(w, 'la gelato').kind, 'article_wrong');
 assert.equal(compare(w, 'gelata').kind, 'gender');
 assert.notEqual(compare(w, 'gelata').status, 'correct');
 assert.equal(
@@ -54,3 +54,24 @@ console.log(
   assert.match(hint(cb, undefined, true, 1), /Beginnt mit „Ha…“/);
 }
 console.log('Toleranz und Hinweise passed.');
+
+{
+  const G = require('../dist/grading.js');
+  const negozio = { target: 'il negozio', language: 'it', grammar: { partOfSpeech: 'noun', article: 'il', gender: 'masculine' }, answerPolicy: { article: 'required' } };
+  const ok = (r, k) => r.status === 'correct' && (!k || r.kind === k);
+  const assert = require('assert');
+  assert(ok(G.compare(negozio, 'il negozio'), 'exact'));
+  assert(ok(G.compare(negozio, 'un negozio'), 'article_indef'), 'un negozio akzeptiert');
+  assert(ok(G.compare(negozio, 'Un Negozio.'), 'article_indef'));
+  assert.strictEqual(G.compare(negozio, 'una negozio').kind, 'article_wrong');
+  assert.strictEqual(G.compare(negozio, 'i negozio').kind, 'article_wrong');
+  assert.strictEqual(G.compare(negozio, 'negozio').kind, 'article');
+  const amico = { target: "l'amico", language: 'it', grammar: { partOfSpeech: 'noun', article: "l'", gender: 'masculine' }, answerPolicy: { article: 'required' } };
+  assert(ok(G.compare(amico, 'un amico'), 'article_indef'));
+  assert.strictEqual(G.compare(amico, "un'amico").kind, 'article_wrong');
+  const adesso = { target: 'adesso', language: 'it' };
+  assert(ok(G.compare(adesso, 'ora', false, ['ora']), 'synonym'));
+  assert.strictEqual(G.compare(adesso, 'ora').status, 'wrong');
+  assert.match(G.hint(negozio, 'article_wrong'), /Artikel passt nicht/);
+  console.log('Artikel-Toleranz und Synonyme passed.');
+}

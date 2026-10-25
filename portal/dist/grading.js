@@ -18,6 +18,12 @@
     };
     return x.replace(patterns[lang] || /^$/, '');
   }
+  // Italienische Artikel: Bestimmtheit, Geschlecht (m/f), Zahl (s/p)
+  const IT_ART = { il: ['d', 'm', 's'], lo: ['d', 'm', 's'], i: ['d', 'm', 'p'], gli: ['d', 'm', 'p'], la: ['d', 'f', 's'], le: ['d', 'f', 'p'], "l'": ['d', null, 's'], un: ['i', 'm', 's'], uno: ['i', 'm', 's'], una: ['i', 'f', 's'], "un'": ['i', 'f', 's'] };
+  function splitIt(x) {
+    const m = x.match(/^(il|lo|la|i|gli|le|un|uno|una)\s+(.+)$/) || x.match(/^(l'|un')\s*(.+)$/);
+    return m ? { art: m[1], def: IT_ART[m[1]][0], g: IT_ART[m[1]][1], n: IT_ART[m[1]][2], body: m[2] } : { art: '', body: x };
+  }
   function oneEdit(a, b) {
     if (Math.abs(a.length - b.length) > 1 || Math.min(a.length, b.length) < 5) return false;
     if (a === b) return false;
@@ -56,7 +62,7 @@
     for (const t of [...out]) if (/ \/ |;/.test(t)) t.split(/ \/ |;/).forEach(p => p.trim() && out.add(p.trim()));
     return [...out];
   }
-  function compare(word, raw, reverse = false) {
+  function compare(word, raw, reverse = false, siblings = []) {
     const value = norm(raw),
       base = reverse ? word.translations : [word.target, ...(word.acceptedAnswers || [])],
       answers = [...new Set(base.flatMap(variantsOf).map(norm))].filter(Boolean),
@@ -67,6 +73,20 @@
       if (answers.some(a => g(a) === g(value))) return { status: 'correct', kind: 'exact' };
     }
     if (!reverse) {
+      if (lang === 'it') {
+        const V = splitIt(value);
+        if (V.art) {
+          const wg = word.grammar?.gender === 'feminine' ? 'f' : word.grammar?.gender === 'masculine' ? 'm' : null;
+          for (const a of answers) {
+            const A = splitIt(a);
+            if (!A.art || A.body !== V.body) continue;
+            const gA = A.g || wg,
+              gV = V.g || gA;
+            if ((gA && gV && gA !== gV) || A.n !== V.n) return { status: 'hint', kind: 'article_wrong' };
+            return V.def === A.def ? { status: 'correct', kind: 'exact' } : { status: 'correct', kind: 'article_indef' };
+          }
+        }
+      }
       const matching = answers.find(
         a => stripArticle(a, lang) !== a && stripArticle(a, lang) === value
       );
@@ -94,6 +114,12 @@
       )
         return { status: 'hint', kind: 'gender' };
     }
+    if (!reverse) {
+      for (const t of siblings) {
+        const r = compare({ ...word, target: t, acceptedAnswers: [], answerPolicy: { ...(word.answerPolicy || {}), typo: 'strict' } }, raw, false);
+        if (r.status === 'correct') return { status: 'correct', kind: 'synonym', alt: t };
+      }
+    }
     if (answers.some(a => plain(a) === plain(value))) return { status: 'hint', kind: 'accent' };
     if (
       word.answerPolicy?.typo !== 'strict' &&
@@ -104,8 +130,10 @@
   }
   function hint(word, kind, reverse = false, level = 1) {
     if (kind === 'article') return 'Das Wort stimmt. Welcher Artikel gehört dazu?';
+    if (kind === 'article_wrong')
+      return 'Das Wort stimmt, aber der Artikel passt nicht. Prüfe Geschlecht (männlich/weiblich) und Zahl (Einzahl/Mehrzahl).';
     if (kind === 'gender')
-      return 'Prüfe Genus, Artikel und Wortendung. Ist das Substantiv männlich oder weiblich?';
+      return 'Fast: Prüfe die Endung. Ist das Wort männlich oder weiblich?';
     if (kind === 'accent') return 'Fast: Prüfe die Akzente. Sie können die Bedeutung verändern.';
     if (kind === 'typo')
       return 'Möglicher Tippfehler: Prüfe die Buchstaben noch einmal. Noch nicht als richtig gewertet.';
