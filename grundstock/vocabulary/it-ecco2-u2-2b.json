@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,8 @@
     "teilnehmen an"
    ],
    "page": "205-206",
+   "definition": "Prendere parte a un’attività.",
+   "example": "Partecipo a un corso di teatro.",
    "related": "E to participate"
   },
   {
@@ -44,6 +46,8 @@
     "die Diskussion"
    ],
    "page": "205-206",
+   "definition": "Conversazione con opinioni diverse.",
+   "example": "La discussione è molto animata.",
    "related": "▸ discutere",
    "grammar": {
     "partOfSpeech": "noun",
@@ -62,6 +66,8 @@
     "das Programm"
    ],
    "page": "205-206",
+   "definition": "Piano di attività o trasmissione.",
+   "example": "Il programma della gita è bellissimo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -79,7 +85,9 @@
     "das Engagement",
     "der Einsatz"
    ],
-   "page": "205-206"
+   "page": "205-206",
+   "definition": "Lavoro che si deve fare; serietà nel farlo.",
+   "example": "Studio con impegno."
   },
   {
    "id": "u2-2b-005",
@@ -87,7 +95,9 @@
    "translations": [
     "sozial"
    ],
-   "page": "205-206"
+   "page": "205-206",
+   "definition": "Che riguarda la società.",
+   "example": "È un progetto sociale."
   },
   {
    "id": "u2-2b-006",
@@ -96,6 +106,8 @@
     "hier: der Pater (Kirche)"
    ],
    "page": "205-206",
+   "definition": "Sacerdote cattolico, in alcuni casi.",
+   "example": "Il padre parla alla messa.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -114,6 +126,8 @@
     "sich beschäftigen mit"
    ],
    "page": "205-206",
+   "definition": "Dedicare tempo e attenzione.",
+   "example": "Mi occupo del mio fratellino.",
    "related": "F s’occuper de qn/qc"
   },
   {
@@ -123,6 +137,8 @@
     "das Projekt"
    ],
    "page": "205-206",
+   "definition": "Piano di lavoro.",
+   "example": "Il progetto ha successo.",
    "related": "E project",
    "grammar": {
     "partOfSpeech": "noun",
@@ -140,7 +156,9 @@
    "translations": [
     "präsentieren"
    ],
-   "page": "205-206"
+   "page": "205-206",
+   "definition": "Far conoscere o mostrare.",
+   "example": "Presento il mio lavoro alla classe."
   },
   {
    "id": "u2-2b-010",
@@ -149,7 +167,9 @@
     "live",
     "direkt (Medien)"
    ],
-   "page": "205-206"
+   "page": "205-206",
+   "definition": "Mentre succede, non registrato.",
+   "example": "La partita è in diretta."
   },
   {
    "id": "u2-2b-011",
@@ -158,6 +178,8 @@
     "bereit (etw. zu tun)"
    ],
    "page": "205-206",
+   "definition": "Pronto a fare qualcosa.",
+   "example": "Sono disposto ad aiutarti.",
    "related": "F disposé à"
   },
   {
@@ -167,7 +189,9 @@
     "viele",
     "mehrere"
    ],
-   "page": "205-206"
+   "page": "205-206",
+   "definition": "Un buon numero.",
+   "example": "Ho parecchi amici."
   },
   {
    "id": "u2-2b-013",
@@ -176,6 +200,8 @@
     "der/die Freiwillige"
    ],
    "page": "205-206",
+   "definition": "Persona che aiuta gli altri senza essere pagata.",
+   "example": "Sono volontario alla Croce Rossa.",
    "related": "F volontaire",
    "usage": "pl. i volontari, le volontarie"
   },
@@ -186,7 +212,9 @@
     "die Aktivität",
     "die Tätigkeit"
    ],
-   "page": "205-206"
+   "page": "205-206",
+   "definition": "Cosa che si fa.",
+   "example": "Le attività sono divertenti."
   },
   {
    "id": "u2-2b-015",
@@ -195,6 +223,8 @@
     "der/die Einwanderer/-in"
    ],
    "page": "205-206",
+   "definition": "Persona che arriva in un paese per viverci.",
+   "example": "Gli immigrati cercano lavoro.",
    "related": "E immigrant"
   },
   {
@@ -205,6 +235,8 @@
     "fremd"
    ],
    "page": "205-206",
+   "definition": "Di un altro paese.",
+   "example": "Ho amici stranieri.",
    "related": "E strange; F étranger"
   },
   {
@@ -215,6 +247,8 @@
     "das Team"
    ],
    "page": "205-206",
+   "definition": "Gruppo che gioca insieme.",
+   "example": "Facciamo parte della stessa squadra.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -232,6 +266,8 @@
     "der Eindruck"
    ],
    "page": "205-206",
+   "definition": "Idea che ci si fa di qualcosa.",
+   "example": "Ho una buona impressione di lui.",
    "related": "E impression; F l’impression",
    "usage": "f."
   },
@@ -243,6 +279,8 @@
     "sich für etw. einsetzen"
    ],
    "page": "205-206",
+   "definition": "Dedicarsi con serietà a qualcosa.",
+   "example": "Mi impegno nel volontariato.",
    "related": "= l’impegno",
    "acceptedAnswers": [
     "impegnarsi"
@@ -254,7 +292,9 @@
    "translations": [
     "teilweise"
    ],
-   "page": "205-206"
+   "page": "205-206",
+   "definition": "Non del tutto.",
+   "example": "Sono d’accordo in parte."
   },
   {
    "id": "u2-2b-021",
@@ -264,6 +304,8 @@
     "einig sein"
    ],
    "page": "205-206",
+   "definition": "Avere la stessa opinione.",
+   "example": "Sono d’accordo con te.",
    "related": "F être d’accord avec qn"
   },
   {
@@ -274,6 +316,8 @@
     "verlangen"
    ],
    "page": "205-206",
+   "definition": "Domandare con forza.",
+   "example": "Questo lavoro richiede tempo.",
    "usage": "p.p. richiesto"
   },
   {
@@ -283,6 +327,8 @@
     "regelmäßig"
    ],
    "page": "205-206",
+   "definition": "Che avviene sempre allo stesso modo.",
+   "example": "Faccio sport in modo regolare.",
    "related": "E regular; F régulier",
    "usage": "agg."
   },
@@ -295,6 +341,8 @@
     "das Mahl"
    ],
    "page": "205-206",
+   "definition": "Pasto di mezzogiorno.",
+   "example": "Il pranzo è alle una.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -312,6 +360,8 @@
     "Weihnachten"
    ],
    "page": "205-206",
+   "definition": "Festa cristiana del 25 dicembre.",
+   "example": "A Natale stiamo con la famiglia.",
    "related": "F le Noël",
    "usage": "m."
   },
@@ -322,6 +372,8 @@
     "unterbrechen"
    ],
    "page": "205-206",
+   "definition": "Fermare per un po’.",
+   "example": "Non interrompermi!",
    "related": "F interrompre",
    "usage": "p.p. interrotto"
   },
@@ -331,7 +383,9 @@
    "translations": [
     "der/die Pfadfinder/in"
    ],
-   "page": "205-206"
+   "page": "205-206",
+   "definition": "Giovane che fa parte degli scout.",
+   "example": "Mio fratello è boy-scout."
   },
   {
    "id": "u2-2b-028",
@@ -340,7 +394,9 @@
     "ansonsten",
     "sonst"
    ],
-   "page": "205-206"
+   "page": "205-206",
+   "definition": "Se no, in caso contrario.",
+   "example": "Sbrigati, altrimenti perdi il treno."
   },
   {
    "id": "u2-2b-029",
@@ -350,6 +406,8 @@
     "vorhanden sein"
    ],
    "page": "205-206",
+   "definition": "Essere presente nella realtà.",
+   "example": "Gli unicorni non esistono.",
    "related": "E to exist",
    "usage": "p.p. esistito"
   },
@@ -360,6 +418,8 @@
     "sinnvoll"
    ],
    "page": "205-206",
+   "definition": "Ragionevole, che ha senso.",
+   "example": "È una proposta sensata.",
    "related": "F sensé"
   },
   {
@@ -368,7 +428,9 @@
    "translations": [
     "konkret"
    ],
-   "page": "205-206"
+   "page": "205-206",
+   "definition": "Reale, non astratto.",
+   "example": "Voglio un esempio concreto."
   },
   {
    "id": "u2-2b-032",
@@ -377,6 +439,8 @@
     "(auf-/ein-)sammeln"
    ],
    "page": "205-206",
+   "definition": "Prendere qualcosa da terra o da più posti.",
+   "example": "Raccolgo le mele nel frutteto.",
    "acceptedAnswers": [
     "raccogliere, raccolto"
    ],
@@ -390,6 +454,8 @@
     "der Müll"
    ],
    "page": "205-206",
+   "definition": "Cose che si buttano via.",
+   "example": "Separiamo i rifiuti per la raccolta differenziata.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "i",
@@ -407,6 +473,8 @@
     "Umwelt-"
    ],
    "page": "205-206",
+   "definition": "Che riguarda la natura e il suo equilibrio.",
+   "example": "Il problema ambientale è serio.",
    "usage": "agg."
   },
   {
@@ -417,6 +485,8 @@
     "sich engagieren"
    ],
    "page": "205-206",
+   "definition": "Impegnarsi con energia.",
+   "example": "Mi do da fare per aiutare la mia scuola.",
    "related": "= impegnarsi",
    "usage": "=impegnarsi"
   },
@@ -426,7 +496,9 @@
    "translations": [
     "beschäftigt"
    ],
-   "page": "205-206"
+   "page": "205-206",
+   "definition": "Che ha molte cose da fare.",
+   "example": "Oggi sono molto impegnato."
   },
   {
    "id": "u2-2b-037",
@@ -435,6 +507,8 @@
     "bezweifeln"
    ],
    "page": "205-206",
+   "definition": "Non essere sicuri.",
+   "example": "Dubito che arrivi in tempo.",
    "related": "E to doubt; F douter; L dubitare"
   },
   {
@@ -444,6 +518,8 @@
     "gelten"
    ],
    "page": "205-206",
+   "definition": "Avere un certo valore.",
+   "example": "Questa moneta vale due euro.",
    "acceptedAnswers": [
     "valere, valso"
    ],
@@ -456,6 +532,8 @@
     "die Leute"
    ],
    "page": "205-206",
+   "definition": "Insieme di persone.",
+   "example": "C’è molta gente in piazza.",
    "related": "F les gens",
    "grammar": {
     "partOfSpeech": "noun",
@@ -474,6 +552,8 @@
     "scheinen"
    ],
    "page": "205-206",
+   "definition": "Dare l’impressione di essere.",
+   "example": "Mi pare una buona idea.",
    "usage": "p.p. parso"
   },
   {
@@ -484,6 +564,8 @@
     "beabsichtigen etw. zu tun"
    ],
    "page": "205-206",
+   "definition": "Voler dire, avere in mente.",
+   "example": "Che cosa intendi con questo?",
    "related": "E to intend",
    "usage": "p.p. inteso"
   }

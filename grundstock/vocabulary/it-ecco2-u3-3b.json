@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,8 @@
     "europäisch"
    ],
    "page": "209-210",
+   "definition": "Che appartiene al continente di cui l’Italia fa parte.",
+   "example": "È una squadra europea.",
    "usage": "pl. f. europee"
   },
   {
@@ -43,7 +45,9 @@
    "translations": [
     "(das,) was"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "definition": "Espressione che introduce una cosa non nominata.",
+   "example": "Ciò che dici è giusto."
   },
   {
    "id": "u3-3b-003",
@@ -52,6 +56,8 @@
     "die Kultur"
    ],
    "page": "209-210",
+   "definition": "Insieme di tradizioni di un popolo.",
+   "example": "Mi interessa la cultura italiana.",
    "related": "E culture",
    "grammar": {
     "partOfSpeech": "noun",
@@ -69,7 +75,9 @@
    "translations": [
     "der/die Partner/in"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "definition": "Persona con cui si ha una relazione.",
+   "example": "Il mio partner è molto gentile."
   },
   {
    "id": "u3-3b-005",
@@ -77,7 +85,9 @@
    "translations": [
     "persönlich"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "definition": "Per quanto mi riguarda.",
+   "example": "Personalmente preferisco il mare."
   },
   {
    "id": "u3-3b-006",
@@ -87,6 +97,8 @@
     "die Eigenheit"
    ],
    "page": "209-210",
+   "definition": "Modo di essere di una persona.",
+   "example": "Mia sorella ha un buon carattere.",
    "related": "E character",
    "grammar": {
     "partOfSpeech": "noun",
@@ -105,6 +117,8 @@
     "national"
    ],
    "page": "209-210",
+   "definition": "Di uno Stato intero.",
+   "example": "La squadra nazionale gioca stasera.",
    "related": "E national"
   },
   {
@@ -114,6 +128,8 @@
     "das Parlament"
    ],
    "page": "209-210",
+   "definition": "Assemblea che fa le leggi.",
+   "example": "Il parlamento italiano è a Roma.",
    "related": "E parliament",
    "grammar": {
     "partOfSpeech": "noun",
@@ -132,7 +148,9 @@
     "Olympia-",
     "olympisch"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "definition": "Che riguarda i grandi Giochi sportivi internazionali ogni quattro anni.",
+   "example": "Il campione olimpico è italiano."
   },
   {
    "id": "u3-3b-010",
@@ -141,7 +159,9 @@
     "sich erholen",
     "sich entspannen"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "definition": "Riposarsi e distendersi.",
+   "example": "Mi rilasso ascoltando musica."
   },
   {
    "id": "u3-3b-011",
@@ -151,6 +171,8 @@
     "heute Morgen"
    ],
    "page": "209-210",
+   "definition": "Questa mattina.",
+   "example": "Stamattina ho fatto colazione presto.",
    "related": "▸ la mattina"
   },
   {
@@ -161,6 +183,8 @@
     "der Besuch"
    ],
    "page": "209-210",
+   "definition": "Andare a vedere qualcosa o qualcuno.",
+   "example": "La visita al museo è bellissima.",
    "related": "▸ visitare; E visit; F la visite",
    "grammar": {
     "partOfSpeech": "noun",
@@ -179,6 +203,8 @@
     "der Fragebogen"
    ],
    "page": "209-210",
+   "definition": "Lista di domande a cui rispondere.",
+   "example": "Compilo un questionario sulla scuola.",
    "related": "F le questionnaire",
    "usage": "pl. i questionari",
    "grammar": {
@@ -197,7 +223,9 @@
    "translations": [
     "ausfüllen"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "definition": "Riempire un modulo.",
+   "example": "Compilo il modulo con il mio nome."
   },
   {
    "id": "u3-3b-015",
@@ -206,6 +234,8 @@
     "gefallen"
    ],
    "page": "209-210",
+   "definition": "Essere gradito.",
+   "example": "Mi piace la musica.",
    "related": "F plaire; L placere",
    "usage": "Abc"
   },
@@ -217,6 +247,8 @@
     "natürlich"
    ],
    "page": "209-210",
+   "definition": "In modo chiaro per tutti.",
+   "example": "Ovviamente vengo con voi.",
    "related": "E obviously"
   },
   {
@@ -226,6 +258,8 @@
     "ausgeben"
    ],
    "page": "209-210",
+   "definition": "Usare i soldi per comprare.",
+   "example": "Spendo troppo per i vestiti.",
    "usage": "p.p. speso"
   },
   {
@@ -235,6 +269,8 @@
     "die Speisekarte"
    ],
    "page": "209-210",
+   "definition": "Lista dei piatti di un ristorante.",
+   "example": "Il cameriere porta il menù.",
    "related": "E menu",
    "grammar": {
     "partOfSpeech": "noun",
@@ -252,7 +288,9 @@
    "translations": [
     "Wasser mit Kohlensäure"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "definition": "Acqua con le bollicine.",
+   "example": "Preferisco l’acqua frizzante."
   },
   {
    "id": "u3-3b-020",
@@ -261,6 +299,8 @@
     "italienische Gaststättenart"
    ],
    "page": "209-210",
+   "definition": "Ristorante semplice con cucina tradizionale.",
+   "example": "Mangiamo in una trattoria.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -278,7 +318,9 @@
     "vorbestellen",
     "reservieren"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "definition": "Riservare un posto in anticipo.",
+   "example": "Prenoto un tavolo per quattro."
   },
   {
    "id": "u3-3b-022",
@@ -287,6 +329,8 @@
     "entdecken"
    ],
    "page": "209-210",
+   "definition": "Trovare qualcosa di nuovo.",
+   "example": "Scopro un bel ristorante.",
    "usage": "p.p. scoperto"
   },
   {
@@ -296,6 +340,8 @@
     "Gebühr für Tischgedeck"
    ],
    "page": "209-210",
+   "definition": "Piccola somma da pagare al ristorante per il servizio.",
+   "example": "Il coperto costa due euro.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -312,7 +358,9 @@
    "translations": [
     "was bedeutet (es) / …"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "definition": "Domanda per capire il significato.",
+   "example": "Che cosa vuol dire “coperto”?"
   },
   {
    "id": "u3-3b-025",
@@ -322,6 +370,8 @@
     "die Summe"
    ],
    "page": "209-210",
+   "definition": "Foglio con la somma da pagare.",
+   "example": "Il conto, per favore!",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -338,7 +388,9 @@
    "translations": [
     "getrennt"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "definition": "Non unito.",
+   "example": "Facciamo conti separati."
   },
   {
    "id": "u3-3b-027",
@@ -347,7 +399,9 @@
     "also",
     "daher"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "definition": "Per questa ragione.",
+   "example": "Piove, quindi resto a casa."
   },
   {
    "id": "u3-3b-028",
@@ -355,7 +409,9 @@
    "translations": [
     "funktionieren"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "definition": "Lavorare bene, come previsto.",
+   "example": "Il telefono non funziona."
   },
   {
    "id": "u3-3b-029",
@@ -363,7 +419,9 @@
    "translations": [
     "Zahlungsart aller Teilnehmer/innen zu gleichen Anteilen"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "definition": "Dividere il conto in parti uguali.",
+   "example": "Paghiamo alla romana."
   },
   {
    "id": "u3-3b-030",
@@ -373,6 +431,8 @@
     "die Weise"
    ],
    "page": "209-210",
+   "definition": "Maniera di fare qualcosa.",
+   "example": "Questo è il modo giusto.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -390,6 +450,8 @@
     "weit"
    ],
    "page": "209-210",
+   "definition": "A grande distanza.",
+   "example": "La stazione è lontana.",
    "related": "≠ vicino/-a",
    "usage": "≠ vicino/-a"
   },
@@ -400,7 +462,9 @@
     "von Weitem",
     "aus der Ferne"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "definition": "Da un posto distante.",
+   "example": "Vengo da lontano."
   },
   {
    "id": "u3-3b-033",
@@ -408,7 +472,9 @@
    "translations": [
     "in jeder Hinsicht"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "definition": "Sotto ogni aspetto.",
+   "example": "È bellissimo, in tutti i sensi."
   },
   {
    "id": "u3-3b-034",
@@ -418,6 +484,8 @@
     "merkwürdig"
    ],
    "page": "209-210",
+   "definition": "Che non è normale.",
+   "example": "Che rumore strano!",
    "related": "E strange"
   },
   {
@@ -429,6 +497,8 @@
     "der Teller"
    ],
    "page": "209-210",
+   "definition": "Contenitore per il cibo; anche il cibo stesso.",
+   "example": "Questo piatto è delizioso.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -445,7 +515,9 @@
    "translations": [
     "stilles Wasser"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "definition": "Acqua senza bollicine.",
+   "example": "Prendo l’acqua naturale."
   },
   {
    "id": "u3-3b-037",
@@ -454,6 +526,8 @@
     "der Unterschied"
    ],
    "page": "209-210",
+   "definition": "Elemento che rende due cose diverse.",
+   "example": "Qual è la differenza tra i due?",
    "related": "E difference",
    "grammar": {
     "partOfSpeech": "noun",
@@ -471,7 +545,9 @@
    "translations": [
     "etw. gemeinsam haben"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "definition": "Condividere con altri.",
+   "example": "Abbiamo in comune la passione per il calcio."
   },
   {
    "id": "u3-3b-039",
@@ -480,7 +556,9 @@
     "überraschend",
     "erstaunlich"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "definition": "Che stupisce.",
+   "example": "È un risultato sorprendente."
   },
   {
    "id": "u3-3b-040",
@@ -489,6 +567,8 @@
     "da"
    ],
    "page": "209-210",
+   "definition": "Poiché.",
+   "example": "Visto che piove, restiamo a casa.",
    "related": "= perché"
   },
   {
@@ -498,6 +578,8 @@
     "der/die Alters-/Zeitgenosse/-in"
    ],
    "page": "209-210",
+   "definition": "Persona della stessa età.",
+   "example": "I miei coetanei ascoltano questa musica.",
    "usage": "pl. f. le coetanee"
   }
  ],

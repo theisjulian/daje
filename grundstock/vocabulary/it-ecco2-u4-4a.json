@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,8 @@
     "das Display"
    ],
    "page": "214",
+   "definition": "Schermo di un apparecchio.",
+   "example": "Il display è rotto.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -52,6 +54,8 @@
     "reparieren"
    ],
    "page": "214",
+   "definition": "Aggiustare qualcosa di rotto.",
+   "example": "Ripariamo la bicicletta.",
    "related": "E to repair"
   },
   {
@@ -61,7 +65,9 @@
     "der Experte",
     "die Expertin"
    ],
-   "page": "214"
+   "page": "214",
+   "definition": "Persona che conosce molto bene qualcosa.",
+   "example": "È un esperto di computer."
   },
   {
    "id": "u4-4a-004",
@@ -70,6 +76,8 @@
     "sicher sein"
    ],
    "page": "214",
+   "definition": "Non avere dubbi.",
+   "example": "Sono sicuro di venire.",
    "usage": "Abc"
   },
   {
@@ -79,6 +87,8 @@
     "jdm helfen"
    ],
    "page": "214",
+   "definition": "Aiutare qualcuno.",
+   "example": "Mi dai una mano con i compiti?",
    "usage": "Abc"
   },
   {
@@ -88,6 +98,8 @@
     "kaputtgehen"
    ],
    "page": "214",
+   "definition": "Diventare inutilizzabile per una rottura.",
+   "example": "Il telefono si è rotto.",
    "usage": "p.p. rotto"
   },
   {
@@ -97,6 +109,8 @@
     "das Eisen"
    ],
    "page": "214",
+   "definition": "Metallo duro e grigio.",
+   "example": "Il cancello è di ferro.",
    "related": "F le fer; L ferrum",
    "grammar": {
     "partOfSpeech": "noun",
@@ -116,6 +130,8 @@
     "die Spende"
    ],
    "page": "214",
+   "definition": "Proposta di vendita; qualcosa che si dà.",
+   "example": "C’è un’offerta speciale.",
    "related": "E offer"
   },
   {
@@ -124,7 +140,9 @@
    "translations": [
     "der/die Ladenbesitzer/in"
    ],
-   "page": "214"
+   "page": "214",
+   "definition": "Proprietario di un negozio.",
+   "example": "La titolare del negozio è gentile."
   },
   {
    "id": "u4-4a-010",
@@ -133,6 +151,8 @@
     "das Modell"
    ],
    "page": "214",
+   "definition": "Tipo particolare di un prodotto.",
+   "example": "Questo modello è nuovo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -150,6 +170,8 @@
     "gebraucht"
    ],
    "page": "214",
+   "definition": "Già utilizzato da altri.",
+   "example": "Compro un libro usato.",
    "related": "≠ nuovo; E used",
    "usage": "≠ nuovo"
   },
@@ -160,6 +182,8 @@
     "der Job"
    ],
    "page": "214",
+   "definition": "Piccolo lavoro occasionale.",
+   "example": "Faccio un lavoretto d’estate.",
    "related": "▸ il lavoro",
    "grammar": {
     "partOfSpeech": "noun",
@@ -178,6 +202,8 @@
     "babysitten"
    ],
    "page": "214",
+   "definition": "Badare ai bambini in assenza dei genitori.",
+   "example": "Faccio la baby-sitter il sabato.",
    "usage": "Abc"
   },
   {
@@ -186,7 +212,9 @@
    "translations": [
     "der/die Hundesitter/in"
    ],
-   "page": "214"
+   "page": "214",
+   "definition": "Persona che si occupa dei cani degli altri.",
+   "example": "Faccio il dog-sitter in vacanza."
   },
   {
    "id": "u4-4a-015",
@@ -195,6 +223,8 @@
     "das Tablet"
    ],
    "page": "214",
+   "definition": "Computer portatile con schermo tattile.",
+   "example": "Leggo sul tablet.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -211,7 +241,9 @@
    "translations": [
     "jemand"
    ],
-   "page": "214"
+   "page": "214",
+   "definition": "Una persona non precisata.",
+   "example": "Qualcuno bussa alla porta."
   },
   {
    "id": "u4-4a-017",
@@ -220,7 +252,9 @@
     "Wieso?",
     "Wie kommt es?"
    ],
-   "page": "214"
+   "page": "214",
+   "definition": "Domanda per sapere il motivo.",
+   "example": "Come mai sei in ritardo?"
   },
   {
    "id": "u4-4a-018",
@@ -229,7 +263,9 @@
     "kaputt",
     "gebrochen"
    ],
-   "page": "214"
+   "page": "214",
+   "definition": "Danneggiato, non funziona.",
+   "example": "Il vaso è rotto."
   },
   {
    "id": "u4-4a-019",
@@ -238,6 +274,8 @@
     "vorgestern"
    ],
    "page": "214",
+   "definition": "Due giorni fa.",
+   "example": "L’altro ieri ho giocato a calcio.",
    "usage": "avv."
   },
   {
@@ -247,6 +285,8 @@
     "von Angesicht zu Angesicht"
    ],
    "page": "214",
+   "definition": "Direttamente, di persona.",
+   "example": "Parliamo faccia a faccia.",
    "related": "E face to face"
   },
   {
@@ -256,7 +296,9 @@
     "im Ernst",
     "ernsthaft"
    ],
-   "page": "214"
+   "page": "214",
+   "definition": "Senza scherzare.",
+   "example": "Dici sul serio?"
   },
   {
    "id": "u4-4a-022",
@@ -265,6 +307,8 @@
     "aufpassen auf jdn/etw."
    ],
    "page": "214",
+   "definition": "Fare attenzione a qualcuno o qualcosa.",
+   "example": "Sta’ attento alla strada!",
    "usage": "Unterscheide: stare attento (auf der Hut sein) – fare attenzione (aufmerksam sein)"
   },
   {
@@ -273,7 +317,9 @@
    "translations": [
     "teuer"
    ],
-   "page": "214"
+   "page": "214",
+   "definition": "Che costa molto.",
+   "example": "È un orologio molto costoso."
   },
   {
    "id": "u4-4a-024",
@@ -282,6 +328,8 @@
     "das Geschenk"
    ],
    "page": "214",
+   "definition": "Oggetto che si dà a qualcuno per fargli piacere.",
+   "example": "Compro un regalo per mia madre.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -299,6 +347,8 @@
     "leidtun"
    ],
    "page": "214",
+   "definition": "Provare tristezza per qualcosa.",
+   "example": "Mi dispiace molto.",
    "related": "≠ piacere",
    "usage": "mi dispiace = das tut mir leid"
   },
@@ -309,6 +359,8 @@
     "der Unfall"
    ],
    "page": "214",
+   "definition": "Evento improvviso e spiacevole.",
+   "example": "C’è stato un incidente sulla strada.",
    "usage": "m."
   },
   {
@@ -318,6 +370,8 @@
     "verbunden"
    ],
    "page": "214",
+   "definition": "Collegato, in rete.",
+   "example": "Sono connesso a internet.",
    "related": "E connected"
   },
   {
@@ -327,6 +381,8 @@
     "krank"
    ],
    "page": "214",
+   "definition": "Che non sta bene.",
+   "example": "Oggi sono malato e resto a letto.",
    "related": "F malade"
   }
  ],

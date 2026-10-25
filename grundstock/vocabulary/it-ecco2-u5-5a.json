@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +34,9 @@
    "translations": [
     "Und sie bewegt sich doch! (Zitat)"
    ],
-   "page": "219-220"
+   "page": "219-220",
+   "definition": "Frase attribuita a Galileo: la Terra gira.",
+   "example": "Eppur si muove! disse Galileo."
   },
   {
    "id": "u5-5a-002",
@@ -43,6 +45,8 @@
     "geboren werden"
    ],
    "page": "219-220",
+   "definition": "Venire al mondo.",
+   "example": "Sono nato a Torino.",
    "related": "L nasci",
    "usage": "p.p. nato"
   },
@@ -53,6 +57,8 @@
     "besuchen"
    ],
    "page": "219-220",
+   "definition": "Andare spesso in un luogo.",
+   "example": "Frequento la scuola di danza.",
    "usage": "Unterscheide: frequentare (Kurs, Unterricht) – andare a trovare / visitare"
   },
   {
@@ -62,6 +68,8 @@
     "die Medizin (hier: Studium)"
    ],
    "page": "219-220",
+   "definition": "Scienza che cura le malattie.",
+   "example": "Studia medicina.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -79,6 +87,8 @@
     "die Mechanik"
    ],
    "page": "219-220",
+   "definition": "Studio delle macchine.",
+   "example": "Mi interessa la meccanica.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -96,6 +106,8 @@
     "teilnehmen an etw."
    ],
    "page": "219-220",
+   "definition": "Essere membro di un gruppo.",
+   "example": "Faccio parte della squadra di calcio.",
    "related": "▸ la parte, partecipare"
   },
   {
@@ -104,7 +116,9 @@
    "translations": [
     "sich mit etw. auseinandersetzen"
    ],
-   "page": "219-220"
+   "page": "219-220",
+   "definition": "Affrontare e paragonare con altro.",
+   "example": "Mi confronto con i compagni."
   },
   {
    "id": "u5-5a-008",
@@ -113,6 +127,8 @@
     "der Apparat"
    ],
    "page": "219-220",
+   "definition": "Strumento per fare qualcosa.",
+   "example": "Questo apparecchio è nuovo.",
    "usage": "pl. gli apparecchi"
   },
   {
@@ -123,6 +139,8 @@
     "der Fürstenhof"
    ],
    "page": "219-220",
+   "definition": "Ambiente di un re.",
+   "example": "Vive alla corte del re.",
    "related": "E court",
    "grammar": {
     "partOfSpeech": "noun",
@@ -140,7 +158,9 @@
    "translations": [
     "behaupten"
    ],
-   "page": "219-220"
+   "page": "219-220",
+   "definition": "Dire con convinzione.",
+   "example": "Afferma di essere innocente."
   },
   {
    "id": "u5-5a-011",
@@ -148,7 +168,9 @@
    "translations": [
     "das Universum"
    ],
-   "page": "219-220"
+   "page": "219-220",
+   "definition": "Spazio con stelle e pianeti.",
+   "example": "L’universo è infinito."
   },
   {
    "id": "u5-5a-012",
@@ -157,6 +179,8 @@
     "die Schwierigkeit"
    ],
    "page": "219-220",
+   "definition": "Cosa che non è facile.",
+   "example": "Ho difficoltà in matematica.",
    "related": "E difficulty",
    "grammar": {
     "partOfSpeech": "noun",
@@ -176,6 +200,8 @@
     "letztendlich"
    ],
    "page": "219-220",
+   "definition": "Alla fine.",
+   "example": "Infine abbiamo vinto.",
    "related": "F enfin"
   },
   {
@@ -185,6 +211,8 @@
     "der Prozess"
    ],
    "page": "219-220",
+   "definition": "Procedimento legale; sviluppo di un fenomeno.",
+   "example": "Il processo è lungo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -202,6 +230,8 @@
     "das Gefängnis"
    ],
    "page": "219-220",
+   "definition": "Luogo dove vivono i condannati.",
+   "example": "Il ladro è in prigione.",
    "related": "E prison",
    "grammar": {
     "partOfSpeech": "noun",
@@ -220,6 +250,8 @@
     "veröffentlichen"
    ],
    "page": "219-220",
+   "definition": "Mettere a disposizione del pubblico.",
+   "example": "Pubblico un libro.",
    "related": "E to publish"
   },
   {
@@ -229,6 +261,8 @@
     "die Theorie"
    ],
    "page": "219-220",
+   "definition": "Insieme di idee per spiegare qualcosa.",
+   "example": "La teoria è difficile.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -247,6 +281,8 @@
     "die Villa"
    ],
    "page": "219-220",
+   "definition": "Grande casa con giardino.",
+   "example": "La villa ha una piscina.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -264,6 +300,8 @@
     "der Tod"
    ],
    "page": "219-220",
+   "definition": "Fine della vita.",
+   "example": "La morte del poeta è triste.",
    "related": "F la mort; L mors",
    "grammar": {
     "partOfSpeech": "noun",
@@ -282,6 +320,8 @@
     "zukünftig"
    ],
    "page": "219-220",
+   "definition": "Che verrà.",
+   "example": "Nei giorni futuri.",
    "related": "E future"
   },
   {
@@ -290,7 +330,9 @@
    "translations": [
     "interessieren"
    ],
-   "page": "219-220"
+   "page": "219-220",
+   "definition": "Attirare l’attenzione.",
+   "example": "Mi interessa la storia."
   },
   {
    "id": "u5-5a-022",
@@ -300,6 +342,8 @@
     "das Bild"
    ],
    "page": "219-220",
+   "definition": "Immagine fatta con la matita.",
+   "example": "Il bambino fa un disegno.",
    "related": "E design; F le dessin",
    "grammar": {
     "partOfSpeech": "noun",
@@ -318,6 +362,8 @@
     "der Himmel"
    ],
    "page": "219-220",
+   "definition": "Spazio sopra la Terra.",
+   "example": "Il cielo è azzurro.",
    "related": "F le ciel; L caelum",
    "grammar": {
     "partOfSpeech": "noun",
@@ -336,6 +382,8 @@
     "der Krieg"
    ],
    "page": "219-220",
+   "definition": "Conflitto armato tra stati.",
+   "example": "La guerra è terribile.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -354,6 +402,8 @@
     "die Schlacht"
    ],
    "page": "219-220",
+   "definition": "Scontro armato.",
+   "example": "La battaglia è finita.",
    "related": "E battle",
    "grammar": {
     "partOfSpeech": "noun",
@@ -372,6 +422,8 @@
     "das Labor"
    ],
    "page": "219-220",
+   "definition": "Luogo di ricerca o di esperimenti.",
+   "example": "Lavoriamo in laboratorio.",
    "related": "E laboratory",
    "usage": "pl. i laboratori",
    "grammar": {
@@ -391,6 +443,8 @@
     "der Punkt"
    ],
    "page": "219-220",
+   "definition": "Piccolo segno rotondo a fine frase; anche luogo preciso.",
+   "example": "Metto un punto alla fine.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -411,6 +465,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Galassia in cui si trova il Sole.",
+   "example": "La Via Lattea è una galassia.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -428,6 +484,8 @@
     "der Stern"
    ],
    "page": "219-220",
+   "definition": "Corpo luminoso nel cielo.",
+   "example": "Di notte vedo molte stelle.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -446,6 +504,8 @@
     "die Erfindung"
    ],
    "page": "219-220",
+   "definition": "Cosa nuova che si trova.",
+   "example": "È una grande scoperta scientifica.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -463,6 +523,8 @@
     "der Einklang"
    ],
    "page": "219-220",
+   "definition": "Accordo perfetto tra persone.",
+   "example": "Siamo in sintonia.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -480,6 +542,8 @@
     "die Bibel"
    ],
    "page": "219-220",
+   "definition": "Libro sacro dei cristiani.",
+   "example": "La Bibbia è un libro antico.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -496,7 +560,9 @@
    "translations": [
     "eine Entscheidung fassen"
    ],
-   "page": "219-220"
+   "page": "219-220",
+   "definition": "Scegliere.",
+   "example": "Prendo una decisione importante."
   },
   {
    "id": "u5-5a-034",
@@ -505,6 +571,8 @@
     "die Entscheidung"
    ],
    "page": "219-220",
+   "definition": "Scelta fatta.",
+   "example": "La decisione è presa.",
    "related": "E decision",
    "grammar": {
     "partOfSpeech": "noun",
@@ -524,6 +592,8 @@
     "der Banause"
    ],
    "page": "219-220",
+   "definition": "Persona che non sa.",
+   "example": "Non essere ignorante!",
    "usage": "m./f."
   },
   {
@@ -534,6 +604,8 @@
     "selbstverständlich"
    ],
    "page": "219-220",
+   "definition": "Chiaro a tutti.",
+   "example": "È ovvio che hai ragione.",
    "related": "E obvious"
   },
   {
@@ -544,7 +616,9 @@
     "ablehnen",
     "seine Überzeugung aufgeben"
    ],
-   "page": "219-220"
+   "page": "219-220",
+   "definition": "Dire che non si crede più a qualcosa.",
+   "example": "Non rinnego le mie idee."
   },
   {
    "id": "u5-5a-038",
@@ -552,7 +626,9 @@
    "translations": [
     "offiziell"
    ],
-   "page": "219-220"
+   "page": "219-220",
+   "definition": "Riconosciuto dalle autorità.",
+   "example": "È un documento ufficiale."
   },
   {
    "id": "u5-5a-039",
@@ -560,7 +636,9 @@
    "translations": [
     "um jdn/etw. herum"
    ],
-   "page": "219-220"
+   "page": "219-220",
+   "definition": "Tutto attorno.",
+   "example": "I bambini sono intorno al maestro."
   },
   {
    "id": "u5-5a-040",
@@ -569,7 +647,9 @@
     "sich irren",
     "sich täuschen"
    ],
-   "page": "219-220"
+   "page": "219-220",
+   "definition": "Commettere un errore.",
+   "example": "Mi sono sbagliato."
   }
  ],
  "catalog": {

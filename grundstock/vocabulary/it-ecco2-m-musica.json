@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -37,7 +37,9 @@
    "page": "229-230",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Riguardare un tema.",
+   "example": "Si tratta di un progetto."
   },
   {
    "id": "m-musica-002",
@@ -50,6 +52,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Conosciuto e amato da molti.",
+   "example": "È una canzone popolare.",
    "related": "E popular; F populaire",
    "usage": "agg."
   },
@@ -63,6 +67,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Successione di note che formano un motivo.",
+   "example": "La melodia è bella.",
    "related": "E melody; F la mélodie",
    "grammar": {
     "partOfSpeech": "noun",
@@ -84,6 +90,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Noto a molti.",
+   "example": "È uno scrittore conosciuto.",
    "related": "▸ conoscere; ≠ sconosciuto/-a; L cognoscere; F connu/connue"
   },
   {
@@ -96,6 +104,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Parole di una canzone o di un libro.",
+   "example": "Il testo della canzone è semplice.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -117,6 +127,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Primo, non copiato.",
+   "example": "È l’originale.",
    "usage": "agg."
   },
   {
@@ -129,6 +141,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Variante locale di una lingua.",
+   "example": "Parlo il dialetto.",
    "related": "E dialect",
    "grammar": {
     "partOfSpeech": "noun",
@@ -149,7 +163,9 @@
    "page": "229-230",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Mostrare come in uno specchio.",
+   "example": "La canzone rispecchia la vita."
   },
   {
    "id": "m-musica-009",
@@ -162,6 +178,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Che ha a che fare con suoni e melodie.",
+   "example": "Ho un orecchio musicale.",
    "related": "▸ la musica"
   },
   {
@@ -175,6 +193,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Di questo tipo.",
+   "example": "Non voglio una tale cosa.",
    "related": "F tel/telle; L talis",
    "usage": "agg."
   },
@@ -188,6 +208,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Creare una musica o un testo.",
+   "example": "Compone una canzone.",
    "related": "E to compose; F composer; L componere",
    "usage": "p.p. composto"
   },
@@ -201,6 +223,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Paese con una sua identità.",
+   "example": "L’Italia è una nazione.",
    "related": "E/F nation; L natio",
    "grammar": {
     "partOfSpeech": "noun",
@@ -222,6 +246,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Meravigliare.",
+   "example": "Mi sorprende il risultato.",
    "related": "▸ la sorpresa; E surprise; F surprendre",
    "usage": "p.p. sorpreso"
   },
@@ -235,6 +261,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Di una regione.",
+   "example": "È una tradizione regionale.",
    "related": "▸ la regione; L regio"
   },
   {
@@ -247,6 +275,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Arte di produrre melodie con la voce.",
+   "example": "Studio canto.",
    "related": "▸ cantare, il/la cantante; F le chant; L cantus",
    "grammar": {
     "partOfSpeech": "noun",
@@ -267,7 +297,9 @@
    "page": "229-230",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Forma di poesia con otto versi.",
+   "example": "L’ottava rima è tipica della Toscana."
   },
   {
    "id": "m-musica-017",
@@ -279,6 +311,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Piattaforma dove si esibiscono gli artisti.",
+   "example": "Il cantante sale sul palco.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -299,6 +333,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Artista che scrive e canta le sue canzoni.",
+   "example": "Il cantautore canta con la chitarra.",
    "related": "▸ cantare, il/la cantante",
    "usage": "pl. i cantautori, le cantautrici",
    "grammar": {
@@ -322,6 +358,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Atto di creare.",
+   "example": "La creazione dell’opera è stata lunga.",
    "related": "▸ creare; E creation; F la création",
    "grammar": {
     "partOfSpeech": "noun",
@@ -343,6 +381,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Che appartiene a sé.",
+   "example": "Ho la mia propria camera.",
    "related": "L proprius; F propre",
    "usage": "pl. propri, proprie"
   },
@@ -356,6 +396,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Insieme di persone nate nello stesso periodo.",
+   "example": "La mia generazione usa internet.",
    "related": "E generation",
    "grammar": {
     "partOfSpeech": "noun",
@@ -377,6 +419,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Supporto con musica registrata.",
+   "example": "Ascolto un vecchio disco.",
    "related": "E disc",
    "usage": "pl. i dischi",
    "grammar": {
@@ -400,6 +444,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Categoria di opere o di musica.",
+   "example": "Che genere di musica ti piace?",
    "related": "F le genre; L genus",
    "grammar": {
     "partOfSpeech": "noun",
@@ -422,6 +468,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Accadere, avere luogo.",
+   "example": "La festa si svolge in piazza.",
    "usage": "p.p. svolto"
   },
   {
@@ -434,6 +482,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Chi vince.",
+   "example": "Il vincitore riceve un premio.",
    "related": "L victor",
    "grammar": {
     "partOfSpeech": "noun",
@@ -455,7 +505,9 @@
    "page": "229-230",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "In aggiunta a.",
+   "example": "Oltre a te, viene anche Marco."
   },
   {
    "id": "m-musica-027",
@@ -467,6 +519,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Grande stanza per eventi.",
+   "example": "La sala è piena.",
    "related": "F la salle",
    "grammar": {
     "partOfSpeech": "noun",
@@ -488,6 +542,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Locale dove si gioca d’azzardo.",
+   "example": "Il casinò è aperto di sera.",
    "usage": "pl. i casinò",
    "grammar": {
     "partOfSpeech": "noun",
@@ -509,7 +565,9 @@
    "page": "229-230",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Singola volta in cui un evento si svolge.",
+   "example": "È la settantesima edizione."
   },
   {
    "id": "m-musica-030",
@@ -521,6 +579,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Gruppo di elementi simili.",
+   "example": "Gareggia nella categoria giovani.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -541,6 +601,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Che non è più in vita.",
+   "example": "Il suo nonno è morto.",
    "related": "L mortuus; F mort/e"
   },
   {
@@ -553,6 +615,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Gruppo di musicisti che suonano insieme.",
+   "example": "L’orchestra suona Verdi.",
    "related": "E orchestra"
   },
   {
@@ -566,6 +630,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Miglior risultato mai ottenuto.",
+   "example": "Batte il record.",
    "usage": "pl. i record",
    "grammar": {
     "partOfSpeech": "noun",

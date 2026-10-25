@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,7 @@
     "das Klassenzimmer"
    ],
    "page": "178-180",
+   "definition": "Stanza di una scuola dove si fa lezione.",
    "example": "Alle 8 entriamo in aula."
   },
   {
@@ -44,6 +45,7 @@
     "verstehen"
    ],
    "page": "178-180",
+   "definition": "Comprendere il significato di qualcosa.",
    "example": "Non capisco il compito di matematica.",
    "acceptedAnswers": [
     "capire"
@@ -57,6 +59,7 @@
     "Wie sagt man …?"
    ],
    "page": "178-180",
+   "definition": "Domanda per conoscere una parola.",
    "example": "Come si dice «Schule» in italiano?"
   },
   {
@@ -65,7 +68,9 @@
    "translations": [
     "Wie schreibt man …?"
    ],
-   "page": "178-180"
+   "page": "178-180",
+   "definition": "Domanda per sapere come si scrivono le lettere di una parola.",
+   "example": "Come si scrive “giraffa”?"
   },
   {
    "id": "u3-3a-005",
@@ -74,6 +79,7 @@
     "Was bedeutet …?"
    ],
    "page": "178-180",
+   "definition": "Domanda per capire il senso di una parola.",
    "example": "Che significa «scuola» in tedesco?"
   },
   {
@@ -83,6 +89,8 @@
     "andere(r, s)"
    ],
    "page": "178-180",
+   "definition": "Diverso da quello già detto.",
+   "example": "Voglio un altro gelato.",
    "related": "F autre; L alter"
   },
   {
@@ -92,6 +100,7 @@
     "Entschuldigen Sie!"
    ],
    "page": "178-180",
+   "definition": "Formula di cortesia per chiamare una persona adulta.",
    "example": "Scusi! Sono in ritardo."
   },
   {
@@ -101,6 +110,7 @@
     "der/die Lehrer/-in"
    ],
    "page": "178-180",
+   "definition": "Insegnante di una scuola superiore.",
    "example": "Lo Scifo è il prof di mate.",
    "related": "F le/la professeur",
    "acceptedAnswers": [
@@ -115,6 +125,7 @@
     "der Streik"
    ],
    "page": "178-180",
+   "definition": "Interruzione del lavoro per protesta.",
    "example": "Sono in ritardo perché c’è sciopero.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -134,6 +145,7 @@
     "abreisen"
    ],
    "page": "178-180",
+   "definition": "Lasciare un luogo per andare in un altro.",
    "example": "Parto da casa alle sette.",
    "related": "F partir; ≠ arrivare"
   },
@@ -145,6 +157,7 @@
     "rennen"
    ],
    "page": "178-180",
+   "definition": "Muoversi molto velocemente a piedi.",
    "example": "Sei in ritardo. Corri un po’!",
    "related": "F courir; L currere"
   },
@@ -156,6 +169,7 @@
     "der Ort"
    ],
    "page": "178-180",
+   "definition": "Luogo dove ci si siede o dove si trova qualcosa.",
    "example": "Il corridoio è il mio posto preferito.",
    "related": "F poste",
    "grammar": {
@@ -174,7 +188,9 @@
    "translations": [
     "nervös"
    ],
-   "page": "178-180"
+   "page": "178-180",
+   "definition": "Agitato, che non sta tranquillo.",
+   "example": "Sono nervoso prima dell’esame."
   },
   {
    "id": "u3-3a-014",
@@ -183,6 +199,7 @@
     "die Abfrage"
    ],
    "page": "178-180",
+   "definition": "Verifica orale a scuola.",
    "example": "Leo è nervoso per l’interrogazione.",
    "related": "F l’interrogation",
    "usage": "f."
@@ -194,6 +211,8 @@
     "die Stimme"
    ],
    "page": "178-180",
+   "definition": "Suono che esce dalla bocca quando si parla.",
+   "example": "Ha una voce bellissima.",
    "related": "E voice; F la voix; L vox",
    "grammar": {
     "partOfSpeech": "noun",
@@ -212,6 +231,8 @@
     "denken"
    ],
    "page": "178-180",
+   "definition": "Usare la mente per riflettere.",
+   "example": "Penso spesso alle vacanze.",
    "related": "F penser"
   },
   {
@@ -221,6 +242,7 @@
     "erklären"
    ],
    "page": "178-180",
+   "definition": "Far capire qualcosa a qualcuno.",
    "example": "Il prof non spiega bene. Non capisco i compiti.",
    "acceptedAnswers": [
     "spiegare"
@@ -234,6 +256,7 @@
     "der Nil"
    ],
    "page": "178-180",
+   "definition": "Il fiume più lungo d’Africa.",
    "example": "Il Nilo è un fiume grande.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -252,6 +275,8 @@
     "sagen"
    ],
    "page": "178-180",
+   "definition": "Esprimere con la voce.",
+   "example": "Dico sempre la verità.",
    "acceptedAnswers": [
     "dire"
    ],
@@ -264,6 +289,7 @@
     "der Blödsinn"
    ],
    "page": "178-180",
+   "definition": "Cosa stupida o senza importanza.",
    "example": "Non dire sciocchezze!",
    "grammar": {
     "partOfSpeech": "noun",
@@ -282,6 +308,8 @@
     "das Jahrtausend"
    ],
    "page": "178-180",
+   "definition": "Periodo di mille anni.",
+   "example": "Il terzo millennio è cominciato nel 2001.",
    "related": "E millennium",
    "usage": "pl. i millenni",
    "grammar": {
@@ -301,6 +329,8 @@
     "das Leben"
    ],
    "page": "178-180",
+   "definition": "Il periodo in cui si è vivi.",
+   "example": "La vita è bella.",
    "related": "F la vie; L vita",
    "grammar": {
     "partOfSpeech": "noun",
@@ -319,6 +349,8 @@
     "der/die Streber/-in"
    ],
    "page": "178-180",
+   "definition": "Studente che studia moltissimo.",
+   "example": "Marco è un secchione: studia sempre.",
    "usage": "fam."
   },
   {
@@ -327,7 +359,9 @@
    "translations": [
     "auswendig"
    ],
-   "page": "178-180"
+   "page": "178-180",
+   "definition": "Ricordando le parole senza leggere.",
+   "example": "Imparo la poesia a memoria."
   },
   {
    "id": "u3-3a-025",
@@ -336,6 +370,7 @@
     "zurückgeben"
    ],
    "page": "178-180",
+   "definition": "Dare indietro una cosa che si è avuta.",
    "example": "Il prof restituisce i compiti.",
    "acceptedAnswers": [
     "restituire"
@@ -349,6 +384,8 @@
     "die Lösung"
    ],
    "page": "178-180",
+   "definition": "Risposta giusta a un problema.",
+   "example": "La soluzione è facile.",
    "related": "E solution; F la solution",
    "grammar": {
     "partOfSpeech": "noun",
@@ -371,6 +408,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Lavagna elettronica che si usa a scuola.",
+   "example": "L’insegnante scrive sulla LIM.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -388,6 +427,8 @@
     "eine (Note) bekommen haben"
    ],
    "page": "178-180",
+   "definition": "Aver ricevuto una valutazione a scuola.",
+   "example": "Ho preso un otto in matematica.",
    "acceptedAnswers": [
     "avere preso un"
    ],
@@ -401,6 +442,7 @@
     "tüchtig"
    ],
    "page": "178-180",
+   "definition": "Che fa bene le cose.",
    "example": "Il prof è bravo. Spiega molto bene."
   },
   {
@@ -411,6 +453,7 @@
     "dagegen"
    ],
    "page": "178-180",
+   "definition": "Parola che esprime una differenza.",
    "example": "Mi piace l’arte. La storia invece non mi piace.",
    "usage": "avv."
   },
@@ -421,6 +464,7 @@
     "die Note"
    ],
    "page": "178-180",
+   "definition": "Numero che indica come ti sei comportato in una prova.",
    "example": "Che voto hai preso, Khalid?",
    "grammar": {
     "partOfSpeech": "noun",
@@ -439,6 +483,7 @@
     "zufrieden"
    ],
    "page": "178-180",
+   "definition": "Soddisfatto e felice.",
    "example": "Khalid non è contento del suo voto.",
    "related": "E/F content"
   },
@@ -449,6 +494,7 @@
     "das Problem"
    ],
    "page": "178-180",
+   "definition": "Situazione difficile o esercizio da risolvere.",
    "example": "Il prof spiega un problema.",
    "usage": "m. Einige maskuline Substantive enden auf -a, aber der Plural endet auf -i.",
    "grammar": {
@@ -468,6 +514,7 @@
     "die Geometrie"
    ],
    "page": "178-180",
+   "definition": "Parte della matematica che studia le figure.",
    "example": "In matematica mi piace la geometria.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -487,6 +534,7 @@
     "aufpassen"
    ],
    "page": "178-180",
+   "definition": "Concentrarsi su quello che succede.",
    "example": "Ragazzi, fate attenzione!",
    "related": "E attention",
    "usage": "Abc"
@@ -499,6 +547,7 @@
     "enden"
    ],
    "page": "178-180",
+   "definition": "Arrivare alla fine di qualcosa.",
    "example": "La scuola finisce all’una.",
    "related": "≠ cominciare; E to finish",
    "acceptedAnswers": [
@@ -513,6 +562,7 @@
     "bitte"
    ],
    "page": "178-180",
+   "definition": "Formula di cortesia quando si chiede.",
    "example": "Ragazzi, i compiti adesso, per favore!"
   },
   {
@@ -522,6 +572,7 @@
     "die Information"
    ],
    "page": "178-180",
+   "definition": "Notizia che serve per sapere qualcosa.",
    "example": "Cerco un’informazione in Internet.",
    "related": "E information",
    "usage": "f."
@@ -533,6 +584,7 @@
     "das Referat"
    ],
    "page": "178-180",
+   "definition": "Testo o discorso su un argomento studiato.",
    "example": "I ragazzi ascoltano la relazione di Giorgia.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -551,6 +603,8 @@
     "die Übung"
    ],
    "page": "178-180",
+   "definition": "Lavoro per imparare e allenarsi.",
+   "example": "Faccio un esercizio di grammatica.",
    "related": "E exercise; F l’exercice",
    "usage": "pl. gli esercizi"
   },
@@ -561,6 +615,7 @@
     "die Seite"
    ],
    "page": "178-180",
+   "definition": "Foglio di un libro.",
    "example": "Fate l’esercizio 2 a pagina 58!",
    "related": "E page; F la page",
    "grammar": {
@@ -580,6 +635,7 @@
     "Hören Sie!"
    ],
    "page": "178-180",
+   "definition": "Per attirare l’attenzione di una persona a cui dai del Lei.",
    "example": "Senta, scusi!",
    "related": "▸ sentire"
   },
@@ -590,6 +646,7 @@
     "morgen"
    ],
    "page": "178-180",
+   "definition": "Il giorno dopo oggi.",
    "example": "I compiti sono per domani.",
    "related": "≠ oggi; F demain",
    "usage": "avv."
@@ -602,6 +659,8 @@
     "aber"
    ],
    "page": "178-180",
+   "definition": "Parola che introduce una cosa contraria.",
+   "example": "È bello, però costa molto.",
    "usage": "avv."
   },
   {
@@ -611,6 +670,8 @@
     "Auf Wiedersehen!"
    ],
    "page": "178-180",
+   "definition": "Saluto di commiato.",
+   "example": "Arrivederci, a domani!",
    "related": "≠ buongiorno"
   }
  ],

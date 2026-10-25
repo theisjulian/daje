@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -38,6 +38,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Espressione che introduce un caso concreto.",
+   "example": "Mi piacciono i frutti, per esempio le mele.",
    "related": "E for example; F par exemple"
   },
   {
@@ -50,6 +52,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Chiesa principale di una città.",
    "example": "A Milano avete visitato il duomo?",
    "grammar": {
     "partOfSpeech": "noun",
@@ -71,6 +74,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Tetto a forma di mezza sfera.",
    "example": "La cupola è alta e molto grande.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -93,6 +97,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Andare a vedere un luogo o una persona.",
    "example": "Penso spesso alla nostra visita a Torino.",
    "related": "E visit",
    "grammar": {
@@ -115,6 +120,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Di solito.",
    "example": "Normalmente la prima lezione comincia alle 8."
   },
   {
@@ -129,6 +135,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Non vincere; non trovare più.",
    "example": "Oggi Laura ha perso il treno.",
    "usage": "p.p. perso"
   },
@@ -142,6 +149,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Speciale, non comune.",
    "example": "Mia nonna è una donna molto particolare.",
    "usage": "agg."
   },
@@ -155,6 +163,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "In nessun momento.",
    "example": "Voi siete mai andati a un concerto di Liga?"
   },
   {
@@ -168,6 +177,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Oggetto che si compra per ricordare un viaggio.",
    "example": "Ho portato dei souvenir alla mia famiglia.",
    "usage": "pl. i souvenir",
    "grammar": {
@@ -189,7 +199,9 @@
    "page": "201",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Che contiene molto di qualcosa.",
+   "example": "La piazza è piena di gente."
   },
   {
    "id": "m3-la-toscana-011",
@@ -201,6 +213,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Persona che viaggia per divertimento.",
    "example": "A Roma ci sono tanti turisti.",
    "related": "E tourist; F touriste",
    "usage": "f. la turista",
@@ -224,6 +237,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Spazio con piante e fiori.",
    "example": "Davanti alla casa c’è un bel giardino.",
    "related": "F jardin",
    "grammar": {
@@ -246,6 +260,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Costruzione alta e stretta.",
    "example": "Questa torre è molto alta.",
    "related": "F tour",
    "grammar": {
@@ -269,6 +284,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Parola che conferma quello che si è detto.",
    "example": "Marco è già tornato. Infatti lo vedo oggi."
   },
   {
@@ -281,6 +297,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Torre con le campane.",
    "example": "A Pisa siamo saliti sul campanile.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -302,6 +319,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Dare soldi per un acquisto.",
+   "example": "Pago alla cassa.",
    "related": "E pay; F payer",
    "acceptedAnswers": [
     "pagare"
@@ -318,6 +337,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Festa di febbraio con maschere e costumi.",
    "example": "Domani vado a una festa di carnevale.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -339,6 +359,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Gruppo di persone che sfila in strada.",
    "example": "Oggi un grande corteo parte da Piazza Duomo.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -360,6 +381,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Scherzare su qualcuno.",
    "example": "Luca prende in giro suo fratello.",
    "usage": "Abc"
   },
@@ -373,6 +395,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Un giorno o l’altro.",
    "example": "Prima o poi voglio visitare anche Roma."
   },
   {
@@ -385,6 +408,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Stato di calma.",
+   "example": "Cerco un po’ di tranquillità.",
    "related": "F tranquillité",
    "grammar": {
     "partOfSpeech": "noun",
@@ -406,6 +431,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Aspetto del territorio.",
+   "example": "Il paesaggio toscano è bellissimo.",
    "related": "F paysage",
    "usage": "pl. i paesaggi",
    "grammar": {
@@ -428,6 +455,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Guardare con piacere.",
    "example": "A Torino ammiro il parco.",
    "related": "E to admire; L admirari"
   },
@@ -441,6 +469,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Bevanda alcolica fatta con l’uva.",
+   "example": "Mio padre beve un bicchiere di vino.",
    "related": "E wine; F vin; L vinum",
    "grammar": {
     "partOfSpeech": "noun",
@@ -463,6 +493,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Albergo economico per giovani.",
    "example": "Gli alberghi costano troppo. Abbiamo cercato un ostello.",
    "related": "E hostel"
   },
@@ -478,6 +509,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Non dentro.",
    "example": "Oggi andiamo fuori Torino per vedere i nonni."
   },
   {
@@ -490,6 +522,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Se fossi nella tua situazione.",
    "example": "Al posto tuo andrei a casa. È già tardi."
   },
   {
@@ -502,6 +535,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Piccolo centro abitato.",
    "example": "Luca abita in un paese vicino a Torino.",
    "related": "≠ città",
    "grammar": {

@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +34,9 @@
    "translations": [
     "Urlaub verbringen"
    ],
-   "page": "222"
+   "page": "222",
+   "definition": "Trascorrere il tempo libero.",
+   "example": "Passo le vacanze al mare."
   },
   {
    "id": "u5-per-parlare-002",
@@ -42,7 +44,9 @@
    "translations": [
     "Städtereise"
    ],
-   "page": "222"
+   "page": "222",
+   "definition": "Vacanze in una grande città.",
+   "example": "Facciamo vacanze in città."
   },
   {
    "id": "u5-per-parlare-003",
@@ -50,7 +54,9 @@
    "translations": [
     "Urlaub am Meer"
    ],
-   "page": "222"
+   "page": "222",
+   "definition": "Vacanze sulla costa.",
+   "example": "Passiamo vacanze al mare."
   },
   {
    "id": "u5-per-parlare-004",
@@ -58,7 +64,9 @@
    "translations": [
     "Urlaub in den Bergen"
    ],
-   "page": "222"
+   "page": "222",
+   "definition": "Vacanze tra le montagne.",
+   "example": "Faccio vacanze in montagna."
   },
   {
    "id": "u5-per-parlare-005",
@@ -66,7 +74,9 @@
    "translations": [
     "Urlaub auf dem Lande"
    ],
-   "page": "222"
+   "page": "222",
+   "definition": "Vacanze in zona rurale.",
+   "example": "Mi piacciono le vacanze in campagna."
   },
   {
    "id": "u5-per-parlare-006",
@@ -74,7 +84,9 @@
    "translations": [
     "Urlaub auf dem Campingplatz"
    ],
-   "page": "222"
+   "page": "222",
+   "definition": "Vacanze dormendo in tenda.",
+   "example": "Facciamo vacanze in campeggio."
   },
   {
    "id": "u5-per-parlare-007",
@@ -82,7 +94,9 @@
    "translations": [
     "das Hotel"
    ],
-   "page": "222"
+   "page": "222",
+   "definition": "Edificio dove si dorme viaggiando.",
+   "example": "L’albergo è vicino al mare."
   },
   {
    "id": "u5-per-parlare-008",
@@ -90,7 +104,9 @@
    "translations": [
     "das Apartment"
    ],
-   "page": "222"
+   "page": "222",
+   "definition": "Casa in un palazzo.",
+   "example": "Affitto un appartamento."
   },
   {
    "id": "u5-per-parlare-009",
@@ -99,6 +115,8 @@
     "das Bauernhaus"
    ],
    "page": "222",
+   "definition": "Casa rurale tra i campi.",
+   "example": "Il casale è in Toscana.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -116,6 +134,8 @@
     "der Campingplatz"
    ],
    "page": "222",
+   "definition": "Luogo dove si dorme in tenda.",
+   "example": "Il campeggio è vicino al lago.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -133,6 +153,8 @@
     "der Wohnwagen"
    ],
    "page": "222",
+   "definition": "Piccola casa su ruote.",
+   "example": "Andiamo in vacanza in roulotte.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -150,6 +172,8 @@
     "mobile home"
    ],
    "page": "222",
+   "definition": "Piccola casa con ruote per le vacanze.",
+   "example": "Dormiamo in una casa mobile.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -167,7 +191,9 @@
     "das Hostel",
     "die Jugendherberge"
    ],
-   "page": "222"
+   "page": "222",
+   "definition": "Alloggio economico per giovani.",
+   "example": "Dormo in un ostello."
   },
   {
    "id": "u5-per-parlare-014",
@@ -176,6 +202,8 @@
     "das Zimmer"
    ],
    "page": "222",
+   "definition": "Parte di un appartamento.",
+   "example": "La mia stanza è grande.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -193,6 +221,8 @@
     "das Zelt"
    ],
    "page": "222",
+   "definition": "Riparo di tela.",
+   "example": "Montiamo la tenda.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -210,6 +240,8 @@
     "der Garten"
    ],
    "page": "222",
+   "definition": "Area verde vicino a una casa.",
+   "example": "Giochiamo in giardino.",
    "related": "F le jardin",
    "grammar": {
     "partOfSpeech": "noun",
@@ -228,6 +260,8 @@
     "der Balkon"
    ],
    "page": "222",
+   "definition": "Terrazzino di una casa.",
+   "example": "Sul balcone ci sono i fiori.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -245,6 +279,8 @@
     "mit Meerblick"
    ],
    "page": "222",
+   "definition": "Con panorama sul mare.",
+   "example": "La camera ha vista sul mare.",
    "acceptedAnswers": [
     "con una vista mare"
    ]
@@ -256,6 +292,8 @@
     "der Pool"
    ],
    "page": "222",
+   "definition": "Grande vasca per nuotare.",
+   "example": "D’estate vado in piscina.",
    "related": "F la piscine",
    "grammar": {
     "partOfSpeech": "noun",
@@ -274,6 +312,8 @@
     "der Spielplatz"
    ],
    "page": "222",
+   "definition": "Area attrezzata per bambini.",
+   "example": "Il parco giochi è vicino all’hotel.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -291,6 +331,8 @@
     "der (mit Schirmen und Liegen) ausgestattete Strand"
    ],
    "page": "222",
+   "definition": "Riva del mare con ombrelloni e lettini da usare.",
+   "example": "Prendiamo una spiaggia attrezzata.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -308,6 +350,8 @@
     "der Einkaufsladen"
    ],
    "page": "222",
+   "definition": "Piccolo negozio di alimentari.",
+   "example": "Compro il pane al mini market.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -325,6 +369,8 @@
     "der Tennisplatz"
    ],
    "page": "222",
+   "definition": "Terreno con la rete dove si gioca a tennis.",
+   "example": "Giochiamo sul campo da tennis.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -342,6 +388,8 @@
     "der Volleyballplatz"
    ],
    "page": "222",
+   "definition": "Terreno di sabbia dove si gioca a pallavolo.",
+   "example": "Il campo da beach-volley è sulla spiaggia.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -359,7 +407,9 @@
     "der Ausritt",
     "Ausflug mit dem Pferd"
    ],
-   "page": "222"
+   "page": "222",
+   "definition": "Gita fatta montando i cavalli.",
+   "example": "Domani facciamo un’escursione a cavallo."
   },
   {
    "id": "u5-per-parlare-026",
@@ -368,6 +418,8 @@
     "die Mountainbike-Tour"
    ],
    "page": "222",
+   "definition": "Giro in bicicletta tra monti e sentieri.",
+   "example": "Facciamo una gita in mountain-bike.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -385,6 +437,8 @@
     "das Wandern im Grünen"
    ],
    "page": "222",
+   "definition": "Camminata nella natura.",
+   "example": "Mi piace la passeggiata nel verde.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -401,7 +455,9 @@
    "translations": [
     "Wasserski fahren"
    ],
-   "page": "222"
+   "page": "222",
+   "definition": "Scivolare sull’acqua con gli sci trainati da una barca.",
+   "example": "Faccio sci nautico d’estate."
   },
   {
    "id": "u5-per-parlare-029",
@@ -409,7 +465,9 @@
    "translations": [
     "surfen"
    ],
-   "page": "222"
+   "page": "222",
+   "definition": "Scivolare sulle onde con una tavola.",
+   "example": "Faccio surf al mare."
   },
   {
    "id": "u5-per-parlare-030",
@@ -417,7 +475,9 @@
    "translations": [
     "Ski fahren"
    ],
-   "page": "222"
+   "page": "222",
+   "definition": "Scivolare sulla neve con gli sci.",
+   "example": "Faccio sci in inverno."
   },
   {
    "id": "u5-per-parlare-031",
@@ -425,7 +485,9 @@
    "translations": [
     "Snowboard fahren"
    ],
-   "page": "222"
+   "page": "222",
+   "definition": "Scivolare sulla neve con una tavola.",
+   "example": "Faccio snowboard con gli amici."
   },
   {
    "id": "u5-per-parlare-032",
@@ -433,7 +495,9 @@
    "translations": [
     "Boot fahren"
    ],
-   "page": "222"
+   "page": "222",
+   "definition": "Navigare su acqua con una barca.",
+   "example": "Andiamo in barca sul lago."
   }
  ],
  "catalog": {

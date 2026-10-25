@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,8 @@
     "sich erstrecken"
    ],
    "page": "208-209",
+   "definition": "Occupare un grande spazio.",
+   "example": "La pianura si estende fino al mare.",
    "related": "F s’étendre",
    "usage": "p.p. esteso"
   },
@@ -45,6 +47,8 @@
     "der Hügel"
    ],
    "page": "208-209",
+   "definition": "Piccola montagna dolce, non molto alta.",
+   "example": "Roma è costruita su sette colli.",
    "related": "F la colline; L collis",
    "grammar": {
     "partOfSpeech": "noun",
@@ -62,7 +66,9 @@
    "translations": [
     "hier: führen zu/nach"
    ],
-   "page": "208-209"
+   "page": "208-209",
+   "definition": "Condurre verso un luogo.",
+   "example": "Questa strada porta in centro."
   },
   {
    "id": "u3-3a-004",
@@ -72,6 +78,8 @@
     "zeitlos"
    ],
    "page": "208-209",
+   "definition": "Che non finisce mai.",
+   "example": "Roma è la città eterna.",
    "related": "E eternal; F éternel"
   },
   {
@@ -82,6 +90,8 @@
     "die Sage"
    ],
    "page": "208-209",
+   "definition": "Racconto fantastico del passato.",
+   "example": "Secondo la leggenda Roma fu fondata da Romolo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -99,6 +109,8 @@
     "gründen"
    ],
    "page": "208-209",
+   "definition": "Creare una città o un’organizzazione.",
+   "example": "Romolo fondò Roma.",
    "related": "E to found; F fonder"
   },
   {
@@ -108,6 +120,8 @@
     "vor/nach Christus"
    ],
    "page": "208-209",
+   "definition": "Indicazione della data rispetto alla nascita di Gesù.",
+   "example": "Cesare è morto nel 44 avanti Cristo.",
    "acceptedAnswers": [
     "avanti/dopo Cristo"
    ]
@@ -119,6 +133,8 @@
     "die Basilika"
    ],
    "page": "208-209",
+   "definition": "Grande chiesa importante.",
+   "example": "Visito la basilica di San Pietro.",
    "usage": "pl. le basiliche",
    "grammar": {
     "partOfSpeech": "noun",
@@ -136,7 +152,9 @@
    "translations": [
     "Europa"
    ],
-   "page": "208-209"
+   "page": "208-209",
+   "definition": "Continente dove si trova l’Italia.",
+   "example": "L’Europa ha molti stati."
   },
   {
    "id": "u3-3a-010",
@@ -145,7 +163,9 @@
     "stimmungsvoll",
     "beeindruckend"
    ],
-   "page": "208-209"
+   "page": "208-209",
+   "definition": "Che crea un’atmosfera speciale.",
+   "example": "Il tramonto è suggestivo."
   },
   {
    "id": "u3-3a-011",
@@ -154,6 +174,8 @@
     "das Loch"
    ],
    "page": "208-209",
+   "definition": "Apertura in un oggetto.",
+   "example": "C’è un buco nella calza.",
    "usage": "pl. i buchi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -172,6 +194,8 @@
     "das (Tür-)Schloss"
    ],
    "page": "208-209",
+   "definition": "Meccanismo di una porta che si apre con la chiave.",
+   "example": "La chiave non entra nella serratura.",
    "related": "F la serrure",
    "grammar": {
     "partOfSpeech": "noun",
@@ -190,6 +214,8 @@
     "wunderbar"
    ],
    "page": "208-209",
+   "definition": "Che suscita grande ammirazione.",
+   "example": "Che panorama meraviglioso!",
    "related": "F merveilleux"
   },
   {
@@ -199,6 +225,8 @@
     "der Staat"
    ],
    "page": "208-209",
+   "definition": "Paese con un governo.",
+   "example": "L’Italia è uno stato europeo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -217,7 +245,9 @@
     "unabhängig",
     "selbstständig"
    ],
-   "page": "208-209"
+   "page": "208-209",
+   "definition": "Che decide da solo.",
+   "example": "Il Vaticano è uno stato autonomo."
   },
   {
    "id": "u3-3a-016",
@@ -225,7 +255,9 @@
    "translations": [
     "katholisch"
    ],
-   "page": "208-209"
+   "page": "208-209",
+   "definition": "Che appartiene alla religione del papa.",
+   "example": "Molti italiani sono cattolici."
   },
   {
    "id": "u3-3a-017",
@@ -234,6 +266,8 @@
     "das Museum"
    ],
    "page": "208-209",
+   "definition": "Luogo dove si conservano opere d’arte.",
+   "example": "Visitiamo il museo di storia.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -251,6 +285,8 @@
     "(er)bauen"
    ],
    "page": "208-209",
+   "definition": "Fare un edificio.",
+   "example": "Costruiscono una nuova scuola.",
    "related": "F construire",
    "acceptedAnswers": [
     "costruire"
@@ -264,6 +300,8 @@
     "malen"
    ],
    "page": "208-209",
+   "definition": "Fare un quadro con i colori.",
+   "example": "Leonardo dipinse la Gioconda.",
    "usage": "p.p. dipinto"
   },
   {
@@ -273,6 +311,8 @@
     "der Tempel"
    ],
    "page": "208-209",
+   "definition": "Edificio dedicato a un dio.",
+   "example": "Il tempio è molto antico.",
    "related": "E/F temple; L templum",
    "usage": "pl. i templi",
    "grammar": {
@@ -292,6 +332,8 @@
     "der Gott"
    ],
    "page": "208-209",
+   "definition": "Essere divino in cui si crede.",
+   "example": "Gli antichi Romani adoravano molti dei.",
    "related": "F le dieu; L deus",
    "usage": "pl. gli dei",
    "grammar": {
@@ -311,6 +353,8 @@
     "das Jahrhundert"
    ],
    "page": "208-209",
+   "definition": "Periodo di cento anni.",
+   "example": "Il Colosseo è del primo secolo.",
    "related": "F le siècle; L saeculum",
    "grammar": {
     "partOfSpeech": "noun",
@@ -330,6 +374,8 @@
     "umbauen"
    ],
    "page": "208-209",
+   "definition": "Cambiare forma o aspetto.",
+   "example": "Trasformano la stanza in uno studio.",
    "related": "= cambiare; E to transform"
   },
   {
@@ -340,6 +386,8 @@
     "gewaltig"
    ],
    "page": "208-209",
+   "definition": "Che ha potenza o intensità.",
+   "example": "Il vento è forte.",
    "related": "F fort"
   },
   {
@@ -349,6 +397,8 @@
     "die Kuppel"
    ],
    "page": "208-209",
+   "definition": "Tetto di forma sferica.",
+   "example": "La cupola della chiesa è enorme.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -367,6 +417,8 @@
     "unbequem"
    ],
    "page": "208-209",
+   "definition": "Non confortevole.",
+   "example": "Questa sedia è scomoda.",
    "related": "≠ comodo/-a",
    "usage": "≠ comodo/-a"
   },
@@ -377,6 +429,8 @@
     "werfen"
    ],
    "page": "208-209",
+   "definition": "Buttare, lanciare.",
+   "example": "Getto la moneta nella fontana.",
    "related": "F jeter"
   },
   {
@@ -387,6 +441,8 @@
     "Barock-"
    ],
    "page": "208-209",
+   "definition": "Stile artistico ricco di decorazioni del Seicento.",
+   "example": "La chiesa è in stile barocco.",
    "usage": "pl. barocchi/-e"
   },
   {
@@ -396,6 +452,8 @@
     "verdienen"
    ],
    "page": "208-209",
+   "definition": "Ricevere soldi per un lavoro.",
+   "example": "Guadagno poco.",
    "related": "F gagner"
   },
   {
@@ -405,6 +463,8 @@
     "das Geld"
    ],
    "page": "208-209",
+   "definition": "Mezzo con cui si pagano le cose.",
+   "example": "Non ho soldi con me.",
    "usage": "pl.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -423,6 +483,8 @@
     "der Ministerpräsident"
    ],
    "page": "208-209",
+   "definition": "Capo del governo italiano.",
+   "example": "Il Presidente del Consiglio parla in TV.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -440,7 +502,9 @@
     "schick",
     "flott"
    ],
-   "page": "208-209"
+   "page": "208-209",
+   "definition": "Elegante e alla moda.",
+   "example": "Che vestito chic!"
   },
   {
    "id": "u3-3a-033",
@@ -448,7 +512,9 @@
    "translations": [
     "Donnerwetter!"
    ],
-   "page": "208-209"
+   "page": "208-209",
+   "definition": "Esclamazione di sorpresa o fastidio.",
+   "example": "Accidenti, ho perso l’autobus!"
   }
  ],
  "catalog": {

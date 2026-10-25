@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,7 @@
     "das Zimmer"
    ],
    "page": "175-176",
+   "definition": "Stanza dove si dorme.",
    "example": "Questa è la mia camera!",
    "grammar": {
     "partOfSpeech": "noun",
@@ -53,6 +54,8 @@
     "das Bett"
    ],
    "page": "175-176",
+   "definition": "Mobile dove si dorme.",
+   "example": "Il letto è comodo.",
    "related": "F le lit",
    "grammar": {
     "partOfSpeech": "noun",
@@ -71,6 +74,8 @@
     "der Schreibtisch"
    ],
    "page": "175-176",
+   "definition": "Tavolo dove si studia o si lavora.",
+   "example": "Faccio i compiti sulla scrivania.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -90,6 +95,7 @@
     "fahren"
    ],
    "page": "175-176",
+   "definition": "Spostarsi da un posto a un altro.",
    "example": "Adesso vado a casa e poi allo stadio.",
    "acceptedAnswers": [
     "andare"
@@ -103,6 +109,7 @@
     "das Poster"
    ],
    "page": "175-176",
+   "definition": "Grande immagine da attaccare alla parete.",
    "example": "Nella camera c’è un poster di una cantante.",
    "usage": "pl. i poster",
    "grammar": {
@@ -123,6 +130,7 @@
     "großartig"
    ],
    "page": "175-176",
+   "definition": "Di dimensioni superiori alla media.",
    "example": "Il poster è grande.",
    "related": "E grand; F grand(e)"
   },
@@ -133,6 +141,8 @@
     "klein"
    ],
    "page": "175-176",
+   "definition": "Di dimensioni inferiori alla media.",
+   "example": "Ho un gatto piccolo.",
    "related": "≠ grande"
   },
   {
@@ -142,6 +152,8 @@
     "sogar"
    ],
    "page": "175-176",
+   "definition": "Per esprimere stupore: perfino.",
+   "example": "Ha addirittura quattro cani!",
    "usage": "avv."
   },
   {
@@ -151,6 +163,8 @@
     "das Foto"
    ],
    "page": "175-176",
+   "definition": "Immagine ottenuta con l’apparecchio fotografico.",
+   "example": "Ho una foto della mia famiglia.",
    "usage": "pl. le foto",
    "grammar": {
     "partOfSpeech": "noun",
@@ -169,6 +183,8 @@
     "das Autogramm"
    ],
    "page": "175-176",
+   "definition": "Firma di una persona famosa.",
+   "example": "Ho l’autografo di un cantante.",
    "related": "F l’autographe"
   },
   {
@@ -178,6 +194,7 @@
     "das Konzert"
    ],
    "page": "175-176",
+   "definition": "Spettacolo in cui un artista suona musica dal vivo.",
    "example": "Il concerto è a Lecce.",
    "related": "E concert",
    "grammar": {
@@ -197,6 +214,8 @@
     "der Onkel"
    ],
    "page": "175-176",
+   "definition": "Fratello del padre o della madre.",
+   "example": "Mio zio vive a Napoli.",
    "usage": "f. la zia; pl. gli zii/le zie",
    "grammar": {
     "partOfSpeech": "noun",
@@ -216,6 +235,8 @@
     "der Aufseher"
    ],
    "page": "175-176",
+   "definition": "Persona che sorveglia un edificio.",
+   "example": "Il custode apre la scuola.",
    "related": "L custos",
    "grammar": {
     "partOfSpeech": "noun",
@@ -234,6 +255,8 @@
     "während"
    ],
    "page": "175-176",
+   "definition": "Nel periodo in cui accade qualcosa.",
+   "example": "Durante la lezione ascolto.",
    "related": "E during",
    "usage": "prep."
   },
@@ -244,6 +267,8 @@
     "immer"
    ],
    "page": "175-176",
+   "definition": "In ogni momento, senza eccezioni.",
+   "example": "Mi alzo sempre alle sette.",
    "related": "L semper",
    "usage": "avv."
   },
@@ -255,6 +280,7 @@
     "fühlen"
    ],
    "page": "175-176",
+   "definition": "Percepire un suono con le orecchie.",
    "example": "Sento la musica.",
    "related": "L sentire"
   },
@@ -265,6 +291,8 @@
     "letzte(r, s)"
    ],
    "page": "175-176",
+   "definition": "Quello che viene alla fine.",
+   "example": "Questo è l’ultimo giorno di scuola.",
    "related": "L ultimus"
   },
   {
@@ -274,6 +302,7 @@
     "die Neuigkeit"
    ],
    "page": "175-176",
+   "definition": "Cosa nuova, che prima non c’era.",
    "example": "Lui sente sempre le ultime novità.",
    "usage": "pl. le novità",
    "grammar": {
@@ -293,6 +322,8 @@
     "der Sänger"
    ],
    "page": "175-176",
+   "definition": "Persona che canta.",
+   "example": "Il cantante ha una bella voce.",
    "related": "▸ la canzone",
    "usage": "f. la cantante; pl. i cantanti/le cantanti",
    "grammar": {
@@ -313,6 +344,7 @@
     "kostenlos"
    ],
    "page": "175-176",
+   "definition": "Senza pagare.",
    "example": "Filippo va ai concerti gratis.",
    "usage": "avv."
   },
@@ -323,6 +355,8 @@
     "vor (örtlich)"
    ],
    "page": "175-176",
+   "definition": "Nella parte anteriore, di fronte.",
+   "example": "Aspetto davanti alla scuola.",
    "related": "F devant",
    "usage": "prep."
   },
@@ -333,6 +367,8 @@
     "der Computer"
    ],
    "page": "175-176",
+   "definition": "Macchina elettronica per lavorare e giocare.",
+   "example": "Uso il computer per i compiti.",
    "usage": "pl. i computer",
    "grammar": {
     "partOfSpeech": "noun",
@@ -351,6 +387,8 @@
     "ganz"
    ],
    "page": "175-176",
+   "definition": "La totalità, senza niente di escluso.",
+   "example": "Ho mangiato tutto.",
    "usage": "avv."
   },
   {
@@ -360,6 +398,8 @@
     "neu"
    ],
    "page": "175-176",
+   "definition": "Appena comprato o fatto, non vecchio.",
+   "example": "Ho un telefono nuovo.",
    "related": "F nouveau, nouvelle; L novus"
   },
   {
@@ -369,6 +409,7 @@
     "das Modell"
    ],
    "page": "175-176",
+   "definition": "Tipo di un prodotto, come un telefono o un’auto.",
    "example": "Il computer è tutto nuovo.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -388,6 +429,7 @@
     "mir (nach Präp.)"
    ],
    "page": "175-176",
+   "definition": "Pronome che sostituisce “io” dopo una preposizione.",
    "example": "Per me la musica è importante."
   },
   {
@@ -397,6 +439,7 @@
     "sehr"
    ],
    "page": "175-176",
+   "definition": "In grande quantità o intensità.",
    "example": "Il computer è molto importante.",
    "related": "L multum",
    "usage": "avv."
@@ -408,6 +451,8 @@
     "nicht schlecht"
    ],
    "page": "175-176",
+   "definition": "Espressione per dire che qualcosa è abbastanza buono.",
+   "example": "La pizza non è niente male!",
    "usage": "avv."
   },
   {
@@ -417,6 +462,8 @@
     "nützlich"
    ],
    "page": "175-176",
+   "definition": "Che serve a qualcosa.",
+   "example": "Il dizionario è utile.",
    "related": "F utile; L utilis"
   },
   {
@@ -426,6 +473,7 @@
     "fast"
    ],
    "page": "175-176",
+   "definition": "Poco meno di; non del tutto.",
    "example": "Sul computer ho quasi tutto.",
    "usage": "avv."
   },
@@ -436,6 +484,7 @@
     "das Videospiel"
    ],
    "page": "175-176",
+   "definition": "Gioco da fare con il computer o la console.",
    "example": "I miei videogiochi sono sul computer.",
    "usage": "pl. i videogiochi",
    "grammar": {
@@ -455,6 +504,7 @@
     "das Buch"
    ],
    "page": "175-176",
+   "definition": "Insieme di pagine scritte, da leggere.",
    "example": "I libri sono sullo scaffale.",
    "related": "F le livre; L liber",
    "grammar": {
@@ -475,6 +525,8 @@
     "hier: der Speicherplatz"
    ],
    "page": "175-176",
+   "definition": "Capacità di ricordare; spazio dove un computer conserva i dati.",
+   "example": "Ho una buona memoria.",
    "related": "E memory; F la mémoire",
    "grammar": {
     "partOfSpeech": "noun",
@@ -493,6 +545,7 @@
     "zu (sehr/viel)"
    ],
    "page": "175-176",
+   "definition": "Più del necessario.",
    "example": "Ho tutto sul computer, ma la memoria è sempre troppo piccola.",
    "related": "F trop",
    "usage": "avv."
@@ -504,6 +557,7 @@
     "die Wand"
    ],
    "page": "175-176",
+   "definition": "Muro di una stanza.",
    "example": "Alla parete c’è un poster.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -522,6 +576,7 @@
     "der Strand"
    ],
    "page": "175-176",
+   "definition": "Riva del mare con la sabbia.",
    "example": "Nella foto c’è la spiaggia di Pescoluse.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -539,7 +594,9 @@
    "translations": [
     "sehr schön"
    ],
-   "page": "175-176"
+   "page": "175-176",
+   "definition": "Molto bello.",
+   "example": "Ho una casa bellissima."
   },
   {
    "id": "u2-2b-038",
@@ -548,6 +605,8 @@
     "alt"
    ],
    "page": "175-176",
+   "definition": "Che ha molti anni, non nuovo.",
+   "example": "Il mio telefono è vecchio.",
    "related": "≠ nuovo/-a; F vieux, vieille",
    "usage": "pl. vecchi m."
   },
@@ -559,6 +618,8 @@
     "der Urlaub"
    ],
    "page": "175-176",
+   "definition": "Periodo senza scuola o lavoro.",
+   "example": "D’estate vado in vacanza al mare.",
    "related": "E vacation; F les vacances",
    "grammar": {
     "partOfSpeech": "noun",
@@ -577,6 +638,7 @@
     "schlafen"
    ],
    "page": "175-176",
+   "definition": "Riposare con gli occhi chiusi.",
    "example": "Dormo nel letto.",
    "related": "F dormir; L dormire"
   },
@@ -588,6 +650,8 @@
     "verfolgen"
    ],
    "page": "175-176",
+   "definition": "Andare dietro a una persona o controllare un’attività.",
+   "example": "Seguo una serie TV.",
    "related": "L sequi"
   },
   {
@@ -597,6 +661,7 @@
     "die Nachricht"
    ],
    "page": "175-176",
+   "definition": "Informazione su un fatto recente.",
    "example": "Greta non ha notizie degli amici.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -615,6 +680,7 @@
     "die Idee"
    ],
    "page": "175-176",
+   "definition": "Pensiero nuovo che viene in mente.",
    "example": "Ho un’idea!",
    "usage": "pl. le idee"
   },
@@ -626,6 +692,7 @@
     "anhören"
    ],
    "page": "175-176",
+   "definition": "Fare attenzione ai suoni o alle parole.",
    "example": "Mi piace ascoltare musica.",
    "usage": "Das Verb ascoltare steht im Italienischen nur mit direktem Objekt ohne Präposition: ascoltare qualcosa/qualcuno – etw. anhören, jmd. zuhören. Vergleiche: vedere – to see; guardare – to look; sentire – to hear; ascoltare – to listen to. ascoltare musica = Musik anhören (bewusst und absichtlich); sentire musica = Musik hören (unabsichtlich akustisch wahrnehmen)"
   },
@@ -637,6 +704,7 @@
     "tun"
    ],
    "page": "175-176",
+   "definition": "Realizzare un’azione.",
    "example": "Non mi piace fare i compiti.",
    "related": "F faire; L facere",
    "acceptedAnswers": [
@@ -652,6 +720,8 @@
     "besser gesagt"
    ],
    "page": "175-176",
+   "definition": "Parola per spiegare meglio quello che si è detto.",
+   "example": "Arrivo alle tre, cioè fra un’ora.",
    "usage": "avv."
   },
   {
@@ -661,6 +731,8 @@
     "online sein"
    ],
    "page": "175-176",
+   "definition": "Essere collegato a internet.",
+   "example": "Sono online dalle cinque.",
    "usage": "Abc"
   },
   {
@@ -671,6 +743,8 @@
     "das Schicksal"
    ],
    "page": "175-176",
+   "definition": "Buona sorte, caso favorevole.",
+   "example": "Che fortuna!",
    "related": "L fortuna",
    "grammar": {
     "partOfSpeech": "noun",
@@ -689,6 +763,7 @@
     "etw. spielen"
    ],
    "page": "175-176",
+   "definition": "Fare un gioco o praticare uno sport.",
    "example": "Filippo gioca a calcio.",
    "related": "F jouer à …",
    "acceptedAnswers": [
@@ -703,7 +778,9 @@
     "In Ordnung!",
     "Einverstanden!"
    ],
-   "page": "175-176"
+   "page": "175-176",
+   "definition": "Risposta per accettare una proposta.",
+   "example": "Ci vediamo alle cinque? – Va bene!"
   }
  ],
  "catalog": {

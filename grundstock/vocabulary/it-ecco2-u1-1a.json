@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -36,6 +36,8 @@
     "dann"
    ],
    "page": "199-200",
+   "definition": "In quel tempo del passato.",
+   "example": "Allora non c’erano i telefonini.",
    "related": "F alors"
   },
   {
@@ -46,6 +48,8 @@
     "verschieden"
    ],
    "page": "199-200",
+   "definition": "Che non è uguale.",
+   "example": "I miei gusti sono diversi dai tuoi.",
    "related": "L diversus"
   },
   {
@@ -56,6 +60,8 @@
     "erleben"
    ],
    "page": "199-200",
+   "definition": "Abitare o passare la propria vita in un posto.",
+   "example": "Vivo a Monaco.",
    "related": "▸ la vita; F vivre; L vivere",
    "usage": "p.p. vissuto"
   },
@@ -68,6 +74,8 @@
     "das Land"
    ],
    "page": "199-200",
+   "definition": "Piccolo centro abitato; anche una nazione.",
+   "example": "Il mio paese è piccolo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -84,7 +92,9 @@
    "translations": [
     "zu Fuß"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "definition": "Camminando, senza mezzi.",
+   "example": "Vado a scuola a piedi."
   },
   {
    "id": "u1-1a-006",
@@ -92,7 +102,9 @@
    "translations": [
     "werden (zu)"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "definition": "Passare a una nuova condizione.",
+   "example": "Voglio diventare medico."
   },
   {
    "id": "u1-1a-007",
@@ -101,6 +113,8 @@
     "wie (sehr)"
    ],
    "page": "199-200",
+   "definition": "Parola per esprimere intensità.",
+   "example": "Quanto sei gentile!",
    "usage": "avv."
   },
   {
@@ -110,7 +124,9 @@
     "faul",
     "träge"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "definition": "Che non ha voglia di fare niente.",
+   "example": "Oggi sono pigro."
   },
   {
    "id": "u1-1a-009",
@@ -120,7 +136,9 @@
     "vielmehr",
     "im Gegenteil"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "definition": "Parola per correggere o rafforzare.",
+   "example": "Non è brutto, anzi è bellissimo."
   },
   {
    "id": "u1-1a-010",
@@ -130,6 +148,8 @@
     "die (heilige) Messe"
    ],
    "page": "199-200",
+   "definition": "Cerimonia religiosa cattolica.",
+   "example": "La domenica vado a messa.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -148,6 +168,8 @@
     "mühsam"
    ],
    "page": "199-200",
+   "definition": "Che richiede molto sforzo.",
+   "example": "Il lavoro è faticoso.",
    "related": "F fatigant"
   },
   {
@@ -157,6 +179,8 @@
     "das Land"
    ],
    "page": "199-200",
+   "definition": "Zona fuori dalla città, con campi e fattorie.",
+   "example": "Mio nonno vive in campagna.",
    "related": "≠ la città; F la champagne",
    "usage": "≠ la città",
    "grammar": {
@@ -176,6 +200,8 @@
     "arbeiten"
    ],
    "page": "199-200",
+   "definition": "Fare un’attività per guadagnare.",
+   "example": "Mio padre lavora in banca.",
    "related": "L laborare"
   },
   {
@@ -186,6 +212,8 @@
     "der Junge / das Mädchen"
    ],
    "page": "199-200",
+   "definition": "Persona molto giovane.",
+   "example": "Il bambino gioca con la palla.",
    "related": "≠ adulto"
   },
   {
@@ -194,7 +222,9 @@
    "translations": [
     "als Kind"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "definition": "Nel periodo dell’infanzia.",
+   "example": "Da bambino giocavo sempre a calcio."
   },
   {
    "id": "u1-1a-016",
@@ -203,6 +233,8 @@
     "die Gefahr"
    ],
    "page": "199-200",
+   "definition": "Situazione che può far male.",
+   "example": "Attenzione al pericolo!",
    "related": "L periculum",
    "grammar": {
     "partOfSpeech": "noun",
@@ -222,6 +254,8 @@
     "ein Schwätzchen (halten)"
    ],
    "page": "199-200",
+   "definition": "Parlare un po’ in modo informale.",
+   "example": "Facciamo due chiacchiere al bar.",
    "acceptedAnswers": [
     "due chiacchiere"
    ]
@@ -233,6 +267,8 @@
     "sich kennen"
    ],
    "page": "199-200",
+   "definition": "Sapere chi è l’altro.",
+   "example": "Ci conosciamo da tre anni.",
    "related": "▸ conoscere; F se connaître"
   },
   {
@@ -241,7 +277,9 @@
    "translations": [
     "sich treffen"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "definition": "Vedersi in un luogo.",
+   "example": "Ci incontriamo davanti al cinema."
   },
   {
    "id": "u1-1a-020",
@@ -249,7 +287,9 @@
    "translations": [
     "irgendwann"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "definition": "In un momento imprecisato.",
+   "example": "Ad un certo punto è arrivato Luca."
   },
   {
    "id": "u1-1a-021",
@@ -258,7 +298,9 @@
     "Es ist nötig (etw. zu tun)",
     "Man muss (etw. tun)"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "definition": "Espressione di necessità generale.",
+   "example": "Bisogna studiare per l’esame."
   },
   {
    "id": "u1-1a-022",
@@ -268,6 +310,8 @@
     "sich einigen"
    ],
    "page": "199-200",
+   "definition": "Decidere insieme.",
+   "example": "Ci mettiamo d’accordo sull’orario.",
    "related": "F se mettre d’accord"
   },
   {
@@ -278,6 +322,8 @@
     "der Termin"
    ],
    "page": "199-200",
+   "definition": "Incontro fissato per un’ora precisa.",
+   "example": "Ho un appuntamento dal dentista.",
    "related": "E appointment"
   },
   {
@@ -286,7 +332,9 @@
    "translations": [
     "genau"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "definition": "Esatto, senza errori.",
+   "example": "Alle tre precise parte il treno."
   },
   {
    "id": "u1-1a-025",
@@ -295,7 +343,9 @@
     "sicher",
     "gewiss"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "definition": "Senza dubbio.",
+   "example": "Certamente vengo!"
   },
   {
    "id": "u1-1a-026",
@@ -303,7 +353,9 @@
    "translations": [
     "man"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "definition": "Pronome che indica le persone in generale.",
+   "example": "In Italia si mangia molta pasta."
   },
   {
    "id": "u1-1a-027",
@@ -312,6 +364,8 @@
     "der (Fahrkarten-)Schalter"
    ],
    "page": "199-200",
+   "definition": "Finestra dove si comprano i biglietti.",
+   "example": "Compro il biglietto allo sportello.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -329,6 +383,8 @@
     "mehr"
    ],
    "page": "199-200",
+   "definition": "In quantità maggiore.",
+   "example": "Oggi lavoro più di ieri.",
    "related": "F plus"
   },
   {
@@ -339,6 +395,8 @@
     "die Eisenbahn"
    ],
    "page": "199-200",
+   "definition": "Rete di binari dove corrono i treni.",
+   "example": "La ferrovia collega le due città.",
    "related": "L ferrum, via",
    "grammar": {
     "partOfSpeech": "noun",
@@ -358,6 +416,8 @@
     "die Schlange (beim Anstehen)"
    ],
    "page": "199-200",
+   "definition": "Fila di persone che aspettano.",
+   "example": "C’è una lunga coda alla cassa.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -375,6 +435,8 @@
     "im Grunde"
    ],
    "page": "199-200",
+   "definition": "Alla fine; in sostanza.",
+   "example": "In fondo hai ragione.",
    "usage": "avv."
   },
   {
@@ -385,6 +447,8 @@
     "komfortabel"
    ],
    "page": "199-200",
+   "definition": "Che dà agio e non stanca.",
+   "example": "Il divano è molto comodo.",
    "related": "E comfortable; F confortable"
   },
   {
@@ -394,7 +458,9 @@
     "nicht einmal",
     "auch nicht"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "definition": "Parola che nega “anche”.",
+   "example": "Non ho neanche un euro."
   },
   {
    "id": "u1-1a-034",
@@ -403,6 +469,8 @@
     "das Fernsehen"
    ],
    "page": "199-200",
+   "definition": "Apparecchio e mezzo di comunicazione con immagini e suoni.",
+   "example": "Guardo la televisione la sera.",
    "related": "E television; F la télévision",
    "grammar": {
     "partOfSpeech": "noun",
@@ -421,6 +489,8 @@
     "etw. zu tun haben"
    ],
    "page": "199-200",
+   "definition": "Avere un impegno.",
+   "example": "Oggi ho molto da fare.",
    "usage": "Abc"
   },
   {
@@ -430,7 +500,9 @@
     "eventuell",
     "vielleicht"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "definition": "Se per caso succede qualcosa.",
+   "example": "Casomai chiamami."
   },
   {
    "id": "u1-1a-037",
@@ -440,6 +512,8 @@
     "der Buchstabe"
    ],
    "page": "199-200",
+   "definition": "Foglio scritto che si spedisce; segno dell’alfabeto.",
+   "example": "Scrivo una lettera alla nonna.",
    "related": "E letter; F la lettre; L littera/-ae",
    "grammar": {
     "partOfSpeech": "noun",
@@ -458,6 +532,8 @@
     "kommunizieren"
    ],
    "page": "199-200",
+   "definition": "Far sapere qualcosa agli altri.",
+   "example": "Comunico con i miei amici online.",
    "acceptedAnswers": [
     "comunicare"
    ],
@@ -471,6 +547,8 @@
     "der Witz"
    ],
    "page": "199-200",
+   "definition": "Cosa detta o fatta per ridere.",
+   "example": "Era solo uno scherzo!",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -488,7 +566,9 @@
     "schnelllebig",
     "hektisch"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "definition": "Pieno di movimento e fretta.",
+   "example": "La vita in città è frenetica."
   }
  ],
  "catalog": {

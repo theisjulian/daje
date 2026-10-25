@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,8 @@
     "das Mittel"
    ],
    "page": "203",
+   "definition": "Strumento per fare qualcosa.",
+   "example": "Il treno è un mezzo di trasporto.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -52,6 +54,8 @@
     "die Kommunikation"
    ],
    "page": "203",
+   "definition": "Scambio di informazioni.",
+   "example": "La comunicazione è importante.",
    "related": "▸ comunicare",
    "grammar": {
     "partOfSpeech": "noun",
@@ -70,6 +74,8 @@
     "die Zeitung"
    ],
    "page": "203",
+   "definition": "Pubblicazione quotidiana con le notizie.",
+   "example": "Mio padre legge il giornale.",
    "related": "F le journal",
    "grammar": {
     "partOfSpeech": "noun",
@@ -88,6 +94,8 @@
     "das Radio"
    ],
    "page": "203",
+   "definition": "Mezzo che trasmette suoni e musica.",
+   "example": "Ascolto la radio in macchina.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -106,6 +114,8 @@
     "die Sendung (Fernsehen)"
    ],
    "page": "203",
+   "definition": "Programma che va in onda.",
+   "example": "Guardo una trasmissione sugli animali.",
    "related": "E transmission",
    "grammar": {
     "partOfSpeech": "noun",
@@ -124,6 +134,8 @@
     "die Talentshow"
    ],
    "page": "203",
+   "definition": "Programma televisivo in cui si cercano nuovi artisti.",
+   "example": "Guardo un talent show di canto.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -141,6 +153,8 @@
     "die Seifenoper"
    ],
    "page": "203",
+   "definition": "Serie TV con storie d’amore e drammi.",
+   "example": "Mia nonna guarda una soap opera.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -158,6 +172,8 @@
     "selten"
    ],
    "page": "203",
+   "definition": "Molto poche volte.",
+   "example": "Raramente guardo la TV.",
    "related": "F rarement",
    "usage": "avv."
   },
@@ -169,6 +185,8 @@
     "die Dokumentation"
    ],
    "page": "203",
+   "definition": "Film che parla di fatti veri.",
+   "example": "Guardo un documentario sull’Antartide.",
    "related": "E documentary",
    "usage": "pl. i documentari",
    "grammar": {
@@ -188,6 +206,8 @@
     "die (Fernseh-)Nachrichten"
    ],
    "page": "203",
+   "definition": "Programma TV con le notizie.",
+   "example": "Il telegiornale comincia alle otto.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -204,7 +224,9 @@
    "translations": [
     "nie(mals)"
    ],
-   "page": "203"
+   "page": "203",
+   "definition": "In nessun momento.",
+   "example": "Non guardo mai la TV al mattino."
   },
   {
    "id": "u2-approccio-012",
@@ -214,6 +236,8 @@
     "die Überschrift"
    ],
    "page": "203",
+   "definition": "Nome di un libro, di un film o di un articolo.",
+   "example": "Qual è il titolo del film?",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -232,6 +256,8 @@
     "gegenüberstellen"
    ],
    "page": "203",
+   "definition": "Guardare due cose per vedere le differenze.",
+   "example": "Confrontiamo i nostri risultati.",
    "related": "E to confront"
   },
   {
@@ -241,6 +267,8 @@
     "der/die Klassenkamerad/in"
    ],
    "page": "203",
+   "definition": "Persona della stessa classe.",
+   "example": "Il mio compagno di classe si chiama Luca.",
    "acceptedAnswers": [
     "il/la compagno/-a"
    ]
@@ -254,6 +282,8 @@
     "brauchen"
    ],
    "page": "203",
+   "definition": "Essere utile a qualcosa.",
+   "example": "Il computer serve per lavorare.",
    "related": "F servir à qqn; L servire"
   },
   {
@@ -263,7 +293,9 @@
     "bearbeiten",
     "retuschieren"
    ],
-   "page": "203"
+   "page": "203",
+   "definition": "Migliorare una foto con un programma.",
+   "example": "Ritocco la foto con il telefono."
   },
   {
    "id": "u2-approccio-017",
@@ -272,6 +304,8 @@
     "der Bildschirm"
    ],
    "page": "203",
+   "definition": "Superficie su cui si vedono le immagini.",
+   "example": "Lo schermo del telefono è rotto.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -288,7 +322,9 @@
    "translations": [
     "niemand"
    ],
-   "page": "203"
+   "page": "203",
+   "definition": "Non una persona.",
+   "example": "Nessuno risponde al telefono."
   },
   {
    "id": "u2-approccio-019",
@@ -298,6 +334,8 @@
     "die Suche"
    ],
    "page": "203",
+   "definition": "Attività per trovare informazioni.",
+   "example": "Faccio una ricerca su internet.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -314,7 +352,9 @@
    "translations": [
     "herunterladen"
    ],
-   "page": "203"
+   "page": "203",
+   "definition": "Prendere un file dalla rete e metterlo sul proprio dispositivo.",
+   "example": "Scarico una canzone."
   },
   {
    "id": "u2-approccio-021",
@@ -324,6 +364,8 @@
     "aufzeichnen"
    ],
    "page": "203",
+   "definition": "Salvare un suono o un video.",
+   "example": "Registro la lezione.",
    "related": "E to register; F enregistrer"
   },
   {
@@ -333,6 +375,8 @@
     "das Musikstück"
    ],
    "page": "203",
+   "definition": "Pezzo musicale.",
+   "example": "Ascolto il mio brano preferito.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -350,6 +394,8 @@
     "das Streaming"
    ],
    "page": "203",
+   "definition": "Ascolto o visione online, senza scaricare.",
+   "example": "Ascolto musica in streaming.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -367,6 +413,8 @@
     "sportlich"
    ],
    "page": "203",
+   "definition": "Che ama lo sport.",
+   "example": "Mia sorella è molto sportiva.",
    "related": "▸ lo sport; F sportif"
   }
  ],

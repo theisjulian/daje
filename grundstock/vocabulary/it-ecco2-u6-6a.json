@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,8 @@
     "das Gesicht"
    ],
    "page": "223-225",
+   "definition": "Parte anteriore della testa.",
+   "example": "Ha una faccia simpatica.",
    "related": "E face",
    "grammar": {
     "partOfSpeech": "noun",
@@ -53,6 +55,8 @@
     "der/die Designer/in"
    ],
    "page": "223-225",
+   "definition": "Persona che crea moda.",
+   "example": "La stilista presenta la collezione.",
    "related": "E stylist"
   },
   {
@@ -62,6 +66,8 @@
     "arbeitslos"
    ],
    "page": "223-225",
+   "definition": "Senza lavoro.",
+   "example": "Mio zio è disoccupato.",
    "related": "E disoccupied"
   },
   {
@@ -71,6 +77,8 @@
     "die Miete"
    ],
    "page": "223-225",
+   "definition": "Somma da pagare per usare una casa.",
+   "example": "L’affitto è caro.",
    "related": "▸ affittare"
   },
   {
@@ -79,7 +87,9 @@
    "translations": [
     "der/die Pendler/in"
    ],
-   "page": "223-225"
+   "page": "223-225",
+   "definition": "Persona che ogni giorno viaggia per lavoro.",
+   "example": "I pendolari prendono il treno."
   },
   {
    "id": "u6-6a-006",
@@ -87,7 +97,9 @@
    "translations": [
     "Es lohnt sich."
    ],
-   "page": "223-225"
+   "page": "223-225",
+   "definition": "Espressione per dire che qualcosa merita.",
+   "example": "Vale la pena visitare Venezia."
   },
   {
    "id": "u6-6a-007",
@@ -96,6 +108,8 @@
     "begeistert"
    ],
    "page": "223-225",
+   "definition": "Che ama molto qualcosa.",
+   "example": "Sono appassionato di calcio.",
    "related": "E passionate",
    "usage": "agg."
   },
@@ -107,6 +121,8 @@
     "das Label"
    ],
    "page": "223-225",
+   "definition": "Nome di un produttore.",
+   "example": "Che marca è questo telefono?",
    "usage": "pl. le marche",
    "grammar": {
     "partOfSpeech": "noun",
@@ -125,6 +141,8 @@
     "die Kreativität"
    ],
    "page": "223-225",
+   "definition": "Capacità di inventare.",
+   "example": "Ha molta creatività.",
    "related": "▸ creativo/-a; E creativity",
    "grammar": {
     "partOfSpeech": "noun",
@@ -143,6 +161,8 @@
     "der Trend"
    ],
    "page": "223-225",
+   "definition": "Tendenza del momento.",
+   "example": "Il trend di quest’anno è il verde.",
    "related": "E trend",
    "grammar": {
     "partOfSpeech": "noun",
@@ -161,6 +181,8 @@
     "die Modenschau"
    ],
    "page": "223-225",
+   "definition": "Presentazione di abiti con modelle.",
+   "example": "La sfilata è a Milano.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -177,7 +199,9 @@
    "translations": [
     "das Event"
    ],
-   "page": "223-225"
+   "page": "223-225",
+   "definition": "Fatto importante.",
+   "example": "È un evento unico."
   },
   {
    "id": "u6-6a-013",
@@ -185,7 +209,9 @@
    "translations": [
     "der/die Barkeeper/in"
    ],
-   "page": "223-225"
+   "page": "223-225",
+   "definition": "Persona che prepara bevande al bar.",
+   "example": "Il barista prepara un caffè."
   },
   {
    "id": "u6-6a-014",
@@ -195,6 +221,8 @@
     "entwerfen"
    ],
    "page": "223-225",
+   "definition": "Fare un disegno.",
+   "example": "Disegno un cavallo.",
    "related": "▸ il disegno; E to design; F dessiner"
   },
   {
@@ -204,6 +232,8 @@
     "das Porträt"
    ],
    "page": "223-225",
+   "definition": "Immagine di una persona.",
+   "example": "Il ritratto è bellissimo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -221,6 +251,8 @@
     "der/die Banker/in"
    ],
    "page": "223-225",
+   "definition": "Persona che lavora in banca.",
+   "example": "Mio padre è bancario.",
    "usage": "pl. i bancari, le bancarie",
    "grammar": {
     "partOfSpeech": "noun",
@@ -238,7 +270,9 @@
    "translations": [
     "verliebt"
    ],
-   "page": "223-225"
+   "page": "223-225",
+   "definition": "Che prova amore.",
+   "example": "Sono innamorato di una ragazza."
   },
   {
    "id": "u6-6a-018",
@@ -248,6 +282,8 @@
     "finanziell"
    ],
    "page": "223-225",
+   "definition": "Che riguarda i soldi; anche a poco prezzo.",
+   "example": "È una crisi economica.",
    "related": "E economic",
    "usage": "pl. economici, economiche"
   },
@@ -259,6 +295,8 @@
     "Kreditinstitut"
    ],
    "page": "223-225",
+   "definition": "Istituto che custodisce i soldi.",
+   "example": "Vado in banca.",
    "usage": "pl. le banche",
    "grammar": {
     "partOfSpeech": "noun",
@@ -277,7 +315,9 @@
     "das Investment",
     "die Investition"
    ],
-   "page": "223-225"
+   "page": "223-225",
+   "definition": "Uso di soldi per guadagnare.",
+   "example": "È un buon investimento."
   },
   {
    "id": "u6-6a-021",
@@ -288,6 +328,8 @@
     "das"
    ],
    "page": "223-225",
+   "definition": "Pronome relativo.",
+   "example": "La persona alla quale scrivo è gentile.",
    "related": "L qualis",
    "usage": "rel. pron."
   },
@@ -297,7 +339,9 @@
    "translations": [
     "das Ausland"
    ],
-   "page": "223-225"
+   "page": "223-225",
+   "definition": "Paesi diversi dal proprio.",
+   "example": "Vivo all’estero."
   },
   {
    "id": "u6-6a-023",
@@ -307,6 +351,8 @@
     "die Firma"
    ],
    "page": "223-225",
+   "definition": "Azienda.",
+   "example": "Lavora in una ditta.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -324,6 +370,8 @@
     "der Monat"
    ],
    "page": "223-225",
+   "definition": "Periodo di circa trenta giorni.",
+   "example": "Luglio è un mese caldo.",
    "related": "L mensis",
    "grammar": {
     "partOfSpeech": "noun",
@@ -342,6 +390,8 @@
     "die Ausstellung"
    ],
    "page": "223-225",
+   "definition": "Esposizione di opere.",
+   "example": "Visitiamo una mostra.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -359,6 +409,8 @@
     "der Fan"
    ],
    "page": "223-225",
+   "definition": "Persona che sostiene una squadra.",
+   "example": "I tifosi cantano.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -376,7 +428,9 @@
     "jdn/etw. anfeuern",
     "zu jdm/etw. halten"
    ],
-   "page": "223-225"
+   "page": "223-225",
+   "definition": "Sostenere una squadra.",
+   "example": "Tifo per l’Inter."
   },
   {
    "id": "u6-6a-028",
@@ -384,7 +438,9 @@
    "translations": [
     "die Ingenieurwissenschaft"
    ],
-   "page": "223-225"
+   "page": "223-225",
+   "definition": "Studio per costruire macchine e strutture.",
+   "example": "Studio ingegneria."
   },
   {
    "id": "u6-6a-029",
@@ -393,6 +449,8 @@
     "das Wohnheim"
    ],
    "page": "223-225",
+   "definition": "Alloggio per studenti.",
+   "example": "Vivo in residenza.",
    "related": "E residence",
    "grammar": {
     "partOfSpeech": "noun",
@@ -415,6 +473,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Università tecnica.",
+   "example": "Studio al Politecnico.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -434,6 +494,8 @@
     "die Umwelt"
    ],
    "page": "223-225",
+   "definition": "Ciò che ci circonda.",
+   "example": "Dobbiamo proteggere l’ambiente.",
    "usage": "m."
   },
   {
@@ -442,7 +504,9 @@
    "translations": [
     "sowohl … als auch"
    ],
-   "page": "223-225"
+   "page": "223-225",
+   "definition": "Costruzione che unisce due elementi.",
+   "example": "Parlo sia italiano che inglese."
   },
   {
    "id": "u6-6a-033",
@@ -451,6 +515,8 @@
     "kennengelernt haben"
    ],
    "page": "223-225",
+   "definition": "Aver incontrato una persona.",
+   "example": "Ho conosciuto un ragazzo.",
    "usage": "conosco = ich kenne; ho conosciuto = ich habe kennengelernt"
   },
   {
@@ -459,7 +525,9 @@
    "translations": [
     "international"
    ],
-   "page": "223-225"
+   "page": "223-225",
+   "definition": "Di più nazioni.",
+   "example": "Frequento una scuola internazionale."
   },
   {
    "id": "u6-6a-035",
@@ -469,6 +537,8 @@
     "herkommen"
    ],
    "page": "223-225",
+   "definition": "Venire da un luogo.",
+   "example": "Provengo dalla Francia.",
    "usage": "Abc"
   },
   {
@@ -478,6 +548,8 @@
     "glücklich"
    ],
    "page": "223-225",
+   "definition": "Che ha la buona sorte dalla sua parte.",
+   "example": "Sei fortunato!",
    "related": "E fortunate",
    "usage": "essere fortunato = Glück haben"
   },
@@ -489,6 +561,8 @@
     "der Stau"
    ],
    "page": "223-225",
+   "definition": "Insieme dei veicoli che circolano.",
+   "example": "C’è molto traffico.",
    "related": "E traffic; F la trafic",
    "usage": "pl. i traffici",
    "grammar": {
@@ -509,6 +583,8 @@
     "der Roller"
    ],
    "page": "223-225",
+   "definition": "Veicolo a due ruote con motore.",
+   "example": "Vado a scuola in scooter.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -525,7 +601,9 @@
    "translations": [
     "angesichts/aufgrund der Tatsache, dass"
    ],
-   "page": "223-225"
+   "page": "223-225",
+   "definition": "Poiché.",
+   "example": "Dato che piove, resto a casa."
   },
   {
    "id": "u6-6a-040",
@@ -534,6 +612,8 @@
     "der Kontinent"
    ],
    "page": "223-225",
+   "definition": "Grande massa di terra.",
+   "example": "L’Europa è un continente.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -553,6 +633,8 @@
     "die Quelle"
    ],
    "page": "223-225",
+   "definition": "Punto di partenza.",
+   "example": "L’origine della festa è antica.",
    "related": "E origin; L origo",
    "usage": "f."
   },
@@ -563,6 +645,8 @@
     "das Drittel"
    ],
    "page": "223-225",
+   "definition": "Una delle tre parti uguali.",
+   "example": "Un terzo dei ragazzi viene in bici.",
    "usage": "Bruchzahlen: (un) mezzo, un terzo, un quarto …",
    "grammar": {
     "partOfSpeech": "noun",
@@ -580,7 +664,9 @@
    "translations": [
     "der/die Immatrikulierte"
    ],
-   "page": "223-225"
+   "page": "223-225",
+   "definition": "Persona registrata.",
+   "example": "Gli iscritti sono cento."
   },
   {
    "id": "u6-6a-044",
@@ -589,7 +675,9 @@
     "nicht EU-",
     "nicht zur EU gehörend"
    ],
-   "page": "223-225"
+   "page": "223-225",
+   "definition": "Che viene da un paese fuori dall’Unione Europea.",
+   "example": "Gli studenti extracomunitari hanno bisogno di un visto."
   }
  ],
  "catalog": {

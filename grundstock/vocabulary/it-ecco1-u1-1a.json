@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,7 @@
     "wohnen"
    ],
    "page": "169-170",
+   "definition": "Vivere in una casa o in una città.",
    "example": "Abito a Milano.",
    "related": "F habiter; L habitare"
   },
@@ -45,6 +46,8 @@
     "in, an, bei"
    ],
    "page": "169-170",
+   "definition": "Piccola parola che indica luogo o direzione.",
+   "example": "Vado a Roma.",
    "related": "F à; L ad"
   },
   {
@@ -54,6 +57,8 @@
     "da, dort"
    ],
    "page": "169-170",
+   "definition": "In un posto lontano da chi parla.",
+   "example": "Là c’è la stazione.",
    "related": "≠ qui/qua",
    "usage": "avv."
   },
@@ -64,6 +69,7 @@
     "treffen"
    ],
    "page": "169-170",
+   "definition": "Vedere e parlare con qualcuno per caso o per appuntamento.",
    "example": "Incontro un’amica in centro."
   },
   {
@@ -73,7 +79,9 @@
     "der Junge/Bub",
     "das Mädchen"
    ],
-   "page": "169-170"
+   "page": "169-170",
+   "definition": "Persona giovane, non ancora adulta.",
+   "example": "Il ragazzo gioca a calcio."
   },
   {
    "id": "u1-1a-006",
@@ -82,6 +90,8 @@
     "jetzt"
    ],
    "page": "169-170",
+   "definition": "In questo momento.",
+   "example": "Adesso ho lezione.",
    "usage": "avv."
   },
   {
@@ -91,6 +101,8 @@
     "ja"
    ],
    "page": "169-170",
+   "definition": "Parola per dire che sei d’accordo.",
+   "example": "Sì, hai ragione!",
    "related": "≠ no"
   },
   {
@@ -100,6 +112,8 @@
     "sein"
    ],
    "page": "169-170",
+   "definition": "Verbo per dire chi sei, come sei o dove sei.",
+   "example": "Voglio essere felice.",
    "related": "F être; L esse",
    "usage": "Abc"
   },
@@ -109,7 +123,9 @@
    "translations": [
     "Angenehm!"
    ],
-   "page": "169-170"
+   "page": "169-170",
+   "definition": "Si dice quando conosci una persona nuova.",
+   "example": "Piacere, sono Marco!"
   },
   {
    "id": "u1-1a-010",
@@ -118,6 +134,7 @@
     "auch"
    ],
    "page": "169-170",
+   "definition": "Parola che aggiunge un’altra persona o cosa.",
    "example": "Unterscheide: Vor io wird anche apostrophiert: Sono di Torino anch’io.",
    "usage": "avv."
   },
@@ -127,7 +144,9 @@
    "translations": [
     "Wie niedlich!"
    ],
-   "page": "169-170"
+   "page": "169-170",
+   "definition": "Esclamazione quando qualcosa è molto simpatico.",
+   "example": "Che carino quel cagnolino!"
   },
   {
    "id": "u1-1a-012",
@@ -136,6 +155,8 @@
     "die Katze"
    ],
    "page": "169-170",
+   "definition": "Animale domestico che miagola.",
+   "example": "Il gatto dorme sul divano.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -152,7 +173,9 @@
    "translations": [
     "(er/sie/es) heißt"
    ],
-   "page": "169-170"
+   "page": "169-170",
+   "definition": "Così dici il nome di una persona o di un animale.",
+   "example": "Il mio gatto si chiama Micio."
   },
   {
    "id": "u1-1a-014",
@@ -160,7 +183,9 @@
    "translations": [
     "Wie heißt (er/sie)?"
    ],
-   "page": "169-170"
+   "page": "169-170",
+   "definition": "Domanda per sapere il nome di una terza persona.",
+   "example": "Come si chiama il tuo cane?"
   },
   {
    "id": "u1-1a-015",
@@ -169,6 +194,7 @@
     "nicht"
    ],
    "page": "169-170",
+   "definition": "Parola che rende negativa una frase.",
    "example": "Non sono di Roma."
   },
   {
@@ -178,6 +204,7 @@
     "es geht gut/schlecht"
    ],
    "page": "169-170",
+   "definition": "Dire come ti senti, in salute o di umore.",
    "example": "Come stai? – Sto bene.",
    "usage": "Abc"
   },
@@ -188,6 +215,8 @@
     "gut"
    ],
    "page": "169-170",
+   "definition": "In modo positivo, senza problemi.",
+   "example": "Parlo bene l’italiano.",
    "related": "≠ male; F bien; L bene",
    "usage": "avv."
   },
@@ -198,6 +227,8 @@
     "schlecht"
    ],
    "page": "169-170",
+   "definition": "In modo negativo, non positivo.",
+   "example": "Oggi sto male.",
    "related": "F mal; L male",
    "usage": "avv."
   },
@@ -207,7 +238,9 @@
    "translations": [
     "nicht wahr?"
    ],
-   "page": "169-170"
+   "page": "169-170",
+   "definition": "Si dice alla fine di una frase per avere conferma.",
+   "example": "Sei di Roma, vero?"
   },
   {
    "id": "u1-1a-020",
@@ -215,7 +248,9 @@
    "translations": [
     "Das stimmt!"
    ],
-   "page": "169-170"
+   "page": "169-170",
+   "definition": "Si dice quando qualcosa è giusto e corrisponde alla realtà.",
+   "example": "È vero, hai ragione!"
   },
   {
    "id": "u1-1a-021",
@@ -224,6 +259,7 @@
     "ankommen"
    ],
    "page": "169-170",
+   "definition": "Raggiungere un luogo dopo un viaggio.",
    "example": "Arrivo alle otto.",
    "related": "E to arrive; F arriver"
   },
@@ -233,7 +269,9 @@
    "translations": [
     "Wie geht’s (denn so)?"
    ],
-   "page": "169-170"
+   "page": "169-170",
+   "definition": "Domanda amichevole per sapere come sta una persona.",
+   "example": "Ciao Sara, come va?"
   },
   {
    "id": "u1-1a-023",
@@ -242,6 +280,8 @@
     "Hallo Schöne!"
    ],
    "page": "169-170",
+   "definition": "Saluto familiare a una ragazza o a una donna che conosci bene.",
+   "example": "Ciao, bella! Come stai?",
    "usage": "(auch scherzhaft)"
   },
   {
@@ -251,6 +291,8 @@
     "alles"
    ],
    "page": "169-170",
+   "definition": "La totalità, senza niente di escluso.",
+   "example": "Ho mangiato tutto.",
    "related": "F tout/-e"
   },
   {
@@ -259,7 +301,9 @@
    "translations": [
     "Alles in Ordnung?/!"
    ],
-   "page": "169-170"
+   "page": "169-170",
+   "definition": "Domanda o risposta per dire che va bene ogni cosa.",
+   "example": "Tutto bene? – Sì, grazie!"
   },
   {
    "id": "u1-1a-026",
@@ -267,7 +311,9 @@
    "translations": [
     "Wie geht es dir?"
    ],
-   "page": "169-170"
+   "page": "169-170",
+   "definition": "Domanda per sapere se una persona sta bene.",
+   "example": "Ciao Luca, come stai?"
   },
   {
    "id": "u1-1a-027",
@@ -275,7 +321,9 @@
    "translations": [
     "danke"
    ],
-   "page": "169-170"
+   "page": "169-170",
+   "definition": "Parola di cortesia che si dice dopo aver ricevuto un favore.",
+   "example": "Grazie mille per l’aiuto!"
   },
   {
    "id": "u1-1a-028",
@@ -284,6 +332,8 @@
     "aber"
    ],
    "page": "169-170",
+   "definition": "Parola che introduce un’idea contraria.",
+   "example": "Mi piace, ma è caro.",
    "related": "F mais"
   },
   {
@@ -293,6 +343,8 @@
     "Wo?"
    ],
    "page": "169-170",
+   "definition": "Domanda per sapere il luogo.",
+   "example": "Dove abiti?",
    "usage": "Unterscheide: Dove? – Wo?; Dov’è? – Wo ist (er/sie)?; Di dov’è? – Woher ist (er/sie)?"
   },
   {
@@ -301,7 +353,9 @@
    "translations": [
     "Hör mal!"
    ],
-   "page": "169-170"
+   "page": "169-170",
+   "definition": "Per attirare l’attenzione di una persona che conosci.",
+   "example": "Senti, hai un minuto?"
   },
   {
    "id": "u1-1a-031",
@@ -310,6 +364,8 @@
     "die Schule"
    ],
    "page": "169-170",
+   "definition": "Posto dove gli studenti imparano con gli insegnanti.",
+   "example": "La scuola comincia alle otto.",
    "related": "E school",
    "grammar": {
     "partOfSpeech": "noun",
@@ -328,7 +384,9 @@
     "Keine Ahnung!",
     "Ist mir egal!"
    ],
-   "page": "169-170"
+   "page": "169-170",
+   "definition": "Risposta informale: non so, non mi importa.",
+   "example": "Che ore sono? – Boh!"
   },
   {
    "id": "u1-1a-033",
@@ -337,6 +395,8 @@
     "das Gymnasium"
    ],
    "page": "169-170",
+   "definition": "Scuola superiore italiana che prepara all’università.",
+   "example": "Frequento il liceo classico.",
    "related": "F le lycée",
    "grammar": {
     "partOfSpeech": "noun",
@@ -355,6 +415,8 @@
     "nein"
    ],
    "page": "169-170",
+   "definition": "Parola per dire che non sei d’accordo o non vuoi.",
+   "example": "No, grazie.",
    "related": "≠ sì"
   },
   {
@@ -363,7 +425,9 @@
    "translations": [
     "Wie schön!"
    ],
-   "page": "169-170"
+   "page": "169-170",
+   "definition": "Esclamazione quando qualcosa ti piace molto.",
+   "example": "Che bello, andiamo al mare!"
   },
   {
    "id": "u1-1a-036",
@@ -372,6 +436,8 @@
     "vielleicht"
    ],
    "page": "169-170",
+   "definition": "Parola che esprime una possibilità, non una certezza.",
+   "example": "Forse domani piove.",
    "related": "L fortasse",
    "usage": "avv."
   },
@@ -382,6 +448,8 @@
     "die Klasse"
    ],
    "page": "169-170",
+   "definition": "Gruppo di studenti che studiano insieme; anche l’aula.",
+   "example": "La mia classe ha venti alunni.",
    "related": "E class; F la classe",
    "grammar": {
     "partOfSpeech": "noun",
@@ -401,6 +469,8 @@
     "gemeinsam"
    ],
    "page": "169-170",
+   "definition": "Con altre persone, non da soli.",
+   "example": "Andiamo a scuola insieme.",
    "usage": "avv."
   }
  ],

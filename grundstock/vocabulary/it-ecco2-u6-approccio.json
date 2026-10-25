@@ -25,7 +25,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -36,6 +36,8 @@
     "das Industriedreieck (Mailand-Genua-Turin)"
    ],
    "page": "222-223",
+   "definition": "Zona del nord Italia con molte industrie.",
+   "example": "Il triangolo industriale è molto produttivo.",
    "related": "E triangle",
    "grammar": {
     "partOfSpeech": "noun",
@@ -54,6 +56,8 @@
     "die Konzentration"
    ],
    "page": "222-223",
+   "definition": "Raggruppamento di molte cose in un luogo; attenzione.",
+   "example": "C’è una grande concentrazione di fabbriche.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -71,6 +75,8 @@
     "die Dienstleistung"
    ],
    "page": "222-223",
+   "definition": "Attività che si fa per gli altri.",
+   "example": "Il servizio al ristorante è ottimo.",
    "related": "▸ servire",
    "usage": "pl. i servizi",
    "grammar": {
@@ -90,6 +96,8 @@
     "das Auto(mobil)"
    ],
    "page": "222-223",
+   "definition": "Veicolo con quattro ruote.",
+   "example": "L’automobile è nuova.",
    "acceptedAnswers": [
     "l’auto"
    ],
@@ -103,6 +111,8 @@
     "Aktien"
    ],
    "page": "222-223",
+   "definition": "Mercato dove si vendono azioni.",
+   "example": "La borsa di Milano è importante.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -120,6 +130,8 @@
     "der Norden"
    ],
    "page": "222-223",
+   "definition": "La parte nord di un paese.",
+   "example": "Il settentrione è ricco di industrie.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -137,6 +149,8 @@
     "etwa zehn"
    ],
    "page": "222-223",
+   "definition": "Gruppo di dieci.",
+   "example": "Ci sono una decina di persone.",
    "usage": "il centinaio = etwa hundert, pl. le centinaia; il migliaio = etwa tausend, pl. le migliaia",
    "grammar": {
     "partOfSpeech": "noun",
@@ -156,6 +170,8 @@
     "das Flachland"
    ],
    "page": "222-223",
+   "definition": "Grande zona piatta.",
+   "example": "La pianura è fertile.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -174,6 +190,8 @@
     "der Ackerbau"
    ],
    "page": "222-223",
+   "definition": "Coltivazione della terra.",
+   "example": "L’agricoltura è importante.",
    "related": "E agriculture"
   },
   {
@@ -183,7 +201,9 @@
     "die Tierhaltung",
     "die Tierzucht"
    ],
-   "page": "222-223"
+   "page": "222-223",
+   "definition": "Attività di crescere animali.",
+   "example": "L’allevamento dei maiali è diffuso."
   },
   {
    "id": "u6-approccio-011",
@@ -192,6 +212,8 @@
     "liefern"
    ],
    "page": "222-223",
+   "definition": "Dare, procurare.",
+   "example": "La fabbrica fornisce i materiali.",
    "acceptedAnswers": [
     "fornire"
    ],
@@ -205,6 +227,8 @@
     "strömen"
    ],
    "page": "222-223",
+   "definition": "Muoversi come un liquido.",
+   "example": "Il fiume scorre lento.",
    "usage": "p.p. scorso"
   },
   {
@@ -214,6 +238,8 @@
     "der See"
    ],
    "page": "222-223",
+   "definition": "Grande massa d’acqua circondata da terra.",
+   "example": "I laghi del nord sono belli.",
    "related": "E lake",
    "usage": "pl. i laghi",
    "grammar": {
@@ -232,7 +258,9 @@
    "translations": [
     "der Apennin (Gebirge)"
    ],
-   "page": "222-223"
+   "page": "222-223",
+   "definition": "Catena montuosa che attraversa l’Italia.",
+   "example": "L’Appennino divide l’Italia in due."
   },
   {
    "id": "u6-approccio-015",
@@ -241,6 +269,8 @@
     "nördlich"
    ],
    "page": "222-223",
+   "definition": "Del nord.",
+   "example": "Milano è una città settentrionale.",
    "related": "= a nord"
   },
   {
@@ -251,6 +281,8 @@
     "der Zugang"
    ],
    "page": "222-223",
+   "definition": "Possibilità di entrare.",
+   "example": "L’accesso al museo è gratuito.",
    "related": "E access"
   },
   {
@@ -261,6 +293,8 @@
     "entnehmen"
    ],
    "page": "222-223",
+   "definition": "Prendere, ricavare.",
+   "example": "Traggo vantaggio dallo studio.",
    "related": "L trahere",
    "acceptedAnswers": [
     "trarre, tratto"
@@ -275,6 +309,8 @@
     "der Profit"
    ],
    "page": "222-223",
+   "definition": "Guadagno economico.",
+   "example": "L’azienda ha un buon profitto.",
    "related": "E profit",
    "grammar": {
     "partOfSpeech": "noun",
@@ -293,6 +329,8 @@
     "der (Bade-)Tourismus"
    ],
    "page": "222-223",
+   "definition": "Viaggi per piacere, sulle spiagge.",
+   "example": "Il turismo balneare è importante.",
    "related": "▸ il/la turista; E tourism",
    "acceptedAnswers": [
     "il turismo"
@@ -314,6 +352,8 @@
     "anziehen"
    ],
    "page": "222-223",
+   "definition": "Tirare a sé, attirare.",
+   "example": "La città attrae molti turisti.",
    "related": "E to attract",
    "acceptedAnswers": [
     "attrarre, attratto"
@@ -327,6 +367,8 @@
     "die Landschaft"
    ],
    "page": "222-223",
+   "definition": "Aspetto di un territorio.",
+   "example": "I paesaggi italiani sono stupendi.",
    "related": "F le paysage",
    "usage": "pl. i paesaggi",
    "grammar": {
@@ -346,6 +388,8 @@
     "der Abschnitt"
    ],
    "page": "222-223",
+   "definition": "Parte di un percorso.",
+   "example": "Questo tratto di strada è lungo.",
    "related": "F le trait",
    "grammar": {
     "partOfSpeech": "noun",
@@ -364,6 +408,8 @@
     "der Hügel"
    ],
    "page": "222-223",
+   "definition": "Piccola altura.",
+   "example": "La casa è sulla collina.",
    "related": "L collis",
    "grammar": {
     "partOfSpeech": "noun",
@@ -382,6 +428,8 @@
     "die Gebirgskette"
    ],
    "page": "222-223",
+   "definition": "Serie di montagne collegate.",
+   "example": "Le Alpi sono una catena montuosa.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -399,6 +447,8 @@
     "der Süden"
    ],
    "page": "222-223",
+   "definition": "La parte sud di un paese.",
+   "example": "Il Mezzogiorno è molto caldo.",
    "related": "≠ settentrione"
   },
   {
@@ -408,6 +458,8 @@
     "einbeziehen"
    ],
    "page": "222-223",
+   "definition": "Comprendere, contenere.",
+   "example": "Il prezzo include la colazione.",
    "related": "E to include; L includere",
    "usage": "p.p. incluso"
   },
@@ -417,7 +469,9 @@
    "translations": [
     "südlich"
    ],
-   "page": "222-223"
+   "page": "222-223",
+   "definition": "Del sud.",
+   "example": "La cucina meridionale è saporita."
   },
   {
    "id": "u6-approccio-028",
@@ -427,6 +481,8 @@
     "besondere/-s"
    ],
    "page": "222-223",
+   "definition": "Speciale.",
+   "example": "Ha una caratteristica particolare.",
    "related": "E particular"
   },
   {
@@ -437,6 +493,8 @@
     "die Bedeutung"
    ],
    "page": "222-223",
+   "definition": "Valore o peso di qualcosa.",
+   "example": "L’importanza della salute è grande.",
    "related": "▸ importante; E importance"
   },
   {
@@ -446,6 +504,8 @@
     "die Fischerei"
    ],
    "page": "222-223",
+   "definition": "Mestiere di chi prende i pesci.",
+   "example": "La pesca è un’attività del Sud.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -463,6 +523,8 @@
     "der Verdienst"
    ],
    "page": "222-223",
+   "definition": "Quanto si riceve per un lavoro.",
+   "example": "Il guadagno è buono.",
    "related": "▸ guadagnare",
    "grammar": {
     "partOfSpeech": "noun",
@@ -481,6 +543,8 @@
     "der Vulkan"
    ],
    "page": "222-223",
+   "definition": "Montagna da cui esce la lava.",
+   "example": "L’Etna è un vulcano.",
    "related": "E volcano",
    "grammar": {
     "partOfSpeech": "noun",
@@ -499,6 +563,8 @@
     "die Arbeitslosigkeit"
    ],
    "page": "222-223",
+   "definition": "Mancanza di lavoro.",
+   "example": "La disoccupazione è alta.",
    "related": "E disoccupation",
    "grammar": {
     "partOfSpeech": "noun",
@@ -517,6 +583,8 @@
     "die Kriminalität"
    ],
    "page": "222-223",
+   "definition": "Presenza di reati.",
+   "example": "La criminalità è un problema.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -534,6 +602,8 @@
     "ursprünglich aus"
    ],
    "page": "222-223",
+   "definition": "Che viene da un luogo.",
+   "example": "Sono originario di Bari.",
    "related": "▸ l’origine"
   }
  ],

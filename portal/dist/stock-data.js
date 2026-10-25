@@ -8641,7 +8641,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -8681,7 +8681,7 @@ const STOCK_PACKAGES = [
      "Abbina alle vignette."
     ],
     "example": "",
-    "definition": "",
+    "definition": "Consegna di un esercizio: collega le parole alle immagini.",
     "page": "162-163"
    },
    {
@@ -8692,7 +8692,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: completa con la forma giusta.",
     "page": "162-163"
    },
    {
@@ -8703,7 +8703,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: completa le parti mancanti.",
     "page": "162-163"
    },
    {
@@ -8714,7 +8714,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: fai attenzione ai suoni.",
     "page": "162-163"
    },
    {
@@ -8725,7 +8725,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: trova le forme nel testo.",
     "page": "162-163"
    },
    {
@@ -8736,7 +8736,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda per sapere il contenuto.",
     "page": "162-163"
    },
    {
@@ -8749,7 +8749,7 @@ const STOCK_PACKAGES = [
      "Chiedi."
     ],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: fai una domanda a un compagno.",
     "page": "162-163"
    },
    {
@@ -8760,7 +8760,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: fate domande l’uno all’altro.",
     "page": "162-163"
    },
    {
@@ -8771,7 +8771,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: scrivi le parti mancanti.",
     "page": "162-163"
    },
    {
@@ -8782,7 +8782,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: finisci le frasi.",
     "page": "162-163"
    },
    {
@@ -8795,7 +8795,7 @@ const STOCK_PACKAGES = [
      "Copia nel tuo quaderno."
     ],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: riscrivi la lista sul quaderno.",
     "page": "162-163"
    },
    {
@@ -8806,7 +8806,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: sistema gli sbagli.",
     "page": "162-163"
    },
    {
@@ -8819,7 +8819,7 @@ const STOCK_PACKAGES = [
      "Create."
     ],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: inventate e scrivete un dialogo.",
     "page": "162-163"
    },
    {
@@ -8830,7 +8830,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: scegli quella giusta.",
     "page": "162-163"
    },
    {
@@ -8843,7 +8843,7 @@ const STOCK_PACKAGES = [
      "Descrivi."
     ],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: spiega come sono diverse.",
     "page": "162-163"
    },
    {
@@ -8854,7 +8854,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: scrivi un elenco.",
     "page": "162-163"
    },
    {
@@ -8865,7 +8865,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: raccogli parole su un tema.",
     "page": "162-163"
    },
    {
@@ -8876,7 +8876,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: costruisci frasi giuste.",
     "page": "162-163"
    },
    {
@@ -8887,7 +8887,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: osserva con attenzione.",
     "page": "162-163"
    },
    {
@@ -8898,7 +8898,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: dì in quale riga si trova.",
     "page": "162-163"
    },
    {
@@ -8909,7 +8909,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: leggi la pagina indicata.",
     "page": "162-163"
    },
    {
@@ -8922,7 +8922,7 @@ const STOCK_PACKAGES = [
      "Metti i verbi."
     ],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: cambia la forma dei verbi.",
     "page": "162-163"
    },
    {
@@ -8933,7 +8933,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: scegli la forma corretta.",
     "page": "162-163"
    },
    {
@@ -8947,7 +8947,7 @@ const STOCK_PACKAGES = [
      "Metti nell’ordine giusto."
     ],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: metti in sequenza corretta.",
     "page": "162-163"
    },
    {
@@ -8958,7 +8958,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: racconta a voce.",
     "page": "162-163"
    },
    {
@@ -8969,7 +8969,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: mostra il lavoro alla classe.",
     "page": "162-163"
    },
    {
@@ -8980,7 +8980,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: racconta a voce.",
     "page": "162-163"
    },
    {
@@ -8992,7 +8992,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: dì di nuovo.",
     "page": "162-163"
    },
    {
@@ -9003,7 +9003,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: dai le risposte.",
     "page": "162-163"
    },
    {
@@ -9014,7 +9014,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: scegli quello giusto.",
     "page": "162-163"
    },
    {
@@ -9025,7 +9025,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: metti per iscritto.",
     "page": "162-163"
    },
    {
@@ -9036,7 +9036,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: dai una ragione.",
     "page": "162-163"
    },
    {
@@ -9047,7 +9047,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: collega le parole che vanno insieme.",
     "page": "162-163"
    },
    {
@@ -9058,7 +9058,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Consegna: usa le frasi che hai letto.",
     "page": "162-163"
    }
   ]
@@ -9086,7 +9086,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -9124,7 +9124,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda per chiedere aiuto a una persona a cui dai del tu.",
     "page": "161-162"
    },
    {
@@ -9135,7 +9135,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda per offrire aiuto.",
     "page": "161-162"
    },
    {
@@ -9146,7 +9146,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda per chiedere una mano.",
     "page": "161-162"
    },
    {
@@ -9157,7 +9157,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda per chiedere uno strumento per scrivere.",
     "page": "161-162"
    },
    {
@@ -9168,7 +9168,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda cortese per sentire di nuovo.",
     "page": "161-162"
    },
    {
@@ -9179,7 +9179,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda cortese per avere un’altra spiegazione.",
     "page": "161-162"
    },
    {
@@ -9190,7 +9190,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Frase per dire che non hai compreso.",
     "page": "161-162"
    },
    {
@@ -9201,7 +9201,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Frase per dire che non hai compreso.",
     "page": "161-162"
    },
    {
@@ -9212,7 +9212,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda cortese per chiedere meno velocità.",
     "page": "161-162"
    },
    {
@@ -9223,7 +9223,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda cortese per avere una spiegazione.",
     "page": "161-162"
    },
    {
@@ -9234,7 +9234,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Frase per dire che vuoi chiedere qualcosa.",
     "page": "161-162"
    },
    {
@@ -9245,7 +9245,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda cortese quando non hai sentito bene.",
     "page": "161-162"
    },
    {
@@ -9256,7 +9256,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda per sapere come si chiama un oggetto.",
     "page": "161-162"
    },
    {
@@ -9267,7 +9267,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Frase per dire che la consegna non è chiara.",
     "page": "161-162"
    },
    {
@@ -9278,7 +9278,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Frase per segnalare una difficoltà.",
     "page": "161-162"
    },
    {
@@ -9289,7 +9289,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda per conoscere la traduzione.",
     "page": "161-162"
    },
    {
@@ -9300,7 +9300,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda per conoscere la parola italiana.",
     "page": "161-162"
    },
    {
@@ -9311,7 +9311,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda per sapere se una variante è possibile.",
     "page": "161-162"
    },
    {
@@ -9322,7 +9322,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda per sapere la grafia.",
     "page": "161-162"
    },
    {
@@ -9333,7 +9333,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda sulla lettera h.",
     "page": "161-162"
    },
    {
@@ -9344,7 +9344,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda per sapere come si dice a voce.",
     "page": "161-162"
    },
    {
@@ -9355,7 +9355,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda cortese per avere un esempio.",
     "page": "161-162"
    },
    {
@@ -9366,7 +9366,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda per sapere il numero della pagina.",
     "page": "161-162"
    },
    {
@@ -9377,7 +9377,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda per verificare una risposta.",
     "page": "161-162"
    },
    {
@@ -9388,7 +9388,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda per sapere se c’è un errore.",
     "page": "161-162"
    },
    {
@@ -9399,7 +9399,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda sul tempo disponibile.",
     "page": "161-162"
    },
    {
@@ -9410,7 +9410,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda sul prossimo compito.",
     "page": "161-162"
    },
    {
@@ -9421,7 +9421,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Domanda per proporre di continuare.",
     "page": "161-162"
    },
    {
@@ -9432,7 +9432,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Frase per proporre di ripartire da capo.",
     "page": "161-162"
    },
    {
@@ -9443,7 +9443,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Frase per dire chi ha il turno.",
     "page": "161-162"
    },
    {
@@ -9454,7 +9454,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Frase per dire che non era volontario.",
     "page": "161-162"
    },
    {
@@ -9467,7 +9467,7 @@ const STOCK_PACKAGES = [
      "Mi scusi, è colpa mia."
     ],
     "example": "",
-    "definition": "",
+    "definition": "Frase per ammettere o negare una responsabilità.",
     "page": "161-162"
    },
    {
@@ -9478,7 +9478,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Frase per chiedere perdono a una persona che dai del tu.",
     "page": "161-162"
    }
   ]
@@ -9507,7 +9507,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -9547,7 +9547,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ciao, Marco!",
-    "definition": "",
+    "definition": "Saluto tra amici, quando ci si incontra o ci si lascia.",
     "page": "167-168"
    },
    {
@@ -9557,8 +9557,8 @@ const STOCK_PACKAGES = [
      "die Jugendlichen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "I ragazzi giocano a calcio nel parco.",
+    "definition": "Giovani, maschi e femmine, non ancora adulti.",
     "usage": "pl.",
     "page": "167-168",
     "grammar": {
@@ -9579,7 +9579,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mi chiamo Sofia.",
-    "definition": "",
+    "definition": "Così dici qual è il tuo nome.",
     "page": "167-168"
    },
    {
@@ -9590,7 +9590,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Sono di Roma.",
-    "definition": "",
+    "definition": "Dici questo quando parli di te: chi sei, da dove vieni.",
     "page": "167-168"
    },
    {
@@ -9601,7 +9601,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Siamo di Napoli.",
-    "definition": "",
+    "definition": "Piccola parola che indica provenienza o appartenenza.",
     "page": "167-168"
    },
    {
@@ -9612,7 +9612,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Parlo italiano e tedesco.",
-    "definition": "",
+    "definition": "Così dici che usi una lingua per comunicare.",
     "page": "167-168",
     "related": "F parler"
    },
@@ -9623,8 +9623,8 @@ const STOCK_PACKAGES = [
      "Italienisch (Sprache)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’italiano è una lingua molto musicale.",
+    "definition": "La lingua che si parla in Italia.",
     "usage": "m.",
     "page": "167-168",
     "related": "E Italian; F italien"
@@ -9636,8 +9636,8 @@ const STOCK_PACKAGES = [
      "Französisch (Sprache)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il francese si parla anche in Canada.",
+    "definition": "La lingua che si parla in Francia.",
     "page": "167-168",
     "related": "E French; F français",
     "grammar": {
@@ -9657,8 +9657,8 @@ const STOCK_PACKAGES = [
      "und"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mangio pane e formaggio.",
+    "definition": "Piccola parola che unisce due parole o due frasi.",
     "page": "167-168",
     "related": "F et; L et"
    },
@@ -9670,7 +9670,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Parlo tedesco.",
-    "definition": "",
+    "definition": "La lingua che si parla in Germania e in Austria.",
     "page": "167-168",
     "grammar": {
      "partOfSpeech": "noun",
@@ -9689,8 +9689,8 @@ const STOCK_PACKAGES = [
      "Englisch (Sprache)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’inglese è la mia seconda lingua.",
+    "definition": "La lingua più usata nel mondo per comunicare.",
     "usage": "m.",
     "page": "167-168",
     "related": "E English"
@@ -9703,8 +9703,8 @@ const STOCK_PACKAGES = [
      "Servus!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Salve, signora!",
+    "definition": "Saluto cortese, tra “ciao” e “buongiorno”.",
     "page": "167-168",
     "related": "L salve"
    },
@@ -9715,8 +9715,8 @@ const STOCK_PACKAGES = [
      "Sardisch (Sprache)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mia nonna parla il sardo.",
+    "definition": "Lingua parlata dagli abitanti di un’isola italiana del Mediterraneo.",
     "page": "167-168",
     "grammar": {
      "partOfSpeech": "noun",
@@ -9736,8 +9736,8 @@ const STOCK_PACKAGES = [
      "Grüß Gott!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Buongiorno, professoressa!",
+    "definition": "Saluto formale che si dice la mattina o fino al primo pomeriggio.",
     "usage": "Unterscheide: Buongiorno zu Erwachsenen, zum Beispiel zur Lehrkraft – Ciao unter Freunden",
     "page": "167-168",
     "related": "F bonjour"
@@ -9749,8 +9749,8 @@ const STOCK_PACKAGES = [
      "Arabisch (Sprache)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Karim parla arabo e italiano.",
+    "definition": "Lingua parlata in Marocco, Egitto e in molti altri paesi.",
     "page": "167-168",
     "related": "F arabe"
    },
@@ -9761,8 +9761,8 @@ const STOCK_PACKAGES = [
      "du"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Tu sei di Milano, vero?",
+    "definition": "Pronome: la persona con cui parli, quando le dai del “tu”.",
     "page": "167-168",
     "related": "F tu; L tu"
    },
@@ -9774,8 +9774,8 @@ const STOCK_PACKAGES = [
      "Wen?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Chi è quel ragazzo?",
+    "definition": "Domanda per sapere la persona.",
     "page": "167-168",
     "related": "F qui"
    },
@@ -9787,7 +9787,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Chi sei? – Sono Luca.",
-    "definition": "",
+    "definition": "Domanda per sapere il nome di una persona che hai davanti.",
     "page": "167-168"
    },
    {
@@ -9797,8 +9797,8 @@ const STOCK_PACKAGES = [
      "Wie?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Come stai?",
+    "definition": "Domanda per sapere il modo; si usa anche quando non hai capito.",
     "page": "167-168",
     "related": "F comment"
    },
@@ -9810,7 +9810,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Come ti chiami? – Mi chiamo Elena.",
-    "definition": "",
+    "definition": "Domanda per sapere il nome di una persona.",
     "page": "167-168"
    },
    {
@@ -9820,8 +9820,8 @@ const STOCK_PACKAGES = [
      "Woher?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Di dove è Marta?",
+    "definition": "Domanda per sapere il luogo di origine.",
     "page": "167-168"
    },
    {
@@ -9832,7 +9832,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Di dove sei? – Sono di Torino.",
-    "definition": "",
+    "definition": "Domanda per sapere da dove viene una persona.",
     "page": "167-168"
    },
    {
@@ -9843,8 +9843,8 @@ const STOCK_PACKAGES = [
      "Welche/r + Subst.?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che sport fai?",
+    "definition": "Parola interrogativa che si usa per chiedere una cosa.",
     "page": "167-168"
    },
    {
@@ -9854,8 +9854,8 @@ const STOCK_PACKAGES = [
      "die Sprache"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La lingua dei Brasiliani è il portoghese.",
+    "definition": "Sistema di parole con cui comunichiamo, per esempio italiano o inglese.",
     "page": "167-168",
     "related": "E language; F la langue; L lingua",
     "grammar": {
@@ -9875,8 +9875,8 @@ const STOCK_PACKAGES = [
      "du sprichst"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Parli bene l’italiano!",
+    "definition": "Così dici che l’altra persona usa una lingua.",
     "page": "167-168"
    },
    {
@@ -9886,8 +9886,8 @@ const STOCK_PACKAGES = [
      "Welche Sprachen sprichst du?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che lingue parli? – Parlo tedesco e inglese.",
+    "definition": "Domanda per sapere quali lingue conosce una persona.",
     "page": "167-168"
    }
   ]
@@ -9915,7 +9915,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -9952,8 +9952,8 @@ const STOCK_PACKAGES = [
      "Guten Abend!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Buonasera, signora!",
+    "definition": "Saluto della sera.",
     "page": "199",
     "related": "≠ buongiorno; ▸ buono/-a, la sera"
    },
@@ -9964,8 +9964,8 @@ const STOCK_PACKAGES = [
      "das Radio"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ascolto la radio in auto.",
+    "definition": "Apparecchio che diffonde musica e notizie.",
     "page": "199",
     "grammar": {
      "partOfSpeech": "noun",
@@ -9985,7 +9985,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Rivarolo Canavese è in provincia di Torino.",
-    "definition": "",
+    "definition": "Territorio più piccolo di una regione.",
     "usage": "Eine italienische Provinz entspricht in etwa einem deutschen Landkreis.",
     "page": "199",
     "grammar": {
@@ -10006,7 +10006,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Seguo dal vivo il Giro d’Italia.",
-    "definition": "",
+    "definition": "In diretta, non registrato.",
     "usage": "avv.",
     "tags": [
      "fakultativ"
@@ -10020,8 +10020,8 @@ const STOCK_PACKAGES = [
      "die Ankunft"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’arrivo del treno è alle otto.",
+    "definition": "Momento in cui si raggiunge un luogo.",
     "usage": "m.",
     "tags": [
      "fakultativ"
@@ -10037,7 +10037,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il Giro d’Italia ha molte tappe.",
-    "definition": "",
+    "definition": "Parte di un viaggio o di una gara.",
     "tags": [
      "fakultativ"
     ],
@@ -10060,7 +10060,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La folla sta seguendo la partita nello stadio.",
-    "definition": "",
+    "definition": "Moltissime persone in un luogo.",
     "tags": [
      "fakultativ"
     ],
@@ -10082,8 +10082,8 @@ const STOCK_PACKAGES = [
      "(er)warten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Aspetto l’autobus.",
+    "definition": "Stare in un luogo finché arriva qualcosa.",
     "tags": [
      "fakultativ"
     ],
@@ -10096,8 +10096,8 @@ const STOCK_PACKAGES = [
      "der/die Fahrradfahrer/-in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il ciclista sale la montagna.",
+    "definition": "Persona che va in bicicletta.",
     "usage": "pl. i ciclisti/-e",
     "tags": [
      "fakultativ"
@@ -10121,8 +10121,8 @@ const STOCK_PACKAGES = [
      "momentan"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Al momento non ho tempo.",
+    "definition": "In questo periodo.",
     "tags": [
      "fakultativ"
     ],
@@ -10136,7 +10136,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Dove sono? Non vedo nessuno.",
-    "definition": "",
+    "definition": "Non una sola persona.",
     "tags": [
      "fakultativ"
     ],
@@ -10149,8 +10149,8 @@ const STOCK_PACKAGES = [
      "nie(mals)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non mangio mai pesce.",
+    "definition": "Costruzione che significa “in nessun momento”.",
     "tags": [
      "fakultativ"
     ],
@@ -10163,8 +10163,8 @@ const STOCK_PACKAGES = [
      "wir hören uns"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ti scrivo domani: ci sentiamo!",
+    "definition": "Ci telefoniamo o ci scriviamo presto.",
     "tags": [
      "fakultativ"
     ],
@@ -10177,8 +10177,8 @@ const STOCK_PACKAGES = [
      "ansonsten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sbrigati, se no perdiamo il treno.",
+    "definition": "In caso contrario.",
     "tags": [
      "fakultativ"
     ],
@@ -10193,7 +10193,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Non li vedo. Puoi spostarti un po’?",
-    "definition": "",
+    "definition": "Cambiare posizione.",
     "tags": [
      "fakultativ"
     ],
@@ -10208,7 +10208,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Dov’è Anna? Non la vedo più.",
-    "definition": "",
+    "definition": "Di quantità maggiore.",
     "usage": "avv.",
     "tags": [
      "fakultativ"
@@ -10242,7 +10242,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -10280,8 +10280,8 @@ const STOCK_PACKAGES = [
      "die Kultur"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La cultura italiana mi piace.",
+    "definition": "Insieme di tradizioni, arte e conoscenze di un popolo.",
     "tags": [
      "fakultativ"
     ],
@@ -10306,7 +10306,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il prof considera Marco un bravo ragazzo.",
-    "definition": "",
+    "definition": "Giudicare in un certo modo.",
     "tags": [
      "fakultativ"
     ],
@@ -10321,7 +10321,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Sono stanco, per questo stasera non vengo.",
-    "definition": "",
+    "definition": "Per tale ragione, quindi.",
     "tags": [
      "fakultativ"
     ],
@@ -10335,7 +10335,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mi piace viaggiare e vedere il mondo.",
-    "definition": "",
+    "definition": "Andare in luoghi lontani.",
     "tags": [
      "fakultativ"
     ],
@@ -10349,7 +10349,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il libro di Dante parla di un viaggio nell’Aldilà.",
-    "definition": "",
+    "definition": "Il mondo dopo la morte, secondo la fede.",
     "tags": [
      "fakultativ"
     ],
@@ -10364,7 +10364,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mia nonna ha libri di molte epoche.",
-    "definition": "",
+    "definition": "Periodo storico.",
     "usage": "pl. le epoche",
     "tags": [
      "fakultativ"
@@ -10379,8 +10379,8 @@ const STOCK_PACKAGES = [
      "intelligent"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mia sorella è intelligente.",
+    "definition": "Capace di capire e pensare con facilità.",
     "tags": [
      "fakultativ"
     ],
@@ -10395,7 +10395,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A Luca piace essere attivo e fare sport.",
-    "definition": "",
+    "definition": "Sempre in movimento, pieno di energia.",
     "tags": [
      "fakultativ"
     ],
@@ -10410,7 +10410,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Oggi tra l’altro devo fare la spesa.",
-    "definition": "",
+    "definition": "Espressione per aggiungere un’informazione.",
     "tags": [
      "fakultativ"
     ],
@@ -10424,7 +10424,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Per comprare il biglietto devi avere monete.",
-    "definition": "",
+    "definition": "Pezzo di metallo da un euro.",
     "tags": [
      "fakultativ"
     ],
@@ -10447,7 +10447,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Leonardo è nato nel 1452.",
-    "definition": "",
+    "definition": "Venire al mondo.",
     "tags": [
      "fakultativ"
     ],
@@ -10461,7 +10461,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ligabue è un cantante famoso.",
-    "definition": "",
+    "definition": "Conosciuto da molte persone.",
     "tags": [
      "fakultativ"
     ],
@@ -10477,7 +10477,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Durante la lezione d’arte Mia fa un bel disegno.",
-    "definition": "",
+    "definition": "Immagine fatta con la matita.",
     "tags": [
      "fakultativ"
     ],
@@ -10500,7 +10500,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Non devi essere un genio per capirlo.",
-    "definition": "",
+    "definition": "Persona molto intelligente e creativa.",
     "usage": "pl. i geni",
     "tags": [
      "fakultativ"
@@ -10526,7 +10526,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mi piacciono i dipinti di Van Gogh.",
-    "definition": "",
+    "definition": "Quadro fatto con i colori.",
     "tags": [
      "fakultativ"
     ],
@@ -10549,7 +10549,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mio nonno conserva tutte le foto di famiglia.",
-    "definition": "",
+    "definition": "Tenere in buono stato.",
     "tags": [
      "fakultativ"
     ],
@@ -10563,7 +10563,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "È presto, sono circa le 7.",
-    "definition": "",
+    "definition": "Più o meno.",
     "tags": [
      "fakultativ"
     ],
@@ -10578,7 +10578,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho bisogno dei miei appunti per fare il compito.",
-    "definition": "",
+    "definition": "Note scritte per ricordare.",
     "usage": "pl.",
     "tags": [
      "fakultativ"
@@ -10601,8 +10601,8 @@ const STOCK_PACKAGES = [
      "der Hubschrauber"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’elicottero vola sopra la città.",
+    "definition": "Velivolo con le eliche sopra.",
     "tags": [
      "fakultativ"
     ],
@@ -10617,7 +10617,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Alla festa sono venuti tutti gli amici.",
-    "definition": "",
+    "definition": "Ogni persona.",
     "usage": "pl.",
     "tags": [
      "fakultativ"
@@ -10632,7 +10632,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Questo ragazzo ha un bel sorriso.",
-    "definition": "",
+    "definition": "Espressione del viso che mostra felicità.",
     "tags": [
      "fakultativ"
     ],
@@ -10656,7 +10656,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Laura mi ha raccontato una storia misteriosa.",
-    "definition": "",
+    "definition": "Che nasconde un segreto.",
     "tags": [
      "fakultativ"
     ],
@@ -10670,7 +10670,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La domenica siamo andati al museo.",
-    "definition": "",
+    "definition": "Edificio dove si conservano opere d’arte.",
     "tags": [
      "fakultativ"
     ],
@@ -10695,7 +10695,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Alla partita di calcio sono venuti molti olandesi.",
-    "definition": "",
+    "definition": "Persona dei Paesi Bassi.",
     "usage": "m./f.",
     "tags": [
      "fakultativ"
@@ -10711,8 +10711,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "costruire"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Costruiscono una casa.",
+    "definition": "Fare un edificio.",
     "usage": "Abc",
     "tags": [
      "fakultativ"
@@ -10728,7 +10728,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Quando va al mare, mio nonno porta il cannocchiale.",
-    "definition": "",
+    "definition": "Strumento per vedere cose lontane.",
     "tags": [
      "fakultativ"
     ],
@@ -10751,7 +10751,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Non è la vera Mona Lisa, è solo una copia.",
-    "definition": "",
+    "definition": "Riproduzione di un originale.",
     "tags": [
      "fakultativ"
     ],
@@ -10774,7 +10774,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho bisogno di aiuto con i compiti.",
-    "definition": "",
+    "definition": "Cosa che si fa per aiutare qualcuno.",
     "tags": [
      "fakultativ"
     ],
@@ -10789,7 +10789,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La terra non è al centro dell’universo.",
-    "definition": "",
+    "definition": "Tutto lo spazio con le stelle.",
     "tags": [
      "fakultativ"
     ],
@@ -10803,8 +10803,8 @@ const STOCK_PACKAGES = [
      "die Kirche"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La chiesa è antica.",
+    "definition": "Edificio dove si prega.",
     "tags": [
      "fakultativ"
     ],
@@ -10826,8 +10826,8 @@ const STOCK_PACKAGES = [
      "das Urteil aufheben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il giudice cancella la condanna.",
+    "definition": "Eliminare una punizione ufficiale.",
     "tags": [
      "fakultativ"
     ],
@@ -10841,7 +10841,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Sai cantare l’inno nazionale italiano?",
-    "definition": "",
+    "definition": "Canzone ufficiale di un paese.",
     "tags": [
      "fakultativ"
     ],
@@ -10855,7 +10855,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Qui la lingua ufficiale è l’inglese.",
-    "definition": "",
+    "definition": "Riconosciuto dallo Stato.",
     "tags": [
      "fakultativ"
     ],
@@ -10870,7 +10870,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "«La Traviata» è un’opera di Verdi.",
-    "definition": "",
+    "definition": "Lavoro teatrale cantato con orchestra.",
     "tags": [
      "fakultativ"
     ],
@@ -10883,8 +10883,8 @@ const STOCK_PACKAGES = [
      "der Erfolg"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il film ha molto successo.",
+    "definition": "Risultato molto positivo.",
     "tags": [
      "fakultativ"
     ],
@@ -10908,7 +10908,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Hai letto qualcosa di questo scrittore?",
-    "definition": "",
+    "definition": "Persona che scrive libri.",
     "usage": "f. la scrittrice",
     "tags": [
      "fakultativ"
@@ -10933,7 +10933,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Solera ha scritto il libretto per «Nabucco».",
-    "definition": "",
+    "definition": "Testo di un’opera lirica.",
     "tags": [
      "fakultativ"
     ],
@@ -10974,7 +10974,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -11012,8 +11012,8 @@ const STOCK_PACKAGES = [
      "zum Beispiel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi piacciono i frutti, per esempio le mele.",
+    "definition": "Espressione che introduce un caso concreto.",
     "tags": [
      "fakultativ"
     ],
@@ -11028,7 +11028,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A Milano avete visitato il duomo?",
-    "definition": "",
+    "definition": "Chiesa principale di una città.",
     "tags": [
      "fakultativ"
     ],
@@ -11051,7 +11051,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La cupola è alta e molto grande.",
-    "definition": "",
+    "definition": "Tetto a forma di mezza sfera.",
     "tags": [
      "fakultativ"
     ],
@@ -11075,7 +11075,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Penso spesso alla nostra visita a Torino.",
-    "definition": "",
+    "definition": "Andare a vedere un luogo o una persona.",
     "tags": [
      "fakultativ"
     ],
@@ -11099,7 +11099,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Normalmente la prima lezione comincia alle 8.",
-    "definition": "",
+    "definition": "Di solito.",
     "tags": [
      "fakultativ"
     ],
@@ -11115,7 +11115,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Oggi Laura ha perso il treno.",
-    "definition": "",
+    "definition": "Non vincere; non trovare più.",
     "usage": "p.p. perso",
     "tags": [
      "fakultativ"
@@ -11130,7 +11130,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mia nonna è una donna molto particolare.",
-    "definition": "",
+    "definition": "Speciale, non comune.",
     "usage": "agg.",
     "tags": [
      "fakultativ"
@@ -11145,7 +11145,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Voi siete mai andati a un concerto di Liga?",
-    "definition": "",
+    "definition": "In nessun momento.",
     "tags": [
      "fakultativ"
     ],
@@ -11160,7 +11160,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho portato dei souvenir alla mia famiglia.",
-    "definition": "",
+    "definition": "Oggetto che si compra per ricordare un viaggio.",
     "usage": "pl. i souvenir",
     "tags": [
      "fakultativ"
@@ -11183,8 +11183,8 @@ const STOCK_PACKAGES = [
      "voll von etw./jdm"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La piazza è piena di gente.",
+    "definition": "Che contiene molto di qualcosa.",
     "tags": [
      "fakultativ"
     ],
@@ -11198,7 +11198,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A Roma ci sono tanti turisti.",
-    "definition": "",
+    "definition": "Persona che viaggia per divertimento.",
     "usage": "f. la turista",
     "tags": [
      "fakultativ"
@@ -11223,7 +11223,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Davanti alla casa c’è un bel giardino.",
-    "definition": "",
+    "definition": "Spazio con piante e fiori.",
     "tags": [
      "fakultativ"
     ],
@@ -11247,7 +11247,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Questa torre è molto alta.",
-    "definition": "",
+    "definition": "Costruzione alta e stretta.",
     "tags": [
      "fakultativ"
     ],
@@ -11272,7 +11272,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Marco è già tornato. Infatti lo vedo oggi.",
-    "definition": "",
+    "definition": "Parola che conferma quello che si è detto.",
     "tags": [
      "fakultativ"
     ],
@@ -11286,7 +11286,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A Pisa siamo saliti sul campanile.",
-    "definition": "",
+    "definition": "Torre con le campane.",
     "tags": [
      "fakultativ"
     ],
@@ -11310,8 +11310,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "pagare"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Pago alla cassa.",
+    "definition": "Dare soldi per un acquisto.",
     "usage": "Abc",
     "tags": [
      "fakultativ"
@@ -11327,7 +11327,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Domani vado a una festa di carnevale.",
-    "definition": "",
+    "definition": "Festa di febbraio con maschere e costumi.",
     "tags": [
      "fakultativ"
     ],
@@ -11350,7 +11350,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Oggi un grande corteo parte da Piazza Duomo.",
-    "definition": "",
+    "definition": "Gruppo di persone che sfila in strada.",
     "tags": [
      "fakultativ"
     ],
@@ -11373,7 +11373,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Luca prende in giro suo fratello.",
-    "definition": "",
+    "definition": "Scherzare su qualcuno.",
     "usage": "Abc",
     "tags": [
      "fakultativ"
@@ -11388,7 +11388,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Prima o poi voglio visitare anche Roma.",
-    "definition": "",
+    "definition": "Un giorno o l’altro.",
     "tags": [
      "fakultativ"
     ],
@@ -11401,8 +11401,8 @@ const STOCK_PACKAGES = [
      "die Ruhe"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Cerco un po’ di tranquillità.",
+    "definition": "Stato di calma.",
     "tags": [
      "fakultativ"
     ],
@@ -11425,8 +11425,8 @@ const STOCK_PACKAGES = [
      "die Landschaft"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il paesaggio toscano è bellissimo.",
+    "definition": "Aspetto del territorio.",
     "usage": "pl. i paesaggi",
     "tags": [
      "fakultativ"
@@ -11451,7 +11451,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A Torino ammiro il parco.",
-    "definition": "",
+    "definition": "Guardare con piacere.",
     "tags": [
      "fakultativ"
     ],
@@ -11465,8 +11465,8 @@ const STOCK_PACKAGES = [
      "der Wein"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mio padre beve un bicchiere di vino.",
+    "definition": "Bevanda alcolica fatta con l’uva.",
     "tags": [
      "fakultativ"
     ],
@@ -11491,7 +11491,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Gli alberghi costano troppo. Abbiamo cercato un ostello.",
-    "definition": "",
+    "definition": "Albergo economico per giovani.",
     "tags": [
      "fakultativ"
     ],
@@ -11508,7 +11508,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Oggi andiamo fuori Torino per vedere i nonni.",
-    "definition": "",
+    "definition": "Non dentro.",
     "tags": [
      "fakultativ"
     ],
@@ -11522,7 +11522,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Al posto tuo andrei a casa. È già tardi.",
-    "definition": "",
+    "definition": "Se fossi nella tua situazione.",
     "tags": [
      "fakultativ"
     ],
@@ -11536,7 +11536,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Luca abita in un paese vicino a Torino.",
-    "definition": "",
+    "definition": "Piccolo centro abitato.",
     "tags": [
      "fakultativ"
     ],
@@ -11578,7 +11578,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -11618,7 +11618,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ieri mia nonna è stata male. Oggi sta così così.",
-    "definition": "",
+    "definition": "Né bene né male.",
     "tags": [
      "fakultativ"
     ],
@@ -11631,8 +11631,8 @@ const STOCK_PACKAGES = [
      "nicht einmal"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non ho nemmeno un euro.",
+    "definition": "Costruzione che significa “neanche”.",
     "tags": [
      "fakultativ"
     ],
@@ -11645,8 +11645,8 @@ const STOCK_PACKAGES = [
      "das Drittel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho mangiato un terzo della pizza.",
+    "definition": "Una delle tre parti uguali.",
     "tags": [
      "fakultativ"
     ],
@@ -11668,8 +11668,8 @@ const STOCK_PACKAGES = [
      "die Hälfte"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mangio la metà della pizza.",
+    "definition": "Una delle due parti uguali.",
     "tags": [
      "fakultativ"
     ],
@@ -11692,7 +11692,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Abbiamo passato una bella giornata.",
-    "definition": "",
+    "definition": "Tempo da mattina a sera.",
     "tags": [
      "fakultativ"
     ],
@@ -11715,7 +11715,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Oggi abbiamo un incontro con il nostro prof.",
-    "definition": "",
+    "definition": "Riunione di persone.",
     "tags": [
      "fakultativ"
     ],
@@ -11730,7 +11730,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Parola che conferma quello che si è detto.",
     "tags": [
      "fakultativ"
     ],
@@ -11745,7 +11745,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho invitato più di 20 amici.",
-    "definition": "",
+    "definition": "In quantità maggiore di.",
     "tags": [
      "fakultativ"
     ],
@@ -11759,7 +11759,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Qualcuno di voi ha visto il mio zaino?",
-    "definition": "",
+    "definition": "Una persona non precisata.",
     "tags": [
      "fakultativ"
     ],
@@ -11772,8 +11772,8 @@ const STOCK_PACKAGES = [
      "Das glaube ich nicht!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Hai vinto? Non ci credo!",
+    "definition": "Espressione di forte sorpresa.",
     "tags": [
      "fakultativ"
     ],
@@ -11787,7 +11787,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Vai al concerto di Ligabue? Come ti invidio!",
-    "definition": "",
+    "definition": "Desiderare quello che hanno gli altri.",
     "tags": [
      "fakultativ"
     ],
@@ -11801,7 +11801,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Senza gli amici Lara si annoia.",
-    "definition": "",
+    "definition": "Sentire noia.",
     "tags": [
      "fakultativ"
     ],
@@ -11816,7 +11816,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Perché sei così nervoso? Devi calmarti!",
-    "definition": "",
+    "definition": "Diventare tranquillo.",
     "tags": [
      "fakultativ"
     ],
@@ -11831,7 +11831,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho comprato una torta apposta per te.",
-    "definition": "",
+    "definition": "Con lo scopo preciso di.",
     "tags": [
      "fakultativ"
     ],
@@ -11844,8 +11844,8 @@ const STOCK_PACKAGES = [
      "Ich werde verrückt!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il treno è in ritardo di tre ore: roba da matti!",
+    "definition": "Espressione di stupore per qualcosa di assurdo.",
     "tags": [
      "fakultativ"
     ],
@@ -11860,7 +11860,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Quando è toccato a me, ho risposto.",
-    "definition": "",
+    "definition": "Essere il turno di qualcuno.",
     "tags": [
      "fakultativ"
     ],
@@ -11874,7 +11874,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mi dia sette panini, per favore.",
-    "definition": "",
+    "definition": "Modo gentile di chiedere, con il Lei.",
     "tags": [
      "fakultativ"
     ],
@@ -11888,7 +11888,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "I nostri prof ci danno del tu.",
-    "definition": "",
+    "definition": "Rivolgersi usando il pronome “tu”.",
     "tags": [
      "fakultativ"
     ],
@@ -11902,7 +11902,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Non conosco bene tua zia. Perciò le do del Lei.",
-    "definition": "",
+    "definition": "Rivolgersi usando la forma di cortesia.",
     "tags": [
      "fakultativ"
     ],
@@ -11916,7 +11916,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ci bastano due giorni per riposarci.",
-    "definition": "",
+    "definition": "Essere sufficiente.",
     "tags": [
      "fakultativ"
     ],
@@ -11930,7 +11930,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "I ragazzi fanno chiasso davanti al bar.",
-    "definition": "",
+    "definition": "Rumore forte e confuso.",
     "tags": [
      "fakultativ"
     ],
@@ -11953,7 +11953,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "I ragazzi entrano nella sala.",
-    "definition": "",
+    "definition": "Stanza grande di un edificio.",
     "tags": [
      "fakultativ"
     ],
@@ -11976,8 +11976,8 @@ const STOCK_PACKAGES = [
      "die Hälfte von (½)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La metà di dieci è cinque.",
+    "definition": "Una delle due parti uguali di qualcosa.",
     "usage": "Bruchzahlen: un terzo di = ein Drittel von (⅓); un quarto di = ein Viertel von (¼). Unterscheide: la metà = die Hälfte (sostantivo); mezzo/-a = halb (aggettivo)",
     "tags": [
      "fakultativ"
@@ -12019,7 +12019,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -12058,7 +12058,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Abito a Milano.",
-    "definition": "",
+    "definition": "Vivere in una casa o in una città.",
     "page": "169-170",
     "related": "F habiter; L habitare"
    },
@@ -12069,8 +12069,8 @@ const STOCK_PACKAGES = [
      "in, an, bei"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vado a Roma.",
+    "definition": "Piccola parola che indica luogo o direzione.",
     "page": "169-170",
     "related": "F à; L ad"
    },
@@ -12081,8 +12081,8 @@ const STOCK_PACKAGES = [
      "da, dort"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Là c’è la stazione.",
+    "definition": "In un posto lontano da chi parla.",
     "usage": "avv.",
     "page": "169-170",
     "related": "≠ qui/qua"
@@ -12095,7 +12095,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Incontro un’amica in centro.",
-    "definition": "",
+    "definition": "Vedere e parlare con qualcuno per caso o per appuntamento.",
     "page": "169-170"
    },
    {
@@ -12106,8 +12106,8 @@ const STOCK_PACKAGES = [
      "das Mädchen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il ragazzo gioca a calcio.",
+    "definition": "Persona giovane, non ancora adulta.",
     "page": "169-170"
    },
    {
@@ -12117,8 +12117,8 @@ const STOCK_PACKAGES = [
      "jetzt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Adesso ho lezione.",
+    "definition": "In questo momento.",
     "usage": "avv.",
     "page": "169-170"
    },
@@ -12129,8 +12129,8 @@ const STOCK_PACKAGES = [
      "ja"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sì, hai ragione!",
+    "definition": "Parola per dire che sei d’accordo.",
     "page": "169-170",
     "related": "≠ no"
    },
@@ -12141,8 +12141,8 @@ const STOCK_PACKAGES = [
      "sein"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Voglio essere felice.",
+    "definition": "Verbo per dire chi sei, come sei o dove sei.",
     "usage": "Abc",
     "page": "169-170",
     "related": "F être; L esse"
@@ -12154,8 +12154,8 @@ const STOCK_PACKAGES = [
      "Angenehm!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Piacere, sono Marco!",
+    "definition": "Si dice quando conosci una persona nuova.",
     "page": "169-170"
    },
    {
@@ -12166,7 +12166,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Unterscheide: Vor io wird anche apostrophiert: Sono di Torino anch’io.",
-    "definition": "",
+    "definition": "Parola che aggiunge un’altra persona o cosa.",
     "usage": "avv.",
     "page": "169-170"
    },
@@ -12177,8 +12177,8 @@ const STOCK_PACKAGES = [
      "Wie niedlich!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che carino quel cagnolino!",
+    "definition": "Esclamazione quando qualcosa è molto simpatico.",
     "page": "169-170"
    },
    {
@@ -12188,8 +12188,8 @@ const STOCK_PACKAGES = [
      "die Katze"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il gatto dorme sul divano.",
+    "definition": "Animale domestico che miagola.",
     "page": "169-170",
     "grammar": {
      "partOfSpeech": "noun",
@@ -12208,8 +12208,8 @@ const STOCK_PACKAGES = [
      "(er/sie/es) heißt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mio gatto si chiama Micio.",
+    "definition": "Così dici il nome di una persona o di un animale.",
     "page": "169-170"
    },
    {
@@ -12219,8 +12219,8 @@ const STOCK_PACKAGES = [
      "Wie heißt (er/sie)?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Come si chiama il tuo cane?",
+    "definition": "Domanda per sapere il nome di una terza persona.",
     "page": "169-170"
    },
    {
@@ -12231,7 +12231,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Non sono di Roma.",
-    "definition": "",
+    "definition": "Parola che rende negativa una frase.",
     "page": "169-170"
    },
    {
@@ -12242,7 +12242,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Come stai? – Sto bene.",
-    "definition": "",
+    "definition": "Dire come ti senti, in salute o di umore.",
     "usage": "Abc",
     "page": "169-170"
    },
@@ -12253,8 +12253,8 @@ const STOCK_PACKAGES = [
      "gut"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Parlo bene l’italiano.",
+    "definition": "In modo positivo, senza problemi.",
     "usage": "avv.",
     "page": "169-170",
     "related": "≠ male; F bien; L bene"
@@ -12266,8 +12266,8 @@ const STOCK_PACKAGES = [
      "schlecht"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Oggi sto male.",
+    "definition": "In modo negativo, non positivo.",
     "usage": "avv.",
     "page": "169-170",
     "related": "F mal; L male"
@@ -12279,8 +12279,8 @@ const STOCK_PACKAGES = [
      "nicht wahr?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sei di Roma, vero?",
+    "definition": "Si dice alla fine di una frase per avere conferma.",
     "page": "169-170"
    },
    {
@@ -12290,8 +12290,8 @@ const STOCK_PACKAGES = [
      "Das stimmt!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È vero, hai ragione!",
+    "definition": "Si dice quando qualcosa è giusto e corrisponde alla realtà.",
     "page": "169-170"
    },
    {
@@ -12302,7 +12302,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Arrivo alle otto.",
-    "definition": "",
+    "definition": "Raggiungere un luogo dopo un viaggio.",
     "page": "169-170",
     "related": "E to arrive; F arriver"
    },
@@ -12313,8 +12313,8 @@ const STOCK_PACKAGES = [
      "Wie geht’s (denn so)?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ciao Sara, come va?",
+    "definition": "Domanda amichevole per sapere come sta una persona.",
     "page": "169-170"
    },
    {
@@ -12324,8 +12324,8 @@ const STOCK_PACKAGES = [
      "Hallo Schöne!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ciao, bella! Come stai?",
+    "definition": "Saluto familiare a una ragazza o a una donna che conosci bene.",
     "usage": "(auch scherzhaft)",
     "page": "169-170"
    },
@@ -12336,8 +12336,8 @@ const STOCK_PACKAGES = [
      "alles"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho mangiato tutto.",
+    "definition": "La totalità, senza niente di escluso.",
     "page": "169-170",
     "related": "F tout/-e"
    },
@@ -12348,8 +12348,8 @@ const STOCK_PACKAGES = [
      "Alles in Ordnung?/!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Tutto bene? – Sì, grazie!",
+    "definition": "Domanda o risposta per dire che va bene ogni cosa.",
     "page": "169-170"
    },
    {
@@ -12359,8 +12359,8 @@ const STOCK_PACKAGES = [
      "Wie geht es dir?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ciao Luca, come stai?",
+    "definition": "Domanda per sapere se una persona sta bene.",
     "page": "169-170"
    },
    {
@@ -12370,8 +12370,8 @@ const STOCK_PACKAGES = [
      "danke"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Grazie mille per l’aiuto!",
+    "definition": "Parola di cortesia che si dice dopo aver ricevuto un favore.",
     "page": "169-170"
    },
    {
@@ -12381,8 +12381,8 @@ const STOCK_PACKAGES = [
      "aber"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi piace, ma è caro.",
+    "definition": "Parola che introduce un’idea contraria.",
     "page": "169-170",
     "related": "F mais"
    },
@@ -12393,8 +12393,8 @@ const STOCK_PACKAGES = [
      "Wo?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Dove abiti?",
+    "definition": "Domanda per sapere il luogo.",
     "usage": "Unterscheide: Dove? – Wo?; Dov’è? – Wo ist (er/sie)?; Di dov’è? – Woher ist (er/sie)?",
     "page": "169-170"
    },
@@ -12405,8 +12405,8 @@ const STOCK_PACKAGES = [
      "Hör mal!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Senti, hai un minuto?",
+    "definition": "Per attirare l’attenzione di una persona che conosci.",
     "page": "169-170"
    },
    {
@@ -12416,8 +12416,8 @@ const STOCK_PACKAGES = [
      "die Schule"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La scuola comincia alle otto.",
+    "definition": "Posto dove gli studenti imparano con gli insegnanti.",
     "page": "169-170",
     "related": "E school",
     "grammar": {
@@ -12438,8 +12438,8 @@ const STOCK_PACKAGES = [
      "Ist mir egal!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che ore sono? – Boh!",
+    "definition": "Risposta informale: non so, non mi importa.",
     "page": "169-170"
    },
    {
@@ -12449,8 +12449,8 @@ const STOCK_PACKAGES = [
      "das Gymnasium"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Frequento il liceo classico.",
+    "definition": "Scuola superiore italiana che prepara all’università.",
     "page": "169-170",
     "related": "F le lycée",
     "grammar": {
@@ -12470,8 +12470,8 @@ const STOCK_PACKAGES = [
      "nein"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "No, grazie.",
+    "definition": "Parola per dire che non sei d’accordo o non vuoi.",
     "page": "169-170",
     "related": "≠ sì"
    },
@@ -12482,8 +12482,8 @@ const STOCK_PACKAGES = [
      "Wie schön!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che bello, andiamo al mare!",
+    "definition": "Esclamazione quando qualcosa ti piace molto.",
     "page": "169-170"
    },
    {
@@ -12493,8 +12493,8 @@ const STOCK_PACKAGES = [
      "vielleicht"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Forse domani piove.",
+    "definition": "Parola che esprime una possibilità, non una certezza.",
     "usage": "avv.",
     "page": "169-170",
     "related": "L fortasse"
@@ -12506,8 +12506,8 @@ const STOCK_PACKAGES = [
      "die Klasse"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La mia classe ha venti alunni.",
+    "definition": "Gruppo di studenti che studiano insieme; anche l’aula.",
     "page": "169-170",
     "related": "E class; F la classe",
     "grammar": {
@@ -12528,8 +12528,8 @@ const STOCK_PACKAGES = [
      "gemeinsam"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Andiamo a scuola insieme.",
+    "definition": "Con altre persone, non da soli.",
     "usage": "avv.",
     "page": "169-170"
    }
@@ -12559,7 +12559,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -12598,8 +12598,8 @@ const STOCK_PACKAGES = [
      "der Spaziergang"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Facciamo un giro in centro.",
+    "definition": "Percorso breve per vedere un posto o per passeggiare.",
     "page": "170-171",
     "grammar": {
      "partOfSpeech": "noun",
@@ -12618,8 +12618,8 @@ const STOCK_PACKAGES = [
      "das Wohnviertel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mio quartiere è tranquillo.",
+    "definition": "Parte di una città dove abitano molte persone.",
     "page": "170-171",
     "related": "F le quartier",
     "grammar": {
@@ -12639,8 +12639,8 @@ const STOCK_PACKAGES = [
      "heute"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Oggi è sabato.",
+    "definition": "Il giorno in cui siamo adesso.",
     "usage": "avv.",
     "page": "170-171"
    },
@@ -12652,7 +12652,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Prendo un caffè.",
-    "definition": "",
+    "definition": "Mettere in mano o usare un mezzo di trasporto.",
     "page": "170-171",
     "related": "F prendre"
    },
@@ -12663,8 +12663,8 @@ const STOCK_PACKAGES = [
      "das Fahrrad"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vado a scuola in bicicletta.",
+    "definition": "Mezzo con due ruote e pedali.",
     "page": "170-171",
     "related": "E bicycle; F la bicyclette",
     "grammar": {
@@ -12685,7 +12685,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Visitiamo il museo.",
-    "definition": "",
+    "definition": "Andare a vedere un luogo con curiosità.",
     "usage": "Unterscheide: visitare heißt nur „etw. besichtigen“, nicht „jdn besuchen“",
     "page": "170-171",
     "related": "E to visit; F visiter"
@@ -12699,7 +12699,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A Roma c’è il Colosseo.",
-    "definition": "",
+    "definition": "Si usa per dire che una cosa o una persona è presente in un luogo.",
     "usage": "Unterscheide: c’è – es gibt, da ist; che? – was?",
     "page": "170-171"
    },
@@ -12712,7 +12712,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Nel parco ci sono due bambini.",
-    "definition": "",
+    "definition": "Si usa per dire che più cose o persone sono presenti in un luogo.",
     "page": "170-171"
    },
    {
@@ -12723,8 +12723,8 @@ const STOCK_PACKAGES = [
      "der Laden"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il negozio apre alle nove.",
+    "definition": "Luogo dove si comprano le cose.",
     "usage": "pl. i negozi",
     "page": "170-171",
     "grammar": {
@@ -12744,8 +12744,8 @@ const STOCK_PACKAGES = [
      "der Papa"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il papà prepara la cena.",
+    "definition": "Il padre, detto in modo affettuoso.",
     "usage": "Unterscheide: il papà – der Papa; il papa – der Papst",
     "page": "170-171",
     "grammar": {
@@ -12765,8 +12765,8 @@ const STOCK_PACKAGES = [
      "fantastisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che film fantastico!",
+    "definition": "Bellissimo, meraviglioso.",
     "usage": "pl. fantastici/fantastiche",
     "page": "170-171"
    },
@@ -12778,7 +12778,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il negozio vende scarpe.",
-    "definition": "",
+    "definition": "Dare una cosa in cambio di soldi.",
     "page": "170-171",
     "related": "F vendre; L vendere"
    },
@@ -12789,8 +12789,8 @@ const STOCK_PACKAGES = [
      "der Sport"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mio sport preferito è il tennis.",
+    "definition": "Attività fisica come il calcio o il nuoto.",
     "usage": "pl. gli sport",
     "page": "170-171",
     "grammar": {
@@ -12811,8 +12811,8 @@ const STOCK_PACKAGES = [
      "der Fußballspieler"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il calciatore segna un gol.",
+    "definition": "Persona che gioca a calcio.",
     "page": "170-171",
     "related": "▸ il calcio",
     "grammar": {
@@ -12834,7 +12834,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Guardo un film.",
-    "definition": "",
+    "definition": "Usare gli occhi per vedere con attenzione.",
     "page": "170-171"
    },
    {
@@ -12844,8 +12844,8 @@ const STOCK_PACKAGES = [
      "oft"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vado spesso al parco.",
+    "definition": "Molte volte, di frequente.",
     "usage": "avv.",
     "page": "170-171"
    },
@@ -12857,8 +12857,8 @@ const STOCK_PACKAGES = [
      "das Spiel (Ballsport)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La partita comincia alle cinque.",
+    "definition": "Gara tra due squadre o due giocatori.",
     "page": "170-171",
     "grammar": {
      "partOfSpeech": "noun",
@@ -12878,8 +12878,8 @@ const STOCK_PACKAGES = [
      "dann"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Dopo la scuola faccio i compiti.",
+    "definition": "In un momento successivo.",
     "usage": "avv.",
     "page": "170-171"
    },
@@ -12890,8 +12890,8 @@ const STOCK_PACKAGES = [
      "durch etw. durchfahren/-gehen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Per andare in centro passo per il parco.",
+    "definition": "Attraversare un luogo mentre vai in un altro.",
     "page": "170-171",
     "related": "F passer (par)"
    },
@@ -12903,8 +12903,8 @@ const STOCK_PACKAGES = [
      "das Spielfeld (Ballsport)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "I ragazzi giocano nel campo.",
+    "definition": "Terreno dove si gioca una partita o dove crescono le piante.",
     "page": "170-171",
     "related": "F le champ; L campus",
     "grammar": {
@@ -12924,8 +12924,8 @@ const STOCK_PACKAGES = [
      "der Sportplatz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il campo sportivo è vicino alla scuola.",
+    "definition": "Area attrezzata per fare sport.",
     "page": "170-171",
     "related": "▸ lo sport",
     "grammar": {
@@ -12945,8 +12945,8 @@ const STOCK_PACKAGES = [
      "die Skaterbahn"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La pista di skateboard è sempre piena.",
+    "definition": "Area speciale dove si va sullo skateboard.",
     "page": "170-171",
     "grammar": {
      "partOfSpeech": "noun",
@@ -12965,8 +12965,8 @@ const STOCK_PACKAGES = [
      "der Fußballplatz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il campo di calcio è di erba.",
+    "definition": "Terreno con le porte dove si gioca a calcio.",
     "page": "170-171",
     "grammar": {
      "partOfSpeech": "noun",
@@ -12985,8 +12985,8 @@ const STOCK_PACKAGES = [
      "der Basketballplatz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il campo di basket è all’aperto.",
+    "definition": "Area con due canestri dove si gioca a pallacanestro.",
     "page": "170-171",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13005,8 +13005,8 @@ const STOCK_PACKAGES = [
      "ideal"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È il posto ideale per un picnic.",
+    "definition": "Perfetto per uno scopo.",
     "page": "170-171"
    },
    {
@@ -13018,7 +13018,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il parco è ideale per giocare.",
-    "definition": "",
+    "definition": "Costruzione che indica lo scopo di un’azione.",
     "page": "170-171"
    },
    {
@@ -13030,8 +13030,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "pattinare"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Mi piace pattinare nel parco.",
+    "definition": "Muoversi su ruote o su ghiaccio con speciali scarpe.",
     "page": "170-171"
    },
    {
@@ -13043,7 +13043,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Vedo un bel film.",
-    "definition": "",
+    "definition": "Percepire con gli occhi.",
     "page": "170-171",
     "related": "F voir; L videre"
    },
@@ -13056,8 +13056,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "i pattini"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Metto i pattini e vado al parco.",
+    "definition": "Scarpe con ruote in fila, per muoversi veloci.",
     "usage": "pl.",
     "page": "170-171",
     "related": "▸ pattinare inline",
@@ -13080,8 +13080,8 @@ const STOCK_PACKAGES = [
      "gewiss"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho già fatto i compiti.",
+    "definition": "Parola per dire che qualcosa è successo prima.",
     "usage": "avv.",
     "page": "170-171"
    },
@@ -13094,7 +13094,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Torno a casa alle tre.",
-    "definition": "",
+    "definition": "Andare di nuovo nel posto da cui sei partito.",
     "page": "170-171"
    },
    {
@@ -13105,8 +13105,8 @@ const STOCK_PACKAGES = [
      "danach"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Prima faccio i compiti, poi gioco.",
+    "definition": "Dopo, in seguito.",
     "usage": "avv.",
     "page": "170-171",
     "related": "= dopo"
@@ -13120,8 +13120,8 @@ const STOCK_PACKAGES = [
      "nach (Richtung)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vivo in Germania.",
+    "definition": "Piccola parola che indica luogo o tempo.",
     "usage": "Unterscheide: 1. bei Ländern/Regionen: Abito in Italia (Wo?); Torno in Italia (Wohin?) – 2. bei Städten: Abito a Torino (Wo?); Torno a Torino (Wohin?) – 3. auch: Sono a scuola (Wo?); Torno a scuola (Wohin?)",
     "page": "170-171"
    },
@@ -13132,8 +13132,8 @@ const STOCK_PACKAGES = [
      "die Attraktion"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La torre è un’attrazione famosa.",
+    "definition": "Luogo o cosa che interessa molto i turisti.",
     "usage": "f.",
     "page": "170-171"
    },
@@ -13144,8 +13144,8 @@ const STOCK_PACKAGES = [
      "das Gebäude"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’edificio ha cinque piani.",
+    "definition": "Costruzione grande, come una casa o una scuola.",
     "usage": "pl. gli edifici",
     "page": "170-171",
     "related": "F l’édifice; L aedificium"
@@ -13157,8 +13157,8 @@ const STOCK_PACKAGES = [
      "der Palast"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il palazzo è in centro.",
+    "definition": "Edificio grande e importante, antico o moderno.",
     "page": "170-171",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13177,8 +13177,8 @@ const STOCK_PACKAGES = [
      "Warum nicht?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vieni con noi? – Come no?",
+    "definition": "Risposta che significa “certo!”.",
     "page": "170-171"
    },
    {
@@ -13189,8 +13189,8 @@ const STOCK_PACKAGES = [
      "im Hintergrund"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "In fondo alla strada c’è un parco.",
+    "definition": "Nella parte più lontana o più bassa di qualcosa.",
     "usage": "avv.",
     "page": "170-171"
    },
@@ -13202,7 +13202,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Sono da Marco.",
-    "definition": "",
+    "definition": "Piccola parola per “a casa di” o per un punto di partenza.",
     "page": "170-171"
    },
    {
@@ -13213,7 +13213,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Dai, andiamo!",
-    "definition": "",
+    "definition": "Esclamazione per incoraggiare o per insistere.",
     "usage": "richtet sich an eine Person",
     "page": "170-171"
    },
@@ -13224,8 +13224,8 @@ const STOCK_PACKAGES = [
      "Hallo alle zusammen!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ciao a tutti! Come state?",
+    "definition": "Saluto rivolto a un gruppo di persone.",
     "page": "170-171"
    }
   ]
@@ -13254,7 +13254,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -13292,8 +13292,8 @@ const STOCK_PACKAGES = [
      "willkommen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Benvenuta a Roma!",
+    "definition": "Si dice a chi arriva per far sentire accolta una persona.",
     "page": "168-169",
     "related": "F bienvenue"
    },
@@ -13306,8 +13306,8 @@ const STOCK_PACKAGES = [
      "Da sind …!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ecco il mio amico Luca!",
+    "definition": "Si dice per mostrare una persona o una cosa.",
     "page": "168-169",
     "related": "L ecce"
    },
@@ -13319,8 +13319,8 @@ const STOCK_PACKAGES = [
      "die Straße"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "In piazza ci sono molte persone.",
+    "definition": "Spazio aperto al centro di una città, circondato da edifici.",
     "page": "168-169",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13340,7 +13340,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il centro è bello.",
-    "definition": "",
+    "definition": "La zona più importante e centrale di una città.",
     "page": "168-169",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13360,7 +13360,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Piccola parola che indica provenienza o appartenenza.",
     "page": "168-169",
     "related": "F de"
    },
@@ -13371,8 +13371,8 @@ const STOCK_PACKAGES = [
      "der Fluss"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il fiume attraversa la città.",
+    "definition": "Acqua che scorre dalla montagna al mare, come il Tevere.",
     "page": "168-169",
     "related": "L flumen",
     "grammar": {
@@ -13393,7 +13393,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Vado con Anna.",
-    "definition": "",
+    "definition": "Piccola parola per dire “insieme a”.",
     "page": "168-169",
     "related": "L cum"
    },
@@ -13404,8 +13404,8 @@ const STOCK_PACKAGES = [
      "die Brücke"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Attraversiamo il ponte a piedi.",
+    "definition": "Costruzione che permette di attraversare un fiume.",
     "page": "168-169",
     "related": "F le pont; L pons",
     "grammar": {
@@ -13425,8 +13425,8 @@ const STOCK_PACKAGES = [
      "die Industrie"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "A Torino c’è un’industria di automobili.",
+    "definition": "Attività dove si producono molte merci con le macchine.",
     "page": "168-169",
     "related": "E industry"
    },
@@ -13437,8 +13437,8 @@ const STOCK_PACKAGES = [
      "(er/sie/es) ist"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Roma è una città grande.",
+    "definition": "Forma del verbo “essere” per una persona o una cosa.",
     "usage": "Unterscheide: è – er, sie, es ist; e – und",
     "page": "168-169"
    },
@@ -13449,8 +13449,8 @@ const STOCK_PACKAGES = [
      "wichtig"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È una persona importante per me.",
+    "definition": "Che ha molto valore o che conta molto.",
     "page": "168-169",
     "related": "E important"
    },
@@ -13461,8 +13461,8 @@ const STOCK_PACKAGES = [
      "für"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questo regalo è per te.",
+    "definition": "Piccola parola che indica scopo o destinatario.",
     "page": "168-169",
     "related": "F pour; L per"
    },
@@ -13473,8 +13473,8 @@ const STOCK_PACKAGES = [
      "die Stadt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Milano è una grande città.",
+    "definition": "Luogo grande dove vivono molte persone, con strade e negozi.",
     "usage": "pl. le città",
     "page": "168-169",
     "related": "E city; L civitas",
@@ -13495,8 +13495,8 @@ const STOCK_PACKAGES = [
      "der Park"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Giochiamo nel parco.",
+    "definition": "Spazio verde con alberi, dove si cammina o si gioca.",
     "page": "168-169",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13515,8 +13515,8 @@ const STOCK_PACKAGES = [
      "Sehr schön!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mare è bellissimo!",
+    "definition": "Esclamazione quando una cosa piace molto.",
     "page": "168-169"
    },
    {
@@ -13526,8 +13526,8 @@ const STOCK_PACKAGES = [
      "das Symbol"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La Torre Eiffel è il simbolo di Parigi.",
+    "definition": "Cosa che rappresenta un’idea, un luogo o un gruppo.",
     "page": "168-169",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13546,8 +13546,8 @@ const STOCK_PACKAGES = [
      "das Stadion"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Andiamo allo stadio con papà.",
+    "definition": "Grande struttura dove si guardano le partite.",
     "page": "168-169",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13567,8 +13567,8 @@ const STOCK_PACKAGES = [
      "Nur Mut!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Forza, ragazzi, ce la fate!",
+    "definition": "Esclamazione per incoraggiare qualcuno.",
     "page": "168-169"
    },
    {
@@ -13578,8 +13578,8 @@ const STOCK_PACKAGES = [
      "der/die Freund/-in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Anna è la mia migliore amica.",
+    "definition": "Persona che conosci bene e con cui stai volentieri.",
     "page": "168-169",
     "related": "F l’ami/e"
    },
@@ -13591,7 +13591,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Abito in Italia.",
-    "definition": "",
+    "definition": "Piccola parola che indica luogo o tempo.",
     "page": "168-169"
    },
    {
@@ -13601,8 +13601,8 @@ const STOCK_PACKAGES = [
      "die Straße"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Abito in via Garibaldi.",
+    "definition": "Strada di una città, con case e negozi.",
     "page": "168-169",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13622,7 +13622,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Passeggiamo nel parco.",
-    "definition": "",
+    "definition": "Camminare con calma, per piacere.",
     "page": "168-169"
    },
    {
@@ -13632,8 +13632,8 @@ const STOCK_PACKAGES = [
      "hier"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Qui c’è un bar.",
+    "definition": "Nel posto dove sono io.",
     "usage": "avv.",
     "page": "168-169"
    }
@@ -13663,7 +13663,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -13702,8 +13702,8 @@ const STOCK_PACKAGES = [
      "die Mutter"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La mamma cucina molto bene.",
+    "definition": "La madre, detta in modo affettuoso.",
     "page": "173-174",
     "related": "≠ papà",
     "grammar": {
@@ -13723,8 +13723,8 @@ const STOCK_PACKAGES = [
      "das Chaos"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "In classe c’è il caos!",
+    "definition": "Grande confusione, senza ordine.",
     "page": "173-174",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13744,8 +13744,8 @@ const STOCK_PACKAGES = [
      "die Dame"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La signora Rossi è la mia vicina.",
+    "definition": "Donna adulta, a cui si dà del Lei.",
     "page": "173-174",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13764,8 +13764,8 @@ const STOCK_PACKAGES = [
      "der Herr"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il signore compra il giornale.",
+    "definition": "Uomo adulto, a cui si dà del Lei.",
     "page": "173-174",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13787,7 +13787,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Torno da Lecce.",
-    "definition": "",
+    "definition": "Piccola parola per “a casa di” o per un punto di partenza.",
     "page": "173-174"
    },
    {
@@ -13797,8 +13797,8 @@ const STOCK_PACKAGES = [
      "der Markt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Al mercato compro la frutta.",
+    "definition": "Luogo con tante bancarelle dove si vendono frutta, verdura e altro.",
     "page": "173-174",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13817,8 +13817,8 @@ const STOCK_PACKAGES = [
      "die Tasche (zum Tragen)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Metto il libro nella borsa.",
+    "definition": "Sacca per portare le proprie cose.",
     "page": "173-174",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13838,7 +13838,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Torno dal mercato con la spesa.",
-    "definition": "",
+    "definition": "Acquisto di cibo e prodotti per la casa.",
     "page": "173-174",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13857,8 +13857,8 @@ const STOCK_PACKAGES = [
      "die Einkaufstasche"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Porto la borsa della spesa al supermercato.",
+    "definition": "Sacca per portare a casa il cibo comprato.",
     "page": "173-174",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13880,7 +13880,7 @@ const STOCK_PACKAGES = [
      "entrare"
     ],
     "example": "Entro in casa.",
-    "definition": "",
+    "definition": "Andare dentro un luogo.",
     "page": "173-174",
     "related": "E to enter; F entrer"
    },
@@ -13892,7 +13892,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Di chi è questo cellulare? – È mio.",
-    "definition": "",
+    "definition": "Indica una cosa o una persona vicina.",
     "page": "173-174"
    },
    {
@@ -13902,8 +13902,8 @@ const STOCK_PACKAGES = [
      "Warum?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Perché sei contento? – Perché è sabato!",
+    "definition": "Domanda per conoscere la causa o lo scopo.",
     "usage": "Die Fragepronomen: Chi? – Wer? Wen?; Che (cosa)? – Was? Welche(s/r)?; Come? – Wie?; Quando? – Wann?; Quanto? – Wie viel(e)?; Dove? – Wo?; Di dove? – Woher?; Perché? – Warum?",
     "page": "173-174",
     "related": "F pourquoi"
@@ -13915,8 +13915,8 @@ const STOCK_PACKAGES = [
      "der Rucksack"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Metto i quaderni nello zaino.",
+    "definition": "Borsa che si porta sulle spalle.",
     "page": "173-174",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13936,8 +13936,8 @@ const STOCK_PACKAGES = [
      "der Korridor"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il corridoio è lungo.",
+    "definition": "Passaggio lungo dentro un edificio, tra le stanze.",
     "usage": "pl. i corridoi",
     "page": "173-174",
     "related": "E corridor",
@@ -13958,8 +13958,8 @@ const STOCK_PACKAGES = [
      "die Sache"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che cosa è questa cosa?",
+    "definition": "Oggetto o fatto, quando non si dice il nome preciso.",
     "page": "173-174",
     "related": "F la chose",
     "grammar": {
@@ -13980,8 +13980,8 @@ const STOCK_PACKAGES = [
      "die Erde"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La palla cade a terra.",
+    "definition": "Superficie su cui si cammina.",
     "page": "173-174",
     "related": "F la terre; L terra",
     "grammar": {
@@ -14002,8 +14002,8 @@ const STOCK_PACKAGES = [
      "auf der Erde"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il libro è per terra.",
+    "definition": "Sul pavimento o sul suolo.",
     "page": "173-174"
    },
    {
@@ -14014,7 +14014,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Dov’è lo zaino? Che disordine!",
-    "definition": "",
+    "definition": "Situazione in cui le cose non sono al loro posto.",
     "page": "173-174",
     "related": "= caos; E disorder",
     "grammar": {
@@ -14034,8 +14034,8 @@ const STOCK_PACKAGES = [
      "die Küche"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mamma è in cucina.",
+    "definition": "Stanza dove si prepara il cibo.",
     "page": "173-174",
     "related": "F la cuisine",
     "grammar": {
@@ -14057,7 +14057,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Filippo mette lo zaino in corridoio.",
-    "definition": "",
+    "definition": "Collocare una cosa in un posto.",
     "page": "173-174",
     "related": "F mettre"
    },
@@ -14069,7 +14069,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La borsa è sul tavolo.",
-    "definition": "",
+    "definition": "Mobile con quattro gambe dove si mangia o si lavora.",
     "page": "173-174",
     "related": "E table; F la table",
     "grammar": {
@@ -14089,8 +14089,8 @@ const STOCK_PACKAGES = [
      "noch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Dormo ancora.",
+    "definition": "Parola che indica che qualcosa continua o si ripete.",
     "usage": "avv.",
     "page": "173-174",
     "related": "F encore"
@@ -14103,8 +14103,8 @@ const STOCK_PACKAGES = [
      "die Brotzeit"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Per merenda mangio un panino.",
+    "definition": "Piccolo pasto del pomeriggio.",
     "page": "173-174",
     "grammar": {
      "partOfSpeech": "noun",
@@ -14123,8 +14123,8 @@ const STOCK_PACKAGES = [
      "der Fön"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Uso il fon dopo la doccia.",
+    "definition": "Apparecchio che asciuga i capelli con aria calda.",
     "page": "173-174",
     "grammar": {
      "partOfSpeech": "noun",
@@ -14143,8 +14143,8 @@ const STOCK_PACKAGES = [
      "auf"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il libro è sul tavolo.",
+    "definition": "Piccola parola che indica posizione sopra qualcosa.",
     "page": "173-174",
     "related": "F sur"
    },
@@ -14155,8 +14155,8 @@ const STOCK_PACKAGES = [
      "der Stuhl"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Siediti sulla sedia.",
+    "definition": "Mobile su cui ci si siede.",
     "page": "173-174",
     "grammar": {
      "partOfSpeech": "noun",
@@ -14175,8 +14175,8 @@ const STOCK_PACKAGES = [
      "möglich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È possibile venire domani?",
+    "definition": "Che può succedere, che si può fare.",
     "page": "173-174",
     "related": "E possible; F possible"
    },
@@ -14187,8 +14187,8 @@ const STOCK_PACKAGES = [
      "das Handtuch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’asciugamano è nel bagno.",
+    "definition": "Telo per asciugarsi dopo il bagno.",
     "page": "173-174"
    },
    {
@@ -14200,8 +14200,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "la vasca"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Faccio il bagno nella vasca.",
+    "definition": "Grande contenitore dove ci si lava nell’acqua.",
     "usage": "pl. le vasche",
     "page": "173-174",
     "grammar": {
@@ -14222,7 +14222,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La vasca è in bagno.",
-    "definition": "",
+    "definition": "Stanza dove ci si lava; anche il tuffarsi in acqua.",
     "page": "173-174",
     "related": "F le bain",
     "grammar": {
@@ -14245,7 +14245,7 @@ const STOCK_PACKAGES = [
      "cercare"
     ],
     "example": "Cerco il mio cellulare. Dov’è?",
-    "definition": "",
+    "definition": "Fare attenzione per trovare qualcosa o qualcuno.",
     "usage": "Abc",
     "page": "173-174",
     "related": "F chercher"
@@ -14257,8 +14257,8 @@ const STOCK_PACKAGES = [
      "unglaublich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È incredibile: ho vinto!",
+    "definition": "Che sembra impossibile da credere.",
     "page": "173-174",
     "related": "E incredible; F incroyable"
    },
@@ -14269,8 +14269,8 @@ const STOCK_PACKAGES = [
      "das Wohnzimmer"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Guardiamo la TV in salotto.",
+    "definition": "Stanza della casa dove si riceve e ci si rilassa.",
     "page": "173-174",
     "grammar": {
      "partOfSpeech": "noun",
@@ -14289,8 +14289,8 @@ const STOCK_PACKAGES = [
      "das Zeug"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che roba è questa?",
+    "definition": "Insieme di cose, vestiti o oggetti, senza nome preciso.",
     "page": "173-174",
     "grammar": {
      "partOfSpeech": "noun",
@@ -14309,8 +14309,8 @@ const STOCK_PACKAGES = [
      "die Fußballtasche"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Metto le scarpe nella borsa da calcio.",
+    "definition": "Sacca dove si mettono scarpe e vestiti per giocare a calcio.",
     "page": "173-174",
     "grammar": {
      "partOfSpeech": "noun",
@@ -14330,7 +14330,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il gatto è accanto al divano.",
-    "definition": "",
+    "definition": "Vicino, al fianco di qualcosa.",
     "page": "173-174"
    },
    {
@@ -14341,7 +14341,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il televisore è in salotto.",
-    "definition": "",
+    "definition": "Apparecchio con uno schermo per guardare i programmi.",
     "page": "173-174",
     "related": "E television",
     "grammar": {
@@ -14362,7 +14362,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il pallone è nella borsa da calcio.",
-    "definition": "",
+    "definition": "Grande palla per giocare a calcio.",
     "page": "173-174",
     "related": "F le ballon",
     "grammar": {
@@ -14383,7 +14383,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il pallone è sotto il tavolo.",
-    "definition": "",
+    "definition": "Più in basso rispetto a qualcosa.",
     "page": "173-174",
     "related": "≠ su"
    },
@@ -14394,8 +14394,8 @@ const STOCK_PACKAGES = [
      "die Kleidung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "I vestiti sono nell’armadio.",
+    "definition": "Cose che si indossano: pantaloni, magliette, giacche.",
     "usage": "pl.",
     "page": "173-174",
     "related": "L vestis",
@@ -14416,8 +14416,8 @@ const STOCK_PACKAGES = [
      "der Schrank"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il cappotto è nell’armadio.",
+    "definition": "Grande mobile dove si tengono i vestiti.",
     "usage": "pl. gli armadi",
     "page": "173-174",
     "related": "F l’armoire"
@@ -14429,8 +14429,8 @@ const STOCK_PACKAGES = [
      "die Zeitschrift"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Leggo una rivista di musica.",
+    "definition": "Pubblicazione con articoli e immagini che esce ogni settimana o ogni mese.",
     "page": "173-174",
     "related": "F la revue",
     "grammar": {
@@ -14451,7 +14451,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Le riviste sono sullo scaffale.",
-    "definition": "",
+    "definition": "Ripiano dove si mettono libri o oggetti.",
     "page": "173-174",
     "grammar": {
      "partOfSpeech": "noun",
@@ -14470,8 +14470,8 @@ const STOCK_PACKAGES = [
      "die Kommode"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La maglietta è nel comò.",
+    "definition": "Mobile basso con cassetti per la biancheria.",
     "usage": "pl. i comò",
     "page": "173-174",
     "related": "F la commode",
@@ -14492,8 +14492,8 @@ const STOCK_PACKAGES = [
      "der Lippenstift"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il rossetto è rosso.",
+    "definition": "Cosmetico colorato per le labbra.",
     "page": "173-174",
     "grammar": {
      "partOfSpeech": "noun",
@@ -14512,8 +14512,8 @@ const STOCK_PACKAGES = [
      "so"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Fai così!",
+    "definition": "In questo modo.",
     "usage": "avv.",
     "page": "173-174"
    },
@@ -14524,8 +14524,8 @@ const STOCK_PACKAGES = [
      "So läuft das nicht!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Hai sempre ritardo: così non va!",
+    "definition": "Si dice quando una situazione non è accettabile.",
     "page": "173-174"
    },
    {
@@ -14536,7 +14536,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Cerchi qualcosa? – Sì, lo zaino.",
-    "definition": "",
+    "definition": "Una cosa non precisata.",
     "page": "173-174"
    }
   ]
@@ -14565,7 +14565,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -14604,7 +14604,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Questa è la mia camera!",
-    "definition": "",
+    "definition": "Stanza dove si dorme.",
     "page": "175-176",
     "grammar": {
      "partOfSpeech": "noun",
@@ -14623,8 +14623,8 @@ const STOCK_PACKAGES = [
      "das Bett"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il letto è comodo.",
+    "definition": "Mobile dove si dorme.",
     "page": "175-176",
     "related": "F le lit",
     "grammar": {
@@ -14644,8 +14644,8 @@ const STOCK_PACKAGES = [
      "der Schreibtisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio i compiti sulla scrivania.",
+    "definition": "Tavolo dove si studia o si lavora.",
     "page": "175-176",
     "grammar": {
      "partOfSpeech": "noun",
@@ -14669,7 +14669,7 @@ const STOCK_PACKAGES = [
      "andare"
     ],
     "example": "Adesso vado a casa e poi allo stadio.",
-    "definition": "",
+    "definition": "Spostarsi da un posto a un altro.",
     "usage": "Abc. Das Verb andare entspricht in Bedeutung und Verwendung weitgehend dem englischen to go.",
     "page": "175-176"
    },
@@ -14681,7 +14681,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Nella camera c’è un poster di una cantante.",
-    "definition": "",
+    "definition": "Grande immagine da attaccare alla parete.",
     "usage": "pl. i poster",
     "page": "175-176",
     "grammar": {
@@ -14703,7 +14703,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il poster è grande.",
-    "definition": "",
+    "definition": "Di dimensioni superiori alla media.",
     "page": "175-176",
     "related": "E grand; F grand(e)"
    },
@@ -14714,8 +14714,8 @@ const STOCK_PACKAGES = [
      "klein"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho un gatto piccolo.",
+    "definition": "Di dimensioni inferiori alla media.",
     "page": "175-176",
     "related": "≠ grande"
    },
@@ -14726,8 +14726,8 @@ const STOCK_PACKAGES = [
      "sogar"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ha addirittura quattro cani!",
+    "definition": "Per esprimere stupore: perfino.",
     "usage": "avv.",
     "page": "175-176"
    },
@@ -14738,8 +14738,8 @@ const STOCK_PACKAGES = [
      "das Foto"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho una foto della mia famiglia.",
+    "definition": "Immagine ottenuta con l’apparecchio fotografico.",
     "usage": "pl. le foto",
     "page": "175-176",
     "grammar": {
@@ -14759,8 +14759,8 @@ const STOCK_PACKAGES = [
      "das Autogramm"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho l’autografo di un cantante.",
+    "definition": "Firma di una persona famosa.",
     "page": "175-176",
     "related": "F l’autographe"
    },
@@ -14772,7 +14772,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il concerto è a Lecce.",
-    "definition": "",
+    "definition": "Spettacolo in cui un artista suona musica dal vivo.",
     "page": "175-176",
     "related": "E concert",
     "grammar": {
@@ -14792,8 +14792,8 @@ const STOCK_PACKAGES = [
      "der Onkel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mio zio vive a Napoli.",
+    "definition": "Fratello del padre o della madre.",
     "usage": "f. la zia; pl. gli zii/le zie",
     "page": "175-176",
     "grammar": {
@@ -14814,8 +14814,8 @@ const STOCK_PACKAGES = [
      "der Aufseher"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il custode apre la scuola.",
+    "definition": "Persona che sorveglia un edificio.",
     "page": "175-176",
     "related": "L custos",
     "grammar": {
@@ -14835,8 +14835,8 @@ const STOCK_PACKAGES = [
      "während"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Durante la lezione ascolto.",
+    "definition": "Nel periodo in cui accade qualcosa.",
     "usage": "prep.",
     "page": "175-176",
     "related": "E during"
@@ -14848,8 +14848,8 @@ const STOCK_PACKAGES = [
      "immer"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi alzo sempre alle sette.",
+    "definition": "In ogni momento, senza eccezioni.",
     "usage": "avv.",
     "page": "175-176",
     "related": "L semper"
@@ -14863,7 +14863,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Sento la musica.",
-    "definition": "",
+    "definition": "Percepire un suono con le orecchie.",
     "page": "175-176",
     "related": "L sentire"
    },
@@ -14874,8 +14874,8 @@ const STOCK_PACKAGES = [
      "letzte(r, s)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questo è l’ultimo giorno di scuola.",
+    "definition": "Quello che viene alla fine.",
     "page": "175-176",
     "related": "L ultimus"
    },
@@ -14887,7 +14887,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Lui sente sempre le ultime novità.",
-    "definition": "",
+    "definition": "Cosa nuova, che prima non c’era.",
     "usage": "pl. le novità",
     "page": "175-176",
     "grammar": {
@@ -14907,8 +14907,8 @@ const STOCK_PACKAGES = [
      "der Sänger"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il cantante ha una bella voce.",
+    "definition": "Persona che canta.",
     "usage": "f. la cantante; pl. i cantanti/le cantanti",
     "page": "175-176",
     "related": "▸ la canzone",
@@ -14931,7 +14931,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Filippo va ai concerti gratis.",
-    "definition": "",
+    "definition": "Senza pagare.",
     "usage": "avv.",
     "page": "175-176"
    },
@@ -14942,8 +14942,8 @@ const STOCK_PACKAGES = [
      "vor (örtlich)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Aspetto davanti alla scuola.",
+    "definition": "Nella parte anteriore, di fronte.",
     "usage": "prep.",
     "page": "175-176",
     "related": "F devant"
@@ -14955,8 +14955,8 @@ const STOCK_PACKAGES = [
      "der Computer"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Uso il computer per i compiti.",
+    "definition": "Macchina elettronica per lavorare e giocare.",
     "usage": "pl. i computer",
     "page": "175-176",
     "grammar": {
@@ -14976,8 +14976,8 @@ const STOCK_PACKAGES = [
      "ganz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho mangiato tutto.",
+    "definition": "La totalità, senza niente di escluso.",
     "usage": "avv.",
     "page": "175-176"
    },
@@ -14988,8 +14988,8 @@ const STOCK_PACKAGES = [
      "neu"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho un telefono nuovo.",
+    "definition": "Appena comprato o fatto, non vecchio.",
     "page": "175-176",
     "related": "F nouveau, nouvelle; L novus"
    },
@@ -15001,7 +15001,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il computer è tutto nuovo.",
-    "definition": "",
+    "definition": "Tipo di un prodotto, come un telefono o un’auto.",
     "page": "175-176",
     "grammar": {
      "partOfSpeech": "noun",
@@ -15022,7 +15022,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Per me la musica è importante.",
-    "definition": "",
+    "definition": "Pronome che sostituisce “io” dopo una preposizione.",
     "page": "175-176"
    },
    {
@@ -15033,7 +15033,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il computer è molto importante.",
-    "definition": "",
+    "definition": "In grande quantità o intensità.",
     "usage": "avv.",
     "page": "175-176",
     "related": "L multum"
@@ -15045,8 +15045,8 @@ const STOCK_PACKAGES = [
      "nicht schlecht"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La pizza non è niente male!",
+    "definition": "Espressione per dire che qualcosa è abbastanza buono.",
     "usage": "avv.",
     "page": "175-176"
    },
@@ -15057,8 +15057,8 @@ const STOCK_PACKAGES = [
      "nützlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il dizionario è utile.",
+    "definition": "Che serve a qualcosa.",
     "page": "175-176",
     "related": "F utile; L utilis"
    },
@@ -15070,7 +15070,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Sul computer ho quasi tutto.",
-    "definition": "",
+    "definition": "Poco meno di; non del tutto.",
     "usage": "avv.",
     "page": "175-176"
    },
@@ -15082,7 +15082,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "I miei videogiochi sono sul computer.",
-    "definition": "",
+    "definition": "Gioco da fare con il computer o la console.",
     "usage": "pl. i videogiochi",
     "page": "175-176",
     "grammar": {
@@ -15103,7 +15103,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "I libri sono sullo scaffale.",
-    "definition": "",
+    "definition": "Insieme di pagine scritte, da leggere.",
     "page": "175-176",
     "related": "F le livre; L liber",
     "grammar": {
@@ -15124,8 +15124,8 @@ const STOCK_PACKAGES = [
      "hier: der Speicherplatz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho una buona memoria.",
+    "definition": "Capacità di ricordare; spazio dove un computer conserva i dati.",
     "page": "175-176",
     "related": "E memory; F la mémoire",
     "grammar": {
@@ -15146,7 +15146,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho tutto sul computer, ma la memoria è sempre troppo piccola.",
-    "definition": "",
+    "definition": "Più del necessario.",
     "usage": "avv.",
     "page": "175-176",
     "related": "F trop"
@@ -15159,7 +15159,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Alla parete c’è un poster.",
-    "definition": "",
+    "definition": "Muro di una stanza.",
     "page": "175-176",
     "grammar": {
      "partOfSpeech": "noun",
@@ -15179,7 +15179,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Nella foto c’è la spiaggia di Pescoluse.",
-    "definition": "",
+    "definition": "Riva del mare con la sabbia.",
     "page": "175-176",
     "grammar": {
      "partOfSpeech": "noun",
@@ -15198,8 +15198,8 @@ const STOCK_PACKAGES = [
      "sehr schön"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho una casa bellissima.",
+    "definition": "Molto bello.",
     "page": "175-176"
    },
    {
@@ -15209,8 +15209,8 @@ const STOCK_PACKAGES = [
      "alt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mio telefono è vecchio.",
+    "definition": "Che ha molti anni, non nuovo.",
     "usage": "pl. vecchi m.",
     "page": "175-176",
     "related": "≠ nuovo/-a; F vieux, vieille"
@@ -15223,8 +15223,8 @@ const STOCK_PACKAGES = [
      "der Urlaub"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "D’estate vado in vacanza al mare.",
+    "definition": "Periodo senza scuola o lavoro.",
     "page": "175-176",
     "related": "E vacation; F les vacances",
     "grammar": {
@@ -15245,7 +15245,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Dormo nel letto.",
-    "definition": "",
+    "definition": "Riposare con gli occhi chiusi.",
     "page": "175-176",
     "related": "F dormir; L dormire"
    },
@@ -15257,8 +15257,8 @@ const STOCK_PACKAGES = [
      "verfolgen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Seguo una serie TV.",
+    "definition": "Andare dietro a una persona o controllare un’attività.",
     "page": "175-176",
     "related": "L sequi"
    },
@@ -15270,7 +15270,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Greta non ha notizie degli amici.",
-    "definition": "",
+    "definition": "Informazione su un fatto recente.",
     "page": "175-176",
     "grammar": {
      "partOfSpeech": "noun",
@@ -15290,7 +15290,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho un’idea!",
-    "definition": "",
+    "definition": "Pensiero nuovo che viene in mente.",
     "usage": "pl. le idee",
     "page": "175-176"
    },
@@ -15303,7 +15303,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mi piace ascoltare musica.",
-    "definition": "",
+    "definition": "Fare attenzione ai suoni o alle parole.",
     "usage": "Das Verb ascoltare steht im Italienischen nur mit direktem Objekt ohne Präposition: ascoltare qualcosa/qualcuno – etw. anhören, jmd. zuhören. Vergleiche: vedere – to see; guardare – to look; sentire – to hear; ascoltare – to listen to. ascoltare musica = Musik anhören (bewusst und absichtlich); sentire musica = Musik hören (unabsichtlich akustisch wahrnehmen)",
     "page": "175-176"
    },
@@ -15318,7 +15318,7 @@ const STOCK_PACKAGES = [
      "fare"
     ],
     "example": "Non mi piace fare i compiti.",
-    "definition": "",
+    "definition": "Realizzare un’azione.",
     "usage": "Abc",
     "page": "175-176",
     "related": "F faire; L facere"
@@ -15331,8 +15331,8 @@ const STOCK_PACKAGES = [
      "besser gesagt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Arrivo alle tre, cioè fra un’ora.",
+    "definition": "Parola per spiegare meglio quello che si è detto.",
     "usage": "avv.",
     "page": "175-176"
    },
@@ -15343,8 +15343,8 @@ const STOCK_PACKAGES = [
      "online sein"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sono online dalle cinque.",
+    "definition": "Essere collegato a internet.",
     "usage": "Abc",
     "page": "175-176"
    },
@@ -15356,8 +15356,8 @@ const STOCK_PACKAGES = [
      "das Schicksal"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che fortuna!",
+    "definition": "Buona sorte, caso favorevole.",
     "page": "175-176",
     "related": "L fortuna",
     "grammar": {
@@ -15380,7 +15380,7 @@ const STOCK_PACKAGES = [
      "giocare a qs"
     ],
     "example": "Filippo gioca a calcio.",
-    "definition": "",
+    "definition": "Fare un gioco o praticare uno sport.",
     "usage": "Abc",
     "page": "175-176",
     "related": "F jouer à …"
@@ -15393,8 +15393,8 @@ const STOCK_PACKAGES = [
      "Einverstanden!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ci vediamo alle cinque? – Va bene!",
+    "definition": "Risposta per accettare una proposta.",
     "page": "175-176"
    }
   ]
@@ -15423,7 +15423,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -15461,8 +15461,8 @@ const STOCK_PACKAGES = [
      "mein"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questo è il mio zaino.",
+    "definition": "Aggettivo che indica che qualcosa appartiene a me.",
     "page": "172-173",
     "related": "F mon/ma"
    },
@@ -15473,8 +15473,8 @@ const STOCK_PACKAGES = [
      "die Welt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Viaggio per il mondo.",
+    "definition": "Il pianeta Terra con tutti i suoi paesi.",
     "page": "172-173",
     "related": "F le monde; L mundus",
     "grammar": {
@@ -15495,7 +15495,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il mio nome è Tina.",
-    "definition": "",
+    "definition": "Parola con cui si chiama una persona o una cosa.",
     "page": "172-173",
     "related": "L nomen",
     "grammar": {
@@ -15515,8 +15515,8 @@ const STOCK_PACKAGES = [
      "der Nachname"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mio cognome è Bianchi.",
+    "definition": "Il nome della famiglia, per esempio Rossi.",
     "page": "172-173",
     "related": "▸ il nome",
     "grammar": {
@@ -15536,8 +15536,8 @@ const STOCK_PACKAGES = [
      "das Alter"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’età di Marta è quattordici anni.",
+    "definition": "Numero di anni che una persona ha vissuto.",
     "page": "172-173",
     "related": "L aetas"
    },
@@ -15548,8 +15548,8 @@ const STOCK_PACKAGES = [
      "haben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Voglio avere un cane.",
+    "definition": "Verbo che indica possesso o età.",
     "usage": "Abc",
     "page": "172-173",
     "related": "F avoir"
@@ -15561,8 +15561,8 @@ const STOCK_PACKAGES = [
      "das Jahr"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’anno ha dodici mesi.",
+    "definition": "Periodo di dodici mesi.",
     "page": "172-173",
     "related": "F l’an; L annus"
    },
@@ -15573,8 +15573,8 @@ const STOCK_PACKAGES = [
      "Ich bin … Jahre alt."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho quattordici anni.",
+    "definition": "Frase per dire quanti anni hai.",
     "page": "172-173"
    },
    {
@@ -15584,8 +15584,8 @@ const STOCK_PACKAGES = [
      "die Adresse"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Qual è il tuo indirizzo?",
+    "definition": "Via e numero della casa dove abiti.",
     "page": "172-173"
    },
    {
@@ -15596,8 +15596,8 @@ const STOCK_PACKAGES = [
      "die Nummer"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il numero di casa è il 12.",
+    "definition": "Cifra che serve per contare o per identificare.",
     "page": "172-173",
     "related": "E number; F le numéro; L numerus",
     "grammar": {
@@ -15617,8 +15617,8 @@ const STOCK_PACKAGES = [
      "das Handy"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mio cellulare è nuovo.",
+    "definition": "Piccolo telefono che porti con te.",
     "page": "172-173",
     "related": "E cell phone",
     "grammar": {
@@ -15638,8 +15638,8 @@ const STOCK_PACKAGES = [
      "die Familie"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La mia famiglia è grande.",
+    "definition": "Genitori, figli e altri parenti che vivono insieme.",
     "page": "172-173",
     "related": "E family; F la famille; L familia",
     "grammar": {
@@ -15659,8 +15659,8 @@ const STOCK_PACKAGES = [
      "der Vater"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mio padre è medico.",
+    "definition": "L’uomo che ha un figlio.",
     "page": "172-173",
     "related": "L pater",
     "grammar": {
@@ -15680,8 +15680,8 @@ const STOCK_PACKAGES = [
      "die Mutter"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mia madre lavora in ospedale.",
+    "definition": "La donna che ha un figlio.",
     "page": "172-173",
     "related": "L mater",
     "grammar": {
@@ -15702,8 +15702,8 @@ const STOCK_PACKAGES = [
      "ich mag"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi piace la pizza.",
+    "definition": "Si dice per esprimere una cosa che trovi bella o buona.",
     "usage": "+ sg.",
     "page": "172-173",
     "related": "▸ piacere"
@@ -15716,8 +15716,8 @@ const STOCK_PACKAGES = [
      "ich mag"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi piacciono i film.",
+    "definition": "Si dice per esprimere che più cose ti piacciono.",
     "usage": "+ pl.",
     "page": "172-173"
    },
@@ -15728,8 +15728,8 @@ const STOCK_PACKAGES = [
      "das Schulfach"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La mia materia preferita è l’italiano.",
+    "definition": "Disciplina che si studia a scuola, come la matematica.",
     "page": "172-173",
     "grammar": {
      "partOfSpeech": "noun",
@@ -15748,8 +15748,8 @@ const STOCK_PACKAGES = [
      "wie"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Come stai?",
+    "definition": "Piccola parola per fare un confronto o per chiedere il modo.",
     "usage": "avv.",
     "page": "172-173"
    },
@@ -15760,8 +15760,8 @@ const STOCK_PACKAGES = [
      "Geschichte (Schulfach)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Studio la storia di Roma.",
+    "definition": "Materia che racconta il passato.",
     "page": "172-173",
     "related": "E history; F l’histoire",
     "grammar": {
@@ -15781,8 +15781,8 @@ const STOCK_PACKAGES = [
      "Philosophie (Schulfach)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La filosofia è difficile.",
+    "definition": "Materia che si interroga sulle grandi domande della vita.",
     "page": "172-173",
     "related": "E philosophy; F la philosophie",
     "grammar": {
@@ -15803,8 +15803,8 @@ const STOCK_PACKAGES = [
      "snowboarden"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "D’inverno vado sullo snowboard.",
+    "definition": "Scendere dalla montagna sulla neve con una tavola.",
     "usage": "Abc",
     "page": "172-173"
    },
@@ -15815,8 +15815,8 @@ const STOCK_PACKAGES = [
      "das Snowboard"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho uno snowboard nuovo.",
+    "definition": "Tavola per scivolare sulla neve.",
     "page": "172-173",
     "grammar": {
      "partOfSpeech": "noun",
@@ -15836,7 +15836,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La mia famiglia ha una casa a Lecce.",
-    "definition": "",
+    "definition": "Edificio dove si abita.",
     "usage": "Unterscheide: Sono a casa. – Ich bin zu Hause. / Torno a casa. – Ich komme nach Hause zurück.",
     "page": "172-173",
     "grammar": {
@@ -15856,8 +15856,8 @@ const STOCK_PACKAGES = [
      "die Ordnung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "In camera mia c’è ordine.",
+    "definition": "Situazione in cui ogni cosa è al suo posto.",
     "usage": "m.",
     "page": "172-173"
    },
@@ -15869,7 +15869,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Non mi piace mettere in ordine!",
-    "definition": "",
+    "definition": "Rimettere ogni cosa al suo posto.",
     "page": "172-173"
    },
    {
@@ -15879,8 +15879,8 @@ const STOCK_PACKAGES = [
      "Wie viel?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Quanto costa?",
+    "definition": "Domanda per conoscere un numero o una misura.",
     "page": "172-173",
     "related": "L quantus"
    },
@@ -15891,8 +15891,8 @@ const STOCK_PACKAGES = [
      "Wie alt bist du?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Quanti anni hai? – Ho tredici anni.",
+    "definition": "Domanda per sapere l’età.",
     "usage": "Nach dem Alter fragt man im Italienischen anders als im Deutschen: Quanti anni hai? – Ho 14 anni.",
     "page": "172-173"
    },
@@ -15903,8 +15903,8 @@ const STOCK_PACKAGES = [
      "Welche(r, s)?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Quale preferisci?",
+    "definition": "Domanda per scegliere tra più cose.",
     "usage": "Unterscheide: Quale + è → Qual è il cognome di Filippo?; Quale? = Welche(r/s)? (aus einer Auswahl), engl. Which?; Che? = Was für? (allgemein), engl. What?",
     "page": "172-173",
     "related": "L qualis"
@@ -15916,8 +15916,8 @@ const STOCK_PACKAGES = [
      "dein(e/r/s)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questo è il tuo libro?",
+    "definition": "Aggettivo che indica che qualcosa appartiene a te.",
     "page": "172-173",
     "related": "F ton/ta; L tuus"
    },
@@ -15930,7 +15930,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Che cosa ti piace? – Mi piace la musica.",
-    "definition": "",
+    "definition": "Domanda per sapere i tuoi gusti.",
     "page": "172-173"
    },
    {
@@ -15940,8 +15940,8 @@ const STOCK_PACKAGES = [
      "die Schwester"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mia sorella ha otto anni.",
+    "definition": "Figlia degli stessi genitori.",
     "page": "172-173",
     "related": "F la soeur; L soror",
     "grammar": {
@@ -15961,8 +15961,8 @@ const STOCK_PACKAGES = [
      "Fußball"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il calcio è lo sport più amato.",
+    "definition": "Sport con una palla e due porte.",
     "page": "172-173",
     "grammar": {
      "partOfSpeech": "noun",
@@ -15982,7 +15982,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Amo la mia famiglia.",
-    "definition": "",
+    "definition": "Voler bene molto a qualcuno o a qualcosa.",
     "page": "172-173",
     "related": "F aimer; L amare"
    },
@@ -15993,8 +15993,8 @@ const STOCK_PACKAGES = [
      "die Musik"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La musica mi rilassa.",
+    "definition": "Suoni organizzati in melodia.",
     "page": "172-173",
     "grammar": {
      "partOfSpeech": "noun",
@@ -16015,7 +16015,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Conosci Giorgia?",
-    "definition": "",
+    "definition": "Sapere chi è una persona o come è un luogo.",
     "page": "172-173",
     "related": "L cognoscere"
    },
@@ -16026,8 +16026,8 @@ const STOCK_PACKAGES = [
      "die Aufgabe"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il compito di oggi è facile.",
+    "definition": "Lavoro che si fa a scuola o a casa.",
     "page": "172-173",
     "grammar": {
      "partOfSpeech": "noun",
@@ -16047,8 +16047,8 @@ const STOCK_PACKAGES = [
      "die Klassenarbeit"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Domani c’è il compito in classe di italiano.",
+    "definition": "Prova scritta che si fa a scuola.",
     "page": "172-173",
     "grammar": {
      "partOfSpeech": "noun",
@@ -16067,8 +16067,8 @@ const STOCK_PACKAGES = [
      "die Hausaufgaben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio i compiti dopo pranzo.",
+    "definition": "Lavori da fare a casa per la scuola.",
     "usage": "pl.",
     "page": "172-173",
     "grammar": {
@@ -16088,8 +16088,8 @@ const STOCK_PACKAGES = [
      "der Bruder"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mio fratello gioca a calcio.",
+    "definition": "Figlio degli stessi genitori.",
     "page": "172-173",
     "related": "F le frère; L frater; ≠ la sorella",
     "grammar": {
@@ -16110,8 +16110,8 @@ const STOCK_PACKAGES = [
      "die Unterrichtsstunde"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La lezione dura cinquanta minuti.",
+    "definition": "Ora in cui un insegnante spiega qualcosa.",
     "page": "172-173",
     "related": "E lesson; F la leçon",
     "grammar": {
@@ -16131,8 +16131,8 @@ const STOCK_PACKAGES = [
      "der Tanz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La danza è la mia passione.",
+    "definition": "Arte di muoversi a ritmo di musica.",
     "page": "172-173",
     "related": "E dance; F la danse",
     "grammar": {
@@ -16152,8 +16152,8 @@ const STOCK_PACKAGES = [
      "der Tanzunterricht"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La lezione di danza è il martedì.",
+    "definition": "Corso dove si impara a ballare.",
     "page": "172-173",
     "grammar": {
      "partOfSpeech": "noun",
@@ -16173,8 +16173,8 @@ const STOCK_PACKAGES = [
      "das Studium"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Lo studio richiede tempo.",
+    "definition": "Attività di chi impara leggendo e ripetendo.",
     "usage": "pl. gli studi. Unterscheide: Ho lezioni di danza in uno studio. – Ich habe Tanzkurse in einem Studio. / Dopo lo studio incontro i miei amici. – Nach dem Lernen treffe ich meine Freunde.",
     "page": "172-173",
     "related": "L studium",
@@ -16196,7 +16196,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mi piace ballare.",
-    "definition": "",
+    "definition": "Muoversi a ritmo di musica.",
     "page": "172-173"
    },
    {
@@ -16208,7 +16208,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mi piacciono le canzoni italiane.",
-    "definition": "",
+    "definition": "Brano musicale con parole.",
     "usage": "Die Musikrichtungen werden an musica und canzone einfach angehängt: la musica hip hop, la musica rock, la canzone pop",
     "page": "172-173",
     "related": "F la chanson",
@@ -16248,7 +16248,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -16287,7 +16287,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Alle 8 entriamo in aula.",
-    "definition": "",
+    "definition": "Stanza di una scuola dove si fa lezione.",
     "page": "178-180"
    },
    {
@@ -16300,7 +16300,7 @@ const STOCK_PACKAGES = [
      "capire"
     ],
     "example": "Non capisco il compito di matematica.",
-    "definition": "",
+    "definition": "Comprendere il significato di qualcosa.",
     "usage": "Abc",
     "page": "178-180"
    },
@@ -16312,7 +16312,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Come si dice «Schule» in italiano?",
-    "definition": "",
+    "definition": "Domanda per conoscere una parola.",
     "page": "178-180"
    },
    {
@@ -16322,8 +16322,8 @@ const STOCK_PACKAGES = [
      "Wie schreibt man …?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Come si scrive “giraffa”?",
+    "definition": "Domanda per sapere come si scrivono le lettere di una parola.",
     "page": "178-180"
    },
    {
@@ -16334,7 +16334,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Che significa «scuola» in tedesco?",
-    "definition": "",
+    "definition": "Domanda per capire il senso di una parola.",
     "page": "178-180"
    },
    {
@@ -16344,8 +16344,8 @@ const STOCK_PACKAGES = [
      "andere(r, s)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Voglio un altro gelato.",
+    "definition": "Diverso da quello già detto.",
     "page": "178-180",
     "related": "F autre; L alter"
    },
@@ -16357,7 +16357,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Scusi! Sono in ritardo.",
-    "definition": "",
+    "definition": "Formula di cortesia per chiamare una persona adulta.",
     "page": "178-180"
    },
    {
@@ -16370,7 +16370,7 @@ const STOCK_PACKAGES = [
      "il/la prof"
     ],
     "example": "Lo Scifo è il prof di mate.",
-    "definition": "",
+    "definition": "Insegnante di una scuola superiore.",
     "usage": "Unterscheide: il professore – il professor De Carli",
     "page": "178-180",
     "related": "F le/la professeur"
@@ -16383,7 +16383,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Sono in ritardo perché c’è sciopero.",
-    "definition": "",
+    "definition": "Interruzione del lavoro per protesta.",
     "page": "178-180",
     "grammar": {
      "partOfSpeech": "noun",
@@ -16404,7 +16404,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Parto da casa alle sette.",
-    "definition": "",
+    "definition": "Lasciare un luogo per andare in un altro.",
     "page": "178-180",
     "related": "F partir; ≠ arrivare"
    },
@@ -16417,7 +16417,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Sei in ritardo. Corri un po’!",
-    "definition": "",
+    "definition": "Muoversi molto velocemente a piedi.",
     "page": "178-180",
     "related": "F courir; L currere"
    },
@@ -16430,7 +16430,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il corridoio è il mio posto preferito.",
-    "definition": "",
+    "definition": "Luogo dove ci si siede o dove si trova qualcosa.",
     "page": "178-180",
     "related": "F poste",
     "grammar": {
@@ -16450,8 +16450,8 @@ const STOCK_PACKAGES = [
      "nervös"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sono nervoso prima dell’esame.",
+    "definition": "Agitato, che non sta tranquillo.",
     "page": "178-180"
    },
    {
@@ -16462,7 +16462,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Leo è nervoso per l’interrogazione.",
-    "definition": "",
+    "definition": "Verifica orale a scuola.",
     "usage": "f.",
     "page": "178-180",
     "related": "F l’interrogation"
@@ -16474,8 +16474,8 @@ const STOCK_PACKAGES = [
      "die Stimme"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ha una voce bellissima.",
+    "definition": "Suono che esce dalla bocca quando si parla.",
     "page": "178-180",
     "related": "E voice; F la voix; L vox",
     "grammar": {
@@ -16495,8 +16495,8 @@ const STOCK_PACKAGES = [
      "denken"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Penso spesso alle vacanze.",
+    "definition": "Usare la mente per riflettere.",
     "page": "178-180",
     "related": "F penser"
    },
@@ -16510,7 +16510,7 @@ const STOCK_PACKAGES = [
      "spiegare"
     ],
     "example": "Il prof non spiega bene. Non capisco i compiti.",
-    "definition": "",
+    "definition": "Far capire qualcosa a qualcuno.",
     "usage": "Abc",
     "page": "178-180"
    },
@@ -16522,7 +16522,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il Nilo è un fiume grande.",
-    "definition": "",
+    "definition": "Il fiume più lungo d’Africa.",
     "page": "178-180",
     "grammar": {
      "partOfSpeech": "noun",
@@ -16543,8 +16543,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "dire"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Dico sempre la verità.",
+    "definition": "Esprimere con la voce.",
     "usage": "Abc",
     "page": "178-180"
    },
@@ -16556,7 +16556,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Non dire sciocchezze!",
-    "definition": "",
+    "definition": "Cosa stupida o senza importanza.",
     "page": "178-180",
     "grammar": {
      "partOfSpeech": "noun",
@@ -16575,8 +16575,8 @@ const STOCK_PACKAGES = [
      "das Jahrtausend"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il terzo millennio è cominciato nel 2001.",
+    "definition": "Periodo di mille anni.",
     "usage": "pl. i millenni",
     "page": "178-180",
     "related": "E millennium",
@@ -16597,8 +16597,8 @@ const STOCK_PACKAGES = [
      "das Leben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La vita è bella.",
+    "definition": "Il periodo in cui si è vivi.",
     "page": "178-180",
     "related": "F la vie; L vita",
     "grammar": {
@@ -16618,8 +16618,8 @@ const STOCK_PACKAGES = [
      "der/die Streber/-in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Marco è un secchione: studia sempre.",
+    "definition": "Studente che studia moltissimo.",
     "usage": "fam.",
     "page": "178-180"
    },
@@ -16630,8 +16630,8 @@ const STOCK_PACKAGES = [
      "auswendig"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Imparo la poesia a memoria.",
+    "definition": "Ricordando le parole senza leggere.",
     "page": "178-180"
    },
    {
@@ -16644,7 +16644,7 @@ const STOCK_PACKAGES = [
      "restituire"
     ],
     "example": "Il prof restituisce i compiti.",
-    "definition": "",
+    "definition": "Dare indietro una cosa che si è avuta.",
     "usage": "Abc",
     "page": "178-180"
    },
@@ -16655,8 +16655,8 @@ const STOCK_PACKAGES = [
      "die Lösung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La soluzione è facile.",
+    "definition": "Risposta giusta a un problema.",
     "page": "178-180",
     "related": "E solution; F la solution",
     "grammar": {
@@ -16677,8 +16677,8 @@ const STOCK_PACKAGES = [
      "das Whiteboard"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’insegnante scrive sulla LIM.",
+    "definition": "Lavagna elettronica che si usa a scuola.",
     "tags": [
      "fakultativ"
     ],
@@ -16702,8 +16702,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "avere preso un"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Ho preso un otto in matematica.",
+    "definition": "Aver ricevuto una valutazione a scuola.",
     "usage": "Abc",
     "page": "178-180"
    },
@@ -16716,7 +16716,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il prof è bravo. Spiega molto bene.",
-    "definition": "",
+    "definition": "Che fa bene le cose.",
     "page": "178-180"
    },
    {
@@ -16728,7 +16728,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mi piace l’arte. La storia invece non mi piace.",
-    "definition": "",
+    "definition": "Parola che esprime una differenza.",
     "usage": "avv.",
     "page": "178-180"
    },
@@ -16740,7 +16740,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Che voto hai preso, Khalid?",
-    "definition": "",
+    "definition": "Numero che indica come ti sei comportato in una prova.",
     "page": "178-180",
     "grammar": {
      "partOfSpeech": "noun",
@@ -16760,7 +16760,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Khalid non è contento del suo voto.",
-    "definition": "",
+    "definition": "Soddisfatto e felice.",
     "page": "178-180",
     "related": "E/F content"
    },
@@ -16772,7 +16772,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il prof spiega un problema.",
-    "definition": "",
+    "definition": "Situazione difficile o esercizio da risolvere.",
     "usage": "m. Einige maskuline Substantive enden auf -a, aber der Plural endet auf -i.",
     "page": "178-180",
     "grammar": {
@@ -16793,7 +16793,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "In matematica mi piace la geometria.",
-    "definition": "",
+    "definition": "Parte della matematica che studia le figure.",
     "page": "178-180",
     "grammar": {
      "partOfSpeech": "noun",
@@ -16814,7 +16814,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ragazzi, fate attenzione!",
-    "definition": "",
+    "definition": "Concentrarsi su quello che succede.",
     "usage": "Abc",
     "page": "178-180",
     "related": "E attention"
@@ -16830,7 +16830,7 @@ const STOCK_PACKAGES = [
      "finire"
     ],
     "example": "La scuola finisce all’una.",
-    "definition": "",
+    "definition": "Arrivare alla fine di qualcosa.",
     "usage": "Abc",
     "page": "178-180",
     "related": "≠ cominciare; E to finish"
@@ -16843,7 +16843,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ragazzi, i compiti adesso, per favore!",
-    "definition": "",
+    "definition": "Formula di cortesia quando si chiede.",
     "page": "178-180"
    },
    {
@@ -16854,7 +16854,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Cerco un’informazione in Internet.",
-    "definition": "",
+    "definition": "Notizia che serve per sapere qualcosa.",
     "usage": "f.",
     "page": "178-180",
     "related": "E information"
@@ -16867,7 +16867,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "I ragazzi ascoltano la relazione di Giorgia.",
-    "definition": "",
+    "definition": "Testo o discorso su un argomento studiato.",
     "page": "178-180",
     "grammar": {
      "partOfSpeech": "noun",
@@ -16886,8 +16886,8 @@ const STOCK_PACKAGES = [
      "die Übung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio un esercizio di grammatica.",
+    "definition": "Lavoro per imparare e allenarsi.",
     "usage": "pl. gli esercizi",
     "page": "178-180",
     "related": "E exercise; F l’exercice"
@@ -16900,7 +16900,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Fate l’esercizio 2 a pagina 58!",
-    "definition": "",
+    "definition": "Foglio di un libro.",
     "page": "178-180",
     "related": "E page; F la page",
     "grammar": {
@@ -16921,7 +16921,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Senta, scusi!",
-    "definition": "",
+    "definition": "Per attirare l’attenzione di una persona a cui dai del Lei.",
     "page": "178-180",
     "related": "▸ sentire"
    },
@@ -16933,7 +16933,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "I compiti sono per domani.",
-    "definition": "",
+    "definition": "Il giorno dopo oggi.",
     "usage": "avv.",
     "page": "178-180",
     "related": "≠ oggi; F demain"
@@ -16946,8 +16946,8 @@ const STOCK_PACKAGES = [
      "aber"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È bello, però costa molto.",
+    "definition": "Parola che introduce una cosa contraria.",
     "usage": "avv.",
     "page": "178-180"
    },
@@ -16958,8 +16958,8 @@ const STOCK_PACKAGES = [
      "Auf Wiedersehen!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Arrivederci, a domani!",
+    "definition": "Saluto di commiato.",
     "page": "178-180",
     "related": "≠ buongiorno"
    }
@@ -16989,7 +16989,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -17028,8 +17028,8 @@ const STOCK_PACKAGES = [
      "unter"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Arrivo fra dieci minuti.",
+    "definition": "Indica il tempo che manca prima di un evento.",
     "usage": "Unterscheide: Vengo fra/tra cinque minuti. – Ich komme in fünf Minuten. (zeitlich); Fra/Tra Giorgia e Anna sta Khalid. – Zwischen Giorgia und Anna steht Khalid. (örtlich)",
     "page": "180-181"
    },
@@ -17041,7 +17041,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il libro ha sette capitoli.",
-    "definition": "",
+    "definition": "Parte di un libro.",
     "page": "180-181",
     "related": "F le chapitre",
     "grammar": {
@@ -17063,7 +17063,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "In italiano vado abbastanza bene.",
-    "definition": "",
+    "definition": "Quanto basta; piuttosto.",
     "usage": "avv.",
     "page": "180-181"
    },
@@ -17075,7 +17075,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mi piace leggere libri.",
-    "definition": "",
+    "definition": "Guardare un testo e capirlo.",
     "page": "180-181",
     "related": "L legere"
    },
@@ -17087,8 +17087,8 @@ const STOCK_PACKAGES = [
      "schwer"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La borsa è pesante.",
+    "definition": "Che ha molto peso.",
     "usage": "agg.",
     "page": "180-181"
    },
@@ -17100,7 +17100,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "In arte siamo molto creativi.",
-    "definition": "",
+    "definition": "Che ha molte idee originali.",
     "page": "180-181",
     "related": "F créatif"
    },
@@ -17111,8 +17111,8 @@ const STOCK_PACKAGES = [
      "schreiben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Scrivo una lettera.",
+    "definition": "Mettere parole su un foglio.",
     "page": "180-181",
     "related": "F écrire; L scribere"
    },
@@ -17125,7 +17125,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "In italiano scriviamo il tema.",
-    "definition": "",
+    "definition": "Testo scritto su un argomento.",
     "usage": "pl. i temi",
     "page": "180-181",
     "grammar": {
@@ -17146,7 +17146,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Qualche volta leggo libri, ma non spesso.",
-    "definition": "",
+    "definition": "In alcune occasioni, non sempre.",
     "usage": "avv.",
     "page": "180-181",
     "related": "≠ spesso"
@@ -17159,7 +17159,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Khalid scrive anche poesie.",
-    "definition": "",
+    "definition": "Testo breve in versi.",
     "page": "180-181",
     "grammar": {
      "partOfSpeech": "noun",
@@ -17178,8 +17178,8 @@ const STOCK_PACKAGES = [
      "unzufrieden"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sono scontento del voto.",
+    "definition": "Non soddisfatto.",
     "page": "180-181"
    },
    {
@@ -17191,7 +17191,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il latino è pesante. Meno male che il prof è bravo.",
-    "definition": "",
+    "definition": "Espressione di sollievo.",
     "page": "180-181"
    },
    {
@@ -17201,8 +17201,8 @@ const STOCK_PACKAGES = [
      "dass"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Penso che sia vero.",
+    "definition": "Piccola parola che introduce una frase.",
     "usage": "Unterscheide: Che fortuna! – Was für ein Glück!; che ho una camera mia! – dass ich ein eigenes Zimmer habe!",
     "page": "180-181"
    },
@@ -17213,8 +17213,8 @@ const STOCK_PACKAGES = [
      "die Fremdsprachenassistentin"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La lettrice parla con la classe.",
+    "definition": "Persona di madrelingua che aiuta a insegnare una lingua straniera.",
     "page": "180-181",
     "grammar": {
      "partOfSpeech": "noun",
@@ -17234,7 +17234,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Friederike è bionda.",
-    "definition": "",
+    "definition": "Con i capelli chiari e dorati.",
     "page": "180-181",
     "related": "F blond(e)"
    },
@@ -17249,7 +17249,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Da lei facciamo sempre attenzione.",
-    "definition": "",
+    "definition": "Pronomi che sostituiscono una persona dopo una preposizione.",
     "page": "180-181"
    },
    {
@@ -17260,7 +17260,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il rock è proprio la mia musica.",
-    "definition": "",
+    "definition": "Parola per rafforzare: davvero.",
     "usage": "avv.",
     "page": "180-181"
    },
@@ -17271,8 +17271,8 @@ const STOCK_PACKAGES = [
      "erzählen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La nonna racconta una storia.",
+    "definition": "Dire una storia a qualcuno.",
     "page": "180-181",
     "related": "F raconter"
    },
@@ -17286,7 +17286,7 @@ const STOCK_PACKAGES = [
      "dare"
     ],
     "example": "Il prof dà i voti ai ragazzi.",
-    "definition": "",
+    "definition": "Mettere una cosa nelle mani di un altro.",
     "usage": "Abc",
     "page": "180-181",
     "related": "≠ prendere; L dare"
@@ -17300,7 +17300,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Evviva! Ho preso un voto alto.",
-    "definition": "",
+    "definition": "Di grande altezza o di buon livello.",
     "page": "180-181",
     "related": "L altus"
    },
@@ -17313,7 +17313,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Quando il De Carli arriva, Khalid non c’è.",
-    "definition": "",
+    "definition": "Parola per indicare un momento.",
     "page": "180-181"
    },
    {
@@ -17324,7 +17324,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Adesso tocca a me.",
-    "definition": "",
+    "definition": "Espressione che indica il turno di qualcuno.",
     "page": "180-181"
    },
    {
@@ -17335,7 +17335,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Khalid grida: aiuto!",
-    "definition": "",
+    "definition": "Parlare a voce molto alta.",
     "page": "180-181"
    },
    {
@@ -17345,8 +17345,8 @@ const STOCK_PACKAGES = [
      "das Geheimnis"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mistero del castello.",
+    "definition": "Cosa che non si spiega.",
     "page": "180-181",
     "related": "E mystery",
     "grammar": {
@@ -17368,7 +17368,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Vado a scuola con te.",
-    "definition": "",
+    "definition": "Pronome che sostituisce “tu” dopo una preposizione.",
     "page": "180-181"
    },
    {
@@ -17379,8 +17379,8 @@ const STOCK_PACKAGES = [
      "hier: schlecht"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che brutto tempo!",
+    "definition": "Non bello.",
     "page": "180-181"
    },
    {
@@ -17391,7 +17391,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Secondo me storia è noiosa. Dormo sempre.",
-    "definition": "",
+    "definition": "Che annoia; che non interessa.",
     "page": "180-181"
    },
    {
@@ -17401,8 +17401,8 @@ const STOCK_PACKAGES = [
      "sprechen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Parlo con la mia amica.",
+    "definition": "Usare la voce per comunicare.",
     "page": "180-181",
     "related": "F parler"
    },
@@ -17413,8 +17413,8 @@ const STOCK_PACKAGES = [
      "der/die Jugendliche"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il giovane aspetta alla fermata.",
+    "definition": "Persona di poca età.",
     "page": "180-181"
    },
    {
@@ -17424,8 +17424,8 @@ const STOCK_PACKAGES = [
      "jung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mia sorella è giovane.",
+    "definition": "Che ha pochi anni.",
     "page": "180-181",
     "related": "≠ vecchio; F jeune"
    },
@@ -17438,8 +17438,8 @@ const STOCK_PACKAGES = [
      "nett"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che cane carino!",
+    "definition": "Gentile e piacevole da guardare.",
     "page": "180-181"
    },
    {
@@ -17450,7 +17450,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La prof ha sempre vestiti alla moda.",
-    "definition": "",
+    "definition": "Secondo quello che piace in questo periodo.",
     "page": "180-181",
     "related": "F à la mode"
    },
@@ -17462,7 +17462,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "I ragazzi ascoltano e stanno attenti.",
-    "definition": "",
+    "definition": "Che fa molta attenzione, che segue bene.",
     "page": "180-181",
     "related": "L attentus"
    },
@@ -17474,7 +17474,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Questo prof è davvero bravo.",
-    "definition": "",
+    "definition": "Veramente, senza dubbio.",
     "usage": "avv.",
     "page": "180-181"
    },
@@ -17485,8 +17485,8 @@ const STOCK_PACKAGES = [
      "der Mathematiker"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il matematico risolve il problema.",
+    "definition": "Persona che lavora con i numeri e i teoremi.",
     "page": "180-181",
     "grammar": {
      "partOfSpeech": "noun",
@@ -17506,7 +17506,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Luigi è di Palermo. È siciliano.",
-    "definition": "",
+    "definition": "Che viene dalla più grande isola italiana.",
     "page": "180-181"
    },
    {
@@ -17517,7 +17517,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Khalid spiega la regola a Giorgia.",
-    "definition": "",
+    "definition": "Norma da seguire.",
     "page": "180-181",
     "related": "F la règle",
     "grammar": {
@@ -17538,7 +17538,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il prof dà voti agli studenti.",
-    "definition": "",
+    "definition": "Persona che frequenta la scuola o l’università.",
     "usage": "f. la studentessa",
     "page": "180-181",
     "related": "E student",
@@ -17561,7 +17561,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il nuovo prof è molto simpatico.",
-    "definition": "",
+    "definition": "Che piace subito alle persone.",
     "usage": "pl. simpatici/simpatiche",
     "page": "180-181",
     "related": "F sympa"
@@ -17575,7 +17575,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Almeno io capisco matematica.",
-    "definition": "",
+    "definition": "Come minimo.",
     "usage": "avv.",
     "page": "180-181"
    },
@@ -17587,8 +17587,8 @@ const STOCK_PACKAGES = [
      "einfach"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’esercizio è facile.",
+    "definition": "Che non richiede fatica.",
     "page": "180-181",
     "related": "F facile; L facilis"
    },
@@ -17600,7 +17600,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il prof è bravo con i nuovi media.",
-    "definition": "",
+    "definition": "I mezzi di comunicazione: TV, giornali, internet.",
     "usage": "pl.",
     "page": "180-181",
     "related": "F les médias",
@@ -17623,7 +17623,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Greta usa molto i nuovi media.",
-    "definition": "",
+    "definition": "Servirsi di qualcosa.",
     "page": "180-181",
     "related": "E to use"
    },
@@ -17636,7 +17636,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Khalid è bravissimo in italiano.",
-    "definition": "",
+    "definition": "Molto bravo.",
     "page": "180-181"
    },
    {
@@ -17647,8 +17647,8 @@ const STOCK_PACKAGES = [
      "nachmittags"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il pomeriggio faccio i compiti.",
+    "definition": "Parte del giorno dopo il pranzo.",
     "usage": "pl. i pomeriggi",
     "page": "180-181",
     "grammar": {
@@ -17670,7 +17670,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Prendiamo un caffè?",
-    "definition": "",
+    "definition": "Bevanda scura e calda; anche il locale dove la si beve.",
     "usage": "pl. i caffè",
     "page": "180-181",
     "grammar": {
@@ -17690,8 +17690,8 @@ const STOCK_PACKAGES = [
      "der Zeuge"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il testimone racconta che cosa ha visto.",
+    "definition": "Persona che ha visto un fatto e può raccontarlo.",
     "usage": "f. la testimone",
     "page": "180-181",
     "related": "F le témoin; L testis",
@@ -17731,7 +17731,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -17771,7 +17771,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Abbiamo un nuovo orario.",
-    "definition": "",
+    "definition": "Tabella con le ore delle lezioni.",
     "usage": "pl. gli orari",
     "page": "177-178",
     "related": "F l’horaire"
@@ -17783,8 +17783,8 @@ const STOCK_PACKAGES = [
      "der Tag"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il giorno ha ventiquattro ore.",
+    "definition": "Periodo di ventiquattro ore.",
     "page": "177-178",
     "related": "F le jour",
     "grammar": {
@@ -17806,7 +17806,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La terza ora ho storia.",
-    "definition": "",
+    "definition": "Sessanta minuti.",
     "page": "177-178",
     "related": "F l’heure; L hora"
    },
@@ -17817,8 +17817,8 @@ const STOCK_PACKAGES = [
      "die Wochentage"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "I giorni della settimana sono sette.",
+    "definition": "Lunedì, martedì, mercoledì...",
     "usage": "(il) lunedì – Montag; (il) martedì – Dienstag; (il) mercoledì – Mittwoch; (il) giovedì – Donnerstag; (il) venerdì – Freitag; (il) sabato – Samstag; (la) domenica – Sonntag. Unterscheide: Il martedì vado sempre nello studio di danza. – Dienstags gehe ich immer ins Tanzstudio. / Martedì incontro la mia amica. – Diesen Dienstag treffe ich meine Freundin.",
     "page": "177-178",
     "grammar": {
@@ -17840,8 +17840,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "la mate"
     ],
-    "example": "",
-    "definition": "",
+    "example": "La matematica è difficile.",
+    "definition": "Materia dei numeri, delle formule e dei problemi.",
     "page": "177-178",
     "related": "E mathematics; F les mathématiques",
     "grammar": {
@@ -17861,8 +17861,8 @@ const STOCK_PACKAGES = [
      "Kunstgeschichte (Schulfach)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi piace la storia dell’arte.",
+    "definition": "Materia che studia i quadri e i monumenti.",
     "page": "177-178",
     "grammar": {
      "partOfSpeech": "noun",
@@ -17881,8 +17881,8 @@ const STOCK_PACKAGES = [
      "Religion (Schulfach)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Alle otto c’è religione.",
+    "definition": "Materia che parla delle fedi e delle credenze.",
     "page": "177-178",
     "related": "E religion",
     "grammar": {
@@ -17902,8 +17902,8 @@ const STOCK_PACKAGES = [
      "Physik (Schulfach)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La fisica è difficile.",
+    "definition": "Materia che studia energia, forza e movimento.",
     "page": "177-178",
     "related": "E physics; F la physique",
     "grammar": {
@@ -17923,8 +17923,8 @@ const STOCK_PACKAGES = [
      "Latein (Schulfach)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Studio il latino a scuola.",
+    "definition": "Lingua antica dei Romani.",
     "page": "177-178",
     "related": "E Latin; F le latin",
     "grammar": {
@@ -17944,8 +17944,8 @@ const STOCK_PACKAGES = [
      "Naturwissenschaften (Schulfach)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi piacciono le scienze.",
+    "definition": "Materia che studia la natura e il corpo umano.",
     "page": "177-178",
     "related": "E science; L scientia",
     "grammar": {
@@ -17965,8 +17965,8 @@ const STOCK_PACKAGES = [
      "Sport (Schulfach)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’educazione fisica è il mio corso preferito.",
+    "definition": "Materia in cui si fa ginnastica e sport.",
     "usage": "f.",
     "page": "177-178",
     "related": "E physical education"
@@ -17978,8 +17978,8 @@ const STOCK_PACKAGES = [
      "Kunst (Schulfach)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’arte è la mia passione.",
+    "definition": "Materia che si occupa di pittura e disegno.",
     "usage": "m.",
     "page": "177-178",
     "related": "E art; F l’art"
@@ -17992,7 +17992,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il nuovo orario è terribile.",
-    "definition": "",
+    "definition": "Molto brutto o molto forte.",
     "page": "177-178",
     "related": "E/F terrible"
    },
@@ -18004,7 +18004,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Alle otto abbiamo fisica e alle nove latino.",
-    "definition": "",
+    "definition": "Piccola parola per dire a che ora succede qualcosa.",
     "page": "177-178"
    },
    {
@@ -18015,7 +18015,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Dalle 9 alle 10 abbiamo storia.",
-    "definition": "",
+    "definition": "Espressione che indica l’inizio e la fine di un periodo.",
     "page": "177-178"
    },
    {
@@ -18026,7 +18026,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Secondo me due ore di sport sono troppe.",
-    "definition": "",
+    "definition": "Espressione per introdurre una tua opinione.",
     "page": "177-178"
    },
    {
@@ -18037,7 +18037,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La prima ora è troppo presto!",
-    "definition": "",
+    "definition": "Di buon’ora, prima del tempo normale.",
     "usage": "avv.",
     "page": "177-178"
    },
@@ -18048,8 +18048,8 @@ const STOCK_PACKAGES = [
      "Recht haben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Hai ragione, è così!",
+    "definition": "Essere nel giusto, dire una cosa vera.",
     "usage": "Abc",
     "page": "177-178",
     "related": "F avoir raison"
@@ -18063,7 +18063,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La mia materia preferita è storia.",
-    "definition": "",
+    "definition": "Quello che ti piace di più.",
     "page": "177-178"
    },
    {
@@ -18073,8 +18073,8 @@ const STOCK_PACKAGES = [
      "leider"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Purtroppo non posso venire.",
+    "definition": "Parola per dire che qualcosa dispiace.",
     "usage": "avv.",
     "page": "177-178"
    },
@@ -18088,8 +18088,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "interrogare"
     ],
-    "example": "",
-    "definition": "",
+    "example": "La professoressa interroga Marco.",
+    "definition": "Fare domande a uno studente per verificare quanto sa.",
     "usage": "Abc",
     "page": "177-178",
     "related": "F interroger"
@@ -18102,7 +18102,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Sono 100 minuti di matematica.",
-    "definition": "",
+    "definition": "Sessanta secondi.",
     "page": "177-178",
     "grammar": {
      "partOfSpeech": "noun",
@@ -18121,8 +18121,8 @@ const STOCK_PACKAGES = [
      "zu viel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho troppi compiti.",
+    "definition": "Più del necessario.",
     "page": "177-178"
    },
    {
@@ -18134,7 +18134,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Parlo un po’ di italiano.",
-    "definition": "",
+    "definition": "Una piccola quantità.",
     "usage": "avv.",
     "page": "177-178",
     "related": "F un peu"
@@ -18148,7 +18148,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A scuola oggi ho solo due ore.",
-    "definition": "",
+    "definition": "Soltanto, senza altro.",
     "usage": "avv.",
     "page": "177-178"
    },
@@ -18160,7 +18160,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La settimana ha 7 giorni.",
-    "definition": "",
+    "definition": "Sette giorni.",
     "page": "177-178",
     "related": "F la semaine",
     "grammar": {
@@ -18181,7 +18181,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Abbiamo poche ore di sport.",
-    "definition": "",
+    "definition": "Una quantità piccola.",
     "usage": "pl. pochi/-e",
     "page": "177-178"
    },
@@ -18194,7 +18194,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Lisa! Parti da casa prima!",
-    "definition": "",
+    "definition": "In un momento precedente.",
     "usage": "avv.",
     "page": "177-178"
    },
@@ -18205,8 +18205,8 @@ const STOCK_PACKAGES = [
      "Um wie viel Uhr?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "A che ora comincia la lezione?",
+    "definition": "Domanda per sapere il momento preciso.",
     "usage": "Unterscheide: A che ora vai a casa? – Alle due. / All’una.",
     "page": "177-178",
     "related": "F A quelle heure?"
@@ -18218,8 +18218,8 @@ const STOCK_PACKAGES = [
      "also"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sei stanco? Allora riposa.",
+    "definition": "Parola che introduce una conseguenza.",
     "usage": "avv.",
     "page": "177-178"
    },
@@ -18233,7 +18233,7 @@ const STOCK_PACKAGES = [
      "e mezzo"
     ],
     "example": "Torno a casa alle due e mezzo.",
-    "definition": "",
+    "definition": "Mezz’ora dopo l’una.",
     "page": "177-178"
    },
    {
@@ -18246,7 +18246,7 @@ const STOCK_PACKAGES = [
      "meno un quarto"
     ],
     "example": "Che ore sono? – Sono le due meno un quarto.",
-    "definition": "",
+    "definition": "Quindici minuti prima delle due.",
     "page": "177-178"
    },
    {
@@ -18256,8 +18256,8 @@ const STOCK_PACKAGES = [
      "das Viertel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il quarto d’ora ha quindici minuti.",
+    "definition": "Una delle quattro parti uguali.",
     "page": "177-178",
     "grammar": {
      "partOfSpeech": "noun",
@@ -18277,7 +18277,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il prof non c’è. Abbiamo una supplenza.",
-    "definition": "",
+    "definition": "Lezione tenuta da un insegnante al posto di un altro.",
     "page": "177-178",
     "grammar": {
      "partOfSpeech": "noun",
@@ -18298,7 +18298,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Che bello! La sesta ora salta!",
-    "definition": "",
+    "definition": "Non fare qualcosa; alzarsi da terra con un movimento.",
     "page": "177-178"
    },
    {
@@ -18309,8 +18309,8 @@ const STOCK_PACKAGES = [
      "Juhu!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Evviva, è sabato!",
+    "definition": "Esclamazione di gioia.",
     "page": "177-178"
    },
    {
@@ -18320,8 +18320,8 @@ const STOCK_PACKAGES = [
      "Wie spät ist es?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che ore sono? – Sono le tre.",
+    "definition": "Domanda per sapere l’ora.",
     "usage": "Che ore sono? È l’una. / Sono le due. / … le otto e un quarto. / … le otto e mezzo. / … le nove meno un quarto. / … le nove in punto.",
     "page": "177-178"
    },
@@ -18332,8 +18332,8 @@ const STOCK_PACKAGES = [
      "Hilfe!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Aiuto, sono caduto!",
+    "definition": "Grido per chiedere soccorso.",
     "page": "177-178"
    },
    {
@@ -18347,7 +18347,7 @@ const STOCK_PACKAGES = [
      "cominciare"
     ],
     "example": "La scuola comincia alle 8 e 15.",
-    "definition": "",
+    "definition": "Iniziare un’azione.",
     "page": "177-178",
     "related": "F commencer"
    },
@@ -18359,7 +18359,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La lezione comincia tra 5 minuti.",
-    "definition": "",
+    "definition": "Indica il tempo che manca prima di un evento.",
     "page": "177-178"
    },
    {
@@ -18370,8 +18370,8 @@ const STOCK_PACKAGES = [
      "erneut"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Provo di nuovo.",
+    "definition": "Un’altra volta.",
     "usage": "avv.",
     "page": "177-178",
     "related": "▸ nuovo"
@@ -18384,7 +18384,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Aiuto! Sono già le 8 e 15. Sono in ritardo.",
-    "definition": "",
+    "definition": "Dopo l’ora prevista.",
     "usage": "avv.",
     "page": "177-178"
    },
@@ -18395,8 +18395,8 @@ const STOCK_PACKAGES = [
      "sicher"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sicuramente vengo!",
+    "definition": "Senza dubbio.",
     "usage": "avv.",
     "page": "177-178"
    },
@@ -18407,8 +18407,8 @@ const STOCK_PACKAGES = [
      "einen Eintrag ins Klassenbuch bekommen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho preso una nota sul registro.",
+    "definition": "Ricevere una punizione scritta dall’insegnante.",
     "usage": "Abc",
     "page": "177-178"
    }
@@ -18438,7 +18438,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -18477,7 +18477,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mi piace fare sci.",
-    "definition": "",
+    "definition": "Attrezzo per scivolare sulla neve.",
     "usage": "pl. gli sci",
     "page": "183-185",
     "grammar": {
@@ -18498,7 +18498,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La neve è fresca.",
-    "definition": "",
+    "definition": "Un po’ freddo; appena preparato.",
     "usage": "pl. freschi/-e",
     "page": "183-185",
     "related": "E fresh; F frais, fraîche"
@@ -18510,8 +18510,8 @@ const STOCK_PACKAGES = [
      "der Zentimeter"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questo libro è lungo venti centimetri.",
+    "definition": "Misura di lunghezza; centesima parte del metro.",
     "page": "183-185",
     "grammar": {
      "partOfSpeech": "noun",
@@ -18531,7 +18531,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Sulle Alpi c’è la neve.",
-    "definition": "",
+    "definition": "Catena di montagne a nord dell’Italia.",
     "usage": "pl.",
     "page": "183-185",
     "grammar": {
@@ -18552,7 +18552,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Dopo la scuola vado a casa.",
-    "definition": "",
+    "definition": "In un momento successivo.",
     "page": "183-185"
    },
    {
@@ -18562,8 +18562,8 @@ const STOCK_PACKAGES = [
      "die Tür"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Chiudi la porta!",
+    "definition": "Apertura di una stanza che si chiude.",
     "page": "183-185",
     "related": "F la porte; L porta",
     "grammar": {
@@ -18584,7 +18584,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La porta è aperta.",
-    "definition": "",
+    "definition": "Non chiuso.",
     "page": "183-185"
    },
    {
@@ -18595,7 +18595,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Vieni con noi in montagna?",
-    "definition": "",
+    "definition": "Pronomi che sostituiscono “noi” o “voi” dopo una preposizione.",
     "page": "183-185"
    },
    {
@@ -18608,8 +18608,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "dovere"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Devo studiare.",
+    "definition": "Essere obbligato a fare qualcosa.",
     "usage": "Abc",
     "page": "183-185",
     "related": "F devoir; L debere"
@@ -18624,7 +18624,7 @@ const STOCK_PACKAGES = [
      "venire"
     ],
     "example": "Anna, vieni anche tu?",
-    "definition": "",
+    "definition": "Andare verso chi parla.",
     "usage": "Abc",
     "page": "183-185",
     "related": "F venir; L venire"
@@ -18639,7 +18639,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Vieni a casa mia? – Sì, ci vengo.",
-    "definition": "",
+    "definition": "Piccola parola che sostituisce un luogo.",
     "usage": "avv. Beachte: ci steht unmittelbar vor dem konjugierten Verb: Vieni in spiaggia con noi? – No, non ci vengo. Non ho tempo.",
     "page": "183-185"
    },
@@ -18652,7 +18652,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Devi venire anche tu! – Sì, ci sto!",
-    "definition": "",
+    "definition": "Risposta per accettare una proposta con entusiasmo.",
     "usage": "Das Verb stare hat viele unterschiedliche Verwendungen: Come stai? – Sto bene. / State attenti! – Gebt Acht! / Leo sta volentieri in montagna. – Leo ist gerne im Gebirge. / Giorgia sta spesso con i suoi amici. – Giorgia ist häufig mit ihren Freunden zusammen. / Chi viene a sciare con me? – Ci sto. – Ich bin dabei.",
     "page": "183-185"
    },
@@ -18663,8 +18663,8 @@ const STOCK_PACKAGES = [
      "vorbereiten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Preparo la cena.",
+    "definition": "Rendere pronto qualcosa.",
     "page": "183-185",
     "related": "E to prepare; F préparer"
    },
@@ -18676,7 +18676,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "In montagna ci sono le piste da sci.",
-    "definition": "",
+    "definition": "Percorso per sciare, correre o pattinare.",
     "page": "183-185",
     "grammar": {
      "partOfSpeech": "noun",
@@ -18698,7 +18698,7 @@ const STOCK_PACKAGES = [
      "solo/-a"
     ],
     "example": "Anna, non vengo. Devi andare da sola.",
-    "definition": "",
+    "definition": "Senza altre persone.",
     "usage": "Unterscheide: Non vado da solo. – Ich fahre nicht alleine. / Vado a Sestriere solo con gli amici. – Ich fahre nur mit den Freunden nach Sestriere.",
     "page": "183-185",
     "related": "L solus"
@@ -18711,7 +18711,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Per il mio compleanno ho avuto uno snowboard.",
-    "definition": "",
+    "definition": "Forma del passato: ho ricevuto.",
     "usage": "Abc",
     "page": "183-185"
    },
@@ -18723,7 +18723,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho avuto uno snowboard per il mio compleanno.",
-    "definition": "",
+    "definition": "Giorno in cui si festeggia l’anno di nascita.",
     "page": "183-185",
     "grammar": {
      "partOfSpeech": "noun",
@@ -18744,7 +18744,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Partiamo! Siete pronti?",
-    "definition": "",
+    "definition": "Preparato, già a posto.",
     "page": "183-185"
    },
    {
@@ -18755,7 +18755,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Khalid aiuta il suo papà.",
-    "definition": "",
+    "definition": "Dare una mano a qualcuno.",
     "usage": "Das Verb aiutare steht im Italienischen anders als im Deutschen mit direktem Objekt: Ich helfe den Freunden. – Aiuto gli amici.",
     "page": "183-185",
     "related": "F aider qn; ▸ Aiuto!"
@@ -18770,7 +18770,7 @@ const STOCK_PACKAGES = [
      "potere"
     ],
     "example": "Devo fare i compiti. Non posso venire.",
-    "definition": "",
+    "definition": "Avere la possibilità di fare qualcosa.",
     "usage": "Abc",
     "page": "183-185",
     "related": "F pouvoir; L posse"
@@ -18782,8 +18782,8 @@ const STOCK_PACKAGES = [
      "Schade!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Peccato, piove!",
+    "definition": "Esclamazione per dire che dispiace.",
     "page": "183-185"
    },
    {
@@ -18794,7 +18794,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Comunque è stata una bella partita.",
-    "definition": "",
+    "definition": "In ogni caso.",
     "usage": "avv.",
     "page": "183-185"
    },
@@ -18805,8 +18805,8 @@ const STOCK_PACKAGES = [
      "nächste(r, s)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il prossimo treno parte alle otto.",
+    "definition": "Quello che viene dopo.",
     "page": "183-185",
     "related": "F prochain(e); L proximus"
    },
@@ -18818,7 +18818,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Oggi non posso. Vengo la prossima volta.",
-    "definition": "",
+    "definition": "Occasione in cui succede qualcosa.",
     "page": "183-185",
     "grammar": {
      "partOfSpeech": "noun",
@@ -18837,8 +18837,8 @@ const STOCK_PACKAGES = [
      "antworten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Rispondo alla tua lettera.",
+    "definition": "Dare una risposta a una domanda.",
     "page": "183-185",
     "related": "≠ interrogare; F répondre; L respondere"
    },
@@ -18850,7 +18850,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Scusa! Ma non posso venire.",
-    "definition": "",
+    "definition": "Per chiedere perdono o attirare l’attenzione, a una persona che dai del tu.",
     "page": "183-185",
     "related": "▸ scusi"
    },
@@ -18861,8 +18861,8 @@ const STOCK_PACKAGES = [
      "der/die Künstler/-in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’artista dipinge un quadro.",
+    "definition": "Persona che crea opere d’arte, di musica o di spettacolo.",
     "usage": "m./f.; pl. gli artisti m.",
     "page": "183-185",
     "related": "▸ l’arte; E artist; F l’artiste"
@@ -18876,8 +18876,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "volere"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Voglio un gelato.",
+    "definition": "Desiderare di avere o di fare qualcosa.",
     "usage": "Abc",
     "page": "183-185",
     "related": "F vouloir; L velle"
@@ -18893,7 +18893,7 @@ const STOCK_PACKAGES = [
      "sapere"
     ],
     "example": "Anna non sa pattinare.",
-    "definition": "",
+    "definition": "Avere conoscenza di qualcosa.",
     "usage": "Abc",
     "page": "183-185",
     "related": "F savoir"
@@ -18905,8 +18905,8 @@ const STOCK_PACKAGES = [
      "heute Abend"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Stasera vado al cinema.",
+    "definition": "Questa sera.",
     "usage": "avv.",
     "page": "183-185"
    },
@@ -18918,7 +18918,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La madre di Anna organizza un concerto.",
-    "definition": "",
+    "definition": "Preparare le cose per un evento.",
     "page": "183-185"
    },
    {
@@ -18929,8 +18929,8 @@ const STOCK_PACKAGES = [
      "lernen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Studio per la verifica.",
+    "definition": "Imparare con l’aiuto dei libri.",
     "page": "183-185",
     "related": "▸ lo studente; E study; L studere"
    },
@@ -18941,8 +18941,8 @@ const STOCK_PACKAGES = [
      "die Gesundheit"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La salute è importante.",
+    "definition": "Condizione del corpo di chi sta bene.",
     "page": "183-185",
     "related": "L salus",
     "grammar": {
@@ -18963,8 +18963,8 @@ const STOCK_PACKAGES = [
      "das Studium"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Lo studio richiede tempo.",
+    "definition": "Attività di chi impara leggendo e ripetendo.",
     "usage": "pl. gli studi. Unterscheide: Ho lezioni di danza in uno studio. – Ich habe Tanzkurse in einem Studio. / Dopo lo studio incontro i miei amici. – Nach dem Lernen treffe ich meine Freunde.",
     "page": "183-185",
     "related": "L studium",
@@ -18985,8 +18985,8 @@ const STOCK_PACKAGES = [
      "töten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il gatto non può uccidere il leone.",
+    "definition": "Togliere la vita a una persona o a un animale.",
     "page": "183-185",
     "related": "L occidere"
    },
@@ -19000,8 +19000,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "Ehi!"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Ehi, aspettami!",
+    "definition": "Per attirare l’attenzione.",
     "page": "183-185"
    },
    {
@@ -19012,7 +19012,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Adesso arriva Khalid. Finalmente!",
-    "definition": "",
+    "definition": "Dopo molta attesa.",
     "usage": "avv.",
     "page": "183-185",
     "related": "▸ finire; E finally"
@@ -19027,7 +19027,7 @@ const STOCK_PACKAGES = [
      "sciare"
     ],
     "example": "D’inverno vado a sciare.",
-    "definition": "",
+    "definition": "Scivolare sulla neve con gli sci.",
     "page": "183-185"
    },
    {
@@ -19038,7 +19038,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A Lecce non nevica spesso.",
-    "definition": "",
+    "definition": "Cadere della neve dal cielo.",
     "page": "183-185"
    },
    {
@@ -19049,7 +19049,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Al nord tutti sanno sciare.",
-    "definition": "",
+    "definition": "Punto cardinale in alto sulla carta.",
     "page": "183-185",
     "grammar": {
      "partOfSpeech": "noun",
@@ -19068,8 +19068,8 @@ const STOCK_PACKAGES = [
      "notfalls"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Al limite possiamo andare domani.",
+    "definition": "Se non c’è altra soluzione.",
     "usage": "avv.",
     "page": "183-185"
    },
@@ -19084,7 +19084,7 @@ const STOCK_PACKAGES = [
      "imparare"
     ],
     "example": "Filippo vuole imparare a sciare.",
-    "definition": "",
+    "definition": "Acquisire una nuova conoscenza o capacità.",
     "usage": "Unterscheide: Voglio imparare il tedesco. – Ich möchte Deutsch lernen. / Oggi devo ancora studiare per il compito di tedesco. – Heute muss ich noch für die Deutschschulaufgabe lernen.",
     "page": "183-185"
    },
@@ -19095,8 +19095,8 @@ const STOCK_PACKAGES = [
      "interessant"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il libro è molto interessante.",
+    "definition": "Che attira l’attenzione.",
     "page": "183-185"
    },
    {
@@ -19107,7 +19107,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Vuoi venire anche tu? – Sì, certo!",
-    "definition": "",
+    "definition": "Sicuro, senza dubbio.",
     "usage": "avv.",
     "page": "183-185"
    },
@@ -19121,7 +19121,7 @@ const STOCK_PACKAGES = [
      "dimenticare"
     ],
     "example": "Non dimenticare i compiti a casa!",
-    "definition": "",
+    "definition": "Non ricordare più.",
     "usage": "Abc",
     "page": "183-185"
    },
@@ -19135,7 +19135,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A scuola dobbiamo portare i libri.",
-    "definition": "",
+    "definition": "Avere qualcosa con sé e spostarlo.",
     "page": "183-185",
     "related": "F porter; L portare"
    },
@@ -19147,7 +19147,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Dovete assolutamente venire!",
-    "definition": "",
+    "definition": "In modo completo, senza dubbio.",
     "usage": "avv.",
     "page": "183-185",
     "related": "E absolutely"
@@ -19178,7 +19178,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -19217,7 +19217,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La neve è bianca.",
-    "definition": "",
+    "definition": "Colore della neve.",
     "usage": "pl. bianchi/bianche",
     "page": "185-186",
     "related": "F blanc(he)"
@@ -19229,8 +19229,8 @@ const STOCK_PACKAGES = [
      "schwarz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il gatto è nero.",
+    "definition": "Colore della notte.",
     "page": "185-186",
     "related": "≠ bianco; F noir/e"
    },
@@ -19242,7 +19242,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Filippo cade con lo snowboard.",
-    "definition": "",
+    "definition": "Andare giù e finire a terra.",
     "page": "185-186",
     "related": "L cadere"
    },
@@ -19255,8 +19255,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "provare"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Provo a nuotare.",
+    "definition": "Fare un tentativo.",
     "page": "185-186",
     "related": "L probare"
    },
@@ -19267,8 +19267,8 @@ const STOCK_PACKAGES = [
      "die Abfahrt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La discesa è ripida.",
+    "definition": "Percorso verso il basso.",
     "page": "185-186",
     "grammar": {
      "partOfSpeech": "noun",
@@ -19290,7 +19290,7 @@ const STOCK_PACKAGES = [
      "rimanere"
     ],
     "example": "Anna rimane a casa per studiare.",
-    "definition": "",
+    "definition": "Restare in un posto.",
     "usage": "Abc; p.p. rimasto",
     "page": "185-186",
     "related": "E to remain"
@@ -19302,8 +19302,8 @@ const STOCK_PACKAGES = [
      "der Fuß"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi fa male il piede.",
+    "definition": "Parte del corpo con cui si cammina.",
     "page": "185-186",
     "related": "F le pied; L pes",
     "grammar": {
@@ -19326,7 +19326,7 @@ const STOCK_PACKAGES = [
      "stanco/-a"
     ],
     "example": "Anna ha fatto molto sport. Adesso è stanca.",
-    "definition": "",
+    "definition": "Senza energia dopo molta attività.",
     "usage": "pl. stanchi/-che",
     "page": "185-186"
    },
@@ -19337,8 +19337,8 @@ const STOCK_PACKAGES = [
      "verlieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Perdo sempre le chiavi.",
+    "definition": "Non vincere; non trovare più.",
     "usage": "p.p. perso",
     "page": "185-186",
     "related": "F perdre; L perdere"
@@ -19351,7 +19351,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La Juve ha perso contro l’Inter.",
-    "definition": "",
+    "definition": "Piccola parola che indica opposizione.",
     "page": "185-186",
     "related": "L contra"
    },
@@ -19363,7 +19363,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Khalid è deluso perché la Juve ha perso.",
-    "definition": "",
+    "definition": "Triste perché le speranze non si sono avverate.",
     "page": "185-186"
    },
    {
@@ -19375,8 +19375,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "decidere"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Decido di studiare.",
+    "definition": "Scegliere tra più possibilità.",
     "usage": "p.p. deciso",
     "page": "185-186",
     "related": "E to decide; F décider"
@@ -19389,7 +19389,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Anna scrive un messaggio.",
-    "definition": "",
+    "definition": "Testo breve che si manda con il telefono.",
     "page": "185-186",
     "related": "E message; F le message",
     "grammar": {
@@ -19410,7 +19410,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho appena visto il tuo messaggio.",
-    "definition": "",
+    "definition": "Da pochissimo.",
     "usage": "avv.",
     "page": "185-186"
    },
@@ -19421,8 +19421,8 @@ const STOCK_PACKAGES = [
      "das Ergebnis"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Qual è il risultato della partita?",
+    "definition": "Punteggio finale o esito di qualcosa.",
     "page": "185-186",
     "related": "F le résultat",
     "grammar": {
@@ -19442,8 +19442,8 @@ const STOCK_PACKAGES = [
      "Igitt!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che schifo, questo cibo!",
+    "definition": "Esclamazione che esprime disgusto.",
     "page": "185-186"
    },
    {
@@ -19454,7 +19454,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Giorgia telefona a Filippo.",
-    "definition": "",
+    "definition": "Chiamare una persona con il telefono.",
     "usage": "Das Verb telefonare steht im Italienischen anders als im Deutschen mit indirektem Objekt: Ich rufe Giorgia an. – Telefono a Giorgia.",
     "page": "185-186"
    },
@@ -19465,8 +19465,8 @@ const STOCK_PACKAGES = [
      "Hallo!? (am Telefon)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Pronto? Chi parla?",
+    "definition": "Parola con cui si risponde al telefono.",
     "page": "185-186",
     "related": "▸ pronto/-a"
    },
@@ -19480,7 +19480,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Lascia perdere!",
-    "definition": "",
+    "definition": "Non portare con sé; abbandonare.",
     "page": "185-186",
     "related": "F laisser"
    },
@@ -19491,8 +19491,8 @@ const STOCK_PACKAGES = [
      "Lass es (gut) sein!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Lascia perdere, non è importante.",
+    "definition": "Espressione per dire: non preoccuparti, abbandona l’idea.",
     "page": "185-186"
    },
    {
@@ -19503,7 +19503,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Anna abita vicino al centro.",
-    "definition": "",
+    "definition": "A poca distanza da qualcosa.",
     "page": "185-186"
    },
    {
@@ -19514,8 +19514,8 @@ const STOCK_PACKAGES = [
      "das Café"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio colazione al bar.",
+    "definition": "Locale dove si beve caffè e si mangia qualcosa.",
     "usage": "pl. i bar",
     "page": "185-186",
     "grammar": {
@@ -19536,7 +19536,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Non fare il pappamolle!",
-    "definition": "",
+    "definition": "Persona senza energia o coraggio.",
     "usage": "fam.",
     "tags": [
      "fakultativ"
@@ -19560,7 +19560,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Per arrivare in centro puoi prendere il tram.",
-    "definition": "",
+    "definition": "Mezzo pubblico elettrico che corre sui binari della città.",
     "usage": "pl. i tram",
     "page": "185-186",
     "grammar": {
@@ -19581,7 +19581,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Non abbiamo studiato per niente!",
-    "definition": "",
+    "definition": "Assolutamente no.",
     "usage": "avv.",
     "page": "185-186"
    },
@@ -19594,7 +19594,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Dunque … Come posso dire? Ah, ecco …",
-    "definition": "",
+    "definition": "Parola che introduce una conclusione.",
     "usage": "avv.",
     "page": "185-186",
     "related": "F donc"
@@ -19607,7 +19607,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La Juve ha segnato.",
-    "definition": "",
+    "definition": "Mettere la palla in rete e fare un punto.",
     "page": "185-186"
    },
    {
@@ -19619,7 +19619,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Dopo l’intervallo l’Inter ha segnato.",
-    "definition": "",
+    "definition": "Pausa tra due momenti, a scuola o in una partita.",
     "page": "185-186"
    },
    {
@@ -19629,8 +19629,8 @@ const STOCK_PACKAGES = [
      "das Tor"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il gol decide la partita.",
+    "definition": "Punto che si fa quando la palla entra in porta.",
     "usage": "pl. i gol",
     "page": "185-186",
     "related": "E goal",
@@ -19651,8 +19651,8 @@ const STOCK_PACKAGES = [
      "gestohlen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La bicicletta è stata rubata.",
+    "definition": "Preso senza permesso.",
     "page": "185-186"
    },
    {
@@ -19664,7 +19664,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Sono arrivata. Devo scendere dal tram.",
-    "definition": "",
+    "definition": "Andare giù; uscire da un mezzo.",
     "usage": "p.p. sceso",
     "page": "185-186",
     "related": "F descendre; L descendere"
@@ -19677,7 +19677,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La Juve è scesa in classifica.",
-    "definition": "",
+    "definition": "Elenco ordinato dei risultati.",
     "usage": "pl. le classifiche",
     "page": "185-186",
     "grammar": {
@@ -19698,7 +19698,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La sera sono stanca e vado a letto.",
-    "definition": "",
+    "definition": "Parte del giorno dopo il pomeriggio.",
     "page": "185-186",
     "related": "F le soir",
     "grammar": {
@@ -19720,7 +19720,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Parte del giorno dopo il pomeriggio.",
     "usage": "avv.",
     "page": "185-186",
     "grammar": {
@@ -19742,7 +19742,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il fine settimana è stato divertente.",
-    "definition": "",
+    "definition": "Che fa ridere o passare un bel momento.",
     "page": "185-186"
    },
    {
@@ -19754,7 +19754,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La Juve ha vinto 2:1.",
-    "definition": "",
+    "definition": "Arrivare primo in una gara.",
     "usage": "p.p. vinto",
     "page": "185-186",
     "related": "L vincere"
@@ -19766,8 +19766,8 @@ const STOCK_PACKAGES = [
      "lachen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Rido sempre con i miei amici.",
+    "definition": "Mostrare allegria con la voce.",
     "usage": "p.p. riso",
     "page": "185-186",
     "related": "F rire; L ridere"
@@ -19780,7 +19780,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "È stato divertente. Abbiamo riso parecchio.",
-    "definition": "",
+    "definition": "In quantità abbastanza grande.",
     "usage": "avv.",
     "page": "185-186"
    },
@@ -19793,7 +19793,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "I genitori di Leo sono gentili.",
-    "definition": "",
+    "definition": "Che si comporta con cortesia.",
     "page": "185-186",
     "related": "F gentil/-le"
    },
@@ -19805,7 +19805,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Abbiamo passato una domenica bellissima.",
-    "definition": "",
+    "definition": "Trascorrere un periodo di tempo.",
     "page": "185-186"
    },
    {
@@ -19815,8 +19815,8 @@ const STOCK_PACKAGES = [
      "Es tut mir Leid."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi dispiace, non posso venire.",
+    "definition": "Frase per dire che sei dispiaciuto.",
     "page": "185-186"
    },
    {
@@ -19826,8 +19826,8 @@ const STOCK_PACKAGES = [
      "Bis später!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ciao, ci sentiamo domani!",
+    "definition": "Si dice per dire che ci si telefona o ci si scrive presto.",
     "usage": "Telefonat",
     "page": "185-186"
    },
@@ -19838,8 +19838,8 @@ const STOCK_PACKAGES = [
      "Bis später!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ci vediamo domani a scuola!",
+    "definition": "Si dice quando ci si saluta e ci si rivede presto.",
     "page": "185-186"
    }
   ]
@@ -19868,7 +19868,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -19908,7 +19908,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Scusa, non ho tempo. A Sestriere non fa spesso brutto tempo.",
-    "definition": "",
+    "definition": "Quello che scorre ogni giorno; anche le condizioni dell’aria, come sole o pioggia.",
     "page": "182-183",
     "related": "F le temps; L tempus",
     "grammar": {
@@ -19929,7 +19929,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Nel tempo libero incontro gli amici.",
-    "definition": "",
+    "definition": "Senza impegni o senza ostacoli.",
     "page": "182-183",
     "related": "F libre"
    },
@@ -19940,8 +19940,8 @@ const STOCK_PACKAGES = [
      "es ist schön + Inf."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È bello stare con gli amici.",
+    "definition": "Espressione per dire che un’azione è piacevole.",
     "page": "182-183"
    },
    {
@@ -19951,8 +19951,8 @@ const STOCK_PACKAGES = [
      "Snowboard fahren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio snowboard in montagna.",
+    "definition": "Scendere sulla neve con una tavola.",
     "page": "182-183"
    },
    {
@@ -19963,7 +19963,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "I miei genitori hanno una casa a Sestriere.",
-    "definition": "",
+    "definition": "Padre e madre.",
     "usage": "pl.",
     "page": "182-183",
     "grammar": {
@@ -19983,8 +19983,8 @@ const STOCK_PACKAGES = [
      "die Wohnung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Abito in un appartamento al terzo piano.",
+    "definition": "Casa in un edificio con più piani.",
     "page": "182-183",
     "related": "E apartment; F l’appartement"
    },
@@ -19995,8 +19995,8 @@ const STOCK_PACKAGES = [
      "finden"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Trovo le chiavi sul tavolo.",
+    "definition": "Scoprire qualcosa che si cercava.",
     "page": "182-183",
     "related": "≠ cercare; F trouver"
    },
@@ -20008,7 +20008,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A Sestriere Leo trova sempre neve.",
-    "definition": "",
+    "definition": "Fiocchi bianchi che cadono d’inverno.",
     "page": "182-183",
     "grammar": {
      "partOfSpeech": "noun",
@@ -20027,8 +20027,8 @@ const STOCK_PACKAGES = [
      "die Politik"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mio zio parla sempre di politica.",
+    "definition": "Attività di chi governa un paese.",
     "usage": "pl. le politiche",
     "page": "182-183",
     "grammar": {
@@ -20050,7 +20050,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mi piace discutere di politica.",
-    "definition": "",
+    "definition": "Parlare di qualcosa con altre persone, dando opinioni.",
     "page": "182-183",
     "related": "F discuter"
    },
@@ -20061,8 +20061,8 @@ const STOCK_PACKAGES = [
      "spielen + Instrument"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Suono la chitarra.",
+    "definition": "Produrre musica con uno strumento.",
     "usage": "Unterscheide: Fußball spielen – giocare a calcio; Klavier spielen – suonare il pianoforte. Das Musikinstrument steht nach suonare immer mit dem bestimmten Artikel.",
     "page": "182-183"
    },
@@ -20074,7 +20074,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Anna suona il pianoforte.",
-    "definition": "",
+    "definition": "Grande strumento con i tasti bianchi e neri.",
     "page": "182-183",
     "related": "E piano",
     "grammar": {
@@ -20094,8 +20094,8 @@ const STOCK_PACKAGES = [
      "die Querflöte"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Anna suona il flauto traverso.",
+    "definition": "Strumento a fiato di metallo che si suona di lato.",
     "page": "182-183",
     "related": "F la flûte traversière",
     "grammar": {
@@ -20116,7 +20116,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il mio strumento preferito è il pianoforte.",
-    "definition": "",
+    "definition": "Oggetto per fare musica.",
     "page": "182-183",
     "grammar": {
      "partOfSpeech": "noun",
@@ -20135,8 +20135,8 @@ const STOCK_PACKAGES = [
      "begleiten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Accompagno mia sorella a scuola.",
+    "definition": "Andare o suonare insieme a qualcuno.",
     "usage": "Unterscheide: Perché la matematica è facile per Khalid? – Warum ist Mathematik einfach für Khalid? / La matematica è facile per Khalid perché capisce tutto subito. – Mathematik ist einfach für Khalid, weil er alles sofort versteht.",
     "page": "182-183",
     "related": "F accompagner; E to accompany"
@@ -20148,8 +20148,8 @@ const STOCK_PACKAGES = [
      "singen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Canto sotto la doccia.",
+    "definition": "Produrre musica con la voce.",
     "page": "182-183",
     "related": "F chanter; L cantare"
    },
@@ -20160,8 +20160,8 @@ const STOCK_PACKAGES = [
      "klassisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ascolto musica classica.",
+    "definition": "Tradizionale, di una tradizione antica.",
     "usage": "pl. classici/classiche",
     "page": "182-183",
     "related": "F classique"
@@ -20174,7 +20174,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La musica pop è musica leggera.",
-    "definition": "",
+    "definition": "Che pesa poco.",
     "page": "182-183",
     "related": "F léger, légère"
    },
@@ -20186,7 +20186,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Anna gioca a pallavolo.",
-    "definition": "",
+    "definition": "Sport di squadra con una rete alta e una palla.",
     "page": "182-183",
     "grammar": {
      "partOfSpeech": "noun",
@@ -20206,7 +20206,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "D’inverno c’è la neve.",
-    "definition": "",
+    "definition": "Stagione fredda dopo l’autunno.",
     "usage": "m.",
     "page": "182-183"
    },
@@ -20218,7 +20218,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "D’inverno vado a pattinare.",
-    "definition": "",
+    "definition": "Scivolare sul ghiaccio con speciali scarpe.",
     "usage": "Unterscheide: pattinare – eislaufen, inlineskaten; pattinare su(l) ghiaccio – eislaufen; pattinare inline – inlineskaten. Wenn es Missverständnisse geben könnte, muss man sul ghiaccio oder inline entsprechend ergänzen.",
     "page": "182-183"
    },
@@ -20230,7 +20230,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho una passione per l’arte.",
-    "definition": "",
+    "definition": "Interesse molto forte per qualcosa.",
     "page": "182-183",
     "related": "E passion; F la passion",
     "grammar": {
@@ -20251,7 +20251,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Qual è il tuo hobby? – Suono il flauto.",
-    "definition": "",
+    "definition": "Attività che si fa per piacere nel tempo libero.",
     "usage": "pl. gli hobby",
     "page": "182-183"
    },
@@ -20263,7 +20263,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Con il computer sono collegato con gli amici.",
-    "definition": "",
+    "definition": "Unito, in relazione con qualcosa.",
     "page": "182-183"
    },
    {
@@ -20274,7 +20274,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Amo il calcio e inoltre mi piace la musica.",
-    "definition": "",
+    "definition": "Parola che aggiunge un’altra informazione.",
     "usage": "avv.",
     "page": "182-183"
    },
@@ -20286,7 +20286,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ascolto volentieri la musica di Liga.",
-    "definition": "",
+    "definition": "Con piacere.",
     "usage": "avv.",
     "page": "182-183"
    },
@@ -20297,8 +20297,8 @@ const STOCK_PACKAGES = [
      "hauptsächlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi piace lo sport, soprattutto il calcio.",
+    "definition": "In modo particolare.",
     "usage": "avv.",
     "page": "182-183"
    },
@@ -20310,7 +20310,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il mio strumento preferito è la chitarra.",
-    "definition": "",
+    "definition": "Strumento con sei corde.",
     "page": "182-183",
     "related": "E guitar",
     "grammar": {
@@ -20330,8 +20330,8 @@ const STOCK_PACKAGES = [
      "die Gruppe"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Siamo un gruppo di amici.",
+    "definition": "Insieme di persone che stanno o fanno qualcosa insieme.",
     "page": "182-183",
     "related": "E group; F le groupe",
     "grammar": {
@@ -20352,7 +20352,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Suono la chitarra in un gruppo.",
-    "definition": "",
+    "definition": "Insieme di musicisti che suonano musica rock.",
     "page": "182-183",
     "grammar": {
      "partOfSpeech": "noun",
@@ -20371,8 +20371,8 @@ const STOCK_PACKAGES = [
      "weil"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sono felice perché è sabato.",
+    "definition": "Parola che introduce la causa.",
     "page": "182-183",
     "related": "▸ perché?"
    },
@@ -20384,7 +20384,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Gioco a calcio. Vado all’allenamento il mercoledì.",
-    "definition": "",
+    "definition": "Preparazione fisica per uno sport.",
     "page": "182-183"
    },
    {
@@ -20395,7 +20395,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Giorgia fa danza moderna.",
-    "definition": "",
+    "definition": "Dei nostri tempi, non antico.",
     "page": "182-183"
    },
    {
@@ -20405,8 +20405,8 @@ const STOCK_PACKAGES = [
      "die Bewegung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il movimento fa bene alla salute.",
+    "definition": "Azione di chi si muove.",
     "page": "182-183",
     "related": "E movement; F le mouvement",
     "grammar": {
@@ -20427,7 +20427,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Amo l’applauso quando ballo.",
-    "definition": "",
+    "definition": "Battere le mani per dire bravo.",
     "page": "182-183"
    },
    {
@@ -20437,8 +20437,8 @@ const STOCK_PACKAGES = [
      "das Ende"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La fine del film è bella.",
+    "definition": "Il momento in cui qualcosa finisce.",
     "page": "182-183",
     "related": "L finis",
     "grammar": {
@@ -20458,8 +20458,8 @@ const STOCK_PACKAGES = [
      "das Wochenende"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Nel fine settimana gioco a calcio.",
+    "definition": "Sabato e domenica.",
     "usage": "pl. i fine settimana",
     "page": "182-183",
     "related": "▸ la settimana",
@@ -20482,7 +20482,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Sabato vado in montagna.",
-    "definition": "",
+    "definition": "Grande elevazione del terreno.",
     "page": "182-183",
     "related": "E mountain",
     "grammar": {
@@ -20503,7 +20503,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "D’estate vado in spiaggia.",
-    "definition": "",
+    "definition": "Stagione calda dopo la primavera.",
     "usage": "f.",
     "page": "182-183",
     "related": "≠ l’inverno; F l’été"
@@ -20534,7 +20534,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -20572,8 +20572,8 @@ const STOCK_PACKAGES = [
      "der Engel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Un angelo veglia su di te.",
+    "definition": "Essere con le ali nelle storie religiose.",
     "page": "187-188",
     "related": "E angel; F l’ange"
    },
@@ -20586,7 +20586,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho una novità pazzesca!",
-    "definition": "",
+    "definition": "Incredibile, fuori dal normale.",
     "usage": "pl. pazzeschi/-che",
     "page": "187-188"
    },
@@ -20598,7 +20598,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Partiamo dall’inizio.",
-    "definition": "",
+    "definition": "Il momento in cui comincia qualcosa.",
     "usage": "pl. gli inizi",
     "page": "187-188",
     "related": "≠ la fine; L initium"
@@ -20610,8 +20610,8 @@ const STOCK_PACKAGES = [
      "gestern"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ieri ho visto un film.",
+    "definition": "Il giorno prima di oggi.",
     "usage": "avv.",
     "page": "187-188",
     "related": "≠ domani; F hier; L heri"
@@ -20624,7 +20624,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Unterscheide: it. i parenti – die Verwandten; engl. parents – die Eltern",
-    "definition": "",
+    "definition": "Persona della stessa famiglia.",
     "usage": "pl. i parenti",
     "page": "187-188",
     "grammar": {
@@ -20645,7 +20645,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Alla festa invito gli amici.",
-    "definition": "",
+    "definition": "Chiedere a qualcuno di venire a una festa.",
     "page": "187-188",
     "related": "E invite; F inviter"
    },
@@ -20660,7 +20660,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La nonna, che ha 82 anni, ha ballato.",
-    "definition": "",
+    "definition": "Piccola parola che introduce una frase.",
     "usage": "pron. rel. Das Wort che hat verschiedene Verwendungen: Che lingue parli? – Welche Sprachen sprichst du? / Che buono! – Wie lecker! / Che fortuna! – Was für ein Glück! / Che cosa ti piace? – Was gefällt dir? / Sappiamo che è così. – Wir wissen, dass es so ist. / Che ore sono? – Wieviel Uhr ist es? / Il ragazzo che vedi è Khalid. – Der Junge, den du siehst, ist Khalid.",
     "page": "187-188",
     "related": "F qui/-e"
@@ -20674,7 +20674,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mia cugina di solito è simpatica.",
-    "definition": "",
+    "definition": "Quasi sempre, in genere.",
     "usage": "avv.",
     "page": "187-188"
    },
@@ -20686,8 +20686,8 @@ const STOCK_PACKAGES = [
      "hier: nerven"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho rotto un bicchiere.",
+    "definition": "Fare in pezzi un oggetto.",
     "usage": "p.p. rotto",
     "page": "187-188",
     "related": "L rumpere"
@@ -20703,7 +20703,7 @@ const STOCK_PACKAGES = [
      "mantenere"
     ],
     "example": "Puoi mantenere un segreto?",
-    "definition": "",
+    "definition": "Conservare qualcosa nel tempo.",
     "usage": "Abc",
     "page": "187-188",
     "related": "E to maintain; ▸ tenere"
@@ -20715,8 +20715,8 @@ const STOCK_PACKAGES = [
      "das Geheimnis"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non dirlo a nessuno: è un segreto!",
+    "definition": "Cosa che non si deve dire a nessuno.",
     "page": "187-188",
     "related": "E secret; F le secret",
     "grammar": {
@@ -20738,8 +20738,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "tenere"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Tengo il libro in mano.",
+    "definition": "Stringere o conservare qualcosa.",
     "usage": "Abc",
     "page": "187-188",
     "related": "F tenir; L tenere"
@@ -20753,7 +20753,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mio zio ha tenuto un discorso.",
-    "definition": "",
+    "definition": "Parole che una persona dice a un pubblico.",
     "page": "187-188",
     "grammar": {
      "partOfSpeech": "noun",
@@ -20773,8 +20773,8 @@ const STOCK_PACKAGES = [
      "Dame"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La donna aspetta l’autobus.",
+    "definition": "Persona adulta di sesso femminile.",
     "page": "187-188",
     "related": "L domina",
     "grammar": {
@@ -20794,8 +20794,8 @@ const STOCK_PACKAGES = [
      "lebhaft"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il bambino è molto vivace.",
+    "definition": "Pieno di energia.",
     "page": "187-188",
     "related": "▸ la vita"
    },
@@ -20807,7 +20807,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mia nonna è molto vivace alla sua età.",
-    "definition": "",
+    "definition": "Considerata l’età di una persona.",
     "page": "187-188"
    },
    {
@@ -20817,8 +20817,8 @@ const STOCK_PACKAGES = [
      "ehrlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sii sincero con me.",
+    "definition": "Che dice la verità.",
     "page": "187-188",
     "related": "E sincere; F sincère"
    },
@@ -20829,8 +20829,8 @@ const STOCK_PACKAGES = [
      "erfahren haben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho saputo che sei in Italia.",
+    "definition": "Aver ricevuto una notizia.",
     "usage": "Abc: so – ich weiß; ho saputo – ich habe erfahren",
     "page": "187-188"
    },
@@ -20842,7 +20842,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Papà ha rotto una vetrina con il pallone.",
-    "definition": "",
+    "definition": "Grande vetro di un negozio.",
     "page": "187-188",
     "grammar": {
      "partOfSpeech": "noun",
@@ -20861,8 +20861,8 @@ const STOCK_PACKAGES = [
      "der Abend (Verlauf)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Abbiamo passato una bella serata.",
+    "definition": "L’intero periodo che va dal tramonto alla notte.",
     "usage": "Unterscheide: 1. den Abend in seinem Verlauf: Abbiamo passato una bella serata al ristorante. – Wir haben einen schönen Abend im Restaurant verbracht. 2. den Abend als Zeitangabe: Domani sera andiamo al ristorante. – Morgen Abend gehen wir ins Restaurant.",
     "page": "187-188",
     "related": "▸ la sera; F la soirée",
@@ -20884,7 +20884,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Stasera mio padre prepara la cena.",
-    "definition": "",
+    "definition": "Pasto della sera.",
     "page": "187-188",
     "related": "L cena",
     "grammar": {
@@ -20905,7 +20905,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il cameriere del ristorante porta la cena.",
-    "definition": "",
+    "definition": "Persona che serve ai tavoli di un ristorante.",
     "usage": "f. la cameriera",
     "page": "187-188",
     "grammar": {
@@ -20926,7 +20926,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il mio vicino ha un cane.",
-    "definition": "",
+    "definition": "Persona che abita nella casa accanto.",
     "usage": "f. la vicina",
     "page": "187-188",
     "related": "▸ vicino a; L vicinus",
@@ -20948,7 +20948,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il ragazzo parla poco – è timido.",
-    "definition": "",
+    "definition": "Che si imbarazza con le altre persone.",
     "page": "187-188",
     "related": "E timid"
    },
@@ -20961,7 +20961,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho fatto una figuraccia davanti a tutti.",
-    "definition": "",
+    "definition": "Fare una brutta impressione davanti agli altri.",
     "usage": "Abc",
     "page": "187-188"
    },
@@ -20973,7 +20973,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il cameriere apre la bottiglia.",
-    "definition": "",
+    "definition": "Rendere accessibile qualcosa.",
     "usage": "p.p. aperto",
     "page": "187-188",
     "related": "▸ aperto/-a; L aperire"
@@ -20986,7 +20986,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il cameriere apre la bottiglia.",
-    "definition": "",
+    "definition": "Contenitore di vetro per i liquidi.",
     "page": "187-188",
     "related": "E bottle; F la bouteille",
     "grammar": {
@@ -21008,7 +21008,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Lavo le mani prima di mangiare.",
-    "definition": "",
+    "definition": "Pulire con l’acqua.",
     "page": "187-188",
     "related": "F laver; L lavare"
    },
@@ -21020,7 +21020,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il povero cane è bagnato.",
-    "definition": "",
+    "definition": "Che ha pochi soldi.",
     "page": "187-188",
     "related": "E poor; F pauvre; L pauper/-eris"
    },
@@ -21032,7 +21032,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Improvvisamente la porta si apre.",
-    "definition": "",
+    "definition": "All’improvviso, senza avvisare.",
     "usage": "avv.",
     "page": "187-188"
    },
@@ -21044,7 +21044,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Tanti auguri, nonna!",
-    "definition": "",
+    "definition": "Frase per festeggiare una persona.",
     "page": "187-188"
    },
    {
@@ -21055,7 +21055,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Buon compleanno, Anna!",
-    "definition": "",
+    "definition": "Frase per augurare un bel compleanno.",
     "page": "187-188"
    },
    {
@@ -21065,8 +21065,8 @@ const STOCK_PACKAGES = [
      "wiedererkennen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ti riconosco dalla voce.",
+    "definition": "Capire chi è una persona che già si conosce.",
     "page": "187-188",
     "related": "▸ conoscere; F reconnaître"
    },
@@ -21078,7 +21078,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho tanti amici.",
-    "definition": "",
+    "definition": "In grande quantità.",
     "page": "187-188",
     "related": "≠ poco/-a; L tantus"
    },
@@ -21090,7 +21090,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "L’autobus è partito cinque minuti fa.",
-    "definition": "",
+    "definition": "Parola che indica un tempo già passato.",
     "usage": "prep. (nachgestellt). Unterscheide: due anni fa – vor zwei Jahren; Anna fa i compiti. – Anna macht Hausaufgaben.",
     "page": "187-188"
    },
@@ -21102,7 +21102,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Anna ha due fratelli gemelli.",
-    "definition": "",
+    "definition": "Fratello nato lo stesso giorno.",
     "usage": "pl. i gemelli",
     "page": "187-188",
     "related": "F les jumeaux; L gemelli",
@@ -21125,7 +21125,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Frank è uguale a Matthias. Sono come gemelli.",
-    "definition": "",
+    "definition": "Identico, senza differenza.",
     "usage": "agg.",
     "page": "187-188"
    },
@@ -21138,7 +21138,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il calcio è un tipo di sport.",
-    "definition": "",
+    "definition": "Persona o categoria di cose.",
     "page": "187-188",
     "grammar": {
      "partOfSpeech": "noun",
@@ -21159,7 +21159,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mio zio è molto divertente e spiritoso.",
-    "definition": "",
+    "definition": "Che fa ridere con le parole.",
     "page": "187-188"
    },
    {
@@ -21169,8 +21169,8 @@ const STOCK_PACKAGES = [
      "Deutschland"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La Germania è a nord dell’Italia.",
+    "definition": "Paese europeo con capitale Berlino.",
     "page": "187-188",
     "grammar": {
      "partOfSpeech": "noun",
@@ -21190,7 +21190,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il compito di latino è difficile.",
-    "definition": "",
+    "definition": "Che richiede molta fatica.",
     "usage": "Unterscheide: Il compito è facile. – Die Aufgabe ist einfach/leicht (vgl. engl. easy). Il compito è difficile. – Die Aufgabe ist schwierig/schwer (vgl. engl. difficult). La borsa è leggera. – Die Tasche ist leicht (Gewicht; vgl. engl. light). La borsa è pesante. – Die Tasche ist schwer (Gewicht; vgl. engl. heavy).",
     "page": "187-188",
     "related": "≠ facile; L difficilis/-e"
@@ -21202,8 +21202,8 @@ const STOCK_PACKAGES = [
      "Italien"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’Italia si affaccia sul Mediterraneo.",
+    "definition": "Paese europeo con forma di stivale.",
     "page": "187-188"
    },
    {
@@ -21215,7 +21215,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Io e mia sorella andiamo d’accordo.",
-    "definition": "",
+    "definition": "Avere buoni rapporti con qualcuno.",
     "usage": "Abc",
     "page": "187-188",
     "related": "F être d’accord"
@@ -21228,7 +21228,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Quasi tutti hanno un profilo in Internet.",
-    "definition": "",
+    "definition": "Scheda con le informazioni su una persona.",
     "page": "187-188",
     "grammar": {
      "partOfSpeech": "noun",
@@ -21249,7 +21249,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Un abbraccio dalla tua amica!",
-    "definition": "",
+    "definition": "Gesto di stringere qualcuno tra le braccia.",
     "usage": "pl. gli abbracci. Un abbraccio",
     "page": "187-188",
     "related": "E embrace"
@@ -21262,7 +21262,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A presto, ragazzi!",
-    "definition": "",
+    "definition": "Saluto che dice: ci vediamo molto presto.",
     "page": "187-188"
    },
    {
@@ -21273,7 +21273,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Tanti saluti a tutti!",
-    "definition": "",
+    "definition": "Parola o gesto per dire “ciao”.",
     "page": "187-188",
     "related": "F le salut; L salut",
     "grammar": {
@@ -21295,7 +21295,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Hai un consiglio per me?",
-    "definition": "",
+    "definition": "Suggerimento per aiutare qualcuno.",
     "usage": "pl. i consigli",
     "page": "187-188",
     "related": "F le conseil; L consilium",
@@ -21316,8 +21316,8 @@ const STOCK_PACKAGES = [
      "Rom (die Hauptstadt von Italien)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Roma è famosa per il Colosseo.",
+    "definition": "Capitale d’Italia.",
     "page": "187-188"
    }
   ]
@@ -21345,7 +21345,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -21383,7 +21383,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La mia amica è di Roma. È romana.",
-    "definition": "",
+    "definition": "Che viene dalla capitale d’Italia.",
     "page": "188-190"
    },
    {
@@ -21394,8 +21394,8 @@ const STOCK_PACKAGES = [
      "vor kurzem"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ultimamente studio molto.",
+    "definition": "In questi ultimi tempi.",
     "usage": "avv.",
     "page": "188-190",
     "related": "▸ ultimo/-a"
@@ -21409,7 +21409,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A scuola devo studiare tanto!",
-    "definition": "",
+    "definition": "In grande quantità; molto.",
     "usage": "avv. Unterscheide: Il film è poco interessante. – Der Film ist wenig/kaum interessant. La pizza è molto buona. – Die Pizza ist sehr gut. I cugini sono tanto carini. – Die Cousins sind sehr süß. La mia camera è troppo piccola. – Mein Zimmer ist zu klein.",
     "page": "188-190",
     "related": "= molto; F tant"
@@ -21422,7 +21422,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A Pasqua ci sono le vacanze.",
-    "definition": "",
+    "definition": "Festa della primavera, con le uova di cioccolato.",
     "page": "188-190",
     "grammar": {
      "partOfSpeech": "noun",
@@ -21442,7 +21442,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "In vacanza voglio fare un viaggio a Roma.",
-    "definition": "",
+    "definition": "Spostamento da un posto a un altro lontano.",
     "usage": "pl. i viaggi",
     "page": "188-190",
     "grammar": {
@@ -21463,7 +21463,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mantieni la calma!",
-    "definition": "",
+    "definition": "Stato di chi non è agitato.",
     "page": "188-190",
     "related": "E calm; F le calme",
     "grammar": {
@@ -21484,7 +21484,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Cerco un volo per Roma in Internet.",
-    "definition": "",
+    "definition": "Viaggio in aereo.",
     "page": "188-190",
     "related": "F le vol",
     "grammar": {
@@ -21505,7 +21505,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho trovato un volo a buon prezzo.",
-    "definition": "",
+    "definition": "Quanto costa una cosa.",
     "page": "188-190",
     "related": "E price; L pretium",
     "grammar": {
@@ -21526,8 +21526,8 @@ const STOCK_PACKAGES = [
      "billig"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho comprato la giacca a buon prezzo.",
+    "definition": "Che costa poco.",
     "page": "188-190"
    },
    {
@@ -21538,7 +21538,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Compro un vestito al negozio.",
-    "definition": "",
+    "definition": "Prendere qualcosa pagando.",
     "page": "188-190",
     "related": "≠ vendere"
    },
@@ -21551,7 +21551,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Filippo organizza i biglietti per il volo.",
-    "definition": "",
+    "definition": "Pezzetto di carta per viaggiare o per entrare.",
     "page": "188-190",
     "related": "F le billet",
     "grammar": {
@@ -21572,7 +21572,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "All’aeroporto ci sono molti aerei.",
-    "definition": "",
+    "definition": "Luogo da cui partono gli aerei.",
     "page": "188-190",
     "related": "E airport; F l’aéroport"
    },
@@ -21584,7 +21584,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Abbiamo perso l’autobus.",
-    "definition": "",
+    "definition": "Mezzo pubblico per la città.",
     "usage": "pl. gli autobus",
     "page": "188-190"
    },
@@ -21596,7 +21596,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Prendo l’autobus dalla stazione.",
-    "definition": "",
+    "definition": "Luogo da cui partono e arrivano i treni.",
     "page": "188-190",
     "related": "E station",
     "grammar": {
@@ -21616,8 +21616,8 @@ const STOCK_PACKAGES = [
      "sofort"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vieni subito!",
+    "definition": "Immediatamente.",
     "usage": "avv.",
     "page": "188-190"
    },
@@ -21629,7 +21629,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Telefono subito, promesso!",
-    "definition": "",
+    "definition": "Dire che farai sicuramente qualcosa.",
     "usage": "p.p. promesso",
     "page": "188-190",
     "related": "L promittere"
@@ -21642,7 +21642,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Devo scendere alla prossima fermata.",
-    "definition": "",
+    "definition": "Punto dove si sale e si scende dal bus.",
     "page": "188-190",
     "grammar": {
      "partOfSpeech": "noun",
@@ -21663,7 +21663,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "I ragazzi aspettano l’autobus alla fermata.",
-    "definition": "",
+    "definition": "Stare in un luogo finché arriva qualcosa.",
     "page": "188-190"
    },
    {
@@ -21675,7 +21675,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Devo controllare l’orario dell’autobus.",
-    "definition": "",
+    "definition": "Verificare che tutto sia a posto.",
     "page": "188-190",
     "related": "E to control"
    },
@@ -21688,7 +21688,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Prendiamo il treno per il centro.",
-    "definition": "",
+    "definition": "Mezzo che corre sui binari.",
     "page": "188-190",
     "related": "E train",
     "grammar": {
@@ -21708,8 +21708,8 @@ const STOCK_PACKAGES = [
      "Was für ein Schlamassel!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che pasticcio, ho perso il biglietto!",
+    "definition": "Esclamazione per una situazione confusa.",
     "page": "188-190"
    },
    {
@@ -21719,8 +21719,8 @@ const STOCK_PACKAGES = [
      "das Taxi"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Prendiamo un taxi per l’aeroporto.",
+    "definition": "Auto pubblica con un conducente che si paga.",
     "usage": "pl. i taxi",
     "page": "188-190",
     "grammar": {
@@ -21741,7 +21741,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il biglietto per il volo costa tanto.",
-    "definition": "",
+    "definition": "Avere un certo prezzo.",
     "page": "188-190",
     "related": "E to cost"
    },
@@ -21754,7 +21754,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il taxi costa un sacco! Ho un sacco di compiti per domani.",
-    "definition": "",
+    "definition": "Espressione informale per dire: moltissimo.",
     "usage": "fam.",
     "page": "188-190"
    },
@@ -21765,8 +21765,8 @@ const STOCK_PACKAGES = [
      "die Verspätung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il treno ha un ritardo di dieci minuti.",
+    "definition": "Arrivo dopo l’ora prevista.",
     "page": "188-190",
     "related": "▸ essere in ritardo",
     "grammar": {
@@ -21786,8 +21786,8 @@ const STOCK_PACKAGES = [
      "nichts"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non ho niente da fare.",
+    "definition": "Nessuna cosa.",
     "usage": "avv.",
     "page": "188-190"
    },
@@ -21799,7 +21799,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Scusa! Sono in ritardo. – Non fa niente!",
-    "definition": "",
+    "definition": "Si dice per dire: non è importante.",
     "page": "188-190"
    },
    {
@@ -21809,8 +21809,8 @@ const STOCK_PACKAGES = [
      "Es hat wirklich gut angefangen."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La gita? È cominciato proprio bene: piove!",
+    "definition": "Frase ironica quando l’inizio non è buono.",
     "page": "188-190"
    },
    {
@@ -21822,7 +21822,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Vado all’aeroporto in macchina.",
-    "definition": "",
+    "definition": "Veicolo con quattro ruote.",
     "page": "188-190",
     "grammar": {
      "partOfSpeech": "noun",
@@ -21841,8 +21841,8 @@ const STOCK_PACKAGES = [
      "ohne"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Esco senza ombrello.",
+    "definition": "Piccola parola che indica mancanza.",
     "page": "188-190",
     "related": "≠ con; F sans"
    },
@@ -21857,7 +21857,7 @@ const STOCK_PACKAGES = [
      "salire"
     ],
     "example": "Il treno parte. Devo salire.",
-    "definition": "",
+    "definition": "Andare verso l’alto o entrare in un mezzo.",
     "usage": "Abc",
     "page": "188-190",
     "related": "≠ scendere"
@@ -21871,7 +21871,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Tra poco siamo arrivati.",
-    "definition": "",
+    "definition": "Fra pochissimo tempo.",
     "page": "188-190"
    },
    {
@@ -21883,7 +21883,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Dalla stazione dobbiamo camminare un po’.",
-    "definition": "",
+    "definition": "Muoversi a piedi.",
     "usage": "Unterscheide: Devo camminare circa 35 minuti per arrivare a scuola. – Ich muss etwa 35 Minuten gehen/laufen, um in die Schule zu gelangen. La mattina devo andare a scuola. – Morgens muss ich in die Schule gehen. Mit camminare ist die Bewegung oder Bewegungsart gemeint. Einige Verben bilden das passato prossimo unregelmäßig: Ho camminato un’ora. – Ich bin eine Stunde lang spazieren gegangen.",
     "page": "188-190"
    }
@@ -21912,7 +21912,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -21950,7 +21950,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Per il mio compleanno faccio una festa.",
-    "definition": "",
+    "definition": "Occasione per stare insieme e divertirsi.",
     "page": "186",
     "grammar": {
      "partOfSpeech": "noun",
@@ -21971,8 +21971,8 @@ const STOCK_PACKAGES = [
      "das Kind"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il figlio di Anna ha sei anni.",
+    "definition": "Persona rispetto ai suoi genitori.",
     "usage": "f. la figlia; pl. i figli",
     "page": "186",
     "grammar": {
@@ -21993,7 +21993,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Anna non ha fratelli. È figlia unica.",
-    "definition": "",
+    "definition": "Ragazzo senza fratelli né sorelle.",
     "usage": "pl. i figli unici; f. la figlia unica, pl. le figlie uniche",
     "page": "186",
     "related": "L filius/-a",
@@ -22016,7 +22016,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mia nonna ha 70 anni.",
-    "definition": "",
+    "definition": "Padre del padre o della madre.",
     "usage": "f. la nonna",
     "page": "186",
     "grammar": {
@@ -22037,7 +22037,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mio cugino Frank è tedesco.",
-    "definition": "",
+    "definition": "Figlio di uno zio.",
     "usage": "f. la cugina",
     "page": "186",
     "grammar": {
@@ -22057,8 +22057,8 @@ const STOCK_PACKAGES = [
      "die Überraschung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho una sorpresa per te!",
+    "definition": "Cosa inattesa.",
     "page": "186",
     "related": "E surprise; F la surprise",
     "grammar": {
@@ -22079,7 +22079,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "I ragazzi festeggiano il compleanno di Anna.",
-    "definition": "",
+    "definition": "Celebrare un evento con una festa.",
     "page": "186"
    },
    {
@@ -22090,7 +22090,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Stasera andiamo al ristorante.",
-    "definition": "",
+    "definition": "Locale dove si mangia pagando.",
     "page": "186",
     "grammar": {
      "partOfSpeech": "noun",
@@ -22110,7 +22110,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Quando finisce la scuola?",
-    "definition": "",
+    "definition": "Domanda per sapere il momento.",
     "page": "186",
     "related": "F quand; L quando"
    },
@@ -22122,7 +22122,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Si prega di rispondere.",
-    "definition": "",
+    "definition": "Formula che si trova negli avvisi per chiedere gentilmente.",
     "page": "186"
    },
    {
@@ -22134,7 +22134,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Si prega di rispondere entro il primo marzo.",
-    "definition": "",
+    "definition": "Prima o al più tardi di un certo momento.",
     "usage": "avv.",
     "page": "186"
    }
@@ -22163,7 +22163,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -22200,8 +22200,8 @@ const STOCK_PACKAGES = [
      "eifersüchtig"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sono geloso del mio amico.",
+    "definition": "Che soffre perché ha paura di perdere una persona.",
     "page": "191-192",
     "related": "E jealous; F jaloux, jalouse"
    },
@@ -22213,7 +22213,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Vedi i ragazzi con i capelli neri?",
-    "definition": "",
+    "definition": "Peli lunghi sulla testa.",
     "usage": "pl.",
     "page": "191-192",
     "grammar": {
@@ -22234,7 +22234,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Khalid ha i capelli ricci.",
-    "definition": "",
+    "definition": "Con i capelli o la lana a boccoli.",
     "usage": "pl. ricci/-e",
     "page": "191-192"
    },
@@ -22246,7 +22246,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Quale ragazzo? – Quel ragazzo là!",
-    "definition": "",
+    "definition": "Indica una persona o una cosa lontana.",
     "page": "191-192"
    },
    {
@@ -22259,7 +22259,7 @@ const STOCK_PACKAGES = [
      "uscire"
     ],
     "example": "Il ragazzo esce dal negozio.",
-    "definition": "",
+    "definition": "Andare fuori da un luogo.",
     "usage": "Abc",
     "page": "191-192",
     "related": "≠ entrare; L exire"
@@ -22272,7 +22272,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Vedo con gli occhi.",
-    "definition": "",
+    "definition": "Organo della vista.",
     "usage": "pl. gli occhi",
     "page": "191-192",
     "related": "L oculus"
@@ -22285,7 +22285,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Gli occhi di Khalid sono marroni.",
-    "definition": "",
+    "definition": "Colore del cioccolato.",
     "usage": "agg.",
     "page": "191-192"
    },
@@ -22297,7 +22297,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Khalid nasconde gli occhi sotto gli occhiali.",
-    "definition": "",
+    "definition": "Mettere qualcosa dove nessuno la vede.",
     "usage": "p.p. nascosto",
     "page": "191-192"
    },
@@ -22308,8 +22308,8 @@ const STOCK_PACKAGES = [
      "übertreiben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non esagerare con i dolci!",
+    "definition": "Fare o dire più del necessario.",
     "page": "191-192",
     "related": "E to exaggerate; F exagérer"
    },
@@ -22321,7 +22321,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Al negozio c’è una cassa.",
-    "definition": "",
+    "definition": "Posto dove si paga in un negozio.",
     "page": "191-192",
     "grammar": {
      "partOfSpeech": "noun",
@@ -22341,7 +22341,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il commesso vende i vestiti.",
-    "definition": "",
+    "definition": "Persona che lavora in un negozio.",
     "usage": "f. la commessa",
     "page": "191-192",
     "grammar": {
@@ -22361,8 +22361,8 @@ const STOCK_PACKAGES = [
      "die externe Festplatte"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Salvo le foto sull’hard disk esterno.",
+    "definition": "Dispositivo per conservare dati, da collegare al computer.",
     "tags": [
      "fakultativ"
     ],
@@ -22376,7 +22376,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho visto un film in tv.",
-    "definition": "",
+    "definition": "Storia mostrata al cinema o in TV.",
     "usage": "pl. i film",
     "page": "191-192",
     "grammar": {
@@ -22397,7 +22397,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Sono stanco. Sono andato al letto tardi.",
-    "definition": "",
+    "definition": "Dopo l’ora giusta.",
     "usage": "avv.",
     "page": "191-192",
     "related": "≠ presto; F tard"
@@ -22411,7 +22411,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "C’è tanto da fare, colleghi!",
-    "definition": "",
+    "definition": "Persona che lavora con te.",
     "usage": "f. la collega; pl. i colleghi/le colleghe",
     "page": "191-192",
     "grammar": {
@@ -22432,7 +22432,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "C’è tanto da fare.",
-    "definition": "",
+    "definition": "Piccola parola per “a casa di” o per un punto di partenza.",
     "usage": "Die Präposition da hat verschiedene Verwendungen: Filippo è da Leonardo. – Filippo ist bei Leonardo. / Giorgia parte da Roma. – Giorgia reist aus Rom ab. / Ci sono molte cose da mangiare. – Es gibt viele Dinge zu essen.",
     "page": "191-192"
    },
@@ -22444,7 +22444,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A cena la famiglia mangia insieme.",
-    "definition": "",
+    "definition": "Mettere cibo in bocca.",
     "page": "191-192",
     "related": "F manger"
    },
@@ -22458,7 +22458,7 @@ const STOCK_PACKAGES = [
      "bere"
     ],
     "example": "Tutti portano qualcosa da mangiare e da bere.",
-    "definition": "",
+    "definition": "Prendere un liquido.",
     "usage": "Abc; p.p. bevuto",
     "page": "191-192",
     "related": "L bibere"
@@ -22472,7 +22472,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Invito anche Anna. La chiamo subito.",
-    "definition": "",
+    "definition": "Dire il nome ad alta voce o telefonare.",
     "usage": "Unterscheide: Chiamo Anna. – Ich rufe Anna an. / Mi chiamo Anna. – Ich heiße Anna.",
     "page": "191-192",
     "related": "L clamare"
@@ -22503,7 +22503,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -22541,8 +22541,8 @@ const STOCK_PACKAGES = [
      "das Brot"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Compro il pane dal panettiere.",
+    "definition": "Alimento fatto con la farina.",
     "page": "192-194",
     "related": "F le pain; L panis",
     "grammar": {
@@ -22564,7 +22564,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A scuola mangio un panino.",
-    "definition": "",
+    "definition": "Piccolo pane con dentro prosciutto o formaggio.",
     "page": "192-194",
     "grammar": {
      "partOfSpeech": "noun",
@@ -22583,8 +22583,8 @@ const STOCK_PACKAGES = [
      "100 Gramm"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vorrei un etto di prosciutto.",
+    "definition": "Cento grammi.",
     "usage": "un etto – 100 Gramm; due etti – 200 Gramm; tre etti – 300 Gramm etc.",
     "page": "192-194"
    },
@@ -22596,7 +22596,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Prendo un etto di prosciutto.",
-    "definition": "",
+    "definition": "Carne di maiale che si mangia a fette.",
     "page": "192-194",
     "grammar": {
      "partOfSpeech": "noun",
@@ -22615,8 +22615,8 @@ const STOCK_PACKAGES = [
      "roh"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mangio la verdura cruda.",
+    "definition": "Non cotto.",
     "page": "192-194",
     "related": "F cru(e)"
    },
@@ -22628,7 +22628,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Da bere ho portato una bottiglia di aranciata.",
-    "definition": "",
+    "definition": "Bevanda gassata dolce, di colore arancio.",
     "page": "192-194"
    },
    {
@@ -22639,7 +22639,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Per la spesa prendo una busta.",
-    "definition": "",
+    "definition": "Sacchetto di carta o di plastica.",
     "page": "192-194",
     "grammar": {
      "partOfSpeech": "noun",
@@ -22659,7 +22659,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Amo mangiare le patatine davanti alla tv.",
-    "definition": "",
+    "definition": "Fettine di patata fritta da mangiare con le dita.",
     "usage": "pl.",
     "page": "192-194",
     "grammar": {
@@ -22680,7 +22680,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Prepariamo una cena per sei persone.",
-    "definition": "",
+    "definition": "Essere umano.",
     "page": "192-194",
     "grammar": {
      "partOfSpeech": "noun",
@@ -22700,7 +22700,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A Pasqua mangio le uova.",
-    "definition": "",
+    "definition": "Cibo che fa la gallina.",
     "usage": "m.; pl. le uova f.",
     "page": "192-194",
     "related": "F l’œuf"
@@ -22712,8 +22712,8 @@ const STOCK_PACKAGES = [
      "die Tomate"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il pomodoro è rosso.",
+    "definition": "Ortaggio rosso per la salsa.",
     "page": "192-194",
     "grammar": {
      "partOfSpeech": "noun",
@@ -22733,7 +22733,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mi piace il pane con burro.",
-    "definition": "",
+    "definition": "Grasso del latte che si spalma sul pane.",
     "page": "192-194",
     "grammar": {
      "partOfSpeech": "noun",
@@ -22753,7 +22753,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Bevo un succo.",
-    "definition": "",
+    "definition": "Liquido che si ottiene dalla frutta.",
     "usage": "pl. i succhi",
     "page": "192-194",
     "grammar": {
@@ -22773,8 +22773,8 @@ const STOCK_PACKAGES = [
      "das Obst"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La frutta è sana.",
+    "definition": "Mele, pere, arance...",
     "page": "192-194",
     "related": "E fruit; F le fruit",
     "grammar": {
@@ -22796,7 +22796,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho portato delle mele.",
-    "definition": "",
+    "definition": "Parole che indicano una quantità non precisata.",
     "page": "192-194"
    },
    {
@@ -22807,7 +22807,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Anna prepara un’insalata di pomodori.",
-    "definition": "",
+    "definition": "Piatto di verdure crude.",
     "page": "192-194"
    },
    {
@@ -22817,8 +22817,8 @@ const STOCK_PACKAGES = [
      "das Fleisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La carne si cuoce in padella.",
+    "definition": "Alimento che si ricava dagli animali.",
     "page": "192-194",
     "grammar": {
      "partOfSpeech": "noun",
@@ -22838,7 +22838,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Khalid non mangia la carne di maiale.",
-    "definition": "",
+    "definition": "Animale da cui si ricava il prosciutto.",
     "page": "192-194",
     "grammar": {
      "partOfSpeech": "noun",
@@ -22858,8 +22858,8 @@ const STOCK_PACKAGES = [
      "die Käsesorten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il formaggio è buono con il pane.",
+    "definition": "Cibo fatto con il latte.",
     "usage": "pl. i formaggi. il panino al formaggio – das Käsebrötchen; il panino al prosciutto – das Schinkenbrötchen",
     "page": "192-194",
     "related": "F le fromage",
@@ -22882,7 +22882,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mi mancano delle mele. Ne prendo cinque.",
-    "definition": "",
+    "definition": "Piccola parola che sostituisce una quantità.",
     "usage": "avv. Beachte die Satzstellung: Mi piace questo formaggio. Ne prendo due etti. Ne steht unmittelbar vor dem konjugierten Verb.",
     "page": "192-194"
    },
@@ -22894,8 +22894,8 @@ const STOCK_PACKAGES = [
      "übrigens"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "A proposito di musica: ti piace il rock?",
+    "definition": "Espressione per introdurre un nuovo argomento.",
     "page": "192-194"
    },
    {
@@ -22908,7 +22908,7 @@ const STOCK_PACKAGES = [
      "mancare"
     ],
     "example": "Per l’insalata mancano i pomodori.",
-    "definition": "",
+    "definition": "Non esserci.",
     "usage": "Abc",
     "page": "192-194",
     "related": "F manquer"
@@ -22920,8 +22920,8 @@ const STOCK_PACKAGES = [
      "besser"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questa pizza è meglio.",
+    "definition": "Più bene.",
     "usage": "avv.",
     "page": "192-194",
     "related": "F meilleur(e); L melior"
@@ -22935,7 +22935,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Anna manda un messaggio a Leo.",
-    "definition": "",
+    "definition": "Far arrivare qualcosa a una persona.",
     "page": "192-194",
     "related": "L mandare"
    },
@@ -22948,7 +22948,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Giorgia chiama Leo e gli chiede di venire.",
-    "definition": "",
+    "definition": "Domandare qualcosa a una persona.",
     "usage": "p.p. chiesto. Beachte die verschiedenen Verwendungen: Khalid chiede un po’ di pane a suo padre. – Khalid bittet seinen Vater um etwas Brot. / Anna chiede a Khalid: „Vieni stasera?“ – Anna fragt Khalid: „Kommst du heute Abend?“ / Anna chiede a Khalid di venire alla festa. – Anna bittet Khalid zum Fest zu kommen. Ein Infinitiv wird an chiedere mit der Präposition di angeschlossen.",
     "page": "192-194"
    },
@@ -22961,7 +22961,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho bisogno di pane per la cena.",
-    "definition": "",
+    "definition": "Aver necessità di qualcosa.",
     "usage": "Abc",
     "page": "192-194",
     "related": "F avoir besoin"
@@ -22973,8 +22973,8 @@ const STOCK_PACKAGES = [
      "der Knoblauch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Metto l’aglio nel sugo.",
+    "definition": "Piccola pianta con spicchi dal sapore forte.",
     "page": "192-194",
     "related": "F l’ail"
    },
@@ -22985,8 +22985,8 @@ const STOCK_PACKAGES = [
      "die Zwiebel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La cipolla è nell’insalata.",
+    "definition": "Ortaggio tondo che fa piangere.",
     "page": "192-194",
     "grammar": {
      "partOfSpeech": "noun",
@@ -23005,8 +23005,8 @@ const STOCK_PACKAGES = [
      "der Liter"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Compro un litro di latte.",
+    "definition": "Unità di misura dei liquidi.",
     "page": "192-194",
     "grammar": {
      "partOfSpeech": "noun",
@@ -23028,7 +23028,7 @@ const STOCK_PACKAGES = [
      "l’acqua"
     ],
     "example": "D’estate bevo due litri di acqua.",
-    "definition": "",
+    "definition": "Acqua da bere che viene da una fonte.",
     "page": "192-194",
     "related": "L aqua"
    },
@@ -23039,8 +23039,8 @@ const STOCK_PACKAGES = [
      "das Bund Basilikum"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Aggiungo un ciuffo di basilico.",
+    "definition": "Piccolo mazzetto di una pianta aromatica verde.",
     "page": "192-194",
     "grammar": {
      "partOfSpeech": "noun",
@@ -23059,8 +23059,8 @@ const STOCK_PACKAGES = [
      "Käseorte"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La fontina è un formaggio della Valle d’Aosta.",
+    "definition": "Formaggio della Valle d’Aosta.",
     "tags": [
      "fakultativ"
     ],
@@ -23083,7 +23083,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Khalid fa un salto da suo padre.",
-    "definition": "",
+    "definition": "Visitare una persona brevemente.",
     "usage": "Abc",
     "page": "192-194"
    },
@@ -23094,8 +23094,8 @@ const STOCK_PACKAGES = [
      "perfekt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La pizza è perfetta!",
+    "definition": "Senza difetti.",
     "page": "192-194"
    },
    {
@@ -23105,8 +23105,8 @@ const STOCK_PACKAGES = [
      "Tausend Dank!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Grazie mille per il regalo!",
+    "definition": "Per ringraziare moltissimo.",
     "page": "192-194"
    },
    {
@@ -23116,8 +23116,8 @@ const STOCK_PACKAGES = [
      "bitte"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Grazie! – Prego!",
+    "definition": "Risposta a “grazie”.",
     "usage": "avv. Unterscheide: Mi puoi passare l’acqua, per favore? – Kannst Du mir bitte das Wasser reichen? / Grazie di tutto! – Prego! – Danke für alles – Bitteschön!",
     "page": "192-194",
     "related": "≠ grazie"
@@ -23131,7 +23131,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Vorrei un etto di prosciutto.",
-    "definition": "",
+    "definition": "Forma gentile per chiedere qualcosa.",
     "page": "192-194"
    },
    {
@@ -23142,7 +23142,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Vorrei mezzo chilo di funghi.",
-    "definition": "",
+    "definition": "Metà di qualcosa.",
     "page": "192-194"
    },
    {
@@ -23153,7 +23153,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Prendo un chilo di pomodori.",
-    "definition": "",
+    "definition": "Mille grammi.",
     "page": "192-194",
     "grammar": {
      "partOfSpeech": "noun",
@@ -23172,8 +23172,8 @@ const STOCK_PACKAGES = [
      "der Pilz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Raccolgo i funghi nel bosco.",
+    "definition": "Organismo che cresce nel bosco, spesso commestibile.",
     "usage": "pl. i funghi",
     "page": "192-194",
     "grammar": {
@@ -23193,8 +23193,8 @@ const STOCK_PACKAGES = [
      "Es reicht!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Basta, non voglio più giocare!",
+    "definition": "Esclamazione per dire che non vuoi più.",
     "page": "192-194"
    },
    {
@@ -23204,8 +23204,8 @@ const STOCK_PACKAGES = [
      "der Apfel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mangio una mela.",
+    "definition": "Frutto rosso o verde.",
     "page": "192-194",
     "grammar": {
      "partOfSpeech": "noun",
@@ -23224,8 +23224,8 @@ const STOCK_PACKAGES = [
      "Hier bin ich!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Eccomi qua, sono arrivato!",
+    "definition": "Per dire che sei arrivato.",
     "page": "192-194"
    },
    {
@@ -23237,7 +23237,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Per il compleanno mangiamo la torta.",
-    "definition": "",
+    "definition": "Dolce grande, per le feste.",
     "page": "192-194",
     "grammar": {
      "partOfSpeech": "noun",
@@ -23256,8 +23256,8 @@ const STOCK_PACKAGES = [
      "die Mandel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mangio una mandorla.",
+    "definition": "Frutto secco con il guscio duro.",
     "page": "192-194",
     "grammar": {
      "partOfSpeech": "noun",
@@ -23277,7 +23277,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La madre sa cucinare bene.",
-    "definition": "",
+    "definition": "Preparare il cibo con il fuoco.",
     "page": "192-194",
     "related": "▸ la cucina; F cuisiner"
    },
@@ -23290,7 +23290,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La torta è un dolce.",
-    "definition": "",
+    "definition": "Cibo con molto zucchero.",
     "page": "192-194",
     "related": "L dulcis/-e",
     "grammar": {
@@ -23311,8 +23311,8 @@ const STOCK_PACKAGES = [
      "Mannomann!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mamma mia, che bello!",
+    "definition": "Esclamazione di sorpresa.",
     "page": "192-194"
    },
    {
@@ -23325,7 +23325,7 @@ const STOCK_PACKAGES = [
      "la fame"
     ],
     "example": "È pronta la cena? Ho una fame da lupi!",
-    "definition": "",
+    "definition": "Grande desiderio di mangiare.",
     "page": "192-194",
     "related": "F la faim",
     "grammar": {
@@ -23346,8 +23346,8 @@ const STOCK_PACKAGES = [
      "das Parfüm"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che buon profumo!",
+    "definition": "Odore piacevole.",
     "page": "192-194",
     "related": "F le parfum",
     "grammar": {
@@ -23367,8 +23367,8 @@ const STOCK_PACKAGES = [
      "Guten Appetit!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Buon appetito, ragazzi!",
+    "definition": "Augurio prima di mangiare.",
     "page": "192-194",
     "related": "F Bon appétit!"
    },
@@ -23380,7 +23380,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mangio tanta frutta e verdura.",
-    "definition": "",
+    "definition": "Cibo vegetale: carote, spinaci, zucchine...",
     "page": "192-194",
     "grammar": {
      "partOfSpeech": "noun",
@@ -23400,7 +23400,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Khalid, potresti portare i pomodori?",
-    "definition": "",
+    "definition": "Forma gentile di “puoi”.",
     "page": "192-194"
    }
   ]
@@ -23429,7 +23429,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -23467,8 +23467,8 @@ const STOCK_PACKAGES = [
      "die Mode"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La moda cambia ogni anno.",
+    "definition": "Stile di vestirsi di un periodo.",
     "page": "190-191",
     "grammar": {
      "partOfSpeech": "noun",
@@ -23487,8 +23487,8 @@ const STOCK_PACKAGES = [
      "das Essen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il cibo italiano è famoso.",
+    "definition": "Tutto ciò che si mangia.",
     "page": "190-191",
     "grammar": {
      "partOfSpeech": "noun",
@@ -23508,7 +23508,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Non mi piace.",
-    "definition": "",
+    "definition": "Pronome: a me.",
     "page": "190-191"
    },
    {
@@ -23519,7 +23519,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Questo vestito mi sta bene.",
-    "definition": "",
+    "definition": "Dire se un vestito ti sta bene o male.",
     "page": "190-191",
     "related": "L stare"
    },
@@ -23531,7 +23531,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "I pantaloni stanno bene a Marco.",
-    "definition": "",
+    "definition": "Vestito per le gambe.",
     "usage": "pl.",
     "page": "190-191",
     "related": "F le pantalon",
@@ -23553,7 +23553,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "I pantaloni ti stanno bene.",
-    "definition": "",
+    "definition": "Pronome: a te.",
     "page": "190-191"
    },
    {
@@ -23564,7 +23564,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ti sta benissimo!",
-    "definition": "",
+    "definition": "Molto bene.",
     "usage": "avv.",
     "page": "190-191",
     "related": "= molto bene"
@@ -23577,7 +23577,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Vuoi i pantaloni o una gonna?",
-    "definition": "",
+    "definition": "Vestito che copre dalla vita alle gambe.",
     "page": "190-191",
     "grammar": {
      "partOfSpeech": "noun",
@@ -23596,8 +23596,8 @@ const STOCK_PACKAGES = [
      "Ich weiß es nicht."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non lo so, chiedi a Marco.",
+    "definition": "Frase per dire che non hai la risposta.",
     "page": "190-191"
    },
    {
@@ -23608,7 +23608,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Che cosa metto oggi?",
-    "definition": "",
+    "definition": "Collocare una cosa in un posto.",
     "page": "190-191"
    },
    {
@@ -23619,7 +23619,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Che pantaloni metto con questa maglietta?",
-    "definition": "",
+    "definition": "Indumento leggero per il busto, spesso con le maniche corte.",
     "page": "190-191",
     "grammar": {
      "partOfSpeech": "noun",
@@ -23642,7 +23642,7 @@ const STOCK_PACKAGES = [
      "scegliere"
     ],
     "example": "I pantaloni o la gonna? Puoi scegliere.",
-    "definition": "",
+    "definition": "Prendere una cosa tra molte.",
     "usage": "Abc; p.p. scelto",
     "page": "190-191"
    },
@@ -23654,7 +23654,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Voglio comprare un paio di pantaloni.",
-    "definition": "",
+    "definition": "Due cose che stanno insieme, come due scarpe.",
     "page": "190-191",
     "related": "E pair",
     "grammar": {
@@ -23674,8 +23674,8 @@ const STOCK_PACKAGES = [
      "die Jeans"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Porto sempre i jeans.",
+    "definition": "Pantaloni di tessuto blu.",
     "usage": "pl.",
     "page": "190-191",
     "grammar": {
@@ -23695,8 +23695,8 @@ const STOCK_PACKAGES = [
      "dunkelblau"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mare è blu.",
+    "definition": "Colore del mare profondo.",
     "usage": "agg.",
     "page": "190-191"
    },
@@ -23708,7 +23708,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Che taglia porti?",
-    "definition": "",
+    "definition": "Misura di un vestito.",
     "page": "190-191",
     "related": "F la taille",
     "grammar": {
@@ -23729,7 +23729,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "D’estate non devo mettere un maglione.",
-    "definition": "",
+    "definition": "Vestito di lana per l’inverno.",
     "page": "190-191",
     "grammar": {
      "partOfSpeech": "noun",
@@ -23748,8 +23748,8 @@ const STOCK_PACKAGES = [
      "rot"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho una macchina rossa.",
+    "definition": "Colore del pomodoro.",
     "page": "190-191",
     "related": "F rouge"
    },
@@ -23761,7 +23761,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "D’inverno mi metto la giacca.",
-    "definition": "",
+    "definition": "Indumento che si mette sopra una maglietta.",
     "usage": "pl. le giacche",
     "page": "190-191",
     "grammar": {
@@ -23781,8 +23781,8 @@ const STOCK_PACKAGES = [
      "der Schuh"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Compro un paio di scarpe.",
+    "definition": "Calzatura che si mette ai piedi.",
     "page": "190-191",
     "grammar": {
      "partOfSpeech": "noun",
@@ -23802,7 +23802,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "D’inverno porto gli stivali.",
-    "definition": "",
+    "definition": "Scarpa alta che arriva sopra la caviglia.",
     "usage": "pl. gli stivali",
     "page": "190-191",
     "grammar": {
@@ -23823,8 +23823,8 @@ const STOCK_PACKAGES = [
      "auch: der Anzug"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho un vestito rosso.",
+    "definition": "Abito lungo da donna o indumento in generale.",
     "page": "190-191",
     "grammar": {
      "partOfSpeech": "noun",
@@ -23844,7 +23844,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Colore della neve.",
     "page": "190-191"
    },
    {
@@ -23854,8 +23854,8 @@ const STOCK_PACKAGES = [
      "gelb"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il sole è giallo.",
+    "definition": "Colore del limone.",
     "page": "190-191"
    },
    {
@@ -23865,8 +23865,8 @@ const STOCK_PACKAGES = [
      "orange"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La maglietta è arancione.",
+    "definition": "Colore dell’arancia.",
     "page": "190-191"
    },
    {
@@ -23876,8 +23876,8 @@ const STOCK_PACKAGES = [
      "rosa"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho un fiore rosa.",
+    "definition": "Colore tenue tra il rosso e il bianco.",
     "page": "190-191"
    },
    {
@@ -23887,8 +23887,8 @@ const STOCK_PACKAGES = [
      "violett"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il vestito è viola.",
+    "definition": "Colore tra il blu e il rosso.",
     "page": "190-191"
    },
    {
@@ -23898,8 +23898,8 @@ const STOCK_PACKAGES = [
      "dunkelblau"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mare è blu.",
+    "definition": "Colore del mare profondo.",
     "page": "190-191"
    },
    {
@@ -23909,8 +23909,8 @@ const STOCK_PACKAGES = [
      "grün"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’erba è verde.",
+    "definition": "Colore dell’erba.",
     "page": "190-191"
    },
    {
@@ -23921,7 +23921,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "",
-    "definition": "",
+    "definition": "Colore del cioccolato.",
     "page": "190-191"
    },
    {
@@ -23931,8 +23931,8 @@ const STOCK_PACKAGES = [
      "grau"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il cielo è grigio.",
+    "definition": "Colore tra il bianco e il nero.",
     "page": "190-191"
    },
    {
@@ -23942,8 +23942,8 @@ const STOCK_PACKAGES = [
      "schwarz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il gatto è nero.",
+    "definition": "Colore della notte.",
     "page": "190-191"
    },
    {
@@ -23954,8 +23954,8 @@ const STOCK_PACKAGES = [
      "die Bluse"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Porto una camicia bianca.",
+    "definition": "Indumento con i bottoni davanti.",
     "page": "190-191",
     "grammar": {
      "partOfSpeech": "noun",
@@ -23977,7 +23977,7 @@ const STOCK_PACKAGES = [
      "gli occhiali"
     ],
     "example": "Con gli occhiali vedo bene.",
-    "definition": "",
+    "definition": "Lenti per proteggere gli occhi dal sole.",
     "usage": "pl.",
     "page": "190-191",
     "related": "▸ l’occhio",
@@ -24017,7 +24017,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -24056,8 +24056,8 @@ const STOCK_PACKAGES = [
      "heiß"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il tè è caldo.",
+    "definition": "Con alta temperatura.",
     "page": "195-197",
     "related": "F chaud; L calidus"
    },
@@ -24070,7 +24070,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "In estate fa caldo.",
-    "definition": "",
+    "definition": "Dire che la temperatura è alta.",
     "usage": "Abc",
     "page": "195-197"
    },
@@ -24081,8 +24081,8 @@ const STOCK_PACKAGES = [
      "Wie nervig!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che nervi, ho perso l’autobus!",
+    "definition": "Esclamazione di irritazione.",
     "page": "195-197"
    },
    {
@@ -24094,8 +24094,8 @@ const STOCK_PACKAGES = [
      "pl.: alle"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho mangiato tutta la pizza.",
+    "definition": "Intero, completo.",
     "usage": "Beachte die Stellung: tutto + [bestimmter Artikel] + [Substantiv]: tutto l’anno – das ganze Jahr. Unterscheide: Voglio vedere tutta la partita. – Ich will das ganze Spiel sehen. / Voglio vedere tutto. – Ich will alles sehen.",
     "page": "195-197"
    },
@@ -24109,8 +24109,8 @@ const STOCK_PACKAGES = [
      "am Vormittag"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La mattina vado a scuola.",
+    "definition": "Parte del giorno dopo l’alba.",
     "usage": "avv.",
     "page": "195-197",
     "related": "≠ la sera; F le matin",
@@ -24132,7 +24132,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Durante le vacanze Filippo si sveglia tardi.",
-    "definition": "",
+    "definition": "Smettere di dormire.",
     "page": "195-197"
    },
    {
@@ -24143,7 +24143,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La sera fa fresco. Vado dentro.",
-    "definition": "",
+    "definition": "Dire che la temperatura è bassa ma piacevole.",
     "usage": "Abc",
     "page": "195-197",
     "related": "▸ fresco"
@@ -24156,7 +24156,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Durante la settimana Anna si alza presto.",
-    "definition": "",
+    "definition": "Uscire dal letto.",
     "page": "195-197"
    },
    {
@@ -24170,7 +24170,7 @@ const STOCK_PACKAGES = [
      "mettersi a qs"
     ],
     "example": "Filippo si mette a studiare.",
-    "definition": "",
+    "definition": "Iniziare a fare qualcosa.",
     "page": "195-197",
     "related": "▸ mettere"
    },
@@ -24183,7 +24183,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A mezzogiorno mangio un panino.",
-    "definition": "",
+    "definition": "Alle dodici del giorno.",
     "usage": "avv.",
     "page": "195-197"
    },
@@ -24195,7 +24195,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Sono stanca. Adesso faccio una pausa.",
-    "definition": "",
+    "definition": "Momento di riposo.",
     "page": "195-197",
     "grammar": {
      "partOfSpeech": "noun",
@@ -24215,7 +24215,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Dopo il lavoro mi riposo.",
-    "definition": "",
+    "definition": "Fermarsi per recuperare le energie.",
     "page": "195-197",
     "related": "F se reposer"
    },
@@ -24227,7 +24227,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Filippo studia fino a tardi.",
-    "definition": "",
+    "definition": "Limite di tempo o di luogo.",
     "usage": "prep.",
     "page": "195-197"
    },
@@ -24239,7 +24239,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Prima di andare a letto Filippo si fa la doccia.",
-    "definition": "",
+    "definition": "Prima di fare un’azione.",
     "page": "195-197"
    },
    {
@@ -24250,7 +24250,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Dopo lo sport mi faccio la doccia.",
-    "definition": "",
+    "definition": "Lavarsi sotto l’acqua.",
     "usage": "Abc",
     "page": "195-197"
    },
@@ -24264,7 +24264,7 @@ const STOCK_PACKAGES = [
      "rinfrescarsi"
     ],
     "example": "Faccio una doccia per rinfrescarmi.",
-    "definition": "",
+    "definition": "Sentirsi meno caldo.",
     "usage": "Abc",
     "page": "195-197",
     "related": "▸ fresco/-a; E to refresh"
@@ -24277,7 +24277,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Anna riceve un messaggio da Leo.",
-    "definition": "",
+    "definition": "Ottenere qualcosa che viene mandato.",
     "page": "195-197",
     "related": "E to receive"
    },
@@ -24290,7 +24290,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Filippo ha ricevuto una cartolina da Anna.",
-    "definition": "",
+    "definition": "Cartoncino illustrato che si spedisce.",
     "page": "195-197",
     "grammar": {
      "partOfSpeech": "noun",
@@ -24309,8 +24309,8 @@ const STOCK_PACKAGES = [
      "oder"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Tè o caffè?",
+    "definition": "Parola che indica alternativa.",
     "page": "195-197"
    },
    {
@@ -24320,8 +24320,8 @@ const STOCK_PACKAGES = [
      "der Anruf"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Aspetto una chiamata importante.",
+    "definition": "Telefonata.",
     "page": "195-197",
     "related": "▸ chiamare",
     "grammar": {
@@ -24344,7 +24344,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Cara Greta, caro Filippo, …",
-    "definition": "",
+    "definition": "Persona amata; oggetto che costa molto.",
     "page": "195-197",
     "related": "F cher, chère; L carus"
    },
@@ -24355,8 +24355,8 @@ const STOCK_PACKAGES = [
      "regnen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "A Monaco piove spesso.",
+    "definition": "Cadere della pioggia.",
     "page": "195-197",
     "related": "F pleuvoir"
    },
@@ -24368,7 +24368,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La Mole Antonelliana si trova a Torino.",
-    "definition": "",
+    "definition": "Essere in un luogo.",
     "page": "195-197"
    },
    {
@@ -24379,7 +24379,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mi trovo bene al mare.",
-    "definition": "",
+    "definition": "Sentirsi a proprio agio.",
     "page": "195-197",
     "related": "▸ trovare"
    },
@@ -24391,7 +24391,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il fine settimana facciamo una gita.",
-    "definition": "",
+    "definition": "Piccolo viaggio di un giorno.",
     "page": "195-197",
     "grammar": {
      "partOfSpeech": "noun",
@@ -24410,8 +24410,8 @@ const STOCK_PACKAGES = [
      "schweizerisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mio amico è svizzero.",
+    "definition": "Che viene da un paese alpino a nord dell’Italia, famoso per il cioccolato.",
     "page": "195-197"
    },
    {
@@ -24421,8 +24421,8 @@ const STOCK_PACKAGES = [
      "Mit herzlichem Gruß!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ti scrivo presto. Con affetto, Anna.",
+    "definition": "Formula finale di una lettera a una persona cara.",
     "page": "195-197"
    },
    {
@@ -24432,8 +24432,8 @@ const STOCK_PACKAGES = [
      "Alles in Ordnung!/?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Tutto a posto? – Sì, grazie!",
+    "definition": "Frase per dire o chiedere che va tutto bene.",
     "page": "195-197",
     "related": "= va bene"
    },
@@ -24445,7 +24445,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Che fresco! Sono solo 12 gradi!",
-    "definition": "",
+    "definition": "Unità di misura della temperatura.",
     "page": "195-197",
     "grammar": {
      "partOfSpeech": "noun",
@@ -24464,8 +24464,8 @@ const STOCK_PACKAGES = [
      "das Meer"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mare è azzurro.",
+    "definition": "Grande distesa di acqua salata.",
     "page": "195-197",
     "related": "F la mer; L mare",
     "grammar": {
@@ -24487,8 +24487,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "il kite"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Faccio kitesurf in vacanza.",
+    "definition": "Sport con una tavola e un grande aquilone.",
     "page": "195-197",
     "grammar": {
      "partOfSpeech": "noun",
@@ -24507,8 +24507,8 @@ const STOCK_PACKAGES = [
      "der Wind"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Oggi c’è molto vento.",
+    "definition": "Aria che si muove.",
     "page": "195-197",
     "related": "F le vent; L ventus",
     "grammar": {
@@ -24528,8 +24528,8 @@ const STOCK_PACKAGES = [
      "Viel Spaß beim Lernen!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Buono studio, ci vediamo domani!",
+    "definition": "Augurio a chi deve studiare.",
     "page": "195-197"
    },
    {
@@ -24540,7 +24540,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "In spiaggia abbiamo preso un pedalò.",
-    "definition": "",
+    "definition": "Piccola barca a pedali che si noleggia in spiaggia.",
     "usage": "pl. i pedalò",
     "page": "195-197",
     "grammar": {
@@ -24561,8 +24561,8 @@ const STOCK_PACKAGES = [
      "Spaß haben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi diverto con gli amici.",
+    "definition": "Passare un tempo piacevole.",
     "page": "195-197"
    },
    {
@@ -24573,7 +24573,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Sono caduta. Mi fa male il piede.",
-    "definition": "",
+    "definition": "Provocare dolore.",
     "usage": "Abc",
     "page": "195-197"
    },
@@ -24585,7 +24585,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mi fa male la schiena.",
-    "definition": "",
+    "definition": "Parte posteriore del corpo.",
     "page": "195-197",
     "grammar": {
      "partOfSpeech": "noun",
@@ -24606,7 +24606,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il caffè non è abbastanza caldo. Così fa schifo!",
-    "definition": "",
+    "definition": "Essere disgustoso.",
     "usage": "Abc",
     "page": "195-197"
    },
@@ -24618,8 +24618,8 @@ const STOCK_PACKAGES = [
      "die Wärme"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che caldo oggi!",
+    "definition": "Temperatura alta.",
     "page": "195-197",
     "grammar": {
      "partOfSpeech": "noun",
@@ -24638,8 +24638,8 @@ const STOCK_PACKAGES = [
      "der Mut"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ci vuole coraggio!",
+    "definition": "Capacità di affrontare il pericolo.",
     "page": "195-197",
     "related": "E courage; F le courage",
     "grammar": {
@@ -24660,8 +24660,8 @@ const STOCK_PACKAGES = [
      "Vorwärts!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Avanti, entra pure!",
+    "definition": "Esclamazione per invitare qualcuno a entrare o a muoversi.",
     "page": "195-197"
    },
    {
@@ -24674,7 +24674,7 @@ const STOCK_PACKAGES = [
      "far vedere"
     ],
     "example": "Leo, fai vedere la cartolina di Anna!",
-    "definition": "",
+    "definition": "Mostrare qualcosa.",
     "usage": "Abc",
     "page": "195-197"
    },
@@ -24686,8 +24686,8 @@ const STOCK_PACKAGES = [
      "tun"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio una torta.",
+    "definition": "Costruire, produrre, realizzare.",
     "usage": "Verschiedene Verwendungen: Che cosa facciamo? – Was machen wir? / fare attenzione – aufpassen / fare una figuraccia – sich blamieren / fare un salto da qn – bei jdm vorbeischauen / fare il bagno – baden / fa caldo – es ist heiß / mi fa male la schiena – ich habe Rückenschmerzen / fa schifo – es ist eklig",
     "page": "195-197"
    },
@@ -24699,7 +24699,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho preso troppo sole. Adesso ho una scottatura.",
-    "definition": "",
+    "definition": "Pelle rossa per troppo sole.",
     "page": "195-197",
     "grammar": {
      "partOfSpeech": "noun",
@@ -24720,7 +24720,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A Leo fa male la schiena. Si lamenta tutto il tempo.",
-    "definition": "",
+    "definition": "Dire che qualcosa non va.",
     "page": "195-197"
    },
    {
@@ -24731,8 +24731,8 @@ const STOCK_PACKAGES = [
      "schwerwiegend"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un problema grave.",
+    "definition": "Molto serio.",
     "page": "195-197",
     "related": "F grave; L gravis/-e"
    },
@@ -24744,7 +24744,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho studiato troppo: ho mal di testa.",
-    "definition": "",
+    "definition": "Dolore alla testa.",
     "page": "195-197",
     "related": "F le mal de tête",
     "grammar": {
@@ -24765,8 +24765,8 @@ const STOCK_PACKAGES = [
      "hier: aufhören"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Chiudo la finestra.",
+    "definition": "Contrario di aprire.",
     "usage": "p.p. chiuso",
     "page": "195-197",
     "related": "≠ aprire; L claudere"
@@ -24778,8 +24778,8 @@ const STOCK_PACKAGES = [
      "Wie ist das Wetter?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che tempo fa oggi? – Fa bel tempo.",
+    "definition": "Domanda sul meteo.",
     "usage": "C’è il sole. / Piove. / Nevica. Fa freddo. / Fa caldo. / Fa fresco. / C’è vento.",
     "page": "195-197"
    }
@@ -24809,7 +24809,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -24847,8 +24847,8 @@ const STOCK_PACKAGES = [
      "der/die Erwachsene"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’adulto accompagna il bambino.",
+    "definition": "Persona grande, non più ragazzo.",
     "page": "197-198",
     "related": "E adult; F l’adulte"
    },
@@ -24859,8 +24859,8 @@ const STOCK_PACKAGES = [
      "einige"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Alcuni amici vengono.",
+    "definition": "Un piccolo numero di persone o cose.",
     "usage": "Alcune persone sono in spiaggia e altre sono in piazza a prendere un caffè. – Einige Leute sind am Strand, andere sind auf dem Platz, um einen Kaffee zu trinken.",
     "page": "197-198"
    },
@@ -24872,8 +24872,8 @@ const STOCK_PACKAGES = [
      "das Monument"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il Colosseo è un monumento famoso.",
+    "definition": "Costruzione importante per la storia.",
     "page": "197-198",
     "related": "E monument; F le monument; L monumentum",
     "grammar": {
@@ -24894,7 +24894,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il centro storico di Sanremo è molto bello.",
-    "definition": "",
+    "definition": "Che appartiene al passato o ha importanza nella storia.",
     "usage": "pl. storici/storiche",
     "page": "197-198"
    },
@@ -24906,7 +24906,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Al centro storico ci sono tanti vicoli.",
-    "definition": "",
+    "definition": "Strada stretta di una città antica.",
     "page": "197-198",
     "grammar": {
      "partOfSpeech": "noun",
@@ -24926,7 +24926,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "I vicoli sono stretti.",
-    "definition": "",
+    "definition": "Poco largo.",
     "page": "197-198"
    },
    {
@@ -24937,7 +24937,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il bar è di fronte al palazzo.",
-    "definition": "",
+    "definition": "Dalla parte opposta.",
     "usage": "prep.",
     "page": "197-198"
    },
@@ -24949,7 +24949,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "La cattedrale si trova in piazza.",
-    "definition": "",
+    "definition": "Grande chiesa di una città.",
     "page": "197-198",
     "grammar": {
      "partOfSpeech": "noun",
@@ -24968,8 +24968,8 @@ const STOCK_PACKAGES = [
      "der Imbiss"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio uno spuntino alle dieci.",
+    "definition": "Piccolo pasto veloce.",
     "page": "197-198",
     "grammar": {
      "partOfSpeech": "noun",
@@ -24989,7 +24989,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho fame. Mi dai un pezzo di pane?",
-    "definition": "",
+    "definition": "Parte di qualcosa.",
     "page": "197-198",
     "related": "E piece",
     "grammar": {
@@ -25009,8 +25009,8 @@ const STOCK_PACKAGES = [
      "kalt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La neve è fredda.",
+    "definition": "Con bassa temperatura.",
     "page": "197-198",
     "related": "≠ caldo"
    },
@@ -25023,7 +25023,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Al bar prendiamo lo scontrino alla cassa.",
-    "definition": "",
+    "definition": "Foglio che si riceve dopo aver pagato.",
     "page": "197-198",
     "grammar": {
      "partOfSpeech": "noun",
@@ -25045,7 +25045,7 @@ const STOCK_PACKAGES = [
      "sedersi"
     ],
     "example": "Leo si siede sulla sedia.",
-    "definition": "",
+    "definition": "Mettersi su una sedia.",
     "usage": "Abc",
     "page": "197-198",
     "related": "▸ la sedia"
@@ -25058,7 +25058,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Anna e Leo si danno appuntamento alle sette.",
-    "definition": "",
+    "definition": "Accordarsi per incontrarsi.",
     "page": "197-198",
     "related": "E appointment"
    },
@@ -25070,7 +25070,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Metto la macchina sul parcheggio.",
-    "definition": "",
+    "definition": "Posto dove si lascia l’auto.",
     "usage": "pl. i parcheggi",
     "page": "197-198",
     "grammar": {
@@ -25091,7 +25091,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il GPS è per l’orientamento.",
-    "definition": "",
+    "definition": "Capacità di trovare la direzione.",
     "page": "197-198"
    },
    {
@@ -25102,7 +25102,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Io non mi fido del GPS.",
-    "definition": "",
+    "definition": "Avere fiducia in qualcuno.",
     "page": "197-198"
    },
    {
@@ -25113,7 +25113,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "I ragazzi corrono verso il casinò.",
-    "definition": "",
+    "definition": "Indica la direzione.",
     "usage": "prep.",
     "page": "197-198"
    },
@@ -25124,8 +25124,8 @@ const STOCK_PACKAGES = [
      "das Theater"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Andiamo a teatro sabato.",
+    "definition": "Edificio con un palcoscenico dove si fanno spettacoli.",
     "page": "197-198",
     "related": "L theatrum",
     "grammar": {
@@ -25146,7 +25146,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Sanremo è un luogo dove molte persone si divertono.",
-    "definition": "",
+    "definition": "Posto preciso.",
     "usage": "pl. i luoghi",
     "page": "197-198",
     "grammar": {
@@ -25167,7 +25167,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A Sanremo c’è il festival di musica.",
-    "definition": "",
+    "definition": "Grande evento con musica o spettacoli.",
     "usage": "pl. i festival",
     "page": "197-198",
     "grammar": {
@@ -25188,7 +25188,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A luglio vado in Italia.",
-    "definition": "",
+    "definition": "Piccola parola che indica luogo o direzione.",
     "page": "197-198"
    },
    {
@@ -25199,7 +25199,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Filippo è un fan di Ligabue.",
-    "definition": "",
+    "definition": "Persona che ammira molto un artista.",
     "usage": "pl. i fan",
     "page": "197-198",
     "grammar": {
@@ -25220,7 +25220,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ligabue firma degli autografi per i suoi fan.",
-    "definition": "",
+    "definition": "Mettere il proprio nome in fondo a un documento.",
     "page": "197-198"
    },
    {
@@ -25231,7 +25231,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Amo Liga. Ho perfino un autografo.",
-    "definition": "",
+    "definition": "Anche, addirittura.",
     "usage": "avv.",
     "page": "197-198",
     "related": "= addirittura"
@@ -25244,7 +25244,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Tutti sono entusiasti dell’idea.",
-    "definition": "",
+    "definition": "Molto contento e pieno di energia per qualcosa.",
     "page": "197-198"
    },
    {
@@ -25255,7 +25255,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Per arrivare in centro dobbiamo andare dritto.",
-    "definition": "",
+    "definition": "Senza curve, nella stessa direzione.",
     "usage": "avv.",
     "page": "197-198"
    },
@@ -25267,7 +25267,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "A Roma faccio qualche foto.",
-    "definition": "",
+    "definition": "Un piccolo numero di persone o cose.",
     "page": "197-198",
     "related": "F quelque"
    },
@@ -25279,7 +25279,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Andiamo sul lungomare.",
-    "definition": "",
+    "definition": "Strada vicino al mare dove si passeggia.",
     "page": "197-198",
     "grammar": {
      "partOfSpeech": "noun",
@@ -25299,7 +25299,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Giorgia si accorge di essere in ritardo.",
-    "definition": "",
+    "definition": "Notare qualcosa che prima non si vedeva.",
     "usage": "p.p. accorto",
     "page": "197-198"
    },
@@ -25310,8 +25310,8 @@ const STOCK_PACKAGES = [
      "O Gott!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Oddio, ho perso il telefono!",
+    "definition": "Esclamazione di paura o sorpresa.",
     "page": "197-198"
    },
    {
@@ -25321,8 +25321,8 @@ const STOCK_PACKAGES = [
      "das Handy"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il telefonino squilla.",
+    "definition": "Piccolo telefono portatile.",
     "page": "197-198",
     "grammar": {
      "partOfSpeech": "noun",
@@ -25342,7 +25342,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Il mio cellulare è scarico.",
-    "definition": "",
+    "definition": "Senza energia: non funziona più.",
     "usage": "pl. scarichi/-che",
     "page": "197-198"
    },
@@ -25353,8 +25353,8 @@ const STOCK_PACKAGES = [
      "die Straße"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La strada è piena di auto.",
+    "definition": "Via dove passano le auto.",
     "page": "197-198",
     "related": "▸ la via",
     "grammar": {
@@ -25375,8 +25375,8 @@ const STOCK_PACKAGES = [
      "gerecht"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La risposta è giusta.",
+    "definition": "Corretto, senza errore.",
     "page": "197-198",
     "related": "F juste; L iustus"
    },
@@ -25388,7 +25388,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Attraversa la strada!",
-    "definition": "",
+    "definition": "Andare da una parte all’altra.",
     "page": "197-198",
     "related": "F traverser"
    },
@@ -25399,8 +25399,8 @@ const STOCK_PACKAGES = [
      "der Meter"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La stanza è lunga cinque metri.",
+    "definition": "Misura di cento centimetri.",
     "page": "197-198",
     "grammar": {
      "partOfSpeech": "noun",
@@ -25421,7 +25421,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Dovete girare a sinistra.",
-    "definition": "",
+    "definition": "Cambiare direzione.",
     "page": "197-198"
    },
    {
@@ -25432,7 +25432,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Devi girare a sinistra.",
-    "definition": "",
+    "definition": "Dalla parte opposta a destra.",
     "usage": "avv.",
     "page": "197-198",
     "related": "L sinister"
@@ -25445,7 +25445,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "All’incrocio girate a sinistra.",
-    "definition": "",
+    "definition": "Punto dove due strade si incontrano.",
     "usage": "pl. gli incroci",
     "page": "197-198"
    },
@@ -25456,8 +25456,8 @@ const STOCK_PACKAGES = [
      "rechts"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Gira a destra.",
+    "definition": "Dalla parte del braccio che di solito si usa per scrivere.",
     "usage": "avv.",
     "page": "197-198",
     "related": "≠ a sinistra; F à droite; L dexter"
@@ -25469,8 +25469,8 @@ const STOCK_PACKAGES = [
      "unbedingt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Devi per forza venire!",
+    "definition": "Obbligatoriamente.",
     "page": "197-198"
    },
    {
@@ -25481,7 +25481,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "In Liguria c’è una pista ciclabile lunga.",
-    "definition": "",
+    "definition": "Strada riservata alle biciclette.",
     "page": "197-198",
     "grammar": {
      "partOfSpeech": "noun",
@@ -25502,7 +25502,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Andiamo in bici. – Ottima idea!",
-    "definition": "",
+    "definition": "Molto buono.",
     "page": "197-198",
     "related": "L optimus"
    }
@@ -25532,7 +25532,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -25572,7 +25572,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ogni estate andiamo in montagna.",
-    "definition": "",
+    "definition": "Parola che significa “tutti, uno per uno”.",
     "page": "194-195",
     "related": "L omnis"
    },
@@ -25583,8 +25583,8 @@ const STOCK_PACKAGES = [
      "ruhig"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il quartiere è tranquillo.",
+    "definition": "Senza agitazione.",
     "page": "194-195",
     "related": "F tranquille; L tranquillus"
    },
@@ -25597,7 +25597,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "È molto interessante per loro.",
-    "definition": "",
+    "definition": "Pronome per più persone.",
     "page": "194-195"
    },
    {
@@ -25609,7 +25609,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Non vedo l’ora di andare in vacanza!",
-    "definition": "",
+    "definition": "Espressione per dire che aspetti con impazienza.",
     "page": "194-195"
    },
    {
@@ -25619,8 +25619,8 @@ const STOCK_PACKAGES = [
      "hier: meine Eltern"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "I miei sono in vacanza.",
+    "definition": "I genitori di chi parla.",
     "page": "194-195",
     "grammar": {
      "partOfSpeech": "noun",
@@ -25641,7 +25641,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Da Torino a Lecce è un viaggio lungo.",
-    "definition": "",
+    "definition": "Che si estende molto nello spazio o nel tempo.",
     "usage": "pl. lunghi/-e",
     "page": "194-195",
     "related": "L longus"
@@ -25654,7 +25654,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Sono nervoso – domani ho l’esame.",
-    "definition": "",
+    "definition": "Verifica importante.",
     "usage": "m.",
     "page": "194-195",
     "related": "E exam"
@@ -25667,7 +25667,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Dopo le vacanze ho l’esame di riparazione.",
-    "definition": "",
+    "definition": "Prova da ripetere a settembre dopo un’insufficienza.",
     "usage": "m.",
     "page": "194-195"
    },
@@ -25678,8 +25678,8 @@ const STOCK_PACKAGES = [
      "Verdammt!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Maledizione, ho perso le chiavi!",
+    "definition": "Esclamazione di rabbia.",
     "page": "194-195"
    },
    {
@@ -25690,8 +25690,8 @@ const STOCK_PACKAGES = [
      "der Platz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non c’è spazio nella borsa.",
+    "definition": "Area libera.",
     "usage": "pl. gli spazi. Unterscheide: È un posto fantastico. – Es ist ein toller Ort. / Questa piazza mi piace. – Dieser Platz gefällt mir. / Nella macchina non c’è abbastanza spazio/posto per tutto. – Im Auto ist nicht genug Platz für alles.",
     "page": "194-195",
     "related": "E space; F l’espace; L spatium",
@@ -25713,7 +25713,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Mi piace fare il bagno nel mare.",
-    "definition": "",
+    "definition": "Entrare nell’acqua, al mare o in piscina.",
     "usage": "Abc",
     "page": "194-195"
    },
@@ -25725,7 +25725,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "In Italia c’è tanto sole.",
-    "definition": "",
+    "definition": "Stella che dà luce e calore alla Terra.",
     "page": "194-195",
     "related": "F le soleil; L sol",
     "grammar": {
@@ -25746,7 +25746,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "In spiaggia Anna prende il sole.",
-    "definition": "",
+    "definition": "Stare al sole per abbronzarsi.",
     "page": "194-195"
    },
    {
@@ -25756,8 +25756,8 @@ const STOCK_PACKAGES = [
      "Beachvolleyball"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Giochiamo a beach volley in spiaggia.",
+    "definition": "Pallavolo che si gioca sulla sabbia.",
     "page": "194-195",
     "grammar": {
      "partOfSpeech": "noun",
@@ -25778,7 +25778,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Devo studiare. Che barba!",
-    "definition": "",
+    "definition": "Espressione per dire che una cosa annoia.",
     "page": "194-195"
    },
    {
@@ -25789,7 +25789,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Giorgia parte per la Liguria.",
-    "definition": "",
+    "definition": "Andare via verso un luogo.",
     "page": "194-195"
    },
    {
@@ -25799,8 +25799,8 @@ const STOCK_PACKAGES = [
      "normal"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È una giornata normale.",
+    "definition": "Che non è strano.",
     "page": "194-195"
    },
    {
@@ -25810,8 +25810,8 @@ const STOCK_PACKAGES = [
      "kurz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il film è breve.",
+    "definition": "Che dura poco.",
     "page": "194-195",
     "related": "≠ lungo/-a; F bref, brève; L brevis/-e"
    },
@@ -25823,7 +25823,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "In vacanza prendiamo una camera in albergo.",
-    "definition": "",
+    "definition": "Edificio dove si dorme viaggiando.",
     "usage": "pl. gli alberghi",
     "page": "194-195"
    },
@@ -25834,8 +25834,8 @@ const STOCK_PACKAGES = [
      "der Spaziergang"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Facciamo una passeggiata.",
+    "definition": "Camminata tranquilla.",
     "page": "194-195",
     "related": "▸ passeggiare",
     "grammar": {
@@ -25859,7 +25859,7 @@ const STOCK_PACKAGES = [
      "preferire"
     ],
     "example": "Non amo la montagna. Preferisco andare al mare.",
-    "definition": "",
+    "definition": "Scegliere una cosa piuttosto che un’altra.",
     "usage": "Abc",
     "page": "194-195",
     "related": "E to prefer; F préférer"
@@ -25873,7 +25873,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Non mi piace la montagna, perciò vado al mare.",
-    "definition": "",
+    "definition": "Per questo motivo.",
     "usage": "avv.",
     "page": "194-195"
    },
@@ -25887,7 +25887,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Ho cambiato il numero di cellulare. Guarda! Il tempo cambia.",
-    "definition": "",
+    "definition": "Trasformare o sostituire.",
     "page": "194-195"
    },
    {
@@ -25897,8 +25897,8 @@ const STOCK_PACKAGES = [
      "die Meinung ändern"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho cambiato idea: vengo anch’io.",
+    "definition": "Pensare in modo diverso da prima.",
     "page": "194-195"
    },
    {
@@ -25909,7 +25909,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "Quest’anno andiamo in campeggio.",
-    "definition": "",
+    "definition": "Luogo dove si dorme in tenda.",
     "usage": "pl. i campeggi",
     "page": "194-195",
     "grammar": {
@@ -25930,7 +25930,7 @@ const STOCK_PACKAGES = [
     ],
     "acceptedAnswers": [],
     "example": "In campeggio dormo in una tenda.",
-    "definition": "",
+    "definition": "Casa leggera di tela per dormire all’aperto.",
     "page": "194-195",
     "related": "E tent",
     "grammar": {
@@ -25950,8 +25950,8 @@ const STOCK_PACKAGES = [
      "für alte Leute"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il bridge è un gioco da vecchi.",
+    "definition": "Adatto a persone anziane.",
     "page": "194-195"
    }
   ]
@@ -25980,7 +25980,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -26018,8 +26018,8 @@ const STOCK_PACKAGES = [
      "sich um etw. handeln"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Si tratta di un progetto.",
+    "definition": "Riguardare un tema.",
     "tags": [
      "fakultativ"
     ],
@@ -26033,8 +26033,8 @@ const STOCK_PACKAGES = [
      "populär"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È una canzone popolare.",
+    "definition": "Conosciuto e amato da molti.",
     "usage": "agg.",
     "tags": [
      "fakultativ"
@@ -26049,8 +26049,8 @@ const STOCK_PACKAGES = [
      "die Melodie"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La melodia è bella.",
+    "definition": "Successione di note che formano un motivo.",
     "tags": [
      "fakultativ"
     ],
@@ -26073,8 +26073,8 @@ const STOCK_PACKAGES = [
      "bekannt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È uno scrittore conosciuto.",
+    "definition": "Noto a molti.",
     "tags": [
      "fakultativ"
     ],
@@ -26088,8 +26088,8 @@ const STOCK_PACKAGES = [
      "der Text"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il testo della canzone è semplice.",
+    "definition": "Parole di una canzone o di un libro.",
     "tags": [
      "fakultativ"
     ],
@@ -26112,8 +26112,8 @@ const STOCK_PACKAGES = [
      "ursprünglich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È l’originale.",
+    "definition": "Primo, non copiato.",
     "usage": "agg.",
     "tags": [
      "fakultativ"
@@ -26127,8 +26127,8 @@ const STOCK_PACKAGES = [
      "der Dialekt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Parlo il dialetto.",
+    "definition": "Variante locale di una lingua.",
     "tags": [
      "fakultativ"
     ],
@@ -26151,8 +26151,8 @@ const STOCK_PACKAGES = [
      "widerspiegeln"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La canzone rispecchia la vita.",
+    "definition": "Mostrare come in uno specchio.",
     "tags": [
      "fakultativ"
     ],
@@ -26166,8 +26166,8 @@ const STOCK_PACKAGES = [
      "musikalisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho un orecchio musicale.",
+    "definition": "Che ha a che fare con suoni e melodie.",
     "tags": [
      "fakultativ"
     ],
@@ -26182,8 +26182,8 @@ const STOCK_PACKAGES = [
      "gewisse(r,s)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non voglio una tale cosa.",
+    "definition": "Di questo tipo.",
     "usage": "agg.",
     "tags": [
      "fakultativ"
@@ -26198,8 +26198,8 @@ const STOCK_PACKAGES = [
      "etw. komponieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Compone una canzone.",
+    "definition": "Creare una musica o un testo.",
     "usage": "p.p. composto",
     "tags": [
      "fakultativ"
@@ -26214,8 +26214,8 @@ const STOCK_PACKAGES = [
      "die Nation"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’Italia è una nazione.",
+    "definition": "Paese con una sua identità.",
     "tags": [
      "fakultativ"
     ],
@@ -26238,8 +26238,8 @@ const STOCK_PACKAGES = [
      "überraschen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi sorprende il risultato.",
+    "definition": "Meravigliare.",
     "usage": "p.p. sorpreso",
     "tags": [
      "fakultativ"
@@ -26254,8 +26254,8 @@ const STOCK_PACKAGES = [
      "regional"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È una tradizione regionale.",
+    "definition": "Di una regione.",
     "tags": [
      "fakultativ"
     ],
@@ -26269,8 +26269,8 @@ const STOCK_PACKAGES = [
      "der Gesang"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Studio canto.",
+    "definition": "Arte di produrre melodie con la voce.",
     "tags": [
      "fakultativ"
     ],
@@ -26293,8 +26293,8 @@ const STOCK_PACKAGES = [
      "die Stanze (typische Gedichtform)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’ottava rima è tipica della Toscana.",
+    "definition": "Forma di poesia con otto versi.",
     "tags": [
      "fakultativ"
     ],
@@ -26307,8 +26307,8 @@ const STOCK_PACKAGES = [
      "die Bühne"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il cantante sale sul palco.",
+    "definition": "Piattaforma dove si esibiscono gli artisti.",
     "tags": [
      "fakultativ"
     ],
@@ -26330,8 +26330,8 @@ const STOCK_PACKAGES = [
      "der/die Liedermacher/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il cantautore canta con la chitarra.",
+    "definition": "Artista che scrive e canta le sue canzoni.",
     "usage": "pl. i cantautori, le cantautrici",
     "tags": [
      "fakultativ"
@@ -26356,8 +26356,8 @@ const STOCK_PACKAGES = [
      "die Schöpfung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La creazione dell’opera è stata lunga.",
+    "definition": "Atto di creare.",
     "tags": [
      "fakultativ"
     ],
@@ -26380,8 +26380,8 @@ const STOCK_PACKAGES = [
      "eigene(r/s)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho la mia propria camera.",
+    "definition": "Che appartiene a sé.",
     "usage": "pl. propri, proprie",
     "tags": [
      "fakultativ"
@@ -26396,8 +26396,8 @@ const STOCK_PACKAGES = [
      "die Generation"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La mia generazione usa internet.",
+    "definition": "Insieme di persone nate nello stesso periodo.",
     "tags": [
      "fakultativ"
     ],
@@ -26420,8 +26420,8 @@ const STOCK_PACKAGES = [
      "die (Musik-)Platte"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ascolto un vecchio disco.",
+    "definition": "Supporto con musica registrata.",
     "usage": "pl. i dischi",
     "tags": [
      "fakultativ"
@@ -26446,8 +26446,8 @@ const STOCK_PACKAGES = [
      "die Sorte"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che genere di musica ti piace?",
+    "definition": "Categoria di opere o di musica.",
     "tags": [
      "fakultativ"
     ],
@@ -26471,8 +26471,8 @@ const STOCK_PACKAGES = [
      "sich abspielen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La festa si svolge in piazza.",
+    "definition": "Accadere, avere luogo.",
     "usage": "p.p. svolto",
     "tags": [
      "fakultativ"
@@ -26486,8 +26486,8 @@ const STOCK_PACKAGES = [
      "der/die Sieger/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il vincitore riceve un premio.",
+    "definition": "Chi vince.",
     "tags": [
      "fakultativ"
     ],
@@ -26511,8 +26511,8 @@ const STOCK_PACKAGES = [
      "außer jdm./etw."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Oltre a te, viene anche Marco.",
+    "definition": "In aggiunta a.",
     "tags": [
      "fakultativ"
     ],
@@ -26525,8 +26525,8 @@ const STOCK_PACKAGES = [
      "der Saal"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La sala è piena.",
+    "definition": "Grande stanza per eventi.",
     "tags": [
      "fakultativ"
     ],
@@ -26549,8 +26549,8 @@ const STOCK_PACKAGES = [
      "das Kasino"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il casinò è aperto di sera.",
+    "definition": "Locale dove si gioca d’azzardo.",
     "usage": "pl. i casinò",
     "tags": [
      "fakultativ"
@@ -26574,8 +26574,8 @@ const STOCK_PACKAGES = [
      "die Veranstaltung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È la settantesima edizione.",
+    "definition": "Singola volta in cui un evento si svolge.",
     "tags": [
      "fakultativ"
     ],
@@ -26588,8 +26588,8 @@ const STOCK_PACKAGES = [
      "die Kategorie"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Gareggia nella categoria giovani.",
+    "definition": "Gruppo di elementi simili.",
     "tags": [
      "fakultativ"
     ],
@@ -26611,8 +26611,8 @@ const STOCK_PACKAGES = [
      "tot"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il suo nonno è morto.",
+    "definition": "Che non è più in vita.",
     "tags": [
      "fakultativ"
     ],
@@ -26626,8 +26626,8 @@ const STOCK_PACKAGES = [
      "das Orchester"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’orchestra suona Verdi.",
+    "definition": "Gruppo di musicisti che suonano insieme.",
     "tags": [
      "fakultativ"
     ],
@@ -26642,8 +26642,8 @@ const STOCK_PACKAGES = [
      "die Bestmarke"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Batte il record.",
+    "definition": "Miglior risultato mai ottenuto.",
     "usage": "pl. i record",
     "tags": [
      "fakultativ"
@@ -26685,7 +26685,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -26723,8 +26723,8 @@ const STOCK_PACKAGES = [
      "das Praktikum"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio uno stage in estate.",
+    "definition": "Periodo di pratica in un’azienda.",
     "usage": "[staʒ]: g weich, e am Ende nicht gesprochen",
     "tags": [
      "fakultativ"
@@ -26747,8 +26747,8 @@ const STOCK_PACKAGES = [
      "die Hauptfigur"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il protagonista è un ragazzo.",
+    "definition": "Personaggio principale.",
     "tags": [
      "fakultativ"
     ],
@@ -26761,8 +26761,8 @@ const STOCK_PACKAGES = [
      "das Marketing"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Studio marketing.",
+    "definition": "Attività che serve a vendere un prodotto.",
     "tags": [
      "fakultativ"
     ],
@@ -26784,8 +26784,8 @@ const STOCK_PACKAGES = [
      "bekannt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un cantante noto.",
+    "definition": "Conosciuto.",
     "tags": [
      "fakultativ"
     ],
@@ -26798,8 +26798,8 @@ const STOCK_PACKAGES = [
      "entwickeln"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sviluppiamo un progetto.",
+    "definition": "Far crescere.",
     "tags": [
      "fakultativ"
     ],
@@ -26812,8 +26812,8 @@ const STOCK_PACKAGES = [
      "bekannt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È uno scrittore conosciuto.",
+    "definition": "Noto a molti.",
     "tags": [
      "fakultativ"
     ],
@@ -26827,8 +26827,8 @@ const STOCK_PACKAGES = [
      "der Betreff (Mail)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’oggetto della mail è “Richiesta”.",
+    "definition": "Argomento di un’e-mail o di una lettera.",
     "tags": [
      "fakultativ"
     ],
@@ -26841,8 +26841,8 @@ const STOCK_PACKAGES = [
      "Sehr geehrte/r (Anrede: Brief, Mail)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Gentilissimo signor Rossi,",
+    "definition": "Formula di saluto molto cortese per iniziare una lettera.",
     "tags": [
      "fakultativ"
     ],
@@ -26855,8 +26855,8 @@ const STOCK_PACKAGES = [
      "staatlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Frequento una scuola statale.",
+    "definition": "Dello Stato.",
     "tags": [
      "fakultativ"
     ],
@@ -26869,8 +26869,8 @@ const STOCK_PACKAGES = [
      "die Anzeige (Stellensuche)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Leggo un annuncio di lavoro.",
+    "definition": "Messaggio pubblicato per offrire o cercare qualcosa.",
     "tags": [
      "fakultativ"
     ],
@@ -26883,8 +26883,8 @@ const STOCK_PACKAGES = [
      "fließend (Sprache)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Parla un italiano corrente.",
+    "definition": "Che scorre senza fatica.",
     "tags": [
      "fakultativ"
     ],
@@ -26898,8 +26898,8 @@ const STOCK_PACKAGES = [
      "neben jdm/etw."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Oltre a te, viene anche Marco.",
+    "definition": "In aggiunta a.",
     "tags": [
      "fakultativ"
     ],
@@ -26913,8 +26913,8 @@ const STOCK_PACKAGES = [
      "Grund-"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho un livello di base.",
+    "definition": "Fondamentale, di primo livello.",
     "tags": [
      "fakultativ"
     ],
@@ -26928,8 +26928,8 @@ const STOCK_PACKAGES = [
      "besuchen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Frequento la scuola di danza.",
+    "definition": "Andare spesso in un luogo.",
     "tags": [
      "fakultativ"
     ],
@@ -26943,8 +26943,8 @@ const STOCK_PACKAGES = [
      "anwenden"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Utilizzo il computer.",
+    "definition": "Usare.",
     "tags": [
      "fakultativ"
     ],
@@ -26957,8 +26957,8 @@ const STOCK_PACKAGES = [
      "gewöhnlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È il mio posto abituale.",
+    "definition": "Che si fa di solito.",
     "tags": [
      "fakultativ"
     ],
@@ -26971,8 +26971,8 @@ const STOCK_PACKAGES = [
      "die Muttersprache"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La mia lingua materna è il tedesco.",
+    "definition": "La prima lingua che si impara da piccoli.",
     "tags": [
      "fakultativ"
     ],
@@ -26994,8 +26994,8 @@ const STOCK_PACKAGES = [
      "intensiv"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio un corso intensivo.",
+    "definition": "Molto concentrato nel tempo.",
     "tags": [
      "fakultativ"
     ],
@@ -27010,8 +27010,8 @@ const STOCK_PACKAGES = [
      "das Level"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mio livello di italiano è B1.",
+    "definition": "Grado di competenza.",
     "tags": [
      "fakultativ"
     ],
@@ -27034,8 +27034,8 @@ const STOCK_PACKAGES = [
      "schulisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’anno scolastico è lungo.",
+    "definition": "Della scuola.",
     "tags": [
      "fakultativ"
     ],
@@ -27048,8 +27048,8 @@ const STOCK_PACKAGES = [
      "der Sinn"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questa frase ha senso.",
+    "definition": "Significato.",
     "tags": [
      "fakultativ"
     ],
@@ -27072,8 +27072,8 @@ const STOCK_PACKAGES = [
      "die Organisation"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’organizzazione è perfetta.",
+    "definition": "Modo di pianificare le cose; anche gruppo.",
     "usage": "f.",
     "tags": [
      "fakultativ"
@@ -27088,8 +27088,8 @@ const STOCK_PACKAGES = [
      "individuell"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un lavoro individuale.",
+    "definition": "Per una sola persona.",
     "tags": [
      "fakultativ"
     ],
@@ -27103,8 +27103,8 @@ const STOCK_PACKAGES = [
      "realisieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Realizzo un progetto.",
+    "definition": "Fare, portare a termine.",
     "tags": [
      "fakultativ"
     ],
@@ -27117,8 +27117,8 @@ const STOCK_PACKAGES = [
      "die Präsentation"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La presentazione dura dieci minuti.",
+    "definition": "Esposizione di un lavoro.",
     "tags": [
      "fakultativ"
     ],
@@ -27142,8 +27142,8 @@ const STOCK_PACKAGES = [
      "das Geschick"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ha molta abilità.",
+    "definition": "Capacità.",
     "tags": [
      "fakultativ"
     ],
@@ -27157,8 +27157,8 @@ const STOCK_PACKAGES = [
      "die Erfahrung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho molta esperienza.",
+    "definition": "Conoscenza che nasce dalla pratica.",
     "tags": [
      "fakultativ"
     ],
@@ -27173,8 +27173,8 @@ const STOCK_PACKAGES = [
      "die Kundin"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il cliente aspetta alla cassa.",
+    "definition": "Persona che compra.",
     "tags": [
      "fakultativ"
     ],
@@ -27190,8 +27190,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "essere in grado di"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Sono in grado di nuotare.",
+    "definition": "Avere la capacità di.",
     "tags": [
      "fakultativ"
     ],
@@ -27204,8 +27204,8 @@ const STOCK_PACKAGES = [
      "zufriedenstellend"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il risultato è soddisfacente.",
+    "definition": "Che soddisfa.",
     "tags": [
      "fakultativ"
     ],
@@ -27218,8 +27218,8 @@ const STOCK_PACKAGES = [
      "der Zeitraum"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un periodo di vacanza.",
+    "definition": "Intervallo di tempo.",
     "tags": [
      "fakultativ"
     ],
@@ -27242,8 +27242,8 @@ const STOCK_PACKAGES = [
      "die Begeisterung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ha molto entusiasmo.",
+    "definition": "Grande energia e gioia.",
     "tags": [
      "fakultativ"
     ],
@@ -27257,8 +27257,8 @@ const STOCK_PACKAGES = [
      "in Erwartung (Brief)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "In attesa di una Sua risposta, cordiali saluti.",
+    "definition": "Formula di lettera: aspettando.",
     "tags": [
      "fakultativ"
     ],
@@ -27271,8 +27271,8 @@ const STOCK_PACKAGES = [
      "freundlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il cameriere è cortese.",
+    "definition": "Gentile.",
     "tags": [
      "fakultativ"
     ],
@@ -27285,8 +27285,8 @@ const STOCK_PACKAGES = [
      "die Antwort"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La risposta è giusta.",
+    "definition": "Quello che si dice a una domanda.",
     "tags": [
      "fakultativ"
     ],
@@ -27308,8 +27308,8 @@ const STOCK_PACKAGES = [
      "jdn begrüßen (formell in Briefen)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Porgo i miei saluti alla signora.",
+    "definition": "Mandare saluti.",
     "tags": [
      "fakultativ"
     ],
@@ -27322,8 +27322,8 @@ const STOCK_PACKAGES = [
      "herzlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Un cordiale saluto.",
+    "definition": "Pieno di affetto.",
     "tags": [
      "fakultativ"
     ],
@@ -27337,8 +27337,8 @@ const STOCK_PACKAGES = [
      "das Geburtsdatum"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La mia data di nascita è il 3 maggio.",
+    "definition": "Giorno, mese e anno in cui si è nati.",
     "tags": [
      "fakultativ"
     ],
@@ -27360,8 +27360,8 @@ const STOCK_PACKAGES = [
      "das (Abschluss-)Zeugnis"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho il diploma di scuola superiore.",
+    "definition": "Documento che certifica un titolo di studio.",
     "tags": [
      "fakultativ"
     ],
@@ -27383,8 +27383,8 @@ const STOCK_PACKAGES = [
      "erreichen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Consegue la laurea.",
+    "definition": "Ottenere con impegno.",
     "tags": [
      "fakultativ"
     ],
@@ -27398,8 +27398,8 @@ const STOCK_PACKAGES = [
      "hier: an"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Lavoro presso una banca.",
+    "definition": "Nel luogo di.",
     "tags": [
      "fakultativ"
     ],
@@ -27412,8 +27412,8 @@ const STOCK_PACKAGES = [
      "fließend (Sprache)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Parla un italiano fluente.",
+    "definition": "Che scorre senza difficoltà.",
     "tags": [
      "fakultativ"
     ],
@@ -27427,8 +27427,8 @@ const STOCK_PACKAGES = [
      "schriftlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "C’è una prova scritta.",
+    "definition": "Fatto con penna o tastiera, non a voce.",
     "tags": [
      "fakultativ"
     ],
@@ -27441,8 +27441,8 @@ const STOCK_PACKAGES = [
      "mündlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "C’è una prova orale.",
+    "definition": "Che si fa a voce.",
     "tags": [
      "fakultativ"
     ],
@@ -27455,8 +27455,8 @@ const STOCK_PACKAGES = [
      "die Anwendung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Scarico un’applicazione.",
+    "definition": "App per telefono o computer.",
     "usage": "f.",
     "tags": [
      "fakultativ"
@@ -27471,8 +27471,8 @@ const STOCK_PACKAGES = [
      "die Unterstützung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Offro supporto ai clienti.",
+    "definition": "Aiuto.",
     "tags": [
      "fakultativ"
     ],
@@ -27495,8 +27495,8 @@ const STOCK_PACKAGES = [
      "der Anhang (Mail)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Trovi il CV in allegato.",
+    "definition": "File unito a una mail.",
     "tags": [
      "fakultativ"
     ],
@@ -27511,8 +27511,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "il curriculum"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Invio il curriculum.",
+    "definition": "Documento con le esperienze di una persona.",
     "tags": [
      "fakultativ"
     ],
@@ -27535,8 +27535,8 @@ const STOCK_PACKAGES = [
      "die Weiterbildung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’istruzione è importante.",
+    "definition": "Formazione scolastica.",
     "usage": "f.",
     "tags": [
      "fakultativ"
@@ -27569,7 +27569,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -27608,8 +27608,8 @@ const STOCK_PACKAGES = [
      "dann"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Allora non c’erano i telefonini.",
+    "definition": "In quel tempo del passato.",
     "page": "199-200",
     "related": "F alors"
    },
@@ -27621,8 +27621,8 @@ const STOCK_PACKAGES = [
      "verschieden"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "I miei gusti sono diversi dai tuoi.",
+    "definition": "Che non è uguale.",
     "page": "199-200",
     "related": "L diversus"
    },
@@ -27634,8 +27634,8 @@ const STOCK_PACKAGES = [
      "erleben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vivo a Monaco.",
+    "definition": "Abitare o passare la propria vita in un posto.",
     "usage": "p.p. vissuto",
     "page": "199-200",
     "related": "▸ la vita; F vivre; L vivere"
@@ -27649,8 +27649,8 @@ const STOCK_PACKAGES = [
      "das Land"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mio paese è piccolo.",
+    "definition": "Piccolo centro abitato; anche una nazione.",
     "page": "199-200",
     "grammar": {
      "partOfSpeech": "noun",
@@ -27669,8 +27669,8 @@ const STOCK_PACKAGES = [
      "zu Fuß"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vado a scuola a piedi.",
+    "definition": "Camminando, senza mezzi.",
     "page": "199-200"
    },
    {
@@ -27680,8 +27680,8 @@ const STOCK_PACKAGES = [
      "werden (zu)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Voglio diventare medico.",
+    "definition": "Passare a una nuova condizione.",
     "page": "199-200"
    },
    {
@@ -27691,8 +27691,8 @@ const STOCK_PACKAGES = [
      "wie (sehr)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Quanto sei gentile!",
+    "definition": "Parola per esprimere intensità.",
     "usage": "avv.",
     "page": "199-200"
    },
@@ -27704,8 +27704,8 @@ const STOCK_PACKAGES = [
      "träge"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Oggi sono pigro.",
+    "definition": "Che non ha voglia di fare niente.",
     "page": "199-200"
    },
    {
@@ -27717,8 +27717,8 @@ const STOCK_PACKAGES = [
      "im Gegenteil"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non è brutto, anzi è bellissimo.",
+    "definition": "Parola per correggere o rafforzare.",
     "page": "199-200"
    },
    {
@@ -27729,8 +27729,8 @@ const STOCK_PACKAGES = [
      "die (heilige) Messe"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La domenica vado a messa.",
+    "definition": "Cerimonia religiosa cattolica.",
     "page": "199-200",
     "grammar": {
      "partOfSpeech": "noun",
@@ -27750,8 +27750,8 @@ const STOCK_PACKAGES = [
      "mühsam"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il lavoro è faticoso.",
+    "definition": "Che richiede molto sforzo.",
     "page": "199-200",
     "related": "F fatigant"
    },
@@ -27762,8 +27762,8 @@ const STOCK_PACKAGES = [
      "das Land"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mio nonno vive in campagna.",
+    "definition": "Zona fuori dalla città, con campi e fattorie.",
     "usage": "≠ la città",
     "page": "199-200",
     "related": "≠ la città; F la champagne",
@@ -27784,8 +27784,8 @@ const STOCK_PACKAGES = [
      "arbeiten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mio padre lavora in banca.",
+    "definition": "Fare un’attività per guadagnare.",
     "page": "199-200",
     "related": "L laborare"
    },
@@ -27797,8 +27797,8 @@ const STOCK_PACKAGES = [
      "der Junge / das Mädchen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il bambino gioca con la palla.",
+    "definition": "Persona molto giovane.",
     "page": "199-200",
     "related": "≠ adulto"
    },
@@ -27809,8 +27809,8 @@ const STOCK_PACKAGES = [
      "als Kind"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Da bambino giocavo sempre a calcio.",
+    "definition": "Nel periodo dell’infanzia.",
     "page": "199-200"
    },
    {
@@ -27820,8 +27820,8 @@ const STOCK_PACKAGES = [
      "die Gefahr"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Attenzione al pericolo!",
+    "definition": "Situazione che può far male.",
     "page": "199-200",
     "related": "L periculum",
     "grammar": {
@@ -27844,8 +27844,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "due chiacchiere"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Facciamo due chiacchiere al bar.",
+    "definition": "Parlare un po’ in modo informale.",
     "page": "199-200"
    },
    {
@@ -27855,8 +27855,8 @@ const STOCK_PACKAGES = [
      "sich kennen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ci conosciamo da tre anni.",
+    "definition": "Sapere chi è l’altro.",
     "page": "199-200",
     "related": "▸ conoscere; F se connaître"
    },
@@ -27867,8 +27867,8 @@ const STOCK_PACKAGES = [
      "sich treffen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ci incontriamo davanti al cinema.",
+    "definition": "Vedersi in un luogo.",
     "page": "199-200"
    },
    {
@@ -27878,8 +27878,8 @@ const STOCK_PACKAGES = [
      "irgendwann"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ad un certo punto è arrivato Luca.",
+    "definition": "In un momento imprecisato.",
     "page": "199-200"
    },
    {
@@ -27890,8 +27890,8 @@ const STOCK_PACKAGES = [
      "Man muss (etw. tun)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Bisogna studiare per l’esame.",
+    "definition": "Espressione di necessità generale.",
     "page": "199-200"
    },
    {
@@ -27902,8 +27902,8 @@ const STOCK_PACKAGES = [
      "sich einigen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ci mettiamo d’accordo sull’orario.",
+    "definition": "Decidere insieme.",
     "page": "199-200",
     "related": "F se mettre d’accord"
    },
@@ -27915,8 +27915,8 @@ const STOCK_PACKAGES = [
      "der Termin"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho un appuntamento dal dentista.",
+    "definition": "Incontro fissato per un’ora precisa.",
     "page": "199-200",
     "related": "E appointment"
    },
@@ -27927,8 +27927,8 @@ const STOCK_PACKAGES = [
      "genau"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Alle tre precise parte il treno.",
+    "definition": "Esatto, senza errori.",
     "page": "199-200"
    },
    {
@@ -27939,8 +27939,8 @@ const STOCK_PACKAGES = [
      "gewiss"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Certamente vengo!",
+    "definition": "Senza dubbio.",
     "page": "199-200"
    },
    {
@@ -27950,8 +27950,8 @@ const STOCK_PACKAGES = [
      "man"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "In Italia si mangia molta pasta.",
+    "definition": "Pronome che indica le persone in generale.",
     "page": "199-200"
    },
    {
@@ -27961,8 +27961,8 @@ const STOCK_PACKAGES = [
      "der (Fahrkarten-)Schalter"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Compro il biglietto allo sportello.",
+    "definition": "Finestra dove si comprano i biglietti.",
     "page": "199-200",
     "grammar": {
      "partOfSpeech": "noun",
@@ -27981,8 +27981,8 @@ const STOCK_PACKAGES = [
      "mehr"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Oggi lavoro più di ieri.",
+    "definition": "In quantità maggiore.",
     "page": "199-200",
     "related": "F plus"
    },
@@ -27994,8 +27994,8 @@ const STOCK_PACKAGES = [
      "die Eisenbahn"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La ferrovia collega le due città.",
+    "definition": "Rete di binari dove corrono i treni.",
     "page": "199-200",
     "related": "L ferrum, via",
     "grammar": {
@@ -28016,8 +28016,8 @@ const STOCK_PACKAGES = [
      "die Schlange (beim Anstehen)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "C’è una lunga coda alla cassa.",
+    "definition": "Fila di persone che aspettano.",
     "page": "199-200",
     "grammar": {
      "partOfSpeech": "noun",
@@ -28036,8 +28036,8 @@ const STOCK_PACKAGES = [
      "im Grunde"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "In fondo hai ragione.",
+    "definition": "Alla fine; in sostanza.",
     "usage": "avv.",
     "page": "199-200"
    },
@@ -28049,8 +28049,8 @@ const STOCK_PACKAGES = [
      "komfortabel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il divano è molto comodo.",
+    "definition": "Che dà agio e non stanca.",
     "page": "199-200",
     "related": "E comfortable; F confortable"
    },
@@ -28062,8 +28062,8 @@ const STOCK_PACKAGES = [
      "auch nicht"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non ho neanche un euro.",
+    "definition": "Parola che nega “anche”.",
     "page": "199-200"
    },
    {
@@ -28073,8 +28073,8 @@ const STOCK_PACKAGES = [
      "das Fernsehen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Guardo la televisione la sera.",
+    "definition": "Apparecchio e mezzo di comunicazione con immagini e suoni.",
     "page": "199-200",
     "related": "E television; F la télévision",
     "grammar": {
@@ -28094,8 +28094,8 @@ const STOCK_PACKAGES = [
      "etw. zu tun haben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Oggi ho molto da fare.",
+    "definition": "Avere un impegno.",
     "usage": "Abc",
     "page": "199-200"
    },
@@ -28107,8 +28107,8 @@ const STOCK_PACKAGES = [
      "vielleicht"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Casomai chiamami.",
+    "definition": "Se per caso succede qualcosa.",
     "page": "199-200"
    },
    {
@@ -28119,8 +28119,8 @@ const STOCK_PACKAGES = [
      "der Buchstabe"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Scrivo una lettera alla nonna.",
+    "definition": "Foglio scritto che si spedisce; segno dell’alfabeto.",
     "page": "199-200",
     "related": "E letter; F la lettre; L littera/-ae",
     "grammar": {
@@ -28142,8 +28142,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "comunicare"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Comunico con i miei amici online.",
+    "definition": "Far sapere qualcosa agli altri.",
     "usage": "Abc",
     "page": "199-200"
    },
@@ -28155,8 +28155,8 @@ const STOCK_PACKAGES = [
      "der Witz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Era solo uno scherzo!",
+    "definition": "Cosa detta o fatta per ridere.",
     "page": "199-200",
     "grammar": {
      "partOfSpeech": "noun",
@@ -28176,8 +28176,8 @@ const STOCK_PACKAGES = [
      "hektisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La vita in città è frenetica.",
+    "definition": "Pieno di movimento e fretta.",
     "page": "199-200"
    }
   ]
@@ -28206,7 +28206,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -28244,8 +28244,8 @@ const STOCK_PACKAGES = [
      "der Wettbewerb"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Partecipo a un concorso di disegno.",
+    "definition": "Gara in cui si vince un premio.",
     "page": "201-202",
     "related": "F le concours",
     "grammar": {
@@ -28266,8 +28266,8 @@ const STOCK_PACKAGES = [
      "die Geschichte"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Leggo un racconto di fantascienza.",
+    "definition": "Storia breve.",
     "page": "201-202",
     "related": "▸ raccontare",
     "grammar": {
@@ -28287,8 +28287,8 @@ const STOCK_PACKAGES = [
      "das Abenteuer"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che avventura è stata la gita!",
+    "definition": "Esperienza insolita e emozionante.",
     "page": "201-202",
     "related": "E adventure; F l’aventure"
    },
@@ -28299,8 +28299,8 @@ const STOCK_PACKAGES = [
      "eines Tages"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Un giorno visiterò Roma.",
+    "definition": "In un momento qualsiasi del passato o del futuro.",
     "usage": "avv.",
     "page": "201-202"
    },
@@ -28311,8 +28311,8 @@ const STOCK_PACKAGES = [
      "während"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mentre mangio, ascolto la radio.",
+    "definition": "Nello stesso tempo in cui.",
     "page": "201-202"
    },
    {
@@ -28323,8 +28323,8 @@ const STOCK_PACKAGES = [
      "auf einmal"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ad un tratto è andata via la luce.",
+    "definition": "Improvvisamente.",
     "page": "201-202"
    },
    {
@@ -28338,8 +28338,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "colpire"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Il film mi ha colpito molto.",
+    "definition": "Dare un colpo; impressionare.",
     "usage": "Abc",
     "page": "201-202"
    },
@@ -28350,8 +28350,8 @@ const STOCK_PACKAGES = [
      "fliegen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Gli uccelli volano.",
+    "definition": "Muoversi nell’aria con le ali.",
     "page": "201-202",
     "related": "F voler"
    },
@@ -28363,8 +28363,8 @@ const STOCK_PACKAGES = [
      "wütend werden"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mamma si arrabbia quando faccio tardi.",
+    "definition": "Provare rabbia.",
     "page": "201-202"
    },
    {
@@ -28375,8 +28375,8 @@ const STOCK_PACKAGES = [
      "selbstverständlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Naturalmente vengo alla festa!",
+    "definition": "Come è ovvio.",
     "usage": "avv.",
     "page": "201-202"
    },
@@ -28387,8 +28387,8 @@ const STOCK_PACKAGES = [
      "der Kopf"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho mal di testa.",
+    "definition": "Parte del corpo con il cervello.",
     "page": "201-202",
     "related": "F la tête",
     "grammar": {
@@ -28409,8 +28409,8 @@ const STOCK_PACKAGES = [
      "niedrig"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mio fratellino è ancora basso.",
+    "definition": "Poco alto.",
     "page": "201-202",
     "related": "F bas, basse"
    },
@@ -28421,8 +28421,8 @@ const STOCK_PACKAGES = [
      "kurz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho i capelli corti.",
+    "definition": "Poco lungo.",
     "usage": "≠ lungo",
     "page": "201-202",
     "related": "F court/e; ≠ lungo"
@@ -28434,8 +28434,8 @@ const STOCK_PACKAGES = [
      "sich entschuldigen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi scuso per il ritardo.",
+    "definition": "Chiedere perdono.",
     "page": "201-202"
    },
    {
@@ -28445,8 +28445,8 @@ const STOCK_PACKAGES = [
      "österreichisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mio amico è austriaco.",
+    "definition": "Che viene dal paese di cui Vienna è la capitale.",
     "page": "201-202"
    },
    {
@@ -28456,8 +28456,8 @@ const STOCK_PACKAGES = [
      "Wien (Hauptstadt von Österreich)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vienna è una città elegante.",
+    "definition": "Capitale dell’Austria.",
     "page": "201-202"
    },
    {
@@ -28467,8 +28467,8 @@ const STOCK_PACKAGES = [
      "jdn anlächeln"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sorrido a mia nonna.",
+    "definition": "Mostrare allegria con il viso.",
     "usage": "p.p. sorriso",
     "page": "201-202",
     "related": "F sourire"
@@ -28482,8 +28482,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "togliersi qs, tolto"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Mi tolgo la giacca.",
+    "definition": "Levarsi un indumento.",
     "usage": "p.p. tolto",
     "page": "201-202"
    },
@@ -28494,8 +28494,8 @@ const STOCK_PACKAGES = [
      "das Kino"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Andiamo al cinema sabato.",
+    "definition": "Luogo dove si guardano i film.",
     "usage": "pl. i cinema",
     "page": "201-202",
     "related": "E/F cinema",
@@ -28517,8 +28517,8 @@ const STOCK_PACKAGES = [
      "das Open-air-Kino"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "D’estate c’è il cinema all’aperto.",
+    "definition": "Sala dove si guardano film sotto le stelle.",
     "page": "201-202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -28537,8 +28537,8 @@ const STOCK_PACKAGES = [
      "jdn abholen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Papà arriva a prendermi alle sei.",
+    "definition": "Venire a prendere una persona in un luogo.",
     "page": "201-202"
    },
    {
@@ -28549,8 +28549,8 @@ const STOCK_PACKAGES = [
      "begrüßen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Saluto i miei compagni.",
+    "definition": "Dire “ciao”.",
     "page": "201-202",
     "related": "F saluer"
    },
@@ -28561,8 +28561,8 @@ const STOCK_PACKAGES = [
      "der Moment"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Un momento, arrivo subito!",
+    "definition": "Breve periodo di tempo.",
     "page": "201-202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -28582,8 +28582,8 @@ const STOCK_PACKAGES = [
      "passieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che cosa è successo?",
+    "definition": "Accadere.",
     "usage": "p.p. successo",
     "page": "201-202"
    },
@@ -28595,8 +28595,8 @@ const STOCK_PACKAGES = [
      "unangenehm"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che situazione imbarazzante!",
+    "definition": "Che mette a disagio.",
     "page": "201-202",
     "related": "E embarrassing"
    },
@@ -28608,8 +28608,8 @@ const STOCK_PACKAGES = [
      "stoppen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Fermo l’autobus.",
+    "definition": "Far smettere di muoversi.",
     "page": "201-202"
    },
    {
@@ -28619,8 +28619,8 @@ const STOCK_PACKAGES = [
      "unbekannt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Un uomo sconosciuto bussa alla porta.",
+    "definition": "Che non si conosce.",
     "page": "201-202",
     "related": "≠ conosciuto/-a"
    },
@@ -28632,8 +28632,8 @@ const STOCK_PACKAGES = [
      "der Moment"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "In un attimo è finito tutto.",
+    "definition": "Un tempo brevissimo.",
     "page": "201-202",
     "related": "= il momento"
    },
@@ -28644,8 +28644,8 @@ const STOCK_PACKAGES = [
      "die Angst"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho paura del buio.",
+    "definition": "Sensazione che si prova davanti a un pericolo.",
     "page": "201-202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -28666,8 +28666,8 @@ const STOCK_PACKAGES = [
      "sich verlaufen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non voglio perdermi la festa.",
+    "definition": "Non partecipare a qualcosa di bello.",
     "page": "201-202"
    },
    {
@@ -28679,8 +28679,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "riuscire a + inf., riuscito"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Riesco a nuotare per un’ora.",
+    "definition": "Avere successo in qualcosa.",
     "usage": "p.p. riuscito",
     "page": "201-202",
     "related": "F réussir"
@@ -28693,8 +28693,8 @@ const STOCK_PACKAGES = [
      "überreden"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi hanno convinto a venire.",
+    "definition": "Far cambiare idea a qualcuno.",
     "usage": "p.p. convinto",
     "page": "201-202",
     "related": "E to convince; F convaincre"
@@ -28706,8 +28706,8 @@ const STOCK_PACKAGES = [
      "der Tag (Verlauf)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È stata una bella giornata.",
+    "definition": "Il giorno dal mattino alla sera.",
     "page": "201-202",
     "related": "= il giorno",
     "grammar": {
@@ -28727,8 +28727,8 @@ const STOCK_PACKAGES = [
      "der Abschied"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Un triste addio alla stazione.",
+    "definition": "Saluto di chi parte per sempre.",
     "usage": "pl. gli addii",
     "page": "201-202"
    },
@@ -28739,8 +28739,8 @@ const STOCK_PACKAGES = [
      "der Kontakt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Resto in contatto con i miei amici.",
+    "definition": "Rapporto con una persona.",
     "page": "201-202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -28759,8 +28759,8 @@ const STOCK_PACKAGES = [
      "sich etw. austauschen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ci scambiamo i numeri di telefono.",
+    "definition": "Darsi a vicenda qualcosa.",
     "page": "201-202"
    },
    {
@@ -28771,8 +28771,8 @@ const STOCK_PACKAGES = [
      "das Paket"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho un pacchetto di biscotti.",
+    "definition": "Piccola scatola o confezione.",
     "page": "201-202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -28791,8 +28791,8 @@ const STOCK_PACKAGES = [
      "die Erinnerung an etw./jmd"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho un bel ricordo di quell’estate.",
+    "definition": "Cosa che resta nella memoria.",
     "page": "201-202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -28830,7 +28830,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -28868,8 +28868,8 @@ const STOCK_PACKAGES = [
      "der Absatz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Porto scarpe con il tacco alto.",
+    "definition": "Parte della scarpa sotto il calcagno, che la alza.",
     "usage": "pl. i tacchi",
     "page": "198-199",
     "grammar": {
@@ -28890,8 +28890,8 @@ const STOCK_PACKAGES = [
      "die Oberfläche"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La superficie della Sicilia è molto grande.",
+    "definition": "Parte esterna o estensione di un luogo.",
     "usage": "pl. le superfici",
     "page": "198-199",
     "related": "E surface; F la surface",
@@ -28914,8 +28914,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "il chilometro"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Il paese è lungo due chilometri.",
+    "definition": "Misura di lunghezza o di area di mille metri.",
     "page": "198-199",
     "grammar": {
      "partOfSpeech": "noun",
@@ -28934,8 +28934,8 @@ const STOCK_PACKAGES = [
      "die Million"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "A Roma abitano quasi tre milioni di persone.",
+    "definition": "Mille volte mille.",
     "page": "198-199",
     "grammar": {
      "partOfSpeech": "noun",
@@ -28954,8 +28954,8 @@ const STOCK_PACKAGES = [
      "der/die Bewohner/-in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questa città ha centomila abitanti.",
+    "definition": "Persona che vive in una città o in un paese.",
     "usage": "m./f.",
     "page": "198-199",
     "related": "▸ abitare; E inhabitant; F l’habitant"
@@ -28967,8 +28967,8 @@ const STOCK_PACKAGES = [
      "die Landeshauptstadt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Firenze è il capoluogo della Toscana.",
+    "definition": "Città più importante di una regione o di una provincia.",
     "usage": "pl. i capoluoghi",
     "page": "198-199",
     "grammar": {
@@ -28988,8 +28988,8 @@ const STOCK_PACKAGES = [
      "der Baum"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Un albero cresce nel giardino.",
+    "definition": "Grande pianta con tronco e foglie.",
     "page": "198-199",
     "related": "F l’arbre"
    },
@@ -29001,8 +29001,8 @@ const STOCK_PACKAGES = [
      "erschaffen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Gli studenti creano un poster.",
+    "definition": "Fare qualcosa che prima non c’era.",
     "page": "198-199",
     "related": "E create; F créer"
    },
@@ -29013,8 +29013,8 @@ const STOCK_PACKAGES = [
      "der Wald"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Facciamo una passeggiata nel bosco.",
+    "definition": "Luogo con molti alberi.",
     "usage": "pl. i boschi",
     "page": "198-199",
     "grammar": {
@@ -29034,8 +29034,8 @@ const STOCK_PACKAGES = [
      "der Schatten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "D’estate stiamo all’ombra.",
+    "definition": "Zona dove non arriva il sole.",
     "page": "198-199",
     "related": "F l’ombre"
    },
@@ -29046,8 +29046,8 @@ const STOCK_PACKAGES = [
      "der/die Heilige"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "San Francesco è un santo molto amato.",
+    "definition": "Persona che la Chiesa ricorda con rispetto.",
     "page": "198-199",
     "related": "E/F saint; L sanctus"
    },
@@ -29058,8 +29058,8 @@ const STOCK_PACKAGES = [
      "die Kirche"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La chiesa del paese è molto antica.",
+    "definition": "Edificio dove si prega.",
     "page": "198-199",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29078,8 +29078,8 @@ const STOCK_PACKAGES = [
      "feiern"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Celebriamo il compleanno della nonna.",
+    "definition": "Ricordare con una festa o una cerimonia.",
     "page": "198-199",
     "related": "E to celebrate; F célébrer"
    },
@@ -29090,8 +29090,8 @@ const STOCK_PACKAGES = [
      "von … bis"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Lavoro da lunedì a venerdì.",
+    "definition": "Indica l’inizio e la fine di un periodo o di un percorso.",
     "page": "198-199"
    },
    {
@@ -29102,8 +29102,8 @@ const STOCK_PACKAGES = [
      "bekannt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questo ristorante è famoso.",
+    "definition": "Conosciuto da molte persone.",
     "page": "198-199",
     "related": "E famous"
    },
@@ -29114,8 +29114,8 @@ const STOCK_PACKAGES = [
      "tatsächlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Piove: infatti prendo l’ombrello.",
+    "definition": "Parola che conferma quello che si è detto.",
     "page": "198-199",
     "related": "E in fact; F en effet"
    },
@@ -29126,8 +29126,8 @@ const STOCK_PACKAGES = [
      "die Münze"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho una moneta da due euro.",
+    "definition": "Pezzetto di metallo che serve per pagare.",
     "page": "198-199",
     "related": "E money; F monnaie",
     "grammar": {
@@ -29147,8 +29147,8 @@ const STOCK_PACKAGES = [
      "der Cent"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il caffè costa ottanta centesimi.",
+    "definition": "La monetina più piccola, cento di queste fanno un euro.",
     "page": "198-199",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29168,8 +29168,8 @@ const STOCK_PACKAGES = [
      "das Schloss"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il castello è sulla collina.",
+    "definition": "Grande casa fortificata dei nobili antichi.",
     "page": "198-199",
     "related": "E castle",
     "grammar": {
@@ -29191,8 +29191,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "medievale"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Visitiamo una città medievale.",
+    "definition": "Del Medioevo, periodo tra l’antichità e l’età moderna.",
     "page": "198-199",
     "related": "E medieval; F médiéval(e)"
    },
@@ -29203,8 +29203,8 @@ const STOCK_PACKAGES = [
      "der/die Kaiser/-in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’imperatore romano abitava a Roma.",
+    "definition": "Capo di un grande impero.",
     "page": "198-199",
     "related": "E emperor; F l’empereur"
    },
@@ -29215,8 +29215,8 @@ const STOCK_PACKAGES = [
      "das Dach"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il tetto della casa è rosso.",
+    "definition": "Parte superiore di una casa.",
     "page": "198-199",
     "related": "F le toit; L tectum",
     "grammar": {
@@ -29236,8 +29236,8 @@ const STOCK_PACKAGES = [
      "typisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La pizza è tipica di Napoli.",
+    "definition": "Caratteristico di un luogo.",
     "page": "198-199"
    },
    {
@@ -29247,8 +29247,8 @@ const STOCK_PACKAGES = [
      "der Stein"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il muro è di pietra.",
+    "definition": "Materiale duro che si trova in natura.",
     "page": "198-199",
     "related": "F la pierre",
     "grammar": {
@@ -29268,8 +29268,8 @@ const STOCK_PACKAGES = [
      "Wusstest du, dass …"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sapevi che Venezia ha più di cento isole?",
+    "definition": "Frase per introdurre una curiosità.",
     "page": "198-199"
    },
    {
@@ -29279,8 +29279,8 @@ const STOCK_PACKAGES = [
      "die Region"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La Toscana è una bella regione.",
+    "definition": "Parte di un paese con un suo governo.",
     "page": "198-199",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29299,8 +29299,8 @@ const STOCK_PACKAGES = [
      "das Öl"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Condisco l’insalata con olio e sale.",
+    "definition": "Liquido grasso che si usa per cucinare.",
     "page": "198-199",
     "related": "E oil"
    },
@@ -29311,8 +29311,8 @@ const STOCK_PACKAGES = [
      "die Olive"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mangio le olive con il pane.",
+    "definition": "Piccolo frutto verde o nero da cui si ricava un olio.",
     "page": "198-199"
    },
    {
@@ -29322,8 +29322,8 @@ const STOCK_PACKAGES = [
      "die Produktion"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La produzione di vino è importante in Piemonte.",
+    "definition": "Fabbricazione di molti prodotti.",
     "page": "198-199",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29343,8 +29343,8 @@ const STOCK_PACKAGES = [
      "die Nudeln"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mangio la pasta ogni giorno.",
+    "definition": "Cibo italiano fatto con farina e acqua.",
     "page": "198-199",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29363,8 +29363,8 @@ const STOCK_PACKAGES = [
      "die Küste"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La costa della Liguria è bellissima.",
+    "definition": "Zona di terra vicina al mare.",
     "page": "198-199",
     "related": "E coast; F la côte",
     "grammar": {
@@ -29384,8 +29384,8 @@ const STOCK_PACKAGES = [
      "(an-)bieten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’hotel offre la colazione.",
+    "definition": "Mettere a disposizione o regalare.",
     "usage": "p.p. offerto",
     "page": "198-199",
     "related": "E offer; F offrir; L offerre"
@@ -29397,8 +29397,8 @@ const STOCK_PACKAGES = [
      "der Sand"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "I bambini giocano nella sabbia.",
+    "definition": "Granelli piccoli che coprono la spiaggia.",
     "page": "198-199",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29417,8 +29417,8 @@ const STOCK_PACKAGES = [
      "die Klippe"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "I gabbiani sono sullo scoglio.",
+    "definition": "Grande pietra che esce dal mare.",
     "page": "198-199",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29437,8 +29437,8 @@ const STOCK_PACKAGES = [
      "überall"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ci sono turisti dappertutto.",
+    "definition": "In ogni posto.",
     "page": "198-199"
    },
    {
@@ -29448,8 +29448,8 @@ const STOCK_PACKAGES = [
      "sauber"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La camera è pulita.",
+    "definition": "Senza sporco.",
     "page": "198-199"
    },
    {
@@ -29459,8 +29459,8 @@ const STOCK_PACKAGES = [
      "das Beispiel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Dammi un esempio, per favore.",
+    "definition": "Caso che aiuta a capire una regola.",
     "usage": "pl. gli esempi",
     "page": "198-199",
     "related": "E example"
@@ -29472,8 +29472,8 @@ const STOCK_PACKAGES = [
      "der Hafen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Le navi sono nel porto.",
+    "definition": "Luogo dove si fermano le navi.",
     "page": "198-199",
     "related": "E/F port; L portus",
     "grammar": {
@@ -29493,8 +29493,8 @@ const STOCK_PACKAGES = [
      "Norden"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Milano è a nord di Roma.",
+    "definition": "Punto cardinale in alto sulla carta.",
     "page": "198-199"
    },
    {
@@ -29504,8 +29504,8 @@ const STOCK_PACKAGES = [
      "Süden"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Napoli è a sud di Roma.",
+    "definition": "Punto cardinale opposto al nord.",
     "page": "198-199"
    },
    {
@@ -29515,8 +29515,8 @@ const STOCK_PACKAGES = [
      "Osten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Venezia è a est di Milano.",
+    "definition": "Punto cardinale dove sorge il sole.",
     "page": "198-199"
    },
    {
@@ -29526,8 +29526,8 @@ const STOCK_PACKAGES = [
      "Westen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Torino è a ovest di Milano.",
+    "definition": "Punto cardinale dove tramonta il sole.",
     "page": "198-199"
    }
   ]
@@ -29556,7 +29556,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -29595,8 +29595,8 @@ const STOCK_PACKAGES = [
      "das Dorf"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mio paese è piccolo.",
+    "definition": "Piccolo centro abitato; anche una nazione.",
     "page": "202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29615,8 +29615,8 @@ const STOCK_PACKAGES = [
      "die Hauptstadt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Roma è la capitale d’Italia.",
+    "definition": "Città principale di un paese.",
     "page": "202",
     "related": "E capital city; F la capitale; L caput",
     "grammar": {
@@ -29636,8 +29636,8 @@ const STOCK_PACKAGES = [
      "die Landeshauptstadt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Napoli è il capoluogo della Campania.",
+    "definition": "Città più importante di una regione.",
     "page": "202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29656,8 +29656,8 @@ const STOCK_PACKAGES = [
      "die Stadt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La città è molto rumorosa.",
+    "definition": "Grande centro abitato.",
     "page": "202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29677,8 +29677,8 @@ const STOCK_PACKAGES = [
      "der Weg"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Abito in via Roma.",
+    "definition": "Strada di una città.",
     "page": "202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29697,8 +29697,8 @@ const STOCK_PACKAGES = [
      "die Straße"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La strada è molto trafficata.",
+    "definition": "Spazio dove circolano auto e persone.",
     "page": "202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29717,8 +29717,8 @@ const STOCK_PACKAGES = [
      "die Autobahn"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Prendiamo l’autostrada per Milano.",
+    "definition": "Strada veloce per auto fuori dalle città.",
     "page": "202"
    },
    {
@@ -29728,8 +29728,8 @@ const STOCK_PACKAGES = [
      "die Landstraße"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La strada di campagna è tranquilla.",
+    "definition": "Strada piccola che attraversa i campi.",
     "page": "202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29748,8 +29748,8 @@ const STOCK_PACKAGES = [
      "die Eisenbahn"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La ferrovia collega le due città.",
+    "definition": "Rete di binari dove corrono i treni.",
     "page": "202",
     "related": "L ferrum, via",
     "grammar": {
@@ -29769,8 +29769,8 @@ const STOCK_PACKAGES = [
      "der Fluss"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il Po è un fiume lungo.",
+    "definition": "Corso d’acqua che arriva al mare.",
     "page": "202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29789,8 +29789,8 @@ const STOCK_PACKAGES = [
      "das Meer"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "D’estate vado al mare.",
+    "definition": "Grande distesa d’acqua salata.",
     "page": "202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29809,8 +29809,8 @@ const STOCK_PACKAGES = [
      "der Hafen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Le navi sono nel porto.",
+    "definition": "Luogo dove si fermano le navi.",
     "page": "202",
     "related": "E/F port; L portus",
     "grammar": {
@@ -29830,8 +29830,8 @@ const STOCK_PACKAGES = [
      "der Berg"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il Monte Bianco è molto alto.",
+    "definition": "Altura molto alta.",
     "page": "202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29850,8 +29850,8 @@ const STOCK_PACKAGES = [
      "das Gebirge"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "D’inverno andiamo in montagna.",
+    "definition": "Grande rilievo del terreno.",
     "page": "202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29872,8 +29872,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "avere un’altezza di metri"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Questa montagna ha un’altezza di 3000 metri.",
+    "definition": "Essere alto un certo numero di metri.",
     "page": "202"
    },
    {
@@ -29883,8 +29883,8 @@ const STOCK_PACKAGES = [
      "der See"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il Lago di Garda è grande.",
+    "definition": "Grande quantità d’acqua circondata dalla terra.",
     "page": "202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29903,8 +29903,8 @@ const STOCK_PACKAGES = [
      "der Wald"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Raccolgo funghi nel bosco.",
+    "definition": "Zona piena di alberi.",
     "page": "202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29923,8 +29923,8 @@ const STOCK_PACKAGES = [
      "das Feld"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il contadino lavora nel campo.",
+    "definition": "Terreno coltivato.",
     "page": "202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -29943,8 +29943,8 @@ const STOCK_PACKAGES = [
      "das Land (≠ Stadt)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mio nonno vive in campagna.",
+    "definition": "Zona fuori dalla città, con campi e fattorie.",
     "page": "202",
     "related": "≠ la città; F la champagne",
     "grammar": {
@@ -29966,8 +29966,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "trovarsi"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Milano si trova nel nord Italia.",
+    "definition": "Essere situato in un luogo.",
     "page": "202"
    },
    {
@@ -29979,8 +29979,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "vicino alle"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Il villaggio è vicino alle montagne.",
+    "definition": "A poca distanza dai monti.",
     "page": "202"
    },
    {
@@ -29993,8 +29993,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "non lontano dal"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Casa mia non è lontana dal mare.",
+    "definition": "A poca distanza dal mare.",
     "page": "202"
    },
    {
@@ -30004,8 +30004,8 @@ const STOCK_PACKAGES = [
      "der/die Einwohner/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questa città ha centomila abitanti.",
+    "definition": "Persona che vive in una città o in un paese.",
     "page": "202",
     "related": "▸ abitare; E inhabitant; F l’habitant"
    },
@@ -30016,8 +30016,8 @@ const STOCK_PACKAGES = [
      "die Amtssprache"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La lingua ufficiale dell’Italia è l’italiano.",
+    "definition": "La lingua riconosciuta dallo Stato.",
     "page": "202",
     "grammar": {
      "partOfSpeech": "noun",
@@ -30038,8 +30038,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "tipico/-a"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Il tiramisù è tipico dell’Italia.",
+    "definition": "Essere caratteristico di un luogo.",
     "page": "202"
    },
    {
@@ -30051,8 +30051,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "famoso/-a per …"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Venezia è famosa per i canali.",
+    "definition": "Essere conosciuto per una cosa.",
     "page": "202"
    }
   ]
@@ -30081,7 +30081,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -30119,8 +30119,8 @@ const STOCK_PACKAGES = [
      "das Risiko"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Nuotare qui è un rischio.",
+    "definition": "Possibilità di un danno.",
     "page": "203-205",
     "related": "E risk",
     "grammar": {
@@ -30141,8 +30141,8 @@ const STOCK_PACKAGES = [
      "der Vorfall"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un caso molto strano.",
+    "definition": "Situazione particolare; anche la sorte.",
     "page": "203-205",
     "related": "F le cas",
     "grammar": {
@@ -30163,8 +30163,8 @@ const STOCK_PACKAGES = [
      "vorig"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La settimana scorsa ho giocato a calcio.",
+    "definition": "Appena passato.",
     "page": "203-205"
    },
    {
@@ -30174,8 +30174,8 @@ const STOCK_PACKAGES = [
      "informieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Informo i miei genitori del voto.",
+    "definition": "Dare notizie a qualcuno.",
     "page": "203-205",
     "related": "▸ l’informazione"
    },
@@ -30186,8 +30186,8 @@ const STOCK_PACKAGES = [
      "der/die Schulleiter/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il preside parla agli studenti.",
+    "definition": "Responsabile di una scuola.",
     "page": "203-205"
    },
    {
@@ -30198,8 +30198,8 @@ const STOCK_PACKAGES = [
      "übergeben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Consegno il compito all’insegnante.",
+    "definition": "Dare nelle mani di qualcuno.",
     "page": "203-205"
    },
    {
@@ -30209,8 +30209,8 @@ const STOCK_PACKAGES = [
      "erlauben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mamma non mi permette di uscire.",
+    "definition": "Lasciar fare.",
     "usage": "p.p. permesso",
     "page": "203-205",
     "related": "≠ vietare; E to permit; L permittere"
@@ -30222,8 +30222,8 @@ const STOCK_PACKAGES = [
      "sich erlauben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non mi permetto di parlare così.",
+    "definition": "Avere il coraggio di fare qualcosa.",
     "usage": "p.p. permesso",
     "page": "203-205"
    },
@@ -30234,8 +30234,8 @@ const STOCK_PACKAGES = [
      "das Verhalten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il suo comportamento è corretto.",
+    "definition": "Modo di agire.",
     "page": "203-205",
     "grammar": {
      "partOfSpeech": "noun",
@@ -30254,8 +30254,8 @@ const STOCK_PACKAGES = [
      "derartig"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non voglio una cosa del genere.",
+    "definition": "Di quel tipo.",
     "page": "203-205",
     "related": "L genus"
    },
@@ -30266,8 +30266,8 @@ const STOCK_PACKAGES = [
      "vermeiden"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Evito il traffico.",
+    "definition": "Cercare di non incontrare un problema.",
     "page": "203-205",
     "related": "F éviter; L vitare"
    },
@@ -30279,8 +30279,8 @@ const STOCK_PACKAGES = [
      "der Schulverweis"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ha preso tre giorni di sospensione.",
+    "definition": "Punizione scolastica: si resta a casa.",
     "page": "203-205",
     "related": "F la suspension",
     "grammar": {
@@ -30300,8 +30300,8 @@ const STOCK_PACKAGES = [
      "die sozialen Medien"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "I social media sono molto popolari.",
+    "definition": "Piattaforme online per condividere contenuti.",
     "usage": "pl.",
     "page": "203-205",
     "grammar": {
@@ -30321,8 +30321,8 @@ const STOCK_PACKAGES = [
      "filmen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Filmo la partita con il telefono.",
+    "definition": "Registrare un video.",
     "page": "203-205",
     "related": "F filmer qc"
    },
@@ -30333,8 +30333,8 @@ const STOCK_PACKAGES = [
      "Selbstporträts aufnehmen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Facciamo dei selfie in gita.",
+    "definition": "Fotografarsi da soli con il telefono.",
     "page": "203-205"
    },
    {
@@ -30344,8 +30344,8 @@ const STOCK_PACKAGES = [
      "der Kommentar"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Leggo i commenti al video.",
+    "definition": "Opinione scritta o detta su qualcosa.",
     "page": "203-205",
     "grammar": {
      "partOfSpeech": "noun",
@@ -30364,8 +30364,8 @@ const STOCK_PACKAGES = [
      "wenn"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Se piove, resto a casa.",
+    "definition": "Parola che introduce una condizione.",
     "page": "203-205",
     "related": "F si"
    },
@@ -30377,8 +30377,8 @@ const STOCK_PACKAGES = [
      "gemein"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il lupo è cattivo.",
+    "definition": "Che fa del male.",
     "usage": "≠ buono/-a",
     "page": "203-205",
     "related": "≠ buono/-a"
@@ -30390,8 +30390,8 @@ const STOCK_PACKAGES = [
      "scheinen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sembri stanco.",
+    "definition": "Dare l’impressione di essere.",
     "page": "203-205"
    },
    {
@@ -30401,8 +30401,8 @@ const STOCK_PACKAGES = [
      "sich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Pensa solo a sé.",
+    "definition": "Pronome riflessivo che si usa dopo le preposizioni.",
     "page": "203-205"
    },
    {
@@ -30412,8 +30412,8 @@ const STOCK_PACKAGES = [
      "selbst"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Abbiamo la stessa età.",
+    "definition": "Identico, uguale.",
     "page": "203-205"
    },
    {
@@ -30423,8 +30423,8 @@ const STOCK_PACKAGES = [
      "darauf(-hin)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "In seguito ho capito tutto.",
+    "definition": "Dopo, successivamente.",
     "page": "203-205"
    },
    {
@@ -30434,8 +30434,8 @@ const STOCK_PACKAGES = [
      "hoffen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Spero di passare l’esame.",
+    "definition": "Desiderare che qualcosa succeda.",
     "page": "203-205",
     "related": "F espérer; L sperare"
    },
@@ -30446,8 +30446,8 @@ const STOCK_PACKAGES = [
      "der/die Verantwortliche"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il responsabile del progetto è Marco.",
+    "definition": "Persona che risponde di qualcosa.",
     "page": "203-205",
     "related": "E responsible; F le/la responsable"
    },
@@ -30458,8 +30458,8 @@ const STOCK_PACKAGES = [
      "die Situation"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La situazione è difficile.",
+    "definition": "Come stanno le cose in un momento.",
     "page": "203-205",
     "grammar": {
      "partOfSpeech": "noun",
@@ -30479,8 +30479,8 @@ const STOCK_PACKAGES = [
      "nötig"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È necessario studiare.",
+    "definition": "Che serve assolutamente.",
     "page": "203-205",
     "related": "E necessary; F nécessaire; L necessarius"
    },
@@ -30491,8 +30491,8 @@ const STOCK_PACKAGES = [
      "verbieten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vietano di fumare qui.",
+    "definition": "Non permettere.",
     "page": "203-205",
     "related": "L vetare"
    },
@@ -30503,8 +30503,8 @@ const STOCK_PACKAGES = [
      "der/die Lehrer/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’insegnante spiega la lezione.",
+    "definition": "Persona che insegna.",
     "page": "203-205",
     "related": "F enseignant; = il/la prof(essore/-ssa)"
    },
@@ -30515,8 +30515,8 @@ const STOCK_PACKAGES = [
      "unvermeidbar"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un problema inevitabile.",
+    "definition": "Che non si può evitare.",
     "page": "203-205"
    },
    {
@@ -30526,8 +30526,8 @@ const STOCK_PACKAGES = [
      "sich auf etw. konzentrieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi concentro sullo studio.",
+    "definition": "Fare attenzione solo a una cosa.",
     "page": "203-205",
     "related": "E to concentrate"
    },
@@ -30538,8 +30538,8 @@ const STOCK_PACKAGES = [
      "glauben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Credo a quello che dici.",
+    "definition": "Pensare che qualcosa sia vero.",
     "page": "203-205",
     "related": "F croire; L credere"
    },
@@ -30550,8 +30550,8 @@ const STOCK_PACKAGES = [
      "tatsächlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "In realtà non sono stanco.",
+    "definition": "In verità.",
     "usage": "avv.",
     "page": "203-205",
     "related": "E in reality"
@@ -30564,8 +30564,8 @@ const STOCK_PACKAGES = [
      "die Benutzung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’uso del telefono è vietato.",
+    "definition": "Modo di utilizzare qualcosa.",
     "page": "203-205",
     "related": "E use; F l’usage"
    },
@@ -30576,8 +30576,8 @@ const STOCK_PACKAGES = [
      "dumm"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un’idea stupida.",
+    "definition": "Poco intelligente.",
     "page": "203-205",
     "related": "E stupid; F stupide"
    },
@@ -30588,8 +30588,8 @@ const STOCK_PACKAGES = [
      "sich langweilen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi annoio quando piove.",
+    "definition": "Provare noia.",
     "page": "203-205"
    },
    {
@@ -30600,8 +30600,8 @@ const STOCK_PACKAGES = [
      "echt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È una storia vera.",
+    "definition": "Conforme alla realtà.",
     "page": "203-205",
     "related": "L verus"
    },
@@ -30613,8 +30613,8 @@ const STOCK_PACKAGES = [
      "klug"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sara è intelligente.",
+    "definition": "Che capisce le cose in fretta.",
     "page": "203-205"
    },
    {
@@ -30624,8 +30624,8 @@ const STOCK_PACKAGES = [
      "Lust haben (auf etw./jmd) / (etw. zu tun)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho voglia di un gelato.",
+    "definition": "Desiderare di fare qualcosa.",
     "page": "203-205"
    },
    {
@@ -30638,8 +30638,8 @@ const STOCK_PACKAGES = [
      "hinaus"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Giochiamo fuori.",
+    "definition": "Non dentro.",
     "usage": "avv.",
     "page": "203-205"
    },
@@ -30652,8 +30652,8 @@ const STOCK_PACKAGES = [
      "hinein"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il gatto è dentro casa.",
+    "definition": "All’interno di un luogo.",
     "usage": "avv.",
     "page": "203-205",
     "related": "≠ fuori"
@@ -30665,8 +30665,8 @@ const STOCK_PACKAGES = [
      "abhängig von etw."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sono dipendente dal caffè.",
+    "definition": "Che non può fare a meno di qualcosa.",
     "page": "203-205"
    },
    {
@@ -30676,8 +30676,8 @@ const STOCK_PACKAGES = [
      "mit etw./jdm zu tun haben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non voglio avere a che fare con lui.",
+    "definition": "Essere in contatto o in relazione.",
     "page": "203-205"
    },
    {
@@ -30687,8 +30687,8 @@ const STOCK_PACKAGES = [
      "hier: konfrontieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Confrontiamo i nostri risultati.",
+    "definition": "Guardare due cose per vedere le differenze.",
     "page": "203-205",
     "related": "E to confront"
    },
@@ -30700,8 +30700,8 @@ const STOCK_PACKAGES = [
      "die Konsequenz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La conseguenza è una nota.",
+    "definition": "Effetto di un’azione.",
     "page": "203-205",
     "grammar": {
      "partOfSpeech": "noun",
@@ -30739,7 +30739,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -30777,8 +30777,8 @@ const STOCK_PACKAGES = [
      "teilnehmen an"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Partecipo a un corso di teatro.",
+    "definition": "Prendere parte a un’attività.",
     "page": "205-206",
     "related": "E to participate"
    },
@@ -30789,8 +30789,8 @@ const STOCK_PACKAGES = [
      "die Diskussion"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La discussione è molto animata.",
+    "definition": "Conversazione con opinioni diverse.",
     "page": "205-206",
     "related": "▸ discutere",
     "grammar": {
@@ -30810,8 +30810,8 @@ const STOCK_PACKAGES = [
      "das Programm"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il programma della gita è bellissimo.",
+    "definition": "Piano di attività o trasmissione.",
     "page": "205-206",
     "grammar": {
      "partOfSpeech": "noun",
@@ -30831,8 +30831,8 @@ const STOCK_PACKAGES = [
      "der Einsatz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Studio con impegno.",
+    "definition": "Lavoro che si deve fare; serietà nel farlo.",
     "page": "205-206"
    },
    {
@@ -30842,8 +30842,8 @@ const STOCK_PACKAGES = [
      "sozial"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un progetto sociale.",
+    "definition": "Che riguarda la società.",
     "page": "205-206"
    },
    {
@@ -30853,8 +30853,8 @@ const STOCK_PACKAGES = [
      "hier: der Pater (Kirche)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il padre parla alla messa.",
+    "definition": "Sacerdote cattolico, in alcuni casi.",
     "page": "205-206",
     "grammar": {
      "partOfSpeech": "noun",
@@ -30874,8 +30874,8 @@ const STOCK_PACKAGES = [
      "sich beschäftigen mit"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi occupo del mio fratellino.",
+    "definition": "Dedicare tempo e attenzione.",
     "page": "205-206",
     "related": "F s’occuper de qn/qc"
    },
@@ -30886,8 +30886,8 @@ const STOCK_PACKAGES = [
      "das Projekt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il progetto ha successo.",
+    "definition": "Piano di lavoro.",
     "page": "205-206",
     "related": "E project",
     "grammar": {
@@ -30907,8 +30907,8 @@ const STOCK_PACKAGES = [
      "präsentieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Presento il mio lavoro alla classe.",
+    "definition": "Far conoscere o mostrare.",
     "page": "205-206"
    },
    {
@@ -30919,8 +30919,8 @@ const STOCK_PACKAGES = [
      "direkt (Medien)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La partita è in diretta.",
+    "definition": "Mentre succede, non registrato.",
     "page": "205-206"
    },
    {
@@ -30930,8 +30930,8 @@ const STOCK_PACKAGES = [
      "bereit (etw. zu tun)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sono disposto ad aiutarti.",
+    "definition": "Pronto a fare qualcosa.",
     "page": "205-206",
     "related": "F disposé à"
    },
@@ -30943,8 +30943,8 @@ const STOCK_PACKAGES = [
      "mehrere"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho parecchi amici.",
+    "definition": "Un buon numero.",
     "page": "205-206"
    },
    {
@@ -30954,8 +30954,8 @@ const STOCK_PACKAGES = [
      "der/die Freiwillige"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sono volontario alla Croce Rossa.",
+    "definition": "Persona che aiuta gli altri senza essere pagata.",
     "usage": "pl. i volontari, le volontarie",
     "page": "205-206",
     "related": "F volontaire"
@@ -30968,8 +30968,8 @@ const STOCK_PACKAGES = [
      "die Tätigkeit"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Le attività sono divertenti.",
+    "definition": "Cosa che si fa.",
     "page": "205-206"
    },
    {
@@ -30979,8 +30979,8 @@ const STOCK_PACKAGES = [
      "der/die Einwanderer/-in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Gli immigrati cercano lavoro.",
+    "definition": "Persona che arriva in un paese per viverci.",
     "page": "205-206",
     "related": "E immigrant"
    },
@@ -30992,8 +30992,8 @@ const STOCK_PACKAGES = [
      "fremd"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho amici stranieri.",
+    "definition": "Di un altro paese.",
     "page": "205-206",
     "related": "E strange; F étranger"
    },
@@ -31005,8 +31005,8 @@ const STOCK_PACKAGES = [
      "das Team"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Facciamo parte della stessa squadra.",
+    "definition": "Gruppo che gioca insieme.",
     "page": "205-206",
     "grammar": {
      "partOfSpeech": "noun",
@@ -31025,8 +31025,8 @@ const STOCK_PACKAGES = [
      "der Eindruck"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho una buona impressione di lui.",
+    "definition": "Idea che ci si fa di qualcosa.",
     "usage": "f.",
     "page": "205-206",
     "related": "E impression; F l’impression"
@@ -31041,8 +31041,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "impegnarsi"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Mi impegno nel volontariato.",
+    "definition": "Dedicarsi con serietà a qualcosa.",
     "page": "205-206",
     "related": "= l’impegno"
    },
@@ -31053,8 +31053,8 @@ const STOCK_PACKAGES = [
      "teilweise"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sono d’accordo in parte.",
+    "definition": "Non del tutto.",
     "page": "205-206"
    },
    {
@@ -31065,8 +31065,8 @@ const STOCK_PACKAGES = [
      "einig sein"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sono d’accordo con te.",
+    "definition": "Avere la stessa opinione.",
     "page": "205-206",
     "related": "F être d’accord avec qn"
    },
@@ -31078,8 +31078,8 @@ const STOCK_PACKAGES = [
      "verlangen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questo lavoro richiede tempo.",
+    "definition": "Domandare con forza.",
     "usage": "p.p. richiesto",
     "page": "205-206"
    },
@@ -31090,8 +31090,8 @@ const STOCK_PACKAGES = [
      "regelmäßig"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio sport in modo regolare.",
+    "definition": "Che avviene sempre allo stesso modo.",
     "usage": "agg.",
     "page": "205-206",
     "related": "E regular; F régulier"
@@ -31105,8 +31105,8 @@ const STOCK_PACKAGES = [
      "das Mahl"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il pranzo è alle una.",
+    "definition": "Pasto di mezzogiorno.",
     "page": "205-206",
     "grammar": {
      "partOfSpeech": "noun",
@@ -31125,8 +31125,8 @@ const STOCK_PACKAGES = [
      "Weihnachten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "A Natale stiamo con la famiglia.",
+    "definition": "Festa cristiana del 25 dicembre.",
     "usage": "m.",
     "page": "205-206",
     "related": "F le Noël"
@@ -31138,8 +31138,8 @@ const STOCK_PACKAGES = [
      "unterbrechen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non interrompermi!",
+    "definition": "Fermare per un po’.",
     "usage": "p.p. interrotto",
     "page": "205-206",
     "related": "F interrompre"
@@ -31151,8 +31151,8 @@ const STOCK_PACKAGES = [
      "der/die Pfadfinder/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mio fratello è boy-scout.",
+    "definition": "Giovane che fa parte degli scout.",
     "page": "205-206"
    },
    {
@@ -31163,8 +31163,8 @@ const STOCK_PACKAGES = [
      "sonst"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sbrigati, altrimenti perdi il treno.",
+    "definition": "Se no, in caso contrario.",
     "page": "205-206"
    },
    {
@@ -31175,8 +31175,8 @@ const STOCK_PACKAGES = [
      "vorhanden sein"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Gli unicorni non esistono.",
+    "definition": "Essere presente nella realtà.",
     "usage": "p.p. esistito",
     "page": "205-206",
     "related": "E to exist"
@@ -31188,8 +31188,8 @@ const STOCK_PACKAGES = [
      "sinnvoll"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È una proposta sensata.",
+    "definition": "Ragionevole, che ha senso.",
     "page": "205-206",
     "related": "F sensé"
    },
@@ -31200,8 +31200,8 @@ const STOCK_PACKAGES = [
      "konkret"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Voglio un esempio concreto.",
+    "definition": "Reale, non astratto.",
     "page": "205-206"
    },
    {
@@ -31213,8 +31213,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "raccogliere, raccolto"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Raccolgo le mele nel frutteto.",
+    "definition": "Prendere qualcosa da terra o da più posti.",
     "usage": "p.p. raccolto",
     "page": "205-206"
    },
@@ -31226,8 +31226,8 @@ const STOCK_PACKAGES = [
      "der Müll"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Separiamo i rifiuti per la raccolta differenziata.",
+    "definition": "Cose che si buttano via.",
     "page": "205-206",
     "grammar": {
      "partOfSpeech": "noun",
@@ -31246,8 +31246,8 @@ const STOCK_PACKAGES = [
      "Umwelt-"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il problema ambientale è serio.",
+    "definition": "Che riguarda la natura e il suo equilibrio.",
     "usage": "agg.",
     "page": "205-206"
    },
@@ -31259,8 +31259,8 @@ const STOCK_PACKAGES = [
      "sich engagieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi do da fare per aiutare la mia scuola.",
+    "definition": "Impegnarsi con energia.",
     "usage": "=impegnarsi",
     "page": "205-206",
     "related": "= impegnarsi"
@@ -31272,8 +31272,8 @@ const STOCK_PACKAGES = [
      "beschäftigt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Oggi sono molto impegnato.",
+    "definition": "Che ha molte cose da fare.",
     "page": "205-206"
    },
    {
@@ -31283,8 +31283,8 @@ const STOCK_PACKAGES = [
      "bezweifeln"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Dubito che arrivi in tempo.",
+    "definition": "Non essere sicuri.",
     "page": "205-206",
     "related": "E to doubt; F douter; L dubitare"
    },
@@ -31297,8 +31297,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "valere, valso"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Questa moneta vale due euro.",
+    "definition": "Avere un certo valore.",
     "usage": "p.p. valso",
     "page": "205-206"
    },
@@ -31309,8 +31309,8 @@ const STOCK_PACKAGES = [
      "die Leute"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "C’è molta gente in piazza.",
+    "definition": "Insieme di persone.",
     "page": "205-206",
     "related": "F les gens",
     "grammar": {
@@ -31330,8 +31330,8 @@ const STOCK_PACKAGES = [
      "scheinen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi pare una buona idea.",
+    "definition": "Dare l’impressione di essere.",
     "usage": "p.p. parso",
     "page": "205-206"
    },
@@ -31343,8 +31343,8 @@ const STOCK_PACKAGES = [
      "beabsichtigen etw. zu tun"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che cosa intendi con questo?",
+    "definition": "Voler dire, avere in mente.",
     "usage": "p.p. inteso",
     "page": "205-206",
     "related": "E to intend"
@@ -31375,7 +31375,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -31413,8 +31413,8 @@ const STOCK_PACKAGES = [
      "das Mittel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il treno è un mezzo di trasporto.",
+    "definition": "Strumento per fare qualcosa.",
     "page": "203",
     "grammar": {
      "partOfSpeech": "noun",
@@ -31433,8 +31433,8 @@ const STOCK_PACKAGES = [
      "die Kommunikation"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La comunicazione è importante.",
+    "definition": "Scambio di informazioni.",
     "page": "203",
     "related": "▸ comunicare",
     "grammar": {
@@ -31454,8 +31454,8 @@ const STOCK_PACKAGES = [
      "die Zeitung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mio padre legge il giornale.",
+    "definition": "Pubblicazione quotidiana con le notizie.",
     "page": "203",
     "related": "F le journal",
     "grammar": {
@@ -31475,8 +31475,8 @@ const STOCK_PACKAGES = [
      "das Radio"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ascolto la radio in macchina.",
+    "definition": "Mezzo che trasmette suoni e musica.",
     "page": "203",
     "grammar": {
      "partOfSpeech": "noun",
@@ -31496,8 +31496,8 @@ const STOCK_PACKAGES = [
      "die Sendung (Fernsehen)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Guardo una trasmissione sugli animali.",
+    "definition": "Programma che va in onda.",
     "page": "203",
     "related": "E transmission",
     "grammar": {
@@ -31517,8 +31517,8 @@ const STOCK_PACKAGES = [
      "die Talentshow"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Guardo un talent show di canto.",
+    "definition": "Programma televisivo in cui si cercano nuovi artisti.",
     "page": "203",
     "grammar": {
      "partOfSpeech": "noun",
@@ -31537,8 +31537,8 @@ const STOCK_PACKAGES = [
      "die Seifenoper"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mia nonna guarda una soap opera.",
+    "definition": "Serie TV con storie d’amore e drammi.",
     "page": "203",
     "grammar": {
      "partOfSpeech": "noun",
@@ -31557,8 +31557,8 @@ const STOCK_PACKAGES = [
      "selten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Raramente guardo la TV.",
+    "definition": "Molto poche volte.",
     "usage": "avv.",
     "page": "203",
     "related": "F rarement"
@@ -31571,8 +31571,8 @@ const STOCK_PACKAGES = [
      "die Dokumentation"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Guardo un documentario sull’Antartide.",
+    "definition": "Film che parla di fatti veri.",
     "usage": "pl. i documentari",
     "page": "203",
     "related": "E documentary",
@@ -31593,8 +31593,8 @@ const STOCK_PACKAGES = [
      "die (Fernseh-)Nachrichten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il telegiornale comincia alle otto.",
+    "definition": "Programma TV con le notizie.",
     "page": "203",
     "grammar": {
      "partOfSpeech": "noun",
@@ -31613,8 +31613,8 @@ const STOCK_PACKAGES = [
      "nie(mals)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non guardo mai la TV al mattino.",
+    "definition": "In nessun momento.",
     "page": "203"
    },
    {
@@ -31625,8 +31625,8 @@ const STOCK_PACKAGES = [
      "die Überschrift"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Qual è il titolo del film?",
+    "definition": "Nome di un libro, di un film o di un articolo.",
     "page": "203",
     "grammar": {
      "partOfSpeech": "noun",
@@ -31646,8 +31646,8 @@ const STOCK_PACKAGES = [
      "gegenüberstellen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Confrontiamo i nostri risultati.",
+    "definition": "Guardare due cose per vedere le differenze.",
     "page": "203",
     "related": "E to confront"
    },
@@ -31660,8 +31660,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "il/la compagno/-a"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Il mio compagno di classe si chiama Luca.",
+    "definition": "Persona della stessa classe.",
     "page": "203"
    },
    {
@@ -31673,8 +31673,8 @@ const STOCK_PACKAGES = [
      "brauchen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il computer serve per lavorare.",
+    "definition": "Essere utile a qualcosa.",
     "page": "203",
     "related": "F servir à qqn; L servire"
    },
@@ -31686,8 +31686,8 @@ const STOCK_PACKAGES = [
      "retuschieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ritocco la foto con il telefono.",
+    "definition": "Migliorare una foto con un programma.",
     "page": "203"
    },
    {
@@ -31697,8 +31697,8 @@ const STOCK_PACKAGES = [
      "der Bildschirm"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Lo schermo del telefono è rotto.",
+    "definition": "Superficie su cui si vedono le immagini.",
     "page": "203",
     "grammar": {
      "partOfSpeech": "noun",
@@ -31717,8 +31717,8 @@ const STOCK_PACKAGES = [
      "niemand"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Nessuno risponde al telefono.",
+    "definition": "Non una persona.",
     "page": "203"
    },
    {
@@ -31729,8 +31729,8 @@ const STOCK_PACKAGES = [
      "die Suche"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio una ricerca su internet.",
+    "definition": "Attività per trovare informazioni.",
     "page": "203",
     "grammar": {
      "partOfSpeech": "noun",
@@ -31749,8 +31749,8 @@ const STOCK_PACKAGES = [
      "herunterladen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Scarico una canzone.",
+    "definition": "Prendere un file dalla rete e metterlo sul proprio dispositivo.",
     "page": "203"
    },
    {
@@ -31761,8 +31761,8 @@ const STOCK_PACKAGES = [
      "aufzeichnen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Registro la lezione.",
+    "definition": "Salvare un suono o un video.",
     "page": "203",
     "related": "E to register; F enregistrer"
    },
@@ -31773,8 +31773,8 @@ const STOCK_PACKAGES = [
      "das Musikstück"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ascolto il mio brano preferito.",
+    "definition": "Pezzo musicale.",
     "page": "203",
     "grammar": {
      "partOfSpeech": "noun",
@@ -31793,8 +31793,8 @@ const STOCK_PACKAGES = [
      "das Streaming"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ascolto musica in streaming.",
+    "definition": "Ascolto o visione online, senza scaricare.",
     "page": "203",
     "grammar": {
      "partOfSpeech": "noun",
@@ -31813,8 +31813,8 @@ const STOCK_PACKAGES = [
      "sportlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mia sorella è molto sportiva.",
+    "definition": "Che ama lo sport.",
     "page": "203",
     "related": "▸ lo sport; F sportif"
    }
@@ -31844,7 +31844,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -31882,8 +31882,8 @@ const STOCK_PACKAGES = [
      "die Reportage"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Guardo un reportage sulla Sicilia.",
+    "definition": "Servizio giornalistico su un fatto.",
     "page": "207",
     "grammar": {
      "partOfSpeech": "noun",
@@ -31902,8 +31902,8 @@ const STOCK_PACKAGES = [
      "die Nachrichten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il telegiornale comincia alle otto.",
+    "definition": "Programma TV con le notizie.",
     "page": "207",
     "grammar": {
      "partOfSpeech": "noun",
@@ -31922,8 +31922,8 @@ const STOCK_PACKAGES = [
      "die Sportsendung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Guardo una trasmissione sportiva ogni lunedì.",
+    "definition": "Programma televisivo sullo sport.",
     "page": "207",
     "grammar": {
      "partOfSpeech": "noun",
@@ -31942,8 +31942,8 @@ const STOCK_PACKAGES = [
      "eine Sendung über"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Guardo una trasmissione di cucina.",
+    "definition": "Programma che parla di un argomento.",
     "page": "207"
    },
    {
@@ -31953,8 +31953,8 @@ const STOCK_PACKAGES = [
      "die Seifenoper"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mia nonna guarda una soap opera.",
+    "definition": "Serie TV con storie d’amore e drammi.",
     "page": "207",
     "grammar": {
      "partOfSpeech": "noun",
@@ -31973,8 +31973,8 @@ const STOCK_PACKAGES = [
      "die Werbung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La pubblicità interrompe il film.",
+    "definition": "Messaggio che serve a far comprare un prodotto.",
     "page": "207",
     "grammar": {
      "partOfSpeech": "noun",
@@ -31995,8 +31995,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "ilfilm"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Stasera c’è un telefilm divertente.",
+    "definition": "Storia girata per essere vista sul piccolo schermo.",
     "page": "207",
     "grammar": {
      "partOfSpeech": "noun",
@@ -32015,8 +32015,8 @@ const STOCK_PACKAGES = [
      "die Serie"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questa serie ha dieci episodi.",
+    "definition": "Storia divisa in tanti episodi.",
     "page": "207",
     "grammar": {
      "partOfSpeech": "noun",
@@ -32035,8 +32035,8 @@ const STOCK_PACKAGES = [
      "die Komödie"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Guardiamo una commedia italiana.",
+    "definition": "Film o spettacolo che fa ridere.",
     "page": "207",
     "grammar": {
      "partOfSpeech": "noun",
@@ -32055,8 +32055,8 @@ const STOCK_PACKAGES = [
      "der/die Schauspieler/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’attrice è molto brava.",
+    "definition": "Persona che recita in un film o a teatro.",
     "page": "207"
    },
    {
@@ -32066,8 +32066,8 @@ const STOCK_PACKAGES = [
      "der Fernsehsender"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Rai Uno è un’emittente televisiva.",
+    "definition": "Canale che manda in onda programmi TV.",
     "page": "207"
    },
    {
@@ -32077,8 +32077,8 @@ const STOCK_PACKAGES = [
      "der Radiosender"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ascolto un’emittente radiofonica locale.",
+    "definition": "Stazione che trasmette programmi radio.",
     "page": "207"
    },
    {
@@ -32088,8 +32088,8 @@ const STOCK_PACKAGES = [
      "das Fernsehprogramm"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mio programma televisivo preferito è la sera.",
+    "definition": "Trasmissione che va in onda in TV.",
     "page": "207",
     "grammar": {
      "partOfSpeech": "noun",
@@ -32110,8 +32110,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "il film dura"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Il film dura novanta minuti.",
+    "definition": "Dice quanto tempo occupa un film.",
     "page": "207",
     "grammar": {
      "partOfSpeech": "noun",
@@ -32130,8 +32130,8 @@ const STOCK_PACKAGES = [
      "die Jugendzeitschrift"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Compro una rivista per giovani.",
+    "definition": "Giornale con articoli per ragazzi.",
     "page": "207",
     "grammar": {
      "partOfSpeech": "noun",
@@ -32150,8 +32150,8 @@ const STOCK_PACKAGES = [
      "das Interview"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il giornalista fa un’intervista al cantante.",
+    "definition": "Conversazione fatta per raccogliere informazioni.",
     "page": "207",
     "related": "E the interview; F le interview"
    },
@@ -32162,8 +32162,8 @@ const STOCK_PACKAGES = [
      "das Horoskop"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Leggo l’oroscopo sul giornale.",
+    "definition": "Previsione astrologica basata sul segno zodiacale.",
     "page": "207"
    },
    {
@@ -32173,8 +32173,8 @@ const STOCK_PACKAGES = [
      "die Anzeige"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Leggo un annuncio di lavoro.",
+    "definition": "Messaggio pubblicato per offrire o cercare qualcosa.",
     "page": "207"
    }
   ]
@@ -32203,7 +32203,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -32241,8 +32241,8 @@ const STOCK_PACKAGES = [
      "sich erstrecken"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La pianura si estende fino al mare.",
+    "definition": "Occupare un grande spazio.",
     "usage": "p.p. esteso",
     "page": "208-209",
     "related": "F s’étendre"
@@ -32254,8 +32254,8 @@ const STOCK_PACKAGES = [
      "der Hügel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Roma è costruita su sette colli.",
+    "definition": "Piccola montagna dolce, non molto alta.",
     "page": "208-209",
     "related": "F la colline; L collis",
     "grammar": {
@@ -32275,8 +32275,8 @@ const STOCK_PACKAGES = [
      "hier: führen zu/nach"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questa strada porta in centro.",
+    "definition": "Condurre verso un luogo.",
     "page": "208-209"
    },
    {
@@ -32287,8 +32287,8 @@ const STOCK_PACKAGES = [
      "zeitlos"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Roma è la città eterna.",
+    "definition": "Che non finisce mai.",
     "page": "208-209",
     "related": "E eternal; F éternel"
    },
@@ -32300,8 +32300,8 @@ const STOCK_PACKAGES = [
      "die Sage"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Secondo la leggenda Roma fu fondata da Romolo.",
+    "definition": "Racconto fantastico del passato.",
     "page": "208-209",
     "grammar": {
      "partOfSpeech": "noun",
@@ -32320,8 +32320,8 @@ const STOCK_PACKAGES = [
      "gründen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Romolo fondò Roma.",
+    "definition": "Creare una città o un’organizzazione.",
     "page": "208-209",
     "related": "E to found; F fonder"
    },
@@ -32334,8 +32334,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "avanti/dopo Cristo"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Cesare è morto nel 44 avanti Cristo.",
+    "definition": "Indicazione della data rispetto alla nascita di Gesù.",
     "page": "208-209"
    },
    {
@@ -32345,8 +32345,8 @@ const STOCK_PACKAGES = [
      "die Basilika"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Visito la basilica di San Pietro.",
+    "definition": "Grande chiesa importante.",
     "usage": "pl. le basiliche",
     "page": "208-209",
     "grammar": {
@@ -32366,8 +32366,8 @@ const STOCK_PACKAGES = [
      "Europa"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’Europa ha molti stati.",
+    "definition": "Continente dove si trova l’Italia.",
     "page": "208-209"
    },
    {
@@ -32378,8 +32378,8 @@ const STOCK_PACKAGES = [
      "beeindruckend"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il tramonto è suggestivo.",
+    "definition": "Che crea un’atmosfera speciale.",
     "page": "208-209"
    },
    {
@@ -32389,8 +32389,8 @@ const STOCK_PACKAGES = [
      "das Loch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "C’è un buco nella calza.",
+    "definition": "Apertura in un oggetto.",
     "usage": "pl. i buchi",
     "page": "208-209",
     "grammar": {
@@ -32410,8 +32410,8 @@ const STOCK_PACKAGES = [
      "das (Tür-)Schloss"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La chiave non entra nella serratura.",
+    "definition": "Meccanismo di una porta che si apre con la chiave.",
     "page": "208-209",
     "related": "F la serrure",
     "grammar": {
@@ -32431,8 +32431,8 @@ const STOCK_PACKAGES = [
      "wunderbar"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che panorama meraviglioso!",
+    "definition": "Che suscita grande ammirazione.",
     "page": "208-209",
     "related": "F merveilleux"
    },
@@ -32443,8 +32443,8 @@ const STOCK_PACKAGES = [
      "der Staat"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’Italia è uno stato europeo.",
+    "definition": "Paese con un governo.",
     "page": "208-209",
     "grammar": {
      "partOfSpeech": "noun",
@@ -32465,8 +32465,8 @@ const STOCK_PACKAGES = [
      "selbstständig"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il Vaticano è uno stato autonomo.",
+    "definition": "Che decide da solo.",
     "page": "208-209"
    },
    {
@@ -32476,8 +32476,8 @@ const STOCK_PACKAGES = [
      "katholisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Molti italiani sono cattolici.",
+    "definition": "Che appartiene alla religione del papa.",
     "page": "208-209"
    },
    {
@@ -32487,8 +32487,8 @@ const STOCK_PACKAGES = [
      "das Museum"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Visitiamo il museo di storia.",
+    "definition": "Luogo dove si conservano opere d’arte.",
     "page": "208-209",
     "grammar": {
      "partOfSpeech": "noun",
@@ -32509,8 +32509,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "costruire"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Costruiscono una nuova scuola.",
+    "definition": "Fare un edificio.",
     "usage": "Abc",
     "page": "208-209",
     "related": "F construire"
@@ -32522,8 +32522,8 @@ const STOCK_PACKAGES = [
      "malen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Leonardo dipinse la Gioconda.",
+    "definition": "Fare un quadro con i colori.",
     "usage": "p.p. dipinto",
     "page": "208-209"
    },
@@ -32534,8 +32534,8 @@ const STOCK_PACKAGES = [
      "der Tempel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il tempio è molto antico.",
+    "definition": "Edificio dedicato a un dio.",
     "usage": "pl. i templi",
     "page": "208-209",
     "related": "E/F temple; L templum",
@@ -32556,8 +32556,8 @@ const STOCK_PACKAGES = [
      "der Gott"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Gli antichi Romani adoravano molti dei.",
+    "definition": "Essere divino in cui si crede.",
     "usage": "pl. gli dei",
     "page": "208-209",
     "related": "F le dieu; L deus",
@@ -32578,8 +32578,8 @@ const STOCK_PACKAGES = [
      "das Jahrhundert"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il Colosseo è del primo secolo.",
+    "definition": "Periodo di cento anni.",
     "page": "208-209",
     "related": "F le siècle; L saeculum",
     "grammar": {
@@ -32600,8 +32600,8 @@ const STOCK_PACKAGES = [
      "umbauen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Trasformano la stanza in uno studio.",
+    "definition": "Cambiare forma o aspetto.",
     "page": "208-209",
     "related": "= cambiare; E to transform"
    },
@@ -32613,8 +32613,8 @@ const STOCK_PACKAGES = [
      "gewaltig"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il vento è forte.",
+    "definition": "Che ha potenza o intensità.",
     "page": "208-209",
     "related": "F fort"
    },
@@ -32625,8 +32625,8 @@ const STOCK_PACKAGES = [
      "die Kuppel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La cupola della chiesa è enorme.",
+    "definition": "Tetto di forma sferica.",
     "page": "208-209",
     "grammar": {
      "partOfSpeech": "noun",
@@ -32646,8 +32646,8 @@ const STOCK_PACKAGES = [
      "unbequem"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questa sedia è scomoda.",
+    "definition": "Non confortevole.",
     "usage": "≠ comodo/-a",
     "page": "208-209",
     "related": "≠ comodo/-a"
@@ -32659,8 +32659,8 @@ const STOCK_PACKAGES = [
      "werfen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Getto la moneta nella fontana.",
+    "definition": "Buttare, lanciare.",
     "page": "208-209",
     "related": "F jeter"
    },
@@ -32672,8 +32672,8 @@ const STOCK_PACKAGES = [
      "Barock-"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La chiesa è in stile barocco.",
+    "definition": "Stile artistico ricco di decorazioni del Seicento.",
     "usage": "pl. barocchi/-e",
     "page": "208-209"
    },
@@ -32684,8 +32684,8 @@ const STOCK_PACKAGES = [
      "verdienen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Guadagno poco.",
+    "definition": "Ricevere soldi per un lavoro.",
     "page": "208-209",
     "related": "F gagner"
    },
@@ -32696,8 +32696,8 @@ const STOCK_PACKAGES = [
      "das Geld"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non ho soldi con me.",
+    "definition": "Mezzo con cui si pagano le cose.",
     "usage": "pl.",
     "page": "208-209",
     "grammar": {
@@ -32717,8 +32717,8 @@ const STOCK_PACKAGES = [
      "der Ministerpräsident"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il Presidente del Consiglio parla in TV.",
+    "definition": "Capo del governo italiano.",
     "page": "208-209",
     "grammar": {
      "partOfSpeech": "noun",
@@ -32738,8 +32738,8 @@ const STOCK_PACKAGES = [
      "flott"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che vestito chic!",
+    "definition": "Elegante e alla moda.",
     "page": "208-209"
    },
    {
@@ -32749,8 +32749,8 @@ const STOCK_PACKAGES = [
      "Donnerwetter!"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Accidenti, ho perso l’autobus!",
+    "definition": "Esclamazione di sorpresa o fastidio.",
     "page": "208-209"
    }
   ]
@@ -32779,7 +32779,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -32817,8 +32817,8 @@ const STOCK_PACKAGES = [
      "europäisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È una squadra europea.",
+    "definition": "Che appartiene al continente di cui l’Italia fa parte.",
     "usage": "pl. f. europee",
     "page": "209-210"
    },
@@ -32829,8 +32829,8 @@ const STOCK_PACKAGES = [
      "(das,) was"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ciò che dici è giusto.",
+    "definition": "Espressione che introduce una cosa non nominata.",
     "page": "209-210"
    },
    {
@@ -32840,8 +32840,8 @@ const STOCK_PACKAGES = [
      "die Kultur"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi interessa la cultura italiana.",
+    "definition": "Insieme di tradizioni di un popolo.",
     "page": "209-210",
     "related": "E culture",
     "grammar": {
@@ -32861,8 +32861,8 @@ const STOCK_PACKAGES = [
      "der/die Partner/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mio partner è molto gentile.",
+    "definition": "Persona con cui si ha una relazione.",
     "page": "209-210"
    },
    {
@@ -32872,8 +32872,8 @@ const STOCK_PACKAGES = [
      "persönlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Personalmente preferisco il mare.",
+    "definition": "Per quanto mi riguarda.",
     "page": "209-210"
    },
    {
@@ -32884,8 +32884,8 @@ const STOCK_PACKAGES = [
      "die Eigenheit"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mia sorella ha un buon carattere.",
+    "definition": "Modo di essere di una persona.",
     "page": "209-210",
     "related": "E character",
     "grammar": {
@@ -32905,8 +32905,8 @@ const STOCK_PACKAGES = [
      "national"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La squadra nazionale gioca stasera.",
+    "definition": "Di uno Stato intero.",
     "page": "209-210",
     "related": "E national"
    },
@@ -32917,8 +32917,8 @@ const STOCK_PACKAGES = [
      "das Parlament"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il parlamento italiano è a Roma.",
+    "definition": "Assemblea che fa le leggi.",
     "page": "209-210",
     "related": "E parliament",
     "grammar": {
@@ -32939,8 +32939,8 @@ const STOCK_PACKAGES = [
      "olympisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il campione olimpico è italiano.",
+    "definition": "Che riguarda i grandi Giochi sportivi internazionali ogni quattro anni.",
     "page": "209-210"
    },
    {
@@ -32951,8 +32951,8 @@ const STOCK_PACKAGES = [
      "sich entspannen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi rilasso ascoltando musica.",
+    "definition": "Riposarsi e distendersi.",
     "page": "209-210"
    },
    {
@@ -32963,8 +32963,8 @@ const STOCK_PACKAGES = [
      "heute Morgen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Stamattina ho fatto colazione presto.",
+    "definition": "Questa mattina.",
     "page": "209-210",
     "related": "▸ la mattina"
    },
@@ -32976,8 +32976,8 @@ const STOCK_PACKAGES = [
      "der Besuch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La visita al museo è bellissima.",
+    "definition": "Andare a vedere qualcosa o qualcuno.",
     "page": "209-210",
     "related": "▸ visitare; E visit; F la visite",
     "grammar": {
@@ -32997,8 +32997,8 @@ const STOCK_PACKAGES = [
      "der Fragebogen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Compilo un questionario sulla scuola.",
+    "definition": "Lista di domande a cui rispondere.",
     "usage": "pl. i questionari",
     "page": "209-210",
     "related": "F le questionnaire",
@@ -33019,8 +33019,8 @@ const STOCK_PACKAGES = [
      "ausfüllen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Compilo il modulo con il mio nome.",
+    "definition": "Riempire un modulo.",
     "page": "209-210"
    },
    {
@@ -33030,8 +33030,8 @@ const STOCK_PACKAGES = [
      "gefallen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi piace la musica.",
+    "definition": "Essere gradito.",
     "usage": "Abc",
     "page": "209-210",
     "related": "F plaire; L placere"
@@ -33044,8 +33044,8 @@ const STOCK_PACKAGES = [
      "natürlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ovviamente vengo con voi.",
+    "definition": "In modo chiaro per tutti.",
     "page": "209-210",
     "related": "E obviously"
    },
@@ -33056,8 +33056,8 @@ const STOCK_PACKAGES = [
      "ausgeben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Spendo troppo per i vestiti.",
+    "definition": "Usare i soldi per comprare.",
     "usage": "p.p. speso",
     "page": "209-210"
    },
@@ -33068,8 +33068,8 @@ const STOCK_PACKAGES = [
      "die Speisekarte"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il cameriere porta il menù.",
+    "definition": "Lista dei piatti di un ristorante.",
     "page": "209-210",
     "related": "E menu",
     "grammar": {
@@ -33089,8 +33089,8 @@ const STOCK_PACKAGES = [
      "Wasser mit Kohlensäure"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Preferisco l’acqua frizzante.",
+    "definition": "Acqua con le bollicine.",
     "page": "209-210"
    },
    {
@@ -33100,8 +33100,8 @@ const STOCK_PACKAGES = [
      "italienische Gaststättenart"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mangiamo in una trattoria.",
+    "definition": "Ristorante semplice con cucina tradizionale.",
     "page": "209-210",
     "grammar": {
      "partOfSpeech": "noun",
@@ -33121,8 +33121,8 @@ const STOCK_PACKAGES = [
      "reservieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Prenoto un tavolo per quattro.",
+    "definition": "Riservare un posto in anticipo.",
     "page": "209-210"
    },
    {
@@ -33132,8 +33132,8 @@ const STOCK_PACKAGES = [
      "entdecken"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Scopro un bel ristorante.",
+    "definition": "Trovare qualcosa di nuovo.",
     "usage": "p.p. scoperto",
     "page": "209-210"
    },
@@ -33144,8 +33144,8 @@ const STOCK_PACKAGES = [
      "Gebühr für Tischgedeck"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il coperto costa due euro.",
+    "definition": "Piccola somma da pagare al ristorante per il servizio.",
     "page": "209-210",
     "grammar": {
      "partOfSpeech": "noun",
@@ -33164,8 +33164,8 @@ const STOCK_PACKAGES = [
      "was bedeutet (es) / …"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che cosa vuol dire “coperto”?",
+    "definition": "Domanda per capire il significato.",
     "page": "209-210"
    },
    {
@@ -33176,8 +33176,8 @@ const STOCK_PACKAGES = [
      "die Summe"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il conto, per favore!",
+    "definition": "Foglio con la somma da pagare.",
     "page": "209-210",
     "grammar": {
      "partOfSpeech": "noun",
@@ -33196,8 +33196,8 @@ const STOCK_PACKAGES = [
      "getrennt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Facciamo conti separati.",
+    "definition": "Non unito.",
     "page": "209-210"
    },
    {
@@ -33208,8 +33208,8 @@ const STOCK_PACKAGES = [
      "daher"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Piove, quindi resto a casa.",
+    "definition": "Per questa ragione.",
     "page": "209-210"
    },
    {
@@ -33219,8 +33219,8 @@ const STOCK_PACKAGES = [
      "funktionieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il telefono non funziona.",
+    "definition": "Lavorare bene, come previsto.",
     "page": "209-210"
    },
    {
@@ -33230,8 +33230,8 @@ const STOCK_PACKAGES = [
      "Zahlungsart aller Teilnehmer/innen zu gleichen Anteilen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Paghiamo alla romana.",
+    "definition": "Dividere il conto in parti uguali.",
     "page": "209-210"
    },
    {
@@ -33242,8 +33242,8 @@ const STOCK_PACKAGES = [
      "die Weise"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questo è il modo giusto.",
+    "definition": "Maniera di fare qualcosa.",
     "page": "209-210",
     "grammar": {
      "partOfSpeech": "noun",
@@ -33262,8 +33262,8 @@ const STOCK_PACKAGES = [
      "weit"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La stazione è lontana.",
+    "definition": "A grande distanza.",
     "usage": "≠ vicino/-a",
     "page": "209-210",
     "related": "≠ vicino/-a"
@@ -33276,8 +33276,8 @@ const STOCK_PACKAGES = [
      "aus der Ferne"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vengo da lontano.",
+    "definition": "Da un posto distante.",
     "page": "209-210"
    },
    {
@@ -33287,8 +33287,8 @@ const STOCK_PACKAGES = [
      "in jeder Hinsicht"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È bellissimo, in tutti i sensi.",
+    "definition": "Sotto ogni aspetto.",
     "page": "209-210"
    },
    {
@@ -33299,8 +33299,8 @@ const STOCK_PACKAGES = [
      "merkwürdig"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che rumore strano!",
+    "definition": "Che non è normale.",
     "page": "209-210",
     "related": "E strange"
    },
@@ -33313,8 +33313,8 @@ const STOCK_PACKAGES = [
      "der Teller"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questo piatto è delizioso.",
+    "definition": "Contenitore per il cibo; anche il cibo stesso.",
     "page": "209-210",
     "grammar": {
      "partOfSpeech": "noun",
@@ -33333,8 +33333,8 @@ const STOCK_PACKAGES = [
      "stilles Wasser"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Prendo l’acqua naturale.",
+    "definition": "Acqua senza bollicine.",
     "page": "209-210"
    },
    {
@@ -33344,8 +33344,8 @@ const STOCK_PACKAGES = [
      "der Unterschied"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Qual è la differenza tra i due?",
+    "definition": "Elemento che rende due cose diverse.",
     "page": "209-210",
     "related": "E difference",
     "grammar": {
@@ -33365,8 +33365,8 @@ const STOCK_PACKAGES = [
      "etw. gemeinsam haben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Abbiamo in comune la passione per il calcio.",
+    "definition": "Condividere con altri.",
     "page": "209-210"
    },
    {
@@ -33377,8 +33377,8 @@ const STOCK_PACKAGES = [
      "erstaunlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un risultato sorprendente.",
+    "definition": "Che stupisce.",
     "page": "209-210"
    },
    {
@@ -33388,8 +33388,8 @@ const STOCK_PACKAGES = [
      "da"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Visto che piove, restiamo a casa.",
+    "definition": "Poiché.",
     "page": "209-210",
     "related": "= perché"
    },
@@ -33400,8 +33400,8 @@ const STOCK_PACKAGES = [
      "der/die Alters-/Zeitgenosse/-in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "I miei coetanei ascoltano questa musica.",
+    "definition": "Persona della stessa età.",
     "usage": "pl. f. le coetanee",
     "page": "209-210"
    }
@@ -33431,7 +33431,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -33469,8 +33469,8 @@ const STOCK_PACKAGES = [
      "die Hauptstadt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Roma è la capitale d’Italia.",
+    "definition": "Città principale di un paese.",
     "usage": "Unterscheide: la capitale (Land) – il capoluogo (Region)",
     "page": "207-208",
     "related": "E capital city; F la capitale; L caput",
@@ -33492,8 +33492,8 @@ const STOCK_PACKAGES = [
      "der Firmensitz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La sede della banca è a Milano.",
+    "definition": "Luogo principale di un’organizzazione.",
     "page": "207-208",
     "related": "▸ sedersi; F le siège; L sedes",
     "grammar": {
@@ -33513,8 +33513,8 @@ const STOCK_PACKAGES = [
      "der Papst"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il papa vive in Vaticano.",
+    "definition": "Capo della Chiesa cattolica.",
     "usage": "pl. i papi; il papà, i papà = Papa",
     "page": "207-208",
     "related": "E pope; F le pape",
@@ -33536,8 +33536,8 @@ const STOCK_PACKAGES = [
      "bummeln"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sabato facciamo shopping in centro.",
+    "definition": "Andare a comprare vestiti o altre cose per piacere.",
     "page": "207-208"
    },
    {
@@ -33547,8 +33547,8 @@ const STOCK_PACKAGES = [
      "elegant"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mia madre porta un vestito elegante.",
+    "definition": "Che ha stile e buon gusto.",
     "page": "207-208"
    },
    {
@@ -33558,8 +33558,8 @@ const STOCK_PACKAGES = [
      "das Lokal"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questo locale è molto famoso.",
+    "definition": "Posto pubblico come un bar o una discoteca.",
     "page": "207-208",
     "grammar": {
      "partOfSpeech": "noun",
@@ -33578,8 +33578,8 @@ const STOCK_PACKAGES = [
      "wunderbar"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che vista stupenda!",
+    "definition": "Bellissimo, magnifico.",
     "page": "207-208"
    },
    {
@@ -33589,8 +33589,8 @@ const STOCK_PACKAGES = [
      "das Treffen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’incontro è alle cinque.",
+    "definition": "Momento in cui due persone si vedono.",
     "page": "207-208",
     "related": "▸ incontrare; E encounter; F la rencontre"
    },
@@ -33601,8 +33601,8 @@ const STOCK_PACKAGES = [
      "der Brunnen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La fontana di Trevi è a Roma.",
+    "definition": "Struttura con acqua che esce, in una piazza.",
     "page": "207-208",
     "related": "E fountain; F la fontaine",
     "grammar": {
@@ -33622,8 +33622,8 @@ const STOCK_PACKAGES = [
      "der/die Musiker/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il musicista suona il violino.",
+    "definition": "Persona che suona uno strumento.",
     "usage": "pl. i musicisti",
     "page": "207-208",
     "related": "▸ la musica"
@@ -33635,8 +33635,8 @@ const STOCK_PACKAGES = [
      "die Spur"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ci sono tracce di fango.",
+    "definition": "Segno lasciato da qualcuno o qualcosa; brano di un disco.",
     "page": "207-208",
     "related": "E trace; F la trace",
     "grammar": {
@@ -33658,8 +33658,8 @@ const STOCK_PACKAGES = [
      "alt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Visito un monumento antico.",
+    "definition": "Molto vecchio, di tempi lontani.",
     "usage": "pl. antichi/-e",
     "page": "207-208"
    },
@@ -33670,8 +33670,8 @@ const STOCK_PACKAGES = [
      "das Römische Reich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’Impero Romano era molto vasto.",
+    "definition": "Grande stato dell’antica Roma.",
     "page": "207-208",
     "related": "L Imperium Romanum"
    },
@@ -33684,8 +33684,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "raggiungere, raggiunto"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Raggiungo la stazione in dieci minuti.",
+    "definition": "Arrivare in un luogo.",
     "usage": "p.p. raggiunto",
     "page": "207-208"
    },
@@ -33696,8 +33696,8 @@ const STOCK_PACKAGES = [
      "das Gleis"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il treno parte dal binario tre.",
+    "definition": "Linea di ferro su cui corre il treno; piattaforma alla stazione.",
     "usage": "pl. i binari",
     "page": "207-208",
     "grammar": {
@@ -33717,8 +33717,8 @@ const STOCK_PACKAGES = [
      "der Rollstuhl"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’ascensore è per chi usa la sedia a rotelle.",
+    "definition": "Sedia con ruote per chi non può camminare.",
     "page": "207-208",
     "grammar": {
      "partOfSpeech": "noun",
@@ -33738,8 +33738,8 @@ const STOCK_PACKAGES = [
      "der Aufzug"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Prendo l’ascensore al quinto piano.",
+    "definition": "Cabina che porta ai piani di un palazzo.",
     "usage": "m.",
     "page": "207-208",
     "related": "F l’ascenseur (m.)"
@@ -33751,8 +33751,8 @@ const STOCK_PACKAGES = [
      "die Treppe"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio le scale a piedi.",
+    "definition": "Gradini che collegano i piani.",
     "usage": "pl.",
     "page": "207-208",
     "grammar": {
@@ -33772,8 +33772,8 @@ const STOCK_PACKAGES = [
      "die Rolltreppe"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Prendiamo la scala mobile.",
+    "definition": "Scala che si muove da sola.",
     "page": "207-208",
     "grammar": {
      "partOfSpeech": "noun",
@@ -33795,8 +33795,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "la metro"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Prendo la metro per andare a scuola.",
+    "definition": "Treno sotterraneo di una città.",
     "page": "207-208",
     "related": "F le métropolitain",
     "grammar": {
@@ -33816,8 +33816,8 @@ const STOCK_PACKAGES = [
      "die Linie (Bahn)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La linea A va in centro.",
+    "definition": "Percorso di un mezzo pubblico.",
     "usage": "pl. le linee",
     "page": "207-208",
     "grammar": {
@@ -33837,8 +33837,8 @@ const STOCK_PACKAGES = [
      "die Richtung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "In quale direzione vai?",
+    "definition": "Verso dove si va.",
     "page": "207-208",
     "related": "E direction; F la direction",
     "grammar": {
@@ -33858,8 +33858,8 @@ const STOCK_PACKAGES = [
      "(be)zahlen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Pago il biglietto.",
+    "definition": "Dare soldi per un acquisto.",
     "page": "207-208",
     "related": "E to pay; F payer"
    },
@@ -33871,8 +33871,8 @@ const STOCK_PACKAGES = [
      "Einzel-"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Compro un biglietto singolo.",
+    "definition": "Per una sola persona.",
     "page": "207-208",
     "related": "E single; F singulier"
    },
@@ -33884,8 +33884,8 @@ const STOCK_PACKAGES = [
      "der Berufsverkehr"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "All’ora di punta il bus è pieno.",
+    "definition": "Momento della giornata con più traffico.",
     "page": "207-208"
    },
    {
@@ -33895,8 +33895,8 @@ const STOCK_PACKAGES = [
      "Sinn haben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La tua idea ha senso.",
+    "definition": "Essere ragionevole.",
     "usage": "Unterscheide: to make sense (engl.) – avere senso (ital.)",
     "page": "207-208"
    },
@@ -33907,8 +33907,8 @@ const STOCK_PACKAGES = [
      "die Ecke"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ci vediamo all’angolo.",
+    "definition": "Punto dove due strade o due pareti si incontrano.",
     "page": "207-208"
    }
   ]
@@ -33937,7 +33937,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -33975,8 +33975,8 @@ const STOCK_PACKAGES = [
      "fliegen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vado in aereo a Londra.",
+    "definition": "Viaggiare con il velivolo.",
     "page": "211-212"
    },
    {
@@ -33986,8 +33986,8 @@ const STOCK_PACKAGES = [
      "mit dem Zug fahren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vado in treno a Milano.",
+    "definition": "Viaggiare con il treno.",
     "page": "211-212"
    },
    {
@@ -33997,8 +33997,8 @@ const STOCK_PACKAGES = [
      "mit der U-Bahn fahren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vado in metropolitana in centro.",
+    "definition": "Spostarsi con la metro.",
     "page": "211-212"
    },
    {
@@ -34008,8 +34008,8 @@ const STOCK_PACKAGES = [
      "mit der Straßenbahn fahren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vado in tram a scuola.",
+    "definition": "Spostarsi con il tram.",
     "page": "211-212"
    },
    {
@@ -34019,8 +34019,8 @@ const STOCK_PACKAGES = [
      "mit dem Fahrrad fahren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vado in bici al parco.",
+    "definition": "Spostarsi con la bicicletta.",
     "page": "211-212"
    },
    {
@@ -34030,8 +34030,8 @@ const STOCK_PACKAGES = [
      "zu Fuß gehen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vado a piedi alla fermata.",
+    "definition": "Spostarsi camminando.",
     "page": "211-212"
    },
    {
@@ -34041,8 +34041,8 @@ const STOCK_PACKAGES = [
      "den Bus nehmen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Prendo l’autobus alle sette.",
+    "definition": "Salire su un autobus.",
     "page": "211-212"
    },
    {
@@ -34052,8 +34052,8 @@ const STOCK_PACKAGES = [
      "den Zug nehmen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Prendo il treno per Roma.",
+    "definition": "Salire sul treno.",
     "page": "211-212"
    },
    {
@@ -34065,8 +34065,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "prendere la linea"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Prendo la linea A.",
+    "definition": "Salire su una linea della metro o del bus.",
     "page": "211-212"
    },
    {
@@ -34076,8 +34076,8 @@ const STOCK_PACKAGES = [
      "die Straßenbahn nehmen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Prendo il tram numero 5.",
+    "definition": "Salire sul tram.",
     "page": "211-212"
    },
    {
@@ -34087,8 +34087,8 @@ const STOCK_PACKAGES = [
      "das Flugzeug nehmen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Prendo l’aereo domani.",
+    "definition": "Salire su un aereo.",
     "page": "211-212"
    },
    {
@@ -34098,8 +34098,8 @@ const STOCK_PACKAGES = [
      "das Taxi nehmen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Prendiamo il taxi per l’aeroporto.",
+    "definition": "Salire su un taxi.",
     "page": "211-212"
    },
    {
@@ -34109,8 +34109,8 @@ const STOCK_PACKAGES = [
      "die Haltestelle"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Aspetto alla fermata.",
+    "definition": "Punto dove si sale e si scende dal bus.",
     "page": "211-212",
     "grammar": {
      "partOfSpeech": "noun",
@@ -34129,8 +34129,8 @@ const STOCK_PACKAGES = [
      "der Bahnhof"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La stazione è grande.",
+    "definition": "Luogo dove arrivano i treni.",
     "page": "211-212",
     "grammar": {
      "partOfSpeech": "noun",
@@ -34149,8 +34149,8 @@ const STOCK_PACKAGES = [
      "ein Ticket kaufen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Compro un biglietto per Napoli.",
+    "definition": "Acquistare il documento per viaggiare.",
     "page": "211-212"
    },
    {
@@ -34160,8 +34160,8 @@ const STOCK_PACKAGES = [
      "pünktlich / zu spät kommen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il treno arriva puntuale.",
+    "definition": "Arrivare all’ora giusta o dopo.",
     "page": "211-212"
    },
    {
@@ -34171,8 +34171,8 @@ const STOCK_PACKAGES = [
      "Die U-Bahn fährt alle 10 Minuten."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La metro parte ogni 10 minuti.",
+    "definition": "Frase che indica la frequenza della metro.",
     "page": "211-212"
    },
    {
@@ -34182,8 +34182,8 @@ const STOCK_PACKAGES = [
      "Die U-Bahn ist außer Betrieb."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Oggi la metro è fuori servizio.",
+    "definition": "Frase che dice che la metro non funziona.",
     "page": "211-212"
    },
    {
@@ -34193,8 +34193,8 @@ const STOCK_PACKAGES = [
      "Es ist Berufsverkehr."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È l’ora di punta: la metro è piena.",
+    "definition": "Frase che dice che c’è molto traffico.",
     "page": "211-212"
    },
    {
@@ -34204,8 +34204,8 @@ const STOCK_PACKAGES = [
      "Es ist (viel) Verkehr."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "C’è traffico sulla tangenziale.",
+    "definition": "Frase che dice che le strade sono piene di auto.",
     "page": "211-212"
    },
    {
@@ -34215,8 +34215,8 @@ const STOCK_PACKAGES = [
      "Der Automat funktioniert nicht."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’apparecchio automatico non funziona: compro il biglietto allo sportello.",
+    "definition": "Frase per dire che la macchina dei biglietti è guasta.",
     "page": "211-212"
    },
    {
@@ -34226,8 +34226,8 @@ const STOCK_PACKAGES = [
      "die Speisekarte"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il cameriere porta il menù.",
+    "definition": "Lista dei piatti di un ristorante.",
     "page": "211-212",
     "related": "E menu",
     "grammar": {
@@ -34247,8 +34247,8 @@ const STOCK_PACKAGES = [
      "die Vorspeise"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Come antipasto prendo il prosciutto.",
+    "definition": "Piatto che si mangia prima della pasta.",
     "page": "211-212"
    },
    {
@@ -34258,8 +34258,8 @@ const STOCK_PACKAGES = [
      "der erste Gang"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Come primo piatto prendo le tagliatelle.",
+    "definition": "Pasta, riso o minestra.",
     "page": "211-212",
     "grammar": {
      "partOfSpeech": "noun",
@@ -34278,8 +34278,8 @@ const STOCK_PACKAGES = [
      "der zweite Gang"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Come secondo piatto prendo il pesce.",
+    "definition": "Carne o pesce.",
     "page": "211-212",
     "grammar": {
      "partOfSpeech": "noun",
@@ -34298,8 +34298,8 @@ const STOCK_PACKAGES = [
      "die Beilage"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Come contorno prendo l’insalata.",
+    "definition": "Verdura o patate che accompagnano la carne.",
     "page": "211-212",
     "grammar": {
      "partOfSpeech": "noun",
@@ -34319,8 +34319,8 @@ const STOCK_PACKAGES = [
      "die Süßspeise"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Come dolce prendo il tiramisù.",
+    "definition": "Parte finale del pasto, con zucchero.",
     "page": "211-212",
     "grammar": {
      "partOfSpeech": "noun",
@@ -34339,8 +34339,8 @@ const STOCK_PACKAGES = [
      "das Fleisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non mangio molta carne.",
+    "definition": "Cibo che viene dagli animali.",
     "page": "211-212",
     "grammar": {
      "partOfSpeech": "noun",
@@ -34359,8 +34359,8 @@ const STOCK_PACKAGES = [
      "der Fisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il pesce è fresco.",
+    "definition": "Animale del mare o del fiume che si mangia.",
     "page": "211-212",
     "grammar": {
      "partOfSpeech": "noun",
@@ -34379,8 +34379,8 @@ const STOCK_PACKAGES = [
      "gegrillt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mangio carne alla griglia.",
+    "definition": "Cotto sul fuoco senza olio.",
     "page": "211-212"
    },
    {
@@ -34390,8 +34390,8 @@ const STOCK_PACKAGES = [
      "frittiert"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi piacciono le patate fritte.",
+    "definition": "Cotto in olio caldo.",
     "page": "211-212"
    },
    {
@@ -34401,8 +34401,8 @@ const STOCK_PACKAGES = [
      "der Salat"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Condisco l’insalata con olio.",
+    "definition": "Piatto di verdure crude.",
     "page": "211-212"
    },
    {
@@ -34412,8 +34412,8 @@ const STOCK_PACKAGES = [
      "die Suppe"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ceno con una minestra.",
+    "definition": "Piatto caldo di verdure o legumi in brodo.",
     "page": "211-212",
     "grammar": {
      "partOfSpeech": "noun",
@@ -34432,8 +34432,8 @@ const STOCK_PACKAGES = [
      "die Gabel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mangio la pasta con la forchetta.",
+    "definition": "Posata con denti per prendere il cibo.",
     "page": "211-212",
     "grammar": {
      "partOfSpeech": "noun",
@@ -34452,8 +34452,8 @@ const STOCK_PACKAGES = [
      "das Messer"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Taglio la carne con il coltello.",
+    "definition": "Posata con lama per tagliare.",
     "page": "211-212",
     "grammar": {
      "partOfSpeech": "noun",
@@ -34472,8 +34472,8 @@ const STOCK_PACKAGES = [
      "der Löffel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mangio la zuppa con il cucchiaio.",
+    "definition": "Posata concava per mangiare la minestra.",
     "page": "211-212",
     "grammar": {
      "partOfSpeech": "noun",
@@ -34492,8 +34492,8 @@ const STOCK_PACKAGES = [
      "der Teelöffel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mescolo il caffè con il cucchiaino.",
+    "definition": "Posata minuscola per il tè o il caffè.",
     "page": "211-212",
     "grammar": {
      "partOfSpeech": "noun",
@@ -34512,8 +34512,8 @@ const STOCK_PACKAGES = [
      "das Gedeck"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il coperto costa due euro.",
+    "definition": "Piccola somma da pagare al ristorante per il servizio.",
     "page": "211-212",
     "grammar": {
      "partOfSpeech": "noun",
@@ -34532,8 +34532,8 @@ const STOCK_PACKAGES = [
      "das Glas"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Un bicchiere d’acqua, per favore.",
+    "definition": "Recipiente di vetro per bere.",
     "page": "211-212",
     "grammar": {
      "partOfSpeech": "noun",
@@ -34552,8 +34552,8 @@ const STOCK_PACKAGES = [
      "das Trinkgeld"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Lascio la mancia al cameriere.",
+    "definition": "Piccola somma lasciata al cameriere.",
     "page": "211-212",
     "grammar": {
      "partOfSpeech": "noun",
@@ -34572,8 +34572,8 @@ const STOCK_PACKAGES = [
      "Es ist sehr/zu scharf."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questa salsa è troppo piccante.",
+    "definition": "Dice che il cibo brucia in bocca.",
     "page": "211-212"
    },
    {
@@ -34583,8 +34583,8 @@ const STOCK_PACKAGES = [
      "Es ist sehr/zu salzig."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La zuppa è troppo salata.",
+    "definition": "Dice che c’è troppo sale.",
     "page": "211-212"
    },
    {
@@ -34594,8 +34594,8 @@ const STOCK_PACKAGES = [
      "Mir tut der Bauch weh."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho mangiato troppo: mi fa male la pancia.",
+    "definition": "Dice che hai dolore all’addome.",
     "page": "211-212"
    },
    {
@@ -34605,8 +34605,8 @@ const STOCK_PACKAGES = [
      "Magst du kosten?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vuoi assaggiare il mio dolce?",
+    "definition": "Domanda per offrire un piccolo assaggio.",
     "page": "211-212"
    },
    {
@@ -34616,8 +34616,8 @@ const STOCK_PACKAGES = [
      "Es war sehr lecker."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La cena è stata buonissima.",
+    "definition": "Frase per fare i complimenti al cuoco.",
     "page": "211-212"
    }
   ]
@@ -34646,7 +34646,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -34684,8 +34684,8 @@ const STOCK_PACKAGES = [
      "das Display"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il display è rotto.",
+    "definition": "Schermo di un apparecchio.",
     "page": "214",
     "grammar": {
      "partOfSpeech": "noun",
@@ -34704,8 +34704,8 @@ const STOCK_PACKAGES = [
      "reparieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ripariamo la bicicletta.",
+    "definition": "Aggiustare qualcosa di rotto.",
     "page": "214",
     "related": "E to repair"
    },
@@ -34717,8 +34717,8 @@ const STOCK_PACKAGES = [
      "die Expertin"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un esperto di computer.",
+    "definition": "Persona che conosce molto bene qualcosa.",
     "page": "214"
    },
    {
@@ -34728,8 +34728,8 @@ const STOCK_PACKAGES = [
      "sicher sein"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sono sicuro di venire.",
+    "definition": "Non avere dubbi.",
     "usage": "Abc",
     "page": "214"
    },
@@ -34740,8 +34740,8 @@ const STOCK_PACKAGES = [
      "jdm helfen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi dai una mano con i compiti?",
+    "definition": "Aiutare qualcuno.",
     "usage": "Abc",
     "page": "214"
    },
@@ -34752,8 +34752,8 @@ const STOCK_PACKAGES = [
      "kaputtgehen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il telefono si è rotto.",
+    "definition": "Diventare inutilizzabile per una rottura.",
     "usage": "p.p. rotto",
     "page": "214"
    },
@@ -34764,8 +34764,8 @@ const STOCK_PACKAGES = [
      "das Eisen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il cancello è di ferro.",
+    "definition": "Metallo duro e grigio.",
     "page": "214",
     "related": "F le fer; L ferrum",
     "grammar": {
@@ -34786,8 +34786,8 @@ const STOCK_PACKAGES = [
      "die Spende"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "C’è un’offerta speciale.",
+    "definition": "Proposta di vendita; qualcosa che si dà.",
     "page": "214",
     "related": "E offer"
    },
@@ -34798,8 +34798,8 @@ const STOCK_PACKAGES = [
      "der/die Ladenbesitzer/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La titolare del negozio è gentile.",
+    "definition": "Proprietario di un negozio.",
     "page": "214"
    },
    {
@@ -34809,8 +34809,8 @@ const STOCK_PACKAGES = [
      "das Modell"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questo modello è nuovo.",
+    "definition": "Tipo particolare di un prodotto.",
     "page": "214",
     "grammar": {
      "partOfSpeech": "noun",
@@ -34829,8 +34829,8 @@ const STOCK_PACKAGES = [
      "gebraucht"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Compro un libro usato.",
+    "definition": "Già utilizzato da altri.",
     "usage": "≠ nuovo",
     "page": "214",
     "related": "≠ nuovo; E used"
@@ -34842,8 +34842,8 @@ const STOCK_PACKAGES = [
      "der Job"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio un lavoretto d’estate.",
+    "definition": "Piccolo lavoro occasionale.",
     "page": "214",
     "related": "▸ il lavoro",
     "grammar": {
@@ -34863,8 +34863,8 @@ const STOCK_PACKAGES = [
      "babysitten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio la baby-sitter il sabato.",
+    "definition": "Badare ai bambini in assenza dei genitori.",
     "usage": "Abc",
     "page": "214"
    },
@@ -34875,8 +34875,8 @@ const STOCK_PACKAGES = [
      "der/die Hundesitter/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio il dog-sitter in vacanza.",
+    "definition": "Persona che si occupa dei cani degli altri.",
     "page": "214"
    },
    {
@@ -34886,8 +34886,8 @@ const STOCK_PACKAGES = [
      "das Tablet"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Leggo sul tablet.",
+    "definition": "Computer portatile con schermo tattile.",
     "page": "214",
     "grammar": {
      "partOfSpeech": "noun",
@@ -34906,8 +34906,8 @@ const STOCK_PACKAGES = [
      "jemand"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Qualcuno bussa alla porta.",
+    "definition": "Una persona non precisata.",
     "page": "214"
    },
    {
@@ -34918,8 +34918,8 @@ const STOCK_PACKAGES = [
      "Wie kommt es?"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Come mai sei in ritardo?",
+    "definition": "Domanda per sapere il motivo.",
     "page": "214"
    },
    {
@@ -34930,8 +34930,8 @@ const STOCK_PACKAGES = [
      "gebrochen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il vaso è rotto.",
+    "definition": "Danneggiato, non funziona.",
     "page": "214"
    },
    {
@@ -34941,8 +34941,8 @@ const STOCK_PACKAGES = [
      "vorgestern"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’altro ieri ho giocato a calcio.",
+    "definition": "Due giorni fa.",
     "usage": "avv.",
     "page": "214"
    },
@@ -34953,8 +34953,8 @@ const STOCK_PACKAGES = [
      "von Angesicht zu Angesicht"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Parliamo faccia a faccia.",
+    "definition": "Direttamente, di persona.",
     "page": "214",
     "related": "E face to face"
    },
@@ -34966,8 +34966,8 @@ const STOCK_PACKAGES = [
      "ernsthaft"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Dici sul serio?",
+    "definition": "Senza scherzare.",
     "page": "214"
    },
    {
@@ -34977,8 +34977,8 @@ const STOCK_PACKAGES = [
      "aufpassen auf jdn/etw."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sta’ attento alla strada!",
+    "definition": "Fare attenzione a qualcuno o qualcosa.",
     "usage": "Unterscheide: stare attento (auf der Hut sein) – fare attenzione (aufmerksam sein)",
     "page": "214"
    },
@@ -34989,8 +34989,8 @@ const STOCK_PACKAGES = [
      "teuer"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un orologio molto costoso.",
+    "definition": "Che costa molto.",
     "page": "214"
    },
    {
@@ -35000,8 +35000,8 @@ const STOCK_PACKAGES = [
      "das Geschenk"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Compro un regalo per mia madre.",
+    "definition": "Oggetto che si dà a qualcuno per fargli piacere.",
     "page": "214",
     "grammar": {
      "partOfSpeech": "noun",
@@ -35020,8 +35020,8 @@ const STOCK_PACKAGES = [
      "leidtun"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi dispiace molto.",
+    "definition": "Provare tristezza per qualcosa.",
     "usage": "mi dispiace = das tut mir leid",
     "page": "214",
     "related": "≠ piacere"
@@ -35033,8 +35033,8 @@ const STOCK_PACKAGES = [
      "der Unfall"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "C’è stato un incidente sulla strada.",
+    "definition": "Evento improvviso e spiacevole.",
     "usage": "m.",
     "page": "214"
    },
@@ -35045,8 +35045,8 @@ const STOCK_PACKAGES = [
      "verbunden"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sono connesso a internet.",
+    "definition": "Collegato, in rete.",
     "page": "214",
     "related": "E connected"
    },
@@ -35057,8 +35057,8 @@ const STOCK_PACKAGES = [
      "krank"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Oggi sono malato e resto a letto.",
+    "definition": "Che non sta bene.",
     "page": "214",
     "related": "F malade"
    }
@@ -35088,7 +35088,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -35126,8 +35126,8 @@ const STOCK_PACKAGES = [
      "der/die Unternehmer/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’imprenditrice ha tre negozi.",
+    "definition": "Persona che gestisce un’azienda.",
     "page": "215-216"
    },
    {
@@ -35137,8 +35137,8 @@ const STOCK_PACKAGES = [
      "der/die Eigentümer/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il proprietario del negozio è gentile.",
+    "definition": "Persona a cui appartiene qualcosa.",
     "page": "215-216"
    },
    {
@@ -35148,8 +35148,8 @@ const STOCK_PACKAGES = [
      "die Führung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Facciamo una visita guidata al castello.",
+    "definition": "Giro con una guida che spiega.",
     "page": "215-216",
     "grammar": {
      "partOfSpeech": "noun",
@@ -35168,8 +35168,8 @@ const STOCK_PACKAGES = [
      "die Agentur"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Prenoto il viaggio in un’agenzia.",
+    "definition": "Ufficio che offre servizi, come viaggi.",
     "page": "215-216",
     "related": "E agency"
    },
@@ -35180,8 +35180,8 @@ const STOCK_PACKAGES = [
      "sich duzen/siezen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ci diamo del tu.",
+    "definition": "Usare il tu o il Lei parlando.",
     "usage": "Abc",
     "page": "215-216"
    },
@@ -35192,8 +35192,8 @@ const STOCK_PACKAGES = [
      "in etw. seinen (Universitäts-)Abschluss machen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi laureo in medicina.",
+    "definition": "Finire gli studi all’università.",
     "page": "215-216"
    },
    {
@@ -35203,8 +35203,8 @@ const STOCK_PACKAGES = [
      "wiederholen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ripeto la parola.",
+    "definition": "Dire o fare di nuovo.",
     "page": "215-216",
     "related": "E to repeat; L repetere"
    },
@@ -35216,8 +35216,8 @@ const STOCK_PACKAGES = [
      "ständig"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "C’è un rumore continuo.",
+    "definition": "Che non si ferma.",
     "page": "215-216",
     "related": "E continuous; L continuus"
    },
@@ -35228,8 +35228,8 @@ const STOCK_PACKAGES = [
      "der Abschluss (Universität)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ha una laurea in lettere.",
+    "definition": "Titolo ottenuto all’università.",
     "usage": "pl. le lauree",
     "page": "215-216",
     "grammar": {
@@ -35251,8 +35251,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "la guida"
     ],
-    "example": "",
-    "definition": "",
+    "example": "La guida racconta la storia della città.",
+    "definition": "Persona che accompagna i turisti; anche il libro.",
     "usage": "f.",
     "page": "215-216",
     "related": "E guide",
@@ -35274,8 +35274,8 @@ const STOCK_PACKAGES = [
      "touristisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un luogo turistico.",
+    "definition": "Che serve ai visitatori e ai viaggiatori.",
     "usage": "pl. turistici, turistiche",
     "page": "215-216"
    },
@@ -35286,8 +35286,8 @@ const STOCK_PACKAGES = [
      "ursprünglich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Originalmente era una chiesa.",
+    "definition": "In origine.",
     "usage": "avv.",
     "page": "215-216",
     "related": "E originally"
@@ -35301,8 +35301,8 @@ const STOCK_PACKAGES = [
      "der Lehrgang"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio un corso di tedesco.",
+    "definition": "Serie di lezioni su un tema.",
     "page": "215-216",
     "related": "E course; L cursus",
     "grammar": {
@@ -35322,8 +35322,8 @@ const STOCK_PACKAGES = [
      "das Unternehmen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mio padre ha un’impresa.",
+    "definition": "Azienda, attività economica.",
     "page": "215-216",
     "related": "▸ imprenditore/imprenditrice"
    },
@@ -35335,8 +35335,8 @@ const STOCK_PACKAGES = [
      "genau"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La risposta è esatta.",
+    "definition": "Giusto, senza errori.",
     "page": "215-216",
     "related": "E exact"
    },
@@ -35347,8 +35347,8 @@ const STOCK_PACKAGES = [
      "Kompliment (für etw.)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Complimenti per il voto!",
+    "definition": "Parole di lode.",
     "page": "215-216",
     "related": "F/E compliment"
    },
@@ -35359,8 +35359,8 @@ const STOCK_PACKAGES = [
      "der Erfolg"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il concerto ha avuto successo.",
+    "definition": "Esito molto positivo.",
     "page": "215-216",
     "related": "E success",
     "grammar": {
@@ -35380,8 +35380,8 @@ const STOCK_PACKAGES = [
      "der/die Angestellte"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mia madre è impiegata.",
+    "definition": "Persona che lavora in un ufficio.",
     "page": "215-216"
    },
    {
@@ -35391,8 +35391,8 @@ const STOCK_PACKAGES = [
      "das Kanu"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Andiamo in canoa sul lago.",
+    "definition": "Piccola barca stretta con il remo.",
     "page": "215-216",
     "related": "E canoe; F canoë",
     "grammar": {
@@ -35412,8 +35412,8 @@ const STOCK_PACKAGES = [
      "venezianisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il carnevale veneziano è famoso.",
+    "definition": "Che viene dalla città dei canali.",
     "page": "215-216"
    },
    {
@@ -35423,8 +35423,8 @@ const STOCK_PACKAGES = [
      "das Interview"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il giornalista fa un’intervista al cantante.",
+    "definition": "Conversazione fatta per raccogliere informazioni.",
     "page": "215-216",
     "related": "E the interview; F le interview"
    },
@@ -35435,8 +35435,8 @@ const STOCK_PACKAGES = [
      "das Web-Design"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Studio web design.",
+    "definition": "Progettazione grafica di siti internet.",
     "page": "215-216",
     "related": "E web design",
     "grammar": {
@@ -35456,8 +35456,8 @@ const STOCK_PACKAGES = [
      "die Zukunft"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Nel futuro voglio viaggiare.",
+    "definition": "Il tempo che verrà.",
     "usage": "≠ il passato",
     "page": "215-216",
     "related": "≠ il passato; E future",
@@ -35479,8 +35479,8 @@ const STOCK_PACKAGES = [
      "die Anwesenheit"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La presenza è obbligatoria.",
+    "definition": "Il fatto di essere in un luogo.",
     "page": "215-216",
     "related": "E presence",
     "grammar": {
@@ -35501,8 +35501,8 @@ const STOCK_PACKAGES = [
      "wichtig"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È fondamentale studiare.",
+    "definition": "Molto importante.",
     "page": "215-216",
     "related": "E fundamental"
    },
@@ -35513,8 +35513,8 @@ const STOCK_PACKAGES = [
      "überall"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Dovunque vada, trovo amici.",
+    "definition": "In qualunque luogo.",
     "page": "215-216"
    },
    {
@@ -35525,8 +35525,8 @@ const STOCK_PACKAGES = [
      "vereinen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Combino due colori.",
+    "definition": "Mettere insieme.",
     "page": "215-216",
     "related": "E to combine; F combiner"
    },
@@ -35537,8 +35537,8 @@ const STOCK_PACKAGES = [
      "die Kenntnis"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La conoscenza delle lingue è utile.",
+    "definition": "Quello che si sa.",
     "page": "215-216",
     "grammar": {
      "partOfSpeech": "noun",
@@ -35558,8 +35558,8 @@ const STOCK_PACKAGES = [
      "hier: Sinn"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ha un bello spirito di squadra.",
+    "definition": "Parte immateriale della persona; senso.",
     "page": "215-216",
     "related": "E spirit",
     "grammar": {
@@ -35580,8 +35580,8 @@ const STOCK_PACKAGES = [
      "über"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Passo attraverso il parco.",
+    "definition": "Da una parte all’altra.",
     "page": "215-216"
    },
    {
@@ -35591,8 +35591,8 @@ const STOCK_PACKAGES = [
      "das Au-pair-Mädchen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mia cugina è ragazza alla pari a Londra.",
+    "definition": "Giovane straniera che vive in una famiglia e aiuta con i bambini.",
     "page": "215-216",
     "grammar": {
      "partOfSpeech": "noun",
@@ -35612,8 +35612,8 @@ const STOCK_PACKAGES = [
      "sich anmelden"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi iscrivo all’università.",
+    "definition": "Registrarsi a un corso.",
     "usage": "p.p. iscritto",
     "page": "215-216"
    },
@@ -35624,8 +35624,8 @@ const STOCK_PACKAGES = [
      "die Fakultät"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Studio alla facoltà di lettere.",
+    "definition": "Settore di studi di un’università.",
     "page": "215-216",
     "related": "E faculty; F la faculté",
     "grammar": {
@@ -35645,8 +35645,8 @@ const STOCK_PACKAGES = [
      "Osteuropa"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Viaggio nell’Europa dell’Est.",
+    "definition": "Parte orientale dell’Europa.",
     "page": "215-216"
    },
    {
@@ -35656,8 +35656,8 @@ const STOCK_PACKAGES = [
      "die Informatik"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Studio informatica.",
+    "definition": "Scienza dei computer.",
     "page": "215-216",
     "related": "E informatics; F l’informatique"
    },
@@ -35669,8 +35669,8 @@ const STOCK_PACKAGES = [
      "die Chance"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un’occasione da non perdere.",
+    "definition": "Momento favorevole.",
     "usage": "f.",
     "page": "215-216",
     "related": "E occasion; L occasio"
@@ -35683,8 +35683,8 @@ const STOCK_PACKAGES = [
      "die Auszeichnung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho vinto un premio.",
+    "definition": "Ricompensa per chi vince.",
     "page": "215-216",
     "related": "L praemium",
     "grammar": {
@@ -35705,8 +35705,8 @@ const STOCK_PACKAGES = [
      "speziell"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un giorno speciale.",
+    "definition": "Fuori dal comune.",
     "usage": "≠ normale",
     "page": "215-216",
     "related": "≠ normale; E special"
@@ -35718,8 +35718,8 @@ const STOCK_PACKAGES = [
      "schnell"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La macchina è veloce.",
+    "definition": "Che si muove in poco tempo, rapido.",
     "usage": "≠ lento",
     "page": "215-216",
     "related": "≠ lento"
@@ -35732,8 +35732,8 @@ const STOCK_PACKAGES = [
      "in Bezug auf jdn/etw."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Rispetto a ieri fa più caldo.",
+    "definition": "In confronto a.",
     "page": "215-216"
    },
    {
@@ -35743,8 +35743,8 @@ const STOCK_PACKAGES = [
      "die Internetseite"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Visito il sito della scuola.",
+    "definition": "Insieme di pagine web.",
     "page": "215-216",
     "grammar": {
      "partOfSpeech": "noun",
@@ -35763,8 +35763,8 @@ const STOCK_PACKAGES = [
      "sich jdm/etw. widmen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi dedico alla musica.",
+    "definition": "Dare tempo e attenzione.",
     "page": "215-216",
     "related": "E to dedicate"
    },
@@ -35776,8 +35776,8 @@ const STOCK_PACKAGES = [
      "exklusiv"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un club esclusivo.",
+    "definition": "Riservato a pochi.",
     "page": "215-216"
    }
   ]
@@ -35806,7 +35806,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -35844,8 +35844,8 @@ const STOCK_PACKAGES = [
      "die Grundschule"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Alla scuola elementare ho imparato a leggere.",
+    "definition": "Scuola per i bambini da sei a dieci anni.",
     "page": "212-214",
     "related": "E elementary school",
     "grammar": {
@@ -35865,8 +35865,8 @@ const STOCK_PACKAGES = [
      "3-jährige Schule der Sekundarstufe I"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Alla scuola media studio tre lingue.",
+    "definition": "Scuola per ragazzi da undici a quattordici anni.",
     "page": "212-214",
     "grammar": {
      "partOfSpeech": "noun",
@@ -35885,8 +35885,8 @@ const STOCK_PACKAGES = [
      "Schul-"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’anno scolastico comincia a settembre.",
+    "definition": "Che riguarda la scuola.",
     "usage": "pl. scolastici, scolastiche",
     "page": "212-214"
    },
@@ -35897,8 +35897,8 @@ const STOCK_PACKAGES = [
      "die Schulpflicht"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’obbligo scolastico dura dieci anni.",
+    "definition": "Dovere di frequentare la scuola fino a una certa età.",
     "page": "212-214"
    },
    {
@@ -35908,8 +35908,8 @@ const STOCK_PACKAGES = [
      "die Hälfte"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Metà della classe è assente.",
+    "definition": "Una delle due parti uguali.",
     "page": "212-214",
     "grammar": {
      "partOfSpeech": "noun",
@@ -35928,8 +35928,8 @@ const STOCK_PACKAGES = [
      "dritte Klasse der Sek. I (entspricht 8. Schuljahr)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "In terza media faccio l’esame.",
+    "definition": "Ultimo anno della scuola media italiana.",
     "page": "212-214",
     "grammar": {
      "partOfSpeech": "noun",
@@ -35948,8 +35948,8 @@ const STOCK_PACKAGES = [
      "das Prozent"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il venti percento degli studenti viene in bici.",
+    "definition": "Parte su cento.",
     "usage": "Vor Prozentzahlen steht immer il bzw. l’",
     "page": "212-214",
     "related": "E percent; F pour cent",
@@ -35970,8 +35970,8 @@ const STOCK_PACKAGES = [
      "die Möglichkeit"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho la possibilità di studiare all’estero.",
+    "definition": "Occasione di fare qualcosa.",
     "page": "212-214",
     "related": "E possibility",
     "grammar": {
@@ -35991,8 +35991,8 @@ const STOCK_PACKAGES = [
      "die Berufsfachschule (Sekundarstufe II)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Frequento l’istituto professionale.",
+    "definition": "Scuola superiore che prepara a un mestiere.",
     "page": "212-214"
    },
    {
@@ -36002,8 +36002,8 @@ const STOCK_PACKAGES = [
      "die Fachoberschule (Sekundarstufe II)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mio fratello va all’istituto tecnico.",
+    "definition": "Scuola superiore che prepara a lavori tecnici.",
     "page": "212-214"
    },
    {
@@ -36013,8 +36013,8 @@ const STOCK_PACKAGES = [
      "technisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un lavoro tecnico.",
+    "definition": "Che riguarda le macchine e le tecnologie.",
     "usage": "pl. tecnici, tecniche",
     "page": "212-214",
     "related": "E technical; F technique"
@@ -36026,8 +36026,8 @@ const STOCK_PACKAGES = [
      "der/die Journalist/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La giornalista intervista il sindaco.",
+    "definition": "Persona che scrive notizie.",
     "page": "212-214"
    },
    {
@@ -36037,8 +36037,8 @@ const STOCK_PACKAGES = [
      "interviewen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Intervisto un calciatore.",
+    "definition": "Fare domande a qualcuno per un articolo.",
     "page": "212-214"
    },
    {
@@ -36048,8 +36048,8 @@ const STOCK_PACKAGES = [
      "der Traum"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mio sogno è viaggiare.",
+    "definition": "Immagine nel sonno o desiderio grande.",
     "page": "212-214",
     "related": "L somnium",
     "grammar": {
@@ -36070,8 +36070,8 @@ const STOCK_PACKAGES = [
      "die Rechtswissenschaft"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mio zio studia giurisprudenza.",
+    "definition": "Studio del diritto e delle leggi.",
     "page": "212-214",
     "grammar": {
      "partOfSpeech": "noun",
@@ -36090,8 +36090,8 @@ const STOCK_PACKAGES = [
      "der/die Notar/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il notaio firma il contratto.",
+    "definition": "Professionista che certifica documenti.",
     "usage": "pl. i notai",
     "page": "212-214"
    },
@@ -36102,8 +36102,8 @@ const STOCK_PACKAGES = [
      "der Beruf"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Qual è la tua professione?",
+    "definition": "Lavoro che si fa per vivere.",
     "page": "212-214",
     "related": "E profession",
     "grammar": {
@@ -36124,8 +36124,8 @@ const STOCK_PACKAGES = [
      "respektiert"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il medico è molto rispettato.",
+    "definition": "Considerato con stima.",
     "page": "212-214"
    },
    {
@@ -36135,8 +36135,8 @@ const STOCK_PACKAGES = [
      "der/die Restaurator/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La restauratrice lavora su un quadro.",
+    "definition": "Persona che ripara opere antiche.",
     "page": "212-214"
    },
    {
@@ -36146,8 +36146,8 @@ const STOCK_PACKAGES = [
      "das Möbel(-stück)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Un mobile antico.",
+    "definition": "Oggetto di legno per la casa.",
     "page": "212-214",
     "grammar": {
      "partOfSpeech": "noun",
@@ -36167,8 +36167,8 @@ const STOCK_PACKAGES = [
      "das Gewerbe"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il falegname fa un bel mestiere.",
+    "definition": "Lavoro manuale o artigianale.",
     "usage": "Unterscheide: il mestiere (handwerklich) – la professione (erlernt)",
     "page": "212-214",
     "grammar": {
@@ -36188,8 +36188,8 @@ const STOCK_PACKAGES = [
      "die Arbeit"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mio lavoro è interessante.",
+    "definition": "Attività che si fa per guadagnare.",
     "page": "212-214",
     "related": "L labor",
     "grammar": {
@@ -36209,8 +36209,8 @@ const STOCK_PACKAGES = [
      "jdn stören"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il rumore mi dà fastidio.",
+    "definition": "Disturbare qualcuno.",
     "usage": "Abc",
     "page": "212-214"
    },
@@ -36221,8 +36221,8 @@ const STOCK_PACKAGES = [
      "das Büro"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Lavoro in un ufficio.",
+    "definition": "Luogo dove si lavora con carte e computer.",
     "usage": "pl. gli uffici",
     "page": "212-214",
     "related": "E office"
@@ -36234,8 +36234,8 @@ const STOCK_PACKAGES = [
      "reisen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi piace viaggiare.",
+    "definition": "Spostarsi in luoghi lontani.",
     "page": "212-214"
    },
    {
@@ -36247,8 +36247,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "l’azienda"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Lavora in un’azienda di export.",
+    "definition": "Impresa che vende prodotti all’estero.",
     "page": "212-214"
    },
    {
@@ -36260,8 +36260,8 @@ const STOCK_PACKAGES = [
      "kinderreich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho una famiglia numerosa.",
+    "definition": "Con molti membri.",
     "page": "212-214",
     "related": "E numerous"
    },
@@ -36272,8 +36272,8 @@ const STOCK_PACKAGES = [
      "der Kindergarten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mia sorella va all’asilo.",
+    "definition": "Scuola per bambini piccoli.",
     "page": "212-214"
    },
    {
@@ -36283,8 +36283,8 @@ const STOCK_PACKAGES = [
      "der Stress"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il lavoro mi dà stress.",
+    "definition": "Tensione dovuta a troppo lavoro.",
     "page": "212-214",
     "grammar": {
      "partOfSpeech": "noun",
@@ -36303,8 +36303,8 @@ const STOCK_PACKAGES = [
      "die Wahrheit"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Dimmi la verità!",
+    "definition": "Quello che è vero.",
     "page": "212-214",
     "related": "F la vérité; L veritas",
     "grammar": {
@@ -36325,8 +36325,8 @@ const STOCK_PACKAGES = [
      "die Reife"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio la maturità in estate.",
+    "definition": "Esame finale della scuola superiore.",
     "page": "212-214",
     "grammar": {
      "partOfSpeech": "noun",
@@ -36345,8 +36345,8 @@ const STOCK_PACKAGES = [
      "die Karriere"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vuole fare carriera.",
+    "definition": "Percorso professionale di una persona.",
     "page": "212-214",
     "related": "E career",
     "grammar": {
@@ -36366,8 +36366,8 @@ const STOCK_PACKAGES = [
      "(ganz und) gar nicht"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non sono affatto stanco.",
+    "definition": "Per niente.",
     "page": "212-214"
    },
    {
@@ -36377,8 +36377,8 @@ const STOCK_PACKAGES = [
      "etwas würde jdm gefallen / gefiele jdm"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi piacerebbe viaggiare.",
+    "definition": "Forma di condizionale per dire che qualcosa è gradito.",
     "page": "212-214",
     "related": "▸ piacere"
    },
@@ -36390,8 +36390,8 @@ const STOCK_PACKAGES = [
      "kommandieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il capo comanda.",
+    "definition": "Dare ordini.",
     "page": "212-214",
     "related": "E command; F commander"
    },
@@ -36403,8 +36403,8 @@ const STOCK_PACKAGES = [
      "hätte gern"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vorrebbe un caffè.",
+    "definition": "Forma gentile di “vuole”.",
     "usage": "3. Pers. von vorrei",
     "page": "212-214",
     "related": "▸ 3. Pers. von vorrei"
@@ -36416,8 +36416,8 @@ const STOCK_PACKAGES = [
      "der/die Chef/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il capo è severo.",
+    "definition": "Persona che guida un gruppo.",
     "page": "212-214",
     "related": "L caput",
     "grammar": {
@@ -36440,8 +36440,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "aggiungere, aggiunto"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Aggiungo un po’ di sale.",
+    "definition": "Mettere in più.",
     "usage": "p.p. aggiunto",
     "page": "212-214",
     "related": "L adiungere"
@@ -36454,8 +36454,8 @@ const STOCK_PACKAGES = [
      "weil"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Siccome piove, non esco.",
+    "definition": "Poiché, dato che.",
     "page": "212-214"
    },
    {
@@ -36465,8 +36465,8 @@ const STOCK_PACKAGES = [
      "apulisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’olio pugliese è famoso.",
+    "definition": "Della Puglia.",
     "tags": [
      "fakultativ"
     ],
@@ -36479,8 +36479,8 @@ const STOCK_PACKAGES = [
      "die Spezialität"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La specialità della casa è la lasagna.",
+    "definition": "Cibo o prodotto tipico.",
     "page": "212-214",
     "related": "F la spécialité; E speciality",
     "grammar": {
@@ -36500,8 +36500,8 @@ const STOCK_PACKAGES = [
      "im Ausland"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mio zio lavora all’estero.",
+    "definition": "In un altro paese.",
     "page": "212-214"
    }
   ]
@@ -36530,7 +36530,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -36568,8 +36568,8 @@ const STOCK_PACKAGES = [
      "babysitten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio la baby-sitter il sabato.",
+    "definition": "Badare ai bambini in assenza dei genitori.",
     "page": "217"
    },
    {
@@ -36579,8 +36579,8 @@ const STOCK_PACKAGES = [
      "dogsitten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "D’estate faccio il dog-sitter.",
+    "definition": "Prendersi cura dei cani degli altri.",
     "page": "217"
    },
    {
@@ -36590,8 +36590,8 @@ const STOCK_PACKAGES = [
      "Nachhilfeunterricht geben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Do ripetizioni di inglese.",
+    "definition": "Dare lezioni private di una materia.",
     "page": "217"
    },
    {
@@ -36603,8 +36603,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "dare lezioni di"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Do lezioni di pianoforte.",
+    "definition": "Insegnare uno strumento.",
     "page": "217"
    },
    {
@@ -36614,8 +36614,8 @@ const STOCK_PACKAGES = [
      "Zeitungen austragen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Consegno giornali al mattino.",
+    "definition": "Portare i giornali alle persone.",
     "page": "217"
    },
    {
@@ -36627,8 +36627,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "riparare"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Riparo biciclette.",
+    "definition": "Aggiustare le biciclette rotte.",
     "page": "217"
    },
    {
@@ -36638,8 +36638,8 @@ const STOCK_PACKAGES = [
      "Autos waschen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Lavo le macchine dei vicini.",
+    "definition": "Pulire le automobili.",
     "page": "217"
    },
    {
@@ -36649,8 +36649,8 @@ const STOCK_PACKAGES = [
      "sich um ältere Menschen kümmern"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi occupo di mia nonna.",
+    "definition": "Assistere persone vecchie.",
     "page": "217"
    },
    {
@@ -36660,8 +36660,8 @@ const STOCK_PACKAGES = [
      "für jdn einkaufen gehen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio la spesa per la vicina.",
+    "definition": "Comprare cibo per un’altra persona.",
     "page": "217"
    },
    {
@@ -36671,8 +36671,8 @@ const STOCK_PACKAGES = [
      "Rasen mähen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Taglio l’erba nel giardino.",
+    "definition": "Accorciare il prato.",
     "page": "217"
    },
    {
@@ -36682,8 +36682,8 @@ const STOCK_PACKAGES = [
      "kellnern"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio il cameriere d’estate.",
+    "definition": "Servire ai tavoli.",
     "page": "217"
    },
    {
@@ -36695,8 +36695,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "lavorare al"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Lavoro al supermercato.",
+    "definition": "Avere un impiego in un negozio.",
     "page": "217"
    },
    {
@@ -36706,8 +36706,8 @@ const STOCK_PACKAGES = [
      "der/die Sekretär/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La segretaria risponde al telefono.",
+    "definition": "Persona che organizza il lavoro di un ufficio.",
     "page": "217"
    },
    {
@@ -36718,8 +36718,8 @@ const STOCK_PACKAGES = [
      "der/die Rennfahrer/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il pilota vola a Roma.",
+    "definition": "Persona che guida un aereo o un’auto da corsa.",
     "page": "217"
    },
    {
@@ -36729,8 +36729,8 @@ const STOCK_PACKAGES = [
      "der/die Fotograf/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La fotografa lavora per una rivista.",
+    "definition": "Persona che scatta immagini con la macchina fotografica.",
     "page": "217"
    },
    {
@@ -36740,8 +36740,8 @@ const STOCK_PACKAGES = [
      "der/die Polizist/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il poliziotto aiuta i turisti.",
+    "definition": "Persona che garantisce la sicurezza.",
     "page": "217"
    },
    {
@@ -36751,8 +36751,8 @@ const STOCK_PACKAGES = [
      "der/die Kellner/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La cameriera porta il menù.",
+    "definition": "Persona che serve in un ristorante.",
     "page": "217"
    },
    {
@@ -36762,8 +36762,8 @@ const STOCK_PACKAGES = [
      "der Koch / die Köchin"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il cuoco prepara la pasta.",
+    "definition": "Persona che cucina professionalmente.",
     "page": "217"
    },
    {
@@ -36773,8 +36773,8 @@ const STOCK_PACKAGES = [
      "der Arzt / die Ärztin"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il medico visita il paziente.",
+    "definition": "Persona che cura i malati.",
     "page": "217",
     "grammar": {
      "partOfSpeech": "noun",
@@ -36793,8 +36793,8 @@ const STOCK_PACKAGES = [
      "der/die Künstler/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’artista dipinge un quadro.",
+    "definition": "Persona che crea opere d’arte.",
     "usage": "m./f.",
     "page": "217"
    },
@@ -36805,8 +36805,8 @@ const STOCK_PACKAGES = [
      "der/die Designer/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La stilista presenta la collezione.",
+    "definition": "Persona che disegna vestiti.",
     "page": "217"
    },
    {
@@ -36816,8 +36816,8 @@ const STOCK_PACKAGES = [
      "der/die Lehrer/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’insegnante spiega la lezione.",
+    "definition": "Persona che insegna.",
     "page": "217",
     "related": "F enseignant; = il/la prof(essore/-ssa)"
    },
@@ -36828,8 +36828,8 @@ const STOCK_PACKAGES = [
      "der Anwalt / die Anwältin"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’avvocato difende il cliente.",
+    "definition": "Persona che difende qualcuno in tribunale.",
     "page": "217"
    },
    {
@@ -36839,8 +36839,8 @@ const STOCK_PACKAGES = [
      "der/die Architekt/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’architetto progetta una casa.",
+    "definition": "Persona che progetta case e edifici.",
     "page": "217"
    },
    {
@@ -36850,8 +36850,8 @@ const STOCK_PACKAGES = [
      "der Ingenieur"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’ingegnere costruisce un ponte.",
+    "definition": "Persona che progetta macchine e costruzioni.",
     "page": "217"
    },
    {
@@ -36861,8 +36861,8 @@ const STOCK_PACKAGES = [
      "einen Hochschulabschluss erwerben in …"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi laureo in biologia.",
+    "definition": "Finire gli studi universitari in una materia.",
     "page": "217"
    },
    {
@@ -36872,8 +36872,8 @@ const STOCK_PACKAGES = [
      "einen Lehrgang machen in …"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio un corso di cucina.",
+    "definition": "Seguire lezioni su un tema.",
     "page": "217"
    },
    {
@@ -36883,8 +36883,8 @@ const STOCK_PACKAGES = [
      "eine Prüfung ablegen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Domani faccio un esame.",
+    "definition": "Sostenere una prova.",
     "page": "217"
    },
    {
@@ -36894,8 +36894,8 @@ const STOCK_PACKAGES = [
      "sich für einen Studiengang in … einschreiben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi iscrivo alla facoltà di lettere.",
+    "definition": "Registrarsi a un corso universitario.",
     "page": "217"
    },
    {
@@ -36907,8 +36907,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "passare in …"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Passo un anno in Italia.",
+    "definition": "Trascorrere un periodo in un luogo.",
     "page": "217"
    },
    {
@@ -36918,8 +36918,8 @@ const STOCK_PACKAGES = [
      "teilnehmen an"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Partecipo a una gara.",
+    "definition": "Prendere parte a un evento.",
     "page": "217"
    },
    {
@@ -36929,8 +36929,8 @@ const STOCK_PACKAGES = [
      "studieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Studio lingue.",
+    "definition": "Dedicarsi a una disciplina.",
     "page": "217"
    },
    {
@@ -36940,8 +36940,8 @@ const STOCK_PACKAGES = [
      "einen Kurs in … besuchen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Frequento un corso di francese.",
+    "definition": "Andare regolarmente a lezione.",
     "page": "217"
    }
   ]
@@ -36970,7 +36970,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -37008,8 +37008,8 @@ const STOCK_PACKAGES = [
      "Und sie bewegt sich doch! (Zitat)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Eppur si muove! disse Galileo.",
+    "definition": "Frase attribuita a Galileo: la Terra gira.",
     "page": "219-220"
    },
    {
@@ -37019,8 +37019,8 @@ const STOCK_PACKAGES = [
      "geboren werden"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sono nato a Torino.",
+    "definition": "Venire al mondo.",
     "usage": "p.p. nato",
     "page": "219-220",
     "related": "L nasci"
@@ -37032,8 +37032,8 @@ const STOCK_PACKAGES = [
      "besuchen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Frequento la scuola di danza.",
+    "definition": "Andare spesso in un luogo.",
     "usage": "Unterscheide: frequentare (Kurs, Unterricht) – andare a trovare / visitare",
     "page": "219-220"
    },
@@ -37044,8 +37044,8 @@ const STOCK_PACKAGES = [
      "die Medizin (hier: Studium)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Studia medicina.",
+    "definition": "Scienza che cura le malattie.",
     "page": "219-220",
     "grammar": {
      "partOfSpeech": "noun",
@@ -37064,8 +37064,8 @@ const STOCK_PACKAGES = [
      "die Mechanik"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi interessa la meccanica.",
+    "definition": "Studio delle macchine.",
     "page": "219-220",
     "grammar": {
      "partOfSpeech": "noun",
@@ -37084,8 +37084,8 @@ const STOCK_PACKAGES = [
      "teilnehmen an etw."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio parte della squadra di calcio.",
+    "definition": "Essere membro di un gruppo.",
     "page": "219-220",
     "related": "▸ la parte, partecipare"
    },
@@ -37096,8 +37096,8 @@ const STOCK_PACKAGES = [
      "sich mit etw. auseinandersetzen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi confronto con i compagni.",
+    "definition": "Affrontare e paragonare con altro.",
     "page": "219-220"
    },
    {
@@ -37107,8 +37107,8 @@ const STOCK_PACKAGES = [
      "der Apparat"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questo apparecchio è nuovo.",
+    "definition": "Strumento per fare qualcosa.",
     "usage": "pl. gli apparecchi",
     "page": "219-220"
    },
@@ -37120,8 +37120,8 @@ const STOCK_PACKAGES = [
      "der Fürstenhof"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vive alla corte del re.",
+    "definition": "Ambiente di un re.",
     "page": "219-220",
     "related": "E court",
     "grammar": {
@@ -37141,8 +37141,8 @@ const STOCK_PACKAGES = [
      "behaupten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Afferma di essere innocente.",
+    "definition": "Dire con convinzione.",
     "page": "219-220"
    },
    {
@@ -37152,8 +37152,8 @@ const STOCK_PACKAGES = [
      "das Universum"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’universo è infinito.",
+    "definition": "Spazio con stelle e pianeti.",
     "page": "219-220"
    },
    {
@@ -37163,8 +37163,8 @@ const STOCK_PACKAGES = [
      "die Schwierigkeit"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho difficoltà in matematica.",
+    "definition": "Cosa che non è facile.",
     "page": "219-220",
     "related": "E difficulty",
     "grammar": {
@@ -37185,8 +37185,8 @@ const STOCK_PACKAGES = [
      "letztendlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Infine abbiamo vinto.",
+    "definition": "Alla fine.",
     "page": "219-220",
     "related": "F enfin"
    },
@@ -37197,8 +37197,8 @@ const STOCK_PACKAGES = [
      "der Prozess"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il processo è lungo.",
+    "definition": "Procedimento legale; sviluppo di un fenomeno.",
     "page": "219-220",
     "grammar": {
      "partOfSpeech": "noun",
@@ -37217,8 +37217,8 @@ const STOCK_PACKAGES = [
      "das Gefängnis"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il ladro è in prigione.",
+    "definition": "Luogo dove vivono i condannati.",
     "page": "219-220",
     "related": "E prison",
     "grammar": {
@@ -37238,8 +37238,8 @@ const STOCK_PACKAGES = [
      "veröffentlichen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Pubblico un libro.",
+    "definition": "Mettere a disposizione del pubblico.",
     "page": "219-220",
     "related": "E to publish"
    },
@@ -37250,8 +37250,8 @@ const STOCK_PACKAGES = [
      "die Theorie"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La teoria è difficile.",
+    "definition": "Insieme di idee per spiegare qualcosa.",
     "page": "219-220",
     "grammar": {
      "partOfSpeech": "noun",
@@ -37271,8 +37271,8 @@ const STOCK_PACKAGES = [
      "die Villa"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La villa ha una piscina.",
+    "definition": "Grande casa con giardino.",
     "page": "219-220",
     "grammar": {
      "partOfSpeech": "noun",
@@ -37291,8 +37291,8 @@ const STOCK_PACKAGES = [
      "der Tod"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La morte del poeta è triste.",
+    "definition": "Fine della vita.",
     "page": "219-220",
     "related": "F la mort; L mors",
     "grammar": {
@@ -37312,8 +37312,8 @@ const STOCK_PACKAGES = [
      "zukünftig"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Nei giorni futuri.",
+    "definition": "Che verrà.",
     "page": "219-220",
     "related": "E future"
    },
@@ -37324,8 +37324,8 @@ const STOCK_PACKAGES = [
      "interessieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi interessa la storia.",
+    "definition": "Attirare l’attenzione.",
     "page": "219-220"
    },
    {
@@ -37336,8 +37336,8 @@ const STOCK_PACKAGES = [
      "das Bild"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il bambino fa un disegno.",
+    "definition": "Immagine fatta con la matita.",
     "page": "219-220",
     "related": "E design; F le dessin",
     "grammar": {
@@ -37357,8 +37357,8 @@ const STOCK_PACKAGES = [
      "der Himmel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il cielo è azzurro.",
+    "definition": "Spazio sopra la Terra.",
     "page": "219-220",
     "related": "F le ciel; L caelum",
     "grammar": {
@@ -37378,8 +37378,8 @@ const STOCK_PACKAGES = [
      "der Krieg"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La guerra è terribile.",
+    "definition": "Conflitto armato tra stati.",
     "page": "219-220",
     "grammar": {
      "partOfSpeech": "noun",
@@ -37399,8 +37399,8 @@ const STOCK_PACKAGES = [
      "die Schlacht"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La battaglia è finita.",
+    "definition": "Scontro armato.",
     "page": "219-220",
     "related": "E battle",
     "grammar": {
@@ -37420,8 +37420,8 @@ const STOCK_PACKAGES = [
      "das Labor"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Lavoriamo in laboratorio.",
+    "definition": "Luogo di ricerca o di esperimenti.",
     "usage": "pl. i laboratori",
     "page": "219-220",
     "related": "E laboratory",
@@ -37442,8 +37442,8 @@ const STOCK_PACKAGES = [
      "der Punkt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Metto un punto alla fine.",
+    "definition": "Piccolo segno rotondo a fine frase; anche luogo preciso.",
     "page": "219-220",
     "grammar": {
      "partOfSpeech": "noun",
@@ -37462,8 +37462,8 @@ const STOCK_PACKAGES = [
      "die Milchstraße"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La Via Lattea è una galassia.",
+    "definition": "Galassia in cui si trova il Sole.",
     "tags": [
      "fakultativ"
     ],
@@ -37485,8 +37485,8 @@ const STOCK_PACKAGES = [
      "der Stern"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Di notte vedo molte stelle.",
+    "definition": "Corpo luminoso nel cielo.",
     "page": "219-220",
     "grammar": {
      "partOfSpeech": "noun",
@@ -37506,8 +37506,8 @@ const STOCK_PACKAGES = [
      "die Erfindung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È una grande scoperta scientifica.",
+    "definition": "Cosa nuova che si trova.",
     "page": "219-220",
     "grammar": {
      "partOfSpeech": "noun",
@@ -37526,8 +37526,8 @@ const STOCK_PACKAGES = [
      "der Einklang"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Siamo in sintonia.",
+    "definition": "Accordo perfetto tra persone.",
     "page": "219-220",
     "grammar": {
      "partOfSpeech": "noun",
@@ -37546,8 +37546,8 @@ const STOCK_PACKAGES = [
      "die Bibel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La Bibbia è un libro antico.",
+    "definition": "Libro sacro dei cristiani.",
     "page": "219-220",
     "grammar": {
      "partOfSpeech": "noun",
@@ -37566,8 +37566,8 @@ const STOCK_PACKAGES = [
      "eine Entscheidung fassen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Prendo una decisione importante.",
+    "definition": "Scegliere.",
     "page": "219-220"
    },
    {
@@ -37577,8 +37577,8 @@ const STOCK_PACKAGES = [
      "die Entscheidung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La decisione è presa.",
+    "definition": "Scelta fatta.",
     "page": "219-220",
     "related": "E decision",
     "grammar": {
@@ -37599,8 +37599,8 @@ const STOCK_PACKAGES = [
      "der Banause"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non essere ignorante!",
+    "definition": "Persona che non sa.",
     "usage": "m./f.",
     "page": "219-220"
    },
@@ -37612,8 +37612,8 @@ const STOCK_PACKAGES = [
      "selbstverständlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È ovvio che hai ragione.",
+    "definition": "Chiaro a tutti.",
     "page": "219-220",
     "related": "E obvious"
    },
@@ -37626,8 +37626,8 @@ const STOCK_PACKAGES = [
      "seine Überzeugung aufgeben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non rinnego le mie idee.",
+    "definition": "Dire che non si crede più a qualcosa.",
     "page": "219-220"
    },
    {
@@ -37637,8 +37637,8 @@ const STOCK_PACKAGES = [
      "offiziell"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un documento ufficiale.",
+    "definition": "Riconosciuto dalle autorità.",
     "page": "219-220"
    },
    {
@@ -37648,8 +37648,8 @@ const STOCK_PACKAGES = [
      "um jdn/etw. herum"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "I bambini sono intorno al maestro.",
+    "definition": "Tutto attorno.",
     "page": "219-220"
    },
    {
@@ -37660,8 +37660,8 @@ const STOCK_PACKAGES = [
      "sich täuschen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi sono sbagliato.",
+    "definition": "Commettere un errore.",
     "page": "219-220"
    }
   ]
@@ -37690,7 +37690,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -37729,8 +37729,8 @@ const STOCK_PACKAGES = [
      "die Fraktion"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Due fazioni si sfidano.",
+    "definition": "Gruppo contro altri.",
     "page": "220-221",
     "grammar": {
      "partOfSpeech": "noun",
@@ -37749,8 +37749,8 @@ const STOCK_PACKAGES = [
      "Einwohner von Gubbio"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Gli eugubini fanno la festa dei Ceri.",
+    "definition": "Abitanti di Gubbio.",
     "page": "220-221",
     "grammar": {
      "partOfSpeech": "noun",
@@ -37770,8 +37770,8 @@ const STOCK_PACKAGES = [
      "das Rennen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La corsa è molto veloce.",
+    "definition": "Gara di velocità.",
     "page": "220-221",
     "grammar": {
      "partOfSpeech": "noun",
@@ -37790,8 +37790,8 @@ const STOCK_PACKAGES = [
      "die Herkunft"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’origine della festa è antica.",
+    "definition": "Punto di partenza.",
     "usage": "f.",
     "page": "220-221",
     "related": "E origin; L origo"
@@ -37803,8 +37803,8 @@ const STOCK_PACKAGES = [
      "religiös"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È una festa religiosa.",
+    "definition": "Che riguarda la fede.",
     "page": "220-221",
     "related": "E religious"
    },
@@ -37815,8 +37815,8 @@ const STOCK_PACKAGES = [
      "das Holz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il tavolo è di legno.",
+    "definition": "Materiale ricavato dagli alberi.",
     "page": "220-221",
     "grammar": {
      "partOfSpeech": "noun",
@@ -37835,8 +37835,8 @@ const STOCK_PACKAGES = [
      "männlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il cane è maschio.",
+    "definition": "Del sesso di un uomo o di un ragazzo.",
     "page": "220-221"
    },
    {
@@ -37848,8 +37848,8 @@ const STOCK_PACKAGES = [
      "das Ende"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La cima della montagna è innevata.",
+    "definition": "Punto più alto.",
     "page": "220-221",
     "grammar": {
      "partOfSpeech": "noun",
@@ -37869,8 +37869,8 @@ const STOCK_PACKAGES = [
      "das Standbild"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La statua è in piazza.",
+    "definition": "Figura di pietra o di metallo.",
     "page": "220-221",
     "grammar": {
      "partOfSpeech": "noun",
@@ -37889,8 +37889,8 @@ const STOCK_PACKAGES = [
      "Bezugs-"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È il punto di riferimento.",
+    "definition": "Che serve da guida.",
     "page": "220-221"
    },
    {
@@ -37900,8 +37900,8 @@ const STOCK_PACKAGES = [
      "sich teilen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "I ragazzi si dividono in due squadre.",
+    "definition": "Separarsi in parti.",
     "usage": "p.p. diviso",
     "page": "220-221",
     "related": "E to divide"
@@ -37914,8 +37914,8 @@ const STOCK_PACKAGES = [
      "tragen (Kleidung)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Indosso una giacca.",
+    "definition": "Mettere addosso.",
     "page": "220-221"
    },
    {
@@ -37927,8 +37927,8 @@ const STOCK_PACKAGES = [
      "der Brauch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il costume è colorato.",
+    "definition": "Abito tradizionale o da maschera.",
     "page": "220-221",
     "grammar": {
      "partOfSpeech": "noun",
@@ -37947,8 +37947,8 @@ const STOCK_PACKAGES = [
      "blau"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il mare è azzurro.",
+    "definition": "Colore del cielo sereno.",
     "usage": "Unterscheide: celeste (hellblau) – blu (dunkelblau) – azzurro (mittelblau); gli azzurri = Fußballnationalmannschaft",
     "page": "220-221"
    },
@@ -37960,8 +37960,8 @@ const STOCK_PACKAGES = [
      "üblich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È una festa tradizionale.",
+    "definition": "Che segue la tradizione.",
     "page": "220-221"
    },
    {
@@ -37971,8 +37971,8 @@ const STOCK_PACKAGES = [
      "der Stolz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho molto orgoglio del mio lavoro.",
+    "definition": "Sentimento di soddisfazione.",
     "page": "220-221"
    },
    {
@@ -37982,8 +37982,8 @@ const STOCK_PACKAGES = [
      "der Mann"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "I maschi giocano a calcio.",
+    "definition": "Persona di sesso maschile.",
     "usage": "pl. i maschi",
     "page": "220-221",
     "grammar": {
@@ -38004,8 +38004,8 @@ const STOCK_PACKAGES = [
      "solche(r)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Non voglio una tale cosa.",
+    "definition": "Di questo tipo.",
     "page": "220-221",
     "related": "F tel/telle; L talis"
    },
@@ -38017,8 +38017,8 @@ const STOCK_PACKAGES = [
      "antiquiert"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Un’idea antiquata.",
+    "definition": "Fuori moda.",
     "page": "220-221",
     "related": "L antiquus"
    },
@@ -38029,8 +38029,8 @@ const STOCK_PACKAGES = [
      "die Tradition"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La tradizione è importante.",
+    "definition": "Usanza tramandata nel tempo.",
     "page": "220-221",
     "grammar": {
      "partOfSpeech": "noun",
@@ -38049,8 +38049,8 @@ const STOCK_PACKAGES = [
      "der Wert"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’amicizia ha un grande valore.",
+    "definition": "Importanza di qualcosa.",
     "page": "220-221",
     "related": "E value",
     "grammar": {
@@ -38070,8 +38070,8 @@ const STOCK_PACKAGES = [
      "eher"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È piuttosto difficile.",
+    "definition": "In modo abbastanza intenso.",
     "usage": "avv.",
     "page": "220-221"
    },
@@ -38082,8 +38082,8 @@ const STOCK_PACKAGES = [
      "der Aberglaube"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il gatto nero è una superstizione.",
+    "definition": "Credenza irrazionale sulla fortuna.",
     "page": "220-221",
     "related": "E superstition",
     "grammar": {
@@ -38105,8 +38105,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "in"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Erano in tredici a tavola.",
+    "definition": "Espressione che indica un gruppo di persone, come in tredici.",
     "page": "220-221"
    },
    {
@@ -38116,8 +38116,8 @@ const STOCK_PACKAGES = [
      "das rote Horn"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Porto un corno rosso.",
+    "definition": "Piccolo amuleto portafortuna.",
     "tags": [
      "fakultativ"
     ],
@@ -38139,8 +38139,8 @@ const STOCK_PACKAGES = [
      "der böse Blick"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ha paura del malocchio.",
+    "definition": "Sguardo che porta sfortuna, secondo la superstizione.",
     "tags": [
      "fakultativ"
     ],
@@ -38163,8 +38163,8 @@ const STOCK_PACKAGES = [
      "betagt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La nonna è anziana.",
+    "definition": "Persona di età avanzata.",
     "usage": "= vecchio/-a",
     "page": "220-221",
     "related": "= vecchio/-a"
@@ -38176,8 +38176,8 @@ const STOCK_PACKAGES = [
      "jdn/etw. halten für"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Considero questa idea molto bella.",
+    "definition": "Valutare o ritenere.",
     "page": "220-221",
     "related": "E to consider"
    },
@@ -38189,8 +38189,8 @@ const STOCK_PACKAGES = [
      "anstrengend"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un lavoro impegnativo.",
+    "definition": "Che richiede molto impegno.",
     "page": "220-221"
    },
    {
@@ -38200,8 +38200,8 @@ const STOCK_PACKAGES = [
      "wiegen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La valigia pesa dieci chili.",
+    "definition": "Avere un certo peso.",
     "page": "220-221"
    },
    {
@@ -38211,8 +38211,8 @@ const STOCK_PACKAGES = [
      "jede/r/s"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ciascuno prende un panino.",
+    "definition": "Ogni persona o cosa.",
     "page": "220-221"
    },
    {
@@ -38224,8 +38224,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "il più possibile"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Corro il più velocemente possibile.",
+    "definition": "Il massimo possibile.",
     "page": "220-221",
     "grammar": {
      "partOfSpeech": "noun",
@@ -38244,8 +38244,8 @@ const STOCK_PACKAGES = [
      "senkrecht"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La parete è verticale.",
+    "definition": "Dritto dall’alto in basso.",
     "page": "220-221",
     "related": "E vertical"
    },
@@ -38257,8 +38257,8 @@ const STOCK_PACKAGES = [
      "die Strecke"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il percorso è lungo.",
+    "definition": "Strada che si fa.",
     "page": "220-221",
     "related": "F le parcours",
     "grammar": {
@@ -38279,8 +38279,8 @@ const STOCK_PACKAGES = [
      "gesamt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La spesa totale è di dieci euro.",
+    "definition": "Completo.",
     "page": "220-221",
     "related": "E total"
    },
@@ -38292,8 +38292,8 @@ const STOCK_PACKAGES = [
      "Wettkampf"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La gara è domani.",
+    "definition": "Competizione tra più persone.",
     "page": "220-221",
     "grammar": {
      "partOfSpeech": "noun",
@@ -38312,8 +38312,8 @@ const STOCK_PACKAGES = [
      "einen guten Eindruck machen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Voglio fare bella figura.",
+    "definition": "Dare una buona impressione.",
     "usage": "Abc",
     "page": "220-221"
    },
@@ -38324,8 +38324,8 @@ const STOCK_PACKAGES = [
      "der/die Tourist/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La turista visita il museo.",
+    "definition": "Persona che viaggia per piacere.",
     "page": "220-221"
    },
    {
@@ -38335,8 +38335,8 @@ const STOCK_PACKAGES = [
      "jdn/etw. + Adj. machen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La musica mi rende felice.",
+    "definition": "Far diventare in un certo modo.",
     "usage": "p.p. reso",
     "page": "220-221"
    },
@@ -38348,8 +38348,8 @@ const STOCK_PACKAGES = [
      "beweisen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Dimostro di essere capace.",
+    "definition": "Provare con fatti.",
     "page": "220-221"
    },
    {
@@ -38360,8 +38360,8 @@ const STOCK_PACKAGES = [
      "ablaufen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La festa si svolge in piazza.",
+    "definition": "Accadere, avere luogo.",
     "usage": "p.p. svolto",
     "page": "220-221"
    },
@@ -38373,8 +38373,8 @@ const STOCK_PACKAGES = [
      "anschließend"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il giorno successivo è domenica.",
+    "definition": "Quello che viene dopo.",
     "page": "220-221"
    },
    {
@@ -38384,8 +38384,8 @@ const STOCK_PACKAGES = [
      "die Ehre"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho l’onore di conoscerti.",
+    "definition": "Stima che si merita.",
     "usage": "m.",
     "page": "220-221",
     "related": "E honour; L honor"
@@ -38399,8 +38399,8 @@ const STOCK_PACKAGES = [
      "authentisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un prodotto autentico.",
+    "definition": "Vero, non falso.",
     "page": "220-221",
     "related": "E authentic"
    },
@@ -38412,8 +38412,8 @@ const STOCK_PACKAGES = [
      "sich schulen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi esercito a suonare.",
+    "definition": "Praticare per migliorare.",
     "page": "220-221",
     "related": "E to exercise; L exercere"
    },
@@ -38425,8 +38425,8 @@ const STOCK_PACKAGES = [
      "die Haltung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ha un atteggiamento positivo.",
+    "definition": "Modo di comportarsi.",
     "page": "220-221"
    },
    {
@@ -38436,8 +38436,8 @@ const STOCK_PACKAGES = [
      "der Zweifel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho un dubbio.",
+    "definition": "Incertezza.",
     "usage": "pl. i dubbi",
     "page": "220-221",
     "related": "▸ dubitare; E doubt; L dubium",
@@ -38477,7 +38477,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -38515,8 +38515,8 @@ const STOCK_PACKAGES = [
      "der Schritt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio due passi.",
+    "definition": "Movimento di un piede quando si cammina.",
     "page": "217-218",
     "related": "L passus",
     "grammar": {
@@ -38538,8 +38538,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "a da"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Casa mia è a due passi da scuola.",
+    "definition": "Molto vicino a.",
     "page": "217-218"
    },
    {
@@ -38549,8 +38549,8 @@ const STOCK_PACKAGES = [
      "der Pinienwald"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Passeggiamo nella pineta.",
+    "definition": "Bosco di pini.",
     "page": "217-218",
     "related": "F la pinière",
     "grammar": {
@@ -38570,8 +38570,8 @@ const STOCK_PACKAGES = [
      "(ver)mieten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Affitto un appartamento.",
+    "definition": "Prendere o dare in uso una casa pagando.",
     "page": "217-218"
    },
    {
@@ -38581,8 +38581,8 @@ const STOCK_PACKAGES = [
      "der Wohnwagen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Andiamo in vacanza in roulotte.",
+    "definition": "Piccola casa su ruote.",
     "page": "217-218",
     "grammar": {
      "partOfSpeech": "noun",
@@ -38602,8 +38602,8 @@ const STOCK_PACKAGES = [
      "erreichbar"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il museo è accessibile a tutti.",
+    "definition": "Facile da raggiungere o da usare.",
     "page": "217-218",
     "related": "E accessible"
    },
@@ -38614,8 +38614,8 @@ const STOCK_PACKAGES = [
      "der/die (Körper-)Behinderte"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il bagno è per portatori di handicap.",
+    "definition": "Persona con una disabilità.",
     "page": "217-218"
    },
    {
@@ -38626,8 +38626,8 @@ const STOCK_PACKAGES = [
      "das Gebäude"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La struttura ha una piscina.",
+    "definition": "Costruzione organizzata.",
     "page": "217-218",
     "grammar": {
      "partOfSpeech": "noun",
@@ -38647,8 +38647,8 @@ const STOCK_PACKAGES = [
      "der Pool"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "D’estate vado in piscina.",
+    "definition": "Grande vasca per nuotare.",
     "page": "217-218",
     "related": "F la piscine",
     "grammar": {
@@ -38668,8 +38668,8 @@ const STOCK_PACKAGES = [
      "der Spielplatz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "I bambini giocano nel parco giochi.",
+    "definition": "Spazio con altalene per bambini.",
     "usage": "pl. i parchi giochi",
     "page": "217-218",
     "grammar": {
@@ -38689,8 +38689,8 @@ const STOCK_PACKAGES = [
      "ausgestattet"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il campeggio è attrezzato.",
+    "definition": "Dotato dei mezzi necessari.",
     "page": "217-218"
    },
    {
@@ -38700,8 +38700,8 @@ const STOCK_PACKAGES = [
      "in der Umgebung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ci sono molti negozi nei dintorni.",
+    "definition": "Nella zona vicina.",
     "page": "217-218"
    },
    {
@@ -38711,8 +38711,8 @@ const STOCK_PACKAGES = [
      "der Einkaufsladen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Compro il pane al mini market.",
+    "definition": "Piccolo negozio di alimentari.",
     "page": "217-218",
     "grammar": {
      "partOfSpeech": "noun",
@@ -38731,8 +38731,8 @@ const STOCK_PACKAGES = [
      "Tennis-/Beachvolleyball-Platz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Giochiamo sul campo da beach volley.",
+    "definition": "Area per giocare a tennis o pallavolo sulla sabbia.",
     "page": "217-218"
    },
    {
@@ -38742,8 +38742,8 @@ const STOCK_PACKAGES = [
      "die Insel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La Sicilia è un’isola.",
+    "definition": "Terra circondata dal mare.",
     "page": "217-218",
     "related": "L insula"
    },
@@ -38754,8 +38754,8 @@ const STOCK_PACKAGES = [
      "der Ausflug"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Facciamo un’escursione in montagna.",
+    "definition": "Gita breve in luoghi naturali.",
     "usage": "f.",
     "page": "217-218"
    },
@@ -38767,8 +38767,8 @@ const STOCK_PACKAGES = [
      "Urlaub auf dem Bauernhof"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Passiamo il weekend in un agriturismo.",
+    "definition": "Azienda agricola che accoglie turisti.",
     "page": "217-218"
    },
    {
@@ -38778,8 +38778,8 @@ const STOCK_PACKAGES = [
      "der Olivenhain"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il casale è in mezzo a un uliveto.",
+    "definition": "Terreno con ulivi.",
     "page": "217-218"
    },
    {
@@ -38790,8 +38790,8 @@ const STOCK_PACKAGES = [
      "die Gegend"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È una zona tranquilla.",
+    "definition": "Parte di un territorio.",
     "page": "217-218",
     "grammar": {
      "partOfSpeech": "noun",
@@ -38813,8 +38813,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "in mezzo"
     ],
-    "example": "",
-    "definition": "",
+    "example": "La casa è in mezzo al bosco.",
+    "definition": "Nel centro di qualcosa.",
     "usage": "prep.",
     "page": "217-218"
    },
@@ -38825,8 +38825,8 @@ const STOCK_PACKAGES = [
      "der Garten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Giochiamo in giardino.",
+    "definition": "Area verde vicino a una casa.",
     "page": "217-218",
     "related": "F le jardin",
     "grammar": {
@@ -38846,8 +38846,8 @@ const STOCK_PACKAGES = [
      "die Natur"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Amo la natura.",
+    "definition": "Tutto quello che esiste senza l’uomo: piante, animali, montagne.",
     "page": "217-218",
     "grammar": {
      "partOfSpeech": "noun",
@@ -38866,8 +38866,8 @@ const STOCK_PACKAGES = [
      "das Produkt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Compriamo prodotti locali.",
+    "definition": "Cosa fabbricata o coltivata.",
     "page": "217-218",
     "grammar": {
      "partOfSpeech": "noun",
@@ -38886,8 +38886,8 @@ const STOCK_PACKAGES = [
      "erreichbar"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il paese è raggiungibile in autobus.",
+    "definition": "Che si può raggiungere.",
     "page": "217-218"
    },
    {
@@ -38897,8 +38897,8 @@ const STOCK_PACKAGES = [
      "entlang"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Camminiamo lungo il fiume.",
+    "definition": "Per tutta l’estensione.",
     "usage": "prep.",
     "page": "217-218"
    },
@@ -38909,8 +38909,8 @@ const STOCK_PACKAGES = [
      "der Franziskusweg"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Facciamo il Sentiero Francescano.",
+    "definition": "Cammino di pellegrinaggio nei luoghi di San Francesco.",
     "tags": [
      "fakultativ"
     ],
@@ -38932,8 +38932,8 @@ const STOCK_PACKAGES = [
      "man braucht"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ci vogliono tre ore per arrivare.",
+    "definition": "Dice che serve una certa quantità.",
     "usage": "Unterscheide: ci vuole (man braucht) – bisogna (man muss) – ho bisogno di / mi serve (ich brauche)",
     "page": "217-218"
    },
@@ -38944,8 +38944,8 @@ const STOCK_PACKAGES = [
      "das Pferd"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il cavallo corre nel campo.",
+    "definition": "Grande animale con la criniera che si monta.",
     "page": "217-218",
     "grammar": {
      "partOfSpeech": "noun",
@@ -38965,8 +38965,8 @@ const STOCK_PACKAGES = [
      "mit dem Pferd"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Facciamo un giro a cavallo.",
+    "definition": "Montando un cavallo.",
     "page": "217-218"
    },
    {
@@ -38976,8 +38976,8 @@ const STOCK_PACKAGES = [
      "das Grüne"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "C’è molto verde in questa città.",
+    "definition": "Colore o area con piante.",
     "page": "217-218",
     "grammar": {
      "partOfSpeech": "noun",
@@ -38996,8 +38996,8 @@ const STOCK_PACKAGES = [
      "das Fernrohr"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Galileo usò il cannocchiale.",
+    "definition": "Strumento con lenti per guardare lontano.",
     "page": "217-218",
     "grammar": {
      "partOfSpeech": "noun",
@@ -39016,8 +39016,8 @@ const STOCK_PACKAGES = [
      "der/die Wissenschaftler/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Galileo era uno scienziato.",
+    "definition": "Persona che fa ricerche scientifiche.",
     "page": "217-218",
     "related": "E scientist"
    },
@@ -39029,8 +39029,8 @@ const STOCK_PACKAGES = [
      "kaufen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Acquisto un biglietto.",
+    "definition": "Comprare.",
     "page": "217-218"
    },
    {
@@ -39040,8 +39040,8 @@ const STOCK_PACKAGES = [
      "reduziert"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il biglietto ridotto costa meno.",
+    "definition": "Più basso.",
     "page": "217-218"
    },
    {
@@ -39052,8 +39052,8 @@ const STOCK_PACKAGES = [
      "der Rabatt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "C’è uno sconto del dieci per cento.",
+    "definition": "Riduzione di prezzo.",
     "page": "217-218",
     "grammar": {
      "partOfSpeech": "noun",
@@ -39072,8 +39072,8 @@ const STOCK_PACKAGES = [
      "der Aufenthalt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il soggiorno dura una settimana.",
+    "definition": "Periodo che si passa in un luogo.",
     "page": "217-218",
     "grammar": {
      "partOfSpeech": "noun",
@@ -39093,8 +39093,8 @@ const STOCK_PACKAGES = [
      "der Zeitabschnitt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un periodo di vacanza.",
+    "definition": "Intervallo di tempo.",
     "page": "217-218",
     "related": "E period",
     "grammar": {
@@ -39114,8 +39114,8 @@ const STOCK_PACKAGES = [
      "kontaktieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Contatto l’hotel via mail.",
+    "definition": "Mettersi in comunicazione con qualcuno.",
     "page": "217-218"
    },
    {
@@ -39125,8 +39125,8 @@ const STOCK_PACKAGES = [
      "verfügbar"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La camera è disponibile.",
+    "definition": "Libero, che si può avere.",
     "page": "217-218"
    },
    {
@@ -39136,8 +39136,8 @@ const STOCK_PACKAGES = [
      "das Zimmer"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La mia stanza è grande.",
+    "definition": "Parte di un appartamento.",
     "page": "217-218",
     "grammar": {
      "partOfSpeech": "noun",
@@ -39156,8 +39156,8 @@ const STOCK_PACKAGES = [
      "das Flugzeug"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’aereo parte alle dieci.",
+    "definition": "Veicolo che vola.",
     "page": "217-218"
    },
    {
@@ -39167,8 +39167,8 @@ const STOCK_PACKAGES = [
      "Miet-"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Prendo un’auto a noleggio.",
+    "definition": "Che si prende in affitto per un tempo.",
     "page": "217-218"
    },
    {
@@ -39178,8 +39178,8 @@ const STOCK_PACKAGES = [
      "der Shuttlebus"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La navetta porta all’aeroporto.",
+    "definition": "Piccolo autobus che collega due punti.",
     "page": "217-218",
     "grammar": {
      "partOfSpeech": "noun",
@@ -39198,8 +39198,8 @@ const STOCK_PACKAGES = [
      "Mit freundlichen Grüßen (Brief)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Cordialmente, Marco Rossi.",
+    "definition": "Formula finale di una lettera.",
     "page": "217-218"
    },
    {
@@ -39209,8 +39209,8 @@ const STOCK_PACKAGES = [
      "danken"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ringrazio i miei amici.",
+    "definition": "Dire grazie.",
     "page": "217-218"
    },
    {
@@ -39220,8 +39220,8 @@ const STOCK_PACKAGES = [
      "im Voraus"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Arrivo in anticipo.",
+    "definition": "Prima del tempo previsto.",
     "page": "217-218"
    }
   ]
@@ -39250,7 +39250,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -39288,8 +39288,8 @@ const STOCK_PACKAGES = [
      "Urlaub verbringen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Passo le vacanze al mare.",
+    "definition": "Trascorrere il tempo libero.",
     "page": "222"
    },
    {
@@ -39299,8 +39299,8 @@ const STOCK_PACKAGES = [
      "Städtereise"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Facciamo vacanze in città.",
+    "definition": "Vacanze in una grande città.",
     "page": "222"
    },
    {
@@ -39310,8 +39310,8 @@ const STOCK_PACKAGES = [
      "Urlaub am Meer"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Passiamo vacanze al mare.",
+    "definition": "Vacanze sulla costa.",
     "page": "222"
    },
    {
@@ -39321,8 +39321,8 @@ const STOCK_PACKAGES = [
      "Urlaub in den Bergen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio vacanze in montagna.",
+    "definition": "Vacanze tra le montagne.",
     "page": "222"
    },
    {
@@ -39332,8 +39332,8 @@ const STOCK_PACKAGES = [
      "Urlaub auf dem Lande"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi piacciono le vacanze in campagna.",
+    "definition": "Vacanze in zona rurale.",
     "page": "222"
    },
    {
@@ -39343,8 +39343,8 @@ const STOCK_PACKAGES = [
      "Urlaub auf dem Campingplatz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Facciamo vacanze in campeggio.",
+    "definition": "Vacanze dormendo in tenda.",
     "page": "222"
    },
    {
@@ -39354,8 +39354,8 @@ const STOCK_PACKAGES = [
      "das Hotel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’albergo è vicino al mare.",
+    "definition": "Edificio dove si dorme viaggiando.",
     "page": "222"
    },
    {
@@ -39365,8 +39365,8 @@ const STOCK_PACKAGES = [
      "das Apartment"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Affitto un appartamento.",
+    "definition": "Casa in un palazzo.",
     "page": "222"
    },
    {
@@ -39376,8 +39376,8 @@ const STOCK_PACKAGES = [
      "das Bauernhaus"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il casale è in Toscana.",
+    "definition": "Casa rurale tra i campi.",
     "page": "222",
     "grammar": {
      "partOfSpeech": "noun",
@@ -39396,8 +39396,8 @@ const STOCK_PACKAGES = [
      "der Campingplatz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il campeggio è vicino al lago.",
+    "definition": "Luogo dove si dorme in tenda.",
     "page": "222",
     "grammar": {
      "partOfSpeech": "noun",
@@ -39416,8 +39416,8 @@ const STOCK_PACKAGES = [
      "der Wohnwagen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Andiamo in vacanza in roulotte.",
+    "definition": "Piccola casa su ruote.",
     "page": "222",
     "grammar": {
      "partOfSpeech": "noun",
@@ -39436,8 +39436,8 @@ const STOCK_PACKAGES = [
      "mobile home"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Dormiamo in una casa mobile.",
+    "definition": "Piccola casa con ruote per le vacanze.",
     "page": "222",
     "grammar": {
      "partOfSpeech": "noun",
@@ -39457,8 +39457,8 @@ const STOCK_PACKAGES = [
      "die Jugendherberge"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Dormo in un ostello.",
+    "definition": "Alloggio economico per giovani.",
     "page": "222"
    },
    {
@@ -39468,8 +39468,8 @@ const STOCK_PACKAGES = [
      "das Zimmer"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La mia stanza è grande.",
+    "definition": "Parte di un appartamento.",
     "page": "222",
     "grammar": {
      "partOfSpeech": "noun",
@@ -39488,8 +39488,8 @@ const STOCK_PACKAGES = [
      "das Zelt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Montiamo la tenda.",
+    "definition": "Riparo di tela.",
     "page": "222",
     "grammar": {
      "partOfSpeech": "noun",
@@ -39508,8 +39508,8 @@ const STOCK_PACKAGES = [
      "der Garten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Giochiamo in giardino.",
+    "definition": "Area verde vicino a una casa.",
     "page": "222",
     "related": "F le jardin",
     "grammar": {
@@ -39529,8 +39529,8 @@ const STOCK_PACKAGES = [
      "der Balkon"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sul balcone ci sono i fiori.",
+    "definition": "Terrazzino di una casa.",
     "page": "222",
     "grammar": {
      "partOfSpeech": "noun",
@@ -39551,8 +39551,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "con una vista mare"
     ],
-    "example": "",
-    "definition": "",
+    "example": "La camera ha vista sul mare.",
+    "definition": "Con panorama sul mare.",
     "page": "222"
    },
    {
@@ -39562,8 +39562,8 @@ const STOCK_PACKAGES = [
      "der Pool"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "D’estate vado in piscina.",
+    "definition": "Grande vasca per nuotare.",
     "page": "222",
     "related": "F la piscine",
     "grammar": {
@@ -39583,8 +39583,8 @@ const STOCK_PACKAGES = [
      "der Spielplatz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il parco giochi è vicino all’hotel.",
+    "definition": "Area attrezzata per bambini.",
     "page": "222",
     "grammar": {
      "partOfSpeech": "noun",
@@ -39603,8 +39603,8 @@ const STOCK_PACKAGES = [
      "der (mit Schirmen und Liegen) ausgestattete Strand"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Prendiamo una spiaggia attrezzata.",
+    "definition": "Riva del mare con ombrelloni e lettini da usare.",
     "page": "222",
     "grammar": {
      "partOfSpeech": "noun",
@@ -39623,8 +39623,8 @@ const STOCK_PACKAGES = [
      "der Einkaufsladen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Compro il pane al mini market.",
+    "definition": "Piccolo negozio di alimentari.",
     "page": "222",
     "grammar": {
      "partOfSpeech": "noun",
@@ -39643,8 +39643,8 @@ const STOCK_PACKAGES = [
      "der Tennisplatz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Giochiamo sul campo da tennis.",
+    "definition": "Terreno con la rete dove si gioca a tennis.",
     "page": "222",
     "grammar": {
      "partOfSpeech": "noun",
@@ -39663,8 +39663,8 @@ const STOCK_PACKAGES = [
      "der Volleyballplatz"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il campo da beach-volley è sulla spiaggia.",
+    "definition": "Terreno di sabbia dove si gioca a pallavolo.",
     "page": "222",
     "grammar": {
      "partOfSpeech": "noun",
@@ -39684,8 +39684,8 @@ const STOCK_PACKAGES = [
      "Ausflug mit dem Pferd"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Domani facciamo un’escursione a cavallo.",
+    "definition": "Gita fatta montando i cavalli.",
     "page": "222"
    },
    {
@@ -39695,8 +39695,8 @@ const STOCK_PACKAGES = [
      "die Mountainbike-Tour"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Facciamo una gita in mountain-bike.",
+    "definition": "Giro in bicicletta tra monti e sentieri.",
     "page": "222",
     "grammar": {
      "partOfSpeech": "noun",
@@ -39715,8 +39715,8 @@ const STOCK_PACKAGES = [
      "das Wandern im Grünen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mi piace la passeggiata nel verde.",
+    "definition": "Camminata nella natura.",
     "page": "222",
     "grammar": {
      "partOfSpeech": "noun",
@@ -39735,8 +39735,8 @@ const STOCK_PACKAGES = [
      "Wasserski fahren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio sci nautico d’estate.",
+    "definition": "Scivolare sull’acqua con gli sci trainati da una barca.",
     "page": "222"
    },
    {
@@ -39746,8 +39746,8 @@ const STOCK_PACKAGES = [
      "surfen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio surf al mare.",
+    "definition": "Scivolare sulle onde con una tavola.",
     "page": "222"
    },
    {
@@ -39757,8 +39757,8 @@ const STOCK_PACKAGES = [
      "Ski fahren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio sci in inverno.",
+    "definition": "Scivolare sulla neve con gli sci.",
     "page": "222"
    },
    {
@@ -39768,8 +39768,8 @@ const STOCK_PACKAGES = [
      "Snowboard fahren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio snowboard con gli amici.",
+    "definition": "Scivolare sulla neve con una tavola.",
     "page": "222"
    },
    {
@@ -39779,8 +39779,8 @@ const STOCK_PACKAGES = [
      "Boot fahren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Andiamo in barca sul lago.",
+    "definition": "Navigare su acqua con una barca.",
     "page": "222"
    }
   ]
@@ -39809,7 +39809,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -39847,8 +39847,8 @@ const STOCK_PACKAGES = [
      "das Gesicht"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ha una faccia simpatica.",
+    "definition": "Parte anteriore della testa.",
     "page": "223-225",
     "related": "E face",
     "grammar": {
@@ -39868,8 +39868,8 @@ const STOCK_PACKAGES = [
      "der/die Designer/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La stilista presenta la collezione.",
+    "definition": "Persona che crea moda.",
     "page": "223-225",
     "related": "E stylist"
    },
@@ -39880,8 +39880,8 @@ const STOCK_PACKAGES = [
      "arbeitslos"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mio zio è disoccupato.",
+    "definition": "Senza lavoro.",
     "page": "223-225",
     "related": "E disoccupied"
    },
@@ -39892,8 +39892,8 @@ const STOCK_PACKAGES = [
      "die Miete"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’affitto è caro.",
+    "definition": "Somma da pagare per usare una casa.",
     "page": "223-225",
     "related": "▸ affittare"
    },
@@ -39904,8 +39904,8 @@ const STOCK_PACKAGES = [
      "der/die Pendler/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "I pendolari prendono il treno.",
+    "definition": "Persona che ogni giorno viaggia per lavoro.",
     "page": "223-225"
    },
    {
@@ -39915,8 +39915,8 @@ const STOCK_PACKAGES = [
      "Es lohnt sich."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vale la pena visitare Venezia.",
+    "definition": "Espressione per dire che qualcosa merita.",
     "page": "223-225"
    },
    {
@@ -39926,8 +39926,8 @@ const STOCK_PACKAGES = [
      "begeistert"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sono appassionato di calcio.",
+    "definition": "Che ama molto qualcosa.",
     "usage": "agg.",
     "page": "223-225",
     "related": "E passionate"
@@ -39940,8 +39940,8 @@ const STOCK_PACKAGES = [
      "das Label"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Che marca è questo telefono?",
+    "definition": "Nome di un produttore.",
     "usage": "pl. le marche",
     "page": "223-225",
     "grammar": {
@@ -39961,8 +39961,8 @@ const STOCK_PACKAGES = [
      "die Kreativität"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ha molta creatività.",
+    "definition": "Capacità di inventare.",
     "page": "223-225",
     "related": "▸ creativo/-a; E creativity",
     "grammar": {
@@ -39982,8 +39982,8 @@ const STOCK_PACKAGES = [
      "der Trend"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il trend di quest’anno è il verde.",
+    "definition": "Tendenza del momento.",
     "page": "223-225",
     "related": "E trend",
     "grammar": {
@@ -40003,8 +40003,8 @@ const STOCK_PACKAGES = [
      "die Modenschau"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La sfilata è a Milano.",
+    "definition": "Presentazione di abiti con modelle.",
     "page": "223-225",
     "grammar": {
      "partOfSpeech": "noun",
@@ -40023,8 +40023,8 @@ const STOCK_PACKAGES = [
      "das Event"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un evento unico.",
+    "definition": "Fatto importante.",
     "page": "223-225"
    },
    {
@@ -40034,8 +40034,8 @@ const STOCK_PACKAGES = [
      "der/die Barkeeper/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il barista prepara un caffè.",
+    "definition": "Persona che prepara bevande al bar.",
     "page": "223-225"
    },
    {
@@ -40046,8 +40046,8 @@ const STOCK_PACKAGES = [
      "entwerfen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Disegno un cavallo.",
+    "definition": "Fare un disegno.",
     "page": "223-225",
     "related": "▸ il disegno; E to design; F dessiner"
    },
@@ -40058,8 +40058,8 @@ const STOCK_PACKAGES = [
      "das Porträt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il ritratto è bellissimo.",
+    "definition": "Immagine di una persona.",
     "page": "223-225",
     "grammar": {
      "partOfSpeech": "noun",
@@ -40078,8 +40078,8 @@ const STOCK_PACKAGES = [
      "der/die Banker/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mio padre è bancario.",
+    "definition": "Persona che lavora in banca.",
     "usage": "pl. i bancari, le bancarie",
     "page": "223-225",
     "grammar": {
@@ -40099,8 +40099,8 @@ const STOCK_PACKAGES = [
      "verliebt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sono innamorato di una ragazza.",
+    "definition": "Che prova amore.",
     "page": "223-225"
    },
    {
@@ -40111,8 +40111,8 @@ const STOCK_PACKAGES = [
      "finanziell"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È una crisi economica.",
+    "definition": "Che riguarda i soldi; anche a poco prezzo.",
     "usage": "pl. economici, economiche",
     "page": "223-225",
     "related": "E economic"
@@ -40125,8 +40125,8 @@ const STOCK_PACKAGES = [
      "Kreditinstitut"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vado in banca.",
+    "definition": "Istituto che custodisce i soldi.",
     "usage": "pl. le banche",
     "page": "223-225",
     "grammar": {
@@ -40147,8 +40147,8 @@ const STOCK_PACKAGES = [
      "die Investition"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un buon investimento.",
+    "definition": "Uso di soldi per guadagnare.",
     "page": "223-225"
    },
    {
@@ -40160,8 +40160,8 @@ const STOCK_PACKAGES = [
      "das"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La persona alla quale scrivo è gentile.",
+    "definition": "Pronome relativo.",
     "usage": "rel. pron.",
     "page": "223-225",
     "related": "L qualis"
@@ -40173,8 +40173,8 @@ const STOCK_PACKAGES = [
      "das Ausland"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vivo all’estero.",
+    "definition": "Paesi diversi dal proprio.",
     "page": "223-225"
    },
    {
@@ -40185,8 +40185,8 @@ const STOCK_PACKAGES = [
      "die Firma"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Lavora in una ditta.",
+    "definition": "Azienda.",
     "page": "223-225",
     "grammar": {
      "partOfSpeech": "noun",
@@ -40205,8 +40205,8 @@ const STOCK_PACKAGES = [
      "der Monat"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Luglio è un mese caldo.",
+    "definition": "Periodo di circa trenta giorni.",
     "page": "223-225",
     "related": "L mensis",
     "grammar": {
@@ -40226,8 +40226,8 @@ const STOCK_PACKAGES = [
      "die Ausstellung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Visitiamo una mostra.",
+    "definition": "Esposizione di opere.",
     "page": "223-225",
     "grammar": {
      "partOfSpeech": "noun",
@@ -40246,8 +40246,8 @@ const STOCK_PACKAGES = [
      "der Fan"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "I tifosi cantano.",
+    "definition": "Persona che sostiene una squadra.",
     "page": "223-225",
     "grammar": {
      "partOfSpeech": "noun",
@@ -40267,8 +40267,8 @@ const STOCK_PACKAGES = [
      "zu jdm/etw. halten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Tifo per l’Inter.",
+    "definition": "Sostenere una squadra.",
     "page": "223-225"
    },
    {
@@ -40278,8 +40278,8 @@ const STOCK_PACKAGES = [
      "die Ingenieurwissenschaft"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Studio ingegneria.",
+    "definition": "Studio per costruire macchine e strutture.",
     "page": "223-225"
    },
    {
@@ -40289,8 +40289,8 @@ const STOCK_PACKAGES = [
      "das Wohnheim"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vivo in residenza.",
+    "definition": "Alloggio per studenti.",
     "page": "223-225",
     "related": "E residence",
     "grammar": {
@@ -40311,8 +40311,8 @@ const STOCK_PACKAGES = [
      "technische Hochschule"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Studio al Politecnico.",
+    "definition": "Università tecnica.",
     "tags": [
      "fakultativ"
     ],
@@ -40336,8 +40336,8 @@ const STOCK_PACKAGES = [
      "die Umwelt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Dobbiamo proteggere l’ambiente.",
+    "definition": "Ciò che ci circonda.",
     "usage": "m.",
     "page": "223-225"
    },
@@ -40348,8 +40348,8 @@ const STOCK_PACKAGES = [
      "sowohl … als auch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Parlo sia italiano che inglese.",
+    "definition": "Costruzione che unisce due elementi.",
     "page": "223-225"
    },
    {
@@ -40359,8 +40359,8 @@ const STOCK_PACKAGES = [
      "kennengelernt haben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho conosciuto un ragazzo.",
+    "definition": "Aver incontrato una persona.",
     "usage": "conosco = ich kenne; ho conosciuto = ich habe kennengelernt",
     "page": "223-225"
    },
@@ -40371,8 +40371,8 @@ const STOCK_PACKAGES = [
      "international"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Frequento una scuola internazionale.",
+    "definition": "Di più nazioni.",
     "page": "223-225"
    },
    {
@@ -40383,8 +40383,8 @@ const STOCK_PACKAGES = [
      "herkommen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Provengo dalla Francia.",
+    "definition": "Venire da un luogo.",
     "usage": "Abc",
     "page": "223-225"
    },
@@ -40395,8 +40395,8 @@ const STOCK_PACKAGES = [
      "glücklich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sei fortunato!",
+    "definition": "Che ha la buona sorte dalla sua parte.",
     "usage": "essere fortunato = Glück haben",
     "page": "223-225",
     "related": "E fortunate"
@@ -40409,8 +40409,8 @@ const STOCK_PACKAGES = [
      "der Stau"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "C’è molto traffico.",
+    "definition": "Insieme dei veicoli che circolano.",
     "usage": "pl. i traffici",
     "page": "223-225",
     "related": "E traffic; F la trafic",
@@ -40432,8 +40432,8 @@ const STOCK_PACKAGES = [
      "der Roller"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Vado a scuola in scooter.",
+    "definition": "Veicolo a due ruote con motore.",
     "page": "223-225",
     "grammar": {
      "partOfSpeech": "noun",
@@ -40452,8 +40452,8 @@ const STOCK_PACKAGES = [
      "angesichts/aufgrund der Tatsache, dass"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Dato che piove, resto a casa.",
+    "definition": "Poiché.",
     "page": "223-225"
    },
    {
@@ -40463,8 +40463,8 @@ const STOCK_PACKAGES = [
      "der Kontinent"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’Europa è un continente.",
+    "definition": "Grande massa di terra.",
     "page": "223-225",
     "grammar": {
      "partOfSpeech": "noun",
@@ -40485,8 +40485,8 @@ const STOCK_PACKAGES = [
      "die Quelle"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’origine della festa è antica.",
+    "definition": "Punto di partenza.",
     "usage": "f.",
     "page": "223-225",
     "related": "E origin; L origo"
@@ -40498,8 +40498,8 @@ const STOCK_PACKAGES = [
      "das Drittel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Un terzo dei ragazzi viene in bici.",
+    "definition": "Una delle tre parti uguali.",
     "usage": "Bruchzahlen: (un) mezzo, un terzo, un quarto …",
     "page": "223-225",
     "grammar": {
@@ -40519,8 +40519,8 @@ const STOCK_PACKAGES = [
      "der/die Immatrikulierte"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Gli iscritti sono cento.",
+    "definition": "Persona registrata.",
     "page": "223-225"
    },
    {
@@ -40531,8 +40531,8 @@ const STOCK_PACKAGES = [
      "nicht zur EU gehörend"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Gli studenti extracomunitari hanno bisogno di un visto.",
+    "definition": "Che viene da un paese fuori dall’Unione Europea.",
     "page": "223-225"
    }
   ]
@@ -40561,7 +40561,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -40599,8 +40599,8 @@ const STOCK_PACKAGES = [
      "das Gesicht"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ha un volto sereno.",
+    "definition": "Faccia.",
     "page": "225-226",
     "grammar": {
      "partOfSpeech": "noun",
@@ -40620,8 +40620,8 @@ const STOCK_PACKAGES = [
      "die Oper"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il teatro lirico di Milano è la Scala.",
+    "definition": "Teatro dove si fanno le opere.",
     "page": "225-226",
     "grammar": {
      "partOfSpeech": "noun",
@@ -40640,8 +40640,8 @@ const STOCK_PACKAGES = [
      "der/die Opernsänger/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La cantante lirica ha una voce potente.",
+    "definition": "Cantante d’opera.",
     "page": "225-226"
    },
    {
@@ -40651,8 +40651,8 @@ const STOCK_PACKAGES = [
      "hier: der Auftritt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’entrata del cantante è molto attesa.",
+    "definition": "Momento in cui qualcuno compare in scena.",
     "page": "225-226"
    },
    {
@@ -40662,8 +40662,8 @@ const STOCK_PACKAGES = [
      "die Bühne"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il cantante è in scena.",
+    "definition": "Parte del teatro dove si recita.",
     "page": "225-226",
     "related": "E scene",
     "grammar": {
@@ -40683,8 +40683,8 @@ const STOCK_PACKAGES = [
      "der/die Statist/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Faccio la comparsa in un’opera.",
+    "definition": "Persona che appare in scena senza parlare.",
     "page": "225-226",
     "grammar": {
      "partOfSpeech": "noun",
@@ -40703,8 +40703,8 @@ const STOCK_PACKAGES = [
      "die Jugend(-zeit)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’adolescenza è un periodo di cambiamento.",
+    "definition": "Periodo tra infanzia ed età adulta.",
     "page": "225-226",
     "related": "E adolescence; L adulescentia"
    },
@@ -40715,8 +40715,8 @@ const STOCK_PACKAGES = [
      "das Interesse"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho interesse per la musica.",
+    "definition": "Attenzione per qualcosa.",
     "usage": "m.",
     "page": "225-226"
    },
@@ -40727,8 +40727,8 @@ const STOCK_PACKAGES = [
      "künstlerisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Frequento il liceo artistico.",
+    "definition": "Che riguarda l’arte.",
     "page": "225-226",
     "related": "E artistic"
    },
@@ -40740,8 +40740,8 @@ const STOCK_PACKAGES = [
      "das Singen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Studio canto.",
+    "definition": "Arte di produrre melodie con la voce.",
     "page": "225-226",
     "related": "▸ cantare, il/la cantante; F le chant; L cantus",
     "grammar": {
@@ -40761,8 +40761,8 @@ const STOCK_PACKAGES = [
      "die Teilnahme"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La partecipazione è gratuita.",
+    "definition": "Il prendere parte a qualcosa.",
     "page": "225-226",
     "related": "E participation",
     "grammar": {
@@ -40782,8 +40782,8 @@ const STOCK_PACKAGES = [
      "auf sich aufmerksam machen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Si fa notare per la voce.",
+    "definition": "Attirare l’attenzione.",
     "page": "225-226"
    },
    {
@@ -40794,8 +40794,8 @@ const STOCK_PACKAGES = [
      "die Zeit"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È l’epoca di internet.",
+    "definition": "Periodo storico.",
     "usage": "pl. le epoche",
     "page": "225-226"
    },
@@ -40807,8 +40807,8 @@ const STOCK_PACKAGES = [
      "zum ersten Mal öffentlich auftreten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Debutta a diciotto anni.",
+    "definition": "Esibirsi per la prima volta.",
     "page": "225-226",
     "related": "F débuter"
    },
@@ -40820,8 +40820,8 @@ const STOCK_PACKAGES = [
      "die Serie"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Una serie di concerti.",
+    "definition": "Successione di cose simili.",
     "usage": "pl. le serie",
     "page": "225-226",
     "related": "E series",
@@ -40843,8 +40843,8 @@ const STOCK_PACKAGES = [
      "das Werk"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’opera dura tre ore.",
+    "definition": "Lavoro artistico o spettacolo cantato.",
     "page": "225-226",
     "related": "E opera"
    },
@@ -40855,8 +40855,8 @@ const STOCK_PACKAGES = [
      "aufnehmen (Ton)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Incide un disco.",
+    "definition": "Registrare su disco.",
     "usage": "p.p. inciso",
     "page": "225-226"
    },
@@ -40867,8 +40867,8 @@ const STOCK_PACKAGES = [
      "die CD"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Compro un CD.",
+    "definition": "Disco con musica registrata.",
     "page": "225-226",
     "grammar": {
      "partOfSpeech": "noun",
@@ -40888,8 +40888,8 @@ const STOCK_PACKAGES = [
      "die Noten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La partitura è difficile.",
+    "definition": "Pagine con le note per l’orchestra.",
     "page": "225-226",
     "grammar": {
      "partOfSpeech": "noun",
@@ -40908,8 +40908,8 @@ const STOCK_PACKAGES = [
      "die Aufnahme"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La registrazione è chiara.",
+    "definition": "Raccolta di suoni o immagini.",
     "page": "225-226",
     "grammar": {
      "partOfSpeech": "noun",
@@ -40928,8 +40928,8 @@ const STOCK_PACKAGES = [
      "verheiratet"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Mio fratello è sposato.",
+    "definition": "Che ha un marito o una moglie.",
     "page": "225-226"
    },
    {
@@ -40939,8 +40939,8 @@ const STOCK_PACKAGES = [
      "außer jdm/etw."
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Oltre a te, viene anche Marco.",
+    "definition": "In aggiunta a.",
     "page": "225-226"
    },
    {
@@ -40951,8 +40951,8 @@ const STOCK_PACKAGES = [
      "die Stiftung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La fondazione aiuta i giovani.",
+    "definition": "Atto di creare un’organizzazione.",
     "page": "225-226",
     "related": "▸ fondare; E foundation",
     "grammar": {
@@ -40973,8 +40973,8 @@ const STOCK_PACKAGES = [
      "befördern"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Promuove la musica.",
+    "definition": "Sostenere e diffondere.",
     "usage": "p.p. promosso",
     "page": "225-226"
    },
@@ -40985,8 +40985,8 @@ const STOCK_PACKAGES = [
      "die Spitzenklasse"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questo ristorante è un’eccellenza.",
+    "definition": "Qualità molto alta.",
     "page": "225-226",
     "related": "E excellence"
    },
@@ -40997,8 +40997,8 @@ const STOCK_PACKAGES = [
      "die Architektur"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Studio architettura.",
+    "definition": "Arte di progettare edifici.",
     "page": "225-226"
    },
    {
@@ -41008,8 +41008,8 @@ const STOCK_PACKAGES = [
      "zeitgenössisch"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È arte contemporanea.",
+    "definition": "Del nostro tempo.",
     "page": "225-226",
     "related": "E contemporary"
    },
@@ -41020,8 +41020,8 @@ const STOCK_PACKAGES = [
      "der/die Bauunternehmer/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il costruttore fa una casa.",
+    "definition": "Persona che costruisce edifici.",
     "page": "225-226",
     "grammar": {
      "partOfSpeech": "noun",
@@ -41040,8 +41040,8 @@ const STOCK_PACKAGES = [
      "gezeichnet"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Un’infanzia segnata dalla guerra.",
+    "definition": "Con un segno.",
     "page": "225-226"
    },
    {
@@ -41051,8 +41051,8 @@ const STOCK_PACKAGES = [
      "die Kindheit"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho ricordi belli dell’infanzia.",
+    "definition": "Periodo della vita da bambino.",
     "page": "225-226"
    },
    {
@@ -41063,8 +41063,8 @@ const STOCK_PACKAGES = [
      "unterrichten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Insegno italiano.",
+    "definition": "Trasmettere conoscenze.",
     "page": "225-226"
    },
    {
@@ -41074,8 +41074,8 @@ const STOCK_PACKAGES = [
      "hier: Ingenieurbüro"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Lo studio dell’ingegnere è in centro.",
+    "definition": "Ufficio di un professionista.",
     "page": "225-226",
     "grammar": {
      "partOfSpeech": "noun",
@@ -41095,8 +41095,8 @@ const STOCK_PACKAGES = [
      "die Berühmtheit"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ha raggiunto la notorietà.",
+    "definition": "Il fatto di essere conosciuto.",
     "page": "225-226",
     "grammar": {
      "partOfSpeech": "noun",
@@ -41116,8 +41116,8 @@ const STOCK_PACKAGES = [
      "planen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Progetto una casa.",
+    "definition": "Pianificare la costruzione di qualcosa.",
     "page": "225-226",
     "related": "▸ il progetto; E to project"
    },
@@ -41129,8 +41129,8 @@ const STOCK_PACKAGES = [
      "bahnbrechend"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "È un edificio avanguardistico.",
+    "definition": "Molto moderno, innovativo.",
     "page": "225-226"
    },
    {
@@ -41140,8 +41140,8 @@ const STOCK_PACKAGES = [
      "der Weltruhm"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ha fama mondiale.",
+    "definition": "Notorietà in tutto il mondo.",
     "page": "225-226",
     "grammar": {
      "partOfSpeech": "noun",
@@ -41161,8 +41161,8 @@ const STOCK_PACKAGES = [
      "der Wolkenkratzer"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "A New York ci sono tanti grattacieli.",
+    "definition": "Edificio molto alto.",
     "page": "225-226",
     "grammar": {
      "partOfSpeech": "noun",
@@ -41181,8 +41181,8 @@ const STOCK_PACKAGES = [
      "ernennen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Lo nominano presidente.",
+    "definition": "Scegliere qualcuno per una carica.",
     "page": "225-226",
     "related": "L nominare"
    },
@@ -41195,8 +41195,8 @@ const STOCK_PACKAGES = [
      "das Arbeitsentgelt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Lo stipendio arriva a fine mese.",
+    "definition": "Soldi che si ricevono ogni mese.",
     "usage": "pl. gli stipendi",
     "page": "225-226",
     "grammar": {
@@ -41216,8 +41216,8 @@ const STOCK_PACKAGES = [
      "finanzieren"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Finanzio un progetto.",
+    "definition": "Dare soldi per un progetto.",
     "page": "225-226",
     "related": "E to finance"
    },
@@ -41230,8 +41230,8 @@ const STOCK_PACKAGES = [
      "die Vorstadt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Abito in periferia.",
+    "definition": "Zona lontana dal centro di una città.",
     "page": "225-226",
     "grammar": {
      "partOfSpeech": "noun",
@@ -41250,8 +41250,8 @@ const STOCK_PACKAGES = [
      "die Erfahrung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ho molta esperienza.",
+    "definition": "Conoscenza che nasce dalla pratica.",
     "page": "225-226",
     "related": "E experience"
    },
@@ -41262,8 +41262,8 @@ const STOCK_PACKAGES = [
      "zur Verfügung stellen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Metto a disposizione la mia casa.",
+    "definition": "Offrire.",
     "page": "225-226"
    }
   ]
@@ -41293,7 +41293,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -41332,8 +41332,8 @@ const STOCK_PACKAGES = [
      "das Industriedreieck (Mailand-Genua-Turin)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il triangolo industriale è molto produttivo.",
+    "definition": "Zona del nord Italia con molte industrie.",
     "page": "222-223",
     "related": "E triangle",
     "grammar": {
@@ -41353,8 +41353,8 @@ const STOCK_PACKAGES = [
      "die Konzentration"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "C’è una grande concentrazione di fabbriche.",
+    "definition": "Raggruppamento di molte cose in un luogo; attenzione.",
     "page": "222-223",
     "grammar": {
      "partOfSpeech": "noun",
@@ -41373,8 +41373,8 @@ const STOCK_PACKAGES = [
      "die Dienstleistung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il servizio al ristorante è ottimo.",
+    "definition": "Attività che si fa per gli altri.",
     "usage": "pl. i servizi",
     "page": "222-223",
     "related": "▸ servire",
@@ -41397,8 +41397,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "l’auto"
     ],
-    "example": "",
-    "definition": "",
+    "example": "L’automobile è nuova.",
+    "definition": "Veicolo con quattro ruote.",
     "usage": "f.",
     "page": "222-223"
    },
@@ -41410,8 +41410,8 @@ const STOCK_PACKAGES = [
      "Aktien"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La borsa di Milano è importante.",
+    "definition": "Mercato dove si vendono azioni.",
     "page": "222-223",
     "grammar": {
      "partOfSpeech": "noun",
@@ -41430,8 +41430,8 @@ const STOCK_PACKAGES = [
      "der Norden"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il settentrione è ricco di industrie.",
+    "definition": "La parte nord di un paese.",
     "page": "222-223",
     "grammar": {
      "partOfSpeech": "noun",
@@ -41450,8 +41450,8 @@ const STOCK_PACKAGES = [
      "etwa zehn"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ci sono una decina di persone.",
+    "definition": "Gruppo di dieci.",
     "usage": "il centinaio = etwa hundert, pl. le centinaia; il migliaio = etwa tausend, pl. le migliaia",
     "page": "222-223",
     "grammar": {
@@ -41472,8 +41472,8 @@ const STOCK_PACKAGES = [
      "das Flachland"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La pianura è fertile.",
+    "definition": "Grande zona piatta.",
     "page": "222-223",
     "grammar": {
      "partOfSpeech": "noun",
@@ -41493,8 +41493,8 @@ const STOCK_PACKAGES = [
      "der Ackerbau"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’agricoltura è importante.",
+    "definition": "Coltivazione della terra.",
     "page": "222-223",
     "related": "E agriculture"
    },
@@ -41506,8 +41506,8 @@ const STOCK_PACKAGES = [
      "die Tierzucht"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’allevamento dei maiali è diffuso.",
+    "definition": "Attività di crescere animali.",
     "page": "222-223"
    },
    {
@@ -41519,8 +41519,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "fornire"
     ],
-    "example": "",
-    "definition": "",
+    "example": "La fabbrica fornisce i materiali.",
+    "definition": "Dare, procurare.",
     "usage": "Abc",
     "page": "222-223"
    },
@@ -41532,8 +41532,8 @@ const STOCK_PACKAGES = [
      "strömen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il fiume scorre lento.",
+    "definition": "Muoversi come un liquido.",
     "usage": "p.p. scorso",
     "page": "222-223"
    },
@@ -41544,8 +41544,8 @@ const STOCK_PACKAGES = [
      "der See"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "I laghi del nord sono belli.",
+    "definition": "Grande massa d’acqua circondata da terra.",
     "usage": "pl. i laghi",
     "page": "222-223",
     "related": "E lake",
@@ -41566,8 +41566,8 @@ const STOCK_PACKAGES = [
      "der Apennin (Gebirge)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’Appennino divide l’Italia in due.",
+    "definition": "Catena montuosa che attraversa l’Italia.",
     "page": "222-223"
    },
    {
@@ -41577,8 +41577,8 @@ const STOCK_PACKAGES = [
      "nördlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Milano è una città settentrionale.",
+    "definition": "Del nord.",
     "page": "222-223",
     "related": "= a nord"
    },
@@ -41590,8 +41590,8 @@ const STOCK_PACKAGES = [
      "der Zugang"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’accesso al museo è gratuito.",
+    "definition": "Possibilità di entrare.",
     "page": "222-223",
     "related": "E access"
    },
@@ -41605,8 +41605,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "trarre, tratto"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Traggo vantaggio dallo studio.",
+    "definition": "Prendere, ricavare.",
     "usage": "p.p. tratto",
     "page": "222-223",
     "related": "L trahere"
@@ -41619,8 +41619,8 @@ const STOCK_PACKAGES = [
      "der Profit"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’azienda ha un buon profitto.",
+    "definition": "Guadagno economico.",
     "page": "222-223",
     "related": "E profit",
     "grammar": {
@@ -41642,8 +41642,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "il turismo"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Il turismo balneare è importante.",
+    "definition": "Viaggi per piacere, sulle spiagge.",
     "page": "222-223",
     "related": "▸ il/la turista; E tourism",
     "grammar": {
@@ -41665,8 +41665,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "attrarre, attratto"
     ],
-    "example": "",
-    "definition": "",
+    "example": "La città attrae molti turisti.",
+    "definition": "Tirare a sé, attirare.",
     "usage": "p.p. attratto",
     "page": "222-223",
     "related": "E to attract"
@@ -41678,8 +41678,8 @@ const STOCK_PACKAGES = [
      "die Landschaft"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "I paesaggi italiani sono stupendi.",
+    "definition": "Aspetto di un territorio.",
     "usage": "pl. i paesaggi",
     "page": "222-223",
     "related": "F le paysage",
@@ -41700,8 +41700,8 @@ const STOCK_PACKAGES = [
      "der Abschnitt"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Questo tratto di strada è lungo.",
+    "definition": "Parte di un percorso.",
     "page": "222-223",
     "related": "F le trait",
     "grammar": {
@@ -41721,8 +41721,8 @@ const STOCK_PACKAGES = [
      "der Hügel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La casa è sulla collina.",
+    "definition": "Piccola altura.",
     "page": "222-223",
     "related": "L collis",
     "grammar": {
@@ -41742,8 +41742,8 @@ const STOCK_PACKAGES = [
      "die Gebirgskette"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Le Alpi sono una catena montuosa.",
+    "definition": "Serie di montagne collegate.",
     "page": "222-223",
     "grammar": {
      "partOfSpeech": "noun",
@@ -41762,8 +41762,8 @@ const STOCK_PACKAGES = [
      "der Süden"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il Mezzogiorno è molto caldo.",
+    "definition": "La parte sud di un paese.",
     "page": "222-223",
     "related": "≠ settentrione"
    },
@@ -41774,8 +41774,8 @@ const STOCK_PACKAGES = [
      "einbeziehen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il prezzo include la colazione.",
+    "definition": "Comprendere, contenere.",
     "usage": "p.p. incluso",
     "page": "222-223",
     "related": "E to include; L includere"
@@ -41787,8 +41787,8 @@ const STOCK_PACKAGES = [
      "südlich"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La cucina meridionale è saporita.",
+    "definition": "Del sud.",
     "page": "222-223"
    },
    {
@@ -41799,8 +41799,8 @@ const STOCK_PACKAGES = [
      "besondere/-s"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ha una caratteristica particolare.",
+    "definition": "Speciale.",
     "page": "222-223",
     "related": "E particular"
    },
@@ -41812,8 +41812,8 @@ const STOCK_PACKAGES = [
      "die Bedeutung"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’importanza della salute è grande.",
+    "definition": "Valore o peso di qualcosa.",
     "page": "222-223",
     "related": "▸ importante; E importance"
    },
@@ -41824,8 +41824,8 @@ const STOCK_PACKAGES = [
      "die Fischerei"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La pesca è un’attività del Sud.",
+    "definition": "Mestiere di chi prende i pesci.",
     "page": "222-223",
     "grammar": {
      "partOfSpeech": "noun",
@@ -41844,8 +41844,8 @@ const STOCK_PACKAGES = [
      "der Verdienst"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il guadagno è buono.",
+    "definition": "Quanto si riceve per un lavoro.",
     "page": "222-223",
     "related": "▸ guadagnare",
     "grammar": {
@@ -41865,8 +41865,8 @@ const STOCK_PACKAGES = [
      "der Vulkan"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’Etna è un vulcano.",
+    "definition": "Montagna da cui esce la lava.",
     "page": "222-223",
     "related": "E volcano",
     "grammar": {
@@ -41886,8 +41886,8 @@ const STOCK_PACKAGES = [
      "die Arbeitslosigkeit"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La disoccupazione è alta.",
+    "definition": "Mancanza di lavoro.",
     "page": "222-223",
     "related": "E disoccupation",
     "grammar": {
@@ -41907,8 +41907,8 @@ const STOCK_PACKAGES = [
      "die Kriminalität"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La criminalità è un problema.",
+    "definition": "Presenza di reati.",
     "page": "222-223",
     "grammar": {
      "partOfSpeech": "noun",
@@ -41927,8 +41927,8 @@ const STOCK_PACKAGES = [
      "ursprünglich aus"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Sono originario di Bari.",
+    "definition": "Che viene da un luogo.",
     "page": "222-223",
     "related": "▸ l’origine"
    }
@@ -41958,7 +41958,7 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-   "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
    "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
   ],
   "cover": "wave",
@@ -41996,8 +41996,8 @@ const STOCK_PACKAGES = [
      "der/die Schauspieler/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’attrice è molto brava.",
+    "definition": "Persona che recita in un film o a teatro.",
     "page": "227-228"
    },
    {
@@ -42007,8 +42007,8 @@ const STOCK_PACKAGES = [
      "der/die Rocksänger/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il cantante rock urla sul palco.",
+    "definition": "Cantante di musica rock.",
     "page": "227-228"
    },
    {
@@ -42018,8 +42018,8 @@ const STOCK_PACKAGES = [
      "der/die Hip-Hop-Sänger/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il cantante hip hop fa rap.",
+    "definition": "Cantante di musica hip hop.",
     "page": "227-228"
    },
    {
@@ -42029,8 +42029,8 @@ const STOCK_PACKAGES = [
      "der/die Pop-Sänger/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La cantante pop è famosa.",
+    "definition": "Cantante di musica leggera.",
     "page": "227-228"
    },
    {
@@ -42040,8 +42040,8 @@ const STOCK_PACKAGES = [
      "Opernsänger"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La cantante lirica ha una voce potente.",
+    "definition": "Cantante d’opera.",
     "page": "227-228"
    },
    {
@@ -42051,8 +42051,8 @@ const STOCK_PACKAGES = [
      "der/die Unternehmer/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’imprenditore ha cento dipendenti.",
+    "definition": "Persona che gestisce una ditta.",
     "page": "227-228"
    },
    {
@@ -42062,8 +42062,8 @@ const STOCK_PACKAGES = [
      "der/die Gründer/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il fondatore dell’azienda è anziano.",
+    "definition": "Persona che ha creato qualcosa.",
     "page": "227-228"
    },
    {
@@ -42073,8 +42073,8 @@ const STOCK_PACKAGES = [
      "der Fußballer"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il calciatore segna un gol.",
+    "definition": "Giocatore di calcio.",
     "page": "227-228",
     "grammar": {
      "partOfSpeech": "noun",
@@ -42093,8 +42093,8 @@ const STOCK_PACKAGES = [
      "der Torwart"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il portiere para il rigore.",
+    "definition": "Giocatore che difende la porta.",
     "page": "227-228",
     "grammar": {
      "partOfSpeech": "noun",
@@ -42113,8 +42113,8 @@ const STOCK_PACKAGES = [
      "der/die Künstler/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’artista dipinge un quadro.",
+    "definition": "Persona che crea opere d’arte.",
     "usage": "m./f.",
     "page": "227-228"
    },
@@ -42125,8 +42125,8 @@ const STOCK_PACKAGES = [
      "der/die Designer/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La stilista presenta la collezione.",
+    "definition": "Persona che disegna vestiti.",
     "page": "227-228"
    },
    {
@@ -42136,8 +42136,8 @@ const STOCK_PACKAGES = [
      "der/die Regisseur/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il regista gira un film.",
+    "definition": "Persona che dirige un film.",
     "page": "227-228"
    },
    {
@@ -42147,8 +42147,8 @@ const STOCK_PACKAGES = [
      "der/die Musiker/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La musicista suona il violino.",
+    "definition": "Persona che suona.",
     "page": "227-228"
    },
    {
@@ -42158,8 +42158,8 @@ const STOCK_PACKAGES = [
      "der/die Entertainer/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "L’intrattenitore fa ridere tutti.",
+    "definition": "Persona che diverte il pubblico.",
     "page": "227-228"
    },
    {
@@ -42169,8 +42169,8 @@ const STOCK_PACKAGES = [
      "der/die Moderator/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La moderatrice presenta gli ospiti.",
+    "definition": "Persona che guida un dibattito.",
     "page": "227-228"
    },
    {
@@ -42180,8 +42180,8 @@ const STOCK_PACKAGES = [
      "der/die Sportler/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Lo sportivo si allena ogni giorno.",
+    "definition": "Persona che pratica sport.",
     "page": "227-228"
    },
    {
@@ -42191,8 +42191,8 @@ const STOCK_PACKAGES = [
      "der/die Wissenschaftler/in"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La scienziata fa esperimenti.",
+    "definition": "Persona che fa ricerca scientifica.",
     "page": "227-228"
    },
    {
@@ -42202,8 +42202,8 @@ const STOCK_PACKAGES = [
      "gründen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Romolo fondò Roma.",
+    "definition": "Creare una città o un’organizzazione.",
     "page": "227-228",
     "related": "E to found; F fonder"
    },
@@ -42214,8 +42214,8 @@ const STOCK_PACKAGES = [
      "auftreten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il cantante entra in scena.",
+    "definition": "Comparire sul palco.",
     "page": "227-228"
    },
    {
@@ -42225,8 +42225,8 @@ const STOCK_PACKAGES = [
      "spielen (Film)"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Recita in un film.",
+    "definition": "Interpretare un personaggio.",
     "page": "227-228"
    },
    {
@@ -42236,8 +42236,8 @@ const STOCK_PACKAGES = [
      "ein Konzert geben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Dà un concerto in piazza.",
+    "definition": "Esibirsi in pubblico con la musica.",
     "page": "227-228"
    },
    {
@@ -42247,8 +42247,8 @@ const STOCK_PACKAGES = [
      "zeichnen"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Disegno un cavallo.",
+    "definition": "Fare un disegno.",
     "page": "227-228",
     "related": "▸ il disegno; E to design; F dessiner"
    },
@@ -42259,8 +42259,8 @@ const STOCK_PACKAGES = [
      "entdecken"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Scopro un nuovo cantante.",
+    "definition": "Trovare qualcosa di nuovo.",
     "page": "227-228"
    },
    {
@@ -42270,8 +42270,8 @@ const STOCK_PACKAGES = [
      "im Fernsehen auftreten"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Appare in televisione ogni sera.",
+    "definition": "Comparire in TV.",
     "page": "227-228"
    },
    {
@@ -42281,8 +42281,8 @@ const STOCK_PACKAGES = [
      "eine eigene Sendung haben"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Ha una propria trasmissione.",
+    "definition": "Condurre un programma tutto suo.",
     "page": "227-228"
    },
    {
@@ -42292,8 +42292,8 @@ const STOCK_PACKAGES = [
      "die Mehrheit"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "La maggioranza vota sì.",
+    "definition": "La parte più grande.",
     "page": "227-228",
     "grammar": {
      "partOfSpeech": "noun",
@@ -42312,8 +42312,8 @@ const STOCK_PACKAGES = [
      "die Minderheit"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Una minoranza dice no.",
+    "definition": "La parte più piccola.",
     "page": "227-228",
     "grammar": {
      "partOfSpeech": "noun",
@@ -42332,8 +42332,8 @@ const STOCK_PACKAGES = [
      "die Hälfte"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Metà della classe è assente.",
+    "definition": "Una delle due parti uguali.",
     "page": "227-228",
     "grammar": {
      "partOfSpeech": "noun",
@@ -42352,8 +42352,8 @@ const STOCK_PACKAGES = [
      "ein Drittel"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Un terzo della classe è assente.",
+    "definition": "Una parte su tre.",
     "page": "227-228"
    },
    {
@@ -42363,8 +42363,8 @@ const STOCK_PACKAGES = [
      "die Grafik"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il grafico mostra i risultati.",
+    "definition": "Disegno che mostra dati.",
     "page": "227-228",
     "grammar": {
      "partOfSpeech": "noun",
@@ -42383,8 +42383,8 @@ const STOCK_PACKAGES = [
      "die Umfrage"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il sondaggio è sui giovani.",
+    "definition": "Indagine fatta con domande a molte persone.",
     "page": "227-228",
     "grammar": {
      "partOfSpeech": "noun",
@@ -42405,8 +42405,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [
      "il diagramma"
     ],
-    "example": "",
-    "definition": "",
+    "example": "Il diagramma a torta è chiaro.",
+    "definition": "Grafico circolare diviso in spicchi.",
     "page": "227-228",
     "grammar": {
      "partOfSpeech": "noun",
@@ -42425,8 +42425,8 @@ const STOCK_PACKAGES = [
      "die Grafik veranschaulicht, dass …"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Il grafico mostra che molti usano il telefono.",
+    "definition": "Frase per introdurre i dati di un grafico.",
     "page": "227-228"
    },
    {
@@ -42436,8 +42436,8 @@ const STOCK_PACKAGES = [
      "Fast zwei Drittel glauben, dass …"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Circa due terzi credono che sia giusto.",
+    "definition": "Frase con una percentuale approssimata.",
     "page": "227-228"
    },
    {
@@ -42447,8 +42447,8 @@ const STOCK_PACKAGES = [
      "Die gefragtesten Berufe sind laut Grafik …"
     ],
     "acceptedAnswers": [],
-    "example": "",
-    "definition": "",
+    "example": "Le professioni più ricercate sono l’ingegnere e il medico.",
+    "definition": "Frase per descrivere i dati sui lavori.",
     "page": "227-228"
    }
   ]

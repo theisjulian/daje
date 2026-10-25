@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,8 @@
     "der Engel"
    ],
    "page": "187-188",
+   "definition": "Essere con le ali nelle storie religiose.",
+   "example": "Un angelo veglia su di te.",
    "related": "E angel; F l’ange"
   },
   {
@@ -45,6 +47,7 @@
     "verrückt"
    ],
    "page": "187-188",
+   "definition": "Incredibile, fuori dal normale.",
    "example": "Ho una novità pazzesca!",
    "usage": "pl. pazzeschi/-che"
   },
@@ -55,6 +58,7 @@
     "der Anfang"
    ],
    "page": "187-188",
+   "definition": "Il momento in cui comincia qualcosa.",
    "example": "Partiamo dall’inizio.",
    "related": "≠ la fine; L initium",
    "usage": "pl. gli inizi"
@@ -66,6 +70,8 @@
     "gestern"
    ],
    "page": "187-188",
+   "definition": "Il giorno prima di oggi.",
+   "example": "Ieri ho visto un film.",
    "related": "≠ domani; F hier; L heri",
    "usage": "avv."
   },
@@ -76,6 +82,7 @@
     "der/die Verwandte"
    ],
    "page": "187-188",
+   "definition": "Persona della stessa famiglia.",
    "example": "Unterscheide: it. i parenti – die Verwandten; engl. parents – die Eltern",
    "usage": "pl. i parenti",
    "grammar": {
@@ -95,6 +102,7 @@
     "einladen"
    ],
    "page": "187-188",
+   "definition": "Chiedere a qualcuno di venire a una festa.",
    "example": "Alla festa invito gli amici.",
    "related": "E invite; F inviter"
   },
@@ -108,6 +116,7 @@
     "den"
    ],
    "page": "187-188",
+   "definition": "Piccola parola che introduce una frase.",
    "example": "La nonna, che ha 82 anni, ha ballato.",
    "related": "F qui/-e",
    "usage": "pron. rel. Das Wort che hat verschiedene Verwendungen: Che lingue parli? – Welche Sprachen sprichst du? / Che buono! – Wie lecker! / Che fortuna! – Was für ein Glück! / Che cosa ti piace? – Was gefällt dir? / Sappiamo che è così. – Wir wissen, dass es so ist. / Che ore sono? – Wieviel Uhr ist es? / Il ragazzo che vedi è Khalid. – Der Junge, den du siehst, ist Khalid."
@@ -120,6 +129,7 @@
     "meistens"
    ],
    "page": "187-188",
+   "definition": "Quasi sempre, in genere.",
    "example": "Mia cugina di solito è simpatica.",
    "usage": "avv."
   },
@@ -131,6 +141,8 @@
     "hier: nerven"
    ],
    "page": "187-188",
+   "definition": "Fare in pezzi un oggetto.",
+   "example": "Ho rotto un bicchiere.",
    "related": "L rumpere",
    "usage": "p.p. rotto"
   },
@@ -142,6 +154,7 @@
     "aufrechterhalten"
    ],
    "page": "187-188",
+   "definition": "Conservare qualcosa nel tempo.",
    "example": "Puoi mantenere un segreto?",
    "related": "E to maintain; ▸ tenere",
    "acceptedAnswers": [
@@ -156,6 +169,8 @@
     "das Geheimnis"
    ],
    "page": "187-188",
+   "definition": "Cosa che non si deve dire a nessuno.",
+   "example": "Non dirlo a nessuno: è un segreto!",
    "related": "E secret; F le secret",
    "grammar": {
     "partOfSpeech": "noun",
@@ -174,6 +189,8 @@
     "halten"
    ],
    "page": "187-188",
+   "definition": "Stringere o conservare qualcosa.",
+   "example": "Tengo il libro in mano.",
    "related": "F tenir; L tenere",
    "acceptedAnswers": [
     "tenere"
@@ -188,6 +205,7 @@
     "der Vortrag"
    ],
    "page": "187-188",
+   "definition": "Parole che una persona dice a un pubblico.",
    "example": "Mio zio ha tenuto un discorso.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -207,6 +225,8 @@
     "Dame"
    ],
    "page": "187-188",
+   "definition": "Persona adulta di sesso femminile.",
+   "example": "La donna aspetta l’autobus.",
    "related": "L domina",
    "grammar": {
     "partOfSpeech": "noun",
@@ -225,6 +245,8 @@
     "lebhaft"
    ],
    "page": "187-188",
+   "definition": "Pieno di energia.",
+   "example": "Il bambino è molto vivace.",
    "related": "▸ la vita"
   },
   {
@@ -234,6 +256,7 @@
     "für sein/ihr Alter"
    ],
    "page": "187-188",
+   "definition": "Considerata l’età di una persona.",
    "example": "Mia nonna è molto vivace alla sua età."
   },
   {
@@ -243,6 +266,8 @@
     "ehrlich"
    ],
    "page": "187-188",
+   "definition": "Che dice la verità.",
+   "example": "Sii sincero con me.",
    "related": "E sincere; F sincère"
   },
   {
@@ -252,6 +277,8 @@
     "erfahren haben"
    ],
    "page": "187-188",
+   "definition": "Aver ricevuto una notizia.",
+   "example": "Ho saputo che sei in Italia.",
    "usage": "Abc: so – ich weiß; ho saputo – ich habe erfahren"
   },
   {
@@ -261,6 +288,7 @@
     "das/die Schaufenster(scheibe)"
    ],
    "page": "187-188",
+   "definition": "Grande vetro di un negozio.",
    "example": "Papà ha rotto una vetrina con il pallone.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -279,6 +307,8 @@
     "der Abend (Verlauf)"
    ],
    "page": "187-188",
+   "definition": "L’intero periodo che va dal tramonto alla notte.",
+   "example": "Abbiamo passato una bella serata.",
    "related": "▸ la sera; F la soirée",
    "usage": "Unterscheide: 1. den Abend in seinem Verlauf: Abbiamo passato una bella serata al ristorante. – Wir haben einen schönen Abend im Restaurant verbracht. 2. den Abend als Zeitangabe: Domani sera andiamo al ristorante. – Morgen Abend gehen wir ins Restaurant.",
    "grammar": {
@@ -298,6 +328,7 @@
     "das Abendessen"
    ],
    "page": "187-188",
+   "definition": "Pasto della sera.",
    "example": "Stasera mio padre prepara la cena.",
    "related": "L cena",
    "grammar": {
@@ -317,6 +348,7 @@
     "der Kellner"
    ],
    "page": "187-188",
+   "definition": "Persona che serve ai tavoli di un ristorante.",
    "example": "Il cameriere del ristorante porta la cena.",
    "usage": "f. la cameriera",
    "grammar": {
@@ -336,6 +368,7 @@
     "der/die Nachbar/-in"
    ],
    "page": "187-188",
+   "definition": "Persona che abita nella casa accanto.",
    "example": "Il mio vicino ha un cane.",
    "related": "▸ vicino a; L vicinus",
    "usage": "f. la vicina",
@@ -356,6 +389,7 @@
     "schüchtern"
    ],
    "page": "187-188",
+   "definition": "Che si imbarazza con le altre persone.",
    "example": "Il ragazzo parla poco – è timido.",
    "related": "E timid"
   },
@@ -367,6 +401,7 @@
     "einen schlechten Eindruck machen"
    ],
    "page": "187-188",
+   "definition": "Fare una brutta impressione davanti agli altri.",
    "example": "Ho fatto una figuraccia davanti a tutti.",
    "usage": "Abc"
   },
@@ -377,6 +412,7 @@
     "öffnen"
    ],
    "page": "187-188",
+   "definition": "Rendere accessibile qualcosa.",
    "example": "Il cameriere apre la bottiglia.",
    "related": "▸ aperto/-a; L aperire",
    "usage": "p.p. aperto"
@@ -388,6 +424,7 @@
     "die Flasche"
    ],
    "page": "187-188",
+   "definition": "Contenitore di vetro per i liquidi.",
    "example": "Il cameriere apre la bottiglia.",
    "related": "E bottle; F la bouteille",
    "grammar": {
@@ -408,6 +445,7 @@
     "hier: nass spritzen"
    ],
    "page": "187-188",
+   "definition": "Pulire con l’acqua.",
    "example": "Lavo le mani prima di mangiare.",
    "related": "F laver; L lavare"
   },
@@ -418,6 +456,7 @@
     "arm"
    ],
    "page": "187-188",
+   "definition": "Che ha pochi soldi.",
    "example": "Il povero cane è bagnato.",
    "related": "E poor; F pauvre; L pauper/-eris"
   },
@@ -428,6 +467,7 @@
     "plötzlich"
    ],
    "page": "187-188",
+   "definition": "All’improvviso, senza avvisare.",
    "example": "Improvvisamente la porta si apre.",
    "usage": "avv."
   },
@@ -438,6 +478,7 @@
     "Herzlichen Glückwunsch!"
    ],
    "page": "187-188",
+   "definition": "Frase per festeggiare una persona.",
    "example": "Tanti auguri, nonna!"
   },
   {
@@ -447,6 +488,7 @@
     "Alles Gute zum Geburtstag!"
    ],
    "page": "187-188",
+   "definition": "Frase per augurare un bel compleanno.",
    "example": "Buon compleanno, Anna!"
   },
   {
@@ -456,6 +498,8 @@
     "wiedererkennen"
    ],
    "page": "187-188",
+   "definition": "Capire chi è una persona che già si conosce.",
+   "example": "Ti riconosco dalla voce.",
    "related": "▸ conoscere; F reconnaître"
   },
   {
@@ -465,6 +509,7 @@
     "viel"
    ],
    "page": "187-188",
+   "definition": "In grande quantità.",
    "example": "Ho tanti amici.",
    "related": "≠ poco/-a; L tantus"
   },
@@ -475,6 +520,7 @@
     "vor (zeitlich)"
    ],
    "page": "187-188",
+   "definition": "Parola che indica un tempo già passato.",
    "example": "L’autobus è partito cinque minuti fa.",
    "usage": "prep. (nachgestellt). Unterscheide: due anni fa – vor zwei Jahren; Anna fa i compiti. – Anna macht Hausaufgaben."
   },
@@ -485,6 +531,7 @@
     "der Zwilling"
    ],
    "page": "187-188",
+   "definition": "Fratello nato lo stesso giorno.",
    "example": "Anna ha due fratelli gemelli.",
    "related": "F les jumeaux; L gemelli",
    "usage": "pl. i gemelli",
@@ -506,6 +553,7 @@
     "gleich"
    ],
    "page": "187-188",
+   "definition": "Identico, senza differenza.",
    "example": "Frank è uguale a Matthias. Sono come gemelli.",
    "usage": "agg."
   },
@@ -517,6 +565,7 @@
     "die Art"
    ],
    "page": "187-188",
+   "definition": "Persona o categoria di cose.",
    "example": "Il calcio è un tipo di sport.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -536,6 +585,7 @@
     "witzig"
    ],
    "page": "187-188",
+   "definition": "Che fa ridere con le parole.",
    "example": "Mio zio è molto divertente e spiritoso."
   },
   {
@@ -545,6 +595,8 @@
     "Deutschland"
    ],
    "page": "187-188",
+   "definition": "Paese europeo con capitale Berlino.",
+   "example": "La Germania è a nord dell’Italia.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -562,6 +614,7 @@
     "schwierig"
    ],
    "page": "187-188",
+   "definition": "Che richiede molta fatica.",
    "example": "Il compito di latino è difficile.",
    "related": "≠ facile; L difficilis/-e",
    "usage": "Unterscheide: Il compito è facile. – Die Aufgabe ist einfach/leicht (vgl. engl. easy). Il compito è difficile. – Die Aufgabe ist schwierig/schwer (vgl. engl. difficult). La borsa è leggera. – Die Tasche ist leicht (Gewicht; vgl. engl. light). La borsa è pesante. – Die Tasche ist schwer (Gewicht; vgl. engl. heavy)."
@@ -572,7 +625,9 @@
    "translations": [
     "Italien"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "definition": "Paese europeo con forma di stivale.",
+   "example": "L’Italia si affaccia sul Mediterraneo."
   },
   {
    "id": "u5-5a-043",
@@ -582,6 +637,7 @@
     "gut verstehen"
    ],
    "page": "187-188",
+   "definition": "Avere buoni rapporti con qualcuno.",
    "example": "Io e mia sorella andiamo d’accordo.",
    "related": "F être d’accord",
    "usage": "Abc"
@@ -593,6 +649,7 @@
     "das Profil"
    ],
    "page": "187-188",
+   "definition": "Scheda con le informazioni su una persona.",
    "example": "Quasi tutti hanno un profilo in Internet.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -612,6 +669,7 @@
     "Herzliche Grüße (Brief)"
    ],
    "page": "187-188",
+   "definition": "Gesto di stringere qualcuno tra le braccia.",
    "example": "Un abbraccio dalla tua amica!",
    "related": "E embrace",
    "usage": "pl. gli abbracci. Un abbraccio"
@@ -623,6 +681,7 @@
     "Bis bald!"
    ],
    "page": "187-188",
+   "definition": "Saluto che dice: ci vediamo molto presto.",
    "example": "A presto, ragazzi!"
   },
   {
@@ -632,6 +691,7 @@
     "der Gruß"
    ],
    "page": "187-188",
+   "definition": "Parola o gesto per dire “ciao”.",
    "example": "Tanti saluti a tutti!",
    "related": "F le salut; L salut",
    "grammar": {
@@ -652,6 +712,7 @@
     "Tipp"
    ],
    "page": "187-188",
+   "definition": "Suggerimento per aiutare qualcuno.",
    "example": "Hai un consiglio per me?",
    "related": "F le conseil; L consilium",
    "usage": "pl. i consigli",
@@ -671,7 +732,9 @@
    "translations": [
     "Rom (die Hauptstadt von Italien)"
    ],
-   "page": "187-188"
+   "page": "187-188",
+   "definition": "Capitale d’Italia.",
+   "example": "Roma è famosa per il Colosseo."
   }
  ],
  "catalog": {

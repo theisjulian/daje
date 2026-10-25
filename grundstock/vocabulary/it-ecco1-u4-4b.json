@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,7 @@
     "weiß"
    ],
    "page": "185-186",
+   "definition": "Colore della neve.",
    "example": "La neve è bianca.",
    "related": "F blanc(he)",
    "usage": "pl. bianchi/bianche"
@@ -46,6 +47,8 @@
     "schwarz"
    ],
    "page": "185-186",
+   "definition": "Colore della notte.",
+   "example": "Il gatto è nero.",
    "related": "≠ bianco; F noir/e"
   },
   {
@@ -55,6 +58,7 @@
     "fallen"
    ],
    "page": "185-186",
+   "definition": "Andare giù e finire a terra.",
    "example": "Filippo cade con lo snowboard.",
    "related": "L cadere"
   },
@@ -65,6 +69,8 @@
     "probieren (etw. zu tun)"
    ],
    "page": "185-186",
+   "definition": "Fare un tentativo.",
+   "example": "Provo a nuotare.",
    "related": "L probare",
    "acceptedAnswers": [
     "provare"
@@ -77,6 +83,8 @@
     "die Abfahrt"
    ],
    "page": "185-186",
+   "definition": "Percorso verso il basso.",
+   "example": "La discesa è ripida.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -94,6 +102,7 @@
     "bleiben"
    ],
    "page": "185-186",
+   "definition": "Restare in un posto.",
    "example": "Anna rimane a casa per studiare.",
    "related": "E to remain",
    "acceptedAnswers": [
@@ -108,6 +117,8 @@
     "der Fuß"
    ],
    "page": "185-186",
+   "definition": "Parte del corpo con cui si cammina.",
+   "example": "Mi fa male il piede.",
    "related": "F le pied; L pes",
    "grammar": {
     "partOfSpeech": "noun",
@@ -126,6 +137,7 @@
     "(tot-)müde"
    ],
    "page": "185-186",
+   "definition": "Senza energia dopo molta attività.",
    "example": "Anna ha fatto molto sport. Adesso è stanca.",
    "acceptedAnswers": [
     "stanco/-a"
@@ -139,6 +151,8 @@
     "verlieren"
    ],
    "page": "185-186",
+   "definition": "Non vincere; non trovare più.",
+   "example": "Perdo sempre le chiavi.",
    "related": "F perdre; L perdere",
    "usage": "p.p. perso"
   },
@@ -149,6 +163,7 @@
     "gegen"
    ],
    "page": "185-186",
+   "definition": "Piccola parola che indica opposizione.",
    "example": "La Juve ha perso contro l’Inter.",
    "related": "L contra"
   },
@@ -159,6 +174,7 @@
     "enttäuscht"
    ],
    "page": "185-186",
+   "definition": "Triste perché le speranze non si sono avverate.",
    "example": "Khalid è deluso perché la Juve ha perso."
   },
   {
@@ -168,6 +184,8 @@
     "entscheiden (etw. zu tun)"
    ],
    "page": "185-186",
+   "definition": "Scegliere tra più possibilità.",
+   "example": "Decido di studiare.",
    "related": "E to decide; F décider",
    "acceptedAnswers": [
     "decidere"
@@ -181,6 +199,7 @@
     "die Nachricht"
    ],
    "page": "185-186",
+   "definition": "Testo breve che si manda con il telefono.",
    "example": "Anna scrive un messaggio.",
    "related": "E message; F le message",
    "grammar": {
@@ -200,6 +219,7 @@
     "eben"
    ],
    "page": "185-186",
+   "definition": "Da pochissimo.",
    "example": "Ho appena visto il tuo messaggio.",
    "usage": "avv."
   },
@@ -210,6 +230,8 @@
     "das Ergebnis"
    ],
    "page": "185-186",
+   "definition": "Punteggio finale o esito di qualcosa.",
+   "example": "Qual è il risultato della partita?",
    "related": "F le résultat",
    "grammar": {
     "partOfSpeech": "noun",
@@ -227,7 +249,9 @@
    "translations": [
     "Igitt!"
    ],
-   "page": "185-186"
+   "page": "185-186",
+   "definition": "Esclamazione che esprime disgusto.",
+   "example": "Che schifo, questo cibo!"
   },
   {
    "id": "u4-4b-017",
@@ -236,6 +260,7 @@
     "jdn anrufen"
    ],
    "page": "185-186",
+   "definition": "Chiamare una persona con il telefono.",
    "example": "Giorgia telefona a Filippo.",
    "usage": "Das Verb telefonare steht im Italienischen anders als im Deutschen mit indirektem Objekt: Ich rufe Giorgia an. – Telefono a Giorgia."
   },
@@ -246,6 +271,8 @@
     "Hallo!? (am Telefon)"
    ],
    "page": "185-186",
+   "definition": "Parola con cui si risponde al telefono.",
+   "example": "Pronto? Chi parla?",
    "related": "▸ pronto/-a"
   },
   {
@@ -257,6 +284,7 @@
     "verlassen"
    ],
    "page": "185-186",
+   "definition": "Non portare con sé; abbandonare.",
    "example": "Lascia perdere!",
    "related": "F laisser"
   },
@@ -266,7 +294,9 @@
    "translations": [
     "Lass es (gut) sein!"
    ],
-   "page": "185-186"
+   "page": "185-186",
+   "definition": "Espressione per dire: non preoccuparti, abbandona l’idea.",
+   "example": "Lascia perdere, non è importante."
   },
   {
    "id": "u4-4b-021",
@@ -275,6 +305,7 @@
     "in der Nähe von"
    ],
    "page": "185-186",
+   "definition": "A poca distanza da qualcosa.",
    "example": "Anna abita vicino al centro."
   },
   {
@@ -285,6 +316,8 @@
     "das Café"
    ],
    "page": "185-186",
+   "definition": "Locale dove si beve caffè e si mangia qualcosa.",
+   "example": "Faccio colazione al bar.",
    "usage": "pl. i bar",
    "grammar": {
     "partOfSpeech": "noun",
@@ -306,6 +339,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Persona senza energia o coraggio.",
    "example": "Non fare il pappamolle!",
    "usage": "fam.",
    "grammar": {
@@ -325,6 +359,7 @@
     "die Straßenbahn"
    ],
    "page": "185-186",
+   "definition": "Mezzo pubblico elettrico che corre sui binari della città.",
    "example": "Per arrivare in centro puoi prendere il tram.",
    "usage": "pl. i tram",
    "grammar": {
@@ -344,6 +379,7 @@
     "überhaupt nicht"
    ],
    "page": "185-186",
+   "definition": "Assolutamente no.",
    "example": "Non abbiamo studiato per niente!",
    "usage": "avv."
   },
@@ -355,6 +391,7 @@
     "demnach"
    ],
    "page": "185-186",
+   "definition": "Parola che introduce una conclusione.",
    "example": "Dunque … Come posso dire? Ah, ecco …",
    "related": "F donc",
    "usage": "avv."
@@ -366,6 +403,7 @@
     "hier: ein Tor schießen"
    ],
    "page": "185-186",
+   "definition": "Mettere la palla in rete e fare un punto.",
    "example": "La Juve ha segnato."
   },
   {
@@ -376,6 +414,7 @@
     "Halbzeitpause"
    ],
    "page": "185-186",
+   "definition": "Pausa tra due momenti, a scuola o in una partita.",
    "example": "Dopo l’intervallo l’Inter ha segnato."
   },
   {
@@ -385,6 +424,8 @@
     "das Tor"
    ],
    "page": "185-186",
+   "definition": "Punto che si fa quando la palla entra in porta.",
+   "example": "Il gol decide la partita.",
    "related": "E goal",
    "usage": "pl. i gol",
    "grammar": {
@@ -403,7 +444,9 @@
    "translations": [
     "gestohlen"
    ],
-   "page": "185-186"
+   "page": "185-186",
+   "definition": "Preso senza permesso.",
+   "example": "La bicicletta è stata rubata."
   },
   {
    "id": "u4-4b-031",
@@ -413,6 +456,7 @@
     "aussteigen"
    ],
    "page": "185-186",
+   "definition": "Andare giù; uscire da un mezzo.",
    "example": "Sono arrivata. Devo scendere dal tram.",
    "related": "F descendre; L descendere",
    "usage": "p.p. sceso"
@@ -424,6 +468,7 @@
     "die Rangliste"
    ],
    "page": "185-186",
+   "definition": "Elenco ordinato dei risultati.",
    "example": "La Juve è scesa in classifica.",
    "usage": "pl. le classifiche",
    "grammar": {
@@ -443,6 +488,7 @@
     "der Abend"
    ],
    "page": "185-186",
+   "definition": "Parte del giorno dopo il pomeriggio.",
    "example": "La sera sono stanca e vado a letto.",
    "related": "F le soir",
    "grammar": {
@@ -463,6 +509,7 @@
     "am Abend"
    ],
    "page": "185-186",
+   "definition": "Parte del giorno dopo il pomeriggio.",
    "usage": "avv.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -482,6 +529,7 @@
     "unterhaltsam"
    ],
    "page": "185-186",
+   "definition": "Che fa ridere o passare un bel momento.",
    "example": "Il fine settimana è stato divertente."
   },
   {
@@ -492,6 +540,7 @@
     "siegen"
    ],
    "page": "185-186",
+   "definition": "Arrivare primo in una gara.",
    "example": "La Juve ha vinto 2:1.",
    "related": "L vincere",
    "usage": "p.p. vinto"
@@ -503,6 +552,8 @@
     "lachen"
    ],
    "page": "185-186",
+   "definition": "Mostrare allegria con la voce.",
+   "example": "Rido sempre con i miei amici.",
    "related": "F rire; L ridere",
    "usage": "p.p. riso"
   },
@@ -513,6 +564,7 @@
     "viel"
    ],
    "page": "185-186",
+   "definition": "In quantità abbastanza grande.",
    "example": "È stato divertente. Abbiamo riso parecchio.",
    "usage": "avv."
   },
@@ -524,6 +576,7 @@
     "nett"
    ],
    "page": "185-186",
+   "definition": "Che si comporta con cortesia.",
    "example": "I genitori di Leo sono gentili.",
    "related": "F gentil/-le"
   },
@@ -534,6 +587,7 @@
     "verbringen"
    ],
    "page": "185-186",
+   "definition": "Trascorrere un periodo di tempo.",
    "example": "Abbiamo passato una domenica bellissima."
   },
   {
@@ -542,7 +596,9 @@
    "translations": [
     "Es tut mir Leid."
    ],
-   "page": "185-186"
+   "page": "185-186",
+   "definition": "Frase per dire che sei dispiaciuto.",
+   "example": "Mi dispiace, non posso venire."
   },
   {
    "id": "u4-4b-042",
@@ -551,6 +607,8 @@
     "Bis später!"
    ],
    "page": "185-186",
+   "definition": "Si dice per dire che ci si telefona o ci si scrive presto.",
+   "example": "Ciao, ci sentiamo domani!",
    "usage": "Telefonat"
   },
   {
@@ -559,7 +617,9 @@
    "translations": [
     "Bis später!"
    ],
-   "page": "185-186"
+   "page": "185-186",
+   "definition": "Si dice quando ci si saluta e ci si rivede presto.",
+   "example": "Ci vediamo domani a scuola!"
   }
  ],
  "catalog": {

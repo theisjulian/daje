@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -36,6 +36,7 @@
     "Servus!"
    ],
    "page": "167-168",
+   "definition": "Saluto tra amici, quando ci si incontra o ci si lascia.",
    "example": "Ciao, Marco!"
   },
   {
@@ -45,6 +46,8 @@
     "die Jugendlichen"
    ],
    "page": "167-168",
+   "definition": "Giovani, maschi e femmine, non ancora adulti.",
+   "example": "I ragazzi giocano a calcio nel parco.",
    "usage": "pl.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -63,6 +66,7 @@
     "ich heiße"
    ],
    "page": "167-168",
+   "definition": "Così dici qual è il tuo nome.",
    "example": "Mi chiamo Sofia."
   },
   {
@@ -72,6 +76,7 @@
     "ich bin"
    ],
    "page": "167-168",
+   "definition": "Dici questo quando parli di te: chi sei, da dove vieni.",
    "example": "Sono di Roma."
   },
   {
@@ -81,6 +86,7 @@
     "aus (ursprüngliche Herkunft)"
    ],
    "page": "167-168",
+   "definition": "Piccola parola che indica provenienza o appartenenza.",
    "example": "Siamo di Napoli."
   },
   {
@@ -90,6 +96,7 @@
     "ich spreche"
    ],
    "page": "167-168",
+   "definition": "Così dici che usi una lingua per comunicare.",
    "example": "Parlo italiano e tedesco.",
    "related": "F parler"
   },
@@ -100,6 +107,8 @@
     "Italienisch (Sprache)"
    ],
    "page": "167-168",
+   "definition": "La lingua che si parla in Italia.",
+   "example": "L’italiano è una lingua molto musicale.",
    "related": "E Italian; F italien",
    "usage": "m."
   },
@@ -110,6 +119,8 @@
     "Französisch (Sprache)"
    ],
    "page": "167-168",
+   "definition": "La lingua che si parla in Francia.",
+   "example": "Il francese si parla anche in Canada.",
    "related": "E French; F français",
    "grammar": {
     "partOfSpeech": "noun",
@@ -128,6 +139,8 @@
     "und"
    ],
    "page": "167-168",
+   "definition": "Piccola parola che unisce due parole o due frasi.",
+   "example": "Mangio pane e formaggio.",
    "related": "F et; L et"
   },
   {
@@ -137,6 +150,7 @@
     "Deutsch (Sprache)"
    ],
    "page": "167-168",
+   "definition": "La lingua che si parla in Germania e in Austria.",
    "example": "Parlo tedesco.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -155,6 +169,8 @@
     "Englisch (Sprache)"
    ],
    "page": "167-168",
+   "definition": "La lingua più usata nel mondo per comunicare.",
+   "example": "L’inglese è la mia seconda lingua.",
    "related": "E English",
    "usage": "m."
   },
@@ -166,6 +182,8 @@
     "Servus!"
    ],
    "page": "167-168",
+   "definition": "Saluto cortese, tra “ciao” e “buongiorno”.",
+   "example": "Salve, signora!",
    "related": "L salve"
   },
   {
@@ -175,6 +193,8 @@
     "Sardisch (Sprache)"
    ],
    "page": "167-168",
+   "definition": "Lingua parlata dagli abitanti di un’isola italiana del Mediterraneo.",
+   "example": "Mia nonna parla il sardo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -193,6 +213,8 @@
     "Grüß Gott!"
    ],
    "page": "167-168",
+   "definition": "Saluto formale che si dice la mattina o fino al primo pomeriggio.",
+   "example": "Buongiorno, professoressa!",
    "related": "F bonjour",
    "usage": "Unterscheide: Buongiorno zu Erwachsenen, zum Beispiel zur Lehrkraft – Ciao unter Freunden"
   },
@@ -203,6 +225,8 @@
     "Arabisch (Sprache)"
    ],
    "page": "167-168",
+   "definition": "Lingua parlata in Marocco, Egitto e in molti altri paesi.",
+   "example": "Karim parla arabo e italiano.",
    "related": "F arabe"
   },
   {
@@ -212,6 +236,8 @@
     "du"
    ],
    "page": "167-168",
+   "definition": "Pronome: la persona con cui parli, quando le dai del “tu”.",
+   "example": "Tu sei di Milano, vero?",
    "related": "F tu; L tu"
   },
   {
@@ -222,6 +248,8 @@
     "Wen?"
    ],
    "page": "167-168",
+   "definition": "Domanda per sapere la persona.",
+   "example": "Chi è quel ragazzo?",
    "related": "F qui"
   },
   {
@@ -231,6 +259,7 @@
     "Wer bist du?"
    ],
    "page": "167-168",
+   "definition": "Domanda per sapere il nome di una persona che hai davanti.",
    "example": "Chi sei? – Sono Luca."
   },
   {
@@ -240,6 +269,8 @@
     "Wie?"
    ],
    "page": "167-168",
+   "definition": "Domanda per sapere il modo; si usa anche quando non hai capito.",
+   "example": "Come stai?",
    "related": "F comment"
   },
   {
@@ -249,6 +280,7 @@
     "Wie heißt du?"
    ],
    "page": "167-168",
+   "definition": "Domanda per sapere il nome di una persona.",
    "example": "Come ti chiami? – Mi chiamo Elena."
   },
   {
@@ -257,7 +289,9 @@
    "translations": [
     "Woher?"
    ],
-   "page": "167-168"
+   "page": "167-168",
+   "definition": "Domanda per sapere il luogo di origine.",
+   "example": "Di dove è Marta?"
   },
   {
    "id": "ciao-022",
@@ -266,6 +300,7 @@
     "Woher bist du?"
    ],
    "page": "167-168",
+   "definition": "Domanda per sapere da dove viene una persona.",
    "example": "Di dove sei? – Sono di Torino."
   },
   {
@@ -275,7 +310,9 @@
     "Was (für)?",
     "Welche/r + Subst.?"
    ],
-   "page": "167-168"
+   "page": "167-168",
+   "definition": "Parola interrogativa che si usa per chiedere una cosa.",
+   "example": "Che sport fai?"
   },
   {
    "id": "ciao-024",
@@ -284,6 +321,8 @@
     "die Sprache"
    ],
    "page": "167-168",
+   "definition": "Sistema di parole con cui comunichiamo, per esempio italiano o inglese.",
+   "example": "La lingua dei Brasiliani è il portoghese.",
    "related": "E language; F la langue; L lingua",
    "grammar": {
     "partOfSpeech": "noun",
@@ -301,7 +340,9 @@
    "translations": [
     "du sprichst"
    ],
-   "page": "167-168"
+   "page": "167-168",
+   "definition": "Così dici che l’altra persona usa una lingua.",
+   "example": "Parli bene l’italiano!"
   },
   {
    "id": "ciao-026",
@@ -309,7 +350,9 @@
    "translations": [
     "Welche Sprachen sprichst du?"
    ],
-   "page": "167-168"
+   "page": "167-168",
+   "definition": "Domanda per sapere quali lingue conosce una persona.",
+   "example": "Che lingue parli? – Parlo tedesco e inglese."
   }
  ],
  "catalog": {

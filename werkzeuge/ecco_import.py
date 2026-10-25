@@ -32,6 +32,9 @@ def build(header, rows):
     for i, (t, trs, hint, opt, ex, rel) in enumerate(rows, 1):
         e = {'id': f'{sid}-{i:03d}', 'target': t, 'translations': trs, 'page': pages}
         if opt: e['tags'] = ['fakultativ']
+        d = DEFS.get(t)
+        if d and d[0]: e['definition'] = d[0]
+        if not ex and d and d[1]: ex = d[1]
         if ex: e['example'] = ex
         if rel: e['related'] = rel
         acc = variants(t)
@@ -57,7 +60,7 @@ def build(header, rows):
         'collection': f"{BOOK['series']} {BOOK['volume']} (Cornelsen)", 'section': f'{unit} · {sect}',
         'sources': [{'kind': 'provided', 'citation': f'{BOOK['series']} {BOOK['volume']}, Cornelsen, Lista cronologica / Anhang, S. {pages} (vom Nutzer bereitgestellte Seiten)', 'rights': 'needs_review'}],
         'reviewNotes': ['Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.',
-                        'Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.',
+                        'Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.',
                         'Plural-, Partizip- und Zusatzangaben stehen im Feld usage.'],
         'entries': entries,
         'catalog': {'origin': 'textbook',
@@ -66,6 +69,16 @@ def build(header, rows):
                     'themes': [x.strip() for x in themes.split(',')][:5], 'tags': ['lehrwerk', 'vokabeln']}
     }
     return pkg_id, p
+
+DEFS = {}
+def load_defs(path):
+    DEFS.clear()
+    dp = path.parent / path.name.replace('lista-', 'defs-')
+    if dp.exists():
+        for line in dp.read_text(encoding='utf-8').splitlines():
+            f = line.split('|')
+            if len(f) >= 2 and f[0].strip() and not line.startswith('#'):
+                DEFS[f[0].strip().replace("'", '’')] = (f[1].strip(), f[2].strip() if len(f) > 2 else '')
 
 RELATED = {}
 def load_related(path):
@@ -79,6 +92,7 @@ def load_related(path):
 
 def parse(path):
     load_related(path)
+    load_defs(path)
     pk, cur = [], None
     for line in path.read_text(encoding='utf-8').splitlines():
         if not line.strip(): continue

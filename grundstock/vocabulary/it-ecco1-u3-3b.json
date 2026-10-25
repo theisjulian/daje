@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -36,6 +36,8 @@
     "unter"
    ],
    "page": "180-181",
+   "definition": "Indica il tempo che manca prima di un evento.",
+   "example": "Arrivo fra dieci minuti.",
    "usage": "Unterscheide: Vengo fra/tra cinque minuti. – Ich komme in fünf Minuten. (zeitlich); Fra/Tra Giorgia e Anna sta Khalid. – Zwischen Giorgia und Anna steht Khalid. (örtlich)"
   },
   {
@@ -45,6 +47,7 @@
     "das Kapitel"
    ],
    "page": "180-181",
+   "definition": "Parte di un libro.",
    "example": "Il libro ha sette capitoli.",
    "related": "F le chapitre",
    "grammar": {
@@ -65,6 +68,7 @@
     "genug"
    ],
    "page": "180-181",
+   "definition": "Quanto basta; piuttosto.",
    "example": "In italiano vado abbastanza bene.",
    "usage": "avv."
   },
@@ -75,6 +79,7 @@
     "lesen"
    ],
    "page": "180-181",
+   "definition": "Guardare un testo e capirlo.",
    "example": "Mi piace leggere libri.",
    "related": "L legere"
   },
@@ -86,6 +91,8 @@
     "schwer"
    ],
    "page": "180-181",
+   "definition": "Che ha molto peso.",
+   "example": "La borsa è pesante.",
    "usage": "agg."
   },
   {
@@ -95,6 +102,7 @@
     "kreativ"
    ],
    "page": "180-181",
+   "definition": "Che ha molte idee originali.",
    "example": "In arte siamo molto creativi.",
    "related": "F créatif"
   },
@@ -105,6 +113,8 @@
     "schreiben"
    ],
    "page": "180-181",
+   "definition": "Mettere parole su un foglio.",
+   "example": "Scrivo una lettera.",
    "related": "F écrire; L scribere"
   },
   {
@@ -115,6 +125,7 @@
     "das Thema"
    ],
    "page": "180-181",
+   "definition": "Testo scritto su un argomento.",
    "example": "In italiano scriviamo il tema.",
    "usage": "pl. i temi",
    "grammar": {
@@ -134,6 +145,7 @@
     "manchmal"
    ],
    "page": "180-181",
+   "definition": "In alcune occasioni, non sempre.",
    "example": "Qualche volta leggo libri, ma non spesso.",
    "related": "≠ spesso",
    "usage": "avv."
@@ -145,6 +157,7 @@
     "das Gedicht"
    ],
    "page": "180-181",
+   "definition": "Testo breve in versi.",
    "example": "Khalid scrive anche poesie.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -162,7 +175,9 @@
    "translations": [
     "unzufrieden"
    ],
-   "page": "180-181"
+   "page": "180-181",
+   "definition": "Non soddisfatto.",
+   "example": "Sono scontento del voto."
   },
   {
    "id": "u3-3b-012",
@@ -172,6 +187,7 @@
     "umso besser"
    ],
    "page": "180-181",
+   "definition": "Espressione di sollievo.",
    "example": "Il latino è pesante. Meno male che il prof è bravo."
   },
   {
@@ -181,6 +197,8 @@
     "dass"
    ],
    "page": "180-181",
+   "definition": "Piccola parola che introduce una frase.",
+   "example": "Penso che sia vero.",
    "usage": "Unterscheide: Che fortuna! – Was für ein Glück!; che ho una camera mia! – dass ich ein eigenes Zimmer habe!"
   },
   {
@@ -190,6 +208,8 @@
     "die Fremdsprachenassistentin"
    ],
    "page": "180-181",
+   "definition": "Persona di madrelingua che aiuta a insegnare una lingua straniera.",
+   "example": "La lettrice parla con la classe.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -207,6 +227,7 @@
     "blond"
    ],
    "page": "180-181",
+   "definition": "Con i capelli chiari e dorati.",
    "example": "Friederike è bionda.",
    "related": "F blond(e)"
   },
@@ -220,6 +241,7 @@
     "ihr (nach Präp.)"
    ],
    "page": "180-181",
+   "definition": "Pronomi che sostituiscono una persona dopo una preposizione.",
    "example": "Da lei facciamo sempre attenzione."
   },
   {
@@ -229,6 +251,7 @@
     "genau"
    ],
    "page": "180-181",
+   "definition": "Parola per rafforzare: davvero.",
    "example": "Il rock è proprio la mia musica.",
    "usage": "avv."
   },
@@ -239,6 +262,8 @@
     "erzählen"
    ],
    "page": "180-181",
+   "definition": "Dire una storia a qualcuno.",
+   "example": "La nonna racconta una storia.",
    "related": "F raconter"
   },
   {
@@ -248,6 +273,7 @@
     "geben"
    ],
    "page": "180-181",
+   "definition": "Mettere una cosa nelle mani di un altro.",
    "example": "Il prof dà i voti ai ragazzi.",
    "related": "≠ prendere; L dare",
    "acceptedAnswers": [
@@ -263,6 +289,7 @@
     "hier: gut"
    ],
    "page": "180-181",
+   "definition": "Di grande altezza o di buon livello.",
    "example": "Evviva! Ho preso un voto alto.",
    "related": "L altus"
   },
@@ -274,6 +301,7 @@
     "sobald"
    ],
    "page": "180-181",
+   "definition": "Parola per indicare un momento.",
    "example": "Quando il De Carli arriva, Khalid non c’è."
   },
   {
@@ -283,6 +311,7 @@
     "jd ist an der Reihe/dran"
    ],
    "page": "180-181",
+   "definition": "Espressione che indica il turno di qualcuno.",
    "example": "Adesso tocca a me."
   },
   {
@@ -292,6 +321,7 @@
     "schreien"
    ],
    "page": "180-181",
+   "definition": "Parlare a voce molto alta.",
    "example": "Khalid grida: aiuto!"
   },
   {
@@ -301,6 +331,8 @@
     "das Geheimnis"
    ],
    "page": "180-181",
+   "definition": "Cosa che non si spiega.",
+   "example": "Il mistero del castello.",
    "related": "E mystery",
    "grammar": {
     "partOfSpeech": "noun",
@@ -320,6 +352,7 @@
     "dir (nach Präp.)"
    ],
    "page": "180-181",
+   "definition": "Pronome che sostituisce “tu” dopo una preposizione.",
    "example": "Vado a scuola con te."
   },
   {
@@ -329,7 +362,9 @@
     "hässlich",
     "hier: schlecht"
    ],
-   "page": "180-181"
+   "page": "180-181",
+   "definition": "Non bello.",
+   "example": "Che brutto tempo!"
   },
   {
    "id": "u3-3b-027",
@@ -338,6 +373,7 @@
     "langweilig"
    ],
    "page": "180-181",
+   "definition": "Che annoia; che non interessa.",
    "example": "Secondo me storia è noiosa. Dormo sempre."
   },
   {
@@ -347,6 +383,8 @@
     "sprechen"
    ],
    "page": "180-181",
+   "definition": "Usare la voce per comunicare.",
+   "example": "Parlo con la mia amica.",
    "related": "F parler"
   },
   {
@@ -355,7 +393,9 @@
    "translations": [
     "der/die Jugendliche"
    ],
-   "page": "180-181"
+   "page": "180-181",
+   "definition": "Persona di poca età.",
+   "example": "Il giovane aspetta alla fermata."
   },
   {
    "id": "u3-3b-030",
@@ -364,6 +404,8 @@
     "jung"
    ],
    "page": "180-181",
+   "definition": "Che ha pochi anni.",
+   "example": "Mia sorella è giovane.",
    "related": "≠ vecchio; F jeune"
   },
   {
@@ -374,7 +416,9 @@
     "hübsch",
     "nett"
    ],
-   "page": "180-181"
+   "page": "180-181",
+   "definition": "Gentile e piacevole da guardare.",
+   "example": "Che cane carino!"
   },
   {
    "id": "u3-3b-032",
@@ -383,6 +427,7 @@
     "modisch"
    ],
    "page": "180-181",
+   "definition": "Secondo quello che piace in questo periodo.",
    "example": "La prof ha sempre vestiti alla moda.",
    "related": "F à la mode"
   },
@@ -393,6 +438,7 @@
     "aufmerksam"
    ],
    "page": "180-181",
+   "definition": "Che fa molta attenzione, che segue bene.",
    "example": "I ragazzi ascoltano e stanno attenti.",
    "related": "L attentus"
   },
@@ -403,6 +449,7 @@
     "wirklich"
    ],
    "page": "180-181",
+   "definition": "Veramente, senza dubbio.",
    "example": "Questo prof è davvero bravo.",
    "usage": "avv."
   },
@@ -413,6 +460,8 @@
     "der Mathematiker"
    ],
    "page": "180-181",
+   "definition": "Persona che lavora con i numeri e i teoremi.",
+   "example": "Il matematico risolve il problema.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -430,6 +479,7 @@
     "sizilianisch (Herkunft)"
    ],
    "page": "180-181",
+   "definition": "Che viene dalla più grande isola italiana.",
    "example": "Luigi è di Palermo. È siciliano."
   },
   {
@@ -439,6 +489,7 @@
     "die Regel"
    ],
    "page": "180-181",
+   "definition": "Norma da seguire.",
    "example": "Khalid spiega la regola a Giorgia.",
    "related": "F la règle",
    "grammar": {
@@ -458,6 +509,7 @@
     "der Schüler"
    ],
    "page": "180-181",
+   "definition": "Persona che frequenta la scuola o l’università.",
    "example": "Il prof dà voti agli studenti.",
    "related": "E student",
    "usage": "f. la studentessa",
@@ -479,6 +531,7 @@
     "sympathisch"
    ],
    "page": "180-181",
+   "definition": "Che piace subito alle persone.",
    "example": "Il nuovo prof è molto simpatico.",
    "related": "F sympa",
    "usage": "pl. simpatici/simpatiche"
@@ -491,6 +544,7 @@
     "zumindest"
    ],
    "page": "180-181",
+   "definition": "Come minimo.",
    "example": "Almeno io capisco matematica.",
    "usage": "avv."
   },
@@ -502,6 +556,8 @@
     "einfach"
    ],
    "page": "180-181",
+   "definition": "Che non richiede fatica.",
+   "example": "L’esercizio è facile.",
    "related": "F facile; L facilis"
   },
   {
@@ -511,6 +567,7 @@
     "die Medien"
    ],
    "page": "180-181",
+   "definition": "I mezzi di comunicazione: TV, giornali, internet.",
    "example": "Il prof è bravo con i nuovi media.",
    "related": "F les médias",
    "usage": "pl.",
@@ -532,6 +589,7 @@
     "(be)nutzen"
    ],
    "page": "180-181",
+   "definition": "Servirsi di qualcosa.",
    "example": "Greta usa molto i nuovi media.",
    "related": "E to use"
   },
@@ -543,6 +601,7 @@
     "tüchtig"
    ],
    "page": "180-181",
+   "definition": "Molto bravo.",
    "example": "Khalid è bravissimo in italiano."
   },
   {
@@ -553,6 +612,8 @@
     "nachmittags"
    ],
    "page": "180-181",
+   "definition": "Parte del giorno dopo il pranzo.",
+   "example": "Il pomeriggio faccio i compiti.",
    "usage": "pl. i pomeriggi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -572,6 +633,7 @@
     "das Kaffee(-haus)"
    ],
    "page": "180-181",
+   "definition": "Bevanda scura e calda; anche il locale dove la si beve.",
    "example": "Prendiamo un caffè?",
    "usage": "pl. i caffè",
    "grammar": {
@@ -591,6 +653,8 @@
     "der Zeuge"
    ],
    "page": "180-181",
+   "definition": "Persona che ha visto un fatto e può raccontarlo.",
+   "example": "Il testimone racconta che cosa ha visto.",
    "related": "F le témoin; L testis",
    "usage": "f. la testimone",
    "grammar": {

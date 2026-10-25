@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,8 @@
     "willkommen"
    ],
    "page": "168-169",
+   "definition": "Si dice a chi arriva per far sentire accolta una persona.",
+   "example": "Benvenuta a Roma!",
    "related": "F bienvenue"
   },
   {
@@ -46,6 +48,8 @@
     "Da sind …!"
    ],
    "page": "168-169",
+   "definition": "Si dice per mostrare una persona o una cosa.",
+   "example": "Ecco il mio amico Luca!",
    "related": "L ecce"
   },
   {
@@ -56,6 +60,8 @@
     "die Straße"
    ],
    "page": "168-169",
+   "definition": "Spazio aperto al centro di una città, circondato da edifici.",
+   "example": "In piazza ci sono molte persone.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -73,6 +79,7 @@
     "das Zentrum"
    ],
    "page": "168-169",
+   "definition": "La zona più importante e centrale di una città.",
    "example": "Il centro è bello.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -91,6 +98,7 @@
     "von (Genitiv)"
    ],
    "page": "168-169",
+   "definition": "Piccola parola che indica provenienza o appartenenza.",
    "related": "F de"
   },
   {
@@ -100,6 +108,8 @@
     "der Fluss"
    ],
    "page": "168-169",
+   "definition": "Acqua che scorre dalla montagna al mare, come il Tevere.",
+   "example": "Il fiume attraversa la città.",
    "related": "L flumen",
    "grammar": {
     "partOfSpeech": "noun",
@@ -118,6 +128,7 @@
     "mit"
    ],
    "page": "168-169",
+   "definition": "Piccola parola per dire “insieme a”.",
    "example": "Vado con Anna.",
    "related": "L cum"
   },
@@ -128,6 +139,8 @@
     "die Brücke"
    ],
    "page": "168-169",
+   "definition": "Costruzione che permette di attraversare un fiume.",
+   "example": "Attraversiamo il ponte a piedi.",
    "related": "F le pont; L pons",
    "grammar": {
     "partOfSpeech": "noun",
@@ -146,6 +159,8 @@
     "die Industrie"
    ],
    "page": "168-169",
+   "definition": "Attività dove si producono molte merci con le macchine.",
+   "example": "A Torino c’è un’industria di automobili.",
    "related": "E industry"
   },
   {
@@ -155,6 +170,8 @@
     "(er/sie/es) ist"
    ],
    "page": "168-169",
+   "definition": "Forma del verbo “essere” per una persona o una cosa.",
+   "example": "Roma è una città grande.",
    "usage": "Unterscheide: è – er, sie, es ist; e – und"
   },
   {
@@ -164,6 +181,8 @@
     "wichtig"
    ],
    "page": "168-169",
+   "definition": "Che ha molto valore o che conta molto.",
+   "example": "È una persona importante per me.",
    "related": "E important"
   },
   {
@@ -173,6 +192,8 @@
     "für"
    ],
    "page": "168-169",
+   "definition": "Piccola parola che indica scopo o destinatario.",
+   "example": "Questo regalo è per te.",
    "related": "F pour; L per"
   },
   {
@@ -182,6 +203,8 @@
     "die Stadt"
    ],
    "page": "168-169",
+   "definition": "Luogo grande dove vivono molte persone, con strade e negozi.",
+   "example": "Milano è una grande città.",
    "related": "E city; L civitas",
    "usage": "pl. le città",
    "grammar": {
@@ -201,6 +224,8 @@
     "der Park"
    ],
    "page": "168-169",
+   "definition": "Spazio verde con alberi, dove si cammina o si gioca.",
+   "example": "Giochiamo nel parco.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -217,7 +242,9 @@
    "translations": [
     "Sehr schön!"
    ],
-   "page": "168-169"
+   "page": "168-169",
+   "definition": "Esclamazione quando una cosa piace molto.",
+   "example": "Il mare è bellissimo!"
   },
   {
    "id": "u1-approccio-016",
@@ -226,6 +253,8 @@
     "das Symbol"
    ],
    "page": "168-169",
+   "definition": "Cosa che rappresenta un’idea, un luogo o un gruppo.",
+   "example": "La Torre Eiffel è il simbolo di Parigi.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -243,6 +272,8 @@
     "das Stadion"
    ],
    "page": "168-169",
+   "definition": "Grande struttura dove si guardano le partite.",
+   "example": "Andiamo allo stadio con papà.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -260,7 +291,9 @@
     "Auf geht’s!",
     "Nur Mut!"
    ],
-   "page": "168-169"
+   "page": "168-169",
+   "definition": "Esclamazione per incoraggiare qualcuno.",
+   "example": "Forza, ragazzi, ce la fate!"
   },
   {
    "id": "u1-approccio-019",
@@ -269,6 +302,8 @@
     "der/die Freund/-in"
    ],
    "page": "168-169",
+   "definition": "Persona che conosci bene e con cui stai volentieri.",
+   "example": "Anna è la mia migliore amica.",
    "related": "F l’ami/e"
   },
   {
@@ -278,6 +313,7 @@
     "in"
    ],
    "page": "168-169",
+   "definition": "Piccola parola che indica luogo o tempo.",
    "example": "Abito in Italia."
   },
   {
@@ -287,6 +323,8 @@
     "die Straße"
    ],
    "page": "168-169",
+   "definition": "Strada di una città, con case e negozi.",
+   "example": "Abito in via Garibaldi.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -304,6 +342,7 @@
     "spazieren gehen"
    ],
    "page": "168-169",
+   "definition": "Camminare con calma, per piacere.",
    "example": "Passeggiamo nel parco."
   },
   {
@@ -313,6 +352,8 @@
     "hier"
    ],
    "page": "168-169",
+   "definition": "Nel posto dove sono io.",
+   "example": "Qui c’è un bar.",
    "usage": "avv."
   }
  ],

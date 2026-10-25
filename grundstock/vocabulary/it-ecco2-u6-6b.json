@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,8 @@
     "das Gesicht"
    ],
    "page": "225-226",
+   "definition": "Faccia.",
+   "example": "Ha un volto sereno.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -53,6 +55,8 @@
     "die Oper"
    ],
    "page": "225-226",
+   "definition": "Teatro dove si fanno le opere.",
+   "example": "Il teatro lirico di Milano è la Scala.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -69,7 +73,9 @@
    "translations": [
     "der/die Opernsänger/in"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "definition": "Cantante d’opera.",
+   "example": "La cantante lirica ha una voce potente."
   },
   {
    "id": "u6-6b-004",
@@ -77,7 +83,9 @@
    "translations": [
     "hier: der Auftritt"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "definition": "Momento in cui qualcuno compare in scena.",
+   "example": "L’entrata del cantante è molto attesa."
   },
   {
    "id": "u6-6b-005",
@@ -86,6 +94,8 @@
     "die Bühne"
    ],
    "page": "225-226",
+   "definition": "Parte del teatro dove si recita.",
+   "example": "Il cantante è in scena.",
    "related": "E scene",
    "grammar": {
     "partOfSpeech": "noun",
@@ -104,6 +114,8 @@
     "der/die Statist/in"
    ],
    "page": "225-226",
+   "definition": "Persona che appare in scena senza parlare.",
+   "example": "Faccio la comparsa in un’opera.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -121,6 +133,8 @@
     "die Jugend(-zeit)"
    ],
    "page": "225-226",
+   "definition": "Periodo tra infanzia ed età adulta.",
+   "example": "L’adolescenza è un periodo di cambiamento.",
    "related": "E adolescence; L adulescentia"
   },
   {
@@ -130,6 +144,8 @@
     "das Interesse"
    ],
    "page": "225-226",
+   "definition": "Attenzione per qualcosa.",
+   "example": "Ho interesse per la musica.",
    "usage": "m."
   },
   {
@@ -139,6 +155,8 @@
     "künstlerisch"
    ],
    "page": "225-226",
+   "definition": "Che riguarda l’arte.",
+   "example": "Frequento il liceo artistico.",
    "related": "E artistic"
   },
   {
@@ -149,6 +167,8 @@
     "das Singen"
    ],
    "page": "225-226",
+   "definition": "Arte di produrre melodie con la voce.",
+   "example": "Studio canto.",
    "related": "▸ cantare, il/la cantante; F le chant; L cantus",
    "grammar": {
     "partOfSpeech": "noun",
@@ -167,6 +187,8 @@
     "die Teilnahme"
    ],
    "page": "225-226",
+   "definition": "Il prendere parte a qualcosa.",
+   "example": "La partecipazione è gratuita.",
    "related": "E participation",
    "grammar": {
     "partOfSpeech": "noun",
@@ -184,7 +206,9 @@
    "translations": [
     "auf sich aufmerksam machen"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "definition": "Attirare l’attenzione.",
+   "example": "Si fa notare per la voce."
   },
   {
    "id": "u6-6b-013",
@@ -194,6 +218,8 @@
     "die Zeit"
    ],
    "page": "225-226",
+   "definition": "Periodo storico.",
+   "example": "È l’epoca di internet.",
    "usage": "pl. le epoche"
   },
   {
@@ -204,6 +230,8 @@
     "zum ersten Mal öffentlich auftreten"
    ],
    "page": "225-226",
+   "definition": "Esibirsi per la prima volta.",
+   "example": "Debutta a diciotto anni.",
    "related": "F débuter"
   },
   {
@@ -214,6 +242,8 @@
     "die Serie"
    ],
    "page": "225-226",
+   "definition": "Successione di cose simili.",
+   "example": "Una serie di concerti.",
    "related": "E series",
    "usage": "pl. le serie",
    "grammar": {
@@ -234,6 +264,8 @@
     "das Werk"
    ],
    "page": "225-226",
+   "definition": "Lavoro artistico o spettacolo cantato.",
+   "example": "L’opera dura tre ore.",
    "related": "E opera"
   },
   {
@@ -243,6 +275,8 @@
     "aufnehmen (Ton)"
    ],
    "page": "225-226",
+   "definition": "Registrare su disco.",
+   "example": "Incide un disco.",
    "usage": "p.p. inciso"
   },
   {
@@ -252,6 +286,8 @@
     "die CD"
    ],
    "page": "225-226",
+   "definition": "Disco con musica registrata.",
+   "example": "Compro un CD.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -270,6 +306,8 @@
     "die Noten"
    ],
    "page": "225-226",
+   "definition": "Pagine con le note per l’orchestra.",
+   "example": "La partitura è difficile.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -287,6 +325,8 @@
     "die Aufnahme"
    ],
    "page": "225-226",
+   "definition": "Raccolta di suoni o immagini.",
+   "example": "La registrazione è chiara.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -303,7 +343,9 @@
    "translations": [
     "verheiratet"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "definition": "Che ha un marito o una moglie.",
+   "example": "Mio fratello è sposato."
   },
   {
    "id": "u6-6b-022",
@@ -311,7 +353,9 @@
    "translations": [
     "außer jdm/etw."
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "definition": "In aggiunta a.",
+   "example": "Oltre a te, viene anche Marco."
   },
   {
    "id": "u6-6b-023",
@@ -321,6 +365,8 @@
     "die Stiftung"
    ],
    "page": "225-226",
+   "definition": "Atto di creare un’organizzazione.",
+   "example": "La fondazione aiuta i giovani.",
    "related": "▸ fondare; E foundation",
    "grammar": {
     "partOfSpeech": "noun",
@@ -340,6 +386,8 @@
     "befördern"
    ],
    "page": "225-226",
+   "definition": "Sostenere e diffondere.",
+   "example": "Promuove la musica.",
    "usage": "p.p. promosso"
   },
   {
@@ -349,6 +397,8 @@
     "die Spitzenklasse"
    ],
    "page": "225-226",
+   "definition": "Qualità molto alta.",
+   "example": "Questo ristorante è un’eccellenza.",
    "related": "E excellence"
   },
   {
@@ -357,7 +407,9 @@
    "translations": [
     "die Architektur"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "definition": "Arte di progettare edifici.",
+   "example": "Studio architettura."
   },
   {
    "id": "u6-6b-027",
@@ -366,6 +418,8 @@
     "zeitgenössisch"
    ],
    "page": "225-226",
+   "definition": "Del nostro tempo.",
+   "example": "È arte contemporanea.",
    "related": "E contemporary"
   },
   {
@@ -375,6 +429,8 @@
     "der/die Bauunternehmer/in"
    ],
    "page": "225-226",
+   "definition": "Persona che costruisce edifici.",
+   "example": "Il costruttore fa una casa.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -391,7 +447,9 @@
    "translations": [
     "gezeichnet"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "definition": "Con un segno.",
+   "example": "Un’infanzia segnata dalla guerra."
   },
   {
    "id": "u6-6b-030",
@@ -399,7 +457,9 @@
    "translations": [
     "die Kindheit"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "definition": "Periodo della vita da bambino.",
+   "example": "Ho ricordi belli dell’infanzia."
   },
   {
    "id": "u6-6b-031",
@@ -408,7 +468,9 @@
     "lehren",
     "unterrichten"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "definition": "Trasmettere conoscenze.",
+   "example": "Insegno italiano."
   },
   {
    "id": "u6-6b-032",
@@ -417,6 +479,8 @@
     "hier: Ingenieurbüro"
    ],
    "page": "225-226",
+   "definition": "Ufficio di un professionista.",
+   "example": "Lo studio dell’ingegnere è in centro.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -435,6 +499,8 @@
     "die Berühmtheit"
    ],
    "page": "225-226",
+   "definition": "Il fatto di essere conosciuto.",
+   "example": "Ha raggiunto la notorietà.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -453,6 +519,8 @@
     "planen"
    ],
    "page": "225-226",
+   "definition": "Pianificare la costruzione di qualcosa.",
+   "example": "Progetto una casa.",
    "related": "▸ il progetto; E to project"
   },
   {
@@ -462,7 +530,9 @@
     "avantgardistisch",
     "bahnbrechend"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "definition": "Molto moderno, innovativo.",
+   "example": "È un edificio avanguardistico."
   },
   {
    "id": "u6-6b-036",
@@ -471,6 +541,8 @@
     "der Weltruhm"
    ],
    "page": "225-226",
+   "definition": "Notorietà in tutto il mondo.",
+   "example": "Ha fama mondiale.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -489,6 +561,8 @@
     "der Wolkenkratzer"
    ],
    "page": "225-226",
+   "definition": "Edificio molto alto.",
+   "example": "A New York ci sono tanti grattacieli.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -506,6 +580,8 @@
     "ernennen"
    ],
    "page": "225-226",
+   "definition": "Scegliere qualcuno per una carica.",
+   "example": "Lo nominano presidente.",
    "related": "L nominare"
   },
   {
@@ -517,6 +593,8 @@
     "das Arbeitsentgelt"
    ],
    "page": "225-226",
+   "definition": "Soldi che si ricevono ogni mese.",
+   "example": "Lo stipendio arriva a fine mese.",
    "usage": "pl. gli stipendi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -535,6 +613,8 @@
     "finanzieren"
    ],
    "page": "225-226",
+   "definition": "Dare soldi per un progetto.",
+   "example": "Finanzio un progetto.",
    "related": "E to finance"
   },
   {
@@ -546,6 +626,8 @@
     "die Vorstadt"
    ],
    "page": "225-226",
+   "definition": "Zona lontana dal centro di una città.",
+   "example": "Abito in periferia.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -563,6 +645,8 @@
     "die Erfahrung"
    ],
    "page": "225-226",
+   "definition": "Conoscenza che nasce dalla pratica.",
+   "example": "Ho molta esperienza.",
    "related": "E experience"
   },
   {
@@ -571,7 +655,9 @@
    "translations": [
     "zur Verfügung stellen"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "definition": "Offrire.",
+   "example": "Metto a disposizione la mia casa."
   }
  ],
  "catalog": {

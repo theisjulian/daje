@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -36,6 +36,8 @@
     "die Fraktion"
    ],
    "page": "220-221",
+   "definition": "Gruppo contro altri.",
+   "example": "Due fazioni si sfidano.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -53,6 +55,8 @@
     "Einwohner von Gubbio"
    ],
    "page": "220-221",
+   "definition": "Abitanti di Gubbio.",
+   "example": "Gli eugubini fanno la festa dei Ceri.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "gli",
@@ -71,6 +75,8 @@
     "das Rennen"
    ],
    "page": "220-221",
+   "definition": "Gara di velocità.",
+   "example": "La corsa è molto veloce.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -88,6 +94,8 @@
     "die Herkunft"
    ],
    "page": "220-221",
+   "definition": "Punto di partenza.",
+   "example": "L’origine della festa è antica.",
    "related": "E origin; L origo",
    "usage": "f."
   },
@@ -98,6 +106,8 @@
     "religiös"
    ],
    "page": "220-221",
+   "definition": "Che riguarda la fede.",
+   "example": "È una festa religiosa.",
    "related": "E religious"
   },
   {
@@ -107,6 +117,8 @@
     "das Holz"
    ],
    "page": "220-221",
+   "definition": "Materiale ricavato dagli alberi.",
+   "example": "Il tavolo è di legno.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -123,7 +135,9 @@
    "translations": [
     "männlich"
    ],
-   "page": "220-221"
+   "page": "220-221",
+   "definition": "Del sesso di un uomo o di un ragazzo.",
+   "example": "Il cane è maschio."
   },
   {
    "id": "u5-5b-008",
@@ -134,6 +148,8 @@
     "das Ende"
    ],
    "page": "220-221",
+   "definition": "Punto più alto.",
+   "example": "La cima della montagna è innevata.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -152,6 +168,8 @@
     "das Standbild"
    ],
    "page": "220-221",
+   "definition": "Figura di pietra o di metallo.",
+   "example": "La statua è in piazza.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -168,7 +186,9 @@
    "translations": [
     "Bezugs-"
    ],
-   "page": "220-221"
+   "page": "220-221",
+   "definition": "Che serve da guida.",
+   "example": "È il punto di riferimento."
   },
   {
    "id": "u5-5b-011",
@@ -177,6 +197,8 @@
     "sich teilen"
    ],
    "page": "220-221",
+   "definition": "Separarsi in parti.",
+   "example": "I ragazzi si dividono in due squadre.",
    "related": "E to divide",
    "usage": "p.p. diviso"
   },
@@ -187,7 +209,9 @@
     "anhaben",
     "tragen (Kleidung)"
    ],
-   "page": "220-221"
+   "page": "220-221",
+   "definition": "Mettere addosso.",
+   "example": "Indosso una giacca."
   },
   {
    "id": "u5-5b-013",
@@ -198,6 +222,8 @@
     "der Brauch"
    ],
    "page": "220-221",
+   "definition": "Abito tradizionale o da maschera.",
+   "example": "Il costume è colorato.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -215,6 +241,8 @@
     "blau"
    ],
    "page": "220-221",
+   "definition": "Colore del cielo sereno.",
+   "example": "Il mare è azzurro.",
    "usage": "Unterscheide: celeste (hellblau) – blu (dunkelblau) – azzurro (mittelblau); gli azzurri = Fußballnationalmannschaft"
   },
   {
@@ -224,7 +252,9 @@
     "traditionell",
     "üblich"
    ],
-   "page": "220-221"
+   "page": "220-221",
+   "definition": "Che segue la tradizione.",
+   "example": "È una festa tradizionale."
   },
   {
    "id": "u5-5b-016",
@@ -232,7 +262,9 @@
    "translations": [
     "der Stolz"
    ],
-   "page": "220-221"
+   "page": "220-221",
+   "definition": "Sentimento di soddisfazione.",
+   "example": "Ho molto orgoglio del mio lavoro."
   },
   {
    "id": "u5-5b-017",
@@ -241,6 +273,8 @@
     "der Mann"
    ],
    "page": "220-221",
+   "definition": "Persona di sesso maschile.",
+   "example": "I maschi giocano a calcio.",
    "usage": "pl. i maschi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -260,6 +294,8 @@
     "solche(r)"
    ],
    "page": "220-221",
+   "definition": "Di questo tipo.",
+   "example": "Non voglio una tale cosa.",
    "related": "F tel/telle; L talis"
   },
   {
@@ -270,6 +306,8 @@
     "antiquiert"
    ],
    "page": "220-221",
+   "definition": "Fuori moda.",
+   "example": "Un’idea antiquata.",
    "related": "L antiquus"
   },
   {
@@ -279,6 +317,8 @@
     "die Tradition"
    ],
    "page": "220-221",
+   "definition": "Usanza tramandata nel tempo.",
+   "example": "La tradizione è importante.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -296,6 +336,8 @@
     "der Wert"
    ],
    "page": "220-221",
+   "definition": "Importanza di qualcosa.",
+   "example": "L’amicizia ha un grande valore.",
    "related": "E value",
    "grammar": {
     "partOfSpeech": "noun",
@@ -314,6 +356,8 @@
     "eher"
    ],
    "page": "220-221",
+   "definition": "In modo abbastanza intenso.",
+   "example": "È piuttosto difficile.",
    "usage": "avv."
   },
   {
@@ -323,6 +367,8 @@
     "der Aberglaube"
    ],
    "page": "220-221",
+   "definition": "Credenza irrazionale sulla fortuna.",
+   "example": "Il gatto nero è una superstizione.",
    "related": "E superstition",
    "grammar": {
     "partOfSpeech": "noun",
@@ -341,6 +387,8 @@
     "zu (dreizehnt)"
    ],
    "page": "220-221",
+   "definition": "Espressione che indica un gruppo di persone, come in tredici.",
+   "example": "Erano in tredici a tavola.",
    "acceptedAnswers": [
     "in"
    ]
@@ -355,6 +403,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Piccolo amuleto portafortuna.",
+   "example": "Porto un corno rosso.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -375,6 +425,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Sguardo che porta sfortuna, secondo la superstizione.",
+   "example": "Ha paura del malocchio.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -393,6 +445,8 @@
     "betagt"
    ],
    "page": "220-221",
+   "definition": "Persona di età avanzata.",
+   "example": "La nonna è anziana.",
    "related": "= vecchio/-a",
    "usage": "= vecchio/-a"
   },
@@ -403,6 +457,8 @@
     "jdn/etw. halten für"
    ],
    "page": "220-221",
+   "definition": "Valutare o ritenere.",
+   "example": "Considero questa idea molto bella.",
    "related": "E to consider"
   },
   {
@@ -412,7 +468,9 @@
     "hier: anspruchsvoll",
     "anstrengend"
    ],
-   "page": "220-221"
+   "page": "220-221",
+   "definition": "Che richiede molto impegno.",
+   "example": "È un lavoro impegnativo."
   },
   {
    "id": "u5-5b-030",
@@ -420,7 +478,9 @@
    "translations": [
     "wiegen"
    ],
-   "page": "220-221"
+   "page": "220-221",
+   "definition": "Avere un certo peso.",
+   "example": "La valigia pesa dieci chili."
   },
   {
    "id": "u5-5b-031",
@@ -428,7 +488,9 @@
    "translations": [
     "jede/r/s"
    ],
-   "page": "220-221"
+   "page": "220-221",
+   "definition": "Ogni persona o cosa.",
+   "example": "Ciascuno prende un panino."
   },
   {
    "id": "u5-5b-032",
@@ -437,6 +499,8 @@
     "so (+Adv.) wie möglich"
    ],
    "page": "220-221",
+   "definition": "Il massimo possibile.",
+   "example": "Corro il più velocemente possibile.",
    "acceptedAnswers": [
     "il più possibile"
    ],
@@ -457,6 +521,8 @@
     "senkrecht"
    ],
    "page": "220-221",
+   "definition": "Dritto dall’alto in basso.",
+   "example": "La parete è verticale.",
    "related": "E vertical"
   },
   {
@@ -467,6 +533,8 @@
     "die Strecke"
    ],
    "page": "220-221",
+   "definition": "Strada che si fa.",
+   "example": "Il percorso è lungo.",
    "related": "F le parcours",
    "grammar": {
     "partOfSpeech": "noun",
@@ -486,6 +554,8 @@
     "gesamt"
    ],
    "page": "220-221",
+   "definition": "Completo.",
+   "example": "La spesa totale è di dieci euro.",
    "related": "E total"
   },
   {
@@ -496,6 +566,8 @@
     "Wettkampf"
    ],
    "page": "220-221",
+   "definition": "Competizione tra più persone.",
+   "example": "La gara è domani.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -513,6 +585,8 @@
     "einen guten Eindruck machen"
    ],
    "page": "220-221",
+   "definition": "Dare una buona impressione.",
+   "example": "Voglio fare bella figura.",
    "usage": "Abc"
   },
   {
@@ -521,7 +595,9 @@
    "translations": [
     "der/die Tourist/in"
    ],
-   "page": "220-221"
+   "page": "220-221",
+   "definition": "Persona che viaggia per piacere.",
+   "example": "La turista visita il museo."
   },
   {
    "id": "u5-5b-039",
@@ -530,6 +606,8 @@
     "jdn/etw. + Adj. machen"
    ],
    "page": "220-221",
+   "definition": "Far diventare in un certo modo.",
+   "example": "La musica mi rende felice.",
    "usage": "p.p. reso"
   },
   {
@@ -539,7 +617,9 @@
     "zeigen",
     "beweisen"
    ],
-   "page": "220-221"
+   "page": "220-221",
+   "definition": "Provare con fatti.",
+   "example": "Dimostro di essere capace."
   },
   {
    "id": "u5-5b-041",
@@ -549,6 +629,8 @@
     "ablaufen"
    ],
    "page": "220-221",
+   "definition": "Accadere, avere luogo.",
+   "example": "La festa si svolge in piazza.",
    "usage": "p.p. svolto"
   },
   {
@@ -558,7 +640,9 @@
     "nachfolgend",
     "anschließend"
    ],
-   "page": "220-221"
+   "page": "220-221",
+   "definition": "Quello che viene dopo.",
+   "example": "Il giorno successivo è domenica."
   },
   {
    "id": "u5-5b-043",
@@ -567,6 +651,8 @@
     "die Ehre"
    ],
    "page": "220-221",
+   "definition": "Stima che si merita.",
+   "example": "Ho l’onore di conoscerti.",
    "related": "E honour; L honor",
    "usage": "m."
   },
@@ -579,6 +665,8 @@
     "authentisch"
    ],
    "page": "220-221",
+   "definition": "Vero, non falso.",
+   "example": "È un prodotto autentico.",
    "related": "E authentic"
   },
   {
@@ -589,6 +677,8 @@
     "sich schulen"
    ],
    "page": "220-221",
+   "definition": "Praticare per migliorare.",
+   "example": "Mi esercito a suonare.",
    "related": "E to exercise; L exercere"
   },
   {
@@ -598,7 +688,9 @@
     "die Einstellung",
     "die Haltung"
    ],
-   "page": "220-221"
+   "page": "220-221",
+   "definition": "Modo di comportarsi.",
+   "example": "Ha un atteggiamento positivo."
   },
   {
    "id": "u5-5b-047",
@@ -607,6 +699,8 @@
     "der Zweifel"
    ],
    "page": "220-221",
+   "definition": "Incertezza.",
+   "example": "Ho un dubbio.",
    "related": "▸ dubitare; E doubt; L dubium",
    "usage": "pl. i dubbi",
    "grammar": {

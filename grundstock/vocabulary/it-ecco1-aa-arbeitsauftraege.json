@@ -23,7 +23,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,6 +34,7 @@
     "Verbinde die (Wörter/Sätze) mit den (Bildern)."
    ],
    "page": "162-163",
+   "definition": "Consegna di un esercizio: collega le parole alle immagini.",
    "acceptedAnswers": [
     "Abbina alle vignette."
    ]
@@ -44,7 +45,8 @@
    "translations": [
     "Ergänze die richtige/passende Form von …"
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: completa con la forma giusta."
   },
   {
    "id": "aa-arbeitsauftraege-003",
@@ -52,7 +54,8 @@
    "translations": [
     "Ergänze die fehlenden Formen."
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: completa le parti mancanti."
   },
   {
    "id": "aa-arbeitsauftraege-004",
@@ -60,7 +63,8 @@
    "translations": [
     "Höre zu …"
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: fai attenzione ai suoni."
   },
   {
    "id": "aa-arbeitsauftraege-005",
@@ -68,7 +72,8 @@
    "translations": [
     "Suche die Formen im Text."
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: trova le forme nel testo."
   },
   {
    "id": "aa-arbeitsauftraege-006",
@@ -76,7 +81,8 @@
    "translations": [
     "Was steht im Text?"
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Domanda per sapere il contenuto."
   },
   {
    "id": "aa-arbeitsauftraege-007",
@@ -85,6 +91,7 @@
     "Frage (deine/n Mitschüler/in)."
    ],
    "page": "162-163",
+   "definition": "Consegna: fai una domanda a un compagno.",
    "acceptedAnswers": [
     "Chiedi."
    ]
@@ -95,7 +102,8 @@
    "translations": [
     "Fragt euch abwechselnd/gegenseitig."
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: fate domande l’uno all’altro."
   },
   {
    "id": "aa-arbeitsauftraege-009",
@@ -103,7 +111,8 @@
    "translations": [
     "Vervollständige den Dialog / die Tabelle / die Sätze mit …"
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: scrivi le parti mancanti."
   },
   {
    "id": "aa-arbeitsauftraege-010",
@@ -111,7 +120,8 @@
    "translations": [
     "Setze die Sätze richtig fort."
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: finisci le frasi."
   },
   {
    "id": "aa-arbeitsauftraege-011",
@@ -120,6 +130,7 @@
     "Kopiere (die Liste) in dein Arbeitsheft."
    ],
    "page": "162-163",
+   "definition": "Consegna: riscrivi la lista sul quaderno.",
    "acceptedAnswers": [
     "Copia nel tuo quaderno."
    ]
@@ -130,7 +141,8 @@
    "translations": [
     "Korrigiere die Sätze. / den Fehler."
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: sistema gli sbagli."
   },
   {
    "id": "aa-arbeitsauftraege-013",
@@ -139,6 +151,7 @@
     "Erstellt (einen Dialog)."
    ],
    "page": "162-163",
+   "definition": "Consegna: inventate e scrivete un dialogo.",
    "acceptedAnswers": [
     "Create."
    ]
@@ -149,7 +162,8 @@
    "translations": [
     "Entscheide, welche Form passt."
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: scegli quella giusta."
   },
   {
    "id": "aa-arbeitsauftraege-015",
@@ -158,6 +172,7 @@
     "Beschreibe (den Unterschied zwischen … und …)."
    ],
    "page": "162-163",
+   "definition": "Consegna: spiega come sono diverse.",
    "acceptedAnswers": [
     "Descrivi."
    ]
@@ -168,7 +183,8 @@
    "translations": [
     "Erstelle eine Liste."
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: scrivi un elenco."
   },
   {
    "id": "aa-arbeitsauftraege-017",
@@ -176,7 +192,8 @@
    "translations": [
     "Erstelle ein Wortfeld zum Thema …"
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: raccogli parole su un tema."
   },
   {
    "id": "aa-arbeitsauftraege-018",
@@ -184,7 +201,8 @@
    "translations": [
     "Bilde richtige Sätze."
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: costruisci frasi giuste."
   },
   {
    "id": "aa-arbeitsauftraege-019",
@@ -192,7 +210,8 @@
    "translations": [
     "Sieh dir den Text / das Bild / das Foto an."
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: osserva con attenzione."
   },
   {
    "id": "aa-arbeitsauftraege-020",
@@ -200,7 +219,8 @@
    "translations": [
     "Gib die Zeile an."
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: dì in quale riga si trova."
   },
   {
    "id": "aa-arbeitsauftraege-021",
@@ -208,7 +228,8 @@
    "translations": [
     "Lies den Text auf S. xx."
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: leggi la pagina indicata."
   },
   {
    "id": "aa-arbeitsauftraege-022",
@@ -217,6 +238,7 @@
     "Setze die Verben in (den Singular / das Perfekt)."
    ],
    "page": "162-163",
+   "definition": "Consegna: cambia la forma dei verbi.",
    "acceptedAnswers": [
     "Metti i verbi."
    ]
@@ -227,7 +249,8 @@
    "translations": [
     "Setze die richtige Form des Verbs ein."
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: scegli la forma corretta."
   },
   {
    "id": "aa-arbeitsauftraege-024",
@@ -237,6 +260,7 @@
     "Bringe (die Sätze) in die richtige Reihenfolge."
    ],
    "page": "162-163",
+   "definition": "Consegna: metti in sequenza corretta.",
    "acceptedAnswers": [
     "Metti nell’ordine giusto."
    ]
@@ -247,7 +271,8 @@
    "translations": [
     "Sprich über …"
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: racconta a voce."
   },
   {
    "id": "aa-arbeitsauftraege-026",
@@ -255,7 +280,8 @@
    "translations": [
     "Präsentiere die Ergebnisse in der Klasse."
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: mostra il lavoro alla classe."
   },
   {
    "id": "aa-arbeitsauftraege-027",
@@ -263,7 +289,8 @@
    "translations": [
     "Erzähl über …"
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: racconta a voce."
   },
   {
    "id": "aa-arbeitsauftraege-028",
@@ -272,7 +299,8 @@
     "Wiederhole.",
     "Sprich nach."
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: dì di nuovo."
   },
   {
    "id": "aa-arbeitsauftraege-029",
@@ -280,7 +308,8 @@
    "translations": [
     "Beantworte die Fragen."
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: dai le risposte."
   },
   {
    "id": "aa-arbeitsauftraege-030",
@@ -288,7 +317,8 @@
    "translations": [
     "Wähle die richtige Zusammenfassung aus."
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: scegli quello giusto."
   },
   {
    "id": "aa-arbeitsauftraege-031",
@@ -296,7 +326,8 @@
    "translations": [
     "Schreibe …"
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: metti per iscritto."
   },
   {
    "id": "aa-arbeitsauftraege-032",
@@ -304,7 +335,8 @@
    "translations": [
     "Begründe."
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: dai una ragione."
   },
   {
    "id": "aa-arbeitsauftraege-033",
@@ -312,7 +344,8 @@
    "translations": [
     "Finde die Wortpaare."
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: collega le parole che vanno insieme."
   },
   {
    "id": "aa-arbeitsauftraege-034",
@@ -320,7 +353,8 @@
    "translations": [
     "Benutze die Ausdrücke aus dem Text."
    ],
-   "page": "162-163"
+   "page": "162-163",
+   "definition": "Consegna: usa le frasi che hai letto."
   }
  ],
  "catalog": {

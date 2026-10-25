@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,7 @@
     "der Ski"
    ],
    "page": "183-185",
+   "definition": "Attrezzo per scivolare sulla neve.",
    "example": "Mi piace fare sci.",
    "usage": "pl. gli sci",
    "grammar": {
@@ -54,6 +55,7 @@
     "frisch"
    ],
    "page": "183-185",
+   "definition": "Un po’ freddo; appena preparato.",
    "example": "La neve è fresca.",
    "related": "E fresh; F frais, fraîche",
    "usage": "pl. freschi/-e"
@@ -65,6 +67,8 @@
     "der Zentimeter"
    ],
    "page": "183-185",
+   "definition": "Misura di lunghezza; centesima parte del metro.",
+   "example": "Questo libro è lungo venti centimetri.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -82,6 +86,7 @@
     "die Alpen"
    ],
    "page": "183-185",
+   "definition": "Catena di montagne a nord dell’Italia.",
    "example": "Sulle Alpi c’è la neve.",
    "usage": "pl.",
    "grammar": {
@@ -101,6 +106,7 @@
     "nach"
    ],
    "page": "183-185",
+   "definition": "In un momento successivo.",
    "example": "Dopo la scuola vado a casa."
   },
   {
@@ -110,6 +116,8 @@
     "die Tür"
    ],
    "page": "183-185",
+   "definition": "Apertura di una stanza che si chiude.",
+   "example": "Chiudi la porta!",
    "related": "F la porte; L porta",
    "grammar": {
     "partOfSpeech": "noun",
@@ -128,6 +136,7 @@
     "offen"
    ],
    "page": "183-185",
+   "definition": "Non chiuso.",
    "example": "La porta è aperta."
   },
   {
@@ -137,6 +146,7 @@
     "uns/euch (nach Präp.)"
    ],
    "page": "183-185",
+   "definition": "Pronomi che sostituiscono “noi” o “voi” dopo una preposizione.",
    "example": "Vieni con noi in montagna?"
   },
   {
@@ -147,6 +157,8 @@
     "sollen"
    ],
    "page": "183-185",
+   "definition": "Essere obbligato a fare qualcosa.",
+   "example": "Devo studiare.",
    "related": "F devoir; L debere",
    "acceptedAnswers": [
     "dovere"
@@ -160,6 +172,7 @@
     "kommen"
    ],
    "page": "183-185",
+   "definition": "Andare verso chi parla.",
    "example": "Anna, vieni anche tu?",
    "related": "F venir; L venire",
    "acceptedAnswers": [
@@ -176,6 +189,7 @@
     "dorthin"
    ],
    "page": "183-185",
+   "definition": "Piccola parola che sostituisce un luogo.",
    "example": "Vieni a casa mia? – Sì, ci vengo.",
    "usage": "avv. Beachte: ci steht unmittelbar vor dem konjugierten Verb: Vieni in spiaggia con noi? – No, non ci vengo. Non ho tempo."
   },
@@ -187,6 +201,7 @@
     "Ich mache mit!"
    ],
    "page": "183-185",
+   "definition": "Risposta per accettare una proposta con entusiasmo.",
    "example": "Devi venire anche tu! – Sì, ci sto!",
    "usage": "Das Verb stare hat viele unterschiedliche Verwendungen: Come stai? – Sto bene. / State attenti! – Gebt Acht! / Leo sta volentieri in montagna. – Leo ist gerne im Gebirge. / Giorgia sta spesso con i suoi amici. – Giorgia ist häufig mit ihren Freunden zusammen. / Chi viene a sciare con me? – Ci sto. – Ich bin dabei."
   },
@@ -197,6 +212,8 @@
     "vorbereiten"
    ],
    "page": "183-185",
+   "definition": "Rendere pronto qualcosa.",
+   "example": "Preparo la cena.",
    "related": "E to prepare; F préparer"
   },
   {
@@ -206,6 +223,7 @@
     "die Piste"
    ],
    "page": "183-185",
+   "definition": "Percorso per sciare, correre o pattinare.",
    "example": "In montagna ci sono le piste da sci.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -224,6 +242,7 @@
     "allein"
    ],
    "page": "183-185",
+   "definition": "Senza altre persone.",
    "example": "Anna, non vengo. Devi andare da sola.",
    "related": "L solus",
    "acceptedAnswers": [
@@ -238,6 +257,7 @@
     "ich habe bekommen"
    ],
    "page": "183-185",
+   "definition": "Forma del passato: ho ricevuto.",
    "example": "Per il mio compleanno ho avuto uno snowboard.",
    "usage": "Abc"
   },
@@ -248,6 +268,7 @@
     "der Geburtstag"
    ],
    "page": "183-185",
+   "definition": "Giorno in cui si festeggia l’anno di nascita.",
    "example": "Ho avuto uno snowboard per il mio compleanno.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -267,6 +288,7 @@
     "vorbereitet"
    ],
    "page": "183-185",
+   "definition": "Preparato, già a posto.",
    "example": "Partiamo! Siete pronti?"
   },
   {
@@ -276,6 +298,7 @@
     "jdm helfen"
    ],
    "page": "183-185",
+   "definition": "Dare una mano a qualcuno.",
    "example": "Khalid aiuta il suo papà.",
    "related": "F aider qn; ▸ Aiuto!",
    "usage": "Das Verb aiutare steht im Italienischen anders als im Deutschen mit direktem Objekt: Ich helfe den Freunden. – Aiuto gli amici."
@@ -287,6 +310,7 @@
     "können"
    ],
    "page": "183-185",
+   "definition": "Avere la possibilità di fare qualcosa.",
    "example": "Devo fare i compiti. Non posso venire.",
    "related": "F pouvoir; L posse",
    "acceptedAnswers": [
@@ -300,7 +324,9 @@
    "translations": [
     "Schade!"
    ],
-   "page": "183-185"
+   "page": "183-185",
+   "definition": "Esclamazione per dire che dispiace.",
+   "example": "Peccato, piove!"
   },
   {
    "id": "u4-4a-022",
@@ -309,6 +335,7 @@
     "jedenfalls"
    ],
    "page": "183-185",
+   "definition": "In ogni caso.",
    "example": "Comunque è stata una bella partita.",
    "usage": "avv."
   },
@@ -319,6 +346,8 @@
     "nächste(r, s)"
    ],
    "page": "183-185",
+   "definition": "Quello che viene dopo.",
+   "example": "Il prossimo treno parte alle otto.",
    "related": "F prochain(e); L proximus"
   },
   {
@@ -328,6 +357,7 @@
     "das Mal"
    ],
    "page": "183-185",
+   "definition": "Occasione in cui succede qualcosa.",
    "example": "Oggi non posso. Vengo la prossima volta.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -346,6 +376,8 @@
     "antworten"
    ],
    "page": "183-185",
+   "definition": "Dare una risposta a una domanda.",
+   "example": "Rispondo alla tua lettera.",
    "related": "≠ interrogare; F répondre; L respondere"
   },
   {
@@ -355,6 +387,7 @@
     "Entschuldige!"
    ],
    "page": "183-185",
+   "definition": "Per chiedere perdono o attirare l’attenzione, a una persona che dai del tu.",
    "example": "Scusa! Ma non posso venire.",
    "related": "▸ scusi"
   },
@@ -365,6 +398,8 @@
     "der/die Künstler/-in"
    ],
    "page": "183-185",
+   "definition": "Persona che crea opere d’arte, di musica o di spettacolo.",
+   "example": "L’artista dipinge un quadro.",
    "related": "▸ l’arte; E artist; F l’artiste",
    "usage": "m./f.; pl. gli artisti m."
   },
@@ -375,6 +410,8 @@
     "wollen"
    ],
    "page": "183-185",
+   "definition": "Desiderare di avere o di fare qualcosa.",
+   "example": "Voglio un gelato.",
    "related": "F vouloir; L velle",
    "acceptedAnswers": [
     "volere"
@@ -389,6 +426,7 @@
     "auch: können"
    ],
    "page": "183-185",
+   "definition": "Avere conoscenza di qualcosa.",
    "example": "Anna non sa pattinare.",
    "related": "F savoir",
    "acceptedAnswers": [
@@ -403,6 +441,8 @@
     "heute Abend"
    ],
    "page": "183-185",
+   "definition": "Questa sera.",
+   "example": "Stasera vado al cinema.",
    "usage": "avv."
   },
   {
@@ -412,6 +452,7 @@
     "organisieren"
    ],
    "page": "183-185",
+   "definition": "Preparare le cose per un evento.",
    "example": "La madre di Anna organizza un concerto."
   },
   {
@@ -422,6 +463,8 @@
     "lernen"
    ],
    "page": "183-185",
+   "definition": "Imparare con l’aiuto dei libri.",
+   "example": "Studio per la verifica.",
    "related": "▸ lo studente; E study; L studere"
   },
   {
@@ -431,6 +474,8 @@
     "die Gesundheit"
    ],
    "page": "183-185",
+   "definition": "Condizione del corpo di chi sta bene.",
+   "example": "La salute è importante.",
    "related": "L salus",
    "grammar": {
     "partOfSpeech": "noun",
@@ -450,6 +495,8 @@
     "das Studium"
    ],
    "page": "183-185",
+   "definition": "Attività di chi impara leggendo e ripetendo.",
+   "example": "Lo studio richiede tempo.",
    "related": "L studium",
    "usage": "pl. gli studi. Unterscheide: Ho lezioni di danza in uno studio. – Ich habe Tanzkurse in einem Studio. / Dopo lo studio incontro i miei amici. – Nach dem Lernen treffe ich meine Freunde.",
    "grammar": {
@@ -469,6 +516,8 @@
     "töten"
    ],
    "page": "183-185",
+   "definition": "Togliere la vita a una persona o a un animale.",
+   "example": "Il gatto non può uccidere il leone.",
    "related": "L occidere"
   },
   {
@@ -479,6 +528,8 @@
     "Hey!"
    ],
    "page": "183-185",
+   "definition": "Per attirare l’attenzione.",
+   "example": "Ehi, aspettami!",
    "acceptedAnswers": [
     "Ehi!"
    ]
@@ -490,6 +541,7 @@
     "endlich"
    ],
    "page": "183-185",
+   "definition": "Dopo molta attesa.",
    "example": "Adesso arriva Khalid. Finalmente!",
    "related": "▸ finire; E finally",
    "usage": "avv."
@@ -501,6 +553,7 @@
     "Ski fahren"
    ],
    "page": "183-185",
+   "definition": "Scivolare sulla neve con gli sci.",
    "example": "D’inverno vado a sciare.",
    "acceptedAnswers": [
     "sciare"
@@ -513,6 +566,7 @@
     "schneien"
    ],
    "page": "183-185",
+   "definition": "Cadere della neve dal cielo.",
    "example": "A Lecce non nevica spesso."
   },
   {
@@ -522,6 +576,7 @@
     "der Norden"
    ],
    "page": "183-185",
+   "definition": "Punto cardinale in alto sulla carta.",
    "example": "Al nord tutti sanno sciare.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -540,6 +595,8 @@
     "notfalls"
    ],
    "page": "183-185",
+   "definition": "Se non c’è altra soluzione.",
+   "example": "Al limite possiamo andare domani.",
    "usage": "avv."
   },
   {
@@ -550,6 +607,7 @@
     "lernen (etw. zu tun)"
    ],
    "page": "183-185",
+   "definition": "Acquisire una nuova conoscenza o capacità.",
    "example": "Filippo vuole imparare a sciare.",
    "acceptedAnswers": [
     "imparare"
@@ -562,7 +620,9 @@
    "translations": [
     "interessant"
    ],
-   "page": "183-185"
+   "page": "183-185",
+   "definition": "Che attira l’attenzione.",
+   "example": "Il libro è molto interessante."
   },
   {
    "id": "u4-4a-044",
@@ -571,6 +631,7 @@
     "sicher"
    ],
    "page": "183-185",
+   "definition": "Sicuro, senza dubbio.",
    "example": "Vuoi venire anche tu? – Sì, certo!",
    "usage": "avv."
   },
@@ -581,6 +642,7 @@
     "vergessen"
    ],
    "page": "183-185",
+   "definition": "Non ricordare più.",
    "example": "Non dimenticare i compiti a casa!",
    "acceptedAnswers": [
     "dimenticare"
@@ -596,6 +658,7 @@
     "mitbringen"
    ],
    "page": "183-185",
+   "definition": "Avere qualcosa con sé e spostarlo.",
    "example": "A scuola dobbiamo portare i libri.",
    "related": "F porter; L portare"
   },
@@ -606,6 +669,7 @@
     "absolut"
    ],
    "page": "183-185",
+   "definition": "In modo completo, senza dubbio.",
    "example": "Dovete assolutamente venire!",
    "related": "E absolutely",
    "usage": "avv."

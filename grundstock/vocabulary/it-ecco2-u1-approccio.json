@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,8 @@
     "der Absatz"
    ],
    "page": "198-199",
+   "definition": "Parte della scarpa sotto il calcagno, che la alza.",
+   "example": "Porto scarpe con il tacco alto.",
    "usage": "pl. i tacchi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -54,6 +56,8 @@
     "die Oberfläche"
    ],
    "page": "198-199",
+   "definition": "Parte esterna o estensione di un luogo.",
+   "example": "La superficie della Sicilia è molto grande.",
    "related": "E surface; F la surface",
    "usage": "pl. le superfici",
    "grammar": {
@@ -73,6 +77,8 @@
     "der (Quadrat-)Kilometer"
    ],
    "page": "198-199",
+   "definition": "Misura di lunghezza o di area di mille metri.",
+   "example": "Il paese è lungo due chilometri.",
    "acceptedAnswers": [
     "il chilometro"
    ],
@@ -93,6 +99,8 @@
     "die Million"
    ],
    "page": "198-199",
+   "definition": "Mille volte mille.",
+   "example": "A Roma abitano quasi tre milioni di persone.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -110,6 +118,8 @@
     "der/die Bewohner/-in"
    ],
    "page": "198-199",
+   "definition": "Persona che vive in una città o in un paese.",
+   "example": "Questa città ha centomila abitanti.",
    "related": "▸ abitare; E inhabitant; F l’habitant",
    "usage": "m./f."
   },
@@ -120,6 +130,8 @@
     "die Landeshauptstadt"
    ],
    "page": "198-199",
+   "definition": "Città più importante di una regione o di una provincia.",
+   "example": "Firenze è il capoluogo della Toscana.",
    "usage": "pl. i capoluoghi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -138,6 +150,8 @@
     "der Baum"
    ],
    "page": "198-199",
+   "definition": "Grande pianta con tronco e foglie.",
+   "example": "Un albero cresce nel giardino.",
    "related": "F l’arbre"
   },
   {
@@ -148,6 +162,8 @@
     "erschaffen"
    ],
    "page": "198-199",
+   "definition": "Fare qualcosa che prima non c’era.",
+   "example": "Gli studenti creano un poster.",
    "related": "E create; F créer"
   },
   {
@@ -157,6 +173,8 @@
     "der Wald"
    ],
    "page": "198-199",
+   "definition": "Luogo con molti alberi.",
+   "example": "Facciamo una passeggiata nel bosco.",
    "usage": "pl. i boschi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -175,6 +193,8 @@
     "der Schatten"
    ],
    "page": "198-199",
+   "definition": "Zona dove non arriva il sole.",
+   "example": "D’estate stiamo all’ombra.",
    "related": "F l’ombre"
   },
   {
@@ -184,6 +204,8 @@
     "der/die Heilige"
    ],
    "page": "198-199",
+   "definition": "Persona che la Chiesa ricorda con rispetto.",
+   "example": "San Francesco è un santo molto amato.",
    "related": "E/F saint; L sanctus"
   },
   {
@@ -193,6 +215,8 @@
     "die Kirche"
    ],
    "page": "198-199",
+   "definition": "Edificio dove si prega.",
+   "example": "La chiesa del paese è molto antica.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -210,6 +234,8 @@
     "feiern"
    ],
    "page": "198-199",
+   "definition": "Ricordare con una festa o una cerimonia.",
+   "example": "Celebriamo il compleanno della nonna.",
    "related": "E to celebrate; F célébrer"
   },
   {
@@ -218,7 +244,9 @@
    "translations": [
     "von … bis"
    ],
-   "page": "198-199"
+   "page": "198-199",
+   "definition": "Indica l’inizio e la fine di un periodo o di un percorso.",
+   "example": "Lavoro da lunedì a venerdì."
   },
   {
    "id": "u1-approccio-015",
@@ -228,6 +256,8 @@
     "bekannt"
    ],
    "page": "198-199",
+   "definition": "Conosciuto da molte persone.",
+   "example": "Questo ristorante è famoso.",
    "related": "E famous"
   },
   {
@@ -237,6 +267,8 @@
     "tatsächlich"
    ],
    "page": "198-199",
+   "definition": "Parola che conferma quello che si è detto.",
+   "example": "Piove: infatti prendo l’ombrello.",
    "related": "E in fact; F en effet"
   },
   {
@@ -246,6 +278,8 @@
     "die Münze"
    ],
    "page": "198-199",
+   "definition": "Pezzetto di metallo che serve per pagare.",
+   "example": "Ho una moneta da due euro.",
    "related": "E money; F monnaie",
    "grammar": {
     "partOfSpeech": "noun",
@@ -264,6 +298,8 @@
     "der Cent"
    ],
    "page": "198-199",
+   "definition": "La monetina più piccola, cento di queste fanno un euro.",
+   "example": "Il caffè costa ottanta centesimi.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -282,6 +318,8 @@
     "das Schloss"
    ],
    "page": "198-199",
+   "definition": "Grande casa fortificata dei nobili antichi.",
+   "example": "Il castello è sulla collina.",
    "related": "E castle",
    "grammar": {
     "partOfSpeech": "noun",
@@ -300,6 +338,8 @@
     "mittelalterlich"
    ],
    "page": "198-199",
+   "definition": "Del Medioevo, periodo tra l’antichità e l’età moderna.",
+   "example": "Visitiamo una città medievale.",
    "related": "E medieval; F médiéval(e)",
    "acceptedAnswers": [
     "medievale"
@@ -312,6 +352,8 @@
     "der/die Kaiser/-in"
    ],
    "page": "198-199",
+   "definition": "Capo di un grande impero.",
+   "example": "L’imperatore romano abitava a Roma.",
    "related": "E emperor; F l’empereur"
   },
   {
@@ -321,6 +363,8 @@
     "das Dach"
    ],
    "page": "198-199",
+   "definition": "Parte superiore di una casa.",
+   "example": "Il tetto della casa è rosso.",
    "related": "F le toit; L tectum",
    "grammar": {
     "partOfSpeech": "noun",
@@ -338,7 +382,9 @@
    "translations": [
     "typisch"
    ],
-   "page": "198-199"
+   "page": "198-199",
+   "definition": "Caratteristico di un luogo.",
+   "example": "La pizza è tipica di Napoli."
   },
   {
    "id": "u1-approccio-024",
@@ -347,6 +393,8 @@
     "der Stein"
    ],
    "page": "198-199",
+   "definition": "Materiale duro che si trova in natura.",
+   "example": "Il muro è di pietra.",
    "related": "F la pierre",
    "grammar": {
     "partOfSpeech": "noun",
@@ -364,7 +412,9 @@
    "translations": [
     "Wusstest du, dass …"
    ],
-   "page": "198-199"
+   "page": "198-199",
+   "definition": "Frase per introdurre una curiosità.",
+   "example": "Sapevi che Venezia ha più di cento isole?"
   },
   {
    "id": "u1-approccio-026",
@@ -373,6 +423,8 @@
     "die Region"
    ],
    "page": "198-199",
+   "definition": "Parte di un paese con un suo governo.",
+   "example": "La Toscana è una bella regione.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -390,6 +442,8 @@
     "das Öl"
    ],
    "page": "198-199",
+   "definition": "Liquido grasso che si usa per cucinare.",
+   "example": "Condisco l’insalata con olio e sale.",
    "related": "E oil"
   },
   {
@@ -398,7 +452,9 @@
    "translations": [
     "die Olive"
    ],
-   "page": "198-199"
+   "page": "198-199",
+   "definition": "Piccolo frutto verde o nero da cui si ricava un olio.",
+   "example": "Mangio le olive con il pane."
   },
   {
    "id": "u1-approccio-029",
@@ -407,6 +463,8 @@
     "die Produktion"
    ],
    "page": "198-199",
+   "definition": "Fabbricazione di molti prodotti.",
+   "example": "La produzione di vino è importante in Piemonte.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -425,6 +483,8 @@
     "die Nudeln"
    ],
    "page": "198-199",
+   "definition": "Cibo italiano fatto con farina e acqua.",
+   "example": "Mangio la pasta ogni giorno.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -442,6 +502,8 @@
     "die Küste"
    ],
    "page": "198-199",
+   "definition": "Zona di terra vicina al mare.",
+   "example": "La costa della Liguria è bellissima.",
    "related": "E coast; F la côte",
    "grammar": {
     "partOfSpeech": "noun",
@@ -460,6 +522,8 @@
     "(an-)bieten"
    ],
    "page": "198-199",
+   "definition": "Mettere a disposizione o regalare.",
+   "example": "L’hotel offre la colazione.",
    "related": "E offer; F offrir; L offerre",
    "usage": "p.p. offerto"
   },
@@ -470,6 +534,8 @@
     "der Sand"
    ],
    "page": "198-199",
+   "definition": "Granelli piccoli che coprono la spiaggia.",
+   "example": "I bambini giocano nella sabbia.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -487,6 +553,8 @@
     "die Klippe"
    ],
    "page": "198-199",
+   "definition": "Grande pietra che esce dal mare.",
+   "example": "I gabbiani sono sullo scoglio.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -503,7 +571,9 @@
    "translations": [
     "überall"
    ],
-   "page": "198-199"
+   "page": "198-199",
+   "definition": "In ogni posto.",
+   "example": "Ci sono turisti dappertutto."
   },
   {
    "id": "u1-approccio-036",
@@ -511,7 +581,9 @@
    "translations": [
     "sauber"
    ],
-   "page": "198-199"
+   "page": "198-199",
+   "definition": "Senza sporco.",
+   "example": "La camera è pulita."
   },
   {
    "id": "u1-approccio-037",
@@ -520,6 +592,8 @@
     "das Beispiel"
    ],
    "page": "198-199",
+   "definition": "Caso che aiuta a capire una regola.",
+   "example": "Dammi un esempio, per favore.",
    "related": "E example",
    "usage": "pl. gli esempi"
   },
@@ -530,6 +604,8 @@
     "der Hafen"
    ],
    "page": "198-199",
+   "definition": "Luogo dove si fermano le navi.",
+   "example": "Le navi sono nel porto.",
    "related": "E/F port; L portus",
    "grammar": {
     "partOfSpeech": "noun",
@@ -547,7 +623,9 @@
    "translations": [
     "Norden"
    ],
-   "page": "198-199"
+   "page": "198-199",
+   "definition": "Punto cardinale in alto sulla carta.",
+   "example": "Milano è a nord di Roma."
   },
   {
    "id": "u1-approccio-040",
@@ -555,7 +633,9 @@
    "translations": [
     "Süden"
    ],
-   "page": "198-199"
+   "page": "198-199",
+   "definition": "Punto cardinale opposto al nord.",
+   "example": "Napoli è a sud di Roma."
   },
   {
    "id": "u1-approccio-041",
@@ -563,7 +643,9 @@
    "translations": [
     "Osten"
    ],
-   "page": "198-199"
+   "page": "198-199",
+   "definition": "Punto cardinale dove sorge il sole.",
+   "example": "Venezia è a est di Milano."
   },
   {
    "id": "u1-approccio-042",
@@ -571,7 +653,9 @@
    "translations": [
     "Westen"
    ],
-   "page": "198-199"
+   "page": "198-199",
+   "definition": "Punto cardinale dove tramonta il sole.",
+   "example": "Torino è a ovest di Milano."
   }
  ],
  "catalog": {

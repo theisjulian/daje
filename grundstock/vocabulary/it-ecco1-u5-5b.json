@@ -23,7 +23,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,6 +34,7 @@
     "römisch"
    ],
    "page": "188-190",
+   "definition": "Che viene dalla capitale d’Italia.",
    "example": "La mia amica è di Roma. È romana."
   },
   {
@@ -44,6 +45,8 @@
     "vor kurzem"
    ],
    "page": "188-190",
+   "definition": "In questi ultimi tempi.",
+   "example": "Ultimamente studio molto.",
    "related": "▸ ultimo/-a",
    "usage": "avv."
   },
@@ -55,6 +58,7 @@
     "viel"
    ],
    "page": "188-190",
+   "definition": "In grande quantità; molto.",
    "example": "A scuola devo studiare tanto!",
    "related": "= molto; F tant",
    "usage": "avv. Unterscheide: Il film è poco interessante. – Der Film ist wenig/kaum interessant. La pizza è molto buona. – Die Pizza ist sehr gut. I cugini sono tanto carini. – Die Cousins sind sehr süß. La mia camera è troppo piccola. – Mein Zimmer ist zu klein."
@@ -66,6 +70,7 @@
     "(das) Ostern"
    ],
    "page": "188-190",
+   "definition": "Festa della primavera, con le uova di cioccolato.",
    "example": "A Pasqua ci sono le vacanze.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -84,6 +89,7 @@
     "die Reise"
    ],
    "page": "188-190",
+   "definition": "Spostamento da un posto a un altro lontano.",
    "example": "In vacanza voglio fare un viaggio a Roma.",
    "usage": "pl. i viaggi",
    "grammar": {
@@ -103,6 +109,7 @@
     "die Ruhe"
    ],
    "page": "188-190",
+   "definition": "Stato di chi non è agitato.",
    "example": "Mantieni la calma!",
    "related": "E calm; F le calme",
    "grammar": {
@@ -122,6 +129,7 @@
     "der Flug"
    ],
    "page": "188-190",
+   "definition": "Viaggio in aereo.",
    "example": "Cerco un volo per Roma in Internet.",
    "related": "F le vol",
    "grammar": {
@@ -141,6 +149,7 @@
     "der Preis"
    ],
    "page": "188-190",
+   "definition": "Quanto costa una cosa.",
    "example": "Ho trovato un volo a buon prezzo.",
    "related": "E price; L pretium",
    "grammar": {
@@ -160,7 +169,9 @@
     "günstig",
     "billig"
    ],
-   "page": "188-190"
+   "page": "188-190",
+   "definition": "Che costa poco.",
+   "example": "Ho comprato la giacca a buon prezzo."
   },
   {
    "id": "u5-5b-010",
@@ -169,6 +180,7 @@
     "kaufen"
    ],
    "page": "188-190",
+   "definition": "Prendere qualcosa pagando.",
    "example": "Compro un vestito al negozio.",
    "related": "≠ vendere"
   },
@@ -180,6 +192,7 @@
     "das Ticket"
    ],
    "page": "188-190",
+   "definition": "Pezzetto di carta per viaggiare o per entrare.",
    "example": "Filippo organizza i biglietti per il volo.",
    "related": "F le billet",
    "grammar": {
@@ -199,6 +212,7 @@
     "der Flughafen"
    ],
    "page": "188-190",
+   "definition": "Luogo da cui partono gli aerei.",
    "example": "All’aeroporto ci sono molti aerei.",
    "related": "E airport; F l’aéroport"
   },
@@ -209,6 +223,7 @@
     "der Bus"
    ],
    "page": "188-190",
+   "definition": "Mezzo pubblico per la città.",
    "example": "Abbiamo perso l’autobus.",
    "usage": "pl. gli autobus"
   },
@@ -219,6 +234,7 @@
     "der Bahnhof"
    ],
    "page": "188-190",
+   "definition": "Luogo da cui partono e arrivano i treni.",
    "example": "Prendo l’autobus dalla stazione.",
    "related": "E station",
    "grammar": {
@@ -238,6 +254,8 @@
     "sofort"
    ],
    "page": "188-190",
+   "definition": "Immediatamente.",
+   "example": "Vieni subito!",
    "usage": "avv."
   },
   {
@@ -247,6 +265,7 @@
     "versprechen"
    ],
    "page": "188-190",
+   "definition": "Dire che farai sicuramente qualcosa.",
    "example": "Telefono subito, promesso!",
    "related": "L promittere",
    "usage": "p.p. promesso"
@@ -258,6 +277,7 @@
     "die Haltestelle"
    ],
    "page": "188-190",
+   "definition": "Punto dove si sale e si scende dal bus.",
    "example": "Devo scendere alla prossima fermata.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -277,6 +297,7 @@
     "erwarten"
    ],
    "page": "188-190",
+   "definition": "Stare in un luogo finché arriva qualcosa.",
    "example": "I ragazzi aspettano l’autobus alla fermata."
   },
   {
@@ -287,6 +308,7 @@
     "(über)prüfen"
    ],
    "page": "188-190",
+   "definition": "Verificare che tutto sia a posto.",
    "example": "Devo controllare l’orario dell’autobus.",
    "related": "E to control"
   },
@@ -298,6 +320,7 @@
     "die Bahn"
    ],
    "page": "188-190",
+   "definition": "Mezzo che corre sui binari.",
    "example": "Prendiamo il treno per il centro.",
    "related": "E train",
    "grammar": {
@@ -316,7 +339,9 @@
    "translations": [
     "Was für ein Schlamassel!"
    ],
-   "page": "188-190"
+   "page": "188-190",
+   "definition": "Esclamazione per una situazione confusa.",
+   "example": "Che pasticcio, ho perso il biglietto!"
   },
   {
    "id": "u5-5b-022",
@@ -325,6 +350,8 @@
     "das Taxi"
    ],
    "page": "188-190",
+   "definition": "Auto pubblica con un conducente che si paga.",
+   "example": "Prendiamo un taxi per l’aeroporto.",
    "usage": "pl. i taxi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -343,6 +370,7 @@
     "kosten"
    ],
    "page": "188-190",
+   "definition": "Avere un certo prezzo.",
    "example": "Il biglietto per il volo costa tanto.",
    "related": "E to cost"
   },
@@ -354,6 +382,7 @@
     "eine Menge"
    ],
    "page": "188-190",
+   "definition": "Espressione informale per dire: moltissimo.",
    "example": "Il taxi costa un sacco! Ho un sacco di compiti per domani.",
    "usage": "fam."
   },
@@ -364,6 +393,8 @@
     "die Verspätung"
    ],
    "page": "188-190",
+   "definition": "Arrivo dopo l’ora prevista.",
+   "example": "Il treno ha un ritardo di dieci minuti.",
    "related": "▸ essere in ritardo",
    "grammar": {
     "partOfSpeech": "noun",
@@ -382,6 +413,8 @@
     "nichts"
    ],
    "page": "188-190",
+   "definition": "Nessuna cosa.",
+   "example": "Non ho niente da fare.",
    "usage": "avv."
   },
   {
@@ -391,6 +424,7 @@
     "Das macht nichts!"
    ],
    "page": "188-190",
+   "definition": "Si dice per dire: non è importante.",
    "example": "Scusa! Sono in ritardo. – Non fa niente!"
   },
   {
@@ -399,7 +433,9 @@
    "translations": [
     "Es hat wirklich gut angefangen."
    ],
-   "page": "188-190"
+   "page": "188-190",
+   "definition": "Frase ironica quando l’inizio non è buono.",
+   "example": "La gita? È cominciato proprio bene: piove!"
   },
   {
    "id": "u5-5b-029",
@@ -409,6 +445,7 @@
     "die Maschine"
    ],
    "page": "188-190",
+   "definition": "Veicolo con quattro ruote.",
    "example": "Vado all’aeroporto in macchina.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -427,6 +464,8 @@
     "ohne"
    ],
    "page": "188-190",
+   "definition": "Piccola parola che indica mancanza.",
+   "example": "Esco senza ombrello.",
    "related": "≠ con; F sans"
   },
   {
@@ -437,6 +476,7 @@
     "einsteigen"
    ],
    "page": "188-190",
+   "definition": "Andare verso l’alto o entrare in un mezzo.",
    "example": "Il treno parte. Devo salire.",
    "related": "≠ scendere",
    "acceptedAnswers": [
@@ -452,6 +492,7 @@
     "in Kürze"
    ],
    "page": "188-190",
+   "definition": "Fra pochissimo tempo.",
    "example": "Tra poco siamo arrivati."
   },
   {
@@ -462,6 +503,7 @@
     "gehen"
    ],
    "page": "188-190",
+   "definition": "Muoversi a piedi.",
    "example": "Dalla stazione dobbiamo camminare un po’.",
    "usage": "Unterscheide: Devo camminare circa 35 minuti per arrivare a scuola. – Ich muss etwa 35 Minuten gehen/laufen, um in die Schule zu gelangen. La mattina devo andare a scuola. – Morgens muss ich in die Schule gehen. Mit camminare ist die Bewegung oder Bewegungsart gemeint. Einige Verben bilden das passato prossimo unregelmäßig: Ho camminato un’ora. – Ich bin eine Stunde lang spazieren gegangen."
   }

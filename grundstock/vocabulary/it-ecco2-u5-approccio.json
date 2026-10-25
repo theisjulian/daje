@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,8 @@
     "der Schritt"
    ],
    "page": "217-218",
+   "definition": "Movimento di un piede quando si cammina.",
+   "example": "Faccio due passi.",
    "related": "L passus",
    "grammar": {
     "partOfSpeech": "noun",
@@ -53,6 +55,8 @@
     "(zwei Schritte) entfernt von"
    ],
    "page": "217-218",
+   "definition": "Molto vicino a.",
+   "example": "Casa mia è a due passi da scuola.",
    "acceptedAnswers": [
     "a da"
    ]
@@ -64,6 +68,8 @@
     "der Pinienwald"
    ],
    "page": "217-218",
+   "definition": "Bosco di pini.",
+   "example": "Passeggiamo nella pineta.",
    "related": "F la pinière",
    "grammar": {
     "partOfSpeech": "noun",
@@ -81,7 +87,9 @@
    "translations": [
     "(ver)mieten"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "definition": "Prendere o dare in uso una casa pagando.",
+   "example": "Affitto un appartamento."
   },
   {
    "id": "u5-approccio-005",
@@ -90,6 +98,8 @@
     "der Wohnwagen"
    ],
    "page": "217-218",
+   "definition": "Piccola casa su ruote.",
+   "example": "Andiamo in vacanza in roulotte.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -108,6 +118,8 @@
     "erreichbar"
    ],
    "page": "217-218",
+   "definition": "Facile da raggiungere o da usare.",
+   "example": "Il museo è accessibile a tutti.",
    "related": "E accessible"
   },
   {
@@ -116,7 +128,9 @@
    "translations": [
     "der/die (Körper-)Behinderte"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "definition": "Persona con una disabilità.",
+   "example": "Il bagno è per portatori di handicap."
   },
   {
    "id": "u5-approccio-008",
@@ -126,6 +140,8 @@
     "das Gebäude"
    ],
    "page": "217-218",
+   "definition": "Costruzione organizzata.",
+   "example": "La struttura ha una piscina.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -144,6 +160,8 @@
     "der Pool"
    ],
    "page": "217-218",
+   "definition": "Grande vasca per nuotare.",
+   "example": "D’estate vado in piscina.",
    "related": "F la piscine",
    "grammar": {
     "partOfSpeech": "noun",
@@ -162,6 +180,8 @@
     "der Spielplatz"
    ],
    "page": "217-218",
+   "definition": "Spazio con altalene per bambini.",
+   "example": "I bambini giocano nel parco giochi.",
    "usage": "pl. i parchi giochi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -179,7 +199,9 @@
    "translations": [
     "ausgestattet"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "definition": "Dotato dei mezzi necessari.",
+   "example": "Il campeggio è attrezzato."
   },
   {
    "id": "u5-approccio-012",
@@ -187,7 +209,9 @@
    "translations": [
     "in der Umgebung"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "definition": "Nella zona vicina.",
+   "example": "Ci sono molti negozi nei dintorni."
   },
   {
    "id": "u5-approccio-013",
@@ -196,6 +220,8 @@
     "der Einkaufsladen"
    ],
    "page": "217-218",
+   "definition": "Piccolo negozio di alimentari.",
+   "example": "Compro il pane al mini market.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -212,7 +238,9 @@
    "translations": [
     "Tennis-/Beachvolleyball-Platz"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "definition": "Area per giocare a tennis o pallavolo sulla sabbia.",
+   "example": "Giochiamo sul campo da beach volley."
   },
   {
    "id": "u5-approccio-015",
@@ -221,6 +249,8 @@
     "die Insel"
    ],
    "page": "217-218",
+   "definition": "Terra circondata dal mare.",
+   "example": "La Sicilia è un’isola.",
    "related": "L insula"
   },
   {
@@ -230,6 +260,8 @@
     "der Ausflug"
    ],
    "page": "217-218",
+   "definition": "Gita breve in luoghi naturali.",
+   "example": "Facciamo un’escursione in montagna.",
    "usage": "f."
   },
   {
@@ -239,7 +271,9 @@
     "der Agrotourismus",
     "Urlaub auf dem Bauernhof"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "definition": "Azienda agricola che accoglie turisti.",
+   "example": "Passiamo il weekend in un agriturismo."
   },
   {
    "id": "u5-approccio-018",
@@ -247,7 +281,9 @@
    "translations": [
     "der Olivenhain"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "definition": "Terreno con ulivi.",
+   "example": "Il casale è in mezzo a un uliveto."
   },
   {
    "id": "u5-approccio-019",
@@ -257,6 +293,8 @@
     "die Gegend"
    ],
    "page": "217-218",
+   "definition": "Parte di un territorio.",
+   "example": "È una zona tranquilla.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -275,6 +313,8 @@
     "inmitten (von)"
    ],
    "page": "217-218",
+   "definition": "Nel centro di qualcosa.",
+   "example": "La casa è in mezzo al bosco.",
    "acceptedAnswers": [
     "in mezzo"
    ],
@@ -287,6 +327,8 @@
     "der Garten"
    ],
    "page": "217-218",
+   "definition": "Area verde vicino a una casa.",
+   "example": "Giochiamo in giardino.",
    "related": "F le jardin",
    "grammar": {
     "partOfSpeech": "noun",
@@ -305,6 +347,8 @@
     "die Natur"
    ],
    "page": "217-218",
+   "definition": "Tutto quello che esiste senza l’uomo: piante, animali, montagne.",
+   "example": "Amo la natura.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -322,6 +366,8 @@
     "das Produkt"
    ],
    "page": "217-218",
+   "definition": "Cosa fabbricata o coltivata.",
+   "example": "Compriamo prodotti locali.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -338,7 +384,9 @@
    "translations": [
     "erreichbar"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "definition": "Che si può raggiungere.",
+   "example": "Il paese è raggiungibile in autobus."
   },
   {
    "id": "u5-approccio-025",
@@ -347,6 +395,8 @@
     "entlang"
    ],
    "page": "217-218",
+   "definition": "Per tutta l’estensione.",
+   "example": "Camminiamo lungo il fiume.",
    "usage": "prep."
   },
   {
@@ -359,6 +409,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Cammino di pellegrinaggio nei luoghi di San Francesco.",
+   "example": "Facciamo il Sentiero Francescano.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -376,6 +428,8 @@
     "man braucht"
    ],
    "page": "217-218",
+   "definition": "Dice che serve una certa quantità.",
+   "example": "Ci vogliono tre ore per arrivare.",
    "usage": "Unterscheide: ci vuole (man braucht) – bisogna (man muss) – ho bisogno di / mi serve (ich brauche)"
   },
   {
@@ -385,6 +439,8 @@
     "das Pferd"
    ],
    "page": "217-218",
+   "definition": "Grande animale con la criniera che si monta.",
+   "example": "Il cavallo corre nel campo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -402,7 +458,9 @@
     "zu Pferd",
     "mit dem Pferd"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "definition": "Montando un cavallo.",
+   "example": "Facciamo un giro a cavallo."
   },
   {
    "id": "u5-approccio-030",
@@ -411,6 +469,8 @@
     "das Grüne"
    ],
    "page": "217-218",
+   "definition": "Colore o area con piante.",
+   "example": "C’è molto verde in questa città.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -428,6 +488,8 @@
     "das Fernrohr"
    ],
    "page": "217-218",
+   "definition": "Strumento con lenti per guardare lontano.",
+   "example": "Galileo usò il cannocchiale.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -445,6 +507,8 @@
     "der/die Wissenschaftler/in"
    ],
    "page": "217-218",
+   "definition": "Persona che fa ricerche scientifiche.",
+   "example": "Galileo era uno scienziato.",
    "related": "E scientist"
   },
   {
@@ -454,7 +518,9 @@
     "erwerben",
     "kaufen"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "definition": "Comprare.",
+   "example": "Acquisto un biglietto."
   },
   {
    "id": "u5-approccio-034",
@@ -462,7 +528,9 @@
    "translations": [
     "reduziert"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "definition": "Più basso.",
+   "example": "Il biglietto ridotto costa meno."
   },
   {
    "id": "u5-approccio-035",
@@ -472,6 +540,8 @@
     "der Rabatt"
    ],
    "page": "217-218",
+   "definition": "Riduzione di prezzo.",
+   "example": "C’è uno sconto del dieci per cento.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -489,6 +559,8 @@
     "der Aufenthalt"
    ],
    "page": "217-218",
+   "definition": "Periodo che si passa in un luogo.",
+   "example": "Il soggiorno dura una settimana.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -507,6 +579,8 @@
     "der Zeitabschnitt"
    ],
    "page": "217-218",
+   "definition": "Intervallo di tempo.",
+   "example": "È un periodo di vacanza.",
    "related": "E period",
    "grammar": {
     "partOfSpeech": "noun",
@@ -524,7 +598,9 @@
    "translations": [
     "kontaktieren"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "definition": "Mettersi in comunicazione con qualcuno.",
+   "example": "Contatto l’hotel via mail."
   },
   {
    "id": "u5-approccio-039",
@@ -532,7 +608,9 @@
    "translations": [
     "verfügbar"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "definition": "Libero, che si può avere.",
+   "example": "La camera è disponibile."
   },
   {
    "id": "u5-approccio-040",
@@ -541,6 +619,8 @@
     "das Zimmer"
    ],
    "page": "217-218",
+   "definition": "Parte di un appartamento.",
+   "example": "La mia stanza è grande.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -557,7 +637,9 @@
    "translations": [
     "das Flugzeug"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "definition": "Veicolo che vola.",
+   "example": "L’aereo parte alle dieci."
   },
   {
    "id": "u5-approccio-042",
@@ -565,7 +647,9 @@
    "translations": [
     "Miet-"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "definition": "Che si prende in affitto per un tempo.",
+   "example": "Prendo un’auto a noleggio."
   },
   {
    "id": "u5-approccio-043",
@@ -574,6 +658,8 @@
     "der Shuttlebus"
    ],
    "page": "217-218",
+   "definition": "Piccolo autobus che collega due punti.",
+   "example": "La navetta porta all’aeroporto.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -590,7 +676,9 @@
    "translations": [
     "Mit freundlichen Grüßen (Brief)"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "definition": "Formula finale di una lettera.",
+   "example": "Cordialmente, Marco Rossi."
   },
   {
    "id": "u5-approccio-045",
@@ -598,7 +686,9 @@
    "translations": [
     "danken"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "definition": "Dire grazie.",
+   "example": "Ringrazio i miei amici."
   },
   {
    "id": "u5-approccio-046",
@@ -606,7 +696,9 @@
    "translations": [
     "im Voraus"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "definition": "Prima del tempo previsto.",
+   "example": "Arrivo in anticipo."
   }
  ],
  "catalog": {

@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,8 @@
     "die Grundschule"
    ],
    "page": "212-214",
+   "definition": "Scuola per i bambini da sei a dieci anni.",
+   "example": "Alla scuola elementare ho imparato a leggere.",
    "related": "E elementary school",
    "grammar": {
     "partOfSpeech": "noun",
@@ -53,6 +55,8 @@
     "3-jährige Schule der Sekundarstufe I"
    ],
    "page": "212-214",
+   "definition": "Scuola per ragazzi da undici a quattordici anni.",
+   "example": "Alla scuola media studio tre lingue.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -70,6 +74,8 @@
     "Schul-"
    ],
    "page": "212-214",
+   "definition": "Che riguarda la scuola.",
+   "example": "L’anno scolastico comincia a settembre.",
    "usage": "pl. scolastici, scolastiche"
   },
   {
@@ -78,7 +84,9 @@
    "translations": [
     "die Schulpflicht"
    ],
-   "page": "212-214"
+   "page": "212-214",
+   "definition": "Dovere di frequentare la scuola fino a una certa età.",
+   "example": "L’obbligo scolastico dura dieci anni."
   },
   {
    "id": "u4-approccio-005",
@@ -87,6 +95,8 @@
     "die Hälfte"
    ],
    "page": "212-214",
+   "definition": "Una delle due parti uguali.",
+   "example": "Metà della classe è assente.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -104,6 +114,8 @@
     "dritte Klasse der Sek. I (entspricht 8. Schuljahr)"
    ],
    "page": "212-214",
+   "definition": "Ultimo anno della scuola media italiana.",
+   "example": "In terza media faccio l’esame.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -121,6 +133,8 @@
     "das Prozent"
    ],
    "page": "212-214",
+   "definition": "Parte su cento.",
+   "example": "Il venti percento degli studenti viene in bici.",
    "related": "E percent; F pour cent",
    "usage": "Vor Prozentzahlen steht immer il bzw. l’",
    "grammar": {
@@ -140,6 +154,8 @@
     "die Möglichkeit"
    ],
    "page": "212-214",
+   "definition": "Occasione di fare qualcosa.",
+   "example": "Ho la possibilità di studiare all’estero.",
    "related": "E possibility",
    "grammar": {
     "partOfSpeech": "noun",
@@ -157,7 +173,9 @@
    "translations": [
     "die Berufsfachschule (Sekundarstufe II)"
    ],
-   "page": "212-214"
+   "page": "212-214",
+   "definition": "Scuola superiore che prepara a un mestiere.",
+   "example": "Frequento l’istituto professionale."
   },
   {
    "id": "u4-approccio-010",
@@ -165,7 +183,9 @@
    "translations": [
     "die Fachoberschule (Sekundarstufe II)"
    ],
-   "page": "212-214"
+   "page": "212-214",
+   "definition": "Scuola superiore che prepara a lavori tecnici.",
+   "example": "Mio fratello va all’istituto tecnico."
   },
   {
    "id": "u4-approccio-011",
@@ -174,6 +194,8 @@
     "technisch"
    ],
    "page": "212-214",
+   "definition": "Che riguarda le macchine e le tecnologie.",
+   "example": "È un lavoro tecnico.",
    "related": "E technical; F technique",
    "usage": "pl. tecnici, tecniche"
   },
@@ -183,7 +205,9 @@
    "translations": [
     "der/die Journalist/in"
    ],
-   "page": "212-214"
+   "page": "212-214",
+   "definition": "Persona che scrive notizie.",
+   "example": "La giornalista intervista il sindaco."
   },
   {
    "id": "u4-approccio-013",
@@ -191,7 +215,9 @@
    "translations": [
     "interviewen"
    ],
-   "page": "212-214"
+   "page": "212-214",
+   "definition": "Fare domande a qualcuno per un articolo.",
+   "example": "Intervisto un calciatore."
   },
   {
    "id": "u4-approccio-014",
@@ -200,6 +226,8 @@
     "der Traum"
    ],
    "page": "212-214",
+   "definition": "Immagine nel sonno o desiderio grande.",
+   "example": "Il mio sogno è viaggiare.",
    "related": "L somnium",
    "grammar": {
     "partOfSpeech": "noun",
@@ -219,6 +247,8 @@
     "die Rechtswissenschaft"
    ],
    "page": "212-214",
+   "definition": "Studio del diritto e delle leggi.",
+   "example": "Mio zio studia giurisprudenza.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -236,6 +266,8 @@
     "der/die Notar/in"
    ],
    "page": "212-214",
+   "definition": "Professionista che certifica documenti.",
+   "example": "Il notaio firma il contratto.",
    "usage": "pl. i notai"
   },
   {
@@ -245,6 +277,8 @@
     "der Beruf"
    ],
    "page": "212-214",
+   "definition": "Lavoro che si fa per vivere.",
+   "example": "Qual è la tua professione?",
    "related": "E profession",
    "grammar": {
     "partOfSpeech": "noun",
@@ -263,7 +297,9 @@
     "angesehen",
     "respektiert"
    ],
-   "page": "212-214"
+   "page": "212-214",
+   "definition": "Considerato con stima.",
+   "example": "Il medico è molto rispettato."
   },
   {
    "id": "u4-approccio-019",
@@ -271,7 +307,9 @@
    "translations": [
     "der/die Restaurator/in"
    ],
-   "page": "212-214"
+   "page": "212-214",
+   "definition": "Persona che ripara opere antiche.",
+   "example": "La restauratrice lavora su un quadro."
   },
   {
    "id": "u4-approccio-020",
@@ -280,6 +318,8 @@
     "das Möbel(-stück)"
    ],
    "page": "212-214",
+   "definition": "Oggetto di legno per la casa.",
+   "example": "Un mobile antico.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -298,6 +338,8 @@
     "das Gewerbe"
    ],
    "page": "212-214",
+   "definition": "Lavoro manuale o artigianale.",
+   "example": "Il falegname fa un bel mestiere.",
    "usage": "Unterscheide: il mestiere (handwerklich) – la professione (erlernt)",
    "grammar": {
     "partOfSpeech": "noun",
@@ -316,6 +358,8 @@
     "die Arbeit"
    ],
    "page": "212-214",
+   "definition": "Attività che si fa per guadagnare.",
+   "example": "Il mio lavoro è interessante.",
    "related": "L labor",
    "grammar": {
     "partOfSpeech": "noun",
@@ -334,6 +378,8 @@
     "jdn stören"
    ],
    "page": "212-214",
+   "definition": "Disturbare qualcuno.",
+   "example": "Il rumore mi dà fastidio.",
    "usage": "Abc"
   },
   {
@@ -343,6 +389,8 @@
     "das Büro"
    ],
    "page": "212-214",
+   "definition": "Luogo dove si lavora con carte e computer.",
+   "example": "Lavoro in un ufficio.",
    "related": "E office",
    "usage": "pl. gli uffici"
   },
@@ -352,7 +400,9 @@
    "translations": [
     "reisen"
    ],
-   "page": "212-214"
+   "page": "212-214",
+   "definition": "Spostarsi in luoghi lontani.",
+   "example": "Mi piace viaggiare."
   },
   {
    "id": "u4-approccio-026",
@@ -361,6 +411,8 @@
     "das (Export-)Unternehmen"
    ],
    "page": "212-214",
+   "definition": "Impresa che vende prodotti all’estero.",
+   "example": "Lavora in un’azienda di export.",
    "acceptedAnswers": [
     "l’azienda"
    ]
@@ -374,6 +426,8 @@
     "kinderreich"
    ],
    "page": "212-214",
+   "definition": "Con molti membri.",
+   "example": "Ho una famiglia numerosa.",
    "related": "E numerous"
   },
   {
@@ -382,7 +436,9 @@
    "translations": [
     "der Kindergarten"
    ],
-   "page": "212-214"
+   "page": "212-214",
+   "definition": "Scuola per bambini piccoli.",
+   "example": "Mia sorella va all’asilo."
   },
   {
    "id": "u4-approccio-029",
@@ -391,6 +447,8 @@
     "der Stress"
    ],
    "page": "212-214",
+   "definition": "Tensione dovuta a troppo lavoro.",
+   "example": "Il lavoro mi dà stress.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -408,6 +466,8 @@
     "die Wahrheit"
    ],
    "page": "212-214",
+   "definition": "Quello che è vero.",
+   "example": "Dimmi la verità!",
    "related": "F la vérité; L veritas",
    "grammar": {
     "partOfSpeech": "noun",
@@ -427,6 +487,8 @@
     "die Reife"
    ],
    "page": "212-214",
+   "definition": "Esame finale della scuola superiore.",
+   "example": "Faccio la maturità in estate.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -444,6 +506,8 @@
     "die Karriere"
    ],
    "page": "212-214",
+   "definition": "Percorso professionale di una persona.",
+   "example": "Vuole fare carriera.",
    "related": "E career",
    "grammar": {
     "partOfSpeech": "noun",
@@ -461,7 +525,9 @@
    "translations": [
     "(ganz und) gar nicht"
    ],
-   "page": "212-214"
+   "page": "212-214",
+   "definition": "Per niente.",
+   "example": "Non sono affatto stanco."
   },
   {
    "id": "u4-approccio-034",
@@ -470,6 +536,8 @@
     "etwas würde jdm gefallen / gefiele jdm"
    ],
    "page": "212-214",
+   "definition": "Forma di condizionale per dire che qualcosa è gradito.",
+   "example": "Mi piacerebbe viaggiare.",
    "related": "▸ piacere"
   },
   {
@@ -480,6 +548,8 @@
     "kommandieren"
    ],
    "page": "212-214",
+   "definition": "Dare ordini.",
+   "example": "Il capo comanda.",
    "related": "E command; F commander"
   },
   {
@@ -490,6 +560,8 @@
     "hätte gern"
    ],
    "page": "212-214",
+   "definition": "Forma gentile di “vuole”.",
+   "example": "Vorrebbe un caffè.",
    "related": "▸ 3. Pers. von vorrei",
    "usage": "3. Pers. von vorrei"
   },
@@ -500,6 +572,8 @@
     "der/die Chef/in"
    ],
    "page": "212-214",
+   "definition": "Persona che guida un gruppo.",
+   "example": "Il capo è severo.",
    "related": "L caput",
    "grammar": {
     "partOfSpeech": "noun",
@@ -519,6 +593,8 @@
     "hinzufügen"
    ],
    "page": "212-214",
+   "definition": "Mettere in più.",
+   "example": "Aggiungo un po’ di sale.",
    "related": "L adiungere",
    "acceptedAnswers": [
     "aggiungere, aggiunto"
@@ -532,7 +608,9 @@
     "da",
     "weil"
    ],
-   "page": "212-214"
+   "page": "212-214",
+   "definition": "Poiché, dato che.",
+   "example": "Siccome piove, non esco."
   },
   {
    "id": "u4-approccio-040",
@@ -543,7 +621,9 @@
    "page": "212-214",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Della Puglia.",
+   "example": "L’olio pugliese è famoso."
   },
   {
    "id": "u4-approccio-041",
@@ -552,6 +632,8 @@
     "die Spezialität"
    ],
    "page": "212-214",
+   "definition": "Cibo o prodotto tipico.",
+   "example": "La specialità della casa è la lasagna.",
    "related": "F la spécialité; E speciality",
    "grammar": {
     "partOfSpeech": "noun",
@@ -569,7 +651,9 @@
    "translations": [
     "im Ausland"
    ],
-   "page": "212-214"
+   "page": "212-214",
+   "definition": "In un altro paese.",
+   "example": "Mio zio lavora all’estero."
   }
  ],
  "catalog": {

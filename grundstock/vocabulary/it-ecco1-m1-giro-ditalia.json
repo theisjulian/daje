@@ -23,7 +23,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,6 +34,8 @@
     "Guten Abend!"
    ],
    "page": "199",
+   "definition": "Saluto della sera.",
+   "example": "Buonasera, signora!",
    "related": "≠ buongiorno; ▸ buono/-a, la sera"
   },
   {
@@ -43,6 +45,8 @@
     "das Radio"
    ],
    "page": "199",
+   "definition": "Apparecchio che diffonde musica e notizie.",
+   "example": "Ascolto la radio in auto.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -60,6 +64,7 @@
     "die Provinz"
    ],
    "page": "199",
+   "definition": "Territorio più piccolo di una regione.",
    "example": "Rivarolo Canavese è in provincia di Torino.",
    "usage": "Eine italienische Provinz entspricht in etwa einem deutschen Landkreis.",
    "grammar": {
@@ -82,6 +87,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "In diretta, non registrato.",
    "example": "Seguo dal vivo il Giro d’Italia.",
    "usage": "avv."
   },
@@ -95,6 +101,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Momento in cui si raggiunge un luogo.",
+   "example": "L’arrivo del treno è alle otto.",
    "related": "▸ arrivare; E arrival; F l’arrivée",
    "usage": "m."
   },
@@ -108,6 +116,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Parte di un viaggio o di una gara.",
    "example": "Il Giro d’Italia ha molte tappe.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -129,6 +138,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Moltissime persone in un luogo.",
    "example": "La folla sta seguendo la partita nello stadio.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -149,7 +159,9 @@
    "page": "199",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Stare in un luogo finché arriva qualcosa.",
+   "example": "Aspetto l’autobus."
   },
   {
    "id": "m1-giro-ditalia-009",
@@ -161,6 +173,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Persona che va in bicicletta.",
+   "example": "Il ciclista sale la montagna.",
    "related": "▸ la bicicletta; E cyclist; F le/la cycliste",
    "usage": "pl. i ciclisti/-e",
    "grammar": {
@@ -182,7 +196,9 @@
    "page": "199",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "In questo periodo.",
+   "example": "Al momento non ho tempo."
   },
   {
    "id": "m1-giro-ditalia-011",
@@ -194,6 +210,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Non una sola persona.",
    "example": "Dove sono? Non vedo nessuno."
   },
   {
@@ -205,7 +222,9 @@
    "page": "199",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Costruzione che significa “in nessun momento”.",
+   "example": "Non mangio mai pesce."
   },
   {
    "id": "m1-giro-ditalia-013",
@@ -216,7 +235,9 @@
    "page": "199",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Ci telefoniamo o ci scriviamo presto.",
+   "example": "Ti scrivo domani: ci sentiamo!"
   },
   {
    "id": "m1-giro-ditalia-014",
@@ -227,7 +248,9 @@
    "page": "199",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "In caso contrario.",
+   "example": "Sbrigati, se no perdiamo il treno."
   },
   {
    "id": "m1-giro-ditalia-015",
@@ -240,6 +263,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Cambiare posizione.",
    "example": "Non li vedo. Puoi spostarti un po’?",
    "related": "▸ il posto"
   },
@@ -253,6 +277,7 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Di quantità maggiore.",
    "example": "Dov’è Anna? Non la vedo più.",
    "related": "F plus",
    "usage": "avv."

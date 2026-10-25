@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -36,6 +36,7 @@
     "der Zeitplan"
    ],
    "page": "177-178",
+   "definition": "Tabella con le ore delle lezioni.",
    "example": "Abbiamo un nuovo orario.",
    "related": "F l’horaire",
    "usage": "pl. gli orari"
@@ -47,6 +48,8 @@
     "der Tag"
    ],
    "page": "177-178",
+   "definition": "Periodo di ventiquattro ore.",
+   "example": "Il giorno ha ventiquattro ore.",
    "related": "F le jour",
    "grammar": {
     "partOfSpeech": "noun",
@@ -66,6 +69,7 @@
     "die Unterrichtsstunde"
    ],
    "page": "177-178",
+   "definition": "Sessanta minuti.",
    "example": "La terza ora ho storia.",
    "related": "F l’heure; L hora"
   },
@@ -76,6 +80,8 @@
     "die Wochentage"
    ],
    "page": "177-178",
+   "definition": "Lunedì, martedì, mercoledì...",
+   "example": "I giorni della settimana sono sette.",
    "usage": "(il) lunedì – Montag; (il) martedì – Dienstag; (il) mercoledì – Mittwoch; (il) giovedì – Donnerstag; (il) venerdì – Freitag; (il) sabato – Samstag; (la) domenica – Sonntag. Unterscheide: Il martedì vado sempre nello studio di danza. – Dienstags gehe ich immer ins Tanzstudio. / Martedì incontro la mia amica. – Diesen Dienstag treffe ich meine Freundin.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -94,6 +100,8 @@
     "Mathe(matik) (Schulfach)"
    ],
    "page": "177-178",
+   "definition": "Materia dei numeri, delle formule e dei problemi.",
+   "example": "La matematica è difficile.",
    "related": "E mathematics; F les mathématiques",
    "acceptedAnswers": [
     "la mate"
@@ -115,6 +123,8 @@
     "Kunstgeschichte (Schulfach)"
    ],
    "page": "177-178",
+   "definition": "Materia che studia i quadri e i monumenti.",
+   "example": "Mi piace la storia dell’arte.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -132,6 +142,8 @@
     "Religion (Schulfach)"
    ],
    "page": "177-178",
+   "definition": "Materia che parla delle fedi e delle credenze.",
+   "example": "Alle otto c’è religione.",
    "related": "E religion",
    "grammar": {
     "partOfSpeech": "noun",
@@ -150,6 +162,8 @@
     "Physik (Schulfach)"
    ],
    "page": "177-178",
+   "definition": "Materia che studia energia, forza e movimento.",
+   "example": "La fisica è difficile.",
    "related": "E physics; F la physique",
    "grammar": {
     "partOfSpeech": "noun",
@@ -168,6 +182,8 @@
     "Latein (Schulfach)"
    ],
    "page": "177-178",
+   "definition": "Lingua antica dei Romani.",
+   "example": "Studio il latino a scuola.",
    "related": "E Latin; F le latin",
    "grammar": {
     "partOfSpeech": "noun",
@@ -186,6 +202,8 @@
     "Naturwissenschaften (Schulfach)"
    ],
    "page": "177-178",
+   "definition": "Materia che studia la natura e il corpo umano.",
+   "example": "Mi piacciono le scienze.",
    "related": "E science; L scientia",
    "grammar": {
     "partOfSpeech": "noun",
@@ -204,6 +222,8 @@
     "Sport (Schulfach)"
    ],
    "page": "177-178",
+   "definition": "Materia in cui si fa ginnastica e sport.",
+   "example": "L’educazione fisica è il mio corso preferito.",
    "related": "E physical education",
    "usage": "f."
   },
@@ -214,6 +234,8 @@
     "Kunst (Schulfach)"
    ],
    "page": "177-178",
+   "definition": "Materia che si occupa di pittura e disegno.",
+   "example": "L’arte è la mia passione.",
    "related": "E art; F l’art",
    "usage": "m."
   },
@@ -224,6 +246,7 @@
     "schrecklich"
    ],
    "page": "177-178",
+   "definition": "Molto brutto o molto forte.",
    "example": "Il nuovo orario è terribile.",
    "related": "E/F terrible"
   },
@@ -234,6 +257,7 @@
     "um … (Uhr)"
    ],
    "page": "177-178",
+   "definition": "Piccola parola per dire a che ora succede qualcosa.",
    "example": "Alle otto abbiamo fisica e alle nove latino."
   },
   {
@@ -243,6 +267,7 @@
     "von … bis …"
    ],
    "page": "177-178",
+   "definition": "Espressione che indica l’inizio e la fine di un periodo.",
    "example": "Dalle 9 alle 10 abbiamo storia."
   },
   {
@@ -252,6 +277,7 @@
     "meiner Meinung nach"
    ],
    "page": "177-178",
+   "definition": "Espressione per introdurre una tua opinione.",
    "example": "Secondo me due ore di sport sono troppe."
   },
   {
@@ -261,6 +287,7 @@
     "früh"
    ],
    "page": "177-178",
+   "definition": "Di buon’ora, prima del tempo normale.",
    "example": "La prima ora è troppo presto!",
    "usage": "avv."
   },
@@ -271,6 +298,8 @@
     "Recht haben"
    ],
    "page": "177-178",
+   "definition": "Essere nel giusto, dire una cosa vera.",
+   "example": "Hai ragione, è così!",
    "related": "F avoir raison",
    "usage": "Abc"
   },
@@ -282,6 +311,7 @@
     "bevorzugt"
    ],
    "page": "177-178",
+   "definition": "Quello che ti piace di più.",
    "example": "La mia materia preferita è storia."
   },
   {
@@ -291,6 +321,8 @@
     "leider"
    ],
    "page": "177-178",
+   "definition": "Parola per dire che qualcosa dispiace.",
+   "example": "Purtroppo non posso venire.",
    "usage": "avv."
   },
   {
@@ -301,6 +333,8 @@
     "ausfragen"
    ],
    "page": "177-178",
+   "definition": "Fare domande a uno studente per verificare quanto sa.",
+   "example": "La professoressa interroga Marco.",
    "related": "F interroger",
    "acceptedAnswers": [
     "interrogare"
@@ -314,6 +348,7 @@
     "die Minute"
    ],
    "page": "177-178",
+   "definition": "Sessanta secondi.",
    "example": "Sono 100 minuti di matematica.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -331,7 +366,9 @@
    "translations": [
     "zu viel"
    ],
-   "page": "177-178"
+   "page": "177-178",
+   "definition": "Più del necessario.",
+   "example": "Ho troppi compiti."
   },
   {
    "id": "u3-approccio-024",
@@ -341,6 +378,7 @@
     "ein bisschen"
    ],
    "page": "177-178",
+   "definition": "Una piccola quantità.",
    "example": "Parlo un po’ di italiano.",
    "related": "F un peu",
    "usage": "avv."
@@ -353,6 +391,7 @@
     "erst"
    ],
    "page": "177-178",
+   "definition": "Soltanto, senza altro.",
    "example": "A scuola oggi ho solo due ore.",
    "usage": "avv."
   },
@@ -363,6 +402,7 @@
     "die Woche"
    ],
    "page": "177-178",
+   "definition": "Sette giorni.",
    "example": "La settimana ha 7 giorni.",
    "related": "F la semaine",
    "grammar": {
@@ -382,6 +422,7 @@
     "wenig"
    ],
    "page": "177-178",
+   "definition": "Una quantità piccola.",
    "example": "Abbiamo poche ore di sport.",
    "usage": "pl. pochi/-e"
   },
@@ -393,6 +434,7 @@
     "vorher"
    ],
    "page": "177-178",
+   "definition": "In un momento precedente.",
    "example": "Lisa! Parti da casa prima!",
    "usage": "avv."
   },
@@ -403,6 +445,8 @@
     "Um wie viel Uhr?"
    ],
    "page": "177-178",
+   "definition": "Domanda per sapere il momento preciso.",
+   "example": "A che ora comincia la lezione?",
    "related": "F A quelle heure?",
    "usage": "Unterscheide: A che ora vai a casa? – Alle due. / All’una."
   },
@@ -413,6 +457,8 @@
     "also"
    ],
    "page": "177-178",
+   "definition": "Parola che introduce una conseguenza.",
+   "example": "Sei stanco? Allora riposa.",
    "usage": "avv."
   },
   {
@@ -422,6 +468,7 @@
     "halb (zwei)"
    ],
    "page": "177-178",
+   "definition": "Mezz’ora dopo l’una.",
    "example": "Torno a casa alle due e mezzo.",
    "acceptedAnswers": [
     "e mezzo"
@@ -434,6 +481,7 @@
     "Viertel vor (zwei)"
    ],
    "page": "177-178",
+   "definition": "Quindici minuti prima delle due.",
    "example": "Che ore sono? – Sono le due meno un quarto.",
    "acceptedAnswers": [
     "meno un quarto"
@@ -446,6 +494,8 @@
     "das Viertel"
    ],
    "page": "177-178",
+   "definition": "Una delle quattro parti uguali.",
+   "example": "Il quarto d’ora ha quindici minuti.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -463,6 +513,7 @@
     "die Vertretung (Schule)"
    ],
    "page": "177-178",
+   "definition": "Lezione tenuta da un insegnante al posto di un altro.",
    "example": "Il prof non c’è. Abbiamo una supplenza.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -482,6 +533,7 @@
     "hier: ausfallen"
    ],
    "page": "177-178",
+   "definition": "Non fare qualcosa; alzarsi da terra con un movimento.",
    "example": "Che bello! La sesta ora salta!"
   },
   {
@@ -491,7 +543,9 @@
     "Hurra!",
     "Juhu!"
    ],
-   "page": "177-178"
+   "page": "177-178",
+   "definition": "Esclamazione di gioia.",
+   "example": "Evviva, è sabato!"
   },
   {
    "id": "u3-approccio-037",
@@ -500,6 +554,8 @@
     "Wie spät ist es?"
    ],
    "page": "177-178",
+   "definition": "Domanda per sapere l’ora.",
+   "example": "Che ore sono? – Sono le tre.",
    "usage": "Che ore sono? È l’una. / Sono le due. / … le otto e un quarto. / … le otto e mezzo. / … le nove meno un quarto. / … le nove in punto."
   },
   {
@@ -508,7 +564,9 @@
    "translations": [
     "Hilfe!"
    ],
-   "page": "177-178"
+   "page": "177-178",
+   "definition": "Grido per chiedere soccorso.",
+   "example": "Aiuto, sono caduto!"
   },
   {
    "id": "u3-approccio-039",
@@ -518,6 +576,7 @@
     "beginnen (etw. zu tun)"
    ],
    "page": "177-178",
+   "definition": "Iniziare un’azione.",
    "example": "La scuola comincia alle 8 e 15.",
    "related": "F commencer",
    "acceptedAnswers": [
@@ -531,6 +590,7 @@
     "in (zeitlich)"
    ],
    "page": "177-178",
+   "definition": "Indica il tempo che manca prima di un evento.",
    "example": "La lezione comincia tra 5 minuti."
   },
   {
@@ -541,6 +601,8 @@
     "erneut"
    ],
    "page": "177-178",
+   "definition": "Un’altra volta.",
+   "example": "Provo di nuovo.",
    "related": "▸ nuovo",
    "usage": "avv."
   },
@@ -551,6 +613,7 @@
     "verspätet"
    ],
    "page": "177-178",
+   "definition": "Dopo l’ora prevista.",
    "example": "Aiuto! Sono già le 8 e 15. Sono in ritardo.",
    "usage": "avv."
   },
@@ -561,6 +624,8 @@
     "sicher"
    ],
    "page": "177-178",
+   "definition": "Senza dubbio.",
+   "example": "Sicuramente vengo!",
    "usage": "avv."
   },
   {
@@ -570,6 +635,8 @@
     "einen Eintrag ins Klassenbuch bekommen"
    ],
    "page": "177-178",
+   "definition": "Ricevere una punizione scritta dall’insegnante.",
+   "example": "Ho preso una nota sul registro.",
    "usage": "Abc"
   }
  ],

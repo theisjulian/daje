@@ -23,7 +23,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -33,7 +33,8 @@
    "translations": [
     "Kannst du mir helfen?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda per chiedere aiuto a una persona a cui dai del tu."
   },
   {
    "id": "aa-italiano-in-classe-002",
@@ -41,7 +42,8 @@
    "translations": [
     "Kann ich dir helfen?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda per offrire aiuto."
   },
   {
    "id": "aa-italiano-in-classe-003",
@@ -49,7 +51,8 @@
    "translations": [
     "Hilfst du mir?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda per chiedere una mano."
   },
   {
    "id": "aa-italiano-in-classe-004",
@@ -57,7 +60,8 @@
    "translations": [
     "Hast du einen Stift?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda per chiedere uno strumento per scrivere."
   },
   {
    "id": "aa-italiano-in-classe-005",
@@ -65,7 +69,8 @@
    "translations": [
     "Können Sie das bitte wiederholen?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda cortese per sentire di nuovo."
   },
   {
    "id": "aa-italiano-in-classe-006",
@@ -73,7 +78,8 @@
    "translations": [
     "Können Sie das noch einmal erklären?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda cortese per avere un’altra spiegazione."
   },
   {
    "id": "aa-italiano-in-classe-007",
@@ -81,7 +87,8 @@
    "translations": [
     "Ich verstehe das nicht."
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Frase per dire che non hai compreso."
   },
   {
    "id": "aa-italiano-in-classe-008",
@@ -89,7 +96,8 @@
    "translations": [
     "Ich habe das nicht verstanden."
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Frase per dire che non hai compreso."
   },
   {
    "id": "aa-italiano-in-classe-009",
@@ -97,7 +105,8 @@
    "translations": [
     "Können Sie bitte langsamer sprechen?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda cortese per chiedere meno velocità."
   },
   {
    "id": "aa-italiano-in-classe-010",
@@ -105,7 +114,8 @@
    "translations": [
     "Könnten Sie … erklären?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda cortese per avere una spiegazione."
   },
   {
    "id": "aa-italiano-in-classe-011",
@@ -113,7 +123,8 @@
    "translations": [
     "Ich habe eine Frage."
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Frase per dire che vuoi chiedere qualcosa."
   },
   {
    "id": "aa-italiano-in-classe-012",
@@ -121,7 +132,8 @@
    "translations": [
     "Wie bitte?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda cortese quando non hai sentito bene."
   },
   {
    "id": "aa-italiano-in-classe-013",
@@ -129,7 +141,8 @@
    "translations": [
     "Was ist das?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda per sapere come si chiama un oggetto."
   },
   {
    "id": "aa-italiano-in-classe-014",
@@ -137,7 +150,8 @@
    "translations": [
     "Ich habe die Aufgabe nicht verstanden."
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Frase per dire che la consegna non è chiara."
   },
   {
    "id": "aa-italiano-in-classe-015",
@@ -145,7 +159,8 @@
    "translations": [
     "Ich verstehe das Wort / den Satz … nicht."
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Frase per segnalare una difficoltà."
   },
   {
    "id": "aa-italiano-in-classe-016",
@@ -153,7 +168,8 @@
    "translations": [
     "Was bedeutet … auf Deutsch?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda per conoscere la traduzione."
   },
   {
    "id": "aa-italiano-in-classe-017",
@@ -161,7 +177,8 @@
    "translations": [
     "Was heißt … auf Italienisch?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda per conoscere la parola italiana."
   },
   {
    "id": "aa-italiano-in-classe-018",
@@ -169,7 +186,8 @@
    "translations": [
     "Kann man auch … sagen?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda per sapere se una variante è possibile."
   },
   {
    "id": "aa-italiano-in-classe-019",
@@ -177,7 +195,8 @@
    "translations": [
     "Wie schreibt man …?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda per sapere la grafia."
   },
   {
    "id": "aa-italiano-in-classe-020",
@@ -185,7 +204,8 @@
    "translations": [
     "Schreibt man … mit oder ohne „h“?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda sulla lettera h."
   },
   {
    "id": "aa-italiano-in-classe-021",
@@ -193,7 +213,8 @@
    "translations": [
     "Wie spricht man … aus?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda per sapere come si dice a voce."
   },
   {
    "id": "aa-italiano-in-classe-022",
@@ -201,7 +222,8 @@
    "translations": [
     "Können Sie bitte ein Beispiel nennen?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda cortese per avere un esempio."
   },
   {
    "id": "aa-italiano-in-classe-023",
@@ -209,7 +231,8 @@
    "translations": [
     "Auf welcher Seite?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda per sapere il numero della pagina."
   },
   {
    "id": "aa-italiano-in-classe-024",
@@ -217,7 +240,8 @@
    "translations": [
     "Ist das richtig?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda per verificare una risposta."
   },
   {
    "id": "aa-italiano-in-classe-025",
@@ -225,7 +249,8 @@
    "translations": [
     "Ist das falsch?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda per sapere se c’è un errore."
   },
   {
    "id": "aa-italiano-in-classe-026",
@@ -233,7 +258,8 @@
    "translations": [
     "Wie viel Zeit haben wir?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda sul tempo disponibile."
   },
   {
    "id": "aa-italiano-in-classe-027",
@@ -241,7 +267,8 @@
    "translations": [
     "Was machen wir jetzt?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda sul prossimo compito."
   },
   {
    "id": "aa-italiano-in-classe-028",
@@ -249,7 +276,8 @@
    "translations": [
     "Soll ich weitermachen?"
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Domanda per proporre di continuare."
   },
   {
    "id": "aa-italiano-in-classe-029",
@@ -257,7 +285,8 @@
    "translations": [
     "Wir fangen von vorne an."
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Frase per proporre di ripartire da capo."
   },
   {
    "id": "aa-italiano-in-classe-030",
@@ -265,7 +294,8 @@
    "translations": [
     "Jetzt bist du dran, danach ist er/sie dran."
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Frase per dire chi ha il turno."
   },
   {
    "id": "aa-italiano-in-classe-031",
@@ -273,7 +303,8 @@
    "translations": [
     "Tut mir leid, das habe ich nicht mit Absicht getan."
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Frase per dire che non era volontario."
   },
   {
    "id": "aa-italiano-in-classe-032",
@@ -282,6 +313,7 @@
     "Tut mir leid, das ist (nicht) meine Schuld."
    ],
    "page": "161-162",
+   "definition": "Frase per ammettere o negare una responsabilità.",
    "acceptedAnswers": [
     "Mi scusi, è colpa mia."
    ]
@@ -292,7 +324,8 @@
    "translations": [
     "Entschuldige."
    ],
-   "page": "161-162"
+   "page": "161-162",
+   "definition": "Frase per chiedere perdono a una persona che dai del tu."
   }
  ],
  "catalog": {

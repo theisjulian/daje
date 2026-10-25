@@ -23,7 +23,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,6 +34,7 @@
     "das Fest"
    ],
    "page": "186",
+   "definition": "Occasione per stare insieme e divertirsi.",
    "example": "Per il mio compleanno faccio una festa.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -54,6 +55,8 @@
     "das Kind"
    ],
    "page": "186",
+   "definition": "Persona rispetto ai suoi genitori.",
+   "example": "Il figlio di Anna ha sei anni.",
    "usage": "f. la figlia; pl. i figli",
    "grammar": {
     "partOfSpeech": "noun",
@@ -72,6 +75,7 @@
     "das Einzelkind"
    ],
    "page": "186",
+   "definition": "Ragazzo senza fratelli né sorelle.",
    "example": "Anna non ha fratelli. È figlia unica.",
    "related": "L filius/-a",
    "usage": "pl. i figli unici; f. la figlia unica, pl. le figlie uniche",
@@ -93,6 +97,7 @@
     "die Oma"
    ],
    "page": "186",
+   "definition": "Padre del padre o della madre.",
    "example": "Mia nonna ha 70 anni.",
    "usage": "f. la nonna",
    "grammar": {
@@ -112,6 +117,7 @@
     "der/die Kusin/-e"
    ],
    "page": "186",
+   "definition": "Figlio di uno zio.",
    "example": "Mio cugino Frank è tedesco.",
    "usage": "f. la cugina",
    "grammar": {
@@ -131,6 +137,8 @@
     "die Überraschung"
    ],
    "page": "186",
+   "definition": "Cosa inattesa.",
+   "example": "Ho una sorpresa per te!",
    "related": "E surprise; F la surprise",
    "grammar": {
     "partOfSpeech": "noun",
@@ -149,6 +157,7 @@
     "feiern"
    ],
    "page": "186",
+   "definition": "Celebrare un evento con una festa.",
    "example": "I ragazzi festeggiano il compleanno di Anna."
   },
   {
@@ -158,6 +167,7 @@
     "das Restaurant"
    ],
    "page": "186",
+   "definition": "Locale dove si mangia pagando.",
    "example": "Stasera andiamo al ristorante.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -176,6 +186,7 @@
     "wann?"
    ],
    "page": "186",
+   "definition": "Domanda per sapere il momento.",
    "example": "Quando finisce la scuola?",
    "related": "F quand; L quando"
   },
@@ -186,6 +197,7 @@
     "es wird gebeten"
    ],
    "page": "186",
+   "definition": "Formula che si trova negli avvisi per chiedere gentilmente.",
    "example": "Si prega di rispondere."
   },
   {
@@ -196,6 +208,7 @@
     "bis spätestens"
    ],
    "page": "186",
+   "definition": "Prima o al più tardi di un certo momento.",
    "example": "Si prega di rispondere entro il primo marzo.",
    "usage": "avv."
   }

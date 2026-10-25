@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,8 @@
     "die Reportage"
    ],
    "page": "207",
+   "definition": "Servizio giornalistico su un fatto.",
+   "example": "Guardo un reportage sulla Sicilia.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -52,6 +54,8 @@
     "die Nachrichten"
    ],
    "page": "207",
+   "definition": "Programma TV con le notizie.",
+   "example": "Il telegiornale comincia alle otto.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -69,6 +73,8 @@
     "die Sportsendung"
    ],
    "page": "207",
+   "definition": "Programma televisivo sullo sport.",
+   "example": "Guardo una trasmissione sportiva ogni lunedì.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -85,7 +91,9 @@
    "translations": [
     "eine Sendung über"
    ],
-   "page": "207"
+   "page": "207",
+   "definition": "Programma che parla di un argomento.",
+   "example": "Guardo una trasmissione di cucina."
   },
   {
    "id": "u2-per-parlare-005",
@@ -94,6 +102,8 @@
     "die Seifenoper"
    ],
    "page": "207",
+   "definition": "Serie TV con storie d’amore e drammi.",
+   "example": "Mia nonna guarda una soap opera.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -111,6 +121,8 @@
     "die Werbung"
    ],
    "page": "207",
+   "definition": "Messaggio che serve a far comprare un prodotto.",
+   "example": "La pubblicità interrompe il film.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -128,6 +140,8 @@
     "der (Fernseh-)Film"
    ],
    "page": "207",
+   "definition": "Storia girata per essere vista sul piccolo schermo.",
+   "example": "Stasera c’è un telefilm divertente.",
    "acceptedAnswers": [
     "ilfilm"
    ],
@@ -148,6 +162,8 @@
     "die Serie"
    ],
    "page": "207",
+   "definition": "Storia divisa in tanti episodi.",
+   "example": "Questa serie ha dieci episodi.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -165,6 +181,8 @@
     "die Komödie"
    ],
    "page": "207",
+   "definition": "Film o spettacolo che fa ridere.",
+   "example": "Guardiamo una commedia italiana.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -181,7 +199,9 @@
    "translations": [
     "der/die Schauspieler/in"
    ],
-   "page": "207"
+   "page": "207",
+   "definition": "Persona che recita in un film o a teatro.",
+   "example": "L’attrice è molto brava."
   },
   {
    "id": "u2-per-parlare-011",
@@ -189,7 +209,9 @@
    "translations": [
     "der Fernsehsender"
    ],
-   "page": "207"
+   "page": "207",
+   "definition": "Canale che manda in onda programmi TV.",
+   "example": "Rai Uno è un’emittente televisiva."
   },
   {
    "id": "u2-per-parlare-012",
@@ -197,7 +219,9 @@
    "translations": [
     "der Radiosender"
    ],
-   "page": "207"
+   "page": "207",
+   "definition": "Stazione che trasmette programmi radio.",
+   "example": "Ascolto un’emittente radiofonica locale."
   },
   {
    "id": "u2-per-parlare-013",
@@ -206,6 +230,8 @@
     "das Fernsehprogramm"
    ],
    "page": "207",
+   "definition": "Trasmissione che va in onda in TV.",
+   "example": "Il mio programma televisivo preferito è la sera.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -223,6 +249,8 @@
     "der Film dauert (90 Minuten)"
    ],
    "page": "207",
+   "definition": "Dice quanto tempo occupa un film.",
+   "example": "Il film dura novanta minuti.",
    "acceptedAnswers": [
     "il film dura"
    ],
@@ -243,6 +271,8 @@
     "die Jugendzeitschrift"
    ],
    "page": "207",
+   "definition": "Giornale con articoli per ragazzi.",
+   "example": "Compro una rivista per giovani.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -260,6 +290,8 @@
     "das Interview"
    ],
    "page": "207",
+   "definition": "Conversazione fatta per raccogliere informazioni.",
+   "example": "Il giornalista fa un’intervista al cantante.",
    "related": "E the interview; F le interview"
   },
   {
@@ -268,7 +300,9 @@
    "translations": [
     "das Horoskop"
    ],
-   "page": "207"
+   "page": "207",
+   "definition": "Previsione astrologica basata sul segno zodiacale.",
+   "example": "Leggo l’oroscopo sul giornale."
   },
   {
    "id": "u2-per-parlare-018",
@@ -276,7 +310,9 @@
    "translations": [
     "die Anzeige"
    ],
-   "page": "207"
+   "page": "207",
+   "definition": "Messaggio pubblicato per offrire o cercare qualcosa.",
+   "example": "Leggo un annuncio di lavoro."
   }
  ],
  "catalog": {

@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,8 @@
     "das Risiko"
    ],
    "page": "203-205",
+   "definition": "Possibilità di un danno.",
+   "example": "Nuotare qui è un rischio.",
    "related": "E risk",
    "grammar": {
     "partOfSpeech": "noun",
@@ -54,6 +56,8 @@
     "der Vorfall"
    ],
    "page": "203-205",
+   "definition": "Situazione particolare; anche la sorte.",
+   "example": "È un caso molto strano.",
    "related": "F le cas",
    "grammar": {
     "partOfSpeech": "noun",
@@ -72,7 +76,9 @@
     "vergangen",
     "vorig"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "definition": "Appena passato.",
+   "example": "La settimana scorsa ho giocato a calcio."
   },
   {
    "id": "u2-2a-004",
@@ -81,6 +87,8 @@
     "informieren"
    ],
    "page": "203-205",
+   "definition": "Dare notizie a qualcuno.",
+   "example": "Informo i miei genitori del voto.",
    "related": "▸ l’informazione"
   },
   {
@@ -89,7 +97,9 @@
    "translations": [
     "der/die Schulleiter/in"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "definition": "Responsabile di una scuola.",
+   "example": "Il preside parla agli studenti."
   },
   {
    "id": "u2-2a-006",
@@ -98,7 +108,9 @@
     "abgeben",
     "übergeben"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "definition": "Dare nelle mani di qualcuno.",
+   "example": "Consegno il compito all’insegnante."
   },
   {
    "id": "u2-2a-007",
@@ -107,6 +119,8 @@
     "erlauben"
    ],
    "page": "203-205",
+   "definition": "Lasciar fare.",
+   "example": "Mamma non mi permette di uscire.",
    "related": "≠ vietare; E to permit; L permittere",
    "usage": "p.p. permesso"
   },
@@ -117,6 +131,8 @@
     "sich erlauben"
    ],
    "page": "203-205",
+   "definition": "Avere il coraggio di fare qualcosa.",
+   "example": "Non mi permetto di parlare così.",
    "usage": "p.p. permesso"
   },
   {
@@ -126,6 +142,8 @@
     "das Verhalten"
    ],
    "page": "203-205",
+   "definition": "Modo di agire.",
+   "example": "Il suo comportamento è corretto.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -143,6 +161,8 @@
     "derartig"
    ],
    "page": "203-205",
+   "definition": "Di quel tipo.",
+   "example": "Non voglio una cosa del genere.",
    "related": "L genus"
   },
   {
@@ -152,6 +172,8 @@
     "vermeiden"
    ],
    "page": "203-205",
+   "definition": "Cercare di non incontrare un problema.",
+   "example": "Evito il traffico.",
    "related": "F éviter; L vitare"
   },
   {
@@ -162,6 +184,8 @@
     "der Schulverweis"
    ],
    "page": "203-205",
+   "definition": "Punizione scolastica: si resta a casa.",
+   "example": "Ha preso tre giorni di sospensione.",
    "related": "F la suspension",
    "grammar": {
     "partOfSpeech": "noun",
@@ -180,6 +204,8 @@
     "die sozialen Medien"
    ],
    "page": "203-205",
+   "definition": "Piattaforme online per condividere contenuti.",
+   "example": "I social media sono molto popolari.",
    "usage": "pl.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -198,6 +224,8 @@
     "filmen"
    ],
    "page": "203-205",
+   "definition": "Registrare un video.",
+   "example": "Filmo la partita con il telefono.",
    "related": "F filmer qc"
   },
   {
@@ -206,7 +234,9 @@
    "translations": [
     "Selbstporträts aufnehmen"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "definition": "Fotografarsi da soli con il telefono.",
+   "example": "Facciamo dei selfie in gita."
   },
   {
    "id": "u2-2a-016",
@@ -215,6 +245,8 @@
     "der Kommentar"
    ],
    "page": "203-205",
+   "definition": "Opinione scritta o detta su qualcosa.",
+   "example": "Leggo i commenti al video.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -232,6 +264,8 @@
     "wenn"
    ],
    "page": "203-205",
+   "definition": "Parola che introduce una condizione.",
+   "example": "Se piove, resto a casa.",
    "related": "F si"
   },
   {
@@ -242,6 +276,8 @@
     "gemein"
    ],
    "page": "203-205",
+   "definition": "Che fa del male.",
+   "example": "Il lupo è cattivo.",
    "related": "≠ buono/-a",
    "usage": "≠ buono/-a"
   },
@@ -251,7 +287,9 @@
    "translations": [
     "scheinen"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "definition": "Dare l’impressione di essere.",
+   "example": "Sembri stanco."
   },
   {
    "id": "u2-2a-020",
@@ -259,7 +297,9 @@
    "translations": [
     "sich"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "definition": "Pronome riflessivo che si usa dopo le preposizioni.",
+   "example": "Pensa solo a sé."
   },
   {
    "id": "u2-2a-021",
@@ -267,7 +307,9 @@
    "translations": [
     "selbst"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "definition": "Identico, uguale.",
+   "example": "Abbiamo la stessa età."
   },
   {
    "id": "u2-2a-022",
@@ -275,7 +317,9 @@
    "translations": [
     "darauf(-hin)"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "definition": "Dopo, successivamente.",
+   "example": "In seguito ho capito tutto."
   },
   {
    "id": "u2-2a-023",
@@ -284,6 +328,8 @@
     "hoffen"
    ],
    "page": "203-205",
+   "definition": "Desiderare che qualcosa succeda.",
+   "example": "Spero di passare l’esame.",
    "related": "F espérer; L sperare"
   },
   {
@@ -293,6 +339,8 @@
     "der/die Verantwortliche"
    ],
    "page": "203-205",
+   "definition": "Persona che risponde di qualcosa.",
+   "example": "Il responsabile del progetto è Marco.",
    "related": "E responsible; F le/la responsable"
   },
   {
@@ -302,6 +350,8 @@
     "die Situation"
    ],
    "page": "203-205",
+   "definition": "Come stanno le cose in un momento.",
+   "example": "La situazione è difficile.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -320,6 +370,8 @@
     "nötig"
    ],
    "page": "203-205",
+   "definition": "Che serve assolutamente.",
+   "example": "È necessario studiare.",
    "related": "E necessary; F nécessaire; L necessarius"
   },
   {
@@ -329,6 +381,8 @@
     "verbieten"
    ],
    "page": "203-205",
+   "definition": "Non permettere.",
+   "example": "Vietano di fumare qui.",
    "related": "L vetare"
   },
   {
@@ -338,6 +392,8 @@
     "der/die Lehrer/in"
    ],
    "page": "203-205",
+   "definition": "Persona che insegna.",
+   "example": "L’insegnante spiega la lezione.",
    "related": "F enseignant; = il/la prof(essore/-ssa)"
   },
   {
@@ -346,7 +402,9 @@
    "translations": [
     "unvermeidbar"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "definition": "Che non si può evitare.",
+   "example": "È un problema inevitabile."
   },
   {
    "id": "u2-2a-030",
@@ -355,6 +413,8 @@
     "sich auf etw. konzentrieren"
    ],
    "page": "203-205",
+   "definition": "Fare attenzione solo a una cosa.",
+   "example": "Mi concentro sullo studio.",
    "related": "E to concentrate"
   },
   {
@@ -364,6 +424,8 @@
     "glauben"
    ],
    "page": "203-205",
+   "definition": "Pensare che qualcosa sia vero.",
+   "example": "Credo a quello che dici.",
    "related": "F croire; L credere"
   },
   {
@@ -373,6 +435,8 @@
     "tatsächlich"
    ],
    "page": "203-205",
+   "definition": "In verità.",
+   "example": "In realtà non sono stanco.",
    "related": "E in reality",
    "usage": "avv."
   },
@@ -384,6 +448,8 @@
     "die Benutzung"
    ],
    "page": "203-205",
+   "definition": "Modo di utilizzare qualcosa.",
+   "example": "L’uso del telefono è vietato.",
    "related": "E use; F l’usage"
   },
   {
@@ -393,6 +459,8 @@
     "dumm"
    ],
    "page": "203-205",
+   "definition": "Poco intelligente.",
+   "example": "È un’idea stupida.",
    "related": "E stupid; F stupide"
   },
   {
@@ -401,7 +469,9 @@
    "translations": [
     "sich langweilen"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "definition": "Provare noia.",
+   "example": "Mi annoio quando piove."
   },
   {
    "id": "u2-2a-036",
@@ -411,6 +481,8 @@
     "echt"
    ],
    "page": "203-205",
+   "definition": "Conforme alla realtà.",
+   "example": "È una storia vera.",
    "related": "L verus"
   },
   {
@@ -420,7 +492,9 @@
     "intelligent",
     "klug"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "definition": "Che capisce le cose in fretta.",
+   "example": "Sara è intelligente."
   },
   {
    "id": "u2-2a-038",
@@ -428,7 +502,9 @@
    "translations": [
     "Lust haben (auf etw./jmd) / (etw. zu tun)"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "definition": "Desiderare di fare qualcosa.",
+   "example": "Ho voglia di un gelato."
   },
   {
    "id": "u2-2a-039",
@@ -440,6 +516,8 @@
     "hinaus"
    ],
    "page": "203-205",
+   "definition": "Non dentro.",
+   "example": "Giochiamo fuori.",
    "usage": "avv."
   },
   {
@@ -451,6 +529,8 @@
     "hinein"
    ],
    "page": "203-205",
+   "definition": "All’interno di un luogo.",
+   "example": "Il gatto è dentro casa.",
    "related": "≠ fuori",
    "usage": "avv."
   },
@@ -460,7 +540,9 @@
    "translations": [
     "abhängig von etw."
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "definition": "Che non può fare a meno di qualcosa.",
+   "example": "Sono dipendente dal caffè."
   },
   {
    "id": "u2-2a-042",
@@ -468,7 +550,9 @@
    "translations": [
     "mit etw./jdm zu tun haben"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "definition": "Essere in contatto o in relazione.",
+   "example": "Non voglio avere a che fare con lui."
   },
   {
    "id": "u2-2a-043",
@@ -477,6 +561,8 @@
     "hier: konfrontieren"
    ],
    "page": "203-205",
+   "definition": "Guardare due cose per vedere le differenze.",
+   "example": "Confrontiamo i nostri risultati.",
    "related": "E to confront"
   },
   {
@@ -487,6 +573,8 @@
     "die Konsequenz"
    ],
    "page": "203-205",
+   "definition": "Effetto di un’azione.",
+   "example": "La conseguenza è una nota.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",

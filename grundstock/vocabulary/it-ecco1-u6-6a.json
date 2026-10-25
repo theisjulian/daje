@@ -23,7 +23,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,6 +34,8 @@
     "eifersüchtig"
    ],
    "page": "191-192",
+   "definition": "Che soffre perché ha paura di perdere una persona.",
+   "example": "Sono geloso del mio amico.",
    "related": "E jealous; F jaloux, jalouse"
   },
   {
@@ -43,6 +45,7 @@
     "die Haare"
    ],
    "page": "191-192",
+   "definition": "Peli lunghi sulla testa.",
    "example": "Vedi i ragazzi con i capelli neri?",
    "usage": "pl.",
    "grammar": {
@@ -62,6 +65,7 @@
     "lockig"
    ],
    "page": "191-192",
+   "definition": "Con i capelli o la lana a boccoli.",
    "example": "Khalid ha i capelli ricci.",
    "usage": "pl. ricci/-e"
   },
@@ -72,6 +76,7 @@
     "jene(r, s)"
    ],
    "page": "191-192",
+   "definition": "Indica una persona o una cosa lontana.",
    "example": "Quale ragazzo? – Quel ragazzo là!"
   },
   {
@@ -81,6 +86,7 @@
     "hinausgehen/-kommen"
    ],
    "page": "191-192",
+   "definition": "Andare fuori da un luogo.",
    "example": "Il ragazzo esce dal negozio.",
    "related": "≠ entrare; L exire",
    "acceptedAnswers": [
@@ -95,6 +101,7 @@
     "das Auge"
    ],
    "page": "191-192",
+   "definition": "Organo della vista.",
    "example": "Vedo con gli occhi.",
    "related": "L oculus",
    "usage": "pl. gli occhi"
@@ -106,6 +113,7 @@
     "braun"
    ],
    "page": "191-192",
+   "definition": "Colore del cioccolato.",
    "example": "Gli occhi di Khalid sono marroni.",
    "usage": "agg."
   },
@@ -116,6 +124,7 @@
     "verstecken"
    ],
    "page": "191-192",
+   "definition": "Mettere qualcosa dove nessuno la vede.",
    "example": "Khalid nasconde gli occhi sotto gli occhiali.",
    "usage": "p.p. nascosto"
   },
@@ -126,6 +135,8 @@
     "übertreiben"
    ],
    "page": "191-192",
+   "definition": "Fare o dire più del necessario.",
+   "example": "Non esagerare con i dolci!",
    "related": "E to exaggerate; F exagérer"
   },
   {
@@ -135,6 +146,7 @@
     "die Kasse"
    ],
    "page": "191-192",
+   "definition": "Posto dove si paga in un negozio.",
    "example": "Al negozio c’è una cassa.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -153,6 +165,7 @@
     "der/die Verkäufer/-in"
    ],
    "page": "191-192",
+   "definition": "Persona che lavora in un negozio.",
    "example": "Il commesso vende i vestiti.",
    "usage": "f. la commessa",
    "grammar": {
@@ -174,7 +187,9 @@
    "page": "191-192",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Dispositivo per conservare dati, da collegare al computer.",
+   "example": "Salvo le foto sull’hard disk esterno."
   },
   {
    "id": "u6-6a-013",
@@ -183,6 +198,7 @@
     "der Film"
    ],
    "page": "191-192",
+   "definition": "Storia mostrata al cinema o in TV.",
    "example": "Ho visto un film in tv.",
    "usage": "pl. i film",
    "grammar": {
@@ -202,6 +218,7 @@
     "spät"
    ],
    "page": "191-192",
+   "definition": "Dopo l’ora giusta.",
    "example": "Sono stanco. Sono andato al letto tardi.",
    "related": "≠ presto; F tard",
    "usage": "avv."
@@ -214,6 +231,7 @@
     "die Kollegin"
    ],
    "page": "191-192",
+   "definition": "Persona che lavora con te.",
    "example": "C’è tanto da fare, colleghi!",
    "usage": "f. la collega; pl. i colleghi/le colleghe",
    "grammar": {
@@ -233,6 +251,7 @@
     "zu"
    ],
    "page": "191-192",
+   "definition": "Piccola parola per “a casa di” o per un punto di partenza.",
    "example": "C’è tanto da fare.",
    "usage": "Die Präposition da hat verschiedene Verwendungen: Filippo è da Leonardo. – Filippo ist bei Leonardo. / Giorgia parte da Roma. – Giorgia reist aus Rom ab. / Ci sono molte cose da mangiare. – Es gibt viele Dinge zu essen."
   },
@@ -243,6 +262,7 @@
     "essen"
    ],
    "page": "191-192",
+   "definition": "Mettere cibo in bocca.",
    "example": "A cena la famiglia mangia insieme.",
    "related": "F manger"
   },
@@ -253,6 +273,7 @@
     "trinken"
    ],
    "page": "191-192",
+   "definition": "Prendere un liquido.",
    "example": "Tutti portano qualcosa da mangiare e da bere.",
    "related": "L bibere",
    "acceptedAnswers": [
@@ -268,6 +289,7 @@
     "anrufen"
    ],
    "page": "191-192",
+   "definition": "Dire il nome ad alta voce o telefonare.",
    "example": "Invito anche Anna. La chiamo subito.",
    "related": "L clamare",
    "usage": "Unterscheide: Chiamo Anna. – Ich rufe Anna an. / Mi chiamo Anna. – Ich heiße Anna."

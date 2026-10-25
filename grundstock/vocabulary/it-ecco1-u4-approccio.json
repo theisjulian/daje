@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -36,6 +36,7 @@
     "das Wetter"
    ],
    "page": "182-183",
+   "definition": "Quello che scorre ogni giorno; anche le condizioni dell’aria, come sole o pioggia.",
    "example": "Scusa, non ho tempo. A Sestriere non fa spesso brutto tempo.",
    "related": "F le temps; L tempus",
    "grammar": {
@@ -55,6 +56,7 @@
     "frei"
    ],
    "page": "182-183",
+   "definition": "Senza impegni o senza ostacoli.",
    "example": "Nel tempo libero incontro gli amici.",
    "related": "F libre"
   },
@@ -64,7 +66,9 @@
    "translations": [
     "es ist schön + Inf."
    ],
-   "page": "182-183"
+   "page": "182-183",
+   "definition": "Espressione per dire che un’azione è piacevole.",
+   "example": "È bello stare con gli amici."
   },
   {
    "id": "u4-approccio-004",
@@ -72,7 +76,9 @@
    "translations": [
     "Snowboard fahren"
    ],
-   "page": "182-183"
+   "page": "182-183",
+   "definition": "Scendere sulla neve con una tavola.",
+   "example": "Faccio snowboard in montagna."
   },
   {
    "id": "u4-approccio-005",
@@ -81,6 +87,7 @@
     "die Eltern"
    ],
    "page": "182-183",
+   "definition": "Padre e madre.",
    "example": "I miei genitori hanno una casa a Sestriere.",
    "usage": "pl.",
    "grammar": {
@@ -100,6 +107,8 @@
     "die Wohnung"
    ],
    "page": "182-183",
+   "definition": "Casa in un edificio con più piani.",
+   "example": "Abito in un appartamento al terzo piano.",
    "related": "E apartment; F l’appartement"
   },
   {
@@ -109,6 +118,8 @@
     "finden"
    ],
    "page": "182-183",
+   "definition": "Scoprire qualcosa che si cercava.",
+   "example": "Trovo le chiavi sul tavolo.",
    "related": "≠ cercare; F trouver"
   },
   {
@@ -118,6 +129,7 @@
     "der Schnee"
    ],
    "page": "182-183",
+   "definition": "Fiocchi bianchi che cadono d’inverno.",
    "example": "A Sestriere Leo trova sempre neve.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -136,6 +148,8 @@
     "die Politik"
    ],
    "page": "182-183",
+   "definition": "Attività di chi governa un paese.",
+   "example": "Mio zio parla sempre di politica.",
    "usage": "pl. le politiche",
    "grammar": {
     "partOfSpeech": "noun",
@@ -155,6 +169,7 @@
     "diskutieren"
    ],
    "page": "182-183",
+   "definition": "Parlare di qualcosa con altre persone, dando opinioni.",
    "example": "Mi piace discutere di politica.",
    "related": "F discuter"
   },
@@ -165,6 +180,8 @@
     "spielen + Instrument"
    ],
    "page": "182-183",
+   "definition": "Produrre musica con uno strumento.",
+   "example": "Suono la chitarra.",
    "usage": "Unterscheide: Fußball spielen – giocare a calcio; Klavier spielen – suonare il pianoforte. Das Musikinstrument steht nach suonare immer mit dem bestimmten Artikel."
   },
   {
@@ -174,6 +191,7 @@
     "das Klavier"
    ],
    "page": "182-183",
+   "definition": "Grande strumento con i tasti bianchi e neri.",
    "example": "Anna suona il pianoforte.",
    "related": "E piano",
    "grammar": {
@@ -193,6 +211,8 @@
     "die Querflöte"
    ],
    "page": "182-183",
+   "definition": "Strumento a fiato di metallo che si suona di lato.",
+   "example": "Anna suona il flauto traverso.",
    "related": "F la flûte traversière",
    "grammar": {
     "partOfSpeech": "noun",
@@ -211,6 +231,7 @@
     "das Instrument"
    ],
    "page": "182-183",
+   "definition": "Oggetto per fare musica.",
    "example": "Il mio strumento preferito è il pianoforte.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -229,6 +250,8 @@
     "begleiten"
    ],
    "page": "182-183",
+   "definition": "Andare o suonare insieme a qualcuno.",
+   "example": "Accompagno mia sorella a scuola.",
    "related": "F accompagner; E to accompany",
    "usage": "Unterscheide: Perché la matematica è facile per Khalid? – Warum ist Mathematik einfach für Khalid? / La matematica è facile per Khalid perché capisce tutto subito. – Mathematik ist einfach für Khalid, weil er alles sofort versteht."
   },
@@ -239,6 +262,8 @@
     "singen"
    ],
    "page": "182-183",
+   "definition": "Produrre musica con la voce.",
+   "example": "Canto sotto la doccia.",
    "related": "F chanter; L cantare"
   },
   {
@@ -248,6 +273,8 @@
     "klassisch"
    ],
    "page": "182-183",
+   "definition": "Tradizionale, di una tradizione antica.",
+   "example": "Ascolto musica classica.",
    "related": "F classique",
    "usage": "pl. classici/classiche"
   },
@@ -258,6 +285,7 @@
     "leicht"
    ],
    "page": "182-183",
+   "definition": "Che pesa poco.",
    "example": "La musica pop è musica leggera.",
    "related": "F léger, légère"
   },
@@ -268,6 +296,7 @@
     "Volleyball"
    ],
    "page": "182-183",
+   "definition": "Sport di squadra con una rete alta e una palla.",
    "example": "Anna gioca a pallavolo.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -286,6 +315,7 @@
     "der Winter"
    ],
    "page": "182-183",
+   "definition": "Stagione fredda dopo l’autunno.",
    "example": "D’inverno c’è la neve.",
    "usage": "m."
   },
@@ -296,6 +326,7 @@
     "eislaufen"
    ],
    "page": "182-183",
+   "definition": "Scivolare sul ghiaccio con speciali scarpe.",
    "example": "D’inverno vado a pattinare.",
    "usage": "Unterscheide: pattinare – eislaufen, inlineskaten; pattinare su(l) ghiaccio – eislaufen; pattinare inline – inlineskaten. Wenn es Missverständnisse geben könnte, muss man sul ghiaccio oder inline entsprechend ergänzen."
   },
@@ -306,6 +337,7 @@
     "die Leidenschaft"
    ],
    "page": "182-183",
+   "definition": "Interesse molto forte per qualcosa.",
    "example": "Ho una passione per l’arte.",
    "related": "E passion; F la passion",
    "grammar": {
@@ -325,6 +357,7 @@
     "das Hobby"
    ],
    "page": "182-183",
+   "definition": "Attività che si fa per piacere nel tempo libero.",
    "example": "Qual è il tuo hobby? – Suono il flauto.",
    "usage": "pl. gli hobby"
   },
@@ -335,6 +368,7 @@
     "in Verbindung mit jdm/etw."
    ],
    "page": "182-183",
+   "definition": "Unito, in relazione con qualcosa.",
    "example": "Con il computer sono collegato con gli amici."
   },
   {
@@ -344,6 +378,7 @@
     "außerdem"
    ],
    "page": "182-183",
+   "definition": "Parola che aggiunge un’altra informazione.",
    "example": "Amo il calcio e inoltre mi piace la musica.",
    "usage": "avv."
   },
@@ -354,6 +389,7 @@
     "gern(e)"
    ],
    "page": "182-183",
+   "definition": "Con piacere.",
    "example": "Ascolto volentieri la musica di Liga.",
    "usage": "avv."
   },
@@ -364,6 +400,8 @@
     "hauptsächlich"
    ],
    "page": "182-183",
+   "definition": "In modo particolare.",
+   "example": "Mi piace lo sport, soprattutto il calcio.",
    "usage": "avv."
   },
   {
@@ -373,6 +411,7 @@
     "die Gitarre"
    ],
    "page": "182-183",
+   "definition": "Strumento con sei corde.",
    "example": "Il mio strumento preferito è la chitarra.",
    "related": "E guitar",
    "grammar": {
@@ -392,6 +431,8 @@
     "die Gruppe"
    ],
    "page": "182-183",
+   "definition": "Insieme di persone che stanno o fanno qualcosa insieme.",
+   "example": "Siamo un gruppo di amici.",
    "related": "E group; F le groupe",
    "grammar": {
     "partOfSpeech": "noun",
@@ -410,6 +451,7 @@
     "die Rock-Gruppe"
    ],
    "page": "182-183",
+   "definition": "Insieme di musicisti che suonano musica rock.",
    "example": "Suono la chitarra in un gruppo.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -428,6 +470,8 @@
     "weil"
    ],
    "page": "182-183",
+   "definition": "Parola che introduce la causa.",
+   "example": "Sono felice perché è sabato.",
    "related": "▸ perché?"
   },
   {
@@ -437,6 +481,7 @@
     "das Training"
    ],
    "page": "182-183",
+   "definition": "Preparazione fisica per uno sport.",
    "example": "Gioco a calcio. Vado all’allenamento il mercoledì."
   },
   {
@@ -446,6 +491,7 @@
     "modern"
    ],
    "page": "182-183",
+   "definition": "Dei nostri tempi, non antico.",
    "example": "Giorgia fa danza moderna."
   },
   {
@@ -455,6 +501,8 @@
     "die Bewegung"
    ],
    "page": "182-183",
+   "definition": "Azione di chi si muove.",
+   "example": "Il movimento fa bene alla salute.",
    "related": "E movement; F le mouvement",
    "grammar": {
     "partOfSpeech": "noun",
@@ -473,6 +521,7 @@
     "der Applaus"
    ],
    "page": "182-183",
+   "definition": "Battere le mani per dire bravo.",
    "example": "Amo l’applauso quando ballo."
   },
   {
@@ -482,6 +531,8 @@
     "das Ende"
    ],
    "page": "182-183",
+   "definition": "Il momento in cui qualcosa finisce.",
+   "example": "La fine del film è bella.",
    "related": "L finis",
    "grammar": {
     "partOfSpeech": "noun",
@@ -500,6 +551,8 @@
     "das Wochenende"
    ],
    "page": "182-183",
+   "definition": "Sabato e domenica.",
+   "example": "Nel fine settimana gioco a calcio.",
    "related": "▸ la settimana",
    "usage": "pl. i fine settimana",
    "grammar": {
@@ -520,6 +573,7 @@
     "das Gebirge"
    ],
    "page": "182-183",
+   "definition": "Grande elevazione del terreno.",
    "example": "Sabato vado in montagna.",
    "related": "E mountain",
    "grammar": {
@@ -539,6 +593,7 @@
     "der Sommer"
    ],
    "page": "182-183",
+   "definition": "Stagione calda dopo la primavera.",
    "example": "D’estate vado in spiaggia.",
    "related": "≠ l’inverno; F l’été",
    "usage": "f."

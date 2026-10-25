@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -36,6 +36,8 @@
     "das Dorf"
    ],
    "page": "202",
+   "definition": "Piccolo centro abitato; anche una nazione.",
+   "example": "Il mio paese è piccolo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -53,6 +55,8 @@
     "die Hauptstadt"
    ],
    "page": "202",
+   "definition": "Città principale di un paese.",
+   "example": "Roma è la capitale d’Italia.",
    "related": "E capital city; F la capitale; L caput",
    "grammar": {
     "partOfSpeech": "noun",
@@ -71,6 +75,8 @@
     "die Landeshauptstadt"
    ],
    "page": "202",
+   "definition": "Città più importante di una regione.",
+   "example": "Napoli è il capoluogo della Campania.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -88,6 +94,8 @@
     "die Stadt"
    ],
    "page": "202",
+   "definition": "Grande centro abitato.",
+   "example": "La città è molto rumorosa.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -106,6 +114,8 @@
     "der Weg"
    ],
    "page": "202",
+   "definition": "Strada di una città.",
+   "example": "Abito in via Roma.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -123,6 +133,8 @@
     "die Straße"
    ],
    "page": "202",
+   "definition": "Spazio dove circolano auto e persone.",
+   "example": "La strada è molto trafficata.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -139,7 +151,9 @@
    "translations": [
     "die Autobahn"
    ],
-   "page": "202"
+   "page": "202",
+   "definition": "Strada veloce per auto fuori dalle città.",
+   "example": "Prendiamo l’autostrada per Milano."
   },
   {
    "id": "u1-per-parlare-008",
@@ -148,6 +162,8 @@
     "die Landstraße"
    ],
    "page": "202",
+   "definition": "Strada piccola che attraversa i campi.",
+   "example": "La strada di campagna è tranquilla.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -165,6 +181,8 @@
     "die Eisenbahn"
    ],
    "page": "202",
+   "definition": "Rete di binari dove corrono i treni.",
+   "example": "La ferrovia collega le due città.",
    "related": "L ferrum, via",
    "grammar": {
     "partOfSpeech": "noun",
@@ -183,6 +201,8 @@
     "der Fluss"
    ],
    "page": "202",
+   "definition": "Corso d’acqua che arriva al mare.",
+   "example": "Il Po è un fiume lungo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -200,6 +220,8 @@
     "das Meer"
    ],
    "page": "202",
+   "definition": "Grande distesa d’acqua salata.",
+   "example": "D’estate vado al mare.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -217,6 +239,8 @@
     "der Hafen"
    ],
    "page": "202",
+   "definition": "Luogo dove si fermano le navi.",
+   "example": "Le navi sono nel porto.",
    "related": "E/F port; L portus",
    "grammar": {
     "partOfSpeech": "noun",
@@ -235,6 +259,8 @@
     "der Berg"
    ],
    "page": "202",
+   "definition": "Altura molto alta.",
+   "example": "Il Monte Bianco è molto alto.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -252,6 +278,8 @@
     "das Gebirge"
    ],
    "page": "202",
+   "definition": "Grande rilievo del terreno.",
+   "example": "D’inverno andiamo in montagna.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -269,6 +297,8 @@
     "(6500) Meter hoch sein"
    ],
    "page": "202",
+   "definition": "Essere alto un certo numero di metri.",
+   "example": "Questa montagna ha un’altezza di 3000 metri.",
    "acceptedAnswers": [
     "avere un’altezza di metri"
    ]
@@ -280,6 +310,8 @@
     "der See"
    ],
    "page": "202",
+   "definition": "Grande quantità d’acqua circondata dalla terra.",
+   "example": "Il Lago di Garda è grande.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -297,6 +329,8 @@
     "der Wald"
    ],
    "page": "202",
+   "definition": "Zona piena di alberi.",
+   "example": "Raccolgo funghi nel bosco.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -314,6 +348,8 @@
     "das Feld"
    ],
    "page": "202",
+   "definition": "Terreno coltivato.",
+   "example": "Il contadino lavora nel campo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -331,6 +367,8 @@
     "das Land (≠ Stadt)"
    ],
    "page": "202",
+   "definition": "Zona fuori dalla città, con campi e fattorie.",
+   "example": "Mio nonno vive in campagna.",
    "related": "≠ la città; F la champagne",
    "grammar": {
     "partOfSpeech": "noun",
@@ -349,6 +387,8 @@
     "sich (im Norden) befinden"
    ],
    "page": "202",
+   "definition": "Essere situato in un luogo.",
+   "example": "Milano si trova nel nord Italia.",
    "acceptedAnswers": [
     "trovarsi"
    ]
@@ -360,6 +400,8 @@
     "in der Nähe der Berge"
    ],
    "page": "202",
+   "definition": "A poca distanza dai monti.",
+   "example": "Il villaggio è vicino alle montagne.",
    "acceptedAnswers": [
     "vicino alle"
    ]
@@ -372,6 +414,8 @@
     "nicht weit vom (Meer)"
    ],
    "page": "202",
+   "definition": "A poca distanza dal mare.",
+   "example": "Casa mia non è lontana dal mare.",
    "acceptedAnswers": [
     "non lontano dal"
    ]
@@ -383,6 +427,8 @@
     "der/die Einwohner/in"
    ],
    "page": "202",
+   "definition": "Persona che vive in una città o in un paese.",
+   "example": "Questa città ha centomila abitanti.",
    "related": "▸ abitare; E inhabitant; F l’habitant"
   },
   {
@@ -392,6 +438,8 @@
     "die Amtssprache"
    ],
    "page": "202",
+   "definition": "La lingua riconosciuta dallo Stato.",
+   "example": "La lingua ufficiale dell’Italia è l’italiano.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -409,6 +457,8 @@
     "typisch"
    ],
    "page": "202",
+   "definition": "Essere caratteristico di un luogo.",
+   "example": "Il tiramisù è tipico dell’Italia.",
    "acceptedAnswers": [
     "tipico/-a"
    ]
@@ -420,6 +470,8 @@
     "berühmt/bekannt sein für …"
    ],
    "page": "202",
+   "definition": "Essere conosciuto per una cosa.",
+   "example": "Venezia è famosa per i canali.",
    "acceptedAnswers": [
     "famoso/-a per …"
    ]

@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,6 +35,8 @@
     "der/die Erwachsene"
    ],
    "page": "197-198",
+   "definition": "Persona grande, non più ragazzo.",
+   "example": "L’adulto accompagna il bambino.",
    "related": "E adult; F l’adulte"
   },
   {
@@ -44,6 +46,8 @@
     "einige"
    ],
    "page": "197-198",
+   "definition": "Un piccolo numero di persone o cose.",
+   "example": "Alcuni amici vengono.",
    "usage": "Alcune persone sono in spiaggia e altre sono in piazza a prendere un caffè. – Einige Leute sind am Strand, andere sind auf dem Platz, um einen Kaffee zu trinken."
   },
   {
@@ -54,6 +58,8 @@
     "das Monument"
    ],
    "page": "197-198",
+   "definition": "Costruzione importante per la storia.",
+   "example": "Il Colosseo è un monumento famoso.",
    "related": "E monument; F le monument; L monumentum",
    "grammar": {
     "partOfSpeech": "noun",
@@ -72,6 +78,7 @@
     "historisch"
    ],
    "page": "197-198",
+   "definition": "Che appartiene al passato o ha importanza nella storia.",
    "example": "Il centro storico di Sanremo è molto bello.",
    "usage": "pl. storici/storiche"
   },
@@ -82,6 +89,7 @@
     "die Gasse"
    ],
    "page": "197-198",
+   "definition": "Strada stretta di una città antica.",
    "example": "Al centro storico ci sono tanti vicoli.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -100,6 +108,7 @@
     "eng"
    ],
    "page": "197-198",
+   "definition": "Poco largo.",
    "example": "I vicoli sono stretti."
   },
   {
@@ -109,6 +118,7 @@
     "gegenüber"
    ],
    "page": "197-198",
+   "definition": "Dalla parte opposta.",
    "example": "Il bar è di fronte al palazzo.",
    "usage": "prep."
   },
@@ -119,6 +129,7 @@
     "die Kathedrale"
    ],
    "page": "197-198",
+   "definition": "Grande chiesa di una città.",
    "example": "La cattedrale si trova in piazza.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -137,6 +148,8 @@
     "der Imbiss"
    ],
    "page": "197-198",
+   "definition": "Piccolo pasto veloce.",
+   "example": "Faccio uno spuntino alle dieci.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -154,6 +167,7 @@
     "das Stück"
    ],
    "page": "197-198",
+   "definition": "Parte di qualcosa.",
    "example": "Ho fame. Mi dai un pezzo di pane?",
    "related": "E piece",
    "grammar": {
@@ -173,6 +187,8 @@
     "kalt"
    ],
    "page": "197-198",
+   "definition": "Con bassa temperatura.",
+   "example": "La neve è fredda.",
    "related": "≠ caldo"
   },
   {
@@ -183,6 +199,7 @@
     "Kassenzettel"
    ],
    "page": "197-198",
+   "definition": "Foglio che si riceve dopo aver pagato.",
    "example": "Al bar prendiamo lo scontrino alla cassa.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -201,6 +218,7 @@
     "sich setzen"
    ],
    "page": "197-198",
+   "definition": "Mettersi su una sedia.",
    "example": "Leo si siede sulla sedia.",
    "related": "▸ la sedia",
    "acceptedAnswers": [
@@ -215,6 +233,7 @@
     "sich verabreden"
    ],
    "page": "197-198",
+   "definition": "Accordarsi per incontrarsi.",
    "example": "Anna e Leo si danno appuntamento alle sette.",
    "related": "E appointment"
   },
@@ -225,6 +244,7 @@
     "der Parkplatz"
    ],
    "page": "197-198",
+   "definition": "Posto dove si lascia l’auto.",
    "example": "Metto la macchina sul parcheggio.",
    "usage": "pl. i parcheggi",
    "grammar": {
@@ -244,6 +264,7 @@
     "die Orientierung"
    ],
    "page": "197-198",
+   "definition": "Capacità di trovare la direzione.",
    "example": "Il GPS è per l’orientamento."
   },
   {
@@ -253,6 +274,7 @@
     "jdm/(auf) etw. vertrauen"
    ],
    "page": "197-198",
+   "definition": "Avere fiducia in qualcuno.",
    "example": "Io non mi fido del GPS."
   },
   {
@@ -262,6 +284,7 @@
     "in Richtung"
    ],
    "page": "197-198",
+   "definition": "Indica la direzione.",
    "example": "I ragazzi corrono verso il casinò.",
    "usage": "prep."
   },
@@ -272,6 +295,8 @@
     "das Theater"
    ],
    "page": "197-198",
+   "definition": "Edificio con un palcoscenico dove si fanno spettacoli.",
+   "example": "Andiamo a teatro sabato.",
    "related": "L theatrum",
    "grammar": {
     "partOfSpeech": "noun",
@@ -290,6 +315,7 @@
     "der Ort"
    ],
    "page": "197-198",
+   "definition": "Posto preciso.",
    "example": "Sanremo è un luogo dove molte persone si divertono.",
    "usage": "pl. i luoghi",
    "grammar": {
@@ -309,6 +335,7 @@
     "das Festival"
    ],
    "page": "197-198",
+   "definition": "Grande evento con musica o spettacoli.",
    "example": "A Sanremo c’è il festival di musica.",
    "usage": "pl. i festival",
    "grammar": {
@@ -328,6 +355,7 @@
     "im + Monatsnamen"
    ],
    "page": "197-198",
+   "definition": "Piccola parola che indica luogo o direzione.",
    "example": "A luglio vado in Italia."
   },
   {
@@ -337,6 +365,7 @@
     "der Fan"
    ],
    "page": "197-198",
+   "definition": "Persona che ammira molto un artista.",
    "example": "Filippo è un fan di Ligabue.",
    "usage": "pl. i fan",
    "grammar": {
@@ -356,6 +385,7 @@
     "unterschreiben"
    ],
    "page": "197-198",
+   "definition": "Mettere il proprio nome in fondo a un documento.",
    "example": "Ligabue firma degli autografi per i suoi fan."
   },
   {
@@ -365,6 +395,7 @@
     "sogar"
    ],
    "page": "197-198",
+   "definition": "Anche, addirittura.",
    "example": "Amo Liga. Ho perfino un autografo.",
    "related": "= addirittura",
    "usage": "avv."
@@ -376,6 +407,7 @@
     "von jdm/etw. begeistert"
    ],
    "page": "197-198",
+   "definition": "Molto contento e pieno di energia per qualcosa.",
    "example": "Tutti sono entusiasti dell’idea."
   },
   {
@@ -385,6 +417,7 @@
     "geradeaus"
    ],
    "page": "197-198",
+   "definition": "Senza curve, nella stessa direzione.",
    "example": "Per arrivare in centro dobbiamo andare dritto.",
    "usage": "avv."
   },
@@ -395,6 +428,7 @@
     "einige"
    ],
    "page": "197-198",
+   "definition": "Un piccolo numero di persone o cose.",
    "example": "A Roma faccio qualche foto.",
    "related": "F quelque"
   },
@@ -405,6 +439,7 @@
     "die Strandpromenade"
    ],
    "page": "197-198",
+   "definition": "Strada vicino al mare dove si passeggia.",
    "example": "Andiamo sul lungomare.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -423,6 +458,7 @@
     "jdn/etw. bemerken"
    ],
    "page": "197-198",
+   "definition": "Notare qualcosa che prima non si vedeva.",
    "example": "Giorgia si accorge di essere in ritardo.",
    "usage": "p.p. accorto"
   },
@@ -432,7 +468,9 @@
    "translations": [
     "O Gott!"
    ],
-   "page": "197-198"
+   "page": "197-198",
+   "definition": "Esclamazione di paura o sorpresa.",
+   "example": "Oddio, ho perso il telefono!"
   },
   {
    "id": "u7-7b-032",
@@ -441,6 +479,8 @@
     "das Handy"
    ],
    "page": "197-198",
+   "definition": "Piccolo telefono portatile.",
+   "example": "Il telefonino squilla.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -458,6 +498,7 @@
     "leer (Batterie, Akku)"
    ],
    "page": "197-198",
+   "definition": "Senza energia: non funziona più.",
    "example": "Il mio cellulare è scarico.",
    "usage": "pl. scarichi/-che"
   },
@@ -468,6 +509,8 @@
     "die Straße"
    ],
    "page": "197-198",
+   "definition": "Via dove passano le auto.",
+   "example": "La strada è piena di auto.",
    "related": "▸ la via",
    "grammar": {
     "partOfSpeech": "noun",
@@ -487,6 +530,8 @@
     "gerecht"
    ],
    "page": "197-198",
+   "definition": "Corretto, senza errore.",
+   "example": "La risposta è giusta.",
    "related": "F juste; L iustus"
   },
   {
@@ -496,6 +541,7 @@
     "überqueren"
    ],
    "page": "197-198",
+   "definition": "Andare da una parte all’altra.",
    "example": "Attraversa la strada!",
    "related": "F traverser"
   },
@@ -506,6 +552,8 @@
     "der Meter"
    ],
    "page": "197-198",
+   "definition": "Misura di cento centimetri.",
+   "example": "La stanza è lunga cinque metri.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -524,6 +572,7 @@
     "abbiegen"
    ],
    "page": "197-198",
+   "definition": "Cambiare direzione.",
    "example": "Dovete girare a sinistra."
   },
   {
@@ -533,6 +582,7 @@
     "links"
    ],
    "page": "197-198",
+   "definition": "Dalla parte opposta a destra.",
    "example": "Devi girare a sinistra.",
    "related": "L sinister",
    "usage": "avv."
@@ -544,6 +594,7 @@
     "die Kreuzung"
    ],
    "page": "197-198",
+   "definition": "Punto dove due strade si incontrano.",
    "example": "All’incrocio girate a sinistra.",
    "usage": "pl. gli incroci"
   },
@@ -554,6 +605,8 @@
     "rechts"
    ],
    "page": "197-198",
+   "definition": "Dalla parte del braccio che di solito si usa per scrivere.",
+   "example": "Gira a destra.",
    "related": "≠ a sinistra; F à droite; L dexter",
    "usage": "avv."
   },
@@ -563,7 +616,9 @@
    "translations": [
     "unbedingt"
    ],
-   "page": "197-198"
+   "page": "197-198",
+   "definition": "Obbligatoriamente.",
+   "example": "Devi per forza venire!"
   },
   {
    "id": "u7-7b-043",
@@ -572,6 +627,7 @@
     "der Fahrradweg"
    ],
    "page": "197-198",
+   "definition": "Strada riservata alle biciclette.",
    "example": "In Liguria c’è una pista ciclabile lunga.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -591,6 +647,7 @@
     "sehr gut"
    ],
    "page": "197-198",
+   "definition": "Molto buono.",
    "example": "Andiamo in bici. – Ottima idea!",
    "related": "L optimus"
   }

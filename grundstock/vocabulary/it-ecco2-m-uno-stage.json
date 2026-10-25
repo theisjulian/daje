@@ -24,7 +24,7 @@
  ],
  "reviewNotes": [
   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Beispielsätze sind eigene Formulierungen (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -38,6 +38,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Periodo di pratica in un’azienda.",
+   "example": "Faccio uno stage in estate.",
    "usage": "[staʒ]: g weich, e am Ende nicht gesprochen",
    "grammar": {
     "partOfSpeech": "noun",
@@ -58,7 +60,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Personaggio principale.",
+   "example": "Il protagonista è un ragazzo."
   },
   {
    "id": "m-uno-stage-003",
@@ -70,6 +74,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Attività che serve a vendere un prodotto.",
+   "example": "Studio marketing.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -89,7 +95,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Conosciuto.",
+   "example": "È un cantante noto."
   },
   {
    "id": "m-uno-stage-005",
@@ -100,7 +108,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Far crescere.",
+   "example": "Sviluppiamo un progetto."
   },
   {
    "id": "m-uno-stage-006",
@@ -112,6 +122,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Noto a molti.",
+   "example": "È uno scrittore conosciuto.",
    "related": "▸ conoscere; ≠ sconosciuto/-a; L cognoscere; F connu/connue"
   },
   {
@@ -123,7 +135,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Argomento di un’e-mail o di una lettera.",
+   "example": "L’oggetto della mail è “Richiesta”."
   },
   {
    "id": "m-uno-stage-008",
@@ -134,7 +148,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Formula di saluto molto cortese per iniziare una lettera.",
+   "example": "Gentilissimo signor Rossi,"
   },
   {
    "id": "m-uno-stage-009",
@@ -145,7 +161,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Dello Stato.",
+   "example": "Frequento una scuola statale."
   },
   {
    "id": "m-uno-stage-010",
@@ -156,7 +174,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Messaggio pubblicato per offrire o cercare qualcosa.",
+   "example": "Leggo un annuncio di lavoro."
   },
   {
    "id": "m-uno-stage-011",
@@ -168,6 +188,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Che scorre senza fatica.",
+   "example": "Parla un italiano corrente.",
    "related": "E current"
   },
   {
@@ -179,7 +201,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "In aggiunta a.",
+   "example": "Oltre a te, viene anche Marco."
   },
   {
    "id": "m-uno-stage-013",
@@ -192,6 +216,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Fondamentale, di primo livello.",
+   "example": "Ho un livello di base.",
    "related": "E basic"
   },
   {
@@ -203,7 +229,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Andare spesso in un luogo.",
+   "example": "Frequento la scuola di danza."
   },
   {
    "id": "m-uno-stage-015",
@@ -215,7 +243,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Usare.",
+   "example": "Utilizzo il computer."
   },
   {
    "id": "m-uno-stage-016",
@@ -226,7 +256,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Che si fa di solito.",
+   "example": "È il mio posto abituale."
   },
   {
    "id": "m-uno-stage-017",
@@ -238,6 +270,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "La prima lingua che si impara da piccoli.",
+   "example": "La mia lingua materna è il tedesco.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -258,6 +292,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Molto concentrato nel tempo.",
+   "example": "Faccio un corso intensivo.",
    "related": "E intensive"
   },
   {
@@ -271,6 +307,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Grado di competenza.",
+   "example": "Il mio livello di italiano è B1.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -291,7 +329,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Della scuola.",
+   "example": "L’anno scolastico è lungo."
   },
   {
    "id": "m-uno-stage-021",
@@ -303,6 +343,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Significato.",
+   "example": "Questa frase ha senso.",
    "related": "▸ sentire; E sense; F le sens; L sensus",
    "grammar": {
     "partOfSpeech": "noun",
@@ -324,6 +366,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Modo di pianificare le cose; anche gruppo.",
+   "example": "L’organizzazione è perfetta.",
    "related": "▸ organizzare; E organisation",
    "usage": "f."
   },
@@ -337,6 +381,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Per una sola persona.",
+   "example": "È un lavoro individuale.",
    "related": "E individual"
   },
   {
@@ -348,7 +394,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Fare, portare a termine.",
+   "example": "Realizzo un progetto."
   },
   {
    "id": "m-uno-stage-025",
@@ -360,6 +408,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Esposizione di un lavoro.",
+   "example": "La presentazione dura dieci minuti.",
    "related": "E presentation; F la présentation",
    "grammar": {
     "partOfSpeech": "noun",
@@ -382,6 +432,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Capacità.",
+   "example": "Ha molta abilità.",
    "related": "E ability"
   },
   {
@@ -394,6 +446,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Conoscenza che nasce dalla pratica.",
+   "example": "Ho molta esperienza.",
    "related": "E experience"
   },
   {
@@ -407,6 +461,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Persona che compra.",
+   "example": "Il cliente aspetta alla cassa.",
    "related": "E client"
   },
   {
@@ -419,6 +475,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Avere la capacità di.",
+   "example": "Sono in grado di nuotare.",
    "acceptedAnswers": [
     "essere in grado di"
    ]
@@ -432,7 +490,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Che soddisfa.",
+   "example": "Il risultato è soddisfacente."
   },
   {
    "id": "m-uno-stage-031",
@@ -444,6 +504,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Intervallo di tempo.",
+   "example": "È un periodo di vacanza.",
    "related": "E period",
    "grammar": {
     "partOfSpeech": "noun",
@@ -465,6 +527,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Grande energia e gioia.",
+   "example": "Ha molto entusiasmo.",
    "related": "E enthusiasm"
   },
   {
@@ -476,7 +540,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Formula di lettera: aspettando.",
+   "example": "In attesa di una Sua risposta, cordiali saluti."
   },
   {
    "id": "m-uno-stage-034",
@@ -487,7 +553,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Gentile.",
+   "example": "Il cameriere è cortese."
   },
   {
    "id": "m-uno-stage-035",
@@ -499,6 +567,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Quello che si dice a una domanda.",
+   "example": "La risposta è giusta.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -518,7 +588,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Mandare saluti.",
+   "example": "Porgo i miei saluti alla signora."
   },
   {
    "id": "m-uno-stage-037",
@@ -530,6 +602,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Pieno di affetto.",
+   "example": "Un cordiale saluto.",
    "related": "L cor"
   },
   {
@@ -542,6 +616,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Giorno, mese e anno in cui si è nati.",
+   "example": "La mia data di nascita è il 3 maggio.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -562,6 +638,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Documento che certifica un titolo di studio.",
+   "example": "Ho il diploma di scuola superiore.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -581,7 +659,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Ottenere con impegno.",
+   "example": "Consegue la laurea."
   },
   {
    "id": "m-uno-stage-041",
@@ -593,7 +673,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Nel luogo di.",
+   "example": "Lavoro presso una banca."
   },
   {
    "id": "m-uno-stage-042",
@@ -605,6 +687,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Che scorre senza difficoltà.",
+   "example": "Parla un italiano fluente.",
    "related": "E fluent; = corrente"
   },
   {
@@ -616,7 +700,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Fatto con penna o tastiera, non a voce.",
+   "example": "C’è una prova scritta."
   },
   {
    "id": "m-uno-stage-044",
@@ -627,7 +713,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "Che si fa a voce.",
+   "example": "C’è una prova orale."
   },
   {
    "id": "m-uno-stage-045",
@@ -639,6 +727,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "App per telefono o computer.",
+   "example": "Scarico un’applicazione.",
    "related": "E application",
    "usage": "f."
   },
@@ -652,6 +742,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Aiuto.",
+   "example": "Offro supporto ai clienti.",
    "related": "E support",
    "grammar": {
     "partOfSpeech": "noun",
@@ -672,7 +764,9 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "definition": "File unito a una mail.",
+   "example": "Trovi il CV in allegato."
   },
   {
    "id": "m-uno-stage-048",
@@ -684,6 +778,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Documento con le esperienze di una persona.",
+   "example": "Invio il curriculum.",
    "acceptedAnswers": [
     "il curriculum"
    ],
@@ -708,6 +804,8 @@
    "tags": [
     "fakultativ"
    ],
+   "definition": "Formazione scolastica.",
+   "example": "L’istruzione è importante.",
    "usage": "f."
   }
  ],
