@@ -241,3 +241,23 @@ body.previewing-teaching #teaching-print.dlg-mode{position:fixed;inset:0;z-index
   html:has(body.printing-teaching), body.printing-teaching { height: auto !important; min-height: 0 !important; overflow: visible !important; position: static !important; }
   body.printing-teaching #teaching-print, body.printing-teaching #teaching-print .dlg-prev, body.printing-teaching #teaching-print .dlg-grid, body.printing-teaching #teaching-print .pages, body.printing-teaching #teaching-print .paper { height: auto !important; max-height: none !important; overflow: visible !important; position: static !important; }
 }
+
+/* Design-Auswahl als schlanke Chips (die echte Vorschau zeigt das Layout) */
+.dlg-chips{display:flex;flex-wrap:wrap;gap:8px}
+.dlg-chip{position:relative;cursor:pointer}.dlg-chip input{position:absolute;opacity:0;pointer-events:none}
+.dlg-chip span{display:block;padding:10px 16px;border-radius:999px;border:1.5px solid var(--hairline);background:var(--tile);font-size:15px;min-height:20px}
+.dlg-chip input:checked+span{border-color:var(--blue);background:color-mix(in srgb,var(--blue) 14%,var(--tile));font-weight:600}
+.dlg-chip input:focus-visible+span{outline:2px solid var(--blue)}
+.dlg-tune{display:none}
+#teaching-print,#teaching-print *{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+@media (max-width:860px){
+  .dlg-tune{display:inline-block}
+  .hide-m{display:none}
+  .dlg-head{padding:6px 8px;gap:4px}.dlg-link{padding:8px 8px;font-size:15px}
+  .dlg-head>b{display:none}.dlg-head .dlg-acts{flex:1;justify-content:flex-end}
+  #teaching-print .dlg-head>[data-portal=close-print]{margin-right:auto}
+  .dlg-grid{display:block;position:relative}
+  .dlg-prev{height:100%;padding:12px 6px 90px;box-sizing:border-box}
+  .dlg-side{position:fixed;left:0;right:0;bottom:0;max-height:64vh;z-index:5;border-right:0;border-top:1px solid var(--hairline);border-radius:20px 20px 0 0;background:var(--canvas);box-shadow:0 -12px 40px #0004;transform:translateY(105%);transition:transform .28s cubic-bezier(.2,.8,.2,1);padding:18px 18px calc(30px + env(safe-area-inset-bottom))}
+  #teaching-print.side-open .dlg-side{transform:none}
+}

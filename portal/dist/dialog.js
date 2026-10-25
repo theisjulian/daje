@@ -3,7 +3,7 @@ function dlgSeg(attr, name, opts, cur) {
   return `<div class="dlg-seg">${opts.map(([v, l]) => `<label><input type="radio" name="${name}" ${attr} value="${v}" ${String(cur) === String(v) ? 'checked' : ''}><span>${l}</span></label>`).join('')}</div>`;
 }
 function dlgDesigns() {
-  return `<div class="dlg-designs">${DOC_DESIGNS.map(([k, l, d]) => `<label class="dlg-design dz-${k}"><input type="radio" name="dz" data-doc="design" value="${k}" ${docState.design === k ? 'checked' : ''}><i><u></u><u></u><u></u></i><b>${l}</b><small>${d}</small></label>`).join('')}</div>`;
+  return `<div class="dlg-chips">${DOC_DESIGNS.map(([k, l, d]) => `<label class="dlg-chip" title="${d}"><input type="radio" name="dz" data-doc="design" value="${k}" ${docState.design === k ? 'checked' : ''}><span>${l}</span></label>`).join('')}</div>`;
 }
 function dlgFonts() {
   return `<div class="dlg-fonts">${DOC_FONTS.map(([k, l, f]) => `<label class="dlg-font"><input type="radio" name="dfont" data-doc="font" value="${k}" ${docState.font === k ? 'checked' : ''}><span style="font-family:${k === 'auto' ? 'var(--ui)' : f}">${l}</span></label>`).join('')}</div>`;
@@ -25,7 +25,7 @@ function dlgShow({ title, side, paper }) {
   sheet.className = 'dlg-mode';
   dlgStyle(sheet);
   const keepScroll = sheet.querySelector('.dlg-prev')?.scrollTop || 0;
-  sheet.innerHTML = `<div class="dlg-head"><button class="dlg-link" data-portal="close-print">Abbrechen</button><b>${esc(title)}</b><span class="dlg-acts"><button class="dlg-link" data-doc="word">Word-Datei</button><button class="dlg-link strong" data-portal="do-print">Als PDF speichern</button></span></div>
+  sheet.innerHTML = `<div class="dlg-head"><button class="dlg-link" data-portal="close-print">Abbrechen</button><b>${esc(title)}</b><span class="dlg-acts"><button class="dlg-link dlg-tune" data-dlg-side aria-expanded="false">Anpassen</button><button class="dlg-link" data-doc="word">Word<span class="hide-m">-Datei</span></button><button class="dlg-link strong" data-portal="do-print">PDF<span class="hide-m"> speichern</span></button></span></div>
   <div class="dlg-grid"><aside class="dlg-side">${side}</aside><div class="dlg-prev"><div class="pages"><div class="paper">${paper}</div></div></div>`;
   document.body.classList.add('previewing-teaching');
   dlgPaginate();
@@ -87,6 +87,11 @@ function dlgPaginate() {
   pages.replaceChildren(...out);
 }
 window.addEventListener('resize', dlgFit);
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-dlg-side]');
+  const sheet = document.getElementById('teaching-print');
+  if (b && sheet) { const on = sheet.classList.toggle('side-open'); b.setAttribute('aria-expanded', String(on)); b.textContent = on ? 'Fertig' : 'Anpassen'; setTimeout(dlgFit, 50); }
+});
 const dlgBlock = (h, inner) => `<section class="dlg-block"><h4>${h}</h4>${inner}</section>`;
 
 renderVocabDoc = function () {
