@@ -19,13 +19,25 @@ function portalProfile() {
 function persistPortal() {
   return persistProfiles();
 }
+function withExtra(x) {
+  const e = typeof LISTENING_EXTRA !== 'undefined' && LISTENING_EXTRA[x.id];
+  if (!e) return x;
+  const have = new Set((x.questions || []).map(q => q.id));
+  const add = [...e.pre, ...e.post].filter(q => !have.has(q.id));
+  return {
+    ...x,
+    questions: [...e.pre.filter(q => !have.has(q.id)), ...(x.questions || []), ...e.post.filter(q => !have.has(q.id))],
+    teacherNotes: x.teacherNotes || e.teacherNotes,
+    levelLabel: x.levelLabel || e.levelLabel,
+    estimatedMinutes: Math.max(x.estimatedMinutes || 0, Math.round((x.questions.length + add.length) * 1.2))
+  };
+}
 function contentList(kind) {
   const reviewIds = new Set(LISTENING_REVIEW_SEEDS.map(x => x.id));
   const seeds =
     kind === 'listening'
       ? [
-          ...LISTENING_SEEDS,
-          ...LISTENING_REVIEW_SEEDS,
+          ...[...LISTENING_SEEDS, ...LISTENING_REVIEW_SEEDS].map(withExtra),
           ...STOCK_PACKAGES.filter(x => x.kind === 'listening')
         ]
       : kind === 'vocabulary'

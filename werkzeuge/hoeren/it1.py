@@ -3,48 +3,49 @@ V = 'https://www.youtube.com/watch?v='
 NOTE = 'Video ufficiale presso il fornitore; verificare incorporabilità e diritti prima dell’uso.'
 
 # ---------------- 50 SPECIAL ----------------
+# Nur das Lied (kein Interview). Kein Liedtext; Lückentext nur über privaten Import.
 S, ST, VID = '50-special', '50 Special · Lunapop', 'NF9n5M5qhyU'
 q = Q()
 q.sc('Prima dell’ascolto: Che cos’è una Vespa?', ['Un tipo di scooter italiano', 'Un frutto', 'Un tipo di pasta', 'Un fiume'], 0, 'La Vespa è uno scooter italiano famoso nel mondo.')
-q.sc('Durante l’ascolto: Di che cosa parla la canzone?', ['Di un giro in Vespa in estate', 'Di una gara di nuoto', 'Di una cena di Natale', 'Di una lezione di storia'], 0, 'Il tema è la libertà dell’estate e della Vespa.')
-q.tf('Nella canzone qualcuno vuole andare fuori città.', True, 'Il ritornello ripete il desiderio di partire.')
-q.sc('Quale stagione è al centro della canzone?', ['L’estate', 'L’inverno', 'L’autunno', 'La primavera'], 0, 'L’estate e le vacanze.')
-q.sc('Perché la Vespa è importante per il protagonista?', ['Gli dà libertà e allontana i problemi', 'È molto costosa', 'È di suo padre', 'È rotta'], 0, 'La Vespa è simbolo di libertà.')
-q.tf('La canzone nomina un posto vicino a Bologna (i colli).', True, 'La zona di Bologna è importante nel testo e nella storia della band.')
-q.gf('Completa le frasi (estate, Vespa, festa, vacanza).', 'Il ragazzo ha una [[a]] e vuole andare a una [[b]]. È [[c]] e vuole partire per una [[d]].', [['Vespa'], ['festa'], ['estate'], ['vacanza']], 'Vocabolario della canzone.')
+q.sc('Prima dell’ascolto: Che cosa fai di solito in estate? Quale immagine associ alla parola “estate”?', ['Mare, amici e libertà', 'Compiti e verifiche', 'Neve e freddo', 'Lavoro in ufficio'], 0, 'Risposta soggettiva: serve per attivare il vocabolario dell’estate.')
+q.sc('Primo ascolto: Quale atmosfera ha la canzone?', ['Allegra e spensierata', 'Triste e lenta', 'Spaventosa', 'Solenne'], 0, 'Un brano leggero e solare.')
+q.sc('Primo ascolto: Che tipo di musica senti?', ['Pop-rock italiano con ritmo veloce', 'Musica classica', 'Jazz lento', 'Musica elettronica da discoteca'], 0, 'Chitarre, ritmo e voce giovane: pop-rock.')
+q.tf('Primo ascolto: La voce che canta è quella di un uomo.', True, 'Il cantante dei Lunapop è Cesare Cremonini.')
+q.sc('Di che cosa parla la canzone, in generale?', ['Di un ragazzo, della sua Vespa e dell’estate', 'Di una gara di nuoto', 'Di una cena di Natale', 'Di una lezione di storia'], 0, 'Tema: libertà, estate, scooter.')
+q.tf('Secondo ascolto: Nella canzone si parla di una Vespa.', True, 'Il titolo stesso è un modello di Vespa: la 50 Special.')
+q.tf('Secondo ascolto: Il protagonista è molto anziano.', False, 'Il protagonista è un ragazzo giovane.')
+q.sc('Quale parola descrive meglio il sentimento della canzone?', ['La voglia di libertà', 'La paura', 'La noia', 'La rabbia'], 0, 'Libertà e spensieratezza.')
+q.gf('Completa le frasi con le parole giuste (estate, Vespa, festa, vacanza).', 'Il ragazzo ha una [[a]] e vuole andare a una [[b]]. È [[c]] e vuole partire per una [[d]].', [['Vespa'], ['festa'], ['estate'], ['vacanza']], 'Vocabolario del tema.')
 q.mt('Collega la parola al significato.', [('la Vespa', 'scooter italiano'), ('il colle', 'collina'), ('la festa', 'party'), ('girare', 'andare in giro')], 'Parole utili.')
 q.sc('Quale città è la patria dei Lunapop?', ['Bologna', 'Napoli', 'Torino', 'Palermo'], 0, 'I Lunapop sono di Bologna.')
 q.tf('Cesare Cremonini è il cantante dei Lunapop.', True, 'Cremonini era il cantante della band.')
-q.sc('Quale espressione descrive l’atmosfera?', ['Spensierata e allegra', 'Triste e lenta', 'Spaventosa', 'Noiosa'], 0, 'Un brano leggero e solare.')
-q.sc('Leggi l’intervista a Cremonini (testo breve): Dove è cresciuto?', ['In campagna vicino a Bologna', 'A Roma', 'A Milano', 'In montagna'], 0, 'Racconta di essere cresciuto in campagna vicino a Bologna.')
-q.sc('Chi cucinava i tortelloni la domenica?', ['La nonna', 'Il papà', 'Lo zio', 'Un amico'], 0, 'La nonna cucinava tortelloni e tagliatelle.')
-q.sc('Come chiama Cremonini il gruppo di amici a Bologna?', ['La balotta', 'La pizza', 'La famiglia', 'La squadra'], 0, 'La compagnia di amici si chiama “la balotta”.')
-q.sa('Trasforma in terza persona: “Io sono cresciuto in campagna.” → Lui è cresciuto … (completa con una parola)', ['in campagna'], 'in campagna', 'Passaggio da io a lui.')
+q.sc('Dopo l’ascolto: Perché la canzone è diventata un “tormentone” estivo?', ['Melodia semplice, ritornello facile, tema solare', 'È molto lunga', 'È sussurrata', 'Ha un testo difficile'], 0, 'Ritornello orecchiabile + atmosfera estiva.')
+q.sc('Dopo l’ascolto: Che cosa rappresenta per te la Vespa nella canzone?', ['Un simbolo di libertà e giovinezza', 'Un mezzo per andare al lavoro', 'Un oggetto costoso', 'Un pericolo'], 0, 'Interpretazione: simbolo di libertà.')
 notes = {'warmup': ['Immagine: una Vespa rossa su una strada di collina. Che cosa vi viene in mente?', 'Domanda: come immaginate l’estate perfetta in Italia?'],
-         'steps': ['1. Impulso immagine e vocabolario.', '2. Primo ascolto: tema e stato d’animo.', '3. Secondo ascolto: dettagli e lacune (nel documento originale).', '4. Lettura dell’intervista a Cremonini e trasformazione in terza persona.'],
-         'tips': ['Il testo originale della canzone resta nel file privato: usare solo per le lacune.', 'Chiedere agli alunni di segnare le parole ripetute nel ritornello.'],
+         'steps': ['1. Impulso immagine e vocabolario (Vespa, estate, festa, vacanza).', '2. Primo ascolto: tema e stato d’animo.', '3. Secondo ascolto: dettagli e vero/falso.', '4. Con il testo originale (file privato): Lückentext, vedi sotto.'],
+         'tips': ['Il testo originale della canzone resta nel file privato: usarlo solo per le lacune.', 'Lückentext: togliere 8–10 parole, ma ogni parola del ritornello solo UNA volta (il ritornello si ripete e rivelerebbe la soluzione).'],
          'followUp': ['Che cosa ti dà libertà nella tua vita? Scrivi 3 frasi.', 'Cerca una canzone italiana sull’estate e presentala.']}
-pkg('50special-base', '50 Special · Base', 'it', 'A2', 'Tema, vocabolario e piccola intervista: una canzone sull’estate e sulla Vespa.', ['Musica', 'Estate', 'Bologna'], song(VID), q, S, ST, 'Base (livello intermedio)', notes, url=V + VID, source_note=NOTE)
+pkg('50special-base', '50 Special · Base', 'it', 'A2', 'Tema, vocabolario e atmosfera di una canzone sull’estate e sulla Vespa (solo la canzone).', ['Musica', 'Estate', 'Bologna'], song(VID), q, S, ST, 'Base (livello intermedio)', notes, url=V + VID, source_note=NOTE)
 
 q = Q()
+q.sc('Prima dell’ascolto: Che cos’è un “tormentone”?', ['Una canzone molto popolare in una determinata estate', 'Una canzone triste', 'Un tipo di danza', 'Un film'], 0, 'Tormentone = hit estivo.')
 q.sc('Analisi: Qual è il ruolo simbolico della Vespa nel testo?', ['Libertà e giovinezza', 'Ricchezza', 'Pericolo', 'Lavoro'], 0, 'La Vespa rappresenta libertà, amicizia, giovinezza.')
 q.mc('Quali temi emergono? (più risposte)', ['Libertà', 'Estate', 'Amicizia', 'Guerra', 'Paura'], [0, 1, 2], 'Temi leggeri e solari.')
 q.sc('Come descriveresti il linguaggio della canzone?', ['Semplice e colloquiale', 'Molto formale', 'Dialettale puro', 'Tecnico'], 0, 'Lessico semplice, vicino ai giovani.')
-q.mt('Collega termini e sinonimi.', [('truccata', 'modificata'), ('sfiorare', 'quasi toccare'), ('ingranare', 'inserire la marcia'), ('fare in fretta', 'sbrigarsi')], 'Parole del testo (verbi e aggettivi).')
-q.tf('Il brano è stato scritto da cantautori anziani.', False, 'I Lunapop erano molto giovani.')
 q.sc('Quali emozioni prevalgono?', ['Spensieratezza e voglia di vivere', 'Rabbia', 'Nostalgia triste', 'Angoscia'], 0, 'Tono positivo.')
 q.sc('Perché il ritornello funziona bene?', ['Ripetizione e melodia semplice', 'È molto lungo', 'È sussurrato', 'Cambia ogni volta'], 0, 'Elementi tipici dei tormentoni estivi.')
-q.sc('Che cos’è un “tormentone”?', ['Una canzone molto popolare in un’estate', 'Una canzone triste', 'Un tipo di danza', 'Un film'], 0, 'Tormentone = hit estivo.')
+q.tf('La canzone racconta una storia con un inizio, uno sviluppo e una fine molto precisi.', False, 'È più un’immagine/un’atmosfera che una storia.')
+q.tf('Il brano è stato scritto da cantautori anziani.', False, 'I Lunapop erano molto giovani.')
 q.mt('Lessico: abbina.', [('il colle', 'la collina'), ('la balotta', 'il gruppo di amici (bolognese)'), ('la cascina', 'la casa di campagna'), ('l’estate', 'la stagione calda')], 'Parole legate a Bologna e alla campagna.')
+q.mt('Collega termini e sinonimi.', [('truccata', 'modificata'), ('sfiorare', 'quasi toccare'), ('ingranare', 'inserire la marcia'), ('fare in fretta', 'sbrigarsi')], 'Registro colloquiale e verbi dell’ambito motociclistico.')
 q.gf('Completa con il condizionale (vorrei, potrebbe, sarebbe, andrei).', 'Io [[a]] con la Vespa al mare. Con gli amici [[b]] bellissimo. Una Vespa [[c]] portarci fuori città e [[d]] volentieri.', [['andrei'], ['sarebbe'], ['potrebbe'], ['vorrei']], 'Esercizio sul condizionale.')
-q.sc('Intervista: Che cosa significa “la balotta”?', ['Gruppo di amici', 'Squadra di calcio', 'Famiglia', 'Classe'], 0, 'Espressione bolognese.')
-q.sc('Quale squadra è tornata in Serie A nel 2015 (nell’intervista)?', ['Bologna', 'Napoli', 'Torino', 'Palermo'], 0, 'Cremonini parla del Bologna.')
-q.sa('Con la sua Vespa rossa, in quale città della Romagna andava Cremonini da Bologna? (una parola)', ['Riccione'], 'Riccione', 'La tratta Bologna–Riccione.')
+q.od('Ordina le fasi di lavoro con la canzone.', ['Immagine e vocabolario', 'Primo ascolto (tema)', 'Secondo ascolto (dettagli)', 'Lückentext con il testo originale', 'Discussione e interpretazione'], 'Sequenza didattica consueta.')
+q.sc('Dopo l’ascolto: Quale messaggio emerge, secondo te?', ['Vivere il presente con gli amici', 'Studiare di più', 'Lavorare molto', 'Evitare i viaggi'], 0, 'Interpretazione aperta: spensieratezza.')
 notes = {'warmup': ['Domanda: perché alcune canzoni diventano “tormentoni”?', 'Ascoltate 20 secondi: che immagini vi vengono?'],
-         'steps': ['1. Ascolto globale.', '2. Analisi del testo (tema, simboli).', '3. Lessico e condizionale.', '4. Intervista di Cremonini, domande di comprensione.'],
-         'tips': ['Per la versione avanzata usare il testo originale in file privato per le lacune.'],
+         'steps': ['1. Ascolto globale.', '2. Analisi del testo (tema, simboli).', '3. Lessico e condizionale.', '4. Lückentext con il testo originale (file privato).'],
+         'tips': ['Testo originale solo nel file privato.', 'Ritornello: ogni parola mancante una sola volta.'],
          'followUp': ['Scrivi un breve testo: Che cosa rappresenta per te un mezzo di libertà?', 'Confronta con una canzone estiva del tuo paese.']}
-pkg('50special-avanzata', '50 Special · Avanzata', 'it', 'B1', 'Analisi dei simboli e del linguaggio, lessico e condizionale; comprensione dell’intervista a Cremonini.', ['Musica', 'Estate', 'Analisi'], song(VID), q, S, ST, 'Avanzata (livello superiore)', notes, url=V + VID, source_note=NOTE)
+pkg('50special-avanzata', '50 Special · Avanzata', 'it', 'B1', 'Analisi dei simboli e del linguaggio, lessico e condizionale (solo la canzone).', ['Musica', 'Estate', 'Analisi'], song(VID), q, S, ST, 'Avanzata (livello superiore)', notes, url=V + VID, source_note=NOTE)
 
 # ---------------- TU SI A FINE DO' MUNNO ----------------
 S, ST, VID = 'tu-si-a-fine-do-munno', 'Tu si a fine do’ munno · Angelo Famao', '4zE1RnQnwcQ'

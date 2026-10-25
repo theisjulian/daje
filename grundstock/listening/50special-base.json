@@ -6,7 +6,7 @@
  "title": "50 Special · Base",
  "language": "it",
  "level": "A2",
- "description": "Tema, vocabolario e piccola intervista: una canzone sull’estate e sulla Vespa.",
+ "description": "Tema, vocabolario e atmosfera di una canzone sull’estate e sulla Vespa (solo la canzone).",
  "topics": [
   "Musica",
   "Estate",
@@ -28,14 +28,14 @@
    "Domanda: come immaginate l’estate perfetta in Italia?"
   ],
   "steps": [
-   "1. Impulso immagine e vocabolario.",
+   "1. Impulso immagine e vocabolario (Vespa, estate, festa, vacanza).",
    "2. Primo ascolto: tema e stato d’animo.",
-   "3. Secondo ascolto: dettagli e lacune (nel documento originale).",
-   "4. Lettura dell’intervista a Cremonini e trasformazione in terza persona."
+   "3. Secondo ascolto: dettagli e vero/falso.",
+   "4. Con il testo originale (file privato): Lückentext, vedi sotto."
   ],
   "tips": [
-   "Il testo originale della canzone resta nel file privato: usare solo per le lacune.",
-   "Chiedere agli alunni di segnare le parole ripetute nel ritornello."
+   "Il testo originale della canzone resta nel file privato: usarlo solo per le lacune.",
+   "Lückentext: togliere 8–10 parole, ma ogni parola del ritornello solo UNA volta (il ritornello si ripete e rivelerebbe la soluzione)."
   ],
   "followUp": [
    "Che cosa ti dà libertà nella tua vita? Scrivi 3 frasi.",
@@ -89,11 +89,93 @@
   {
    "id": "q2",
    "type": "single_choice",
-   "prompt": "Durante l’ascolto: Di che cosa parla la canzone?",
+   "prompt": "Prima dell’ascolto: Che cosa fai di solito in estate? Quale immagine associ alla parola “estate”?",
    "options": [
     {
      "id": "a",
-     "text": "Di un giro in Vespa in estate"
+     "text": "Mare, amici e libertà"
+    },
+    {
+     "id": "b",
+     "text": "Compiti e verifiche"
+    },
+    {
+     "id": "c",
+     "text": "Neve e freddo"
+    },
+    {
+     "id": "d",
+     "text": "Lavoro in ufficio"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Risposta soggettiva: serve per attivare il vocabolario dell’estate."
+  },
+  {
+   "id": "q3",
+   "type": "single_choice",
+   "prompt": "Primo ascolto: Quale atmosfera ha la canzone?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Allegra e spensierata"
+    },
+    {
+     "id": "b",
+     "text": "Triste e lenta"
+    },
+    {
+     "id": "c",
+     "text": "Spaventosa"
+    },
+    {
+     "id": "d",
+     "text": "Solenne"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Un brano leggero e solare."
+  },
+  {
+   "id": "q4",
+   "type": "single_choice",
+   "prompt": "Primo ascolto: Che tipo di musica senti?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Pop-rock italiano con ritmo veloce"
+    },
+    {
+     "id": "b",
+     "text": "Musica classica"
+    },
+    {
+     "id": "c",
+     "text": "Jazz lento"
+    },
+    {
+     "id": "d",
+     "text": "Musica elettronica da discoteca"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Chitarre, ritmo e voce giovane: pop-rock."
+  },
+  {
+   "id": "q5",
+   "type": "true_false",
+   "prompt": "Primo ascolto: La voce che canta è quella di un uomo.",
+   "answer": true,
+   "explanation": "Il cantante dei Lunapop è Cesare Cremonini."
+  },
+  {
+   "id": "q6",
+   "type": "single_choice",
+   "prompt": "Di che cosa parla la canzone, in generale?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Di un ragazzo, della sua Vespa e dell’estate"
     },
     {
      "id": "b",
@@ -109,76 +191,51 @@
     }
    ],
    "correctOptionId": "a",
-   "explanation": "Il tema è la libertà dell’estate e della Vespa."
-  },
-  {
-   "id": "q3",
-   "type": "true_false",
-   "prompt": "Nella canzone qualcuno vuole andare fuori città.",
-   "answer": true,
-   "explanation": "Il ritornello ripete il desiderio di partire."
-  },
-  {
-   "id": "q4",
-   "type": "single_choice",
-   "prompt": "Quale stagione è al centro della canzone?",
-   "options": [
-    {
-     "id": "a",
-     "text": "L’estate"
-    },
-    {
-     "id": "b",
-     "text": "L’inverno"
-    },
-    {
-     "id": "c",
-     "text": "L’autunno"
-    },
-    {
-     "id": "d",
-     "text": "La primavera"
-    }
-   ],
-   "correctOptionId": "a",
-   "explanation": "L’estate e le vacanze."
-  },
-  {
-   "id": "q5",
-   "type": "single_choice",
-   "prompt": "Perché la Vespa è importante per il protagonista?",
-   "options": [
-    {
-     "id": "a",
-     "text": "Gli dà libertà e allontana i problemi"
-    },
-    {
-     "id": "b",
-     "text": "È molto costosa"
-    },
-    {
-     "id": "c",
-     "text": "È di suo padre"
-    },
-    {
-     "id": "d",
-     "text": "È rotta"
-    }
-   ],
-   "correctOptionId": "a",
-   "explanation": "La Vespa è simbolo di libertà."
-  },
-  {
-   "id": "q6",
-   "type": "true_false",
-   "prompt": "La canzone nomina un posto vicino a Bologna (i colli).",
-   "answer": true,
-   "explanation": "La zona di Bologna è importante nel testo e nella storia della band."
+   "explanation": "Tema: libertà, estate, scooter."
   },
   {
    "id": "q7",
+   "type": "true_false",
+   "prompt": "Secondo ascolto: Nella canzone si parla di una Vespa.",
+   "answer": true,
+   "explanation": "Il titolo stesso è un modello di Vespa: la 50 Special."
+  },
+  {
+   "id": "q8",
+   "type": "true_false",
+   "prompt": "Secondo ascolto: Il protagonista è molto anziano.",
+   "answer": false,
+   "explanation": "Il protagonista è un ragazzo giovane."
+  },
+  {
+   "id": "q9",
+   "type": "single_choice",
+   "prompt": "Quale parola descrive meglio il sentimento della canzone?",
+   "options": [
+    {
+     "id": "a",
+     "text": "La voglia di libertà"
+    },
+    {
+     "id": "b",
+     "text": "La paura"
+    },
+    {
+     "id": "c",
+     "text": "La noia"
+    },
+    {
+     "id": "d",
+     "text": "La rabbia"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Libertà e spensieratezza."
+  },
+  {
+   "id": "q10",
    "type": "gap_fill",
-   "prompt": "Completa le frasi (estate, Vespa, festa, vacanza).",
+   "prompt": "Completa le frasi con le parole giuste (estate, Vespa, festa, vacanza).",
    "text": "Il ragazzo ha una [[a]] e vuole andare a una [[b]]. È [[c]] e vuole partire per una [[d]].",
    "gaps": [
     {
@@ -206,10 +263,10 @@
      ]
     }
    ],
-   "explanation": "Vocabolario della canzone."
+   "explanation": "Vocabolario del tema."
   },
   {
-   "id": "q8",
+   "id": "q11",
    "type": "matching",
    "prompt": "Collega la parola al significato.",
    "pairs": [
@@ -237,7 +294,7 @@
    "explanation": "Parole utili."
   },
   {
-   "id": "q9",
+   "id": "q12",
    "type": "single_choice",
    "prompt": "Quale città è la patria dei Lunapop?",
    "options": [
@@ -262,121 +319,61 @@
    "explanation": "I Lunapop sono di Bologna."
   },
   {
-   "id": "q10",
+   "id": "q13",
    "type": "true_false",
    "prompt": "Cesare Cremonini è il cantante dei Lunapop.",
    "answer": true,
    "explanation": "Cremonini era il cantante della band."
   },
   {
-   "id": "q11",
-   "type": "single_choice",
-   "prompt": "Quale espressione descrive l’atmosfera?",
-   "options": [
-    {
-     "id": "a",
-     "text": "Spensierata e allegra"
-    },
-    {
-     "id": "b",
-     "text": "Triste e lenta"
-    },
-    {
-     "id": "c",
-     "text": "Spaventosa"
-    },
-    {
-     "id": "d",
-     "text": "Noiosa"
-    }
-   ],
-   "correctOptionId": "a",
-   "explanation": "Un brano leggero e solare."
-  },
-  {
-   "id": "q12",
-   "type": "single_choice",
-   "prompt": "Leggi l’intervista a Cremonini (testo breve): Dove è cresciuto?",
-   "options": [
-    {
-     "id": "a",
-     "text": "In campagna vicino a Bologna"
-    },
-    {
-     "id": "b",
-     "text": "A Roma"
-    },
-    {
-     "id": "c",
-     "text": "A Milano"
-    },
-    {
-     "id": "d",
-     "text": "In montagna"
-    }
-   ],
-   "correctOptionId": "a",
-   "explanation": "Racconta di essere cresciuto in campagna vicino a Bologna."
-  },
-  {
-   "id": "q13",
-   "type": "single_choice",
-   "prompt": "Chi cucinava i tortelloni la domenica?",
-   "options": [
-    {
-     "id": "a",
-     "text": "La nonna"
-    },
-    {
-     "id": "b",
-     "text": "Il papà"
-    },
-    {
-     "id": "c",
-     "text": "Lo zio"
-    },
-    {
-     "id": "d",
-     "text": "Un amico"
-    }
-   ],
-   "correctOptionId": "a",
-   "explanation": "La nonna cucinava tortelloni e tagliatelle."
-  },
-  {
    "id": "q14",
    "type": "single_choice",
-   "prompt": "Come chiama Cremonini il gruppo di amici a Bologna?",
+   "prompt": "Dopo l’ascolto: Perché la canzone è diventata un “tormentone” estivo?",
    "options": [
     {
      "id": "a",
-     "text": "La balotta"
+     "text": "Melodia semplice, ritornello facile, tema solare"
     },
     {
      "id": "b",
-     "text": "La pizza"
+     "text": "È molto lunga"
     },
     {
      "id": "c",
-     "text": "La famiglia"
+     "text": "È sussurrata"
     },
     {
      "id": "d",
-     "text": "La squadra"
+     "text": "Ha un testo difficile"
     }
    ],
    "correctOptionId": "a",
-   "explanation": "La compagnia di amici si chiama “la balotta”."
+   "explanation": "Ritornello orecchiabile + atmosfera estiva."
   },
   {
    "id": "q15",
-   "type": "short_answer",
-   "prompt": "Trasforma in terza persona: “Io sono cresciuto in campagna.” → Lui è cresciuto … (completa con una parola)",
-   "acceptedAnswers": [
-    "in campagna"
+   "type": "single_choice",
+   "prompt": "Dopo l’ascolto: Che cosa rappresenta per te la Vespa nella canzone?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Un simbolo di libertà e giovinezza"
+    },
+    {
+     "id": "b",
+     "text": "Un mezzo per andare al lavoro"
+    },
+    {
+     "id": "c",
+     "text": "Un oggetto costoso"
+    },
+    {
+     "id": "d",
+     "text": "Un pericolo"
+    }
    ],
-   "modelAnswer": "in campagna",
-   "explanation": "Passaggio da io a lui."
+   "correctOptionId": "a",
+   "explanation": "Interpretazione: simbolo di libertà."
   }
  ],
  "vocabularyIds": []

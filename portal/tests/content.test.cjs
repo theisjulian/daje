@@ -14,6 +14,21 @@ vm.runInContext(
   c
 );
 for (const x of c.seeds) assert.equal(validatePackage(JSON.parse(JSON.stringify(x))).ok, true);
+// Erweiterte Aufgaben: zusammengeführte Pakete müssen gültig sein.
+const ex = {};
+vm.createContext(ex);
+vm.runInContext(fs.readFileSync(dir + '/listening-extra.js', 'utf8') + ';this.e=LISTENING_EXTRA;', ex);
+for (const [id, e] of Object.entries(ex.e)) {
+  const f = '../inhalte/' + id + '.json';
+  if (!fs.existsSync(f)) continue;
+  const base = JSON.parse(fs.readFileSync(f, 'utf8'));
+  base.questions = [...e.pre, ...base.questions, ...e.post];
+  base.teacherNotes = e.teacherNotes;
+  const r = validatePackage(JSON.parse(JSON.stringify(base)));
+  assert.equal(r.ok, true, id + ': ' + JSON.stringify(r.errors || r));
+  assert.ok(base.questions.length >= 12 && base.questions.length <= 26, id + ' Aufgabenzahl');
+  assert.equal(new Set(base.questions.map(q => q.id)).size, base.questions.length, id + ' doppelte IDs');
+}
 for (const change of [
   x => (x.schemaVersion = '2'),
   x => (x.id = 'constructor'),

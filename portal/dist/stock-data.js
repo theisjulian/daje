@@ -9,7 +9,7 @@ const STOCK_PACKAGES = [
   "title": "50 Special · Avanzata",
   "language": "it",
   "level": "B1",
-  "description": "Analisi dei simboli e del linguaggio, lessico e condizionale; comprensione dell’intervista a Cremonini.",
+  "description": "Analisi dei simboli e del linguaggio, lessico e condizionale (solo la canzone).",
   "topics": [
    "Musica",
    "Estate",
@@ -52,10 +52,11 @@ const STOCK_PACKAGES = [
     "1. Ascolto globale.",
     "2. Analisi del testo (tema, simboli).",
     "3. Lessico e condizionale.",
-    "4. Intervista di Cremonini, domande di comprensione."
+    "4. Lückentext con il testo originale (file privato)."
    ],
    "tips": [
-    "Per la versione avanzata usare il testo originale in file privato per le lacune."
+    "Testo originale solo nel file privato.",
+    "Ritornello: ogni parola mancante una sola volta."
    ],
    "followUp": [
     "Scrivi un breve testo: Che cosa rappresenta per te un mezzo di libertà?",
@@ -66,6 +67,31 @@ const STOCK_PACKAGES = [
   "questions": [
    {
     "id": "q1",
+    "type": "single_choice",
+    "prompt": "Prima dell’ascolto: Che cos’è un “tormentone”?",
+    "explanation": "Tormentone = hit estivo.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Una canzone molto popolare in una determinata estate"
+     },
+     {
+      "id": "b",
+      "text": "Una canzone triste"
+     },
+     {
+      "id": "c",
+      "text": "Un tipo di danza"
+     },
+     {
+      "id": "d",
+      "text": "Un film"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q2",
     "type": "single_choice",
     "prompt": "Analisi: Qual è il ruolo simbolico della Vespa nel testo?",
     "explanation": "La Vespa rappresenta libertà, amicizia, giovinezza.",
@@ -90,7 +116,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q2",
+    "id": "q3",
     "type": "multiple_choice",
     "prompt": "Quali temi emergono? (più risposte)",
     "explanation": "Temi leggeri e solari.",
@@ -123,7 +149,7 @@ const STOCK_PACKAGES = [
     ]
    },
    {
-    "id": "q3",
+    "id": "q4",
     "type": "single_choice",
     "prompt": "Come descriveresti il linguaggio della canzone?",
     "explanation": "Lessico semplice, vicino ai giovani.",
@@ -148,43 +174,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q4",
-    "type": "matching",
-    "prompt": "Collega termini e sinonimi.",
-    "explanation": "Parole del testo (verbi e aggettivi).",
-    "pairs": [
-     {
-      "id": "p1",
-      "left": "truccata",
-      "right": "modificata"
-     },
-     {
-      "id": "p2",
-      "left": "sfiorare",
-      "right": "quasi toccare"
-     },
-     {
-      "id": "p3",
-      "left": "ingranare",
-      "right": "inserire la marcia"
-     },
-     {
-      "id": "p4",
-      "left": "fare in fretta",
-      "right": "sbrigarsi"
-     }
-    ],
-    "distractors": []
-   },
-   {
     "id": "q5",
-    "type": "true_false",
-    "prompt": "Il brano è stato scritto da cantautori anziani.",
-    "explanation": "I Lunapop erano molto giovani.",
-    "answer": false
-   },
-   {
-    "id": "q6",
     "type": "single_choice",
     "prompt": "Quali emozioni prevalgono?",
     "explanation": "Tono positivo.",
@@ -209,7 +199,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q7",
+    "id": "q6",
     "type": "single_choice",
     "prompt": "Perché il ritornello funziona bene?",
     "explanation": "Elementi tipici dei tormentoni estivi.",
@@ -234,29 +224,18 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
+    "id": "q7",
+    "type": "true_false",
+    "prompt": "La canzone racconta una storia con un inizio, uno sviluppo e una fine molto precisi.",
+    "explanation": "È più un’immagine/un’atmosfera che una storia.",
+    "answer": false
+   },
+   {
     "id": "q8",
-    "type": "single_choice",
-    "prompt": "Che cos’è un “tormentone”?",
-    "explanation": "Tormentone = hit estivo.",
-    "options": [
-     {
-      "id": "a",
-      "text": "Una canzone molto popolare in un’estate"
-     },
-     {
-      "id": "b",
-      "text": "Una canzone triste"
-     },
-     {
-      "id": "c",
-      "text": "Un tipo di danza"
-     },
-     {
-      "id": "d",
-      "text": "Un film"
-     }
-    ],
-    "correctOptionId": "a"
+    "type": "true_false",
+    "prompt": "Il brano è stato scritto da cantautori anziani.",
+    "explanation": "I Lunapop erano molto giovani.",
+    "answer": false
    },
    {
     "id": "q9",
@@ -289,6 +268,35 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "q10",
+    "type": "matching",
+    "prompt": "Collega termini e sinonimi.",
+    "explanation": "Registro colloquiale e verbi dell’ambito motociclistico.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "truccata",
+      "right": "modificata"
+     },
+     {
+      "id": "p2",
+      "left": "sfiorare",
+      "right": "quasi toccare"
+     },
+     {
+      "id": "p3",
+      "left": "ingranare",
+      "right": "inserire la marcia"
+     },
+     {
+      "id": "p4",
+      "left": "fare in fretta",
+      "right": "sbrigarsi"
+     }
+    ],
+    "distractors": []
+   },
+   {
+    "id": "q11",
     "type": "gap_fill",
     "prompt": "Completa con il condizionale (vorrei, potrebbe, sarebbe, andrei).",
     "explanation": "Esercizio sul condizionale.",
@@ -321,64 +329,57 @@ const STOCK_PACKAGES = [
     ]
    },
    {
-    "id": "q11",
-    "type": "single_choice",
-    "prompt": "Intervista: Che cosa significa “la balotta”?",
-    "explanation": "Espressione bolognese.",
-    "options": [
-     {
-      "id": "a",
-      "text": "Gruppo di amici"
-     },
-     {
-      "id": "b",
-      "text": "Squadra di calcio"
-     },
-     {
-      "id": "c",
-      "text": "Famiglia"
-     },
-     {
-      "id": "d",
-      "text": "Classe"
-     }
-    ],
-    "correctOptionId": "a"
-   },
-   {
     "id": "q12",
-    "type": "single_choice",
-    "prompt": "Quale squadra è tornata in Serie A nel 2015 (nell’intervista)?",
-    "explanation": "Cremonini parla del Bologna.",
-    "options": [
+    "type": "ordering",
+    "prompt": "Ordina le fasi di lavoro con la canzone.",
+    "explanation": "Sequenza didattica consueta.",
+    "items": [
      {
-      "id": "a",
-      "text": "Bologna"
+      "id": "o1",
+      "text": "Immagine e vocabolario"
      },
      {
-      "id": "b",
-      "text": "Napoli"
+      "id": "o2",
+      "text": "Primo ascolto (tema)"
      },
      {
-      "id": "c",
-      "text": "Torino"
+      "id": "o3",
+      "text": "Secondo ascolto (dettagli)"
      },
      {
-      "id": "d",
-      "text": "Palermo"
+      "id": "o4",
+      "text": "Lückentext con il testo originale"
+     },
+     {
+      "id": "o5",
+      "text": "Discussione e interpretazione"
      }
-    ],
-    "correctOptionId": "a"
+    ]
    },
    {
     "id": "q13",
-    "type": "short_answer",
-    "prompt": "Con la sua Vespa rossa, in quale città della Romagna andava Cremonini da Bologna? (una parola)",
-    "explanation": "La tratta Bologna–Riccione.",
-    "acceptedAnswers": [
-     "Riccione"
+    "type": "single_choice",
+    "prompt": "Dopo l’ascolto: Quale messaggio emerge, secondo te?",
+    "explanation": "Interpretazione aperta: spensieratezza.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Vivere il presente con gli amici"
+     },
+     {
+      "id": "b",
+      "text": "Studiare di più"
+     },
+     {
+      "id": "c",
+      "text": "Lavorare molto"
+     },
+     {
+      "id": "d",
+      "text": "Evitare i viaggi"
+     }
     ],
-    "modelAnswer": "Riccione"
+    "correctOptionId": "a"
    }
   ]
  },
@@ -390,7 +391,7 @@ const STOCK_PACKAGES = [
   "title": "50 Special · Base",
   "language": "it",
   "level": "A2",
-  "description": "Tema, vocabolario e piccola intervista: una canzone sull’estate e sulla Vespa.",
+  "description": "Tema, vocabolario e atmosfera di una canzone sull’estate e sulla Vespa (solo la canzone).",
   "topics": [
    "Musica",
    "Estate",
@@ -430,14 +431,14 @@ const STOCK_PACKAGES = [
     "Domanda: come immaginate l’estate perfetta in Italia?"
    ],
    "steps": [
-    "1. Impulso immagine e vocabolario.",
+    "1. Impulso immagine e vocabolario (Vespa, estate, festa, vacanza).",
     "2. Primo ascolto: tema e stato d’animo.",
-    "3. Secondo ascolto: dettagli e lacune (nel documento originale).",
-    "4. Lettura dell’intervista a Cremonini e trasformazione in terza persona."
+    "3. Secondo ascolto: dettagli e vero/falso.",
+    "4. Con il testo originale (file privato): Lückentext, vedi sotto."
    ],
    "tips": [
-    "Il testo originale della canzone resta nel file privato: usare solo per le lacune.",
-    "Chiedere agli alunni di segnare le parole ripetute nel ritornello."
+    "Il testo originale della canzone resta nel file privato: usarlo solo per le lacune.",
+    "Lückentext: togliere 8–10 parole, ma ogni parola del ritornello solo UNA volta (il ritornello si ripete e rivelerebbe la soluzione)."
    ],
    "followUp": [
     "Che cosa ti dà libertà nella tua vita? Scrivi 3 frasi.",
@@ -474,12 +475,94 @@ const STOCK_PACKAGES = [
    {
     "id": "q2",
     "type": "single_choice",
-    "prompt": "Durante l’ascolto: Di che cosa parla la canzone?",
-    "explanation": "Il tema è la libertà dell’estate e della Vespa.",
+    "prompt": "Prima dell’ascolto: Che cosa fai di solito in estate? Quale immagine associ alla parola “estate”?",
+    "explanation": "Risposta soggettiva: serve per attivare il vocabolario dell’estate.",
     "options": [
      {
       "id": "a",
-      "text": "Di un giro in Vespa in estate"
+      "text": "Mare, amici e libertà"
+     },
+     {
+      "id": "b",
+      "text": "Compiti e verifiche"
+     },
+     {
+      "id": "c",
+      "text": "Neve e freddo"
+     },
+     {
+      "id": "d",
+      "text": "Lavoro in ufficio"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Primo ascolto: Quale atmosfera ha la canzone?",
+    "explanation": "Un brano leggero e solare.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Allegra e spensierata"
+     },
+     {
+      "id": "b",
+      "text": "Triste e lenta"
+     },
+     {
+      "id": "c",
+      "text": "Spaventosa"
+     },
+     {
+      "id": "d",
+      "text": "Solenne"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Primo ascolto: Che tipo di musica senti?",
+    "explanation": "Chitarre, ritmo e voce giovane: pop-rock.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Pop-rock italiano con ritmo veloce"
+     },
+     {
+      "id": "b",
+      "text": "Musica classica"
+     },
+     {
+      "id": "c",
+      "text": "Jazz lento"
+     },
+     {
+      "id": "d",
+      "text": "Musica elettronica da discoteca"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q5",
+    "type": "true_false",
+    "prompt": "Primo ascolto: La voce che canta è quella di un uomo.",
+    "explanation": "Il cantante dei Lunapop è Cesare Cremonini.",
+    "answer": true
+   },
+   {
+    "id": "q6",
+    "type": "single_choice",
+    "prompt": "Di che cosa parla la canzone, in generale?",
+    "explanation": "Tema: libertà, estate, scooter.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Di un ragazzo, della sua Vespa e dell’estate"
      },
      {
       "id": "b",
@@ -497,74 +580,49 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q3",
-    "type": "true_false",
-    "prompt": "Nella canzone qualcuno vuole andare fuori città.",
-    "explanation": "Il ritornello ripete il desiderio di partire.",
-    "answer": true
-   },
-   {
-    "id": "q4",
-    "type": "single_choice",
-    "prompt": "Quale stagione è al centro della canzone?",
-    "explanation": "L’estate e le vacanze.",
-    "options": [
-     {
-      "id": "a",
-      "text": "L’estate"
-     },
-     {
-      "id": "b",
-      "text": "L’inverno"
-     },
-     {
-      "id": "c",
-      "text": "L’autunno"
-     },
-     {
-      "id": "d",
-      "text": "La primavera"
-     }
-    ],
-    "correctOptionId": "a"
-   },
-   {
-    "id": "q5",
-    "type": "single_choice",
-    "prompt": "Perché la Vespa è importante per il protagonista?",
-    "explanation": "La Vespa è simbolo di libertà.",
-    "options": [
-     {
-      "id": "a",
-      "text": "Gli dà libertà e allontana i problemi"
-     },
-     {
-      "id": "b",
-      "text": "È molto costosa"
-     },
-     {
-      "id": "c",
-      "text": "È di suo padre"
-     },
-     {
-      "id": "d",
-      "text": "È rotta"
-     }
-    ],
-    "correctOptionId": "a"
-   },
-   {
-    "id": "q6",
-    "type": "true_false",
-    "prompt": "La canzone nomina un posto vicino a Bologna (i colli).",
-    "explanation": "La zona di Bologna è importante nel testo e nella storia della band.",
-    "answer": true
-   },
-   {
     "id": "q7",
+    "type": "true_false",
+    "prompt": "Secondo ascolto: Nella canzone si parla di una Vespa.",
+    "explanation": "Il titolo stesso è un modello di Vespa: la 50 Special.",
+    "answer": true
+   },
+   {
+    "id": "q8",
+    "type": "true_false",
+    "prompt": "Secondo ascolto: Il protagonista è molto anziano.",
+    "explanation": "Il protagonista è un ragazzo giovane.",
+    "answer": false
+   },
+   {
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Quale parola descrive meglio il sentimento della canzone?",
+    "explanation": "Libertà e spensieratezza.",
+    "options": [
+     {
+      "id": "a",
+      "text": "La voglia di libertà"
+     },
+     {
+      "id": "b",
+      "text": "La paura"
+     },
+     {
+      "id": "c",
+      "text": "La noia"
+     },
+     {
+      "id": "d",
+      "text": "La rabbia"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
     "type": "gap_fill",
-    "prompt": "Completa le frasi (estate, Vespa, festa, vacanza).",
-    "explanation": "Vocabolario della canzone.",
+    "prompt": "Completa le frasi con le parole giuste (estate, Vespa, festa, vacanza).",
+    "explanation": "Vocabolario del tema.",
     "text": "Il ragazzo ha una [[a]] e vuole andare a una [[b]]. È [[c]] e vuole partire per una [[d]].",
     "gaps": [
      {
@@ -594,7 +652,7 @@ const STOCK_PACKAGES = [
     ]
    },
    {
-    "id": "q8",
+    "id": "q11",
     "type": "matching",
     "prompt": "Collega la parola al significato.",
     "explanation": "Parole utili.",
@@ -623,7 +681,7 @@ const STOCK_PACKAGES = [
     "distractors": []
    },
    {
-    "id": "q9",
+    "id": "q12",
     "type": "single_choice",
     "prompt": "Quale città è la patria dei Lunapop?",
     "explanation": "I Lunapop sono di Bologna.",
@@ -648,121 +706,61 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q10",
+    "id": "q13",
     "type": "true_false",
     "prompt": "Cesare Cremonini è il cantante dei Lunapop.",
     "explanation": "Cremonini era il cantante della band.",
     "answer": true
    },
    {
-    "id": "q11",
-    "type": "single_choice",
-    "prompt": "Quale espressione descrive l’atmosfera?",
-    "explanation": "Un brano leggero e solare.",
-    "options": [
-     {
-      "id": "a",
-      "text": "Spensierata e allegra"
-     },
-     {
-      "id": "b",
-      "text": "Triste e lenta"
-     },
-     {
-      "id": "c",
-      "text": "Spaventosa"
-     },
-     {
-      "id": "d",
-      "text": "Noiosa"
-     }
-    ],
-    "correctOptionId": "a"
-   },
-   {
-    "id": "q12",
-    "type": "single_choice",
-    "prompt": "Leggi l’intervista a Cremonini (testo breve): Dove è cresciuto?",
-    "explanation": "Racconta di essere cresciuto in campagna vicino a Bologna.",
-    "options": [
-     {
-      "id": "a",
-      "text": "In campagna vicino a Bologna"
-     },
-     {
-      "id": "b",
-      "text": "A Roma"
-     },
-     {
-      "id": "c",
-      "text": "A Milano"
-     },
-     {
-      "id": "d",
-      "text": "In montagna"
-     }
-    ],
-    "correctOptionId": "a"
-   },
-   {
-    "id": "q13",
-    "type": "single_choice",
-    "prompt": "Chi cucinava i tortelloni la domenica?",
-    "explanation": "La nonna cucinava tortelloni e tagliatelle.",
-    "options": [
-     {
-      "id": "a",
-      "text": "La nonna"
-     },
-     {
-      "id": "b",
-      "text": "Il papà"
-     },
-     {
-      "id": "c",
-      "text": "Lo zio"
-     },
-     {
-      "id": "d",
-      "text": "Un amico"
-     }
-    ],
-    "correctOptionId": "a"
-   },
-   {
     "id": "q14",
     "type": "single_choice",
-    "prompt": "Come chiama Cremonini il gruppo di amici a Bologna?",
-    "explanation": "La compagnia di amici si chiama “la balotta”.",
+    "prompt": "Dopo l’ascolto: Perché la canzone è diventata un “tormentone” estivo?",
+    "explanation": "Ritornello orecchiabile + atmosfera estiva.",
     "options": [
      {
       "id": "a",
-      "text": "La balotta"
+      "text": "Melodia semplice, ritornello facile, tema solare"
      },
      {
       "id": "b",
-      "text": "La pizza"
+      "text": "È molto lunga"
      },
      {
       "id": "c",
-      "text": "La famiglia"
+      "text": "È sussurrata"
      },
      {
       "id": "d",
-      "text": "La squadra"
+      "text": "Ha un testo difficile"
      }
     ],
     "correctOptionId": "a"
    },
    {
     "id": "q15",
-    "type": "short_answer",
-    "prompt": "Trasforma in terza persona: “Io sono cresciuto in campagna.” → Lui è cresciuto … (completa con una parola)",
-    "explanation": "Passaggio da io a lui.",
-    "acceptedAnswers": [
-     "in campagna"
+    "type": "single_choice",
+    "prompt": "Dopo l’ascolto: Che cosa rappresenta per te la Vespa nella canzone?",
+    "explanation": "Interpretazione: simbolo di libertà.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Un simbolo di libertà e giovinezza"
+     },
+     {
+      "id": "b",
+      "text": "Un mezzo per andare al lavoro"
+     },
+     {
+      "id": "c",
+      "text": "Un oggetto costoso"
+     },
+     {
+      "id": "d",
+      "text": "Un pericolo"
+     }
     ],
-    "modelAnswer": "in campagna"
+    "correctOptionId": "a"
    }
   ]
  },

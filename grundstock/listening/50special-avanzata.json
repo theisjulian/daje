@@ -6,7 +6,7 @@
  "title": "50 Special · Avanzata",
  "language": "it",
  "level": "B1",
- "description": "Analisi dei simboli e del linguaggio, lessico e condizionale; comprensione dell’intervista a Cremonini.",
+ "description": "Analisi dei simboli e del linguaggio, lessico e condizionale (solo la canzone).",
  "topics": [
   "Musica",
   "Estate",
@@ -31,10 +31,11 @@
    "1. Ascolto globale.",
    "2. Analisi del testo (tema, simboli).",
    "3. Lessico e condizionale.",
-   "4. Intervista di Cremonini, domande di comprensione."
+   "4. Lückentext con il testo originale (file privato)."
   ],
   "tips": [
-   "Per la versione avanzata usare il testo originale in file privato per le lacune."
+   "Testo originale solo nel file privato.",
+   "Ritornello: ogni parola mancante una sola volta."
   ],
   "followUp": [
    "Scrivi un breve testo: Che cosa rappresenta per te un mezzo di libertà?",
@@ -63,6 +64,31 @@
   {
    "id": "q1",
    "type": "single_choice",
+   "prompt": "Prima dell’ascolto: Che cos’è un “tormentone”?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Una canzone molto popolare in una determinata estate"
+    },
+    {
+     "id": "b",
+     "text": "Una canzone triste"
+    },
+    {
+     "id": "c",
+     "text": "Un tipo di danza"
+    },
+    {
+     "id": "d",
+     "text": "Un film"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Tormentone = hit estivo."
+  },
+  {
+   "id": "q2",
+   "type": "single_choice",
    "prompt": "Analisi: Qual è il ruolo simbolico della Vespa nel testo?",
    "options": [
     {
@@ -86,7 +112,7 @@
    "explanation": "La Vespa rappresenta libertà, amicizia, giovinezza."
   },
   {
-   "id": "q2",
+   "id": "q3",
    "type": "multiple_choice",
    "prompt": "Quali temi emergono? (più risposte)",
    "options": [
@@ -119,7 +145,7 @@
    "explanation": "Temi leggeri e solari."
   },
   {
-   "id": "q3",
+   "id": "q4",
    "type": "single_choice",
    "prompt": "Come descriveresti il linguaggio della canzone?",
    "options": [
@@ -144,42 +170,7 @@
    "explanation": "Lessico semplice, vicino ai giovani."
   },
   {
-   "id": "q4",
-   "type": "matching",
-   "prompt": "Collega termini e sinonimi.",
-   "pairs": [
-    {
-     "id": "p1",
-     "left": "truccata",
-     "right": "modificata"
-    },
-    {
-     "id": "p2",
-     "left": "sfiorare",
-     "right": "quasi toccare"
-    },
-    {
-     "id": "p3",
-     "left": "ingranare",
-     "right": "inserire la marcia"
-    },
-    {
-     "id": "p4",
-     "left": "fare in fretta",
-     "right": "sbrigarsi"
-    }
-   ],
-   "explanation": "Parole del testo (verbi e aggettivi)."
-  },
-  {
    "id": "q5",
-   "type": "true_false",
-   "prompt": "Il brano è stato scritto da cantautori anziani.",
-   "answer": false,
-   "explanation": "I Lunapop erano molto giovani."
-  },
-  {
-   "id": "q6",
    "type": "single_choice",
    "prompt": "Quali emozioni prevalgono?",
    "options": [
@@ -204,7 +195,7 @@
    "explanation": "Tono positivo."
   },
   {
-   "id": "q7",
+   "id": "q6",
    "type": "single_choice",
    "prompt": "Perché il ritornello funziona bene?",
    "options": [
@@ -229,29 +220,18 @@
    "explanation": "Elementi tipici dei tormentoni estivi."
   },
   {
+   "id": "q7",
+   "type": "true_false",
+   "prompt": "La canzone racconta una storia con un inizio, uno sviluppo e una fine molto precisi.",
+   "answer": false,
+   "explanation": "È più un’immagine/un’atmosfera che una storia."
+  },
+  {
    "id": "q8",
-   "type": "single_choice",
-   "prompt": "Che cos’è un “tormentone”?",
-   "options": [
-    {
-     "id": "a",
-     "text": "Una canzone molto popolare in un’estate"
-    },
-    {
-     "id": "b",
-     "text": "Una canzone triste"
-    },
-    {
-     "id": "c",
-     "text": "Un tipo di danza"
-    },
-    {
-     "id": "d",
-     "text": "Un film"
-    }
-   ],
-   "correctOptionId": "a",
-   "explanation": "Tormentone = hit estivo."
+   "type": "true_false",
+   "prompt": "Il brano è stato scritto da cantautori anziani.",
+   "answer": false,
+   "explanation": "I Lunapop erano molto giovani."
   },
   {
    "id": "q9",
@@ -283,6 +263,34 @@
   },
   {
    "id": "q10",
+   "type": "matching",
+   "prompt": "Collega termini e sinonimi.",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "truccata",
+     "right": "modificata"
+    },
+    {
+     "id": "p2",
+     "left": "sfiorare",
+     "right": "quasi toccare"
+    },
+    {
+     "id": "p3",
+     "left": "ingranare",
+     "right": "inserire la marcia"
+    },
+    {
+     "id": "p4",
+     "left": "fare in fretta",
+     "right": "sbrigarsi"
+    }
+   ],
+   "explanation": "Registro colloquiale e verbi dell’ambito motociclistico."
+  },
+  {
+   "id": "q11",
    "type": "gap_fill",
    "prompt": "Completa con il condizionale (vorrei, potrebbe, sarebbe, andrei).",
    "text": "Io [[a]] con la Vespa al mare. Con gli amici [[b]] bellissimo. Una Vespa [[c]] portarci fuori città e [[d]] volentieri.",
@@ -315,64 +323,57 @@
    "explanation": "Esercizio sul condizionale."
   },
   {
-   "id": "q11",
-   "type": "single_choice",
-   "prompt": "Intervista: Che cosa significa “la balotta”?",
-   "options": [
-    {
-     "id": "a",
-     "text": "Gruppo di amici"
-    },
-    {
-     "id": "b",
-     "text": "Squadra di calcio"
-    },
-    {
-     "id": "c",
-     "text": "Famiglia"
-    },
-    {
-     "id": "d",
-     "text": "Classe"
-    }
-   ],
-   "correctOptionId": "a",
-   "explanation": "Espressione bolognese."
-  },
-  {
    "id": "q12",
-   "type": "single_choice",
-   "prompt": "Quale squadra è tornata in Serie A nel 2015 (nell’intervista)?",
-   "options": [
+   "type": "ordering",
+   "prompt": "Ordina le fasi di lavoro con la canzone.",
+   "items": [
     {
-     "id": "a",
-     "text": "Bologna"
+     "id": "o1",
+     "text": "Immagine e vocabolario"
     },
     {
-     "id": "b",
-     "text": "Napoli"
+     "id": "o2",
+     "text": "Primo ascolto (tema)"
     },
     {
-     "id": "c",
-     "text": "Torino"
+     "id": "o3",
+     "text": "Secondo ascolto (dettagli)"
     },
     {
-     "id": "d",
-     "text": "Palermo"
+     "id": "o4",
+     "text": "Lückentext con il testo originale"
+    },
+    {
+     "id": "o5",
+     "text": "Discussione e interpretazione"
     }
    ],
-   "correctOptionId": "a",
-   "explanation": "Cremonini parla del Bologna."
+   "explanation": "Sequenza didattica consueta."
   },
   {
    "id": "q13",
-   "type": "short_answer",
-   "prompt": "Con la sua Vespa rossa, in quale città della Romagna andava Cremonini da Bologna? (una parola)",
-   "acceptedAnswers": [
-    "Riccione"
+   "type": "single_choice",
+   "prompt": "Dopo l’ascolto: Quale messaggio emerge, secondo te?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Vivere il presente con gli amici"
+    },
+    {
+     "id": "b",
+     "text": "Studiare di più"
+    },
+    {
+     "id": "c",
+     "text": "Lavorare molto"
+    },
+    {
+     "id": "d",
+     "text": "Evitare i viaggi"
+    }
    ],
-   "modelAnswer": "Riccione",
-   "explanation": "La tratta Bologna–Riccione."
+   "correctOptionId": "a",
+   "explanation": "Interpretazione aperta: spensieratezza."
   }
  ],
  "vocabularyIds": []
