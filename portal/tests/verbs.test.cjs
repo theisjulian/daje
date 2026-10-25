@@ -1,0 +1,15 @@
+const assert = require('node:assert/strict');
+global.document = { addEventListener() {} };
+const { VB_VERBS, vbJudge } = require('../dist/verbs.js');
+const g = n => VB_VERBS.find(v => v.inf === n).tenses;
+assert.equal(g('parlare').fut[0][0], 'parlerò');
+assert.equal(g('cercare').pres[1][0], 'cerchi');
+assert.equal(g('mangiare').cond[2][0], 'mangerebbe');
+assert.equal(g('studiare').fut[3][0], 'studieremo');
+assert.equal(g('andare').pp[0][0], 'sono andato');
+assert.equal(g('fare').impf[3][0], 'facevamo');
+assert.equal(g('chiamarsi').pres[0][0], 'mi chiamo');
+assert.equal(vbJudge(['è'], 'e'), 'accent');
+assert.equal(vbJudge(['sono andato', 'sono andata'], 'Sono andata'), 'ok');
+assert.equal(vbJudge(['parlo'], ''), 'empty');
+console.log('Verben passed.');

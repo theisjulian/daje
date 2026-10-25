@@ -186,7 +186,7 @@ function nav(next) {
       lernen: 'Wortschatz trainieren',
       wortschatz: 'Dein Wortschatz',
       fortschritt: 'Dein Fortschritt',
-      verben: 'Verben · Presente',
+      verben: 'Verben',
       quellen: 'Quellen und Bildnachweise',
       hilfe: 'Hilfe · Lerntipps'
     }[next] || 'Dein Lernbereich';
@@ -208,7 +208,7 @@ function render() {
       wortschatz: collection,
       fortschritt: progress,
       quellen: sources,
-      verben: verbs,
+      verben: () => verbsPage(),
       hilfe: help
     })[view] || home
   )();
@@ -689,24 +689,6 @@ document.addEventListener('submit', e => {
     e.preventDefault();
     checkAnswer();
   }
-  if (e.target.id === 'verb-form') {
-    e.preventDefault();
-    const forms = VERBS[$('verb-select').value];
-    forms.forEach((form, i) => {
-      const ok = normalize($('verb-' + i).value) === normalize(form);
-      $('verb-result-' + i).textContent = ok ? 'Richtig.' : 'Lösung: ' + form;
-      $('verb-' + i).style.borderColor = ok ? 'var(--green)' : 'var(--orange)';
-    });
-  }
-});
-document.addEventListener('reset', e => {
-  if (e.target.id === 'verb-form')
-    setTimeout(() => {
-      for (let i = 0; i < 6; i++) {
-        $('verb-result-' + i).textContent = '';
-        $('verb-' + i).style.borderColor = '';
-      }
-    }, 0);
 });
 fetch('assets/theis.svg')
   .then(r => r.text())
