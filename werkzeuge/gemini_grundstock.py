@@ -55,7 +55,8 @@ def csv_zeilen(pfad):
     """CSV lesen, egal ob aus Numbers/Excel gespeichert (UTF-8, UTF-16, Windows- oder Mac-Zeichensatz)."""
     roh = open(pfad, "rb").read()
     text = None
-    for enc in ("utf-8-sig", "utf-16", "cp1252", "mac_roman"):
+    kandidaten = ("utf-16",) if roh[:2] in (b"\xff\xfe", b"\xfe\xff") else ()
+    for enc in kandidaten + ("utf-8-sig", "mac_roman", "cp1252"):
         try:
             text = roh.decode(enc)
             break
