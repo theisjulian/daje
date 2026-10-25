@@ -35,4 +35,4 @@ Das Einbetten über den YouTube-Player ist in der Regel unproblematisch. Eine w�
 ## Grenzen
 - Nicht live getestet: Ich konnte von hier aus nicht auf die Gemini-API zugreifen. Mit simulierten Antworten laufen Erzeugung, Prüfung, Bündelung und Anzeige durch. Der erste echte Lauf sollte mit `--limit 3` starten.
 - Ob die Batch-API (halber Preis) YouTube-Links akzeptiert, stand nicht in der Dokumentation.
-- Modellname: Standard `gemini-2.5-flash`; ein neueres Flash-Modell lässt sich mit `--model` setzen.
+- Modellname: Standard `gemini-3.8-flash` (von Google selbst als Nachfolger genannt); anderes Modell per `--model` oder `GEMINI_MODEL=` in schluessel.env.

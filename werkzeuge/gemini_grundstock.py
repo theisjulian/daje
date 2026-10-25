@@ -404,7 +404,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("modus", choices=["suche", "hoeren", "wortschatz"])
     ap.add_argument("liste")
-    ap.add_argument("--model", default=os.environ.get("GEMINI_MODEL", "gemini-2.5-flash"))
+    ap.add_argument("--model", default=os.environ.get("GEMINI_MODEL", "gemini-3.8-flash"))
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--pause", type=float, default=2)
     ap.add_argument("--keep-transcripts", action="store_true")
