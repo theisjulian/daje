@@ -5,10 +5,9 @@
       .normalize('NFC')
       .toLocaleLowerCase()
       .replace(/[’‘`´]/g, "'")
-      .trim()
-      .replace(/[.!?]+$/g, '')
-      .trim()
-      .replace(/\s+/g, ' ');
+      .replace(/[.,;:!?¡¿"„“”«»()…~]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
   const plain = x => x.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   function stripArticle(x, lang) {
     const patterns = {
@@ -46,13 +45,27 @@
     }
     return edits + (a.length - i) + (b.length - j) <= 1;
   }
+  // Aus einer gedruckten Angabe alle zulässigen Schreibweisen ableiten:
+  // "la signora / il signore" -> beide Teile, "die (Bade-)Wanne" -> mit und ohne Klammer.
+  function variantsOf(text) {
+    const out = new Set([String(text)]);
+    for (const t of [...out]) {
+      const noParen = t.replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s+/g, ' ');
+      if (noParen.trim()) out.add(noParen.trim());
+    }
+    for (const t of [...out]) if (/ \/ |;/.test(t)) t.split(/ \/ |;/).forEach(p => p.trim() && out.add(p.trim()));
+    return [...out];
+  }
   function compare(word, raw, reverse = false) {
     const value = norm(raw),
-      answers = (reverse ? word.translations : [word.target, ...(word.acceptedAnswers || [])]).map(
-        norm
-      ),
+      base = reverse ? word.translations : [word.target, ...(word.acceptedAnswers || [])],
+      answers = [...new Set(base.flatMap(variantsOf).map(norm))].filter(Boolean),
       lang = reverse ? 'de' : word.language || 'it';
     if (answers.includes(value)) return { status: 'correct', kind: 'exact' };
+    if (reverse) {
+      const g = x => x.replace(/^(?:der |die |das |ein |eine )/, '');
+      if (answers.some(a => g(a) === g(value))) return { status: 'correct', kind: 'exact' };
+    }
     if (!reverse) {
       const matching = answers.find(
         a => stripArticle(a, lang) !== a && stripArticle(a, lang) === value
@@ -89,19 +102,26 @@
       return { status: 'hint', kind: 'typo' };
     return { status: 'wrong', kind: 'unknown' };
   }
-  function hint(word, kind) {
+  function hint(word, kind, reverse = false, level = 1) {
     if (kind === 'article') return 'Das Wort stimmt. Welcher Artikel gehört dazu?';
     if (kind === 'gender')
       return 'Prüfe Genus, Artikel und Wortendung. Ist das Substantiv männlich oder weiblich?';
     if (kind === 'accent') return 'Fast: Prüfe die Akzente. Sie können die Bedeutung verändern.';
     if (kind === 'typo')
       return 'Möglicher Tippfehler: Prüfe die Buchstaben noch einmal. Noch nicht als richtig gewertet.';
-    if (word.grammar?.partOfSpeech === 'noun')
-      return 'Welches Genus hat das Substantiv? Welcher Artikel passt dazu?';
-    if (word.def || word.definition) return word.def || word.definition;
-    return 'Denke an einen Beispielsatz mit diesem Wort. Prüfe dann Schreibweise und mögliche Akzente.';
+    // Hilfe auf Knopfdruck: immer aus der gesuchten Lösung, steigend von grob zu fein.
+    const sol = String((reverse ? word.translations?.[0] : word.target) || '').replace(/\s*\([^)]*\)/g, '');
+    const words = sol.split(/\s+/).filter(Boolean);
+    const letters = sol.replace(/[^\p{L}]/gu, '').length;
+    const parts = [];
+    if (!reverse && word.grammar?.partOfSpeech === 'noun' && word.grammar.gender)
+      parts.push(word.grammar.gender === 'feminine' ? 'weiblich' : 'männlich');
+    parts.push(words.length > 1 ? words.length + ' Wörter' : '1 Wort');
+    parts.push(letters + ' Buchstaben');
+    const n = Math.min(sol.length, Math.max(1, level + 1));
+    return 'Hinweis: ' + parts.join(', ') + '. Beginnt mit „' + sol.slice(0, n) + '…“.';
   }
-  const api = { compare, hint, norm, oneEdit };
+  const api = { compare, hint, norm, oneEdit, variantsOf };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.TheisGrading = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

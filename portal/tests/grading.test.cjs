@@ -36,3 +36,21 @@ assert.equal(compare(w, 'das Eis', true).status, 'correct');
 console.log(
   'Article policies, gender hints, accent differences and conservative typo hints passed.'
 );
+
+{
+  const { hint } = require('../' + dir + '/grading.js');
+  const cb = { target: 'Ciao, bella!', language: 'it', translations: ['Hallo Schöne!'] };
+  assert.equal(compare(cb, 'ciao bella').status, 'correct');
+  assert.equal(compare(cb, 'Ciao, bella').status, 'correct');
+  assert.equal(compare(cb, 'ciao bela').kind, 'typo');
+  const sg = { target: 'la signora / il signore', language: 'it', translations: ['die Frau;die Dame'] };
+  assert.equal(compare(sg, 'la signora').status, 'correct');
+  assert.equal(compare(sg, 'il signore').status, 'correct');
+  const vw = { target: 'la vasca (da bagno)', language: 'it', translations: ['die (Bade-)Wanne'] };
+  assert.equal(compare(vw, 'la vasca').status, 'correct');
+  assert.equal(compare(vw, 'die Wanne', true).status, 'correct');
+  assert.equal(compare(vw, 'Wanne', true).status, 'correct');
+  assert.match(hint(cb, undefined, false, 1), /2 Wörter.*„Ci…“/);
+  assert.match(hint(cb, undefined, true, 1), /Beginnt mit „Ha…“/);
+}
+console.log('Toleranz und Hinweise passed.');

@@ -397,7 +397,7 @@ function checkAnswer() {
   );
   if (result.status === 'hint') {
     s.usedHint = true;
-    s.hint = TheisGrading.hint(w, result.kind);
+    s.hint = TheisGrading.hint(w, result.kind, !(s.mode === 'photo' || s.mode === 'definition' || config.direction === 'de-it'));
     renderSession();
     return;
   }
@@ -411,6 +411,7 @@ function checkAnswer() {
     s.feedback = 'Das Wort stimmt. In dieser Liste ist der Artikel optional.';
   s.checked = true;
   s.hint = '';
+  s.hintLevel = 0;
   if (s.correct && s.usedHint) {
     rateAssistedWord(w);
     s.assisted++;
@@ -512,7 +513,17 @@ document.addEventListener('click', e => {
   if (a === 'word-hint') {
     session.draft = $('answer')?.value || '';
     session.usedHint = true;
-    session.hint = TheisGrading.hint(session.words[session.index]);
+    if (session.hintFor !== session.index) {
+      session.hintFor = session.index;
+      session.hintLevel = 0;
+    }
+    session.hintLevel += 1;
+    session.hint = TheisGrading.hint(
+      session.words[session.index],
+      undefined,
+      !(session.mode === 'photo' || session.mode === 'definition' || config.direction === 'de-it'),
+      session.hintLevel
+    );
     return renderSession();
   }
   if (a === 'start') return start();
