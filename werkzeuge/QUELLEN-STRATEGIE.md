@@ -26,3 +26,7 @@ Bezahldienste, Mediatheken ohne Einbett-Angebot, Lehrwerk-Audios, Material von K
 1. Eine einzige Liste `werkzeuge/videos.csv` mit Spalten `url;audio;sprache;niveau;thema;rechte;lizenz`.
 2. `suche` füllt YouTube-CC-Videos automatisch. Andere grüne Quellen trägst du als `audio`-Zeile ein, oder wir bauen je Quelle einen kleinen Sammler (zum Beispiel VOA-Feed, LibriVox-Katalog).
 3. `hoeren` erzeugt die Pakete, `bundle_stock.cjs` bündelt sie. Gelbe Quellen bleiben vorerst außen vor, bis `link` gebaut ist.
+
+## Notiz (25.10.2026): RSI Edu (Italienisch)
+
+Tipp von Julian: Die RSI (Radiotelevisione svizzera di lingua italiana) hat mit **RSI Edu** (rsi.ch/edu) ein Angebot für Schulen und Familien, gut geeignet für Italienisch. Einstufung vorläufig **gelb**: Einbetten bzw. Verlinken ist der Normalfall; Rechte für Transkripte und eigene Aufgaben dazu nicht geklärt (Lizenzbedingungen auf rsi.ch/edu prüfen, ggf. bei der RSI nachfragen). Umsetzung: passende Video-Links von Hand in `werkzeuge/videos.csv` eintragen (Spalte `rechte` leer lassen), dann `hoeren` laufen lassen. Die automatische Suche findet RSI nicht, weil sie nur frei lizenzierte Videos sucht.
