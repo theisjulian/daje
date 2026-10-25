@@ -51,6 +51,22 @@ Wortliste (eine Zeile pro Eintrag, optional "Wort;Übersetzung"):
 {words}"""
 
 
+def csv_zeilen(pfad):
+    """CSV lesen, egal ob aus Numbers/Excel gespeichert (UTF-8, UTF-16, Windows- oder Mac-Zeichensatz)."""
+    roh = open(pfad, "rb").read()
+    text = None
+    for enc in ("utf-8-sig", "utf-16", "cp1252", "mac_roman"):
+        try:
+            text = roh.decode(enc)
+            break
+        except (UnicodeDecodeError, UnicodeError):
+            continue
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    erste = text.split("\n", 1)[0]
+    trenner = ";" if ";" in erste else "\t" if "\t" in erste else ","
+    return list(csv.DictReader(text.split("\n"), delimiter=trenner))
+
+
 def slug(s, n=34):
     s = re.sub(r"[^a-z0-9]+", "-", s.lower().replace("ä", "ae").replace("ö", "oe").replace("ü", "ue").replace("ß", "ss"))
     return s.strip("-")[:n].strip("-") or "paket"
@@ -149,7 +165,7 @@ def hoeren(args):
     mock = None
     if args.mock:
         mock = json.loads((EXAMPLES / "listening-with-vocabulary.json").read_text(encoding="utf8"))
-    rows = list(csv.DictReader(open(args.liste, encoding="utf8"), delimiter=";" if ";" in open(args.liste, encoding="utf8").readline() else ","))
+    rows = csv_zeilen(args.liste)
     bericht = []
     for i, row in enumerate(rows[: args.limit or None], 1):
         url = (row.get("url") or "").strip()
@@ -248,7 +264,7 @@ def hoeren(args):
 def wortschatz(args):
     mock = json.loads((EXAMPLES / "vocabulary-example.json").read_text(encoding="utf8")) if args.mock else None
     gruppen = {}
-    for row in csv.DictReader(open(args.liste, encoding="utf8"), delimiter=";" if ";" in open(args.liste, encoding="utf8").readline() else ","):
+    for row in csv_zeilen(args.liste):
         key = (row["sprache"], row["niveau"], row["sammlung"], row["abschnitt"])
         gruppen.setdefault(key, []).append(row["wort"] + (";" + row["uebersetzung"] if row.get("uebersetzung") else ""))
     bericht = []
@@ -308,7 +324,7 @@ def suche(args):
     if inv.exists():
         bekannt |= set(re.findall(r'"([A-Za-z0-9_-]{11})"', inv.read_text(encoding="utf8")))
     neu = []
-    for zeile in csv.DictReader(open(args.themen, encoding="utf8"), delimiter=";"):
+    for zeile in csv_zeilen(args.themen):
         lang, level, thema, q = zeile["sprache"], zeile["niveau"], zeile["thema"], zeile["suchbegriff"]
         if args.mock:
             items = [{"id": {"videoId": "AAAAAAAAAAA"}}]
