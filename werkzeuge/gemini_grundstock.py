@@ -135,6 +135,10 @@ def embeddable(vid):
         return None, str(e)
 
 
+class GeminiFehler(Exception):
+    pass
+
+
 def gemini(model, system, parts, mock=None):
     if mock is not None:
         return mock
@@ -150,20 +154,28 @@ def gemini(model, system, parts, mock=None):
         API.format(model=model), json.dumps(body).encode(),
         {"Content-Type": "application/json", "x-goog-api-key": key},
     )
-    for versuch in range(4):
+    pausen = [15, 30, 60, 90, 120, 180, 240]
+    for versuch in range(len(pausen) + 1):
         try:
             with urllib.request.urlopen(req, timeout=600) as r:
                 data = json.load(r)
             text = data["candidates"][0]["content"]["parts"][0]["text"]
             return json.loads(text)
         except urllib.error.HTTPError as e:
-            if e.code in (429, 500, 503) and versuch < 3:
-                time.sleep(20 * (versuch + 1))
+            if e.code in (429, 500, 502, 503, 504) and versuch < len(pausen):
+                print(f"   Gemini ausgelastet ({e.code}), neuer Versuch in {pausen[versuch]} s …", flush=True)
+                time.sleep(pausen[versuch])
                 continue
-            sys.exit(f"Gemini-Fehler {e.code}: {e.read().decode()[:400]}")
+            raise GeminiFehler(f"Gemini-Fehler {e.code}: {e.read().decode()[:300]}")
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            if versuch < len(pausen):
+                print(f"   Verbindungsproblem ({e}), neuer Versuch in {pausen[versuch]} s …", flush=True)
+                time.sleep(pausen[versuch])
+                continue
+            raise GeminiFehler(f"Verbindung: {e}")
         except (KeyError, IndexError, json.JSONDecodeError):
-            if versuch == 3:
-                raise
+            if versuch >= 2:
+                raise GeminiFehler("Unbrauchbare Antwort von Gemini (kein gültiges JSON)")
             time.sleep(5)
 
 
@@ -274,7 +286,11 @@ def hoeren(args):
             parts = [medium, {"text": prompt}]
         pkg, fehler = None, ""
         for runde in range(3):
-            res = gemini(args.model, system, parts + ([{"text": "Korrigiere diese Fehler und gib das ganze Paket erneut aus:\n" + fehler}] if fehler else []), mock)
+            try:
+                res = gemini(args.model, system, parts + ([{"text": "Korrigiere diese Fehler und gib das ganze Paket erneut aus:\n" + fehler}] if fehler else []), mock)
+            except GeminiFehler as e:
+                fehler = str(e)
+                break
             if "abbruch" in res:
                 fehler = "ABBRUCH: " + res["abbruch"]
                 break
@@ -300,9 +316,13 @@ def hoeren(args):
             bericht.append([pid, vid, "FEHLER", fehler, url])
             continue
         # Gegenprüfung durch zweiten Durchgang
-        pr = gemini(args.model, PRUEFER.replace("{level}", level),
-                    [medium, {"text": json.dumps(pkg, ensure_ascii=False)}],
-                    {"mitschrift_ok": True, "niveau_ok": True, "aufgaben": [{"id": q["id"], "ok": True, "problem": ""} for q in pkg["questions"]], "gesamt": "Mock"} if args.mock else None)
+        try:
+            pr = gemini(args.model, PRUEFER.replace("{level}", level),
+                        [medium, {"text": json.dumps(pkg, ensure_ascii=False)}],
+                        {"mitschrift_ok": True, "niveau_ok": True, "aufgaben": [{"id": q["id"], "ok": True, "problem": ""} for q in pkg["questions"]], "gesamt": "Mock"} if args.mock else None)
+        except GeminiFehler as e:
+            pr = {}
+            pkg.setdefault("reviewNotes", []).append("Zweite automatische Prüfung nicht möglich: " + str(e)[:200])
         schlecht = {a["id"]: a.get("problem", "") for a in pr.get("aufgaben", []) if not a.get("ok", True)}
         if schlecht and len(pkg["questions"]) - len(schlecht) >= 2:
             pkg["questions"] = [q for q in pkg["questions"] if q["id"] not in schlecht]
@@ -465,4 +485,7 @@ if __name__ == "__main__":
     a = ap.parse_args()
     (OUT / "listening").mkdir(parents=True, exist_ok=True)
     (OUT / "vocabulary").mkdir(parents=True, exist_ok=True)
-    {"suche": suche, "hoeren": hoeren, "wortschatz": wortschatz}[a.modus](a)
+    try:
+        {"suche": suche, "hoeren": hoeren, "wortschatz": wortschatz}[a.modus](a)
+    except GeminiFehler as e:
+        sys.exit(f"{e}\nSpäter noch einmal versuchen; fertige Pakete bleiben erhalten und werden übersprungen.")
