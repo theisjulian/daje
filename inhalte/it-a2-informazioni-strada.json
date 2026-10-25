@@ -1,0 +1,65 @@
+{
+  "format": "theis-learning-package",
+  "schemaVersion": "1.0",
+  "kind": "listening",
+  "id": "it-a2-informazioni-strada",
+  "title": "Chiedere informazioni per strada",
+  "language": "it",
+  "level": "A2",
+  "description": "Kurzer, authentischer Dialog zum Thema Orientierung und Wegbeschreibung im städtischen Raum.",
+  "topics": [
+    "orientamento",
+    "città",
+    "interazione"
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 2,
+  "media": {
+    "type": "youtube",
+    "videoId": "-DpfIOInJfY"
+  },
+  "transcript": "[00:00] Scusa, potresti dirmi dov'è la stazione per favore?\n[00:05] Certo, vai dritto e poi gira a sinistra.",
+  "sources": [
+    {
+      "kind": "external",
+      "citation": "Colibrì Corsi di lingua italiana - Chiedere informazioni per strada · Anbieterangabe aus Gemini, nicht unabhängig verifiziert. Mitschrift laut Gemini aus YouTube-Untertiteln; bei Clip 5 behaupteter direkter Medienzugriff. Keine eigene Audioverifikation.",
+      "url": "https://www.youtube.com/watch?v=-DpfIOInJfY",
+      "rights": "needs_review"
+    }
+  ],
+  "reviewNotes": [
+    "Entwurf für die private Redaktionsvorschau. Transkript, Zeitmarken, Sprecherbezug und jede Lösung sind noch am Originalmedium zu prüfen.",
+    "Nutzungsrechte von Medium und Transkript sowie Originalanbieter und Einbettbarkeit offen. Keine Freigabe.",
+    "Niveau redaktionell vorläufig eingeschätzt; Übungsdauer geschätzt, keine gemessene Videodauer."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "prompt": "Che cosa chiede la persona all'inizio del video?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dov'è la stazione."
+        },
+        {
+          "id": "b",
+          "text": "Che ore sono."
+        },
+        {
+          "id": "c",
+          "text": "Quanto costa un caffè."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Die Person fragt nach dem Weg zur Station („dov'è la stazione“). Grundlage: übermittelte Mitschrift; Audioabgleich offen."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "prompt": "La risposta indica di andare prima dritto e poi a sinistra.",
+      "answer": true,
+      "explanation": "Die Anweisung lautet: „vai dritto e poi gira a sinistra“. Grundlage: übermittelte Mitschrift; Audioabgleich offen."
+    }
+  ]
+}

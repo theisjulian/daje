@@ -1,0 +1,43 @@
+/* Dokument-Designs für Wortlisten und Aufgabenblätter (Vorschau und Druck) */
+#teaching-print { --ac: var(--doc-ac, #1a6dff); }
+#teaching-print .print-controls { align-items: center; gap: 10px; flex-wrap: wrap; }
+#teaching-print .doc-actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+#teaching-print .doc-design { display: inline-flex; gap: 6px; align-items: center; font-size: 13px; }
+#teaching-print .doc-options { display: flex; gap: 28px; flex-wrap: wrap; margin: 0 0 22px; padding: 14px 16px; border-radius: 12px; background: #f3f5f9; font-size: 14px; }
+#teaching-print .doc-opt-group { display: flex; flex-direction: column; gap: 4px; }
+#teaching-print .doc-opt-group label { display: flex; gap: 8px; align-items: center; }
+.doc-table { width: 100%; border-collapse: collapse; margin: 14px 0; }
+.doc-table th, .doc-table td { text-align: left; padding: 8px 10px; vertical-align: middle; }
+.doc-table td.t { font-weight: 600; }
+.doc-table td.blank { height: 34px; }
+.doc-table img { max-height: 54px; border-radius: 6px; }
+.doc-table tr { break-inside: avoid; }
+.doc-meta { color: #666; margin: 0 0 8px; }
+.doc-foot { display: flex; align-items: center; gap: 10px; margin-top: 34px; padding-top: 12px; border-top: 1px solid #ccc; font-size: 10pt; color: #444; break-inside: avoid; }
+.doc-logo { display: inline-flex; align-items: center; height: 26px; overflow: visible; }
+.doc-logo svg, .doc-logo img { height: 22px; width: auto; display: block; overflow: visible; }
+/* modern */
+#teaching-print[data-design='modern'] header { border-bottom: 3px solid var(--ac); }
+#teaching-print[data-design='modern'] h1 { color: var(--ac); }
+#teaching-print[data-design='modern'] .doc-table th { background: color-mix(in srgb, var(--ac) 14%, white); color: #111; border-radius: 6px 6px 0 0; }
+#teaching-print[data-design='modern'] .doc-table td { border-bottom: 1px solid #e3e6ec; }
+/* klassisch */
+#teaching-print[data-design='klassisch'] { font-family: Georgia, 'Times New Roman', serif !important; }
+#teaching-print[data-design='klassisch'] h1 { font-family: Georgia, serif; font-weight: 700; color: #111; }
+#teaching-print[data-design='klassisch'] .doc-table th { border-bottom: 2px solid #111; font-variant: small-caps; }
+#teaching-print[data-design='klassisch'] .doc-table td { border-bottom: 1px solid #bbb; }
+/* heft */
+#teaching-print[data-design='heft'] h1 { display: inline; background: linear-gradient(transparent 58%, #ffe066 58%); }
+#teaching-print[data-design='heft'] .doc-table td { border-bottom: 1px dashed #8aa4d6; height: 38px; }
+#teaching-print[data-design='heft'] .doc-table th { border-bottom: 2px solid #c94b4b; }
+#teaching-print[data-design='heft'] .doc-table td.t { font-style: italic; }
+/* kontrast */
+#teaching-print[data-design='kontrast'] { font-size: 1.05em; }
+#teaching-print[data-design='kontrast'] h1 { font-weight: 900; }
+#teaching-print[data-design='kontrast'] .doc-table th { background: #111; color: #fff; }
+#teaching-print[data-design='kontrast'] .doc-table td { border: 2px solid #111; }
+@media print {
+  #teaching-print .doc-options { display: none !important; }
+  .doc-table th { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  @page { margin: 16mm 14mm 18mm; }
+}

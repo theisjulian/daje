@@ -1,0 +1,89 @@
+{
+  "format": "theis-learning-package",
+  "schemaVersion": "1.0",
+  "kind": "listening",
+  "id": "it-a2-ordine-al-bar",
+  "title": "Una richiesta in più",
+  "language": "it",
+  "level": "A2",
+  "description": "Un cliente ordina e precisa quello che desidera. Hörstrecke laut Gemini 00:00–00:55; der Player zeigt das ganze Video.",
+  "topics": [
+    "al bar"
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 5,
+  "media": {
+    "type": "youtube",
+    "videoId": "wPkbySTrndI"
+  },
+  "transcript": "[00:00] Buongiorno. Buongiorno. Un caffè per favore.\n[00:10] Ecco il caffè. Non bevo il caffè qui, prendo il caffè e vado via.\n[00:16] Ah, ho capito, vuole un caffè da portare via?\n[00:20] Sì, un caffè da portare via, per favore.\n[00:35] Prego.\n[00:38] Per favore, vorrei anche una...\n[00:43] una...\n[00:51] Ha una bustina di zucchero? Sì, una bustina di zucchero.",
+  "sources": [
+    {
+      "kind": "external",
+      "citation": "YouTube-Originalvideo; Anbieter und Nutzungsrechte noch zu verifizieren. Transkript aus nutzerseitig übermittelter Gemini-Ausgabe; laut Gemini automatische YouTube-Untertitel. Kein unabhängiger Audioabgleich.",
+      "url": "https://www.youtube.com/watch?v=wPkbySTrndI",
+      "rights": "needs_review"
+    }
+  ],
+  "reviewNotes": [
+    "Redaktioneller Entwurf. Nicht am Audio geprüft. Transkript, Aufgabenlösungen, Zeitmarken, Medienlänge und Sprecherwechsel vor Freigabe überprüfen.",
+    "GER A2 ist eine redaktionell noch zu prüfende Einschätzung. estimatedMinutes ist geschätzte Übungsdauer, keine gemessene Videolänge.",
+    "Nutzungsrechte von Video und Transkript sowie Originalanbieter und Einbettbarkeit offen. needs_review verhindert die lokale Freigabe.",
+    "Ausschnittsangaben stammen aus Gemini. Der aktuelle Player begrenzt den YouTube-Ausschnitt nicht automatisch."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "prompt": "Che cosa vuole fare il cliente?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bere il caffè al banco."
+        },
+        {
+          "id": "b",
+          "text": "Portare via il caffè."
+        },
+        {
+          "id": "c",
+          "text": "Cambiare il caffè con un tè."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Laut übermittelter Mitschrift sagt die Person „un caffè da portare via“. Am Audio prüfen. Audioabgleich offen."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "prompt": "Il cliente vuole bere il caffè nel locale.",
+      "answer": false,
+      "explanation": "Der übermittelte Text enthält „Non bevo il caffè qui“. Am Audio prüfen. Audioabgleich offen."
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "prompt": "Che cosa viene nominato alla fine del dialogo?",
+      "acceptedAnswers": [
+        "una bustina di zucchero",
+        "bustina di zucchero",
+        "una bustina"
+      ],
+      "modelAnswer": "una bustina di zucchero",
+      "explanation": "Im übermittelten Text wird ein Zuckerpäckchen genannt. Die Frage vermeidet eine ungeprüfte Sprecherzuordnung. Am Audio prüfen. Audioabgleich offen."
+    },
+    {
+      "type": "short_answer",
+      "prompt": "Quale bevanda ordina il cliente?",
+      "acceptedAnswers": [
+        "un caffè",
+        "caffè",
+        "un caffe",
+        "caffe"
+      ],
+      "modelAnswer": "un caffè",
+      "explanation": "Der übermittelte Text nennt die Bestellung eines Kaffees. Akzentlose Schreibweise hier ausdrücklich als Inhaltsantwort zugelassen. Audioabgleich offen.",
+      "id": "q4"
+    }
+  ]
+}

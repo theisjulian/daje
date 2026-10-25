@@ -1,0 +1,114 @@
+{
+  "format": "theis-learning-package",
+  "schemaVersion": "1.0",
+  "kind": "listening",
+  "id": "it-a2-vita-italia",
+  "title": "Che cosa fai in Italia?",
+  "language": "it",
+  "level": "A2",
+  "description": "Persone diverse si presentano. Ausschnitt laut Gemini 00:30–01:28; Wiedergabe derzeit manuell eingrenzen.",
+  "topics": [
+    "vita quotidiana",
+    "lavoro",
+    "integrazione"
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 5,
+  "media": {
+    "type": "youtube",
+    "videoId": "91fi6egFsyA"
+  },
+  "transcript": "[00:31] Mi chiamo di nome Mina. Sono marocchina di Casablanca. Sono arrivata in Italia nel 2000.\n[00:41] Mi chiamo Carola... ordenes [Wortlaut unsicher] di qua si dice Carola, ma da noi si dice Carola.\n[00:49] Io sono Santiago del Cile. [Wortlaut unsicher]\n[00:51] Mi chiamo Diamante, tutti mi chiamano così, però la vera pronuncia sarebbe [unverständlich], vengo da Lituania e il significato è sempre quello che è Diamante.\n[01:00] Mi chiamo Gislen F. [Wortlaut unsicher] del Marocco.\n[01:06] Quanti anni hai? Ho 28 anni.\n[01:09] Da quanto tempo sei in Italia? Sono qua dal 2009.\n[01:13] Che lavoro fai? Ho fatto sempre la badanti, adesso ho fatto due corsi, sono oss, operatore socio-sanitario.\n[01:22] Faccio lavori sporadici, sono più casalinga che mai.",
+  "sources": [
+    {
+      "kind": "external",
+      "citation": "Loescher Editore video - Che cosa fai in Italia? · Anbieterangabe aus Gemini, nicht unabhängig verifiziert. Mitschrift laut Gemini aus YouTube-Untertiteln; bei Clip 5 behaupteter direkter Medienzugriff. Keine eigene Audioverifikation.",
+      "url": "https://www.youtube.com/watch?v=91fi6egFsyA",
+      "rights": "needs_review"
+    }
+  ],
+  "reviewNotes": [
+    "Entwurf für die private Redaktionsvorschau. Transkript, Zeitmarken, Sprecherbezug und jede Lösung sind noch am Originalmedium zu prüfen.",
+    "Nutzungsrechte von Medium und Transkript sowie Originalanbieter und Einbettbarkeit offen. Keine Freigabe.",
+    "Niveau redaktionell vorläufig eingeschätzt; Übungsdauer geschätzt, keine gemessene Videodauer.",
+    "Ausschnitt laut Gemini; der YouTube-Player begrenzt Beginn und Ende derzeit nicht automatisch. Bitte Zeitbereich selbst ansteuern.",
+    "Unklare Eigennamen und Sprecherwechsel. Altersfrage entfernt, da Person nicht zuverlässig identifiziert. Gesprochene Formen im Transkript nicht stillschweigend standardisieren."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "prompt": "Qual è il tema principale di questo estratto video?",
+      "options": [
+        {
+          "id": "a",
+          "text": "La presentazione personale e la vita in Italia."
+        },
+        {
+          "id": "b",
+          "text": "Come comprare un biglietto del treno."
+        },
+        {
+          "id": "c",
+          "text": "La storia dell'arte antica a Roma."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Die Personen stellen sich vor und berichten über ihr Leben und ihre Ankunft in Italien. Grundlage: übermittelte Mitschrift; Audioabgleich offen."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "prompt": "Mina è arrivata in Italia nel 2000.",
+      "answer": true,
+      "explanation": "Mina sagt im Video: „sono arrivata in Italia nel 2000“. Grundlage: übermittelte Mitschrift; Audioabgleich offen."
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "prompt": "Da quale città proviene Mina?",
+      "acceptedAnswers": [
+        "Casablanca",
+        "da Casablanca",
+        "è di Casablanca",
+        "viene da Casablanca"
+      ],
+      "modelAnswer": "Casablanca",
+      "explanation": "Im übermittelten Text stellt sich Mina als Marokkanerin aus Casablanca vor. Audioabgleich offen."
+    },
+    {
+      "type": "short_answer",
+      "prompt": "Quale anno viene citato nella risposta a «Da quanto tempo sei in Italia?»",
+      "acceptedAnswers": [
+        "2009",
+        "dal 2009",
+        "duemilanove",
+        "dal duemilanove"
+      ],
+      "modelAnswer": "dal 2009",
+      "explanation": "Die übermittelte Mitschrift enthält nach dieser Frage „Sono qua dal 2009“. Audioabgleich offen.",
+      "id": "q4"
+    },
+    {
+      "type": "single_choice",
+      "prompt": "Quale qualifica professionale viene nominata nell’estratto?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Insegnante di scuola primaria."
+        },
+        {
+          "id": "b",
+          "text": "Operatore socio-sanitario."
+        },
+        {
+          "id": "c",
+          "text": "Guida turistica."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Die übermittelte Mitschrift nennt OSS und löst es als operatore socio-sanitario auf. Audioabgleich offen.",
+      "id": "q5"
+    }
+  ]
+}

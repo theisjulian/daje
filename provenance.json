@@ -1,0 +1,13 @@
+{
+  "exportedAt": "2026-10-25T00:47:48.823344+00:00",
+  "sourceCommit": "ae3a136a545a0263469f48a05a7298b3639dd11b",
+  "workingTreeClean": true,
+  "siteProjectId": "appgprj_6adc7e4f2a408191886e51813848be3c",
+  "siteReportedLatestVersion": 8,
+  "localWorkLabel": "v9",
+  "previewUrl": "https://ecco-vokabeltrainer.shadymink2.chatgpt.site/",
+  "publication": "private unchanged",
+  "node": "v24.22.1",
+  "python": "Python 3.12.14",
+  "sourceFileCount": 56
+}

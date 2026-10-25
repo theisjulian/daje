@@ -1,0 +1,4 @@
+werkzeuge/schluessel.env
+node_modules/
+.DS_Store
+_tmp.json

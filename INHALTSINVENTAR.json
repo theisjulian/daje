@@ -1,0 +1,576 @@
+{
+  "baseWordCount": 133,
+  "baseListeningCount": 4,
+  "reviewListeningCount": 14,
+  "activities": [
+    {
+      "id": "en-voa-welcome",
+      "title": "Nice to meet you, Anna",
+      "schemaVersion": "1.0",
+      "language": "en",
+      "level": "A1",
+      "media": {
+        "type": "audio",
+        "url": "https://voa-audio.voanews.eu/vle/2016/02/08/49485bf8-4277-47f6-9abe-617ee2473f8c.mp3"
+      },
+      "reviewNotes": [
+        "Didaktisierter Lerndialog, kein spontanes Alltagsgespräch. A1 ist eine redaktionelle Einschätzung. Die Quelle nennt den Kurs Level 1.",
+        "Nutzungsbedingungen: https://learningenglish.voanews.com/p/6021.html"
+      ],
+      "sources": [
+        {
+          "kind": "external",
+          "citation": "VOA Learning English, Let’s Learn English Level 1, Lesson 1 Welcome, Conversation, 8. Februar 2016. Unveränderte Original-MP3, ca. 29 Sekunden. VOA nennt ausschließlich selbst produzierte Text-, Audio- und Videoinhalte Public Domain. Quellencredit: Voice of America / learningenglish.voanews.com. Aufgaben von Theis.",
+          "url": "https://learningenglish.voanews.com/a/lets-learn-english-lesson-one/3111026.html",
+          "rights": "cleared"
+        }
+      ],
+      "questions": 3,
+      "questionTypes": [
+        "short_answer",
+        "single_choice",
+        "true_false"
+      ],
+      "transcriptCharacters": 312,
+      "vocabularyEntries": 0
+    },
+    {
+      "id": "it-torino-demo",
+      "title": "Un pomeriggio a Torino",
+      "schemaVersion": "1.1",
+      "language": "it",
+      "level": "A1",
+      "media": {
+        "type": "speech",
+        "text": "Ciao, sono Sofia e abito a Torino. Oggi incontro il mio amico Luca in centro. Ci vediamo alle quattro in Piazza Castello. Prima andiamo in gelateria. Io prendo un gelato al limone e Luca un gelato al cioccolato. Poi andiamo al parco, vicino al fiume. Non prendiamo l’autobus: andiamo a piedi. Torno a casa alle sei."
+      },
+      "reviewNotes": [
+        "Niveau ist eine redaktionelle Einschätzung. Browserstimmen unterscheiden sich nach Gerät."
+      ],
+      "sources": [
+        {
+          "kind": "own",
+          "citation": "Eigener Übungstext für die ripassà-Vorschau. Synthetische Wiedergabe durch die Browser-Sprachausgabe; keine authentische Aufnahme.",
+          "rights": "own"
+        }
+      ],
+      "questions": 4,
+      "questionTypes": [
+        "short_answer",
+        "single_choice",
+        "true_false"
+      ],
+      "transcriptCharacters": 315,
+      "vocabularyEntries": 6
+    },
+    {
+      "id": "it-gelateria-demo",
+      "title": "Due gusti, per favore",
+      "schemaVersion": "1.0",
+      "language": "it",
+      "level": "A1",
+      "media": {
+        "type": "speech",
+        "text": "Buongiorno! Vorrei un gelato piccolo con due gusti: fragola e cioccolato. Per mia sorella, invece, una coppetta al limone. Non vuole il cono. Quanto costa tutto? Sono cinque euro. Ecco dieci euro. Grazie, ecco il resto. Arrivederci!"
+      },
+      "reviewNotes": [
+        "Niveau ist eine redaktionelle Einschätzung. Browserstimmen unterscheiden sich nach Gerät."
+      ],
+      "sources": [
+        {
+          "kind": "own",
+          "citation": "Eigener Übungstext für die ripassà-Vorschau. Synthetische Wiedergabe durch die Browser-Sprachausgabe; keine authentische Aufnahme.",
+          "rights": "own"
+        }
+      ],
+      "questions": 3,
+      "questionTypes": [
+        "short_answer",
+        "single_choice",
+        "true_false"
+      ],
+      "transcriptCharacters": 232,
+      "vocabularyEntries": 0
+    },
+    {
+      "id": "en-weekend-demo",
+      "title": "A change of plans",
+      "schemaVersion": "1.0",
+      "language": "en",
+      "level": "A2",
+      "media": {
+        "type": "speech",
+        "text": "Hi, I’m Alex. On Saturday, my friend Jamie and I want to ride our bikes to the lake. But in the morning it starts to rain. We decide to visit the city museum instead. We meet at the bus stop at ten thirty. Jamie brings two sandwiches and I bring some water. After the museum, we call our friend Sam. Sam is at home and joins us for lunch."
+      },
+      "reviewNotes": [
+        "Niveau ist eine redaktionelle Einschätzung. Browserstimmen unterscheiden sich nach Gerät."
+      ],
+      "sources": [
+        {
+          "kind": "own",
+          "citation": "Eigener Übungstext für die ripassà-Vorschau. Synthetische Wiedergabe durch die Browser-Sprachausgabe; keine authentische Aufnahme.",
+          "rights": "own"
+        }
+      ],
+      "questions": 3,
+      "questionTypes": [
+        "short_answer",
+        "single_choice",
+        "true_false"
+      ],
+      "transcriptCharacters": 338,
+      "vocabularyEntries": 0
+    },
+    {
+      "id": "it-a2-hobby-interviste",
+      "title": "Le attività dei ragazzi",
+      "schemaVersion": "1.0",
+      "language": "it",
+      "level": "A2",
+      "media": {
+        "type": "youtube",
+        "videoId": "DRzHA4LuFC0"
+      },
+      "reviewNotes": [
+        "Redaktioneller Entwurf. Nicht am Audio geprüft. Transkript, Aufgabenlösungen, Zeitmarken, Medienlänge und Sprecherwechsel vor Freigabe überprüfen.",
+        "GER A2 ist eine redaktionell noch zu prüfende Einschätzung. estimatedMinutes ist geschätzte Übungsdauer, keine gemessene Videolänge.",
+        "Nutzungsrechte von Video und Transkript sowie Originalanbieter und Einbettbarkeit offen. needs_review verhindert die lokale Freigabe.",
+        "Ausschnittsangaben stammen aus Gemini. Der aktuelle Player begrenzt den YouTube-Ausschnitt nicht automatisch."
+      ],
+      "sources": [
+        {
+          "kind": "external",
+          "citation": "YouTube-Originalvideo; Anbieter und Nutzungsrechte noch zu verifizieren. Transkript aus nutzerseitig übermittelter Gemini-Ausgabe; laut Gemini automatische YouTube-Untertitel. Kein unabhängiger Audioabgleich.",
+          "url": "https://www.youtube.com/watch?v=DRzHA4LuFC0",
+          "rights": "needs_review"
+        }
+      ],
+      "questions": 5,
+      "questionTypes": [
+        "short_answer",
+        "single_choice",
+        "true_false"
+      ],
+      "transcriptCharacters": 844,
+      "vocabularyEntries": 0
+    },
+    {
+      "id": "it-a2-ordine-al-bar",
+      "title": "Una richiesta in più",
+      "schemaVersion": "1.0",
+      "language": "it",
+      "level": "A2",
+      "media": {
+        "type": "youtube",
+        "videoId": "wPkbySTrndI"
+      },
+      "reviewNotes": [
+        "Redaktioneller Entwurf. Nicht am Audio geprüft. Transkript, Aufgabenlösungen, Zeitmarken, Medienlänge und Sprecherwechsel vor Freigabe überprüfen.",
+        "GER A2 ist eine redaktionell noch zu prüfende Einschätzung. estimatedMinutes ist geschätzte Übungsdauer, keine gemessene Videolänge.",
+        "Nutzungsrechte von Video und Transkript sowie Originalanbieter und Einbettbarkeit offen. needs_review verhindert die lokale Freigabe.",
+        "Ausschnittsangaben stammen aus Gemini. Der aktuelle Player begrenzt den YouTube-Ausschnitt nicht automatisch."
+      ],
+      "sources": [
+        {
+          "kind": "external",
+          "citation": "YouTube-Originalvideo; Anbieter und Nutzungsrechte noch zu verifizieren. Transkript aus nutzerseitig übermittelter Gemini-Ausgabe; laut Gemini automatische YouTube-Untertitel. Kein unabhängiger Audioabgleich.",
+          "url": "https://www.youtube.com/watch?v=wPkbySTrndI",
+          "rights": "needs_review"
+        }
+      ],
+      "questions": 4,
+      "questionTypes": [
+        "short_answer",
+        "single_choice",
+        "true_false"
+      ],
+      "transcriptCharacters": 364,
+      "vocabularyEntries": 0
+    },
+    {
+      "id": "it-a2-tempo-libero-cinema",
+      "title": "Una proposta per il pomeriggio",
+      "schemaVersion": "1.0",
+      "language": "it",
+      "level": "A2",
+      "media": {
+        "type": "youtube",
+        "videoId": "DFo5qBbF_TU"
+      },
+      "reviewNotes": [
+        "Redaktioneller Entwurf. Nicht am Audio geprüft. Transkript, Aufgabenlösungen, Zeitmarken, Medienlänge und Sprecherwechsel vor Freigabe überprüfen.",
+        "GER A2 ist eine redaktionell noch zu prüfende Einschätzung. estimatedMinutes ist geschätzte Übungsdauer, keine gemessene Videolänge.",
+        "Nutzungsrechte von Video und Transkript sowie Originalanbieter und Einbettbarkeit offen. needs_review verhindert die lokale Freigabe.",
+        "Ausschnittsangaben stammen aus Gemini. Der aktuelle Player begrenzt den YouTube-Ausschnitt nicht automatisch."
+      ],
+      "sources": [
+        {
+          "kind": "external",
+          "citation": "YouTube-Originalvideo; Anbieter und Nutzungsrechte noch zu verifizieren. Transkript aus nutzerseitig übermittelter Gemini-Ausgabe; laut Gemini automatische YouTube-Untertitel. Kein unabhängiger Audioabgleich.",
+          "url": "https://www.youtube.com/watch?v=DFo5qBbF_TU",
+          "rights": "needs_review"
+        }
+      ],
+      "questions": 5,
+      "questionTypes": [
+        "short_answer",
+        "single_choice",
+        "true_false"
+      ],
+      "transcriptCharacters": 817,
+      "vocabularyEntries": 0
+    },
+    {
+      "id": "it-a2-weekend-scena-tre",
+      "title": "Un fine settimana in compagnia",
+      "schemaVersion": "1.0",
+      "language": "it",
+      "level": "A2",
+      "media": {
+        "type": "youtube",
+        "videoId": "oLfYx4cgTMg"
+      },
+      "reviewNotes": [
+        "Redaktioneller Entwurf. Nicht am Audio geprüft. Transkript, Aufgabenlösungen, Zeitmarken, Medienlänge und Sprecherwechsel vor Freigabe überprüfen.",
+        "GER A2 ist eine redaktionell noch zu prüfende Einschätzung. estimatedMinutes ist geschätzte Übungsdauer, keine gemessene Videolänge.",
+        "Nutzungsrechte von Video und Transkript sowie Originalanbieter und Einbettbarkeit offen. needs_review verhindert die lokale Freigabe.",
+        "Ausschnittsangaben stammen aus Gemini. Der aktuelle Player begrenzt den YouTube-Ausschnitt nicht automatisch."
+      ],
+      "sources": [
+        {
+          "kind": "external",
+          "citation": "YouTube-Originalvideo; Anbieter und Nutzungsrechte noch zu verifizieren. Transkript aus nutzerseitig übermittelter Gemini-Ausgabe; laut Gemini automatische YouTube-Untertitel. Kein unabhängiger Audioabgleich.",
+          "url": "https://www.youtube.com/watch?v=oLfYx4cgTMg",
+          "rights": "needs_review"
+        }
+      ],
+      "questions": 3,
+      "questionTypes": [
+        "single_choice",
+        "true_false"
+      ],
+      "transcriptCharacters": 244,
+      "vocabularyEntries": 0
+    },
+    {
+      "id": "it-a2-cucina-tiramisu",
+      "title": "La spesa per il tiramisù",
+      "schemaVersion": "1.0",
+      "language": "it",
+      "level": "A2",
+      "media": {
+        "type": "youtube",
+        "videoId": "pW8Fuo1Oh-g"
+      },
+      "reviewNotes": [
+        "Entwurf für die private Redaktionsvorschau. Transkript, Zeitmarken, Sprecherbezug und jede Lösung sind noch am Originalmedium zu prüfen.",
+        "Nutzungsrechte von Medium und Transkript sowie Originalanbieter und Einbettbarkeit offen. Keine Freigabe.",
+        "Niveau redaktionell vorläufig eingeschätzt; Übungsdauer geschätzt, keine gemessene Videodauer.",
+        "Transkriptstelle „Quante sono?“ prüfen; keine stille Korrektur. Laut Gemini wechselnde manuelle und automatische Untertitel, genaue Herkunft offen."
+      ],
+      "sources": [
+        {
+          "kind": "external",
+          "citation": "Loescher Editore video - Italiano per stranieri - Ti piace la cucina italiana? · Anbieterangabe aus Gemini, nicht unabhängig verifiziert. Mitschrift laut Gemini aus YouTube-Untertiteln; bei Clip 5 behaupteter direkter Medienzugriff. Keine eigene Audioverifikation.",
+          "url": "https://www.youtube.com/watch?v=pW8Fuo1Oh-g",
+          "rights": "needs_review"
+        }
+      ],
+      "questions": 7,
+      "questionTypes": [
+        "short_answer",
+        "single_choice",
+        "true_false"
+      ],
+      "transcriptCharacters": 1189,
+      "vocabularyEntries": 0
+    },
+    {
+      "id": "it-a2-conoscere-italia",
+      "title": "Città e luoghi da conoscere",
+      "schemaVersion": "1.0",
+      "language": "it",
+      "level": "B1",
+      "media": {
+        "type": "youtube",
+        "videoId": "dK9KAT5BDBM"
+      },
+      "reviewNotes": [
+        "Entwurf für die private Redaktionsvorschau. Transkript, Zeitmarken, Sprecherbezug und jede Lösung sind noch am Originalmedium zu prüfen.",
+        "Nutzungsrechte von Medium und Transkript sowie Originalanbieter und Einbettbarkeit offen. Keine Freigabe.",
+        "Niveau redaktionell vorläufig eingeschätzt; Übungsdauer geschätzt, keine gemessene Videodauer.",
+        "Ausschnitt laut Gemini; der YouTube-Player begrenzt Beginn und Ende derzeit nicht automatisch. Bitte Zeitbereich selbst ansteuern."
+      ],
+      "sources": [
+        {
+          "kind": "external",
+          "citation": "Loescher Editore video - Cosa conosci dell'Italia? · Anbieterangabe aus Gemini, nicht unabhängig verifiziert. Mitschrift laut Gemini aus YouTube-Untertiteln; bei Clip 5 behaupteter direkter Medienzugriff. Keine eigene Audioverifikation.",
+          "url": "https://www.youtube.com/watch?v=dK9KAT5BDBM",
+          "rights": "needs_review"
+        }
+      ],
+      "questions": 5,
+      "questionTypes": [
+        "short_answer",
+        "single_choice",
+        "true_false"
+      ],
+      "transcriptCharacters": 1224,
+      "vocabularyEntries": 0
+    },
+    {
+      "id": "it-a2-vita-italia",
+      "title": "Che cosa fai in Italia?",
+      "schemaVersion": "1.0",
+      "language": "it",
+      "level": "A2",
+      "media": {
+        "type": "youtube",
+        "videoId": "91fi6egFsyA"
+      },
+      "reviewNotes": [
+        "Entwurf für die private Redaktionsvorschau. Transkript, Zeitmarken, Sprecherbezug und jede Lösung sind noch am Originalmedium zu prüfen.",
+        "Nutzungsrechte von Medium und Transkript sowie Originalanbieter und Einbettbarkeit offen. Keine Freigabe.",
+        "Niveau redaktionell vorläufig eingeschätzt; Übungsdauer geschätzt, keine gemessene Videodauer.",
+        "Ausschnitt laut Gemini; der YouTube-Player begrenzt Beginn und Ende derzeit nicht automatisch. Bitte Zeitbereich selbst ansteuern.",
+        "Unklare Eigennamen und Sprecherwechsel. Altersfrage entfernt, da Person nicht zuverlässig identifiziert. Gesprochene Formen im Transkript nicht stillschweigend standardisieren."
+      ],
+      "sources": [
+        {
+          "kind": "external",
+          "citation": "Loescher Editore video - Che cosa fai in Italia? · Anbieterangabe aus Gemini, nicht unabhängig verifiziert. Mitschrift laut Gemini aus YouTube-Untertiteln; bei Clip 5 behaupteter direkter Medienzugriff. Keine eigene Audioverifikation.",
+          "url": "https://www.youtube.com/watch?v=91fi6egFsyA",
+          "rights": "needs_review"
+        }
+      ],
+      "questions": 5,
+      "questionTypes": [
+        "short_answer",
+        "single_choice",
+        "true_false"
+      ],
+      "transcriptCharacters": 757,
+      "vocabularyEntries": 0
+    },
+    {
+      "id": "it-a2-roma-citta",
+      "title": "Una passeggiata tra i monumenti",
+      "schemaVersion": "1.0",
+      "language": "it",
+      "level": "B1",
+      "media": {
+        "type": "youtube",
+        "videoId": "FaS5AIuXw_E"
+      },
+      "reviewNotes": [
+        "Entwurf für die private Redaktionsvorschau. Transkript, Zeitmarken, Sprecherbezug und jede Lösung sind noch am Originalmedium zu prüfen.",
+        "Nutzungsrechte von Medium und Transkript sowie Originalanbieter und Einbettbarkeit offen. Keine Freigabe.",
+        "Niveau redaktionell vorläufig eingeschätzt; Übungsdauer geschätzt, keine gemessene Videodauer.",
+        "Ausschnitt laut Gemini; der YouTube-Player begrenzt Beginn und Ende derzeit nicht automatisch. Bitte Zeitbereich selbst ansteuern."
+      ],
+      "sources": [
+        {
+          "kind": "external",
+          "citation": "Loescher Editore video - Roma · Anbieterangabe aus Gemini, nicht unabhängig verifiziert. Mitschrift laut Gemini aus YouTube-Untertiteln; bei Clip 5 behaupteter direkter Medienzugriff. Keine eigene Audioverifikation.",
+          "url": "https://www.youtube.com/watch?v=FaS5AIuXw_E",
+          "rights": "needs_review"
+        }
+      ],
+      "questions": 6,
+      "questionTypes": [
+        "short_answer",
+        "single_choice",
+        "true_false"
+      ],
+      "transcriptCharacters": 771,
+      "vocabularyEntries": 0
+    },
+    {
+      "id": "it-a2-informazioni-strada",
+      "title": "Chiedere informazioni per strada",
+      "schemaVersion": "1.0",
+      "language": "it",
+      "level": "A2",
+      "media": {
+        "type": "youtube",
+        "videoId": "-DpfIOInJfY"
+      },
+      "reviewNotes": [
+        "Entwurf für die private Redaktionsvorschau. Transkript, Zeitmarken, Sprecherbezug und jede Lösung sind noch am Originalmedium zu prüfen.",
+        "Nutzungsrechte von Medium und Transkript sowie Originalanbieter und Einbettbarkeit offen. Keine Freigabe.",
+        "Niveau redaktionell vorläufig eingeschätzt; Übungsdauer geschätzt, keine gemessene Videodauer."
+      ],
+      "sources": [
+        {
+          "kind": "external",
+          "citation": "Colibrì Corsi di lingua italiana - Chiedere informazioni per strada · Anbieterangabe aus Gemini, nicht unabhängig verifiziert. Mitschrift laut Gemini aus YouTube-Untertiteln; bei Clip 5 behaupteter direkter Medienzugriff. Keine eigene Audioverifikation.",
+          "url": "https://www.youtube.com/watch?v=-DpfIOInJfY",
+          "rights": "needs_review"
+        }
+      ],
+      "questions": 2,
+      "questionTypes": [
+        "single_choice",
+        "true_false"
+      ],
+      "transcriptCharacters": 108,
+      "vocabularyEntries": 0
+    },
+    {
+      "id": "en-b1-carbon-footprint",
+      "title": "Your Carbon Footprint Explained",
+      "schemaVersion": "1.0",
+      "language": "en",
+      "level": "B1",
+      "media": {
+        "type": "youtube",
+        "videoId": "a9yO-K8mwL0"
+      },
+      "reviewNotes": [
+        "In die private Arbeitsvorschau aufgenommen. Nicht unabhängig am Audio geprüft; Lösungen, Niveau, Zeitmarken, Quelle und Einbettbarkeit noch zu prüfen.",
+        "Nutzungsrechte von Video und Transkript offen. Keine fachliche Freigabe. Die Quellen- und Prüfbehauptungen der Gemini-Ausgabe sind nicht unabhängig bestätigt."
+      ],
+      "sources": [
+        {
+          "kind": "external",
+          "citation": "BBC News - Climate Change: Your carbon footprint explained · Quellenangabe aus Gemini, ungeprüft.",
+          "url": "https://www.youtube.com/watch?v=a9yO-K8mwL0",
+          "rights": "needs_review"
+        }
+      ],
+      "questions": 8,
+      "questionTypes": [
+        "short_answer",
+        "single_choice",
+        "true_false"
+      ],
+      "transcriptCharacters": 2984,
+      "vocabularyEntries": 0
+    },
+    {
+      "id": "en-b2-secrets-learning-language",
+      "title": "The Secrets of Learning a New Language",
+      "schemaVersion": "1.0",
+      "language": "en",
+      "level": "B2",
+      "media": {
+        "type": "youtube",
+        "videoId": "o_XVt5rdpFY"
+      },
+      "reviewNotes": [
+        "In die private Arbeitsvorschau aufgenommen. Nicht unabhängig am Audio geprüft; Lösungen, Niveau, Zeitmarken, Quelle und Einbettbarkeit noch zu prüfen.",
+        "Nutzungsrechte von Video und Transkript offen. Keine fachliche Freigabe. Die Quellen- und Prüfbehauptungen der Gemini-Ausgabe sind nicht unabhängig bestätigt.",
+        "Gemini nennt 10:46 Minuten Videolänge; Übungszeit vorläufig auf 20 Minuten gesetzt. Rohtext mit mutmaßlichen Erkennungsfehlern: travel facebook/phrasebook; france/Friends; now/no geniuses; space/spaced repetition; memorize/Memrise. Nicht stillschweigend als geprüft korrigiert."
+      ],
+      "sources": [
+        {
+          "kind": "external",
+          "citation": "TED - The secrets of learning a new language | Lýdia Machová · Quellenangabe aus Gemini, ungeprüft.",
+          "url": "https://www.youtube.com/watch?v=o_XVt5rdpFY",
+          "rights": "needs_review"
+        }
+      ],
+      "questions": 10,
+      "questionTypes": [
+        "short_answer",
+        "single_choice",
+        "true_false"
+      ],
+      "transcriptCharacters": 11158,
+      "vocabularyEntries": 0
+    },
+    {
+      "id": "it-b1-vivere-a-cuba",
+      "title": "Vivere a Cuba oggi",
+      "schemaVersion": "1.0",
+      "language": "it",
+      "level": "B1",
+      "media": {
+        "type": "youtube",
+        "videoId": "zUOcVqQ5WQI"
+      },
+      "reviewNotes": [
+        "In die private Arbeitsvorschau aufgenommen. Nicht unabhängig am Audio geprüft; Lösungen, Niveau, Zeitmarken, Quelle und Einbettbarkeit noch zu prüfen.",
+        "Nutzungsrechte von Video und Transkript offen. Keine fachliche Freigabe. Die Quellen- und Prüfbehauptungen der Gemini-Ausgabe sind nicht unabhängig bestätigt.",
+        "Vollständiges Transkript fehlt. Die vorherige Inhaltsbeschreibung wurde nicht als Mitschrift übernommen."
+      ],
+      "sources": [
+        {
+          "kind": "external",
+          "citation": "VD - Vivere a Cuba oggi · Quellenangabe aus Gemini, ungeprüft.",
+          "url": "https://www.youtube.com/watch?v=zUOcVqQ5WQI",
+          "rights": "needs_review"
+        }
+      ],
+      "questions": 2,
+      "questionTypes": [
+        "single_choice",
+        "true_false"
+      ],
+      "transcriptCharacters": 0,
+      "vocabularyEntries": 0
+    },
+    {
+      "id": "it-b2-cambiamenti-climatici",
+      "title": "I cambiamenti climatici e le risorse idriche",
+      "schemaVersion": "1.0",
+      "language": "it",
+      "level": "B2",
+      "media": {
+        "type": "youtube",
+        "videoId": "vSCE4ml9ti8"
+      },
+      "reviewNotes": [
+        "In die private Arbeitsvorschau aufgenommen. Nicht unabhängig am Audio geprüft; Lösungen, Niveau, Zeitmarken, Quelle und Einbettbarkeit noch zu prüfen.",
+        "Nutzungsrechte von Video und Transkript offen. Keine fachliche Freigabe. Die Quellen- und Prüfbehauptungen der Gemini-Ausgabe sind nicht unabhängig bestätigt.",
+        "Vollständiges Transkript fehlt. Die vorherige Inhaltsbeschreibung wurde nicht als Mitschrift übernommen."
+      ],
+      "sources": [
+        {
+          "kind": "external",
+          "citation": "Rai - Giulio Boccaletti e i cambiamenti climatici - Kilimangiaro · Quellenangabe aus Gemini, ungeprüft.",
+          "url": "https://www.youtube.com/watch?v=vSCE4ml9ti8",
+          "rights": "needs_review"
+        }
+      ],
+      "questions": 2,
+      "questionTypes": [
+        "single_choice",
+        "true_false"
+      ],
+      "transcriptCharacters": 0,
+      "vocabularyEntries": 0
+    },
+    {
+      "id": "it-b1-ritorno-a-scuola",
+      "title": "Ritorno a scuola dopo la tragedia",
+      "schemaVersion": "1.0",
+      "language": "it",
+      "level": "B1",
+      "media": {
+        "type": "youtube",
+        "videoId": "G9sK8oyPGUM"
+      },
+      "reviewNotes": [
+        "In die private Arbeitsvorschau aufgenommen. Nicht unabhängig am Audio geprüft; Lösungen, Niveau, Zeitmarken, Quelle und Einbettbarkeit noch zu prüfen.",
+        "Nutzungsrechte von Video und Transkript offen. Keine fachliche Freigabe. Die Quellen- und Prüfbehauptungen der Gemini-Ausgabe sind nicht unabhängig bestätigt.",
+        "Vollständiges Transkript fehlt. Die vorherige Inhaltsbeschreibung wurde nicht als Mitschrift übernommen."
+      ],
+      "sources": [
+        {
+          "kind": "external",
+          "citation": "Rai - Crans Montana, ritorno a scuola di tre studenti sopravvissuti · Quellenangabe aus Gemini, ungeprüft.",
+          "url": "https://www.youtube.com/watch?v=G9sK8oyPGUM",
+          "rights": "needs_review"
+        }
+      ],
+      "questions": 2,
+      "questionTypes": [
+        "single_choice",
+        "true_false"
+      ],
+      "transcriptCharacters": 0,
+      "vocabularyEntries": 0
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "format": "theis-learning-package",
+  "schemaVersion": "1.0",
+  "kind": "listening",
+  "id": "it-a2-roma-citta",
+  "title": "Una passeggiata tra i monumenti",
+  "language": "it",
+  "level": "B1",
+  "description": "Un percorso tra alcuni monumenti di Roma. Ausschnitt laut Gemini 00:00–01:45; Wiedergabe derzeit manuell eingrenzen.",
+  "topics": [
+    "roma",
+    "viaggi",
+    "città"
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 7,
+  "media": {
+    "type": "youtube",
+    "videoId": "FaS5AIuXw_E"
+  },
+  "transcript": "[00:02] La monumentale scalinata di Trinità dei Monti, con i suoi 135 gradini, collega una delle piazze principali di Roma, Piazza di Spagna, con la chiesa francescana di Trinità dei Monti.\n[00:35] Dall'alto della chiesa di Trinità dei Monti si possono ammirare le affollate vie centrali della città, le fontane di Piazza di Spagna, le numerose cupole, i tetti e gli alti balconi.\n[00:53] Uno dei simboli di Roma: la settecentesca Fontana di Trevi, che unisce classicismo e barocco, è stata recentemente restaurata.\n[01:10] La leggenda dice che se un turista lancia una moneta voltato di spalle, ritornerà di sicuro a visitare la città eterna.\n[01:22] Il più bel resto dell'antichità romana è il Pantheon.\n[01:39] Piazza Navona è una delle più celebri piazze della città.",
+  "sources": [
+    {
+      "kind": "external",
+      "citation": "Loescher Editore video - Roma · Anbieterangabe aus Gemini, nicht unabhängig verifiziert. Mitschrift laut Gemini aus YouTube-Untertiteln; bei Clip 5 behaupteter direkter Medienzugriff. Keine eigene Audioverifikation.",
+      "url": "https://www.youtube.com/watch?v=FaS5AIuXw_E",
+      "rights": "needs_review"
+    }
+  ],
+  "reviewNotes": [
+    "Entwurf für die private Redaktionsvorschau. Transkript, Zeitmarken, Sprecherbezug und jede Lösung sind noch am Originalmedium zu prüfen.",
+    "Nutzungsrechte von Medium und Transkript sowie Originalanbieter und Einbettbarkeit offen. Keine Freigabe.",
+    "Niveau redaktionell vorläufig eingeschätzt; Übungsdauer geschätzt, keine gemessene Videodauer.",
+    "Ausschnitt laut Gemini; der YouTube-Player begrenzt Beginn und Ende derzeit nicht automatisch. Bitte Zeitbereich selbst ansteuern."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "prompt": "Che tipo di percorso presenta il testo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un giro tra monumenti e piazze."
+        },
+        {
+          "id": "b",
+          "text": "Una visita a negozi di abbigliamento."
+        },
+        {
+          "id": "c",
+          "text": "Un viaggio in treno fuori città."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Der übermittelte Text beschreibt mehrere Denkmäler und Plätze. Audioabgleich offen."
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "prompt": "Quanti gradini ha la scalinata descritta?",
+      "acceptedAnswers": [
+        "135",
+        "centotrentacinque",
+        "135 gradini",
+        "centotrentacinque gradini"
+      ],
+      "modelAnswer": "135",
+      "explanation": "Bei 00:02 laut Gemini werden 135 Stufen genannt. Audioabgleich offen."
+    },
+    {
+      "id": "q3",
+      "type": "true_false",
+      "prompt": "Secondo la leggenda, chi lancia una moneta nella fontana tornerà a Roma.",
+      "answer": true,
+      "explanation": "Bei 01:10 laut Gemini wird die Rückkehrlegende erklärt. Audioabgleich offen."
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "prompt": "Quale monumento antico viene nominato dopo la Fontana di Trevi?",
+      "acceptedAnswers": [
+        "il Pantheon",
+        "Pantheon"
+      ],
+      "modelAnswer": "il Pantheon",
+      "explanation": "Bei 01:22 laut Gemini folgt der Pantheon. Audioabgleich offen."
+    },
+    {
+      "type": "short_answer",
+      "prompt": "Quale piazza collega la scalinata alla chiesa di Trinità dei Monti?",
+      "acceptedAnswers": [
+        "Piazza di Spagna",
+        "la Piazza di Spagna",
+        "piazza Spagna"
+      ],
+      "modelAnswer": "Piazza di Spagna",
+      "explanation": "Der übermittelte Text nennt Piazza di Spagna. Audioabgleich offen.",
+      "id": "q5"
+    },
+    {
+      "type": "true_false",
+      "prompt": "Secondo la leggenda, il turista lancia la moneta guardando direttamente la fontana.",
+      "answer": false,
+      "explanation": "Im Text wird die Münze mit dem Rücken zur Fontana di Trevi geworfen. Audioabgleich offen.",
+      "id": "q6"
+    }
+  ]
+}

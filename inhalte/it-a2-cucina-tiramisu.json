@@ -1,0 +1,140 @@
+{
+  "format": "theis-learning-package",
+  "schemaVersion": "1.0",
+  "kind": "listening",
+  "id": "it-a2-cucina-tiramisu",
+  "title": "La spesa per il tiramisù",
+  "language": "it",
+  "level": "A2",
+  "description": "Zwei Personen planen ein Abendessen und kaufen die passenden Zutaten im Geschäft ein.",
+  "topics": [
+    "cucina",
+    "alimentazione",
+    "acquisti"
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 7,
+  "media": {
+    "type": "youtube",
+    "videoId": "pW8Fuo1Oh-g"
+  },
+  "transcript": "[00:07] In quanti siamo a cena?\n[00:09] Tu, io, Roberto, Marta e due amici di Roberto. Siamo in sei.\n[00:17] Cosa facciamo?\n[00:19] Antipasto, primo, secondo, dolce, una tipica cena italiana.\n[00:23] No, dai, quello che abbiamo deciso ieri: un piatto principale, un dolce. Entriamo.\n[00:35] Buongiorno. Buongiorno, cosa desiderate?\n[00:38] Vorremmo un chilo di farina, una scatola di pomodori e due mozzarelle,\n[00:48] anche un po' di lievito\n[00:53] e una bottiglia da mezzo litro di olio.\n[01:01] Vi occorre altro?\n[01:03] Sì, vorrei 6 uova e un chilo di zucchero,\n[01:12] poi un pacchetto di caffè, un po' di mascarpone.\n[01:23] Quanto mascarpone volete? Mezzo chilo per favore.\n[01:29] Nient'altro?\n[01:30] No grazie e basta così. Aspettate, abbiamo bisogno anche di un pacchetto di biscotti.\n[01:38] Quali volete? Vi piacciono questi biscotti? Vanno bene per il tiramisù?\n[01:39] Meglio questi, sono più spugnosi. Ah, anche un litro di latte per favore.\n[01:50] Quante sono? [Wortlaut unsicher] 23 euro e 15 centesimi in tutto.\n[01:59] Ecco 50 euro. Benissimo.\n[02:05] Ecco il resto, sono 26 euro e 85 centesimi. Grazie. Grazie a lei.\n[02:22] Arrivederci. Arrivederci. Buona giornata.",
+  "sources": [
+    {
+      "kind": "external",
+      "citation": "Loescher Editore video - Italiano per stranieri - Ti piace la cucina italiana? · Anbieterangabe aus Gemini, nicht unabhängig verifiziert. Mitschrift laut Gemini aus YouTube-Untertiteln; bei Clip 5 behaupteter direkter Medienzugriff. Keine eigene Audioverifikation.",
+      "url": "https://www.youtube.com/watch?v=pW8Fuo1Oh-g",
+      "rights": "needs_review"
+    }
+  ],
+  "reviewNotes": [
+    "Entwurf für die private Redaktionsvorschau. Transkript, Zeitmarken, Sprecherbezug und jede Lösung sind noch am Originalmedium zu prüfen.",
+    "Nutzungsrechte von Medium und Transkript sowie Originalanbieter und Einbettbarkeit offen. Keine Freigabe.",
+    "Niveau redaktionell vorläufig eingeschätzt; Übungsdauer geschätzt, keine gemessene Videodauer.",
+    "Transkriptstelle „Quante sono?“ prüfen; keine stille Korrektur. Laut Gemini wechselnde manuelle und automatische Untertitel, genaue Herkunft offen."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "prompt": "Che cosa vogliono preparare i protagonisti per cena?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Una pizza e una bibita."
+        },
+        {
+          "id": "b",
+          "text": "Un piatto principale e un dolce."
+        },
+        {
+          "id": "c",
+          "text": "Solo un antipasto veloce."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Im Gespräch wird vereinbart: „un piatto principale e un dolce“. Grundlage: übermittelte Mitschrift; Audioabgleich offen."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "prompt": "Le persone a cena sono in sei in totale.",
+      "answer": true,
+      "explanation": "Es wird aufgezählt: Du, ich, Roberto, Marta und zwei Freunde, also insgesamt sechs Personen. Grundlage: übermittelte Mitschrift; Audioabgleich offen."
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "prompt": "Quanto mascarpone comprano i ragazzi?",
+      "acceptedAnswers": [
+        "mezzo chilo",
+        "mezzo chilo per favore",
+        "un mezzo chilo",
+        "500 grammi",
+        "cinquecento grammi",
+        "mezzo chilo di mascarpone",
+        "500 g",
+        "0,5 kg",
+        "0.5 kg"
+      ],
+      "modelAnswer": "mezzo chilo",
+      "explanation": "Auf die Frage der Verkäuferin antworten sie: „Mezzo chilo per favore“. Grundlage: übermittelte Mitschrift; Audioabgleich offen."
+    },
+    {
+      "type": "short_answer",
+      "prompt": "Quante uova comprano?",
+      "acceptedAnswers": [
+        "sei",
+        "6",
+        "sei uova",
+        "6 uova"
+      ],
+      "modelAnswer": "sei",
+      "explanation": "In der übermittelten Mitschrift werden sechs Eier bestellt. Audioabgleich offen.",
+      "id": "q4"
+    },
+    {
+      "type": "true_false",
+      "prompt": "I primi biscotti proposti vanno bene per il tiramisù.",
+      "answer": false,
+      "explanation": "Laut Mitschrift wird stattdessen eine andere, saugfähigere Sorte empfohlen. Audioabgleich offen.",
+      "id": "q5"
+    },
+    {
+      "type": "single_choice",
+      "prompt": "Con quale banconota pagano?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Con una banconota da 20 euro."
+        },
+        {
+          "id": "b",
+          "text": "Con una banconota da 100 euro."
+        },
+        {
+          "id": "c",
+          "text": "Con una banconota da 50 euro."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Im übermittelten Text heißt es „Ecco 50 euro“. Audioabgleich offen.",
+      "id": "q6"
+    },
+    {
+      "type": "short_answer",
+      "prompt": "Quanto costa la spesa in tutto?",
+      "acceptedAnswers": [
+        "23 euro e 15 centesimi",
+        "23,15",
+        "23.15",
+        "23,15 euro",
+        "23.15 euro",
+        "ventitré euro e quindici centesimi"
+      ],
+      "modelAnswer": "23 euro e 15 centesimi",
+      "explanation": "Der Gesamtbetrag wird mit 23 Euro und 15 Cent angegeben. Audioabgleich offen.",
+      "id": "q7"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "format": "theis-learning-package",
+  "schemaVersion": "1.0",
+  "kind": "listening",
+  "language": "it",
+  "level": "A1",
+  "estimatedMinutes": 5,
+  "sources": [
+    {
+      "kind": "own",
+      "citation": "Eigener Übungstext für die ripassà-Vorschau. Synthetische Wiedergabe durch die Browser-Sprachausgabe; keine authentische Aufnahme.",
+      "rights": "own"
+    }
+  ],
+  "reviewNotes": [
+    "Niveau ist eine redaktionelle Einschätzung. Browserstimmen unterscheiden sich nach Gerät."
+  ],
+  "vocabularyIds": [],
+  "id": "it-gelateria-demo",
+  "title": "Due gusti, per favore",
+  "description": "Was wird bestellt? Eine kurze Alltagssituation rund um eine gelateria.",
+  "cover": "gelato",
+  "topics": [
+    "cibo",
+    "acquisti"
+  ],
+  "media": {
+    "type": "speech",
+    "text": "Buongiorno! Vorrei un gelato piccolo con due gusti: fragola e cioccolato. Per mia sorella, invece, una coppetta al limone. Non vuole il cono. Quanto costa tutto? Sono cinque euro. Ecco dieci euro. Grazie, ecco il resto. Arrivederci!"
+  },
+  "transcript": "Buongiorno! Vorrei un gelato piccolo con due gusti: fragola e cioccolato. Per mia sorella, invece, una coppetta al limone. Non vuole il cono. Quanto costa tutto? Sono cinque euro. Ecco dieci euro. Grazie, ecco il resto. Arrivederci!",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "prompt": "Quanti gusti vuole la prima persona?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Uno"
+        },
+        {
+          "id": "b",
+          "text": "Due"
+        },
+        {
+          "id": "c",
+          "text": "Tre"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Chiede un gelato piccolo con due gusti."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "prompt": "La sorella vuole un cono.",
+      "answer": false,
+      "explanation": "La sorella vuole una coppetta e non il cono."
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "prompt": "Quanto costa tutto?",
+      "acceptedAnswers": [
+        "cinque euro",
+        "5 euro",
+        "cinque",
+        "5"
+      ],
+      "modelAnswer": "cinque euro",
+      "explanation": "Il totale indicato è di cinque euro."
+    }
+  ]
+}

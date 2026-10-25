@@ -1,0 +1,86 @@
+{
+  "format": "theis-learning-package",
+  "schemaVersion": "1.0",
+  "kind": "listening",
+  "id": "it-a2-weekend-scena-tre",
+  "title": "Un fine settimana in compagnia",
+  "language": "it",
+  "level": "A2",
+  "description": "Una persona racconta il proprio fine settimana. Solo scena 3, da 00:58 a 01:18 secondo i dati forniti; il lettore mostra il video intero.",
+  "topics": [
+    "vita quotidiana",
+    "tempo libero"
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 4,
+  "media": {
+    "type": "youtube",
+    "videoId": "oLfYx4cgTMg"
+  },
+  "transcript": "[00:58] Come trascorre il fine settimana?\n[01:03] Frequento le amiche, usciamo insieme a cena, chiacchieriamo, beviamo del buon vino e ci divertiamo così. E poi, quando ho tempo, faccio anche un po' di sport:\n[01:14] corro e vado in bicicletta.",
+  "sources": [
+    {
+      "kind": "external",
+      "citation": "YouTube-Originalvideo; Anbieter und Nutzungsrechte noch zu verifizieren. Transkript aus nutzerseitig übermittelter Gemini-Ausgabe; laut Gemini automatische YouTube-Untertitel. Kein unabhängiger Audioabgleich.",
+      "url": "https://www.youtube.com/watch?v=oLfYx4cgTMg",
+      "rights": "needs_review"
+    }
+  ],
+  "reviewNotes": [
+    "Redaktioneller Entwurf. Nicht am Audio geprüft. Transkript, Aufgabenlösungen, Zeitmarken, Medienlänge und Sprecherwechsel vor Freigabe überprüfen.",
+    "GER A2 ist eine redaktionell noch zu prüfende Einschätzung. estimatedMinutes ist geschätzte Übungsdauer, keine gemessene Videolänge.",
+    "Nutzungsrechte von Video und Transkript sowie Originalanbieter und Einbettbarkeit offen. needs_review verhindert die lokale Freigabe.",
+    "Ausschnittsangaben stammen aus Gemini. Der aktuelle Player begrenzt den YouTube-Ausschnitt nicht automatisch."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "prompt": "Come passa il fine settimana la persona che risponde?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Studia sempre da sola."
+        },
+        {
+          "id": "b",
+          "text": "Lavora in un ristorante."
+        },
+        {
+          "id": "c",
+          "text": "Esce con le amiche e, se ha tempo, fa sport."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Die übermittelte Mitschrift nennt Freundinnen und Sport bei verfügbarer Zeit. Am Audio prüfen."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "prompt": "Con le amiche esce a cena.",
+      "answer": true,
+      "explanation": "Die übermittelte Mitschrift enthält „usciamo insieme a cena“. Am Audio prüfen."
+    },
+    {
+      "id": "q3",
+      "type": "single_choice",
+      "prompt": "Quali attività sportive vengono nominate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nuoto e tennis."
+        },
+        {
+          "id": "b",
+          "text": "Corsa e bicicletta."
+        },
+        {
+          "id": "c",
+          "text": "Calcio e pallavolo."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Die übermittelte Mitschrift enthält „corro e vado in bicicletta“. Am Audio prüfen."
+    }
+  ]
+}

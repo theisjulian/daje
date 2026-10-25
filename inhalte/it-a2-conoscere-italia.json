@@ -1,0 +1,120 @@
+{
+  "format": "theis-learning-package",
+  "schemaVersion": "1.0",
+  "kind": "listening",
+  "id": "it-a2-conoscere-italia",
+  "title": "Città e luoghi da conoscere",
+  "language": "it",
+  "level": "B1",
+  "description": "Interviste su città e luoghi italiani. Ausschnitt laut Gemini 00:00–01:30; Wiedergabe derzeit manuell eingrenzen.",
+  "topics": [
+    "italia",
+    "viaggi",
+    "biografia"
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 5,
+  "media": {
+    "type": "youtube",
+    "videoId": "dK9KAT5BDBM"
+  },
+  "transcript": "[00:04] Quali sono secondo te le città più famose d'Italia all'estero? Beh, Roma, Venezia, Milano e Napoli credo, e anche Firenze.\n[00:12] Io, che sono una che gira parecchio all'estero, mi dicono sempre che le due città principali sono Venezia e Roma.\n[00:18] Però vedo che adesso sta cominciando a prendere piede anche la zona di Napoli e Pompei, e anche Torino a seguito delle Olimpiadi invernali.\n[00:30] Portofino. Sicuramente sì, Portofino, qualcosa in Toscana... tipo, vabbè, la Toscana la pianti [Wortlaut unsicher], sì, Siena.\n[00:42] E poi, secondo me, non è così, poi qualcosa della Sicilia... Ah, no, anche un po'... no, la Puglia, dov'è? La Casa [Wortlaut unsicher], Ostuni, Alberobello.\n[00:48] Io amo la parte amalfitana, dove c'è Amalfi, Positano, è veramente bella, tutte le spiagge con i sassi.\n[01:00] Sì, è una graziosa città ad esempio Udine, Verona, Parma.\n[01:08] Per gli studenti magari in Umbria, Perugia, Urbino, queste città dell'Italia centrale, i piccoli centri.\n[01:21] Si va in Umbria, in Toscana, in queste regioni un po' belle dove si mangia bene, ci sono questa storia bella, i paesaggi.\n[01:26] Quindi da Gubbio, la zona intorno al Lago Trasimeno...\n[01:30] Siena, Volterra, San Gimignano.",
+  "sources": [
+    {
+      "kind": "external",
+      "citation": "Loescher Editore video - Cosa conosci dell'Italia? · Anbieterangabe aus Gemini, nicht unabhängig verifiziert. Mitschrift laut Gemini aus YouTube-Untertiteln; bei Clip 5 behaupteter direkter Medienzugriff. Keine eigene Audioverifikation.",
+      "url": "https://www.youtube.com/watch?v=dK9KAT5BDBM",
+      "rights": "needs_review"
+    }
+  ],
+  "reviewNotes": [
+    "Entwurf für die private Redaktionsvorschau. Transkript, Zeitmarken, Sprecherbezug und jede Lösung sind noch am Originalmedium zu prüfen.",
+    "Nutzungsrechte von Medium und Transkript sowie Originalanbieter und Einbettbarkeit offen. Keine Freigabe.",
+    "Niveau redaktionell vorläufig eingeschätzt; Übungsdauer geschätzt, keine gemessene Videodauer.",
+    "Ausschnitt laut Gemini; der YouTube-Player begrenzt Beginn und Ende derzeit nicht automatisch. Bitte Zeitbereich selbst ansteuern."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "prompt": "Di che cosa parlano soprattutto le persone?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Di città e luoghi italiani conosciuti o consigliati."
+        },
+        {
+          "id": "b",
+          "text": "Di come trovare un lavoro."
+        },
+        {
+          "id": "c",
+          "text": "Di come preparare una cena."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Der übermittelte Text nennt bekannte Städte und Reiseziele. Audioabgleich offen."
+    },
+    {
+      "id": "q2",
+      "type": "single_choice",
+      "prompt": "Quali due città vengono indicate come principali all’estero?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Torino e Genova."
+        },
+        {
+          "id": "b",
+          "text": "Venezia e Roma."
+        },
+        {
+          "id": "c",
+          "text": "Bologna e Palermo."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bei 00:12 laut Gemini: „le due città principali sono Venezia e Roma“. Audioabgleich offen."
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "prompt": "Quale evento viene collegato alla notorietà di Torino?",
+      "acceptedAnswers": [
+        "le Olimpiadi invernali",
+        "Olimpiadi invernali",
+        "i Giochi olimpici invernali"
+      ],
+      "modelAnswer": "le Olimpiadi invernali",
+      "explanation": "Bei 00:18 laut Gemini werden die Olympischen Winterspiele genannt. Audioabgleich offen."
+    },
+    {
+      "type": "single_choice",
+      "prompt": "Quale zona dice di amare una delle persone intervistate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "La costa amalfitana."
+        },
+        {
+          "id": "b",
+          "text": "Le Dolomiti."
+        },
+        {
+          "id": "c",
+          "text": "La pianura padana."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "In der übermittelten Mitschrift wird die Gegend um Amalfi und Positano genannt. Audioabgleich offen.",
+      "id": "q4"
+    },
+    {
+      "type": "true_false",
+      "prompt": "Le persone parlano soltanto di grandi città, senza citare piccoli centri.",
+      "answer": false,
+      "explanation": "Im Text werden auch kleinere Orte wie Gubbio und Orte der Toskana genannt. Audioabgleich offen.",
+      "id": "q5"
+    }
+  ]
+}

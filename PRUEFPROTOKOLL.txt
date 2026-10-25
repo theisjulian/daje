@@ -1,0 +1,14 @@
+Prüfung des exportierten Quellstands am 25. Oktober 2026
+
+Alle Originaldateien entsprechen dem dokumentierten Quellstand.
+Import contracts, invalid references, duplicate IDs, unsafe media, field stripping and correction passed.
+Schema 1.1 imports linked vocabulary atomically and rejects duplicates, empty translations, legacy mixed payloads and excess entries.
+Article policies, gender hints, accent differences and conservative typo hints passed.
+Progress migration, validated imports, isolation, reload and daily counts passed.
+Portal backups preserve favourites, notes and answers while rejecting invalid records.
+18 Seedpakete und 14 lokale YouTube-Bilder vorhanden; alle Seedpakete strukturell gültig.
+Quellstand, JavaScript-Syntax, Tests und Inhaltsinventar erfolgreich geprüft.
+
+Kein neues Deployment, kein GitHub-Push und keine Supabase-Änderung.
+Keine erneute vollständige Browserprüfung in diesem Export.
+Musterbasierte Prüfung auf bekannte private Schlüssel und Tokenformate ohne Treffer; kein umfassendes externes Sicherheitsaudit.

@@ -1,0 +1,104 @@
+{
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-beispiel-u2a",
+  "title": "Beispiel · Unità 2 · 2a",
+  "language": "it",
+  "translationLanguage": "de",
+  "level": "A1",
+  "description": "Eigene kleine Beispielliste zum Testen des Imports.",
+  "topics": [
+    "città"
+  ],
+  "collection": "Beispiel-Lehrwerk (Beispielverlag, 2021)",
+  "section": "Unità 2 · 2a",
+  "cover": "torino",
+  "sources": [
+    {
+      "kind": "own",
+      "citation": "Eigene Beispielsammlung für den Importtest. Kein Auszug aus einem Lehrwerk.",
+      "rights": "own"
+    }
+  ],
+  "reviewNotes": [],
+  "entries": [
+    {
+      "id": "demo-citta-1",
+      "target": "la strada",
+      "translations": [
+        "die Straße"
+      ],
+      "acceptedAnswers": [],
+      "example": "La strada è lunga.",
+      "definition": "Qui passano le persone e le macchine.",
+      "grammar": {
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "article": "la"
+      },
+      "answerPolicy": {
+        "article": "required",
+        "typo": "hint"
+      }
+    },
+    {
+      "id": "demo-citta-2",
+      "target": "la stazione",
+      "translations": [
+        "der Bahnhof"
+      ],
+      "example": "La stazione è in centro.",
+      "definition": "Qui prendi il treno.",
+      "grammar": {
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "article": "la"
+      },
+      "answerPolicy": {
+        "article": "required",
+        "typo": "hint"
+      }
+    },
+    {
+      "id": "demo-citta-3",
+      "target": "il biglietto",
+      "translations": [
+        "die Fahrkarte",
+        "das Ticket"
+      ],
+      "example": "Compro un biglietto.",
+      "definition": "Ti serve per prendere il treno.",
+      "grammar": {
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "article": "il"
+      },
+      "answerPolicy": {
+        "article": "required",
+        "typo": "hint"
+      }
+    }
+  ],
+  "catalog": {
+    "origin": "textbook",
+    "textbook": {
+      "publisher": "Beispielverlag",
+      "series": "Beispielreihe",
+      "volume": "1",
+      "edition": "2021",
+      "unit": "Unità 2",
+      "section": "2a",
+      "pages": "34-35"
+    },
+    "grade": 7,
+    "foreignLanguageNo": 2,
+    "cefr": "A1",
+    "themes": [
+      "Stadt"
+    ],
+    "tags": [
+      "lehrwerk"
+    ]
+  }
+}

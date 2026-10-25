@@ -1,0 +1,77 @@
+{
+  "format": "theis-learning-package",
+  "schemaVersion": "1.0",
+  "kind": "listening",
+  "id": "en-voa-welcome",
+  "title": "Nice to meet you, Anna",
+  "language": "en",
+  "level": "A1",
+  "description": "Ein kurzer Lerndialog mit echten Stimmen: Anna trifft Pete vor ihrer neuen Wohnung.",
+  "estimatedMinutes": 4,
+  "topics": [
+    "introductions",
+    "spelling"
+  ],
+  "cover": "wave",
+  "media": {
+    "type": "audio",
+    "url": "https://voa-audio.voanews.eu/vle/2016/02/08/49485bf8-4277-47f6-9abe-617ee2473f8c.mp3"
+  },
+  "localMedia": "assets/voa-welcome.mp3",
+  "transcript": "Pete: Hi! Are you Anna?\nAnna: Yes! Hi there! Are you Pete?\nPete: I am Pete.\nAnna: Nice to meet you.\nAnna: Let’s try that again. I’m Anna. Nice to meet you.\nPete: I’m Pete. “Anna” Is that A-N-A?\nAnna: No. A-N-N-A.\nPete: Well, Anna with two “n’s” ... Welcome to ... 1400 Irving Street!\nAnna: My new apartment! Yes!",
+  "vocabularyIds": [],
+  "sources": [
+    {
+      "kind": "external",
+      "citation": "VOA Learning English, Let’s Learn English Level 1, Lesson 1 Welcome, Conversation, 8. Februar 2016. Unveränderte Original-MP3, ca. 29 Sekunden. VOA nennt ausschließlich selbst produzierte Text-, Audio- und Videoinhalte Public Domain. Quellencredit: Voice of America / learningenglish.voanews.com. Aufgaben von Theis.",
+      "url": "https://learningenglish.voanews.com/a/lets-learn-english-lesson-one/3111026.html",
+      "rights": "cleared"
+    }
+  ],
+  "reviewNotes": [
+    "Didaktisierter Lerndialog, kein spontanes Alltagsgespräch. A1 ist eine redaktionelle Einschätzung. Die Quelle nennt den Kurs Level 1.",
+    "Nutzungsbedingungen: https://learningenglish.voanews.com/p/6021.html"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "prompt": "Who does Anna meet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pete"
+        },
+        {
+          "id": "b",
+          "text": "Paul"
+        },
+        {
+          "id": "c",
+          "text": "Alex"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The man introduces himself as Pete."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "prompt": "Anna spells her name with two n’s.",
+      "answer": true,
+      "explanation": "Anna spells her name A-N-N-A."
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "prompt": "What is the house number?",
+      "acceptedAnswers": [
+        "1400",
+        "fourteen hundred",
+        "one thousand four hundred"
+      ],
+      "modelAnswer": "1400",
+      "explanation": "Pete welcomes Anna to 1400 Irving Street."
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "format": "theis-learning-package",
+  "schemaVersion": "1.0",
+  "kind": "listening",
+  "id": "en-b1-carbon-footprint",
+  "title": "Your Carbon Footprint Explained",
+  "language": "en",
+  "level": "B1",
+  "description": "Ein anschaulicher BBC-Erklärbeitrag zu den Ursachen des CO2-Fußabdrucks und Möglichkeiten zur Reduzierung im Alltag.",
+  "topics": [
+    "environment",
+    "climate_change",
+    "lifestyle"
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 7,
+  "media": {
+    "type": "youtube",
+    "videoId": "a9yO-K8mwL0"
+  },
+  "transcript": "[00:00:00] you know you should probably reduce it but what exactly is your carbon footprint\n[00:00:09] a carbon footprint refers to the total amount of greenhouse gases released into the earth's atmosphere as a result of the activities of an individual or an organization remember greenhouse gases trap heat inside the atmosphere and that's overheating the planet so if you want to work out your own carbon footprint you need to know the amount of greenhouse gases like carbon dioxide you're responsible for creating it's a difficult thing to measure precisely and there are different definitions about how best to calculate it but roughly speaking there's the direct impact of using energy when we travel or to power our homes and there's the indirect impact of the energy that's used to create all the things we use or consume in the developed world in particular transport is a big part of your carbon footprint cutting down on the use of petrol or diesel cars and taking fewer flights is one of the most effective ways of reducing it the place you live also contributes to your personal footprint it's important to make sure your home is heated or cooled efficiently and is well insulated the more you can use sustainable energy like solar or wind power the more you cut your emissions the stuff you use at home also adds to the problem all that plastic metal and cardboard takes a lot of energy to produce and dispose of so recycling can help reducing your carbon footprint but not as much as how you travel or heat and cool your home then there's your diet above all red meat makes your carbon footprint bigger because cows produce so much methane another greenhouse gas and huge numbers of trees are cut down to create pastures on which cattle can graze in the developing world polluting stoves are a real problem too so it's important to try to replace them with more efficient methods of cooking but overall people in poorer countries produce far smaller amounts of greenhouse gases than people in richer countries do so if you look at just what a country produces the average amount of carbon dioxide emissions per person in the united states is about 16.1 tonnes per year in china it's 7.1 tonnes and in the uk it's about 5.5 tonnes but in the democratic republic of congo it's only naught point nought three tonnes while in qatar which has a really small population but produces so much oil and gas it's 38.6 tonnes now that's just production it doesn't take account of all the other things we've talked about how much you consume but obviously the more money you have the more you tend to consume so if people in richer countries really want to reduce their carbon footprint they need to make huge changes in their lifestyles it can be done and new technologies to make things greener are coming on stream all the time but it is a reminder that the declared aim in many countries of going carbon neutral by the middle of this century means a revolution in the way we live",
+  "sources": [
+    {
+      "kind": "external",
+      "citation": "BBC News - Climate Change: Your carbon footprint explained · Quellenangabe aus Gemini, ungeprüft.",
+      "url": "https://www.youtube.com/watch?v=a9yO-K8mwL0",
+      "rights": "needs_review"
+    }
+  ],
+  "reviewNotes": [
+    "In die private Arbeitsvorschau aufgenommen. Nicht unabhängig am Audio geprüft; Lösungen, Niveau, Zeitmarken, Quelle und Einbettbarkeit noch zu prüfen.",
+    "Nutzungsrechte von Video und Transkript offen. Keine fachliche Freigabe. Die Quellen- und Prüfbehauptungen der Gemini-Ausgabe sind nicht unabhängig bestätigt."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "prompt": "What is a carbon footprint according to the video?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The total amount of greenhouse gases released by an individual or organization."
+        },
+        {
+          "id": "b",
+          "text": "The amount of electricity used by large factories overnight."
+        },
+        {
+          "id": "c",
+          "text": "The physical space a person takes up on earth."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Der Beitrag definiert den Begriff zu Beginn als die Gesamtemissionen von Treibhausgasen durch Aktivitäten. Redaktioneller Entwurf; Abgleich mit der Aufnahme offen."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "prompt": "Transport, such as driving petrol cars or taking flights, is a major part of a person's carbon footprint.",
+      "answer": true,
+      "explanation": "Im Beitrag wird genannt, dass der Verkehrsbereich und weniger Flüge eine der effektivsten Stellschrauben sind. Redaktioneller Entwurf; Abgleich mit der Aufnahme offen."
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "prompt": "Which specific type of meat is mentioned as having a particularly big impact on the carbon footprint?",
+      "acceptedAnswers": [
+        "red meat",
+        "Red meat"
+      ],
+      "modelAnswer": "red meat",
+      "explanation": "Der Beitrag hebt hervor, dass rotes Fleisch („red meat“) durch Methanemissionen der Kühe den Fußabdruck vergrößert. Redaktioneller Entwurf; Abgleich mit der Aufnahme offen."
+    },
+    {
+      "type": "single_choice",
+      "prompt": "What is an indirect contribution to a carbon footprint?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The energy used to manufacture things we buy."
+        },
+        {
+          "id": "b",
+          "text": "Only the fuel burned in our own car."
+        },
+        {
+          "id": "c",
+          "text": "Only the electricity recorded on our own meter."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The supplied text distinguishes energy used for products from direct energy use. Audioabgleich offen.",
+      "id": "q4"
+    },
+    {
+      "type": "true_false",
+      "prompt": "The video says recycling reduces emissions more than changing how we travel and heat our homes.",
+      "answer": false,
+      "explanation": "The supplied text gives transport and heating/cooling a greater impact than recycling. Audioabgleich offen.",
+      "id": "q5"
+    },
+    {
+      "type": "short_answer",
+      "prompt": "Which greenhouse gas do cows produce, according to the video?",
+      "acceptedAnswers": [
+        "methane"
+      ],
+      "modelAnswer": "methane",
+      "explanation": "The supplied text names methane. Audioabgleich offen.",
+      "id": "q6"
+    },
+    {
+      "type": "single_choice",
+      "prompt": "Why can per-person production figures give an incomplete picture?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They already include every imported product."
+        },
+        {
+          "id": "b",
+          "text": "They leave out the wider impact of what people consume."
+        },
+        {
+          "id": "c",
+          "text": "They count only the emissions from aircraft."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The supplied text distinguishes production figures from consumption. Audioabgleich offen.",
+      "id": "q7"
+    },
+    {
+      "type": "true_false",
+      "prompt": "The video presents carbon neutrality as a change that requires only minor adjustments to daily life.",
+      "answer": false,
+      "explanation": "The ending describes major changes to lifestyles. Audioabgleich offen.",
+      "id": "q8"
+    }
+  ]
+}

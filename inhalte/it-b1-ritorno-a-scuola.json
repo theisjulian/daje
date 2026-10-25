@@ -1,0 +1,65 @@
+{
+  "format": "theis-learning-package",
+  "schemaVersion": "1.0",
+  "kind": "listening",
+  "id": "it-b1-ritorno-a-scuola",
+  "title": "Ritorno a scuola dopo la tragedia",
+  "language": "it",
+  "level": "B1",
+  "description": "Ein Nachrichteneinblick der Rai über den schulischen Alltag und die Bewältigung von Krisensituationen aus Jugendsicht.",
+  "topics": [
+    "scuola",
+    "società",
+    "attualità"
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 3,
+  "media": {
+    "type": "youtube",
+    "videoId": "G9sK8oyPGUM"
+  },
+  "transcript": "",
+  "sources": [
+    {
+      "kind": "external",
+      "citation": "Rai - Crans Montana, ritorno a scuola di tre studenti sopravvissuti · Quellenangabe aus Gemini, ungeprüft.",
+      "url": "https://www.youtube.com/watch?v=G9sK8oyPGUM",
+      "rights": "needs_review"
+    }
+  ],
+  "reviewNotes": [
+    "In die private Arbeitsvorschau aufgenommen. Nicht unabhängig am Audio geprüft; Lösungen, Niveau, Zeitmarken, Quelle und Einbettbarkeit noch zu prüfen.",
+    "Nutzungsrechte von Video und Transkript offen. Keine fachliche Freigabe. Die Quellen- und Prüfbehauptungen der Gemini-Ausgabe sind nicht unabhängig bestätigt.",
+    "Vollständiges Transkript fehlt. Die vorherige Inhaltsbeschreibung wurde nicht als Mitschrift übernommen."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "prompt": "Qual è l'argomento centrale di questo servizio giornalistico?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il ritorno a scuola di alcuni studenti dopo una grave tragedia."
+        },
+        {
+          "id": "b",
+          "text": "L'inaugurazione di un nuovo istituto tecnico in montagna."
+        },
+        {
+          "id": "c",
+          "text": "Le nuove regole per le vacanze estive degli studenti."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Der Bericht behandelt die Rückkehr betroffener Schüler in den Schulalltag. Redaktioneller Entwurf; Abgleich mit der Aufnahme offen."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "prompt": "Il servizio si concentra sul contesto scolastico e giovanile.",
+      "answer": true,
+      "explanation": "Das Thema ist eng mit dem Schulleben und der Bewältigung von Krisen verknüpft. Redaktioneller Entwurf; Abgleich mit der Aufnahme offen."
+    }
+  ]
+}

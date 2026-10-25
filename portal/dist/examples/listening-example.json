@@ -1,0 +1,96 @@
+{
+  "format": "theis-learning-package",
+  "schemaVersion": "1.0",
+  "kind": "listening",
+  "language": "it",
+  "level": "A1",
+  "estimatedMinutes": 5,
+  "sources": [
+    {
+      "kind": "own",
+      "citation": "Eigener Übungstext für die ripassà-Vorschau. Synthetische Wiedergabe durch die Browser-Sprachausgabe; keine authentische Aufnahme.",
+      "rights": "own"
+    }
+  ],
+  "reviewNotes": [
+    "Niveau ist eine redaktionelle Einschätzung. Browserstimmen unterscheiden sich nach Gerät."
+  ],
+  "vocabularyIds": [],
+  "id": "it-torino-import-example",
+  "title": "Un pomeriggio a Torino",
+  "description": "Ein Treffpunkt, ein kleiner Umweg und ein Eis. Hör genau hin, was Sofia und Luca vorhaben.",
+  "cover": "torino",
+  "topics": [
+    "città",
+    "tempo libero"
+  ],
+  "media": {
+    "type": "speech",
+    "text": "Ciao, sono Sofia e abito a Torino. Oggi incontro il mio amico Luca in centro. Ci vediamo alle quattro in Piazza Castello. Prima andiamo in gelateria. Io prendo un gelato al limone e Luca un gelato al cioccolato. Poi andiamo al parco, vicino al fiume. Non prendiamo l’autobus: andiamo a piedi. Torno a casa alle sei."
+  },
+  "transcript": "Ciao, sono Sofia e abito a Torino. Oggi incontro il mio amico Luca in centro. Ci vediamo alle quattro in Piazza Castello. Prima andiamo in gelateria. Io prendo un gelato al limone e Luca un gelato al cioccolato. Poi andiamo al parco, vicino al fiume. Non prendiamo l’autobus: andiamo a piedi. Torno a casa alle sei.",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "prompt": "Dove si incontrano Sofia e Luca?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A scuola"
+        },
+        {
+          "id": "b",
+          "text": "In Piazza Castello"
+        },
+        {
+          "id": "c",
+          "text": "Alla stazione"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sofia dice: Ci vediamo alle quattro in Piazza Castello."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "prompt": "Luca prende un gelato al limone.",
+      "answer": false,
+      "explanation": "Sofia sceglie il limone; Luca sceglie il cioccolato."
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "prompt": "A che ora torna a casa Sofia?",
+      "acceptedAnswers": [
+        "alle sei",
+        "alle 18",
+        "alle 18:00",
+        "alle sei di sera"
+      ],
+      "modelAnswer": "alle sei",
+      "explanation": "Sofia conclude: Torno a casa alle sei."
+    },
+    {
+      "id": "q4",
+      "type": "single_choice",
+      "prompt": "Come vanno al parco?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A piedi"
+        },
+        {
+          "id": "b",
+          "text": "In autobus"
+        },
+        {
+          "id": "c",
+          "text": "In bicicletta"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Sofia dice che non prendono l’autobus e vanno a piedi."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "format": "theis-learning-package",
+  "schemaVersion": "1.0",
+  "kind": "listening",
+  "id": "it-a2-tempo-libero-cinema",
+  "title": "Una proposta per il pomeriggio",
+  "language": "it",
+  "level": "A2",
+  "description": "Un invito tra amici e un impegno da rispettare. Hörstrecke laut Gemini 00:10–01:26; der Player zeigt das ganze Video.",
+  "topics": [
+    "vita quotidiana",
+    "tempo libero"
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 5,
+  "media": {
+    "type": "youtube",
+    "videoId": "DFo5qBbF_TU"
+  },
+  "transcript": "Pronto? Ciao Paolo, sono Giulia. Ciao, come va? Bene, bene. Senti, vieni al cinema con noi oggi? Oggi? Noi chi? Siamo tutti noi: io, Alessia, Dino, e viene anche la nuova, Chiara. È simpatica, no? Sì, molto. Ma senti, che film è? L'ultimo con Orlando Bloom. Allora, vieni o no? A che ora comincia? Alle 6:00. Ahia! E quando finisce? Ma intorno alle 8:15. Perché? Non dirmi che hai allenamento anche oggi! Purtroppo sì. Ma come, non è anche oggi? Ormai lo sapete: sabato l'allenamento e domenica c'è la partita. Comunque io oggi finisco alle 7:30. Perché non andiamo al prossimo spettacolo alle 8:30? È tardi! Non puoi non andare per questa volta? Sì, per Orlando Bloom! Non per lui, per noi! Ma chi non va all'ultimo allenamento di solito non gioca alla partita! Dai, Giulia, un'altra volta. Scusa, sì. Va bene, ciao.",
+  "sources": [
+    {
+      "kind": "external",
+      "citation": "YouTube-Originalvideo; Anbieter und Nutzungsrechte noch zu verifizieren. Transkript aus nutzerseitig übermittelter Gemini-Ausgabe; laut Gemini automatische YouTube-Untertitel. Kein unabhängiger Audioabgleich.",
+      "url": "https://www.youtube.com/watch?v=DFo5qBbF_TU",
+      "rights": "needs_review"
+    }
+  ],
+  "reviewNotes": [
+    "Redaktioneller Entwurf. Nicht am Audio geprüft. Transkript, Aufgabenlösungen, Zeitmarken, Medienlänge und Sprecherwechsel vor Freigabe überprüfen.",
+    "GER A2 ist eine redaktionell noch zu prüfende Einschätzung. estimatedMinutes ist geschätzte Übungsdauer, keine gemessene Videolänge.",
+    "Nutzungsrechte von Video und Transkript sowie Originalanbieter und Einbettbarkeit offen. needs_review verhindert die lokale Freigabe.",
+    "Ausschnittsangaben stammen aus Gemini. Der aktuelle Player begrenzt den YouTube-Ausschnitt nicht automatisch."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "prompt": "Che cosa propone Giulia a Paolo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Andare al cinema con gli amici."
+        },
+        {
+          "id": "b",
+          "text": "Preparare insieme un esame."
+        },
+        {
+          "id": "c",
+          "text": "Guardare una partita alla televisione."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Die übermittelte Mitschrift enthält die Einladung „vieni al cinema con noi oggi?“. Am Audio prüfen. Audioabgleich offen."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "prompt": "Paolo ha un allenamento quel giorno.",
+      "answer": true,
+      "explanation": "Laut übermitteltem Text bestätigt Paolo das Training. Am Audio prüfen. Audioabgleich offen."
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "prompt": "Quale attore viene nominato?",
+      "acceptedAnswers": [
+        "Orlando Bloom"
+      ],
+      "modelAnswer": "Orlando Bloom",
+      "explanation": "Die übermittelte Mitschrift nennt Orlando Bloom. Am Audio prüfen. Audioabgleich offen."
+    },
+    {
+      "type": "short_answer",
+      "prompt": "A che ora comincia il primo spettacolo proposto?",
+      "acceptedAnswers": [
+        "alle sei",
+        "alle 18",
+        "alle 18:00",
+        "alle 6",
+        "18",
+        "18:00",
+        "6",
+        "sei"
+      ],
+      "modelAnswer": "alle sei",
+      "explanation": "Der erste Filmtermin wird mit sechs Uhr am Abend angegeben. Audioabgleich offen.",
+      "id": "q4"
+    },
+    {
+      "type": "single_choice",
+      "prompt": "Perché Paolo non vuole saltare l’ultimo allenamento?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Perché deve allenare gli amici."
+        },
+        {
+          "id": "b",
+          "text": "Perché altrimenti di solito non gioca la partita."
+        },
+        {
+          "id": "c",
+          "text": "Perché Giulia gli ha chiesto di allenarsi."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Laut Mitschrift spielt normalerweise nicht, wer das letzte Training auslässt. Audioabgleich offen.",
+      "id": "q5"
+    }
+  ]
+}

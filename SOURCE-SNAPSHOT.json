@@ -1,0 +1,285 @@
+{
+  "commit": "ae3a136a545a0263469f48a05a7298b3639dd11b",
+  "files": [
+    {
+      "path": "portal/.openai/hosting.json",
+      "bytes": 106,
+      "sha256": "fbb4006749566cb487730e220bc9ca4904ecff6db5414d26c44578f165657c4f"
+    },
+    {
+      "path": "portal/README.md",
+      "bytes": 15648,
+      "sha256": "4d6c63f4b3a4b94999b4726e21dd891966063801fe024dc2a9f387bb557176b2"
+    },
+    {
+      "path": "portal/dist/app.js",
+      "bytes": 27460,
+      "sha256": "0998bde54f014f00fe84bd2439d3a598c831d32be23d5d5ab50443675c86c5f7"
+    },
+    {
+      "path": "portal/dist/assets/OFL-Inter.txt",
+      "bytes": 4380,
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+    },
+    {
+      "path": "portal/dist/assets/OFL-Schibsted.txt",
+      "bytes": 4406,
+      "sha256": "3b4f3063b6ac7c1e403e2c4a5e8ef3a58190ff83ed7b15af66511858699139ce"
+    },
+    {
+      "path": "portal/dist/assets/gatto.jpg",
+      "bytes": 59044,
+      "sha256": "3a33f70cc3a7ecab2fc0baa7abce1ad01dfd208256988ca01b3dc8bb5e20141e"
+    },
+    {
+      "path": "portal/dist/assets/gelato.jpg",
+      "bytes": 15526,
+      "sha256": "03d952a3e8f298c105e6f86e2ea7b6e93d99733671b39a2b3bc5ef185b88aac9"
+    },
+    {
+      "path": "portal/dist/assets/inter.woff2",
+      "bytes": 72920,
+      "sha256": "2c295d99e26dcf357d4d01bcf270fd6924b600c9a13dd8c363ef114f4c6976fa"
+    },
+    {
+      "path": "portal/dist/assets/listening-cover.svg",
+      "bytes": 1015,
+      "sha256": "42a4c41029828a3f6769944e5d6f35df696a30319645baf7ced9377daa6ff3e5"
+    },
+    {
+      "path": "portal/dist/assets/ripassa-icon.png",
+      "bytes": 1665355,
+      "sha256": "a9698df6bf594f6e5096c20aecc0959c3a99d6f57886ca09388ef35e612fbeb9"
+    },
+    {
+      "path": "portal/dist/assets/sg-regular.woff2",
+      "bytes": 24344,
+      "sha256": "437cd97c802be9f10f60b4db8a723261e5c35dfe1529de0562981871028bd670"
+    },
+    {
+      "path": "portal/dist/assets/sg-semibold.woff2",
+      "bytes": 25180,
+      "sha256": "d00ac8735bf6b96cc4cfbfb22576c4168645547a264bd22d127c46519cab3250"
+    },
+    {
+      "path": "portal/dist/assets/studia-icon.png",
+      "bytes": 1671773,
+      "sha256": "95a235ef4c5d80adb2080edb6daab231da0a06d78448883f25167b6687272b75"
+    },
+    {
+      "path": "portal/dist/assets/theis.svg",
+      "bytes": 5624,
+      "sha256": "22871dc3a8730a5e1cd51c8ec3f3d4b90460412550bb4a570cad7e2eab2dcad5"
+    },
+    {
+      "path": "portal/dist/assets/torino.jpg",
+      "bytes": 384034,
+      "sha256": "81a78e17903f4ffa299b6aed10077a7bc915f6936c70949b2240e42d34259f57"
+    },
+    {
+      "path": "portal/dist/assets/voa-welcome.mp3",
+      "bytes": 236944,
+      "sha256": "f9bd90edddbb8736f64fb5cb3a34ab5a27aecd6e99510977e7b820caf47c5cf7"
+    },
+    {
+      "path": "portal/dist/assets/youtube--DpfIOInJfY.jpg",
+      "bytes": 12755,
+      "sha256": "7d1d2f6590668d8cf32366450006685c135b38da0d2057dedf55422aa2c008dd"
+    },
+    {
+      "path": "portal/dist/assets/youtube-91fi6egFsyA.jpg",
+      "bytes": 16951,
+      "sha256": "b906cc2a74443d27be4ab897004fbf0726b573abe1441b19a58892832f6c5fd3"
+    },
+    {
+      "path": "portal/dist/assets/youtube-DFo5qBbF_TU.jpg",
+      "bytes": 26046,
+      "sha256": "98d7a0130435c1941c96f2cb7de6cc5ed149247e82d32aa0754464828ba5dd38"
+    },
+    {
+      "path": "portal/dist/assets/youtube-DRzHA4LuFC0.jpg",
+      "bytes": 12971,
+      "sha256": "9102b8b3abfdfa7fd1e3403473c2aefbcc288328aca1360d4fdf308f988adde4"
+    },
+    {
+      "path": "portal/dist/assets/youtube-FaS5AIuXw_E.jpg",
+      "bytes": 17384,
+      "sha256": "b136df005cd50faba5e9c9f31841af1d3984c3b5cd08438a2ae31cdde03e508e"
+    },
+    {
+      "path": "portal/dist/assets/youtube-G9sK8oyPGUM.jpg",
+      "bytes": 30307,
+      "sha256": "ad53f89f311174608ec2fb216c66eb28dbf91884138221fa31145b57cebc2121"
+    },
+    {
+      "path": "portal/dist/assets/youtube-a9yO-K8mwL0.jpg",
+      "bytes": 23977,
+      "sha256": "094f4debe6cad48565512f0fbd62ada52f44ba967acca64e30ede1050f1ee7a8"
+    },
+    {
+      "path": "portal/dist/assets/youtube-dK9KAT5BDBM.jpg",
+      "bytes": 28078,
+      "sha256": "f1d6a683f37f30d1cb4383bea1f896275141e860c1c134ae28859b75bf537a6b"
+    },
+    {
+      "path": "portal/dist/assets/youtube-oLfYx4cgTMg.jpg",
+      "bytes": 22921,
+      "sha256": "d399788c382a73e60ed72fe01e0382538d2c37e450037248bb6e3b46fe89cf3f"
+    },
+    {
+      "path": "portal/dist/assets/youtube-o_XVt5rdpFY.jpg",
+      "bytes": 23044,
+      "sha256": "4cba3ba8ea6139d375d6d057924672b6d32ac1dddb694b99e369488da685f8ba"
+    },
+    {
+      "path": "portal/dist/assets/youtube-pW8Fuo1Oh-g.jpg",
+      "bytes": 43810,
+      "sha256": "c400dfc54e18511f63029d8307eb40a29d37de3cd6593a5373edafe5eb4a2dec"
+    },
+    {
+      "path": "portal/dist/assets/youtube-vSCE4ml9ti8.jpg",
+      "bytes": 22335,
+      "sha256": "76a80c20bacc4e970e3f7c703d34893d1dc9e0abef1fd56e47bb4f9452eacbe0"
+    },
+    {
+      "path": "portal/dist/assets/youtube-wPkbySTrndI.jpg",
+      "bytes": 18817,
+      "sha256": "6064c5c35e5b75a302608cd6987ad42723ab0c6786e1d412dcc61f44b3f403e5"
+    },
+    {
+      "path": "portal/dist/assets/youtube-zUOcVqQ5WQI.jpg",
+      "bytes": 8450,
+      "sha256": "3c4a2f8b1aa65ea1391ff2f6562d3e5b50baa02c99254fa4a4d91f847d9212e2"
+    },
+    {
+      "path": "portal/dist/content-contract.js",
+      "bytes": 7795,
+      "sha256": "2f84d6a25f7451ea119c3eb878f8aa28e65c0321643d34a745dde7e07ab6d152"
+    },
+    {
+      "path": "portal/dist/data.js",
+      "bytes": 7979,
+      "sha256": "3148d9307730c3dd050a124d06e4f671490a6d95c08b893b28e2e8e6332ebd10"
+    },
+    {
+      "path": "portal/dist/examples/listening-example.json",
+      "bytes": 2989,
+      "sha256": "d65acc84e9b5df832730269ec0b3a54afa27bbd2a47f24b0fc789ad3991585a9"
+    },
+    {
+      "path": "portal/dist/examples/listening-with-vocabulary.json",
+      "bytes": 5033,
+      "sha256": "c417b6a1b2f98ab9a601ae816130962e2cb5e221df9054aa693eda8155bce3a1"
+    },
+    {
+      "path": "portal/dist/examples/vocabulary-example.json",
+      "bytes": 1937,
+      "sha256": "c0c266324015b75435019b1c15a9567db753c85ea39a16e0be6e07cefddace7d"
+    },
+    {
+      "path": "portal/dist/features.js",
+      "bytes": 24640,
+      "sha256": "5e4912b511bc21a37baa654ba83e50daa609991974f4c55871be77e6e9fba7db"
+    },
+    {
+      "path": "portal/dist/grading.js",
+      "bytes": 2971,
+      "sha256": "de68dc470d651f9dad2bbd88acc85f59f3b7be93539469246f8dedfd9d35022f"
+    },
+    {
+      "path": "portal/dist/i18n.js",
+      "bytes": 25277,
+      "sha256": "027f550af85a2b087ebed2facfaa7efd4405879e24679f623b0abc8b517f9f5f"
+    },
+    {
+      "path": "portal/dist/imports/Backend-Konzept.md",
+      "bytes": 25883,
+      "sha256": "6909ad45da8196ea2f702d519b2137b9706c3ad72d744b63450a6ec19e4f5775"
+    },
+    {
+      "path": "portal/dist/imports/Gemini-Folgeprompt.md",
+      "bytes": 13934,
+      "sha256": "9a89fb199081c5fa7912369ec219279d724be126ea8e39c94d14384a75f42812"
+    },
+    {
+      "path": "portal/dist/imports/KI-Kommandodatei.md",
+      "bytes": 26226,
+      "sha256": "84f04c90db9d8878f00177d5e2f53633b1731dfd7fd17a2075dc3fcbf2bc998d"
+    },
+    {
+      "path": "portal/dist/imports/Tagesimpuls-Konzept.md",
+      "bytes": 5685,
+      "sha256": "0525528671b1f9640dba040cf4bae0316792fdcd4e0f49d321259e311e79d647"
+    },
+    {
+      "path": "portal/dist/index.html",
+      "bytes": 4111,
+      "sha256": "6b54fe692a7248993eeb9e0301be7fbbd9a89a7f3eebbd2c5b94ae9fbe867cbf"
+    },
+    {
+      "path": "portal/dist/learning-tips.js",
+      "bytes": 7228,
+      "sha256": "1d3af2e8b6a357ffeb20167f2b584e982c2f25741b230834487479be73455bf7"
+    },
+    {
+      "path": "portal/dist/lessico.css",
+      "bytes": 12126,
+      "sha256": "678bd754974e1f949c70ff8e528bfe69f988473ae6b9f7949b4038a58a8c1ecd"
+    },
+    {
+      "path": "portal/dist/listening-data.js",
+      "bytes": 13255,
+      "sha256": "09557d5207fe4ca871cd5238be3c727d33d2b2cb918f95b8b286078e70726fb4"
+    },
+    {
+      "path": "portal/dist/portal.css",
+      "bytes": 24586,
+      "sha256": "6b48c0691a50cdd3c7d42c42fa6920dba86808df9f82e30c20c66bce7d6d3e38"
+    },
+    {
+      "path": "portal/dist/portal.js",
+      "bytes": 43797,
+      "sha256": "6c931334ee77eeebdcb14e69a1aff743db274d0b22a0b5da35ac452282c3d3be"
+    },
+    {
+      "path": "portal/dist/review-data.js",
+      "bytes": 74690,
+      "sha256": "0722747e25619fc25b7c6ca522c6a780c82de379afe054098377308252411e6c"
+    },
+    {
+      "path": "portal/dist/studio.js",
+      "bytes": 19307,
+      "sha256": "75d93c0d9aef2b8f7f3c62f554609392ef748f62eec653344ec45892c73ef6f6"
+    },
+    {
+      "path": "portal/dist/style.css",
+      "bytes": 20695,
+      "sha256": "2169e031c4711b5198375dafadd1248d8ee28290dae8aca243799a41e11cea96"
+    },
+    {
+      "path": "portal/dist/themes.css",
+      "bytes": 19234,
+      "sha256": "11597bff738d25d7dc99d8d1f99e18e3041f8e5de3601c37b0a37c8565908730"
+    },
+    {
+      "path": "portal/dist/thumbnail-data.js",
+      "bytes": 761,
+      "sha256": "e499203a116335be2f73be487383a351d6436a597051fb3fc1b34ee90ed5060a"
+    },
+    {
+      "path": "portal/tests/content.test.cjs",
+      "bytes": 3089,
+      "sha256": "817ed6206b44aa2802f3d9cd7c58dd09baf7a1abe0475c5394895ec26be307a5"
+    },
+    {
+      "path": "portal/tests/grading.test.cjs",
+      "bytes": 1302,
+      "sha256": "bd9f711f4fe6e4c06c6ce7751d7c31a37fe0a1a4d4ae394a6687910c71cfe10b"
+    },
+    {
+      "path": "portal/tests/progress.test.cjs",
+      "bytes": 3841,
+      "sha256": "7f1daf942b75a200547ac568aa0444fcb72f196d60a0051bf52053e7d4199112"
+    }
+  ]
+}

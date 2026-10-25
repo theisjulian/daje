@@ -1,0 +1,1 @@
+Diese Dateien sind aus den tatsächlich gelieferten Seedobjekten extrahiert. Sie sind eine Arbeitskopie für Prüfung und Weitergabe, keine neu fachlich geprüften Materialien. Bereits vorhandene IDs werden im lokalen Neuimport abgewiesen; für Änderungen bestehende Einträge bearbeiten. Die Laufzeit lädt die JavaScript-Seeds, nicht automatisch diesen Exportordner.

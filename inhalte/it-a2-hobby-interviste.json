@@ -1,0 +1,100 @@
+{
+  "format": "theis-learning-package",
+  "schemaVersion": "1.0",
+  "kind": "listening",
+  "id": "it-a2-hobby-interviste",
+  "title": "Le attività dei ragazzi",
+  "language": "it",
+  "level": "A2",
+  "description": "Brevi risposte sulle attività del tempo libero e sui loro vantaggi.",
+  "topics": [
+    "vita quotidiana",
+    "tempo libero"
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 5,
+  "media": {
+    "type": "youtube",
+    "videoId": "DRzHA4LuFC0"
+  },
+  "transcript": "[00:01] Come passi il tempo libero? Faccio sport o sto su internet, oppure guardo la televisione.\n[00:10] Facendo judo, uscendo con le amiche e facendo teatro.\n[00:15] Dove e per quante ore fai questa attività? Allo sport 5 ore a settimana, su internet e televisione 2 o 3 ore.\n[00:30] Al judo dedico più o meno 3 ore alla settimana, mentre per teatro le dedico 2 ore alla settimana.\n[00:39] Cioè, secondo te il tuo hobby oltre che piacevole è anche utile?\n[00:48] Lo sport può essere utile per migliorare la propria forma fisica, invece il computer e la televisione dipende per quale motivo, per quale scopo le usi.\n[01:00] Vabbè, certo, sono molto utili perché il judo è sempre un esercizio fisico, ti aiuta magari a superare le paure, a combattere, mentre il teatro ti fa perdere [01:19] eh... la paura di mostrarti di fronte ad altra gente.",
+  "sources": [
+    {
+      "kind": "external",
+      "citation": "YouTube-Originalvideo; Anbieter und Nutzungsrechte noch zu verifizieren. Transkript aus nutzerseitig übermittelter Gemini-Ausgabe; laut Gemini automatische YouTube-Untertitel. Kein unabhängiger Audioabgleich.",
+      "url": "https://www.youtube.com/watch?v=DRzHA4LuFC0",
+      "rights": "needs_review"
+    }
+  ],
+  "reviewNotes": [
+    "Redaktioneller Entwurf. Nicht am Audio geprüft. Transkript, Aufgabenlösungen, Zeitmarken, Medienlänge und Sprecherwechsel vor Freigabe überprüfen.",
+    "GER A2 ist eine redaktionell noch zu prüfende Einschätzung. estimatedMinutes ist geschätzte Übungsdauer, keine gemessene Videolänge.",
+    "Nutzungsrechte von Video und Transkript sowie Originalanbieter und Einbettbarkeit offen. needs_review verhindert die lokale Freigabe.",
+    "Ausschnittsangaben stammen aus Gemini. Der aktuelle Player begrenzt den YouTube-Ausschnitt nicht automatisch."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "prompt": "Quale argomento viene affrontato nelle risposte?",
+      "options": [
+        {
+          "id": "a",
+          "text": "I programmi per le vacanze."
+        },
+        {
+          "id": "b",
+          "text": "Gli hobby e i loro vantaggi."
+        },
+        {
+          "id": "c",
+          "text": "Le regole della scuola."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Die übermittelte Mitschrift behandelt Freizeitaktivitäten, Zeitaufwand und Nutzen. Am Audio prüfen. Audioabgleich offen."
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "prompt": "Quante ore alla settimana vengono dedicate al judo?",
+      "acceptedAnswers": [
+        "tre",
+        "3",
+        "tre ore",
+        "3 ore",
+        "tre ore alla settimana",
+        "3 ore alla settimana"
+      ],
+      "modelAnswer": "tre",
+      "explanation": "Laut übermitteltem Text etwa drei Stunden pro Woche. Die Zahl reicht als Antwort. Am Audio prüfen. Audioabgleich offen."
+    },
+    {
+      "id": "q3",
+      "type": "true_false",
+      "prompt": "Secondo una delle persone intervistate, il teatro aiuta a superare una paura.",
+      "answer": true,
+      "explanation": "Laut übermitteltem Text hilft Theater gegen die Angst, sich vor anderen zu zeigen. Sprecherzuordnung und Wortlaut am Audio prüfen. Audioabgleich offen."
+    },
+    {
+      "type": "short_answer",
+      "prompt": "Quante ore alla settimana vengono dedicate al teatro?",
+      "acceptedAnswers": [
+        "due",
+        "2",
+        "due ore",
+        "2 ore"
+      ],
+      "modelAnswer": "due",
+      "explanation": "Die übermittelte Mitschrift nennt zwei Stunden Theater pro Woche. Audioabgleich offen.",
+      "id": "q4"
+    },
+    {
+      "type": "true_false",
+      "prompt": "Secondo una delle persone, computer e televisione sono sempre utili, qualunque sia il loro uso.",
+      "answer": false,
+      "explanation": "Die Person schränkt ein, dass der Nutzen vom Zweck der Nutzung abhängt. Audioabgleich offen.",
+      "id": "q5"
+    }
+  ]
+}

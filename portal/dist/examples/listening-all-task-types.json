@@ -1,0 +1,28 @@
+{
+  "format": "theis-learning-package",
+  "schemaVersion": "1.1",
+  "kind": "listening",
+  "id": "it-demo-aufgabentypen",
+  "title": "Un pomeriggio a Torino · alle Aufgabentypen",
+  "language": "it",
+  "level": "A2",
+  "description": "Beispiel für alle sieben Aufgabenformate an einem kurzen Hörtext.",
+  "topics": ["città", "gelato"],
+  "cover": "torino",
+  "coverImage": "assets/covers/it-demo-aufgabentypen.jpg",
+  "sources": [{ "kind": "own", "citation": "Eigener Übungstext zur Demonstration.", "rights": "own" }],
+  "reviewNotes": ["Demopaket: coverImage verweist auf eine Datei, die erst in assets/covers/ liegen muss."],
+  "estimatedMinutes": 6,
+  "media": { "type": "speech", "text": "Ciao, sono Sofia e abito a Torino. Oggi incontro il mio amico Luca in Piazza Castello alle quattro. Prima andiamo in gelateria: io prendo un gelato al limone e Luca un gelato al cioccolato. Poi andiamo al parco a piedi. Torno a casa alle sei." },
+  "transcript": "Ciao, sono Sofia e abito a Torino. Oggi incontro il mio amico Luca in Piazza Castello alle quattro. Prima andiamo in gelateria: io prendo un gelato al limone e Luca un gelato al cioccolato. Poi andiamo al parco a piedi. Torno a casa alle sei.",
+  "transcriptOrigin": "own",
+  "questions": [
+    { "id": "q1", "type": "single_choice", "prompt": "Dove si incontrano Sofia e Luca?", "explanation": "Sofia nennt Piazza Castello als Treffpunkt.", "options": [{ "id": "a", "text": "A scuola" }, { "id": "b", "text": "In Piazza Castello" }, { "id": "c", "text": "Alla stazione" }], "correctOptionId": "b" },
+    { "id": "q2", "type": "multiple_choice", "prompt": "Che cosa fanno Sofia e Luca? (più risposte)", "explanation": "Sie essen Eis und gehen in den Park; zum Bahnhof gehen sie nicht.", "options": [{ "id": "a", "text": "Prendono un gelato" }, { "id": "b", "text": "Vanno alla stazione" }, { "id": "c", "text": "Vanno al parco" }, { "id": "d", "text": "Vanno al cinema" }], "correctOptionIds": ["a", "c"] },
+    { "id": "q3", "type": "true_false", "prompt": "Luca prende un gelato al limone.", "explanation": "Sofia nimmt Zitrone, Luca Schokolade.", "answer": false },
+    { "id": "q4", "type": "matching", "prompt": "Chi prende che cosa?", "explanation": "Sofia: limone; Luca: cioccolato.", "pairs": [{ "id": "p1", "left": "Sofia", "right": "gelato al limone" }, { "id": "p2", "left": "Luca", "right": "gelato al cioccolato" }], "distractors": ["gelato alla fragola"] },
+    { "id": "q5", "type": "ordering", "prompt": "Metti in ordine.", "explanation": "Reihenfolge laut Text.", "items": [{ "id": "i1", "text": "Incontro in piazza" }, { "id": "i2", "text": "Gelato" }, { "id": "i3", "text": "Passeggiata al parco" }] },
+    { "id": "q6", "type": "gap_fill", "prompt": "Completa.", "explanation": "Treffen um vier Uhr in der Piazza Castello.", "text": "Si incontrano alle [[g1]] in Piazza [[g2]].", "gaps": [{ "id": "g1", "acceptedAnswers": ["quattro"] }, { "id": "g2", "acceptedAnswers": ["Castello"] }] },
+    { "id": "q7", "type": "short_answer", "prompt": "A che ora torna a casa Sofia?", "explanation": "Sie kommt um sechs zurück.", "acceptedAnswers": ["alle sei", "alle 18"], "modelAnswer": "alle sei" }
+  ]
+}

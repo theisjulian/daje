@@ -1,0 +1,65 @@
+{
+  "format": "theis-learning-package",
+  "schemaVersion": "1.0",
+  "kind": "listening",
+  "id": "it-b1-vivere-a-cuba",
+  "title": "Vivere a Cuba oggi",
+  "language": "it",
+  "level": "B1",
+  "description": "Ein kurzer, authentischer Dokumentarclip über den Alltag, die Lebensrealität und die Herausforderungen junger Menschen auf Kuba.",
+  "topics": [
+    "società",
+    "cuba",
+    "attualità"
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 3,
+  "media": {
+    "type": "youtube",
+    "videoId": "zUOcVqQ5WQI"
+  },
+  "transcript": "",
+  "sources": [
+    {
+      "kind": "external",
+      "citation": "VD - Vivere a Cuba oggi · Quellenangabe aus Gemini, ungeprüft.",
+      "url": "https://www.youtube.com/watch?v=zUOcVqQ5WQI",
+      "rights": "needs_review"
+    }
+  ],
+  "reviewNotes": [
+    "In die private Arbeitsvorschau aufgenommen. Nicht unabhängig am Audio geprüft; Lösungen, Niveau, Zeitmarken, Quelle und Einbettbarkeit noch zu prüfen.",
+    "Nutzungsrechte von Video und Transkript offen. Keine fachliche Freigabe. Die Quellen- und Prüfbehauptungen der Gemini-Ausgabe sind nicht unabhängig bestätigt.",
+    "Vollständiges Transkript fehlt. Die vorherige Inhaltsbeschreibung wurde nicht als Mitschrift übernommen."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "prompt": "Qual è il tema principale di questo video?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le condizioni e la vita quotidiana a Cuba oggi."
+        },
+        {
+          "id": "b",
+          "text": "Una guida turistica per le spiagge caraibiche."
+        },
+        {
+          "id": "c",
+          "text": "La storia della musica classica cubana."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Der Clip beleuchtet die aktuellen Lebensbedingungen und den Alltag auf der Insel. Redaktioneller Entwurf; Abgleich mit der Aufnahme offen."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "prompt": "Il video mostra le sfide che le persone affrontano nella vita di tutti i giorni a Cuba.",
+      "answer": true,
+      "explanation": "Es wird auf die realen gesellschaftlichen und wirtschaftlichen Schwierigkeiten eingegangen. Redaktioneller Entwurf; Abgleich mit der Aufnahme offen."
+    }
+  ]
+}
