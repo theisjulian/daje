@@ -13,7 +13,7 @@
   "ABBA"
  ],
  "cover": "wave",
- "estimatedMinutes": 15,
+ "estimatedMinutes": 14,
  "media": {
   "type": "youtube",
   "videoId": "CQKyLOQPTPo"
@@ -57,7 +57,8 @@
  ],
  "reviewNotes": [
   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+  "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
  ],
  "questions": [
   {
@@ -213,38 +214,6 @@
   {
    "id": "q8",
    "type": "single_choice",
-   "prompt": "Wie heißt der Song richtig?",
-   "options": [
-    {
-     "id": "a",
-     "text": "Lay All Your Love On Me"
-    },
-    {
-     "id": "b",
-     "text": "Lay All Your Love Off Me"
-    },
-    {
-     "id": "c",
-     "text": "Say All Your Love On Me"
-    },
-    {
-     "id": "d",
-     "text": "Lay Down Your Love"
-    }
-   ],
-   "correctOptionId": "a",
-   "explanation": "Der Titel fordert: „Leg all deine Liebe auf mich.\""
-  },
-  {
-   "id": "q9",
-   "type": "true_false",
-   "prompt": "Das Lied erschien 1980.",
-   "answer": true,
-   "explanation": "Es stammt vom Album „Super Trouper\"."
-  },
-  {
-   "id": "q10",
-   "type": "single_choice",
    "prompt": "Welches Wort bedeutet „Bedrohung\"?",
    "options": [
     {
@@ -268,15 +237,36 @@
    "explanation": "threat."
   },
   {
-   "id": "q11",
-   "type": "short_answer",
-   "prompt": "Wie heißt die Band? (ein Wort)",
-   "acceptedAnswers": [
-    "ABBA",
-    "Abba"
+   "id": "q9",
+   "type": "single_choice",
+   "prompt": "Welche beiden Sängerinnen gehören zu ABBA?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Agnetha Fältskog und Anni-Frid Lyngstad"
+    },
+    {
+     "id": "b",
+     "text": "Agnetha und Björn"
+    },
+    {
+     "id": "c",
+     "text": "Benny und Frida"
+    },
+    {
+     "id": "d",
+     "text": "Björn und Anni-Frid"
+    }
    ],
-   "modelAnswer": "ABBA",
-   "explanation": "Aus den Anfangsbuchstaben der vier Mitglieder."
+   "correctOptionId": "a",
+   "explanation": "Zu ABBA gehören zwei Frauen und zwei Männer."
+  },
+  {
+   "id": "q10",
+   "type": "true_false",
+   "prompt": "ABBA gewann 1974 den Eurovision Song Contest mit „Waterloo“.",
+   "answer": true,
+   "explanation": "Das war ihr internationaler Durchbruch."
   }
  ],
  "vocabularyIds": []

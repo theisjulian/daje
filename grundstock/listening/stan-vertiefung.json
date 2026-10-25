@@ -14,7 +14,7 @@
   "Medienkritik"
  ],
  "cover": "wave",
- "estimatedMinutes": 20,
+ "estimatedMinutes": 18,
  "media": {
   "type": "youtube",
   "videoId": "gOMhN-hfMtY"
@@ -60,24 +60,12 @@
  ],
  "reviewNotes": [
   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+  "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
  ],
  "questions": [
   {
    "id": "q1",
-   "type": "short_answer",
-   "prompt": "Vor dem Hören: Warum sind Intro und Gesang im Kontrast zum Rap wirksam? Nenne ein Schlüsselwort (contrast, tension, calm …).",
-   "acceptedAnswers": [
-    "contrast",
-    "tension",
-    "calm",
-    "irony"
-   ],
-   "modelAnswer": "contrast / tension",
-   "explanation": "Das Sample liefert einen Gegenpol zum aufgebrachten Rap."
-  },
-  {
-   "id": "q2",
    "type": "ordering",
    "prompt": "Rekonstruiere den Erzählbogen.",
    "items": [
@@ -105,7 +93,7 @@
    "explanation": "Briefroman im Lied; die Wendepunkte markieren Schritte der Eskalation."
   },
   {
-   "id": "q3",
+   "id": "q2",
    "type": "single_choice",
    "prompt": "Welche Funktion hat der Brief Slims am Ende?",
    "options": [
@@ -130,7 +118,7 @@
    "explanation": "Der freundliche Brief steht im Kontrast zur Katastrophe: zu spät, zu wenig."
   },
   {
-   "id": "q4",
+   "id": "q3",
    "type": "multiple_choice",
    "prompt": "Welche Stilmittel fallen auf? (mehrere)",
    "options": [
@@ -164,7 +152,7 @@
    "explanation": "Briefform und Ich-Perspektive dominieren; Fragen und Anreden an Slim erzeugen Nähe."
   },
   {
-   "id": "q5",
+   "id": "q4",
    "type": "single_choice",
    "prompt": "Welche Beziehung beschreibt der Begriff „parasocial relationship\"?",
    "options": [
@@ -189,7 +177,7 @@
    "explanation": "Fans fühlen sich verbunden, die berühmte Person kennt sie aber nicht."
   },
   {
-   "id": "q6",
+   "id": "q5",
    "type": "single_choice",
    "prompt": "Welche Rolle spielt die Perspektive des Ich-Erzählers?",
    "options": [
@@ -214,7 +202,7 @@
    "explanation": "Man erlebt alles aus Stans Sicht, sieht aber auch, was er nicht sieht."
   },
   {
-   "id": "q7",
+   "id": "q6",
    "type": "gap_fill",
    "prompt": "Reported Speech: Ergänze (had written, hadn’t answered, would reply, was).",
    "text": "Stan said that he [[a]] to Slim several times, but Slim [[b]]. He hoped Slim [[c]] soon. He added that his girlfriend [[d]] pregnant.",
@@ -248,7 +236,7 @@
    "explanation": "Backshift: Present → Past, Past → Past Perfect, will → would."
   },
   {
-   "id": "q8",
+   "id": "q7",
    "type": "single_choice",
    "prompt": "Conditional: „If Slim had answered earlier, Stan … feel better.\"",
    "options": [
@@ -273,7 +261,7 @@
    "explanation": "Third conditional: if + Past Perfect, would have + Participle."
   },
   {
-   "id": "q9",
+   "id": "q8",
    "type": "matching",
    "prompt": "Synonyme: Verbinde passende Paare.",
    "pairs": [
@@ -301,7 +289,7 @@
    "explanation": "Wörter zur Beschreibung von Stans Zustand."
   },
   {
-   "id": "q10",
+   "id": "q9",
    "type": "matching",
    "prompt": "Antonyme: Verbinde Gegensatzpaare.",
    "pairs": [
@@ -329,7 +317,7 @@
    "explanation": "Gegensätze helfen, Nuancen zu erkennen."
   },
   {
-   "id": "q11",
+   "id": "q10",
    "type": "single_choice",
    "prompt": "Welche Aussage fasst die gesellschaftliche Kritik des Liedes am besten zusammen?",
    "options": [
@@ -354,14 +342,14 @@
    "explanation": "Der Text warnt vor Eskalation durch Idealisierung und Ausbleiben von Zuwendung."
   },
   {
-   "id": "q12",
+   "id": "q11",
    "type": "true_false",
    "prompt": "Das Sample aus einem fremden Lied wirkt nur dekorativ und hat keine inhaltliche Funktion.",
    "answer": false,
    "explanation": "Es setzt einen Gefühlsrahmen und verstärkt die Tragik."
   },
   {
-   "id": "q13",
+   "id": "q12",
    "type": "single_choice",
    "prompt": "Welche Veränderung der Medienlandschaft seit 2000 verschärft das Thema?",
    "options": [
@@ -386,7 +374,7 @@
    "explanation": "Direktnachrichten, Livestreams und Kommentare erzeugen Nähe – und Erwartungen."
   },
   {
-   "id": "q14",
+   "id": "q13",
    "type": "true_false",
    "prompt": "Das Video ergänzt Informationen, die der Text nicht liefert.",
    "answer": true,

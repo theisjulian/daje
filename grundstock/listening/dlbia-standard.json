@@ -13,7 +13,7 @@
   "Gefühle"
  ],
  "cover": "wave",
- "estimatedMinutes": 17,
+ "estimatedMinutes": 14,
  "media": {
   "type": "youtube",
   "videoId": "YZG7z4FOn0g"
@@ -57,7 +57,8 @@
  ],
  "reviewNotes": [
   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+  "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
  ],
  "questions": [
   {
@@ -223,31 +224,6 @@
   {
    "id": "q9",
    "type": "single_choice",
-   "prompt": "Welche Zeitform nutzt man für „du solltest loslassen\"?",
-   "options": [
-    {
-     "id": "a",
-     "text": "should"
-    },
-    {
-     "id": "b",
-     "text": "shall"
-    },
-    {
-     "id": "c",
-     "text": "would"
-    },
-    {
-     "id": "d",
-     "text": "might"
-    }
-   ],
-   "correctOptionId": "a",
-   "explanation": "should = Ratschlag."
-  },
-  {
-   "id": "q10",
-   "type": "single_choice",
    "prompt": "Welche Geschichte erzählt das Lied konkret?",
    "options": [
     {
@@ -271,14 +247,7 @@
    "explanation": "Der Text arbeitet mit Bildern und Anspielungen."
   },
   {
-   "id": "q11",
-   "type": "true_false",
-   "prompt": "Nach dem Hören: Das Lied ist ein gutes Beispiel für einen Ohrwurm-Refrain.",
-   "answer": true,
-   "explanation": "Einfacher, einprägsamer Refrain."
-  },
-  {
-   "id": "q12",
+   "id": "q10",
    "type": "short_answer",
    "prompt": "Nenne ein Wort für „Wut\" (englisch).",
    "acceptedAnswers": [

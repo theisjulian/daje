@@ -13,7 +13,7 @@
   "Società"
  ],
  "cover": "wave",
- "estimatedMinutes": 17,
+ "estimatedMinutes": 15,
  "media": {
   "type": "youtube",
   "videoId": "4zE1RnQnwcQ"
@@ -57,7 +57,8 @@
  ],
  "reviewNotes": [
   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+  "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
  ],
  "questions": [
   {
@@ -87,94 +88,6 @@
   },
   {
    "id": "q2",
-   "type": "matching",
-   "prompt": "Collega le forme dialettali all’italiano.",
-   "pairs": [
-    {
-     "id": "p1",
-     "left": "si suonn",
-     "right": "sei un sogno"
-    },
-    {
-     "id": "p2",
-     "left": "je pens a te",
-     "right": "io penso a te"
-    },
-    {
-     "id": "p3",
-     "left": "teng",
-     "right": "ho"
-    },
-    {
-     "id": "p4",
-     "left": "o",
-     "right": "il"
-    }
-   ],
-   "explanation": "Esercizio di traduzione."
-  },
-  {
-   "id": "q3",
-   "type": "multiple_choice",
-   "prompt": "Che cosa si vede nella lingua del testo? (più risposte)",
-   "options": [
-    {
-     "id": "a",
-     "text": "Mescolanza di codici"
-    },
-    {
-     "id": "b",
-     "text": "Frasi molto lunghe"
-    },
-    {
-     "id": "c",
-     "text": "Espressioni affettive"
-    },
-    {
-     "id": "d",
-     "text": "Termini tecnici"
-    }
-   ],
-   "correctOptionIds": [
-    "a",
-    "c"
-   ],
-   "explanation": "Italiano e napoletano si alternano."
-  },
-  {
-   "id": "q4",
-   "type": "single_choice",
-   "prompt": "Perché i dialetti spopolano sui social (articolo sul dialetto)?",
-   "options": [
-    {
-     "id": "a",
-     "text": "Sono divertenti e creano identità"
-    },
-    {
-     "id": "b",
-     "text": "Sono obbligatori"
-    },
-    {
-     "id": "c",
-     "text": "Sono più semplici"
-    },
-    {
-     "id": "d",
-     "text": "Sono vietati"
-    }
-   ],
-   "correctOptionId": "a",
-   "explanation": "Meme, battute, canzoni."
-  },
-  {
-   "id": "q5",
-   "type": "true_false",
-   "prompt": "Secondo l’articolo molti italiani parlano ancora un dialetto in famiglia.",
-   "answer": true,
-   "explanation": "L’articolo cita dati sulla diffusione."
-  },
-  {
-   "id": "q6",
    "type": "single_choice",
    "prompt": "Quale effetto ha il ritornello?",
    "options": [
@@ -199,7 +112,7 @@
    "explanation": "Struttura ripetitiva e canto."
   },
   {
-   "id": "q7",
+   "id": "q3",
    "type": "single_choice",
    "prompt": "Che cosa significa “mescolare italiano e dialetto”?",
    "options": [
@@ -224,7 +137,7 @@
    "explanation": "Code-switching."
   },
   {
-   "id": "q8",
+   "id": "q4",
    "type": "gap_fill",
    "prompt": "Completa (dialetto, identità, social, tradizione).",
    "text": "Il [[a]] è parte dell’[[b]] regionale. Oggi si diffonde sui [[c]] e unisce [[d]] e modernità.",
@@ -257,7 +170,7 @@
    "explanation": "Lessico dell’articolo."
   },
   {
-   "id": "q9",
+   "id": "q5",
    "type": "single_choice",
    "prompt": "Quale registro usa l’artista?",
    "options": [
@@ -282,48 +195,104 @@
    "explanation": "Tono diretto."
   },
   {
-   "id": "q10",
+   "id": "q6",
    "type": "true_false",
    "prompt": "La canzone è un esempio di musica popolare contemporanea.",
    "answer": true,
    "explanation": "Pop con elementi regionali."
   },
   {
-   "id": "q11",
-   "type": "short_answer",
-   "prompt": "Trova un sinonimo di “amore” (una parola).",
-   "acceptedAnswers": [
-    "affetto",
-    "passione",
-    "amore"
-   ],
-   "modelAnswer": "affetto",
-   "explanation": "Più risposte possibili."
-  },
-  {
-   "id": "q12",
+   "id": "q7",
    "type": "single_choice",
-   "prompt": "Quale compito del foglio è consigliato?",
+   "prompt": "Che cosa significa, in senso figurato, “Tu si’ ’a fine d’ ’o munno” (“Sei la fine del mondo”)?",
    "options": [
     {
      "id": "a",
-     "text": "Evidenziare le parti in dialetto e tradurle"
+     "text": "Sei perfetta/o, sei il massimo"
     },
     {
      "id": "b",
-     "text": "Riscrivere il testo in inglese"
+     "text": "Sei molto lontano"
     },
     {
      "id": "c",
-     "text": "Imparare a memoria"
+     "text": "Sei pericolosa/o"
     },
     {
      "id": "d",
-     "text": "Cantare in coro"
+     "text": "Sei triste"
     }
    ],
    "correctOptionId": "a",
-   "explanation": "Compito 1 del foglio."
+   "explanation": "È un’espressione iperbolica: la persona amata è il massimo."
+  },
+  {
+   "id": "q8",
+   "type": "true_false",
+   "prompt": "La canzone è uscita nel 2018 ed è diventata un “tormentone” tra i giovani.",
+   "answer": true,
+   "explanation": "Circa 100 milioni di visualizzazioni su YouTube."
+  },
+  {
+   "id": "q9",
+   "type": "true_false",
+   "prompt": "Nel maggio 2023 i giocatori dell’Inter l’hanno cantata festeggiando la Coppa Italia.",
+   "answer": true,
+   "explanation": "Episodio riportato dalla stampa (Vesuvio Live)."
+  },
+  {
+   "id": "q10",
+   "type": "single_choice",
+   "prompt": "In quale lingua è cantata la canzone?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Dialetto napoletano"
+    },
+    {
+     "id": "b",
+     "text": "Italiano standard"
+    },
+    {
+     "id": "c",
+     "text": "Siciliano antico"
+    },
+    {
+     "id": "d",
+     "text": "Latino"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Neomelodico in napoletano."
+  },
+  {
+   "id": "q11",
+   "type": "multiple_choice",
+   "prompt": "Che cosa caratterizza il genere neomelodico? (più risposte)",
+   "options": [
+    {
+     "id": "a",
+     "text": "Testi spesso d’amore"
+    },
+    {
+     "id": "b",
+     "text": "Dialetto napoletano"
+    },
+    {
+     "id": "c",
+     "text": "Strumenti solo classici dell’opera"
+    },
+    {
+     "id": "d",
+     "text": "Pubblico giovane sui social"
+    }
+   ],
+   "correctOptionIds": [
+    "a",
+    "b",
+    "d"
+   ],
+   "explanation": "Amore, napoletano e diffusione online."
   }
  ],
  "vocabularyIds": []

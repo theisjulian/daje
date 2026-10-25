@@ -13,7 +13,7 @@
   "Gefühle"
  ],
  "cover": "wave",
- "estimatedMinutes": 20,
+ "estimatedMinutes": 18,
  "media": {
   "type": "youtube",
   "videoId": "4fndeDfaWCg"
@@ -58,7 +58,8 @@
  ],
  "reviewNotes": [
   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+  "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
  ],
  "questions": [
   {
@@ -328,13 +329,6 @@
   },
   {
    "id": "q13",
-   "type": "true_false",
-   "prompt": "Nach dem Hören: Der Titel „That way\" ist eindeutig und klar erklärt.",
-   "answer": false,
-   "explanation": "Viele Fans diskutieren bis heute, was genau „that way\" bedeutet."
-  },
-  {
-   "id": "q14",
    "type": "short_answer",
    "prompt": "Schreibe das Wort für „Herzschmerz\" auf Englisch (ein Wort).",
    "acceptedAnswers": [

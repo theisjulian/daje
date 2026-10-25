@@ -13,7 +13,7 @@
   "Climate"
  ],
  "cover": "wave",
- "estimatedMinutes": 17,
+ "estimatedMinutes": 15,
  "media": {
   "type": "film",
   "title": "Don’t Look Up",
@@ -53,7 +53,8 @@
  ],
  "reviewNotes": [
   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+  "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
  ],
  "questions": [
   {
@@ -308,21 +309,6 @@
    "prompt": "After watching: The film criticises politicians, media and society.",
    "answer": true,
    "explanation": "Satire of several groups."
-  },
-  {
-   "id": "q12",
-   "type": "short_answer",
-   "prompt": "Name one emotion you feel after the film (English).",
-   "acceptedAnswers": [
-    "anger",
-    "sadness",
-    "fear",
-    "hope",
-    "laughter",
-    "worry"
-   ],
-   "modelAnswer": "anger / sadness",
-   "explanation": "Many answers possible."
   }
  ],
  "vocabularyIds": []

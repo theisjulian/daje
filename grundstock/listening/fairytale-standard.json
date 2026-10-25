@@ -13,7 +13,7 @@
   "Beziehungen"
  ],
  "cover": "wave",
- "estimatedMinutes": 17,
+ "estimatedMinutes": 15,
  "media": {
   "type": "youtube",
   "videoId": "j9jbdgZidu8"
@@ -58,7 +58,8 @@
  ],
  "reviewNotes": [
   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+  "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
  ],
  "questions": [
   {
@@ -180,31 +181,6 @@
   },
   {
    "id": "q7",
-   "type": "single_choice",
-   "prompt": "Welche Stadt steht im Titel?",
-   "options": [
-    {
-     "id": "a",
-     "text": "New York"
-    },
-    {
-     "id": "b",
-     "text": "London"
-    },
-    {
-     "id": "c",
-     "text": "Dublin"
-    },
-    {
-     "id": "d",
-     "text": "Boston"
-    }
-   ],
-   "correctOptionId": "a",
-   "explanation": "Der Titel nennt New York."
-  },
-  {
-   "id": "q8",
    "type": "gap_fill",
    "prompt": "Ergänze (Christmas, dream, fight, memory).",
    "text": "It is [[a]] Eve. The couple remembers a [[b]] and a [[c]] from the past, but also a happy [[d]].",
@@ -237,7 +213,7 @@
    "explanation": "Wortfeld Weihnachten und Erinnerung."
   },
   {
-   "id": "q9",
+   "id": "q8",
    "type": "single_choice",
    "prompt": "Welche Musik bestimmt das Lied?",
    "options": [
@@ -262,14 +238,14 @@
    "explanation": "The Pogues sind eine irische Folk-Punk-Band."
   },
   {
-   "id": "q10",
+   "id": "q9",
    "type": "true_false",
    "prompt": "Das Lied hat bis heute einen festen Platz in britischen Weihnachtsplaylists.",
    "answer": true,
    "explanation": "Es kehrt jedes Jahr in die Charts zurück."
   },
   {
-   "id": "q11",
+   "id": "q10",
    "type": "single_choice",
    "prompt": "Welcher Aspekt macht das Lied kontrovers?",
    "options": [
@@ -294,15 +270,15 @@
    "explanation": "Einige Zeilen wurden in Radiofassungen verändert."
   },
   {
-   "id": "q12",
+   "id": "q11",
    "type": "short_answer",
-   "prompt": "Wie heißt die Band? (englisch, ein Wort + Nachname-Wort)",
+   "prompt": "Welche Band singt „Fairytale of New York“ zusammen mit Kirsty MacColl? (englisch)",
    "acceptedAnswers": [
     "The Pogues",
     "Pogues"
    ],
    "modelAnswer": "The Pogues",
-   "explanation": "Irische Band mit Sänger Shane MacGowan."
+   "explanation": "Die Pogues sind eine irisch-britische Folk-Punk-Band; Kirsty MacColl singt die weibliche Rolle."
   }
  ],
  "vocabularyIds": []

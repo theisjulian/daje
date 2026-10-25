@@ -13,7 +13,7 @@
   "Analisi"
  ],
  "cover": "wave",
- "estimatedMinutes": 18,
+ "estimatedMinutes": 14,
  "media": {
   "type": "youtube",
   "videoId": "NF9n5M5qhyU"
@@ -58,7 +58,8 @@
  ],
  "reviewNotes": [
   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+  "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
  ],
  "questions": [
   {
@@ -126,7 +127,7 @@
     },
     {
      "id": "c",
-     "text": "Amicizia"
+     "text": "La scuola e i doveri"
     },
     {
      "id": "d",
@@ -142,7 +143,7 @@
     "b",
     "c"
    ],
-   "explanation": "Temi leggeri e solari."
+   "explanation": "Libertà, estate e la voglia di lasciare i doveri della scuola."
   },
   {
    "id": "q4",
@@ -221,50 +222,8 @@
   },
   {
    "id": "q7",
-   "type": "true_false",
-   "prompt": "La canzone racconta una storia con un inizio, uno sviluppo e una fine molto precisi.",
-   "answer": false,
-   "explanation": "È più un’immagine/un’atmosfera che una storia."
-  },
-  {
-   "id": "q8",
-   "type": "true_false",
-   "prompt": "Il brano è stato scritto da cantautori anziani.",
-   "answer": false,
-   "explanation": "I Lunapop erano molto giovani."
-  },
-  {
-   "id": "q9",
    "type": "matching",
-   "prompt": "Lessico: abbina.",
-   "pairs": [
-    {
-     "id": "p1",
-     "left": "il colle",
-     "right": "la collina"
-    },
-    {
-     "id": "p2",
-     "left": "la balotta",
-     "right": "il gruppo di amici (bolognese)"
-    },
-    {
-     "id": "p3",
-     "left": "la cascina",
-     "right": "la casa di campagna"
-    },
-    {
-     "id": "p4",
-     "left": "l’estate",
-     "right": "la stagione calda"
-    }
-   ],
-   "explanation": "Parole legate a Bologna e alla campagna."
-  },
-  {
-   "id": "q10",
-   "type": "matching",
-   "prompt": "Collega termini e sinonimi.",
+   "prompt": "Lessico (Vespa e motori): collega i termini ai significati.",
    "pairs": [
     {
      "id": "p1",
@@ -290,7 +249,7 @@
    "explanation": "Registro colloquiale e verbi dell’ambito motociclistico."
   },
   {
-   "id": "q11",
+   "id": "q8",
    "type": "gap_fill",
    "prompt": "Completa con il condizionale (vorrei, potrebbe, sarebbe, andrei).",
    "text": "Io [[a]] con la Vespa al mare. Con gli amici [[b]] bellissimo. Una Vespa [[c]] portarci fuori città e [[d]] volentieri.",
@@ -323,57 +282,54 @@
    "explanation": "Esercizio sul condizionale."
   },
   {
-   "id": "q12",
-   "type": "ordering",
-   "prompt": "Ordina le fasi di lavoro con la canzone.",
-   "items": [
-    {
-     "id": "o1",
-     "text": "Immagine e vocabolario"
-    },
-    {
-     "id": "o2",
-     "text": "Primo ascolto (tema)"
-    },
-    {
-     "id": "o3",
-     "text": "Secondo ascolto (dettagli)"
-    },
-    {
-     "id": "o4",
-     "text": "Lückentext con il testo originale"
-    },
-    {
-     "id": "o5",
-     "text": "Discussione e interpretazione"
-    }
-   ],
-   "explanation": "Sequenza didattica consueta."
-  },
-  {
-   "id": "q13",
+   "id": "q9",
    "type": "single_choice",
-   "prompt": "Dopo l’ascolto: Quale messaggio emerge, secondo te?",
+   "prompt": "Chi ha scritto la canzone e la canta?",
    "options": [
     {
      "id": "a",
-     "text": "Vivere il presente con gli amici"
+     "text": "Cesare Cremonini"
     },
     {
      "id": "b",
-     "text": "Studiare di più"
+     "text": "Vasco Rossi"
     },
     {
      "id": "c",
-     "text": "Lavorare molto"
+     "text": "Jovanotti"
     },
     {
      "id": "d",
-     "text": "Evitare i viaggi"
+     "text": "Eros Ramazzotti"
     }
    ],
    "correctOptionId": "a",
-   "explanation": "Interpretazione aperta: spensieratezza."
+   "explanation": "Il frontman dei Lunapop, band di Bologna attiva dal 1999 al 2001."
+  },
+  {
+   "id": "q10",
+   "type": "single_choice",
+   "prompt": "Quale titolo ha l’unico album dei Lunapop, uscito nel 1999?",
+   "options": [
+    {
+     "id": "a",
+     "text": "…Squérez?"
+    },
+    {
+     "id": "b",
+     "text": "Maledetta primavera"
+    },
+    {
+     "id": "c",
+     "text": "Cosmo"
+    },
+    {
+     "id": "d",
+     "text": "Bologna Beat"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "L’album …Squérez? contiene “50 Special”."
   }
  ],
  "vocabularyIds": []

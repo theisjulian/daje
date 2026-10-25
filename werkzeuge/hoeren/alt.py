@@ -218,6 +218,13 @@ post.sc(T['L'] + '“Take learning into your own hands” means…', ['take cont
 post.sc(T['A'] + 'Which advice would you try first?', ['Pick a method I enjoy and plan a small daily routine', 'Wait for talent', 'Memorise a list the night before the test', 'Avoid speaking'], 0, 'Applies the talk’s principles.')
 done('en-b2-secrets-learning-language', pre, post, notes(['Question: What is the best way to learn a language?'], STEPS_EN, ['Long talk (about 10 minutes): split into 3–4 segments.', 'Use the discussion after listening.'], ['Make a weekly learning plan with three methods you enjoy.', 'Interview a classmate about how they learn languages.']), 'Level B2 · Language learning')
 
+# Meinungs-/Selbstauskunftsfragen mit einer „richtigen“ Antwort entfernen (Review 25.10.2026)
+DROPX = {'it-a2-ordine-al-bar': [], 'it-a2-weekend-scena-tre': ['q4', 'q12'], 'it-a2-hobby-interviste': ['q6', 'q15'],
+         'it-a2-roma-citta': ['q7', 'q18'], 'it-a2-conoscere-italia': ['q6', 'q17'], 'en-voa-welcome': ['q13'],
+         'en-b1-carbon-footprint': ['q20'], 'en-b2-secrets-learning-language': ['q24']}
+for k, ids in DROPX.items():
+    for part in ('pre', 'post'):
+        EX[k][part] = [q for q in EX[k][part] if q['id'] not in ids]
 for e in EX.values():
     for q in e['pre'] + e['post']:
         if q['type'] == 'matching': q.setdefault('distractors', [])

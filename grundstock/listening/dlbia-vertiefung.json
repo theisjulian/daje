@@ -13,7 +13,7 @@
   "Britpop"
  ],
  "cover": "wave",
- "estimatedMinutes": 17,
+ "estimatedMinutes": 15,
  "media": {
   "type": "youtube",
   "videoId": "YZG7z4FOn0g"
@@ -57,7 +57,8 @@
  ],
  "reviewNotes": [
   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+  "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
  ],
  "questions": [
   {
@@ -240,13 +241,6 @@
   },
   {
    "id": "q8",
-   "type": "true_false",
-   "prompt": "Das Lied steht für eine Generation, die gegen starre Verhältnisse protestiert.",
-   "answer": true,
-   "explanation": "Britpop als Lebensgefühl der 90er."
-  },
-  {
-   "id": "q9",
    "type": "single_choice",
    "prompt": "Welche Rolle spielt Mehrdeutigkeit im Text?",
    "options": [
@@ -271,14 +265,7 @@
    "explanation": "Offene Bilder = Identifikation."
   },
   {
-   "id": "q10",
-   "type": "true_false",
-   "prompt": "Das Lied wird heute nur noch selten gespielt.",
-   "answer": false,
-   "explanation": "Es ist bis heute ein Hit und wird bei Konzerten oft gemeinsam gesungen."
-  },
-  {
-   "id": "q11",
+   "id": "q9",
    "type": "short_answer",
    "prompt": "Nenne ein englisches Wort für „loslassen\" (z. B. let …).",
    "acceptedAnswers": [
@@ -290,29 +277,36 @@
    "explanation": "to let go = loslassen."
   },
   {
-   "id": "q12",
+   "id": "q10",
    "type": "single_choice",
-   "prompt": "Wie wirkt die Wiederholung des Titels im Lied?",
+   "prompt": "Who sings the lead vocals on “Don’t Look Back in Anger”?",
    "options": [
     {
      "id": "a",
-     "text": "Sie verstärkt die Botschaft"
+     "text": "Noel Gallagher"
     },
     {
      "id": "b",
-     "text": "Sie ist Füllmaterial"
+     "text": "Liam Gallagher"
     },
     {
      "id": "c",
-     "text": "Sie verwirrt"
+     "text": "Damon Albarn"
     },
     {
      "id": "d",
-     "text": "Sie ist verboten"
+     "text": "Richard Ashcroft"
     }
    ],
    "correctOptionId": "a",
-   "explanation": "Wiederholung als rhetorisches Mittel."
+   "explanation": "Unusually, Noel sang this one instead of his brother Liam."
+  },
+  {
+   "id": "q11",
+   "type": "true_false",
+   "prompt": "The song was released as a single in 1996.",
+   "answer": true,
+   "explanation": "It came from the 1995 album (What’s the Story) Morning Glory?."
   }
  ],
  "vocabularyIds": []

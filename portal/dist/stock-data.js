@@ -31,10 +31,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 18,
+  "estimatedMinutes": 14,
   "media": {
    "type": "youtube",
    "videoId": "NF9n5M5qhyU"
@@ -119,7 +120,7 @@ const STOCK_PACKAGES = [
     "id": "q3",
     "type": "multiple_choice",
     "prompt": "Quali temi emergono? (più risposte)",
-    "explanation": "Temi leggeri e solari.",
+    "explanation": "Libertà, estate e la voglia di lasciare i doveri della scuola.",
     "options": [
      {
       "id": "a",
@@ -131,7 +132,7 @@ const STOCK_PACKAGES = [
      },
      {
       "id": "c",
-      "text": "Amicizia"
+      "text": "La scuola e i doveri"
      },
      {
       "id": "d",
@@ -225,51 +226,8 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "q7",
-    "type": "true_false",
-    "prompt": "La canzone racconta una storia con un inizio, uno sviluppo e una fine molto precisi.",
-    "explanation": "È più un’immagine/un’atmosfera che una storia.",
-    "answer": false
-   },
-   {
-    "id": "q8",
-    "type": "true_false",
-    "prompt": "Il brano è stato scritto da cantautori anziani.",
-    "explanation": "I Lunapop erano molto giovani.",
-    "answer": false
-   },
-   {
-    "id": "q9",
     "type": "matching",
-    "prompt": "Lessico: abbina.",
-    "explanation": "Parole legate a Bologna e alla campagna.",
-    "pairs": [
-     {
-      "id": "p1",
-      "left": "il colle",
-      "right": "la collina"
-     },
-     {
-      "id": "p2",
-      "left": "la balotta",
-      "right": "il gruppo di amici (bolognese)"
-     },
-     {
-      "id": "p3",
-      "left": "la cascina",
-      "right": "la casa di campagna"
-     },
-     {
-      "id": "p4",
-      "left": "l’estate",
-      "right": "la stagione calda"
-     }
-    ],
-    "distractors": []
-   },
-   {
-    "id": "q10",
-    "type": "matching",
-    "prompt": "Collega termini e sinonimi.",
+    "prompt": "Lessico (Vespa e motori): collega i termini ai significati.",
     "explanation": "Registro colloquiale e verbi dell’ambito motociclistico.",
     "pairs": [
      {
@@ -296,7 +254,7 @@ const STOCK_PACKAGES = [
     "distractors": []
    },
    {
-    "id": "q11",
+    "id": "q8",
     "type": "gap_fill",
     "prompt": "Completa con il condizionale (vorrei, potrebbe, sarebbe, andrei).",
     "explanation": "Esercizio sul condizionale.",
@@ -329,54 +287,51 @@ const STOCK_PACKAGES = [
     ]
    },
    {
-    "id": "q12",
-    "type": "ordering",
-    "prompt": "Ordina le fasi di lavoro con la canzone.",
-    "explanation": "Sequenza didattica consueta.",
-    "items": [
-     {
-      "id": "o1",
-      "text": "Immagine e vocabolario"
-     },
-     {
-      "id": "o2",
-      "text": "Primo ascolto (tema)"
-     },
-     {
-      "id": "o3",
-      "text": "Secondo ascolto (dettagli)"
-     },
-     {
-      "id": "o4",
-      "text": "Lückentext con il testo originale"
-     },
-     {
-      "id": "o5",
-      "text": "Discussione e interpretazione"
-     }
-    ]
-   },
-   {
-    "id": "q13",
+    "id": "q9",
     "type": "single_choice",
-    "prompt": "Dopo l’ascolto: Quale messaggio emerge, secondo te?",
-    "explanation": "Interpretazione aperta: spensieratezza.",
+    "prompt": "Chi ha scritto la canzone e la canta?",
+    "explanation": "Il frontman dei Lunapop, band di Bologna attiva dal 1999 al 2001.",
     "options": [
      {
       "id": "a",
-      "text": "Vivere il presente con gli amici"
+      "text": "Cesare Cremonini"
      },
      {
       "id": "b",
-      "text": "Studiare di più"
+      "text": "Vasco Rossi"
      },
      {
       "id": "c",
-      "text": "Lavorare molto"
+      "text": "Jovanotti"
      },
      {
       "id": "d",
-      "text": "Evitare i viaggi"
+      "text": "Eros Ramazzotti"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "single_choice",
+    "prompt": "Quale titolo ha l’unico album dei Lunapop, uscito nel 1999?",
+    "explanation": "L’album …Squérez? contiene “50 Special”.",
+    "options": [
+     {
+      "id": "a",
+      "text": "…Squérez?"
+     },
+     {
+      "id": "b",
+      "text": "Maledetta primavera"
+     },
+     {
+      "id": "c",
+      "text": "Cosmo"
+     },
+     {
+      "id": "d",
+      "text": "Bologna Beat"
      }
     ],
     "correctOptionId": "a"
@@ -413,10 +368,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 21,
+  "estimatedMinutes": 20,
   "media": {
    "type": "youtube",
    "videoId": "NF9n5M5qhyU"
@@ -475,31 +431,6 @@ const STOCK_PACKAGES = [
    {
     "id": "q2",
     "type": "single_choice",
-    "prompt": "Prima dell’ascolto: Che cosa fai di solito in estate? Quale immagine associ alla parola “estate”?",
-    "explanation": "Risposta soggettiva: serve per attivare il vocabolario dell’estate.",
-    "options": [
-     {
-      "id": "a",
-      "text": "Mare, amici e libertà"
-     },
-     {
-      "id": "b",
-      "text": "Compiti e verifiche"
-     },
-     {
-      "id": "c",
-      "text": "Neve e freddo"
-     },
-     {
-      "id": "d",
-      "text": "Lavoro in ufficio"
-     }
-    ],
-    "correctOptionId": "a"
-   },
-   {
-    "id": "q3",
-    "type": "single_choice",
     "prompt": "Primo ascolto: Quale atmosfera ha la canzone?",
     "explanation": "Un brano leggero e solare.",
     "options": [
@@ -523,7 +454,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q4",
+    "id": "q3",
     "type": "single_choice",
     "prompt": "Primo ascolto: Che tipo di musica senti?",
     "explanation": "Chitarre, ritmo e voce giovane: pop-rock.",
@@ -548,14 +479,14 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q5",
+    "id": "q4",
     "type": "true_false",
     "prompt": "Primo ascolto: La voce che canta è quella di un uomo.",
     "explanation": "Il cantante dei Lunapop è Cesare Cremonini.",
     "answer": true
    },
    {
-    "id": "q6",
+    "id": "q5",
     "type": "single_choice",
     "prompt": "Di che cosa parla la canzone, in generale?",
     "explanation": "Tema: libertà, estate, scooter.",
@@ -580,46 +511,14 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q7",
+    "id": "q6",
     "type": "true_false",
     "prompt": "Secondo ascolto: Nella canzone si parla di una Vespa.",
     "explanation": "Il titolo stesso è un modello di Vespa: la 50 Special.",
     "answer": true
    },
    {
-    "id": "q8",
-    "type": "true_false",
-    "prompt": "Secondo ascolto: Il protagonista è molto anziano.",
-    "explanation": "Il protagonista è un ragazzo giovane.",
-    "answer": false
-   },
-   {
-    "id": "q9",
-    "type": "single_choice",
-    "prompt": "Quale parola descrive meglio il sentimento della canzone?",
-    "explanation": "Libertà e spensieratezza.",
-    "options": [
-     {
-      "id": "a",
-      "text": "La voglia di libertà"
-     },
-     {
-      "id": "b",
-      "text": "La paura"
-     },
-     {
-      "id": "c",
-      "text": "La noia"
-     },
-     {
-      "id": "d",
-      "text": "La rabbia"
-     }
-    ],
-    "correctOptionId": "a"
-   },
-   {
-    "id": "q10",
+    "id": "q7",
     "type": "gap_fill",
     "prompt": "Completa le frasi con le parole giuste (estate, Vespa, festa, vacanza).",
     "explanation": "Vocabolario del tema.",
@@ -652,7 +551,7 @@ const STOCK_PACKAGES = [
     ]
    },
    {
-    "id": "q11",
+    "id": "q8",
     "type": "matching",
     "prompt": "Collega la parola al significato.",
     "explanation": "Parole utili.",
@@ -681,7 +580,7 @@ const STOCK_PACKAGES = [
     "distractors": []
    },
    {
-    "id": "q12",
+    "id": "q9",
     "type": "single_choice",
     "prompt": "Quale città è la patria dei Lunapop?",
     "explanation": "I Lunapop sono di Bologna.",
@@ -706,14 +605,14 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q13",
+    "id": "q10",
     "type": "true_false",
     "prompt": "Cesare Cremonini è il cantante dei Lunapop.",
     "explanation": "Cremonini era il cantante della band.",
     "answer": true
    },
    {
-    "id": "q14",
+    "id": "q11",
     "type": "single_choice",
     "prompt": "Dopo l’ascolto: Perché la canzone è diventata un “tormentone” estivo?",
     "explanation": "Ritornello orecchiabile + atmosfera estiva.",
@@ -738,29 +637,43 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q15",
+    "id": "q12",
     "type": "single_choice",
-    "prompt": "Dopo l’ascolto: Che cosa rappresenta per te la Vespa nella canzone?",
-    "explanation": "Interpretazione: simbolo di libertà.",
+    "prompt": "La canzone “50 Special” dei Lunapop è uscita nel…",
+    "explanation": "Singolo del 1999 (maggio), arrivato al primo posto in classifica.",
     "options": [
      {
       "id": "a",
-      "text": "Un simbolo di libertà e giovinezza"
+      "text": "1999"
      },
      {
       "id": "b",
-      "text": "Un mezzo per andare al lavoro"
+      "text": "1989"
      },
      {
       "id": "c",
-      "text": "Un oggetto costoso"
+      "text": "2009"
      },
      {
       "id": "d",
-      "text": "Un pericolo"
+      "text": "2019"
      }
     ],
     "correctOptionId": "a"
+   },
+   {
+    "id": "q13",
+    "type": "true_false",
+    "prompt": "Il titolo si riferisce a un modello di Vespa.",
+    "explanation": "La Vespa 50 Special è uno scooter degli anni Sessanta, spesso “truccato” dai ragazzi.",
+    "answer": true
+   },
+   {
+    "id": "q14",
+    "type": "true_false",
+    "prompt": "La canzone è stata scritta e cantata da Cesare Cremonini, allora giovanissimo.",
+    "explanation": "Cremonini era il cantante e l’autore.",
+    "answer": true
    }
   ]
  },
@@ -794,10 +707,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 17,
+  "estimatedMinutes": 15,
   "media": {
    "type": "youtube",
    "videoId": "PRpiBpDy7MQ"
@@ -838,7 +752,7 @@ const STOCK_PACKAGES = [
    {
     "id": "q2",
     "type": "single_choice",
-    "prompt": "Beim Hören: In welchem Jahrzehnt erschien das Lied?",
+    "prompt": "In welchem Jahrzehnt erschien das Lied?",
     "explanation": "Veröffentlicht 1971.",
     "options": [
      {
@@ -1083,13 +997,6 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "q11",
-    "type": "true_false",
-    "prompt": "Das Lied ist nur ein Tanzlied ohne tieferen Sinn.",
-    "explanation": "Viele deuten es als Rückblick auf das Ende einer Ära.",
-    "answer": false
-   },
-   {
-    "id": "q12",
     "type": "short_answer",
     "prompt": "Wie heißt der Sänger? (Nachname)",
     "explanation": "Don McLean.",
@@ -1131,10 +1038,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 17,
+  "estimatedMinutes": 14,
   "media": {
    "type": "youtube",
    "videoId": "PRpiBpDy7MQ"
@@ -1364,56 +1272,6 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "q9",
-    "type": "single_choice",
-    "prompt": "Wie beeinflusst die Länge des Liedes die Wirkung?",
-    "explanation": "Das Lied verläuft in Kapiteln.",
-    "options": [
-     {
-      "id": "a",
-      "text": "Sie wirkt wie eine erzählte Chronik"
-     },
-     {
-      "id": "b",
-      "text": "Sie macht es nur ermüdend"
-     },
-     {
-      "id": "c",
-      "text": "Sie ist Zufall"
-     },
-     {
-      "id": "d",
-      "text": "Sie ist Vorgabe des Radios"
-     }
-    ],
-    "correctOptionId": "a"
-   },
-   {
-    "id": "q10",
-    "type": "single_choice",
-    "prompt": "Kontext: Welche Gruppe von Hörern fühlt sich besonders angesprochen?",
-    "explanation": "Generationenerfahrung.",
-    "options": [
-     {
-      "id": "a",
-      "text": "Menschen, die die 60er erlebt haben"
-     },
-     {
-      "id": "b",
-      "text": "Nur Kinder"
-     },
-     {
-      "id": "c",
-      "text": "Nur Musiker"
-     },
-     {
-      "id": "d",
-      "text": "Niemand"
-     }
-    ],
-    "correctOptionId": "a"
-   },
-   {
-    "id": "q11",
     "type": "short_answer",
     "prompt": "Nenne ein Wort für „Wehmut\" (englisch).",
     "explanation": "Mehrere Wörter möglich.",
@@ -1425,7 +1283,7 @@ const STOCK_PACKAGES = [
     "modelAnswer": "nostalgia"
    },
    {
-    "id": "q12",
+    "id": "q10",
     "type": "true_false",
     "prompt": "Das Lied ist ein gutes Beispiel für Folk-Rock.",
     "explanation": "Gitarrengeführt, erzählend, später mit Band.",
@@ -1457,10 +1315,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 17,
+  "estimatedMinutes": 14,
   "media": {
    "type": "film",
    "title": "C’è ancora domani",
@@ -1748,45 +1607,6 @@ const STOCK_PACKAGES = [
       ]
      }
     ]
-   },
-   {
-    "id": "q11",
-    "type": "single_choice",
-    "prompt": "Tipologia testuale: l’articolo sul film è…",
-    "explanation": "Testo informativo con elementi di commento.",
-    "options": [
-     {
-      "id": "a",
-      "text": "Una recensione informativa"
-     },
-     {
-      "id": "b",
-      "text": "Un dialogo"
-     },
-     {
-      "id": "c",
-      "text": "Una poesia"
-     },
-     {
-      "id": "d",
-      "text": "Una ricetta"
-     }
-    ],
-    "correctOptionId": "a"
-   },
-   {
-    "id": "q12",
-    "type": "short_answer",
-    "prompt": "Scrivi un aggettivo che descrive Delia.",
-    "explanation": "Varie risposte possibili.",
-    "acceptedAnswers": [
-     "coraggiosa",
-     "forte",
-     "paziente",
-     "determinata",
-     "sensibile"
-    ],
-    "modelAnswer": "coraggiosa"
    }
   ]
  },
@@ -1814,7 +1634,8 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
   "estimatedMinutes": 20,
@@ -2176,10 +1997,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 17,
+  "estimatedMinutes": 14,
   "media": {
    "type": "youtube",
    "videoId": "YZG7z4FOn0g"
@@ -2373,31 +2195,6 @@ const STOCK_PACKAGES = [
    {
     "id": "q9",
     "type": "single_choice",
-    "prompt": "Welche Zeitform nutzt man für „du solltest loslassen\"?",
-    "explanation": "should = Ratschlag.",
-    "options": [
-     {
-      "id": "a",
-      "text": "should"
-     },
-     {
-      "id": "b",
-      "text": "shall"
-     },
-     {
-      "id": "c",
-      "text": "would"
-     },
-     {
-      "id": "d",
-      "text": "might"
-     }
-    ],
-    "correctOptionId": "a"
-   },
-   {
-    "id": "q10",
-    "type": "single_choice",
     "prompt": "Welche Geschichte erzählt das Lied konkret?",
     "explanation": "Der Text arbeitet mit Bildern und Anspielungen.",
     "options": [
@@ -2421,14 +2218,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "b"
    },
    {
-    "id": "q11",
-    "type": "true_false",
-    "prompt": "Nach dem Hören: Das Lied ist ein gutes Beispiel für einen Ohrwurm-Refrain.",
-    "explanation": "Einfacher, einprägsamer Refrain.",
-    "answer": true
-   },
-   {
-    "id": "q12",
+    "id": "q10",
     "type": "short_answer",
     "prompt": "Nenne ein Wort für „Wut\" (englisch).",
     "explanation": "Titelwort.",
@@ -2471,10 +2261,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 17,
+  "estimatedMinutes": 15,
   "media": {
    "type": "youtube",
    "videoId": "YZG7z4FOn0g"
@@ -2685,13 +2476,6 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "q8",
-    "type": "true_false",
-    "prompt": "Das Lied steht für eine Generation, die gegen starre Verhältnisse protestiert.",
-    "explanation": "Britpop als Lebensgefühl der 90er.",
-    "answer": true
-   },
-   {
-    "id": "q9",
     "type": "single_choice",
     "prompt": "Welche Rolle spielt Mehrdeutigkeit im Text?",
     "explanation": "Offene Bilder = Identifikation.",
@@ -2716,14 +2500,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q10",
-    "type": "true_false",
-    "prompt": "Das Lied wird heute nur noch selten gespielt.",
-    "explanation": "Es ist bis heute ein Hit und wird bei Konzerten oft gemeinsam gesungen.",
-    "answer": false
-   },
-   {
-    "id": "q11",
+    "id": "q9",
     "type": "short_answer",
     "prompt": "Nenne ein englisches Wort für „loslassen\" (z. B. let …).",
     "explanation": "to let go = loslassen.",
@@ -2735,29 +2512,36 @@ const STOCK_PACKAGES = [
     "modelAnswer": "let go"
    },
    {
-    "id": "q12",
+    "id": "q10",
     "type": "single_choice",
-    "prompt": "Wie wirkt die Wiederholung des Titels im Lied?",
-    "explanation": "Wiederholung als rhetorisches Mittel.",
+    "prompt": "Who sings the lead vocals on “Don’t Look Back in Anger”?",
+    "explanation": "Unusually, Noel sang this one instead of his brother Liam.",
     "options": [
      {
       "id": "a",
-      "text": "Sie verstärkt die Botschaft"
+      "text": "Noel Gallagher"
      },
      {
       "id": "b",
-      "text": "Sie ist Füllmaterial"
+      "text": "Liam Gallagher"
      },
      {
       "id": "c",
-      "text": "Sie verwirrt"
+      "text": "Damon Albarn"
      },
      {
       "id": "d",
-      "text": "Sie ist verboten"
+      "text": "Richard Ashcroft"
      }
     ],
     "correctOptionId": "a"
+   },
+   {
+    "id": "q11",
+    "type": "true_false",
+    "prompt": "The song was released as a single in 1996.",
+    "explanation": "It came from the 1995 album (What’s the Story) Morning Glory?.",
+    "answer": true
    }
   ]
  },
@@ -2785,10 +2569,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 17,
+  "estimatedMinutes": 15,
   "media": {
    "type": "film",
    "title": "Don’t Look Up",
@@ -3073,21 +2858,6 @@ const STOCK_PACKAGES = [
     "prompt": "After watching: The film criticises politicians, media and society.",
     "explanation": "Satire of several groups.",
     "answer": true
-   },
-   {
-    "id": "q12",
-    "type": "short_answer",
-    "prompt": "Name one emotion you feel after the film (English).",
-    "explanation": "Many answers possible.",
-    "acceptedAnswers": [
-     "anger",
-     "sadness",
-     "fear",
-     "hope",
-     "laughter",
-     "worry"
-    ],
-    "modelAnswer": "anger / sadness"
    }
   ]
  },
@@ -3115,10 +2885,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 17,
+  "estimatedMinutes": 14,
   "media": {
    "type": "film",
    "title": "Don’t Look Up",
@@ -3397,44 +3168,6 @@ const STOCK_PACKAGES = [
     "prompt": "The film uses humour to strengthen its message.",
     "explanation": "Satire.",
     "answer": true
-   },
-   {
-    "id": "q11",
-    "type": "single_choice",
-    "prompt": "Would you call it a comedy or a warning? Choose the best summary.",
-    "explanation": "Dark satire.",
-    "options": [
-     {
-      "id": "a",
-      "text": "A comedy that works as a warning"
-     },
-     {
-      "id": "b",
-      "text": "Only a comedy"
-     },
-     {
-      "id": "c",
-      "text": "Only a documentary"
-     },
-     {
-      "id": "d",
-      "text": "A romance"
-     }
-    ],
-    "correctOptionId": "a"
-   },
-   {
-    "id": "q12",
-    "type": "short_answer",
-    "prompt": "Which character do you identify with? Write the name.",
-    "explanation": "Open question.",
-    "acceptedAnswers": [
-     "Kate",
-     "Mindy",
-     "Randall",
-     "Kate Dibiasky"
-    ],
-    "modelAnswer": "Kate"
    }
   ]
  },
@@ -3468,10 +3201,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 17,
+  "estimatedMinutes": 15,
   "media": {
    "type": "youtube",
    "videoId": "j9jbdgZidu8"
@@ -3622,31 +3356,6 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "q7",
-    "type": "single_choice",
-    "prompt": "Welche Stadt steht im Titel?",
-    "explanation": "Der Titel nennt New York.",
-    "options": [
-     {
-      "id": "a",
-      "text": "New York"
-     },
-     {
-      "id": "b",
-      "text": "London"
-     },
-     {
-      "id": "c",
-      "text": "Dublin"
-     },
-     {
-      "id": "d",
-      "text": "Boston"
-     }
-    ],
-    "correctOptionId": "a"
-   },
-   {
-    "id": "q8",
     "type": "gap_fill",
     "prompt": "Ergänze (Christmas, dream, fight, memory).",
     "explanation": "Wortfeld Weihnachten und Erinnerung.",
@@ -3679,7 +3388,7 @@ const STOCK_PACKAGES = [
     ]
    },
    {
-    "id": "q9",
+    "id": "q8",
     "type": "single_choice",
     "prompt": "Welche Musik bestimmt das Lied?",
     "explanation": "The Pogues sind eine irische Folk-Punk-Band.",
@@ -3704,14 +3413,14 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q10",
+    "id": "q9",
     "type": "true_false",
     "prompt": "Das Lied hat bis heute einen festen Platz in britischen Weihnachtsplaylists.",
     "explanation": "Es kehrt jedes Jahr in die Charts zurück.",
     "answer": true
    },
    {
-    "id": "q11",
+    "id": "q10",
     "type": "single_choice",
     "prompt": "Welcher Aspekt macht das Lied kontrovers?",
     "explanation": "Einige Zeilen wurden in Radiofassungen verändert.",
@@ -3736,10 +3445,10 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q12",
+    "id": "q11",
     "type": "short_answer",
-    "prompt": "Wie heißt die Band? (englisch, ein Wort + Nachname-Wort)",
-    "explanation": "Irische Band mit Sänger Shane MacGowan.",
+    "prompt": "Welche Band singt „Fairytale of New York“ zusammen mit Kirsty MacColl? (englisch)",
+    "explanation": "Die Pogues sind eine irisch-britische Folk-Punk-Band; Kirsty MacColl singt die weibliche Rolle.",
     "acceptedAnswers": [
      "The Pogues",
      "Pogues"
@@ -3778,10 +3487,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 17,
+  "estimatedMinutes": 15,
   "media": {
    "type": "youtube",
    "videoId": "j9jbdgZidu8"
@@ -4042,19 +3752,6 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "q11",
-    "type": "short_answer",
-    "prompt": "Nenne ein Adjektiv für die Stimmung (englisch).",
-    "explanation": "Gegensatz von süß und bitter.",
-    "acceptedAnswers": [
-     "bittersweet",
-     "melancholic",
-     "nostalgic",
-     "tense"
-    ],
-    "modelAnswer": "bittersweet"
-   },
-   {
-    "id": "q12",
     "type": "single_choice",
     "prompt": "Was kritisiert der Text implizit?",
     "explanation": "Reflektiert Lebensrealitäten.",
@@ -4110,10 +3807,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 20,
+  "estimatedMinutes": 18,
   "media": {
    "type": "youtube",
    "videoId": "4fndeDfaWCg"
@@ -4413,13 +4111,6 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "q13",
-    "type": "true_false",
-    "prompt": "Nach dem Hören: Der Titel „That way\" ist eindeutig und klar erklärt.",
-    "explanation": "Viele Fans diskutieren bis heute, was genau „that way\" bedeutet.",
-    "answer": false
-   },
-   {
-    "id": "q14",
     "type": "short_answer",
     "prompt": "Schreibe das Wort für „Herzschmerz\" auf Englisch (ein Wort).",
     "explanation": "heart + ache = heartache.",
@@ -4460,10 +4151,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 17,
+  "estimatedMinutes": 15,
   "media": {
    "type": "youtube",
    "videoId": "4fndeDfaWCg"
@@ -4495,20 +4187,6 @@ const STOCK_PACKAGES = [
   "questions": [
    {
     "id": "q1",
-    "type": "short_answer",
-    "prompt": "Vor dem Hören: Nenne ein englisches Wort, das du bei einer Liebesballade erwartest.",
-    "explanation": "Erwartungen aktivieren.",
-    "acceptedAnswers": [
-     "love",
-     "heart",
-     "pain",
-     "miss",
-     "tears"
-    ],
-    "modelAnswer": "love / heart"
-   },
-   {
-    "id": "q2",
     "type": "matching",
     "prompt": "Verbinde Wort und Bedeutung.",
     "explanation": "Wortschatz für das Gespräch über das Lied.",
@@ -4537,7 +4215,7 @@ const STOCK_PACKAGES = [
     "distractors": []
    },
    {
-    "id": "q3",
+    "id": "q2",
     "type": "multiple_choice",
     "prompt": "Welche Aussagen passen zum Lied? (mehrere)",
     "explanation": "Gefühlsmischung aus Liebe, Streit und Unklarheit.",
@@ -4570,7 +4248,7 @@ const STOCK_PACKAGES = [
     ]
    },
    {
-    "id": "q4",
+    "id": "q3",
     "type": "single_choice",
     "prompt": "Wie nennt man Lieder wie dieses?",
     "explanation": "Ruhige, gefühlvolle Popballade.",
@@ -4595,7 +4273,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q5",
+    "id": "q4",
     "type": "single_choice",
     "prompt": "Warum wird der Titel oft diskutiert?",
     "explanation": "Mehrdeutigkeit: Wer will was, und welcher „Weg\"?",
@@ -4620,39 +4298,14 @@ const STOCK_PACKAGES = [
     "correctOptionId": "b"
    },
    {
-    "id": "q6",
+    "id": "q5",
     "type": "true_false",
     "prompt": "Das Lied wurde von den Bandmitgliedern selbst geschrieben.",
     "explanation": "Es stammt von den Songwritern Max Martin und Andreas Carlsson.",
     "answer": false
    },
    {
-    "id": "q7",
-    "type": "single_choice",
-    "prompt": "Welche Zeitform passt? „Right now, they … together.\"",
-    "explanation": "Plural: are.",
-    "options": [
-     {
-      "id": "a",
-      "text": "is"
-     },
-     {
-      "id": "b",
-      "text": "are"
-     },
-     {
-      "id": "c",
-      "text": "am"
-     },
-     {
-      "id": "d",
-      "text": "be"
-     }
-    ],
-    "correctOptionId": "b"
-   },
-   {
-    "id": "q8",
+    "id": "q6",
     "type": "gap_fill",
     "prompt": "Reported Speech: Ergänze.",
     "explanation": "Backshift: love → loved; have been → had been.",
@@ -4674,7 +4327,7 @@ const STOCK_PACKAGES = [
     ]
    },
    {
-    "id": "q9",
+    "id": "q7",
     "type": "single_choice",
     "prompt": "Welche Ausdrucksform erzeugt im Chor Nähe?",
     "explanation": "Harmonien sind ein Markenzeichen der Band.",
@@ -4699,29 +4352,14 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q10",
+    "id": "q8",
     "type": "true_false",
     "prompt": "Das Lied erzählt eine genaue Geschichte mit Anfang, Mitte und Schluss.",
     "explanation": "Es ist eher ein Gefühlsbild als eine Handlung.",
     "answer": false
    },
    {
-    "id": "q11",
-    "type": "short_answer",
-    "prompt": "Welches Adjektiv beschreibt die Stimmung am besten? (englisch)",
-    "explanation": "Mehrere Antworten sind möglich.",
-    "acceptedAnswers": [
-     "melancholic",
-     "sad",
-     "emotional",
-     "longing",
-     "wistful",
-     "sentimental"
-    ],
-    "modelAnswer": "melancholic"
-   },
-   {
-    "id": "q12",
+    "id": "q9",
     "type": "single_choice",
     "prompt": "Welche Aussage über die Mehrdeutigkeit ist richtig?",
     "explanation": "Offene Bedeutung = viele Anknüpfungspunkte.",
@@ -4741,6 +4379,56 @@ const STOCK_PACKAGES = [
      {
       "id": "d",
       "text": "Sie kommt nur im Video vor."
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "single_choice",
+    "prompt": "Wer hat „I Want It That Way“ geschrieben?",
+    "explanation": "Das Lied wurde von schwedischen Autoren geschrieben.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Max Martin und Andreas Carlsson"
+     },
+     {
+      "id": "b",
+      "text": "Die Backstreet Boys selbst"
+     },
+     {
+      "id": "c",
+      "text": "Nick Carter und AJ McLean"
+     },
+     {
+      "id": "d",
+      "text": "Elton John"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q11",
+    "type": "single_choice",
+    "prompt": "In welchem Jahr erschien das Lied?",
+    "explanation": "Veröffentlicht 1999 auf dem Album „Millennium“.",
+    "options": [
+     {
+      "id": "a",
+      "text": "1999"
+     },
+     {
+      "id": "b",
+      "text": "1989"
+     },
+     {
+      "id": "c",
+      "text": "2009"
+     },
+     {
+      "id": "d",
+      "text": "1979"
      }
     ],
     "correctOptionId": "a"
@@ -4771,10 +4459,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 17,
+  "estimatedMinutes": 15,
   "media": {
    "type": "film",
    "title": "La vita è bella",
@@ -5060,19 +4749,6 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "q11",
-    "type": "short_answer",
-    "prompt": "Scrivi un aggettivo per descrivere l’atmosfera del film.",
-    "explanation": "Altre risposte possibili.",
-    "acceptedAnswers": [
-     "commovente",
-     "drammatico",
-     "tragicomico",
-     "toccante"
-    ],
-    "modelAnswer": "commovente"
-   },
-   {
-    "id": "q12",
     "type": "single_choice",
     "prompt": "Quale musica accompagna il film?",
     "explanation": "Musica di Nicola Piovani.",
@@ -5122,10 +4798,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 21,
+  "estimatedMinutes": 20,
   "media": {
    "type": "film",
    "title": "La vita è bella",
@@ -5466,13 +5143,6 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "q14",
-    "type": "true_false",
-    "prompt": "Dopo il film: La fantasia può essere una forma di resistenza.",
-    "explanation": "È il messaggio centrale.",
-    "answer": true
-   },
-   {
-    "id": "q15",
     "type": "single_choice",
     "prompt": "Chi racconta la storia?",
     "explanation": "La voce narrante è Giosuè.",
@@ -5528,10 +5198,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 15,
+  "estimatedMinutes": 14,
   "media": {
    "type": "youtube",
    "videoId": "CQKyLOQPTPo"
@@ -5715,38 +5386,6 @@ const STOCK_PACKAGES = [
    {
     "id": "q8",
     "type": "single_choice",
-    "prompt": "Wie heißt der Song richtig?",
-    "explanation": "Der Titel fordert: „Leg all deine Liebe auf mich.\"",
-    "options": [
-     {
-      "id": "a",
-      "text": "Lay All Your Love On Me"
-     },
-     {
-      "id": "b",
-      "text": "Lay All Your Love Off Me"
-     },
-     {
-      "id": "c",
-      "text": "Say All Your Love On Me"
-     },
-     {
-      "id": "d",
-      "text": "Lay Down Your Love"
-     }
-    ],
-    "correctOptionId": "a"
-   },
-   {
-    "id": "q9",
-    "type": "true_false",
-    "prompt": "Das Lied erschien 1980.",
-    "explanation": "Es stammt vom Album „Super Trouper\".",
-    "answer": true
-   },
-   {
-    "id": "q10",
-    "type": "single_choice",
     "prompt": "Welches Wort bedeutet „Bedrohung\"?",
     "explanation": "threat.",
     "options": [
@@ -5770,15 +5409,36 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q11",
-    "type": "short_answer",
-    "prompt": "Wie heißt die Band? (ein Wort)",
-    "explanation": "Aus den Anfangsbuchstaben der vier Mitglieder.",
-    "acceptedAnswers": [
-     "ABBA",
-     "Abba"
+    "id": "q9",
+    "type": "single_choice",
+    "prompt": "Welche beiden Sängerinnen gehören zu ABBA?",
+    "explanation": "Zu ABBA gehören zwei Frauen und zwei Männer.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Agnetha Fältskog und Anni-Frid Lyngstad"
+     },
+     {
+      "id": "b",
+      "text": "Agnetha und Björn"
+     },
+     {
+      "id": "c",
+      "text": "Benny und Frida"
+     },
+     {
+      "id": "d",
+      "text": "Björn und Anni-Frid"
+     }
     ],
-    "modelAnswer": "ABBA"
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q10",
+    "type": "true_false",
+    "prompt": "ABBA gewann 1974 den Eurovision Song Contest mit „Waterloo“.",
+    "explanation": "Das war ihr internationaler Durchbruch.",
+    "answer": true
    }
   ]
  },
@@ -5812,10 +5472,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 15,
+  "estimatedMinutes": 14,
   "media": {
    "type": "youtube",
    "videoId": "CQKyLOQPTPo"
@@ -5930,31 +5591,6 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "q4",
-    "type": "single_choice",
-    "prompt": "Welcher lateinische Wortstamm steckt hinter „vice\" (Laster)?",
-    "explanation": "vice kommt von lat. vitium.",
-    "options": [
-     {
-      "id": "a",
-      "text": "vitium (Fehler)"
-     },
-     {
-      "id": "b",
-      "text": "vita (Leben)"
-     },
-     {
-      "id": "c",
-      "text": "vinum (Wein)"
-     },
-     {
-      "id": "d",
-      "text": "victor (Sieger)"
-     }
-    ],
-    "correctOptionId": "a"
-   },
-   {
-    "id": "q5",
     "type": "gap_fill",
     "prompt": "Ergänze die Wörter (potential, possessive, overturn, unsatisfied).",
     "explanation": "Wortschatz für Gefühle in Beziehungen.",
@@ -5987,7 +5623,7 @@ const STOCK_PACKAGES = [
     ]
    },
    {
-    "id": "q6",
+    "id": "q5",
     "type": "matching",
     "prompt": "Verbinde Wort und Bedeutung.",
     "explanation": "Zentrale Begriffe.",
@@ -6016,14 +5652,7 @@ const STOCK_PACKAGES = [
     "distractors": []
    },
    {
-    "id": "q7",
-    "type": "true_false",
-    "prompt": "Die Erzählerin hatte schon vorher viele leidenschaftliche Beziehungen.",
-    "explanation": "Sie sagt sinngemäß, dass frühere Affären kurz und selten waren.",
-    "answer": false
-   },
-   {
-    "id": "q8",
+    "id": "q6",
     "type": "single_choice",
     "prompt": "Welche Perspektive nimmt das Lied ein?",
     "explanation": "Ich-Erzählerin.",
@@ -6048,7 +5677,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q9",
+    "id": "q7",
     "type": "single_choice",
     "prompt": "Wie wirkt der Refrain?",
     "explanation": "Bitte und Forderung zugleich.",
@@ -6073,7 +5702,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q10",
+    "id": "q8",
     "type": "short_answer",
     "prompt": "Nenne zwei Synonyme für „jealous\" (englisch, eines reicht).",
     "explanation": "Mehrere sind möglich.",
@@ -6085,11 +5714,36 @@ const STOCK_PACKAGES = [
     "modelAnswer": "envious"
    },
    {
-    "id": "q11",
+    "id": "q9",
     "type": "true_false",
     "prompt": "Nach dem Hören: Der Text zeigt, dass Liebe auch Unsicherheit bedeuten kann.",
     "explanation": "Das ist die Kernbotschaft.",
     "answer": true
+   },
+   {
+    "id": "q10",
+    "type": "single_choice",
+    "prompt": "Welche Sängerinnen sind bei ABBA zu hören?",
+    "explanation": "Zu ABBA gehören zwei Frauen und zwei Männer.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Agnetha Fältskog und Anni-Frid Lyngstad"
+     },
+     {
+      "id": "b",
+      "text": "Agnetha und Björn"
+     },
+     {
+      "id": "c",
+      "text": "Benny und Frida"
+     },
+     {
+      "id": "d",
+      "text": "Björn und Anni-Frid"
+     }
+    ],
+    "correctOptionId": "a"
    }
   ]
  },
@@ -6117,10 +5771,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 17,
+  "estimatedMinutes": 15,
   "media": {
    "type": "film",
    "title": "Perfetti sconosciuti",
@@ -6381,25 +6036,13 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "q10",
-    "type": "short_answer",
-    "prompt": "Scrivi un sinonimo di “segreto” (una parola).",
-    "explanation": "Più risposte possibili.",
-    "acceptedAnswers": [
-     "mistero",
-     "riservato",
-     "nascosto"
-    ],
-    "modelAnswer": "mistero"
-   },
-   {
-    "id": "q11",
     "type": "true_false",
     "prompt": "Il film suggerisce che conosciamo davvero chi ci sta accanto.",
     "explanation": "Il titolo ironizza.",
     "answer": false
    },
    {
-    "id": "q12",
+    "id": "q11",
     "type": "single_choice",
     "prompt": "Perché è un film “universale”?",
     "explanation": "Tema universale: tanti remake.",
@@ -6449,7 +6092,8 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
   "estimatedMinutes": 20,
@@ -6807,10 +6451,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 22,
+  "estimatedMinutes": 20,
   "media": {
    "type": "youtube",
    "videoId": "gOMhN-hfMtY"
@@ -6932,30 +6577,6 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "q6",
-    "type": "ordering",
-    "prompt": "Bring die Stimmung von Stan in die richtige Reihenfolge (erst ... dann ...).",
-    "explanation": "So verändert sich Stans Haltung von Brief zu Brief.",
-    "items": [
-     {
-      "id": "o1",
-      "text": "Er ist neugierig und freundlich"
-     },
-     {
-      "id": "o2",
-      "text": "Er wartet und wird enttäuscht"
-     },
-     {
-      "id": "o3",
-      "text": "Er wird wütend"
-     },
-     {
-      "id": "o4",
-      "text": "Er trifft eine schlimme Entscheidung"
-     }
-    ]
-   },
-   {
-    "id": "q7",
     "type": "matching",
     "prompt": "Ordne zu: Was passt zu welchem Brief?",
     "explanation": "Die Briefe werden Schritt für Schritt dunkler.",
@@ -6979,17 +6600,7 @@ const STOCK_PACKAGES = [
     "distractors": []
    },
    {
-    "id": "q8",
-    "type": "short_answer",
-    "prompt": "Wie heißt der kleine Bruder, den Stan erwähnt? (ein Wort)",
-    "explanation": "Der Bruder ist erst sechs Jahre alt; Stan sagt, ein Autogramm für ihn wäre schön gewesen.",
-    "acceptedAnswers": [
-     "Matthew"
-    ],
-    "modelAnswer": "Matthew"
-   },
-   {
-    "id": "q9",
+    "id": "q7",
     "type": "single_choice",
     "prompt": "Warum ist Stan so enttäuscht?",
     "explanation": "Stan fühlt sich von seinem Idol nicht ernst genommen.",
@@ -7014,14 +6625,14 @@ const STOCK_PACKAGES = [
     "correctOptionId": "b"
    },
    {
-    "id": "q10",
+    "id": "q8",
     "type": "true_false",
     "prompt": "Am Ende antwortet der Rapper – aber zu spät.",
     "explanation": "Slim schreibt zurück und gibt freundliche Ratschläge; da ist die Geschichte schon schlimm ausgegangen.",
     "answer": true
    },
    {
-    "id": "q11",
+    "id": "q9",
     "type": "gap_fill",
     "prompt": "Wortschatz: Ergänze das englische Wort (Hilfe: fan, letter, wait, angry).",
     "explanation": "Die vier Schlüsselwörter der Geschichte.",
@@ -7054,7 +6665,7 @@ const STOCK_PACKAGES = [
     ]
    },
    {
-    "id": "q12",
+    "id": "q10",
     "type": "matching",
     "prompt": "Wortschatz: Verbinde Wort und Bedeutung.",
     "explanation": "Diese Wörter kommen im Lied vor oder gehören zur Geschichte.",
@@ -7083,7 +6694,7 @@ const STOCK_PACKAGES = [
     "distractors": []
    },
    {
-    "id": "q13",
+    "id": "q11",
     "type": "single_choice",
     "prompt": "Wortschatz: „He ignored my letters\" bedeutet …",
     "explanation": "to ignore = nicht beachten.",
@@ -7108,14 +6719,14 @@ const STOCK_PACKAGES = [
     "correctOptionId": "b"
    },
    {
-    "id": "q14",
+    "id": "q12",
     "type": "true_false",
     "prompt": "Nach dem Hören: Das Lied ist eine echte, wahre Geschichte über einen bestimmten Fan.",
     "explanation": "Die Geschichte ist erfunden; sie zeigt, was passieren kann, wenn Bewunderung zu Besessenheit wird.",
     "answer": false
    },
    {
-    "id": "q15",
+    "id": "q13",
     "type": "single_choice",
     "prompt": "Wie ist die Stimmung am Ende des Liedes?",
     "explanation": "Die Geschichte endet tragisch.",
@@ -7140,7 +6751,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "b"
    },
    {
-    "id": "q16",
+    "id": "q14",
     "type": "single_choice",
     "prompt": "Welche Aufgabe hat Dido in dem Lied?",
     "explanation": "Ihr Gesang kommt aus einem eigenen Lied und gibt der Geschichte Ruhe und Trauer.",
@@ -7197,10 +6808,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 21,
+  "estimatedMinutes": 17,
   "media": {
    "type": "youtube",
    "videoId": "gOMhN-hfMtY"
@@ -7234,21 +6846,6 @@ const STOCK_PACKAGES = [
   "questions": [
    {
     "id": "q1",
-    "type": "short_answer",
-    "prompt": "Vor dem Hören: Wie wirkt der Anfang des Liedes auf dich? Nenne ein passendes Adjektiv (z. B. gloomy).",
-    "explanation": "Regen, Klavier und die ruhige Stimme erzeugen eine bedrückte Stimmung.",
-    "acceptedAnswers": [
-     "gloomy",
-     "sad",
-     "melancholic",
-     "calm",
-     "dark",
-     "quiet"
-    ],
-    "modelAnswer": "gloomy / sad"
-   },
-   {
-    "id": "q2",
     "type": "matching",
     "prompt": "Beim Hören: Ordne die Personen den Rollen zu.",
     "explanation": "Das sind die wichtigsten Figuren und Stimmen.",
@@ -7277,7 +6874,7 @@ const STOCK_PACKAGES = [
     "distractors": []
    },
    {
-    "id": "q3",
+    "id": "q2",
     "type": "ordering",
     "prompt": "Bring die Ereignisse in die richtige Reihenfolge.",
     "explanation": "So entwickelt sich die Geschichte.",
@@ -7305,7 +6902,7 @@ const STOCK_PACKAGES = [
     ]
    },
    {
-    "id": "q4",
+    "id": "q3",
     "type": "single_choice",
     "prompt": "Was macht Stan in seinem dritten Brief?",
     "explanation": "Der dritte „Brief\" ist eine Tonaufnahme; das Auto spielt am Ende eine tödliche Rolle.",
@@ -7330,14 +6927,14 @@ const STOCK_PACKAGES = [
     "correctOptionId": "b"
    },
    {
-    "id": "q5",
+    "id": "q4",
     "type": "true_false",
     "prompt": "Stan erreicht sein Ziel: Er trifft den Rapper persönlich.",
     "explanation": "Sie begegnen sich nie; Slims Antwort kommt zu spät.",
     "answer": false
    },
    {
-    "id": "q6",
+    "id": "q5",
     "type": "single_choice",
     "prompt": "Wer hat Stan nach seinem Verständnis im Stich gelassen?",
     "explanation": "Er sieht sich vom Idol ignoriert.",
@@ -7362,7 +6959,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "b"
    },
    {
-    "id": "q7",
+    "id": "q6",
     "type": "multiple_choice",
     "prompt": "Welche Gefühle zeigt Stan im Verlauf des Liedes? (mehrere)",
     "explanation": "Von Begeisterung zu Verzweiflung; Langeweile kommt nicht vor.",
@@ -7396,7 +6993,7 @@ const STOCK_PACKAGES = [
     ]
    },
    {
-    "id": "q8",
+    "id": "q7",
     "type": "single_choice",
     "prompt": "Welche Textsorte spielt in dem Lied die wichtigste Rolle?",
     "explanation": "Die ganze Handlung wird durch Briefe erzählt.",
@@ -7421,7 +7018,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "b"
    },
    {
-    "id": "q9",
+    "id": "q8",
     "type": "gap_fill",
     "prompt": "Wortschatz: Setze passende Wörter ein (obsessed, admire, ignore, upset).",
     "explanation": "Wörter für Gefühle und Handlungen.",
@@ -7454,7 +7051,7 @@ const STOCK_PACKAGES = [
     ]
    },
    {
-    "id": "q10",
+    "id": "q9",
     "type": "matching",
     "prompt": "Wortschatz: Verbinde Wort und Bedeutung.",
     "explanation": "Typische Wörter, um Stans Haltung zu beschreiben.",
@@ -7488,7 +7085,7 @@ const STOCK_PACKAGES = [
     "distractors": []
    },
    {
-    "id": "q11",
+    "id": "q10",
     "type": "single_choice",
     "prompt": "Welches Wort passt zu „He sent three letters but nobody answered\"?",
     "explanation": "Er fühlt sich ignoriert.",
@@ -7513,7 +7110,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "b"
    },
    {
-    "id": "q12",
+    "id": "q11",
     "type": "single_choice",
     "prompt": "Kontrolliere: „Stan wrote to the rapper because he …\"",
     "explanation": "Motiv der Briefe ist Bewunderung.",
@@ -7538,14 +7135,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "b"
    },
    {
-    "id": "q13",
-    "type": "true_false",
-    "prompt": "Nach dem Hören: Das Video erzählt die Geschichte genauso wie der Text, ohne zusätzliche Informationen.",
-    "explanation": "Das Video zeigt zusätzliche Szenen (Stans Zimmer, sein Umfeld), die im Text nur angedeutet werden.",
-    "answer": false
-   },
-   {
-    "id": "q14",
+    "id": "q12",
     "type": "single_choice",
     "prompt": "Das Lied benutzt ein Sample aus einem anderen Lied. Was bewirkt es?",
     "explanation": "Der ruhige Gesang kontrastiert mit der Wut im Rap.",
@@ -7568,13 +7158,6 @@ const STOCK_PACKAGES = [
      }
     ],
     "correctOptionId": "b"
-   },
-   {
-    "id": "q15",
-    "type": "true_false",
-    "prompt": "Das Lied ist heute noch aktuell: Auch Influencer und Fans erleben ähnliche Beziehungen.",
-    "explanation": "Stichwort parasoziale Beziehung – einseitige Bindung an Prominente.",
-    "answer": true
    }
   ]
  },
@@ -7609,10 +7192,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 20,
+  "estimatedMinutes": 18,
   "media": {
    "type": "youtube",
    "videoId": "gOMhN-hfMtY"
@@ -7646,19 +7230,6 @@ const STOCK_PACKAGES = [
   "questions": [
    {
     "id": "q1",
-    "type": "short_answer",
-    "prompt": "Vor dem Hören: Warum sind Intro und Gesang im Kontrast zum Rap wirksam? Nenne ein Schlüsselwort (contrast, tension, calm …).",
-    "explanation": "Das Sample liefert einen Gegenpol zum aufgebrachten Rap.",
-    "acceptedAnswers": [
-     "contrast",
-     "tension",
-     "calm",
-     "irony"
-    ],
-    "modelAnswer": "contrast / tension"
-   },
-   {
-    "id": "q2",
     "type": "ordering",
     "prompt": "Rekonstruiere den Erzählbogen.",
     "explanation": "Briefroman im Lied; die Wendepunkte markieren Schritte der Eskalation.",
@@ -7686,7 +7257,7 @@ const STOCK_PACKAGES = [
     ]
    },
    {
-    "id": "q3",
+    "id": "q2",
     "type": "single_choice",
     "prompt": "Welche Funktion hat der Brief Slims am Ende?",
     "explanation": "Der freundliche Brief steht im Kontrast zur Katastrophe: zu spät, zu wenig.",
@@ -7711,7 +7282,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "b"
    },
    {
-    "id": "q4",
+    "id": "q3",
     "type": "multiple_choice",
     "prompt": "Welche Stilmittel fallen auf? (mehrere)",
     "explanation": "Briefform und Ich-Perspektive dominieren; Fragen und Anreden an Slim erzeugen Nähe.",
@@ -7745,7 +7316,7 @@ const STOCK_PACKAGES = [
     ]
    },
    {
-    "id": "q5",
+    "id": "q4",
     "type": "single_choice",
     "prompt": "Welche Beziehung beschreibt der Begriff „parasocial relationship\"?",
     "explanation": "Fans fühlen sich verbunden, die berühmte Person kennt sie aber nicht.",
@@ -7770,7 +7341,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "b"
    },
    {
-    "id": "q6",
+    "id": "q5",
     "type": "single_choice",
     "prompt": "Welche Rolle spielt die Perspektive des Ich-Erzählers?",
     "explanation": "Man erlebt alles aus Stans Sicht, sieht aber auch, was er nicht sieht.",
@@ -7795,7 +7366,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q7",
+    "id": "q6",
     "type": "gap_fill",
     "prompt": "Reported Speech: Ergänze (had written, hadn’t answered, would reply, was).",
     "explanation": "Backshift: Present → Past, Past → Past Perfect, will → would.",
@@ -7829,7 +7400,7 @@ const STOCK_PACKAGES = [
     ]
    },
    {
-    "id": "q8",
+    "id": "q7",
     "type": "single_choice",
     "prompt": "Conditional: „If Slim had answered earlier, Stan … feel better.\"",
     "explanation": "Third conditional: if + Past Perfect, would have + Participle.",
@@ -7854,7 +7425,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "b"
    },
    {
-    "id": "q9",
+    "id": "q8",
     "type": "matching",
     "prompt": "Synonyme: Verbinde passende Paare.",
     "explanation": "Wörter zur Beschreibung von Stans Zustand.",
@@ -7883,7 +7454,7 @@ const STOCK_PACKAGES = [
     "distractors": []
    },
    {
-    "id": "q10",
+    "id": "q9",
     "type": "matching",
     "prompt": "Antonyme: Verbinde Gegensatzpaare.",
     "explanation": "Gegensätze helfen, Nuancen zu erkennen.",
@@ -7912,7 +7483,7 @@ const STOCK_PACKAGES = [
     "distractors": []
    },
    {
-    "id": "q11",
+    "id": "q10",
     "type": "single_choice",
     "prompt": "Welche Aussage fasst die gesellschaftliche Kritik des Liedes am besten zusammen?",
     "explanation": "Der Text warnt vor Eskalation durch Idealisierung und Ausbleiben von Zuwendung.",
@@ -7937,14 +7508,14 @@ const STOCK_PACKAGES = [
     "correctOptionId": "b"
    },
    {
-    "id": "q12",
+    "id": "q11",
     "type": "true_false",
     "prompt": "Das Sample aus einem fremden Lied wirkt nur dekorativ und hat keine inhaltliche Funktion.",
     "explanation": "Es setzt einen Gefühlsrahmen und verstärkt die Tragik.",
     "answer": false
    },
    {
-    "id": "q13",
+    "id": "q12",
     "type": "single_choice",
     "prompt": "Welche Veränderung der Medienlandschaft seit 2000 verschärft das Thema?",
     "explanation": "Direktnachrichten, Livestreams und Kommentare erzeugen Nähe – und Erwartungen.",
@@ -7969,7 +7540,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q14",
+    "id": "q13",
     "type": "true_false",
     "prompt": "Das Video ergänzt Informationen, die der Text nicht liefert.",
     "explanation": "Bilder zeigen Umfeld und Details, die den Text deuten.",
@@ -8007,10 +7578,11 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
-  "estimatedMinutes": 17,
+  "estimatedMinutes": 15,
   "media": {
    "type": "youtube",
    "videoId": "4zE1RnQnwcQ"
@@ -8067,95 +7639,6 @@ const STOCK_PACKAGES = [
    },
    {
     "id": "q2",
-    "type": "matching",
-    "prompt": "Collega le forme dialettali all’italiano.",
-    "explanation": "Esercizio di traduzione.",
-    "pairs": [
-     {
-      "id": "p1",
-      "left": "si suonn",
-      "right": "sei un sogno"
-     },
-     {
-      "id": "p2",
-      "left": "je pens a te",
-      "right": "io penso a te"
-     },
-     {
-      "id": "p3",
-      "left": "teng",
-      "right": "ho"
-     },
-     {
-      "id": "p4",
-      "left": "o",
-      "right": "il"
-     }
-    ],
-    "distractors": []
-   },
-   {
-    "id": "q3",
-    "type": "multiple_choice",
-    "prompt": "Che cosa si vede nella lingua del testo? (più risposte)",
-    "explanation": "Italiano e napoletano si alternano.",
-    "options": [
-     {
-      "id": "a",
-      "text": "Mescolanza di codici"
-     },
-     {
-      "id": "b",
-      "text": "Frasi molto lunghe"
-     },
-     {
-      "id": "c",
-      "text": "Espressioni affettive"
-     },
-     {
-      "id": "d",
-      "text": "Termini tecnici"
-     }
-    ],
-    "correctOptionIds": [
-     "a",
-     "c"
-    ]
-   },
-   {
-    "id": "q4",
-    "type": "single_choice",
-    "prompt": "Perché i dialetti spopolano sui social (articolo sul dialetto)?",
-    "explanation": "Meme, battute, canzoni.",
-    "options": [
-     {
-      "id": "a",
-      "text": "Sono divertenti e creano identità"
-     },
-     {
-      "id": "b",
-      "text": "Sono obbligatori"
-     },
-     {
-      "id": "c",
-      "text": "Sono più semplici"
-     },
-     {
-      "id": "d",
-      "text": "Sono vietati"
-     }
-    ],
-    "correctOptionId": "a"
-   },
-   {
-    "id": "q5",
-    "type": "true_false",
-    "prompt": "Secondo l’articolo molti italiani parlano ancora un dialetto in famiglia.",
-    "explanation": "L’articolo cita dati sulla diffusione.",
-    "answer": true
-   },
-   {
-    "id": "q6",
     "type": "single_choice",
     "prompt": "Quale effetto ha il ritornello?",
     "explanation": "Struttura ripetitiva e canto.",
@@ -8180,7 +7663,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q7",
+    "id": "q3",
     "type": "single_choice",
     "prompt": "Che cosa significa “mescolare italiano e dialetto”?",
     "explanation": "Code-switching.",
@@ -8205,7 +7688,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q8",
+    "id": "q4",
     "type": "gap_fill",
     "prompt": "Completa (dialetto, identità, social, tradizione).",
     "explanation": "Lessico dell’articolo.",
@@ -8238,7 +7721,7 @@ const STOCK_PACKAGES = [
     ]
    },
    {
-    "id": "q9",
+    "id": "q5",
     "type": "single_choice",
     "prompt": "Quale registro usa l’artista?",
     "explanation": "Tono diretto.",
@@ -8263,48 +7746,104 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q10",
+    "id": "q6",
     "type": "true_false",
     "prompt": "La canzone è un esempio di musica popolare contemporanea.",
     "explanation": "Pop con elementi regionali.",
     "answer": true
    },
    {
-    "id": "q11",
-    "type": "short_answer",
-    "prompt": "Trova un sinonimo di “amore” (una parola).",
-    "explanation": "Più risposte possibili.",
-    "acceptedAnswers": [
-     "affetto",
-     "passione",
-     "amore"
-    ],
-    "modelAnswer": "affetto"
-   },
-   {
-    "id": "q12",
+    "id": "q7",
     "type": "single_choice",
-    "prompt": "Quale compito del foglio è consigliato?",
-    "explanation": "Compito 1 del foglio.",
+    "prompt": "Che cosa significa, in senso figurato, “Tu si’ ’a fine d’ ’o munno” (“Sei la fine del mondo”)?",
+    "explanation": "È un’espressione iperbolica: la persona amata è il massimo.",
     "options": [
      {
       "id": "a",
-      "text": "Evidenziare le parti in dialetto e tradurle"
+      "text": "Sei perfetta/o, sei il massimo"
      },
      {
       "id": "b",
-      "text": "Riscrivere il testo in inglese"
+      "text": "Sei molto lontano"
      },
      {
       "id": "c",
-      "text": "Imparare a memoria"
+      "text": "Sei pericolosa/o"
      },
      {
       "id": "d",
-      "text": "Cantare in coro"
+      "text": "Sei triste"
      }
     ],
     "correctOptionId": "a"
+   },
+   {
+    "id": "q8",
+    "type": "true_false",
+    "prompt": "La canzone è uscita nel 2018 ed è diventata un “tormentone” tra i giovani.",
+    "explanation": "Circa 100 milioni di visualizzazioni su YouTube.",
+    "answer": true
+   },
+   {
+    "id": "q9",
+    "type": "true_false",
+    "prompt": "Nel maggio 2023 i giocatori dell’Inter l’hanno cantata festeggiando la Coppa Italia.",
+    "explanation": "Episodio riportato dalla stampa (Vesuvio Live).",
+    "answer": true
+   },
+   {
+    "id": "q10",
+    "type": "single_choice",
+    "prompt": "In quale lingua è cantata la canzone?",
+    "explanation": "Neomelodico in napoletano.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Dialetto napoletano"
+     },
+     {
+      "id": "b",
+      "text": "Italiano standard"
+     },
+     {
+      "id": "c",
+      "text": "Siciliano antico"
+     },
+     {
+      "id": "d",
+      "text": "Latino"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q11",
+    "type": "multiple_choice",
+    "prompt": "Che cosa caratterizza il genere neomelodico? (più risposte)",
+    "explanation": "Amore, napoletano e diffusione online.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Testi spesso d’amore"
+     },
+     {
+      "id": "b",
+      "text": "Dialetto napoletano"
+     },
+     {
+      "id": "c",
+      "text": "Strumenti solo classici dell’opera"
+     },
+     {
+      "id": "d",
+      "text": "Pubblico giovane sui social"
+     }
+    ],
+    "correctOptionIds": [
+     "a",
+     "b",
+     "d"
+    ]
    }
   ]
  },
@@ -8338,7 +7877,8 @@ const STOCK_PACKAGES = [
   ],
   "reviewNotes": [
    "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+   "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+   "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
   ],
   "cover": "wave",
   "estimatedMinutes": 17,
@@ -8431,60 +7971,6 @@ const STOCK_PACKAGES = [
    {
     "id": "q4",
     "type": "single_choice",
-    "prompt": "Il testo mescola…",
-    "explanation": "Un testo in dialetto napoletano e italiano.",
-    "options": [
-     {
-      "id": "a",
-      "text": "Italiano e napoletano"
-     },
-     {
-      "id": "b",
-      "text": "Inglese e francese"
-     },
-     {
-      "id": "c",
-      "text": "Solo inglese"
-     },
-     {
-      "id": "d",
-      "text": "Solo latino"
-     }
-    ],
-    "correctOptionId": "a"
-   },
-   {
-    "id": "q5",
-    "type": "matching",
-    "prompt": "Dialetto → italiano standard: collega.",
-    "explanation": "Forme dialettali comuni.",
-    "pairs": [
-     {
-      "id": "p1",
-      "left": "Tu si",
-      "right": "Tu sei"
-     },
-     {
-      "id": "p2",
-      "left": "Cu tte",
-      "right": "Con te"
-     },
-     {
-      "id": "p3",
-      "left": "teng na vogl",
-      "right": "ho una voglia"
-     },
-     {
-      "id": "p4",
-      "left": "o primo pensiero",
-      "right": "il primo pensiero"
-     }
-    ],
-    "distractors": []
-   },
-   {
-    "id": "q6",
-    "type": "single_choice",
     "prompt": "Che cosa significa più o meno “fine do’ munno”?",
     "explanation": "Espressione iperbolica positiva.",
     "options": [
@@ -8508,7 +7994,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q7",
+    "id": "q5",
     "type": "gap_fill",
     "prompt": "Completa (amore, sogni, testa, pensiero).",
     "explanation": "Parole del testo in italiano.",
@@ -8541,14 +8027,14 @@ const STOCK_PACKAGES = [
     ]
    },
    {
-    "id": "q8",
+    "id": "q6",
     "type": "true_false",
     "prompt": "La canzone è stata registrata nel 2018.",
     "explanation": "Il singolo è del 2018.",
     "answer": true
    },
    {
-    "id": "q9",
+    "id": "q7",
     "type": "single_choice",
     "prompt": "Chi canta?",
     "explanation": "Angelo Famao.",
@@ -8573,7 +8059,7 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q10",
+    "id": "q8",
     "type": "single_choice",
     "prompt": "Che atmosfera ha la canzone?",
     "explanation": "Tono romantico e ritmo leggero.",
@@ -8598,23 +8084,68 @@ const STOCK_PACKAGES = [
     "correctOptionId": "a"
    },
    {
-    "id": "q11",
+    "id": "q9",
     "type": "true_false",
     "prompt": "Dopo l’ascolto: I dialetti in Italia sono solo parlati dagli anziani.",
     "explanation": "Anche i giovani li usano, soprattutto sui social.",
     "answer": false
    },
    {
-    "id": "q12",
-    "type": "short_answer",
-    "prompt": "Trova nel testo: come si dice “con te” in dialetto? (due parole)",
-    "explanation": "Cu tte = con te.",
-    "acceptedAnswers": [
-     "cu tte",
-     "cu te",
-     "Cu tte"
+    "id": "q10",
+    "type": "single_choice",
+    "prompt": "Chi canta “Tu si a fine do’ munno”?",
+    "explanation": "Angelo Famao, cantante neomelodico nato a Catania.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Angelo Famao"
+     },
+     {
+      "id": "b",
+      "text": "Liberato"
+     },
+     {
+      "id": "c",
+      "text": "Gigi D’Alessio"
+     },
+     {
+      "id": "d",
+      "text": "Nino D’Angelo"
+     }
     ],
-    "modelAnswer": "cu tte"
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q11",
+    "type": "true_false",
+    "prompt": "Angelo Famao è nato a Catania, ma canta in dialetto napoletano.",
+    "explanation": "Il genere si chiama neomelodico: pop in napoletano.",
+    "answer": true
+   },
+   {
+    "id": "q12",
+    "type": "single_choice",
+    "prompt": "Come si chiama il genere musicale di questa canzone?",
+    "explanation": "Neomelodico = pop in dialetto napoletano.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Neomelodico"
+     },
+     {
+      "id": "b",
+      "text": "Opera lirica"
+     },
+     {
+      "id": "c",
+      "text": "Rap trap"
+     },
+     {
+      "id": "d",
+      "text": "Rock progressivo"
+     }
+    ],
+    "correctOptionId": "a"
    }
   ]
  },
@@ -9738,7 +9269,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Buongiorno, professoressa!",
     "definition": "Saluto formale che si dice la mattina o fino al primo pomeriggio.",
-    "usage": "Unterscheide: Buongiorno zu Erwachsenen, zum Beispiel zur Lehrkraft – Ciao unter Freunden",
+    "contrast": "Buongiorno zu Erwachsenen, zum Beispiel zur Lehrkraft – Ciao unter Freunden",
     "page": "167-168",
     "related": "F bonjour"
    },
@@ -12395,7 +11926,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Dove abiti?",
     "definition": "Domanda per sapere il luogo.",
-    "usage": "Unterscheide: Dove? – Wo?; Dov’è? – Wo ist (er/sie)?; Di dov’è? – Woher ist (er/sie)?",
+    "contrast": "Dove? – Wo?; Dov’è? – Wo ist (er/sie)?; Di dov’è? – Woher ist (er/sie)?",
     "page": "169-170"
    },
    {
@@ -12686,7 +12217,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Visitiamo il museo.",
     "definition": "Andare a vedere un luogo con curiosità.",
-    "usage": "Unterscheide: visitare heißt nur „etw. besichtigen“, nicht „jdn besuchen“",
+    "contrast": "visitare heißt nur „etw. besichtigen“, nicht „jdn besuchen“",
     "page": "170-171",
     "related": "E to visit; F visiter"
    },
@@ -12700,7 +12231,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "A Roma c’è il Colosseo.",
     "definition": "Si usa per dire che una cosa o una persona è presente in un luogo.",
-    "usage": "Unterscheide: c’è – es gibt, da ist; che? – was?",
+    "contrast": "c’è – es gibt, da ist; che? – was?",
     "page": "170-171"
    },
    {
@@ -12746,7 +12277,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il papà prepara la cena.",
     "definition": "Il padre, detto in modo affettuoso.",
-    "usage": "Unterscheide: il papà – der Papa; il papa – der Papst",
+    "contrast": "il papà – der Papa; il papa – der Papst",
     "page": "170-171",
     "grammar": {
      "partOfSpeech": "noun",
@@ -13122,7 +12653,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Vivo in Germania.",
     "definition": "Piccola parola che indica luogo o tempo.",
-    "usage": "Unterscheide: 1. bei Ländern/Regionen: Abito in Italia (Wo?); Torno in Italia (Wohin?) – 2. bei Städten: Abito a Torino (Wo?); Torno a Torino (Wohin?) – 3. auch: Sono a scuola (Wo?); Torno a scuola (Wohin?)",
+    "contrast": "1. bei Ländern/Regionen: Abito in Italia (Wo?); Torno in Italia (Wohin?) – 2. bei Städten: Abito a Torino (Wo?); Torno a Torino (Wohin?) – 3. auch: Sono a scuola (Wo?); Torno a scuola (Wohin?)",
     "page": "170-171"
    },
    {
@@ -13439,7 +12970,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Roma è una città grande.",
     "definition": "Forma del verbo “essere” per una persona o una cosa.",
-    "usage": "Unterscheide: è – er, sie, es ist; e – und",
+    "contrast": "è – er, sie, es ist; e – und",
     "page": "168-169"
    },
    {
@@ -15837,7 +15368,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "La mia famiglia ha una casa a Lecce.",
     "definition": "Edificio dove si abita.",
-    "usage": "Unterscheide: Sono a casa. – Ich bin zu Hause. / Torno a casa. – Ich komme nach Hause zurück.",
+    "contrast": "Sono a casa. – Ich bin zu Hause. / Torno a casa. – Ich komme nach Hause zurück.",
     "page": "172-173",
     "grammar": {
      "partOfSpeech": "noun",
@@ -15905,7 +15436,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Quale preferisci?",
     "definition": "Domanda per scegliere tra più cose.",
-    "usage": "Unterscheide: Quale + è → Qual è il cognome di Filippo?; Quale? = Welche(r/s)? (aus einer Auswahl), engl. Which?; Che? = Was für? (allgemein), engl. What?",
+    "contrast": "Quale + è → Qual è il cognome di Filippo?; Quale? = Welche(r/s)? (aus einer Auswahl), engl. Which?; Che? = Was für? (allgemein), engl. What?",
     "page": "172-173",
     "related": "L qualis"
    },
@@ -16371,7 +15902,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Lo Scifo è il prof di mate.",
     "definition": "Insegnante di una scuola superiore.",
-    "usage": "Unterscheide: il professore – il professor De Carli",
+    "contrast": "il professore – il professor De Carli",
     "page": "178-180",
     "related": "F le/la professeur"
    },
@@ -17030,7 +16561,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Arrivo fra dieci minuti.",
     "definition": "Indica il tempo che manca prima di un evento.",
-    "usage": "Unterscheide: Vengo fra/tra cinque minuti. – Ich komme in fünf Minuten. (zeitlich); Fra/Tra Giorgia e Anna sta Khalid. – Zwischen Giorgia und Anna steht Khalid. (örtlich)",
+    "contrast": "Vengo fra/tra cinque minuti. – Ich komme in fünf Minuten. (zeitlich); Fra/Tra Giorgia e Anna sta Khalid. – Zwischen Giorgia und Anna steht Khalid. (örtlich)",
     "page": "180-181"
    },
    {
@@ -17203,7 +16734,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Penso che sia vero.",
     "definition": "Piccola parola che introduce una frase.",
-    "usage": "Unterscheide: Che fortuna! – Was für ein Glück!; che ho una camera mia! – dass ich ein eigenes Zimmer habe!",
+    "contrast": "Che fortuna! – Was für ein Glück!; che ho una camera mia! – dass ich ein eigenes Zimmer habe!",
     "page": "180-181"
    },
    {
@@ -18207,7 +17738,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "A che ora comincia la lezione?",
     "definition": "Domanda per sapere il momento preciso.",
-    "usage": "Unterscheide: A che ora vai a casa? – Alle due. / All’una.",
+    "contrast": "A che ora vai a casa? – Alle due. / All’una.",
     "page": "177-178",
     "related": "F A quelle heure?"
    },
@@ -18699,7 +18230,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Anna, non vengo. Devi andare da sola.",
     "definition": "Senza altre persone.",
-    "usage": "Unterscheide: Non vado da solo. – Ich fahre nicht alleine. / Vado a Sestriere solo con gli amici. – Ich fahre nur mit den Freunden nach Sestriere.",
+    "contrast": "Non vado da solo. – Ich fahre nicht alleine. / Vado a Sestriere solo con gli amici. – Ich fahre nur mit den Freunden nach Sestriere.",
     "page": "183-185",
     "related": "L solus"
    },
@@ -19085,7 +18616,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Filippo vuole imparare a sciare.",
     "definition": "Acquisire una nuova conoscenza o capacità.",
-    "usage": "Unterscheide: Voglio imparare il tedesco. – Ich möchte Deutsch lernen. / Oggi devo ancora studiare per il compito di tedesco. – Heute muss ich noch für die Deutschschulaufgabe lernen.",
+    "contrast": "Voglio imparare il tedesco. – Ich möchte Deutsch lernen. / Oggi devo ancora studiare per il compito di tedesco. – Heute muss ich noch für die Deutschschulaufgabe lernen.",
     "page": "183-185"
    },
    {
@@ -20063,7 +19594,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Suono la chitarra.",
     "definition": "Produrre musica con uno strumento.",
-    "usage": "Unterscheide: Fußball spielen – giocare a calcio; Klavier spielen – suonare il pianoforte. Das Musikinstrument steht nach suonare immer mit dem bestimmten Artikel.",
+    "contrast": "Fußball spielen – giocare a calcio; Klavier spielen – suonare il pianoforte. Das Musikinstrument steht nach suonare immer mit dem bestimmten Artikel.",
     "page": "182-183"
    },
    {
@@ -20137,7 +19668,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Accompagno mia sorella a scuola.",
     "definition": "Andare o suonare insieme a qualcuno.",
-    "usage": "Unterscheide: Perché la matematica è facile per Khalid? – Warum ist Mathematik einfach für Khalid? / La matematica è facile per Khalid perché capisce tutto subito. – Mathematik ist einfach für Khalid, weil er alles sofort versteht.",
+    "contrast": "Perché la matematica è facile per Khalid? – Warum ist Mathematik einfach für Khalid? / La matematica è facile per Khalid perché capisce tutto subito. – Mathematik ist einfach für Khalid, weil er alles sofort versteht.",
     "page": "182-183",
     "related": "F accompagner; E to accompany"
    },
@@ -20219,7 +19750,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "D’inverno vado a pattinare.",
     "definition": "Scivolare sul ghiaccio con speciali scarpe.",
-    "usage": "Unterscheide: pattinare – eislaufen, inlineskaten; pattinare su(l) ghiaccio – eislaufen; pattinare inline – inlineskaten. Wenn es Missverständnisse geben könnte, muss man sul ghiaccio oder inline entsprechend ergänzen.",
+    "contrast": "pattinare – eislaufen, inlineskaten; pattinare su(l) ghiaccio – eislaufen; pattinare inline – inlineskaten. Wenn es Missverständnisse geben könnte, muss man sul ghiaccio oder inline entsprechend ergänzen.",
     "page": "182-183"
    },
    {
@@ -20863,7 +20394,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Abbiamo passato una bella serata.",
     "definition": "L’intero periodo che va dal tramonto alla notte.",
-    "usage": "Unterscheide: 1. den Abend in seinem Verlauf: Abbiamo passato una bella serata al ristorante. – Wir haben einen schönen Abend im Restaurant verbracht. 2. den Abend als Zeitangabe: Domani sera andiamo al ristorante. – Morgen Abend gehen wir ins Restaurant.",
+    "contrast": "1. den Abend in seinem Verlauf: Abbiamo passato una bella serata al ristorante. – Wir haben einen schönen Abend im Restaurant verbracht. 2. den Abend als Zeitangabe: Domani sera andiamo al ristorante. – Morgen Abend gehen wir ins Restaurant.",
     "page": "187-188",
     "related": "▸ la sera; F la soirée",
     "grammar": {
@@ -21191,7 +20722,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il compito di latino è difficile.",
     "definition": "Che richiede molta fatica.",
-    "usage": "Unterscheide: Il compito è facile. – Die Aufgabe ist einfach/leicht (vgl. engl. easy). Il compito è difficile. – Die Aufgabe ist schwierig/schwer (vgl. engl. difficult). La borsa è leggera. – Die Tasche ist leicht (Gewicht; vgl. engl. light). La borsa è pesante. – Die Tasche ist schwer (Gewicht; vgl. engl. heavy).",
+    "contrast": "Il compito è facile. – Die Aufgabe ist einfach/leicht (vgl. engl. easy). Il compito è difficile. – Die Aufgabe ist schwierig/schwer (vgl. engl. difficult). La borsa è leggera. – Die Tasche ist leicht (Gewicht; vgl. engl. light). La borsa è pesante. – Die Tasche ist schwer (Gewicht; vgl. engl. heavy).",
     "page": "187-188",
     "related": "≠ facile; L difficilis/-e"
    },
@@ -21884,7 +21415,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Dalla stazione dobbiamo camminare un po’.",
     "definition": "Muoversi a piedi.",
-    "usage": "Unterscheide: Devo camminare circa 35 minuti per arrivare a scuola. – Ich muss etwa 35 Minuten gehen/laufen, um in die Schule zu gelangen. La mattina devo andare a scuola. – Morgens muss ich in die Schule gehen. Mit camminare ist die Bewegung oder Bewegungsart gemeint. Einige Verben bilden das passato prossimo unregelmäßig: Ho camminato un’ora. – Ich bin eine Stunde lang spazieren gegangen.",
+    "contrast": "Devo camminare circa 35 minuti per arrivare a scuola. – Ich muss etwa 35 Minuten gehen/laufen, um in die Schule zu gelangen. La mattina devo andare a scuola. – Morgens muss ich in die Schule gehen. Mit camminare ist die Bewegung oder Bewegungsart gemeint. Einige Verben bilden das passato prossimo unregelmäßig: Ho camminato un’ora. – Ich bin eine Stunde lang spazieren gegangen.",
     "page": "188-190"
    }
   ]
@@ -22473,7 +22004,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Invito anche Anna. La chiamo subito.",
     "definition": "Dire il nome ad alta voce o telefonare.",
-    "usage": "Unterscheide: Chiamo Anna. – Ich rufe Anna an. / Mi chiamo Anna. – Ich heiße Anna.",
+    "contrast": "Chiamo Anna. – Ich rufe Anna an. / Mi chiamo Anna. – Ich heiße Anna.",
     "page": "191-192",
     "related": "L clamare"
    }
@@ -35011,7 +34542,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Roma è la capitale d’Italia.",
     "definition": "Città principale di un paese.",
-    "usage": "Unterscheide: la capitale (Land) – il capoluogo (Region)",
+    "contrast": "la capitale (Land) – il capoluogo (Region)",
     "page": "207-208",
     "related": "E capital city; F la capitale; L caput",
     "grammar": {
@@ -35437,7 +34968,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "La tua idea ha senso.",
     "definition": "Essere ragionevole.",
-    "usage": "Unterscheide: to make sense (engl.) – avere senso (ital.)",
+    "contrast": "to make sense (engl.) – avere senso (ital.)",
     "page": "207-208"
    },
    {
@@ -36519,7 +36050,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Sta’ attento alla strada!",
     "definition": "Fare attenzione a qualcuno o qualcosa.",
-    "usage": "Unterscheide: stare attento (auf der Hut sein) – fare attenzione (aufmerksam sein)",
+    "contrast": "stare attento (auf der Hut sein) – fare attenzione (aufmerksam sein)",
     "page": "214"
    },
    {
@@ -37709,7 +37240,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il falegname fa un bel mestiere.",
     "definition": "Lavoro manuale o artigianale.",
-    "usage": "Unterscheide: il mestiere (handwerklich) – la professione (erlernt)",
+    "contrast": "il mestiere (handwerklich) – la professione (erlernt)",
     "page": "212-214",
     "grammar": {
      "partOfSpeech": "noun",
@@ -38574,7 +38105,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Frequento la scuola di danza.",
     "definition": "Andare spesso in un luogo.",
-    "usage": "Unterscheide: frequentare (Kurs, Unterricht) – andare a trovare / visitare",
+    "contrast": "frequentare (Kurs, Unterricht) – andare a trovare / visitare",
     "page": "219-220"
    },
    {
@@ -39489,7 +39020,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il mare è azzurro.",
     "definition": "Colore del cielo sereno.",
-    "usage": "Unterscheide: celeste (hellblau) – blu (dunkelblau) – azzurro (mittelblau); gli azzurri = Fußballnationalmannschaft",
+    "contrast": "celeste (hellblau) – blu (dunkelblau) – azzurro (mittelblau); gli azzurri = Fußballnationalmannschaft",
     "page": "220-221"
    },
    {
@@ -40474,7 +40005,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Ci vogliono tre ore per arrivare.",
     "definition": "Dice che serve una certa quantità.",
-    "usage": "Unterscheide: ci vuole (man braucht) – bisogna (man muss) – ho bisogno di / mi serve (ich brauche)",
+    "contrast": "ci vuole (man braucht) – bisogna (man muss) – ho bisogno di / mi serve (ich brauche)",
     "page": "217-218"
    },
    {

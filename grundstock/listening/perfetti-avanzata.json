@@ -13,7 +13,7 @@
   "Società"
  ],
  "cover": "wave",
- "estimatedMinutes": 17,
+ "estimatedMinutes": 15,
  "media": {
   "type": "film",
   "title": "Perfetti sconosciuti",
@@ -53,7 +53,8 @@
  ],
  "reviewNotes": [
   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+  "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
  ],
  "questions": [
   {
@@ -284,25 +285,13 @@
   },
   {
    "id": "q10",
-   "type": "short_answer",
-   "prompt": "Scrivi un sinonimo di “segreto” (una parola).",
-   "acceptedAnswers": [
-    "mistero",
-    "riservato",
-    "nascosto"
-   ],
-   "modelAnswer": "mistero",
-   "explanation": "Più risposte possibili."
-  },
-  {
-   "id": "q11",
    "type": "true_false",
    "prompt": "Il film suggerisce che conosciamo davvero chi ci sta accanto.",
    "answer": false,
    "explanation": "Il titolo ironizza."
   },
   {
-   "id": "q12",
+   "id": "q11",
    "type": "single_choice",
    "prompt": "Perché è un film “universale”?",
    "options": [

@@ -14,7 +14,7 @@
   "Social Media"
  ],
  "cover": "wave",
- "estimatedMinutes": 21,
+ "estimatedMinutes": 17,
  "media": {
   "type": "youtube",
   "videoId": "gOMhN-hfMtY"
@@ -60,26 +60,12 @@
  ],
  "reviewNotes": [
   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+  "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
  ],
  "questions": [
   {
    "id": "q1",
-   "type": "short_answer",
-   "prompt": "Vor dem Hören: Wie wirkt der Anfang des Liedes auf dich? Nenne ein passendes Adjektiv (z. B. gloomy).",
-   "acceptedAnswers": [
-    "gloomy",
-    "sad",
-    "melancholic",
-    "calm",
-    "dark",
-    "quiet"
-   ],
-   "modelAnswer": "gloomy / sad",
-   "explanation": "Regen, Klavier und die ruhige Stimme erzeugen eine bedrückte Stimmung."
-  },
-  {
-   "id": "q2",
    "type": "matching",
    "prompt": "Beim Hören: Ordne die Personen den Rollen zu.",
    "pairs": [
@@ -107,7 +93,7 @@
    "explanation": "Das sind die wichtigsten Figuren und Stimmen."
   },
   {
-   "id": "q3",
+   "id": "q2",
    "type": "ordering",
    "prompt": "Bring die Ereignisse in die richtige Reihenfolge.",
    "items": [
@@ -135,7 +121,7 @@
    "explanation": "So entwickelt sich die Geschichte."
   },
   {
-   "id": "q4",
+   "id": "q3",
    "type": "single_choice",
    "prompt": "Was macht Stan in seinem dritten Brief?",
    "options": [
@@ -160,14 +146,14 @@
    "explanation": "Der dritte „Brief\" ist eine Tonaufnahme; das Auto spielt am Ende eine tödliche Rolle."
   },
   {
-   "id": "q5",
+   "id": "q4",
    "type": "true_false",
    "prompt": "Stan erreicht sein Ziel: Er trifft den Rapper persönlich.",
    "answer": false,
    "explanation": "Sie begegnen sich nie; Slims Antwort kommt zu spät."
   },
   {
-   "id": "q6",
+   "id": "q5",
    "type": "single_choice",
    "prompt": "Wer hat Stan nach seinem Verständnis im Stich gelassen?",
    "options": [
@@ -192,7 +178,7 @@
    "explanation": "Er sieht sich vom Idol ignoriert."
   },
   {
-   "id": "q7",
+   "id": "q6",
    "type": "multiple_choice",
    "prompt": "Welche Gefühle zeigt Stan im Verlauf des Liedes? (mehrere)",
    "options": [
@@ -226,7 +212,7 @@
    "explanation": "Von Begeisterung zu Verzweiflung; Langeweile kommt nicht vor."
   },
   {
-   "id": "q8",
+   "id": "q7",
    "type": "single_choice",
    "prompt": "Welche Textsorte spielt in dem Lied die wichtigste Rolle?",
    "options": [
@@ -251,7 +237,7 @@
    "explanation": "Die ganze Handlung wird durch Briefe erzählt."
   },
   {
-   "id": "q9",
+   "id": "q8",
    "type": "gap_fill",
    "prompt": "Wortschatz: Setze passende Wörter ein (obsessed, admire, ignore, upset).",
    "text": "Stan is [[a]] with the rapper. He used to [[b]] him, but now he feels [[c]] because the rapper seems to [[d]] his letters.",
@@ -284,7 +270,7 @@
    "explanation": "Wörter für Gefühle und Handlungen."
   },
   {
-   "id": "q10",
+   "id": "q9",
    "type": "matching",
    "prompt": "Wortschatz: Verbinde Wort und Bedeutung.",
    "pairs": [
@@ -317,7 +303,7 @@
    "explanation": "Typische Wörter, um Stans Haltung zu beschreiben."
   },
   {
-   "id": "q11",
+   "id": "q10",
    "type": "single_choice",
    "prompt": "Welches Wort passt zu „He sent three letters but nobody answered\"?",
    "options": [
@@ -342,7 +328,7 @@
    "explanation": "Er fühlt sich ignoriert."
   },
   {
-   "id": "q12",
+   "id": "q11",
    "type": "single_choice",
    "prompt": "Kontrolliere: „Stan wrote to the rapper because he …\"",
    "options": [
@@ -367,14 +353,7 @@
    "explanation": "Motiv der Briefe ist Bewunderung."
   },
   {
-   "id": "q13",
-   "type": "true_false",
-   "prompt": "Nach dem Hören: Das Video erzählt die Geschichte genauso wie der Text, ohne zusätzliche Informationen.",
-   "answer": false,
-   "explanation": "Das Video zeigt zusätzliche Szenen (Stans Zimmer, sein Umfeld), die im Text nur angedeutet werden."
-  },
-  {
-   "id": "q14",
+   "id": "q12",
    "type": "single_choice",
    "prompt": "Das Lied benutzt ein Sample aus einem anderen Lied. Was bewirkt es?",
    "options": [
@@ -397,13 +376,6 @@
    ],
    "correctOptionId": "b",
    "explanation": "Der ruhige Gesang kontrastiert mit der Wut im Rap."
-  },
-  {
-   "id": "q15",
-   "type": "true_false",
-   "prompt": "Das Lied ist heute noch aktuell: Auch Influencer und Fans erleben ähnliche Beziehungen.",
-   "answer": true,
-   "explanation": "Stichwort parasoziale Beziehung – einseitige Bindung an Prominente."
   }
  ],
  "vocabularyIds": []

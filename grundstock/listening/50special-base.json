@@ -13,7 +13,7 @@
   "Bologna"
  ],
  "cover": "wave",
- "estimatedMinutes": 21,
+ "estimatedMinutes": 20,
  "media": {
   "type": "youtube",
   "videoId": "NF9n5M5qhyU"
@@ -58,7 +58,8 @@
  ],
  "reviewNotes": [
   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+  "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
  ],
  "questions": [
   {
@@ -89,31 +90,6 @@
   {
    "id": "q2",
    "type": "single_choice",
-   "prompt": "Prima dell’ascolto: Che cosa fai di solito in estate? Quale immagine associ alla parola “estate”?",
-   "options": [
-    {
-     "id": "a",
-     "text": "Mare, amici e libertà"
-    },
-    {
-     "id": "b",
-     "text": "Compiti e verifiche"
-    },
-    {
-     "id": "c",
-     "text": "Neve e freddo"
-    },
-    {
-     "id": "d",
-     "text": "Lavoro in ufficio"
-    }
-   ],
-   "correctOptionId": "a",
-   "explanation": "Risposta soggettiva: serve per attivare il vocabolario dell’estate."
-  },
-  {
-   "id": "q3",
-   "type": "single_choice",
    "prompt": "Primo ascolto: Quale atmosfera ha la canzone?",
    "options": [
     {
@@ -137,7 +113,7 @@
    "explanation": "Un brano leggero e solare."
   },
   {
-   "id": "q4",
+   "id": "q3",
    "type": "single_choice",
    "prompt": "Primo ascolto: Che tipo di musica senti?",
    "options": [
@@ -162,14 +138,14 @@
    "explanation": "Chitarre, ritmo e voce giovane: pop-rock."
   },
   {
-   "id": "q5",
+   "id": "q4",
    "type": "true_false",
    "prompt": "Primo ascolto: La voce che canta è quella di un uomo.",
    "answer": true,
    "explanation": "Il cantante dei Lunapop è Cesare Cremonini."
   },
   {
-   "id": "q6",
+   "id": "q5",
    "type": "single_choice",
    "prompt": "Di che cosa parla la canzone, in generale?",
    "options": [
@@ -194,46 +170,14 @@
    "explanation": "Tema: libertà, estate, scooter."
   },
   {
-   "id": "q7",
+   "id": "q6",
    "type": "true_false",
    "prompt": "Secondo ascolto: Nella canzone si parla di una Vespa.",
    "answer": true,
    "explanation": "Il titolo stesso è un modello di Vespa: la 50 Special."
   },
   {
-   "id": "q8",
-   "type": "true_false",
-   "prompt": "Secondo ascolto: Il protagonista è molto anziano.",
-   "answer": false,
-   "explanation": "Il protagonista è un ragazzo giovane."
-  },
-  {
-   "id": "q9",
-   "type": "single_choice",
-   "prompt": "Quale parola descrive meglio il sentimento della canzone?",
-   "options": [
-    {
-     "id": "a",
-     "text": "La voglia di libertà"
-    },
-    {
-     "id": "b",
-     "text": "La paura"
-    },
-    {
-     "id": "c",
-     "text": "La noia"
-    },
-    {
-     "id": "d",
-     "text": "La rabbia"
-    }
-   ],
-   "correctOptionId": "a",
-   "explanation": "Libertà e spensieratezza."
-  },
-  {
-   "id": "q10",
+   "id": "q7",
    "type": "gap_fill",
    "prompt": "Completa le frasi con le parole giuste (estate, Vespa, festa, vacanza).",
    "text": "Il ragazzo ha una [[a]] e vuole andare a una [[b]]. È [[c]] e vuole partire per una [[d]].",
@@ -266,7 +210,7 @@
    "explanation": "Vocabolario del tema."
   },
   {
-   "id": "q11",
+   "id": "q8",
    "type": "matching",
    "prompt": "Collega la parola al significato.",
    "pairs": [
@@ -294,7 +238,7 @@
    "explanation": "Parole utili."
   },
   {
-   "id": "q12",
+   "id": "q9",
    "type": "single_choice",
    "prompt": "Quale città è la patria dei Lunapop?",
    "options": [
@@ -319,14 +263,14 @@
    "explanation": "I Lunapop sono di Bologna."
   },
   {
-   "id": "q13",
+   "id": "q10",
    "type": "true_false",
    "prompt": "Cesare Cremonini è il cantante dei Lunapop.",
    "answer": true,
    "explanation": "Cremonini era il cantante della band."
   },
   {
-   "id": "q14",
+   "id": "q11",
    "type": "single_choice",
    "prompt": "Dopo l’ascolto: Perché la canzone è diventata un “tormentone” estivo?",
    "options": [
@@ -351,29 +295,43 @@
    "explanation": "Ritornello orecchiabile + atmosfera estiva."
   },
   {
-   "id": "q15",
+   "id": "q12",
    "type": "single_choice",
-   "prompt": "Dopo l’ascolto: Che cosa rappresenta per te la Vespa nella canzone?",
+   "prompt": "La canzone “50 Special” dei Lunapop è uscita nel…",
    "options": [
     {
      "id": "a",
-     "text": "Un simbolo di libertà e giovinezza"
+     "text": "1999"
     },
     {
      "id": "b",
-     "text": "Un mezzo per andare al lavoro"
+     "text": "1989"
     },
     {
      "id": "c",
-     "text": "Un oggetto costoso"
+     "text": "2009"
     },
     {
      "id": "d",
-     "text": "Un pericolo"
+     "text": "2019"
     }
    ],
    "correctOptionId": "a",
-   "explanation": "Interpretazione: simbolo di libertà."
+   "explanation": "Singolo del 1999 (maggio), arrivato al primo posto in classifica."
+  },
+  {
+   "id": "q13",
+   "type": "true_false",
+   "prompt": "Il titolo si riferisce a un modello di Vespa.",
+   "answer": true,
+   "explanation": "La Vespa 50 Special è uno scooter degli anni Sessanta, spesso “truccato” dai ragazzi."
+  },
+  {
+   "id": "q14",
+   "type": "true_false",
+   "prompt": "La canzone è stata scritta e cantata da Cesare Cremonini, allora giovanissimo.",
+   "answer": true,
+   "explanation": "Cremonini era il cantante e l’autore."
   }
  ],
  "vocabularyIds": []

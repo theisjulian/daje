@@ -57,7 +57,8 @@
  ],
  "reviewNotes": [
   "Aufgaben von der KI entworfen und noch nicht von einer Lehrkraft geprüft; Lösungen und Fakten vor dem Einsatz am Medium abgleichen.",
-  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden."
+  "Liedtexte sind nicht enthalten. Lückentexte mit dem echten Text können privat importiert werden.",
+  "Aufgaben am 25.10.2026 fachlich gesichtet: Meinungsfragen und nicht belegbare Aussagen entfernt, verifizierbare Fakten ergänzt (Wikipedia/Presse). Hörinhalte nur mit dem Medium selbst prüfen."
  ],
  "questions": [
   {
@@ -120,59 +121,6 @@
   {
    "id": "q4",
    "type": "single_choice",
-   "prompt": "Il testo mescola…",
-   "options": [
-    {
-     "id": "a",
-     "text": "Italiano e napoletano"
-    },
-    {
-     "id": "b",
-     "text": "Inglese e francese"
-    },
-    {
-     "id": "c",
-     "text": "Solo inglese"
-    },
-    {
-     "id": "d",
-     "text": "Solo latino"
-    }
-   ],
-   "correctOptionId": "a",
-   "explanation": "Un testo in dialetto napoletano e italiano."
-  },
-  {
-   "id": "q5",
-   "type": "matching",
-   "prompt": "Dialetto → italiano standard: collega.",
-   "pairs": [
-    {
-     "id": "p1",
-     "left": "Tu si",
-     "right": "Tu sei"
-    },
-    {
-     "id": "p2",
-     "left": "Cu tte",
-     "right": "Con te"
-    },
-    {
-     "id": "p3",
-     "left": "teng na vogl",
-     "right": "ho una voglia"
-    },
-    {
-     "id": "p4",
-     "left": "o primo pensiero",
-     "right": "il primo pensiero"
-    }
-   ],
-   "explanation": "Forme dialettali comuni."
-  },
-  {
-   "id": "q6",
-   "type": "single_choice",
    "prompt": "Che cosa significa più o meno “fine do’ munno”?",
    "options": [
     {
@@ -196,7 +144,7 @@
    "explanation": "Espressione iperbolica positiva."
   },
   {
-   "id": "q7",
+   "id": "q5",
    "type": "gap_fill",
    "prompt": "Completa (amore, sogni, testa, pensiero).",
    "text": "Il cantante dice che sei il primo [[a]], parla di [[b]] e di [[c]] e ti fa girare la [[d]].",
@@ -229,14 +177,14 @@
    "explanation": "Parole del testo in italiano."
   },
   {
-   "id": "q8",
+   "id": "q6",
    "type": "true_false",
    "prompt": "La canzone è stata registrata nel 2018.",
    "answer": true,
    "explanation": "Il singolo è del 2018."
   },
   {
-   "id": "q9",
+   "id": "q7",
    "type": "single_choice",
    "prompt": "Chi canta?",
    "options": [
@@ -261,7 +209,7 @@
    "explanation": "Angelo Famao."
   },
   {
-   "id": "q10",
+   "id": "q8",
    "type": "single_choice",
    "prompt": "Che atmosfera ha la canzone?",
    "options": [
@@ -286,23 +234,68 @@
    "explanation": "Tono romantico e ritmo leggero."
   },
   {
-   "id": "q11",
+   "id": "q9",
    "type": "true_false",
    "prompt": "Dopo l’ascolto: I dialetti in Italia sono solo parlati dagli anziani.",
    "answer": false,
    "explanation": "Anche i giovani li usano, soprattutto sui social."
   },
   {
-   "id": "q12",
-   "type": "short_answer",
-   "prompt": "Trova nel testo: come si dice “con te” in dialetto? (due parole)",
-   "acceptedAnswers": [
-    "cu tte",
-    "cu te",
-    "Cu tte"
+   "id": "q10",
+   "type": "single_choice",
+   "prompt": "Chi canta “Tu si a fine do’ munno”?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Angelo Famao"
+    },
+    {
+     "id": "b",
+     "text": "Liberato"
+    },
+    {
+     "id": "c",
+     "text": "Gigi D’Alessio"
+    },
+    {
+     "id": "d",
+     "text": "Nino D’Angelo"
+    }
    ],
-   "modelAnswer": "cu tte",
-   "explanation": "Cu tte = con te."
+   "correctOptionId": "a",
+   "explanation": "Angelo Famao, cantante neomelodico nato a Catania."
+  },
+  {
+   "id": "q11",
+   "type": "true_false",
+   "prompt": "Angelo Famao è nato a Catania, ma canta in dialetto napoletano.",
+   "answer": true,
+   "explanation": "Il genere si chiama neomelodico: pop in napoletano."
+  },
+  {
+   "id": "q12",
+   "type": "single_choice",
+   "prompt": "Come si chiama il genere musicale di questa canzone?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Neomelodico"
+    },
+    {
+     "id": "b",
+     "text": "Opera lirica"
+    },
+    {
+     "id": "c",
+     "text": "Rap trap"
+    },
+    {
+     "id": "d",
+     "text": "Rock progressivo"
+    }
+   ],
+   "correctOptionId": "a",
+   "explanation": "Neomelodico = pop in dialetto napoletano."
   }
  ],
  "vocabularyIds": []
