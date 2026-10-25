@@ -20,7 +20,7 @@ function catalogKey(c) {
     let html = baseSetCard(x, kind);
     const line = catalogLine(x.catalog);
     const key = esc(catalogKey(x.catalog));
-    html = html.replace('<article class="set-card">', `<article class="set-card" data-cat="${key}" data-lang="${esc(x.language)}" data-cefr="${esc((x.catalog && x.catalog.cefr) || x.level)}">`);
+    html = html.replace('<article class="set-card">', `<article class="set-card" data-cat="${key}" data-lang="${esc(x.language)}" data-cefr="${esc((x.catalog && x.catalog.cefr) || x.level)}" data-page="${parseInt((x.catalog && x.catalog.textbook && x.catalog.textbook.pages) || '', 10) || ''}">`);
     if (line) html = html.replace(/(<h3>[\s\S]*?<\/h3>)/, `$1<p class="cat-line">${esc(line)}</p>`);
     return html;
   };
@@ -30,6 +30,12 @@ function catalogKey(c) {
     baseLibrary();
     const grid = document.querySelector('.cards-grid.sets');
     if (!grid) return;
+    const cards = [...grid.querySelectorAll('.set-card[data-cat]')];
+    const pageOf = n => (n.dataset.page ? Number(n.dataset.page) : 1e6);
+    cards
+      .map((n, i) => [n, i])
+      .sort((a, b) => pageOf(a[0]) - pageOf(b[0]) || a[1] - b[1])
+      .forEach(([n]) => grid.appendChild(n));
     const keys = [...new Set([...grid.querySelectorAll('[data-cat]')].map(n => n.dataset.cat))];
     if (keys.length < 2) return;
     const bar = document.createElement('div');

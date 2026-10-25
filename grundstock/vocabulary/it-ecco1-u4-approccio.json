@@ -1,0 +1,525 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-u4-approccio",
+ "title": "Ecco più 1 · Unità 4 · Approccio",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Il tempo libero“ aus Ecco più 1 (Unità 4, Approccio).",
+ "topics": [
+  "Freizeit",
+  "Hobbys",
+  "Musik"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Unità 4 · Approccio",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 182-183 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u4-approccio-001",
+   "target": "il tempo",
+   "translations": [
+    "die Zeit",
+    "das Wetter"
+   ],
+   "page": "182-183",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-002",
+   "target": "libero/-a",
+   "translations": [
+    "frei"
+   ],
+   "page": "182-183"
+  },
+  {
+   "id": "u4-approccio-003",
+   "target": "è bello + inf.",
+   "translations": [
+    "es ist schön + Inf."
+   ],
+   "page": "182-183"
+  },
+  {
+   "id": "u4-approccio-004",
+   "target": "fare snowboard",
+   "translations": [
+    "Snowboard fahren"
+   ],
+   "page": "182-183"
+  },
+  {
+   "id": "u4-approccio-005",
+   "target": "i genitori",
+   "translations": [
+    "die Eltern"
+   ],
+   "page": "182-183",
+   "usage": "pl.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "i",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-006",
+   "target": "l’appartamento",
+   "translations": [
+    "die Wohnung"
+   ],
+   "page": "182-183"
+  },
+  {
+   "id": "u4-approccio-007",
+   "target": "trovare",
+   "translations": [
+    "finden"
+   ],
+   "page": "182-183"
+  },
+  {
+   "id": "u4-approccio-008",
+   "target": "la neve",
+   "translations": [
+    "der Schnee"
+   ],
+   "page": "182-183",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-009",
+   "target": "la politica",
+   "translations": [
+    "die Politik"
+   ],
+   "page": "182-183",
+   "usage": "Pl.: le politiche",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-010",
+   "target": "discutere",
+   "translations": [
+    "besprechen",
+    "diskutieren"
+   ],
+   "page": "182-183"
+  },
+  {
+   "id": "u4-approccio-011",
+   "target": "suonare",
+   "translations": [
+    "spielen"
+   ],
+   "page": "182-183",
+   "usage": "Instrument"
+  },
+  {
+   "id": "u4-approccio-012",
+   "target": "il pianoforte",
+   "translations": [
+    "das Klavier"
+   ],
+   "page": "182-183",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-013",
+   "target": "il flauto traverso",
+   "translations": [
+    "die Querflöte"
+   ],
+   "page": "182-183",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-014",
+   "target": "lo strumento",
+   "translations": [
+    "das Instrument"
+   ],
+   "page": "182-183",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-015",
+   "target": "accompagnare",
+   "translations": [
+    "begleiten"
+   ],
+   "page": "182-183"
+  },
+  {
+   "id": "u4-approccio-016",
+   "target": "cantare",
+   "translations": [
+    "singen"
+   ],
+   "page": "182-183"
+  },
+  {
+   "id": "u4-approccio-017",
+   "target": "classico/-a",
+   "translations": [
+    "klassisch"
+   ],
+   "page": "182-183",
+   "usage": "Pl.: classici/classiche"
+  },
+  {
+   "id": "u4-approccio-018",
+   "target": "leggero/-a",
+   "translations": [
+    "leicht"
+   ],
+   "page": "182-183"
+  },
+  {
+   "id": "u4-approccio-019",
+   "target": "la pallavolo",
+   "translations": [
+    "Volleyball"
+   ],
+   "page": "182-183",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-020",
+   "target": "l’inverno",
+   "translations": [
+    "der Winter"
+   ],
+   "page": "182-183",
+   "usage": "m."
+  },
+  {
+   "id": "u4-approccio-021",
+   "target": "pattinare",
+   "translations": [
+    "eislaufen"
+   ],
+   "page": "182-183"
+  },
+  {
+   "id": "u4-approccio-022",
+   "target": "la passione",
+   "translations": [
+    "die Leidenschaft"
+   ],
+   "page": "182-183",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-023",
+   "target": "l’hobby",
+   "translations": [
+    "das Hobby"
+   ],
+   "page": "182-183",
+   "usage": "Pl.: gli hobby"
+  },
+  {
+   "id": "u4-approccio-024",
+   "target": "collegato/-a con qn/qs",
+   "translations": [
+    "in Verbindung mit jdm/etw."
+   ],
+   "page": "182-183"
+  },
+  {
+   "id": "u4-approccio-025",
+   "target": "inoltre",
+   "translations": [
+    "außerdem"
+   ],
+   "page": "182-183",
+   "usage": "avv."
+  },
+  {
+   "id": "u4-approccio-026",
+   "target": "volentieri",
+   "translations": [
+    "gern(e)"
+   ],
+   "page": "182-183",
+   "usage": "avv."
+  },
+  {
+   "id": "u4-approccio-027",
+   "target": "soprattutto",
+   "translations": [
+    "hauptsächlich"
+   ],
+   "page": "182-183",
+   "usage": "avv."
+  },
+  {
+   "id": "u4-approccio-028",
+   "target": "la chitarra",
+   "translations": [
+    "die Gitarre"
+   ],
+   "page": "182-183",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-029",
+   "target": "il gruppo",
+   "translations": [
+    "die Gruppe"
+   ],
+   "page": "182-183",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-030",
+   "target": "il gruppo rock",
+   "translations": [
+    "die Rock-Gruppe"
+   ],
+   "page": "182-183",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-031",
+   "target": "perché",
+   "translations": [
+    "weil"
+   ],
+   "page": "182-183"
+  },
+  {
+   "id": "u4-approccio-032",
+   "target": "l’allenamento",
+   "translations": [
+    "das Training"
+   ],
+   "page": "182-183"
+  },
+  {
+   "id": "u4-approccio-033",
+   "target": "moderno/-a",
+   "translations": [
+    "modern"
+   ],
+   "page": "182-183"
+  },
+  {
+   "id": "u4-approccio-034",
+   "target": "il movimento",
+   "translations": [
+    "die Bewegung"
+   ],
+   "page": "182-183",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-035",
+   "target": "l’applauso",
+   "translations": [
+    "der Applaus"
+   ],
+   "page": "182-183"
+  },
+  {
+   "id": "u4-approccio-036",
+   "target": "la fine",
+   "translations": [
+    "das Ende"
+   ],
+   "page": "182-183",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-037",
+   "target": "il fine settimana",
+   "translations": [
+    "das Wochenende"
+   ],
+   "page": "182-183",
+   "usage": "Pl.: i fine settimana",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-038",
+   "target": "la montagna",
+   "translations": [
+    "der Berg",
+    "das Gebirge"
+   ],
+   "page": "182-183",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-039",
+   "target": "l’estate",
+   "translations": [
+    "der Sommer"
+   ],
+   "page": "182-183",
+   "usage": "f."
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "Approccio",
+   "pages": "182-183"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Freizeit",
+   "Hobbys",
+   "Musik"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

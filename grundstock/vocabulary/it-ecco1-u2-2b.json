@@ -1,0 +1,665 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-u2-2b",
+ "title": "Ecco più 1 · Unità 2 · 2B",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Nella camera di Filippo“ aus Ecco più 1 (Unità 2, 2B).",
+ "topics": [
+  "Wohnen",
+  "Freizeit",
+  "Technik"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Unità 2 · 2B",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 175-176 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u2-2b-001",
+   "target": "la camera",
+   "translations": [
+    "das Zimmer"
+   ],
+   "page": "175-176",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-002",
+   "target": "il letto",
+   "translations": [
+    "das Bett"
+   ],
+   "page": "175-176",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-003",
+   "target": "la scrivania",
+   "translations": [
+    "der Schreibtisch"
+   ],
+   "page": "175-176",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-004",
+   "target": "andare (vado)",
+   "translations": [
+    "gehen",
+    "laufen",
+    "fahren"
+   ],
+   "page": "175-176",
+   "acceptedAnswers": [
+    "andare"
+   ],
+   "usage": "unregelmäßig"
+  },
+  {
+   "id": "u2-2b-005",
+   "target": "il poster",
+   "translations": [
+    "das Poster"
+   ],
+   "page": "175-176",
+   "usage": "Pl.: i poster",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-006",
+   "target": "grande",
+   "translations": [
+    "groß",
+    "großartig"
+   ],
+   "page": "175-176"
+  },
+  {
+   "id": "u2-2b-007",
+   "target": "piccolo/-a",
+   "translations": [
+    "klein"
+   ],
+   "page": "175-176"
+  },
+  {
+   "id": "u2-2b-008",
+   "target": "addirittura",
+   "translations": [
+    "sogar"
+   ],
+   "page": "175-176",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-2b-009",
+   "target": "la foto",
+   "translations": [
+    "das Foto"
+   ],
+   "page": "175-176",
+   "usage": "Pl.: le foto",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-010",
+   "target": "l’autografo",
+   "translations": [
+    "das Autogramm"
+   ],
+   "page": "175-176"
+  },
+  {
+   "id": "u2-2b-011",
+   "target": "il concerto",
+   "translations": [
+    "das Konzert"
+   ],
+   "page": "175-176",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-012",
+   "target": "lo zio / la zia",
+   "translations": [
+    "der Onkel / die Tante"
+   ],
+   "page": "175-176",
+   "usage": "Pl.: gli zii / le zie"
+  },
+  {
+   "id": "u2-2b-013",
+   "target": "il custode",
+   "translations": [
+    "der Wärter",
+    "der Aufseher"
+   ],
+   "page": "175-176",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-014",
+   "target": "durante",
+   "translations": [
+    "während"
+   ],
+   "page": "175-176",
+   "usage": "prep."
+  },
+  {
+   "id": "u2-2b-015",
+   "target": "sempre",
+   "translations": [
+    "immer"
+   ],
+   "page": "175-176",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-2b-016",
+   "target": "sentire",
+   "translations": [
+    "hören",
+    "fühlen"
+   ],
+   "page": "175-176"
+  },
+  {
+   "id": "u2-2b-017",
+   "target": "ultimo/-a",
+   "translations": [
+    "letzte(r, s)"
+   ],
+   "page": "175-176"
+  },
+  {
+   "id": "u2-2b-018",
+   "target": "la novità",
+   "translations": [
+    "die Neuigkeit"
+   ],
+   "page": "175-176",
+   "usage": "Pl.: le novità",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-019",
+   "target": "il cantante / la cantante",
+   "translations": [
+    "der Sänger / die Sängerin"
+   ],
+   "page": "175-176",
+   "usage": "Pl.: i cantanti"
+  },
+  {
+   "id": "u2-2b-020",
+   "target": "gratis",
+   "translations": [
+    "umsonst",
+    "kostenlos"
+   ],
+   "page": "175-176",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-2b-021",
+   "target": "davanti a",
+   "translations": [
+    "vor"
+   ],
+   "page": "175-176",
+   "usage": "örtlich, prep."
+  },
+  {
+   "id": "u2-2b-022",
+   "target": "il computer",
+   "translations": [
+    "der Computer"
+   ],
+   "page": "175-176",
+   "usage": "Pl.: i computer",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-023",
+   "target": "tutto",
+   "translations": [
+    "ganz"
+   ],
+   "page": "175-176",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-2b-024",
+   "target": "nuovo/-a",
+   "translations": [
+    "neu"
+   ],
+   "page": "175-176"
+  },
+  {
+   "id": "u2-2b-025",
+   "target": "il modello",
+   "translations": [
+    "das Modell"
+   ],
+   "page": "175-176",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-026",
+   "target": "me",
+   "translations": [
+    "mich",
+    "mir"
+   ],
+   "page": "175-176",
+   "usage": "nach Präposition"
+  },
+  {
+   "id": "u2-2b-027",
+   "target": "molto",
+   "translations": [
+    "sehr"
+   ],
+   "page": "175-176",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-2b-028",
+   "target": "niente male",
+   "translations": [
+    "nicht schlecht"
+   ],
+   "page": "175-176",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-2b-029",
+   "target": "utile",
+   "translations": [
+    "nützlich"
+   ],
+   "page": "175-176"
+  },
+  {
+   "id": "u2-2b-030",
+   "target": "quasi",
+   "translations": [
+    "fast"
+   ],
+   "page": "175-176",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-2b-031",
+   "target": "il videogioco",
+   "translations": [
+    "das Videospiel"
+   ],
+   "page": "175-176",
+   "usage": "Pl.: i videogiochi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-032",
+   "target": "il libro",
+   "translations": [
+    "das Buch"
+   ],
+   "page": "175-176",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-033",
+   "target": "la memoria",
+   "translations": [
+    "die Erinnerung",
+    "der Speicherplatz"
+   ],
+   "page": "175-176",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-034",
+   "target": "troppo",
+   "translations": [
+    "zu (sehr/viel)"
+   ],
+   "page": "175-176",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-2b-035",
+   "target": "la parete",
+   "translations": [
+    "die Wand"
+   ],
+   "page": "175-176",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-036",
+   "target": "la spiaggia",
+   "translations": [
+    "der Strand"
+   ],
+   "page": "175-176",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-037",
+   "target": "bellissimo/-a",
+   "translations": [
+    "sehr schön"
+   ],
+   "page": "175-176"
+  },
+  {
+   "id": "u2-2b-038",
+   "target": "vecchio/-a",
+   "translations": [
+    "alt"
+   ],
+   "page": "175-176",
+   "usage": "Pl. m.: vecchi"
+  },
+  {
+   "id": "u2-2b-039",
+   "target": "la vacanza",
+   "translations": [
+    "die Ferien",
+    "der Urlaub"
+   ],
+   "page": "175-176",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-040",
+   "target": "dormire",
+   "translations": [
+    "schlafen"
+   ],
+   "page": "175-176"
+  },
+  {
+   "id": "u2-2b-041",
+   "target": "seguire qn/qs",
+   "translations": [
+    "folgen",
+    "verfolgen"
+   ],
+   "page": "175-176"
+  },
+  {
+   "id": "u2-2b-042",
+   "target": "la notizia",
+   "translations": [
+    "die Nachricht"
+   ],
+   "page": "175-176",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-043",
+   "target": "l’idea",
+   "translations": [
+    "die Idee"
+   ],
+   "page": "175-176",
+   "usage": "Pl.: le idee"
+  },
+  {
+   "id": "u2-2b-044",
+   "target": "ascoltare",
+   "translations": [
+    "zuhören",
+    "anhören"
+   ],
+   "page": "175-176"
+  },
+  {
+   "id": "u2-2b-045",
+   "target": "fare (faccio)",
+   "translations": [
+    "machen",
+    "tun"
+   ],
+   "page": "175-176",
+   "acceptedAnswers": [
+    "fare"
+   ],
+   "usage": "unregelmäßig"
+  },
+  {
+   "id": "u2-2b-046",
+   "target": "cioè",
+   "translations": [
+    "das heißt",
+    "besser gesagt"
+   ],
+   "page": "175-176",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-2b-047",
+   "target": "essere online",
+   "translations": [
+    "online sein"
+   ],
+   "page": "175-176"
+  },
+  {
+   "id": "u2-2b-048",
+   "target": "la fortuna",
+   "translations": [
+    "das Glück",
+    "das Schicksal"
+   ],
+   "page": "175-176",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-049",
+   "target": "giocare a qs (giochi)",
+   "translations": [
+    "etw. spielen"
+   ],
+   "page": "175-176",
+   "acceptedAnswers": [
+    "giocare a qs"
+   ],
+   "usage": "unregelmäßig"
+  },
+  {
+   "id": "u2-2b-050",
+   "target": "Va bene!",
+   "translations": [
+    "In Ordnung!",
+    "Einverstanden!"
+   ],
+   "page": "175-176"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "2B",
+   "pages": "175-176"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Wohnen",
+   "Freizeit",
+   "Technik"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

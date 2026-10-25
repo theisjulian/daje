@@ -126,7 +126,7 @@ function lessonCard(x) {
 function setCard(x, kind) {
   const seen = x.entries.filter(w => records[x.id + '-' + w.id]).length;
   return `<article class="set-card">
-    <div class="eyebrow">${esc(portalLang(x.language))} · ${esc(x.level)}${kind === 'activity' ? ' · aus einer Hörübung' : ''}</div>
+    <div class="eyebrow">${esc(portalLang(x.language))} · ${esc(x.level)}${kind === 'activity' && !(x.catalog && x.catalog.origin === 'textbook') ? ' · aus einer Hörübung' : ''}</div>
     <h3>${esc(x.title.replace(/^Wortschatz · /, ''))}</h3>
     <p>${plural(x.entries.length, 'Eintrag', 'Einträge')}</p>
     <div class="lcard-progress" role="progressbar" aria-label="Geübte Einträge" aria-valuemin="0" aria-valuemax="${x.entries.length}" aria-valuenow="${seen}"><i style="width:${Math.round((100 * seen) / x.entries.length)}%"></i></div>

@@ -1,0 +1,538 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-u4-4b",
+ "title": "Ecco più 1 · Unità 4 · 4B",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Domenica bianca… e nera“ aus Ecco più 1 (Unità 4, 4B).",
+ "topics": [
+  "Sport",
+  "Fußball",
+  "Telefon"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Unità 4 · 4B",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 185-186 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u4-4b-001",
+   "target": "bianco/-a",
+   "translations": [
+    "weiß"
+   ],
+   "page": "185-186",
+   "usage": "Pl.: bianchi/bianche"
+  },
+  {
+   "id": "u4-4b-002",
+   "target": "nero/-a",
+   "translations": [
+    "schwarz"
+   ],
+   "page": "185-186"
+  },
+  {
+   "id": "u4-4b-003",
+   "target": "cadere",
+   "translations": [
+    "fallen"
+   ],
+   "page": "185-186"
+  },
+  {
+   "id": "u4-4b-004",
+   "target": "provare (a + inf.)",
+   "translations": [
+    "probieren (etw. zu tun)"
+   ],
+   "page": "185-186",
+   "acceptedAnswers": [
+    "provare"
+   ]
+  },
+  {
+   "id": "u4-4b-005",
+   "target": "la discesa",
+   "translations": [
+    "die Abfahrt"
+   ],
+   "page": "185-186",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-006",
+   "target": "rimanere (rimango)",
+   "translations": [
+    "bleiben"
+   ],
+   "page": "185-186",
+   "acceptedAnswers": [
+    "rimanere"
+   ],
+   "usage": "Partizip: rimasto"
+  },
+  {
+   "id": "u4-4b-007",
+   "target": "il piede",
+   "translations": [
+    "der Fuß"
+   ],
+   "page": "185-186",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-008",
+   "target": "stanco/-a",
+   "translations": [
+    "(tod-)müde"
+   ],
+   "page": "185-186",
+   "usage": "Pl.: stanchi/-che"
+  },
+  {
+   "id": "u4-4b-009",
+   "target": "perdere",
+   "translations": [
+    "verlieren"
+   ],
+   "page": "185-186",
+   "usage": "Partizip: perso"
+  },
+  {
+   "id": "u4-4b-010",
+   "target": "contro",
+   "translations": [
+    "gegen"
+   ],
+   "page": "185-186"
+  },
+  {
+   "id": "u4-4b-011",
+   "target": "deluso/-a",
+   "translations": [
+    "enttäuscht"
+   ],
+   "page": "185-186"
+  },
+  {
+   "id": "u4-4b-012",
+   "target": "decidere (di + inf.)",
+   "translations": [
+    "entscheiden (etw. zu tun)"
+   ],
+   "page": "185-186",
+   "acceptedAnswers": [
+    "decidere"
+   ],
+   "usage": "Partizip: deciso"
+  },
+  {
+   "id": "u4-4b-013",
+   "target": "il messaggio",
+   "translations": [
+    "die Nachricht"
+   ],
+   "page": "185-186",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-014",
+   "target": "appena",
+   "translations": [
+    "eben"
+   ],
+   "page": "185-186",
+   "usage": "avv."
+  },
+  {
+   "id": "u4-4b-015",
+   "target": "il risultato",
+   "translations": [
+    "das Ergebnis"
+   ],
+   "page": "185-186",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-016",
+   "target": "schifo!",
+   "translations": [
+    "Igitt!"
+   ],
+   "page": "185-186"
+  },
+  {
+   "id": "u4-4b-017",
+   "target": "telefonare a qn",
+   "translations": [
+    "jdn anrufen"
+   ],
+   "page": "185-186"
+  },
+  {
+   "id": "u4-4b-018",
+   "target": "Pronto!/?",
+   "translations": [
+    "Hallo!/?"
+   ],
+   "page": "185-186",
+   "usage": "am Telefon"
+  },
+  {
+   "id": "u4-4b-019",
+   "target": "lasciare",
+   "translations": [
+    "lassen",
+    "zulassen",
+    "verlassen"
+   ],
+   "page": "185-186"
+  },
+  {
+   "id": "u4-4b-020",
+   "target": "Lascia perdere!",
+   "translations": [
+    "Lass es (gut) sein!"
+   ],
+   "page": "185-186"
+  },
+  {
+   "id": "u4-4b-021",
+   "target": "vicino a",
+   "translations": [
+    "in der Nähe von"
+   ],
+   "page": "185-186"
+  },
+  {
+   "id": "u4-4b-022",
+   "target": "il bar",
+   "translations": [
+    "die (Kaffee-)Bar",
+    "das Café"
+   ],
+   "page": "185-186",
+   "usage": "Pl.: i bar",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-023",
+   "target": "il pappamolle",
+   "translations": [
+    "das Weichei"
+   ],
+   "page": "185-186",
+   "usage": "fam.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-024",
+   "target": "il tram",
+   "translations": [
+    "die Straßenbahn"
+   ],
+   "page": "185-186",
+   "usage": "Pl.: i tram",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-025",
+   "target": "per niente",
+   "translations": [
+    "überhaupt nicht"
+   ],
+   "page": "185-186",
+   "usage": "avv."
+  },
+  {
+   "id": "u4-4b-026",
+   "target": "dunque",
+   "translations": [
+    "also",
+    "demnach"
+   ],
+   "page": "185-186",
+   "usage": "avv."
+  },
+  {
+   "id": "u4-4b-027",
+   "target": "segnare",
+   "translations": [
+    "ein Tor schießen"
+   ],
+   "page": "185-186",
+   "usage": "hier"
+  },
+  {
+   "id": "u4-4b-028",
+   "target": "l’intervallo",
+   "translations": [
+    "die Pause",
+    "die Halbzeitpause"
+   ],
+   "page": "185-186"
+  },
+  {
+   "id": "u4-4b-029",
+   "target": "il gol",
+   "translations": [
+    "das Tor"
+   ],
+   "page": "185-186",
+   "usage": "Pl.: i gol",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-030",
+   "target": "rubato/-a",
+   "translations": [
+    "gestohlen"
+   ],
+   "page": "185-186"
+  },
+  {
+   "id": "u4-4b-031",
+   "target": "scendere",
+   "translations": [
+    "absteigen",
+    "aussteigen"
+   ],
+   "page": "185-186",
+   "usage": "Partizip: sceso"
+  },
+  {
+   "id": "u4-4b-032",
+   "target": "la classifica",
+   "translations": [
+    "die Rangliste"
+   ],
+   "page": "185-186",
+   "usage": "Pl.: le classifiche",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-033",
+   "target": "la sera",
+   "translations": [
+    "der Abend"
+   ],
+   "page": "185-186",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-034",
+   "target": "la sera",
+   "translations": [
+    "abends",
+    "am Abend"
+   ],
+   "page": "185-186",
+   "usage": "avv.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-035",
+   "target": "divertente",
+   "translations": [
+    "lustig",
+    "unterhaltsam"
+   ],
+   "page": "185-186"
+  },
+  {
+   "id": "u4-4b-036",
+   "target": "vincere",
+   "translations": [
+    "gewinnen",
+    "siegen"
+   ],
+   "page": "185-186",
+   "usage": "Partizip: vinto"
+  },
+  {
+   "id": "u4-4b-037",
+   "target": "ridere",
+   "translations": [
+    "lachen"
+   ],
+   "page": "185-186",
+   "usage": "Partizip: riso"
+  },
+  {
+   "id": "u4-4b-038",
+   "target": "parecchio",
+   "translations": [
+    "viel"
+   ],
+   "page": "185-186",
+   "usage": "avv."
+  },
+  {
+   "id": "u4-4b-039",
+   "target": "gentile",
+   "translations": [
+    "freundlich",
+    "nett"
+   ],
+   "page": "185-186"
+  },
+  {
+   "id": "u4-4b-040",
+   "target": "passare",
+   "translations": [
+    "verbringen"
+   ],
+   "page": "185-186"
+  },
+  {
+   "id": "u4-4b-041",
+   "target": "Mi dispiace.",
+   "translations": [
+    "Es tut mir Leid."
+   ],
+   "page": "185-186"
+  },
+  {
+   "id": "u4-4b-042",
+   "target": "Ci sentiamo!",
+   "translations": [
+    "Bis später!"
+   ],
+   "page": "185-186",
+   "usage": "am Telefon"
+  },
+  {
+   "id": "u4-4b-043",
+   "target": "Ci vediamo!",
+   "translations": [
+    "Bis später!"
+   ],
+   "page": "185-186"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "4B",
+   "pages": "185-186"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Sport",
+   "Fußball",
+   "Telefon"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

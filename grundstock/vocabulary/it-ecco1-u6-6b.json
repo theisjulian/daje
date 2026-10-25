@@ -1,0 +1,744 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-u6-6b",
+ "title": "Ecco più 1 · Unità 6 · 6B",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Preparare la cena“ aus Ecco più 1 (Unità 6, 6B).",
+ "topics": [
+  "Essen",
+  "Einkaufen",
+  "Lebensmittel"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Unità 6 · 6B",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 192-194 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u6-6b-001",
+   "target": "il pane",
+   "translations": [
+    "das Brot"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-002",
+   "target": "il panino",
+   "translations": [
+    "das Brötchen",
+    "die Semmel"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-003",
+   "target": "l’etto",
+   "translations": [
+    "100 Gramm"
+   ],
+   "page": "192-194"
+  },
+  {
+   "id": "u6-6b-004",
+   "target": "il prosciutto",
+   "translations": [
+    "der Schinken"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-005",
+   "target": "crudo/-a",
+   "translations": [
+    "roh"
+   ],
+   "page": "192-194"
+  },
+  {
+   "id": "u6-6b-006",
+   "target": "l’aranciata",
+   "translations": [
+    "die Orangenlimonade"
+   ],
+   "page": "192-194"
+  },
+  {
+   "id": "u6-6b-007",
+   "target": "la busta",
+   "translations": [
+    "die Tüte"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-008",
+   "target": "le patatine",
+   "translations": [
+    "die Chips"
+   ],
+   "page": "192-194",
+   "usage": "pl.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "le",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-009",
+   "target": "la persona",
+   "translations": [
+    "die Person"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-010",
+   "target": "l’uovo",
+   "translations": [
+    "das Ei"
+   ],
+   "page": "192-194",
+   "usage": "m., Pl.: le uova (f.)"
+  },
+  {
+   "id": "u6-6b-011",
+   "target": "il pomodoro",
+   "translations": [
+    "die Tomate"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-012",
+   "target": "il burro",
+   "translations": [
+    "die Butter"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-013",
+   "target": "il succo",
+   "translations": [
+    "der Saft"
+   ],
+   "page": "192-194",
+   "usage": "Pl.: i succhi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-014",
+   "target": "la frutta",
+   "translations": [
+    "das Obst"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-015",
+   "target": "dei/delle/degli",
+   "translations": [
+    "ein paar (von)",
+    "einige"
+   ],
+   "page": "192-194"
+  },
+  {
+   "id": "u6-6b-016",
+   "target": "l’insalata",
+   "translations": [
+    "der Salat"
+   ],
+   "page": "192-194"
+  },
+  {
+   "id": "u6-6b-017",
+   "target": "la carne",
+   "translations": [
+    "das Fleisch"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-018",
+   "target": "il maiale",
+   "translations": [
+    "das Schwein"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-019",
+   "target": "il formaggio",
+   "translations": [
+    "der Käse",
+    "die Käsesorten"
+   ],
+   "page": "192-194",
+   "usage": "Pl.: i formaggi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-020",
+   "target": "ne",
+   "translations": [
+    "davon",
+    "dazu"
+   ],
+   "page": "192-194",
+   "usage": "avv."
+  },
+  {
+   "id": "u6-6b-021",
+   "target": "a proposito di",
+   "translations": [
+    "apropos",
+    "übrigens"
+   ],
+   "page": "192-194"
+  },
+  {
+   "id": "u6-6b-022",
+   "target": "mancare (-chi-)",
+   "translations": [
+    "fehlen"
+   ],
+   "page": "192-194",
+   "acceptedAnswers": [
+    "mancare"
+   ]
+  },
+  {
+   "id": "u6-6b-023",
+   "target": "meglio",
+   "translations": [
+    "besser"
+   ],
+   "page": "192-194",
+   "usage": "avv."
+  },
+  {
+   "id": "u6-6b-024",
+   "target": "mandare",
+   "translations": [
+    "schicken",
+    "senden"
+   ],
+   "page": "192-194"
+  },
+  {
+   "id": "u6-6b-025",
+   "target": "chiedere qs a qn",
+   "translations": [
+    "jdn etw. fragen",
+    "bitten"
+   ],
+   "page": "192-194",
+   "usage": "Partizip: chiesto"
+  },
+  {
+   "id": "u6-6b-026",
+   "target": "avere bisogno di qn/qs",
+   "translations": [
+    "jdn/etw. brauchen",
+    "benötigen"
+   ],
+   "page": "192-194"
+  },
+  {
+   "id": "u6-6b-027",
+   "target": "l’aglio",
+   "translations": [
+    "der Knoblauch"
+   ],
+   "page": "192-194"
+  },
+  {
+   "id": "u6-6b-028",
+   "target": "la cipolla",
+   "translations": [
+    "die Zwiebel"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-029",
+   "target": "il litro",
+   "translations": [
+    "der Liter"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-030",
+   "target": "l’acqua (minerale)",
+   "translations": [
+    "das (Mineral-)Wasser"
+   ],
+   "page": "192-194",
+   "acceptedAnswers": [
+    "l’acqua"
+   ]
+  },
+  {
+   "id": "u6-6b-031",
+   "target": "il ciuffo di basilico",
+   "translations": [
+    "das Bund Basilikum"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-032",
+   "target": "la fontina",
+   "translations": [
+    "Käsesorte"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-033",
+   "target": "fare un salto da qn",
+   "translations": [
+    "bei jdm vorbeischauen"
+   ],
+   "page": "192-194"
+  },
+  {
+   "id": "u6-6b-034",
+   "target": "perfetto/-a",
+   "translations": [
+    "perfekt"
+   ],
+   "page": "192-194"
+  },
+  {
+   "id": "u6-6b-035",
+   "target": "Grazie mille!",
+   "translations": [
+    "Tausend Dank!"
+   ],
+   "page": "192-194"
+  },
+  {
+   "id": "u6-6b-036",
+   "target": "prego",
+   "translations": [
+    "bitte"
+   ],
+   "page": "192-194",
+   "usage": "avv."
+  },
+  {
+   "id": "u6-6b-037",
+   "target": "vorrei",
+   "translations": [
+    "ich möchte",
+    "ich hätte gerne"
+   ],
+   "page": "192-194"
+  },
+  {
+   "id": "u6-6b-038",
+   "target": "mezzo/-a",
+   "translations": [
+    "halb"
+   ],
+   "page": "192-194"
+  },
+  {
+   "id": "u6-6b-039",
+   "target": "il chilo",
+   "translations": [
+    "das Kilo(gramm)"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-040",
+   "target": "il fungo",
+   "translations": [
+    "der Pilz"
+   ],
+   "page": "192-194",
+   "usage": "Pl.: i funghi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-041",
+   "target": "Basta!",
+   "translations": [
+    "Es reicht!"
+   ],
+   "page": "192-194"
+  },
+  {
+   "id": "u6-6b-042",
+   "target": "la mela",
+   "translations": [
+    "der Apfel"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-043",
+   "target": "Eccomi qua!",
+   "translations": [
+    "Hier bin ich!"
+   ],
+   "page": "192-194"
+  },
+  {
+   "id": "u6-6b-044",
+   "target": "la torta",
+   "translations": [
+    "die Torte",
+    "der Kuchen"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-045",
+   "target": "la mandorla",
+   "translations": [
+    "die Mandel"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-046",
+   "target": "cucinare",
+   "translations": [
+    "kochen"
+   ],
+   "page": "192-194"
+  },
+  {
+   "id": "u6-6b-047",
+   "target": "il dolce",
+   "translations": [
+    "die Süßspeise",
+    "der Nachtisch"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-048",
+   "target": "Mamma mia!",
+   "translations": [
+    "Meine Güte!",
+    "Mannomann!"
+   ],
+   "page": "192-194"
+  },
+  {
+   "id": "u6-6b-049",
+   "target": "la fame (da lupi)",
+   "translations": [
+    "der (Bären-)Hunger"
+   ],
+   "page": "192-194",
+   "acceptedAnswers": [
+    "la fame"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-050",
+   "target": "il profumo",
+   "translations": [
+    "der Duft",
+    "das Parfüm"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-051",
+   "target": "Buon appetito!",
+   "translations": [
+    "Guten Appetit!"
+   ],
+   "page": "192-194"
+  },
+  {
+   "id": "u6-6b-052",
+   "target": "la verdura",
+   "translations": [
+    "das Gemüse"
+   ],
+   "page": "192-194",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-6b-053",
+   "target": "potresti",
+   "translations": [
+    "du könntest"
+   ],
+   "page": "192-194"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 6",
+   "section": "6B",
+   "pages": "192-194"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Essen",
+   "Einkaufen",
+   "Lebensmittel"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

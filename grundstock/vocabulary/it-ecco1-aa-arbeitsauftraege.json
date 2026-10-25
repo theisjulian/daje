@@ -1,0 +1,348 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-aa-arbeitsauftraege",
+ "title": "Ecco più 1 · Arbeitsaufträge",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Hinweise zu den Arbeitsaufträgen“ aus Ecco più 1 (Anhang A, Arbeitsaufträge).",
+ "topics": [
+  "Arbeitsaufträge",
+  "Unterricht"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Anhang A · Arbeitsaufträge",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 162-163 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "aa-arbeitsauftraege-001",
+   "target": "Abbina (le frasi / le parole) alle vignette.",
+   "translations": [
+    "Verbinde die (Wörter/Sätze) mit den (Bildern)."
+   ],
+   "page": "162-163",
+   "acceptedAnswers": [
+    "Abbina alle vignette."
+   ]
+  },
+  {
+   "id": "aa-arbeitsauftraege-002",
+   "target": "Aggiungi la forma corretta di …",
+   "translations": [
+    "Ergänze die richtige/passende Form von …"
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-003",
+   "target": "Aggiungi le forme mancanti.",
+   "translations": [
+    "Ergänze die fehlenden Formen."
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-004",
+   "target": "Ascolta …",
+   "translations": [
+    "Höre zu …"
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-005",
+   "target": "Cerca le forme nel testo.",
+   "translations": [
+    "Suche die Formen im Text."
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-006",
+   "target": "Che cosa c’è scritto nel testo?",
+   "translations": [
+    "Was steht im Text?"
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-007",
+   "target": "Chiedi (al tuo compagno / alla tua compagna).",
+   "translations": [
+    "Frage (deine/n Mitschüler/in)."
+   ],
+   "page": "162-163",
+   "acceptedAnswers": [
+    "Chiedi."
+   ]
+  },
+  {
+   "id": "aa-arbeitsauftraege-008",
+   "target": "Chiedetevi a vicenda.",
+   "translations": [
+    "Fragt euch abwechselnd/gegenseitig."
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-009",
+   "target": "Completa il dialogo / la tabella / le frasi con …",
+   "translations": [
+    "Vervollständige den Dialog / die Tabelle / die Sätze mit …"
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-010",
+   "target": "Continua le frasi in modo corretto.",
+   "translations": [
+    "Setze die Sätze richtig fort."
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-011",
+   "target": "Copia (la lista) nel tuo quaderno.",
+   "translations": [
+    "Kopiere (die Liste) in dein Arbeitsheft."
+   ],
+   "page": "162-163",
+   "acceptedAnswers": [
+    "Copia nel tuo quaderno."
+   ]
+  },
+  {
+   "id": "aa-arbeitsauftraege-012",
+   "target": "Correggi le frasi. / l’errore.",
+   "translations": [
+    "Korrigiere die Sätze. / den Fehler."
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-013",
+   "target": "Create (un dialogo).",
+   "translations": [
+    "Erstellt (einen Dialog)."
+   ],
+   "page": "162-163",
+   "acceptedAnswers": [
+    "Create."
+   ]
+  },
+  {
+   "id": "aa-arbeitsauftraege-014",
+   "target": "Decidi quale forma è corretta.",
+   "translations": [
+    "Entscheide, welche Form passt."
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-015",
+   "target": "Descrivi (la differenza tra … e …).",
+   "translations": [
+    "Beschreibe (den Unterschied zwischen … und …)."
+   ],
+   "page": "162-163",
+   "acceptedAnswers": [
+    "Descrivi."
+   ]
+  },
+  {
+   "id": "aa-arbeitsauftraege-016",
+   "target": "Fai una lista.",
+   "translations": [
+    "Erstelle eine Liste."
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-017",
+   "target": "Fai una rete di parole riguardo a …",
+   "translations": [
+    "Erstelle ein Wortfeld zum Thema …"
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-018",
+   "target": "Forma delle frasi in modo corretto.",
+   "translations": [
+    "Bilde richtige Sätze."
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-019",
+   "target": "Guarda il testo / la vignetta / la foto.",
+   "translations": [
+    "Sieh dir den Text / das Bild / das Foto an."
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-020",
+   "target": "Indica la riga.",
+   "translations": [
+    "Gib die Zeile an."
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-021",
+   "target": "Leggi il testo a p. xx.",
+   "translations": [
+    "Lies den Text auf S. xx."
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-022",
+   "target": "Metti i verbi (al singolare / al passato prossimo).",
+   "translations": [
+    "Setze die Verben in (den Singular / das Perfekt)."
+   ],
+   "page": "162-163",
+   "acceptedAnswers": [
+    "Metti i verbi."
+   ]
+  },
+  {
+   "id": "aa-arbeitsauftraege-023",
+   "target": "Metti la forma giusta del verbo.",
+   "translations": [
+    "Setze die richtige Form des Verbs ein."
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-024",
+   "target": "Metti (le frasi) nell’ordine giusto.",
+   "translations": [
+    "Ordne (die Sätze).",
+    "Bringe (die Sätze) in die richtige Reihenfolge."
+   ],
+   "page": "162-163",
+   "acceptedAnswers": [
+    "Metti nell’ordine giusto."
+   ]
+  },
+  {
+   "id": "aa-arbeitsauftraege-025",
+   "target": "Parla di …",
+   "translations": [
+    "Sprich über …"
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-026",
+   "target": "Presenta i risultati in classe.",
+   "translations": [
+    "Präsentiere die Ergebnisse in der Klasse."
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-027",
+   "target": "Racconta di …",
+   "translations": [
+    "Erzähl über …"
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-028",
+   "target": "Ripeti.",
+   "translations": [
+    "Wiederhole.",
+    "Sprich nach."
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-029",
+   "target": "Rispondi alle domande.",
+   "translations": [
+    "Beantworte die Fragen."
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-030",
+   "target": "Scegli il riassunto esatto.",
+   "translations": [
+    "Wähle die richtige Zusammenfassung aus."
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-031",
+   "target": "Scrivi …",
+   "translations": [
+    "Schreibe …"
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-032",
+   "target": "Spiega perché.",
+   "translations": [
+    "Begründe."
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-033",
+   "target": "Trova le coppie di parole.",
+   "translations": [
+    "Finde die Wortpaare."
+   ],
+   "page": "162-163"
+  },
+  {
+   "id": "aa-arbeitsauftraege-034",
+   "target": "Usa le espressioni del testo.",
+   "translations": [
+    "Benutze die Ausdrücke aus dem Text."
+   ],
+   "page": "162-163"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Anhang A",
+   "section": "Arbeitsaufträge",
+   "pages": "162-163"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Arbeitsaufträge",
+   "Unterricht"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

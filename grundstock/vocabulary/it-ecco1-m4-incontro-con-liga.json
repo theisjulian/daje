@@ -1,0 +1,272 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-m4-incontro-con-liga",
+ "title": "Ecco più 1 · Modulo · Incontro con Liga",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Incontro con Liga“ aus Ecco più 1 (Modulo, Incontro con Liga).",
+ "topics": [
+  "Musik",
+  "Gefühle",
+  "Alltag"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Modulo · Incontro con Liga",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 201-202 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "m4-incontro-con-liga-001",
+   "target": "così così",
+   "translations": [
+    "einigermaßen gut",
+    "so lala"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "m4-incontro-con-liga-002",
+   "target": "non … nemmeno",
+   "translations": [
+    "nicht einmal"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "m4-incontro-con-liga-003",
+   "target": "il terzo",
+   "translations": [
+    "das Drittel"
+   ],
+   "page": "201-202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m4-incontro-con-liga-004",
+   "target": "la metà",
+   "translations": [
+    "die Hälfte"
+   ],
+   "page": "201-202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m4-incontro-con-liga-005",
+   "target": "la giornata",
+   "translations": [
+    "der Tag"
+   ],
+   "page": "201-202",
+   "usage": "im Verlauf",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m4-incontro-con-liga-006",
+   "target": "l’incontro",
+   "translations": [
+    "das Treffen"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "m4-incontro-con-liga-007",
+   "target": "più di",
+   "translations": [
+    "mehr als"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "m4-incontro-con-liga-008",
+   "target": "qualcuno",
+   "translations": [
+    "jemand"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "m4-incontro-con-liga-009",
+   "target": "Non ci credo!",
+   "translations": [
+    "Das glaube ich nicht!"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "m4-incontro-con-liga-010",
+   "target": "invidiare",
+   "translations": [
+    "beneiden"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "m4-incontro-con-liga-011",
+   "target": "annoiarsi",
+   "translations": [
+    "sich langweilen"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "m4-incontro-con-liga-012",
+   "target": "calmarsi",
+   "translations": [
+    "sich beruhigen"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "m4-incontro-con-liga-013",
+   "target": "apposta per",
+   "translations": [
+    "nur",
+    "extra für jdn"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "m4-incontro-con-liga-014",
+   "target": "Roba da matti!",
+   "translations": [
+    "Ich werde verrückt!"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "m4-incontro-con-liga-015",
+   "target": "toccare",
+   "translations": [
+    "dran sein",
+    "an der Reihe sein"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "m4-incontro-con-liga-016",
+   "target": "Mi dia …",
+   "translations": [
+    "Geben Sie mir …"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "m4-incontro-con-liga-017",
+   "target": "darsi del tu",
+   "translations": [
+    "sich duzen"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "m4-incontro-con-liga-018",
+   "target": "darsi del Lei",
+   "translations": [
+    "sich siezen"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "m4-incontro-con-liga-019",
+   "target": "bastare",
+   "translations": [
+    "genügen"
+   ],
+   "page": "201-202"
+  },
+  {
+   "id": "m4-incontro-con-liga-020",
+   "target": "il chiasso",
+   "translations": [
+    "der Lärm"
+   ],
+   "page": "201-202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m4-incontro-con-liga-021",
+   "target": "la sala",
+   "translations": [
+    "der Saal"
+   ],
+   "page": "201-202",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Modulo",
+   "section": "Incontro con Liga",
+   "pages": "201-202"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Musik",
+   "Gefühle",
+   "Alltag"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

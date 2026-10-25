@@ -1,0 +1,629 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-u3-approccio",
+ "title": "Ecco più 1 · Unità 3 · Approccio",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „A scuola“ aus Ecco più 1 (Unità 3, Approccio).",
+ "topics": [
+  "Schule",
+  "Uhrzeit",
+  "Fächer"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Unità 3 · Approccio",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 177-178 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u3-approccio-001",
+   "target": "l’orario",
+   "translations": [
+    "der Stundenplan",
+    "der Zeitplan"
+   ],
+   "page": "177-178",
+   "usage": "Pl.: gli orari"
+  },
+  {
+   "id": "u3-approccio-002",
+   "target": "il giorno",
+   "translations": [
+    "der Tag"
+   ],
+   "page": "177-178",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-003",
+   "target": "l’ora",
+   "translations": [
+    "die Stunde",
+    "die Unterrichtsstunde"
+   ],
+   "page": "177-178"
+  },
+  {
+   "id": "u3-approccio-004",
+   "target": "la settimana",
+   "translations": [
+    "die Woche"
+   ],
+   "page": "177-178",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-005",
+   "target": "(il) lunedì",
+   "translations": [
+    "Montag"
+   ],
+   "page": "177-178",
+   "acceptedAnswers": [
+    "lunedì",
+    "il lunedì"
+   ]
+  },
+  {
+   "id": "u3-approccio-006",
+   "target": "(il) martedì",
+   "translations": [
+    "Dienstag"
+   ],
+   "page": "177-178",
+   "acceptedAnswers": [
+    "martedì",
+    "il martedì"
+   ]
+  },
+  {
+   "id": "u3-approccio-007",
+   "target": "(il) mercoledì",
+   "translations": [
+    "Mittwoch"
+   ],
+   "page": "177-178",
+   "acceptedAnswers": [
+    "mercoledì",
+    "il mercoledì"
+   ]
+  },
+  {
+   "id": "u3-approccio-008",
+   "target": "(il) giovedì",
+   "translations": [
+    "Donnerstag"
+   ],
+   "page": "177-178",
+   "acceptedAnswers": [
+    "giovedì",
+    "il giovedì"
+   ]
+  },
+  {
+   "id": "u3-approccio-009",
+   "target": "(il) venerdì",
+   "translations": [
+    "Freitag"
+   ],
+   "page": "177-178",
+   "acceptedAnswers": [
+    "venerdì",
+    "il venerdì"
+   ]
+  },
+  {
+   "id": "u3-approccio-010",
+   "target": "(il) sabato",
+   "translations": [
+    "Samstag"
+   ],
+   "page": "177-178",
+   "acceptedAnswers": [
+    "sabato",
+    "il sabato"
+   ]
+  },
+  {
+   "id": "u3-approccio-011",
+   "target": "(la) domenica",
+   "translations": [
+    "Sonntag"
+   ],
+   "page": "177-178",
+   "acceptedAnswers": [
+    "domenica",
+    "la domenica"
+   ]
+  },
+  {
+   "id": "u3-approccio-012",
+   "target": "la mate(matica)",
+   "translations": [
+    "Mathe(matik)"
+   ],
+   "page": "177-178",
+   "acceptedAnswers": [
+    "la mate"
+   ],
+   "usage": "Schulfach",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-013",
+   "target": "la storia dell’arte",
+   "translations": [
+    "die Kunstgeschichte"
+   ],
+   "page": "177-178",
+   "usage": "Schulfach",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-014",
+   "target": "la religione",
+   "translations": [
+    "die Religion"
+   ],
+   "page": "177-178",
+   "usage": "Schulfach",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-015",
+   "target": "la fisica",
+   "translations": [
+    "die Physik"
+   ],
+   "page": "177-178",
+   "usage": "Schulfach",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-016",
+   "target": "il latino",
+   "translations": [
+    "Latein"
+   ],
+   "page": "177-178",
+   "usage": "Schulfach",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-017",
+   "target": "le scienze",
+   "translations": [
+    "die Naturwissenschaften"
+   ],
+   "page": "177-178",
+   "usage": "Schulfach",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "le",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-018",
+   "target": "l’educazione fisica",
+   "translations": [
+    "der Sport"
+   ],
+   "page": "177-178",
+   "usage": "Schulfach, f."
+  },
+  {
+   "id": "u3-approccio-019",
+   "target": "l’arte",
+   "translations": [
+    "die Kunst"
+   ],
+   "page": "177-178",
+   "usage": "Schulfach, m."
+  },
+  {
+   "id": "u3-approccio-020",
+   "target": "terribile",
+   "translations": [
+    "schrecklich"
+   ],
+   "page": "177-178"
+  },
+  {
+   "id": "u3-approccio-021",
+   "target": "alle …, all’ …",
+   "translations": [
+    "um … (Uhr)"
+   ],
+   "page": "177-178"
+  },
+  {
+   "id": "u3-approccio-022",
+   "target": "dalle … all’/alle …",
+   "translations": [
+    "von … bis …"
+   ],
+   "page": "177-178"
+  },
+  {
+   "id": "u3-approccio-023",
+   "target": "secondo me",
+   "translations": [
+    "meiner Meinung nach"
+   ],
+   "page": "177-178"
+  },
+  {
+   "id": "u3-approccio-024",
+   "target": "presto",
+   "translations": [
+    "früh"
+   ],
+   "page": "177-178",
+   "usage": "avv."
+  },
+  {
+   "id": "u3-approccio-025",
+   "target": "avere ragione",
+   "translations": [
+    "Recht haben"
+   ],
+   "page": "177-178"
+  },
+  {
+   "id": "u3-approccio-026",
+   "target": "preferito/-a",
+   "translations": [
+    "Lieblings-",
+    "bevorzugt"
+   ],
+   "page": "177-178"
+  },
+  {
+   "id": "u3-approccio-027",
+   "target": "purtroppo",
+   "translations": [
+    "leider"
+   ],
+   "page": "177-178",
+   "usage": "avv."
+  },
+  {
+   "id": "u3-approccio-028",
+   "target": "interrogare (-ghi-)",
+   "translations": [
+    "befragen",
+    "ausfragen"
+   ],
+   "page": "177-178",
+   "acceptedAnswers": [
+    "interrogare"
+   ]
+  },
+  {
+   "id": "u3-approccio-029",
+   "target": "il minuto",
+   "translations": [
+    "die Minute"
+   ],
+   "page": "177-178",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-030",
+   "target": "troppo/-a",
+   "translations": [
+    "zu viel"
+   ],
+   "page": "177-178"
+  },
+  {
+   "id": "u3-approccio-031",
+   "target": "un po’",
+   "translations": [
+    "etwas",
+    "ein bisschen"
+   ],
+   "page": "177-178",
+   "usage": "avv."
+  },
+  {
+   "id": "u3-approccio-032",
+   "target": "solo",
+   "translations": [
+    "nur",
+    "erst"
+   ],
+   "page": "177-178",
+   "usage": "avv."
+  },
+  {
+   "id": "u3-approccio-033",
+   "target": "poco/-a",
+   "translations": [
+    "wenig"
+   ],
+   "page": "177-178",
+   "usage": "Pl.: pochi/-e"
+  },
+  {
+   "id": "u3-approccio-034",
+   "target": "prima",
+   "translations": [
+    "früher",
+    "vorher"
+   ],
+   "page": "177-178",
+   "usage": "avv."
+  },
+  {
+   "id": "u3-approccio-035",
+   "target": "A che ora?",
+   "translations": [
+    "Um wie viel Uhr?"
+   ],
+   "page": "177-178"
+  },
+  {
+   "id": "u3-approccio-036",
+   "target": "allora",
+   "translations": [
+    "also"
+   ],
+   "page": "177-178",
+   "usage": "avv."
+  },
+  {
+   "id": "u3-approccio-037",
+   "target": "(l’una) e mezzo",
+   "translations": [
+    "halb (zwei)"
+   ],
+   "page": "177-178",
+   "acceptedAnswers": [
+    "e mezzo"
+   ]
+  },
+  {
+   "id": "u3-approccio-038",
+   "target": "(le due) meno un quarto",
+   "translations": [
+    "Viertel vor (zwei)"
+   ],
+   "page": "177-178",
+   "acceptedAnswers": [
+    "meno un quarto"
+   ]
+  },
+  {
+   "id": "u3-approccio-039",
+   "target": "il quarto",
+   "translations": [
+    "das Viertel"
+   ],
+   "page": "177-178",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-040",
+   "target": "la supplenza",
+   "translations": [
+    "die Vertretung"
+   ],
+   "page": "177-178",
+   "usage": "Schule",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-approccio-041",
+   "target": "saltare",
+   "translations": [
+    "(über)springen",
+    "ausfallen"
+   ],
+   "page": "177-178"
+  },
+  {
+   "id": "u3-approccio-042",
+   "target": "Evviva!",
+   "translations": [
+    "Hurra!",
+    "Juhu!"
+   ],
+   "page": "177-178"
+  },
+  {
+   "id": "u3-approccio-043",
+   "target": "Che ore sono?",
+   "translations": [
+    "Wie spät ist es?"
+   ],
+   "page": "177-178"
+  },
+  {
+   "id": "u3-approccio-044",
+   "target": "Aiuto!",
+   "translations": [
+    "Hilfe!"
+   ],
+   "page": "177-178"
+  },
+  {
+   "id": "u3-approccio-045",
+   "target": "cominciare (a + inf.)",
+   "translations": [
+    "anfangen",
+    "beginnen (etw. zu tun)"
+   ],
+   "page": "177-178",
+   "acceptedAnswers": [
+    "cominciare"
+   ]
+  },
+  {
+   "id": "u3-approccio-046",
+   "target": "fra/tra",
+   "translations": [
+    "in"
+   ],
+   "page": "177-178",
+   "usage": "zeitlich"
+  },
+  {
+   "id": "u3-approccio-047",
+   "target": "di nuovo",
+   "translations": [
+    "wieder",
+    "erneut"
+   ],
+   "page": "177-178",
+   "usage": "avv."
+  },
+  {
+   "id": "u3-approccio-048",
+   "target": "in ritardo",
+   "translations": [
+    "verspätet"
+   ],
+   "page": "177-178",
+   "usage": "avv."
+  },
+  {
+   "id": "u3-approccio-049",
+   "target": "sicuramente",
+   "translations": [
+    "sicher"
+   ],
+   "page": "177-178",
+   "usage": "avv."
+  },
+  {
+   "id": "u3-approccio-050",
+   "target": "prendere una nota sul registro",
+   "translations": [
+    "einen Eintrag ins Klassenbuch bekommen"
+   ],
+   "page": "177-178"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "Approccio",
+   "pages": "177-178"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Schule",
+   "Uhrzeit",
+   "Fächer"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

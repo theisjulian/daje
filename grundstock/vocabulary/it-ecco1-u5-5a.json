@@ -1,0 +1,613 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-u5-5a",
+ "title": "Ecco più 1 · Unità 5 · 5A",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Gli angeli biondi“ aus Ecco più 1 (Unità 5, 5A).",
+ "topics": [
+  "Familie",
+  "Charakter",
+  "Geburtstag"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Unità 5 · 5A",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 187-188 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u5-5a-001",
+   "target": "l’angelo",
+   "translations": [
+    "der Engel"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-002",
+   "target": "pazzesco/-a",
+   "translations": [
+    "unglaublich",
+    "verrückt"
+   ],
+   "page": "187-188",
+   "usage": "Pl.: pazzeschi/-che"
+  },
+  {
+   "id": "u5-5a-003",
+   "target": "l’inizio",
+   "translations": [
+    "der Anfang"
+   ],
+   "page": "187-188",
+   "usage": "Pl.: gli inizi"
+  },
+  {
+   "id": "u5-5a-004",
+   "target": "ieri",
+   "translations": [
+    "gestern"
+   ],
+   "page": "187-188",
+   "usage": "avv."
+  },
+  {
+   "id": "u5-5a-005",
+   "target": "il/la parente",
+   "translations": [
+    "der/die Verwandte"
+   ],
+   "page": "187-188",
+   "usage": "Pl.: i parenti"
+  },
+  {
+   "id": "u5-5a-006",
+   "target": "invitare",
+   "translations": [
+    "einladen"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-007",
+   "target": "che",
+   "translations": [
+    "der",
+    "die",
+    "das",
+    "den"
+   ],
+   "page": "187-188",
+   "usage": "Relativpronomen"
+  },
+  {
+   "id": "u5-5a-008",
+   "target": "di solito",
+   "translations": [
+    "normalerweise",
+    "meistens"
+   ],
+   "page": "187-188",
+   "usage": "avv."
+  },
+  {
+   "id": "u5-5a-009",
+   "target": "rompere",
+   "translations": [
+    "kaputt machen",
+    "nerven"
+   ],
+   "page": "187-188",
+   "usage": "Partizip: rotto; hier: nerven"
+  },
+  {
+   "id": "u5-5a-010",
+   "target": "mantenere (mantengo)",
+   "translations": [
+    "bewahren",
+    "aufrechterhalten"
+   ],
+   "page": "187-188",
+   "acceptedAnswers": [
+    "mantenere"
+   ]
+  },
+  {
+   "id": "u5-5a-011",
+   "target": "il segreto",
+   "translations": [
+    "das Geheimnis"
+   ],
+   "page": "187-188",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-012",
+   "target": "tenere (tengo)",
+   "translations": [
+    "halten"
+   ],
+   "page": "187-188",
+   "acceptedAnswers": [
+    "tenere"
+   ]
+  },
+  {
+   "id": "u5-5a-013",
+   "target": "il discorso",
+   "translations": [
+    "die Rede",
+    "der Vortrag"
+   ],
+   "page": "187-188",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-014",
+   "target": "la donna",
+   "translations": [
+    "die Frau",
+    "die Dame"
+   ],
+   "page": "187-188",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-015",
+   "target": "vivace",
+   "translations": [
+    "lebhaft"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-016",
+   "target": "alla sua età",
+   "translations": [
+    "für sein/ihr Alter"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-017",
+   "target": "sincero/-a",
+   "translations": [
+    "ehrlich"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-018",
+   "target": "avere saputo",
+   "translations": [
+    "erfahren haben"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-019",
+   "target": "la vetrina",
+   "translations": [
+    "das Schaufenster",
+    "die Schaufensterscheibe"
+   ],
+   "page": "187-188",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-020",
+   "target": "la serata",
+   "translations": [
+    "der Abend"
+   ],
+   "page": "187-188",
+   "usage": "im Verlauf",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-021",
+   "target": "la cena",
+   "translations": [
+    "das Abendessen"
+   ],
+   "page": "187-188",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-022",
+   "target": "il/la cameriere/-a",
+   "translations": [
+    "der Kellner / die Kellnerin"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-023",
+   "target": "il/la vicino/-a",
+   "translations": [
+    "der Nachbar / die Nachbarin"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-024",
+   "target": "timido/-a",
+   "translations": [
+    "schüchtern"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-025",
+   "target": "fare una figuraccia",
+   "translations": [
+    "sich blamieren",
+    "einen schlechten Eindruck machen"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-026",
+   "target": "aprire",
+   "translations": [
+    "öffnen"
+   ],
+   "page": "187-188",
+   "usage": "Partizip: aperto"
+  },
+  {
+   "id": "u5-5a-027",
+   "target": "la bottiglia",
+   "translations": [
+    "die Flasche"
+   ],
+   "page": "187-188",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-028",
+   "target": "lavare",
+   "translations": [
+    "(ab)waschen",
+    "nass spritzen"
+   ],
+   "page": "187-188",
+   "usage": "hier: nass spritzen"
+  },
+  {
+   "id": "u5-5a-029",
+   "target": "povero/-a",
+   "translations": [
+    "arm"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-030",
+   "target": "improvvisamente",
+   "translations": [
+    "plötzlich"
+   ],
+   "page": "187-188",
+   "usage": "avv."
+  },
+  {
+   "id": "u5-5a-031",
+   "target": "Tanti auguri!",
+   "translations": [
+    "Herzlichen Glückwunsch!"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-032",
+   "target": "Buon compleanno!",
+   "translations": [
+    "Alles Gute zum Geburtstag!"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-033",
+   "target": "riconoscere",
+   "translations": [
+    "wiedererkennen"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-034",
+   "target": "tanto/-a",
+   "translations": [
+    "viel"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-035",
+   "target": "fa",
+   "translations": [
+    "vor"
+   ],
+   "page": "187-188",
+   "usage": "zeitlich, nachgestellt"
+  },
+  {
+   "id": "u5-5a-036",
+   "target": "i gemelli",
+   "translations": [
+    "die Zwillinge"
+   ],
+   "page": "187-188",
+   "usage": "pl.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "i",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-037",
+   "target": "uguale a qn/qs",
+   "translations": [
+    "jdm/etw. ähnlich",
+    "gleich"
+   ],
+   "page": "187-188",
+   "usage": "agg."
+  },
+  {
+   "id": "u5-5a-038",
+   "target": "il tipo",
+   "translations": [
+    "der Typ",
+    "die Art"
+   ],
+   "page": "187-188",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-039",
+   "target": "spiritoso/-a",
+   "translations": [
+    "humorvoll",
+    "witzig"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-040",
+   "target": "la Germania",
+   "translations": [
+    "Deutschland"
+   ],
+   "page": "187-188",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-041",
+   "target": "difficile",
+   "translations": [
+    "schwierig"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-042",
+   "target": "Italia",
+   "translations": [
+    "Italien"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-043",
+   "target": "andare d’accordo",
+   "translations": [
+    "sich vertragen",
+    "gut verstehen"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-044",
+   "target": "il profilo",
+   "translations": [
+    "das Profil"
+   ],
+   "page": "187-188",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-045",
+   "target": "l’abbraccio",
+   "translations": [
+    "die Umarmung"
+   ],
+   "page": "187-188",
+   "usage": "Pl.: gli abbracci"
+  },
+  {
+   "id": "u5-5a-046",
+   "target": "Un abbraccio",
+   "translations": [
+    "Herzliche Grüße"
+   ],
+   "page": "187-188",
+   "usage": "Brief, Mail"
+  },
+  {
+   "id": "u5-5a-047",
+   "target": "A presto!",
+   "translations": [
+    "Bis bald!"
+   ],
+   "page": "187-188"
+  },
+  {
+   "id": "u5-5a-048",
+   "target": "il saluto",
+   "translations": [
+    "der Gruß"
+   ],
+   "page": "187-188",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-049",
+   "target": "il consiglio",
+   "translations": [
+    "der Rat",
+    "der Tipp"
+   ],
+   "page": "187-188",
+   "usage": "Pl.: i consigli",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5a-050",
+   "target": "Roma",
+   "translations": [
+    "Rom"
+   ],
+   "page": "187-188",
+   "usage": "die Hauptstadt von Italien"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "5A",
+   "pages": "187-188"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Familie",
+   "Charakter",
+   "Geburtstag"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

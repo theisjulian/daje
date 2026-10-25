@@ -36,3 +36,12 @@ Das Einbetten über den YouTube-Player ist in der Regel unproblematisch. Eine w�
 - Nicht live getestet: Ich konnte von hier aus nicht auf die Gemini-API zugreifen. Mit simulierten Antworten laufen Erzeugung, Prüfung, Bündelung und Anzeige durch. Der erste echte Lauf sollte mit `--limit 3` starten.
 - Ob die Batch-API (halber Preis) YouTube-Links akzeptiert, stand nicht in der Dokumentation.
 - Modellname: Standard `gemini-3.8-flash` (von Google selbst als Nachfolger genannt); anderes Modell per `--model` oder `GEMINI_MODEL=` in schluessel.env.
+
+## Ohne API-Schlüssel: Stapel im Gemini-Chat (Menü 6 und 7)
+
+Wenn die Schnittstelle überlastet ist oder du lieber im Browser arbeitest:
+
+1. Menü **6**: baut `werkzeuge/Gemini-Stapel.md` mit bis zu 10 offenen Videos aus `videos.csv` (Kommandodatei, Qualitätsregeln und Videoliste in einer Datei).
+2. Datei komplett in einen neuen Chat auf gemini.google.com einfügen (Modell Pro bzw. Thinking). Gemini liefert pro Antwort ein Paket; jeweils „weiter“ schreiben.
+3. Alle Antworten nacheinander in `werkzeuge/antworten.txt` kopieren (Codeblöcke und Zwischentext dürfen drinbleiben).
+4. Menü **7**: liest ein, prüft mit dem Importvertrag und denselben Qualitätsregeln wie die automatische Erzeugung (Aufgabenzahl nach Länge, Typenmix, Zeitmarken) und bündelt. Pakete, die durchfallen, landen in `werkzeuge/abgelehnt/`.

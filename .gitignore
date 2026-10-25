@@ -3,3 +3,7 @@ node_modules/
 .DS_Store
 _tmp.json
 __pycache__/
+
+werkzeuge/abgelehnt/
+werkzeuge/antworten.txt
+werkzeuge/Gemini-Stapel.md

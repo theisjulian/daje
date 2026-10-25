@@ -1,0 +1,582 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-u3-3a",
+ "title": "Ecco più 1 · Unità 3 · 3A",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Un lunedì nella 1ª B“ aus Ecco più 1 (Unità 3, 3A).",
+ "topics": [
+  "Schule",
+  "Klassenzimmer",
+  "Noten"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Unità 3 · 3A",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 178-179 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u3-3a-001",
+   "target": "l’aula",
+   "translations": [
+    "das Klassenzimmer"
+   ],
+   "page": "178-179"
+  },
+  {
+   "id": "u3-3a-002",
+   "target": "capire (-sc-)",
+   "translations": [
+    "verstehen"
+   ],
+   "page": "178-179",
+   "acceptedAnswers": [
+    "capire"
+   ]
+  },
+  {
+   "id": "u3-3a-003",
+   "target": "Come si dice …?",
+   "translations": [
+    "Wie sagt man …?"
+   ],
+   "page": "178-179"
+  },
+  {
+   "id": "u3-3a-004",
+   "target": "Come si scrive …?",
+   "translations": [
+    "Wie schreibt man …?"
+   ],
+   "page": "178-179"
+  },
+  {
+   "id": "u3-3a-005",
+   "target": "Che significa …?",
+   "translations": [
+    "Was bedeutet …?"
+   ],
+   "page": "178-179"
+  },
+  {
+   "id": "u3-3a-006",
+   "target": "altro/-a",
+   "translations": [
+    "andere(r, s)"
+   ],
+   "page": "178-179"
+  },
+  {
+   "id": "u3-3a-007",
+   "target": "Scusi!",
+   "translations": [
+    "Entschuldigen Sie!"
+   ],
+   "page": "178-179"
+  },
+  {
+   "id": "u3-3a-008",
+   "target": "il/la prof(essore/-ssa)",
+   "translations": [
+    "der/die Lehrer/-in"
+   ],
+   "page": "178-179",
+   "acceptedAnswers": [
+    "il/la prof"
+   ]
+  },
+  {
+   "id": "u3-3a-009",
+   "target": "lo sciopero",
+   "translations": [
+    "der Streik"
+   ],
+   "page": "178-179",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-010",
+   "target": "partire",
+   "translations": [
+    "weggehen",
+    "wegfahren",
+    "abreisen"
+   ],
+   "page": "178-179"
+  },
+  {
+   "id": "u3-3a-011",
+   "target": "correre",
+   "translations": [
+    "eilen",
+    "rennen"
+   ],
+   "page": "178-179"
+  },
+  {
+   "id": "u3-3a-012",
+   "target": "il posto",
+   "translations": [
+    "der Platz",
+    "der Ort"
+   ],
+   "page": "178-179",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-013",
+   "target": "nervoso/-a",
+   "translations": [
+    "nervös"
+   ],
+   "page": "178-179"
+  },
+  {
+   "id": "u3-3a-014",
+   "target": "l’interrogazione",
+   "translations": [
+    "die Abfrage"
+   ],
+   "page": "178-179",
+   "usage": "f."
+  },
+  {
+   "id": "u3-3a-015",
+   "target": "la voce",
+   "translations": [
+    "die Stimme"
+   ],
+   "page": "178-179",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-016",
+   "target": "pensare",
+   "translations": [
+    "denken"
+   ],
+   "page": "178-179"
+  },
+  {
+   "id": "u3-3a-017",
+   "target": "spiegare (-ghi-)",
+   "translations": [
+    "erklären"
+   ],
+   "page": "178-179",
+   "acceptedAnswers": [
+    "spiegare"
+   ]
+  },
+  {
+   "id": "u3-3a-018",
+   "target": "il Nilo",
+   "translations": [
+    "der Nil"
+   ],
+   "page": "178-179",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-019",
+   "target": "dire (dico)",
+   "translations": [
+    "sagen"
+   ],
+   "page": "178-179",
+   "acceptedAnswers": [
+    "dire"
+   ],
+   "usage": "unregelmäßig"
+  },
+  {
+   "id": "u3-3a-020",
+   "target": "la sciocchezza",
+   "translations": [
+    "der Blödsinn"
+   ],
+   "page": "178-179",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-021",
+   "target": "il millennio",
+   "translations": [
+    "das Jahrtausend"
+   ],
+   "page": "178-179",
+   "usage": "Pl.: i millenni",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-022",
+   "target": "la vita",
+   "translations": [
+    "das Leben"
+   ],
+   "page": "178-179",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-023",
+   "target": "il/la secchione/-a",
+   "translations": [
+    "der Streber / die Streberin"
+   ],
+   "page": "178-179",
+   "usage": "fam."
+  },
+  {
+   "id": "u3-3a-024",
+   "target": "a memoria",
+   "translations": [
+    "auswendig"
+   ],
+   "page": "178-179"
+  },
+  {
+   "id": "u3-3a-025",
+   "target": "restituire (-sc-)",
+   "translations": [
+    "zurückgeben"
+   ],
+   "page": "178-179",
+   "acceptedAnswers": [
+    "restituire"
+   ]
+  },
+  {
+   "id": "u3-3a-026",
+   "target": "la soluzione",
+   "translations": [
+    "die Lösung"
+   ],
+   "page": "178-179",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-027",
+   "target": "la LIM",
+   "translations": [
+    "die interaktive Tafel",
+    "das Whiteboard"
+   ],
+   "page": "178-179",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-028",
+   "target": "avere preso un (voto)",
+   "translations": [
+    "eine (Note) bekommen haben"
+   ],
+   "page": "178-179",
+   "acceptedAnswers": [
+    "avere preso un"
+   ]
+  },
+  {
+   "id": "u3-3a-029",
+   "target": "bravo/-a",
+   "translations": [
+    "gut",
+    "tüchtig"
+   ],
+   "page": "178-179"
+  },
+  {
+   "id": "u3-3a-030",
+   "target": "invece",
+   "translations": [
+    "hingegen",
+    "dagegen"
+   ],
+   "page": "178-179",
+   "usage": "avv."
+  },
+  {
+   "id": "u3-3a-031",
+   "target": "il voto",
+   "translations": [
+    "die Note"
+   ],
+   "page": "178-179",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-032",
+   "target": "contento/-a",
+   "translations": [
+    "zufrieden"
+   ],
+   "page": "178-179"
+  },
+  {
+   "id": "u3-3a-033",
+   "target": "il problema",
+   "translations": [
+    "das Problem"
+   ],
+   "page": "178-179",
+   "usage": "m.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-034",
+   "target": "la geometria",
+   "translations": [
+    "die Geometrie"
+   ],
+   "page": "178-179",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-035",
+   "target": "fare attenzione",
+   "translations": [
+    "aufmerksam sein",
+    "aufpassen"
+   ],
+   "page": "178-179"
+  },
+  {
+   "id": "u3-3a-036",
+   "target": "finire (-sc-)",
+   "translations": [
+    "beenden",
+    "enden"
+   ],
+   "page": "178-179",
+   "acceptedAnswers": [
+    "finire"
+   ]
+  },
+  {
+   "id": "u3-3a-037",
+   "target": "per favore",
+   "translations": [
+    "bitte"
+   ],
+   "page": "178-179"
+  },
+  {
+   "id": "u3-3a-038",
+   "target": "l’informazione",
+   "translations": [
+    "die Information"
+   ],
+   "page": "178-179",
+   "usage": "f."
+  },
+  {
+   "id": "u3-3a-039",
+   "target": "la relazione",
+   "translations": [
+    "das Referat"
+   ],
+   "page": "178-179",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-040",
+   "target": "l’esercizio",
+   "translations": [
+    "die Übung"
+   ],
+   "page": "178-179",
+   "usage": "Pl.: gli esercizi"
+  },
+  {
+   "id": "u3-3a-041",
+   "target": "la pagina",
+   "translations": [
+    "die Seite"
+   ],
+   "page": "178-179",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-042",
+   "target": "Senta!",
+   "translations": [
+    "Hören Sie!"
+   ],
+   "page": "178-179"
+  },
+  {
+   "id": "u3-3a-043",
+   "target": "domani",
+   "translations": [
+    "morgen"
+   ],
+   "page": "178-179",
+   "usage": "avv."
+  },
+  {
+   "id": "u3-3a-044",
+   "target": "però",
+   "translations": [
+    "jedoch",
+    "aber"
+   ],
+   "page": "178-179",
+   "usage": "avv."
+  },
+  {
+   "id": "u3-3a-045",
+   "target": "Arrivederci!",
+   "translations": [
+    "Auf Wiedersehen!"
+   ],
+   "page": "178-179"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "3A",
+   "pages": "178-179"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Schule",
+   "Klassenzimmer",
+   "Noten"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

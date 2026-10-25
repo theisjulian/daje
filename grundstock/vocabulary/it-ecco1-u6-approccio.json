@@ -1,0 +1,419 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-u6-approccio",
+ "title": "Ecco più 1 · Unità 6 · Approccio",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Moda e cibo“ aus Ecco più 1 (Unità 6, Approccio).",
+ "topics": [
+  "Kleidung",
+  "Farben",
+  "Mode"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Unità 6 · Approccio",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 190-191 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u6-approccio-001",
+   "target": "la moda",
+   "translations": [
+    "die Mode"
+   ],
+   "page": "190-191",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-002",
+   "target": "il cibo",
+   "translations": [
+    "das Essen"
+   ],
+   "page": "190-191",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-003",
+   "target": "mi",
+   "translations": [
+    "mir"
+   ],
+   "page": "190-191"
+  },
+  {
+   "id": "u6-approccio-004",
+   "target": "sta/stanno a qn",
+   "translations": [
+    "jd steht/stehen"
+   ],
+   "page": "190-191",
+   "usage": "Kleidung"
+  },
+  {
+   "id": "u6-approccio-005",
+   "target": "i pantaloni",
+   "translations": [
+    "die Hosen"
+   ],
+   "page": "190-191",
+   "usage": "pl.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "i",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-006",
+   "target": "ti",
+   "translations": [
+    "dir"
+   ],
+   "page": "190-191"
+  },
+  {
+   "id": "u6-approccio-007",
+   "target": "benissimo",
+   "translations": [
+    "sehr gut"
+   ],
+   "page": "190-191",
+   "usage": "avv."
+  },
+  {
+   "id": "u6-approccio-008",
+   "target": "la gonna",
+   "translations": [
+    "der Rock"
+   ],
+   "page": "190-191",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-009",
+   "target": "Non lo so.",
+   "translations": [
+    "Ich weiß es nicht."
+   ],
+   "page": "190-191"
+  },
+  {
+   "id": "u6-approccio-010",
+   "target": "mettere",
+   "translations": [
+    "anziehen"
+   ],
+   "page": "190-191"
+  },
+  {
+   "id": "u6-approccio-011",
+   "target": "la maglietta",
+   "translations": [
+    "das T-Shirt"
+   ],
+   "page": "190-191",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-012",
+   "target": "scegliere (scelgo)",
+   "translations": [
+    "wählen",
+    "aussuchen"
+   ],
+   "page": "190-191",
+   "acceptedAnswers": [
+    "scegliere"
+   ],
+   "usage": "Partizip: scelto"
+  },
+  {
+   "id": "u6-approccio-013",
+   "target": "il paio",
+   "translations": [
+    "das Paar"
+   ],
+   "page": "190-191",
+   "usage": "Kleidung",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-014",
+   "target": "i jeans",
+   "translations": [
+    "die Jeans"
+   ],
+   "page": "190-191",
+   "usage": "pl.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "i",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-015",
+   "target": "blu",
+   "translations": [
+    "dunkelblau"
+   ],
+   "page": "190-191",
+   "usage": "agg."
+  },
+  {
+   "id": "u6-approccio-016",
+   "target": "la taglia",
+   "translations": [
+    "die Größe"
+   ],
+   "page": "190-191",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-017",
+   "target": "il maglione",
+   "translations": [
+    "der Pullover"
+   ],
+   "page": "190-191",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-018",
+   "target": "rosso/-a",
+   "translations": [
+    "rot"
+   ],
+   "page": "190-191"
+  },
+  {
+   "id": "u6-approccio-019",
+   "target": "la giacca",
+   "translations": [
+    "die Jacke"
+   ],
+   "page": "190-191",
+   "usage": "Pl.: le giacche",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-020",
+   "target": "la scarpa",
+   "translations": [
+    "der Schuh"
+   ],
+   "page": "190-191",
+   "usage": "Pl.: le scarpe",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-021",
+   "target": "lo stivale",
+   "translations": [
+    "der Stiefel"
+   ],
+   "page": "190-191",
+   "usage": "Pl.: gli stivali",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-022",
+   "target": "il vestito",
+   "translations": [
+    "das Kleid",
+    "der Anzug"
+   ],
+   "page": "190-191",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u6-approccio-023",
+   "target": "giallo/-a",
+   "translations": [
+    "gelb"
+   ],
+   "page": "190-191"
+  },
+  {
+   "id": "u6-approccio-024",
+   "target": "arancione",
+   "translations": [
+    "orange"
+   ],
+   "page": "190-191"
+  },
+  {
+   "id": "u6-approccio-025",
+   "target": "rosa",
+   "translations": [
+    "rosa"
+   ],
+   "page": "190-191"
+  },
+  {
+   "id": "u6-approccio-026",
+   "target": "viola",
+   "translations": [
+    "violett"
+   ],
+   "page": "190-191"
+  },
+  {
+   "id": "u6-approccio-027",
+   "target": "verde",
+   "translations": [
+    "grün"
+   ],
+   "page": "190-191"
+  },
+  {
+   "id": "u6-approccio-028",
+   "target": "marrone",
+   "translations": [
+    "braun"
+   ],
+   "page": "190-191"
+  },
+  {
+   "id": "u6-approccio-029",
+   "target": "grigio/-a",
+   "translations": [
+    "grau"
+   ],
+   "page": "190-191"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 6",
+   "section": "Approccio",
+   "pages": "190-191"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Kleidung",
+   "Farben",
+   "Mode"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

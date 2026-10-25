@@ -1,0 +1,602 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-u7-7a",
+ "title": "Ecco più 1 · Unità 7 · 7A",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Fa caldo in città – Che nervi!“ aus Ecco più 1 (Unità 7, 7A).",
+ "topics": [
+  "Wetter",
+  "Tagesablauf",
+  "Ferien"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Unità 7 · 7A",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 195-197 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u7-7a-001",
+   "target": "caldo/-a",
+   "translations": [
+    "warm",
+    "heiß"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-002",
+   "target": "fare caldo",
+   "translations": [
+    "warm sein",
+    "heiß sein"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-003",
+   "target": "Che nervi!",
+   "translations": [
+    "Wie nervig!"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-004",
+   "target": "tutto/-a",
+   "translations": [
+    "ganz",
+    "jede(r, s)"
+   ],
+   "page": "195-197",
+   "usage": "Pl.: alle"
+  },
+  {
+   "id": "u7-7a-005",
+   "target": "la mattina",
+   "translations": [
+    "morgens",
+    "vormittags",
+    "am Morgen"
+   ],
+   "page": "195-197",
+   "usage": "avv.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7a-006",
+   "target": "svegliarsi",
+   "translations": [
+    "aufwachen"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-007",
+   "target": "fare fresco",
+   "translations": [
+    "kühl sein"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-008",
+   "target": "alzarsi",
+   "translations": [
+    "aufstehen"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-009",
+   "target": "mettersi a qs (+ inf.)",
+   "translations": [
+    "mit etw. anfangen",
+    "anfangen zu + Inf."
+   ],
+   "page": "195-197",
+   "acceptedAnswers": [
+    "mettersi a qs"
+   ]
+  },
+  {
+   "id": "u7-7a-010",
+   "target": "a mezzogiorno",
+   "translations": [
+    "mittags",
+    "am Mittag"
+   ],
+   "page": "195-197",
+   "usage": "avv."
+  },
+  {
+   "id": "u7-7a-011",
+   "target": "la pausa",
+   "translations": [
+    "die Pause"
+   ],
+   "page": "195-197",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7a-012",
+   "target": "riposarsi",
+   "translations": [
+    "sich ausruhen"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-013",
+   "target": "fino a",
+   "translations": [
+    "bis"
+   ],
+   "page": "195-197",
+   "usage": "prep."
+  },
+  {
+   "id": "u7-7a-014",
+   "target": "prima di + inf.",
+   "translations": [
+    "vor etw."
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-015",
+   "target": "farsi la doccia",
+   "translations": [
+    "(sich) duschen"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-016",
+   "target": "rinfrescarsi (-chi-)",
+   "translations": [
+    "sich erfrischen"
+   ],
+   "page": "195-197",
+   "acceptedAnswers": [
+    "rinfrescarsi"
+   ]
+  },
+  {
+   "id": "u7-7a-017",
+   "target": "ricevere",
+   "translations": [
+    "erhalten"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-018",
+   "target": "la cartolina",
+   "translations": [
+    "die Postkarte",
+    "die Ansichtskarte"
+   ],
+   "page": "195-197",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7a-019",
+   "target": "o",
+   "translations": [
+    "oder"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-020",
+   "target": "la chiamata",
+   "translations": [
+    "der Anruf"
+   ],
+   "page": "195-197",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7a-021",
+   "target": "caro/-a",
+   "translations": [
+    "lieb",
+    "teuer"
+   ],
+   "page": "195-197",
+   "usage": "auch: liebe/-r im Brief"
+  },
+  {
+   "id": "u7-7a-022",
+   "target": "piovere",
+   "translations": [
+    "regnen"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-023",
+   "target": "trovarsi",
+   "translations": [
+    "sich befinden"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-024",
+   "target": "trovarsi bene",
+   "translations": [
+    "sich gut fühlen"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-025",
+   "target": "la gita",
+   "translations": [
+    "der Ausflug"
+   ],
+   "page": "195-197",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7a-026",
+   "target": "svizzero/-a",
+   "translations": [
+    "schweizerisch"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-027",
+   "target": "Con affetto!",
+   "translations": [
+    "Mit herzlichem Gruß!"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-028",
+   "target": "Tutto a posto!/?",
+   "translations": [
+    "Alles in Ordnung!/?"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-029",
+   "target": "il grado",
+   "translations": [
+    "der Grad"
+   ],
+   "page": "195-197",
+   "usage": "Temperatur",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7a-030",
+   "target": "il mare",
+   "translations": [
+    "das Meer"
+   ],
+   "page": "195-197",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7a-031",
+   "target": "il kite(surf)",
+   "translations": [
+    "das Kitesurfing"
+   ],
+   "page": "195-197",
+   "acceptedAnswers": [
+    "il kite"
+   ],
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7a-032",
+   "target": "il vento",
+   "translations": [
+    "der Wind"
+   ],
+   "page": "195-197",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7a-033",
+   "target": "Buono studio!",
+   "translations": [
+    "Viel Spaß beim Lernen!"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-034",
+   "target": "il pedalò",
+   "translations": [
+    "das Tretboot"
+   ],
+   "page": "195-197",
+   "usage": "Pl.: i pedalò",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7a-035",
+   "target": "divertirsi",
+   "translations": [
+    "sich vergnügen",
+    "Spaß haben"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-036",
+   "target": "fare male",
+   "translations": [
+    "weh tun"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-037",
+   "target": "la schiena",
+   "translations": [
+    "der Rücken"
+   ],
+   "page": "195-197",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7a-038",
+   "target": "fare schifo",
+   "translations": [
+    "abscheulich sein",
+    "eklig sein"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-039",
+   "target": "il caldo",
+   "translations": [
+    "die Hitze",
+    "die Wärme"
+   ],
+   "page": "195-197",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7a-040",
+   "target": "il coraggio",
+   "translations": [
+    "der Mut"
+   ],
+   "page": "195-197",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7a-041",
+   "target": "Avanti!",
+   "translations": [
+    "Los!",
+    "Vorwärts!"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-042",
+   "target": "far(e) vedere",
+   "translations": [
+    "zeigen"
+   ],
+   "page": "195-197",
+   "acceptedAnswers": [
+    "far vedere"
+   ]
+  },
+  {
+   "id": "u7-7a-043",
+   "target": "la scottatura",
+   "translations": [
+    "der Sonnenbrand"
+   ],
+   "page": "195-197",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7a-044",
+   "target": "lamentarsi",
+   "translations": [
+    "jammern",
+    "sich beschweren"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-045",
+   "target": "grave",
+   "translations": [
+    "schlimm",
+    "schwerwiegend"
+   ],
+   "page": "195-197"
+  },
+  {
+   "id": "u7-7a-046",
+   "target": "il mal di testa",
+   "translations": [
+    "die Kopfschmerzen"
+   ],
+   "page": "195-197",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7a-047",
+   "target": "chiudere",
+   "translations": [
+    "schließen",
+    "aufhören"
+   ],
+   "page": "195-197",
+   "usage": "Partizip: chiuso"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 7",
+   "section": "7A",
+   "pages": "195-197"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Wetter",
+   "Tagesablauf",
+   "Ferien"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

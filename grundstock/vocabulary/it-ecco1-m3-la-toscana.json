@@ -1,0 +1,411 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-m3-la-toscana",
+ "title": "Ecco più 1 · Modulo · La Toscana",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „La Toscana“ aus Ecco più 1 (Modulo, La Toscana).",
+ "topics": [
+  "Reisen",
+  "Toskana",
+  "Kultur"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Modulo · La Toscana",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 201 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "m3-la-toscana-001",
+   "target": "per esempio",
+   "translations": [
+    "zum Beispiel"
+   ],
+   "page": "201"
+  },
+  {
+   "id": "m3-la-toscana-002",
+   "target": "il duomo",
+   "translations": [
+    "der Dom"
+   ],
+   "page": "201",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m3-la-toscana-003",
+   "target": "la cupola",
+   "translations": [
+    "die Kuppel"
+   ],
+   "page": "201",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m3-la-toscana-004",
+   "target": "la visita",
+   "translations": [
+    "der Besuch",
+    "die Besichtigung"
+   ],
+   "page": "201",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m3-la-toscana-005",
+   "target": "normalmente",
+   "translations": [
+    "normalerweise"
+   ],
+   "page": "201"
+  },
+  {
+   "id": "m3-la-toscana-006",
+   "target": "perdere",
+   "translations": [
+    "verpassen",
+    "versäumen",
+    "verlieren"
+   ],
+   "page": "201",
+   "usage": "Partizip: perso"
+  },
+  {
+   "id": "m3-la-toscana-007",
+   "target": "particolare",
+   "translations": [
+    "besonders"
+   ],
+   "page": "201",
+   "usage": "agg."
+  },
+  {
+   "id": "m3-la-toscana-008",
+   "target": "mai",
+   "translations": [
+    "je(mals)"
+   ],
+   "page": "201"
+  },
+  {
+   "id": "m3-la-toscana-009",
+   "target": "il souvenir",
+   "translations": [
+    "das Souvenir",
+    "das Andenken"
+   ],
+   "page": "201",
+   "usage": "Pl.: i souvenir",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m3-la-toscana-010",
+   "target": "pieno/-a di qs/qn",
+   "translations": [
+    "voll von etw./jdm"
+   ],
+   "page": "201"
+  },
+  {
+   "id": "m3-la-toscana-011",
+   "target": "il/la turista",
+   "translations": [
+    "der Tourist / die Touristin"
+   ],
+   "page": "201"
+  },
+  {
+   "id": "m3-la-toscana-012",
+   "target": "il giardino",
+   "translations": [
+    "der Garten"
+   ],
+   "page": "201",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m3-la-toscana-013",
+   "target": "la torre",
+   "translations": [
+    "der Turm"
+   ],
+   "page": "201",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m3-la-toscana-014",
+   "target": "infatti",
+   "translations": [
+    "nämlich",
+    "tatsächlich"
+   ],
+   "page": "201"
+  },
+  {
+   "id": "m3-la-toscana-015",
+   "target": "il campanile",
+   "translations": [
+    "der Glockenturm"
+   ],
+   "page": "201",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m3-la-toscana-016",
+   "target": "pagare (-ghi-)",
+   "translations": [
+    "(be)zahlen"
+   ],
+   "page": "201",
+   "acceptedAnswers": [
+    "pagare"
+   ]
+  },
+  {
+   "id": "m3-la-toscana-017",
+   "target": "il carnevale",
+   "translations": [
+    "der Karneval"
+   ],
+   "page": "201",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m3-la-toscana-018",
+   "target": "il corteo",
+   "translations": [
+    "der Festzug"
+   ],
+   "page": "201",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m3-la-toscana-019",
+   "target": "prendere in giro qn",
+   "translations": [
+    "sich über jdn lustig machen"
+   ],
+   "page": "201"
+  },
+  {
+   "id": "m3-la-toscana-020",
+   "target": "prima o poi",
+   "translations": [
+    "früher oder später"
+   ],
+   "page": "201"
+  },
+  {
+   "id": "m3-la-toscana-021",
+   "target": "la tranquillità",
+   "translations": [
+    "die Ruhe"
+   ],
+   "page": "201",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m3-la-toscana-022",
+   "target": "il paesaggio",
+   "translations": [
+    "die Landschaft"
+   ],
+   "page": "201",
+   "usage": "Pl.: i paesaggi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m3-la-toscana-023",
+   "target": "ammirare",
+   "translations": [
+    "bestaunen"
+   ],
+   "page": "201"
+  },
+  {
+   "id": "m3-la-toscana-024",
+   "target": "il vino",
+   "translations": [
+    "der Wein"
+   ],
+   "page": "201",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m3-la-toscana-025",
+   "target": "l’ostello",
+   "translations": [
+    "das Hostel",
+    "die (Jugend-)Herberge"
+   ],
+   "page": "201"
+  },
+  {
+   "id": "m3-la-toscana-026",
+   "target": "fuori",
+   "translations": [
+    "außerhalb",
+    "draußen",
+    "hinaus"
+   ],
+   "page": "201"
+  },
+  {
+   "id": "m3-la-toscana-027",
+   "target": "al posto tuo",
+   "translations": [
+    "an deiner Stelle"
+   ],
+   "page": "201"
+  },
+  {
+   "id": "m3-la-toscana-028",
+   "target": "il paese",
+   "translations": [
+    "das Dorf"
+   ],
+   "page": "201",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Modulo",
+   "section": "La Toscana",
+   "pages": "201"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Reisen",
+   "Toskana",
+   "Kultur"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

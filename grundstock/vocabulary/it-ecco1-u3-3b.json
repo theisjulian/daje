@@ -1,0 +1,563 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-u3-3b",
+ "title": "Ecco più 1 · Unità 3 · 3B",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Il blog di Khalid“ aus Ecco più 1 (Unità 3, 3B).",
+ "topics": [
+  "Schule",
+  "Sprachen",
+  "Beschreibung"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Unità 3 · 3B",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 179-181 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u3-3b-001",
+   "target": "fra/tra",
+   "translations": [
+    "zwischen",
+    "unter"
+   ],
+   "page": "179-181",
+   "usage": "örtlich"
+  },
+  {
+   "id": "u3-3b-002",
+   "target": "il capitolo",
+   "translations": [
+    "das Kapitel"
+   ],
+   "page": "179-181",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-003",
+   "target": "abbastanza",
+   "translations": [
+    "ziemlich",
+    "genug"
+   ],
+   "page": "179-181",
+   "usage": "avv."
+  },
+  {
+   "id": "u3-3b-004",
+   "target": "leggere",
+   "translations": [
+    "lesen"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-005",
+   "target": "pesante",
+   "translations": [
+    "gewichtig",
+    "schwer"
+   ],
+   "page": "179-181",
+   "usage": "agg."
+  },
+  {
+   "id": "u3-3b-006",
+   "target": "creativo/-a",
+   "translations": [
+    "kreativ"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-007",
+   "target": "scrivere",
+   "translations": [
+    "schreiben"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-008",
+   "target": "il tema",
+   "translations": [
+    "der Aufsatz",
+    "das Thema"
+   ],
+   "page": "179-181",
+   "usage": "Pl.: i temi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-009",
+   "target": "qualche volta",
+   "translations": [
+    "manchmal"
+   ],
+   "page": "179-181",
+   "usage": "avv."
+  },
+  {
+   "id": "u3-3b-010",
+   "target": "la poesia",
+   "translations": [
+    "das Gedicht"
+   ],
+   "page": "179-181",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-011",
+   "target": "scontento/-a",
+   "translations": [
+    "unzufrieden"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-012",
+   "target": "meno male",
+   "translations": [
+    "zum Glück",
+    "umso besser"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-013",
+   "target": "che",
+   "translations": [
+    "dass"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-014",
+   "target": "la lettrice",
+   "translations": [
+    "die Fremdsprachenassistentin"
+   ],
+   "page": "179-181",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-015",
+   "target": "biondo/-a",
+   "translations": [
+    "blond"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-016",
+   "target": "lui/lei",
+   "translations": [
+    "ihn",
+    "ihm",
+    "sie",
+    "ihr"
+   ],
+   "page": "179-181",
+   "usage": "nach Präposition"
+  },
+  {
+   "id": "u3-3b-017",
+   "target": "proprio",
+   "translations": [
+    "genau"
+   ],
+   "page": "179-181",
+   "usage": "avv."
+  },
+  {
+   "id": "u3-3b-018",
+   "target": "raccontare",
+   "translations": [
+    "erzählen"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-019",
+   "target": "dare (do)",
+   "translations": [
+    "geben"
+   ],
+   "page": "179-181",
+   "acceptedAnswers": [
+    "dare"
+   ],
+   "usage": "unregelmäßig"
+  },
+  {
+   "id": "u3-3b-020",
+   "target": "alto/-a",
+   "translations": [
+    "hoch",
+    "gut"
+   ],
+   "page": "179-181",
+   "usage": "hier: gut"
+  },
+  {
+   "id": "u3-3b-021",
+   "target": "quando",
+   "translations": [
+    "wenn",
+    "sobald"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-022",
+   "target": "tocca a qn",
+   "translations": [
+    "jd ist an der Reihe",
+    "jd ist dran"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-023",
+   "target": "gridare",
+   "translations": [
+    "schreien"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-024",
+   "target": "il mistero",
+   "translations": [
+    "das Geheimnis"
+   ],
+   "page": "179-181",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-025",
+   "target": "te",
+   "translations": [
+    "dich",
+    "dir"
+   ],
+   "page": "179-181",
+   "usage": "nach Präposition"
+  },
+  {
+   "id": "u3-3b-026",
+   "target": "brutto/-a",
+   "translations": [
+    "hässlich",
+    "schlecht"
+   ],
+   "page": "179-181",
+   "usage": "hier: schlecht"
+  },
+  {
+   "id": "u3-3b-027",
+   "target": "noioso/-a",
+   "translations": [
+    "langweilig"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-028",
+   "target": "parlare",
+   "translations": [
+    "sprechen"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-029",
+   "target": "il/la giovane",
+   "translations": [
+    "der/die Jugendliche"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-030",
+   "target": "giovane",
+   "translations": [
+    "jung"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-031",
+   "target": "carino/-a",
+   "translations": [
+    "niedlich",
+    "hübsch",
+    "nett"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-032",
+   "target": "alla moda",
+   "translations": [
+    "modisch"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-033",
+   "target": "attento/-a",
+   "translations": [
+    "aufmerksam"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-034",
+   "target": "davvero",
+   "translations": [
+    "wirklich"
+   ],
+   "page": "179-181",
+   "usage": "avv."
+  },
+  {
+   "id": "u3-3b-035",
+   "target": "il matematico",
+   "translations": [
+    "der Mathematiker"
+   ],
+   "page": "179-181",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-036",
+   "target": "siciliano/-a",
+   "translations": [
+    "sizilianisch"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-037",
+   "target": "la regola",
+   "translations": [
+    "die Regel"
+   ],
+   "page": "179-181",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-038",
+   "target": "lo studente / la studentessa",
+   "translations": [
+    "der Schüler / die Schülerin"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-039",
+   "target": "simpatico/-a",
+   "translations": [
+    "nett",
+    "sympathisch"
+   ],
+   "page": "179-181",
+   "usage": "Pl.: simpatici/simpatiche"
+  },
+  {
+   "id": "u3-3b-040",
+   "target": "almeno",
+   "translations": [
+    "wenigstens",
+    "zumindest"
+   ],
+   "page": "179-181",
+   "usage": "avv."
+  },
+  {
+   "id": "u3-3b-041",
+   "target": "facile",
+   "translations": [
+    "leicht",
+    "einfach"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-042",
+   "target": "i media",
+   "translations": [
+    "die Medien"
+   ],
+   "page": "179-181",
+   "usage": "pl.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "i",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-043",
+   "target": "usare",
+   "translations": [
+    "gebrauchen",
+    "(be)nutzen"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-044",
+   "target": "bravissimo/-a",
+   "translations": [
+    "sehr gut",
+    "sehr tüchtig"
+   ],
+   "page": "179-181"
+  },
+  {
+   "id": "u3-3b-045",
+   "target": "il pomeriggio",
+   "translations": [
+    "der Nachmittag",
+    "nachmittags"
+   ],
+   "page": "179-181",
+   "usage": "Pl.: i pomeriggi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-046",
+   "target": "il caffè",
+   "translations": [
+    "der Kaffee",
+    "das Kaffee(-haus)"
+   ],
+   "page": "179-181",
+   "usage": "Pl.: i caffè",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-047",
+   "target": "il/la testimone",
+   "translations": [
+    "der Zeuge / die Zeugin"
+   ],
+   "page": "179-181"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "3B",
+   "pages": "179-181"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Schule",
+   "Sprachen",
+   "Beschreibung"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

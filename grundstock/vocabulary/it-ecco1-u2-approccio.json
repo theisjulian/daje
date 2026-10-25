@@ -1,0 +1,656 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-u2-approccio",
+ "title": "Ecco più 1 · Unità 2 · Approccio",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Il mio mondo“ aus Ecco più 1 (Unità 2, Approccio).",
+ "topics": [
+  "Familie",
+  "Vorlieben",
+  "Schule"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Unità 2 · Approccio",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 172-173 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u2-approccio-001",
+   "target": "mio/-a",
+   "translations": [
+    "mein"
+   ],
+   "page": "172-173"
+  },
+  {
+   "id": "u2-approccio-002",
+   "target": "il mondo",
+   "translations": [
+    "die Welt"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-003",
+   "target": "il nome",
+   "translations": [
+    "der Name"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-004",
+   "target": "il cognome",
+   "translations": [
+    "der Nachname"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-005",
+   "target": "l’età",
+   "translations": [
+    "das Alter"
+   ],
+   "page": "172-173"
+  },
+  {
+   "id": "u2-approccio-006",
+   "target": "avere",
+   "translations": [
+    "haben"
+   ],
+   "page": "172-173",
+   "usage": "unregelmäßig"
+  },
+  {
+   "id": "u2-approccio-007",
+   "target": "l’anno",
+   "translations": [
+    "das Jahr"
+   ],
+   "page": "172-173"
+  },
+  {
+   "id": "u2-approccio-008",
+   "target": "Ho … anni.",
+   "translations": [
+    "Ich bin … Jahre alt."
+   ],
+   "page": "172-173"
+  },
+  {
+   "id": "u2-approccio-009",
+   "target": "l’indirizzo",
+   "translations": [
+    "die Adresse"
+   ],
+   "page": "172-173"
+  },
+  {
+   "id": "u2-approccio-010",
+   "target": "il numero",
+   "translations": [
+    "die Zahl",
+    "die Nummer"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-011",
+   "target": "il cellulare",
+   "translations": [
+    "das Handy"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-012",
+   "target": "la famiglia",
+   "translations": [
+    "die Familie"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-013",
+   "target": "il padre",
+   "translations": [
+    "der Vater"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-014",
+   "target": "la madre",
+   "translations": [
+    "die Mutter"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-015",
+   "target": "mi piace + sg.",
+   "translations": [
+    "mir gefällt + Sg.",
+    "ich mag"
+   ],
+   "page": "172-173"
+  },
+  {
+   "id": "u2-approccio-016",
+   "target": "mi piacciono + pl.",
+   "translations": [
+    "mir gefallen + Pl.",
+    "ich mag"
+   ],
+   "page": "172-173"
+  },
+  {
+   "id": "u2-approccio-017",
+   "target": "la materia",
+   "translations": [
+    "das Schulfach"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-018",
+   "target": "come",
+   "translations": [
+    "wie"
+   ],
+   "page": "172-173",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-approccio-019",
+   "target": "la storia",
+   "translations": [
+    "die Geschichte"
+   ],
+   "page": "172-173",
+   "usage": "Schulfach",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-020",
+   "target": "la filosofia",
+   "translations": [
+    "die Philosophie"
+   ],
+   "page": "172-173",
+   "usage": "Schulfach",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-021",
+   "target": "andare sullo snowboard",
+   "translations": [
+    "Snowboard fahren",
+    "snowboarden"
+   ],
+   "page": "172-173"
+  },
+  {
+   "id": "u2-approccio-022",
+   "target": "lo snowboard",
+   "translations": [
+    "das Snowboard"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-023",
+   "target": "la casa",
+   "translations": [
+    "das Haus"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-024",
+   "target": "l’ordine",
+   "translations": [
+    "die Ordnung"
+   ],
+   "page": "172-173",
+   "usage": "m."
+  },
+  {
+   "id": "u2-approccio-025",
+   "target": "mettere in ordine",
+   "translations": [
+    "aufräumen"
+   ],
+   "page": "172-173"
+  },
+  {
+   "id": "u2-approccio-026",
+   "target": "Quanto/-a?",
+   "translations": [
+    "Wie viel?"
+   ],
+   "page": "172-173"
+  },
+  {
+   "id": "u2-approccio-027",
+   "target": "Quanti anni hai?",
+   "translations": [
+    "Wie alt bist du?"
+   ],
+   "page": "172-173"
+  },
+  {
+   "id": "u2-approccio-028",
+   "target": "Quale?",
+   "translations": [
+    "Welche(r, s)?"
+   ],
+   "page": "172-173"
+  },
+  {
+   "id": "u2-approccio-029",
+   "target": "tuo/-a",
+   "translations": [
+    "deine(r, s)"
+   ],
+   "page": "172-173"
+  },
+  {
+   "id": "u2-approccio-030",
+   "target": "Che cosa ti piace?",
+   "translations": [
+    "Was magst du?",
+    "Was gefällt dir?"
+   ],
+   "page": "172-173"
+  },
+  {
+   "id": "u2-approccio-031",
+   "target": "la sorella",
+   "translations": [
+    "die Schwester"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-032",
+   "target": "il calcio",
+   "translations": [
+    "der Fußball"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-033",
+   "target": "amare",
+   "translations": [
+    "lieben"
+   ],
+   "page": "172-173"
+  },
+  {
+   "id": "u2-approccio-034",
+   "target": "la musica",
+   "translations": [
+    "die Musik"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-035",
+   "target": "conoscere",
+   "translations": [
+    "kennen",
+    "kennen lernen"
+   ],
+   "page": "172-173"
+  },
+  {
+   "id": "u2-approccio-036",
+   "target": "il compito",
+   "translations": [
+    "die Aufgabe"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-037",
+   "target": "il compito in classe",
+   "translations": [
+    "die Schularbeit",
+    "die Klassenarbeit"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-038",
+   "target": "i compiti",
+   "translations": [
+    "die Hausaufgaben"
+   ],
+   "page": "172-173",
+   "usage": "pl.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "i",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-039",
+   "target": "il fratello",
+   "translations": [
+    "der Bruder"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-040",
+   "target": "la lezione",
+   "translations": [
+    "der Unterricht",
+    "die Unterrichtsstunde"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-041",
+   "target": "la danza",
+   "translations": [
+    "der Tanz"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-042",
+   "target": "la lezione di danza",
+   "translations": [
+    "der Tanzunterricht"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-043",
+   "target": "lo studio",
+   "translations": [
+    "das Studio"
+   ],
+   "page": "172-173",
+   "usage": "Pl.: gli studi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-044",
+   "target": "ballare",
+   "translations": [
+    "tanzen"
+   ],
+   "page": "172-173"
+  },
+  {
+   "id": "u2-approccio-045",
+   "target": "la canzone",
+   "translations": [
+    "der Song",
+    "das Lied"
+   ],
+   "page": "172-173",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "Approccio",
+   "pages": "172-173"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Familie",
+   "Vorlieben",
+   "Schule"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

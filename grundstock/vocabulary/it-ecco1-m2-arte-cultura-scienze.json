@@ -1,0 +1,484 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-m2-arte-cultura-scienze",
+ "title": "Ecco più 1 · Modulo · Arte, cultura e scienze",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Arte, cultura e scienze“ aus Ecco più 1 (Modulo, Arte, cultura e scienze).",
+ "topics": [
+  "Kultur",
+  "Kunst",
+  "Wissenschaft"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Modulo · Arte, cultura e scienze",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 200 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "m2-arte-cultura-scienze-001",
+   "target": "la cultura",
+   "translations": [
+    "die Kultur"
+   ],
+   "page": "200",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m2-arte-cultura-scienze-002",
+   "target": "considerare qs/qn",
+   "translations": [
+    "etw./jdn betrachten als",
+    "halten für"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-003",
+   "target": "per questo",
+   "translations": [
+    "deshalb"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-004",
+   "target": "viaggiare",
+   "translations": [
+    "reisen"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-005",
+   "target": "l’Aldilà",
+   "translations": [
+    "das Jenseits"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-006",
+   "target": "l’epoca",
+   "translations": [
+    "das Zeitalter",
+    "die Epoche"
+   ],
+   "page": "200",
+   "usage": "Pl.: le epoche"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-007",
+   "target": "intelligente",
+   "translations": [
+    "klug",
+    "intelligent"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-008",
+   "target": "attivo/-a",
+   "translations": [
+    "aktiv"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-009",
+   "target": "tra l’altro",
+   "translations": [
+    "unter anderem"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-010",
+   "target": "la moneta da un euro",
+   "translations": [
+    "die 1-Euro-Münze"
+   ],
+   "page": "200",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m2-arte-cultura-scienze-011",
+   "target": "essere nato/-a",
+   "translations": [
+    "geboren werden"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-012",
+   "target": "famoso/-a",
+   "translations": [
+    "berühmt"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-013",
+   "target": "il disegno",
+   "translations": [
+    "die Zeichnung",
+    "das Bild"
+   ],
+   "page": "200",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m2-arte-cultura-scienze-014",
+   "target": "il genio",
+   "translations": [
+    "das Genie"
+   ],
+   "page": "200",
+   "usage": "Pl.: i geni",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m2-arte-cultura-scienze-015",
+   "target": "il dipinto",
+   "translations": [
+    "das Gemälde",
+    "das Bild"
+   ],
+   "page": "200",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m2-arte-cultura-scienze-016",
+   "target": "conservare",
+   "translations": [
+    "aufbewahren"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-017",
+   "target": "circa",
+   "translations": [
+    "ungefähr"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-018",
+   "target": "gli appunti",
+   "translations": [
+    "die Notizen",
+    "die Aufzeichnungen"
+   ],
+   "page": "200",
+   "usage": "pl.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "gli",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m2-arte-cultura-scienze-019",
+   "target": "l’elicottero",
+   "translations": [
+    "der Hubschrauber"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-020",
+   "target": "tutti",
+   "translations": [
+    "alle"
+   ],
+   "page": "200",
+   "usage": "pl."
+  },
+  {
+   "id": "m2-arte-cultura-scienze-021",
+   "target": "il sorriso",
+   "translations": [
+    "das Lächeln"
+   ],
+   "page": "200",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m2-arte-cultura-scienze-022",
+   "target": "misterioso/-a",
+   "translations": [
+    "geheimnisvoll"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-023",
+   "target": "il museo",
+   "translations": [
+    "das Museum"
+   ],
+   "page": "200",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m2-arte-cultura-scienze-024",
+   "target": "l’olandese",
+   "translations": [
+    "der Holländer / die Holländerin"
+   ],
+   "page": "200",
+   "usage": "m./f."
+  },
+  {
+   "id": "m2-arte-cultura-scienze-025",
+   "target": "costruire (-sc-)",
+   "translations": [
+    "bauen"
+   ],
+   "page": "200",
+   "acceptedAnswers": [
+    "costruire"
+   ]
+  },
+  {
+   "id": "m2-arte-cultura-scienze-026",
+   "target": "il cannocchiale",
+   "translations": [
+    "das Fernrohr"
+   ],
+   "page": "200",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m2-arte-cultura-scienze-027",
+   "target": "la copia",
+   "translations": [
+    "die Kopie"
+   ],
+   "page": "200",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m2-arte-cultura-scienze-028",
+   "target": "l’aiuto",
+   "translations": [
+    "die Hilfe"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-029",
+   "target": "l’universo",
+   "translations": [
+    "das Universum",
+    "das Weltall"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-030",
+   "target": "la chiesa",
+   "translations": [
+    "die Kirche"
+   ],
+   "page": "200",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m2-arte-cultura-scienze-031",
+   "target": "cancellare la condanna",
+   "translations": [
+    "das Urteil aufheben"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-032",
+   "target": "l’inno nazionale",
+   "translations": [
+    "die Nationalhymne"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-033",
+   "target": "ufficiale",
+   "translations": [
+    "offiziell"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-034",
+   "target": "l’opera",
+   "translations": [
+    "die Oper"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-035",
+   "target": "il successo",
+   "translations": [
+    "der Erfolg"
+   ],
+   "page": "200",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m2-arte-cultura-scienze-036",
+   "target": "lo scrittore / la scrittrice",
+   "translations": [
+    "der Schriftsteller / die Schriftstellerin"
+   ],
+   "page": "200"
+  },
+  {
+   "id": "m2-arte-cultura-scienze-037",
+   "target": "il libretto",
+   "translations": [
+    "der Operntext",
+    "das Libretto"
+   ],
+   "page": "200",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Modulo",
+   "section": "Arte, cultura e scienze",
+   "pages": "200"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Kultur",
+   "Kunst",
+   "Wissenschaft"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

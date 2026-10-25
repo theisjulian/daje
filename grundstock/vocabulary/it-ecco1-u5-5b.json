@@ -1,0 +1,449 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-u5-5b",
+ "title": "Ecco più 1 · Unità 5 · 5B",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Vacanze romane“ aus Ecco più 1 (Unità 5, 5B).",
+ "topics": [
+  "Reisen",
+  "Verkehr"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Unità 5 · 5B",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 188-190 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u5-5b-001",
+   "target": "romano/-a",
+   "translations": [
+    "römisch"
+   ],
+   "page": "188-190"
+  },
+  {
+   "id": "u5-5b-002",
+   "target": "ultimamente",
+   "translations": [
+    "neulich",
+    "vor kurzem"
+   ],
+   "page": "188-190",
+   "usage": "avv."
+  },
+  {
+   "id": "u5-5b-003",
+   "target": "tanto",
+   "translations": [
+    "sehr",
+    "viel"
+   ],
+   "page": "188-190",
+   "usage": "avv."
+  },
+  {
+   "id": "u5-5b-004",
+   "target": "la Pasqua",
+   "translations": [
+    "(das) Ostern"
+   ],
+   "page": "188-190",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-005",
+   "target": "il viaggio",
+   "translations": [
+    "die Reise"
+   ],
+   "page": "188-190",
+   "usage": "Pl.: i viaggi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-006",
+   "target": "la calma",
+   "translations": [
+    "die Ruhe"
+   ],
+   "page": "188-190",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-007",
+   "target": "il volo",
+   "translations": [
+    "der Flug"
+   ],
+   "page": "188-190",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-008",
+   "target": "il prezzo",
+   "translations": [
+    "der Preis"
+   ],
+   "page": "188-190",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-009",
+   "target": "a buon prezzo",
+   "translations": [
+    "günstig",
+    "billig"
+   ],
+   "page": "188-190"
+  },
+  {
+   "id": "u5-5b-010",
+   "target": "comprare",
+   "translations": [
+    "kaufen"
+   ],
+   "page": "188-190"
+  },
+  {
+   "id": "u5-5b-011",
+   "target": "il biglietto",
+   "translations": [
+    "die Fahrkarte",
+    "das Ticket"
+   ],
+   "page": "188-190",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-012",
+   "target": "l’aeroporto",
+   "translations": [
+    "der Flughafen"
+   ],
+   "page": "188-190"
+  },
+  {
+   "id": "u5-5b-013",
+   "target": "l’autobus",
+   "translations": [
+    "der Bus"
+   ],
+   "page": "188-190",
+   "usage": "Pl.: gli autobus"
+  },
+  {
+   "id": "u5-5b-014",
+   "target": "la stazione",
+   "translations": [
+    "der Bahnhof"
+   ],
+   "page": "188-190",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-015",
+   "target": "subito",
+   "translations": [
+    "sofort"
+   ],
+   "page": "188-190",
+   "usage": "avv."
+  },
+  {
+   "id": "u5-5b-016",
+   "target": "promettere",
+   "translations": [
+    "versprechen"
+   ],
+   "page": "188-190",
+   "usage": "Partizip: promesso"
+  },
+  {
+   "id": "u5-5b-017",
+   "target": "la fermata",
+   "translations": [
+    "die Haltestelle"
+   ],
+   "page": "188-190",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-018",
+   "target": "aspettare",
+   "translations": [
+    "warten",
+    "erwarten"
+   ],
+   "page": "188-190"
+  },
+  {
+   "id": "u5-5b-019",
+   "target": "controllare",
+   "translations": [
+    "kontrollieren",
+    "(über)prüfen"
+   ],
+   "page": "188-190"
+  },
+  {
+   "id": "u5-5b-020",
+   "target": "il treno",
+   "translations": [
+    "der Zug",
+    "die Bahn"
+   ],
+   "page": "188-190",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-021",
+   "target": "Che pasticcio!",
+   "translations": [
+    "Was für ein Schlamassel!"
+   ],
+   "page": "188-190"
+  },
+  {
+   "id": "u5-5b-022",
+   "target": "il taxi",
+   "translations": [
+    "das Taxi"
+   ],
+   "page": "188-190",
+   "usage": "Pl.: i taxi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-023",
+   "target": "costare",
+   "translations": [
+    "kosten"
+   ],
+   "page": "188-190"
+  },
+  {
+   "id": "u5-5b-024",
+   "target": "un sacco",
+   "translations": [
+    "viel",
+    "eine Menge"
+   ],
+   "page": "188-190",
+   "usage": "fam."
+  },
+  {
+   "id": "u5-5b-025",
+   "target": "il ritardo",
+   "translations": [
+    "die Verspätung"
+   ],
+   "page": "188-190",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-026",
+   "target": "niente",
+   "translations": [
+    "nichts"
+   ],
+   "page": "188-190",
+   "usage": "avv."
+  },
+  {
+   "id": "u5-5b-027",
+   "target": "Non fa niente!",
+   "translations": [
+    "Das macht nichts!"
+   ],
+   "page": "188-190"
+  },
+  {
+   "id": "u5-5b-028",
+   "target": "È cominciato proprio bene.",
+   "translations": [
+    "Es hat wirklich gut angefangen."
+   ],
+   "page": "188-190"
+  },
+  {
+   "id": "u5-5b-029",
+   "target": "la macchina",
+   "translations": [
+    "das Auto",
+    "die Maschine"
+   ],
+   "page": "188-190",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u5-5b-030",
+   "target": "senza",
+   "translations": [
+    "ohne"
+   ],
+   "page": "188-190"
+  },
+  {
+   "id": "u5-5b-031",
+   "target": "salire (salgo)",
+   "translations": [
+    "hinaufgehen",
+    "einsteigen"
+   ],
+   "page": "188-190",
+   "acceptedAnswers": [
+    "salire"
+   ]
+  },
+  {
+   "id": "u5-5b-032",
+   "target": "tra poco",
+   "translations": [
+    "gleich",
+    "in Kürze"
+   ],
+   "page": "188-190"
+  },
+  {
+   "id": "u5-5b-033",
+   "target": "camminare",
+   "translations": [
+    "laufen",
+    "gehen"
+   ],
+   "page": "188-190"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "5B",
+   "pages": "188-190"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Reisen",
+   "Verkehr"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

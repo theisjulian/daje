@@ -1,0 +1,576 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-u4-4a",
+ "title": "Ecco più 1 · Unità 4 · 4A",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Weekend a Sestriere?“ aus Ecco più 1 (Unità 4, 4A).",
+ "topics": [
+  "Freizeit",
+  "Winter",
+  "Verabredung"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Unità 4 · 4A",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 183-185 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u4-4a-001",
+   "target": "lo sci",
+   "translations": [
+    "der Ski"
+   ],
+   "page": "183-185",
+   "usage": "Pl.: gli sci",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-002",
+   "target": "fresco/-a",
+   "translations": [
+    "frisch"
+   ],
+   "page": "183-185",
+   "usage": "Pl.: freschi/-e"
+  },
+  {
+   "id": "u4-4a-003",
+   "target": "il centimetro",
+   "translations": [
+    "der Zentimeter"
+   ],
+   "page": "183-185",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-004",
+   "target": "le Alpi",
+   "translations": [
+    "die Alpen"
+   ],
+   "page": "183-185",
+   "usage": "pl.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "le",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-005",
+   "target": "dopo",
+   "translations": [
+    "nach"
+   ],
+   "page": "183-185"
+  },
+  {
+   "id": "u4-4a-006",
+   "target": "la porta",
+   "translations": [
+    "die Tür"
+   ],
+   "page": "183-185",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-007",
+   "target": "aperto/-a",
+   "translations": [
+    "offen"
+   ],
+   "page": "183-185"
+  },
+  {
+   "id": "u4-4a-008",
+   "target": "noi/voi",
+   "translations": [
+    "uns/euch"
+   ],
+   "page": "183-185",
+   "usage": "nach Präposition"
+  },
+  {
+   "id": "u4-4a-009",
+   "target": "dovere (devo)",
+   "translations": [
+    "müssen",
+    "sollen"
+   ],
+   "page": "183-185",
+   "acceptedAnswers": [
+    "dovere"
+   ]
+  },
+  {
+   "id": "u4-4a-010",
+   "target": "venire (vengo)",
+   "translations": [
+    "kommen"
+   ],
+   "page": "183-185",
+   "acceptedAnswers": [
+    "venire"
+   ]
+  },
+  {
+   "id": "u4-4a-011",
+   "target": "ci",
+   "translations": [
+    "da",
+    "dort",
+    "dorthin"
+   ],
+   "page": "183-185",
+   "usage": "avv."
+  },
+  {
+   "id": "u4-4a-012",
+   "target": "Ci sto!",
+   "translations": [
+    "Ich bin dabei!",
+    "Ich mache mit!"
+   ],
+   "page": "183-185"
+  },
+  {
+   "id": "u4-4a-013",
+   "target": "preparare",
+   "translations": [
+    "vorbereiten"
+   ],
+   "page": "183-185"
+  },
+  {
+   "id": "u4-4a-014",
+   "target": "la pista",
+   "translations": [
+    "die Piste"
+   ],
+   "page": "183-185",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-015",
+   "target": "(da) solo/-a",
+   "translations": [
+    "allein"
+   ],
+   "page": "183-185",
+   "acceptedAnswers": [
+    "solo/-a"
+   ]
+  },
+  {
+   "id": "u4-4a-016",
+   "target": "ho avuto",
+   "translations": [
+    "ich habe bekommen"
+   ],
+   "page": "183-185"
+  },
+  {
+   "id": "u4-4a-017",
+   "target": "il compleanno",
+   "translations": [
+    "der Geburtstag"
+   ],
+   "page": "183-185",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-018",
+   "target": "pronto/-a",
+   "translations": [
+    "fertig",
+    "vorbereitet"
+   ],
+   "page": "183-185"
+  },
+  {
+   "id": "u4-4a-019",
+   "target": "aiutare qn",
+   "translations": [
+    "jdm helfen"
+   ],
+   "page": "183-185"
+  },
+  {
+   "id": "u4-4a-020",
+   "target": "potere (posso)",
+   "translations": [
+    "können"
+   ],
+   "page": "183-185",
+   "acceptedAnswers": [
+    "potere"
+   ]
+  },
+  {
+   "id": "u4-4a-021",
+   "target": "Peccato!",
+   "translations": [
+    "Schade!"
+   ],
+   "page": "183-185"
+  },
+  {
+   "id": "u4-4a-022",
+   "target": "comunque",
+   "translations": [
+    "jedenfalls"
+   ],
+   "page": "183-185",
+   "usage": "avv."
+  },
+  {
+   "id": "u4-4a-023",
+   "target": "prossimo/-a",
+   "translations": [
+    "nächste(r, s)"
+   ],
+   "page": "183-185"
+  },
+  {
+   "id": "u4-4a-024",
+   "target": "la volta",
+   "translations": [
+    "das Mal"
+   ],
+   "page": "183-185",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-025",
+   "target": "rispondere",
+   "translations": [
+    "antworten"
+   ],
+   "page": "183-185"
+  },
+  {
+   "id": "u4-4a-026",
+   "target": "Scusa!",
+   "translations": [
+    "Entschuldige!"
+   ],
+   "page": "183-185"
+  },
+  {
+   "id": "u4-4a-027",
+   "target": "l’artista",
+   "translations": [
+    "der Künstler / die Künstlerin"
+   ],
+   "page": "183-185",
+   "usage": "m./f., Pl.: gli artisti"
+  },
+  {
+   "id": "u4-4a-028",
+   "target": "volere (voglio)",
+   "translations": [
+    "wollen"
+   ],
+   "page": "183-185",
+   "acceptedAnswers": [
+    "volere"
+   ]
+  },
+  {
+   "id": "u4-4a-029",
+   "target": "sapere (so)",
+   "translations": [
+    "wissen",
+    "können"
+   ],
+   "page": "183-185",
+   "acceptedAnswers": [
+    "sapere"
+   ]
+  },
+  {
+   "id": "u4-4a-030",
+   "target": "stasera",
+   "translations": [
+    "heute Abend"
+   ],
+   "page": "183-185",
+   "usage": "avv."
+  },
+  {
+   "id": "u4-4a-031",
+   "target": "organizzare",
+   "translations": [
+    "organisieren"
+   ],
+   "page": "183-185"
+  },
+  {
+   "id": "u4-4a-032",
+   "target": "studiare",
+   "translations": [
+    "studieren",
+    "lernen"
+   ],
+   "page": "183-185"
+  },
+  {
+   "id": "u4-4a-033",
+   "target": "la salute",
+   "translations": [
+    "die Gesundheit"
+   ],
+   "page": "183-185",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-034",
+   "target": "lo studio",
+   "translations": [
+    "das Lernen",
+    "das Studium"
+   ],
+   "page": "183-185",
+   "usage": "Pl.: gli studi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-035",
+   "target": "uccidere",
+   "translations": [
+    "töten"
+   ],
+   "page": "183-185"
+  },
+  {
+   "id": "u4-4a-036",
+   "target": "Ehi(là)!",
+   "translations": [
+    "Hallo!",
+    "Hey!"
+   ],
+   "page": "183-185",
+   "acceptedAnswers": [
+    "Ehi!"
+   ]
+  },
+  {
+   "id": "u4-4a-037",
+   "target": "finalmente",
+   "translations": [
+    "endlich"
+   ],
+   "page": "183-185",
+   "usage": "avv."
+  },
+  {
+   "id": "u4-4a-038",
+   "target": "sciare (scii)",
+   "translations": [
+    "Ski fahren"
+   ],
+   "page": "183-185",
+   "acceptedAnswers": [
+    "sciare"
+   ]
+  },
+  {
+   "id": "u4-4a-039",
+   "target": "nevicare",
+   "translations": [
+    "schneien"
+   ],
+   "page": "183-185"
+  },
+  {
+   "id": "u4-4a-040",
+   "target": "il nord",
+   "translations": [
+    "der Norden"
+   ],
+   "page": "183-185",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-041",
+   "target": "al limite",
+   "translations": [
+    "notfalls"
+   ],
+   "page": "183-185",
+   "usage": "avv."
+  },
+  {
+   "id": "u4-4a-042",
+   "target": "imparare (a + inf.)",
+   "translations": [
+    "erlernen",
+    "lernen (etw. zu tun)"
+   ],
+   "page": "183-185",
+   "acceptedAnswers": [
+    "imparare"
+   ]
+  },
+  {
+   "id": "u4-4a-043",
+   "target": "interessante",
+   "translations": [
+    "interessant"
+   ],
+   "page": "183-185"
+  },
+  {
+   "id": "u4-4a-044",
+   "target": "certo",
+   "translations": [
+    "sicher"
+   ],
+   "page": "183-185",
+   "usage": "avv."
+  },
+  {
+   "id": "u4-4a-045",
+   "target": "dimenticare (-chi-)",
+   "translations": [
+    "vergessen"
+   ],
+   "page": "183-185",
+   "acceptedAnswers": [
+    "dimenticare"
+   ]
+  },
+  {
+   "id": "u4-4a-046",
+   "target": "portare",
+   "translations": [
+    "tragen",
+    "bringen",
+    "mitbringen"
+   ],
+   "page": "183-185"
+  },
+  {
+   "id": "u4-4a-047",
+   "target": "assolutamente",
+   "translations": [
+    "absolut"
+   ],
+   "page": "183-185",
+   "usage": "avv."
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "4A",
+   "pages": "183-185"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Freizeit",
+   "Winter",
+   "Verabredung"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

@@ -1,0 +1,215 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-m1-giro-ditalia",
+ "title": "Ecco più 1 · Modulo · Giro d’Italia",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Giro d’Italia“ aus Ecco più 1 (Modulo, Giro d’Italia).",
+ "topics": [
+  "Sport",
+  "Italien"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Modulo · Giro d’Italia",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 199 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "m1-giro-ditalia-001",
+   "target": "Buonasera!",
+   "translations": [
+    "Guten Abend!"
+   ],
+   "page": "199"
+  },
+  {
+   "id": "m1-giro-ditalia-002",
+   "target": "la radio",
+   "translations": [
+    "das Radio"
+   ],
+   "page": "199",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m1-giro-ditalia-003",
+   "target": "la provincia",
+   "translations": [
+    "die Provinz"
+   ],
+   "page": "199",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m1-giro-ditalia-004",
+   "target": "dal vivo",
+   "translations": [
+    "live"
+   ],
+   "page": "199",
+   "usage": "avv."
+  },
+  {
+   "id": "m1-giro-ditalia-005",
+   "target": "l’arrivo",
+   "translations": [
+    "die Ankunft"
+   ],
+   "page": "199",
+   "usage": "m."
+  },
+  {
+   "id": "m1-giro-ditalia-006",
+   "target": "la tappa",
+   "translations": [
+    "die Etappe"
+   ],
+   "page": "199",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m1-giro-ditalia-007",
+   "target": "la folla",
+   "translations": [
+    "die Menschenmenge"
+   ],
+   "page": "199",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "m1-giro-ditalia-008",
+   "target": "il/la ciclista",
+   "translations": [
+    "der/die Fahrradfahrer/-in"
+   ],
+   "page": "199",
+   "usage": "Pl.: i ciclisti/-e"
+  },
+  {
+   "id": "m1-giro-ditalia-009",
+   "target": "al momento",
+   "translations": [
+    "momentan"
+   ],
+   "page": "199"
+  },
+  {
+   "id": "m1-giro-ditalia-010",
+   "target": "nessuno/-a",
+   "translations": [
+    "niemand"
+   ],
+   "page": "199"
+  },
+  {
+   "id": "m1-giro-ditalia-011",
+   "target": "non … mai",
+   "translations": [
+    "nie(mals)"
+   ],
+   "page": "199"
+  },
+  {
+   "id": "m1-giro-ditalia-012",
+   "target": "ci sentiamo",
+   "translations": [
+    "wir hören uns"
+   ],
+   "page": "199"
+  },
+  {
+   "id": "m1-giro-ditalia-013",
+   "target": "se no",
+   "translations": [
+    "ansonsten"
+   ],
+   "page": "199"
+  },
+  {
+   "id": "m1-giro-ditalia-014",
+   "target": "spostarsi",
+   "translations": [
+    "wegbewegen",
+    "Platz machen"
+   ],
+   "page": "199",
+   "usage": "hier: Platz machen"
+  },
+  {
+   "id": "m1-giro-ditalia-015",
+   "target": "più",
+   "translations": [
+    "mehr"
+   ],
+   "page": "199",
+   "usage": "avv."
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Modulo",
+   "section": "Giro d’Italia",
+   "pages": "199"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Sport",
+   "Italien"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

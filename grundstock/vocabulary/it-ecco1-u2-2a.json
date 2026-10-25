@@ -1,0 +1,708 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-u2-2a",
+ "title": "Ecco più 1 · Unità 2 · 2A",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Mamma che caos!“ aus Ecco più 1 (Unità 2, 2A).",
+ "topics": [
+  "Wohnen",
+  "Familie",
+  "Alltag"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Unità 2 · 2A",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 173-174 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u2-2a-001",
+   "target": "la mamma",
+   "translations": [
+    "die Mama",
+    "die Mutter"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-002",
+   "target": "il caos",
+   "translations": [
+    "das Chaos"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-003",
+   "target": "la signora / il signore",
+   "translations": [
+    "die Frau",
+    "die Dame / der Herr"
+   ],
+   "page": "173-174"
+  },
+  {
+   "id": "u2-2a-004",
+   "target": "da",
+   "translations": [
+    "von … (her)",
+    "aus",
+    "seit"
+   ],
+   "page": "173-174"
+  },
+  {
+   "id": "u2-2a-005",
+   "target": "il mercato",
+   "translations": [
+    "der Markt"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-006",
+   "target": "la borsa",
+   "translations": [
+    "die Tasche (zum Tragen)"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-007",
+   "target": "la spesa",
+   "translations": [
+    "der Einkauf"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-008",
+   "target": "la borsa della spesa",
+   "translations": [
+    "die Einkaufstasche"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-009",
+   "target": "entrare (in)",
+   "translations": [
+    "hereinkommen (in)"
+   ],
+   "page": "173-174",
+   "acceptedAnswers": [
+    "entrare"
+   ]
+  },
+  {
+   "id": "u2-2a-010",
+   "target": "questo/-a",
+   "translations": [
+    "diese(r, s)"
+   ],
+   "page": "173-174"
+  },
+  {
+   "id": "u2-2a-011",
+   "target": "Perché?",
+   "translations": [
+    "Warum?"
+   ],
+   "page": "173-174"
+  },
+  {
+   "id": "u2-2a-012",
+   "target": "lo zaino",
+   "translations": [
+    "der Rucksack"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-013",
+   "target": "il corridoio",
+   "translations": [
+    "der Flur",
+    "der Korridor"
+   ],
+   "page": "173-174",
+   "usage": "Pl.: i corridoi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-014",
+   "target": "la cosa",
+   "translations": [
+    "die Sache"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-015",
+   "target": "la terra",
+   "translations": [
+    "der Boden",
+    "die Erde"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-016",
+   "target": "per terra",
+   "translations": [
+    "auf dem Boden",
+    "auf der Erde"
+   ],
+   "page": "173-174"
+  },
+  {
+   "id": "u2-2a-017",
+   "target": "il disordine",
+   "translations": [
+    "die Unordnung"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-018",
+   "target": "la cucina",
+   "translations": [
+    "die Küche"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-019",
+   "target": "mettere",
+   "translations": [
+    "legen",
+    "stellen"
+   ],
+   "page": "173-174"
+  },
+  {
+   "id": "u2-2a-020",
+   "target": "il tavolo",
+   "translations": [
+    "der Tisch"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-021",
+   "target": "ancora",
+   "translations": [
+    "noch"
+   ],
+   "page": "173-174",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-2a-022",
+   "target": "la merenda",
+   "translations": [
+    "der Snack",
+    "die Brotzeit"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-023",
+   "target": "il fon",
+   "translations": [
+    "der Föhn"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-024",
+   "target": "su",
+   "translations": [
+    "auf"
+   ],
+   "page": "173-174"
+  },
+  {
+   "id": "u2-2a-025",
+   "target": "la sedia",
+   "translations": [
+    "der Stuhl"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-026",
+   "target": "possibile",
+   "translations": [
+    "möglich"
+   ],
+   "page": "173-174"
+  },
+  {
+   "id": "u2-2a-027",
+   "target": "l’asciugamano",
+   "translations": [
+    "das Handtuch"
+   ],
+   "page": "173-174"
+  },
+  {
+   "id": "u2-2a-028",
+   "target": "la vasca (da bagno)",
+   "translations": [
+    "die (Bade-)Wanne"
+   ],
+   "page": "173-174",
+   "acceptedAnswers": [
+    "la vasca"
+   ],
+   "usage": "Pl.: le vasche",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-029",
+   "target": "il bagno",
+   "translations": [
+    "das Bad"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-030",
+   "target": "cercare (-chi-)",
+   "translations": [
+    "suchen"
+   ],
+   "page": "173-174",
+   "acceptedAnswers": [
+    "cercare"
+   ]
+  },
+  {
+   "id": "u2-2a-031",
+   "target": "incredibile",
+   "translations": [
+    "unglaublich"
+   ],
+   "page": "173-174"
+  },
+  {
+   "id": "u2-2a-032",
+   "target": "il salotto",
+   "translations": [
+    "das Wohnzimmer"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-033",
+   "target": "la roba",
+   "translations": [
+    "das Zeug"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-034",
+   "target": "la borsa da calcio",
+   "translations": [
+    "die Fußballtasche"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-035",
+   "target": "accanto a",
+   "translations": [
+    "neben"
+   ],
+   "page": "173-174"
+  },
+  {
+   "id": "u2-2a-036",
+   "target": "il televisore",
+   "translations": [
+    "der Fernseher"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-037",
+   "target": "il pallone",
+   "translations": [
+    "der Ball"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-038",
+   "target": "sotto",
+   "translations": [
+    "unter"
+   ],
+   "page": "173-174"
+  },
+  {
+   "id": "u2-2a-039",
+   "target": "i vestiti",
+   "translations": [
+    "die Kleidung"
+   ],
+   "page": "173-174",
+   "usage": "pl.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "i",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-040",
+   "target": "l’armadio",
+   "translations": [
+    "der Schrank"
+   ],
+   "page": "173-174",
+   "usage": "Pl.: gli armadi"
+  },
+  {
+   "id": "u2-2a-041",
+   "target": "la rivista",
+   "translations": [
+    "die Zeitschrift"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-042",
+   "target": "lo scaffale",
+   "translations": [
+    "das Regal"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-043",
+   "target": "il comò",
+   "translations": [
+    "die Kommode"
+   ],
+   "page": "173-174",
+   "usage": "Pl.: i comò",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-044",
+   "target": "il rossetto",
+   "translations": [
+    "der Lippenstift"
+   ],
+   "page": "173-174",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-045",
+   "target": "così",
+   "translations": [
+    "so"
+   ],
+   "page": "173-174",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-2a-046",
+   "target": "Così non va!",
+   "translations": [
+    "So läuft das nicht!"
+   ],
+   "page": "173-174"
+  },
+  {
+   "id": "u2-2a-047",
+   "target": "qualcosa",
+   "translations": [
+    "etwas"
+   ],
+   "page": "173-174"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "2A",
+   "pages": "173-174"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Wohnen",
+   "Familie",
+   "Alltag"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

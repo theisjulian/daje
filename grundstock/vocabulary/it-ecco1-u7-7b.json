@@ -1,0 +1,565 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco1-u7-7b",
+ "title": "Ecco più 1 · Unità 7 · 7B",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "A1",
+ "description": "Wortschatz zu „Un pomeriggio ligure“ aus Ecco più 1 (Unità 7, 7B).",
+ "topics": [
+  "Orientierung",
+  "Reisen",
+  "Stadt"
+ ],
+ "collection": "Ecco più 1 (Cornelsen)",
+ "section": "Unità 7 · 7B",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 197-198 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Beispielsätze und Definitionen sind noch nicht ergänzt (eigene Formulierungen, nicht aus dem Buch).",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u7-7b-001",
+   "target": "l’adulto/-a",
+   "translations": [
+    "der/die Erwachsene"
+   ],
+   "page": "197-198"
+  },
+  {
+   "id": "u7-7b-002",
+   "target": "alcuni/-e",
+   "translations": [
+    "einige"
+   ],
+   "page": "197-198"
+  },
+  {
+   "id": "u7-7b-003",
+   "target": "il monumento",
+   "translations": [
+    "die Sehenswürdigkeit",
+    "das Monument"
+   ],
+   "page": "197-198",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7b-004",
+   "target": "storico/-a",
+   "translations": [
+    "historisch"
+   ],
+   "page": "197-198",
+   "usage": "Pl.: storici/storiche"
+  },
+  {
+   "id": "u7-7b-005",
+   "target": "il vicolo",
+   "translations": [
+    "die Gasse"
+   ],
+   "page": "197-198",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7b-006",
+   "target": "stretto/-a",
+   "translations": [
+    "eng"
+   ],
+   "page": "197-198"
+  },
+  {
+   "id": "u7-7b-007",
+   "target": "di fronte a",
+   "translations": [
+    "gegenüber"
+   ],
+   "page": "197-198",
+   "usage": "prep."
+  },
+  {
+   "id": "u7-7b-008",
+   "target": "la cattedrale",
+   "translations": [
+    "die Kathedrale"
+   ],
+   "page": "197-198",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7b-009",
+   "target": "lo spuntino",
+   "translations": [
+    "der Imbiss"
+   ],
+   "page": "197-198",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7b-010",
+   "target": "il pezzo",
+   "translations": [
+    "das Stück"
+   ],
+   "page": "197-198",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7b-011",
+   "target": "freddo/-a",
+   "translations": [
+    "kalt"
+   ],
+   "page": "197-198"
+  },
+  {
+   "id": "u7-7b-012",
+   "target": "lo scontrino",
+   "translations": [
+    "der Kassenbon",
+    "der Kassenzettel"
+   ],
+   "page": "197-198",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7b-013",
+   "target": "sedersi (mi siedo)",
+   "translations": [
+    "sich setzen"
+   ],
+   "page": "197-198",
+   "acceptedAnswers": [
+    "sedersi"
+   ]
+  },
+  {
+   "id": "u7-7b-014",
+   "target": "darsi appuntamento",
+   "translations": [
+    "sich verabreden"
+   ],
+   "page": "197-198"
+  },
+  {
+   "id": "u7-7b-015",
+   "target": "il parcheggio",
+   "translations": [
+    "der Parkplatz"
+   ],
+   "page": "197-198",
+   "usage": "Pl.: i parcheggi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7b-016",
+   "target": "l’orientamento",
+   "translations": [
+    "die Orientierung"
+   ],
+   "page": "197-198"
+  },
+  {
+   "id": "u7-7b-017",
+   "target": "fidarsi di qn/qs",
+   "translations": [
+    "jdm/(auf) etw. vertrauen"
+   ],
+   "page": "197-198"
+  },
+  {
+   "id": "u7-7b-018",
+   "target": "verso",
+   "translations": [
+    "in Richtung"
+   ],
+   "page": "197-198",
+   "usage": "prep."
+  },
+  {
+   "id": "u7-7b-019",
+   "target": "il teatro",
+   "translations": [
+    "das Theater"
+   ],
+   "page": "197-198",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7b-020",
+   "target": "il luogo",
+   "translations": [
+    "der Ort"
+   ],
+   "page": "197-198",
+   "usage": "Pl.: i luoghi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7b-021",
+   "target": "il festival",
+   "translations": [
+    "das Festival"
+   ],
+   "page": "197-198",
+   "usage": "Pl.: i festival",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7b-022",
+   "target": "a",
+   "translations": [
+    "im"
+   ],
+   "page": "197-198",
+   "usage": "+ Monatsnamen"
+  },
+  {
+   "id": "u7-7b-023",
+   "target": "il/la fan",
+   "translations": [
+    "der Fan"
+   ],
+   "page": "197-198",
+   "usage": "Pl.: i fan"
+  },
+  {
+   "id": "u7-7b-024",
+   "target": "firmare",
+   "translations": [
+    "unterschreiben"
+   ],
+   "page": "197-198"
+  },
+  {
+   "id": "u7-7b-025",
+   "target": "perfino",
+   "translations": [
+    "sogar"
+   ],
+   "page": "197-198",
+   "usage": "avv."
+  },
+  {
+   "id": "u7-7b-026",
+   "target": "entusiasta di qn/qs",
+   "translations": [
+    "von jdm/etw. begeistert"
+   ],
+   "page": "197-198"
+  },
+  {
+   "id": "u7-7b-027",
+   "target": "dritto",
+   "translations": [
+    "geradeaus"
+   ],
+   "page": "197-198",
+   "usage": "avv."
+  },
+  {
+   "id": "u7-7b-028",
+   "target": "qualche + sg.",
+   "translations": [
+    "einige"
+   ],
+   "page": "197-198"
+  },
+  {
+   "id": "u7-7b-029",
+   "target": "il lungomare",
+   "translations": [
+    "die Strandpromenade"
+   ],
+   "page": "197-198",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7b-030",
+   "target": "accorgersi di qn/qs",
+   "translations": [
+    "jdn/etw. bemerken"
+   ],
+   "page": "197-198",
+   "usage": "Partizip: accorto"
+  },
+  {
+   "id": "u7-7b-031",
+   "target": "Oddio!",
+   "translations": [
+    "O Gott!"
+   ],
+   "page": "197-198"
+  },
+  {
+   "id": "u7-7b-032",
+   "target": "il telefonino",
+   "translations": [
+    "das Handy"
+   ],
+   "page": "197-198",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7b-033",
+   "target": "scarico/-a",
+   "translations": [
+    "leer"
+   ],
+   "page": "197-198",
+   "usage": "Batterie, Akku; Pl.: scarichi/-che"
+  },
+  {
+   "id": "u7-7b-034",
+   "target": "la strada",
+   "translations": [
+    "die Straße"
+   ],
+   "page": "197-198",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7b-035",
+   "target": "giusto/-a",
+   "translations": [
+    "richtig",
+    "gerecht"
+   ],
+   "page": "197-198"
+  },
+  {
+   "id": "u7-7b-036",
+   "target": "attraversare",
+   "translations": [
+    "überqueren"
+   ],
+   "page": "197-198"
+  },
+  {
+   "id": "u7-7b-037",
+   "target": "il metro",
+   "translations": [
+    "der Meter"
+   ],
+   "page": "197-198",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7b-038",
+   "target": "girare",
+   "translations": [
+    "drehen",
+    "abbiegen"
+   ],
+   "page": "197-198"
+  },
+  {
+   "id": "u7-7b-039",
+   "target": "a sinistra",
+   "translations": [
+    "links"
+   ],
+   "page": "197-198",
+   "usage": "avv."
+  },
+  {
+   "id": "u7-7b-040",
+   "target": "l’incrocio",
+   "translations": [
+    "die Kreuzung"
+   ],
+   "page": "197-198",
+   "usage": "Pl.: gli incroci"
+  },
+  {
+   "id": "u7-7b-041",
+   "target": "a destra",
+   "translations": [
+    "rechts"
+   ],
+   "page": "197-198",
+   "usage": "avv."
+  },
+  {
+   "id": "u7-7b-042",
+   "target": "per forza",
+   "translations": [
+    "unbedingt"
+   ],
+   "page": "197-198"
+  },
+  {
+   "id": "u7-7b-043",
+   "target": "la pista ciclabile",
+   "translations": [
+    "der Fahrradweg"
+   ],
+   "page": "197-198",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u7-7b-044",
+   "target": "ottimo/-a",
+   "translations": [
+    "ausgezeichnet",
+    "sehr gut"
+   ],
+   "page": "197-198"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 7",
+   "section": "7B",
+   "pages": "197-198"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "themes": [
+   "Orientierung",
+   "Reisen",
+   "Stadt"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}
