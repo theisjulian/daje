@@ -8,7 +8,31 @@ const DOC_DESIGNS = [
   ['modern', 'Modern', 'Akzentfarbe deines Designs'],
   ['klassisch', 'Klassisch', 'Schwarz-weiß, sparsam im Druck'],
   ['heft', 'Heft', 'Linien und Marker'],
-  ['kontrast', 'Kontrast', 'Kräftig, gut lesbar']
+  ['kontrast', 'Kontrast', 'Kräftig, gut lesbar'],
+  ['schulbuch', 'Schulbuch', 'Klare Bänder, nüchtern'],
+  ['pastell', 'Pastell', 'Weiche Kärtchen'],
+  ['elegant', 'Elegant', 'Zentriert, feine Linien'],
+  ['minimal', 'Minimal', 'Sparsam, tintensparend']
+];
+const DOC_FONTS = [
+  ['auto', 'Passend zum Design', 'inherit'],
+  ['app', 'Schrift der App', 'var(--ui)'],
+  ['arial', 'Arial', 'Arial, Helvetica, sans-serif'],
+  ['verdana', 'Verdana', 'Verdana, Geneva, sans-serif'],
+  ['trebuchet', 'Trebuchet', '"Trebuchet MS", Tahoma, sans-serif'],
+  ['georgia', 'Georgia', 'Georgia, "Times New Roman", serif'],
+  ['palatino', 'Palatino', '"Palatino Linotype", Palatino, "Book Antiqua", serif'],
+  ['schreib', 'Schreibmaschine', '"Courier New", Courier, monospace'],
+  ['hand', 'Handschriftlich', '"Chalkboard SE", "Comic Sans MS", "Marker Felt", cursive']
+];
+const DOC_ACCENTS = [
+  ['auto', 'Wie die App', ''],
+  ['blau', 'Blau', '#1a6dff'],
+  ['gruen', 'Grün', '#1f8a5b'],
+  ['koralle', 'Koralle', '#e5533f'],
+  ['violett', 'Violett', '#7a4fd6'],
+  ['orange', 'Orange', '#d97a00'],
+  ['schwarz', 'Schwarz', '#111111']
 ];
 const DOC_COLUMNS = [
   ['target', 'Wort'],
@@ -19,7 +43,7 @@ const DOC_COLUMNS = [
   ['usage', 'Verwendung'],
   ['image', 'Bild']
 ];
-let docState = { design: 'modern', layout: 'list', cols: ['target', 'de'] };
+let docState = { design: 'modern', font: 'auto', accent: 'auto', layout: 'list', cols: ['target', 'de'] };
 try {
   Object.assign(docState, JSON.parse(localStorage.getItem('ripassa-doc-v1') || '{}'));
 } catch {
@@ -133,9 +157,10 @@ function docWordFile() {
   sheet.querySelectorAll('.print-controls,.doc-options,.dlg-head,.dlg-side,img').forEach(n => n.remove());
   sheet.querySelectorAll('.doc-logo').forEach(n => (n.textContent = 'theis'));
   const ac = sheet.style.getPropertyValue('--doc-ac') || '#1a6dff';
-  const css = `body{font-family:Calibri,Arial,sans-serif;font-size:11pt;color:#111}h1{font-size:22pt;color:${ac}}h3{font-size:12pt;margin:0}table{border-collapse:collapse;width:100%}th{background:#eef2f8;text-align:left;border:1px solid #bbb;padding:6px}td{border:1px solid #ccc;padding:6px}td.blank{height:26pt}header{border-bottom:2px solid ${ac};margin-bottom:12pt}footer{border-top:1px solid #bbb;margin-top:18pt;padding-top:6pt;font-size:9pt}li{margin:12pt 0}`;
+  const wf = (getComputedStyle($('teaching-print').querySelector('.paper') || document.body).fontFamily || 'Calibri, Arial, sans-serif').replace(/"/g, "'");
+  const css = `body{font-family:${wf};font-size:11pt;color:#111}h1{font-size:22pt;color:${ac}}h3{font-size:12pt;margin:0}table{border-collapse:collapse;width:100%}th{background:#eef2f8;text-align:left;border:1px solid #bbb;padding:6px}td{border:1px solid #ccc;padding:6px}td.blank{height:26pt}header{border-bottom:2px solid ${ac};margin-bottom:12pt}footer{border-top:1px solid #bbb;margin-top:18pt;padding-top:6pt;font-size:9pt}li{margin:12pt 0}`;
   const html = `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="utf-8"><title>Dokument</title><style>${css}</style></head><body>${sheet.innerHTML}</body></html>`;
-  const title = (sheet.querySelector('h1')?.textContent || 'Dokument').replace(/[^\wäöüÄÖÜß -]+/g, '').trim().slice(0, 60);
+  const title = (sheet.querySelector('h1')?.textContent || 'Dokument').replace(/[^\p{L}\p{N} _-]+/gu, '').trim().slice(0, 60);
   const a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob(['﻿', html], { type: 'application/msword' }));
   a.download = title + '.doc';

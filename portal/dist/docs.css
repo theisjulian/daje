@@ -22,7 +22,6 @@
 #teaching-print[data-design='modern'] .doc-table th { background: color-mix(in srgb, var(--ac) 14%, white); color: #111; border-radius: 6px 6px 0 0; }
 #teaching-print[data-design='modern'] .doc-table td { border-bottom: 1px solid #e3e6ec; }
 /* klassisch */
-#teaching-print[data-design='klassisch'] { font-family: Georgia, 'Times New Roman', serif !important; }
 #teaching-print[data-design='klassisch'] h1 { font-family: Georgia, serif; font-weight: 700; color: #111; }
 #teaching-print[data-design='klassisch'] .doc-table th { border-bottom: 2px solid #111; font-variant: small-caps; }
 #teaching-print[data-design='klassisch'] .doc-table td { border-bottom: 1px solid #bbb; }
@@ -45,7 +44,7 @@
 body.previewing-teaching #teaching-print.hb-mode{max-width:none;background:transparent;box-shadow:none;padding:20px 12px 40px}
 #teaching-print.hb-mode .print-controls,#teaching-print.hb-mode .doc-options{max-width:794px;margin:0 auto 16px}
 #teaching-print.hb-mode .doc-options{display:flex!important;gap:24px;background:#fff;border-radius:12px;padding:12px 16px}
-#teaching-print .hb{--ac:var(--doc-ac,#1a6dff);box-sizing:border-box;width:100%;max-width:794px;margin:0 auto;background:#fff;color:#14171c;padding:16mm 16mm 12mm;border-radius:6px;box-shadow:0 10px 40px #0002;font:10.5pt/1.5 var(--ui,Arial,sans-serif)}
+#teaching-print .hb{--ac:var(--doc-ac,#1a6dff);box-sizing:border-box;width:100%;max-width:794px;margin:0 auto;background:#fff;color:#14171c;padding:16mm 16mm 12mm;border-radius:6px;box-shadow:0 10px 40px #0002;font-size:10.5pt;line-height:1.5;font-family:inherit}
 #teaching-print .hb-top{display:flex;justify-content:space-between;align-items:baseline;font-size:9pt;color:#555;border-bottom:2.5px solid var(--ac);padding-bottom:6px;margin:0 0 14px}
 #teaching-print .hb h1{font-size:21pt;line-height:1.15;margin:0 0 6px;color:var(--ac)}
 #teaching-print .hb-meta{display:flex;gap:8px;margin:0 0 12px}
@@ -80,7 +79,6 @@ body.previewing-teaching #teaching-print.hb-mode{max-width:none;background:trans
 #teaching-print .hb-tr{margin-top:16px;padding:10px 12px;background:#f4f6f9;font-size:9pt;break-inside:avoid}
 #teaching-print .hb-src{font-size:8pt;color:#667;margin:10px 0 0;overflow-wrap:anywhere}
 #teaching-print .hb .doc-foot{margin-top:10px}
-#teaching-print[data-design='klassisch'] .hb{font-family:Georgia,'Times New Roman',serif}
 #teaching-print[data-design='klassisch'] .hb h1{color:#111}
 #teaching-print[data-design='klassisch'] .hb-qh .n{background:#fff;color:#111;border:1.5px solid #111;border-radius:2px}
 #teaching-print[data-design='klassisch'] .hb-top{border-bottom:1px solid #111}
@@ -144,3 +142,59 @@ body.previewing-teaching #teaching-print.dlg-mode{position:fixed;inset:0;z-index
   #teaching-print.dlg-mode .dlg-grid,#teaching-print.dlg-mode .dlg-prev{display:block!important;overflow:visible!important;padding:0!important;background:none!important}
   #teaching-print .paper{zoom:1!important;width:auto!important;box-shadow:none!important;border-radius:0!important;padding:0!important}
 }
+
+/* Schrift */
+#teaching-print .paper{font-family:var(--doc-font,var(--ui,Arial,sans-serif))}
+#teaching-print[data-design='klassisch'][data-font='auto'] .paper{font-family:Georgia,'Times New Roman',serif}
+#teaching-print[data-design='elegant'][data-font='auto'] .paper{font-family:Palatino,'Palatino Linotype','Book Antiqua',serif}
+#teaching-print[data-design='schulbuch'][data-font='auto'] .paper{font-family:Arial,Helvetica,sans-serif}
+#teaching-print[data-design='minimal'][data-font='auto'] .paper{font-family:Arial,Helvetica,sans-serif}
+.dlg-fonts{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.dlg-font{position:relative;cursor:pointer}.dlg-font input{position:absolute;opacity:0;pointer-events:none}
+.dlg-font span{display:block;padding:11px 10px;border:2px solid var(--hairline);border-radius:12px;background:var(--tile);font-size:15px;line-height:1.2;min-height:20px}
+.dlg-font input:checked+span{border-color:var(--blue);box-shadow:0 0 0 3px color-mix(in srgb,var(--blue) 22%,transparent)}
+.dlg-accents{display:flex;flex-wrap:wrap;gap:8px}
+.dlg-acc{position:relative;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:3px;width:56px}
+.dlg-acc input{position:absolute;opacity:0;pointer-events:none}
+.dlg-acc i{width:34px;height:34px;border-radius:50%;border:3px solid transparent;box-shadow:0 0 0 1px var(--hairline)}
+.dlg-acc input:checked+i{box-shadow:0 0 0 2px var(--label)}
+.dlg-acc small{font-size:10px;color:var(--label-2);text-align:center;line-height:1.1}
+.dz-schulbuch i{background:#f3f4f6}.dz-schulbuch u:first-child{width:100%;height:9px;background:var(--blue);border-radius:2px}
+.dz-pastell i{background:color-mix(in srgb,var(--blue) 10%,#fff);border-radius:10px}.dz-pastell u:first-child{background:var(--blue);width:30%}
+.dz-elegant i{text-align:center}.dz-elegant u:first-child{margin:0 auto 5px;width:50%;background:#444;height:3px}.dz-elegant u{margin-left:auto;margin-right:auto;width:80%;background:#d3d6dc}
+.dz-minimal u:first-child{background:#111;height:3px;width:40%}.dz-minimal u{background:#e0e2e6}
+/* weitere Designs: Hörblatt */
+#teaching-print[data-design='schulbuch'] .hb-top{background:#eef0f3;border:0;border-left:6px solid var(--ac);padding:8px 12px;border-radius:2px}
+#teaching-print[data-design='schulbuch'] .hb h1{color:#111;font-weight:800}
+#teaching-print[data-design='schulbuch'] .hb-qh .n{border-radius:5px}
+#teaching-print[data-design='schulbuch'] .hb-q{border-bottom:1px solid #d7dbe1}
+#teaching-print[data-design='pastell'] .hb-q{background:color-mix(in srgb,var(--ac) 7%,#fff);border:0;border-radius:12px;padding:12px 14px;margin-bottom:10px}
+#teaching-print[data-design='pastell'] .hb-top{border-bottom:0}
+#teaching-print[data-design='pastell'] .hb-qh .n{border-radius:8px}
+#teaching-print[data-design='pastell'] .bx{background:#fff}
+#teaching-print[data-design='elegant'] .hb-top{border-bottom:1px solid #444;justify-content:center;gap:24px;font-variant:small-caps;letter-spacing:.06em}
+#teaching-print[data-design='elegant'] .hb h1{text-align:center;color:#111;font-weight:500;margin-top:14px}
+#teaching-print[data-design='elegant'] .hb-meta{justify-content:center}
+#teaching-print[data-design='elegant'] .hb-meta span{background:none;border:1px solid #bbb;border-radius:2px}
+#teaching-print[data-design='elegant'] .hb-qh .n{background:none;color:var(--ac);border:1px solid var(--ac);border-radius:50%}
+#teaching-print[data-design='elegant'] .hb-box{background:none;border:0;border-top:1px solid #444;border-bottom:1px solid #444;text-align:center}
+#teaching-print[data-design='minimal'] .hb-top{border-bottom:1px solid #000}
+#teaching-print[data-design='minimal'] .hb h1{color:#000;font-size:18pt}
+#teaching-print[data-design='minimal'] .hb-meta span{background:none;padding:0;border-radius:0}
+#teaching-print[data-design='minimal'] .hb-meta span+span::before{content:'· ';margin-left:-2px}
+#teaching-print[data-design='minimal'] .hb-qh .n{background:none;color:#000;width:auto;height:auto;justify-content:flex-start;border-radius:0;font-size:12pt}
+#teaching-print[data-design='minimal'] .hb-box{background:none;border-left:2px solid #000}
+#teaching-print[data-design='minimal'] .hb-o b,#teaching-print[data-design='minimal'] .hb-m b,#teaching-print[data-design='minimal'] .hb-r b{color:#000}
+/* weitere Designs: Wortliste */
+#teaching-print[data-design='schulbuch'] .doc-table th{background:var(--ac);color:#fff}
+#teaching-print[data-design='schulbuch'] .doc-table td{border-bottom:1px solid #d7dbe1}
+#teaching-print[data-design='schulbuch'] h1{color:#111}
+#teaching-print[data-design='pastell'] .doc-table th{background:color-mix(in srgb,var(--ac) 18%,white);border-radius:8px 8px 0 0}
+#teaching-print[data-design='pastell'] .doc-table tr:nth-child(even) td{background:color-mix(in srgb,var(--ac) 6%,white)}
+#teaching-print[data-design='elegant'] h1{text-align:center;font-weight:500;color:#111}
+#teaching-print[data-design='elegant'] .doc-table th{border-top:1px solid #444;border-bottom:1px solid #444;font-variant:small-caps;background:none}
+#teaching-print[data-design='elegant'] .doc-table td{border-bottom:1px solid #ddd}
+#teaching-print[data-design='minimal'] h1{color:#000;font-size:18pt}
+#teaching-print[data-design='minimal'] .doc-table th{background:none;border-bottom:2px solid #000}
+#teaching-print[data-design='minimal'] .doc-table td{border-bottom:1px solid #ccc}
+#teaching-print .paper :is(h1,h2,h3,header,footer,th,td,b){font-family:inherit}

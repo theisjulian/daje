@@ -5,12 +5,25 @@ function dlgSeg(attr, name, opts, cur) {
 function dlgDesigns() {
   return `<div class="dlg-designs">${DOC_DESIGNS.map(([k, l, d]) => `<label class="dlg-design dz-${k}"><input type="radio" name="dz" data-doc="design" value="${k}" ${docState.design === k ? 'checked' : ''}><i><u></u><u></u><u></u></i><b>${l}</b><small>${d}</small></label>`).join('')}</div>`;
 }
+function dlgFonts() {
+  return `<div class="dlg-fonts">${DOC_FONTS.map(([k, l, f]) => `<label class="dlg-font"><input type="radio" name="dfont" data-doc="font" value="${k}" ${docState.font === k ? 'checked' : ''}><span style="font-family:${k === 'auto' ? 'var(--ui)' : f}">${l}</span></label>`).join('')}</div>`;
+}
+function dlgAccents() {
+  return `<div class="dlg-accents">${DOC_ACCENTS.map(([k, l, c]) => `<label class="dlg-acc" title="${l}"><input type="radio" name="dacc" data-doc="accent" value="${k}" ${docState.accent === k ? 'checked' : ''}><i style="background:${c || 'var(--blue)'}"></i><small>${l}</small></label>`).join('')}</div>`;
+}
+function dlgStyle(sheet) {
+  sheet.dataset.design = docState.design;
+  sheet.dataset.font = docState.font;
+  const f = DOC_FONTS.find(z => z[0] === docState.font);
+  if (f && docState.font !== 'auto') sheet.style.setProperty('--doc-font', f[2]); else sheet.style.removeProperty('--doc-font');
+  const a = DOC_ACCENTS.find(z => z[0] === docState.accent);
+  sheet.style.setProperty('--doc-ac', (a && a[2]) || getComputedStyle(document.documentElement).getPropertyValue('--blue').trim() || '#1a6dff');
+}
 function dlgShow({ title, side, paper }) {
   let sheet = $('teaching-print');
   if (!sheet) { sheet = document.createElement('section'); sheet.id = 'teaching-print'; document.body.append(sheet); }
   sheet.className = 'dlg-mode';
-  sheet.dataset.design = docState.design;
-  sheet.style.setProperty('--doc-ac', getComputedStyle(document.documentElement).getPropertyValue('--blue').trim() || '#1a6dff');
+  dlgStyle(sheet);
   const keepScroll = sheet.querySelector('.dlg-prev')?.scrollTop || 0;
   sheet.innerHTML = `<div class="dlg-head"><button class="dlg-link" data-portal="close-print">Abbrechen</button><b>${esc(title)}</b><span class="dlg-acts"><button class="dlg-link" data-doc="word">Word-Datei</button><button class="dlg-link strong" data-portal="do-print">Als PDF speichern</button></span></div>
   <div class="dlg-grid"><aside class="dlg-side">${side}</aside><div class="dlg-prev"><div class="paper">${paper}</div></div></div>`;
@@ -34,7 +47,7 @@ renderVocabDoc = function () {
   const side =
     dlgBlock('Spalten', avail.map(([k, l]) => `<label class="dlg-check"><input type="checkbox" data-doc-col="${k}" ${docState.cols.includes(k) || k === 'target' ? 'checked' : ''} ${k === 'target' ? 'disabled' : ''}><span>${l}</span></label>`).join('')) +
     dlgBlock('Aufbau', dlgSeg('data-doc-layout', 'doc-layout', [['list', 'Wortliste'], ['test-de', `Test: ${L}`], ['test-it', 'Test: Deutsch']], docState.layout)) +
-    dlgBlock('Design', dlgDesigns());
+    dlgBlock('Design', dlgDesigns()) + dlgBlock('Schrift', dlgFonts()) + dlgBlock('Farbe', dlgAccents());
   dlgShow({ title: x.title.replace(/^Wortschatz · /, ''), side, paper: vocabDocHTML(x) });
 };
 printTeaching = function (solutions) {
@@ -45,7 +58,7 @@ printTeaching = function (solutions) {
   const side =
     dlgBlock('Ausgabe', dlgSeg('data-hb="mode"', 'hb-mode', [[0, 'Aufgabenblatt'], [1, 'Lösungen']], solutions ? 1 : 0)) +
     dlgBlock('Sprache der Anweisungen', dlgSeg('data-instr="pref"', 'instr', [['target', 'Zielsprache'], ['de', 'Deutsch']], instrPref)) +
-    dlgBlock('Design', dlgDesigns()) +
+    dlgBlock('Design', dlgDesigns()) + dlgBlock('Schrift', dlgFonts()) + dlgBlock('Farbe', dlgAccents()) +
     dlgBlock('Zusätze', `<label class="dlg-check"><input type="checkbox" data-hb-opt="link" ${hbOpt.link ? 'checked' : ''}><span>Link zum Anhören aufdrucken</span></label>${x.transcript ? `<label class="dlg-check"><input type="checkbox" data-hb-opt="transcript" ${hbOpt.transcript ? 'checked' : ''}><span>Transkript bei den Lösungen</span></label>` : ''}`);
   if ($('teaching-dialog')?.open) $('teaching-dialog').close();
   dlgShow({ title: x.title, side, paper: hbHTML(x, !!solutions) });
@@ -53,8 +66,11 @@ printTeaching = function (solutions) {
 document.addEventListener('change', e => {
   const t = e.target;
   if (t.matches('input[data-doc="design"]')) {
-    docState.design = t.value; saveDocState();
-    $('teaching-print').dataset.design = t.value;
+    docState.design = t.value; saveDocState(); dlgStyle($('teaching-print'));
+  } else if (t.matches('input[data-doc="font"]')) {
+    docState.font = t.value; saveDocState(); dlgStyle($('teaching-print'));
+  } else if (t.matches('input[data-doc="accent"]')) {
+    docState.accent = t.value; saveDocState(); dlgStyle($('teaching-print'));
   } else if (t.matches('input[data-hb="mode"]')) printTeaching(t.value === '1');
   else if (t.matches('input[data-instr="pref"]')) { setInstrPref(t.value); printTeaching(docCurrent && docCurrent.solutions); }
 });
