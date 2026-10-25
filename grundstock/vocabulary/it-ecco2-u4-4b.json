@@ -67,7 +67,8 @@
    "translations": [
     "die Agentur"
    ],
-   "page": "215-216"
+   "page": "215-216",
+   "related": "E agency"
   },
   {
    "id": "u4-4b-005",
@@ -92,7 +93,8 @@
    "translations": [
     "wiederholen"
    ],
-   "page": "215-216"
+   "page": "215-216",
+   "related": "E to repeat; L repetere"
   },
   {
    "id": "u4-4b-008",
@@ -101,7 +103,8 @@
     "dauernd",
     "ständig"
    ],
-   "page": "215-216"
+   "page": "215-216",
+   "related": "E continuous; L continuus"
   },
   {
    "id": "u4-4b-009",
@@ -128,6 +131,7 @@
     "der Reise-/Fremdenführer"
    ],
    "page": "215-216",
+   "related": "E guide",
    "acceptedAnswers": [
     "la guida"
    ],
@@ -159,6 +163,7 @@
     "ursprünglich"
    ],
    "page": "215-216",
+   "related": "E originally",
    "usage": "avv."
   },
   {
@@ -170,6 +175,7 @@
     "der Lehrgang"
    ],
    "page": "215-216",
+   "related": "E course; L cursus",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -186,7 +192,8 @@
    "translations": [
     "das Unternehmen"
    ],
-   "page": "215-216"
+   "page": "215-216",
+   "related": "▸ imprenditore/imprenditrice"
   },
   {
    "id": "u4-4b-015",
@@ -195,7 +202,8 @@
     "richtig",
     "genau"
    ],
-   "page": "215-216"
+   "page": "215-216",
+   "related": "E exact"
   },
   {
    "id": "u4-4b-016",
@@ -203,7 +211,8 @@
    "translations": [
     "Kompliment (für etw.)"
    ],
-   "page": "215-216"
+   "page": "215-216",
+   "related": "F/E compliment"
   },
   {
    "id": "u4-4b-017",
@@ -212,6 +221,7 @@
     "der Erfolg"
    ],
    "page": "215-216",
+   "related": "E success",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -237,6 +247,7 @@
     "das Kanu"
    ],
    "page": "215-216",
+   "related": "E canoe; F canoë",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -261,7 +272,8 @@
    "translations": [
     "das Interview"
    ],
-   "page": "215-216"
+   "page": "215-216",
+   "related": "E the interview; F le interview"
   },
   {
    "id": "u4-4b-022",
@@ -270,6 +282,7 @@
     "das Web-Design"
    ],
    "page": "215-216",
+   "related": "E web design",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -287,6 +300,7 @@
     "die Zukunft"
    ],
    "page": "215-216",
+   "related": "≠ il passato; E future",
    "usage": "≠ il passato",
    "grammar": {
     "partOfSpeech": "noun",
@@ -306,6 +320,7 @@
     "die Anwesenheit"
    ],
    "page": "215-216",
+   "related": "E presence",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -323,7 +338,8 @@
     "grundlegend",
     "wichtig"
    ],
-   "page": "215-216"
+   "page": "215-216",
+   "related": "E fundamental"
   },
   {
    "id": "u4-4b-026",
@@ -340,7 +356,8 @@
     "kombinieren",
     "vereinen"
    ],
-   "page": "215-216"
+   "page": "215-216",
+   "related": "E to combine; F combiner"
   },
   {
    "id": "u4-4b-028",
@@ -367,6 +384,7 @@
     "hier: Sinn"
    ],
    "page": "215-216",
+   "related": "E spirit",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -420,6 +438,7 @@
     "die Fakultät"
    ],
    "page": "215-216",
+   "related": "E faculty; F la faculté",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -444,7 +463,8 @@
    "translations": [
     "die Informatik"
    ],
-   "page": "215-216"
+   "page": "215-216",
+   "related": "E informatics; F l’informatique"
   },
   {
    "id": "u4-4b-036",
@@ -454,6 +474,7 @@
     "die Chance"
    ],
    "page": "215-216",
+   "related": "E occasion; L occasio",
    "usage": "f."
   },
   {
@@ -464,6 +485,7 @@
     "die Auszeichnung"
    ],
    "page": "215-216",
+   "related": "L praemium",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -482,6 +504,7 @@
     "speziell"
    ],
    "page": "215-216",
+   "related": "≠ normale; E special",
    "usage": "≠ normale"
   },
   {
@@ -491,6 +514,7 @@
     "schnell"
    ],
    "page": "215-216",
+   "related": "≠ lento",
    "usage": "≠ lento"
   },
   {
@@ -525,7 +549,8 @@
    "translations": [
     "sich jdm/etw. widmen"
    ],
-   "page": "215-216"
+   "page": "215-216",
+   "related": "E to dedicate"
   },
   {
    "id": "u4-4b-043",

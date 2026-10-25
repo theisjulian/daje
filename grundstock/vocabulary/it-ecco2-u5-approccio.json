@@ -35,6 +35,7 @@
     "der Schritt"
    ],
    "page": "217-218",
+   "related": "L passus",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -63,6 +64,7 @@
     "der Pinienwald"
    ],
    "page": "217-218",
+   "related": "F la pinière",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -105,7 +107,8 @@
     "zugänglich",
     "erreichbar"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "related": "E accessible"
   },
   {
    "id": "u5-approccio-007",
@@ -141,6 +144,7 @@
     "der Pool"
    ],
    "page": "217-218",
+   "related": "F la piscine",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -216,7 +220,8 @@
    "translations": [
     "die Insel"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "related": "L insula"
   },
   {
    "id": "u5-approccio-016",
@@ -282,6 +287,7 @@
     "der Garten"
    ],
    "page": "217-218",
+   "related": "F le jardin",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -438,7 +444,8 @@
    "translations": [
     "der/die Wissenschaftler/in"
    ],
-   "page": "217-218"
+   "page": "217-218",
+   "related": "E scientist"
   },
   {
    "id": "u5-approccio-033",
@@ -500,6 +507,7 @@
     "der Zeitabschnitt"
    ],
    "page": "217-218",
+   "related": "E period",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",

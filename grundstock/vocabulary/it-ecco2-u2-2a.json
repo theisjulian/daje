@@ -35,6 +35,7 @@
     "das Risiko"
    ],
    "page": "203-205",
+   "related": "E risk",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -53,6 +54,7 @@
     "der Vorfall"
    ],
    "page": "203-205",
+   "related": "F le cas",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -78,7 +80,8 @@
    "translations": [
     "informieren"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "related": "▸ l’informazione"
   },
   {
    "id": "u2-2a-005",
@@ -104,6 +107,7 @@
     "erlauben"
    ],
    "page": "203-205",
+   "related": "≠ vietare; E to permit; L permittere",
    "usage": "p.p. permesso"
   },
   {
@@ -138,7 +142,8 @@
    "translations": [
     "derartig"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "related": "L genus"
   },
   {
    "id": "u2-2a-011",
@@ -146,7 +151,8 @@
    "translations": [
     "vermeiden"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "related": "F éviter; L vitare"
   },
   {
    "id": "u2-2a-012",
@@ -156,6 +162,7 @@
     "der Schulverweis"
    ],
    "page": "203-205",
+   "related": "F la suspension",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -190,7 +197,8 @@
    "translations": [
     "filmen"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "related": "F filmer qc"
   },
   {
    "id": "u2-2a-015",
@@ -223,7 +231,8 @@
    "translations": [
     "wenn"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "related": "F si"
   },
   {
    "id": "u2-2a-018",
@@ -233,6 +242,7 @@
     "gemein"
    ],
    "page": "203-205",
+   "related": "≠ buono/-a",
    "usage": "≠ buono/-a"
   },
   {
@@ -273,7 +283,8 @@
    "translations": [
     "hoffen"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "related": "F espérer; L sperare"
   },
   {
    "id": "u2-2a-024",
@@ -281,7 +292,8 @@
    "translations": [
     "der/die Verantwortliche"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "related": "E responsible; F le/la responsable"
   },
   {
    "id": "u2-2a-025",
@@ -307,7 +319,8 @@
     "notwendig",
     "nötig"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "related": "E necessary; F nécessaire; L necessarius"
   },
   {
    "id": "u2-2a-027",
@@ -315,7 +328,8 @@
    "translations": [
     "verbieten"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "related": "L vetare"
   },
   {
    "id": "u2-2a-028",
@@ -323,7 +337,8 @@
    "translations": [
     "der/die Lehrer/in"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "related": "F enseignant; = il/la prof(essore/-ssa)"
   },
   {
    "id": "u2-2a-029",
@@ -339,7 +354,8 @@
    "translations": [
     "sich auf etw. konzentrieren"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "related": "E to concentrate"
   },
   {
    "id": "u2-2a-031",
@@ -347,7 +363,8 @@
    "translations": [
     "glauben"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "related": "F croire; L credere"
   },
   {
    "id": "u2-2a-032",
@@ -356,6 +373,7 @@
     "tatsächlich"
    ],
    "page": "203-205",
+   "related": "E in reality",
    "usage": "avv."
   },
   {
@@ -365,7 +383,8 @@
     "der Gebrauch",
     "die Benutzung"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "related": "E use; F l’usage"
   },
   {
    "id": "u2-2a-034",
@@ -373,7 +392,8 @@
    "translations": [
     "dumm"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "related": "E stupid; F stupide"
   },
   {
    "id": "u2-2a-035",
@@ -390,7 +410,8 @@
     "wahr",
     "echt"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "related": "L verus"
   },
   {
    "id": "u2-2a-037",
@@ -430,6 +451,7 @@
     "hinein"
    ],
    "page": "203-205",
+   "related": "≠ fuori",
    "usage": "avv."
   },
   {
@@ -454,7 +476,8 @@
    "translations": [
     "hier: konfrontieren"
    ],
-   "page": "203-205"
+   "page": "203-205",
+   "related": "E to confront"
   },
   {
    "id": "u2-2a-044",

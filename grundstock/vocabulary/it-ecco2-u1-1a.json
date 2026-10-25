@@ -35,7 +35,8 @@
     "damals",
     "dann"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "related": "F alors"
   },
   {
    "id": "u1-1a-002",
@@ -44,7 +45,8 @@
     "anders",
     "verschieden"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "related": "L diversus"
   },
   {
    "id": "u1-1a-003",
@@ -54,6 +56,7 @@
     "erleben"
    ],
    "page": "199-200",
+   "related": "▸ la vita; F vivre; L vivere",
    "usage": "p.p. vissuto"
   },
   {
@@ -144,7 +147,8 @@
     "anstrengend",
     "mühsam"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "related": "F fatigant"
   },
   {
    "id": "u1-1a-012",
@@ -153,6 +157,7 @@
     "das Land"
    ],
    "page": "199-200",
+   "related": "≠ la città; F la champagne",
    "usage": "≠ la città",
    "grammar": {
     "partOfSpeech": "noun",
@@ -170,7 +175,8 @@
    "translations": [
     "arbeiten"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "related": "L laborare"
   },
   {
    "id": "u1-1a-014",
@@ -179,7 +185,8 @@
     "das Kind",
     "der Junge / das Mädchen"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "related": "≠ adulto"
   },
   {
    "id": "u1-1a-015",
@@ -196,6 +203,7 @@
     "die Gefahr"
    ],
    "page": "199-200",
+   "related": "L periculum",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -224,7 +232,8 @@
    "translations": [
     "sich kennen"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "related": "▸ conoscere; F se connaître"
   },
   {
    "id": "u1-1a-019",
@@ -258,7 +267,8 @@
     "sich abstimmen",
     "sich einigen"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "related": "F se mettre d’accord"
   },
   {
    "id": "u1-1a-023",
@@ -267,7 +277,8 @@
     "die Verabredung",
     "der Termin"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "related": "E appointment"
   },
   {
    "id": "u1-1a-024",
@@ -317,7 +328,8 @@
    "translations": [
     "mehr"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "related": "F plus"
   },
   {
    "id": "u1-1a-029",
@@ -327,6 +339,7 @@
     "die Eisenbahn"
    ],
    "page": "199-200",
+   "related": "L ferrum, via",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -371,7 +384,8 @@
     "bequem",
     "komfortabel"
    ],
-   "page": "199-200"
+   "page": "199-200",
+   "related": "E comfortable; F confortable"
   },
   {
    "id": "u1-1a-033",
@@ -389,6 +403,7 @@
     "das Fernsehen"
    ],
    "page": "199-200",
+   "related": "E television; F la télévision",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -425,6 +440,7 @@
     "der Buchstabe"
    ],
    "page": "199-200",
+   "related": "E letter; F la lettre; L littera/-ae",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",

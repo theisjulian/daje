@@ -67,7 +67,18 @@ def build(header, rows):
     }
     return pkg_id, p
 
+RELATED = {}
+def load_related(path):
+    RELATED.clear()
+    rp = path.parent / path.name.replace('lista-', 'related-')
+    if rp.exists():
+        for line in rp.read_text(encoding='utf-8').splitlines():
+            if line.strip() and not line.startswith('#') and '|' in line:
+                k, v = line.split('|', 1)
+                RELATED[k.strip().replace("'", '’')] = v.strip()
+
 def parse(path):
+    load_related(path)
     pk, cur = [], None
     for line in path.read_text(encoding='utf-8').splitlines():
         if not line.strip(): continue
@@ -87,11 +98,12 @@ def parse(path):
         hint = parts[2].strip() if len(parts) > 2 else ''
         ex = parts[3].strip() if len(parts) > 3 else ''
         rel = parts[4].strip() if len(parts) > 4 else ''
+        if not rel: rel = RELATED.get(t, '')
         cur[1].append((t, trs, hint, opt, ex, rel))
     return pk
 
 if __name__ == '__main__':
-    files = [pathlib.Path(a) for a in sys.argv[1:]] or sorted((ROOT / 'werkzeuge').glob('ecco[0-9]/*.txt'))
+    files = [pathlib.Path(a) for a in sys.argv[1:]] or sorted((ROOT / 'werkzeuge').glob('ecco[0-9]/lista-*.txt'))
     OUT.mkdir(parents=True, exist_ok=True)
     n = 0
     DEFAULT = dict(BOOK)

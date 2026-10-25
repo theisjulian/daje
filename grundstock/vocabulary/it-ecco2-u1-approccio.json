@@ -54,6 +54,7 @@
     "die Oberfläche"
    ],
    "page": "198-199",
+   "related": "E surface; F la surface",
    "usage": "pl. le superfici",
    "grammar": {
     "partOfSpeech": "noun",
@@ -109,6 +110,7 @@
     "der/die Bewohner/-in"
    ],
    "page": "198-199",
+   "related": "▸ abitare; E inhabitant; F l’habitant",
    "usage": "m./f."
   },
   {
@@ -135,7 +137,8 @@
    "translations": [
     "der Baum"
    ],
-   "page": "198-199"
+   "page": "198-199",
+   "related": "F l’arbre"
   },
   {
    "id": "u1-approccio-008",
@@ -144,7 +147,8 @@
     "bilden",
     "erschaffen"
    ],
-   "page": "198-199"
+   "page": "198-199",
+   "related": "E create; F créer"
   },
   {
    "id": "u1-approccio-009",
@@ -170,7 +174,8 @@
    "translations": [
     "der Schatten"
    ],
-   "page": "198-199"
+   "page": "198-199",
+   "related": "F l’ombre"
   },
   {
    "id": "u1-approccio-011",
@@ -178,7 +183,8 @@
    "translations": [
     "der/die Heilige"
    ],
-   "page": "198-199"
+   "page": "198-199",
+   "related": "E/F saint; L sanctus"
   },
   {
    "id": "u1-approccio-012",
@@ -203,7 +209,8 @@
    "translations": [
     "feiern"
    ],
-   "page": "198-199"
+   "page": "198-199",
+   "related": "E to celebrate; F célébrer"
   },
   {
    "id": "u1-approccio-014",
@@ -220,7 +227,8 @@
     "berühmt",
     "bekannt"
    ],
-   "page": "198-199"
+   "page": "198-199",
+   "related": "E famous"
   },
   {
    "id": "u1-approccio-016",
@@ -228,7 +236,8 @@
    "translations": [
     "tatsächlich"
    ],
-   "page": "198-199"
+   "page": "198-199",
+   "related": "E in fact; F en effet"
   },
   {
    "id": "u1-approccio-017",
@@ -237,6 +246,7 @@
     "die Münze"
    ],
    "page": "198-199",
+   "related": "E money; F monnaie",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -272,6 +282,7 @@
     "das Schloss"
    ],
    "page": "198-199",
+   "related": "E castle",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -289,6 +300,7 @@
     "mittelalterlich"
    ],
    "page": "198-199",
+   "related": "E medieval; F médiéval(e)",
    "acceptedAnswers": [
     "medievale"
    ]
@@ -299,7 +311,8 @@
    "translations": [
     "der/die Kaiser/-in"
    ],
-   "page": "198-199"
+   "page": "198-199",
+   "related": "E emperor; F l’empereur"
   },
   {
    "id": "u1-approccio-022",
@@ -308,6 +321,7 @@
     "das Dach"
    ],
    "page": "198-199",
+   "related": "F le toit; L tectum",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -333,6 +347,7 @@
     "der Stein"
    ],
    "page": "198-199",
+   "related": "F la pierre",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -374,7 +389,8 @@
    "translations": [
     "das Öl"
    ],
-   "page": "198-199"
+   "page": "198-199",
+   "related": "E oil"
   },
   {
    "id": "u1-approccio-028",
@@ -426,6 +442,7 @@
     "die Küste"
    ],
    "page": "198-199",
+   "related": "E coast; F la côte",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -443,6 +460,7 @@
     "(an-)bieten"
    ],
    "page": "198-199",
+   "related": "E offer; F offrir; L offerre",
    "usage": "p.p. offerto"
   },
   {
@@ -502,6 +520,7 @@
     "das Beispiel"
    ],
    "page": "198-199",
+   "related": "E example",
    "usage": "pl. gli esempi"
   },
   {
@@ -511,6 +530,7 @@
     "der Hafen"
    ],
    "page": "198-199",
+   "related": "E/F port; L portus",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",

@@ -35,6 +35,7 @@
     "der Wettbewerb"
    ],
    "page": "201-202",
+   "related": "F le concours",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -53,6 +54,7 @@
     "die Geschichte"
    ],
    "page": "201-202",
+   "related": "▸ raccontare",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -69,7 +71,8 @@
    "translations": [
     "das Abenteuer"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "related": "E adventure; F l’aventure"
   },
   {
    "id": "u1-1b-004",
@@ -117,7 +120,8 @@
    "translations": [
     "fliegen"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "related": "F voler"
   },
   {
    "id": "u1-1b-009",
@@ -145,6 +149,7 @@
     "der Kopf"
    ],
    "page": "201-202",
+   "related": "F la tête",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -162,7 +167,8 @@
     "klein (Körpergröße)",
     "niedrig"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "related": "F bas, basse"
   },
   {
    "id": "u1-1b-013",
@@ -171,6 +177,7 @@
     "kurz"
    ],
    "page": "201-202",
+   "related": "F court/e; ≠ lungo",
    "usage": "≠ lungo"
   },
   {
@@ -204,6 +211,7 @@
     "jdn anlächeln"
    ],
    "page": "201-202",
+   "related": "F sourire",
    "usage": "p.p. sorriso"
   },
   {
@@ -225,6 +233,7 @@
     "das Kino"
    ],
    "page": "201-202",
+   "related": "E/F cinema",
    "usage": "pl. i cinema",
    "grammar": {
     "partOfSpeech": "noun",
@@ -269,7 +278,8 @@
     "grüßen",
     "begrüßen"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "related": "F saluer"
   },
   {
    "id": "u1-1b-023",
@@ -305,7 +315,8 @@
     "peinlich",
     "unangenehm"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "related": "E embarrassing"
   },
   {
    "id": "u1-1b-026",
@@ -322,7 +333,8 @@
    "translations": [
     "unbekannt"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "related": "≠ conosciuto/-a"
   },
   {
    "id": "u1-1b-028",
@@ -331,7 +343,8 @@
     "der Augenblick",
     "der Moment"
    ],
-   "page": "201-202"
+   "page": "201-202",
+   "related": "= il momento"
   },
   {
    "id": "u1-1b-029",
@@ -367,6 +380,7 @@
     "schaffen (etw. zu tun)"
    ],
    "page": "201-202",
+   "related": "F réussir",
    "acceptedAnswers": [
     "riuscire a + inf., riuscito"
    ],
@@ -380,6 +394,7 @@
     "überreden"
    ],
    "page": "201-202",
+   "related": "E to convince; F convaincre",
    "usage": "p.p. convinto"
   },
   {
@@ -389,6 +404,7 @@
     "der Tag (Verlauf)"
    ],
    "page": "201-202",
+   "related": "= il giorno",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",

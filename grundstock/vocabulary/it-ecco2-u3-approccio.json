@@ -35,6 +35,7 @@
     "die Hauptstadt"
    ],
    "page": "207-208",
+   "related": "E capital city; F la capitale; L caput",
    "usage": "Unterscheide: la capitale (Land) – il capoluogo (Region)",
    "grammar": {
     "partOfSpeech": "noun",
@@ -54,6 +55,7 @@
     "der Firmensitz"
    ],
    "page": "207-208",
+   "related": "▸ sedersi; F le siège; L sedes",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -71,6 +73,7 @@
     "der Papst"
    ],
    "page": "207-208",
+   "related": "E pope; F le pape",
    "usage": "pl. i papi; il papà, i papà = Papa",
    "grammar": {
     "partOfSpeech": "noun",
@@ -130,7 +133,8 @@
    "translations": [
     "das Treffen"
    ],
-   "page": "207-208"
+   "page": "207-208",
+   "related": "▸ incontrare; E encounter; F la rencontre"
   },
   {
    "id": "u3-approccio-009",
@@ -139,6 +143,7 @@
     "der Brunnen"
    ],
    "page": "207-208",
+   "related": "E fountain; F la fontaine",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -156,6 +161,7 @@
     "der/die Musiker/in"
    ],
    "page": "207-208",
+   "related": "▸ la musica",
    "usage": "pl. i musicisti"
   },
   {
@@ -165,6 +171,7 @@
     "die Spur"
    ],
    "page": "207-208",
+   "related": "E trace; F la trace",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -192,7 +199,8 @@
    "translations": [
     "das Römische Reich"
    ],
-   "page": "207-208"
+   "page": "207-208",
+   "related": "L Imperium Romanum"
   },
   {
    "id": "u3-approccio-014",
@@ -249,6 +257,7 @@
     "der Aufzug"
    ],
    "page": "207-208",
+   "related": "F l’ascenseur (m.)",
    "usage": "m."
   },
   {
@@ -294,6 +303,7 @@
     "die U-Bahn"
    ],
    "page": "207-208",
+   "related": "F le métropolitain",
    "acceptedAnswers": [
     "la metro"
    ],
@@ -332,6 +342,7 @@
     "die Richtung"
    ],
    "page": "207-208",
+   "related": "E direction; F la direction",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -348,7 +359,8 @@
    "translations": [
     "(be)zahlen"
    ],
-   "page": "207-208"
+   "page": "207-208",
+   "related": "E to pay; F payer"
   },
   {
    "id": "u3-approccio-024",
@@ -357,7 +369,8 @@
     "einfach",
     "Einzel-"
    ],
-   "page": "207-208"
+   "page": "207-208",
+   "related": "E single; F singulier"
   },
   {
    "id": "u3-approccio-025",

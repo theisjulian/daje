@@ -35,6 +35,7 @@
     "sich erstrecken"
    ],
    "page": "208-209",
+   "related": "F s’étendre",
    "usage": "p.p. esteso"
   },
   {
@@ -44,6 +45,7 @@
     "der Hügel"
    ],
    "page": "208-209",
+   "related": "F la colline; L collis",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -69,7 +71,8 @@
     "ewig",
     "zeitlos"
    ],
-   "page": "208-209"
+   "page": "208-209",
+   "related": "E eternal; F éternel"
   },
   {
    "id": "u3-3a-005",
@@ -95,7 +98,8 @@
    "translations": [
     "gründen"
    ],
-   "page": "208-209"
+   "page": "208-209",
+   "related": "E to found; F fonder"
   },
   {
    "id": "u3-3a-007",
@@ -168,6 +172,7 @@
     "das (Tür-)Schloss"
    ],
    "page": "208-209",
+   "related": "F la serrure",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -184,7 +189,8 @@
    "translations": [
     "wunderbar"
    ],
-   "page": "208-209"
+   "page": "208-209",
+   "related": "F merveilleux"
   },
   {
    "id": "u3-3a-014",
@@ -245,6 +251,7 @@
     "(er)bauen"
    ],
    "page": "208-209",
+   "related": "F construire",
    "acceptedAnswers": [
     "costruire"
    ],
@@ -266,6 +273,7 @@
     "der Tempel"
    ],
    "page": "208-209",
+   "related": "E/F temple; L templum",
    "usage": "pl. i templi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -284,6 +292,7 @@
     "der Gott"
    ],
    "page": "208-209",
+   "related": "F le dieu; L deus",
    "usage": "pl. gli dei",
    "grammar": {
     "partOfSpeech": "noun",
@@ -302,6 +311,7 @@
     "das Jahrhundert"
    ],
    "page": "208-209",
+   "related": "F le siècle; L saeculum",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -319,7 +329,8 @@
     "umwandeln",
     "umbauen"
    ],
-   "page": "208-209"
+   "page": "208-209",
+   "related": "= cambiare; E to transform"
   },
   {
    "id": "u3-3a-024",
@@ -328,7 +339,8 @@
     "stark",
     "gewaltig"
    ],
-   "page": "208-209"
+   "page": "208-209",
+   "related": "F fort"
   },
   {
    "id": "u3-3a-025",
@@ -355,6 +367,7 @@
     "unbequem"
    ],
    "page": "208-209",
+   "related": "≠ comodo/-a",
    "usage": "≠ comodo/-a"
   },
   {
@@ -363,7 +376,8 @@
    "translations": [
     "werfen"
    ],
-   "page": "208-209"
+   "page": "208-209",
+   "related": "F jeter"
   },
   {
    "id": "u3-3a-028",
@@ -381,7 +395,8 @@
    "translations": [
     "verdienen"
    ],
-   "page": "208-209"
+   "page": "208-209",
+   "related": "F gagner"
   },
   {
    "id": "u3-3a-030",

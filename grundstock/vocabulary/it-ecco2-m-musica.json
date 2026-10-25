@@ -50,6 +50,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "E popular; F populaire",
    "usage": "agg."
   },
   {
@@ -62,6 +63,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "E melody; F la mélodie",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -81,7 +83,8 @@
    "page": "229-230",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "related": "▸ conoscere; ≠ sconosciuto/-a; L cognoscere; F connu/connue"
   },
   {
    "id": "m-musica-005",
@@ -126,6 +129,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "E dialect",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -157,7 +161,8 @@
    "page": "229-230",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "related": "▸ la musica"
   },
   {
    "id": "m-musica-010",
@@ -170,6 +175,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "F tel/telle; L talis",
    "usage": "agg."
   },
   {
@@ -182,6 +188,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "E to compose; F composer; L componere",
    "usage": "p.p. composto"
   },
   {
@@ -194,6 +201,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "E/F nation; L natio",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -214,6 +222,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "▸ la sorpresa; E surprise; F surprendre",
    "usage": "p.p. sorpreso"
   },
   {
@@ -225,7 +234,8 @@
    "page": "229-230",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "related": "▸ la regione; L regio"
   },
   {
    "id": "m-musica-015",
@@ -237,6 +247,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "▸ cantare, il/la cantante; F le chant; L cantus",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -288,6 +299,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "▸ cantare, il/la cantante",
    "usage": "pl. i cantautori, le cantautrici",
    "grammar": {
     "partOfSpeech": "noun",
@@ -310,6 +322,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "▸ creare; E creation; F la création",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -330,6 +343,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "L proprius; F propre",
    "usage": "pl. propri, proprie"
   },
   {
@@ -342,6 +356,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "E generation",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -362,6 +377,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "E disc",
    "usage": "pl. i dischi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -384,6 +400,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "F le genre; L genus",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -417,6 +434,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "L victor",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -449,6 +467,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "F la salle",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -521,7 +540,8 @@
    "page": "229-230",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "related": "L mortuus; F mort/e"
   },
   {
    "id": "m-musica-032",
@@ -532,7 +552,8 @@
    "page": "229-230",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "related": "E orchestra"
   },
   {
    "id": "m-musica-033",

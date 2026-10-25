@@ -35,6 +35,7 @@
     "die Grundschule"
    ],
    "page": "212-214",
+   "related": "E elementary school",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -120,6 +121,7 @@
     "das Prozent"
    ],
    "page": "212-214",
+   "related": "E percent; F pour cent",
    "usage": "Vor Prozentzahlen steht immer il bzw. l’",
    "grammar": {
     "partOfSpeech": "noun",
@@ -138,6 +140,7 @@
     "die Möglichkeit"
    ],
    "page": "212-214",
+   "related": "E possibility",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -171,6 +174,7 @@
     "technisch"
    ],
    "page": "212-214",
+   "related": "E technical; F technique",
    "usage": "pl. tecnici, tecniche"
   },
   {
@@ -196,6 +200,7 @@
     "der Traum"
    ],
    "page": "212-214",
+   "related": "L somnium",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -240,6 +245,7 @@
     "der Beruf"
    ],
    "page": "212-214",
+   "related": "E profession",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -310,6 +316,7 @@
     "die Arbeit"
    ],
    "page": "212-214",
+   "related": "L labor",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -336,6 +343,7 @@
     "das Büro"
    ],
    "page": "212-214",
+   "related": "E office",
    "usage": "pl. gli uffici"
   },
   {
@@ -365,7 +373,8 @@
     "unzählig",
     "kinderreich"
    ],
-   "page": "212-214"
+   "page": "212-214",
+   "related": "E numerous"
   },
   {
    "id": "u4-approccio-028",
@@ -399,6 +408,7 @@
     "die Wahrheit"
    ],
    "page": "212-214",
+   "related": "F la vérité; L veritas",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -434,6 +444,7 @@
     "die Karriere"
    ],
    "page": "212-214",
+   "related": "E career",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -458,7 +469,8 @@
    "translations": [
     "etwas würde jdm gefallen / gefiele jdm"
    ],
-   "page": "212-214"
+   "page": "212-214",
+   "related": "▸ piacere"
   },
   {
    "id": "u4-approccio-035",
@@ -467,7 +479,8 @@
     "befehlen",
     "kommandieren"
    ],
-   "page": "212-214"
+   "page": "212-214",
+   "related": "E command; F commander"
   },
   {
    "id": "u4-approccio-036",
@@ -477,6 +490,7 @@
     "hätte gern"
    ],
    "page": "212-214",
+   "related": "▸ 3. Pers. von vorrei",
    "usage": "3. Pers. von vorrei"
   },
   {
@@ -486,6 +500,7 @@
     "der/die Chef/in"
    ],
    "page": "212-214",
+   "related": "L caput",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -504,6 +519,7 @@
     "hinzufügen"
    ],
    "page": "212-214",
+   "related": "L adiungere",
    "acceptedAnswers": [
     "aggiungere, aggiunto"
    ],
@@ -536,6 +552,7 @@
     "die Spezialität"
    ],
    "page": "212-214",
+   "related": "F la spécialité; E speciality",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",

@@ -52,6 +52,7 @@
     "die Kommunikation"
    ],
    "page": "203",
+   "related": "▸ comunicare",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -69,6 +70,7 @@
     "die Zeitung"
    ],
    "page": "203",
+   "related": "F le journal",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -104,6 +106,7 @@
     "die Sendung (Fernsehen)"
    ],
    "page": "203",
+   "related": "E transmission",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -155,6 +158,7 @@
     "selten"
    ],
    "page": "203",
+   "related": "F rarement",
    "usage": "avv."
   },
   {
@@ -165,6 +169,7 @@
     "die Dokumentation"
    ],
    "page": "203",
+   "related": "E documentary",
    "usage": "pl. i documentari",
    "grammar": {
     "partOfSpeech": "noun",
@@ -226,7 +231,8 @@
     "vergleichen",
     "gegenüberstellen"
    ],
-   "page": "203"
+   "page": "203",
+   "related": "E to confront"
   },
   {
    "id": "u2-approccio-014",
@@ -247,7 +253,8 @@
     "nützen",
     "brauchen"
    ],
-   "page": "203"
+   "page": "203",
+   "related": "F servir à qqn; L servire"
   },
   {
    "id": "u2-approccio-016",
@@ -316,7 +323,8 @@
     "aufnehmen",
     "aufzeichnen"
    ],
-   "page": "203"
+   "page": "203",
+   "related": "E to register; F enregistrer"
   },
   {
    "id": "u2-approccio-022",
@@ -358,7 +366,8 @@
    "translations": [
     "sportlich"
    ],
-   "page": "203"
+   "page": "203",
+   "related": "▸ lo sport; F sportif"
   }
  ],
  "catalog": {

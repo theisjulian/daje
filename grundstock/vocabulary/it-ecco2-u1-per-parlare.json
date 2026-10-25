@@ -53,6 +53,7 @@
     "die Hauptstadt"
    ],
    "page": "202",
+   "related": "E capital city; F la capitale; L caput",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -164,6 +165,7 @@
     "die Eisenbahn"
    ],
    "page": "202",
+   "related": "L ferrum, via",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -215,6 +217,7 @@
     "der Hafen"
    ],
    "page": "202",
+   "related": "E/F port; L portus",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -328,6 +331,7 @@
     "das Land (≠ Stadt)"
    ],
    "page": "202",
+   "related": "≠ la città; F la champagne",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -378,7 +382,8 @@
    "translations": [
     "der/die Einwohner/in"
    ],
-   "page": "202"
+   "page": "202",
+   "related": "▸ abitare; E inhabitant; F l’habitant"
   },
   {
    "id": "u1-per-parlare-024",

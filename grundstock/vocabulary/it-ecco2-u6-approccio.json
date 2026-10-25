@@ -36,6 +36,7 @@
     "das Industriedreieck (Mailand-Genua-Turin)"
    ],
    "page": "222-223",
+   "related": "E triangle",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -70,6 +71,7 @@
     "die Dienstleistung"
    ],
    "page": "222-223",
+   "related": "▸ servire",
    "usage": "pl. i servizi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -171,7 +173,8 @@
     "die Landwirtschaft",
     "der Ackerbau"
    ],
-   "page": "222-223"
+   "page": "222-223",
+   "related": "E agriculture"
   },
   {
    "id": "u6-approccio-010",
@@ -211,6 +214,7 @@
     "der See"
    ],
    "page": "222-223",
+   "related": "E lake",
    "usage": "pl. i laghi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -236,7 +240,8 @@
    "translations": [
     "nördlich"
    ],
-   "page": "222-223"
+   "page": "222-223",
+   "related": "= a nord"
   },
   {
    "id": "u6-approccio-016",
@@ -245,7 +250,8 @@
     "die Anbindung",
     "der Zugang"
    ],
-   "page": "222-223"
+   "page": "222-223",
+   "related": "E access"
   },
   {
    "id": "u6-approccio-017",
@@ -255,6 +261,7 @@
     "entnehmen"
    ],
    "page": "222-223",
+   "related": "L trahere",
    "acceptedAnswers": [
     "trarre, tratto"
    ],
@@ -268,6 +275,7 @@
     "der Profit"
    ],
    "page": "222-223",
+   "related": "E profit",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -285,6 +293,7 @@
     "der (Bade-)Tourismus"
    ],
    "page": "222-223",
+   "related": "▸ il/la turista; E tourism",
    "acceptedAnswers": [
     "il turismo"
    ],
@@ -305,6 +314,7 @@
     "anziehen"
    ],
    "page": "222-223",
+   "related": "E to attract",
    "acceptedAnswers": [
     "attrarre, attratto"
    ],
@@ -317,6 +327,7 @@
     "die Landschaft"
    ],
    "page": "222-223",
+   "related": "F le paysage",
    "usage": "pl. i paesaggi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -335,6 +346,7 @@
     "der Abschnitt"
    ],
    "page": "222-223",
+   "related": "F le trait",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -352,6 +364,7 @@
     "der Hügel"
    ],
    "page": "222-223",
+   "related": "L collis",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -385,7 +398,8 @@
    "translations": [
     "der Süden"
    ],
-   "page": "222-223"
+   "page": "222-223",
+   "related": "≠ settentrione"
   },
   {
    "id": "u6-approccio-026",
@@ -394,6 +408,7 @@
     "einbeziehen"
    ],
    "page": "222-223",
+   "related": "E to include; L includere",
    "usage": "p.p. incluso"
   },
   {
@@ -411,7 +426,8 @@
     "besonderer",
     "besondere/-s"
    ],
-   "page": "222-223"
+   "page": "222-223",
+   "related": "E particular"
   },
   {
    "id": "u6-approccio-029",
@@ -420,7 +436,8 @@
     "die Wichtigkeit",
     "die Bedeutung"
    ],
-   "page": "222-223"
+   "page": "222-223",
+   "related": "▸ importante; E importance"
   },
   {
    "id": "u6-approccio-030",
@@ -446,6 +463,7 @@
     "der Verdienst"
    ],
    "page": "222-223",
+   "related": "▸ guadagnare",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -463,6 +481,7 @@
     "der Vulkan"
    ],
    "page": "222-223",
+   "related": "E volcano",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -480,6 +499,7 @@
     "die Arbeitslosigkeit"
    ],
    "page": "222-223",
+   "related": "E disoccupation",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -513,7 +533,8 @@
    "translations": [
     "ursprünglich aus"
    ],
-   "page": "222-223"
+   "page": "222-223",
+   "related": "▸ l’origine"
   }
  ],
  "catalog": {

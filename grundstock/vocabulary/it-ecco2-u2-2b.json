@@ -34,7 +34,8 @@
    "translations": [
     "teilnehmen an"
    ],
-   "page": "205-206"
+   "page": "205-206",
+   "related": "E to participate"
   },
   {
    "id": "u2-2b-002",
@@ -43,6 +44,7 @@
     "die Diskussion"
    ],
    "page": "205-206",
+   "related": "▸ discutere",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -111,7 +113,8 @@
     "sich kümmern um jdn/etw.",
     "sich beschäftigen mit"
    ],
-   "page": "205-206"
+   "page": "205-206",
+   "related": "F s’occuper de qn/qc"
   },
   {
    "id": "u2-2b-008",
@@ -120,6 +123,7 @@
     "das Projekt"
    ],
    "page": "205-206",
+   "related": "E project",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -153,7 +157,8 @@
    "translations": [
     "bereit (etw. zu tun)"
    ],
-   "page": "205-206"
+   "page": "205-206",
+   "related": "F disposé à"
   },
   {
    "id": "u2-2b-012",
@@ -171,6 +176,7 @@
     "der/die Freiwillige"
    ],
    "page": "205-206",
+   "related": "F volontaire",
    "usage": "pl. i volontari, le volontarie"
   },
   {
@@ -188,7 +194,8 @@
    "translations": [
     "der/die Einwanderer/-in"
    ],
-   "page": "205-206"
+   "page": "205-206",
+   "related": "E immigrant"
   },
   {
    "id": "u2-2b-016",
@@ -197,7 +204,8 @@
     "ausländisch",
     "fremd"
    ],
-   "page": "205-206"
+   "page": "205-206",
+   "related": "E strange; F étranger"
   },
   {
    "id": "u2-2b-017",
@@ -224,6 +232,7 @@
     "der Eindruck"
    ],
    "page": "205-206",
+   "related": "E impression; F l’impression",
    "usage": "f."
   },
   {
@@ -234,6 +243,7 @@
     "sich für etw. einsetzen"
    ],
    "page": "205-206",
+   "related": "= l’impegno",
    "acceptedAnswers": [
     "impegnarsi"
    ]
@@ -253,7 +263,8 @@
     "mit jdm einer Meinung sein",
     "einig sein"
    ],
-   "page": "205-206"
+   "page": "205-206",
+   "related": "F être d’accord avec qn"
   },
   {
    "id": "u2-2b-022",
@@ -272,6 +283,7 @@
     "regelmäßig"
    ],
    "page": "205-206",
+   "related": "E regular; F régulier",
    "usage": "agg."
   },
   {
@@ -300,6 +312,7 @@
     "Weihnachten"
    ],
    "page": "205-206",
+   "related": "F le Noël",
    "usage": "m."
   },
   {
@@ -309,6 +322,7 @@
     "unterbrechen"
    ],
    "page": "205-206",
+   "related": "F interrompre",
    "usage": "p.p. interrotto"
   },
   {
@@ -336,6 +350,7 @@
     "vorhanden sein"
    ],
    "page": "205-206",
+   "related": "E to exist",
    "usage": "p.p. esistito"
   },
   {
@@ -344,7 +359,8 @@
    "translations": [
     "sinnvoll"
    ],
-   "page": "205-206"
+   "page": "205-206",
+   "related": "F sensé"
   },
   {
    "id": "u2-2b-031",
@@ -401,6 +417,7 @@
     "sich engagieren"
    ],
    "page": "205-206",
+   "related": "= impegnarsi",
    "usage": "=impegnarsi"
   },
   {
@@ -417,7 +434,8 @@
    "translations": [
     "bezweifeln"
    ],
-   "page": "205-206"
+   "page": "205-206",
+   "related": "E to doubt; F douter; L dubitare"
   },
   {
    "id": "u2-2b-038",
@@ -438,6 +456,7 @@
     "die Leute"
    ],
    "page": "205-206",
+   "related": "F les gens",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -465,6 +484,7 @@
     "beabsichtigen etw. zu tun"
    ],
    "page": "205-206",
+   "related": "E to intend",
    "usage": "p.p. inteso"
   }
  ],

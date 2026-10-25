@@ -43,6 +43,7 @@
     "geboren werden"
    ],
    "page": "219-220",
+   "related": "L nasci",
    "usage": "p.p. nato"
   },
   {
@@ -94,7 +95,8 @@
    "translations": [
     "teilnehmen an etw."
    ],
-   "page": "219-220"
+   "page": "219-220",
+   "related": "▸ la parte, partecipare"
   },
   {
    "id": "u5-5a-007",
@@ -121,6 +123,7 @@
     "der Fürstenhof"
    ],
    "page": "219-220",
+   "related": "E court",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -154,6 +157,7 @@
     "die Schwierigkeit"
    ],
    "page": "219-220",
+   "related": "E difficulty",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -171,7 +175,8 @@
     "schließlich",
     "letztendlich"
    ],
-   "page": "219-220"
+   "page": "219-220",
+   "related": "F enfin"
   },
   {
    "id": "u5-5a-014",
@@ -197,6 +202,7 @@
     "das Gefängnis"
    ],
    "page": "219-220",
+   "related": "E prison",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -213,7 +219,8 @@
    "translations": [
     "veröffentlichen"
    ],
-   "page": "219-220"
+   "page": "219-220",
+   "related": "E to publish"
   },
   {
    "id": "u5-5a-017",
@@ -257,6 +264,7 @@
     "der Tod"
    ],
    "page": "219-220",
+   "related": "F la mort; L mors",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -273,7 +281,8 @@
    "translations": [
     "zukünftig"
    ],
-   "page": "219-220"
+   "page": "219-220",
+   "related": "E future"
   },
   {
    "id": "u5-5a-021",
@@ -291,6 +300,7 @@
     "das Bild"
    ],
    "page": "219-220",
+   "related": "E design; F le dessin",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -308,6 +318,7 @@
     "der Himmel"
    ],
    "page": "219-220",
+   "related": "F le ciel; L caelum",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -343,6 +354,7 @@
     "die Schlacht"
    ],
    "page": "219-220",
+   "related": "E battle",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -360,6 +372,7 @@
     "das Labor"
    ],
    "page": "219-220",
+   "related": "E laboratory",
    "usage": "pl. i laboratori",
    "grammar": {
     "partOfSpeech": "noun",
@@ -492,6 +505,7 @@
     "die Entscheidung"
    ],
    "page": "219-220",
+   "related": "E decision",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -519,7 +533,8 @@
     "offensichtlich",
     "selbstverständlich"
    ],
-   "page": "219-220"
+   "page": "219-220",
+   "related": "E obvious"
   },
   {
    "id": "u5-5a-037",

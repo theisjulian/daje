@@ -111,7 +111,8 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "related": "▸ conoscere; ≠ sconosciuto/-a; L cognoscere; F connu/connue"
   },
   {
    "id": "m-uno-stage-007",
@@ -166,7 +167,8 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "related": "E current"
   },
   {
    "id": "m-uno-stage-012",
@@ -189,7 +191,8 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "related": "E basic"
   },
   {
    "id": "m-uno-stage-014",
@@ -254,7 +257,8 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "related": "E intensive"
   },
   {
    "id": "m-uno-stage-019",
@@ -299,6 +303,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "▸ sentire; E sense; F le sens; L sensus",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -319,6 +324,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "▸ organizzare; E organisation",
    "usage": "f."
   },
   {
@@ -330,7 +336,8 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "related": "E individual"
   },
   {
    "id": "m-uno-stage-024",
@@ -353,6 +360,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "E presentation; F la présentation",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -373,7 +381,8 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "related": "E ability"
   },
   {
    "id": "m-uno-stage-027",
@@ -384,7 +393,8 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "related": "E experience"
   },
   {
    "id": "m-uno-stage-028",
@@ -396,7 +406,8 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "related": "E client"
   },
   {
    "id": "m-uno-stage-029",
@@ -433,6 +444,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "E period",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -452,7 +464,8 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "related": "E enthusiasm"
   },
   {
    "id": "m-uno-stage-033",
@@ -516,7 +529,8 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "related": "L cor"
   },
   {
    "id": "m-uno-stage-038",
@@ -590,7 +604,8 @@
    "page": "228-229",
    "tags": [
     "fakultativ"
-   ]
+   ],
+   "related": "E fluent; = corrente"
   },
   {
    "id": "m-uno-stage-043",
@@ -624,6 +639,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "E application",
    "usage": "f."
   },
   {
@@ -636,6 +652,7 @@
    "tags": [
     "fakultativ"
    ],
+   "related": "E support",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",

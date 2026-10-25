@@ -17422,7 +17422,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "229-230"
+    "page": "229-230",
+    "related": "E popular; F populaire"
    },
    {
     "id": "m-musica-003",
@@ -17437,6 +17438,7 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "229-230",
+    "related": "E melody; F la mélodie",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -17459,7 +17461,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "229-230"
+    "page": "229-230",
+    "related": "▸ conoscere; ≠ sconosciuto/-a; L cognoscere; F connu/connue"
    },
    {
     "id": "m-musica-005",
@@ -17513,6 +17516,7 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "229-230",
+    "related": "E dialect",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -17550,7 +17554,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "229-230"
+    "page": "229-230",
+    "related": "▸ la musica"
    },
    {
     "id": "m-musica-010",
@@ -17566,7 +17571,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "229-230"
+    "page": "229-230",
+    "related": "F tel/telle; L talis"
    },
    {
     "id": "m-musica-011",
@@ -17581,7 +17587,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "229-230"
+    "page": "229-230",
+    "related": "E to compose; F composer; L componere"
    },
    {
     "id": "m-musica-012",
@@ -17596,6 +17603,7 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "229-230",
+    "related": "E/F nation; L natio",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -17619,7 +17627,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "229-230"
+    "page": "229-230",
+    "related": "▸ la sorpresa; E surprise; F surprendre"
    },
    {
     "id": "m-musica-014",
@@ -17633,7 +17642,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "229-230"
+    "page": "229-230",
+    "related": "▸ la regione; L regio"
    },
    {
     "id": "m-musica-015",
@@ -17648,6 +17658,7 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "229-230",
+    "related": "▸ cantare, il/la cantante; F le chant; L cantus",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -17709,6 +17720,7 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "229-230",
+    "related": "▸ cantare, il/la cantante",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -17733,6 +17745,7 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "229-230",
+    "related": "▸ creare; E creation; F la création",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -17756,7 +17769,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "229-230"
+    "page": "229-230",
+    "related": "L proprius; F propre"
    },
    {
     "id": "m-musica-021",
@@ -17771,6 +17785,7 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "229-230",
+    "related": "E generation",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -17795,6 +17810,7 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "229-230",
+    "related": "E disc",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -17819,6 +17835,7 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "229-230",
+    "related": "F le genre; L genus",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -17858,6 +17875,7 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "229-230",
+    "related": "L victor",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -17896,6 +17914,7 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "229-230",
+    "related": "F la salle",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -17980,7 +17999,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "229-230"
+    "page": "229-230",
+    "related": "L mortuus; F mort/e"
    },
    {
     "id": "m-musica-032",
@@ -17994,7 +18014,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "229-230"
+    "page": "229-230",
+    "related": "E orchestra"
    },
    {
     "id": "m-musica-033",
@@ -18179,7 +18200,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "228-229"
+    "page": "228-229",
+    "related": "▸ conoscere; ≠ sconosciuto/-a; L cognoscere; F connu/connue"
    },
    {
     "id": "m-uno-stage-007",
@@ -18249,7 +18271,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "228-229"
+    "page": "228-229",
+    "related": "E current"
    },
    {
     "id": "m-uno-stage-012",
@@ -18278,7 +18301,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "228-229"
+    "page": "228-229",
+    "related": "E basic"
    },
    {
     "id": "m-uno-stage-014",
@@ -18358,7 +18382,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "228-229"
+    "page": "228-229",
+    "related": "E intensive"
    },
    {
     "id": "m-uno-stage-019",
@@ -18412,6 +18437,7 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "228-229",
+    "related": "▸ sentire; E sense; F le sens; L sensus",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -18435,7 +18461,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "228-229"
+    "page": "228-229",
+    "related": "▸ organizzare; E organisation"
    },
    {
     "id": "m-uno-stage-023",
@@ -18449,7 +18476,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "228-229"
+    "page": "228-229",
+    "related": "E individual"
    },
    {
     "id": "m-uno-stage-024",
@@ -18478,6 +18506,7 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "228-229",
+    "related": "E presentation; F la présentation",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -18501,7 +18530,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "228-229"
+    "page": "228-229",
+    "related": "E ability"
    },
    {
     "id": "m-uno-stage-027",
@@ -18515,7 +18545,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "228-229"
+    "page": "228-229",
+    "related": "E experience"
    },
    {
     "id": "m-uno-stage-028",
@@ -18530,7 +18561,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "228-229"
+    "page": "228-229",
+    "related": "E client"
    },
    {
     "id": "m-uno-stage-029",
@@ -18575,6 +18607,7 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "228-229",
+    "related": "E period",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -18597,7 +18630,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "228-229"
+    "page": "228-229",
+    "related": "E enthusiasm"
    },
    {
     "id": "m-uno-stage-033",
@@ -18676,7 +18710,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "228-229"
+    "page": "228-229",
+    "related": "L cor"
    },
    {
     "id": "m-uno-stage-038",
@@ -18765,7 +18800,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "228-229"
+    "page": "228-229",
+    "related": "E fluent; = corrente"
    },
    {
     "id": "m-uno-stage-043",
@@ -18808,7 +18844,8 @@ const STOCK_PACKAGES = [
     "tags": [
      "fakultativ"
     ],
-    "page": "228-229"
+    "page": "228-229",
+    "related": "E application"
    },
    {
     "id": "m-uno-stage-046",
@@ -18823,6 +18860,7 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "228-229",
+    "related": "E support",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -18955,7 +18993,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "199-200"
+    "page": "199-200",
+    "related": "F alors"
    },
    {
     "id": "u1-1a-002",
@@ -18967,7 +19006,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "199-200"
+    "page": "199-200",
+    "related": "L diversus"
    },
    {
     "id": "u1-1a-003",
@@ -18980,7 +19020,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "p.p. vissuto",
-    "page": "199-200"
+    "page": "199-200",
+    "related": "▸ la vita; F vivre; L vivere"
    },
    {
     "id": "u1-1a-004",
@@ -19094,7 +19135,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "199-200"
+    "page": "199-200",
+    "related": "F fatigant"
    },
    {
     "id": "u1-1a-012",
@@ -19107,6 +19149,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "≠ la città",
     "page": "199-200",
+    "related": "≠ la città; F la champagne",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -19126,7 +19169,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "199-200"
+    "page": "199-200",
+    "related": "L laborare"
    },
    {
     "id": "u1-1a-014",
@@ -19138,7 +19182,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "199-200"
+    "page": "199-200",
+    "related": "≠ adulto"
    },
    {
     "id": "u1-1a-015",
@@ -19161,6 +19206,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "199-200",
+    "related": "L periculum",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -19194,7 +19240,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "199-200"
+    "page": "199-200",
+    "related": "▸ conoscere; F se connaître"
    },
    {
     "id": "u1-1a-019",
@@ -19240,7 +19287,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "199-200"
+    "page": "199-200",
+    "related": "F se mettre d’accord"
    },
    {
     "id": "u1-1a-023",
@@ -19252,7 +19300,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "199-200"
+    "page": "199-200",
+    "related": "E appointment"
    },
    {
     "id": "u1-1a-024",
@@ -19317,7 +19366,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "199-200"
+    "page": "199-200",
+    "related": "F plus"
    },
    {
     "id": "u1-1a-029",
@@ -19330,6 +19380,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "199-200",
+    "related": "L ferrum, via",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -19383,7 +19434,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "199-200"
+    "page": "199-200",
+    "related": "E comfortable; F confortable"
    },
    {
     "id": "u1-1a-033",
@@ -19407,6 +19459,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "199-200",
+    "related": "E television; F la télévision",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -19452,6 +19505,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "199-200",
+    "related": "E letter; F la lettre; L littera/-ae",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -19576,6 +19630,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "201-202",
+    "related": "F le concours",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -19597,6 +19652,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "201-202",
+    "related": "▸ raccontare",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -19616,7 +19672,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "201-202"
+    "page": "201-202",
+    "related": "E adventure; F l’aventure"
    },
    {
     "id": "u1-1b-004",
@@ -19678,7 +19735,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "201-202"
+    "page": "201-202",
+    "related": "F voler"
    },
    {
     "id": "u1-1b-009",
@@ -19715,6 +19773,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "201-202",
+    "related": "F la tête",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -19735,7 +19794,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "201-202"
+    "page": "201-202",
+    "related": "F bas, basse"
    },
    {
     "id": "u1-1b-013",
@@ -19747,7 +19807,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "≠ lungo",
-    "page": "201-202"
+    "page": "201-202",
+    "related": "F court/e; ≠ lungo"
    },
    {
     "id": "u1-1b-014",
@@ -19792,7 +19853,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "p.p. sorriso",
-    "page": "201-202"
+    "page": "201-202",
+    "related": "F sourire"
    },
    {
     "id": "u1-1b-018",
@@ -19819,6 +19881,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "pl. i cinema",
     "page": "201-202",
+    "related": "E/F cinema",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -19871,7 +19934,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "201-202"
+    "page": "201-202",
+    "related": "F saluer"
    },
    {
     "id": "u1-1b-023",
@@ -19916,7 +19980,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "201-202"
+    "page": "201-202",
+    "related": "E embarrassing"
    },
    {
     "id": "u1-1b-026",
@@ -19939,7 +20004,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "201-202"
+    "page": "201-202",
+    "related": "≠ conosciuto/-a"
    },
    {
     "id": "u1-1b-028",
@@ -19951,7 +20017,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "201-202"
+    "page": "201-202",
+    "related": "= il momento"
    },
    {
     "id": "u1-1b-029",
@@ -19998,7 +20065,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "p.p. riuscito",
-    "page": "201-202"
+    "page": "201-202",
+    "related": "F réussir"
    },
    {
     "id": "u1-1b-032",
@@ -20011,7 +20079,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "p.p. convinto",
-    "page": "201-202"
+    "page": "201-202",
+    "related": "E to convince; F convaincre"
    },
    {
     "id": "u1-1b-033",
@@ -20023,6 +20092,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "201-202",
+    "related": "= il giorno",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -20207,6 +20277,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "pl. le superfici",
     "page": "198-199",
+    "related": "E surface; F la surface",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -20269,7 +20340,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "m./f.",
-    "page": "198-199"
+    "page": "198-199",
+    "related": "▸ abitare; E inhabitant; F l’habitant"
    },
    {
     "id": "u1-approccio-006",
@@ -20301,7 +20373,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "198-199"
+    "page": "198-199",
+    "related": "F l’arbre"
    },
    {
     "id": "u1-approccio-008",
@@ -20313,7 +20386,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "198-199"
+    "page": "198-199",
+    "related": "E create; F créer"
    },
    {
     "id": "u1-approccio-009",
@@ -20345,7 +20419,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "198-199"
+    "page": "198-199",
+    "related": "F l’ombre"
    },
    {
     "id": "u1-approccio-011",
@@ -20356,7 +20431,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "198-199"
+    "page": "198-199",
+    "related": "E/F saint; L sanctus"
    },
    {
     "id": "u1-approccio-012",
@@ -20387,7 +20463,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "198-199"
+    "page": "198-199",
+    "related": "E to celebrate; F célébrer"
    },
    {
     "id": "u1-approccio-014",
@@ -20410,7 +20487,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "198-199"
+    "page": "198-199",
+    "related": "E famous"
    },
    {
     "id": "u1-approccio-016",
@@ -20421,7 +20499,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "198-199"
+    "page": "198-199",
+    "related": "E in fact; F en effet"
    },
    {
     "id": "u1-approccio-017",
@@ -20433,6 +20512,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "198-199",
+    "related": "E money; F monnaie",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -20474,6 +20554,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "198-199",
+    "related": "E castle",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -20495,7 +20576,8 @@ const STOCK_PACKAGES = [
     ],
     "example": "",
     "definition": "",
-    "page": "198-199"
+    "page": "198-199",
+    "related": "E medieval; F médiéval(e)"
    },
    {
     "id": "u1-approccio-021",
@@ -20506,7 +20588,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "198-199"
+    "page": "198-199",
+    "related": "E emperor; F l’empereur"
    },
    {
     "id": "u1-approccio-022",
@@ -20518,6 +20601,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "198-199",
+    "related": "F le toit; L tectum",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -20549,6 +20633,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "198-199",
+    "related": "F la pierre",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -20599,7 +20684,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "198-199"
+    "page": "198-199",
+    "related": "E oil"
    },
    {
     "id": "u1-approccio-028",
@@ -20663,6 +20749,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "198-199",
+    "related": "E coast; F la côte",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -20683,7 +20770,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "p.p. offerto",
-    "page": "198-199"
+    "page": "198-199",
+    "related": "E offer; F offrir; L offerre"
    },
    {
     "id": "u1-approccio-033",
@@ -20757,7 +20845,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "pl. gli esempi",
-    "page": "198-199"
+    "page": "198-199",
+    "related": "E example"
    },
    {
     "id": "u1-approccio-038",
@@ -20769,6 +20858,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "198-199",
+    "related": "E/F port; L portus",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -20911,6 +21001,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "202",
+    "related": "E capital city; F la capitale; L caput",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -21043,6 +21134,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "202",
+    "related": "L ferrum, via",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -21103,6 +21195,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "202",
+    "related": "E/F port; L portus",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -21236,6 +21329,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "202",
+    "related": "≠ la città; F la champagne",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -21295,7 +21389,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "202"
+    "page": "202",
+    "related": "▸ abitare; E inhabitant; F l’habitant"
    },
    {
     "id": "u1-per-parlare-024",
@@ -21410,6 +21505,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "203-205",
+    "related": "E risk",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -21431,6 +21527,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "203-205",
+    "related": "F le cas",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -21462,7 +21559,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "▸ l’informazione"
    },
    {
     "id": "u2-2a-005",
@@ -21497,7 +21595,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "p.p. permesso",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "≠ vietare; E to permit; L permittere"
    },
    {
     "id": "u2-2a-008",
@@ -21540,7 +21639,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "L genus"
    },
    {
     "id": "u2-2a-011",
@@ -21551,7 +21651,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "F éviter; L vitare"
    },
    {
     "id": "u2-2a-012",
@@ -21564,6 +21665,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "203-205",
+    "related": "F la suspension",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -21604,7 +21706,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "F filmer qc"
    },
    {
     "id": "u2-2a-015",
@@ -21646,7 +21749,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "F si"
    },
    {
     "id": "u2-2a-018",
@@ -21659,7 +21763,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "≠ buono/-a",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "≠ buono/-a"
    },
    {
     "id": "u2-2a-019",
@@ -21714,7 +21819,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "F espérer; L sperare"
    },
    {
     "id": "u2-2a-024",
@@ -21725,7 +21831,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "E responsible; F le/la responsable"
    },
    {
     "id": "u2-2a-025",
@@ -21757,7 +21864,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "E necessary; F nécessaire; L necessarius"
    },
    {
     "id": "u2-2a-027",
@@ -21768,7 +21876,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "L vetare"
    },
    {
     "id": "u2-2a-028",
@@ -21779,7 +21888,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "F enseignant; = il/la prof(essore/-ssa)"
    },
    {
     "id": "u2-2a-029",
@@ -21801,7 +21911,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "E to concentrate"
    },
    {
     "id": "u2-2a-031",
@@ -21812,7 +21923,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "F croire; L credere"
    },
    {
     "id": "u2-2a-032",
@@ -21824,7 +21936,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "avv.",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "E in reality"
    },
    {
     "id": "u2-2a-033",
@@ -21836,7 +21949,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "E use; F l’usage"
    },
    {
     "id": "u2-2a-034",
@@ -21847,7 +21961,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "E stupid; F stupide"
    },
    {
     "id": "u2-2a-035",
@@ -21870,7 +21985,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "L verus"
    },
    {
     "id": "u2-2a-037",
@@ -21922,7 +22038,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "avv.",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "≠ fuori"
    },
    {
     "id": "u2-2a-041",
@@ -21955,7 +22072,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203-205"
+    "page": "203-205",
+    "related": "E to confront"
    },
    {
     "id": "u2-2a-044",
@@ -22044,7 +22162,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "205-206"
+    "page": "205-206",
+    "related": "E to participate"
    },
    {
     "id": "u2-2b-002",
@@ -22056,6 +22175,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "205-206",
+    "related": "▸ discutere",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -22139,7 +22259,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "205-206"
+    "page": "205-206",
+    "related": "F s’occuper de qn/qc"
    },
    {
     "id": "u2-2b-008",
@@ -22151,6 +22272,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "205-206",
+    "related": "E project",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -22193,7 +22315,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "205-206"
+    "page": "205-206",
+    "related": "F disposé à"
    },
    {
     "id": "u2-2b-012",
@@ -22217,7 +22340,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "pl. i volontari, le volontarie",
-    "page": "205-206"
+    "page": "205-206",
+    "related": "F volontaire"
    },
    {
     "id": "u2-2b-014",
@@ -22240,7 +22364,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "205-206"
+    "page": "205-206",
+    "related": "E immigrant"
    },
    {
     "id": "u2-2b-016",
@@ -22252,7 +22377,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "205-206"
+    "page": "205-206",
+    "related": "E strange; F étranger"
    },
    {
     "id": "u2-2b-017",
@@ -22285,7 +22411,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "f.",
-    "page": "205-206"
+    "page": "205-206",
+    "related": "E impression; F l’impression"
    },
    {
     "id": "u2-2b-019",
@@ -22299,7 +22426,8 @@ const STOCK_PACKAGES = [
     ],
     "example": "",
     "definition": "",
-    "page": "205-206"
+    "page": "205-206",
+    "related": "= l’impegno"
    },
    {
     "id": "u2-2b-020",
@@ -22322,7 +22450,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "205-206"
+    "page": "205-206",
+    "related": "F être d’accord avec qn"
    },
    {
     "id": "u2-2b-022",
@@ -22347,7 +22476,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "agg.",
-    "page": "205-206"
+    "page": "205-206",
+    "related": "E regular; F régulier"
    },
    {
     "id": "u2-2b-024",
@@ -22381,7 +22511,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "m.",
-    "page": "205-206"
+    "page": "205-206",
+    "related": "F le Noël"
    },
    {
     "id": "u2-2b-026",
@@ -22393,7 +22524,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "p.p. interrotto",
-    "page": "205-206"
+    "page": "205-206",
+    "related": "F interrompre"
    },
    {
     "id": "u2-2b-027",
@@ -22429,7 +22561,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "p.p. esistito",
-    "page": "205-206"
+    "page": "205-206",
+    "related": "E to exist"
    },
    {
     "id": "u2-2b-030",
@@ -22440,7 +22573,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "205-206"
+    "page": "205-206",
+    "related": "F sensé"
    },
    {
     "id": "u2-2b-031",
@@ -22511,7 +22645,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "=impegnarsi",
-    "page": "205-206"
+    "page": "205-206",
+    "related": "= impegnarsi"
    },
    {
     "id": "u2-2b-036",
@@ -22533,7 +22668,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "205-206"
+    "page": "205-206",
+    "related": "E to doubt; F douter; L dubitare"
    },
    {
     "id": "u2-2b-038",
@@ -22559,6 +22695,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "205-206",
+    "related": "F les gens",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -22592,7 +22729,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "p.p. inteso",
-    "page": "205-206"
+    "page": "205-206",
+    "related": "E to intend"
    }
   ]
  },
@@ -22681,6 +22819,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "203",
+    "related": "▸ comunicare",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -22701,6 +22840,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "203",
+    "related": "F le journal",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -22742,6 +22882,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "203",
+    "related": "E transmission",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -22802,7 +22943,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "avv.",
-    "page": "203"
+    "page": "203",
+    "related": "F rarement"
    },
    {
     "id": "u2-approccio-009",
@@ -22816,6 +22958,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "pl. i documentari",
     "page": "203",
+    "related": "E documentary",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -22888,7 +23031,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203"
+    "page": "203",
+    "related": "E to confront"
    },
    {
     "id": "u2-approccio-014",
@@ -22914,7 +23058,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203"
+    "page": "203",
+    "related": "F servir à qqn; L servire"
    },
    {
     "id": "u2-approccio-016",
@@ -23001,7 +23146,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203"
+    "page": "203",
+    "related": "E to register; F enregistrer"
    },
    {
     "id": "u2-approccio-022",
@@ -23052,7 +23198,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "203"
+    "page": "203",
+    "related": "▸ lo sport; F sportif"
    }
   ]
  },
@@ -23388,7 +23535,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "207"
+    "page": "207",
+    "related": "E the interview; F le interview"
    },
    {
     "id": "u2-per-parlare-017",
@@ -23479,7 +23627,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "p.p. esteso",
-    "page": "208-209"
+    "page": "208-209",
+    "related": "F s’étendre"
    },
    {
     "id": "u3-3a-002",
@@ -23491,6 +23640,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "208-209",
+    "related": "F la colline; L collis",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -23522,7 +23672,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "208-209"
+    "page": "208-209",
+    "related": "E eternal; F éternel"
    },
    {
     "id": "u3-3a-005",
@@ -23554,7 +23705,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "208-209"
+    "page": "208-209",
+    "related": "E to found; F fonder"
    },
    {
     "id": "u3-3a-007",
@@ -23644,6 +23796,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "208-209",
+    "related": "F la serrure",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -23663,7 +23816,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "208-209"
+    "page": "208-209",
+    "related": "F merveilleux"
    },
    {
     "id": "u3-3a-014",
@@ -23741,7 +23895,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "Abc",
-    "page": "208-209"
+    "page": "208-209",
+    "related": "F construire"
    },
    {
     "id": "u3-3a-019",
@@ -23766,6 +23921,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "pl. i templi",
     "page": "208-209",
+    "related": "E/F temple; L templum",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -23787,6 +23943,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "pl. gli dei",
     "page": "208-209",
+    "related": "F le dieu; L deus",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -23807,6 +23964,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "208-209",
+    "related": "F le siècle; L saeculum",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -23827,7 +23985,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "208-209"
+    "page": "208-209",
+    "related": "= cambiare; E to transform"
    },
    {
     "id": "u3-3a-024",
@@ -23839,7 +23998,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "208-209"
+    "page": "208-209",
+    "related": "F fort"
    },
    {
     "id": "u3-3a-025",
@@ -23872,7 +24032,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "≠ comodo/-a",
-    "page": "208-209"
+    "page": "208-209",
+    "related": "≠ comodo/-a"
    },
    {
     "id": "u3-3a-027",
@@ -23883,7 +24044,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "208-209"
+    "page": "208-209",
+    "related": "F jeter"
    },
    {
     "id": "u3-3a-028",
@@ -23907,7 +24069,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "208-209"
+    "page": "208-209",
+    "related": "F gagner"
    },
    {
     "id": "u3-3a-030",
@@ -24063,6 +24226,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "209-210",
+    "related": "E culture",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -24106,6 +24270,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "209-210",
+    "related": "E character",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -24125,7 +24290,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "209-210"
+    "page": "209-210",
+    "related": "E national"
    },
    {
     "id": "u3-3b-008",
@@ -24137,6 +24303,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "209-210",
+    "related": "E parliament",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -24181,7 +24348,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "209-210"
+    "page": "209-210",
+    "related": "▸ la mattina"
    },
    {
     "id": "u3-3b-012",
@@ -24194,6 +24362,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "209-210",
+    "related": "▸ visitare; E visit; F la visite",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -24215,6 +24384,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "pl. i questionari",
     "page": "209-210",
+    "related": "F le questionnaire",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -24246,7 +24416,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "Abc",
-    "page": "209-210"
+    "page": "209-210",
+    "related": "F plaire; L placere"
    },
    {
     "id": "u3-3b-016",
@@ -24258,7 +24429,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "209-210"
+    "page": "209-210",
+    "related": "E obviously"
    },
    {
     "id": "u3-3b-017",
@@ -24282,6 +24454,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "209-210",
+    "related": "E menu",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -24475,7 +24648,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "≠ vicino/-a",
-    "page": "209-210"
+    "page": "209-210",
+    "related": "≠ vicino/-a"
    },
    {
     "id": "u3-3b-032",
@@ -24510,7 +24684,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "209-210"
+    "page": "209-210",
+    "related": "E strange"
    },
    {
     "id": "u3-3b-035",
@@ -24555,6 +24730,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "209-210",
+    "related": "E difference",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -24597,7 +24773,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "209-210"
+    "page": "209-210",
+    "related": "= perché"
    },
    {
     "id": "u3-3b-041",
@@ -24679,6 +24856,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "Unterscheide: la capitale (Land) – il capoluogo (Region)",
     "page": "207-208",
+    "related": "E capital city; F la capitale; L caput",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -24700,6 +24878,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "207-208",
+    "related": "▸ sedersi; F le siège; L sedes",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -24721,6 +24900,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "pl. i papi; il papà, i papà = Papa",
     "page": "207-208",
+    "related": "E pope; F le pape",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -24794,7 +24974,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "207-208"
+    "page": "207-208",
+    "related": "▸ incontrare; E encounter; F la rencontre"
    },
    {
     "id": "u3-approccio-009",
@@ -24806,6 +24987,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "207-208",
+    "related": "E fountain; F la fontaine",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -24826,7 +25008,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "pl. i musicisti",
-    "page": "207-208"
+    "page": "207-208",
+    "related": "▸ la musica"
    },
    {
     "id": "u3-approccio-011",
@@ -24838,6 +25021,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "207-208",
+    "related": "E trace; F la trace",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -24871,7 +25055,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "207-208"
+    "page": "207-208",
+    "related": "L Imperium Romanum"
    },
    {
     "id": "u3-approccio-014",
@@ -24939,7 +25124,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "m.",
-    "page": "207-208"
+    "page": "207-208",
+    "related": "F l’ascenseur (m.)"
    },
    {
     "id": "u3-approccio-018",
@@ -24995,6 +25181,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "207-208",
+    "related": "F le métropolitain",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -25036,6 +25223,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "207-208",
+    "related": "E direction; F la direction",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -25055,7 +25243,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "207-208"
+    "page": "207-208",
+    "related": "E to pay; F payer"
    },
    {
     "id": "u3-approccio-024",
@@ -25067,7 +25256,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "207-208"
+    "page": "207-208",
+    "related": "E single; F singulier"
    },
    {
     "id": "u3-approccio-025",
@@ -25422,6 +25612,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "211-212",
+    "related": "E menu",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -25898,7 +26089,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "214"
+    "page": "214",
+    "related": "E to repair"
    },
    {
     "id": "u4-4a-003",
@@ -25958,6 +26150,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "214",
+    "related": "F le fer; L ferrum",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -25978,7 +26171,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "214"
+    "page": "214",
+    "related": "E offer"
    },
    {
     "id": "u4-4a-009",
@@ -26021,7 +26215,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "≠ nuovo",
-    "page": "214"
+    "page": "214",
+    "related": "≠ nuovo; E used"
    },
    {
     "id": "u4-4a-012",
@@ -26033,6 +26228,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "214",
+    "related": "▸ il lavoro",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -26142,7 +26338,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "214"
+    "page": "214",
+    "related": "E face to face"
    },
    {
     "id": "u4-4a-021",
@@ -26209,7 +26406,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "mi dispiace = das tut mir leid",
-    "page": "214"
+    "page": "214",
+    "related": "≠ piacere"
    },
    {
     "id": "u4-4a-026",
@@ -26232,7 +26430,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "214"
+    "page": "214",
+    "related": "E connected"
    },
    {
     "id": "u4-4a-028",
@@ -26243,7 +26442,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "214"
+    "page": "214",
+    "related": "F malade"
    }
   ]
  },
@@ -26353,7 +26553,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "215-216"
+    "page": "215-216",
+    "related": "E agency"
    },
    {
     "id": "u4-4b-005",
@@ -26387,7 +26588,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "215-216"
+    "page": "215-216",
+    "related": "E to repeat; L repetere"
    },
    {
     "id": "u4-4b-008",
@@ -26399,7 +26601,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "215-216"
+    "page": "215-216",
+    "related": "E continuous; L continuus"
    },
    {
     "id": "u4-4b-009",
@@ -26435,6 +26638,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "f.",
     "page": "215-216",
+    "related": "E guide",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -26468,7 +26672,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "avv.",
-    "page": "215-216"
+    "page": "215-216",
+    "related": "E originally"
    },
    {
     "id": "u4-4b-013",
@@ -26482,6 +26687,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "215-216",
+    "related": "E course; L cursus",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -26501,7 +26707,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "215-216"
+    "page": "215-216",
+    "related": "▸ imprenditore/imprenditrice"
    },
    {
     "id": "u4-4b-015",
@@ -26513,7 +26720,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "215-216"
+    "page": "215-216",
+    "related": "E exact"
    },
    {
     "id": "u4-4b-016",
@@ -26524,7 +26732,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "215-216"
+    "page": "215-216",
+    "related": "F/E compliment"
    },
    {
     "id": "u4-4b-017",
@@ -26536,6 +26745,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "215-216",
+    "related": "E success",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -26567,6 +26777,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "215-216",
+    "related": "E canoe; F canoë",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -26597,7 +26808,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "215-216"
+    "page": "215-216",
+    "related": "E the interview; F le interview"
    },
    {
     "id": "u4-4b-022",
@@ -26609,6 +26821,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "215-216",
+    "related": "E web design",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -26630,6 +26843,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "≠ il passato",
     "page": "215-216",
+    "related": "≠ il passato; E future",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -26651,6 +26865,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "215-216",
+    "related": "E presence",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -26671,7 +26886,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "215-216"
+    "page": "215-216",
+    "related": "E fundamental"
    },
    {
     "id": "u4-4b-026",
@@ -26694,7 +26910,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "215-216"
+    "page": "215-216",
+    "related": "E to combine; F combiner"
    },
    {
     "id": "u4-4b-028",
@@ -26727,6 +26944,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "215-216",
+    "related": "E spirit",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -26792,6 +27010,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "215-216",
+    "related": "E faculty; F la faculté",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -26822,7 +27041,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "215-216"
+    "page": "215-216",
+    "related": "E informatics; F l’informatique"
    },
    {
     "id": "u4-4b-036",
@@ -26835,7 +27055,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "f.",
-    "page": "215-216"
+    "page": "215-216",
+    "related": "E occasion; L occasio"
    },
    {
     "id": "u4-4b-037",
@@ -26848,6 +27069,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "215-216",
+    "related": "L praemium",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -26869,7 +27091,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "≠ normale",
-    "page": "215-216"
+    "page": "215-216",
+    "related": "≠ normale; E special"
    },
    {
     "id": "u4-4b-039",
@@ -26881,7 +27104,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "≠ lento",
-    "page": "215-216"
+    "page": "215-216",
+    "related": "≠ lento"
    },
    {
     "id": "u4-4b-040",
@@ -26924,7 +27148,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "215-216"
+    "page": "215-216",
+    "related": "E to dedicate"
    },
    {
     "id": "u4-4b-043",
@@ -27005,6 +27230,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "212-214",
+    "related": "E elementary school",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -27109,6 +27335,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "Vor Prozentzahlen steht immer il bzw. l’",
     "page": "212-214",
+    "related": "E percent; F pour cent",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -27129,6 +27356,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "212-214",
+    "related": "E possibility",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -27171,7 +27399,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "pl. tecnici, tecniche",
-    "page": "212-214"
+    "page": "212-214",
+    "related": "E technical; F technique"
    },
    {
     "id": "u4-approccio-012",
@@ -27205,6 +27434,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "212-214",
+    "related": "L somnium",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -27258,6 +27488,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "212-214",
+    "related": "E profession",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -27343,6 +27574,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "212-214",
+    "related": "L labor",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -27375,7 +27607,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "pl. gli uffici",
-    "page": "212-214"
+    "page": "212-214",
+    "related": "E office"
    },
    {
     "id": "u4-approccio-025",
@@ -27412,7 +27645,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "212-214"
+    "page": "212-214",
+    "related": "E numerous"
    },
    {
     "id": "u4-approccio-028",
@@ -27455,6 +27689,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "212-214",
+    "related": "F la vérité; L veritas",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -27496,6 +27731,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "212-214",
+    "related": "E career",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -27526,7 +27762,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "212-214"
+    "page": "212-214",
+    "related": "▸ piacere"
    },
    {
     "id": "u4-approccio-035",
@@ -27538,7 +27775,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "212-214"
+    "page": "212-214",
+    "related": "E command; F commander"
    },
    {
     "id": "u4-approccio-036",
@@ -27551,7 +27789,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "3. Pers. von vorrei",
-    "page": "212-214"
+    "page": "212-214",
+    "related": "▸ 3. Pers. von vorrei"
    },
    {
     "id": "u4-approccio-037",
@@ -27563,6 +27802,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "212-214",
+    "related": "L caput",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -27586,7 +27826,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "p.p. aggiunto",
-    "page": "212-214"
+    "page": "212-214",
+    "related": "L adiungere"
    },
    {
     "id": "u4-approccio-039",
@@ -27624,6 +27865,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "212-214",
+    "related": "F la spécialité; E speciality",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -27959,7 +28201,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "217"
+    "page": "217",
+    "related": "F enseignant; = il/la prof(essore/-ssa)"
    },
    {
     "id": "u4-per-parlare-023",
@@ -28162,7 +28405,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "p.p. nato",
-    "page": "219-220"
+    "page": "219-220",
+    "related": "L nasci"
    },
    {
     "id": "u5-5a-003",
@@ -28225,7 +28469,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "219-220"
+    "page": "219-220",
+    "related": "▸ la parte, partecipare"
    },
    {
     "id": "u5-5a-007",
@@ -28261,6 +28506,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "219-220",
+    "related": "E court",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -28303,6 +28549,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "219-220",
+    "related": "E difficulty",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -28323,7 +28570,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "219-220"
+    "page": "219-220",
+    "related": "F enfin"
    },
    {
     "id": "u5-5a-014",
@@ -28355,6 +28603,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "219-220",
+    "related": "E prison",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -28374,7 +28623,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "219-220"
+    "page": "219-220",
+    "related": "E to publish"
    },
    {
     "id": "u5-5a-017",
@@ -28427,6 +28677,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "219-220",
+    "related": "F la mort; L mors",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -28446,7 +28697,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "219-220"
+    "page": "219-220",
+    "related": "E future"
    },
    {
     "id": "u5-5a-021",
@@ -28470,6 +28722,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "219-220",
+    "related": "E design; F le dessin",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -28490,6 +28743,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "219-220",
+    "related": "F le ciel; L caelum",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -28531,6 +28785,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "219-220",
+    "related": "E battle",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -28552,6 +28807,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "pl. i laboratori",
     "page": "219-220",
+    "related": "E laboratory",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -28707,6 +28963,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "219-220",
+    "related": "E decision",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -28740,7 +28997,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "219-220"
+    "page": "219-220",
+    "related": "E obvious"
    },
    {
     "id": "u5-5a-037",
@@ -28918,7 +29176,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "f.",
-    "page": "220-221"
+    "page": "220-221",
+    "related": "E origin; L origo"
    },
    {
     "id": "u5-5b-005",
@@ -28929,7 +29188,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "220-221"
+    "page": "220-221",
+    "related": "E religious"
    },
    {
     "id": "u5-5b-006",
@@ -29026,7 +29286,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "p.p. diviso",
-    "page": "220-221"
+    "page": "220-221",
+    "related": "E to divide"
    },
    {
     "id": "u5-5b-012",
@@ -29128,7 +29389,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "220-221"
+    "page": "220-221",
+    "related": "F tel/telle; L talis"
    },
    {
     "id": "u5-5b-019",
@@ -29140,7 +29402,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "220-221"
+    "page": "220-221",
+    "related": "L antiquus"
    },
    {
     "id": "u5-5b-020",
@@ -29172,6 +29435,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "220-221",
+    "related": "E value",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -29204,6 +29468,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "220-221",
+    "related": "E superstition",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -29284,7 +29549,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "= vecchio/-a",
-    "page": "220-221"
+    "page": "220-221",
+    "related": "= vecchio/-a"
    },
    {
     "id": "u5-5b-028",
@@ -29295,7 +29561,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "220-221"
+    "page": "220-221",
+    "related": "E to consider"
    },
    {
     "id": "u5-5b-029",
@@ -29362,7 +29629,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "220-221"
+    "page": "220-221",
+    "related": "E vertical"
    },
    {
     "id": "u5-5b-034",
@@ -29375,6 +29643,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "220-221",
+    "related": "F le parcours",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -29395,7 +29664,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "220-221"
+    "page": "220-221",
+    "related": "E total"
    },
    {
     "id": "u5-5b-036",
@@ -29500,7 +29770,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "m.",
-    "page": "220-221"
+    "page": "220-221",
+    "related": "E honour; L honor"
    },
    {
     "id": "u5-5b-044",
@@ -29513,7 +29784,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "220-221"
+    "page": "220-221",
+    "related": "E authentic"
    },
    {
     "id": "u5-5b-045",
@@ -29525,7 +29797,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "220-221"
+    "page": "220-221",
+    "related": "E to exercise; L exercere"
    },
    {
     "id": "u5-5b-046",
@@ -29550,6 +29823,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "pl. i dubbi",
     "page": "220-221",
+    "related": "▸ dubitare; E doubt; L dubium",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -29627,6 +29901,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "217-218",
+    "related": "L passus",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -29660,6 +29935,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "217-218",
+    "related": "F la pinière",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -29711,7 +29987,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "217-218"
+    "page": "217-218",
+    "related": "E accessible"
    },
    {
     "id": "u5-approccio-007",
@@ -29756,6 +30033,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "217-218",
+    "related": "F la piscine",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -29849,7 +30127,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "217-218"
+    "page": "217-218",
+    "related": "L insula"
    },
    {
     "id": "u5-approccio-016",
@@ -29932,6 +30211,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "217-218",
+    "related": "F le jardin",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -30121,7 +30401,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "217-218"
+    "page": "217-218",
+    "related": "E scientist"
    },
    {
     "id": "u5-approccio-033",
@@ -30198,6 +30479,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "217-218",
+    "related": "E period",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -30612,6 +30894,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "222",
+    "related": "F le jardin",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -30665,6 +30948,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "222",
+    "related": "F la piscine",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -30949,6 +31233,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "223-225",
+    "related": "E face",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -30968,7 +31253,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "223-225"
+    "page": "223-225",
+    "related": "E stylist"
    },
    {
     "id": "u6-6a-003",
@@ -30979,7 +31265,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "223-225"
+    "page": "223-225",
+    "related": "E disoccupied"
    },
    {
     "id": "u6-6a-004",
@@ -30990,7 +31277,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "223-225"
+    "page": "223-225",
+    "related": "▸ affittare"
    },
    {
     "id": "u6-6a-005",
@@ -31024,7 +31312,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "agg.",
-    "page": "223-225"
+    "page": "223-225",
+    "related": "E passionate"
    },
    {
     "id": "u6-6a-008",
@@ -31058,6 +31347,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "223-225",
+    "related": "▸ creativo/-a; E creativity",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -31078,6 +31368,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "223-225",
+    "related": "E trend",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -31140,7 +31431,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "223-225"
+    "page": "223-225",
+    "related": "▸ il disegno; E to design; F dessiner"
    },
    {
     "id": "u6-6a-015",
@@ -31205,7 +31497,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "pl. economici, economiche",
-    "page": "223-225"
+    "page": "223-225",
+    "related": "E economic"
    },
    {
     "id": "u6-6a-019",
@@ -31253,7 +31546,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "rel. pron.",
-    "page": "223-225"
+    "page": "223-225",
+    "related": "L qualis"
    },
    {
     "id": "u6-6a-022",
@@ -31297,6 +31591,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "223-225",
+    "related": "L mensis",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -31380,6 +31675,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "223-225",
+    "related": "E residence",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -31485,7 +31781,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "essere fortunato = Glück haben",
-    "page": "223-225"
+    "page": "223-225",
+    "related": "E fortunate"
    },
    {
     "id": "u6-6a-037",
@@ -31499,6 +31796,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "pl. i traffici",
     "page": "223-225",
+    "related": "E traffic; F la trafic",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -31573,7 +31871,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "f.",
-    "page": "223-225"
+    "page": "223-225",
+    "related": "E origin; L origo"
    },
    {
     "id": "u6-6a-042",
@@ -31749,6 +32048,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "225-226",
+    "related": "E scene",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -31788,7 +32088,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "225-226"
+    "page": "225-226",
+    "related": "E adolescence; L adulescentia"
    },
    {
     "id": "u6-6b-008",
@@ -31811,7 +32112,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "225-226"
+    "page": "225-226",
+    "related": "E artistic"
    },
    {
     "id": "u6-6b-010",
@@ -31824,6 +32126,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "225-226",
+    "related": "▸ cantare, il/la cantante; F le chant; L cantus",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -31844,6 +32147,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "225-226",
+    "related": "E participation",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -31888,7 +32192,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "225-226"
+    "page": "225-226",
+    "related": "F débuter"
    },
    {
     "id": "u6-6b-015",
@@ -31902,6 +32207,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "pl. le serie",
     "page": "225-226",
+    "related": "E series",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -31922,7 +32228,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "225-226"
+    "page": "225-226",
+    "related": "E opera"
    },
    {
     "id": "u6-6b-017",
@@ -32030,6 +32337,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "225-226",
+    "related": "▸ fondare; E foundation",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -32062,7 +32370,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "225-226"
+    "page": "225-226",
+    "related": "E excellence"
    },
    {
     "id": "u6-6b-026",
@@ -32084,7 +32393,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "225-226"
+    "page": "225-226",
+    "related": "E contemporary"
    },
    {
     "id": "u6-6b-028",
@@ -32191,7 +32501,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "225-226"
+    "page": "225-226",
+    "related": "▸ il progetto; E to project"
    },
    {
     "id": "u6-6b-035",
@@ -32255,7 +32566,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "225-226"
+    "page": "225-226",
+    "related": "L nominare"
    },
    {
     "id": "u6-6b-039",
@@ -32289,7 +32601,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "225-226"
+    "page": "225-226",
+    "related": "E to finance"
    },
    {
     "id": "u6-6b-041",
@@ -32322,7 +32635,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "225-226"
+    "page": "225-226",
+    "related": "E experience"
    },
    {
     "id": "u6-6b-043",
@@ -32404,6 +32718,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "222-223",
+    "related": "E triangle",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -32445,6 +32760,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "pl. i servizi",
     "page": "222-223",
+    "related": "▸ servire",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -32562,7 +32878,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "222-223"
+    "page": "222-223",
+    "related": "E agriculture"
    },
    {
     "id": "u6-approccio-010",
@@ -32614,6 +32931,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "pl. i laghi",
     "page": "222-223",
+    "related": "E lake",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -32644,7 +32962,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "222-223"
+    "page": "222-223",
+    "related": "= a nord"
    },
    {
     "id": "u6-approccio-016",
@@ -32656,7 +32975,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "222-223"
+    "page": "222-223",
+    "related": "E access"
    },
    {
     "id": "u6-approccio-017",
@@ -32671,7 +32991,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "p.p. tratto",
-    "page": "222-223"
+    "page": "222-223",
+    "related": "L trahere"
    },
    {
     "id": "u6-approccio-018",
@@ -32684,6 +33005,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "222-223",
+    "related": "E profit",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -32706,6 +33028,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "222-223",
+    "related": "▸ il/la turista; E tourism",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -32728,7 +33051,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "p.p. attratto",
-    "page": "222-223"
+    "page": "222-223",
+    "related": "E to attract"
    },
    {
     "id": "u6-approccio-021",
@@ -32741,6 +33065,7 @@ const STOCK_PACKAGES = [
     "definition": "",
     "usage": "pl. i paesaggi",
     "page": "222-223",
+    "related": "F le paysage",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -32761,6 +33086,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "222-223",
+    "related": "F le trait",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -32781,6 +33107,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "222-223",
+    "related": "L collis",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -32820,7 +33147,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "222-223"
+    "page": "222-223",
+    "related": "≠ settentrione"
    },
    {
     "id": "u6-approccio-026",
@@ -32832,7 +33160,8 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "usage": "p.p. incluso",
-    "page": "222-223"
+    "page": "222-223",
+    "related": "E to include; L includere"
    },
    {
     "id": "u6-approccio-027",
@@ -32855,7 +33184,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "222-223"
+    "page": "222-223",
+    "related": "E particular"
    },
    {
     "id": "u6-approccio-029",
@@ -32867,7 +33197,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "222-223"
+    "page": "222-223",
+    "related": "▸ importante; E importance"
    },
    {
     "id": "u6-approccio-030",
@@ -32899,6 +33230,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "222-223",
+    "related": "▸ guadagnare",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -32919,6 +33251,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "222-223",
+    "related": "E volcano",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -32939,6 +33272,7 @@ const STOCK_PACKAGES = [
     "example": "",
     "definition": "",
     "page": "222-223",
+    "related": "E disoccupation",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -32978,7 +33312,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "222-223"
+    "page": "222-223",
+    "related": "▸ l’origine"
    }
   ]
  },
@@ -33252,7 +33587,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "227-228"
+    "page": "227-228",
+    "related": "E to found; F fonder"
    },
    {
     "id": "u6-per-parlare-019",
@@ -33296,7 +33632,8 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "",
     "definition": "",
-    "page": "227-228"
+    "page": "227-228",
+    "related": "▸ il disegno; E to design; F dessiner"
    },
    {
     "id": "u6-per-parlare-023",

@@ -86,6 +86,7 @@
     "die Bühne"
    ],
    "page": "225-226",
+   "related": "E scene",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -119,7 +120,8 @@
    "translations": [
     "die Jugend(-zeit)"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "related": "E adolescence; L adulescentia"
   },
   {
    "id": "u6-6b-008",
@@ -136,7 +138,8 @@
    "translations": [
     "künstlerisch"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "related": "E artistic"
   },
   {
    "id": "u6-6b-010",
@@ -146,6 +149,7 @@
     "das Singen"
    ],
    "page": "225-226",
+   "related": "▸ cantare, il/la cantante; F le chant; L cantus",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -163,6 +167,7 @@
     "die Teilnahme"
    ],
    "page": "225-226",
+   "related": "E participation",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -198,7 +203,8 @@
     "debütieren",
     "zum ersten Mal öffentlich auftreten"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "related": "F débuter"
   },
   {
    "id": "u6-6b-015",
@@ -208,6 +214,7 @@
     "die Serie"
    ],
    "page": "225-226",
+   "related": "E series",
    "usage": "pl. le serie",
    "grammar": {
     "partOfSpeech": "noun",
@@ -226,7 +233,8 @@
     "die Oper",
     "das Werk"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "related": "E opera"
   },
   {
    "id": "u6-6b-017",
@@ -313,6 +321,7 @@
     "die Stiftung"
    ],
    "page": "225-226",
+   "related": "▸ fondare; E foundation",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -339,7 +348,8 @@
    "translations": [
     "die Spitzenklasse"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "related": "E excellence"
   },
   {
    "id": "u6-6b-026",
@@ -355,7 +365,8 @@
    "translations": [
     "zeitgenössisch"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "related": "E contemporary"
   },
   {
    "id": "u6-6b-028",
@@ -441,7 +452,8 @@
     "entwerfen",
     "planen"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "related": "▸ il progetto; E to project"
   },
   {
    "id": "u6-6b-035",
@@ -493,7 +505,8 @@
    "translations": [
     "ernennen"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "related": "L nominare"
   },
   {
    "id": "u6-6b-039",
@@ -521,7 +534,8 @@
    "translations": [
     "finanzieren"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "related": "E to finance"
   },
   {
    "id": "u6-6b-041",
@@ -548,7 +562,8 @@
    "translations": [
     "die Erfahrung"
    ],
-   "page": "225-226"
+   "page": "225-226",
+   "related": "E experience"
   },
   {
    "id": "u6-6b-043",

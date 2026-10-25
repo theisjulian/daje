@@ -35,6 +35,7 @@
     "das Gesicht"
    ],
    "page": "223-225",
+   "related": "E face",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -51,7 +52,8 @@
    "translations": [
     "der/die Designer/in"
    ],
-   "page": "223-225"
+   "page": "223-225",
+   "related": "E stylist"
   },
   {
    "id": "u6-6a-003",
@@ -59,7 +61,8 @@
    "translations": [
     "arbeitslos"
    ],
-   "page": "223-225"
+   "page": "223-225",
+   "related": "E disoccupied"
   },
   {
    "id": "u6-6a-004",
@@ -67,7 +70,8 @@
    "translations": [
     "die Miete"
    ],
-   "page": "223-225"
+   "page": "223-225",
+   "related": "▸ affittare"
   },
   {
    "id": "u6-6a-005",
@@ -92,6 +96,7 @@
     "begeistert"
    ],
    "page": "223-225",
+   "related": "E passionate",
    "usage": "agg."
   },
   {
@@ -120,6 +125,7 @@
     "die Kreativität"
    ],
    "page": "223-225",
+   "related": "▸ creativo/-a; E creativity",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -137,6 +143,7 @@
     "der Trend"
    ],
    "page": "223-225",
+   "related": "E trend",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -187,7 +194,8 @@
     "zeichnen",
     "entwerfen"
    ],
-   "page": "223-225"
+   "page": "223-225",
+   "related": "▸ il disegno; E to design; F dessiner"
   },
   {
    "id": "u6-6a-015",
@@ -240,6 +248,7 @@
     "finanziell"
    ],
    "page": "223-225",
+   "related": "E economic",
    "usage": "pl. economici, economiche"
   },
   {
@@ -279,6 +288,7 @@
     "das"
    ],
    "page": "223-225",
+   "related": "L qualis",
    "usage": "rel. pron."
   },
   {
@@ -314,6 +324,7 @@
     "der Monat"
    ],
    "page": "223-225",
+   "related": "L mensis",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -382,6 +393,7 @@
     "das Wohnheim"
    ],
    "page": "223-225",
+   "related": "E residence",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -466,6 +478,7 @@
     "glücklich"
    ],
    "page": "223-225",
+   "related": "E fortunate",
    "usage": "essere fortunato = Glück haben"
   },
   {
@@ -476,6 +489,7 @@
     "der Stau"
    ],
    "page": "223-225",
+   "related": "E traffic; F la trafic",
    "usage": "pl. i traffici",
    "grammar": {
     "partOfSpeech": "noun",
@@ -539,6 +553,7 @@
     "die Quelle"
    ],
    "page": "223-225",
+   "related": "E origin; L origo",
    "usage": "f."
   },
   {

@@ -52,6 +52,7 @@
     "die Kultur"
    ],
    "page": "209-210",
+   "related": "E culture",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -86,6 +87,7 @@
     "die Eigenheit"
    ],
    "page": "209-210",
+   "related": "E character",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -102,7 +104,8 @@
    "translations": [
     "national"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "related": "E national"
   },
   {
    "id": "u3-3b-008",
@@ -111,6 +114,7 @@
     "das Parlament"
    ],
    "page": "209-210",
+   "related": "E parliament",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -146,7 +150,8 @@
     "heute früh",
     "heute Morgen"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "related": "▸ la mattina"
   },
   {
    "id": "u3-3b-012",
@@ -156,6 +161,7 @@
     "der Besuch"
    ],
    "page": "209-210",
+   "related": "▸ visitare; E visit; F la visite",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -173,6 +179,7 @@
     "der Fragebogen"
    ],
    "page": "209-210",
+   "related": "F le questionnaire",
    "usage": "pl. i questionari",
    "grammar": {
     "partOfSpeech": "noun",
@@ -199,6 +206,7 @@
     "gefallen"
    ],
    "page": "209-210",
+   "related": "F plaire; L placere",
    "usage": "Abc"
   },
   {
@@ -208,7 +216,8 @@
     "offensichtlich",
     "natürlich"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "related": "E obviously"
   },
   {
    "id": "u3-3b-017",
@@ -226,6 +235,7 @@
     "die Speisekarte"
    ],
    "page": "209-210",
+   "related": "E menu",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -380,6 +390,7 @@
     "weit"
    ],
    "page": "209-210",
+   "related": "≠ vicino/-a",
    "usage": "≠ vicino/-a"
   },
   {
@@ -406,7 +417,8 @@
     "seltsam",
     "merkwürdig"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "related": "E strange"
   },
   {
    "id": "u3-3b-035",
@@ -442,6 +454,7 @@
     "der Unterschied"
    ],
    "page": "209-210",
+   "related": "E difference",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -475,7 +488,8 @@
    "translations": [
     "da"
    ],
-   "page": "209-210"
+   "page": "209-210",
+   "related": "= perché"
   },
   {
    "id": "u3-3b-041",

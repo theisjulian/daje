@@ -51,7 +51,8 @@
    "translations": [
     "reparieren"
    ],
-   "page": "214"
+   "page": "214",
+   "related": "E to repair"
   },
   {
    "id": "u4-4a-003",
@@ -96,6 +97,7 @@
     "das Eisen"
    ],
    "page": "214",
+   "related": "F le fer; L ferrum",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -113,7 +115,8 @@
     "das Angebot",
     "die Spende"
    ],
-   "page": "214"
+   "page": "214",
+   "related": "E offer"
   },
   {
    "id": "u4-4a-009",
@@ -147,6 +150,7 @@
     "gebraucht"
    ],
    "page": "214",
+   "related": "≠ nuovo; E used",
    "usage": "≠ nuovo"
   },
   {
@@ -156,6 +160,7 @@
     "der Job"
    ],
    "page": "214",
+   "related": "▸ il lavoro",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -241,7 +246,8 @@
    "translations": [
     "von Angesicht zu Angesicht"
    ],
-   "page": "214"
+   "page": "214",
+   "related": "E face to face"
   },
   {
    "id": "u4-4a-021",
@@ -293,6 +299,7 @@
     "leidtun"
    ],
    "page": "214",
+   "related": "≠ piacere",
    "usage": "mi dispiace = das tut mir leid"
   },
   {
@@ -310,7 +317,8 @@
    "translations": [
     "verbunden"
    ],
-   "page": "214"
+   "page": "214",
+   "related": "E connected"
   },
   {
    "id": "u4-4a-028",
@@ -318,7 +326,8 @@
    "translations": [
     "krank"
    ],
-   "page": "214"
+   "page": "214",
+   "related": "F malade"
   }
  ],
  "catalog": {
