@@ -243,6 +243,15 @@ async function step(name, fn) {
       () => typeof showTeaching === 'function' && typeof printTeaching === 'function'
     );
     assert.ok(hasTeach);
+    // Aufgabenblatt mit Abschnitten, Lösungen mit Kurzantwort-Lösung, kurzer Schlüssel als Tabelle.
+    await dp.goto(base + '?hoeren=en-voa-welcome', { waitUntil: 'networkidle' });
+    await dp.evaluate(() => { showTeaching('en-voa-welcome'); printTeaching(0); });
+    assert.ok((await dp.locator('#teaching-print .hb-phase').count()) >= 2);
+    await dp.evaluate(() => printTeaching(1));
+    assert.match(await dp.textContent('#teaching-print .hb'), /1400/);
+    await dp.evaluate(() => printTeaching(2));
+    assert.equal(await dp.locator('#teaching-print .hb-key tbody tr').count(), 13);
+    await dp.evaluate(() => document.body.classList.remove('previewing-teaching'));
   });
 
   await step('Umschalter Lernende/Lehrkräfte ändert Ansicht und bleibt gespeichert', async () => {

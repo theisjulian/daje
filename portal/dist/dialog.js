@@ -45,7 +45,10 @@ function dlgPaginate() {
   const pages = paper.parentElement;
   pages.style.zoom = 1;
   const cs = getComputedStyle(paper), padY = parseFloat(cs.paddingTop) + parseFloat(cs.paddingBottom);
-  const inner = 1122 - padY - 100; // Druckfläche A4 (267 mm = 1009 px) ist kleiner als die Bildschirmseite
+  // Druckfläche: A4 297 mm minus @page-Rand 16 + 14 mm = 267 mm = 1009 px; Breite 180 mm = 680 px entspricht
+  // genau der Bildschirmseite (794 px minus 2 × 15 mm), daher stimmen die gemessenen Zeilenhöhen. 10 px Reserve.
+  const inner = Math.floor((267 * 96) / 25.4) - 10;
+  void padY;
   const foot = paper.querySelector('.doc-foot'), thead = table.tHead;
   const footH = (foot ? foot.offsetHeight : 0) + 30;
   const topH = table.getBoundingClientRect().top - paper.getBoundingClientRect().top - parseFloat(cs.paddingTop);
@@ -107,9 +110,10 @@ printTeaching = function (solutions) {
   const x = contentList('listening').find(x => x.id === teacherLessonId);
   if (!x) return;
   hbOpt.solutions = !!solutions;
-  docCurrent = { kind: 'listening', solutions: !!solutions };
+  hbOpt.compact = solutions === 2;
+  docCurrent = { kind: 'listening', solutions };
   const side =
-    dlgBlock('Ausgabe', dlgSeg('data-hb="mode"', 'hb-mode', [[0, 'Aufgabenblatt'], [1, 'Lösungen']], solutions ? 1 : 0)) +
+    dlgBlock('Ausgabe', dlgSeg('data-hb="mode"', 'hb-mode', [[0, 'Aufgabenblatt'], [1, 'Lösungen'], [2, 'Kurzer Schlüssel']], solutions === 2 ? 2 : solutions ? 1 : 0)) +
     dlgBlock('Sprache der Anweisungen', dlgSeg('data-instr="pref"', 'instr', [['target', 'Zielsprache'], ['de', 'Deutsch']], instrPref)) +
     dlgBlock('Design', dlgDesigns()) + dlgBlock('Schrift', dlgFonts()) + dlgBlock('Farbe', dlgAccents()) +
     dlgBlock('Zusätze', `<label class="dlg-check"><input type="checkbox" data-hb-opt="link" ${hbOpt.link ? 'checked' : ''}><span>Link zum Anhören aufdrucken</span></label>${x.transcript ? `<label class="dlg-check"><input type="checkbox" data-hb-opt="transcript" ${hbOpt.transcript ? 'checked' : ''}><span>Transkript bei den Lösungen</span></label>` : ''}`);
@@ -124,6 +128,6 @@ document.addEventListener('change', e => {
     docState.font = t.value; saveDocState(); dlgStyle($('teaching-print'));
   } else if (t.matches('input[data-doc="accent"]')) {
     docState.accent = t.value; saveDocState(); dlgStyle($('teaching-print'));
-  } else if (t.matches('input[data-hb="mode"]')) printTeaching(t.value === '1');
+  } else if (t.matches('input[data-hb="mode"]')) printTeaching(Number(t.value));
   else if (t.matches('input[data-instr="pref"]')) { setInstrPref(t.value); printTeaching(docCurrent && docCurrent.solutions); }
 });

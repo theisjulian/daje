@@ -110,12 +110,19 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - **Fokus-Modus**: eine Aufgabe pro Bildschirm (Standard < 900 px), Weiter/Zurück, Abschnittsetikett aus Präfix („Prima dell’ascolto: …“), Hinweis auf offene Aufgaben.
 - **Hausaufgabe** (aufgabe.js), **Eigene Übungen** (studio.js) mit Teilen per Link ohne Server.
 - **Lernserie** (features.js `learningStreak`), Lob bei Tagesziel und „Alles richtig“.
-- **Markenzeichen**: assets/daje-icon.svg (+ PNG 180/256/512), daje-mark.svg, manifest.webmanifest (display „browser“, damit der Lernstand nicht in einen getrennten Homescreen-Speicher wandert).
+- **Icon**: das ursprüngliche Ohr-Icon bleibt (Wunsch des Auftraggebers); klein neben dem Namen in der Kopfzeile; PNG 180/512 daraus erzeugt, manifest.webmanifest (display „browser“, damit der Lernstand nicht in einen getrennten Homescreen-Speicher wandert).
 - **Darstellung**: 5 Farbwelten (daje, heft, graphit, wald, tag), 3 Schriften (Standard, Atkinson, Lora); alte Wahl wird abgebildet (app.js `RETIRED_SKINS`).
 - **Bedienung**: Wörter nachschlagen über alle Listen; Lehrkräfte-Ansicht fragt einmal nach (Lösungen sichtbar); „Eigene Übungen“ in der Navigation für Lehrkräfte; iOS-Eingabezoom verhindert.
 - **CSS**: 10 Dateien → app.css, Regeln entfernter Farbwelten/Schriften gestrichen; Pixelvergleich aller Ansichten vorher/nachher.
 - Redaktion (Lehrkräfte) bewusst nur auf Deutsch; Lernenden-Texte in IT/EN/FR übersetzt.
 - e2e: 25 Prüfungen (Fokus-Modus, Hausaufgabe, Redaktion neu).
+
+## 6d. Druck (26.10.2026)
+- Aufgabenblatt: Abschnittsüberschriften aus den Präfixen, kurze Antworten zweispaltig, Link-Kasten mit QR rechts, Seitenzahlen und „daje · theis“ im Seitenrand (@page hb, Chrome; Safari ignoriert es), Quellenangabe ohne interne Prüfvermerke.
+- Lösungen: Kurzantworten zeigen jetzt die Lösung (vorher leer).
+- Neu: „Kurzer Schlüssel“ (eine Tabellenzeile pro Aufgabe, Punkte, Summe), meist eine Seite.
+- Wortlisten: Seitenaufteilung exakt (267 mm Druckhöhe), gleiche Schriftgröße/Zeilenhöhe in Vorschau und Druck; vorher Überlauf bzw. halbleere Seiten.
+- Prüfskripte zum Nachbauen: Playwright `page.pdf()` nach `printTeaching(0|1|2)` bzw. `openVocabDoc(id)`, Klasse `printing-teaching` setzen, `emulateMedia({media:'print'})`.
 
 ## 7. Offene Punkte
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.
@@ -124,7 +131,7 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - mebis-Einbettung (`?hoeren=ID&embed=1`) in mebis selbst testen; BBC/NPR/TED-Pakete anlegen.
 - Supabase/gemeinsames theis-Login: nur Konzept (`uebergabe/08`), nichts gebaut/angelegt.
 - IPA: Feld vorhanden, keine Daten; Quelle/Prüfung klären.
-- Druck: Kästchen/Buchstaben (A–D) im iOS-PDF ggf. prüfen; Seitenkapazität im Druck (`inner = 1122 − padding − 100`) ist ein Erfahrungswert → sauberer berechnen.
+- Druck: Kästchen/Buchstaben (A–D) im iOS-PDF auf echtem Gerät prüfen (Seitenaufteilung jetzt berechnet, siehe 6d).
 - Domain `daje.theisapps.de` einrichten (CNAME in `portal/dist/CNAME` prüfen).
 - Test-/Prüf-Doku modernisieren (alte Namen ripassà in Docs).
 

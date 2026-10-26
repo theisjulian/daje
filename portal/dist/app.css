@@ -6780,11 +6780,11 @@ html[data-embed] .q {
 
 /* ---------- Markenzeichen ---------- */
 .daje-mark {
-  width: 1.05em;
-  height: 1.05em;
-  margin-right: 0.28em;
-  vertical-align: -0.12em;
-  color: var(--accent2, var(--blue));
+  width: 1.1em;
+  height: 1.1em;
+  margin-right: 0.35em;
+  vertical-align: -0.15em;
+  border-radius: 24%;
 }
 .appname a {
   display: inline-flex;
@@ -7827,3 +7827,56 @@ body.previewing-teaching #teaching-print.dlg-mode{position:fixed;inset:0;z-index
 @media (pointer: coarse) {
   input:not([type='checkbox']):not([type='radio']), select, textarea { font-size: max(16px, 1em); }
 }
+
+/* ---------- Hörblatt: Feinschliff Druck (hoerblatt.js) ---------- */
+#teaching-print .hb-box { flex-direction: row; align-items: center; gap: 14px; padding: 10px 12px; }
+#teaching-print .hb-box-t { flex: 1; min-width: 0; display: grid; gap: 2px; }
+#teaching-print .hb-qr { width: 58px; height: 58px; margin: 0; }
+#teaching-print .hb-qr svg { width: 100%; height: 100%; display: block; }
+#teaching-print .hb-phase {
+  margin: 14px 0 8px;
+  padding: 0 0 3px;
+  font-size: 9pt;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ac);
+  border-bottom: 1.5px solid var(--ac);
+  break-after: avoid;
+  page-break-after: avoid;
+}
+#teaching-print .hb-list > .hb-phase:first-child { margin-top: 4px; }
+#teaching-print .hb-opts.cols2 { display: grid; grid-template-columns: 1fr 1fr; column-gap: 18px; margin-left: 38px; }
+#teaching-print .hb-opts.cols2 .hb-o { margin-left: 0; }
+#teaching-print .hb-q { margin-bottom: 10px; padding-bottom: 8px; }
+#teaching-print .hb-sol { margin: 4px 0 0 38px; }
+#teaching-print .hb-sol b { color: var(--ac); }
+#teaching-print .hb-sol span { font-size: 9pt; color: #555; }
+#teaching-print .hb-key { width: 100%; border-collapse: collapse; margin-top: 4px; font-size: 10.5pt; }
+#teaching-print .hb-key th { text-align: left; font-size: 8.5pt; text-transform: uppercase; letter-spacing: 0.05em; color: #667; border-bottom: 1.5px solid var(--ac); padding: 4px 8px; }
+#teaching-print .hb-key td { padding: 6px 8px; border-bottom: 1px solid #e4e7ec; vertical-align: top; }
+#teaching-print .hb-key tr { break-inside: avoid; }
+#teaching-print .hb-key td:first-child, #teaching-print .hb-key th:first-child { width: 34px; font-weight: 700; color: var(--ac); }
+#teaching-print .hb-key td:last-child, #teaching-print .hb-key th:last-child { width: 56px; text-align: right; }
+#teaching-print .hb-key td b { color: #111; }
+#teaching-print .hb-key small { display: block; margin-top: 2px; font-size: 8.5pt; color: #667; }
+#teaching-print .hb-key .hb-also { font-size: 9pt; color: #555; }
+#teaching-print .hb-key tfoot td { border-bottom: 0; border-top: 1.5px solid var(--ac); font-weight: 700; }
+@media print {
+  #teaching-print .hb { page: hb; }
+  @page hb {
+    @bottom-left { content: 'daje · theis'; font-size: 8pt; color: #888; }
+    @bottom-right { content: counter(page) ' / ' counter(pages); font-size: 8pt; color: #888; }
+  }
+}
+#teaching-print .hb { line-height: 1.42; }
+#teaching-print .hb-q { margin-bottom: 8px; padding-bottom: 6px; }
+#teaching-print .hb-qh { margin-bottom: 4px; }
+#teaching-print .hb-o { margin-top: 2px; margin-bottom: 2px; }
+#teaching-print .hb-line { height: 22px; }
+#teaching-print .hb-phase { margin: 10px 0 6px; }
+#teaching-print .hb-src { font-size: 7.5pt; }
+/* Wortliste: gleiche Schriftgröße in Vorschau und Druck, sonst stimmt die Seitenaufteilung nicht. */
+#teaching-print .paper, #teaching-print .paper .doc-table { font-size: 15px; }
+#teaching-print .paper > .hb { font-size: 10.5pt; }
+#teaching-print .paper .doc-table { line-height: 1.4; }

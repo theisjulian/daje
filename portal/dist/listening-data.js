@@ -24,7 +24,7 @@ const LISTENING_SEEDS = [
       {
         kind: 'external',
         citation:
-          'VOA Learning English, Let’s Learn English Level 1, Lesson 1 Welcome, Conversation, 8. Februar 2016. Unveränderte Original-MP3, ca. 29 Sekunden. VOA nennt ausschließlich selbst produzierte Text-, Audio- und Videoinhalte Public Domain. Quellencredit: Voice of America / learningenglish.voanews.com. Aufgaben von Theis.',
+          'VOA Learning English, Let’s Learn English Level 1, Lesson 1 Welcome, Conversation, 8. Februar 2016. Unveränderte Original-MP3, ca. 29 Sekunden. VOA nennt ausschließlich selbst produzierte Text-, Audio- und Videoinhalte Public Domain. Quellencredit: Voice of America / learningenglish.voanews.com. Aufgaben von theis.',
         url: 'https://learningenglish.voanews.com/a/lets-learn-english-lesson-one/3111026.html',
         rights: 'cleared'
       }
