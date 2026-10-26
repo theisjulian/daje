@@ -2327,3 +2327,129 @@ html[data-embed] .q {
     margin: 0;
   }
 }
+
+/* ---------- Markenzeichen ---------- */
+.daje-mark {
+  width: 1.05em;
+  height: 1.05em;
+  margin-right: 0.28em;
+  vertical-align: -0.12em;
+  color: var(--accent2, var(--blue));
+}
+.appname a {
+  display: inline-flex;
+  align-items: center;
+}
+.top-brand {
+  align-items: center;
+}
+
+/* ---------- Lernserie ---------- */
+.today-side {
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+}
+.streak {
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--label-2);
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent2, var(--blue)) 12%, transparent);
+}
+.streak b {
+  color: var(--accent2, var(--blue));
+}
+
+/* ---------- Fokus-Modus: eine Aufgabe pro Bildschirm (views.js) ---------- */
+#listening-form.focus fieldset.q:not(.is-current) {
+  display: none;
+}
+#listening-form.focus:not(.at-end) .checkbar {
+  display: none;
+}
+#listening-form.focus fieldset.q.is-current {
+  animation: focus-in 0.22s ease-out;
+}
+@keyframes focus-in {
+  from {
+    opacity: 0;
+    transform: translateX(14px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #listening-form.focus fieldset.q.is-current {
+    animation: none;
+  }
+}
+.focus-nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 12px;
+  margin: 4px 0 14px;
+}
+.focus-nav .button {
+  min-height: 48px;
+}
+.focus-nav [data-focus='next'] {
+  justify-self: end;
+  min-width: 140px;
+}
+.focus-nav [data-focus='prev'] {
+  justify-self: start;
+}
+.focus-count {
+  font-size: 15px;
+  color: var(--label-2);
+}
+.focus-count b {
+  color: var(--label);
+}
+.view-switch {
+  display: inline-flex;
+  gap: 2px;
+  padding: 3px;
+  margin: 2px 0 10px;
+  border-radius: 999px;
+  background: var(--fill);
+}
+.view-switch button {
+  border: 0;
+  background: none;
+  padding: 7px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--label-2);
+  min-height: 36px;
+}
+.view-switch [aria-pressed='true'] {
+  background: var(--glass-solid);
+  color: var(--label);
+  box-shadow: var(--lift);
+}
+.qstep {
+  cursor: pointer;
+}
+.qstep.is-current {
+  background: var(--accent2, var(--blue));
+}
+.q-phase {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent2, var(--blue)) 12%, transparent);
+  color: var(--accent2, var(--blue));
+  text-transform: none;
+  letter-spacing: 0;
+}
+.focus-open {
+  display: block;
+  margin: 0 auto 6px;
+  font-size: 14px;
+  color: var(--accent2, var(--blue));
+}

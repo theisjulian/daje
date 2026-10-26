@@ -162,16 +162,16 @@ async function step(name, fn) {
     assert.deepEqual(r, ['hint', 'hint', 'correct']);
   });
 
-  await step('Alle 13 Farbwelten, Hell/Dunkel und Tageslicht ohne Fehler', async () => {
+  await step('Alle 5 Farbwelten, Hell/Dunkel und Tageslicht ohne Fehler', async () => {
     await dp.goto(base, { waitUntil: 'networkidle' });
     await dp.click('#look-open');
     const skins = await dp.$$eval('#theme-grid button', b => b.map(x => x.dataset.skin));
-    assert.equal(skins.length, 13);
+    assert.deepEqual(skins, ['daje', 'heft', 'graphit', 'wald', 'tag']);
     assert.ok(skins.includes('tag'));
     // Tageslicht bestimmt Hell/Dunkel selbst und wird deshalb getrennt geprüft.
     const fixed = skins.filter(s => s !== 'tag');
     for (const mode of ['light', 'dark']) {
-      await dp.click('#theme-grid button[data-skin="standard"]');
+      await dp.click('#theme-grid button[data-skin="daje"]');
       await dp.selectOption('#appearance', mode);
       for (const skin of fixed) {
         await dp.click('#theme-grid button[data-skin="' + skin + '"]');
@@ -366,6 +366,8 @@ async function step(name, fn) {
 
   await step('Lernende sehen keine Redaktionsvermerke und keinen Redaktionszugang', async () => {
     await pp.goto(base + '?hoeren=it-a2-ordine-al-bar', { waitUntil: 'networkidle' });
+    // Fokus-Modus: bis zur letzten Aufgabe blättern, dort erscheint „Antworten korrigieren“.
+    while (await pp.locator('[data-focus="next"]:visible').count()) await pp.click('[data-focus="next"]');
     await pp.click('#listening-form [type=submit]');
     await pp.waitForTimeout(200);
     const text = await pp.textContent('main');

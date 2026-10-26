@@ -44,29 +44,22 @@ let prefs = {
   records = read('ecco-progress-v1', {}),
   view = 'lernen',
   session = null;
+// Bewusst wenige Möglichkeiten (Oktober 2026). Frühere Auswahl wird auf die nächste passende abgebildet.
 const fontList = [
   ['standard', 'Standard'],
-  ['nunito', 'Nunito'],
-  ['lora', 'Lora'],
-  ['space', 'Space Grotesk'],
-  ['atkinson', 'Atkinson'],
-  ['jost', 'Jost']
+  ['atkinson', 'Atkinson · leicht lesbar'],
+  ['lora', 'Lora · wie im Buch']
 ];
 const themeList = [
   ['daje', 'daje', '#f6f2ea', '#c7361d'],
-  ['standard', 'Standard', '#dbe3f4', '#0071e3'],
-  ['apple', 'Apple', '#f2f2f7', '#007aff'],
-  ['neon', 'Neon', '#f6e7ff', '#d4127a'],
   ['heft', 'Heft', '#f4efe2', '#2c4a9a'],
-  ['salbei', 'Salbei', '#edf1ea', '#3b7a57'],
-  ['terrakotta', 'Terrakotta', '#f6eee4', '#b9491f'],
   ['graphit', 'Graphit', '#ffffff', '#0040d0'],
-  ['laguna', 'Laguna', '#e0f3f4', '#138a99'],
-  ['klar', 'Klar', '#f2f2f7', '#0071e3'],
-  ['glut', 'Glut', '#fff0e0', '#e45b21'],
   ['wald', 'Wald', '#e8f3e9', '#2c8851'],
   ['tag', 'Tageslicht', '#fbe6cd', '#a45c3b']
 ];
+const RETIRED_SKINS = { salbei: 'wald', laguna: 'wald', apple: 'graphit', klar: 'graphit' };
+if (!themeList.some(t => t[0] === prefs.skin)) prefs.skin = RETIRED_SKINS[prefs.skin] || 'daje';
+if (!fontList.some(f => f[0] === prefs.font)) prefs.font = 'standard';
 const modeNames = {
   cards: 'Vokabelkarten',
   write: 'Schreiben',
@@ -76,10 +69,9 @@ const modeNames = {
 };
 const chapterName = () =>
   config.chapter === '1' ? 'Unità 1' : GROUPS.find(g => g[0] === config.chapter)?.[2] || 'Unità 1';
-const nowDate = () => {
-  const d = new Date();
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-};
+const dateKey = d =>
+  `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+const nowDate = () => dateKey(new Date());
 const afterDays = n => {
   const d = new Date();
   d.setDate(d.getDate() + n);

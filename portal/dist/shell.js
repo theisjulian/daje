@@ -25,6 +25,8 @@ const ICONS = {
   quellen: '<path d="M7 4h8l4 4v12.5H7z"/><path d="M15 4v4h4"/>',
   redaktion: '<path d="M4 20l1-4.5L16.5 4a2 2 0 0 1 3 3L8 18.5z"/>'
 };
+const DAJE_MARK =
+  '<svg class="daje-mark" viewBox="96 100 352 312" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round"><circle cx="206" cy="306" r="84" stroke-width="50"/><path d="M290 118v272" stroke-width="50"/><path d="M354 236a150 150 0 0 1 0 140" stroke-width="34"/><path d="M412 196a210 210 0 0 1 0 220" stroke-width="30" stroke-opacity=".55"/></g></svg>';
 const icon = name =>
   `<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[name]}</svg>`;
 
@@ -84,7 +86,7 @@ function setupShell() {
   document.querySelector('.wordmark')?.remove();
   const appname = document.querySelector('.appname');
   appname.innerHTML =
-    '<a href="#start" data-nav="start">daje</a><small>Hören und Wortschatz</small>';
+    '<a href="#start" data-nav="start">' + DAJE_MARK + 'daje</a><small>Hören und Wortschatz</small>';
   document.querySelector('.nav-list').innerHTML =
     PRIMARY_NAV.map(navButton).join('') +
     '<hr class="nav-sep">' +
@@ -104,7 +106,8 @@ function setupShell() {
   brand.className = 'top-brand';
   brand.href = '#start';
   brand.dataset.nav = 'start';
-  brand.textContent = 'daje';
+  brand.innerHTML = DAJE_MARK + 'daje';
+  brand.setAttribute('aria-label', 'daje · Start');
   const sw = document.createElement('div');
   sw.className = 'audience-switch';
   sw.setAttribute('role', 'group');

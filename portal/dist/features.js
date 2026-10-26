@@ -169,9 +169,48 @@ function addActivity(w, good, method) {
   h.attempts++;
   if (good) h.correct++;
   h[method === 'self' ? 'self' : 'checked']++;
+  const before = h.ids.length;
   if (!h.ids.includes(w.id)) h.ids.push(w.id);
   p.history[date] = h;
   persistProfiles();
+  const goal = p.goal || 10;
+  if (before < goal && h.ids.length >= goal) {
+    const st = learningStreak();
+    setTimeout(
+      () =>
+        toast(
+          'Tagesziel erreicht. Bravo!' +
+            (st.n > 1 ? ' ' + st.n + ' Tage in Folge.' : '')
+        ),
+      400
+    );
+  }
+}
+
+/* Lernserie: Tage in Folge mit Wortschatzübung oder geprüfter Hörübung. Solange heute noch nicht
+   geübt wurde, zählt die Serie bis gestern (sie reißt erst, wenn ein ganzer Tag fehlt). */
+function activeDays() {
+  const days = new Set(
+    Object.entries(activeProfile().history)
+      .filter(([, h]) => h.attempts > 0)
+      .map(([d]) => d)
+  );
+  Object.values(portalProfile().listening || {}).forEach(s => {
+    if (s.lastResult?.at) days.add(dateKey(new Date(s.lastResult.at)));
+  });
+  return days;
+}
+function learningStreak() {
+  const days = activeDays();
+  const d = new Date();
+  const today = days.has(dateKey(d));
+  if (!today) d.setDate(d.getDate() - 1);
+  let n = 0;
+  while (days.has(dateKey(d))) {
+    n++;
+    d.setDate(d.getDate() - 1);
+  }
+  return { n, today };
 }
 function exportProgress() {
   const p = activeProfile(),
@@ -331,7 +370,7 @@ function progressV2() {
     }),
     max = Math.max(1, ...days.map(d => d.count));
   $('main').innerHTML =
-    `<div class="page-title"><div class="eyebrow">DEIN LERNPROFIL · NUR AUF DIESEM GERÄT</div><h1>Deine Schritte werden sichtbar.</h1><p>${esc(p.name)} · Du siehst, was du geübt hast und was als Nächstes dran ist.</p></div><div class="progress-layout"><section class="today-panel glass"><div class="eyebrow">HEUTE</div><div class="today-count">${today.ids.length}<span> / ${goal}</span></div><h2>verschiedene Wörter geübt</h2><div class="progress-track" role="progressbar" aria-label="Heutiges Wortziel" aria-valuemin="0" aria-valuemax="${goal}" aria-valuenow="${Math.min(today.ids.length, goal)}"><div class="progress-fill" style="width:${percent}%"></div></div><p class="small muted">${today.ids.length >= goal ? 'Dein selbst gewähltes Tagesziel ist erreicht.' : 'Ein kleines Ziel, das zu deinem Tag passt.'}</p><label class="goal-picker">Mein Tagesziel<select id="daily-goal">${[5, 10, 20].map(n => `<option value="${n}" ${goal === n ? 'selected' : ''}>${n} Wörter</option>`).join('')}</select></label><button class="button primary" data-nav="lernen">Eine Runde üben</button></section><section class="week-panel glass"><h2>Deine letzten sieben Tage</h2><p class="small muted">Bearbeitete Karten und Eingaben, auch Wiederholungen.</p><div class="week-bars" aria-label="Übungsaktivität der letzten sieben Tage">${days.map(day => `<div class="day-bar"><b>${day.count}</b><div class="bar-space"><span style="height:${(day.count / max) * 100}%"></span></div><small>${day.label}</small></div>`).join('')}</div></section></div><div class="stat-grid"><div class="stat-box glass"><b>${items.length}</b><span>verschiedene Einträge geübt</span></div><div class="stat-box glass"><b>${items.filter(r => r.step >= 3).length}</b><span>Wiederholungsstufe 3 oder 4</span></div><div class="stat-box glass"><b>${due.length}</b><span>jetzt zur Wiederholung</span></div></div><section class="panel glass"><h2>Was ist als Nächstes dran?</h2><div class="session-actions" style="justify-content:flex-start"><button class="button primary" data-action="due" ${due.length ? '' : 'disabled'}>${due.length} fällige Wörter</button><button class="button secondary" data-action="difficult" ${hard.length ? '' : 'disabled'}>${hard.length} schwierige Wörter</button></div>${Object.keys(p.history).length === 0 && items.length ? '<p class="small muted">Deine bisherigen Einträge wurden übernommen. Der Tagesverlauf wird ab jetzt aufgezeichnet.</p>' : ''}<p class="small muted">Karten werden selbst eingeschätzt, Schreibantworten automatisch verglichen. Die Stufen zeigen erfolgreiche Wiederholungen an verschiedenen Tagen; sie sind keine Leistungsnote. Die einfache Terminregel ist keine wissenschaftliche Messung deiner Gedächtnisleistung.</p></section>${chapterProgressHTML()}${portalProgressSummary()}<section class="backup-panel glass"><div><div class="eyebrow">DEIN FORTSCHRITT GEHÖRT DIR</div><h2>Mitnehmen statt neu anfangen.</h2><p>Exportiere dein Profil und importiere die Datei auf einem anderen Gerät. Auch vor dem Wechsel von dieser Vorschau zur GitHub-Adresse sichern: Jede Webadresse hat ihren eigenen Browserspeicher.</p></div><div class="backup-actions"><button class="button primary" data-extra="export">Lernstand sichern</button><button class="button secondary" data-extra="import">Datei importieren</button><button class="quiet small" data-extra="profiles">Profile verwalten</button><button class="quiet small" data-action="reset-progress">Dieses Profil zurücksetzen</button></div></section>`;
+    `<div class="page-title"><div class="eyebrow">DEIN LERNPROFIL · NUR AUF DIESEM GERÄT</div><h1>Deine Schritte werden sichtbar.</h1><p>${esc(p.name)} · Du siehst, was du geübt hast und was als Nächstes dran ist.</p></div><div class="progress-layout"><section class="today-panel glass"><div class="eyebrow">HEUTE</div><div class="today-count">${today.ids.length}<span> / ${goal}</span></div><h2>verschiedene Wörter geübt</h2><div class="progress-track" role="progressbar" aria-label="Heutiges Wortziel" aria-valuemin="0" aria-valuemax="${goal}" aria-valuenow="${Math.min(today.ids.length, goal)}"><div class="progress-fill" style="width:${percent}%"></div></div><p class="small muted">${today.ids.length >= goal ? 'Dein selbst gewähltes Tagesziel ist erreicht.' : 'Ein kleines Ziel, das zu deinem Tag passt.'}</p><label class="goal-picker">Mein Tagesziel<select id="daily-goal">${[5, 10, 20].map(n => `<option value="${n}" ${goal === n ? 'selected' : ''}>${n} Wörter</option>`).join('')}</select></label><button class="button primary" data-nav="lernen">Eine Runde üben</button></section><section class="week-panel glass"><h2>Deine letzten sieben Tage</h2><p class="small muted">Bearbeitete Karten und Eingaben, auch Wiederholungen.</p><div class="week-bars" aria-label="Übungsaktivität der letzten sieben Tage">${days.map(day => `<div class="day-bar"><b>${day.count}</b><div class="bar-space"><span style="height:${(day.count / max) * 100}%"></span></div><small>${day.label}</small></div>`).join('')}</div></section></div><div class="stat-grid"><div class="stat-box glass"><b>${learningStreak().n}</b><span>Tage in Folge geübt</span></div><div class="stat-box glass"><b>${items.length}</b><span>verschiedene Einträge geübt</span></div><div class="stat-box glass"><b>${due.length}</b><span>jetzt zur Wiederholung</span></div></div><section class="panel glass"><h2>Was ist als Nächstes dran?</h2><div class="session-actions" style="justify-content:flex-start"><button class="button primary" data-action="due" ${due.length ? '' : 'disabled'}>${due.length} fällige Wörter</button><button class="button secondary" data-action="difficult" ${hard.length ? '' : 'disabled'}>${hard.length} schwierige Wörter</button></div>${Object.keys(p.history).length === 0 && items.length ? '<p class="small muted">Deine bisherigen Einträge wurden übernommen. Der Tagesverlauf wird ab jetzt aufgezeichnet.</p>' : ''}<p class="small muted">Karten werden selbst eingeschätzt, Schreibantworten automatisch verglichen. Die Stufen zeigen erfolgreiche Wiederholungen an verschiedenen Tagen; sie sind keine Leistungsnote. Die einfache Terminregel ist keine wissenschaftliche Messung deiner Gedächtnisleistung.</p></section>${chapterProgressHTML()}${portalProgressSummary()}<section class="backup-panel glass"><div><div class="eyebrow">DEIN FORTSCHRITT GEHÖRT DIR</div><h2>Mitnehmen statt neu anfangen.</h2><p>Dein Lernstand liegt nur in diesem Browser. Sichere ihn als Datei und importiere ihn auf einem anderen Gerät.</p></div><div class="backup-actions"><button class="button primary" data-extra="export">Lernstand sichern</button><button class="button secondary" data-extra="import">Datei importieren</button><button class="quiet small" data-extra="profiles">Profile verwalten</button><button class="quiet small" data-action="reset-progress">Dieses Profil zurücksetzen</button></div></section>`;
 }
 function tipVisual(t) {
   switch (t.visual) {

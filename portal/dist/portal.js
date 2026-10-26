@@ -256,11 +256,14 @@ function checkListening() {
     assisted: !!s.usedTranscript
   };
   s.attempts = (s.attempts || 0) + 1;
+  focusIndex = 0; // im Fokus-Modus die Rückmeldung von vorn durchgehen
   const ok = persistPortal();
   renderListening();
   toast(
     ok
-      ? `${correct} von ${x.questions.length} richtig. Ergebnis gespeichert.`
+      ? correct === x.questions.length
+        ? 'Alles richtig. Bravo!'
+        : `${correct} von ${x.questions.length} richtig. Ergebnis gespeichert.`
       : 'Speichern fehlgeschlagen. Sichere dein Profil.'
   );
 }

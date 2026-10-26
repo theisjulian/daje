@@ -184,6 +184,7 @@ function learnerHome(list, p) {
   const goal = activeProfile().goal || 10;
   const doneToday = day?.ids.length || 0;
   const percent = Math.min(100, Math.round((100 * doneToday) / goal));
+  const streak = learningStreak();
   const suggestion = resume || nextLessons(list, 1)[0];
   const fresh = !p.history.length && !Object.keys(records).length;
   const checked = Object.values(p.listening).filter(s => s.lastResult).length;
@@ -195,7 +196,10 @@ function learnerHome(list, p) {
         <h1>${fresh ? 'Hören, verstehen,<br><em>behalten.</em>' : 'Weiter geht’s.'}</h1>
         <p>${fresh ? 'Kurze Hörübungen mit Rückmeldung und der passende Wortschatz dazu, in deinem Tempo.' : `<span>${doneToday} von ${goal} Wörtern heute geübt.</span>${due ? ` <span>${plural(due, 'Wort wartet', 'Wörter warten')} auf ein Wiedersehen.</span>` : ''}`}</p>
       </div>
-      <button class="today-ring" data-nav="fortschritt" style="--p:${percent}" aria-label="Tagesziel: ${doneToday} von ${goal} Wörtern"><b>${doneToday}</b><small>von ${goal}</small></button>
+      <div class="today-side">
+        <button class="today-ring" data-nav="fortschritt" style="--p:${percent}" aria-label="Tagesziel: ${doneToday} von ${goal} Wörtern"><b>${doneToday}</b><small>von ${goal}</small></button>
+        ${streak.n ? `<span class="streak" title="Lernserie"><b>${streak.n}</b> ${streak.n === 1 ? 'Tag' : 'Tage'} in Folge</span>` : ''}
+      </div>
     </section>
     ${
       suggestion
@@ -536,10 +540,90 @@ function questionHTML(x, q, index, state) {
   const feedback = state.checked
     ? `<div class="listen-feedback ${correct ? 'correct' : 'wrong'}"><b>${correct ? 'Richtig erkannt' : value ? 'Noch nicht erkannt' : 'Noch keine Antwort'}</b>${correct ? '' : `<div>Lösung: ${esc(solutionText(q))}</div>`}<p>${timeLinks(esc(visibleText(q.explanation)))}</p>${q.type === 'short_answer' && !correct ? '<small>Andere passende Formulierungen sind möglich. Vergleiche selbst mit der Musterlösung.</small>' : ''}</div>`
     : '';
-  return `<fieldset class="q" id="q-${esc(q.id)}"><legend class="sr-only">Frage ${index + 1}: ${esc(q.prompt)}</legend>
-    <div class="q-head" aria-hidden="true"><span class="q-num">${index + 1}</span><div><div class="q-type">${LISTENING_FORMAT_LABELS[q.type]}</div><div class="q-prompt">${esc(q.prompt)}</div></div></div>
+  const phase = q.prompt.match(QUESTION_PHASE);
+  const prompt = phase ? q.prompt.slice(phase[0].length) : q.prompt;
+  return `<fieldset class="q${index === focusIndex ? ' is-current' : ''}" id="q-${esc(q.id)}" data-index="${index}"><legend class="sr-only">Frage ${index + 1}: ${esc(q.prompt)}</legend>
+    <div class="q-head" aria-hidden="true"><span class="q-num">${index + 1}</span><div><div class="q-type">${phase ? `<span class="q-phase">${esc(phase[1])}</span>` : ''}${LISTENING_FORMAT_LABELS[q.type]}</div><div class="q-prompt">${esc(prompt)}</div></div></div>
     <div class="q-options">${field}</div>${key}${feedback}</fieldset>`;
 }
+
+/* Abschnitt am Anfang einer Aufgabe („Prima dell’ascolto: …“) wird als Etikett gezeigt. */
+const QUESTION_PHASE =
+  /^(Prima dell’ascolto|Prima del film|Primo ascolto|Secondo ascolto|Durante l’ascolto|Dopo l’ascolto|Dopo il film|Lessico e lingua|Before listening|While listening|After listening|Language|Vor dem Hören|Beim Hören|Nach dem Hören|Wortschatz vorab|Wortschatz)\s*:\s*/;
+
+/* Fokus-Modus: eine Aufgabe pro Bildschirm (Standard am Handy und iPad hochkant). */
+let focusIndex = 0,
+  focusLesson = null;
+function focusMode() {
+  try {
+    const v = localStorage.getItem('daje-fokus-v1');
+    if (v) return v === '1';
+  } catch {}
+  return matchMedia('(max-width: 899px)').matches;
+}
+function setFocusMode(on) {
+  try {
+    localStorage.setItem('daje-fokus-v1', on ? '1' : '0');
+  } catch {}
+}
+function focusNavHTML(x) {
+  const n = x.questions.length;
+  const answers = lessonProgress().answers;
+  const open = x.questions.findIndex(q => !String(answers[q.id] ?? '').trim());
+  const openCount = x.questions.filter(q => !String(answers[q.id] ?? '').trim()).length;
+  const hint =
+    focusIndex === n - 1 && open >= 0 && open !== focusIndex
+      ? `<button type="button" class="quiet focus-open" data-focus-go="${open}">${plural(openCount, 'Aufgabe', 'Aufgaben')} noch offen · zur ersten</button>`
+      : '';
+  return `${hint}<div class="focus-nav"><button type="button" class="button secondary" data-focus="prev" ${focusIndex === 0 ? 'disabled' : ''}>Zurück</button><span class="focus-count"><b>${focusIndex + 1}</b> / ${n}</span><button type="button" class="button primary" data-focus="next" ${focusIndex >= n - 1 ? 'hidden' : ''}>Weiter</button></div>`;
+}
+function refreshFocusNav(x) {
+  const nav = document.querySelector('.focus-nav');
+  if (!nav) return;
+  document.querySelector('.focus-open')?.remove();
+  nav.outerHTML = focusNavHTML(x);
+}
+function showFocus(i) {
+  const x = currentLesson();
+  if (!x) return;
+  focusIndex = Math.max(0, Math.min(x.questions.length - 1, i));
+  document.querySelectorAll('#listening-form fieldset.q').forEach(f =>
+    f.classList.toggle('is-current', Number(f.dataset.index) === focusIndex)
+  );
+  refreshFocusNav(x);
+  const form = $('listening-form');
+  form?.classList.toggle('at-end', focusIndex === x.questions.length - 1);
+  document.querySelectorAll('.qstep').forEach((a, k) => a.classList.toggle('is-current', k === focusIndex));
+  const head = document.querySelector('.tasks-head');
+  if (head && head.getBoundingClientRect().top < 0) head.scrollIntoView({ block: 'start' });
+  form?.querySelector('fieldset.is-current input:not([type=radio]):not([type=checkbox]), fieldset.is-current select')?.focus({ preventScroll: true });
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-focus]');
+  if (b) {
+    const a = b.dataset.focus;
+    if (a === 'prev') return showFocus(focusIndex - 1);
+    if (a === 'next') return showFocus(focusIndex + 1);
+    setFocusMode(a === 'on');
+    return renderListening();
+  }
+  const go = e.target.closest('[data-focus-go]');
+  if (go) return showFocus(Number(go.dataset.focusGo));
+  const step = e.target.closest('.qstep');
+  if (step && $('listening-form')?.classList.contains('focus')) {
+    e.preventDefault();
+    showFocus([...document.querySelectorAll('.qstep')].indexOf(step));
+  }
+});
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Enter' || !e.target.closest?.('#listening-form.focus fieldset.is-current')) return;
+  if (e.target.tagName !== 'INPUT' || e.target.type === 'radio' || e.target.type === 'checkbox') return;
+  const x = currentLesson();
+  if (x && focusIndex < x.questions.length - 1) {
+    e.preventDefault();
+    showFocus(focusIndex + 1);
+  }
+});
 
 function resultBanner(x, state) {
   if (!state.checked || !state.lastResult) return '';
@@ -551,7 +635,7 @@ function stepsHTML(x, state) {
   return x.questions
     .map(
       (q, i) =>
-        `<a class="qstep ${String(state.answers[q.id] ?? '').trim() ? 'is-done' : ''}" href="#q-${esc(q.id)}" aria-label="Frage ${i + 1}"></a>`
+        `<a class="qstep ${String(state.answers[q.id] ?? '').trim() ? 'is-done' : ''}${i === focusIndex ? ' is-current' : ''}" href="#q-${esc(q.id)}" aria-label="Frage ${i + 1}"></a>`
     )
     .join('');
 }
@@ -613,6 +697,12 @@ function renderListening(preview = false) {
   const count = x.questions.filter(q => String(state.answers[q.id] ?? '').trim()).length;
   $('breadcrumb').textContent = 'Hörverstehen · ' + x.title;
   const working = teacher && isWorkingLesson(x);
+  const focus = !teacher && focusMode() && x.questions.length > 1;
+  if (focusLesson !== x.id) {
+    focusLesson = x.id;
+    focusIndex = 0;
+  }
+  focusIndex = Math.min(focusIndex, x.questions.length - 1);
   $('main').innerHTML = `<div class="page lesson-page">
     ${EMBED ? '' : '<button class="quiet back-link" data-nav="hoeren">Alle Hörübungen</button>'}
     ${working ? `<div class="draftbar"><b>Arbeitsfassung</b><span>Aufgaben, Transkript und Nutzungsrechte sind noch nicht abschließend geprüft.${!x.transcript && !x.series ? ' Das Transkript fehlt noch.' : ''}</span>${teacher ? '<button class="quiet" data-nav="redaktion">In der Redaktion öffnen</button>' : ''}</div>` : ''}
@@ -640,10 +730,12 @@ function renderListening(preview = false) {
         }
         ${teacher && !preview ? teacherNotesHTML(x) : ''}
         <div class="tasks-head"><h2>${teacher ? 'Aufgaben' : 'Was hast du verstanden?'}</h2><span id="listen-answer-count">${count} / ${x.questions.length} beantwortet</span></div>
+        ${!teacher && x.questions.length > 1 ? `<div class="view-switch" role="group" aria-label="Darstellung der Aufgaben"><button type="button" data-focus="on" aria-pressed="${focus}">Eine nach der anderen</button><button type="button" data-focus="off" aria-pressed="${!focus}">Alle auf einmal</button></div>` : ''}
         <div class="qsteps" id="qsteps" aria-hidden="true">${stepsHTML(x, state)}</div>
         ${resultBanner(x, state)}
-        <form id="listening-form" novalidate>
+        <form id="listening-form" class="${focus ? 'focus' : ''}${focus && focusIndex === x.questions.length - 1 ? ' at-end' : ''}" novalidate>
           ${x.questions.map((q, i) => questionHTML(x, q, i, state)).join('')}
+          ${focus ? focusNavHTML(x) : ''}
           <div class="checkbar"><span id="check-hint">${state.checked ? 'Du kannst Antworten ändern und erneut prüfen.' : 'Lösungen erscheinen nach der Korrektur.'}</span><button class="button primary large" type="submit">${state.checked ? 'Erneut prüfen' : 'Antworten korrigieren'}</button></div>
         </form>
         ${followHTML(x)}
@@ -680,6 +772,7 @@ function updateListeningProgress() {
   $('listen-answer-count').textContent = count + ' / ' + x.questions.length + ' beantwortet';
   const steps = $('qsteps');
   if (steps) steps.innerHTML = stepsHTML(x, state);
+  refreshFocusNav(x);
   document.querySelectorAll('.listen-feedback,.result-banner').forEach(el => el.remove());
   document
     .querySelectorAll('.is-correct,.is-wrong')
