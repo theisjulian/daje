@@ -7880,3 +7880,19 @@ body.previewing-teaching #teaching-print.dlg-mode{position:fixed;inset:0;z-index
 #teaching-print .paper, #teaching-print .paper .doc-table { font-size: 15px; }
 #teaching-print .paper > .hb { font-size: 10.5pt; }
 #teaching-print .paper .doc-table { line-height: 1.4; }
+
+/* ---------- Redaktion: Schnellweg mit KI (studio.js) ---------- */
+.ed-ki { display: grid; gap: 14px; padding: 16px; border-radius: var(--sk-r, var(--r-lg)); border: 2px solid var(--accent2, var(--blue)); background: var(--glass-solid); }
+.ki-step { display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 12px; }
+.ki-step h3 { margin: 4px 0 8px; }
+.ki-n { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--accent2, var(--blue)); color: #fff; font-weight: 700; }
+.ed-ki .field { display: grid; gap: 4px; margin: 0 0 10px; }
+.ed-ki .field input, .ed-ki .field select, .ed-ki .field textarea, .ki-fallback { width: 100%; box-sizing: border-box; min-height: 44px; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--hairline); background: var(--canvas); color: var(--label); font: inherit; font-size: 16px; }
+.ki-range { display: flex; gap: 8px; }
+.ki-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.ki-help { margin: -4px 0 10px; font-size: 14px; color: var(--label-2); }
+.ki-help summary { cursor: pointer; }
+.ed-evidence { margin: 2px 0 10px; padding: 8px 10px; border-radius: 10px; font-size: 14px; background: var(--fill); }
+.ed-evidence.ok, .ed-evidence.fast { background: color-mix(in srgb, var(--green) 12%, transparent); }
+.ed-evidence.fehlt { background: color-mix(in srgb, var(--orange) 18%, transparent); }
+.ed-q small.muted { display: block; margin-top: 4px; }

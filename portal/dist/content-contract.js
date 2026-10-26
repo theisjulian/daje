@@ -217,6 +217,8 @@
             fail(path + '.evidenceAt', 'ganze Sekunden erwartet');
           else z.evidenceAt = q.evidenceAt;
         }
+        // Belegzitat: wörtliche Stelle aus dem Transkript, an der die Lösung steht (für die Redaktion).
+        if (q.evidence !== undefined && q.evidence !== '') z.evidence = str(q.evidence, path + '.evidence', 500);
         if (seen.has(z.id)) fail(path + '.id', 'doppelte Frage-ID');
         seen.add(z.id);
         const options = (min, max) => {

@@ -1,0 +1,22 @@
+Ecco il pacchetto richiesto:
+
+```json
+{
+  "title": "Al bar la mattina",
+  "description": "Un cliente ordina la colazione al bar.",
+  "level": "A2",
+  "topics": ["bar", "colazione"],
+  "questions": [
+    {"id":"q1","type":"single_choice","prompt":"Prima dell’ascolto: Dove si beve di solito un caffè in Italia?","options":[{"id":"a","text":"Al bar"},{"id":"b","text":"In banca"},{"id":"c","text":"In posta"}],"correctOptionId":"a","explanation":"In Italien trinkt man Kaffee meist an der Bar."},
+    {"id":"q2","type":"short_answer","prompt":"Durante l’ascolto: Che cosa ordina il cliente da mangiare?","acceptedAnswers":["un cornetto","cornetto","una brioche"],"modelAnswer":"un cornetto","evidence":"Vorrei un cappuccino e un cornetto, per favore","explanation":"Der Kunde bestellt einen Cornetto."},
+    {"id":"q3","type":"true_false","prompt":"Durante l’ascolto: Il cliente paga con la carta.","answer":false,"evidence":"Pago in contanti, ecco cinque euro","explanation":"Er zahlt bar."},
+    {"id":"q4","type":"gap_fill","prompt":"Lessico: Completa.","text":"Il cliente paga [[g1]] euro.","gaps":[{"id":"g1","acceptedAnswers":["cinque","5"]}],"evidence":"ecco cinque euro","explanation":"Fünf Euro."},
+    {"id":"q5","type":"single_choice","prompt":"Durante l’ascolto: Quanto costa tutto?","options":[{"id":"a","text":"3 euro"},{"id":"b","text":"2,50 euro"},{"id":"c","text":"4 euro"}],"correctOptionId":"b","evidence":"Fanno due euro e ottanta","explanation":"Steht so nicht im Text."},
+  ],
+  "vocabulary": [{"target":"il cornetto","translations":["das Hörnchen"],"example":"Mangio un cornetto."}],
+  "teacherNotes": {"warmup":["Was bestellt ihr im Café?"]},
+  "reviewNotes": [],
+}
+```
+
+Fammi sapere se servono modifiche.

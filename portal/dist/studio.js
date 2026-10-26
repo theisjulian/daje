@@ -12,7 +12,8 @@ const ED_TYPES = [
 ];
 const ED_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 let edWork = null, // Arbeitskopie des gewählten Inhalts (Paketform)
-  edTimer = null;
+  edTimer = null,
+  kiOpen = false;
 
 function downloadJSON(data, name) {
   const u = URL.createObjectURL(
@@ -301,18 +302,11 @@ function renderStudio() {
   $('main').innerHTML = `<div class="page studio">
     <header class="page-head"><div class="eyebrow">Redaktion</div><h1>Eigene Übungen</h1><p>Erstelle Hörübungen und Wortlisten für deine Klasse. Alles bleibt in diesem Browser, bis du es als Link teilst.</p></header>
     <div class="ed-new">
-      <button class="button primary" data-ed-new="listening">Neue Hörübung</button>
+      <button class="button primary" data-ki-open aria-expanded="${kiOpen}">Hörübung mit KI erstellen</button>
+      <button class="button secondary" data-ed-new="listening">Leere Hörübung</button>
       <button class="button secondary" data-ed-new="vocabulary">Neue Wortliste</button>
-      <button class="button secondary" data-portal="studio-load">Datei importieren</button>
-      <input id="studio-file" type="file" accept=".json,application/json" hidden>
     </div>
-    <details class="ed-ai" ${lastValidation ? 'open' : ''}><summary>Mit KI erstellen oder JSON einfügen</summary>
-      <p class="small muted">Gib einer KI dein Material, die Kommandodatei und ein Beispiel. Die erzeugte Datei hier einfügen oder importieren. Danach wie jede eigene Übung prüfen und bearbeiten.</p>
-      <div class="studio-downloads"><a class="button secondary" href="imports/KI-Kommandodatei.md" download>KI-Kommandodatei</a><a class="button secondary" href="imports/Vokabel-Kommandodatei-Schulbuch.md" download>Kommandodatei Wortschatz</a><a class="button secondary" href="examples/listening-all-task-types.json" download>Beispiel Hörübung</a><a class="button secondary" href="examples/vocabulary-example.json" download>Beispiel Wortliste</a></div>
-      <label class="field">JSON einfügen<textarea id="studio-json" rows="6" maxlength="2000000" spellcheck="false" placeholder="{ ... }">${esc(lastValidation?.raw || '')}</textarea></label>
-      <button class="button secondary" data-portal="studio-validate">Prüfen</button>
-      <div id="studio-validation" role="status">${validationHTML()}</div>
-    </details>
+    ${kiOpen ? kiPanelHTML() : ''}
     <div class="ed-layout">
       <nav class="ed-list" aria-label="Eigene Inhalte">
         ${own.map(card).join('') || '<p class="hw-empty">Noch keine eigenen Übungen. Lege oben eine an oder öffne eine Hörübung im Katalog und wähle „Als eigene Übung bearbeiten“.</p>'}
@@ -435,8 +429,23 @@ function edQuestionHTML(q, i, n) {
   return `<div class="ed-q"><div class="ed-qhead"><b>${i + 1}</b>${editable ? `<select data-ed-q="${i}" data-k="type">${ED_TYPES.map(([t, l]) => `<option value="${t}" ${t === q.type ? 'selected' : ''}>${l}</option>`).join('')}</select>` : ''}${tools}</div>
     ${edField(q.type === 'true_false' ? 'Aussage' : 'Frage', `<input data-ed-q="${i}" data-k="prompt" maxlength="1000" value="${esc(q.prompt)}">`)}
     ${body}
+    ${q.evidence ? edEvidenceHTML(q) : ''}
     ${editable ? edField('Erklärung nach der Korrektur (optional)', `<input data-ed-q="${i}" data-k="explanation" maxlength="1500" value="${esc(q.explanation || '')}">`) : ''}
   </div>`;
+}
+/* Belegzitat der KI: grün, wenn es im Transkript steht; sonst zur Prüfung markiert. */
+function edEvidenceHTML(q) {
+  const st = edWork?.transcript
+    ? DajeKI.evidenceStatus(q.evidence, edWork.transcript)
+    : 'ohne-transkript';
+  const label =
+    {
+      ok: 'Beleg im Transkript gefunden',
+      fast: 'Beleg fast wörtlich gefunden',
+      fehlt: 'Beleg nicht im Transkript gefunden, bitte prüfen',
+      'ohne-transkript': 'Beleg (kein Transkript gespeichert)'
+    }[st] || 'Beleg';
+  return `<p class="ed-evidence ${st}"><b>${label}:</b> „${esc(q.evidence)}“</p>`;
 }
 function validationHTML() {
   if (!lastValidation) return '';
@@ -460,10 +469,13 @@ async function importContentFile(file) {
   if (!file) return;
   if (file.size > 2 * 1024 * 1024) return toast('Höchstens 2 MB pro Datei.');
   edValidateText(await file.text());
-  const details = document.querySelector('.ed-ai');
+  kiOpen = true;
+  renderStudio();
+  const details = document.querySelector('.ki-advanced');
   if (details) details.open = true;
 }
 function edValidateText(text) {
+  kiOpen = true;
   try {
     lastValidation = { raw: text, result: TheisContent.validatePackage(JSON.parse(text)) };
   } catch {
@@ -702,3 +714,182 @@ function edPreviewWords(p) {
   d.innerHTML = `<div class="dialog-head"><h2>${esc(p.title)}</h2><button class="button secondary" data-close="ed-preview-dialog">Schließen</button></div>${p.entries.map(w => `<p><b>${esc(w.target)}</b> · ${esc(w.translations.join(' / '))}${w.example ? `<br><small class="muted">${esc(w.example)}</small>` : ''}</p>`).join('')}`;
   d.showModal();
 }
+
+/* ---------- Schnellweg: Hörübung mit KI (Chat ohne API-Schlüssel) ----------
+   1 Medium + Transkript eintragen → 2 Auftrag kopieren und im Chat (Gemini, ChatGPT, Claude) einfügen →
+   3 Antwort hier einfügen → daje ergänzt Technik, prüft Belege und legt die Übung an.
+   Die Eingaben bleiben gespeichert, auch wenn das iPad beim Wechsel in die Chat-App die Seite neu lädt. */
+const KI_KEY = 'daje-ki-entwurf-v1';
+const KI_DEFAULT = {
+  url: '',
+  language: 'it',
+  level: 'A2',
+  kind: 'video',
+  count: '12',
+  start: '',
+  end: '',
+  transcript: '',
+  wishes: '',
+  answer: '',
+  showTranscript: true
+};
+let kiForm = null; // erst bei Bedarf laden (read/save stehen in app.js, das später geladen wird)
+const kiState = () => (kiForm ??= Object.assign({}, KI_DEFAULT, read(KI_KEY, {})));
+const KI_CHATS = [
+  ['Gemini', 'https://gemini.google.com/app'],
+  ['ChatGPT', 'https://chatgpt.com/'],
+  ['Claude', 'https://claude.ai/new']
+];
+function kiPanelHTML() {
+  const f = kiState();
+  const langs = Object.entries(TheisContent.LANGUAGES);
+  const sel = (k, list) =>
+    `<select data-ki="${k}">${list.map(([v, t]) => `<option value="${esc(v)}" ${String(f[k]) === String(v) ? 'selected' : ''}>${esc(t)}</option>`).join('')}</select>`;
+  return `<section class="ed-ki" aria-label="Hörübung mit KI erstellen">
+    <div class="ki-step"><span class="ki-n">1</span><div>
+      <h3>Medium und Transkript</h3>
+      <div class="ed-grid">
+        <label class="field">YouTube-Link oder Audio-Adresse<input data-ki="url" inputmode="url" value="${esc(f.url)}" placeholder="https://www.youtube.com/watch?v=…"></label>
+        <label class="field">Sprache${sel('language', langs)}</label>
+        <label class="field">Niveau${sel(
+          'level',
+          ED_LEVELS.map(l => [l, l])
+        )}</label>
+        <label class="field">Art${sel('kind', [
+          ['video', 'Video / Beitrag'],
+          ['audio', 'Audio'],
+          ['lied', 'Lied'],
+          ['film', 'Filmszene']
+        ])}</label>
+        <label class="field">Aufgaben${sel('count', [
+          ['8', 'kurz · etwa 8'],
+          ['12', 'normal · etwa 12'],
+          ['16', 'ausführlich · etwa 16']
+        ])}</label>
+        <label class="field">Ausschnitt (optional)<span class="ki-range"><input data-ki="start" inputmode="numeric" value="${esc(f.start)}" placeholder="von 0:00"><input data-ki="end" inputmode="numeric" value="${esc(f.end)}" placeholder="bis 2:30"></span></label>
+      </div>
+      <label class="field">Transkript<textarea data-ki="transcript" rows="7" placeholder="Transkript hier einfügen …">${esc(f.transcript)}</textarea></label>
+      <details class="ki-help"><summary>So kopierst du das Transkript bei YouTube</summary><p>Unter dem Video auf „… mehr“ tippen, dann „Transkript anzeigen“. Im Transkript-Fenster den Text markieren und kopieren (am Computer: hineinklicken, Strg/⌘ + A, Strg/⌘ + C). Zeitmarken dürfen mitkopiert werden. Ohne Transkript kann nur Gemini das Video selbst anhören, das ist aber weniger zuverlässig.</p></details>
+      <label class="field">Wünsche (optional)<input data-ki="wishes" value="${esc(f.wishes)}" placeholder="z. B. Schwerpunkt Wortschatz Essen, Klasse 9"></label>
+      <label class="dlg-check"><input type="checkbox" data-ki="showTranscript" ${f.showTranscript ? 'checked' : ''}><span>Transkript in der Übung als Hilfe anzeigen (bei Liedern und Filmen aus)</span></label>
+    </div></div>
+    <div class="ki-step"><span class="ki-n">2</span><div>
+      <h3>Auftrag an die KI</h3>
+      <p class="muted small">Kopiert die Anleitung und deine Angaben in einem Stück. Im Chat einfügen und absenden.</p>
+      <div class="ki-actions"><button class="button primary" data-ki-copy>Auftrag kopieren</button>${KI_CHATS.map(([n, u]) => `<a class="button secondary" href="${u}" target="_blank" rel="noopener">${n} öffnen</a>`).join('')}</div>
+      <p class="small" id="ki-copy-status" role="status"></p>
+    </div></div>
+    <div class="ki-step"><span class="ki-n">3</span><div>
+      <h3>Antwort der KI einfügen</h3>
+      <label class="field"><textarea data-ki="answer" rows="6" spellcheck="false" placeholder="Die ganze Antwort hier einfügen, auch mit Text davor oder danach.">${esc(f.answer)}</textarea></label>
+      <div class="ki-actions"><button class="button primary" data-ki-build>Übung anlegen</button><button class="quiet" data-ki-reset>Formular leeren</button></div>
+      <div id="ki-result" role="status"></div>
+    </div></div>
+    <details class="ed-box ki-advanced"><summary>Fertiges Paket importieren (JSON, für Fortgeschrittene)</summary>
+      <div class="studio-downloads"><a class="button secondary" href="imports/KI-Kommandodatei.md" download>KI-Kommandodatei</a><a class="button secondary" href="imports/Vokabel-Kommandodatei-Schulbuch.md" download>Kommandodatei Wortschatz</a><button class="button secondary" data-portal="studio-load">Datei auswählen</button><input id="studio-file" type="file" accept=".json,application/json" hidden></div>
+      <label class="field">JSON einfügen<textarea id="studio-json" rows="5" maxlength="2000000" spellcheck="false" placeholder="{ ... }">${esc(lastValidation?.raw || '')}</textarea></label>
+      <button class="button secondary" data-portal="studio-validate">Prüfen</button>
+      <div id="studio-validation" role="status">${validationHTML()}</div>
+    </details>
+  </section>`;
+}
+function kiInputs() {
+  const f = kiState();
+  const t = v => (String(v).trim() ? edParseTime(v) : undefined);
+  return {
+    mediaUrl: f.url.trim(),
+    language: f.language,
+    level: f.level,
+    kind: f.kind,
+    count: f.count,
+    start: t(f.start),
+    end: t(f.end),
+    startText: f.start,
+    endText: f.end,
+    transcript: f.transcript,
+    wishes: f.wishes,
+    keepTranscript: f.showTranscript && !['lied', 'film'].includes(f.kind),
+    transcriptOrigin: /\d:\d\d/.test(f.transcript) ? 'provider' : 'own'
+  };
+}
+let kiCommand = null;
+async function kiCopy() {
+  const status = $('ki-copy-status');
+  try {
+    if (!kiForm.url.trim())
+      throw new Error('Bitte zuerst den Link zum Video oder Audio eintragen.');
+    if (!kiForm.transcript.trim())
+      status.textContent =
+        'Hinweis: Ohne Transkript kann nur Gemini das Video selbst anhören. Mit Transkript wird es deutlich besser.';
+    if (!kiCommand) {
+      const r = await fetch('imports/KI-Kommandodatei.md', { cache: 'no-cache' });
+      if (!r.ok) throw new Error('Die Kommandodatei konnte nicht geladen werden.');
+      kiCommand = await r.text();
+    }
+    const text = DajeKI.promptFor(kiCommand, kiInputs());
+    try {
+      await navigator.clipboard.writeText(text);
+      status.textContent =
+        (status.textContent ? status.textContent + ' ' : '') +
+        'Auftrag kopiert (' +
+        Math.round(text.length / 1000) +
+        '000 Zeichen). Jetzt im Chat einfügen und absenden.';
+    } catch {
+      status.innerHTML =
+        'Kopieren wurde blockiert. Bitte hier markieren und kopieren:<textarea class="ki-fallback" rows="5" readonly>' +
+        esc(text) +
+        '</textarea>';
+      status.querySelector('textarea').select();
+    }
+  } catch (err) {
+    status.textContent = err.message;
+  }
+}
+function kiBuild() {
+  const out = $('ki-result');
+  try {
+    const ai = DajeKI.extractJSON(kiForm.answer);
+    const r = DajeKI.buildPackage(ai, kiInputs(), TheisContent.validatePackage);
+    const pkg = r.result && r.result.ok ? r.result.value : r.pkg;
+    const found = r.evidence.filter(e => e.status === 'ok' || e.status === 'fast').length;
+    const need = r.evidence.filter(e => e.status !== 'vorab').length;
+    const msg = `${plural(pkg.questions.length, 'Aufgabe', 'Aufgaben')} angelegt. ${kiForm.transcript.trim() ? `Belege im Transkript gefunden: ${found} von ${need}.` : 'Ohne Transkript konnten die Belege nicht geprüft werden.'}`;
+    kiOpen = false;
+    kiForm.answer = '';
+    save(KI_KEY, kiForm);
+    edCreate(pkg, msg);
+    if (r.warnings.length || !r.result?.ok) toast(msg + ' Bitte die markierten Aufgaben prüfen.');
+  } catch (err) {
+    out.innerHTML = `<div class="validation-errors"><b>Noch nicht übernommen</b><p>${esc(err.message)}</p></div>`;
+  }
+}
+document.addEventListener('input', e => {
+  const k = e.target.dataset?.ki;
+  if (!k) return;
+  kiState();
+  kiForm[k] = e.target.type === 'checkbox' ? e.target.checked : e.target.value;
+  if (k === 'kind' && ['lied', 'film'].includes(kiForm.kind)) {
+    kiForm.showTranscript = false;
+    const c = document.querySelector('[data-ki="showTranscript"]');
+    if (c) c.checked = false;
+  }
+  save(KI_KEY, kiForm);
+});
+document.addEventListener('change', e => {
+  if (e.target.dataset?.ki) e.target.dispatchEvent(new Event('input', { bubbles: true }));
+});
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-ki-open],[data-ki-copy],[data-ki-build],[data-ki-reset]');
+  if (!b) return;
+  if (b.hasAttribute('data-ki-open')) {
+    kiOpen = !kiOpen;
+    renderStudio();
+    if (kiOpen) document.querySelector('.ed-ki')?.scrollIntoView({ block: 'start' });
+  } else if (b.hasAttribute('data-ki-copy')) kiCopy();
+  else if (b.hasAttribute('data-ki-build')) kiBuild();
+  else if (confirm('Alle Eingaben im Formular löschen?')) {
+    kiForm = { ...kiForm, url: '', start: '', end: '', transcript: '', wishes: '', answer: '' };
+    save(KI_KEY, kiForm);
+    renderStudio();
+  }
+});

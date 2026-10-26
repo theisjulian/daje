@@ -1,4 +1,24 @@
-# Grundstock aufbauen – ohne Videos anzuschauen
+# Grundstock aufbauen – mit KI, ohne jedes Video anzuschauen
+
+## Kurz: so geht es (neu, Oktober 2026)
+Grundlage ist das **Transkript**, nicht die Videoanalyse. Damit funktioniert jede KI (Claude, ChatGPT, Gemini), auch ohne API über den Chat, und jede Lösung wird automatisch am Transkript belegt.
+
+1. **Videos eintragen:** `werkzeuge/videos.csv`, eine Zeile pro Video: `url;sprache;niveau;thema;art;rechte;anzahl;start;ende` (die alte Form mit `audio` und `lizenz` geht weiter). `art`: video, audio, lied oder film. `rechte`: nur `frei` bei eigenem oder nachweislich freiem Material, sonst leer.
+2. **Transkripte holen:** `python3 werkzeuge/ki_grundstock.py transkripte werkzeuge/videos.csv` (einmalig `pip3 install youtube-transcript-api`). Wo YouTube keine Untertitel liefert: in YouTube unter dem Video „Transkript anzeigen“, Text kopieren und als `werkzeuge/transkripte/<Video-ID>.txt` speichern.
+3. **Aufgaben erzeugen**, eine der beiden Arten:
+   - **Mit API-Schlüssel** (in `werkzeuge/schluessel.env`): `python3 werkzeuge/ki_grundstock.py hoeren werkzeuge/videos.csv --anbieter claude --limit 3` (oder `openai`, `gemini`). Bei Überlastung wartet das Werkzeug selbst und versucht es erneut; mit einer Komma-Liste in `CLAUDE_MODEL`, `OPENAI_MODEL` oder `GEMINI_MODEL` weicht es auf weitere Modelle aus. Claude nutzt standardmäßig `claude-opus-5-5` mit serverseitigem Ausweichen auf `claude-opus-4-8` (einmalig `pip3 install anthropic`).
+   - **Ohne Schlüssel (Chat):** `python3 werkzeuge/ki_grundstock.py chat werkzeuge/videos.csv` schreibt je Video einen fertigen Auftrag nach `werkzeuge/auftraege/`. Auftrag in Claude, ChatGPT oder Gemini einfügen, Antwort als `werkzeuge/antworten/<gleicher Name>.txt` speichern, dann `python3 werkzeuge/ki_grundstock.py einlesen werkzeuge/videos.csv`.
+4. **Prüfen:** `werkzeuge/entwuerfe/BERICHT.csv` zeigt je Entwurf OK / PRÜFEN / FEHLER und wie viele Lösungen im Transkript belegt sind. Entwürfe in der Redaktion über „Datei importieren“ öffnen, Vorschau ansehen, korrigieren.
+5. **Übernehmen:** `python3 werkzeuge/ki_grundstock.py uebernehmen <id> [<id> …]` kopiert geprüfte Entwürfe nach `grundstock/listening` und bündelt. Danach committen bzw. wie gewohnt veröffentlichen.
+
+Alles auch per Doppelklick: `werkzeuge/Grundstock-starten.command` (Anbieter mit `KI_ANBIETER=openai` in schluessel.env ändern).
+
+Lieder und Filme: Transkript und Belegzitate werden nur zur Prüfung genutzt und nicht gespeichert. Entwürfe, Aufträge, Antworten und Transkripte liegen in Ordnern, die nie hochgeladen werden (`.gitignore`).
+
+---
+
+## Älterer Weg: Gemini mit Videoanalyse (gemini_grundstock.py)
+Funktioniert weiter, ist aber anfällig für „überlastet“-Fehler und lässt sich nicht automatisch belegen. Nur noch für die Videosuche (Menüpunkt 8) empfohlen.
 
 ## Warum die API und nicht der Gemini-Chat
 Die Gemini-API kann öffentliche YouTube-Links direkt auswerten (Bild und Ton, nicht nur Untertitel). Laut Google-Dokumentation (Stand heute) ist das eine Vorschau-Funktion: kostenlos bis 8 Stunden YouTube-Video pro Tag, nur öffentliche Videos (keine privaten oder nicht gelisteten), bis zu 10 Videos pro Anfrage ab Gemini 2.5. Mit der kostenlosen Stufe schaffst du also etwa 50–80 Videos à 6–10 Minuten pro Tag. Im Chat müsstest du jeden Link einzeln einfügen und die Ausgabe von Hand kopieren.

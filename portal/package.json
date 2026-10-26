@@ -4,7 +4,7 @@
   "description": "daje · Hörverstehen und Wortschatz (theis). Kein Build nötig; npm dient nur Tests und Formatierung.",
   "scripts": {
     "start": "python3 -m http.server 8080 --bind 127.0.0.1 --directory dist",
-    "test": "node tests/content.test.cjs && node tests/grading.test.cjs && node tests/progress.test.cjs && node tests/verbs.test.cjs",
+    "test": "node tests/ki.test.cjs && node tests/content.test.cjs && node tests/grading.test.cjs && node tests/progress.test.cjs && node tests/verbs.test.cjs",
     "test:browser": "node tests/e2e.test.cjs",
     "format": "prettier --write \"dist/*.js\" \"dist/*.css\""
   },

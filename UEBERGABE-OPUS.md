@@ -42,7 +42,7 @@ portal/dist/            ← die gesamte App (statisch, kein Build). Nur <script 
   i18n.js i18n-rows.js i18n-simple.js   UI-Texte (Zeilen [de,it,en,fr,it-simple]); *-simple.js für EN/FR einfach
   listening-data.js review-data.js stock-data.js listening-extra.js   Inhalte (Seeds; stock-data.js GENERIERT)
   app.css               Gestaltung, zusammengeführt aus den früheren 10 Dateien (Abschnittsköpfe zeigen die Herkunft); Reihenfolge zählt
-  assets/ examples/ imports/(KI-Kommandodatei.md, Gemini-Folgeprompt.md)
+  assets/ examples/ imports/(KI-Kommandodatei.md v2.0, Vokabel-Kommandodatei-Schulbuch.md)  ki.js (KI-Antwort → Paket, Belegprüfung)
 portal/tests/           npm test (content, grading, progress, verbs) + e2e.test.cjs (Playwright, 25 Prüfungen)
 grundstock/listening/   25 Lied-/Film-Pakete (GENERIERT aus werkzeuge/hoeren)
 grundstock/vocabulary/  60 Wortschatzpakete (GENERIERT aus werkzeuge/ecco*/…)
@@ -61,7 +61,8 @@ Daten-/Speicherschlüssel: `ripassa-ui-language-v1`, `ripassa-doc-v1`, `ripassa-
 | Hörpakete Lieder/Filme | Python-Quellen `werkzeuge/hoeren/en1..3, it1, it2` (+ `review.py` mit Streichungen/Ergänzungen) | `python3 werkzeuge/hoeren/build.py` | `grundstock/listening/*.json` |
 | Erweiterung alter Pakete | `werkzeuge/hoeren/alt.py` | `python3 werkzeuge/hoeren/alt.py` | `portal/dist/listening-extra.js` |
 | Bündeln/Validieren | alle `grundstock/**` | `node werkzeuge/bundle_stock.cjs` | `portal/dist/stock-data.js` (committet; CI bündelt erneut) |
-| KI-Erzeugung (nicht benutzt) | `videos.csv`, `woerter.csv`, `suchthemen.csv`, Kommandodatei | `gemini_grundstock.py` (API-Schlüssel nötig) oder `gemini_stapel.py bauen/einlesen` (Browser-Gemini, ohne Schlüssel) | Pakete → bündeln |
+| KI-Erzeugung Hören | `videos.csv` + Transkripte | `ki_grundstock.py transkripte/hoeren/chat/einlesen/uebernehmen` (Claude, OpenAI, Gemini oder Chat ohne Schlüssel; nutzt `ki_paket.cjs` → `ki.js`) | Entwürfe + BERICHT.csv → prüfen → übernehmen → bündeln |
+| KI-Erzeugung alt | `woerter.csv`, `suchthemen.csv` | `gemini_grundstock.py` (Videoanalyse, überlastungsanfällig; noch für Suche und Wortschatz) | Pakete → bündeln |
 | Qualitätsprüfung | `grundstock/` | `python3 werkzeuge/qualitaet.py [--ipa]` | Befundliste (Exit 1 bei harten Fehlern) |
 | Tests | – | `cd portal && npm test; node tests/e2e.test.cjs` (Server: `python3 -m http.server 8765` in `portal/dist`) | – |
 
@@ -124,10 +125,16 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - Wortlisten: Seitenaufteilung exakt (267 mm Druckhöhe), gleiche Schriftgröße/Zeilenhöhe in Vorschau und Druck; vorher Überlauf bzw. halbleere Seiten.
 - Prüfskripte zum Nachbauen: Playwright `page.pdf()` nach `printTeaching(0|1|2)` bzw. `openVocabDoc(id)`, Klasse `printing-teaching` setzen, `emulateMedia({media:'print'})`.
 
+## 6e. KI-Workflow (26.10.2026)
+- Icon: Ohr-Zeichnung unverändert, Hintergrund Fuchsia (#f565c0 → #c8288f); Akzent der Farbwelt daje #b8237f.
+- KI-Kommandodatei v2.0: eine Datei für Gemini, ChatGPT, Claude; Transkript ist Pflichtgrundlage; die KI liefert nur Inhalte (title, description, questions, vocabulary, teacherNotes, reviewNotes), Technik ergänzt `ki.js`. Jede Aufgabe trägt `evidence` (wörtliches Zitat), das automatisch gegen das Transkript geprüft wird. Gemini-Folgeprompt entfällt. Schemaerweiterungen: neues Feld erst in content-contract.js, dann Kommandodatei Abschnitt 3/4 und `ki.js` anpassen; unbekannte Felder werden ignoriert, Wünsche der KI landen als SCHEMAWUNSCH in reviewNotes.
+- Redaktion: „Hörübung mit KI erstellen“ in 3 Schritten (Link + Transkript → Auftrag kopieren → Antwort einfügen); Entwurf bleibt bei Neuladen erhalten (`daje-ki-entwurf-v1`); Ergebnis sofort als eigene Übung mit Teilen-Link/QR.
+- Grundstock: `werkzeuge/ki_grundstock.py` (siehe GRUNDSTOCK-ANLEITUNG.md). Lieder/Filme: Transkript und Belege werden nicht gespeichert. Tests: `tests/ki.test.cjs`.
+
 ## 7. Offene Punkte
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.
 - Ecco 3 più importieren (nach Scan, exakte Kapitelzuordnung).
-- Hör-Aufgaben mit Transkript/Audio neu ableiten; Pipeline automatisieren (siehe 4).
+- Grundstock mit `ki_grundstock.py` aufbauen (erst `--limit 3`); echter API-Lauf noch nicht erfolgt (nur mit simulierter Antwort getestet).
 - mebis-Einbettung (`?hoeren=ID&embed=1`) in mebis selbst testen; BBC/NPR/TED-Pakete anlegen.
 - Supabase/gemeinsames theis-Login: nur Konzept (`uebergabe/08`), nichts gebaut/angelegt.
 - IPA: Feld vorhanden, keine Daten; Quelle/Prüfung klären.
