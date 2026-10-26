@@ -51,7 +51,7 @@ const fontList = [
   ['lora', 'Lora · wie im Buch']
 ];
 const themeList = [
-  ['daje', 'daje', '#f6f2ea', '#c7361d'],
+  ['daje', 'daje', '#f6f2ea', '#b8237f'],
   ['heft', 'Heft', '#f4efe2', '#2c4a9a'],
   ['graphit', 'Graphit', '#ffffff', '#0040d0'],
   ['wald', 'Wald', '#e8f3e9', '#2c8851'],
