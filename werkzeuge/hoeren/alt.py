@@ -179,7 +179,6 @@ post.od(T['D'] + 'Put the dialogue in order.', ['Are you Anna?', 'Yes! Are you P
 post.gf(T['L'] + 'Complete the sentences.', 'I’m [[a]]. Nice to [[b]] you.', [['Anna'], ['meet']], 'Introductions.')
 post.sc(T['L'] + 'Which phrase can you use to ask someone to repeat?', ['Let’s try that again.', 'Good morning.', 'I like pizza.', 'How old are you?'], 0, 'Said by Anna.')
 post.sc(T['A'] + 'How would you introduce yourself?', ['Hi, I’m Max. Nice to meet you.', 'Me Max name.', 'Hello, you Max.', 'Nice meet me.'], 0, 'Transfer.')
-post.tf(T['A'] + 'Anna’s name is spelled with one “n”.', False, 'It has two n’s.')
 done('en-voa-welcome', pre, post, notes(['Question: What do you say when you meet someone for the first time?'], STEPS_EN, ['Very short audio (about 29 seconds): listen several times, then role-play.'], ['Role-play: introduce yourself and spell your name.', 'Write a short dialogue: meeting a new neighbour.']), 'Level A1 · Introductions')
 
 # ---- carbon
@@ -207,7 +206,7 @@ post = Q(); post.n = 12
 post.sa(T['D'] + 'How often does she start a new language? (every … years)', ['two', 'every two years', '2'], 'two', '“Every two years.”')
 post.tf(T['D'] + 'Benny starts speaking to native speakers from day one.', True, 'He doesn’t mind making 200 mistakes a day.')
 post.sa(T['D'] + 'How many Russian speakers did Lucas add on Skype? (number)', ['100', 'a hundred', 'hundred', 'one hundred'], '100', 'A hundred random speakers.')
-post.mt(T['D'] + 'Match the person and the method.', [('Benny', 'speaking from day one'), ('Lucas', 'Skype chats with strangers'), ('The speaker', 'reading Harry Potter in Spanish'), ('The speaker (German)', 'watching a sitcom')], 'Methods in the talk.')
+post.mt(T['D'] + 'Match the person and the method.', [('Benny', 'speaking from day one'), ('Lucas', 'Skype chats with strangers'), ('The speaker learning Spanish', 'reading Harry Potter'), ('The speaker learning German', 'watching Friends')], 'Methods in the talk.')
 post.tf(T['D'] + 'She learned German by watching Friends.', True, 'The sitcom is Friends.')
 post.mc(T['D'] + 'Which principles does she name? (more than one)', ['Enjoying the process', 'Effective methods', 'A system', 'Patience', 'Natural talent'], [0, 1, 2, 3], 'Enjoyment, methods, system, patience.')
 post.sc(T['D'] + 'Which app based on spaced repetition does she mention?', ['Anki', 'Duolingo', 'Netflix', 'Skype'], 0, 'Anki (and Memrise).')
@@ -228,6 +227,9 @@ for k, ids in DROPX.items():
 for e in EX.values():
     for q in e['pre'] + e['post']:
         if q['type'] == 'matching': q.setdefault('distractors', [])
-out = '// Erweiterte Aufgaben für bestehende Hörverstehens-Pakete (aus werkzeuge/hoeren/alt.py).\nconst LISTENING_EXTRA = ' + json.dumps(EX, ensure_ascii=False) + ';\n'
+import notizen
+ROWS = notizen.anwenden(EX)
+out = ('// Erweiterte Aufgaben für bestehende Hörverstehens-Pakete (aus werkzeuge/hoeren/alt.py).\nconst LISTENING_EXTRA = ' + json.dumps(EX, ensure_ascii=False) + ';\n'
+       '// Unterrichtsplan und Beschreibungen in der Oberflächensprache (aus werkzeuge/hoeren/notizen.py).\nconst UI_ROWS_CONTENT = ' + json.dumps(ROWS, ensure_ascii=False) + ';\n')
 (ROOT / 'portal' / 'dist' / 'listening-extra.js').write_text(out, encoding='utf-8')
 print({k: len(v['pre']) + len(v['post']) for k, v in EX.items()})

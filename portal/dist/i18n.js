@@ -758,6 +758,9 @@ let uiLocale = 'de',
 const UI_LOOKUP = new Map(UI_ROWS.map(row => [row[0], row]));
 if (typeof UI_ROWS_EXTRA !== 'undefined')
   for (const row of UI_ROWS_EXTRA) if (!UI_LOOKUP.has(row[0])) UI_LOOKUP.set(row[0], row);
+// Unterrichtsplan und Beschreibungen der Hörübungen (listening-extra.js)
+if (typeof UI_ROWS_CONTENT !== 'undefined')
+  for (const row of UI_ROWS_CONTENT) if (!UI_LOOKUP.has(row[0])) UI_LOOKUP.set(row[0], row);
 const UI_IDX = { de: 0, it: 1, en: 2, fr: 3, 'it-simple': 4, 'en-simple': 2, 'fr-simple': 3 };
 function uiSimple(loc, text) {
   if (loc === 'en-simple' && typeof UI_SIMPLE_EN !== 'undefined' && UI_SIMPLE_EN[text]) return UI_SIMPLE_EN[text];

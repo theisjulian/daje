@@ -1,0 +1,251 @@
+"""Unterrichtsplan und Kurzbeschreibung der Hörübungen in vier Sprachen.
+Grundtext Deutsch; die App zeigt je nach Oberflächensprache die passende Fassung (UI_ROWS_CONTENT in listening-extra.js).
+Jeder Eintrag: (Deutsch, Italienisch, Englisch, Französisch). Einstiegsfragen bleiben in der Zielsprache.
+"""
+
+HEAD = [
+    ('Unterrichtsidee', 'Idea per la lezione', 'Lesson idea', 'Idée de cours'),
+    ('Ablauf und Tipps', 'Svolgimento e consigli', 'Procedure and tips', 'Déroulement et conseils'),
+    ('Ablauf', 'Svolgimento', 'Procedure', 'Déroulement'),
+    ('Tipps', 'Consigli', 'Tips', 'Conseils'),
+]
+
+STEPS = [
+    ('1. Vor dem Hören: Einstiegsfrage stellen, wichtige Wörter vorentlasten.',
+     '1. Prima dell’ascolto: domanda di avvio, introdurre le parole chiave.',
+     '1. Before listening: ask the warm-up question, pre-teach key words.',
+     '1. Avant l’écoute : poser la question d’amorce, introduire les mots clés.'),
+    ('2. Erstes Hören: nur das Thema erfassen, noch keine Aufgaben.',
+     '2. Primo ascolto: capire solo l’argomento, ancora senza esercizi.',
+     '2. First listening: gist only, no tasks yet.',
+     '2. Première écoute : saisir seulement le thème, sans exercices.'),
+    ('3. Zweites Hören: Detailaufgaben bearbeiten.',
+     '3. Secondo ascolto: svolgere gli esercizi di dettaglio.',
+     '3. Second listening: work on the detail tasks.',
+     '3. Deuxième écoute : faire les exercices de détail.'),
+    ('4. Sprache: Wendungen und Formen aus dem Text besprechen.',
+     '4. Lingua: analizzare espressioni e forme del testo.',
+     '4. Language: discuss phrases and forms from the text.',
+     '4. Langue : étudier les expressions et les formes du texte.'),
+    ('5. Nach dem Hören: Anschlussaufgabe mündlich oder schriftlich.',
+     '5. Dopo l’ascolto: attività finale orale o scritta.',
+     '5. After listening: follow-up task, spoken or written.',
+     '5. Après l’écoute : activité finale à l’oral ou à l’écrit.'),
+]
+
+
+def frage(q):
+    """Frage an die Klasse in der Zielsprache, Rahmen in vier Sprachen."""
+    return (f'Einstiegsfrage: „{q}“', f'Domanda di avvio: «{q}»', f'Warm-up question: “{q}”', f'Question d’amorce : « {q} »')
+
+
+# id: (Beschreibung, Einstieg, Tipps, Anschluss)
+PAKETE = {
+    'it-a2-ordine-al-bar': (
+        ('Ein Gast bestellt in der Bar einen Kaffee zum Mitnehmen und hat noch eine Bitte.',
+         'Un cliente ordina al bar un caffè da portare via e ha ancora una richiesta.',
+         'A customer orders a coffee to go at a bar and has one more request.',
+         'Un client commande un café à emporter au bar et a encore une demande.'),
+        [('Bildimpuls: die Theke einer italienischen Bar. Was bestellt man dort?',
+          'Immagine: il bancone di un bar italiano. Che cosa si ordina?',
+          'Picture prompt: the counter of an Italian bar. What do people order there?',
+          'Image : le comptoir d’un bar italien. Qu’est-ce qu’on y commande ?'),
+         frage('Che differenza c’è tra bere al banco e al tavolo?')],
+        [('Sehr kurzer Clip (etwa 55 Sekunden): zweimal hören genügt.',
+          'Clip molto breve (circa 55 secondi): bastano due ascolti.',
+          'Very short clip (about 55 seconds): two listenings are enough.',
+          'Extrait très court (environ 55 secondes) : deux écoutes suffisent.'),
+         ('Rollenspiel in Paaren: Gast und Barista.', 'Gioco di ruolo a coppie: cliente e barista.',
+          'Role-play in pairs: customer and barista.', 'Jeu de rôle à deux : client et barista.')],
+        [('Rollenspiel: Frühstück für zwei Personen bestellen, ein Getränk zum Mitnehmen.',
+          'Gioco di ruolo: ordinare la colazione per due, una bevanda da portare via.',
+          'Role-play: order breakfast for two, one drink to take away.',
+          'Jeu de rôle : commander un petit-déjeuner pour deux, une boisson à emporter.'),
+         ('Einen kurzen Dialog mit drei zusätzlichen Bitten schreiben (Zucker, Milch, Becher).',
+          'Scrivere un breve dialogo con tre richieste in più (zucchero, latte, bicchiere).',
+          'Write a short dialogue with three extra requests (sugar, milk, cup).',
+          'Écrire un court dialogue avec trois demandes en plus (sucre, lait, gobelet).')]),
+    'it-a2-informazioni-strada': (
+        ('Jemand fragt auf der Straße nach dem Weg zum Bahnhof.', 'Qualcuno chiede per strada come arrivare alla stazione.',
+         'Someone in the street asks the way to the station.', 'Quelqu’un demande dans la rue le chemin de la gare.'),
+        [('Bildimpuls: ein kleiner Stadtplan.', 'Immagine: una piccola mappa del centro città.',
+          'Picture prompt: a small town map.', 'Image : un petit plan de ville.'),
+         ('Einstiegsfrage: Wie fragt man in deiner Sprache nach dem Weg?',
+          'Domanda di avvio: come si chiede la strada nella tua lingua?',
+          'Warm-up question: how do you ask for directions in your language?',
+          'Question d’amorce : comment demande-t-on son chemin dans ta langue ?')],
+        [('Sehr kurzer Clip: zwei- bis dreimal hören, dann Rollenspiel.', 'Clip molto breve: ascoltare 2–3 volte, poi gioco di ruolo.',
+          'Very short clip: listen two or three times, then role-play.', 'Extrait très court : écouter deux ou trois fois, puis jeu de rôle.'),
+         ('Wortschatz zur Orientierung (destra, sinistra, dritto) vorher kurz wiederholen.',
+          'Ripassare prima le parole dell’orientamento (destra, sinistra, dritto).',
+          'Briefly revise direction words first (destra, sinistra, dritto).',
+          'Revoir d’abord les mots de l’orientation (destra, sinistra, dritto).')],
+        [('Einen Plan zeichnen und in Paaren nach dem Weg fragen.', 'Disegnare una mappa e chiedere la strada a coppie.',
+          'Draw a map and ask for directions in pairs.', 'Dessiner un plan et demander son chemin à deux.'),
+         ('Drei Wegbeschreibungen von der Schule zum Bahnhof schreiben.', 'Scrivere tre indicazioni per andare da scuola alla stazione.',
+          'Write three sets of directions from school to the station.', 'Écrire trois itinéraires de l’école à la gare.')]),
+    'it-a2-weekend-scena-tre': (
+        ('Eine Frau erzählt, wie sie ihr Wochenende verbringt.', 'Una donna racconta come trascorre il fine settimana.',
+         'A woman talks about how she spends her weekend.', 'Une femme raconte comment elle passe son week-end.'),
+        [frage('Che cosa fai di solito nel fine settimana?')],
+        [('Sehr kurzer Ausschnitt (etwa 20 Sekunden): gut als Sprechanlass nutzen.',
+          'Brano molto breve (circa 20 secondi): usarlo per la produzione orale.',
+          'Very short excerpt (about 20 seconds): use it as a speaking prompt.',
+          'Extrait très court (environ 20 secondes) : l’utiliser pour l’expression orale.')],
+        [('Partnerinterview: „Come trascorri il fine settimana?“', 'Intervista a coppie: «Come trascorri il fine settimana?»',
+          'Pair interview: “Come trascorri il fine settimana?”', 'Interview à deux : « Come trascorri il fine settimana? »'),
+         ('Einen kurzen Absatz über das ideale Wochenende schreiben.', 'Scrivere un breve paragrafo sul proprio weekend ideale.',
+          'Write a short paragraph about your ideal weekend.', 'Écrire un court paragraphe sur son week-end idéal.')]),
+    'it-a2-hobby-interviste': (
+        ('Jugendliche erzählen von ihren Hobbys und wozu sie gut sind.', 'Ragazze e ragazzi raccontano i loro hobby e a che cosa servono.',
+         'Young people talk about their hobbies and what they are good for.', 'Des jeunes parlent de leurs loisirs et de ce qu’ils leur apportent.'),
+        [frage('Come passi il tuo tempo libero?')],
+        [('Das Gerundium (facendo, uscendo) danach mit weiteren Beispielen aufgreifen.',
+          'Riprendere poi il gerundio (facendo, uscendo) con altri esempi.',
+          'Pick up the gerund (facendo, uscendo) afterwards with more examples.',
+          'Reprendre ensuite le gérondif (facendo, uscendo) avec d’autres exemples.')],
+        [('Klassenumfrage: Stunden pro Woche für jedes Hobby.', 'Sondaggio in classe: ore a settimana per ogni hobby.',
+          'Class survey: hours per week for each hobby.', 'Sondage en classe : heures par semaine pour chaque loisir.'),
+         ('Einen Absatz schreiben: „Il mio hobby è piacevole e utile perché…“', 'Scrivere un paragrafo: «Il mio hobby è piacevole e utile perché…»',
+          'Write a paragraph: “Il mio hobby è piacevole e utile perché…”', 'Écrire un paragraphe : « Il mio hobby è piacevole e utile perché… »')]),
+    'it-a2-vita-italia': (
+        ('Menschen aus verschiedenen Ländern stellen sich vor und erzählen von ihrem Leben in Italien.',
+         'Persone di vari paesi si presentano e raccontano la loro vita in Italia.',
+         'People from different countries introduce themselves and talk about their life in Italy.',
+         'Des personnes de différents pays se présentent et parlent de leur vie en Italie.'),
+        [('Einstiegsfrage: Was bedeutet es, in ein anderes Land zu ziehen?',
+          'Domanda di avvio: che cosa significa trasferirsi in un altro paese?',
+          'Warm-up question: what does it mean to move to another country?',
+          'Question d’amorce : que signifie s’installer dans un autre pays ?')],
+        [('Einige Stellen im Video sind schwer verständlich; dazu gibt es bewusst keine Aufgaben.',
+          'Alcune parti del video sono poco comprensibili; su di esse non ci sono esercizi.',
+          'Some parts of the video are hard to understand; there are deliberately no tasks on them.',
+          'Certains passages de la vidéo sont peu compréhensibles ; aucun exercice ne porte dessus.')],
+        [('Klasseninterview: „Come ti chiami? Da dove vieni? Da quanto tempo abiti qui?“',
+          'Intervista in classe: «Come ti chiami? Da dove vieni? Da quanto tempo abiti qui?»',
+          'Class interview: “Come ti chiami? Da dove vieni? Da quanto tempo abiti qui?”',
+          'Interview en classe : « Come ti chiami? Da dove vieni? Da quanto tempo abiti qui? »')]),
+    'it-a2-tempo-libero-cinema': (
+        ('Giulia lädt Paolo ins Kino ein, doch er hat Training.', 'Giulia invita Paolo al cinema, ma lui ha l’allenamento.',
+         'Giulia invites Paolo to the cinema, but he has training.', 'Giulia invite Paolo au cinéma, mais il a entraînement.'),
+        [('Einstiegsfrage: Wie lehnt man eine Einladung höflich ab?', 'Domanda di avvio: come si rifiuta un invito in modo gentile?',
+          'Warm-up question: how do you politely turn down an invitation?', 'Question d’amorce : comment refuser poliment une invitation ?')],
+        [('Inhaltlich dichter Dialog: zweimal hören, dann Rollenspiel (Einladung und Absage).',
+          'Dialogo ricco di informazioni: due ascolti, poi gioco di ruolo (invito e rifiuto).',
+          'Dense dialogue: listen twice, then role-play (invitation and refusal).',
+          'Dialogue dense : deux écoutes, puis jeu de rôle (invitation et refus).')],
+        [('Rollenspiel: jemanden einladen; die andere Person hat schon etwas vor und schlägt eine Alternative vor.',
+          'Gioco di ruolo: invitare qualcuno; l’altra persona ha un impegno e propone un’alternativa.',
+          'Role-play: invite someone; the other person is busy and suggests an alternative.',
+          'Jeu de rôle : inviter quelqu’un ; l’autre personne est prise et propose une autre solution.')]),
+    'it-a2-cucina-tiramisu': (
+        ('Zwei Personen planen ein Abendessen und kaufen die Zutaten im Geschäft ein.',
+         'Due persone organizzano una cena e comprano gli ingredienti in un negozio.',
+         'Two people plan a dinner and buy the ingredients in a shop.',
+         'Deux personnes préparent un dîner et achètent les ingrédients dans un magasin.'),
+        [frage('Qual è il dolce italiano più famoso?')],
+        [('Zahlen und Beträge erst notieren lassen, dann vergleichen.', 'Far scrivere prima numeri e importi, poi confrontare.',
+          'Have students note numbers and amounts first, then compare.', 'Faire noter d’abord les nombres et les montants, puis comparer.'),
+         ('Der Gesamtbetrag lässt sich mit dem Rückgeld prüfen: 50 − 26,85 = 23,15 Euro.',
+          'Il totale si verifica con il resto: 50 − 26,85 = 23,15 euro.',
+          'The total can be checked with the change: 50 − 26.85 = 23.15 euros.',
+          'Le total se vérifie avec la monnaie rendue : 50 − 26,85 = 23,15 euros.')],
+        [('Rollenspiel im Laden: Kunde und Verkäufer, Einkaufsliste für ein Abendessen.',
+          'Gioco di ruolo al negozio: cliente e commesso, lista della spesa per una cena.',
+          'Role-play in a shop: customer and shop assistant, shopping list for a dinner.',
+          'Jeu de rôle au magasin : client et vendeur, liste de courses pour un dîner.'),
+         ('Eine Einkaufsliste für ein Abendessen zu viert schreiben.', 'Scrivere la lista della spesa per una cena in quattro.',
+          'Write a shopping list for a dinner for four.', 'Écrire une liste de courses pour un dîner à quatre.')]),
+    'it-a2-roma-citta': (
+        ('Ein Rundgang zu bekannten Plätzen und Denkmälern in Rom.', 'Un giro tra piazze e monumenti famosi di Roma.',
+         'A walk past famous squares and monuments in Rome.', 'Une promenade parmi les places et monuments célèbres de Rome.'),
+        [('Bildimpuls: die Fontana di Trevi. Wer war schon einmal dort?', 'Immagine: la Fontana di Trevi. Chi l’ha già visitata?',
+          'Picture prompt: the Trevi Fountain. Who has been there?', 'Image : la fontaine de Trevi. Qui l’a déjà visitée ?')],
+        [('Beschreibender, dichter Text: zweimal hören, dann eine Mindmap anlegen.',
+          'Testo descrittivo e denso: due ascolti, poi una mappa mentale.',
+          'Dense descriptive text: listen twice, then make a mind map.',
+          'Texte descriptif et dense : deux écoutes, puis une carte mentale.')],
+        [('Den Rundgang als Skizze zeichnen und vorstellen.', 'Disegnare una piantina del percorso e presentarla.',
+          'Draw a sketch of the walk and present it.', 'Dessiner un plan du parcours et le présenter.'),
+         ('Eine kurze Führung zu einem Ort der eigenen Stadt vorbereiten.', 'Preparare una breve visita guidata a un luogo della propria città.',
+          'Prepare a short guided tour of a place in your town.', 'Préparer une courte visite guidée d’un lieu de sa ville.')]),
+    'it-a2-conoscere-italia': (
+        ('Interviews: Welche italienischen Städte und Orte sind bekannt, welche lohnen sich?',
+         'Interviste: quali città e luoghi italiani sono famosi e quali vale la pena visitare?',
+         'Interviews: which Italian cities and places are famous, and which are worth a visit?',
+         'Interviews : quelles villes et quels lieux italiens sont connus, lesquels valent le détour ?'),
+        [('Einstiegsfrage: Welche italienischen Orte kennt man bei uns?', 'Domanda di avvio: quali luoghi italiani sono famosi da noi?',
+          'Warm-up question: which Italian places are well known here?', 'Question d’amorce : quels lieux italiens sont connus chez nous ?')],
+        [('Einige Stellen im Transkript sind unsicher; dazu gibt es bewusst keine Aufgaben.',
+          'Alcuni passaggi del trascritto sono incerti; su di essi non ci sono esercizi.',
+          'Some passages of the transcript are uncertain; there are deliberately no tasks on them.',
+          'Certains passages de la transcription sont incertains ; aucun exercice ne porte dessus.')],
+        [('Plakat: meine italienische Lieblingsregion.', 'Poster: la mia regione italiana preferita.',
+          'Poster: my favourite Italian region.', 'Affiche : ma région italienne préférée.'),
+         ('Eine italienische Stadt in fünf Sätzen vorstellen.', 'Presentare una città italiana in cinque frasi.',
+          'Present an Italian city in five sentences.', 'Présenter une ville italienne en cinq phrases.')]),
+    'en-voa-welcome': (
+        ('Ein kurzer Lerndialog mit echten Stimmen: Anna trifft Pete vor ihrer neuen Wohnung.',
+         'Un breve dialogo didattico con voci vere: Anna incontra Pete davanti al suo nuovo appartamento.',
+         'A short learning dialogue with real voices: Anna meets Pete outside her new apartment.',
+         'Un court dialogue pédagogique avec de vraies voix : Anna rencontre Pete devant son nouvel appartement.'),
+        [frage('What do you say when you meet someone for the first time?')],
+        [('Sehr kurzes Audio (etwa 29 Sekunden): mehrmals hören, dann Rollenspiel.',
+          'Audio molto breve (circa 29 secondi): ascoltare più volte, poi gioco di ruolo.',
+          'Very short audio (about 29 seconds): listen several times, then role-play.',
+          'Audio très court (environ 29 secondes) : écouter plusieurs fois, puis jeu de rôle.')],
+        [('Rollenspiel: sich vorstellen und den eigenen Namen buchstabieren.', 'Gioco di ruolo: presentarsi e fare lo spelling del proprio nome.',
+          'Role-play: introduce yourself and spell your name.', 'Jeu de rôle : se présenter et épeler son nom.'),
+         ('Einen kurzen Dialog schreiben: neue Nachbarn kennenlernen.', 'Scrivere un breve dialogo: conoscere un nuovo vicino.',
+          'Write a short dialogue: meeting a new neighbour.', 'Écrire un court dialogue : faire la connaissance d’un nouveau voisin.')]),
+    'en-b1-carbon-footprint': (
+        ('Ein Erklärvideo: Was ist der CO₂-Fußabdruck und wie lässt er sich verkleinern?',
+         'Un video esplicativo: che cos’è l’impronta di carbonio e come si può ridurre?',
+         'An explainer video: what is a carbon footprint and how can it be reduced?',
+         'Une vidéo explicative : qu’est-ce que l’empreinte carbone et comment la réduire ?'),
+        [frage('What do you already do to protect the environment?')],
+        [('Die Zahlen (Tonnen pro Person) eignen sich für ein zweites Hören mit Tabelle.',
+          'I numeri (tonnellate a persona) si prestano a un secondo ascolto con una tabella.',
+          'The figures (tonnes per person) work well for a second listening with a table.',
+          'Les chiffres (tonnes par personne) se prêtent à une deuxième écoute avec un tableau.')],
+        [('Den eigenen Fußabdruck mit einem Online-Rechner berechnen und vergleichen.',
+          'Calcolare la propria impronta con un calcolatore online e confrontare.',
+          'Calculate your own footprint with an online calculator and compare.',
+          'Calculer sa propre empreinte avec un calculateur en ligne et comparer.'),
+         ('Einen kurzen Text schreiben: drei Veränderungen, die ich umsetzen könnte.',
+          'Scrivere un breve testo: tre cambiamenti che potrei fare.',
+          'Write a short text: three changes I could make.',
+          'Écrire un court texte : trois changements que je pourrais faire.')]),
+    'en-b2-secrets-learning-language': (
+        ('Ein TED-Talk: Wie lernen Menschen, die viele Sprachen sprechen?', 'Un TED Talk: come imparano le persone che parlano molte lingue?',
+         'A TED talk: how do people who speak many languages learn them?', 'Un TED Talk : comment apprennent les personnes qui parlent beaucoup de langues ?'),
+        [frage('What is the best way to learn a language?')],
+        [('Langer Vortrag (etwa 10 Minuten): in drei bis vier Abschnitten hören.',
+          'Intervento lungo (circa 10 minuti): ascoltarlo in tre o quattro parti.',
+          'Long talk (about 10 minutes): listen in three or four sections.',
+          'Long exposé (environ 10 minutes) : l’écouter en trois ou quatre parties.')],
+        [('Einen Wochenplan mit drei Lernmethoden erstellen, die Spaß machen.',
+          'Preparare un piano settimanale con tre metodi di studio piacevoli.',
+          'Make a weekly plan with three learning methods you enjoy.',
+          'Faire un planning hebdomadaire avec trois méthodes d’apprentissage agréables.'),
+         ('Partnerinterview: Wie lernst du Sprachen?', 'Intervista a coppie: come impari le lingue?',
+          'Pair interview: how do you learn languages?', 'Interview à deux : comment apprends-tu les langues ?')]),
+}
+
+
+def anwenden(EX):
+    """Setzt deutsche Grundtexte in die Pakete und liefert die Übersetzungszeilen [de, it, en, fr, it-einfach]."""
+    rows = [list(r) + [r[1]] for r in HEAD + STEPS]
+    for pid, (desc, warm, tips, follow) in PAKETE.items():
+        e = EX[pid]
+        e['description'] = desc[0]
+        e['teacherNotes'] = {'warmup': [w[0] for w in warm], 'steps': [s[0] for s in STEPS],
+                             'tips': [t[0] for t in tips], 'followUp': [f[0] for f in follow]}
+        rows += [list(r) + [r[1]] for r in [desc] + warm + tips + follow]
+    assert set(PAKETE) == set(EX), set(EX) ^ set(PAKETE)
+    seen, out = set(), []
+    for r in rows:
+        if r[0] not in seen:
+            seen.add(r[0])
+            out.append(r)
+    return out

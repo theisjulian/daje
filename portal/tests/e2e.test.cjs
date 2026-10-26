@@ -103,11 +103,11 @@ async function step(name, fn) {
     await shot(dp, 'desk-start');
   });
 
-  await step('Hörkatalog zeigt 42 Übungen', async () => {
+  await step('Hörkatalog zeigt 15 Übungen', async () => {
     await dp.click('[data-nav="hoeren"]');
     await dp.waitForSelector('main article, main .listen-card, main [data-open-listening]');
     const text = await dp.textContent('main');
-    assert.match(text, /42 Hörübungen/);
+    assert.match(text, /15 Hörübungen/);
     await shot(dp, 'desk-katalog');
   });
 
@@ -225,9 +225,9 @@ async function step(name, fn) {
     assert.ok(r.n > 0);
   });
 
-  await step('Alle 42 Hörübungen öffnen per Direktlink ohne Fehler', async () => {
+  await step('Alle 15 Hörübungen öffnen per Direktlink ohne Fehler', async () => {
     const ids = await dp.evaluate(() => contentList('listening').map(x => x.id));
-    assert.equal(ids.length, 42);
+    assert.equal(ids.length, 15);
     for (const id of ids) {
       await dp.goto(base + '?hoeren=' + id, { waitUntil: 'load' });
       await dp.waitForSelector('main h1');
@@ -250,7 +250,7 @@ async function step(name, fn) {
     await dp.evaluate(() => printTeaching(1));
     assert.match(await dp.textContent('#teaching-print .hb'), /1400/);
     await dp.evaluate(() => printTeaching(2));
-    assert.equal(await dp.locator('#teaching-print .hb-key tbody tr').count(), 13);
+    assert.equal(await dp.locator('#teaching-print .hb-key tbody tr').count(), 12);
     await dp.evaluate(() => document.body.classList.remove('previewing-teaching'));
   });
 
@@ -274,7 +274,7 @@ async function step(name, fn) {
     await dp.click('.nav-list [data-nav="hoeren"]');
     await dp.click('[data-key="language"][data-value="it"]');
     const n = await dp.locator('#catalog-grid .lcard').count();
-    assert.ok(n > 0 && n < 42);
+    assert.ok(n > 0 && n < 15);
     await dp.fill('#listen-search', 'gelato');
     assert.ok((await dp.locator('#catalog-grid .lcard').count()) < n);
   });

@@ -2054,5 +2054,20 @@ const UI_ROWS_EXTRA = [
 ["Eigene Farbwelt daje und vier weitere Farbwelten. Schriften: Inter (Rasmus Andersson), Schibsted Grotesk (Bakken & Bæck), Atkinson Hyperlegible (Braille Institute) und Lora (Cyreal), alle unter der SIL Open Font License.", "Tema daje proprio e altri quattro temi. Caratteri: Inter (Rasmus Andersson), Schibsted Grotesk (Bakken & Bæck), Atkinson Hyperlegible (Braille Institute) e Lora (Cyreal), tutti con SIL Open Font License.", "Own daje theme plus four more themes. Fonts: Inter (Rasmus Andersson), Schibsted Grotesk (Bakken & Bæck), Atkinson Hyperlegible (Braille Institute) and Lora (Cyreal), all under the SIL Open Font License.", "Thème daje propre et quatre autres thèmes. Polices : Inter (Rasmus Andersson), Schibsted Grotesk (Bakken & Bæck), Atkinson Hyperlegible (Braille Institute) et Lora (Cyreal), toutes sous SIL Open Font License.", "Tema daje e altri quattro. Caratteri con licenza SIL Open Font License."],
 ["Zum Weiterdenken", "Per andare oltre", "Going further", "Pour aller plus loin", "Per andare oltre"],
 ["Mündlich oder schriftlich – ohne automatische Auswertung.", "A voce o per iscritto – senza correzione automatica.", "Spoken or written – not marked automatically.", "À l’oral ou à l’écrit – sans correction automatique.", "A voce o per iscritto, senza correzione."],
-["Vor dem Hören", "Prima dell’ascolto", "Before listening", "Avant l’écoute", "Prima di ascoltare"]
+["Vor dem Hören", "Prima dell’ascolto", "Before listening", "Avant l’écoute", "Prima di ascoltare"],
+  [
+    'Aufgaben, Transkript und Nutzungsrechte sind noch nicht abschließend geprüft.',
+    'Esercizi, trascrizione e diritti d’uso non sono ancora verificati del tutto.',
+    'Tasks, transcript and usage rights have not been fully checked yet.',
+    'Les exercices, la transcription et les droits d’utilisation ne sont pas encore entièrement vérifiés.',
+    'Esercizi, testo e diritti non sono ancora controllati.'
+  ],
+  [
+    'Aufgaben, Transkript und Nutzungsrechte sind noch nicht abschließend geprüft. Das Transkript fehlt noch.',
+    'Esercizi, trascrizione e diritti d’uso non sono ancora verificati del tutto. Manca ancora la trascrizione.',
+    'Tasks, transcript and usage rights have not been fully checked yet. The transcript is still missing.',
+    'Les exercices, la transcription et les droits d’utilisation ne sont pas encore entièrement vérifiés. La transcription manque encore.',
+    'Esercizi, testo e diritti non sono ancora controllati. Manca ancora il testo.'
+  ],
+  ['In der Redaktion bearbeiten', 'Modifica in redazione', 'Edit in the editor', 'Modifier dans la rédaction', 'Modifica in redazione']
 ];

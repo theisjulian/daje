@@ -58,7 +58,7 @@ Daten-/Speicherschlüssel: `ripassa-ui-language-v1`, `ripassa-doc-v1`, `ripassa-
 | Prozess | Eingabe | Werkzeug | Ausgabe |
 |---|---|---|---|
 | Lehrbuch-Wortschatz | Scan-PDF (nur bei Julian) → **manuell abgetippte** `werkzeuge/ecco1|2/lista-*.txt`, `related-*.txt` (E/F/L-Spalte), `defs-*.txt` (Erklärung+Beispiel) | `python3 werkzeuge/ecco_import.py` | `grundstock/vocabulary/*.json` |
-| Hörpakete Lieder/Filme | Python-Quellen `werkzeuge/hoeren/en1..3, it1, it2` (+ `review.py` mit Streichungen/Ergänzungen) | `python3 werkzeuge/hoeren/build.py` | `grundstock/listening/*.json` |
+| Hörpakete Lieder/Filme | entfernt (26.10.2026, siehe 6f); neue nur über Redaktion/`ki_grundstock.py` | – | `grundstock/listening/*.json` |
 | Erweiterung alter Pakete | `werkzeuge/hoeren/alt.py` | `python3 werkzeuge/hoeren/alt.py` | `portal/dist/listening-extra.js` |
 | Bündeln/Validieren | alle `grundstock/**` | `node werkzeuge/bundle_stock.cjs` | `portal/dist/stock-data.js` (committet; CI bündelt erneut) |
 | KI-Erzeugung Hören | `videos.csv` + Transkripte | `ki_grundstock.py transkripte/hoeren/chat/einlesen/uebernehmen` (Claude, OpenAI, Gemini oder Chat ohne Schlüssel; nutzt `ki_paket.cjs` → `ki.js`) | Entwürfe + BERICHT.csv → prüfen → übernehmen → bündeln |
@@ -131,6 +131,12 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - Redaktion: „Hörübung mit KI erstellen“ in 3 Schritten (Link + Transkript → Auftrag kopieren → Antwort einfügen); Entwurf bleibt bei Neuladen erhalten (`daje-ki-entwurf-v1`); Ergebnis sofort als eigene Übung mit Teilen-Link/QR.
 - Grundstock: `werkzeuge/ki_grundstock.py` (siehe GRUNDSTOCK-ANLEITUNG.md). Lieder/Filme: Transkript und Belege werden nicht gespeichert. Tests: `tests/ki.test.cjs`.
 
+## 6f. Inhalte bereinigt, Unterrichtsplan mehrsprachig (26.10.2026)
+- Alle 25 Lied-/Film-Pakete (American Pie, Stan, 50 Special …) und die zwei Pakete ohne Transkript (Kuba, Klimawandel) entfernt: Aufgaben waren ohne Hörtext erzeugt und nicht belegbar. Generatoren `werkzeuge/hoeren/{build,en1,en2,en3,it1,it2,review}.py` gelöscht (Git-Historie). Neue Lied-/Filmübungen nur über die Redaktion mit Transkript (KI-Schnellweg) oder von Hand.
+- Verbleibend 12 Hörübungen, jede Aufgabe am Transkript geprüft.
+- Unterrichtsplan und Kurzbeschreibung: deutscher Grundtext + Übersetzungen in `werkzeuge/hoeren/notizen.py` → `UI_ROWS_CONTENT` in listening-extra.js, von i18n.js wie UI-Zeilen übersetzt. Neue Übung = neuer Eintrag in notizen.py (assert prüft Vollständigkeit).
+- Fehler behoben: unveränderte Redaktionsfassungen (Zeitstempel `SEED_STAMP`) verdeckten Zusatzaufgaben und Unterrichtsplan; entfernte Vorlagen werden aus dem Redaktionsspeicher gelöscht, bearbeitete Fassungen bleiben.
+
 ## 7. Offene Punkte
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.
 - Ecco 3 più importieren (nach Scan, exakte Kapitelzuordnung).
@@ -146,7 +152,7 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 ```sh
 cd portal/dist && python3 -m http.server 8765      # App auf http://localhost:8765
 cd portal && npm install && npm test && node tests/e2e.test.cjs   # e2e startet eigenen Server; passt die Playwright-Version nicht zum installierten Browser: CHROMIUM_PATH=/pfad/zu/chrome
-python3 werkzeuge/hoeren/build.py && python3 werkzeuge/hoeren/alt.py && python3 werkzeuge/ecco_import.py && node werkzeuge/bundle_stock.cjs
+python3 werkzeuge/hoeren/alt.py && python3 werkzeuge/ecco_import.py && node werkzeuge/bundle_stock.cjs
 python3 werkzeuge/qualitaet.py --ipa
 ```
 Hinweis: Das Repo enthält keine Scans, keine Liedtexte, keine Schlüssel.

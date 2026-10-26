@@ -32,7 +32,7 @@ const LISTENING_REVIEW_SEEDS = [
       'Redaktioneller Entwurf. Nicht am Audio geprüft. Transkript, Aufgabenlösungen, Zeitmarken, Medienlänge und Sprecherwechsel vor Freigabe überprüfen.',
       'GER A2 ist eine redaktionell noch zu prüfende Einschätzung. estimatedMinutes ist geschätzte Übungsdauer, keine gemessene Videolänge.',
       'Nutzungsrechte von Video und Transkript sowie Originalanbieter und Einbettbarkeit offen. needs_review verhindert die lokale Freigabe.',
-      'Ausschnittsangaben stammen aus Gemini. Der aktuelle Player begrenzt den YouTube-Ausschnitt nicht automatisch.'
+      'Ausschnitt 00:58–01:20 laut Transkript.'
     ],
     questions: [
       {
@@ -133,7 +133,7 @@ const LISTENING_REVIEW_SEEDS = [
       'Redaktioneller Entwurf. Nicht am Audio geprüft. Transkript, Aufgabenlösungen, Zeitmarken, Medienlänge und Sprecherwechsel vor Freigabe überprüfen.',
       'GER A2 ist eine redaktionell noch zu prüfende Einschätzung. estimatedMinutes ist geschätzte Übungsdauer, keine gemessene Videolänge.',
       'Nutzungsrechte von Video und Transkript sowie Originalanbieter und Einbettbarkeit offen. needs_review verhindert die lokale Freigabe.',
-      'Ausschnittsangaben stammen aus Gemini. Der aktuelle Player begrenzt den YouTube-Ausschnitt nicht automatisch.'
+      'Ausschnitt 00:58–01:20 laut Transkript.'
     ],
     questions: [
       {
@@ -218,7 +218,7 @@ const LISTENING_REVIEW_SEEDS = [
       'Redaktioneller Entwurf. Nicht am Audio geprüft. Transkript, Aufgabenlösungen, Zeitmarken, Medienlänge und Sprecherwechsel vor Freigabe überprüfen.',
       'GER A2 ist eine redaktionell noch zu prüfende Einschätzung. estimatedMinutes ist geschätzte Übungsdauer, keine gemessene Videolänge.',
       'Nutzungsrechte von Video und Transkript sowie Originalanbieter und Einbettbarkeit offen. needs_review verhindert die lokale Freigabe.',
-      'Ausschnittsangaben stammen aus Gemini. Der aktuelle Player begrenzt den YouTube-Ausschnitt nicht automatisch.'
+      'Ausschnitt 00:58–01:20 laut Transkript.'
     ],
     questions: [
       {
@@ -295,7 +295,7 @@ const LISTENING_REVIEW_SEEDS = [
   },
   {
     format: 'theis-learning-package',
-    schemaVersion: '1.0',
+    schemaVersion: '1.2',
     kind: 'listening',
     id: 'it-a2-weekend-scena-tre',
     title: 'Un fine settimana in compagnia',
@@ -308,7 +308,9 @@ const LISTENING_REVIEW_SEEDS = [
     estimatedMinutes: 4,
     media: {
       type: 'youtube',
-      videoId: 'oLfYx4cgTMg'
+      videoId: 'oLfYx4cgTMg',
+      start: 58,
+      end: 80
     },
     transcript:
       "[00:58] Come trascorre il fine settimana?\n[01:03] Frequento le amiche, usciamo insieme a cena, chiacchieriamo, beviamo del buon vino e ci divertiamo così. E poi, quando ho tempo, faccio anche un po' di sport:\n[01:14] corro e vado in bicicletta.",
@@ -325,7 +327,7 @@ const LISTENING_REVIEW_SEEDS = [
       'Redaktioneller Entwurf. Nicht am Audio geprüft. Transkript, Aufgabenlösungen, Zeitmarken, Medienlänge und Sprecherwechsel vor Freigabe überprüfen.',
       'GER A2 ist eine redaktionell noch zu prüfende Einschätzung. estimatedMinutes ist geschätzte Übungsdauer, keine gemessene Videolänge.',
       'Nutzungsrechte von Video und Transkript sowie Originalanbieter und Einbettbarkeit offen. needs_review verhindert die lokale Freigabe.',
-      'Ausschnittsangaben stammen aus Gemini. Der aktuelle Player begrenzt den YouTube-Ausschnitt nicht automatisch.'
+      'Ausschnitt 00:58–01:20 laut Transkript.'
     ],
     questions: [
       {
@@ -1101,7 +1103,7 @@ const LISTENING_REVIEW_SEEDS = [
       {
         id: 'q1',
         type: 'single_choice',
-        prompt: "What is the main message of Lýdia Machová's talk regarding language learning?",
+        prompt: "What is the main message of the talk?",
         options: [
           {
             id: 'a',
@@ -1253,136 +1255,6 @@ const LISTENING_REVIEW_SEEDS = [
         explanation:
           'Both struggled with languages at school before finding their own way.',
         id: 'q10'
-      }
-    ]
-  },
-  {
-    format: 'theis-learning-package',
-    schemaVersion: '1.0',
-    kind: 'listening',
-    id: 'it-b1-vivere-a-cuba',
-    title: 'Vivere a Cuba oggi',
-    language: 'it',
-    level: 'B1',
-    description:
-      'Ein kurzer, authentischer Dokumentarclip über den Alltag, die Lebensrealität und die Herausforderungen junger Menschen auf Kuba.',
-    topics: ['società', 'cuba', 'attualità'],
-    cover: 'wave',
-    estimatedMinutes: 3,
-    media: {
-      type: 'youtube',
-      videoId: 'zUOcVqQ5WQI'
-    },
-    transcript: '',
-    sources: [
-      {
-        kind: 'external',
-        citation: 'VD - Vivere a Cuba oggi · Quellenangabe aus Gemini, ungeprüft.',
-        url: 'https://www.youtube.com/watch?v=zUOcVqQ5WQI',
-        rights: 'needs_review'
-      }
-    ],
-    reviewNotes: [
-      'In die private Arbeitsvorschau aufgenommen. Nicht unabhängig am Audio geprüft; Lösungen, Niveau, Zeitmarken, Quelle und Einbettbarkeit noch zu prüfen.',
-      'Nutzungsrechte von Video und Transkript offen. Keine fachliche Freigabe. Die Quellen- und Prüfbehauptungen der Gemini-Ausgabe sind nicht unabhängig bestätigt.',
-      'Vollständiges Transkript fehlt. Die vorherige Inhaltsbeschreibung wurde nicht als Mitschrift übernommen.'
-    ],
-    questions: [
-      {
-        id: 'q1',
-        type: 'single_choice',
-        prompt: 'Qual è il tema principale di questo video?',
-        options: [
-          {
-            id: 'a',
-            text: 'Le condizioni e la vita quotidiana a Cuba oggi.'
-          },
-          {
-            id: 'b',
-            text: 'Una guida turistica per le spiagge caraibiche.'
-          },
-          {
-            id: 'c',
-            text: 'La storia della musica classica cubana.'
-          }
-        ],
-        correctOptionId: 'a',
-        explanation:
-          'Der Clip beleuchtet die aktuellen Lebensbedingungen und den Alltag auf der Insel. Redaktioneller Entwurf; Abgleich mit der Aufnahme offen.'
-      },
-      {
-        id: 'q2',
-        type: 'true_false',
-        prompt:
-          'Il video mostra le sfide che le persone affrontano nella vita di tutti i giorni a Cuba.',
-        answer: true,
-        explanation:
-          'Es wird auf die realen gesellschaftlichen und wirtschaftlichen Schwierigkeiten eingegangen. Redaktioneller Entwurf; Abgleich mit der Aufnahme offen.'
-      }
-    ]
-  },
-  {
-    format: 'theis-learning-package',
-    schemaVersion: '1.0',
-    kind: 'listening',
-    id: 'it-b2-cambiamenti-climatici',
-    title: 'I cambiamenti climatici e le risorse idriche',
-    language: 'it',
-    level: 'B2',
-    description:
-      'Giulio Boccaletti im Gespräch über Klimawandel, Wassermanagement und die ökologischen Veränderungen in Italien.',
-    topics: ['ambiente', 'scienza', 'attualità'],
-    cover: 'wave',
-    estimatedMinutes: 4,
-    media: {
-      type: 'youtube',
-      videoId: 'vSCE4ml9ti8'
-    },
-    transcript: '',
-    sources: [
-      {
-        kind: 'external',
-        citation:
-          'Rai - Giulio Boccaletti e i cambiamenti climatici - Kilimangiaro · Quellenangabe aus Gemini, ungeprüft.',
-        url: 'https://www.youtube.com/watch?v=vSCE4ml9ti8',
-        rights: 'needs_review'
-      }
-    ],
-    reviewNotes: [
-      'In die private Arbeitsvorschau aufgenommen. Nicht unabhängig am Audio geprüft; Lösungen, Niveau, Zeitmarken, Quelle und Einbettbarkeit noch zu prüfen.',
-      'Nutzungsrechte von Video und Transkript offen. Keine fachliche Freigabe. Die Quellen- und Prüfbehauptungen der Gemini-Ausgabe sind nicht unabhängig bestätigt.',
-      'Vollständiges Transkript fehlt. Die vorherige Inhaltsbeschreibung wurde nicht als Mitschrift übernommen.'
-    ],
-    questions: [
-      {
-        id: 'q1',
-        type: 'single_choice',
-        prompt: "Di che cosa discute principalmente Giulio Boccaletti nell'intervista?",
-        options: [
-          {
-            id: 'a',
-            text: 'Dei cambiamenti climatici e della gestione delle risorse naturali.'
-          },
-          {
-            id: 'b',
-            text: "Della storia dell'arte rinascimentale in Italia."
-          },
-          {
-            id: 'c',
-            text: 'Delle nuove regole per il traffico nelle grandi città.'
-          }
-        ],
-        correctOptionId: 'a',
-        explanation:
-          'Der Experte spricht über klimatische Veränderungen und ökologische Herausforderungen. Redaktioneller Entwurf; Abgleich mit der Aufnahme offen.'
-      },
-      {
-        id: 'q2',
-        type: 'true_false',
-        prompt: "Il tema centrale riguarda l'impatto ecologico e ambientale sul nostro territorio.",
-        answer: true,
-        explanation:
-          'Im Fokus stehen Umweltauswirkungen und nachhaltiger Umgang mit der Natur. Redaktioneller Entwurf; Abgleich mit der Aufnahme offen.'
       }
     ]
   }

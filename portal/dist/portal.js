@@ -19,6 +19,7 @@ function portalProfile() {
 function persistPortal() {
   return persistProfiles();
 }
+const SEED_STAMP = '2026-10-25T00:00:00.000Z';
 function withExtra(x) {
   const e = typeof LISTENING_EXTRA !== 'undefined' && LISTENING_EXTRA[x.id];
   if (!e) return x;
@@ -27,6 +28,7 @@ function withExtra(x) {
   return {
     ...x,
     questions: [...e.pre.filter(q => !have.has(q.id)), ...(x.questions || []), ...e.post.filter(q => !have.has(q.id))],
+    description: e.description || x.description,
     teacherNotes: x.teacherNotes || e.teacherNotes,
     levelLabel: x.levelLabel || e.levelLabel,
     estimatedMinutes: Math.max(x.estimatedMinutes || 0, Math.round((x.questions.length + add.length) * 1.2))
@@ -54,7 +56,8 @@ function contentList(kind) {
         x.payload?.kind === kind &&
         (x.status === 'published' || (kind === 'listening' && reviewIds.has(x.payload.id)))
     )
-    .map(x => x.payload);
+    // Unveränderte Redaktionsfassungen bekommen Zusatzaufgaben und Unterrichtsplan wie die Vorlage.
+    .map(x => (x.updatedAt === SEED_STAMP ? withExtra(x.payload) : x.payload));
   // Von der Lehrkraft per Link geteilte Übungen (studio.js) erscheinen bei Lernenden mit im Katalog.
   const shared = typeof sharedPackages === 'function' ? sharedPackages().filter(x => x.kind === kind) : [];
   const overridden = new Set([...local, ...shared].map(x => x.id));
@@ -422,8 +425,12 @@ function setupPortal() {
     });
   }
   const latestSeeds = new Map(LISTENING_REVIEW_SEEDS.map(x => [x.id, x]));
+  // Unveränderte Vorlagen: aktuelle Fassung übernehmen, entfernte Vorlagen löschen. Bearbeitetes bleibt.
+  editorState.items = editorState.items.filter(
+    item => !(item.payload && item.updatedAt === SEED_STAMP && !latestSeeds.has(item.payload.id))
+  );
   for (const item of editorState.items) {
-    if (item.payload && item.updatedAt === '2026-10-25T00:00:00.000Z' && latestSeeds.has(item.payload.id))
+    if (item.payload && item.updatedAt === SEED_STAMP && latestSeeds.has(item.payload.id))
       item.payload = JSON.parse(JSON.stringify(latestSeeds.get(item.payload.id)));
   }
   const present = new Set(editorState.items.map(x => (x.payload || x.draft).id));
@@ -434,7 +441,7 @@ function setupPortal() {
         editorState.items.push({
           payload: v.value,
           status: 'draft',
-          updatedAt: '2026-10-25T00:00:00.000Z'
+          updatedAt: SEED_STAMP
         });
     }
   }
