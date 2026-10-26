@@ -10,8 +10,8 @@ function utf8b64(s) { const b = new TextEncoder().encode(s); let t = ''; b.forEa
   editorFormHTML = function (item) {
     const c = liveCfg();
     const ok = item.status === 'published';
-    return baseForm(item) + `<section class="publish-box live-box"><span class="step-label">05 · LIVE STELLEN</span>
-      <p class="small muted">Schreibt das freigegebene Paket in dein GitHub-Repository. Nach etwa einer Minute ist es für alle online. ${ok ? '' : '<b>Erst lokal freigeben (Schritt 04).</b>'}</p>
+    return baseForm(item) + `<details class="publish-box live-box ed-box"><summary>Im öffentlichen daje-Katalog veröffentlichen (nur Betreiber)</summary>
+      <p class="small muted">Schreibt die Übung in das GitHub-Repository von daje. Nach etwa einer Minute ist sie für alle online. Dafür braucht es einen GitHub-Zugang mit Schreibrecht. ${ok ? '' : '<b>Zuerst „Im eigenen Katalog zeigen“ wählen.</b>'}</p>
       <details><summary>GitHub-Zugang (einmalig, bleibt nur in diesem Browser)</summary>
         <label class="field">Repository<input id="live-repo" value="${esc(c.repo)}" autocomplete="off"></label>
         <label class="field">Zweig<input id="live-branch" value="${esc(c.branch)}" autocomplete="off"></label>
@@ -19,11 +19,11 @@ function utf8b64(s) { const b = new TextEncoder().encode(s); let t = ''; b.forEa
         <button class="button secondary" type="button" data-live="save">Zugang speichern</button>
       </details>
       <button class="button primary" type="button" data-live="push" ${ok ? '' : 'disabled'}>Live stellen</button>
-      <p class="small" id="live-msg" role="status"></p></section>`;
+      <p class="small" id="live-msg" role="status"></p></details>`;
   };
   async function push() {
     const msg = $('live-msg'), c = liveCfg();
-    const x = editorState.items.find(i => i.payload.id === studioSelection);
+    const x = editorState.items.find(i => i.payload?.id === studioSelection);
     if (!x || x.status !== 'published') return;
     if (!c.token) { msg.textContent = 'Bitte zuerst den GitHub-Zugang eintragen.'; return; }
     const dir = x.payload.kind === 'listening' ? 'listening' : 'vocabulary';

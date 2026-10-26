@@ -52,7 +52,7 @@ function hbHTML(x, sol) {
   const t = HB_TXT[L] || HB_TXT.de;
   const lang = t.lang || portalLang(x.language);
   const total = x.questions.reduce((s, q) => s + hbPoints(q), 0);
-  const local = editorState.items.some(i => i.payload.id === x.id) && !STOCK_PACKAGES.some(s => s.id === x.id);
+  const local = editorState.items.some(i => i.payload?.id === x.id) && !STOCK_PACKAGES.some(s => s.id === x.id);
   const link = location.origin + location.pathname + '?hoeren=' + encodeURIComponent(x.id);
   instrCtx = x.language;
   const qs = x.questions.map((q, i) => {

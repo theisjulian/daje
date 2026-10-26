@@ -210,7 +210,7 @@
           id: id(q.id, path + '.id'),
           type: q.type,
           prompt: str(q.prompt, path + '.prompt', 1000),
-          explanation: str(q.explanation, path + '.explanation', 1500)
+          explanation: str(q.explanation, path + '.explanation', 1500, true)
         };
         if (q.evidenceAt !== undefined) {
           if (!Number.isInteger(q.evidenceAt) || q.evidenceAt < 0 || q.evidenceAt > 86400)

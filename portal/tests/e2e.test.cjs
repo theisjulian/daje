@@ -71,6 +71,7 @@ async function step(name, fn) {
       await route.fulfill({ response: res, body: (await res.text()) + '\n' + extra });
     });
     const page = await ctx.newPage();
+    page.on('dialog', d => d.accept()); // Rückfrage beim Wechsel zur Lehrkräfte-Ansicht
     page.on('pageerror', e => problems.push('Seitenfehler: ' + e.message));
     page.on('console', m => {
       if (m.type() === 'error' && !/youtube|ytimg|net::ERR/.test(m.text()))
@@ -388,6 +389,57 @@ async function step(name, fn) {
     assert.equal(await pp.evaluate(() => view), 'hoeren');
     await pp.goBack();
     assert.equal(await pp.evaluate(() => view + ':' + openedListening), 'hoeruebung:it-torino-demo');
+  });
+  await step('Fokus-Modus: eine Aufgabe pro Bildschirm, Weiter/Zurück, Korrektur am Ende', async () => {
+    await pp.goto(base + '?hoeren=en-voa-welcome', { waitUntil: 'networkidle' });
+    assert.equal(await pp.locator('#listening-form fieldset.q:visible').count(), 1);
+    await pp.click('[data-focus="next"]');
+    assert.equal(await pp.textContent('.focus-count b'), '2');
+    await pp.click('[data-focus="prev"]');
+    assert.equal(await pp.textContent('.focus-count b'), '1');
+    assert.equal(await pp.locator('#listening-form [type=submit]:visible').count(), 0);
+    await pp.click('[data-focus="off"]');
+    assert.ok((await pp.locator('#listening-form fieldset.q:visible').count()) > 5);
+    await pp.click('[data-focus="on"]');
+  });
+
+  await step('Hausaufgabe: Lehrkraft stellt zusammen, Lernende sehen die Liste', async () => {
+    await pp.goto(base, { waitUntil: 'networkidle' });
+    await pp.click('[data-audience="teach"]');
+    await pp.click('.tabbar [data-nav="hoeren"]');
+    await pp.locator('[data-hw]').nth(0).click();
+    await pp.locator('[data-hw]').nth(1).click();
+    await pp.click('#hw-pill');
+    const url = await pp.getAttribute('#hw-dialog [data-qr-copy]', 'data-qr-copy');
+    await pp.click('#hw-dialog [data-hw-clear]');
+    await pp.click('#hw-dialog [data-close]');
+    await pp.click('[data-audience="learn"]');
+    await pp.goto(url, { waitUntil: 'networkidle' });
+    assert.equal(await pp.locator('.hw-tasks li').count(), 2);
+    await pp.click('.tabbar [data-nav="start"]');
+    assert.equal(await pp.locator('.hw-home').count(), 1);
+  });
+
+  await step('Redaktion: eigene Hörübung anlegen, teilen und als Lernende öffnen', async () => {
+    await pp.goto(base, { waitUntil: 'networkidle' });
+    await pp.click('[data-audience="teach"]');
+    await pp.evaluate(() => nav('redaktion'));
+    await pp.click('[data-ed-new="listening"]');
+    await pp.fill('[data-ed="title"]', 'Test eigene Übung');
+    await pp.fill('[data-ed="youtube"]', 'https://youtu.be/dK9KAT5BDBM');
+    await pp.fill('.ed-q [data-k="prompt"]', 'Domanda?');
+    const o = pp.locator('.ed-q [data-k="option"]');
+    await o.nth(0).fill('sì');
+    await o.nth(1).fill('no');
+    await pp.waitForTimeout(600);
+    assert.match(await pp.textContent('#ed-status'), /bereit zum Teilen/);
+    await pp.click('[data-ed-act="share"]');
+    const url = await pp.getAttribute('#ed-share-dialog [data-qr-copy]', 'data-qr-copy');
+    await pp.click('#ed-share-dialog [data-close]');
+    await pp.click('[data-audience="learn"]');
+    await pp.goto(url, { waitUntil: 'networkidle' });
+    await pp.waitForTimeout(300);
+    assert.match(await pp.textContent('main h1'), /Test eigene Übung/);
   });
   await phone.ctx.close();
 

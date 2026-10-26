@@ -1,4 +1,19 @@
 'use strict';
+/*
+ * Redaktion · „Eigene Übungen“ für Lehrkräfte.
+ * Hörübungen und Wortlisten anlegen, bearbeiten, in der Vorschau prüfen und per Link mit der
+ * Klasse teilen (?eigene=…). Ohne Server: Entwürfe bleiben in diesem Browser (ripassa-editor-v1),
+ * geteilte Inhalte reisen vollständig im Link. Unfertige Entwürfe werden als draft mitgespeichert.
+ */
+const ED_TYPES = [
+  ['single_choice', 'Einfachauswahl'],
+  ['true_false', 'Richtig / Falsch'],
+  ['short_answer', 'Kurzantwort']
+];
+const ED_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+let edWork = null, // Arbeitskopie des gewählten Inhalts (Paketform)
+  edTimer = null;
+
 function downloadJSON(data, name) {
   const u = URL.createObjectURL(
       new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' })
@@ -12,22 +27,416 @@ function downloadJSON(data, name) {
 function saveEditorState() {
   return save('ripassa-editor-v1', editorState);
 }
-function renderStudio() {
-  const selected = editorState.items.find(x => x.payload.id === studioSelection),
-    items = editorState.items.filter(x => studioTab === 'all' || x.payload.kind === studioTab);
-  $('main').innerHTML =
-    `<div class="page-title"><div class="eyebrow">REDAKTION · LOKALE IMPORTDEMO</div><h1>Deine Inhalte. Ein klarer Ablauf.</h1><p>Hörübungen und Wortschatzlisten importieren, prüfen und bearbeiten.</p></div><div class="editor-banner"><b>Dies ist noch kein geschütztes Backend.</b> Entwürfe und Freigaben bleiben in diesem Browser. Es werden keine Inhalte für andere Nutzer veröffentlicht. Vertrauliche Daten gehören nicht in diese Demo.</div><section class="panel glass portal-spacing"><h2>Deine 14 Videokandidaten sind vorbereitet.</h2><p>Links einen Entwurf auswählen und über Vorschau Video, Aufgaben und Transkript prüfen. Texte aus Gemini sind noch nicht am Audio verifiziert. Eigene Änderungen bleiben in diesem Browser.</p><a class="button secondary" href="imports/Gemini-Folgeprompt.md" download>Neuen Gemini-Prompt herunterladen</a></section><section class="studio-import glass"><div><span class="step-label">01 · VORBEREITEN</span><h2>Aus deinem Material wird ein Lernpaket.</h2><p>Gib einer KI dein Material, die Kommandodatei und ein passendes JSON-Beispiel. Lies die erzeugte Datei hier ein.</p><div class="studio-downloads"><a class="button secondary" href="imports/KI-Kommandodatei.md" download>KI-Kommandodatei</a><a class="button secondary" href="imports/Vokabel-Kommandodatei-Schulbuch.md" download>Vokabel-Kommandodatei (Schulbuch)</a><a class="button secondary" href="examples/listening-example.json" download>Hörbeispiel</a><a class="button secondary" href="examples/listening-with-vocabulary.json" download>Hören mit Wortschatz</a><a class="button secondary" href="examples/listening-all-task-types.json" download>Alle Aufgabentypen</a><a class="button secondary" href="examples/vocabulary-example.json" download>Vokabelbeispiel</a><a class="button secondary" href="examples/vocabulary-catalog-example.json" download>Vokabeln mit Katalog</a></div></div><div class="studio-drop"><span class="step-label">02 · IMPORTIEREN</span><button class="button primary large" data-portal="studio-load">JSON-Datei auswählen</button><small>Eine Datei · maximal 2 MB<br>Wird erst nach Prüfung übernommen</small><input id="studio-file" type="file" accept=".json,application/json" hidden></div></section><details class="studio-paste glass" ${lastValidation ? 'open' : ''}><summary>Oder JSON direkt einfügen</summary><label class="field">Inhalt der KI-Ausgabedatei<textarea id="studio-json" rows="7" maxlength="2000000" spellcheck="false" placeholder="{ ... }">${esc(lastValidation?.raw || '')}</textarea></label><button class="button secondary" data-portal="studio-validate">Datei prüfen</button><div id="studio-validation" role="status">${validationHTML()}</div></details><div class="studio-tabs">${[
-      ['all', 'Alle Inhalte'],
-      ['listening', 'Hörverstehen'],
-      ['vocabulary', 'Wortschatz']
-    ]
-      .map(
-        ([k, v]) =>
-          `<button class="button secondary" data-studio-tab="${k}" aria-pressed="${studioTab === k}">${v}</button>`
+const edReviewIds = () => new Set(LISTENING_REVIEW_SEEDS.map(x => x.id));
+const edItem = () =>
+  editorState.items.find(x => (x.payload?.id || x.draft?.id) === studioSelection);
+const edId = item => item.payload?.id || item.draft?.id;
+const edNewId = () => 'eigen-' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+
+/* ---------- Neu anlegen ---------- */
+
+function edBlank(kind) {
+  const base = {
+    format: 'theis-learning-package',
+    schemaVersion: '1.0',
+    kind,
+    id: edNewId(),
+    title: kind === 'listening' ? 'Neue Hörübung' : 'Neue Wortliste',
+    language: 'it',
+    level: 'A1',
+    description: kind === 'listening' ? 'Eigene Hörübung.' : 'Eigene Wortliste.',
+    topics: ['eigene Übung'],
+    sources: [{ kind: 'own', citation: 'Eigene Übung der Lehrkraft.', rights: 'own' }],
+    reviewNotes: []
+  };
+  return kind === 'listening'
+    ? {
+        ...base,
+        estimatedMinutes: 10,
+        media: { type: 'youtube', videoId: '' },
+        transcript: '',
+        questions: [edQuestion('single_choice', 1)]
+      }
+    : {
+        ...base,
+        translationLanguage: 'de',
+        collection: 'Eigene Listen',
+        section: 'Neue Wortliste',
+        entries: []
+      };
+}
+function edQuestion(type, n) {
+  const q = { id: 'q' + n, type, prompt: '', explanation: '' };
+  if (type === 'single_choice')
+    Object.assign(q, {
+      options: ['a', 'b', 'c'].map(id => ({ id, text: '' })),
+      correctOptionId: 'a'
+    });
+  if (type === 'true_false') q.answer = true;
+  if (type === 'short_answer') Object.assign(q, { acceptedAnswers: [], modelAnswer: '' });
+  return q;
+}
+function edCreate(payload, message) {
+  if (editorState.items.length >= 100) return toast('Höchstens 100 eigene Inhalte.');
+  editorState.items.unshift({
+    payload: null,
+    draft: payload,
+    status: 'draft',
+    updatedAt: new Date().toISOString()
+  });
+  studioSelection = payload.id;
+  edWork = null;
+  edCommit();
+  if (view !== 'redaktion') nav('redaktion');
+  else renderStudio();
+  if (message) toast(message);
+}
+/* Katalogübung als Vorlage: Kopie mit neuer ID, Rechteangabe bleibt erhalten. */
+function edCopyFrom(id) {
+  const x = contentList('listening').find(y => y.id === id);
+  if (!x) return;
+  const copy = JSON.parse(JSON.stringify(x));
+  copy.id = edNewId();
+  copy.title = (x.title + ' (eigene Fassung)').slice(0, 120);
+  delete copy.series;
+  edCreate(copy, 'Kopie angelegt. Du kannst sie jetzt anpassen.');
+}
+
+/* ---------- Speichern und Prüfen ---------- */
+
+function edFriendlyErrors(x) {
+  const e = [];
+  if (!x.title.trim()) e.push('Titel fehlt.');
+  if (x.kind === 'listening') {
+    const m = x.media;
+    if (m.type === 'youtube' && !/^[A-Za-z0-9_-]{11}$/.test(m.videoId || ''))
+      e.push('YouTube-Link fehlt oder ist nicht erkennbar.');
+    if (m.type === 'audio' && !/^https:\/\//.test(m.url || ''))
+      e.push('Audio-Adresse muss mit https:// beginnen.');
+    if (m.type === 'speech' && !(m.text || '').trim()) e.push('Text zum Vorlesen fehlt.');
+    if (!x.questions.length) e.push('Mindestens eine Aufgabe anlegen.');
+    x.questions.forEach((q, i) => {
+      const n = 'Aufgabe ' + (i + 1) + ': ';
+      if (!q.prompt.trim()) e.push(n + 'Frage fehlt.');
+      if (q.type === 'single_choice' && q.options.filter(o => o.text.trim()).length < 2)
+        e.push(n + 'mindestens zwei Antworten eintragen.');
+      if (
+        q.type === 'single_choice' &&
+        !q.options.find(o => o.id === q.correctOptionId)?.text.trim()
       )
-      .join(
-        ''
-      )}</div><div class="studio-layout"><section class="studio-inventory glass"><h2>Deine Entwürfe</h2>${items.map(x => `<button class="studio-item ${x.payload.id === studioSelection ? 'active' : ''}" data-studio-id="${esc(x.payload.id)}"><span class="badge">${x.payload.kind === 'listening' ? 'Hören' : 'Wörter'} · ${x.payload.level}</span><b>${esc(x.payload.title)}</b><small>${portalLang(x.payload.language)} · ${x.status === 'published' ? 'In diesem Browser freigegeben' : 'Entwurf'}</small></button>`).join('') || '<p class="small muted">Hier erscheinen deine importierten Inhalte. Die Startbeispiele werden nicht als Entwurf bearbeitet.</p>'}</section><section class="studio-editor glass">${selected ? editorFormHTML(selected) : '<div class="studio-empty"><span class="step-label">03 · PRÜFEN UND BEARBEITEN</span><h2>Gutes Material braucht deinen Blick.</h2><p>Nach dem Import bearbeitest du hier Titel, Niveau, Fragen, Antworten und Wortschatz. Eine Vorschau zeigt, was Lernende später sehen.</p></div>'}</section></div><section class="panel glass portal-spacing"><h2>So wird daraus dein echtes Backend.</h2><p class="small muted">Ein geschützter theis-Redaktionszugang ersetzt diese lokale Demo. Supabase verwaltet Inhalte, Versionen und Berechtigungen. Nur geprüfte, freigegebene Inhalte erscheinen im öffentlichen Katalog.</p><a class="button secondary" href="imports/Backend-Konzept.md" download>Backend-Konzept für Claude</a></section>`;
+        e.push(n + 'richtige Antwort markieren.');
+      if (q.type === 'short_answer' && !q.acceptedAnswers.length)
+        e.push(n + 'mindestens eine richtige Lösung eintragen.');
+    });
+  } else if (!x.entries.length) e.push('Mindestens ein Wort eintragen.');
+  return e;
+}
+function edClean(x) {
+  const y = JSON.parse(JSON.stringify(x));
+  y.title = y.title.trim();
+  y.description =
+    y.description.trim() || (y.kind === 'listening' ? 'Eigene Hörübung.' : 'Eigene Wortliste.');
+  if (!y.topics.length) y.topics = ['eigene Übung'];
+  y.sources = y.sources.map(s => ({
+    ...s,
+    citation: s.citation.trim() || 'Eigene Übung der Lehrkraft.'
+  }));
+  if (y.kind === 'listening') {
+    y.questions = y.questions.map(q => {
+      if (q.type !== 'single_choice') return q;
+      return { ...q, options: q.options.filter(o => o.text.trim()) };
+    });
+    y.questions.forEach(q => {
+      if (!q.explanation.trim()) delete q.explanation;
+    });
+    if (!y.transcript) delete y.transcript;
+    if (y.media.type === 'youtube')
+      ['start', 'end'].forEach(k => y.media[k] === undefined && delete y.media[k]);
+  } else y.section = y.title;
+  return y;
+}
+/* Arbeitsstand sichern: der Entwurf bleibt immer erhalten, das Paket nur, wenn es gültig ist. */
+function edCommit() {
+  const item = edItem();
+  if (!item) return { ok: false, errors: [] };
+  const work = edWork || item.draft || item.payload;
+  const friendly = edFriendlyErrors(work);
+  const v = friendly.length ? { ok: false } : TheisContent.validatePackage(edClean(work));
+  item.draft = work;
+  item.updatedAt = new Date().toISOString();
+  if (v.ok) item.payload = v.value;
+  else if (item.status === 'published') item.status = 'draft';
+  saveEditorState();
+  const status = $('ed-status');
+  if (status)
+    status.innerHTML = v.ok
+      ? '<span class="ok">Gespeichert · bereit zum Teilen</span>'
+      : `<span class="warn">Gespeichert als Entwurf · noch offen:</span><ul>${(friendly.length
+          ? friendly
+          : v.errors
+        )
+          .slice(0, 6)
+          .map(t => `<li>${esc(t)}</li>`)
+          .join('')}</ul>`;
+  document.querySelectorAll('[data-ed-needs-valid]').forEach(b => (b.disabled = !v.ok));
+  return v;
+}
+function edSoon() {
+  clearTimeout(edTimer);
+  edTimer = setTimeout(edCommit, 400);
+}
+
+/* ---------- Teilen per Link ---------- */
+
+async function edPack(payload) {
+  const json = new TextEncoder().encode(JSON.stringify(payload));
+  let bytes = json,
+    tag = 'j';
+  if (typeof CompressionStream === 'function') {
+    const stream = new Blob([json]).stream().pipeThrough(new CompressionStream('deflate-raw'));
+    bytes = new Uint8Array(await new Response(stream).arrayBuffer());
+    tag = 'z';
+  }
+  let bin = '';
+  bytes.forEach(b => (bin += String.fromCharCode(b)));
+  return tag + btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+}
+async function edUnpack(code) {
+  const tag = code[0];
+  const bin = atob(code.slice(1).replace(/-/g, '+').replace(/_/g, '/'));
+  let bytes = Uint8Array.from(bin, c => c.charCodeAt(0));
+  if (tag === 'z') {
+    if (typeof DecompressionStream !== 'function') throw new Error('Browser zu alt');
+    const stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream('deflate-raw'));
+    bytes = new Uint8Array(await new Response(stream).arrayBuffer());
+  } else if (tag !== 'j') throw new Error('unbekannt');
+  return JSON.parse(new TextDecoder().decode(bytes));
+}
+async function edShare() {
+  const item = edItem();
+  const v = edCommit();
+  if (!v.ok) return toast('Bitte zuerst die offenen Punkte ergänzen.');
+  if (item.payload.sources.some(s => s.rights === 'needs_review'))
+    return toast(
+      'Rechte am Medium und an den Texten bitte erst klären (Abschnitt „Quelle und Rechte“).'
+    );
+  const u = new URL(location.href);
+  u.search = '';
+  u.hash = '';
+  u.searchParams.set('eigene', await edPack(item.payload));
+  const url = u.href;
+  let d = $('ed-share-dialog');
+  if (!d) {
+    d = document.createElement('dialog');
+    d.id = 'ed-share-dialog';
+    d.setAttribute('aria-labelledby', 'ed-share-title');
+    document.body.append(d);
+  }
+  const qr = url.length <= 2200 ? qrSVG(url, 'QR-Code zur eigenen Übung') : '';
+  d.innerHTML = `<div class="dialog-head"><h2 id="ed-share-title">Mit der Klasse teilen</h2><button class="button secondary" data-close="ed-share-dialog">Schließen</button></div>
+    <p>Der Link enthält die ganze Übung. Lernende brauchen keine Anmeldung; die Übung erscheint bei ihnen unter „Von deiner Lehrkraft“.</p>
+    ${qr ? `<div class="qr-card hw-qr">${qr}</div>` : '<p class="muted small">Für einen QR-Code ist diese Übung zu umfangreich. Teile den Link, z. B. in mebis oder per Nachricht.</p>'}
+    <div class="hw-actions"><button class="button primary" data-qr-copy="${esc(url)}">Link kopieren</button><a class="button secondary" href="${esc(url)}" target="_blank" rel="noopener">So sehen es Lernende</a></div>
+    <p class="muted small">Änderst du die Übung später, teile den neuen Link. Lernende mit dem alten Link behalten die alte Fassung.</p>`;
+  d.showModal();
+}
+
+/* Lernende: geteilte Übung aus dem Link übernehmen und öffnen. */
+function sharedPackages() {
+  return read('daje-geteilt-v1', [])
+    .map(x => TheisContent.validatePackage(x.payload))
+    .filter(v => v.ok)
+    .map(v => ({
+      ...v.value,
+      collection: v.value.kind === 'vocabulary' ? 'Von deiner Lehrkraft' : v.value.collection
+    }));
+}
+async function receiveShared(code) {
+  try {
+    const v = TheisContent.validatePackage(await edUnpack(code));
+    if (!v.ok) throw new Error('ungültig');
+    const list = read('daje-geteilt-v1', []).filter(x => x.payload?.id !== v.value.id);
+    list.unshift({ payload: v.value, at: new Date().toISOString() });
+    save('daje-geteilt-v1', list.slice(0, 40));
+    if (v.value.kind === 'listening') openListening(v.value.id);
+    else {
+      nav('vokabeln');
+      showVocabularySet(v.value.id);
+    }
+    toast('Übung von deiner Lehrkraft gespeichert.');
+  } catch (err) {
+    toast(
+      err.message === 'Browser zu alt'
+        ? 'Dein Browser kann diesen Link nicht öffnen. Bitte aktualisiere ihn.'
+        : 'Dieser Link ist unvollständig. Bitte die Lehrkraft um einen neuen.'
+    );
+  }
+}
+
+/* ---------- Ansicht ---------- */
+
+function renderStudio() {
+  const teacher = isTeacher();
+  if (!teacher) {
+    $('main').innerHTML =
+      `<div class="page"><header class="page-head"><div class="eyebrow">Redaktion</div><h1>Für Lehrkräfte</h1><p>Hier erstellen Lehrkräfte eigene Übungen für ihre Klasse.</p></header><button class="button primary" data-audience="teach">Zur Ansicht für Lehrkräfte</button></div>`;
+    return;
+  }
+  const review = edReviewIds();
+  const own = editorState.items.filter(x => !review.has(edId(x)));
+  const catalog = editorState.items.filter(x => review.has(edId(x)));
+  const item = edItem();
+  if (item && (!edWork || edWork.id !== edId(item)))
+    edWork = JSON.parse(JSON.stringify(item.draft || item.payload));
+  const card = x => {
+    const p = x.draft || x.payload;
+    const state =
+      x.payload && (!x.draft || x.payload.title === x.draft.title)
+        ? x.status === 'published'
+          ? 'Im Katalog sichtbar'
+          : 'Fertig'
+        : 'Entwurf';
+    return `<button class="ed-card ${edId(x) === studioSelection ? 'active' : ''}" data-ed-open="${esc(edId(x))}"><span class="badge">${p.kind === 'listening' ? 'Hören' : 'Wörter'} · ${esc(p.level)}</span><b>${esc(p.title)}</b><small>${esc(portalLang(p.language))} · ${state}</small></button>`;
+  };
+  $('main').innerHTML = `<div class="page studio">
+    <header class="page-head"><div class="eyebrow">Redaktion</div><h1>Eigene Übungen</h1><p>Erstelle Hörübungen und Wortlisten für deine Klasse. Alles bleibt in diesem Browser, bis du es als Link teilst.</p></header>
+    <div class="ed-new">
+      <button class="button primary" data-ed-new="listening">Neue Hörübung</button>
+      <button class="button secondary" data-ed-new="vocabulary">Neue Wortliste</button>
+      <button class="button secondary" data-portal="studio-load">Datei importieren</button>
+      <input id="studio-file" type="file" accept=".json,application/json" hidden>
+    </div>
+    <details class="ed-ai" ${lastValidation ? 'open' : ''}><summary>Mit KI erstellen oder JSON einfügen</summary>
+      <p class="small muted">Gib einer KI dein Material, die Kommandodatei und ein Beispiel. Die erzeugte Datei hier einfügen oder importieren. Danach wie jede eigene Übung prüfen und bearbeiten.</p>
+      <div class="studio-downloads"><a class="button secondary" href="imports/KI-Kommandodatei.md" download>KI-Kommandodatei</a><a class="button secondary" href="imports/Vokabel-Kommandodatei-Schulbuch.md" download>Kommandodatei Wortschatz</a><a class="button secondary" href="examples/listening-all-task-types.json" download>Beispiel Hörübung</a><a class="button secondary" href="examples/vocabulary-example.json" download>Beispiel Wortliste</a></div>
+      <label class="field">JSON einfügen<textarea id="studio-json" rows="6" maxlength="2000000" spellcheck="false" placeholder="{ ... }">${esc(lastValidation?.raw || '')}</textarea></label>
+      <button class="button secondary" data-portal="studio-validate">Prüfen</button>
+      <div id="studio-validation" role="status">${validationHTML()}</div>
+    </details>
+    <div class="ed-layout">
+      <nav class="ed-list" aria-label="Eigene Inhalte">
+        ${own.map(card).join('') || '<p class="hw-empty">Noch keine eigenen Übungen. Lege oben eine an oder öffne eine Hörübung im Katalog und wähle „Als eigene Übung bearbeiten“.</p>'}
+        ${catalog.length ? `<details class="ed-catalog"><summary>Katalog-Arbeitsfassungen (${catalog.length})</summary>${catalog.map(card).join('')}</details>` : ''}
+      </nav>
+      <section class="ed-editor">${item ? editorFormHTML(item) : '<div class="studio-empty"><h2>Wähle links eine Übung</h2><p class="muted">oder lege eine neue an. Änderungen werden automatisch gespeichert.</p></div>'}</section>
+    </div>
+  </div>`;
+  if (item) edCommit();
+}
+function edField(label, html, hint = '') {
+  return `<label class="field">${label}${html}${hint ? `<small class="muted">${hint}</small>` : ''}</label>`;
+}
+const edSel = (key, value, list) =>
+  `<select data-ed="${key}">${list.map(([k, t]) => `<option value="${esc(k)}" ${k === value ? 'selected' : ''}>${esc(t)}</option>`).join('')}</select>`;
+const edTime = s =>
+  s === undefined || s === '' ? '' : Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0');
+
+function editorFormHTML(item) {
+  const x = edWork || item.draft || item.payload;
+  const langs = Object.entries(TheisContent.LANGUAGES);
+  const head = `<div class="ed-toolbar">
+      <button class="button secondary" data-ed-act="preview" data-ed-needs-valid>Vorschau</button>
+      <button class="button primary" data-ed-act="share" data-ed-needs-valid>Mit Klasse teilen</button>
+      <button class="button secondary" data-ed-act="catalog" data-ed-needs-valid aria-pressed="${item.status === 'published'}">${item.status === 'published' ? 'Im Katalog sichtbar' : 'Im eigenen Katalog zeigen'}</button>
+      <button class="quiet" data-ed-act="export" data-ed-needs-valid>Als Datei sichern</button>
+      <button class="quiet danger" data-ed-act="delete">Löschen</button>
+    </div>
+    <div id="ed-status" class="ed-status" role="status"></div>
+    <div class="ed-grid">
+      ${edField('Titel', `<input data-ed="title" maxlength="120" value="${esc(x.title)}">`)}
+      ${edField('Kurzbeschreibung', `<input data-ed="description" maxlength="600" value="${esc(x.description)}">`)}
+      ${edField('Sprache', edSel('language', x.language, langs))}
+      ${edField(
+        'Niveau',
+        edSel(
+          'level',
+          x.level,
+          ED_LEVELS.map(l => [l, l])
+        )
+      )}
+    </div>`;
+  const rights = `<details class="ed-box"><summary>Quelle und Rechte</summary>
+      ${edField('Herkunft', `<textarea data-ed="citation" rows="2" maxlength="1000">${esc(x.sources[0]?.citation || '')}</textarea>`, 'z. B. „Eigener Text“ oder „Video von …, YouTube“')}
+      ${edField(
+        'Nutzungsrechte',
+        edSel('rights', x.sources[0]?.rights || 'own', [
+          ['own', 'Eigener Inhalt'],
+          ['cleared', 'Nutzung geklärt'],
+          ['needs_review', 'Noch zu prüfen (nicht teilbar)']
+        ])
+      )}
+    </details>`;
+  if (x.kind === 'vocabulary') {
+    const lines = x.entries
+      .map(
+        w => w.target + ' = ' + w.translations.join(' / ') + (w.example ? ' | ' + w.example : '')
+      )
+      .join('\n');
+    return `${head}<section class="ed-box"><h3>Wörter</h3>
+      <p class="small muted">Eine Zeile pro Eintrag: <code>Wort = Übersetzung | Beispielsatz</code>. Mehrere Übersetzungen mit „/“ trennen; der Beispielsatz ist freiwillig.</p>
+      <textarea data-ed="lines" class="ed-lines" rows="14" spellcheck="false" placeholder="la stazione = der Bahnhof | Il treno parte dalla stazione.">${esc(lines)}</textarea>
+      <p class="small muted" id="ed-count">${plural(x.entries.length, 'Eintrag', 'Einträge')}</p></section>${rights}`;
+  }
+  const m = x.media;
+  const mediaFields =
+    m.type === 'youtube'
+      ? `${edField('YouTube-Link', `<input data-ed="youtube" inputmode="url" value="${m.videoId ? 'https://youtu.be/' + esc(m.videoId) : ''}" placeholder="https://www.youtube.com/watch?v=…">`)}
+         <div class="ed-grid">${edField('Beginn (mm:ss, optional)', `<input data-ed="start" inputmode="numeric" value="${edTime(m.start)}" placeholder="0:00">`)}${edField('Ende (mm:ss, optional)', `<input data-ed="end" inputmode="numeric" value="${edTime(m.end)}" placeholder="2:30">`)}</div>`
+      : m.type === 'audio'
+        ? edField(
+            'Adresse der Audiodatei',
+            `<input data-ed="audio" inputmode="url" value="${esc(m.url || '')}" placeholder="https://…/aufnahme.mp3">`,
+            'Die Datei muss öffentlich erreichbar sein (https).'
+          )
+        : m.type === 'speech'
+          ? edField(
+              'Text, den der Browser vorliest',
+              `<textarea data-ed="speech" rows="5" maxlength="4000">${esc(m.text || '')}</textarea>`
+            )
+          : `<p class="small muted">Dieses Medium (${esc(m.type)}) lässt sich im Bereich „Alles bearbeiten (JSON)“ ändern.</p>`;
+  const qs = x.questions.map((q, i) => edQuestionHTML(q, i, x.questions.length)).join('');
+  return `${head}
+    <section class="ed-box"><h3>Medium</h3>
+      ${edField('Art', edSel('mediaType', ['youtube', 'audio', 'speech'].includes(m.type) ? m.type : m.type, [['youtube', 'YouTube-Video'], ['audio', 'Audiodatei (Link)'], ['speech', 'Text vorlesen lassen'], ...(['youtube', 'audio', 'speech'].includes(m.type) ? [] : [[m.type, m.type]])]))}
+      ${mediaFields}
+      <details><summary>Transkript (optional)</summary>${edField('', `<textarea data-ed="transcript" rows="6" maxlength="40000">${esc(x.transcript || '')}</textarea>`, 'Lernende können es als Hilfe öffnen. Liedtexte nur, wenn du sie verwenden darfst.')}</details>
+    </section>
+    <section class="ed-box"><h3>Aufgaben <span class="muted">(${x.questions.length})</span></h3>${qs}
+      <div class="ed-add">${ED_TYPES.map(([t, l]) => `<button class="button secondary" data-ed-add="${t}">+ ${l}</button>`).join('')}</div>
+    </section>${rights}`;
+}
+function edQuestionHTML(q, i, n) {
+  const tools = `<span class="ed-qtools"><button class="quiet" data-ed-qmove="${i}" data-dir="-1" aria-label="Nach oben" ${i === 0 ? 'disabled' : ''}>↑</button><button class="quiet" data-ed-qmove="${i}" data-dir="1" aria-label="Nach unten" ${i === n - 1 ? 'disabled' : ''}>↓</button><button class="quiet" data-ed-qdel="${i}" aria-label="Aufgabe löschen">✕</button></span>`;
+  const editable = ED_TYPES.some(([t]) => t === q.type);
+  let body = '';
+  if (!editable)
+    body = `<p class="small muted">${esc(LISTENING_FORMAT_LABELS[q.type] || q.type)}: Diese Aufgabe lässt sich im Bereich „Alles bearbeiten (JSON)“ ändern.</p>`;
+  else if (q.type === 'single_choice')
+    body =
+      `<div class="ed-options">${q.options
+        .map(
+          o =>
+            `<label class="ed-option"><input type="radio" name="ed-c-${i}" data-ed-q="${i}" data-k="correct" value="${esc(o.id)}" ${o.id === q.correctOptionId ? 'checked' : ''} aria-label="Richtige Antwort"><input data-ed-q="${i}" data-k="option" data-o="${esc(o.id)}" value="${esc(o.text)}" maxlength="500" placeholder="Antwort"></label>`
+        )
+        .join('')}</div>` +
+      (q.options.length < 6 ? `<button class="quiet" data-ed-opt="${i}">+ Antwort</button>` : '') +
+      '<small class="muted">Kreis = richtige Antwort. Leere Antworten werden ignoriert.</small>';
+  else if (q.type === 'true_false')
+    body = edField(
+      'Die Aussage ist …',
+      `<select data-ed-q="${i}" data-k="tf"><option value="true" ${q.answer ? 'selected' : ''}>richtig</option><option value="false" ${q.answer ? '' : 'selected'}>falsch</option></select>`
+    );
+  else
+    body = edField(
+      'Richtige Lösungen · eine pro Zeile',
+      `<textarea data-ed-q="${i}" data-k="answers" rows="3">${esc((q.acceptedAnswers || []).join('\n'))}</textarea>`,
+      'Groß-/Kleinschreibung und kleine Tippfehler werden toleriert.'
+    );
+  return `<div class="ed-q"><div class="ed-qhead"><b>${i + 1}</b>${editable ? `<select data-ed-q="${i}" data-k="type">${ED_TYPES.map(([t, l]) => `<option value="${t}" ${t === q.type ? 'selected' : ''}>${l}</option>`).join('')}</select>` : ''}${tools}</div>
+    ${edField(q.type === 'true_false' ? 'Aussage' : 'Frage', `<input data-ed-q="${i}" data-k="prompt" maxlength="1000" value="${esc(q.prompt)}">`)}
+    ${body}
+    ${editable ? edField('Erklärung nach der Korrektur (optional)', `<input data-ed-q="${i}" data-k="explanation" maxlength="1500" value="${esc(q.explanation || '')}">`) : ''}
+  </div>`;
 }
 function validationHTML() {
   if (!lastValidation) return '';
@@ -42,12 +451,19 @@ function validationHTML() {
       '</ul></div>'
     );
   const x = r.result.value;
-  return `<div class="validation-success"><b>Struktur gültig: ${esc(x.title)}</b><p>${x.kind === 'listening' ? x.questions.length + ' Aufgaben' : x.entries.length + ' Wörter'} · ${portalLang(x.language)} · ${x.level}</p><p>Die Strukturprüfung bestätigt weder fachliche Richtigkeit noch Nutzungsrechte. Import wird immer ein Entwurf.</p><button class="button primary" data-portal="studio-import">Als Entwurf übernehmen</button></div>`;
+  return `<div class="validation-success"><b>Gültig: ${esc(x.title)}</b><p>${x.kind === 'listening' ? x.questions.length + ' Aufgaben' : x.entries.length + ' Wörter'} · ${portalLang(x.language)} · ${x.level}</p><button class="button primary" data-portal="studio-import">Als eigene Übung übernehmen</button></div>`;
 }
+
+/* ---------- Import (Datei oder eingefügt) ---------- */
+
 async function importContentFile(file) {
   if (!file) return;
-  if (file.size > 2 * 1024 * 1024) return toast('Maximal 2 MB pro Datei.');
-  const text = await file.text();
+  if (file.size > 2 * 1024 * 1024) return toast('Höchstens 2 MB pro Datei.');
+  edValidateText(await file.text());
+  const details = document.querySelector('.ed-ai');
+  if (details) details.open = true;
+}
+function edValidateText(text) {
   try {
     lastValidation = { raw: text, result: TheisContent.validatePackage(JSON.parse(text)) };
   } catch {
@@ -55,242 +471,234 @@ async function importContentFile(file) {
       raw: text,
       result: {
         ok: false,
-        errors: ['JSON konnte nicht gelesen werden. Prüfe Kommas und Anführungszeichen.']
+        errors: ['Das ist kein lesbares JSON. Prüfe Kommas und Anführungszeichen.']
       }
     };
   }
   renderStudio();
 }
 function validateEditorText() {
-  const text = $('studio-json').value;
-  try {
-    lastValidation = { raw: text, result: TheisContent.validatePackage(JSON.parse(text)) };
-  } catch {
-    lastValidation = {
-      raw: text,
-      result: {
-        ok: false,
-        errors: ['JSON konnte nicht gelesen werden. Prüfe Kommas und Anführungszeichen.']
-      }
-    };
-  }
-  renderStudio();
+  edValidateText($('studio-json').value);
 }
 function acceptEditorImport() {
   if (!lastValidation?.result.ok) return;
   const payload = lastValidation.result.value;
   if (
-    editorState.items.some(x => x.payload.id === payload.id) ||
-    LISTENING_SEEDS.some(x => x.id === payload.id) ||
-    STOCK_PACKAGES.some(x => x.id === payload.id)
+    contentList(payload.kind).some(x => x.id === payload.id) ||
+    editorState.items.some(x => edId(x) === payload.id)
   )
-    return toast(
-      'Diese Paket-ID gibt es schon. Bestehende Inhalte werden nicht überschrieben. Verwende für ein neues Paket eine neue ID.'
-    );
-  if (editorState.items.length >= 100) return toast('Maximal 100 lokale Pakete.');
-  const next = {
-    items: [...editorState.items, { payload, status: 'draft', updatedAt: new Date().toISOString() }]
-  };
-  if (!save('ripassa-editor-v1', next)) return;
-  editorState = next;
-  studioSelection = payload.id;
+    payload.id = edNewId();
   lastValidation = null;
-  renderStudio();
-  toast('Als lokalen Entwurf übernommen.');
+  edCreate(payload, 'Übernommen. Bitte prüfen und bei Bedarf anpassen.');
 }
-function editorFormHTML(item) {
-  const x = item.payload,
-    common = `<div class="studio-editor-heading"><div><span class="step-label">03 · REDAKTIONELL PRÜFEN</span><h2>${esc(x.title)}</h2></div><span class="badge">${item.status === 'published' ? 'Lokal freigegeben' : 'Entwurf'}</span></div><form id="studio-edit-form"><label class="field">Titel<input id="edit-title" maxlength="120" required value="${esc(x.title)}"></label><div class="editor-fields"><label class="field">Niveau<select id="edit-level">${['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].map(v => `<option ${x.level === v ? 'selected' : ''}>${v}</option>`).join('')}</select></label><label class="field">Themen · mit Komma trennen<input id="edit-topics" value="${esc(x.topics.join(', '))}" maxlength="1000" required></label></div><label class="field">Kurzbeschreibung<textarea id="edit-description" maxlength="600" required>${esc(x.description)}</textarea></label>`;
-  const body =
-    x.kind === 'listening'
-      ? `<h3>Aufgaben und Lösungen</h3>${x.questions.map((q, i) => `<div class="editor-question"><label class="field">${i + 1} · Frage<input data-edit-question="${q.id}" value="${esc(q.prompt)}" maxlength="1000" required></label>${q.type === 'short_answer' ? `<label class="field">Zulässige Antworten · eine pro Zeile<textarea data-edit-answers="${q.id}" rows="3" required>${esc(q.acceptedAnswers.join('\n'))}</textarea></label>` : q.type === 'single_choice' ? `${q.options.map(o => `<label class="field">Antwortmöglichkeit ${o.id}<input data-edit-option="${q.id}-${o.id}" value="${esc(o.text)}" maxlength="500" required></label>`).join('')}<label class="field">Richtige Antwort<select data-edit-choice="${q.id}">${q.options.map(o => `<option value="${o.id}" ${o.id === q.correctOptionId ? 'selected' : ''}>${esc(o.text)}</option>`).join('')}</select></label>` : q.type === 'true_false' ? `<label class="field">Lösung<select data-edit-true="${q.id}"><option value="true" ${q.answer ? 'selected' : ''}>Richtig</option><option value="false" ${!q.answer ? 'selected' : ''}>Falsch</option></select></label>` : `<p class="small muted">Dieser Aufgabentyp (${q.type}) lässt sich unten über „Alles bearbeiten (JSON)“ ändern.</p>`}<label class="field">Erklärung<textarea data-edit-explanation="${q.id}" maxlength="1500" required>${esc(q.explanation)}</textarea></label></div>`).join('')}<details class="editor-media"><summary>Medium und Transkript</summary><p class="small muted">${x.media.type === 'speech' ? 'Browserstimme · eigener Text' : x.media.type === 'audio' ? 'Audiodatei · ' + esc(x.media.url) : 'YouTube · ' + esc(x.media.videoId)}</p>${x.media.type === 'speech' ? `<label class="field">Text für die Sprachausgabe<textarea id="edit-speech" rows="5" maxlength="12000" required>${esc(x.media.text)}</textarea></label>` : ''}${x.media.type === 'audio' ? `<label class="field">Adresse der Audiodatei<input id="edit-media-url" value="${esc(x.media.url)}" maxlength="2000" required></label>` : x.media.type === 'youtube' ? `<label class="field">YouTube-Video-ID<input id="edit-video-id" value="${esc(x.media.videoId)}" required></label>` : ''}<label class="field">Transkript<textarea id="edit-transcript" rows="5" maxlength="16000">${esc(x.transcript)}</textarea></label></details><details class="editor-media"><summary>Wortschatz zu dieser Hörübung · ${(x.vocabulary || []).length} Einträge</summary><p class="small muted">Wird mit der Hörübung importiert und direkt mit dem Trainer verknüpft.</p>${(x.vocabulary || []).map(w => `<div class="editor-word"><label class="field">Wort / Wendung<input data-activity-target="${w.id}" value="${esc(w.target)}" maxlength="300" required></label><label class="field">Übersetzungen · eine pro Zeile<textarea data-activity-translations="${w.id}" required>${esc(w.translations.join('\n'))}</textarea></label><label class="field">Zulässige Zielantworten · eine pro Zeile<textarea data-activity-answers="${w.id}">${esc((w.acceptedAnswers || []).join('\n'))}</textarea></label><label class="field">Beispiel<input data-activity-example="${w.id}" value="${esc(w.example || '')}" maxlength="1000"></label><label class="field">Erklärung in der Zielsprache<input data-activity-definition="${w.id}" value="${esc(w.definition || '')}" maxlength="1000"></label></div>`).join('') || '<p>Noch kein Wortschatz enthalten. Verwende das neue Importbeispiel, um ein Paket mit Wortschatz vorzubereiten.</p>'}</details>`
-      : `<div class="editor-fields"><label class="field">Sammlung / Lehrwerk<input id="edit-collection" value="${esc(x.collection)}" maxlength="160" required></label><label class="field">Abschnitt<input id="edit-section" value="${esc(x.section)}" maxlength="120" required></label></div><h3>${x.entries.length} Wörter und Wendungen</h3>${x.entries
-          .map(
-            w =>
-              `<div class="editor-word"><label class="field">Wort / Wendung<input data-edit-word="${w.id}" value="${esc(w.target)}" maxlength="300" required></label><label class="field">Übersetzungen · eine pro Zeile<textarea data-edit-translations="${w.id}" required>${esc(w.translations.join('\n'))}</textarea></label><label class="field">Zulässige Zielantworten · eine pro Zeile<textarea data-edit-target-answers="${w.id}">${esc(w.acceptedAnswers.join('\n'))}</textarea></label><label class="field">Beispielsatz<input data-edit-example="${w.id}" value="${esc(w.example)}" maxlength="1000"></label><details><summary>Antwortprüfung und Grammatik</summary><label class="field">Artikel beim Antworten<select data-edit-article-policy="${w.id}">${[
-                ['required', 'Artikel mitlernen'],
-                ['optional', 'Artikel optional']
-              ]
-                .map(
-                  ([k, t]) =>
-                    `<option value="${k}" ${(w.answerPolicy?.article || 'required') === k ? 'selected' : ''}>${t}</option>`
-                )
-                .join(
-                  ''
-                )}</select></label><label class="field">Tippfehler<select data-edit-typo-policy="${w.id}"><option value="hint" ${w.answerPolicy?.typo !== 'strict' ? 'selected' : ''}>Hinweis geben und erneut versuchen</option><option value="strict" ${w.answerPolicy?.typo === 'strict' ? 'selected' : ''}>Streng prüfen</option></select></label><label class="field">Wortart<select data-edit-pos="${w.id}">${[
-                ['other', 'Nicht festgelegt'],
-                ['noun', 'Substantiv'],
-                ['verb', 'Verb'],
-                ['adjective', 'Adjektiv'],
-                ['phrase', 'Wendung']
-              ]
-                .map(
-                  ([k, t]) =>
-                    `<option value="${k}" ${(w.grammar?.partOfSpeech || 'other') === k ? 'selected' : ''}>${t}</option>`
-                )
-                .join(
-                  ''
-                )}</select></label><label class="field">Genus<select data-edit-gender="${w.id}">${[
-                ['unknown', 'Nicht festgelegt'],
-                ['masculine', 'Maskulin'],
-                ['feminine', 'Feminin'],
-                ['neuter', 'Neutrum'],
-                ['common', 'Gemeinsames Genus']
-              ]
-                .map(
-                  ([k, t]) =>
-                    `<option value="${k}" ${(w.grammar?.gender || 'unknown') === k ? 'selected' : ''}>${t}</option>`
-                )
-                .join(
-                  ''
-                )}</select></label><label class="field">Artikel<input data-edit-grammar-article="${w.id}" maxlength="20" value="${esc(w.grammar?.article || '')}"></label><p class="small muted">Falsche Wortformen gehören nicht in die zulässigen Antworten. Hilfen führen zu einer erneuten Eingabe.</p></details></div>`
-          )
-          .join('')}`;
-  return (
-    common +
-    body +
-    `<details class="source-review"><summary>Quellen und offene Prüfpunkte</summary>${x.sources
-      .map(
-        (s, i) =>
-          `<label class="field">Quelle ${i + 1}<textarea data-source-citation="${i}" maxlength="1000" required>${esc(s.citation)}</textarea></label><label class="field">Originalquelle · HTTPS<input data-source-url="${i}" value="${esc(s.url)}" maxlength="2000"></label><label class="field">Nutzungsrechte · nur nach eigener Prüfung ändern<select data-source-rights="${i}">${[
-            ['needs_review', 'Noch zu prüfen'],
-            ['own', 'Eigener Inhalt'],
-            ['cleared', 'Nutzung geklärt']
-          ]
-            .map(
-              ([k, t]) => `<option value="${k}" ${s.rights === k ? 'selected' : ''}>${t}</option>`
-            )
-            .join('')}</select></label>`
-      )
-      .join(
-        ''
-      )}${x.reviewNotes.map(t => `<p class="small">${esc(t)}</p>`).join('') || '<p class="small muted">Keine weiteren Prüfpunkte angegeben.</p>'}</details><button class="button primary" type="submit">Änderungen als Entwurf speichern</button></form><p class="small muted" role="status">${esc(editorMessage)}</p><div class="studio-actions"><button class="button secondary" data-portal="studio-preview">Vorschau</button><button class="button secondary" data-portal="studio-export">JSON exportieren</button>${item.status === 'published' ? '<button class="quiet" data-portal="studio-withdraw">Lokale Freigabe zurücknehmen</button>' : ''}</div><div id="studio-preview"></div><section class="publish-box"><span class="step-label">04 · LOKAL FREIGEBEN</span><p class="small muted">Zuerst Änderungen speichern. Prüfe jede Lösung am Originalmaterial. Quellen mit needs_review verhindern die Freigabe.</p><label><input id="publish-reviewed" type="checkbox"> Inhalt, Lösungen und Nutzungsrechte habe ich geprüft.</label><button class="button primary" data-portal="studio-publish">In diesem Browser freigeben</button></section>`
-  );
-}
+/* Ältere Aufrufe aus portal.js */
 function saveEditorForm() {
-  const item = editorState.items.find(x => x.payload.id === studioSelection);
-  if (!item) return;
-  const x = JSON.parse(JSON.stringify(item.payload));
-  x.title = $('edit-title').value;
-  x.level = $('edit-level').value;
-  x.topics = $('edit-topics')
-    .value.split(',')
-    .map(x => x.trim())
-    .filter(Boolean);
-  x.description = $('edit-description').value;
-  if (x.kind === 'listening') {
-    x.questions.forEach(q => {
-      q.prompt = document.querySelector('[data-edit-question="' + q.id + '"]').value;
-      q.explanation = document.querySelector('[data-edit-explanation="' + q.id + '"]').value;
-      if (q.type === 'short_answer') {
-        q.acceptedAnswers = document
-          .querySelector('[data-edit-answers="' + q.id + '"]')
-          .value.split('\n')
-          .map(x => x.trim())
-          .filter(Boolean);
-        q.modelAnswer = q.acceptedAnswers[0] || '';
-      }
-      if (q.type === 'single_choice') {
-        q.correctOptionId = document.querySelector('[data-edit-choice="' + q.id + '"]').value;
-        q.options.forEach(
-          o =>
-            (o.text = document.querySelector(
-              '[data-edit-option="' + q.id + '-' + o.id + '"]'
-            ).value)
-        );
-      }
-      if (q.type === 'true_false')
-        q.answer = document.querySelector('[data-edit-true="' + q.id + '"]').value === 'true';
-    });
-    x.transcript = $('edit-transcript').value;
-    (x.vocabulary || []).forEach(w => {
-      w.target = document.querySelector('[data-activity-target="' + w.id + '"]').value;
-      w.translations = document
-        .querySelector('[data-activity-translations="' + w.id + '"]')
-        .value.split('\n')
-        .map(x => x.trim())
-        .filter(Boolean);
-      w.acceptedAnswers = document
-        .querySelector('[data-activity-answers="' + w.id + '"]')
-        .value.split('\n')
-        .map(x => x.trim())
-        .filter(Boolean);
-      w.example = document.querySelector('[data-activity-example="' + w.id + '"]').value;
-      w.definition = document.querySelector('[data-activity-definition="' + w.id + '"]').value;
-    });
-    if (x.media.type === 'speech') x.media.text = $('edit-speech').value;
-    if (x.media.type === 'audio') x.media.url = $('edit-media-url').value;
-    if (x.media.type === 'youtube') x.media.videoId = $('edit-video-id').value;
-  } else {
-    x.collection = $('edit-collection').value;
-    x.section = $('edit-section').value;
-    x.entries.forEach(w => {
-      w.target = document.querySelector('[data-edit-word="' + w.id + '"]').value;
-      w.translations = document
-        .querySelector('[data-edit-translations="' + w.id + '"]')
-        .value.split('\n')
-        .map(x => x.trim())
-        .filter(Boolean);
-      w.acceptedAnswers = document
-        .querySelector('[data-edit-target-answers="' + w.id + '"]')
-        .value.split('\n')
-        .map(x => x.trim())
-        .filter(Boolean);
-      delete w.acceptedAnswers;
-      if (document.querySelector('[data-edit-target-answers="' + w.id + '"]').value.trim())
-        w.acceptedAnswers = document
-          .querySelector('[data-edit-target-answers="' + w.id + '"]')
-          .value.split('\n')
-          .map(x => x.trim())
-          .filter(Boolean);
-      w.example = document.querySelector('[data-edit-example="' + w.id + '"]').value;
-      w.answerPolicy = {
-        article: document.querySelector('[data-edit-article-policy="' + w.id + '"]').value,
-        typo: document.querySelector('[data-edit-typo-policy="' + w.id + '"]').value
-      };
-      w.grammar = {
-        partOfSpeech: document.querySelector('[data-edit-pos="' + w.id + '"]').value,
-        gender: document.querySelector('[data-edit-gender="' + w.id + '"]').value,
-        article: document.querySelector('[data-edit-grammar-article="' + w.id + '"]').value
-      };
-    });
-  }
-  x.sources.forEach((source, i) => {
-    source.citation = document.querySelector('[data-source-citation="' + i + '"]').value;
-    source.url = document.querySelector('[data-source-url="' + i + '"]').value;
-    source.rights = document.querySelector('[data-source-rights="' + i + '"]').value;
-  });
-  const v = TheisContent.validatePackage(x);
-  if (!v.ok) {
-    editorMessage = v.errors.join(' · ');
-    return renderStudio();
-  }
-  const old = { ...item };
-  item.payload = v.value;
-  item.status = 'draft';
-  item.updatedAt = new Date().toISOString();
-  if (!saveEditorState()) {
-    Object.assign(item, old);
-    return;
-  }
-  editorMessage = 'Änderungen lokal als Entwurf gespeichert. Freigabe erneut prüfen.';
-  renderStudio();
+  edCommit();
 }
 function publishEditorItem() {
-  const x = editorState.items.find(x => x.payload.id === studioSelection);
-  if (!x) return;
-  if (!$('publish-reviewed').checked) return toast('Bitte die redaktionelle Prüfung bestätigen.');
-  if (x.payload.sources.some(s => s.rights === 'needs_review'))
-    return toast(
-      'Nutzungsrechte sind noch offen. Rechte am Original klären und ein korrigiertes Paket importieren.'
-    );
-  const old = x.status;
-  x.status = 'published';
-  if (!saveEditorState()) {
-    x.status = old;
-    return;
-  }
-  editorMessage = 'In diesem Browser freigegeben. Andere Nutzer sehen diese Änderung nicht.';
+  edToggleCatalog();
+}
+function edToggleCatalog() {
+  const item = edItem();
+  if (!item || !edCommit().ok) return;
+  if (item.status !== 'published' && item.payload.sources.some(s => s.rights === 'needs_review'))
+    return toast('Erst die Rechte klären (Abschnitt „Quelle und Rechte“).');
+  item.status = item.status === 'published' ? 'draft' : 'published';
+  saveEditorState();
   renderStudio();
-  toast('Lokale Freigabe gespeichert. Inhalt erscheint hier im Katalog.');
+  toast(
+    item.status === 'published'
+      ? 'Erscheint jetzt in deinem Katalog (nur auf diesem Gerät).'
+      : 'Nicht mehr im Katalog.'
+  );
+}
+
+/* ---------- Eingaben ---------- */
+
+function edParseTime(v) {
+  const m = String(v)
+    .trim()
+    .match(/^(\d{1,3})(?::(\d{1,2}))?$/);
+  if (!m) return undefined;
+  return m[2] === undefined ? Number(m[1]) : Number(m[1]) * 60 + Number(m[2]);
+}
+function edYouTubeId(v) {
+  const s = String(v).trim();
+  const m =
+    s.match(/(?:youtu\.be\/|v=|shorts\/|embed\/)([A-Za-z0-9_-]{11})/) ||
+    s.match(/^([A-Za-z0-9_-]{11})$/);
+  return m ? m[1] : '';
+}
+function edLines(text) {
+  const old = edWork.entries;
+  return text
+    .split('\n')
+    .map(l => l.trim())
+    .filter(Boolean)
+    .slice(0, 1000)
+    .map((l, i) => {
+      const [main, example] = l.split('|').map(s => s.trim());
+      const [target, tr] = main.split(/\s*=\s*/);
+      const prev = old[i] && old[i].target === (target || '').trim() ? old[i] : {};
+      const w = {
+        ...prev,
+        id: prev.id || 'w' + (i + 1) + '-' + Math.random().toString(36).slice(2, 6),
+        target: (target || '').trim(),
+        translations: (tr || '')
+          .split('/')
+          .map(s => s.trim())
+          .filter(Boolean)
+      };
+      if (example) w.example = example;
+      else delete w.example;
+      if (!w.translations.length) w.translations = ['?'];
+      return w;
+    })
+    .filter(w => w.target);
+}
+document.addEventListener('input', e => {
+  const t = e.target;
+  if (!edWork || !t.closest?.('.ed-editor')) return;
+  const k = t.dataset.ed;
+  const x = edWork;
+  if (k === 'title' || k === 'description') x[k] = t.value;
+  else if (k === 'citation') x.sources[0].citation = t.value;
+  else if (k === 'youtube') x.media.videoId = edYouTubeId(t.value);
+  else if (k === 'start' || k === 'end') {
+    const s = edParseTime(t.value);
+    if (s === undefined) delete x.media[k];
+    else x.media[k] = s;
+  } else if (k === 'audio') x.media.url = t.value.trim();
+  else if (k === 'speech') x.media.text = t.value;
+  else if (k === 'transcript') x.transcript = t.value;
+  else if (k === 'lines') {
+    x.entries = edLines(t.value);
+    const c = $('ed-count');
+    if (c) c.textContent = plural(x.entries.length, 'Eintrag', 'Einträge');
+  } else if (t.dataset.edQ !== undefined) {
+    const q = x.questions[Number(t.dataset.edQ)];
+    const f = t.dataset.k;
+    if (f === 'prompt' || f === 'explanation') q[f] = t.value;
+    else if (f === 'option') q.options.find(o => o.id === t.dataset.o).text = t.value;
+    else if (f === 'answers') {
+      q.acceptedAnswers = t.value
+        .split('\n')
+        .map(s => s.trim())
+        .filter(Boolean);
+      q.modelAnswer = q.acceptedAnswers[0] || '';
+    } else return;
+  } else return;
+  edSoon();
+});
+document.addEventListener('change', e => {
+  const t = e.target;
+  if (!edWork || !t.closest?.('.ed-editor')) return;
+  const x = edWork;
+  const k = t.dataset.ed;
+  if (k === 'language' || k === 'level') x[k] = t.value;
+  else if (k === 'rights') x.sources[0].rights = t.value;
+  else if (k === 'mediaType') {
+    x.media =
+      t.value === 'youtube'
+        ? { type: 'youtube', videoId: '' }
+        : t.value === 'audio'
+          ? { type: 'audio', url: '' }
+          : { type: 'speech', text: '' };
+    edCommit();
+    return renderStudio();
+  } else if (t.dataset.edQ !== undefined) {
+    const i = Number(t.dataset.edQ),
+      q = x.questions[i];
+    if (t.dataset.k === 'correct') q.correctOptionId = t.value;
+    else if (t.dataset.k === 'tf') q.answer = t.value === 'true';
+    else if (t.dataset.k === 'type') {
+      const fresh = edQuestion(t.value, 0);
+      x.questions[i] = { ...fresh, id: q.id, prompt: q.prompt, explanation: q.explanation || '' };
+      edCommit();
+      return renderStudio();
+    } else return;
+  } else return;
+  edCommit();
+});
+document.addEventListener('click', e => {
+  const b = e.target.closest(
+    '[data-ed-new],[data-ed-open],[data-ed-act],[data-ed-add],[data-ed-qmove],[data-ed-qdel],[data-ed-opt],[data-ed-copy],[data-ed-edit]'
+  );
+  if (!b) return;
+  if (b.dataset.edNew) return edCreate(edBlank(b.dataset.edNew));
+  if (b.dataset.edCopy) return edCopyFrom(b.dataset.edCopy);
+  if (b.dataset.edEdit) {
+    studioSelection = b.dataset.edEdit;
+    edWork = null;
+    return nav('redaktion');
+  }
+  if (b.dataset.edOpen) {
+    if (edWork) edCommit();
+    studioSelection = b.dataset.edOpen;
+    edWork = null;
+    renderStudio();
+    return document.querySelector('.ed-editor')?.scrollIntoView({ block: 'start' });
+  }
+  const x = edWork;
+  if (!x) return;
+  if (b.dataset.edAdd) {
+    const n =
+      Math.max(0, ...x.questions.map(q => Number(String(q.id).replace(/\D/g, '')) || 0)) + 1;
+    x.questions.push(edQuestion(b.dataset.edAdd, n));
+    edCommit();
+    renderStudio();
+    return document
+      .querySelectorAll('.ed-q')
+      [x.questions.length - 1]?.querySelector('[data-k="prompt"]')
+      ?.focus();
+  }
+  if (b.dataset.edQmove !== undefined) {
+    const i = Number(b.dataset.edQmove),
+      j = i + Number(b.dataset.dir);
+    [x.questions[i], x.questions[j]] = [x.questions[j], x.questions[i]];
+    edCommit();
+    return renderStudio();
+  }
+  if (b.dataset.edQdel !== undefined) {
+    if (!confirm('Diese Aufgabe löschen?')) return;
+    x.questions.splice(Number(b.dataset.edQdel), 1);
+    edCommit();
+    return renderStudio();
+  }
+  if (b.dataset.edOpt !== undefined) {
+    const q = x.questions[Number(b.dataset.edOpt)];
+    const id = 'abcdef'.split('').find(c => !q.options.some(o => o.id === c));
+    q.options.push({ id, text: '' });
+    edCommit();
+    return renderStudio();
+  }
+  const a = b.dataset.edAct;
+  const item = edItem();
+  if (a === 'preview' && edCommit().ok) {
+    if (item.payload.kind === 'listening') return openListening(item.payload.id, true);
+    return edPreviewWords(item.payload);
+  }
+  if (a === 'share') return edShare();
+  if (a === 'catalog') return edToggleCatalog();
+  if (a === 'export' && edCommit().ok) return downloadJSON(item.payload, item.payload.id + '.json');
+  if (
+    a === 'delete' &&
+    confirm('„' + x.title + '“ endgültig löschen? Das lässt sich nicht rückgängig machen.')
+  ) {
+    editorState.items = editorState.items.filter(y => y !== item);
+    saveEditorState();
+    studioSelection = null;
+    edWork = null;
+    renderStudio();
+  }
+});
+function edPreviewWords(p) {
+  let d = $('ed-preview-dialog');
+  if (!d) {
+    d = document.createElement('dialog');
+    d.id = 'ed-preview-dialog';
+    document.body.append(d);
+  }
+  d.innerHTML = `<div class="dialog-head"><h2>${esc(p.title)}</h2><button class="button secondary" data-close="ed-preview-dialog">Schließen</button></div>${p.entries.map(w => `<p><b>${esc(w.target)}</b> · ${esc(w.translations.join(' / '))}${w.example ? `<br><small class="muted">${esc(w.example)}</small>` : ''}</p>`).join('')}`;
+  d.showModal();
 }

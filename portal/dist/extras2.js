@@ -317,16 +317,19 @@ async function attachCover(payload) {
 document.addEventListener('click', async e => {
   const b = e.target.closest('[data-portal="cover-find"]');
   if (!b) return;
-  const item = editorState.items.find(x => x.payload.id === studioSelection);
+  const item = editorState.items.find(x => x.payload?.id === studioSelection);
   if (!item) return;
   b.disabled = true;
   try {
     const q = $('edit-cover-query')?.value.trim();
+    if (!edCommit().ok) throw new Error('Bitte zuerst die offenen Punkte ergänzen.');
     const p = structuredClone(item.payload);
     if (q) p.coverQuery = q;
     const v = TheisContent.validatePackage(await attachCover(p));
     if (!v.ok) throw new Error(v.errors.join(' · '));
     item.payload = v.value;
+    item.draft = v.value;
+    edWork = null;
     item.status = 'draft';
     saveEditorState();
     editorMessage = 'Neues Titelbild gespeichert.';
@@ -340,24 +343,26 @@ document.addEventListener('click', async e => {
 {
   const formBase = editorFormHTML;
   editorFormHTML = function (item) {
-    const x = item.payload,
+    const x = edWork || item.draft || item.payload,
       cover =
         x.kind === 'listening'
-          ? `<section class="editor-cover"><h3>Titelbild</h3>${x.coverImage ? `<img src="${esc(x.coverImage)}" alt="" loading="lazy">` : '<p class="small muted">Noch kein eigenes Titelbild.</p>'}<label class="field">Suchbegriff (Englisch, konkretes Motiv)<input id="edit-cover-query" maxlength="120" value="${esc(x.coverQuery || '')}" placeholder="z. B. italian fruit market"></label><button type="button" class="button secondary" data-portal="cover-find">Freies Foto suchen</button>${x.coverCredit ? `<p class="small muted">${esc(x.coverCredit)}</p>` : ''}</section>`
+          ? `<details class="editor-cover ed-box"><summary>Titelbild (optional)</summary><p class="small muted">Ohne Foto erhält die Übung ein gestaltetes Titelbild in der Farbe der Sprache.</p>${x.coverImage ? `<img src="${esc(x.coverImage)}" alt="" loading="lazy">` : '<p class="small muted">Noch kein eigenes Titelbild.</p>'}<label class="field">Suchbegriff (Englisch, konkretes Motiv)<input id="edit-cover-query" maxlength="120" value="${esc(x.coverQuery || '')}" placeholder="z. B. italian fruit market"></label><button type="button" class="button secondary" data-portal="cover-find">Freies Foto suchen</button>${x.coverCredit ? `<p class="small muted">${esc(x.coverCredit)}</p>` : ''}</details>`
           : '';
-    const raw = `<details class="editor-media editor-raw"><summary>Alles bearbeiten (JSON)</summary><p class="small muted">Hier lässt sich jedes Feld ändern, auch Aufgabentypen und Bilder. Gespeichert wird erst nach erfolgreicher Prüfung.</p><textarea id="edit-raw" rows="16" spellcheck="false">${esc(JSON.stringify(x, null, 2))}</textarea><button type="button" class="button secondary" data-portal="raw-save">JSON prüfen und speichern</button></details>`;
+    const raw = `<details class="editor-media editor-raw ed-box"><summary>Alles bearbeiten (JSON, für Fortgeschrittene)</summary><p class="small muted">Hier lässt sich jedes Feld ändern, auch Aufgabentypen und Bilder. Gespeichert wird erst nach erfolgreicher Prüfung.</p><textarea id="edit-raw" rows="16" spellcheck="false">${esc(JSON.stringify(x, null, 2))}</textarea><button type="button" class="button secondary" data-portal="raw-save">JSON prüfen und speichern</button></details>`;
     return formBase(item) + cover + raw;
   };
 }
 document.addEventListener('click', e => {
   const b = e.target.closest('[data-portal="raw-save"]');
   if (!b) return;
-  const item = editorState.items.find(x => x.payload.id === studioSelection);
+  const item = editorState.items.find(x => x.payload?.id === studioSelection);
   try {
     const v = TheisContent.validatePackage(JSON.parse($('edit-raw').value));
     if (!v.ok) throw new Error(v.errors.slice(0, 5).join(' · '));
-    if (v.value.id !== item.payload.id) throw new Error('Die ID lässt sich hier nicht ändern.');
+    if (v.value.id !== studioSelection) throw new Error('Die ID lässt sich hier nicht ändern.');
     item.payload = v.value;
+    item.draft = v.value;
+    edWork = null;
     item.status = 'draft';
     item.updatedAt = new Date().toISOString();
     if (!saveEditorState()) return;

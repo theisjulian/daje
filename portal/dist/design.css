@@ -2453,3 +2453,337 @@ html[data-embed] .q {
   font-size: 14px;
   color: var(--accent2, var(--blue));
 }
+
+/* ---------- Hausaufgabe (aufgabe.js) ---------- */
+.hw-pill {
+  position: fixed;
+  right: 18px;
+  bottom: calc(18px + env(safe-area-inset-bottom));
+  z-index: 30;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--label);
+  color: var(--canvas);
+  font-weight: 600;
+  box-shadow: var(--lift-2);
+}
+.hw-pill b {
+  display: inline-grid;
+  place-items: center;
+  min-width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  background: var(--accent2, var(--blue));
+  color: #fff;
+  font-size: 13px;
+}
+@media (max-width: 899px) {
+  .hw-pill {
+    bottom: calc(86px + env(safe-area-inset-bottom));
+  }
+}
+.hw-add[aria-pressed='true'] {
+  background: color-mix(in srgb, var(--accent2, var(--blue)) 14%, transparent);
+  color: var(--accent2, var(--blue));
+}
+.hw-list,
+.hw-tasks {
+  list-style: none;
+  margin: 12px 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+.hw-list li,
+.hw-tasks li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: var(--glass-solid);
+  border: 1px solid var(--hairline);
+}
+.hw-list li > span:first-child,
+.hw-text {
+  flex: 1;
+  min-width: 0;
+  display: grid;
+}
+.hw-list small,
+.hw-text small {
+  color: var(--label-2);
+  font-size: 13px;
+}
+.hw-row-actions {
+  display: flex;
+  gap: 2px;
+}
+.hw-row-actions button {
+  min-width: 36px;
+  min-height: 36px;
+}
+.hw-qr {
+  max-width: 220px;
+  margin: 12px auto;
+}
+.hw-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.hw-empty {
+  padding: 18px;
+  border-radius: 14px;
+  background: var(--fill);
+  color: var(--label-2);
+}
+.hw-check {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid var(--hairline);
+  color: #fff;
+  font-weight: 700;
+}
+.hw-tasks li.is-done .hw-check {
+  background: var(--green);
+  border-color: var(--green);
+}
+.hw-home {
+  display: grid;
+  gap: 2px;
+  width: 100%;
+  text-align: left;
+  padding: 16px 18px;
+  border-radius: var(--sk-r, var(--r-lg));
+  border: 2px solid var(--accent2, var(--blue));
+  background: var(--glass-solid);
+  color: var(--label);
+}
+.hw-home b {
+  font-size: 18px;
+}
+.hw-home small {
+  color: var(--label-2);
+}
+
+/* ---------- Redaktion · Eigene Übungen (studio.js) ---------- */
+.ed-new {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.ed-ai,
+.ed-box {
+  padding: 14px 16px;
+  border-radius: var(--sk-r, var(--r-lg));
+  border: 1px solid var(--hairline);
+  background: var(--glass-solid);
+}
+.ed-ai > summary,
+.ed-box > summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+.ed-ai[open] > summary,
+.ed-box[open] > summary {
+  margin-bottom: 10px;
+}
+.ed-box h3 {
+  margin: 0 0 10px;
+}
+.ed-layout {
+  display: grid;
+  grid-template-columns: minmax(220px, 300px) minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+.ed-list {
+  display: grid;
+  gap: 8px;
+  position: sticky;
+  top: 12px;
+}
+.ed-card {
+  display: grid;
+  gap: 2px;
+  text-align: left;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid var(--hairline);
+  background: var(--glass-solid);
+  color: var(--label);
+}
+.ed-card.active {
+  border-color: var(--accent2, var(--blue));
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent2, var(--blue)) 25%, transparent);
+}
+.ed-card small {
+  color: var(--label-2);
+}
+.ed-card .badge {
+  justify-self: start;
+}
+.ed-catalog summary {
+  cursor: pointer;
+  padding: 8px 2px;
+  color: var(--label-2);
+  font-size: 14px;
+}
+.ed-catalog .ed-card {
+  margin-top: 6px;
+}
+.ed-editor {
+  display: grid;
+  gap: 14px;
+  min-width: 0;
+}
+.ed-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  padding: 10px 0;
+  background: var(--canvas);
+}
+.ed-toolbar .danger {
+  color: var(--red);
+}
+.ed-status {
+  font-size: 14px;
+}
+.ed-status .ok {
+  color: var(--green);
+  font-weight: 600;
+}
+.ed-status .warn {
+  color: var(--orange);
+  font-weight: 600;
+}
+.ed-status ul {
+  margin: 4px 0 0;
+  padding-left: 20px;
+  color: var(--label-2);
+}
+.ed-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 10px 14px;
+}
+.ed-editor .field {
+  display: grid;
+  gap: 4px;
+  margin: 0 0 10px;
+}
+.ed-editor .field input,
+.ed-editor .field textarea,
+.ed-editor .field select,
+.ed-lines {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 44px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--hairline);
+  background: var(--canvas);
+  color: var(--label);
+  font: inherit;
+  font-size: 16px;
+}
+.ed-lines {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.ed-q {
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 14px;
+  background: var(--fill);
+}
+.ed-qhead {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.ed-qhead > b {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--glass-solid);
+}
+.ed-qhead select {
+  min-height: 36px;
+  border-radius: 10px;
+  border: 1px solid var(--hairline);
+  background: var(--glass-solid);
+  padding: 0 8px;
+  font: inherit;
+}
+.ed-qtools {
+  margin-left: auto;
+  display: flex;
+}
+.ed-qtools button {
+  min-width: 36px;
+  min-height: 36px;
+}
+.ed-options {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+.ed-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.ed-option input[type='radio'] {
+  width: 22px;
+  height: 22px;
+  flex: none;
+  accent-color: var(--green);
+}
+.ed-option input:not([type='radio']) {
+  flex: 1;
+  min-width: 0;
+  min-height: 42px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--hairline);
+  background: var(--canvas);
+  font: inherit;
+  font-size: 16px;
+}
+.ed-add {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+@media (max-width: 899px) {
+  .ed-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .ed-list {
+    position: static;
+  }
+  .ed-toolbar {
+    position: static;
+    padding: 0;
+  }
+}

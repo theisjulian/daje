@@ -25,13 +25,16 @@
     v: view,
     l: view === 'hoeruebung' ? openedListening : null,
     b: view === 'vokabeln' ? wsBook.get() : null,
+    a: view === 'aufgabe' && hwCurrent ? hwCurrent.code : null,
     s: !!session
   });
-  const same = (a, b) => !!a && a.v === b.v && a.l === b.l && a.b === b.b && a.s === b.s;
+  const same = (a, b) =>
+    !!a && a.v === b.v && a.l === b.l && a.b === b.b && a.a === b.a && a.s === b.s;
   function urlOf(st) {
     const q = new URLSearchParams();
-    if (st.l) q.set('hoeren', st.l);
-    else if (st.v && st.v !== 'start' && st.v !== 'hoeruebung') q.set('seite', st.v);
+    if (st.a) q.set('aufgabe', st.a);
+    else if (st.l) q.set('hoeren', st.l);
+    else if (st.v && !['start', 'hoeruebung', 'aufgabe'].includes(st.v)) q.set('seite', st.v);
     if (st.b) q.set('buch', st.b);
     if (EMBED) q.set('embed', '1');
     const s = q.toString();
@@ -106,7 +109,8 @@
     }
     restoring = true;
     try {
-      if (st.l) openListening(st.l);
+      if (st.a) hwShow(st.a);
+      else if (st.l) openListening(st.l);
       else {
         if (st.v === 'vokabeln') wsBook.set(st.b || null);
         nav(PAGES.includes(st.v) ? st.v : 'start');

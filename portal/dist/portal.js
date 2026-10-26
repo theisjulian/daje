@@ -51,12 +51,14 @@ function contentList(kind) {
   const local = editorState.items
     .filter(
       x =>
-        x.payload.kind === kind &&
+        x.payload?.kind === kind &&
         (x.status === 'published' || (kind === 'listening' && reviewIds.has(x.payload.id)))
     )
     .map(x => x.payload);
-  const overridden = new Set(local.map(x => x.id));
-  return [...seeds.filter(x => !overridden.has(x.id)), ...local];
+  // Von der Lehrkraft per Link geteilte Übungen (studio.js) erscheinen bei Lernenden mit im Katalog.
+  const shared = typeof sharedPackages === 'function' ? sharedPackages().filter(x => x.kind === kind) : [];
+  const overridden = new Set([...local, ...shared].map(x => x.id));
+  return [...seeds.filter(x => !overridden.has(x.id)), ...shared.filter(x => !local.some(l => l.id === x.id)), ...local];
 }
 function activityVocabularyPackage(x) {
   return {
@@ -94,7 +96,7 @@ function workingLessonNotice(x) {
 function currentLesson() {
   return (
     contentList('listening').find(x => x.id === openedListening) ||
-    editorState.items.find(x => x.payload.id === openedListening)?.payload
+    editorState.items.find(x => x.payload?.id === openedListening)?.payload
   );
 }
 function favoriteKey(kind, id) {
@@ -175,7 +177,7 @@ function openListening(id, preview = false) {
   stopListening();
   const x =
     contentList('listening').find(x => x.id === id) ||
-    (preview ? editorState.items.find(x => x.payload.id === id)?.payload : null);
+    (preview ? editorState.items.find(x => x.payload?.id === id)?.payload : null);
   if (!x) {
     nav('hoeren');
     return toast('Diese Hörübung ist hier nicht verfügbar.');
@@ -401,25 +403,27 @@ function setupPortal() {
 
   const raw = read('ripassa-editor-v1', null);
   if (raw && Array.isArray(raw.items)) {
+    // Unfertige Entwürfe (draft) bleiben erhalten, auch wenn noch kein gültiges Paket existiert.
     editorState.items = raw.items.slice(0, 100).flatMap(x => {
-      const v = TheisContent.validatePackage(x.payload);
-      return v.ok
-        ? [
-            {
-              payload: v.value,
-              status: x.status === 'published' ? 'published' : 'draft',
-              updatedAt: typeof x.updatedAt === 'string' ? x.updatedAt : new Date().toISOString()
-            }
-          ]
-        : [];
+      const v = x.payload ? TheisContent.validatePackage(x.payload) : { ok: false };
+      const draft = x.draft && typeof x.draft === 'object' && typeof x.draft.id === 'string' ? x.draft : null;
+      if (!v.ok && !draft) return [];
+      return [
+        {
+          payload: v.ok ? v.value : null,
+          ...(draft ? { draft } : {}),
+          status: v.ok && x.status === 'published' ? 'published' : 'draft',
+          updatedAt: typeof x.updatedAt === 'string' ? x.updatedAt : new Date().toISOString()
+        }
+      ];
     });
   }
   const latestSeeds = new Map(LISTENING_REVIEW_SEEDS.map(x => [x.id, x]));
   for (const item of editorState.items) {
-    if (item.updatedAt === '2026-10-25T00:00:00.000Z' && latestSeeds.has(item.payload.id))
+    if (item.payload && item.updatedAt === '2026-10-25T00:00:00.000Z' && latestSeeds.has(item.payload.id))
       item.payload = JSON.parse(JSON.stringify(latestSeeds.get(item.payload.id)));
   }
-  const present = new Set(editorState.items.map(x => x.payload.id));
+  const present = new Set(editorState.items.map(x => (x.payload || x.draft).id));
   for (const payload of LISTENING_REVIEW_SEEDS) {
     if (!present.has(payload.id) && editorState.items.length < 100) {
       const v = TheisContent.validatePackage(payload);
@@ -432,7 +436,7 @@ function setupPortal() {
     }
   }
   for (const item of editorState.items) {
-    if (item.payload.kind === 'listening')
+    if (item.payload?.kind === 'listening')
       item.payload.transcript = transcriptForDisplay(item.payload.transcript);
   }
   document.querySelector('.appname small').textContent = 'Hören und Wortschatz';
@@ -533,6 +537,11 @@ function portalClick(e) {
   const b = e.target.closest('button');
   if (!b) return;
   if (b.dataset.audience) {
+    // Die Lehrkräfte-Ansicht zeigt Lösungen. Einmal pro Gerät nachfragen, damit Lernende nicht versehentlich wechseln.
+    if (b.dataset.audience === 'teach' && portalAudience !== 'teach' && !read('daje-lehrkraft-ok', false)) {
+      if (!confirm('Die Ansicht für Lehrkräfte zeigt Lösungen und Unterrichtsmaterial. Bist du Lehrkraft?')) return;
+      save('daje-lehrkraft-ok', true);
+    }
     setPortalAudience(b.dataset.audience);
     return refreshAudience();
   }
@@ -702,7 +711,7 @@ function portalClick(e) {
     renderStudio();
   }
   if (a === 'studio-preview') {
-    const x = editorState.items.find(x => x.payload.id === studioSelection);
+    const x = editorState.items.find(x => x.payload?.id === studioSelection);
     if (x?.payload.kind === 'listening') openListening(studioSelection, true);
     else if (x) {
       $('studio-preview').innerHTML = `<h3>${esc(x.payload.title)}</h3>${x.payload.entries
@@ -713,7 +722,7 @@ function portalClick(e) {
   }
   if (a === 'studio-publish') publishEditorItem();
   if (a === 'studio-withdraw') {
-    const x = editorState.items.find(x => x.payload.id === studioSelection);
+    const x = editorState.items.find(x => x.payload?.id === studioSelection);
     if (x) {
       x.status = 'draft';
       saveEditorState();
@@ -721,7 +730,7 @@ function portalClick(e) {
     }
   }
   if (a === 'studio-export') {
-    const x = editorState.items.find(x => x.payload.id === studioSelection);
+    const x = editorState.items.find(x => x.payload?.id === studioSelection);
     if (x) downloadJSON(x.payload, x.payload.id + '.json');
   }
 }
