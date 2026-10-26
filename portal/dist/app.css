@@ -7911,3 +7911,13 @@ body.previewing-teaching #teaching-print.dlg-mode{position:fixed;inset:0;z-index
 .ed-evidence.fehlt { background: color-mix(in srgb, var(--orange) 18%, transparent); }
 .ed-q small.muted { display: block; margin-top: 4px; }
 .ki-mode { margin: 0 0 12px; }
+/* Redaktion: sieben Aufgabentypen zum Hinzufügen, auch am Handy übersichtlich */
+.ed-add-h { margin: 14px 0 6px; font-size: 14px; font-weight: 600; color: var(--label-2); }
+.ed .ed-add, .ed-add { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+.ed-add .button { width: 100%; justify-content: center; }
+.ed-option input[type='checkbox'] { flex: none; width: 22px; height: 22px; min-height: 0; padding: 0; margin: 0; accent-color: var(--green, #34c759); }
+.ed-qhead select { min-width: 0; flex: 1 1 auto; }
+.ed-qhead .ed-qtools { flex: none; }
+.ed-editor { grid-template-columns: minmax(0, 1fr); }
+.ed-options { grid-template-columns: minmax(0, 1fr); }
+.ed-option input[type='radio'] { margin: 0; }

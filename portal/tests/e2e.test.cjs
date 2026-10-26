@@ -465,6 +465,34 @@ async function step(name, fn) {
     assert.match(await pp.inputValue('[data-ed="lines"]'), /prendere piede = sich durchsetzen/);
   });
 
+  await step('Redaktion: alle sieben Aufgabentypen per Formular anlegen', async () => {
+    await pp.goto(base, { waitUntil: 'networkidle' });
+    await pp.click('[data-audience="teach"]');
+    await pp.evaluate(() => nav('redaktion'));
+    await pp.click('[data-ed-new="listening"]');
+    await pp.fill('[data-ed="title"]', 'Alle Typen');
+    await pp.fill('[data-ed="youtube"]', 'https://youtu.be/dK9KAT5BDBM');
+    const q = n => pp.locator('.ed-q').nth(n);
+    await q(0).locator('[data-k="prompt"]').fill('Che cosa ordina?');
+    await q(0).locator('[data-k="option"]').nth(0).fill('un caffè');
+    await q(0).locator('[data-k="option"]').nth(1).fill('un tè');
+    for (const t of ['multiple_choice', 'gap_fill', 'matching', 'ordering']) await pp.click(`[data-ed-add="${t}"]`);
+    await q(1).locator('[data-k="prompt"]').fill('Che cosa compra?');
+    for (const [k, v] of [[0, 'pane'], [1, 'latte'], [2, 'pesce']]) await q(1).locator('[data-k="option"]').nth(k).fill(v);
+    await q(1).locator('[data-k="correctMulti"]').nth(0).check();
+    await q(2).locator('[data-k="prompt"]').fill('Completa.');
+    await q(2).locator('[data-k="gaptext"]').fill('Vorrei un [cappuccino] e un [cornetto / brioche].');
+    await q(3).locator('[data-k="prompt"]').fill('Abbina.');
+    await q(3).locator('[data-k="pairs"]').fill('cliente = ordina\nbarista = serve');
+    await q(4).locator('[data-k="prompt"]').fill('Metti in ordine.');
+    await q(4).locator('[data-k="items"]').fill('Buongiorno\nVorrei un caffè\nArrivederci');
+    await pp.waitForTimeout(700);
+    assert.match(await pp.textContent('#ed-status'), /bereit zum Teilen/);
+    const types = await pp.evaluate(() => edItem().payload.questions.map(q => q.type).join(','));
+    assert.equal(types, 'single_choice,multiple_choice,gap_fill,matching,ordering');
+    assert.equal(await pp.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
+  });
+
   await step('Redaktion: eigene Hörübung anlegen, teilen und als Lernende öffnen', async () => {
     await pp.goto(base, { waitUntil: 'networkidle' });
     await pp.click('[data-audience="teach"]');

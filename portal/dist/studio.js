@@ -7,9 +7,19 @@
  */
 const ED_TYPES = [
   ['single_choice', 'Einfachauswahl'],
+  ['multiple_choice', 'Mehrfachauswahl'],
   ['true_false', 'Richtig / Falsch'],
-  ['short_answer', 'Kurzantwort']
+  ['short_answer', 'Kurzantwort'],
+  ['gap_fill', 'Lückentext'],
+  ['matching', 'Zuordnen'],
+  ['ordering', 'Reihenfolge']
 ];
+const ED_PROMPT_HINT = {
+  multiple_choice: 'z. B. Quali attività vengono nominate? (più risposte)',
+  gap_fill: 'z. B. Completa con le parole del testo.',
+  matching: 'z. B. Chi dice che cosa? Abbina.',
+  ordering: 'z. B. Metti in ordine le fasi del dialogo.'
+};
 const ED_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 let edWork = null, // Arbeitskopie des gewählten Inhalts (Paketform)
   edTimer = null,
@@ -73,8 +83,13 @@ function edQuestion(type, n) {
       options: ['a', 'b', 'c'].map(id => ({ id, text: '' })),
       correctOptionId: 'a'
     });
+  if (type === 'multiple_choice')
+    Object.assign(q, { options: ['a', 'b', 'c', 'd'].map(id => ({ id, text: '' })), correctOptionIds: [] });
   if (type === 'true_false') q.answer = true;
   if (type === 'short_answer') Object.assign(q, { acceptedAnswers: [], modelAnswer: '' });
+  if (type === 'gap_fill') Object.assign(q, { text: '', gaps: [] });
+  if (type === 'matching') Object.assign(q, { pairs: [], distractors: [] });
+  if (type === 'ordering') q.items = [];
   return q;
 }
 function edCreate(payload, message) {
@@ -128,6 +143,19 @@ function edFriendlyErrors(x) {
         e.push(n + 'richtige Antwort markieren.');
       if (q.type === 'short_answer' && !q.acceptedAnswers.length)
         e.push(n + 'mindestens eine richtige Lösung eintragen.');
+      if (q.type === 'multiple_choice') {
+        const filled = q.options.filter(o => o.text.trim());
+        const right = filled.filter(o => (q.correctOptionIds || []).includes(o.id));
+        if (filled.length < 3) e.push(n + 'mindestens drei Antworten eintragen.');
+        else if (!right.length) e.push(n + 'mindestens eine richtige Antwort ankreuzen.');
+        else if (right.length === filled.length) e.push(n + 'mindestens eine Antwort muss falsch sein.');
+      }
+      if (q.type === 'gap_fill' && !q.gaps.length) e.push(n + 'Lösungen in eckige Klammern setzen, z. B. [sette].');
+      if (q.type === 'matching') {
+        if (q.pairs.some(p => !p.left || !p.right)) e.push(n + 'jedes Paar braucht links und rechts etwas („links = rechts“).');
+        else if (q.pairs.length < 2) e.push(n + 'mindestens zwei Paare eintragen.');
+      }
+      if (q.type === 'ordering' && q.items.length < 3) e.push(n + 'mindestens drei Elemente eintragen.');
     });
   } else if (!x.entries.length) e.push('Mindestens ein Wort eintragen.');
   return e;
@@ -144,6 +172,10 @@ function edClean(x) {
   }));
   if (y.kind === 'listening') {
     y.questions = y.questions.map(q => {
+      if (q.type === 'multiple_choice') {
+        const options = q.options.filter(o => o.text.trim());
+        return { ...q, options, correctOptionIds: (q.correctOptionIds || []).filter(id => options.some(o => o.id === id)) };
+      }
       if (q.type !== 'single_choice') return q;
       return { ...q, options: q.options.filter(o => o.text.trim()) };
     });
@@ -515,9 +547,30 @@ function editorFormHTML(item) {
       <details><summary>Transkript (optional)</summary>${edField('', `<textarea data-ed="transcript" rows="6" maxlength="40000">${esc(x.transcript || '')}</textarea>`, 'Lernende können es als Hilfe öffnen. Liedtexte nur, wenn du sie verwenden darfst.')}</details>
     </section>
     <section class="ed-box"><h3>Aufgaben <span class="muted">(${x.questions.length})</span></h3>${qs}
+      <p class="ed-add-h">Aufgabe hinzufügen</p>
       <div class="ed-add">${ED_TYPES.map(([t, l]) => `<button class="button secondary" data-ed-add="${t}">+ ${l}</button>`).join('')}</div>
     </section>${rights}`;
 }
+/* Schnelleingabe als Text: Lücken in eckigen Klammern, Paare mit „=“, Reihenfolge zeilenweise. */
+function edGapText(q) {
+  let i = 0;
+  return String(q.text || '').replace(/\[\[([a-z0-9-]+)\]\]/g, (m, id) => {
+    const g = q.gaps.find(x => x.id === id) || q.gaps[i];
+    i++;
+    return '[' + (g ? g.acceptedAnswers.join(' / ') : '') + ']';
+  });
+}
+function edParseGaps(q, raw) {
+  q.gaps = [];
+  q.text = raw.replace(/\[([^\[\]]*)\]/g, (m, inner) => {
+    const answers = inner.split('/').map(a => a.trim()).filter(Boolean);
+    if (!answers.length) return m;
+    const id = 'g' + (q.gaps.length + 1);
+    q.gaps.push({ id, acceptedAnswers: answers });
+    return '[[' + id + ']]';
+  });
+}
+const edLinesOf = v => String(v).split('\n').map(l => l.trim()).filter(Boolean);
 function edQuestionHTML(q, i, n) {
   const tools = `<span class="ed-qtools"><button class="quiet" data-ed-qmove="${i}" data-dir="-1" aria-label="Nach oben" ${i === 0 ? 'disabled' : ''}>↑</button><button class="quiet" data-ed-qmove="${i}" data-dir="1" aria-label="Nach unten" ${i === n - 1 ? 'disabled' : ''}>↓</button><button class="quiet" data-ed-qdel="${i}" aria-label="Aufgabe löschen">✕</button></span>`;
   const editable = ED_TYPES.some(([t]) => t === q.type);
@@ -534,6 +587,40 @@ function edQuestionHTML(q, i, n) {
         .join('')}</div>` +
       (q.options.length < 6 ? `<button class="quiet" data-ed-opt="${i}">+ Antwort</button>` : '') +
       '<small class="muted">Kreis = richtige Antwort. Leere Antworten werden ignoriert.</small>';
+  else if (q.type === 'multiple_choice')
+    body =
+      `<div class="ed-options">${q.options
+        .map(
+          o =>
+            `<label class="ed-option"><input type="checkbox" data-ed-q="${i}" data-k="correctMulti" value="${esc(o.id)}" ${(q.correctOptionIds || []).includes(o.id) ? 'checked' : ''} aria-label="Richtige Antwort"><input data-ed-q="${i}" data-k="option" data-o="${esc(o.id)}" value="${esc(o.text)}" maxlength="500" placeholder="Antwort"></label>`
+        )
+        .join('')}</div>` +
+      (q.options.length < 8 ? `<button class="quiet" data-ed-opt="${i}">+ Antwort</button>` : '') +
+      '<small class="muted">Häkchen = richtig. Mindestens eine Antwort muss falsch sein. Leere Antworten werden ignoriert.</small>';
+  else if (q.type === 'gap_fill')
+    body = edField(
+      'Text mit Lücken',
+      `<textarea data-ed-q="${i}" data-k="gaptext" rows="3" placeholder="Il treno parte alle [sette / 7] dal binario [tre / 3].">${esc(edGapText(q))}</textarea>`,
+      'Lösung in eckige Klammern setzen. Mehrere richtige Schreibweisen mit „/“ trennen.'
+    );
+  else if (q.type === 'matching')
+    body =
+      edField(
+        'Paare · eine Zeile pro Paar',
+        `<textarea data-ed-q="${i}" data-k="pairs" rows="4" placeholder="Giulia = invita Paolo al cinema\nPaolo = ha l’allenamento">${esc(q.pairs.map(p => p.left + ' = ' + p.right).join('\n'))}</textarea>`,
+        'Links = rechts. Die rechte Seite wird für die Lernenden gemischt. 2 bis 8 Paare.'
+      ) +
+      edField(
+        'Zusätzliche falsche Antworten (optional)',
+        `<textarea data-ed-q="${i}" data-k="distractors" rows="2" placeholder="eine pro Zeile">${esc((q.distractors || []).join('\n'))}</textarea>`,
+        'Erscheinen rechts mit, passen aber zu nichts. Höchstens 4.'
+      );
+  else if (q.type === 'ordering')
+    body = edField(
+      'Elemente in der richtigen Reihenfolge · eine Zeile pro Element',
+      `<textarea data-ed-q="${i}" data-k="items" rows="4" placeholder="Giulia telefona a Paolo\nPaolo chiede l’orario\nPaolo rifiuta">${esc(q.items.map(x => x.text).join('\n'))}</textarea>`,
+      'Die App mischt die Elemente. 3 bis 8 Elemente.'
+    );
   else if (q.type === 'true_false')
     body = edField(
       'Die Aussage ist …',
@@ -546,7 +633,7 @@ function edQuestionHTML(q, i, n) {
       'Groß-/Kleinschreibung und kleine Tippfehler werden toleriert.'
     );
   return `<div class="ed-q"><div class="ed-qhead"><b>${i + 1}</b>${editable ? `<select data-ed-q="${i}" data-k="type">${ED_TYPES.map(([t, l]) => `<option value="${t}" ${t === q.type ? 'selected' : ''}>${l}</option>`).join('')}</select>` : ''}${tools}</div>
-    ${edField(q.type === 'true_false' ? 'Aussage' : 'Frage', `<input data-ed-q="${i}" data-k="prompt" maxlength="1000" value="${esc(q.prompt)}">`)}
+    ${edField(q.type === 'true_false' ? 'Aussage' : ['gap_fill', 'matching', 'ordering'].includes(q.type) ? 'Arbeitsanweisung' : 'Frage', `<input data-ed-q="${i}" data-k="prompt" maxlength="1000" value="${esc(q.prompt)}" placeholder="${esc(ED_PROMPT_HINT[q.type] || '')}">`)}
     ${body}
     ${q.evidence ? edEvidenceHTML(q) : ''}
     ${editable ? edField('Erklärung nach der Korrektur (optional)', `<input data-ed-q="${i}" data-k="explanation" maxlength="1500" value="${esc(q.explanation || '')}">`) : ''}
@@ -711,6 +798,14 @@ document.addEventListener('input', e => {
     const f = t.dataset.k;
     if (f === 'prompt' || f === 'explanation') q[f] = t.value;
     else if (f === 'option') q.options.find(o => o.id === t.dataset.o).text = t.value;
+    else if (f === 'gaptext') edParseGaps(q, t.value);
+    else if (f === 'pairs')
+      q.pairs = edLinesOf(t.value).slice(0, 8).map((l, j) => {
+        const [left, ...rest] = l.split('=');
+        return { id: 'p' + (j + 1), left: left.trim(), right: rest.join('=').trim() };
+      });
+    else if (f === 'distractors') q.distractors = edLinesOf(t.value).slice(0, 4);
+    else if (f === 'items') q.items = edLinesOf(t.value).slice(0, 8).map((text, j) => ({ id: 'i' + (j + 1), text }));
     else if (f === 'answers') {
       q.acceptedAnswers = t.value
         .split('\n')
@@ -741,9 +836,21 @@ document.addEventListener('change', e => {
     const i = Number(t.dataset.edQ),
       q = x.questions[i];
     if (t.dataset.k === 'correct') q.correctOptionId = t.value;
+    else if (t.dataset.k === 'correctMulti') {
+      const set = new Set(q.correctOptionIds || []);
+      if (t.checked) set.add(t.value);
+      else set.delete(t.value);
+      q.correctOptionIds = q.options.map(o => o.id).filter(id => set.has(id));
+    }
     else if (t.dataset.k === 'tf') q.answer = t.value === 'true';
     else if (t.dataset.k === 'type') {
       const fresh = edQuestion(t.value, 0);
+      const choice = ['single_choice', 'multiple_choice'];
+      if (choice.includes(q.type) && choice.includes(t.value)) {
+        const opts = q.options.length >= (t.value === 'multiple_choice' ? 3 : 2) ? q.options : fresh.options;
+        if (t.value === 'multiple_choice') Object.assign(fresh, { options: opts, correctOptionIds: q.correctOptionId ? [q.correctOptionId] : [] });
+        else Object.assign(fresh, { options: opts.slice(0, 6), correctOptionId: (q.correctOptionIds || [])[0] || 'a' });
+      }
       x.questions[i] = { ...fresh, id: q.id, prompt: q.prompt, explanation: q.explanation || '' };
       edCommit();
       return renderStudio();
@@ -798,7 +905,7 @@ document.addEventListener('click', e => {
   }
   if (b.dataset.edOpt !== undefined) {
     const q = x.questions[Number(b.dataset.edOpt)];
-    const id = 'abcdef'.split('').find(c => !q.options.some(o => o.id === c));
+    const id = 'abcdefgh'.split('').find(c => !q.options.some(o => o.id === c));
     q.options.push({ id, text: '' });
     edCommit();
     return renderStudio();
