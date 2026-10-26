@@ -162,11 +162,11 @@ async function step(name, fn) {
     assert.deepEqual(r, ['hint', 'hint', 'correct']);
   });
 
-  await step('Alle zwölf Farbwelten, Hell/Dunkel und Tageslicht ohne Fehler', async () => {
+  await step('Alle 13 Farbwelten, Hell/Dunkel und Tageslicht ohne Fehler', async () => {
     await dp.goto(base, { waitUntil: 'networkidle' });
     await dp.click('#look-open');
     const skins = await dp.$$eval('#theme-grid button', b => b.map(x => x.dataset.skin));
-    assert.equal(skins.length, 12);
+    assert.equal(skins.length, 13);
     assert.ok(skins.includes('tag'));
     // Tageslicht bestimmt Hell/Dunkel selbst und wird deshalb getrennt geprüft.
     const fixed = skins.filter(s => s !== 'tag');
@@ -347,6 +347,7 @@ async function step(name, fn) {
     await pp.click('.tabbar [data-sheet="more"]');
     assert.ok(await pp.locator('#more-sheet').isVisible());
     await pp.click('#more-sheet [data-close]');
+    await pp.waitForTimeout(150); // Schließen nimmt den Verlaufseintrag des Blatts zurück
   });
 
   await step('Handy: Lehrkräfte-Start ohne abgeschnittene Inhalte', async () => {

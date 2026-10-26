@@ -39,7 +39,7 @@ let config = {
 };
 let prefs = {
     font: 'standard',
-    ...read('ecco-look-v1', { skin: 'standard', appearance: 'system', phase: 'auto' })
+    ...read('ecco-look-v1', { skin: 'daje', appearance: 'system', phase: 'auto' })
   },
   records = read('ecco-progress-v1', {}),
   view = 'lernen',
@@ -53,6 +53,7 @@ const fontList = [
   ['jost', 'Jost']
 ];
 const themeList = [
+  ['daje', 'daje', '#f6f2ea', '#c7361d'],
   ['standard', 'Standard', '#dbe3f4', '#0071e3'],
   ['apple', 'Apple', '#f2f2f7', '#007aff'],
   ['neon', 'Neon', '#f6e7ff', '#d4127a'],
@@ -278,7 +279,7 @@ function sources() {
       )
       .join(
         ''
-      )}<section class="source-text glass"><h3>Vorschaubilder der Hörübungen</h3><p>YouTube-Vorschaubilder stammen vom jeweils verknüpften Originalvideo und wurden nach Möglichkeit über img.youtube.com lokal eingebunden; weitere werden vom Anbieter geladen. Die Originalquelle und Anbieterangabe stehen bei jeder Hörübung unter Quelle und Hinweise. Die Vorschaubilder sind keine von uns erstellten oder pauschal frei lizenzierten Fotos. Die Kopfhörer-Buch-Illustration als Ersatzmotiv wurde für dieses Portal erstellt.</p></section><section class="source-text glass"><h3>Wortschatz und Lehrwerk</h3><p>Ecco più 1 · Metodo di italiano. Cornelsen. ISBN 978-3-06-022906-2. Grundlage ist der vom Nutzer bereitgestellte Auszug der Lista cronologica, hier Ciao! und Unità 1. Die Vorschau enthält ${WORDS.length} aufbereitete Einträge; nicht alle Kapitel des Lehrwerks.</p><p>Zusätzliche Definitionen und Beispielsätze sind eigene Übungsformulierungen und keine Zitate aus dem Lehrwerk. Wortformen sind teilweise für die Kartenansicht ausgeschrieben. Die Anwendung ist ein eigenständiger Entwurf und kein offizielles Cornelsen-Angebot.</p></section><section class="source-text glass"><h3>Gestaltung und Schrift</h3><p>Gestaltung und zwölf Farbwelten auf Grundlage des vorhandenen Gruppo-Quellstands im Repository theisjulian/app, ausschließlich lesend abgerufen. Inter aus Gruppo (Rasmus Andersson) und Schibsted Grotesk aus der bestehenden Website (Bakken & Bæck). Beide unter der SIL Open Font License.</p><div class="source-links"><a href="https://github.com/google/fonts/tree/main/ofl/schibstedgrotesk" target="_blank" rel="noopener">Schibsted Grotesk und Lizenz</a><a href="https://rsms.me/inter/" target="_blank" rel="noopener">Inter und Lizenz</a><button class="quiet" data-nav="hilfe">Wissenschaftliche Quellen der Lerntipps</button></div></section>`;
+      )}<section class="source-text glass"><h3>Vorschaubilder der Hörübungen</h3><p>Die Titelbilder der Hörübungen sind für daje gestaltet: Schrift und Farbe, keine Fotos. Vorschaubilder werden nicht von YouTube geladen; eine Verbindung zum Anbieter entsteht erst beim Abspielen. Einige Videos zeigen im Player ein Standbild des Originalvideos. Originalquelle und Anbieter stehen bei jeder Hörübung unter Quelle und Hinweise.</p></section><section class="source-text glass"><h3>Wortschatz und Lehrwerk</h3><p>Ecco più 1 · Metodo di italiano. Cornelsen. ISBN 978-3-06-022906-2. Grundlage ist der vom Nutzer bereitgestellte Auszug der Lista cronologica, hier Ciao! und Unità 1. Die Vorschau enthält ${WORDS.length} aufbereitete Einträge; nicht alle Kapitel des Lehrwerks.</p><p>Zusätzliche Definitionen und Beispielsätze sind eigene Übungsformulierungen und keine Zitate aus dem Lehrwerk. Wortformen sind teilweise für die Kartenansicht ausgeschrieben. Die Anwendung ist ein eigenständiger Entwurf und kein offizielles Cornelsen-Angebot.</p></section><section class="source-text glass"><h3>Gestaltung und Schrift</h3><p>Eigene Farbwelt daje; dazu zwölf weitere Farbwelten auf Grundlage des vorhandenen Gruppo-Quellstands im Repository theisjulian/app, ausschließlich lesend abgerufen. Inter aus Gruppo (Rasmus Andersson) und Schibsted Grotesk aus der bestehenden Website (Bakken & Bæck). Beide unter der SIL Open Font License.</p><div class="source-links"><a href="https://github.com/google/fonts/tree/main/ofl/schibstedgrotesk" target="_blank" rel="noopener">Schibsted Grotesk und Lizenz</a><a href="https://rsms.me/inter/" target="_blank" rel="noopener">Inter und Lizenz</a><button class="quiet" data-nav="hilfe">Wissenschaftliche Quellen der Lerntipps</button></div></section>`;
 }
 function verbs() {
   const v = $('verb-select')?.value || 'essere';

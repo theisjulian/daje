@@ -110,7 +110,7 @@ function lessonCard(x) {
     </button>
     <div class="lcard-body">
       <div class="lcard-meta"><span>${x.estimatedMinutes} Min.</span><span>${plural(x.questions.length, 'Aufgabe', 'Aufgaben')}</span>${working ? '<span class="flag">Arbeitsfassung</span>' : ''}</div>
-      <h3><button data-lesson="${esc(x.id)}">${esc(x.title)}</button></h3>
+      <h3 ${x.coverImage || PHOTOS[x.cover] ? '' : 'class="sr-only"'}><button data-lesson="${esc(x.id)}">${esc(x.title)}</button></h3>
       <p>${esc(visibleText(x.description))}</p>
       ${teacher ? '' : `<div class="lcard-progress" aria-hidden="true"><i style="width:${st.percent}%"></i></div>`}
       <div class="lcard-state">${esc(state)}</div>
@@ -178,66 +178,55 @@ function stepCard({ kicker, title, text, action, media, progress }) {
 
 function learnerHome(list, p) {
   const recent = p.history.find(h => list.some(l => l.id === h.id));
-  const resume = list.find(l => l.id === recent?.id);
+  const resume = list.find(l => l.id === recent?.id && !lessonStatus(l).done);
   const due = dueWordCount();
   const day = activeProfile().history[nowDate()];
   const goal = activeProfile().goal || 10;
   const doneToday = day?.ids.length || 0;
+  const percent = Math.min(100, Math.round((100 * doneToday) / goal));
   const suggestion = resume || nextLessons(list, 1)[0];
-  const primary = due
-    ? `<button class="button primary large" data-extra="recommend">${plural(due, 'Wort', 'Wörter')} wiederholen</button>`
-    : suggestion
-      ? `<button class="button primary large" data-lesson="${esc(suggestion.id)}">${resume ? 'Weiterhören' : 'Mit einer Hörübung starten'}</button>`
-      : '';
+  const fresh = !p.history.length && !Object.keys(records).length;
   const checked = Object.values(p.listening).filter(s => s.lastResult).length;
-  const words = suggestion?.vocabulary?.length;
-  return `<section class="xhero">
-      <div class="xhero-copy">
+  const more = nextLessons(list, 9).filter(x => x !== suggestion).slice(0, 8);
+  const st = suggestion && lessonStatus(suggestion);
+  return `<section class="today">
+      <div class="today-copy">
         <div class="eyebrow">Mein Lernbereich</div>
-        <h1>Hören, verstehen,<br><em>behalten.</em></h1>
-        <p>Kurze Hörübungen mit Rückmeldung und der passende Wortschatz dazu, in deinem Tempo.</p>
-        <div class="xhero-actions">${primary}<button class="button secondary large" data-nav="hoeren">Hörübungen entdecken</button></div>
+        <h1>${fresh ? 'Hören, verstehen,<br><em>behalten.</em>' : 'Weiter geht’s.'}</h1>
+        <p>${fresh ? 'Kurze Hörübungen mit Rückmeldung und der passende Wortschatz dazu, in deinem Tempo.' : `<span>${doneToday} von ${goal} Wörtern heute geübt.</span>${due ? ` <span>${plural(due, 'Wort wartet', 'Wörter warten')} auf ein Wiedersehen.</span>` : ''}`}</p>
       </div>
-      <div class="xhero-art"><img src="assets/torino.jpg" alt="Piazza Castello in Turin am Abend"><span class="xhero-cap">Ascolta. Capisci. Ripassa.</span></div>
+      <button class="today-ring" data-nav="fortschritt" style="--p:${percent}" aria-label="Tagesziel: ${doneToday} von ${goal} Wörtern"><b>${doneToday}</b><small>von ${goal}</small></button>
     </section>
-    <div class="steps">
-      ${
-        suggestion
-          ? stepCard({
-              kicker: resume ? 'Zuletzt geöffnet' : 'Zum Einstieg',
-              title: esc(suggestion.title),
-              text: `${esc(portalLang(suggestion.language))} · ${esc(suggestion.level)} · ${suggestion.estimatedMinutes} Min.`,
-              media: lessonCoverHTML(suggestion),
-              progress: lessonStatus(suggestion).percent,
-              action: `<button class="button secondary" data-lesson="${esc(suggestion.id)}">${resume ? 'Weiterlernen' : 'Anhören'}</button>`
-            })
-          : ''
-      }
-      ${stepCard({
-        kicker: 'Heute wiederholen',
-        title: due ? plural(due, 'Wort wartet', 'Wörter warten') : 'Alles wiederholt',
-        text: `${doneToday} von ${goal} Wörtern heute geübt.`,
-        progress: Math.min(100, Math.round((100 * doneToday) / goal)),
-        action: `<button class="button secondary" data-extra="recommend">${due ? 'Jetzt wiederholen' : 'Eine kleine Runde'}</button>`
-      })}
-      ${stepCard({
-        kicker: 'Wortschatz',
-        title: words ? 'Wörter dieser Übung' : 'Ecco più 1',
-        text: words
-          ? `${plural(words, 'Wort', 'Wörter')} aus „${esc(suggestion.title)}“.`
-          : 'Ciao! und Unità 1 mit Karten, Schreiben und Zuordnen.',
-        action: words
-          ? `<button class="button secondary" data-vocab-set="${esc(suggestion.id)}">Üben</button>`
-          : '<button class="button secondary" data-nav="lernen">Üben</button>'
-      })}
+    ${
+      suggestion
+        ? `<article class="resume">
+      <button class="resume-media" data-lesson="${esc(suggestion.id)}" tabindex="-1" aria-hidden="true">${lessonCoverHTML(suggestion)}</button>
+      <div class="resume-body">
+        <div class="eyebrow">${resume ? 'Weitermachen' : 'Zum Einstieg'}</div>
+        <h2 ${suggestion.coverImage || PHOTOS[suggestion.cover] ? '' : 'class="sr-only"'}>${esc(suggestion.title)}</h2>
+        <p>${esc(portalLang(suggestion.language))} · ${esc(suggestion.level)} · ${suggestion.estimatedMinutes} Min. · ${plural(suggestion.questions.length, 'Aufgabe', 'Aufgaben')}</p>
+        ${st.percent ? `<div class="lcard-progress" aria-hidden="true"><i style="width:${st.percent}%"></i></div>` : ''}
+        <button class="button primary large" data-lesson="${esc(suggestion.id)}">${resume ? 'Weiterhören' : 'Jetzt anhören'}</button>
+      </div>
+    </article>`
+        : ''
+    }
+    <div class="quick">
+      <button data-extra="recommend">${icon('vokabeln')}<b>${due ? plural(due, 'Wort', 'Wörter') + ' wiederholen' : 'Wörter üben'}</b><small>Karten, Schreiben, Zuordnen</small></button>
+      <button data-nav="hoeren">${icon('hoeren')}<b>Alle Hörübungen</b><small>${plural(list.length, 'Übung', 'Übungen')} nach Sprache und Niveau</small></button>
+      <button data-nav="verben">${icon('verben')}<b>Verben</b><small>Formen üben</small></button>
     </div>
-    ${sectionHead('', 'Hörübungen für dich', 'hoeren', 'Alle ansehen')}
-    <div class="cards-grid">${nextLessons(list, 6).map(lessonCard).join('')}</div>
-    <div class="stat-row" aria-label="Dein Lernstand">
+    ${sectionHead('', 'Für dich', 'hoeren', 'Alle ansehen')}
+    <div class="cards-grid rail">${more.map(lessonCard).join('')}</div>
+    ${
+      p.favorites.length || checked
+        ? `<div class="stat-row" aria-label="Dein Lernstand">
       <button data-nav="sammlung"><b>${p.favorites.length}</b><span>in der Merkliste</span></button>
       <button data-nav="fortschritt"><b>${checked}</b><span>Hörübungen geprüft</span></button>
       <button data-nav="verlauf"><b>${p.history.length}</b><span>zuletzt geöffnet</span></button>
-    </div>`;
+    </div>`
+        : ''
+    }`;
 }
 
 function teacherHome(list, p) {
@@ -382,7 +371,7 @@ function playerHTML(x) {
   if (x.media.type === 'youtube') {
     return `<div class="player-frame" id="youtube-container" data-cover>
         <button class="player-poster" data-portal="load-youtube" aria-label="Video laden und abspielen">
-          ${lessonCoverHTML(x)}<span class="player-play" aria-hidden="true"></span><span class="player-hint">Video abspielen</span>
+          ${lessonCoverHTML(x, { poster: true })}<span class="player-play" aria-hidden="true"></span><span class="player-hint">Video abspielen</span>
         </button>
       </div>
       <p class="player-note">Beim Abspielen wird eine Verbindung zu YouTube hergestellt. Falls das Video gesperrt ist: <a href="https://www.youtube.com/watch?v=${x.media.videoId}" target="_blank" rel="noopener">Originalquelle öffnen</a></p>`;

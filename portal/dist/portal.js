@@ -127,23 +127,34 @@ function transcriptForDisplay(text) {
     .replace(/\[Wortlaut zu prüfen\]/g, '[Wortlaut unsicher]')
     .trim();
 }
-function lessonCoverHTML(x) {
-  const own = !!x.coverImage,
-    video = x.media.type === 'youtube' && !own,
-    src = own
-      ? x.coverImage
-      : video
-        ? LOCAL_VIDEO_THUMBNAILS[x.media.videoId] ||
-          'https://img.youtube.com/vi/' + x.media.videoId + '/hqdefault.jpg'
-        : PHOTOS[x.cover]?.file || 'assets/listening-cover.svg',
-    alt = own
-      ? 'Titelbild: ' + esc(x.title)
-      : video
-        ? 'Videovorschau: ' + esc(x.title)
-        : PHOTOS[x.cover]
-          ? esc(PHOTOS[x.cover].alt)
-          : 'Illustration mit Kopfhörern und einem offenen Buch';
-  return `<img src="${esc(src)}" alt="${alt}" loading="lazy" decoding="async" ${video ? 'data-video-cover="' + x.media.videoId + '" referrerpolicy="no-referrer"' : ''}>`;
+/* Titelbild einer Hörübung. Eigene Fotos bleiben; sonst ein gestaltetes Cover in der Farbe der
+   Sprache. Vorschaubilder werden nie von YouTube geladen (Datenschutz an Schulen, Bildrechte). */
+const COVER_HUE = { it: 10, en: 228, fr: 196, es: 38, de: 150 };
+const COVER_SONG = /^(musik|musica|music|musique|lied|song|canzone)$/i;
+function coverKind(x) {
+  if (x.media.type === 'film') return 'Film';
+  if ((x.topics || []).some(t => COVER_SONG.test(t))) return 'Lied';
+  return { youtube: 'Video', audio: 'Audio', link: 'Weblink' }[x.media.type] || 'Dialog';
+}
+function coverSeed(id) {
+  let h = 0;
+  for (const c of String(id)) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+  return h;
+}
+function generatedCoverHTML(x) {
+  const seed = coverSeed(x.series || x.id);
+  const hue = (COVER_HUE[x.language] ?? 280) + ((seed % 5) - 2) * 9;
+  const [main, ...rest] = String(x.title).split(' · ');
+  return `<span class="hcover" style="--hc:${hue};--hc-l:${38 + (seed % 3) * 4}%;--hc-x:${55 + (seed % 4) * 12}%" aria-hidden="true"><span class="hc-kind">${esc(coverKind(x))}</span><span class="hc-title">${esc(main)}</span>${rest.length ? `<span class="hc-sub">${esc(rest.join(' · '))}</span>` : ''}</span>`;
+}
+function lessonCoverHTML(x, { poster = false } = {}) {
+  const own = x.coverImage || PHOTOS[x.cover]?.file;
+  const still = poster && x.media.type === 'youtube' ? LOCAL_VIDEO_THUMBNAILS[x.media.videoId] : '';
+  if (own || still) {
+    const alt = x.coverImage ? 'Titelbild: ' + x.title : still ? 'Videovorschau: ' + x.title : PHOTOS[x.cover].alt;
+    return `<img src="${esc(own || still)}" alt="${esc(alt)}" loading="lazy" decoding="async">`;
+  }
+  return generatedCoverHTML(x);
 }
 const LISTENING_FORMAT_LABELS = {
   single_choice: 'Einfachauswahl',
@@ -375,11 +386,6 @@ function setupPortal() {
         !img.closest('.lcard-media, .player-poster, .step-media, .lesson-cover')
       )
         return;
-      if (img.dataset.videoCover && !img.dataset.coverRetry) {
-        img.dataset.coverRetry = '1';
-        img.src = 'https://img.youtube.com/vi/' + img.dataset.videoCover + '/mqdefault.jpg';
-        return;
-      }
       if (!img.dataset.coverFallback) {
         img.dataset.coverFallback = '1';
         img.removeAttribute('data-video-cover');

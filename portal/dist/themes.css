@@ -775,3 +775,57 @@
   --lift: 0 1px 2px rgba(0, 0, 0, 0.5);
   --lift-2: 0 20px 50px -20px rgba(0, 0, 0, 0.85);
 }
+
+/* daje: eigene Farbwelt (Standard ab Oktober 2026). Warmes Papier, Tinte, Tomatenrot als Akzent. */
+:root[data-skin='daje'] {
+  --canvas: #f6f2ea;
+  --wash-a: transparent;
+  --wash-b: transparent;
+  --wash-c: transparent;
+  --glass: #fffdf9;
+  --glass-solid: #fffdf9;
+  --sheet: #fffdf9;
+  --glass-hi: #ffffff;
+  --hairline: rgba(40, 32, 20, 0.11);
+  --tile: #fffdf9;
+  --label: #1c1a17;
+  --label-2: rgba(28, 26, 23, 0.64);
+  --label-3: rgba(28, 26, 23, 0.36);
+  --fill: rgba(60, 45, 20, 0.06);
+  --fill-2: rgba(60, 45, 20, 0.11);
+  --track: rgba(60, 45, 20, 0.14);
+  --blue: #2b3bb5;
+  --on-accent: #fff;
+  --accent2: #c7361d;
+  --green: #22874f;
+  --orange: #c4621a;
+  --red: #c8321f;
+  --lift: 0 1px 2px rgba(40, 30, 10, 0.05), 0 6px 18px -10px rgba(40, 30, 10, 0.18);
+  --lift-2: 0 2px 6px rgba(40, 30, 10, 0.06), 0 24px 48px -20px rgba(40, 30, 10, 0.3);
+  --blur: none;
+  color-scheme: light;
+}
+:root[data-skin='daje'][data-theme='dark'] {
+  --canvas: #141210;
+  --glass: #1f1c18;
+  --glass-solid: #1f1c18;
+  --sheet: #1f1c18;
+  --glass-hi: rgba(255, 255, 255, 0.08);
+  --hairline: rgba(255, 245, 230, 0.1);
+  --tile: #1f1c18;
+  --label: #f4efe7;
+  --label-2: rgba(244, 239, 231, 0.66);
+  --label-3: rgba(244, 239, 231, 0.36);
+  --fill: rgba(255, 245, 230, 0.07);
+  --fill-2: rgba(255, 245, 230, 0.13);
+  --track: rgba(255, 245, 230, 0.16);
+  --blue: #a3adff;
+  --on-accent: #14163a;
+  --accent2: #ff7a5c;
+  --green: #5fd38d;
+  --orange: #f5a35c;
+  --red: #ff7b6b;
+  --lift: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --lift-2: 0 20px 50px -20px rgba(0, 0, 0, 0.8);
+  color-scheme: dark;
+}

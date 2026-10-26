@@ -268,3 +268,48 @@ body.in-session .flashcard {
   border: 1.5px solid var(--label) !important;
   background: transparent !important;
 }
+
+/* daje: flach und ruhig, runde Knöpfe, Akzent nur für Marke, Fortschritt und Hervorhebung */
+:root[data-skin='daje'] {
+  --sk-r: 20px;
+  --sk-border: 1px solid var(--hairline);
+  --sk-shadow: var(--lift);
+  --btn-r: 999px;
+  --opt-r: 14px;
+  --nav-r: 12px;
+  --nav-active-bg: color-mix(in srgb, var(--accent2) 11%, transparent);
+  --nav-active-color: var(--label);
+}
+:root[data-skin='daje'] body {
+  background: var(--canvas);
+}
+:root[data-skin='daje'] .glass,
+:root[data-skin='daje'] .tabbar,
+:root[data-skin='daje'] .sidebar {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+:root[data-skin='daje'] .sidebar {
+  background: transparent;
+  border-right: 1px solid var(--hairline);
+}
+:root[data-skin='daje'] .tabbar {
+  background: var(--canvas);
+  border-top: 1px solid var(--hairline);
+}
+:root[data-skin='daje'] .xhero h1 em,
+:root[data-skin='daje'] .today h1 em,
+:root[data-skin='daje'] .page-head h1 em,
+:root[data-skin='daje'] .top-brand,
+:root[data-skin='daje'] .eyebrow {
+  color: var(--accent2);
+}
+:root[data-skin='daje'] .nav-list [aria-current='page'] .ico,
+:root[data-skin='daje'] .tabbar [aria-current='page'] .ico {
+  color: var(--accent2);
+}
+:root[data-skin='daje'] .lcard-progress i,
+:root[data-skin='daje'] .progress-fill,
+:root[data-skin='daje'] .wc-bar i {
+  background: var(--accent2);
+}

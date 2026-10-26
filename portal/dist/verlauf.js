@@ -40,8 +40,10 @@
   function record() {
     if (restoring) return;
     const st = snapshot();
-    if (same(history.state, st)) return;
-    history.pushState(st, '', urlOf(st));
+    if (same(history.state, st) && !history.state.d) return;
+    // Ein offener Dialog-Eintrag wird ersetzt, damit Zurück nicht zweimal dieselbe Seite zeigt.
+    if (history.state && history.state.d) history.replaceState(st, '', urlOf(st));
+    else history.pushState(st, '', urlOf(st));
   }
 
   const baseNav = nav;
@@ -68,11 +70,42 @@
     if (e.target.closest('[data-ws="open"],[data-ws="home"]')) record();
   });
 
+  // Dialoge und Blätter: Öffnen legt einen Eintrag an, Zurück schließt nur den Dialog.
+  let dialogBack = false,
+    closingByHistory = false;
+  const openDialogs = () => document.querySelectorAll('dialog[open]');
+  new MutationObserver(list => {
+    for (const m of list) {
+      if (m.target.tagName !== 'DIALOG') continue;
+      if (m.target.open) {
+        if (!(history.state && history.state.d))
+          history.pushState({ ...snapshot(), d: true }, '', location.href);
+      } else if (!closingByHistory) {
+        // Per Knopf geschlossen: den Dialog-Eintrag wieder entfernen, falls kein anderer Dialog offen ist.
+        setTimeout(() => {
+          if (!openDialogs().length && history.state && history.state.d) {
+            dialogBack = true;
+            history.back();
+          }
+        }, 0);
+      }
+    }
+  }).observe(document.body, { subtree: true, attributes: true, attributeFilter: ['open'] });
+
   window.addEventListener('popstate', e => {
+    if (dialogBack) {
+      dialogBack = false;
+      return;
+    }
     const st = e.state || { v: 'start' };
+    if (openDialogs().length) {
+      closingByHistory = true;
+      openDialogs().forEach(d => d.close());
+      setTimeout(() => (closingByHistory = false), 0);
+      if (same(st, snapshot())) return;
+    }
     restoring = true;
     try {
-      document.querySelectorAll('dialog[open]').forEach(d => d.close());
       if (st.l) openListening(st.l);
       else {
         if (st.v === 'vokabeln') wsBook.set(st.b || null);

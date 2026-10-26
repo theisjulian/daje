@@ -848,11 +848,11 @@ const UI_ROWS_EXTRA = [
 "Anteprime degli ascolti"
 ],
 [
-"YouTube-Vorschaubilder stammen vom jeweils verknüpften Originalvideo und wurden nach Möglichkeit über img.youtube.com lokal eingebunden; weitere werden vom Anbieter geladen. Die Originalquelle und Anbieterangabe stehen bei jeder Hörübung unter Quelle und Hinweise. Die Vorschaubilder sind keine von uns erstellten oder pauschal frei lizenzierten Fotos. Die Kopfhörer-Buch-Illustration als Ersatzmotiv wurde für dieses Portal erstellt.",
-"Le anteprime di YouTube provengono dal video originale collegato e, se possibile, sono state incluse localmente tramite img.youtube.com; le altre sono caricate dal fornitore. Fonte originale e fornitore sono indicati per ogni ascolto.",
-"YouTube thumbnails come from the linked original video and were embedded locally via img.youtube.com where possible; others are loaded from the provider. The original source and provider appear with each listening activity.",
-"Les vignettes YouTube proviennent de la vidéo originale liée et ont été intégrées localement via img.youtube.com lorsque c’était possible ; les autres sont chargées depuis le fournisseur. La source originale et le fournisseur figurent pour chaque écoute.",
-"Le anteprime di YouTube vengono dal video originale. La fonte è scritta in ogni ascolto."
+"Die Titelbilder der Hörübungen sind für daje gestaltet: Schrift und Farbe, keine Fotos. Vorschaubilder werden nicht von YouTube geladen; eine Verbindung zum Anbieter entsteht erst beim Abspielen. Einige Videos zeigen im Player ein Standbild des Originalvideos. Originalquelle und Anbieter stehen bei jeder Hörübung unter Quelle und Hinweise.",
+"Le copertine degli ascolti sono create per daje: caratteri e colori, nessuna foto. Le anteprime non vengono caricate da YouTube; il collegamento al fornitore avviene solo quando si avvia il video. Alcuni video mostrano nel lettore un fotogramma del video originale. Fonte originale e fornitore sono indicati per ogni ascolto.",
+"Listening covers are designed for daje: type and colour, no photos. Thumbnails are not loaded from YouTube; the provider is only contacted when you play the video. Some videos show a still from the original video in the player. The original source and provider appear with each listening activity.",
+"Les couvertures des écoutes sont conçues pour daje : typographie et couleur, sans photos. Les vignettes ne sont pas chargées depuis YouTube ; le fournisseur n’est contacté qu’à la lecture. Certaines vidéos affichent dans le lecteur une image de la vidéo originale. La source originale et le fournisseur figurent pour chaque écoute.",
+"Le copertine sono fatte per daje, senza foto. YouTube si collega solo quando avvii il video. La fonte è scritta in ogni ascolto."
 ],
 [
 "Wortschatz und Lehrwerk",
@@ -883,11 +883,11 @@ const UI_ROWS_EXTRA = [
 "Grafica e carattere"
 ],
 [
-"Gestaltung und zwölf Farbwelten auf Grundlage des vorhandenen Gruppo-Quellstands im Repository theisjulian/app, ausschließlich lesend abgerufen. Inter aus Gruppo (Rasmus Andersson) und Schibsted Grotesk aus der bestehenden Website (Bakken & Bæck). Beide unter der SIL Open Font License.",
-"Grafica e dodici temi di colore basati sul codice sorgente di Gruppo nel repository theisjulian/app, consultato solo in lettura. Inter da Gruppo (Rasmus Andersson) e Schibsted Grotesk dal sito esistente.",
-"Design and twelve colour themes based on the existing Gruppo source in the theisjulian/app repository, accessed read-only. Inter from Gruppo (Rasmus Andersson) and Schibsted Grotesk from the existing website.",
-"Conception et douze thèmes de couleurs à partir de la source de Gruppo du dépôt theisjulian/app, consulté en lecture seule. Inter de Gruppo (Rasmus Andersson) et Schibsted Grotesk du site existant.",
-"Grafica e dodici temi di colore dal codice di Gruppo (repository theisjulian/app, solo lettura). Carattere Inter e Schibsted Grotesk."
+"Eigene Farbwelt daje; dazu zwölf weitere Farbwelten auf Grundlage des vorhandenen Gruppo-Quellstands im Repository theisjulian/app, ausschließlich lesend abgerufen. Inter aus Gruppo (Rasmus Andersson) und Schibsted Grotesk aus der bestehenden Website (Bakken & Bæck). Beide unter der SIL Open Font License.",
+"Tema daje proprio; inoltre dodici temi di colore basati sul codice sorgente di Gruppo nel repository theisjulian/app, consultato solo in lettura. Inter da Gruppo (Rasmus Andersson) e Schibsted Grotesk dal sito esistente.",
+"Own daje theme; plus twelve colour themes based on the existing Gruppo source in the theisjulian/app repository, accessed read-only. Inter from Gruppo (Rasmus Andersson) and Schibsted Grotesk from the existing website.",
+"Thème daje propre ; plus douze thèmes de couleurs à partir de la source de Gruppo du dépôt theisjulian/app, consulté en lecture seule. Inter de Gruppo (Rasmus Andersson) et Schibsted Grotesk du site existant.",
+"Tema daje; altri dodici temi dal codice di Gruppo (repository theisjulian/app, solo lettura). Carattere Inter e Schibsted Grotesk."
 ],
 [
 "Schibsted Grotesk und Lizenz",
@@ -1696,10 +1696,10 @@ const UI_ROWS_EXTRA = [
 ],
 [
 "Gestaltung und zwölf Farbwelten",
-"Grafica e dodici temi di colore basati sul codice sorgente di Gruppo nel repository theisjulian/app, consultato solo in lettura. Inter da Gruppo (Rasmus Andersson) e Schibsted Grotesk dal sito esistente.",
-"Design and twelve colour themes based on the existing Gruppo source in the theisjulian/app repository, accessed read-only. Inter from Gruppo (Rasmus Andersson) and Schibsted Grotesk from the existing website.",
-"Conception et douze thèmes de couleurs à partir de la source de Gruppo du dépôt theisjulian/app, consulté en lecture seule. Inter de Gruppo (Rasmus Andersson) et Schibsted Grotesk du site existant.",
-"Grafica e dodici temi di colore dal codice di Gruppo (repository theisjulian/app, solo lettura). Carattere Inter e Schibsted Grotesk."
+"Tema daje proprio; inoltre dodici temi di colore basati sul codice sorgente di Gruppo nel repository theisjulian/app, consultato solo in lettura. Inter da Gruppo (Rasmus Andersson) e Schibsted Grotesk dal sito esistente.",
+"Own daje theme; plus twelve colour themes based on the existing Gruppo source in the theisjulian/app repository, accessed read-only. Inter from Gruppo (Rasmus Andersson) and Schibsted Grotesk from the existing website.",
+"Thème daje propre ; plus douze thèmes de couleurs à partir de la source de Gruppo du dépôt theisjulian/app, consulté en lecture seule. Inter de Gruppo (Rasmus Andersson) et Schibsted Grotesk du site existant.",
+"Tema daje; altri dodici temi dal codice di Gruppo (repository theisjulian/app, solo lettura). Carattere Inter e Schibsted Grotesk."
 ],
 [
 "Entwürfe und Freigaben bleiben in diesem Browser.",
@@ -1990,5 +1990,24 @@ const UI_ROWS_EXTRA = [
 ["{n} Abschnitt ausgewählt", "{n} paragrafo scelto", "{n} section selected", "{n} section sélectionnée", "{n} paragrafo scelto"],
 ["Wörter, die bleiben.", "Parole che restano.", "Words that stay.", "Des mots qui restent.", "Parole che restano."],
 ["Fakultativen Wortschatz (im Buch kursiv) einbeziehen", "Includi il lessico facoltativo (in corsivo nel libro)", "Include optional vocabulary (italic in the book)", "Inclure le vocabulaire facultatif (en italique dans le livre)", "Includi le parole facoltative (in corsivo nel libro)"],
-["als bekannt voraussetzen und mitrechnen", "considera già noto e conteggia", "assume as known and include", "considérer comme acquis et inclure", "considera già noto e conta"]
+["als bekannt voraussetzen und mitrechnen", "considera già noto e conteggia", "assume as known and include", "considérer comme acquis et inclure", "considera già noto e conta"],
+["Weiter geht’s.", "Si continua.", "Let’s keep going.", "On continue.", "Avanti!"],
+["Weitermachen", "Continua", "Continue", "Continuer", "Continua"],
+["Jetzt anhören", "Ascolta ora", "Listen now", "Écouter", "Ascolta"],
+["Weiterhören", "Continua ad ascoltare", "Keep listening", "Continuer l’écoute", "Ascolta ancora"],
+["Wörter üben", "Esercita le parole", "Practise words", "S’entraîner aux mots", "Esercita le parole"],
+["Karten, Schreiben, Zuordnen", "Schede, scrittura, abbinamenti", "Cards, writing, matching", "Cartes, écriture, associations", "Schede, scrivere, abbinare"],
+["{n} Übungen nach Sprache und Niveau", "{n} ascolti per lingua e livello", "{n} activities by language and level", "{n} écoutes par langue et niveau", "{n} ascolti per lingua e livello"],
+["Formen üben", "Esercita le forme", "Practise forms", "S’entraîner aux formes", "Esercita le forme"],
+["Für dich", "Per te", "For you", "Pour toi", "Per te"],
+["{n} Wörter wiederholen", "Ripassa {n} parole", "Review {n} words", "Réviser {n} mots", "Ripassa {n} parole"],
+["{n} Wort wiederholen", "Ripassa {n} parola", "Review {n} word", "Réviser {n} mot", "Ripassa {n} parola"],
+["{n} Wörter warten auf ein Wiedersehen.", "{n} parole aspettano un ripasso.", "{n} words are waiting for a review.", "{n} mots attendent une révision.", "{n} parole da ripassare."],
+["{n} Wort wartet auf ein Wiedersehen.", "{n} parola aspetta un ripasso.", "{n} word is waiting for a review.", "{n} mot attend une révision.", "{n} parola da ripassare."],
+["Lied", "Canzone", "Song", "Chanson", "Canzone"],
+["Film", "Film", "Film", "Film", "Film"],
+["Video", "Video", "Video", "Vidéo", "Video"],
+["Audio", "Audio", "Audio", "Audio", "Audio"],
+["Dialog", "Dialogo", "Dialogue", "Dialogue", "Dialogo"],
+["Weblink", "Link", "Web link", "Lien", "Link"]
 ];

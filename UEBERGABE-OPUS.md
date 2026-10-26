@@ -98,6 +98,12 @@ Behoben:
 Bewusst nicht geändert: Reihenfolge im Buch (Anhang A zuerst) folgt der Lista cronologica (S. 161 ff.).
 Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur schließen; Startseite für neue Nutzer ohne „0/0/0“-Kacheln; CSS-Schichten (10 Dateien, spätere überschreiben frühere) zusammenführen.
 
+## 6b. Neues Erscheinungsbild (26.10.2026)
+- **Farbwelt „daje“** (themes.css/skins.css, Standard für neue Nutzer; gespeicherte Wahl bleibt): warmes Papier `#f6f2ea`, Tinte `#1c1a17`, Indigo `#2b3bb5` für Aktionen, Tomatenrot `#c7361d` (accent2) für Marke, Fortschritt, Hervorhebung; flache Karten ohne Glas/Unschärfe; Dunkelmodus. Kontraste ≥ 4,7:1.
+- **Hör-Cover** (portal.js `generatedCoverHTML`): typografische Titelbilder, Farbe nach Sprache (IT rot, EN blau, FR türkis), Art (Lied/Film/Video/Audio/Dialog). Keine Bilder mehr von img.youtube.com (Datenschutz, Bildrechte); lokale Standbilder nur noch im Player.
+- **Startseite Lernende**: Tagesziel-Ring, „Weitermachen/Zum Einstieg“, drei Schnellzugriffe, „Für dich“ als waagerechte Leiste am Handy; Zähler erst, wenn es etwas zu zählen gibt.
+- Zurückwischen schließt geöffnete Dialoge/Blätter, ohne die Seite zu wechseln.
+
 ## 7. Offene Punkte
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.
 - Ecco 3 più importieren (nach Scan, exakte Kapitelzuordnung).
