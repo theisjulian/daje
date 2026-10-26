@@ -23,7 +23,7 @@ const LISTENING_REVIEW_SEEDS = [
       {
         kind: 'external',
         citation:
-          'YouTube-Originalvideo; Anbieter und Nutzungsrechte noch zu verifizieren. Transkript aus nutzerseitig übermittelter Gemini-Ausgabe; laut Gemini automatische YouTube-Untertitel. Kein unabhängiger Audioabgleich.',
+          'Video auf YouTube',
         url: 'https://www.youtube.com/watch?v=DRzHA4LuFC0',
         rights: 'needs_review'
       }
@@ -124,7 +124,7 @@ const LISTENING_REVIEW_SEEDS = [
       {
         kind: 'external',
         citation:
-          'YouTube-Originalvideo; Anbieter und Nutzungsrechte noch zu verifizieren. Transkript aus nutzerseitig übermittelter Gemini-Ausgabe; laut Gemini automatische YouTube-Untertitel. Kein unabhängiger Audioabgleich.',
+          'Video auf YouTube',
         url: 'https://www.youtube.com/watch?v=wPkbySTrndI',
         rights: 'needs_review'
       }
@@ -209,7 +209,7 @@ const LISTENING_REVIEW_SEEDS = [
       {
         kind: 'external',
         citation:
-          'YouTube-Originalvideo; Anbieter und Nutzungsrechte noch zu verifizieren. Transkript aus nutzerseitig übermittelter Gemini-Ausgabe; laut Gemini automatische YouTube-Untertitel. Kein unabhängiger Audioabgleich.',
+          'Video auf YouTube',
         url: 'https://www.youtube.com/watch?v=DFo5qBbF_TU',
         rights: 'needs_review'
       }
@@ -318,7 +318,7 @@ const LISTENING_REVIEW_SEEDS = [
       {
         kind: 'external',
         citation:
-          'YouTube-Originalvideo; Anbieter und Nutzungsrechte noch zu verifizieren. Transkript aus nutzerseitig übermittelter Gemini-Ausgabe; laut Gemini automatische YouTube-Untertitel. Kein unabhängiger Audioabgleich.',
+          'Video auf YouTube',
         url: 'https://www.youtube.com/watch?v=oLfYx4cgTMg',
         rights: 'needs_review'
       }
@@ -407,7 +407,7 @@ const LISTENING_REVIEW_SEEDS = [
       {
         kind: 'external',
         citation:
-          'Loescher Editore video - Italiano per stranieri - Ti piace la cucina italiana? · Anbieterangabe aus Gemini, nicht unabhängig verifiziert. Mitschrift laut Gemini aus YouTube-Untertiteln; bei Clip 5 behaupteter direkter Medienzugriff. Keine eigene Audioverifikation.',
+          'Loescher Editore video: Italiano per stranieri – Ti piace la cucina italiana? (YouTube)',
         url: 'https://www.youtube.com/watch?v=pW8Fuo1Oh-g',
         rights: 'needs_review'
       }
@@ -547,7 +547,7 @@ const LISTENING_REVIEW_SEEDS = [
       {
         kind: 'external',
         citation:
-          "Loescher Editore video - Cosa conosci dell'Italia? · Anbieterangabe aus Gemini, nicht unabhängig verifiziert. Mitschrift laut Gemini aus YouTube-Untertiteln; bei Clip 5 behaupteter direkter Medienzugriff. Keine eigene Audioverifikation.",
+          "Loescher Editore video: Cosa conosci dell'Italia? (YouTube)",
         url: 'https://www.youtube.com/watch?v=dK9KAT5BDBM',
         rights: 'needs_review'
       }
@@ -671,7 +671,7 @@ const LISTENING_REVIEW_SEEDS = [
       {
         kind: 'external',
         citation:
-          'Loescher Editore video - Che cosa fai in Italia? · Anbieterangabe aus Gemini, nicht unabhängig verifiziert. Mitschrift laut Gemini aus YouTube-Untertiteln; bei Clip 5 behaupteter direkter Medienzugriff. Keine eigene Audioverifikation.',
+          'Loescher Editore video: Che cosa fai in Italia? (YouTube)',
         url: 'https://www.youtube.com/watch?v=91fi6egFsyA',
         rights: 'needs_review'
       }
@@ -779,7 +779,7 @@ const LISTENING_REVIEW_SEEDS = [
       {
         kind: 'external',
         citation:
-          'Loescher Editore video - Roma · Anbieterangabe aus Gemini, nicht unabhängig verifiziert. Mitschrift laut Gemini aus YouTube-Untertiteln; bei Clip 5 behaupteter direkter Medienzugriff. Keine eigene Audioverifikation.',
+          'Loescher Editore video: Roma (YouTube)',
         url: 'https://www.youtube.com/watch?v=FaS5AIuXw_E',
         rights: 'needs_review'
       }
@@ -878,7 +878,7 @@ const LISTENING_REVIEW_SEEDS = [
       {
         kind: 'external',
         citation:
-          'Colibrì Corsi di lingua italiana - Chiedere informazioni per strada · Anbieterangabe aus Gemini, nicht unabhängig verifiziert. Mitschrift laut Gemini aus YouTube-Untertiteln; bei Clip 5 behaupteter direkter Medienzugriff. Keine eigene Audioverifikation.',
+          'Colibrì Corsi di lingua italiana: Chiedere informazioni per strada (YouTube)',
         url: 'https://www.youtube.com/watch?v=-DpfIOInJfY',
         rights: 'needs_review'
       }
@@ -944,7 +944,7 @@ const LISTENING_REVIEW_SEEDS = [
       {
         kind: 'external',
         citation:
-          'BBC News - Climate Change: Your carbon footprint explained · Quellenangabe aus Gemini, ungeprüft.',
+          'BBC News: Climate Change – Your carbon footprint explained (YouTube)',
         url: 'https://www.youtube.com/watch?v=a9yO-K8mwL0',
         rights: 'needs_review'
       }
@@ -974,7 +974,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'a',
         explanation:
-          'Der Beitrag definiert den Begriff zu Beginn als die Gesamtemissionen von Treibhausgasen durch Aktivitäten. Redaktioneller Entwurf; Abgleich mit der Aufnahme offen.'
+          'Der Beitrag definiert den Begriff zu Beginn als die Gesamtemissionen von Treibhausgasen durch Aktivitäten.'
       },
       {
         id: 'q2',
@@ -983,7 +983,7 @@ const LISTENING_REVIEW_SEEDS = [
           "Transport, such as driving petrol cars or taking flights, is a major part of a person's carbon footprint.",
         answer: true,
         explanation:
-          'Im Beitrag wird genannt, dass der Verkehrsbereich und weniger Flüge eine der effektivsten Stellschrauben sind. Redaktioneller Entwurf; Abgleich mit der Aufnahme offen.'
+          'Im Beitrag wird genannt, dass der Verkehrsbereich und weniger Flüge eine der effektivsten Stellschrauben sind.'
       },
       {
         id: 'q3',
@@ -993,7 +993,7 @@ const LISTENING_REVIEW_SEEDS = [
         acceptedAnswers: ['red meat', 'Red meat'],
         modelAnswer: 'red meat',
         explanation:
-          'Der Beitrag hebt hervor, dass rotes Fleisch („red meat“) durch Methanemissionen der Kühe den Fußabdruck vergrößert. Redaktioneller Entwurf; Abgleich mit der Aufnahme offen.'
+          'Der Beitrag hebt hervor, dass rotes Fleisch („red meat“) durch Methanemissionen der Kühe den Fußabdruck vergrößert.'
       },
       {
         type: 'single_choice',
@@ -1089,7 +1089,7 @@ const LISTENING_REVIEW_SEEDS = [
       {
         kind: 'external',
         citation:
-          'TED - The secrets of learning a new language | Lýdia Machová · Quellenangabe aus Gemini, ungeprüft.',
+          'TED: The secrets of learning a new language – Lýdia Machová (YouTube)',
         url: 'https://www.youtube.com/watch?v=o_XVt5rdpFY',
         rights: 'needs_review'
       }
@@ -1120,7 +1120,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'a',
         explanation:
-          'Der Vortrag betont, dass Freude am Prozess und eigene Strategien der Schlüssel zum Erfolg sind. Redaktioneller Entwurf; Abgleich mit der Aufnahme offen.'
+          'Der Vortrag betont, dass Freude am Prozess und eigene Strategien der Schlüssel zum Erfolg sind.'
       },
       {
         id: 'q2',
@@ -1129,7 +1129,7 @@ const LISTENING_REVIEW_SEEDS = [
           'According to the speaker, successful language learners enjoy the methods they use.',
         answer: true,
         explanation:
-          'Polyglotte Personen machen das Lernen zu einem Teil ihres täglichen Vergnügens. Redaktioneller Entwurf; Abgleich mit der Aufnahme offen.'
+          'Polyglotte Personen machen das Lernen zu einem Teil ihres täglichen Vergnügens.'
       },
       {
         type: 'single_choice',

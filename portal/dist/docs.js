@@ -165,6 +165,8 @@ function renderVocabDoc() {
 }
 function docWordFile() {
   const sheet = $('teaching-print').cloneNode(true);
+  // Hörblatt: für Word die ungeteilte Fassung (Word teilt selbst in Seiten).
+  if (sheet.querySelector('.hbp') && typeof hbFlatHTML === 'string' && hbFlatHTML) sheet.querySelector('.pages').innerHTML = '<div class="paper">' + hbFlatHTML + '</div>';
   sheet.querySelectorAll('.paper').forEach(p => (p.style.zoom = ''));
   sheet.querySelectorAll('.print-controls,.doc-options,.dlg-head,.dlg-side,img,.doc-pn').forEach(n => n.remove());
   const pgs = [...sheet.querySelectorAll('.pg')];

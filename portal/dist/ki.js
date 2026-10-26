@@ -217,6 +217,108 @@
     return lines.filter((l, i, a) => l !== '' || a[i - 1] !== '').join('\n');
   }
 
+  /*
+   * Wortschatz (KI-Wortschatz.md): ai = { title, description, level, topics, entries, reviewNotes }.
+   * inp: { language, level, mode ('buch' | 'text'), text, id, collection, section, pages, grade }
+   * Ergebnis wie buildPackage; evidence nur bei Quelle Text (Fundstelle im Text).
+   */
+  const POS = ['noun', 'verb', 'adjective', 'phrase', 'other'];
+  const GENDER = ['masculine', 'feminine', 'neuter', 'common', 'unknown'];
+  function buildVocabulary(ai, inp, validate) {
+    if (ai && ai.abbruch) throw new Error('Die KI hat abgebrochen: ' + ai.abbruch);
+    const warnings = [];
+    const book = inp.mode === 'buch';
+    const seen = new Set();
+    const raw = arr(ai.entries).filter(w => w && String(w.target || '').trim());
+    const entries = [];
+    const evidence = [];
+    raw.forEach(w => {
+      const target = String(w.target).trim();
+      const k = target.toLowerCase();
+      if (seen.has(k)) return;
+      seen.add(k);
+      const tr = arr(w.translations)
+        .flatMap(t => String(t).split(/\s*\/\s*/))
+        .map(t => t.trim())
+        .filter(Boolean);
+      const z = { id: 'w' + (entries.length + 1), target: target.slice(0, 300), translations: tr.length ? tr : ['?'] };
+      for (const f of ['example', 'definition', 'usage'])
+        if (w[f] && String(w[f]).trim()) z[f] = String(w[f]).trim().slice(0, f === 'usage' ? 500 : 1000);
+      if (book && w.page) z.page = String(w.page).slice(0, 30);
+      if (POS.includes(w.partOfSpeech)) {
+        z.grammar = { partOfSpeech: w.partOfSpeech };
+        if (w.partOfSpeech === 'noun' && GENDER.includes(w.gender)) z.grammar.gender = w.gender;
+      }
+      if (!tr.length) warnings.push('Ohne Übersetzung: ' + target + '.');
+      if (!book)
+        evidence.push({ n: entries.length + 1, target, status: w.evidence ? evidenceStatus(w.evidence, inp.text) : 'leer' });
+      entries.push(z);
+    });
+    if (raw.length > entries.length)
+      warnings.push(raw.length - entries.length === 1 ? 'Ein doppelter Eintrag wurde zusammengefasst.' : raw.length - entries.length + ' doppelte Einträge wurden zusammengefasst.');
+    if (!entries.length) throw new Error('In der Antwort stehen keine Wörter (entries).');
+    const title = String(ai.title || inp.section || 'Wortliste').slice(0, 120);
+    const pages = String(inp.pages || '').trim();
+    const collection = String(inp.collection || '').trim() || (book ? 'Schulbuch' : 'Eigene Listen');
+    const grade = Number(inp.grade);
+    const pkg = {
+      format: 'theis-learning-package',
+      schemaVersion: '1.2',
+      kind: 'vocabulary',
+      id: inp.id || 'eigen-' + slug(title) + '-' + Math.random().toString(36).slice(2, 6),
+      title,
+      language: inp.language || ai.language,
+      level: inp.level || ai.level,
+      description: String(ai.description || 'Wortliste.').slice(0, 600),
+      topics: arr(ai.topics).slice(0, 8).map(String).filter(Boolean),
+      translationLanguage: 'de',
+      collection: collection.slice(0, 160),
+      section: (String(inp.section || '').trim() || title).slice(0, 120),
+      catalog: { origin: book ? 'textbook' : 'own', cefr: inp.level || ai.level },
+      sources: [
+        book
+          ? { kind: 'provided', citation: collection + (pages ? ', S. ' + pages : '') + ' (Vokabelteil); Beispielsätze mit KI-Unterstützung eigens formuliert.', rights: 'needs_review' }
+          : { kind: 'own', citation: 'Wortliste zu einem Text, erstellt mit KI-Unterstützung.', rights: 'own' }
+      ],
+      reviewNotes: arr(ai.reviewNotes).map(String).slice(0, 20),
+      entries
+    };
+    if (!pkg.topics.length) pkg.topics = ['Wortschatz'];
+    if (book) pkg.catalog.textbook = { series: collection.slice(0, 80), ...(inp.section ? { section: String(inp.section).slice(0, 60) } : {}), ...(pages ? { pages: pages.slice(0, 30) } : {}) };
+    if (Number.isInteger(grade) && grade >= 5 && grade <= 13) pkg.catalog.grade = grade;
+    const missing = evidence.filter(e => e.status === 'fehlt' || e.status === 'leer');
+    if (missing.length) warnings.push('Nicht im Text gefunden: ' + missing.map(e => e.target).join(', ') + '.');
+    const result = validate ? validate(pkg) : null;
+    return { pkg, result, evidence, warnings };
+  }
+
+  /* Auftrag Wortschatz: Kommandodatei + Eingaben. */
+  function promptForVocab(command, inp) {
+    const book = inp.mode === 'buch';
+    const lines = [
+      command.trim(),
+      '',
+      '## Eingaben',
+      '',
+      '- Sprache: ' + inp.language,
+      '- Zielniveau: ' + inp.level,
+      '- Quelle: ' + (book ? 'Buchseiten (Fotos sind angehängt)' : 'Text (siehe unten)'),
+      inp.collection ? (book ? '- Lehrwerk: ' : '- Sammlung: ') + inp.collection : '',
+      inp.section ? '- Abschnitt: ' + inp.section : '',
+      book && inp.pages ? '- Seiten: ' + inp.pages : '',
+      inp.grade ? '- Klassenstufe: ' + inp.grade : '',
+      !book && inp.count ? '- Gewünschte Anzahl: etwa ' + inp.count + ' Einträge' : '',
+      inp.wishes ? '- Wünsche der Lehrkraft: ' + inp.wishes : '',
+      '',
+      book ? '' : '### Text',
+      book ? '' : '',
+      book ? '' : String(inp.text || '(kein Text)').trim(),
+      '',
+      'Antworte jetzt mit genau einem JSON-Codeblock nach Abschnitt 3.'
+    ];
+    return lines.filter((l, i, a) => l !== '' || a[i - 1] !== '').join('\n');
+  }
+
   const api = {
     extractJSON,
     norm,
@@ -224,7 +326,9 @@
     checkEvidence,
     buildPackage,
     promptFor,
-    mediaFrom
+    mediaFrom,
+    buildVocabulary,
+    promptForVocab
   };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.DajeKI = api;

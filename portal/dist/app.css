@@ -7511,7 +7511,7 @@ body.previewing-teaching #teaching-print.hb-mode{max-width:none;background:trans
 #teaching-print .hb-gap{margin:4px 0 0 38px;line-height:2}
 #teaching-print .hb-line{height:26px;border-bottom:1px solid #aab;margin:2px 0 0 38px}
 #teaching-print .hb-ex{margin:6px 0 0 38px;font-size:9pt;color:#555}
-#teaching-print .hb-tr{margin-top:16px;padding:10px 12px;background:#f4f6f9;font-size:9pt;break-inside:avoid}
+#teaching-print .hb-tr{margin-top:16px;padding:10px 12px;background:#f4f6f9;font-size:9pt}
 #teaching-print .hb-src{font-size:8pt;color:#667;margin:10px 0 0;overflow-wrap:anywhere}
 #teaching-print .hb .doc-foot{margin-top:10px}
 #teaching-print[data-design='klassisch'] .hb h1{color:#111}
@@ -7862,12 +7862,26 @@ body.previewing-teaching #teaching-print.dlg-mode{position:fixed;inset:0;z-index
 #teaching-print .hb-key small { display: block; margin-top: 2px; font-size: 8.5pt; color: #667; }
 #teaching-print .hb-key .hb-also { font-size: 9pt; color: #555; }
 #teaching-print .hb-key tfoot td { border-bottom: 0; border-top: 1.5px solid var(--ac); font-weight: 700; }
+/* Hörblatt-Seiten (dialog.js hbPaginate): Seitenzahl und Fuß stehen auf jeder Seite selbst, auch in Safari. */
+#teaching-print .paper.pg.hbp > .hb { flex: none; }
+#teaching-print .hb-run { display: flex; justify-content: space-between; gap: 12px; font-size: 8.5pt; color: #667; border-bottom: 1px solid #d5d9e0; padding-bottom: 4px; margin: 0 0 12px; }
+#teaching-print .hb-run span:first-child { font-weight: 700; color: #333; }
+#teaching-print .hb-tr p { margin: 0 0 3px; }
+#teaching-print .hb-tr h3 { margin: 0 0 6px; }
+#teaching-print .hb.dense { line-height: 1.34; }
+#teaching-print .hb.dense .hb-q { margin-bottom: 5px; padding-bottom: 4px; }
+#teaching-print .hb.dense .hb-qh { margin-bottom: 2px; }
+#teaching-print .hb.dense .hb-o { margin-top: 1px; margin-bottom: 1px; }
+#teaching-print .hb.dense .hb-line { height: 20px; }
+#teaching-print .hb.dense .hb-phase { margin: 7px 0 4px; }
+#teaching-print .hb.dense .hb-key td { padding: 3px 8px; }
+#teaching-print .hb.dense .hb-key small { margin-top: 0; }
+#teaching-print .hb.dense .hb-top { margin-bottom: 10px; }
+#teaching-print .hb.dense .hb-box { margin-bottom: 10px; }
 @media print {
-  #teaching-print .hb { page: hb; }
-  @page hb {
-    @bottom-left { content: 'daje · theis'; font-size: 8pt; color: #888; }
-    @bottom-right { content: counter(page) ' / ' counter(pages); font-size: 8pt; color: #888; }
-  }
+  /* Alle geteilten Seiten (Hörblatt und Wortliste): feste Höhe, Fußzeile immer unten. */
+  body.printing-teaching #teaching-print .paper.pg { display: flex !important; flex-direction: column !important; height: 266mm !important; overflow: hidden !important; }
+  body.printing-teaching #teaching-print .paper.pg .doc-foot { margin-top: auto !important; }
 }
 #teaching-print .hb { line-height: 1.42; }
 #teaching-print .hb-q { margin-bottom: 8px; padding-bottom: 6px; }
@@ -7896,3 +7910,4 @@ body.previewing-teaching #teaching-print.dlg-mode{position:fixed;inset:0;z-index
 .ed-evidence.ok, .ed-evidence.fast { background: color-mix(in srgb, var(--green) 12%, transparent); }
 .ed-evidence.fehlt { background: color-mix(in srgb, var(--orange) 18%, transparent); }
 .ed-q small.muted { display: block; margin-top: 4px; }
+.ki-mode { margin: 0 0 12px; }

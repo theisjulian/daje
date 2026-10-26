@@ -253,7 +253,20 @@ async function step(name, fn) {
     await dp.evaluate(() => printTeaching(1));
     assert.match(await dp.textContent('#teaching-print .hb'), /1400/);
     await dp.evaluate(() => printTeaching(2));
-    assert.equal(await dp.locator('#teaching-print .hb-key tbody tr').count(), 12);
+    assert.equal(await dp.locator('#teaching-print .hb-key tbody tr').count(), 11);
+    // Echte A4-Seiten: Inhalt nie über die Fußzeile, Seitenzahl auf jeder Seite.
+    for (const id of ['it-a2-cucina-tiramisu', 'en-b2-secrets-learning-language'])
+      for (const m of [0, 1, 2]) {
+        const r = await dp.evaluate(([id, m]) => {
+          showTeaching(id);
+          printTeaching(m);
+          return [...document.querySelectorAll('#teaching-print .hbp')].map(pg => {
+            const body = pg.querySelector('.hb').getBoundingClientRect().bottom, foot = pg.querySelector('.doc-foot');
+            return { over: body > foot.getBoundingClientRect().top + 1, pn: !!foot.querySelector('.doc-pn') };
+          });
+        }, [id, m]);
+        assert.ok(r.length >= 1 && r.every(x => !x.over && x.pn), id + ' ' + m + ': ' + JSON.stringify(r));
+      }
     await dp.evaluate(() => document.body.classList.remove('previewing-teaching'));
   });
 
@@ -431,6 +444,25 @@ async function step(name, fn) {
     assert.equal(await pp.locator('.hw-tasks li').count(), 2);
     await pp.click('.tabbar [data-nav="start"]');
     assert.equal(await pp.locator('.hw-home').count(), 1);
+  });
+
+  await step('Redaktion: Wortliste mit KI aus einem Text, an daje schicken, Einreichung übernehmen', async () => {
+    const text = 'Negli ultimi anni le librerie hanno preso piede in città, in ogni quartiere del centro.';
+    await pp.goto(base, { waitUntil: 'networkidle' });
+    const link = await pp.evaluate(async ([text, answer]) => {
+      const r = DajeKI.buildVocabulary(DajeKI.extractJSON(answer), { language: 'it', level: 'B2', mode: 'text', text, id: edNewId() }, TheisContent.validatePackage);
+      if (!r.result.ok) throw new Error(r.result.errors.join(', '));
+      const u = new URL(location.href);
+      u.search = '';
+      u.searchParams.set('einreichung', await edPack(edSubmissionPackage(r.result.value, 'Test')));
+      return u.href;
+    }, [text, require('node:fs').readFileSync(__dirname + '/fixtures/ki-wortschatz.txt', 'utf8')]);
+    await pp.goto(link, { waitUntil: 'networkidle' });
+    await pp.waitForSelector('#ed-received-dialog[open]');
+    assert.match(await pp.textContent('#ed-received-dialog'), /Eingereicht von Test/);
+    await pp.click('[data-received="take"]');
+    await pp.waitForSelector('[data-ed="lines"]');
+    assert.match(await pp.inputValue('[data-ed="lines"]'), /prendere piede = sich durchsetzen/);
   });
 
   await step('Redaktion: eigene Hörübung anlegen, teilen und als Lernende öffnen', async () => {

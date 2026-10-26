@@ -236,3 +236,4 @@ if (params.get('aufgabe')) {
   } else toast('Dieser Hausaufgaben-Link ist unvollständig.');
 }
 if (params.get('eigene')) receiveShared(params.get('eigene'));
+if (params.get('einreichung')) receiveSubmission(params.get('einreichung'));

@@ -42,7 +42,7 @@ portal/dist/            ← die gesamte App (statisch, kein Build). Nur <script 
   i18n.js i18n-rows.js i18n-simple.js   UI-Texte (Zeilen [de,it,en,fr,it-simple]); *-simple.js für EN/FR einfach
   listening-data.js review-data.js stock-data.js listening-extra.js   Inhalte (Seeds; stock-data.js GENERIERT)
   app.css               Gestaltung, zusammengeführt aus den früheren 10 Dateien (Abschnittsköpfe zeigen die Herkunft); Reihenfolge zählt
-  assets/ examples/ imports/(KI-Kommandodatei.md v2.0, Vokabel-Kommandodatei-Schulbuch.md)  ki.js (KI-Antwort → Paket, Belegprüfung)
+  assets/ examples/ imports/(KI-Kommandodatei.md v2.0, KI-Wortschatz.md v1.0)  ki.js (KI-Antwort → Paket, Belegprüfung)
 portal/tests/           npm test (content, grading, progress, verbs) + e2e.test.cjs (Playwright, 25 Prüfungen)
 grundstock/listening/   25 Lied-/Film-Pakete (GENERIERT aus werkzeuge/hoeren)
 grundstock/vocabulary/  60 Wortschatzpakete (GENERIERT aus werkzeuge/ecco*/…)
@@ -136,6 +136,12 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - Verbleibend 12 Hörübungen, jede Aufgabe am Transkript geprüft.
 - Unterrichtsplan und Kurzbeschreibung: deutscher Grundtext + Übersetzungen in `werkzeuge/hoeren/notizen.py` → `UI_ROWS_CONTENT` in listening-extra.js, von i18n.js wie UI-Zeilen übersetzt. Neue Übung = neuer Eintrag in notizen.py (assert prüft Vollständigkeit).
 - Fehler behoben: unveränderte Redaktionsfassungen (Zeitstempel `SEED_STAMP`) verdeckten Zusatzaufgaben und Unterrichtsplan; entfernte Vorlagen werden aus dem Redaktionsspeicher gelöscht, bearbeitete Fassungen bleiben.
+
+## 6g. Druck, Wortschatz mit KI, Einreichen (26.10.2026)
+- Hörblatt: echte A4-Seiten in Vorschau und Druck (dialog.js `hbPaginate`): Aufgaben nie geteilt, Abschnittstitel bei der ersten Aufgabe, Quellenzeile bei der letzten, Kopfzeile ab Seite 2, Seitenzahl auf jeder Seite (ohne @page-Randfelder, daher auch Safari). Bleibt die letzte Seite fast leer, verdichtet `.hb.dense` die Abstände, wenn das eine Seite spart. Druck: `.paper.pg` 266 mm feste Höhe, Fuß unten. Word-Export nutzt die ungeteilte Fassung (`hbFlatHTML`). Design-/Schriftwechsel und Nachladen von Schriften teilen neu auf (`dlgRelayout`). Prüfskript-Idee: Seitenzahl Vorschau = PDF (alle 36 Fälle gleich).
+- Inhalte: Kernaufgaben ohne Abschnitt werden „beim Hören“ (withExtra), Doppelungen in alt.py (DROPX) entfernt, interne Vermerke aus Erklärungen und Quellenzeilen entfernt, unsichere Stellen im Transkript als „[…]“. Kurzantwort: eine Schreiblinie.
+- Wortschatz mit KI: `imports/KI-Wortschatz.md` 1.0 (Quelle Buchseiten-Fotos oder Text; ersetzt Vokabel-Kommandodatei), `DajeKI.buildVocabulary/promptForVocab` (Grundform, Doppelungen, Fundstellen im Text), Redaktion „Wortliste mit KI erstellen“ (`VK_KEY daje-ki-wortschatz-v1`).
+- „An daje schicken“: E-Mail an hallo@theisapps.de mit Link `?einreichung=…` (zu lang → Datei), Name und Einverständnis landen in reviewNotes/sources. Betreiber öffnet den Link → „In die Redaktion übernehmen“ → „Live stellen“. „Datei importieren“ jetzt direkt in der Redaktion.
 
 ## 7. Offene Punkte
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.

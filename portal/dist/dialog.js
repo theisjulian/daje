@@ -29,7 +29,11 @@ function dlgShow({ title, side, paper }) {
   <div class="dlg-grid"><aside class="dlg-side">${side}</aside><div class="dlg-prev"><div class="pages"><div class="paper">${paper}</div></div></div>`;
   document.body.classList.add('previewing-teaching');
   dlgPaginate();
+  hbPaginate();
   dlgFit();
+  // Schriften laden nach: danach neu messen, sonst stimmt die Seitenaufteilung nicht.
+  if (document.fonts && document.fonts.status === 'loading')
+    document.fonts.ready.then(() => document.body.classList.contains('previewing-teaching') && dlgRelayout());
   const pv = sheet.querySelector('.dlg-prev');
   if (pv) pv.scrollTop = keepScroll;
 }
@@ -89,12 +93,122 @@ function dlgPaginate() {
   });
   pages.replaceChildren(...out);
 }
+/* Hörblatt in echte A4-Seiten teilen, damit Vorschau und Druck übereinstimmen: Aufgaben werden nie geteilt,
+   ein Abschnittstitel bleibt bei seiner ersten Aufgabe, die Quellenzeile bei der letzten. Ab Seite 2 steht eine
+   schmale Kopfzeile, auf jeder Seite die Seitenzahl. Bliebe die letzte Seite fast leer, wird der Abstand
+   verdichtet, sofern das eine Seite spart. */
+let hbFlatHTML = '';
+function hbPaginate() {
+  const sheet = $('teaching-print'), pages = sheet && sheet.querySelector('.pages');
+  const paper = pages && pages.querySelector(':scope > .paper'), hb = paper && paper.querySelector(':scope > .hb');
+  if (!hb) return;
+  hbFlatHTML = paper.innerHTML;
+  pages.style.zoom = 1;
+  // Druckseite: 266 mm hoch (siehe app.css, .hbp), davon Fußzeile; 6 px Reserve für Rundungen.
+  const INNER = Math.floor((266 * 96) / 25.4) - 6;
+  const y = el => el.getBoundingClientRect().top;
+  const list = hb.querySelector(':scope > .hb-list'), key = hb.querySelector(':scope > .hb-key');
+  const tr = hb.querySelector(':scope > .hb-tr'), src = hb.querySelector(':scope > .hb-src'), foot = hb.querySelector(':scope > .doc-foot');
+  const body = list || key;
+  if (!body) return;
+  const head = [...hb.children].slice(0, [...hb.children].indexOf(body));
+  const after = el => el.nextElementSibling || foot;
+  const measure = () => {
+    const u = [];
+    if (list) [...list.children].forEach((li, i, a) => u.push({ box: 'list', node: li, h: y(a[i + 1] || after(list)) - y(li), glue: li.classList.contains('hb-phase') }));
+    if (key) {
+      const rows = [...key.tBodies[0].rows], tf = key.tFoot;
+      rows.forEach((r, i) => u.push({ box: 'key', node: r, h: y(rows[i + 1] || tf || after(key)) - y(r) }));
+      if (tf) u.push({ box: 'keyfoot', node: tf, h: y(after(key)) - y(tf), stick: true });
+    }
+    if (tr) {
+      const ps = [...tr.children];
+      ps.forEach((p, i) => u.push({ box: 'tr', node: p, h: y(ps[i + 1] || after(tr)) - (i ? y(p) : y(tr)), glue: i === 0 }));
+    }
+    if (src) u.push({ box: 'flow', node: src, h: (foot ? y(foot) : src.getBoundingClientRect().bottom + 8) - y(src), stick: true });
+    // Zusammengehöriges zu Blöcken: Titel mit Folgeelement, Quellenzeile/Tabellenfuß mit Vorgänger.
+    const blocks = [];
+    u.forEach((x, i) => {
+      const prev = u[i - 1];
+      if (blocks.length && (x.stick || (prev && prev.glue))) blocks[blocks.length - 1].push(x);
+      else blocks.push([x]);
+    });
+    return { headH: y(body) - y(hb), blocks };
+  };
+  const probe = document.createElement('div');
+  probe.className = 'hb-run';
+  probe.innerHTML = '<span>x</span>';
+  hb.prepend(probe);
+  const runH = probe.offsetHeight + parseFloat(getComputedStyle(probe).marginBottom);
+  probe.remove();
+  const footH = (foot ? foot.offsetHeight : 30) + 10;
+  const split = ({ headH, blocks }) => {
+    const out = [];
+    let cur = [], used = 0, cap = INNER - footH - headH;
+    for (const b of blocks) {
+      const bh = b.reduce((s, x) => s + x.h, 0);
+      if (used + bh > cap && cur.length) {
+        out.push(cur);
+        cur = [];
+        used = 0;
+        cap = INNER - footH - runH;
+      }
+      cur.push(...b);
+      used += bh;
+    }
+    out.push(cur);
+    return { out, fill: used / cap };
+  };
+  let plan = split(measure());
+  if (plan.out.length > 1 && plan.fill < 0.35) {
+    hb.classList.add('dense');
+    const dense = split(measure());
+    if (dense.out.length < plan.out.length) plan = dense;
+    else hb.classList.remove('dense');
+  }
+  const title = esc(hb.querySelector('h1')?.textContent || '');
+  const kind = esc(hb.querySelector('.hb-top span')?.textContent || '');
+  const N = plan.out.length;
+  const made = plan.out.map((units, n) => {
+    const pg = document.createElement('div');
+    pg.className = 'paper pg hbp';
+    const h = hb.cloneNode(false);
+    pg.append(h);
+    if (n === 0) head.forEach(e => h.append(e.cloneNode(true)));
+    else h.insertAdjacentHTML('beforeend', `<div class="hb-run"><span>${title}</span><span>${kind}</span></div>`);
+    let box = '', cont = null, table = null;
+    for (const x of units) {
+      if (x.box === 'keyfoot') { table.append(x.node.cloneNode(true)); continue; }
+      if (x.box !== box) {
+        box = x.box;
+        if (box === 'list') h.append((cont = list.cloneNode(false)));
+        else if (box === 'key') {
+          table = key.cloneNode(false);
+          table.append(key.tHead.cloneNode(true), (cont = document.createElement('tbody')));
+          h.append(table);
+        } else if (box === 'tr') h.append((cont = tr.cloneNode(false)));
+        else cont = h;
+      }
+      cont.append(x.node.cloneNode(true));
+    }
+    pg.insertAdjacentHTML('beforeend', docFooter());
+    pg.lastElementChild.insertAdjacentHTML('afterbegin', `<span class="doc-pn">${n + 1} / ${N}</span>`);
+    return pg;
+  });
+  pages.replaceChildren(...made);
+}
 window.addEventListener('resize', dlgFit);
 document.addEventListener('click', e => {
   const b = e.target.closest('[data-dlg-side]');
   const sheet = document.getElementById('teaching-print');
   if (b && sheet) { const on = sheet.classList.toggle('side-open'); b.setAttribute('aria-expanded', String(on)); b.textContent = on ? 'Fertig' : 'Anpassen'; setTimeout(dlgFit, 50); }
 });
+/* Design und Schrift ändern Zeilenhöhen: Seiten neu aufteilen. */
+function dlgRelayout() {
+  if (docCurrent && docCurrent.kind === 'listening') printTeaching(docCurrent.solutions);
+  else if (docCurrent && docCurrent.kind === 'vocab' && typeof renderVocabDoc === 'function') renderVocabDoc();
+  else dlgStyle($('teaching-print'));
+}
 const dlgBlock = (h, inner) => `<section class="dlg-block"><h4>${h}</h4>${inner}</section>`;
 
 renderVocabDoc = function () {
@@ -123,9 +237,9 @@ printTeaching = function (solutions) {
 document.addEventListener('change', e => {
   const t = e.target;
   if (t.matches('input[data-doc="design"]')) {
-    docState.design = t.value; saveDocState(); dlgStyle($('teaching-print'));
+    docState.design = t.value; saveDocState(); dlgRelayout();
   } else if (t.matches('input[data-doc="font"]')) {
-    docState.font = t.value; saveDocState(); dlgStyle($('teaching-print'));
+    docState.font = t.value; saveDocState(); dlgRelayout();
   } else if (t.matches('input[data-doc="accent"]')) {
     docState.accent = t.value; saveDocState(); dlgStyle($('teaching-print'));
   } else if (t.matches('input[data-hb="mode"]')) printTeaching(Number(t.value));

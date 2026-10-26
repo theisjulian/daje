@@ -549,7 +549,7 @@ function questionHTML(x, q, index, state) {
 
 /* Abschnitt am Anfang einer Aufgabe („Prima dell’ascolto: …“) wird als Etikett gezeigt. */
 const QUESTION_PHASE =
-  /^(Prima dell’ascolto|Prima del film|Primo ascolto|Secondo ascolto|Durante l’ascolto|Dopo l’ascolto|Dopo il film|Lessico e lingua|Before listening|While listening|After listening|Before watching|While watching|After watching|Vocabulary|Language|Vor dem Hören|Beim Hören|Nach dem Hören|Wortschatz vorab|Wortschatz)\s*:\s*/;
+  /^(Prima dell['’]ascolto|Prima del film|Primo ascolto|Secondo ascolto|Durante l['’]ascolto|Dopo l['’]ascolto|Dopo il film|Lessico e lingua|Lessico|Before listening|While listening|After listening|Before watching|While watching|After watching|Vocabulary|Language|Vor dem Hören|Beim Hören|Nach dem Hören|Wortschatz vorab|Wortschatz|Avant l['’]écoute|Pendant l['’]écoute|Après l['’]écoute|Lexique|Antes de escuchar|Mientras escuchas|Después de escuchar|Léxico)\s*:\s*/;
 
 /* Fokus-Modus: eine Aufgabe pro Bildschirm (Standard am Handy und iPad hochkant). */
 let focusIndex = 0,

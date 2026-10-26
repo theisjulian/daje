@@ -242,6 +242,121 @@ async function edShare() {
   d.showModal();
 }
 
+/* ---------- An daje schicken ----------
+   Kolleginnen und Kollegen schlagen eine Übung für den öffentlichen Katalog vor: E-Mail an hallo@theisapps.de
+   mit einem Link, der die ganze Übung enthält (?einreichung=…). Zu lang für eine E-Mail: als Datei anhängen. */
+const DAJE_MAIL = 'hallo@theisapps.de';
+const SUBMIT_NAME_KEY = 'daje-einreichen-name';
+function edSubmissionPackage(payload, name) {
+  const p = JSON.parse(JSON.stringify(payload));
+  const who = name.trim();
+  p.reviewNotes = [...(p.reviewNotes || []), `Eingereicht${who ? ' von ' + who : ''} am ${new Date().toLocaleDateString('de-DE')}; Einverständnis zur Veröffentlichung im daje-Katalog erteilt.`].slice(-20);
+  if (who && p.sources.length < 12) p.sources = [...p.sources, { kind: 'own', citation: (p.kind === 'listening' ? 'Aufgaben: ' : 'Liste: ') + who, rights: 'own' }];
+  return p;
+}
+function edSubmit() {
+  const v = edCommit();
+  if (!v.ok) return toast('Bitte zuerst die offenen Punkte ergänzen.');
+  const x = edItem().payload;
+  let d = $('ed-submit-dialog');
+  if (!d) {
+    d = document.createElement('dialog');
+    d.id = 'ed-submit-dialog';
+    d.setAttribute('aria-labelledby', 'ed-submit-title');
+    document.body.append(d);
+  }
+  d.innerHTML = `<div class="dialog-head"><h2 id="ed-submit-title">An daje schicken</h2><button class="button secondary" data-close="ed-submit-dialog">Schließen</button></div>
+    <p>Eine gelungene Übung? Schick sie an <b>${DAJE_MAIL}</b>. Nach einer Prüfung kann sie in den öffentlichen daje-Katalog aufgenommen werden und steht dann allen zur Verfügung.</p>
+    <p class="muted small">„${esc(x.title)}“ · ${x.kind === 'listening' ? plural(x.questions.length, 'Aufgabe', 'Aufgaben') : plural(x.entries.length, 'Wort', 'Wörter')} · ${esc(portalLang(x.language))} · ${esc(x.level)}</p>
+    <label class="field">Dein Name für die Quellenangabe (optional)<input id="submit-name" autocomplete="name" value="${esc(read(SUBMIT_NAME_KEY, ''))}" placeholder="z. B. M. Rossi, Gymnasium Musterstadt"></label>
+    <label class="dlg-check"><input type="checkbox" id="submit-ok"><span>Ich bin einverstanden, dass die Übung nach Prüfung im daje-Katalog veröffentlicht wird. Medien und Texte darf ich dafür verwenden.</span></label>
+    <div class="hw-actions"><button class="button primary" data-submit="mail">E-Mail öffnen</button><button class="button secondary" data-submit="file">Als Datei teilen</button></div>
+    <p class="small" id="submit-status" role="status"></p>`;
+  d.showModal();
+}
+async function edSubmitSend(how) {
+  const status = $('submit-status');
+  if (!$('submit-ok').checked) return (status.textContent = 'Bitte zuerst das Einverständnis bestätigen.');
+  const name = $('submit-name').value;
+  save(SUBMIT_NAME_KEY, name.trim());
+  const p = edSubmissionPackage(edItem().payload, name);
+  const fileName = 'daje-' + p.id + '.json';
+  const file = () => new File([JSON.stringify(p, null, 2)], fileName, { type: 'application/json' });
+  const subject = 'daje · Vorschlag für den Katalog: ' + p.title;
+  const intro = `Hallo,\n\nich schlage diese ${p.kind === 'listening' ? 'Hörübung' : 'Wortliste'} für den daje-Katalog vor.\n\nTitel: ${p.title}\nSprache und Niveau: ${portalLang(p.language)} · ${p.level}\n${name.trim() ? 'Von: ' + name.trim() + '\n' : ''}Einverständnis: Die Übung darf nach Prüfung im daje-Katalog veröffentlicht werden.\n\n`;
+  if (how === 'file') {
+    const f = file();
+    if (navigator.canShare && navigator.canShare({ files: [f] })) {
+      try {
+        await navigator.share({ files: [f], title: subject, text: intro + 'Bitte an ' + DAJE_MAIL + ' senden.' });
+        return (status.textContent = 'Geteilt. Als Empfänger bitte ' + DAJE_MAIL + ' eintragen.');
+      } catch (err) {
+        if (err.name === 'AbortError') return;
+      }
+    }
+    downloadJSON(p, fileName);
+    return (status.textContent = `Datei „${fileName}“ gespeichert. Bitte an eine E-Mail an ${DAJE_MAIL} anhängen.`);
+  }
+  const u = new URL(location.href);
+  u.search = '';
+  u.hash = '';
+  u.searchParams.set('einreichung', await edPack(p));
+  let body = intro + 'Übung öffnen (der Link enthält die ganze Übung):\n' + u.href + '\n\nViele Grüße';
+  let mail = `mailto:${DAJE_MAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  // Manche Mailprogramme kürzen sehr lange Links: dann die Übung als Datei anhängen.
+  if (mail.length > 7000) {
+    downloadJSON(p, fileName);
+    body = intro + `Die Übung hängt als Datei an (${fileName}).\n\nViele Grüße`;
+    mail = `mailto:${DAJE_MAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    status.textContent = `Die Übung ist zu umfangreich für einen Link. Datei „${fileName}“ wurde gespeichert: Bitte an die E-Mail anhängen.`;
+  } else status.textContent = 'Dein Mailprogramm öffnet sich mit einer fertigen Nachricht. Nur noch absenden.';
+  location.href = mail;
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-submit]');
+  if (b) edSubmitSend(b.dataset.submit);
+});
+
+/* Betreiber: eingereichte Übung aus dem E-Mail-Link ansehen und in die Redaktion übernehmen. */
+async function receiveSubmission(code) {
+  try {
+    const v = TheisContent.validatePackage(await edUnpack(code));
+    if (!v.ok) throw new Error('ungültig');
+    const p = v.value;
+    let d = $('ed-received-dialog');
+    if (!d) {
+      d = document.createElement('dialog');
+      d.id = 'ed-received-dialog';
+      d.setAttribute('aria-labelledby', 'ed-received-title');
+      document.body.append(d);
+    }
+    const note = (p.reviewNotes || []).filter(n => n.startsWith('Eingereicht')).pop() || '';
+    d.innerHTML = `<div class="dialog-head"><h2 id="ed-received-title">Eingereichte Übung</h2><button class="button secondary" data-close="ed-received-dialog">Schließen</button></div>
+      <h3>${esc(p.title)}</h3>
+      <p>${p.kind === 'listening' ? 'Hörübung · ' + plural(p.questions.length, 'Aufgabe', 'Aufgaben') : 'Wortliste · ' + plural(p.entries.length, 'Wort', 'Wörter')} · ${esc(portalLang(p.language))} · ${esc(p.level)}</p>
+      ${note ? `<p class="muted small">${esc(note)}</p>` : ''}
+      <p>In der Redaktion prüfen, bei Bedarf bearbeiten und dann mit „Live stellen“ in den öffentlichen Katalog aufnehmen.</p>
+      <div class="hw-actions"><button class="button primary" data-received="take">In die Redaktion übernehmen</button></div>`;
+    d._pkg = p;
+    d.showModal();
+  } catch (err) {
+    toast('Dieser Einreichungs-Link ist unvollständig. Bitte um die Datei bitten.');
+  }
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-received="take"]');
+  if (!b) return;
+  const d = $('ed-received-dialog'), p = JSON.parse(JSON.stringify(d._pkg));
+  d.close();
+  if (editorState.items.some(i => edId(i) === p.id)) p.id = edNewId();
+  if (!isTeacher()) {
+    save('daje-lehrkraft-ok', true);
+    setPortalAudience('teach');
+    refreshAudience();
+  }
+  edCreate(p, 'Übernommen. Jetzt prüfen und mit „Live stellen“ veröffentlichen.');
+});
+
 /* Lernende: geteilte Übung aus dem Link übernehmen und öffnen. */
 function sharedPackages() {
   return read('daje-geteilt-v1', [])
@@ -303,10 +418,13 @@ function renderStudio() {
     <header class="page-head"><div class="eyebrow">Redaktion</div><h1>Eigene Übungen</h1><p>Erstelle Hörübungen und Wortlisten für deine Klasse. Alles bleibt in diesem Browser, bis du es als Link teilst.</p></header>
     <div class="ed-new">
       <button class="button primary" data-ki-open aria-expanded="${kiOpen}">Hörübung mit KI erstellen</button>
+      <button class="button primary" data-vk-open aria-expanded="${vkOpen}">Wortliste mit KI erstellen</button>
       <button class="button secondary" data-ed-new="listening">Leere Hörübung</button>
-      <button class="button secondary" data-ed-new="vocabulary">Neue Wortliste</button>
+      <button class="button secondary" data-ed-new="vocabulary">Leere Wortliste</button>
+      <button class="quiet" data-portal="studio-load">Datei importieren</button><input id="studio-file" type="file" accept=".json,application/json" hidden>
     </div>
     ${kiOpen ? kiPanelHTML() : ''}
+    ${vkOpen ? vkPanelHTML() : ''}
     <div class="ed-layout">
       <nav class="ed-list" aria-label="Eigene Inhalte">
         ${own.map(card).join('') || '<p class="hw-empty">Noch keine eigenen Übungen. Lege oben eine an oder öffne eine Hörübung im Katalog und wähle „Als eigene Übung bearbeiten“.</p>'}
@@ -331,6 +449,7 @@ function editorFormHTML(item) {
   const head = `<div class="ed-toolbar">
       <button class="button secondary" data-ed-act="preview" data-ed-needs-valid>Vorschau</button>
       <button class="button primary" data-ed-act="share" data-ed-needs-valid>Mit Klasse teilen</button>
+      <button class="button secondary" data-ed-act="submit" data-ed-needs-valid>An daje schicken</button>
       <button class="button secondary" data-ed-act="catalog" data-ed-needs-valid aria-pressed="${item.status === 'published'}">${item.status === 'published' ? 'Im Katalog sichtbar' : 'Im eigenen Katalog zeigen'}</button>
       <button class="quiet" data-ed-act="export" data-ed-needs-valid>Als Datei sichern</button>
       <button class="quiet danger" data-ed-act="delete">Löschen</button>
@@ -691,6 +810,7 @@ document.addEventListener('click', e => {
     return edPreviewWords(item.payload);
   }
   if (a === 'share') return edShare();
+  if (a === 'submit') return edSubmit();
   if (a === 'catalog') return edToggleCatalog();
   if (a === 'export' && edCommit().ok) return downloadJSON(item.payload, item.payload.id + '.json');
   if (
@@ -786,7 +906,7 @@ function kiPanelHTML() {
       <div id="ki-result" role="status"></div>
     </div></div>
     <details class="ed-box ki-advanced"><summary>Fertiges Paket importieren (JSON, für Fortgeschrittene)</summary>
-      <div class="studio-downloads"><a class="button secondary" href="imports/KI-Kommandodatei.md" download>KI-Kommandodatei</a><a class="button secondary" href="imports/Vokabel-Kommandodatei-Schulbuch.md" download>Kommandodatei Wortschatz</a><button class="button secondary" data-portal="studio-load">Datei auswählen</button><input id="studio-file" type="file" accept=".json,application/json" hidden></div>
+      <div class="studio-downloads"><a class="button secondary" href="imports/KI-Kommandodatei.md" download>KI-Kommandodatei</a><a class="button secondary" href="imports/KI-Wortschatz.md" download>Kommandodatei Wortschatz</a><button class="button secondary" data-portal="studio-load">Datei auswählen</button></div>
       <label class="field">JSON einfügen<textarea id="studio-json" rows="5" maxlength="2000000" spellcheck="false" placeholder="{ ... }">${esc(lastValidation?.raw || '')}</textarea></label>
       <button class="button secondary" data-portal="studio-validate">Prüfen</button>
       <div id="studio-validation" role="status">${validationHTML()}</div>
@@ -883,6 +1003,7 @@ document.addEventListener('click', e => {
   if (!b) return;
   if (b.hasAttribute('data-ki-open')) {
     kiOpen = !kiOpen;
+    if (kiOpen) vkOpen = false;
     renderStudio();
     if (kiOpen) document.querySelector('.ed-ki')?.scrollIntoView({ block: 'start' });
   } else if (b.hasAttribute('data-ki-copy')) kiCopy();
@@ -890,6 +1011,120 @@ document.addEventListener('click', e => {
   else if (confirm('Alle Eingaben im Formular löschen?')) {
     kiForm = { ...kiForm, url: '', start: '', end: '', transcript: '', wishes: '', answer: '' };
     save(KI_KEY, kiForm);
+    renderStudio();
+  }
+});
+
+/* ---------- Schnellweg: Wortliste mit KI ----------
+   Quelle Buchseiten (Fotos im Chat anhängen) oder ein Text (z. B. Oberstufe ohne Vokabelteil).
+   Ablauf wie bei der Hörübung: Angaben → Auftrag kopieren → Antwort einfügen → Liste prüfen. */
+const VK_KEY = 'daje-ki-wortschatz-v1';
+const VK_DEFAULT = { mode: 'buch', language: 'it', level: 'A2', collection: '', section: '', pages: '', grade: '', count: '25', text: '', wishes: '', answer: '' };
+let vkOpen = false,
+  vkForm = null,
+  vkCommand = null;
+const vkState = () => (vkForm ??= Object.assign({}, VK_DEFAULT, read(VK_KEY, {})));
+function vkPanelHTML() {
+  const f = vkState();
+  const book = f.mode === 'buch';
+  const sel = (k, list) =>
+    `<select data-vk="${k}">${list.map(([v, t]) => `<option value="${esc(v)}" ${String(f[k]) === String(v) ? 'selected' : ''}>${esc(t)}</option>`).join('')}</select>`;
+  const inp = (k, label, ph, extra = '') => `<label class="field">${label}<input data-vk="${k}" value="${esc(f[k])}" placeholder="${esc(ph)}" ${extra}></label>`;
+  return `<section class="ed-ki" aria-label="Wortliste mit KI erstellen">
+    <div class="ki-step"><span class="ki-n">1</span><div>
+      <h3>Woher kommen die Wörter?</h3>
+      <div class="dlg-seg ki-mode">${[['buch', 'Schulbuchseiten (Fotos)'], ['text', 'Aus einem Text']].map(([v, l]) => `<label><input type="radio" name="vk-mode" data-vk="mode" value="${v}" ${f.mode === v ? 'checked' : ''}><span>${l}</span></label>`).join('')}</div>
+      <div class="ed-grid">
+        <label class="field">Sprache${sel('language', Object.entries(TheisContent.LANGUAGES))}</label>
+        <label class="field">Niveau${sel('level', ED_LEVELS.map(l => [l, l]))}</label>
+        ${inp('collection', book ? 'Lehrwerk' : 'Sammlung', book ? 'z. B. Ecco più 2' : 'z. B. Oberstufe Q11')}
+        ${inp('section', book ? 'Abschnitt' : 'Titel der Liste', book ? 'z. B. Unità 3 · 3a' : 'z. B. Lettura: Le città invisibili')}
+        ${book ? inp('pages', 'Seiten', 'z. B. 170–171', 'inputmode="numeric"') : `<label class="field">Umfang${sel('count', [['15', 'knapp · etwa 15'], ['25', 'normal · etwa 25'], ['40', 'ausführlich · etwa 40']])}</label>`}
+        <label class="field">Klassenstufe (optional)${sel('grade', [['', '–'], ...[5, 6, 7, 8, 9, 10, 11, 12, 13].map(n => [String(n), String(n)])])}</label>
+      </div>
+      ${book ? '<p class="ki-help">Die Fotos der Vokabelseiten hängst du in Schritt 2 direkt im Chat an (Büroklammer oder Plus-Zeichen). Gut lesbar, gerade fotografiert, eine Doppelseite pro Foto.</p>' : `<label class="field">Text<textarea data-vk="text" rows="8" placeholder="Text hier einfügen …">${esc(f.text)}</textarea></label>`}
+      <label class="field">Wünsche (optional)<input data-vk="wishes" value="${esc(f.wishes)}" placeholder="${book ? 'z. B. nur Abschnitt 3a' : 'z. B. Schwerpunkt Verben mit Präposition'}"></label>
+    </div></div>
+    <div class="ki-step"><span class="ki-n">2</span><div>
+      <h3>Auftrag an die KI</h3>
+      <p class="muted small">${book ? 'Auftrag kopieren, im Chat die Fotos anhängen, Auftrag einfügen und absenden.' : 'Auftrag kopieren, im Chat einfügen und absenden. Der Text ist schon enthalten.'}</p>
+      <div class="ki-actions"><button class="button primary" data-vk-copy>Auftrag kopieren</button>${KI_CHATS.map(([n, u]) => `<a class="button secondary" href="${u}" target="_blank" rel="noopener">${n} öffnen</a>`).join('')}</div>
+      <p class="small" id="vk-copy-status" role="status"></p>
+    </div></div>
+    <div class="ki-step"><span class="ki-n">3</span><div>
+      <h3>Antwort der KI einfügen</h3>
+      <label class="field"><textarea data-vk="answer" rows="6" spellcheck="false" placeholder="Die ganze Antwort hier einfügen, auch mit Text davor oder danach.">${esc(f.answer)}</textarea></label>
+      <div class="ki-actions"><button class="button primary" data-vk-build>Wortliste anlegen</button><button class="quiet" data-vk-reset>Formular leeren</button></div>
+      <div id="vk-result" role="status"></div>
+    </div></div>
+  </section>`;
+}
+function vkInputs() {
+  const f = vkState();
+  return { ...f, collection: f.collection.trim(), section: f.section.trim(), pages: f.pages.trim() };
+}
+async function vkCopy() {
+  const status = $('vk-copy-status');
+  try {
+    if (vkForm.mode === 'text' && !vkForm.text.trim()) throw new Error('Bitte zuerst den Text einfügen.');
+    if (!vkCommand) {
+      const r = await fetch('imports/KI-Wortschatz.md', { cache: 'no-cache' });
+      if (!r.ok) throw new Error('Die Kommandodatei konnte nicht geladen werden.');
+      vkCommand = await r.text();
+    }
+    const text = DajeKI.promptForVocab(vkCommand, vkInputs());
+    try {
+      await navigator.clipboard.writeText(text);
+      status.textContent = vkForm.mode === 'buch' ? 'Auftrag kopiert. Im Chat zuerst die Fotos anhängen, dann den Auftrag einfügen und absenden.' : 'Auftrag kopiert. Jetzt im Chat einfügen und absenden.';
+    } catch {
+      status.innerHTML = 'Kopieren wurde blockiert. Bitte hier markieren und kopieren:<textarea class="ki-fallback" rows="5" readonly>' + esc(text) + '</textarea>';
+      status.querySelector('textarea').select();
+    }
+  } catch (err) {
+    status.textContent = err.message;
+  }
+}
+function vkBuild() {
+  const out = $('vk-result');
+  try {
+    const ai = DajeKI.extractJSON(vkForm.answer);
+    const r = DajeKI.buildVocabulary(ai, { ...vkInputs(), id: edNewId() }, TheisContent.validatePackage);
+    const pkg = r.result && r.result.ok ? r.result.value : r.pkg;
+    const found = r.evidence.filter(e => e.status === 'ok' || e.status === 'fast').length;
+    const msg = `${plural(pkg.entries.length, 'Wort', 'Wörter')} angelegt.${r.evidence.length ? ` Im Text gefunden: ${found} von ${r.evidence.length}.` : ''}`;
+    vkOpen = false;
+    vkForm.answer = '';
+    save(VK_KEY, vkForm);
+    edCreate(pkg, msg);
+    if (r.warnings.length || !r.result?.ok) toast(msg + ' ' + r.warnings.join(' '));
+  } catch (err) {
+    out.innerHTML = `<div class="validation-errors"><b>Noch nicht übernommen</b><p>${esc(err.message)}</p></div>`;
+  }
+}
+document.addEventListener('input', e => {
+  const k = e.target.dataset?.vk;
+  if (!k) return;
+  vkState();
+  vkForm[k] = e.target.value;
+  save(VK_KEY, vkForm);
+  if (k === 'mode') renderStudio();
+});
+document.addEventListener('change', e => {
+  if (e.target.dataset?.vk && e.target.tagName === 'SELECT') e.target.dispatchEvent(new Event('input', { bubbles: true }));
+});
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-vk-open],[data-vk-copy],[data-vk-build],[data-vk-reset]');
+  if (!b) return;
+  if (b.hasAttribute('data-vk-open')) {
+    vkOpen = !vkOpen;
+    if (vkOpen) kiOpen = false;
+    renderStudio();
+    if (vkOpen) document.querySelector('.ed-ki')?.scrollIntoView({ block: 'start' });
+  } else if (b.hasAttribute('data-vk-copy')) vkCopy();
+  else if (b.hasAttribute('data-vk-build')) vkBuild();
+  else if (confirm('Alle Eingaben im Formular löschen?')) {
+    vkForm = { ...vkForm, section: '', pages: '', text: '', wishes: '', answer: '' };
+    save(VK_KEY, vkForm);
     renderStudio();
   }
 });

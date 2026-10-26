@@ -25,9 +25,12 @@ function withExtra(x) {
   if (!e) return x;
   const have = new Set((x.questions || []).map(q => q.id));
   const add = [...e.pre, ...e.post].filter(q => !have.has(q.id));
+  // Kernaufgaben ohne Abschnitt gehören zwischen „vor“ und „nach dem Hören“: als „beim Hören“ kennzeichnen.
+  const during = { it: 'Durante l’ascolto: ', en: 'While listening: ', fr: 'Pendant l’écoute : ', es: 'Mientras escuchas: ' }[x.language] || '';
+  const core = (x.questions || []).map(q => (during && !QUESTION_PHASE.test(q.prompt) ? { ...q, prompt: during + q.prompt } : q));
   return {
     ...x,
-    questions: [...e.pre.filter(q => !have.has(q.id)), ...(x.questions || []), ...e.post.filter(q => !have.has(q.id))],
+    questions: [...e.pre.filter(q => !have.has(q.id)), ...core, ...e.post.filter(q => !have.has(q.id))],
     description: e.description || x.description,
     teacherNotes: x.teacherNotes || e.teacherNotes,
     levelLabel: x.levelLabel || e.levelLabel,
@@ -132,7 +135,7 @@ function transcriptForDisplay(text) {
     )
     .replace(/^(?:Ausschnitt[^\n]*|\[Sprecherwechsel ungesichert\])\n?/, '')
     .replace(/\[(\d{2}:\d{2}); laut Gemini\]/g, '[$1]')
-    .replace(/\[Wortlaut zu prüfen\]/g, '[Wortlaut unsicher]')
+    .replace(/\[(?:Wortlaut zu prüfen|Wortlaut unsicher|unverständlich)\]/g, '[…]')
     .trim();
 }
 /* Titelbild einer Hörübung. Eigene Fotos bleiben; sonst ein gestaltetes Cover in der Farbe der

@@ -1,0 +1,17 @@
+Ecco la lista:
+```json
+{
+  "title": "Le librerie in città",
+  "description": "Parole importanti del testo.",
+  "level": "B2",
+  "topics": ["cultura", "città"],
+  "entries": [
+    {"target":"prendere piede","translations":["sich durchsetzen","Fuß fassen"],"partOfSpeech":"phrase","example":"La moda dei podcast ha preso piede.","evidence":"le librerie hanno preso piede in città"},
+    {"target":"la libreria","translations":["die Buchhandlung"],"partOfSpeech":"noun","gender":"feminine","example":"Vado in libreria.","evidence":"le librerie hanno preso piede"},
+    {"target":"il quartiere","translations":["das Viertel / der Stadtteil"],"partOfSpeech":"noun","gender":"masculine","evidence":"in ogni quartiere del centro"},
+    {"target":"La libreria","translations":["doppelt"]},
+    {"target":"il marciapiede","translations":["der Bürgersteig"],"partOfSpeech":"noun","gender":"masculine","evidence":"sul marciapiede davanti al bar"},
+  ],
+  "reviewNotes": []
+}
+```

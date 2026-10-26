@@ -47,7 +47,7 @@ function hbBody(q, t, sol) {
     default:
       return sol
         ? `<div class="hb-sol"><b>${esc(q.modelAnswer || q.acceptedAnswers?.[0] || '')}</b>${(q.acceptedAnswers || []).filter(a => a !== q.modelAnswer).length ? ` <span>· ${esc(t.kAlso)}: ${esc(q.acceptedAnswers.filter(a => a !== q.modelAnswer).join(' / '))}</span>` : ''}</div>`
-        : '<div class="hb-line"></div><div class="hb-line"></div>';
+        : '<div class="hb-line"></div>';
   }
 }
 /* Kurzer Lösungsschlüssel: eine Zeile pro Aufgabe, so wie Lehrkräfte ihn zum Korrigieren neben das Blatt legen. */
@@ -84,7 +84,8 @@ function hbHTML(x, sol) {
   const t = HB_TXT[L] || HB_TXT.de;
   const lang = t.lang || portalLang(x.language);
   const total = x.questions.reduce((s, q) => s + hbPoints(q), 0);
-  const local = editorState.items.some(i => i.payload?.id === x.id) && !STOCK_PACKAGES.some(s => s.id === x.id);
+  // Link nur für Übungen, die unter dieser Adresse für alle abrufbar sind (Katalog), nicht für private Entwürfe.
+  const local = ![...LISTENING_SEEDS, ...LISTENING_REVIEW_SEEDS, ...STOCK_PACKAGES].some(s => s.id === x.id);
   const link = location.origin + location.pathname + '?hoeren=' + encodeURIComponent(x.id);
   instrCtx = x.language;
   // Abschnitte („Prima dell’ascolto: …“) werden als Zwischenüberschrift gedruckt, nicht in jeder Frage.
@@ -104,7 +105,7 @@ function hbHTML(x, sol) {
   ${sol ? '' : `<table class="hb-id"><tr><td>${esc(t.name)}</td><td>${esc(t.cls)}</td><td>${esc(t.date)}</td><td class="pts">${esc(t.pts)} &nbsp; / ${total}</td></tr></table>`}
   ${sol ? '' : `<div class="hb-box"><div class="hb-box-t"><b>${esc(t.listen)}</b>${hbOpt.link && !local && !speech ? `<span>${esc(t.online)}: ${esc(link)}</span>` : ''}</div>${hbOpt.link && !local && !speech && typeof qrSVG === 'function' ? `<i class="hb-qr">${qrSVG(link, 'QR')}</i>` : ''}</div>`}
   ${sol && hbOpt.compact ? hbKeyTable(x, t) : `<ol class="hb-list">${qs}</ol>`}
-  ${sol && hbOpt.transcript && x.transcript ? `<section class="hb-tr"><h3>${esc(t.tr)}</h3><p>${esc(x.transcript).replace(/\n+/g, '<br>')}</p></section>` : ''}
+  ${sol && hbOpt.transcript && x.transcript ? `<section class="hb-tr"><h3>${esc(t.tr)}</h3>${transcriptForDisplay(x.transcript).split(/\n+/).filter(l => l.trim()).map(l => `<p>${esc(l)}</p>`).join('')}</section>` : ''}
   <footer class="hb-src"><b>${esc(t.src)}</b> ${x.sources.map(s => esc(sol ? s.citation : visibleText(s.citation))).filter(Boolean).join(' · ')}${speech ? ' · ' + esc(t.demo) : ''}</footer>
   ${docFooter()}</div>`;
 }

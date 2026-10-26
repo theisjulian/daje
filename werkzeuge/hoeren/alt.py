@@ -219,8 +219,10 @@ done('en-b2-secrets-learning-language', pre, post, notes(['Question: What is the
 
 # Meinungs-/Selbstauskunftsfragen mit einer „richtigen“ Antwort entfernen (Review 25.10.2026)
 DROPX = {'it-a2-ordine-al-bar': [], 'it-a2-weekend-scena-tre': ['q4', 'q12'], 'it-a2-hobby-interviste': ['q6', 'q15'],
-         'it-a2-roma-citta': ['q7', 'q18'], 'it-a2-conoscere-italia': ['q6', 'q17'], 'en-voa-welcome': ['q13'],
-         'en-b1-carbon-footprint': ['q20'], 'en-b2-secrets-learning-language': ['q24']}
+         'it-a2-roma-citta': ['q7', 'q18', 'q16'], 'it-a2-conoscere-italia': ['q6', 'q17'], 'en-voa-welcome': ['q13', 'q7'],
+         'en-b1-carbon-footprint': ['q20', 'q13'], 'en-b2-secrets-learning-language': ['q24', 'q14'],
+         # Doppelungen (26.10.2026): fragen dasselbe wie eine Kernaufgabe oder verraten deren Lösung
+         'it-a2-cucina-tiramisu': ['q16']}
 for k, ids in DROPX.items():
     for part in ('pre', 'post'):
         EX[k][part] = [q for q in EX[k][part] if q['id'] not in ids]
