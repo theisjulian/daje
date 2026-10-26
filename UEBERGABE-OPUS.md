@@ -27,21 +27,23 @@ Buildlose Browser-Anwendung für Lehrkräfte und Lernende (viel iPad/iPhone) von
 ```
 portal/dist/            ← die gesamte App (statisch, kein Build). Nur <script defer> in index.html; Reihenfolge zählt,
                           spätere Dateien überschreiben Funktionen früherer (z. B. printTeaching in dialog.js).
-  index.html            Einstieg, Skriptreihenfolge, CSS-Reihenfolge (mobile.css zuletzt)
+  index.html            Einstieg, Skriptreihenfolge; eine Stildatei app.css
   data.js features.js app.js      Lernlogik Wortschatz (Karten/Schreiben/Zuordnen), Sitzung, Fortschritt
   grading.js            Antwortbewertung (Artikel-/Akzent-/Tippfehler-Toleranz, Synonyme)
   content-contract.js   Paketschema 1.0–1.2 + validatePackage (entfernt unbekannte Felder!)
   portal.js views.js    Hörverstehen: Katalog, Übungsseite, Lehrkräfteansicht, Profil/Backup
   hoerblatt.js docs.js dialog.js   Druck/Word: Aufgabenblatt, Vokabeldokument, Dokumentdialog (Vorschau + Anpassen)
-  wortschatz.js wortschatz.css     Wortschatz-Hub (Buchcover-Kacheln, Lektions-/Seitenwahl, Auswahl)
+  wortschatz.js         Wortschatz-Hub (Buchcover-Kacheln, Lektions-/Seitenwahl, Auswahl)
   verlauf.js            Browserverlauf (Zurück-Taste/Wischgeste, ?seite=, ?buch=, ?hoeren=); zuletzt geladen, umhüllt nav/openListening/renderSession
-  verbs.js verbs.css    Verbmaschine (VB_DATA [inf, de, gruppe, klasse, overrides] → vbBuild)
-  shell.js extras2.js catalog.js instr.js publish.js studio.js qr.js   Navigation, Redaktion, QR, Anweisungstexte
+  aufgabe.js            Hausaufgabe: Lehrkraft bündelt Inhalte → ?aufgabe=<base64 {t,i:['l:id','v:id']}>, Lernende: Aufgabenliste
+  verbs.js              Verbmaschine (VB_DATA [inf, de, gruppe, klasse, overrides] → vbBuild)
+  studio.js             Redaktion „Eigene Übungen“: anlegen/bearbeiten (Entwurf in draft, gültiges Paket in payload), Teilen per ?eigene=<z|j+base64url> (deflate-raw), empfangene Pakete in daje-geteilt-v1
+  shell.js extras2.js catalog.js instr.js publish.js qr.js   Navigation (Markenzeichen DAJE_MARK), Titelbildsuche/JSON-Bearbeitung, Live stellen (GitHub, nur Betreiber), QR, Anweisungstexte
   i18n.js i18n-rows.js i18n-simple.js   UI-Texte (Zeilen [de,it,en,fr,it-simple]); *-simple.js für EN/FR einfach
   listening-data.js review-data.js stock-data.js listening-extra.js   Inhalte (Seeds; stock-data.js GENERIERT)
-  themes.css skins.css style.css lessico.css portal.css design.css docs.css mobile.css   Gestaltung
+  app.css               Gestaltung, zusammengeführt aus den früheren 10 Dateien (Abschnittsköpfe zeigen die Herkunft); Reihenfolge zählt
   assets/ examples/ imports/(KI-Kommandodatei.md, Gemini-Folgeprompt.md)
-portal/tests/           npm test (content, grading, progress, verbs) + e2e.test.cjs (Playwright, 22 Prüfungen)
+portal/tests/           npm test (content, grading, progress, verbs) + e2e.test.cjs (Playwright, 25 Prüfungen)
 grundstock/listening/   25 Lied-/Film-Pakete (GENERIERT aus werkzeuge/hoeren)
 grundstock/vocabulary/  60 Wortschatzpakete (GENERIERT aus werkzeuge/ecco*/…)
 inhalte/                die 15 älteren Hörpakete im Original (Seeds liegen in listening-data/review-data)
@@ -49,7 +51,7 @@ werkzeuge/              Automatisierung (siehe 4)
 uebergabe/              ältere Doku 01–07, neu: 08-ENTSCHEIDUNGEN.md
 ```
 
-Daten-/Speicherschlüssel: `ripassa-ui-language-v1`, `ripassa-doc-v1`, `ripassa-editor-v1`, Lernstand-Schlüssel `ripassa-lernstand-…`. Profile liegen in localStorage (je Adresse getrennt!).
+Daten-/Speicherschlüssel: `ripassa-ui-language-v1`, `ripassa-doc-v1`, `ripassa-editor-v1`, Lernstand-Schlüssel `ripassa-lernstand-…`; neu: `daje-hausaufgabe-v1` (Entwurf Lehrkraft), `daje-aufgaben-v1` (erhaltene Hausaufgaben), `daje-geteilt-v1` (geteilte eigene Übungen), `daje-fokus-v1`, `daje-lehrkraft-ok`. Profile liegen in localStorage (je Adresse getrennt!).
 
 ## 4. Automatisierung der Inhalte (Prozesse – hier soll Opus ansetzen)
 
@@ -103,6 +105,17 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - **Hör-Cover** (portal.js `generatedCoverHTML`): typografische Titelbilder, Farbe nach Sprache (IT rot, EN blau, FR türkis), Art (Lied/Film/Video/Audio/Dialog). Keine Bilder mehr von img.youtube.com (Datenschutz, Bildrechte); lokale Standbilder nur noch im Player.
 - **Startseite Lernende**: Tagesziel-Ring, „Weitermachen/Zum Einstieg“, drei Schnellzugriffe, „Für dich“ als waagerechte Leiste am Handy; Zähler erst, wenn es etwas zu zählen gibt.
 - Zurückwischen schließt geöffnete Dialoge/Blätter, ohne die Seite zu wechseln.
+
+## 6c. Ausbau (26.10.2026, zweite Runde)
+- **Fokus-Modus**: eine Aufgabe pro Bildschirm (Standard < 900 px), Weiter/Zurück, Abschnittsetikett aus Präfix („Prima dell’ascolto: …“), Hinweis auf offene Aufgaben.
+- **Hausaufgabe** (aufgabe.js), **Eigene Übungen** (studio.js) mit Teilen per Link ohne Server.
+- **Lernserie** (features.js `learningStreak`), Lob bei Tagesziel und „Alles richtig“.
+- **Markenzeichen**: assets/daje-icon.svg (+ PNG 180/256/512), daje-mark.svg, manifest.webmanifest (display „browser“, damit der Lernstand nicht in einen getrennten Homescreen-Speicher wandert).
+- **Darstellung**: 5 Farbwelten (daje, heft, graphit, wald, tag), 3 Schriften (Standard, Atkinson, Lora); alte Wahl wird abgebildet (app.js `RETIRED_SKINS`).
+- **Bedienung**: Wörter nachschlagen über alle Listen; Lehrkräfte-Ansicht fragt einmal nach (Lösungen sichtbar); „Eigene Übungen“ in der Navigation für Lehrkräfte; iOS-Eingabezoom verhindert.
+- **CSS**: 10 Dateien → app.css, Regeln entfernter Farbwelten/Schriften gestrichen; Pixelvergleich aller Ansichten vorher/nachher.
+- Redaktion (Lehrkräfte) bewusst nur auf Deutsch; Lernenden-Texte in IT/EN/FR übersetzt.
+- e2e: 25 Prüfungen (Fokus-Modus, Hausaufgabe, Redaktion neu).
 
 ## 7. Offene Punkte
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.
