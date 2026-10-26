@@ -185,3 +185,23 @@ console.log('Optional transcriptOrigin is validated and kept.');
     'New task types (multiple choice, matching, ordering, gap fill) and coverImage are validated and graded.'
   );
 }
+
+// Weitere Aufgabentypen: Beispielpaket gültig, jede Lösung wird als richtig erkannt, Fehlerfälle abgewiesen
+{
+  const C = require('../dist/content-contract.js');
+  const j = require('../dist/examples/listening-weitere-aufgabentypen.json');
+  const v = C.validatePackage(j);
+  if (!v.ok) throw new Error(v.errors.join('; '));
+  const ans = { n1: 'true', n2: 'not_given', n3: 'a,c,d,f,h', n4: JSON.stringify({ g1: 'quattro', g2: 'limone' }), n5: JSON.stringify({ g1: 'castello', g2: '4', g3: 'parco' }), n6: JSON.stringify({ t1: 'Limone', t2: 'alle sei', t3: 'cioccolato' }), n7: JSON.stringify({ e1: 'Torino', e2: 'a piedi', e3: '6' }), n8: JSON.stringify({ s1: 'luca', s2: 'sofia', s3: 'luca', s4: 'sofia' }), n9: JSON.stringify({ c1: 'cibo', c2: 'luogo', c3: 'cibo', c4: 'luogo', c5: 'luogo' }), n10: 'Vado al cinema.' };
+  for (const q of v.value.questions) {
+    if (!C.assessAnswer(q, ans[q.id])) throw new Error(q.id + ' richtig nicht erkannt');
+    if (C.assessAnswer(q, '')) throw new Error(q.id + ' leer als richtig gewertet');
+  }
+  const bad = JSON.parse(JSON.stringify(j));
+  bad.questions[3].gaps[0].answer = 'sette';
+  bad.questions[5].rows[0].pop();
+  bad.questions[6].items[0].category = 'nessuno';
+  const r = C.validatePackage(bad);
+  if (r.ok || r.errors.length < 3) throw new Error('Fehlerhafte neue Typen nicht abgewiesen: ' + r.errors.join('; '));
+  console.log('Weitere Aufgabentypen: Prüfung und Bewertung passed.');
+}

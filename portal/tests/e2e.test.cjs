@@ -346,6 +346,53 @@ async function step(name, fn) {
     await dp.reload({ waitUntil: 'networkidle' });
   });
 
+  await step('Neun weitere Aufgabentypen: bearbeiten, korrigieren, drucken', async () => {
+    await dp.goto(base, { waitUntil: 'networkidle' });
+    await dp.evaluate(async () => {
+      localStorage.setItem('daje-fokus-v1', '0');
+      const j = await (await fetch('examples/listening-weitere-aufgabentypen.json')).json();
+      const v = TheisContent.validatePackage(j);
+      if (!v.ok) throw new Error(v.errors.join('; '));
+      editorState.items.push({ payload: v.value, status: 'draft', updatedAt: new Date().toISOString() });
+      openListening(v.value.id, true);
+    });
+    await dp.click('#q-n1 .opt:has-text("Vero")');
+    await dp.click('#q-n2 .opt:has-text("Non detto")');
+    for (const w of ['gelateria', 'parco', 'limone', 'piazza', 'cioccolato']) await dp.click(`#q-n3 .chip-opt:has-text("${w}")`);
+    await dp.selectOption('#q-n4 select[data-part="g1"]', 'quattro');
+    await dp.selectOption('#q-n4 select[data-part="g2"]', 'limone');
+    for (const [k, v] of [['g1', 'Castello'], ['g2', '4'], ['g3', 'parco']]) await dp.fill(`#q-n5 input[data-part="${k}"]`, v);
+    for (const [k, v] of [['t1', 'limone'], ['t2', 'alle sei'], ['t3', 'cioccolato']]) await dp.fill(`#q-n6 input[data-part="${k}"]`, v);
+    for (const [k, v] of [['e1', 'Torino'], ['e2', 'a piedi'], ['e3', 'sei']]) await dp.fill(`#q-n7 input[data-part="${k}"]`, v);
+    for (const [k, c] of [['s1', 'Luca'], ['s2', 'Sofia'], ['s3', 'Luca'], ['s4', 'Sofia']])
+      await dp.click(`#q-n8 .cat-row:has(input[data-part="${k}"]) .cat-opt:has-text("${c}")`);
+    for (const [k, c] of [['c1', 'Cibo'], ['c2', 'Luogo'], ['c3', 'Cibo'], ['c4', 'Luogo'], ['c5', 'Luogo']])
+      await dp.click(`#q-n9 .cat-row:has(input[data-part="${k}"]) .cat-opt:has-text("${c}")`);
+    await dp.fill('#q-n10 textarea', 'Vado al parco con gli amici.');
+    assert.match(await dp.textContent('#listen-answer-count'), /10 \/ 10/);
+    await dp.getByRole('button', { name: 'Antworten korrigieren' }).click();
+    assert.match(await dp.textContent('.result-score'), /^\s*9\s*von 9\s*$/);
+    assert.match(await dp.textContent('#q-n10 .listen-feedback'), /Possibile soluzione|Mögliche Lösung/);
+    // Druck: alle drei Ausgaben ohne Überlauf
+    const id = await dp.evaluate(() => {
+      const it = editorState.items[editorState.items.length - 1];
+      it.status = 'published';
+      return it.payload.id;
+    });
+    await dp.evaluate(() => { setPortalAudience('teach'); });
+    for (const m of [0, 1, 2]) {
+      const r = await dp.evaluate(([id, m]) => {
+        showTeaching(id);
+        printTeaching(m);
+        return [...document.querySelectorAll('#teaching-print .hbp')].map(pg => pg.querySelector('.hb').getBoundingClientRect().bottom <= pg.querySelector('.doc-foot').getBoundingClientRect().top + 1);
+      }, [id, m]);
+      assert.ok(r.length >= 1 && r.every(Boolean), 'Druck ' + m + ': ' + JSON.stringify(r));
+      if (m === 0) assert.equal(await dp.locator('#teaching-print .hb-grid').count(), 2);
+    }
+    await dp.evaluate(() => { document.body.classList.remove('previewing-teaching'); setPortalAudience('learn'); });
+    await dp.reload({ waitUntil: 'networkidle' });
+  });
+
   await step('Einbett-Modus ?embed=1: nur die Übung, ohne Navigation', async () => {
     await dp.goto(base + '?hoeren=it-torino-demo&embed=1', { waitUntil: 'networkidle' });
     assert.equal(await dp.locator('.sidebar').isVisible(), false);

@@ -1,0 +1,311 @@
+{
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "it-demo-weitere-typen",
+  "title": "Un pomeriggio a Torino · weitere Aufgabentypen",
+  "language": "it",
+  "level": "A2",
+  "description": "Beispiel für die neun weiteren Aufgabenformate an einem kurzen Dialog.",
+  "topics": [
+    "città",
+    "gelato"
+  ],
+  "cover": "torino",
+  "sources": [
+    {
+      "kind": "own",
+      "citation": "Eigener Übungstext zur Demonstration.",
+      "rights": "own"
+    }
+  ],
+  "reviewNotes": [],
+  "estimatedMinutes": 12,
+  "media": {
+    "type": "speech",
+    "text": "Sofia: Ciao, sono Sofia e abito a Torino. Oggi incontro il mio amico Luca in Piazza Castello alle quattro. Luca: Ciao Sofia! Io ho fame: andiamo in gelateria? Sofia: Sì! Io prendo un gelato al limone. Luca: E io al cioccolato. Dopo andiamo al parco a piedi? Sofia: Va bene, ma alle sei torno a casa."
+  },
+  "transcript": "Sofia: Ciao, sono Sofia e abito a Torino. Oggi incontro il mio amico Luca in Piazza Castello alle quattro. Luca: Ciao Sofia! Io ho fame: andiamo in gelateria? Sofia: Sì! Io prendo un gelato al limone. Luca: E io al cioccolato. Dopo andiamo al parco a piedi? Sofia: Va bene, ma alle sei torno a casa.",
+  "transcriptOrigin": "own",
+  "questions": [
+    {
+      "id": "n1",
+      "type": "true_false_ng",
+      "prompt": "Durante l’ascolto: Luca ha fame.",
+      "answer": "true",
+      "explanation": "Luca sagt: „Io ho fame.“"
+    },
+    {
+      "id": "n2",
+      "type": "true_false_ng",
+      "prompt": "Durante l’ascolto: Sofia ha un cane.",
+      "answer": "not_given",
+      "explanation": "Über ein Haustier wird nichts gesagt."
+    },
+    {
+      "id": "n3",
+      "type": "word_select",
+      "prompt": "Durante l’ascolto: Quali parole senti?",
+      "options": [
+        {
+          "id": "a",
+          "text": "gelateria"
+        },
+        {
+          "id": "b",
+          "text": "stazione"
+        },
+        {
+          "id": "c",
+          "text": "parco"
+        },
+        {
+          "id": "d",
+          "text": "limone"
+        },
+        {
+          "id": "e",
+          "text": "fragola"
+        },
+        {
+          "id": "f",
+          "text": "piazza"
+        },
+        {
+          "id": "g",
+          "text": "autobus"
+        },
+        {
+          "id": "h",
+          "text": "cioccolato"
+        }
+      ],
+      "correctOptionIds": [
+        "a",
+        "c",
+        "d",
+        "f",
+        "h"
+      ],
+      "explanation": "Nicht vorkommen: stazione, fragola, autobus."
+    },
+    {
+      "id": "n4",
+      "type": "gap_choice",
+      "prompt": "Durante l’ascolto: Scegli la parola giusta.",
+      "text": "Sofia incontra Luca alle [[g1]] e prende un gelato al [[g2]].",
+      "gaps": [
+        {
+          "id": "g1",
+          "options": [
+            "tre",
+            "quattro",
+            "cinque"
+          ],
+          "answer": "quattro"
+        },
+        {
+          "id": "g2",
+          "options": [
+            "cioccolato",
+            "limone",
+            "caffè"
+          ],
+          "answer": "limone"
+        }
+      ],
+      "explanation": "Treffen um vier, Sofia nimmt Zitrone."
+    },
+    {
+      "id": "n5",
+      "type": "note_fill",
+      "prompt": "Durante l’ascolto: Completa gli appunti.",
+      "text": "Incontro: Piazza [[g1]]\nOra: alle [[g2]]\nDopo il gelato: al [[g3]]",
+      "gaps": [
+        {
+          "id": "g1",
+          "acceptedAnswers": [
+            "Castello"
+          ]
+        },
+        {
+          "id": "g2",
+          "acceptedAnswers": [
+            "quattro",
+            "4"
+          ]
+        },
+        {
+          "id": "g3",
+          "acceptedAnswers": [
+            "parco"
+          ]
+        }
+      ],
+      "explanation": "Piazza Castello, um vier, danach in den Park."
+    },
+    {
+      "id": "n6",
+      "type": "table_fill",
+      "prompt": "Durante l’ascolto: Completa la tabella.",
+      "columns": [
+        "Persona",
+        "Gelato",
+        "Ritorno a casa"
+      ],
+      "rows": [
+        [
+          "Sofia",
+          {
+            "id": "t1",
+            "acceptedAnswers": [
+              "limone",
+              "al limone"
+            ]
+          },
+          {
+            "id": "t2",
+            "acceptedAnswers": [
+              "alle sei",
+              "alle 6",
+              "sei",
+              "6"
+            ]
+          }
+        ],
+        [
+          "Luca",
+          {
+            "id": "t3",
+            "acceptedAnswers": [
+              "cioccolato",
+              "al cioccolato"
+            ]
+          },
+          "–"
+        ]
+      ],
+      "explanation": "Sofia: Zitrone, um sechs nach Hause; Luca: Schokolade."
+    },
+    {
+      "id": "n8",
+      "type": "speaker_match",
+      "prompt": "Durante l’ascolto: Chi lo dice?",
+      "categories": [
+        {
+          "id": "sofia",
+          "label": "Sofia"
+        },
+        {
+          "id": "luca",
+          "label": "Luca"
+        }
+      ],
+      "items": [
+        {
+          "id": "s1",
+          "text": "Io ho fame.",
+          "category": "luca"
+        },
+        {
+          "id": "s2",
+          "text": "Io prendo un gelato al limone.",
+          "category": "sofia"
+        },
+        {
+          "id": "s3",
+          "text": "Andiamo al parco a piedi?",
+          "category": "luca"
+        },
+        {
+          "id": "s4",
+          "text": "Alle sei torno a casa.",
+          "category": "sofia"
+        }
+      ],
+      "explanation": "Luca hat Hunger und schlägt den Park vor; Sofia nimmt Zitrone und geht um sechs."
+    },
+    {
+      "id": "n9",
+      "type": "categorize",
+      "prompt": "Lessico e lingua: Cibo o luogo?",
+      "categories": [
+        {
+          "id": "cibo",
+          "label": "Cibo"
+        },
+        {
+          "id": "luogo",
+          "label": "Luogo"
+        }
+      ],
+      "items": [
+        {
+          "id": "c1",
+          "text": "il gelato",
+          "category": "cibo"
+        },
+        {
+          "id": "c2",
+          "text": "la piazza",
+          "category": "luogo"
+        },
+        {
+          "id": "c3",
+          "text": "il cioccolato",
+          "category": "cibo"
+        },
+        {
+          "id": "c4",
+          "text": "il parco",
+          "category": "luogo"
+        },
+        {
+          "id": "c5",
+          "text": "la gelateria",
+          "category": "luogo"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "type": "error_correction",
+      "prompt": "Dopo l’ascolto: Correggi il riassunto.",
+      "text": "Sofia abita a [[e1]]. Dopo il gelato vanno al parco in [[e2]] e Sofia torna a casa alle [[e3]].",
+      "errors": [
+        {
+          "id": "e1",
+          "wrong": "Milano",
+          "acceptedAnswers": [
+            "Torino"
+          ]
+        },
+        {
+          "id": "e2",
+          "wrong": "autobus",
+          "acceptedAnswers": [
+            "a piedi",
+            "piedi"
+          ]
+        },
+        {
+          "id": "e3",
+          "wrong": "otto",
+          "acceptedAnswers": [
+            "sei",
+            "6"
+          ]
+        }
+      ],
+      "explanation": "Torino, zu Fuß, um sechs."
+    },
+    {
+      "id": "n10",
+      "type": "open_answer",
+      "prompt": "Dopo l’ascolto: E tu? Che cosa fai il pomeriggio con gli amici? Scrivi due o tre frasi.",
+      "modelAnswer": "Il pomeriggio incontro i miei amici in centro. Prendiamo un gelato e poi andiamo al parco.",
+      "lines": 4,
+      "points": 3
+    }
+  ]
+}

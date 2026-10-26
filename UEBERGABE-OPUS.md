@@ -143,6 +143,12 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - Wortschatz mit KI: `imports/KI-Wortschatz.md` 1.0 (Quelle Buchseiten-Fotos oder Text; ersetzt Vokabel-Kommandodatei), `DajeKI.buildVocabulary/promptForVocab` (Grundform, Doppelungen, Fundstellen im Text), Redaktion „Wortliste mit KI erstellen“ (`VK_KEY daje-ki-wortschatz-v1`).
 - „An daje schicken“: E-Mail an hallo@theisapps.de mit Link `?einreichung=…` (zu lang → Datei), Name und Einverständnis landen in reviewNotes/sources. Betreiber öffnet den Link → „In die Redaktion übernehmen“ → „Live stellen“. „Datei importieren“ jetzt direkt in der Redaktion.
 
+## 6h. 16 Aufgabentypen (26.10.2026)
+- Neu: true_false_ng, word_select, gap_choice, note_fill, table_fill, error_correction, speaker_match, categorize, open_answer (zusätzlich zu den sieben bisherigen). Gruppen in `FORMAT_GROUPS` (portal.js): Ankreuzen, Ergänzen, Zuordnen und ordnen, Frei schreiben.
+- Je Typ angepasst: content-contract.js (Prüfung + assessAnswer, `QUESTION_TYPES`), views.js (questionHTML, solutionText, `gapHTML`), portal.js (Labels, Punktzahl ohne open_answer), instr.js (Anweisungen/Labels it/en/fr/es), hoerblatt.js (Blatt, Lösungen, kurzer Schlüssel, Punkte, HB_TXT in 5 Sprachen), studio.js (Formulare mit Textkurzformen, Gruppen beim Hinzufügen), app.css (Bildschirm + Druck), KI-Kommandodatei 2.1, ki.js (kein Beleg nötig bei open_answer und „nicht im Text“).
+- Beispiel: `examples/listening-weitere-aufgabentypen.json`; Tests: content.test (Bewertung je Typ), e2e „Neun weitere Aufgabentypen“.
+- Neuer Typ später: dieselben Stellen anfassen; Druck mit `mkpdf`-Prüfung (Seitenzahl Vorschau = PDF, kein Überlauf).
+
 ## 7. Offene Punkte
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.
 - Ecco 3 più importieren (nach Scan, exakte Kapitelzuordnung).

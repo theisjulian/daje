@@ -171,16 +171,53 @@ const LISTENING_FORMAT_LABELS = {
   single_choice: 'Einfachauswahl',
   multiple_choice: 'Mehrfachauswahl',
   true_false: 'Richtig / Falsch',
+  true_false_ng: 'Richtig / Falsch / Nicht im Text',
+  word_select: 'Gehörte Wörter',
   short_answer: 'Kurzantwort',
+  gap_fill: 'Lückentext',
+  gap_choice: 'Lückentext mit Auswahl',
+  note_fill: 'Notizen ergänzen',
+  table_fill: 'Tabelle ergänzen',
+  error_correction: 'Fehler korrigieren',
   matching: 'Zuordnung',
+  speaker_match: 'Wer sagt was?',
+  categorize: 'Kategorien zuordnen',
   ordering: 'Reihenfolge',
-  gap_fill: 'Lückentext'
+  open_answer: 'Offene Antwort'
 };
+/* Aufgabentypen in Gruppen (Redaktion, Formatübersicht). Kurzbeschreibung für Lehrkräfte. */
+const FORMAT_GROUPS = [
+  ['Ankreuzen', [
+    ['single_choice', 'Eine richtige Antwort wählen.'],
+    ['multiple_choice', 'Mehrere richtige Antworten wählen.'],
+    ['true_false', 'Aussage mit dem Gehörten vergleichen.'],
+    ['true_false_ng', 'Wie Richtig/Falsch, dazu „steht nicht im Text“ (Prüfungsformat).'],
+    ['word_select', 'Aus einer Wortliste alle Wörter ankreuzen, die vorkommen.']
+  ]],
+  ['Ergänzen', [
+    ['short_answer', 'Zahl, Ort, Name oder kurze Formulierung notieren.'],
+    ['gap_fill', 'Lücken in einem Satz oder einer Zusammenfassung füllen.'],
+    ['gap_choice', 'In jeder Lücke das richtige Wort auswählen.'],
+    ['note_fill', 'Stichpunkte wie beim Mitschreiben ergänzen.'],
+    ['table_fill', 'Raster mit Personen, Orten, Zeiten ausfüllen.'],
+    ['error_correction', 'Falsche Angaben in einer Zusammenfassung verbessern.']
+  ]],
+  ['Zuordnen und ordnen', [
+    ['matching', 'Paare bilden, z. B. Person und Aussage.'],
+    ['speaker_match', 'Aussagen den Sprecherinnen und Sprechern zuordnen.'],
+    ['categorize', 'Begriffe in Gruppen sortieren, z. B. dafür / dagegen.'],
+    ['ordering', 'Ereignisse in die richtige Reihenfolge bringen.']
+  ]],
+  ['Frei schreiben', [['open_answer', 'Eigene Antwort mit Musterlösung, ohne automatische Bewertung.']]]
+];
+const GRADED = q => q.type !== 'open_answer';
 function lessonFormats(x) {
   return [...new Set(x.questions.map(q => LISTENING_FORMAT_LABELS[q.type]))].join(' · ');
 }
 function listeningFormatGuide() {
-  return `<details class="format-guide glass"><summary>Welche Aufgabenformen gibt es?</summary><div class="format-grid"><section><h3>Einfachauswahl</h3><p>Wähle eine richtige Antwort. Prüft Hauptaussagen, Details oder Schlussfolgerungen.</p></section><section><h3>Richtig / Falsch</h3><p>Vergleiche eine Aussage mit dem Gehörten. Achte auf Einschränkungen und veränderte Details.</p></section><section><h3>Kurzantwort</h3><p>Schreibe zum Beispiel einen Ort, eine Zahl oder eine kurze Formulierung. Hinterlegte richtige Varianten werden berücksichtigt.</p></section></div><p class="small muted">Weitere mögliche Formate für den Ausbau: Mehrfachauswahl, Zuordnung, Reihenfolge, Lückentext und Notizen ergänzen. Diese sind bei Hörübungen noch nicht implementiert. Die Aufgaben folgen möglichst dem Weg vom Globalverstehen zu ausgewählten Details und Zusammenhängen.</p></details>`;
+  return `<details class="format-guide glass"><summary>Welche Aufgabenformen gibt es?</summary><div class="format-grid">${FORMAT_GROUPS.map(
+    ([g, list]) => `<section><h3>${esc(g)}</h3><ul>${list.map(([t, d]) => `<li><b>${esc(LISTENING_FORMAT_LABELS[t])}</b> · ${esc(d)}</li>`).join('')}</ul></section>`
+  ).join('')}</div><p class="small muted">Die Aufgaben führen vom Globalverstehen zu Details und Zusammenhängen. Offene Antworten werden nicht automatisch bewertet: Lernende vergleichen selbst mit der möglichen Lösung.</p></details>`;
 }
 function openListening(id, preview = false) {
   stopListening();
@@ -259,10 +296,12 @@ function checkListening() {
   const x = currentLesson(),
     s = lessonProgress();
   s.checked = true;
-  const correct = x.questions.filter(q => TheisContent.assessAnswer(q, s.answers[q.id])).length;
+  // Offene Antworten zählen nicht in die Punktzahl (keine automatische Bewertung).
+  const graded = x.questions.filter(GRADED);
+  const correct = graded.filter(q => TheisContent.assessAnswer(q, s.answers[q.id])).length;
   s.lastResult = {
     correct,
-    total: x.questions.length,
+    total: graded.length,
     at: new Date().toISOString(),
     assisted: !!s.usedTranscript
   };
@@ -272,9 +311,9 @@ function checkListening() {
   renderListening();
   toast(
     ok
-      ? correct === x.questions.length
+      ? correct === graded.length
         ? 'Alles richtig. Bravo!'
-        : `${correct} von ${x.questions.length} richtig. Ergebnis gespeichert.`
+        : `${correct} von ${graded.length} richtig. Ergebnis gespeichert.`
       : 'Speichern fehlgeschlagen. Sichere dein Profil.'
   );
 }

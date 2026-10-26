@@ -68,9 +68,12 @@
     return (pkg.questions || []).map((q, i) => ({
       n: i + 1,
       id: q.id,
+      // Ohne Beleg in Ordnung: vor dem Hören, offene Antworten, „nicht im Text“ ('vorab' = kein Beleg nötig).
       status: q.evidence
         ? evidenceStatus(q.evidence, text)
-        : /^(prima dell|before|vor dem|avant|antes)/i.test(q.prompt || '')
+        : /^(prima dell|before|vor dem|avant|antes)/i.test(q.prompt || '') ||
+            q.type === 'open_answer' ||
+            (q.type === 'true_false_ng' && q.answer === 'not_given')
           ? 'vorab'
           : 'leer'
     }));

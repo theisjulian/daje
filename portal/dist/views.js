@@ -429,11 +429,37 @@ function solutionText(q) {
     case 'ordering':
       return q.items.map((it, i) => i + 1 + '. ' + it.text).join(' · ');
     case 'gap_fill':
+    case 'note_fill':
       return q.gaps.map((g, i) => i + 1 + ': ' + g.acceptedAnswers[0]).join(' · ');
+    case 'true_false_ng':
+      return { true: 'Richtig', false: 'Falsch', not_given: 'Nicht im Text' }[q.answer];
+    case 'word_select':
+      return q.options.filter(o => q.correctOptionIds.includes(o.id)).map(o => o.text).join(' · ');
+    case 'gap_choice':
+      return q.gaps.map((g, i) => i + 1 + ': ' + g.answer).join(' · ');
+    case 'error_correction':
+      return q.errors.map(e => e.wrong + ' → ' + e.acceptedAnswers[0]).join(' · ');
+    case 'table_fill':
+      return q.rows.flat().filter(c => typeof c === 'object').map((g, i) => i + 1 + ': ' + g.acceptedAnswers[0]).join(' · ');
+    case 'categorize':
+    case 'speaker_match':
+      return q.items.map(it => it.text + ' → ' + q.categories.find(c => c.id === it.category).label).join(' · ');
+    case 'open_answer':
+      return q.modelAnswer || '–';
     default:
       return q.modelAnswer;
   }
 }
+/* Text mit [[id]]-Lücken: jede Lücke über fn(id, Nummer) darstellen (Lückentext, Notizen, Fehler, Auswahl). */
+function gapHTML(text, fn) {
+  let html = '', last = 0, n = 0;
+  for (const m of text.matchAll(GAP_MARK)) {
+    html += esc(text.slice(last, m.index)) + fn(m[1], ++n);
+    last = m.index + m[0].length;
+  }
+  return html + esc(text.slice(last));
+}
+const sameAnswer = (list, v) => list.some(a => a.toLocaleLowerCase().trim() === String(v).toLocaleLowerCase().trim());
 
 /* Leeres Aufgabenblatt für den Druck */
 function printBody(q) {
@@ -464,7 +490,11 @@ function questionHTML(x, q, index, state) {
   const optionState = id => {
     if (!state.checked) return '';
     const right =
-      q.type === 'single_choice' ? id === q.correctOptionId : id === (q.answer ? 'true' : 'false');
+      q.type === 'single_choice'
+        ? id === q.correctOptionId
+        : q.type === 'true_false_ng'
+          ? id === q.answer
+          : id === (q.answer ? 'true' : 'false');
     if (right) return 'is-correct';
     return value === id ? 'is-wrong' : '';
   };
@@ -531,13 +561,73 @@ function questionHTML(x, q, index, state) {
       last = m.index + m[0].length;
     }
     field = `<p class="gap-text" lang="${x.language}">${html}${esc(q.text.slice(last))}</p>`;
-  } else
+  } else if (q.type === 'true_false_ng')
+    field = option('true', 'Richtig') + option('false', 'Falsch') + option('not_given', 'Nicht im Text');
+  else if (q.type === 'word_select') {
+    const chosen = String(value).split(',').filter(Boolean);
+    field =
+      '<p class="q-hint">Wähle alle Wörter, die du hörst.</p><div class="word-chips">' +
+      q.options
+        .map(o => {
+          const st = state.checked ? (q.correctOptionIds.includes(o.id) ? ' is-correct' : chosen.includes(o.id) ? ' is-wrong' : '') : '';
+          return `<label class="chip-opt${st}"><input type="checkbox" name="${q.id}" value="${o.id}" data-listen-multi="${q.id}" ${chosen.includes(o.id) ? 'checked' : ''}><span lang="${x.language}">${esc(o.text)}</span></label>`;
+        })
+        .join('') +
+      '</div>';
+  } else if (q.type === 'gap_choice')
+    field = `<p class="gap-text" lang="${x.language}">${gapHTML(q.text, (id, n) => {
+      const g = q.gaps.find(v => v.id === id);
+      const val = ownPart(parts, id) ? parts[id] : '';
+      return `<select class="gap gap-sel${mark(val === g.answer)}" data-listen-part="${q.id}" data-part="${id}" aria-label="Lücke ${n}"><option value="">…</option>${[...g.options].sort((a, b) => a.localeCompare(b)).map(o => `<option value="${esc(o)}" ${val === o ? 'selected' : ''}>${esc(o)}</option>`).join('')}</select>`;
+    })}</p>`;
+  else if (q.type === 'note_fill') {
+    const html = gapHTML(q.text, (id, n) => {
+      const g = q.gaps.find(v => v.id === id);
+      const val = ownPart(parts, id) ? parts[id] : '';
+      return `<input class="gap${mark(sameAnswer(g.acceptedAnswers, val))}" data-listen-part="${q.id}" data-part="${id}" value="${esc(val)}" maxlength="80" size="${Math.max(8, Math.min(24, Math.max(...g.acceptedAnswers.map(a => a.length)) + 3))}" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="Lücke ${n}">`;
+    });
+    field = `<ul class="note-lines" lang="${x.language}">${html.split('\n').filter(l => l.trim()).map(l => `<li>${l}</li>`).join('')}</ul>`;
+  } else if (q.type === 'error_correction')
+    field =
+      '<p class="q-hint">Die durchgestrichenen Wörter sind falsch. Schreibe das richtige Wort.</p>' +
+      `<p class="gap-text ec-text" lang="${x.language}">${gapHTML(q.text, (id, n) => {
+        const e = q.errors.find(v => v.id === id);
+        const val = ownPart(parts, id) ? parts[id] : '';
+        return `<span class="ec"><s>${esc(e.wrong)}</s> <input class="gap${mark(sameAnswer(e.acceptedAnswers, val))}" data-listen-part="${q.id}" data-part="${id}" value="${esc(val)}" maxlength="80" size="${Math.max(8, Math.min(22, Math.max(...e.acceptedAnswers.map(a => a.length)) + 3))}" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="Korrektur ${n}"></span>`;
+      })}</p>`;
+  else if (q.type === 'table_fill')
+    field = `<div class="tbl-wrap"><table class="fill-table" lang="${x.language}"><thead><tr>${q.columns.map(c => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>${q.rows
+      .map(
+        r =>
+          `<tr>${r
+            .map((c, k) => {
+              if (typeof c === 'string') return `<td>${esc(c)}</td>`;
+              const val = ownPart(parts, c.id) ? parts[c.id] : '';
+              return `<td><input class="gap cell${mark(sameAnswer(c.acceptedAnswers, val))}" data-listen-part="${q.id}" data-part="${c.id}" value="${esc(val)}" maxlength="80" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="${esc(q.columns[k])}"></td>`;
+            })
+            .join('')}</tr>`
+      )
+      .join('')}</tbody></table></div>`;
+  else if (q.type === 'categorize' || q.type === 'speaker_match')
+    field = (q.type === 'categorize' ? seededOrder(q.items, q.id) : q.items)
+      .map(it => {
+        const val = ownPart(parts, it.id) ? parts[it.id] : '';
+        return `<div class="cat-row${mark(val === it.category)}"><span class="cat-text" lang="${x.language}">${esc(it.text)}</span><span class="cat-opts">${q.categories
+          .map(c => `<label class="cat-opt"><input type="radio" name="${q.id}-${it.id}" value="${c.id}" data-listen-part="${q.id}" data-part="${it.id}" ${val === c.id ? 'checked' : ''}><span>${esc(c.label)}</span></label>`)
+          .join('')}</span></div>`;
+      })
+      .join('');
+  else if (q.type === 'open_answer')
+    field = `<label class="field answer-field"><span>Deine Antwort</span><textarea data-listen-answer="${q.id}" rows="${Math.min(8, Math.max(3, q.lines || 4))}" maxlength="3000" lang="${x.language}">${esc(value)}</textarea></label>`;
+  else
     field = `<label class="field answer-field"><span>Deine Antwort</span><input data-listen-answer="${q.id}" value="${esc(value)}" maxlength="1000" lang="${x.language}" autocomplete="off" placeholder="Kurz antworten"></label>`;
   const key =
     isTeacher() && teacherKeyVisible
       ? `<div class="q-key"><b>Lösung:</b> ${esc(solutionText(q))}${q.type === 'short_answer' ? `<br><span class="muted">Weitere Varianten: ${esc(q.acceptedAnswers.join(' / '))}</span>` : ''}</div>`
       : '';
-  const feedback = state.checked
+  const feedback = state.checked && q.type === 'open_answer'
+    ? `<div class="listen-feedback open"><b>Mögliche Lösung</b>${q.modelAnswer ? `<p lang="${x.language}">${esc(q.modelAnswer)}</p>` : ''}<small>Vergleiche deine Antwort selbst mit der möglichen Lösung.</small>${q.explanation ? `<p>${timeLinks(esc(visibleText(q.explanation)))}</p>` : ''}</div>`
+    : state.checked
     ? `<div class="listen-feedback ${correct ? 'correct' : 'wrong'}"><b>${correct ? 'Richtig erkannt' : value ? 'Noch nicht erkannt' : 'Noch keine Antwort'}</b>${correct ? '' : `<div>Lösung: ${esc(solutionText(q))}</div>`}<p>${timeLinks(esc(visibleText(q.explanation)))}</p>${q.type === 'short_answer' && !correct ? '<small>Andere passende Formulierungen sind möglich. Vergleiche selbst mit der Musterlösung.</small>' : ''}</div>`
     : '';
   const phase = q.prompt.match(QUESTION_PHASE);

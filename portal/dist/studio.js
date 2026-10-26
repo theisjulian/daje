@@ -5,16 +5,20 @@
  * Klasse teilen (?eigene=…). Ohne Server: Entwürfe bleiben in diesem Browser (ripassa-editor-v1),
  * geteilte Inhalte reisen vollständig im Link. Unfertige Entwürfe werden als draft mitgespeichert.
  */
-const ED_TYPES = [
-  ['single_choice', 'Einfachauswahl'],
-  ['multiple_choice', 'Mehrfachauswahl'],
-  ['true_false', 'Richtig / Falsch'],
-  ['short_answer', 'Kurzantwort'],
-  ['gap_fill', 'Lückentext'],
-  ['matching', 'Zuordnen'],
-  ['ordering', 'Reihenfolge']
-];
+// Alle Aufgabentypen in der Reihenfolge der Gruppen (portal.js: FORMAT_GROUPS); Bezeichnung für die Redaktion.
+// Erst bei Bedarf: portal.js (FORMAT_GROUPS) wird nach studio.js geladen.
+const edTypes = () => FORMAT_GROUPS.flatMap(([, list]) => list.map(([t]) => [t, t === 'matching' ? 'Zuordnen' : LISTENING_FORMAT_LABELS[t]]));
+const edTypeLabel = t => (edTypes().find(e => e[0] === t) || [t, t])[1];
 const ED_PROMPT_HINT = {
+  true_false_ng: 'z. B. Luca ha fame.',
+  word_select: 'z. B. Quali parole senti?',
+  gap_choice: 'z. B. Scegli la parola giusta.',
+  note_fill: 'z. B. Completa gli appunti.',
+  table_fill: 'z. B. Completa la tabella.',
+  error_correction: 'z. B. Nel riassunto ci sono tre errori. Correggili.',
+  speaker_match: 'z. B. Chi lo dice?',
+  categorize: 'z. B. Vantaggi o svantaggi?',
+  open_answer: 'z. B. E tu? Scrivi due o tre frasi.',
   multiple_choice: 'z. B. Quali attività vengono nominate? (più risposte)',
   gap_fill: 'z. B. Completa con le parole del testo.',
   matching: 'z. B. Chi dice che cosa? Abbina.',
@@ -90,6 +94,13 @@ function edQuestion(type, n) {
   if (type === 'gap_fill') Object.assign(q, { text: '', gaps: [] });
   if (type === 'matching') Object.assign(q, { pairs: [], distractors: [] });
   if (type === 'ordering') q.items = [];
+  if (type === 'true_false_ng') q.answer = 'true';
+  if (type === 'word_select') Object.assign(q, { options: [], correctOptionIds: [] });
+  if (type === 'gap_choice' || type === 'note_fill') Object.assign(q, { text: '', gaps: [] });
+  if (type === 'error_correction') Object.assign(q, { text: '', errors: [] });
+  if (type === 'table_fill') Object.assign(q, { columns: [], rows: [] });
+  if (type === 'speaker_match' || type === 'categorize') Object.assign(q, { categories: [], items: [] });
+  if (type === 'open_answer') Object.assign(q, { modelAnswer: '', lines: 4 });
   return q;
 }
 function edCreate(payload, message) {
@@ -156,6 +167,24 @@ function edFriendlyErrors(x) {
         else if (q.pairs.length < 2) e.push(n + 'mindestens zwei Paare eintragen.');
       }
       if (q.type === 'ordering' && q.items.length < 3) e.push(n + 'mindestens drei Elemente eintragen.');
+      if (q.type === 'word_select') {
+        const r = q.correctOptionIds.length;
+        if (q.options.length < 4) e.push(n + 'zusammen mindestens vier Wörter eintragen.');
+        else if (!r) e.push(n + 'mindestens ein Wort eintragen, das vorkommt.');
+        else if (r === q.options.length) e.push(n + 'mindestens ein Wort eintragen, das nicht vorkommt.');
+      }
+      if (q.type === 'gap_choice' && !q.gaps.length) e.push(n + 'Auswahl in eckige Klammern setzen, z. B. [quattro | tre | cinque].');
+      if (q.type === 'note_fill' && !q.gaps.length) e.push(n + 'Lösungen in eckige Klammern setzen, z. B. [Castello].');
+      if (q.type === 'error_correction' && !q.errors.length) e.push(n + 'Fehler so markieren: [falsch > richtig].');
+      if (q.type === 'table_fill') {
+        if (q.columns.filter(Boolean).length < 2) e.push(n + 'erste Zeile: mindestens zwei Spaltenköpfe, mit „|“ getrennt.');
+        else if (!q.rows.flat().some(c => typeof c === 'object')) e.push(n + 'mindestens eine Zelle zum Ergänzen in [ ] setzen.');
+      }
+      if (q.type === 'speaker_match' || q.type === 'categorize') {
+        if (q.categories.length < 2) e.push(n + 'mindestens zwei ' + (q.type === 'speaker_match' ? 'Personen' : 'Kategorien') + ' eintragen.');
+        else if (q.items.length < 2) e.push(n + 'mindestens zwei Einträge der Form „Text = ' + (q.type === 'speaker_match' ? 'Person' : 'Kategorie') + '“.');
+        else if (q.items.some(it => !it.category)) e.push(n + 'nach „=“ genau einen der Namen aus der Liste darüber schreiben.');
+      }
     });
   } else if (!x.entries.length) e.push('Mindestens ein Wort eintragen.');
   return e;
@@ -548,7 +577,7 @@ function editorFormHTML(item) {
     </section>
     <section class="ed-box"><h3>Aufgaben <span class="muted">(${x.questions.length})</span></h3>${qs}
       <p class="ed-add-h">Aufgabe hinzufügen</p>
-      <div class="ed-add">${ED_TYPES.map(([t, l]) => `<button class="button secondary" data-ed-add="${t}">+ ${l}</button>`).join('')}</div>
+      ${FORMAT_GROUPS.map(([g, list]) => `<p class="ed-add-g">${esc(g)}</p><div class="ed-add">${list.map(([t, d]) => `<button class="button secondary" data-ed-add="${t}" title="${esc(d)}">+&nbsp;${esc(edTypeLabel(t))}</button>`).join('')}</div>`).join('')}
     </section>${rights}`;
 }
 /* Schnelleingabe als Text: Lücken in eckigen Klammern, Paare mit „=“, Reihenfolge zeilenweise. */
@@ -570,10 +599,79 @@ function edParseGaps(q, raw) {
     return '[[' + id + ']]';
   });
 }
+/* Lückentext mit Auswahl: [richtig | falsch | falsch] */
+function edChoiceText(q) {
+  let i = 0;
+  return String(q.text || '').replace(/\[\[([a-z0-9-]+)\]\]/g, (m, id) => {
+    const g = q.gaps.find(x => x.id === id) || q.gaps[i];
+    i++;
+    return g ? '[' + [g.answer, ...g.options.filter(o => o !== g.answer)].join(' | ') + ']' : '[]';
+  });
+}
+function edParseChoice(q, raw) {
+  q.gaps = [];
+  q.text = raw.replace(/\[([^\[\]]*)\]/g, (m, inner) => {
+    const opts = inner.split('|').map(a => a.trim()).filter(Boolean);
+    if (opts.length < 2) return m;
+    const id = 'g' + (q.gaps.length + 1);
+    q.gaps.push({ id, options: [...new Set(opts)], answer: opts[0] });
+    return '[[' + id + ']]';
+  });
+}
+/* Fehler korrigieren: [falsch > richtig / Variante] */
+function edErrorText(q) {
+  let i = 0;
+  return String(q.text || '').replace(/\[\[([a-z0-9-]+)\]\]/g, (m, id) => {
+    const e = q.errors.find(x => x.id === id) || q.errors[i];
+    i++;
+    return e ? '[' + e.wrong + ' > ' + e.acceptedAnswers.join(' / ') + ']' : '[]';
+  });
+}
+function edParseErrors(q, raw) {
+  q.errors = [];
+  q.text = raw.replace(/\[([^\[\]]*)\]/g, (m, inner) => {
+    const [wrong, right = ''] = inner.split('>');
+    const answers = right.split('/').map(a => a.trim()).filter(Boolean);
+    if (!wrong.trim() || !answers.length) return m;
+    const id = 'e' + (q.errors.length + 1);
+    q.errors.push({ id, wrong: wrong.trim(), acceptedAnswers: answers });
+    return '[[' + id + ']]';
+  });
+}
+/* Tabelle: erste Zeile Spaltenköpfe, dann Zeilen; Zellen mit „|“ getrennt, Lösungen in [ ]. */
+function edTableText(q) {
+  return [q.columns.join(' | '), ...q.rows.map(r => r.map(c => (typeof c === 'string' ? c : '[' + c.acceptedAnswers.join(' / ') + ']')).join(' | '))].join('\n');
+}
+function edParseTable(q, raw) {
+  const lines = edLinesOf(raw);
+  q.columns = (lines[0] || '').split('|').map(c => c.trim()).slice(0, 5);
+  let n = 0;
+  q.rows = lines.slice(1, 13).map(l => {
+    const cells = l.split('|').map(c => c.trim());
+    while (cells.length < q.columns.length) cells.push('');
+    return cells.slice(0, q.columns.length).map(c => {
+      const m = c.match(/^\[(.*)\]$/);
+      if (!m) return c;
+      const answers = m[1].split('/').map(a => a.trim()).filter(Boolean);
+      return answers.length ? { id: 't' + ++n, acceptedAnswers: answers } : c;
+    });
+  });
+}
+/* Zuordnen in Gruppen: Kategorien zeilenweise, Elemente „Text = Kategorie“. */
+function edParseCats(q, catsRaw, itemsRaw) {
+  if (catsRaw !== null) q.categories = edLinesOf(catsRaw).slice(0, 5).map((label, j) => ({ id: 'k' + (j + 1), label }));
+  if (itemsRaw !== null)
+    q.items = edLinesOf(itemsRaw).slice(0, 12).map((l, j) => {
+      const k = l.lastIndexOf('=');
+      const text = (k < 0 ? l : l.slice(0, k)).trim(), cat = k < 0 ? '' : l.slice(k + 1).trim().toLowerCase();
+      return { id: 's' + (j + 1), text, category: (q.categories.find(c => c.label.toLowerCase() === cat) || {}).id || '', _cat: cat };
+    });
+  else q.items.forEach(it => (it.category = (q.categories.find(c => c.label.toLowerCase() === it._cat) || q.categories.find(c => c.id === it.category) || {}).id || ''));
+}
 const edLinesOf = v => String(v).split('\n').map(l => l.trim()).filter(Boolean);
 function edQuestionHTML(q, i, n) {
   const tools = `<span class="ed-qtools"><button class="quiet" data-ed-qmove="${i}" data-dir="-1" aria-label="Nach oben" ${i === 0 ? 'disabled' : ''}>↑</button><button class="quiet" data-ed-qmove="${i}" data-dir="1" aria-label="Nach unten" ${i === n - 1 ? 'disabled' : ''}>↓</button><button class="quiet" data-ed-qdel="${i}" aria-label="Aufgabe löschen">✕</button></span>`;
-  const editable = ED_TYPES.some(([t]) => t === q.type);
+  const editable = edTypes().some(([t]) => t === q.type);
   let body = '';
   if (!editable)
     body = `<p class="small muted">${esc(LISTENING_FORMAT_LABELS[q.type] || q.type)}: Diese Aufgabe lässt sich im Bereich „Alles bearbeiten (JSON)“ ändern.</p>`;
@@ -621,6 +719,50 @@ function edQuestionHTML(q, i, n) {
       `<textarea data-ed-q="${i}" data-k="items" rows="4" placeholder="Giulia telefona a Paolo\nPaolo chiede l’orario\nPaolo rifiuta">${esc(q.items.map(x => x.text).join('\n'))}</textarea>`,
       'Die App mischt die Elemente. 3 bis 8 Elemente.'
     );
+  else if (q.type === 'true_false_ng')
+    body = edField(
+      'Die Aussage ist …',
+      `<select data-ed-q="${i}" data-k="tfng">${[['true', 'richtig'], ['false', 'falsch'], ['not_given', 'nicht im Text']].map(([v, l]) => `<option value="${v}" ${q.answer === v ? 'selected' : ''}>${l}</option>`).join('')}</select>`
+    );
+  else if (q.type === 'word_select') {
+    const right = q.options.filter(o => q.correctOptionIds.includes(o.id)).map(o => o.text);
+    const wrong = q.options.filter(o => !q.correctOptionIds.includes(o.id)).map(o => o.text);
+    body =
+      edField('Wörter, die vorkommen · eine Zeile pro Wort', `<textarea data-ed-q="${i}" data-k="wsRight" rows="4">${esc(right.join('\n'))}</textarea>`) +
+      edField('Wörter, die nicht vorkommen · eine Zeile pro Wort', `<textarea data-ed-q="${i}" data-k="wsWrong" rows="3">${esc(wrong.join('\n'))}</textarea>`, 'Die App mischt beide Listen alphabetisch. Zusammen 4 bis 24 Wörter.');
+  } else if (q.type === 'gap_choice')
+    body = edField(
+      'Text mit Auswahl-Lücken',
+      `<textarea data-ed-q="${i}" data-k="choicetext" rows="3" placeholder="Sofia incontra Luca alle [quattro | tre | cinque].">${esc(edChoiceText(q))}</textarea>`,
+      'In eckigen Klammern zuerst das richtige Wort, dann die falschen, getrennt mit „|“. Die App mischt die Reihenfolge.'
+    );
+  else if (q.type === 'note_fill')
+    body = edField(
+      'Notizen · eine Zeile pro Stichpunkt',
+      `<textarea data-ed-q="${i}" data-k="gaptext" rows="4" placeholder="Treffpunkt: Piazza [Castello]\nUhrzeit: alle [quattro / 4]">${esc(edGapText(q))}</textarea>`,
+      'Lösungen in eckige Klammern, Varianten mit „/“.'
+    );
+  else if (q.type === 'error_correction')
+    body = edField(
+      'Text mit Fehlern',
+      `<textarea data-ed-q="${i}" data-k="errortext" rows="3" placeholder="Sofia abita a [Milano > Torino].">${esc(edErrorText(q))}</textarea>`,
+      'Jeden Fehler so schreiben: [falsches Wort > richtiges Wort]. Varianten mit „/“.'
+    );
+  else if (q.type === 'table_fill')
+    body = edField(
+      'Tabelle',
+      `<textarea data-ed-q="${i}" data-k="table" rows="5" spellcheck="false" placeholder="Persona | Gelato | Ora\nSofia | [limone] | [alle sei / 6]\nLuca | [cioccolato] | –">${esc(q.columns.length ? edTableText(q) : '')}</textarea>`,
+      'Erste Zeile: Spaltenköpfe. Danach eine Zeile pro Tabellenzeile, Zellen mit „|“ trennen. Zu ergänzende Zellen in [ ], Varianten mit „/“. 2 bis 5 Spalten.'
+    );
+  else if (q.type === 'speaker_match' || q.type === 'categorize') {
+    const who = q.type === 'speaker_match';
+    body =
+      edField(who ? 'Personen · eine pro Zeile' : 'Kategorien · eine pro Zeile', `<textarea data-ed-q="${i}" data-k="cats" rows="2" placeholder="${who ? 'Sofia\nLuca' : 'vantaggi\nsvantaggi'}">${esc(q.categories.map(c => c.label).join('\n'))}</textarea>`, '2 bis 5.') +
+      edField(who ? 'Aussagen · „Aussage = Person“' : 'Begriffe · „Begriff = Kategorie“', `<textarea data-ed-q="${i}" data-k="catItems" rows="4" placeholder="${who ? 'Io ho fame. = Luca' : 'si risparmia tempo = vantaggi'}">${esc(q.items.map(it => it.text + ' = ' + ((q.categories.find(c => c.id === it.category) || {}).label || it._cat || '')).join('\n'))}</textarea>`, who ? 'In der Reihenfolge, in der sie im Hörtext vorkommen. 2 bis 12.' : 'Die App mischt die Begriffe. 2 bis 12.');
+  } else if (q.type === 'open_answer')
+    body =
+      edField('Mögliche Lösung (Erwartungshorizont)', `<textarea data-ed-q="${i}" data-k="model" rows="3">${esc(q.modelAnswer || '')}</textarea>`, 'Lernende sehen sie nach der Korrektur zum Vergleich. Keine automatische Bewertung.') +
+      `<div class="ed-grid">${edField('Schreibzeilen im Aufgabenblatt', `<select data-ed-q="${i}" data-k="lines">${[2, 3, 4, 6, 8, 10].map(n => `<option ${n === (q.lines || 4) ? 'selected' : ''}>${n}</option>`).join('')}</select>`)}${edField('Punkte', `<select data-ed-q="${i}" data-k="points">${[1, 2, 3, 4, 5, 6, 8, 10].map(n => `<option ${n === (q.points || 2) ? 'selected' : ''}>${n}</option>`).join('')}</select>`)}</div>`;
   else if (q.type === 'true_false')
     body = edField(
       'Die Aussage ist …',
@@ -632,8 +774,8 @@ function edQuestionHTML(q, i, n) {
       `<textarea data-ed-q="${i}" data-k="answers" rows="3">${esc((q.acceptedAnswers || []).join('\n'))}</textarea>`,
       'Groß-/Kleinschreibung und kleine Tippfehler werden toleriert.'
     );
-  return `<div class="ed-q"><div class="ed-qhead"><b>${i + 1}</b>${editable ? `<select data-ed-q="${i}" data-k="type">${ED_TYPES.map(([t, l]) => `<option value="${t}" ${t === q.type ? 'selected' : ''}>${l}</option>`).join('')}</select>` : ''}${tools}</div>
-    ${edField(q.type === 'true_false' ? 'Aussage' : ['gap_fill', 'matching', 'ordering'].includes(q.type) ? 'Arbeitsanweisung' : 'Frage', `<input data-ed-q="${i}" data-k="prompt" maxlength="1000" value="${esc(q.prompt)}" placeholder="${esc(ED_PROMPT_HINT[q.type] || '')}">`)}
+  return `<div class="ed-q"><div class="ed-qhead"><b>${i + 1}</b>${editable ? `<select data-ed-q="${i}" data-k="type">${FORMAT_GROUPS.map(([g, list]) => `<optgroup label="${esc(g)}">${list.map(([t]) => `<option value="${t}" ${t === q.type ? 'selected' : ''}>${esc(edTypeLabel(t))}</option>`).join('')}</optgroup>`).join('')}</select>` : ''}${tools}</div>
+    ${edField(['true_false', 'true_false_ng'].includes(q.type) ? 'Aussage' : ['single_choice', 'multiple_choice', 'short_answer', 'open_answer'].includes(q.type) ? 'Frage' : 'Arbeitsanweisung', `<input data-ed-q="${i}" data-k="prompt" maxlength="1000" value="${esc(q.prompt)}" placeholder="${esc(ED_PROMPT_HINT[q.type] || '')}">`)}
     ${body}
     ${q.evidence ? edEvidenceHTML(q) : ''}
     ${editable ? edField('Erklärung nach der Korrektur (optional)', `<input data-ed-q="${i}" data-k="explanation" maxlength="1500" value="${esc(q.explanation || '')}">`) : ''}
@@ -806,6 +948,19 @@ document.addEventListener('input', e => {
       });
     else if (f === 'distractors') q.distractors = edLinesOf(t.value).slice(0, 4);
     else if (f === 'items') q.items = edLinesOf(t.value).slice(0, 8).map((text, j) => ({ id: 'i' + (j + 1), text }));
+    else if (f === 'choicetext') edParseChoice(q, t.value);
+    else if (f === 'errortext') edParseErrors(q, t.value);
+    else if (f === 'table') edParseTable(q, t.value);
+    else if (f === 'cats') edParseCats(q, t.value, null);
+    else if (f === 'catItems') edParseCats(q, null, t.value);
+    else if (f === 'model') q.modelAnswer = t.value;
+    else if (f === 'wsRight' || f === 'wsWrong') {
+      const box = t.closest('.ed-q');
+      const right = edLinesOf(box.querySelector('[data-k="wsRight"]').value), wrong = edLinesOf(box.querySelector('[data-k="wsWrong"]').value);
+      const all = [...new Set([...right, ...wrong])].slice(0, 24).sort((a, b) => a.localeCompare(b));
+      q.options = all.map((text, j) => ({ id: 'w' + (j + 1), text }));
+      q.correctOptionIds = q.options.filter(o => right.includes(o.text)).map(o => o.id);
+    }
     else if (f === 'answers') {
       q.acceptedAnswers = t.value
         .split('\n')
@@ -836,6 +991,9 @@ document.addEventListener('change', e => {
     const i = Number(t.dataset.edQ),
       q = x.questions[i];
     if (t.dataset.k === 'correct') q.correctOptionId = t.value;
+    else if (t.dataset.k === 'tfng') q.answer = t.value;
+    else if (t.dataset.k === 'lines') q.lines = Number(t.value);
+    else if (t.dataset.k === 'points') q.points = Number(t.value);
     else if (t.dataset.k === 'correctMulti') {
       const set = new Set(q.correctOptionIds || []);
       if (t.checked) set.add(t.value);

@@ -2,6 +2,7 @@
 (function (root) {
   'use strict';
   const LANGUAGES = { it: 'Italienisch', en: 'Englisch', fr: 'Französisch', es: 'Spanisch' };
+  const QUESTION_TYPES = ['single_choice', 'multiple_choice', 'true_false', 'true_false_ng', 'word_select', 'short_answer', 'gap_fill', 'gap_choice', 'note_fill', 'table_fill', 'error_correction', 'matching', 'speaker_match', 'categorize', 'ordering', 'open_answer'];
   const isObj = x => x && typeof x === 'object' && !Array.isArray(x);
   function validatePackage(input) {
     const errors = [];
@@ -284,36 +285,96 @@
             ids.add(o.id);
             return o;
           });
-        } else if (q.type === 'gap_fill') {
-          z.text = str(q.text, path + '.text', 2000);
-          const ids = new Set();
-          z.gaps = arr(q.gaps, path + '.gaps', 1, 10).map((v, j) => {
-            v = obj(v, path + '.gaps[' + j + ']');
-            const g = {
-              id: id(v.id, path + '.gaps[' + j + '].id'),
-              acceptedAnswers: strings(v.acceptedAnswers, path + '.gaps[' + j + '].acceptedAnswers')
-            };
-            if (ids.has(g.id)) fail(path + '.gaps', 'doppelte Lücken-ID');
-            ids.add(g.id);
-            return g;
-          });
-          const marks = [...z.text.matchAll(/\[\[([a-z0-9-]+)\]\]/g)].map(m => m[1]);
-          if (
-            marks.length !== ids.size ||
-            marks.some(m => !ids.has(m)) ||
-            new Set(marks).size !== marks.length
-          )
-            fail(path + '.text', 'jede Lücke genau einmal als [[id]] im Text markieren');
         } else if (q.type === 'true_false') {
           z.answer = q.answer;
           if (typeof q.answer !== 'boolean') fail(path + '.answer', 'true oder false erwartet');
         } else if (q.type === 'short_answer') {
           z.acceptedAnswers = strings(q.acceptedAnswers, path + '.acceptedAnswers');
           z.modelAnswer = str(q.modelAnswer, path + '.modelAnswer', 1000);
+        } else if (q.type === 'true_false_ng') {
+          if (!['true', 'false', 'not_given'].includes(q.answer))
+            fail(path + '.answer', 'true, false oder not_given erwartet');
+          z.answer = q.answer;
+        } else if (q.type === 'word_select') {
+          let ids;
+          [z.options, ids] = options(4, 24);
+          z.correctOptionIds = arr(q.correctOptionIds, path + '.correctOptionIds', 1, 23).map((v, j) =>
+            id(v, path + '.correctOptionIds[' + j + ']')
+          );
+          if (z.correctOptionIds.some(v => !ids.has(v))) fail(path + '.correctOptionIds', 'verweist auf kein Wort');
+          if (new Set(z.correctOptionIds).size >= z.options.length)
+            fail(path + '.correctOptionIds', 'mindestens ein Wort darf nicht vorkommen');
+        } else if (q.type === 'gap_fill' || q.type === 'note_fill' || q.type === 'error_correction' || q.type === 'gap_choice') {
+          z.text = str(q.text, path + '.text', 3000);
+          const ids = new Set();
+          const key = q.type === 'error_correction' ? 'errors' : 'gaps';
+          z[key] = arr(q[key], path + '.' + key, 1, 15).map((v, j) => {
+            const gp = path + '.' + key + '[' + j + ']';
+            v = obj(v, gp);
+            const g = { id: id(v.id, gp + '.id') };
+            if (q.type === 'gap_choice') {
+              g.options = arr(v.options, gp + '.options', 2, 5).map((o, k) => str(o, gp + '.options[' + k + ']', 120));
+              g.answer = str(v.answer, gp + '.answer', 120);
+              if (!g.options.includes(g.answer)) fail(gp + '.answer', 'muss eine der Auswahlmöglichkeiten sein');
+            } else {
+              if (q.type === 'error_correction') g.wrong = str(v.wrong, gp + '.wrong', 120);
+              g.acceptedAnswers = strings(v.acceptedAnswers, gp + '.acceptedAnswers');
+            }
+            if (ids.has(g.id)) fail(path + '.' + key, 'doppelte ID');
+            ids.add(g.id);
+            return g;
+          });
+          const marks = [...z.text.matchAll(/\[\[([a-z0-9-]+)\]\]/g)].map(m => m[1]);
+          if (marks.length !== ids.size || marks.some(m => !ids.has(m)) || new Set(marks).size !== marks.length)
+            fail(path + '.text', 'jede Lücke genau einmal als [[id]] im Text markieren');
+        } else if (q.type === 'table_fill') {
+          z.columns = arr(q.columns, path + '.columns', 2, 5).map((c, j) => str(c, path + '.columns[' + j + ']', 80));
+          const ids = new Set();
+          z.rows = arr(q.rows, path + '.rows', 1, 12).map((r, j) => {
+            const rp = path + '.rows[' + j + ']';
+            const cells = arr(r, rp, z.columns.length, z.columns.length);
+            return cells.map((c, k) => {
+              if (typeof c === 'string') return str(c, rp + '[' + k + ']', 200, true);
+              c = obj(c, rp + '[' + k + ']');
+              const g = { id: id(c.id, rp + '[' + k + '].id'), acceptedAnswers: strings(c.acceptedAnswers, rp + '[' + k + '].acceptedAnswers') };
+              if (ids.has(g.id)) fail(rp, 'doppelte Feld-ID');
+              ids.add(g.id);
+              return g;
+            });
+          });
+          if (!ids.size) fail(path + '.rows', 'mindestens ein Feld zum Ergänzen');
+        } else if (q.type === 'categorize' || q.type === 'speaker_match') {
+          const cats = new Set();
+          z.categories = arr(q.categories, path + '.categories', 2, 5).map((c, j) => {
+            c = obj(c, path + '.categories[' + j + ']');
+            const o = { id: id(c.id, path + '.categories[' + j + '].id'), label: str(c.label, path + '.categories[' + j + '].label', 80) };
+            if (cats.has(o.id)) fail(path + '.categories', 'doppelte Kategorie-ID');
+            cats.add(o.id);
+            return o;
+          });
+          const ids = new Set();
+          z.items = arr(q.items, path + '.items', 2, 12).map((v, j) => {
+            v = obj(v, path + '.items[' + j + ']');
+            const o = { id: id(v.id, path + '.items[' + j + '].id'), text: str(v.text, path + '.items[' + j + '].text', 300), category: id(v.category, path + '.items[' + j + '].category') };
+            if (!cats.has(o.category)) fail(path + '.items[' + j + '].category', 'verweist auf keine Kategorie');
+            if (ids.has(o.id)) fail(path + '.items', 'doppelte Element-ID');
+            ids.add(o.id);
+            return o;
+          });
+        } else if (q.type === 'open_answer') {
+          z.modelAnswer = str(q.modelAnswer, path + '.modelAnswer', 2000, true);
+          if (q.lines !== undefined) {
+            if (!Number.isInteger(q.lines) || q.lines < 1 || q.lines > 15) fail(path + '.lines', '1 bis 15 Zeilen erwartet');
+            else z.lines = q.lines;
+          }
+          if (q.points !== undefined) {
+            if (!Number.isInteger(q.points) || q.points < 1 || q.points > 20) fail(path + '.points', '1 bis 20 Punkte erwartet');
+            else z.points = q.points;
+          }
         } else
           fail(
             path + '.type',
-            'single_choice, multiple_choice, true_false, short_answer, matching, ordering oder gap_fill erwartet'
+            'Unbekannter Aufgabentyp. Möglich: ' + QUESTION_TYPES.join(', ')
           );
         return z;
       });
@@ -446,15 +507,39 @@
       const v = parts();
       return q.items.every((it, i) => has(v, it.id) && Number(v[it.id]) === i + 1);
     }
-    if (q.type === 'gap_fill') {
+    if (q.type === 'gap_fill' || q.type === 'note_fill') {
       const v = parts();
       return q.gaps.every(
         g => has(v, g.id) && g.acceptedAnswers.some(a => norm(a) === norm(v[g.id]))
       );
     }
+    if (q.type === 'true_false_ng') return raw === q.answer;
+    if (q.type === 'word_select') {
+      const given = String(raw ?? '').split(',').filter(Boolean).sort();
+      const want = [...q.correctOptionIds].sort();
+      return given.length === want.length && given.every((v, i) => v === want[i]);
+    }
+    if (q.type === 'gap_choice') {
+      const v = parts();
+      return q.gaps.every(g => has(v, g.id) && v[g.id] === g.answer);
+    }
+    if (q.type === 'error_correction') {
+      const v = parts();
+      return q.errors.every(g => has(v, g.id) && g.acceptedAnswers.some(a => norm(a) === norm(v[g.id])));
+    }
+    if (q.type === 'table_fill') {
+      const v = parts();
+      return q.rows.flat().filter(c => typeof c === 'object').every(g => has(v, g.id) && g.acceptedAnswers.some(a => norm(a) === norm(v[g.id])));
+    }
+    if (q.type === 'categorize' || q.type === 'speaker_match') {
+      const v = parts();
+      return q.items.every(it => has(v, it.id) && v[it.id] === it.category);
+    }
+    // Offene Antwort: keine automatische Bewertung; zählt als erledigt, sobald etwas geschrieben ist.
+    if (q.type === 'open_answer') return String(raw ?? '').trim().length > 0;
     return q.acceptedAnswers.some(a => norm(a) === norm(raw));
   }
-  const api = { validatePackage, assessAnswer, LANGUAGES };
+  const api = { validatePackage, assessAnswer, LANGUAGES, QUESTION_TYPES };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.TheisContent = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

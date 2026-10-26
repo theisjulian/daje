@@ -7921,3 +7921,71 @@ body.previewing-teaching #teaching-print.dlg-mode{position:fixed;inset:0;z-index
 .ed-editor { grid-template-columns: minmax(0, 1fr); }
 .ed-options { grid-template-columns: minmax(0, 1fr); }
 .ed-option input[type='radio'] { margin: 0; }
+
+/* ---------- Weitere Aufgabentypen: Bildschirm (views.js) ---------- */
+.word-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip-opt { position: relative; display: inline-flex; }
+.chip-opt input { position: absolute; opacity: 0; pointer-events: none; }
+.chip-opt span { display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 99px; border: 1.5px solid var(--hairline); background: var(--glass-solid); font-size: 16px; cursor: pointer; transition: border-color 0.15s, background 0.15s; }
+.chip-opt:has(input:checked) span { border-color: var(--blue); background: color-mix(in srgb, var(--blue) 12%, var(--glass-solid)); font-weight: 600; }
+.chip-opt:has(input:focus-visible) span { outline: 3px solid color-mix(in srgb, var(--blue) 55%, transparent); outline-offset: 2px; }
+.chip-opt.is-correct span { border-color: var(--green); background: color-mix(in srgb, var(--green) 14%, var(--glass-solid)); }
+.chip-opt.is-wrong span { border-color: var(--red); background: color-mix(in srgb, var(--red) 11%, var(--glass-solid)); text-decoration: line-through; }
+.gap-sel { text-align: left; padding-right: 26px; }
+.note-lines { margin: 0; padding: 0 0 0 4px; list-style: none; font-size: 17px; line-height: 2.4; }
+.note-lines li { position: relative; padding-left: 22px; }
+.note-lines li::before { content: ''; position: absolute; left: 4px; top: 1.15em; width: 7px; height: 7px; border-radius: 50%; background: var(--blue); }
+.ec s { color: var(--red); text-decoration-thickness: 2px; }
+.tbl-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.fill-table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 16px; border: 1.5px solid var(--hairline); border-radius: 14px; overflow: hidden; }
+.fill-table th { text-align: left; padding: 10px 12px; background: var(--fill); font-size: 14px; }
+.fill-table td { padding: 8px 12px; border-top: 1px solid var(--hairline); vertical-align: middle; }
+.fill-table td + td, .fill-table th + th { border-left: 1px solid var(--hairline); }
+.fill-table .gap.cell { width: 100%; min-width: 90px; text-align: left; }
+.cat-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px 14px; align-items: center; padding: 10px 12px; border: 1.5px solid var(--hairline); border-radius: 14px; background: var(--glass-solid); }
+.cat-row + .cat-row { margin-top: 8px; }
+.cat-row.is-correct { border-color: var(--green); background: color-mix(in srgb, var(--green) 14%, var(--glass-solid)); }
+.cat-row.is-wrong { border-color: var(--red); background: color-mix(in srgb, var(--red) 11%, var(--glass-solid)); }
+.cat-text { font-weight: 600; }
+.cat-opts { display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; }
+.cat-opt { position: relative; }
+.cat-opt input { position: absolute; opacity: 0; pointer-events: none; }
+.cat-opt span { display: inline-flex; align-items: center; min-height: 40px; padding: 0 14px; border-radius: 10px; border: 1.5px solid var(--hairline); background: var(--fill); font-size: 15px; cursor: pointer; }
+.cat-opt input:checked + span { border-color: var(--blue); background: color-mix(in srgb, var(--blue) 14%, var(--glass-solid)); font-weight: 600; }
+.cat-opt input:focus-visible + span { outline: 3px solid color-mix(in srgb, var(--blue) 55%, transparent); outline-offset: 2px; }
+@media (max-width: 560px) { .cat-row { grid-template-columns: minmax(0, 1fr); } .cat-opts { justify-content: flex-start; } }
+.answer-field textarea { min-height: 120px; font-size: 17px; border-radius: 14px; padding: 12px 14px; width: 100%; box-sizing: border-box; }
+.listen-feedback.open { background: color-mix(in srgb, var(--blue) 8%, transparent); border-color: var(--blue); }
+
+/* ---------- Weitere Aufgabentypen: Druck (hoerblatt.js) ---------- */
+#teaching-print .hb-tf .hb-o { margin-left: 0; }
+#teaching-print .hb-tf { margin-left: 38px; gap: 26px; }
+#teaching-print .hb-words { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2px 14px; margin-left: 38px; }
+#teaching-print .hb-words .hb-o { margin: 2px 0; }
+#teaching-print .hb-gc { white-space: nowrap; }
+#teaching-print .hb-gc span { padding: 0 3px; border-radius: 3px; }
+#teaching-print .hb-gc i { font-style: normal; color: #889; padding: 0 2px; }
+#teaching-print .hb-gc::before { content: '('; color: #889; }
+#teaching-print .hb-gc::after { content: ')'; color: #889; }
+#teaching-print .hb-gc span.ok { font-weight: 700; color: var(--ac); outline: 1.5px solid var(--ac); }
+#teaching-print .hb-notes { margin: 4px 0 0 38px; padding: 0 0 0 16px; line-height: 2; }
+#teaching-print .hb-notes li { padding-left: 2px; }
+#teaching-print .hb-notes li::marker { color: var(--ac); }
+#teaching-print .hb-ec u { text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+#teaching-print .hb-tbl, #teaching-print .hb-grid { width: calc(100% - 38px); margin: 6px 0 0 38px; border-collapse: collapse; font-size: 10pt; table-layout: fixed; }
+#teaching-print .hb-tbl th, #teaching-print .hb-grid th { text-align: left; font-size: 8.5pt; text-transform: uppercase; letter-spacing: 0.04em; color: #556; background: color-mix(in srgb, var(--ac) 9%, white); border: 1px solid #c9ced6; padding: 5px 8px; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+#teaching-print .hb-tbl td, #teaching-print .hb-grid td { border: 1px solid #c9ced6; padding: 5px 8px; vertical-align: middle; }
+#teaching-print .hb-tbl td.blank { height: 26px; }
+#teaching-print .hb-tbl td.filled { font-weight: 700; color: var(--ac); }
+#teaching-print .hb-grid th:not(:first-child) { text-align: center; width: 15%; }
+#teaching-print .hb-grid td.c { text-align: center; }
+#teaching-print .hb-grid td b { color: var(--ac); margin-right: 4px; }
+#teaching-print .hb-grid .bx { margin: 0; }
+#teaching-print .hb-grid .bx.on { background: var(--ac); border-color: var(--ac); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+#teaching-print .hb-model { padding: 6px 10px; border-left: 3px solid var(--ac); background: color-mix(in srgb, var(--ac) 7%, white); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+#teaching-print .hb-model span { display: block; font-size: 8.5pt; text-transform: uppercase; letter-spacing: 0.04em; color: #667; }
+#teaching-print[data-design='klassisch'] .hb-tbl th, #teaching-print[data-design='klassisch'] .hb-grid th { background: #fff; }
+#teaching-print .hb-notes { list-style: disc; line-height: 2.1; }
+#teaching-print .hb-notes li { margin: 0; padding: 0 0 0 4px; break-inside: auto; }
+.ed-add-g { margin: 10px 0 4px; font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--label-3); }
+.ed-add .button { font-size: 15px; line-height: 1.25; padding-left: 12px; padding-right: 12px; }
