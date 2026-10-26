@@ -66,7 +66,7 @@ Reihenfolge nach Inhaltsänderung: Generator → `bundle_stock.cjs` → Tests �
 
 ### Schwächen der Automatisierung (Prüfauftrag)
 1. Generierte `stock-data.js` (43.000 Zeilen) liegt im Git; Doppelpflege Generator/Ausgabe. Idee: nur Quellen committen, CI generiert, oder Pakete als JSON nachladen (Ladezeit, Offline!).
-2. CI führt **keine Tests** und `bundle_stock.cjs … || true` verschluckt Fehler. Besser: Tests + Validierung brechen den Deploy ab.
+2. ~~CI führt keine Tests~~ **erledigt (26.10.2026):** Job `pruefen` läuft bei jedem Push/PR: Generatoren neu ausführen → `bundle_stock.cjs` (bricht bei ungültigem Paket ab) → Abgleich, ob generierte Dateien committet sind → `qualitaet.py` → `npm test` → e2e. Veröffentlicht wird nur von `main` und nur, wenn alles grün ist.
 3. Hörpakete entstehen aus Python-Quelltext (`Q`-Helfer). Es gibt kein Format „Aufgabe schreiben, ohne Python zu können“. Überlegen: YAML/Markdown-Quelle + Prüfer.
 4. Ecco-Import ist manuelle Abschrift aus Scans. OCR + Gegenprüfung (Seitenzuordnung!) automatisieren; Ecco 3 più folgt, Kapitelzuordnung muss exakt sein.
 5. KI-Pipeline (Gemini) ist gebaut, aber nie gelaufen; Schlüssel liegt bei Julian. Ablauf, Prompt-Qualität (10–20 Aufgaben in Blöcken, Typenmix, Transkript-Treue) und Validierung gegen `qualitaet.py` testen.
@@ -98,7 +98,7 @@ Cover-Kacheln; 50 Special nur Lied; alte Pakete 11–24 Aufgaben; Rai entfernt; 
 ## 8. Schnellstart
 ```sh
 cd portal/dist && python3 -m http.server 8765      # App auf http://localhost:8765
-cd portal && npm install && npm test && node tests/e2e.test.cjs   # e2e braucht Playwright + laufenden Server
+cd portal && npm install && npm test && node tests/e2e.test.cjs   # e2e startet eigenen Server; passt die Playwright-Version nicht zum installierten Browser: CHROMIUM_PATH=/pfad/zu/chrome
 python3 werkzeuge/hoeren/build.py && python3 werkzeuge/hoeren/alt.py && python3 werkzeuge/ecco_import.py && node werkzeuge/bundle_stock.cjs
 python3 werkzeuge/qualitaet.py --ipa
 ```

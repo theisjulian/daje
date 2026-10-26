@@ -1,25 +1,55 @@
 name: Veröffentlichen
 on:
   push:
-    branches: [main]
+  pull_request:
   workflow_dispatch:
 permissions:
   contents: read
-  pages: write
-  id-token: write
-concurrency:
-  group: pages
-  cancel-in-progress: true
 jobs:
-  build:
+  pruefen:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Grundstock prüfen und bündeln (ungültige Pakete werden übergangen)
-        run: node werkzeuge/bundle_stock.cjs || true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generatoren ausführen (Hören, ältere Pakete, Ecco)
+        run: |
+          python3 werkzeuge/hoeren/build.py
+          python3 werkzeuge/hoeren/alt.py
+          python3 werkzeuge/ecco_import.py
+      - name: Grundstock prüfen und bündeln (ungültige Pakete brechen ab)
+        run: node werkzeuge/bundle_stock.cjs
+      - name: Generierte Dateien sind aktuell committet
+        run: |
+          if ! git diff --quiet || [ -n "$(git ls-files --others --exclude-standard grundstock portal/dist)" ]; then
+            echo "::error::Generierte Dateien weichen vom Commit ab. Generatoren und bundle_stock.cjs lokal ausführen und Ergebnis committen."
+            git status --short
+            git diff --stat
+            exit 1
+          fi
+      - name: Qualitätsprüfung (harte Fehler brechen ab)
+        run: python3 werkzeuge/qualitaet.py
+      - name: Abhängigkeiten
+        working-directory: portal
+        run: npm install --no-audit --no-fund
+      - name: Tests
+        working-directory: portal
+        run: npm test
+      - name: Browsertests (Playwright)
+        working-directory: portal
+        run: |
+          npx playwright install --with-deps chromium
+          node tests/e2e.test.cjs
+  build:
+    needs: pruefen
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -27,6 +57,12 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: true
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

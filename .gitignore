@@ -7,3 +7,4 @@ __pycache__/
 werkzeuge/abgelehnt/
 werkzeuge/antworten.txt
 werkzeuge/Gemini-Stapel.md
+portal/package-lock.json

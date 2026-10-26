@@ -58,7 +58,8 @@ async function step(name, fn) {
 (async () => {
   const server = await serve();
   const base = 'http://127.0.0.1:' + server.address().port + '/';
-  const browser = await chromium.launch();
+  // CHROMIUM_PATH: vorinstallierten Browser nutzen, wenn die Playwright-Version nicht passt.
+  const browser = await chromium.launch(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {});
   const problems = [];
 
   async function fresh(viewport) {

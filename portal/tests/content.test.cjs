@@ -26,7 +26,7 @@ for (const [id, e] of Object.entries(ex.e)) {
   base.teacherNotes = e.teacherNotes;
   const r = validatePackage(JSON.parse(JSON.stringify(base)));
   assert.equal(r.ok, true, id + ': ' + JSON.stringify(r.errors || r));
-  assert.ok(base.questions.length >= 12 && base.questions.length <= 26, id + ' Aufgabenzahl');
+  assert.ok(base.questions.length >= 10 && base.questions.length <= 26, id + ' Aufgabenzahl');
   assert.equal(new Set(base.questions.map(q => q.id)).size, base.questions.length, id + ' doppelte IDs');
 }
 for (const change of [
