@@ -90,7 +90,10 @@ function workingLessonNotice(x) {
   return isWorkingLesson(x)
     ? '<div class="editor-banner"><b>Arbeitsfassung · Prüfung offen.</b> Aufgaben, Transkript, Zeitmarken und Nutzungsrechte sind noch nicht abschließend geprüft. ' +
         (!x.transcript && !x.series ? 'Das vollständige Transkript fehlt noch. ' : '') +
-        '<button class="quiet" data-nav="redaktion">In der Redaktion bearbeiten</button></div>'
+        (editorState.items.some(i => edId(i) === x.id)
+          ? `<button class="quiet" data-ed-edit="${esc(x.id)}">In der Redaktion bearbeiten</button>`
+          : '') +
+        '</div>'
     : '';
 }
 function currentLesson() {
@@ -442,14 +445,6 @@ function setupPortal() {
   document.querySelector('.appname small').textContent = 'Hören und Wortschatz';
   document.querySelector('.wordmark').dataset.nav = 'start';
   document.querySelector('.wordmark').href = '#start';
-  document
-    .querySelector('.foot')
-    .insertAdjacentHTML(
-      'beforeend',
-      '<button class="quiet" data-nav="redaktion">Redaktion</button>'
-    );
-  document.querySelector('.foot>span').textContent =
-    'daje · Hörverstehen und Wortschatz · private Vorschau';
   portalAudience = portalProfile().audience === 'teach' ? 'teach' : 'learn';
   applyAudienceLabels();
   document.addEventListener('click', portalClick);

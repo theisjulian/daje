@@ -90,7 +90,7 @@ let wsBook = { get: () => null, set() {} };
       ${lead}
       ${group('Bücher', ['Lehrwerk'])}${group('Themenlisten', ['Themenliste'])}${group('Automatisch erzeugt', ['Automatisch'])}
       <section class="lookup-grid">
-        <article class="lookup-card"><div><h3>Wortliste nachschlagen</h3><p class="muted">Den Ecco-Auszug durchsuchen und einzelne Wörter direkt üben.</p></div><button class="button secondary" data-nav="wortschatz">Öffnen</button></article>
+        <article class="lookup-card"><div><h3>Wörter nachschlagen</h3><p class="muted">In allen Listen suchen, auf Italienisch, Englisch oder Deutsch.</p></div><button class="button secondary" data-nav="wortschatz">Öffnen</button></article>
         <article class="lookup-card"><div><h3>Verben im Presente</h3><p class="muted">Formen üben und überprüfen.</p></div><button class="button secondary" data-nav="verben">Öffnen</button></article>
       </section>
     </div>`;

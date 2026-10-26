@@ -38,7 +38,8 @@ const PRIMARY_NAV = [
 ];
 const SECONDARY_NAV = [
   ['fortschritt', 'Mein Fortschritt'],
-  ['hilfe', 'Lerntipps']
+  ['hilfe', 'Lerntipps'],
+  ['redaktion', 'Eigene Übungen']
 ];
 const NAV_GROUP = {
   lernen: 'vokabeln',
@@ -95,7 +96,6 @@ function setupShell() {
   bottom.innerHTML =
     '<div class="privacy-note">Dein Lernstand bleibt auf diesem Gerät.</div>' +
     `<button class="quiet" data-nav="quellen">Quellen und Bildnachweise</button>` +
-    '<span class="preview-badge">Private Vorschau</span>' +
     '<a class="brandmark" href="https://theisapps.de" target="_blank" rel="noopener" aria-label="theis · theisapps.de"><span>© 2026</span><span id="brand-logo"></span></a>';
 
   // Kopfzeile: Logo (Handy), Titel, Umschalter, Aktionen
@@ -126,7 +126,7 @@ function setupShell() {
   // Fußzeile: Redaktion nur hier
   const foot = document.querySelector('.foot');
   foot.innerHTML =
-    '<a class="brandmark" href="https://theisapps.de" target="_blank" rel="noopener" aria-label="theis · theisapps.de"><span>© 2026</span><span id="brand-logo-m"></span></a><span class="foot-links"><button class="quiet" data-nav="quellen">Quellen</button><button class="quiet" data-nav="redaktion">Redaktion</button></span>';
+    '<a class="brandmark" href="https://theisapps.de" target="_blank" rel="noopener" aria-label="theis · theisapps.de"><span>© 2026</span><span id="brand-logo-m"></span></a><span class="foot-links"><button class="quiet" data-nav="quellen">Quellen</button></span>';
 
   // Handy: Tab-Leiste und „Mehr“-Blatt
   const tabs = document.createElement('nav');
@@ -148,7 +148,6 @@ function setupShell() {
       <button data-sheet-click="look-open">${icon('look')}<span>Darstellung</span></button>
       <button data-sheet-click="profile-open">${icon('profile')}<span>Lernprofil</span></button>
       <button data-sheet-click="share">${icon('share')}<span>Teilen</span></button>
-      <button data-nav="redaktion">${icon('redaktion')}<span>Redaktion</span></button>
     </div>
     <label class="field sheet-lang">Sprache der Oberfläche<select id="ui-language-m"></select></label>
     <button class="button secondary full" data-close="more-sheet">Schließen</button>`;

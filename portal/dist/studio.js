@@ -318,7 +318,7 @@ function renderStudio() {
         ${own.map(card).join('') || '<p class="hw-empty">Noch keine eigenen Übungen. Lege oben eine an oder öffne eine Hörübung im Katalog und wähle „Als eigene Übung bearbeiten“.</p>'}
         ${catalog.length ? `<details class="ed-catalog"><summary>Katalog-Arbeitsfassungen (${catalog.length})</summary>${catalog.map(card).join('')}</details>` : ''}
       </nav>
-      <section class="ed-editor">${item ? editorFormHTML(item) : '<div class="studio-empty"><h2>Wähle links eine Übung</h2><p class="muted">oder lege eine neue an. Änderungen werden automatisch gespeichert.</p></div>'}</section>
+      <section class="ed-editor">${item ? editorFormHTML(item) : own.length ? '<div class="studio-empty"><h2>Wähle eine Übung aus der Liste</h2><p class="muted">oder lege eine neue an. Änderungen werden automatisch gespeichert.</p></div>' : ''}</section>
     </div>
   </div>`;
   if (item) edCommit();

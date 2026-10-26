@@ -48,3 +48,7 @@
   #toast { top: calc(12px + env(safe-area-inset-top)); bottom: auto; z-index: 60; font-size: 14px; text-align: center; width: max-content; max-width: calc(100vw - 32px); }
 }
 @media (max-width: 899px) and (prefers-reduced-motion: no-preference) { .checkbar { transition: none; } }
+/* iOS zoomt bei Eingabefeldern unter 16 px automatisch heran: auf Touchgeräten nie kleiner. */
+@media (pointer: coarse) {
+  input:not([type='checkbox']):not([type='radio']), select, textarea { font-size: max(16px, 1em); }
+}

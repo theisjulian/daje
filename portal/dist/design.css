@@ -1678,6 +1678,8 @@ html[data-skin='heft'] .xhero {
 @media (max-width: 860px) {
   .filter-group .chip-row {
     flex: 1 1 100%;
+    flex-wrap: wrap;
+    overflow: visible;
     margin: 0;
     padding: 0 0 4px;
   }

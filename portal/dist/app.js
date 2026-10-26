@@ -175,7 +175,7 @@ function nav(next) {
       vokabeln: 'Wortschatz',
       sammlung: 'Deine Merkliste',
       verlauf: 'Dein Verlauf',
-      redaktion: 'Redaktion · lokale Demo',
+      redaktion: 'Eigene Übungen',
       lernen: 'Wortschatz trainieren',
       wortschatz: 'Dein Wortschatz',
       fortschritt: 'Dein Fortschritt',
@@ -241,28 +241,41 @@ function home() {
    )}</div><div class="settings-row"><label class="field">Runde<select id="round-count">${[5, 10, 20].map(n => `<option value="${n}" ${config.count === n ? 'selected' : ''}>${n} Wörter</option>`).join('')}</select></label><label class="field">Richtung<select id="direction" ${['photo', 'definition', 'match'].includes(config.mode) ? 'disabled' : ''}><option value="de-it" ${config.direction === 'de-it' ? 'selected' : ''}>Deutsch → Italienisch</option><option value="it-de" ${config.direction === 'it-de' ? 'selected' : ''}>Italienisch → Deutsch</option></select></label></div><button class="button primary full large" data-action="start" ${eligible ? '' : 'disabled'}>Runde starten · ${Math.min(config.count, eligible)} Wörter</button><p class="learn-help">${config.mode === 'match' ? 'Paare verbinden, dann ohne Auswahl erinnern. Dieser Modus verändert deine Wiederholungsstufen nicht.' : config.mode === 'photo' ? `${eligible} passende Bildkarten in dieser Auswahl.` : config.mode === 'definition' ? `${eligible} eigene italienische Erklärungen in dieser Auswahl.` : 'Ohne Anmeldung. Dein Fortschritt bleibt auf diesem Gerät.'}</p></section></div>
 <p class="load-note">Ein erster Auszug aus der Lista cronologica. Weitere Kapitel und Bände folgen. <button class="quiet" data-nav="hilfe">Wie lerne ich sinnvoll?</button></p>`;
 }
+/* Wörter nachschlagen: Suche über alle Wortlisten (Lehrwerke, Themenlisten, eigene). */
 function collection(query = '') {
-  config.language = 'it';
-  config.bookId = 'ecco-piu-1-9783060229062';
-  const p = pool().filter(w =>
-    (w.target + ' ' + w.translations.join(' '))
-      .toLocaleLowerCase()
-      .includes(query.toLocaleLowerCase())
-  );
-  $('main').innerHTML =
-    `<div class="page-title"><div class="eyebrow">ECCO PIÙ 1 · LISTA CRONOLOGICA</div><h1>Dein Wortschatz.</h1><p>${esc(chapterName())} · ${pool().length} Einträge. Wörter und Wendungen gemeinsam lernen.</p></div><div class="collection-tools"><input class="search" id="word-search" type="search" aria-label="Wortschatz durchsuchen" placeholder="Italienisch oder Deutsch suchen …" value="${esc(query)}"><button class="button secondary" data-nav="lernen">Auswahl ändern</button><button class="button primary" data-action="start">Auswahl üben</button></div><div class="word-list">${p.map(w => `<article class="word-item glass"><div><b lang="${config.language}">${esc(w.target)}</b><small>${esc(w.translations.join(' / '))}</small><small>${esc(w.label)}</small></div><button class="quiet" data-word="${w.id}">Üben</button></article>`).join('') || '<p class="muted">Kein passender Eintrag gefunden.</p>'}</div>`;
-  if (query) {
-    const el = $('word-search');
-    el.focus();
-    el.setSelectionRange(query.length, query.length);
+  const norm = t => String(t).toLocaleLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  const q = norm(query.trim());
+  const lists = contentList('vocabulary');
+  const total = lists.reduce((n, x) => n + x.entries.length, 0);
+  const hits = [];
+  if (q.length >= 2)
+    for (const x of lists) {
+      for (const w of x.entries)
+        if (norm(w.target + ' ' + w.translations.join(' ')).includes(q)) hits.push({ x, w });
+      if (hits.length >= 80) break;
+    }
+  const results = !q
+    ? '<p class="muted">Tippe mindestens zwei Buchstaben, auf Italienisch, Englisch oder Deutsch.</p>'
+    : q.length < 2
+      ? ''
+      : hits
+          .map(
+            ({ x, w }) =>
+              `<article class="word-item glass"><div><b lang="${esc(x.language)}">${esc(w.target)}</b><small>${esc(w.translations.join(' / '))}</small><small>${esc(x.title)}</small></div><button class="quiet" data-vocab-set="${esc(x.id)}">Liste üben</button></article>`
+          )
+          .join('') || '<p class="muted">Kein passender Eintrag gefunden.</p>';
+  if (view === 'wortschatz' && $('word-results')) {
+    $('word-results').innerHTML = results;
+    return;
   }
+  $('main').innerHTML = `<div class="page"><header class="page-head"><div class="eyebrow">Wortschatz</div><h1>Wörter nachschlagen</h1><p>${total} Einträge aus ${lists.length} Listen.</p></header><div class="collection-tools"><input class="search" id="word-search" type="search" aria-label="Wortschatz durchsuchen" placeholder="z. B. stazione oder Bahnhof" value="${esc(query)}" autocomplete="off" autocapitalize="none" spellcheck="false"></div><div class="word-list" id="word-results">${results}</div></div>`;
 }
 function progress() {
   progressV2();
 }
 function sources() {
   $('main').innerHTML =
-    `<div class="page-title"><div class="eyebrow">TRANSPARENT DOKUMENTIERT</div><h1>Quellen und Bildnachweise.</h1><p>Fotomotive sind lokal eingebunden. Videovorschaubilder stammen vom jeweiligen Anbieter und sind nach Möglichkeit lokal eingebunden. Hier findest du die Bildquellen und Hinweise.</p></div>${Object.entries(
+    `<div class="page-title"><div class="eyebrow">TRANSPARENT DOKUMENTIERT</div><h1>Quellen und Bildnachweise.</h1><p>Hier findest du Bildquellen, Schriften und Hinweise zu den Inhalten.</p></div>${Object.entries(
       PHOTOS
     )
       .map(
@@ -271,7 +284,7 @@ function sources() {
       )
       .join(
         ''
-      )}<section class="source-text glass"><h3>Vorschaubilder der Hörübungen</h3><p>Die Titelbilder der Hörübungen sind für daje gestaltet: Schrift und Farbe, keine Fotos. Vorschaubilder werden nicht von YouTube geladen; eine Verbindung zum Anbieter entsteht erst beim Abspielen. Einige Videos zeigen im Player ein Standbild des Originalvideos. Originalquelle und Anbieter stehen bei jeder Hörübung unter Quelle und Hinweise.</p></section><section class="source-text glass"><h3>Wortschatz und Lehrwerk</h3><p>Ecco più 1 · Metodo di italiano. Cornelsen. ISBN 978-3-06-022906-2. Grundlage ist der vom Nutzer bereitgestellte Auszug der Lista cronologica, hier Ciao! und Unità 1. Die Vorschau enthält ${WORDS.length} aufbereitete Einträge; nicht alle Kapitel des Lehrwerks.</p><p>Zusätzliche Definitionen und Beispielsätze sind eigene Übungsformulierungen und keine Zitate aus dem Lehrwerk. Wortformen sind teilweise für die Kartenansicht ausgeschrieben. Die Anwendung ist ein eigenständiger Entwurf und kein offizielles Cornelsen-Angebot.</p></section><section class="source-text glass"><h3>Gestaltung und Schrift</h3><p>Eigene Farbwelt daje; dazu zwölf weitere Farbwelten auf Grundlage des vorhandenen Gruppo-Quellstands im Repository theisjulian/app, ausschließlich lesend abgerufen. Inter aus Gruppo (Rasmus Andersson) und Schibsted Grotesk aus der bestehenden Website (Bakken & Bæck). Beide unter der SIL Open Font License.</p><div class="source-links"><a href="https://github.com/google/fonts/tree/main/ofl/schibstedgrotesk" target="_blank" rel="noopener">Schibsted Grotesk und Lizenz</a><a href="https://rsms.me/inter/" target="_blank" rel="noopener">Inter und Lizenz</a><button class="quiet" data-nav="hilfe">Wissenschaftliche Quellen der Lerntipps</button></div></section>`;
+      )}<section class="source-text glass"><h3>Vorschaubilder der Hörübungen</h3><p>Die Titelbilder der Hörübungen sind für daje gestaltet: Schrift und Farbe, keine Fotos. Vorschaubilder werden nicht von YouTube geladen; eine Verbindung zum Anbieter entsteht erst beim Abspielen. Einige Videos zeigen im Player ein Standbild des Originalvideos. Originalquelle und Anbieter stehen bei jeder Hörübung unter Quelle und Hinweise.</p></section><section class="source-text glass"><h3>Wortschatz und Lehrwerk</h3><p>Ecco più 1 und Ecco più 2 · Metodo di italiano. Cornelsen. Grundlage ist jeweils die Lista cronologica des Buchs; Seiten- und Kapitelangaben entsprechen dem Buch.</p><p>Erklärungen und Beispielsätze sind eigene Übungsformulierungen und keine Zitate aus dem Lehrwerk. daje ist ein eigenständiges Angebot und kein offizielles Cornelsen-Produkt.</p></section><section class="source-text glass"><h3>Gestaltung und Schrift</h3><p>Eigene Farbwelt daje und vier weitere Farbwelten. Schriften: Inter (Rasmus Andersson), Schibsted Grotesk (Bakken & Bæck), Atkinson Hyperlegible (Braille Institute) und Lora (Cyreal), alle unter der SIL Open Font License.</p><div class="source-links"><a href="https://github.com/google/fonts/tree/main/ofl/schibstedgrotesk" target="_blank" rel="noopener">Schibsted Grotesk und Lizenz</a><a href="https://rsms.me/inter/" target="_blank" rel="noopener">Inter und Lizenz</a><button class="quiet" data-nav="hilfe">Wissenschaftliche Quellen der Lerntipps</button></div></section>`;
 }
 function verbs() {
   const v = $('verb-select')?.value || 'essere';

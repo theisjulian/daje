@@ -4,7 +4,7 @@
 .vb-chips{display:flex;flex-wrap:wrap;gap:8px}
 .vb-chip,.vb-verb{min-height:40px;padding:0 14px;border-radius:999px;border:1px solid var(--line,#0002);background:transparent;color:inherit;font:inherit;cursor:pointer}
 .vb-verb{font-style:italic}
-.vb-chip.on,.vb-verb.on{background:var(--accent,#2f6fed);border-color:transparent;color:#fff;font-style:normal}
+.vb-chip.on,.vb-verb.on{background:var(--blue);border-color:transparent;color:#fff;font-style:normal}
 .vb-mode{margin-bottom:16px}
 .vb-card{padding:22px;max-width:640px}
 .vb-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}

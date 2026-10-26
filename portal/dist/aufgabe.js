@@ -147,7 +147,7 @@ function hwPage() {
           r.kind === 'listening'
             ? `<button class="button ${ok ? 'secondary' : 'primary'}" data-lesson="${esc(r.x.id)}">${ok ? 'Noch einmal' : 'Anhören'}</button>`
             : `<button class="button ${ok ? 'secondary' : 'primary'}" data-vocab-set="${esc(r.x.id)}">${ok ? 'Wiederholen' : 'Üben'}</button>`;
-        return `<li class="${ok ? 'is-done' : ''}"><span class="hw-check" aria-hidden="true">${ok ? '✓' : ''}</span><span class="hw-text"><b>${esc(r.x.title)}</b><small>${r.kind === 'listening' ? 'Hörübung' : 'Wortliste'} · ${esc(r.x.level)}${ok ? ' · erledigt' : ''}</small></span>${action}</li>`;
+        return `<li class="${ok ? 'is-done' : ''}"><span class="hw-check" aria-hidden="true">${ok ? '✓' : ''}</span><span class="hw-text"><b>${esc(r.x.title)}</b><small><span>${r.kind === 'listening' ? 'Hörübung' : 'Wortliste'}</span> · ${esc(r.x.level)}${ok ? ' · <span>erledigt</span>' : ''}</small></span>${action}</li>`;
       })
       .join('')}</ol>
   </div>`;

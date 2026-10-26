@@ -256,8 +256,8 @@ function teacherHome(list, p) {
     </section>
     <div class="steps three">
       ${stepCard({ kicker: '1', title: 'Material finden', text: 'Filtern nach Sprache, Niveau und Medium.', action: '<button class="button secondary" data-nav="hoeren">Katalog öffnen</button>' })}
-      ${stepCard({ kicker: '2', title: 'Aufgaben prüfen', text: 'Lösungsschlüssel, Quellen und Transkript ansehen.', action: '<span class="muted small">In jeder Übung</span>' })}
-      ${stepCard({ kicker: '3', title: 'Drucken oder teilen', text: 'Aufgabenblatt als PDF oder Direktlink zum Selbstüben.', action: '<span class="muted small">In jeder Übung</span>' })}
+      ${stepCard({ kicker: '2', title: 'Hausaufgabe geben', text: 'Bei Hörübungen und Wortlisten „Zur Hausaufgabe“ wählen, dann als Link oder QR-Code teilen.', action: '<button class="button secondary" data-hw-open="1">Hausaufgabe ansehen</button>' })}
+      ${stepCard({ kicker: '3', title: 'Eigene Übungen', text: 'Eigene Hörübungen und Wortlisten erstellen oder Katalogübungen anpassen.', action: '<button class="button secondary" data-nav="redaktion">Eigene Übungen</button>' })}
     </div>
     ${sectionHead('', 'Neu im Katalog', 'hoeren', 'Alle ansehen')}
     <div class="cards-grid">${list.slice(-6).reverse().map(lessonCard).join('')}</div>
@@ -705,7 +705,7 @@ function renderListening(preview = false) {
   focusIndex = Math.min(focusIndex, x.questions.length - 1);
   $('main').innerHTML = `<div class="page lesson-page">
     ${EMBED ? '' : '<button class="quiet back-link" data-nav="hoeren">Alle Hörübungen</button>'}
-    ${working ? `<div class="draftbar"><b>Arbeitsfassung</b><span>Aufgaben, Transkript und Nutzungsrechte sind noch nicht abschließend geprüft.${!x.transcript && !x.series ? ' Das Transkript fehlt noch.' : ''}</span>${teacher ? '<button class="quiet" data-nav="redaktion">In der Redaktion öffnen</button>' : ''}</div>` : ''}
+    ${working ? `<div class="draftbar"><b>Arbeitsfassung</b><span>Aufgaben, Transkript und Nutzungsrechte sind noch nicht abschließend geprüft.${!x.transcript && !x.series ? ' Das Transkript fehlt noch.' : ''}</span>${teacher && editorState.items.some(i => edId(i) === x.id) ? `<button class="quiet" data-ed-edit="${esc(x.id)}">In der Redaktion bearbeiten</button>` : ''}</div>` : ''}
     ${preview ? '<div class="draftbar"><b>Entwurf</b><span>Lokaler Redaktionsentwurf, nicht freigegeben.</span></div>' : ''}
     <header class="lesson-head">
       <div>
@@ -800,7 +800,7 @@ function vocabularyLibrary() {
     ${sectionHead('', 'Wortlisten')}
     <div class="cards-grid sets">${baseVocabCard()}${extras.map(x => setCard(x, 'activity')).join('')}</div>
     <section class="lookup-grid">
-      <article class="lookup-card"><div><h3>Wortliste nachschlagen</h3><p class="muted">Den Ecco-Auszug durchsuchen und einzelne Wörter direkt üben.</p></div><button class="button secondary" data-nav="wortschatz">Öffnen</button></article>
+      <article class="lookup-card"><div><h3>Wörter nachschlagen</h3><p class="muted">In allen Listen suchen, auf Italienisch, Englisch oder Deutsch.</p></div><button class="button secondary" data-nav="wortschatz">Öffnen</button></article>
       <article class="lookup-card"><div><h3>Verben im Presente</h3><p class="muted">Formen üben und überprüfen.</p></div><button class="button secondary" data-nav="verben">Öffnen</button></article>
     </section>
   </div>`;
