@@ -103,11 +103,14 @@ async function step(name, fn) {
     await shot(dp, 'desk-start');
   });
 
-  await step('Hörkatalog zeigt 15 Übungen', async () => {
+  // Anzahl aus dem Katalog: neue Übungen aus der Redaktion dürfen den Test nicht brechen.
+  const listenCount = await dp.evaluate(() => contentList('listening').length);
+  await step('Hörkatalog zeigt alle Übungen', async () => {
+    assert.ok(listenCount >= 10, 'zu wenige Hörübungen: ' + listenCount);
     await dp.click('[data-nav="hoeren"]');
     await dp.waitForSelector('main article, main .listen-card, main [data-open-listening]');
     const text = await dp.textContent('main');
-    assert.match(text, /15 Hörübungen/);
+    assert.match(text, new RegExp(listenCount + ' Hörübungen'));
     await shot(dp, 'desk-katalog');
   });
 
@@ -225,9 +228,9 @@ async function step(name, fn) {
     assert.ok(r.n > 0);
   });
 
-  await step('Alle 15 Hörübungen öffnen per Direktlink ohne Fehler', async () => {
+  await step('Alle Hörübungen öffnen per Direktlink ohne Fehler', async () => {
     const ids = await dp.evaluate(() => contentList('listening').map(x => x.id));
-    assert.equal(ids.length, 15);
+    assert.equal(ids.length, listenCount);
     for (const id of ids) {
       await dp.goto(base + '?hoeren=' + id, { waitUntil: 'load' });
       await dp.waitForSelector('main h1');
@@ -274,7 +277,7 @@ async function step(name, fn) {
     await dp.click('.nav-list [data-nav="hoeren"]');
     await dp.click('[data-key="language"][data-value="it"]');
     const n = await dp.locator('#catalog-grid .lcard').count();
-    assert.ok(n > 0 && n < 15);
+    assert.ok(n > 0 && n < listenCount);
     await dp.fill('#listen-search', 'gelato');
     assert.ok((await dp.locator('#catalog-grid .lcard').count()) < n);
   });

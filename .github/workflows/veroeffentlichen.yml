@@ -23,8 +23,9 @@ jobs:
       - name: Grundstock prüfen und bündeln (ungültige Pakete brechen ab)
         run: node werkzeuge/bundle_stock.cjs
       - name: Generierte Dateien sind aktuell committet
+        # stock-data.js ist ausgenommen: Übungen aus der Redaktion („Live stellen“) kommen ohne Bündel; das baut der build-Schritt.
         run: |
-          if ! git diff --quiet || [ -n "$(git ls-files --others --exclude-standard grundstock portal/dist)" ]; then
+          if ! git diff --quiet -- . ':!portal/dist/stock-data.js' || [ -n "$(git ls-files --others --exclude-standard portal/dist)" ]; then
             echo "::error::Generierte Dateien weichen vom Commit ab. Generatoren und bundle_stock.cjs lokal ausführen und Ergebnis committen."
             git status --short
             git diff --stat
@@ -49,6 +50,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Grundstock bündeln
+        run: node werkzeuge/bundle_stock.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
