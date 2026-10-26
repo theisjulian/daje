@@ -284,7 +284,8 @@ async function step(name, fn) {
     await dp.click('#font-grid [data-font="lora"]');
     assert.equal(await dp.getAttribute('html', 'data-font'), 'lora');
     await dp.evaluate(() => document.getElementById('look-dialog').close());
-    await dp.reload({ waitUntil: 'networkidle' });
+    await dp.waitForTimeout(400); // Schließen springt im Verlauf zurück; erst danach neu laden
+    await dp.goto(base, { waitUntil: 'networkidle' });
     assert.equal(await dp.getAttribute('html', 'data-font'), 'lora');
   });
 
