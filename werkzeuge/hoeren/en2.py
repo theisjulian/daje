@@ -46,7 +46,7 @@ pkg('iwiwt-standard', 'I Want It That Way · Standard', 'en', 'B1', 'Thema, Stim
 
 # ---------------- AMERICAN PIE ----------------
 S, ST, VID = 'american-pie', 'American Pie · Don McLean', 'PRpiBpDy7MQ'
-NOTE_AP = 'Lyric-Video bei YouTube (Anbieter nicht geprüft); alternativ eine offizielle Aufnahme verwenden. Einbettbarkeit und Rechte prüfen.'
+NOTE_AP = 'Lyric-Video bei YouTube. Anbieter, Einbettbarkeit und Rechte prüfen, alternativ eine offizielle Aufnahme verwenden.'
 q = Q()
 q.tf('Vor dem Hören: „American Pie" ist ein sehr langes Lied (mehr als acht Minuten).', True, 'Die Albumfassung dauert über 8 Minuten.')
 q.sc('Beim Hören: In welchem Jahrzehnt erschien das Lied?', ['1950er', '1970er', '1990er', '2010er'], 1, 'Veröffentlicht 1971.')

@@ -348,6 +348,44 @@ async function step(name, fn) {
     assert.ok(await pp.locator('#more-sheet').isVisible());
     await pp.click('#more-sheet [data-close]');
   });
+
+  await step('Handy: Lehrkräfte-Start ohne abgeschnittene Inhalte', async () => {
+    await pp.goto(base, { waitUntil: 'networkidle' });
+    await pp.click('[data-audience="teach"]');
+    await pp.waitForTimeout(200);
+    const cut = await pp.evaluate(() => {
+      const box = document.querySelector('.xhero').getBoundingClientRect();
+      return [...document.querySelectorAll('.xhero-copy *')].filter(
+        el => el.getBoundingClientRect().right > box.right + 1
+      ).length;
+    });
+    assert.equal(cut, 0, 'Elemente ragen aus der Startkarte');
+    await pp.click('[data-audience="learn"]');
+  });
+
+  await step('Lernende sehen keine Redaktionsvermerke und keinen Redaktionszugang', async () => {
+    await pp.goto(base + '?hoeren=it-a2-ordine-al-bar', { waitUntil: 'networkidle' });
+    await pp.click('#listening-form [type=submit]');
+    await pp.waitForTimeout(200);
+    const text = await pp.textContent('main');
+    assert.doesNotMatch(text, /Audioabgleich|übermittelt|Gemini|Arbeitsfassung/i);
+    assert.equal(await pp.locator('[data-nav="redaktion"]:visible').count(), 0);
+  });
+
+  await step('Zurück-Taste bleibt in der App (Verlauf)', async () => {
+    await pp.goto(base, { waitUntil: 'networkidle' });
+    await pp.click('.tabbar [data-nav="hoeren"]');
+    await pp.goto(base + '?seite=vokabeln', { waitUntil: 'networkidle' });
+    await pp.locator('.ws-cover').first().click();
+    assert.match(pp.url(), /buch=/);
+    await pp.goBack();
+    assert.equal(await pp.evaluate(() => view + ':' + wsBook.get()), 'vokabeln:null');
+    await pp.goto(base + '?hoeren=it-torino-demo', { waitUntil: 'networkidle' });
+    await pp.click('.back-link');
+    assert.equal(await pp.evaluate(() => view), 'hoeren');
+    await pp.goBack();
+    assert.equal(await pp.evaluate(() => view + ':' + openedListening), 'hoeruebung:it-torino-demo');
+  });
   await phone.ctx.close();
 
   await step('Keine Seiten- oder Konsolenfehler während aller Tests', async () => {

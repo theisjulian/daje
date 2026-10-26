@@ -34,13 +34,14 @@ portal/dist/            ← die gesamte App (statisch, kein Build). Nur <script 
   portal.js views.js    Hörverstehen: Katalog, Übungsseite, Lehrkräfteansicht, Profil/Backup
   hoerblatt.js docs.js dialog.js   Druck/Word: Aufgabenblatt, Vokabeldokument, Dokumentdialog (Vorschau + Anpassen)
   wortschatz.js wortschatz.css     Wortschatz-Hub (Buchcover-Kacheln, Lektions-/Seitenwahl, Auswahl)
+  verlauf.js            Browserverlauf (Zurück-Taste/Wischgeste, ?seite=, ?buch=, ?hoeren=); zuletzt geladen, umhüllt nav/openListening/renderSession
   verbs.js verbs.css    Verbmaschine (VB_DATA [inf, de, gruppe, klasse, overrides] → vbBuild)
   shell.js extras2.js catalog.js instr.js publish.js studio.js qr.js   Navigation, Redaktion, QR, Anweisungstexte
   i18n.js i18n-rows.js i18n-simple.js   UI-Texte (Zeilen [de,it,en,fr,it-simple]); *-simple.js für EN/FR einfach
   listening-data.js review-data.js stock-data.js listening-extra.js   Inhalte (Seeds; stock-data.js GENERIERT)
   themes.css skins.css style.css lessico.css portal.css design.css docs.css mobile.css   Gestaltung
   assets/ examples/ imports/(KI-Kommandodatei.md, Gemini-Folgeprompt.md)
-portal/tests/           npm test (content, grading, progress, verbs) + e2e.test.cjs (Playwright, 19 Prüfungen)
+portal/tests/           npm test (content, grading, progress, verbs) + e2e.test.cjs (Playwright, 22 Prüfungen)
 grundstock/listening/   25 Lied-/Film-Pakete (GENERIERT aus werkzeuge/hoeren)
 grundstock/vocabulary/  60 Wortschatzpakete (GENERIERT aus werkzeuge/ecco*/…)
 inhalte/                die 15 älteren Hörpakete im Original (Seeds liegen in listening-data/review-data)
@@ -83,6 +84,19 @@ Reihenfolge nach Inhaltsänderung: Generator → `bundle_stock.cjs` → Tests �
 
 ## 6. Letzte Änderungen (diese Sitzung)
 Cover-Kacheln; 50 Special nur Lied; alte Pakete 11–24 Aufgaben; Rai entfernt; Erklärungen für alle Wörter; Umbenennung in daje (Icon C = Ohr); Hörseiten mobil neu (`mobile.css`); iOS-Druckfehler (nur 1 Seite) behoben: `do-print` hält `printing-teaching` bis `afterprint`; Seitenumbruchberechnung (`dlgPaginate`) korrigiert; Dokumentdialog mit großer echter Vorschau, Design als Chips, „Anpassen“-Blatt; Unterscheide-Kästen; EN/FR einfach; Qualitätsskript; fachliche Überarbeitung aller Hörpakete (`werkzeuge/hoeren/review.py`).
+
+## 6a. Analyse und Überarbeitung (26.10.2026, Opus)
+Geprüft auf iPhone (320/390 px), iPad (820/1024 px) und Desktop (1440 px), Rolle Lernende und Lehrkräfte.
+Behoben:
+- **Lernende sahen Redaktionsvermerke** in 55 Erklärungen („laut übermittelter Mitschrift …“, „Audioabgleich offen“, „laut Gemini“). An der Quelle umformuliert (`review-data.js`, `inhalte/*.json`); Prüfstatus steht weiter in `reviewNotes` (nur Lehrkräfte). Drei Ausschnitte (Rom, Italien kennenlernen, Vita in Italia) starten/enden jetzt im Player.
+- „Arbeitsfassung“ (Hinweisleiste, Karten-Etikett, Filter, „Nicht am Audio geprüft“) und der Redaktionszugang nur noch für Lehrkräfte. Leere Karten („keine Wortliste“, „kein Transkript“) werden Lernenden nicht gezeigt.
+- Lehrkräfte-Start am Handy rechts abgeschnitten (Grid ohne `minmax(0,1fr)`); Überschrift am Desktop ausgewogen umbrochen.
+- 320 px: Fortschritt-Kacheln und Lerntipps-Schritte liefen über.
+- Meldung nach der Korrektur lag über dem Prüfknopf → am Handy oben; Text „x von y richtig“.
+- „Mehr“-Blatt ohne Lücken im Raster.
+- **Zurück-Taste/Wischgeste** verließ die App → `verlauf.js`; Ansichten sind direkt verlinkbar (`?seite=fortschritt`, `?seite=vokabeln&buch=…`).
+Bewusst nicht geändert: Reihenfolge im Buch (Anhang A zuerst) folgt der Lista cronologica (S. 161 ff.).
+Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur schließen; Startseite für neue Nutzer ohne „0/0/0“-Kacheln; CSS-Schichten (10 Dateien, spätere überschreiben frühere) zusammenführen.
 
 ## 7. Offene Punkte
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.

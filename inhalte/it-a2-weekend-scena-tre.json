@@ -52,14 +52,14 @@
         }
       ],
       "correctOptionId": "c",
-      "explanation": "Die übermittelte Mitschrift nennt Freundinnen und Sport bei verfügbarer Zeit. Am Audio prüfen."
+      "explanation": "Genannt werden Freundinnen und Sport, wenn Zeit ist."
     },
     {
       "id": "q2",
       "type": "true_false",
       "prompt": "Con le amiche esce a cena.",
       "answer": true,
-      "explanation": "Die übermittelte Mitschrift enthält „usciamo insieme a cena“. Am Audio prüfen."
+      "explanation": "Im Text heißt es: „usciamo insieme a cena“."
     },
     {
       "id": "q3",
@@ -80,7 +80,7 @@
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Die übermittelte Mitschrift enthält „corro e vado in bicicletta“. Am Audio prüfen."
+      "explanation": "Im Text heißt es: „corro e vado in bicicletta“."
     }
   ]
 }

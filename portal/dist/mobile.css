@@ -44,5 +44,7 @@
   .checkbar .button { width: 100%; min-height: 48px; font-size: 16px; }
   .note-card, .session-actions { margin-top: 10px; }
   .lesson-page { padding-bottom: 150px; }
+  /* Meldungen oben: unten liegen Tab-Leiste und Korrektur-Leiste */
+  #toast { top: calc(12px + env(safe-area-inset-top)); bottom: auto; z-index: 60; font-size: 14px; text-align: center; width: max-content; max-width: calc(100vw - 32px); }
 }
 @media (max-width: 899px) and (prefers-reduced-motion: no-preference) { .checkbar { transition: none; } }

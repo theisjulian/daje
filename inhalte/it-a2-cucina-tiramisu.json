@@ -53,14 +53,14 @@
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Im Gespräch wird vereinbart: „un piatto principale e un dolce“. Grundlage: übermittelte Mitschrift; Audioabgleich offen."
+      "explanation": "Im Gespräch wird vereinbart: „un piatto principale e un dolce“."
     },
     {
       "id": "q2",
       "type": "true_false",
       "prompt": "Le persone a cena sono in sei in totale.",
       "answer": true,
-      "explanation": "Es wird aufgezählt: Du, ich, Roberto, Marta und zwei Freunde, also insgesamt sechs Personen. Grundlage: übermittelte Mitschrift; Audioabgleich offen."
+      "explanation": "Es wird aufgezählt: Du, ich, Roberto, Marta und zwei Freunde, also insgesamt sechs Personen."
     },
     {
       "id": "q3",
@@ -78,7 +78,7 @@
         "0.5 kg"
       ],
       "modelAnswer": "mezzo chilo",
-      "explanation": "Auf die Frage der Verkäuferin antworten sie: „Mezzo chilo per favore“. Grundlage: übermittelte Mitschrift; Audioabgleich offen."
+      "explanation": "Auf die Frage der Verkäuferin antworten sie: „Mezzo chilo per favore“."
     },
     {
       "type": "short_answer",
@@ -90,14 +90,14 @@
         "6 uova"
       ],
       "modelAnswer": "sei",
-      "explanation": "In der übermittelten Mitschrift werden sechs Eier bestellt. Audioabgleich offen.",
+      "explanation": "Bestellt werden sechs Eier.",
       "id": "q4"
     },
     {
       "type": "true_false",
       "prompt": "I primi biscotti proposti vanno bene per il tiramisù.",
       "answer": false,
-      "explanation": "Laut Mitschrift wird stattdessen eine andere, saugfähigere Sorte empfohlen. Audioabgleich offen.",
+      "explanation": "Empfohlen wird stattdessen eine andere, saugfähigere Sorte.",
       "id": "q5"
     },
     {
@@ -118,7 +118,7 @@
         }
       ],
       "correctOptionId": "c",
-      "explanation": "Im übermittelten Text heißt es „Ecco 50 euro“. Audioabgleich offen.",
+      "explanation": "Es heißt: „Ecco 50 euro“.",
       "id": "q6"
     },
     {
@@ -133,7 +133,7 @@
         "ventitré euro e quindici centesimi"
       ],
       "modelAnswer": "23 euro e 15 centesimi",
-      "explanation": "Der Gesamtbetrag wird mit 23 Euro und 15 Cent angegeben. Audioabgleich offen.",
+      "explanation": "Der Gesamtbetrag ist 23 Euro und 15 Cent.",
       "id": "q7"
     }
   ]

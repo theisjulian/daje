@@ -6,7 +6,7 @@
   "title": "Che cosa fai in Italia?",
   "language": "it",
   "level": "A2",
-  "description": "Persone diverse si presentano. Ausschnitt laut Gemini 00:30–01:28; Wiedergabe derzeit manuell eingrenzen.",
+  "description": "Persone diverse si presentano.",
   "topics": [
     "vita quotidiana",
     "lavoro",
@@ -16,7 +16,9 @@
   "estimatedMinutes": 5,
   "media": {
     "type": "youtube",
-    "videoId": "91fi6egFsyA"
+    "videoId": "91fi6egFsyA",
+    "start": 30,
+    "end": 88
   },
   "transcript": "[00:31] Mi chiamo di nome Mina. Sono marocchina di Casablanca. Sono arrivata in Italia nel 2000.\n[00:41] Mi chiamo Carola... ordenes [Wortlaut unsicher] di qua si dice Carola, ma da noi si dice Carola.\n[00:49] Io sono Santiago del Cile. [Wortlaut unsicher]\n[00:51] Mi chiamo Diamante, tutti mi chiamano così, però la vera pronuncia sarebbe [unverständlich], vengo da Lituania e il significato è sempre quello che è Diamante.\n[01:00] Mi chiamo Gislen F. [Wortlaut unsicher] del Marocco.\n[01:06] Quanti anni hai? Ho 28 anni.\n[01:09] Da quanto tempo sei in Italia? Sono qua dal 2009.\n[01:13] Che lavoro fai? Ho fatto sempre la badanti, adesso ho fatto due corsi, sono oss, operatore socio-sanitario.\n[01:22] Faccio lavori sporadici, sono più casalinga che mai.",
   "sources": [
@@ -31,7 +33,7 @@
     "Entwurf für die private Redaktionsvorschau. Transkript, Zeitmarken, Sprecherbezug und jede Lösung sind noch am Originalmedium zu prüfen.",
     "Nutzungsrechte von Medium und Transkript sowie Originalanbieter und Einbettbarkeit offen. Keine Freigabe.",
     "Niveau redaktionell vorläufig eingeschätzt; Übungsdauer geschätzt, keine gemessene Videodauer.",
-    "Ausschnitt laut Gemini; der YouTube-Player begrenzt Beginn und Ende derzeit nicht automatisch. Bitte Zeitbereich selbst ansteuern.",
+    "Ausschnitt (Beginn/Ende im Player gesetzt) stammt aus automatischen Zeitmarken: am Original prüfen.",
     "Unklare Eigennamen und Sprecherwechsel. Altersfrage entfernt, da Person nicht zuverlässig identifiziert. Gesprochene Formen im Transkript nicht stillschweigend standardisieren."
   ],
   "questions": [
@@ -54,14 +56,14 @@
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Die Personen stellen sich vor und berichten über ihr Leben und ihre Ankunft in Italien. Grundlage: übermittelte Mitschrift; Audioabgleich offen."
+      "explanation": "Die Personen stellen sich vor und berichten über ihr Leben und ihre Ankunft in Italien."
     },
     {
       "id": "q2",
       "type": "true_false",
       "prompt": "Mina è arrivata in Italia nel 2000.",
       "answer": true,
-      "explanation": "Mina sagt im Video: „sono arrivata in Italia nel 2000“. Grundlage: übermittelte Mitschrift; Audioabgleich offen."
+      "explanation": "Mina sagt im Video: „sono arrivata in Italia nel 2000“."
     },
     {
       "id": "q3",
@@ -74,7 +76,7 @@
         "viene da Casablanca"
       ],
       "modelAnswer": "Casablanca",
-      "explanation": "Im übermittelten Text stellt sich Mina als Marokkanerin aus Casablanca vor. Audioabgleich offen."
+      "explanation": "Mina stellt sich als Marokkanerin aus Casablanca vor."
     },
     {
       "type": "short_answer",
@@ -86,7 +88,7 @@
         "dal duemilanove"
       ],
       "modelAnswer": "dal 2009",
-      "explanation": "Die übermittelte Mitschrift enthält nach dieser Frage „Sono qua dal 2009“. Audioabgleich offen.",
+      "explanation": "Nach dieser Frage heißt es: „Sono qua dal 2009“.",
       "id": "q4"
     },
     {
@@ -107,7 +109,7 @@
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Die übermittelte Mitschrift nennt OSS und löst es als operatore socio-sanitario auf. Audioabgleich offen.",
+      "explanation": "OSS steht für operatore socio-sanitario.",
       "id": "q5"
     }
   ]

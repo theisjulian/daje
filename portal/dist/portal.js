@@ -249,7 +249,7 @@ function checkListening() {
   renderListening();
   toast(
     ok
-      ? `${correct} von ${x.questions.length} Antworten erkannt. Ergebnis lokal gespeichert.`
+      ? `${correct} von ${x.questions.length} richtig. Ergebnis gespeichert.`
       : 'Speichern fehlgeschlagen. Sichere dein Profil.'
   );
 }

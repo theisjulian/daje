@@ -52,7 +52,7 @@
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Die übermittelte Mitschrift behandelt Freizeitaktivitäten, Zeitaufwand und Nutzen. Am Audio prüfen. Audioabgleich offen."
+      "explanation": "Es geht um Freizeitaktivitäten, wie viel Zeit sie kosten und was sie bringen."
     },
     {
       "id": "q2",
@@ -67,14 +67,14 @@
         "3 ore alla settimana"
       ],
       "modelAnswer": "tre",
-      "explanation": "Laut übermitteltem Text etwa drei Stunden pro Woche. Die Zahl reicht als Antwort. Am Audio prüfen. Audioabgleich offen."
+      "explanation": "Etwa drei Stunden pro Woche. Die Zahl reicht als Antwort."
     },
     {
       "id": "q3",
       "type": "true_false",
       "prompt": "Secondo una delle persone intervistate, il teatro aiuta a superare una paura.",
       "answer": true,
-      "explanation": "Laut übermitteltem Text hilft Theater gegen die Angst, sich vor anderen zu zeigen. Sprecherzuordnung und Wortlaut am Audio prüfen. Audioabgleich offen."
+      "explanation": "Theater hilft gegen die Angst, sich vor anderen zu zeigen."
     },
     {
       "type": "short_answer",
@@ -86,14 +86,14 @@
         "2 ore"
       ],
       "modelAnswer": "due",
-      "explanation": "Die übermittelte Mitschrift nennt zwei Stunden Theater pro Woche. Audioabgleich offen.",
+      "explanation": "Genannt werden zwei Stunden Theater pro Woche.",
       "id": "q4"
     },
     {
       "type": "true_false",
       "prompt": "Secondo una delle persone, computer e televisione sono sempre utili, qualunque sia il loro uso.",
       "answer": false,
-      "explanation": "Die Person schränkt ein, dass der Nutzen vom Zweck der Nutzung abhängt. Audioabgleich offen.",
+      "explanation": "Die Person schränkt ein, dass der Nutzen vom Zweck der Nutzung abhängt.",
       "id": "q5"
     }
   ]

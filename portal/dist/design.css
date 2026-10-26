@@ -452,11 +452,14 @@ h3 {
 .xhero-copy {
   padding: clamp(26px, 3.4vw, 56px);
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  min-width: 0;
   align-content: center;
   gap: 14px;
 }
 .xhero h1 {
-  font-size: clamp(34px, 4.2vw, 62px);
+  font-size: clamp(30px, 3.4vw, 54px);
+  text-wrap: balance;
   line-height: 1.03;
   letter-spacing: -0.035em;
   margin: 0;
@@ -1439,7 +1442,7 @@ h3 {
 }
 .sheet-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(76px, 1fr));
   gap: 8px;
   margin-bottom: 12px;
 }
@@ -1475,7 +1478,7 @@ h3 {
     overflow: visible;
   }
   .xhero {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .xhero-art {
     min-height: 200px;
@@ -2060,7 +2063,7 @@ html[data-embed] .q {
 .tfoot{margin-top:18px}
 .tv-chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
 .tv-chips span{padding:6px 12px;border-radius:999px;background:var(--glass);border:1px dashed var(--blue);font-weight:600}
-.tv-steps{display:flex;align-items:center;gap:8px;font-weight:700}
+.tv-steps{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-weight:700}
 .tv-steps b{padding:8px 14px;border-radius:12px;background:var(--glass);box-shadow:var(--lift)}
 .tv-steps i{width:22px;height:2px;background:var(--blue)}
 .tv-days{display:flex;gap:6px}

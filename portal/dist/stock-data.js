@@ -700,7 +700,7 @@ const STOCK_PACKAGES = [
    },
    {
     "kind": "external",
-    "citation": "Lyric-Video bei YouTube (Anbieter nicht geprüft); alternativ eine offizielle Aufnahme verwenden. Einbettbarkeit und Rechte prüfen.",
+    "citation": "Lyric-Video bei YouTube. Anbieter, Einbettbarkeit und Rechte prüfen, alternativ eine offizielle Aufnahme verwenden.",
     "url": "https://www.youtube.com/watch?v=PRpiBpDy7MQ",
     "rights": "needs_review"
    }
@@ -1031,7 +1031,7 @@ const STOCK_PACKAGES = [
    },
    {
     "kind": "external",
-    "citation": "Lyric-Video bei YouTube (Anbieter nicht geprüft); alternativ eine offizielle Aufnahme verwenden. Einbettbarkeit und Rechte prüfen.",
+    "citation": "Lyric-Video bei YouTube. Anbieter, Einbettbarkeit und Rechte prüfen, alternativ eine offizielle Aufnahme verwenden.",
     "url": "https://www.youtube.com/watch?v=PRpiBpDy7MQ",
     "rights": "needs_review"
    }

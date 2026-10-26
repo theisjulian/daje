@@ -55,7 +55,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'b',
         explanation:
-          'Die übermittelte Mitschrift behandelt Freizeitaktivitäten, Zeitaufwand und Nutzen. Am Audio prüfen. Audioabgleich offen.'
+          'Es geht um Freizeitaktivitäten, wie viel Zeit sie kosten und was sie bringen.'
       },
       {
         id: 'q2',
@@ -71,7 +71,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         modelAnswer: 'tre',
         explanation:
-          'Laut übermitteltem Text etwa drei Stunden pro Woche. Die Zahl reicht als Antwort. Am Audio prüfen. Audioabgleich offen.'
+          'Etwa drei Stunden pro Woche. Die Zahl reicht als Antwort.'
       },
       {
         id: 'q3',
@@ -79,7 +79,7 @@ const LISTENING_REVIEW_SEEDS = [
         prompt: 'Secondo una delle persone intervistate, il teatro aiuta a superare una paura.',
         answer: true,
         explanation:
-          'Laut übermitteltem Text hilft Theater gegen die Angst, sich vor anderen zu zeigen. Sprecherzuordnung und Wortlaut am Audio prüfen. Audioabgleich offen.'
+          'Theater hilft gegen die Angst, sich vor anderen zu zeigen.'
       },
       {
         type: 'short_answer',
@@ -87,7 +87,7 @@ const LISTENING_REVIEW_SEEDS = [
         acceptedAnswers: ['due', '2', 'due ore', '2 ore'],
         modelAnswer: 'due',
         explanation:
-          'Die übermittelte Mitschrift nennt zwei Stunden Theater pro Woche. Audioabgleich offen.',
+          'Genannt werden zwei Stunden Theater pro Woche.',
         id: 'q4'
       },
       {
@@ -96,7 +96,7 @@ const LISTENING_REVIEW_SEEDS = [
           'Secondo una delle persone, computer e televisione sono sempre utili, qualunque sia il loro uso.',
         answer: false,
         explanation:
-          'Die Person schränkt ein, dass der Nutzen vom Zweck der Nutzung abhängt. Audioabgleich offen.',
+          'Die Person schränkt ein, dass der Nutzen vom Zweck der Nutzung abhängt.',
         id: 'q5'
       }
     ]
@@ -156,7 +156,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'b',
         explanation:
-          'Laut übermittelter Mitschrift sagt die Person „un caffè da portare via“. Am Audio prüfen. Audioabgleich offen.'
+          'Die Person sagt „un caffè da portare via“.'
       },
       {
         id: 'q2',
@@ -164,7 +164,7 @@ const LISTENING_REVIEW_SEEDS = [
         prompt: 'Il cliente vuole bere il caffè nel locale.',
         answer: false,
         explanation:
-          'Der übermittelte Text enthält „Non bevo il caffè qui“. Am Audio prüfen. Audioabgleich offen.'
+          'Im Dialog heißt es: „Non bevo il caffè qui“.'
       },
       {
         id: 'q3',
@@ -173,7 +173,7 @@ const LISTENING_REVIEW_SEEDS = [
         acceptedAnswers: ['una bustina di zucchero', 'bustina di zucchero', 'una bustina'],
         modelAnswer: 'una bustina di zucchero',
         explanation:
-          'Im übermittelten Text wird ein Zuckerpäckchen genannt. Die Frage vermeidet eine ungeprüfte Sprecherzuordnung. Am Audio prüfen. Audioabgleich offen.'
+          'Am Ende wird ein Zuckerpäckchen genannt.'
       },
       {
         type: 'short_answer',
@@ -181,7 +181,7 @@ const LISTENING_REVIEW_SEEDS = [
         acceptedAnswers: ['un caffè', 'caffè', 'un caffe', 'caffe'],
         modelAnswer: 'un caffè',
         explanation:
-          'Der übermittelte Text nennt die Bestellung eines Kaffees. Akzentlose Schreibweise hier ausdrücklich als Inhaltsantwort zugelassen. Audioabgleich offen.',
+          'Bestellt wird ein Kaffee. Auch „caffe“ ohne Akzent zählt hier.',
         id: 'q4'
       }
     ]
@@ -241,7 +241,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'a',
         explanation:
-          'Die übermittelte Mitschrift enthält die Einladung „vieni al cinema con noi oggi?“. Am Audio prüfen. Audioabgleich offen.'
+          'Die Einladung lautet: „vieni al cinema con noi oggi?“'
       },
       {
         id: 'q2',
@@ -249,7 +249,7 @@ const LISTENING_REVIEW_SEEDS = [
         prompt: 'Paolo ha un allenamento quel giorno.',
         answer: true,
         explanation:
-          'Laut übermitteltem Text bestätigt Paolo das Training. Am Audio prüfen. Audioabgleich offen.'
+          'Paolo bestätigt das Training.'
       },
       {
         id: 'q3',
@@ -258,7 +258,7 @@ const LISTENING_REVIEW_SEEDS = [
         acceptedAnswers: ['Orlando Bloom'],
         modelAnswer: 'Orlando Bloom',
         explanation:
-          'Die übermittelte Mitschrift nennt Orlando Bloom. Am Audio prüfen. Audioabgleich offen.'
+          'Genannt wird Orlando Bloom.'
       },
       {
         type: 'short_answer',
@@ -266,7 +266,7 @@ const LISTENING_REVIEW_SEEDS = [
         acceptedAnswers: ['alle sei', 'alle 18', 'alle 18:00', 'alle 6', '18', '18:00', '6', 'sei'],
         modelAnswer: 'alle sei',
         explanation:
-          'Der erste Filmtermin wird mit sechs Uhr am Abend angegeben. Audioabgleich offen.',
+          'Der erste Filmtermin ist um sechs Uhr am Abend.',
         id: 'q4'
       },
       {
@@ -288,7 +288,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'b',
         explanation:
-          'Laut Mitschrift spielt normalerweise nicht, wer das letzte Training auslässt. Audioabgleich offen.',
+          'Wer das letzte Training auslässt, spielt normalerweise nicht.',
         id: 'q5'
       }
     ]
@@ -348,7 +348,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'c',
         explanation:
-          'Die übermittelte Mitschrift nennt Freundinnen und Sport bei verfügbarer Zeit. Am Audio prüfen.'
+          'Genannt werden Freundinnen und Sport, wenn Zeit ist.'
       },
       {
         id: 'q2',
@@ -356,7 +356,7 @@ const LISTENING_REVIEW_SEEDS = [
         prompt: 'Con le amiche esce a cena.',
         answer: true,
         explanation:
-          'Die übermittelte Mitschrift enthält „usciamo insieme a cena“. Am Audio prüfen.'
+          'Im Text heißt es: „usciamo insieme a cena“.'
       },
       {
         id: 'q3',
@@ -378,7 +378,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'b',
         explanation:
-          'Die übermittelte Mitschrift enthält „corro e vado in bicicletta“. Am Audio prüfen.'
+          'Im Text heißt es: „corro e vado in bicicletta“.'
       }
     ]
   },
@@ -437,7 +437,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'b',
         explanation:
-          'Im Gespräch wird vereinbart: „un piatto principale e un dolce“. Grundlage: übermittelte Mitschrift; Audioabgleich offen.'
+          'Im Gespräch wird vereinbart: „un piatto principale e un dolce“.'
       },
       {
         id: 'q2',
@@ -445,7 +445,7 @@ const LISTENING_REVIEW_SEEDS = [
         prompt: 'Le persone a cena sono in sei in totale.',
         answer: true,
         explanation:
-          'Es wird aufgezählt: Du, ich, Roberto, Marta und zwei Freunde, also insgesamt sechs Personen. Grundlage: übermittelte Mitschrift; Audioabgleich offen.'
+          'Es wird aufgezählt: Du, ich, Roberto, Marta und zwei Freunde, also insgesamt sechs Personen.'
       },
       {
         id: 'q3',
@@ -464,7 +464,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         modelAnswer: 'mezzo chilo',
         explanation:
-          'Auf die Frage der Verkäuferin antworten sie: „Mezzo chilo per favore“. Grundlage: übermittelte Mitschrift; Audioabgleich offen.'
+          'Auf die Frage der Verkäuferin antworten sie: „Mezzo chilo per favore“.'
       },
       {
         type: 'short_answer',
@@ -472,7 +472,7 @@ const LISTENING_REVIEW_SEEDS = [
         acceptedAnswers: ['sei', '6', 'sei uova', '6 uova'],
         modelAnswer: 'sei',
         explanation:
-          'In der übermittelten Mitschrift werden sechs Eier bestellt. Audioabgleich offen.',
+          'Bestellt werden sechs Eier.',
         id: 'q4'
       },
       {
@@ -480,7 +480,7 @@ const LISTENING_REVIEW_SEEDS = [
         prompt: 'I primi biscotti proposti vanno bene per il tiramisù.',
         answer: false,
         explanation:
-          'Laut Mitschrift wird stattdessen eine andere, saugfähigere Sorte empfohlen. Audioabgleich offen.',
+          'Empfohlen wird stattdessen eine andere, saugfähigere Sorte.',
         id: 'q5'
       },
       {
@@ -501,7 +501,7 @@ const LISTENING_REVIEW_SEEDS = [
           }
         ],
         correctOptionId: 'c',
-        explanation: 'Im übermittelten Text heißt es „Ecco 50 euro“. Audioabgleich offen.',
+        explanation: 'Es heißt: „Ecco 50 euro“.',
         id: 'q6'
       },
       {
@@ -517,7 +517,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         modelAnswer: '23 euro e 15 centesimi',
         explanation:
-          'Der Gesamtbetrag wird mit 23 Euro und 15 Cent angegeben. Audioabgleich offen.',
+          'Der Gesamtbetrag ist 23 Euro und 15 Cent.',
         id: 'q7'
       }
     ]
@@ -531,13 +531,13 @@ const LISTENING_REVIEW_SEEDS = [
     language: 'it',
     level: 'B1',
     description:
-      'Interviste su città e luoghi italiani. Ausschnitt laut Gemini 00:00–01:30; Wiedergabe derzeit manuell eingrenzen.',
+      'Interviste su città e luoghi italiani.',
     topics: ['italia', 'viaggi', 'biografia'],
     cover: 'wave',
     estimatedMinutes: 5,
     media: {
       type: 'youtube',
-      videoId: 'dK9KAT5BDBM'
+      videoId: 'dK9KAT5BDBM', start: 0, end: 90
     },
     transcript:
       "[00:04] Quali sono secondo te le città più famose d'Italia all'estero? Beh, Roma, Venezia, Milano e Napoli credo, e anche Firenze.\n[00:12] Io, che sono una che gira parecchio all'estero, mi dicono sempre che le due città principali sono Venezia e Roma.\n[00:18] Però vedo che adesso sta cominciando a prendere piede anche la zona di Napoli e Pompei, e anche Torino a seguito delle Olimpiadi invernali.\n[00:30] Portofino. Sicuramente sì, Portofino, qualcosa in Toscana... tipo, vabbè, la Toscana la pianti [Wortlaut unsicher], sì, Siena.\n[00:42] E poi, secondo me, non è così, poi qualcosa della Sicilia... Ah, no, anche un po'... no, la Puglia, dov'è? La Casa [Wortlaut unsicher], Ostuni, Alberobello.\n[00:48] Io amo la parte amalfitana, dove c'è Amalfi, Positano, è veramente bella, tutte le spiagge con i sassi.\n[01:00] Sì, è una graziosa città ad esempio Udine, Verona, Parma.\n[01:08] Per gli studenti magari in Umbria, Perugia, Urbino, queste città dell'Italia centrale, i piccoli centri.\n[01:21] Si va in Umbria, in Toscana, in queste regioni un po' belle dove si mangia bene, ci sono questa storia bella, i paesaggi.\n[01:26] Quindi da Gubbio, la zona intorno al Lago Trasimeno...\n[01:30] Siena, Volterra, San Gimignano.",
@@ -554,7 +554,7 @@ const LISTENING_REVIEW_SEEDS = [
       'Entwurf für die private Redaktionsvorschau. Transkript, Zeitmarken, Sprecherbezug und jede Lösung sind noch am Originalmedium zu prüfen.',
       'Nutzungsrechte von Medium und Transkript sowie Originalanbieter und Einbettbarkeit offen. Keine Freigabe.',
       'Niveau redaktionell vorläufig eingeschätzt; Übungsdauer geschätzt, keine gemessene Videodauer.',
-      'Ausschnitt laut Gemini; der YouTube-Player begrenzt Beginn und Ende derzeit nicht automatisch. Bitte Zeitbereich selbst ansteuern.'
+      'Ausschnitt (Beginn/Ende im Player gesetzt) stammt aus automatischen Zeitmarken: am Original prüfen.'
     ],
     questions: [
       {
@@ -577,7 +577,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'a',
         explanation:
-          'Der übermittelte Text nennt bekannte Städte und Reiseziele. Audioabgleich offen.'
+          'Genannt werden bekannte Städte und Reiseziele.'
       },
       {
         id: 'q2',
@@ -599,7 +599,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'b',
         explanation:
-          'Bei 00:12 laut Gemini: „le due città principali sono Venezia e Roma“. Audioabgleich offen.'
+          'Bei 00:12: „le due città principali sono Venezia e Roma“.'
       },
       {
         id: 'q3',
@@ -612,7 +612,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         modelAnswer: 'le Olimpiadi invernali',
         explanation:
-          'Bei 00:18 laut Gemini werden die Olympischen Winterspiele genannt. Audioabgleich offen.'
+          'Bei 00:18 werden die Olympischen Winterspiele genannt.'
       },
       {
         type: 'single_choice',
@@ -633,7 +633,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'a',
         explanation:
-          'In der übermittelten Mitschrift wird die Gegend um Amalfi und Positano genannt. Audioabgleich offen.',
+          'Genannt wird die Gegend um Amalfi und Positano.',
         id: 'q4'
       },
       {
@@ -641,7 +641,7 @@ const LISTENING_REVIEW_SEEDS = [
         prompt: 'Le persone parlano soltanto di grandi città, senza citare piccoli centri.',
         answer: false,
         explanation:
-          'Im Text werden auch kleinere Orte wie Gubbio und Orte der Toskana genannt. Audioabgleich offen.',
+          'Genannt werden auch kleinere Orte wie Gubbio und Orte der Toskana.',
         id: 'q5'
       }
     ]
@@ -655,13 +655,13 @@ const LISTENING_REVIEW_SEEDS = [
     language: 'it',
     level: 'A2',
     description:
-      'Persone diverse si presentano. Ausschnitt laut Gemini 00:30–01:28; Wiedergabe derzeit manuell eingrenzen.',
+      'Persone diverse si presentano.',
     topics: ['vita quotidiana', 'lavoro', 'integrazione'],
     cover: 'wave',
     estimatedMinutes: 5,
     media: {
       type: 'youtube',
-      videoId: '91fi6egFsyA'
+      videoId: '91fi6egFsyA', start: 30, end: 88
     },
     transcript:
       '[00:31] Mi chiamo di nome Mina. Sono marocchina di Casablanca. Sono arrivata in Italia nel 2000.\n[00:41] Mi chiamo Carola... ordenes [Wortlaut unsicher] di qua si dice Carola, ma da noi si dice Carola.\n[00:49] Io sono Santiago del Cile. [Wortlaut unsicher]\n[00:51] Mi chiamo Diamante, tutti mi chiamano così, però la vera pronuncia sarebbe [unverständlich], vengo da Lituania e il significato è sempre quello che è Diamante.\n[01:00] Mi chiamo Gislen F. [Wortlaut unsicher] del Marocco.\n[01:06] Quanti anni hai? Ho 28 anni.\n[01:09] Da quanto tempo sei in Italia? Sono qua dal 2009.\n[01:13] Che lavoro fai? Ho fatto sempre la badanti, adesso ho fatto due corsi, sono oss, operatore socio-sanitario.\n[01:22] Faccio lavori sporadici, sono più casalinga che mai.',
@@ -678,7 +678,7 @@ const LISTENING_REVIEW_SEEDS = [
       'Entwurf für die private Redaktionsvorschau. Transkript, Zeitmarken, Sprecherbezug und jede Lösung sind noch am Originalmedium zu prüfen.',
       'Nutzungsrechte von Medium und Transkript sowie Originalanbieter und Einbettbarkeit offen. Keine Freigabe.',
       'Niveau redaktionell vorläufig eingeschätzt; Übungsdauer geschätzt, keine gemessene Videodauer.',
-      'Ausschnitt laut Gemini; der YouTube-Player begrenzt Beginn und Ende derzeit nicht automatisch. Bitte Zeitbereich selbst ansteuern.',
+      'Ausschnitt (Beginn/Ende im Player gesetzt) stammt aus automatischen Zeitmarken: am Original prüfen.',
       'Unklare Eigennamen und Sprecherwechsel. Altersfrage entfernt, da Person nicht zuverlässig identifiziert. Gesprochene Formen im Transkript nicht stillschweigend standardisieren.'
     ],
     questions: [
@@ -702,7 +702,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'a',
         explanation:
-          'Die Personen stellen sich vor und berichten über ihr Leben und ihre Ankunft in Italien. Grundlage: übermittelte Mitschrift; Audioabgleich offen.'
+          'Die Personen stellen sich vor und berichten über ihr Leben und ihre Ankunft in Italien.'
       },
       {
         id: 'q2',
@@ -710,7 +710,7 @@ const LISTENING_REVIEW_SEEDS = [
         prompt: 'Mina è arrivata in Italia nel 2000.',
         answer: true,
         explanation:
-          'Mina sagt im Video: „sono arrivata in Italia nel 2000“. Grundlage: übermittelte Mitschrift; Audioabgleich offen.'
+          'Mina sagt im Video: „sono arrivata in Italia nel 2000“.'
       },
       {
         id: 'q3',
@@ -719,7 +719,7 @@ const LISTENING_REVIEW_SEEDS = [
         acceptedAnswers: ['Casablanca', 'da Casablanca', 'è di Casablanca', 'viene da Casablanca'],
         modelAnswer: 'Casablanca',
         explanation:
-          'Im übermittelten Text stellt sich Mina als Marokkanerin aus Casablanca vor. Audioabgleich offen.'
+          'Mina stellt sich als Marokkanerin aus Casablanca vor.'
       },
       {
         type: 'short_answer',
@@ -727,7 +727,7 @@ const LISTENING_REVIEW_SEEDS = [
         acceptedAnswers: ['2009', 'dal 2009', 'duemilanove', 'dal duemilanove'],
         modelAnswer: 'dal 2009',
         explanation:
-          'Die übermittelte Mitschrift enthält nach dieser Frage „Sono qua dal 2009“. Audioabgleich offen.',
+          'Nach dieser Frage heißt es: „Sono qua dal 2009“.',
         id: 'q4'
       },
       {
@@ -749,7 +749,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'b',
         explanation:
-          'Die übermittelte Mitschrift nennt OSS und löst es als operatore socio-sanitario auf. Audioabgleich offen.',
+          'OSS steht für operatore socio-sanitario.',
         id: 'q5'
       }
     ]
@@ -763,13 +763,13 @@ const LISTENING_REVIEW_SEEDS = [
     language: 'it',
     level: 'B1',
     description:
-      'Un percorso tra alcuni monumenti di Roma. Ausschnitt laut Gemini 00:00–01:45; Wiedergabe derzeit manuell eingrenzen.',
+      'Un percorso tra alcuni monumenti di Roma.',
     topics: ['roma', 'viaggi', 'città'],
     cover: 'wave',
     estimatedMinutes: 7,
     media: {
       type: 'youtube',
-      videoId: 'FaS5AIuXw_E'
+      videoId: 'FaS5AIuXw_E', start: 0, end: 105
     },
     transcript:
       "[00:02] La monumentale scalinata di Trinità dei Monti, con i suoi 135 gradini, collega una delle piazze principali di Roma, Piazza di Spagna, con la chiesa francescana di Trinità dei Monti.\n[00:35] Dall'alto della chiesa di Trinità dei Monti si possono ammirare le affollate vie centrali della città, le fontane di Piazza di Spagna, le numerose cupole, i tetti e gli alti balconi.\n[00:53] Uno dei simboli di Roma: la settecentesca Fontana di Trevi, che unisce classicismo e barocco, è stata recentemente restaurata.\n[01:10] La leggenda dice che se un turista lancia una moneta voltato di spalle, ritornerà di sicuro a visitare la città eterna.\n[01:22] Il più bel resto dell'antichità romana è il Pantheon.\n[01:39] Piazza Navona è una delle più celebri piazze della città.",
@@ -786,7 +786,7 @@ const LISTENING_REVIEW_SEEDS = [
       'Entwurf für die private Redaktionsvorschau. Transkript, Zeitmarken, Sprecherbezug und jede Lösung sind noch am Originalmedium zu prüfen.',
       'Nutzungsrechte von Medium und Transkript sowie Originalanbieter und Einbettbarkeit offen. Keine Freigabe.',
       'Niveau redaktionell vorläufig eingeschätzt; Übungsdauer geschätzt, keine gemessene Videodauer.',
-      'Ausschnitt laut Gemini; der YouTube-Player begrenzt Beginn und Ende derzeit nicht automatisch. Bitte Zeitbereich selbst ansteuern.'
+      'Ausschnitt (Beginn/Ende im Player gesetzt) stammt aus automatischen Zeitmarken: am Original prüfen.'
     ],
     questions: [
       {
@@ -809,7 +809,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'a',
         explanation:
-          'Der übermittelte Text beschreibt mehrere Denkmäler und Plätze. Audioabgleich offen.'
+          'Beschrieben werden mehrere Denkmäler und Plätze.'
       },
       {
         id: 'q2',
@@ -817,14 +817,14 @@ const LISTENING_REVIEW_SEEDS = [
         prompt: 'Quanti gradini ha la scalinata descritta?',
         acceptedAnswers: ['135', 'centotrentacinque', '135 gradini', 'centotrentacinque gradini'],
         modelAnswer: '135',
-        explanation: 'Bei 00:02 laut Gemini werden 135 Stufen genannt. Audioabgleich offen.'
+        explanation: 'Bei 00:02 werden 135 Stufen genannt.'
       },
       {
         id: 'q3',
         type: 'true_false',
         prompt: 'Secondo la leggenda, chi lancia una moneta nella fontana tornerà a Roma.',
         answer: true,
-        explanation: 'Bei 01:10 laut Gemini wird die Rückkehrlegende erklärt. Audioabgleich offen.'
+        explanation: 'Bei 01:10 wird die Legende von der Rückkehr nach Rom erklärt.'
       },
       {
         id: 'q4',
@@ -832,14 +832,14 @@ const LISTENING_REVIEW_SEEDS = [
         prompt: 'Quale monumento antico viene nominato dopo la Fontana di Trevi?',
         acceptedAnswers: ['il Pantheon', 'Pantheon'],
         modelAnswer: 'il Pantheon',
-        explanation: 'Bei 01:22 laut Gemini folgt der Pantheon. Audioabgleich offen.'
+        explanation: 'Bei 01:22 folgt das Pantheon.'
       },
       {
         type: 'short_answer',
         prompt: 'Quale piazza collega la scalinata alla chiesa di Trinità dei Monti?',
         acceptedAnswers: ['Piazza di Spagna', 'la Piazza di Spagna', 'piazza Spagna'],
         modelAnswer: 'Piazza di Spagna',
-        explanation: 'Der übermittelte Text nennt Piazza di Spagna. Audioabgleich offen.',
+        explanation: 'Genannt wird die Piazza di Spagna.',
         id: 'q5'
       },
       {
@@ -848,7 +848,7 @@ const LISTENING_REVIEW_SEEDS = [
           'Secondo la leggenda, il turista lancia la moneta guardando direttamente la fontana.',
         answer: false,
         explanation:
-          'Im Text wird die Münze mit dem Rücken zur Fontana di Trevi geworfen. Audioabgleich offen.',
+          'Die Münze wirft man mit dem Rücken zur Fontana di Trevi.',
         id: 'q6'
       }
     ]
@@ -907,7 +907,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'a',
         explanation:
-          "Die Person fragt nach dem Weg zur Station („dov'è la stazione“). Grundlage: übermittelte Mitschrift; Audioabgleich offen."
+          "Die Person fragt nach dem Weg zum Bahnhof („dov'è la stazione“)."
       },
       {
         id: 'q2',
@@ -915,7 +915,7 @@ const LISTENING_REVIEW_SEEDS = [
         prompt: 'La risposta indica di andare prima dritto e poi a sinistra.',
         answer: true,
         explanation:
-          'Die Anweisung lautet: „vai dritto e poi gira a sinistra“. Grundlage: übermittelte Mitschrift; Audioabgleich offen.'
+          'Die Anweisung lautet: „vai dritto e poi gira a sinistra“.'
       }
     ]
   },
@@ -1012,7 +1012,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'a',
         explanation:
-          'The supplied text distinguishes energy used for products from direct energy use. Audioabgleich offen.',
+          'The talk distinguishes energy used to make products from energy we use directly.',
         id: 'q4'
       },
       {
@@ -1021,7 +1021,7 @@ const LISTENING_REVIEW_SEEDS = [
           'The video says recycling reduces emissions more than changing how we travel and heat our homes.',
         answer: false,
         explanation:
-          'The supplied text gives transport and heating/cooling a greater impact than recycling. Audioabgleich offen.',
+          'Transport and heating/cooling have a greater impact than recycling.',
         id: 'q5'
       },
       {
@@ -1029,7 +1029,7 @@ const LISTENING_REVIEW_SEEDS = [
         prompt: 'Which greenhouse gas do cows produce, according to the video?',
         acceptedAnswers: ['methane'],
         modelAnswer: 'methane',
-        explanation: 'The supplied text names methane. Audioabgleich offen.',
+        explanation: 'The gas named is methane.',
         id: 'q6'
       },
       {
@@ -1051,7 +1051,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'b',
         explanation:
-          'The supplied text distinguishes production figures from consumption. Audioabgleich offen.',
+          'The talk distinguishes production figures from consumption.',
         id: 'q7'
       },
       {
@@ -1059,7 +1059,7 @@ const LISTENING_REVIEW_SEEDS = [
         prompt:
           'The video presents carbon neutrality as a change that requires only minor adjustments to daily life.',
         answer: false,
-        explanation: 'The ending describes major changes to lifestyles. Audioabgleich offen.',
+        explanation: 'The ending describes major changes to lifestyles.',
         id: 'q8'
       }
     ]
@@ -1148,7 +1148,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'b',
         explanation:
-          'The supplied transcript describes Benny’s early conversations and willingness to make mistakes. Audioabgleich offen.',
+          'Benny speaks from day one and does not mind making mistakes.',
         id: 'q3'
       },
       {
@@ -1170,7 +1170,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'c',
         explanation:
-          'The supplied transcript describes copying messages between two conversations. Audioabgleich offen.',
+          'Lucas copied messages between two chat conversations.',
         id: 'q4'
       },
       {
@@ -1182,7 +1182,7 @@ const LISTENING_REVIEW_SEEDS = [
           'the Spanish translation of Harry Potter'
         ],
         modelAnswer: 'Harry Potter',
-        explanation: 'The supplied transcript identifies Harry Potter. Audioabgleich offen.',
+        explanation: 'She read Harry Potter in Spanish.',
         id: 'q5'
       },
       {
@@ -1190,7 +1190,7 @@ const LISTENING_REVIEW_SEEDS = [
         prompt: 'The speaker understood the German sitcom easily from the first episode.',
         answer: false,
         explanation:
-          'She describes initially being unable to distinguish the words. Audioabgleich offen.',
+          'At first she could not tell where one word ended and the next began.',
         id: 'q6'
       },
       {
@@ -1212,7 +1212,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'a',
         explanation:
-          'The supplied transcript contrasts immediate memorisation with repeated revision over time. Audioabgleich offen.',
+          'Cramming for tomorrow fades; revising over several days (spaced repetition) lasts.',
         id: 'q7'
       },
       {
@@ -1221,7 +1221,7 @@ const LISTENING_REVIEW_SEEDS = [
           'Which learning technique does she suggest for someone not ready to speak to others?',
         acceptedAnswers: ['self-talk', 'self talk', 'talking to yourself', 'speaking to yourself'],
         modelAnswer: 'self-talk',
-        explanation: 'The supplied transcript recommends speaking to oneself. Audioabgleich offen.',
+        explanation: 'She recommends self-talk: speaking to yourself.',
         id: 'q8'
       },
       {
@@ -1229,7 +1229,7 @@ const LISTENING_REVIEW_SEEDS = [
         prompt: 'The speaker says enjoyment alone is enough to achieve fluency.',
         answer: false,
         explanation:
-          'She introduces effective methods, a system and patience in addition to enjoyment. Audioabgleich offen.',
+          'Besides enjoyment: effective methods, a system and patience.',
         id: 'q9'
       },
       {
@@ -1251,7 +1251,7 @@ const LISTENING_REVIEW_SEEDS = [
         ],
         correctOptionId: 'c',
         explanation:
-          'Their later progress is contrasted with difficulties learning languages at school. Audioabgleich offen.',
+          'Both struggled with languages at school before finding their own way.',
         id: 'q10'
       }
     ]

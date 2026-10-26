@@ -46,7 +46,7 @@ const plural = (n, one, many) => n + ' ' + (n === 1 ? one : many);
 
 /* Interne Herkunfts- und Prüfhinweise gehören nicht in sichtbare Beschreibungen und Erklärungen. */
 const INTERNAL_NOTE =
-  /Gemini|Audioabgleich|am Audio prüfen|Abgleich mit der Aufnahme|Wiedergabe derzeit manuell|Grundlage: übermittelte Mitschrift/i;
+  /Gemini|Audioabgleich|am Audio prüfen|Abgleich mit der Aufnahme|Wiedergabe derzeit manuell|Grundlage: übermittelte Mitschrift|Rechte prüfen|übermittelt/i;
 function visibleText(text) {
   const original = String(text || '').trim();
   const kept = original
@@ -86,7 +86,7 @@ function lessonStatus(x) {
 function lessonCard(x) {
   const st = lessonStatus(x);
   const teacher = isTeacher();
-  const working = isWorkingLesson(x);
+  const working = teacher && isWorkingLesson(x);
   const action = teacher
     ? 'Material ansehen'
     : st.done
@@ -298,7 +298,7 @@ function filteredLessons() {
       (f.level === 'all' || x.level === f.level) &&
       (!f.media || f.media === 'all' || mediaKind(x) === f.media) &&
       (!f.series || x.series === f.series) &&
-      !(f.hideWorking && isWorkingLesson(x)) &&
+      !(f.hideWorking && isTeacher() && isWorkingLesson(x)) &&
       (x.title + ' ' + x.description + ' ' + x.topics.join(' '))
         .toLocaleLowerCase()
         .includes(f.query.toLocaleLowerCase())
@@ -340,7 +340,7 @@ function listeningCatalog() {
   const languages = Object.entries(TheisContent.LANGUAGES).filter(([k]) =>
     all.some(x => x.language === k)
   );
-  const working = all.filter(isWorkingLesson).length;
+  const working = isTeacher() ? all.filter(isWorkingLesson).length : 0;
   $('main').innerHTML = `<div class="page">
     <header class="page-head">
       <div class="eyebrow">${teacher ? 'Hörmaterial für den Unterricht' : 'Hörverstehen'}</div>
@@ -577,14 +577,17 @@ function toolsHTML(x, state, preview) {
         `<p>${esc(teacher ? s.citation : visibleText(s.citation))}${s.url ? ` <a href="${esc(s.url)}" target="_blank" rel="noopener">Originalquelle</a>` : ''}</p>`
     )
     .join('');
-  return `<section class="tool-card"><div class="eyebrow">Passend dazu</div><h3>Wörter zu dieser Übung</h3>${
-    hasWords
-      ? `<p>Bereite dich mit Wortschatz vor oder wiederhole nach dem Hören.</p><button class="button secondary" data-portal="related-words">Wörter ansehen${x.vocabulary?.length ? ' · ' + x.vocabulary.length : ''}</button>`
-      : '<p class="muted">Zu dieser Übung gibt es noch keine Wortliste.</p>'
-  }</section>
-  <details class="tool-card listen-transcript" ${state.transcriptOpened || (teacher && x.transcript) ? 'open' : ''}><summary>Transkript</summary>
-    ${label ? `<div class="origin-line"><span class="flag">${esc(label)}</span>${isWorkingLesson(x) ? '<span class="flag">Nicht am Audio geprüft</span>' : ''}</div>` : ''}
-    <p class="transcript-text" lang="${x.language}">${esc(transcriptForDisplay(x.transcript) || 'Für diese Übung ist noch kein Transkript hinterlegt.')}</p></details>
+  // Leere Karten zeigen wir nicht: keine Wortliste, kein Transkript (für Lernende) → keine Karte.
+  const words = hasWords
+    ? `<section class="tool-card"><div class="eyebrow">Passend dazu</div><h3>Wörter zu dieser Übung</h3><p>Bereite dich mit Wortschatz vor oder wiederhole nach dem Hören.</p><button class="button secondary" data-portal="related-words">Wörter ansehen${x.vocabulary?.length ? ' · ' + x.vocabulary.length : ''}</button></section>`
+    : '';
+  const transcript =
+    teacher || transcriptForDisplay(x.transcript)
+      ? `<details class="tool-card listen-transcript" ${state.transcriptOpened || (teacher && x.transcript) ? 'open' : ''}><summary>Transkript</summary>
+    ${label ? `<div class="origin-line"><span class="flag">${esc(label)}</span>${teacher && isWorkingLesson(x) ? '<span class="flag">Nicht am Audio geprüft</span>' : ''}</div>` : ''}
+    <p class="transcript-text" lang="${x.language}">${esc(transcriptForDisplay(x.transcript) || 'Für diese Übung ist noch kein Transkript hinterlegt.')}</p></details>`
+      : '';
+  return `${words}${transcript}
   <details class="tool-card listen-sources"><summary>Quelle und Hinweise</summary>${sources}${teacher ? x.reviewNotes.map(t => `<p class="muted">${esc(t)}</p>`).join('') : ''}</details>`;
 }
 
@@ -620,7 +623,7 @@ function renderListening(preview = false) {
   const teacher = isTeacher();
   const count = x.questions.filter(q => String(state.answers[q.id] ?? '').trim()).length;
   $('breadcrumb').textContent = 'Hörverstehen · ' + x.title;
-  const working = isWorkingLesson(x);
+  const working = teacher && isWorkingLesson(x);
   $('main').innerHTML = `<div class="page lesson-page">
     ${EMBED ? '' : '<button class="quiet back-link" data-nav="hoeren">Alle Hörübungen</button>'}
     ${working ? `<div class="draftbar"><b>Arbeitsfassung</b><span>Aufgaben, Transkript und Nutzungsrechte sind noch nicht abschließend geprüft.${!x.transcript && !x.series ? ' Das Transkript fehlt noch.' : ''}</span>${teacher ? '<button class="quiet" data-nav="redaktion">In der Redaktion öffnen</button>' : ''}</div>` : ''}

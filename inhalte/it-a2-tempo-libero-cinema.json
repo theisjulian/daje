@@ -52,14 +52,14 @@
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Die übermittelte Mitschrift enthält die Einladung „vieni al cinema con noi oggi?“. Am Audio prüfen. Audioabgleich offen."
+      "explanation": "Die Einladung lautet: „vieni al cinema con noi oggi?“"
     },
     {
       "id": "q2",
       "type": "true_false",
       "prompt": "Paolo ha un allenamento quel giorno.",
       "answer": true,
-      "explanation": "Laut übermitteltem Text bestätigt Paolo das Training. Am Audio prüfen. Audioabgleich offen."
+      "explanation": "Paolo bestätigt das Training."
     },
     {
       "id": "q3",
@@ -69,7 +69,7 @@
         "Orlando Bloom"
       ],
       "modelAnswer": "Orlando Bloom",
-      "explanation": "Die übermittelte Mitschrift nennt Orlando Bloom. Am Audio prüfen. Audioabgleich offen."
+      "explanation": "Genannt wird Orlando Bloom."
     },
     {
       "type": "short_answer",
@@ -85,7 +85,7 @@
         "sei"
       ],
       "modelAnswer": "alle sei",
-      "explanation": "Der erste Filmtermin wird mit sechs Uhr am Abend angegeben. Audioabgleich offen.",
+      "explanation": "Der erste Filmtermin ist um sechs Uhr am Abend.",
       "id": "q4"
     },
     {
@@ -106,7 +106,7 @@
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Laut Mitschrift spielt normalerweise nicht, wer das letzte Training auslässt. Audioabgleich offen.",
+      "explanation": "Wer das letzte Training auslässt, spielt normalerweise nicht.",
       "id": "q5"
     }
   ]

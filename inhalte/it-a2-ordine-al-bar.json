@@ -51,14 +51,14 @@
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Laut übermittelter Mitschrift sagt die Person „un caffè da portare via“. Am Audio prüfen. Audioabgleich offen."
+      "explanation": "Die Person sagt „un caffè da portare via“."
     },
     {
       "id": "q2",
       "type": "true_false",
       "prompt": "Il cliente vuole bere il caffè nel locale.",
       "answer": false,
-      "explanation": "Der übermittelte Text enthält „Non bevo il caffè qui“. Am Audio prüfen. Audioabgleich offen."
+      "explanation": "Im Dialog heißt es: „Non bevo il caffè qui“."
     },
     {
       "id": "q3",
@@ -70,7 +70,7 @@
         "una bustina"
       ],
       "modelAnswer": "una bustina di zucchero",
-      "explanation": "Im übermittelten Text wird ein Zuckerpäckchen genannt. Die Frage vermeidet eine ungeprüfte Sprecherzuordnung. Am Audio prüfen. Audioabgleich offen."
+      "explanation": "Am Ende wird ein Zuckerpäckchen genannt."
     },
     {
       "type": "short_answer",
@@ -82,7 +82,7 @@
         "caffe"
       ],
       "modelAnswer": "un caffè",
-      "explanation": "Der übermittelte Text nennt die Bestellung eines Kaffees. Akzentlose Schreibweise hier ausdrücklich als Inhaltsantwort zugelassen. Audioabgleich offen.",
+      "explanation": "Bestellt wird ein Kaffee. Auch „caffe“ ohne Akzent zählt hier.",
       "id": "q4"
     }
   ]

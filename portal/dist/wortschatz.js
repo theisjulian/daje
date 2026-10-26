@@ -1,6 +1,7 @@
 /* Wortschatz: Übersicht nach Büchern und Themenlisten, darin „Nach Lektion“ oder „Nach Seiten“.
    Neue Bücher oder einzelne Listen (z. B. „Politik Oberstufe“) erscheinen automatisch als eigene Karte. */
 let wsSynth = null;
+let wsBook = { get: () => null, set() {} };
 {
   const ws = { coll: null, mode: 'lesson', sel: new Set(), from: '', to: '', cum: true, opt: true };
   const baseContentList = contentList;
@@ -205,6 +206,14 @@ let wsSynth = null;
   }
 
   vocabularyLibrary = render;
+  // Für verlauf.js: geöffnetes Buch lesen und (beim Zurückgehen) wiederherstellen.
+  wsBook = {
+    get: () => ws.coll,
+    set(coll) {
+      if (coll === ws.coll) return;
+      Object.assign(ws, { coll, mode: 'lesson', sel: new Set(), from: '', to: '' });
+    }
+  };
 
   document.addEventListener('click', e => {
     const closer = e.target.closest('[data-portal="close-print"]');

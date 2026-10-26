@@ -1044,10 +1044,10 @@ const UI_ROWS_EXTRA = [
 "Leggi le spiegazioni sotto le domande. Se vuoi, riprova."
 ],
 [
-"{n} von {n} Antworten erkannt. Ergebnis lokal gespeichert.",
-"{n} risposte su {n} riconosciute. Risultato salvato in locale.",
-"{n} of {n} answers recognised. Result saved locally.",
-"{n} réponses sur {n} reconnues. Résultat enregistré localement.",
+"{n} von {n} richtig. Ergebnis gespeichert.",
+"{n} su {n} giuste. Risultato salvato.",
+"{n} of {n} correct. Result saved.",
+"{n} sur {n} justes. Résultat enregistré.",
 "{n} risposte giuste su {n}. Risultato salvato qui."
 ],
 [

@@ -89,14 +89,14 @@
         }
       ],
       "correctOptionId": "a",
-      "explanation": "The supplied text distinguishes energy used for products from direct energy use. Audioabgleich offen.",
+      "explanation": "The talk distinguishes energy used to make products from energy we use directly.",
       "id": "q4"
     },
     {
       "type": "true_false",
       "prompt": "The video says recycling reduces emissions more than changing how we travel and heat our homes.",
       "answer": false,
-      "explanation": "The supplied text gives transport and heating/cooling a greater impact than recycling. Audioabgleich offen.",
+      "explanation": "Transport and heating/cooling have a greater impact than recycling.",
       "id": "q5"
     },
     {
@@ -106,7 +106,7 @@
         "methane"
       ],
       "modelAnswer": "methane",
-      "explanation": "The supplied text names methane. Audioabgleich offen.",
+      "explanation": "The gas named is methane.",
       "id": "q6"
     },
     {
@@ -127,14 +127,14 @@
         }
       ],
       "correctOptionId": "b",
-      "explanation": "The supplied text distinguishes production figures from consumption. Audioabgleich offen.",
+      "explanation": "The talk distinguishes production figures from consumption.",
       "id": "q7"
     },
     {
       "type": "true_false",
       "prompt": "The video presents carbon neutrality as a change that requires only minor adjustments to daily life.",
       "answer": false,
-      "explanation": "The ending describes major changes to lifestyles. Audioabgleich offen.",
+      "explanation": "The ending describes major changes to lifestyles.",
       "id": "q8"
     }
   ]

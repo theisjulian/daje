@@ -1806,3 +1806,8 @@ body.previewing-teaching #teaching-print {
 .learn-note ul { margin: 6px 0 0; padding-left: 20px; }
 .learn-note li { margin: 4px 0; }
 .learn-note small { display: block; margin-top: 8px; opacity: .6; }
+
+/* Redaktion ist ein Werkzeug für Lehrkräfte: Lernende sehen keinen Zugang. */
+html:not([data-audience='teach']) [data-nav='redaktion'] {
+  display: none !important;
+}

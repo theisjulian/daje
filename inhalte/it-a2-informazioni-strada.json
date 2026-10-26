@@ -52,14 +52,14 @@
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Die Person fragt nach dem Weg zur Station („dov'è la stazione“). Grundlage: übermittelte Mitschrift; Audioabgleich offen."
+      "explanation": "Die Person fragt nach dem Weg zum Bahnhof („dov'è la stazione“)."
     },
     {
       "id": "q2",
       "type": "true_false",
       "prompt": "La risposta indica di andare prima dritto e poi a sinistra.",
       "answer": true,
-      "explanation": "Die Anweisung lautet: „vai dritto e poi gira a sinistra“. Grundlage: übermittelte Mitschrift; Audioabgleich offen."
+      "explanation": "Die Anweisung lautet: „vai dritto e poi gira a sinistra“."
     }
   ]
 }
