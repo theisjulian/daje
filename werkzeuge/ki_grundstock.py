@@ -8,7 +8,8 @@ und jede Lösung lässt sich automatisch am Transkript belegen.
 Schritte (im Ordner daje ausführen):
   python3 werkzeuge/ki_grundstock.py transkripte werkzeuge/videos.csv   # Transkripte von YouTube holen
   python3 werkzeuge/ki_grundstock.py hoeren werkzeuge/videos.csv --anbieter claude   # per API erzeugen
-  python3 werkzeuge/ki_grundstock.py chat werkzeuge/videos.csv           # ohne API: Aufträge für den Chat
+  python3 werkzeuge/ki_grundstock.py stapel werkzeuge/videos.csv         # ohne API: über die Zwischenablage mit dem Chat
+  python3 werkzeuge/ki_grundstock.py chat werkzeuge/videos.csv           # ohne API: Aufträge als Dateien
   python3 werkzeuge/ki_grundstock.py einlesen werkzeuge/videos.csv       # Chat-Antworten einlesen
   python3 werkzeuge/ki_grundstock.py uebernehmen ID [ID …]               # geprüfte Entwürfe in den Grundstock
 
@@ -121,6 +122,8 @@ def eingaben(z):
 
 
 def node(*args):
+    if not shutil.which("node"):
+        sys.exit("Node.js fehlt: einmal von https://nodejs.org installieren (LTS), dann erneut starten.")
     r = subprocess.run(["node", str(PAKET), *map(str, args)], capture_output=True, text=True, cwd=ROOT)
     if r.returncode:
         sys.exit("ki_paket.cjs: " + r.stderr.strip())
@@ -337,6 +340,56 @@ def chat(args):
         print(f"  Auftrag: werkzeuge/auftraege/{inp['id']}.txt  →  Antwort speichern als werkzeuge/antworten/{inp['id']}.txt")
 
 
+def ablage(text=None):
+    """Zwischenablage lesen (text=None) oder schreiben. Mac: pbcopy/pbpaste, Linux: xclip."""
+    if shutil.which("pbcopy"):
+        cmd = ["pbcopy"] if text is not None else ["pbpaste"]
+    elif shutil.which("xclip"):
+        cmd = ["xclip", "-selection", "clipboard"] + ([] if text is not None else ["-o"])
+    else:
+        sys.exit("Keine Zwischenablage gefunden. Stattdessen: Befehl „chat“ (Aufträge als Dateien).")
+    r = subprocess.run(cmd, input=text, capture_output=True, text=True)
+    return r.stdout
+
+
+def stapel(args):
+    """Ohne API, über die Zwischenablage: Auftrag kopieren → im Chat einfügen → Antwort kopieren → Enter."""
+    ANTWORTEN.mkdir(parents=True, exist_ok=True)
+    ENTWUERFE.mkdir(parents=True, exist_ok=True)
+    offen = [z for z in zeilen(args.csv) if bereit(z)]
+    if not offen:
+        return print("Nichts zu tun: alle Videos haben schon einen Entwurf oder es fehlen Transkripte.")
+    if args.chat and shutil.which("open"):
+        subprocess.run(["open", args.chat])
+    print(f"\n{len(offen)} Videos. Am besten für jedes Video einen neuen Chat beginnen.")
+    ergebnis = []
+    for n, z in enumerate(offen, 1):
+        inp = eingaben(z)
+        text = auftrag(inp)
+        ablage(text)
+        print(f"\n[{n}/{len(offen)}] {inp['id']}: Auftrag ist in der Zwischenablage.")
+        while True:
+            a = input("  Im Chat einfügen, Antwort kopieren, dann Enter (ü = überspringen, q = beenden): ").strip().lower()
+            if a in ("q", "x"):
+                return bericht(ergebnis)
+            if a in ("ü", "s", "u"):
+                break
+            antwort = ablage()
+            if antwort.strip() == text.strip() or "{" not in antwort:
+                print("  In der Zwischenablage steht noch keine Antwort mit JSON. Bitte die Antwort der KI kopieren.")
+                continue
+            (ANTWORTEN / f"{inp['id']}.txt").write_text(antwort, encoding="utf8")
+            e = bauen(z, antwort)
+            print(f"  → {e['status']}, {e['aufgaben']} Aufgaben, Belege {e['belege']}" + (f" · {e['hinweise']}" if e["hinweise"] else ""))
+            if e["status"] == "FEHLER" and not e["aufgaben"]:
+                ablage(text)
+                print("  Nicht lesbar. Auftrag liegt wieder in der Zwischenablage: KI bitten, nur den JSON-Block auszugeben, oder neu versuchen.")
+                continue
+            ergebnis.append(e)
+            break
+    bericht(ergebnis)
+
+
 def einlesen(args):
     ergebnis = []
     for z in zeilen(args.csv):
@@ -363,9 +416,11 @@ def main():
     schluessel_laden()
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="befehl", required=True)
-    for name in ("transkripte", "hoeren", "chat", "einlesen"):
+    for name in ("transkripte", "hoeren", "stapel", "chat", "einlesen"):
         p = sub.add_parser(name)
         p.add_argument("csv")
+        if name == "stapel":
+            p.add_argument("--chat", default="https://gemini.google.com/app", help="Chat-Seite, die zu Beginn geöffnet wird (leer = keine)")
         if name == "hoeren":
             p.add_argument("--anbieter", choices=ANBIETER, default="claude")
             p.add_argument("--modell", help="Modellname; Komma-Liste = Ausweichmodelle")
@@ -375,7 +430,7 @@ def main():
     p = sub.add_parser("uebernehmen")
     p.add_argument("ids", nargs="+")
     args = ap.parse_args()
-    {"transkripte": transkripte, "hoeren": hoeren, "chat": chat, "einlesen": einlesen, "uebernehmen": uebernehmen}[args.befehl](args)
+    {"transkripte": transkripte, "hoeren": hoeren, "stapel": stapel, "chat": chat, "einlesen": einlesen, "uebernehmen": uebernehmen}[args.befehl](args)
 
 
 if __name__ == "__main__":
