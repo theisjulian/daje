@@ -1,3 +1,5 @@
+> **Aktuelle Übergabe: siehe `UEBERGABE-OPUS.md` (Stand 26.10.2026). Dieser Text ist älter.**
+
 # ripassà. vollständige Projektübergabe
 
 Stand 25. Oktober 2026. Dieses Paket enthält den vollständigen vorhandenen Portalquellcode, lokale Assets, Tests, aktuelle Inhaltsdaten, interne KI-Anleitungen und die Projektdatei Version 3 mit 23 Seiten. Es ist zum Weiterarbeiten mit Claude oder einer anderen Entwicklungsumgebung gedacht.
