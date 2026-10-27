@@ -3,10 +3,10 @@
   "schemaVersion": "1.2",
   "kind": "listening",
   "id": "it-demo-weitere-typen",
-  "title": "Un pomeriggio a Torino · weitere Aufgabentypen",
+  "title": "Un pomeriggio a Torino · Aufgabentypen und Hördurchgänge",
   "language": "it",
   "level": "A2",
-  "description": "Beispiel für die neun weiteren Aufgabenformate an einem kurzen Dialog.",
+  "description": "Beispiel für weitere Aufgabenformate und den Aufbau vom globalen zum genauen Hören.",
   "topics": [
     "città",
     "gelato"
@@ -29,23 +29,9 @@
   "transcriptOrigin": "own",
   "questions": [
     {
-      "id": "n1",
-      "type": "true_false_ng",
-      "prompt": "Durante l’ascolto: Luca ha fame.",
-      "answer": "true",
-      "explanation": "Luca sagt: „Io ho fame.“"
-    },
-    {
-      "id": "n2",
-      "type": "true_false_ng",
-      "prompt": "Durante l’ascolto: Sofia ha un cane.",
-      "answer": "not_given",
-      "explanation": "Über ein Haustier wird nichts gesagt."
-    },
-    {
       "id": "n3",
       "type": "word_select",
-      "prompt": "Durante l’ascolto: Quali parole senti?",
+      "prompt": "Primo ascolto: Quali parole senti?",
       "options": [
         {
           "id": "a",
@@ -90,9 +76,23 @@
       "explanation": "Nicht vorkommen: stazione, fragola, autobus."
     },
     {
+      "id": "n1",
+      "type": "true_false_ng",
+      "prompt": "Primo ascolto: Sofia e Luca sono amici.",
+      "answer": "true",
+      "explanation": "Sofia nennt Luca „il mio amico“."
+    },
+    {
+      "id": "n2",
+      "type": "true_false_ng",
+      "prompt": "Primo ascolto: Sofia ha un cane.",
+      "answer": "not_given",
+      "explanation": "Über ein Haustier wird nichts gesagt."
+    },
+    {
       "id": "n4",
       "type": "gap_choice",
-      "prompt": "Durante l’ascolto: Scegli la parola giusta.",
+      "prompt": "Secondo ascolto: Scegli la parola giusta.",
       "text": "Sofia incontra Luca alle [[g1]] e prende un gelato al [[g2]].",
       "gaps": [
         {
@@ -119,7 +119,7 @@
     {
       "id": "n5",
       "type": "note_fill",
-      "prompt": "Durante l’ascolto: Completa gli appunti.",
+      "prompt": "Secondo ascolto: Completa gli appunti.",
       "text": "Incontro: Piazza [[g1]]\nOra: alle [[g2]]\nDopo il gelato: al [[g3]]",
       "gaps": [
         {
@@ -147,7 +147,7 @@
     {
       "id": "n6",
       "type": "table_fill",
-      "prompt": "Durante l’ascolto: Completa la tabella.",
+      "prompt": "Secondo ascolto: Completa la tabella.",
       "columns": [
         "Persona",
         "Gelato",
@@ -190,7 +190,7 @@
     {
       "id": "n8",
       "type": "speaker_match",
-      "prompt": "Durante l’ascolto: Chi lo dice?",
+      "prompt": "Secondo ascolto: Chi lo dice?",
       "categories": [
         {
           "id": "sofia",
@@ -224,6 +224,110 @@
         }
       ],
       "explanation": "Luca hat Hunger und schlägt den Park vor; Sofia nimmt Zitrone und geht um sechs."
+    },
+    {
+      "id": "n11",
+      "type": "gap_fill",
+      "prompt": "Terzo ascolto: Completa il testo con le parole del riquadro.",
+      "text": "Sofia abita a [[g1]]. Oggi incontra Luca in Piazza [[g2]]. Luca ha [[g3]] e vanno in [[g4]].",
+      "gaps": [
+        {
+          "id": "g1",
+          "acceptedAnswers": [
+            "Torino"
+          ]
+        },
+        {
+          "id": "g2",
+          "acceptedAnswers": [
+            "Castello"
+          ]
+        },
+        {
+          "id": "g3",
+          "acceptedAnswers": [
+            "fame"
+          ]
+        },
+        {
+          "id": "g4",
+          "acceptedAnswers": [
+            "gelateria"
+          ]
+        }
+      ],
+      "wordBank": true,
+      "extraWords": [
+        "Milano",
+        "sete"
+      ],
+      "explanation": "Torino, Piazza Castello, Luca hat Hunger, sie gehen in die Eisdiele."
+    },
+    {
+      "id": "n12",
+      "type": "sentence_completion",
+      "prompt": "Terzo ascolto: Completa le frasi.",
+      "items": [
+        {
+          "id": "z1",
+          "start": "Sofia e Luca si incontrano",
+          "acceptedAnswers": [
+            "Piazza Castello",
+            "in piazza"
+          ],
+          "modelAnswer": "in Piazza Castello alle quattro."
+        },
+        {
+          "id": "z2",
+          "start": "Dopo il gelato vanno",
+          "acceptedAnswers": [
+            "parco"
+          ],
+          "modelAnswer": "al parco a piedi."
+        },
+        {
+          "id": "z3",
+          "start": "Sofia torna a casa",
+          "acceptedAnswers": [
+            "sei",
+            "6"
+          ],
+          "modelAnswer": "alle sei."
+        }
+      ],
+      "explanation": "Treffpunkt, danach der Park, Rückkehr um sechs."
+    },
+    {
+      "id": "n7",
+      "type": "error_correction",
+      "prompt": "Terzo ascolto: Correggi il riassunto.",
+      "text": "Sofia abita a [[e1]]. Dopo il gelato vanno al parco in [[e2]] e Sofia torna a casa alle [[e3]].",
+      "errors": [
+        {
+          "id": "e1",
+          "wrong": "Milano",
+          "acceptedAnswers": [
+            "Torino"
+          ]
+        },
+        {
+          "id": "e2",
+          "wrong": "autobus",
+          "acceptedAnswers": [
+            "a piedi",
+            "piedi"
+          ]
+        },
+        {
+          "id": "e3",
+          "wrong": "otto",
+          "acceptedAnswers": [
+            "sei",
+            "6"
+          ]
+        }
+      ],
+      "explanation": "Torino, zu Fuß, um sechs."
     },
     {
       "id": "n9",
@@ -266,38 +370,6 @@
           "category": "luogo"
         }
       ]
-    },
-    {
-      "id": "n7",
-      "type": "error_correction",
-      "prompt": "Dopo l’ascolto: Correggi il riassunto.",
-      "text": "Sofia abita a [[e1]]. Dopo il gelato vanno al parco in [[e2]] e Sofia torna a casa alle [[e3]].",
-      "errors": [
-        {
-          "id": "e1",
-          "wrong": "Milano",
-          "acceptedAnswers": [
-            "Torino"
-          ]
-        },
-        {
-          "id": "e2",
-          "wrong": "autobus",
-          "acceptedAnswers": [
-            "a piedi",
-            "piedi"
-          ]
-        },
-        {
-          "id": "e3",
-          "wrong": "otto",
-          "acceptedAnswers": [
-            "sei",
-            "6"
-          ]
-        }
-      ],
-      "explanation": "Torino, zu Fuß, um sechs."
     },
     {
       "id": "n10",

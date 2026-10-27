@@ -446,6 +446,8 @@ function solutionText(q) {
       return q.items.map(it => it.text + ' → ' + q.categories.find(c => c.id === it.category).label).join(' · ');
     case 'open_answer':
       return q.modelAnswer || '–';
+    case 'sentence_completion':
+      return q.items.map((it, i) => i + 1 + ': ' + (it.modelAnswer || it.acceptedAnswers[0])).join(' · ');
     default:
       return q.modelAnswer;
   }
@@ -560,7 +562,9 @@ function questionHTML(x, q, index, state) {
       html += esc(q.text.slice(last, m.index)) + gap(m[1], ++n);
       last = m.index + m[0].length;
     }
-    field = `<p class="gap-text" lang="${x.language}">${html}${esc(q.text.slice(last))}</p>`;
+    // Wortkasten: alle Lösungen (erste Schreibweise) und Zusatzwörter, alphabetisch.
+    const bank = q.wordBank ? [...new Set([...q.gaps.map(g => g.acceptedAnswers[0]), ...(q.extraWords || [])])].sort((a, b) => a.localeCompare(b)) : [];
+    field = `${bank.length ? `<div class="word-bank" lang="${x.language}">${bank.map(w => `<span>${esc(w)}</span>`).join('')}</div>` : ''}<p class="gap-text" lang="${x.language}">${html}${esc(q.text.slice(last))}</p>`;
   } else if (q.type === 'true_false_ng')
     field = option('true', 'Richtig') + option('false', 'Falsch') + option('not_given', 'Nicht im Text');
   else if (q.type === 'word_select') {
@@ -617,6 +621,14 @@ function questionHTML(x, q, index, state) {
           .join('')}</span></div>`;
       })
       .join('');
+  else if (q.type === 'sentence_completion')
+    field = q.items
+      .map((it, n) => {
+        const val = ownPart(parts, it.id) ? parts[it.id] : '';
+        const ok = String(val).trim() && it.acceptedAnswers.some(a => String(val).toLocaleLowerCase().includes(a.toLocaleLowerCase().trim()));
+        return `<label class="sc-row${mark(ok)}"><span class="sc-start" lang="${x.language}">${esc(it.start)}</span><input class="sc-input" data-listen-part="${q.id}" data-part="${it.id}" value="${esc(val)}" maxlength="200" lang="${x.language}" autocomplete="off" aria-label="Satz ${n + 1} ergänzen"></label>`;
+      })
+      .join('');
   else if (q.type === 'open_answer')
     field = `<label class="field answer-field"><span>Deine Antwort</span><textarea data-listen-answer="${q.id}" rows="${Math.min(8, Math.max(3, q.lines || 4))}" maxlength="3000" lang="${x.language}">${esc(value)}</textarea></label>`;
   else
@@ -639,7 +651,33 @@ function questionHTML(x, q, index, state) {
 
 /* Abschnitt am Anfang einer Aufgabe („Prima dell’ascolto: …“) wird als Etikett gezeigt. */
 const QUESTION_PHASE =
-  /^(Prima dell['’]ascolto|Prima del film|Primo ascolto|Secondo ascolto|Durante l['’]ascolto|Dopo l['’]ascolto|Dopo il film|Lessico e lingua|Lessico|Before listening|While listening|After listening|Before watching|While watching|After watching|Vocabulary|Language|Vor dem Hören|Beim Hören|Nach dem Hören|Wortschatz vorab|Wortschatz|Avant l['’]écoute|Pendant l['’]écoute|Après l['’]écoute|Lexique|Antes de escuchar|Mientras escuchas|Después de escuchar|Léxico)\s*:\s*/;
+  /^(Prima dell['’]ascolto|Prima del film|Primo ascolto|Secondo ascolto|Terzo ascolto|Durante l['’]ascolto|Dopo l['’]ascolto|Dopo il film|Lessico e lingua|Lessico|Before listening|First listening|Second listening|Third listening|While listening|After listening|Before watching|While watching|After watching|Vocabulary|Language|Vor dem Hören|Erstes Hören|Zweites Hören|Drittes Hören|Beim Hören|Nach dem Hören|Wortschatz vorab|Wortschatz|Avant l['’]écoute|Première écoute|Deuxième écoute|Troisième écoute|Pendant l['’]écoute|Après l['’]écoute|Lexique|Antes de escuchar|Primera escucha|Segunda escucha|Tercera escucha|Mientras escuchas|Después de escuchar|Léxico)\s*:\s*/;
+/* Abschnitte einer Hörübung je Zielsprache. Zwei Aufbauten: nach Hördurchgängen (1. Hören global →
+   2. Hören Details → 3. Hören genau) oder vor / während / nach dem Hören; Sprache und Nachbereitung in beiden. */
+const PHASES = {
+  it: { pre: 'Prima dell’ascolto', p1: 'Primo ascolto', p2: 'Secondo ascolto', p3: 'Terzo ascolto', during: 'Durante l’ascolto', lang: 'Lessico e lingua', post: 'Dopo l’ascolto' },
+  en: { pre: 'Before listening', p1: 'First listening', p2: 'Second listening', p3: 'Third listening', during: 'While listening', lang: 'Language', post: 'After listening' },
+  fr: { pre: 'Avant l’écoute', p1: 'Première écoute', p2: 'Deuxième écoute', p3: 'Troisième écoute', during: 'Pendant l’écoute', lang: 'Lexique', post: 'Après l’écoute' },
+  es: { pre: 'Antes de escuchar', p1: 'Primera escucha', p2: 'Segunda escucha', p3: 'Tercera escucha', during: 'Mientras escuchas', lang: 'Léxico', post: 'Después de escuchar' }
+};
+const PHASE_LABELS = [
+  ['pre', 'Vor dem Hören'],
+  ['p1', '1. Hören · global'],
+  ['p2', '2. Hören · Details'],
+  ['p3', '3. Hören · genau'],
+  ['during', 'Während des Hörens'],
+  ['lang', 'Sprache und Wortschatz'],
+  ['post', 'Nach dem Hören']
+];
+/* Abschnitt einer Aufgabe: [Schlüssel oder '', Präfix samt Doppelpunkt, Rest der Aufgabenstellung]. */
+function promptPhase(prompt) {
+  const m = String(prompt || '').match(QUESTION_PHASE);
+  if (!m) return ['', '', String(prompt || '')];
+  const norm = t => t.replace(/['’]/g, '’').toLowerCase();
+  let key = '';
+  for (const L of Object.values(PHASES)) for (const [k, v] of Object.entries(L)) if (norm(v) === norm(m[1])) key = k;
+  return [key, m[0], prompt.slice(m[0].length)];
+}
 
 /* Fokus-Modus: eine Aufgabe pro Bildschirm (Standard am Handy und iPad hochkant). */
 let focusIndex = 0,
@@ -824,7 +862,18 @@ function renderListening(preview = false) {
         <div class="qsteps" id="qsteps" aria-hidden="true">${stepsHTML(x, state)}</div>
         ${resultBanner(x, state)}
         <form id="listening-form" class="${focus ? 'focus' : ''}${focus && focusIndex === x.questions.length - 1 ? ' at-end' : ''}" novalidate>
-          ${x.questions.map((q, i) => questionHTML(x, q, i, state)).join('')}
+          ${(() => {
+            // Zwischenüberschrift, sobald ein neuer Abschnitt beginnt (z. B. „Primo ascolto“), nicht im Fokus-Modus.
+            let last = '';
+            return x.questions
+              .map((q, i) => {
+                const m = q.prompt.match(QUESTION_PHASE);
+                const head = !focus && m && m[1] !== last ? `<h3 class="q-section" lang="${x.language}">${esc(m[1])}</h3>` : '';
+                if (m) last = m[1];
+                return head + questionHTML(x, q, i, state);
+              })
+              .join('');
+          })()}
           ${focus ? focusNavHTML(x) : ''}
           <div class="checkbar"><span id="check-hint">${state.checked ? 'Du kannst Antworten ändern und erneut prüfen.' : 'Lösungen erscheinen nach der Korrektur.'}</span><button class="button primary large" type="submit">${state.checked ? 'Erneut prüfen' : 'Antworten korrigieren'}</button></div>
         </form>

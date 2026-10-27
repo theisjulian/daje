@@ -2,7 +2,7 @@
 (function (root) {
   'use strict';
   const LANGUAGES = { it: 'Italienisch', en: 'Englisch', fr: 'Französisch', es: 'Spanisch' };
-  const QUESTION_TYPES = ['single_choice', 'multiple_choice', 'true_false', 'true_false_ng', 'word_select', 'short_answer', 'gap_fill', 'gap_choice', 'note_fill', 'table_fill', 'error_correction', 'matching', 'speaker_match', 'categorize', 'ordering', 'open_answer'];
+  const QUESTION_TYPES = ['single_choice', 'multiple_choice', 'true_false', 'true_false_ng', 'word_select', 'short_answer', 'gap_fill', 'gap_choice', 'note_fill', 'table_fill', 'error_correction', 'matching', 'speaker_match', 'categorize', 'ordering', 'open_answer', 'sentence_completion'];
   const isObj = x => x && typeof x === 'object' && !Array.isArray(x);
   function validatePackage(input) {
     const errors = [];
@@ -327,6 +327,12 @@
           const marks = [...z.text.matchAll(/\[\[([a-z0-9-]+)\]\]/g)].map(m => m[1]);
           if (marks.length !== ids.size || marks.some(m => !ids.has(m)) || new Set(marks).size !== marks.length)
             fail(path + '.text', 'jede Lücke genau einmal als [[id]] im Text markieren');
+          if (q.type === 'gap_fill' && q.wordBank !== undefined) {
+            if (typeof q.wordBank !== 'boolean') fail(path + '.wordBank', 'true oder false erwartet');
+            else if (q.wordBank) z.wordBank = true;
+          }
+          if (q.type === 'gap_fill' && q.extraWords !== undefined)
+            z.extraWords = arr(q.extraWords, path + '.extraWords', 0, 8).map((w, k) => str(w, path + '.extraWords[' + k + ']', 80));
         } else if (q.type === 'table_fill') {
           z.columns = arr(q.columns, path + '.columns', 2, 5).map((c, j) => str(c, path + '.columns[' + j + ']', 80));
           const ids = new Set();
@@ -358,6 +364,17 @@
             const o = { id: id(v.id, path + '.items[' + j + '].id'), text: str(v.text, path + '.items[' + j + '].text', 300), category: id(v.category, path + '.items[' + j + '].category') };
             if (!cats.has(o.category)) fail(path + '.items[' + j + '].category', 'verweist auf keine Kategorie');
             if (ids.has(o.id)) fail(path + '.items', 'doppelte Element-ID');
+            ids.add(o.id);
+            return o;
+          });
+        } else if (q.type === 'sentence_completion') {
+          const ids = new Set();
+          z.items = arr(q.items, path + '.items', 1, 8).map((v, j) => {
+            const ip = path + '.items[' + j + ']';
+            v = obj(v, ip);
+            const o = { id: id(v.id, ip + '.id'), start: str(v.start, ip + '.start', 300), acceptedAnswers: strings(v.acceptedAnswers, ip + '.acceptedAnswers') };
+            if (v.modelAnswer !== undefined && v.modelAnswer !== '') o.modelAnswer = str(v.modelAnswer, ip + '.modelAnswer', 300);
+            if (ids.has(o.id)) fail(path + '.items', 'doppelte Satz-ID');
             ids.add(o.id);
             return o;
           });
@@ -534,6 +551,11 @@
     if (q.type === 'categorize' || q.type === 'speaker_match') {
       const v = parts();
       return q.items.every(it => has(v, it.id) && v[it.id] === it.category);
+    }
+    // Satzergänzung: richtig, wenn die Ergänzung eine der hinterlegten Lösungen bzw. Schlüsselwörter enthält.
+    if (q.type === 'sentence_completion') {
+      const v = parts();
+      return q.items.every(it => has(v, it.id) && norm(v[it.id]) && it.acceptedAnswers.some(a => norm(v[it.id]).includes(norm(a))));
     }
     // Offene Antwort: keine automatische Bewertung; zählt als erledigt, sobald etwas geschrieben ist.
     if (q.type === 'open_answer') return String(raw ?? '').trim().length > 0;

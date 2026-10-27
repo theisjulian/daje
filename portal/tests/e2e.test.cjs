@@ -346,7 +346,7 @@ async function step(name, fn) {
     await dp.reload({ waitUntil: 'networkidle' });
   });
 
-  await step('Neun weitere Aufgabentypen: bearbeiten, korrigieren, drucken', async () => {
+  await step('Weitere Aufgabentypen und Hördurchgänge: bearbeiten, korrigieren, drucken', async () => {
     await dp.goto(base, { waitUntil: 'networkidle' });
     await dp.evaluate(async () => {
       localStorage.setItem('daje-fokus-v1', '0');
@@ -369,9 +369,13 @@ async function step(name, fn) {
     for (const [k, c] of [['c1', 'Cibo'], ['c2', 'Luogo'], ['c3', 'Cibo'], ['c4', 'Luogo'], ['c5', 'Luogo']])
       await dp.click(`#q-n9 .cat-row:has(input[data-part="${k}"]) .cat-opt:has-text("${c}")`);
     await dp.fill('#q-n10 textarea', 'Vado al parco con gli amici.');
-    assert.match(await dp.textContent('#listen-answer-count'), /10 \/ 10/);
+    for (const [k, v] of [['g1', 'Torino'], ['g2', 'Castello'], ['g3', 'fame'], ['g4', 'gelateria']]) await dp.fill(`#q-n11 input[data-part="${k}"]`, v);
+    for (const [k, v] of [['z1', 'in Piazza Castello'], ['z2', 'al parco'], ['z3', 'alle sei']]) await dp.fill(`#q-n12 input[data-part="${k}"]`, v);
+    assert.equal(await dp.locator('#q-n11 .word-bank span').count(), 6);
+    assert.deepEqual(await dp.locator('.q-section').allTextContents(), ['Primo ascolto', 'Secondo ascolto', 'Terzo ascolto', 'Lessico e lingua', 'Dopo l’ascolto']);
+    assert.match(await dp.textContent('#listen-answer-count'), /12 \/ 12/);
     await dp.getByRole('button', { name: 'Antworten korrigieren' }).click();
-    assert.match(await dp.textContent('.result-score'), /^\s*9\s*von 9\s*$/);
+    assert.match(await dp.textContent('.result-score'), /^\s*11\s*von 11\s*$/);
     assert.match(await dp.textContent('#q-n10 .listen-feedback'), /Possibile soluzione|Mögliche Lösung/);
     // Druck: alle drei Ausgaben ohne Überlauf
     const id = await dp.evaluate(() => {

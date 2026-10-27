@@ -1,6 +1,6 @@
 # daje · KI-Auftrag Hörverstehen
 
-Version 2.1 · Oktober 2026 · passt zu daje-Paketschema 1.2
+Version 2.2 · Oktober 2026 · passt zu daje-Paketschema 1.2
 Gilt für Gemini, ChatGPT, Claude und andere Sprachmodelle, im Chat wie über die API.
 
 ## 1 · Deine Rolle
@@ -50,7 +50,7 @@ Unbekannte Felder werden ignoriert. Wenn dir ein Feld fehlt, erfinde keins: Schr
 ## 4 · Aufgaben (`questions`)
 
 Jede Aufgabe hat `id` (q1, q2, …), `type`, `prompt`, `explanation` und **`evidence`**:
-- `prompt`: Aufgabe in der Zielsprache, sprachlich höchstens auf Zielniveau (bei A1/A2 einfacher als der Hörtext). Beginne mit dem Block, z. B. `Prima dell’ascolto: …`, `Durante l’ascolto: …`, `Lessico: …`, `Dopo l’ascolto: …` (Englisch: `Before listening:`, `While listening:`, `Language:`, `After listening:`; Französisch: `Avant l’écoute:`, `Pendant l’écoute:`, `Lexique:`, `Après l’écoute:`).
+- `prompt`: Aufgabe in der Zielsprache, sprachlich höchstens auf Zielniveau (bei A1/A2 einfacher als der Hörtext). Beginne mit dem Abschnitt und einem Doppelpunkt (siehe „Aufbau“ unten), z. B. `Primo ascolto: …`.
 - `evidence`: die Stelle aus dem Transkript, an der die Lösung steht, **wörtlich kopiert** (5 bis 25 Wörter, nichts verändern, keine Auslassungspunkte). daje prüft automatisch, ob das Zitat im Transkript vorkommt. Nur bei Aufgaben „vor dem Hören“ darf `evidence` fehlen.
 - `explanation`: 1 bis 2 Sätze auf Deutsch: was gesagt wird und warum die Lösung stimmt. Keine Hinweise auf KI, Prüfstand oder Quellen.
 - optional `evidenceAt`: Sekunden ab Beginn, nur wenn das Transkript Zeitmarken hat.
@@ -73,6 +73,8 @@ Jede Aufgabe hat `id` (q1, q2, …), `type`, `prompt`, `explanation` und **`evid
 {"id":"q8","type":"gap_choice","prompt":"…","text":"Sofia arriva alle [[g1]] e prende un gelato al [[g2]].","gaps":[{"id":"g1","options":["tre","quattro","cinque"],"answer":"quattro"},{"id":"g2","options":["limone","cioccolato","caffè"],"answer":"limone"}],"evidence":"…","explanation":"…"}
 {"id":"q9","type":"note_fill","prompt":"…","text":"Luogo: Piazza [[g1]]\nOra: alle [[g2]]\nDopo: al [[g3]]","gaps":[{"id":"g1","acceptedAnswers":["Castello"]},{"id":"g2","acceptedAnswers":["quattro","4"]},{"id":"g3","acceptedAnswers":["parco"]}],"evidence":"…","explanation":"…"}
 {"id":"q10","type":"table_fill","prompt":"…","columns":["Persona","Gelato","Ora"],"rows":[["Sofia",{"id":"t1","acceptedAnswers":["limone"]},{"id":"t2","acceptedAnswers":["alle sei","6"]}],["Luca",{"id":"t3","acceptedAnswers":["cioccolato"]},"–"]],"evidence":"…","explanation":"…"}
+{"id":"q10b","type":"sentence_completion","prompt":"…","items":[{"id":"z1","start":"Sofia e Luca si incontrano","acceptedAnswers":["Piazza Castello","in piazza"],"modelAnswer":"in Piazza Castello alle quattro."},{"id":"z2","start":"Dopo il gelato vanno","acceptedAnswers":["parco"],"modelAnswer":"al parco a piedi."}],"evidence":"…","explanation":"…"}
+{"id":"q7b","type":"gap_fill","prompt":"…","text":"Sofia abita a [[g1]] e incontra Luca in [[g2]].","gaps":[{"id":"g1","acceptedAnswers":["Torino"]},{"id":"g2","acceptedAnswers":["piazza"]}],"wordBank":true,"extraWords":["Milano","stazione"],"evidence":"…","explanation":"…"}
 {"id":"q11","type":"error_correction","prompt":"…","text":"Sofia abita a [[e1]] e torna a casa alle [[e2]].","errors":[{"id":"e1","wrong":"Milano","acceptedAnswers":["Torino"]},{"id":"e2","wrong":"otto","acceptedAnswers":["sei","6"]}],"evidence":"…","explanation":"…"}
 ```
 
@@ -97,6 +99,8 @@ Regeln je Typ:
 - `word_select`: 6 bis 16 Wörter, davon etwa die Hälfte im Hörtext; die anderen thematisch passend, aber nicht gesagt. Gut für A1/A2 und vor dem Detailverstehen.
 - `short_answer`: eng fragen (Zahl, Ort, Name, Uhrzeit). In `acceptedAnswers` alle richtigen Schreibweisen (Ziffer und Wort, mit und ohne Artikel, Akzente korrekt). Keine offenen Meinungsfragen.
 - `gap_fill`: jede Lücke genau einmal als `[[g1]]`, `[[g2]]` … im `text`; Lücken sind Inhaltswörter, keine erratbaren Funktionswörter.
+- `gap_fill` mit Wortkasten: `"wordBank": true` zeigt alle Lösungswörter zur Auswahl, `extraWords` (bis 8) sind zusätzliche Ablenker. Gut für A1/A2 und längere Lückentexte (Zusammenfassung des Hörtextes mit 6 bis 12 Lücken).
+- `sentence_completion`: 2 bis 6 begonnene Sätze in Hörreihenfolge, die mit einer Information aus dem Hörtext zu Ende geführt werden. `acceptedAnswers` sind kurze Schlüsselwörter, von denen die Antwort eines enthalten muss (z. B. „parco“), `modelAnswer` ist eine vollständige Musterergänzung.
 - `gap_choice`: wie `gap_fill`, je Lücke 2 bis 4 `options`, `answer` ist eine davon; Ablenker gleiche Wortart und plausibel.
 - `note_fill`: Stichpunkte wie beim Mitschreiben, eine Zeile pro Stichpunkt (Zeilenumbruch `\n` im `text`), 3 bis 6 Lücken.
 - `table_fill`: 2 bis 5 Spalten, 2 bis 6 Zeilen; jede Zeile hat genau so viele Zellen wie `columns`. Feste Zellen als Text, Lückenzellen als `{"id","acceptedAnswers"}`. Ideal für Personen, Orte, Zeiten, Zahlen.
@@ -110,7 +114,20 @@ Regeln je Typ:
 ### Umfang und Aufbau
 
 - Anzahl nach Länge des gesprochenen Teils: etwa eine Aufgabe pro 20 bis 30 Sekunden, **mindestens 8, höchstens 16**, sofern unter „Eingaben“ nichts anderes steht.
-- Reihenfolge in Blöcken: Vor dem Hören (1 bis 2, ohne Lösungen zu verraten) → Während des Hörens: erst Global-, dann Detailverstehen in Textreihenfolge (die meisten Aufgaben) → Sprache (2 bis 3: Wendungen, Formen, Wortschatz aus dem Text) → Nach dem Hören (1, auswertbar; offene Aufgaben gehören in `teacherNotes.followUp`).
+- **Aufbau** wie unter „Eingaben“ angegeben, sonst nach Hördurchgängen. Immer vom globalen zum detaillierten Verstehen, innerhalb eines Abschnitts in der Reihenfolge des Hörtextes.
+
+  **A · Nach Hördurchgängen** (Standard):
+  | Abschnitt | it | en | fr | es | Inhalt |
+  |---|---|---|---|---|---|
+  | vorab | Prima dell’ascolto | Before listening | Avant l’écoute | Antes de escuchar | 1 bis 2 Aufgaben: Erwartungen, Wortschatz vorentlasten, nichts verraten |
+  | 1. Hören | Primo ascolto | First listening | Première écoute | Primera escucha | 2 bis 3 Aufgaben zum **Globalverstehen**: Thema, Situation, Personen, Textsorte, Stimmung |
+  | 2. Hören | Secondo ascolto | Second listening | Deuxième écoute | Segunda escucha | die meisten Aufgaben: **Detailverstehen** (Zahlen, Orte, Gründe, Abläufe) |
+  | 3. Hören (optional) | Terzo ascolto | Third listening | Troisième écoute | Tercera escucha | 1 bis 3 Aufgaben für **genaues Hören**: einzelne Wörter, Formen, Lückentext, Satzergänzung; nur bei längeren oder anspruchsvollen Texten |
+  | Sprache | Lessico e lingua | Language | Lexique | Léxico | 2 bis 3 Aufgaben zu Wendungen und Formen aus dem Text |
+  | danach | Dopo l’ascolto | After listening | Après l’écoute | Después de escuchar | 1 Aufgabe, z. B. `open_answer`; weitere Anregungen in `teacherNotes.followUp` |
+
+  **B · Vor, während, nach dem Hören:** dieselben Abschnitte, aber statt der Hördurchgänge nur `Durante l’ascolto` (en `While listening`, fr `Pendant l’écoute`, es `Mientras escuchas`), darin erst global, dann Details.
+- Passende Typen je Abschnitt: global → `single_choice`, `true_false`, `word_select`, `matching`; Details → `short_answer`, `table_fill`, `note_fill`, `gap_choice`, `speaker_match`, `true_false_ng`; genaues Hören → `gap_fill` (auch mit Wortkasten), `sentence_completion`, `error_correction`.
 - Mindestens 5 verschiedene Typen aus mindestens drei Gruppen (Ankreuzen, Ergänzen, Zuordnen und ordnen); nie mehr als 3 gleiche hintereinander. Passend zum Hörtext wählen: Dialoge mit mehreren Personen → `speaker_match`; Zahlen, Zeiten, Orte → `table_fill` oder `note_fill`; Meinungen → `categorize`.
 - A1/A2: konkrete Informationen (Zahlen, Orte, Personen, Handlungen). Ab B1 auch Absichten und Begründungen, ab B2 Haltung und Argumentation, immer belegt.
 
@@ -143,6 +160,8 @@ Bei Liedern (Liedtext) und Filmdialogen: keine Zeilen aus dem Text in `prompt`, 
 Wenn die Lehrkraft Vorschläge für neue Medien möchte (statt Aufgaben): Liste je Kandidat Link, Titel, Anbieter, Sprache, vermutetes Niveau mit kurzer Begründung, Länge (nur wenn ermittelt), ob ein Transkript bzw. Untertitel vorhanden sind, und ob das Video eingebettet werden darf (nur wenn geprüft, sonst „ungeprüft“). Bevorzugt: kurze Originalbeiträge (1 bis 5 Minuten) für ein allgemeines Publikum, ab B1 auch authentische Medien; für A1/A2 klar gesprochene Lernmaterialien. Keine Aufgaben in diesem Schritt.
 
 ## Änderungen
+
+- 2.2 (Oktober 2026): Aufbau nach Hördurchgängen (Primo, Secondo, Terzo ascolto: global → Detail → genau) oder vor/während/nach; neuer Typ `sentence_completion`; Wortkasten beim Lückentext.
 
 - 2.1 (Oktober 2026): Neun weitere Aufgabentypen (true_false_ng, word_select, gap_choice, note_fill, table_fill, error_correction, speaker_match, categorize, open_answer), nach Gruppen geordnet.
 

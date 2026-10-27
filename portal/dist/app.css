@@ -7989,3 +7989,21 @@ body.previewing-teaching #teaching-print.dlg-mode{position:fixed;inset:0;z-index
 #teaching-print .hb-notes li { margin: 0; padding: 0 0 0 4px; break-inside: auto; }
 .ed-add-g { margin: 10px 0 4px; font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--label-3); }
 .ed-add .button { font-size: 15px; line-height: 1.25; padding-left: 12px; padding-right: 12px; }
+.q-section { margin: 22px 0 6px; padding-bottom: 6px; font-size: 13px; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; color: var(--accent2, var(--blue)); border-bottom: 1.5px solid currentColor; }
+.q-section:first-child { margin-top: 0; }
+#listening-form:not(.focus) .q-phase { display: none; }
+/* Sätze vervollständigen und Wortkasten */
+.sc-row { display: grid; gap: 6px; padding: 10px 12px; border: 1.5px solid var(--hairline); border-radius: 14px; background: var(--glass-solid); }
+.sc-row + .sc-row { margin-top: 8px; }
+.sc-row.is-correct { border-color: var(--green); background: color-mix(in srgb, var(--green) 14%, var(--glass-solid)); }
+.sc-row.is-wrong { border-color: var(--red); background: color-mix(in srgb, var(--red) 11%, var(--glass-solid)); }
+.sc-start { font-weight: 600; }
+.sc-input { min-height: 46px; border-radius: 10px; border: 1.5px solid var(--hairline); border-bottom: 3px solid var(--blue); background: var(--canvas); padding: 0 12px; font-size: 17px; width: 100%; box-sizing: border-box; }
+.word-bank { display: flex; flex-wrap: wrap; gap: 6px 8px; margin: 0 0 10px; padding: 10px 12px; border: 1.5px dashed var(--hairline); border-radius: 14px; }
+.word-bank span { padding: 4px 12px; border-radius: 99px; background: var(--fill); font-size: 16px; }
+#teaching-print .hb-sc { margin: 4px 0 0 38px; }
+#teaching-print .hb-sc-row { display: flex; align-items: baseline; gap: 8px; margin: 0 0 6px; }
+#teaching-print .hb-sc-row b { color: var(--ac); min-width: 1.1em; }
+#teaching-print .hb-sc-row .gp { flex: 1; min-width: 120px; text-align: left; padding-left: 4px; }
+#teaching-print .hb-bank { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 6px 0 4px 38px; padding: 6px 10px; border: 1.2px solid #9aa2ae; border-radius: 4px; font-size: 10pt; }
+#teaching-print .hb-phase.hb-cont::after { content: ' ·  …'; font-weight: 400; }

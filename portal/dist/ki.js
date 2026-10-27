@@ -204,6 +204,11 @@
         : '',
       inp.count ? '- Gewünschte Aufgabenzahl: etwa ' + inp.count : '',
       inp.grade ? '- Klassenstufe: ' + inp.grade : '',
+      inp.structure === 'phasen'
+        ? '- Aufbau: B · vor, während, nach dem Hören'
+        : inp.structure === 'durchgaenge'
+          ? '- Aufbau: A · nach Hördurchgängen (1. Hören global, 2. Hören Details, bei Bedarf 3. Hören genau)'
+          : '',
       inp.kind === 'lied'
         ? '- Art: Lied (Abschnitt 6 beachten)'
         : inp.kind === 'film'

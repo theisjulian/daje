@@ -149,6 +149,11 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - Beispiel: `examples/listening-weitere-aufgabentypen.json`; Tests: content.test (Bewertung je Typ), e2e „Neun weitere Aufgabentypen“.
 - Neuer Typ später: dieselben Stellen anfassen; Druck mit `mkpdf`-Prüfung (Seitenzahl Vorschau = PDF, kein Überlauf).
 
+## 6i. Hördurchgänge, Satzergänzung, Wortkasten (27.10.2026)
+- Abschnitte: `PHASES` (views.js) je Sprache: vorab, 1./2./3. Hören (global → Details → genau), während, Sprache, danach. Zwei Aufbauten (Hördurchgänge oder vor/während/nach). Präfix im prompt bleibt das Datenformat; `promptPhase()` zerlegt es. Redaktion: Auswahl „Abschnitt“ je Aufgabe, neue Aufgaben übernehmen den Abschnitt der vorherigen. Lernende: Zwischenüberschriften je Abschnitt (Etikett nur noch im Fokus-Modus). Druck: Überschrift wird auf Folgeseiten wiederholt („· …“).
+- Neuer Typ `sentence_completion` (17 Typen): items {start, acceptedAnswers = Schlüsselwörter, modelAnswer}; richtig, wenn die Ergänzung ein Schlüsselwort enthält. Lückentext: optional `wordBank` + `extraWords` (Wortkasten).
+- KI-Kommandodatei 2.2 (Tabelle der Abschnitte in it/en/fr/es, Typen je Abschnitt), KI-Panel „Aufbau“.
+
 ## 7. Offene Punkte
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.
 - Ecco 3 più importieren (nach Scan, exakte Kapitelzuordnung).

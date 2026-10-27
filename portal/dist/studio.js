@@ -19,6 +19,7 @@ const ED_PROMPT_HINT = {
   speaker_match: 'z. B. Chi lo dice?',
   categorize: 'z. B. Vantaggi o svantaggi?',
   open_answer: 'z. B. E tu? Scrivi due o tre frasi.',
+  sentence_completion: 'z. B. Completa le frasi.',
   multiple_choice: 'z. B. Quali attività vengono nominate? (più risposte)',
   gap_fill: 'z. B. Completa con le parole del testo.',
   matching: 'z. B. Chi dice che cosa? Abbina.',
@@ -101,6 +102,7 @@ function edQuestion(type, n) {
   if (type === 'table_fill') Object.assign(q, { columns: [], rows: [] });
   if (type === 'speaker_match' || type === 'categorize') Object.assign(q, { categories: [], items: [] });
   if (type === 'open_answer') Object.assign(q, { modelAnswer: '', lines: 4 });
+  if (type === 'sentence_completion') q.items = [];
   return q;
 }
 function edCreate(payload, message) {
@@ -144,7 +146,7 @@ function edFriendlyErrors(x) {
     if (!x.questions.length) e.push('Mindestens eine Aufgabe anlegen.');
     x.questions.forEach((q, i) => {
       const n = 'Aufgabe ' + (i + 1) + ': ';
-      if (!q.prompt.trim()) e.push(n + 'Frage fehlt.');
+      if (!promptPhase(q.prompt)[2].trim()) e.push(n + 'Aufgabenstellung fehlt.');
       if (q.type === 'single_choice' && q.options.filter(o => o.text.trim()).length < 2)
         e.push(n + 'mindestens zwei Antworten eintragen.');
       if (
@@ -167,6 +169,10 @@ function edFriendlyErrors(x) {
         else if (q.pairs.length < 2) e.push(n + 'mindestens zwei Paare eintragen.');
       }
       if (q.type === 'ordering' && q.items.length < 3) e.push(n + 'mindestens drei Elemente eintragen.');
+      if (q.type === 'sentence_completion') {
+        if (!q.items.length) e.push(n + 'mindestens einen Satz der Form „Satzanfang = Lösung“ eintragen.');
+        else if (q.items.some(it => !it.start || !it.acceptedAnswers.length)) e.push(n + 'jeder Satz braucht einen Anfang und nach „=“ eine Lösung.');
+      }
       if (q.type === 'word_select') {
         const r = q.correctOptionIds.length;
         if (q.options.length < 4) e.push(n + 'zusammen mindestens vier Wörter eintragen.');
@@ -696,10 +702,19 @@ function edQuestionHTML(q, i, n) {
       (q.options.length < 8 ? `<button class="quiet" data-ed-opt="${i}">+ Antwort</button>` : '') +
       '<small class="muted">Häkchen = richtig. Mindestens eine Antwort muss falsch sein. Leere Antworten werden ignoriert.</small>';
   else if (q.type === 'gap_fill')
+    body =
+      edField(
+        'Text mit Lücken',
+        `<textarea data-ed-q="${i}" data-k="gaptext" rows="${Math.min(10, Math.max(3, Math.ceil(edGapText(q).length / 70)))}" placeholder="Il treno parte alle [sette / 7] dal binario [tre / 3].">${esc(edGapText(q))}</textarea>`,
+        'Lösung in eckige Klammern setzen. Mehrere richtige Schreibweisen mit „/“ trennen. Auch längere Texte mit bis zu 15 Lücken.'
+      ) +
+      `<label class="dlg-check"><input type="checkbox" data-ed-q="${i}" data-k="wordBank" ${q.wordBank ? 'checked' : ''}><span>Wortkasten anzeigen (Lösungswörter zum Auswählen)</span></label>` +
+      (q.wordBank ? edField('Zusätzliche Wörter im Wortkasten (optional)', `<textarea data-ed-q="${i}" data-k="extraWords" rows="2" placeholder="eine Zeile pro Wort">${esc((q.extraWords || []).join('\n'))}</textarea>`, 'Ablenker, die nicht in den Text gehören. Höchstens 8.') : '');
+  else if (q.type === 'sentence_completion')
     body = edField(
-      'Text mit Lücken',
-      `<textarea data-ed-q="${i}" data-k="gaptext" rows="3" placeholder="Il treno parte alle [sette / 7] dal binario [tre / 3].">${esc(edGapText(q))}</textarea>`,
-      'Lösung in eckige Klammern setzen. Mehrere richtige Schreibweisen mit „/“ trennen.'
+      'Sätze · „Satzanfang = Lösung / Variante“',
+      `<textarea data-ed-q="${i}" data-k="scItems" rows="4" placeholder="Sofia e Luca si incontrano = in Piazza Castello / in piazza\nDopo il gelato vanno = al parco / nel parco">${esc(q.items.map(it => it.start + ' = ' + it.acceptedAnswers.join(' / ')).join('\n'))}</textarea>`,
+      'Eine Zeile pro Satz. Als richtig gilt, wenn die Ergänzung eine der Lösungen enthält; kurze Schlüsselwörter genügen. 1 bis 8 Sätze.'
     );
   else if (q.type === 'matching')
     body =
@@ -775,7 +790,8 @@ function edQuestionHTML(q, i, n) {
       'Groß-/Kleinschreibung und kleine Tippfehler werden toleriert.'
     );
   return `<div class="ed-q"><div class="ed-qhead"><b>${i + 1}</b>${editable ? `<select data-ed-q="${i}" data-k="type">${FORMAT_GROUPS.map(([g, list]) => `<optgroup label="${esc(g)}">${list.map(([t]) => `<option value="${t}" ${t === q.type ? 'selected' : ''}>${esc(edTypeLabel(t))}</option>`).join('')}</optgroup>`).join('')}</select>` : ''}${tools}</div>
-    ${edField(['true_false', 'true_false_ng'].includes(q.type) ? 'Aussage' : ['single_choice', 'multiple_choice', 'short_answer', 'open_answer'].includes(q.type) ? 'Frage' : 'Arbeitsanweisung', `<input data-ed-q="${i}" data-k="prompt" maxlength="1000" value="${esc(q.prompt)}" placeholder="${esc(ED_PROMPT_HINT[q.type] || '')}">`)}
+    ${edField('Abschnitt', `<select data-ed-q="${i}" data-k="phase"><option value="">ohne Abschnitt</option>${PHASE_LABELS.map(([k, l]) => `<option value="${k}" ${promptPhase(q.prompt)[0] === k ? 'selected' : ''}>${l}</option>`).join('')}</select>`)}
+    ${edField(['true_false', 'true_false_ng'].includes(q.type) ? 'Aussage' : ['single_choice', 'multiple_choice', 'short_answer', 'open_answer'].includes(q.type) ? 'Frage' : 'Arbeitsanweisung', `<input data-ed-q="${i}" data-k="prompt" maxlength="1000" value="${esc(promptPhase(q.prompt)[2])}" placeholder="${esc(ED_PROMPT_HINT[q.type] || '')}">`)}
     ${body}
     ${q.evidence ? edEvidenceHTML(q) : ''}
     ${editable ? edField('Erklärung nach der Korrektur (optional)', `<input data-ed-q="${i}" data-k="explanation" maxlength="1500" value="${esc(q.explanation || '')}">`) : ''}
@@ -938,7 +954,15 @@ document.addEventListener('input', e => {
   } else if (t.dataset.edQ !== undefined) {
     const q = x.questions[Number(t.dataset.edQ)];
     const f = t.dataset.k;
-    if (f === 'prompt' || f === 'explanation') q[f] = t.value;
+    if (f === 'prompt') q.prompt = promptPhase(q.prompt)[1] + t.value;
+    else if (f === 'explanation') q.explanation = t.value;
+    else if (f === 'scItems')
+      q.items = edLinesOf(t.value).slice(0, 8).map((l, j) => {
+        const k = l.lastIndexOf('=');
+        const answers = (k < 0 ? '' : l.slice(k + 1)).split('/').map(a => a.trim()).filter(Boolean);
+        return { id: 'z' + (j + 1), start: (k < 0 ? l : l.slice(0, k)).trim(), acceptedAnswers: answers, modelAnswer: answers[0] || '' };
+      });
+    else if (f === 'extraWords') q.extraWords = edLinesOf(t.value).slice(0, 8);
     else if (f === 'option') q.options.find(o => o.id === t.dataset.o).text = t.value;
     else if (f === 'gaptext') edParseGaps(q, t.value);
     else if (f === 'pairs')
@@ -992,6 +1016,15 @@ document.addEventListener('change', e => {
       q = x.questions[i];
     if (t.dataset.k === 'correct') q.correctOptionId = t.value;
     else if (t.dataset.k === 'tfng') q.answer = t.value;
+    else if (t.dataset.k === 'phase') {
+      const L = PHASES[x.language] || PHASES.it;
+      q.prompt = (t.value ? L[t.value] + ': ' : '') + promptPhase(q.prompt)[2];
+    } else if (t.dataset.k === 'wordBank') {
+      if (t.checked) q.wordBank = true;
+      else delete q.wordBank;
+      edCommit();
+      return renderStudio();
+    }
     else if (t.dataset.k === 'lines') q.lines = Number(t.value);
     else if (t.dataset.k === 'points') q.points = Number(t.value);
     else if (t.dataset.k === 'correctMulti') {
@@ -1040,7 +1073,10 @@ document.addEventListener('click', e => {
   if (b.dataset.edAdd) {
     const n =
       Math.max(0, ...x.questions.map(q => Number(String(q.id).replace(/\D/g, '')) || 0)) + 1;
-    x.questions.push(edQuestion(b.dataset.edAdd, n));
+    const fresh = edQuestion(b.dataset.edAdd, n);
+    const prev = x.questions[x.questions.length - 1];
+    if (prev) fresh.prompt = promptPhase(prev.prompt)[1];
+    x.questions.push(fresh);
     edCommit();
     renderStudio();
     return document
@@ -1116,7 +1152,8 @@ const KI_DEFAULT = {
   transcript: '',
   wishes: '',
   answer: '',
-  showTranscript: true
+  showTranscript: true,
+  structure: 'durchgaenge'
 };
 let kiForm = null; // erst bei Bedarf laden (read/save stehen in app.js, das später geladen wird)
 const kiState = () => (kiForm ??= Object.assign({}, KI_DEFAULT, read(KI_KEY, {})));
@@ -1150,6 +1187,10 @@ function kiPanelHTML() {
           ['8', 'kurz · etwa 8'],
           ['12', 'normal · etwa 12'],
           ['16', 'ausführlich · etwa 16']
+        ])}</label>
+        <label class="field">Aufbau${sel('structure', [
+          ['durchgaenge', '1., 2., 3. Hören (global → Detail)'],
+          ['phasen', 'vor / während / nach dem Hören']
         ])}</label>
         <label class="field">Ausschnitt (optional)<span class="ki-range"><input data-ki="start" inputmode="numeric" value="${esc(f.start)}" placeholder="von 0:00"><input data-ki="end" inputmode="numeric" value="${esc(f.end)}" placeholder="bis 2:30"></span></label>
       </div>
@@ -1193,6 +1234,7 @@ function kiInputs() {
     endText: f.end,
     transcript: f.transcript,
     wishes: f.wishes,
+    structure: f.structure,
     keepTranscript: f.showTranscript && !['lied', 'film'].includes(f.kind),
     transcriptOrigin: /\d:\d\d/.test(f.transcript) ? 'provider' : 'own'
   };

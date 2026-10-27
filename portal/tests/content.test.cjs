@@ -192,7 +192,7 @@ console.log('Optional transcriptOrigin is validated and kept.');
   const j = require('../dist/examples/listening-weitere-aufgabentypen.json');
   const v = C.validatePackage(j);
   if (!v.ok) throw new Error(v.errors.join('; '));
-  const ans = { n1: 'true', n2: 'not_given', n3: 'a,c,d,f,h', n4: JSON.stringify({ g1: 'quattro', g2: 'limone' }), n5: JSON.stringify({ g1: 'castello', g2: '4', g3: 'parco' }), n6: JSON.stringify({ t1: 'Limone', t2: 'alle sei', t3: 'cioccolato' }), n7: JSON.stringify({ e1: 'Torino', e2: 'a piedi', e3: '6' }), n8: JSON.stringify({ s1: 'luca', s2: 'sofia', s3: 'luca', s4: 'sofia' }), n9: JSON.stringify({ c1: 'cibo', c2: 'luogo', c3: 'cibo', c4: 'luogo', c5: 'luogo' }), n10: 'Vado al cinema.' };
+  const ans = { n1: 'true', n2: 'not_given', n3: 'a,c,d,f,h', n4: JSON.stringify({ g1: 'quattro', g2: 'limone' }), n5: JSON.stringify({ g1: 'castello', g2: '4', g3: 'parco' }), n6: JSON.stringify({ t1: 'Limone', t2: 'alle sei', t3: 'cioccolato' }), n7: JSON.stringify({ e1: 'Torino', e2: 'a piedi', e3: '6' }), n8: JSON.stringify({ s1: 'luca', s2: 'sofia', s3: 'luca', s4: 'sofia' }), n9: JSON.stringify({ c1: 'cibo', c2: 'luogo', c3: 'cibo', c4: 'luogo', c5: 'luogo' }), n10: 'Vado al cinema.', n11: JSON.stringify({ g1: 'Torino', g2: 'Castello', g3: 'fame', g4: 'gelateria' }), n12: JSON.stringify({ z1: 'in Piazza Castello', z2: 'al parco', z3: 'alle 6' }) };
   for (const q of v.value.questions) {
     if (!C.assessAnswer(q, ans[q.id])) throw new Error(q.id + ' richtig nicht erkannt');
     if (C.assessAnswer(q, '')) throw new Error(q.id + ' leer als richtig gewertet');

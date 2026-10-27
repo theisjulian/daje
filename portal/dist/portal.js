@@ -179,6 +179,7 @@ const LISTENING_FORMAT_LABELS = {
   note_fill: 'Notizen ergänzen',
   table_fill: 'Tabelle ergänzen',
   error_correction: 'Fehler korrigieren',
+  sentence_completion: 'Sätze vervollständigen',
   matching: 'Zuordnung',
   speaker_match: 'Wer sagt was?',
   categorize: 'Kategorien zuordnen',
@@ -196,7 +197,8 @@ const FORMAT_GROUPS = [
   ]],
   ['Ergänzen', [
     ['short_answer', 'Zahl, Ort, Name oder kurze Formulierung notieren.'],
-    ['gap_fill', 'Lücken in einem Satz oder einer Zusammenfassung füllen.'],
+    ['gap_fill', 'Wörter oder Zahlen in einen Text eintragen, auf Wunsch mit Wortkasten.'],
+    ['sentence_completion', 'Begonnene Sätze mit Informationen aus dem Hörtext zu Ende führen.'],
     ['gap_choice', 'In jeder Lücke das richtige Wort auswählen.'],
     ['note_fill', 'Stichpunkte wie beim Mitschreiben ergänzen.'],
     ['table_fill', 'Raster mit Personen, Orten, Zeiten ausfüllen.'],

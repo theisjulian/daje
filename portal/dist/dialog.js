@@ -144,7 +144,7 @@ function hbPaginate() {
   const footH = (foot ? foot.offsetHeight : 30) + 10;
   const split = ({ headH, blocks }) => {
     const out = [];
-    let cur = [], used = 0, cap = INNER - footH - headH;
+    let cur = [], used = 0, cap = INNER - footH - headH, phase = null;
     for (const b of blocks) {
       const bh = b.reduce((s, x) => s + x.h, 0);
       if (used + bh > cap && cur.length) {
@@ -152,7 +152,13 @@ function hbPaginate() {
         cur = [];
         used = 0;
         cap = INNER - footH - runH;
+        // Abschnitt läuft auf der neuen Seite weiter: Überschrift wiederholen.
+        if (phase && b[0].box === 'list' && !b[0].glue) {
+          cur.push({ ...phase, repeat: true });
+          used += phase.h;
+        }
       }
+      for (const x of b) if (x.box === 'list' && x.glue) phase = x;
       cur.push(...b);
       used += bh;
     }
@@ -189,7 +195,9 @@ function hbPaginate() {
         } else if (box === 'tr') h.append((cont = tr.cloneNode(false)));
         else cont = h;
       }
-      cont.append(x.node.cloneNode(true));
+      const c = x.node.cloneNode(true);
+      if (x.repeat) c.classList.add('hb-cont');
+      cont.append(c);
     }
     pg.insertAdjacentHTML('beforeend', docFooter());
     pg.lastElementChild.insertAdjacentHTML('afterbegin', `<span class="doc-pn">${n + 1} / ${N}</span>`);
