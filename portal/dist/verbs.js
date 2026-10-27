@@ -275,7 +275,7 @@ document.addEventListener('click', e => {
     if (!('speechSynthesis' in window)) return;
     speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(VB_STATE.verb.replace(/si$/, 'si'));
-    u.lang = 'it-IT'; u.rate = 0.9; speechSynthesis.speak(u);
+    u.lang = 'it-IT'; u.voice = pickVoice('it-IT'); u.rate = 0.9; speechSynthesis.speak(u);
     return;
   }
   if (a === 'again') return redraw();

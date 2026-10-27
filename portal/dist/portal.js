@@ -271,11 +271,7 @@ function playSpeech() {
   const u = new SpeechSynthesisUtterance(x.media.text);
   u.lang = { it: 'it-IT', en: 'en-GB', fr: 'fr-FR', es: 'es-ES' }[x.language];
   u.rate = Number($('listen-speed').value);
-  const voices = window.speechSynthesis.getVoices();
-  u.voice =
-    voices.find(v => v.lang.toLowerCase() === u.lang.toLowerCase()) ||
-    voices.find(v => v.lang.toLowerCase().startsWith(x.language)) ||
-    null;
+  u.voice = pickVoice(u.lang);
   u.onstart = () => {
     speechActive = true;
     if ($('audio-status')) $('audio-status').textContent = 'Wird vorgelesen …';

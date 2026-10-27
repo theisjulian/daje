@@ -154,6 +154,10 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - Neuer Typ `sentence_completion` (17 Typen): items {start, acceptedAnswers = Schlüsselwörter, modelAnswer}; richtig, wenn die Ergänzung ein Schlüsselwort enthält. Lückentext: optional `wordBank` + `extraWords` (Wortkasten).
 - KI-Kommandodatei 2.2 (Tabelle der Abschnitte in it/en/fr/es, Typen je Abschnitt), KI-Panel „Aufbau“.
 
+## 6j. Sprachausgabe (27.10.2026)
+- `speech.js`: `speakable(text, lang)` macht Wörterbuch-Schreibweisen sprechbar (Endungen bello/-a → „bello, bella“, il/la, Grammatikklammern (-sc-) entfallen, Formen „andare (vado)“, Abkürzungen qn/qc/qs, sb/sth, qqn/qqch, „…“, einzelner Buchstabe wie „è“ wird nicht buchstabiert). `pickVoice(lang)` wählt die beste Gerätestimme (Premium/Enhanced/Neural zuerst). Genutzt in app.js (Wortkarten), portal.js (Hörtext), verbs.js. Test: tests/speech.test.cjs.
+- Grenze: Klang hängt von der Stimme des Geräts ab (iOS: unter Einstellungen → Bedienungshilfen → Gesprochene Inhalte → Stimmen eine „Erweitert“-Stimme laden). Für perfekte Aussprache einzelner Wörter: eigene Aufnahmen im Feld `audio` der Wortliste.
+
 ## 7. Offene Punkte
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.
 - Ecco 3 più importieren (nach Scan, exakte Kapitelzuordnung).
