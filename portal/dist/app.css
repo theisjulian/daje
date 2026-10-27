@@ -8007,3 +8007,9 @@ body.previewing-teaching #teaching-print.dlg-mode{position:fixed;inset:0;z-index
 #teaching-print .hb-sc-row .gp { flex: 1; min-width: 120px; text-align: left; padding-left: 4px; }
 #teaching-print .hb-bank { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 6px 0 4px 38px; padding: 6px 10px; border: 1.2px solid #9aa2ae; border-radius: 4px; font-size: 10pt; }
 #teaching-print .hb-phase.hb-cont::after { content: ' ·  …'; font-weight: 400; }
+
+/* Kein Fokusrahmen um Inhaltsbereiche: iOS fokussiert #main (tabindex=-1, für „Zum Inhalt“) bei jedem Tippen
+   und zeigt sonst einen blauen Rahmen. Bedienelemente behalten ihren Rahmen für die Tastatur. */
+main:focus, main:focus-visible, [tabindex='-1']:focus, [tabindex='-1']:focus-visible { outline: none; }
+.flashcard:focus:not(:focus-visible) { outline: none; }
+@media (hover: none) and (pointer: coarse) { .flashcard:focus-visible { outline: none; } }

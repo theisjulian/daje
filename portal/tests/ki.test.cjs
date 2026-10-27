@@ -55,5 +55,8 @@ console.log('KI-Import: Antwort lesen, Paket ergänzen, Belege prüfen passed.')
   assert.match(pt, /### Text\n\nNegli ultimi anni/);
   assert.match(KI.promptForVocab(cmd, { language: 'it', level: 'A2', mode: 'buch', pages: '34' }), /Fotos sind angehängt[\s\S]*Seiten: 34/);
   assert.throws(() => KI.buildVocabulary({ abbruch: 'Keine Fotos' }, { mode: 'buch' }), /abgebrochen/);
+  // Sprechform „say“ wird übernommen und bleibt im gültigen Paket erhalten.
+  const sv = KI.buildVocabulary({ title: 'T', entries: [{ target: 'bello/-a', translations: ['schön'], say: 'bello, bella' }] }, { language: 'it', level: 'A1', mode: 'buch', collection: 'X' }, validatePackage);
+  assert.equal(sv.result.value.entries[0].say, 'bello, bella');
   console.log('KI Wortschatz passed.');
 }

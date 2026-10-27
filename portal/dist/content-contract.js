@@ -423,6 +423,8 @@
         if (w.tags !== undefined) z.tags = strings(w.tags, path + '.tags', 8);
         if (w.page !== undefined && w.page !== '') z.page = str(w.page, path + '.page', 30);
         if (w.related !== undefined && w.related !== '') z.related = str(w.related, path + '.related', 300);
+        // Sprechform für die Sprachausgabe, wenn die Schreibweise so nicht vorlesbar ist (z. B. „bello/-a“ → „bello, bella“).
+        if (w.say !== undefined && w.say !== '') z.say = str(w.say, path + '.say', 300);
         if (w.ipa !== undefined && w.ipa !== '') z.ipa = str(w.ipa, path + '.ipa', 120);
         if (w.audio !== undefined && w.audio !== '') {
           if (typeof w.audio !== 'string' || !/^assets\/audio\/[a-z0-9][a-z0-9/_-]*\.(mp3|m4a|ogg|wav)$/.test(w.audio))

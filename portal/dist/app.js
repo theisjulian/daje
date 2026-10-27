@@ -377,7 +377,7 @@ function speakWord() {
   speechSynthesis.cancel();
   // Wörterbuch-Schreibweisen (bello/-a, qn, (-sc-), einzelnes „è“) sprechbar machen (speech.js).
   const lang = w.language || config.language;
-  const u = new SpeechSynthesisUtterance(speakable(w.target, lang));
+  const u = new SpeechSynthesisUtterance(w.say || speakable(w.target, lang));
   u.lang = { it: 'it-IT', en: 'en-GB', fr: 'fr-FR', es: 'es-ES' }[lang] || 'it-IT';
   u.voice = pickVoice(u.lang);
   u.rate = 0.9;

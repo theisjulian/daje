@@ -250,7 +250,7 @@
         .map(t => t.trim())
         .filter(Boolean);
       const z = { id: 'w' + (entries.length + 1), target: target.slice(0, 300), translations: tr.length ? tr : ['?'] };
-      for (const f of ['example', 'definition', 'usage'])
+      for (const f of ['example', 'definition', 'usage', 'say'])
         if (w[f] && String(w[f]).trim()) z[f] = String(w[f]).trim().slice(0, f === 'usage' ? 500 : 1000);
       if (book && w.page) z.page = String(w.page).slice(0, 30);
       if (POS.includes(w.partOfSpeech)) {

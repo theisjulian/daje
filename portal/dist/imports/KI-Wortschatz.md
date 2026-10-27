@@ -1,6 +1,6 @@
 # daje · KI-Auftrag Wortschatz
 
-Version 1.0 · Oktober 2026 · passt zu daje-Paketschema 1.2
+Version 1.1 · Oktober 2026 · passt zu daje-Paketschema 1.2
 Gilt für Gemini, ChatGPT, Claude und andere Sprachmodelle, im Chat wie über die API.
 
 ## 1 · Deine Rolle
@@ -38,7 +38,7 @@ Antworte mit **genau einem JSON-Codeblock** (```json … ```) und sonst nichts. 
 Jeder Eintrag in `entries`:
 
 ```json
-{"target":"la stazione","translations":["der Bahnhof"],"partOfSpeech":"noun","gender":"feminine","example":"Il treno parte dalla stazione alle otto.","definition":"Luogo dove partono e arrivano i treni.","usage":"","page":"34","evidence":""}
+{"target":"la stazione","translations":["der Bahnhof"],"partOfSpeech":"noun","gender":"feminine","example":"Il treno parte dalla stazione alle otto.","definition":"Luogo dove partono e arrivano i treni.","usage":"","page":"34","say":"","evidence":""}
 ```
 
 - `target`: das Wort in der **Grundform** (Verben im Infinitiv, Nomen im Singular, Adjektive in der männlichen Singularform). Nomen mit bestimmtem Artikel (Italienisch, Französisch, Spanisch; bei Vokal angleichen: l’, l’). Englisch ohne Artikel, Verben ohne „to“. Feste Wendungen und Kollokationen als Ganzes („prendere piede“, „take part in“).
@@ -49,6 +49,13 @@ Jeder Eintrag in `entries`:
 - `definition`: optional, eigene kurze Erklärung in der Zielsprache.
 - `usage`: optional, kurzer Hinweis: Register („fam.“), Konstruktion („+ di + Infinitiv“), unregelmäßige Formen, besonderer Plural. Sonst leer lassen.
 - `page`: nur bei Buchseiten, die Seitenzahl.
+- `say`: **Sprechform für die Sprachausgabe.** daje liest Wörter mit der Stimme des Geräts vor. Die Stimme liest genau den Text; Schreibweisen aus dem Wörterbuch kann sie nicht deuten. Fülle `say` immer dann, wenn `target` so nicht natürlich vorgelesen würde, und zwar als ausgeschriebenen Text in der Zielsprache, wie man ihn sprechen würde:
+  - Endungen und Formen: `bello/-a` → `bello, bella`; `attore/-trice` → `attore, attrice`; `heureux, -euse` → `heureux, heureuse`; `il/la collega` → `il collega, la collega`.
+  - Abkürzungen: `qc`, `qn`, `sb`, `sth`, `qqn`, `algn` ausschreiben (`qualcosa`, `qualcuno`, `somebody`, `something`, `quelqu’un`, `alguien`).
+  - Grammatikhinweise weglassen: `costruire (-sc-)` → `costruire`; unregelmäßige Formen als Wörter: `andare (vado)` → `andare, vado`.
+  - Einzelne Buchstaben oder sehr kurze Wörter, die sonst buchstabiert würden, in einen Mini-Kontext setzen: `è` → `è, lui è qui`; `y` (fr.) → `il y a`; `a` (it. Präposition) → `a Roma`.
+  - Platzhalter und Auslassungen (`…`, `X`) weglassen oder durch ein Beispielwort ersetzen: `Come si dice …?` → `Come si dice?`.
+  Sonst `say` leer lassen; normale Wörter liest die Stimme richtig.
 - `evidence`: nur bei Text: die Stelle aus dem Text, **wörtlich kopiert** (3 bis 15 Wörter), in der das Wort vorkommt, in der Form des Textes. daje prüft automatisch, ob sie im Text steht.
 
 Unbekannte Felder werden ignoriert. Fehlt dir ein Feld, schreibe den Wunsch als `"SCHEMAWUNSCH: Feld, Zweck, Beispiel"` in `reviewNotes`.
@@ -72,7 +79,7 @@ Unbekannte Felder werden ignoriert. Fehlt dir ein Feld, schreibe den Wunsch als 
 
 ## 6 · Eigenkontrolle vor der Ausgabe
 
-Für jeden Eintrag: (1) Grundform und Artikel richtig? (2) Genus geprüft, nicht geraten? (3) Übersetzung passt zur Bedeutung im Text bzw. im Buch? (4) Akzente und Apostrophe korrekt? (5) Keine Doppelungen? (6) Beispielsatz eigen, natürlich, auf Niveau? (7) Bei Text: `evidence` wörtlich im Text?
+Für jeden Eintrag: (1) Grundform und Artikel richtig? (2) Genus geprüft, nicht geraten? (3) Übersetzung passt zur Bedeutung im Text bzw. im Buch? (4) Akzente und Apostrophe korrekt? (4a) Würde die Stimme `target` richtig vorlesen, sonst `say` gefüllt? (5) Keine Doppelungen? (6) Beispielsatz eigen, natürlich, auf Niveau? (7) Bei Text: `evidence` wörtlich im Text?
 
 ## 7 · Grenzen
 
@@ -81,5 +88,7 @@ Für jeden Eintrag: (1) Grundform und Artikel richtig? (2) Genus geprüft, nicht
 - Ein KI-Ergebnis ist immer ein Entwurf; die Lehrkraft prüft und gibt frei.
 
 ## Änderungen
+
+- 1.1 (Oktober 2026): Feld `say` (Sprechform für die Sprachausgabe), Regeln für Endungen, Abkürzungen, einzelne Buchstaben.
 
 - 1.0 (Oktober 2026): Neu. Zwei Quellen (Buchseiten, Text), technische Felder ergänzt daje, Belegprüfung bei Texten. Ersetzt die „Vokabel-Kommandodatei Schulbuch“.
