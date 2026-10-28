@@ -63,6 +63,7 @@ const grBar = (n, d) => `<div class="lcard-progress" aria-hidden="true"><i style
 function grTrainers() {
   return `<section class="gr-trainers">
     <button class="gr-trainer" data-nav="verben">${icon('verben')}<span><b>Verben</b><small>Alle Zeiten, gestaffelt nach Lernjahr</small></span></button>
+    <button class="gr-trainer" data-nav="wuerfeln">${icon('wuerfeln')}<span><b>Neu würfeln</b><small>Artikel, Plural, Endungen, Verben: jede Runde neue Wörter</small></span></button>
     <button class="gr-trainer" data-nav="zahlen">${icon('zahlen')}<span><b>Zahlen, Uhrzeit, Datum</b><small>Hören, lesen, schreiben</small></span></button>
   </section>`;
 }

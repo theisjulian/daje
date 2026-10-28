@@ -16,6 +16,7 @@
     'verben',
     'grammatik',
     'zahlen',
+    'wuerfeln',
     'quellen',
     'wortschatz',
     'lernen',

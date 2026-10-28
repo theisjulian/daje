@@ -229,6 +229,14 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - Druck: sichere Seitenhöhe 252 mm (Safari/iPad), Fußzeile per `margin-top:auto !important`, Merkkasten-Listen kompakt.
 - Übersetzungen: `werkzeuge/i18n/rows_3.py`.
 
+## 6u. Tastatur, Druck ohne Lücken, mehr Verben, Neu würfeln (28.10.2026)
+
+- Eingabetaste in Lücken springt zur nächsten Lücke (auch über Aufgaben hinweg), gibt nie ab; Tastaturtaste „Weiter/Fertig“ (`views.js`). Verbtabelle ebenso.
+- Kein automatisches Fokussieren auf Touch-Geräten, außer direkt nach dem Tippen (`autoFocusOK`), sonst sprang die Tastatur beim Antippen von Einstellungen auf. Bei offener Tastatur verschwinden Tab-Leiste und Pillen (`body.kb-open`).
+- Druck: `hbSplitter` (dialog.js) teilt lange Aufgaben an Zeilengrenzen (Lückentext-Zeilen, Tabellenzeilen, Satzlisten, Antwortzeilen), damit keine halbleeren Seiten entstehen.
+- Verben: rund 70 weitere (Primo/Secondo anno), Futur der Verben auf -iare korrigiert (sveglierò), Verben mit Fehlern kommen öfter dran (`daje-verben-fehler-v1`).
+- Neu würfeln (`wuerfel.js`, Ansicht `wuerfeln`): Artikel bestimmt/unbestimmt, Plural, Adjektivendungen, Verben; Wörter aus den Wortlisten des Lernjahrs bis zur gewählten Lektion; Plural nur für zählbare, heimische Nomen nach sicheren Regeln. Runde = Paket `wf-<übung>-<stufe>`, gespeichert in `daje-wuerfel-v1`.
+
 ## 7. Offene Punkte
 - Bedienung Ziehen/Antippen auf echtem iPad prüfen (Safari, Stift).
 - Grammatik Secondo/Terzo anno: Themen nach Inhaltsverzeichnis anlegen (Vorlage `werkzeuge/grammatik/anno1`).

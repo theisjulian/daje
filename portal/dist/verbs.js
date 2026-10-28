@@ -163,6 +163,80 @@ const VB_DATA = [
   ['divertirsi', 'sich amüsieren', 'refl', 'ire', {}],
   ['sentirsi', 'sich fühlen', 'refl', 'ire', {}],
   ['mettersi', 'sich (etw.) anziehen, sich setzen', 'refl', 'ere', { pp: 'messo' }],
+  // Primo anno: weitere häufige Verben
+  ['aspettare', 'warten', 'reg', 'are', {}],
+  ['ballare', 'tanzen', 'reg', 'are', {}],
+  ['cantare', 'singen', 'reg', 'are', {}],
+  ['cucinare', 'kochen', 'reg', 'are', {}],
+  ['entrare', 'eintreten', 'reg', 'are', { aux: 'essere' }],
+  ['imparare', 'lernen', 'reg', 'are', {}],
+  ['incontrare', 'treffen', 'reg', 'are', {}],
+  ['invitare', 'einladen', 'reg', 'are', {}],
+  ['nuotare', 'schwimmen', 'reg', 'are', {}],
+  ['portare', 'bringen, tragen', 'reg', 'are', {}],
+  ['preparare', 'vorbereiten', 'reg', 'are', {}],
+  ['provare', 'probieren, anprobieren', 'reg', 'are', {}],
+  ['restare', 'bleiben', 'reg', 'are', { aux: 'essere' }],
+  ['suonare', 'spielen (Instrument), klingeln', 'reg', 'are', {}],
+  ['telefonare', 'telefonieren', 'reg', 'are', {}],
+  ['trovare', 'finden', 'reg', 'are', {}],
+  ['viaggiare', 'reisen', 'reg', 'are', {}],
+  ['visitare', 'besichtigen, besuchen', 'reg', 'are', {}],
+  ['chiamare', 'rufen, anrufen', 'reg', 'are', {}],
+  ['pensare', 'denken', 'reg', 'are', {}],
+  ['lasciare', 'lassen, verlassen', 'reg', 'are', {}],
+  ['spiegare', 'erklären', 'reg', 'are', {}],
+  ['mandare', 'schicken', 'reg', 'are', {}],
+  ['disegnare', 'zeichnen', 'reg', 'are', {}],
+  ['ricordare', 'sich erinnern an', 'reg', 'are', {}],
+  ['chiudere', 'schließen', 'reg', 'ere', { pp: 'chiuso' }],
+  ['credere', 'glauben', 'reg', 'ere', {}],
+  ['perdere', 'verlieren', 'reg', 'ere', { pp: 'perso' }],
+  ['ricevere', 'erhalten', 'reg', 'ere', {}],
+  ['ripetere', 'wiederholen', 'reg', 'ere', {}],
+  ['spendere', 'ausgeben (Geld)', 'reg', 'ere', { pp: 'speso' }],
+  ['correre', 'laufen, rennen', 'reg', 'ere', { pp: 'corso' }],
+  ['decidere', 'entscheiden', 'reg', 'ere', { pp: 'deciso' }],
+  ['scendere', 'hinuntergehen, aussteigen', 'reg', 'ere', { pp: 'sceso', aux: 'essere' }],
+  ['seguire', 'folgen', 'reg', 'ire', {}],
+  ['servire', 'dienen, nützen', 'reg', 'ire', {}],
+  ['spedire', 'schicken (Post)', 'reg', 'isc', {}],
+  ['costruire', 'bauen', 'reg', 'isc', {}],
+  ['prepararsi', 'sich vorbereiten', 'refl', 'are', {}],
+  ['riposarsi', 'sich ausruhen', 'refl', 'are', {}],
+  ['fermarsi', 'anhalten, stehen bleiben', 'refl', 'are', {}],
+  ['addormentarsi', 'einschlafen', 'refl', 'are', {}],
+  ['annoiarsi', 'sich langweilen', 'refl', 'are', {}],
+  // Secondo anno
+  ['vincere', 'gewinnen', 'reg', 'ere', { pp: 'vinto' }, 2],
+  ['accendere', 'anzünden, einschalten', 'reg', 'ere', { pp: 'acceso' }, 2],
+  ['piangere', 'weinen', 'reg', 'ere', { pp: 'pianto' }, 2],
+  ['ridere', 'lachen', 'reg', 'ere', { pp: 'riso' }, 2],
+  ['sorridere', 'lächeln', 'reg', 'ere', { pp: 'sorriso' }, 2],
+  ['smettere', 'aufhören', 'reg', 'ere', { pp: 'smesso' }, 2],
+  ['promettere', 'versprechen', 'reg', 'ere', { pp: 'promesso' }, 2],
+  ['permettere', 'erlauben', 'reg', 'ere', { pp: 'permesso' }, 2],
+  ['descrivere', 'beschreiben', 'reg', 'ere', { pp: 'descritto' }, 2],
+  ['correggere', 'korrigieren', 'reg', 'ere', { pp: 'corretto' }, 2],
+  ['discutere', 'diskutieren', 'reg', 'ere', { pp: 'discusso' }, 2],
+  ['nascere', 'geboren werden', 'reg', 'ere', { pp: 'nato', aux: 'essere', noImp: true }, 2],
+  ['soffrire', 'leiden', 'reg', 'ire', { pp: 'sofferto' }, 2],
+  ['scoprire', 'entdecken', 'reg', 'ire', { pp: 'scoperto' }, 2],
+  ['suggerire', 'vorschlagen', 'reg', 'isc', {}, 2],
+  ['sparire', 'verschwinden', 'reg', 'isc', { aux: 'essere' }, 2],
+  ['spegnere', 'ausmachen, ausschalten', 'irr', 'ere', {
+    pp: 'spento', pres: ['spengo', 'spegni', 'spegne', 'spegniamo', 'spegnete', 'spengono']
+  }, 2],
+  ['tradurre', 'übersetzen', 'irr', 'ere', {
+    pp: 'tradotto', pres: ['traduco', 'traduci', 'traduce', 'traduciamo', 'traducete', 'traducono'], impf: 'traducev', fut: 'tradurr'
+  }, 2],
+  ['sedersi', 'sich setzen', 'refl', 'ere', {
+    pres: ['siedo', 'siedi', 'siede', 'sediamo', 'sedete', 'siedono']
+  }, 2],
+  ['innamorarsi', 'sich verlieben', 'refl', 'are', {}, 2],
+  ['arrabbiarsi', 'sich ärgern', 'refl', 'are', {}, 2],
+  ['iscriversi', 'sich anmelden', 'refl', 'ere', { pp: 'iscritto' }, 2],
+  ['trasferirsi', 'umziehen', 'refl', 'isc', {}, 2],
   // Terzo anno
   ['accettare', 'annehmen', 'reg', 'are', {}, 3],
   ['apprezzare', 'schätzen', 'reg', 'are', {}, 3],
@@ -250,7 +324,8 @@ function vbBuild([inf, de, group, cls, o0, band0]) {
   const impf = Array.isArray(o.impf) ? o.impf : ['o', 'i', 'a', 'amo', 'ate', 'ano'].map(e => impfStem + e);
   let fs = o.fut;
   if (!fs) {
-    if (cls === 'are') fs = (hard ? stem + 'h' : /[cg]i$/.test(stem) ? stem.slice(0, -1) : /i$/.test(stem) && !o.keepI ? stem.slice(0, -1) : stem) + 'er';
+    // -ciare/-giare verlieren das i (mangerò), sonst bleibt es (studierò, sveglierò)
+    if (cls === 'are') fs = (hard ? stem + 'h' : /[cg]i$/.test(stem) ? stem.slice(0, -1) : stem) + 'er';
     else fs = stem + (cls === 'ere' ? 'er' : 'ir');
     if (cls === 'are' && /[cg]$/.test(stem) && !hard) fs = stem + 'er';
   }
@@ -316,6 +391,23 @@ const VB_VERBS = VB_DATA.map(vbBuild);
 
 /* Sätze für „Im Satz“ und „Welche Form?“: [Band, Zeit, Verb, Person, Satz mit ___ ]. Person bei imp: 0 tu, 1 Lei, 2 noi, 3 voi. */
 const VB_SENT = [
+  [1, 'pres', 'aspettare', 0, '(Io) ___ l’autobus davanti alla scuola.'],
+  [1, 'pres', 'cucinare', 2, 'La domenica il nonno ___ le lasagne.'],
+  [1, 'pres', 'suonare', 1, '(Tu) ___ la chitarra?'],
+  [1, 'pres', 'chiudere', 4, 'Ragazzi, ___ la finestra, per favore?'],
+  [1, 'pres', 'spedire', 3, '(Noi) ___ una cartolina ai nonni.'],
+  [1, 'pres', 'annoiarsi', 5, 'Durante le vacanze i miei fratelli ___ un po’.'],
+  [1, 'pp', 'perdere', 0, 'Ieri (io) ___ le chiavi di casa.'],
+  [1, 'pp', 'scendere', 2, 'Giulia ___ dall’autobus in piazza.'],
+  [1, 'pp', 'incontrare', 3, 'Sabato (noi) ___ Marco al cinema.'],
+  [1, 'pp', 'decidere', 5, 'I ragazzi ___ di andare al mare.'],
+  [1, 'pp', 'addormentarsi', 1, 'A che ora ___ ieri sera, Luca?'],
+  [2, 'impf', 'nuotare', 3, 'Da bambini (noi) ___ ogni giorno nel lago.'],
+  [2, 'fut', 'viaggiare', 0, 'L’anno prossimo (io) ___ in Sicilia.'],
+  [2, 'cond', 'spegnere', 1, '___ (tu) la luce, per favore?'],
+  [2, 'pp', 'vincere', 5, 'Ieri le ragazze ___ la partita.'],
+  [2, 'pres', 'sedersi', 0, 'In classe (io) ___ sempre vicino alla finestra.'],
+  [2, 'imp', 'spegnere', 0, '___ il telefono durante la lezione!'],
   [1, 'pres', 'prendere', 0, 'Ogni mattina (io) ___ l’autobus alle sette.'],
   [1, 'pres', 'giocare', 2, 'Marco ___ a calcio il sabato.'],
   [1, 'pres', 'capire', 4, 'Ragazzi, ___ l’esercizio?'],
@@ -438,6 +530,33 @@ const vbList = () => VB_VERBS.filter(v => v.band <= VB_STATE.band && (VB_STATE.g
 const vbCurrent = () => vbList().find(v => v.inf === VB_STATE.verb) || vbList()[0] || VB_VERBS[0];
 const vbShuffle = a => a.map(x => [Math.random(), x]).sort((p, q) => p[0] - q[0]).map(x => x[1]);
 const vbVerb = inf => VB_VERBS.find(v => v.inf === inf);
+/* Je nach Können: Verben mit Fehlern kommen öfter dran (pro Gerät gespeichert, Fehler zählen doppelt, Treffer bauen ab). */
+const VB_ERR_KEY = 'daje-verben-fehler-v1';
+let vbErr = (() => {
+  try {
+    const x = JSON.parse(localStorage.getItem(VB_ERR_KEY) || '{}');
+    return x && typeof x === 'object' ? x : {};
+  } catch (e) {
+    return {};
+  }
+})();
+function vbMark(inf, ok) {
+  const n = vbErr[inf] || 0;
+  const m = ok ? n - 1 : Math.min(6, n + 2);
+  if (m > 0) vbErr[inf] = m;
+  else delete vbErr[inf];
+  try {
+    localStorage.setItem(VB_ERR_KEY, JSON.stringify(vbErr));
+  } catch (e) {}
+}
+const vbWeight = inf => 1 + 2 * (vbErr[inf] || 0);
+/* Gewichtet mischen: Verben mit Fehlern stehen eher vorn. */
+const vbWShuffle = (a, inf) => a.map(x => [Math.pow(Math.random(), 1 / vbWeight(inf(x))), x]).sort((p, q) => q[0] - p[0]).map(x => x[1]);
+const vbPick = verbs => {
+  let r = Math.random() * verbs.reduce((s, v) => s + vbWeight(v.inf), 0);
+  for (const v of verbs) if ((r -= vbWeight(v.inf)) <= 0) return v;
+  return verbs[verbs.length - 1];
+};
 /* Tipp: Anfang der Form zeigen (Hilfsverb ganz, vom Wort etwa ein Drittel). */
 const vbHint = f => {
   const parts = f.split(' ');
@@ -456,6 +575,10 @@ const VB_MODES = [
   ['aux', 'Hilfsverb', 'avere oder essere + Partizip']
 ];
 
+function vbErrLine() {
+  const list = Object.keys(vbErr).filter(inf => vbVerb(inf) && vbVerb(inf).band <= VB_STATE.band).sort((a, b) => vbErr[b] - vbErr[a]).slice(0, 8);
+  return list.length ? `<p class="small muted vb-err"><span>Kommen öfter dran, bis sie sitzen:</span> <span lang="it">${list.map(esc).join(', ')}</span></p>` : '';
+}
 function vbCtrl() {
   const m = VB_STATE.mode;
   const bands = `<div class="ws-seg vb-band" role="tablist" aria-label="Lehrwerk">${VB_BANDS.map(([b, l]) => `<button role="tab" aria-selected="${VB_STATE.band === b}" data-vb="band" data-v="${b}">${l}</button>`).join('')}</div>`;
@@ -467,7 +590,7 @@ function vbCtrl() {
   const g = VB_GROUPS.map(([k, l]) => `<button type="button" class="vb-chip ${VB_STATE.group === k ? 'on' : ''}" data-vb="group" data-v="${k}">${l}</button>`).join('');
   const t = tAll + tenses.map(([k, l, b]) => `<button type="button" class="vb-chip ${VB_STATE.tense === k ? 'on' : ''} ${b === VB_STATE.band && b > 1 ? 'new' : ''}" data-vb="tense" data-v="${k}">${l}</button>`).join('');
   const v = m === 'table' ? vbList().map(x => `<button type="button" class="vb-verb ${vbCurrent().inf === x.inf ? 'on' : ''} ${x.band === VB_STATE.band && x.band > 1 ? 'new' : ''}" data-vb="verb" data-v="${x.inf}">${x.inf}</button>`).join('') : '';
-  return `${bands}${modes}<section class="vb-ctrl glass">${showGroup ? `<div class="vb-row"><span class="vb-label">Verben</span><div class="vb-chips">${g}</div></div>` : ''}${showTense ? `<div class="vb-row"><span class="vb-label">Zeit</span><div class="vb-chips">${t}</div></div>` : ''}${v ? `<div class="vb-row"><span class="vb-label">Verb</span><div class="vb-chips vb-verbs">${v}</div></div>` : ''}<p class="small muted vb-legend">${VB_STATE.band > 1 ? '<span>Markiert: neu in diesem Lernjahr.</span> ' : ''}<span>Die Auswahl enthält alles bis einschließlich:</span> <b>${VB_BANDS[VB_STATE.band - 1][1]}</b></p></section>`;
+  return `${bands}${modes}<section class="vb-ctrl glass">${showGroup ? `<div class="vb-row"><span class="vb-label">Verben</span><div class="vb-chips">${g}</div></div>` : ''}${showTense ? `<div class="vb-row"><span class="vb-label">Zeit</span><div class="vb-chips">${t}</div></div>` : ''}${v ? `<div class="vb-row"><span class="vb-label">Verb</span><div class="vb-chips vb-verbs">${v}</div></div>` : ''}<p class="small muted vb-legend">${VB_STATE.band > 1 ? '<span>Markiert: neu in diesem Lernjahr.</span> ' : ''}<span>Die Auswahl enthält alles bis einschließlich:</span> <b>${VB_BANDS[VB_STATE.band - 1][1]}</b></p>${vbErrLine()}</section>`;
 }
 function vbTable() {
   const v = vbCurrent(),
@@ -492,7 +615,7 @@ function vbItems(mode) {
     let pool = VB_SENT.filter(s => s[0] <= band && tenses.includes(s[1]) && vbVerb(s[2]) && vbVerb(s[2]).tenses[s[1]]);
     if (pool.length < 4) pool = VB_SENT.filter(s => s[0] <= band && vbVerb(s[2]).tenses[s[1]]);
     // neueste Inhalte bevorzugen: Sätze des gewählten Bands zuerst
-    pool = [...vbShuffle(pool.filter(s => s[0] === band)), ...vbShuffle(pool.filter(s => s[0] !== band))].slice(0, 10);
+    pool = [...vbWShuffle(pool.filter(s => s[0] === band), s => s[2]), ...vbWShuffle(pool.filter(s => s[0] !== band), s => s[2])].slice(0, 10);
     return vbShuffle(pool).map(([b, tense, inf, p, text]) => {
       const verb = vbVerb(inf);
       return { verb, tense, p, text, forms: verb.tenses[tense][p] };
@@ -501,7 +624,7 @@ function vbItems(mode) {
   const verbs = VB_VERBS.filter(v => v.band <= band && (VB_STATE.group === 'all' || v.group === VB_STATE.group));
   const items = [];
   for (let i = 0; i < 10 && verbs.length; i++) {
-    const verb = verbs[Math.floor(Math.random() * verbs.length)];
+    const verb = vbPick(verbs);
     if (mode === 'aux') {
       items.push({ verb, tense: 'pp', p: 0, forms: [verb.pp, ...(verb.aux === 'essere' ? [verb.pp.replace(/o$/, 'a')] : [])] });
       continue;
@@ -571,6 +694,7 @@ function verbsPage() {
   $('main').innerHTML = `<div class="page vb-page"><header class="page-head"><div class="eyebrow">VERBEN</div><h1>Verbi.</h1><p>Wähle deinen Band. Zeiten und Verben kommen Schritt für Schritt dazu, unregelmäßige Formen inklusive.</p></header>
   ${vbCtrl()}
   ${VB_STATE.mode === 'table' ? vbTable() : vbRound()}</div>`;
+  if (!autoFocusOK()) return;
   if (!VB_STATE.checked && VB_STATE.mode === 'table') document.querySelector('[data-vb-in="0"]')?.focus({ preventScroll: true });
   const q = VB_STATE.quiz;
   if (VB_STATE.mode !== 'table' && q && !q.done && !q.checked) document.getElementById('vb-q')?.focus({ preventScroll: true });
@@ -579,6 +703,18 @@ function vbQuizStart() {
   const items = vbItems(VB_STATE.mode);
   VB_STATE.quiz = { mode: VB_STATE.mode, items, i: 0, good: 0, total: items.length, checked: false, answer: '', done: !items.length };
 }
+/* Tabelle: Eingabetaste springt in die nächste Zeile; erst in der letzten Zeile wird geprüft. */
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Enter' || e.isComposing || !e.target.matches?.('[data-vb-in]')) return;
+  const next = document.querySelector(`[data-vb-in="${Number(e.target.dataset.vbIn) + 1}"]:not([readonly])`);
+  if (!next) return;
+  e.preventDefault();
+  next.focus();
+  next.select();
+});
+document.addEventListener('focusin', e => {
+  if (e.target.matches?.('[data-vb-in]')) e.target.enterKeyHint = document.querySelector(`[data-vb-in="${Number(e.target.dataset.vbIn) + 1}"]`) ? 'next' : 'done';
+});
 let vbLastInput = null;
 document.addEventListener('focusin', e => {
   if (e.target.matches?.('.vb-in')) vbLastInput = e.target;
@@ -639,6 +775,7 @@ document.addEventListener('click', e => {
     const c = q.items[q.i];
     q.answer = v;
     q.res = c.forms.includes(v) ? 'ok' : 'wrong';
+    vbMark(c.verb.inf, q.res === 'ok');
     if (q.res === 'ok') q.good++;
     q.checked = true;
     return verbsPage();
@@ -661,6 +798,8 @@ document.addEventListener('submit', e => {
     document.querySelectorAll('[data-vb-in]').forEach(i => (VB_STATE.answers[Number(i.dataset.vbIn)] = i.value));
     VB_STATE.verb = vbCurrent().inf;
     VB_STATE.checked = true;
+    const forms = vbCurrent().tenses[VB_STATE.tense];
+    vbMark(VB_STATE.verb, forms.every((f, i) => vbJudge(f, VB_STATE.answers[i] || '') === 'ok'));
     verbsPage();
   }
   if (e.target.id === 'vb-qform') {
@@ -671,6 +810,7 @@ document.addEventListener('submit', e => {
     if (q.res === 'empty') return;
     // Hilfsverb-Übung: nur richtig, wenn auch das Hilfsverb stimmt
     if (q.mode === 'aux' && q.aux !== c.verb.aux && q.res === 'ok') q.res = 'wrong';
+    vbMark(c.verb.inf, q.res === 'ok');
     if (q.res === 'ok') q.good++;
     q.checked = true;
     verbsPage();

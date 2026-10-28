@@ -98,6 +98,46 @@ function dlgPaginate() {
    schmale Kopfzeile, auf jeder Seite die Seitenzahl. Bliebe die letzte Seite fast leer, wird der Abstand
    verdichtet, sofern das eine Seite spart. */
 let hbFlatHTML = '';
+/* Teilbare Aufgabe: Zeilen eines Lückentexts, Zeilen von Tabellen und Satzlisten, Antwortzeilen.
+   make(a, b) liefert eine Kopie mit den Zeilen a … b−1; Fortsetzungen ohne Kopf, Wortkasten und Erklärung. */
+function hbSplitter(li) {
+  const rowsOf = el => {
+    if (el.matches('p.hb-gap')) return { kind: 'lines', n: el.innerHTML.split('\n').length };
+    if (el.matches('table')) return { kind: 'rows', n: el.tBodies[0]?.rows.length || 0 };
+    if (el.matches('.hb-sc, .hb-notes, .hb-opts')) return { kind: 'kids', n: el.children.length };
+    return null;
+  };
+  const kids = [...li.children];
+  let body = kids.find(el => rowsOf(el) && rowsOf(el).n > 1);
+  let info = body && rowsOf(body);
+  // Ordnen und Antwortzeilen: mehrere gleichartige Kinder direkt in der Aufgabe
+  if (!body) {
+    const run = kids.filter(el => el.matches('.hb-o, .hb-line'));
+    if (run.length > 1) info = { kind: 'direct', n: run.length };
+  }
+  if (!info || info.n < 2) return null;
+  const idx = body ? kids.indexOf(body) : -1;
+  return {
+    n: info.n,
+    make(a, b) {
+      const c = li.cloneNode(true);
+      const ck = [...c.children];
+      if (info.kind === 'direct') ck.filter(el => el.matches('.hb-o, .hb-line')).forEach((el, i) => (i < a || i >= b) && el.remove());
+      else {
+        const cb = ck[idx];
+        if (info.kind === 'lines') cb.innerHTML = cb.innerHTML.split('\n').slice(a, b).join('\n');
+        else if (info.kind === 'rows') [...cb.tBodies[0].rows].forEach((r, i) => (i < a || i >= b) && r.remove());
+        else [...cb.children].forEach((r, i) => (i < a || i >= b) && r.remove());
+      }
+      if (a > 0) {
+        c.classList.add('hb-q-cont');
+        c.querySelectorAll(':scope > .hb-qh, :scope > .hb-bank').forEach(el => el.remove());
+      }
+      if (b < info.n) c.querySelectorAll(':scope > .hb-ex, :scope > .hb-sol').forEach(el => el.remove());
+      return c;
+    }
+  };
+}
 function hbPaginate() {
   const sheet = $('teaching-print'), pages = sheet && sheet.querySelector('.pages');
   const paper = pages && pages.querySelector(':scope > .paper'), hb = paper && paper.querySelector(':scope > .hb');
@@ -142,11 +182,50 @@ function hbPaginate() {
   const runH = probe.offsetHeight + parseFloat(getComputedStyle(probe).marginBottom);
   probe.remove();
   const footH = (foot ? foot.offsetHeight : 30) + 10;
+  // Höhe eines (abgetrennten) Aufgabenteils in der fortlaufenden Liste messen.
+  const hOf = node => {
+    const end = document.createElement('li');
+    end.style.cssText = 'margin:0;padding:0;height:0;border:0;list-style:none';
+    list.append(node, end);
+    const h = y(end) - y(node);
+    node.remove();
+    end.remove();
+    return h;
+  };
+  // Lange Aufgabe an Zeilengrenzen teilen, damit keine halbleeren Seiten entstehen.
+  const splitQ = (u, room) => {
+    const sp = hbSplitter(u.node);
+    if (!sp || sp.n < 2) return null;
+    let k = 0;
+    for (let i = 1; i < sp.n; i++) {
+      if (hOf(sp.make(0, i)) <= room) k = i;
+      else break;
+    }
+    if (!k) return null;
+    const a = sp.make(0, k), b = sp.make(k, sp.n);
+    return [{ ...u, node: a, h: hOf(a) }, { ...u, node: b, h: hOf(b), glue: false }];
+  };
   const split = ({ headH, blocks }) => {
     const out = [];
     let cur = [], used = 0, cap = INNER - footH - headH, phase = null;
-    for (const b of blocks) {
-      const bh = b.reduce((s, x) => s + x.h, 0);
+    blocks = blocks.slice();
+    for (let bi = 0; bi < blocks.length; bi++) {
+      let b = blocks[bi];
+      let bh = b.reduce((s, x) => s + x.h, 0);
+      // Passt die Aufgabe nicht mehr, aber ist noch viel Platz (oder ist sie länger als eine Seite)? Dann teilen.
+      const last = b[b.length - 1];
+      if (list && used + bh > cap && last.box === 'list' && last.node.classList?.contains('hb-q') && !b[0].brk) {
+        const pre = b.slice(0, -1).reduce((s, x) => s + x.h, 0);
+        const room = cap - used - pre;
+        if (room > Math.max(90, cap * 0.18) || bh > cap * 0.9) {
+          const parts = splitQ(last, cur.length || used ? room : cap - pre);
+          if (parts) {
+            b = [...b.slice(0, -1), parts[0]];
+            blocks.splice(bi + 1, 0, [parts[1]]);
+            bh = b.reduce((s, x) => s + x.h, 0);
+          }
+        }
+      }
       // Neues Blatt (Arbeitsblatt-Mappe) beginnt immer auf einer neuen Seite.
       if ((used + bh > cap || b[0].brk) && cur.length) {
         out.push(cur);

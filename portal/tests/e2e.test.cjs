@@ -548,6 +548,13 @@ async function step(name, fn) {
     await dragTo(pp, `#q-${oq.id} .sb-line [data-ix-item="${oq.items[0].id}"]`, `#q-${oq.id} .sb-line [data-ix-item="${oq.items[1].id}"]`, -0.4);
     const got = await pp.$$eval(`#q-${oq.id} .sb-line [data-ix-item]`, l => l.map(e => e.dataset.ixItem));
     assert.deepEqual(got, oq.items.map(i => i.id), 'Satzbaukasten nach Ziehen: ' + got);
+    // Eingabetaste springt zur nächsten Lücke und gibt nicht ab
+    const gf = await pp.evaluate(() => contentList('grammar').find(x => x.questions[0].type === 'gap_fill' && x.questions[0].gaps.length > 2).id);
+    await pp.evaluate(i => openListening(i), gf);
+    await pp.fill('#listening-form input.gap >> nth=0', 'xyz');
+    await pp.press('#listening-form input.gap >> nth=0', 'Enter');
+    assert.equal(await pp.evaluate(() => [...document.querySelectorAll('#listening-form input.gap')].indexOf(document.activeElement)), 1);
+    assert.ok(!(await pp.$('.result-banner')), 'Enter darf nicht abgeben');
     await pp.evaluate(i => openListening(i), 'g-ecco1-artikel-sg-l1');
     await pp.click('#listening-form [type=submit]');
     assert.match(await pp.textContent('.result-banner'), /1 von 1|alle|Super|richtig/i);
@@ -558,6 +565,28 @@ async function step(name, fn) {
     const ans = await pp.evaluate(() => NU_STATE.quiz.items[0].answers[0]);
     await pp.click(`.vb-opt[data-v="${ans}"]`);
     assert.match(await pp.textContent('.vb-fb'), /Richtig/);
+  });
+
+  await step('Neu würfeln: Runde lösen, neu würfeln ergibt neue Wörter', async () => {
+    await pp.goto(base + '?seite=grammatik', { waitUntil: 'networkidle' });
+    await pp.click('.gr-trainer[data-nav="wuerfeln"]');
+    await pp.click('[data-wf-band="1"]');
+    for (const [d, l] of [['artikel', 'schwer'], ['indet', 'mittel'], ['plurale', 'leicht'], ['aggettivi', 'mittel'], ['verbi', 'schwer']]) {
+      const ok = await pp.evaluate(([d, l]) => { try { wfBuild(d, l); return true; } catch (e) { return e.message; } }, [d, l]);
+      assert.equal(ok, true, d + ' ' + l + ': ' + ok);
+    }
+    await pp.click('[data-wf-go="artikel"][data-level="leicht"]');
+    const first = await pp.evaluate(() => currentLesson().questions[0].text);
+    const answers = await pp.evaluate(() => currentLesson().questions[0].gaps.map(g => g.answer));
+    for (let i = 0; i < answers.length; i++) await pp.locator('.gc').nth(i).getByRole('button', { name: answers[i], exact: true }).click();
+    await pp.click('#listening-form [type=submit]');
+    assert.match(await pp.textContent('.result-score'), /1\s*von 1/);
+    await pp.click('.result-banner [data-wf-roll]');
+    const second = await pp.evaluate(() => currentLesson().questions[0].text);
+    assert.notEqual(first, second);
+    assert.equal(await pp.$$eval('.gc.is-set', l => l.length), 0, 'neue Runde ohne alte Antworten');
+    await pp.reload({ waitUntil: 'networkidle' });
+    assert.ok(await pp.$('#listening-form .gc'), 'Runde nach Neuladen noch da');
   });
 
   await step('Arbeitsblatt-Mappe: sammeln, ordnen, zwei Blätter, PDF-Vorschau und Lösungen', async () => {

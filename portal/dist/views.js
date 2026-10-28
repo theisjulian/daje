@@ -732,7 +732,7 @@ function showFocus(i) {
   document.querySelectorAll('.qstep').forEach((a, k) => a.classList.toggle('is-current', k === focusIndex));
   const head = document.querySelector('.tasks-head');
   if (head && head.getBoundingClientRect().top < 0) head.scrollIntoView({ block: 'start' });
-  form?.querySelector('fieldset.is-current input:not([type=radio]):not([type=checkbox]), fieldset.is-current select')?.focus({ preventScroll: true });
+  if (autoFocusOK()) form?.querySelector('fieldset.is-current input:not([type=radio]):not([type=checkbox]), fieldset.is-current select')?.focus({ preventScroll: true });
 }
 document.addEventListener('click', e => {
   const b = e.target.closest('[data-focus]');
@@ -751,15 +751,55 @@ document.addEventListener('click', e => {
     showFocus([...document.querySelectorAll('.qstep')].indexOf(step));
   }
 });
+/* Eingabetaste in einer Lücke: zur nächsten Lücke springen (auch in die nächste Aufgabe), nie abgeben.
+   Nach der letzten Lücke schließt sich die Tastatur; abgegeben wird nur mit dem Knopf. */
+const TEXT_INPUT = 'input:not([type=radio]):not([type=checkbox]):not([type=hidden]):not([readonly])';
 document.addEventListener('keydown', e => {
-  if (e.key !== 'Enter' || !e.target.closest?.('#listening-form.focus fieldset.is-current')) return;
-  if (e.target.tagName !== 'INPUT' || e.target.type === 'radio' || e.target.type === 'checkbox') return;
-  const x = currentLesson();
-  if (x && focusIndex < x.questions.length - 1) {
-    e.preventDefault();
-    showFocus(focusIndex + 1);
+  if (e.key !== 'Enter' || e.isComposing || !e.target.matches?.(TEXT_INPUT) || !e.target.closest('#listening-form')) return;
+  e.preventDefault();
+  const form = $('listening-form');
+  const all = [...form.querySelectorAll(TEXT_INPUT)];
+  const next = all[all.indexOf(e.target) + 1];
+  if (!next) {
+    e.target.blur();
+    form.querySelector('.checkbar')?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    return;
   }
+  const fs = next.closest('fieldset.q');
+  if (form.classList.contains('focus') && fs && !fs.classList.contains('is-current')) showFocus(Number(fs.dataset.index));
+  next.focus();
+  next.select?.();
 });
+/* Tastatur-Taste beschriften: „Weiter“ bzw. bei der letzten Lücke „Fertig“. */
+document.addEventListener('focusin', e => {
+  if (!e.target.matches?.(TEXT_INPUT)) return;
+  const form = e.target.closest('#listening-form');
+  if (!form) return;
+  const all = [...form.querySelectorAll(TEXT_INPUT)];
+  e.target.enterKeyHint = all.indexOf(e.target) === all.length - 1 ? 'done' : 'next';
+});
+/* Automatisch ins Eingabefeld springen: am Computer immer; auf Tablet und Handy nur, wenn gerade getippt wurde
+   (sonst öffnet sich die Bildschirmtastatur, z. B. beim Antippen einer Einstellung). */
+let lastTyping = 0;
+document.addEventListener('input', e => {
+  if (e.target.matches?.('input,textarea')) lastTyping = Date.now();
+});
+document.addEventListener('keydown', e => {
+  if (e.target.matches?.('input,textarea')) lastTyping = Date.now();
+});
+const autoFocusOK = () => matchMedia('(hover: hover) and (pointer: fine)').matches || Date.now() - lastTyping < 5000;
+/* Bildschirmtastatur offen: Leisten am unteren Rand ausblenden, damit sie nicht über der Tastatur schweben. */
+{
+  const coarse = () => matchMedia('(pointer: coarse)').matches;
+  document.addEventListener('focusin', e => {
+    if (coarse() && e.target.matches?.('input:not([type=radio]):not([type=checkbox]):not([type=range]),textarea,[contenteditable]')) document.body.classList.add('kb-open');
+  });
+  document.addEventListener('focusout', () =>
+    setTimeout(() => {
+      if (!document.activeElement?.matches?.('input:not([type=radio]):not([type=checkbox]):not([type=range]),textarea,[contenteditable]')) document.body.classList.remove('kb-open');
+    }, 120)
+  );
+}
 
 function resultBanner(x, state) {
   if (!state.checked || !state.lastResult) return '';

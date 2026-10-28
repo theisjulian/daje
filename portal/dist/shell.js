@@ -15,6 +15,7 @@ const ICONS = {
   fortschritt: '<path d="M4 20V10M10 20V4M16 20v-7M21 20H3"/>',
   verben: '<path d="M5 6h14M5 12h14M5 18h9"/>',
   grammatik: '<path d="M3.5 19 8.5 5h1.5l5 14"/><path d="M5.6 13.5h7.3"/><path d="M17 8.5h4M19 6.5v4"/>',
+  wuerfeln: '<rect x="4" y="4" width="16" height="16" rx="3.5"/><circle cx="9" cy="9" r="1.1" fill="currentColor"/><circle cx="15" cy="15" r="1.1" fill="currentColor"/><circle cx="15" cy="9" r="1.1" fill="currentColor"/><circle cx="9" cy="15" r="1.1" fill="currentColor"/>',
   zahlen: '<path d="M9.5 4 7.5 20M16.5 4l-2 16M4.5 9h15M3.5 15h15"/>',
   hilfe:
     '<path d="M9 18h6M10 21h4"/><path d="M12 3.5a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.4 1.1 2.2h5c0-.8.4-1.6 1.1-2.2A6 6 0 0 0 12 3.5Z"/>',
@@ -51,6 +52,7 @@ const NAV_GROUP = {
   wortschatz: 'vokabeln',
   verben: 'grammatik',
   zahlen: 'grammatik',
+  wuerfeln: 'grammatik',
   hoeruebung: 'hoeren',
   verlauf: 'sammlung'
 };

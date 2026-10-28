@@ -42,4 +42,18 @@ VB_SENT.forEach(([b, t, inf, p, text]) => {
   assert.ok(text.includes('___'), 'Satz ohne Lücke: ' + text);
   assert.ok(v.band <= b, 'Verb erst später: ' + text);
 });
+// Weitere Verben und Futur der Verben auf -iare
+assert.equal(g('svegliarsi').fut[0][0], 'mi sveglierò');
+assert.equal(g('annoiarsi').fut[3][0], 'ci annoieremo');
+assert.equal(g('viaggiare').fut[0][0], 'viaggerò');
+assert.equal(g('lasciare').pres[1][0], 'lasci');
+assert.equal(g('spiegare').pres[3][0], 'spieghiamo');
+assert.equal(g('spegnere').pres[5][0], 'spengono');
+assert.equal(g('sedersi').pres[0][0], 'mi siedo');
+assert.equal(g('sedersi').imp[0][0], 'siediti');
+assert.equal(g('trasferirsi').pres[0][0], 'mi trasferisco');
+assert.equal(g('scendere').pp[2][1], 'è scesa');
+assert.equal(g('tradurre').fut[0][0], 'tradurrò');
+assert.equal(VB_VERBS.find(v => v.inf === 'vincere').band, 2);
+assert.ok(VB_VERBS.filter(v => v.band === 1).length >= 80, 'Primo anno: viele Verben');
 console.log('Verben passed.');

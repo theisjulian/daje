@@ -227,7 +227,7 @@ function numbersPage() {
       q.spoken = true;
       nuSpeak(cur.say);
     }
-    document.getElementById('nu-in')?.focus({ preventScroll: true });
+    if (autoFocusOK()) document.getElementById('nu-in')?.focus({ preventScroll: true });
   }
 }
 document.addEventListener('click', e => {

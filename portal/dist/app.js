@@ -730,7 +730,8 @@ setupShell();
 setupI18n();
 mirrorLanguageSelect();
 applyLook();
-if (params.get('hoeren')) openListening(params.get('hoeren'));
+// Gewürfelte Runden (wf-…) öffnet wuerfel.js, das später geladen wird.
+if (params.get('hoeren') && !/^wf-/.test(params.get('hoeren'))) openListening(params.get('hoeren'));
 else if (params.get('reihe')) openSeries(params.get('reihe'));
 else nav(params.has('kapitel') ? 'lernen' : 'start');
 setInterval(() => {

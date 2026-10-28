@@ -8467,3 +8467,22 @@ input.gap.is-over { outline: 3px solid color-mix(in srgb, var(--blue) 55%, trans
 .hw-beamer-qr { width: min(70vh, 80vw, 620px); margin: 0 auto 18px; background: #fff; padding: 18px; border-radius: 20px; }
 .hw-beamer-qr svg { width: 100%; height: auto; display: block; }
 .hw-long { margin: 0; padding: 14px; font-size: 14px; color: var(--label-2); text-align: center; }
+
+/* Bildschirmtastatur offen (Tablet, Handy): untere Leisten weg, Prüfen-Leiste nicht mehr schwebend */
+body.kb-open .tabbar, body.kb-open #hw-pill, body.kb-open #ws-pill { display: none !important; }
+body.kb-open .checkbar { position: static !important; }
+/* Druck: über zwei Seiten geteilte Aufgabe – Fortsetzung ohne Kopf, mit kleinem Hinweis */
+#teaching-print .hb-q.hb-q-cont { padding-top: 2px; }
+#teaching-print .hb-q.hb-q-cont::before { content: '…'; display: block; color: #888; font-size: 9pt; margin-left: 38px; }
+
+/* Neu würfeln */
+.wf-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 12px; }
+.wf-card { padding: 18px; border-radius: var(--r-lg); border: 1px solid var(--hairline); background: var(--glass-solid); display: flex; flex-direction: column; gap: 8px; }
+.wf-card h3 { margin: 0; }
+.wf-card p { margin: 0; }
+.wf-card.is-off { opacity: 0.55; }
+.wf-levels { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: auto; padding-top: 6px; }
+.wf-levels .button { display: grid; gap: 1px; padding: 8px 6px; min-height: 54px; }
+.wf-levels small { font-weight: 400; font-size: 12px; opacity: 0.8; }
+.wf-upto { max-width: 420px; margin: 12px 0 2px; }
+.wf-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 0 0 12px; }
