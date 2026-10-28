@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quantita-l3",
+ "title": "Con il nome",
+ "language": "it",
+ "level": "A1",
+ "description": "Molto, poco, tanto, troppo · Con il nome · livello facile.",
+ "topics": [
+  "Molto, poco, tanto, troppo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "5 · Famiglia e gite",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quantita",
+  "topicTitle": "Molto, poco, tanto, troppo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 63,
+  "rule": "**Come avverbio** (con un verbo o un aggettivo) **non cambiano**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Davanti a un nome** cambiano come un aggettivo:\n| | m. sing. | f. sing. | m. plur. | f. plur. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C’è **troppa** gente._",
+  "ruleHelp": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**: _Studio molto. Il viaggio è molto bello._\n**Als Begleiter** (vor einem Nomen) passen sie sich an: molto/molta/molti/molte, poco/poca/pochi/poche … _Ho molti amici. C’è troppa gente._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta con il nome.",
+   "promptHelp": "Wähle die passende Form vor dem Nomen.",
+   "explanation": "poco → pochi, poche (con la h).",
+   "explanationHelp": "poco → pochi, poche (mit h).",
+   "type": "gap_choice",
+   "text": "[[g1]] ragazze giocano a pallavolo.\nAbbiamo [[g2]] soldi.\nCi sono [[g3]] turisti.\nBevo [[g4]] acqua.\nHo [[g5]] compiti!\nC’è [[g6]] neve.\nMangiamo [[g7]] frutta.\nCi sono [[g8]] macchine.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Molte",
+      "Molti",
+      "Molto"
+     ],
+     "answer": "Molte"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "pochi",
+      "poche",
+      "poco"
+     ],
+     "answer": "pochi"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "tanti",
+      "tante",
+      "tanto"
+     ],
+     "answer": "tanti"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "poca",
+      "poco",
+      "poche"
+     ],
+     "answer": "poca"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "troppi",
+      "troppe",
+      "troppo"
+     ],
+     "answer": "troppi"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "tanta",
+      "tanto",
+      "tante"
+     ],
+     "answer": "tanta"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "molta",
+      "molto",
+      "molte"
+     ],
+     "answer": "molta"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "poche",
+      "pochi",
+      "poca"
+     ],
+     "answer": "poche"
+    }
+   ]
+  }
+ ]
+}

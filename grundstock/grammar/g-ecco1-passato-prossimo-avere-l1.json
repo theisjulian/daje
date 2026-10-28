@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-passato-prossimo-avere-l1",
- "title": "Das Partizip",
+ "title": "Il participio",
  "language": "it",
  "level": "A1",
- "description": "Das passato prossimo mit avere · Das Partizip (einfach).",
+ "description": "Il passato prossimo con avere · Il participio · livello facile.",
  "topics": [
-  "Das passato prossimo mit avere",
+  "Il passato prossimo con avere",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,16 +36,18 @@
  },
  "grammar": {
   "topic": "ecco1-passato-prossimo-avere",
-  "topicTitle": "Das passato prossimo mit avere",
+  "topicTitle": "Il passato prossimo con avere",
   "difficulty": "leicht",
   "origin": "own",
   "order": 31,
-  "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_."
+  "rule": "Il **passato prossimo** racconta azioni finite nel passato (come il «Perfekt» tedesco):\n**avere** (presente) + **participio**: _Ieri **ho giocato** a calcio._\n\n| infinito | participio |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nCon avere il participio **non cambia**. Parole utili: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
+  "ruleHelp": "Das **passato prossimo** beschreibt abgeschlossene Handlungen (wie das deutsche Perfekt): avere (Präsens) + Partizip.\nPartizip: -are → -ato, -ere → -uto, -ire → -ito. Mit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Welches Partizip gehört zum Verb?",
+   "prompt": "Quale participio va con il verbo?",
+   "promptHelp": "Welches Partizip gehört zum Verb?",
    "type": "matching",
    "pairs": [
     {
@@ -77,6 +79,16 @@
      "id": "p6",
      "left": "ascoltare",
      "right": "ascoltato"
+    },
+    {
+     "id": "p7",
+     "left": "ricevere",
+     "right": "ricevuto"
+    },
+    {
+     "id": "p8",
+     "left": "finire",
+     "right": "finito"
     }
    ]
   }

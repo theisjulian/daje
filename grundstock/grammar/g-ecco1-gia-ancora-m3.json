@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-gia-ancora-m3",
- "title": "Antworte",
+ "title": "La lista delle cose da fare",
  "language": "it",
  "level": "A1",
- "description": "già und (non …) ancora · Antworte (mittel).",
+ "description": "Già e (non …) ancora · La lista delle cose da fare · livello medio.",
  "topics": [
-  "già und (non …) ancora",
+  "Già e (non …) ancora",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,58 +36,68 @@
  },
  "grammar": {
   "topic": "ecco1-gia-ancora",
-  "topicTitle": "già und (non …) ancora",
+  "topicTitle": "Già e (non …) ancora",
   "difficulty": "mittel",
   "origin": "own",
   "order": 53,
-  "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)"
+  "rule": "Nel passato prossimo **già** e **ancora** stanno **tra l’ausiliare e il participio**:\n- _Ho **già** fatto i compiti._\n- _**Non** ho **ancora** mangiato._",
+  "ruleHelp": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**: _Ho già fatto i compiti._ (schon gemacht) · _Non ho ancora mangiato._ (noch nicht gegessen)"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Antworte mit già (sì) oder non … ancora (no).",
-   "explanation": "già und ancora stehen zwischen Hilfsverb und Partizip.",
-   "type": "sentence_completion",
-   "items": [
+   "prompt": "Leggi la lista e scrivi già o ancora. ✓ = fatto, ✗ = non fatto.",
+   "promptHelp": "Lies die Liste und ergänze già oder ancora.",
+   "type": "gap_fill",
+   "text": "✓ biglietti: Ho [[g1]] comprato i biglietti.\n✗ valigia: Non ho [[g2]] fatto la valigia.\n✓ nonna: Ho [[g3]] telefonato alla nonna.\n✗ compiti: Non ho [[g4]] finito i compiti.\n✓ bici: Ho [[g5]] riparato la bici.\n✗ regalo: Non ho [[g6]] comprato il regalo per Leo.\n✓ camera: Ho [[g7]] messo in ordine la camera.\n✗ cane: Non ho [[g8]] portato fuori il cane.",
+   "gaps": [
     {
-     "id": "s1",
-     "start": "Hai fatto i compiti? (sì) – Sì, …",
+     "id": "g1",
      "acceptedAnswers": [
-      "ho già fatto i compiti"
-     ],
-     "modelAnswer": "Sì, ho già fatto i compiti."
+      "già"
+     ]
     },
     {
-     "id": "s2",
-     "start": "Hai visto il film? (no) – No, …",
+     "id": "g2",
      "acceptedAnswers": [
-      "non ho ancora visto il film"
-     ],
-     "modelAnswer": "No, non ho ancora visto il film."
+      "ancora"
+     ]
     },
     {
-     "id": "s3",
-     "start": "Marco è tornato? (sì) – Sì, …",
+     "id": "g3",
      "acceptedAnswers": [
-      "è già tornato"
-     ],
-     "modelAnswer": "Sì, Marco è già tornato."
+      "già"
+     ]
     },
     {
-     "id": "s4",
-     "start": "Avete mangiato? (no) – No, …",
+     "id": "g4",
      "acceptedAnswers": [
-      "non abbiamo ancora mangiato"
-     ],
-     "modelAnswer": "No, non abbiamo ancora mangiato."
+      "ancora"
+     ]
     },
     {
-     "id": "s5",
-     "start": "Le ragazze sono partite? (sì) – Sì, …",
+     "id": "g5",
      "acceptedAnswers": [
-      "sono già partite"
-     ],
-     "modelAnswer": "Sì, sono già partite."
+      "già"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ancora"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "già"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ancora"
+     ]
     }
    ]
   }

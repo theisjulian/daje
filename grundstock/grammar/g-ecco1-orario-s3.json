@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-orario-s3",
- "title": "Fehler im Wochenplan",
+ "title": "Il mio orario",
  "language": "it",
  "level": "A1",
- "description": "Uhrzeit und Wochentage · Fehler im Wochenplan (schwer).",
+ "description": "L’ora e i giorni della settimana · Il mio orario · livello difficile.",
  "topics": [
-  "Uhrzeit und Wochentage",
+  "L’ora e i giorni della settimana",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 8,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,60 +36,54 @@
  },
  "grammar": {
   "topic": "ecco1-orario",
-  "topicTitle": "Uhrzeit und Wochentage",
+  "topicTitle": "L’ora e i giorni della settimana",
   "difficulty": "schwer",
   "origin": "own",
   "order": 13,
-  "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag."
+  "rule": "**Che ore sono?**\n- _È l’una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezza / e mezzo**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12.00) · _È mezzanotte_ (24.00)\n\n**A che ora?**\n- _**all’**una_, _**alle** otto_, _**dalle** otto **alle** due_\n\n**I giorni** (con la lettera minuscola): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = ogni lunedì · _Lunedì ho un’interrogazione._ = questo lunedì.",
+  "ruleHelp": "**Che ore sono?** – Wie spät ist es? _È l’una. Sono le due._ · e un quarto (Viertel nach), e mezza (halb), meno un quarto (Viertel vor), è mezzogiorno / mezzanotte.\n**A che ora?** – Um wie viel Uhr? _all’una, alle otto, dalle otto alle due_ (von … bis).\n**Wochentage** klein: lunedì … domenica. _Il lunedì_ = montags (jeden Montag) · _Lunedì_ = am (nächsten) Montag."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Korrigiere die sechs Fehler.",
-   "explanation": "Wochentage klein · la domenica (weiblich!) · all'una, alle otto.",
-   "type": "error_correction",
-   "text": "La scuola comincia [[g1]] otto.\n[[g2]] l'una e mezza.\nIl [[g3]] ho latino.\nFinisco [[g4]] una.\n[[g5]] mezzogiorno.\n[[g6]] domenica dormo molto.",
-   "errors": [
+   "prompt": "Descrivi il tuo lunedì: quando comincia la scuola, che materie hai e quando, quando torni a casa?",
+   "promptHelp": "Beschreibe deinen Montag: Wann beginnt die Schule, welche Fächer hast du von wann bis wann, wann kommst du nach Hause?",
+   "type": "open_answer",
+   "modelAnswer": "Il lunedì la scuola comincia alle otto. Dalle otto alle nove e mezza ho matematica. Poi ho inglese. Torno a casa all’una e mezza.",
+   "lines": 5
+  },
+  {
+   "id": "q2",
+   "prompt": "E adesso completa con le ore in lettere.",
+   "promptHelp": "Und jetzt ergänze die Uhrzeiten in Worten.",
+   "type": "gap_fill",
+   "text": "Mi sveglio (6.30) [[g1]].\nEsco di casa (7.15) [[g2]].\nLa prima ora comincia (8.00) [[g3]].\nTorno a casa (13.45) [[g4]].",
+   "gaps": [
     {
      "id": "g1",
-     "wrong": "all'",
      "acceptedAnswers": [
-      "alle"
+      "alle sei e mezza",
+      "alle sei e mezzo"
      ]
     },
     {
      "id": "g2",
-     "wrong": "Sono",
      "acceptedAnswers": [
-      "È"
+      "alle sette e un quarto",
+      "alle sette e quindici"
      ]
     },
     {
      "id": "g3",
-     "wrong": "Lunedì",
      "acceptedAnswers": [
-      "lunedì"
+      "alle otto"
      ]
     },
     {
      "id": "g4",
-     "wrong": "alle",
      "acceptedAnswers": [
-      "all'"
-     ]
-    },
-    {
-     "id": "g5",
-     "wrong": "Sono",
-     "acceptedAnswers": [
-      "È"
-     ]
-    },
-    {
-     "id": "g6",
-     "wrong": "Il",
-     "acceptedAnswers": [
-      "La"
+      "alle due meno un quarto",
+      "all’una e quarantacinque"
      ]
     }
    ]

@@ -6,9 +6,9 @@
  "title": "Una gita a Milano",
  "language": "it",
  "level": "A1",
- "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Una gita a Milano (mittel).",
+ "description": "Il passato prossimo con essere e i participi irregolari · Una gita a Milano · livello medio.",
  "topics": [
-  "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "Il passato prossimo con essere e i participi irregolari",
   "Grammatik"
  ],
  "sources": [
@@ -36,17 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-passato-prossimo-essere",
-  "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "topicTitle": "Il passato prossimo con essere e i participi irregolari",
   "difficulty": "mittel",
   "origin": "own",
   "order": 44,
-  "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |"
+  "rule": "Con **essere** fanno il passato prossimo soprattutto i verbi di **movimento** e di **cambiamento**, e **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nIl participio cambia come un aggettivo (**soggetto**):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Participi irregolari:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+  "ruleHelp": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** sowie rimanere, stare, essere. Das Partizip richtet sich dann nach dem **Subjekt** (-o, -a, -i, -e): _Marco è andato, Giulia è andata, i ragazzi sono andati, le ragazze sono andate._\nUnregelmäßige Partizipien: fatto, preso, perso, visto, rimasto, deciso, letto, scritto, venuto, stato, vinto, riso."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Setze die Verben ins passato prossimo (essere oder avere).",
-   "explanation": "io e mia sorella = noi (weiblich) → siamo andate, siamo arrivate.",
+   "prompt": "Scrivi i verbi al passato prossimo (essere o avere).",
+   "promptHelp": "Setze die Verben ins passato prossimo (essere oder avere).",
+   "explanation": "io e mia sorella = noi (femminile) → siamo andate, siamo arrivate.",
+   "explanationHelp": "io e mia sorella = noi (weiblich) → siamo andate.",
    "type": "gap_fill",
    "text": "Domenica io e mia sorella (andare) [[g1]] a Milano.\n(Prendere, noi) [[g2]] il treno alle otto.\n(Arrivare, noi) [[g3]] alle nove e mezza.\nPrima (vedere, noi) [[g4]] il Duomo.\nPoi (fare, noi) [[g5]] shopping in Galleria.\nMia sorella (perdere) [[g6]] il biglietto del treno!\nPer fortuna (rimanere, noi) [[g7]] calme.\nLa sera (tornare, noi) [[g8]] a casa stanche ma felici.",
    "gaps": [

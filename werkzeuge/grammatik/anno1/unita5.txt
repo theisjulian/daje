@@ -1,255 +1,158 @@
 #!buch series=Corso_daje volume=1 grade=8 cefr=A1 prefix=ecco1
-## Primo anno · Lektion 5 · Famiglia e gite · Grammatikthemen (Lehrplan Jgst. 8)
+## Primo anno · Lektion 5 · Famiglia e gite · Grammatikthemen (Lehrplan Jgst. 8). Datum: auch im Trainer.
 
-@thema data | 5 · Famiglia e gite | Per cominciare | Das Datum | 1
+@thema data | 5 · Famiglia e gite | Per cominciare | La data | 1
 #regel
 - _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._
-- Der erste Tag des Monats: **il primo** (aprile).
-- Vor Vokal: **l'otto**, **l'undici** (agosto).
-- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.
+- Il primo giorno del mese: **il primo** (aprile).
+- Davanti a vocale: **l’otto**, **l’undici** (agosto).
+- I mesi con la minuscola: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.
 - _Quando è il tuo compleanno?_ – _È il venti giugno._
+- Davanti ai giorni della settimana nella data non c’è l’articolo: _sabato 14 marzo_.
+#regel-de
+- _Oggi è il quindici maggio._ – das Datum mit **il** + Grundzahl.
+- Nur der Erste wird mit Ordnungszahl gesagt: **il primo** aprile.
+- Vor Vokal: **l’otto**, **l’undici**. Monate klein.
+- Vor Wochentagen steht im Datum kein Artikel: _sabato 14 marzo_.
 
-%übung leicht | Welches Datum?
-?zuordnen | Was gehört zusammen?
+%übung leicht | Quale data?
+?zuordnen | Abbina la data. || Was gehört zusammen?
 1.5. = il primo maggio
-8.3. = l'otto marzo
+8.3. = l’otto marzo
 15.8. = il quindici agosto
 25.12. = il venticinque dicembre
-11.11. = l'undici novembre
+11.11. = l’undici novembre
+2.6. = il due giugno
+21.9. = il ventuno settembre
+30.4. = il trenta aprile
++ il uno maggio
 
-%übung mittel | Quando è il compleanno?
-?luecke | Schreibe das Datum in Worten.
-Il compleanno di Giulia è (3.4.) [il tre aprile].
-Il compleanno di mio fratello è (1.10.) [il primo ottobre].
-Il mio compleanno è (8.2.) [l'otto febbraio].
-Natale è (25.12.) [il venticinque dicembre].
-
-%übung schwer | Geburtstage in deiner Familie
-?frei | Schreibe 4 Sätze: Wann haben du und deine Familie Geburtstag?
-Il mio compleanno è il dodici luglio. Il compleanno di mia madre è il primo marzo. Mio padre festeggia l'otto settembre.
-Zeilen: 4
-
-@thema possessivi-2 | 5 · Famiglia e gite | Parte A | Possessivbegleiter bei Verwandten | 2
-#regel
-Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._
-**Mit Artikel** steht der Possessivbegleiter
-- im **Plural**: _i miei fratelli, le sue cugine_
-- mit **loro**: _il loro padre_
-- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_
-- bei _famiglia_: _la mia famiglia_
-
-%übung leicht | Mit oder ohne Artikel?
-?auswahl | Wähle die richtige Form.
-{Mia*|La mia} madre si chiama Anna.
-{I miei*|Miei} fratelli sono simpatici.
-{Suo*|Il suo} padre è di Napoli.
-{La mia*|Mia} famiglia è grande.
-{Il loro*|Loro} nonno ha ottant'anni.
-{Mia*|La mia} cugina abita a Roma.
-! Verwandte im Singular ohne Artikel (mia madre). Plural, loro und famiglia mit Artikel.
-
-%übung mittel | Die Familie von Giulia
-?luecke | Ergänze die Possessivbegleiter (mit oder ohne Artikel).
-Giulia presenta (ihre) [la sua] famiglia.
-(ihr) [Suo] padre si chiama Paolo e (ihre) [sua] madre Laura.
-(ihre) [I suoi] fratelli sono gemelli.
-(ihr) [Suo] nonno abita in campagna.
-(unsere) [La nostra] famiglia è piccola, dice Marco.
-! sua madre (Verwandte Singular), aber i suoi fratelli (Plural) und la sua famiglia.
-
-%übung schwer | Fehler finden
-?fehler | Korrigiere die markierten Ausdrücke.
-[La mia=>Mia] sorella ha dieci anni.
-[Mie=>Le mie] cugine abitano a Milano.
-[Loro=>Il loro] padre è simpatico.
-[Mia=>La mia] famiglia è molto grande.
-
-%übung schwer | Meine Familie
-?frei | Stell deine Familie vor (6 Sätze). Achte auf mio/mia mit und ohne Artikel.
-La mia famiglia non è grande. Mia madre si chiama Sabine e mio padre Thomas. Ho un fratello. Mio fratello ha dieci anni. I miei nonni abitano a Monaco.
-Zeilen: 6
-
-@thema che-relativo | 5 · Famiglia e gite | Parte A | Das Relativpronomen che | 3
-#regel
-**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):
-- _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._
-- _Il libro **che** leggo è interessante._
-
-**che** bleibt immer gleich (für Personen und Sachen, Singular und Plural).
-
-%übung leicht | Satzhälften verbinden
-?zuordnen | Was passt zusammen?
-Ho un cugino = che abita a Roma.
-Ecco il libro = che mi piace tanto.
-Questa è la ragazza = che parla tre lingue.
-Il ristorante = che preferisco è in centro.
-
-%übung mittel | Zwei Sätze, ein Satz
-?ergaenzen | Verbinde die Sätze mit che.
-Ho una sorella. Mia sorella ama la musica. → Ho una sorella … | che ama la musica
-Ecco il ragazzo. Il ragazzo gioca a calcio. → Ecco il ragazzo … | che gioca a calcio
-Leggo un libro. Il libro è molto interessante. → Leggo un libro … | che è molto interessante
-Ho un amico. L'amico abita a Milano. → Ho un amico … | che abita a Milano
-
-%übung schwer | Wer ist das?
-?frei | Beschreibe drei Personen aus deiner Familie oder deinem Freundeskreis mit che.
-Ho un fratello che ama il calcio. Mia nonna è una donna che racconta storie bellissime. Ho un'amica che parla italiano.
-Zeilen: 4
-
-@thema pp-modali | 5 · Famiglia e gite | Parte B | Das passato prossimo der Modalverben | 4
-#regel
-Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:
-- _Ho dovuto **studiare**._ (studiare → avere)
-- _Sono dovuto/-a **partire**._ (partire → essere)
-
-Im Alltag hört man auch: _Ho dovuto partire._ – In der Schule lernst du die Regel oben.
-
-%übung leicht | avere oder essere?
-?auswahl | Welches Hilfsverb passt?
-Ieri {ho*|sono} dovuto studiare.
-Giulia {è*|ha} voluta partire presto.
-Non {abbiamo*|siamo} potuto comprare i biglietti.
-I ragazzi {sono*|hanno} dovuti tornare a casa.
-{Ho*|Sono} voluto mangiare una pizza.
-
-%übung mittel | Che pasticcio!
-?luecke | Setze die Verben ins passato prossimo.
-Ieri io (dovere) [ho dovuto] prendere l'autobus.
-Il treno era in ritardo e noi non (potere) [siamo potuti/siamo potute] partire.
-Mia sorella (volere) [ha voluto] comprare un biglietto nuovo.
-Alla fine (noi, dovere) [abbiamo dovuto] aspettare due ore.
-! partire → essere (siamo potuti partire); comprare, aspettare → avere.
-
-%übung schwer | Fehler finden
-?fehler | Korrigiere die markierten Formen.
-Non [sono=>ho] potuto fare i compiti.
-Marta [ha=>è] dovuta andare dal medico.
-I ragazzi hanno [voluti=>voluto] giocare.
-
-@thema imperativo-noi | 5 · Famiglia e gite | Parte B | Der Imperativ der 1. Person Plural | 5
-#regel
-Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens:
-- _**Andiamo** al cinema!_ · _**Prendiamo** l'autobus!_ · _**Facciamo** una pausa!_
-- verneint: _**Non** prendiamo il taxi!_
-
-%übung leicht | Vorschläge
-?auswahl | Wähle den Vorschlag.
-Che bella giornata! {Andiamo*|Andate|Vado} al parco!
-È tardi, {prendiamo*|prendete|prendono} un taxi!
-Ho fame, {mangiamo*|mangiate|mangio} una pizza!
-Siamo stanchi, {facciamo*|fate|fanno} una pausa!
-
-%übung mittel | Was machen wir?
-?luecke | Mache Vorschläge mit der 1. Person Plural.
-(andare) [Andiamo] a Roma per Pasqua!
-(prendere) [Prendiamo] il treno, è più comodo!
-(comprare) [Compriamo] i biglietti online!
-Non (aspettare) [aspettiamo] l'autobus, (camminare) [camminiamo]!
-
-%übung schwer | Ein Wochenende planen
-?frei | Du planst mit Freunden ein Wochenende. Schreibe 5 Vorschläge mit der 1. Person Plural.
-Andiamo in montagna! Prendiamo il treno alle otto. Facciamo una gita in bici. Mangiamo in un ristorante. Non torniamo troppo tardi!
-Zeilen: 5
-
-@thema quantita | 5 · Famiglia e gite | Parte B | Mengenangaben: molto, poco, tanto, troppo | 6
-#regel
-**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**:
-_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._
-**Als Begleiter** (vor einem Nomen) passen sie sich an:
-| | m. Sg. | w. Sg. | m. Pl. | w. Pl. |
-| molto | molto | molta | molti | molte |
-| poco | poco | poca | pochi | poche |
-| tanto | tanto | tanta | tanti | tante |
-| troppo | troppo | troppa | troppi | troppe |
-
-_Ho **molti** amici. Ho **poco** tempo. C'è **troppa** gente._
-
-%übung leicht | Adverb oder Begleiter?
-?auswahl | Wähle die richtige Form.
-Ho {molti*|molto|molte} amici.
-Mi piace {molto*|molta|molti} la musica.
-Oggi ho {poco*|poca|pochi} tempo.
-Ci sono {tante*|tanto|tanti} persone in piazza.
-Il viaggio è {molto*|molta|molte} bello.
-Nella mia classe ci sono {pochi*|poco|poche} ragazzi.
-
-%übung mittel | Ein Wochenende in Rom
-?luecke | Ergänze die richtige Form.
-A Roma ci sono (tanto) [tanti] turisti.
-Abbiamo visto (molto) [molte] chiese.
-Il biglietto non costa (molto) [molto].
-Purtroppo abbiamo (poco) [poco] tempo.
-In metro c'è (troppo) [troppa] gente!
-! Vor einem Nomen passt sich die Form an (tanti turisti, troppa gente). Beim Verb bleibt sie gleich (costa molto).
-
-%übung schwer | Fehler finden
-?fehler | Korrigiere die markierten Formen.
-Ho [molto=>molti] compiti.
-Laura è [molta=>molto] simpatica.
-C'è [troppo=>troppa] gente qui.
-Mangio [pochi=>poco].
-
-## ───────── Ausbau: weitere, längere Übungen je Thema ─────────
-
-@mehr data
-
-%übung leicht | Die Monate
-?ordnen | Bringe die Monate von Januar bis Juni in die richtige Reihenfolge.
+%übung leicht | I mesi
+?ordnen | Metti in ordine i mesi da gennaio a giugno. || Bringe die Monate von Januar bis Juni in die richtige Reihenfolge.
 gennaio
 febbraio
 marzo
 aprile
 maggio
 giugno
-?ordnen | Und jetzt Juli bis Dezember.
+?ordnen | E adesso da luglio a dicembre. || Und jetzt Juli bis Dezember.
 luglio
 agosto
 settembre
 ottobre
 novembre
 dicembre
+?ordnen | Metti in ordine le stagioni, dalla primavera. || Ordne die Jahreszeiten, beginnend mit dem Frühling.
+primavera
+estate
+autunno
+inverno
 
-%übung leicht | Feste in Italien
-?auswahl | Wähle das richtige Datum.
-Capodanno: {il primo gennaio*|l'uno gennaio|il uno gennaio}
-La festa della donna: {l'otto marzo*|il otto marzo|lo otto marzo}
+%übung leicht | Feste in Italia
+?auswahl | Scegli la data giusta. || Wähle das richtige Datum.
+Capodanno: {il primo gennaio*|l’uno gennaio|il uno gennaio}
+La festa della donna: {l’otto marzo*|il otto marzo|lo otto marzo}
 La festa della Repubblica: {il due giugno*|il secondo giugno|i due giugno}
 Ferragosto: {il quindici agosto*|la quindici agosto|il quindicesimo agosto}
-San Martino: {l'undici novembre*|il undici novembre|l'undicesimo novembre}
+San Martino: {l’undici novembre*|il undici novembre|l’undicesimo novembre}
 Natale: {il venticinque dicembre*|il venticinquesimo dicembre|la venticinque dicembre}
-! Nur der Erste wird mit Ordnungszahl gesagt (il primo). Sonst Grundzahl mit il, vor Vokal l' (l'otto, l'undici).
+Santo Stefano: {il ventisei dicembre*|il ventiseiesimo dicembre|l’ventisei dicembre}
+La festa dei lavoratori: {il primo maggio*|l’uno maggio|il uno maggio}
+! Solo il primo giorno con il numero ordinale (il primo). Gli altri: il + numero, davanti a vocale l’ (l’otto, l’undici). || Nur der Erste mit Ordnungszahl. Sonst il + Grundzahl, vor Vokal l’.
 
-%übung mittel | Geburtstage der Klasse
-?luecke | Schreibe das Datum in Worten.
+%übung mittel | Quando è il compleanno?
+?luecke | Scrivi la data in lettere. || Schreibe das Datum in Worten.
+Il compleanno di Giulia è (3.4.) [il tre aprile].
+Il compleanno di mio fratello è (1.10.) [il primo ottobre].
+Il mio compleanno è (8.2.) [l’otto febbraio].
+Natale è (25.12.) [il venticinque dicembre].
+Il compleanno della nonna è (11.7.) [l’undici luglio].
+Il compleanno di Leo è (17.3.) [il diciassette marzo].
+Il compleanno di papà è (29.8.) [il ventinove agosto].
+Il compleanno di Sara è (1.1.) [il primo gennaio].
+
+%übung mittel | I compleanni della classe
+?luecke | Scrivi la data in lettere. || Schreibe das Datum in Worten.
 Luca: (2.1.) Il mio compleanno è [il due gennaio].
 Sara: (1.3.) Il mio compleanno è [il primo marzo].
-Tim: (8.5.) Il mio compleanno è [l'otto maggio].
-Anna: (11.7.) Il mio compleanno è [l'undici luglio].
+Tim: (8.5.) Il mio compleanno è [l’otto maggio].
+Anna: (11.7.) Il mio compleanno è [l’undici luglio].
 Paolo: (21.9.) Il mio compleanno è [il ventuno settembre].
 Marta: (30.10.) Il mio compleanno è [il trenta ottobre].
 Giulia: (13.12.) Il mio compleanno è [il tredici dicembre].
+Leo: (6.4.) Il mio compleanno è [il sei aprile].
 
 %übung mittel | Quando?
-?ergaenzen | Antworte mit dem Datum.
+?ergaenzen | Rispondi con la data. || Antworte mit dem Datum.
 Quando è il tuo compleanno? (14.2.) – È … | il quattordici febbraio | È il quattordici febbraio.
 Quando comincia la scuola? (15.9.) – Comincia … | il quindici settembre | Comincia il quindici settembre.
 Quando è la festa? (1.6.) – È … | il primo giugno | È il primo giugno.
-Che giorno è oggi? (8.4.) – Oggi è … | l'otto aprile | Oggi è l'otto aprile.
+Che giorno è oggi? (8.4.) – Oggi è … | l’otto aprile | Oggi è l’otto aprile.
 Quando partite? (31.7.) – Partiamo … | il trentuno luglio | Partiamo il trentuno luglio.
+Quando finisce la scuola? (10.6.) – Finisce … | il dieci giugno | Finisce il dieci giugno.
+Quando è la gita? (11.5.) – È … | l’undici maggio | È l’undici maggio.
+Quando torni? (3.8.) – Torno … | il tre agosto | Torno il tre agosto.
 
-%übung schwer | Fehler im Kalender
-?fehler | Korrigiere die fünf Fehler.
-Il mio compleanno è [il otto=>l'otto] marzo.
+%übung schwer | Compleanni in famiglia
+?frei | Scrivi 4 frasi: quando fai il compleanno tu e la tua famiglia? || Schreibe 4 Sätze: Wann haben du und deine Familie Geburtstag?
+Il mio compleanno è il dodici luglio. Il compleanno di mia madre è il primo marzo. Mio padre festeggia l’otto settembre.
+Zeilen: 4
+?luecke | E adesso scrivi in lettere. || Und jetzt schreibe in Worten.
+(5.5.) [il cinque maggio]
+(1.9.) [il primo settembre]
+(8.12.) [l’otto dicembre]
+(11.2.) [l’undici febbraio]
+
+%übung schwer | Errori nel calendario
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+Il mio compleanno è [il otto=>l’otto] marzo.
 Oggi è il [uno=>primo] maggio.
 Natale è il venticinque [Dicembre=>dicembre].
-La festa è [l'undicesimo=>l'undici] giugno.
+La festa è [l’undicesimo=>l’undici] giugno.
 Il mio compleanno è [lo=>il] tre aprile.
-! Monate klein, il primo, l'otto, l'undici, sonst il.
+Oggi è [il=>l’] undici novembre.
+La gita è [il secondo=>il due] ottobre.
+Ci vediamo [il sabato 14 marzo=>sabato 14 marzo].
+! I mesi minuscoli, il primo, l’otto, l’undici; nessun articolo davanti al giorno della settimana nella data. || Monate klein, il primo, l’otto, l’undici; kein Artikel vor dem Wochentag im Datum.
 
-@mehr possessivi-2
+%übung schwer | Il calendario di Khalid
+?luecke | Scrivi la data con o senza articolo. || Setze das Datum mit oder ohne Artikel ein.
+Il mio compleanno è (19.4.) [il diciannove aprile].
+Ma festeggio (sabato 20.4.) [sabato venti aprile].
+Il compleanno di Anna è (1.4.) [il primo aprile].
+La sua festa è (venerdì 3.4.) [venerdì tre aprile].
+Lunedì (6.4.) [sei aprile] gioca la Juve.
+Il compleanno del nonno è (24.4.) [il ventiquattro aprile].
+La festa del nonno è (domenica 26.4.) [domenica ventisei aprile].
+La mia festa è (25.4.) [il venticinque aprile].
+! Con il giorno della settimana: niente articolo (sabato venti aprile). || Mit Wochentag kein Artikel.
 
-%übung leicht | Die Familie
-?zuordnen | Was bedeutet das?
+@thema possessivi-2 | 5 · Famiglia e gite | Parte A | I possessivi con i nomi di famiglia | 2
+#regel
+Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._
+**Con l’articolo** il possessivo sta
+- al **plurale**: _i miei fratelli, le sue cugine_
+- con **loro**: _il loro padre_
+- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_
+- con _famiglia_: _la mia famiglia_
+#regel-de
+Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._
+**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).
+
+%übung leicht | Con o senza articolo?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+{Mia*|La mia} madre si chiama Anna.
+{I miei*|Miei} fratelli sono simpatici.
+{Suo*|Il suo} padre è di Napoli.
+{La mia*|Mia} famiglia è grande.
+{Il loro*|Loro} nonno ha ottant’anni.
+{Mia*|La mia} cugina abita a Roma.
+{Tuo*|Il tuo} zio è simpatico.
+{Le mie*|Mie} sorelle sono gemelle.
+! Parenti al singolare senza articolo (mia madre). Plurale, loro e famiglia con l’articolo. || Verwandte im Singular ohne Artikel. Plural, loro und famiglia mit Artikel.
+
+%übung leicht | La famiglia
+?zuordnen | Che cosa vuol dire? || Was bedeutet das?
 mio padre = mein Vater
 mia madre = meine Mutter
 i miei nonni = meine Großeltern
@@ -257,10 +160,11 @@ sua sorella = seine / ihre Schwester
 la loro zia = ihre Tante (von mehreren)
 i tuoi cugini = deine Cousins
 la nostra famiglia = unsere Familie
+vostro fratello = euer Bruder
 + meine Brüder
 
-%übung mittel | Mit oder ohne Artikel?
-?auswahl | Wähle die richtige Form.
+%übung leicht | Con o senza? Ancora
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
 {Mio*|Il mio} fratello ha sedici anni.
 {I miei*|Miei} fratelli sono più grandi di me.
 {La mia*|Mia} mamma è di Bologna.
@@ -268,183 +172,535 @@ la nostra famiglia = unsere Familie
 {Le sue*|Sue} cugine abitano a Napoli.
 {Il loro*|Loro} figlio si chiama Matteo.
 {Nostro*|Il nostro} nonno racconta sempre storie.
-{La mia*|Mia} sorella piccola va all'asilo.
-! Koseform (mamma, papà) und Adjektiv (sorella piccola) → mit Artikel.
+{La mia*|Mia} sorella piccola va all’asilo.
+! Parole affettuose (mamma, papà) e con aggettivo (sorella piccola) → con articolo. || Koseform (mamma, papà) und Adjektiv (sorella piccola) → mit Artikel.
 
-%übung mittel | Ein Familienfoto
-?luecke | Ergänze die Possessivbegleiter (mit oder ohne Artikel).
+%übung mittel | La famiglia di Giulia
+?luecke | Scrivi i possessivi (con o senza articolo). || Ergänze die Possessivbegleiter (mit oder ohne Artikel).
+Giulia presenta (ihre) [la sua] famiglia.
+(ihr) [Suo] padre si chiama Paolo e (ihre) [sua] madre Laura.
+(ihre) [I suoi] fratelli sono gemelli.
+(ihr) [Suo] nonno abita in campagna.
+(unsere) [La nostra] famiglia è piccola, dice Marco.
+(meine) [Mia] zia abita a Roma.
+(meine) [Le mie] cugine vengono a trovarci.
+(ihr, Plural) [Il loro] cane si chiama Bobo.
+! sua madre (parente al singolare), ma i suoi fratelli (plurale) e la sua famiglia. || sua madre (Verwandte Singular), aber i suoi fratelli (Plural) und la sua famiglia.
+
+%übung mittel | Una foto di famiglia
+?luecke | Scrivi i possessivi (con o senza articolo). || Ergänze die Possessivbegleiter (mit oder ohne Artikel).
 Questa è (meine) [la mia] famiglia.
-A sinistra c'è (mein) [mio] padre, Roberto.
-Vicino a lui c'è (meine) [mia] madre, Elena.
+A sinistra c’è (mein) [mio] padre, Roberto.
+Vicino a lui c’è (meine) [mia] madre, Elena.
 Davanti ci sono (meine) [i miei] fratelli, Luca e Matteo.
-A destra c'è (unsere) [nostra] nonna Rosa.
+A destra c’è (unsere) [nostra] nonna Rosa.
 Il cane si chiama Bobo: è (ihr) [il loro] cane, di Luca e Matteo.
 E questa è (meine) [mia] cugina Sofia con (ihre) [sua] madre.
-! Verwandte im Singular ohne Artikel; Plural, loro und famiglia mit Artikel.
 
-%übung schwer | Interview über die Familie
-?ergaenzen | Antworte in ganzen Sätzen mit dem passenden Possessivbegleiter.
+%übung mittel | Intervista sulla famiglia
+?ergaenzen | Rispondi con una frase completa e il possessivo giusto. || Antworte in ganzen Sätzen mit dem passenden Possessivbegleiter.
 Come si chiama tua madre? (Laura) – … | Mia madre si chiama Laura | Mia madre si chiama Laura.
 Dove abitano i tuoi nonni? (a Roma) – … | I miei nonni abitano a Roma | I miei nonni abitano a Roma.
 Quanti anni ha tuo fratello? (12) – … | Mio fratello ha dodici anni | Mio fratello ha dodici anni.
-Com'è la tua famiglia? (grande) – … | La mia famiglia è grande | La mia famiglia è grande.
+Com’è la tua famiglia? (grande) – … | La mia famiglia è grande | La mia famiglia è grande.
 Che lavoro fa vostro padre? (medico) – … | Nostro padre è medico/Nostro padre fa il medico | Nostro padre è medico.
+Come si chiamano le tue sorelle? (Ada e Bea) – … | Le mie sorelle si chiamano Ada e Bea | Le mie sorelle si chiamano Ada e Bea.
+Dove abita tua zia? (a Bari) – … | Mia zia abita a Bari | Mia zia abita a Bari.
+Com’è il tuo papà? (simpatico) – … | Il mio papà è simpatico | Il mio papà è simpatico.
 
-%übung schwer | Fehler finden
-?fehler | Korrigiere die sechs Fehler.
-[La mia=>Mia] zia abita in Sicilia.
-[Mie=>Le mie] sorelle sono gemelle.
-[Loro=>Il loro] nonno è molto simpatico.
-[Mia=>La mia] famiglia abita a Bari.
+%übung schwer | Trova gli errori
+?fehler | Correggi le parole segnate. || Korrigiere die markierten Ausdrücke.
+[La mia=>Mia] sorella ha dieci anni.
+[Mie=>Le mie] cugine abitano a Milano.
+[Loro=>Il loro] padre è simpatico.
+[Mia=>La mia] famiglia è molto grande.
 [Il mio=>Mio] cugino ha diciotto anni.
 [Mio=>Il mio] papà lavora in banca.
-! il mio papà, la mia mamma (Koseform) · mio cugino (Verwandter, Singular).
+[Tuoi=>I tuoi] nonni sono gentili.
+[La sua=>Sua] zia è di Torino.
 
-@mehr che-relativo
+%übung schwer | La mia famiglia
+?frei | Presenta la tua famiglia (6 frasi). Attenzione a mio/mia con e senza articolo. || Stell deine Familie vor (6 Sätze). Achte auf mio/mia mit und ohne Artikel.
+La mia famiglia non è grande. Mia madre si chiama Sabine e mio padre Thomas. Ho un fratello. Mio fratello ha dieci anni. I miei nonni abitano a Monaco.
+Zeilen: 6
+?luecke | E adesso completa. || Und jetzt ergänze.
+[La mia] famiglia abita a Monaco.
+[Mia] madre lavora in un ospedale.
+[I miei] nonni abitano in campagna.
+[Il mio] fratello piccolo ha sei anni.
 
-%übung leicht | Welcher Nebensatz passt?
-?auswahl | Wähle den passenden Relativsatz.
+%übung schwer | Il compleanno della nonna
+?luecke | Scrivi i possessivi (con o senza articolo). || Ergänze die Possessivbegleiter.
+Sabato (io) [mia] nonna compie ottant’anni.
+(lei) [I suoi] figli organizzano una festa: (io) [mio] padre e (io) [mia] zia Martina.
+(io) [I miei] cugini arrivano da Milano con (loro) [i loro] genitori.
+(io) [Mio] fratello prepara una torta.
+(noi) [La nostra] famiglia è molto grande!
+(lei) [Sua] sorella, la zia Ada, viene da Napoli.
+(lei) [Il suo] regalo preferito? Una foto di tutta la famiglia.
+! Parente al singolare: mia, mio, sua · plurale e loro: con l’articolo. || Verwandte Singular: ohne Artikel · Plural und loro: mit.
+
+%übung schwer | Mio o il mio?
+?tabelle | Scrivi il possessivo giusto (con o senza articolo). || Schreibe den richtigen Possessivbegleiter.
+Spalten: io + … | forma
+padre | [mio padre]
+madre | [mia madre]
+fratelli | [i miei fratelli]
+sorelle | [le mie sorelle]
+famiglia | [la mia famiglia]
+mamma | [la mia mamma]
+zio | [mio zio]
+cugine | [le mie cugine]
+
+@thema che-relativo | 5 · Famiglia e gite | Parte A | Il pronome relativo che | 3
+#regel
+**che** unisce due frasi e si riferisce a un nome:
+- _Ho un’amica. L’amica abita a Roma._ → _Ho un’amica **che** abita a Roma._
+- _Il libro **che** leggo è interessante._
+
+**che** non cambia mai (per persone e cose, singolare e plurale).
+#regel-de
+**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche): _Ho un’amica che abita a Roma. Il libro che leggo è interessante._
+**che** bleibt immer gleich (Personen und Sachen, Singular und Plural).
+
+%übung leicht | Unire le frasi
+?zuordnen | Abbina le parti della frase. || Was passt zusammen?
+Ho un cugino = che abita a Roma.
+Ecco il libro = che mi piace tanto.
+Questa è la ragazza = che parla tre lingue.
+Il ristorante = che preferisco è in centro.
+Ho un cane = che si chiama Rex.
+Questi sono i ragazzi = che giocano a calcio.
+È un film = che mi piace molto.
+Conosco una signora = che ha novant’anni.
+
+%übung leicht | Quale frase relativa?
+?auswahl | Scegli la frase relativa giusta. || Wähle den passenden Relativsatz.
 Ho una sorella {che ha otto anni.*|che ho otto anni.|chi ha otto anni.}
 Ecco il ragazzo {che abita qui.*|che abito qui.|chi abita qui.}
 Il film {che guardiamo è bello.*|che guardiamo sono belli.|chi guardiamo è bello.}
 È un libro {che mi piace.*|chi mi piace.|che mi piacciono.}
 Sono amici {che giocano a calcio.*|che gioca a calcio.|chi giocano a calcio.}
-! che bleibt gleich; das Verb danach richtet sich nach dem Nomen: amici che giocano.
+È la prof {che insegna storia.*|che insegnano storia.|chi insegna storia.}
+Ho due gatti {che dormono sempre.*|che dorme sempre.|chi dormono sempre.}
+Ecco la casa {che ha un giardino.*|che hanno un giardino.|chi ha un giardino.}
+! che non cambia; il verbo dopo va con il nome: amici che giocano. || che bleibt gleich; das Verb danach richtet sich nach dem Nomen.
 
-%übung mittel | Zwei Sätze verbinden
-?ergaenzen | Verbinde die Sätze mit che.
+%übung leicht | Chi è?
+?zuordnen | Completa la descrizione. || Ergänze die Beschreibung.
+Il nonno è la persona = che racconta le storie più belle.
+Il cuoco è la persona = che cucina al ristorante.
+L’insegnante è la persona = che spiega la lezione.
+Il medico è la persona = che lavora in ospedale.
+Il postino è la persona = che porta le lettere.
+Il pilota è la persona = che guida l’aereo.
+Il commesso è la persona = che lavora in un negozio.
+Il cantante è la persona = che canta in un concerto.
++ che va a scuola.
+
+%übung mittel | Due frasi, una frase
+?ergaenzen | Unisci le frasi con che. || Verbinde die Sätze mit che.
+Ho una sorella. Mia sorella ama la musica. → Ho una sorella … | che ama la musica | Ho una sorella che ama la musica.
+Ecco il ragazzo. Il ragazzo gioca a calcio. → Ecco il ragazzo … | che gioca a calcio | Ecco il ragazzo che gioca a calcio.
+Leggo un libro. Il libro è molto interessante. → Leggo un libro … | che è molto interessante | Leggo un libro che è molto interessante.
+Ho un amico. L’amico abita a Milano. → Ho un amico … | che abita a Milano | Ho un amico che abita a Milano.
 Ho un cane. Il cane si chiama Rex. → Ho un cane … | che si chiama Rex | Ho un cane che si chiama Rex.
 Conosco una ragazza. La ragazza suona il violino. → Conosco una ragazza … | che suona il violino | Conosco una ragazza che suona il violino.
 Abito in una casa. La casa ha un giardino. → Abito in una casa … | che ha un giardino | Abito in una casa che ha un giardino.
 Ho due cugini. I cugini abitano a Milano. → Ho due cugini … | che abitano a Milano | Ho due cugini che abitano a Milano.
-Mangio una pizza. La pizza è buonissima. → Mangio una pizza … | che è buonissima | Mangio una pizza che è buonissima.
-Ecco la professoressa. La professoressa insegna storia. → Ecco la professoressa … | che insegna storia | Ecco la professoressa che insegna storia.
 
-%übung mittel | Wer ist wer?
-?zuordnen | Ergänze die Beschreibung.
-Il nonno è la persona = che racconta le storie più belle.
-Il cuoco è la persona = che cucina al ristorante.
-L'insegnante è la persona = che spiega la lezione.
-Il medico è la persona = che lavora in ospedale.
-Il postino è la persona = che porta le lettere.
-+ che va a scuola.
+%übung mittel | Persone e cose
+?luecke | Completa con che e il verbo giusto. || Ergänze mit che und dem richtigen Verb.
+Mia cugina è una ragazza [che] (essere) [è] sempre allegra.
+Ho un fratello [che] (giocare) [gioca] a basket.
+I libri [che] (leggere, io) [leggo] sono gialli.
+La pizza [che] (fare) [fa] mia madre è buonissima.
+Ho amici [che] (abitare) [abitano] in Italia.
+Il film [che] (vedere, noi) [vediamo] stasera è nuovo.
+! che + verbo: il verbo va con la persona. || che + Verb: das Verb richtet sich nach der Person.
 
-%übung schwer | Ein Rätsel schreiben
-?frei | Beschreibe drei Gegenstände oder Personen mit che, ohne den Namen zu nennen (Rätsel).
-È un animale che dice „miao“. È una persona che lavora a scuola. È una cosa che usi per scrivere.
+%übung mittel | La famiglia di Leo
+?luecke wortkasten | Completa con che. Poi scrivi il verbo giusto dal riquadro. || Ergänze mit che und dem passenden Verb aus dem Kasten.
+Leo ha una zia [che] [abita] a Napoli.
+Ha due cugini [che] [studiano] a Roma.
+Il nonno è un uomo [che] [racconta] tante storie.
+La nonna fa una torta [che] [piace] a tutti.
+Leo ha un gatto [che] [dorme] sempre sul divano.
++ abitano, studia
+
+%übung schwer | Chi è?
+?frei | Descrivi tre persone della tua famiglia o dei tuoi amici con che. || Beschreibe drei Personen aus deiner Familie oder deinem Freundeskreis mit che.
+Ho un fratello che ama il calcio. Mia nonna è una donna che racconta storie bellissime. Ho un’amica che parla italiano.
 Zeilen: 4
+?ergaenzen | E adesso completa le frasi con che. || Und jetzt ergänze die Sätze mit che.
+Ho un’amica … (abita a Roma) | che abita a Roma | Ho un’amica che abita a Roma.
+Mio padre è una persona … (lavora molto) | che lavora molto | Mio padre è una persona che lavora molto.
+Ho due fratelli … (giocano a calcio) | che giocano a calcio | Ho due fratelli che giocano a calcio.
+Ecco la torta … (fa mia nonna) | che fa mia nonna | Ecco la torta che fa mia nonna.
 
-@mehr pp-modali
+%übung schwer | Indovinelli
+?ergaenzen | Scrivi l’indovinello con che: «È un animale che …». || Schreibe das Rätsel mit che.
+(il gatto: dice «miao») | è un animale che dice miao | È un animale che dice «miao».
+(il frigorifero: tiene fresco il cibo) | è una cosa che tiene fresco il cibo | È una cosa che tiene fresco il cibo.
+(la prof: insegna a scuola) | è una persona che insegna a scuola | È una persona che insegna a scuola.
+(la penna: serve per scrivere) | è una cosa che serve per scrivere | È una cosa che serve per scrivere.
+(il cane: abbaia) | è un animale che abbaia | È un animale che abbaia.
+(il medico: lavora in ospedale) | è una persona che lavora in ospedale | È una persona che lavora in ospedale.
+(il letto: usiamo per dormire) | è una cosa che usiamo per dormire | È una cosa che usiamo per dormire.
+(il pesce: vive nell’acqua) | è un animale che vive nell’acqua | È un animale che vive nell’acqua.
 
-%übung leicht | Was musstest du?
-?zuordnen | Was bedeutet das?
+%übung schwer | Trova gli errori
+?fehler | Correggi gli errori con che. || Korrigiere die Fehler mit che.
+Ho un’amica [chi=>che] abita a Roma.
+I ragazzi che [gioca=>giocano] sono miei amici.
+Il libro [cosa=>che] leggo è bello.
+È un film che [piacciono=>piace] a tutti.
+Ho due gatti che [dorme=>dormono] sempre.
+La ragazza [quale=>che] parla è mia cugina.
+Le scarpe che [compro=>compro] sono nuove.
+Il nonno che [raccontano=>racconta] storie è simpatico.
+! che non cambia mai; il verbo va con il nome. || che bleibt gleich; das Verb richtet sich nach dem Nomen.
+
+@thema pp-modali | 5 · Famiglia e gite | Parte B | Il passato prossimo dei verbi modali | 4
+#regel
+I verbi modali al passato prossimo prendono l’ausiliare del **verbo che segue**:
+- _Ho dovuto **studiare**._ (studiare → avere)
+- _Sono dovuto/-a **partire**._ (partire → essere)
+
+Nella lingua di tutti i giorni si sente anche: _Ho dovuto partire._ A scuola impari la regola sopra.
+#regel-de
+Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**: _Ho dovuto studiare._ (studiare → avere) · _Sono dovuto/-a partire._ (partire → essere)
+Umgangssprachlich hört man auch _Ho dovuto partire_; in der Schule lernst du die Regel oben.
+
+%übung leicht | Avere o essere?
+?auswahl | Quale ausiliare va bene? || Welches Hilfsverb passt?
+Ieri {ho*|sono} dovuto studiare.
+Giulia {è*|ha} voluta partire presto.
+Non {abbiamo*|siamo} potuto comprare i biglietti.
+I ragazzi {sono*|hanno} dovuti tornare a casa.
+{Ho*|Sono} voluto mangiare una pizza.
+Marco {è*|ha} potuto venire alla festa.
+Noi {abbiamo*|siamo} voluto vedere il museo.
+Le ragazze {sono*|hanno} dovute uscire.
+! Il verbo dopo decide: studiare, comprare, mangiare → avere; partire, tornare, venire, uscire → essere. || Das folgende Verb entscheidet.
+
+%übung leicht | Che cosa hai dovuto fare?
+?zuordnen | Che cosa vuol dire? || Was bedeutet das?
 Ho dovuto studiare. = Ich musste lernen.
 Non ho potuto venire. = Ich konnte nicht kommen.
 Ho voluto vedere il film. = Ich wollte den Film sehen.
 Sono dovuta partire. = Ich musste abfahren.
 Non siamo potuti uscire. = Wir konnten nicht ausgehen.
+Hanno voluto giocare. = Sie wollten spielen.
+È dovuto restare a casa. = Er musste zu Hause bleiben.
+Abbiamo dovuto aspettare. = Wir mussten warten.
 + Ich muss lernen.
 
-%übung mittel | avere oder essere?
-?auswahl | Wähle das Hilfsverb und die passende Endung.
+%übung leicht | Avere + modale o essere + modale?
+?sortieren | Quale ausiliare? Guarda il verbo dopo il modale. || Welches Hilfsverb? Achte auf das Verb nach dem Modalverb.
+Kategorien: av=avere; es=essere
+dovuto studiare > av
+voluto mangiare > av
+potuto comprare > av
+dovuto aspettare > av
+dovuto partire > es
+potuto venire > es
+voluto restare > es
+dovuto tornare > es
+voluto vedere > av
+potuto uscire > es
+
+%übung mittel | Avere o essere? Con la desinenza
+?auswahl | Scegli l’ausiliare e la desinenza giusta. || Wähle das Hilfsverb und die passende Endung.
 Ieri Marta {è dovuta*|ha dovuta|è dovuto} andare dal dentista.
 Noi {abbiamo voluto*|siamo voluti|abbiamo voluti} vedere il museo.
 I miei cugini {sono potuti*|hanno potuti|sono potute} venire alla festa.
 Tu {hai dovuto*|sei dovuto|hai dovuta} fare i compiti?
 Le ragazze {sono volute*|hanno volute|sono voluti} restare a casa.
 Io (Luca) {sono dovuto*|ho dovuto essere|sono dovuta} tornare presto.
-! andare, venire, restare, tornare → essere (Endung anpassen) · vedere, fare → avere.
+Voi {avete potuto*|siete potuti|avete potuti} dormire?
+Mia madre {è voluta*|ha voluta|è voluto} partire presto.
+! andare, venire, restare, tornare, partire → essere (desinenza!) · vedere, fare, dormire → avere. || Mit essere passt sich die Endung an.
 
-%übung mittel | Ein schwieriger Tag
-?luecke | Setze die Modalverben ins passato prossimo.
+%übung mittel | Che pasticcio!
+?luecke | Scrivi i verbi modali al passato prossimo. || Setze die Verben ins passato prossimo.
+Ieri io (dovere) [ho dovuto] prendere l’autobus.
+Il treno era in ritardo e noi non (potere) [siamo potuti/siamo potute] partire.
+Mia sorella (volere) [ha voluto] comprare un biglietto nuovo.
+Alla fine (noi, dovere) [abbiamo dovuto] aspettare due ore.
+Mio padre (dovere) [è dovuto] tornare a casa a piedi.
+Io (volere) [ho voluto] mangiare un panino.
+I miei amici non (potere) [sono potuti] venire.
+Che giornata! (Noi, dovere) [Siamo dovuti/Siamo dovute] andare a letto presto.
+! partire, tornare, venire, andare → essere; prendere, comprare, aspettare, mangiare → avere. || partire, tornare, venire, andare → essere; sonst avere.
+
+%übung mittel | Una giornata difficile
+?luecke | Scrivi i verbi modali al passato prossimo. || Setze die Modalverben ins passato prossimo.
 Ieri mio padre (dovere) [ha dovuto] lavorare fino alle otto.
 Mia madre (dovere) [è dovuta] andare a Milano.
 Io (volere) [ho voluto] cucinare la cena.
 Ma non (potere, io) [ho potuto] comprare le uova: il negozio era chiuso!
 Allora io e mio fratello (dovere) [siamo dovuti] uscire di nuovo.
 Alla fine (potere, noi) [abbiamo potuto] mangiare alle nove.
+Mia sorella non (volere) [ha voluto] mangiare la pasta.
+Lei (volere) [è voluta] andare a letto subito.
 
-%übung schwer | Entschuldigungen
-?ergaenzen | Erkläre, warum es nicht ging (passato prossimo des Modalverbs).
+%übung schwer | Trova gli errori
+?fehler | Correggi le forme segnate. || Korrigiere die markierten Formen.
+Non [sono=>ho] potuto fare i compiti.
+Marta [ha=>è] dovuta andare dal medico.
+I ragazzi hanno [voluti=>voluto] giocare.
+Noi [abbiamo=>siamo] dovuti partire presto.
+Io [sono=>ho] voluto vedere il film.
+Le mie amiche sono [potuto=>potute] venire.
+Tu [sei=>hai] dovuto studiare tanto?
+Mio fratello [ha=>è] voluto restare a casa.
+
+%übung schwer | Scuse
+?ergaenzen | Spiega perché non è stato possibile (passato prossimo del modale). || Erkläre, warum es nicht ging.
 Perché non sei venuto alla festa? (dovere studiare) – … | Ho dovuto studiare | Ho dovuto studiare.
 Perché Sara non ha telefonato? (non potere usare il cellulare) – … | Non ha potuto usare il cellulare | Non ha potuto usare il cellulare.
-Perché siete arrivati tardi? (dovere aspettare l'autobus) – … | Abbiamo dovuto aspettare l'autobus | Abbiamo dovuto aspettare l'autobus.
+Perché siete arrivati tardi? (dovere aspettare l’autobus) – … | Abbiamo dovuto aspettare l’autobus | Abbiamo dovuto aspettare l’autobus.
 Perché Marco non è a scuola? (dovere andare dal medico) – … | È dovuto andare dal medico | È dovuto andare dal medico.
 Perché le ragazze non sono qui? (volere restare a casa) – … | Sono volute restare a casa | Sono volute restare a casa.
+Perché non hai fatto i compiti? (non potere, ero malato) – … | Non ho potuto | Non ho potuto, ero malato.
+Perché tua madre non è venuta? (dovere lavorare) – … | Ha dovuto lavorare | Ha dovuto lavorare.
+Perché siete tornati presto? (dovere tornare per cena) – … | Siamo dovuti tornare | Siamo dovuti tornare per cena.
 
-@mehr imperativo-noi
+%übung schwer | Una mail di scuse
+?frei | Scrivi una mail breve a un amico: spiega perché non sei venuto alla sua festa. Usa dovere, potere e volere al passato prossimo. || Schreibe eine kurze Mail: Erkläre, warum du nicht zur Party gekommen bist.
+Ciao Luca, scusa! Sabato non sono potuto venire alla festa. Ho dovuto aiutare mio padre in negozio e poi sono dovuto andare dai nonni. Ho voluto chiamarti, ma il cellulare era scarico. A presto!
+Zeilen: 5
+?luecke | E adesso completa. || Und jetzt ergänze.
+Sabato non (potere) [sono potuto/sono potuta] venire alla festa.
+(Dovere) [Ho dovuto] aiutare mio padre.
+Poi (dovere) [sono dovuto/sono dovuta] andare dai nonni.
+(Volere) [Ho voluto] telefonarti.
+
+@thema imperativo-noi | 5 · Famiglia e gite | Parte B | L’imperativo della prima persona plurale | 5
+#regel
+Con la **prima persona plurale** facciamo una proposta («Lass uns …!»). La forma è come al presente:
+- _**Andiamo** al cinema!_ · _**Prendiamo** l’autobus!_ · _**Facciamo** una pausa!_
+- negativo: _**Non** prendiamo il taxi!_
+#regel-de
+Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens: _Andiamo al cinema! Prendiamo l’autobus!_ · verneint: _Non prendiamo il taxi!_
+
+%übung leicht | Proposte
+?auswahl | Scegli la proposta. || Wähle den Vorschlag.
+Che bella giornata! {Andiamo*|Andate|Vado} al parco!
+È tardi, {prendiamo*|prendete|prendono} un taxi!
+Ho fame, {mangiamo*|mangiate|mangio} una pizza!
+Siamo stanchi, {facciamo*|fate|fanno} una pausa!
+Piove, {restiamo*|restate|restano} a casa!
+C’è un bel film, {guardiamo*|guardate|guardano} la TV!
+È il compleanno di Leo: {compriamo*|comprate|compro} un regalo!
+Fa caldo, {andiamo*|andate|vanno} al mare!
 
 %übung leicht | Lass uns …
-?zuordnen | Was bedeutet das?
+?zuordnen | Che cosa vuol dire? || Was bedeutet das?
 Andiamo! = Lass uns gehen!
 Mangiamo una pizza! = Lass uns eine Pizza essen!
 Facciamo una pausa! = Lass uns eine Pause machen!
 Prendiamo il treno! = Lass uns den Zug nehmen!
 Non aspettiamo! = Lass uns nicht warten!
 Partiamo domani! = Lass uns morgen abfahren!
+Telefoniamo alla nonna! = Lass uns Oma anrufen!
+Restiamo a casa! = Lass uns zu Hause bleiben!
 
-%übung mittel | Ein Ausflug
-?luecke | Mache Vorschläge (1. Person Plural).
+%übung leicht | Proposta o domanda?
+?auswahl | Scegli la forma giusta per la proposta. || Wähle die passende Form für den Vorschlag.
+Ragazzi, {usciamo*|uscite|esco} stasera!
+Dai, {prendiamo*|prendi|prende} la bici!
+Non {andiamo*|andate|vanno} a piedi, è lontano!
+{Chiamiamo*|Chiami|Chiamano} Sara!
+{Studiamo*|Studiate|Studio} insieme oggi!
+Non {mangiamo*|mangiate|mangia} troppo!
+{Facciamo*|Fate|Fanno} una foto!
+{Giochiamo*|Giocate|Giocano} a carte!
+
+%übung mittel | Che cosa facciamo?
+?luecke | Fai proposte con la prima persona plurale. || Mache Vorschläge mit der 1. Person Plural.
+(andare) [Andiamo] a Roma per Pasqua!
+(prendere) [Prendiamo] il treno, è più comodo!
+(comprare) [Compriamo] i biglietti online!
+Non (aspettare) [aspettiamo] l’autobus, (camminare) [camminiamo]!
+(visitare) [Visitiamo] il Colosseo!
+(mangiare) [Mangiamo] un gelato in piazza!
+Non (tornare) [torniamo] troppo tardi!
+
+%übung mittel | Una gita
+?luecke | Fai proposte (prima persona plurale). || Mache Vorschläge (1. Person Plural).
 Ragazzi, che cosa facciamo sabato? (andare) [Andiamo] al lago!
 Buona idea! (prendere) [Prendiamo] le bici!
 No, è troppo lontano. (fare) [Facciamo] una gita in treno!
-D'accordo. (partire) [Partiamo] alle nove.
+D’accordo. (partire) [Partiamo] alle nove.
 E (portare) [portiamo] i panini!
 Non (dimenticare) [dimentichiamo] il costume!
 (chiamare) [Chiamiamo] anche Sara!
-! dimenticare → dimentichiamo (h vor i, damit der Laut hart bleibt).
+(tornare) [Torniamo] prima di cena!
+! dimenticare → dimentichiamo (h prima di i, così il suono resta duro). || dimenticare → dimentichiamo (h vor i).
 
-%übung schwer | Imperativ: tu, voi, noi
-?auswahl | Wer ist gemeint? Wähle die passende Form.
-(an Luca) {Prendi*|Prendiamo|Prendete} il libro!
-(an die Klasse, du bist dabei) {Andiamo*|Andate|Va'} in palestra!
-(an Sara und Paolo) {Ascoltate*|Ascoltiamo|Ascolta}!
-(an Marco, verneint) Non {correre*|correte|corriamo}!
-(an dich und deine Freunde) {Facciamo*|Fate|Fa'} una foto!
-(an die Kinder, verneint) Non {gridate*|gridare|gridiamo}!
-! noi = Vorschlag (ich mache mit) · voi = Aufforderung an mehrere · tu verneint: non + Infinitiv.
+%übung mittel | Dal presente alla proposta
+?ergaenzen | Trasforma la domanda in una proposta. || Mache aus der Frage einen Vorschlag.
+Andiamo al cinema? → … | Andiamo al cinema | Andiamo al cinema!
+Mangiamo insieme? → … | Mangiamo insieme | Mangiamo insieme!
+Facciamo i compiti? → … | Facciamo i compiti | Facciamo i compiti!
+Prendiamo il tram? → … | Prendiamo il tram | Prendiamo il tram!
+Chiamiamo Leo? → … | Chiamiamo Leo | Chiamiamo Leo!
+Usciamo stasera? → … | Usciamo stasera | Usciamo stasera!
+Non aspettiamo più? → … | Non aspettiamo più | Non aspettiamo più!
+Giochiamo a pallavolo? → … | Giochiamo a pallavolo | Giochiamo a pallavolo!
+! La forma è uguale al presente; cambia solo l’intonazione (!). || Die Form ist gleich wie im Präsens; nur die Betonung ändert sich.
 
-@mehr quantita
+%übung schwer | Imperativo: tu, voi, noi
+?auswahl | Chi è? Scegli la forma giusta. || Wer ist gemeint? Wähle die passende Form.
+(a Luca) {Prendi*|Prendiamo|Prendete} il libro!
+(alla classe, tu sei con loro) {Andiamo*|Andate|Va’} in palestra!
+(a Sara e Paolo) {Ascoltate*|Ascoltiamo|Ascolta}!
+(a Marco, negativo) Non {correre*|correte|corriamo}!
+(a te e ai tuoi amici) {Facciamo*|Fate|Fa’} una foto!
+(ai bambini, negativo) Non {gridate*|gridare|gridiamo}!
+(a Giulia) {Chiudi*|Chiudiamo|Chiudete} la porta!
+(a te e a tua sorella) {Puliamo*|Pulite|Pulisci} la camera!
+! noi = proposta (faccio anch’io) · voi = ordine a più persone · tu negativo: non + infinito. || noi = Vorschlag (ich mache mit) · voi = Aufforderung an mehrere · tu verneint: non + Infinitiv.
 
-%übung leicht | Viel oder wenig?
-?zuordnen | Was bedeutet das?
+%übung schwer | Programmare un fine settimana
+?frei | Organizzi un fine settimana con gli amici. Scrivi 5 proposte con la prima persona plurale. || Du planst mit Freunden ein Wochenende. Schreibe 5 Vorschläge mit der 1. Person Plural.
+Andiamo in montagna! Prendiamo il treno alle otto. Facciamo una gita in bici. Mangiamo in un ristorante. Non torniamo troppo tardi!
+Zeilen: 5
+?luecke | E adesso completa. || Und jetzt ergänze.
+(partire) [Partiamo] venerdì sera!
+(dormire) [Dormiamo] in un ostello.
+(visitare) [Visitiamo] la città vecchia.
+Non (spendere) [spendiamo] troppo!
+
+%übung schwer | Trova gli errori
+?fehler | Correggi le otto proposte sbagliate. || Korrigiere die acht falschen Vorschläge.
+Dai, [andate=>andiamo] al cinema insieme!
+[Mangiate=>Mangiamo] una pizza, ho fame anch’io!
+Non [prendete=>prendiamo] il taxi, è caro!
+[Fate=>Facciamo] una pausa tutti insieme!
+[Chiama=>Chiamiamo] Sara, è sola!
+[Restano=>Restiamo] a casa, piove!
+[Dimenticamo=>Dimentichiamo] i compiti per oggi!
+[Partite=>Partiamo] presto domani!
+! Proposta con noi: andiamo, mangiamo, facciamo. || Vorschlag mit noi.
+
+@thema quantita | 5 · Famiglia e gite | Parte B | Molto, poco, tanto, troppo | 6
+#regel
+**Come avverbio** (con un verbo o un aggettivo) **non cambiano**:
+_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._
+**Davanti a un nome** cambiano come un aggettivo:
+| | m. sing. | f. sing. | m. plur. | f. plur. |
+| molto | molto | molta | molti | molte |
+| poco | poco | poca | pochi | poche |
+| tanto | tanto | tanta | tanti | tante |
+| troppo | troppo | troppa | troppi | troppe |
+
+_Ho **molti** amici. Ho **poco** tempo. C’è **troppa** gente._
+#regel-de
+**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**: _Studio molto. Il viaggio è molto bello._
+**Als Begleiter** (vor einem Nomen) passen sie sich an: molto/molta/molti/molte, poco/poca/pochi/poche … _Ho molti amici. C’è troppa gente._
+
+%übung leicht | Avverbio o con il nome?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Ho {molti*|molto|molte} amici.
+Mi piace {molto*|molta|molti} la musica.
+Oggi ho {poco*|poca|pochi} tempo.
+Ci sono {tante*|tanto|tanti} persone in piazza.
+Il viaggio è {molto*|molta|molte} bello.
+Nella mia classe ci sono {pochi*|poco|poche} ragazzi.
+Mangio {troppo*|troppa|troppi}!
+C’è {troppa*|troppo|troppe} gente in metro.
+! Con un nome cambia (molti amici), con verbo o aggettivo no (molto bello). || Mit Nomen ändert es sich, mit Verb oder Adjektiv nicht.
+
+%übung leicht | Tanto o poco?
+?zuordnen | Che cosa vuol dire? || Was bedeutet das?
 molti amici = viele Freunde
 poca acqua = wenig Wasser
 troppi compiti = zu viele Hausaufgaben
 tante persone = viele Leute
 poco tempo = wenig Zeit
 molto bello = sehr schön
+troppa gente = zu viele Leute
+poche sedie = wenige Stühle
 + zu wenig Zeit
 
-%übung mittel | Die Endungen
-?tabelle | Ergänze die Formen.
-Spalten: Wort | m. Sg. | w. Sg. | m. Pl. | w. Pl.
+%übung leicht | Con il nome
+?auswahl | Scegli la forma giusta con il nome. || Wähle die passende Form vor dem Nomen.
+{Molte*|Molti|Molto} ragazze giocano a pallavolo.
+Abbiamo {pochi*|poche|poco} soldi.
+Ci sono {tanti*|tante|tanto} turisti.
+Bevo {poca*|poco|poche} acqua.
+Ho {troppi*|troppe|troppo} compiti!
+C’è {tanta*|tanto|tante} neve.
+Mangiamo {molta*|molto|molte} frutta.
+Ci sono {poche*|pochi|poca} macchine.
+! poco → pochi, poche (con la h). || poco → pochi, poche (mit h).
+
+%übung mittel | Un fine settimana a Roma
+?luecke | Scrivi la forma giusta. || Ergänze die richtige Form.
+A Roma ci sono (tanto) [tanti] turisti.
+Abbiamo visto (molto) [molte] chiese.
+Il biglietto non costa (molto) [molto].
+Purtroppo abbiamo (poco) [poco] tempo.
+In metro c’è (troppo) [troppa] gente!
+Ci sono (tanto) [tante] fontane bellissime.
+Mangiamo (molto) [molto] e camminiamo (tanto) [tanto].
+I monumenti sono (molto) [molto] antichi.
+! Davanti a un nome cambia (tanti turisti, troppa gente). Con un verbo resta uguale (costa molto). || Vor einem Nomen passt sich die Form an. Beim Verb bleibt sie gleich.
+
+%übung mittel | Le forme
+?tabelle | Completa le forme. || Ergänze die Formen.
+Spalten: parola | m. sing. | f. sing. | m. plur. | f. plur.
 molto | molto | [molta] | [molti] | [molte]
 poco | poco | [poca] | [pochi] | [poche]
 tanto | tanto | [tanta] | [tanti] | [tante]
 troppo | troppo | [troppa] | [troppi] | [troppe]
-! poco → pochi, poche (mit h).
+! poco → pochi, poche (con la h). || poco → pochi, poche (mit h).
 
 %übung mittel | Una festa in famiglia
-?luecke | Ergänze molto, poco, tanto oder troppo in der richtigen Form.
+?luecke | Scrivi molto, poco, tanto o troppo nella forma giusta. || Ergänze in der richtigen Form.
 Alla festa di nonna Rosa ci sono (tanto) [tanti] parenti.
 Ci sono (molto) [molte] torte e (tanto) [tanta] frutta.
 Io mangio (troppo) [troppo]!
 Mio fratello è (molto) [molto] contento.
 I bambini fanno (troppo) [troppo] rumore.
 Purtroppo abbiamo (poco) [poche] sedie.
-E c'è (poco) [poco] spazio in salotto.
+E c’è (poco) [poco] spazio in salotto.
 Ma è una giornata (molto) [molto] bella!
-! Beim Verb (mangio troppo) und vor Adjektiven (molto contento) bleibt die Form unverändert.
+! Con un verbo (mangio troppo) e prima di un aggettivo (molto contento) la forma non cambia. || Beim Verb und vor Adjektiven bleibt die Form unverändert.
 
-%übung schwer | Adverb oder Begleiter?
-?auswahl | Wähle die richtige Form.
+%übung schwer | Trova gli errori
+?fehler | Correggi le forme segnate. || Korrigiere die markierten Formen.
+Ho [molto=>molti] compiti.
+Laura è [molta=>molto] simpatica.
+C’è [troppo=>troppa] gente qui.
+Mangio [pochi=>poco].
+Ci sono [tanto=>tante] ragazze.
+Abbiamo [poche=>pochi] soldi.
+Il film è [molti=>molto] lungo.
+Ho [troppe=>troppi] libri nello zaino.
+
+%übung schwer | Avverbio o con il nome?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
 Mia sorella legge {molto*|molti|molta}.
 Ho {molti*|molto|molte} libri in camera.
-Oggi c'è {poca*|poco|poche} gente in piazza.
+Oggi c’è {poca*|poco|poche} gente in piazza.
 I compiti sono {troppo*|troppi|troppe} difficili.
 Abbiamo {troppi*|troppo|troppe} compiti!
 Lucia è {tanto*|tanta|tante} simpatica.
 Ci sono {poche*|poco|pochi} ragazze in squadra.
 Dormo {poco*|pochi|poca} durante la settimana.
-! Vor Adjektiven (difficili, simpatica) und beim Verb (legge, dormo) unverändert.
+! Prima di un aggettivo (difficili, simpatica) e con un verbo (legge, dormo) non cambia. || Vor Adjektiven und beim Verb unverändert.
+
+%übung schwer | La mia città
+?ergaenzen | Scrivi la frase con molto, poco, tanto o troppo. || Schreibe den Satz mit molto, poco, tanto oder troppo.
+(nella mia città / tanto / parchi) | ci sono tanti parchi | Nella mia città ci sono tanti parchi.
+(c’è / poco / traffico) | c’è poco traffico | C’è poco traffico.
+(ci sono / molto / negozi) | ci sono molti negozi | Ci sono molti negozi.
+(d’estate c’è / troppo / gente) | c’è troppa gente | D’estate c’è troppa gente.
+(la città è / molto / bella) | è molto bella | La città è molto bella.
+(ci sono / poco / piscine) | ci sono poche piscine | Ci sono poche piscine.
+(i ragazzi studiano / tanto) | studiano tanto | I ragazzi studiano tanto.
+(ci sono / tanto / biciclette) | ci sono tante biciclette | Ci sono tante biciclette.

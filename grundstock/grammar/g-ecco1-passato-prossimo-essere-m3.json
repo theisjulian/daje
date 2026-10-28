@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-passato-prossimo-essere-m3",
- "title": "-o, -a, -i oder -e?",
+ "title": "-o, -a, -i o -e?",
  "language": "it",
  "level": "A1",
- "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · -o, -a, -i oder -e? (mittel).",
+ "description": "Il passato prossimo con essere e i participi irregolari · -o, -a, -i o -e? · livello medio.",
  "topics": [
-  "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "Il passato prossimo con essere e i participi irregolari",
   "Grammatik"
  ],
  "sources": [
@@ -36,17 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-passato-prossimo-essere",
-  "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "topicTitle": "Il passato prossimo con essere e i participi irregolari",
   "difficulty": "mittel",
   "origin": "own",
   "order": 43,
-  "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |"
+  "rule": "Con **essere** fanno il passato prossimo soprattutto i verbi di **movimento** e di **cambiamento**, e **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nIl participio cambia come un aggettivo (**soggetto**):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Participi irregolari:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+  "ruleHelp": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** sowie rimanere, stare, essere. Das Partizip richtet sich dann nach dem **Subjekt** (-o, -a, -i, -e): _Marco è andato, Giulia è andata, i ragazzi sono andati, le ragazze sono andate._\nUnregelmäßige Partizipien: fatto, preso, perso, visto, rimasto, deciso, letto, scritto, venuto, stato, vinto, riso."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze die Endung des Partizips.",
-   "explanation": "Partizip mit essere = Endung wie bei einem Adjektiv: -o, -a, -i, -e.",
+   "prompt": "Scrivi la desinenza del participio.",
+   "promptHelp": "Ergänze die Endung des Partizips.",
+   "explanation": "Participio con essere = desinenza come un aggettivo: -o, -a, -i, -e.",
+   "explanationHelp": "Partizip mit essere = Endung wie bei einem Adjektiv.",
    "type": "gap_fill",
    "text": "Marta è andat[[g1]] in piscina.\nPaolo è tornat[[g2]] alle sette.\nIo (Sara) sono uscit[[g3]] con le amiche.\nLe mie amiche sono arrivat[[g4]] tardi.\nNoi (Luca e Marco) siamo partit[[g5]] presto.\nVoi (Anna e Chiara) siete stat[[g6]] a Roma?\nI bambini sono cadut[[g7]] dalla bici.\nTu (Giulia) sei rimast[[g8]] a casa?",
    "gaps": [

@@ -1,0 +1,99 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-che-relativo-l3",
+ "title": "Chi è?",
+ "language": "it",
+ "level": "A1",
+ "description": "Il pronome relativo che · Chi è? · livello facile.",
+ "topics": [
+  "Il pronome relativo che",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "5 · Famiglia e gite",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-che-relativo",
+  "topicTitle": "Il pronome relativo che",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 33,
+  "rule": "**che** unisce due frasi e si riferisce a un nome:\n- _Ho un’amica. L’amica abita a Roma._ → _Ho un’amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** non cambia mai (per persone e cose, singolare e plurale).",
+  "ruleHelp": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche): _Ho un’amica che abita a Roma. Il libro che leggo è interessante._\n**che** bleibt immer gleich (Personen und Sachen, Singular und Plural)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la descrizione.",
+   "promptHelp": "Ergänze die Beschreibung.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Il nonno è la persona",
+     "right": "che racconta le storie più belle."
+    },
+    {
+     "id": "p2",
+     "left": "Il cuoco è la persona",
+     "right": "che cucina al ristorante."
+    },
+    {
+     "id": "p3",
+     "left": "L’insegnante è la persona",
+     "right": "che spiega la lezione."
+    },
+    {
+     "id": "p4",
+     "left": "Il medico è la persona",
+     "right": "che lavora in ospedale."
+    },
+    {
+     "id": "p5",
+     "left": "Il postino è la persona",
+     "right": "che porta le lettere."
+    },
+    {
+     "id": "p6",
+     "left": "Il pilota è la persona",
+     "right": "che guida l’aereo."
+    },
+    {
+     "id": "p7",
+     "left": "Il commesso è la persona",
+     "right": "che lavora in un negozio."
+    },
+    {
+     "id": "p8",
+     "left": "Il cantante è la persona",
+     "right": "che canta in un concerto."
+    }
+   ],
+   "distractors": [
+    "che va a scuola."
+   ]
+  }
+ ]
+}

@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-modali-l3",
- "title": "Was möchtest du?",
+ "title": "Che cosa vuoi?",
  "language": "it",
  "level": "A1",
- "description": "venire, sapere und die Modalverben · Was möchtest du? (einfach).",
+ "description": "Venire, sapere e i verbi modali · Che cosa vuoi? · livello facile.",
  "topics": [
-  "venire, sapere und die Modalverben",
+  "Venire, sapere e i verbi modali",
   "Grammatik"
  ],
  "sources": [
@@ -36,16 +36,18 @@
  },
  "grammar": {
   "topic": "ecco1-modali",
-  "topicTitle": "venire, sapere und die Modalverben",
+  "topicTitle": "Venire, sapere e i verbi modali",
   "difficulty": "leicht",
   "origin": "own",
   "order": 23,
-  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._"
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nDopo i verbi modali c’è l’**infinito**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + infinito = so fare una cosa (ho imparato): _So nuotare._ · **potere** = è possibile, ho il permesso: _Oggi non posso uscire._",
+  "ruleHelp": "volere (wollen), potere (können/dürfen), dovere (müssen), sapere (wissen/können), venire (kommen) sind unregelmäßig (siehe Tabelle). Danach steht der **Infinitiv**: _Voglio sciare._\n**sapere** + Infinitiv = etwas gelernt haben (_So nuotare._) · **potere** = die Möglichkeit oder Erlaubnis haben (_Oggi non posso uscire._)"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle die richtige Form.",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
    "type": "gap_choice",
    "text": "Io [[g1]] un gelato al cioccolato.\nTu [[g2]] venire al cinema?\nMia sorella [[g3]] un cane.\nNoi [[g4]] andare al mare.\nVoi [[g5]] giocare con noi?\nI miei amici [[g6]] fare una festa.\nScusi, [[g7]] entrare?\nMamma, [[g8]] uscire stasera?",
    "gaps": [

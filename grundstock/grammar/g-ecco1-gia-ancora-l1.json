@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-gia-ancora-l1",
- "title": "Wo steht già?",
+ "title": "Dove va già?",
  "language": "it",
  "level": "A1",
- "description": "già und (non …) ancora · Wo steht già? (einfach).",
+ "description": "Già e (non …) ancora · Dove va già? · livello facile.",
  "topics": [
-  "già und (non …) ancora",
+  "Già e (non …) ancora",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 16,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,16 +36,18 @@
  },
  "grammar": {
   "topic": "ecco1-gia-ancora",
-  "topicTitle": "già und (non …) ancora",
+  "topicTitle": "Già e (non …) ancora",
   "difficulty": "leicht",
   "origin": "own",
   "order": 51,
-  "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)"
+  "rule": "Nel passato prossimo **già** e **ancora** stanno **tra l’ausiliare e il participio**:\n- _Ho **già** fatto i compiti._\n- _**Non** ho **ancora** mangiato._",
+  "ruleHelp": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**: _Ho già fatto i compiti._ (schon gemacht) · _Non ho ancora mangiato._ (noch nicht gegessen)"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Welcher Satz ist richtig?",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
    "type": "single_choice",
    "options": [
     {
@@ -65,7 +67,8 @@
   },
   {
    "id": "q2",
-   "prompt": "Welcher Satz ist richtig?",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
    "type": "single_choice",
    "options": [
     {
@@ -79,6 +82,132 @@
     {
      "id": "o3",
      "text": "Ho non ancora finito."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q3",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Marco è già partito."
+    },
+    {
+     "id": "o2",
+     "text": "Marco già è partito."
+    },
+    {
+     "id": "o3",
+     "text": "Marco è partito già."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q4",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non abbiamo ancora mangiato."
+    },
+    {
+     "id": "o2",
+     "text": "Abbiamo non ancora mangiato."
+    },
+    {
+     "id": "o3",
+     "text": "Non ancora abbiamo mangiato."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q5",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Hai già fatto i compiti?"
+    },
+    {
+     "id": "o2",
+     "text": "Hai fatto già i compiti?"
+    },
+    {
+     "id": "o3",
+     "text": "Già hai fatto i compiti?"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q6",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Le ragazze non sono ancora arrivate."
+    },
+    {
+     "id": "o2",
+     "text": "Le ragazze non ancora sono arrivate."
+    },
+    {
+     "id": "o3",
+     "text": "Le ragazze sono non ancora arrivate."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q7",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Ho già letto il libro."
+    },
+    {
+     "id": "o2",
+     "text": "Già ho letto il libro."
+    },
+    {
+     "id": "o3",
+     "text": "Ho letto già il libro."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q8",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non hai ancora telefonato alla nonna?"
+    },
+    {
+     "id": "o2",
+     "text": "Non ancora hai telefonato alla nonna?"
+    },
+    {
+     "id": "o3",
+     "text": "Hai non ancora telefonato alla nonna?"
     }
    ],
    "correctOptionId": "o1"

@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-modali-s1",
- "title": "Konjugationstabelle",
+ "title": "Tabella dei modali",
  "language": "it",
  "level": "A1",
- "description": "venire, sapere und die Modalverben · Konjugationstabelle (schwer).",
+ "description": "Venire, sapere e i verbi modali · Tabella dei modali · livello difficile.",
  "topics": [
-  "venire, sapere und die Modalverben",
+  "Venire, sapere e i verbi modali",
   "Grammatik"
  ],
  "sources": [
@@ -36,19 +36,21 @@
  },
  "grammar": {
   "topic": "ecco1-modali",
-  "topicTitle": "venire, sapere und die Modalverben",
+  "topicTitle": "Venire, sapere e i verbi modali",
   "difficulty": "schwer",
   "origin": "own",
   "order": 21,
-  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._"
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nDopo i verbi modali c’è l’**infinito**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + infinito = so fare una cosa (ho imparato): _So nuotare._ · **potere** = è possibile, ho il permesso: _Oggi non posso uscire._",
+  "ruleHelp": "volere (wollen), potere (können/dürfen), dovere (müssen), sapere (wissen/können), venire (kommen) sind unregelmäßig (siehe Tabelle). Danach steht der **Infinitiv**: _Voglio sciare._\n**sapere** + Infinitiv = etwas gelernt haben (_So nuotare._) · **potere** = die Möglichkeit oder Erlaubnis haben (_Oggi non posso uscire._)"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze die Formen.",
+   "prompt": "Completa le forme.",
+   "promptHelp": "Ergänze die Formen.",
    "type": "table_fill",
    "columns": [
-    "Person",
+    "persona",
     "volere",
     "potere",
     "dovere"
@@ -76,21 +78,42 @@
      }
     ],
     [
-     "lui / lei",
+     "tu",
      {
       "id": "c4",
       "acceptedAnswers": [
-       "vuole"
+       "vuoi"
       ]
      },
      {
       "id": "c5",
       "acceptedAnswers": [
-       "può"
+       "puoi"
       ]
      },
      {
       "id": "c6",
+      "acceptedAnswers": [
+       "devi"
+      ]
+     }
+    ],
+    [
+     "lui / lei",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "vuole"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "può"
+      ]
+     },
+     {
+      "id": "c9",
       "acceptedAnswers": [
        "deve"
       ]
@@ -99,40 +122,61 @@
     [
      "noi",
      {
-      "id": "c7",
+      "id": "c10",
       "acceptedAnswers": [
        "vogliamo"
       ]
      },
      {
-      "id": "c8",
+      "id": "c11",
       "acceptedAnswers": [
        "possiamo"
       ]
      },
      {
-      "id": "c9",
+      "id": "c12",
       "acceptedAnswers": [
        "dobbiamo"
       ]
      }
     ],
     [
+     "voi",
+     {
+      "id": "c13",
+      "acceptedAnswers": [
+       "volete"
+      ]
+     },
+     {
+      "id": "c14",
+      "acceptedAnswers": [
+       "potete"
+      ]
+     },
+     {
+      "id": "c15",
+      "acceptedAnswers": [
+       "dovete"
+      ]
+     }
+    ],
+    [
      "loro",
      {
-      "id": "c10",
+      "id": "c16",
       "acceptedAnswers": [
        "vogliono"
       ]
      },
      {
-      "id": "c11",
+      "id": "c17",
       "acceptedAnswers": [
        "possono"
       ]
      },
      {
-      "id": "c12",
+      "id": "c18",
       "acceptedAnswers": [
        "devono"
       ]

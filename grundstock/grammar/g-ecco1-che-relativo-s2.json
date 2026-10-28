@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-che-relativo-s2",
- "title": "Ein Rätsel schreiben",
+ "title": "Indovinelli",
  "language": "it",
  "level": "A1",
- "description": "Das Relativpronomen che · Ein Rätsel schreiben (schwer).",
+ "description": "Il pronome relativo che · Indovinelli · livello difficile.",
  "topics": [
-  "Das Relativpronomen che",
+  "Il pronome relativo che",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 3,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,85 @@
  },
  "grammar": {
   "topic": "ecco1-che-relativo",
-  "topicTitle": "Das Relativpronomen che",
+  "topicTitle": "Il pronome relativo che",
   "difficulty": "schwer",
   "origin": "own",
   "order": 32,
-  "rule": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):\n- _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** bleibt immer gleich (für Personen und Sachen, Singular und Plural)."
+  "rule": "**che** unisce due frasi e si riferisce a un nome:\n- _Ho un’amica. L’amica abita a Roma._ → _Ho un’amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** non cambia mai (per persone e cose, singolare e plurale).",
+  "ruleHelp": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche): _Ho un’amica che abita a Roma. Il libro che leggo è interessante._\n**che** bleibt immer gleich (Personen und Sachen, Singular und Plural)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Beschreibe drei Gegenstände oder Personen mit che, ohne den Namen zu nennen (Rätsel).",
-   "type": "open_answer",
-   "modelAnswer": "È un animale che dice „miao“. È una persona che lavora a scuola. È una cosa che usi per scrivere.",
-   "lines": 4
+   "prompt": "Scrivi l’indovinello con che: «È un animale che …».",
+   "promptHelp": "Schreibe das Rätsel mit che.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "(il gatto: dice «miao»)",
+     "acceptedAnswers": [
+      "è un animale che dice miao"
+     ],
+     "modelAnswer": "È un animale che dice «miao»."
+    },
+    {
+     "id": "s2",
+     "start": "(il frigorifero: tiene fresco il cibo)",
+     "acceptedAnswers": [
+      "è una cosa che tiene fresco il cibo"
+     ],
+     "modelAnswer": "È una cosa che tiene fresco il cibo."
+    },
+    {
+     "id": "s3",
+     "start": "(la prof: insegna a scuola)",
+     "acceptedAnswers": [
+      "è una persona che insegna a scuola"
+     ],
+     "modelAnswer": "È una persona che insegna a scuola."
+    },
+    {
+     "id": "s4",
+     "start": "(la penna: serve per scrivere)",
+     "acceptedAnswers": [
+      "è una cosa che serve per scrivere"
+     ],
+     "modelAnswer": "È una cosa che serve per scrivere."
+    },
+    {
+     "id": "s5",
+     "start": "(il cane: abbaia)",
+     "acceptedAnswers": [
+      "è un animale che abbaia"
+     ],
+     "modelAnswer": "È un animale che abbaia."
+    },
+    {
+     "id": "s6",
+     "start": "(il medico: lavora in ospedale)",
+     "acceptedAnswers": [
+      "è una persona che lavora in ospedale"
+     ],
+     "modelAnswer": "È una persona che lavora in ospedale."
+    },
+    {
+     "id": "s7",
+     "start": "(il letto: usiamo per dormire)",
+     "acceptedAnswers": [
+      "è una cosa che usiamo per dormire"
+     ],
+     "modelAnswer": "È una cosa che usiamo per dormire."
+    },
+    {
+     "id": "s8",
+     "start": "(il pesce: vive nell’acqua)",
+     "acceptedAnswers": [
+      "è un animale che vive nell’acqua"
+     ],
+     "modelAnswer": "È un animale che vive nell’acqua."
+    }
+   ]
   }
  ]
 }

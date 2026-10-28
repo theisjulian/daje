@@ -6,7 +6,7 @@
  "title": "Filippo sogna",
  "language": "it",
  "level": "A1",
- "description": "La negazione con non · Filippo sogna (mittel).",
+ "description": "La negazione con non · Filippo sogna · livello medio.",
  "topics": [
   "La negazione con non",
   "Grammatik"
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -86,6 +86,22 @@
     },
     {
      "id": "s5",
+     "start": "Anna abita in periferia. (in centro)",
+     "acceptedAnswers": [
+      "non abita in periferia, abita in centro"
+     ],
+     "modelAnswer": "No, Anna non abita in periferia, abita in centro."
+    },
+    {
+     "id": "s6",
+     "start": "Filippo è di Torino. (di Lecce)",
+     "acceptedAnswers": [
+      "non è di Torino, è di Lecce"
+     ],
+     "modelAnswer": "No, Filippo non è di Torino, è di Lecce."
+    },
+    {
+     "id": "s7",
      "start": "I ragazzi prendono il treno. (la bici)",
      "acceptedAnswers": [
       "non prendono il treno, prendono la bici"
@@ -93,7 +109,7 @@
      "modelAnswer": "No, i ragazzi non prendono il treno, prendono la bici."
     },
     {
-     "id": "s6",
+     "id": "s8",
      "start": "Marco sta male. (bene)",
      "acceptedAnswers": [
       "non sta male, sta bene"

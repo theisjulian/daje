@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-gia-ancora-s3",
+ "title": "Già fatto?",
+ "language": "it",
+ "level": "A1",
+ "description": "Già e (non …) ancora · Già fatto? · livello difficile.",
+ "topics": [
+  "Già e (non …) ancora",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 4 · Tempo libero · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-gia-ancora",
+  "topicTitle": "Già e (non …) ancora",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 53,
+  "rule": "Nel passato prossimo **già** e **ancora** stanno **tra l’ausiliare e il participio**:\n- _Ho **già** fatto i compiti._\n- _**Non** ho **ancora** mangiato._",
+  "ruleHelp": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**: _Ho già fatto i compiti._ (schon gemacht) · _Non ho ancora mangiato._ (noch nicht gegessen)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi la frase con già o non … ancora.",
+   "promptHelp": "Schreibe den Satz mit già oder non … ancora.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "(io / fare la spesa ✓)",
+     "acceptedAnswers": [
+      "Ho già fatto la spesa"
+     ],
+     "modelAnswer": "Ho già fatto la spesa."
+    },
+    {
+     "id": "s2",
+     "start": "(Luca / tornare ✗)",
+     "acceptedAnswers": [
+      "Luca non è ancora tornato"
+     ],
+     "modelAnswer": "Luca non è ancora tornato."
+    },
+    {
+     "id": "s3",
+     "start": "(noi / vedere il museo ✓)",
+     "acceptedAnswers": [
+      "Abbiamo già visto il museo"
+     ],
+     "modelAnswer": "Abbiamo già visto il museo."
+    },
+    {
+     "id": "s4",
+     "start": "(le ragazze / arrivare ✗)",
+     "acceptedAnswers": [
+      "Le ragazze non sono ancora arrivate"
+     ],
+     "modelAnswer": "Le ragazze non sono ancora arrivate."
+    },
+    {
+     "id": "s5",
+     "start": "(tu / leggere il libro? ✓)",
+     "acceptedAnswers": [
+      "Hai già letto il libro"
+     ],
+     "modelAnswer": "Hai già letto il libro?"
+    },
+    {
+     "id": "s6",
+     "start": "(voi / finire ✗)",
+     "acceptedAnswers": [
+      "Non avete ancora finito"
+     ],
+     "modelAnswer": "Non avete ancora finito."
+    },
+    {
+     "id": "s7",
+     "start": "(mia madre / partire ✓)",
+     "acceptedAnswers": [
+      "Mia madre è già partita"
+     ],
+     "modelAnswer": "Mia madre è già partita."
+    },
+    {
+     "id": "s8",
+     "start": "(io / scrivere la mail ✗)",
+     "acceptedAnswers": [
+      "Non ho ancora scritto la mail"
+     ],
+     "modelAnswer": "Non ho ancora scritto la mail."
+    }
+   ]
+  }
+ ]
+}

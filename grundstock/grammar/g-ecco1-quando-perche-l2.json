@@ -6,9 +6,9 @@
  "title": "Quando …",
  "language": "it",
  "level": "A1",
- "description": "Nebensätze mit quando und perché · Quando … (einfach).",
+ "description": "Le frasi con quando e perché · Quando … · livello facile.",
  "topics": [
-  "Nebensätze mit quando und perché",
+  "Le frasi con quando e perché",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,16 +36,18 @@
  },
  "grammar": {
   "topic": "ecco1-quando-perche",
-  "topicTitle": "Nebensätze mit quando und perché",
+  "topicTitle": "Le frasi con quando e perché",
   "difficulty": "leicht",
   "origin": "own",
   "order": 12,
-  "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt)."
+  "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? → rispondiamo con **perché** (weil).\n\nNella frase con quando e perché le parole restano nello stesso ordine (non come in tedesco!): _… perché **mi piace** la musica._",
+  "ruleHelp": "- **quando** = wenn, als · **perché** = weil · **Perché?** = Warum? (Antwort mit perché)\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché mi piace la musica_ (… weil mir die Musik gefällt)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Verbinde die Satzhälften.",
+   "prompt": "Abbina le parti della frase.",
+   "promptHelp": "Verbinde die Satzhälften.",
    "type": "matching",
    "pairs": [
     {
@@ -77,6 +79,16 @@
      "id": "p6",
      "left": "Quando ho tempo libero,",
      "right": "leggo fumetti."
+    },
+    {
+     "id": "p7",
+     "left": "Quando sono stanco,",
+     "right": "vado a letto presto."
+    },
+    {
+     "id": "p8",
+     "left": "Quando ho sete,",
+     "right": "bevo un bicchiere d’acqua."
     }
    ],
    "distractors": [

@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-possessivi-2-l3",
+ "title": "Con o senza? Ancora",
+ "language": "it",
+ "level": "A1",
+ "description": "I possessivi con i nomi di famiglia · Con o senza? Ancora · livello facile.",
+ "topics": [
+  "I possessivi con i nomi di famiglia",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "5 · Famiglia e gite",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-possessivi-2",
+  "topicTitle": "I possessivi con i nomi di famiglia",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 23,
+  "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
+  "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "Parole affettuose (mamma, papà) e con aggettivo (sorella piccola) → con articolo.",
+   "explanationHelp": "Koseform (mamma, papà) und Adjektiv (sorella piccola) → mit Artikel.",
+   "type": "gap_choice",
+   "text": "[[g1]] fratello ha sedici anni.\n[[g2]] fratelli sono più grandi di me.\n[[g3]] mamma è di Bologna.\n[[g4]] zia è simpatica.\n[[g5]] cugine abitano a Napoli.\n[[g6]] figlio si chiama Matteo.\n[[g7]] nonno racconta sempre storie.\n[[g8]] sorella piccola va all’asilo.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Mio",
+      "Il mio"
+     ],
+     "answer": "Mio"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "I miei",
+      "Miei"
+     ],
+     "answer": "I miei"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "La mia",
+      "Mia"
+     ],
+     "answer": "La mia"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Tua",
+      "La tua"
+     ],
+     "answer": "Tua"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Le sue",
+      "Sue"
+     ],
+     "answer": "Le sue"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Il loro",
+      "Loro"
+     ],
+     "answer": "Il loro"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "Nostro",
+      "Il nostro"
+     ],
+     "answer": "Nostro"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "La mia",
+      "Mia"
+     ],
+     "answer": "La mia"
+    }
+   ]
+  }
+ ]
+}

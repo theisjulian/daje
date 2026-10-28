@@ -6,9 +6,9 @@
  "title": "Sabato scorso",
  "language": "it",
  "level": "A1",
- "description": "Das passato prossimo mit avere · Sabato scorso (mittel).",
+ "description": "Il passato prossimo con avere · Sabato scorso · livello medio.",
  "topics": [
-  "Das passato prossimo mit avere",
+  "Il passato prossimo con avere",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-passato-prossimo-avere",
-  "topicTitle": "Das passato prossimo mit avere",
+  "topicTitle": "Il passato prossimo con avere",
   "difficulty": "mittel",
   "origin": "own",
   "order": 31,
-  "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_."
+  "rule": "Il **passato prossimo** racconta azioni finite nel passato (come il «Perfekt» tedesco):\n**avere** (presente) + **participio**: _Ieri **ho giocato** a calcio._\n\n| infinito | participio |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nCon avere il participio **non cambia**. Parole utili: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
+  "ruleHelp": "Das **passato prossimo** beschreibt abgeschlossene Handlungen (wie das deutsche Perfekt): avere (Präsens) + Partizip.\nPartizip: -are → -ato, -ere → -uto, -ire → -ito. Mit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Setze die Verben ins passato prossimo.",
+   "prompt": "Scrivi i verbi al passato prossimo.",
+   "promptHelp": "Setze die Verben ins passato prossimo.",
    "type": "gap_fill",
-   "text": "Sabato scorso io (giocare) [[g1]] a pallavolo.\nPoi (mangiare) [[g2]] una pizza con Luca.\nLuca (suonare) [[g3]] il pianoforte.\nLa sera noi (guardare) [[g4]] un film.\nE voi? Che cosa (organizzare) [[g5]]?\nI miei genitori (dormire) [[g6]] tutto il giorno!",
+   "text": "Sabato scorso io (giocare) [[g1]] a pallavolo.\nPoi (mangiare) [[g2]] una pizza con Luca.\nLuca (suonare) [[g3]] il pianoforte.\nLa sera noi (guardare) [[g4]] un film.\nE voi? Che cosa (organizzare) [[g5]]?\nI miei genitori (dormire) [[g6]] tutto il giorno!\nMia sorella (ascoltare) [[g7]] musica.\nTu (telefonare) [[g8]] a Giulia?",
    "gaps": [
     {
      "id": "g1",
@@ -83,6 +85,18 @@
      "id": "g6",
      "acceptedAnswers": [
       "hanno dormito"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ha ascoltato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "hai telefonato"
      ]
     }
    ]

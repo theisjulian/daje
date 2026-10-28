@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-pp-modali-l1",
- "title": "avere oder essere?",
+ "title": "Avere o essere?",
  "language": "it",
  "level": "A1",
- "description": "Das passato prossimo der Modalverben · avere oder essere? (einfach).",
+ "description": "Il passato prossimo dei verbi modali · Avere o essere? · livello facile.",
  "topics": [
-  "Das passato prossimo der Modalverben",
+  "Il passato prossimo dei verbi modali",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 5,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-pp-modali",
-  "topicTitle": "Das passato prossimo der Modalverben",
+  "topicTitle": "Il passato prossimo dei verbi modali",
   "difficulty": "leicht",
   "origin": "own",
   "order": 41,
-  "rule": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nIm Alltag hört man auch: _Ho dovuto partire._ – In der Schule lernst du die Regel oben."
+  "rule": "I verbi modali al passato prossimo prendono l’ausiliare del **verbo che segue**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nNella lingua di tutti i giorni si sente anche: _Ho dovuto partire._ A scuola impari la regola sopra.",
+  "ruleHelp": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**: _Ho dovuto studiare._ (studiare → avere) · _Sono dovuto/-a partire._ (partire → essere)\nUmgangssprachlich hört man auch _Ho dovuto partire_; in der Schule lernst du die Regel oben."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Welches Hilfsverb passt?",
+   "prompt": "Quale ausiliare va bene?",
+   "promptHelp": "Welches Hilfsverb passt?",
+   "explanation": "Il verbo dopo decide: studiare, comprare, mangiare → avere; partire, tornare, venire, uscire → essere.",
+   "explanationHelp": "Das folgende Verb entscheidet.",
    "type": "gap_choice",
-   "text": "Ieri [[g1]] dovuto studiare.\nGiulia [[g2]] voluta partire presto.\nNon [[g3]] potuto comprare i biglietti.\nI ragazzi [[g4]] dovuti tornare a casa.\n[[g5]] voluto mangiare una pizza.",
+   "text": "Ieri [[g1]] dovuto studiare.\nGiulia [[g2]] voluta partire presto.\nNon [[g3]] potuto comprare i biglietti.\nI ragazzi [[g4]] dovuti tornare a casa.\n[[g5]] voluto mangiare una pizza.\nMarco [[g6]] potuto venire alla festa.\nNoi [[g7]] voluto vedere il museo.\nLe ragazze [[g8]] dovute uscire.",
    "gaps": [
     {
      "id": "g1",
@@ -88,6 +92,30 @@
       "Sono"
      ],
      "answer": "Ho"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "è",
+      "ha"
+     ],
+     "answer": "è"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "abbiamo",
+      "siamo"
+     ],
+     "answer": "abbiamo"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "sono",
+      "hanno"
+     ],
+     "answer": "sono"
     }
    ]
   }

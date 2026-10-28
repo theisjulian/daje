@@ -1,0 +1,115 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-che-relativo-s3",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A1",
+ "description": "Il pronome relativo che · Trova gli errori · livello difficile.",
+ "topics": [
+  "Il pronome relativo che",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "5 · Famiglia e gite",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-che-relativo",
+  "topicTitle": "Il pronome relativo che",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 33,
+  "rule": "**che** unisce due frasi e si riferisce a un nome:\n- _Ho un’amica. L’amica abita a Roma._ → _Ho un’amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** non cambia mai (per persone e cose, singolare e plurale).",
+  "ruleHelp": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche): _Ho un’amica che abita a Roma. Il libro che leggo è interessante._\n**che** bleibt immer gleich (Personen und Sachen, Singular und Plural)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi gli errori con che.",
+   "promptHelp": "Korrigiere die Fehler mit che.",
+   "explanation": "che non cambia mai; il verbo va con il nome.",
+   "explanationHelp": "che bleibt gleich; das Verb richtet sich nach dem Nomen.",
+   "type": "error_correction",
+   "text": "Ho un’amica [[g1]] abita a Roma.\nI ragazzi che [[g2]] sono miei amici.\nIl libro [[g3]] leggo è bello.\nÈ un film che [[g4]] a tutti.\nHo due gatti che [[g5]] sempre.\nLa ragazza [[g6]] parla è mia cugina.\nLe scarpe che [[g7]] sono nuove.\nIl nonno che [[g8]] storie è simpatico.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "chi",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "gioca",
+     "acceptedAnswers": [
+      "giocano"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "cosa",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "piacciono",
+     "acceptedAnswers": [
+      "piace"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "dorme",
+     "acceptedAnswers": [
+      "dormono"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "quale",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "compro",
+     "acceptedAnswers": [
+      "compro"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "raccontano",
+     "acceptedAnswers": [
+      "racconta"
+     ]
+    }
+   ]
+  }
+ ]
+}

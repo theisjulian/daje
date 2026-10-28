@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-orario-l2",
- "title": "alle oder all'?",
+ "title": "Alle o all’?",
  "language": "it",
  "level": "A1",
- "description": "Uhrzeit und Wochentage · alle oder all'? (einfach).",
+ "description": "L’ora e i giorni della settimana · Alle o all’? · livello facile.",
  "topics": [
-  "Uhrzeit und Wochentage",
+  "L’ora e i giorni della settimana",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,25 +36,28 @@
  },
  "grammar": {
   "topic": "ecco1-orario",
-  "topicTitle": "Uhrzeit und Wochentage",
+  "topicTitle": "L’ora e i giorni della settimana",
   "difficulty": "leicht",
   "origin": "own",
   "order": 12,
-  "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag."
+  "rule": "**Che ore sono?**\n- _È l’una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezza / e mezzo**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12.00) · _È mezzanotte_ (24.00)\n\n**A che ora?**\n- _**all’**una_, _**alle** otto_, _**dalle** otto **alle** due_\n\n**I giorni** (con la lettera minuscola): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = ogni lunedì · _Lunedì ho un’interrogazione._ = questo lunedì.",
+  "ruleHelp": "**Che ore sono?** – Wie spät ist es? _È l’una. Sono le due._ · e un quarto (Viertel nach), e mezza (halb), meno un quarto (Viertel vor), è mezzogiorno / mezzanotte.\n**A che ora?** – Um wie viel Uhr? _all’una, alle otto, dalle otto alle due_ (von … bis).\n**Wochentage** klein: lunedì … domenica. _Il lunedì_ = montags (jeden Montag) · _Lunedì_ = am (nächsten) Montag."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle die richtige Form.",
-   "explanation": "all' nur vor una (l'una). Sonst alle: alle otto, alle due.",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "all’ solo con una (l’una). Le altre ore: alle otto, alle due.",
+   "explanationHelp": "all’ nur vor una (l’una). Sonst alle: alle otto, alle due.",
    "type": "gap_choice",
-   "text": "La lezione comincia [[g1]] otto.\nMangio [[g2]] una.\nHo latino [[g3]] dieci [[g4]] undici.\nTorno a casa [[g5]] due.\nLa scuola finisce [[g6]] una e mezza.",
+   "text": "La lezione comincia [[g1]] otto.\nMangio [[g2]] una.\nHo latino [[g3]] dieci [[g4]] undici.\nTorno a casa [[g5]] due.\nLa scuola finisce [[g6]] una e mezza.\nL’allenamento è [[g7]] cinque.\nIl film comincia [[g8]] nove.\nPranziamo [[g9]] una e un quarto.",
    "gaps": [
     {
      "id": "g1",
      "options": [
       "alle",
-      "all'",
+      "all’",
       "al"
      ],
      "answer": "alle"
@@ -62,18 +65,18 @@
     {
      "id": "g2",
      "options": [
-      "all'",
+      "all’",
       "alle",
       "al"
      ],
-     "answer": "all'"
+     "answer": "all’"
     },
     {
      "id": "g3",
      "options": [
       "dalle",
       "alle",
-      "all'"
+      "all’"
      ],
      "answer": "dalle"
     },
@@ -81,7 +84,7 @@
      "id": "g4",
      "options": [
       "alle",
-      "all'",
+      "all’",
       "dalle"
      ],
      "answer": "alle"
@@ -90,17 +93,41 @@
      "id": "g5",
      "options": [
       "alle",
-      "all'"
+      "all’"
      ],
      "answer": "alle"
     },
     {
      "id": "g6",
      "options": [
-      "all'",
+      "all’",
       "alle"
      ],
-     "answer": "all'"
+     "answer": "all’"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "alle",
+      "all’"
+     ],
+     "answer": "alle"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "alle",
+      "all’"
+     ],
+     "answer": "alle"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "all’",
+      "alle"
+     ],
+     "answer": "all’"
     }
    ]
   }

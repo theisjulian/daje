@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-orario-m3",
- "title": "Ein Schultag",
+ "title": "Una giornata di scuola",
  "language": "it",
  "level": "A1",
- "description": "Uhrzeit und Wochentage · Ein Schultag (mittel).",
+ "description": "L’ora e i giorni della settimana · Una giornata di scuola · livello medio.",
  "topics": [
-  "Uhrzeit und Wochentage",
+  "L’ora e i giorni della settimana",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-orario",
-  "topicTitle": "Uhrzeit und Wochentage",
+  "topicTitle": "L’ora e i giorni della settimana",
   "difficulty": "mittel",
   "origin": "own",
   "order": 13,
-  "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag."
+  "rule": "**Che ore sono?**\n- _È l’una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezza / e mezzo**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12.00) · _È mezzanotte_ (24.00)\n\n**A che ora?**\n- _**all’**una_, _**alle** otto_, _**dalle** otto **alle** due_\n\n**I giorni** (con la lettera minuscola): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = ogni lunedì · _Lunedì ho un’interrogazione._ = questo lunedì.",
+  "ruleHelp": "**Che ore sono?** – Wie spät ist es? _È l’una. Sono le due._ · e un quarto (Viertel nach), e mezza (halb), meno un quarto (Viertel vor), è mezzogiorno / mezzanotte.\n**A che ora?** – Um wie viel Uhr? _all’una, alle otto, dalle otto alle due_ (von … bis).\n**Wochentage** klein: lunedì … domenica. _Il lunedì_ = montags (jeden Montag) · _Lunedì_ = am (nächsten) Montag."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Schreibe die Uhrzeiten in Worten (mit alle / all').",
-   "explanation": "Im Alltag zählt man meist bis 12: alle due (14 Uhr). Offiziell auch alle quattordici.",
+   "prompt": "Scrivi l’ora in lettere (con alle / all’).",
+   "promptHelp": "Schreibe die Uhrzeiten in Worten (mit alle / all’).",
+   "explanation": "Nella vita di tutti i giorni contiamo fino a 12: alle due (14.00). Ufficiale: alle quattordici.",
+   "explanationHelp": "Im Alltag zählt man meist bis 12: alle due (14 Uhr). Offiziell auch alle quattordici.",
    "type": "gap_fill",
-   "text": "La sveglia suona (6.45) [[g1]].\nPrendo l'autobus (7.20) [[g2]].\nLa prima lezione comincia (8.00) [[g3]].\nL'intervallo è (10.15) [[g4]].\nLa scuola finisce (13.30) [[g5]].\nPranzo (14.00) [[g6]].\nFaccio i compiti (15.00–17.00) [[g7]].",
+   "text": "La sveglia suona (6.45) [[g1]].\nPrendo l’autobus (7.20) [[g2]].\nLa prima lezione comincia (8.00) [[g3]].\nL’intervallo è (10.15) [[g4]].\nLa scuola finisce (13.30) [[g5]].\nPranzo (14.00) [[g6]].\nFaccio i compiti (15.00–17.00) [[g7]].\nVado a letto (22.00) [[g8]].",
    "gaps": [
     {
      "id": "g1",
@@ -79,8 +82,8 @@
     {
      "id": "g5",
      "acceptedAnswers": [
-      "all'una e mezza",
-      "all'una e mezzo",
+      "all’una e mezza",
+      "all’una e mezzo",
       "alle tredici e trenta"
      ]
     },
@@ -96,6 +99,13 @@
      "acceptedAnswers": [
       "dalle tre alle cinque",
       "dalle quindici alle diciassette"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "alle dieci",
+      "alle ventidue"
      ]
     }
    ]

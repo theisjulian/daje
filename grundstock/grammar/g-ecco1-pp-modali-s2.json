@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-pp-modali-s2",
- "title": "Entschuldigungen",
+ "title": "Scuse",
  "language": "it",
  "level": "A1",
- "description": "Das passato prossimo der Modalverben · Entschuldigungen (schwer).",
+ "description": "Il passato prossimo dei verbi modali · Scuse · livello difficile.",
  "topics": [
-  "Das passato prossimo der Modalverben",
+  "Il passato prossimo dei verbi modali",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,16 +36,18 @@
  },
  "grammar": {
   "topic": "ecco1-pp-modali",
-  "topicTitle": "Das passato prossimo der Modalverben",
+  "topicTitle": "Il passato prossimo dei verbi modali",
   "difficulty": "schwer",
   "origin": "own",
   "order": 42,
-  "rule": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nIm Alltag hört man auch: _Ho dovuto partire._ – In der Schule lernst du die Regel oben."
+  "rule": "I verbi modali al passato prossimo prendono l’ausiliare del **verbo che segue**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nNella lingua di tutti i giorni si sente anche: _Ho dovuto partire._ A scuola impari la regola sopra.",
+  "ruleHelp": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**: _Ho dovuto studiare._ (studiare → avere) · _Sono dovuto/-a partire._ (partire → essere)\nUmgangssprachlich hört man auch _Ho dovuto partire_; in der Schule lernst du die Regel oben."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Erkläre, warum es nicht ging (passato prossimo des Modalverbs).",
+   "prompt": "Spiega perché non è stato possibile (passato prossimo del modale).",
+   "promptHelp": "Erkläre, warum es nicht ging.",
    "type": "sentence_completion",
    "items": [
     {
@@ -66,11 +68,11 @@
     },
     {
      "id": "s3",
-     "start": "Perché siete arrivati tardi? (dovere aspettare l'autobus) – …",
+     "start": "Perché siete arrivati tardi? (dovere aspettare l’autobus) – …",
      "acceptedAnswers": [
-      "Abbiamo dovuto aspettare l'autobus"
+      "Abbiamo dovuto aspettare l’autobus"
      ],
-     "modelAnswer": "Abbiamo dovuto aspettare l'autobus."
+     "modelAnswer": "Abbiamo dovuto aspettare l’autobus."
     },
     {
      "id": "s4",
@@ -87,6 +89,30 @@
       "Sono volute restare a casa"
      ],
      "modelAnswer": "Sono volute restare a casa."
+    },
+    {
+     "id": "s6",
+     "start": "Perché non hai fatto i compiti? (non potere, ero malato) – …",
+     "acceptedAnswers": [
+      "Non ho potuto"
+     ],
+     "modelAnswer": "Non ho potuto, ero malato."
+    },
+    {
+     "id": "s7",
+     "start": "Perché tua madre non è venuta? (dovere lavorare) – …",
+     "acceptedAnswers": [
+      "Ha dovuto lavorare"
+     ],
+     "modelAnswer": "Ha dovuto lavorare."
+    },
+    {
+     "id": "s8",
+     "start": "Perché siete tornati presto? (dovere tornare per cena) – …",
+     "acceptedAnswers": [
+      "Siamo dovuti tornare"
+     ],
+     "modelAnswer": "Siamo dovuti tornare per cena."
     }
    ]
   }

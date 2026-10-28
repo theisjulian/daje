@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-isc-fare-l2",
- "title": "Mit oder ohne -isc-?",
+ "title": "Con o senza -isc-?",
  "language": "it",
  "level": "A1",
- "description": "Verben auf -ire mit -isc- und fare · Mit oder ohne -isc-? (einfach).",
+ "description": "I verbi in -isc- e fare · Con o senza -isc-? · livello facile.",
  "topics": [
-  "Verben auf -ire mit -isc- und fare",
+  "I verbi in -isc- e fare",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,25 +36,29 @@
  },
  "grammar": {
   "topic": "ecco1-isc-fare",
-  "topicTitle": "Verben auf -ire mit -isc- und fare",
+  "topicTitle": "I verbi in -isc- e fare",
   "difficulty": "leicht",
   "origin": "own",
   "order": 22,
-  "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |"
+  "rule": "Molti verbi in -ire hanno **-isc-**, ma **non** con noi e voi:\n| persona | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nPronuncia: -isco [isko], ma -isci, -isce [iʃi, iʃe].\n**fare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+  "ruleHelp": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi (capiamo, capite). Aussprache: -isco [isko], -isci/-isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig: faccio, fai, fa, facciamo, fate, fanno."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Mit -isc- oder ohne?",
+   "prompt": "Con -isc- o senza?",
+   "promptHelp": "Mit -isc- oder ohne?",
+   "explanation": "Noi e voi senza -isc-.",
+   "explanationHelp": "noi und voi ohne -isc-.",
    "type": "categorize",
    "categories": [
     {
      "id": "isc",
-     "label": "mit -isc-"
+     "label": "con -isc-"
     },
     {
      "id": "ohne",
-     "label": "ohne -isc-"
+     "label": "senza -isc-"
     }
    ],
    "items": [
@@ -96,6 +100,16 @@
     {
      "id": "i8",
      "text": "voi capite",
+     "category": "ohne"
+    },
+    {
+     "id": "i9",
+     "text": "io pulisco",
+     "category": "isc"
+    },
+    {
+     "id": "i10",
+     "text": "noi preferiamo",
      "category": "ohne"
     }
    ]

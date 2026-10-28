@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-imperativo-l1",
- "title": "Imperativ tu",
+ "title": "Imperativo tu",
  "language": "it",
  "level": "A1",
- "description": "Der Imperativ (tu, voi) und die Verneinung · Imperativ tu (einfach).",
+ "description": "L’imperativo (tu, voi) e la negazione · Imperativo tu · livello facile.",
  "topics": [
-  "Der Imperativ (tu, voi) und die Verneinung",
+  "L’imperativo (tu, voi) e la negazione",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 5,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-imperativo",
-  "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+  "topicTitle": "L’imperativo (tu, voi) e la negazione",
   "difficulty": "leicht",
   "origin": "own",
   "order": 31,
-  "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_"
+  "rule": "**Affermativo:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nIrregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_\n\n**Negativo:**\n- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + imperativo: _**Non parlate!**_\n\nCon gli adulti (Lei): _Scusi! Senta!_",
+  "ruleHelp": "**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.\n**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle den Imperativ (tu).",
+   "prompt": "Scegli l’imperativo (tu).",
+   "promptHelp": "Wähle den Imperativ (tu).",
+   "explanation": "-are → -a (ascolta!), -ere/-ire → -i (prendi!, apri!).",
+   "explanationHelp": "-are → -a, -ere/-ire → -i.",
    "type": "gap_choice",
-   "text": "Luca, [[g1]]!\nSara, [[g2]] il libro!\nMarco, [[g3]] la finestra!\nGiulia, [[g4]] il compito!\nPaolo, [[g5]] attenzione!",
+   "text": "Luca, [[g1]]!\nSara, [[g2]] il libro!\nMarco, [[g3]] la finestra!\nGiulia, [[g4]] il compito!\nPaolo, [[g5]] attenzione!\nAnna, [[g6]] la data!\nLeo, [[g7]] ad alta voce!\nChiara, [[g8]] la lavagna!",
    "gaps": [
     {
      "id": "g1",
@@ -88,11 +92,38 @@
     {
      "id": "g5",
      "options": [
-      "fa'",
+      "fa’",
       "fare",
       "fanno"
      ],
-     "answer": "fa'"
+     "answer": "fa’"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "scrivi",
+      "scrive",
+      "scriva"
+     ],
+     "answer": "scrivi"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "leggi",
+      "legge",
+      "leggere"
+     ],
+     "answer": "leggi"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "guarda",
+      "guardi",
+      "guardare"
+     ],
+     "answer": "guarda"
     }
    ]
   }

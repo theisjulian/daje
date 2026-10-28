@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-che-relativo-l1",
- "title": "Satzhälften verbinden",
+ "title": "Unire le frasi",
  "language": "it",
  "level": "A1",
- "description": "Das Relativpronomen che · Satzhälften verbinden (einfach).",
+ "description": "Il pronome relativo che · Unire le frasi · livello facile.",
  "topics": [
-  "Das Relativpronomen che",
+  "Il pronome relativo che",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 4,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,16 +36,18 @@
  },
  "grammar": {
   "topic": "ecco1-che-relativo",
-  "topicTitle": "Das Relativpronomen che",
+  "topicTitle": "Il pronome relativo che",
   "difficulty": "leicht",
   "origin": "own",
   "order": 31,
-  "rule": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):\n- _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** bleibt immer gleich (für Personen und Sachen, Singular und Plural)."
+  "rule": "**che** unisce due frasi e si riferisce a un nome:\n- _Ho un’amica. L’amica abita a Roma._ → _Ho un’amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** non cambia mai (per persone e cose, singolare e plurale).",
+  "ruleHelp": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche): _Ho un’amica che abita a Roma. Il libro che leggo è interessante._\n**che** bleibt immer gleich (Personen und Sachen, Singular und Plural)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Was passt zusammen?",
+   "prompt": "Abbina le parti della frase.",
+   "promptHelp": "Was passt zusammen?",
    "type": "matching",
    "pairs": [
     {
@@ -67,6 +69,26 @@
      "id": "p4",
      "left": "Il ristorante",
      "right": "che preferisco è in centro."
+    },
+    {
+     "id": "p5",
+     "left": "Ho un cane",
+     "right": "che si chiama Rex."
+    },
+    {
+     "id": "p6",
+     "left": "Questi sono i ragazzi",
+     "right": "che giocano a calcio."
+    },
+    {
+     "id": "p7",
+     "left": "È un film",
+     "right": "che mi piace molto."
+    },
+    {
+     "id": "p8",
+     "left": "Conosco una signora",
+     "right": "che ha novant’anni."
     }
    ]
   }

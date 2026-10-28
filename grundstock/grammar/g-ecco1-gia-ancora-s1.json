@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-gia-ancora-s1",
- "title": "Wörter ordnen",
+ "title": "Metti in ordine",
  "language": "it",
  "level": "A1",
- "description": "già und (non …) ancora · Wörter ordnen (schwer).",
+ "description": "Già e (non …) ancora · Metti in ordine · livello difficile.",
  "topics": [
-  "già und (non …) ancora",
+  "Già e (non …) ancora",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 8,
+ "estimatedMinutes": 15,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,16 +36,18 @@
  },
  "grammar": {
   "topic": "ecco1-gia-ancora",
-  "topicTitle": "già und (non …) ancora",
+  "topicTitle": "Già e (non …) ancora",
   "difficulty": "schwer",
   "origin": "own",
   "order": 51,
-  "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)"
+  "rule": "Nel passato prossimo **già** e **ancora** stanno **tra l’ausiliare e il participio**:\n- _Ho **già** fatto i compiti._\n- _**Non** ho **ancora** mangiato._",
+  "ruleHelp": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**: _Ho già fatto i compiti._ (schon gemacht) · _Non ho ancora mangiato._ (noch nicht gegessen)"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Bringe die Wörter in die richtige Reihenfolge: „Ich habe die Hausaufgaben noch nicht gemacht.“",
+   "prompt": "Metti le parole in ordine: „Ich habe die Hausaufgaben noch nicht gemacht.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
    "type": "ordering",
    "items": [
     {
@@ -71,6 +73,54 @@
     {
      "id": "i6",
      "text": "compiti"
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti le parole in ordine: „Wir haben den Film schon gesehen.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Abbiamo"
+    },
+    {
+     "id": "i2",
+     "text": "già"
+    },
+    {
+     "id": "i3",
+     "text": "visto"
+    },
+    {
+     "id": "i4",
+     "text": "il film"
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti le parole in ordine: „Ist Giulia schon angekommen?“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Giulia"
+    },
+    {
+     "id": "i2",
+     "text": "è"
+    },
+    {
+     "id": "i3",
+     "text": "già"
+    },
+    {
+     "id": "i4",
+     "text": "arrivata?"
     }
    ]
   }

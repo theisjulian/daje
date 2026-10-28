@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-possessivi-2-l1",
- "title": "Mit oder ohne Artikel?",
+ "title": "Con o senza articolo?",
  "language": "it",
  "level": "A1",
- "description": "Possessivbegleiter bei Verwandten · Mit oder ohne Artikel? (einfach).",
+ "description": "I possessivi con i nomi di famiglia · Con o senza articolo? · livello facile.",
  "topics": [
-  "Possessivbegleiter bei Verwandten",
+  "I possessivi con i nomi di famiglia",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-possessivi-2",
-  "topicTitle": "Possessivbegleiter bei Verwandten",
+  "topicTitle": "I possessivi con i nomi di famiglia",
   "difficulty": "leicht",
   "origin": "own",
   "order": 21,
-  "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_"
+  "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
+  "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle die richtige Form.",
-   "explanation": "Verwandte im Singular ohne Artikel (mia madre). Plural, loro und famiglia mit Artikel.",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "Parenti al singolare senza articolo (mia madre). Plurale, loro e famiglia con l’articolo.",
+   "explanationHelp": "Verwandte im Singular ohne Artikel. Plural, loro und famiglia mit Artikel.",
    "type": "gap_choice",
-   "text": "[[g1]] madre si chiama Anna.\n[[g2]] fratelli sono simpatici.\n[[g3]] padre è di Napoli.\n[[g4]] famiglia è grande.\n[[g5]] nonno ha ottant'anni.\n[[g6]] cugina abita a Roma.",
+   "text": "[[g1]] madre si chiama Anna.\n[[g2]] fratelli sono simpatici.\n[[g3]] padre è di Napoli.\n[[g4]] famiglia è grande.\n[[g5]] nonno ha ottant’anni.\n[[g6]] cugina abita a Roma.\n[[g7]] zio è simpatico.\n[[g8]] sorelle sono gemelle.",
    "gaps": [
     {
      "id": "g1",
@@ -97,6 +100,22 @@
       "La mia"
      ],
      "answer": "Mia"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "Tuo",
+      "Il tuo"
+     ],
+     "answer": "Tuo"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "Le mie",
+      "Mie"
+     ],
+     "answer": "Le mie"
     }
    ]
   }

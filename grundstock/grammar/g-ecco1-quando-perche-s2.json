@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-quando-perche-s2",
- "title": "Wortstellung im Nebensatz",
+ "title": "Trova gli errori",
  "language": "it",
  "level": "A1",
- "description": "Nebensätze mit quando und perché · Wortstellung im Nebensatz (schwer).",
+ "description": "Le frasi con quando e perché · Trova gli errori · livello difficile.",
  "topics": [
-  "Nebensätze mit quando und perché",
+  "Le frasi con quando e perché",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 14,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,76 +36,76 @@
  },
  "grammar": {
   "topic": "ecco1-quando-perche",
-  "topicTitle": "Nebensätze mit quando und perché",
+  "topicTitle": "Le frasi con quando e perché",
   "difficulty": "schwer",
   "origin": "own",
   "order": 12,
-  "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt)."
+  "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? → rispondiamo con **perché** (weil).\n\nNella frase con quando e perché le parole restano nello stesso ordine (non come in tedesco!): _… perché **mi piace** la musica._",
+  "ruleHelp": "- **quando** = wenn, als · **perché** = weil · **Perché?** = Warum? (Antwort mit perché)\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché mi piace la musica_ (… weil mir die Musik gefällt)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Bringe die Wörter in die richtige Reihenfolge: „Ich gehe nicht ins Kino, weil ich keine Zeit habe.“",
-   "type": "ordering",
-   "items": [
+   "prompt": "Correggi gli otto errori.",
+   "promptHelp": "Korrigiere die acht Fehler.",
+   "type": "error_correction",
+   "text": "Vado al mare [[g1]] mi piace nuotare. (weil)\n[[g2]] fa freddo, resto a casa. (wenn)\nNon vengo perché [[g3]].\nPerché studi? – [[g4]] voglio diventare medico.\nMi piace l’estate [[g5]] non c’è scuola. (weil)\nResto a casa perché [[g6]].\n[[g7]] ho fame, mangio. (wenn)\nSono felice perché [[g8]].",
+   "errors": [
     {
-     "id": "i1",
-     "text": "Non"
+     "id": "g1",
+     "wrong": "quando",
+     "acceptedAnswers": [
+      "perché"
+     ]
     },
     {
-     "id": "i2",
-     "text": "vado"
+     "id": "g2",
+     "wrong": "Perché",
+     "acceptedAnswers": [
+      "Quando"
+     ]
     },
     {
-     "id": "i3",
-     "text": "al"
+     "id": "g3",
+     "wrong": "studiare devo",
+     "acceptedAnswers": [
+      "devo studiare"
+     ]
     },
     {
-     "id": "i4",
-     "text": "cinema"
+     "id": "g4",
+     "wrong": "Quando",
+     "acceptedAnswers": [
+      "Perché"
+     ]
     },
     {
-     "id": "i5",
-     "text": "perché"
+     "id": "g5",
+     "wrong": "quando",
+     "acceptedAnswers": [
+      "perché"
+     ]
     },
     {
-     "id": "i6",
-     "text": "non"
+     "id": "g6",
+     "wrong": "malato sono",
+     "acceptedAnswers": [
+      "sono malato"
+     ]
     },
     {
-     "id": "i7",
-     "text": "ho"
+     "id": "g7",
+     "wrong": "Perché",
+     "acceptedAnswers": [
+      "Quando"
+     ]
     },
     {
-     "id": "i8",
-     "text": "tempo"
-    }
-   ]
-  },
-  {
-   "id": "q2",
-   "prompt": "Bringe die Wörter in die richtige Reihenfolge: „Wenn es schneit, fahren wir in die Berge.“",
-   "type": "ordering",
-   "items": [
-    {
-     "id": "i1",
-     "text": "Quando"
-    },
-    {
-     "id": "i2",
-     "text": "nevica,"
-    },
-    {
-     "id": "i3",
-     "text": "andiamo"
-    },
-    {
-     "id": "i4",
-     "text": "in"
-    },
-    {
-     "id": "i5",
-     "text": "montagna"
+     "id": "g8",
+     "wrong": "un bel voto ho",
+     "acceptedAnswers": [
+      "ho un bel voto"
+     ]
     }
    ]
   }

@@ -6,7 +6,7 @@
  "title": "Rispondi e correggi",
  "language": "it",
  "level": "A1",
- "description": "La negazione con non · Rispondi e correggi (schwer).",
+ "description": "La negazione con non · Rispondi e correggi · livello difficile.",
  "topics": [
   "La negazione con non",
   "Grammatik"
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 8,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -99,6 +99,22 @@
       "No, non prendo il tram. Prendo la bici"
      ],
      "modelAnswer": "No, non prendo il tram. Prendo la bici."
+    },
+    {
+     "id": "s7",
+     "start": "Guardate la TV? (un film)",
+     "acceptedAnswers": [
+      "No, non guardiamo la TV. Guardiamo un film"
+     ],
+     "modelAnswer": "No, non guardiamo la TV. Guardiamo un film."
+    },
+    {
+     "id": "s8",
+     "start": "Studi tedesco? (italiano)",
+     "acceptedAnswers": [
+      "No, non studio tedesco. Studio italiano"
+     ],
+     "modelAnswer": "No, non studio tedesco. Studio italiano."
     }
    ]
   }

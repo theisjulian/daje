@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-dare-dire-indiretto-s1",
- "title": "Fehler finden",
+ "title": "Trova gli errori",
  "language": "it",
  "level": "A1",
- "description": "dare, dire und das indirekte Objekt · Fehler finden (schwer).",
+ "description": "Dare, dire e i pronomi indiretti · Trova gli errori · livello difficile.",
  "topics": [
-  "dare, dire und das indirekte Objekt",
+  "Dare, dire e i pronomi indiretti",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-dare-dire-indiretto",
-  "topicTitle": "dare, dire und das indirekte Objekt",
+  "topicTitle": "Dare, dire e i pronomi indiretti",
   "difficulty": "schwer",
   "origin": "own",
   "order": 41,
-  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von)."
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**I pronomi indiretti** (a chi?) vanno **prima del verbo**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Attenzione:** _dà_ (verbo) con l’accento ≠ _da_ (preposizione).",
+  "ruleHelp": "dare: do, dai, dà, diamo, date, danno · dire: dico, dici, dice, diciamo, dite, dicono.\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**: mi (mir), ti (dir), gli (ihm), le (ihr), Le (Ihnen), ci (uns), vi (euch), gli (ihnen).\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Korrigiere die markierten Wörter.",
+   "prompt": "Correggi le parole segnate.",
+   "promptHelp": "Korrigiere die markierten Wörter.",
    "type": "error_correction",
-   "text": "La prof [[g1]] un compito difficile.\nSara non sta bene, io [[g2]] porto i compiti.\nNoi [[g3]] la verità.\nA Luca? Io [[g4]] do il pallone.",
+   "text": "La prof [[g1]] un compito difficile.\nSara non sta bene, io [[g2]] porto i compiti.\nNoi [[g3]] la verità.\nA Luca? Io [[g4]] do il pallone.\nVoi [[g5]] sempre di sì.\nRagazzi, [[g6]] do un consiglio.\nSignora, [[g7]] do il mio posto.\nLoro [[g8]] i biglietti.",
    "errors": [
     {
      "id": "g1",
@@ -75,6 +77,34 @@
      "wrong": "le",
      "acceptedAnswers": [
       "gli"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "dicete",
+     "acceptedAnswers": [
+      "dite"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "ci",
+     "acceptedAnswers": [
+      "vi"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "ti",
+     "acceptedAnswers": [
+      "Le"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "dano",
+     "acceptedAnswers": [
+      "danno"
      ]
     }
    ]

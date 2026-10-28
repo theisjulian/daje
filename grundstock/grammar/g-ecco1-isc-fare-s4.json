@@ -6,9 +6,9 @@
  "title": "Una mail da scuola",
  "language": "it",
  "level": "A1",
- "description": "Verben auf -ire mit -isc- und fare · Una mail da scuola (schwer).",
+ "description": "I verbi in -isc- e fare · Una mail da scuola · livello difficile.",
  "topics": [
-  "Verben auf -ire mit -isc- und fare",
+  "I verbi in -isc- e fare",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 9,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-isc-fare",
-  "topicTitle": "Verben auf -ire mit -isc- und fare",
+  "topicTitle": "I verbi in -isc- e fare",
   "difficulty": "schwer",
   "origin": "own",
   "order": 24,
-  "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |"
+  "rule": "Molti verbi in -ire hanno **-isc-**, ma **non** con noi e voi:\n| persona | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nPronuncia: -isco [isko], ma -isci, -isce [iʃi, iʃe].\n**fare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+  "ruleHelp": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi (capiamo, capite). Aussprache: -isco [isko], -isci/-isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig: faccio, fai, fa, facciamo, fate, fanno."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze die Verben (fare, capire, finire, preferire, dormire).",
-   "explanation": "dormire hat kein -isc-: lui dorme.",
+   "prompt": "Scrivi i verbi (fare, capire, finire, preferire, dormire).",
+   "promptHelp": "Ergänze die Verben.",
+   "explanation": "dormire non ha -isc-: lui dorme.",
+   "explanationHelp": "dormire hat kein -isc-: lui dorme.",
    "type": "gap_fill",
-   "text": "Ciao Lena! Oggi a scuola (fare) [[g1]] un test di geografia.\nIo (capire) [[g2]] tutto, ma la mia amica no.\nIl test (finire) [[g3]] alle dieci.\nDopo, noi (fare) [[g4]] educazione fisica: io (preferire) [[g5]] la pallavolo.\nIl mio compagno Luca (dormire) [[g6]] in classe, che ridere!\nE voi, che cosa (fare) [[g7]] oggi a scuola?",
+   "text": "Ciao Lena! Oggi a scuola (fare) [[g1]] un test di geografia.\nIo (capire) [[g2]] tutto, ma la mia amica no.\nIl test (finire) [[g3]] alle dieci.\nDopo, noi (fare) [[g4]] educazione fisica: io (preferire) [[g5]] la pallavolo.\nIl mio compagno Luca (dormire) [[g6]] in classe, che ridere!\nE voi, che cosa (fare) [[g7]] oggi a scuola?\nI miei compagni (preferire) [[g8]] il basket.",
    "gaps": [
     {
      "id": "g1",
@@ -90,6 +93,12 @@
      "id": "g7",
      "acceptedAnswers": [
       "fate"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "preferiscono"
      ]
     }
    ]

@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-imperativo-noi-s1",
- "title": "Ein Wochenende planen",
+ "title": "Imperativo: tu, voi, noi",
  "language": "it",
  "level": "A1",
- "description": "Der Imperativ der 1. Person Plural · Ein Wochenende planen (schwer).",
+ "description": "L’imperativo della prima persona plurale · Imperativo: tu, voi, noi · livello difficile.",
  "topics": [
-  "Der Imperativ der 1. Person Plural",
+  "L’imperativo della prima persona plurale",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 3,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,96 @@
  },
  "grammar": {
   "topic": "ecco1-imperativo-noi",
-  "topicTitle": "Der Imperativ der 1. Person Plural",
+  "topicTitle": "L’imperativo della prima persona plurale",
   "difficulty": "schwer",
   "origin": "own",
   "order": 51,
-  "rule": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l'autobus!_ · _**Facciamo** una pausa!_\n- verneint: _**Non** prendiamo il taxi!_"
+  "rule": "Con la **prima persona plurale** facciamo una proposta («Lass uns …!»). La forma è come al presente:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l’autobus!_ · _**Facciamo** una pausa!_\n- negativo: _**Non** prendiamo il taxi!_",
+  "ruleHelp": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens: _Andiamo al cinema! Prendiamo l’autobus!_ · verneint: _Non prendiamo il taxi!_"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Du planst mit Freunden ein Wochenende. Schreibe 5 Vorschläge mit der 1. Person Plural.",
-   "type": "open_answer",
-   "modelAnswer": "Andiamo in montagna! Prendiamo il treno alle otto. Facciamo una gita in bici. Mangiamo in un ristorante. Non torniamo troppo tardi!",
-   "lines": 5
+   "prompt": "Chi è? Scegli la forma giusta.",
+   "promptHelp": "Wer ist gemeint? Wähle die passende Form.",
+   "explanation": "noi = proposta (faccio anch’io) · voi = ordine a più persone · tu negativo: non + infinito.",
+   "explanationHelp": "noi = Vorschlag (ich mache mit) · voi = Aufforderung an mehrere · tu verneint: non + Infinitiv.",
+   "type": "gap_choice",
+   "text": "(a Luca) [[g1]] il libro!\n(alla classe, tu sei con loro) [[g2]] in palestra!\n(a Sara e Paolo) [[g3]]!\n(a Marco, negativo) Non [[g4]]!\n(a te e ai tuoi amici) [[g5]] una foto!\n(ai bambini, negativo) Non [[g6]]!\n(a Giulia) [[g7]] la porta!\n(a te e a tua sorella) [[g8]] la camera!",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Prendi",
+      "Prendiamo",
+      "Prendete"
+     ],
+     "answer": "Prendi"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Andiamo",
+      "Andate",
+      "Va’"
+     ],
+     "answer": "Andiamo"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Ascoltate",
+      "Ascoltiamo",
+      "Ascolta"
+     ],
+     "answer": "Ascoltate"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "correre",
+      "correte",
+      "corriamo"
+     ],
+     "answer": "correre"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Facciamo",
+      "Fate",
+      "Fa’"
+     ],
+     "answer": "Facciamo"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "gridate",
+      "gridare",
+      "gridiamo"
+     ],
+     "answer": "gridate"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "Chiudi",
+      "Chiudiamo",
+      "Chiudete"
+     ],
+     "answer": "Chiudi"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "Puliamo",
+      "Pulite",
+      "Pulisci"
+     ],
+     "answer": "Puliamo"
+    }
+   ]
   }
  ]
 }

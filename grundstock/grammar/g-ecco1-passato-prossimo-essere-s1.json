@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-passato-prossimo-essere-s1",
- "title": "Fehler finden",
+ "title": "Trova gli errori",
  "language": "it",
  "level": "A1",
- "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Fehler finden (schwer).",
+ "description": "Il passato prossimo con essere e i participi irregolari · Trova gli errori · livello difficile.",
  "topics": [
-  "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "Il passato prossimo con essere e i participi irregolari",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-passato-prossimo-essere",
-  "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "topicTitle": "Il passato prossimo con essere e i participi irregolari",
   "difficulty": "schwer",
   "origin": "own",
   "order": 41,
-  "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |"
+  "rule": "Con **essere** fanno il passato prossimo soprattutto i verbi di **movimento** e di **cambiamento**, e **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nIl participio cambia come un aggettivo (**soggetto**):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Participi irregolari:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+  "ruleHelp": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** sowie rimanere, stare, essere. Das Partizip richtet sich dann nach dem **Subjekt** (-o, -a, -i, -e): _Marco è andato, Giulia è andata, i ragazzi sono andati, le ragazze sono andate._\nUnregelmäßige Partizipien: fatto, preso, perso, visto, rimasto, deciso, letto, scritto, venuto, stato, vinto, riso."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Korrigiere die markierten Formen.",
+   "prompt": "Correggi le forme segnate.",
+   "promptHelp": "Korrigiere die markierten Formen.",
    "type": "error_correction",
-   "text": "Ieri Giulia [[g1]] a scuola a piedi.\nI ragazzi [[g2]] a calcio.\nLuca ha [[g3]] l'autobus.\nLe ragazze sono [[g4]] alle sei.\nAbbiamo [[g5]] un bel film.",
+   "text": "Ieri Giulia [[g1]] a scuola a piedi.\nI ragazzi [[g2]] a calcio.\nLuca ha [[g3]] l’autobus.\nLe ragazze sono [[g4]] alle sei.\nAbbiamo [[g5]] un bel film.\nMarco [[g6]] alle otto.\nHo [[g7]] un libro.\nVoi siete [[g8]] al mare?",
    "errors": [
     {
      "id": "g1",
@@ -82,6 +84,27 @@
      "wrong": "vedito",
      "acceptedAnswers": [
       "visto"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "ha partito",
+     "acceptedAnswers": [
+      "è partito"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "leggiuto",
+     "acceptedAnswers": [
+      "letto"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "stato",
+     "acceptedAnswers": [
+      "stati"
      ]
     }
    ]

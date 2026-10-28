@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-quantita-s1",
- "title": "Fehler finden",
+ "title": "Trova gli errori",
  "language": "it",
  "level": "A1",
- "description": "Mengenangaben: molto, poco, tanto, troppo · Fehler finden (schwer).",
+ "description": "Molto, poco, tanto, troppo · Trova gli errori · livello difficile.",
  "topics": [
-  "Mengenangaben: molto, poco, tanto, troppo",
+  "Molto, poco, tanto, troppo",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-quantita",
-  "topicTitle": "Mengenangaben: molto, poco, tanto, troppo",
+  "topicTitle": "Molto, poco, tanto, troppo",
   "difficulty": "schwer",
   "origin": "own",
   "order": 61,
-  "rule": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Als Begleiter** (vor einem Nomen) passen sie sich an:\n| | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C'è **troppa** gente._"
+  "rule": "**Come avverbio** (con un verbo o un aggettivo) **non cambiano**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Davanti a un nome** cambiano come un aggettivo:\n| | m. sing. | f. sing. | m. plur. | f. plur. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C’è **troppa** gente._",
+  "ruleHelp": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**: _Studio molto. Il viaggio è molto bello._\n**Als Begleiter** (vor einem Nomen) passen sie sich an: molto/molta/molti/molte, poco/poca/pochi/poche … _Ho molti amici. C’è troppa gente._"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Korrigiere die markierten Formen.",
+   "prompt": "Correggi le forme segnate.",
+   "promptHelp": "Korrigiere die markierten Formen.",
    "type": "error_correction",
-   "text": "Ho [[g1]] compiti.\nLaura è [[g2]] simpatica.\nC'è [[g3]] gente qui.\nMangio [[g4]].",
+   "text": "Ho [[g1]] compiti.\nLaura è [[g2]] simpatica.\nC’è [[g3]] gente qui.\nMangio [[g4]].\nCi sono [[g5]] ragazze.\nAbbiamo [[g6]] soldi.\nIl film è [[g7]] lungo.\nHo [[g8]] libri nello zaino.",
    "errors": [
     {
      "id": "g1",
@@ -75,6 +77,34 @@
      "wrong": "pochi",
      "acceptedAnswers": [
       "poco"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "tanto",
+     "acceptedAnswers": [
+      "tante"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "poche",
+     "acceptedAnswers": [
+      "pochi"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "molti",
+     "acceptedAnswers": [
+      "molto"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "troppe",
+     "acceptedAnswers": [
+      "troppi"
      ]
     }
    ]

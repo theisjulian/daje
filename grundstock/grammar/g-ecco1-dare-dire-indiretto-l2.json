@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-dare-dire-indiretto-l2",
- "title": "Wem?",
+ "title": "A chi?",
  "language": "it",
  "level": "A1",
- "description": "dare, dire und das indirekte Objekt · Wem? (einfach).",
+ "description": "Dare, dire e i pronomi indiretti · A chi? · livello facile.",
  "topics": [
-  "dare, dire und das indirekte Objekt",
+  "Dare, dire e i pronomi indiretti",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,16 +36,18 @@
  },
  "grammar": {
   "topic": "ecco1-dare-dire-indiretto",
-  "topicTitle": "dare, dire und das indirekte Objekt",
+  "topicTitle": "Dare, dire e i pronomi indiretti",
   "difficulty": "leicht",
   "origin": "own",
   "order": 42,
-  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von)."
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**I pronomi indiretti** (a chi?) vanno **prima del verbo**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Attenzione:** _dà_ (verbo) con l’accento ≠ _da_ (preposizione).",
+  "ruleHelp": "dare: do, dai, dà, diamo, date, danno · dire: dico, dici, dice, diciamo, dite, dicono.\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**: mi (mir), ti (dir), gli (ihm), le (ihr), Le (Ihnen), ci (uns), vi (euch), gli (ihnen).\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Was bedeutet das Pronomen?",
+   "prompt": "Che cosa vuol dire il pronome?",
+   "promptHelp": "Was bedeutet das Pronomen?",
    "type": "matching",
    "pairs": [
     {
@@ -82,6 +84,11 @@
      "id": "p7",
      "left": "vi",
      "right": "euch"
+    },
+    {
+     "id": "p8",
+     "left": "gli (a loro)",
+     "right": "ihnen"
     }
    ],
    "distractors": [

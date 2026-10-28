@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-data-s2",
- "title": "Fehler im Kalender",
+ "title": "Errori nel calendario",
  "language": "it",
  "level": "A1",
- "description": "Das Datum · Fehler im Kalender (schwer).",
+ "description": "La data · Errori nel calendario · livello difficile.",
  "topics": [
-  "Das Datum",
+  "La data",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,25 +36,28 @@
  },
  "grammar": {
   "topic": "ecco1-data",
-  "topicTitle": "Das Datum",
+  "topicTitle": "La data",
   "difficulty": "schwer",
   "origin": "own",
   "order": 12,
-  "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._"
+  "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Il primo giorno del mese: **il primo** (aprile).\n- Davanti a vocale: **l’otto**, **l’undici** (agosto).\n- I mesi con la minuscola: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._\n- Davanti ai giorni della settimana nella data non c’è l’articolo: _sabato 14 marzo_.",
+  "ruleHelp": "- _Oggi è il quindici maggio._ – das Datum mit **il** + Grundzahl.\n- Nur der Erste wird mit Ordnungszahl gesagt: **il primo** aprile.\n- Vor Vokal: **l’otto**, **l’undici**. Monate klein.\n- Vor Wochentagen steht im Datum kein Artikel: _sabato 14 marzo_."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Korrigiere die fünf Fehler.",
-   "explanation": "Monate klein, il primo, l'otto, l'undici, sonst il.",
+   "prompt": "Correggi gli otto errori.",
+   "promptHelp": "Korrigiere die acht Fehler.",
+   "explanation": "I mesi minuscoli, il primo, l’otto, l’undici; nessun articolo davanti al giorno della settimana nella data.",
+   "explanationHelp": "Monate klein, il primo, l’otto, l’undici; kein Artikel vor dem Wochentag im Datum.",
    "type": "error_correction",
-   "text": "Il mio compleanno è [[g1]] marzo.\nOggi è il [[g2]] maggio.\nNatale è il venticinque [[g3]].\nLa festa è [[g4]] giugno.\nIl mio compleanno è [[g5]] tre aprile.",
+   "text": "Il mio compleanno è [[g1]] marzo.\nOggi è il [[g2]] maggio.\nNatale è il venticinque [[g3]].\nLa festa è [[g4]] giugno.\nIl mio compleanno è [[g5]] tre aprile.\nOggi è [[g6]] undici novembre.\nLa gita è [[g7]] ottobre.\nCi vediamo [[g8]].",
    "errors": [
     {
      "id": "g1",
      "wrong": "il otto",
      "acceptedAnswers": [
-      "l'otto"
+      "l’otto"
      ]
     },
     {
@@ -73,9 +76,9 @@
     },
     {
      "id": "g4",
-     "wrong": "l'undicesimo",
+     "wrong": "l’undicesimo",
      "acceptedAnswers": [
-      "l'undici"
+      "l’undici"
      ]
     },
     {
@@ -83,6 +86,27 @@
      "wrong": "lo",
      "acceptedAnswers": [
       "il"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "il",
+     "acceptedAnswers": [
+      "l’"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "il secondo",
+     "acceptedAnswers": [
+      "il due"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "il sabato 14 marzo",
+     "acceptedAnswers": [
+      "sabato 14 marzo"
      ]
     }
    ]

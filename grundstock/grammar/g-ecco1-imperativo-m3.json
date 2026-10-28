@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-imperativo-m3",
- "title": "Bejaht – verneint",
+ "title": "Affermativo – negativo",
  "language": "it",
  "level": "A1",
- "description": "Der Imperativ (tu, voi) und die Verneinung · Bejaht – verneint (mittel).",
+ "description": "L’imperativo (tu, voi) e la negazione · Affermativo – negativo · livello medio.",
  "topics": [
-  "Der Imperativ (tu, voi) und die Verneinung",
+  "L’imperativo (tu, voi) e la negazione",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,24 +36,27 @@
  },
  "grammar": {
   "topic": "ecco1-imperativo",
-  "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+  "topicTitle": "L’imperativo (tu, voi) e la negazione",
   "difficulty": "mittel",
   "origin": "own",
   "order": 33,
-  "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_"
+  "rule": "**Affermativo:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nIrregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_\n\n**Negativo:**\n- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + imperativo: _**Non parlate!**_\n\nCon gli adulti (Lei): _Scusi! Senta!_",
+  "ruleHelp": "**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.\n**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Verneine die Aufforderung.",
-   "explanation": "tu: non + Infinitiv · voi: non + Imperativ.",
+   "prompt": "Fai l’imperativo negativo.",
+   "promptHelp": "Verneine die Aufforderung.",
+   "explanation": "tu: non + infinito · voi: non + imperativo.",
+   "explanationHelp": "tu: non + Infinitiv · voi: non + Imperativ.",
    "type": "sentence_completion",
    "items": [
     {
      "id": "s1",
      "start": "Parla! → …",
      "acceptedAnswers": [
-      "Non parlare!"
+      "Non parlare"
      ],
      "modelAnswer": "Non parlare!"
     },
@@ -61,7 +64,7 @@
      "id": "s2",
      "start": "Prendete il libro! → …",
      "acceptedAnswers": [
-      "Non prendete il libro!"
+      "Non prendete il libro"
      ],
      "modelAnswer": "Non prendete il libro!"
     },
@@ -69,7 +72,7 @@
      "id": "s3",
      "start": "Apri la porta! → …",
      "acceptedAnswers": [
-      "Non aprire la porta!"
+      "Non aprire la porta"
      ],
      "modelAnswer": "Non aprire la porta!"
     },
@@ -77,7 +80,7 @@
      "id": "s4",
      "start": "Scrivete! → …",
      "acceptedAnswers": [
-      "Non scrivete!"
+      "Non scrivete"
      ],
      "modelAnswer": "Non scrivete!"
     },
@@ -85,7 +88,7 @@
      "id": "s5",
      "start": "Mangia in classe! → …",
      "acceptedAnswers": [
-      "Non mangiare in classe!"
+      "Non mangiare in classe"
      ],
      "modelAnswer": "Non mangiare in classe!"
     },
@@ -93,9 +96,25 @@
      "id": "s6",
      "start": "Usate il cellulare! → …",
      "acceptedAnswers": [
-      "Non usate il cellulare!"
+      "Non usate il cellulare"
      ],
      "modelAnswer": "Non usate il cellulare!"
+    },
+    {
+     "id": "s7",
+     "start": "Corri! → …",
+     "acceptedAnswers": [
+      "Non correre"
+     ],
+     "modelAnswer": "Non correre!"
+    },
+    {
+     "id": "s8",
+     "start": "Gridate! → …",
+     "acceptedAnswers": [
+      "Non gridate"
+     ],
+     "modelAnswer": "Non gridate!"
     }
    ]
   }

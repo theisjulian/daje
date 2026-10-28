@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-passato-prossimo-avere-s2",
- "title": "Präsens oder passato prossimo?",
+ "title": "Presente o passato prossimo?",
  "language": "it",
  "level": "A1",
- "description": "Das passato prossimo mit avere · Präsens oder passato prossimo? (schwer).",
+ "description": "Il passato prossimo con avere · Presente o passato prossimo? · livello difficile.",
  "topics": [
-  "Das passato prossimo mit avere",
+  "Il passato prossimo con avere",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 9,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-passato-prossimo-avere",
-  "topicTitle": "Das passato prossimo mit avere",
+  "topicTitle": "Il passato prossimo con avere",
   "difficulty": "schwer",
   "origin": "own",
   "order": 32,
-  "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_."
+  "rule": "Il **passato prossimo** racconta azioni finite nel passato (come il «Perfekt» tedesco):\n**avere** (presente) + **participio**: _Ieri **ho giocato** a calcio._\n\n| infinito | participio |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nCon avere il participio **non cambia**. Parole utili: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
+  "ruleHelp": "Das **passato prossimo** beschreibt abgeschlossene Handlungen (wie das deutsche Perfekt): avere (Präsens) + Partizip.\nPartizip: -are → -ato, -ere → -uto, -ire → -ito. Mit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Setze die Verben im Präsens oder im passato prossimo ein. Achte auf die Zeitangaben.",
-   "explanation": "di solito, ogni giorno, adesso → Präsens · ieri, sabato scorso, l'anno scorso → passato prossimo.",
+   "prompt": "Scrivi il verbo al presente o al passato prossimo. Guarda le parole del tempo.",
+   "promptHelp": "Setze die Verben im Präsens oder im passato prossimo ein.",
+   "explanation": "di solito, ogni giorno, adesso, quest’anno → presente · ieri, scorso → passato prossimo.",
+   "explanationHelp": "di solito, ogni giorno, adesso → Präsens · ieri, sabato scorso, l’anno scorso → passato prossimo.",
    "type": "gap_fill",
-   "text": "Di solito il sabato io (giocare) [[g1]] a calcio.\nMa sabato scorso (giocare) [[g2]] a tennis.\nOgni giorno mia sorella (ascoltare) [[g3]] la radio.\nIeri però (ascoltare) [[g4]] un podcast.\nAdesso noi (mangiare) [[g5]] in cucina.\nIeri sera (mangiare, noi) [[g6]] in pizzeria.\nL'anno scorso voi (studiare) [[g7]] il francese?",
+   "text": "Di solito il sabato io (giocare) [[g1]] a calcio.\nMa sabato scorso (giocare) [[g2]] a tennis.\nOgni giorno mia sorella (ascoltare) [[g3]] la radio.\nIeri però (ascoltare) [[g4]] un podcast.\nAdesso noi (mangiare) [[g5]] in cucina.\nIeri sera (mangiare, noi) [[g6]] in pizzeria.\nL’anno scorso voi (studiare) [[g7]] il francese?\nQuest’anno (studiare, voi) [[g8]] l’italiano.",
    "gaps": [
     {
      "id": "g1",
@@ -90,6 +93,12 @@
      "id": "g7",
      "acceptedAnswers": [
       "avete studiato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "studiate"
      ]
     }
    ]

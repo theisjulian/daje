@@ -1,0 +1,107 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-data-s3",
+ "title": "Il calendario di Khalid",
+ "language": "it",
+ "level": "A1",
+ "description": "La data · Il calendario di Khalid · livello difficile.",
+ "topics": [
+  "La data",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "5 · Famiglia e gite",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-data",
+  "topicTitle": "La data",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 13,
+  "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Il primo giorno del mese: **il primo** (aprile).\n- Davanti a vocale: **l’otto**, **l’undici** (agosto).\n- I mesi con la minuscola: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._\n- Davanti ai giorni della settimana nella data non c’è l’articolo: _sabato 14 marzo_.",
+  "ruleHelp": "- _Oggi è il quindici maggio._ – das Datum mit **il** + Grundzahl.\n- Nur der Erste wird mit Ordnungszahl gesagt: **il primo** aprile.\n- Vor Vokal: **l’otto**, **l’undici**. Monate klein.\n- Vor Wochentagen steht im Datum kein Artikel: _sabato 14 marzo_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi la data con o senza articolo.",
+   "promptHelp": "Setze das Datum mit oder ohne Artikel ein.",
+   "explanation": "Con il giorno della settimana: niente articolo (sabato venti aprile).",
+   "explanationHelp": "Mit Wochentag kein Artikel.",
+   "type": "gap_fill",
+   "text": "Il mio compleanno è (19.4.) [[g1]].\nMa festeggio (sabato 20.4.) [[g2]].\nIl compleanno di Anna è (1.4.) [[g3]].\nLa sua festa è (venerdì 3.4.) [[g4]].\nLunedì (6.4.) [[g5]] gioca la Juve.\nIl compleanno del nonno è (24.4.) [[g6]].\nLa festa del nonno è (domenica 26.4.) [[g7]].\nLa mia festa è (25.4.) [[g8]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "il diciannove aprile"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sabato venti aprile"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "il primo aprile"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "venerdì tre aprile"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "sei aprile"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "il ventiquattro aprile"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "domenica ventisei aprile"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "il venticinque aprile"
+     ]
+    }
+   ]
+  }
+ ]
+}

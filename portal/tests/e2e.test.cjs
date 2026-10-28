@@ -599,7 +599,7 @@ async function step(name, fn) {
     // Leere Grammatikübung im Editor: Stufe und Thema setzen
     await pp.evaluate(() => nav('redaktion'));
     await pp.click('[data-ed-new="grammar"]');
-    await pp.fill('[data-ed="gTopic"]', 'Die Präpositionen a und in');
+    await pp.fill('[data-ed="gTopic"]', 'Le preposizioni a e in');
     await pp.selectOption('[data-ed="gDifficulty"]', 'mittel');
     await pp.waitForTimeout(700);
     const g = await pp.evaluate(() => edWork.grammar);

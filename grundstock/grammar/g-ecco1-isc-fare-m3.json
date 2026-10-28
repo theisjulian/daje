@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-isc-fare-m3",
- "title": "Am Ende der Stunde",
+ "title": "Alla fine della lezione",
  "language": "it",
  "level": "A1",
- "description": "Verben auf -ire mit -isc- und fare · Am Ende der Stunde (mittel).",
+ "description": "I verbi in -isc- e fare · Alla fine della lezione · livello medio.",
  "topics": [
-  "Verben auf -ire mit -isc- und fare",
+  "I verbi in -isc- e fare",
   "Grammatik"
  ],
  "sources": [
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-isc-fare",
-  "topicTitle": "Verben auf -ire mit -isc- und fare",
+  "topicTitle": "I verbi in -isc- e fare",
   "difficulty": "mittel",
   "origin": "own",
   "order": 23,
-  "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |"
+  "rule": "Molti verbi in -ire hanno **-isc-**, ma **non** con noi e voi:\n| persona | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nPronuncia: -isco [isko], ma -isci, -isce [iʃi, iʃe].\n**fare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+  "ruleHelp": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi (capiamo, capite). Aussprache: -isco [isko], -isci/-isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig: faccio, fai, fa, facciamo, fate, fanno."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Setze die Verben in die richtige Form (mit oder ohne -isc-).",
-   "explanation": "noi und voi ohne -isc-: capiamo, finite.",
+   "prompt": "Scrivi i verbi nella forma giusta (con o senza -isc-).",
+   "promptHelp": "Setze die Verben in die richtige Form (mit oder ohne -isc-).",
+   "explanation": "noi e voi senza -isc-: capiamo, finite.",
+   "explanationHelp": "noi und voi ohne -isc-: capiamo, finite.",
    "type": "gap_fill",
-   "text": "Io non (capire) [[g1]] l'esercizio numero tre.\nLa prof (spiegare) [[g2]] di nuovo e adesso noi (capire) [[g3]].\nTu (preferire) [[g4]] la matematica o la storia?\nIo (preferire) [[g5]] l'inglese.\nLa lezione (finire) [[g6]] alle undici.\nVoi (finire) [[g7]] il compito a casa?\nI ragazzi (pulire) [[g8]] la lavagna.",
+   "text": "Io non (capire) [[g1]] l’esercizio numero tre.\nLa prof (spiegare) [[g2]] di nuovo e adesso noi (capire) [[g3]].\nTu (preferire) [[g4]] la matematica o la storia?\nIo (preferire) [[g5]] l’inglese.\nLa lezione (finire) [[g6]] alle undici.\nVoi (finire) [[g7]] il compito a casa?\nI ragazzi (pulire) [[g8]] la lavagna.",
    "gaps": [
     {
      "id": "g1",

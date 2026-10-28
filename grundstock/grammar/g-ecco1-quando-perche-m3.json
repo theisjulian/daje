@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-quando-perche-m3",
- "title": "Sätze verbinden",
+ "title": "Unisci con perché",
  "language": "it",
  "level": "A1",
- "description": "Nebensätze mit quando und perché · Sätze verbinden (mittel).",
+ "description": "Le frasi con quando e perché · Unisci con perché · livello medio.",
  "topics": [
-  "Nebensätze mit quando und perché",
+  "Le frasi con quando e perché",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,16 +36,18 @@
  },
  "grammar": {
   "topic": "ecco1-quando-perche",
-  "topicTitle": "Nebensätze mit quando und perché",
+  "topicTitle": "Le frasi con quando e perché",
   "difficulty": "mittel",
   "origin": "own",
   "order": 13,
-  "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt)."
+  "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? → rispondiamo con **perché** (weil).\n\nNella frase con quando e perché le parole restano nello stesso ordine (non come in tedesco!): _… perché **mi piace** la musica._",
+  "ruleHelp": "- **quando** = wenn, als · **perché** = weil · **Perché?** = Warum? (Antwort mit perché)\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché mi piace la musica_ (… weil mir die Musik gefällt)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Verbinde die beiden Sätze mit perché.",
+   "prompt": "Unisci le due frasi con perché.",
+   "promptHelp": "Verbinde die beiden Sätze mit perché.",
    "type": "sentence_completion",
    "items": [
     {
@@ -82,11 +84,35 @@
     },
     {
      "id": "s5",
-     "start": "Studio l'italiano. Mi piace l'Italia. → Studio l'italiano …",
+     "start": "Studio l’italiano. Mi piace l’Italia. → Studio l’italiano …",
      "acceptedAnswers": [
-      "perché mi piace l'Italia"
+      "perché mi piace l’Italia"
      ],
-     "modelAnswer": "Studio l'italiano perché mi piace l'Italia."
+     "modelAnswer": "Studio l’italiano perché mi piace l’Italia."
+    },
+    {
+     "id": "s6",
+     "start": "Prendo la bici. È veloce. → Prendo la bici …",
+     "acceptedAnswers": [
+      "perché è veloce"
+     ],
+     "modelAnswer": "Prendo la bici perché è veloce."
+    },
+    {
+     "id": "s7",
+     "start": "Telefono a Leo. È il suo compleanno. → Telefono a Leo …",
+     "acceptedAnswers": [
+      "perché è il suo compleanno"
+     ],
+     "modelAnswer": "Telefono a Leo perché è il suo compleanno."
+    },
+    {
+     "id": "s8",
+     "start": "Sono contenta. Ho un bel voto. → Sono contenta …",
+     "acceptedAnswers": [
+      "perché ho un bel voto"
+     ],
+     "modelAnswer": "Sono contenta perché ho un bel voto."
     }
    ]
   }

@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-pp-modali-m2",
- "title": "avere oder essere?",
+ "title": "Che pasticcio!",
  "language": "it",
  "level": "A1",
- "description": "Das passato prossimo der Modalverben · avere oder essere? (mittel).",
+ "description": "Il passato prossimo dei verbi modali · Che pasticcio! · livello medio.",
  "topics": [
-  "Das passato prossimo der Modalverben",
+  "Il passato prossimo dei verbi modali",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,73 +36,72 @@
  },
  "grammar": {
   "topic": "ecco1-pp-modali",
-  "topicTitle": "Das passato prossimo der Modalverben",
+  "topicTitle": "Il passato prossimo dei verbi modali",
   "difficulty": "mittel",
   "origin": "own",
   "order": 42,
-  "rule": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nIm Alltag hört man auch: _Ho dovuto partire._ – In der Schule lernst du die Regel oben."
+  "rule": "I verbi modali al passato prossimo prendono l’ausiliare del **verbo che segue**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nNella lingua di tutti i giorni si sente anche: _Ho dovuto partire._ A scuola impari la regola sopra.",
+  "ruleHelp": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**: _Ho dovuto studiare._ (studiare → avere) · _Sono dovuto/-a partire._ (partire → essere)\nUmgangssprachlich hört man auch _Ho dovuto partire_; in der Schule lernst du die Regel oben."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle das Hilfsverb und die passende Endung.",
-   "explanation": "andare, venire, restare, tornare → essere (Endung anpassen) · vedere, fare → avere.",
-   "type": "gap_choice",
-   "text": "Ieri Marta [[g1]] andare dal dentista.\nNoi [[g2]] vedere il museo.\nI miei cugini [[g3]] venire alla festa.\nTu [[g4]] fare i compiti?\nLe ragazze [[g5]] restare a casa.\nIo (Luca) [[g6]] tornare presto.",
+   "prompt": "Scrivi i verbi modali al passato prossimo.",
+   "promptHelp": "Setze die Verben ins passato prossimo.",
+   "explanation": "partire, tornare, venire, andare → essere; prendere, comprare, aspettare, mangiare → avere.",
+   "explanationHelp": "partire, tornare, venire, andare → essere; sonst avere.",
+   "type": "gap_fill",
+   "text": "Ieri io (dovere) [[g1]] prendere l’autobus.\nIl treno era in ritardo e noi non (potere) [[g2]] partire.\nMia sorella (volere) [[g3]] comprare un biglietto nuovo.\nAlla fine (noi, dovere) [[g4]] aspettare due ore.\nMio padre (dovere) [[g5]] tornare a casa a piedi.\nIo (volere) [[g6]] mangiare un panino.\nI miei amici non (potere) [[g7]] venire.\nChe giornata! (Noi, dovere) [[g8]] andare a letto presto.",
    "gaps": [
     {
      "id": "g1",
-     "options": [
-      "è dovuta",
-      "ha dovuta",
-      "è dovuto"
-     ],
-     "answer": "è dovuta"
+     "acceptedAnswers": [
+      "ho dovuto"
+     ]
     },
     {
      "id": "g2",
-     "options": [
-      "abbiamo voluto",
-      "siamo voluti",
-      "abbiamo voluti"
-     ],
-     "answer": "abbiamo voluto"
+     "acceptedAnswers": [
+      "siamo potuti",
+      "siamo potute"
+     ]
     },
     {
      "id": "g3",
-     "options": [
-      "sono potuti",
-      "hanno potuti",
-      "sono potute"
-     ],
-     "answer": "sono potuti"
+     "acceptedAnswers": [
+      "ha voluto"
+     ]
     },
     {
      "id": "g4",
-     "options": [
-      "hai dovuto",
-      "sei dovuto",
-      "hai dovuta"
-     ],
-     "answer": "hai dovuto"
+     "acceptedAnswers": [
+      "abbiamo dovuto"
+     ]
     },
     {
      "id": "g5",
-     "options": [
-      "sono volute",
-      "hanno volute",
-      "sono voluti"
-     ],
-     "answer": "sono volute"
+     "acceptedAnswers": [
+      "è dovuto"
+     ]
     },
     {
      "id": "g6",
-     "options": [
-      "sono dovuto",
-      "ho dovuto essere",
-      "sono dovuta"
-     ],
-     "answer": "sono dovuto"
+     "acceptedAnswers": [
+      "ho voluto"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "sono potuti"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Siamo dovuti",
+      "Siamo dovute"
+     ]
     }
    ]
   }

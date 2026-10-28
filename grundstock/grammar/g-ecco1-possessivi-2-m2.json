@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-possessivi-2-m2",
- "title": "Mit oder ohne Artikel?",
+ "title": "Una foto di famiglia",
  "language": "it",
  "level": "A1",
- "description": "Possessivbegleiter bei Verwandten · Mit oder ohne Artikel? (mittel).",
+ "description": "I possessivi con i nomi di famiglia · Una foto di famiglia · livello medio.",
  "topics": [
-  "Possessivbegleiter bei Verwandten",
+  "I possessivi con i nomi di famiglia",
   "Grammatik"
  ],
  "sources": [
@@ -36,83 +36,68 @@
  },
  "grammar": {
   "topic": "ecco1-possessivi-2",
-  "topicTitle": "Possessivbegleiter bei Verwandten",
+  "topicTitle": "I possessivi con i nomi di famiglia",
   "difficulty": "mittel",
   "origin": "own",
   "order": 22,
-  "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_"
+  "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
+  "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle die richtige Form.",
-   "explanation": "Koseform (mamma, papà) und Adjektiv (sorella piccola) → mit Artikel.",
-   "type": "gap_choice",
-   "text": "[[g1]] fratello ha sedici anni.\n[[g2]] fratelli sono più grandi di me.\n[[g3]] mamma è di Bologna.\n[[g4]] zia è simpatica.\n[[g5]] cugine abitano a Napoli.\n[[g6]] figlio si chiama Matteo.\n[[g7]] nonno racconta sempre storie.\n[[g8]] sorella piccola va all'asilo.",
+   "prompt": "Scrivi i possessivi (con o senza articolo).",
+   "promptHelp": "Ergänze die Possessivbegleiter (mit oder ohne Artikel).",
+   "type": "gap_fill",
+   "text": "Questa è (meine) [[g1]] famiglia.\nA sinistra c’è (mein) [[g2]] padre, Roberto.\nVicino a lui c’è (meine) [[g3]] madre, Elena.\nDavanti ci sono (meine) [[g4]] fratelli, Luca e Matteo.\nA destra c’è (unsere) [[g5]] nonna Rosa.\nIl cane si chiama Bobo: è (ihr) [[g6]] cane, di Luca e Matteo.\nE questa è (meine) [[g7]] cugina Sofia con (ihre) [[g8]] madre.",
    "gaps": [
     {
      "id": "g1",
-     "options": [
-      "Mio",
-      "Il mio"
-     ],
-     "answer": "Mio"
+     "acceptedAnswers": [
+      "la mia"
+     ]
     },
     {
      "id": "g2",
-     "options": [
-      "I miei",
-      "Miei"
-     ],
-     "answer": "I miei"
+     "acceptedAnswers": [
+      "mio"
+     ]
     },
     {
      "id": "g3",
-     "options": [
-      "La mia",
-      "Mia"
-     ],
-     "answer": "La mia"
+     "acceptedAnswers": [
+      "mia"
+     ]
     },
     {
      "id": "g4",
-     "options": [
-      "Tua",
-      "La tua"
-     ],
-     "answer": "Tua"
+     "acceptedAnswers": [
+      "i miei"
+     ]
     },
     {
      "id": "g5",
-     "options": [
-      "Le sue",
-      "Sue"
-     ],
-     "answer": "Le sue"
+     "acceptedAnswers": [
+      "nostra"
+     ]
     },
     {
      "id": "g6",
-     "options": [
-      "Il loro",
-      "Loro"
-     ],
-     "answer": "Il loro"
+     "acceptedAnswers": [
+      "il loro"
+     ]
     },
     {
      "id": "g7",
-     "options": [
-      "Nostro",
-      "Il nostro"
-     ],
-     "answer": "Nostro"
+     "acceptedAnswers": [
+      "mia"
+     ]
     },
     {
      "id": "g8",
-     "options": [
-      "La mia",
-      "Mia"
-     ],
-     "answer": "La mia"
+     "acceptedAnswers": [
+      "sua"
+     ]
     }
    ]
   }

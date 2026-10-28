@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-passato-prossimo-essere-m1",
- "title": "Domenica bianca",
+ "title": "Domenica sulla neve",
  "language": "it",
  "level": "A1",
- "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Domenica bianca (mittel).",
+ "description": "Il passato prossimo con essere e i participi irregolari · Domenica sulla neve · livello medio.",
  "topics": [
-  "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "Il passato prossimo con essere e i participi irregolari",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-passato-prossimo-essere",
-  "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "topicTitle": "Il passato prossimo con essere e i participi irregolari",
   "difficulty": "mittel",
   "origin": "own",
   "order": 41,
-  "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |"
+  "rule": "Con **essere** fanno il passato prossimo soprattutto i verbi di **movimento** e di **cambiamento**, e **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nIl participio cambia come un aggettivo (**soggetto**):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Participi irregolari:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+  "ruleHelp": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** sowie rimanere, stare, essere. Das Partizip richtet sich dann nach dem **Subjekt** (-o, -a, -i, -e): _Marco è andato, Giulia è andata, i ragazzi sono andati, le ragazze sono andate._\nUnregelmäßige Partizipien: fatto, preso, perso, visto, rimasto, deciso, letto, scritto, venuto, stato, vinto, riso."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Setze die Verben ins passato prossimo.",
-   "explanation": "Mit essere passt sich das Partizip an: Luca è caduto, Giulia è rimasta, i ragazzi sono tornati.",
+   "prompt": "Scrivi i verbi al passato prossimo.",
+   "promptHelp": "Setze die Verben ins passato prossimo.",
+   "explanation": "Con essere il participio cambia: Luca è caduto, Giulia è rimasta, i ragazzi sono tornati.",
+   "explanationHelp": "Mit essere passt sich das Partizip an.",
    "type": "gap_fill",
-   "text": "Domenica Luca (andare) [[g1]] in montagna.\nAnche Giulia (venire) [[g2]].\nNoi (prendere) [[g3]] il treno alle otto.\nSulla pista Luca (cadere) [[g4]] due volte.\nGiulia (rimanere) [[g5]] al bar.\nLa sera i ragazzi (tornare) [[g6]] a casa stanchi.",
+   "text": "Domenica Luca (andare) [[g1]] in montagna.\nAnche Giulia (venire) [[g2]].\nNoi (prendere) [[g3]] il treno alle otto.\nSulla pista Luca (cadere) [[g4]] due volte.\nGiulia (rimanere) [[g5]] al bar.\nLa sera i ragazzi (tornare) [[g6]] a casa stanchi.\nLe ragazze (fare) [[g7]] tante foto.\nIo (vedere) [[g8]] un panorama bellissimo.",
    "gaps": [
     {
      "id": "g1",
@@ -84,6 +87,18 @@
      "id": "g6",
      "acceptedAnswers": [
       "sono tornati"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "hanno fatto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ho visto"
      ]
     }
    ]

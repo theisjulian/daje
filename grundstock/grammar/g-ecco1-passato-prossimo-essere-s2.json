@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-passato-prossimo-essere-s2",
- "title": "Ein Ausflug",
+ "title": "Avere o essere?",
  "language": "it",
  "level": "A1",
- "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Ein Ausflug (schwer).",
+ "description": "Il passato prossimo con essere e i participi irregolari · Avere o essere? · livello difficile.",
  "topics": [
-  "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "Il passato prossimo con essere e i participi irregolari",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 3,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,94 @@
  },
  "grammar": {
   "topic": "ecco1-passato-prossimo-essere",
-  "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "topicTitle": "Il passato prossimo con essere e i participi irregolari",
   "difficulty": "schwer",
   "origin": "own",
   "order": 42,
-  "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |"
+  "rule": "Con **essere** fanno il passato prossimo soprattutto i verbi di **movimento** e di **cambiamento**, e **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nIl participio cambia come un aggettivo (**soggetto**):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Participi irregolari:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+  "ruleHelp": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** sowie rimanere, stare, essere. Das Partizip richtet sich dann nach dem **Subjekt** (-o, -a, -i, -e): _Marco è andato, Giulia è andata, i ragazzi sono andati, le ragazze sono andate._\nUnregelmäßige Partizipien: fatto, preso, perso, visto, rimasto, deciso, letto, scritto, venuto, stato, vinto, riso."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Erzähle von einem Ausflug (Ferien, Schnee, Stadt). Benutze mindestens drei Verben mit essere und drei mit avere.",
-   "type": "open_answer",
-   "modelAnswer": "Sabato sono andata in montagna con mia sorella. Siamo partite alle sette. Abbiamo preso il treno. Ho sciato tutto il giorno e sono caduta due volte! Siamo tornate a casa la sera.",
-   "lines": 6
+   "prompt": "Scegli l’ausiliare e la desinenza giusta.",
+   "promptHelp": "Wähle das richtige Hilfsverb und die richtige Endung.",
+   "type": "gap_choice",
+   "text": "Ieri Giulia [[g1]] con le amiche.\nNoi [[g2]] una passeggiata.\nI ragazzi [[g3]] alla festa.\nMarco [[g4]] un libro.\nLe mie cugine [[g5]] per Napoli.\nIo (Marta) [[g6]] malata.\nVoi [[g7]] la partita?\nTu (Luca) [[g8]] dalla bici?",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "è uscita",
+      "ha uscito",
+      "è uscito"
+     ],
+     "answer": "è uscita"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "abbiamo fatto",
+      "siamo fatti",
+      "abbiamo fatti"
+     ],
+     "answer": "abbiamo fatto"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "sono venuti",
+      "hanno venuto",
+      "sono venute"
+     ],
+     "answer": "sono venuti"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "ha letto",
+      "è letto",
+      "ha leggiuto"
+     ],
+     "answer": "ha letto"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "sono partite",
+      "hanno partito",
+      "sono partiti"
+     ],
+     "answer": "sono partite"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "sono stata",
+      "ho stato",
+      "sono stato"
+     ],
+     "answer": "sono stata"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "avete vinto",
+      "siete vinti",
+      "avete vincito"
+     ],
+     "answer": "avete vinto"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "sei caduto",
+      "hai caduto",
+      "sei caduta"
+     ],
+     "answer": "sei caduto"
+    }
+   ]
   }
  ]
 }

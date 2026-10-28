@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-data-s1",
- "title": "Geburtstage in deiner Familie",
+ "title": "Compleanni in famiglia",
  "language": "it",
  "level": "A1",
- "description": "Das Datum · Geburtstage in deiner Familie (schwer).",
+ "description": "La data · Compleanni in famiglia · livello difficile.",
  "topics": [
-  "Das Datum",
+  "La data",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 3,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,54 @@
  },
  "grammar": {
   "topic": "ecco1-data",
-  "topicTitle": "Das Datum",
+  "topicTitle": "La data",
   "difficulty": "schwer",
   "origin": "own",
   "order": 11,
-  "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._"
+  "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Il primo giorno del mese: **il primo** (aprile).\n- Davanti a vocale: **l’otto**, **l’undici** (agosto).\n- I mesi con la minuscola: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._\n- Davanti ai giorni della settimana nella data non c’è l’articolo: _sabato 14 marzo_.",
+  "ruleHelp": "- _Oggi è il quindici maggio._ – das Datum mit **il** + Grundzahl.\n- Nur der Erste wird mit Ordnungszahl gesagt: **il primo** aprile.\n- Vor Vokal: **l’otto**, **l’undici**. Monate klein.\n- Vor Wochentagen steht im Datum kein Artikel: _sabato 14 marzo_."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Schreibe 4 Sätze: Wann haben du und deine Familie Geburtstag?",
+   "prompt": "Scrivi 4 frasi: quando fai il compleanno tu e la tua famiglia?",
+   "promptHelp": "Schreibe 4 Sätze: Wann haben du und deine Familie Geburtstag?",
    "type": "open_answer",
-   "modelAnswer": "Il mio compleanno è il dodici luglio. Il compleanno di mia madre è il primo marzo. Mio padre festeggia l'otto settembre.",
+   "modelAnswer": "Il mio compleanno è il dodici luglio. Il compleanno di mia madre è il primo marzo. Mio padre festeggia l’otto settembre.",
    "lines": 4
+  },
+  {
+   "id": "q2",
+   "prompt": "E adesso scrivi in lettere.",
+   "promptHelp": "Und jetzt schreibe in Worten.",
+   "type": "gap_fill",
+   "text": "(5.5.) [[g1]]\n(1.9.) [[g2]]\n(8.12.) [[g3]]\n(11.2.) [[g4]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "il cinque maggio"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "il primo settembre"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "l’otto dicembre"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "l’undici febbraio"
+     ]
+    }
+   ]
   }
  ]
 }

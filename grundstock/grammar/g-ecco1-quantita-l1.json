@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-quantita-l1",
- "title": "Adverb oder Begleiter?",
+ "title": "Avverbio o con il nome?",
  "language": "it",
  "level": "A1",
- "description": "Mengenangaben: molto, poco, tanto, troppo · Adverb oder Begleiter? (einfach).",
+ "description": "Molto, poco, tanto, troppo · Avverbio o con il nome? · livello facile.",
  "topics": [
-  "Mengenangaben: molto, poco, tanto, troppo",
+  "Molto, poco, tanto, troppo",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-quantita",
-  "topicTitle": "Mengenangaben: molto, poco, tanto, troppo",
+  "topicTitle": "Molto, poco, tanto, troppo",
   "difficulty": "leicht",
   "origin": "own",
   "order": 61,
-  "rule": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Als Begleiter** (vor einem Nomen) passen sie sich an:\n| | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C'è **troppa** gente._"
+  "rule": "**Come avverbio** (con un verbo o un aggettivo) **non cambiano**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Davanti a un nome** cambiano come un aggettivo:\n| | m. sing. | f. sing. | m. plur. | f. plur. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C’è **troppa** gente._",
+  "ruleHelp": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**: _Studio molto. Il viaggio è molto bello._\n**Als Begleiter** (vor einem Nomen) passen sie sich an: molto/molta/molti/molte, poco/poca/pochi/poche … _Ho molti amici. C’è troppa gente._"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle die richtige Form.",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "Con un nome cambia (molti amici), con verbo o aggettivo no (molto bello).",
+   "explanationHelp": "Mit Nomen ändert es sich, mit Verb oder Adjektiv nicht.",
    "type": "gap_choice",
-   "text": "Ho [[g1]] amici.\nMi piace [[g2]] la musica.\nOggi ho [[g3]] tempo.\nCi sono [[g4]] persone in piazza.\nIl viaggio è [[g5]] bello.\nNella mia classe ci sono [[g6]] ragazzi.",
+   "text": "Ho [[g1]] amici.\nMi piace [[g2]] la musica.\nOggi ho [[g3]] tempo.\nCi sono [[g4]] persone in piazza.\nIl viaggio è [[g5]] bello.\nNella mia classe ci sono [[g6]] ragazzi.\nMangio [[g7]]!\nC’è [[g8]] gente in metro.",
    "gaps": [
     {
      "id": "g1",
@@ -102,6 +106,24 @@
       "poche"
      ],
      "answer": "pochi"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "troppo",
+      "troppa",
+      "troppi"
+     ],
+     "answer": "troppo"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "troppa",
+      "troppo",
+      "troppe"
+     ],
+     "answer": "troppa"
     }
    ]
   }

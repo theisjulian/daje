@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-orario-m4",
- "title": "Fragen zum Stundenplan",
+ "title": "Domande sull’orario",
  "language": "it",
  "level": "A1",
- "description": "Uhrzeit und Wochentage · Fragen zum Stundenplan (mittel).",
+ "description": "L’ora e i giorni della settimana · Domande sull’orario · livello medio.",
  "topics": [
-  "Uhrzeit und Wochentage",
+  "L’ora e i giorni della settimana",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,16 +36,18 @@
  },
  "grammar": {
   "topic": "ecco1-orario",
-  "topicTitle": "Uhrzeit und Wochentage",
+  "topicTitle": "L’ora e i giorni della settimana",
   "difficulty": "mittel",
   "origin": "own",
   "order": 14,
-  "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag."
+  "rule": "**Che ore sono?**\n- _È l’una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezza / e mezzo**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12.00) · _È mezzanotte_ (24.00)\n\n**A che ora?**\n- _**all’**una_, _**alle** otto_, _**dalle** otto **alle** due_\n\n**I giorni** (con la lettera minuscola): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = ogni lunedì · _Lunedì ho un’interrogazione._ = questo lunedì.",
+  "ruleHelp": "**Che ore sono?** – Wie spät ist es? _È l’una. Sono le due._ · e un quarto (Viertel nach), e mezza (halb), meno un quarto (Viertel vor), è mezzogiorno / mezzanotte.\n**A che ora?** – Um wie viel Uhr? _all’una, alle otto, dalle otto alle due_ (von … bis).\n**Wochentage** klein: lunedì … domenica. _Il lunedì_ = montags (jeden Montag) · _Lunedì_ = am (nächsten) Montag."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Antworte mit der Uhrzeit in Worten.",
+   "prompt": "Rispondi con l’ora in lettere.",
+   "promptHelp": "Antworte mit der Uhrzeit in Worten.",
    "type": "sentence_completion",
    "items": [
     {
@@ -68,9 +70,9 @@
      "id": "s3",
      "start": "Quando finisce la lezione? (1.00) – …",
      "acceptedAnswers": [
-      "all'una"
+      "all’una"
      ],
-     "modelAnswer": "La lezione finisce all'una."
+     "modelAnswer": "La lezione finisce all’una."
     },
     {
      "id": "s4",
@@ -90,6 +92,32 @@
       "le tre e quaranta"
      ],
      "modelAnswer": "Sono le quattro meno venti."
+    },
+    {
+     "id": "s6",
+     "start": "A che ora torni a casa? (2.15) – …",
+     "acceptedAnswers": [
+      "alle due e un quarto",
+      "alle due e quindici"
+     ],
+     "modelAnswer": "Torno alle due e un quarto."
+    },
+    {
+     "id": "s7",
+     "start": "Che ore sono? (1.30) – …",
+     "acceptedAnswers": [
+      "l’una e mezza",
+      "l’una e mezzo"
+     ],
+     "modelAnswer": "È l’una e mezza."
+    },
+    {
+     "id": "s8",
+     "start": "A che ora vai a letto? (10.00) – …",
+     "acceptedAnswers": [
+      "alle dieci"
+     ],
+     "modelAnswer": "Vado a letto alle dieci."
     }
    ]
   }

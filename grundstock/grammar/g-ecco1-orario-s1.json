@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-orario-s1",
- "title": "Mein Stundenplan",
+ "title": "Il lunedì o lunedì?",
  "language": "it",
  "level": "A1",
- "description": "Uhrzeit und Wochentage · Mein Stundenplan (schwer).",
+ "description": "L’ora e i giorni della settimana · Il lunedì o lunedì? · livello difficile.",
  "topics": [
-  "Uhrzeit und Wochentage",
+  "L’ora e i giorni della settimana",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 3,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,88 @@
  },
  "grammar": {
   "topic": "ecco1-orario",
-  "topicTitle": "Uhrzeit und Wochentage",
+  "topicTitle": "L’ora e i giorni della settimana",
   "difficulty": "schwer",
   "origin": "own",
   "order": 11,
-  "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag."
+  "rule": "**Che ore sono?**\n- _È l’una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezza / e mezzo**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12.00) · _È mezzanotte_ (24.00)\n\n**A che ora?**\n- _**all’**una_, _**alle** otto_, _**dalle** otto **alle** due_\n\n**I giorni** (con la lettera minuscola): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = ogni lunedì · _Lunedì ho un’interrogazione._ = questo lunedì.",
+  "ruleHelp": "**Che ore sono?** – Wie spät ist es? _È l’una. Sono le due._ · e un quarto (Viertel nach), e mezza (halb), meno un quarto (Viertel vor), è mezzogiorno / mezzanotte.\n**A che ora?** – Um wie viel Uhr? _all’una, alle otto, dalle otto alle due_ (von … bis).\n**Wochentage** klein: lunedì … domenica. _Il lunedì_ = montags (jeden Montag) · _Lunedì_ = am (nächsten) Montag."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Beschreibe deinen Montag: Wann beginnt die Schule, welche Fächer hast du von wann bis wann, wann kommst du nach Hause?",
-   "type": "open_answer",
-   "modelAnswer": "Il lunedì la scuola comincia alle otto. Dalle otto alle nove e mezza ho matematica. Poi ho inglese. Torno a casa all'una e mezza.",
-   "lines": 5
+   "prompt": "Sempre (il lunedì) o una volta (lunedì)?",
+   "promptHelp": "Regelmäßig (il lunedì) oder einmalig (lunedì)?",
+   "explanation": "il lunedì = ogni lunedì (sempre, di solito) · lunedì = un lunedì preciso.",
+   "explanationHelp": "il lunedì = jeden Montag (immer, sempre) · lunedì = an einem bestimmten Montag.",
+   "type": "gap_choice",
+   "text": "[[g1]] dormo sempre fino alle dieci.\n[[g2]] prossimo ho un’interrogazione.\n[[g3]] pranziamo sempre dai nonni.\nCiao, ci vediamo [[g4]] alle sei!\n[[g5]] ho sempre educazione fisica.\nQuesto [[g6]] non c’è scuola: è festa!\n[[g7]] di solito mangiamo la pizza.\n[[g8]] prossimo comincia la gita.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Il sabato",
+      "Sabato"
+     ],
+     "answer": "Il sabato"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Martedì",
+      "Il martedì"
+     ],
+     "answer": "Martedì"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "La domenica",
+      "Domenica"
+     ],
+     "answer": "La domenica"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "venerdì",
+      "il venerdì"
+     ],
+     "answer": "venerdì"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Il giovedì",
+      "Giovedì"
+     ],
+     "answer": "Il giovedì"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "mercoledì",
+      "il mercoledì"
+     ],
+     "answer": "mercoledì"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "Il venerdì",
+      "Venerdì"
+     ],
+     "answer": "Il venerdì"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "Lunedì",
+      "Il lunedì"
+     ],
+     "answer": "Lunedì"
+    }
+   ]
   }
  ]
 }

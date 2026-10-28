@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-imperativo-noi-l1",
- "title": "Vorschläge",
+ "title": "Proposte",
  "language": "it",
  "level": "A1",
- "description": "Der Imperativ der 1. Person Plural · Vorschläge (einfach).",
+ "description": "L’imperativo della prima persona plurale · Proposte · livello facile.",
  "topics": [
-  "Der Imperativ der 1. Person Plural",
+  "L’imperativo della prima persona plurale",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 4,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-imperativo-noi",
-  "topicTitle": "Der Imperativ der 1. Person Plural",
+  "topicTitle": "L’imperativo della prima persona plurale",
   "difficulty": "leicht",
   "origin": "own",
   "order": 51,
-  "rule": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l'autobus!_ · _**Facciamo** una pausa!_\n- verneint: _**Non** prendiamo il taxi!_"
+  "rule": "Con la **prima persona plurale** facciamo una proposta («Lass uns …!»). La forma è come al presente:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l’autobus!_ · _**Facciamo** una pausa!_\n- negativo: _**Non** prendiamo il taxi!_",
+  "ruleHelp": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens: _Andiamo al cinema! Prendiamo l’autobus!_ · verneint: _Non prendiamo il taxi!_"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle den Vorschlag.",
+   "prompt": "Scegli la proposta.",
+   "promptHelp": "Wähle den Vorschlag.",
    "type": "gap_choice",
-   "text": "Che bella giornata! [[g1]] al parco!\nÈ tardi, [[g2]] un taxi!\nHo fame, [[g3]] una pizza!\nSiamo stanchi, [[g4]] una pausa!",
+   "text": "Che bella giornata! [[g1]] al parco!\nÈ tardi, [[g2]] un taxi!\nHo fame, [[g3]] una pizza!\nSiamo stanchi, [[g4]] una pausa!\nPiove, [[g5]] a casa!\nC’è un bel film, [[g6]] la TV!\nÈ il compleanno di Leo: [[g7]] un regalo!\nFa caldo, [[g8]] al mare!",
    "gaps": [
     {
      "id": "g1",
@@ -84,6 +86,42 @@
       "fanno"
      ],
      "answer": "facciamo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "restiamo",
+      "restate",
+      "restano"
+     ],
+     "answer": "restiamo"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "guardiamo",
+      "guardate",
+      "guardano"
+     ],
+     "answer": "guardiamo"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "compriamo",
+      "comprate",
+      "compro"
+     ],
+     "answer": "compriamo"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "andiamo",
+      "andate",
+      "vanno"
+     ],
+     "answer": "andiamo"
     }
    ]
   }

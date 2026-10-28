@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-imperativo-noi-m2",
- "title": "Ein Ausflug",
+ "title": "Una gita",
  "language": "it",
  "level": "A1",
- "description": "Der Imperativ der 1. Person Plural · Ein Ausflug (mittel).",
+ "description": "L’imperativo della prima persona plurale · Una gita · livello medio.",
  "topics": [
-  "Der Imperativ der 1. Person Plural",
+  "L’imperativo della prima persona plurale",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-imperativo-noi",
-  "topicTitle": "Der Imperativ der 1. Person Plural",
+  "topicTitle": "L’imperativo della prima persona plurale",
   "difficulty": "mittel",
   "origin": "own",
   "order": 52,
-  "rule": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l'autobus!_ · _**Facciamo** una pausa!_\n- verneint: _**Non** prendiamo il taxi!_"
+  "rule": "Con la **prima persona plurale** facciamo una proposta («Lass uns …!»). La forma è come al presente:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l’autobus!_ · _**Facciamo** una pausa!_\n- negativo: _**Non** prendiamo il taxi!_",
+  "ruleHelp": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens: _Andiamo al cinema! Prendiamo l’autobus!_ · verneint: _Non prendiamo il taxi!_"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Mache Vorschläge (1. Person Plural).",
-   "explanation": "dimenticare → dimentichiamo (h vor i, damit der Laut hart bleibt).",
+   "prompt": "Fai proposte (prima persona plurale).",
+   "promptHelp": "Mache Vorschläge (1. Person Plural).",
+   "explanation": "dimenticare → dimentichiamo (h prima di i, così il suono resta duro).",
+   "explanationHelp": "dimenticare → dimentichiamo (h vor i).",
    "type": "gap_fill",
-   "text": "Ragazzi, che cosa facciamo sabato? (andare) [[g1]] al lago!\nBuona idea! (prendere) [[g2]] le bici!\nNo, è troppo lontano. (fare) [[g3]] una gita in treno!\nD'accordo. (partire) [[g4]] alle nove.\nE (portare) [[g5]] i panini!\nNon (dimenticare) [[g6]] il costume!\n(chiamare) [[g7]] anche Sara!",
+   "text": "Ragazzi, che cosa facciamo sabato? (andare) [[g1]] al lago!\nBuona idea! (prendere) [[g2]] le bici!\nNo, è troppo lontano. (fare) [[g3]] una gita in treno!\nD’accordo. (partire) [[g4]] alle nove.\nE (portare) [[g5]] i panini!\nNon (dimenticare) [[g6]] il costume!\n(chiamare) [[g7]] anche Sara!\n(tornare) [[g8]] prima di cena!",
    "gaps": [
     {
      "id": "g1",
@@ -90,6 +93,12 @@
      "id": "g7",
      "acceptedAnswers": [
       "Chiamiamo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Torniamo"
      ]
     }
    ]

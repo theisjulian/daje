@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-gia-ancora-l2",
- "title": "Schon oder noch nicht?",
+ "title": "Già o non … ancora?",
  "language": "it",
  "level": "A1",
- "description": "già und (non …) ancora · Schon oder noch nicht? (einfach).",
+ "description": "Già e (non …) ancora · Già o non … ancora? · livello facile.",
  "topics": [
-  "già und (non …) ancora",
+  "Già e (non …) ancora",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 5,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,16 +36,18 @@
  },
  "grammar": {
   "topic": "ecco1-gia-ancora",
-  "topicTitle": "già und (non …) ancora",
+  "topicTitle": "Già e (non …) ancora",
   "difficulty": "leicht",
   "origin": "own",
   "order": 52,
-  "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)"
+  "rule": "Nel passato prossimo **già** e **ancora** stanno **tra l’ausiliare e il participio**:\n- _Ho **già** fatto i compiti._\n- _**Non** ho **ancora** mangiato._",
+  "ruleHelp": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**: _Ho già fatto i compiti._ (schon gemacht) · _Non ho ancora mangiato._ (noch nicht gegessen)"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Was bedeutet das?",
+   "prompt": "Che cosa vuol dire?",
+   "promptHelp": "Was bedeutet das?",
    "type": "matching",
    "pairs": [
     {
@@ -72,6 +74,21 @@
      "id": "p5",
      "left": "Abbiamo già finito.",
      "right": "Wir sind schon fertig."
+    },
+    {
+     "id": "p6",
+     "left": "Non avete ancora visto il film?",
+     "right": "Habt ihr den Film noch nicht gesehen?"
+    },
+    {
+     "id": "p7",
+     "left": "Hanno già comprato i biglietti.",
+     "right": "Sie haben die Karten schon gekauft."
+    },
+    {
+     "id": "p8",
+     "left": "Non è ancora tornato.",
+     "right": "Er ist noch nicht zurück."
     }
    ],
    "distractors": [

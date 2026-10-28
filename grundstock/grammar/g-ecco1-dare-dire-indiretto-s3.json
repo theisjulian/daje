@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-dare-dire-indiretto-s3",
- "title": "Ein Streit",
+ "title": "Che cosa regali?",
  "language": "it",
  "level": "A1",
- "description": "dare, dire und das indirekte Objekt · Ein Streit (schwer).",
+ "description": "Dare, dire e i pronomi indiretti · Che cosa regali? · livello difficile.",
  "topics": [
-  "dare, dire und das indirekte Objekt",
+  "Dare, dire e i pronomi indiretti",
   "Grammatik"
  ],
  "sources": [
@@ -36,66 +36,86 @@
  },
  "grammar": {
   "topic": "ecco1-dare-dire-indiretto",
-  "topicTitle": "dare, dire und das indirekte Objekt",
+  "topicTitle": "Dare, dire e i pronomi indiretti",
   "difficulty": "schwer",
   "origin": "own",
   "order": 43,
-  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von)."
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**I pronomi indiretti** (a chi?) vanno **prima del verbo**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Attenzione:** _dà_ (verbo) con l’accento ≠ _da_ (preposizione).",
+  "ruleHelp": "dare: do, dai, dà, diamo, date, danno · dire: dico, dici, dice, diciamo, dite, dicono.\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**: mi (mir), ti (dir), gli (ihm), le (ihr), Le (Ihnen), ci (uns), vi (euch), gli (ihnen).\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze dare / dire und die Pronomen.",
-   "type": "gap_fill",
-   "text": "Luca: Sara, che cosa mi (dire, tu) [[g1]]?\nSara: Ti (dire, io) [[g2]] la verità: non mi (dare, tu) [[g3]] mai i tuoi appunti!\nLuca: Ma io [[g4]] do sempre tutto!\nSara: Non è vero! E Marco è arrabbiato: non [[g5]] dai mai niente.\nLuca: Va bene, scusa. Oggi (dare, io) [[g6]] i miei appunti a te e anche a Marco.\nSara: Grazie! Allora noi [[g7]] (dare, noi) [[g8]] un gelato!",
-   "gaps": [
+   "prompt": "Rispondi con il pronome indiretto.",
+   "promptHelp": "Antworte mit dem indirekten Pronomen.",
+   "explanation": "a mia madre → le, a mio padre → gli, a me → ti (risposta), a noi → vi (risposta).",
+   "explanationHelp": "a mia madre → le, a mio padre → gli, a me → ti, a noi → vi.",
+   "type": "sentence_completion",
+   "items": [
     {
-     "id": "g1",
+     "id": "s1",
+     "start": "Che cosa regali a tua madre? (un libro)",
      "acceptedAnswers": [
-      "dici"
-     ]
+      "Le regalo un libro"
+     ],
+     "modelAnswer": "Le regalo un libro."
     },
     {
-     "id": "g2",
+     "id": "s2",
+     "start": "Che cosa regali a tuo padre? (una felpa)",
      "acceptedAnswers": [
-      "dico"
-     ]
+      "Gli regalo una felpa"
+     ],
+     "modelAnswer": "Gli regalo una felpa."
     },
     {
-     "id": "g3",
+     "id": "s3",
+     "start": "Che cosa dici alla prof? (buongiorno)",
      "acceptedAnswers": [
-      "dai"
-     ]
+      "Le dico buongiorno"
+     ],
+     "modelAnswer": "Le dico buongiorno."
     },
     {
-     "id": "g4",
+     "id": "s4",
+     "start": "Che cosa date ai nonni? (una foto)",
      "acceptedAnswers": [
-      "ti"
-     ]
+      "Gli diamo una foto",
+      "Diamo loro una foto"
+     ],
+     "modelAnswer": "Gli diamo una foto."
     },
     {
-     "id": "g5",
+     "id": "s5",
+     "start": "Che cosa mi dai? (un gelato)",
      "acceptedAnswers": [
-      "gli"
-     ]
+      "Ti do un gelato"
+     ],
+     "modelAnswer": "Ti do un gelato."
     },
     {
-     "id": "g6",
+     "id": "s6",
+     "start": "Che cosa ci dite? (una cosa importante)",
      "acceptedAnswers": [
-      "do"
-     ]
+      "Vi diciamo una cosa importante"
+     ],
+     "modelAnswer": "Vi diciamo una cosa importante."
     },
     {
-     "id": "g7",
+     "id": "s7",
+     "start": "Che cosa scrivi a Giulia? (un messaggio)",
      "acceptedAnswers": [
-      "ti"
-     ]
+      "Le scrivo un messaggio"
+     ],
+     "modelAnswer": "Le scrivo un messaggio."
     },
     {
-     "id": "g8",
+     "id": "s8",
+     "start": "Che cosa porti al tuo amico? (i compiti)",
      "acceptedAnswers": [
-      "diamo"
-     ]
+      "Gli porto i compiti"
+     ],
+     "modelAnswer": "Gli porto i compiti."
     }
    ]
   }

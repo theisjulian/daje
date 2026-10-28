@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-che-relativo-m1",
- "title": "Zwei Sätze, ein Satz",
+ "title": "Due frasi, una frase",
  "language": "it",
  "level": "A1",
- "description": "Das Relativpronomen che · Zwei Sätze, ein Satz (mittel).",
+ "description": "Il pronome relativo che · Due frasi, una frase · livello medio.",
  "topics": [
-  "Das Relativpronomen che",
+  "Il pronome relativo che",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 5,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,16 +36,18 @@
  },
  "grammar": {
   "topic": "ecco1-che-relativo",
-  "topicTitle": "Das Relativpronomen che",
+  "topicTitle": "Il pronome relativo che",
   "difficulty": "mittel",
   "origin": "own",
   "order": 31,
-  "rule": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):\n- _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** bleibt immer gleich (für Personen und Sachen, Singular und Plural)."
+  "rule": "**che** unisce due frasi e si riferisce a un nome:\n- _Ho un’amica. L’amica abita a Roma._ → _Ho un’amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** non cambia mai (per persone e cose, singolare e plurale).",
+  "ruleHelp": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche): _Ho un’amica che abita a Roma. Il libro che leggo è interessante._\n**che** bleibt immer gleich (Personen und Sachen, Singular und Plural)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Verbinde die Sätze mit che.",
+   "prompt": "Unisci le frasi con che.",
+   "promptHelp": "Verbinde die Sätze mit che.",
    "type": "sentence_completion",
    "items": [
     {
@@ -53,28 +55,64 @@
      "start": "Ho una sorella. Mia sorella ama la musica. → Ho una sorella …",
      "acceptedAnswers": [
       "che ama la musica"
-     ]
+     ],
+     "modelAnswer": "Ho una sorella che ama la musica."
     },
     {
      "id": "s2",
      "start": "Ecco il ragazzo. Il ragazzo gioca a calcio. → Ecco il ragazzo …",
      "acceptedAnswers": [
       "che gioca a calcio"
-     ]
+     ],
+     "modelAnswer": "Ecco il ragazzo che gioca a calcio."
     },
     {
      "id": "s3",
      "start": "Leggo un libro. Il libro è molto interessante. → Leggo un libro …",
      "acceptedAnswers": [
       "che è molto interessante"
-     ]
+     ],
+     "modelAnswer": "Leggo un libro che è molto interessante."
     },
     {
      "id": "s4",
-     "start": "Ho un amico. L'amico abita a Milano. → Ho un amico …",
+     "start": "Ho un amico. L’amico abita a Milano. → Ho un amico …",
      "acceptedAnswers": [
       "che abita a Milano"
-     ]
+     ],
+     "modelAnswer": "Ho un amico che abita a Milano."
+    },
+    {
+     "id": "s5",
+     "start": "Ho un cane. Il cane si chiama Rex. → Ho un cane …",
+     "acceptedAnswers": [
+      "che si chiama Rex"
+     ],
+     "modelAnswer": "Ho un cane che si chiama Rex."
+    },
+    {
+     "id": "s6",
+     "start": "Conosco una ragazza. La ragazza suona il violino. → Conosco una ragazza …",
+     "acceptedAnswers": [
+      "che suona il violino"
+     ],
+     "modelAnswer": "Conosco una ragazza che suona il violino."
+    },
+    {
+     "id": "s7",
+     "start": "Abito in una casa. La casa ha un giardino. → Abito in una casa …",
+     "acceptedAnswers": [
+      "che ha un giardino"
+     ],
+     "modelAnswer": "Abito in una casa che ha un giardino."
+    },
+    {
+     "id": "s8",
+     "start": "Ho due cugini. I cugini abitano a Milano. → Ho due cugini …",
+     "acceptedAnswers": [
+      "che abitano a Milano"
+     ],
+     "modelAnswer": "Ho due cugini che abitano a Milano."
     }
    ]
   }

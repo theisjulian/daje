@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-imperativo-s1",
- "title": "Regeln für die Klasse",
+ "title": "Regole per la classe",
  "language": "it",
  "level": "A1",
- "description": "Der Imperativ (tu, voi) und die Verneinung · Regeln für die Klasse (schwer).",
+ "description": "L’imperativo (tu, voi) e la negazione · Regole per la classe · livello difficile.",
  "topics": [
-  "Der Imperativ (tu, voi) und die Verneinung",
+  "L’imperativo (tu, voi) e la negazione",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,45 +36,83 @@
  },
  "grammar": {
   "topic": "ecco1-imperativo",
-  "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+  "topicTitle": "L’imperativo (tu, voi) e la negazione",
   "difficulty": "schwer",
   "origin": "own",
   "order": 31,
-  "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_"
+  "rule": "**Affermativo:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nIrregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_\n\n**Negativo:**\n- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + imperativo: _**Non parlate!**_\n\nCon gli adulti (Lei): _Scusi! Senta!_",
+  "ruleHelp": "**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.\n**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Schreibe verneinte Regeln für einen Mitschüler (tu).",
+   "prompt": "Scrivi regole negative per un compagno (tu).",
+   "promptHelp": "Schreibe verneinte Regeln für einen Mitschüler (tu).",
    "type": "sentence_completion",
    "items": [
     {
      "id": "s1",
      "start": "(usare il cellulare) → …",
      "acceptedAnswers": [
-      "Non usare il cellulare!"
-     ]
+      "Non usare il cellulare"
+     ],
+     "modelAnswer": "Non usare il cellulare!"
     },
     {
      "id": "s2",
      "start": "(mangiare in classe) → …",
      "acceptedAnswers": [
-      "Non mangiare in classe!"
-     ]
+      "Non mangiare in classe"
+     ],
+     "modelAnswer": "Non mangiare in classe!"
     },
     {
      "id": "s3",
      "start": "(correre nel corridoio) → …",
      "acceptedAnswers": [
-      "Non correre nel corridoio!"
-     ]
+      "Non correre nel corridoio"
+     ],
+     "modelAnswer": "Non correre nel corridoio!"
     },
     {
      "id": "s4",
      "start": "(dimenticare i compiti) → …",
      "acceptedAnswers": [
-      "Non dimenticare i compiti!"
-     ]
+      "Non dimenticare i compiti"
+     ],
+     "modelAnswer": "Non dimenticare i compiti!"
+    },
+    {
+     "id": "s5",
+     "start": "(arrivare tardi) → …",
+     "acceptedAnswers": [
+      "Non arrivare tardi"
+     ],
+     "modelAnswer": "Non arrivare tardi!"
+    },
+    {
+     "id": "s6",
+     "start": "(gridare) → …",
+     "acceptedAnswers": [
+      "Non gridare"
+     ],
+     "modelAnswer": "Non gridare!"
+    },
+    {
+     "id": "s7",
+     "start": "(copiare) → …",
+     "acceptedAnswers": [
+      "Non copiare"
+     ],
+     "modelAnswer": "Non copiare!"
+    },
+    {
+     "id": "s8",
+     "start": "(dormire in classe) → …",
+     "acceptedAnswers": [
+      "Non dormire in classe"
+     ],
+     "modelAnswer": "Non dormire in classe!"
     }
    ]
   }

@@ -1,0 +1,122 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-imperativo-noi-m3",
+ "title": "Dal presente alla proposta",
+ "language": "it",
+ "level": "A1",
+ "description": "L’imperativo della prima persona plurale · Dal presente alla proposta · livello medio.",
+ "topics": [
+  "L’imperativo della prima persona plurale",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "5 · Famiglia e gite",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo-noi",
+  "topicTitle": "L’imperativo della prima persona plurale",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 53,
+  "rule": "Con la **prima persona plurale** facciamo una proposta («Lass uns …!»). La forma è come al presente:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l’autobus!_ · _**Facciamo** una pausa!_\n- negativo: _**Non** prendiamo il taxi!_",
+  "ruleHelp": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens: _Andiamo al cinema! Prendiamo l’autobus!_ · verneint: _Non prendiamo il taxi!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Trasforma la domanda in una proposta.",
+   "promptHelp": "Mache aus der Frage einen Vorschlag.",
+   "explanation": "La forma è uguale al presente; cambia solo l’intonazione (!).",
+   "explanationHelp": "Die Form ist gleich wie im Präsens; nur die Betonung ändert sich.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Andiamo al cinema? → …",
+     "acceptedAnswers": [
+      "Andiamo al cinema"
+     ],
+     "modelAnswer": "Andiamo al cinema!"
+    },
+    {
+     "id": "s2",
+     "start": "Mangiamo insieme? → …",
+     "acceptedAnswers": [
+      "Mangiamo insieme"
+     ],
+     "modelAnswer": "Mangiamo insieme!"
+    },
+    {
+     "id": "s3",
+     "start": "Facciamo i compiti? → …",
+     "acceptedAnswers": [
+      "Facciamo i compiti"
+     ],
+     "modelAnswer": "Facciamo i compiti!"
+    },
+    {
+     "id": "s4",
+     "start": "Prendiamo il tram? → …",
+     "acceptedAnswers": [
+      "Prendiamo il tram"
+     ],
+     "modelAnswer": "Prendiamo il tram!"
+    },
+    {
+     "id": "s5",
+     "start": "Chiamiamo Leo? → …",
+     "acceptedAnswers": [
+      "Chiamiamo Leo"
+     ],
+     "modelAnswer": "Chiamiamo Leo!"
+    },
+    {
+     "id": "s6",
+     "start": "Usciamo stasera? → …",
+     "acceptedAnswers": [
+      "Usciamo stasera"
+     ],
+     "modelAnswer": "Usciamo stasera!"
+    },
+    {
+     "id": "s7",
+     "start": "Non aspettiamo più? → …",
+     "acceptedAnswers": [
+      "Non aspettiamo più"
+     ],
+     "modelAnswer": "Non aspettiamo più!"
+    },
+    {
+     "id": "s8",
+     "start": "Giochiamo a pallavolo? → …",
+     "acceptedAnswers": [
+      "Giochiamo a pallavolo"
+     ],
+     "modelAnswer": "Giochiamo a pallavolo!"
+    }
+   ]
+  }
+ ]
+}

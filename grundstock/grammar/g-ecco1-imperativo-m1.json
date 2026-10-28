@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-imperativo-m1",
- "title": "Verneint",
+ "title": "Negativo",
  "language": "it",
  "level": "A1",
- "description": "Der Imperativ (tu, voi) und die Verneinung · Verneint (mittel).",
+ "description": "L’imperativo (tu, voi) e la negazione · Negativo · livello medio.",
  "topics": [
-  "Der Imperativ (tu, voi) und die Verneinung",
+  "L’imperativo (tu, voi) e la negazione",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-imperativo",
-  "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+  "topicTitle": "L’imperativo (tu, voi) e la negazione",
   "difficulty": "mittel",
   "origin": "own",
   "order": 31,
-  "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_"
+  "rule": "**Affermativo:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nIrregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_\n\n**Negativo:**\n- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + imperativo: _**Non parlate!**_\n\nCon gli adulti (Lei): _Scusi! Senta!_",
+  "ruleHelp": "**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.\n**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle den verneinten Imperativ.",
-   "explanation": "tu verneint: non + Infinitiv (non parlare). voi verneint: non + Imperativ (non parlate).",
+   "prompt": "Scegli l’imperativo negativo.",
+   "promptHelp": "Wähle den verneinten Imperativ.",
+   "explanation": "tu: non + infinito (non parlare). voi: non + imperativo (non parlate).",
+   "explanationHelp": "tu verneint: non + Infinitiv. voi verneint: non + Imperativ.",
    "type": "gap_choice",
-   "text": "Luca, non [[g1]] adesso!\nRagazzi, non [[g2]]!\nSara, non [[g3]] il libro!\nMarco, non [[g4]] nel corridoio!\nRagazzi, non [[g5]] il cellulare!",
+   "text": "Luca, non [[g1]] adesso!\nRagazzi, non [[g2]]!\nSara, non [[g3]] il libro!\nMarco, non [[g4]] nel corridoio!\nRagazzi, non [[g5]] il cellulare!\nAnna, non [[g6]] in classe!\nRagazzi, non [[g7]]!\nPaolo, non [[g8]] sul banco!",
    "gaps": [
     {
      "id": "g1",
@@ -94,6 +97,33 @@
       "usa"
      ],
      "answer": "usate"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "mangiare",
+      "mangia",
+      "mangi"
+     ],
+     "answer": "mangiare"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "copiate",
+      "copiare",
+      "copia"
+     ],
+     "answer": "copiate"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "scrivere",
+      "scrivi",
+      "scrive"
+     ],
+     "answer": "scrivere"
     }
    ]
   }

@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-possessivi-2-s2",
- "title": "Meine Familie",
+ "title": "La mia famiglia",
  "language": "it",
  "level": "A1",
- "description": "Possessivbegleiter bei Verwandten · Meine Familie (schwer).",
+ "description": "I possessivi con i nomi di famiglia · La mia famiglia · livello difficile.",
  "topics": [
-  "Possessivbegleiter bei Verwandten",
+  "I possessivi con i nomi di famiglia",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 3,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,54 @@
  },
  "grammar": {
   "topic": "ecco1-possessivi-2",
-  "topicTitle": "Possessivbegleiter bei Verwandten",
+  "topicTitle": "I possessivi con i nomi di famiglia",
   "difficulty": "schwer",
   "origin": "own",
   "order": 22,
-  "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_"
+  "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
+  "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Stell deine Familie vor (6 Sätze). Achte auf mio/mia mit und ohne Artikel.",
+   "prompt": "Presenta la tua famiglia (6 frasi). Attenzione a mio/mia con e senza articolo.",
+   "promptHelp": "Stell deine Familie vor (6 Sätze). Achte auf mio/mia mit und ohne Artikel.",
    "type": "open_answer",
    "modelAnswer": "La mia famiglia non è grande. Mia madre si chiama Sabine e mio padre Thomas. Ho un fratello. Mio fratello ha dieci anni. I miei nonni abitano a Monaco.",
    "lines": 6
+  },
+  {
+   "id": "q2",
+   "prompt": "E adesso completa.",
+   "promptHelp": "Und jetzt ergänze.",
+   "type": "gap_fill",
+   "text": "[[g1]] famiglia abita a Monaco.\n[[g2]] madre lavora in un ospedale.\n[[g3]] nonni abitano in campagna.\n[[g4]] fratello piccolo ha sei anni.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "La mia"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Mia"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "I miei"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Il mio"
+     ]
+    }
+   ]
   }
  ]
 }

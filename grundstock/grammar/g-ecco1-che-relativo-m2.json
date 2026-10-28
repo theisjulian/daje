@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-che-relativo-m2",
- "title": "Zwei Sätze verbinden",
+ "title": "Persone e cose",
  "language": "it",
  "level": "A1",
- "description": "Das Relativpronomen che · Zwei Sätze verbinden (mittel).",
+ "description": "Il pronome relativo che · Persone e cose · livello medio.",
  "topics": [
-  "Das Relativpronomen che",
+  "Il pronome relativo che",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 11,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,65 +36,94 @@
  },
  "grammar": {
   "topic": "ecco1-che-relativo",
-  "topicTitle": "Das Relativpronomen che",
+  "topicTitle": "Il pronome relativo che",
   "difficulty": "mittel",
   "origin": "own",
   "order": 32,
-  "rule": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):\n- _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** bleibt immer gleich (für Personen und Sachen, Singular und Plural)."
+  "rule": "**che** unisce due frasi e si riferisce a un nome:\n- _Ho un’amica. L’amica abita a Roma._ → _Ho un’amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** non cambia mai (per persone e cose, singolare e plurale).",
+  "ruleHelp": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche): _Ho un’amica che abita a Roma. Il libro che leggo è interessante._\n**che** bleibt immer gleich (Personen und Sachen, Singular und Plural)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Verbinde die Sätze mit che.",
-   "type": "sentence_completion",
-   "items": [
+   "prompt": "Completa con che e il verbo giusto.",
+   "promptHelp": "Ergänze mit che und dem richtigen Verb.",
+   "explanation": "che + verbo: il verbo va con la persona.",
+   "explanationHelp": "che + Verb: das Verb richtet sich nach der Person.",
+   "type": "gap_fill",
+   "text": "Mia cugina è una ragazza [[g1]] (essere) [[g2]] sempre allegra.\nHo un fratello [[g3]] (giocare) [[g4]] a basket.\nI libri [[g5]] (leggere, io) [[g6]] sono gialli.\nLa pizza [[g7]] (fare) [[g8]] mia madre è buonissima.\nHo amici [[g9]] (abitare) [[g10]] in Italia.\nIl film [[g11]] (vedere, noi) [[g12]] stasera è nuovo.",
+   "gaps": [
     {
-     "id": "s1",
-     "start": "Ho un cane. Il cane si chiama Rex. → Ho un cane …",
+     "id": "g1",
      "acceptedAnswers": [
-      "che si chiama Rex"
-     ],
-     "modelAnswer": "Ho un cane che si chiama Rex."
+      "che"
+     ]
     },
     {
-     "id": "s2",
-     "start": "Conosco una ragazza. La ragazza suona il violino. → Conosco una ragazza …",
+     "id": "g2",
      "acceptedAnswers": [
-      "che suona il violino"
-     ],
-     "modelAnswer": "Conosco una ragazza che suona il violino."
+      "è"
+     ]
     },
     {
-     "id": "s3",
-     "start": "Abito in una casa. La casa ha un giardino. → Abito in una casa …",
+     "id": "g3",
      "acceptedAnswers": [
-      "che ha un giardino"
-     ],
-     "modelAnswer": "Abito in una casa che ha un giardino."
+      "che"
+     ]
     },
     {
-     "id": "s4",
-     "start": "Ho due cugini. I cugini abitano a Milano. → Ho due cugini …",
+     "id": "g4",
      "acceptedAnswers": [
-      "che abitano a Milano"
-     ],
-     "modelAnswer": "Ho due cugini che abitano a Milano."
+      "gioca"
+     ]
     },
     {
-     "id": "s5",
-     "start": "Mangio una pizza. La pizza è buonissima. → Mangio una pizza …",
+     "id": "g5",
      "acceptedAnswers": [
-      "che è buonissima"
-     ],
-     "modelAnswer": "Mangio una pizza che è buonissima."
+      "che"
+     ]
     },
     {
-     "id": "s6",
-     "start": "Ecco la professoressa. La professoressa insegna storia. → Ecco la professoressa …",
+     "id": "g6",
      "acceptedAnswers": [
-      "che insegna storia"
-     ],
-     "modelAnswer": "Ecco la professoressa che insegna storia."
+      "leggo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "fa"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "abitano"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "vediamo"
+     ]
     }
    ]
   }

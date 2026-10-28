@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-orario-l3",
- "title": "Wie spät ist es?",
+ "title": "Che ore sono? Scegli",
  "language": "it",
  "level": "A1",
- "description": "Uhrzeit und Wochentage · Wie spät ist es? (einfach).",
+ "description": "L’ora e i giorni della settimana · Che ore sono? Scegli · livello facile.",
  "topics": [
-  "Uhrzeit und Wochentage",
+  "L’ora e i giorni della settimana",
   "Grammatik"
  ],
  "sources": [
@@ -36,17 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-orario",
-  "topicTitle": "Uhrzeit und Wochentage",
+  "topicTitle": "L’ora e i giorni della settimana",
   "difficulty": "leicht",
   "origin": "own",
   "order": 13,
-  "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag."
+  "rule": "**Che ore sono?**\n- _È l’una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezza / e mezzo**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12.00) · _È mezzanotte_ (24.00)\n\n**A che ora?**\n- _**all’**una_, _**alle** otto_, _**dalle** otto **alle** due_\n\n**I giorni** (con la lettera minuscola): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = ogni lunedì · _Lunedì ho un’interrogazione._ = questo lunedì.",
+  "ruleHelp": "**Che ore sono?** – Wie spät ist es? _È l’una. Sono le due._ · e un quarto (Viertel nach), e mezza (halb), meno un quarto (Viertel vor), è mezzogiorno / mezzanotte.\n**A che ora?** – Um wie viel Uhr? _all’una, alle otto, dalle otto alle due_ (von … bis).\n**Wochentage** klein: lunedì … domenica. _Il lunedì_ = montags (jeden Montag) · _Lunedì_ = am (nächsten) Montag."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle die richtige Uhrzeit.",
-   "explanation": "È l'una / è mezzogiorno / è mezzanotte (Singular), sonst sono le …",
+   "prompt": "Scegli l’ora giusta.",
+   "promptHelp": "Wähle die richtige Uhrzeit.",
+   "explanation": "È l’una / è mezzogiorno / è mezzanotte (singolare), altrimenti sono le …",
+   "explanationHelp": "È l’una / è mezzogiorno / è mezzanotte (Singular), sonst sono le …",
    "type": "gap_choice",
    "text": "2.00 → [[g1]]\n1.00 → [[g2]]\n4.30 → [[g3]]\n6.15 → [[g4]]\n8.45 → [[g5]]\n10.10 → [[g6]]\n11.50 → [[g7]]\n12.00 → [[g8]]",
    "gaps": [
@@ -62,11 +65,11 @@
     {
      "id": "g2",
      "options": [
-      "È l'una.",
-      "Sono l'una.",
+      "È l’una.",
+      "Sono l’una.",
       "È le una."
      ],
-     "answer": "È l'una."
+     "answer": "È l’una."
     },
     {
      "id": "g3",

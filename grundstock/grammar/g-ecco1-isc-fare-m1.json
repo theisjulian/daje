@@ -6,9 +6,9 @@
  "title": "In classe",
  "language": "it",
  "level": "A1",
- "description": "Verben auf -ire mit -isc- und fare · In classe (mittel).",
+ "description": "I verbi in -isc- e fare · In classe · livello medio.",
  "topics": [
-  "Verben auf -ire mit -isc- und fare",
+  "I verbi in -isc- e fare",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-isc-fare",
-  "topicTitle": "Verben auf -ire mit -isc- und fare",
+  "topicTitle": "I verbi in -isc- e fare",
   "difficulty": "mittel",
   "origin": "own",
   "order": 21,
-  "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |"
+  "rule": "Molti verbi in -ire hanno **-isc-**, ma **non** con noi e voi:\n| persona | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nPronuncia: -isco [isko], ma -isci, -isce [iʃi, iʃe].\n**fare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+  "ruleHelp": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi (capiamo, capite). Aussprache: -isco [isko], -isci/-isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig: faccio, fai, fa, facciamo, fate, fanno."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Setze das Verb in der richtigen Form ein.",
+   "prompt": "Scrivi il verbo nella forma giusta.",
+   "promptHelp": "Setze das Verb in der richtigen Form ein.",
    "type": "gap_fill",
-   "text": "Prof, non (capire, io) [[g1]] la domanda!\nA che ora (finire) [[g2]] la lezione?\nNoi (fare) [[g3]] un esercizio di geometria.\nLa prof (restituire) [[g4]] le relazioni.\nVoi (capire) [[g5]] la regola?\nI ragazzi (fare) [[g6]] attenzione.",
+   "text": "Prof, non (capire, io) [[g1]] la domanda!\nA che ora (finire) [[g2]] la lezione?\nNoi (fare) [[g3]] un esercizio di geometria.\nLa prof (restituire) [[g4]] le relazioni.\nVoi (capire) [[g5]] la regola?\nI ragazzi (fare) [[g6]] attenzione.\nTu (preferire) [[g7]] la storia o la geografia?\nIo (finire) [[g8]] il compito in classe.",
    "gaps": [
     {
      "id": "g1",
@@ -83,6 +85,18 @@
      "id": "g6",
      "acceptedAnswers": [
       "fanno"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "preferisci"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "finisco"
      ]
     }
    ]

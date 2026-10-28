@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-dare-dire-indiretto-m1",
- "title": "Wem?",
+ "title": "A chi? Scegli",
  "language": "it",
  "level": "A1",
- "description": "dare, dire und das indirekte Objekt · Wem? (mittel).",
+ "description": "Dare, dire e i pronomi indiretti · A chi? Scegli · livello medio.",
  "topics": [
-  "dare, dire und das indirekte Objekt",
+  "Dare, dire e i pronomi indiretti",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-dare-dire-indiretto",
-  "topicTitle": "dare, dire und das indirekte Objekt",
+  "topicTitle": "Dare, dire e i pronomi indiretti",
   "difficulty": "mittel",
   "origin": "own",
   "order": 41,
-  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von)."
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**I pronomi indiretti** (a chi?) vanno **prima del verbo**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Attenzione:** _dà_ (verbo) con l’accento ≠ _da_ (preposizione).",
+  "ruleHelp": "dare: do, dai, dà, diamo, date, danno · dire: dico, dici, dice, diciamo, dite, dicono.\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**: mi (mir), ti (dir), gli (ihm), le (ihr), Le (Ihnen), ci (uns), vi (euch), gli (ihnen).\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle das passende Pronomen.",
-   "explanation": "gli = ihm (und ihnen), le = ihr, Le = Ihnen (höflich).",
+   "prompt": "Scegli il pronome giusto.",
+   "promptHelp": "Wähle das passende Pronomen.",
+   "explanation": "gli = a lui (e a loro), le = a lei, Le = a Lei (formale).",
+   "explanationHelp": "gli = ihm (und ihnen), le = ihr, Le = Ihnen (höflich).",
    "type": "gap_choice",
-   "text": "Luca mi scrive. → Io [[g1]] rispondo.\nSara mi telefona. → Io [[g2]] rispondo.\nRagazzi, [[g3]] do un consiglio.\nMamma, [[g4]] dico una cosa.\nLa prof [[g5]] restituisce le relazioni. (a noi)\nSignora, [[g6]] do il mio posto.",
+   "text": "Luca mi scrive. → Io [[g1]] rispondo.\nSara mi telefona. → Io [[g2]] rispondo.\nRagazzi, [[g3]] do un consiglio.\nMamma, [[g4]] dico una cosa.\nLa prof [[g5]] restituisce le relazioni. (a noi)\nSignora, [[g6]] do il mio posto.\nMarco non capisce: la prof [[g7]] spiega la regola.\nAnna è triste: [[g8]] racconto una storia.",
    "gaps": [
     {
      "id": "g1",
@@ -103,6 +106,24 @@
       "ti"
      ],
      "answer": "Le"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "gli",
+      "le",
+      "ci"
+     ],
+     "answer": "gli"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "le",
+      "gli",
+      "vi"
+     ],
+     "answer": "le"
     }
    ]
   }

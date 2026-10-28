@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-imperativo-noi-m1",
- "title": "Was machen wir?",
+ "title": "Che cosa facciamo?",
  "language": "it",
  "level": "A1",
- "description": "Der Imperativ der 1. Person Plural · Was machen wir? (mittel).",
+ "description": "L’imperativo della prima persona plurale · Che cosa facciamo? · livello medio.",
  "topics": [
-  "Der Imperativ der 1. Person Plural",
+  "L’imperativo della prima persona plurale",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-imperativo-noi",
-  "topicTitle": "Der Imperativ der 1. Person Plural",
+  "topicTitle": "L’imperativo della prima persona plurale",
   "difficulty": "mittel",
   "origin": "own",
   "order": 51,
-  "rule": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l'autobus!_ · _**Facciamo** una pausa!_\n- verneint: _**Non** prendiamo il taxi!_"
+  "rule": "Con la **prima persona plurale** facciamo una proposta («Lass uns …!»). La forma è come al presente:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l’autobus!_ · _**Facciamo** una pausa!_\n- negativo: _**Non** prendiamo il taxi!_",
+  "ruleHelp": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens: _Andiamo al cinema! Prendiamo l’autobus!_ · verneint: _Non prendiamo il taxi!_"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Mache Vorschläge mit der 1. Person Plural.",
+   "prompt": "Fai proposte con la prima persona plurale.",
+   "promptHelp": "Mache Vorschläge mit der 1. Person Plural.",
    "type": "gap_fill",
-   "text": "(andare) [[g1]] a Roma per Pasqua!\n(prendere) [[g2]] il treno, è più comodo!\n(comprare) [[g3]] i biglietti online!\nNon (aspettare) [[g4]] l'autobus, (camminare) [[g5]]!",
+   "text": "(andare) [[g1]] a Roma per Pasqua!\n(prendere) [[g2]] il treno, è più comodo!\n(comprare) [[g3]] i biglietti online!\nNon (aspettare) [[g4]] l’autobus, (camminare) [[g5]]!\n(visitare) [[g6]] il Colosseo!\n(mangiare) [[g7]] un gelato in piazza!\nNon (tornare) [[g8]] troppo tardi!",
    "gaps": [
     {
      "id": "g1",
@@ -77,6 +79,24 @@
      "id": "g5",
      "acceptedAnswers": [
       "camminiamo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Visitiamo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Mangiamo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "torniamo"
      ]
     }
    ]

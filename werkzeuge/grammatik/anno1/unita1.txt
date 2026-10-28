@@ -647,14 +647,17 @@ Im Italienischen lässt man das Subjektpronomen meist weg: _Abito a Torino._ Man
 **Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_
 
 %übung leicht | Chi è?
-?zuordnen | Quale pronome va con la forma del verbo? || Welches Pronomen passt?
-abito = io
-abiti = tu
-abita = lui / lei
-abitiamo = noi
-abitate = voi
-abitano = loro
-+ Lei
+?auswahl | Quale pronome va con la forma del verbo? || Welches Pronomen passt zur Verbform?
+{io*|tu|lui} abito
+{tu*|io|voi} abiti
+{lei*|loro|noi} abita
+{noi*|voi|loro} abitiamo
+{voi*|noi|tu} abitate
+{loro*|lui|voi} abitano
+{io*|lui|tu} parlo
+{tu*|lei|io} parli
+{noi*|loro|voi} parliamo
+{loro*|lei|noi} parlano
 ! La desinenza dice la persona. || Die Endung verrät die Person.
 
 %übung leicht | Io, tu, lui …
@@ -848,6 +851,8 @@ Giulia abita a Lecce. (Torino) | non abita a Lecce, abita a Torino | No, Giulia 
 Torino è in Puglia. (Piemonte) | non è in Puglia, è in Piemonte | No, Torino non è in Puglia, è in Piemonte.
 Leo parla cinese. (arabo) | non parla cinese, parla arabo | No, Leo non parla cinese, parla arabo.
 Il Po è un lago. (un fiume) | non è un lago, è un fiume | No, il Po non è un lago, è un fiume.
+Anna abita in periferia. (in centro) | non abita in periferia, abita in centro | No, Anna non abita in periferia, abita in centro.
+Filippo è di Torino. (di Lecce) | non è di Torino, è di Lecce | No, Filippo non è di Torino, è di Lecce.
 I ragazzi prendono il treno. (la bici) | non prendono il treno, prendono la bici | No, i ragazzi non prendono il treno, prendono la bici.
 Marco sta male. (bene) | non sta male, sta bene | No, Marco non sta male, sta bene.
 ! Prima no, poi la frase con non, poi la frase giusta. || Erst no, dann der Satz mit non, dann die richtige Information.
@@ -897,6 +902,8 @@ Ti chiami Marco? (Filippo) | No, non mi chiamo Marco. Mi chiamo Filippo | No, no
 Siete di Roma? (Napoli) | No, non siamo di Roma. Siamo di Napoli | No, non siamo di Roma. Siamo di Napoli.
 Parli francese? (inglese) | No, non parlo francese. Parlo inglese | No, non parlo francese. Parlo inglese.
 Prendi il tram? (la bici) | No, non prendo il tram. Prendo la bici | No, non prendo il tram. Prendo la bici.
+Guardate la TV? (un film) | No, non guardiamo la TV. Guardiamo un film | No, non guardiamo la TV. Guardiamo un film.
+Studi tedesco? (italiano) | No, non studio tedesco. Studio italiano | No, non studio tedesco. Studio italiano.
 ! Rispondi con io (domanda con tu) o con noi (domanda con voi). || Antworte mit io (Frage mit tu) oder mit noi (Frage mit voi).
 
 @thema articolo-indeterminativo | 1 · La città | Parte A | L’articolo indeterminativo (un, uno, una, un’) | 7

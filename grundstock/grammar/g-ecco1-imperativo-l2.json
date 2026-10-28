@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-imperativo-l2",
- "title": "Was sagt die Lehrerin?",
+ "title": "Che cosa dice la prof?",
  "language": "it",
  "level": "A1",
- "description": "Der Imperativ (tu, voi) und die Verneinung · Was sagt die Lehrerin? (einfach).",
+ "description": "L’imperativo (tu, voi) e la negazione · Che cosa dice la prof? · livello facile.",
  "topics": [
-  "Der Imperativ (tu, voi) und die Verneinung",
+  "L’imperativo (tu, voi) e la negazione",
   "Grammatik"
  ],
  "sources": [
@@ -36,16 +36,18 @@
  },
  "grammar": {
   "topic": "ecco1-imperativo",
-  "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+  "topicTitle": "L’imperativo (tu, voi) e la negazione",
   "difficulty": "leicht",
   "origin": "own",
   "order": 32,
-  "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_"
+  "rule": "**Affermativo:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nIrregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_\n\n**Negativo:**\n- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + imperativo: _**Non parlate!**_\n\nCon gli adulti (Lei): _Scusi! Senta!_",
+  "ruleHelp": "**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.\n**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Was bedeutet das?",
+   "prompt": "Che cosa vuol dire?",
+   "promptHelp": "Was bedeutet das?",
    "type": "matching",
    "pairs": [
     {

@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-quando-perche-m1",
- "title": "Satzhälften verbinden",
+ "title": "Unire le frasi",
  "language": "it",
  "level": "A1",
- "description": "Nebensätze mit quando und perché · Satzhälften verbinden (mittel).",
+ "description": "Le frasi con quando e perché · Unire le frasi · livello medio.",
  "topics": [
-  "Nebensätze mit quando und perché",
+  "Le frasi con quando e perché",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,16 +36,18 @@
  },
  "grammar": {
   "topic": "ecco1-quando-perche",
-  "topicTitle": "Nebensätze mit quando und perché",
+  "topicTitle": "Le frasi con quando e perché",
   "difficulty": "mittel",
   "origin": "own",
   "order": 11,
-  "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt)."
+  "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? → rispondiamo con **perché** (weil).\n\nNella frase con quando e perché le parole restano nello stesso ordine (non come in tedesco!): _… perché **mi piace** la musica._",
+  "ruleHelp": "- **quando** = wenn, als · **perché** = weil · **Perché?** = Warum? (Antwort mit perché)\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché mi piace la musica_ (… weil mir die Musik gefällt)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Was passt zusammen?",
+   "prompt": "Abbina le parti della frase.",
+   "promptHelp": "Was passt zusammen?",
    "type": "matching",
    "pairs": [
     {
@@ -72,6 +74,21 @@
      "id": "p5",
      "left": "Non vado alla festa",
      "right": "perché sono stanca."
+    },
+    {
+     "id": "p6",
+     "left": "Mangio un gelato",
+     "right": "quando fa caldo."
+    },
+    {
+     "id": "p7",
+     "left": "Studio molto",
+     "right": "perché domani ho un test."
+    },
+    {
+     "id": "p8",
+     "left": "Telefono a Sara",
+     "right": "quando sono triste."
     }
    ]
   }

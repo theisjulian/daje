@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-possessivi-2-m3",
- "title": "Ein Familienfoto",
+ "title": "Intervista sulla famiglia",
  "language": "it",
  "level": "A1",
- "description": "Possessivbegleiter bei Verwandten · Ein Familienfoto (mittel).",
+ "description": "I possessivi con i nomi di famiglia · Intervista sulla famiglia · livello medio.",
  "topics": [
-  "Possessivbegleiter bei Verwandten",
+  "I possessivi con i nomi di famiglia",
   "Grammatik"
  ],
  "sources": [
@@ -36,67 +36,84 @@
  },
  "grammar": {
   "topic": "ecco1-possessivi-2",
-  "topicTitle": "Possessivbegleiter bei Verwandten",
+  "topicTitle": "I possessivi con i nomi di famiglia",
   "difficulty": "mittel",
   "origin": "own",
   "order": 23,
-  "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_"
+  "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
+  "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze die Possessivbegleiter (mit oder ohne Artikel).",
-   "explanation": "Verwandte im Singular ohne Artikel; Plural, loro und famiglia mit Artikel.",
-   "type": "gap_fill",
-   "text": "Questa è (meine) [[g1]] famiglia.\nA sinistra c'è (mein) [[g2]] padre, Roberto.\nVicino a lui c'è (meine) [[g3]] madre, Elena.\nDavanti ci sono (meine) [[g4]] fratelli, Luca e Matteo.\nA destra c'è (unsere) [[g5]] nonna Rosa.\nIl cane si chiama Bobo: è (ihr) [[g6]] cane, di Luca e Matteo.\nE questa è (meine) [[g7]] cugina Sofia con (ihre) [[g8]] madre.",
-   "gaps": [
+   "prompt": "Rispondi con una frase completa e il possessivo giusto.",
+   "promptHelp": "Antworte in ganzen Sätzen mit dem passenden Possessivbegleiter.",
+   "type": "sentence_completion",
+   "items": [
     {
-     "id": "g1",
+     "id": "s1",
+     "start": "Come si chiama tua madre? (Laura) – …",
      "acceptedAnswers": [
-      "la mia"
-     ]
+      "Mia madre si chiama Laura"
+     ],
+     "modelAnswer": "Mia madre si chiama Laura."
     },
     {
-     "id": "g2",
+     "id": "s2",
+     "start": "Dove abitano i tuoi nonni? (a Roma) – …",
      "acceptedAnswers": [
-      "mio"
-     ]
+      "I miei nonni abitano a Roma"
+     ],
+     "modelAnswer": "I miei nonni abitano a Roma."
     },
     {
-     "id": "g3",
+     "id": "s3",
+     "start": "Quanti anni ha tuo fratello? (12) – …",
      "acceptedAnswers": [
-      "mia"
-     ]
+      "Mio fratello ha dodici anni"
+     ],
+     "modelAnswer": "Mio fratello ha dodici anni."
     },
     {
-     "id": "g4",
+     "id": "s4",
+     "start": "Com’è la tua famiglia? (grande) – …",
      "acceptedAnswers": [
-      "i miei"
-     ]
+      "La mia famiglia è grande"
+     ],
+     "modelAnswer": "La mia famiglia è grande."
     },
     {
-     "id": "g5",
+     "id": "s5",
+     "start": "Che lavoro fa vostro padre? (medico) – …",
      "acceptedAnswers": [
-      "nostra"
-     ]
+      "Nostro padre è medico",
+      "Nostro padre fa il medico"
+     ],
+     "modelAnswer": "Nostro padre è medico."
     },
     {
-     "id": "g6",
+     "id": "s6",
+     "start": "Come si chiamano le tue sorelle? (Ada e Bea) – …",
      "acceptedAnswers": [
-      "il loro"
-     ]
+      "Le mie sorelle si chiamano Ada e Bea"
+     ],
+     "modelAnswer": "Le mie sorelle si chiamano Ada e Bea."
     },
     {
-     "id": "g7",
+     "id": "s7",
+     "start": "Dove abita tua zia? (a Bari) – …",
      "acceptedAnswers": [
-      "mia"
-     ]
+      "Mia zia abita a Bari"
+     ],
+     "modelAnswer": "Mia zia abita a Bari."
     },
     {
-     "id": "g8",
+     "id": "s8",
+     "start": "Com’è il tuo papà? (simpatico) – …",
      "acceptedAnswers": [
-      "sua"
-     ]
+      "Il mio papà è simpatico"
+     ],
+     "modelAnswer": "Il mio papà è simpatico."
     }
    ]
   }

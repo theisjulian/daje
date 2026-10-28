@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-possessivi-2-s3",
- "title": "Interview über die Familie",
+ "title": "Il compleanno della nonna",
  "language": "it",
  "level": "A1",
- "description": "Possessivbegleiter bei Verwandten · Interview über die Familie (schwer).",
+ "description": "I possessivi con i nomi di famiglia · Il compleanno della nonna · livello difficile.",
  "topics": [
-  "Possessivbegleiter bei Verwandten",
+  "I possessivi con i nomi di famiglia",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 12,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,58 +36,82 @@
  },
  "grammar": {
   "topic": "ecco1-possessivi-2",
-  "topicTitle": "Possessivbegleiter bei Verwandten",
+  "topicTitle": "I possessivi con i nomi di famiglia",
   "difficulty": "schwer",
   "origin": "own",
   "order": 23,
-  "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_"
+  "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
+  "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Antworte in ganzen Sätzen mit dem passenden Possessivbegleiter.",
-   "type": "sentence_completion",
-   "items": [
+   "prompt": "Scrivi i possessivi (con o senza articolo).",
+   "promptHelp": "Ergänze die Possessivbegleiter.",
+   "explanation": "Parente al singolare: mia, mio, sua · plurale e loro: con l’articolo.",
+   "explanationHelp": "Verwandte Singular: ohne Artikel · Plural und loro: mit.",
+   "type": "gap_fill",
+   "text": "Sabato (io) [[g1]] nonna compie ottant’anni.\n(lei) [[g2]] figli organizzano una festa: (io) [[g3]] padre e (io) [[g4]] zia Martina.\n(io) [[g5]] cugini arrivano da Milano con (loro) [[g6]] genitori.\n(io) [[g7]] fratello prepara una torta.\n(noi) [[g8]] famiglia è molto grande!\n(lei) [[g9]] sorella, la zia Ada, viene da Napoli.\n(lei) [[g10]] regalo preferito? Una foto di tutta la famiglia.",
+   "gaps": [
     {
-     "id": "s1",
-     "start": "Come si chiama tua madre? (Laura) – …",
+     "id": "g1",
      "acceptedAnswers": [
-      "Mia madre si chiama Laura"
-     ],
-     "modelAnswer": "Mia madre si chiama Laura."
+      "mia"
+     ]
     },
     {
-     "id": "s2",
-     "start": "Dove abitano i tuoi nonni? (a Roma) – …",
+     "id": "g2",
      "acceptedAnswers": [
-      "I miei nonni abitano a Roma"
-     ],
-     "modelAnswer": "I miei nonni abitano a Roma."
+      "I suoi"
+     ]
     },
     {
-     "id": "s3",
-     "start": "Quanti anni ha tuo fratello? (12) – …",
+     "id": "g3",
      "acceptedAnswers": [
-      "Mio fratello ha dodici anni"
-     ],
-     "modelAnswer": "Mio fratello ha dodici anni."
+      "mio"
+     ]
     },
     {
-     "id": "s4",
-     "start": "Com'è la tua famiglia? (grande) – …",
+     "id": "g4",
      "acceptedAnswers": [
-      "La mia famiglia è grande"
-     ],
-     "modelAnswer": "La mia famiglia è grande."
+      "mia"
+     ]
     },
     {
-     "id": "s5",
-     "start": "Che lavoro fa vostro padre? (medico) – …",
+     "id": "g5",
      "acceptedAnswers": [
-      "Nostro padre è medico",
-      "Nostro padre fa il medico"
-     ],
-     "modelAnswer": "Nostro padre è medico."
+      "I miei"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "i loro"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Mio"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "La nostra"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Sua"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "Il suo"
+     ]
     }
    ]
   }

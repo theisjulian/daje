@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-che-relativo-m3",
- "title": "Wer ist wer?",
+ "title": "La famiglia di Leo",
  "language": "it",
  "level": "A1",
- "description": "Das Relativpronomen che · Wer ist wer? (mittel).",
+ "description": "Il pronome relativo che · La famiglia di Leo · livello medio.",
  "topics": [
-  "Das Relativpronomen che",
+  "Il pronome relativo che",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,46 +36,86 @@
  },
  "grammar": {
   "topic": "ecco1-che-relativo",
-  "topicTitle": "Das Relativpronomen che",
+  "topicTitle": "Il pronome relativo che",
   "difficulty": "mittel",
   "origin": "own",
   "order": 33,
-  "rule": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):\n- _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** bleibt immer gleich (für Personen und Sachen, Singular und Plural)."
+  "rule": "**che** unisce due frasi e si riferisce a un nome:\n- _Ho un’amica. L’amica abita a Roma._ → _Ho un’amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** non cambia mai (per persone e cose, singolare e plurale).",
+  "ruleHelp": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche): _Ho un’amica che abita a Roma. Il libro che leggo è interessante._\n**che** bleibt immer gleich (Personen und Sachen, Singular und Plural)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze die Beschreibung.",
-   "type": "matching",
-   "pairs": [
+   "prompt": "Completa con che. Poi scrivi il verbo giusto dal riquadro.",
+   "promptHelp": "Ergänze mit che und dem passenden Verb aus dem Kasten.",
+   "type": "gap_fill",
+   "text": "Leo ha una zia [[g1]] [[g2]] a Napoli.\nHa due cugini [[g3]] [[g4]] a Roma.\nIl nonno è un uomo [[g5]] [[g6]] tante storie.\nLa nonna fa una torta [[g7]] [[g8]] a tutti.\nLeo ha un gatto [[g9]] [[g10]] sempre sul divano.",
+   "gaps": [
     {
-     "id": "p1",
-     "left": "Il nonno è la persona",
-     "right": "che racconta le storie più belle."
+     "id": "g1",
+     "acceptedAnswers": [
+      "che"
+     ]
     },
     {
-     "id": "p2",
-     "left": "Il cuoco è la persona",
-     "right": "che cucina al ristorante."
+     "id": "g2",
+     "acceptedAnswers": [
+      "abita"
+     ]
     },
     {
-     "id": "p3",
-     "left": "L'insegnante è la persona",
-     "right": "che spiega la lezione."
+     "id": "g3",
+     "acceptedAnswers": [
+      "che"
+     ]
     },
     {
-     "id": "p4",
-     "left": "Il medico è la persona",
-     "right": "che lavora in ospedale."
+     "id": "g4",
+     "acceptedAnswers": [
+      "studiano"
+     ]
     },
     {
-     "id": "p5",
-     "left": "Il postino è la persona",
-     "right": "che porta le lettere."
+     "id": "g5",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "racconta"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "piace"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "che"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "dorme"
+     ]
     }
    ],
-   "distractors": [
-    "che va a scuola."
+   "wordBank": true,
+   "extraWords": [
+    "abitano",
+    "studia"
    ]
   }
  ]

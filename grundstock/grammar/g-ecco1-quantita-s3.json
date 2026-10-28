@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quantita-s3",
+ "title": "La mia città",
+ "language": "it",
+ "level": "A1",
+ "description": "Molto, poco, tanto, troppo · La mia città · livello difficile.",
+ "topics": [
+  "Molto, poco, tanto, troppo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "5 · Famiglia e gite",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quantita",
+  "topicTitle": "Molto, poco, tanto, troppo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 63,
+  "rule": "**Come avverbio** (con un verbo o un aggettivo) **non cambiano**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Davanti a un nome** cambiano come un aggettivo:\n| | m. sing. | f. sing. | m. plur. | f. plur. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C’è **troppa** gente._",
+  "ruleHelp": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**: _Studio molto. Il viaggio è molto bello._\n**Als Begleiter** (vor einem Nomen) passen sie sich an: molto/molta/molti/molte, poco/poca/pochi/poche … _Ho molti amici. C’è troppa gente._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi la frase con molto, poco, tanto o troppo.",
+   "promptHelp": "Schreibe den Satz mit molto, poco, tanto oder troppo.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "(nella mia città / tanto / parchi)",
+     "acceptedAnswers": [
+      "ci sono tanti parchi"
+     ],
+     "modelAnswer": "Nella mia città ci sono tanti parchi."
+    },
+    {
+     "id": "s2",
+     "start": "(c’è / poco / traffico)",
+     "acceptedAnswers": [
+      "c’è poco traffico"
+     ],
+     "modelAnswer": "C’è poco traffico."
+    },
+    {
+     "id": "s3",
+     "start": "(ci sono / molto / negozi)",
+     "acceptedAnswers": [
+      "ci sono molti negozi"
+     ],
+     "modelAnswer": "Ci sono molti negozi."
+    },
+    {
+     "id": "s4",
+     "start": "(d’estate c’è / troppo / gente)",
+     "acceptedAnswers": [
+      "c’è troppa gente"
+     ],
+     "modelAnswer": "D’estate c’è troppa gente."
+    },
+    {
+     "id": "s5",
+     "start": "(la città è / molto / bella)",
+     "acceptedAnswers": [
+      "è molto bella"
+     ],
+     "modelAnswer": "La città è molto bella."
+    },
+    {
+     "id": "s6",
+     "start": "(ci sono / poco / piscine)",
+     "acceptedAnswers": [
+      "ci sono poche piscine"
+     ],
+     "modelAnswer": "Ci sono poche piscine."
+    },
+    {
+     "id": "s7",
+     "start": "(i ragazzi studiano / tanto)",
+     "acceptedAnswers": [
+      "studiano tanto"
+     ],
+     "modelAnswer": "I ragazzi studiano tanto."
+    },
+    {
+     "id": "s8",
+     "start": "(ci sono / tanto / biciclette)",
+     "acceptedAnswers": [
+      "ci sono tante biciclette"
+     ],
+     "modelAnswer": "Ci sono tante biciclette."
+    }
+   ]
+  }
+ ]
+}

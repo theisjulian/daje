@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-data-l3",
- "title": "Feste in Italien",
+ "title": "Feste in Italia",
  "language": "it",
  "level": "A1",
- "description": "Das Datum · Feste in Italien (einfach).",
+ "description": "La data · Feste in Italia · livello facile.",
  "topics": [
-  "Das Datum",
+  "La data",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,25 +36,28 @@
  },
  "grammar": {
   "topic": "ecco1-data",
-  "topicTitle": "Das Datum",
+  "topicTitle": "La data",
   "difficulty": "leicht",
   "origin": "own",
   "order": 13,
-  "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._"
+  "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Il primo giorno del mese: **il primo** (aprile).\n- Davanti a vocale: **l’otto**, **l’undici** (agosto).\n- I mesi con la minuscola: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._\n- Davanti ai giorni della settimana nella data non c’è l’articolo: _sabato 14 marzo_.",
+  "ruleHelp": "- _Oggi è il quindici maggio._ – das Datum mit **il** + Grundzahl.\n- Nur der Erste wird mit Ordnungszahl gesagt: **il primo** aprile.\n- Vor Vokal: **l’otto**, **l’undici**. Monate klein.\n- Vor Wochentagen steht im Datum kein Artikel: _sabato 14 marzo_."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle das richtige Datum.",
-   "explanation": "Nur der Erste wird mit Ordnungszahl gesagt (il primo). Sonst Grundzahl mit il, vor Vokal l' (l'otto, l'undici).",
+   "prompt": "Scegli la data giusta.",
+   "promptHelp": "Wähle das richtige Datum.",
+   "explanation": "Solo il primo giorno con il numero ordinale (il primo). Gli altri: il + numero, davanti a vocale l’ (l’otto, l’undici).",
+   "explanationHelp": "Nur der Erste mit Ordnungszahl. Sonst il + Grundzahl, vor Vokal l’.",
    "type": "gap_choice",
-   "text": "Capodanno: [[g1]]\nLa festa della donna: [[g2]]\nLa festa della Repubblica: [[g3]]\nFerragosto: [[g4]]\nSan Martino: [[g5]]\nNatale: [[g6]]",
+   "text": "Capodanno: [[g1]]\nLa festa della donna: [[g2]]\nLa festa della Repubblica: [[g3]]\nFerragosto: [[g4]]\nSan Martino: [[g5]]\nNatale: [[g6]]\nSanto Stefano: [[g7]]\nLa festa dei lavoratori: [[g8]]",
    "gaps": [
     {
      "id": "g1",
      "options": [
       "il primo gennaio",
-      "l'uno gennaio",
+      "l’uno gennaio",
       "il uno gennaio"
      ],
      "answer": "il primo gennaio"
@@ -62,11 +65,11 @@
     {
      "id": "g2",
      "options": [
-      "l'otto marzo",
+      "l’otto marzo",
       "il otto marzo",
       "lo otto marzo"
      ],
-     "answer": "l'otto marzo"
+     "answer": "l’otto marzo"
     },
     {
      "id": "g3",
@@ -89,11 +92,11 @@
     {
      "id": "g5",
      "options": [
-      "l'undici novembre",
+      "l’undici novembre",
       "il undici novembre",
-      "l'undicesimo novembre"
+      "l’undicesimo novembre"
      ],
-     "answer": "l'undici novembre"
+     "answer": "l’undici novembre"
     },
     {
      "id": "g6",
@@ -103,6 +106,24 @@
       "la venticinque dicembre"
      ],
      "answer": "il venticinque dicembre"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "il ventisei dicembre",
+      "il ventiseiesimo dicembre",
+      "l’ventisei dicembre"
+     ],
+     "answer": "il ventisei dicembre"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "il primo maggio",
+      "l’uno maggio",
+      "il uno maggio"
+     ],
+     "answer": "il primo maggio"
     }
    ]
   }

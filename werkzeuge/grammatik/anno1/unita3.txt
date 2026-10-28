@@ -1,65 +1,162 @@
 #!buch series=Corso_daje volume=1 grade=8 cefr=A1 prefix=ecco1
-## Primo anno · Lektion 3 · La scuola · Grammatikthemen (Lehrplan Jgst. 8)
+## Primo anno · Lektion 3 · La scuola · Grammatikthemen (Lehrplan Jgst. 8). Wochentage, Uhrzeit, Ordinalzahlen 1–10: auch im Trainer.
 
-@thema orario | 3 · La scuola | Per cominciare | Uhrzeit und Wochentage | 1
+@thema orario | 3 · La scuola | Per cominciare | L’ora e i giorni della settimana | 1
 #regel
-**Che ore sono?** – Wie spät ist es?
-- _È l'una._ · _Sono le due / le tre …_
-- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)
+**Che ore sono?**
+- _È l’una._ · _Sono le due / le tre …_
+- _Sono le tre **e un quarto**_ (3.15) · _**e mezza / e mezzo**_ (3.30) · _le quattro **meno un quarto**_ (3.45)
 - _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)
-- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)
+- _È mezzogiorno_ (12.00) · _È mezzanotte_ (24.00)
 
-**A che ora?** – Um wie viel Uhr?
-- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)
+**A che ora?**
+- _**all’**una_, _**alle** otto_, _**dalle** otto **alle** due_
 
-**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.
-_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag.
+**I giorni** (con la lettera minuscola): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.
+_Il lunedì ho matematica._ = ogni lunedì · _Lunedì ho un’interrogazione._ = questo lunedì.
+#regel-de
+**Che ore sono?** – Wie spät ist es? _È l’una. Sono le due._ · e un quarto (Viertel nach), e mezza (halb), meno un quarto (Viertel vor), è mezzogiorno / mezzanotte.
+**A che ora?** – Um wie viel Uhr? _all’una, alle otto, dalle otto alle due_ (von … bis).
+**Wochentage** klein: lunedì … domenica. _Il lunedì_ = montags (jeden Montag) · _Lunedì_ = am (nächsten) Montag.
 
 %übung leicht | Che ore sono?
-?zuordnen | Welche Uhrzeit passt?
+?zuordnen | Abbina l’ora. || Welche Uhrzeit passt?
 8.00 = Sono le otto.
-1.00 = È l'una.
+1.00 = È l’una.
 3.15 = Sono le tre e un quarto.
 5.30 = Sono le cinque e mezza.
 7.45 = Sono le otto meno un quarto.
 12.00 = È mezzogiorno.
+9.10 = Sono le nove e dieci.
+6.40 = Sono le sette meno venti.
++ Sono le una.
 
-%übung leicht | alle oder all'?
-?auswahl | Wähle die richtige Form.
-La lezione comincia {alle*|all'|al} otto.
-Mangio {all'*|alle|al} una.
-Ho latino {dalle*|alle|all'} dieci {alle*|all'|dalle} undici.
-Torno a casa {alle*|all'} due.
-La scuola finisce {all'*|alle} una e mezza.
-! all' nur vor una (l'una). Sonst alle: alle otto, alle due.
+%übung leicht | Alle o all’?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+La lezione comincia {alle*|all’|al} otto.
+Mangio {all’*|alle|al} una.
+Ho latino {dalle*|alle|all’} dieci {alle*|all’|dalle} undici.
+Torno a casa {alle*|all’} due.
+La scuola finisce {all’*|alle} una e mezza.
+L’allenamento è {alle*|all’} cinque.
+Il film comincia {alle*|all’} nove.
+Pranziamo {all’*|alle} una e un quarto.
+! all’ solo con una (l’una). Le altre ore: alle otto, alle due. || all’ nur vor una (l’una). Sonst alle: alle otto, alle due.
+
+%übung leicht | Che ore sono? Scegli
+?auswahl | Scegli l’ora giusta. || Wähle die richtige Uhrzeit.
+2.00 → {Sono le due.*|È le due.|Sono le dodici.}
+1.00 → {È l’una.*|Sono l’una.|È le una.}
+4.30 → {Sono le quattro e mezza.*|Sono le quattro e un quarto.|Sono le cinque meno mezza.}
+6.15 → {Sono le sei e un quarto.*|Sono le sei meno un quarto.|Sono le sei e mezza.}
+8.45 → {Sono le nove meno un quarto.*|Sono le otto meno un quarto.|Sono le nove e un quarto.}
+10.10 → {Sono le dieci e dieci.*|Sono le dieci meno dieci.|Sono le undici e dieci.}
+11.50 → {Sono le dodici meno dieci.*|Sono le undici meno dieci.|Sono le dieci e cinquanta.}
+12.00 → {È mezzogiorno.*|Sono mezzogiorno.|È la mezzanotte.}
+! È l’una / è mezzogiorno / è mezzanotte (singolare), altrimenti sono le … || È l’una / è mezzogiorno / è mezzanotte (Singular), sonst sono le …
+
+%übung leicht | La settimana di Marta
+?zuordnen | Che cosa fa Marta e quando? || Was macht Marta wann?
+il lunedì = ha matematica alle otto
+il martedì = va in piscina
+il mercoledì = ha un’interrogazione di storia
+il giovedì = suona la chitarra
+il venerdì = mangia la pizza con gli amici
+il sabato = dorme fino alle dieci
+la domenica = pranza dai nonni
+ogni giorno = fa i compiti alle quattro
++ il lunedì sera
 
 %übung mittel | Il mio orario
-?luecke | Ergänze die Uhrzeiten in Worten.
+?luecke | Scrivi l’ora in lettere. || Ergänze die Uhrzeiten in Worten.
 Il lunedì la scuola comincia (8.00) [alle otto].
 La pausa è (10.30) [alle dieci e mezza/alle dieci e mezzo].
-Ho matematica (11.00–12.00) dalle undici [alle dodici].
-Il martedì finisco (13.00) [all'una].
-! Bei halb sind e mezza und e mezzo beide richtig.
+Ho matematica (11.00–12.00) [dalle undici alle dodici].
+Il martedì finisco (13.00) [all’una].
+Il mercoledì ho educazione fisica (9.15) [alle nove e un quarto/alle nove e quindici].
+Il giovedì torno a casa (14.45) [alle tre meno un quarto/alle due e quarantacinque].
+Il venerdì la scuola finisce (12.30) [a mezzogiorno e mezzo/alle dodici e mezza/alle dodici e mezzo].
+Il sabato non c’è scuola, mi alzo (10.00) [alle dieci].
+! Con mezza e mezzo sono giusti tutti e due. || Bei halb sind e mezza und e mezzo beide richtig.
 
-%übung mittel | Die Woche
-?ordnen | Ordne die Wochentage.
+%übung mittel | La settimana
+?ordnen | Metti in ordine i giorni da lunedì a giovedì. || Ordne die Wochentage (Montag bis Donnerstag).
 lunedì
 martedì
 mercoledì
 giovedì
+?ordnen | E adesso da venerdì a domenica. || Und jetzt Freitag bis Sonntag.
 venerdì
 sabato
 domenica
+?ordnen | Metti in ordine le ore. || Ordne die Uhrzeiten.
+alle otto
+alle nove e mezza
+a mezzogiorno
+all’una e un quarto
+alle tre meno dieci
 
-%übung schwer | Mein Stundenplan
-?frei | Beschreibe deinen Montag: Wann beginnt die Schule, welche Fächer hast du von wann bis wann, wann kommst du nach Hause?
-Il lunedì la scuola comincia alle otto. Dalle otto alle nove e mezza ho matematica. Poi ho inglese. Torno a casa all'una e mezza.
+%übung mittel | Una giornata di scuola
+?luecke | Scrivi l’ora in lettere (con alle / all’). || Schreibe die Uhrzeiten in Worten (mit alle / all’).
+La sveglia suona (6.45) [alle sette meno un quarto/alle sei e quarantacinque].
+Prendo l’autobus (7.20) [alle sette e venti].
+La prima lezione comincia (8.00) [alle otto].
+L’intervallo è (10.15) [alle dieci e un quarto/alle dieci e quindici].
+La scuola finisce (13.30) [all’una e mezza/all’una e mezzo/alle tredici e trenta].
+Pranzo (14.00) [alle due/alle quattordici].
+Faccio i compiti (15.00–17.00) [dalle tre alle cinque/dalle quindici alle diciassette].
+Vado a letto (22.00) [alle dieci/alle ventidue].
+! Nella vita di tutti i giorni contiamo fino a 12: alle due (14.00). Ufficiale: alle quattordici. || Im Alltag zählt man meist bis 12: alle due (14 Uhr). Offiziell auch alle quattordici.
+
+%übung mittel | Domande sull’orario
+?ergaenzen | Rispondi con l’ora in lettere. || Antworte mit der Uhrzeit in Worten.
+A che ora comincia la scuola? (8.10) – … | alle otto e dieci | La scuola comincia alle otto e dieci.
+A che ora hai inglese? (9.00) – … | alle nove | Ho inglese alle nove.
+Quando finisce la lezione? (1.00) – … | all’una | La lezione finisce all’una.
+A che ora mangi? (12.30) – … | alle dodici e mezza/alle dodici e mezzo/a mezzogiorno e mezzo | Mangio a mezzogiorno e mezzo.
+Che ore sono? (3.40) – … | le quattro meno venti/le tre e quaranta | Sono le quattro meno venti.
+A che ora torni a casa? (2.15) – … | alle due e un quarto/alle due e quindici | Torno alle due e un quarto.
+Che ore sono? (1.30) – … | l’una e mezza/l’una e mezzo | È l’una e mezza.
+A che ora vai a letto? (10.00) – … | alle dieci | Vado a letto alle dieci.
+
+%übung schwer | Il lunedì o lunedì?
+?auswahl | Sempre (il lunedì) o una volta (lunedì)? || Regelmäßig (il lunedì) oder einmalig (lunedì)?
+{Il sabato*|Sabato} dormo sempre fino alle dieci.
+{Martedì*|Il martedì} prossimo ho un’interrogazione.
+{La domenica*|Domenica} pranziamo sempre dai nonni.
+Ciao, ci vediamo {venerdì*|il venerdì} alle sei!
+{Il giovedì*|Giovedì} ho sempre educazione fisica.
+Questo {mercoledì*|il mercoledì} non c’è scuola: è festa!
+{Il venerdì*|Venerdì} di solito mangiamo la pizza.
+{Lunedì*|Il lunedì} prossimo comincia la gita.
+! il lunedì = ogni lunedì (sempre, di solito) · lunedì = un lunedì preciso. || il lunedì = jeden Montag (immer, sempre) · lunedì = an einem bestimmten Montag.
+
+%übung schwer | Errori nel calendario
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+La scuola comincia [all’=>alle] otto.
+[Sono=>È] l’una e mezza.
+Il [Lunedì=>lunedì] ho latino.
+Finisco [alle=>all’] una.
+[Sono=>È] mezzogiorno.
+[Il=>La] domenica dormo molto.
+Il film è [all’=>alle] nove.
+Ci vediamo [Venerdì=>venerdì] prossimo.
+! I giorni con la minuscola · la domenica (femminile!) · all’una, alle otto. || Wochentage klein · la domenica (weiblich!) · all’una, alle otto.
+
+%übung schwer | Il mio orario
+?frei | Descrivi il tuo lunedì: quando comincia la scuola, che materie hai e quando, quando torni a casa? || Beschreibe deinen Montag: Wann beginnt die Schule, welche Fächer hast du von wann bis wann, wann kommst du nach Hause?
+Il lunedì la scuola comincia alle otto. Dalle otto alle nove e mezza ho matematica. Poi ho inglese. Torno a casa all’una e mezza.
 Zeilen: 5
+?luecke | E adesso completa con le ore in lettere. || Und jetzt ergänze die Uhrzeiten in Worten.
+Mi sveglio (6.30) [alle sei e mezza/alle sei e mezzo].
+Esco di casa (7.15) [alle sette e un quarto/alle sette e quindici].
+La prima ora comincia (8.00) [alle otto].
+Torno a casa (13.45) [alle due meno un quarto/all’una e quarantacinque].
 
-@thema isc-fare | 3 · La scuola | Parte A | Verben auf -ire mit -isc- und fare | 2
+@thema isc-fare | 3 · La scuola | Parte A | I verbi in -isc- e fare | 2
 #regel
-Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:
-| Person | capire | finire |
+Molti verbi in -ire hanno **-isc-**, ma **non** con noi e voi:
+| persona | capire | finire |
 | io | cap**isc**o | fin**isc**o |
 | tu | cap**isc**i | fin**isc**i |
 | lui / lei | cap**isc**e | fin**isc**e |
@@ -67,23 +164,30 @@ Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:
 | voi | cap**ite** | fin**ite** |
 | loro | cap**isc**ono | fin**isc**ono |
 
-Aussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].
-**fare** (machen) ist unregelmäßig:
+Pronuncia: -isco [isko], ma -isci, -isce [iʃi, iʃe].
+**fare** è irregolare:
 | io | tu | lui / lei | noi | voi | loro |
 | faccio | fai | fa | facciamo | fate | fanno |
+#regel-de
+Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi (capiamo, capite). Aussprache: -isco [isko], -isci/-isce [iʃi, iʃe].
+**fare** (machen) ist unregelmäßig: faccio, fai, fa, facciamo, fate, fanno.
 
 %übung leicht | capire, finire, fare
-?auswahl | Wähle die richtige Form.
-Io non {capisco*|capo|capiamo} l'esercizio.
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Io non {capisco*|capo|capiamo} l’esercizio.
 Tu {capisci*|capisce|capite} il problema?
 La lezione {finisce*|fina|finiscono} alle due.
 Noi {capiamo*|capisciamo|capiscono} tutto.
 Io {faccio*|fo|fa} i compiti.
 Voi {fate*|facete|fanno} attenzione?
+Loro {preferiscono*|preferono|preferisce} la pizza.
+Marco {fa*|fai|fanno} sport.
+Tu {finisci*|fini|finisce} alle tre?
+Noi {facciamo*|faciamo|fate} una pausa.
 
-%übung leicht | Mit oder ohne -isc-?
-?sortieren | Mit -isc- oder ohne?
-Kategorien: isc=mit -isc-; ohne=ohne -isc-
+%übung leicht | Con o senza -isc-?
+?sortieren | Con -isc- o senza? || Mit -isc- oder ohne?
+Kategorien: isc=con -isc-; ohne=senza -isc-
 io capisco > isc
 noi capiamo > ohne
 lui finisce > isc
@@ -92,209 +196,36 @@ loro preferiscono > isc
 tu restituisci > isc
 noi finiamo > ohne
 voi capite > ohne
+io pulisco > isc
+noi preferiamo > ohne
+! Noi e voi senza -isc-. || noi und voi ohne -isc-.
 
-%übung mittel | In classe
-?luecke | Setze das Verb in der richtigen Form ein.
-Prof, non (capire, io) [capisco] la domanda!
-A che ora (finire) [finisce] la lezione?
-Noi (fare) [facciamo] un esercizio di geometria.
-La prof (restituire) [restituisce] le relazioni.
-Voi (capire) [capite] la regola?
-I ragazzi (fare) [fanno] attenzione.
-
-%übung schwer | fare
-?tabelle | Ergänze die Formen.
-Spalten: Person | fare | finire
-io | [faccio] | [finisco]
-tu | [fai] | [finisci]
-lui / lei | [fa] | [finisce]
-noi | [facciamo] | [finiamo]
-voi | [fate] | [finite]
-loro | [fanno] | [finiscono]
-
-%übung schwer | Fehler finden
-?fehler | Korrigiere die markierten Formen.
-Noi [capisciamo=>capiamo] la lezione.
-Io [fo=>faccio] i compiti alle cinque.
-La scuola [fine=>finisce] all'una.
-Voi [faciete=>fate] attenzione?
-Loro non [capono=>capiscono] l'esercizio.
-
-@thema imperativo | 3 · La scuola | Parte A | Der Imperativ (tu, voi) und die Verneinung | 3
-#regel
-**Bejaht:**
-| | -are | -ere | -ire |
-| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |
-| voi | parl**ate**! | prend**ete**! | sent**ite**! |
-
-Unregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_
-
-**Verneint:**
-- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_
-- voi: **non** + Imperativ: _**Non parlate!**_
-
-Höflich zu Erwachsenen (Lei): _Scusi! Senta!_
-
-%übung leicht | Imperativ tu
-?auswahl | Wähle den Imperativ (tu).
-Luca, {ascolta*|ascolti|ascoltare}!
-Sara, {prendi*|prenda|prende} il libro!
-Marco, {apri*|apra|apre} la finestra!
-Giulia, {finisci*|finisce|finire} il compito!
-Paolo, {fa'*|fare|fanno} attenzione!
-
-%übung mittel | Verneint
-?auswahl | Wähle den verneinten Imperativ.
-Luca, non {parlare*|parla|parli} adesso!
-Ragazzi, non {gridate*|gridare|grida}!
-Sara, non {dimenticare*|dimentica|dimentichi} il libro!
-Marco, non {correre*|corri|corre} nel corridoio!
-Ragazzi, non {usate*|usare|usa} il cellulare!
-! tu verneint: non + Infinitiv (non parlare). voi verneint: non + Imperativ (non parlate).
-
-%übung mittel | Die Lehrerin sagt …
-?luecke | Setze den Imperativ ein.
-Marco, (leggere) [leggi] la pagina dieci!
-Ragazzi, (aprire) [aprite] il libro!
-Sara, (scrivere) [scrivi] la soluzione alla LIM!
-Luca, non (parlare) [parlare]!
-Ragazzi, non (gridare) [gridate]!
-Giulia, (fare) [fa'/fai] l'esercizio, per favore!
-
-%übung schwer | Regeln für die Klasse
-?ergaenzen | Schreibe verneinte Regeln für einen Mitschüler (tu).
-(usare il cellulare) → … | Non usare il cellulare!
-(mangiare in classe) → … | Non mangiare in classe!
-(correre nel corridoio) → … | Non correre nel corridoio!
-(dimenticare i compiti) → … | Non dimenticare i compiti!
-
-@thema dare-dire-indiretto | 3 · La scuola | Parte B | dare, dire und das indirekte Objekt | 4
-#regel
-| | io | tu | lui / lei | noi | voi | loro |
-| dare | do | dai | dà | diamo | date | danno |
-| dire | dico | dici | dice | diciamo | dite | dicono |
-
-**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:
-| mi | ti | gli | le | Le | ci | vi | gli |
-| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |
-
-_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._
-**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).
-
-%übung leicht | dare und dire
-?auswahl | Wähle die richtige Form.
-Io ti {do*|da|dai} il mio libro.
-La prof ci {dà*|da|danno} un compito.
-Che cosa {dici*|dice|dite} tu?
-Noi {diciamo*|dicono|dite} la verità.
-I prof {danno*|dano|date} i voti.
-Voi mi {dite*|dicete|dicono} l'ora?
-! dà (er/sie gibt) hat einen Akzent, da (von, bei) nicht.
-
-%übung mittel | Wem?
-?auswahl | Wähle das passende Pronomen.
-Luca mi scrive. → Io {gli*|le|vi} rispondo.
-Sara mi telefona. → Io {le*|gli|ti} rispondo.
-Ragazzi, {vi*|ci|gli} do un consiglio.
-Mamma, {ti*|mi|le} dico una cosa.
-La prof {ci*|vi|gli} restituisce le relazioni. (a noi)
-Signora, {Le*|gli|ti} do il mio posto.
-! gli = ihm (und ihnen), le = ihr, Le = Ihnen (höflich).
-
-%übung mittel | Pronomen einsetzen
-?luecke wortkasten | Ergänze mi, ti, gli, le, ci oder vi.
-Marco, [ti] do il mio numero.
-La prof è contenta: [ci] dà un bel voto.
-Giulia è triste, io [le] racconto una storia.
-Paolo non capisce, la prof [gli] spiega la regola.
-Ragazzi, [vi] dico una cosa importante!
-
-%übung schwer | Fehler finden
-?fehler | Korrigiere die markierten Wörter.
-La prof [da=>dà] un compito difficile.
-Sara non sta bene, io [gli=>le] porto i compiti.
-Noi [dicono=>diciamo] la verità.
-A Luca? Io [le=>gli] do il pallone.
-
-## ───────── Ausbau: weitere, längere Übungen je Thema ─────────
-
-@mehr orario
-
-%übung leicht | Wie spät ist es?
-?auswahl | Wähle die richtige Uhrzeit.
-2.00 → {Sono le due.*|È le due.|Sono le dodici.}
-1.00 → {È l'una.*|Sono l'una.|È le una.}
-4.30 → {Sono le quattro e mezza.*|Sono le quattro e un quarto.|Sono le cinque meno mezza.}
-6.15 → {Sono le sei e un quarto.*|Sono le sei meno un quarto.|Sono le sei e mezza.}
-8.45 → {Sono le nove meno un quarto.*|Sono le otto meno un quarto.|Sono le nove e un quarto.}
-10.10 → {Sono le dieci e dieci.*|Sono le dieci meno dieci.|Sono le undici e dieci.}
-11.50 → {Sono le dodici meno dieci.*|Sono le undici meno dieci.|Sono le dieci e cinquanta.}
-12.00 → {È mezzogiorno.*|Sono mezzogiorno.|È la mezzanotte.}
-! È l'una / è mezzogiorno / è mezzanotte (Singular), sonst sono le …
-
-%übung leicht | Die Woche von Marta
-?zuordnen | Was macht Marta wann?
-il lunedì = ha matematica alle otto
-il martedì = va in piscina
-il mercoledì = ha un'interrogazione di storia
-il giovedì = suona la chitarra
-il venerdì = mangia la pizza con gli amici
-il sabato = dorme fino alle dieci
-
-%übung mittel | Ein Schultag
-?luecke | Schreibe die Uhrzeiten in Worten (mit alle / all').
-La sveglia suona (6.45) [alle sette meno un quarto/alle sei e quarantacinque].
-Prendo l'autobus (7.20) [alle sette e venti].
-La prima lezione comincia (8.00) [alle otto].
-L'intervallo è (10.15) [alle dieci e un quarto/alle dieci e quindici].
-La scuola finisce (13.30) [all'una e mezza/all'una e mezzo/alle tredici e trenta].
-Pranzo (14.00) [alle due/alle quattordici].
-Faccio i compiti (15.00–17.00) [dalle tre alle cinque/dalle quindici alle diciassette].
-! Im Alltag zählt man meist bis 12: alle due (14 Uhr). Offiziell auch alle quattordici.
-
-%übung mittel | Fragen zum Stundenplan
-?ergaenzen | Antworte mit der Uhrzeit in Worten.
-A che ora comincia la scuola? (8.10) – … | alle otto e dieci | La scuola comincia alle otto e dieci.
-A che ora hai inglese? (9.00) – … | alle nove | Ho inglese alle nove.
-Quando finisce la lezione? (1.00) – … | all'una | La lezione finisce all'una.
-A che ora mangi? (12.30) – … | alle dodici e mezza/alle dodici e mezzo/a mezzogiorno e mezzo | Mangio a mezzogiorno e mezzo.
-Che ore sono? (3.40) – … | le quattro meno venti/le tre e quaranta | Sono le quattro meno venti.
-
-%übung schwer | Il lunedì oder lunedì?
-?auswahl | Regelmäßig (il lunedì) oder einmalig (lunedì)?
-{Il sabato*|Sabato} dormo sempre fino alle dieci.
-{Martedì*|Il martedì} prossimo ho un'interrogazione.
-{La domenica*|Domenica} pranziamo sempre dai nonni.
-Ciao, ci vediamo {venerdì*|il venerdì} alle sei!
-{Il giovedì*|Giovedì} ho sempre educazione fisica.
-Questo {mercoledì*|il mercoledì} non c'è scuola: è festa!
-! il lunedì = jeden Montag (immer, sempre) · lunedì = an einem bestimmten Montag.
-
-%übung schwer | Fehler im Wochenplan
-?fehler | Korrigiere die sechs Fehler.
-La scuola comincia [all'=>alle] otto.
-[Sono=>È] l'una e mezza.
-Il [Lunedì=>lunedì] ho latino.
-Finisco [alle=>all'] una.
-[Sono=>È] mezzogiorno.
-[Il=>La] domenica dormo molto.
-! Wochentage klein · la domenica (weiblich!) · all'una, alle otto.
-
-@mehr isc-fare
-
-%übung leicht | Wer macht was?
-?zuordnen | Verbinde Person und Form von fare.
+%übung leicht | Chi fa che cosa?
+?zuordnen | Abbina persona e forma di fare. || Verbinde Person und Form von fare.
 io = faccio
 tu = fai
 lui / lei = fa
 noi = facciamo
 voi = fate
 loro = fanno
+Giulia e io = facciamo
+tu e Leo = fate
 + facete
 + fo
 
-%übung mittel | Was machst du?
-?luecke | Ergänze fare in der richtigen Form.
+%übung mittel | In classe
+?luecke | Scrivi il verbo nella forma giusta. || Setze das Verb in der richtigen Form ein.
+Prof, non (capire, io) [capisco] la domanda!
+A che ora (finire) [finisce] la lezione?
+Noi (fare) [facciamo] un esercizio di geometria.
+La prof (restituire) [restituisce] le relazioni.
+Voi (capire) [capite] la regola?
+I ragazzi (fare) [fanno] attenzione.
+Tu (preferire) [preferisci] la storia o la geografia?
+Io (finire) [finisco] il compito in classe.
+
+%übung mittel | Che cosa fai?
+?luecke | Scrivi fare nella forma giusta. || Ergänze fare in der richtigen Form.
 Che cosa [fai] stasera? – [Faccio] i compiti.
 Marco [fa] sport tutti i giorni.
 Noi [facciamo] una gita a Torino.
@@ -302,22 +233,44 @@ Voi [fate] colazione a scuola?
 I miei amici [fanno] una festa sabato.
 Il pomeriggio io e mia sorella [facciamo] una passeggiata.
 Tu [fai] attenzione in classe?
-! Wendungen mit fare: fare i compiti, fare sport, fare colazione, fare una festa, fare attenzione.
+Mia madre [fa] la spesa il sabato.
+! Espressioni con fare: fare i compiti, fare sport, fare colazione, fare una festa, fare attenzione, fare la spesa. || Wendungen mit fare: fare i compiti, fare sport, fare colazione, fare una festa, fare attenzione, fare la spesa.
 
-%übung mittel | Am Ende der Stunde
-?luecke | Setze die Verben in die richtige Form (mit oder ohne -isc-).
-Io non (capire) [capisco] l'esercizio numero tre.
+%übung mittel | Alla fine della lezione
+?luecke | Scrivi i verbi nella forma giusta (con o senza -isc-). || Setze die Verben in die richtige Form (mit oder ohne -isc-).
+Io non (capire) [capisco] l’esercizio numero tre.
 La prof (spiegare) [spiega] di nuovo e adesso noi (capire) [capiamo].
 Tu (preferire) [preferisci] la matematica o la storia?
-Io (preferire) [preferisco] l'inglese.
+Io (preferire) [preferisco] l’inglese.
 La lezione (finire) [finisce] alle undici.
 Voi (finire) [finite] il compito a casa?
 I ragazzi (pulire) [puliscono] la lavagna.
-! noi und voi ohne -isc-: capiamo, finite.
+! noi e voi senza -isc-: capiamo, finite. || noi und voi ohne -isc-: capiamo, finite.
 
-%übung schwer | Tabelle mit -isc-
-?tabelle | Ergänze die Formen.
-Spalten: Person | capire | preferire | pulire
+%übung schwer | fare e finire
+?tabelle | Completa le forme. || Ergänze die Formen.
+Spalten: persona | fare | finire
+io | [faccio] | [finisco]
+tu | [fai] | [finisci]
+lui / lei | [fa] | [finisce]
+noi | [facciamo] | [finiamo]
+voi | [fate] | [finite]
+loro | [fanno] | [finiscono]
+
+%übung schwer | Trova gli errori
+?fehler | Correggi le forme segnate. || Korrigiere die markierten Formen.
+Noi [capisciamo=>capiamo] la lezione.
+Io [fo=>faccio] i compiti alle cinque.
+La scuola [fine=>finisce] all’una.
+Voi [faciete=>fate] attenzione?
+Loro non [capono=>capiscono] l’esercizio.
+Tu [preferi=>preferisci] il tè o il caffè?
+Noi [facemo=>facciamo] una pausa.
+Voi [finiscete=>finite] alle tre?
+
+%übung schwer | Tabella con -isc-
+?tabelle | Completa le forme. || Ergänze die Formen.
+Spalten: persona | capire | preferire | pulire
 io | [capisco] | [preferisco] | [pulisco]
 tu | [capisci] | [preferisci] | [pulisci]
 lui / lei | [capisce] | [preferisce] | [pulisce]
@@ -326,19 +279,48 @@ voi | [capite] | [preferite] | [pulite]
 loro | [capiscono] | [preferiscono] | [puliscono]
 
 %übung schwer | Una mail da scuola
-?luecke | Ergänze die Verben (fare, capire, finire, preferire, dormire).
+?luecke | Scrivi i verbi (fare, capire, finire, preferire, dormire). || Ergänze die Verben.
 Ciao Lena! Oggi a scuola (fare) [facciamo] un test di geografia.
 Io (capire) [capisco] tutto, ma la mia amica no.
 Il test (finire) [finisce] alle dieci.
 Dopo, noi (fare) [facciamo] educazione fisica: io (preferire) [preferisco] la pallavolo.
 Il mio compagno Luca (dormire) [dorme] in classe, che ridere!
 E voi, che cosa (fare) [fate] oggi a scuola?
-! dormire hat kein -isc-: lui dorme.
+I miei compagni (preferire) [preferiscono] il basket.
+! dormire non ha -isc-: lui dorme. || dormire hat kein -isc-: lui dorme.
 
-@mehr imperativo
+@thema imperativo | 3 · La scuola | Parte A | L’imperativo (tu, voi) e la negazione | 3
+#regel
+**Affermativo:**
+| | -are | -ere | -ire |
+| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |
+| voi | parl**ate**! | prend**ete**! | sent**ite**! |
 
-%übung leicht | Was sagt die Lehrerin?
-?zuordnen | Was bedeutet das?
+Irregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_
+
+**Negativo:**
+- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_
+- voi: **non** + imperativo: _**Non parlate!**_
+
+Con gli adulti (Lei): _Scusi! Senta!_
+#regel-de
+**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.
+**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_
+
+%übung leicht | Imperativo tu
+?auswahl | Scegli l’imperativo (tu). || Wähle den Imperativ (tu).
+Luca, {ascolta*|ascolti|ascoltare}!
+Sara, {prendi*|prenda|prende} il libro!
+Marco, {apri*|apra|apre} la finestra!
+Giulia, {finisci*|finisce|finire} il compito!
+Paolo, {fa’*|fare|fanno} attenzione!
+Anna, {scrivi*|scrive|scriva} la data!
+Leo, {leggi*|legge|leggere} ad alta voce!
+Chiara, {guarda*|guardi|guardare} la lavagna!
+! -are → -a (ascolta!), -ere/-ire → -i (prendi!, apri!). || -are → -a, -ere/-ire → -i.
+
+%übung leicht | Che cosa dice la prof?
+?zuordnen | Che cosa vuol dire? || Was bedeutet das?
 Ascoltate! = Hört zu!
 Apri il libro! = Öffne das Buch!
 Scrivi! = Schreib!
@@ -348,8 +330,8 @@ Non correte! = Rennt nicht!
 Ripeti, per favore! = Wiederhole bitte!
 Fate attenzione! = Passt auf!
 
-%übung leicht | tu oder voi?
-?sortieren | Spricht die Lehrerin mit einer Person (tu) oder mit mehreren (voi)?
+%übung leicht | Tu o voi?
+?sortieren | La prof parla con una persona (tu) o con più persone (voi)? || Spricht die Lehrerin mit einer Person (tu) oder mit mehreren (voi)?
 Kategorien: tu=tu; voi=voi
 Leggi! > tu
 Scrivete! > voi
@@ -359,19 +341,46 @@ Non parlare! > tu
 Non gridate! > voi
 Finisci il compito! > tu
 Prendete il quaderno! > voi
+Ripeti! > tu
+Fate silenzio! > voi
 
-%übung mittel | Bejaht – verneint
-?ergaenzen | Verneine die Aufforderung.
-Parla! → … | Non parlare! | Non parlare!
-Prendete il libro! → … | Non prendete il libro! | Non prendete il libro!
-Apri la porta! → … | Non aprire la porta! | Non aprire la porta!
-Scrivete! → … | Non scrivete! | Non scrivete!
-Mangia in classe! → … | Non mangiare in classe! | Non mangiare in classe!
-Usate il cellulare! → … | Non usate il cellulare! | Non usate il cellulare!
-! tu: non + Infinitiv · voi: non + Imperativ.
+%übung mittel | Negativo
+?auswahl | Scegli l’imperativo negativo. || Wähle den verneinten Imperativ.
+Luca, non {parlare*|parla|parli} adesso!
+Ragazzi, non {gridate*|gridare|grida}!
+Sara, non {dimenticare*|dimentica|dimentichi} il libro!
+Marco, non {correre*|corri|corre} nel corridoio!
+Ragazzi, non {usate*|usare|usa} il cellulare!
+Anna, non {mangiare*|mangia|mangi} in classe!
+Ragazzi, non {copiate*|copiare|copia}!
+Paolo, non {scrivere*|scrivi|scrive} sul banco!
+! tu: non + infinito (non parlare). voi: non + imperativo (non parlate). || tu verneint: non + Infinitiv. voi verneint: non + Imperativ.
 
-%übung mittel | Regeln in der Bibliothek
-?luecke | Setze den Imperativ (voi) ein.
+%übung mittel | La prof dice …
+?luecke | Scrivi l’imperativo. || Setze den Imperativ ein.
+Marco, (leggere) [leggi] la pagina dieci!
+Ragazzi, (aprire) [aprite] il libro!
+Sara, (scrivere) [scrivi] la soluzione alla LIM!
+Luca, non (parlare) [parlare]!
+Ragazzi, non (gridare) [gridate]!
+Giulia, (fare) [fa’/fai] l’esercizio, per favore!
+Ragazzi, (ascoltare) [ascoltate] il dialogo!
+Paolo, (chiudere) [chiudi] la porta!
+
+%übung mittel | Affermativo – negativo
+?ergaenzen | Fai l’imperativo negativo. || Verneine die Aufforderung.
+Parla! → … | Non parlare | Non parlare!
+Prendete il libro! → … | Non prendete il libro | Non prendete il libro!
+Apri la porta! → … | Non aprire la porta | Non aprire la porta!
+Scrivete! → … | Non scrivete | Non scrivete!
+Mangia in classe! → … | Non mangiare in classe | Non mangiare in classe!
+Usate il cellulare! → … | Non usate il cellulare | Non usate il cellulare!
+Corri! → … | Non correre | Non correre!
+Gridate! → … | Non gridate | Non gridate!
+! tu: non + infinito · voi: non + imperativo. || tu: non + Infinitiv · voi: non + Imperativ.
+
+%übung mittel | Regole in biblioteca
+?luecke | Scrivi l’imperativo (voi). || Setze den Imperativ (voi) ein.
 Ragazzi, (entrare) [entrate] in silenzio!
 (Prendere) [Prendete] un libro dallo scaffale.
 (Leggere) [Leggete] al vostro posto.
@@ -379,28 +388,72 @@ Non (parlare) [parlate] ad alta voce!
 Non (mangiare) [mangiate] in biblioteca!
 (Mettere) [Mettete] i libri al loro posto!
 (Spegnere) [Spegnete] il cellulare!
+Non (correre) [correte] tra gli scaffali!
 
-%übung schwer | Gemischt: tu und voi, bejaht und verneint
-?luecke | Setze den Imperativ in der richtigen Form ein.
+%übung schwer | Regole per la classe
+?ergaenzen | Scrivi regole negative per un compagno (tu). || Schreibe verneinte Regeln für einen Mitschüler (tu).
+(usare il cellulare) → … | Non usare il cellulare | Non usare il cellulare!
+(mangiare in classe) → … | Non mangiare in classe | Non mangiare in classe!
+(correre nel corridoio) → … | Non correre nel corridoio | Non correre nel corridoio!
+(dimenticare i compiti) → … | Non dimenticare i compiti | Non dimenticare i compiti!
+(arrivare tardi) → … | Non arrivare tardi | Non arrivare tardi!
+(gridare) → … | Non gridare | Non gridare!
+(copiare) → … | Non copiare | Non copiare!
+(dormire in classe) → … | Non dormire in classe | Non dormire in classe!
+
+%übung schwer | Misto: tu e voi, affermativo e negativo
+?luecke | Scrivi l’imperativo nella forma giusta. || Setze den Imperativ in der richtigen Form ein.
 Luca, (chiudere) [chiudi] la porta, per favore!
 Sara, non (dimenticare) [dimenticare] il quaderno!
 Ragazzi, (ascoltare) [ascoltate] bene!
-Marco, (finire) [finisci] l'esercizio!
+Marco, (finire) [finisci] l’esercizio!
 Ragazzi, non (correre) [correte]!
-Giulia, (andare) [va'/vai] alla lavagna!
+Giulia, (andare) [va’/vai] alla lavagna!
 Paolo, non (fare) [fare] rumore!
 Ragazzi, (fare) [fate] silenzio!
-! tu-Imperativ der Verben auf -are endet auf -a (ascolta), der auf -ere/-ire auf -i (chiudi, finisci).
+! tu: -are → -a (ascolta), -ere/-ire → -i (chiudi, finisci). || tu-Imperativ der Verben auf -are endet auf -a, der auf -ere/-ire auf -i.
 
-%übung schwer | Regeln für die Klasse
-?frei | Schreibe fünf Regeln für deine Klasse: drei bejahte und zwei verneinte (voi).
+%übung schwer | Regole per la classe (testo)
+?frei | Scrivi cinque regole per la tua classe: tre affermative e due negative (voi). || Schreibe fünf Regeln für deine Klasse: drei bejahte und zwei verneinte (voi).
 Arrivate puntuali! Ascoltate la prof! Fate i compiti! Non usate il cellulare in classe! Non mangiate durante la lezione!
 Zeilen: 5
+?luecke | E adesso completa. || Und jetzt ergänze.
+(arrivare) [Arrivate] puntuali!
+(portare) [Portate] il libro!
+Non (usare) [usate] il cellulare!
+Non (copiare) [copiate] i compiti!
 
-@mehr dare-dire-indiretto
+@thema dare-dire-indiretto | 3 · La scuola | Parte B | Dare, dire e i pronomi indiretti | 4
+#regel
+| | io | tu | lui / lei | noi | voi | loro |
+| dare | do | dai | dà | diamo | date | danno |
+| dire | dico | dici | dice | diciamo | dite | dicono |
 
-%übung leicht | Wem?
-?zuordnen | Was bedeutet das Pronomen?
+**I pronomi indiretti** (a chi?) vanno **prima del verbo**:
+| mi | ti | gli | le | Le | ci | vi | gli |
+| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |
+
+_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._
+**Attenzione:** _dà_ (verbo) con l’accento ≠ _da_ (preposizione).
+#regel-de
+dare: do, dai, dà, diamo, date, danno · dire: dico, dici, dice, diciamo, dite, dicono.
+**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**: mi (mir), ti (dir), gli (ihm), le (ihr), Le (Ihnen), ci (uns), vi (euch), gli (ihnen).
+**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).
+
+%übung leicht | dare e dire
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Io ti {do*|da|dai} il mio libro.
+La prof ci {dà*|da|danno} un compito.
+Che cosa {dici*|dice|dite} tu?
+Noi {diciamo*|dicono|dite} la verità.
+I prof {danno*|dano|date} i voti.
+Voi mi {dite*|dicete|dicono} l’ora?
+Tu mi {dai*|da|dà} una penna?
+Mia madre {dice*|dici|dicono} sempre: «Studia!»
+! dà (verbo) ha l’accento, da (preposizione) no. || dà (er/sie gibt) hat einen Akzent, da (von, bei) nicht.
+
+%übung leicht | A chi?
+?zuordnen | Che cosa vuol dire il pronome? || Was bedeutet das Pronomen?
 mi = mir
 ti = dir
 gli = ihm
@@ -408,46 +461,96 @@ le = ihr
 Le = Ihnen
 ci = uns
 vi = euch
+gli (a loro) = ihnen
 + dich
 + mich
 
-%übung mittel | Formen von dare und dire
-?tabelle | Ergänze die Formen.
-Spalten: Person | dare | dire
-io | [do] | [dico]
-tu | [dai] | [dici]
-lui / lei | [dà] | [dice]
-noi | [diamo] | [diciamo]
-voi | [date] | [dite]
-loro | [danno] | [dicono]
-! dà mit Akzent, do und da ohne.
-
-%übung mittel | Geschenke
-?auswahl | Ergänze die Pronomen.
+%übung leicht | Regali
+?auswahl | Scegli il pronome. || Ergänze die Pronomen.
 È il compleanno di Marco: {gli*|le|ci} do un libro.
 Mia sorella ama la musica: {le*|gli|vi} do un CD.
 Ragazzi, {vi*|ci|gli} do i biglietti per il concerto.
 Mamma, che cosa {mi*|ti|le} dai per Natale?
 La nonna {ci*|vi|le} dà sempre i dolci. (a noi)
 Signora, {Le*|ti|gli} do il mio posto!
-I miei amici mi aiutano, io {gli*|le|ti} dico grazie. (ai miei amici)
-! gli bedeutet ihm, im Alltag auch ihnen (ai miei amici → gli).
+I miei amici mi aiutano: io {gli*|le|ti} dico grazie. (ai miei amici)
+Paolo, {ti*|mi|vi} do il mio numero.
+! gli vuol dire «a lui», nella lingua di tutti i giorni anche «a loro». || gli bedeutet ihm, im Alltag auch ihnen.
 
-%übung schwer | Pronomen statt Name
-?ergaenzen | Ersetze die markierten Wörter durch ein Pronomen.
+%übung mittel | A chi? Scegli
+?auswahl | Scegli il pronome giusto. || Wähle das passende Pronomen.
+Luca mi scrive. → Io {gli*|le|vi} rispondo.
+Sara mi telefona. → Io {le*|gli|ti} rispondo.
+Ragazzi, {vi*|ci|gli} do un consiglio.
+Mamma, {ti*|mi|le} dico una cosa.
+La prof {ci*|vi|gli} restituisce le relazioni. (a noi)
+Signora, {Le*|gli|ti} do il mio posto.
+Marco non capisce: la prof {gli*|le|ci} spiega la regola.
+Anna è triste: {le*|gli|vi} racconto una storia.
+! gli = a lui (e a loro), le = a lei, Le = a Lei (formale). || gli = ihm (und ihnen), le = ihr, Le = Ihnen (höflich).
+
+%übung mittel | Pronomi al posto giusto
+?luecke wortkasten | Scrivi mi, ti, gli, le, ci o vi. || Ergänze mi, ti, gli, le, ci oder vi.
+Marco, [ti] do il mio numero.
+La prof è contenta: [ci] dà un bel voto.
+Giulia è triste, io [le] racconto una storia.
+Paolo non capisce, la prof [gli] spiega la regola.
+Ragazzi, [vi] dico una cosa importante!
+Mamma, [mi] dai dieci euro?
+Sara? Domani [le] scrivo una mail.
+Leo? [Gli] telefono stasera.
+
+%übung mittel | Le forme di dare e dire
+?tabelle | Completa le forme. || Ergänze die Formen.
+Spalten: persona | dare | dire
+io | [do] | [dico]
+tu | [dai] | [dici]
+lui / lei | [dà] | [dice]
+noi | [diamo] | [diciamo]
+voi | [date] | [dite]
+loro | [danno] | [dicono]
+! dà con l’accento, do e da senza. || dà mit Akzent, do und da ohne.
+
+%übung mittel | Pronome invece del nome
+?ergaenzen | Sostituisci le parole con un pronome. || Ersetze die Wörter durch ein Pronomen.
 Scrivo a Luca. → … scrivo. | Gli | Gli scrivo.
 Telefono a Sara. → … telefono. | Le | Le telefono.
 Do il libro a te. → … do il libro. | Ti | Ti do il libro.
 La prof dà i compiti a noi. → La prof … dà i compiti. | ci | La prof ci dà i compiti.
 Dico la verità a voi. → … dico la verità. | Vi | Vi dico la verità.
-Rispondo alla signora Rossi (höflich). → … rispondo. | Le | Le rispondo.
-! Das Pronomen steht vor dem Verb.
+Rispondo alla signora Rossi (formale). → … rispondo. | Le | Le rispondo.
+Mando un messaggio a Paolo. → … mando un messaggio. | Gli | Gli mando un messaggio.
+Mamma dà un bacio a me. → Mamma … dà un bacio. | mi | Mamma mi dà un bacio.
+! Il pronome va prima del verbo. || Das Pronomen steht vor dem Verb.
 
-%übung schwer | Ein Streit
-?luecke | Ergänze dare / dire und die Pronomen.
+%übung schwer | Trova gli errori
+?fehler | Correggi le parole segnate. || Korrigiere die markierten Wörter.
+La prof [da=>dà] un compito difficile.
+Sara non sta bene, io [gli=>le] porto i compiti.
+Noi [dicono=>diciamo] la verità.
+A Luca? Io [le=>gli] do il pallone.
+Voi [dicete=>dite] sempre di sì.
+Ragazzi, [ci=>vi] do un consiglio.
+Signora, [ti=>Le] do il mio posto.
+Loro [dano=>danno] i biglietti.
+
+%übung schwer | Un litigio
+?luecke | Scrivi dare / dire e i pronomi. || Ergänze dare / dire und die Pronomen.
 Luca: Sara, che cosa mi (dire, tu) [dici]?
 Sara: Ti (dire, io) [dico] la verità: non mi (dare, tu) [dai] mai i tuoi appunti!
 Luca: Ma io [ti] do sempre tutto!
 Sara: Non è vero! E Marco è arrabbiato: non [gli] dai mai niente.
 Luca: Va bene, scusa. Oggi (dare, io) [do] i miei appunti a te e anche a Marco.
 Sara: Grazie! Allora noi [ti] (dare, noi) [diamo] un gelato!
+
+%übung schwer | Che cosa regali?
+?ergaenzen | Rispondi con il pronome indiretto. || Antworte mit dem indirekten Pronomen.
+Che cosa regali a tua madre? (un libro) | Le regalo un libro | Le regalo un libro.
+Che cosa regali a tuo padre? (una felpa) | Gli regalo una felpa | Gli regalo una felpa.
+Che cosa dici alla prof? (buongiorno) | Le dico buongiorno | Le dico buongiorno.
+Che cosa date ai nonni? (una foto) | Gli diamo una foto/Diamo loro una foto | Gli diamo una foto.
+Che cosa mi dai? (un gelato) | Ti do un gelato | Ti do un gelato.
+Che cosa ci dite? (una cosa importante) | Vi diciamo una cosa importante | Vi diciamo una cosa importante.
+Che cosa scrivi a Giulia? (un messaggio) | Le scrivo un messaggio | Le scrivo un messaggio.
+Che cosa porti al tuo amico? (i compiti) | Gli porto i compiti | Gli porto i compiti.
+! a mia madre → le, a mio padre → gli, a me → ti (risposta), a noi → vi (risposta). || a mia madre → le, a mio padre → gli, a me → ti, a noi → vi.

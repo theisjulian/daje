@@ -6,9 +6,9 @@
  "title": "Quando?",
  "language": "it",
  "level": "A1",
- "description": "Das Datum · Quando? (mittel).",
+ "description": "La data · Quando? · livello medio.",
  "topics": [
-  "Das Datum",
+  "La data",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,16 +36,18 @@
  },
  "grammar": {
   "topic": "ecco1-data",
-  "topicTitle": "Das Datum",
+  "topicTitle": "La data",
   "difficulty": "mittel",
   "origin": "own",
   "order": 13,
-  "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._"
+  "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Il primo giorno del mese: **il primo** (aprile).\n- Davanti a vocale: **l’otto**, **l’undici** (agosto).\n- I mesi con la minuscola: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._\n- Davanti ai giorni della settimana nella data non c’è l’articolo: _sabato 14 marzo_.",
+  "ruleHelp": "- _Oggi è il quindici maggio._ – das Datum mit **il** + Grundzahl.\n- Nur der Erste wird mit Ordnungszahl gesagt: **il primo** aprile.\n- Vor Vokal: **l’otto**, **l’undici**. Monate klein.\n- Vor Wochentagen steht im Datum kein Artikel: _sabato 14 marzo_."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Antworte mit dem Datum.",
+   "prompt": "Rispondi con la data.",
+   "promptHelp": "Antworte mit dem Datum.",
    "type": "sentence_completion",
    "items": [
     {
@@ -76,9 +78,9 @@
      "id": "s4",
      "start": "Che giorno è oggi? (8.4.) – Oggi è …",
      "acceptedAnswers": [
-      "l'otto aprile"
+      "l’otto aprile"
      ],
-     "modelAnswer": "Oggi è l'otto aprile."
+     "modelAnswer": "Oggi è l’otto aprile."
     },
     {
      "id": "s5",
@@ -87,6 +89,30 @@
       "il trentuno luglio"
      ],
      "modelAnswer": "Partiamo il trentuno luglio."
+    },
+    {
+     "id": "s6",
+     "start": "Quando finisce la scuola? (10.6.) – Finisce …",
+     "acceptedAnswers": [
+      "il dieci giugno"
+     ],
+     "modelAnswer": "Finisce il dieci giugno."
+    },
+    {
+     "id": "s7",
+     "start": "Quando è la gita? (11.5.) – È …",
+     "acceptedAnswers": [
+      "l’undici maggio"
+     ],
+     "modelAnswer": "È l’undici maggio."
+    },
+    {
+     "id": "s8",
+     "start": "Quando torni? (3.8.) – Torno …",
+     "acceptedAnswers": [
+      "il tre agosto"
+     ],
+     "modelAnswer": "Torno il tre agosto."
     }
    ]
   }

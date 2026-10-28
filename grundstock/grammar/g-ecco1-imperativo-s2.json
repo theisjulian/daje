@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-imperativo-s2",
- "title": "Gemischt: tu und voi, bejaht und verneint",
+ "title": "Misto: tu e voi, affermativo e negativo",
  "language": "it",
  "level": "A1",
- "description": "Der Imperativ (tu, voi) und die Verneinung · Gemischt: tu und voi, bejaht und verneint (schwer).",
+ "description": "L’imperativo (tu, voi) e la negazione · Misto: tu e voi, affermativo e negativo · livello difficile.",
  "topics": [
-  "Der Imperativ (tu, voi) und die Verneinung",
+  "L’imperativo (tu, voi) e la negazione",
   "Grammatik"
  ],
  "sources": [
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-imperativo",
-  "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+  "topicTitle": "L’imperativo (tu, voi) e la negazione",
   "difficulty": "schwer",
   "origin": "own",
   "order": 32,
-  "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_"
+  "rule": "**Affermativo:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nIrregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_\n\n**Negativo:**\n- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + imperativo: _**Non parlate!**_\n\nCon gli adulti (Lei): _Scusi! Senta!_",
+  "ruleHelp": "**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.\n**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Setze den Imperativ in der richtigen Form ein.",
-   "explanation": "tu-Imperativ der Verben auf -are endet auf -a (ascolta), der auf -ere/-ire auf -i (chiudi, finisci).",
+   "prompt": "Scrivi l’imperativo nella forma giusta.",
+   "promptHelp": "Setze den Imperativ in der richtigen Form ein.",
+   "explanation": "tu: -are → -a (ascolta), -ere/-ire → -i (chiudi, finisci).",
+   "explanationHelp": "tu-Imperativ der Verben auf -are endet auf -a, der auf -ere/-ire auf -i.",
    "type": "gap_fill",
-   "text": "Luca, (chiudere) [[g1]] la porta, per favore!\nSara, non (dimenticare) [[g2]] il quaderno!\nRagazzi, (ascoltare) [[g3]] bene!\nMarco, (finire) [[g4]] l'esercizio!\nRagazzi, non (correre) [[g5]]!\nGiulia, (andare) [[g6]] alla lavagna!\nPaolo, non (fare) [[g7]] rumore!\nRagazzi, (fare) [[g8]] silenzio!",
+   "text": "Luca, (chiudere) [[g1]] la porta, per favore!\nSara, non (dimenticare) [[g2]] il quaderno!\nRagazzi, (ascoltare) [[g3]] bene!\nMarco, (finire) [[g4]] l’esercizio!\nRagazzi, non (correre) [[g5]]!\nGiulia, (andare) [[g6]] alla lavagna!\nPaolo, non (fare) [[g7]] rumore!\nRagazzi, (fare) [[g8]] silenzio!",
    "gaps": [
     {
      "id": "g1",
@@ -83,7 +86,7 @@
     {
      "id": "g6",
      "acceptedAnswers": [
-      "va'",
+      "va’",
       "vai"
      ]
     },

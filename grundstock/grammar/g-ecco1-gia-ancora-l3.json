@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-gia-ancora-l3",
+ "title": "Prima della festa",
+ "language": "it",
+ "level": "A1",
+ "description": "Già e (non …) ancora · Prima della festa · livello facile.",
+ "topics": [
+  "Già e (non …) ancora",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 4 · Tempo libero · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-gia-ancora",
+  "topicTitle": "Già e (non …) ancora",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 53,
+  "rule": "Nel passato prossimo **già** e **ancora** stanno **tra l’ausiliare e il participio**:\n- _Ho **già** fatto i compiti._\n- _**Non** ho **ancora** mangiato._",
+  "ruleHelp": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**: _Ho già fatto i compiti._ (schon gemacht) · _Non ho ancora mangiato._ (noch nicht gegessen)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli già o ancora (✓ = fatto, ✗ = non fatto).",
+   "promptHelp": "Wähle già oder ancora.",
+   "explanation": "✓ = già · ✗ = non … ancora.",
+   "explanationHelp": "✓ = già · ✗ = non … ancora.",
+   "type": "gap_choice",
+   "text": "Abbiamo [[g1]] comprato le bibite. ✓\nNon abbiamo [[g2]] preparato la torta. ✗\nLuca ha [[g3]] mandato gli inviti. ✓\nSara non è [[g4]] arrivata. ✗\nHo [[g5]] messo la musica. ✓\nI ragazzi non hanno [[g6]] pulito la cucina. ✗\nAbbiamo [[g7]] decorato la sala. ✓\nNon ho [[g8]] comprato il regalo. ✗",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "già",
+      "ancora"
+     ],
+     "answer": "già"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "ancora",
+      "già"
+     ],
+     "answer": "ancora"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "già",
+      "ancora"
+     ],
+     "answer": "già"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "ancora",
+      "già"
+     ],
+     "answer": "ancora"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "già",
+      "ancora"
+     ],
+     "answer": "già"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "ancora",
+      "già"
+     ],
+     "answer": "ancora"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "già",
+      "ancora"
+     ],
+     "answer": "già"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "ancora",
+      "già"
+     ],
+     "answer": "ancora"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-imperativo-noi-s3",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A1",
+ "description": "L’imperativo della prima persona plurale · Trova gli errori · livello difficile.",
+ "topics": [
+  "L’imperativo della prima persona plurale",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "5 · Famiglia e gite",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo-noi",
+  "topicTitle": "L’imperativo della prima persona plurale",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 53,
+  "rule": "Con la **prima persona plurale** facciamo una proposta («Lass uns …!»). La forma è come al presente:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l’autobus!_ · _**Facciamo** una pausa!_\n- negativo: _**Non** prendiamo il taxi!_",
+  "ruleHelp": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens: _Andiamo al cinema! Prendiamo l’autobus!_ · verneint: _Non prendiamo il taxi!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi le otto proposte sbagliate.",
+   "promptHelp": "Korrigiere die acht falschen Vorschläge.",
+   "explanation": "Proposta con noi: andiamo, mangiamo, facciamo.",
+   "explanationHelp": "Vorschlag mit noi.",
+   "type": "error_correction",
+   "text": "Dai, [[g1]] al cinema insieme!\n[[g2]] una pizza, ho fame anch’io!\nNon [[g3]] il taxi, è caro!\n[[g4]] una pausa tutti insieme!\n[[g5]] Sara, è sola!\n[[g6]] a casa, piove!\n[[g7]] i compiti per oggi!\n[[g8]] presto domani!",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "andate",
+     "acceptedAnswers": [
+      "andiamo"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "Mangiate",
+     "acceptedAnswers": [
+      "Mangiamo"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "prendete",
+     "acceptedAnswers": [
+      "prendiamo"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "Fate",
+     "acceptedAnswers": [
+      "Facciamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "Chiama",
+     "acceptedAnswers": [
+      "Chiamiamo"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "Restano",
+     "acceptedAnswers": [
+      "Restiamo"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "Dimenticamo",
+     "acceptedAnswers": [
+      "Dimentichiamo"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "Partite",
+     "acceptedAnswers": [
+      "Partiamo"
+     ]
+    }
+   ]
+  }
+ ]
+}

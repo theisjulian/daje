@@ -42357,7 +42357,7 @@ const STOCK_PACKAGES = [
   "title": "A o in?",
   "language": "it",
   "level": "A1",
-  "description": "Le preposizioni a e in · A o in? (einfach).",
+  "description": "Le preposizioni a e in · A o in? · livello facile.",
   "topics": [
    "Le preposizioni a e in",
    "Grammatik"
@@ -42500,7 +42500,7 @@ const STOCK_PACKAGES = [
   "title": "Dove sei?",
   "language": "it",
   "level": "A1",
-  "description": "Le preposizioni a e in · Dove sei? (einfach).",
+  "description": "Le preposizioni a e in · Dove sei? · livello facile.",
   "topics": [
    "Le preposizioni a e in",
    "Grammatik"
@@ -42622,7 +42622,7 @@ const STOCK_PACKAGES = [
   "title": "Città o paese?",
   "language": "it",
   "level": "A1",
-  "description": "Le preposizioni a e in · Città o paese? (einfach).",
+  "description": "Le preposizioni a e in · Città o paese? · livello facile.",
   "topics": [
    "Le preposizioni a e in",
    "Grammatik"
@@ -42749,7 +42749,7 @@ const STOCK_PACKAGES = [
   "title": "Dove abitano?",
   "language": "it",
   "level": "A1",
-  "description": "Le preposizioni a e in · Dove abitano? (mittel).",
+  "description": "Le preposizioni a e in · Dove abitano? · livello medio.",
   "topics": [
    "Le preposizioni a e in",
    "Grammatik"
@@ -42884,7 +42884,7 @@ const STOCK_PACKAGES = [
   "title": "Una giornata in città",
   "language": "it",
   "level": "A1",
-  "description": "Le preposizioni a e in · Una giornata in città (mittel).",
+  "description": "Le preposizioni a e in · Una giornata in città · livello medio.",
   "topics": [
    "Le preposizioni a e in",
    "Grammatik"
@@ -43001,7 +43001,7 @@ const STOCK_PACKAGES = [
   "title": "Domande sul luogo",
   "language": "it",
   "level": "A1",
-  "description": "Le preposizioni a e in · Domande sul luogo (mittel).",
+  "description": "Le preposizioni a e in · Domande sul luogo · livello medio.",
   "topics": [
    "Le preposizioni a e in",
    "Grammatik"
@@ -43127,7 +43127,7 @@ const STOCK_PACKAGES = [
   "title": "Trova gli errori",
   "language": "it",
   "level": "A1",
-  "description": "Le preposizioni a e in · Trova gli errori (schwer).",
+  "description": "Le preposizioni a e in · Trova gli errori · livello difficile.",
   "topics": [
    "Le preposizioni a e in",
    "Grammatik"
@@ -43246,7 +43246,7 @@ const STOCK_PACKAGES = [
   "title": "Un viaggio",
   "language": "it",
   "level": "A1",
-  "description": "Le preposizioni a e in · Un viaggio (schwer).",
+  "description": "Le preposizioni a e in · Un viaggio · livello difficile.",
   "topics": [
    "Le preposizioni a e in",
    "Grammatik"
@@ -43372,7 +43372,7 @@ const STOCK_PACKAGES = [
   "title": "Dove abiti?",
   "language": "it",
   "level": "A1",
-  "description": "Le preposizioni a e in · Dove abiti? (schwer).",
+  "description": "Le preposizioni a e in · Dove abiti? · livello difficile.",
   "topics": [
    "Le preposizioni a e in",
    "Grammatik"
@@ -43852,9 +43852,7 @@ const STOCK_PACKAGES = [
       "right": "vecchie"
      }
     ],
-    "distractors": [
-     "piccolu"
-    ]
+    "distractors": []
    }
   ]
  },
@@ -44890,7 +44888,7 @@ const STOCK_PACKAGES = [
   "title": "Quale forma?",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -are al presente · Quale forma? (einfach).",
+  "description": "I verbi in -are al presente · Quale forma? · livello facile.",
   "topics": [
    "I verbi in -are al presente",
    "Grammatik"
@@ -45043,7 +45041,7 @@ const STOCK_PACKAGES = [
   "title": "Persona e desinenza",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -are al presente · Persona e desinenza (einfach).",
+  "description": "I verbi in -are al presente · Persona e desinenza · livello facile.",
   "topics": [
    "I verbi in -are al presente",
    "Grammatik"
@@ -45148,7 +45146,7 @@ const STOCK_PACKAGES = [
   "title": "Chi fa che cosa?",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -are al presente · Chi fa che cosa? (einfach).",
+  "description": "I verbi in -are al presente · Chi fa che cosa? · livello facile.",
   "topics": [
    "I verbi in -are al presente",
    "Grammatik"
@@ -45254,7 +45252,7 @@ const STOCK_PACKAGES = [
   "title": "Sabato in centro",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -are al presente · Sabato in centro (einfach).",
+  "description": "I verbi in -are al presente · Sabato in centro · livello facile.",
   "topics": [
    "I verbi in -are al presente",
    "Grammatik"
@@ -45389,7 +45387,7 @@ const STOCK_PACKAGES = [
   "title": "Una giornata a Torino",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -are al presente · Una giornata a Torino (mittel).",
+  "description": "I verbi in -are al presente · Una giornata a Torino · livello medio.",
   "topics": [
    "I verbi in -are al presente",
    "Grammatik"
@@ -45512,7 +45510,7 @@ const STOCK_PACKAGES = [
   "title": "Domande e risposte",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -are al presente · Domande e risposte (mittel).",
+  "description": "I verbi in -are al presente · Domande e risposte · livello medio.",
   "topics": [
    "I verbi in -are al presente",
    "Grammatik"
@@ -45638,7 +45636,7 @@ const STOCK_PACKAGES = [
   "title": "Un’email di Giulia",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -are al presente · Un’email di Giulia (mittel).",
+  "description": "I verbi in -are al presente · Un’email di Giulia · livello medio.",
   "topics": [
    "I verbi in -are al presente",
    "Grammatik"
@@ -45755,7 +45753,7 @@ const STOCK_PACKAGES = [
   "title": "Fare domande",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -are al presente · Fare domande (mittel).",
+  "description": "I verbi in -are al presente · Fare domande · livello medio.",
   "topics": [
    "I verbi in -are al presente",
    "Grammatik"
@@ -45881,7 +45879,7 @@ const STOCK_PACKAGES = [
   "title": "Tabella dei verbi",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -are al presente · Tabella dei verbi (schwer).",
+  "description": "I verbi in -are al presente · Tabella dei verbi · livello difficile.",
   "topics": [
    "I verbi in -are al presente",
    "Grammatik"
@@ -46038,7 +46036,7 @@ const STOCK_PACKAGES = [
   "title": "Trova gli errori",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -are al presente · Trova gli errori (schwer).",
+  "description": "I verbi in -are al presente · Trova gli errori · livello difficile.",
   "topics": [
    "I verbi in -are al presente",
    "Grammatik"
@@ -46157,7 +46155,7 @@ const STOCK_PACKAGES = [
   "title": "Tutte le forme",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -are al presente · Tutte le forme (schwer).",
+  "description": "I verbi in -are al presente · Tutte le forme · livello difficile.",
   "topics": [
    "I verbi in -are al presente",
    "Grammatik"
@@ -46351,7 +46349,7 @@ const STOCK_PACKAGES = [
   "title": "Un messaggio con errori",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -are al presente · Un messaggio con errori (schwer).",
+  "description": "I verbi in -are al presente · Un messaggio con errori · livello difficile.",
   "topics": [
    "I verbi in -are al presente",
    "Grammatik"
@@ -46470,7 +46468,7 @@ const STOCK_PACKAGES = [
   "title": "Un, uno, una, un’?",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo indeterminativo (un, uno, una, un’) · Un, uno, una, un’? (einfach).",
+  "description": "L’articolo indeterminativo (un, uno, una, un’) · Un, uno, una, un’? · livello facile.",
   "topics": [
    "L’articolo indeterminativo (un, uno, una, un’)",
    "Grammatik"
@@ -46623,7 +46621,7 @@ const STOCK_PACKAGES = [
   "title": "Che cosa c’è nello zaino?",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo indeterminativo (un, uno, una, un’) · Che cosa c’è nello zaino? (einfach).",
+  "description": "L’articolo indeterminativo (un, uno, una, un’) · Che cosa c’è nello zaino? · livello facile.",
   "topics": [
    "L’articolo indeterminativo (un, uno, una, un’)",
    "Grammatik"
@@ -46758,7 +46756,7 @@ const STOCK_PACKAGES = [
   "title": "Quattro gruppi",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo indeterminativo (un, uno, una, un’) · Quattro gruppi (einfach).",
+  "description": "L’articolo indeterminativo (un, uno, una, un’) · Quattro gruppi · livello facile.",
   "topics": [
    "L’articolo indeterminativo (un, uno, una, un’)",
    "Grammatik"
@@ -46888,7 +46886,7 @@ const STOCK_PACKAGES = [
   "title": "Il o un?",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo indeterminativo (un, uno, una, un’) · Il o un? (mittel).",
+  "description": "L’articolo indeterminativo (un, uno, una, un’) · Il o un? · livello medio.",
   "topics": [
    "L’articolo indeterminativo (un, uno, una, un’)",
    "Grammatik"
@@ -47026,7 +47024,7 @@ const STOCK_PACKAGES = [
   "title": "Indeterminativo e determinativo",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo indeterminativo (un, uno, una, un’) · Indeterminativo e determinativo (mittel).",
+  "description": "L’articolo indeterminativo (un, uno, una, un’) · Indeterminativo e determinativo · livello medio.",
   "topics": [
    "L’articolo indeterminativo (un, uno, una, un’)",
    "Grammatik"
@@ -47163,7 +47161,7 @@ const STOCK_PACKAGES = [
   "title": "Che cosa c’è a Torino?",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo indeterminativo (un, uno, una, un’) · Che cosa c’è a Torino? (mittel).",
+  "description": "L’articolo indeterminativo (un, uno, una, un’) · Che cosa c’è a Torino? · livello medio.",
   "topics": [
    "L’articolo indeterminativo (un, uno, una, un’)",
    "Grammatik"
@@ -47274,7 +47272,7 @@ const STOCK_PACKAGES = [
   "title": "Che cosa c’è qui?",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo indeterminativo (un, uno, una, un’) · Che cosa c’è qui? (schwer).",
+  "description": "L’articolo indeterminativo (un, uno, una, un’) · Che cosa c’è qui? · livello difficile.",
   "topics": [
    "L’articolo indeterminativo (un, uno, una, un’)",
    "Grammatik"
@@ -47391,7 +47389,7 @@ const STOCK_PACKAGES = [
   "title": "Apostrofo o no?",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo indeterminativo (un, uno, una, un’) · Apostrofo o no? (schwer).",
+  "description": "L’articolo indeterminativo (un, uno, una, un’) · Apostrofo o no? · livello difficile.",
   "topics": [
    "L’articolo indeterminativo (un, uno, una, un’)",
    "Grammatik"
@@ -47517,7 +47515,7 @@ const STOCK_PACKAGES = [
   "title": "Descrivi la foto",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo indeterminativo (un, uno, una, un’) · Descrivi la foto (schwer).",
+  "description": "L’articolo indeterminativo (un, uno, una, un’) · Descrivi la foto · livello difficile.",
   "topics": [
    "L’articolo indeterminativo (un, uno, una, un’)",
    "Grammatik"
@@ -47643,7 +47641,7 @@ const STOCK_PACKAGES = [
   "title": "Il, lo, la o l’?",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Il, lo, la o l’? (einfach).",
+  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Il, lo, la o l’? · livello facile.",
   "topics": [
    "L’articolo determinativo singolare (il, lo, la, l’)",
    "Grammatik"
@@ -47801,7 +47799,7 @@ const STOCK_PACKAGES = [
   "title": "Maschile o femminile?",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Maschile o femminile? (einfach).",
+  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Maschile o femminile? · livello facile.",
   "topics": [
    "L’articolo determinativo singolare (il, lo, la, l’)",
    "Grammatik"
@@ -47928,7 +47926,7 @@ const STOCK_PACKAGES = [
   "title": "Una passeggiata per Torino",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Una passeggiata per Torino (einfach).",
+  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Una passeggiata per Torino · livello facile.",
   "topics": [
    "L’articolo determinativo singolare (il, lo, la, l’)",
    "Grammatik"
@@ -48086,7 +48084,7 @@ const STOCK_PACKAGES = [
   "title": "Quattro gruppi",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Quattro gruppi (einfach).",
+  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Quattro gruppi · livello facile.",
   "topics": [
    "L’articolo determinativo singolare (il, lo, la, l’)",
    "Grammatik"
@@ -48231,7 +48229,7 @@ const STOCK_PACKAGES = [
   "title": "Torino, la città",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Torino, la città (mittel).",
+  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Torino, la città · livello medio.",
   "topics": [
    "L’articolo determinativo singolare (il, lo, la, l’)",
    "Grammatik"
@@ -48365,7 +48363,7 @@ const STOCK_PACKAGES = [
   "title": "Articolo e nome",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Articolo e nome (mittel).",
+  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Articolo e nome · livello medio.",
   "topics": [
    "L’articolo determinativo singolare (il, lo, la, l’)",
    "Grammatik"
@@ -48526,7 +48524,7 @@ const STOCK_PACKAGES = [
   "title": "Una cartolina da Torino",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Una cartolina da Torino (mittel).",
+  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Una cartolina da Torino · livello medio.",
   "topics": [
    "L’articolo determinativo singolare (il, lo, la, l’)",
    "Grammatik"
@@ -48660,7 +48658,7 @@ const STOCK_PACKAGES = [
   "title": "Maschile o femminile? Con l’articolo",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Maschile o femminile? Con l’articolo (mittel).",
+  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Maschile o femminile? Con l’articolo · livello medio.",
   "topics": [
    "L’articolo determinativo singolare (il, lo, la, l’)",
    "Grammatik"
@@ -48852,7 +48850,7 @@ const STOCK_PACKAGES = [
   "title": "Errori sulla mappa",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Errori sulla mappa (schwer).",
+  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Errori sulla mappa · livello difficile.",
   "topics": [
    "L’articolo determinativo singolare (il, lo, la, l’)",
    "Grammatik"
@@ -48976,7 +48974,7 @@ const STOCK_PACKAGES = [
   "title": "Che cosa non va?",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Che cosa non va? (schwer).",
+  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Che cosa non va? · livello difficile.",
   "topics": [
    "L’articolo determinativo singolare (il, lo, la, l’)",
    "Grammatik"
@@ -49100,7 +49098,7 @@ const STOCK_PACKAGES = [
   "title": "Il mio quartiere",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Il mio quartiere (schwer).",
+  "description": "L’articolo determinativo singolare (il, lo, la, l’) · Il mio quartiere · livello difficile.",
   "topics": [
    "L’articolo determinativo singolare (il, lo, la, l’)",
    "Grammatik"
@@ -49231,7 +49229,7 @@ const STOCK_PACKAGES = [
   "title": "La mia città",
   "language": "it",
   "level": "A1",
-  "description": "L’articolo determinativo singolare (il, lo, la, l’) · La mia città (schwer).",
+  "description": "L’articolo determinativo singolare (il, lo, la, l’) · La mia città · livello difficile.",
   "topics": [
    "L’articolo determinativo singolare (il, lo, la, l’)",
    "Grammatik"
@@ -50684,7 +50682,7 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 8,
+  "estimatedMinutes": 10,
   "grammar": {
    "topic": "ecco1-avere",
    "topicTitle": "Il verbo avere",
@@ -50754,6 +50752,24 @@ const STOCK_PACKAGES = [
        "Quanti anni hanno i tuoi nonni"
       ],
       "modelAnswer": "Quanti anni hanno i tuoi nonni?"
+     },
+     {
+      "id": "s7",
+      "start": "… ? – Sì, abbiamo un cane e due gatti.",
+      "acceptedAnswers": [
+       "Avete animali",
+       "Avete un animale"
+      ],
+      "modelAnswer": "Avete animali?"
+     },
+     {
+      "id": "s8",
+      "start": "… ? – No, Marco non ha fratelli.",
+      "acceptedAnswers": [
+       "Marco ha fratelli",
+       "Ha fratelli Marco"
+      ],
+      "modelAnswer": "Marco ha fratelli?"
      }
     ]
    }
@@ -50767,7 +50783,7 @@ const STOCK_PACKAGES = [
   "title": "C’è o ci sono?",
   "language": "it",
   "level": "A1",
-  "description": "C’è e ci sono · C’è o ci sono? (einfach).",
+  "description": "C’è e ci sono · C’è o ci sono? · livello facile.",
   "topics": [
    "C’è e ci sono",
    "Grammatik"
@@ -50894,7 +50910,7 @@ const STOCK_PACKAGES = [
   "title": "Che cosa c’è?",
   "language": "it",
   "level": "A1",
-  "description": "C’è e ci sono · Che cosa c’è? (einfach).",
+  "description": "C’è e ci sono · Che cosa c’è? · livello facile.",
   "topics": [
    "C’è e ci sono",
    "Grammatik"
@@ -51020,7 +51036,7 @@ const STOCK_PACKAGES = [
   "title": "Singolare o plurale?",
   "language": "it",
   "level": "A1",
-  "description": "C’è e ci sono · Singolare o plurale? (einfach).",
+  "description": "C’è e ci sono · Singolare o plurale? · livello facile.",
   "topics": [
    "C’è e ci sono",
    "Grammatik"
@@ -51141,7 +51157,7 @@ const STOCK_PACKAGES = [
   "title": "Il mio quartiere",
   "language": "it",
   "level": "A1",
-  "description": "C’è e ci sono · Il mio quartiere (mittel).",
+  "description": "C’è e ci sono · Il mio quartiere · livello medio.",
   "topics": [
    "C’è e ci sono",
    "Grammatik"
@@ -51257,7 +51273,7 @@ const STOCK_PACKAGES = [
   "title": "Quartiere San Salvario",
   "language": "it",
   "level": "A1",
-  "description": "C’è e ci sono · Quartiere San Salvario (mittel).",
+  "description": "C’è e ci sono · Quartiere San Salvario · livello medio.",
   "topics": [
    "C’è e ci sono",
    "Grammatik"
@@ -51373,7 +51389,7 @@ const STOCK_PACKAGES = [
   "title": "C’è o è?",
   "language": "it",
   "level": "A1",
-  "description": "C’è e ci sono · C’è o è? (mittel).",
+  "description": "C’è e ci sono · C’è o è? · livello medio.",
   "topics": [
    "C’è e ci sono",
    "Grammatik"
@@ -51500,7 +51516,7 @@ const STOCK_PACKAGES = [
   "title": "Domande e risposte",
   "language": "it",
   "level": "A1",
-  "description": "C’è e ci sono · Domande e risposte (schwer).",
+  "description": "C’è e ci sono · Domande e risposte · livello difficile.",
   "topics": [
    "C’è e ci sono",
    "Grammatik"
@@ -51625,7 +51641,7 @@ const STOCK_PACKAGES = [
   "title": "Trova gli errori",
   "language": "it",
   "level": "A1",
-  "description": "C’è e ci sono · Trova gli errori (schwer).",
+  "description": "C’è e ci sono · Trova gli errori · livello difficile.",
   "topics": [
    "C’è e ci sono",
    "Grammatik"
@@ -51744,7 +51760,7 @@ const STOCK_PACKAGES = [
   "title": "Che cosa c’è nella tua città?",
   "language": "it",
   "level": "A1",
-  "description": "C’è e ci sono · Che cosa c’è nella tua città? (schwer).",
+  "description": "C’è e ci sono · Che cosa c’è nella tua città? · livello difficile.",
   "topics": [
    "C’è e ci sono",
    "Grammatik"
@@ -51842,12 +51858,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-che-relativo-l1",
-  "title": "Satzhälften verbinden",
+  "title": "Unire le frasi",
   "language": "it",
   "level": "A1",
-  "description": "Das Relativpronomen che · Satzhälften verbinden (einfach).",
+  "description": "Il pronome relativo che · Unire le frasi · livello facile.",
   "topics": [
-   "Das Relativpronomen che",
+   "Il pronome relativo che",
    "Grammatik"
   ],
   "sources": [
@@ -51875,13 +51891,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 4,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-che-relativo",
-   "topicTitle": "Das Relativpronomen che",
+   "topicTitle": "Il pronome relativo che",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):\n- _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** bleibt immer gleich (für Personen und Sachen, Singular und Plural).",
+   "rule": "**che** unisce due frasi e si riferisce a un nome:\n- _Ho un’amica. L’amica abita a Roma._ → _Ho un’amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** non cambia mai (per persone e cose, singolare e plurale).",
+   "ruleHelp": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche): _Ho un’amica che abita a Roma. Il libro che leggo è interessante._\n**che** bleibt immer gleich (Personen und Sachen, Singular und Plural).",
    "order": 31
   },
   "vocabularyIds": [],
@@ -51889,8 +51906,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "matching",
-    "prompt": "Was passt zusammen?",
+    "prompt": "Abbina le parti della frase.",
     "explanation": "",
+    "promptHelp": "Was passt zusammen?",
     "pairs": [
      {
       "id": "p1",
@@ -51911,6 +51929,26 @@ const STOCK_PACKAGES = [
       "id": "p4",
       "left": "Il ristorante",
       "right": "che preferisco è in centro."
+     },
+     {
+      "id": "p5",
+      "left": "Ho un cane",
+      "right": "che si chiama Rex."
+     },
+     {
+      "id": "p6",
+      "left": "Questi sono i ragazzi",
+      "right": "che giocano a calcio."
+     },
+     {
+      "id": "p7",
+      "left": "È un film",
+      "right": "che mi piace molto."
+     },
+     {
+      "id": "p8",
+      "left": "Conosco una signora",
+      "right": "che ha novant’anni."
      }
     ],
     "distractors": []
@@ -51922,12 +51960,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-che-relativo-l2",
-  "title": "Welcher Nebensatz passt?",
+  "title": "Quale frase relativa?",
   "language": "it",
   "level": "A1",
-  "description": "Das Relativpronomen che · Welcher Nebensatz passt? (einfach).",
+  "description": "Il pronome relativo che · Quale frase relativa? · livello facile.",
   "topics": [
-   "Das Relativpronomen che",
+   "Il pronome relativo che",
    "Grammatik"
   ],
   "sources": [
@@ -51955,13 +51993,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 5,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-che-relativo",
-   "topicTitle": "Das Relativpronomen che",
+   "topicTitle": "Il pronome relativo che",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):\n- _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** bleibt immer gleich (für Personen und Sachen, Singular und Plural).",
+   "rule": "**che** unisce due frasi e si riferisce a un nome:\n- _Ho un’amica. L’amica abita a Roma._ → _Ho un’amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** non cambia mai (per persone e cose, singolare e plurale).",
+   "ruleHelp": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche): _Ho un’amica che abita a Roma. Il libro che leggo è interessante._\n**che** bleibt immer gleich (Personen und Sachen, Singular und Plural).",
    "order": 32
   },
   "vocabularyIds": [],
@@ -51969,9 +52008,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle den passenden Relativsatz.",
-    "explanation": "che bleibt gleich; das Verb danach richtet sich nach dem Nomen: amici che giocano.",
-    "text": "Ho una sorella [[g1]]\nEcco il ragazzo [[g2]]\nIl film [[g3]]\nÈ un libro [[g4]]\nSono amici [[g5]]",
+    "prompt": "Scegli la frase relativa giusta.",
+    "explanation": "che non cambia; il verbo dopo va con il nome: amici che giocano.",
+    "promptHelp": "Wähle den passenden Relativsatz.",
+    "explanationHelp": "che bleibt gleich; das Verb danach richtet sich nach dem Nomen.",
+    "text": "Ho una sorella [[g1]]\nEcco il ragazzo [[g2]]\nIl film [[g3]]\nÈ un libro [[g4]]\nSono amici [[g5]]\nÈ la prof [[g6]]\nHo due gatti [[g7]]\nEcco la casa [[g8]]",
     "gaps": [
      {
       "id": "g1",
@@ -52017,6 +52058,33 @@ const STOCK_PACKAGES = [
        "chi giocano a calcio."
       ],
       "answer": "che giocano a calcio."
+     },
+     {
+      "id": "g6",
+      "options": [
+       "che insegna storia.",
+       "che insegnano storia.",
+       "chi insegna storia."
+      ],
+      "answer": "che insegna storia."
+     },
+     {
+      "id": "g7",
+      "options": [
+       "che dormono sempre.",
+       "che dorme sempre.",
+       "chi dormono sempre."
+      ],
+      "answer": "che dormono sempre."
+     },
+     {
+      "id": "g8",
+      "options": [
+       "che ha un giardino.",
+       "che hanno un giardino.",
+       "chi ha un giardino."
+      ],
+      "answer": "che ha un giardino."
      }
     ]
    }
@@ -52026,100 +52094,13 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-che-relativo-m1",
-  "title": "Zwei Sätze, ein Satz",
+  "id": "g-ecco1-che-relativo-l3",
+  "title": "Chi è?",
   "language": "it",
   "level": "A1",
-  "description": "Das Relativpronomen che · Zwei Sätze, ein Satz (mittel).",
+  "description": "Il pronome relativo che · Chi è? · livello facile.",
   "topics": [
-   "Das Relativpronomen che",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte A.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "5 · Famiglia e gite",
-    "section": "Parte A"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 5,
-  "grammar": {
-   "topic": "ecco1-che-relativo",
-   "topicTitle": "Das Relativpronomen che",
-   "difficulty": "mittel",
-   "origin": "own",
-   "rule": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):\n- _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** bleibt immer gleich (für Personen und Sachen, Singular und Plural).",
-   "order": 31
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "sentence_completion",
-    "prompt": "Verbinde die Sätze mit che.",
-    "explanation": "",
-    "items": [
-     {
-      "id": "s1",
-      "start": "Ho una sorella. Mia sorella ama la musica. → Ho una sorella …",
-      "acceptedAnswers": [
-       "che ama la musica"
-      ]
-     },
-     {
-      "id": "s2",
-      "start": "Ecco il ragazzo. Il ragazzo gioca a calcio. → Ecco il ragazzo …",
-      "acceptedAnswers": [
-       "che gioca a calcio"
-      ]
-     },
-     {
-      "id": "s3",
-      "start": "Leggo un libro. Il libro è molto interessante. → Leggo un libro …",
-      "acceptedAnswers": [
-       "che è molto interessante"
-      ]
-     },
-     {
-      "id": "s4",
-      "start": "Ho un amico. L'amico abita a Milano. → Ho un amico …",
-      "acceptedAnswers": [
-       "che abita a Milano"
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-che-relativo-m2",
-  "title": "Zwei Sätze verbinden",
-  "language": "it",
-  "level": "A1",
-  "description": "Das Relativpronomen che · Zwei Sätze verbinden (mittel).",
-  "topics": [
-   "Das Relativpronomen che",
+   "Il pronome relativo che",
    "Grammatik"
   ],
   "sources": [
@@ -52150,117 +52131,11 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-che-relativo",
-   "topicTitle": "Das Relativpronomen che",
-   "difficulty": "mittel",
+   "topicTitle": "Il pronome relativo che",
+   "difficulty": "leicht",
    "origin": "own",
-   "rule": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):\n- _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** bleibt immer gleich (für Personen und Sachen, Singular und Plural).",
-   "order": 32
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "sentence_completion",
-    "prompt": "Verbinde die Sätze mit che.",
-    "explanation": "",
-    "items": [
-     {
-      "id": "s1",
-      "start": "Ho un cane. Il cane si chiama Rex. → Ho un cane …",
-      "acceptedAnswers": [
-       "che si chiama Rex"
-      ],
-      "modelAnswer": "Ho un cane che si chiama Rex."
-     },
-     {
-      "id": "s2",
-      "start": "Conosco una ragazza. La ragazza suona il violino. → Conosco una ragazza …",
-      "acceptedAnswers": [
-       "che suona il violino"
-      ],
-      "modelAnswer": "Conosco una ragazza che suona il violino."
-     },
-     {
-      "id": "s3",
-      "start": "Abito in una casa. La casa ha un giardino. → Abito in una casa …",
-      "acceptedAnswers": [
-       "che ha un giardino"
-      ],
-      "modelAnswer": "Abito in una casa che ha un giardino."
-     },
-     {
-      "id": "s4",
-      "start": "Ho due cugini. I cugini abitano a Milano. → Ho due cugini …",
-      "acceptedAnswers": [
-       "che abitano a Milano"
-      ],
-      "modelAnswer": "Ho due cugini che abitano a Milano."
-     },
-     {
-      "id": "s5",
-      "start": "Mangio una pizza. La pizza è buonissima. → Mangio una pizza …",
-      "acceptedAnswers": [
-       "che è buonissima"
-      ],
-      "modelAnswer": "Mangio una pizza che è buonissima."
-     },
-     {
-      "id": "s6",
-      "start": "Ecco la professoressa. La professoressa insegna storia. → Ecco la professoressa …",
-      "acceptedAnswers": [
-       "che insegna storia"
-      ],
-      "modelAnswer": "Ecco la professoressa che insegna storia."
-     }
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-che-relativo-m3",
-  "title": "Wer ist wer?",
-  "language": "it",
-  "level": "A1",
-  "description": "Das Relativpronomen che · Wer ist wer? (mittel).",
-  "topics": [
-   "Das Relativpronomen che",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte A.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "5 · Famiglia e gite",
-    "section": "Parte A"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 6,
-  "grammar": {
-   "topic": "ecco1-che-relativo",
-   "topicTitle": "Das Relativpronomen che",
-   "difficulty": "mittel",
-   "origin": "own",
-   "rule": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):\n- _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** bleibt immer gleich (für Personen und Sachen, Singular und Plural).",
+   "rule": "**che** unisce due frasi e si riferisce a un nome:\n- _Ho un’amica. L’amica abita a Roma._ → _Ho un’amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** non cambia mai (per persone e cose, singolare e plurale).",
+   "ruleHelp": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche): _Ho un’amica che abita a Roma. Il libro che leggo è interessante._\n**che** bleibt immer gleich (Personen und Sachen, Singular und Plural).",
    "order": 33
   },
   "vocabularyIds": [],
@@ -52268,8 +52143,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "matching",
-    "prompt": "Ergänze die Beschreibung.",
+    "prompt": "Completa la descrizione.",
     "explanation": "",
+    "promptHelp": "Ergänze die Beschreibung.",
     "pairs": [
      {
       "id": "p1",
@@ -52283,7 +52159,7 @@ const STOCK_PACKAGES = [
      },
      {
       "id": "p3",
-      "left": "L'insegnante è la persona",
+      "left": "L’insegnante è la persona",
       "right": "che spiega la lezione."
      },
      {
@@ -52295,6 +52171,21 @@ const STOCK_PACKAGES = [
       "id": "p5",
       "left": "Il postino è la persona",
       "right": "che porta le lettere."
+     },
+     {
+      "id": "p6",
+      "left": "Il pilota è la persona",
+      "right": "che guida l’aereo."
+     },
+     {
+      "id": "p7",
+      "left": "Il commesso è la persona",
+      "right": "che lavora in un negozio."
+     },
+     {
+      "id": "p8",
+      "left": "Il cantante è la persona",
+      "right": "che canta in un concerto."
      }
     ],
     "distractors": [
@@ -52307,13 +52198,13 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-che-relativo-s1",
-  "title": "Wer ist das?",
+  "id": "g-ecco1-che-relativo-m1",
+  "title": "Due frasi, una frase",
   "language": "it",
   "level": "A1",
-  "description": "Das Relativpronomen che · Wer ist das? (schwer).",
+  "description": "Il pronome relativo che · Due frasi, una frase · livello medio.",
   "topics": [
-   "Das Relativpronomen che",
+   "Il pronome relativo che",
    "Grammatik"
   ],
   "sources": [
@@ -52341,13 +52232,401 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 3,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-che-relativo",
-   "topicTitle": "Das Relativpronomen che",
+   "topicTitle": "Il pronome relativo che",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**che** unisce due frasi e si riferisce a un nome:\n- _Ho un’amica. L’amica abita a Roma._ → _Ho un’amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** non cambia mai (per persone e cose, singolare e plurale).",
+   "ruleHelp": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche): _Ho un’amica che abita a Roma. Il libro che leggo è interessante._\n**che** bleibt immer gleich (Personen und Sachen, Singular und Plural).",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Unisci le frasi con che.",
+    "explanation": "",
+    "promptHelp": "Verbinde die Sätze mit che.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Ho una sorella. Mia sorella ama la musica. → Ho una sorella …",
+      "acceptedAnswers": [
+       "che ama la musica"
+      ],
+      "modelAnswer": "Ho una sorella che ama la musica."
+     },
+     {
+      "id": "s2",
+      "start": "Ecco il ragazzo. Il ragazzo gioca a calcio. → Ecco il ragazzo …",
+      "acceptedAnswers": [
+       "che gioca a calcio"
+      ],
+      "modelAnswer": "Ecco il ragazzo che gioca a calcio."
+     },
+     {
+      "id": "s3",
+      "start": "Leggo un libro. Il libro è molto interessante. → Leggo un libro …",
+      "acceptedAnswers": [
+       "che è molto interessante"
+      ],
+      "modelAnswer": "Leggo un libro che è molto interessante."
+     },
+     {
+      "id": "s4",
+      "start": "Ho un amico. L’amico abita a Milano. → Ho un amico …",
+      "acceptedAnswers": [
+       "che abita a Milano"
+      ],
+      "modelAnswer": "Ho un amico che abita a Milano."
+     },
+     {
+      "id": "s5",
+      "start": "Ho un cane. Il cane si chiama Rex. → Ho un cane …",
+      "acceptedAnswers": [
+       "che si chiama Rex"
+      ],
+      "modelAnswer": "Ho un cane che si chiama Rex."
+     },
+     {
+      "id": "s6",
+      "start": "Conosco una ragazza. La ragazza suona il violino. → Conosco una ragazza …",
+      "acceptedAnswers": [
+       "che suona il violino"
+      ],
+      "modelAnswer": "Conosco una ragazza che suona il violino."
+     },
+     {
+      "id": "s7",
+      "start": "Abito in una casa. La casa ha un giardino. → Abito in una casa …",
+      "acceptedAnswers": [
+       "che ha un giardino"
+      ],
+      "modelAnswer": "Abito in una casa che ha un giardino."
+     },
+     {
+      "id": "s8",
+      "start": "Ho due cugini. I cugini abitano a Milano. → Ho due cugini …",
+      "acceptedAnswers": [
+       "che abitano a Milano"
+      ],
+      "modelAnswer": "Ho due cugini che abitano a Milano."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-che-relativo-m2",
+  "title": "Persone e cose",
+  "language": "it",
+  "level": "A1",
+  "description": "Il pronome relativo che · Persone e cose · livello medio.",
+  "topics": [
+   "Il pronome relativo che",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco1-che-relativo",
+   "topicTitle": "Il pronome relativo che",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**che** unisce due frasi e si riferisce a un nome:\n- _Ho un’amica. L’amica abita a Roma._ → _Ho un’amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** non cambia mai (per persone e cose, singolare e plurale).",
+   "ruleHelp": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche): _Ho un’amica che abita a Roma. Il libro che leggo è interessante._\n**che** bleibt immer gleich (Personen und Sachen, Singular und Plural).",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con che e il verbo giusto.",
+    "explanation": "che + verbo: il verbo va con la persona.",
+    "promptHelp": "Ergänze mit che und dem richtigen Verb.",
+    "explanationHelp": "che + Verb: das Verb richtet sich nach der Person.",
+    "text": "Mia cugina è una ragazza [[g1]] (essere) [[g2]] sempre allegra.\nHo un fratello [[g3]] (giocare) [[g4]] a basket.\nI libri [[g5]] (leggere, io) [[g6]] sono gialli.\nLa pizza [[g7]] (fare) [[g8]] mia madre è buonissima.\nHo amici [[g9]] (abitare) [[g10]] in Italia.\nIl film [[g11]] (vedere, noi) [[g12]] stasera è nuovo.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "gioca"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "leggo"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "fa"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "abitano"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g12",
+      "acceptedAnswers": [
+       "vediamo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-che-relativo-m3",
+  "title": "La famiglia di Leo",
+  "language": "it",
+  "level": "A1",
+  "description": "Il pronome relativo che · La famiglia di Leo · livello medio.",
+  "topics": [
+   "Il pronome relativo che",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-che-relativo",
+   "topicTitle": "Il pronome relativo che",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**che** unisce due frasi e si riferisce a un nome:\n- _Ho un’amica. L’amica abita a Roma._ → _Ho un’amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** non cambia mai (per persone e cose, singolare e plurale).",
+   "ruleHelp": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche): _Ho un’amica che abita a Roma. Il libro che leggo è interessante._\n**che** bleibt immer gleich (Personen und Sachen, Singular und Plural).",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con che. Poi scrivi il verbo giusto dal riquadro.",
+    "explanation": "",
+    "promptHelp": "Ergänze mit che und dem passenden Verb aus dem Kasten.",
+    "text": "Leo ha una zia [[g1]] [[g2]] a Napoli.\nHa due cugini [[g3]] [[g4]] a Roma.\nIl nonno è un uomo [[g5]] [[g6]] tante storie.\nLa nonna fa una torta [[g7]] [[g8]] a tutti.\nLeo ha un gatto [[g9]] [[g10]] sempre sul divano.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "abita"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "studiano"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "racconta"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "piace"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "dorme"
+      ]
+     }
+    ],
+    "wordBank": true,
+    "extraWords": [
+     "abitano",
+     "studia"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-che-relativo-s1",
+  "title": "Chi è?",
+  "language": "it",
+  "level": "A1",
+  "description": "Il pronome relativo che · Chi è? · livello difficile.",
+  "topics": [
+   "Il pronome relativo che",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-che-relativo",
+   "topicTitle": "Il pronome relativo che",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):\n- _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** bleibt immer gleich (für Personen und Sachen, Singular und Plural).",
+   "rule": "**che** unisce due frasi e si riferisce a un nome:\n- _Ho un’amica. L’amica abita a Roma._ → _Ho un’amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** non cambia mai (per persone e cose, singolare e plurale).",
+   "ruleHelp": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche): _Ho un’amica che abita a Roma. Il libro che leggo è interessante._\n**che** bleibt immer gleich (Personen und Sachen, Singular und Plural).",
    "order": 31
   },
   "vocabularyIds": [],
@@ -52355,10 +52634,52 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "open_answer",
-    "prompt": "Beschreibe drei Personen aus deiner Familie oder deinem Freundeskreis mit che.",
+    "prompt": "Descrivi tre persone della tua famiglia o dei tuoi amici con che.",
     "explanation": "",
-    "modelAnswer": "Ho un fratello che ama il calcio. Mia nonna è una donna che racconta storie bellissime. Ho un'amica che parla italiano.",
+    "promptHelp": "Beschreibe drei Personen aus deiner Familie oder deinem Freundeskreis mit che.",
+    "modelAnswer": "Ho un fratello che ama il calcio. Mia nonna è una donna che racconta storie bellissime. Ho un’amica che parla italiano.",
     "lines": 4
+   },
+   {
+    "id": "q2",
+    "type": "sentence_completion",
+    "prompt": "E adesso completa le frasi con che.",
+    "explanation": "",
+    "promptHelp": "Und jetzt ergänze die Sätze mit che.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Ho un’amica … (abita a Roma)",
+      "acceptedAnswers": [
+       "che abita a Roma"
+      ],
+      "modelAnswer": "Ho un’amica che abita a Roma."
+     },
+     {
+      "id": "s2",
+      "start": "Mio padre è una persona … (lavora molto)",
+      "acceptedAnswers": [
+       "che lavora molto"
+      ],
+      "modelAnswer": "Mio padre è una persona che lavora molto."
+     },
+     {
+      "id": "s3",
+      "start": "Ho due fratelli … (giocano a calcio)",
+      "acceptedAnswers": [
+       "che giocano a calcio"
+      ],
+      "modelAnswer": "Ho due fratelli che giocano a calcio."
+     },
+     {
+      "id": "s4",
+      "start": "Ecco la torta … (fa mia nonna)",
+      "acceptedAnswers": [
+       "che fa mia nonna"
+      ],
+      "modelAnswer": "Ecco la torta che fa mia nonna."
+     }
+    ]
    }
   ]
  },
@@ -52367,12 +52688,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-che-relativo-s2",
-  "title": "Ein Rätsel schreiben",
+  "title": "Indovinelli",
   "language": "it",
   "level": "A1",
-  "description": "Das Relativpronomen che · Ein Rätsel schreiben (schwer).",
+  "description": "Il pronome relativo che · Indovinelli · livello difficile.",
   "topics": [
-   "Das Relativpronomen che",
+   "Il pronome relativo che",
    "Grammatik"
   ],
   "sources": [
@@ -52400,24 +52721,209 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 3,
+  "estimatedMinutes": 10,
   "grammar": {
    "topic": "ecco1-che-relativo",
-   "topicTitle": "Das Relativpronomen che",
+   "topicTitle": "Il pronome relativo che",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):\n- _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** bleibt immer gleich (für Personen und Sachen, Singular und Plural).",
+   "rule": "**che** unisce due frasi e si riferisce a un nome:\n- _Ho un’amica. L’amica abita a Roma._ → _Ho un’amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** non cambia mai (per persone e cose, singolare e plurale).",
+   "ruleHelp": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche): _Ho un’amica che abita a Roma. Il libro che leggo è interessante._\n**che** bleibt immer gleich (Personen und Sachen, Singular und Plural).",
    "order": 32
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
-    "type": "open_answer",
-    "prompt": "Beschreibe drei Gegenstände oder Personen mit che, ohne den Namen zu nennen (Rätsel).",
+    "type": "sentence_completion",
+    "prompt": "Scrivi l’indovinello con che: «È un animale che …».",
     "explanation": "",
-    "modelAnswer": "È un animale che dice „miao“. È una persona che lavora a scuola. È una cosa che usi per scrivere.",
-    "lines": 4
+    "promptHelp": "Schreibe das Rätsel mit che.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "(il gatto: dice «miao»)",
+      "acceptedAnswers": [
+       "è un animale che dice miao"
+      ],
+      "modelAnswer": "È un animale che dice «miao»."
+     },
+     {
+      "id": "s2",
+      "start": "(il frigorifero: tiene fresco il cibo)",
+      "acceptedAnswers": [
+       "è una cosa che tiene fresco il cibo"
+      ],
+      "modelAnswer": "È una cosa che tiene fresco il cibo."
+     },
+     {
+      "id": "s3",
+      "start": "(la prof: insegna a scuola)",
+      "acceptedAnswers": [
+       "è una persona che insegna a scuola"
+      ],
+      "modelAnswer": "È una persona che insegna a scuola."
+     },
+     {
+      "id": "s4",
+      "start": "(la penna: serve per scrivere)",
+      "acceptedAnswers": [
+       "è una cosa che serve per scrivere"
+      ],
+      "modelAnswer": "È una cosa che serve per scrivere."
+     },
+     {
+      "id": "s5",
+      "start": "(il cane: abbaia)",
+      "acceptedAnswers": [
+       "è un animale che abbaia"
+      ],
+      "modelAnswer": "È un animale che abbaia."
+     },
+     {
+      "id": "s6",
+      "start": "(il medico: lavora in ospedale)",
+      "acceptedAnswers": [
+       "è una persona che lavora in ospedale"
+      ],
+      "modelAnswer": "È una persona che lavora in ospedale."
+     },
+     {
+      "id": "s7",
+      "start": "(il letto: usiamo per dormire)",
+      "acceptedAnswers": [
+       "è una cosa che usiamo per dormire"
+      ],
+      "modelAnswer": "È una cosa che usiamo per dormire."
+     },
+     {
+      "id": "s8",
+      "start": "(il pesce: vive nell’acqua)",
+      "acceptedAnswers": [
+       "è un animale che vive nell’acqua"
+      ],
+      "modelAnswer": "È un animale che vive nell’acqua."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-che-relativo-s3",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "Il pronome relativo che · Trova gli errori · livello difficile.",
+  "topics": [
+   "Il pronome relativo che",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-che-relativo",
+   "topicTitle": "Il pronome relativo che",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**che** unisce due frasi e si riferisce a un nome:\n- _Ho un’amica. L’amica abita a Roma._ → _Ho un’amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** non cambia mai (per persone e cose, singolare e plurale).",
+   "ruleHelp": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche): _Ho un’amica che abita a Roma. Il libro che leggo è interessante._\n**che** bleibt immer gleich (Personen und Sachen, Singular und Plural).",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi gli errori con che.",
+    "explanation": "che non cambia mai; il verbo va con il nome.",
+    "promptHelp": "Korrigiere die Fehler mit che.",
+    "explanationHelp": "che bleibt gleich; das Verb richtet sich nach dem Nomen.",
+    "text": "Ho un’amica [[g1]] abita a Roma.\nI ragazzi che [[g2]] sono miei amici.\nIl libro [[g3]] leggo è bello.\nÈ un film che [[g4]] a tutti.\nHo due gatti che [[g5]] sempre.\nLa ragazza [[g6]] parla è mia cugina.\nLe scarpe che [[g7]] sono nuove.\nIl nonno che [[g8]] storie è simpatico.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "chi",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "gioca",
+      "acceptedAnswers": [
+       "giocano"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "cosa",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "piacciono",
+      "acceptedAnswers": [
+       "piace"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "dorme",
+      "acceptedAnswers": [
+       "dormono"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "quale",
+      "acceptedAnswers": [
+       "che"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "compro",
+      "acceptedAnswers": [
+       "compro"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "raccontano",
+      "acceptedAnswers": [
+       "racconta"
+      ]
+     }
+    ]
    }
   ]
  },
@@ -52426,12 +52932,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-dare-dire-indiretto-l1",
-  "title": "dare und dire",
+  "title": "dare e dire",
   "language": "it",
   "level": "A1",
-  "description": "dare, dire und das indirekte Objekt · dare und dire (einfach).",
+  "description": "Dare, dire e i pronomi indiretti · dare e dire · livello facile.",
   "topics": [
-   "dare, dire und das indirekte Objekt",
+   "Dare, dire e i pronomi indiretti",
    "Grammatik"
   ],
   "sources": [
@@ -52459,13 +52965,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-dare-dire-indiretto",
-   "topicTitle": "dare, dire und das indirekte Objekt",
+   "topicTitle": "Dare, dire e i pronomi indiretti",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**I pronomi indiretti** (a chi?) vanno **prima del verbo**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Attenzione:** _dà_ (verbo) con l’accento ≠ _da_ (preposizione).",
+   "ruleHelp": "dare: do, dai, dà, diamo, date, danno · dire: dico, dici, dice, diciamo, dite, dicono.\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**: mi (mir), ti (dir), gli (ihm), le (ihr), Le (Ihnen), ci (uns), vi (euch), gli (ihnen).\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
    "order": 41
   },
   "vocabularyIds": [],
@@ -52473,9 +52980,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle die richtige Form.",
-    "explanation": "dà (er/sie gibt) hat einen Akzent, da (von, bei) nicht.",
-    "text": "Io ti [[g1]] il mio libro.\nLa prof ci [[g2]] un compito.\nChe cosa [[g3]] tu?\nNoi [[g4]] la verità.\nI prof [[g5]] i voti.\nVoi mi [[g6]] l'ora?",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "dà (verbo) ha l’accento, da (preposizione) no.",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "dà (er/sie gibt) hat einen Akzent, da (von, bei) nicht.",
+    "text": "Io ti [[g1]] il mio libro.\nLa prof ci [[g2]] un compito.\nChe cosa [[g3]] tu?\nNoi [[g4]] la verità.\nI prof [[g5]] i voti.\nVoi mi [[g6]] l’ora?\nTu mi [[g7]] una penna?\nMia madre [[g8]] sempre: «Studia!»",
     "gaps": [
      {
       "id": "g1",
@@ -52530,6 +53039,24 @@ const STOCK_PACKAGES = [
        "dicono"
       ],
       "answer": "dite"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "dai",
+       "da",
+       "dà"
+      ],
+      "answer": "dai"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "dice",
+       "dici",
+       "dicono"
+      ],
+      "answer": "dice"
      }
     ]
    }
@@ -52540,12 +53067,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-dare-dire-indiretto-l2",
-  "title": "Wem?",
+  "title": "A chi?",
   "language": "it",
   "level": "A1",
-  "description": "dare, dire und das indirekte Objekt · Wem? (einfach).",
+  "description": "Dare, dire e i pronomi indiretti · A chi? · livello facile.",
   "topics": [
-   "dare, dire und das indirekte Objekt",
+   "Dare, dire e i pronomi indiretti",
    "Grammatik"
   ],
   "sources": [
@@ -52573,13 +53100,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-dare-dire-indiretto",
-   "topicTitle": "dare, dire und das indirekte Objekt",
+   "topicTitle": "Dare, dire e i pronomi indiretti",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**I pronomi indiretti** (a chi?) vanno **prima del verbo**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Attenzione:** _dà_ (verbo) con l’accento ≠ _da_ (preposizione).",
+   "ruleHelp": "dare: do, dai, dà, diamo, date, danno · dire: dico, dici, dice, diciamo, dite, dicono.\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**: mi (mir), ti (dir), gli (ihm), le (ihr), Le (Ihnen), ci (uns), vi (euch), gli (ihnen).\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
    "order": 42
   },
   "vocabularyIds": [],
@@ -52587,8 +53115,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "matching",
-    "prompt": "Was bedeutet das Pronomen?",
+    "prompt": "Che cosa vuol dire il pronome?",
     "explanation": "",
+    "promptHelp": "Was bedeutet das Pronomen?",
     "pairs": [
      {
       "id": "p1",
@@ -52624,6 +53153,11 @@ const STOCK_PACKAGES = [
       "id": "p7",
       "left": "vi",
       "right": "euch"
+     },
+     {
+      "id": "p8",
+      "left": "gli (a loro)",
+      "right": "ihnen"
      }
     ],
     "distractors": [
@@ -52637,13 +53171,13 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-dare-dire-indiretto-m1",
-  "title": "Wem?",
+  "id": "g-ecco1-dare-dire-indiretto-l3",
+  "title": "Regali",
   "language": "it",
   "level": "A1",
-  "description": "dare, dire und das indirekte Objekt · Wem? (mittel).",
+  "description": "Dare, dire e i pronomi indiretti · Regali · livello facile.",
   "topics": [
-   "dare, dire und das indirekte Objekt",
+   "Dare, dire e i pronomi indiretti",
    "Grammatik"
   ],
   "sources": [
@@ -52674,10 +53208,146 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-dare-dire-indiretto",
-   "topicTitle": "dare, dire und das indirekte Objekt",
+   "topicTitle": "Dare, dire e i pronomi indiretti",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**I pronomi indiretti** (a chi?) vanno **prima del verbo**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Attenzione:** _dà_ (verbo) con l’accento ≠ _da_ (preposizione).",
+   "ruleHelp": "dare: do, dai, dà, diamo, date, danno · dire: dico, dici, dice, diciamo, dite, dicono.\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**: mi (mir), ti (dir), gli (ihm), le (ihr), Le (Ihnen), ci (uns), vi (euch), gli (ihnen).\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
+   "order": 43
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli il pronome.",
+    "explanation": "gli vuol dire «a lui», nella lingua di tutti i giorni anche «a loro».",
+    "promptHelp": "Ergänze die Pronomen.",
+    "explanationHelp": "gli bedeutet ihm, im Alltag auch ihnen.",
+    "text": "È il compleanno di Marco: [[g1]] do un libro.\nMia sorella ama la musica: [[g2]] do un CD.\nRagazzi, [[g3]] do i biglietti per il concerto.\nMamma, che cosa [[g4]] dai per Natale?\nLa nonna [[g5]] dà sempre i dolci. (a noi)\nSignora, [[g6]] do il mio posto!\nI miei amici mi aiutano: io [[g7]] dico grazie. (ai miei amici)\nPaolo, [[g8]] do il mio numero.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "gli",
+       "le",
+       "ci"
+      ],
+      "answer": "gli"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "le",
+       "gli",
+       "vi"
+      ],
+      "answer": "le"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "vi",
+       "ci",
+       "gli"
+      ],
+      "answer": "vi"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "mi",
+       "ti",
+       "le"
+      ],
+      "answer": "mi"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "ci",
+       "vi",
+       "le"
+      ],
+      "answer": "ci"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Le",
+       "ti",
+       "gli"
+      ],
+      "answer": "Le"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "gli",
+       "le",
+       "ti"
+      ],
+      "answer": "gli"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "ti",
+       "mi",
+       "vi"
+      ],
+      "answer": "ti"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-dare-dire-indiretto-m1",
+  "title": "A chi? Scegli",
+  "language": "it",
+  "level": "A1",
+  "description": "Dare, dire e i pronomi indiretti · A chi? Scegli · livello medio.",
+  "topics": [
+   "Dare, dire e i pronomi indiretti",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "3 · La scuola",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-dare-dire-indiretto",
+   "topicTitle": "Dare, dire e i pronomi indiretti",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**I pronomi indiretti** (a chi?) vanno **prima del verbo**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Attenzione:** _dà_ (verbo) con l’accento ≠ _da_ (preposizione).",
+   "ruleHelp": "dare: do, dai, dà, diamo, date, danno · dire: dico, dici, dice, diciamo, dite, dicono.\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**: mi (mir), ti (dir), gli (ihm), le (ihr), Le (Ihnen), ci (uns), vi (euch), gli (ihnen).\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
    "order": 41
   },
   "vocabularyIds": [],
@@ -52685,9 +53355,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle das passende Pronomen.",
-    "explanation": "gli = ihm (und ihnen), le = ihr, Le = Ihnen (höflich).",
-    "text": "Luca mi scrive. → Io [[g1]] rispondo.\nSara mi telefona. → Io [[g2]] rispondo.\nRagazzi, [[g3]] do un consiglio.\nMamma, [[g4]] dico una cosa.\nLa prof [[g5]] restituisce le relazioni. (a noi)\nSignora, [[g6]] do il mio posto.",
+    "prompt": "Scegli il pronome giusto.",
+    "explanation": "gli = a lui (e a loro), le = a lei, Le = a Lei (formale).",
+    "promptHelp": "Wähle das passende Pronomen.",
+    "explanationHelp": "gli = ihm (und ihnen), le = ihr, Le = Ihnen (höflich).",
+    "text": "Luca mi scrive. → Io [[g1]] rispondo.\nSara mi telefona. → Io [[g2]] rispondo.\nRagazzi, [[g3]] do un consiglio.\nMamma, [[g4]] dico una cosa.\nLa prof [[g5]] restituisce le relazioni. (a noi)\nSignora, [[g6]] do il mio posto.\nMarco non capisce: la prof [[g7]] spiega la regola.\nAnna è triste: [[g8]] racconto una storia.",
     "gaps": [
      {
       "id": "g1",
@@ -52742,6 +53414,24 @@ const STOCK_PACKAGES = [
        "ti"
       ],
       "answer": "Le"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "gli",
+       "le",
+       "ci"
+      ],
+      "answer": "gli"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "le",
+       "gli",
+       "vi"
+      ],
+      "answer": "le"
      }
     ]
    }
@@ -52752,12 +53442,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-dare-dire-indiretto-m2",
-  "title": "Pronomen einsetzen",
+  "title": "Pronomi al posto giusto",
   "language": "it",
   "level": "A1",
-  "description": "dare, dire und das indirekte Objekt · Pronomen einsetzen (mittel).",
+  "description": "Dare, dire e i pronomi indiretti · Pronomi al posto giusto · livello medio.",
   "topics": [
-   "dare, dire und das indirekte Objekt",
+   "Dare, dire e i pronomi indiretti",
    "Grammatik"
   ],
   "sources": [
@@ -52785,13 +53475,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-dare-dire-indiretto",
-   "topicTitle": "dare, dire und das indirekte Objekt",
+   "topicTitle": "Dare, dire e i pronomi indiretti",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**I pronomi indiretti** (a chi?) vanno **prima del verbo**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Attenzione:** _dà_ (verbo) con l’accento ≠ _da_ (preposizione).",
+   "ruleHelp": "dare: do, dai, dà, diamo, date, danno · dire: dico, dici, dice, diciamo, dite, dicono.\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**: mi (mir), ti (dir), gli (ihm), le (ihr), Le (Ihnen), ci (uns), vi (euch), gli (ihnen).\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
    "order": 42
   },
   "vocabularyIds": [],
@@ -52799,9 +53490,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Ergänze mi, ti, gli, le, ci oder vi.",
+    "prompt": "Scrivi mi, ti, gli, le, ci o vi.",
     "explanation": "",
-    "text": "Marco, [[g1]] do il mio numero.\nLa prof è contenta: [[g2]] dà un bel voto.\nGiulia è triste, io [[g3]] racconto una storia.\nPaolo non capisce, la prof [[g4]] spiega la regola.\nRagazzi, [[g5]] dico una cosa importante!",
+    "promptHelp": "Ergänze mi, ti, gli, le, ci oder vi.",
+    "text": "Marco, [[g1]] do il mio numero.\nLa prof è contenta: [[g2]] dà un bel voto.\nGiulia è triste, io [[g3]] racconto una storia.\nPaolo non capisce, la prof [[g4]] spiega la regola.\nRagazzi, [[g5]] dico una cosa importante!\nMamma, [[g6]] dai dieci euro?\nSara? Domani [[g7]] scrivo una mail.\nLeo? [[g8]] telefono stasera.",
     "gaps": [
      {
       "id": "g1",
@@ -52832,6 +53524,24 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "vi"
       ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "mi"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Gli"
+      ]
      }
     ],
     "wordBank": true
@@ -52843,12 +53553,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-dare-dire-indiretto-m3",
-  "title": "Formen von dare und dire",
+  "title": "Le forme di dare e dire",
   "language": "it",
   "level": "A1",
-  "description": "dare, dire und das indirekte Objekt · Formen von dare und dire (mittel).",
+  "description": "Dare, dire e i pronomi indiretti · Le forme di dare e dire · livello medio.",
   "topics": [
-   "dare, dire und das indirekte Objekt",
+   "Dare, dire e i pronomi indiretti",
    "Grammatik"
   ],
   "sources": [
@@ -52879,10 +53589,11 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 3,
   "grammar": {
    "topic": "ecco1-dare-dire-indiretto",
-   "topicTitle": "dare, dire und das indirekte Objekt",
+   "topicTitle": "Dare, dire e i pronomi indiretti",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**I pronomi indiretti** (a chi?) vanno **prima del verbo**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Attenzione:** _dà_ (verbo) con l’accento ≠ _da_ (preposizione).",
+   "ruleHelp": "dare: do, dai, dà, diamo, date, danno · dire: dico, dici, dice, diciamo, dite, dicono.\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**: mi (mir), ti (dir), gli (ihm), le (ihr), Le (Ihnen), ci (uns), vi (euch), gli (ihnen).\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
    "order": 43
   },
   "vocabularyIds": [],
@@ -52890,10 +53601,12 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "table_fill",
-    "prompt": "Ergänze die Formen.",
-    "explanation": "dà mit Akzent, do und da ohne.",
+    "prompt": "Completa le forme.",
+    "explanation": "dà con l’accento, do e da senza.",
+    "promptHelp": "Ergänze die Formen.",
+    "explanationHelp": "dà mit Akzent, do und da ohne.",
     "columns": [
-     "Person",
+     "persona",
      "dare",
      "dire"
     ],
@@ -52997,223 +53710,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-dare-dire-indiretto-m4",
-  "title": "Geschenke",
+  "title": "Pronome invece del nome",
   "language": "it",
   "level": "A1",
-  "description": "dare, dire und das indirekte Objekt · Geschenke (mittel).",
+  "description": "Dare, dire e i pronomi indiretti · Pronome invece del nome · livello medio.",
   "topics": [
-   "dare, dire und das indirekte Objekt",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Parte B.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "3 · La scuola",
-    "section": "Parte B"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 7,
-  "grammar": {
-   "topic": "ecco1-dare-dire-indiretto",
-   "topicTitle": "dare, dire und das indirekte Objekt",
-   "difficulty": "mittel",
-   "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
-   "order": 44
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "gap_choice",
-    "prompt": "Ergänze die Pronomen.",
-    "explanation": "gli bedeutet ihm, im Alltag auch ihnen (ai miei amici → gli).",
-    "text": "È il compleanno di Marco: [[g1]] do un libro.\nMia sorella ama la musica: [[g2]] do un CD.\nRagazzi, [[g3]] do i biglietti per il concerto.\nMamma, che cosa [[g4]] dai per Natale?\nLa nonna [[g5]] dà sempre i dolci. (a noi)\nSignora, [[g6]] do il mio posto!\nI miei amici mi aiutano, io [[g7]] dico grazie. (ai miei amici)",
-    "gaps": [
-     {
-      "id": "g1",
-      "options": [
-       "gli",
-       "le",
-       "ci"
-      ],
-      "answer": "gli"
-     },
-     {
-      "id": "g2",
-      "options": [
-       "le",
-       "gli",
-       "vi"
-      ],
-      "answer": "le"
-     },
-     {
-      "id": "g3",
-      "options": [
-       "vi",
-       "ci",
-       "gli"
-      ],
-      "answer": "vi"
-     },
-     {
-      "id": "g4",
-      "options": [
-       "mi",
-       "ti",
-       "le"
-      ],
-      "answer": "mi"
-     },
-     {
-      "id": "g5",
-      "options": [
-       "ci",
-       "vi",
-       "le"
-      ],
-      "answer": "ci"
-     },
-     {
-      "id": "g6",
-      "options": [
-       "Le",
-       "ti",
-       "gli"
-      ],
-      "answer": "Le"
-     },
-     {
-      "id": "g7",
-      "options": [
-       "gli",
-       "le",
-       "ti"
-      ],
-      "answer": "gli"
-     }
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-dare-dire-indiretto-s1",
-  "title": "Fehler finden",
-  "language": "it",
-  "level": "A1",
-  "description": "dare, dire und das indirekte Objekt · Fehler finden (schwer).",
-  "topics": [
-   "dare, dire und das indirekte Objekt",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Parte B.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "3 · La scuola",
-    "section": "Parte B"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 6,
-  "grammar": {
-   "topic": "ecco1-dare-dire-indiretto",
-   "topicTitle": "dare, dire und das indirekte Objekt",
-   "difficulty": "schwer",
-   "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
-   "order": 41
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "error_correction",
-    "prompt": "Korrigiere die markierten Wörter.",
-    "explanation": "",
-    "text": "La prof [[g1]] un compito difficile.\nSara non sta bene, io [[g2]] porto i compiti.\nNoi [[g3]] la verità.\nA Luca? Io [[g4]] do il pallone.",
-    "errors": [
-     {
-      "id": "g1",
-      "wrong": "da",
-      "acceptedAnswers": [
-       "dà"
-      ]
-     },
-     {
-      "id": "g2",
-      "wrong": "gli",
-      "acceptedAnswers": [
-       "le"
-      ]
-     },
-     {
-      "id": "g3",
-      "wrong": "dicono",
-      "acceptedAnswers": [
-       "diciamo"
-      ]
-     },
-     {
-      "id": "g4",
-      "wrong": "le",
-      "acceptedAnswers": [
-       "gli"
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-dare-dire-indiretto-s2",
-  "title": "Pronomen statt Name",
-  "language": "it",
-  "level": "A1",
-  "description": "dare, dire und das indirekte Objekt · Pronomen statt Name (schwer).",
-  "topics": [
-   "dare, dire und das indirekte Objekt",
+   "Dare, dire e i pronomi indiretti",
    "Grammatik"
   ],
   "sources": [
@@ -53244,19 +53746,22 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-dare-dire-indiretto",
-   "topicTitle": "dare, dire und das indirekte Objekt",
-   "difficulty": "schwer",
+   "topicTitle": "Dare, dire e i pronomi indiretti",
+   "difficulty": "mittel",
    "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
-   "order": 42
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**I pronomi indiretti** (a chi?) vanno **prima del verbo**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Attenzione:** _dà_ (verbo) con l’accento ≠ _da_ (preposizione).",
+   "ruleHelp": "dare: do, dai, dà, diamo, date, danno · dire: dico, dici, dice, diciamo, dite, dicono.\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**: mi (mir), ti (dir), gli (ihm), le (ihr), Le (Ihnen), ci (uns), vi (euch), gli (ihnen).\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
+   "order": 44
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
     "type": "sentence_completion",
-    "prompt": "Ersetze die markierten Wörter durch ein Pronomen.",
-    "explanation": "Das Pronomen steht vor dem Verb.",
+    "prompt": "Sostituisci le parole con un pronome.",
+    "explanation": "Il pronome va prima del verbo.",
+    "promptHelp": "Ersetze die Wörter durch ein Pronomen.",
+    "explanationHelp": "Das Pronomen steht vor dem Verb.",
     "items": [
      {
       "id": "s1",
@@ -53300,11 +53805,27 @@ const STOCK_PACKAGES = [
      },
      {
       "id": "s6",
-      "start": "Rispondo alla signora Rossi (höflich). → … rispondo.",
+      "start": "Rispondo alla signora Rossi (formale). → … rispondo.",
       "acceptedAnswers": [
        "Le"
       ],
       "modelAnswer": "Le rispondo."
+     },
+     {
+      "id": "s7",
+      "start": "Mando un messaggio a Paolo. → … mando un messaggio.",
+      "acceptedAnswers": [
+       "Gli"
+      ],
+      "modelAnswer": "Gli mando un messaggio."
+     },
+     {
+      "id": "s8",
+      "start": "Mamma dà un bacio a me. → Mamma … dà un bacio.",
+      "acceptedAnswers": [
+       "mi"
+      ],
+      "modelAnswer": "Mamma mi dà un bacio."
      }
     ]
    }
@@ -53314,13 +53835,13 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-dare-dire-indiretto-s3",
-  "title": "Ein Streit",
+  "id": "g-ecco1-dare-dire-indiretto-s1",
+  "title": "Trova gli errori",
   "language": "it",
   "level": "A1",
-  "description": "dare, dire und das indirekte Objekt · Ein Streit (schwer).",
+  "description": "Dare, dire e i pronomi indiretti · Trova gli errori · livello difficile.",
   "topics": [
-   "dare, dire und das indirekte Objekt",
+   "Dare, dire e i pronomi indiretti",
    "Grammatik"
   ],
   "sources": [
@@ -53351,19 +53872,139 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 10,
   "grammar": {
    "topic": "ecco1-dare-dire-indiretto",
-   "topicTitle": "dare, dire und das indirekte Objekt",
+   "topicTitle": "Dare, dire e i pronomi indiretti",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
-   "order": 43
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**I pronomi indiretti** (a chi?) vanno **prima del verbo**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Attenzione:** _dà_ (verbo) con l’accento ≠ _da_ (preposizione).",
+   "ruleHelp": "dare: do, dai, dà, diamo, date, danno · dire: dico, dici, dice, diciamo, dite, dicono.\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**: mi (mir), ti (dir), gli (ihm), le (ihr), Le (Ihnen), ci (uns), vi (euch), gli (ihnen).\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi le parole segnate.",
+    "explanation": "",
+    "promptHelp": "Korrigiere die markierten Wörter.",
+    "text": "La prof [[g1]] un compito difficile.\nSara non sta bene, io [[g2]] porto i compiti.\nNoi [[g3]] la verità.\nA Luca? Io [[g4]] do il pallone.\nVoi [[g5]] sempre di sì.\nRagazzi, [[g6]] do un consiglio.\nSignora, [[g7]] do il mio posto.\nLoro [[g8]] i biglietti.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "da",
+      "acceptedAnswers": [
+       "dà"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "gli",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "dicono",
+      "acceptedAnswers": [
+       "diciamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "le",
+      "acceptedAnswers": [
+       "gli"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "dicete",
+      "acceptedAnswers": [
+       "dite"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "ci",
+      "acceptedAnswers": [
+       "vi"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "ti",
+      "acceptedAnswers": [
+       "Le"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "dano",
+      "acceptedAnswers": [
+       "danno"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-dare-dire-indiretto-s2",
+  "title": "Un litigio",
+  "language": "it",
+  "level": "A1",
+  "description": "Dare, dire e i pronomi indiretti · Un litigio · livello difficile.",
+  "topics": [
+   "Dare, dire e i pronomi indiretti",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "3 · La scuola",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-dare-dire-indiretto",
+   "topicTitle": "Dare, dire e i pronomi indiretti",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**I pronomi indiretti** (a chi?) vanno **prima del verbo**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Attenzione:** _dà_ (verbo) con l’accento ≠ _da_ (preposizione).",
+   "ruleHelp": "dare: do, dai, dà, diamo, date, danno · dire: dico, dici, dice, diciamo, dite, dicono.\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**: mi (mir), ti (dir), gli (ihm), le (ihr), Le (Ihnen), ci (uns), vi (euch), gli (ihnen).\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
+   "order": 42
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Ergänze dare / dire und die Pronomen.",
+    "prompt": "Scrivi dare / dire e i pronomi.",
     "explanation": "",
+    "promptHelp": "Ergänze dare / dire und die Pronomen.",
     "text": "Luca: Sara, che cosa mi (dire, tu) [[g1]]?\nSara: Ti (dire, io) [[g2]] la verità: non mi (dare, tu) [[g3]] mai i tuoi appunti!\nLuca: Ma io [[g4]] do sempre tutto!\nSara: Non è vero! E Marco è arrabbiato: non [[g5]] dai mai niente.\nLuca: Va bene, scusa. Oggi (dare, io) [[g6]] i miei appunti a te e anche a Marco.\nSara: Grazie! Allora noi [[g7]] (dare, noi) [[g8]] un gelato!",
     "gaps": [
      {
@@ -53422,13 +54063,140 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-data-l1",
-  "title": "Welches Datum?",
+  "id": "g-ecco1-dare-dire-indiretto-s3",
+  "title": "Che cosa regali?",
   "language": "it",
   "level": "A1",
-  "description": "Das Datum · Welches Datum? (einfach).",
+  "description": "Dare, dire e i pronomi indiretti · Che cosa regali? · livello difficile.",
   "topics": [
-   "Das Datum",
+   "Dare, dire e i pronomi indiretti",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "3 · La scuola",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-dare-dire-indiretto",
+   "topicTitle": "Dare, dire e i pronomi indiretti",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**I pronomi indiretti** (a chi?) vanno **prima del verbo**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Attenzione:** _dà_ (verbo) con l’accento ≠ _da_ (preposizione).",
+   "ruleHelp": "dare: do, dai, dà, diamo, date, danno · dire: dico, dici, dice, diciamo, dite, dicono.\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**: mi (mir), ti (dir), gli (ihm), le (ihr), Le (Ihnen), ci (uns), vi (euch), gli (ihnen).\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
+   "order": 43
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Rispondi con il pronome indiretto.",
+    "explanation": "a mia madre → le, a mio padre → gli, a me → ti (risposta), a noi → vi (risposta).",
+    "promptHelp": "Antworte mit dem indirekten Pronomen.",
+    "explanationHelp": "a mia madre → le, a mio padre → gli, a me → ti, a noi → vi.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Che cosa regali a tua madre? (un libro)",
+      "acceptedAnswers": [
+       "Le regalo un libro"
+      ],
+      "modelAnswer": "Le regalo un libro."
+     },
+     {
+      "id": "s2",
+      "start": "Che cosa regali a tuo padre? (una felpa)",
+      "acceptedAnswers": [
+       "Gli regalo una felpa"
+      ],
+      "modelAnswer": "Gli regalo una felpa."
+     },
+     {
+      "id": "s3",
+      "start": "Che cosa dici alla prof? (buongiorno)",
+      "acceptedAnswers": [
+       "Le dico buongiorno"
+      ],
+      "modelAnswer": "Le dico buongiorno."
+     },
+     {
+      "id": "s4",
+      "start": "Che cosa date ai nonni? (una foto)",
+      "acceptedAnswers": [
+       "Gli diamo una foto",
+       "Diamo loro una foto"
+      ],
+      "modelAnswer": "Gli diamo una foto."
+     },
+     {
+      "id": "s5",
+      "start": "Che cosa mi dai? (un gelato)",
+      "acceptedAnswers": [
+       "Ti do un gelato"
+      ],
+      "modelAnswer": "Ti do un gelato."
+     },
+     {
+      "id": "s6",
+      "start": "Che cosa ci dite? (una cosa importante)",
+      "acceptedAnswers": [
+       "Vi diciamo una cosa importante"
+      ],
+      "modelAnswer": "Vi diciamo una cosa importante."
+     },
+     {
+      "id": "s7",
+      "start": "Che cosa scrivi a Giulia? (un messaggio)",
+      "acceptedAnswers": [
+       "Le scrivo un messaggio"
+      ],
+      "modelAnswer": "Le scrivo un messaggio."
+     },
+     {
+      "id": "s8",
+      "start": "Che cosa porti al tuo amico? (i compiti)",
+      "acceptedAnswers": [
+       "Gli porto i compiti"
+      ],
+      "modelAnswer": "Gli porto i compiti."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-data-l1",
+  "title": "Quale data?",
+  "language": "it",
+  "level": "A1",
+  "description": "La data · Quale data? · livello facile.",
+  "topics": [
+   "La data",
    "Grammatik"
   ],
   "sources": [
@@ -53456,13 +54224,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 5,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-data",
-   "topicTitle": "Das Datum",
+   "topicTitle": "La data",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._",
+   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Il primo giorno del mese: **il primo** (aprile).\n- Davanti a vocale: **l’otto**, **l’undici** (agosto).\n- I mesi con la minuscola: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._\n- Davanti ai giorni della settimana nella data non c’è l’articolo: _sabato 14 marzo_.",
+   "ruleHelp": "- _Oggi è il quindici maggio._ – das Datum mit **il** + Grundzahl.\n- Nur der Erste wird mit Ordnungszahl gesagt: **il primo** aprile.\n- Vor Vokal: **l’otto**, **l’undici**. Monate klein.\n- Vor Wochentagen steht im Datum kein Artikel: _sabato 14 marzo_.",
    "order": 11
   },
   "vocabularyIds": [],
@@ -53470,8 +54239,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "matching",
-    "prompt": "Was gehört zusammen?",
+    "prompt": "Abbina la data.",
     "explanation": "",
+    "promptHelp": "Was gehört zusammen?",
     "pairs": [
      {
       "id": "p1",
@@ -53481,7 +54251,7 @@ const STOCK_PACKAGES = [
      {
       "id": "p2",
       "left": "8.3.",
-      "right": "l'otto marzo"
+      "right": "l’otto marzo"
      },
      {
       "id": "p3",
@@ -53496,10 +54266,27 @@ const STOCK_PACKAGES = [
      {
       "id": "p5",
       "left": "11.11.",
-      "right": "l'undici novembre"
+      "right": "l’undici novembre"
+     },
+     {
+      "id": "p6",
+      "left": "2.6.",
+      "right": "il due giugno"
+     },
+     {
+      "id": "p7",
+      "left": "21.9.",
+      "right": "il ventuno settembre"
+     },
+     {
+      "id": "p8",
+      "left": "30.4.",
+      "right": "il trenta aprile"
      }
     ],
-    "distractors": []
+    "distractors": [
+     "il uno maggio"
+    ]
    }
   ]
  },
@@ -53508,12 +54295,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-data-l2",
-  "title": "Die Monate",
+  "title": "I mesi",
   "language": "it",
   "level": "A1",
-  "description": "Das Datum · Die Monate (einfach).",
+  "description": "La data · I mesi · livello facile.",
   "topics": [
-   "Das Datum",
+   "La data",
    "Grammatik"
   ],
   "sources": [
@@ -53541,13 +54328,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 9,
+  "estimatedMinutes": 12,
   "grammar": {
    "topic": "ecco1-data",
-   "topicTitle": "Das Datum",
+   "topicTitle": "La data",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._",
+   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Il primo giorno del mese: **il primo** (aprile).\n- Davanti a vocale: **l’otto**, **l’undici** (agosto).\n- I mesi con la minuscola: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._\n- Davanti ai giorni della settimana nella data non c’è l’articolo: _sabato 14 marzo_.",
+   "ruleHelp": "- _Oggi è il quindici maggio._ – das Datum mit **il** + Grundzahl.\n- Nur der Erste wird mit Ordnungszahl gesagt: **il primo** aprile.\n- Vor Vokal: **l’otto**, **l’undici**. Monate klein.\n- Vor Wochentagen steht im Datum kein Artikel: _sabato 14 marzo_.",
    "order": 12
   },
   "vocabularyIds": [],
@@ -53555,8 +54343,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "ordering",
-    "prompt": "Bringe die Monate von Januar bis Juni in die richtige Reihenfolge.",
+    "prompt": "Metti in ordine i mesi da gennaio a giugno.",
     "explanation": "",
+    "promptHelp": "Bringe die Monate von Januar bis Juni in die richtige Reihenfolge.",
     "items": [
      {
       "id": "i1",
@@ -53587,8 +54376,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q2",
     "type": "ordering",
-    "prompt": "Und jetzt Juli bis Dezember.",
+    "prompt": "E adesso da luglio a dicembre.",
     "explanation": "",
+    "promptHelp": "Und jetzt Juli bis Dezember.",
     "items": [
      {
       "id": "i1",
@@ -53615,6 +54405,31 @@ const STOCK_PACKAGES = [
       "text": "dicembre"
      }
     ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti in ordine le stagioni, dalla primavera.",
+    "explanation": "",
+    "promptHelp": "Ordne die Jahreszeiten, beginnend mit dem Frühling.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "primavera"
+     },
+     {
+      "id": "i2",
+      "text": "estate"
+     },
+     {
+      "id": "i3",
+      "text": "autunno"
+     },
+     {
+      "id": "i4",
+      "text": "inverno"
+     }
+    ]
    }
   ]
  },
@@ -53623,210 +54438,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-data-l3",
-  "title": "Feste in Italien",
+  "title": "Feste in Italia",
   "language": "it",
   "level": "A1",
-  "description": "Das Datum · Feste in Italien (einfach).",
+  "description": "La data · Feste in Italia · livello facile.",
   "topics": [
-   "Das Datum",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Per cominciare.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "5 · Famiglia e gite",
-    "section": "Per cominciare"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 6,
-  "grammar": {
-   "topic": "ecco1-data",
-   "topicTitle": "Das Datum",
-   "difficulty": "leicht",
-   "origin": "own",
-   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._",
-   "order": 13
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "gap_choice",
-    "prompt": "Wähle das richtige Datum.",
-    "explanation": "Nur der Erste wird mit Ordnungszahl gesagt (il primo). Sonst Grundzahl mit il, vor Vokal l' (l'otto, l'undici).",
-    "text": "Capodanno: [[g1]]\nLa festa della donna: [[g2]]\nLa festa della Repubblica: [[g3]]\nFerragosto: [[g4]]\nSan Martino: [[g5]]\nNatale: [[g6]]",
-    "gaps": [
-     {
-      "id": "g1",
-      "options": [
-       "il primo gennaio",
-       "l'uno gennaio",
-       "il uno gennaio"
-      ],
-      "answer": "il primo gennaio"
-     },
-     {
-      "id": "g2",
-      "options": [
-       "l'otto marzo",
-       "il otto marzo",
-       "lo otto marzo"
-      ],
-      "answer": "l'otto marzo"
-     },
-     {
-      "id": "g3",
-      "options": [
-       "il due giugno",
-       "il secondo giugno",
-       "i due giugno"
-      ],
-      "answer": "il due giugno"
-     },
-     {
-      "id": "g4",
-      "options": [
-       "il quindici agosto",
-       "la quindici agosto",
-       "il quindicesimo agosto"
-      ],
-      "answer": "il quindici agosto"
-     },
-     {
-      "id": "g5",
-      "options": [
-       "l'undici novembre",
-       "il undici novembre",
-       "l'undicesimo novembre"
-      ],
-      "answer": "l'undici novembre"
-     },
-     {
-      "id": "g6",
-      "options": [
-       "il venticinque dicembre",
-       "il venticinquesimo dicembre",
-       "la venticinque dicembre"
-      ],
-      "answer": "il venticinque dicembre"
-     }
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-data-m1",
-  "title": "Quando è il compleanno?",
-  "language": "it",
-  "level": "A1",
-  "description": "Das Datum · Quando è il compleanno? (mittel).",
-  "topics": [
-   "Das Datum",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Per cominciare.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "5 · Famiglia e gite",
-    "section": "Per cominciare"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 5,
-  "grammar": {
-   "topic": "ecco1-data",
-   "topicTitle": "Das Datum",
-   "difficulty": "mittel",
-   "origin": "own",
-   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._",
-   "order": 11
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "gap_fill",
-    "prompt": "Schreibe das Datum in Worten.",
-    "explanation": "",
-    "text": "Il compleanno di Giulia è (3.4.) [[g1]].\nIl compleanno di mio fratello è (1.10.) [[g2]].\nIl mio compleanno è (8.2.) [[g3]].\nNatale è (25.12.) [[g4]].",
-    "gaps": [
-     {
-      "id": "g1",
-      "acceptedAnswers": [
-       "il tre aprile"
-      ]
-     },
-     {
-      "id": "g2",
-      "acceptedAnswers": [
-       "il primo ottobre"
-      ]
-     },
-     {
-      "id": "g3",
-      "acceptedAnswers": [
-       "l'otto febbraio"
-      ]
-     },
-     {
-      "id": "g4",
-      "acceptedAnswers": [
-       "il venticinque dicembre"
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-data-m2",
-  "title": "Geburtstage der Klasse",
-  "language": "it",
-  "level": "A1",
-  "description": "Das Datum · Geburtstage der Klasse (mittel).",
-  "topics": [
-   "Das Datum",
+   "La data",
    "Grammatik"
   ],
   "sources": [
@@ -53857,62 +54474,95 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-data",
-   "topicTitle": "Das Datum",
-   "difficulty": "mittel",
+   "topicTitle": "La data",
+   "difficulty": "leicht",
    "origin": "own",
-   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._",
-   "order": 12
+   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Il primo giorno del mese: **il primo** (aprile).\n- Davanti a vocale: **l’otto**, **l’undici** (agosto).\n- I mesi con la minuscola: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._\n- Davanti ai giorni della settimana nella data non c’è l’articolo: _sabato 14 marzo_.",
+   "ruleHelp": "- _Oggi è il quindici maggio._ – das Datum mit **il** + Grundzahl.\n- Nur der Erste wird mit Ordnungszahl gesagt: **il primo** aprile.\n- Vor Vokal: **l’otto**, **l’undici**. Monate klein.\n- Vor Wochentagen steht im Datum kein Artikel: _sabato 14 marzo_.",
+   "order": 13
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
-    "type": "gap_fill",
-    "prompt": "Schreibe das Datum in Worten.",
-    "explanation": "",
-    "text": "Luca: (2.1.) Il mio compleanno è [[g1]].\nSara: (1.3.) Il mio compleanno è [[g2]].\nTim: (8.5.) Il mio compleanno è [[g3]].\nAnna: (11.7.) Il mio compleanno è [[g4]].\nPaolo: (21.9.) Il mio compleanno è [[g5]].\nMarta: (30.10.) Il mio compleanno è [[g6]].\nGiulia: (13.12.) Il mio compleanno è [[g7]].",
+    "type": "gap_choice",
+    "prompt": "Scegli la data giusta.",
+    "explanation": "Solo il primo giorno con il numero ordinale (il primo). Gli altri: il + numero, davanti a vocale l’ (l’otto, l’undici).",
+    "promptHelp": "Wähle das richtige Datum.",
+    "explanationHelp": "Nur der Erste mit Ordnungszahl. Sonst il + Grundzahl, vor Vokal l’.",
+    "text": "Capodanno: [[g1]]\nLa festa della donna: [[g2]]\nLa festa della Repubblica: [[g3]]\nFerragosto: [[g4]]\nSan Martino: [[g5]]\nNatale: [[g6]]\nSanto Stefano: [[g7]]\nLa festa dei lavoratori: [[g8]]",
     "gaps": [
      {
       "id": "g1",
-      "acceptedAnswers": [
-       "il due gennaio"
-      ]
+      "options": [
+       "il primo gennaio",
+       "l’uno gennaio",
+       "il uno gennaio"
+      ],
+      "answer": "il primo gennaio"
      },
      {
       "id": "g2",
-      "acceptedAnswers": [
-       "il primo marzo"
-      ]
+      "options": [
+       "l’otto marzo",
+       "il otto marzo",
+       "lo otto marzo"
+      ],
+      "answer": "l’otto marzo"
      },
      {
       "id": "g3",
-      "acceptedAnswers": [
-       "l'otto maggio"
-      ]
+      "options": [
+       "il due giugno",
+       "il secondo giugno",
+       "i due giugno"
+      ],
+      "answer": "il due giugno"
      },
      {
       "id": "g4",
-      "acceptedAnswers": [
-       "l'undici luglio"
-      ]
+      "options": [
+       "il quindici agosto",
+       "la quindici agosto",
+       "il quindicesimo agosto"
+      ],
+      "answer": "il quindici agosto"
      },
      {
       "id": "g5",
-      "acceptedAnswers": [
-       "il ventuno settembre"
-      ]
+      "options": [
+       "l’undici novembre",
+       "il undici novembre",
+       "l’undicesimo novembre"
+      ],
+      "answer": "l’undici novembre"
      },
      {
       "id": "g6",
-      "acceptedAnswers": [
-       "il trenta ottobre"
-      ]
+      "options": [
+       "il venticinque dicembre",
+       "il venticinquesimo dicembre",
+       "la venticinque dicembre"
+      ],
+      "answer": "il venticinque dicembre"
      },
      {
       "id": "g7",
-      "acceptedAnswers": [
-       "il tredici dicembre"
-      ]
+      "options": [
+       "il ventisei dicembre",
+       "il ventiseiesimo dicembre",
+       "l’ventisei dicembre"
+      ],
+      "answer": "il ventisei dicembre"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "il primo maggio",
+       "l’uno maggio",
+       "il uno maggio"
+      ],
+      "answer": "il primo maggio"
      }
     ]
    }
@@ -53922,13 +54572,13 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-data-m3",
-  "title": "Quando?",
+  "id": "g-ecco1-data-m1",
+  "title": "Quando è il compleanno?",
   "language": "it",
   "level": "A1",
-  "description": "Das Datum · Quando? (mittel).",
+  "description": "La data · Quando è il compleanno? · livello medio.",
   "topics": [
-   "Das Datum",
+   "La data",
    "Grammatik"
   ],
   "sources": [
@@ -53956,13 +54606,234 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-data",
-   "topicTitle": "Das Datum",
+   "topicTitle": "La data",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._",
+   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Il primo giorno del mese: **il primo** (aprile).\n- Davanti a vocale: **l’otto**, **l’undici** (agosto).\n- I mesi con la minuscola: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._\n- Davanti ai giorni della settimana nella data non c’è l’articolo: _sabato 14 marzo_.",
+   "ruleHelp": "- _Oggi è il quindici maggio._ – das Datum mit **il** + Grundzahl.\n- Nur der Erste wird mit Ordnungszahl gesagt: **il primo** aprile.\n- Vor Vokal: **l’otto**, **l’undici**. Monate klein.\n- Vor Wochentagen steht im Datum kein Artikel: _sabato 14 marzo_.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi la data in lettere.",
+    "explanation": "",
+    "promptHelp": "Schreibe das Datum in Worten.",
+    "text": "Il compleanno di Giulia è (3.4.) [[g1]].\nIl compleanno di mio fratello è (1.10.) [[g2]].\nIl mio compleanno è (8.2.) [[g3]].\nNatale è (25.12.) [[g4]].\nIl compleanno della nonna è (11.7.) [[g5]].\nIl compleanno di Leo è (17.3.) [[g6]].\nIl compleanno di papà è (29.8.) [[g7]].\nIl compleanno di Sara è (1.1.) [[g8]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "il tre aprile"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "il primo ottobre"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "l’otto febbraio"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "il venticinque dicembre"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "l’undici luglio"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "il diciassette marzo"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "il ventinove agosto"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "il primo gennaio"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-data-m2",
+  "title": "I compleanni della classe",
+  "language": "it",
+  "level": "A1",
+  "description": "La data · I compleanni della classe · livello medio.",
+  "topics": [
+   "La data",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-data",
+   "topicTitle": "La data",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Il primo giorno del mese: **il primo** (aprile).\n- Davanti a vocale: **l’otto**, **l’undici** (agosto).\n- I mesi con la minuscola: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._\n- Davanti ai giorni della settimana nella data non c’è l’articolo: _sabato 14 marzo_.",
+   "ruleHelp": "- _Oggi è il quindici maggio._ – das Datum mit **il** + Grundzahl.\n- Nur der Erste wird mit Ordnungszahl gesagt: **il primo** aprile.\n- Vor Vokal: **l’otto**, **l’undici**. Monate klein.\n- Vor Wochentagen steht im Datum kein Artikel: _sabato 14 marzo_.",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi la data in lettere.",
+    "explanation": "",
+    "promptHelp": "Schreibe das Datum in Worten.",
+    "text": "Luca: (2.1.) Il mio compleanno è [[g1]].\nSara: (1.3.) Il mio compleanno è [[g2]].\nTim: (8.5.) Il mio compleanno è [[g3]].\nAnna: (11.7.) Il mio compleanno è [[g4]].\nPaolo: (21.9.) Il mio compleanno è [[g5]].\nMarta: (30.10.) Il mio compleanno è [[g6]].\nGiulia: (13.12.) Il mio compleanno è [[g7]].\nLeo: (6.4.) Il mio compleanno è [[g8]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "il due gennaio"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "il primo marzo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "l’otto maggio"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "l’undici luglio"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "il ventuno settembre"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "il trenta ottobre"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "il tredici dicembre"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "il sei aprile"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-data-m3",
+  "title": "Quando?",
+  "language": "it",
+  "level": "A1",
+  "description": "La data · Quando? · livello medio.",
+  "topics": [
+   "La data",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-data",
+   "topicTitle": "La data",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Il primo giorno del mese: **il primo** (aprile).\n- Davanti a vocale: **l’otto**, **l’undici** (agosto).\n- I mesi con la minuscola: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._\n- Davanti ai giorni della settimana nella data non c’è l’articolo: _sabato 14 marzo_.",
+   "ruleHelp": "- _Oggi è il quindici maggio._ – das Datum mit **il** + Grundzahl.\n- Nur der Erste wird mit Ordnungszahl gesagt: **il primo** aprile.\n- Vor Vokal: **l’otto**, **l’undici**. Monate klein.\n- Vor Wochentagen steht im Datum kein Artikel: _sabato 14 marzo_.",
    "order": 13
   },
   "vocabularyIds": [],
@@ -53970,8 +54841,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "sentence_completion",
-    "prompt": "Antworte mit dem Datum.",
+    "prompt": "Rispondi con la data.",
     "explanation": "",
+    "promptHelp": "Antworte mit dem Datum.",
     "items": [
      {
       "id": "s1",
@@ -54001,9 +54873,9 @@ const STOCK_PACKAGES = [
       "id": "s4",
       "start": "Che giorno è oggi? (8.4.) – Oggi è …",
       "acceptedAnswers": [
-       "l'otto aprile"
+       "l’otto aprile"
       ],
-      "modelAnswer": "Oggi è l'otto aprile."
+      "modelAnswer": "Oggi è l’otto aprile."
      },
      {
       "id": "s5",
@@ -54012,6 +54884,30 @@ const STOCK_PACKAGES = [
        "il trentuno luglio"
       ],
       "modelAnswer": "Partiamo il trentuno luglio."
+     },
+     {
+      "id": "s6",
+      "start": "Quando finisce la scuola? (10.6.) – Finisce …",
+      "acceptedAnswers": [
+       "il dieci giugno"
+      ],
+      "modelAnswer": "Finisce il dieci giugno."
+     },
+     {
+      "id": "s7",
+      "start": "Quando è la gita? (11.5.) – È …",
+      "acceptedAnswers": [
+       "l’undici maggio"
+      ],
+      "modelAnswer": "È l’undici maggio."
+     },
+     {
+      "id": "s8",
+      "start": "Quando torni? (3.8.) – Torno …",
+      "acceptedAnswers": [
+       "il tre agosto"
+      ],
+      "modelAnswer": "Torno il tre agosto."
      }
     ]
    }
@@ -54022,71 +54918,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-data-s1",
-  "title": "Geburtstage in deiner Familie",
+  "title": "Compleanni in famiglia",
   "language": "it",
   "level": "A1",
-  "description": "Das Datum · Geburtstage in deiner Familie (schwer).",
+  "description": "La data · Compleanni in famiglia · livello difficile.",
   "topics": [
-   "Das Datum",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Per cominciare.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "5 · Famiglia e gite",
-    "section": "Per cominciare"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 3,
-  "grammar": {
-   "topic": "ecco1-data",
-   "topicTitle": "Das Datum",
-   "difficulty": "schwer",
-   "origin": "own",
-   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._",
-   "order": 11
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "open_answer",
-    "prompt": "Schreibe 4 Sätze: Wann haben du und deine Familie Geburtstag?",
-    "explanation": "",
-    "modelAnswer": "Il mio compleanno è il dodici luglio. Il compleanno di mia madre è il primo marzo. Mio padre festeggia l'otto settembre.",
-    "lines": 4
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-data-s2",
-  "title": "Fehler im Kalender",
-  "language": "it",
-  "level": "A1",
-  "description": "Das Datum · Fehler im Kalender (schwer).",
-  "topics": [
-   "Das Datum",
+   "La data",
    "Grammatik"
   ],
   "sources": [
@@ -54117,10 +54954,106 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-data",
-   "topicTitle": "Das Datum",
+   "topicTitle": "La data",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._",
+   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Il primo giorno del mese: **il primo** (aprile).\n- Davanti a vocale: **l’otto**, **l’undici** (agosto).\n- I mesi con la minuscola: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._\n- Davanti ai giorni della settimana nella data non c’è l’articolo: _sabato 14 marzo_.",
+   "ruleHelp": "- _Oggi è il quindici maggio._ – das Datum mit **il** + Grundzahl.\n- Nur der Erste wird mit Ordnungszahl gesagt: **il primo** aprile.\n- Vor Vokal: **l’otto**, **l’undici**. Monate klein.\n- Vor Wochentagen steht im Datum kein Artikel: _sabato 14 marzo_.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Scrivi 4 frasi: quando fai il compleanno tu e la tua famiglia?",
+    "explanation": "",
+    "promptHelp": "Schreibe 4 Sätze: Wann haben du und deine Familie Geburtstag?",
+    "modelAnswer": "Il mio compleanno è il dodici luglio. Il compleanno di mia madre è il primo marzo. Mio padre festeggia l’otto settembre.",
+    "lines": 4
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "E adesso scrivi in lettere.",
+    "explanation": "",
+    "promptHelp": "Und jetzt schreibe in Worten.",
+    "text": "(5.5.) [[g1]]\n(1.9.) [[g2]]\n(8.12.) [[g3]]\n(11.2.) [[g4]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "il cinque maggio"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "il primo settembre"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "l’otto dicembre"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "l’undici febbraio"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-data-s2",
+  "title": "Errori nel calendario",
+  "language": "it",
+  "level": "A1",
+  "description": "La data · Errori nel calendario · livello difficile.",
+  "topics": [
+   "La data",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-data",
+   "topicTitle": "La data",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Il primo giorno del mese: **il primo** (aprile).\n- Davanti a vocale: **l’otto**, **l’undici** (agosto).\n- I mesi con la minuscola: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._\n- Davanti ai giorni della settimana nella data non c’è l’articolo: _sabato 14 marzo_.",
+   "ruleHelp": "- _Oggi è il quindici maggio._ – das Datum mit **il** + Grundzahl.\n- Nur der Erste wird mit Ordnungszahl gesagt: **il primo** aprile.\n- Vor Vokal: **l’otto**, **l’undici**. Monate klein.\n- Vor Wochentagen steht im Datum kein Artikel: _sabato 14 marzo_.",
    "order": 12
   },
   "vocabularyIds": [],
@@ -54128,15 +55061,17 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "error_correction",
-    "prompt": "Korrigiere die fünf Fehler.",
-    "explanation": "Monate klein, il primo, l'otto, l'undici, sonst il.",
-    "text": "Il mio compleanno è [[g1]] marzo.\nOggi è il [[g2]] maggio.\nNatale è il venticinque [[g3]].\nLa festa è [[g4]] giugno.\nIl mio compleanno è [[g5]] tre aprile.",
+    "prompt": "Correggi gli otto errori.",
+    "explanation": "I mesi minuscoli, il primo, l’otto, l’undici; nessun articolo davanti al giorno della settimana nella data.",
+    "promptHelp": "Korrigiere die acht Fehler.",
+    "explanationHelp": "Monate klein, il primo, l’otto, l’undici; kein Artikel vor dem Wochentag im Datum.",
+    "text": "Il mio compleanno è [[g1]] marzo.\nOggi è il [[g2]] maggio.\nNatale è il venticinque [[g3]].\nLa festa è [[g4]] giugno.\nIl mio compleanno è [[g5]] tre aprile.\nOggi è [[g6]] undici novembre.\nLa gita è [[g7]] ottobre.\nCi vediamo [[g8]].",
     "errors": [
      {
       "id": "g1",
       "wrong": "il otto",
       "acceptedAnswers": [
-       "l'otto"
+       "l’otto"
       ]
      },
      {
@@ -54155,9 +55090,9 @@ const STOCK_PACKAGES = [
      },
      {
       "id": "g4",
-      "wrong": "l'undicesimo",
+      "wrong": "l’undicesimo",
       "acceptedAnswers": [
-       "l'undici"
+       "l’undici"
       ]
      },
      {
@@ -54165,6 +55100,138 @@ const STOCK_PACKAGES = [
       "wrong": "lo",
       "acceptedAnswers": [
        "il"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "il",
+      "acceptedAnswers": [
+       "l’"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "il secondo",
+      "acceptedAnswers": [
+       "il due"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "il sabato 14 marzo",
+      "acceptedAnswers": [
+       "sabato 14 marzo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-data-s3",
+  "title": "Il calendario di Khalid",
+  "language": "it",
+  "level": "A1",
+  "description": "La data · Il calendario di Khalid · livello difficile.",
+  "topics": [
+   "La data",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-data",
+   "topicTitle": "La data",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Il primo giorno del mese: **il primo** (aprile).\n- Davanti a vocale: **l’otto**, **l’undici** (agosto).\n- I mesi con la minuscola: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._\n- Davanti ai giorni della settimana nella data non c’è l’articolo: _sabato 14 marzo_.",
+   "ruleHelp": "- _Oggi è il quindici maggio._ – das Datum mit **il** + Grundzahl.\n- Nur der Erste wird mit Ordnungszahl gesagt: **il primo** aprile.\n- Vor Vokal: **l’otto**, **l’undici**. Monate klein.\n- Vor Wochentagen steht im Datum kein Artikel: _sabato 14 marzo_.",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi la data con o senza articolo.",
+    "explanation": "Con il giorno della settimana: niente articolo (sabato venti aprile).",
+    "promptHelp": "Setze das Datum mit oder ohne Artikel ein.",
+    "explanationHelp": "Mit Wochentag kein Artikel.",
+    "text": "Il mio compleanno è (19.4.) [[g1]].\nMa festeggio (sabato 20.4.) [[g2]].\nIl compleanno di Anna è (1.4.) [[g3]].\nLa sua festa è (venerdì 3.4.) [[g4]].\nLunedì (6.4.) [[g5]] gioca la Juve.\nIl compleanno del nonno è (24.4.) [[g6]].\nLa festa del nonno è (domenica 26.4.) [[g7]].\nLa mia festa è (25.4.) [[g8]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "il diciannove aprile"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "sabato venti aprile"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "il primo aprile"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "venerdì tre aprile"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "sei aprile"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "il ventiquattro aprile"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "domenica ventisei aprile"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "il venticinque aprile"
       ]
      }
     ]
@@ -54179,7 +55246,7 @@ const STOCK_PACKAGES = [
   "title": "Quale forma?",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -ere al presente · Quale forma? (einfach).",
+  "description": "I verbi in -ere al presente · Quale forma? · livello facile.",
   "topics": [
    "I verbi in -ere al presente",
    "Grammatik"
@@ -54332,7 +55399,7 @@ const STOCK_PACKAGES = [
   "title": "-ere: persona e forma",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -ere al presente · -ere: persona e forma (einfach).",
+  "description": "I verbi in -ere al presente · -ere: persona e forma · livello facile.",
   "topics": [
    "I verbi in -ere al presente",
    "Grammatik"
@@ -54437,7 +55504,7 @@ const STOCK_PACKAGES = [
   "title": "-are o -ere?",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -ere al presente · -are o -ere? (einfach).",
+  "description": "I verbi in -ere al presente · -are o -ere? · livello facile.",
   "topics": [
    "I verbi in -ere al presente",
    "Grammatik"
@@ -54559,7 +55626,7 @@ const STOCK_PACKAGES = [
   "title": "-are o -ere?",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -ere al presente · -are o -ere? (mittel).",
+  "description": "I verbi in -ere al presente · -are o -ere? · livello medio.",
   "topics": [
    "I verbi in -ere al presente",
    "Grammatik"
@@ -54716,7 +55783,7 @@ const STOCK_PACKAGES = [
   "title": "Nel quartiere",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -ere al presente · Nel quartiere (mittel).",
+  "description": "I verbi in -ere al presente · Nel quartiere · livello medio.",
   "topics": [
    "I verbi in -ere al presente",
    "Grammatik"
@@ -54827,7 +55894,7 @@ const STOCK_PACKAGES = [
   "title": "Dopo la scuola",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -ere al presente · Dopo la scuola (mittel).",
+  "description": "I verbi in -ere al presente · Dopo la scuola · livello medio.",
   "topics": [
    "I verbi in -ere al presente",
    "Grammatik"
@@ -54938,7 +56005,7 @@ const STOCK_PACKAGES = [
   "title": "Trova gli errori",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -ere al presente · Trova gli errori (schwer).",
+  "description": "I verbi in -ere al presente · Trova gli errori · livello difficile.",
   "topics": [
    "I verbi in -ere al presente",
    "Grammatik"
@@ -55057,7 +56124,7 @@ const STOCK_PACKAGES = [
   "title": "-are o -ere? Misto",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -ere al presente · -are o -ere? Misto (schwer).",
+  "description": "I verbi in -ere al presente · -are o -ere? Misto · livello difficile.",
   "topics": [
    "I verbi in -ere al presente",
    "Grammatik"
@@ -55192,7 +56259,7 @@ const STOCK_PACKAGES = [
   "title": "Tabella -are e -ere",
   "language": "it",
   "level": "A1",
-  "description": "I verbi in -ere al presente · Tabella -are e -ere (schwer).",
+  "description": "I verbi in -ere al presente · Tabella -are e -ere · livello difficile.",
   "topics": [
    "I verbi in -ere al presente",
    "Grammatik"
@@ -55385,7 +56452,7 @@ const STOCK_PACKAGES = [
   "title": "essere: quale forma?",
   "language": "it",
   "level": "A1",
-  "description": "I verbi essere e stare · essere: quale forma? (einfach).",
+  "description": "I verbi essere e stare · essere: quale forma? · livello facile.",
   "topics": [
    "I verbi essere e stare",
    "Grammatik"
@@ -55538,7 +56605,7 @@ const STOCK_PACKAGES = [
   "title": "Come stai?",
   "language": "it",
   "level": "A1",
-  "description": "I verbi essere e stare · Come stai? (einfach).",
+  "description": "I verbi essere e stare · Come stai? · livello facile.",
   "topics": [
    "I verbi essere e stare",
    "Grammatik"
@@ -55673,7 +56740,7 @@ const STOCK_PACKAGES = [
   "title": "Forme di essere e stare",
   "language": "it",
   "level": "A1",
-  "description": "I verbi essere e stare · Forme di essere e stare (einfach).",
+  "description": "I verbi essere e stare · Forme di essere e stare · livello facile.",
   "topics": [
    "I verbi essere e stare",
    "Grammatik"
@@ -55795,7 +56862,7 @@ const STOCK_PACKAGES = [
   "title": "Chi è chi?",
   "language": "it",
   "level": "A1",
-  "description": "I verbi essere e stare · Chi è chi? (einfach).",
+  "description": "I verbi essere e stare · Chi è chi? · livello facile.",
   "topics": [
    "I verbi essere e stare",
    "Grammatik"
@@ -55930,7 +56997,7 @@ const STOCK_PACKAGES = [
   "title": "essere o stare?",
   "language": "it",
   "level": "A1",
-  "description": "I verbi essere e stare · essere o stare? (mittel).",
+  "description": "I verbi essere e stare · essere o stare? · livello medio.",
   "topics": [
    "I verbi essere e stare",
    "Grammatik"
@@ -56073,7 +57140,7 @@ const STOCK_PACKAGES = [
   "title": "Un dialogo",
   "language": "it",
   "level": "A1",
-  "description": "I verbi essere e stare · Un dialogo (mittel).",
+  "description": "I verbi essere e stare · Un dialogo · livello medio.",
   "topics": [
    "I verbi essere e stare",
    "Grammatik"
@@ -56196,7 +57263,7 @@ const STOCK_PACKAGES = [
   "title": "Al telefono",
   "language": "it",
   "level": "A1",
-  "description": "I verbi essere e stare · Al telefono (mittel).",
+  "description": "I verbi essere e stare · Al telefono · livello medio.",
   "topics": [
    "I verbi essere e stare",
    "Grammatik"
@@ -56318,7 +57385,7 @@ const STOCK_PACKAGES = [
   "title": "Come va?",
   "language": "it",
   "level": "A1",
-  "description": "I verbi essere e stare · Come va? (mittel).",
+  "description": "I verbi essere e stare · Come va? · livello medio.",
   "topics": [
    "I verbi essere e stare",
    "Grammatik"
@@ -56444,7 +57511,7 @@ const STOCK_PACKAGES = [
   "title": "Errori nel dialogo",
   "language": "it",
   "level": "A1",
-  "description": "I verbi essere e stare · Errori nel dialogo (schwer).",
+  "description": "I verbi essere e stare · Errori nel dialogo · livello difficile.",
   "topics": [
    "I verbi essere e stare",
    "Grammatik"
@@ -56563,7 +57630,7 @@ const STOCK_PACKAGES = [
   "title": "Chi sei?",
   "language": "it",
   "level": "A1",
-  "description": "I verbi essere e stare · Chi sei? (schwer).",
+  "description": "I verbi essere e stare · Chi sei? · livello difficile.",
   "topics": [
    "I verbi essere e stare",
    "Grammatik"
@@ -56624,7 +57691,7 @@ const STOCK_PACKAGES = [
   "title": "essere o stare nel testo",
   "language": "it",
   "level": "A1",
-  "description": "I verbi essere e stare · essere o stare nel testo (schwer).",
+  "description": "I verbi essere e stare · essere o stare nel testo · livello difficile.",
   "topics": [
    "I verbi essere e stare",
    "Grammatik"
@@ -56747,7 +57814,7 @@ const STOCK_PACKAGES = [
   "title": "Frasi da costruire",
   "language": "it",
   "level": "A1",
-  "description": "I verbi essere e stare · Frasi da costruire (schwer).",
+  "description": "I verbi essere e stare · Frasi da costruire · livello difficile.",
   "topics": [
    "I verbi essere e stare",
    "Grammatik"
@@ -56871,12 +57938,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-gia-ancora-l1",
-  "title": "Wo steht già?",
+  "title": "Dove va già?",
   "language": "it",
   "level": "A1",
-  "description": "già und (non …) ancora · Wo steht già? (einfach).",
+  "description": "Già e (non …) ancora · Dove va già? · livello facile.",
   "topics": [
-   "già und (non …) ancora",
+   "Già e (non …) ancora",
    "Grammatik"
   ],
   "sources": [
@@ -56904,13 +57971,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 16,
   "grammar": {
    "topic": "ecco1-gia-ancora",
-   "topicTitle": "già und (non …) ancora",
+   "topicTitle": "Già e (non …) ancora",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)",
+   "rule": "Nel passato prossimo **già** e **ancora** stanno **tra l’ausiliare e il participio**:\n- _Ho **già** fatto i compiti._\n- _**Non** ho **ancora** mangiato._",
+   "ruleHelp": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**: _Ho già fatto i compiti._ (schon gemacht) · _Non ho ancora mangiato._ (noch nicht gegessen)",
    "order": 51
   },
   "vocabularyIds": [],
@@ -56918,8 +57986,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "single_choice",
-    "prompt": "Welcher Satz ist richtig?",
+    "prompt": "Qual è la frase giusta?",
     "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
     "options": [
      {
       "id": "o1",
@@ -56939,8 +58008,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q2",
     "type": "single_choice",
-    "prompt": "Welcher Satz ist richtig?",
+    "prompt": "Qual è la frase giusta?",
     "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
     "options": [
      {
       "id": "o1",
@@ -56956,6 +58026,138 @@ const STOCK_PACKAGES = [
      }
     ],
     "correctOptionId": "o1"
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Marco è già partito."
+     },
+     {
+      "id": "o2",
+      "text": "Marco già è partito."
+     },
+     {
+      "id": "o3",
+      "text": "Marco è partito già."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Non abbiamo ancora mangiato."
+     },
+     {
+      "id": "o2",
+      "text": "Abbiamo non ancora mangiato."
+     },
+     {
+      "id": "o3",
+      "text": "Non ancora abbiamo mangiato."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Hai già fatto i compiti?"
+     },
+     {
+      "id": "o2",
+      "text": "Hai fatto già i compiti?"
+     },
+     {
+      "id": "o3",
+      "text": "Già hai fatto i compiti?"
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q6",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Le ragazze non sono ancora arrivate."
+     },
+     {
+      "id": "o2",
+      "text": "Le ragazze non ancora sono arrivate."
+     },
+     {
+      "id": "o3",
+      "text": "Le ragazze sono non ancora arrivate."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q7",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Ho già letto il libro."
+     },
+     {
+      "id": "o2",
+      "text": "Già ho letto il libro."
+     },
+     {
+      "id": "o3",
+      "text": "Ho letto già il libro."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q8",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Non hai ancora telefonato alla nonna?"
+     },
+     {
+      "id": "o2",
+      "text": "Non ancora hai telefonato alla nonna?"
+     },
+     {
+      "id": "o3",
+      "text": "Hai non ancora telefonato alla nonna?"
+     }
+    ],
+    "correctOptionId": "o1"
    }
   ]
  },
@@ -56964,191 +58166,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-gia-ancora-l2",
-  "title": "Schon oder noch nicht?",
+  "title": "Già o non … ancora?",
   "language": "it",
   "level": "A1",
-  "description": "già und (non …) ancora · Schon oder noch nicht? (einfach).",
+  "description": "Già e (non …) ancora · Già o non … ancora? · livello facile.",
   "topics": [
-   "già und (non …) ancora",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 4 · Tempo libero · Parte B.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "4 · Tempo libero",
-    "section": "Parte B"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 5,
-  "grammar": {
-   "topic": "ecco1-gia-ancora",
-   "topicTitle": "già und (non …) ancora",
-   "difficulty": "leicht",
-   "origin": "own",
-   "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)",
-   "order": 52
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "matching",
-    "prompt": "Was bedeutet das?",
-    "explanation": "",
-    "pairs": [
-     {
-      "id": "p1",
-      "left": "Ho già mangiato.",
-      "right": "Ich habe schon gegessen."
-     },
-     {
-      "id": "p2",
-      "left": "Non ho ancora mangiato.",
-      "right": "Ich habe noch nicht gegessen."
-     },
-     {
-      "id": "p3",
-      "left": "Sei già arrivato?",
-      "right": "Bist du schon angekommen?"
-     },
-     {
-      "id": "p4",
-      "left": "Non sono ancora partita.",
-      "right": "Ich bin noch nicht abgefahren."
-     },
-     {
-      "id": "p5",
-      "left": "Abbiamo già finito.",
-      "right": "Wir sind schon fertig."
-     }
-    ],
-    "distractors": [
-     "Ich esse noch."
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-gia-ancora-m1",
-  "title": "già oder ancora?",
-  "language": "it",
-  "level": "A1",
-  "description": "già und (non …) ancora · già oder ancora? (mittel).",
-  "topics": [
-   "già und (non …) ancora",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 4 · Tempo libero · Parte B.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "4 · Tempo libero",
-    "section": "Parte B"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 5,
-  "grammar": {
-   "topic": "ecco1-gia-ancora",
-   "topicTitle": "già und (non …) ancora",
-   "difficulty": "mittel",
-   "origin": "own",
-   "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)",
-   "order": 51
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "gap_choice",
-    "prompt": "Wähle già oder ancora.",
-    "explanation": "",
-    "text": "Hai [[g1]] fatto i compiti? – Sì, li ho fatti ieri.\nNo, non ho [[g2]] mangiato. Ho fame!\nMarco è [[g3]] arrivato? – Sì, è qui.\nNon abbiamo [[g4]] deciso.",
-    "gaps": [
-     {
-      "id": "g1",
-      "options": [
-       "già",
-       "ancora"
-      ],
-      "answer": "già"
-     },
-     {
-      "id": "g2",
-      "options": [
-       "ancora",
-       "già"
-      ],
-      "answer": "ancora"
-     },
-     {
-      "id": "g3",
-      "options": [
-       "già",
-       "ancora"
-      ],
-      "answer": "già"
-     },
-     {
-      "id": "g4",
-      "options": [
-       "ancora",
-       "già"
-      ],
-      "answer": "ancora"
-     }
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-gia-ancora-m2",
-  "title": "Prima della festa",
-  "language": "it",
-  "level": "A1",
-  "description": "già und (non …) ancora · Prima della festa (mittel).",
-  "topics": [
-   "già und (non …) ancora",
+   "Già e (non …) ancora",
    "Grammatik"
   ],
   "sources": [
@@ -57179,20 +58202,127 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-gia-ancora",
-   "topicTitle": "già und (non …) ancora",
-   "difficulty": "mittel",
+   "topicTitle": "Già e (non …) ancora",
+   "difficulty": "leicht",
    "origin": "own",
-   "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)",
+   "rule": "Nel passato prossimo **già** e **ancora** stanno **tra l’ausiliare e il participio**:\n- _Ho **già** fatto i compiti._\n- _**Non** ho **ancora** mangiato._",
+   "ruleHelp": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**: _Ho già fatto i compiti._ (schon gemacht) · _Non ho ancora mangiato._ (noch nicht gegessen)",
    "order": 52
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
+    "type": "matching",
+    "prompt": "Che cosa vuol dire?",
+    "explanation": "",
+    "promptHelp": "Was bedeutet das?",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Ho già mangiato.",
+      "right": "Ich habe schon gegessen."
+     },
+     {
+      "id": "p2",
+      "left": "Non ho ancora mangiato.",
+      "right": "Ich habe noch nicht gegessen."
+     },
+     {
+      "id": "p3",
+      "left": "Sei già arrivato?",
+      "right": "Bist du schon angekommen?"
+     },
+     {
+      "id": "p4",
+      "left": "Non sono ancora partita.",
+      "right": "Ich bin noch nicht abgefahren."
+     },
+     {
+      "id": "p5",
+      "left": "Abbiamo già finito.",
+      "right": "Wir sind schon fertig."
+     },
+     {
+      "id": "p6",
+      "left": "Non avete ancora visto il film?",
+      "right": "Habt ihr den Film noch nicht gesehen?"
+     },
+     {
+      "id": "p7",
+      "left": "Hanno già comprato i biglietti.",
+      "right": "Sie haben die Karten schon gekauft."
+     },
+     {
+      "id": "p8",
+      "left": "Non è ancora tornato.",
+      "right": "Er ist noch nicht zurück."
+     }
+    ],
+    "distractors": [
+     "Ich esse noch."
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-gia-ancora-l3",
+  "title": "Prima della festa",
+  "language": "it",
+  "level": "A1",
+  "description": "Già e (non …) ancora · Prima della festa · livello facile.",
+  "topics": [
+   "Già e (non …) ancora",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 4 · Tempo libero · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-gia-ancora",
+   "topicTitle": "Già e (non …) ancora",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Nel passato prossimo **già** e **ancora** stanno **tra l’ausiliare e il participio**:\n- _Ho **già** fatto i compiti._\n- _**Non** ho **ancora** mangiato._",
+   "ruleHelp": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**: _Ho già fatto i compiti._ (schon gemacht) · _Non ho ancora mangiato._ (noch nicht gegessen)",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle già oder ancora.",
+    "prompt": "Scegli già o ancora (✓ = fatto, ✗ = non fatto).",
     "explanation": "✓ = già · ✗ = non … ancora.",
-    "text": "Abbiamo [[g1]] comprato le bibite. ✓\nNon abbiamo [[g2]] preparato la torta. ✗\nLuca ha [[g3]] mandato gli inviti. ✓\nSara non è [[g4]] arrivata. ✗\nHo [[g5]] messo la musica. ✓\nI ragazzi non hanno [[g6]] pulito la cucina. ✗",
+    "promptHelp": "Wähle già oder ancora.",
+    "explanationHelp": "✓ = già · ✗ = non … ancora.",
+    "text": "Abbiamo [[g1]] comprato le bibite. ✓\nNon abbiamo [[g2]] preparato la torta. ✗\nLuca ha [[g3]] mandato gli inviti. ✓\nSara non è [[g4]] arrivata. ✗\nHo [[g5]] messo la musica. ✓\nI ragazzi non hanno [[g6]] pulito la cucina. ✗\nAbbiamo [[g7]] decorato la sala. ✓\nNon ho [[g8]] comprato il regalo. ✗",
     "gaps": [
      {
       "id": "g1",
@@ -57241,6 +58371,22 @@ const STOCK_PACKAGES = [
        "già"
       ],
       "answer": "ancora"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "già",
+       "ancora"
+      ],
+      "answer": "già"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "ancora",
+       "già"
+      ],
+      "answer": "ancora"
      }
     ]
    }
@@ -57250,13 +58396,13 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-gia-ancora-m3",
-  "title": "Antworte",
+  "id": "g-ecco1-gia-ancora-m1",
+  "title": "Già o ancora?",
   "language": "it",
   "level": "A1",
-  "description": "già und (non …) ancora · Antworte (mittel).",
+  "description": "Già e (non …) ancora · Già o ancora? · livello medio.",
   "topics": [
-   "già und (non …) ancora",
+   "Già e (non …) ancora",
    "Grammatik"
   ],
   "sources": [
@@ -57284,22 +58430,151 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-gia-ancora",
-   "topicTitle": "già und (non …) ancora",
+   "topicTitle": "Già e (non …) ancora",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)",
-   "order": 53
+   "rule": "Nel passato prossimo **già** e **ancora** stanno **tra l’ausiliare e il participio**:\n- _Ho **già** fatto i compiti._\n- _**Non** ho **ancora** mangiato._",
+   "ruleHelp": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**: _Ho già fatto i compiti._ (schon gemacht) · _Non ho ancora mangiato._ (noch nicht gegessen)",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli già o ancora.",
+    "explanation": "",
+    "promptHelp": "Wähle già oder ancora.",
+    "text": "Hai [[g1]] fatto i compiti? – Sì, li ho fatti ieri.\nNo, non ho [[g2]] mangiato. Ho fame!\nMarco è [[g3]] arrivato? – Sì, è qui.\nNon abbiamo [[g4]] deciso.\nI biglietti? Li ho [[g5]] comprati.\nNon sono [[g6]] pronta, aspetta!\nIl film è [[g7]] cominciato, presto!\nNon avete [[g8]] finito?",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "già",
+       "ancora"
+      ],
+      "answer": "già"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "ancora",
+       "già"
+      ],
+      "answer": "ancora"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "già",
+       "ancora"
+      ],
+      "answer": "già"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "ancora",
+       "già"
+      ],
+      "answer": "ancora"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "già",
+       "ancora"
+      ],
+      "answer": "già"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "ancora",
+       "già"
+      ],
+      "answer": "ancora"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "già",
+       "ancora"
+      ],
+      "answer": "già"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "ancora",
+       "già"
+      ],
+      "answer": "ancora"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-gia-ancora-m2",
+  "title": "Rispondi",
+  "language": "it",
+  "level": "A1",
+  "description": "Già e (non …) ancora · Rispondi · livello medio.",
+  "topics": [
+   "Già e (non …) ancora",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 4 · Tempo libero · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-gia-ancora",
+   "topicTitle": "Già e (non …) ancora",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Nel passato prossimo **già** e **ancora** stanno **tra l’ausiliare e il participio**:\n- _Ho **già** fatto i compiti._\n- _**Non** ho **ancora** mangiato._",
+   "ruleHelp": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**: _Ho già fatto i compiti._ (schon gemacht) · _Non ho ancora mangiato._ (noch nicht gegessen)",
+   "order": 52
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
     "type": "sentence_completion",
-    "prompt": "Antworte mit già (sì) oder non … ancora (no).",
-    "explanation": "già und ancora stehen zwischen Hilfsverb und Partizip.",
+    "prompt": "Rispondi con già (sì) o non … ancora (no).",
+    "explanation": "già e ancora vanno tra l’ausiliare e il participio.",
+    "promptHelp": "Antworte mit già (sì) oder non … ancora (no).",
+    "explanationHelp": "già und ancora stehen zwischen Hilfsverb und Partizip.",
     "items": [
      {
       "id": "s1",
@@ -57340,6 +58615,30 @@ const STOCK_PACKAGES = [
        "sono già partite"
       ],
       "modelAnswer": "Sì, sono già partite."
+     },
+     {
+      "id": "s6",
+      "start": "Hai comprato il pane? (no) – No, …",
+      "acceptedAnswers": [
+       "non ho ancora comprato il pane"
+      ],
+      "modelAnswer": "No, non ho ancora comprato il pane."
+     },
+     {
+      "id": "s7",
+      "start": "Avete finito? (sì) – Sì, …",
+      "acceptedAnswers": [
+       "abbiamo già finito"
+      ],
+      "modelAnswer": "Sì, abbiamo già finito."
+     },
+     {
+      "id": "s8",
+      "start": "Sara è arrivata? (no) – No, …",
+      "acceptedAnswers": [
+       "non è ancora arrivata"
+      ],
+      "modelAnswer": "No, Sara non è ancora arrivata."
      }
     ]
    }
@@ -57349,13 +58648,13 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-gia-ancora-s1",
-  "title": "Wörter ordnen",
+  "id": "g-ecco1-gia-ancora-m3",
+  "title": "La lista delle cose da fare",
   "language": "it",
   "level": "A1",
-  "description": "già und (non …) ancora · Wörter ordnen (schwer).",
+  "description": "Già e (non …) ancora · La lista delle cose da fare · livello medio.",
   "topics": [
-   "già und (non …) ancora",
+   "Già e (non …) ancora",
    "Grammatik"
   ],
   "sources": [
@@ -57386,43 +58685,70 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-gia-ancora",
-   "topicTitle": "già und (non …) ancora",
-   "difficulty": "schwer",
+   "topicTitle": "Già e (non …) ancora",
+   "difficulty": "mittel",
    "origin": "own",
-   "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)",
-   "order": 51
+   "rule": "Nel passato prossimo **già** e **ancora** stanno **tra l’ausiliare e il participio**:\n- _Ho **già** fatto i compiti._\n- _**Non** ho **ancora** mangiato._",
+   "ruleHelp": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**: _Ho già fatto i compiti._ (schon gemacht) · _Non ho ancora mangiato._ (noch nicht gegessen)",
+   "order": 53
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
-    "type": "ordering",
-    "prompt": "Bringe die Wörter in die richtige Reihenfolge: „Ich habe die Hausaufgaben noch nicht gemacht.“",
+    "type": "gap_fill",
+    "prompt": "Leggi la lista e scrivi già o ancora. ✓ = fatto, ✗ = non fatto.",
     "explanation": "",
-    "items": [
+    "promptHelp": "Lies die Liste und ergänze già oder ancora.",
+    "text": "✓ biglietti: Ho [[g1]] comprato i biglietti.\n✗ valigia: Non ho [[g2]] fatto la valigia.\n✓ nonna: Ho [[g3]] telefonato alla nonna.\n✗ compiti: Non ho [[g4]] finito i compiti.\n✓ bici: Ho [[g5]] riparato la bici.\n✗ regalo: Non ho [[g6]] comprato il regalo per Leo.\n✓ camera: Ho [[g7]] messo in ordine la camera.\n✗ cane: Non ho [[g8]] portato fuori il cane.",
+    "gaps": [
      {
-      "id": "i1",
-      "text": "Non"
+      "id": "g1",
+      "acceptedAnswers": [
+       "già"
+      ]
      },
      {
-      "id": "i2",
-      "text": "ho"
+      "id": "g2",
+      "acceptedAnswers": [
+       "ancora"
+      ]
      },
      {
-      "id": "i3",
-      "text": "ancora"
+      "id": "g3",
+      "acceptedAnswers": [
+       "già"
+      ]
      },
      {
-      "id": "i4",
-      "text": "fatto"
+      "id": "g4",
+      "acceptedAnswers": [
+       "ancora"
+      ]
      },
      {
-      "id": "i5",
-      "text": "i"
+      "id": "g5",
+      "acceptedAnswers": [
+       "già"
+      ]
      },
      {
-      "id": "i6",
-      "text": "compiti"
+      "id": "g6",
+      "acceptedAnswers": [
+       "ancora"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "già"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ancora"
+      ]
      }
     ]
    }
@@ -57432,13 +58758,13 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-gia-ancora-s2",
-  "title": "Fehler finden",
+  "id": "g-ecco1-gia-ancora-s1",
+  "title": "Metti in ordine",
   "language": "it",
   "level": "A1",
-  "description": "già und (non …) ancora · Fehler finden (schwer).",
+  "description": "Già e (non …) ancora · Metti in ordine · livello difficile.",
   "topics": [
-   "già und (non …) ancora",
+   "Già e (non …) ancora",
    "Grammatik"
   ],
   "sources": [
@@ -57466,13 +58792,149 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 15,
   "grammar": {
    "topic": "ecco1-gia-ancora",
-   "topicTitle": "già und (non …) ancora",
+   "topicTitle": "Già e (non …) ancora",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)",
+   "rule": "Nel passato prossimo **già** e **ancora** stanno **tra l’ausiliare e il participio**:\n- _Ho **già** fatto i compiti._\n- _**Non** ho **ancora** mangiato._",
+   "ruleHelp": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**: _Ho già fatto i compiti._ (schon gemacht) · _Non ho ancora mangiato._ (noch nicht gegessen)",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Ich habe die Hausaufgaben noch nicht gemacht.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Non"
+     },
+     {
+      "id": "i2",
+      "text": "ho"
+     },
+     {
+      "id": "i3",
+      "text": "ancora"
+     },
+     {
+      "id": "i4",
+      "text": "fatto"
+     },
+     {
+      "id": "i5",
+      "text": "i"
+     },
+     {
+      "id": "i6",
+      "text": "compiti"
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Wir haben den Film schon gesehen.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Abbiamo"
+     },
+     {
+      "id": "i2",
+      "text": "già"
+     },
+     {
+      "id": "i3",
+      "text": "visto"
+     },
+     {
+      "id": "i4",
+      "text": "il film"
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Ist Giulia schon angekommen?“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Giulia"
+     },
+     {
+      "id": "i2",
+      "text": "è"
+     },
+     {
+      "id": "i3",
+      "text": "già"
+     },
+     {
+      "id": "i4",
+      "text": "arrivata?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-gia-ancora-s2",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "Già e (non …) ancora · Trova gli errori · livello difficile.",
+  "topics": [
+   "Già e (non …) ancora",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 4 · Tempo libero · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-gia-ancora",
+   "topicTitle": "Già e (non …) ancora",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Nel passato prossimo **già** e **ancora** stanno **tra l’ausiliare e il participio**:\n- _Ho **già** fatto i compiti._\n- _**Non** ho **ancora** mangiato._",
+   "ruleHelp": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**: _Ho già fatto i compiti._ (schon gemacht) · _Non ho ancora mangiato._ (noch nicht gegessen)",
    "order": 52
   },
   "vocabularyIds": [],
@@ -57480,9 +58942,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "error_correction",
-    "prompt": "Korrigiere die Wortstellung bzw. das falsche Wort.",
+    "prompt": "Correggi l’ordine o la parola sbagliata.",
     "explanation": "",
-    "text": "Ho [[g1]] il film.\n[[g2]] ho ancora finito.\nNon sono [[g3]] partito, parto domani.\nHai [[g4]]?\nSiamo [[g5]] arrivati, eccoci qui!",
+    "promptHelp": "Korrigiere die Wortstellung bzw. das falsche Wort.",
+    "text": "Ho [[g1]] il film.\n[[g2]] ho ancora finito.\nNon sono [[g3]] partito, parto domani.\nHai [[g4]]?\nSiamo [[g5]] arrivati, eccoci qui!\nNon abbiamo [[g6]].\nSara è [[g7]].\nNon hai [[g8]] telefonato? Telefona adesso!",
     "errors": [
      {
       "id": "g1",
@@ -57518,6 +58981,152 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "già"
       ]
+     },
+     {
+      "id": "g6",
+      "wrong": "deciso ancora",
+      "acceptedAnswers": [
+       "ancora deciso"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "arrivata già",
+      "acceptedAnswers": [
+       "già arrivata"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "già",
+      "acceptedAnswers": [
+       "ancora"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-gia-ancora-s3",
+  "title": "Già fatto?",
+  "language": "it",
+  "level": "A1",
+  "description": "Già e (non …) ancora · Già fatto? · livello difficile.",
+  "topics": [
+   "Già e (non …) ancora",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 4 · Tempo libero · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-gia-ancora",
+   "topicTitle": "Già e (non …) ancora",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Nel passato prossimo **già** e **ancora** stanno **tra l’ausiliare e il participio**:\n- _Ho **già** fatto i compiti._\n- _**Non** ho **ancora** mangiato._",
+   "ruleHelp": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**: _Ho già fatto i compiti._ (schon gemacht) · _Non ho ancora mangiato._ (noch nicht gegessen)",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Scrivi la frase con già o non … ancora.",
+    "explanation": "",
+    "promptHelp": "Schreibe den Satz mit già oder non … ancora.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "(io / fare la spesa ✓)",
+      "acceptedAnswers": [
+       "Ho già fatto la spesa"
+      ],
+      "modelAnswer": "Ho già fatto la spesa."
+     },
+     {
+      "id": "s2",
+      "start": "(Luca / tornare ✗)",
+      "acceptedAnswers": [
+       "Luca non è ancora tornato"
+      ],
+      "modelAnswer": "Luca non è ancora tornato."
+     },
+     {
+      "id": "s3",
+      "start": "(noi / vedere il museo ✓)",
+      "acceptedAnswers": [
+       "Abbiamo già visto il museo"
+      ],
+      "modelAnswer": "Abbiamo già visto il museo."
+     },
+     {
+      "id": "s4",
+      "start": "(le ragazze / arrivare ✗)",
+      "acceptedAnswers": [
+       "Le ragazze non sono ancora arrivate"
+      ],
+      "modelAnswer": "Le ragazze non sono ancora arrivate."
+     },
+     {
+      "id": "s5",
+      "start": "(tu / leggere il libro? ✓)",
+      "acceptedAnswers": [
+       "Hai già letto il libro"
+      ],
+      "modelAnswer": "Hai già letto il libro?"
+     },
+     {
+      "id": "s6",
+      "start": "(voi / finire ✗)",
+      "acceptedAnswers": [
+       "Non avete ancora finito"
+      ],
+      "modelAnswer": "Non avete ancora finito."
+     },
+     {
+      "id": "s7",
+      "start": "(mia madre / partire ✓)",
+      "acceptedAnswers": [
+       "Mia madre è già partita"
+      ],
+      "modelAnswer": "Mia madre è già partita."
+     },
+     {
+      "id": "s8",
+      "start": "(io / scrivere la mail ✗)",
+      "acceptedAnswers": [
+       "Non ho ancora scritto la mail"
+      ],
+      "modelAnswer": "Non ho ancora scritto la mail."
      }
     ]
    }
@@ -57528,12 +59137,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-imperativo-l1",
-  "title": "Imperativ tu",
+  "title": "Imperativo tu",
   "language": "it",
   "level": "A1",
-  "description": "Der Imperativ (tu, voi) und die Verneinung · Imperativ tu (einfach).",
+  "description": "L’imperativo (tu, voi) e la negazione · Imperativo tu · livello facile.",
   "topics": [
-   "Der Imperativ (tu, voi) und die Verneinung",
+   "L’imperativo (tu, voi) e la negazione",
    "Grammatik"
   ],
   "sources": [
@@ -57561,13 +59170,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 5,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-imperativo",
-   "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+   "topicTitle": "L’imperativo (tu, voi) e la negazione",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_",
+   "rule": "**Affermativo:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nIrregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_\n\n**Negativo:**\n- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + imperativo: _**Non parlate!**_\n\nCon gli adulti (Lei): _Scusi! Senta!_",
+   "ruleHelp": "**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.\n**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_",
    "order": 31
   },
   "vocabularyIds": [],
@@ -57575,9 +59185,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle den Imperativ (tu).",
-    "explanation": "",
-    "text": "Luca, [[g1]]!\nSara, [[g2]] il libro!\nMarco, [[g3]] la finestra!\nGiulia, [[g4]] il compito!\nPaolo, [[g5]] attenzione!",
+    "prompt": "Scegli l’imperativo (tu).",
+    "explanation": "-are → -a (ascolta!), -ere/-ire → -i (prendi!, apri!).",
+    "promptHelp": "Wähle den Imperativ (tu).",
+    "explanationHelp": "-are → -a, -ere/-ire → -i.",
+    "text": "Luca, [[g1]]!\nSara, [[g2]] il libro!\nMarco, [[g3]] la finestra!\nGiulia, [[g4]] il compito!\nPaolo, [[g5]] attenzione!\nAnna, [[g6]] la data!\nLeo, [[g7]] ad alta voce!\nChiara, [[g8]] la lavagna!",
     "gaps": [
      {
       "id": "g1",
@@ -57618,11 +59230,38 @@ const STOCK_PACKAGES = [
      {
       "id": "g5",
       "options": [
-       "fa'",
+       "fa’",
        "fare",
        "fanno"
       ],
-      "answer": "fa'"
+      "answer": "fa’"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "scrivi",
+       "scrive",
+       "scriva"
+      ],
+      "answer": "scrivi"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "leggi",
+       "legge",
+       "leggere"
+      ],
+      "answer": "leggi"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "guarda",
+       "guardi",
+       "guardare"
+      ],
+      "answer": "guarda"
      }
     ]
    }
@@ -57633,12 +59272,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-imperativo-l2",
-  "title": "Was sagt die Lehrerin?",
+  "title": "Che cosa dice la prof?",
   "language": "it",
   "level": "A1",
-  "description": "Der Imperativ (tu, voi) und die Verneinung · Was sagt die Lehrerin? (einfach).",
+  "description": "L’imperativo (tu, voi) e la negazione · Che cosa dice la prof? · livello facile.",
   "topics": [
-   "Der Imperativ (tu, voi) und die Verneinung",
+   "L’imperativo (tu, voi) e la negazione",
    "Grammatik"
   ],
   "sources": [
@@ -57669,10 +59308,11 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-imperativo",
-   "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+   "topicTitle": "L’imperativo (tu, voi) e la negazione",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_",
+   "rule": "**Affermativo:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nIrregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_\n\n**Negativo:**\n- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + imperativo: _**Non parlate!**_\n\nCon gli adulti (Lei): _Scusi! Senta!_",
+   "ruleHelp": "**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.\n**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_",
    "order": 32
   },
   "vocabularyIds": [],
@@ -57680,8 +59320,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "matching",
-    "prompt": "Was bedeutet das?",
+    "prompt": "Che cosa vuol dire?",
     "explanation": "",
+    "promptHelp": "Was bedeutet das?",
     "pairs": [
      {
       "id": "p1",
@@ -57733,12 +59374,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-imperativo-l3",
-  "title": "tu oder voi?",
+  "title": "Tu o voi?",
   "language": "it",
   "level": "A1",
-  "description": "Der Imperativ (tu, voi) und die Verneinung · tu oder voi? (einfach).",
+  "description": "L’imperativo (tu, voi) e la negazione · Tu o voi? · livello facile.",
   "topics": [
-   "Der Imperativ (tu, voi) und die Verneinung",
+   "L’imperativo (tu, voi) e la negazione",
    "Grammatik"
   ],
   "sources": [
@@ -57766,13 +59407,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-imperativo",
-   "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+   "topicTitle": "L’imperativo (tu, voi) e la negazione",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_",
+   "rule": "**Affermativo:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nIrregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_\n\n**Negativo:**\n- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + imperativo: _**Non parlate!**_\n\nCon gli adulti (Lei): _Scusi! Senta!_",
+   "ruleHelp": "**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.\n**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_",
    "order": 33
   },
   "vocabularyIds": [],
@@ -57780,8 +59422,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "categorize",
-    "prompt": "Spricht die Lehrerin mit einer Person (tu) oder mit mehreren (voi)?",
+    "prompt": "La prof parla con una persona (tu) o con più persone (voi)?",
     "explanation": "",
+    "promptHelp": "Spricht die Lehrerin mit einer Person (tu) oder mit mehreren (voi)?",
     "categories": [
      {
       "id": "tu",
@@ -57832,6 +59475,16 @@ const STOCK_PACKAGES = [
       "id": "i8",
       "text": "Prendete il quaderno!",
       "category": "voi"
+     },
+     {
+      "id": "i9",
+      "text": "Ripeti!",
+      "category": "tu"
+     },
+     {
+      "id": "i10",
+      "text": "Fate silenzio!",
+      "category": "voi"
      }
     ]
    }
@@ -57842,12 +59495,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-imperativo-m1",
-  "title": "Verneint",
+  "title": "Negativo",
   "language": "it",
   "level": "A1",
-  "description": "Der Imperativ (tu, voi) und die Verneinung · Verneint (mittel).",
+  "description": "L’imperativo (tu, voi) e la negazione · Negativo · livello medio.",
   "topics": [
-   "Der Imperativ (tu, voi) und die Verneinung",
+   "L’imperativo (tu, voi) e la negazione",
    "Grammatik"
   ],
   "sources": [
@@ -57875,13 +59528,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-imperativo",
-   "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+   "topicTitle": "L’imperativo (tu, voi) e la negazione",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_",
+   "rule": "**Affermativo:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nIrregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_\n\n**Negativo:**\n- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + imperativo: _**Non parlate!**_\n\nCon gli adulti (Lei): _Scusi! Senta!_",
+   "ruleHelp": "**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.\n**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_",
    "order": 31
   },
   "vocabularyIds": [],
@@ -57889,9 +59543,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle den verneinten Imperativ.",
-    "explanation": "tu verneint: non + Infinitiv (non parlare). voi verneint: non + Imperativ (non parlate).",
-    "text": "Luca, non [[g1]] adesso!\nRagazzi, non [[g2]]!\nSara, non [[g3]] il libro!\nMarco, non [[g4]] nel corridoio!\nRagazzi, non [[g5]] il cellulare!",
+    "prompt": "Scegli l’imperativo negativo.",
+    "explanation": "tu: non + infinito (non parlare). voi: non + imperativo (non parlate).",
+    "promptHelp": "Wähle den verneinten Imperativ.",
+    "explanationHelp": "tu verneint: non + Infinitiv. voi verneint: non + Imperativ.",
+    "text": "Luca, non [[g1]] adesso!\nRagazzi, non [[g2]]!\nSara, non [[g3]] il libro!\nMarco, non [[g4]] nel corridoio!\nRagazzi, non [[g5]] il cellulare!\nAnna, non [[g6]] in classe!\nRagazzi, non [[g7]]!\nPaolo, non [[g8]] sul banco!",
     "gaps": [
      {
       "id": "g1",
@@ -57937,6 +59593,33 @@ const STOCK_PACKAGES = [
        "usa"
       ],
       "answer": "usate"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "mangiare",
+       "mangia",
+       "mangi"
+      ],
+      "answer": "mangiare"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "copiate",
+       "copiare",
+       "copia"
+      ],
+      "answer": "copiate"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "scrivere",
+       "scrivi",
+       "scrive"
+      ],
+      "answer": "scrivere"
      }
     ]
    }
@@ -57947,12 +59630,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-imperativo-m2",
-  "title": "Die Lehrerin sagt …",
+  "title": "La prof dice …",
   "language": "it",
   "level": "A1",
-  "description": "Der Imperativ (tu, voi) und die Verneinung · Die Lehrerin sagt … (mittel).",
+  "description": "L’imperativo (tu, voi) e la negazione · La prof dice … · livello medio.",
   "topics": [
-   "Der Imperativ (tu, voi) und die Verneinung",
+   "L’imperativo (tu, voi) e la negazione",
    "Grammatik"
   ],
   "sources": [
@@ -57980,13 +59663,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-imperativo",
-   "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+   "topicTitle": "L’imperativo (tu, voi) e la negazione",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_",
+   "rule": "**Affermativo:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nIrregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_\n\n**Negativo:**\n- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + imperativo: _**Non parlate!**_\n\nCon gli adulti (Lei): _Scusi! Senta!_",
+   "ruleHelp": "**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.\n**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_",
    "order": 32
   },
   "vocabularyIds": [],
@@ -57994,9 +59678,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Setze den Imperativ ein.",
+    "prompt": "Scrivi l’imperativo.",
     "explanation": "",
-    "text": "Marco, (leggere) [[g1]] la pagina dieci!\nRagazzi, (aprire) [[g2]] il libro!\nSara, (scrivere) [[g3]] la soluzione alla LIM!\nLuca, non (parlare) [[g4]]!\nRagazzi, non (gridare) [[g5]]!\nGiulia, (fare) [[g6]] l'esercizio, per favore!",
+    "promptHelp": "Setze den Imperativ ein.",
+    "text": "Marco, (leggere) [[g1]] la pagina dieci!\nRagazzi, (aprire) [[g2]] il libro!\nSara, (scrivere) [[g3]] la soluzione alla LIM!\nLuca, non (parlare) [[g4]]!\nRagazzi, non (gridare) [[g5]]!\nGiulia, (fare) [[g6]] l’esercizio, per favore!\nRagazzi, (ascoltare) [[g7]] il dialogo!\nPaolo, (chiudere) [[g8]] la porta!",
     "gaps": [
      {
       "id": "g1",
@@ -58031,8 +59716,20 @@ const STOCK_PACKAGES = [
      {
       "id": "g6",
       "acceptedAnswers": [
-       "fa'",
+       "fa’",
        "fai"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ascoltate"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "chiudi"
       ]
      }
     ]
@@ -58044,12 +59741,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-imperativo-m3",
-  "title": "Bejaht – verneint",
+  "title": "Affermativo – negativo",
   "language": "it",
   "level": "A1",
-  "description": "Der Imperativ (tu, voi) und die Verneinung · Bejaht – verneint (mittel).",
+  "description": "L’imperativo (tu, voi) e la negazione · Affermativo – negativo · livello medio.",
   "topics": [
-   "Der Imperativ (tu, voi) und die Verneinung",
+   "L’imperativo (tu, voi) e la negazione",
    "Grammatik"
   ],
   "sources": [
@@ -58077,13 +59774,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-imperativo",
-   "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+   "topicTitle": "L’imperativo (tu, voi) e la negazione",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_",
+   "rule": "**Affermativo:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nIrregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_\n\n**Negativo:**\n- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + imperativo: _**Non parlate!**_\n\nCon gli adulti (Lei): _Scusi! Senta!_",
+   "ruleHelp": "**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.\n**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_",
    "order": 33
   },
   "vocabularyIds": [],
@@ -58091,14 +59789,16 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "sentence_completion",
-    "prompt": "Verneine die Aufforderung.",
-    "explanation": "tu: non + Infinitiv · voi: non + Imperativ.",
+    "prompt": "Fai l’imperativo negativo.",
+    "explanation": "tu: non + infinito · voi: non + imperativo.",
+    "promptHelp": "Verneine die Aufforderung.",
+    "explanationHelp": "tu: non + Infinitiv · voi: non + Imperativ.",
     "items": [
      {
       "id": "s1",
       "start": "Parla! → …",
       "acceptedAnswers": [
-       "Non parlare!"
+       "Non parlare"
       ],
       "modelAnswer": "Non parlare!"
      },
@@ -58106,7 +59806,7 @@ const STOCK_PACKAGES = [
       "id": "s2",
       "start": "Prendete il libro! → …",
       "acceptedAnswers": [
-       "Non prendete il libro!"
+       "Non prendete il libro"
       ],
       "modelAnswer": "Non prendete il libro!"
      },
@@ -58114,7 +59814,7 @@ const STOCK_PACKAGES = [
       "id": "s3",
       "start": "Apri la porta! → …",
       "acceptedAnswers": [
-       "Non aprire la porta!"
+       "Non aprire la porta"
       ],
       "modelAnswer": "Non aprire la porta!"
      },
@@ -58122,7 +59822,7 @@ const STOCK_PACKAGES = [
       "id": "s4",
       "start": "Scrivete! → …",
       "acceptedAnswers": [
-       "Non scrivete!"
+       "Non scrivete"
       ],
       "modelAnswer": "Non scrivete!"
      },
@@ -58130,7 +59830,7 @@ const STOCK_PACKAGES = [
       "id": "s5",
       "start": "Mangia in classe! → …",
       "acceptedAnswers": [
-       "Non mangiare in classe!"
+       "Non mangiare in classe"
       ],
       "modelAnswer": "Non mangiare in classe!"
      },
@@ -58138,9 +59838,25 @@ const STOCK_PACKAGES = [
       "id": "s6",
       "start": "Usate il cellulare! → …",
       "acceptedAnswers": [
-       "Non usate il cellulare!"
+       "Non usate il cellulare"
       ],
       "modelAnswer": "Non usate il cellulare!"
+     },
+     {
+      "id": "s7",
+      "start": "Corri! → …",
+      "acceptedAnswers": [
+       "Non correre"
+      ],
+      "modelAnswer": "Non correre!"
+     },
+     {
+      "id": "s8",
+      "start": "Gridate! → …",
+      "acceptedAnswers": [
+       "Non gridate"
+      ],
+      "modelAnswer": "Non gridate!"
      }
     ]
    }
@@ -58151,12 +59867,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-imperativo-m4",
-  "title": "Regeln in der Bibliothek",
+  "title": "Regole in biblioteca",
   "language": "it",
   "level": "A1",
-  "description": "Der Imperativ (tu, voi) und die Verneinung · Regeln in der Bibliothek (mittel).",
+  "description": "L’imperativo (tu, voi) e la negazione · Regole in biblioteca · livello medio.",
   "topics": [
-   "Der Imperativ (tu, voi) und die Verneinung",
+   "L’imperativo (tu, voi) e la negazione",
    "Grammatik"
   ],
   "sources": [
@@ -58184,13 +59900,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-imperativo",
-   "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+   "topicTitle": "L’imperativo (tu, voi) e la negazione",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_",
+   "rule": "**Affermativo:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nIrregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_\n\n**Negativo:**\n- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + imperativo: _**Non parlate!**_\n\nCon gli adulti (Lei): _Scusi! Senta!_",
+   "ruleHelp": "**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.\n**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_",
    "order": 34
   },
   "vocabularyIds": [],
@@ -58198,9 +59915,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Setze den Imperativ (voi) ein.",
+    "prompt": "Scrivi l’imperativo (voi).",
     "explanation": "",
-    "text": "Ragazzi, (entrare) [[g1]] in silenzio!\n(Prendere) [[g2]] un libro dallo scaffale.\n(Leggere) [[g3]] al vostro posto.\nNon (parlare) [[g4]] ad alta voce!\nNon (mangiare) [[g5]] in biblioteca!\n(Mettere) [[g6]] i libri al loro posto!\n(Spegnere) [[g7]] il cellulare!",
+    "promptHelp": "Setze den Imperativ (voi) ein.",
+    "text": "Ragazzi, (entrare) [[g1]] in silenzio!\n(Prendere) [[g2]] un libro dallo scaffale.\n(Leggere) [[g3]] al vostro posto.\nNon (parlare) [[g4]] ad alta voce!\nNon (mangiare) [[g5]] in biblioteca!\n(Mettere) [[g6]] i libri al loro posto!\n(Spegnere) [[g7]] il cellulare!\nNon (correre) [[g8]] tra gli scaffali!",
     "gaps": [
      {
       "id": "g1",
@@ -58243,6 +59961,12 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "Spegnete"
       ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "correte"
+      ]
      }
     ]
    }
@@ -58253,12 +59977,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-imperativo-noi-l1",
-  "title": "Vorschläge",
+  "title": "Proposte",
   "language": "it",
   "level": "A1",
-  "description": "Der Imperativ der 1. Person Plural · Vorschläge (einfach).",
+  "description": "L’imperativo della prima persona plurale · Proposte · livello facile.",
   "topics": [
-   "Der Imperativ der 1. Person Plural",
+   "L’imperativo della prima persona plurale",
    "Grammatik"
   ],
   "sources": [
@@ -58286,13 +60010,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 4,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-imperativo-noi",
-   "topicTitle": "Der Imperativ der 1. Person Plural",
+   "topicTitle": "L’imperativo della prima persona plurale",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l'autobus!_ · _**Facciamo** una pausa!_\n- verneint: _**Non** prendiamo il taxi!_",
+   "rule": "Con la **prima persona plurale** facciamo una proposta («Lass uns …!»). La forma è come al presente:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l’autobus!_ · _**Facciamo** una pausa!_\n- negativo: _**Non** prendiamo il taxi!_",
+   "ruleHelp": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens: _Andiamo al cinema! Prendiamo l’autobus!_ · verneint: _Non prendiamo il taxi!_",
    "order": 51
   },
   "vocabularyIds": [],
@@ -58300,9 +60025,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle den Vorschlag.",
+    "prompt": "Scegli la proposta.",
     "explanation": "",
-    "text": "Che bella giornata! [[g1]] al parco!\nÈ tardi, [[g2]] un taxi!\nHo fame, [[g3]] una pizza!\nSiamo stanchi, [[g4]] una pausa!",
+    "promptHelp": "Wähle den Vorschlag.",
+    "text": "Che bella giornata! [[g1]] al parco!\nÈ tardi, [[g2]] un taxi!\nHo fame, [[g3]] una pizza!\nSiamo stanchi, [[g4]] una pausa!\nPiove, [[g5]] a casa!\nC’è un bel film, [[g6]] la TV!\nÈ il compleanno di Leo: [[g7]] un regalo!\nFa caldo, [[g8]] al mare!",
     "gaps": [
      {
       "id": "g1",
@@ -58339,6 +60065,42 @@ const STOCK_PACKAGES = [
        "fanno"
       ],
       "answer": "facciamo"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "restiamo",
+       "restate",
+       "restano"
+      ],
+      "answer": "restiamo"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "guardiamo",
+       "guardate",
+       "guardano"
+      ],
+      "answer": "guardiamo"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "compriamo",
+       "comprate",
+       "compro"
+      ],
+      "answer": "compriamo"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "andiamo",
+       "andate",
+       "vanno"
+      ],
+      "answer": "andiamo"
      }
     ]
    }
@@ -58352,189 +60114,9 @@ const STOCK_PACKAGES = [
   "title": "Lass uns …",
   "language": "it",
   "level": "A1",
-  "description": "Der Imperativ der 1. Person Plural · Lass uns … (einfach).",
+  "description": "L’imperativo della prima persona plurale · Lass uns … · livello facile.",
   "topics": [
-   "Der Imperativ der 1. Person Plural",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "5 · Famiglia e gite",
-    "section": "Parte B"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 6,
-  "grammar": {
-   "topic": "ecco1-imperativo-noi",
-   "topicTitle": "Der Imperativ der 1. Person Plural",
-   "difficulty": "leicht",
-   "origin": "own",
-   "rule": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l'autobus!_ · _**Facciamo** una pausa!_\n- verneint: _**Non** prendiamo il taxi!_",
-   "order": 52
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "matching",
-    "prompt": "Was bedeutet das?",
-    "explanation": "",
-    "pairs": [
-     {
-      "id": "p1",
-      "left": "Andiamo!",
-      "right": "Lass uns gehen!"
-     },
-     {
-      "id": "p2",
-      "left": "Mangiamo una pizza!",
-      "right": "Lass uns eine Pizza essen!"
-     },
-     {
-      "id": "p3",
-      "left": "Facciamo una pausa!",
-      "right": "Lass uns eine Pause machen!"
-     },
-     {
-      "id": "p4",
-      "left": "Prendiamo il treno!",
-      "right": "Lass uns den Zug nehmen!"
-     },
-     {
-      "id": "p5",
-      "left": "Non aspettiamo!",
-      "right": "Lass uns nicht warten!"
-     },
-     {
-      "id": "p6",
-      "left": "Partiamo domani!",
-      "right": "Lass uns morgen abfahren!"
-     }
-    ],
-    "distractors": []
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-imperativo-noi-m1",
-  "title": "Was machen wir?",
-  "language": "it",
-  "level": "A1",
-  "description": "Der Imperativ der 1. Person Plural · Was machen wir? (mittel).",
-  "topics": [
-   "Der Imperativ der 1. Person Plural",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "5 · Famiglia e gite",
-    "section": "Parte B"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 6,
-  "grammar": {
-   "topic": "ecco1-imperativo-noi",
-   "topicTitle": "Der Imperativ der 1. Person Plural",
-   "difficulty": "mittel",
-   "origin": "own",
-   "rule": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l'autobus!_ · _**Facciamo** una pausa!_\n- verneint: _**Non** prendiamo il taxi!_",
-   "order": 51
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "gap_fill",
-    "prompt": "Mache Vorschläge mit der 1. Person Plural.",
-    "explanation": "",
-    "text": "(andare) [[g1]] a Roma per Pasqua!\n(prendere) [[g2]] il treno, è più comodo!\n(comprare) [[g3]] i biglietti online!\nNon (aspettare) [[g4]] l'autobus, (camminare) [[g5]]!",
-    "gaps": [
-     {
-      "id": "g1",
-      "acceptedAnswers": [
-       "Andiamo"
-      ]
-     },
-     {
-      "id": "g2",
-      "acceptedAnswers": [
-       "Prendiamo"
-      ]
-     },
-     {
-      "id": "g3",
-      "acceptedAnswers": [
-       "Compriamo"
-      ]
-     },
-     {
-      "id": "g4",
-      "acceptedAnswers": [
-       "aspettiamo"
-      ]
-     },
-     {
-      "id": "g5",
-      "acceptedAnswers": [
-       "camminiamo"
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-imperativo-noi-m2",
-  "title": "Ein Ausflug",
-  "language": "it",
-  "level": "A1",
-  "description": "Der Imperativ der 1. Person Plural · Ein Ausflug (mittel).",
-  "topics": [
-   "Der Imperativ der 1. Person Plural",
+   "L’imperativo della prima persona plurale",
    "Grammatik"
   ],
   "sources": [
@@ -58565,10 +60147,357 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-imperativo-noi",
-   "topicTitle": "Der Imperativ der 1. Person Plural",
+   "topicTitle": "L’imperativo della prima persona plurale",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Con la **prima persona plurale** facciamo una proposta («Lass uns …!»). La forma è come al presente:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l’autobus!_ · _**Facciamo** una pausa!_\n- negativo: _**Non** prendiamo il taxi!_",
+   "ruleHelp": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens: _Andiamo al cinema! Prendiamo l’autobus!_ · verneint: _Non prendiamo il taxi!_",
+   "order": 52
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Che cosa vuol dire?",
+    "explanation": "",
+    "promptHelp": "Was bedeutet das?",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Andiamo!",
+      "right": "Lass uns gehen!"
+     },
+     {
+      "id": "p2",
+      "left": "Mangiamo una pizza!",
+      "right": "Lass uns eine Pizza essen!"
+     },
+     {
+      "id": "p3",
+      "left": "Facciamo una pausa!",
+      "right": "Lass uns eine Pause machen!"
+     },
+     {
+      "id": "p4",
+      "left": "Prendiamo il treno!",
+      "right": "Lass uns den Zug nehmen!"
+     },
+     {
+      "id": "p5",
+      "left": "Non aspettiamo!",
+      "right": "Lass uns nicht warten!"
+     },
+     {
+      "id": "p6",
+      "left": "Partiamo domani!",
+      "right": "Lass uns morgen abfahren!"
+     },
+     {
+      "id": "p7",
+      "left": "Telefoniamo alla nonna!",
+      "right": "Lass uns Oma anrufen!"
+     },
+     {
+      "id": "p8",
+      "left": "Restiamo a casa!",
+      "right": "Lass uns zu Hause bleiben!"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-noi-l3",
+  "title": "Proposta o domanda?",
+  "language": "it",
+  "level": "A1",
+  "description": "L’imperativo della prima persona plurale · Proposta o domanda? · livello facile.",
+  "topics": [
+   "L’imperativo della prima persona plurale",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-imperativo-noi",
+   "topicTitle": "L’imperativo della prima persona plurale",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Con la **prima persona plurale** facciamo una proposta («Lass uns …!»). La forma è come al presente:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l’autobus!_ · _**Facciamo** una pausa!_\n- negativo: _**Non** prendiamo il taxi!_",
+   "ruleHelp": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens: _Andiamo al cinema! Prendiamo l’autobus!_ · verneint: _Non prendiamo il taxi!_",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta per la proposta.",
+    "explanation": "",
+    "promptHelp": "Wähle die passende Form für den Vorschlag.",
+    "text": "Ragazzi, [[g1]] stasera!\nDai, [[g2]] la bici!\nNon [[g3]] a piedi, è lontano!\n[[g4]] Sara!\n[[g5]] insieme oggi!\nNon [[g6]] troppo!\n[[g7]] una foto!\n[[g8]] a carte!",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "usciamo",
+       "uscite",
+       "esco"
+      ],
+      "answer": "usciamo"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "prendiamo",
+       "prendi",
+       "prende"
+      ],
+      "answer": "prendiamo"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "andiamo",
+       "andate",
+       "vanno"
+      ],
+      "answer": "andiamo"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Chiamiamo",
+       "Chiami",
+       "Chiamano"
+      ],
+      "answer": "Chiamiamo"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "Studiamo",
+       "Studiate",
+       "Studio"
+      ],
+      "answer": "Studiamo"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "mangiamo",
+       "mangiate",
+       "mangia"
+      ],
+      "answer": "mangiamo"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "Facciamo",
+       "Fate",
+       "Fanno"
+      ],
+      "answer": "Facciamo"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "Giochiamo",
+       "Giocate",
+       "Giocano"
+      ],
+      "answer": "Giochiamo"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-noi-m1",
+  "title": "Che cosa facciamo?",
+  "language": "it",
+  "level": "A1",
+  "description": "L’imperativo della prima persona plurale · Che cosa facciamo? · livello medio.",
+  "topics": [
+   "L’imperativo della prima persona plurale",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-imperativo-noi",
+   "topicTitle": "L’imperativo della prima persona plurale",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l'autobus!_ · _**Facciamo** una pausa!_\n- verneint: _**Non** prendiamo il taxi!_",
+   "rule": "Con la **prima persona plurale** facciamo una proposta («Lass uns …!»). La forma è come al presente:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l’autobus!_ · _**Facciamo** una pausa!_\n- negativo: _**Non** prendiamo il taxi!_",
+   "ruleHelp": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens: _Andiamo al cinema! Prendiamo l’autobus!_ · verneint: _Non prendiamo il taxi!_",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Fai proposte con la prima persona plurale.",
+    "explanation": "",
+    "promptHelp": "Mache Vorschläge mit der 1. Person Plural.",
+    "text": "(andare) [[g1]] a Roma per Pasqua!\n(prendere) [[g2]] il treno, è più comodo!\n(comprare) [[g3]] i biglietti online!\nNon (aspettare) [[g4]] l’autobus, (camminare) [[g5]]!\n(visitare) [[g6]] il Colosseo!\n(mangiare) [[g7]] un gelato in piazza!\nNon (tornare) [[g8]] troppo tardi!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Andiamo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Prendiamo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Compriamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "aspettiamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "camminiamo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Visitiamo"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Mangiamo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "torniamo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-noi-m2",
+  "title": "Una gita",
+  "language": "it",
+  "level": "A1",
+  "description": "L’imperativo della prima persona plurale · Una gita · livello medio.",
+  "topics": [
+   "L’imperativo della prima persona plurale",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-imperativo-noi",
+   "topicTitle": "L’imperativo della prima persona plurale",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Con la **prima persona plurale** facciamo una proposta («Lass uns …!»). La forma è come al presente:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l’autobus!_ · _**Facciamo** una pausa!_\n- negativo: _**Non** prendiamo il taxi!_",
+   "ruleHelp": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens: _Andiamo al cinema! Prendiamo l’autobus!_ · verneint: _Non prendiamo il taxi!_",
    "order": 52
   },
   "vocabularyIds": [],
@@ -58576,9 +60505,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Mache Vorschläge (1. Person Plural).",
-    "explanation": "dimenticare → dimentichiamo (h vor i, damit der Laut hart bleibt).",
-    "text": "Ragazzi, che cosa facciamo sabato? (andare) [[g1]] al lago!\nBuona idea! (prendere) [[g2]] le bici!\nNo, è troppo lontano. (fare) [[g3]] una gita in treno!\nD'accordo. (partire) [[g4]] alle nove.\nE (portare) [[g5]] i panini!\nNon (dimenticare) [[g6]] il costume!\n(chiamare) [[g7]] anche Sara!",
+    "prompt": "Fai proposte (prima persona plurale).",
+    "explanation": "dimenticare → dimentichiamo (h prima di i, così il suono resta duro).",
+    "promptHelp": "Mache Vorschläge (1. Person Plural).",
+    "explanationHelp": "dimenticare → dimentichiamo (h vor i).",
+    "text": "Ragazzi, che cosa facciamo sabato? (andare) [[g1]] al lago!\nBuona idea! (prendere) [[g2]] le bici!\nNo, è troppo lontano. (fare) [[g3]] una gita in treno!\nD’accordo. (partire) [[g4]] alle nove.\nE (portare) [[g5]] i panini!\nNon (dimenticare) [[g6]] il costume!\n(chiamare) [[g7]] anche Sara!\n(tornare) [[g8]] prima di cena!",
     "gaps": [
      {
       "id": "g1",
@@ -58621,6 +60552,12 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "Chiamiamo"
       ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Torniamo"
+      ]
      }
     ]
    }
@@ -58630,72 +60567,13 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-imperativo-noi-s1",
-  "title": "Ein Wochenende planen",
+  "id": "g-ecco1-imperativo-noi-m3",
+  "title": "Dal presente alla proposta",
   "language": "it",
   "level": "A1",
-  "description": "Der Imperativ der 1. Person Plural · Ein Wochenende planen (schwer).",
+  "description": "L’imperativo della prima persona plurale · Dal presente alla proposta · livello medio.",
   "topics": [
-   "Der Imperativ der 1. Person Plural",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "5 · Famiglia e gite",
-    "section": "Parte B"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 3,
-  "grammar": {
-   "topic": "ecco1-imperativo-noi",
-   "topicTitle": "Der Imperativ der 1. Person Plural",
-   "difficulty": "schwer",
-   "origin": "own",
-   "rule": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l'autobus!_ · _**Facciamo** una pausa!_\n- verneint: _**Non** prendiamo il taxi!_",
-   "order": 51
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "open_answer",
-    "prompt": "Du planst mit Freunden ein Wochenende. Schreibe 5 Vorschläge mit der 1. Person Plural.",
-    "explanation": "",
-    "modelAnswer": "Andiamo in montagna! Prendiamo il treno alle otto. Facciamo una gita in bici. Mangiamo in un ristorante. Non torniamo troppo tardi!",
-    "lines": 5
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-imperativo-noi-s2",
-  "title": "Imperativ: tu, voi, noi",
-  "language": "it",
-  "level": "A1",
-  "description": "Der Imperativ der 1. Person Plural · Imperativ: tu, voi, noi (schwer).",
-  "topics": [
-   "Der Imperativ der 1. Person Plural",
+   "L’imperativo della prima persona plurale",
    "Grammatik"
   ],
   "sources": [
@@ -58726,20 +60604,149 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-imperativo-noi",
-   "topicTitle": "Der Imperativ der 1. Person Plural",
+   "topicTitle": "L’imperativo della prima persona plurale",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Con la **prima persona plurale** facciamo una proposta («Lass uns …!»). La forma è come al presente:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l’autobus!_ · _**Facciamo** una pausa!_\n- negativo: _**Non** prendiamo il taxi!_",
+   "ruleHelp": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens: _Andiamo al cinema! Prendiamo l’autobus!_ · verneint: _Non prendiamo il taxi!_",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Trasforma la domanda in una proposta.",
+    "explanation": "La forma è uguale al presente; cambia solo l’intonazione (!).",
+    "promptHelp": "Mache aus der Frage einen Vorschlag.",
+    "explanationHelp": "Die Form ist gleich wie im Präsens; nur die Betonung ändert sich.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Andiamo al cinema? → …",
+      "acceptedAnswers": [
+       "Andiamo al cinema"
+      ],
+      "modelAnswer": "Andiamo al cinema!"
+     },
+     {
+      "id": "s2",
+      "start": "Mangiamo insieme? → …",
+      "acceptedAnswers": [
+       "Mangiamo insieme"
+      ],
+      "modelAnswer": "Mangiamo insieme!"
+     },
+     {
+      "id": "s3",
+      "start": "Facciamo i compiti? → …",
+      "acceptedAnswers": [
+       "Facciamo i compiti"
+      ],
+      "modelAnswer": "Facciamo i compiti!"
+     },
+     {
+      "id": "s4",
+      "start": "Prendiamo il tram? → …",
+      "acceptedAnswers": [
+       "Prendiamo il tram"
+      ],
+      "modelAnswer": "Prendiamo il tram!"
+     },
+     {
+      "id": "s5",
+      "start": "Chiamiamo Leo? → …",
+      "acceptedAnswers": [
+       "Chiamiamo Leo"
+      ],
+      "modelAnswer": "Chiamiamo Leo!"
+     },
+     {
+      "id": "s6",
+      "start": "Usciamo stasera? → …",
+      "acceptedAnswers": [
+       "Usciamo stasera"
+      ],
+      "modelAnswer": "Usciamo stasera!"
+     },
+     {
+      "id": "s7",
+      "start": "Non aspettiamo più? → …",
+      "acceptedAnswers": [
+       "Non aspettiamo più"
+      ],
+      "modelAnswer": "Non aspettiamo più!"
+     },
+     {
+      "id": "s8",
+      "start": "Giochiamo a pallavolo? → …",
+      "acceptedAnswers": [
+       "Giochiamo a pallavolo"
+      ],
+      "modelAnswer": "Giochiamo a pallavolo!"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-noi-s1",
+  "title": "Imperativo: tu, voi, noi",
+  "language": "it",
+  "level": "A1",
+  "description": "L’imperativo della prima persona plurale · Imperativo: tu, voi, noi · livello difficile.",
+  "topics": [
+   "L’imperativo della prima persona plurale",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-imperativo-noi",
+   "topicTitle": "L’imperativo della prima persona plurale",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l'autobus!_ · _**Facciamo** una pausa!_\n- verneint: _**Non** prendiamo il taxi!_",
-   "order": 52
+   "rule": "Con la **prima persona plurale** facciamo una proposta («Lass uns …!»). La forma è come al presente:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l’autobus!_ · _**Facciamo** una pausa!_\n- negativo: _**Non** prendiamo il taxi!_",
+   "ruleHelp": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens: _Andiamo al cinema! Prendiamo l’autobus!_ · verneint: _Non prendiamo il taxi!_",
+   "order": 51
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wer ist gemeint? Wähle die passende Form.",
-    "explanation": "noi = Vorschlag (ich mache mit) · voi = Aufforderung an mehrere · tu verneint: non + Infinitiv.",
-    "text": "(an Luca) [[g1]] il libro!\n(an die Klasse, du bist dabei) [[g2]] in palestra!\n(an Sara und Paolo) [[g3]]!\n(an Marco, verneint) Non [[g4]]!\n(an dich und deine Freunde) [[g5]] una foto!\n(an die Kinder, verneint) Non [[g6]]!",
+    "prompt": "Chi è? Scegli la forma giusta.",
+    "explanation": "noi = proposta (faccio anch’io) · voi = ordine a più persone · tu negativo: non + infinito.",
+    "promptHelp": "Wer ist gemeint? Wähle die passende Form.",
+    "explanationHelp": "noi = Vorschlag (ich mache mit) · voi = Aufforderung an mehrere · tu verneint: non + Infinitiv.",
+    "text": "(a Luca) [[g1]] il libro!\n(alla classe, tu sei con loro) [[g2]] in palestra!\n(a Sara e Paolo) [[g3]]!\n(a Marco, negativo) Non [[g4]]!\n(a te e ai tuoi amici) [[g5]] una foto!\n(ai bambini, negativo) Non [[g6]]!\n(a Giulia) [[g7]] la porta!\n(a te e a tua sorella) [[g8]] la camera!",
     "gaps": [
      {
       "id": "g1",
@@ -58755,7 +60762,7 @@ const STOCK_PACKAGES = [
       "options": [
        "Andiamo",
        "Andate",
-       "Va'"
+       "Va’"
       ],
       "answer": "Andiamo"
      },
@@ -58782,7 +60789,7 @@ const STOCK_PACKAGES = [
       "options": [
        "Facciamo",
        "Fate",
-       "Fa'"
+       "Fa’"
       ],
       "answer": "Facciamo"
      },
@@ -58794,6 +60801,24 @@ const STOCK_PACKAGES = [
        "gridiamo"
       ],
       "answer": "gridate"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "Chiudi",
+       "Chiudiamo",
+       "Chiudete"
+      ],
+      "answer": "Chiudi"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "Puliamo",
+       "Pulite",
+       "Pulisci"
+      ],
+      "answer": "Puliamo"
      }
     ]
    }
@@ -58803,19 +60828,19 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-imperativo-s1",
-  "title": "Regeln für die Klasse",
+  "id": "g-ecco1-imperativo-noi-s2",
+  "title": "Programmare un fine settimana",
   "language": "it",
   "level": "A1",
-  "description": "Der Imperativ (tu, voi) und die Verneinung · Regeln für die Klasse (schwer).",
+  "description": "L’imperativo della prima persona plurale · Programmare un fine settimana · livello difficile.",
   "topics": [
-   "Der Imperativ (tu, voi) und die Verneinung",
+   "L’imperativo della prima persona plurale",
    "Grammatik"
   ],
   "sources": [
    {
     "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Parte A.",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
     "url": "",
     "rights": "own"
    }
@@ -58827,8 +60852,8 @@ const STOCK_PACKAGES = [
    "textbook": {
     "series": "Corso daje",
     "volume": "1",
-    "unit": "3 · La scuola",
-    "section": "Parte A"
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte B"
    },
    "grade": 8,
    "foreignLanguageNo": 3,
@@ -58837,49 +60862,57 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 7,
   "grammar": {
-   "topic": "ecco1-imperativo",
-   "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+   "topic": "ecco1-imperativo-noi",
+   "topicTitle": "L’imperativo della prima persona plurale",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_",
-   "order": 31
+   "rule": "Con la **prima persona plurale** facciamo una proposta («Lass uns …!»). La forma è come al presente:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l’autobus!_ · _**Facciamo** una pausa!_\n- negativo: _**Non** prendiamo il taxi!_",
+   "ruleHelp": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens: _Andiamo al cinema! Prendiamo l’autobus!_ · verneint: _Non prendiamo il taxi!_",
+   "order": 52
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
-    "type": "sentence_completion",
-    "prompt": "Schreibe verneinte Regeln für einen Mitschüler (tu).",
+    "type": "open_answer",
+    "prompt": "Organizzi un fine settimana con gli amici. Scrivi 5 proposte con la prima persona plurale.",
     "explanation": "",
-    "items": [
+    "promptHelp": "Du planst mit Freunden ein Wochenende. Schreibe 5 Vorschläge mit der 1. Person Plural.",
+    "modelAnswer": "Andiamo in montagna! Prendiamo il treno alle otto. Facciamo una gita in bici. Mangiamo in un ristorante. Non torniamo troppo tardi!",
+    "lines": 5
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "E adesso completa.",
+    "explanation": "",
+    "promptHelp": "Und jetzt ergänze.",
+    "text": "(partire) [[g1]] venerdì sera!\n(dormire) [[g2]] in un ostello.\n(visitare) [[g3]] la città vecchia.\nNon (spendere) [[g4]] troppo!",
+    "gaps": [
      {
-      "id": "s1",
-      "start": "(usare il cellulare) → …",
+      "id": "g1",
       "acceptedAnswers": [
-       "Non usare il cellulare!"
+       "Partiamo"
       ]
      },
      {
-      "id": "s2",
-      "start": "(mangiare in classe) → …",
+      "id": "g2",
       "acceptedAnswers": [
-       "Non mangiare in classe!"
+       "Dormiamo"
       ]
      },
      {
-      "id": "s3",
-      "start": "(correre nel corridoio) → …",
+      "id": "g3",
       "acceptedAnswers": [
-       "Non correre nel corridoio!"
+       "Visitiamo"
       ]
      },
      {
-      "id": "s4",
-      "start": "(dimenticare i compiti) → …",
+      "id": "g4",
       "acceptedAnswers": [
-       "Non dimenticare i compiti!"
+       "spendiamo"
       ]
      }
     ]
@@ -58890,13 +60923,132 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-imperativo-s2",
-  "title": "Gemischt: tu und voi, bejaht und verneint",
+  "id": "g-ecco1-imperativo-noi-s3",
+  "title": "Trova gli errori",
   "language": "it",
   "level": "A1",
-  "description": "Der Imperativ (tu, voi) und die Verneinung · Gemischt: tu und voi, bejaht und verneint (schwer).",
+  "description": "L’imperativo della prima persona plurale · Trova gli errori · livello difficile.",
   "topics": [
-   "Der Imperativ (tu, voi) und die Verneinung",
+   "L’imperativo della prima persona plurale",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-imperativo-noi",
+   "topicTitle": "L’imperativo della prima persona plurale",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Con la **prima persona plurale** facciamo una proposta («Lass uns …!»). La forma è come al presente:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l’autobus!_ · _**Facciamo** una pausa!_\n- negativo: _**Non** prendiamo il taxi!_",
+   "ruleHelp": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens: _Andiamo al cinema! Prendiamo l’autobus!_ · verneint: _Non prendiamo il taxi!_",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi le otto proposte sbagliate.",
+    "explanation": "Proposta con noi: andiamo, mangiamo, facciamo.",
+    "promptHelp": "Korrigiere die acht falschen Vorschläge.",
+    "explanationHelp": "Vorschlag mit noi.",
+    "text": "Dai, [[g1]] al cinema insieme!\n[[g2]] una pizza, ho fame anch’io!\nNon [[g3]] il taxi, è caro!\n[[g4]] una pausa tutti insieme!\n[[g5]] Sara, è sola!\n[[g6]] a casa, piove!\n[[g7]] i compiti per oggi!\n[[g8]] presto domani!",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "andate",
+      "acceptedAnswers": [
+       "andiamo"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "Mangiate",
+      "acceptedAnswers": [
+       "Mangiamo"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "prendete",
+      "acceptedAnswers": [
+       "prendiamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "Fate",
+      "acceptedAnswers": [
+       "Facciamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "Chiama",
+      "acceptedAnswers": [
+       "Chiamiamo"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "Restano",
+      "acceptedAnswers": [
+       "Restiamo"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "Dimenticamo",
+      "acceptedAnswers": [
+       "Dimentichiamo"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "Partite",
+      "acceptedAnswers": [
+       "Partiamo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-s1",
+  "title": "Regole per la classe",
+  "language": "it",
+  "level": "A1",
+  "description": "L’imperativo (tu, voi) e la negazione · Regole per la classe · livello difficile.",
+  "topics": [
+   "L’imperativo (tu, voi) e la negazione",
    "Grammatik"
   ],
   "sources": [
@@ -58927,10 +61079,136 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 10,
   "grammar": {
    "topic": "ecco1-imperativo",
-   "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+   "topicTitle": "L’imperativo (tu, voi) e la negazione",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_",
+   "rule": "**Affermativo:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nIrregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_\n\n**Negativo:**\n- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + imperativo: _**Non parlate!**_\n\nCon gli adulti (Lei): _Scusi! Senta!_",
+   "ruleHelp": "**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.\n**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Scrivi regole negative per un compagno (tu).",
+    "explanation": "",
+    "promptHelp": "Schreibe verneinte Regeln für einen Mitschüler (tu).",
+    "items": [
+     {
+      "id": "s1",
+      "start": "(usare il cellulare) → …",
+      "acceptedAnswers": [
+       "Non usare il cellulare"
+      ],
+      "modelAnswer": "Non usare il cellulare!"
+     },
+     {
+      "id": "s2",
+      "start": "(mangiare in classe) → …",
+      "acceptedAnswers": [
+       "Non mangiare in classe"
+      ],
+      "modelAnswer": "Non mangiare in classe!"
+     },
+     {
+      "id": "s3",
+      "start": "(correre nel corridoio) → …",
+      "acceptedAnswers": [
+       "Non correre nel corridoio"
+      ],
+      "modelAnswer": "Non correre nel corridoio!"
+     },
+     {
+      "id": "s4",
+      "start": "(dimenticare i compiti) → …",
+      "acceptedAnswers": [
+       "Non dimenticare i compiti"
+      ],
+      "modelAnswer": "Non dimenticare i compiti!"
+     },
+     {
+      "id": "s5",
+      "start": "(arrivare tardi) → …",
+      "acceptedAnswers": [
+       "Non arrivare tardi"
+      ],
+      "modelAnswer": "Non arrivare tardi!"
+     },
+     {
+      "id": "s6",
+      "start": "(gridare) → …",
+      "acceptedAnswers": [
+       "Non gridare"
+      ],
+      "modelAnswer": "Non gridare!"
+     },
+     {
+      "id": "s7",
+      "start": "(copiare) → …",
+      "acceptedAnswers": [
+       "Non copiare"
+      ],
+      "modelAnswer": "Non copiare!"
+     },
+     {
+      "id": "s8",
+      "start": "(dormire in classe) → …",
+      "acceptedAnswers": [
+       "Non dormire in classe"
+      ],
+      "modelAnswer": "Non dormire in classe!"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-s2",
+  "title": "Misto: tu e voi, affermativo e negativo",
+  "language": "it",
+  "level": "A1",
+  "description": "L’imperativo (tu, voi) e la negazione · Misto: tu e voi, affermativo e negativo · livello difficile.",
+  "topics": [
+   "L’imperativo (tu, voi) e la negazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "3 · La scuola",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-imperativo",
+   "topicTitle": "L’imperativo (tu, voi) e la negazione",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Affermativo:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nIrregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_\n\n**Negativo:**\n- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + imperativo: _**Non parlate!**_\n\nCon gli adulti (Lei): _Scusi! Senta!_",
+   "ruleHelp": "**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.\n**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_",
    "order": 32
   },
   "vocabularyIds": [],
@@ -58938,9 +61216,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Setze den Imperativ in der richtigen Form ein.",
-    "explanation": "tu-Imperativ der Verben auf -are endet auf -a (ascolta), der auf -ere/-ire auf -i (chiudi, finisci).",
-    "text": "Luca, (chiudere) [[g1]] la porta, per favore!\nSara, non (dimenticare) [[g2]] il quaderno!\nRagazzi, (ascoltare) [[g3]] bene!\nMarco, (finire) [[g4]] l'esercizio!\nRagazzi, non (correre) [[g5]]!\nGiulia, (andare) [[g6]] alla lavagna!\nPaolo, non (fare) [[g7]] rumore!\nRagazzi, (fare) [[g8]] silenzio!",
+    "prompt": "Scrivi l’imperativo nella forma giusta.",
+    "explanation": "tu: -are → -a (ascolta), -ere/-ire → -i (chiudi, finisci).",
+    "promptHelp": "Setze den Imperativ in der richtigen Form ein.",
+    "explanationHelp": "tu-Imperativ der Verben auf -are endet auf -a, der auf -ere/-ire auf -i.",
+    "text": "Luca, (chiudere) [[g1]] la porta, per favore!\nSara, non (dimenticare) [[g2]] il quaderno!\nRagazzi, (ascoltare) [[g3]] bene!\nMarco, (finire) [[g4]] l’esercizio!\nRagazzi, non (correre) [[g5]]!\nGiulia, (andare) [[g6]] alla lavagna!\nPaolo, non (fare) [[g7]] rumore!\nRagazzi, (fare) [[g8]] silenzio!",
     "gaps": [
      {
       "id": "g1",
@@ -58975,7 +61255,7 @@ const STOCK_PACKAGES = [
      {
       "id": "g6",
       "acceptedAnswers": [
-       "va'",
+       "va’",
        "vai"
       ]
      },
@@ -59000,12 +61280,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-imperativo-s3",
-  "title": "Regeln für die Klasse",
+  "title": "Regole per la classe (testo)",
   "language": "it",
   "level": "A1",
-  "description": "Der Imperativ (tu, voi) und die Verneinung · Regeln für die Klasse (schwer).",
+  "description": "L’imperativo (tu, voi) e la negazione · Regole per la classe (testo) · livello difficile.",
   "topics": [
-   "Der Imperativ (tu, voi) und die Verneinung",
+   "L’imperativo (tu, voi) e la negazione",
    "Grammatik"
   ],
   "sources": [
@@ -59033,13 +61313,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 3,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-imperativo",
-   "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+   "topicTitle": "L’imperativo (tu, voi) e la negazione",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_",
+   "rule": "**Affermativo:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nIrregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_\n\n**Negativo:**\n- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + imperativo: _**Non parlate!**_\n\nCon gli adulti (Lei): _Scusi! Senta!_",
+   "ruleHelp": "**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.\n**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_",
    "order": 33
   },
   "vocabularyIds": [],
@@ -59047,10 +61328,45 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "open_answer",
-    "prompt": "Schreibe fünf Regeln für deine Klasse: drei bejahte und zwei verneinte (voi).",
+    "prompt": "Scrivi cinque regole per la tua classe: tre affermative e due negative (voi).",
     "explanation": "",
+    "promptHelp": "Schreibe fünf Regeln für deine Klasse: drei bejahte und zwei verneinte (voi).",
     "modelAnswer": "Arrivate puntuali! Ascoltate la prof! Fate i compiti! Non usate il cellulare in classe! Non mangiate durante la lezione!",
     "lines": 5
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "E adesso completa.",
+    "explanation": "",
+    "promptHelp": "Und jetzt ergänze.",
+    "text": "(arrivare) [[g1]] puntuali!\n(portare) [[g2]] il libro!\nNon (usare) [[g3]] il cellulare!\nNon (copiare) [[g4]] i compiti!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Arrivate"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Portate"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "usate"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "copiate"
+      ]
+     }
+    ]
    }
   ]
  },
@@ -60340,9 +62656,9 @@ const STOCK_PACKAGES = [
   "title": "capire, finire, fare",
   "language": "it",
   "level": "A1",
-  "description": "Verben auf -ire mit -isc- und fare · capire, finire, fare (einfach).",
+  "description": "I verbi in -isc- e fare · capire, finire, fare · livello facile.",
   "topics": [
-   "Verben auf -ire mit -isc- und fare",
+   "I verbi in -isc- e fare",
    "Grammatik"
   ],
   "sources": [
@@ -60370,13 +62686,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-isc-fare",
-   "topicTitle": "Verben auf -ire mit -isc- und fare",
+   "topicTitle": "I verbi in -isc- e fare",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "rule": "Molti verbi in -ire hanno **-isc-**, ma **non** con noi e voi:\n| persona | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nPronuncia: -isco [isko], ma -isci, -isce [iʃi, iʃe].\n**fare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "ruleHelp": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi (capiamo, capite). Aussprache: -isco [isko], -isci/-isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig: faccio, fai, fa, facciamo, fate, fanno.",
    "order": 21
   },
   "vocabularyIds": [],
@@ -60384,9 +62701,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle die richtige Form.",
+    "prompt": "Scegli la forma giusta.",
     "explanation": "",
-    "text": "Io non [[g1]] l'esercizio.\nTu [[g2]] il problema?\nLa lezione [[g3]] alle due.\nNoi [[g4]] tutto.\nIo [[g5]] i compiti.\nVoi [[g6]] attenzione?",
+    "promptHelp": "Wähle die richtige Form.",
+    "text": "Io non [[g1]] l’esercizio.\nTu [[g2]] il problema?\nLa lezione [[g3]] alle due.\nNoi [[g4]] tutto.\nIo [[g5]] i compiti.\nVoi [[g6]] attenzione?\nLoro [[g7]] la pizza.\nMarco [[g8]] sport.\nTu [[g9]] alle tre?\nNoi [[g10]] una pausa.",
     "gaps": [
      {
       "id": "g1",
@@ -60441,6 +62759,42 @@ const STOCK_PACKAGES = [
        "fanno"
       ],
       "answer": "fate"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "preferiscono",
+       "preferono",
+       "preferisce"
+      ],
+      "answer": "preferiscono"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "fa",
+       "fai",
+       "fanno"
+      ],
+      "answer": "fa"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "finisci",
+       "fini",
+       "finisce"
+      ],
+      "answer": "finisci"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "facciamo",
+       "faciamo",
+       "fate"
+      ],
+      "answer": "facciamo"
      }
     ]
    }
@@ -60451,12 +62805,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-isc-fare-l2",
-  "title": "Mit oder ohne -isc-?",
+  "title": "Con o senza -isc-?",
   "language": "it",
   "level": "A1",
-  "description": "Verben auf -ire mit -isc- und fare · Mit oder ohne -isc-? (einfach).",
+  "description": "I verbi in -isc- e fare · Con o senza -isc-? · livello facile.",
   "topics": [
-   "Verben auf -ire mit -isc- und fare",
+   "I verbi in -isc- e fare",
    "Grammatik"
   ],
   "sources": [
@@ -60484,13 +62838,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-isc-fare",
-   "topicTitle": "Verben auf -ire mit -isc- und fare",
+   "topicTitle": "I verbi in -isc- e fare",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "rule": "Molti verbi in -ire hanno **-isc-**, ma **non** con noi e voi:\n| persona | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nPronuncia: -isco [isko], ma -isci, -isce [iʃi, iʃe].\n**fare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "ruleHelp": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi (capiamo, capite). Aussprache: -isco [isko], -isci/-isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig: faccio, fai, fa, facciamo, fate, fanno.",
    "order": 22
   },
   "vocabularyIds": [],
@@ -60498,16 +62853,18 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "categorize",
-    "prompt": "Mit -isc- oder ohne?",
-    "explanation": "",
+    "prompt": "Con -isc- o senza?",
+    "explanation": "Noi e voi senza -isc-.",
+    "promptHelp": "Mit -isc- oder ohne?",
+    "explanationHelp": "noi und voi ohne -isc-.",
     "categories": [
      {
       "id": "isc",
-      "label": "mit -isc-"
+      "label": "con -isc-"
      },
      {
       "id": "ohne",
-      "label": "ohne -isc-"
+      "label": "senza -isc-"
      }
     ],
     "items": [
@@ -60550,6 +62907,16 @@ const STOCK_PACKAGES = [
       "id": "i8",
       "text": "voi capite",
       "category": "ohne"
+     },
+     {
+      "id": "i9",
+      "text": "io pulisco",
+      "category": "isc"
+     },
+     {
+      "id": "i10",
+      "text": "noi preferiamo",
+      "category": "ohne"
      }
     ]
    }
@@ -60560,105 +62927,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-isc-fare-l3",
-  "title": "Wer macht was?",
+  "title": "Chi fa che cosa?",
   "language": "it",
   "level": "A1",
-  "description": "Verben auf -ire mit -isc- und fare · Wer macht was? (einfach).",
+  "description": "I verbi in -isc- e fare · Chi fa che cosa? · livello facile.",
   "topics": [
-   "Verben auf -ire mit -isc- und fare",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Parte A.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "3 · La scuola",
-    "section": "Parte A"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 6,
-  "grammar": {
-   "topic": "ecco1-isc-fare",
-   "topicTitle": "Verben auf -ire mit -isc- und fare",
-   "difficulty": "leicht",
-   "origin": "own",
-   "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
-   "order": 23
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "matching",
-    "prompt": "Verbinde Person und Form von fare.",
-    "explanation": "",
-    "pairs": [
-     {
-      "id": "p1",
-      "left": "io",
-      "right": "faccio"
-     },
-     {
-      "id": "p2",
-      "left": "tu",
-      "right": "fai"
-     },
-     {
-      "id": "p3",
-      "left": "lui / lei",
-      "right": "fa"
-     },
-     {
-      "id": "p4",
-      "left": "noi",
-      "right": "facciamo"
-     },
-     {
-      "id": "p5",
-      "left": "voi",
-      "right": "fate"
-     },
-     {
-      "id": "p6",
-      "left": "loro",
-      "right": "fanno"
-     }
-    ],
-    "distractors": [
-     "facete",
-     "fo"
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-isc-fare-m1",
-  "title": "In classe",
-  "language": "it",
-  "level": "A1",
-  "description": "Verben auf -ire mit -isc- und fare · In classe (mittel).",
-  "topics": [
-   "Verben auf -ire mit -isc- und fare",
+   "I verbi in -isc- e fare",
    "Grammatik"
   ],
   "sources": [
@@ -60689,10 +62963,116 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-isc-fare",
-   "topicTitle": "Verben auf -ire mit -isc- und fare",
+   "topicTitle": "I verbi in -isc- e fare",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Molti verbi in -ire hanno **-isc-**, ma **non** con noi e voi:\n| persona | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nPronuncia: -isco [isko], ma -isci, -isce [iʃi, iʃe].\n**fare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "ruleHelp": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi (capiamo, capite). Aussprache: -isco [isko], -isci/-isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig: faccio, fai, fa, facciamo, fate, fanno.",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina persona e forma di fare.",
+    "explanation": "",
+    "promptHelp": "Verbinde Person und Form von fare.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "io",
+      "right": "faccio"
+     },
+     {
+      "id": "p2",
+      "left": "tu",
+      "right": "fai"
+     },
+     {
+      "id": "p3",
+      "left": "lui / lei",
+      "right": "fa"
+     },
+     {
+      "id": "p4",
+      "left": "noi",
+      "right": "facciamo"
+     },
+     {
+      "id": "p5",
+      "left": "voi",
+      "right": "fate"
+     },
+     {
+      "id": "p6",
+      "left": "loro",
+      "right": "fanno"
+     },
+     {
+      "id": "p7",
+      "left": "Giulia e io",
+      "right": "facciamo"
+     },
+     {
+      "id": "p8",
+      "left": "tu e Leo",
+      "right": "fate"
+     }
+    ],
+    "distractors": [
+     "facete",
+     "fo"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-isc-fare-m1",
+  "title": "In classe",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi in -isc- e fare · In classe · livello medio.",
+  "topics": [
+   "I verbi in -isc- e fare",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "3 · La scuola",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-isc-fare",
+   "topicTitle": "I verbi in -isc- e fare",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "rule": "Molti verbi in -ire hanno **-isc-**, ma **non** con noi e voi:\n| persona | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nPronuncia: -isco [isko], ma -isci, -isce [iʃi, iʃe].\n**fare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "ruleHelp": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi (capiamo, capite). Aussprache: -isco [isko], -isci/-isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig: faccio, fai, fa, facciamo, fate, fanno.",
    "order": 21
   },
   "vocabularyIds": [],
@@ -60700,9 +63080,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Setze das Verb in der richtigen Form ein.",
+    "prompt": "Scrivi il verbo nella forma giusta.",
     "explanation": "",
-    "text": "Prof, non (capire, io) [[g1]] la domanda!\nA che ora (finire) [[g2]] la lezione?\nNoi (fare) [[g3]] un esercizio di geometria.\nLa prof (restituire) [[g4]] le relazioni.\nVoi (capire) [[g5]] la regola?\nI ragazzi (fare) [[g6]] attenzione.",
+    "promptHelp": "Setze das Verb in der richtigen Form ein.",
+    "text": "Prof, non (capire, io) [[g1]] la domanda!\nA che ora (finire) [[g2]] la lezione?\nNoi (fare) [[g3]] un esercizio di geometria.\nLa prof (restituire) [[g4]] le relazioni.\nVoi (capire) [[g5]] la regola?\nI ragazzi (fare) [[g6]] attenzione.\nTu (preferire) [[g7]] la storia o la geografia?\nIo (finire) [[g8]] il compito in classe.",
     "gaps": [
      {
       "id": "g1",
@@ -60739,6 +63120,18 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "fanno"
       ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "preferisci"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "finisco"
+      ]
      }
     ]
    }
@@ -60749,12 +63142,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-isc-fare-m2",
-  "title": "Was machst du?",
+  "title": "Che cosa fai?",
   "language": "it",
   "level": "A1",
-  "description": "Verben auf -ire mit -isc- und fare · Was machst du? (mittel).",
+  "description": "I verbi in -isc- e fare · Che cosa fai? · livello medio.",
   "topics": [
-   "Verben auf -ire mit -isc- und fare",
+   "I verbi in -isc- e fare",
    "Grammatik"
   ],
   "sources": [
@@ -60782,13 +63175,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 8,
+  "estimatedMinutes": 9,
   "grammar": {
    "topic": "ecco1-isc-fare",
-   "topicTitle": "Verben auf -ire mit -isc- und fare",
+   "topicTitle": "I verbi in -isc- e fare",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "rule": "Molti verbi in -ire hanno **-isc-**, ma **non** con noi e voi:\n| persona | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nPronuncia: -isco [isko], ma -isci, -isce [iʃi, iʃe].\n**fare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "ruleHelp": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi (capiamo, capite). Aussprache: -isco [isko], -isci/-isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig: faccio, fai, fa, facciamo, fate, fanno.",
    "order": 22
   },
   "vocabularyIds": [],
@@ -60796,9 +63190,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Ergänze fare in der richtigen Form.",
-    "explanation": "Wendungen mit fare: fare i compiti, fare sport, fare colazione, fare una festa, fare attenzione.",
-    "text": "Che cosa [[g1]] stasera? – [[g2]] i compiti.\nMarco [[g3]] sport tutti i giorni.\nNoi [[g4]] una gita a Torino.\nVoi [[g5]] colazione a scuola?\nI miei amici [[g6]] una festa sabato.\nIl pomeriggio io e mia sorella [[g7]] una passeggiata.\nTu [[g8]] attenzione in classe?",
+    "prompt": "Scrivi fare nella forma giusta.",
+    "explanation": "Espressioni con fare: fare i compiti, fare sport, fare colazione, fare una festa, fare attenzione, fare la spesa.",
+    "promptHelp": "Ergänze fare in der richtigen Form.",
+    "explanationHelp": "Wendungen mit fare: fare i compiti, fare sport, fare colazione, fare una festa, fare attenzione, fare la spesa.",
+    "text": "Che cosa [[g1]] stasera? – [[g2]] i compiti.\nMarco [[g3]] sport tutti i giorni.\nNoi [[g4]] una gita a Torino.\nVoi [[g5]] colazione a scuola?\nI miei amici [[g6]] una festa sabato.\nIl pomeriggio io e mia sorella [[g7]] una passeggiata.\nTu [[g8]] attenzione in classe?\nMia madre [[g9]] la spesa il sabato.",
     "gaps": [
      {
       "id": "g1",
@@ -60847,6 +63243,12 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "fai"
       ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "fa"
+      ]
      }
     ]
    }
@@ -60857,12 +63259,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-isc-fare-m3",
-  "title": "Am Ende der Stunde",
+  "title": "Alla fine della lezione",
   "language": "it",
   "level": "A1",
-  "description": "Verben auf -ire mit -isc- und fare · Am Ende der Stunde (mittel).",
+  "description": "I verbi in -isc- e fare · Alla fine della lezione · livello medio.",
   "topics": [
-   "Verben auf -ire mit -isc- und fare",
+   "I verbi in -isc- e fare",
    "Grammatik"
   ],
   "sources": [
@@ -60893,10 +63295,11 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-isc-fare",
-   "topicTitle": "Verben auf -ire mit -isc- und fare",
+   "topicTitle": "I verbi in -isc- e fare",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "rule": "Molti verbi in -ire hanno **-isc-**, ma **non** con noi e voi:\n| persona | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nPronuncia: -isco [isko], ma -isci, -isce [iʃi, iʃe].\n**fare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "ruleHelp": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi (capiamo, capite). Aussprache: -isco [isko], -isci/-isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig: faccio, fai, fa, facciamo, fate, fanno.",
    "order": 23
   },
   "vocabularyIds": [],
@@ -60904,9 +63307,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Setze die Verben in die richtige Form (mit oder ohne -isc-).",
-    "explanation": "noi und voi ohne -isc-: capiamo, finite.",
-    "text": "Io non (capire) [[g1]] l'esercizio numero tre.\nLa prof (spiegare) [[g2]] di nuovo e adesso noi (capire) [[g3]].\nTu (preferire) [[g4]] la matematica o la storia?\nIo (preferire) [[g5]] l'inglese.\nLa lezione (finire) [[g6]] alle undici.\nVoi (finire) [[g7]] il compito a casa?\nI ragazzi (pulire) [[g8]] la lavagna.",
+    "prompt": "Scrivi i verbi nella forma giusta (con o senza -isc-).",
+    "explanation": "noi e voi senza -isc-: capiamo, finite.",
+    "promptHelp": "Setze die Verben in die richtige Form (mit oder ohne -isc-).",
+    "explanationHelp": "noi und voi ohne -isc-: capiamo, finite.",
+    "text": "Io non (capire) [[g1]] l’esercizio numero tre.\nLa prof (spiegare) [[g2]] di nuovo e adesso noi (capire) [[g3]].\nTu (preferire) [[g4]] la matematica o la storia?\nIo (preferire) [[g5]] l’inglese.\nLa lezione (finire) [[g6]] alle undici.\nVoi (finire) [[g7]] il compito a casa?\nI ragazzi (pulire) [[g8]] la lavagna.",
     "gaps": [
      {
       "id": "g1",
@@ -60965,12 +63370,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-isc-fare-s1",
-  "title": "fare",
+  "title": "fare e finire",
   "language": "it",
   "level": "A1",
-  "description": "Verben auf -ire mit -isc- und fare · fare (schwer).",
+  "description": "I verbi in -isc- e fare · fare e finire · livello difficile.",
   "topics": [
-   "Verben auf -ire mit -isc- und fare",
+   "I verbi in -isc- e fare",
    "Grammatik"
   ],
   "sources": [
@@ -61001,10 +63406,11 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 3,
   "grammar": {
    "topic": "ecco1-isc-fare",
-   "topicTitle": "Verben auf -ire mit -isc- und fare",
+   "topicTitle": "I verbi in -isc- e fare",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "rule": "Molti verbi in -ire hanno **-isc-**, ma **non** con noi e voi:\n| persona | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nPronuncia: -isco [isko], ma -isci, -isce [iʃi, iʃe].\n**fare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "ruleHelp": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi (capiamo, capite). Aussprache: -isco [isko], -isci/-isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig: faccio, fai, fa, facciamo, fate, fanno.",
    "order": 21
   },
   "vocabularyIds": [],
@@ -61012,10 +63418,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "table_fill",
-    "prompt": "Ergänze die Formen.",
+    "prompt": "Completa le forme.",
     "explanation": "",
+    "promptHelp": "Ergänze die Formen.",
     "columns": [
-     "Person",
+     "persona",
      "fare",
      "finire"
     ],
@@ -61119,12 +63526,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-isc-fare-s2",
-  "title": "Fehler finden",
+  "title": "Trova gli errori",
   "language": "it",
   "level": "A1",
-  "description": "Verben auf -ire mit -isc- und fare · Fehler finden (schwer).",
+  "description": "I verbi in -isc- e fare · Trova gli errori · livello difficile.",
   "topics": [
-   "Verben auf -ire mit -isc- und fare",
+   "I verbi in -isc- e fare",
    "Grammatik"
   ],
   "sources": [
@@ -61152,13 +63559,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 10,
   "grammar": {
    "topic": "ecco1-isc-fare",
-   "topicTitle": "Verben auf -ire mit -isc- und fare",
+   "topicTitle": "I verbi in -isc- e fare",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "rule": "Molti verbi in -ire hanno **-isc-**, ma **non** con noi e voi:\n| persona | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nPronuncia: -isco [isko], ma -isci, -isce [iʃi, iʃe].\n**fare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "ruleHelp": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi (capiamo, capite). Aussprache: -isco [isko], -isci/-isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig: faccio, fai, fa, facciamo, fate, fanno.",
    "order": 22
   },
   "vocabularyIds": [],
@@ -61166,9 +63574,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "error_correction",
-    "prompt": "Korrigiere die markierten Formen.",
+    "prompt": "Correggi le forme segnate.",
     "explanation": "",
-    "text": "Noi [[g1]] la lezione.\nIo [[g2]] i compiti alle cinque.\nLa scuola [[g3]] all'una.\nVoi [[g4]] attenzione?\nLoro non [[g5]] l'esercizio.",
+    "promptHelp": "Korrigiere die markierten Formen.",
+    "text": "Noi [[g1]] la lezione.\nIo [[g2]] i compiti alle cinque.\nLa scuola [[g3]] all’una.\nVoi [[g4]] attenzione?\nLoro non [[g5]] l’esercizio.\nTu [[g6]] il tè o il caffè?\nNoi [[g7]] una pausa.\nVoi [[g8]] alle tre?",
     "errors": [
      {
       "id": "g1",
@@ -61204,6 +63613,27 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "capiscono"
       ]
+     },
+     {
+      "id": "g6",
+      "wrong": "preferi",
+      "acceptedAnswers": [
+       "preferisci"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "facemo",
+      "acceptedAnswers": [
+       "facciamo"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "finiscete",
+      "acceptedAnswers": [
+       "finite"
+      ]
      }
     ]
    }
@@ -61214,12 +63644,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-isc-fare-s3",
-  "title": "Tabelle mit -isc-",
+  "title": "Tabella con -isc-",
   "language": "it",
   "level": "A1",
-  "description": "Verben auf -ire mit -isc- und fare · Tabelle mit -isc- (schwer).",
+  "description": "I verbi in -isc- e fare · Tabella con -isc- · livello difficile.",
   "topics": [
-   "Verben auf -ire mit -isc- und fare",
+   "I verbi in -isc- e fare",
    "Grammatik"
   ],
   "sources": [
@@ -61250,10 +63680,11 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 3,
   "grammar": {
    "topic": "ecco1-isc-fare",
-   "topicTitle": "Verben auf -ire mit -isc- und fare",
+   "topicTitle": "I verbi in -isc- e fare",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "rule": "Molti verbi in -ire hanno **-isc-**, ma **non** con noi e voi:\n| persona | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nPronuncia: -isco [isko], ma -isci, -isce [iʃi, iʃe].\n**fare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "ruleHelp": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi (capiamo, capite). Aussprache: -isco [isko], -isci/-isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig: faccio, fai, fa, facciamo, fate, fanno.",
    "order": 23
   },
   "vocabularyIds": [],
@@ -61261,10 +63692,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "table_fill",
-    "prompt": "Ergänze die Formen.",
+    "prompt": "Completa le forme.",
     "explanation": "",
+    "promptHelp": "Ergänze die Formen.",
     "columns": [
-     "Person",
+     "persona",
      "capire",
      "preferire",
      "pulire"
@@ -61408,9 +63840,9 @@ const STOCK_PACKAGES = [
   "title": "Una mail da scuola",
   "language": "it",
   "level": "A1",
-  "description": "Verben auf -ire mit -isc- und fare · Una mail da scuola (schwer).",
+  "description": "I verbi in -isc- e fare · Una mail da scuola · livello difficile.",
   "topics": [
-   "Verben auf -ire mit -isc- und fare",
+   "I verbi in -isc- e fare",
    "Grammatik"
   ],
   "sources": [
@@ -61438,13 +63870,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 9,
+  "estimatedMinutes": 10,
   "grammar": {
    "topic": "ecco1-isc-fare",
-   "topicTitle": "Verben auf -ire mit -isc- und fare",
+   "topicTitle": "I verbi in -isc- e fare",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "rule": "Molti verbi in -ire hanno **-isc-**, ma **non** con noi e voi:\n| persona | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nPronuncia: -isco [isko], ma -isci, -isce [iʃi, iʃe].\n**fare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "ruleHelp": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi (capiamo, capite). Aussprache: -isco [isko], -isci/-isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig: faccio, fai, fa, facciamo, fate, fanno.",
    "order": 24
   },
   "vocabularyIds": [],
@@ -61452,9 +63885,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Ergänze die Verben (fare, capire, finire, preferire, dormire).",
-    "explanation": "dormire hat kein -isc-: lui dorme.",
-    "text": "Ciao Lena! Oggi a scuola (fare) [[g1]] un test di geografia.\nIo (capire) [[g2]] tutto, ma la mia amica no.\nIl test (finire) [[g3]] alle dieci.\nDopo, noi (fare) [[g4]] educazione fisica: io (preferire) [[g5]] la pallavolo.\nIl mio compagno Luca (dormire) [[g6]] in classe, che ridere!\nE voi, che cosa (fare) [[g7]] oggi a scuola?",
+    "prompt": "Scrivi i verbi (fare, capire, finire, preferire, dormire).",
+    "explanation": "dormire non ha -isc-: lui dorme.",
+    "promptHelp": "Ergänze die Verben.",
+    "explanationHelp": "dormire hat kein -isc-: lui dorme.",
+    "text": "Ciao Lena! Oggi a scuola (fare) [[g1]] un test di geografia.\nIo (capire) [[g2]] tutto, ma la mia amica no.\nIl test (finire) [[g3]] alle dieci.\nDopo, noi (fare) [[g4]] educazione fisica: io (preferire) [[g5]] la pallavolo.\nIl mio compagno Luca (dormire) [[g6]] in classe, che ridere!\nE voi, che cosa (fare) [[g7]] oggi a scuola?\nI miei compagni (preferire) [[g8]] il basket.",
     "gaps": [
      {
       "id": "g1",
@@ -61496,6 +63931,12 @@ const STOCK_PACKAGES = [
       "id": "g7",
       "acceptedAnswers": [
        "fate"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "preferiscono"
       ]
      }
     ]
@@ -62638,7 +65079,7 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 10,
   "grammar": {
    "topic": "ecco1-mi-piace",
    "topicTitle": "(Non) mi piace / mi piacciono",
@@ -62697,6 +65138,30 @@ const STOCK_PACKAGES = [
        "Mi piacciono le vacanze, ma non mi piacciono i compiti"
       ],
       "modelAnswer": "Mi piacciono le vacanze, ma non mi piacciono i compiti."
+     },
+     {
+      "id": "s6",
+      "start": "il rock (☺) e il rap (☹)",
+      "acceptedAnswers": [
+       "Mi piace il rock, ma non mi piace il rap"
+      ],
+      "modelAnswer": "Mi piace il rock, ma non mi piace il rap."
+     },
+     {
+      "id": "s7",
+      "start": "le fragole (☺) e le banane (☹)",
+      "acceptedAnswers": [
+       "Mi piacciono le fragole, ma non mi piacciono le banane"
+      ],
+      "modelAnswer": "Mi piacciono le fragole, ma non mi piacciono le banane."
+     },
+     {
+      "id": "s8",
+      "start": "ballare (☺) e cantare (☹)",
+      "acceptedAnswers": [
+       "Mi piace ballare, ma non mi piace cantare"
+      ],
+      "modelAnswer": "Mi piace ballare, ma non mi piace cantare."
      }
     ]
    }
@@ -62707,12 +65172,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-modali-l1",
-  "title": "Welche Form?",
+  "title": "Quale forma?",
   "language": "it",
   "level": "A1",
-  "description": "venire, sapere und die Modalverben · Welche Form? (einfach).",
+  "description": "Venire, sapere e i verbi modali · Quale forma? · livello facile.",
   "topics": [
-   "venire, sapere und die Modalverben",
+   "Venire, sapere e i verbi modali",
    "Grammatik"
   ],
   "sources": [
@@ -62740,13 +65205,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-modali",
-   "topicTitle": "venire, sapere und die Modalverben",
+   "topicTitle": "Venire, sapere e i verbi modali",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nDopo i verbi modali c’è l’**infinito**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + infinito = so fare una cosa (ho imparato): _So nuotare._ · **potere** = è possibile, ho il permesso: _Oggi non posso uscire._",
+   "ruleHelp": "volere (wollen), potere (können/dürfen), dovere (müssen), sapere (wissen/können), venire (kommen) sind unregelmäßig (siehe Tabelle). Danach steht der **Infinitiv**: _Voglio sciare._\n**sapere** + Infinitiv = etwas gelernt haben (_So nuotare._) · **potere** = die Möglichkeit oder Erlaubnis haben (_Oggi non posso uscire._)",
    "order": 21
   },
   "vocabularyIds": [],
@@ -62754,9 +65220,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle die richtige Form.",
+    "prompt": "Scegli la forma giusta.",
     "explanation": "",
-    "text": "Io [[g1]] andare in montagna.\nTu [[g2]] venire alla festa?\nLuca [[g3]] studiare.\nNoi [[g4]] sciare.\nVoi [[g5]] con noi?\nI ragazzi [[g6]] giocare a calcio.",
+    "promptHelp": "Wähle die richtige Form.",
+    "text": "Io [[g1]] andare in montagna.\nTu [[g2]] venire alla festa?\nLuca [[g3]] studiare.\nNoi [[g4]] sciare.\nVoi [[g5]] con noi?\nI ragazzi [[g6]] giocare a calcio.\nMia madre [[g7]] aiutarti.\nIo [[g8]] fare i compiti.\nTu [[g9]] suonare la chitarra?\nLoro [[g10]] alle otto.",
     "gaps": [
      {
       "id": "g1",
@@ -62811,6 +65278,42 @@ const STOCK_PACKAGES = [
        "vuole"
       ],
       "answer": "vogliono"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "può",
+       "puoi",
+       "possono"
+      ],
+      "answer": "può"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "devo",
+       "deve",
+       "dobbiamo"
+      ],
+      "answer": "devo"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "sai",
+       "sa",
+       "so"
+      ],
+      "answer": "sai"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "vengono",
+       "venono",
+       "viene"
+      ],
+      "answer": "vengono"
      }
     ]
    }
@@ -62821,12 +65324,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-modali-l2",
-  "title": "Formen sortieren",
+  "title": "Forme da ordinare",
   "language": "it",
   "level": "A1",
-  "description": "venire, sapere und die Modalverben · Formen sortieren (einfach).",
+  "description": "Venire, sapere e i verbi modali · Forme da ordinare · livello facile.",
   "topics": [
-   "venire, sapere und die Modalverben",
+   "Venire, sapere e i verbi modali",
    "Grammatik"
   ],
   "sources": [
@@ -62854,13 +65357,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-modali",
-   "topicTitle": "venire, sapere und die Modalverben",
+   "topicTitle": "Venire, sapere e i verbi modali",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nDopo i verbi modali c’è l’**infinito**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + infinito = so fare una cosa (ho imparato): _So nuotare._ · **potere** = è possibile, ho il permesso: _Oggi non posso uscire._",
+   "ruleHelp": "volere (wollen), potere (können/dürfen), dovere (müssen), sapere (wissen/können), venire (kommen) sind unregelmäßig (siehe Tabelle). Danach steht der **Infinitiv**: _Voglio sciare._\n**sapere** + Infinitiv = etwas gelernt haben (_So nuotare._) · **potere** = die Möglichkeit oder Erlaubnis haben (_Oggi non posso uscire._)",
    "order": 22
   },
   "vocabularyIds": [],
@@ -62868,8 +65372,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "categorize",
-    "prompt": "Zu welchem Verb gehört die Form?",
+    "prompt": "A quale verbo appartiene la forma?",
     "explanation": "",
+    "promptHelp": "Zu welchem Verb gehört die Form?",
     "categories": [
      {
       "id": "vo",
@@ -62929,6 +65434,11 @@ const STOCK_PACKAGES = [
       "id": "i9",
       "text": "dobbiamo",
       "category": "do"
+     },
+     {
+      "id": "i10",
+      "text": "potete",
+      "category": "po"
      }
     ]
    }
@@ -62939,12 +65449,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-modali-l3",
-  "title": "Was möchtest du?",
+  "title": "Che cosa vuoi?",
   "language": "it",
   "level": "A1",
-  "description": "venire, sapere und die Modalverben · Was möchtest du? (einfach).",
+  "description": "Venire, sapere e i verbi modali · Che cosa vuoi? · livello facile.",
   "topics": [
-   "venire, sapere und die Modalverben",
+   "Venire, sapere e i verbi modali",
    "Grammatik"
   ],
   "sources": [
@@ -62975,10 +65485,11 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-modali",
-   "topicTitle": "venire, sapere und die Modalverben",
+   "topicTitle": "Venire, sapere e i verbi modali",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nDopo i verbi modali c’è l’**infinito**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + infinito = so fare una cosa (ho imparato): _So nuotare._ · **potere** = è possibile, ho il permesso: _Oggi non posso uscire._",
+   "ruleHelp": "volere (wollen), potere (können/dürfen), dovere (müssen), sapere (wissen/können), venire (kommen) sind unregelmäßig (siehe Tabelle). Danach steht der **Infinitiv**: _Voglio sciare._\n**sapere** + Infinitiv = etwas gelernt haben (_So nuotare._) · **potere** = die Möglichkeit oder Erlaubnis haben (_Oggi non posso uscire._)",
    "order": 23
   },
   "vocabularyIds": [],
@@ -62986,8 +65497,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle die richtige Form.",
+    "prompt": "Scegli la forma giusta.",
     "explanation": "",
+    "promptHelp": "Wähle die richtige Form.",
     "text": "Io [[g1]] un gelato al cioccolato.\nTu [[g2]] venire al cinema?\nMia sorella [[g3]] un cane.\nNoi [[g4]] andare al mare.\nVoi [[g5]] giocare con noi?\nI miei amici [[g6]] fare una festa.\nScusi, [[g7]] entrare?\nMamma, [[g8]] uscire stasera?",
     "gaps": [
      {
@@ -63071,12 +65583,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-modali-m1",
-  "title": "sapere oder potere?",
+  "title": "Sapere o potere?",
   "language": "it",
   "level": "A1",
-  "description": "venire, sapere und die Modalverben · sapere oder potere? (mittel).",
+  "description": "Venire, sapere e i verbi modali · Sapere o potere? · livello medio.",
   "topics": [
-   "venire, sapere und die Modalverben",
+   "Venire, sapere e i verbi modali",
    "Grammatik"
   ],
   "sources": [
@@ -63104,13 +65616,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-modali",
-   "topicTitle": "venire, sapere und die Modalverben",
+   "topicTitle": "Venire, sapere e i verbi modali",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nDopo i verbi modali c’è l’**infinito**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + infinito = so fare una cosa (ho imparato): _So nuotare._ · **potere** = è possibile, ho il permesso: _Oggi non posso uscire._",
+   "ruleHelp": "volere (wollen), potere (können/dürfen), dovere (müssen), sapere (wissen/können), venire (kommen) sind unregelmäßig (siehe Tabelle). Danach steht der **Infinitiv**: _Voglio sciare._\n**sapere** + Infinitiv = etwas gelernt haben (_So nuotare._) · **potere** = die Möglichkeit oder Erlaubnis haben (_Oggi non posso uscire._)",
    "order": 21
   },
   "vocabularyIds": [],
@@ -63118,9 +65631,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "sapere oder potere?",
-    "explanation": "sapere: etwas gelernt haben (Fähigkeit). potere: die Möglichkeit oder Erlaubnis haben.",
-    "text": "[[g1]] suonare il pianoforte, ho imparato da piccolo.\nOggi non [[g2]] uscire, devo studiare.\n[[g3]] sciare? – Sì, ho imparato l'anno scorso.\n[[g4]] aiutarmi con i compiti?\nMia sorella [[g5]] parlare tre lingue.",
+    "prompt": "Sapere o potere?",
+    "explanation": "sapere: hai imparato a fare una cosa. potere: è possibile o hai il permesso.",
+    "promptHelp": "sapere oder potere?",
+    "explanationHelp": "sapere: etwas gelernt haben (Fähigkeit). potere: die Möglichkeit oder Erlaubnis haben.",
+    "text": "[[g1]] suonare il pianoforte, ho imparato da piccolo.\nOggi non [[g2]] uscire, devo studiare.\n[[g3]] sciare? – Sì, ho imparato l’anno scorso.\n[[g4]] aiutarmi con i compiti?\nMia sorella [[g5]] parlare tre lingue.\nNon [[g6]] venire, sono malato.\nMio fratello non [[g7]] nuotare, ha paura dell’acqua.\n[[g8]] entrare? – Sì, prego.",
     "gaps": [
      {
       "id": "g1",
@@ -63161,6 +65676,30 @@ const STOCK_PACKAGES = [
        "può"
       ],
       "answer": "sa"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "posso",
+       "so"
+      ],
+      "answer": "posso"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "sa",
+       "può"
+      ],
+      "answer": "sa"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "Possiamo",
+       "Sappiamo"
+      ],
+      "answer": "Possiamo"
      }
     ]
    }
@@ -63171,12 +65710,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-modali-m2",
-  "title": "Ein Wochenende in Sestriere?",
+  "title": "Un fine settimana a Sestriere?",
   "language": "it",
   "level": "A1",
-  "description": "venire, sapere und die Modalverben · Ein Wochenende in Sestriere? (mittel).",
+  "description": "Venire, sapere e i verbi modali · Un fine settimana a Sestriere? · livello medio.",
   "topics": [
-   "venire, sapere und die Modalverben",
+   "Venire, sapere e i verbi modali",
    "Grammatik"
   ],
   "sources": [
@@ -63204,13 +65743,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 9,
   "grammar": {
    "topic": "ecco1-modali",
-   "topicTitle": "venire, sapere und die Modalverben",
+   "topicTitle": "Venire, sapere e i verbi modali",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nDopo i verbi modali c’è l’**infinito**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + infinito = so fare una cosa (ho imparato): _So nuotare._ · **potere** = è possibile, ho il permesso: _Oggi non posso uscire._",
+   "ruleHelp": "volere (wollen), potere (können/dürfen), dovere (müssen), sapere (wissen/können), venire (kommen) sind unregelmäßig (siehe Tabelle). Danach steht der **Infinitiv**: _Voglio sciare._\n**sapere** + Infinitiv = etwas gelernt haben (_So nuotare._) · **potere** = die Möglichkeit oder Erlaubnis haben (_Oggi non posso uscire._)",
    "order": 22
   },
   "vocabularyIds": [],
@@ -63218,9 +65758,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Ergänze die Verben in der richtigen Form.",
+    "prompt": "Scrivi i verbi nella forma giusta.",
     "explanation": "",
-    "text": "– Ragazzi, sabato (venire, voi) [[g1]] a Sestriere?\n– Io (volere) [[g2]] venire, ma (dovere) [[g3]] studiare.\n– E Marco? (Potere) [[g4]] venire?\n– Sì, ma non (sapere) [[g5]] sciare!\n– Non importa, noi (potere) [[g6]] imparare insieme!",
+    "promptHelp": "Ergänze die Verben in der richtigen Form.",
+    "text": "– Ragazzi, sabato (venire, voi) [[g1]] a Sestriere?\n– Io (volere) [[g2]] venire, ma (dovere) [[g3]] studiare.\n– E Marco? (Potere) [[g4]] venire?\n– Sì, ma non (sapere) [[g5]] sciare!\n– Non importa, noi (potere) [[g6]] imparare insieme!\n– E Giulia e Sara? (Venire, loro) [[g7]]?\n– No, (dovere, loro) [[g8]] andare dai nonni.\n– Peccato! Allora (venire, io) [[g9]] io con Marco.",
     "gaps": [
      {
       "id": "g1",
@@ -63257,6 +65798,24 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "possiamo"
       ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Vengono"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "devono"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "vengo"
+      ]
      }
     ]
    }
@@ -63267,12 +65826,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-modali-m3",
-  "title": "Ein Wochenendplan",
+  "title": "Un piano per il fine settimana",
   "language": "it",
   "level": "A1",
-  "description": "venire, sapere und die Modalverben · Ein Wochenendplan (mittel).",
+  "description": "Venire, sapere e i verbi modali · Un piano per il fine settimana · livello medio.",
   "topics": [
-   "venire, sapere und die Modalverben",
+   "Venire, sapere e i verbi modali",
    "Grammatik"
   ],
   "sources": [
@@ -63303,10 +65862,11 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 9,
   "grammar": {
    "topic": "ecco1-modali",
-   "topicTitle": "venire, sapere und die Modalverben",
+   "topicTitle": "Venire, sapere e i verbi modali",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nDopo i verbi modali c’è l’**infinito**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + infinito = so fare una cosa (ho imparato): _So nuotare._ · **potere** = è possibile, ho il permesso: _Oggi non posso uscire._",
+   "ruleHelp": "volere (wollen), potere (können/dürfen), dovere (müssen), sapere (wissen/können), venire (kommen) sind unregelmäßig (siehe Tabelle). Danach steht der **Infinitiv**: _Voglio sciare._\n**sapere** + Infinitiv = etwas gelernt haben (_So nuotare._) · **potere** = die Möglichkeit oder Erlaubnis haben (_Oggi non posso uscire._)",
    "order": 23
   },
   "vocabularyIds": [],
@@ -63314,8 +65874,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Ergänze die Modalverben in der richtigen Form.",
-    "explanation": "Nach volere, potere, dovere, sapere folgt der Infinitiv: devo studiare, sa nuotare.",
+    "prompt": "Scrivi i verbi modali nella forma giusta.",
+    "explanation": "Dopo volere, potere, dovere, sapere c’è l’infinito: devo studiare, sa nuotare.",
+    "promptHelp": "Ergänze die Modalverben in der richtigen Form.",
+    "explanationHelp": "Nach volere, potere, dovere, sapere folgt der Infinitiv.",
     "text": "– Marco, sabato (volere, tu) [[g1]] venire in piscina?\n– Mi dispiace, non (potere, io) [[g2]]. (dovere, io) [[g3]] studiare per il test di storia.\n– E domenica? (potere, tu) [[g4]] venire?\n– Sì, domenica (potere, io) [[g5]]. Anche Luca (volere) [[g6]] venire.\n– Benissimo! Allora (dovere, noi) [[g7]] comprare i biglietti.\n– Ma Luca non (sapere) [[g8]] nuotare!\n– Non importa, (potere, lui) [[g9]] restare al bar.",
     "gaps": [
      {
@@ -63381,12 +65943,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-modali-m4",
-  "title": "venire und sapere",
+  "title": "venire e sapere",
   "language": "it",
   "level": "A1",
-  "description": "venire, sapere und die Modalverben · venire und sapere (mittel).",
+  "description": "Venire, sapere e i verbi modali · venire e sapere · livello medio.",
   "topics": [
-   "venire, sapere und die Modalverben",
+   "Venire, sapere e i verbi modali",
    "Grammatik"
   ],
   "sources": [
@@ -63417,10 +65979,11 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 3,
   "grammar": {
    "topic": "ecco1-modali",
-   "topicTitle": "venire, sapere und die Modalverben",
+   "topicTitle": "Venire, sapere e i verbi modali",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nDopo i verbi modali c’è l’**infinito**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + infinito = so fare una cosa (ho imparato): _So nuotare._ · **potere** = è possibile, ho il permesso: _Oggi non posso uscire._",
+   "ruleHelp": "volere (wollen), potere (können/dürfen), dovere (müssen), sapere (wissen/können), venire (kommen) sind unregelmäßig (siehe Tabelle). Danach steht der **Infinitiv**: _Voglio sciare._\n**sapere** + Infinitiv = etwas gelernt haben (_So nuotare._) · **potere** = die Möglichkeit oder Erlaubnis haben (_Oggi non posso uscire._)",
    "order": 24
   },
   "vocabularyIds": [],
@@ -63428,10 +65991,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "table_fill",
-    "prompt": "Ergänze die Formen.",
+    "prompt": "Completa le forme.",
     "explanation": "",
+    "promptHelp": "Ergänze die Formen.",
     "columns": [
-     "Person",
+     "persona",
      "venire",
      "sapere"
     ],
@@ -63535,12 +66099,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-modali-s1",
-  "title": "Konjugationstabelle",
+  "title": "Tabella dei modali",
   "language": "it",
   "level": "A1",
-  "description": "venire, sapere und die Modalverben · Konjugationstabelle (schwer).",
+  "description": "Venire, sapere e i verbi modali · Tabella dei modali · livello difficile.",
   "topics": [
-   "venire, sapere und die Modalverben",
+   "Venire, sapere e i verbi modali",
    "Grammatik"
   ],
   "sources": [
@@ -63571,10 +66135,11 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 3,
   "grammar": {
    "topic": "ecco1-modali",
-   "topicTitle": "venire, sapere und die Modalverben",
+   "topicTitle": "Venire, sapere e i verbi modali",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nDopo i verbi modali c’è l’**infinito**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + infinito = so fare una cosa (ho imparato): _So nuotare._ · **potere** = è possibile, ho il permesso: _Oggi non posso uscire._",
+   "ruleHelp": "volere (wollen), potere (können/dürfen), dovere (müssen), sapere (wissen/können), venire (kommen) sind unregelmäßig (siehe Tabelle). Danach steht der **Infinitiv**: _Voglio sciare._\n**sapere** + Infinitiv = etwas gelernt haben (_So nuotare._) · **potere** = die Möglichkeit oder Erlaubnis haben (_Oggi non posso uscire._)",
    "order": 21
   },
   "vocabularyIds": [],
@@ -63582,10 +66147,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "table_fill",
-    "prompt": "Ergänze die Formen.",
+    "prompt": "Completa le forme.",
     "explanation": "",
+    "promptHelp": "Ergänze die Formen.",
     "columns": [
-     "Person",
+     "persona",
      "volere",
      "potere",
      "dovere"
@@ -63613,21 +66179,42 @@ const STOCK_PACKAGES = [
       }
      ],
      [
-      "lui / lei",
+      "tu",
       {
        "id": "c4",
        "acceptedAnswers": [
-        "vuole"
+        "vuoi"
        ]
       },
       {
        "id": "c5",
        "acceptedAnswers": [
-        "può"
+        "puoi"
        ]
       },
       {
        "id": "c6",
+       "acceptedAnswers": [
+        "devi"
+       ]
+      }
+     ],
+     [
+      "lui / lei",
+      {
+       "id": "c7",
+       "acceptedAnswers": [
+        "vuole"
+       ]
+      },
+      {
+       "id": "c8",
+       "acceptedAnswers": [
+        "può"
+       ]
+      },
+      {
+       "id": "c9",
        "acceptedAnswers": [
         "deve"
        ]
@@ -63636,40 +66223,61 @@ const STOCK_PACKAGES = [
      [
       "noi",
       {
-       "id": "c7",
+       "id": "c10",
        "acceptedAnswers": [
         "vogliamo"
        ]
       },
       {
-       "id": "c8",
+       "id": "c11",
        "acceptedAnswers": [
         "possiamo"
        ]
       },
       {
-       "id": "c9",
+       "id": "c12",
        "acceptedAnswers": [
         "dobbiamo"
        ]
       }
      ],
      [
+      "voi",
+      {
+       "id": "c13",
+       "acceptedAnswers": [
+        "volete"
+       ]
+      },
+      {
+       "id": "c14",
+       "acceptedAnswers": [
+        "potete"
+       ]
+      },
+      {
+       "id": "c15",
+       "acceptedAnswers": [
+        "dovete"
+       ]
+      }
+     ],
+     [
       "loro",
       {
-       "id": "c10",
+       "id": "c16",
        "acceptedAnswers": [
         "vogliono"
        ]
       },
       {
-       "id": "c11",
+       "id": "c17",
        "acceptedAnswers": [
         "possono"
        ]
       },
       {
-       "id": "c12",
+       "id": "c18",
        "acceptedAnswers": [
         "devono"
        ]
@@ -63684,12 +66292,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-modali-s2",
-  "title": "Fehler finden",
+  "title": "Trova gli errori",
   "language": "it",
   "level": "A1",
-  "description": "venire, sapere und die Modalverben · Fehler finden (schwer).",
+  "description": "Venire, sapere e i verbi modali · Trova gli errori · livello difficile.",
   "topics": [
-   "venire, sapere und die Modalverben",
+   "Venire, sapere e i verbi modali",
    "Grammatik"
   ],
   "sources": [
@@ -63717,13 +66325,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 10,
   "grammar": {
    "topic": "ecco1-modali",
-   "topicTitle": "venire, sapere und die Modalverben",
+   "topicTitle": "Venire, sapere e i verbi modali",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nDopo i verbi modali c’è l’**infinito**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + infinito = so fare una cosa (ho imparato): _So nuotare._ · **potere** = è possibile, ho il permesso: _Oggi non posso uscire._",
+   "ruleHelp": "volere (wollen), potere (können/dürfen), dovere (müssen), sapere (wissen/können), venire (kommen) sind unregelmäßig (siehe Tabelle). Danach steht der **Infinitiv**: _Voglio sciare._\n**sapere** + Infinitiv = etwas gelernt haben (_So nuotare._) · **potere** = die Möglichkeit oder Erlaubnis haben (_Oggi non posso uscire._)",
    "order": 22
   },
   "vocabularyIds": [],
@@ -63731,9 +66340,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "error_correction",
-    "prompt": "Korrigiere die markierten Formen.",
+    "prompt": "Correggi le forme segnate.",
     "explanation": "",
-    "text": "Io non [[g1]] venire.\nTu [[g2]] un gelato?\nNoi [[g3]] fare i compiti.\nLoro [[g4]] alle otto.\nMia madre [[g5]] aiutarti.",
+    "promptHelp": "Korrigiere die markierten Formen.",
+    "text": "Io non [[g1]] venire.\nTu [[g2]] un gelato?\nNoi [[g3]] fare i compiti.\nLoro [[g4]] alle otto.\nMia madre [[g5]] aiutarti.\nVoi [[g6]] la risposta?\nIo [[g7]] con te.\nLoro [[g8]] uscire.",
     "errors": [
      {
       "id": "g1",
@@ -63769,6 +66379,27 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "può"
       ]
+     },
+     {
+      "id": "g6",
+      "wrong": "sapiete",
+      "acceptedAnswers": [
+       "sapete"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "vieno",
+      "acceptedAnswers": [
+       "vengo"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "vuolono",
+      "acceptedAnswers": [
+       "vogliono"
+      ]
      }
     ]
    }
@@ -63779,12 +66410,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-modali-s3",
-  "title": "Was darf, kann, muss man?",
+  "title": "Che cosa si può, si deve, si vuole?",
   "language": "it",
   "level": "A1",
-  "description": "venire, sapere und die Modalverben · Was darf, kann, muss man? (schwer).",
+  "description": "Venire, sapere e i verbi modali · Che cosa si può, si deve, si vuole? · livello difficile.",
   "topics": [
-   "venire, sapere und die Modalverben",
+   "Venire, sapere e i verbi modali",
    "Grammatik"
   ],
   "sources": [
@@ -63812,13 +66443,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 8,
+  "estimatedMinutes": 10,
   "grammar": {
    "topic": "ecco1-modali",
-   "topicTitle": "venire, sapere und die Modalverben",
+   "topicTitle": "Venire, sapere e i verbi modali",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nDopo i verbi modali c’è l’**infinito**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + infinito = so fare una cosa (ho imparato): _So nuotare._ · **potere** = è possibile, ho il permesso: _Oggi non posso uscire._",
+   "ruleHelp": "volere (wollen), potere (können/dürfen), dovere (müssen), sapere (wissen/können), venire (kommen) sind unregelmäßig (siehe Tabelle). Danach steht der **Infinitiv**: _Voglio sciare._\n**sapere** + Infinitiv = etwas gelernt haben (_So nuotare._) · **potere** = die Möglichkeit oder Erlaubnis haben (_Oggi non posso uscire._)",
    "order": 23
   },
   "vocabularyIds": [],
@@ -63826,8 +66458,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "sentence_completion",
-    "prompt": "Bilde Sätze mit dem Modalverb (Präsens) und dem Infinitiv.",
+    "prompt": "Forma la frase con il verbo modale (presente) e l’infinito.",
     "explanation": "",
+    "promptHelp": "Bilde Sätze mit dem Modalverb (Präsens) und dem Infinitiv.",
     "items": [
      {
       "id": "s1",
@@ -63876,6 +66509,22 @@ const STOCK_PACKAGES = [
        "I ragazzi non possono uscire"
       ],
       "modelAnswer": "I ragazzi non possono uscire."
+     },
+     {
+      "id": "s7",
+      "start": "(io / non sapere / sciare)",
+      "acceptedAnswers": [
+       "Non so sciare"
+      ],
+      "modelAnswer": "Non so sciare."
+     },
+     {
+      "id": "s8",
+      "start": "(loro / volere / mangiare una pizza)",
+      "acceptedAnswers": [
+       "Vogliono mangiare una pizza"
+      ],
+      "modelAnswer": "Vogliono mangiare una pizza."
      }
     ]
    }
@@ -63889,9 +66538,9 @@ const STOCK_PACKAGES = [
   "title": "Una chat di gruppo",
   "language": "it",
   "level": "A1",
-  "description": "venire, sapere und die Modalverben · Una chat di gruppo (schwer).",
+  "description": "Venire, sapere e i verbi modali · Una chat di gruppo · livello difficile.",
   "topics": [
-   "venire, sapere und die Modalverben",
+   "Venire, sapere e i verbi modali",
    "Grammatik"
   ],
   "sources": [
@@ -63922,10 +66571,11 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 10,
   "grammar": {
    "topic": "ecco1-modali",
-   "topicTitle": "venire, sapere und die Modalverben",
+   "topicTitle": "Venire, sapere e i verbi modali",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nDopo i verbi modali c’è l’**infinito**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + infinito = so fare una cosa (ho imparato): _So nuotare._ · **potere** = è possibile, ho il permesso: _Oggi non posso uscire._",
+   "ruleHelp": "volere (wollen), potere (können/dürfen), dovere (müssen), sapere (wissen/können), venire (kommen) sind unregelmäßig (siehe Tabelle). Danach steht der **Infinitiv**: _Voglio sciare._\n**sapere** + Infinitiv = etwas gelernt haben (_So nuotare._) · **potere** = die Möglichkeit oder Erlaubnis haben (_Oggi non posso uscire._)",
    "order": 24
   },
   "vocabularyIds": [],
@@ -63933,9 +66583,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Ergänze die Verben (volere, potere, dovere, sapere, venire).",
+    "prompt": "Scrivi i verbi (volere, potere, dovere, sapere, venire).",
     "explanation": "",
-    "text": "Chiara: Ragazzi, stasera (venire, voi) [[g1]] al concerto?\nPaolo: Io (volere) [[g2]] venire, ma i miei genitori dicono che (dovere, io) [[g3]] tornare alle dieci.\nSara: Io non (potere) [[g4]], ho la febbre.\nLuca: Io (venire) [[g5]]! Ma non (sapere, io) [[g6]] dov'è il concerto.\nChiara: È in piazza Vittorio. Noi (potere) [[g7]] andare insieme in tram.\nLuca: Perfetto! (Volere, voi) [[g8]] mangiare una pizza prima?",
+    "promptHelp": "Ergänze die Verben.",
+    "text": "Chiara: Ragazzi, stasera (venire, voi) [[g1]] al concerto?\nPaolo: Io (volere) [[g2]] venire, ma i miei genitori dicono che (dovere, io) [[g3]] tornare alle dieci.\nSara: Io non (potere) [[g4]], ho la febbre.\nLuca: Io (venire) [[g5]]! Ma non (sapere, io) [[g6]] dov’è il concerto.\nChiara: È in piazza Vittorio. Noi (potere) [[g7]] andare insieme in tram.\nLuca: Perfetto! (Volere, voi) [[g8]] mangiare una pizza prima?",
     "gaps": [
      {
       "id": "g1",
@@ -63997,7 +66648,7 @@ const STOCK_PACKAGES = [
   "title": "Dove va non?",
   "language": "it",
   "level": "A1",
-  "description": "La negazione con non · Dove va non? (einfach).",
+  "description": "La negazione con non · Dove va non? · livello facile.",
   "topics": [
    "La negazione con non",
    "Grammatik"
@@ -64225,7 +66876,7 @@ const STOCK_PACKAGES = [
   "title": "No o non?",
   "language": "it",
   "level": "A1",
-  "description": "La negazione con non · No o non? (einfach).",
+  "description": "La negazione con non · No o non? · livello facile.",
   "topics": [
    "La negazione con non",
    "Grammatik"
@@ -64368,7 +67019,7 @@ const STOCK_PACKAGES = [
   "title": "Vero o no?",
   "language": "it",
   "level": "A1",
-  "description": "La negazione con non · Vero o no? (einfach).",
+  "description": "La negazione con non · Vero o no? · livello facile.",
   "topics": [
    "La negazione con non",
    "Grammatik"
@@ -64494,7 +67145,7 @@ const STOCK_PACKAGES = [
   "title": "Frasi negative",
   "language": "it",
   "level": "A1",
-  "description": "La negazione con non · Frasi negative (mittel).",
+  "description": "La negazione con non · Frasi negative · livello medio.",
   "topics": [
    "La negazione con non",
    "Grammatik"
@@ -64621,7 +67272,7 @@ const STOCK_PACKAGES = [
   "title": "No, non …",
   "language": "it",
   "level": "A1",
-  "description": "La negazione con non · No, non … (mittel).",
+  "description": "La negazione con non · No, non … · livello medio.",
   "topics": [
    "La negazione con non",
    "Grammatik"
@@ -64748,7 +67399,7 @@ const STOCK_PACKAGES = [
   "title": "Filippo sogna",
   "language": "it",
   "level": "A1",
-  "description": "La negazione con non · Filippo sogna (mittel).",
+  "description": "La negazione con non · Filippo sogna · livello medio.",
   "topics": [
    "La negazione con non",
    "Grammatik"
@@ -64778,7 +67429,7 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-non",
    "topicTitle": "La negazione con non",
@@ -64832,6 +67483,22 @@ const STOCK_PACKAGES = [
      },
      {
       "id": "s5",
+      "start": "Anna abita in periferia. (in centro)",
+      "acceptedAnswers": [
+       "non abita in periferia, abita in centro"
+      ],
+      "modelAnswer": "No, Anna non abita in periferia, abita in centro."
+     },
+     {
+      "id": "s6",
+      "start": "Filippo è di Torino. (di Lecce)",
+      "acceptedAnswers": [
+       "non è di Torino, è di Lecce"
+      ],
+      "modelAnswer": "No, Filippo non è di Torino, è di Lecce."
+     },
+     {
+      "id": "s7",
       "start": "I ragazzi prendono il treno. (la bici)",
       "acceptedAnswers": [
        "non prendono il treno, prendono la bici"
@@ -64839,7 +67506,7 @@ const STOCK_PACKAGES = [
       "modelAnswer": "No, i ragazzi non prendono il treno, prendono la bici."
      },
      {
-      "id": "s6",
+      "id": "s8",
       "start": "Marco sta male. (bene)",
       "acceptedAnswers": [
        "non sta male, sta bene"
@@ -64858,7 +67525,7 @@ const STOCK_PACKAGES = [
   "title": "Metti in ordine",
   "language": "it",
   "level": "A1",
-  "description": "La negazione con non · Metti in ordine (schwer).",
+  "description": "La negazione con non · Metti in ordine · livello difficile.",
   "topics": [
    "La negazione con non",
    "Grammatik"
@@ -65018,7 +67685,7 @@ const STOCK_PACKAGES = [
   "title": "Il profilo: vero o falso?",
   "language": "it",
   "level": "A1",
-  "description": "La negazione con non · Il profilo: vero o falso? (schwer).",
+  "description": "La negazione con non · Il profilo: vero o falso? · livello difficile.",
   "topics": [
    "La negazione con non",
    "Grammatik"
@@ -65129,7 +67796,7 @@ const STOCK_PACKAGES = [
   "title": "Rispondi e correggi",
   "language": "it",
   "level": "A1",
-  "description": "La negazione con non · Rispondi e correggi (schwer).",
+  "description": "La negazione con non · Rispondi e correggi · livello difficile.",
   "topics": [
    "La negazione con non",
    "Grammatik"
@@ -65159,7 +67826,7 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 8,
+  "estimatedMinutes": 10,
   "grammar": {
    "topic": "ecco1-non",
    "topicTitle": "La negazione con non",
@@ -65226,6 +67893,22 @@ const STOCK_PACKAGES = [
        "No, non prendo il tram. Prendo la bici"
       ],
       "modelAnswer": "No, non prendo il tram. Prendo la bici."
+     },
+     {
+      "id": "s7",
+      "start": "Guardate la TV? (un film)",
+      "acceptedAnswers": [
+       "No, non guardiamo la TV. Guardiamo un film"
+      ],
+      "modelAnswer": "No, non guardiamo la TV. Guardiamo un film."
+     },
+     {
+      "id": "s8",
+      "start": "Studi tedesco? (italiano)",
+      "acceptedAnswers": [
+       "No, non studio tedesco. Studio italiano"
+      ],
+      "modelAnswer": "No, non studio tedesco. Studio italiano."
      }
     ]
    }
@@ -65239,211 +67922,9 @@ const STOCK_PACKAGES = [
   "title": "Che ore sono?",
   "language": "it",
   "level": "A1",
-  "description": "Uhrzeit und Wochentage · Che ore sono? (einfach).",
+  "description": "L’ora e i giorni della settimana · Che ore sono? · livello facile.",
   "topics": [
-   "Uhrzeit und Wochentage",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Per cominciare.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "3 · La scuola",
-    "section": "Per cominciare"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 6,
-  "grammar": {
-   "topic": "ecco1-orario",
-   "topicTitle": "Uhrzeit und Wochentage",
-   "difficulty": "leicht",
-   "origin": "own",
-   "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag.",
-   "order": 11
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "matching",
-    "prompt": "Welche Uhrzeit passt?",
-    "explanation": "",
-    "pairs": [
-     {
-      "id": "p1",
-      "left": "8.00",
-      "right": "Sono le otto."
-     },
-     {
-      "id": "p2",
-      "left": "1.00",
-      "right": "È l'una."
-     },
-     {
-      "id": "p3",
-      "left": "3.15",
-      "right": "Sono le tre e un quarto."
-     },
-     {
-      "id": "p4",
-      "left": "5.30",
-      "right": "Sono le cinque e mezza."
-     },
-     {
-      "id": "p5",
-      "left": "7.45",
-      "right": "Sono le otto meno un quarto."
-     },
-     {
-      "id": "p6",
-      "left": "12.00",
-      "right": "È mezzogiorno."
-     }
-    ],
-    "distractors": []
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-orario-l2",
-  "title": "alle oder all'?",
-  "language": "it",
-  "level": "A1",
-  "description": "Uhrzeit und Wochentage · alle oder all'? (einfach).",
-  "topics": [
-   "Uhrzeit und Wochentage",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Per cominciare.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "3 · La scuola",
-    "section": "Per cominciare"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 6,
-  "grammar": {
-   "topic": "ecco1-orario",
-   "topicTitle": "Uhrzeit und Wochentage",
-   "difficulty": "leicht",
-   "origin": "own",
-   "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag.",
-   "order": 12
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "gap_choice",
-    "prompt": "Wähle die richtige Form.",
-    "explanation": "all' nur vor una (l'una). Sonst alle: alle otto, alle due.",
-    "text": "La lezione comincia [[g1]] otto.\nMangio [[g2]] una.\nHo latino [[g3]] dieci [[g4]] undici.\nTorno a casa [[g5]] due.\nLa scuola finisce [[g6]] una e mezza.",
-    "gaps": [
-     {
-      "id": "g1",
-      "options": [
-       "alle",
-       "all'",
-       "al"
-      ],
-      "answer": "alle"
-     },
-     {
-      "id": "g2",
-      "options": [
-       "all'",
-       "alle",
-       "al"
-      ],
-      "answer": "all'"
-     },
-     {
-      "id": "g3",
-      "options": [
-       "dalle",
-       "alle",
-       "all'"
-      ],
-      "answer": "dalle"
-     },
-     {
-      "id": "g4",
-      "options": [
-       "alle",
-       "all'",
-       "dalle"
-      ],
-      "answer": "alle"
-     },
-     {
-      "id": "g5",
-      "options": [
-       "alle",
-       "all'"
-      ],
-      "answer": "alle"
-     },
-     {
-      "id": "g6",
-      "options": [
-       "all'",
-       "alle"
-      ],
-      "answer": "all'"
-     }
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-orario-l3",
-  "title": "Wie spät ist es?",
-  "language": "it",
-  "level": "A1",
-  "description": "Uhrzeit und Wochentage · Wie spät ist es? (einfach).",
-  "topics": [
-   "Uhrzeit und Wochentage",
+   "L’ora e i giorni della settimana",
    "Grammatik"
   ],
   "sources": [
@@ -65474,10 +67955,254 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-orario",
-   "topicTitle": "Uhrzeit und Wochentage",
+   "topicTitle": "L’ora e i giorni della settimana",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag.",
+   "rule": "**Che ore sono?**\n- _È l’una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezza / e mezzo**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12.00) · _È mezzanotte_ (24.00)\n\n**A che ora?**\n- _**all’**una_, _**alle** otto_, _**dalle** otto **alle** due_\n\n**I giorni** (con la lettera minuscola): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = ogni lunedì · _Lunedì ho un’interrogazione._ = questo lunedì.",
+   "ruleHelp": "**Che ore sono?** – Wie spät ist es? _È l’una. Sono le due._ · e un quarto (Viertel nach), e mezza (halb), meno un quarto (Viertel vor), è mezzogiorno / mezzanotte.\n**A che ora?** – Um wie viel Uhr? _all’una, alle otto, dalle otto alle due_ (von … bis).\n**Wochentage** klein: lunedì … domenica. _Il lunedì_ = montags (jeden Montag) · _Lunedì_ = am (nächsten) Montag.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina l’ora.",
+    "explanation": "",
+    "promptHelp": "Welche Uhrzeit passt?",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "8.00",
+      "right": "Sono le otto."
+     },
+     {
+      "id": "p2",
+      "left": "1.00",
+      "right": "È l’una."
+     },
+     {
+      "id": "p3",
+      "left": "3.15",
+      "right": "Sono le tre e un quarto."
+     },
+     {
+      "id": "p4",
+      "left": "5.30",
+      "right": "Sono le cinque e mezza."
+     },
+     {
+      "id": "p5",
+      "left": "7.45",
+      "right": "Sono le otto meno un quarto."
+     },
+     {
+      "id": "p6",
+      "left": "12.00",
+      "right": "È mezzogiorno."
+     },
+     {
+      "id": "p7",
+      "left": "9.10",
+      "right": "Sono le nove e dieci."
+     },
+     {
+      "id": "p8",
+      "left": "6.40",
+      "right": "Sono le sette meno venti."
+     }
+    ],
+    "distractors": [
+     "Sono le una."
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-orario-l2",
+  "title": "Alle o all’?",
+  "language": "it",
+  "level": "A1",
+  "description": "L’ora e i giorni della settimana · Alle o all’? · livello facile.",
+  "topics": [
+   "L’ora e i giorni della settimana",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "3 · La scuola",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-orario",
+   "topicTitle": "L’ora e i giorni della settimana",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Che ore sono?**\n- _È l’una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezza / e mezzo**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12.00) · _È mezzanotte_ (24.00)\n\n**A che ora?**\n- _**all’**una_, _**alle** otto_, _**dalle** otto **alle** due_\n\n**I giorni** (con la lettera minuscola): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = ogni lunedì · _Lunedì ho un’interrogazione._ = questo lunedì.",
+   "ruleHelp": "**Che ore sono?** – Wie spät ist es? _È l’una. Sono le due._ · e un quarto (Viertel nach), e mezza (halb), meno un quarto (Viertel vor), è mezzogiorno / mezzanotte.\n**A che ora?** – Um wie viel Uhr? _all’una, alle otto, dalle otto alle due_ (von … bis).\n**Wochentage** klein: lunedì … domenica. _Il lunedì_ = montags (jeden Montag) · _Lunedì_ = am (nächsten) Montag.",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "all’ solo con una (l’una). Le altre ore: alle otto, alle due.",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "all’ nur vor una (l’una). Sonst alle: alle otto, alle due.",
+    "text": "La lezione comincia [[g1]] otto.\nMangio [[g2]] una.\nHo latino [[g3]] dieci [[g4]] undici.\nTorno a casa [[g5]] due.\nLa scuola finisce [[g6]] una e mezza.\nL’allenamento è [[g7]] cinque.\nIl film comincia [[g8]] nove.\nPranziamo [[g9]] una e un quarto.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "alle",
+       "all’",
+       "al"
+      ],
+      "answer": "alle"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "all’",
+       "alle",
+       "al"
+      ],
+      "answer": "all’"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "dalle",
+       "alle",
+       "all’"
+      ],
+      "answer": "dalle"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "alle",
+       "all’",
+       "dalle"
+      ],
+      "answer": "alle"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "alle",
+       "all’"
+      ],
+      "answer": "alle"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "all’",
+       "alle"
+      ],
+      "answer": "all’"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "alle",
+       "all’"
+      ],
+      "answer": "alle"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "alle",
+       "all’"
+      ],
+      "answer": "alle"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "all’",
+       "alle"
+      ],
+      "answer": "all’"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-orario-l3",
+  "title": "Che ore sono? Scegli",
+  "language": "it",
+  "level": "A1",
+  "description": "L’ora e i giorni della settimana · Che ore sono? Scegli · livello facile.",
+  "topics": [
+   "L’ora e i giorni della settimana",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "3 · La scuola",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-orario",
+   "topicTitle": "L’ora e i giorni della settimana",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Che ore sono?**\n- _È l’una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezza / e mezzo**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12.00) · _È mezzanotte_ (24.00)\n\n**A che ora?**\n- _**all’**una_, _**alle** otto_, _**dalle** otto **alle** due_\n\n**I giorni** (con la lettera minuscola): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = ogni lunedì · _Lunedì ho un’interrogazione._ = questo lunedì.",
+   "ruleHelp": "**Che ore sono?** – Wie spät ist es? _È l’una. Sono le due._ · e un quarto (Viertel nach), e mezza (halb), meno un quarto (Viertel vor), è mezzogiorno / mezzanotte.\n**A che ora?** – Um wie viel Uhr? _all’una, alle otto, dalle otto alle due_ (von … bis).\n**Wochentage** klein: lunedì … domenica. _Il lunedì_ = montags (jeden Montag) · _Lunedì_ = am (nächsten) Montag.",
    "order": 13
   },
   "vocabularyIds": [],
@@ -65485,8 +68210,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle die richtige Uhrzeit.",
-    "explanation": "È l'una / è mezzogiorno / è mezzanotte (Singular), sonst sono le …",
+    "prompt": "Scegli l’ora giusta.",
+    "explanation": "È l’una / è mezzogiorno / è mezzanotte (singolare), altrimenti sono le …",
+    "promptHelp": "Wähle die richtige Uhrzeit.",
+    "explanationHelp": "È l’una / è mezzogiorno / è mezzanotte (Singular), sonst sono le …",
     "text": "2.00 → [[g1]]\n1.00 → [[g2]]\n4.30 → [[g3]]\n6.15 → [[g4]]\n8.45 → [[g5]]\n10.10 → [[g6]]\n11.50 → [[g7]]\n12.00 → [[g8]]",
     "gaps": [
      {
@@ -65501,11 +68228,11 @@ const STOCK_PACKAGES = [
      {
       "id": "g2",
       "options": [
-       "È l'una.",
-       "Sono l'una.",
+       "È l’una.",
+       "Sono l’una.",
        "È le una."
       ],
-      "answer": "È l'una."
+      "answer": "È l’una."
      },
      {
       "id": "g3",
@@ -65570,12 +68297,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-orario-l4",
-  "title": "Die Woche von Marta",
+  "title": "La settimana di Marta",
   "language": "it",
   "level": "A1",
-  "description": "Uhrzeit und Wochentage · Die Woche von Marta (einfach).",
+  "description": "L’ora e i giorni della settimana · La settimana di Marta · livello facile.",
   "topics": [
-   "Uhrzeit und Wochentage",
+   "L’ora e i giorni della settimana",
    "Grammatik"
   ],
   "sources": [
@@ -65603,13 +68330,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-orario",
-   "topicTitle": "Uhrzeit und Wochentage",
+   "topicTitle": "L’ora e i giorni della settimana",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag.",
+   "rule": "**Che ore sono?**\n- _È l’una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezza / e mezzo**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12.00) · _È mezzanotte_ (24.00)\n\n**A che ora?**\n- _**all’**una_, _**alle** otto_, _**dalle** otto **alle** due_\n\n**I giorni** (con la lettera minuscola): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = ogni lunedì · _Lunedì ho un’interrogazione._ = questo lunedì.",
+   "ruleHelp": "**Che ore sono?** – Wie spät ist es? _È l’una. Sono le due._ · e un quarto (Viertel nach), e mezza (halb), meno un quarto (Viertel vor), è mezzogiorno / mezzanotte.\n**A che ora?** – Um wie viel Uhr? _all’una, alle otto, dalle otto alle due_ (von … bis).\n**Wochentage** klein: lunedì … domenica. _Il lunedì_ = montags (jeden Montag) · _Lunedì_ = am (nächsten) Montag.",
    "order": 14
   },
   "vocabularyIds": [],
@@ -65617,8 +68345,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "matching",
-    "prompt": "Was macht Marta wann?",
+    "prompt": "Che cosa fa Marta e quando?",
     "explanation": "",
+    "promptHelp": "Was macht Marta wann?",
     "pairs": [
      {
       "id": "p1",
@@ -65633,7 +68362,7 @@ const STOCK_PACKAGES = [
      {
       "id": "p3",
       "left": "il mercoledì",
-      "right": "ha un'interrogazione di storia"
+      "right": "ha un’interrogazione di storia"
      },
      {
       "id": "p4",
@@ -65649,9 +68378,21 @@ const STOCK_PACKAGES = [
       "id": "p6",
       "left": "il sabato",
       "right": "dorme fino alle dieci"
+     },
+     {
+      "id": "p7",
+      "left": "la domenica",
+      "right": "pranza dai nonni"
+     },
+     {
+      "id": "p8",
+      "left": "ogni giorno",
+      "right": "fa i compiti alle quattro"
      }
     ],
-    "distractors": []
+    "distractors": [
+     "il lunedì sera"
+    ]
    }
   ]
  },
@@ -65663,450 +68404,9 @@ const STOCK_PACKAGES = [
   "title": "Il mio orario",
   "language": "it",
   "level": "A1",
-  "description": "Uhrzeit und Wochentage · Il mio orario (mittel).",
+  "description": "L’ora e i giorni della settimana · Il mio orario · livello medio.",
   "topics": [
-   "Uhrzeit und Wochentage",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Per cominciare.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "3 · La scuola",
-    "section": "Per cominciare"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 5,
-  "grammar": {
-   "topic": "ecco1-orario",
-   "topicTitle": "Uhrzeit und Wochentage",
-   "difficulty": "mittel",
-   "origin": "own",
-   "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag.",
-   "order": 11
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "gap_fill",
-    "prompt": "Ergänze die Uhrzeiten in Worten.",
-    "explanation": "Bei halb sind e mezza und e mezzo beide richtig.",
-    "text": "Il lunedì la scuola comincia (8.00) [[g1]].\nLa pausa è (10.30) [[g2]].\nHo matematica (11.00–12.00) dalle undici [[g3]].\nIl martedì finisco (13.00) [[g4]].",
-    "gaps": [
-     {
-      "id": "g1",
-      "acceptedAnswers": [
-       "alle otto"
-      ]
-     },
-     {
-      "id": "g2",
-      "acceptedAnswers": [
-       "alle dieci e mezza",
-       "alle dieci e mezzo"
-      ]
-     },
-     {
-      "id": "g3",
-      "acceptedAnswers": [
-       "alle dodici"
-      ]
-     },
-     {
-      "id": "g4",
-      "acceptedAnswers": [
-       "all'una"
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-orario-m2",
-  "title": "Die Woche",
-  "language": "it",
-  "level": "A1",
-  "description": "Uhrzeit und Wochentage · Die Woche (mittel).",
-  "topics": [
-   "Uhrzeit und Wochentage",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Per cominciare.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "3 · La scuola",
-    "section": "Per cominciare"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 7,
-  "grammar": {
-   "topic": "ecco1-orario",
-   "topicTitle": "Uhrzeit und Wochentage",
-   "difficulty": "mittel",
-   "origin": "own",
-   "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag.",
-   "order": 12
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "ordering",
-    "prompt": "Ordne die Wochentage.",
-    "explanation": "",
-    "items": [
-     {
-      "id": "i1",
-      "text": "lunedì"
-     },
-     {
-      "id": "i2",
-      "text": "martedì"
-     },
-     {
-      "id": "i3",
-      "text": "mercoledì"
-     },
-     {
-      "id": "i4",
-      "text": "giovedì"
-     },
-     {
-      "id": "i5",
-      "text": "venerdì"
-     },
-     {
-      "id": "i6",
-      "text": "sabato"
-     },
-     {
-      "id": "i7",
-      "text": "domenica"
-     }
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-orario-m3",
-  "title": "Ein Schultag",
-  "language": "it",
-  "level": "A1",
-  "description": "Uhrzeit und Wochentage · Ein Schultag (mittel).",
-  "topics": [
-   "Uhrzeit und Wochentage",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Per cominciare.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "3 · La scuola",
-    "section": "Per cominciare"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 7,
-  "grammar": {
-   "topic": "ecco1-orario",
-   "topicTitle": "Uhrzeit und Wochentage",
-   "difficulty": "mittel",
-   "origin": "own",
-   "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag.",
-   "order": 13
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "gap_fill",
-    "prompt": "Schreibe die Uhrzeiten in Worten (mit alle / all').",
-    "explanation": "Im Alltag zählt man meist bis 12: alle due (14 Uhr). Offiziell auch alle quattordici.",
-    "text": "La sveglia suona (6.45) [[g1]].\nPrendo l'autobus (7.20) [[g2]].\nLa prima lezione comincia (8.00) [[g3]].\nL'intervallo è (10.15) [[g4]].\nLa scuola finisce (13.30) [[g5]].\nPranzo (14.00) [[g6]].\nFaccio i compiti (15.00–17.00) [[g7]].",
-    "gaps": [
-     {
-      "id": "g1",
-      "acceptedAnswers": [
-       "alle sette meno un quarto",
-       "alle sei e quarantacinque"
-      ]
-     },
-     {
-      "id": "g2",
-      "acceptedAnswers": [
-       "alle sette e venti"
-      ]
-     },
-     {
-      "id": "g3",
-      "acceptedAnswers": [
-       "alle otto"
-      ]
-     },
-     {
-      "id": "g4",
-      "acceptedAnswers": [
-       "alle dieci e un quarto",
-       "alle dieci e quindici"
-      ]
-     },
-     {
-      "id": "g5",
-      "acceptedAnswers": [
-       "all'una e mezza",
-       "all'una e mezzo",
-       "alle tredici e trenta"
-      ]
-     },
-     {
-      "id": "g6",
-      "acceptedAnswers": [
-       "alle due",
-       "alle quattordici"
-      ]
-     },
-     {
-      "id": "g7",
-      "acceptedAnswers": [
-       "dalle tre alle cinque",
-       "dalle quindici alle diciassette"
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-orario-m4",
-  "title": "Fragen zum Stundenplan",
-  "language": "it",
-  "level": "A1",
-  "description": "Uhrzeit und Wochentage · Fragen zum Stundenplan (mittel).",
-  "topics": [
-   "Uhrzeit und Wochentage",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Per cominciare.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "3 · La scuola",
-    "section": "Per cominciare"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 6,
-  "grammar": {
-   "topic": "ecco1-orario",
-   "topicTitle": "Uhrzeit und Wochentage",
-   "difficulty": "mittel",
-   "origin": "own",
-   "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag.",
-   "order": 14
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "sentence_completion",
-    "prompt": "Antworte mit der Uhrzeit in Worten.",
-    "explanation": "",
-    "items": [
-     {
-      "id": "s1",
-      "start": "A che ora comincia la scuola? (8.10) – …",
-      "acceptedAnswers": [
-       "alle otto e dieci"
-      ],
-      "modelAnswer": "La scuola comincia alle otto e dieci."
-     },
-     {
-      "id": "s2",
-      "start": "A che ora hai inglese? (9.00) – …",
-      "acceptedAnswers": [
-       "alle nove"
-      ],
-      "modelAnswer": "Ho inglese alle nove."
-     },
-     {
-      "id": "s3",
-      "start": "Quando finisce la lezione? (1.00) – …",
-      "acceptedAnswers": [
-       "all'una"
-      ],
-      "modelAnswer": "La lezione finisce all'una."
-     },
-     {
-      "id": "s4",
-      "start": "A che ora mangi? (12.30) – …",
-      "acceptedAnswers": [
-       "alle dodici e mezza",
-       "alle dodici e mezzo",
-       "a mezzogiorno e mezzo"
-      ],
-      "modelAnswer": "Mangio a mezzogiorno e mezzo."
-     },
-     {
-      "id": "s5",
-      "start": "Che ore sono? (3.40) – …",
-      "acceptedAnswers": [
-       "le quattro meno venti",
-       "le tre e quaranta"
-      ],
-      "modelAnswer": "Sono le quattro meno venti."
-     }
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-orario-s1",
-  "title": "Mein Stundenplan",
-  "language": "it",
-  "level": "A1",
-  "description": "Uhrzeit und Wochentage · Mein Stundenplan (schwer).",
-  "topics": [
-   "Uhrzeit und Wochentage",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Per cominciare.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "3 · La scuola",
-    "section": "Per cominciare"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 3,
-  "grammar": {
-   "topic": "ecco1-orario",
-   "topicTitle": "Uhrzeit und Wochentage",
-   "difficulty": "schwer",
-   "origin": "own",
-   "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag.",
-   "order": 11
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "open_answer",
-    "prompt": "Beschreibe deinen Montag: Wann beginnt die Schule, welche Fächer hast du von wann bis wann, wann kommst du nach Hause?",
-    "explanation": "",
-    "modelAnswer": "Il lunedì la scuola comincia alle otto. Dalle otto alle nove e mezza ho matematica. Poi ho inglese. Torno a casa all'una e mezza.",
-    "lines": 5
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-orario-s2",
-  "title": "Il lunedì oder lunedì?",
-  "language": "it",
-  "level": "A1",
-  "description": "Uhrzeit und Wochentage · Il lunedì oder lunedì? (schwer).",
-  "topics": [
-   "Uhrzeit und Wochentage",
+   "L’ora e i giorni della settimana",
    "Grammatik"
   ],
   "sources": [
@@ -66137,20 +68437,514 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-orario",
-   "topicTitle": "Uhrzeit und Wochentage",
-   "difficulty": "schwer",
+   "topicTitle": "L’ora e i giorni della settimana",
+   "difficulty": "mittel",
    "origin": "own",
-   "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag.",
+   "rule": "**Che ore sono?**\n- _È l’una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezza / e mezzo**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12.00) · _È mezzanotte_ (24.00)\n\n**A che ora?**\n- _**all’**una_, _**alle** otto_, _**dalle** otto **alle** due_\n\n**I giorni** (con la lettera minuscola): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = ogni lunedì · _Lunedì ho un’interrogazione._ = questo lunedì.",
+   "ruleHelp": "**Che ore sono?** – Wie spät ist es? _È l’una. Sono le due._ · e un quarto (Viertel nach), e mezza (halb), meno un quarto (Viertel vor), è mezzogiorno / mezzanotte.\n**A che ora?** – Um wie viel Uhr? _all’una, alle otto, dalle otto alle due_ (von … bis).\n**Wochentage** klein: lunedì … domenica. _Il lunedì_ = montags (jeden Montag) · _Lunedì_ = am (nächsten) Montag.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi l’ora in lettere.",
+    "explanation": "Con mezza e mezzo sono giusti tutti e due.",
+    "promptHelp": "Ergänze die Uhrzeiten in Worten.",
+    "explanationHelp": "Bei halb sind e mezza und e mezzo beide richtig.",
+    "text": "Il lunedì la scuola comincia (8.00) [[g1]].\nLa pausa è (10.30) [[g2]].\nHo matematica (11.00–12.00) [[g3]].\nIl martedì finisco (13.00) [[g4]].\nIl mercoledì ho educazione fisica (9.15) [[g5]].\nIl giovedì torno a casa (14.45) [[g6]].\nIl venerdì la scuola finisce (12.30) [[g7]].\nIl sabato non c’è scuola, mi alzo (10.00) [[g8]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "alle otto"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "alle dieci e mezza",
+       "alle dieci e mezzo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "dalle undici alle dodici"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "all’una"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "alle nove e un quarto",
+       "alle nove e quindici"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "alle tre meno un quarto",
+       "alle due e quarantacinque"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "a mezzogiorno e mezzo",
+       "alle dodici e mezza",
+       "alle dodici e mezzo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "alle dieci"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-orario-m2",
+  "title": "La settimana",
+  "language": "it",
+  "level": "A1",
+  "description": "L’ora e i giorni della settimana · La settimana · livello medio.",
+  "topics": [
+   "L’ora e i giorni della settimana",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "3 · La scuola",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco1-orario",
+   "topicTitle": "L’ora e i giorni della settimana",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Che ore sono?**\n- _È l’una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezza / e mezzo**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12.00) · _È mezzanotte_ (24.00)\n\n**A che ora?**\n- _**all’**una_, _**alle** otto_, _**dalle** otto **alle** due_\n\n**I giorni** (con la lettera minuscola): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = ogni lunedì · _Lunedì ho un’interrogazione._ = questo lunedì.",
+   "ruleHelp": "**Che ore sono?** – Wie spät ist es? _È l’una. Sono le due._ · e un quarto (Viertel nach), e mezza (halb), meno un quarto (Viertel vor), è mezzogiorno / mezzanotte.\n**A che ora?** – Um wie viel Uhr? _all’una, alle otto, dalle otto alle due_ (von … bis).\n**Wochentage** klein: lunedì … domenica. _Il lunedì_ = montags (jeden Montag) · _Lunedì_ = am (nächsten) Montag.",
    "order": 12
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti in ordine i giorni da lunedì a giovedì.",
+    "explanation": "",
+    "promptHelp": "Ordne die Wochentage (Montag bis Donnerstag).",
+    "items": [
+     {
+      "id": "i1",
+      "text": "lunedì"
+     },
+     {
+      "id": "i2",
+      "text": "martedì"
+     },
+     {
+      "id": "i3",
+      "text": "mercoledì"
+     },
+     {
+      "id": "i4",
+      "text": "giovedì"
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "E adesso da venerdì a domenica.",
+    "explanation": "",
+    "promptHelp": "Und jetzt Freitag bis Sonntag.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "venerdì"
+     },
+     {
+      "id": "i2",
+      "text": "sabato"
+     },
+     {
+      "id": "i3",
+      "text": "domenica"
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti in ordine le ore.",
+    "explanation": "",
+    "promptHelp": "Ordne die Uhrzeiten.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "alle otto"
+     },
+     {
+      "id": "i2",
+      "text": "alle nove e mezza"
+     },
+     {
+      "id": "i3",
+      "text": "a mezzogiorno"
+     },
+     {
+      "id": "i4",
+      "text": "all’una e un quarto"
+     },
+     {
+      "id": "i5",
+      "text": "alle tre meno dieci"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-orario-m3",
+  "title": "Una giornata di scuola",
+  "language": "it",
+  "level": "A1",
+  "description": "L’ora e i giorni della settimana · Una giornata di scuola · livello medio.",
+  "topics": [
+   "L’ora e i giorni della settimana",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "3 · La scuola",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-orario",
+   "topicTitle": "L’ora e i giorni della settimana",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Che ore sono?**\n- _È l’una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezza / e mezzo**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12.00) · _È mezzanotte_ (24.00)\n\n**A che ora?**\n- _**all’**una_, _**alle** otto_, _**dalle** otto **alle** due_\n\n**I giorni** (con la lettera minuscola): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = ogni lunedì · _Lunedì ho un’interrogazione._ = questo lunedì.",
+   "ruleHelp": "**Che ore sono?** – Wie spät ist es? _È l’una. Sono le due._ · e un quarto (Viertel nach), e mezza (halb), meno un quarto (Viertel vor), è mezzogiorno / mezzanotte.\n**A che ora?** – Um wie viel Uhr? _all’una, alle otto, dalle otto alle due_ (von … bis).\n**Wochentage** klein: lunedì … domenica. _Il lunedì_ = montags (jeden Montag) · _Lunedì_ = am (nächsten) Montag.",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi l’ora in lettere (con alle / all’).",
+    "explanation": "Nella vita di tutti i giorni contiamo fino a 12: alle due (14.00). Ufficiale: alle quattordici.",
+    "promptHelp": "Schreibe die Uhrzeiten in Worten (mit alle / all’).",
+    "explanationHelp": "Im Alltag zählt man meist bis 12: alle due (14 Uhr). Offiziell auch alle quattordici.",
+    "text": "La sveglia suona (6.45) [[g1]].\nPrendo l’autobus (7.20) [[g2]].\nLa prima lezione comincia (8.00) [[g3]].\nL’intervallo è (10.15) [[g4]].\nLa scuola finisce (13.30) [[g5]].\nPranzo (14.00) [[g6]].\nFaccio i compiti (15.00–17.00) [[g7]].\nVado a letto (22.00) [[g8]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "alle sette meno un quarto",
+       "alle sei e quarantacinque"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "alle sette e venti"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "alle otto"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "alle dieci e un quarto",
+       "alle dieci e quindici"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "all’una e mezza",
+       "all’una e mezzo",
+       "alle tredici e trenta"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "alle due",
+       "alle quattordici"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "dalle tre alle cinque",
+       "dalle quindici alle diciassette"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "alle dieci",
+       "alle ventidue"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-orario-m4",
+  "title": "Domande sull’orario",
+  "language": "it",
+  "level": "A1",
+  "description": "L’ora e i giorni della settimana · Domande sull’orario · livello medio.",
+  "topics": [
+   "L’ora e i giorni della settimana",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "3 · La scuola",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-orario",
+   "topicTitle": "L’ora e i giorni della settimana",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Che ore sono?**\n- _È l’una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezza / e mezzo**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12.00) · _È mezzanotte_ (24.00)\n\n**A che ora?**\n- _**all’**una_, _**alle** otto_, _**dalle** otto **alle** due_\n\n**I giorni** (con la lettera minuscola): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = ogni lunedì · _Lunedì ho un’interrogazione._ = questo lunedì.",
+   "ruleHelp": "**Che ore sono?** – Wie spät ist es? _È l’una. Sono le due._ · e un quarto (Viertel nach), e mezza (halb), meno un quarto (Viertel vor), è mezzogiorno / mezzanotte.\n**A che ora?** – Um wie viel Uhr? _all’una, alle otto, dalle otto alle due_ (von … bis).\n**Wochentage** klein: lunedì … domenica. _Il lunedì_ = montags (jeden Montag) · _Lunedì_ = am (nächsten) Montag.",
+   "order": 14
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Rispondi con l’ora in lettere.",
+    "explanation": "",
+    "promptHelp": "Antworte mit der Uhrzeit in Worten.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "A che ora comincia la scuola? (8.10) – …",
+      "acceptedAnswers": [
+       "alle otto e dieci"
+      ],
+      "modelAnswer": "La scuola comincia alle otto e dieci."
+     },
+     {
+      "id": "s2",
+      "start": "A che ora hai inglese? (9.00) – …",
+      "acceptedAnswers": [
+       "alle nove"
+      ],
+      "modelAnswer": "Ho inglese alle nove."
+     },
+     {
+      "id": "s3",
+      "start": "Quando finisce la lezione? (1.00) – …",
+      "acceptedAnswers": [
+       "all’una"
+      ],
+      "modelAnswer": "La lezione finisce all’una."
+     },
+     {
+      "id": "s4",
+      "start": "A che ora mangi? (12.30) – …",
+      "acceptedAnswers": [
+       "alle dodici e mezza",
+       "alle dodici e mezzo",
+       "a mezzogiorno e mezzo"
+      ],
+      "modelAnswer": "Mangio a mezzogiorno e mezzo."
+     },
+     {
+      "id": "s5",
+      "start": "Che ore sono? (3.40) – …",
+      "acceptedAnswers": [
+       "le quattro meno venti",
+       "le tre e quaranta"
+      ],
+      "modelAnswer": "Sono le quattro meno venti."
+     },
+     {
+      "id": "s6",
+      "start": "A che ora torni a casa? (2.15) – …",
+      "acceptedAnswers": [
+       "alle due e un quarto",
+       "alle due e quindici"
+      ],
+      "modelAnswer": "Torno alle due e un quarto."
+     },
+     {
+      "id": "s7",
+      "start": "Che ore sono? (1.30) – …",
+      "acceptedAnswers": [
+       "l’una e mezza",
+       "l’una e mezzo"
+      ],
+      "modelAnswer": "È l’una e mezza."
+     },
+     {
+      "id": "s8",
+      "start": "A che ora vai a letto? (10.00) – …",
+      "acceptedAnswers": [
+       "alle dieci"
+      ],
+      "modelAnswer": "Vado a letto alle dieci."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-orario-s1",
+  "title": "Il lunedì o lunedì?",
+  "language": "it",
+  "level": "A1",
+  "description": "L’ora e i giorni della settimana · Il lunedì o lunedì? · livello difficile.",
+  "topics": [
+   "L’ora e i giorni della settimana",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "3 · La scuola",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-orario",
+   "topicTitle": "L’ora e i giorni della settimana",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Che ore sono?**\n- _È l’una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezza / e mezzo**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12.00) · _È mezzanotte_ (24.00)\n\n**A che ora?**\n- _**all’**una_, _**alle** otto_, _**dalle** otto **alle** due_\n\n**I giorni** (con la lettera minuscola): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = ogni lunedì · _Lunedì ho un’interrogazione._ = questo lunedì.",
+   "ruleHelp": "**Che ore sono?** – Wie spät ist es? _È l’una. Sono le due._ · e un quarto (Viertel nach), e mezza (halb), meno un quarto (Viertel vor), è mezzogiorno / mezzanotte.\n**A che ora?** – Um wie viel Uhr? _all’una, alle otto, dalle otto alle due_ (von … bis).\n**Wochentage** klein: lunedì … domenica. _Il lunedì_ = montags (jeden Montag) · _Lunedì_ = am (nächsten) Montag.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
     "type": "gap_choice",
-    "prompt": "Regelmäßig (il lunedì) oder einmalig (lunedì)?",
-    "explanation": "il lunedì = jeden Montag (immer, sempre) · lunedì = an einem bestimmten Montag.",
-    "text": "[[g1]] dormo sempre fino alle dieci.\n[[g2]] prossimo ho un'interrogazione.\n[[g3]] pranziamo sempre dai nonni.\nCiao, ci vediamo [[g4]] alle sei!\n[[g5]] ho sempre educazione fisica.\nQuesto [[g6]] non c'è scuola: è festa!",
+    "prompt": "Sempre (il lunedì) o una volta (lunedì)?",
+    "explanation": "il lunedì = ogni lunedì (sempre, di solito) · lunedì = un lunedì preciso.",
+    "promptHelp": "Regelmäßig (il lunedì) oder einmalig (lunedì)?",
+    "explanationHelp": "il lunedì = jeden Montag (immer, sempre) · lunedì = an einem bestimmten Montag.",
+    "text": "[[g1]] dormo sempre fino alle dieci.\n[[g2]] prossimo ho un’interrogazione.\n[[g3]] pranziamo sempre dai nonni.\nCiao, ci vediamo [[g4]] alle sei!\n[[g5]] ho sempre educazione fisica.\nQuesto [[g6]] non c’è scuola: è festa!\n[[g7]] di solito mangiamo la pizza.\n[[g8]] prossimo comincia la gita.",
     "gaps": [
      {
       "id": "g1",
@@ -66199,6 +68993,22 @@ const STOCK_PACKAGES = [
        "il mercoledì"
       ],
       "answer": "mercoledì"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "Il venerdì",
+       "Venerdì"
+      ],
+      "answer": "Il venerdì"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "Lunedì",
+       "Il lunedì"
+      ],
+      "answer": "Lunedì"
      }
     ]
    }
@@ -66208,13 +69018,13 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-orario-s3",
-  "title": "Fehler im Wochenplan",
+  "id": "g-ecco1-orario-s2",
+  "title": "Errori nel calendario",
   "language": "it",
   "level": "A1",
-  "description": "Uhrzeit und Wochentage · Fehler im Wochenplan (schwer).",
+  "description": "L’ora e i giorni della settimana · Errori nel calendario · livello difficile.",
   "topics": [
-   "Uhrzeit und Wochentage",
+   "L’ora e i giorni della settimana",
    "Grammatik"
   ],
   "sources": [
@@ -66242,27 +69052,30 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 8,
+  "estimatedMinutes": 10,
   "grammar": {
    "topic": "ecco1-orario",
-   "topicTitle": "Uhrzeit und Wochentage",
+   "topicTitle": "L’ora e i giorni della settimana",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag.",
-   "order": 13
+   "rule": "**Che ore sono?**\n- _È l’una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezza / e mezzo**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12.00) · _È mezzanotte_ (24.00)\n\n**A che ora?**\n- _**all’**una_, _**alle** otto_, _**dalle** otto **alle** due_\n\n**I giorni** (con la lettera minuscola): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = ogni lunedì · _Lunedì ho un’interrogazione._ = questo lunedì.",
+   "ruleHelp": "**Che ore sono?** – Wie spät ist es? _È l’una. Sono le due._ · e un quarto (Viertel nach), e mezza (halb), meno un quarto (Viertel vor), è mezzogiorno / mezzanotte.\n**A che ora?** – Um wie viel Uhr? _all’una, alle otto, dalle otto alle due_ (von … bis).\n**Wochentage** klein: lunedì … domenica. _Il lunedì_ = montags (jeden Montag) · _Lunedì_ = am (nächsten) Montag.",
+   "order": 12
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
     "type": "error_correction",
-    "prompt": "Korrigiere die sechs Fehler.",
-    "explanation": "Wochentage klein · la domenica (weiblich!) · all'una, alle otto.",
-    "text": "La scuola comincia [[g1]] otto.\n[[g2]] l'una e mezza.\nIl [[g3]] ho latino.\nFinisco [[g4]] una.\n[[g5]] mezzogiorno.\n[[g6]] domenica dormo molto.",
+    "prompt": "Correggi gli otto errori.",
+    "explanation": "I giorni con la minuscola · la domenica (femminile!) · all’una, alle otto.",
+    "promptHelp": "Korrigiere die acht Fehler.",
+    "explanationHelp": "Wochentage klein · la domenica (weiblich!) · all’una, alle otto.",
+    "text": "La scuola comincia [[g1]] otto.\n[[g2]] l’una e mezza.\nIl [[g3]] ho latino.\nFinisco [[g4]] una.\n[[g5]] mezzogiorno.\n[[g6]] domenica dormo molto.\nIl film è [[g7]] nove.\nCi vediamo [[g8]] prossimo.",
     "errors": [
      {
       "id": "g1",
-      "wrong": "all'",
+      "wrong": "all’",
       "acceptedAnswers": [
        "alle"
       ]
@@ -66285,7 +69098,7 @@ const STOCK_PACKAGES = [
       "id": "g4",
       "wrong": "alle",
       "acceptedAnswers": [
-       "all'"
+       "all’"
       ]
      },
      {
@@ -66301,6 +69114,118 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "La"
       ]
+     },
+     {
+      "id": "g7",
+      "wrong": "all’",
+      "acceptedAnswers": [
+       "alle"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "Venerdì",
+      "acceptedAnswers": [
+       "venerdì"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-orario-s3",
+  "title": "Il mio orario",
+  "language": "it",
+  "level": "A1",
+  "description": "L’ora e i giorni della settimana · Il mio orario · livello difficile.",
+  "topics": [
+   "L’ora e i giorni della settimana",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "3 · La scuola",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-orario",
+   "topicTitle": "L’ora e i giorni della settimana",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Che ore sono?**\n- _È l’una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezza / e mezzo**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12.00) · _È mezzanotte_ (24.00)\n\n**A che ora?**\n- _**all’**una_, _**alle** otto_, _**dalle** otto **alle** due_\n\n**I giorni** (con la lettera minuscola): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = ogni lunedì · _Lunedì ho un’interrogazione._ = questo lunedì.",
+   "ruleHelp": "**Che ore sono?** – Wie spät ist es? _È l’una. Sono le due._ · e un quarto (Viertel nach), e mezza (halb), meno un quarto (Viertel vor), è mezzogiorno / mezzanotte.\n**A che ora?** – Um wie viel Uhr? _all’una, alle otto, dalle otto alle due_ (von … bis).\n**Wochentage** klein: lunedì … domenica. _Il lunedì_ = montags (jeden Montag) · _Lunedì_ = am (nächsten) Montag.",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Descrivi il tuo lunedì: quando comincia la scuola, che materie hai e quando, quando torni a casa?",
+    "explanation": "",
+    "promptHelp": "Beschreibe deinen Montag: Wann beginnt die Schule, welche Fächer hast du von wann bis wann, wann kommst du nach Hause?",
+    "modelAnswer": "Il lunedì la scuola comincia alle otto. Dalle otto alle nove e mezza ho matematica. Poi ho inglese. Torno a casa all’una e mezza.",
+    "lines": 5
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "E adesso completa con le ore in lettere.",
+    "explanation": "",
+    "promptHelp": "Und jetzt ergänze die Uhrzeiten in Worten.",
+    "text": "Mi sveglio (6.30) [[g1]].\nEsco di casa (7.15) [[g2]].\nLa prima ora comincia (8.00) [[g3]].\nTorno a casa (13.45) [[g4]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "alle sei e mezza",
+       "alle sei e mezzo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "alle sette e un quarto",
+       "alle sette e quindici"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "alle otto"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "alle due meno un quarto",
+       "all’una e quarantacinque"
+      ]
      }
     ]
    }
@@ -66311,12 +69236,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-passato-prossimo-avere-l1",
-  "title": "Das Partizip",
+  "title": "Il participio",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit avere · Das Partizip (einfach).",
+  "description": "Il passato prossimo con avere · Il participio · livello facile.",
   "topics": [
-   "Das passato prossimo mit avere",
+   "Il passato prossimo con avere",
    "Grammatik"
   ],
   "sources": [
@@ -66344,13 +69269,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-passato-prossimo-avere",
-   "topicTitle": "Das passato prossimo mit avere",
+   "topicTitle": "Il passato prossimo con avere",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_.",
+   "rule": "Il **passato prossimo** racconta azioni finite nel passato (come il «Perfekt» tedesco):\n**avere** (presente) + **participio**: _Ieri **ho giocato** a calcio._\n\n| infinito | participio |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nCon avere il participio **non cambia**. Parole utili: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
+   "ruleHelp": "Das **passato prossimo** beschreibt abgeschlossene Handlungen (wie das deutsche Perfekt): avere (Präsens) + Partizip.\nPartizip: -are → -ato, -ere → -uto, -ire → -ito. Mit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
    "order": 31
   },
   "vocabularyIds": [],
@@ -66358,8 +69284,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "matching",
-    "prompt": "Welches Partizip gehört zum Verb?",
+    "prompt": "Quale participio va con il verbo?",
     "explanation": "",
+    "promptHelp": "Welches Partizip gehört zum Verb?",
     "pairs": [
      {
       "id": "p1",
@@ -66390,6 +69317,16 @@ const STOCK_PACKAGES = [
       "id": "p6",
       "left": "ascoltare",
       "right": "ascoltato"
+     },
+     {
+      "id": "p7",
+      "left": "ricevere",
+      "right": "ricevuto"
+     },
+     {
+      "id": "p8",
+      "left": "finire",
+      "right": "finito"
      }
     ],
     "distractors": []
@@ -66401,12 +69338,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-passato-prossimo-avere-l2",
-  "title": "Welche Form von avere?",
+  "title": "Quale forma di avere?",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit avere · Welche Form von avere? (einfach).",
+  "description": "Il passato prossimo con avere · Quale forma di avere? · livello facile.",
   "topics": [
-   "Das passato prossimo mit avere",
+   "Il passato prossimo con avere",
    "Grammatik"
   ],
   "sources": [
@@ -66434,13 +69371,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-passato-prossimo-avere",
-   "topicTitle": "Das passato prossimo mit avere",
+   "topicTitle": "Il passato prossimo con avere",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_.",
+   "rule": "Il **passato prossimo** racconta azioni finite nel passato (come il «Perfekt» tedesco):\n**avere** (presente) + **participio**: _Ieri **ho giocato** a calcio._\n\n| infinito | participio |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nCon avere il participio **non cambia**. Parole utili: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
+   "ruleHelp": "Das **passato prossimo** beschreibt abgeschlossene Handlungen (wie das deutsche Perfekt): avere (Präsens) + Partizip.\nPartizip: -are → -ato, -ere → -uto, -ire → -ito. Mit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
    "order": 32
   },
   "vocabularyIds": [],
@@ -66448,9 +69386,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle die richtige Form von avere.",
+    "prompt": "Scegli la forma giusta di avere.",
     "explanation": "",
-    "text": "Ieri io [[g1]] studiato.\nTu [[g2]] giocato a calcio?\nMarco [[g3]] dormito fino alle dieci.\nNoi [[g4]] ascoltato un concerto.\nVoi [[g5]] mangiato la pizza?\nI ragazzi [[g6]] suonato la chitarra.",
+    "promptHelp": "Wähle die richtige Form von avere.",
+    "text": "Ieri io [[g1]] studiato.\nTu [[g2]] giocato a calcio?\nMarco [[g3]] dormito fino alle dieci.\nNoi [[g4]] ascoltato un concerto.\nVoi [[g5]] mangiato la pizza?\nI ragazzi [[g6]] suonato la chitarra.\nMia sorella [[g7]] comprato un libro.\nIo e Luca [[g8]] guardato un film.",
     "gaps": [
      {
       "id": "g1",
@@ -66505,6 +69444,24 @@ const STOCK_PACKAGES = [
        "avete"
       ],
       "answer": "hanno"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "ha",
+       "ho",
+       "hanno"
+      ],
+      "answer": "ha"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "abbiamo",
+       "avete",
+       "hanno"
+      ],
+      "answer": "abbiamo"
      }
     ]
    }
@@ -66515,12 +69472,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-passato-prossimo-avere-l3",
-  "title": "Partizipien bilden",
+  "title": "Formare il participio",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit avere · Partizipien bilden (einfach).",
+  "description": "Il passato prossimo con avere · Formare il participio · livello facile.",
   "topics": [
-   "Das passato prossimo mit avere",
+   "Il passato prossimo con avere",
    "Grammatik"
   ],
   "sources": [
@@ -66551,10 +69508,11 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 3,
   "grammar": {
    "topic": "ecco1-passato-prossimo-avere",
-   "topicTitle": "Das passato prossimo mit avere",
+   "topicTitle": "Il passato prossimo con avere",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_.",
+   "rule": "Il **passato prossimo** racconta azioni finite nel passato (come il «Perfekt» tedesco):\n**avere** (presente) + **participio**: _Ieri **ho giocato** a calcio._\n\n| infinito | participio |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nCon avere il participio **non cambia**. Parole utili: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
+   "ruleHelp": "Das **passato prossimo** beschreibt abgeschlossene Handlungen (wie das deutsche Perfekt): avere (Präsens) + Partizip.\nPartizip: -are → -ato, -ere → -uto, -ire → -ito. Mit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
    "order": 33
   },
   "vocabularyIds": [],
@@ -66562,11 +69520,13 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "table_fill",
-    "prompt": "Bilde das Partizip.",
+    "prompt": "Scrivi il participio.",
     "explanation": "-are → -ato, -ere → -uto, -ire → -ito.",
+    "promptHelp": "Bilde das Partizip.",
+    "explanationHelp": "-are → -ato, -ere → -uto, -ire → -ito.",
     "columns": [
-     "Infinitiv",
-     "Partizip"
+     "infinito",
+     "participio"
     ],
     "rows": [
      [
@@ -66650,12 +69610,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-passato-prossimo-avere-l4",
-  "title": "Gestern",
+  "title": "Ieri",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit avere · Gestern (einfach).",
+  "description": "Il passato prossimo con avere · Ieri · livello facile.",
   "topics": [
-   "Das passato prossimo mit avere",
+   "Il passato prossimo con avere",
    "Grammatik"
   ],
   "sources": [
@@ -66686,10 +69646,11 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-passato-prossimo-avere",
-   "topicTitle": "Das passato prossimo mit avere",
+   "topicTitle": "Il passato prossimo con avere",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_.",
+   "rule": "Il **passato prossimo** racconta azioni finite nel passato (come il «Perfekt» tedesco):\n**avere** (presente) + **participio**: _Ieri **ho giocato** a calcio._\n\n| infinito | participio |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nCon avere il participio **non cambia**. Parole utili: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
+   "ruleHelp": "Das **passato prossimo** beschreibt abgeschlossene Handlungen (wie das deutsche Perfekt): avere (Präsens) + Partizip.\nPartizip: -are → -ato, -ere → -uto, -ire → -ito. Mit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
    "order": 34
   },
   "vocabularyIds": [],
@@ -66697,8 +69658,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle die richtige Form.",
-    "explanation": "Mit avere bleibt das Partizip auf -o: Sara ha comprato.",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "Con avere il participio finisce in -o: Sara ha comprato.",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "Mit avere bleibt das Partizip auf -o.",
     "text": "Ieri io [[g1]] per il test.\nTu [[g2]] la nuova canzone?\nSara [[g3]] una maglietta.\nNoi [[g4]] un gelato.\nVoi [[g5]] bene?\nI ragazzi [[g6]] a basket.\nIo [[g7]] i compiti alle sei.\nMio padre [[g8]] tutto il giorno.",
     "gaps": [
      {
@@ -66785,9 +69748,9 @@ const STOCK_PACKAGES = [
   "title": "Sabato scorso",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit avere · Sabato scorso (mittel).",
+  "description": "Il passato prossimo con avere · Sabato scorso · livello medio.",
   "topics": [
-   "Das passato prossimo mit avere",
+   "Il passato prossimo con avere",
    "Grammatik"
   ],
   "sources": [
@@ -66815,13 +69778,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-passato-prossimo-avere",
-   "topicTitle": "Das passato prossimo mit avere",
+   "topicTitle": "Il passato prossimo con avere",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_.",
+   "rule": "Il **passato prossimo** racconta azioni finite nel passato (come il «Perfekt» tedesco):\n**avere** (presente) + **participio**: _Ieri **ho giocato** a calcio._\n\n| infinito | participio |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nCon avere il participio **non cambia**. Parole utili: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
+   "ruleHelp": "Das **passato prossimo** beschreibt abgeschlossene Handlungen (wie das deutsche Perfekt): avere (Präsens) + Partizip.\nPartizip: -are → -ato, -ere → -uto, -ire → -ito. Mit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
    "order": 31
   },
   "vocabularyIds": [],
@@ -66829,9 +69793,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Setze die Verben ins passato prossimo.",
+    "prompt": "Scrivi i verbi al passato prossimo.",
     "explanation": "",
-    "text": "Sabato scorso io (giocare) [[g1]] a pallavolo.\nPoi (mangiare) [[g2]] una pizza con Luca.\nLuca (suonare) [[g3]] il pianoforte.\nLa sera noi (guardare) [[g4]] un film.\nE voi? Che cosa (organizzare) [[g5]]?\nI miei genitori (dormire) [[g6]] tutto il giorno!",
+    "promptHelp": "Setze die Verben ins passato prossimo.",
+    "text": "Sabato scorso io (giocare) [[g1]] a pallavolo.\nPoi (mangiare) [[g2]] una pizza con Luca.\nLuca (suonare) [[g3]] il pianoforte.\nLa sera noi (guardare) [[g4]] un film.\nE voi? Che cosa (organizzare) [[g5]]?\nI miei genitori (dormire) [[g6]] tutto il giorno!\nMia sorella (ascoltare) [[g7]] musica.\nTu (telefonare) [[g8]] a Giulia?",
     "gaps": [
      {
       "id": "g1",
@@ -66868,6 +69833,18 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "hanno dormito"
       ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ha ascoltato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "hai telefonato"
+      ]
      }
     ]
    }
@@ -66878,12 +69855,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-passato-prossimo-avere-m2",
-  "title": "Präsens oder passato prossimo?",
+  "title": "Presente o passato prossimo?",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit avere · Präsens oder passato prossimo? (mittel).",
+  "description": "Il passato prossimo con avere · Presente o passato prossimo? · livello medio.",
   "topics": [
-   "Das passato prossimo mit avere",
+   "Il passato prossimo con avere",
    "Grammatik"
   ],
   "sources": [
@@ -66911,13 +69888,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-passato-prossimo-avere",
-   "topicTitle": "Das passato prossimo mit avere",
+   "topicTitle": "Il passato prossimo con avere",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_.",
+   "rule": "Il **passato prossimo** racconta azioni finite nel passato (come il «Perfekt» tedesco):\n**avere** (presente) + **participio**: _Ieri **ho giocato** a calcio._\n\n| infinito | participio |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nCon avere il participio **non cambia**. Parole utili: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
+   "ruleHelp": "Das **passato prossimo** beschreibt abgeschlossene Handlungen (wie das deutsche Perfekt): avere (Präsens) + Partizip.\nPartizip: -are → -ato, -ere → -uto, -ire → -ito. Mit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
    "order": 32
   },
   "vocabularyIds": [],
@@ -66925,9 +69903,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Achte auf die Signalwörter.",
-    "explanation": "",
-    "text": "Ieri [[g1]] a tennis.\nOggi [[g2]] matematica.\nL'anno scorso [[g3]] a sciare.\nAdesso [[g4]] la radio.\nSabato scorso Anna [[g5]] al concerto.",
+    "prompt": "Guarda le parole del tempo.",
+    "explanation": "ieri, l’anno scorso, sabato scorso → passato prossimo · oggi, adesso, di solito, ogni giorno → presente.",
+    "promptHelp": "Achte auf die Signalwörter.",
+    "explanationHelp": "ieri, scorso → passato prossimo · oggi, adesso, di solito → Präsens.",
+    "text": "Ieri [[g1]] a tennis.\nOggi [[g2]] matematica.\nL’anno scorso [[g3]] a sciare.\nAdesso [[g4]] la radio.\nSabato scorso Anna [[g5]] al concerto.\nDi solito [[g6]] alle una.\nLa settimana scorsa [[g7]] un museo.\nOgni giorno Marco [[g8]] in negozio.",
     "gaps": [
      {
       "id": "g1",
@@ -66968,6 +69948,30 @@ const STOCK_PACKAGES = [
        "canta"
       ],
       "answer": "ha cantato"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "mangio",
+       "ho mangiato"
+      ],
+      "answer": "mangio"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "abbiamo visitato",
+       "visitiamo"
+      ],
+      "answer": "abbiamo visitato"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "lavora",
+       "ha lavorato"
+      ],
+      "answer": "lavora"
      }
     ]
    }
@@ -66981,9 +69985,9 @@ const STOCK_PACKAGES = [
   "title": "Il diario di Giulia",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit avere · Il diario di Giulia (mittel).",
+  "description": "Il passato prossimo con avere · Il diario di Giulia · livello medio.",
   "topics": [
-   "Das passato prossimo mit avere",
+   "Il passato prossimo con avere",
    "Grammatik"
   ],
   "sources": [
@@ -67011,13 +70015,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-passato-prossimo-avere",
-   "topicTitle": "Das passato prossimo mit avere",
+   "topicTitle": "Il passato prossimo con avere",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_.",
+   "rule": "Il **passato prossimo** racconta azioni finite nel passato (come il «Perfekt» tedesco):\n**avere** (presente) + **participio**: _Ieri **ho giocato** a calcio._\n\n| infinito | participio |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nCon avere il participio **non cambia**. Parole utili: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
+   "ruleHelp": "Das **passato prossimo** beschreibt abgeschlossene Handlungen (wie das deutsche Perfekt): avere (Präsens) + Partizip.\nPartizip: -are → -ato, -ere → -uto, -ire → -ito. Mit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
    "order": 33
   },
   "vocabularyIds": [],
@@ -67025,9 +70030,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Setze die Verben ins passato prossimo.",
+    "prompt": "Scrivi i verbi al passato prossimo.",
     "explanation": "avere → avuto, ricevere → ricevuto.",
-    "text": "Caro diario, oggi (avere) [[g1]] una giornata fantastica!\nLa mattina (ricevere) [[g2]] un bel voto in matematica.\nA pranzo mia madre (cucinare) [[g3]] le lasagne.\nNel pomeriggio io e Marta (giocare) [[g4]] a tennis.\nPoi (ascoltare, noi) [[g5]] musica nella mia camera.\nI miei fratelli (guardare) [[g6]] la partita.\nLa sera (telefonare, io) [[g7]] alla nonna.",
+    "promptHelp": "Setze die Verben ins passato prossimo.",
+    "explanationHelp": "avere → avuto, ricevere → ricevuto.",
+    "text": "Caro diario, oggi (avere) [[g1]] una giornata fantastica!\nLa mattina (ricevere) [[g2]] un bel voto in matematica.\nA pranzo mia madre (cucinare) [[g3]] le lasagne.\nNel pomeriggio io e Marta (giocare) [[g4]] a tennis.\nPoi (ascoltare, noi) [[g5]] musica nella mia camera.\nI miei fratelli (guardare) [[g6]] la partita.\nLa sera (telefonare, io) [[g7]] alla nonna.\nLei (raccontare) [[g8]] una storia divertente.",
     "gaps": [
      {
       "id": "g1",
@@ -67070,6 +70077,12 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "ho telefonato"
       ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ha raccontato"
+      ]
      }
     ]
    }
@@ -67080,12 +70093,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-passato-prossimo-avere-m4",
-  "title": "Was hast du gestern gemacht?",
+  "title": "Che cosa hai fatto ieri?",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit avere · Was hast du gestern gemacht? (mittel).",
+  "description": "Il passato prossimo con avere · Che cosa hai fatto ieri? · livello medio.",
   "topics": [
-   "Das passato prossimo mit avere",
+   "Il passato prossimo con avere",
    "Grammatik"
   ],
   "sources": [
@@ -67113,13 +70126,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-passato-prossimo-avere",
-   "topicTitle": "Das passato prossimo mit avere",
+   "topicTitle": "Il passato prossimo con avere",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_.",
+   "rule": "Il **passato prossimo** racconta azioni finite nel passato (come il «Perfekt» tedesco):\n**avere** (presente) + **participio**: _Ieri **ho giocato** a calcio._\n\n| infinito | participio |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nCon avere il participio **non cambia**. Parole utili: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
+   "ruleHelp": "Das **passato prossimo** beschreibt abgeschlossene Handlungen (wie das deutsche Perfekt): avere (Präsens) + Partizip.\nPartizip: -are → -ato, -ere → -uto, -ire → -ito. Mit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
    "order": 34
   },
   "vocabularyIds": [],
@@ -67127,8 +70141,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "sentence_completion",
-    "prompt": "Antworte im passato prossimo.",
-    "explanation": "non steht vor dem Hilfsverb: non ho dormito.",
+    "prompt": "Rispondi al passato prossimo.",
+    "explanation": "non va prima dell’ausiliare: non ho dormito.",
+    "promptHelp": "Antworte im passato prossimo.",
+    "explanationHelp": "non steht vor dem Hilfsverb: non ho dormito.",
     "items": [
      {
       "id": "s1",
@@ -67169,6 +70185,30 @@ const STOCK_PACKAGES = [
        "non ho dormito bene"
       ],
       "modelAnswer": "No, non ho dormito bene."
+     },
+     {
+      "id": "s6",
+      "start": "Avete ascoltato la radio? (sì) – …",
+      "acceptedAnswers": [
+       "abbiamo ascoltato"
+      ],
+      "modelAnswer": "Sì, abbiamo ascoltato la radio."
+     },
+     {
+      "id": "s7",
+      "start": "Hai comprato il pane? (no) – …",
+      "acceptedAnswers": [
+       "non ho comprato"
+      ],
+      "modelAnswer": "No, non ho comprato il pane."
+     },
+     {
+      "id": "s8",
+      "start": "Ha finito i compiti Sara? (sì) – …",
+      "acceptedAnswers": [
+       "ha finito"
+      ],
+      "modelAnswer": "Sì, Sara ha finito i compiti."
      }
     ]
    }
@@ -67179,12 +70219,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-passato-prossimo-avere-s1",
-  "title": "Was hast du gemacht?",
+  "title": "Che cosa hai fatto?",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit avere · Was hast du gemacht? (schwer).",
+  "description": "Il passato prossimo con avere · Che cosa hai fatto? · livello difficile.",
   "topics": [
-   "Das passato prossimo mit avere",
+   "Il passato prossimo con avere",
    "Grammatik"
   ],
   "sources": [
@@ -67212,13 +70252,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 3,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-passato-prossimo-avere",
-   "topicTitle": "Das passato prossimo mit avere",
+   "topicTitle": "Il passato prossimo con avere",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_.",
+   "rule": "Il **passato prossimo** racconta azioni finite nel passato (come il «Perfekt» tedesco):\n**avere** (presente) + **participio**: _Ieri **ho giocato** a calcio._\n\n| infinito | participio |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nCon avere il participio **non cambia**. Parole utili: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
+   "ruleHelp": "Das **passato prossimo** beschreibt abgeschlossene Handlungen (wie das deutsche Perfekt): avere (Präsens) + Partizip.\nPartizip: -are → -ato, -ere → -uto, -ire → -ito. Mit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
    "order": 31
   },
   "vocabularyIds": [],
@@ -67226,10 +70267,45 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "open_answer",
-    "prompt": "Was hast du letztes Wochenende gemacht? Schreibe 5 Sätze im passato prossimo mit avere.",
+    "prompt": "Che cosa hai fatto lo scorso fine settimana? Scrivi 5 frasi al passato prossimo con avere.",
     "explanation": "",
+    "promptHelp": "Was hast du letztes Wochenende gemacht? Schreibe 5 Sätze im passato prossimo mit avere.",
     "modelAnswer": "Sabato ho dormito fino alle dieci. Poi ho giocato a calcio. Ho mangiato una pizza con i miei amici. Domenica ho studiato. La sera ho guardato un film.",
     "lines": 5
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "E adesso completa.",
+    "explanation": "",
+    "promptHelp": "Und jetzt ergänze.",
+    "text": "Sabato io (dormire) [[g1]] fino alle nove.\nPoi (giocare) [[g2]] ai videogiochi.\nI miei genitori (lavorare) [[g3]] in giardino.\nLa sera noi (mangiare) [[g4]] insieme.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ho dormito"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "ho giocato"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "hanno lavorato"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "abbiamo mangiato"
+      ]
+     }
+    ]
    }
   ]
  },
@@ -67238,12 +70314,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-passato-prossimo-avere-s2",
-  "title": "Präsens oder passato prossimo?",
+  "title": "Presente o passato prossimo?",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit avere · Präsens oder passato prossimo? (schwer).",
+  "description": "Il passato prossimo con avere · Presente o passato prossimo? · livello difficile.",
   "topics": [
-   "Das passato prossimo mit avere",
+   "Il passato prossimo con avere",
    "Grammatik"
   ],
   "sources": [
@@ -67271,13 +70347,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 9,
+  "estimatedMinutes": 10,
   "grammar": {
    "topic": "ecco1-passato-prossimo-avere",
-   "topicTitle": "Das passato prossimo mit avere",
+   "topicTitle": "Il passato prossimo con avere",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_.",
+   "rule": "Il **passato prossimo** racconta azioni finite nel passato (come il «Perfekt» tedesco):\n**avere** (presente) + **participio**: _Ieri **ho giocato** a calcio._\n\n| infinito | participio |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nCon avere il participio **non cambia**. Parole utili: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
+   "ruleHelp": "Das **passato prossimo** beschreibt abgeschlossene Handlungen (wie das deutsche Perfekt): avere (Präsens) + Partizip.\nPartizip: -are → -ato, -ere → -uto, -ire → -ito. Mit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
    "order": 32
   },
   "vocabularyIds": [],
@@ -67285,9 +70362,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Setze die Verben im Präsens oder im passato prossimo ein. Achte auf die Zeitangaben.",
-    "explanation": "di solito, ogni giorno, adesso → Präsens · ieri, sabato scorso, l'anno scorso → passato prossimo.",
-    "text": "Di solito il sabato io (giocare) [[g1]] a calcio.\nMa sabato scorso (giocare) [[g2]] a tennis.\nOgni giorno mia sorella (ascoltare) [[g3]] la radio.\nIeri però (ascoltare) [[g4]] un podcast.\nAdesso noi (mangiare) [[g5]] in cucina.\nIeri sera (mangiare, noi) [[g6]] in pizzeria.\nL'anno scorso voi (studiare) [[g7]] il francese?",
+    "prompt": "Scrivi il verbo al presente o al passato prossimo. Guarda le parole del tempo.",
+    "explanation": "di solito, ogni giorno, adesso, quest’anno → presente · ieri, scorso → passato prossimo.",
+    "promptHelp": "Setze die Verben im Präsens oder im passato prossimo ein.",
+    "explanationHelp": "di solito, ogni giorno, adesso → Präsens · ieri, sabato scorso, l’anno scorso → passato prossimo.",
+    "text": "Di solito il sabato io (giocare) [[g1]] a calcio.\nMa sabato scorso (giocare) [[g2]] a tennis.\nOgni giorno mia sorella (ascoltare) [[g3]] la radio.\nIeri però (ascoltare) [[g4]] un podcast.\nAdesso noi (mangiare) [[g5]] in cucina.\nIeri sera (mangiare, noi) [[g6]] in pizzeria.\nL’anno scorso voi (studiare) [[g7]] il francese?\nQuest’anno (studiare, voi) [[g8]] l’italiano.",
     "gaps": [
      {
       "id": "g1",
@@ -67330,6 +70409,12 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "avete studiato"
       ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "studiate"
+      ]
      }
     ]
    }
@@ -67340,12 +70425,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-passato-prossimo-avere-s3",
-  "title": "Fehler im Bericht",
+  "title": "Errori nel racconto",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit avere · Fehler im Bericht (schwer).",
+  "description": "Il passato prossimo con avere · Errori nel racconto · livello difficile.",
   "topics": [
-   "Das passato prossimo mit avere",
+   "Il passato prossimo con avere",
    "Grammatik"
   ],
   "sources": [
@@ -67373,13 +70458,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 8,
+  "estimatedMinutes": 10,
   "grammar": {
    "topic": "ecco1-passato-prossimo-avere",
-   "topicTitle": "Das passato prossimo mit avere",
+   "topicTitle": "Il passato prossimo con avere",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_.",
+   "rule": "Il **passato prossimo** racconta azioni finite nel passato (come il «Perfekt» tedesco):\n**avere** (presente) + **participio**: _Ieri **ho giocato** a calcio._\n\n| infinito | participio |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nCon avere il participio **non cambia**. Parole utili: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
+   "ruleHelp": "Das **passato prossimo** beschreibt abgeschlossene Handlungen (wie das deutsche Perfekt): avere (Präsens) + Partizip.\nPartizip: -are → -ato, -ere → -uto, -ire → -ito. Mit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
    "order": 33
   },
   "vocabularyIds": [],
@@ -67387,9 +70473,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "error_correction",
-    "prompt": "Korrigiere die sechs Fehler.",
+    "prompt": "Correggi gli otto errori.",
     "explanation": "",
-    "text": "Ieri io [[g1]] tanto.\nMarta [[g2]] un libro.\nNoi [[g3]] poco.\nI ragazzi [[g4]] le magliette.\nVoi [[g5]] bene.\nTu [[g6]] la radio?",
+    "promptHelp": "Korrigiere die acht Fehler.",
+    "text": "Ieri io [[g1]] tanto.\nMarta [[g2]] un libro.\nNoi [[g3]] poco.\nI ragazzi [[g4]] le magliette.\nVoi [[g5]] bene.\nTu [[g6]] la radio?\nIo [[g7]] alle sei.\nMia madre [[g8]] molto.",
     "errors": [
      {
       "id": "g1",
@@ -67432,6 +70519,20 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "hai ascoltato"
       ]
+     },
+     {
+      "id": "g7",
+      "wrong": "ho finisco",
+      "acceptedAnswers": [
+       "ho finito"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "hai lavorato",
+      "acceptedAnswers": [
+       "ha lavorato"
+      ]
      }
     ]
    }
@@ -67442,12 +70543,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-passato-prossimo-essere-l1",
-  "title": "avere oder essere?",
+  "title": "Avere o essere?",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · avere oder essere? (einfach).",
+  "description": "Il passato prossimo con essere e i participi irregolari · Avere o essere? · livello facile.",
   "topics": [
-   "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "Il passato prossimo con essere e i participi irregolari",
    "Grammatik"
   ],
   "sources": [
@@ -67475,13 +70576,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-passato-prossimo-essere",
-   "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "topicTitle": "Il passato prossimo con essere e i participi irregolari",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "rule": "Con **essere** fanno il passato prossimo soprattutto i verbi di **movimento** e di **cambiamento**, e **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nIl participio cambia come un aggettivo (**soggetto**):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Participi irregolari:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "ruleHelp": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** sowie rimanere, stare, essere. Das Partizip richtet sich dann nach dem **Subjekt** (-o, -a, -i, -e): _Marco è andato, Giulia è andata, i ragazzi sono andati, le ragazze sono andate._\nUnregelmäßige Partizipien: fatto, preso, perso, visto, rimasto, deciso, letto, scritto, venuto, stato, vinto, riso.",
    "order": 41
   },
   "vocabularyIds": [],
@@ -67489,8 +70591,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "categorize",
-    "prompt": "Mit avere oder mit essere?",
-    "explanation": "",
+    "prompt": "Con avere o con essere?",
+    "explanation": "Movimento e cambiamento (andare, partire, tornare, arrivare) e rimanere → essere.",
+    "promptHelp": "Mit avere oder mit essere?",
+    "explanationHelp": "Bewegung und Veränderung sowie rimanere → essere.",
     "categories": [
      {
       "id": "av",
@@ -67541,6 +70645,16 @@ const STOCK_PACKAGES = [
       "id": "i8",
       "text": "vedere",
       "category": "av"
+     },
+     {
+      "id": "i9",
+      "text": "arrivare",
+      "category": "es"
+     },
+     {
+      "id": "i10",
+      "text": "leggere",
+      "category": "av"
      }
     ]
    }
@@ -67551,102 +70665,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-passato-prossimo-essere-l2",
-  "title": "Das Partizip",
+  "title": "Il participio irregolare",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Das Partizip (einfach).",
+  "description": "Il passato prossimo con essere e i participi irregolari · Il participio irregolare · livello facile.",
   "topics": [
-   "Das passato prossimo mit essere, unregelmäßige Partizipien",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 4 · Tempo libero · Parte B.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "4 · Tempo libero",
-    "section": "Parte B"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 6,
-  "grammar": {
-   "topic": "ecco1-passato-prossimo-essere",
-   "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
-   "difficulty": "leicht",
-   "origin": "own",
-   "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
-   "order": 42
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "matching",
-    "prompt": "Ordne das unregelmäßige Partizip zu.",
-    "explanation": "",
-    "pairs": [
-     {
-      "id": "p1",
-      "left": "fare",
-      "right": "fatto"
-     },
-     {
-      "id": "p2",
-      "left": "prendere",
-      "right": "preso"
-     },
-     {
-      "id": "p3",
-      "left": "vedere",
-      "right": "visto"
-     },
-     {
-      "id": "p4",
-      "left": "scrivere",
-      "right": "scritto"
-     },
-     {
-      "id": "p5",
-      "left": "rimanere",
-      "right": "rimasto"
-     },
-     {
-      "id": "p6",
-      "left": "perdere",
-      "right": "perso"
-     }
-    ],
-    "distractors": []
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-passato-prossimo-essere-l3",
-  "title": "Hilfsverb essere",
-  "language": "it",
-  "level": "A1",
-  "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Hilfsverb essere (einfach).",
-  "topics": [
-   "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "Il passato prossimo con essere e i participi irregolari",
    "Grammatik"
   ],
   "sources": [
@@ -67677,10 +70701,116 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-passato-prossimo-essere",
-   "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "topicTitle": "Il passato prossimo con essere e i participi irregolari",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "rule": "Con **essere** fanno il passato prossimo soprattutto i verbi di **movimento** e di **cambiamento**, e **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nIl participio cambia come un aggettivo (**soggetto**):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Participi irregolari:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "ruleHelp": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** sowie rimanere, stare, essere. Das Partizip richtet sich dann nach dem **Subjekt** (-o, -a, -i, -e): _Marco è andato, Giulia è andata, i ragazzi sono andati, le ragazze sono andate._\nUnregelmäßige Partizipien: fatto, preso, perso, visto, rimasto, deciso, letto, scritto, venuto, stato, vinto, riso.",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina il participio.",
+    "explanation": "",
+    "promptHelp": "Ordne das unregelmäßige Partizip zu.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "fare",
+      "right": "fatto"
+     },
+     {
+      "id": "p2",
+      "left": "prendere",
+      "right": "preso"
+     },
+     {
+      "id": "p3",
+      "left": "vedere",
+      "right": "visto"
+     },
+     {
+      "id": "p4",
+      "left": "scrivere",
+      "right": "scritto"
+     },
+     {
+      "id": "p5",
+      "left": "rimanere",
+      "right": "rimasto"
+     },
+     {
+      "id": "p6",
+      "left": "perdere",
+      "right": "perso"
+     },
+     {
+      "id": "p7",
+      "left": "leggere",
+      "right": "letto"
+     },
+     {
+      "id": "p8",
+      "left": "essere",
+      "right": "stato"
+     }
+    ],
+    "distractors": [
+     "prenduto",
+     "veduto"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-prossimo-essere-l3",
+  "title": "L’ausiliare essere",
+  "language": "it",
+  "level": "A1",
+  "description": "Il passato prossimo con essere e i participi irregolari · L’ausiliare essere · livello facile.",
+  "topics": [
+   "Il passato prossimo con essere e i participi irregolari",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 4 · Tempo libero · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-essere",
+   "topicTitle": "Il passato prossimo con essere e i participi irregolari",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Con **essere** fanno il passato prossimo soprattutto i verbi di **movimento** e di **cambiamento**, e **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nIl participio cambia come un aggettivo (**soggetto**):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Participi irregolari:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "ruleHelp": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** sowie rimanere, stare, essere. Das Partizip richtet sich dann nach dem **Subjekt** (-o, -a, -i, -e): _Marco è andato, Giulia è andata, i ragazzi sono andati, le ragazze sono andate._\nUnregelmäßige Partizipien: fatto, preso, perso, visto, rimasto, deciso, letto, scritto, venuto, stato, vinto, riso.",
    "order": 43
   },
   "vocabularyIds": [],
@@ -67688,8 +70818,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle die richtige Form von essere.",
+    "prompt": "Scegli la forma giusta di essere.",
     "explanation": "",
+    "promptHelp": "Wähle die richtige Form von essere.",
     "text": "Io [[g1]] andato al cinema.\nTu [[g2]] uscita con Marta?\nLuca [[g3]] partito alle otto.\nNoi [[g4]] tornati tardi.\nVoi [[g5]] arrivate in tempo?\nLe ragazze [[g6]] rimaste a casa.\nMia madre [[g7]] stata in Italia.\nI miei nonni [[g8]] venuti a trovarci.",
     "gaps": [
      {
@@ -67773,105 +70904,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-passato-prossimo-essere-l4",
-  "title": "Unregelmäßige Partizipien",
+  "title": "Altri participi",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Unregelmäßige Partizipien (einfach).",
+  "description": "Il passato prossimo con essere e i participi irregolari · Altri participi · livello facile.",
   "topics": [
-   "Das passato prossimo mit essere, unregelmäßige Partizipien",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 4 · Tempo libero · Parte B.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "4 · Tempo libero",
-    "section": "Parte B"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 6,
-  "grammar": {
-   "topic": "ecco1-passato-prossimo-essere",
-   "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
-   "difficulty": "leicht",
-   "origin": "own",
-   "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
-   "order": 44
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "matching",
-    "prompt": "Ordne das Partizip zu.",
-    "explanation": "",
-    "pairs": [
-     {
-      "id": "p1",
-      "left": "leggere",
-      "right": "letto"
-     },
-     {
-      "id": "p2",
-      "left": "venire",
-      "right": "venuto"
-     },
-     {
-      "id": "p3",
-      "left": "essere",
-      "right": "stato"
-     },
-     {
-      "id": "p4",
-      "left": "decidere",
-      "right": "deciso"
-     },
-     {
-      "id": "p5",
-      "left": "vincere",
-      "right": "vinto"
-     },
-     {
-      "id": "p6",
-      "left": "ridere",
-      "right": "riso"
-     }
-    ],
-    "distractors": [
-     "leggiuto",
-     "venito"
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-passato-prossimo-essere-m1",
-  "title": "Domenica bianca",
-  "language": "it",
-  "level": "A1",
-  "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Domenica bianca (mittel).",
-  "topics": [
-   "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "Il passato prossimo con essere e i participi irregolari",
    "Grammatik"
   ],
   "sources": [
@@ -67902,10 +70940,116 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-passato-prossimo-essere",
-   "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "topicTitle": "Il passato prossimo con essere e i participi irregolari",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Con **essere** fanno il passato prossimo soprattutto i verbi di **movimento** e di **cambiamento**, e **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nIl participio cambia come un aggettivo (**soggetto**):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Participi irregolari:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "ruleHelp": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** sowie rimanere, stare, essere. Das Partizip richtet sich dann nach dem **Subjekt** (-o, -a, -i, -e): _Marco è andato, Giulia è andata, i ragazzi sono andati, le ragazze sono andate._\nUnregelmäßige Partizipien: fatto, preso, perso, visto, rimasto, deciso, letto, scritto, venuto, stato, vinto, riso.",
+   "order": 44
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina il participio.",
+    "explanation": "",
+    "promptHelp": "Ordne das Partizip zu.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "venire",
+      "right": "venuto"
+     },
+     {
+      "id": "p2",
+      "left": "decidere",
+      "right": "deciso"
+     },
+     {
+      "id": "p3",
+      "left": "vincere",
+      "right": "vinto"
+     },
+     {
+      "id": "p4",
+      "left": "ridere",
+      "right": "riso"
+     },
+     {
+      "id": "p5",
+      "left": "correre",
+      "right": "corso"
+     },
+     {
+      "id": "p6",
+      "left": "mettere",
+      "right": "messo"
+     },
+     {
+      "id": "p7",
+      "left": "dire",
+      "right": "detto"
+     },
+     {
+      "id": "p8",
+      "left": "rispondere",
+      "right": "risposto"
+     }
+    ],
+    "distractors": [
+     "venito",
+     "leggiuto"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-prossimo-essere-m1",
+  "title": "Domenica sulla neve",
+  "language": "it",
+  "level": "A1",
+  "description": "Il passato prossimo con essere e i participi irregolari · Domenica sulla neve · livello medio.",
+  "topics": [
+   "Il passato prossimo con essere e i participi irregolari",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 4 · Tempo libero · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-essere",
+   "topicTitle": "Il passato prossimo con essere e i participi irregolari",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "rule": "Con **essere** fanno il passato prossimo soprattutto i verbi di **movimento** e di **cambiamento**, e **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nIl participio cambia come un aggettivo (**soggetto**):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Participi irregolari:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "ruleHelp": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** sowie rimanere, stare, essere. Das Partizip richtet sich dann nach dem **Subjekt** (-o, -a, -i, -e): _Marco è andato, Giulia è andata, i ragazzi sono andati, le ragazze sono andate._\nUnregelmäßige Partizipien: fatto, preso, perso, visto, rimasto, deciso, letto, scritto, venuto, stato, vinto, riso.",
    "order": 41
   },
   "vocabularyIds": [],
@@ -67913,9 +71057,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Setze die Verben ins passato prossimo.",
-    "explanation": "Mit essere passt sich das Partizip an: Luca è caduto, Giulia è rimasta, i ragazzi sono tornati.",
-    "text": "Domenica Luca (andare) [[g1]] in montagna.\nAnche Giulia (venire) [[g2]].\nNoi (prendere) [[g3]] il treno alle otto.\nSulla pista Luca (cadere) [[g4]] due volte.\nGiulia (rimanere) [[g5]] al bar.\nLa sera i ragazzi (tornare) [[g6]] a casa stanchi.",
+    "prompt": "Scrivi i verbi al passato prossimo.",
+    "explanation": "Con essere il participio cambia: Luca è caduto, Giulia è rimasta, i ragazzi sono tornati.",
+    "promptHelp": "Setze die Verben ins passato prossimo.",
+    "explanationHelp": "Mit essere passt sich das Partizip an.",
+    "text": "Domenica Luca (andare) [[g1]] in montagna.\nAnche Giulia (venire) [[g2]].\nNoi (prendere) [[g3]] il treno alle otto.\nSulla pista Luca (cadere) [[g4]] due volte.\nGiulia (rimanere) [[g5]] al bar.\nLa sera i ragazzi (tornare) [[g6]] a casa stanchi.\nLe ragazze (fare) [[g7]] tante foto.\nIo (vedere) [[g8]] un panorama bellissimo.",
     "gaps": [
      {
       "id": "g1",
@@ -67952,6 +71098,18 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "sono tornati"
       ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "hanno fatto"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ho visto"
+      ]
      }
     ]
    }
@@ -67962,12 +71120,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-passato-prossimo-essere-m2",
-  "title": "Die richtige Endung",
+  "title": "La desinenza giusta",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Die richtige Endung (mittel).",
+  "description": "Il passato prossimo con essere e i participi irregolari · La desinenza giusta · livello medio.",
   "topics": [
-   "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "Il passato prossimo con essere e i participi irregolari",
    "Grammatik"
   ],
   "sources": [
@@ -67995,13 +71153,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-passato-prossimo-essere",
-   "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "topicTitle": "Il passato prossimo con essere e i participi irregolari",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "rule": "Con **essere** fanno il passato prossimo soprattutto i verbi di **movimento** e di **cambiamento**, e **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nIl participio cambia come un aggettivo (**soggetto**):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Participi irregolari:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "ruleHelp": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** sowie rimanere, stare, essere. Das Partizip richtet sich dann nach dem **Subjekt** (-o, -a, -i, -e): _Marco è andato, Giulia è andata, i ragazzi sono andati, le ragazze sono andate._\nUnregelmäßige Partizipien: fatto, preso, perso, visto, rimasto, deciso, letto, scritto, venuto, stato, vinto, riso.",
    "order": 42
   },
   "vocabularyIds": [],
@@ -68009,9 +71168,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle die richtige Endung.",
+    "prompt": "Scegli la desinenza giusta.",
     "explanation": "",
-    "text": "Anna è [[g1]] al cinema.\nI ragazzi sono [[g2]] tardi.\nLe mie amiche sono [[g3]] ieri.\nMarco è [[g4]] con Paolo.\nSara e Lucia sono [[g5]] a casa.",
+    "promptHelp": "Wähle die richtige Endung.",
+    "text": "Anna è [[g1]] al cinema.\nI ragazzi sono [[g2]] tardi.\nLe mie amiche sono [[g3]] ieri.\nMarco è [[g4]] con Paolo.\nSara e Lucia sono [[g5]] a casa.\nMio padre è [[g6]] a Roma.\nTu (Giulia) sei [[g7]] a casa?\nNoi (Luca e Paolo) siamo [[g8]] in bici.",
     "gaps": [
      {
       "id": "g1",
@@ -68057,6 +71217,33 @@ const STOCK_PACKAGES = [
        "tornata"
       ],
       "answer": "tornate"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "stato",
+       "stata",
+       "stati"
+      ],
+      "answer": "stato"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "rimasta",
+       "rimasto",
+       "rimaste"
+      ],
+      "answer": "rimasta"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "venuti",
+       "venute",
+       "venuto"
+      ],
+      "answer": "venuti"
      }
     ]
    }
@@ -68067,12 +71254,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-passato-prossimo-essere-m3",
-  "title": "-o, -a, -i oder -e?",
+  "title": "-o, -a, -i o -e?",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · -o, -a, -i oder -e? (mittel).",
+  "description": "Il passato prossimo con essere e i participi irregolari · -o, -a, -i o -e? · livello medio.",
   "topics": [
-   "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "Il passato prossimo con essere e i participi irregolari",
    "Grammatik"
   ],
   "sources": [
@@ -68103,10 +71290,11 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-passato-prossimo-essere",
-   "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "topicTitle": "Il passato prossimo con essere e i participi irregolari",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "rule": "Con **essere** fanno il passato prossimo soprattutto i verbi di **movimento** e di **cambiamento**, e **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nIl participio cambia come un aggettivo (**soggetto**):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Participi irregolari:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "ruleHelp": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** sowie rimanere, stare, essere. Das Partizip richtet sich dann nach dem **Subjekt** (-o, -a, -i, -e): _Marco è andato, Giulia è andata, i ragazzi sono andati, le ragazze sono andate._\nUnregelmäßige Partizipien: fatto, preso, perso, visto, rimasto, deciso, letto, scritto, venuto, stato, vinto, riso.",
    "order": 43
   },
   "vocabularyIds": [],
@@ -68114,8 +71302,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Ergänze die Endung des Partizips.",
-    "explanation": "Partizip mit essere = Endung wie bei einem Adjektiv: -o, -a, -i, -e.",
+    "prompt": "Scrivi la desinenza del participio.",
+    "explanation": "Participio con essere = desinenza come un aggettivo: -o, -a, -i, -e.",
+    "promptHelp": "Ergänze die Endung des Partizips.",
+    "explanationHelp": "Partizip mit essere = Endung wie bei einem Adjektiv.",
     "text": "Marta è andat[[g1]] in piscina.\nPaolo è tornat[[g2]] alle sette.\nIo (Sara) sono uscit[[g3]] con le amiche.\nLe mie amiche sono arrivat[[g4]] tardi.\nNoi (Luca e Marco) siamo partit[[g5]] presto.\nVoi (Anna e Chiara) siete stat[[g6]] a Roma?\nI bambini sono cadut[[g7]] dalla bici.\nTu (Giulia) sei rimast[[g8]] a casa?",
     "gaps": [
      {
@@ -68178,9 +71368,9 @@ const STOCK_PACKAGES = [
   "title": "Una gita a Milano",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Una gita a Milano (mittel).",
+  "description": "Il passato prossimo con essere e i participi irregolari · Una gita a Milano · livello medio.",
   "topics": [
-   "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "Il passato prossimo con essere e i participi irregolari",
    "Grammatik"
   ],
   "sources": [
@@ -68211,10 +71401,11 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-passato-prossimo-essere",
-   "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "topicTitle": "Il passato prossimo con essere e i participi irregolari",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "rule": "Con **essere** fanno il passato prossimo soprattutto i verbi di **movimento** e di **cambiamento**, e **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nIl participio cambia come un aggettivo (**soggetto**):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Participi irregolari:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "ruleHelp": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** sowie rimanere, stare, essere. Das Partizip richtet sich dann nach dem **Subjekt** (-o, -a, -i, -e): _Marco è andato, Giulia è andata, i ragazzi sono andati, le ragazze sono andate._\nUnregelmäßige Partizipien: fatto, preso, perso, visto, rimasto, deciso, letto, scritto, venuto, stato, vinto, riso.",
    "order": 44
   },
   "vocabularyIds": [],
@@ -68222,8 +71413,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Setze die Verben ins passato prossimo (essere oder avere).",
-    "explanation": "io e mia sorella = noi (weiblich) → siamo andate, siamo arrivate.",
+    "prompt": "Scrivi i verbi al passato prossimo (essere o avere).",
+    "explanation": "io e mia sorella = noi (femminile) → siamo andate, siamo arrivate.",
+    "promptHelp": "Setze die Verben ins passato prossimo (essere oder avere).",
+    "explanationHelp": "io e mia sorella = noi (weiblich) → siamo andate.",
     "text": "Domenica io e mia sorella (andare) [[g1]] a Milano.\n(Prendere, noi) [[g2]] il treno alle otto.\n(Arrivare, noi) [[g3]] alle nove e mezza.\nPrima (vedere, noi) [[g4]] il Duomo.\nPoi (fare, noi) [[g5]] shopping in Galleria.\nMia sorella (perdere) [[g6]] il biglietto del treno!\nPer fortuna (rimanere, noi) [[g7]] calme.\nLa sera (tornare, noi) [[g8]] a casa stanche ma felici.",
     "gaps": [
      {
@@ -68283,12 +71476,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-passato-prossimo-essere-s1",
-  "title": "Fehler finden",
+  "title": "Trova gli errori",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Fehler finden (schwer).",
+  "description": "Il passato prossimo con essere e i participi irregolari · Trova gli errori · livello difficile.",
   "topics": [
-   "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "Il passato prossimo con essere e i participi irregolari",
    "Grammatik"
   ],
   "sources": [
@@ -68316,13 +71509,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 10,
   "grammar": {
    "topic": "ecco1-passato-prossimo-essere",
-   "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "topicTitle": "Il passato prossimo con essere e i participi irregolari",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "rule": "Con **essere** fanno il passato prossimo soprattutto i verbi di **movimento** e di **cambiamento**, e **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nIl participio cambia come un aggettivo (**soggetto**):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Participi irregolari:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "ruleHelp": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** sowie rimanere, stare, essere. Das Partizip richtet sich dann nach dem **Subjekt** (-o, -a, -i, -e): _Marco è andato, Giulia è andata, i ragazzi sono andati, le ragazze sono andate._\nUnregelmäßige Partizipien: fatto, preso, perso, visto, rimasto, deciso, letto, scritto, venuto, stato, vinto, riso.",
    "order": 41
   },
   "vocabularyIds": [],
@@ -68330,9 +71524,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "error_correction",
-    "prompt": "Korrigiere die markierten Formen.",
+    "prompt": "Correggi le forme segnate.",
     "explanation": "",
-    "text": "Ieri Giulia [[g1]] a scuola a piedi.\nI ragazzi [[g2]] a calcio.\nLuca ha [[g3]] l'autobus.\nLe ragazze sono [[g4]] alle sei.\nAbbiamo [[g5]] un bel film.",
+    "promptHelp": "Korrigiere die markierten Formen.",
+    "text": "Ieri Giulia [[g1]] a scuola a piedi.\nI ragazzi [[g2]] a calcio.\nLuca ha [[g3]] l’autobus.\nLe ragazze sono [[g4]] alle sei.\nAbbiamo [[g5]] un bel film.\nMarco [[g6]] alle otto.\nHo [[g7]] un libro.\nVoi siete [[g8]] al mare?",
     "errors": [
      {
       "id": "g1",
@@ -68368,6 +71563,27 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "visto"
       ]
+     },
+     {
+      "id": "g6",
+      "wrong": "ha partito",
+      "acceptedAnswers": [
+       "è partito"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "leggiuto",
+      "acceptedAnswers": [
+       "letto"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "stato",
+      "acceptedAnswers": [
+       "stati"
+      ]
      }
     ]
    }
@@ -68378,71 +71594,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-passato-prossimo-essere-s2",
-  "title": "Ein Ausflug",
+  "title": "Avere o essere?",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Ein Ausflug (schwer).",
+  "description": "Il passato prossimo con essere e i participi irregolari · Avere o essere? · livello difficile.",
   "topics": [
-   "Das passato prossimo mit essere, unregelmäßige Partizipien",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 4 · Tempo libero · Parte B.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "4 · Tempo libero",
-    "section": "Parte B"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 3,
-  "grammar": {
-   "topic": "ecco1-passato-prossimo-essere",
-   "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
-   "difficulty": "schwer",
-   "origin": "own",
-   "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
-   "order": 42
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "open_answer",
-    "prompt": "Erzähle von einem Ausflug (Ferien, Schnee, Stadt). Benutze mindestens drei Verben mit essere und drei mit avere.",
-    "explanation": "",
-    "modelAnswer": "Sabato sono andata in montagna con mia sorella. Siamo partite alle sette. Abbiamo preso il treno. Ho sciato tutto il giorno e sono caduta due volte! Siamo tornate a casa la sera.",
-    "lines": 6
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-passato-prossimo-essere-s3",
-  "title": "avere oder essere?",
-  "language": "it",
-  "level": "A1",
-  "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · avere oder essere? (schwer).",
-  "topics": [
-   "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "Il passato prossimo con essere e i participi irregolari",
    "Grammatik"
   ],
   "sources": [
@@ -68473,19 +71630,21 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 10,
   "grammar": {
    "topic": "ecco1-passato-prossimo-essere",
-   "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "topicTitle": "Il passato prossimo con essere e i participi irregolari",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
-   "order": 43
+   "rule": "Con **essere** fanno il passato prossimo soprattutto i verbi di **movimento** e di **cambiamento**, e **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nIl participio cambia come un aggettivo (**soggetto**):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Participi irregolari:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "ruleHelp": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** sowie rimanere, stare, essere. Das Partizip richtet sich dann nach dem **Subjekt** (-o, -a, -i, -e): _Marco è andato, Giulia è andata, i ragazzi sono andati, le ragazze sono andate._\nUnregelmäßige Partizipien: fatto, preso, perso, visto, rimasto, deciso, letto, scritto, venuto, stato, vinto, riso.",
+   "order": 42
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle das richtige Hilfsverb und die richtige Endung.",
+    "prompt": "Scegli l’ausiliare e la desinenza giusta.",
     "explanation": "",
+    "promptHelp": "Wähle das richtige Hilfsverb und die richtige Endung.",
     "text": "Ieri Giulia [[g1]] con le amiche.\nNoi [[g2]] una passeggiata.\nI ragazzi [[g3]] alla festa.\nMarco [[g4]] un libro.\nLe mie cugine [[g5]] per Napoli.\nIo (Marta) [[g6]] malata.\nVoi [[g7]] la partita?\nTu (Luca) [[g8]] dalla bici?",
     "gaps": [
      {
@@ -68568,13 +71727,13 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-passato-prossimo-essere-s4",
-  "title": "Ein Tag in den Bergen",
+  "id": "g-ecco1-passato-prossimo-essere-s3",
+  "title": "Una giornata in montagna",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Ein Tag in den Bergen (schwer).",
+  "description": "Il passato prossimo con essere e i participi irregolari · Una giornata in montagna · livello difficile.",
   "topics": [
-   "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "Il passato prossimo con essere e i participi irregolari",
    "Grammatik"
   ],
   "sources": [
@@ -68605,19 +71764,22 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 11,
   "grammar": {
    "topic": "ecco1-passato-prossimo-essere",
-   "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "topicTitle": "Il passato prossimo con essere e i participi irregolari",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
-   "order": 44
+   "rule": "Con **essere** fanno il passato prossimo soprattutto i verbi di **movimento** e di **cambiamento**, e **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nIl participio cambia come un aggettivo (**soggetto**):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Participi irregolari:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "ruleHelp": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** sowie rimanere, stare, essere. Das Partizip richtet sich dann nach dem **Subjekt** (-o, -a, -i, -e): _Marco è andato, Giulia è andata, i ragazzi sono andati, le ragazze sono andate._\nUnregelmäßige Partizipien: fatto, preso, perso, visto, rimasto, deciso, letto, scritto, venuto, stato, vinto, riso.",
+   "order": 43
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Erzähle im passato prossimo (essere oder avere, unregelmäßige Partizipien beachten).",
+    "prompt": "Racconta al passato prossimo (essere o avere, attenzione ai participi irregolari).",
     "explanation": "essere → stato, vincere → vinto, ridere → riso, scrivere → scritto, prendere → preso.",
+    "promptHelp": "Erzähle im passato prossimo.",
+    "explanationHelp": "Unregelmäßige Partizipien beachten.",
     "text": "Sabato scorso (io, Luca) (andare) [[g1]] in montagna con la classe.\n(Partire, noi) [[g2]] alle sette con il pullman.\nSulla neve (fare, noi) [[g3]] una gara di slittino.\nMarco (vincere) [[g4]] e Sara (ridere) [[g5]] tanto.\nIo (cadere) [[g6]] due volte!\nA pranzo (prendere, noi) [[g7]] una cioccolata calda.\nIl prof (scrivere) [[g8]] una cartolina alla preside.\nLa sera (essere, noi) [[g9]] molto stanchi.",
     "gaps": [
      {
@@ -68682,11 +71844,106 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco1-passato-prossimo-essere-s4",
+  "title": "Una gita",
+  "language": "it",
+  "level": "A1",
+  "description": "Il passato prossimo con essere e i participi irregolari · Una gita · livello difficile.",
+  "topics": [
+   "Il passato prossimo con essere e i participi irregolari",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 4 · Tempo libero · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-essere",
+   "topicTitle": "Il passato prossimo con essere e i participi irregolari",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Con **essere** fanno il passato prossimo soprattutto i verbi di **movimento** e di **cambiamento**, e **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nIl participio cambia come un aggettivo (**soggetto**):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Participi irregolari:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "ruleHelp": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** sowie rimanere, stare, essere. Das Partizip richtet sich dann nach dem **Subjekt** (-o, -a, -i, -e): _Marco è andato, Giulia è andata, i ragazzi sono andati, le ragazze sono andate._\nUnregelmäßige Partizipien: fatto, preso, perso, visto, rimasto, deciso, letto, scritto, venuto, stato, vinto, riso.",
+   "order": 44
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Racconta una gita (vacanze, neve, città). Usa almeno tre verbi con essere e tre con avere.",
+    "explanation": "",
+    "promptHelp": "Erzähle von einem Ausflug. Benutze mindestens drei Verben mit essere und drei mit avere.",
+    "modelAnswer": "Sabato sono andata in montagna con mia sorella. Siamo partite alle sette. Abbiamo preso il treno. Ho sciato tutto il giorno e sono caduta due volte! Siamo tornate a casa la sera.",
+    "lines": 6
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "E adesso completa con essere o avere.",
+    "explanation": "",
+    "promptHelp": "Und jetzt ergänze essere oder avere.",
+    "text": "Io [[g1]] partito alle otto.\nNoi [[g2]] visto il lago.\nMia sorella [[g3]] rimasta in albergo.\nI miei genitori [[g4]] fatto una passeggiata.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "abbiamo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "hanno"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco1-plurale-l1",
   "title": "Quale articolo al plurale?",
   "language": "it",
   "level": "A1",
-  "description": "Il plurale: articolo e nome · Quale articolo al plurale? (einfach).",
+  "description": "Il plurale: articolo e nome · Quale articolo al plurale? · livello facile.",
   "topics": [
    "Il plurale: articolo e nome",
    "Grammatik"
@@ -68839,7 +72096,7 @@ const STOCK_PACKAGES = [
   "title": "Singolare e plurale",
   "language": "it",
   "level": "A1",
-  "description": "Il plurale: articolo e nome · Singolare e plurale (einfach).",
+  "description": "Il plurale: articolo e nome · Singolare e plurale · livello facile.",
   "topics": [
    "Il plurale: articolo e nome",
    "Grammatik"
@@ -68944,7 +72201,7 @@ const STOCK_PACKAGES = [
   "title": "Uno – tanti",
   "language": "it",
   "level": "A1",
-  "description": "Il plurale: articolo e nome · Uno – tanti (einfach).",
+  "description": "Il plurale: articolo e nome · Uno – tanti · livello facile.",
   "topics": [
    "Il plurale: articolo e nome",
    "Grammatik"
@@ -69079,7 +72336,7 @@ const STOCK_PACKAGES = [
   "title": "Fare il plurale",
   "language": "it",
   "level": "A1",
-  "description": "Il plurale: articolo e nome · Fare il plurale (mittel).",
+  "description": "Il plurale: articolo e nome · Fare il plurale · livello medio.",
   "topics": [
    "Il plurale: articolo e nome",
    "Grammatik"
@@ -69217,7 +72474,7 @@ const STOCK_PACKAGES = [
   "title": "In classe",
   "language": "it",
   "level": "A1",
-  "description": "Il plurale: articolo e nome · In classe (mittel).",
+  "description": "Il plurale: articolo e nome · In classe · livello medio.",
   "topics": [
    "Il plurale: articolo e nome",
    "Grammatik"
@@ -69329,7 +72586,7 @@ const STOCK_PACKAGES = [
   "title": "Articolo al plurale",
   "language": "it",
   "level": "A1",
-  "description": "Il plurale: articolo e nome · Articolo al plurale (mittel).",
+  "description": "Il plurale: articolo e nome · Articolo al plurale · livello medio.",
   "topics": [
    "Il plurale: articolo e nome",
    "Grammatik"
@@ -69455,7 +72712,7 @@ const STOCK_PACKAGES = [
   "title": "Nel quartiere",
   "language": "it",
   "level": "A1",
-  "description": "Il plurale: articolo e nome · Nel quartiere (schwer).",
+  "description": "Il plurale: articolo e nome · Nel quartiere · livello difficile.",
   "topics": [
    "Il plurale: articolo e nome",
    "Grammatik"
@@ -69578,7 +72835,7 @@ const STOCK_PACKAGES = [
   "title": "Trova gli errori",
   "language": "it",
   "level": "A1",
-  "description": "Il plurale: articolo e nome · Trova gli errori (schwer).",
+  "description": "Il plurale: articolo e nome · Trova gli errori · livello difficile.",
   "topics": [
    "Il plurale: articolo e nome",
    "Grammatik"
@@ -69697,7 +72954,7 @@ const STOCK_PACKAGES = [
   "title": "Dal singolare al plurale",
   "language": "it",
   "level": "A1",
-  "description": "Il plurale: articolo e nome · Dal singolare al plurale (schwer).",
+  "description": "Il plurale: articolo e nome · Dal singolare al plurale · livello difficile.",
   "topics": [
    "Il plurale: articolo e nome",
    "Grammatik"
@@ -71112,12 +74369,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-possessivi-2-l1",
-  "title": "Mit oder ohne Artikel?",
+  "title": "Con o senza articolo?",
   "language": "it",
   "level": "A1",
-  "description": "Possessivbegleiter bei Verwandten · Mit oder ohne Artikel? (einfach).",
+  "description": "I possessivi con i nomi di famiglia · Con o senza articolo? · livello facile.",
   "topics": [
-   "Possessivbegleiter bei Verwandten",
+   "I possessivi con i nomi di famiglia",
    "Grammatik"
   ],
   "sources": [
@@ -71145,13 +74402,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-possessivi-2",
-   "topicTitle": "Possessivbegleiter bei Verwandten",
+   "topicTitle": "I possessivi con i nomi di famiglia",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_",
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
    "order": 21
   },
   "vocabularyIds": [],
@@ -71159,9 +74417,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle die richtige Form.",
-    "explanation": "Verwandte im Singular ohne Artikel (mia madre). Plural, loro und famiglia mit Artikel.",
-    "text": "[[g1]] madre si chiama Anna.\n[[g2]] fratelli sono simpatici.\n[[g3]] padre è di Napoli.\n[[g4]] famiglia è grande.\n[[g5]] nonno ha ottant'anni.\n[[g6]] cugina abita a Roma.",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "Parenti al singolare senza articolo (mia madre). Plurale, loro e famiglia con l’articolo.",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "Verwandte im Singular ohne Artikel. Plural, loro und famiglia mit Artikel.",
+    "text": "[[g1]] madre si chiama Anna.\n[[g2]] fratelli sono simpatici.\n[[g3]] padre è di Napoli.\n[[g4]] famiglia è grande.\n[[g5]] nonno ha ottant’anni.\n[[g6]] cugina abita a Roma.\n[[g7]] zio è simpatico.\n[[g8]] sorelle sono gemelle.",
     "gaps": [
      {
       "id": "g1",
@@ -71210,6 +74470,22 @@ const STOCK_PACKAGES = [
        "La mia"
       ],
       "answer": "Mia"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "Tuo",
+       "Il tuo"
+      ],
+      "answer": "Tuo"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "Le mie",
+       "Mie"
+      ],
+      "answer": "Le mie"
      }
     ]
    }
@@ -71220,12 +74496,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-possessivi-2-l2",
-  "title": "Die Familie",
+  "title": "La famiglia",
   "language": "it",
   "level": "A1",
-  "description": "Possessivbegleiter bei Verwandten · Die Familie (einfach).",
+  "description": "I possessivi con i nomi di famiglia · La famiglia · livello facile.",
   "topics": [
-   "Possessivbegleiter bei Verwandten",
+   "I possessivi con i nomi di famiglia",
    "Grammatik"
   ],
   "sources": [
@@ -71253,13 +74529,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-possessivi-2",
-   "topicTitle": "Possessivbegleiter bei Verwandten",
+   "topicTitle": "I possessivi con i nomi di famiglia",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_",
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
    "order": 22
   },
   "vocabularyIds": [],
@@ -71267,8 +74544,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "matching",
-    "prompt": "Was bedeutet das?",
+    "prompt": "Che cosa vuol dire?",
     "explanation": "",
+    "promptHelp": "Was bedeutet das?",
     "pairs": [
      {
       "id": "p1",
@@ -71304,6 +74582,11 @@ const STOCK_PACKAGES = [
       "id": "p7",
       "left": "la nostra famiglia",
       "right": "unsere Familie"
+     },
+     {
+      "id": "p8",
+      "left": "vostro fratello",
+      "right": "euer Bruder"
      }
     ],
     "distractors": [
@@ -71316,13 +74599,13 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-possessivi-2-m1",
-  "title": "Die Familie von Giulia",
+  "id": "g-ecco1-possessivi-2-l3",
+  "title": "Con o senza? Ancora",
   "language": "it",
   "level": "A1",
-  "description": "Possessivbegleiter bei Verwandten · Die Familie von Giulia (mittel).",
+  "description": "I possessivi con i nomi di famiglia · Con o senza? Ancora · livello facile.",
   "topics": [
-   "Possessivbegleiter bei Verwandten",
+   "I possessivi con i nomi di famiglia",
    "Grammatik"
   ],
   "sources": [
@@ -71353,116 +74636,23 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-possessivi-2",
-   "topicTitle": "Possessivbegleiter bei Verwandten",
-   "difficulty": "mittel",
+   "topicTitle": "I possessivi con i nomi di famiglia",
+   "difficulty": "leicht",
    "origin": "own",
-   "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_",
-   "order": 21
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "gap_fill",
-    "prompt": "Ergänze die Possessivbegleiter (mit oder ohne Artikel).",
-    "explanation": "sua madre (Verwandte Singular), aber i suoi fratelli (Plural) und la sua famiglia.",
-    "text": "Giulia presenta (ihre) [[g1]] famiglia.\n(ihr) [[g2]] padre si chiama Paolo e (ihre) [[g3]] madre Laura.\n(ihre) [[g4]] fratelli sono gemelli.\n(ihr) [[g5]] nonno abita in campagna.\n(unsere) [[g6]] famiglia è piccola, dice Marco.",
-    "gaps": [
-     {
-      "id": "g1",
-      "acceptedAnswers": [
-       "la sua"
-      ]
-     },
-     {
-      "id": "g2",
-      "acceptedAnswers": [
-       "Suo"
-      ]
-     },
-     {
-      "id": "g3",
-      "acceptedAnswers": [
-       "sua"
-      ]
-     },
-     {
-      "id": "g4",
-      "acceptedAnswers": [
-       "I suoi"
-      ]
-     },
-     {
-      "id": "g5",
-      "acceptedAnswers": [
-       "Suo"
-      ]
-     },
-     {
-      "id": "g6",
-      "acceptedAnswers": [
-       "La nostra"
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-possessivi-2-m2",
-  "title": "Mit oder ohne Artikel?",
-  "language": "it",
-  "level": "A1",
-  "description": "Possessivbegleiter bei Verwandten · Mit oder ohne Artikel? (mittel).",
-  "topics": [
-   "Possessivbegleiter bei Verwandten",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte A.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "5 · Famiglia e gite",
-    "section": "Parte A"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 8,
-  "grammar": {
-   "topic": "ecco1-possessivi-2",
-   "topicTitle": "Possessivbegleiter bei Verwandten",
-   "difficulty": "mittel",
-   "origin": "own",
-   "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_",
-   "order": 22
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
+   "order": 23
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle die richtige Form.",
-    "explanation": "Koseform (mamma, papà) und Adjektiv (sorella piccola) → mit Artikel.",
-    "text": "[[g1]] fratello ha sedici anni.\n[[g2]] fratelli sono più grandi di me.\n[[g3]] mamma è di Bologna.\n[[g4]] zia è simpatica.\n[[g5]] cugine abitano a Napoli.\n[[g6]] figlio si chiama Matteo.\n[[g7]] nonno racconta sempre storie.\n[[g8]] sorella piccola va all'asilo.",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "Parole affettuose (mamma, papà) e con aggettivo (sorella piccola) → con articolo.",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "Koseform (mamma, papà) und Adjektiv (sorella piccola) → mit Artikel.",
+    "text": "[[g1]] fratello ha sedici anni.\n[[g2]] fratelli sono più grandi di me.\n[[g3]] mamma è di Bologna.\n[[g4]] zia è simpatica.\n[[g5]] cugine abitano a Napoli.\n[[g6]] figlio si chiama Matteo.\n[[g7]] nonno racconta sempre storie.\n[[g8]] sorella piccola va all’asilo.",
     "gaps": [
      {
       "id": "g1",
@@ -71536,13 +74726,130 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-possessivi-2-m3",
-  "title": "Ein Familienfoto",
+  "id": "g-ecco1-possessivi-2-m1",
+  "title": "La famiglia di Giulia",
   "language": "it",
   "level": "A1",
-  "description": "Possessivbegleiter bei Verwandten · Ein Familienfoto (mittel).",
+  "description": "I possessivi con i nomi di famiglia · La famiglia di Giulia · livello medio.",
   "topics": [
-   "Possessivbegleiter bei Verwandten",
+   "I possessivi con i nomi di famiglia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "ecco1-possessivi-2",
+   "topicTitle": "I possessivi con i nomi di famiglia",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi i possessivi (con o senza articolo).",
+    "explanation": "sua madre (parente al singolare), ma i suoi fratelli (plurale) e la sua famiglia.",
+    "promptHelp": "Ergänze die Possessivbegleiter (mit oder ohne Artikel).",
+    "explanationHelp": "sua madre (Verwandte Singular), aber i suoi fratelli (Plural) und la sua famiglia.",
+    "text": "Giulia presenta (ihre) [[g1]] famiglia.\n(ihr) [[g2]] padre si chiama Paolo e (ihre) [[g3]] madre Laura.\n(ihre) [[g4]] fratelli sono gemelli.\n(ihr) [[g5]] nonno abita in campagna.\n(unsere) [[g6]] famiglia è piccola, dice Marco.\n(meine) [[g7]] zia abita a Roma.\n(meine) [[g8]] cugine vengono a trovarci.\n(ihr, Plural) [[g9]] cane si chiama Bobo.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "la sua"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Suo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sua"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "I suoi"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Suo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "La nostra"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Mia"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Le mie"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Il loro"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-possessivi-2-m2",
+  "title": "Una foto di famiglia",
+  "language": "it",
+  "level": "A1",
+  "description": "I possessivi con i nomi di famiglia · Una foto di famiglia · livello medio.",
+  "topics": [
+   "I possessivi con i nomi di famiglia",
    "Grammatik"
   ],
   "sources": [
@@ -71573,20 +74880,22 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-possessivi-2",
-   "topicTitle": "Possessivbegleiter bei Verwandten",
+   "topicTitle": "I possessivi con i nomi di famiglia",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_",
-   "order": 23
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
+   "order": 22
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Ergänze die Possessivbegleiter (mit oder ohne Artikel).",
-    "explanation": "Verwandte im Singular ohne Artikel; Plural, loro und famiglia mit Artikel.",
-    "text": "Questa è (meine) [[g1]] famiglia.\nA sinistra c'è (mein) [[g2]] padre, Roberto.\nVicino a lui c'è (meine) [[g3]] madre, Elena.\nDavanti ci sono (meine) [[g4]] fratelli, Luca e Matteo.\nA destra c'è (unsere) [[g5]] nonna Rosa.\nIl cane si chiama Bobo: è (ihr) [[g6]] cane, di Luca e Matteo.\nE questa è (meine) [[g7]] cugina Sofia con (ihre) [[g8]] madre.",
+    "prompt": "Scrivi i possessivi (con o senza articolo).",
+    "explanation": "",
+    "promptHelp": "Ergänze die Possessivbegleiter (mit oder ohne Artikel).",
+    "text": "Questa è (meine) [[g1]] famiglia.\nA sinistra c’è (mein) [[g2]] padre, Roberto.\nVicino a lui c’è (meine) [[g3]] madre, Elena.\nDavanti ci sono (meine) [[g4]] fratelli, Luca e Matteo.\nA destra c’è (unsere) [[g5]] nonna Rosa.\nIl cane si chiama Bobo: è (ihr) [[g6]] cane, di Luca e Matteo.\nE questa è (meine) [[g7]] cugina Sofia con (ihre) [[g8]] madre.",
     "gaps": [
      {
       "id": "g1",
@@ -71644,260 +74953,13 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-possessivi-2-s1",
-  "title": "Fehler finden",
+  "id": "g-ecco1-possessivi-2-m3",
+  "title": "Intervista sulla famiglia",
   "language": "it",
   "level": "A1",
-  "description": "Possessivbegleiter bei Verwandten · Fehler finden (schwer).",
+  "description": "I possessivi con i nomi di famiglia · Intervista sulla famiglia · livello medio.",
   "topics": [
-   "Possessivbegleiter bei Verwandten",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte A.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "5 · Famiglia e gite",
-    "section": "Parte A"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 6,
-  "grammar": {
-   "topic": "ecco1-possessivi-2",
-   "topicTitle": "Possessivbegleiter bei Verwandten",
-   "difficulty": "schwer",
-   "origin": "own",
-   "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_",
-   "order": 21
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "error_correction",
-    "prompt": "Korrigiere die markierten Ausdrücke.",
-    "explanation": "",
-    "text": "[[g1]] sorella ha dieci anni.\n[[g2]] cugine abitano a Milano.\n[[g3]] padre è simpatico.\n[[g4]] famiglia è molto grande.",
-    "errors": [
-     {
-      "id": "g1",
-      "wrong": "La mia",
-      "acceptedAnswers": [
-       "Mia"
-      ]
-     },
-     {
-      "id": "g2",
-      "wrong": "Mie",
-      "acceptedAnswers": [
-       "Le mie"
-      ]
-     },
-     {
-      "id": "g3",
-      "wrong": "Loro",
-      "acceptedAnswers": [
-       "Il loro"
-      ]
-     },
-     {
-      "id": "g4",
-      "wrong": "Mia",
-      "acceptedAnswers": [
-       "La mia"
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-possessivi-2-s2",
-  "title": "Meine Familie",
-  "language": "it",
-  "level": "A1",
-  "description": "Possessivbegleiter bei Verwandten · Meine Familie (schwer).",
-  "topics": [
-   "Possessivbegleiter bei Verwandten",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte A.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "5 · Famiglia e gite",
-    "section": "Parte A"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 3,
-  "grammar": {
-   "topic": "ecco1-possessivi-2",
-   "topicTitle": "Possessivbegleiter bei Verwandten",
-   "difficulty": "schwer",
-   "origin": "own",
-   "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_",
-   "order": 22
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "open_answer",
-    "prompt": "Stell deine Familie vor (6 Sätze). Achte auf mio/mia mit und ohne Artikel.",
-    "explanation": "",
-    "modelAnswer": "La mia famiglia non è grande. Mia madre si chiama Sabine e mio padre Thomas. Ho un fratello. Mio fratello ha dieci anni. I miei nonni abitano a Monaco.",
-    "lines": 6
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-possessivi-2-s3",
-  "title": "Interview über die Familie",
-  "language": "it",
-  "level": "A1",
-  "description": "Possessivbegleiter bei Verwandten · Interview über die Familie (schwer).",
-  "topics": [
-   "Possessivbegleiter bei Verwandten",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte A.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "5 · Famiglia e gite",
-    "section": "Parte A"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 7,
-  "grammar": {
-   "topic": "ecco1-possessivi-2",
-   "topicTitle": "Possessivbegleiter bei Verwandten",
-   "difficulty": "schwer",
-   "origin": "own",
-   "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_",
-   "order": 23
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "sentence_completion",
-    "prompt": "Antworte in ganzen Sätzen mit dem passenden Possessivbegleiter.",
-    "explanation": "",
-    "items": [
-     {
-      "id": "s1",
-      "start": "Come si chiama tua madre? (Laura) – …",
-      "acceptedAnswers": [
-       "Mia madre si chiama Laura"
-      ],
-      "modelAnswer": "Mia madre si chiama Laura."
-     },
-     {
-      "id": "s2",
-      "start": "Dove abitano i tuoi nonni? (a Roma) – …",
-      "acceptedAnswers": [
-       "I miei nonni abitano a Roma"
-      ],
-      "modelAnswer": "I miei nonni abitano a Roma."
-     },
-     {
-      "id": "s3",
-      "start": "Quanti anni ha tuo fratello? (12) – …",
-      "acceptedAnswers": [
-       "Mio fratello ha dodici anni"
-      ],
-      "modelAnswer": "Mio fratello ha dodici anni."
-     },
-     {
-      "id": "s4",
-      "start": "Com'è la tua famiglia? (grande) – …",
-      "acceptedAnswers": [
-       "La mia famiglia è grande"
-      ],
-      "modelAnswer": "La mia famiglia è grande."
-     },
-     {
-      "id": "s5",
-      "start": "Che lavoro fa vostro padre? (medico) – …",
-      "acceptedAnswers": [
-       "Nostro padre è medico",
-       "Nostro padre fa il medico"
-      ],
-      "modelAnswer": "Nostro padre è medico."
-     }
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-possessivi-2-s4",
-  "title": "Fehler finden",
-  "language": "it",
-  "level": "A1",
-  "description": "Possessivbegleiter bei Verwandten · Fehler finden (schwer).",
-  "topics": [
-   "Possessivbegleiter bei Verwandten",
+   "I possessivi con i nomi di famiglia",
    "Grammatik"
   ],
   "sources": [
@@ -71928,20 +74990,148 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-possessivi-2",
-   "topicTitle": "Possessivbegleiter bei Verwandten",
+   "topicTitle": "I possessivi con i nomi di famiglia",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Rispondi con una frase completa e il possessivo giusto.",
+    "explanation": "",
+    "promptHelp": "Antworte in ganzen Sätzen mit dem passenden Possessivbegleiter.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Come si chiama tua madre? (Laura) – …",
+      "acceptedAnswers": [
+       "Mia madre si chiama Laura"
+      ],
+      "modelAnswer": "Mia madre si chiama Laura."
+     },
+     {
+      "id": "s2",
+      "start": "Dove abitano i tuoi nonni? (a Roma) – …",
+      "acceptedAnswers": [
+       "I miei nonni abitano a Roma"
+      ],
+      "modelAnswer": "I miei nonni abitano a Roma."
+     },
+     {
+      "id": "s3",
+      "start": "Quanti anni ha tuo fratello? (12) – …",
+      "acceptedAnswers": [
+       "Mio fratello ha dodici anni"
+      ],
+      "modelAnswer": "Mio fratello ha dodici anni."
+     },
+     {
+      "id": "s4",
+      "start": "Com’è la tua famiglia? (grande) – …",
+      "acceptedAnswers": [
+       "La mia famiglia è grande"
+      ],
+      "modelAnswer": "La mia famiglia è grande."
+     },
+     {
+      "id": "s5",
+      "start": "Che lavoro fa vostro padre? (medico) – …",
+      "acceptedAnswers": [
+       "Nostro padre è medico",
+       "Nostro padre fa il medico"
+      ],
+      "modelAnswer": "Nostro padre è medico."
+     },
+     {
+      "id": "s6",
+      "start": "Come si chiamano le tue sorelle? (Ada e Bea) – …",
+      "acceptedAnswers": [
+       "Le mie sorelle si chiamano Ada e Bea"
+      ],
+      "modelAnswer": "Le mie sorelle si chiamano Ada e Bea."
+     },
+     {
+      "id": "s7",
+      "start": "Dove abita tua zia? (a Bari) – …",
+      "acceptedAnswers": [
+       "Mia zia abita a Bari"
+      ],
+      "modelAnswer": "Mia zia abita a Bari."
+     },
+     {
+      "id": "s8",
+      "start": "Com’è il tuo papà? (simpatico) – …",
+      "acceptedAnswers": [
+       "Il mio papà è simpatico"
+      ],
+      "modelAnswer": "Il mio papà è simpatico."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-possessivi-2-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "I possessivi con i nomi di famiglia · Trova gli errori · livello difficile.",
+  "topics": [
+   "I possessivi con i nomi di famiglia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-possessivi-2",
+   "topicTitle": "I possessivi con i nomi di famiglia",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_",
-   "order": 24
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
+   "order": 21
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
     "type": "error_correction",
-    "prompt": "Korrigiere die sechs Fehler.",
-    "explanation": "il mio papà, la mia mamma (Koseform) · mio cugino (Verwandter, Singular).",
-    "text": "[[g1]] zia abita in Sicilia.\n[[g2]] sorelle sono gemelle.\n[[g3]] nonno è molto simpatico.\n[[g4]] famiglia abita a Bari.\n[[g5]] cugino ha diciotto anni.\n[[g6]] papà lavora in banca.",
+    "prompt": "Correggi le parole segnate.",
+    "explanation": "",
+    "promptHelp": "Korrigiere die markierten Ausdrücke.",
+    "text": "[[g1]] sorella ha dieci anni.\n[[g2]] cugine abitano a Milano.\n[[g3]] padre è simpatico.\n[[g4]] famiglia è molto grande.\n[[g5]] cugino ha diciotto anni.\n[[g6]] papà lavora in banca.\n[[g7]] nonni sono gentili.\n[[g8]] zia è di Torino.",
     "errors": [
      {
       "id": "g1",
@@ -71984,6 +75174,20 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "Il mio"
       ]
+     },
+     {
+      "id": "g7",
+      "wrong": "Tuoi",
+      "acceptedAnswers": [
+       "I tuoi"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "La sua",
+      "acceptedAnswers": [
+       "Sua"
+      ]
      }
     ]
    }
@@ -71993,13 +75197,368 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-pp-modali-l1",
-  "title": "avere oder essere?",
+  "id": "g-ecco1-possessivi-2-s2",
+  "title": "La mia famiglia",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo der Modalverben · avere oder essere? (einfach).",
+  "description": "I possessivi con i nomi di famiglia · La mia famiglia · livello difficile.",
   "topics": [
-   "Das passato prossimo der Modalverben",
+   "I possessivi con i nomi di famiglia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-possessivi-2",
+   "topicTitle": "I possessivi con i nomi di famiglia",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Presenta la tua famiglia (6 frasi). Attenzione a mio/mia con e senza articolo.",
+    "explanation": "",
+    "promptHelp": "Stell deine Familie vor (6 Sätze). Achte auf mio/mia mit und ohne Artikel.",
+    "modelAnswer": "La mia famiglia non è grande. Mia madre si chiama Sabine e mio padre Thomas. Ho un fratello. Mio fratello ha dieci anni. I miei nonni abitano a Monaco.",
+    "lines": 6
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "E adesso completa.",
+    "explanation": "",
+    "promptHelp": "Und jetzt ergänze.",
+    "text": "[[g1]] famiglia abita a Monaco.\n[[g2]] madre lavora in un ospedale.\n[[g3]] nonni abitano in campagna.\n[[g4]] fratello piccolo ha sei anni.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "La mia"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Mia"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "I miei"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Il mio"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-possessivi-2-s3",
+  "title": "Il compleanno della nonna",
+  "language": "it",
+  "level": "A1",
+  "description": "I possessivi con i nomi di famiglia · Il compleanno della nonna · livello difficile.",
+  "topics": [
+   "I possessivi con i nomi di famiglia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco1-possessivi-2",
+   "topicTitle": "I possessivi con i nomi di famiglia",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi i possessivi (con o senza articolo).",
+    "explanation": "Parente al singolare: mia, mio, sua · plurale e loro: con l’articolo.",
+    "promptHelp": "Ergänze die Possessivbegleiter.",
+    "explanationHelp": "Verwandte Singular: ohne Artikel · Plural und loro: mit.",
+    "text": "Sabato (io) [[g1]] nonna compie ottant’anni.\n(lei) [[g2]] figli organizzano una festa: (io) [[g3]] padre e (io) [[g4]] zia Martina.\n(io) [[g5]] cugini arrivano da Milano con (loro) [[g6]] genitori.\n(io) [[g7]] fratello prepara una torta.\n(noi) [[g8]] famiglia è molto grande!\n(lei) [[g9]] sorella, la zia Ada, viene da Napoli.\n(lei) [[g10]] regalo preferito? Una foto di tutta la famiglia.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "mia"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "I suoi"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "mio"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "mia"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "I miei"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "i loro"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Mio"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "La nostra"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "Sua"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "Il suo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-possessivi-2-s4",
+  "title": "Mio o il mio?",
+  "language": "it",
+  "level": "A1",
+  "description": "I possessivi con i nomi di famiglia · Mio o il mio? · livello difficile.",
+  "topics": [
+   "I possessivi con i nomi di famiglia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-possessivi-2",
+   "topicTitle": "I possessivi con i nomi di famiglia",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._\n**Con l’articolo** il possessivo sta\n- al **plurale**: _i miei fratelli, le sue cugine_\n- con **loro**: _il loro padre_\n- con le parole affettuose e con un aggettivo: _la mia mamma, il mio papà, il mio fratello piccolo_\n- con _famiglia_: _la mia famiglia_",
+   "ruleHelp": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello._\n**Mit Artikel** im **Plural** (_i miei fratelli_), mit **loro** (_il loro padre_), bei Koseformen und mit Adjektiv (_la mia mamma, il mio fratello piccolo_) und bei _famiglia_ (_la mia famiglia_).",
+   "order": 24
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Scrivi il possessivo giusto (con o senza articolo).",
+    "explanation": "",
+    "promptHelp": "Schreibe den richtigen Possessivbegleiter.",
+    "columns": [
+     "io + …",
+     "forma"
+    ],
+    "rows": [
+     [
+      "padre",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "mio padre"
+       ]
+      }
+     ],
+     [
+      "madre",
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "mia madre"
+       ]
+      }
+     ],
+     [
+      "fratelli",
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "i miei fratelli"
+       ]
+      }
+     ],
+     [
+      "sorelle",
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "le mie sorelle"
+       ]
+      }
+     ],
+     [
+      "famiglia",
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "la mia famiglia"
+       ]
+      }
+     ],
+     [
+      "mamma",
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "la mia mamma"
+       ]
+      }
+     ],
+     [
+      "zio",
+      {
+       "id": "c7",
+       "acceptedAnswers": [
+        "mio zio"
+       ]
+      }
+     ],
+     [
+      "cugine",
+      {
+       "id": "c8",
+       "acceptedAnswers": [
+        "le mie cugine"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pp-modali-l1",
+  "title": "Avere o essere?",
+  "language": "it",
+  "level": "A1",
+  "description": "Il passato prossimo dei verbi modali · Avere o essere? · livello facile.",
+  "topics": [
+   "Il passato prossimo dei verbi modali",
    "Grammatik"
   ],
   "sources": [
@@ -72027,13 +75586,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 5,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-pp-modali",
-   "topicTitle": "Das passato prossimo der Modalverben",
+   "topicTitle": "Il passato prossimo dei verbi modali",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nIm Alltag hört man auch: _Ho dovuto partire._ – In der Schule lernst du die Regel oben.",
+   "rule": "I verbi modali al passato prossimo prendono l’ausiliare del **verbo che segue**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nNella lingua di tutti i giorni si sente anche: _Ho dovuto partire._ A scuola impari la regola sopra.",
+   "ruleHelp": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**: _Ho dovuto studiare._ (studiare → avere) · _Sono dovuto/-a partire._ (partire → essere)\nUmgangssprachlich hört man auch _Ho dovuto partire_; in der Schule lernst du die Regel oben.",
    "order": 41
   },
   "vocabularyIds": [],
@@ -72041,9 +75601,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Welches Hilfsverb passt?",
-    "explanation": "",
-    "text": "Ieri [[g1]] dovuto studiare.\nGiulia [[g2]] voluta partire presto.\nNon [[g3]] potuto comprare i biglietti.\nI ragazzi [[g4]] dovuti tornare a casa.\n[[g5]] voluto mangiare una pizza.",
+    "prompt": "Quale ausiliare va bene?",
+    "explanation": "Il verbo dopo decide: studiare, comprare, mangiare → avere; partire, tornare, venire, uscire → essere.",
+    "promptHelp": "Welches Hilfsverb passt?",
+    "explanationHelp": "Das folgende Verb entscheidet.",
+    "text": "Ieri [[g1]] dovuto studiare.\nGiulia [[g2]] voluta partire presto.\nNon [[g3]] potuto comprare i biglietti.\nI ragazzi [[g4]] dovuti tornare a casa.\n[[g5]] voluto mangiare una pizza.\nMarco [[g6]] potuto venire alla festa.\nNoi [[g7]] voluto vedere il museo.\nLe ragazze [[g8]] dovute uscire.",
     "gaps": [
      {
       "id": "g1",
@@ -72084,6 +75646,30 @@ const STOCK_PACKAGES = [
        "Sono"
       ],
       "answer": "Ho"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "è",
+       "ha"
+      ],
+      "answer": "è"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "abbiamo",
+       "siamo"
+      ],
+      "answer": "abbiamo"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "sono",
+       "hanno"
+      ],
+      "answer": "sono"
      }
     ]
    }
@@ -72094,184 +75680,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-pp-modali-l2",
-  "title": "Was musstest du?",
+  "title": "Che cosa hai dovuto fare?",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo der Modalverben · Was musstest du? (einfach).",
+  "description": "Il passato prossimo dei verbi modali · Che cosa hai dovuto fare? · livello facile.",
   "topics": [
-   "Das passato prossimo der Modalverben",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "5 · Famiglia e gite",
-    "section": "Parte B"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 5,
-  "grammar": {
-   "topic": "ecco1-pp-modali",
-   "topicTitle": "Das passato prossimo der Modalverben",
-   "difficulty": "leicht",
-   "origin": "own",
-   "rule": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nIm Alltag hört man auch: _Ho dovuto partire._ – In der Schule lernst du die Regel oben.",
-   "order": 42
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "matching",
-    "prompt": "Was bedeutet das?",
-    "explanation": "",
-    "pairs": [
-     {
-      "id": "p1",
-      "left": "Ho dovuto studiare.",
-      "right": "Ich musste lernen."
-     },
-     {
-      "id": "p2",
-      "left": "Non ho potuto venire.",
-      "right": "Ich konnte nicht kommen."
-     },
-     {
-      "id": "p3",
-      "left": "Ho voluto vedere il film.",
-      "right": "Ich wollte den Film sehen."
-     },
-     {
-      "id": "p4",
-      "left": "Sono dovuta partire.",
-      "right": "Ich musste abfahren."
-     },
-     {
-      "id": "p5",
-      "left": "Non siamo potuti uscire.",
-      "right": "Wir konnten nicht ausgehen."
-     }
-    ],
-    "distractors": [
-     "Ich muss lernen."
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-pp-modali-m1",
-  "title": "Che pasticcio!",
-  "language": "it",
-  "level": "A1",
-  "description": "Das passato prossimo der Modalverben · Che pasticcio! (mittel).",
-  "topics": [
-   "Das passato prossimo der Modalverben",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "5 · Famiglia e gite",
-    "section": "Parte B"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 5,
-  "grammar": {
-   "topic": "ecco1-pp-modali",
-   "topicTitle": "Das passato prossimo der Modalverben",
-   "difficulty": "mittel",
-   "origin": "own",
-   "rule": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nIm Alltag hört man auch: _Ho dovuto partire._ – In der Schule lernst du die Regel oben.",
-   "order": 41
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "gap_fill",
-    "prompt": "Setze die Verben ins passato prossimo.",
-    "explanation": "partire → essere (siamo potuti partire); comprare, aspettare → avere.",
-    "text": "Ieri io (dovere) [[g1]] prendere l'autobus.\nIl treno era in ritardo e noi non (potere) [[g2]] partire.\nMia sorella (volere) [[g3]] comprare un biglietto nuovo.\nAlla fine (noi, dovere) [[g4]] aspettare due ore.",
-    "gaps": [
-     {
-      "id": "g1",
-      "acceptedAnswers": [
-       "ho dovuto"
-      ]
-     },
-     {
-      "id": "g2",
-      "acceptedAnswers": [
-       "siamo potuti",
-       "siamo potute"
-      ]
-     },
-     {
-      "id": "g3",
-      "acceptedAnswers": [
-       "ha voluto"
-      ]
-     },
-     {
-      "id": "g4",
-      "acceptedAnswers": [
-       "abbiamo dovuto"
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-pp-modali-m2",
-  "title": "avere oder essere?",
-  "language": "it",
-  "level": "A1",
-  "description": "Das passato prossimo der Modalverben · avere oder essere? (mittel).",
-  "topics": [
-   "Das passato prossimo der Modalverben",
+   "Il passato prossimo dei verbi modali",
    "Grammatik"
   ],
   "sources": [
@@ -72302,20 +75716,248 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-pp-modali",
-   "topicTitle": "Das passato prossimo der Modalverben",
-   "difficulty": "mittel",
+   "topicTitle": "Il passato prossimo dei verbi modali",
+   "difficulty": "leicht",
    "origin": "own",
-   "rule": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nIm Alltag hört man auch: _Ho dovuto partire._ – In der Schule lernst du die Regel oben.",
+   "rule": "I verbi modali al passato prossimo prendono l’ausiliare del **verbo che segue**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nNella lingua di tutti i giorni si sente anche: _Ho dovuto partire._ A scuola impari la regola sopra.",
+   "ruleHelp": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**: _Ho dovuto studiare._ (studiare → avere) · _Sono dovuto/-a partire._ (partire → essere)\nUmgangssprachlich hört man auch _Ho dovuto partire_; in der Schule lernst du die Regel oben.",
    "order": 42
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
+    "type": "matching",
+    "prompt": "Che cosa vuol dire?",
+    "explanation": "",
+    "promptHelp": "Was bedeutet das?",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Ho dovuto studiare.",
+      "right": "Ich musste lernen."
+     },
+     {
+      "id": "p2",
+      "left": "Non ho potuto venire.",
+      "right": "Ich konnte nicht kommen."
+     },
+     {
+      "id": "p3",
+      "left": "Ho voluto vedere il film.",
+      "right": "Ich wollte den Film sehen."
+     },
+     {
+      "id": "p4",
+      "left": "Sono dovuta partire.",
+      "right": "Ich musste abfahren."
+     },
+     {
+      "id": "p5",
+      "left": "Non siamo potuti uscire.",
+      "right": "Wir konnten nicht ausgehen."
+     },
+     {
+      "id": "p6",
+      "left": "Hanno voluto giocare.",
+      "right": "Sie wollten spielen."
+     },
+     {
+      "id": "p7",
+      "left": "È dovuto restare a casa.",
+      "right": "Er musste zu Hause bleiben."
+     },
+     {
+      "id": "p8",
+      "left": "Abbiamo dovuto aspettare.",
+      "right": "Wir mussten warten."
+     }
+    ],
+    "distractors": [
+     "Ich muss lernen."
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pp-modali-l3",
+  "title": "Avere + modale o essere + modale?",
+  "language": "it",
+  "level": "A1",
+  "description": "Il passato prossimo dei verbi modali · Avere + modale o essere + modale? · livello facile.",
+  "topics": [
+   "Il passato prossimo dei verbi modali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-pp-modali",
+   "topicTitle": "Il passato prossimo dei verbi modali",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "I verbi modali al passato prossimo prendono l’ausiliare del **verbo che segue**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nNella lingua di tutti i giorni si sente anche: _Ho dovuto partire._ A scuola impari la regola sopra.",
+   "ruleHelp": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**: _Ho dovuto studiare._ (studiare → avere) · _Sono dovuto/-a partire._ (partire → essere)\nUmgangssprachlich hört man auch _Ho dovuto partire_; in der Schule lernst du die Regel oben.",
+   "order": 43
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Quale ausiliare? Guarda il verbo dopo il modale.",
+    "explanation": "",
+    "promptHelp": "Welches Hilfsverb? Achte auf das Verb nach dem Modalverb.",
+    "categories": [
+     {
+      "id": "av",
+      "label": "avere"
+     },
+     {
+      "id": "es",
+      "label": "essere"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "dovuto studiare",
+      "category": "av"
+     },
+     {
+      "id": "i2",
+      "text": "voluto mangiare",
+      "category": "av"
+     },
+     {
+      "id": "i3",
+      "text": "potuto comprare",
+      "category": "av"
+     },
+     {
+      "id": "i4",
+      "text": "dovuto aspettare",
+      "category": "av"
+     },
+     {
+      "id": "i5",
+      "text": "dovuto partire",
+      "category": "es"
+     },
+     {
+      "id": "i6",
+      "text": "potuto venire",
+      "category": "es"
+     },
+     {
+      "id": "i7",
+      "text": "voluto restare",
+      "category": "es"
+     },
+     {
+      "id": "i8",
+      "text": "dovuto tornare",
+      "category": "es"
+     },
+     {
+      "id": "i9",
+      "text": "voluto vedere",
+      "category": "av"
+     },
+     {
+      "id": "i10",
+      "text": "potuto uscire",
+      "category": "es"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pp-modali-m1",
+  "title": "Avere o essere? Con la desinenza",
+  "language": "it",
+  "level": "A1",
+  "description": "Il passato prossimo dei verbi modali · Avere o essere? Con la desinenza · livello medio.",
+  "topics": [
+   "Il passato prossimo dei verbi modali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-pp-modali",
+   "topicTitle": "Il passato prossimo dei verbi modali",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "I verbi modali al passato prossimo prendono l’ausiliare del **verbo che segue**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nNella lingua di tutti i giorni si sente anche: _Ho dovuto partire._ A scuola impari la regola sopra.",
+   "ruleHelp": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**: _Ho dovuto studiare._ (studiare → avere) · _Sono dovuto/-a partire._ (partire → essere)\nUmgangssprachlich hört man auch _Ho dovuto partire_; in der Schule lernst du die Regel oben.",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle das Hilfsverb und die passende Endung.",
-    "explanation": "andare, venire, restare, tornare → essere (Endung anpassen) · vedere, fare → avere.",
-    "text": "Ieri Marta [[g1]] andare dal dentista.\nNoi [[g2]] vedere il museo.\nI miei cugini [[g3]] venire alla festa.\nTu [[g4]] fare i compiti?\nLe ragazze [[g5]] restare a casa.\nIo (Luca) [[g6]] tornare presto.",
+    "prompt": "Scegli l’ausiliare e la desinenza giusta.",
+    "explanation": "andare, venire, restare, tornare, partire → essere (desinenza!) · vedere, fare, dormire → avere.",
+    "promptHelp": "Wähle das Hilfsverb und die passende Endung.",
+    "explanationHelp": "Mit essere passt sich die Endung an.",
+    "text": "Ieri Marta [[g1]] andare dal dentista.\nNoi [[g2]] vedere il museo.\nI miei cugini [[g3]] venire alla festa.\nTu [[g4]] fare i compiti?\nLe ragazze [[g5]] restare a casa.\nIo (Luca) [[g6]] tornare presto.\nVoi [[g7]] dormire?\nMia madre [[g8]] partire presto.",
     "gaps": [
      {
       "id": "g1",
@@ -72370,6 +76012,24 @@ const STOCK_PACKAGES = [
        "sono dovuta"
       ],
       "answer": "sono dovuto"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "avete potuto",
+       "siete potuti",
+       "avete potuti"
+      ],
+      "answer": "avete potuto"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "è voluta",
+       "ha voluta",
+       "è voluto"
+      ],
+      "answer": "è voluta"
      }
     ]
    }
@@ -72379,13 +76039,13 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-pp-modali-m3",
-  "title": "Ein schwieriger Tag",
+  "id": "g-ecco1-pp-modali-m2",
+  "title": "Che pasticcio!",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo der Modalverben · Ein schwieriger Tag (mittel).",
+  "description": "Il passato prossimo dei verbi modali · Che pasticcio! · livello medio.",
   "topics": [
-   "Das passato prossimo der Modalverben",
+   "Il passato prossimo dei verbi modali",
    "Grammatik"
   ],
   "sources": [
@@ -72413,13 +76073,127 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-pp-modali",
-   "topicTitle": "Das passato prossimo der Modalverben",
+   "topicTitle": "Il passato prossimo dei verbi modali",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nIm Alltag hört man auch: _Ho dovuto partire._ – In der Schule lernst du die Regel oben.",
+   "rule": "I verbi modali al passato prossimo prendono l’ausiliare del **verbo che segue**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nNella lingua di tutti i giorni si sente anche: _Ho dovuto partire._ A scuola impari la regola sopra.",
+   "ruleHelp": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**: _Ho dovuto studiare._ (studiare → avere) · _Sono dovuto/-a partire._ (partire → essere)\nUmgangssprachlich hört man auch _Ho dovuto partire_; in der Schule lernst du die Regel oben.",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi i verbi modali al passato prossimo.",
+    "explanation": "partire, tornare, venire, andare → essere; prendere, comprare, aspettare, mangiare → avere.",
+    "promptHelp": "Setze die Verben ins passato prossimo.",
+    "explanationHelp": "partire, tornare, venire, andare → essere; sonst avere.",
+    "text": "Ieri io (dovere) [[g1]] prendere l’autobus.\nIl treno era in ritardo e noi non (potere) [[g2]] partire.\nMia sorella (volere) [[g3]] comprare un biglietto nuovo.\nAlla fine (noi, dovere) [[g4]] aspettare due ore.\nMio padre (dovere) [[g5]] tornare a casa a piedi.\nIo (volere) [[g6]] mangiare un panino.\nI miei amici non (potere) [[g7]] venire.\nChe giornata! (Noi, dovere) [[g8]] andare a letto presto.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ho dovuto"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "siamo potuti",
+       "siamo potute"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ha voluto"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "abbiamo dovuto"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "è dovuto"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ho voluto"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "sono potuti"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Siamo dovuti",
+       "Siamo dovute"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pp-modali-m3",
+  "title": "Una giornata difficile",
+  "language": "it",
+  "level": "A1",
+  "description": "Il passato prossimo dei verbi modali · Una giornata difficile · livello medio.",
+  "topics": [
+   "Il passato prossimo dei verbi modali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-pp-modali",
+   "topicTitle": "Il passato prossimo dei verbi modali",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "I verbi modali al passato prossimo prendono l’ausiliare del **verbo che segue**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nNella lingua di tutti i giorni si sente anche: _Ho dovuto partire._ A scuola impari la regola sopra.",
+   "ruleHelp": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**: _Ho dovuto studiare._ (studiare → avere) · _Sono dovuto/-a partire._ (partire → essere)\nUmgangssprachlich hört man auch _Ho dovuto partire_; in der Schule lernst du die Regel oben.",
    "order": 43
   },
   "vocabularyIds": [],
@@ -72427,9 +76201,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Setze die Modalverben ins passato prossimo.",
+    "prompt": "Scrivi i verbi modali al passato prossimo.",
     "explanation": "",
-    "text": "Ieri mio padre (dovere) [[g1]] lavorare fino alle otto.\nMia madre (dovere) [[g2]] andare a Milano.\nIo (volere) [[g3]] cucinare la cena.\nMa non (potere, io) [[g4]] comprare le uova: il negozio era chiuso!\nAllora io e mio fratello (dovere) [[g5]] uscire di nuovo.\nAlla fine (potere, noi) [[g6]] mangiare alle nove.",
+    "promptHelp": "Setze die Modalverben ins passato prossimo.",
+    "text": "Ieri mio padre (dovere) [[g1]] lavorare fino alle otto.\nMia madre (dovere) [[g2]] andare a Milano.\nIo (volere) [[g3]] cucinare la cena.\nMa non (potere, io) [[g4]] comprare le uova: il negozio era chiuso!\nAllora io e mio fratello (dovere) [[g5]] uscire di nuovo.\nAlla fine (potere, noi) [[g6]] mangiare alle nove.\nMia sorella non (volere) [[g7]] mangiare la pasta.\nLei (volere) [[g8]] andare a letto subito.",
     "gaps": [
      {
       "id": "g1",
@@ -72466,6 +76241,18 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "abbiamo potuto"
       ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ha voluto"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "è voluta"
+      ]
      }
     ]
    }
@@ -72476,12 +76263,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-pp-modali-s1",
-  "title": "Fehler finden",
+  "title": "Trova gli errori",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo der Modalverben · Fehler finden (schwer).",
+  "description": "Il passato prossimo dei verbi modali · Trova gli errori · livello difficile.",
   "topics": [
-   "Das passato prossimo der Modalverben",
+   "Il passato prossimo dei verbi modali",
    "Grammatik"
   ],
   "sources": [
@@ -72509,13 +76296,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 5,
+  "estimatedMinutes": 10,
   "grammar": {
    "topic": "ecco1-pp-modali",
-   "topicTitle": "Das passato prossimo der Modalverben",
+   "topicTitle": "Il passato prossimo dei verbi modali",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nIm Alltag hört man auch: _Ho dovuto partire._ – In der Schule lernst du die Regel oben.",
+   "rule": "I verbi modali al passato prossimo prendono l’ausiliare del **verbo che segue**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nNella lingua di tutti i giorni si sente anche: _Ho dovuto partire._ A scuola impari la regola sopra.",
+   "ruleHelp": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**: _Ho dovuto studiare._ (studiare → avere) · _Sono dovuto/-a partire._ (partire → essere)\nUmgangssprachlich hört man auch _Ho dovuto partire_; in der Schule lernst du die Regel oben.",
    "order": 41
   },
   "vocabularyIds": [],
@@ -72523,9 +76311,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "error_correction",
-    "prompt": "Korrigiere die markierten Formen.",
+    "prompt": "Correggi le forme segnate.",
     "explanation": "",
-    "text": "Non [[g1]] potuto fare i compiti.\nMarta [[g2]] dovuta andare dal medico.\nI ragazzi hanno [[g3]] giocare.",
+    "promptHelp": "Korrigiere die markierten Formen.",
+    "text": "Non [[g1]] potuto fare i compiti.\nMarta [[g2]] dovuta andare dal medico.\nI ragazzi hanno [[g3]] giocare.\nNoi [[g4]] dovuti partire presto.\nIo [[g5]] voluto vedere il film.\nLe mie amiche sono [[g6]] venire.\nTu [[g7]] dovuto studiare tanto?\nMio fratello [[g8]] voluto restare a casa.",
     "errors": [
      {
       "id": "g1",
@@ -72547,6 +76336,41 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "voluto"
       ]
+     },
+     {
+      "id": "g4",
+      "wrong": "abbiamo",
+      "acceptedAnswers": [
+       "siamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "sono",
+      "acceptedAnswers": [
+       "ho"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "potuto",
+      "acceptedAnswers": [
+       "potute"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "sei",
+      "acceptedAnswers": [
+       "hai"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "ha",
+      "acceptedAnswers": [
+       "è"
+      ]
      }
     ]
    }
@@ -72557,12 +76381,137 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-pp-modali-s2",
-  "title": "Entschuldigungen",
+  "title": "Scuse",
   "language": "it",
   "level": "A1",
-  "description": "Das passato prossimo der Modalverben · Entschuldigungen (schwer).",
+  "description": "Il passato prossimo dei verbi modali · Scuse · livello difficile.",
   "topics": [
-   "Das passato prossimo der Modalverben",
+   "Il passato prossimo dei verbi modali",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-pp-modali",
+   "topicTitle": "Il passato prossimo dei verbi modali",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "I verbi modali al passato prossimo prendono l’ausiliare del **verbo che segue**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nNella lingua di tutti i giorni si sente anche: _Ho dovuto partire._ A scuola impari la regola sopra.",
+   "ruleHelp": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**: _Ho dovuto studiare._ (studiare → avere) · _Sono dovuto/-a partire._ (partire → essere)\nUmgangssprachlich hört man auch _Ho dovuto partire_; in der Schule lernst du die Regel oben.",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Spiega perché non è stato possibile (passato prossimo del modale).",
+    "explanation": "",
+    "promptHelp": "Erkläre, warum es nicht ging.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Perché non sei venuto alla festa? (dovere studiare) – …",
+      "acceptedAnswers": [
+       "Ho dovuto studiare"
+      ],
+      "modelAnswer": "Ho dovuto studiare."
+     },
+     {
+      "id": "s2",
+      "start": "Perché Sara non ha telefonato? (non potere usare il cellulare) – …",
+      "acceptedAnswers": [
+       "Non ha potuto usare il cellulare"
+      ],
+      "modelAnswer": "Non ha potuto usare il cellulare."
+     },
+     {
+      "id": "s3",
+      "start": "Perché siete arrivati tardi? (dovere aspettare l’autobus) – …",
+      "acceptedAnswers": [
+       "Abbiamo dovuto aspettare l’autobus"
+      ],
+      "modelAnswer": "Abbiamo dovuto aspettare l’autobus."
+     },
+     {
+      "id": "s4",
+      "start": "Perché Marco non è a scuola? (dovere andare dal medico) – …",
+      "acceptedAnswers": [
+       "È dovuto andare dal medico"
+      ],
+      "modelAnswer": "È dovuto andare dal medico."
+     },
+     {
+      "id": "s5",
+      "start": "Perché le ragazze non sono qui? (volere restare a casa) – …",
+      "acceptedAnswers": [
+       "Sono volute restare a casa"
+      ],
+      "modelAnswer": "Sono volute restare a casa."
+     },
+     {
+      "id": "s6",
+      "start": "Perché non hai fatto i compiti? (non potere, ero malato) – …",
+      "acceptedAnswers": [
+       "Non ho potuto"
+      ],
+      "modelAnswer": "Non ho potuto, ero malato."
+     },
+     {
+      "id": "s7",
+      "start": "Perché tua madre non è venuta? (dovere lavorare) – …",
+      "acceptedAnswers": [
+       "Ha dovuto lavorare"
+      ],
+      "modelAnswer": "Ha dovuto lavorare."
+     },
+     {
+      "id": "s8",
+      "start": "Perché siete tornati presto? (dovere tornare per cena) – …",
+      "acceptedAnswers": [
+       "Siamo dovuti tornare"
+      ],
+      "modelAnswer": "Siamo dovuti tornare per cena."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pp-modali-s3",
+  "title": "Una mail di scuse",
+  "language": "it",
+  "level": "A1",
+  "description": "Il passato prossimo dei verbi modali · Una mail di scuse · livello difficile.",
+  "topics": [
+   "Il passato prossimo dei verbi modali",
    "Grammatik"
   ],
   "sources": [
@@ -72593,59 +76542,57 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-pp-modali",
-   "topicTitle": "Das passato prossimo der Modalverben",
+   "topicTitle": "Il passato prossimo dei verbi modali",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nIm Alltag hört man auch: _Ho dovuto partire._ – In der Schule lernst du die Regel oben.",
-   "order": 42
+   "rule": "I verbi modali al passato prossimo prendono l’ausiliare del **verbo che segue**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nNella lingua di tutti i giorni si sente anche: _Ho dovuto partire._ A scuola impari la regola sopra.",
+   "ruleHelp": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**: _Ho dovuto studiare._ (studiare → avere) · _Sono dovuto/-a partire._ (partire → essere)\nUmgangssprachlich hört man auch _Ho dovuto partire_; in der Schule lernst du die Regel oben.",
+   "order": 43
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
-    "type": "sentence_completion",
-    "prompt": "Erkläre, warum es nicht ging (passato prossimo des Modalverbs).",
+    "type": "open_answer",
+    "prompt": "Scrivi una mail breve a un amico: spiega perché non sei venuto alla sua festa. Usa dovere, potere e volere al passato prossimo.",
     "explanation": "",
-    "items": [
+    "promptHelp": "Schreibe eine kurze Mail: Erkläre, warum du nicht zur Party gekommen bist.",
+    "modelAnswer": "Ciao Luca, scusa! Sabato non sono potuto venire alla festa. Ho dovuto aiutare mio padre in negozio e poi sono dovuto andare dai nonni. Ho voluto chiamarti, ma il cellulare era scarico. A presto!",
+    "lines": 5
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "E adesso completa.",
+    "explanation": "",
+    "promptHelp": "Und jetzt ergänze.",
+    "text": "Sabato non (potere) [[g1]] venire alla festa.\n(Dovere) [[g2]] aiutare mio padre.\nPoi (dovere) [[g3]] andare dai nonni.\n(Volere) [[g4]] telefonarti.",
+    "gaps": [
      {
-      "id": "s1",
-      "start": "Perché non sei venuto alla festa? (dovere studiare) – …",
+      "id": "g1",
       "acceptedAnswers": [
-       "Ho dovuto studiare"
-      ],
-      "modelAnswer": "Ho dovuto studiare."
+       "sono potuto",
+       "sono potuta"
+      ]
      },
      {
-      "id": "s2",
-      "start": "Perché Sara non ha telefonato? (non potere usare il cellulare) – …",
+      "id": "g2",
       "acceptedAnswers": [
-       "Non ha potuto usare il cellulare"
-      ],
-      "modelAnswer": "Non ha potuto usare il cellulare."
+       "Ho dovuto"
+      ]
      },
      {
-      "id": "s3",
-      "start": "Perché siete arrivati tardi? (dovere aspettare l'autobus) – …",
+      "id": "g3",
       "acceptedAnswers": [
-       "Abbiamo dovuto aspettare l'autobus"
-      ],
-      "modelAnswer": "Abbiamo dovuto aspettare l'autobus."
+       "sono dovuto",
+       "sono dovuta"
+      ]
      },
      {
-      "id": "s4",
-      "start": "Perché Marco non è a scuola? (dovere andare dal medico) – …",
+      "id": "g4",
       "acceptedAnswers": [
-       "È dovuto andare dal medico"
-      ],
-      "modelAnswer": "È dovuto andare dal medico."
-     },
-     {
-      "id": "s5",
-      "start": "Perché le ragazze non sono qui? (volere restare a casa) – …",
-      "acceptedAnswers": [
-       "Sono volute restare a casa"
-      ],
-      "modelAnswer": "Sono volute restare a casa."
+       "Ho voluto"
+      ]
      }
     ]
    }
@@ -74012,12 +77959,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-quando-perche-l1",
-  "title": "quando oder perché?",
+  "title": "Quando o perché?",
   "language": "it",
   "level": "A1",
-  "description": "Nebensätze mit quando und perché · quando oder perché? (einfach).",
+  "description": "Le frasi con quando e perché · Quando o perché? · livello facile.",
   "topics": [
-   "Nebensätze mit quando und perché",
+   "Le frasi con quando e perché",
    "Grammatik"
   ],
   "sources": [
@@ -74045,13 +77992,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-quando-perche",
-   "topicTitle": "Nebensätze mit quando und perché",
+   "topicTitle": "Le frasi con quando e perché",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt).",
+   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? → rispondiamo con **perché** (weil).\n\nNella frase con quando e perché le parole restano nello stesso ordine (non come in tedesco!): _… perché **mi piace** la musica._",
+   "ruleHelp": "- **quando** = wenn, als · **perché** = weil · **Perché?** = Warum? (Antwort mit perché)\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché mi piace la musica_ (… weil mir die Musik gefällt).",
    "order": 11
   },
   "vocabularyIds": [],
@@ -74059,9 +78007,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle quando oder perché.",
-    "explanation": "",
-    "text": "[[g1]] nevica, vado sullo snowboard.\nStudio molto [[g2]] domani ho un compito in classe.\n[[g3]] sono stanco, ascolto musica.\nNon vengo [[g4]] devo studiare.\n[[g5]] ho tempo, leggo un libro.\nMi piace l'estate [[g6]] vado al mare.",
+    "prompt": "Scegli quando o perché.",
+    "explanation": "quando = wenn (tempo), perché = weil (motivo).",
+    "promptHelp": "Wähle quando oder perché.",
+    "explanationHelp": "quando = wenn (Zeit), perché = weil (Grund).",
+    "text": "[[g1]] nevica, vado sullo snowboard.\nStudio molto [[g2]] domani ho un compito in classe.\n[[g3]] sono stanco, ascolto musica.\nNon vengo [[g4]] devo studiare.\n[[g5]] ho tempo, leggo un libro.\nMi piace l’estate [[g6]] vado al mare.\nResto a casa [[g7]] piove.\n[[g8]] fa caldo, mangio un gelato.",
     "gaps": [
      {
       "id": "g1",
@@ -74110,6 +78060,22 @@ const STOCK_PACKAGES = [
        "quando"
       ],
       "answer": "perché"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "perché",
+       "quando"
+      ],
+      "answer": "perché"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "Quando",
+       "Perché"
+      ],
+      "answer": "Quando"
      }
     ]
    }
@@ -74123,9 +78089,9 @@ const STOCK_PACKAGES = [
   "title": "Quando …",
   "language": "it",
   "level": "A1",
-  "description": "Nebensätze mit quando und perché · Quando … (einfach).",
+  "description": "Le frasi con quando e perché · Quando … · livello facile.",
   "topics": [
-   "Nebensätze mit quando und perché",
+   "Le frasi con quando e perché",
    "Grammatik"
   ],
   "sources": [
@@ -74153,13 +78119,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-quando-perche",
-   "topicTitle": "Nebensätze mit quando und perché",
+   "topicTitle": "Le frasi con quando e perché",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt).",
+   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? → rispondiamo con **perché** (weil).\n\nNella frase con quando e perché le parole restano nello stesso ordine (non come in tedesco!): _… perché **mi piace** la musica._",
+   "ruleHelp": "- **quando** = wenn, als · **perché** = weil · **Perché?** = Warum? (Antwort mit perché)\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché mi piace la musica_ (… weil mir die Musik gefällt).",
    "order": 12
   },
   "vocabularyIds": [],
@@ -74167,8 +78134,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "matching",
-    "prompt": "Verbinde die Satzhälften.",
+    "prompt": "Abbina le parti della frase.",
     "explanation": "",
+    "promptHelp": "Verbinde die Satzhälften.",
     "pairs": [
      {
       "id": "p1",
@@ -74199,6 +78167,16 @@ const STOCK_PACKAGES = [
       "id": "p6",
       "left": "Quando ho tempo libero,",
       "right": "leggo fumetti."
+     },
+     {
+      "id": "p7",
+      "left": "Quando sono stanco,",
+      "right": "vado a letto presto."
+     },
+     {
+      "id": "p8",
+      "left": "Quando ho sete,",
+      "right": "bevo un bicchiere d’acqua."
      }
     ],
     "distractors": [
@@ -74215,9 +78193,9 @@ const STOCK_PACKAGES = [
   "title": "Perché?",
   "language": "it",
   "level": "A1",
-  "description": "Nebensätze mit quando und perché · Perché? (einfach).",
+  "description": "Le frasi con quando e perché · Perché? · livello facile.",
   "topics": [
-   "Nebensätze mit quando und perché",
+   "Le frasi con quando e perché",
    "Grammatik"
   ],
   "sources": [
@@ -74245,13 +78223,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 5,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-quando-perche",
-   "topicTitle": "Nebensätze mit quando und perché",
+   "topicTitle": "Le frasi con quando e perché",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt).",
+   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? → rispondiamo con **perché** (weil).\n\nNella frase con quando e perché le parole restano nello stesso ordine (non come in tedesco!): _… perché **mi piace** la musica._",
+   "ruleHelp": "- **quando** = wenn, als · **perché** = weil · **Perché?** = Warum? (Antwort mit perché)\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché mi piace la musica_ (… weil mir die Musik gefällt).",
    "order": 13
   },
   "vocabularyIds": [],
@@ -74259,9 +78238,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Welche Antwort passt?",
-    "explanation": "Nach perché bleibt die normale Wortstellung: perché ho un bel voto (nicht: perché un bel voto ho).",
-    "text": "Perché resti a casa? – [[g1]]\nPerché studi tanto? – [[g2]]\nPerché vai in montagna? – [[g3]]\nPerché non vieni? – [[g4]]\nPerché sei contento? – [[g5]]",
+    "prompt": "Quale risposta va bene?",
+    "explanation": "Dopo perché l’ordine resta normale: perché ho un bel voto (non: perché un bel voto ho).",
+    "promptHelp": "Welche Antwort passt?",
+    "explanationHelp": "Nach perché bleibt die normale Wortstellung.",
+    "text": "Perché resti a casa? – [[g1]]\nPerché studi tanto? – [[g2]]\nPerché vai in montagna? – [[g3]]\nPerché non vieni? – [[g4]]\nPerché sei contento? – [[g5]]\nPerché prendi l’autobus? – [[g6]]\nPerché mangi una pizza? – [[g7]]\nPerché ascolti musica? – [[g8]]",
     "gaps": [
      {
       "id": "g1",
@@ -74307,6 +78288,33 @@ const STOCK_PACKAGES = [
        "Quando ho un bel voto."
       ],
       "answer": "Perché ho un bel voto."
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Perché piove.",
+       "Quando piove io.",
+       "Perché l’autobus."
+      ],
+      "answer": "Perché piove."
+     },
+     {
+      "id": "g7",
+      "options": [
+       "Perché ho fame.",
+       "Perché fame ho.",
+       "Quando fame."
+      ],
+      "answer": "Perché ho fame."
+     },
+     {
+      "id": "g8",
+      "options": [
+       "Perché mi rilassa.",
+       "Perché rilassa mi.",
+       "Quando musica."
+      ],
+      "answer": "Perché mi rilassa."
      }
     ]
    }
@@ -74317,12 +78325,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-quando-perche-m1",
-  "title": "Satzhälften verbinden",
+  "title": "Unire le frasi",
   "language": "it",
   "level": "A1",
-  "description": "Nebensätze mit quando und perché · Satzhälften verbinden (mittel).",
+  "description": "Le frasi con quando e perché · Unire le frasi · livello medio.",
   "topics": [
-   "Nebensätze mit quando und perché",
+   "Le frasi con quando e perché",
    "Grammatik"
   ],
   "sources": [
@@ -74350,13 +78358,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-quando-perche",
-   "topicTitle": "Nebensätze mit quando und perché",
+   "topicTitle": "Le frasi con quando e perché",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt).",
+   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? → rispondiamo con **perché** (weil).\n\nNella frase con quando e perché le parole restano nello stesso ordine (non come in tedesco!): _… perché **mi piace** la musica._",
+   "ruleHelp": "- **quando** = wenn, als · **perché** = weil · **Perché?** = Warum? (Antwort mit perché)\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché mi piace la musica_ (… weil mir die Musik gefällt).",
    "order": 11
   },
   "vocabularyIds": [],
@@ -74364,8 +78373,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "matching",
-    "prompt": "Was passt zusammen?",
+    "prompt": "Abbina le parti della frase.",
     "explanation": "",
+    "promptHelp": "Was passt zusammen?",
     "pairs": [
      {
       "id": "p1",
@@ -74391,6 +78401,21 @@ const STOCK_PACKAGES = [
       "id": "p5",
       "left": "Non vado alla festa",
       "right": "perché sono stanca."
+     },
+     {
+      "id": "p6",
+      "left": "Mangio un gelato",
+      "right": "quando fa caldo."
+     },
+     {
+      "id": "p7",
+      "left": "Studio molto",
+      "right": "perché domani ho un test."
+     },
+     {
+      "id": "p8",
+      "left": "Telefono a Sara",
+      "right": "quando sono triste."
      }
     ],
     "distractors": []
@@ -74405,9 +78430,9 @@ const STOCK_PACKAGES = [
   "title": "Il mio tempo libero",
   "language": "it",
   "level": "A1",
-  "description": "Nebensätze mit quando und perché · Il mio tempo libero (mittel).",
+  "description": "Le frasi con quando e perché · Il mio tempo libero · livello medio.",
   "topics": [
-   "Nebensätze mit quando und perché",
+   "Le frasi con quando e perché",
    "Grammatik"
   ],
   "sources": [
@@ -74435,13 +78460,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-quando-perche",
-   "topicTitle": "Nebensätze mit quando und perché",
+   "topicTitle": "Le frasi con quando e perché",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt).",
+   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? → rispondiamo con **perché** (weil).\n\nNella frase con quando e perché le parole restano nello stesso ordine (non come in tedesco!): _… perché **mi piace** la musica._",
+   "ruleHelp": "- **quando** = wenn, als · **perché** = weil · **Perché?** = Warum? (Antwort mit perché)\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché mi piace la musica_ (… weil mir die Musik gefällt).",
    "order": 12
   },
   "vocabularyIds": [],
@@ -74449,9 +78475,10 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Ergänze quando oder perché.",
+    "prompt": "Completa con quando o perché.",
     "explanation": "",
-    "text": "[[g1]] ho tempo libero, vado in skatepark con i miei amici.\nMi piace lo skateboard [[g2]] è uno sport veloce.\n[[g3]] piove, invece, gioco ai videogiochi.\nNon vado in piscina [[g4]] non so nuotare bene.\nIl sabato sera esco [[g5]] i miei genitori dicono di sì.\nStudio la chitarra [[g6]] voglio suonare in una band.",
+    "promptHelp": "Ergänze quando oder perché.",
+    "text": "[[g1]] ho tempo libero, vado allo skatepark con i miei amici.\nMi piace lo skateboard [[g2]] è uno sport veloce.\n[[g3]] piove, invece, gioco ai videogiochi.\nNon vado in piscina [[g4]] non so nuotare bene.\nIl sabato sera esco [[g5]] i miei genitori dicono di sì.\nStudio la chitarra [[g6]] voglio suonare in una band.\n[[g7]] fa freddo, resto a casa.\nLeggo molto [[g8]] i libri mi piacciono.",
     "gaps": [
      {
       "id": "g1",
@@ -74488,6 +78515,18 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "perché"
       ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Quando"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "perché"
+      ]
      }
     ],
     "wordBank": true,
@@ -74503,12 +78542,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-quando-perche-m3",
-  "title": "Sätze verbinden",
+  "title": "Unisci con perché",
   "language": "it",
   "level": "A1",
-  "description": "Nebensätze mit quando und perché · Sätze verbinden (mittel).",
+  "description": "Le frasi con quando e perché · Unisci con perché · livello medio.",
   "topics": [
-   "Nebensätze mit quando und perché",
+   "Le frasi con quando e perché",
    "Grammatik"
   ],
   "sources": [
@@ -74536,13 +78575,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-quando-perche",
-   "topicTitle": "Nebensätze mit quando und perché",
+   "topicTitle": "Le frasi con quando e perché",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt).",
+   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? → rispondiamo con **perché** (weil).\n\nNella frase con quando e perché le parole restano nello stesso ordine (non come in tedesco!): _… perché **mi piace** la musica._",
+   "ruleHelp": "- **quando** = wenn, als · **perché** = weil · **Perché?** = Warum? (Antwort mit perché)\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché mi piace la musica_ (… weil mir die Musik gefällt).",
    "order": 13
   },
   "vocabularyIds": [],
@@ -74550,8 +78590,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "sentence_completion",
-    "prompt": "Verbinde die beiden Sätze mit perché.",
+    "prompt": "Unisci le due frasi con perché.",
     "explanation": "",
+    "promptHelp": "Verbinde die beiden Sätze mit perché.",
     "items": [
      {
       "id": "s1",
@@ -74587,11 +78628,35 @@ const STOCK_PACKAGES = [
      },
      {
       "id": "s5",
-      "start": "Studio l'italiano. Mi piace l'Italia. → Studio l'italiano …",
+      "start": "Studio l’italiano. Mi piace l’Italia. → Studio l’italiano …",
       "acceptedAnswers": [
-       "perché mi piace l'Italia"
+       "perché mi piace l’Italia"
       ],
-      "modelAnswer": "Studio l'italiano perché mi piace l'Italia."
+      "modelAnswer": "Studio l’italiano perché mi piace l’Italia."
+     },
+     {
+      "id": "s6",
+      "start": "Prendo la bici. È veloce. → Prendo la bici …",
+      "acceptedAnswers": [
+       "perché è veloce"
+      ],
+      "modelAnswer": "Prendo la bici perché è veloce."
+     },
+     {
+      "id": "s7",
+      "start": "Telefono a Leo. È il suo compleanno. → Telefono a Leo …",
+      "acceptedAnswers": [
+       "perché è il suo compleanno"
+      ],
+      "modelAnswer": "Telefono a Leo perché è il suo compleanno."
+     },
+     {
+      "id": "s8",
+      "start": "Sono contenta. Ho un bel voto. → Sono contenta …",
+      "acceptedAnswers": [
+       "perché ho un bel voto"
+      ],
+      "modelAnswer": "Sono contenta perché ho un bel voto."
      }
     ]
    }
@@ -74602,12 +78667,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-quando-perche-s1",
-  "title": "Warum?",
+  "title": "Metti in ordine",
   "language": "it",
   "level": "A1",
-  "description": "Nebensätze mit quando und perché · Warum? (schwer).",
+  "description": "Le frasi con quando e perché · Metti in ordine · livello difficile.",
   "topics": [
-   "Nebensätze mit quando und perché",
+   "Le frasi con quando e perché",
    "Grammatik"
   ],
   "sources": [
@@ -74635,81 +78700,24 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 3,
+  "estimatedMinutes": 19,
   "grammar": {
    "topic": "ecco1-quando-perche",
-   "topicTitle": "Nebensätze mit quando und perché",
+   "topicTitle": "Le frasi con quando e perché",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt).",
+   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? → rispondiamo con **perché** (weil).\n\nNella frase con quando e perché le parole restano nello stesso ordine (non come in tedesco!): _… perché **mi piace** la musica._",
+   "ruleHelp": "- **quando** = wenn, als · **perché** = weil · **Perché?** = Warum? (Antwort mit perché)\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché mi piace la musica_ (… weil mir die Musik gefällt).",
    "order": 11
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
-    "type": "open_answer",
-    "prompt": "Beantworte die Fragen mit perché. Achte auf die Wortstellung (wie im Hauptsatz).",
-    "explanation": "",
-    "modelAnswer": "Perché studi l'italiano? – Perché mi piace l'Italia.\nPerché resti a casa? – Perché devo studiare.\nPerché vai in montagna? – Perché amo la neve.",
-    "lines": 3
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-quando-perche-s2",
-  "title": "Wortstellung im Nebensatz",
-  "language": "it",
-  "level": "A1",
-  "description": "Nebensätze mit quando und perché · Wortstellung im Nebensatz (schwer).",
-  "topics": [
-   "Nebensätze mit quando und perché",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 4 · Tempo libero · Per cominciare.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "4 · Tempo libero",
-    "section": "Per cominciare"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 14,
-  "grammar": {
-   "topic": "ecco1-quando-perche",
-   "topicTitle": "Nebensätze mit quando und perché",
-   "difficulty": "schwer",
-   "origin": "own",
-   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt).",
-   "order": 12
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
     "type": "ordering",
-    "prompt": "Bringe die Wörter in die richtige Reihenfolge: „Ich gehe nicht ins Kino, weil ich keine Zeit habe.“",
+    "prompt": "Metti le parole in ordine: „Ich gehe nicht ins Kino, weil ich keine Zeit habe.“",
     "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
     "items": [
      {
       "id": "i1",
@@ -74748,8 +78756,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q2",
     "type": "ordering",
-    "prompt": "Bringe die Wörter in die richtige Reihenfolge: „Wenn es schneit, fahren wir in die Berge.“",
+    "prompt": "Metti le parole in ordine: „Wenn es schneit, fahren wir in die Berge.“",
     "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
     "items": [
      {
       "id": "i1",
@@ -74772,6 +78781,35 @@ const STOCK_PACKAGES = [
       "text": "montagna"
      }
     ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Ich lerne Italienisch, weil mir die Sprache gefällt.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Studio"
+     },
+     {
+      "id": "i2",
+      "text": "l’italiano"
+     },
+     {
+      "id": "i3",
+      "text": "perché"
+     },
+     {
+      "id": "i4",
+      "text": "mi piace"
+     },
+     {
+      "id": "i5",
+      "text": "la lingua"
+     }
+    ]
    }
   ]
  },
@@ -74779,13 +78817,13 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-quando-perche-s3",
-  "title": "Fehler finden",
+  "id": "g-ecco1-quando-perche-s2",
+  "title": "Trova gli errori",
   "language": "it",
   "level": "A1",
-  "description": "Nebensätze mit quando und perché · Fehler finden (schwer).",
+  "description": "Le frasi con quando e perché · Trova gli errori · livello difficile.",
   "topics": [
-   "Nebensätze mit quando und perché",
+   "Le frasi con quando e perché",
    "Grammatik"
   ],
   "sources": [
@@ -74813,23 +78851,25 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 7,
+  "estimatedMinutes": 10,
   "grammar": {
    "topic": "ecco1-quando-perche",
-   "topicTitle": "Nebensätze mit quando und perché",
+   "topicTitle": "Le frasi con quando e perché",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt).",
-   "order": 13
+   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? → rispondiamo con **perché** (weil).\n\nNella frase con quando e perché le parole restano nello stesso ordine (non come in tedesco!): _… perché **mi piace** la musica._",
+   "ruleHelp": "- **quando** = wenn, als · **perché** = weil · **Perché?** = Warum? (Antwort mit perché)\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché mi piace la musica_ (… weil mir die Musik gefällt).",
+   "order": 12
   },
   "vocabularyIds": [],
   "questions": [
    {
     "id": "q1",
     "type": "error_correction",
-    "prompt": "Korrigiere die fünf Fehler.",
+    "prompt": "Correggi gli otto errori.",
     "explanation": "",
-    "text": "Vado al mare [[g1]] mi piace nuotare. (weil)\n[[g2]] fa freddo, resto a casa. (wenn)\nNon vengo perché [[g3]].\nPerché studi? – [[g4]] voglio diventare medico.\nMi piace l'estate [[g5]] non c'è scuola. (weil)",
+    "promptHelp": "Korrigiere die acht Fehler.",
+    "text": "Vado al mare [[g1]] mi piace nuotare. (weil)\n[[g2]] fa freddo, resto a casa. (wenn)\nNon vengo perché [[g3]].\nPerché studi? – [[g4]] voglio diventare medico.\nMi piace l’estate [[g5]] non c’è scuola. (weil)\nResto a casa perché [[g6]].\n[[g7]] ho fame, mangio. (wenn)\nSono felice perché [[g8]].",
     "errors": [
      {
       "id": "g1",
@@ -74865,6 +78905,153 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "perché"
       ]
+     },
+     {
+      "id": "g6",
+      "wrong": "malato sono",
+      "acceptedAnswers": [
+       "sono malato"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "Perché",
+      "acceptedAnswers": [
+       "Quando"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "un bel voto ho",
+      "acceptedAnswers": [
+       "ho un bel voto"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quando-perche-s3",
+  "title": "Perché?",
+  "language": "it",
+  "level": "A1",
+  "description": "Le frasi con quando e perché · Perché? · livello difficile.",
+  "topics": [
+   "Le frasi con quando e perché",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 4 · Tempo libero · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-quando-perche",
+   "topicTitle": "Le frasi con quando e perché",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? → rispondiamo con **perché** (weil).\n\nNella frase con quando e perché le parole restano nello stesso ordine (non come in tedesco!): _… perché **mi piace** la musica._",
+   "ruleHelp": "- **quando** = wenn, als · **perché** = weil · **Perché?** = Warum? (Antwort mit perché)\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché mi piace la musica_ (… weil mir die Musik gefällt).",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Rispondi alle domande con perché. Attenzione all’ordine delle parole.",
+    "explanation": "La risposta comincia con perché.",
+    "promptHelp": "Beantworte die Fragen mit perché. Achte auf die Wortstellung.",
+    "explanationHelp": "Die Antwort beginnt mit perché.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Perché studi l’italiano? (mi piace l’Italia)",
+      "acceptedAnswers": [
+       "perché mi piace l’Italia"
+      ],
+      "modelAnswer": "Perché mi piace l’Italia."
+     },
+     {
+      "id": "s2",
+      "start": "Perché resti a casa? (devo studiare)",
+      "acceptedAnswers": [
+       "perché devo studiare"
+      ],
+      "modelAnswer": "Perché devo studiare."
+     },
+     {
+      "id": "s3",
+      "start": "Perché vai in montagna? (amo la neve)",
+      "acceptedAnswers": [
+       "perché amo la neve"
+      ],
+      "modelAnswer": "Perché amo la neve."
+     },
+     {
+      "id": "s4",
+      "start": "Perché sei stanco? (ho giocato a calcio)",
+      "acceptedAnswers": [
+       "perché ho giocato a calcio"
+      ],
+      "modelAnswer": "Perché ho giocato a calcio."
+     },
+     {
+      "id": "s5",
+      "start": "Perché non vieni alla festa? (sono malato)",
+      "acceptedAnswers": [
+       "perché sono malato"
+      ],
+      "modelAnswer": "Perché sono malato."
+     },
+     {
+      "id": "s6",
+      "start": "Perché ti piace l’estate? (non c’è scuola)",
+      "acceptedAnswers": [
+       "perché non c’è scuola"
+      ],
+      "modelAnswer": "Perché non c’è scuola."
+     },
+     {
+      "id": "s7",
+      "start": "Perché prendi l’autobus? (piove)",
+      "acceptedAnswers": [
+       "perché piove"
+      ],
+      "modelAnswer": "Perché piove."
+     },
+     {
+      "id": "s8",
+      "start": "Perché sei contento? (ho un bel voto)",
+      "acceptedAnswers": [
+       "perché ho un bel voto"
+      ],
+      "modelAnswer": "Perché ho un bel voto."
      }
     ]
    }
@@ -74875,12 +79062,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-quantita-l1",
-  "title": "Adverb oder Begleiter?",
+  "title": "Avverbio o con il nome?",
   "language": "it",
   "level": "A1",
-  "description": "Mengenangaben: molto, poco, tanto, troppo · Adverb oder Begleiter? (einfach).",
+  "description": "Molto, poco, tanto, troppo · Avverbio o con il nome? · livello facile.",
   "topics": [
-   "Mengenangaben: molto, poco, tanto, troppo",
+   "Molto, poco, tanto, troppo",
    "Grammatik"
   ],
   "sources": [
@@ -74908,13 +79095,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-quantita",
-   "topicTitle": "Mengenangaben: molto, poco, tanto, troppo",
+   "topicTitle": "Molto, poco, tanto, troppo",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Als Begleiter** (vor einem Nomen) passen sie sich an:\n| | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C'è **troppa** gente._",
+   "rule": "**Come avverbio** (con un verbo o un aggettivo) **non cambiano**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Davanti a un nome** cambiano come un aggettivo:\n| | m. sing. | f. sing. | m. plur. | f. plur. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C’è **troppa** gente._",
+   "ruleHelp": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**: _Studio molto. Il viaggio è molto bello._\n**Als Begleiter** (vor einem Nomen) passen sie sich an: molto/molta/molti/molte, poco/poca/pochi/poche … _Ho molti amici. C’è troppa gente._",
    "order": 61
   },
   "vocabularyIds": [],
@@ -74922,9 +79110,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle die richtige Form.",
-    "explanation": "",
-    "text": "Ho [[g1]] amici.\nMi piace [[g2]] la musica.\nOggi ho [[g3]] tempo.\nCi sono [[g4]] persone in piazza.\nIl viaggio è [[g5]] bello.\nNella mia classe ci sono [[g6]] ragazzi.",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "Con un nome cambia (molti amici), con verbo o aggettivo no (molto bello).",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "Mit Nomen ändert es sich, mit Verb oder Adjektiv nicht.",
+    "text": "Ho [[g1]] amici.\nMi piace [[g2]] la musica.\nOggi ho [[g3]] tempo.\nCi sono [[g4]] persone in piazza.\nIl viaggio è [[g5]] bello.\nNella mia classe ci sono [[g6]] ragazzi.\nMangio [[g7]]!\nC’è [[g8]] gente in metro.",
     "gaps": [
      {
       "id": "g1",
@@ -74979,6 +79169,24 @@ const STOCK_PACKAGES = [
        "poche"
       ],
       "answer": "pochi"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "troppo",
+       "troppa",
+       "troppi"
+      ],
+      "answer": "troppo"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "troppa",
+       "troppo",
+       "troppe"
+      ],
+      "answer": "troppa"
      }
     ]
    }
@@ -74989,12 +79197,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-quantita-l2",
-  "title": "Viel oder wenig?",
+  "title": "Tanto o poco?",
   "language": "it",
   "level": "A1",
-  "description": "Mengenangaben: molto, poco, tanto, troppo · Viel oder wenig? (einfach).",
+  "description": "Molto, poco, tanto, troppo · Tanto o poco? · livello facile.",
   "topics": [
-   "Mengenangaben: molto, poco, tanto, troppo",
+   "Molto, poco, tanto, troppo",
    "Grammatik"
   ],
   "sources": [
@@ -75022,13 +79230,14 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-quantita",
-   "topicTitle": "Mengenangaben: molto, poco, tanto, troppo",
+   "topicTitle": "Molto, poco, tanto, troppo",
    "difficulty": "leicht",
    "origin": "own",
-   "rule": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Als Begleiter** (vor einem Nomen) passen sie sich an:\n| | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C'è **troppa** gente._",
+   "rule": "**Come avverbio** (con un verbo o un aggettivo) **non cambiano**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Davanti a un nome** cambiano come un aggettivo:\n| | m. sing. | f. sing. | m. plur. | f. plur. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C’è **troppa** gente._",
+   "ruleHelp": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**: _Studio molto. Il viaggio è molto bello._\n**Als Begleiter** (vor einem Nomen) passen sie sich an: molto/molta/molti/molte, poco/poca/pochi/poche … _Ho molti amici. C’è troppa gente._",
    "order": 62
   },
   "vocabularyIds": [],
@@ -75036,8 +79245,9 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "matching",
-    "prompt": "Was bedeutet das?",
+    "prompt": "Che cosa vuol dire?",
     "explanation": "",
+    "promptHelp": "Was bedeutet das?",
     "pairs": [
      {
       "id": "p1",
@@ -75068,6 +79278,16 @@ const STOCK_PACKAGES = [
       "id": "p6",
       "left": "molto bello",
       "right": "sehr schön"
+     },
+     {
+      "id": "p7",
+      "left": "troppa gente",
+      "right": "zu viele Leute"
+     },
+     {
+      "id": "p8",
+      "left": "poche sedie",
+      "right": "wenige Stühle"
      }
     ],
     "distractors": [
@@ -75080,13 +79300,13 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
-  "id": "g-ecco1-quantita-m1",
-  "title": "Ein Wochenende in Rom",
+  "id": "g-ecco1-quantita-l3",
+  "title": "Con il nome",
   "language": "it",
   "level": "A1",
-  "description": "Mengenangaben: molto, poco, tanto, troppo · Ein Wochenende in Rom (mittel).",
+  "description": "Molto, poco, tanto, troppo · Con il nome · livello facile.",
   "topics": [
-   "Mengenangaben: molto, poco, tanto, troppo",
+   "Molto, poco, tanto, troppo",
    "Grammatik"
   ],
   "sources": [
@@ -75114,13 +79334,149 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 7,
   "grammar": {
    "topic": "ecco1-quantita",
-   "topicTitle": "Mengenangaben: molto, poco, tanto, troppo",
+   "topicTitle": "Molto, poco, tanto, troppo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Come avverbio** (con un verbo o un aggettivo) **non cambiano**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Davanti a un nome** cambiano come un aggettivo:\n| | m. sing. | f. sing. | m. plur. | f. plur. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C’è **troppa** gente._",
+   "ruleHelp": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**: _Studio molto. Il viaggio è molto bello._\n**Als Begleiter** (vor einem Nomen) passen sie sich an: molto/molta/molti/molte, poco/poca/pochi/poche … _Ho molti amici. C’è troppa gente._",
+   "order": 63
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta con il nome.",
+    "explanation": "poco → pochi, poche (con la h).",
+    "promptHelp": "Wähle die passende Form vor dem Nomen.",
+    "explanationHelp": "poco → pochi, poche (mit h).",
+    "text": "[[g1]] ragazze giocano a pallavolo.\nAbbiamo [[g2]] soldi.\nCi sono [[g3]] turisti.\nBevo [[g4]] acqua.\nHo [[g5]] compiti!\nC’è [[g6]] neve.\nMangiamo [[g7]] frutta.\nCi sono [[g8]] macchine.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Molte",
+       "Molti",
+       "Molto"
+      ],
+      "answer": "Molte"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "pochi",
+       "poche",
+       "poco"
+      ],
+      "answer": "pochi"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "tanti",
+       "tante",
+       "tanto"
+      ],
+      "answer": "tanti"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "poca",
+       "poco",
+       "poche"
+      ],
+      "answer": "poca"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "troppi",
+       "troppe",
+       "troppo"
+      ],
+      "answer": "troppi"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "tanta",
+       "tanto",
+       "tante"
+      ],
+      "answer": "tanta"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "molta",
+       "molto",
+       "molte"
+      ],
+      "answer": "molta"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "poche",
+       "pochi",
+       "poca"
+      ],
+      "answer": "poche"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quantita-m1",
+  "title": "Un fine settimana a Roma",
+  "language": "it",
+  "level": "A1",
+  "description": "Molto, poco, tanto, troppo · Un fine settimana a Roma · livello medio.",
+  "topics": [
+   "Molto, poco, tanto, troppo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "ecco1-quantita",
+   "topicTitle": "Molto, poco, tanto, troppo",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Als Begleiter** (vor einem Nomen) passen sie sich an:\n| | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C'è **troppa** gente._",
+   "rule": "**Come avverbio** (con un verbo o un aggettivo) **non cambiano**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Davanti a un nome** cambiano come un aggettivo:\n| | m. sing. | f. sing. | m. plur. | f. plur. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C’è **troppa** gente._",
+   "ruleHelp": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**: _Studio molto. Il viaggio è molto bello._\n**Als Begleiter** (vor einem Nomen) passen sie sich an: molto/molta/molti/molte, poco/poca/pochi/poche … _Ho molti amici. C’è troppa gente._",
    "order": 61
   },
   "vocabularyIds": [],
@@ -75128,9 +79484,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Ergänze die richtige Form.",
-    "explanation": "Vor einem Nomen passt sich die Form an (tanti turisti, troppa gente). Beim Verb bleibt sie gleich (costa molto).",
-    "text": "A Roma ci sono (tanto) [[g1]] turisti.\nAbbiamo visto (molto) [[g2]] chiese.\nIl biglietto non costa (molto) [[g3]].\nPurtroppo abbiamo (poco) [[g4]] tempo.\nIn metro c'è (troppo) [[g5]] gente!",
+    "prompt": "Scrivi la forma giusta.",
+    "explanation": "Davanti a un nome cambia (tanti turisti, troppa gente). Con un verbo resta uguale (costa molto).",
+    "promptHelp": "Ergänze die richtige Form.",
+    "explanationHelp": "Vor einem Nomen passt sich die Form an. Beim Verb bleibt sie gleich.",
+    "text": "A Roma ci sono (tanto) [[g1]] turisti.\nAbbiamo visto (molto) [[g2]] chiese.\nIl biglietto non costa (molto) [[g3]].\nPurtroppo abbiamo (poco) [[g4]] tempo.\nIn metro c’è (troppo) [[g5]] gente!\nCi sono (tanto) [[g6]] fontane bellissime.\nMangiamo (molto) [[g7]] e camminiamo (tanto) [[g8]].\nI monumenti sono (molto) [[g9]] antichi.",
     "gaps": [
      {
       "id": "g1",
@@ -75161,6 +79519,30 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "troppa"
       ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "tante"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "molto"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "tanto"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "molto"
+      ]
      }
     ]
    }
@@ -75171,12 +79553,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-quantita-m2",
-  "title": "Die Endungen",
+  "title": "Le forme",
   "language": "it",
   "level": "A1",
-  "description": "Mengenangaben: molto, poco, tanto, troppo · Die Endungen (mittel).",
+  "description": "Molto, poco, tanto, troppo · Le forme · livello medio.",
   "topics": [
-   "Mengenangaben: molto, poco, tanto, troppo",
+   "Molto, poco, tanto, troppo",
    "Grammatik"
   ],
   "sources": [
@@ -75207,10 +79589,11 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 3,
   "grammar": {
    "topic": "ecco1-quantita",
-   "topicTitle": "Mengenangaben: molto, poco, tanto, troppo",
+   "topicTitle": "Molto, poco, tanto, troppo",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Als Begleiter** (vor einem Nomen) passen sie sich an:\n| | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C'è **troppa** gente._",
+   "rule": "**Come avverbio** (con un verbo o un aggettivo) **non cambiano**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Davanti a un nome** cambiano come un aggettivo:\n| | m. sing. | f. sing. | m. plur. | f. plur. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C’è **troppa** gente._",
+   "ruleHelp": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**: _Studio molto. Il viaggio è molto bello._\n**Als Begleiter** (vor einem Nomen) passen sie sich an: molto/molta/molti/molte, poco/poca/pochi/poche … _Ho molti amici. C’è troppa gente._",
    "order": 62
   },
   "vocabularyIds": [],
@@ -75218,14 +79601,16 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "table_fill",
-    "prompt": "Ergänze die Formen.",
-    "explanation": "poco → pochi, poche (mit h).",
+    "prompt": "Completa le forme.",
+    "explanation": "poco → pochi, poche (con la h).",
+    "promptHelp": "Ergänze die Formen.",
+    "explanationHelp": "poco → pochi, poche (mit h).",
     "columns": [
-     "Wort",
-     "m. Sg.",
-     "w. Sg.",
-     "m. Pl.",
-     "w. Pl."
+     "parola",
+     "m. sing.",
+     "f. sing.",
+     "m. plur.",
+     "f. plur."
     ],
     "rows": [
      [
@@ -75328,9 +79713,9 @@ const STOCK_PACKAGES = [
   "title": "Una festa in famiglia",
   "language": "it",
   "level": "A1",
-  "description": "Mengenangaben: molto, poco, tanto, troppo · Una festa in famiglia (mittel).",
+  "description": "Molto, poco, tanto, troppo · Una festa in famiglia · livello medio.",
   "topics": [
-   "Mengenangaben: molto, poco, tanto, troppo",
+   "Molto, poco, tanto, troppo",
    "Grammatik"
   ],
   "sources": [
@@ -75361,10 +79746,11 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 9,
   "grammar": {
    "topic": "ecco1-quantita",
-   "topicTitle": "Mengenangaben: molto, poco, tanto, troppo",
+   "topicTitle": "Molto, poco, tanto, troppo",
    "difficulty": "mittel",
    "origin": "own",
-   "rule": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Als Begleiter** (vor einem Nomen) passen sie sich an:\n| | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C'è **troppa** gente._",
+   "rule": "**Come avverbio** (con un verbo o un aggettivo) **non cambiano**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Davanti a un nome** cambiano come un aggettivo:\n| | m. sing. | f. sing. | m. plur. | f. plur. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C’è **troppa** gente._",
+   "ruleHelp": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**: _Studio molto. Il viaggio è molto bello._\n**Als Begleiter** (vor einem Nomen) passen sie sich an: molto/molta/molti/molte, poco/poca/pochi/poche … _Ho molti amici. C’è troppa gente._",
    "order": 63
   },
   "vocabularyIds": [],
@@ -75372,9 +79758,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_fill",
-    "prompt": "Ergänze molto, poco, tanto oder troppo in der richtigen Form.",
-    "explanation": "Beim Verb (mangio troppo) und vor Adjektiven (molto contento) bleibt die Form unverändert.",
-    "text": "Alla festa di nonna Rosa ci sono (tanto) [[g1]] parenti.\nCi sono (molto) [[g2]] torte e (tanto) [[g3]] frutta.\nIo mangio (troppo) [[g4]]!\nMio fratello è (molto) [[g5]] contento.\nI bambini fanno (troppo) [[g6]] rumore.\nPurtroppo abbiamo (poco) [[g7]] sedie.\nE c'è (poco) [[g8]] spazio in salotto.\nMa è una giornata (molto) [[g9]] bella!",
+    "prompt": "Scrivi molto, poco, tanto o troppo nella forma giusta.",
+    "explanation": "Con un verbo (mangio troppo) e prima di un aggettivo (molto contento) la forma non cambia.",
+    "promptHelp": "Ergänze in der richtigen Form.",
+    "explanationHelp": "Beim Verb und vor Adjektiven bleibt die Form unverändert.",
+    "text": "Alla festa di nonna Rosa ci sono (tanto) [[g1]] parenti.\nCi sono (molto) [[g2]] torte e (tanto) [[g3]] frutta.\nIo mangio (troppo) [[g4]]!\nMio fratello è (molto) [[g5]] contento.\nI bambini fanno (troppo) [[g6]] rumore.\nPurtroppo abbiamo (poco) [[g7]] sedie.\nE c’è (poco) [[g8]] spazio in salotto.\nMa è una giornata (molto) [[g9]] bella!",
     "gaps": [
      {
       "id": "g1",
@@ -75439,100 +79827,12 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "grammar",
   "id": "g-ecco1-quantita-s1",
-  "title": "Fehler finden",
+  "title": "Trova gli errori",
   "language": "it",
   "level": "A1",
-  "description": "Mengenangaben: molto, poco, tanto, troppo · Fehler finden (schwer).",
+  "description": "Molto, poco, tanto, troppo · Trova gli errori · livello difficile.",
   "topics": [
-   "Mengenangaben: molto, poco, tanto, troppo",
-   "Grammatik"
-  ],
-  "sources": [
-   {
-    "kind": "own",
-    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
-    "url": "",
-    "rights": "own"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "series": "Corso daje",
-    "volume": "1",
-    "unit": "5 · Famiglia e gite",
-    "section": "Parte B"
-   },
-   "grade": 8,
-   "foreignLanguageNo": 3,
-   "cefr": "A1",
-   "tags": [
-    "grammatik"
-   ]
-  },
-  "estimatedMinutes": 6,
-  "grammar": {
-   "topic": "ecco1-quantita",
-   "topicTitle": "Mengenangaben: molto, poco, tanto, troppo",
-   "difficulty": "schwer",
-   "origin": "own",
-   "rule": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Als Begleiter** (vor einem Nomen) passen sie sich an:\n| | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C'è **troppa** gente._",
-   "order": 61
-  },
-  "vocabularyIds": [],
-  "questions": [
-   {
-    "id": "q1",
-    "type": "error_correction",
-    "prompt": "Korrigiere die markierten Formen.",
-    "explanation": "",
-    "text": "Ho [[g1]] compiti.\nLaura è [[g2]] simpatica.\nC'è [[g3]] gente qui.\nMangio [[g4]].",
-    "errors": [
-     {
-      "id": "g1",
-      "wrong": "molto",
-      "acceptedAnswers": [
-       "molti"
-      ]
-     },
-     {
-      "id": "g2",
-      "wrong": "molta",
-      "acceptedAnswers": [
-       "molto"
-      ]
-     },
-     {
-      "id": "g3",
-      "wrong": "troppo",
-      "acceptedAnswers": [
-       "troppa"
-      ]
-     },
-     {
-      "id": "g4",
-      "wrong": "pochi",
-      "acceptedAnswers": [
-       "poco"
-      ]
-     }
-    ]
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "grammar",
-  "id": "g-ecco1-quantita-s2",
-  "title": "Adverb oder Begleiter?",
-  "language": "it",
-  "level": "A1",
-  "description": "Mengenangaben: molto, poco, tanto, troppo · Adverb oder Begleiter? (schwer).",
-  "topics": [
-   "Mengenangaben: molto, poco, tanto, troppo",
+   "Molto, poco, tanto, troppo",
    "Grammatik"
   ],
   "sources": [
@@ -75563,10 +79863,129 @@ const STOCK_PACKAGES = [
   "estimatedMinutes": 10,
   "grammar": {
    "topic": "ecco1-quantita",
-   "topicTitle": "Mengenangaben: molto, poco, tanto, troppo",
+   "topicTitle": "Molto, poco, tanto, troppo",
    "difficulty": "schwer",
    "origin": "own",
-   "rule": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Als Begleiter** (vor einem Nomen) passen sie sich an:\n| | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C'è **troppa** gente._",
+   "rule": "**Come avverbio** (con un verbo o un aggettivo) **non cambiano**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Davanti a un nome** cambiano come un aggettivo:\n| | m. sing. | f. sing. | m. plur. | f. plur. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C’è **troppa** gente._",
+   "ruleHelp": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**: _Studio molto. Il viaggio è molto bello._\n**Als Begleiter** (vor einem Nomen) passen sie sich an: molto/molta/molti/molte, poco/poca/pochi/poche … _Ho molti amici. C’è troppa gente._",
+   "order": 61
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi le forme segnate.",
+    "explanation": "",
+    "promptHelp": "Korrigiere die markierten Formen.",
+    "text": "Ho [[g1]] compiti.\nLaura è [[g2]] simpatica.\nC’è [[g3]] gente qui.\nMangio [[g4]].\nCi sono [[g5]] ragazze.\nAbbiamo [[g6]] soldi.\nIl film è [[g7]] lungo.\nHo [[g8]] libri nello zaino.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "molto",
+      "acceptedAnswers": [
+       "molti"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "molta",
+      "acceptedAnswers": [
+       "molto"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "troppo",
+      "acceptedAnswers": [
+       "troppa"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "pochi",
+      "acceptedAnswers": [
+       "poco"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "tanto",
+      "acceptedAnswers": [
+       "tante"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "poche",
+      "acceptedAnswers": [
+       "pochi"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "molti",
+      "acceptedAnswers": [
+       "molto"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "troppe",
+      "acceptedAnswers": [
+       "troppi"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quantita-s2",
+  "title": "Avverbio o con il nome?",
+  "language": "it",
+  "level": "A1",
+  "description": "Molto, poco, tanto, troppo · Avverbio o con il nome? · livello difficile.",
+  "topics": [
+   "Molto, poco, tanto, troppo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-quantita",
+   "topicTitle": "Molto, poco, tanto, troppo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Come avverbio** (con un verbo o un aggettivo) **non cambiano**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Davanti a un nome** cambiano come un aggettivo:\n| | m. sing. | f. sing. | m. plur. | f. plur. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C’è **troppa** gente._",
+   "ruleHelp": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**: _Studio molto. Il viaggio è molto bello._\n**Als Begleiter** (vor einem Nomen) passen sie sich an: molto/molta/molti/molte, poco/poca/pochi/poche … _Ho molti amici. C’è troppa gente._",
    "order": 62
   },
   "vocabularyIds": [],
@@ -75574,9 +79993,11 @@ const STOCK_PACKAGES = [
    {
     "id": "q1",
     "type": "gap_choice",
-    "prompt": "Wähle die richtige Form.",
-    "explanation": "Vor Adjektiven (difficili, simpatica) und beim Verb (legge, dormo) unverändert.",
-    "text": "Mia sorella legge [[g1]].\nHo [[g2]] libri in camera.\nOggi c'è [[g3]] gente in piazza.\nI compiti sono [[g4]] difficili.\nAbbiamo [[g5]] compiti!\nLucia è [[g6]] simpatica.\nCi sono [[g7]] ragazze in squadra.\nDormo [[g8]] durante la settimana.",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "Prima di un aggettivo (difficili, simpatica) e con un verbo (legge, dormo) non cambia.",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "Vor Adjektiven und beim Verb unverändert.",
+    "text": "Mia sorella legge [[g1]].\nHo [[g2]] libri in camera.\nOggi c’è [[g3]] gente in piazza.\nI compiti sono [[g4]] difficili.\nAbbiamo [[g5]] compiti!\nLucia è [[g6]] simpatica.\nCi sono [[g7]] ragazze in squadra.\nDormo [[g8]] durante la settimana.",
     "gaps": [
      {
       "id": "g1",
@@ -75649,6 +80070,131 @@ const STOCK_PACKAGES = [
        "poca"
       ],
       "answer": "poco"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quantita-s3",
+  "title": "La mia città",
+  "language": "it",
+  "level": "A1",
+  "description": "Molto, poco, tanto, troppo · La mia città · livello difficile.",
+  "topics": [
+   "Molto, poco, tanto, troppo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 5 · Famiglia e gite · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "5 · Famiglia e gite",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-quantita",
+   "topicTitle": "Molto, poco, tanto, troppo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Come avverbio** (con un verbo o un aggettivo) **non cambiano**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Davanti a un nome** cambiano come un aggettivo:\n| | m. sing. | f. sing. | m. plur. | f. plur. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C’è **troppa** gente._",
+   "ruleHelp": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**: _Studio molto. Il viaggio è molto bello._\n**Als Begleiter** (vor einem Nomen) passen sie sich an: molto/molta/molti/molte, poco/poca/pochi/poche … _Ho molti amici. C’è troppa gente._",
+   "order": 63
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Scrivi la frase con molto, poco, tanto o troppo.",
+    "explanation": "",
+    "promptHelp": "Schreibe den Satz mit molto, poco, tanto oder troppo.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "(nella mia città / tanto / parchi)",
+      "acceptedAnswers": [
+       "ci sono tanti parchi"
+      ],
+      "modelAnswer": "Nella mia città ci sono tanti parchi."
+     },
+     {
+      "id": "s2",
+      "start": "(c’è / poco / traffico)",
+      "acceptedAnswers": [
+       "c’è poco traffico"
+      ],
+      "modelAnswer": "C’è poco traffico."
+     },
+     {
+      "id": "s3",
+      "start": "(ci sono / molto / negozi)",
+      "acceptedAnswers": [
+       "ci sono molti negozi"
+      ],
+      "modelAnswer": "Ci sono molti negozi."
+     },
+     {
+      "id": "s4",
+      "start": "(d’estate c’è / troppo / gente)",
+      "acceptedAnswers": [
+       "c’è troppa gente"
+      ],
+      "modelAnswer": "D’estate c’è troppa gente."
+     },
+     {
+      "id": "s5",
+      "start": "(la città è / molto / bella)",
+      "acceptedAnswers": [
+       "è molto bella"
+      ],
+      "modelAnswer": "La città è molto bella."
+     },
+     {
+      "id": "s6",
+      "start": "(ci sono / poco / piscine)",
+      "acceptedAnswers": [
+       "ci sono poche piscine"
+      ],
+      "modelAnswer": "Ci sono poche piscine."
+     },
+     {
+      "id": "s7",
+      "start": "(i ragazzi studiano / tanto)",
+      "acceptedAnswers": [
+       "studiano tanto"
+      ],
+      "modelAnswer": "I ragazzi studiano tanto."
+     },
+     {
+      "id": "s8",
+      "start": "(ci sono / tanto / biciclette)",
+      "acceptedAnswers": [
+       "ci sono tante biciclette"
+      ],
+      "modelAnswer": "Ci sono tante biciclette."
      }
     ]
    }
@@ -76786,7 +81332,7 @@ const STOCK_PACKAGES = [
   "title": "Chi è?",
   "language": "it",
   "level": "A1",
-  "description": "I pronomi soggetto · Chi è? (einfach).",
+  "description": "I pronomi soggetto · Chi è? · livello facile.",
   "topics": [
    "I pronomi soggetto",
    "Grammatik"
@@ -76816,7 +81362,7 @@ const STOCK_PACKAGES = [
     "grammatik"
    ]
   },
-  "estimatedMinutes": 6,
+  "estimatedMinutes": 8,
   "grammar": {
    "topic": "ecco1-soggetto",
    "topicTitle": "I pronomi soggetto",
@@ -76830,45 +81376,103 @@ const STOCK_PACKAGES = [
   "questions": [
    {
     "id": "q1",
-    "type": "matching",
+    "type": "gap_choice",
     "prompt": "Quale pronome va con la forma del verbo?",
     "explanation": "La desinenza dice la persona.",
-    "promptHelp": "Welches Pronomen passt?",
+    "promptHelp": "Welches Pronomen passt zur Verbform?",
     "explanationHelp": "Die Endung verrät die Person.",
-    "pairs": [
+    "text": "[[g1]] abito\n[[g2]] abiti\n[[g3]] abita\n[[g4]] abitiamo\n[[g5]] abitate\n[[g6]] abitano\n[[g7]] parlo\n[[g8]] parli\n[[g9]] parliamo\n[[g10]] parlano",
+    "gaps": [
      {
-      "id": "p1",
-      "left": "abito",
-      "right": "io"
+      "id": "g1",
+      "options": [
+       "io",
+       "tu",
+       "lui"
+      ],
+      "answer": "io"
      },
      {
-      "id": "p2",
-      "left": "abiti",
-      "right": "tu"
+      "id": "g2",
+      "options": [
+       "tu",
+       "io",
+       "voi"
+      ],
+      "answer": "tu"
      },
      {
-      "id": "p3",
-      "left": "abita",
-      "right": "lui / lei"
+      "id": "g3",
+      "options": [
+       "lei",
+       "loro",
+       "noi"
+      ],
+      "answer": "lei"
      },
      {
-      "id": "p4",
-      "left": "abitiamo",
-      "right": "noi"
+      "id": "g4",
+      "options": [
+       "noi",
+       "voi",
+       "loro"
+      ],
+      "answer": "noi"
      },
      {
-      "id": "p5",
-      "left": "abitate",
-      "right": "voi"
+      "id": "g5",
+      "options": [
+       "voi",
+       "noi",
+       "tu"
+      ],
+      "answer": "voi"
      },
      {
-      "id": "p6",
-      "left": "abitano",
-      "right": "loro"
+      "id": "g6",
+      "options": [
+       "loro",
+       "lui",
+       "voi"
+      ],
+      "answer": "loro"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "io",
+       "lui",
+       "tu"
+      ],
+      "answer": "io"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "tu",
+       "lei",
+       "io"
+      ],
+      "answer": "tu"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "noi",
+       "loro",
+       "voi"
+      ],
+      "answer": "noi"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "loro",
+       "lei",
+       "noi"
+      ],
+      "answer": "loro"
      }
-    ],
-    "distractors": [
-     "Lei"
     ]
    }
   ]
@@ -76881,7 +81485,7 @@ const STOCK_PACKAGES = [
   "title": "Io, tu, lui …",
   "language": "it",
   "level": "A1",
-  "description": "I pronomi soggetto · Io, tu, lui … (einfach).",
+  "description": "I pronomi soggetto · Io, tu, lui … · livello facile.",
   "topics": [
    "I pronomi soggetto",
    "Grammatik"
@@ -76983,7 +81587,7 @@ const STOCK_PACKAGES = [
   "title": "Quale pronome?",
   "language": "it",
   "level": "A1",
-  "description": "I pronomi soggetto · Quale pronome? (einfach).",
+  "description": "I pronomi soggetto · Quale pronome? · livello facile.",
   "topics": [
    "I pronomi soggetto",
    "Grammatik"
@@ -77118,7 +81722,7 @@ const STOCK_PACKAGES = [
   "title": "Pronomi nella frase",
   "language": "it",
   "level": "A1",
-  "description": "I pronomi soggetto · Pronomi nella frase (mittel).",
+  "description": "I pronomi soggetto · Pronomi nella frase · livello medio.",
   "topics": [
    "I pronomi soggetto",
    "Grammatik"
@@ -77262,7 +81866,7 @@ const STOCK_PACKAGES = [
   "title": "Sottolineare e confrontare",
   "language": "it",
   "level": "A1",
-  "description": "I pronomi soggetto · Sottolineare e confrontare (mittel).",
+  "description": "I pronomi soggetto · Sottolineare e confrontare · livello medio.",
   "topics": [
    "I pronomi soggetto",
    "Grammatik"
@@ -77385,7 +81989,7 @@ const STOCK_PACKAGES = [
   "title": "Chi parla?",
   "language": "it",
   "level": "A1",
-  "description": "I pronomi soggetto · Chi parla? (mittel).",
+  "description": "I pronomi soggetto · Chi parla? · livello medio.",
   "topics": [
    "I pronomi soggetto",
    "Grammatik"
@@ -77542,7 +82146,7 @@ const STOCK_PACKAGES = [
   "title": "Contrasti",
   "language": "it",
   "level": "A1",
-  "description": "I pronomi soggetto · Contrasti (schwer).",
+  "description": "I pronomi soggetto · Contrasti · livello difficile.",
   "topics": [
    "I pronomi soggetto",
    "Grammatik"
@@ -77668,7 +82272,7 @@ const STOCK_PACKAGES = [
   "title": "Chi? Scrivi il pronome",
   "language": "it",
   "level": "A1",
-  "description": "I pronomi soggetto · Chi? Scrivi il pronome (schwer).",
+  "description": "I pronomi soggetto · Chi? Scrivi il pronome · livello difficile.",
   "topics": [
    "I pronomi soggetto",
    "Grammatik"
@@ -77779,7 +82383,7 @@ const STOCK_PACKAGES = [
   "title": "Errori con i pronomi",
   "language": "it",
   "level": "A1",
-  "description": "I pronomi soggetto · Errori con i pronomi (schwer).",
+  "description": "I pronomi soggetto · Errori con i pronomi · livello difficile.",
   "topics": [
    "I pronomi soggetto",
    "Grammatik"

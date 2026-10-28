@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-imperativo-m2",
- "title": "Die Lehrerin sagt …",
+ "title": "La prof dice …",
  "language": "it",
  "level": "A1",
- "description": "Der Imperativ (tu, voi) und die Verneinung · Die Lehrerin sagt … (mittel).",
+ "description": "L’imperativo (tu, voi) e la negazione · La prof dice … · livello medio.",
  "topics": [
-  "Der Imperativ (tu, voi) und die Verneinung",
+  "L’imperativo (tu, voi) e la negazione",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-imperativo",
-  "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+  "topicTitle": "L’imperativo (tu, voi) e la negazione",
   "difficulty": "mittel",
   "origin": "own",
   "order": 32,
-  "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_"
+  "rule": "**Affermativo:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nIrregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_\n\n**Negativo:**\n- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + imperativo: _**Non parlate!**_\n\nCon gli adulti (Lei): _Scusi! Senta!_",
+  "ruleHelp": "**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.\n**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Setze den Imperativ ein.",
+   "prompt": "Scrivi l’imperativo.",
+   "promptHelp": "Setze den Imperativ ein.",
    "type": "gap_fill",
-   "text": "Marco, (leggere) [[g1]] la pagina dieci!\nRagazzi, (aprire) [[g2]] il libro!\nSara, (scrivere) [[g3]] la soluzione alla LIM!\nLuca, non (parlare) [[g4]]!\nRagazzi, non (gridare) [[g5]]!\nGiulia, (fare) [[g6]] l'esercizio, per favore!",
+   "text": "Marco, (leggere) [[g1]] la pagina dieci!\nRagazzi, (aprire) [[g2]] il libro!\nSara, (scrivere) [[g3]] la soluzione alla LIM!\nLuca, non (parlare) [[g4]]!\nRagazzi, non (gridare) [[g5]]!\nGiulia, (fare) [[g6]] l’esercizio, per favore!\nRagazzi, (ascoltare) [[g7]] il dialogo!\nPaolo, (chiudere) [[g8]] la porta!",
    "gaps": [
     {
      "id": "g1",
@@ -82,8 +84,20 @@
     {
      "id": "g6",
      "acceptedAnswers": [
-      "fa'",
+      "fa’",
       "fai"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ascoltate"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "chiudi"
      ]
     }
    ]

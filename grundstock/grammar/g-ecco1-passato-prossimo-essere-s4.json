@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-passato-prossimo-essere-s4",
- "title": "Ein Tag in den Bergen",
+ "title": "Una gita",
  "language": "it",
  "level": "A1",
- "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Ein Tag in den Bergen (schwer).",
+ "description": "Il passato prossimo con essere e i participi irregolari · Una gita · livello difficile.",
  "topics": [
-  "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "Il passato prossimo con essere e i participi irregolari",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 11,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,72 +36,51 @@
  },
  "grammar": {
   "topic": "ecco1-passato-prossimo-essere",
-  "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "topicTitle": "Il passato prossimo con essere e i participi irregolari",
   "difficulty": "schwer",
   "origin": "own",
   "order": 44,
-  "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |"
+  "rule": "Con **essere** fanno il passato prossimo soprattutto i verbi di **movimento** e di **cambiamento**, e **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nIl participio cambia come un aggettivo (**soggetto**):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Participi irregolari:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+  "ruleHelp": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** sowie rimanere, stare, essere. Das Partizip richtet sich dann nach dem **Subjekt** (-o, -a, -i, -e): _Marco è andato, Giulia è andata, i ragazzi sono andati, le ragazze sono andate._\nUnregelmäßige Partizipien: fatto, preso, perso, visto, rimasto, deciso, letto, scritto, venuto, stato, vinto, riso."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Erzähle im passato prossimo (essere oder avere, unregelmäßige Partizipien beachten).",
-   "explanation": "essere → stato, vincere → vinto, ridere → riso, scrivere → scritto, prendere → preso.",
+   "prompt": "Racconta una gita (vacanze, neve, città). Usa almeno tre verbi con essere e tre con avere.",
+   "promptHelp": "Erzähle von einem Ausflug. Benutze mindestens drei Verben mit essere und drei mit avere.",
+   "type": "open_answer",
+   "modelAnswer": "Sabato sono andata in montagna con mia sorella. Siamo partite alle sette. Abbiamo preso il treno. Ho sciato tutto il giorno e sono caduta due volte! Siamo tornate a casa la sera.",
+   "lines": 6
+  },
+  {
+   "id": "q2",
+   "prompt": "E adesso completa con essere o avere.",
+   "promptHelp": "Und jetzt ergänze essere oder avere.",
    "type": "gap_fill",
-   "text": "Sabato scorso (io, Luca) (andare) [[g1]] in montagna con la classe.\n(Partire, noi) [[g2]] alle sette con il pullman.\nSulla neve (fare, noi) [[g3]] una gara di slittino.\nMarco (vincere) [[g4]] e Sara (ridere) [[g5]] tanto.\nIo (cadere) [[g6]] due volte!\nA pranzo (prendere, noi) [[g7]] una cioccolata calda.\nIl prof (scrivere) [[g8]] una cartolina alla preside.\nLa sera (essere, noi) [[g9]] molto stanchi.",
+   "text": "Io [[g1]] partito alle otto.\nNoi [[g2]] visto il lago.\nMia sorella [[g3]] rimasta in albergo.\nI miei genitori [[g4]] fatto una passeggiata.",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "sono andato"
+      "sono"
      ]
     },
     {
      "id": "g2",
      "acceptedAnswers": [
-      "Siamo partiti"
+      "abbiamo"
      ]
     },
     {
      "id": "g3",
      "acceptedAnswers": [
-      "abbiamo fatto"
+      "è"
      ]
     },
     {
      "id": "g4",
      "acceptedAnswers": [
-      "ha vinto"
-     ]
-    },
-    {
-     "id": "g5",
-     "acceptedAnswers": [
-      "ha riso"
-     ]
-    },
-    {
-     "id": "g6",
-     "acceptedAnswers": [
-      "sono caduto"
-     ]
-    },
-    {
-     "id": "g7",
-     "acceptedAnswers": [
-      "abbiamo preso"
-     ]
-    },
-    {
-     "id": "g8",
-     "acceptedAnswers": [
-      "ha scritto"
-     ]
-    },
-    {
-     "id": "g9",
-     "acceptedAnswers": [
-      "siamo stati"
+      "hanno"
      ]
     }
    ]

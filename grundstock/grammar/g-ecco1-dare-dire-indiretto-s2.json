@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-dare-dire-indiretto-s2",
- "title": "Pronomen statt Name",
+ "title": "Un litigio",
  "language": "it",
  "level": "A1",
- "description": "dare, dire und das indirekte Objekt · Pronomen statt Name (schwer).",
+ "description": "Dare, dire e i pronomi indiretti · Un litigio · livello difficile.",
  "topics": [
-  "dare, dire und das indirekte Objekt",
+  "Dare, dire e i pronomi indiretti",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 8,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,66 +36,68 @@
  },
  "grammar": {
   "topic": "ecco1-dare-dire-indiretto",
-  "topicTitle": "dare, dire und das indirekte Objekt",
+  "topicTitle": "Dare, dire e i pronomi indiretti",
   "difficulty": "schwer",
   "origin": "own",
   "order": 42,
-  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von)."
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**I pronomi indiretti** (a chi?) vanno **prima del verbo**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Attenzione:** _dà_ (verbo) con l’accento ≠ _da_ (preposizione).",
+  "ruleHelp": "dare: do, dai, dà, diamo, date, danno · dire: dico, dici, dice, diciamo, dite, dicono.\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**: mi (mir), ti (dir), gli (ihm), le (ihr), Le (Ihnen), ci (uns), vi (euch), gli (ihnen).\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ersetze die markierten Wörter durch ein Pronomen.",
-   "explanation": "Das Pronomen steht vor dem Verb.",
-   "type": "sentence_completion",
-   "items": [
+   "prompt": "Scrivi dare / dire e i pronomi.",
+   "promptHelp": "Ergänze dare / dire und die Pronomen.",
+   "type": "gap_fill",
+   "text": "Luca: Sara, che cosa mi (dire, tu) [[g1]]?\nSara: Ti (dire, io) [[g2]] la verità: non mi (dare, tu) [[g3]] mai i tuoi appunti!\nLuca: Ma io [[g4]] do sempre tutto!\nSara: Non è vero! E Marco è arrabbiato: non [[g5]] dai mai niente.\nLuca: Va bene, scusa. Oggi (dare, io) [[g6]] i miei appunti a te e anche a Marco.\nSara: Grazie! Allora noi [[g7]] (dare, noi) [[g8]] un gelato!",
+   "gaps": [
     {
-     "id": "s1",
-     "start": "Scrivo a Luca. → … scrivo.",
+     "id": "g1",
      "acceptedAnswers": [
-      "Gli"
-     ],
-     "modelAnswer": "Gli scrivo."
+      "dici"
+     ]
     },
     {
-     "id": "s2",
-     "start": "Telefono a Sara. → … telefono.",
+     "id": "g2",
      "acceptedAnswers": [
-      "Le"
-     ],
-     "modelAnswer": "Le telefono."
+      "dico"
+     ]
     },
     {
-     "id": "s3",
-     "start": "Do il libro a te. → … do il libro.",
+     "id": "g3",
      "acceptedAnswers": [
-      "Ti"
-     ],
-     "modelAnswer": "Ti do il libro."
+      "dai"
+     ]
     },
     {
-     "id": "s4",
-     "start": "La prof dà i compiti a noi. → La prof … dà i compiti.",
+     "id": "g4",
      "acceptedAnswers": [
-      "ci"
-     ],
-     "modelAnswer": "La prof ci dà i compiti."
+      "ti"
+     ]
     },
     {
-     "id": "s5",
-     "start": "Dico la verità a voi. → … dico la verità.",
+     "id": "g5",
      "acceptedAnswers": [
-      "Vi"
-     ],
-     "modelAnswer": "Vi dico la verità."
+      "gli"
+     ]
     },
     {
-     "id": "s6",
-     "start": "Rispondo alla signora Rossi (höflich). → … rispondo.",
+     "id": "g6",
      "acceptedAnswers": [
-      "Le"
-     ],
-     "modelAnswer": "Le rispondo."
+      "do"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ti"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "diamo"
+     ]
     }
    ]
   }

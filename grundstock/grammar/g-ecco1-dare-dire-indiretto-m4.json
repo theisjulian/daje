@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-dare-dire-indiretto-m4",
- "title": "Geschenke",
+ "title": "Pronome invece del nome",
  "language": "it",
  "level": "A1",
- "description": "dare, dire und das indirekte Objekt · Geschenke (mittel).",
+ "description": "Dare, dire e i pronomi indiretti · Pronome invece del nome · livello medio.",
  "topics": [
-  "dare, dire und das indirekte Objekt",
+  "Dare, dire e i pronomi indiretti",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,82 +36,85 @@
  },
  "grammar": {
   "topic": "ecco1-dare-dire-indiretto",
-  "topicTitle": "dare, dire und das indirekte Objekt",
+  "topicTitle": "Dare, dire e i pronomi indiretti",
   "difficulty": "mittel",
   "origin": "own",
   "order": 44,
-  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von)."
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**I pronomi indiretti** (a chi?) vanno **prima del verbo**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Attenzione:** _dà_ (verbo) con l’accento ≠ _da_ (preposizione).",
+  "ruleHelp": "dare: do, dai, dà, diamo, date, danno · dire: dico, dici, dice, diciamo, dite, dicono.\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**: mi (mir), ti (dir), gli (ihm), le (ihr), Le (Ihnen), ci (uns), vi (euch), gli (ihnen).\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze die Pronomen.",
-   "explanation": "gli bedeutet ihm, im Alltag auch ihnen (ai miei amici → gli).",
-   "type": "gap_choice",
-   "text": "È il compleanno di Marco: [[g1]] do un libro.\nMia sorella ama la musica: [[g2]] do un CD.\nRagazzi, [[g3]] do i biglietti per il concerto.\nMamma, che cosa [[g4]] dai per Natale?\nLa nonna [[g5]] dà sempre i dolci. (a noi)\nSignora, [[g6]] do il mio posto!\nI miei amici mi aiutano, io [[g7]] dico grazie. (ai miei amici)",
-   "gaps": [
+   "prompt": "Sostituisci le parole con un pronome.",
+   "promptHelp": "Ersetze die Wörter durch ein Pronomen.",
+   "explanation": "Il pronome va prima del verbo.",
+   "explanationHelp": "Das Pronomen steht vor dem Verb.",
+   "type": "sentence_completion",
+   "items": [
     {
-     "id": "g1",
-     "options": [
-      "gli",
-      "le",
+     "id": "s1",
+     "start": "Scrivo a Luca. → … scrivo.",
+     "acceptedAnswers": [
+      "Gli"
+     ],
+     "modelAnswer": "Gli scrivo."
+    },
+    {
+     "id": "s2",
+     "start": "Telefono a Sara. → … telefono.",
+     "acceptedAnswers": [
+      "Le"
+     ],
+     "modelAnswer": "Le telefono."
+    },
+    {
+     "id": "s3",
+     "start": "Do il libro a te. → … do il libro.",
+     "acceptedAnswers": [
+      "Ti"
+     ],
+     "modelAnswer": "Ti do il libro."
+    },
+    {
+     "id": "s4",
+     "start": "La prof dà i compiti a noi. → La prof … dà i compiti.",
+     "acceptedAnswers": [
       "ci"
      ],
-     "answer": "gli"
+     "modelAnswer": "La prof ci dà i compiti."
     },
     {
-     "id": "g2",
-     "options": [
-      "le",
-      "gli",
-      "vi"
+     "id": "s5",
+     "start": "Dico la verità a voi. → … dico la verità.",
+     "acceptedAnswers": [
+      "Vi"
      ],
-     "answer": "le"
+     "modelAnswer": "Vi dico la verità."
     },
     {
-     "id": "g3",
-     "options": [
-      "vi",
-      "ci",
-      "gli"
+     "id": "s6",
+     "start": "Rispondo alla signora Rossi (formale). → … rispondo.",
+     "acceptedAnswers": [
+      "Le"
      ],
-     "answer": "vi"
+     "modelAnswer": "Le rispondo."
     },
     {
-     "id": "g4",
-     "options": [
-      "mi",
-      "ti",
-      "le"
+     "id": "s7",
+     "start": "Mando un messaggio a Paolo. → … mando un messaggio.",
+     "acceptedAnswers": [
+      "Gli"
      ],
-     "answer": "mi"
+     "modelAnswer": "Gli mando un messaggio."
     },
     {
-     "id": "g5",
-     "options": [
-      "ci",
-      "vi",
-      "le"
+     "id": "s8",
+     "start": "Mamma dà un bacio a me. → Mamma … dà un bacio.",
+     "acceptedAnswers": [
+      "mi"
      ],
-     "answer": "ci"
-    },
-    {
-     "id": "g6",
-     "options": [
-      "Le",
-      "ti",
-      "gli"
-     ],
-     "answer": "Le"
-    },
-    {
-     "id": "g7",
-     "options": [
-      "gli",
-      "le",
-      "ti"
-     ],
-     "answer": "gli"
+     "modelAnswer": "Mamma mi dà un bacio."
     }
    ]
   }

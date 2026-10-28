@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-passato-prossimo-avere-l4",
- "title": "Gestern",
+ "title": "Ieri",
  "language": "it",
  "level": "A1",
- "description": "Das passato prossimo mit avere · Gestern (einfach).",
+ "description": "Il passato prossimo con avere · Ieri · livello facile.",
  "topics": [
-  "Das passato prossimo mit avere",
+  "Il passato prossimo con avere",
   "Grammatik"
  ],
  "sources": [
@@ -36,17 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-passato-prossimo-avere",
-  "topicTitle": "Das passato prossimo mit avere",
+  "topicTitle": "Il passato prossimo con avere",
   "difficulty": "leicht",
   "origin": "own",
   "order": 34,
-  "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_."
+  "rule": "Il **passato prossimo** racconta azioni finite nel passato (come il «Perfekt» tedesco):\n**avere** (presente) + **participio**: _Ieri **ho giocato** a calcio._\n\n| infinito | participio |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nCon avere il participio **non cambia**. Parole utili: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_.",
+  "ruleHelp": "Das **passato prossimo** beschreibt abgeschlossene Handlungen (wie das deutsche Perfekt): avere (Präsens) + Partizip.\nPartizip: -are → -ato, -ere → -uto, -ire → -ito. Mit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l’anno scorso, sabato scorso, la settimana scorsa_."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle die richtige Form.",
-   "explanation": "Mit avere bleibt das Partizip auf -o: Sara ha comprato.",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "Con avere il participio finisce in -o: Sara ha comprato.",
+   "explanationHelp": "Mit avere bleibt das Partizip auf -o.",
    "type": "gap_choice",
    "text": "Ieri io [[g1]] per il test.\nTu [[g2]] la nuova canzone?\nSara [[g3]] una maglietta.\nNoi [[g4]] un gelato.\nVoi [[g5]] bene?\nI ragazzi [[g6]] a basket.\nIo [[g7]] i compiti alle sei.\nMio padre [[g8]] tutto il giorno.",
    "gaps": [
