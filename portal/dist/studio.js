@@ -51,20 +51,34 @@ const edNewId = () => 'eigen-' + Date.now().toString(36) + Math.random().toStrin
 
 /* ---------- Neu anlegen ---------- */
 
+const ED_KIND_NEW = {
+  listening: ['Neue Hörübung', 'Eigene Hörübung.'],
+  vocabulary: ['Neue Wortliste', 'Eigene Wortliste.'],
+  grammar: ['Neue Grammatikübung', 'Eigene Grammatikübung.']
+};
+const edKindLabel = k => ({ listening: 'Hören', vocabulary: 'Wörter', grammar: 'Grammatik' })[k] || k;
+const edKindCount = p => (p.kind === 'vocabulary' ? plural(p.entries.length, 'Wort', 'Wörter') : plural(p.questions.length, 'Aufgabe', 'Aufgaben'));
 function edBlank(kind) {
   const base = {
     format: 'theis-learning-package',
     schemaVersion: '1.0',
     kind,
     id: edNewId(),
-    title: kind === 'listening' ? 'Neue Hörübung' : 'Neue Wortliste',
+    title: ED_KIND_NEW[kind][0],
     language: 'it',
     level: 'A1',
-    description: kind === 'listening' ? 'Eigene Hörübung.' : 'Eigene Wortliste.',
+    description: ED_KIND_NEW[kind][1],
     topics: ['eigene Übung'],
     sources: [{ kind: 'own', citation: 'Eigene Übung der Lehrkraft.', rights: 'own' }],
     reviewNotes: []
   };
+  if (kind === 'grammar')
+    return {
+      ...base,
+      estimatedMinutes: 6,
+      grammar: { topic: 'eigen-' + Math.random().toString(36).slice(2, 8), topicTitle: 'Eigenes Thema', difficulty: 'leicht', origin: 'own' },
+      questions: [edQuestion('gap_fill', 1)]
+    };
   return kind === 'listening'
     ? {
         ...base,
@@ -137,13 +151,16 @@ function edCopyFrom(id) {
 function edFriendlyErrors(x) {
   const e = [];
   if (!x.title.trim()) e.push('Titel fehlt.');
-  if (x.kind === 'listening') {
-    const m = x.media;
-    if (m.type === 'youtube' && !/^[A-Za-z0-9_-]{11}$/.test(m.videoId || ''))
+  if (x.kind === 'grammar') {
+    if (!(x.grammar?.topicTitle || '').trim()) e.push('Grammatikthema fehlt.');
+  }
+  if (x.kind === 'listening' || x.kind === 'grammar') {
+    const m = x.media || {};
+    if (x.kind === 'listening' && m.type === 'youtube' && !/^[A-Za-z0-9_-]{11}$/.test(m.videoId || ''))
       e.push('YouTube-Link fehlt oder ist nicht erkennbar.');
-    if (m.type === 'audio' && !/^https:\/\//.test(m.url || ''))
+    if (x.kind === 'listening' && m.type === 'audio' && !/^https:\/\//.test(m.url || ''))
       e.push('Audio-Adresse muss mit https:// beginnen.');
-    if (m.type === 'speech' && !(m.text || '').trim()) e.push('Text zum Vorlesen fehlt.');
+    if (x.kind === 'listening' && m.type === 'speech' && !(m.text || '').trim()) e.push('Text zum Vorlesen fehlt.');
     if (!x.questions.length) e.push('Mindestens eine Aufgabe anlegen.');
     x.questions.forEach((q, i) => {
       const n = 'Aufgabe ' + (i + 1) + ': ';
@@ -200,13 +217,17 @@ function edClean(x) {
   const y = JSON.parse(JSON.stringify(x));
   y.title = y.title.trim();
   y.description =
-    y.description.trim() || (y.kind === 'listening' ? 'Eigene Hörübung.' : 'Eigene Wortliste.');
+    y.description.trim() || ED_KIND_NEW[y.kind][1];
   if (!y.topics.length) y.topics = ['eigene Übung'];
   y.sources = y.sources.map(s => ({
     ...s,
     citation: s.citation.trim() || 'Eigene Übung der Lehrkraft.'
   }));
-  if (y.kind === 'listening') {
+  if (y.kind === 'grammar') {
+    y.grammar.topicTitle = y.grammar.topicTitle.trim();
+    if (!(y.grammar.rule || '').trim()) delete y.grammar.rule;
+  }
+  if (y.kind === 'listening' || y.kind === 'grammar') {
     y.questions = y.questions.map(q => {
       if (q.type === 'multiple_choice') {
         const options = q.options.filter(o => o.text.trim());
@@ -216,10 +237,10 @@ function edClean(x) {
       return { ...q, options: q.options.filter(o => o.text.trim()) };
     });
     y.questions.forEach(q => {
-      if (!q.explanation.trim()) delete q.explanation;
+      if (!(q.explanation || '').trim()) delete q.explanation;
     });
     if (!y.transcript) delete y.transcript;
-    if (y.media.type === 'youtube')
+    if (y.media?.type === 'youtube')
       ['start', 'end'].forEach(k => y.media[k] === undefined && delete y.media[k]);
   } else y.section = y.title;
   return y;
@@ -327,12 +348,13 @@ function edSubmissionPackage(payload, name) {
   const p = JSON.parse(JSON.stringify(payload));
   const who = name.trim();
   p.reviewNotes = [...(p.reviewNotes || []), `Eingereicht${who ? ' von ' + who : ''} am ${new Date().toLocaleDateString('de-DE')}; Einverständnis zur Veröffentlichung im daje-Katalog erteilt.`].slice(-20);
-  if (who && p.sources.length < 12) p.sources = [...p.sources, { kind: 'own', citation: (p.kind === 'listening' ? 'Aufgaben: ' : 'Liste: ') + who, rights: 'own' }];
+  if (who && p.sources.length < 12) p.sources = [...p.sources, { kind: 'own', citation: (p.kind === 'vocabulary' ? 'Liste: ' : 'Aufgaben: ') + who, rights: 'own' }];
   return p;
 }
 function edSubmit() {
   const v = edCommit();
   if (!v.ok) return toast('Bitte zuerst die offenen Punkte ergänzen.');
+  if (v.value.grammar?.origin === 'original') return toast('Unverändert übernommene Buchübungen bleiben privat und lassen sich nicht einreichen.');
   const x = edItem().payload;
   let d = $('ed-submit-dialog');
   if (!d) {
@@ -343,7 +365,7 @@ function edSubmit() {
   }
   d.innerHTML = `<div class="dialog-head"><h2 id="ed-submit-title">An daje schicken</h2><button class="button secondary" data-close="ed-submit-dialog">Schließen</button></div>
     <p>Eine gelungene Übung? Schick sie an <b>${DAJE_MAIL}</b>. Nach einer Prüfung kann sie in den öffentlichen daje-Katalog aufgenommen werden und steht dann allen zur Verfügung.</p>
-    <p class="muted small">„${esc(x.title)}“ · ${x.kind === 'listening' ? plural(x.questions.length, 'Aufgabe', 'Aufgaben') : plural(x.entries.length, 'Wort', 'Wörter')} · ${esc(portalLang(x.language))} · ${esc(x.level)}</p>
+    <p class="muted small">„${esc(x.title)}“ · ${edKindCount(x)} · ${esc(portalLang(x.language))} · ${esc(x.level)}</p>
     <label class="field">Dein Name für die Quellenangabe (optional)<input id="submit-name" autocomplete="name" value="${esc(read(SUBMIT_NAME_KEY, ''))}" placeholder="z. B. M. Rossi, Gymnasium Musterstadt"></label>
     <label class="dlg-check"><input type="checkbox" id="submit-ok"><span>Ich bin einverstanden, dass die Übung nach Prüfung im daje-Katalog veröffentlicht wird. Medien und Texte darf ich dafür verwenden.</span></label>
     <div class="hw-actions"><button class="button primary" data-submit="mail">E-Mail öffnen</button><button class="button secondary" data-submit="file">Als Datei teilen</button></div>
@@ -359,7 +381,7 @@ async function edSubmitSend(how) {
   const fileName = 'daje-' + p.id + '.json';
   const file = () => new File([JSON.stringify(p, null, 2)], fileName, { type: 'application/json' });
   const subject = 'daje · Vorschlag für den Katalog: ' + p.title;
-  const intro = `Hallo,\n\nich schlage diese ${p.kind === 'listening' ? 'Hörübung' : 'Wortliste'} für den daje-Katalog vor.\n\nTitel: ${p.title}\nSprache und Niveau: ${portalLang(p.language)} · ${p.level}\n${name.trim() ? 'Von: ' + name.trim() + '\n' : ''}Einverständnis: Die Übung darf nach Prüfung im daje-Katalog veröffentlicht werden.\n\n`;
+  const intro = `Hallo,\n\nich schlage diese ${{ listening: 'Hörübung', vocabulary: 'Wortliste', grammar: 'Grammatikübung' }[p.kind]} für den daje-Katalog vor.\n\nTitel: ${p.title}\nSprache und Niveau: ${portalLang(p.language)} · ${p.level}\n${name.trim() ? 'Von: ' + name.trim() + '\n' : ''}Einverständnis: Die Übung darf nach Prüfung im daje-Katalog veröffentlicht werden.\n\n`;
   if (how === 'file') {
     const f = file();
     if (navigator.canShare && navigator.canShare({ files: [f] })) {
@@ -409,7 +431,7 @@ async function receiveSubmission(code) {
     const note = (p.reviewNotes || []).filter(n => n.startsWith('Eingereicht')).pop() || '';
     d.innerHTML = `<div class="dialog-head"><h2 id="ed-received-title">Eingereichte Übung</h2><button class="button secondary" data-close="ed-received-dialog">Schließen</button></div>
       <h3>${esc(p.title)}</h3>
-      <p>${p.kind === 'listening' ? 'Hörübung · ' + plural(p.questions.length, 'Aufgabe', 'Aufgaben') : 'Wortliste · ' + plural(p.entries.length, 'Wort', 'Wörter')} · ${esc(portalLang(p.language))} · ${esc(p.level)}</p>
+      <p>${{ listening: 'Hörübung', vocabulary: 'Wortliste', grammar: 'Grammatikübung' }[p.kind]} · ${edKindCount(p)} · ${esc(portalLang(p.language))} · ${esc(p.level)}</p>
       ${note ? `<p class="muted small">${esc(note)}</p>` : ''}
       <p>In der Redaktion prüfen, bei Bedarf bearbeiten und dann mit „Live stellen“ in den öffentlichen Katalog aufnehmen.</p>
       <div class="hw-actions"><button class="button primary" data-received="take">In die Redaktion übernehmen</button></div>`;
@@ -450,7 +472,7 @@ async function receiveShared(code) {
     const list = read('daje-geteilt-v1', []).filter(x => x.payload?.id !== v.value.id);
     list.unshift({ payload: v.value, at: new Date().toISOString() });
     save('daje-geteilt-v1', list.slice(0, 40));
-    if (v.value.kind === 'listening') openListening(v.value.id);
+    if (v.value.kind === 'listening' || v.value.kind === 'grammar') openListening(v.value.id);
     else {
       nav('vokabeln');
       showVocabularySet(v.value.id);
@@ -488,19 +510,22 @@ function renderStudio() {
           ? 'Im Katalog sichtbar'
           : 'Fertig'
         : 'Entwurf';
-    return `<button class="ed-card ${edId(x) === studioSelection ? 'active' : ''}" data-ed-open="${esc(edId(x))}"><span class="badge">${p.kind === 'listening' ? 'Hören' : 'Wörter'} · ${esc(p.level)}</span><b>${esc(p.title)}</b><small>${esc(portalLang(p.language))} · ${state}</small></button>`;
+    return `<button class="ed-card ${edId(x) === studioSelection ? 'active' : ''}" data-ed-open="${esc(edId(x))}"><span class="badge">${edKindLabel(p.kind)} · ${esc(p.level)}</span><b>${esc(p.title)}</b><small>${esc(portalLang(p.language))} · ${state}</small></button>`;
   };
   $('main').innerHTML = `<div class="page studio">
-    <header class="page-head"><div class="eyebrow">Redaktion</div><h1>Eigene Übungen</h1><p>Erstelle Hörübungen und Wortlisten für deine Klasse. Alles bleibt in diesem Browser, bis du es als Link teilst.</p></header>
+    <header class="page-head"><div class="eyebrow">Redaktion</div><h1>Eigene Übungen</h1><p>Erstelle Hörübungen, Wortlisten und Grammatikübungen für deine Klasse. Alles bleibt in diesem Browser, bis du es als Link teilst.</p></header>
     <div class="ed-new">
       <button class="button primary" data-ki-open aria-expanded="${kiOpen}">Hörübung mit KI erstellen</button>
       <button class="button primary" data-vk-open aria-expanded="${vkOpen}">Wortliste mit KI erstellen</button>
       <button class="button secondary" data-ed-new="listening">Leere Hörübung</button>
+      <button class="button primary" data-gk-open aria-expanded="${gkOpen}">Grammatik mit KI einlesen</button>
       <button class="button secondary" data-ed-new="vocabulary">Leere Wortliste</button>
+      <button class="button secondary" data-ed-new="grammar">Leere Grammatikübung</button>
       <button class="quiet" data-portal="studio-load">Datei importieren</button><input id="studio-file" type="file" accept=".json,application/json" hidden>
     </div>
     ${kiOpen ? kiPanelHTML() : ''}
     ${vkOpen ? vkPanelHTML() : ''}
+    ${gkOpen ? gkPanelHTML() : ''}
     <div class="ed-layout">
       <nav class="ed-list" aria-label="Eigene Inhalte">
         ${own.map(card).join('') || '<p class="hw-empty">Noch keine eigenen Übungen. Lege oben eine an oder öffne eine Hörübung im Katalog und wähle „Als eigene Übung bearbeiten“.</p>'}
@@ -584,6 +609,31 @@ function editorFormHTML(item) {
       <textarea data-ed="lines" class="ed-lines" rows="14" spellcheck="false" placeholder="la stazione = der Bahnhof | Il treno parte dalla stazione.">${esc(lines)}</textarea>
       <p class="small muted" id="ed-count">${plural(x.entries.length, 'Eintrag', 'Einträge')}</p></section>${open ? '' : rights}`;
   }
+  const tasksBox = () => `<section class="ed-box"><h3>Aufgaben <span class="muted">(${x.questions.length})</span></h3>${x.questions.map((q, i) => edQuestionHTML(q, i, x.questions.length)).join('')}
+      <p class="ed-add-h">Aufgabe hinzufügen</p>
+      ${FORMAT_GROUPS.map(([g, list]) => `<p class="ed-add-g">${esc(g)}</p><div class="ed-add">${list.map(([t, d]) => `<button class="button secondary" data-ed-add="${t}" title="${esc(d)}">+&nbsp;${esc(edTypeLabel(t))}</button>`).join('')}</div>`).join('')}
+    </section>`;
+  if (x.kind === 'grammar') {
+    const g = x.grammar;
+    const topics = typeof grTopics === 'function' ? grTopics() : [];
+    const orig = g.origin === 'original';
+    return `${head}${open ? rights : ''}
+    <section class="ed-box ed-grammar"><h3>Grammatikthema</h3>
+      <div class="ed-grid">
+        ${edField('Thema', `<input data-ed="gTopic" maxlength="120" list="ed-gr-topics" value="${esc(g.topicTitle)}" placeholder="z. B. Der bestimmte Artikel">`, 'Gleiches Thema wie im Katalog wählen, dann erscheint die Übung dort mit.')}
+        ${edField('Stufe', edSel('gDifficulty', g.difficulty, [['leicht', 'einfach'], ['mittel', 'mittel'], ['schwer', 'schwer']]))}
+      </div>
+      <datalist id="ed-gr-topics">${[...new Map(topics.map(t => [t.title, t])).values()].map(t => `<option value="${esc(t.title)}">`).join('')}</datalist>
+      <div class="ed-rights-opts" role="radiogroup" aria-label="Herkunft der Übung">${[
+        ['own', 'Eigene Übung', 'Selbst ausgedacht.'],
+        ['adapted', 'Nach einer Vorlage', 'Eigene Sätze, angelehnt an eine Buchübung.'],
+        ['original', 'Unverändert aus dem Buch', 'Bleibt privat: nur für dich und deine Klasse, nicht einreichbar und nicht veröffentlichbar.']
+      ].map(([v, l, d]) => `<label class="ed-right ${g.origin === v ? 'on' : ''}"><input type="radio" name="ed-origin" data-ed="gOrigin" value="${v}" ${g.origin === v ? 'checked' : ''}><span><b>${l}</b><small>${d}</small></span></label>`).join('')}</div>
+      ${orig ? '<p class="small warn">Unveränderte Buchübung: bleibt privat.</p>' : ''}
+      ${edField('Merkkasten (optional)', `<textarea data-ed="gRule" rows="6" maxlength="4000" spellcheck="false" placeholder="Kurze Regel. Listen mit „- “, Tabellen mit „|“, **fett**, _Beispiel_">${esc(g.rule || '')}</textarea>`, 'Erscheint über den Übungen des Themas. Ein Merkkasten pro Thema genügt.')}
+    </section>
+    ${tasksBox()}${open ? '' : rights}`;
+  }
   const m = x.media;
   const mediaFields =
     m.type === 'youtube'
@@ -601,17 +651,13 @@ function editorFormHTML(item) {
               `<textarea data-ed="speech" rows="5" maxlength="4000">${esc(m.text || '')}</textarea>`
             )
           : `<p class="small muted">Dieses Medium (${esc(m.type)}) lässt sich im Bereich „Alles bearbeiten (JSON)“ ändern.</p>`;
-  const qs = x.questions.map((q, i) => edQuestionHTML(q, i, x.questions.length)).join('');
   return `${head}${open ? rights : ''}
     <section class="ed-box"><h3>Medium</h3>
       ${edField('Art', edSel('mediaType', ['youtube', 'audio', 'speech'].includes(m.type) ? m.type : m.type, [['youtube', 'YouTube-Video'], ['audio', 'Audiodatei (Link)'], ['speech', 'Text vorlesen lassen'], ...(['youtube', 'audio', 'speech'].includes(m.type) ? [] : [[m.type, m.type]])]))}
       ${mediaFields}
       <details><summary>Transkript (optional)</summary>${edField('', `<textarea data-ed="transcript" rows="6" maxlength="40000">${esc(x.transcript || '')}</textarea>`, 'Lernende können es als Hilfe öffnen. Liedtexte nur, wenn du sie verwenden darfst.')}</details>
     </section>
-    <section class="ed-box"><h3>Aufgaben <span class="muted">(${x.questions.length})</span></h3>${qs}
-      <p class="ed-add-h">Aufgabe hinzufügen</p>
-      ${FORMAT_GROUPS.map(([g, list]) => `<p class="ed-add-g">${esc(g)}</p><div class="ed-add">${list.map(([t, d]) => `<button class="button secondary" data-ed-add="${t}" title="${esc(d)}">+&nbsp;${esc(edTypeLabel(t))}</button>`).join('')}</div>`).join('')}
-    </section>${open ? '' : rights}`;
+    ${tasksBox()}${open ? '' : rights}`;
 }
 /* Schnelleingabe als Text: Lücken in eckigen Klammern, Paare mit „=“, Reihenfolge zeilenweise. */
 function edGapText(q) {
@@ -851,7 +897,7 @@ function validationHTML() {
       '</ul></div>'
     );
   const x = r.result.value;
-  return `<div class="validation-success"><b>Gültig: ${esc(x.title)}</b><p>${x.kind === 'listening' ? x.questions.length + ' Aufgaben' : x.entries.length + ' Wörter'} · ${portalLang(x.language)} · ${x.level}</p><button class="button primary" data-portal="studio-import">Als eigene Übung übernehmen</button></div>`;
+  return `<div class="validation-success"><b>Gültig: ${esc(x.title)}</b><p>${edKindCount(x)} · ${portalLang(x.language)} · ${x.level}</p><button class="button primary" data-portal="studio-import">Als eigene Übung übernehmen</button></div>`;
 }
 
 /* ---------- Import (Datei oder eingefügt) ---------- */
@@ -918,6 +964,15 @@ function edToggleCatalog() {
 
 /* ---------- Eingaben ---------- */
 
+/* Thema einer Grammatikübung: Heißt es wie ein vorhandenes Thema (Katalog oder eigene), gehört die Übung dazu. */
+function edSetTopic(x, title) {
+  x.grammar.topicTitle = title;
+  const t = title.trim().toLowerCase();
+  const hit = t && typeof grTopics === 'function' ? grTopics().find(z => z.title.trim().toLowerCase() === t) : null;
+  if (hit) x.grammar.topic = hit.id;
+  else if (!/^eigen-/.test(x.grammar.topic) || (typeof grTopics === 'function' && grTopics().some(z => z.id === x.grammar.topic && z.items.some(i => i.id !== x.id))))
+    x.grammar.topic = 'eigen-' + Math.random().toString(36).slice(2, 8);
+}
 function edParseTime(v) {
   const m = String(v)
     .trim()
@@ -933,24 +988,35 @@ function edYouTubeId(v) {
   return m ? m[1] : '';
 }
 function edLines(text) {
-  const old = edWork.entries;
+  // Unveränderte Zeilen behalten alle Angaben (dritte Spalte, Sprechform, Schlagwörter), auch wenn Zeilen dazukommen.
+  const old = new Map(edWork.entries.map(w => [w.target, w]));
+  const used = new Set();
   return text
     .split('\n')
     .map(l => l.trim())
     .filter(Boolean)
     .slice(0, 1000)
     .map((l, i) => {
-      const [main, example] = l.split('|').map(s => s.trim());
-      const [target, tr] = main.split(/\s*=\s*/);
-      const prev = old[i] && old[i].target === (target || '').trim() ? old[i] : {};
+      const [main, ...rest] = l.split('|');
+      const example = rest.join('|').trim();
+      const k = main.indexOf('=');
+      const target = (k < 0 ? main : main.slice(0, k)).trim();
+      const tr = k < 0 ? '' : main.slice(k + 1).trim();
+      let prev = old.get(target) || {};
+      if (used.has(prev.id)) prev = {};
+      used.add(prev.id);
+      const same = prev.translations && prev.translations.join(' / ') === tr;
       const w = {
         ...prev,
         id: prev.id || 'w' + (i + 1) + '-' + Math.random().toString(36).slice(2, 6),
-        target: (target || '').trim(),
-        translations: (tr || '')
-          .split('/')
-          .map(s => s.trim())
-          .filter(Boolean)
+        target,
+        // „der/die Zuschauer/in“ bleibt ganz; mehrere Übersetzungen mit „ / “ (mit Leerzeichen) oder ohne trennen.
+        translations: same
+          ? prev.translations
+          : tr
+              .split(/\s+\/\s+/.test(tr) ? /\s+\/\s+/ : '/')
+              .map(s => s.trim())
+              .filter(Boolean)
       };
       if (example) w.example = example;
       else delete w.example;
@@ -974,6 +1040,8 @@ document.addEventListener('input', e => {
   } else if (k === 'audio') x.media.url = t.value.trim();
   else if (k === 'speech') x.media.text = t.value;
   else if (k === 'transcript') x.transcript = t.value;
+  else if (k === 'gTopic') edSetTopic(x, t.value);
+  else if (k === 'gRule') x.grammar.rule = t.value;
   else if (k === 'lines') {
     x.entries = edLines(t.value);
     const c = $('ed-count');
@@ -1028,7 +1096,12 @@ document.addEventListener('change', e => {
   const x = edWork;
   const k = t.dataset.ed;
   if (k === 'language' || k === 'level') x[k] = t.value;
-  else if (k === 'rights') {
+  else if (k === 'gDifficulty') x.grammar.difficulty = t.value;
+  else if (k === 'gOrigin') {
+    x.grammar.origin = t.value;
+    edCommit();
+    return renderStudio();
+  } else if (k === 'rights') {
     x.sources[0].rights = t.value;
     edCommit();
     renderStudio();
@@ -1140,7 +1213,7 @@ document.addEventListener('click', e => {
   const a = b.dataset.edAct;
   const item = edItem();
   if (a === 'preview' && edCommit().ok) {
-    if (item.payload.kind === 'listening') return openListening(item.payload.id, true);
+    if (item.payload.kind !== 'vocabulary') return openListening(item.payload.id, true);
     return edPreviewWords(item.payload);
   }
   if (a === 'share') return edShare();
@@ -1245,7 +1318,7 @@ function kiPanelHTML() {
       <div id="ki-result" role="status"></div>
     </div></div>
     <details class="ed-box ki-advanced"><summary>Fertiges Paket importieren (JSON, für Fortgeschrittene)</summary>
-      <div class="studio-downloads"><a class="button secondary" href="imports/KI-Kommandodatei.md" download>KI-Kommandodatei</a><a class="button secondary" href="imports/KI-Wortschatz.md" download>Kommandodatei Wortschatz</a><button class="button secondary" data-portal="studio-load">Datei auswählen</button></div>
+      <div class="studio-downloads"><a class="button secondary" href="imports/KI-Kommandodatei.md" download>KI-Kommandodatei</a><a class="button secondary" href="imports/KI-Wortschatz.md" download>Kommandodatei Wortschatz</a><a class="button secondary" href="imports/KI-Grammatik.md" download>Kommandodatei Grammatik</a><button class="button secondary" data-portal="studio-load">Datei auswählen</button></div>
       <label class="field">JSON einfügen<textarea id="studio-json" rows="5" maxlength="2000000" spellcheck="false" placeholder="{ ... }">${esc(lastValidation?.raw || '')}</textarea></label>
       <button class="button secondary" data-portal="studio-validate">Prüfen</button>
       <div id="studio-validation" role="status">${validationHTML()}</div>
@@ -1374,7 +1447,7 @@ document.addEventListener('click', e => {
   if (!b) return;
   if (b.hasAttribute('data-ki-open')) {
     kiOpen = !kiOpen;
-    if (kiOpen) vkOpen = false;
+    if (kiOpen) vkOpen = gkOpen = false;
     renderStudio();
     if (kiOpen) document.querySelector('.ed-ki')?.scrollIntoView({ block: 'start' });
   } else if (b.hasAttribute('data-ki-copy')) kiCopy();
@@ -1487,7 +1560,7 @@ document.addEventListener('click', e => {
   if (!b) return;
   if (b.hasAttribute('data-vk-open')) {
     vkOpen = !vkOpen;
-    if (vkOpen) kiOpen = false;
+    if (vkOpen) kiOpen = gkOpen = false;
     renderStudio();
     if (vkOpen) document.querySelector('.ed-ki')?.scrollIntoView({ block: 'start' });
   } else if (b.hasAttribute('data-vk-copy')) vkCopy();
@@ -1501,4 +1574,155 @@ document.addEventListener('click', e => {
 
 document.addEventListener('click', e => {
   if (e.target.closest('[data-ed-rights]')) edShowRights();
+});
+
+/* ---------- Grammatik mit KI einlesen ----------
+   Quelle: Fotos von Buchübungen (genau übernehmen oder eigene daraus) oder nur ein Thema.
+   „Genau“ ist die Ausnahme: solche Übungen bleiben privat (origin original), lassen sich weder einreichen
+   noch live stellen. Eine Antwort der KI ergibt mehrere Übungen zu einem Thema, je Stufe. */
+const GK_KEY = 'daje-ki-grammatik-v1';
+const GK_DEFAULT = { mode: 'eigen', language: 'it', level: 'A1', topicTitle: '', series: 'Ecco più', volume: '1', publisher: 'Cornelsen', unit: '', section: '', pages: '', grade: '', levels: 'leicht,mittel,schwer', perLevel: '2', wishes: '', answer: '' };
+let gkOpen = false,
+  gkForm = null,
+  gkCommand = null;
+const gkState = () => (gkForm ??= Object.assign({}, GK_DEFAULT, read(GK_KEY, {})));
+function gkPanelHTML() {
+  const f = gkState();
+  const scan = f.mode !== 'thema';
+  const sel = (k, list) =>
+    `<select data-gk="${k}">${list.map(([v, t]) => `<option value="${esc(v)}" ${String(f[k]) === String(v) ? 'selected' : ''}>${esc(t)}</option>`).join('')}</select>`;
+  const inp = (k, label, ph, extra = '') => `<label class="field">${label}<input data-gk="${k}" value="${esc(f[k])}" placeholder="${esc(ph)}" ${extra}></label>`;
+  const lv = f.levels.split(',');
+  const topics = typeof grTopics === 'function' ? grTopics() : [];
+  return `<section class="ed-ki" aria-label="Grammatik mit KI einlesen">
+    <div class="ki-step"><span class="ki-n">1</span><div>
+      <h3>Was soll entstehen?</h3>
+      <div class="ed-rights-opts gk-mode" role="radiogroup" aria-label="Modus">${[
+        ['eigen', 'Eigene Übungen nach Buchvorlage', 'Du fotografierst Buchübungen oder die Grammatikseite. Die KI erstellt neue Übungen zum selben Thema mit dem Wortschatz der Lektion. Teilbar und veröffentlichbar.'],
+        ['genau', 'Buchübungen genau übernehmen (Ausnahme)', 'Die Übungen von den Fotos werden unverändert digital. Sie bleiben privat: für dich und deine Klasse, nicht im öffentlichen Katalog.'],
+        ['thema', 'Ohne Vorlage, nur Thema', 'Die KI erstellt Übungen zu einem Grammatikthema, das du nennst.']
+      ].map(([v, l, d]) => `<label class="ed-right ${f.mode === v ? 'on' : ''}"><input type="radio" name="gk-mode" data-gk="mode" value="${v}" ${f.mode === v ? 'checked' : ''}><span><b>${l}</b><small>${d}</small></span></label>`).join('')}</div>
+      <div class="ed-grid">
+        <label class="field">Sprache${sel('language', Object.entries(TheisContent.LANGUAGES))}</label>
+        <label class="field">Niveau${sel('level', ED_LEVELS.map(l => [l, l]))}</label>
+        ${inp('topicTitle', scan ? 'Grammatikthema (optional)' : 'Grammatikthema', 'z. B. Passato prossimo mit essere', 'list="gk-topics"')}
+        ${inp('series', 'Lehrwerk (Reihe)', 'z. B. Ecco più')}${inp('volume', 'Band', 'z. B. 1', 'inputmode="numeric"')}${inp('unit', 'Lektion', 'z. B. Unità 4')}
+        ${scan ? inp('section', 'Abschnitt (optional)', 'z. B. B') + inp('pages', 'Seiten', 'z. B. 64–65') : ''}
+        ${f.mode === 'genau' ? '' : `<label class="field">Übungen je Stufe${sel('perLevel', [['1', '1'], ['2', '2'], ['3', '3']])}</label>`}
+        <label class="field">Klassenstufe (optional)${sel('grade', [['', '–'], ...[5, 6, 7, 8, 9, 10, 11, 12, 13].map(n => [String(n), String(n)])])}</label>
+      </div>
+      <datalist id="gk-topics">${[...new Set(topics.map(t => t.title))].map(t => `<option value="${esc(t)}">`).join('')}</datalist>
+      ${f.mode === 'genau' ? '' : `<div class="chip-row" role="group" aria-label="Stufen">${[['leicht', 'einfach'], ['mittel', 'mittel'], ['schwer', 'schwer']].map(([k, l]) => `<button type="button" class="chip" data-gk-level="${k}" aria-pressed="${lv.includes(k)}">${l}</button>`).join('')}</div>`}
+      ${scan ? '<p class="ki-help">Die Fotos hängst du in Schritt 2 direkt im Chat an (Büroklammer oder Plus-Zeichen): gerade fotografiert, gut lesbar, eine Seite pro Foto.</p>' : ''}
+      <label class="field">Wünsche (optional)<input data-gk="wishes" value="${esc(f.wishes)}" placeholder="z. B. nur Übung 3 und 4, Wortschatz Schule"></label>
+    </div></div>
+    <div class="ki-step"><span class="ki-n">2</span><div>
+      <h3>Auftrag an die KI</h3>
+      <p class="muted small">${scan ? 'Auftrag kopieren, im Chat die Fotos anhängen, Auftrag einfügen und absenden.' : 'Auftrag kopieren, im Chat einfügen und absenden.'}</p>
+      <div class="ki-actions"><button class="button primary" data-gk-copy>Auftrag kopieren</button>${KI_CHATS.map(([n, u]) => `<a class="button secondary" href="${u}" target="_blank" rel="noopener">${n} öffnen</a>`).join('')}</div>
+      <p class="small" id="gk-copy-status" role="status"></p>
+    </div></div>
+    <div class="ki-step"><span class="ki-n">3</span><div>
+      <h3>Antwort der KI einfügen</h3>
+      <label class="field"><textarea data-gk="answer" rows="6" spellcheck="false" placeholder="Die ganze Antwort hier einfügen, auch mit Text davor oder danach.">${esc(f.answer)}</textarea></label>
+      <div class="ki-actions"><button class="button primary" data-gk-build>Übungen anlegen</button><button class="quiet" data-gk-reset>Formular leeren</button><a class="quiet" href="imports/KI-Grammatik.md" download>Kommandodatei</a></div>
+      <div id="gk-result" role="status"></div>
+    </div></div>
+  </section>`;
+}
+function gkInputs() {
+  const f = gkState();
+  const t = f.topicTitle.trim().toLowerCase();
+  const hit = t && typeof grTopics === 'function' ? grTopics().find(z => z.title.trim().toLowerCase() === t) : null;
+  return {
+    ...f,
+    topicTitle: f.topicTitle.trim(),
+    topicId: hit ? hit.id : '',
+    series: f.series.trim(),
+    volume: f.volume.trim(),
+    unit: f.unit.trim(),
+    section: f.mode === 'thema' ? '' : f.section.trim(),
+    pages: f.mode === 'thema' ? '' : f.pages.trim(),
+    publisher: /ecco/i.test(f.series) ? 'Cornelsen' : '',
+    levels: f.levels.split(',').filter(Boolean)
+  };
+}
+async function gkCopy() {
+  const status = $('gk-copy-status');
+  try {
+    if (gkForm.mode === 'thema' && !gkForm.topicTitle.trim()) throw new Error('Bitte zuerst das Grammatikthema eintragen.');
+    if (gkForm.mode !== 'genau' && !gkForm.levels) throw new Error('Bitte mindestens eine Stufe wählen.');
+    const job = kiLoad('imports/KI-Grammatik.md', gkCommand).then(c => DajeKI.promptForGrammar((gkCommand = c), gkInputs()));
+    const copied = await copyLater(job);
+    const text = await job;
+    if (copied) status.textContent = gkForm.mode === 'thema' ? 'Auftrag kopiert. Jetzt im Chat einfügen und absenden.' : 'Auftrag kopiert. Im Chat zuerst die Fotos anhängen, dann den Auftrag einfügen und absenden.';
+    else {
+      status.innerHTML = 'Kopieren wurde blockiert. Bitte hier markieren und kopieren:<textarea class="ki-fallback" rows="5" readonly>' + esc(text) + '</textarea>';
+      status.querySelector('textarea').select();
+    }
+  } catch (err) {
+    status.textContent = err.message;
+  }
+}
+function gkBuild() {
+  const out = $('gk-result');
+  try {
+    const ai = DajeKI.extractJSON(gkForm.answer);
+    const r = DajeKI.buildGrammar(ai, { ...gkInputs(), id: edNewId }, TheisContent.validatePackage);
+    if (editorState.items.length + r.pkgs.length > 100) throw new Error('Höchstens 100 eigene Inhalte. Bitte zuerst alte löschen.');
+    const now = new Date().toISOString();
+    // In Reihenfolge einfach → schwer oben in der Liste; fertige Übungen gleich im eigenen Katalog zeigen.
+    r.pkgs
+      .slice()
+      .reverse()
+      .forEach(({ pkg, result }) =>
+        editorState.items.unshift({ payload: result?.ok ? result.value : null, draft: pkg, status: result?.ok ? 'published' : 'draft', updatedAt: now })
+      );
+    saveEditorState();
+    studioSelection = r.pkgs[0].pkg.id;
+    edWork = null;
+    gkOpen = false;
+    gkForm.answer = '';
+    save(GK_KEY, gkForm);
+    renderStudio();
+    const ok = r.pkgs.filter(p => p.result?.ok).length;
+    const orig = r.pkgs[0].pkg.grammar.origin === 'original';
+    toast(`${plural(r.pkgs.length, 'Übung', 'Übungen')} angelegt zum Thema „${r.pkgs[0].pkg.grammar.topicTitle}“.${ok < r.pkgs.length ? ` ${r.pkgs.length - ok} noch als Entwurf: bitte prüfen.` : ' Sie stehen in deinem Grammatikbereich.'}${orig ? ' Unverändert übernommen: bleibt privat.' : ''}`);
+  } catch (err) {
+    out.innerHTML = `<div class="validation-errors"><b>Noch nicht übernommen</b><p>${esc(err.message)}</p></div>`;
+  }
+}
+document.addEventListener('input', e => {
+  const k = e.target.dataset?.gk;
+  if (!k) return;
+  gkState();
+  gkForm[k] = e.target.value;
+  save(GK_KEY, gkForm);
+  if (k === 'mode') renderStudio();
+});
+document.addEventListener('change', e => {
+  if (e.target.dataset?.gk && e.target.tagName === 'SELECT') e.target.dispatchEvent(new Event('input', { bubbles: true }));
+});
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-gk-open],[data-gk-copy],[data-gk-build],[data-gk-reset],[data-gk-level]');
+  if (!b) return;
+  if (b.hasAttribute('data-gk-open')) {
+    gkOpen = !gkOpen;
+    if (gkOpen) kiOpen = vkOpen = false;
+    renderStudio();
+    if (gkOpen) document.querySelector('.ed-ki')?.scrollIntoView({ block: 'start' });
+  } else if (b.dataset.gkLevel) {
+    gkState();
+    const set = new Set(gkForm.levels.split(',').filter(Boolean));
+    set.has(b.dataset.gkLevel) ? set.delete(b.dataset.gkLevel) : set.add(b.dataset.gkLevel);
+    gkForm.levels = ['leicht', 'mittel', 'schwer'].filter(l => set.has(l)).join(',');
+    save(GK_KEY, gkForm);
+    b.setAttribute('aria-pressed', set.has(b.dataset.gkLevel));
+  } else if (b.hasAttribute('data-gk-copy')) gkCopy();
+  else if (b.hasAttribute('data-gk-build')) gkBuild();
+  else if (confirm('Alle Eingaben im Formular löschen?')) {
+    gkForm = { ...gkForm, topicTitle: '', unit: '', section: '', pages: '', wishes: '', answer: '' };
+    save(GK_KEY, gkForm);
+    renderStudio();
+  }
 });

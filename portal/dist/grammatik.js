@@ -119,7 +119,7 @@ function grTopicPage() {
   const row = x => {
     const st = lessonStatus(x);
     const state = st.done ? `${st.progress.lastResult.correct} von ${st.progress.lastResult.total} richtig` : st.answered ? 'Angefangen' : 'Noch nicht geübt';
-    return `<li class="gr-ex ${st.done ? 'is-done' : ''}"><span class="gr-ex-text"><b>${esc(x.title)}</b><small>${plural(x.questions.length, 'Aufgabe', 'Aufgaben')} · ${x.estimatedMinutes} Min. · ${esc(state)}</small></span><span class="gr-ex-actions">${teacher && typeof hwButton === 'function' ? hwButton('g:' + x.id) : ''}${teacher && typeof wsButton === 'function' ? wsButton(x.id) : ''}<button class="button ${st.done ? 'secondary' : 'primary'}" data-lesson="${esc(x.id)}">${st.done ? 'Noch einmal' : 'Üben'}</button></span></li>`;
+    return `<li class="gr-ex ${st.done ? 'is-done' : ''}"><span class="gr-ex-text"><b>${esc(x.title)}</b><small>${plural(x.questions.length, 'Aufgabe', 'Aufgaben')} · ${x.estimatedMinutes} Min. · ${esc(state)}</small></span><span class="gr-ex-actions">${teacher && typeof hwButton === 'function' ? hwButton('g:' + x.id) : ''}${teacher && typeof wsButton === 'function' ? wsButton(x.id) : ''}${teacher && typeof liveEditButton === 'function' ? liveEditButton(x.id, 'quiet') : ''}${teacher && editorState.items.some(i => edId(i) === x.id) ? `<button class="quiet" data-ed-edit="${esc(x.id)}">Bearbeiten</button>` : ''}<button class="button ${st.done ? 'secondary' : 'primary'}" data-lesson="${esc(x.id)}">${st.done ? 'Noch einmal' : 'Üben'}</button></span></li>`;
   };
   const levels = GR_LEVELS.map(([k, l]) => {
     const items = t.items.filter(x => x.grammar.difficulty === k);

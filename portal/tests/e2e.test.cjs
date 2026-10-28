@@ -568,6 +568,46 @@ async function step(name, fn) {
     await pp.evaluate(() => { localStorage.removeItem('daje-arbeitsblatt-v1'); wsDraft = { title: '', sheets: [[]], rule: true }; wsRefresh(); });
   });
 
+  await step('Grammatik mit KI einlesen: Antwort → Übungen im Grammatikbereich, Original bleibt privat', async () => {
+    await pp.goto(base, { waitUntil: 'networkidle' });
+    await pp.evaluate(() => { save('daje-lehrkraft-ok', true); setPortalAudience('teach'); refreshAudience(); nav('redaktion'); });
+    await pp.click('[data-gk-open]');
+    await pp.click('label:has(input[data-gk="mode"][value="genau"])');
+    await pp.fill('[data-gk="topicTitle"]', 'Test Thema Artikel');
+    await pp.fill('[data-gk="unit"]', 'Unità 9');
+    const answer = 'Ecco:\n```json\n' + JSON.stringify({
+      topic: { title: 'Test Thema Artikel', rule: '- **il** ragazzo\n- **la** ragazza' },
+      exercises: [
+        { title: 'Esercizio 1', difficulty: 'leicht', questions: [{ id: 'q1', type: 'gap_choice', prompt: 'Scegli.', text: '[[g1]] ragazzo\n[[g2]] ragazza', gaps: [{ id: 'g1', options: ['il', 'la'], answer: 'il' }, { id: 'g2', options: ['il', 'la'], answer: 'la' }] }] },
+        { title: 'Esercizio 2', difficulty: 'schwer', questions: [{ id: 'q1', type: 'gap_fill', prompt: 'Completa.', text: '[[g1]] amico', gaps: [{ id: 'g1', acceptedAnswers: ["l'"] }] }] }
+      ]
+    }) + '\n```';
+    await pp.fill('[data-gk="answer"]', answer);
+    await pp.click('[data-gk-build]');
+    const made = await pp.evaluate(() => editorState.items.filter(i => i.payload?.kind === 'grammar').map(i => [i.status, i.payload.grammar.origin, i.payload.grammar.difficulty]));
+    assert.deepEqual(made, [['published', 'original', 'leicht'], ['published', 'original', 'schwer']]);
+    assert.ok(await pp.$('.ed-grammar input[data-ed="gOrigin"][value="original"]:checked'), 'Editor zeigt Herkunft');
+    await pp.click('[data-ed-act="submit"]');
+    assert.ok(!(await pp.$('#ed-submit-dialog[open]')), 'Original nicht einreichbar');
+    await pp.evaluate(() => nav('grammatik'));
+    await pp.click('[data-gr-band="1"]');
+    const topic = await pp.evaluate(() => grTopics().find(t => t.title === 'Test Thema Artikel').id);
+    await pp.click(`[data-gr-topic="${topic}"]`);
+    assert.match(await pp.textContent('.rule-card'), /ragazza/);
+    await pp.click('.gr-ex [data-lesson]');
+    await pp.waitForSelector('#listening-form select.gap-sel', { timeout: 5000 });
+    // Leere Grammatikübung im Editor: Stufe und Thema setzen
+    await pp.evaluate(() => nav('redaktion'));
+    await pp.click('[data-ed-new="grammar"]');
+    await pp.fill('[data-ed="gTopic"]', 'Die Präpositionen a und in');
+    await pp.selectOption('[data-ed="gDifficulty"]', 'mittel');
+    await pp.waitForTimeout(700);
+    const g = await pp.evaluate(() => edWork.grammar);
+    assert.equal(g.topic, 'ecco1-a-in', 'vorhandenes Thema übernommen');
+    assert.equal(g.difficulty, 'mittel');
+    await pp.evaluate(() => { editorState.items = editorState.items.filter(i => (i.draft || i.payload).kind !== 'grammar'); saveEditorState(); studioSelection = null; edWork = null; });
+  });
+
   await step('Verben: Band 3, „Welche Form?“ und „Im Satz“ lösen', async () => {
     await pp.goto(base, { waitUntil: 'networkidle' });
     await pp.evaluate(() => nav('verben'));
@@ -659,6 +699,22 @@ async function step(name, fn) {
     await pp.waitForFunction(() => /Übertragen/.test(document.getElementById('live-msg').textContent));
     assert.equal(puts.length, 1);
     assert.match(puts[0], /grundstock\/listening\/eigen-/);
+    // Betreiber: veröffentlichte Grammatikübung bearbeiten → Korrektur, dann entfernen → Entfernt-Vermerk
+    await pp.evaluate(() => nav('grammatik'));
+    await pp.click('[data-gr-band="1"]');
+    await pp.click('[data-gr-topic="ecco1-a-in"]');
+    await pp.click('[data-live-edit="g-ecco1-a-in-l1"]');
+    await pp.waitForSelector('.ed-grammar');
+    await pp.fill('[data-ed="title"]', 'a oder in? (korrigiert)');
+    await pp.waitForTimeout(500);
+    await pp.evaluate(() => (document.getElementById('live-box').open = true));
+    await pp.click('[data-live="push"]');
+    await pp.waitForFunction(() => /Übertragen/.test(document.getElementById('live-msg').textContent));
+    assert.match(puts[1], /grundstock\/korrekturen\/g-ecco1-a-in-l1\.json/);
+    await pp.click('[data-live="remove"]');
+    await pp.waitForFunction(() => /Entfernt/.test(document.getElementById('live-msg').textContent));
+    assert.match(puts[2], /korrekturen\/g-ecco1-a-in-l1\.json/);
+    await pp.evaluate(() => { editorState.items = editorState.items.filter(i => edId(i) !== 'g-ecco1-a-in-l1'); saveEditorState(); });
     await pp.unroute('https://api.github.com/**');
     await pp.evaluate(() => localStorage.removeItem('daje-github-v1'));
   });

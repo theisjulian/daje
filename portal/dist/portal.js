@@ -39,10 +39,13 @@ function withExtra(x) {
 }
 function contentList(kind) {
   const reviewIds = new Set(LISTENING_REVIEW_SEEDS.map(x => x.id));
-  const seeds =
+  // Betreiber-Korrekturen (grundstock/korrekturen): entfernte IDs fehlen, korrigierte ersetzen eingebaute Hörübungen.
+  const removed = new Set(typeof STOCK_REMOVED !== 'undefined' ? STOCK_REMOVED : []);
+  const stockIds = new Set(STOCK_PACKAGES.map(x => x.id));
+  const builtIn =
     kind === 'listening'
       ? [
-          ...[...LISTENING_SEEDS, ...LISTENING_REVIEW_SEEDS].map(withExtra),
+          ...[...LISTENING_SEEDS, ...LISTENING_REVIEW_SEEDS].filter(x => !stockIds.has(x.id)).map(withExtra),
           ...STOCK_PACKAGES.filter(x => x.kind === 'listening')
         ]
       : kind === 'grammar'
@@ -55,6 +58,7 @@ function contentList(kind) {
             ...STOCK_PACKAGES.filter(x => x.kind === 'vocabulary')
           ]
         : [];
+  const seeds = builtIn.filter(x => !removed.has(x.id));
   const local = editorState.items
     .filter(
       x =>

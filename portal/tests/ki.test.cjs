@@ -81,3 +81,44 @@ console.log('KI-Import: Antwort lesen, Paket ergänzen, Belege prüfen passed.')
   assert.equal(sv.result.value.entries[0].say, 'bello, bella');
   console.log('KI Wortschatz passed.');
 }
+
+// Grammatik: eine Antwort → mehrere Übungen zu einem Thema; „genau“ bleibt privat (origin original).
+{
+  const ai = {
+    topic: { title: 'Der bestimmte Artikel', rule: '| | m | f\n| Sg. | il | la' },
+    exercises: [
+      { title: 'il oder la?', difficulty: 'leicht', questions: [{ type: 'gap_choice', prompt: 'Scegli.', text: '[[g1]] ragazzo\n[[g2]] ragazza', gaps: [{ id: 'g1', options: ['il', 'la'], answer: 'il' }, { id: 'g2', options: ['il', 'la'], answer: 'la' }], evidence: 'x' }] },
+      { title: 'Ergänze', difficulty: 'mega', questions: [{ id: 'q1', type: 'gap_fill', prompt: 'Completa.', text: '[[g1]] amico', gaps: [{ id: 'g1', acceptedAnswers: ["l'"] }] }] }
+    ],
+    reviewNotes: ['Übung 5 weggelassen']
+  };
+  let n = 0;
+  const inp = { language: 'it', level: 'A1', mode: 'eigen', series: 'Ecco più', volume: '1', publisher: 'Cornelsen', unit: 'Unità 1', pages: '20', grade: '8', id: () => 'eigen-test-' + ++n };
+  const r = KI.buildGrammar(ai, inp, validatePackage);
+  assert.equal(r.pkgs.length, 2);
+  assert.ok(r.pkgs.every(p => p.result.ok), JSON.stringify(r.warnings));
+  const [a, b] = r.pkgs.map(p => p.result.value);
+  assert.equal(a.kind, 'grammar');
+  assert.equal(a.grammar.topic, b.grammar.topic);
+  assert.equal(a.grammar.origin, 'adapted');
+  assert.equal(a.grammar.rule.split('\n').length, 2);
+  assert.ok(!b.grammar.rule, 'Merkkasten nur einmal je Thema');
+  assert.equal(b.grammar.difficulty, 'mittel', 'unbekannte Stufe → mittel');
+  assert.ok(!('evidence' in a.questions[0]));
+  assert.equal(a.catalog.textbook.unit, 'Unità 1');
+  assert.equal(a.catalog.grade, 8);
+  const g = KI.buildGrammar(ai, { ...inp, mode: 'genau', topicId: 'ecco1-artikel-sg' }, validatePackage).pkgs[0].result.value;
+  assert.equal(g.grammar.origin, 'original');
+  assert.equal(g.grammar.topic, 'ecco1-artikel-sg');
+  assert.match(g.sources[0].citation, /unverändert/);
+  assert.equal(KI.buildGrammar(ai, { ...inp, mode: 'thema', series: '' }).pkgs[0].pkg.grammar.origin, 'own');
+  assert.throws(() => KI.buildGrammar({ exercises: [] }, inp), /keine Übungen/);
+  assert.throws(() => KI.buildGrammar({ abbruch: 'unscharf' }, inp), /abgebrochen/);
+  const cmd = fs.readFileSync(__dirname + '/../dist/imports/KI-Grammatik.md', 'utf8');
+  const pt = KI.promptForGrammar(cmd, { ...inp, mode: 'genau', levels: ['leicht'] });
+  assert.match(pt, /Modus: GENAU/);
+  assert.doesNotMatch(pt, /- Stufen:/);
+  assert.doesNotMatch(pt, /\n\n- Seiten/);
+  assert.match(KI.promptForGrammar(cmd, { ...inp, levels: ['leicht', 'schwer'], perLevel: '3' }), /Stufen: leicht, schwer · je Stufe 3/);
+  console.log('KI Grammatik passed.');
+}

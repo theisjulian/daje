@@ -14,6 +14,38 @@ function liveSave(c) {
     localStorage.setItem(LIVE_KEY, JSON.stringify(c));
   } catch (e) {}
 }
+/* Schon im öffentlichen Katalog? (Grundstock oder eingebaute Hörübung) Dann gehen Änderungen als Korrektur
+   nach grundstock/korrekturen/<id>.json; die Import-Werkzeuge schreiben dort nie hin. */
+function liveIsPublic(id) {
+  return STOCK_PACKAGES.some(x => x.id === id) || [...LISTENING_SEEDS, ...LISTENING_REVIEW_SEEDS].some(x => x.id === id);
+}
+const liveAdmin = () => !!liveCfg().token;
+/* Knopf für den Betreiber (GitHub-Zugang in diesem Browser): veröffentlichte Fassung bearbeiten. */
+function liveEditButton(id, cls = 'button secondary') {
+  return liveAdmin() && liveIsPublic(id) && !editorState.items.some(i => edId(i) === id)
+    ? `<button class="${cls}" data-live-edit="${esc(id)}">Veröffentlichte Fassung bearbeiten</button>`
+    : '';
+}
+function liveEdit(id) {
+  const x = findTask(id) || contentList('vocabulary').find(y => y.id === id);
+  if (!x) return toast('Nicht gefunden.');
+  const copy = JSON.parse(JSON.stringify(x));
+  if (!editorState.items.some(i => edId(i) === id))
+    editorState.items.unshift({ payload: copy, draft: copy, status: 'published', updatedAt: new Date().toISOString() });
+  saveEditorState();
+  studioSelection = id;
+  edWork = null;
+  nav('redaktion');
+  setTimeout(() => {
+    const b = $('live-box');
+    if (b) b.open = true;
+  }, 0);
+  toast('Veröffentlichte Fassung geöffnet. Nach dem Ändern unten „Live stellen“.');
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-live-edit]');
+  if (b) liveEdit(b.dataset.liveEdit);
+});
 function utf8b64(s) {
   const b = new TextEncoder().encode(s);
   let t = '';
@@ -52,7 +84,8 @@ async function liveError(r, step) {
         </details>
         <button class="button secondary" type="button" data-live="check">Zugang prüfen</button>
       </details>
-      <button class="button primary" type="button" data-live="push">Live stellen</button>
+      ${liveIsPublic(edId(item)) ? '<p class="small">Schon veröffentlicht: „Live stellen“ ersetzt die öffentliche Fassung, „Entfernen“ nimmt sie aus dem Katalog.</p>' : ''}
+      <div class="ki-actions"><button class="button primary" type="button" data-live="push">Live stellen</button>${liveIsPublic(edId(item)) ? '<button class="button secondary danger" type="button" data-live="remove">Aus dem öffentlichen Katalog entfernen</button>' : ''}</div>
       <p class="small" id="live-msg" role="status"></p></details>`
     );
   };
@@ -82,6 +115,40 @@ async function liveError(r, step) {
       msg.textContent = e.message;
     }
   }
+  const liveUrl = (c, x) =>
+    `https://api.github.com/repos/${c.repo}/contents/grundstock/${liveIsPublic(x.id) ? 'korrekturen' : x.kind}/${x.id}.json`;
+  async function putFile(c, url, text, message) {
+    const send = async () => {
+      let sha;
+      const r0 = await fetch(url + '?ref=' + encodeURIComponent(c.branch), { headers: headers(c) });
+      if (r0.ok) sha = (await r0.json()).sha;
+      else if (r0.status !== 404) throw new Error(await liveError(r0, 'file'));
+      const body = { message, content: utf8b64(text), branch: c.branch };
+      if (sha) body.sha = sha;
+      return fetch(url, { method: 'PUT', headers: headers(c), body: JSON.stringify(body) });
+    };
+    let r = await send();
+    if (r.status === 409 || r.status === 422) r = await send(); // gleichzeitige Änderung: einmal neu versuchen
+    if (!r.ok) throw new Error(await liveError(r, 'file'));
+  }
+  async function remove() {
+    const msg = $('live-msg'), c = cfgFromForm();
+    const item = edItem();
+    if (!item) return;
+    const x = item.payload || item.draft;
+    if (!c.token) return (msg.textContent = 'Bitte zuerst den GitHub-Zugang einrichten (Token einfügen).');
+    if (!confirm('„' + x.title + '“ aus dem öffentlichen Katalog entfernen? Deine Fassung hier in der Redaktion bleibt erhalten.')) return;
+    msg.textContent = 'Wird entfernt …';
+    try {
+      await checkAccess(c);
+      await putFile(c, liveUrl(c, x), JSON.stringify({ format: 'daje-entfernt', id: x.id, title: x.title, at: new Date().toISOString() }, null, 2) + '\n', `Entfernt: ${x.title}`);
+      item.status = 'draft';
+      saveEditorState();
+      msg.innerHTML = `Entfernt ✓ In ein bis zwei Minuten ist die Übung aus dem Katalog verschwunden. Wieder veröffentlichen: „Live stellen“. <a href="https://github.com/${esc(c.repo)}/actions" target="_blank" rel="noopener">Fortschritt ansehen</a>`;
+    } catch (e) {
+      msg.textContent = 'Nicht entfernt: ' + e.message;
+    }
+  }
   async function push() {
     const msg = $('live-msg'), c = cfgFromForm();
     const item = edItem();
@@ -90,6 +157,8 @@ async function liveError(r, step) {
     if (!v.ok) return (msg.textContent = 'Die Übung ist noch nicht fertig: Bitte die Punkte oben unter „noch offen“ ergänzen.');
     if (item.payload.sources.some(s => s.rights === 'needs_review'))
       return (msg.textContent = 'Vorher bitte Quelle und Rechte bestätigen.'), edShowRights();
+    if (item.payload.grammar?.origin === 'original')
+      return (msg.textContent = 'Unverändert übernommene Buchübungen bleiben privat und werden nicht veröffentlicht.');
     if (!c.token) {
       const a = document.querySelector('#live-box .live-access');
       if (a) a.open = true;
@@ -101,23 +170,11 @@ async function liveError(r, step) {
       saveEditorState();
     }
     const x = item.payload;
-    const dir = x.kind === 'listening' ? 'listening' : 'vocabulary';
-    const url = `https://api.github.com/repos/${c.repo}/contents/grundstock/${dir}/${x.id}.json`;
+    const url = liveUrl(c, x);
     msg.textContent = 'Wird übertragen …';
     try {
       await checkAccess(c);
-      const send = async () => {
-        let sha;
-        const r0 = await fetch(url + '?ref=' + encodeURIComponent(c.branch), { headers: headers(c) });
-        if (r0.ok) sha = (await r0.json()).sha;
-        else if (r0.status !== 404) throw new Error(await liveError(r0, 'file'));
-        const body = { message: `Inhalt: ${x.title}`, content: utf8b64(JSON.stringify(x, null, 2) + '\n'), branch: c.branch };
-        if (sha) body.sha = sha;
-        return fetch(url, { method: 'PUT', headers: headers(c), body: JSON.stringify(body) });
-      };
-      let r = await send();
-      if (r.status === 409 || r.status === 422) r = await send(); // gleichzeitige Änderung: einmal neu versuchen
-      if (!r.ok) throw new Error(await liveError(r, 'file'));
+      await putFile(c, url, JSON.stringify(x, null, 2) + '\n', `Inhalt: ${x.title}`);
       msg.innerHTML = `Übertragen ✓ Die Seite wird jetzt neu veröffentlicht und zeigt die Übung in ein bis zwei Minuten. <a href="https://github.com/${esc(c.repo)}/actions" target="_blank" rel="noopener">Fortschritt ansehen</a>`;
     } catch (e) {
       msg.textContent = 'Nicht übertragen: ' + e.message;
@@ -131,5 +188,6 @@ async function liveError(r, step) {
     if (!b) return;
     if (b.dataset.live === 'check') check();
     else if (b.dataset.live === 'push') push();
+    else if (b.dataset.live === 'remove') remove();
   });
 }

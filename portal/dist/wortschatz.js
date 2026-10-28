@@ -21,6 +21,9 @@ let wsBook = { get: () => null, set() {} };
   function collectionOf(x) {
     const t = x.catalog && x.catalog.textbook;
     if (t && t.series) {
+      // „Ecco 3 più“ (Band im Reihennamen) gehört zum Buch „Ecco più“ Band 3.
+      const inName = !t.volume && String(t.series).match(/^(.*?)\s+(\d+)\s+(.*)$/);
+      if (inName) return collectionOf({ ...x, catalog: { ...x.catalog, textbook: { ...t, series: inName[1] + ' ' + inName[3], volume: inName[2] } } });
       const vol = Number(t.volume) || 0;
       return { id: 'tb:' + t.series + ':' + vol, title: t.series + (vol ? ' ' + vol : ''), kind: 'Lehrwerk', sub: t.publisher || '', series: t.series, volume: vol, grade: x.catalog.grade || 0 };
     }
@@ -134,7 +137,7 @@ let wsBook = { get: () => null, set() {} };
       if (!u) units.push((u = { name: s.unit, items: [] }));
       u.items.push(s);
     });
-    const row = s => `<div class="ws-row"><label class="ws-pick"><input type="checkbox" data-ws="pick" data-key="${esc(s.key)}" ${ws.sel.has(s.key) ? 'checked' : ''}><span><b>${esc(s.title)}</b><small>${[pagesText(s.pages), plural(s.n, 'Wort', 'Wörter')].filter(Boolean).join(' · ')}</small></span></label>${bar(s.n, s.seen)}${s.id && typeof hwButton === 'function' ? hwButton('v:' + s.id) : ''}<button class="button secondary" data-ws="one" data-key="${esc(s.key)}">Üben</button></div>`;
+    const row = s => `<div class="ws-row"><label class="ws-pick"><input type="checkbox" data-ws="pick" data-key="${esc(s.key)}" ${ws.sel.has(s.key) ? 'checked' : ''}><span><b>${esc(s.title)}</b><small>${[pagesText(s.pages), plural(s.n, 'Wort', 'Wörter')].filter(Boolean).join(' · ')}</small></span></label>${bar(s.n, s.seen)}${s.id && typeof hwButton === 'function' ? hwButton('v:' + s.id) : ''}${s.id && isTeacher() ? (editorState.items.some(i => edId(i) === s.id) ? `<button class="quiet" data-ed-edit="${esc(s.id)}" title="Eigene Liste auf diesem Gerät">Eigene Liste · bearbeiten</button>` : typeof liveEditButton === 'function' ? liveEditButton(s.id, 'quiet') : '') : ''}<button class="button secondary" data-ws="one" data-key="${esc(s.key)}">Üben</button></div>`;
     const lessonView = `<div class="ws-tools"><label>Alles bis einschließlich <select data-ws="upto"><option value="">–</option>${c.secs.map(s => `<option value="${esc(s.key)}">${esc((s.unit ? s.unit + ' · ' : '') + s.title)}</option>`).join('')}</select></label><button class="quiet" data-ws="all">Alle</button><button class="quiet" data-ws="none">Keine</button></div>${units.map(u => `<section class="ws-unit">${u.name ? `<h3>${esc(u.name)}</h3>` : ''}${u.items.map(row).join('')}</section>`).join('')}`;
     const inRange = chosen(c);
     const pageView = `<div class="ws-tools"><label>von Seite <input type="number" inputmode="numeric" data-ws="from" min="${pMin}" max="${pMax}" value="${esc(String(ws.from))}"></label><label>bis einschließlich Seite <input type="number" inputmode="numeric" data-ws="to" min="${pMin}" max="${pMax}" value="${esc(String(ws.to))}"></label><button class="quiet" data-ws="allpages">Ganzes Buch</button></div><p class="muted small">Seitenzahlen beziehen sich auf die Lista cronologica im Anhang des Buchs. Abschnitte, die den Bereich berühren, sind enthalten.</p>${inRange.map(s => `<div class="ws-row"><span class="ws-pick"><span><b>${esc(s.title)}</b><small>${[s.unit, pagesText(s.pages), plural(s.n, 'Wort', 'Wörter')].filter(Boolean).join(' · ')}</small></span></span></div>`).join('') || '<p class="muted">In diesem Bereich liegt noch kein Abschnitt.</p>'}`;

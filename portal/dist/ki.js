@@ -376,6 +376,112 @@
     return lines.filter((l, i, a) => l !== '' || a[i - 1] !== '').join('\n');
   }
 
+  /*
+   * Grammatik (KI-Grammatik.md): ai = { topic: { title, rule }, exercises: [{ title, difficulty, questions }], reviewNotes }.
+   * inp: { language, level, mode ('genau' | 'eigen' | 'thema'), series, volume, publisher, unit, section, pages, grade,
+   *   topicId (bestehendes Thema, optional), topicTitle (optional), id: () => neue ID }
+   * Ergebnis: { pkgs: [{ pkg, result }], warnings }. Eine Übung = ein Paket, alle mit demselben Thema.
+   * genau → origin original (bleibt privat), eigen → adapted, thema → own.
+   */
+  function buildGrammar(ai, inp, validate) {
+    if (ai && ai.abbruch) throw new Error('Die KI hat abgebrochen: ' + ai.abbruch);
+    const topic = ai && typeof ai.topic === 'object' && ai.topic ? ai.topic : {};
+    const exercises = arr(ai && ai.exercises).filter(e => e && arr(e.questions).length);
+    if (!exercises.length) throw new Error('In der Antwort stehen keine Übungen („exercises“ fehlt oder ist leer).');
+    const warnings = [];
+    const origin = inp.mode === 'genau' ? 'original' : inp.mode === 'eigen' ? 'adapted' : 'own';
+    const topicTitle = String(inp.topicTitle || topic.title || 'Grammatik').trim().slice(0, 120);
+    const topicId = inp.topicId || ('eigen-' + slug(topicTitle).slice(0, 20) + '-' + Math.random().toString(36).slice(2, 6));
+    const book = [inp.series, inp.volume].filter(Boolean).join(' ');
+    const where = [book && book + (inp.publisher ? ' (' + inp.publisher + ')' : ''), inp.unit, inp.pages ? 'S. ' + inp.pages : ''].filter(Boolean).join(', ');
+    const citation =
+      origin === 'original'
+        ? 'Übung aus ' + (where || 'einem Schulbuch') + ', unverändert übernommen. Nur für den eigenen Unterricht, nicht zur Veröffentlichung.'
+        : origin === 'adapted'
+          ? 'Eigene Übung auf Grundlage von ' + (where || 'Schulbuchübungen') + '.'
+          : 'Eigene Übung.';
+    const textbook = inp.series ? { series: String(inp.series).slice(0, 120) } : null;
+    if (textbook) {
+      if (inp.publisher) textbook.publisher = String(inp.publisher).slice(0, 120);
+      if (inp.volume) textbook.volume = String(inp.volume).slice(0, 20);
+      if (inp.unit) textbook.unit = String(inp.unit).slice(0, 120);
+      if (inp.section) textbook.section = String(inp.section).slice(0, 120);
+      if (inp.pages) textbook.pages = String(inp.pages).slice(0, 40);
+    }
+    const levels = ['leicht', 'mittel', 'schwer'];
+    const pkgs = exercises.slice(0, 24).map((ex, n) => {
+      const qs = arr(ex.questions).map((q, i) => {
+        const z = { ...q, id: /^[a-z0-9][a-z0-9-]*$/.test(q.id || '') ? q.id : 'q' + (i + 1) };
+        delete z.evidence;
+        delete z.evidenceAt;
+        if (!z.explanation) delete z.explanation;
+        return z;
+      });
+      const seen = new Set();
+      qs.forEach((q, i) => {
+        if (seen.has(q.id)) q.id = 'q' + (i + 1) + '-' + i;
+        seen.add(q.id);
+      });
+      const difficulty = levels.includes(ex.difficulty) ? ex.difficulty : 'mittel';
+      const pkg = {
+        format: 'theis-learning-package',
+        schemaVersion: '1.2',
+        kind: 'grammar',
+        id: typeof inp.id === 'function' ? inp.id() : 'eigen-' + Math.random().toString(36).slice(2, 10),
+        title: String(ex.title || topicTitle).slice(0, 120),
+        language: inp.language || ai.language || 'it',
+        level: inp.level || ai.level || 'A1',
+        description: String(ex.description || topicTitle + ' · ' + { leicht: 'einfach', mittel: 'mittel', schwer: 'schwer' }[difficulty]).slice(0, 600),
+        topics: [topicTitle, 'Grammatik'],
+        estimatedMinutes: Math.max(3, Math.min(45, Math.round(qs.length * 3) + 2)),
+        sources: [{ kind: origin === 'own' ? 'own' : 'external', citation, rights: origin === 'original' ? 'cleared' : 'own' }],
+        reviewNotes: n ? [] : arr(ai.reviewNotes).map(String).slice(0, 20),
+        grammar: { topic: topicId, topicTitle, difficulty, origin, order: n },
+        questions: qs
+      };
+      if (topic.rule && !n) pkg.grammar.rule = String(topic.rule).slice(0, 4000);
+      if (textbook) pkg.catalog = { origin: 'textbook', textbook: { ...textbook }, tags: ['grammatik'] };
+      if (inp.grade && pkg.catalog) pkg.catalog.grade = Number(inp.grade);
+      if (ex.teacherNotes && typeof ex.teacherNotes === 'object') pkg.teacherNotes = ex.teacherNotes;
+      const result = validate ? validate(pkg) : null;
+      if (result && !result.ok) warnings.push('„' + pkg.title + '“: ' + (result.errors || []).slice(0, 2).join('; '));
+      return { pkg, result };
+    });
+    if (exercises.length > 24) warnings.push('Nur die ersten 24 Übungen übernommen.');
+    return { pkgs, warnings };
+  }
+
+  /* Auftrag Grammatik: Kommandodatei + Eingaben. */
+  function promptForGrammar(command, inp) {
+    const book = [inp.series, inp.volume].filter(Boolean).join(' ');
+    const per = inp.perLevel || '2';
+    const lv = (inp.levels && inp.levels.length ? inp.levels : ['leicht', 'mittel', 'schwer']).join(', ');
+    const lines = [
+      command.trim(),
+      '',
+      '## Eingaben',
+      '',
+      '- Sprache: ' + inp.language,
+      '- Zielniveau: ' + inp.level,
+      inp.mode === 'genau'
+        ? '- Modus: GENAU (Abschnitt 2 A): die Übungen auf den angehängten Fotos unverändert übernehmen'
+        : inp.mode === 'eigen'
+          ? '- Modus: EIGEN (Abschnitt 2 B): eigene Übungen auf Grundlage der angehängten Fotos'
+          : '- Modus: THEMA (Abschnitt 2 C): eigene Übungen ohne Vorlage',
+      inp.topicTitle ? '- Grammatikthema: ' + inp.topicTitle : null,
+      book ? '- Lehrwerk: ' + book + (inp.publisher ? ' (' + inp.publisher + ')' : '') : null,
+      inp.unit ? '- Lektion: ' + inp.unit : null,
+      inp.section ? '- Abschnitt: ' + inp.section : null,
+      inp.pages ? '- Seiten: ' + inp.pages : null,
+      inp.grade ? '- Klassenstufe: ' + inp.grade : null,
+      inp.mode === 'genau' ? null : '- Stufen: ' + lv + ' · je Stufe ' + per + ' Übungen',
+      inp.wishes ? '- Wünsche der Lehrkraft: ' + inp.wishes : null,
+      '',
+      'Antworte jetzt mit genau einem JSON-Codeblock nach Abschnitt 3.'
+    ];
+    return lines.filter(l => l !== null).join('\n');
+  }
+
   const api = {
     extractJSON,
     norm,
@@ -385,7 +491,9 @@
     promptFor,
     mediaFrom,
     buildVocabulary,
-    promptForVocab
+    promptForVocab,
+    buildGrammar,
+    promptForGrammar
   };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.DajeKI = api;

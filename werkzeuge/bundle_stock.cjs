@@ -55,14 +55,42 @@ for (const kind of ['listening', 'vocabulary', 'grammar']) {
     }
   }
 }
+/* Korrekturen aus der Redaktion (Betreiber, „Live stellen“ bei schon veröffentlichten Inhalten):
+   grundstock/korrekturen/<id>.json ersetzt das Paket gleicher ID (auch eingebaute Hörübungen), ein Eintrag
+   { "format": "daje-entfernt", "id": … } nimmt es aus dem Katalog. Die Generatoren schreiben nie hierher,
+   deshalb überschreibt ein neuer Import diese Änderungen nicht. */
+const removed = new Set();
+const fixDir = path.join(root, 'grundstock', 'korrekturen');
+if (fs.existsSync(fixDir))
+  for (const f of fs.readdirSync(fixDir).filter(f => f.endsWith('.json')).sort()) {
+    try {
+      const raw = JSON.parse(fs.readFileSync(path.join(fixDir, f), 'utf8'));
+      if (raw && raw.format === 'daje-entfernt') {
+        if (!/^[a-z0-9][a-z0-9-]*$/.test(raw.id || '')) throw new Error('ID fehlt');
+        removed.add(raw.id);
+        continue;
+      }
+      const r = validatePackage(raw);
+      if (!r.ok) throw new Error(r.errors.slice(0, 4).join(' · '));
+      if (r.value.grammar && r.value.grammar.origin === 'original') throw new Error('Originalübung aus einem Buch: nur privat, nicht im Grundstock');
+      const i = good.findIndex(x => x.id === r.value.id);
+      if (i >= 0) good[i] = r.value;
+      else good.push(r.value);
+    } catch (e) {
+      bad.push('korrekturen/' + f + ': ' + e.message);
+    }
+  }
+const list = good.filter(x => !removed.has(x.id));
 const out =
   "'use strict';\n// Automatisch erzeugt von werkzeuge/bundle_stock.cjs. Nicht von Hand ändern.\nconst STOCK_PACKAGES = " +
-  JSON.stringify(good, null, 1) +
+  JSON.stringify(list, null, 1) +
+  ';\nconst STOCK_REMOVED = ' +
+  JSON.stringify([...removed]) +
   ';\n';
 fs.writeFileSync(path.join(dist, 'stock-data.js'), out);
-const working = good.filter(x => x.sources.some(s => s.rights === 'needs_review')).length;
+const working = list.filter(x => x.sources.some(s => s.rights === 'needs_review')).length;
 console.log(
-  `${good.length} Pakete gebündelt (${good.filter(x => x.kind === 'listening').length} Hören, ${good.filter(x => x.kind === 'vocabulary').length} Wortschatz, ${good.filter(x => x.kind === 'grammar').length} Grammatik), davon ${working} als Arbeitsfassung markiert.`
+  `${list.length} Pakete gebündelt (${list.filter(x => x.kind === 'listening').length} Hören, ${list.filter(x => x.kind === 'vocabulary').length} Wortschatz, ${list.filter(x => x.kind === 'grammar').length} Grammatik), davon ${working} als Arbeitsfassung markiert${removed.size ? ', ' + removed.size + ' entfernt' : ''}.`
 );
 if (bad.length) {
   console.log('\nNICHT übernommen:\n- ' + bad.join('\n- '));
