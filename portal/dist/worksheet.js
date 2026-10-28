@@ -88,7 +88,7 @@ function wsComposer() {
     <p class="muted small">Lege Übungen über „Aufs Arbeitsblatt“ ab (Grammatik und Hörverstehen). Hier ordnest du sie: am Griff ⠿ ziehen oder mit den Pfeilen. Jedes Blatt beginnt auf einer neuen Seite.</p>
     <div class="ws-opts"><label class="field">Titel<input id="ws-name" maxlength="120" value="${esc(wsDraft.title)}" placeholder="z. B. Wiederholung Unità 2"></label><label class="dlg-check"><input type="checkbox" id="ws-rule" ${wsDraft.rule ? 'checked' : ''}><span>Merkkästen mitdrucken</span></label></div>
     <div class="ws-sheets">${sheets}</div>
-    <div class="ws-bar"><button class="button secondary" data-ws-new>+ Neues Blatt</button><span class="ws-sp"></span>${n ? '<button class="quiet danger" data-ws-clear>Alles leeren</button><button class="button secondary" data-ws-print="1">Lösungen</button><button class="button primary" data-ws-print="0">Vorschau und PDF</button>' : ''}</div>`;
+    <div class="ws-bar"><button class="button secondary" data-ws-new>+ Neues Blatt</button><span class="ws-sp"></span>${n ? '<button class="quiet danger" data-ws-clear>Alles leeren</button><button class="button secondary" data-ws-link>Als Link für die Klasse</button><button class="button secondary" data-ws-print="1">Lösungen</button><button class="button primary" data-ws-print="0">Vorschau und PDF</button>' : ''}</div>`;
   if (!d.open) d.showModal();
   d.querySelector('.ws-sheets').scrollTop = keepScroll;
 }
@@ -264,7 +264,7 @@ function wsSheetHTML(sheets, sol, { title = '', rule = true } = {}) {
   const sources = [...new Set(all.flatMap(x => x.sources.map(s => visibleText(s.citation))).filter(Boolean))];
   return `<div class="hb${sol === 2 ? ' hb-compact' : ''}"><header class="hb-top"><b>theis · ${DOC_BRAND}</b><span>${esc(sol ? w[1] : w[0])}</span></header>
   <h1>${esc(title || (all.length === 1 ? all[0].title : w[0]))}</h1>
-  <div class="hb-meta"><span>${esc(portalLang(lang))}</span><span>${esc(levels)}</span><span>${esc(t.min(all.reduce((s, x) => s + (x.estimatedMinutes || 0), 0)))}</span></div>
+  <div class="hb-meta"><span>${esc(L === 'de' ? portalLang(lang) : { it: 'Italiano', en: 'English', fr: 'Français', es: 'Español' }[lang] || portalLang(lang))}</span><span>${esc(levels)}</span><span>${esc(t.min(all.reduce((s, x) => s + (x.estimatedMinutes || 0), 0)))}</span></div>
   ${sol ? '' : `<table class="hb-id"><tr><td>${esc(t.name)}</td><td>${esc(t.cls)}</td><td>${esc(t.date)}</td><td class="pts">${esc(t.pts)} &nbsp; / ${total}</td></tr></table>`}
   ${sol === 2 ? key : `<ol class="hb-list">${body}</ol>`}
   <footer class="hb-src"><b>${esc(t.src)}</b> ${sources.map(esc).join(' · ')}</footer>

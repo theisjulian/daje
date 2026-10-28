@@ -8377,3 +8377,92 @@ img.yt-thumb.yt-box {
 .rule-langs { display: flex; gap: 6px; margin: 4px 0 10px; }
 .rule-langs .chip { min-height: 30px; padding: 0 12px; font-size: 13px; }
 .hb-help { font-size: .85em; color: #555; font-style: italic; }
+
+/* ===================== Übungen: Ziehen und Antippen (uebung-ui.js) ===================== */
+.ix-chip, .wb-chip { display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 12px; border: 1.5px solid var(--hairline); background: var(--glass-solid); color: inherit; font: inherit; font-size: 17px; line-height: 1.25; text-align: left; cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; box-shadow: 0 1px 0 var(--hairline); transition: transform 0.12s, border-color 0.12s, background 0.12s, opacity 0.12s; }
+.ix-chip:hover, .wb-chip:hover { border-color: color-mix(in srgb, var(--blue) 45%, var(--hairline)); }
+.ix-chip:active, .wb-chip:active { transform: scale(0.97); }
+.ix-chip.is-picked { border-color: var(--blue); background: color-mix(in srgb, var(--blue) 14%, var(--glass-solid)); box-shadow: 0 0 0 3px color-mix(in srgb, var(--blue) 25%, transparent); }
+.ix-chip.is-correct { border-color: var(--green); background: color-mix(in srgb, var(--green) 14%, var(--glass-solid)); }
+.ix-chip.is-wrong { border-color: var(--red); background: color-mix(in srgb, var(--red) 11%, var(--glass-solid)); }
+.ix-dragging { opacity: 0.35; }
+.ix-ghost { position: fixed; z-index: 1000; pointer-events: none; margin: 0; opacity: 0.95; transform: rotate(-1.5deg) scale(1.03); box-shadow: var(--lift-2); list-style: none; }
+
+/* Satzbaukasten */
+.sb { display: grid; gap: 10px; }
+.sb-line { display: flex; flex-wrap: wrap; align-content: flex-start; gap: 8px; min-height: 64px; padding: 10px; border-radius: 16px; border: 2px dashed color-mix(in srgb, var(--blue) 35%, var(--hairline)); background: color-mix(in srgb, var(--blue) 4%, transparent); }
+.sb-ph { align-self: center; color: var(--label-3); padding: 0 6px; }
+.sb-line:has([data-ix-item]) .sb-ph { display: none; }
+.sb-line.is-correct { border-style: solid; border-color: var(--green); background: color-mix(in srgb, var(--green) 8%, transparent); }
+.sb-line.is-wrong { border-style: solid; border-color: var(--red); }
+.sb-pool { display: flex; flex-wrap: wrap; gap: 8px; min-height: 52px; padding: 4px 2px; }
+
+/* Liste ordnen */
+.ord-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.ord-item { display: grid; grid-template-columns: 44px 28px minmax(0, 1fr) auto; align-items: center; gap: 4px; padding: 4px 6px 4px 0; border-radius: 14px; border: 1.5px solid var(--hairline); background: var(--glass-solid); user-select: none; -webkit-user-select: none; }
+.ord-grip { display: grid; place-items: center; align-self: stretch; font-size: 22px; color: var(--label-2); cursor: grab; touch-action: none; }
+.ord-n { font-weight: 700; color: var(--blue); text-align: center; }
+.ord-text { min-height: 44px; padding: 8px 6px; border: 0; background: none; color: inherit; font: inherit; font-size: 17px; text-align: left; cursor: pointer; }
+.ord-btns { display: flex; gap: 2px; }
+.ord-btns button { min-width: 40px; min-height: 40px; }
+.ord-item.is-picked { border-color: var(--blue); box-shadow: 0 0 0 3px color-mix(in srgb, var(--blue) 25%, transparent); }
+.ord-item.is-correct { border-color: var(--green); background: color-mix(in srgb, var(--green) 12%, var(--glass-solid)); }
+.ord-item.is-wrong { border-color: var(--red); background: color-mix(in srgb, var(--red) 9%, var(--glass-solid)); }
+
+/* Zuordnen */
+.mt { display: grid; gap: 12px; }
+.mt-pool { display: flex; flex-wrap: wrap; gap: 8px; min-height: 52px; padding: 10px; border-radius: 16px; background: var(--fill); }
+.mt-pool:empty::before { content: '✓'; color: var(--label-3); align-self: center; padding: 0 6px; }
+.mt-rows { display: grid; gap: 8px; }
+.mt-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: 10px; align-items: center; padding: 6px 6px 6px 12px; border-radius: 14px; border: 1.5px solid var(--hairline); }
+.mt-left { font-size: 17px; }
+.mt-slot { display: flex; align-items: center; min-height: 52px; padding: 4px; border-radius: 12px; border: 2px dashed var(--hairline); cursor: pointer; }
+.mt-slot .ix-chip { width: 100%; }
+.mt-ph { color: var(--label-3); padding: 0 10px; }
+.mt-slot.is-target, .mt-slot.is-over, .mt-pool.is-over { border-color: var(--blue); background: color-mix(in srgb, var(--blue) 8%, transparent); }
+.mt-row.is-correct { border-color: var(--green); background: color-mix(in srgb, var(--green) 10%, transparent); }
+.mt-row.is-wrong { border-color: var(--red); background: color-mix(in srgb, var(--red) 7%, transparent); }
+@media (max-width: 560px) { .mt-row { grid-template-columns: 1fr; padding: 8px; } }
+
+/* Auswahl-Lücke im Satz */
+.gc { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 2px; margin: 2px 2px; padding: 2px; border-radius: 12px; border: 1.5px dashed color-mix(in srgb, var(--blue) 40%, var(--hairline)); vertical-align: middle; }
+.gc-o, .gc-pick { min-height: 40px; padding: 0 12px; border-radius: 9px; border: 0; background: var(--fill); color: inherit; font: inherit; cursor: pointer; }
+.gc-o:hover { background: color-mix(in srgb, var(--blue) 14%, var(--fill)); }
+.gc-o[aria-pressed='true'] { background: color-mix(in srgb, var(--blue) 18%, var(--fill)); font-weight: 600; }
+.gc-sep { color: var(--label-3); }
+.gc.is-set { border-style: solid; border-color: color-mix(in srgb, var(--blue) 55%, var(--hairline)); }
+.gc.is-set .gc-pick { background: color-mix(in srgb, var(--blue) 10%, transparent); font-weight: 600; }
+.gc.is-correct { border-color: var(--green); }
+.gc.is-correct .gc-pick { background: color-mix(in srgb, var(--green) 16%, transparent); }
+.gc.is-wrong { border-color: var(--red); border-style: solid; }
+.gc.is-wrong .gc-pick { background: color-mix(in srgb, var(--red) 12%, transparent); text-decoration: line-through; }
+
+/* Wortkasten zum Antippen */
+.word-bank .wb-chip { min-height: 40px; padding: 0 14px; border-radius: 99px; background: var(--fill); border-color: transparent; font-size: 16px; }
+.word-bank .wb-chip.is-used { opacity: 0.4; text-decoration: line-through; }
+input.gap.is-over { outline: 3px solid color-mix(in srgb, var(--blue) 55%, transparent); }
+/* Karten beim Zuordnen bleiben beim Scrollen sichtbar */
+.mt-pool.is-sticky { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 76px); z-index: 3; background: color-mix(in srgb, var(--glass-solid) 92%, var(--fill)); backdrop-filter: var(--blur); -webkit-backdrop-filter: var(--blur); box-shadow: 0 6px 18px -12px rgba(0, 0, 0, 0.35); }
+@media (max-width: 760px) { .mt-pool.is-sticky { top: calc(env(safe-area-inset-top, 0px) + 64px); } }
+
+/* Druck: Merkkasten kompakt (allgemeine li-Abstände gelten nicht), Text nicht am Rahmen */
+#teaching-print .hb-rule { padding: 8px 12px 6px; }
+#teaching-print .hb-rule ul { margin: 0.3em 0; padding-left: 1.2em; }
+#teaching-print .hb-rule li { margin: 0.15em 0; padding: 0; break-inside: avoid; }
+#teaching-print .hb-rule .rule-table th, #teaching-print .hb-rule .rule-table td { padding: 2px 8px 2px 0; }
+/* Fußzeile mit Seitenzahl und Logo immer am Seitenende, auch bei Designs mit eigenem Abstand */
+#teaching-print .paper.pg > .doc-foot { margin-top: auto !important; flex: none; }
+@media print {
+  /* Sichere Seitenhöhe: passt auch, wenn der Browser (z. B. Safari auf dem iPad) größere Ränder setzt. */
+  body.printing-teaching #teaching-print .paper.pg { height: 252mm !important; break-inside: avoid; page-break-inside: avoid; }
+}
+
+/* Aufgaben für die Klasse: Weiter nach der Korrektur, QR für den Beamer */
+.hw-next { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--hairline); }
+.hw-next > span { margin-right: auto; color: var(--label-2); font-weight: 600; }
+.hw-beamer { width: min(96vw, 900px); max-height: 96vh; border: 0; border-radius: 28px; padding: 28px; text-align: center; }
+.hw-beamer::backdrop { background: rgba(10, 12, 20, 0.72); }
+.hw-beamer h2 { font-size: clamp(26px, 4vw, 44px); margin: 0 0 6px; }
+.hw-beamer p { font-size: clamp(16px, 2vw, 22px); color: var(--label-2); margin: 0 0 16px; }
+.hw-beamer-qr { width: min(70vh, 80vw, 620px); margin: 0 auto 18px; background: #fff; padding: 18px; border-radius: 20px; }
+.hw-beamer-qr svg { width: 100%; height: auto; display: block; }

@@ -44,6 +44,32 @@ function serve() {
 }
 
 const results = [];
+/* Ziehen mit der Maus von einem Element zu einem anderen (dx: Anteil der Zielbreite ab der Mitte). */
+async function dragTo(page, from, to, dx = 0) {
+  await page.locator(to).scrollIntoViewIfNeeded();
+  await page.locator(from).evaluate(el => el.closest('fieldset').scrollIntoView({ block: 'center' }));
+  const a = await page.locator(from).boundingBox();
+  const b = await page.locator(to).boundingBox();
+  await page.mouse.move(a.x + a.width / 2, a.y + a.height / 2);
+  await page.mouse.down();
+  await page.mouse.move(a.x + a.width / 2 + 10, a.y + a.height / 2 + 4, { steps: 3 });
+  await page.mouse.move(b.x + b.width / 2 + dx * b.width, b.y + b.height / 2, { steps: 8 });
+  await page.mouse.up();
+  await page.waitForTimeout(120);
+}
+/* Ordnen: Satzbaukasten antippen; Liste per Tausch-Antippen in Reihenfolge bringen. */
+async function orderItems(page, qid, ids) {
+  if (await page.$(`#q-${qid} .sb`)) {
+    for (const id of ids) await page.click(`#q-${qid} .sb-pool [data-ix-item="${id}"]`);
+    return;
+  }
+  for (let i = 0; i < ids.length; i++) {
+    const cur = await page.$$eval(`#q-${qid} [data-ix-item]`, l => l.map(e => e.dataset.ixItem));
+    if (cur[i] === ids[i]) continue;
+    await page.click(`#q-${qid} [data-ix-item="${cur[i]}"] .ord-text`);
+    await page.click(`#q-${qid} [data-ix-item="${ids[i]}"] .ord-text`);
+  }
+}
 async function step(name, fn) {
   try {
     await fn();
@@ -51,7 +77,7 @@ async function step(name, fn) {
     console.log('ok   ' + name);
   } catch (e) {
     results.push(['FAIL', name, e]);
-    console.log('FAIL ' + name + '\n     ' + String(e.message).split('\n')[0]);
+    console.log('FAIL ' + name + '\n     ' + String(e.message).split('\n').slice(0, 6).join(' / '));
   }
 }
 
@@ -328,14 +354,13 @@ async function step(name, fn) {
     await dp.click('#q-q2 .opt:has-text("Prendono un gelato")');
     await dp.click('#q-q2 .opt:has-text("Vanno al parco")');
     await dp.click('#q-q3 .opt:has-text("Falso")');
-    await dp.selectOption('#q-q4 select[data-part="p1"]', { label: 'gelato al limone' });
-    await dp.selectOption('#q-q4 select[data-part="p2"]', { label: 'gelato al cioccolato' });
-    for (const [i, n] of [
-      ['i1', '1'],
-      ['i2', '2'],
-      ['i3', '3']
-    ])
-      await dp.selectOption('#q-q5 select[data-part="' + i + '"]', n);
+    // Zuordnen: Karte antippen, dann Feld; zweite Karte ziehen
+    await dp.click('#q-q4 .mt-pool [data-ix-right]:text-is("gelato al limone")');
+    await dp.click('#q-q4 [data-ix-slot="p1"]');
+    await dragTo(dp, '#q-q4 .mt-pool [data-ix-right]:text-is("gelato al cioccolato")', '#q-q4 [data-ix-slot="p2"]');
+    assert.equal(await dp.$$eval('#q-q4 [data-ix-slot] [data-ix-right]', l => l.length), 2);
+    // Ordnen: antippen bzw. tauschen
+    await orderItems(dp, 'q5', ['i1', 'i2', 'i3']);
     await dp.fill('#q-q6 input[data-part="g1"]', 'quattro');
     await dp.fill('#q-q6 input[data-part="g2"]', 'castello');
     await dp.fill('#q-q7 input', 'alle sei');
@@ -359,8 +384,9 @@ async function step(name, fn) {
     await dp.click('#q-n1 .opt:has-text("Vero")');
     await dp.click('#q-n2 .opt:has-text("Non detto")');
     for (const w of ['gelateria', 'parco', 'limone', 'piazza', 'cioccolato']) await dp.click(`#q-n3 .chip-opt:has-text("${w}")`);
-    await dp.selectOption('#q-n4 select[data-part="g1"]', 'quattro');
-    await dp.selectOption('#q-n4 select[data-part="g2"]', 'limone');
+    await dp.click('#q-n4 [data-ix-gc][data-part="g1"] [data-ix-opt="quattro"]');
+    await dp.click('#q-n4 [data-ix-gc][data-part="g2"] [data-ix-opt="limone"]');
+    assert.equal(await dp.textContent('#q-n4 [data-part="g1"] .gc-pick'), 'quattro');
     for (const [k, v] of [['g1', 'Castello'], ['g2', '4'], ['g3', 'parco']]) await dp.fill(`#q-n5 input[data-part="${k}"]`, v);
     for (const [k, v] of [['t1', 'limone'], ['t2', 'alle sei'], ['t3', 'cioccolato']]) await dp.fill(`#q-n6 input[data-part="${k}"]`, v);
     for (const [k, v] of [['e1', 'Torino'], ['e2', 'a piedi'], ['e3', 'sei']]) await dp.fill(`#q-n7 input[data-part="${k}"]`, v);
@@ -371,7 +397,7 @@ async function step(name, fn) {
     await dp.fill('#q-n10 textarea', 'Vado al parco con gli amici.');
     for (const [k, v] of [['g1', 'Torino'], ['g2', 'Castello'], ['g3', 'fame'], ['g4', 'gelateria']]) await dp.fill(`#q-n11 input[data-part="${k}"]`, v);
     for (const [k, v] of [['z1', 'in Piazza Castello'], ['z2', 'al parco'], ['z3', 'alle sei']]) await dp.fill(`#q-n12 input[data-part="${k}"]`, v);
-    assert.equal(await dp.locator('#q-n11 .word-bank span').count(), 6);
+    assert.equal(await dp.locator('#q-n11 .word-bank .wb-chip').count(), 6);
     assert.deepEqual(await dp.locator('.q-section').allTextContents(), ['Primo ascolto', 'Secondo ascolto', 'Terzo ascolto', 'Lessico e lingua', 'Dopo l’ascolto']);
     assert.match(await dp.textContent('#listen-answer-count'), /12 \/ 12/);
     await dp.getByRole('button', { name: 'Antworten korrigieren' }).click();
@@ -512,8 +538,17 @@ async function step(name, fn) {
     // Eine Auswahl-Übung vollständig richtig lösen
     await pp.evaluate(() => openListening('g-ecco1-artikel-sg-l1'));
     const answers = await pp.evaluate(() => findTask('g-ecco1-artikel-sg-l1').questions[0].gaps.map(g => g.answer));
-    const sels = await pp.$$('select.gap-sel');
-    for (let i = 0; i < sels.length; i++) await sels[i].selectOption(answers[i]);
+    for (let i = 0; i < answers.length; i++) await pp.locator('.gc').nth(i).getByRole('button', { name: answers[i], exact: true }).click();
+    // Satzbaukasten: Wörter antippen, eines per Ziehen umstellen
+    const sb = await pp.evaluate(() => contentList('grammar').find(x => x.questions.some(q => q.type === 'ordering' && q.items.length >= 4 && new Set(q.items.map(i => i.text)).size === q.items.length && q.items.every(i => i.text.length <= 20))).id);
+    await pp.evaluate(i => openListening(i), sb);
+    const oq = await pp.evaluate(i => findTask(i).questions.find(q => q.type === 'ordering' && q.items.every(i => i.text.length <= 20)), sb);
+    const seq = [oq.items[1], oq.items[0], ...oq.items.slice(2)];
+    for (const it of seq) await pp.click(`#q-${oq.id} .sb-pool [data-ix-item="${it.id}"]`);
+    await dragTo(pp, `#q-${oq.id} .sb-line [data-ix-item="${oq.items[0].id}"]`, `#q-${oq.id} .sb-line [data-ix-item="${oq.items[1].id}"]`, -0.4);
+    const got = await pp.$$eval(`#q-${oq.id} .sb-line [data-ix-item]`, l => l.map(e => e.dataset.ixItem));
+    assert.deepEqual(got, oq.items.map(i => i.id), 'Satzbaukasten nach Ziehen: ' + got);
+    await pp.evaluate(i => openListening(i), 'g-ecco1-artikel-sg-l1');
     await pp.click('#listening-form [type=submit]');
     assert.match(await pp.textContent('.result-banner'), /1 von 1|alle|Super|richtig/i);
     await pp.goBack();
@@ -568,6 +603,37 @@ async function step(name, fn) {
     await pp.evaluate(() => { localStorage.removeItem('daje-arbeitsblatt-v1'); wsDraft = { title: '', sheets: [[]], rule: true }; wsRefresh(); });
   });
 
+  await step('Stunden-Link: Mappe als Link, Lernende arbeiten die Aufgaben der Reihe nach ab', async () => {
+    await pp.goto(base + '?seite=grammatik', { waitUntil: 'networkidle' });
+    await pp.evaluate(() => {
+      localStorage.setItem('daje-arbeitsblatt-v1', JSON.stringify({ title: 'Stunde Artikel', sheets: [['g-ecco1-artikel-sg-l1', 'g-ecco1-artikel-sg-l2']], rule: true }));
+    });
+    await pp.reload({ waitUntil: 'networkidle' });
+    await pp.click('[data-audience="teach"]');
+    await pp.click('#ws-pill');
+    await pp.click('#ws-dialog [data-ws-link]');
+    await pp.waitForSelector('#hw-dialog[open]');
+    const url = await pp.getAttribute('#hw-dialog [data-qr-copy]', 'data-qr-copy');
+    await pp.click('#hw-dialog [data-hw-beamer]');
+    assert.ok(await pp.$('#hw-beamer[open] .hw-beamer-qr svg'), 'Beamer-QR');
+    await pp.click('#hw-beamer [data-close]');
+    await pp.click('[data-audience="learn"]');
+    await pp.goto(url, { waitUntil: 'networkidle' });
+    assert.equal(await pp.locator('.hw-tasks li').count(), 2);
+    await pp.click('.hw-tasks li >> nth=0 >> [data-lesson]');
+    const answers = await pp.evaluate(() => currentLesson().questions[0].gaps.map(g => g.answer));
+    for (let i = 0; i < answers.length; i++) {
+      const gc = pp.locator('.gc').nth(i);
+      if (await gc.locator('.gc-pick').count()) await gc.locator('.gc-pick').click();
+      await gc.getByRole('button', { name: answers[i], exact: true }).click();
+    }
+    await pp.click('#listening-form [type=submit]');
+    await pp.waitForSelector('.hw-next');
+    await pp.click('.hw-next [data-lesson]');
+    assert.equal(await pp.evaluate(() => currentLesson().id), 'g-ecco1-artikel-sg-l2');
+    await pp.evaluate(() => localStorage.removeItem('daje-arbeitsblatt-v1'));
+  });
+
   await step('Grammatik mit KI einlesen: Antwort → Übungen im Grammatikbereich, Original bleibt privat', async () => {
     await pp.goto(base, { waitUntil: 'networkidle' });
     await pp.evaluate(() => { save('daje-lehrkraft-ok', true); setPortalAudience('teach'); refreshAudience(); nav('redaktion'); });
@@ -595,7 +661,7 @@ async function step(name, fn) {
     await pp.click(`[data-gr-topic="${topic}"]`);
     assert.match(await pp.textContent('.rule-card'), /ragazza/);
     await pp.click('.gr-ex [data-lesson]');
-    await pp.waitForSelector('#listening-form select.gap-sel', { timeout: 5000 });
+    await pp.waitForSelector('#listening-form .gc', { timeout: 5000 });
     // Leere Grammatikübung im Editor: Stufe und Thema setzen
     await pp.evaluate(() => nav('redaktion'));
     await pp.click('[data-ed-new="grammar"]');

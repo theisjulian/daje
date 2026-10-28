@@ -8,6 +8,7 @@ const HW_DRAFT = 'daje-hausaufgabe-v1';
 const HW_INBOX = 'daje-aufgaben-v1';
 let hwDraft = read(HW_DRAFT, { title: '', items: [] });
 let hwCurrent = null; // { code, t, i }
+let hwActive = null; // Aufgabe aus dieser Liste gerade geöffnet: „Weiter“ nach der Korrektur
 
 function hwEncode(a) {
   const bytes = new TextEncoder().encode(JSON.stringify(a));
@@ -22,7 +23,7 @@ function hwDecode(code) {
     const j = JSON.parse(new TextDecoder().decode(Uint8Array.from(bin, c => c.charCodeAt(0))));
     if (!j || !Array.isArray(j.i)) return null;
     const items = j.i
-      .filter(k => typeof k === 'string' && /^[lv]:[\w.-]{1,120}$/.test(k))
+      .filter(k => typeof k === 'string' && /^[lvg]:[\w.-]{1,120}$/.test(k))
       .slice(0, 30);
     return items.length ? { code, t: String(j.t || '').slice(0, 120), i: items } : null;
   } catch {
@@ -102,7 +103,7 @@ function hwComposer() {
   const rows = hwDraft.items.map(hwResolve).filter(Boolean);
   const url = rows.length ? hwURL(hwDraft) : '';
   d.innerHTML = `<div class="dialog-head"><h2 id="hw-title">Hausaufgabe</h2><button class="button secondary" data-close="hw-dialog">Schließen</button></div>
-    <p class="muted small">Lernende öffnen den Link ohne Anmeldung und sehen die Aufgaben mit ihrem Stand. Füge Inhalte über „Zur Hausaufgabe“ bei Hörübungen und Wortlisten hinzu.</p>
+    <p class="muted small">Für die Hausaufgabe oder gleich in der Stunde: Lernende öffnen den Link oder scannen den QR-Code am iPad, ohne Anmeldung. Sie arbeiten die Aufgaben der Reihe nach ab und sehen ihren Stand. Inhalte kommen über „Zur Hausaufgabe“ bei Grammatik, Hörübungen und Wortlisten dazu, oder aus der Arbeitsblatt-Mappe.</p>
     <label class="field">Titel (optional)<input id="hw-name" maxlength="120" value="${esc(hwDraft.title)}" placeholder="z. B. Bis Dienstag: Unità 2"></label>
     ${
       rows.length
@@ -113,7 +114,7 @@ function hwComposer() {
             )
             .join('')}</ol>
       <div class="qr-card hw-qr">${qrSVG(url, 'QR-Code zur Hausaufgabe')}</div>
-      <div class="hw-actions"><button class="button primary" data-qr-copy="${esc(url)}">Link kopieren</button><a class="button secondary" href="${esc(url)}" target="_blank" rel="noopener">So sehen es Lernende</a><button class="quiet" data-hw-clear>Leeren</button></div>`
+      <div class="hw-actions"><button class="button primary" data-qr-copy="${esc(url)}">Link kopieren</button><button class="button secondary" data-hw-beamer>Groß zeigen (Beamer)</button><a class="button secondary" href="${esc(url)}" target="_blank" rel="noopener">So sehen es Lernende</a><button class="quiet" data-hw-clear>Leeren</button></div>`
         : '<p class="hw-empty">Noch leer. Tippe bei einer Hörübung oder Wortliste auf „Zur Hausaufgabe“.</p>'
     }`;
   if (!d.open) d.showModal();
@@ -148,7 +149,7 @@ function hwPage() {
           r.kind !== 'vocabulary'
             ? `<button class="button ${ok ? 'secondary' : 'primary'}" data-lesson="${esc(r.x.id)}">${ok ? 'Noch einmal' : r.kind === 'grammar' ? 'Üben' : 'Anhören'}</button>`
             : `<button class="button ${ok ? 'secondary' : 'primary'}" data-vocab-set="${esc(r.x.id)}">${ok ? 'Wiederholen' : 'Üben'}</button>`;
-        return `<li class="${ok ? 'is-done' : ''}"><span class="hw-check" aria-hidden="true">${ok ? '✓' : ''}</span><span class="hw-text"><b>${esc(r.x.title)}</b><small><span>${HW_KIND[r.kind]}</span> · ${esc(r.x.level)}${ok ? ' · <span>erledigt</span>' : ''}</small></span>${action}</li>`;
+        return `<li class="${ok ? 'is-done' : ''}" data-hw-row="${esc(r.x.id)}"><span class="hw-check" aria-hidden="true">${ok ? '✓' : ''}</span><span class="hw-text"><b>${esc(r.x.title)}</b><small><span>${HW_KIND[r.kind]}</span> · ${esc(r.x.level)}${ok ? ' · <span>erledigt</span>' : ''}</small></span>${action}</li>`;
       })
       .join('')}</ol>
   </div>`;
@@ -177,6 +178,21 @@ function hwShow(code) {
     if (view === 'aufgabe' && !session) return hwPage();
     return baseRender.apply(this, arguments);
   };
+  const baseBanner = resultBanner;
+  resultBanner = function (x, state) {
+    const html = baseBanner.apply(this, arguments);
+    if (!html || !hwActive || hwActive.code !== hwCurrent?.code) return html;
+    const rows = hwStatus(hwCurrent).rows;
+    const i = rows.findIndex(r => r.x.id === x.id);
+    if (i < 0) return html;
+    const next = rows.slice(i + 1).concat(rows.slice(0, i)).find(r => !hwDone(r));
+    const btn = next
+      ? next.kind === 'vocabulary'
+        ? `<button class="button primary" data-vocab-set="${esc(next.x.id)}">Nächste Aufgabe</button>`
+        : `<button class="button primary" data-lesson="${esc(next.x.id)}">Nächste Aufgabe</button>`
+      : '';
+    return html.replace('</section>', `<div class="hw-next"><span>${rows.filter(hwDone).length} von ${rows.length} erledigt</span>${btn}<button class="button secondary" data-hw-show="${esc(hwCurrent.code)}">Zur Aufgabenliste</button></div></section>`);
+  };
   const baseHome = learnerHome;
   learnerHome = function () {
     return hwHomeCard() + baseHome.apply(this, arguments);
@@ -195,7 +211,49 @@ function hwShow(code) {
     return r;
   };
 }
+/* Aufgabe aus der Liste geöffnet? Dann zeigt die Korrektur „Nächste Aufgabe“. */
+document.addEventListener(
+  'click',
+  e => {
+    const b = e.target.closest('[data-lesson],[data-vocab-set]');
+    if (b) hwActive = b.closest('.hw-tasks,.hw-next') ? hwCurrent : null;
+  },
+  true
+);
+/* QR-Code bildschirmfüllend für den Beamer: Lernende scannen mit dem iPad. */
+function hwBeamer() {
+  const url = hwURL(hwDraft);
+  let d = $('hw-beamer');
+  if (!d) {
+    d = document.createElement('dialog');
+    d.id = 'hw-beamer';
+    d.className = 'hw-beamer';
+    document.body.append(d);
+  }
+  const n = hwDraft.items.length;
+  d.innerHTML = `<div class="hw-beamer-in"><h2>${esc(hwDraft.title || 'Aufgaben für heute')}</h2><p>${plural(n, 'Aufgabe', 'Aufgaben')} · QR-Code mit dem iPad scannen</p><div class="hw-beamer-qr">${qrSVG(url, 'QR-Code zu den Aufgaben')}</div><button class="button secondary" data-close="hw-beamer">Schließen</button></div>`;
+  $('hw-dialog')?.close();
+  d.showModal();
+}
+/* Arbeitsblatt-Mappe → Link für die Klasse (z. B. kurz vor der Stunde für die iPads). */
+function hwFromSheet() {
+  const ids = wsAll();
+  const keys = ids
+    .map(id => findTask(id))
+    .filter(Boolean)
+    .filter(x => !/^eigene?-/.test(x.id) && !editorState.items.some(i => edId(i) === x.id))
+    .map(x => (x.kind === 'grammar' ? 'g:' : 'l:') + x.id)
+    .slice(0, 30);
+  const left = ids.length - keys.length;
+  hwDraft = { title: wsDraft.title || hwDraft.title, items: keys };
+  hwSaveDraft();
+  $('ws-dialog')?.close();
+  hwComposer();
+  if (left) toast(plural(left, 'eigene Übung ist', 'eigene Übungen sind') + ' nicht im Link: Eigene Übungen über „Mit Klasse teilen“ in der Redaktion verschicken.');
+}
 document.addEventListener('click', e => {
+  if (e.target.closest('[data-ws-link]')) return hwFromSheet();
+  if (e.target.closest('[data-hw-beamer]')) return hwBeamer();
   const b = e.target.closest(
     '[data-hw],[data-hw-open],[data-hw-move],[data-hw-clear],[data-hw-show]'
   );

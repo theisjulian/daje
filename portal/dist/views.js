@@ -528,30 +528,9 @@ function questionHTML(x, q, index, state) {
           return `<label class="opt${st}"><input type="checkbox" name="${q.id}" value="${o.id}" data-listen-multi="${q.id}" ${chosen.includes(o.id) ? 'checked' : ''}><span class="opt-mark box" aria-hidden="true"></span><span class="opt-text">${esc(o.text)}</span></label>`;
         })
         .join('');
-  } else if (q.type === 'matching') {
-    const rights = seededOrder(
-      [
-        ...q.pairs.map(p => ({ id: p.id, text: p.right })),
-        ...q.distractors.map((t, i) => ({ id: 'x' + i, text: t }))
-      ],
-      q.id
-    );
-    field = q.pairs
-      .map(
-        p =>
-          `<div class="pair-row${mark(parts[p.id] === p.id)}"><span class="pair-left">${esc(p.left)}</span><select data-listen-part="${q.id}" data-part="${p.id}" aria-label="Zu „${esc(p.left)}“ passend" lang="${x.language}"><option value="">Wählen</option>${rights.map(r => `<option value="${r.id}" ${ownPart(parts, p.id) && parts[p.id] === r.id ? 'selected' : ''}>${esc(r.text)}</option>`).join('')}</select></div>`
-      )
-      .join('');
-  } else if (q.type === 'ordering') {
-    field =
-      '<p class="q-hint">Wähle für jeden Schritt die Position.</p>' +
-      seededOrder(q.items, q.id)
-        .map(
-          it =>
-            `<div class="pair-row${mark(ownPart(parts, it.id) && Number(parts[it.id]) === q.items.indexOf(it) + 1)}"><select class="pos" data-listen-part="${q.id}" data-part="${it.id}" aria-label="Position für „${esc(it.text)}“"><option value="">–</option>${q.items.map((_, i) => `<option value="${i + 1}" ${ownPart(parts, it.id) && Number(parts[it.id]) === i + 1 ? 'selected' : ''}>${i + 1}</option>`).join('')}</select><span class="pair-left" lang="${x.language}">${esc(it.text)}</span></div>`
-        )
-        .join('');
-  } else if (q.type === 'gap_fill') {
+  } else if (q.type === 'matching') field = ixMatchingHTML(x, q, parts, state);
+  else if (q.type === 'ordering') field = ixOrderingHTML(x, q, parts, state);
+  else if (q.type === 'gap_fill') {
     const gap = (id, n) => {
       const g = q.gaps.find(v => v.id === id);
       const val = ownPart(parts, id) ? parts[id] : '';
@@ -569,7 +548,7 @@ function questionHTML(x, q, index, state) {
     }
     // Wortkasten: alle Lösungen (erste Schreibweise) und Zusatzwörter, alphabetisch.
     const bank = q.wordBank ? [...new Set([...q.gaps.map(g => g.acceptedAnswers[0]), ...(q.extraWords || [])])].sort((a, b) => a.localeCompare(b)) : [];
-    field = `${bank.length ? `<div class="word-bank" lang="${x.language}">${bank.map(w => `<span>${esc(w)}</span>`).join('')}</div>` : ''}<p class="gap-text" lang="${x.language}">${html}${esc(q.text.slice(last))}</p>`;
+    field = `${bank.length ? `<p class="q-hint">Tippe ein Wort an oder ziehe es in die Lücke. Du kannst auch selbst schreiben.</p><div class="word-bank" lang="${x.language}">${bank.map(w => `<button type="button" class="wb-chip" data-ix-word="${esc(w)}">${esc(w)}</button>`).join('')}</div>` : ''}<p class="gap-text" lang="${x.language}">${html}${esc(q.text.slice(last))}</p>`;
   } else if (q.type === 'true_false_ng')
     field = option('true', 'Richtig') + option('false', 'Falsch') + option('not_given', 'Nicht im Text');
   else if (q.type === 'word_select') {
@@ -587,7 +566,7 @@ function questionHTML(x, q, index, state) {
     field = `<p class="gap-text" lang="${x.language}">${gapHTML(q.text, (id, n) => {
       const g = q.gaps.find(v => v.id === id);
       const val = ownPart(parts, id) ? parts[id] : '';
-      return `<select class="gap gap-sel${mark(val === g.answer)}" data-listen-part="${q.id}" data-part="${id}" aria-label="Lücke ${n}"><option value="">…</option>${[...g.options].sort((a, b) => a.localeCompare(b)).map(o => `<option value="${esc(o)}" ${val === o ? 'selected' : ''}>${esc(o)}</option>`).join('')}</select>`;
+      return ixChoiceGap(q, id, n, val, val === g.answer, state.checked);
     })}</p>`;
   else if (q.type === 'note_fill') {
     const html = gapHTML(q.text, (id, n) => {

@@ -560,7 +560,11 @@
     }
     if (q.type === 'ordering') {
       const v = parts();
-      return q.items.every((it, i) => has(v, it.id) && Number(v[it.id]) === i + 1);
+      // Gleich lautende Teile (zweimal „a“) dürfen die Plätze tauschen.
+      return q.items.every(it => {
+        const n = has(v, it.id) ? Number(v[it.id]) : 0;
+        return Number.isInteger(n) && n >= 1 && n <= q.items.length && norm(q.items[n - 1].text) === norm(it.text);
+      });
     }
     if (q.type === 'gap_fill' || q.type === 'note_fill') {
       const v = parts();
