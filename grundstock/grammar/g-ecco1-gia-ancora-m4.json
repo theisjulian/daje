@@ -1,0 +1,155 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-gia-ancora-m4",
+ "title": "Già o non ancora?",
+ "language": "it",
+ "level": "A1",
+ "description": "Già e (non …) ancora · Già o non ancora? · livello medio.",
+ "topics": [
+  "Già e (non …) ancora",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 4 · Tempo libero · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 16,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "4 · Tempo libero",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo: già, ancora"
+ },
+ "grammar": {
+  "topic": "ecco1-gia-ancora",
+  "topicTitle": "Già e (non …) ancora",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 54,
+  "rule": "Nel passato prossimo **già** e **ancora** stanno **tra l’ausiliare e il participio**:\n- _Ho **già** fatto i compiti._\n- _**Non** ho **ancora** mangiato._",
+  "ruleHelp": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**: _Ho già fatto i compiti._ (schon gemacht) · _Non ho ancora mangiato._ (noch nicht gegessen)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti le parole in ordine: „Ich habe die Hausaufgaben noch nicht gemacht.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Non"
+    },
+    {
+     "id": "i2",
+     "text": "ho"
+    },
+    {
+     "id": "i3",
+     "text": "ancora"
+    },
+    {
+     "id": "i4",
+     "text": "fatto"
+    },
+    {
+     "id": "i5",
+     "text": "i compiti."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti le parole in ordine: „Hast du schon gegessen?“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Hai"
+    },
+    {
+     "id": "i2",
+     "text": "già"
+    },
+    {
+     "id": "i3",
+     "text": "mangiato?"
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti le parole in ordine: „Luca ist schon nach Hause gegangen.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Luca"
+    },
+    {
+     "id": "i2",
+     "text": "è"
+    },
+    {
+     "id": "i3",
+     "text": "già"
+    },
+    {
+     "id": "i4",
+     "text": "tornato"
+    },
+    {
+     "id": "i5",
+     "text": "a casa."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Metti le parole in ordine: „Die Mädchen sind noch nicht angekommen.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "explanation": "già e ancora stanno tra l’ausiliare e il participio.",
+   "explanationHelp": "già und ancora stehen zwischen Hilfsverb und Partizip.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Le ragazze"
+    },
+    {
+     "id": "i2",
+     "text": "non"
+    },
+    {
+     "id": "i3",
+     "text": "sono"
+    },
+    {
+     "id": "i4",
+     "text": "ancora"
+    },
+    {
+     "id": "i5",
+     "text": "arrivate."
+    }
+   ]
+  }
+ ]
+}

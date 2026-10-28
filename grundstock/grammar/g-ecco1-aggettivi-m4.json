@@ -1,0 +1,163 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-aggettivi-m4",
+ "title": "Dove va l’aggettivo?",
+ "language": "it",
+ "level": "A1",
+ "description": "Gli aggettivi e la loro posizione · Dove va l’aggettivo? · livello medio.",
+ "topics": [
+  "Gli aggettivi e la loro posizione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 2 · La mia camera · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 18,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Adjektive"
+ },
+ "grammar": {
+  "topic": "ecco1-aggettivi",
+  "topicTitle": "Gli aggettivi e la loro posizione",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 74,
+  "rule": "L’aggettivo cambia come il nome (genere e numero):\n| tipo | m. sing. | f. sing. | m. plur. | f. plur. |\n| -o/-a | nuovo | nuova | nuovi | nuove |\n| -e | grande | grande | grandi | grandi |\n\n**Posizione:** di solito **dopo** il nome: _un libro **interessante**, una camera **grande**._ Alcuni aggettivi brevi e frequenti stanno spesso prima: _un **bel** posto, un **piccolo** problema._\n**Attenzione:** _ultimo_ sta sempre prima: _l’ultima novità._",
+  "ruleHelp": "Adjektive richten sich nach dem Nomen (Geschlecht und Zahl): nuovo, nuova, nuovi, nuove · grande, grandi.\n**Stellung:** meist **nach** dem Nomen: _un libro interessante._ Einige kurze, häufige Adjektive oft davor: _un bel posto, un piccolo problema._ _ultimo_ steht immer vorn."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti le parole in ordine: „Ich habe ein schönes rotes Fahrrad.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Ho"
+    },
+    {
+     "id": "i2",
+     "text": "una"
+    },
+    {
+     "id": "i3",
+     "text": "bella"
+    },
+    {
+     "id": "i4",
+     "text": "bici"
+    },
+    {
+     "id": "i5",
+     "text": "rossa."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti le parole in ordine: „Giulia ist ein sehr nettes Mädchen.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Giulia"
+    },
+    {
+     "id": "i2",
+     "text": "è"
+    },
+    {
+     "id": "i3",
+     "text": "una ragazza"
+    },
+    {
+     "id": "i4",
+     "text": "molto"
+    },
+    {
+     "id": "i5",
+     "text": "simpatica."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti le parole in ordine: „Die italienischen Schuhe sind schön.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Le"
+    },
+    {
+     "id": "i2",
+     "text": "scarpe"
+    },
+    {
+     "id": "i3",
+     "text": "italiane"
+    },
+    {
+     "id": "i4",
+     "text": "sono"
+    },
+    {
+     "id": "i5",
+     "text": "belle."
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Metti le parole in ordine: „Wir wohnen in einem großen Haus.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "explanation": "Di solito l’aggettivo va dopo il nome; bello, grande, buono anche prima.",
+   "explanationHelp": "Adjektive meist nach dem Nomen; bello, grande, buono auch davor.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Abitiamo"
+    },
+    {
+     "id": "i2",
+     "text": "in"
+    },
+    {
+     "id": "i3",
+     "text": "una"
+    },
+    {
+     "id": "i4",
+     "text": "grande"
+    },
+    {
+     "id": "i5",
+     "text": "casa."
+    }
+   ]
+  }
+ ]
+}

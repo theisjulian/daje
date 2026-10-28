@@ -717,3 +717,29 @@ Non hai [già=>ancora] telefonato? Telefona adesso!
 (voi / finire ✗) | Non avete ancora finito | Non avete ancora finito.
 (mia madre / partire ✓) | Mia madre è già partita | Mia madre è già partita.
 (io / scrivere la mail ✗) | Non ho ancora scritto la mail | Non ho ancora scritto la mail.
+
+@mehr gia-ancora
+%übung mittel | Già o non ancora?
+?ordnen | Metti le parole in ordine: „Ich habe die Hausaufgaben noch nicht gemacht.“ || Bringe die Wörter in die richtige Reihenfolge.
+Non
+ho
+ancora
+fatto
+i compiti.
+?ordnen | Metti le parole in ordine: „Hast du schon gegessen?“ || Bringe die Wörter in die richtige Reihenfolge.
+Hai
+già
+mangiato?
+?ordnen | Metti le parole in ordine: „Luca ist schon nach Hause gegangen.“ || Bringe die Wörter in die richtige Reihenfolge.
+Luca
+è
+già
+tornato
+a casa.
+?ordnen | Metti le parole in ordine: „Die Mädchen sind noch nicht angekommen.“ || Bringe die Wörter in die richtige Reihenfolge.
+Le ragazze
+non
+sono
+ancora
+arrivate.
+! già e ancora stanno tra l’ausiliare e il participio. || già und ancora stehen zwischen Hilfsverb und Partizip.

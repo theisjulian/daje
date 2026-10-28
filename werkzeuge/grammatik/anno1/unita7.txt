@@ -358,3 +358,26 @@ alcuni giorni | qualche giorno | qualche giorno
 alcune volte | qualche volta | qualche volta
 alcuni amici | qualche amico | qualche amico
 alcune gite | qualche gita | qualche gita
+
+@mehr riflessivi
+%übung mittel | La mia mattina
+?ordnen | Metti le parole in ordine: „Ich stehe um sieben Uhr auf.“ || Bringe die Wörter in die richtige Reihenfolge.
+Mi
+alzo
+alle
+sette.
+?ordnen | Metti le parole in ordine: „Wascht ihr euch die Hände?“ || Bringe die Wörter in die richtige Reihenfolge.
+Vi
+lavate
+le mani?
+?ordnen | Metti le parole in ordine: „Am Sonntag ruhen wir uns aus.“ || Bringe die Wörter in die richtige Reihenfolge.
+La domenica
+ci
+riposiamo.
+?ordnen | Metti le parole in ordine: „Paola zieht sich nicht schnell an.“ || Bringe die Wörter in die richtige Reihenfolge.
+Paola
+non
+si
+veste
+in fretta.
+! non va prima del pronome riflessivo: non si veste. || non steht vor dem Reflexivpronomen.

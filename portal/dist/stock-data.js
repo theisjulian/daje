@@ -44398,6 +44398,176 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco1-aggettivi-m4",
+  "title": "Dove va l’aggettivo?",
+  "language": "it",
+  "level": "A1",
+  "description": "Gli aggettivi e la loro posizione · Dove va l’aggettivo? · livello medio.",
+  "topics": [
+   "Gli aggettivi e la loro posizione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 2 · La mia camera · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "2 · La mia camera",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Adjektive"
+  },
+  "estimatedMinutes": 18,
+  "grammar": {
+   "topic": "ecco1-aggettivi",
+   "topicTitle": "Gli aggettivi e la loro posizione",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "L’aggettivo cambia come il nome (genere e numero):\n| tipo | m. sing. | f. sing. | m. plur. | f. plur. |\n| -o/-a | nuovo | nuova | nuovi | nuove |\n| -e | grande | grande | grandi | grandi |\n\n**Posizione:** di solito **dopo** il nome: _un libro **interessante**, una camera **grande**._ Alcuni aggettivi brevi e frequenti stanno spesso prima: _un **bel** posto, un **piccolo** problema._\n**Attenzione:** _ultimo_ sta sempre prima: _l’ultima novità._",
+   "ruleHelp": "Adjektive richten sich nach dem Nomen (Geschlecht und Zahl): nuovo, nuova, nuovi, nuove · grande, grandi.\n**Stellung:** meist **nach** dem Nomen: _un libro interessante._ Einige kurze, häufige Adjektive oft davor: _un bel posto, un piccolo problema._ _ultimo_ steht immer vorn.",
+   "order": 74
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Ich habe ein schönes rotes Fahrrad.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Ho"
+     },
+     {
+      "id": "i2",
+      "text": "una"
+     },
+     {
+      "id": "i3",
+      "text": "bella"
+     },
+     {
+      "id": "i4",
+      "text": "bici"
+     },
+     {
+      "id": "i5",
+      "text": "rossa."
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Giulia ist ein sehr nettes Mädchen.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Giulia"
+     },
+     {
+      "id": "i2",
+      "text": "è"
+     },
+     {
+      "id": "i3",
+      "text": "una ragazza"
+     },
+     {
+      "id": "i4",
+      "text": "molto"
+     },
+     {
+      "id": "i5",
+      "text": "simpatica."
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Die italienischen Schuhe sind schön.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Le"
+     },
+     {
+      "id": "i2",
+      "text": "scarpe"
+     },
+     {
+      "id": "i3",
+      "text": "italiane"
+     },
+     {
+      "id": "i4",
+      "text": "sono"
+     },
+     {
+      "id": "i5",
+      "text": "belle."
+     }
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Wir wohnen in einem großen Haus.“",
+    "explanation": "Di solito l’aggettivo va dopo il nome; bello, grande, buono anche prima.",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "explanationHelp": "Adjektive meist nach dem Nomen; bello, grande, buono auch davor.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Abitiamo"
+     },
+     {
+      "id": "i2",
+      "text": "in"
+     },
+     {
+      "id": "i3",
+      "text": "una"
+     },
+     {
+      "id": "i4",
+      "text": "grande"
+     },
+     {
+      "id": "i5",
+      "text": "casa."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco1-aggettivi-s1",
   "title": "Metti in ordine",
   "language": "it",
@@ -59433,6 +59603,147 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco1-domande-m4",
+  "title": "Fai la domanda",
+  "language": "it",
+  "level": "A1",
+  "description": "Le domande: chi, che cosa, dove, quando … · Fai la domanda · livello medio.",
+  "topics": [
+   "Le domande: chi, che cosa, dove, quando …",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 7/8 · Fragewörter, Fragesätze"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco1-domande",
+   "topicTitle": "Le domande: chi, che cosa, dove, quando …",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| **chi?** | wer? | **dove?** | wo? wohin? |\n| **che cosa?** | was? | **quando?** | wann? |\n| **come?** | wie? | **perché?** | warum? |\n| **quanto/-a/-i/-e?** | wie viel(e)? | **quale/-i?** | welche(r)? |\n| **di dove?** | woher? | **a che ora?** | um wie viel Uhr? |\n_**Dove** abiti? · **Quanti** anni hai? · **Quale** zaino preferisci?_\n**Quanto** concorda con il nome: _quant**e** sorelle?_ · **Qual è** senza apostrofo!",
+   "ruleHelp": "Die wichtigsten **Fragewörter** (siehe Tabelle). **quanto** passt sich an: _quanti anni, quante sorelle_. **quale** → Plural **quali**; vor è: **qual è** (ohne Apostroph).",
+   "order": 54
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Um wie viel Uhr beginnt der Film?“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "A che ora"
+     },
+     {
+      "id": "i2",
+      "text": "comincia"
+     },
+     {
+      "id": "i3",
+      "text": "il film?"
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Woher kommt dein Freund?“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Di dove"
+     },
+     {
+      "id": "i2",
+      "text": "è"
+     },
+     {
+      "id": "i3",
+      "text": "il tuo amico?"
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Warum lernst du Italienisch?“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Perché"
+     },
+     {
+      "id": "i2",
+      "text": "studi"
+     },
+     {
+      "id": "i3",
+      "text": "l’italiano?"
+     }
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Wie viele Geschwister hat Anna?“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Quanti"
+     },
+     {
+      "id": "i2",
+      "text": "fratelli"
+     },
+     {
+      "id": "i3",
+      "text": "ha"
+     },
+     {
+      "id": "i4",
+      "text": "Anna?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco1-domande-s1",
   "title": "Trova gli errori",
   "language": "it",
@@ -63283,6 +63594,168 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco1-gia-ancora-m4",
+  "title": "Già o non ancora?",
+  "language": "it",
+  "level": "A1",
+  "description": "Già e (non …) ancora · Già o non ancora? · livello medio.",
+  "topics": [
+   "Già e (non …) ancora",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 4 · Tempo libero · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "4 · Tempo libero",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo: già, ancora"
+  },
+  "estimatedMinutes": 16,
+  "grammar": {
+   "topic": "ecco1-gia-ancora",
+   "topicTitle": "Già e (non …) ancora",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Nel passato prossimo **già** e **ancora** stanno **tra l’ausiliare e il participio**:\n- _Ho **già** fatto i compiti._\n- _**Non** ho **ancora** mangiato._",
+   "ruleHelp": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**: _Ho già fatto i compiti._ (schon gemacht) · _Non ho ancora mangiato._ (noch nicht gegessen)",
+   "order": 54
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Ich habe die Hausaufgaben noch nicht gemacht.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Non"
+     },
+     {
+      "id": "i2",
+      "text": "ho"
+     },
+     {
+      "id": "i3",
+      "text": "ancora"
+     },
+     {
+      "id": "i4",
+      "text": "fatto"
+     },
+     {
+      "id": "i5",
+      "text": "i compiti."
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Hast du schon gegessen?“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Hai"
+     },
+     {
+      "id": "i2",
+      "text": "già"
+     },
+     {
+      "id": "i3",
+      "text": "mangiato?"
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Luca ist schon nach Hause gegangen.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Luca"
+     },
+     {
+      "id": "i2",
+      "text": "è"
+     },
+     {
+      "id": "i3",
+      "text": "già"
+     },
+     {
+      "id": "i4",
+      "text": "tornato"
+     },
+     {
+      "id": "i5",
+      "text": "a casa."
+     }
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Die Mädchen sind noch nicht angekommen.“",
+    "explanation": "già e ancora stanno tra l’ausiliare e il participio.",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "explanationHelp": "già und ancora stehen zwischen Hilfsverb und Partizip.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Le ragazze"
+     },
+     {
+      "id": "i2",
+      "text": "non"
+     },
+     {
+      "id": "i3",
+      "text": "sono"
+     },
+     {
+      "id": "i4",
+      "text": "ancora"
+     },
+     {
+      "id": "i5",
+      "text": "arrivate."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco1-gia-ancora-s1",
   "title": "Metti in ordine",
   "language": "it",
@@ -64502,6 +64975,160 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "correte"
       ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-m5",
+  "title": "Ordini e consigli",
+  "language": "it",
+  "level": "A1",
+  "description": "L’imperativo (tu, voi) e la negazione · Ordini e consigli · livello medio.",
+  "topics": [
+   "L’imperativo (tu, voi) e la negazione",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "3 · La scuola",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ 2. Person Singular und Plural, verneint"
+  },
+  "estimatedMinutes": 14,
+  "grammar": {
+   "topic": "ecco1-imperativo",
+   "topicTitle": "L’imperativo (tu, voi) e la negazione",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Affermativo:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nIrregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_\n\n**Negativo:**\n- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + imperativo: _**Non parlate!**_\n\nCon gli adulti (Lei): _Scusi! Senta!_",
+   "ruleHelp": "**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.\n**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_",
+   "order": 35
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Mach das Fenster zu, bitte!“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Chiudi"
+     },
+     {
+      "id": "i2",
+      "text": "la finestra,"
+     },
+     {
+      "id": "i3",
+      "text": "per favore!"
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Geh nicht ins Kino, lern Mathe!“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Non"
+     },
+     {
+      "id": "i2",
+      "text": "andare"
+     },
+     {
+      "id": "i3",
+      "text": "al cinema,"
+     },
+     {
+      "id": "i4",
+      "text": "studia"
+     },
+     {
+      "id": "i5",
+      "text": "matematica!"
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Kinder, sprecht nicht so laut!“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Ragazzi,"
+     },
+     {
+      "id": "i2",
+      "text": "non"
+     },
+     {
+      "id": "i3",
+      "text": "parlate"
+     },
+     {
+      "id": "i4",
+      "text": "così"
+     },
+     {
+      "id": "i5",
+      "text": "forte!"
+     }
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Ruf heute Abend die Oma an!“",
+    "explanation": "Imperativo negativo (tu): non + infinito.",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "explanationHelp": "Verneinter Imperativ (tu): non + Infinitiv.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Telefona"
+     },
+     {
+      "id": "i2",
+      "text": "alla nonna"
+     },
+     {
+      "id": "i3",
+      "text": "stasera!"
      }
     ]
    }
@@ -66306,6 +66933,147 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "dammi"
       ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-pronomi-m4",
+  "title": "Fallo!",
+  "language": "it",
+  "level": "A1",
+  "description": "L’imperativo con i pronomi: dimmi, fallo! · Fallo! · livello medio.",
+  "topics": [
+   "L’imperativo con i pronomi: dimmi, fallo!",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco1-imperativo-pronomi",
+   "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:\n- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_\nCon **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:\n- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_\nCon il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_",
+   "ruleHelp": "Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_\nBei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.\nVerneint (tu): _Non lo comprare!_ oder _Non comprarlo!_",
+   "order": 44
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Die Pizza? Iss sie!“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "La pizza?"
+     },
+     {
+      "id": "i2",
+      "text": "Mangiala"
+     },
+     {
+      "id": "i3",
+      "text": "subito!"
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Den Film? Schau ihn dir nicht an!“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Il film?"
+     },
+     {
+      "id": "i2",
+      "text": "Non"
+     },
+     {
+      "id": "i3",
+      "text": "guardarlo!"
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Bitte sag mir die Wahrheit!“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Per favore,"
+     },
+     {
+      "id": "i2",
+      "text": "dimmi"
+     },
+     {
+      "id": "i3",
+      "text": "la"
+     },
+     {
+      "id": "i4",
+      "text": "verità!"
+     }
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Die Fotos? Schickt sie mir heute Abend!“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Le foto?"
+     },
+     {
+      "id": "i2",
+      "text": "Mandatemele"
+     },
+     {
+      "id": "i3",
+      "text": "stasera!"
      }
     ]
    }
@@ -73138,6 +73906,163 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco1-negazione-doppia-m4",
+  "title": "Costruisci la frase",
+  "language": "it",
+  "level": "A1",
+  "description": "Non … niente, nessuno, mai, più · Costruisci la frase · livello medio.",
+  "topics": [
+   "Non … niente, nessuno, mai, più",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation, u. a. doppia negazione bei niente, nessuno, mai"
+  },
+  "estimatedMinutes": 15,
+  "grammar": {
+   "topic": "ecco1-negazione-doppia",
+   "topicTitle": "Non … niente, nessuno, mai, più",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "In italiano diciamo **due negazioni**: **non** prima del verbo e la seconda parola dopo il verbo.\n- _**Non** vedo **niente**._ (nichts)\n- _**Non** c’è **nessuno**._ (niemand)\n- _**Non** vado **mai** in palestra._ (nie)\n- _**Non** abito **più** a Roma._ (nicht mehr)\nSe **niente** o **nessuno** sono all’inizio, **non** non c’è: _**Nessuno** parla._",
+   "ruleHelp": "Im Italienischen verneint man **doppelt**: **non** vor dem Verb und dann **niente** (nichts), **nessuno** (niemand), **mai** (nie), **più** (nicht mehr) nach dem Verb: _Non vedo niente. Non c’è nessuno._\nStehen niente/nessuno am Satzanfang, fällt non weg: _Nessuno parla._",
+   "order": 24
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Ich sehe nichts.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Non"
+     },
+     {
+      "id": "i2",
+      "text": "vedo"
+     },
+     {
+      "id": "i3",
+      "text": "niente."
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Heute ist niemand im Park.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Oggi"
+     },
+     {
+      "id": "i2",
+      "text": "non"
+     },
+     {
+      "id": "i3",
+      "text": "c’è"
+     },
+     {
+      "id": "i4",
+      "text": "nessuno"
+     },
+     {
+      "id": "i5",
+      "text": "al parco."
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Marco trinkt nie Kaffee.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Marco"
+     },
+     {
+      "id": "i2",
+      "text": "non"
+     },
+     {
+      "id": "i3",
+      "text": "beve"
+     },
+     {
+      "id": "i4",
+      "text": "mai"
+     },
+     {
+      "id": "i5",
+      "text": "il caffè."
+     }
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Wir wohnen nicht mehr in Mailand.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Non"
+     },
+     {
+      "id": "i2",
+      "text": "abitiamo"
+     },
+     {
+      "id": "i3",
+      "text": "più"
+     },
+     {
+      "id": "i4",
+      "text": "a Milano."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco1-negazione-doppia-s1",
   "title": "Trova gli errori",
   "language": "it",
@@ -74353,6 +75278,172 @@ const STOCK_PACKAGES = [
        "non sta male, sta bene"
       ],
       "modelAnswer": "No, Marco non sta male, sta bene."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-non-m4",
+  "title": "Costruisci le frasi negative",
+  "language": "it",
+  "level": "A1",
+  "description": "La negazione con non · Costruisci le frasi negative · livello medio.",
+  "topics": [
+   "La negazione con non",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 1 · La città · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "1 · La città",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation"
+  },
+  "estimatedMinutes": 17,
+  "grammar": {
+   "topic": "ecco1-non",
+   "topicTitle": "La negazione con non",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**non** va **prima del verbo**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nRisposta a una domanda: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)",
+   "ruleHelp": "**non** steht **vor dem Verb**: _Non abito a Torino. Luca non è di Milano._\nAntwort auf eine Frage: _Sei di Roma? – No, non sono di Roma._ (no = nein, non = nicht)",
+   "order": 64
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Ich wohne nicht in Rom, ich wohne in Turin.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Non"
+     },
+     {
+      "id": "i2",
+      "text": "abito"
+     },
+     {
+      "id": "i3",
+      "text": "a Roma,"
+     },
+     {
+      "id": "i4",
+      "text": "abito"
+     },
+     {
+      "id": "i5",
+      "text": "a Torino."
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Marco ist heute nicht in der Schule.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Oggi"
+     },
+     {
+      "id": "i2",
+      "text": "Marco"
+     },
+     {
+      "id": "i3",
+      "text": "non"
+     },
+     {
+      "id": "i4",
+      "text": "è"
+     },
+     {
+      "id": "i5",
+      "text": "a scuola."
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Sprecht ihr kein Deutsch?“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Voi"
+     },
+     {
+      "id": "i2",
+      "text": "non"
+     },
+     {
+      "id": "i3",
+      "text": "parlate"
+     },
+     {
+      "id": "i4",
+      "text": "tedesco?"
+     }
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Nein, wir hören keine Musik.“",
+    "explanation": "non steht direkt vor dem Verb.",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "explanationHelp": "non steht direkt vor dem Verb.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "No,"
+     },
+     {
+      "id": "i2",
+      "text": "noi"
+     },
+     {
+      "id": "i3",
+      "text": "non"
+     },
+     {
+      "id": "i4",
+      "text": "ascoltiamo"
+     },
+     {
+      "id": "i5",
+      "text": "musica."
      }
     ]
    }
@@ -81835,6 +82926,148 @@ const STOCK_PACKAGES = [
        "non dobbiamo comprarlo"
       ],
       "modelAnswer": "No, non dobbiamo comprarlo."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-posizione-pronomi-m4",
+  "title": "Dove va il pronome?",
+  "language": "it",
+  "level": "A1",
+  "description": "La posizione dei pronomi · Dove va il pronome? · livello medio.",
+  "topics": [
+   "La posizione dei pronomi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Stellung der Objektpronomen bei Verneinung, Modalverben und Infinitiv"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco1-posizione-pronomi",
+   "topicTitle": "La posizione dei pronomi",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "- Di solito il pronome va **prima del verbo**: _**Lo** compro._ · con non: _**Non lo** compro._\n- Con **dovere, potere, volere** ci sono due possibilità:\n  _**Lo** voglio comprare._ = _Voglio comprar**lo**._ (l’infinito perde la -e: comprare → comprar + lo)\n- Con un **infinito** senza modale il pronome va attaccato: _È bello veder**ti**!_ · _Ho voglia di mangiar**la**._",
+   "ruleHelp": "Meist steht das Pronomen **vor dem Verb**: _Lo compro. Non lo compro._\nBei **dovere, potere, volere** zwei Möglichkeiten: _Lo voglio comprare = Voglio comprarlo_ (Infinitiv ohne -e + Pronomen).\nBeim **Infinitiv** wird das Pronomen angehängt: _È bello vederti!_",
+   "order": 74
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Den Pullover? Ich kaufe ihn nicht.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Il maglione?"
+     },
+     {
+      "id": "i2",
+      "text": "Non"
+     },
+     {
+      "id": "i3",
+      "text": "lo"
+     },
+     {
+      "id": "i4",
+      "text": "compro."
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Ich will ihn heute kaufen.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Voglio"
+     },
+     {
+      "id": "i2",
+      "text": "comprarlo"
+     },
+     {
+      "id": "i3",
+      "text": "oggi."
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Die Schuhe? Ich probiere sie an.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Le scarpe?"
+     },
+     {
+      "id": "i2",
+      "text": "Le"
+     },
+     {
+      "id": "i3",
+      "text": "provo."
+     }
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Ich schreibe ihr eine Nachricht.“",
+    "explanation": "Il pronome va prima del verbo; con l’infinito si attacca: comprarlo.",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "explanationHelp": "Pronomen vor dem Verb; beim Infinitiv angehängt.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Le"
+     },
+     {
+      "id": "i2",
+      "text": "scrivo"
+     },
+     {
+      "id": "i3",
+      "text": "un messaggio."
      }
     ]
    }
@@ -97861,6 +99094,156 @@ const STOCK_PACKAGES = [
        ]
       }
      ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-riflessivi-m4",
+  "title": "La mia mattina",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi riflessivi · La mia mattina · livello medio.",
+  "topics": [
+   "I verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · reflexive Verben im Präsens"
+  },
+  "estimatedMinutes": 14,
+  "grammar": {
+   "topic": "ecco1-riflessivi",
+   "topicTitle": "I verbi riflessivi",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "I verbi riflessivi hanno un **pronome riflessivo** prima del verbo:\n| io | tu | lui / lei | noi | voi | loro |\n| **mi** sveglio | **ti** svegli | **si** sveglia | **ci** svegliamo | **vi** svegliate | **si** svegliano |\n\nAltri verbi: _alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi, mettersi, annoiarsi, sentirsi_.\nCon non: _**Non mi** alzo presto._ · Con un modale: _**Mi** devo alzare = Devo alzar**mi**._",
+   "ruleHelp": "Reflexive Verben haben ein **Reflexivpronomen** vor dem Verb: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano.\nWeitere: alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi … · Verneint: _Non mi alzo presto._ · Mit Modalverb: _Mi devo alzare = Devo alzarmi._",
+   "order": 14
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Ich stehe um sieben Uhr auf.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Mi"
+     },
+     {
+      "id": "i2",
+      "text": "alzo"
+     },
+     {
+      "id": "i3",
+      "text": "alle"
+     },
+     {
+      "id": "i4",
+      "text": "sette."
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Wascht ihr euch die Hände?“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Vi"
+     },
+     {
+      "id": "i2",
+      "text": "lavate"
+     },
+     {
+      "id": "i3",
+      "text": "le mani?"
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Am Sonntag ruhen wir uns aus.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "La domenica"
+     },
+     {
+      "id": "i2",
+      "text": "ci"
+     },
+     {
+      "id": "i3",
+      "text": "riposiamo."
+     }
+    ]
+   },
+   {
+    "id": "q4",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Paola zieht sich nicht schnell an.“",
+    "explanation": "non va prima del pronome riflessivo: non si veste.",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "explanationHelp": "non steht vor dem Reflexivpronomen.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Paola"
+     },
+     {
+      "id": "i2",
+      "text": "non"
+     },
+     {
+      "id": "i3",
+      "text": "si"
+     },
+     {
+      "id": "i4",
+      "text": "veste"
+     },
+     {
+      "id": "i5",
+      "text": "in fretta."
+     }
     ]
    }
   ]

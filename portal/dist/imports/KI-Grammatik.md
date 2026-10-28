@@ -140,6 +140,8 @@ Regeln:
 
 Lernende sollen viel selbst schreiben. In den Stufen mittel und schwer überwiegen Formate zum Tippen (`gap_fill` ohne Wortkasten, `table_fill`, `error_correction`, `sentence_completion`). Auswahlformate (`gap_choice`, `single_choice`, `categorize`, `matching`) vor allem in der Stufe leicht. Gute Formen zum Tippen: Satz verneinen und korrigieren („No, non abito a Milano, abito a Torino.“), Sätze aus Bausteinen bilden, Fragen zu Antworten schreiben, Umformen (Singular → Plural, Präsens → passato prossimo), gemischte Lückentexte mit Grundform in Klammern.
 
+**Satzbaukasten:** `ordering` mit kurzen Bausteinen (höchstens 30 Zeichen je Baustein) zeigt daje als Wortkarten, die Lernende antippen oder ziehen. Gut für Wortstellung (Verneinung, Pronomen, Adjektive, Fragen, già/ancora). Satzzeichen an den Baustein hängen und den Satzanfang großschreiben, damit genau eine Reihenfolge passt; den deutschen Satz in die Anweisung schreiben („Metti le parole in ordine: „Ich sehe nichts.““).
+
 ## 8 · Eigenkontrolle vor der Ausgabe
 
 Für jede Aufgabe: (1) Ist jede Lösung eindeutig und sind alle richtigen Varianten erfasst? (2) Übt sie wirklich das Thema? (3) Passen Wortschatz und Niveau? (4) Hat jede Übung mindestens 8 Einheiten? (5) Stehen Anweisung, Merkkasten und Erklärung in der Zielsprache, jeweils mit deutscher Fassung (`promptHelp`, `ruleHelp`, `explanationHelp`)? (6) Im Modus EIGEN: kein Satz wörtlich aus dem Buch? (7) Im Modus GENAU: nichts verändert außer der Form; die Anweisung bleibt die aus dem Buch, die deutsche Hilfe ergänzt du. Aufgaben mit einem „Nein“ überarbeiten oder streichen.

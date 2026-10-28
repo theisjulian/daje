@@ -1,0 +1,159 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-non-m4",
+ "title": "Costruisci le frasi negative",
+ "language": "it",
+ "level": "A1",
+ "description": "La negazione con non · Costruisci le frasi negative · livello medio.",
+ "topics": [
+  "La negazione con non",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 1 · La città · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 17,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation"
+ },
+ "grammar": {
+  "topic": "ecco1-non",
+  "topicTitle": "La negazione con non",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 64,
+  "rule": "**non** va **prima del verbo**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nRisposta a una domanda: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)",
+  "ruleHelp": "**non** steht **vor dem Verb**: _Non abito a Torino. Luca non è di Milano._\nAntwort auf eine Frage: _Sei di Roma? – No, non sono di Roma._ (no = nein, non = nicht)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti le parole in ordine: „Ich wohne nicht in Rom, ich wohne in Turin.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Non"
+    },
+    {
+     "id": "i2",
+     "text": "abito"
+    },
+    {
+     "id": "i3",
+     "text": "a Roma,"
+    },
+    {
+     "id": "i4",
+     "text": "abito"
+    },
+    {
+     "id": "i5",
+     "text": "a Torino."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti le parole in ordine: „Marco ist heute nicht in der Schule.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Oggi"
+    },
+    {
+     "id": "i2",
+     "text": "Marco"
+    },
+    {
+     "id": "i3",
+     "text": "non"
+    },
+    {
+     "id": "i4",
+     "text": "è"
+    },
+    {
+     "id": "i5",
+     "text": "a scuola."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti le parole in ordine: „Sprecht ihr kein Deutsch?“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Voi"
+    },
+    {
+     "id": "i2",
+     "text": "non"
+    },
+    {
+     "id": "i3",
+     "text": "parlate"
+    },
+    {
+     "id": "i4",
+     "text": "tedesco?"
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Metti le parole in ordine: „Nein, wir hören keine Musik.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "explanation": "non steht direkt vor dem Verb.",
+   "explanationHelp": "non steht direkt vor dem Verb.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "No,"
+    },
+    {
+     "id": "i2",
+     "text": "noi"
+    },
+    {
+     "id": "i3",
+     "text": "non"
+    },
+    {
+     "id": "i4",
+     "text": "ascoltiamo"
+    },
+    {
+     "id": "i5",
+     "text": "musica."
+    }
+   ]
+  }
+ ]
+}

@@ -220,7 +220,17 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - Mindestlänge: `qualitaet.py` meldet Grammatikübungen unter 8 Einheiten als Fehler (CI bricht ab). Die KI-Kommandos (`KI-Grammatik.md` 1.1, `KI-Kommandodatei.md` 2.3) verlangen dieselbe Länge und Anweisungen/Erklärungen in der Zielsprache mit deutscher Hilfe.
 - Übersetzungen der Oberfläche: Zeilen in `werkzeuge/i18n/rows_*.py`, `python3 werkzeuge/i18n/bauen.py` schreibt `portal/dist/i18n-rows-2.js`.
 
+## 6t. Antippen und Ziehen, Stunden-Link, Lückentext aus Text (28.10.2026)
+
+- `uebung-ui.js` (nach `views.js` geladen): Ordnen als Satzbaukasten (kurze Teile) bzw. Liste (Griff, Pfeile, Tauschen), Zuordnen mit Karten (antippen oder ziehen, Kartenstapel scrollt mit, wenn klein), Auswahl-Lücken als Knöpfe im Satz, Wortkasten antippen/ziehen. Speicherformat unverändert. Hinweise in der Zielsprache über `instr.js`.
+- Bewertung Ordnen: gleich lautende Teile dürfen Plätze tauschen (`content-contract.js`). Lücken je Aufgabe bis 30, Text bis 6000 Zeichen.
+- Stunden-Link (`aufgabe.js`): Mappe → „Als Link für die Klasse“, Grammatik erlaubt (`g:`), eigene Übungen gepackt im Parameter `pakete` (landen bei Lernenden in `daje-geteilt-v1`), QR für den Beamer (nur bis 1800 Zeichen Link), nach der Korrektur „Nächste Aufgabe“.
+- KI-Grammatik 1.2, Modus D · TEXT: Lückentext aus eingefügtem Text (jedes n-te Wort, C-Test, Schwerpunkt Verben/Artikel/…); fremde Texte → `origin: original` (privat), eigene → `own`.
+- Druck: sichere Seitenhöhe 252 mm (Safari/iPad), Fußzeile per `margin-top:auto !important`, Merkkasten-Listen kompakt.
+- Übersetzungen: `werkzeuge/i18n/rows_3.py`.
+
 ## 7. Offene Punkte
+- Bedienung Ziehen/Antippen auf echtem iPad prüfen (Safari, Stift).
 - Grammatik Secondo/Terzo anno: Themen nach Inhaltsverzeichnis anlegen (Vorlage `werkzeuge/grammatik/anno1`).
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.
 - Lernjahr più importieren (nach Scan, exakte Kapitelzuordnung).

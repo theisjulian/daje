@@ -970,3 +970,24 @@ Gib mir zwei Äpfel! → … | Mi dia due mele | Mi dia due mele, per favore.
 Entschuldigung! (zu einem Herrn) → … | Scusi | Scusi!
 Können Sie mir helfen? → … | Può aiutarmi/Potrebbe aiutarmi | Può aiutarmi?
 Ich hätte gern ein Wasser. → … | Vorrei un’acqua/Vorrei una bottiglia d’acqua | Vorrei un’acqua.
+
+@mehr posizione-pronomi
+%übung mittel | Dove va il pronome?
+?ordnen | Metti le parole in ordine: „Den Pullover? Ich kaufe ihn nicht.“ || Bringe die Wörter in die richtige Reihenfolge.
+Il maglione?
+Non
+lo
+compro.
+?ordnen | Metti le parole in ordine: „Ich will ihn heute kaufen.“ || Bringe die Wörter in die richtige Reihenfolge.
+Voglio
+comprarlo
+oggi.
+?ordnen | Metti le parole in ordine: „Die Schuhe? Ich probiere sie an.“ || Bringe die Wörter in die richtige Reihenfolge.
+Le scarpe?
+Le
+provo.
+?ordnen | Metti le parole in ordine: „Ich schreibe ihr eine Nachricht.“ || Bringe die Wörter in die richtige Reihenfolge.
+Le
+scrivo
+un messaggio.
+! Il pronome va prima del verbo; con l’infinito si attacca: comprarlo. || Pronomen vor dem Verb; beim Infinitiv angehängt.

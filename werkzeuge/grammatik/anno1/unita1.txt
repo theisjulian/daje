@@ -1422,3 +1422,30 @@ Nella mia città [c’è] una stazione.
 [Ci sono] anche due musei.
 Non [c’è] il mare, ma [c’è] un lago.
 [Ci sono] molti ristoranti italiani.
+
+@mehr non
+%übung mittel | Costruisci le frasi negative
+?ordnen | Metti le parole in ordine: „Ich wohne nicht in Rom, ich wohne in Turin.“ || Bringe die Wörter in die richtige Reihenfolge.
+Non
+abito
+a Roma,
+abito
+a Torino.
+?ordnen | Metti le parole in ordine: „Marco ist heute nicht in der Schule.“ || Bringe die Wörter in die richtige Reihenfolge.
+Oggi
+Marco
+non
+è
+a scuola.
+?ordnen | Metti le parole in ordine: „Sprecht ihr kein Deutsch?“ || Bringe die Wörter in die richtige Reihenfolge.
+Voi
+non
+parlate
+tedesco?
+?ordnen | Metti le parole in ordine: „Nein, wir hören keine Musik.“ || Bringe die Wörter in die richtige Reihenfolge.
+No,
+noi
+non
+ascoltiamo
+musica.
+! non steht direkt vor dem Verb. || non steht direkt vor dem Verb.

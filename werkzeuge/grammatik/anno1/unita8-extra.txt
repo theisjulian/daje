@@ -941,3 +941,67 @@ Faccio qualcosa {di*|da} sportivo.
 Porto qualcosa {da*|di} mangiare.
 {Ognuno*|Ogni} racconta una storia.
 {Ogni*|Ognuno} sabato vado al parco.
+
+@mehr negazione-doppia
+%übung mittel | Costruisci la frase
+?ordnen | Metti le parole in ordine: „Ich sehe nichts.“ || Bringe die Wörter in die richtige Reihenfolge.
+Non
+vedo
+niente.
+?ordnen | Metti le parole in ordine: „Heute ist niemand im Park.“ || Bringe die Wörter in die richtige Reihenfolge.
+Oggi
+non
+c’è
+nessuno
+al parco.
+?ordnen | Metti le parole in ordine: „Marco trinkt nie Kaffee.“ || Bringe die Wörter in die richtige Reihenfolge.
+Marco
+non
+beve
+mai
+il caffè.
+?ordnen | Metti le parole in ordine: „Wir wohnen nicht mehr in Mailand.“ || Bringe die Wörter in die richtige Reihenfolge.
+Non
+abitiamo
+più
+a Milano.
+
+@mehr imperativo-pronomi
+%übung mittel | Fallo!
+?ordnen | Metti le parole in ordine: „Die Pizza? Iss sie!“ || Bringe die Wörter in die richtige Reihenfolge.
+La pizza?
+Mangiala
+subito!
+?ordnen | Metti le parole in ordine: „Den Film? Schau ihn dir nicht an!“ || Bringe die Wörter in die richtige Reihenfolge.
+Il film?
+Non
+guardarlo!
+?ordnen | Metti le parole in ordine: „Bitte sag mir die Wahrheit!“ || Bringe die Wörter in die richtige Reihenfolge.
+Per favore,
+dimmi
+la
+verità!
+?ordnen | Metti le parole in ordine: „Die Fotos? Schickt sie mir heute Abend!“ || Bringe die Wörter in die richtige Reihenfolge.
+Le foto?
+Mandatemele
+stasera!
+
+@mehr domande
+%übung mittel | Fai la domanda
+?ordnen | Metti le parole in ordine: „Um wie viel Uhr beginnt der Film?“ || Bringe die Wörter in die richtige Reihenfolge.
+A che ora
+comincia
+il film?
+?ordnen | Metti le parole in ordine: „Woher kommt dein Freund?“ || Bringe die Wörter in die richtige Reihenfolge.
+Di dove
+è
+il tuo amico?
+?ordnen | Metti le parole in ordine: „Warum lernst du Italienisch?“ || Bringe die Wörter in die richtige Reihenfolge.
+Perché
+studi
+l’italiano?
+?ordnen | Metti le parole in ordine: „Wie viele Geschwister hat Anna?“ || Bringe die Wörter in die richtige Reihenfolge.
+Quanti
+fratelli
+ha
+Anna?

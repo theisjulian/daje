@@ -1,0 +1,147 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-imperativo-m5",
+ "title": "Ordini e consigli",
+ "language": "it",
+ "level": "A1",
+ "description": "L’imperativo (tu, voi) e la negazione · Ordini e consigli · livello medio.",
+ "topics": [
+  "L’imperativo (tu, voi) e la negazione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 3 · La scuola · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 14,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "3 · La scuola",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ 2. Person Singular und Plural, verneint"
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo",
+  "topicTitle": "L’imperativo (tu, voi) e la negazione",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 35,
+  "rule": "**Affermativo:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nIrregolari (tu): _fa’/fai!_ · _da’/dai!_ · _di’!_ · _va’/vai!_\n\n**Negativo:**\n- tu: **non** + infinito: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + imperativo: _**Non parlate!**_\n\nCon gli adulti (Lei): _Scusi! Senta!_",
+  "ruleHelp": "**Bejaht:** tu: -are → -a (parla!), -ere/-ire → -i (prendi!, senti!, finisci!) · voi: wie Präsens (parlate!, prendete!, sentite!). Unregelmäßig: fa’/fai, da’/dai, di’, va’/vai.\n**Verneint:** tu: non + Infinitiv (_Non parlare!_) · voi: non + Imperativ (_Non parlate!_). Höflich (Lei): _Scusi! Senta!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti le parole in ordine: „Mach das Fenster zu, bitte!“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Chiudi"
+    },
+    {
+     "id": "i2",
+     "text": "la finestra,"
+    },
+    {
+     "id": "i3",
+     "text": "per favore!"
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti le parole in ordine: „Geh nicht ins Kino, lern Mathe!“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Non"
+    },
+    {
+     "id": "i2",
+     "text": "andare"
+    },
+    {
+     "id": "i3",
+     "text": "al cinema,"
+    },
+    {
+     "id": "i4",
+     "text": "studia"
+    },
+    {
+     "id": "i5",
+     "text": "matematica!"
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti le parole in ordine: „Kinder, sprecht nicht so laut!“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Ragazzi,"
+    },
+    {
+     "id": "i2",
+     "text": "non"
+    },
+    {
+     "id": "i3",
+     "text": "parlate"
+    },
+    {
+     "id": "i4",
+     "text": "così"
+    },
+    {
+     "id": "i5",
+     "text": "forte!"
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Metti le parole in ordine: „Ruf heute Abend die Oma an!“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "explanation": "Imperativo negativo (tu): non + infinito.",
+   "explanationHelp": "Verneinter Imperativ (tu): non + Infinitiv.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Telefona"
+    },
+    {
+     "id": "i2",
+     "text": "alla nonna"
+    },
+    {
+     "id": "i3",
+     "text": "stasera!"
+    }
+   ]
+  }
+ ]
+}

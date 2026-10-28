@@ -558,3 +558,27 @@ Che cosa ci dite? (una cosa importante) | Vi diciamo una cosa importante | Vi di
 Che cosa scrivi a Giulia? (un messaggio) | Le scrivo un messaggio | Le scrivo un messaggio.
 Che cosa porti al tuo amico? (i compiti) | Gli porto i compiti | Gli porto i compiti.
 ! a mia madre → le, a mio padre → gli, a me → ti (risposta), a noi → vi (risposta). || a mia madre → le, a mio padre → gli, a me → ti, a noi → vi.
+
+@mehr imperativo
+%übung mittel | Ordini e consigli
+?ordnen | Metti le parole in ordine: „Mach das Fenster zu, bitte!“ || Bringe die Wörter in die richtige Reihenfolge.
+Chiudi
+la finestra,
+per favore!
+?ordnen | Metti le parole in ordine: „Geh nicht ins Kino, lern Mathe!“ || Bringe die Wörter in die richtige Reihenfolge.
+Non
+andare
+al cinema,
+studia
+matematica!
+?ordnen | Metti le parole in ordine: „Kinder, sprecht nicht so laut!“ || Bringe die Wörter in die richtige Reihenfolge.
+Ragazzi,
+non
+parlate
+così
+forte!
+?ordnen | Metti le parole in ordine: „Ruf heute Abend die Oma an!“ || Bringe die Wörter in die richtige Reihenfolge.
+Telefona
+alla nonna
+stasera!
+! Imperativo negativo (tu): non + infinito. || Verneinter Imperativ (tu): non + Infinitiv.

@@ -962,3 +962,31 @@ Sara ha una borsa [nuovo=>nuova].
 Le case sono [vecchi=>vecchie].
 Il ragazzo è [alta=>alto].
 Le scarpe sono [rossi=>rosse].
+
+@mehr aggettivi
+%übung mittel | Dove va l’aggettivo?
+?ordnen | Metti le parole in ordine: „Ich habe ein schönes rotes Fahrrad.“ || Bringe die Wörter in die richtige Reihenfolge.
+Ho
+una
+bella
+bici
+rossa.
+?ordnen | Metti le parole in ordine: „Giulia ist ein sehr nettes Mädchen.“ || Bringe die Wörter in die richtige Reihenfolge.
+Giulia
+è
+una ragazza
+molto
+simpatica.
+?ordnen | Metti le parole in ordine: „Die italienischen Schuhe sind schön.“ || Bringe die Wörter in die richtige Reihenfolge.
+Le
+scarpe
+italiane
+sono
+belle.
+?ordnen | Metti le parole in ordine: „Wir wohnen in einem großen Haus.“ || Bringe die Wörter in die richtige Reihenfolge.
+Abitiamo
+in
+una
+grande
+casa.
+! Di solito l’aggettivo va dopo il nome; bello, grande, buono anche prima. || Adjektive meist nach dem Nomen; bello, grande, buono auch davor.
