@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-articolo-indeterminativo-m2",
+ "title": "Bestimmt und unbestimmt",
+ "language": "it",
+ "level": "A1",
+ "description": "Der unbestimmte Artikel · Bestimmt und unbestimmt (mittel).",
+ "topics": [
+  "Der unbestimmte Artikel",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-articolo-indeterminativo",
+  "topicTitle": "Der unbestimmte Artikel",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 72,
+  "rule": "| Artikel | wann? | Beispiel |\n| un | männlich (auch vor Vokal) | un ragazzo, un amico |\n| uno | männlich vor s + Konsonant, z | uno stadio, uno zaino |\n| una | weiblich vor Konsonant | una città, una ragazza |\n| un' | weiblich vor Vokal | un'amica, un'idea |\n\nAchtung: _un amico_ (männlich, ohne Apostroph), aber _un'amica_ (weiblich, mit Apostroph)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze den fehlenden Artikel.",
+   "type": "table_fill",
+   "columns": [
+    "unbestimmt",
+    "bestimmt"
+   ],
+   "rows": [
+    [
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "un ragazzo"
+      ]
+     },
+     "il ragazzo"
+    ],
+    [
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "uno studente"
+      ]
+     },
+     "lo studente"
+    ],
+    [
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "un'isola"
+      ]
+     },
+     "l'isola"
+    ],
+    [
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "un albero"
+      ]
+     },
+     "l'albero"
+    ],
+    [
+     "una festa",
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "la festa"
+      ]
+     }
+    ],
+    [
+     "uno zio",
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "lo zio"
+      ]
+     }
+    ],
+    [
+     "un'idea",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "l'idea"
+      ]
+     }
+    ],
+    [
+     "un ospedale",
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "l'ospedale"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

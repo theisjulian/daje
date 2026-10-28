@@ -1,0 +1,187 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-ere-presente-s3",
+ "title": "Tabelle -are und -ere",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -ere im Präsens · Tabelle -are und -ere (schwer).",
+ "topics": [
+  "Verben auf -ere im Präsens",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-ere-presente",
+  "topicTitle": "Verben auf -ere im Präsens",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 93,
+  "rule": "| Person | prendere | vedere |\n| io | prend**o** | ved**o** |\n| tu | prend**i** | ved**i** |\n| lui / lei | prend**e** | ved**e** |\n| noi | prend**iamo** | ved**iamo** |\n| voi | prend**ete** | ved**ete** |\n| loro | prend**ono** | ved**ono** |\n\nUnterschied zu -are: **lui/lei -e** (nicht -a), **voi -ete**, **loro -ono**."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze die Formen.",
+   "type": "table_fill",
+   "columns": [
+    "Person",
+    "parlare",
+    "leggere",
+    "scrivere"
+   ],
+   "rows": [
+    [
+     "io",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "parlo"
+      ]
+     },
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "leggo"
+      ]
+     },
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "scrivo"
+      ]
+     }
+    ],
+    [
+     "tu",
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "parli"
+      ]
+     },
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "leggi"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "scrivi"
+      ]
+     }
+    ],
+    [
+     "lui / lei",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "parla"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "legge"
+      ]
+     },
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "scrive"
+      ]
+     }
+    ],
+    [
+     "noi",
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "parliamo"
+      ]
+     },
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "leggiamo"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "scriviamo"
+      ]
+     }
+    ],
+    [
+     "voi",
+     {
+      "id": "c13",
+      "acceptedAnswers": [
+       "parlate"
+      ]
+     },
+     {
+      "id": "c14",
+      "acceptedAnswers": [
+       "leggete"
+      ]
+     },
+     {
+      "id": "c15",
+      "acceptedAnswers": [
+       "scrivete"
+      ]
+     }
+    ],
+    [
+     "loro",
+     {
+      "id": "c16",
+      "acceptedAnswers": [
+       "parlano"
+      ]
+     },
+     {
+      "id": "c17",
+      "acceptedAnswers": [
+       "leggono"
+      ]
+     },
+     {
+      "id": "c18",
+      "acceptedAnswers": [
+       "scrivono"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

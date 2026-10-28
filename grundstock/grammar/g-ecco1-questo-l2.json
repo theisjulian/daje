@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-questo-l2",
+ "title": "Vier Formen",
+ "language": "it",
+ "level": "A1",
+ "description": "questo, questa, questi, queste · Vier Formen (einfach).",
+ "topics": [
+  "questo, questa, questi, queste",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-questo",
+  "topicTitle": "questo, questa, questi, queste",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 32,
+  "rule": "**questo** (dieser, diese, dieses) richtet sich nach dem Nomen:\n| | Singular | Plural |\n| männlich | questo zaino | questi zaini |\n| weiblich | questa borsa | queste borse |\n\nVor Vokal oft: _quest'armadio, quest'idea_. Allein (ohne Nomen): _Questo è il mio zaino._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Welche Form von questo passt?",
+   "explanation": "poster ist männlich (il poster → i poster): questi poster.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "o",
+     "label": "questo"
+    },
+    {
+     "id": "a",
+     "label": "questa"
+    },
+    {
+     "id": "i",
+     "label": "questi"
+    },
+    {
+     "id": "e",
+     "label": "queste"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "letto",
+     "category": "o"
+    },
+    {
+     "id": "i2",
+     "text": "armadio",
+     "category": "o"
+    },
+    {
+     "id": "i3",
+     "text": "sedia",
+     "category": "a"
+    },
+    {
+     "id": "i4",
+     "text": "camera",
+     "category": "a"
+    },
+    {
+     "id": "i5",
+     "text": "libri",
+     "category": "i"
+    },
+    {
+     "id": "i6",
+     "text": "poster",
+     "category": "i"
+    },
+    {
+     "id": "i7",
+     "text": "riviste",
+     "category": "e"
+    },
+    {
+     "id": "i8",
+     "text": "scarpe",
+     "category": "e"
+    }
+   ]
+  }
+ ]
+}

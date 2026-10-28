@@ -1,0 +1,99 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-isc-fare-s4",
+ "title": "Una mail da scuola",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -ire mit -isc- und fare · Una mail da scuola (schwer).",
+ "topics": [
+  "Verben auf -ire mit -isc- und fare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-isc-fare",
+  "topicTitle": "Verben auf -ire mit -isc- und fare",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 24,
+  "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze die Verben (fare, capire, finire, preferire, dormire).",
+   "explanation": "dormire hat kein -isc-: lui dorme.",
+   "type": "gap_fill",
+   "text": "Ciao Lena! Oggi a scuola (fare) [[g1]] un test di geografia.\nIo (capire) [[g2]] tutto, ma la mia amica no.\nIl test (finire) [[g3]] alle dieci.\nDopo, noi (fare) [[g4]] educazione fisica: io (preferire) [[g5]] la pallavolo.\nIl mio compagno Luca (dormire) [[g6]] in classe, che ridere!\nE voi, che cosa (fare) [[g7]] oggi a scuola?",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "facciamo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "capisco"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "finisce"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "facciamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "preferisco"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "dorme"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "fate"
+     ]
+    }
+   ]
+  }
+ ]
+}

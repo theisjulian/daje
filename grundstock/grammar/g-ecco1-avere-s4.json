@@ -1,0 +1,98 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-avere-s4",
+ "title": "Fehler im Steckbrief",
+ "language": "it",
+ "level": "A1",
+ "description": "Das Verb avere · Fehler im Steckbrief (schwer).",
+ "topics": [
+  "Das Verb avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-avere",
+  "topicTitle": "Das Verb avere",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 14,
+  "rule": "**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.\n| io | tu | lui / lei | noi | voi | loro |\n| ho | hai | ha | abbiamo | avete | hanno |\n\nDas Alter sagt man mit avere: _Quanti anni **hai**? – **Ho** quattordici anni._\n**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Korrigiere die sechs Fehler.",
+   "type": "error_correction",
+   "text": "Mi chiamo Luca e [[g1]] quattordici anni.\nMia sorella [[g2]] undici anni.\nNoi [[g3]] un gatto.\nI miei cugini [[g4]] un cane.\nTu [[g5]] un animale?\nVoi [[g6]] fratelli?",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "sono",
+     "acceptedAnswers": [
+      "ho"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "a",
+     "acceptedAnswers": [
+      "ha"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "hanno",
+     "acceptedAnswers": [
+      "abbiamo"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "anno",
+     "acceptedAnswers": [
+      "hanno"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "ha",
+     "acceptedAnswers": [
+      "hai"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "abbiamo",
+     "acceptedAnswers": [
+      "avete"
+     ]
+    }
+   ]
+  }
+ ]
+}

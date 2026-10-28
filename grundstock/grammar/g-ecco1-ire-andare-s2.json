@@ -1,0 +1,145 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-ire-andare-s2",
+ "title": "-ere oder -ire?",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -ire und andare · -ere oder -ire? (schwer).",
+ "topics": [
+  "Verben auf -ire und andare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-ire-andare",
+  "topicTitle": "Verben auf -ire und andare",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 62,
+  "rule": "**Verben auf -ire** (ohne Stammerweiterung):\n| Person | dormire | sentire |\n| io | dorm**o** | sent**o** |\n| tu | dorm**i** | sent**i** |\n| lui / lei | dorm**e** | sent**e** |\n| noi | dorm**iamo** | sent**iamo** |\n| voi | dorm**ite** | sent**ite** |\n| loro | dorm**ono** | sent**ono** |\n\nWie -ere, nur **voi -ite**.\n**andare** (gehen, fahren) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| vado | vai | va | andiamo | andate | vanno |\n\n_Vado a scuola. Andiamo al concerto._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze. Achtung: der Unterschied liegt bei voi.",
+   "type": "table_fill",
+   "columns": [
+    "Person",
+    "vedere",
+    "dormire",
+    "partire"
+   ],
+   "rows": [
+    [
+     "noi",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "vediamo"
+      ]
+     },
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "dormiamo"
+      ]
+     },
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "partiamo"
+      ]
+     }
+    ],
+    [
+     "voi",
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "vedete"
+      ]
+     },
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "dormite"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "partite"
+      ]
+     }
+    ],
+    [
+     "loro",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "vedono"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "dormono"
+      ]
+     },
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "partono"
+      ]
+     }
+    ],
+    [
+     "lui / lei",
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "vede"
+      ]
+     },
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "dorme"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "parte"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

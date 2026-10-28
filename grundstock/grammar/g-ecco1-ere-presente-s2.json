@@ -1,0 +1,117 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-ere-presente-s2",
+ "title": "-are oder -ere? Gemischt",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -ere im Präsens · -are oder -ere? Gemischt (schwer).",
+ "topics": [
+  "Verben auf -ere im Präsens",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-ere-presente",
+  "topicTitle": "Verben auf -ere im Präsens",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 92,
+  "rule": "| Person | prendere | vedere |\n| io | prend**o** | ved**o** |\n| tu | prend**i** | ved**i** |\n| lui / lei | prend**e** | ved**e** |\n| noi | prend**iamo** | ved**iamo** |\n| voi | prend**ete** | ved**ete** |\n| loro | prend**ono** | ved**ono** |\n\nUnterschied zu -are: **lui/lei -e** (nicht -a), **voi -ete**, **loro -ono**."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Achtung: Hier mischen sich Verben auf -are und -ere.",
+   "explanation": "-are: lui guarda, voi abitate, loro lavorano · -ere: lui legge, voi vedete, loro vendono.",
+   "type": "gap_fill",
+   "text": "Io (abitare) [[g1]] a Torino e (prendere) [[g2]] il tram.\nMarco (guardare) [[g3]] la TV e (leggere) [[g4]] un libro.\nNoi (parlare) [[g5]] italiano e (scrivere) [[g6]] in tedesco.\nVoi (vedere) [[g7]] lo stadio? Voi (abitare) [[g8]] vicino?\nLoro (vendere) [[g9]] bici e (lavorare) [[g10]] molto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "abito"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "prendo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "guarda"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "legge"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "parliamo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "scriviamo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "vedete"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "abitate"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "vendono"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "lavorano"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-prossimo-avere-s2",
+ "title": "Präsens oder passato prossimo?",
+ "language": "it",
+ "level": "A1",
+ "description": "Das passato prossimo mit avere · Präsens oder passato prossimo? (schwer).",
+ "topics": [
+  "Das passato prossimo mit avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-avere",
+  "topicTitle": "Das passato prossimo mit avere",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 32,
+  "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Setze die Verben im Präsens oder im passato prossimo ein. Achte auf die Zeitangaben.",
+   "explanation": "di solito, ogni giorno, adesso → Präsens · ieri, sabato scorso, l'anno scorso → passato prossimo.",
+   "type": "gap_fill",
+   "text": "Di solito il sabato io (giocare) [[g1]] a calcio.\nMa sabato scorso (giocare) [[g2]] a tennis.\nOgni giorno mia sorella (ascoltare) [[g3]] la radio.\nIeri però (ascoltare) [[g4]] un podcast.\nAdesso noi (mangiare) [[g5]] in cucina.\nIeri sera (mangiare, noi) [[g6]] in pizzeria.\nL'anno scorso voi (studiare) [[g7]] il francese?",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "gioco"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "ho giocato"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ascolta"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ha ascoltato"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "mangiamo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "abbiamo mangiato"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "avete studiato"
+     ]
+    }
+   ]
+  }
+ ]
+}

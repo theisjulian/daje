@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quando-perche-s2",
+ "title": "Wortstellung im Nebensatz",
+ "language": "it",
+ "level": "A1",
+ "description": "Nebensätze mit quando und perché · Wortstellung im Nebensatz (schwer).",
+ "topics": [
+  "Nebensätze mit quando und perché",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 14,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quando-perche",
+  "topicTitle": "Nebensätze mit quando und perché",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 12,
+  "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Bringe die Wörter in die richtige Reihenfolge: „Ich gehe nicht ins Kino, weil ich keine Zeit habe.“",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Non"
+    },
+    {
+     "id": "i2",
+     "text": "vado"
+    },
+    {
+     "id": "i3",
+     "text": "al"
+    },
+    {
+     "id": "i4",
+     "text": "cinema"
+    },
+    {
+     "id": "i5",
+     "text": "perché"
+    },
+    {
+     "id": "i6",
+     "text": "non"
+    },
+    {
+     "id": "i7",
+     "text": "ho"
+    },
+    {
+     "id": "i8",
+     "text": "tempo"
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Bringe die Wörter in die richtige Reihenfolge: „Wenn es schneit, fahren wir in die Berge.“",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Quando"
+    },
+    {
+     "id": "i2",
+     "text": "nevica,"
+    },
+    {
+     "id": "i3",
+     "text": "andiamo"
+    },
+    {
+     "id": "i4",
+     "text": "in"
+    },
+    {
+     "id": "i5",
+     "text": "montagna"
+    }
+   ]
+  }
+ ]
+}

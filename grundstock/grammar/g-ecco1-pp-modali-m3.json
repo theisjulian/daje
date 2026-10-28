@@ -1,0 +1,92 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-pp-modali-m3",
+ "title": "Ein schwieriger Tag",
+ "language": "it",
+ "level": "A1",
+ "description": "Das passato prossimo der Modalverben · Ein schwieriger Tag (mittel).",
+ "topics": [
+  "Das passato prossimo der Modalverben",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-pp-modali",
+  "topicTitle": "Das passato prossimo der Modalverben",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 43,
+  "rule": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nIm Alltag hört man auch: _Ho dovuto partire._ – In der Schule lernst du die Regel oben."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Setze die Modalverben ins passato prossimo.",
+   "type": "gap_fill",
+   "text": "Ieri mio padre (dovere) [[g1]] lavorare fino alle otto.\nMia madre (dovere) [[g2]] andare a Milano.\nIo (volere) [[g3]] cucinare la cena.\nMa non (potere, io) [[g4]] comprare le uova: il negozio era chiuso!\nAllora io e mio fratello (dovere) [[g5]] uscire di nuovo.\nAlla fine (potere, noi) [[g6]] mangiare alle nove.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ha dovuto"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "è dovuta"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ho voluto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ho potuto"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "siamo dovuti"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "abbiamo potuto"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -589,7 +589,11 @@
     // Satzergänzung: richtig, wenn die Ergänzung eine der hinterlegten Lösungen bzw. Schlüsselwörter enthält.
     if (q.type === 'sentence_completion') {
       const v = parts();
-      return q.items.every(it => has(v, it.id) && norm(v[it.id]) && it.acceptedAnswers.some(a => norm(v[it.id]).includes(norm(a))));
+      {
+        // Satzzeichen zählen beim Ergänzen nicht: „No non sono di Roma“ = „No, non sono di Roma.“
+        const loose = x => norm(x).replace(/[.,!?;:…«»"]+/g, ' ').replace(/\s+/g, ' ').trim();
+        return q.items.every(it => has(v, it.id) && loose(v[it.id]) && it.acceptedAnswers.some(a => loose(v[it.id]).includes(loose(a))));
+      }
     }
     // Offene Antwort: keine automatische Bewertung; zählt als erledigt, sobald etwas geschrieben ist.
     if (q.type === 'open_answer') return String(raw ?? '').trim().length > 0;

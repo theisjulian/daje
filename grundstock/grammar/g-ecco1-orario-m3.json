@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-orario-m3",
+ "title": "Ein Schultag",
+ "language": "it",
+ "level": "A1",
+ "description": "Uhrzeit und Wochentage · Ein Schultag (mittel).",
+ "topics": [
+  "Uhrzeit und Wochentage",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-orario",
+  "topicTitle": "Uhrzeit und Wochentage",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 13,
+  "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Schreibe die Uhrzeiten in Worten (mit alle / all').",
+   "explanation": "Im Alltag zählt man meist bis 12: alle due (14 Uhr). Offiziell auch alle quattordici.",
+   "type": "gap_fill",
+   "text": "La sveglia suona (6.45) [[g1]].\nPrendo l'autobus (7.20) [[g2]].\nLa prima lezione comincia (8.00) [[g3]].\nL'intervallo è (10.15) [[g4]].\nLa scuola finisce (13.30) [[g5]].\nPranzo (14.00) [[g6]].\nFaccio i compiti (15.00–17.00) [[g7]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "alle sette meno un quarto",
+      "alle sei e quarantacinque"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "alle sette e venti"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "alle otto"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "alle dieci e un quarto",
+      "alle dieci e quindici"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "all'una e mezza",
+      "all'una e mezzo",
+      "alle tredici e trenta"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "alle due",
+      "alle quattordici"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "dalle tre alle cinque",
+      "dalle quindici alle diciassette"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-gia-ancora-m3",
+ "title": "Antworte",
+ "language": "it",
+ "level": "A1",
+ "description": "già und (non …) ancora · Antworte (mittel).",
+ "topics": [
+  "già und (non …) ancora",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-gia-ancora",
+  "topicTitle": "già und (non …) ancora",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 53,
+  "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Antworte mit già (sì) oder non … ancora (no).",
+   "explanation": "già und ancora stehen zwischen Hilfsverb und Partizip.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Hai fatto i compiti? (sì) – Sì, …",
+     "acceptedAnswers": [
+      "ho già fatto i compiti"
+     ],
+     "modelAnswer": "Sì, ho già fatto i compiti."
+    },
+    {
+     "id": "s2",
+     "start": "Hai visto il film? (no) – No, …",
+     "acceptedAnswers": [
+      "non ho ancora visto il film"
+     ],
+     "modelAnswer": "No, non ho ancora visto il film."
+    },
+    {
+     "id": "s3",
+     "start": "Marco è tornato? (sì) – Sì, …",
+     "acceptedAnswers": [
+      "è già tornato"
+     ],
+     "modelAnswer": "Sì, Marco è già tornato."
+    },
+    {
+     "id": "s4",
+     "start": "Avete mangiato? (no) – No, …",
+     "acceptedAnswers": [
+      "non abbiamo ancora mangiato"
+     ],
+     "modelAnswer": "No, non abbiamo ancora mangiato."
+    },
+    {
+     "id": "s5",
+     "start": "Le ragazze sono partite? (sì) – Sì, …",
+     "acceptedAnswers": [
+      "sono già partite"
+     ],
+     "modelAnswer": "Sì, sono già partite."
+    }
+   ]
+  }
+ ]
+}

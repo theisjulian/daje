@@ -1,0 +1,104 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-imperativo-m3",
+ "title": "Bejaht – verneint",
+ "language": "it",
+ "level": "A1",
+ "description": "Der Imperativ (tu, voi) und die Verneinung · Bejaht – verneint (mittel).",
+ "topics": [
+  "Der Imperativ (tu, voi) und die Verneinung",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo",
+  "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 33,
+  "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Verneine die Aufforderung.",
+   "explanation": "tu: non + Infinitiv · voi: non + Imperativ.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Parla! → …",
+     "acceptedAnswers": [
+      "Non parlare!"
+     ],
+     "modelAnswer": "Non parlare!"
+    },
+    {
+     "id": "s2",
+     "start": "Prendete il libro! → …",
+     "acceptedAnswers": [
+      "Non prendete il libro!"
+     ],
+     "modelAnswer": "Non prendete il libro!"
+    },
+    {
+     "id": "s3",
+     "start": "Apri la porta! → …",
+     "acceptedAnswers": [
+      "Non aprire la porta!"
+     ],
+     "modelAnswer": "Non aprire la porta!"
+    },
+    {
+     "id": "s4",
+     "start": "Scrivete! → …",
+     "acceptedAnswers": [
+      "Non scrivete!"
+     ],
+     "modelAnswer": "Non scrivete!"
+    },
+    {
+     "id": "s5",
+     "start": "Mangia in classe! → …",
+     "acceptedAnswers": [
+      "Non mangiare in classe!"
+     ],
+     "modelAnswer": "Non mangiare in classe!"
+    },
+    {
+     "id": "s6",
+     "start": "Usate il cellulare! → …",
+     "acceptedAnswers": [
+      "Non usate il cellulare!"
+     ],
+     "modelAnswer": "Non usate il cellulare!"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-ire-andare-s3",
+ "title": "Was machst du am Wochenende?",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -ire und andare · Was machst du am Wochenende? (schwer).",
+ "topics": [
+  "Verben auf -ire und andare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-ire-andare",
+  "topicTitle": "Verben auf -ire und andare",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 63,
+  "rule": "**Verben auf -ire** (ohne Stammerweiterung):\n| Person | dormire | sentire |\n| io | dorm**o** | sent**o** |\n| tu | dorm**i** | sent**i** |\n| lui / lei | dorm**e** | sent**e** |\n| noi | dorm**iamo** | sent**iamo** |\n| voi | dorm**ite** | sent**ite** |\n| loro | dorm**ono** | sent**ono** |\n\nWie -ere, nur **voi -ite**.\n**andare** (gehen, fahren) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| vado | vai | va | andiamo | andate | vanno |\n\n_Vado a scuola. Andiamo al concerto._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Schreibe 5 Sätze über dein Wochenende mit dormire, sentire, partire und andare.",
+   "type": "open_answer",
+   "modelAnswer": "Il sabato dormo fino alle nove. Poi vado in piscina con mia sorella. Nel pomeriggio sento musica in camera. La domenica andiamo dai nonni. A volte partiamo per una gita.",
+   "lines": 5
+  }
+ ]
+}

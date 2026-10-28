@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-possessivi-2-m3",
+ "title": "Ein Familienfoto",
+ "language": "it",
+ "level": "A1",
+ "description": "Possessivbegleiter bei Verwandten · Ein Familienfoto (mittel).",
+ "topics": [
+  "Possessivbegleiter bei Verwandten",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-possessivi-2",
+  "topicTitle": "Possessivbegleiter bei Verwandten",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 23,
+  "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze die Possessivbegleiter (mit oder ohne Artikel).",
+   "explanation": "Verwandte im Singular ohne Artikel; Plural, loro und famiglia mit Artikel.",
+   "type": "gap_fill",
+   "text": "Questa è (meine) [[g1]] famiglia.\nA sinistra c'è (mein) [[g2]] padre, Roberto.\nVicino a lui c'è (meine) [[g3]] madre, Elena.\nDavanti ci sono (meine) [[g4]] fratelli, Luca e Matteo.\nA destra c'è (unsere) [[g5]] nonna Rosa.\nIl cane si chiama Bobo: è (ihr) [[g6]] cane, di Luca e Matteo.\nE questa è (meine) [[g7]] cugina Sofia con (ihre) [[g8]] madre.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "la mia"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "mio"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "mia"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "i miei"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "nostra"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "il loro"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "mia"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "sua"
+     ]
+    }
+   ]
+  }
+ ]
+}

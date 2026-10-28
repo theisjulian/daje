@@ -1,0 +1,91 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-gia-ancora-s2",
+ "title": "Fehler finden",
+ "language": "it",
+ "level": "A1",
+ "description": "già und (non …) ancora · Fehler finden (schwer).",
+ "topics": [
+  "già und (non …) ancora",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-gia-ancora",
+  "topicTitle": "già und (non …) ancora",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 52,
+  "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Korrigiere die Wortstellung bzw. das falsche Wort.",
+   "type": "error_correction",
+   "text": "Ho [[g1]] il film.\n[[g2]] ho ancora finito.\nNon sono [[g3]] partito, parto domani.\nHai [[g4]]?\nSiamo [[g5]] arrivati, eccoci qui!",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "visto già",
+     "acceptedAnswers": [
+      "già visto"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "Ancora",
+     "acceptedAnswers": [
+      "Non"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "già",
+     "acceptedAnswers": [
+      "ancora"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "mangiato già",
+     "acceptedAnswers": [
+      "già mangiato"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "ancora",
+     "acceptedAnswers": [
+      "già"
+     ]
+    }
+   ]
+  }
+ ]
+}

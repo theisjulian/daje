@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-a-in-m2",
+ "title": "Dove abitano?",
+ "language": "it",
+ "level": "A1",
+ "description": "Die Präpositionen a und in · Dove abitano? (mittel).",
+ "topics": [
+  "Die Präpositionen a und in",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-a-in",
+  "topicTitle": "Die Präpositionen a und in",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 42,
+  "rule": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino, a Roma, a Berlino_\n- **in** + Land oder Region: _in Italia, in Germania, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_\n- **a** + bestimmte Orte ohne Artikel: _a scuola, a casa_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze a oder in.",
+   "explanation": "in biblioteca, in centro, in piazza, in via … · a casa, a scuola.",
+   "type": "gap_fill",
+   "text": "Paolo abita [[g1]] Napoli, [[g2]] Campania.\nMia zia abita [[g3]] Austria, [[g4]] Vienna.\nIo sono [[g5]] casa, ma mio fratello è [[g6]] scuola.\nIl cinema è [[g7]] centro, [[g8]] piazza Vittorio.\nLa mia amica abita [[g9]] via Garibaldi, [[g10]] Torino.\nAndiamo [[g11]] Sicilia in vacanza.\nOggi studio [[g12]] biblioteca.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "in"
+     ]
+    }
+   ]
+  }
+ ]
+}

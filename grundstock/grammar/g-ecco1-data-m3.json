@@ -1,0 +1,95 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-data-m3",
+ "title": "Quando?",
+ "language": "it",
+ "level": "A1",
+ "description": "Das Datum · Quando? (mittel).",
+ "topics": [
+  "Das Datum",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-data",
+  "topicTitle": "Das Datum",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 13,
+  "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Antworte mit dem Datum.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Quando è il tuo compleanno? (14.2.) – È …",
+     "acceptedAnswers": [
+      "il quattordici febbraio"
+     ],
+     "modelAnswer": "È il quattordici febbraio."
+    },
+    {
+     "id": "s2",
+     "start": "Quando comincia la scuola? (15.9.) – Comincia …",
+     "acceptedAnswers": [
+      "il quindici settembre"
+     ],
+     "modelAnswer": "Comincia il quindici settembre."
+    },
+    {
+     "id": "s3",
+     "start": "Quando è la festa? (1.6.) – È …",
+     "acceptedAnswers": [
+      "il primo giugno"
+     ],
+     "modelAnswer": "È il primo giugno."
+    },
+    {
+     "id": "s4",
+     "start": "Che giorno è oggi? (8.4.) – Oggi è …",
+     "acceptedAnswers": [
+      "l'otto aprile"
+     ],
+     "modelAnswer": "Oggi è l'otto aprile."
+    },
+    {
+     "id": "s5",
+     "start": "Quando partite? (31.7.) – Partiamo …",
+     "acceptedAnswers": [
+      "il trentuno luglio"
+     ],
+     "modelAnswer": "Partiamo il trentuno luglio."
+    }
+   ]
+  }
+ ]
+}

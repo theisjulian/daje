@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quantita-m3",
+ "title": "Una festa in famiglia",
+ "language": "it",
+ "level": "A1",
+ "description": "Mengenangaben: molto, poco, tanto, troppo · Una festa in famiglia (mittel).",
+ "topics": [
+  "Mengenangaben: molto, poco, tanto, troppo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quantita",
+  "topicTitle": "Mengenangaben: molto, poco, tanto, troppo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 63,
+  "rule": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Als Begleiter** (vor einem Nomen) passen sie sich an:\n| | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C'è **troppa** gente._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze molto, poco, tanto oder troppo in der richtigen Form.",
+   "explanation": "Beim Verb (mangio troppo) und vor Adjektiven (molto contento) bleibt die Form unverändert.",
+   "type": "gap_fill",
+   "text": "Alla festa di nonna Rosa ci sono (tanto) [[g1]] parenti.\nCi sono (molto) [[g2]] torte e (tanto) [[g3]] frutta.\nIo mangio (troppo) [[g4]]!\nMio fratello è (molto) [[g5]] contento.\nI bambini fanno (troppo) [[g6]] rumore.\nPurtroppo abbiamo (poco) [[g7]] sedie.\nE c'è (poco) [[g8]] spazio in salotto.\nMa è una giornata (molto) [[g9]] bella!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "tanti"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "molte"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "tanta"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "troppo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "molto"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "troppo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "poche"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "poco"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "molto"
+     ]
+    }
+   ]
+  }
+ ]
+}

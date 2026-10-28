@@ -1,0 +1,95 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-pp-modali-s2",
+ "title": "Entschuldigungen",
+ "language": "it",
+ "level": "A1",
+ "description": "Das passato prossimo der Modalverben · Entschuldigungen (schwer).",
+ "topics": [
+  "Das passato prossimo der Modalverben",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-pp-modali",
+  "topicTitle": "Das passato prossimo der Modalverben",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 42,
+  "rule": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nIm Alltag hört man auch: _Ho dovuto partire._ – In der Schule lernst du die Regel oben."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Erkläre, warum es nicht ging (passato prossimo des Modalverbs).",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Perché non sei venuto alla festa? (dovere studiare) – …",
+     "acceptedAnswers": [
+      "Ho dovuto studiare"
+     ],
+     "modelAnswer": "Ho dovuto studiare."
+    },
+    {
+     "id": "s2",
+     "start": "Perché Sara non ha telefonato? (non potere usare il cellulare) – …",
+     "acceptedAnswers": [
+      "Non ha potuto usare il cellulare"
+     ],
+     "modelAnswer": "Non ha potuto usare il cellulare."
+    },
+    {
+     "id": "s3",
+     "start": "Perché siete arrivati tardi? (dovere aspettare l'autobus) – …",
+     "acceptedAnswers": [
+      "Abbiamo dovuto aspettare l'autobus"
+     ],
+     "modelAnswer": "Abbiamo dovuto aspettare l'autobus."
+    },
+    {
+     "id": "s4",
+     "start": "Perché Marco non è a scuola? (dovere andare dal medico) – …",
+     "acceptedAnswers": [
+      "È dovuto andare dal medico"
+     ],
+     "modelAnswer": "È dovuto andare dal medico."
+    },
+    {
+     "id": "s5",
+     "start": "Perché le ragazze non sono qui? (volere restare a casa) – …",
+     "acceptedAnswers": [
+      "Sono volute restare a casa"
+     ],
+     "modelAnswer": "Sono volute restare a casa."
+    }
+   ]
+  }
+ ]
+}

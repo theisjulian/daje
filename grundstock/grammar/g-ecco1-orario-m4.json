@@ -1,0 +1,98 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-orario-m4",
+ "title": "Fragen zum Stundenplan",
+ "language": "it",
+ "level": "A1",
+ "description": "Uhrzeit und Wochentage · Fragen zum Stundenplan (mittel).",
+ "topics": [
+  "Uhrzeit und Wochentage",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-orario",
+  "topicTitle": "Uhrzeit und Wochentage",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 14,
+  "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Antworte mit der Uhrzeit in Worten.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "A che ora comincia la scuola? (8.10) – …",
+     "acceptedAnswers": [
+      "alle otto e dieci"
+     ],
+     "modelAnswer": "La scuola comincia alle otto e dieci."
+    },
+    {
+     "id": "s2",
+     "start": "A che ora hai inglese? (9.00) – …",
+     "acceptedAnswers": [
+      "alle nove"
+     ],
+     "modelAnswer": "Ho inglese alle nove."
+    },
+    {
+     "id": "s3",
+     "start": "Quando finisce la lezione? (1.00) – …",
+     "acceptedAnswers": [
+      "all'una"
+     ],
+     "modelAnswer": "La lezione finisce all'una."
+    },
+    {
+     "id": "s4",
+     "start": "A che ora mangi? (12.30) – …",
+     "acceptedAnswers": [
+      "alle dodici e mezza",
+      "alle dodici e mezzo",
+      "a mezzogiorno e mezzo"
+     ],
+     "modelAnswer": "Mangio a mezzogiorno e mezzo."
+    },
+    {
+     "id": "s5",
+     "start": "Che ore sono? (3.40) – …",
+     "acceptedAnswers": [
+      "le quattro meno venti",
+      "le tre e quaranta"
+     ],
+     "modelAnswer": "Sono le quattro meno venti."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-soggetto-l2",
+ "title": "Ich, du, er …",
+ "language": "it",
+ "level": "A1",
+ "description": "Die Subjektpronomen · Ich, du, er … (einfach).",
+ "topics": [
+  "Die Subjektpronomen",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-soggetto",
+  "topicTitle": "Die Subjektpronomen",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 52,
+  "rule": "| io | tu | lui / lei / Lei | noi | voi | loro |\n| ich | du | er / sie / Sie | wir | ihr | sie |\n\nIm Italienischen lässt man das Pronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._\n**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Was bedeutet das Pronomen?",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "io",
+     "right": "ich"
+    },
+    {
+     "id": "p2",
+     "left": "tu",
+     "right": "du"
+    },
+    {
+     "id": "p3",
+     "left": "lui",
+     "right": "er"
+    },
+    {
+     "id": "p4",
+     "left": "lei",
+     "right": "sie (eine Person)"
+    },
+    {
+     "id": "p5",
+     "left": "noi",
+     "right": "wir"
+    },
+    {
+     "id": "p6",
+     "left": "voi",
+     "right": "ihr"
+    },
+    {
+     "id": "p7",
+     "left": "loro",
+     "right": "sie (mehrere)"
+    },
+    {
+     "id": "p8",
+     "left": "Lei",
+     "right": "Sie (höflich)"
+    }
+   ]
+  }
+ ]
+}

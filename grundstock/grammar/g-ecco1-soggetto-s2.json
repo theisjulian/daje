@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-soggetto-s2",
+ "title": "Betonen und vergleichen",
+ "language": "it",
+ "level": "A1",
+ "description": "Die Subjektpronomen · Betonen und vergleichen (schwer).",
+ "topics": [
+  "Die Subjektpronomen",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-soggetto",
+  "topicTitle": "Die Subjektpronomen",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 52,
+  "rule": "| io | tu | lui / lei / Lei | noi | voi | loro |\n| ich | du | er / sie / Sie | wir | ihr | sie |\n\nIm Italienischen lässt man das Pronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._\n**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze das passende Subjektpronomen.",
+   "explanation": "Pronomen setzt man zum Vergleichen und Betonen. Lei groß = Höflichkeitsform.",
+   "type": "gap_fill",
+   "text": "[[g1]] parlo tedesco, ma [[g2]] parla italiano.\nLuca? [[g3]] abita a Torino, [[g4]] a Berlino.\nVoi siete di Roma? No, [[g5]] siamo di Milano.\nSignora, [[g6]] è di Torino?\nGiulia e Sara? [[g7]] arrivano alle tre.\nE [[g8]]? Tu dove abiti?",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Io"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "lui"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Lui"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "io"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "noi"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Lei"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Loro"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "tu"
+     ]
+    }
+   ]
+  }
+ ]
+}

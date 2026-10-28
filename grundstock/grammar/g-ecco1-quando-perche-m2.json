@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quando-perche-m2",
+ "title": "Il mio tempo libero",
+ "language": "it",
+ "level": "A1",
+ "description": "Nebensätze mit quando und perché · Il mio tempo libero (mittel).",
+ "topics": [
+  "Nebensätze mit quando und perché",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quando-perche",
+  "topicTitle": "Nebensätze mit quando und perché",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 12,
+  "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze quando oder perché.",
+   "type": "gap_fill",
+   "text": "[[g1]] ho tempo libero, vado in skatepark con i miei amici.\nMi piace lo skateboard [[g2]] è uno sport veloce.\n[[g3]] piove, invece, gioco ai videogiochi.\nNon vado in piscina [[g4]] non so nuotare bene.\nIl sabato sera esco [[g5]] i miei genitori dicono di sì.\nStudio la chitarra [[g6]] voglio suonare in una band.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Quando"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "perché"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Quando"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "perché"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "quando"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "perché"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "extraWords": [
+    "ma",
+    "e"
+   ]
+  }
+ ]
+}

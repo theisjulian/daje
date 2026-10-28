@@ -1,0 +1,92 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-data-s2",
+ "title": "Fehler im Kalender",
+ "language": "it",
+ "level": "A1",
+ "description": "Das Datum · Fehler im Kalender (schwer).",
+ "topics": [
+  "Das Datum",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-data",
+  "topicTitle": "Das Datum",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 12,
+  "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Korrigiere die fünf Fehler.",
+   "explanation": "Monate klein, il primo, l'otto, l'undici, sonst il.",
+   "type": "error_correction",
+   "text": "Il mio compleanno è [[g1]] marzo.\nOggi è il [[g2]] maggio.\nNatale è il venticinque [[g3]].\nLa festa è [[g4]] giugno.\nIl mio compleanno è [[g5]] tre aprile.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "il otto",
+     "acceptedAnswers": [
+      "l'otto"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "uno",
+     "acceptedAnswers": [
+      "primo"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "Dicembre",
+     "acceptedAnswers": [
+      "dicembre"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "l'undicesimo",
+     "acceptedAnswers": [
+      "l'undici"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "lo",
+     "acceptedAnswers": [
+      "il"
+     ]
+    }
+   ]
+  }
+ ]
+}

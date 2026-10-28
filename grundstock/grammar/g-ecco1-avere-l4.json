@@ -1,0 +1,128 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-avere-l4",
+ "title": "La famiglia di Filippo",
+ "language": "it",
+ "level": "A1",
+ "description": "Das Verb avere · La famiglia di Filippo (einfach).",
+ "topics": [
+  "Das Verb avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-avere",
+  "topicTitle": "Das Verb avere",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 14,
+  "rule": "**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.\n| io | tu | lui / lei | noi | voi | loro |\n| ho | hai | ha | abbiamo | avete | hanno |\n\nDas Alter sagt man mit avere: _Quanti anni **hai**? – **Ho** quattordici anni._\n**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle die richtige Form von avere.",
+   "type": "gap_choice",
+   "text": "Filippo [[g1]] quattordici anni.\nLui [[g2]] una sorella, Chiara.\nChiara e Filippo [[g3]] un cane, Bobo.\nI loro genitori [[g4]] un negozio in centro.\nIo e Filippo [[g5]] la stessa età.\nTu [[g6]] un animale?\nRagazzi, voi [[g7]] fratelli?\nIo [[g8]] un gatto bianco.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "ha",
+      "hai",
+      "hanno"
+     ],
+     "answer": "ha"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "ha",
+      "a",
+      "ho"
+     ],
+     "answer": "ha"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "hanno",
+      "avete",
+      "ha"
+     ],
+     "answer": "hanno"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "hanno",
+      "anno",
+      "abbiamo"
+     ],
+     "answer": "hanno"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "abbiamo",
+      "avete",
+      "hanno"
+     ],
+     "answer": "abbiamo"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "hai",
+      "ha",
+      "ho"
+     ],
+     "answer": "hai"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "avete",
+      "abbiamo",
+      "hai"
+     ],
+     "answer": "avete"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "ho",
+      "hai",
+      "ha"
+     ],
+     "answer": "ho"
+    }
+   ]
+  }
+ ]
+}

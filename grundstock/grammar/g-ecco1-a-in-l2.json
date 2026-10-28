@@ -1,0 +1,116 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-a-in-l2",
+ "title": "Wo bist du?",
+ "language": "it",
+ "level": "A1",
+ "description": "Die Präpositionen a und in · Wo bist du? (einfach).",
+ "topics": [
+  "Die Präpositionen a und in",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-a-in",
+  "topicTitle": "Die Präpositionen a und in",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 42,
+  "rule": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino, a Roma, a Berlino_\n- **in** + Land oder Region: _in Italia, in Germania, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_\n- **a** + bestimmte Orte ohne Artikel: _a scuola, a casa_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "a oder in? Ordne zu.",
+   "explanation": "Städte und casa/scuola → a; Länder, Regionen, Straßen, Plätze, centro → in.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "a",
+     "label": "a"
+    },
+    {
+     "id": "in",
+     "label": "in"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "Torino",
+     "category": "a"
+    },
+    {
+     "id": "i2",
+     "text": "Roma",
+     "category": "a"
+    },
+    {
+     "id": "i3",
+     "text": "casa",
+     "category": "a"
+    },
+    {
+     "id": "i4",
+     "text": "scuola",
+     "category": "a"
+    },
+    {
+     "id": "i5",
+     "text": "Italia",
+     "category": "in"
+    },
+    {
+     "id": "i6",
+     "text": "Germania",
+     "category": "in"
+    },
+    {
+     "id": "i7",
+     "text": "piazza",
+     "category": "in"
+    },
+    {
+     "id": "i8",
+     "text": "via Roma",
+     "category": "in"
+    },
+    {
+     "id": "i9",
+     "text": "centro",
+     "category": "in"
+    },
+    {
+     "id": "i10",
+     "text": "Piemonte",
+     "category": "in"
+    }
+   ]
+  }
+ ]
+}

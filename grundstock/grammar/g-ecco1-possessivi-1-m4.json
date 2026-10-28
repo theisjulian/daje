@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-possessivi-1-m4",
+ "title": "Ecco le nostre cose!",
+ "language": "it",
+ "level": "A1",
+ "description": "Possessivbegleiter (I) · Ecco le nostre cose! (mittel).",
+ "topics": [
+  "Possessivbegleiter (I)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-possessivi-1",
+  "topicTitle": "Possessivbegleiter (I)",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 54,
+  "rule": "Vor dem Possessivbegleiter steht im Italienischen meist der **Artikel**:\n| | männlich Sg. | weiblich Sg. | männlich Pl. | weiblich Pl. |\n| io | il mio | la mia | i miei | le mie |\n| tu | il tuo | la tua | i tuoi | le tue |\n| lui / lei | il suo | la sua | i suoi | le sue |\n| noi | il nostro | la nostra | i nostri | le nostre |\n| voi | il vostro | la vostra | i vostri | le vostre |\n| loro | il loro | la loro | i loro | le loro |\n\nDie Form richtet sich nach dem **Besitz**, nicht nach dem Besitzer: _Marco e **la sua** borsa_ (seine Tasche), _Giulia e **il suo** zaino_ (ihr Rucksack)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze den Possessivbegleiter mit Artikel.",
+   "explanation": "Anna → il suo zaino (zaino ist männlich) · Marco → la sua chitarra (chitarra ist weiblich).",
+   "type": "gap_fill",
+   "text": "(io) Ecco [[g1]] camera e [[g2]] letto.\n(tu) Dove sono [[g3]] vestiti?\n(Marco) [[g4]] chitarra è nell'armadio.\n(Anna) [[g5]] zaino è in corridoio.\n(noi) [[g6]] poster sono sulla parete.\n(voi) [[g7]] scarpe sono sotto il letto!\n(Luca e Sara) [[g8]] casa è vicino al parco.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "la mia"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "il mio"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "i tuoi"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "La sua"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Il suo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "I nostri"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Le vostre"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "La loro"
+     ]
+    }
+   ]
+  }
+ ]
+}

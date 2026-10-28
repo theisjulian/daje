@@ -1,0 +1,91 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quando-perche-s3",
+ "title": "Fehler finden",
+ "language": "it",
+ "level": "A1",
+ "description": "Nebensätze mit quando und perché · Fehler finden (schwer).",
+ "topics": [
+  "Nebensätze mit quando und perché",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quando-perche",
+  "topicTitle": "Nebensätze mit quando und perché",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 13,
+  "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Korrigiere die fünf Fehler.",
+   "type": "error_correction",
+   "text": "Vado al mare [[g1]] mi piace nuotare. (weil)\n[[g2]] fa freddo, resto a casa. (wenn)\nNon vengo perché [[g3]].\nPerché studi? – [[g4]] voglio diventare medico.\nMi piace l'estate [[g5]] non c'è scuola. (weil)",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "quando",
+     "acceptedAnswers": [
+      "perché"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "Perché",
+     "acceptedAnswers": [
+      "Quando"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "studiare devo",
+     "acceptedAnswers": [
+      "devo studiare"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "Quando",
+     "acceptedAnswers": [
+      "Perché"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "quando",
+     "acceptedAnswers": [
+      "perché"
+     ]
+    }
+   ]
+  }
+ ]
+}

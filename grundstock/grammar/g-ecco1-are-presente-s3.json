@@ -1,0 +1,188 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-are-presente-s3",
+ "title": "Alle Formen",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -are im Präsens · Alle Formen (schwer).",
+ "topics": [
+  "Verben auf -are im Präsens",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-are-presente",
+  "topicTitle": "Verben auf -are im Präsens",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 23,
+  "rule": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an:\n\n| Person | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** Bei _loro_ liegt die Betonung vorn: **a**bitano, **par**lano."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze die Tabelle. Achtung bei cercare, giocare und mangiare!",
+   "explanation": "-care/-gare: vor i ein h (cerchi, giochiamo). -iare: nur ein i (mangi, mangiamo).",
+   "type": "table_fill",
+   "columns": [
+    "Person",
+    "cercare",
+    "giocare",
+    "mangiare"
+   ],
+   "rows": [
+    [
+     "io",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "cerco"
+      ]
+     },
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "gioco"
+      ]
+     },
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "mangio"
+      ]
+     }
+    ],
+    [
+     "tu",
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "cerchi"
+      ]
+     },
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "giochi"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "mangi"
+      ]
+     }
+    ],
+    [
+     "lui / lei",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "cerca"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "gioca"
+      ]
+     },
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "mangia"
+      ]
+     }
+    ],
+    [
+     "noi",
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "cerchiamo"
+      ]
+     },
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "giochiamo"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "mangiamo"
+      ]
+     }
+    ],
+    [
+     "voi",
+     {
+      "id": "c13",
+      "acceptedAnswers": [
+       "cercate"
+      ]
+     },
+     {
+      "id": "c14",
+      "acceptedAnswers": [
+       "giocate"
+      ]
+     },
+     {
+      "id": "c15",
+      "acceptedAnswers": [
+       "mangiate"
+      ]
+     }
+    ],
+    [
+     "loro",
+     {
+      "id": "c16",
+      "acceptedAnswers": [
+       "cercano"
+      ]
+     },
+     {
+      "id": "c17",
+      "acceptedAnswers": [
+       "giocano"
+      ]
+     },
+     {
+      "id": "c18",
+      "acceptedAnswers": [
+       "mangiano"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

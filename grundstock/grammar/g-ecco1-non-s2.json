@@ -1,0 +1,86 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-non-s2",
+ "title": "Steckbrief: Stimmt das?",
+ "language": "it",
+ "level": "A1",
+ "description": "Die Verneinung mit non · Steckbrief: Stimmt das? (schwer).",
+ "topics": [
+  "Die Verneinung mit non",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-non",
+  "topicTitle": "Die Verneinung mit non",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 62,
+  "rule": "**non** steht **vor dem Verb**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nAntwort auf eine Frage: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Lies den Steckbrief und schreibe richtige Sätze. Verwende non, wenn etwas nicht stimmt.",
+   "type": "gap_fill",
+   "text": "Steckbrief: Marta, 14 anni, abita a Torino, parla italiano e inglese, non gioca a calcio, gioca a pallavolo.\nMarta [[g1]] abita a Milano, abita a Torino.\nMarta parla inglese, ma [[g2]] parla francese.\nLei [[g3]] gioca a calcio.\nLei gioca a [[g4]].\nMarta [[g5]] ha 16 anni, ha 14 anni.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "non"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "non"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "non"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "pallavolo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "non"
+     ]
+    }
+   ]
+  }
+ ]
+}

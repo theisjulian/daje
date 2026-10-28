@@ -1,0 +1,99 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-articolo-indeterminativo-s2",
+ "title": "Apostroph oder nicht?",
+ "language": "it",
+ "level": "A1",
+ "description": "Der unbestimmte Artikel · Apostroph oder nicht? (schwer).",
+ "topics": [
+  "Der unbestimmte Artikel",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-articolo-indeterminativo",
+  "topicTitle": "Der unbestimmte Artikel",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 72,
+  "rule": "| Artikel | wann? | Beispiel |\n| un | männlich (auch vor Vokal) | un ragazzo, un amico |\n| uno | männlich vor s + Konsonant, z | uno stadio, uno zaino |\n| una | weiblich vor Konsonant | una città, una ragazza |\n| un' | weiblich vor Vokal | un'amica, un'idea |\n\nAchtung: _un amico_ (männlich, ohne Apostroph), aber _un'amica_ (weiblich, mit Apostroph)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Hier stimmt bei sechs Wörtern der Artikel nicht. Korrigiere.",
+   "explanation": "Männlich vor Vokal: un amico (kein Apostroph). Weiblich vor Vokal: un'amica.",
+   "type": "error_correction",
+   "text": "Ho [[g1]] amico a Roma.\nLei è [[g2]] amica di Sara.\nC'è [[g3]] zaino sotto il banco.\nPaolo è [[g4]] studente di Torino.\nHo [[g5]] gatto e [[g6]] tartaruga.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "un'",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "un",
+     "acceptedAnswers": [
+      "un'"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "un",
+     "acceptedAnswers": [
+      "uno"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "una",
+     "acceptedAnswers": [
+      "uno"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "uno",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "un",
+     "acceptedAnswers": [
+      "una"
+     ]
+    }
+   ]
+  }
+ ]
+}

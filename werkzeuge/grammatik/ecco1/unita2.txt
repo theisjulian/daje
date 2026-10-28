@@ -322,3 +322,351 @@ nuovo
 ?frei | Beschreibe dein Zimmer mit mindestens fünf Adjektiven (grande, piccolo, nuovo, vecchio, bello, moderno …).
 La mia camera è piccola ma bella. Ho un letto nuovo e una scrivania grande. Sulla parete ci sono due poster vecchi.
 Zeilen: 5
+
+## ───────── Ausbau: weitere, längere Übungen je Thema ─────────
+
+@mehr avere
+
+%übung leicht | Person und Form
+?zuordnen | Was gehört zusammen?
+io = ho
+tu = hai
+lui / lei = ha
+noi = abbiamo
+voi = avete
+loro = hanno
++ anno
++ a
+! Achtung: anno (Jahr) und a (Präposition) sind keine Formen von avere.
+
+%übung leicht | La famiglia di Filippo
+?auswahl | Wähle die richtige Form von avere.
+Filippo {ha*|hai|hanno} quattordici anni.
+Lui {ha*|a|ho} una sorella, Chiara.
+Chiara e Filippo {hanno*|avete|ha} un cane, Bobo.
+I loro genitori {hanno*|anno|abbiamo} un negozio in centro.
+Io e Filippo {abbiamo*|avete|hanno} la stessa età.
+Tu {hai*|ha|ho} un animale?
+Ragazzi, voi {avete*|abbiamo|hai} fratelli?
+Io {ho*|hai|ha} un gatto bianco.
+
+%übung mittel | Fragen zum Steckbrief
+?ergaenzen | Beantworte die Fragen in ganzen Sätzen.
+Quanti anni hai? (13) – … | Ho tredici anni | Ho tredici anni.
+Hai fratelli? (sì, un fratello) – … | Sì, ho un fratello | Sì, ho un fratello.
+Avete un animale? (sì, un gatto) – … | abbiamo un gatto | Sì, abbiamo un gatto.
+Quanti anni ha tua sorella? (8) – … | ha otto anni | Mia sorella ha otto anni.
+I tuoi nonni hanno una casa? (sì, al mare) – … | hanno una casa | Sì, hanno una casa al mare.
+! Auf hai antwortet man mit ho, auf avete mit abbiamo.
+
+%übung mittel | Una chat
+?luecke wortkasten | Ergänze die Chat-Nachrichten mit den Formen von avere.
+Sara: Ciao! Quanti anni [hai]?
+Tim: [Ho] quattordici anni. E tu?
+Sara: Io [ho] tredici anni. [Hai] fratelli?
+Tim: Sì, un fratello. Lui [ha] diciotto anni e [ha] la patente.
+Sara: Che bello! Noi non [abbiamo] la macchina.
+Tim: I miei genitori [hanno] una bici elettrica. E voi [avete] animali?
++ anno, a
+! Achtung, Ablenker: anno (Jahr) und a (nach, in) haben kein h.
+
+%übung schwer | avere oder essere?
+?auswahl | Wähle avere oder essere in der richtigen Form.
+Io {ho*|sono} quattordici anni e {sono*|ho} di Torino.
+Mio fratello {è*|ha} simpatico e {ha*|è} un cane.
+Noi {siamo*|abbiamo} in classe 3A e {abbiamo*|siamo} una professoressa nuova.
+I miei nonni {hanno*|sono} ottant'anni, ma {sono*|hanno} molto attivi.
+Tu {hai*|sei} un fratello? {Sei*|Hai} figlio unico?
+! Alter: avere (ho 14 anni) – anders als im Deutschen „ich bin 14“.
+
+%übung schwer | Fehler im Steckbrief
+?fehler | Korrigiere die sechs Fehler.
+Mi chiamo Luca e [sono=>ho] quattordici anni.
+Mia sorella [a=>ha] undici anni.
+Noi [hanno=>abbiamo] un gatto.
+I miei cugini [anno=>hanno] un cane.
+Tu [ha=>hai] un animale?
+Voi [abbiamo=>avete] fratelli?
+
+@mehr mi-piace
+
+%übung leicht | Ti piace …?
+?auswahl | Wähle piace oder piacciono.
+Ti {piace*|piacciono} la pizza?
+Mi {piacciono*|piace} i gatti.
+Non mi {piace*|piacciono} la matematica.
+Ti {piacciono*|piace} gli sport invernali?
+Mi {piace*|piacciono} leggere fumetti.
+Mi {piacciono*|piace} le vacanze al mare.
+Non mi {piace*|piacciono} alzarmi presto.
+Ti {piace*|piacciono} il nuovo film di Pixar?
+! Auch nach Verben (leggere, alzarmi) → piace.
+
+%übung mittel | Was mögen sie?
+?luecke | Ergänze mi piace / mi piacciono / non mi piace / non mi piacciono (nach dem Smiley).
+(☺) [Mi piace] la musica rock.
+(☹) [Non mi piacciono] i film d'orrore.
+(☺) [Mi piacciono] le canzoni di Mahmood.
+(☹) [Non mi piace] fare i compiti.
+(☺) [Mi piace] andare in bici.
+(☺) [Mi piacciono] gli animali.
+(☹) [Non mi piace] il caffè.
+(☹) [Non mi piacciono] le verdure.
+
+%übung mittel | Domande e risposte
+?ergaenzen | Antworte wie im Beispiel: Ti piace lo sport? (☺) – Sì, mi piace.
+Ti piace la scuola? (☺) – … | mi piace | Sì, mi piace.
+Ti piacciono i compiti? (☹) – … | non mi piacciono | No, non mi piacciono.
+Ti piace cantare? (☺) – … | mi piace | Sì, mi piace.
+Ti piacciono i cani? (☺) – … | mi piacciono | Sì, mi piacciono.
+Ti piace il calcio? (☹) – … | non mi piace | No, non mi piace.
+
+%übung schwer | Fehler im Interview
+?fehler | Korrigiere die sechs Fehler.
+Mi [piacciono=>piace] molto la musica.
+Non mi [piace=>piacciono] le materie scientifiche.
+Ti [piace=>piacciono] i libri di Harry Potter?
+Mi [piacciono=>piace] ballare e cantare.
+[No=>Non] mi piace il rap.
+Mi [piace=>piacciono] le feste di compleanno.
+! Mehrere Verben (ballare e cantare) → trotzdem piace.
+
+@mehr questo
+
+%übung leicht | Vier Formen
+?sortieren | Welche Form von questo passt?
+Kategorien: o=questo; a=questa; i=questi; e=queste
+letto > o
+armadio > o
+sedia > a
+camera > a
+libri > i
+poster > i
+riviste > e
+scarpe > e
+! poster ist männlich (il poster → i poster): questi poster.
+
+%übung mittel | Di chi è?
+?luecke | Ergänze questo, questa, questi oder queste.
+Di chi è [questa] felpa? È di Marta.
+E [questo] cellulare? È di Paolo.
+[Queste] scarpe sono di mio fratello.
+[Questi] quaderni sono miei.
+[Questa] è la mia camera e [questo] è il mio letto.
+[Questi] sono i miei amici, Luca e Giulia.
+[Queste] sono le mie sorelle.
+! Ohne Nomen auch: Questo è … / Questi sono …
+
+%übung schwer | Fehler beim Aufräumen
+?fehler | Korrigiere die fünf falschen Formen.
+[Questa=>Questo] zaino è di Luca.
+[Questi=>Queste] scarpe sono nuove.
+[Queste=>Questi] libri sono sul tavolo.
+[Questo=>Questa] sedia è rotta.
+[Questa=>Queste] magliette sono sporche.
+
+@mehr preposizioni-articolate
+
+%übung leicht | Formen zuordnen
+?zuordnen | Was gehört zusammen?
+in + la = nella
+su + il = sul
+di + la = della
+a + il = al
+da + la = dalla
+in + i = nei
+su + le = sulle
+di + gli = degli
++ nel
++ alle
+
+%übung mittel | Dove sono le cose?
+?auswahl | Wähle die richtige Form.
+Le scarpe sono {sotto il*|sotto al|sotto nel} letto.
+Il gatto dorme {sul*|sulla|sullo} divano.
+I quaderni sono {nello*|nel|nella} zaino.
+Le chiavi sono {sulla*|sul|sulle} scrivania.
+Il pallone è {nell'*|nella|nello} armadio.
+Il poster è {sulla*|sul|sulle} parete.
+Le foto sono {nel*|nello|nella} cassetto.
+I libri sono {sugli*|sui|sulle} scaffali.
+! sotto verschmilzt nicht: sotto il letto. su + gli = sugli (gli scaffali).
+
+%übung mittel | Ein Nachmittag in der Stadt
+?luecke | Setze die Präposition mit Artikel ein.
+Oggi vado (a + il) [al] cinema con Luca.
+Prima andiamo (a + la) [alla] stazione.
+Poi compriamo un gelato (da + il) [dal] gelataio.
+Il negozio (di + il) [del] papà di Luca è (in + la) [nella] piazza grande.
+Torniamo a casa (da + la) [dalla] piazza alle sei.
+Mettiamo le borse (su + il) [sul] tavolo (di + la) [della] cucina.
+! a + il = al, a + la = alla, da + il = dal, di + il = del, in + la = nella, su + il = sul.
+
+%übung schwer | Die große Tabelle
+?tabelle | Ergänze die Formen.
+Spalten: Präposition | il | la | i | le
+in | [nel] | [nella] | [nei] | [nelle]
+su | [sul] | [sulla] | [sui] | [sulle]
+di | [del] | [della] | [dei] | [delle]
+a | [al] | [alla] | [ai] | [alle]
+da | [dal] | [dalla] | [dai] | [dalle]
+
+%übung schwer | Wo ist mein Handy?
+?luecke | Ergänze die Präpositionen mit Artikel (in, su, di, a, da).
+Mamma, dov'è il mio cellulare? Non è (in + la) [nella] mia borsa.
+Forse è (su + il) [sul] letto o (in + lo) [nello] zaino.
+No, aspetta! È (in + la) [nella] tasca (di + la) [della] giacca.
+La giacca è (in + l') [nell'] armadio (di + il) [del] corridoio.
+Ah no, il cellulare è (su + la) [sulla] sedia (in + la) [nella] cucina!
+
+@mehr possessivi-1
+
+%übung leicht | Meine Familie und meine Sachen
+?auswahl | Wähle die richtige Form.
+{Il mio*|La mia|I miei} cane si chiama Rex.
+{Le mie*|I miei|La mia} scarpe sono nuove.
+{La nostra*|Il nostro|Le nostre} casa è grande.
+{I vostri*|Le vostre|Il vostro} libri sono qui.
+{Il loro*|La loro|I loro} gatto è nero.
+{Le tue*|I tuoi|La tua} amiche sono simpatiche.
+{Il suo*|La sua|I suoi} computer è nuovo.
+{I nostri*|Le nostre|Il nostro} amici abitano a Roma.
+! loro bleibt immer gleich: il loro gatto, la loro casa, i loro amici.
+
+%übung mittel | Possessiv-Tabelle
+?tabelle | Ergänze die Possessivbegleiter mit Artikel.
+Spalten: Person | il libro | la borsa | i libri | le borse
+io | [il mio] | [la mia] | [i miei] | [le mie]
+tu | [il tuo] | [la tua] | [i tuoi] | [le tue]
+lui / lei | [il suo] | [la sua] | [i suoi] | [le sue]
+noi | [il nostro] | [la nostra] | [i nostri] | [le nostre]
+
+%übung mittel | Ecco le nostre cose!
+?luecke | Ergänze den Possessivbegleiter mit Artikel.
+(io) Ecco [la mia] camera e [il mio] letto.
+(tu) Dove sono [i tuoi] vestiti?
+(Marco) [La sua] chitarra è nell'armadio.
+(Anna) [Il suo] zaino è in corridoio.
+(noi) [I nostri] poster sono sulla parete.
+(voi) [Le vostre] scarpe sono sotto il letto!
+(Luca e Sara) [La loro] casa è vicino al parco.
+! Anna → il suo zaino (zaino ist männlich) · Marco → la sua chitarra (chitarra ist weiblich).
+
+%übung schwer | Wem gehört was?
+?fehler | Sechs Possessivbegleiter sind falsch. Korrigiere sie.
+Paolo ama [il suo=>la sua] bici.
+Sara mette in ordine [la sua=>il suo] armadio.
+Ragazzi, dove sono [le vostri=>le vostre] borse?
+[I mie=>I miei] amici sono qui.
+Luca e Anna? [I suoi=>I loro] genitori lavorano molto.
+Ecco [nostra=>la nostra] casa.
+! loro für mehrere Besitzer; Artikel vor dem Possessiv nicht vergessen.
+
+@mehr ire-andare
+
+%übung leicht | Formen sortieren
+?sortieren | Welches Verb ist das?
+Kategorien: d=dormire; s=sentire; a=andare
+dormo > d
+dormite > d
+dormono > d
+sento > s
+sente > s
+sentiamo > s
+vado > a
+vai > a
+vanno > a
+andiamo > a
+
+%übung mittel | Dove vanno?
+?luecke | Ergänze andare in der richtigen Form.
+Io [vado] a scuola a piedi.
+Tu [vai] in palestra oggi?
+Marco [va] al mare con la famiglia.
+Noi [andiamo] al cinema stasera.
+Voi [andate] in vacanza in Sicilia?
+I miei genitori [vanno] al lavoro in macchina.
+! andare: vado, vai, va, andiamo, andate, vanno.
+
+%übung mittel | Ein Samstag
+?luecke | Setze die Verben in die richtige Form.
+Il sabato mattina io (dormire) [dormo] a lungo.
+Poi (aprire) [apro] la finestra e (sentire) [sento] la musica dei vicini.
+Mio fratello (partire) [parte] per una gita.
+Nel pomeriggio noi (andare) [andiamo] in centro.
+Voi (venire) [venite] con noi? – No, noi (dormire) [dormiamo]!
+La sera i miei amici (andare) [vanno] a una festa.
+! venire ist unregelmäßig: voi venite.
+
+%übung schwer | -ere oder -ire?
+?tabelle | Ergänze. Achtung: der Unterschied liegt bei voi.
+Spalten: Person | vedere | dormire | partire
+noi | [vediamo] | [dormiamo] | [partiamo]
+voi | [vedete] | [dormite] | [partite]
+loro | [vedono] | [dormono] | [partono]
+lui / lei | [vede] | [dorme] | [parte]
+
+%übung schwer | Was machst du am Wochenende?
+?frei | Schreibe 5 Sätze über dein Wochenende mit dormire, sentire, partire und andare.
+Il sabato dormo fino alle nove. Poi vado in piscina con mia sorella. Nel pomeriggio sento musica in camera. La domenica andiamo dai nonni. A volte partiamo per una gita.
+Zeilen: 5
+
+@mehr aggettivi
+
+%übung leicht | Was passt?
+?auswahl | Wähle die passende Adjektivform.
+Il gatto è {nero*|nera|neri}.
+Le scarpe sono {rosse*|rossi|rosso}.
+Mia sorella è {simpatica*|simpatico|simpatiche}.
+I miei amici sono {simpatici*|simpatiche|simpatico}.
+La camera è {grande*|granda|grandi}.
+I compiti sono {difficili*|difficile|difficila}.
+La casa è {moderna*|moderno|moderne}.
+Gli zaini sono {pesanti*|pesante|pesanta}.
+! simpatico → simpatici (m. Pl.), simpatica → simpatiche (w. Pl.).
+
+%übung mittel | Adjektive anpassen
+?tabelle | Ergänze die Formen.
+Spalten: m. Sg. | w. Sg. | m. Pl. | w. Pl.
+nuovo | [nuova] | [nuovi] | [nuove]
+grande | [grande] | [grandi] | [grandi]
+piccolo | [piccola] | [piccoli] | [piccole]
+interessante | [interessante] | [interessanti] | [interessanti]
+vecchio | [vecchia] | [vecchi] | [vecchie]
+! vecchio → vecchi (nur ein i).
+
+%übung mittel | Vor oder nach dem Nomen?
+?mc | Welcher Satz ist richtig?
+* Ho un computer nuovo.
+- Ho un nuovo computer nuovo.
+- Ho computer un nuovo.
+?mc | Welcher Satz klingt richtig?
+* Sara ha una camera grande.
+- Sara ha una grande camera grandi.
+- Sara ha grande una camera.
+?mc | Welcher Satz ist richtig?
+* Ho tanti libri interessanti.
+- Ho tanti interessante libri.
+- Ho tanti libri interessante.
+?mc | Welcher Satz ist richtig?
+* Ecco un bel posto!
+- Ecco un bello posto!
+- Ecco un posto bel!
+
+%übung schwer | Il mio amico Paolo
+?luecke | Ergänze die Adjektive in der richtigen Form.
+Il mio amico Paolo è (alto) [alto] e (simpatico) [simpatico].
+Ha i capelli (nero) [neri] e gli occhi (verde) [verdi].
+Sua sorella Laura è (piccolo) [piccola] e molto (allegro) [allegra].
+I genitori di Paolo sono (gentile) [gentili].
+Abitano in una casa (vecchio) [vecchia] con un giardino (grande) [grande].
+Le loro bici sono (nuovo) [nuove] e (veloce) [veloci].
+
+%übung schwer | Fehler finden
+?fehler | Korrigiere die sechs falschen Adjektivformen.
+Ho due gatti [nera=>neri].
+Le mie amiche sono [simpatici=>simpatiche].
+La mia camera è [grando=>grande].
+I libri sono [interessante=>interessanti].
+Sara ha una borsa [nuovo=>nuova].
+Le case sono [vecchi=>vecchie].

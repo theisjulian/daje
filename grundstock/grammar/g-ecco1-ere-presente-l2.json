@@ -1,0 +1,89 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-ere-presente-l2",
+ "title": "-ere: Person und Form",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -ere im Präsens · -ere: Person und Form (einfach).",
+ "topics": [
+  "Verben auf -ere im Präsens",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-ere-presente",
+  "topicTitle": "Verben auf -ere im Präsens",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 92,
+  "rule": "| Person | prendere | vedere |\n| io | prend**o** | ved**o** |\n| tu | prend**i** | ved**i** |\n| lui / lei | prend**e** | ved**e** |\n| noi | prend**iamo** | ved**iamo** |\n| voi | prend**ete** | ved**ete** |\n| loro | prend**ono** | ved**ono** |\n\nUnterschied zu -are: **lui/lei -e** (nicht -a), **voi -ete**, **loro -ono**."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Was gehört zusammen?",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "io",
+     "right": "leggo"
+    },
+    {
+     "id": "p2",
+     "left": "tu",
+     "right": "scrivi"
+    },
+    {
+     "id": "p3",
+     "left": "lui / lei",
+     "right": "prende"
+    },
+    {
+     "id": "p4",
+     "left": "noi",
+     "right": "vediamo"
+    },
+    {
+     "id": "p5",
+     "left": "voi",
+     "right": "vendete"
+    },
+    {
+     "id": "p6",
+     "left": "loro",
+     "right": "leggono"
+    }
+   ],
+   "distractors": [
+    "legge",
+    "scriviamo"
+   ]
+  }
+ ]
+}

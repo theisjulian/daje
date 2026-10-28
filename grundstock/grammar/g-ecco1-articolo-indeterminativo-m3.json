@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-articolo-indeterminativo-m3",
+ "title": "Was gibt es in Torino?",
+ "language": "it",
+ "level": "A1",
+ "description": "Der unbestimmte Artikel · Was gibt es in Torino? (mittel).",
+ "topics": [
+  "Der unbestimmte Artikel",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-articolo-indeterminativo",
+  "topicTitle": "Der unbestimmte Artikel",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 73,
+  "rule": "| Artikel | wann? | Beispiel |\n| un | männlich (auch vor Vokal) | un ragazzo, un amico |\n| uno | männlich vor s + Konsonant, z | uno stadio, uno zaino |\n| una | weiblich vor Konsonant | una città, una ragazza |\n| un' | weiblich vor Vokal | un'amica, un'idea |\n\nAchtung: _un amico_ (männlich, ohne Apostroph), aber _un'amica_ (weiblich, mit Apostroph)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze den unbestimmten Artikel.",
+   "explanation": "un albergo, un appartamento (m) · un'edicola, un'università (f).",
+   "type": "gap_fill",
+   "text": "A Torino c'è [[g1]] fiume, il Po.\nC'è anche [[g2]] museo molto famoso.\nIn centro c'è [[g3]] piazza grande.\nVicino alla stazione c'è [[g4]] albergo.\nC'è [[g5]] stadio nuovo.\nIn via Roma c'è [[g6]] edicola.\nMio cugino ha [[g7]] appartamento in centro.\nC'è anche [[g8]] università.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "uno"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "un'"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "un'"
+     ]
+    }
+   ]
+  }
+ ]
+}

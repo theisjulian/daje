@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-isc-fare-m2",
+ "title": "Was machst du?",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -ire mit -isc- und fare · Was machst du? (mittel).",
+ "topics": [
+  "Verben auf -ire mit -isc- und fare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-isc-fare",
+  "topicTitle": "Verben auf -ire mit -isc- und fare",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 22,
+  "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze fare in der richtigen Form.",
+   "explanation": "Wendungen mit fare: fare i compiti, fare sport, fare colazione, fare una festa, fare attenzione.",
+   "type": "gap_fill",
+   "text": "Che cosa [[g1]] stasera? – [[g2]] i compiti.\nMarco [[g3]] sport tutti i giorni.\nNoi [[g4]] una gita a Torino.\nVoi [[g5]] colazione a scuola?\nI miei amici [[g6]] una festa sabato.\nIl pomeriggio io e mia sorella [[g7]] una passeggiata.\nTu [[g8]] attenzione in classe?",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "fai"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Faccio"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "fa"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "facciamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "fate"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "fanno"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "facciamo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "fai"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-aggettivi-s3",
+ "title": "Il mio amico Paolo",
+ "language": "it",
+ "level": "A1",
+ "description": "Adjektive und ihre Stellung · Il mio amico Paolo (schwer).",
+ "topics": [
+  "Adjektive und ihre Stellung",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 13,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-aggettivi",
+  "topicTitle": "Adjektive und ihre Stellung",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 73,
+  "rule": "Adjektive richten sich nach dem Nomen (Geschlecht und Zahl):\n| Typ | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| -o/-a | nuovo | nuova | nuovi | nuove |\n| -e | grande | grande | grandi | grandi |\n\n**Stellung:** meist **nach** dem Nomen: _un libro **interessante**, una camera **grande**._ Einige kurze, häufige Adjektive stehen oft davor: _un **bel** posto, un **piccolo** problema, una **vecchia** foto._\n**Achtung:** _bello_ vor dem Nomen verändert sich wie der Artikel: _un bel gatto, un bello zaino, i bei libri._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze die Adjektive in der richtigen Form.",
+   "type": "gap_fill",
+   "text": "Il mio amico Paolo è (alto) [[g1]] e (simpatico) [[g2]].\nHa i capelli (nero) [[g3]] e gli occhi (verde) [[g4]].\nSua sorella Laura è (piccolo) [[g5]] e molto (allegro) [[g6]].\nI genitori di Paolo sono (gentile) [[g7]].\nAbitano in una casa (vecchio) [[g8]] con un giardino (grande) [[g9]].\nLe loro bici sono (nuovo) [[g10]] e (veloce) [[g11]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "alto"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "simpatico"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "neri"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "verdi"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "piccola"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "allegra"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "gentili"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "vecchia"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "grande"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "nuove"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "veloci"
+     ]
+    }
+   ]
+  }
+ ]
+}

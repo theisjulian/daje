@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-prossimo-essere-m4",
+ "title": "Una gita a Milano",
+ "language": "it",
+ "level": "A1",
+ "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Una gita a Milano (mittel).",
+ "topics": [
+  "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-essere",
+  "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 44,
+  "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Setze die Verben ins passato prossimo (essere oder avere).",
+   "explanation": "io e mia sorella = noi (weiblich) → siamo andate, siamo arrivate.",
+   "type": "gap_fill",
+   "text": "Domenica io e mia sorella (andare) [[g1]] a Milano.\n(Prendere, noi) [[g2]] il treno alle otto.\n(Arrivare, noi) [[g3]] alle nove e mezza.\nPrima (vedere, noi) [[g4]] il Duomo.\nPoi (fare, noi) [[g5]] shopping in Galleria.\nMia sorella (perdere) [[g6]] il biglietto del treno!\nPer fortuna (rimanere, noi) [[g7]] calme.\nLa sera (tornare, noi) [[g8]] a casa stanche ma felici.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "siamo andate"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Abbiamo preso"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Siamo arrivate"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "abbiamo visto"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "abbiamo fatto"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ha perso"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "siamo rimaste"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "siamo tornate"
+     ]
+    }
+   ]
+  }
+ ]
+}

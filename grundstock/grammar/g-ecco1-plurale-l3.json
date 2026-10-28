@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-plurale-l3",
+ "title": "Einer – viele",
+ "language": "it",
+ "level": "A1",
+ "description": "Der Plural: Artikel und Nomen · Einer – viele (einfach).",
+ "topics": [
+  "Der Plural: Artikel und Nomen",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-plurale",
+  "topicTitle": "Der Plural: Artikel und Nomen",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 83,
+  "rule": "**Nomen:**\n| Singular | Plural | Beispiel |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù (betont) | bleibt | la città → le città |\n\n**Artikel:**\n| Singular | Plural |\n| il | i |\n| lo, l' (männlich) | gli |\n| la, l' (weiblich) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle den richtigen Plural.",
+   "explanation": "-co/-ca: amico → amici, amica → amiche. Betonte Endung und Fremdwörter bleiben gleich.",
+   "type": "gap_choice",
+   "text": "il ragazzo → [[g1]]\nla ragazza → [[g2]]\nlo zaino → [[g3]]\nl'amico → [[g4]]\nla città → [[g5]]\nil ponte → [[g6]]\nl'amica → [[g7]]\nlo sport → [[g8]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "i ragazzi",
+      "le ragazze",
+      "gli ragazzi"
+     ],
+     "answer": "i ragazzi"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "le ragazze",
+      "le ragazzi",
+      "i ragazze"
+     ],
+     "answer": "le ragazze"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "gli zaini",
+      "i zaini",
+      "le zaine"
+     ],
+     "answer": "gli zaini"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "gli amici",
+      "i amici",
+      "le amiche"
+     ],
+     "answer": "gli amici"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "le città",
+      "le citte",
+      "i città"
+     ],
+     "answer": "le città"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "i ponti",
+      "i ponte",
+      "le ponti"
+     ],
+     "answer": "i ponti"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "le amiche",
+      "le amice",
+      "gli amiche"
+     ],
+     "answer": "le amiche"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "gli sport",
+      "gli sporti",
+      "i sport"
+     ],
+     "answer": "gli sport"
+    }
+   ]
+  }
+ ]
+}

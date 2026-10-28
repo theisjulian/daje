@@ -1,0 +1,88 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quando-perche-l2",
+ "title": "Quando …",
+ "language": "it",
+ "level": "A1",
+ "description": "Nebensätze mit quando und perché · Quando … (einfach).",
+ "topics": [
+  "Nebensätze mit quando und perché",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quando-perche",
+  "topicTitle": "Nebensätze mit quando und perché",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 12,
+  "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Verbinde die Satzhälften.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Quando piove,",
+     "right": "guardo un film a casa."
+    },
+    {
+     "id": "p2",
+     "left": "Quando fa caldo,",
+     "right": "vado in piscina."
+    },
+    {
+     "id": "p3",
+     "left": "Quando ho fame,",
+     "right": "mangio un panino."
+    },
+    {
+     "id": "p4",
+     "left": "Quando nevica,",
+     "right": "facciamo un pupazzo di neve."
+    },
+    {
+     "id": "p5",
+     "left": "Quando sono triste,",
+     "right": "telefono alla mia migliore amica."
+    },
+    {
+     "id": "p6",
+     "left": "Quando ho tempo libero,",
+     "right": "leggo fumetti."
+    }
+   ],
+   "distractors": [
+    "perché mi piace."
+   ]
+  }
+ ]
+}

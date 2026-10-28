@@ -1,0 +1,110 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-preposizioni-articolate-s3",
+ "title": "Wo ist mein Handy?",
+ "language": "it",
+ "level": "A1",
+ "description": "Präpositionen mit Artikel · Wo ist mein Handy? (schwer).",
+ "topics": [
+  "Präpositionen mit Artikel",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-preposizioni-articolate",
+  "topicTitle": "Präpositionen mit Artikel",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 43,
+  "rule": "Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel:\n| | il | lo | l' | la | i | gli | le |\n| a | al | allo | all' | alla | ai | agli | alle |\n| da | dal | dallo | dall' | dalla | dai | dagli | dalle |\n| di | del | dello | dell' | della | dei | degli | delle |\n| in | nel | nello | nell' | nella | nei | negli | nelle |\n| su | sul | sullo | sull' | sulla | sui | sugli | sulle |\n\n**con** und **per** verschmelzen nicht: _con il papà, per la mamma._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze die Präpositionen mit Artikel (in, su, di, a, da).",
+   "type": "gap_fill",
+   "text": "Mamma, dov'è il mio cellulare? Non è (in + la) [[g1]] mia borsa.\nForse è (su + il) [[g2]] letto o (in + lo) [[g3]] zaino.\nNo, aspetta! È (in + la) [[g4]] tasca (di + la) [[g5]] giacca.\nLa giacca è (in + l') [[g6]] armadio (di + il) [[g7]] corridoio.\nAh no, il cellulare è (su + la) [[g8]] sedia (in + la) [[g9]] cucina!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "nella"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sul"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "nello"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "nella"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "della"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "nell'"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "del"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "sulla"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "nella"
+     ]
+    }
+   ]
+  }
+ ]
+}

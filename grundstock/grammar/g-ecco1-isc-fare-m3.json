@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-isc-fare-m3",
+ "title": "Am Ende der Stunde",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -ire mit -isc- und fare · Am Ende der Stunde (mittel).",
+ "topics": [
+  "Verben auf -ire mit -isc- und fare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-isc-fare",
+  "topicTitle": "Verben auf -ire mit -isc- und fare",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 23,
+  "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Setze die Verben in die richtige Form (mit oder ohne -isc-).",
+   "explanation": "noi und voi ohne -isc-: capiamo, finite.",
+   "type": "gap_fill",
+   "text": "Io non (capire) [[g1]] l'esercizio numero tre.\nLa prof (spiegare) [[g2]] di nuovo e adesso noi (capire) [[g3]].\nTu (preferire) [[g4]] la matematica o la storia?\nIo (preferire) [[g5]] l'inglese.\nLa lezione (finire) [[g6]] alle undici.\nVoi (finire) [[g7]] il compito a casa?\nI ragazzi (pulire) [[g8]] la lavagna.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "capisco"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "spiega"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "capiamo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "preferisci"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "preferisco"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "finisce"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "finite"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "puliscono"
+     ]
+    }
+   ]
+  }
+ ]
+}

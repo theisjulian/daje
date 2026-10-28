@@ -1,0 +1,96 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-prossimo-avere-m4",
+ "title": "Was hast du gestern gemacht?",
+ "language": "it",
+ "level": "A1",
+ "description": "Das passato prossimo mit avere · Was hast du gestern gemacht? (mittel).",
+ "topics": [
+  "Das passato prossimo mit avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-avere",
+  "topicTitle": "Das passato prossimo mit avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 34,
+  "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Antworte im passato prossimo.",
+   "explanation": "non steht vor dem Hilfsverb: non ho dormito.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Hai studiato? (sì) – …",
+     "acceptedAnswers": [
+      "ho studiato"
+     ],
+     "modelAnswer": "Sì, ho studiato."
+    },
+    {
+     "id": "s2",
+     "start": "Avete mangiato? (sì, una pizza) – …",
+     "acceptedAnswers": [
+      "abbiamo mangiato"
+     ],
+     "modelAnswer": "Sì, abbiamo mangiato una pizza."
+    },
+    {
+     "id": "s3",
+     "start": "Ha telefonato Luca? (no) – …",
+     "acceptedAnswers": [
+      "non ha telefonato"
+     ],
+     "modelAnswer": "No, Luca non ha telefonato."
+    },
+    {
+     "id": "s4",
+     "start": "Hanno giocato a calcio? (sì) – …",
+     "acceptedAnswers": [
+      "hanno giocato"
+     ],
+     "modelAnswer": "Sì, hanno giocato a calcio."
+    },
+    {
+     "id": "s5",
+     "start": "Hai dormito bene? (no) – …",
+     "acceptedAnswers": [
+      "non ho dormito bene"
+     ],
+     "modelAnswer": "No, non ho dormito bene."
+    }
+   ]
+  }
+ ]
+}

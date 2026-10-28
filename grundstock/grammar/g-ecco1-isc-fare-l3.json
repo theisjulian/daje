@@ -1,0 +1,89 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-isc-fare-l3",
+ "title": "Wer macht was?",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -ire mit -isc- und fare · Wer macht was? (einfach).",
+ "topics": [
+  "Verben auf -ire mit -isc- und fare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-isc-fare",
+  "topicTitle": "Verben auf -ire mit -isc- und fare",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 23,
+  "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Verbinde Person und Form von fare.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "io",
+     "right": "faccio"
+    },
+    {
+     "id": "p2",
+     "left": "tu",
+     "right": "fai"
+    },
+    {
+     "id": "p3",
+     "left": "lui / lei",
+     "right": "fa"
+    },
+    {
+     "id": "p4",
+     "left": "noi",
+     "right": "facciamo"
+    },
+    {
+     "id": "p5",
+     "left": "voi",
+     "right": "fate"
+    },
+    {
+     "id": "p6",
+     "left": "loro",
+     "right": "fanno"
+    }
+   ],
+   "distractors": [
+    "facete",
+    "fo"
+   ]
+  }
+ ]
+}

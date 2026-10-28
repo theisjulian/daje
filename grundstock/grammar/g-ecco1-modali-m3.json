@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-modali-m3",
+ "title": "Ein Wochenendplan",
+ "language": "it",
+ "level": "A1",
+ "description": "venire, sapere und die Modalverben · Ein Wochenendplan (mittel).",
+ "topics": [
+  "venire, sapere und die Modalverben",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-modali",
+  "topicTitle": "venire, sapere und die Modalverben",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 23,
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze die Modalverben in der richtigen Form.",
+   "explanation": "Nach volere, potere, dovere, sapere folgt der Infinitiv: devo studiare, sa nuotare.",
+   "type": "gap_fill",
+   "text": "– Marco, sabato (volere, tu) [[g1]] venire in piscina?\n– Mi dispiace, non (potere, io) [[g2]]. (dovere, io) [[g3]] studiare per il test di storia.\n– E domenica? (potere, tu) [[g4]] venire?\n– Sì, domenica (potere, io) [[g5]]. Anche Luca (volere) [[g6]] venire.\n– Benissimo! Allora (dovere, noi) [[g7]] comprare i biglietti.\n– Ma Luca non (sapere) [[g8]] nuotare!\n– Non importa, (potere, lui) [[g9]] restare al bar.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "vuoi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "posso"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Devo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Puoi"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "posso"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "vuole"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "dobbiamo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "sa"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "può"
+     ]
+    }
+   ]
+  }
+ ]
+}

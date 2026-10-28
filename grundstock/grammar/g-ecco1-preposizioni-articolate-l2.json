@@ -1,0 +1,99 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-preposizioni-articolate-l2",
+ "title": "Formen zuordnen",
+ "language": "it",
+ "level": "A1",
+ "description": "Präpositionen mit Artikel · Formen zuordnen (einfach).",
+ "topics": [
+  "Präpositionen mit Artikel",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-preposizioni-articolate",
+  "topicTitle": "Präpositionen mit Artikel",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 42,
+  "rule": "Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel:\n| | il | lo | l' | la | i | gli | le |\n| a | al | allo | all' | alla | ai | agli | alle |\n| da | dal | dallo | dall' | dalla | dai | dagli | dalle |\n| di | del | dello | dell' | della | dei | degli | delle |\n| in | nel | nello | nell' | nella | nei | negli | nelle |\n| su | sul | sullo | sull' | sulla | sui | sugli | sulle |\n\n**con** und **per** verschmelzen nicht: _con il papà, per la mamma._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Was gehört zusammen?",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "in + la",
+     "right": "nella"
+    },
+    {
+     "id": "p2",
+     "left": "su + il",
+     "right": "sul"
+    },
+    {
+     "id": "p3",
+     "left": "di + la",
+     "right": "della"
+    },
+    {
+     "id": "p4",
+     "left": "a + il",
+     "right": "al"
+    },
+    {
+     "id": "p5",
+     "left": "da + la",
+     "right": "dalla"
+    },
+    {
+     "id": "p6",
+     "left": "in + i",
+     "right": "nei"
+    },
+    {
+     "id": "p7",
+     "left": "su + le",
+     "right": "sulle"
+    },
+    {
+     "id": "p8",
+     "left": "di + gli",
+     "right": "degli"
+    }
+   ],
+   "distractors": [
+    "nel",
+    "alle"
+   ]
+  }
+ ]
+}

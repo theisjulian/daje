@@ -1,0 +1,100 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-plurale-m2",
+ "title": "Im Klassenzimmer",
+ "language": "it",
+ "level": "A1",
+ "description": "Der Plural: Artikel und Nomen · Im Klassenzimmer (mittel).",
+ "topics": [
+  "Der Plural: Artikel und Nomen",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-plurale",
+  "topicTitle": "Der Plural: Artikel und Nomen",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 82,
+  "rule": "**Nomen:**\n| Singular | Plural | Beispiel |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù (betont) | bleibt | la città → le città |\n\n**Artikel:**\n| Singular | Plural |\n| il | i |\n| lo, l' (männlich) | gli |\n| la, l' (weiblich) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Setze Artikel und Nomen in den Plural.",
+   "explanation": "l'insegnante kann m oder f sein: gli insegnanti / le insegnanti.",
+   "type": "gap_fill",
+   "text": "In classe ci sono venti (il banco) [[g1]].\nSul tavolo ci sono (il libro) [[g2]] di Marco.\n(La finestra) [[g3]] sono grandi.\n(Lo zaino) [[g4]] sono sotto i banchi.\n(L'amica) [[g5]] di Sara sono in classe 3B.\nCi sono anche due (la lavagna) [[g6]].\n(L'insegnante) [[g7]] sono simpatici.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "banchi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "i libri"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Le finestre"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Gli zaini"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Le amiche"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "lavagne"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Gli insegnanti",
+      "Le insegnanti"
+     ]
+    }
+   ]
+  }
+ ]
+}

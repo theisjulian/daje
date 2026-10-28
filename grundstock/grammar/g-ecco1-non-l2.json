@@ -1,0 +1,113 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-non-l2",
+ "title": "No oder non?",
+ "language": "it",
+ "level": "A1",
+ "description": "Die Verneinung mit non · No oder non? (einfach).",
+ "topics": [
+  "Die Verneinung mit non",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-non",
+  "topicTitle": "Die Verneinung mit non",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 62,
+  "rule": "**non** steht **vor dem Verb**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nAntwort auf eine Frage: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle no oder non.",
+   "explanation": "no = nein (allein, am Anfang der Antwort) · non = nicht (vor dem Verb).",
+   "type": "gap_choice",
+   "text": "Sei di Milano? – [[g1]], sono di Torino.\nLuca [[g2]] parla inglese.\nAbiti qui? – [[g3]], abito in via Po.\nIo [[g4]] sto bene oggi.\nVoi [[g5]] siete in classe?\nGiochi a calcio? – [[g6]], [[g7]] gioco a calcio.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "No",
+      "Non"
+     ],
+     "answer": "No"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "non",
+      "no"
+     ],
+     "answer": "non"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "No",
+      "Non"
+     ],
+     "answer": "No"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "non",
+      "no"
+     ],
+     "answer": "non"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "non",
+      "no"
+     ],
+     "answer": "non"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "No",
+      "Non"
+     ],
+     "answer": "No"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "non",
+      "no"
+     ],
+     "answer": "non"
+    }
+   ]
+  }
+ ]
+}

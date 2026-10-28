@@ -1,0 +1,103 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-are-presente-m4",
+ "title": "Fragen stellen",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -are im Präsens · Fragen stellen (mittel).",
+ "topics": [
+  "Verben auf -are im Präsens",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-are-presente",
+  "topicTitle": "Verben auf -are im Präsens",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 24,
+  "rule": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an:\n\n| Person | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** Bei _loro_ liegt die Betonung vorn: **a**bitano, **par**lano."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Stelle die Frage mit tu oder voi, wie im Beispiel: (abitare, tu) Dove abiti?",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "(parlare, tu) … tedesco?",
+     "acceptedAnswers": [
+      "Parli"
+     ],
+     "modelAnswer": "Parli tedesco?"
+    },
+    {
+     "id": "s2",
+     "start": "(lavorare, voi) Dove …?",
+     "acceptedAnswers": [
+      "lavorate"
+     ],
+     "modelAnswer": "Dove lavorate?"
+    },
+    {
+     "id": "s3",
+     "start": "(arrivare, tu) A che ora …?",
+     "acceptedAnswers": [
+      "arrivi"
+     ],
+     "modelAnswer": "A che ora arrivi?"
+    },
+    {
+     "id": "s4",
+     "start": "(guardare, voi) … la partita?",
+     "acceptedAnswers": [
+      "Guardate"
+     ],
+     "modelAnswer": "Guardate la partita?"
+    },
+    {
+     "id": "s5",
+     "start": "(cercare, tu) Che cosa …?",
+     "acceptedAnswers": [
+      "cerchi"
+     ],
+     "modelAnswer": "Che cosa cerchi?"
+    },
+    {
+     "id": "s6",
+     "start": "(mangiare, voi) … una pizza?",
+     "acceptedAnswers": [
+      "Mangiate"
+     ],
+     "modelAnswer": "Mangiate una pizza?"
+    }
+   ]
+  }
+ ]
+}

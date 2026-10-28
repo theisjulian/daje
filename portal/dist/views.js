@@ -453,6 +453,11 @@ function solutionText(q) {
   }
 }
 /* Text mit [[id]]-Lücken: jede Lücke über fn(id, Nummer) darstellen (Lückentext, Notizen, Fehler, Auswahl). */
+/* Lückenbreite nach der längsten Lösung; Endungen wie „-a“ bekommen ein schmales Feld. */
+const gapSize = answers => {
+  const n = Math.max(...answers.map(a => a.length));
+  return n <= 3 ? 3 : Math.max(8, Math.min(24, n + 3));
+};
 function gapHTML(text, fn) {
   let html = '', last = 0, n = 0;
   for (const m of text.matchAll(GAP_MARK)) {
@@ -553,7 +558,7 @@ function questionHTML(x, q, index, state) {
       const ok = g.acceptedAnswers.some(
         a => a.toLocaleLowerCase().trim() === String(val).toLocaleLowerCase().trim()
       );
-      return `<input class="gap${mark(ok)}" data-listen-part="${q.id}" data-part="${id}" value="${esc(val)}" maxlength="80" size="${Math.max(8, Math.min(24, Math.max(...g.acceptedAnswers.map(a => a.length)) + 3))}" lang="${x.language}" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="Lücke ${n}">`;
+      return `<input class="gap${gapSize(g.acceptedAnswers) === 3 ? ' gap-short' : ''}${mark(ok)}" data-listen-part="${q.id}" data-part="${id}" value="${esc(val)}" maxlength="80" size="${gapSize(g.acceptedAnswers)}" lang="${x.language}" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="Lücke ${n}">`;
     };
     let n = 0;
     let html = '';
@@ -588,7 +593,7 @@ function questionHTML(x, q, index, state) {
     const html = gapHTML(q.text, (id, n) => {
       const g = q.gaps.find(v => v.id === id);
       const val = ownPart(parts, id) ? parts[id] : '';
-      return `<input class="gap${mark(sameAnswer(g.acceptedAnswers, val))}" data-listen-part="${q.id}" data-part="${id}" value="${esc(val)}" maxlength="80" size="${Math.max(8, Math.min(24, Math.max(...g.acceptedAnswers.map(a => a.length)) + 3))}" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="Lücke ${n}">`;
+      return `<input class="gap${gapSize(g.acceptedAnswers) === 3 ? ' gap-short' : ''}${mark(sameAnswer(g.acceptedAnswers, val))}" data-listen-part="${q.id}" data-part="${id}" value="${esc(val)}" maxlength="80" size="${gapSize(g.acceptedAnswers)}" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="Lücke ${n}">`;
     });
     field = `<ul class="note-lines" lang="${x.language}">${html.split('\n').filter(l => l.trim()).map(l => `<li>${l}</li>`).join('')}</ul>`;
   } else if (q.type === 'error_correction')
@@ -625,7 +630,8 @@ function questionHTML(x, q, index, state) {
     field = q.items
       .map((it, n) => {
         const val = ownPart(parts, it.id) ? parts[it.id] : '';
-        const ok = String(val).trim() && it.acceptedAnswers.some(a => String(val).toLocaleLowerCase().includes(a.toLocaleLowerCase().trim()));
+        const loose = t => String(t).normalize('NFC').toLocaleLowerCase().replace(/[’‘]/g, "'").replace(/[.,!?;:…«»"]+/g, ' ').replace(/\s+/g, ' ').trim();
+        const ok = loose(val) && it.acceptedAnswers.some(a => loose(val).includes(loose(a)));
         return `<label class="sc-row${mark(ok)}"><span class="sc-start" lang="${x.language}">${esc(it.start)}</span><input class="sc-input" data-listen-part="${q.id}" data-part="${it.id}" value="${esc(val)}" maxlength="200" lang="${x.language}" autocomplete="off" aria-label="Satz ${n + 1} ergänzen"></label>`;
       })
       .join('');

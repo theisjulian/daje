@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-prossimo-avere-l4",
+ "title": "Gestern",
+ "language": "it",
+ "level": "A1",
+ "description": "Das passato prossimo mit avere · Gestern (einfach).",
+ "topics": [
+  "Das passato prossimo mit avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-avere",
+  "topicTitle": "Das passato prossimo mit avere",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 34,
+  "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle die richtige Form.",
+   "explanation": "Mit avere bleibt das Partizip auf -o: Sara ha comprato.",
+   "type": "gap_choice",
+   "text": "Ieri io [[g1]] per il test.\nTu [[g2]] la nuova canzone?\nSara [[g3]] una maglietta.\nNoi [[g4]] un gelato.\nVoi [[g5]] bene?\nI ragazzi [[g6]] a basket.\nIo [[g7]] i compiti alle sei.\nMio padre [[g8]] tutto il giorno.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "ho studiato",
+      "ho studiata",
+      "sono studiato"
+     ],
+     "answer": "ho studiato"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "hai ascoltato",
+      "hai ascoltata",
+      "ha ascoltato"
+     ],
+     "answer": "hai ascoltato"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "ha comprato",
+      "ha comprata",
+      "è comprato"
+     ],
+     "answer": "ha comprato"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "abbiamo mangiato",
+      "avete mangiato",
+      "abbiamo mangiati"
+     ],
+     "answer": "abbiamo mangiato"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "avete dormito",
+      "avete dormiti",
+      "abbiamo dormito"
+     ],
+     "answer": "avete dormito"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "hanno giocato",
+      "hanno giocati",
+      "ha giocato"
+     ],
+     "answer": "hanno giocato"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "ho finito",
+      "ho finita",
+      "ho finisco"
+     ],
+     "answer": "ho finito"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "ha lavorato",
+      "è lavorato",
+      "ha lavorata"
+     ],
+     "answer": "ha lavorato"
+    }
+   ]
+  }
+ ]
+}

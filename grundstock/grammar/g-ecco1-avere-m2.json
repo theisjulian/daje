@@ -1,0 +1,96 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-avere-m2",
+ "title": "Fragen zum Steckbrief",
+ "language": "it",
+ "level": "A1",
+ "description": "Das Verb avere · Fragen zum Steckbrief (mittel).",
+ "topics": [
+  "Das Verb avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-avere",
+  "topicTitle": "Das Verb avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 12,
+  "rule": "**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.\n| io | tu | lui / lei | noi | voi | loro |\n| ho | hai | ha | abbiamo | avete | hanno |\n\nDas Alter sagt man mit avere: _Quanti anni **hai**? – **Ho** quattordici anni._\n**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Beantworte die Fragen in ganzen Sätzen.",
+   "explanation": "Auf hai antwortet man mit ho, auf avete mit abbiamo.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Quanti anni hai? (13) – …",
+     "acceptedAnswers": [
+      "Ho tredici anni"
+     ],
+     "modelAnswer": "Ho tredici anni."
+    },
+    {
+     "id": "s2",
+     "start": "Hai fratelli? (sì, un fratello) – …",
+     "acceptedAnswers": [
+      "Sì, ho un fratello"
+     ],
+     "modelAnswer": "Sì, ho un fratello."
+    },
+    {
+     "id": "s3",
+     "start": "Avete un animale? (sì, un gatto) – …",
+     "acceptedAnswers": [
+      "abbiamo un gatto"
+     ],
+     "modelAnswer": "Sì, abbiamo un gatto."
+    },
+    {
+     "id": "s4",
+     "start": "Quanti anni ha tua sorella? (8) – …",
+     "acceptedAnswers": [
+      "ha otto anni"
+     ],
+     "modelAnswer": "Mia sorella ha otto anni."
+    },
+    {
+     "id": "s5",
+     "start": "I tuoi nonni hanno una casa? (sì, al mare) – …",
+     "acceptedAnswers": [
+      "hanno una casa"
+     ],
+     "modelAnswer": "Sì, hanno una casa al mare."
+    }
+   ]
+  }
+ ]
+}

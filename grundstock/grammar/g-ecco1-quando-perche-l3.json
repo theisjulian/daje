@@ -1,0 +1,102 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quando-perche-l3",
+ "title": "Perché?",
+ "language": "it",
+ "level": "A1",
+ "description": "Nebensätze mit quando und perché · Perché? (einfach).",
+ "topics": [
+  "Nebensätze mit quando und perché",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 5,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quando-perche",
+  "topicTitle": "Nebensätze mit quando und perché",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 13,
+  "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Welche Antwort passt?",
+   "explanation": "Nach perché bleibt die normale Wortstellung: perché ho un bel voto (nicht: perché un bel voto ho).",
+   "type": "gap_choice",
+   "text": "Perché resti a casa? – [[g1]]\nPerché studi tanto? – [[g2]]\nPerché vai in montagna? – [[g3]]\nPerché non vieni? – [[g4]]\nPerché sei contento? – [[g5]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Perché sono malato.",
+      "Quando sono malato.",
+      "Perché resto a casa."
+     ],
+     "answer": "Perché sono malato."
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Perché domani ho un test.",
+      "Quando domani ho un test.",
+      "Perché studio."
+     ],
+     "answer": "Perché domani ho un test."
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Perché mi piace sciare.",
+      "Quando mi piace sciare.",
+      "Perché sciare mi piace."
+     ],
+     "answer": "Perché mi piace sciare."
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Perché devo aiutare la mamma.",
+      "Perché la mamma aiutare devo.",
+      "Quando devo aiutare."
+     ],
+     "answer": "Perché devo aiutare la mamma."
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Perché ho un bel voto.",
+      "Perché un bel voto ho.",
+      "Quando ho un bel voto."
+     ],
+     "answer": "Perché ho un bel voto."
+    }
+   ]
+  }
+ ]
+}

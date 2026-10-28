@@ -1,0 +1,88 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quantita-l2",
+ "title": "Viel oder wenig?",
+ "language": "it",
+ "level": "A1",
+ "description": "Mengenangaben: molto, poco, tanto, troppo · Viel oder wenig? (einfach).",
+ "topics": [
+  "Mengenangaben: molto, poco, tanto, troppo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quantita",
+  "topicTitle": "Mengenangaben: molto, poco, tanto, troppo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 62,
+  "rule": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Als Begleiter** (vor einem Nomen) passen sie sich an:\n| | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C'è **troppa** gente._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Was bedeutet das?",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "molti amici",
+     "right": "viele Freunde"
+    },
+    {
+     "id": "p2",
+     "left": "poca acqua",
+     "right": "wenig Wasser"
+    },
+    {
+     "id": "p3",
+     "left": "troppi compiti",
+     "right": "zu viele Hausaufgaben"
+    },
+    {
+     "id": "p4",
+     "left": "tante persone",
+     "right": "viele Leute"
+    },
+    {
+     "id": "p5",
+     "left": "poco tempo",
+     "right": "wenig Zeit"
+    },
+    {
+     "id": "p6",
+     "left": "molto bello",
+     "right": "sehr schön"
+    }
+   ],
+   "distractors": [
+    "zu wenig Zeit"
+   ]
+  }
+ ]
+}

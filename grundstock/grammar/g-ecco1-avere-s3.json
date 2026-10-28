@@ -1,0 +1,137 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-avere-s3",
+ "title": "avere oder essere?",
+ "language": "it",
+ "level": "A1",
+ "description": "Das Verb avere · avere oder essere? (schwer).",
+ "topics": [
+  "Das Verb avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-avere",
+  "topicTitle": "Das Verb avere",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 13,
+  "rule": "**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.\n| io | tu | lui / lei | noi | voi | loro |\n| ho | hai | ha | abbiamo | avete | hanno |\n\nDas Alter sagt man mit avere: _Quanti anni **hai**? – **Ho** quattordici anni._\n**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle avere oder essere in der richtigen Form.",
+   "explanation": "Alter: avere (ho 14 anni) – anders als im Deutschen „ich bin 14“.",
+   "type": "gap_choice",
+   "text": "Io [[g1]] quattordici anni e [[g2]] di Torino.\nMio fratello [[g3]] simpatico e [[g4]] un cane.\nNoi [[g5]] in classe 3A e [[g6]] una professoressa nuova.\nI miei nonni [[g7]] ottant'anni, ma [[g8]] molto attivi.\nTu [[g9]] un fratello? [[g10]] figlio unico?",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "ho",
+      "sono"
+     ],
+     "answer": "ho"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "sono",
+      "ho"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "è",
+      "ha"
+     ],
+     "answer": "è"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "ha",
+      "è"
+     ],
+     "answer": "ha"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "siamo",
+      "abbiamo"
+     ],
+     "answer": "siamo"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "abbiamo",
+      "siamo"
+     ],
+     "answer": "abbiamo"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "hanno",
+      "sono"
+     ],
+     "answer": "hanno"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "sono",
+      "hanno"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "hai",
+      "sei"
+     ],
+     "answer": "hai"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "Sei",
+      "Hai"
+     ],
+     "answer": "Sei"
+    }
+   ]
+  }
+ ]
+}

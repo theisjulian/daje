@@ -1,0 +1,104 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-dare-dire-indiretto-s3",
+ "title": "Ein Streit",
+ "language": "it",
+ "level": "A1",
+ "description": "dare, dire und das indirekte Objekt · Ein Streit (schwer).",
+ "topics": [
+  "dare, dire und das indirekte Objekt",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-dare-dire-indiretto",
+  "topicTitle": "dare, dire und das indirekte Objekt",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 43,
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze dare / dire und die Pronomen.",
+   "type": "gap_fill",
+   "text": "Luca: Sara, che cosa mi (dire, tu) [[g1]]?\nSara: Ti (dire, io) [[g2]] la verità: non mi (dare, tu) [[g3]] mai i tuoi appunti!\nLuca: Ma io [[g4]] do sempre tutto!\nSara: Non è vero! E Marco è arrabbiato: non [[g5]] dai mai niente.\nLuca: Va bene, scusa. Oggi (dare, io) [[g6]] i miei appunti a te e anche a Marco.\nSara: Grazie! Allora noi [[g7]] (dare, noi) [[g8]] un gelato!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "dici"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "dico"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "dai"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ti"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "do"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ti"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "diamo"
+     ]
+    }
+   ]
+  }
+ ]
+}

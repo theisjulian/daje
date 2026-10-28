@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-plurale-s3",
+ "title": "Unser Viertel",
+ "language": "it",
+ "level": "A1",
+ "description": "Der Plural: Artikel und Nomen · Unser Viertel (schwer).",
+ "topics": [
+  "Der Plural: Artikel und Nomen",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-plurale",
+  "topicTitle": "Der Plural: Artikel und Nomen",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 83,
+  "rule": "**Nomen:**\n| Singular | Plural | Beispiel |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù (betont) | bleibt | la città → le città |\n\n**Artikel:**\n| Singular | Plural |\n| il | i |\n| lo, l' (männlich) | gli |\n| la, l' (weiblich) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Schreibe die Nomen in Klammern im Plural mit Artikel.",
+   "explanation": "il bar → i bar (Fremdwort) · la città → le città (betonte Endung).",
+   "type": "gap_fill",
+   "text": "Nel mio quartiere ci sono (il negozio) [[g1]] e (il bar) [[g2]].\n(Lo studente) [[g3]] prendono l'autobus.\nVicino al parco ci sono (la casa) [[g4]] dei miei amici.\n(L'albero) [[g5]] in piazza sono molto vecchi.\n(La città) [[g6]] italiane sono belle.\n(L'amica) [[g7]] di mia sorella sono qui.\n(Il ponte) [[g8]] sul Po sono famosi.\n(Lo zaino) [[g9]] sono pesanti!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "i negozi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "i bar"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Gli studenti"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "le case"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Gli alberi"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Le città"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Le amiche"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "I ponti"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Gli zaini"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-che-relativo-m3",
+ "title": "Wer ist wer?",
+ "language": "it",
+ "level": "A1",
+ "description": "Das Relativpronomen che · Wer ist wer? (mittel).",
+ "topics": [
+  "Das Relativpronomen che",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-che-relativo",
+  "topicTitle": "Das Relativpronomen che",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 33,
+  "rule": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):\n- _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** bleibt immer gleich (für Personen und Sachen, Singular und Plural)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze die Beschreibung.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Il nonno è la persona",
+     "right": "che racconta le storie più belle."
+    },
+    {
+     "id": "p2",
+     "left": "Il cuoco è la persona",
+     "right": "che cucina al ristorante."
+    },
+    {
+     "id": "p3",
+     "left": "L'insegnante è la persona",
+     "right": "che spiega la lezione."
+    },
+    {
+     "id": "p4",
+     "left": "Il medico è la persona",
+     "right": "che lavora in ospedale."
+    },
+    {
+     "id": "p5",
+     "left": "Il postino è la persona",
+     "right": "che porta le lettere."
+    }
+   ],
+   "distractors": [
+    "che va a scuola."
+   ]
+  }
+ ]
+}

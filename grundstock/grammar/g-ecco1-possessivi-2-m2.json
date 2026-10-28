@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-possessivi-2-m2",
+ "title": "Mit oder ohne Artikel?",
+ "language": "it",
+ "level": "A1",
+ "description": "Possessivbegleiter bei Verwandten · Mit oder ohne Artikel? (mittel).",
+ "topics": [
+  "Possessivbegleiter bei Verwandten",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-possessivi-2",
+  "topicTitle": "Possessivbegleiter bei Verwandten",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 22,
+  "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle die richtige Form.",
+   "explanation": "Koseform (mamma, papà) und Adjektiv (sorella piccola) → mit Artikel.",
+   "type": "gap_choice",
+   "text": "[[g1]] fratello ha sedici anni.\n[[g2]] fratelli sono più grandi di me.\n[[g3]] mamma è di Bologna.\n[[g4]] zia è simpatica.\n[[g5]] cugine abitano a Napoli.\n[[g6]] figlio si chiama Matteo.\n[[g7]] nonno racconta sempre storie.\n[[g8]] sorella piccola va all'asilo.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Mio",
+      "Il mio"
+     ],
+     "answer": "Mio"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "I miei",
+      "Miei"
+     ],
+     "answer": "I miei"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "La mia",
+      "Mia"
+     ],
+     "answer": "La mia"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Tua",
+      "La tua"
+     ],
+     "answer": "Tua"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Le sue",
+      "Sue"
+     ],
+     "answer": "Le sue"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Il loro",
+      "Loro"
+     ],
+     "answer": "Il loro"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "Nostro",
+      "Il nostro"
+     ],
+     "answer": "Nostro"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "La mia",
+      "Mia"
+     ],
+     "answer": "La mia"
+    }
+   ]
+  }
+ ]
+}

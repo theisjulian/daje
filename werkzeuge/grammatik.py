@@ -5,6 +5,7 @@ grundstock/grammar/ umwandeln. Aufruf:  python3 werkzeuge/grammatik.py [datei.tx
 Format (eine Datei je Unità, mehrere Themen):
   #!buch series=Ecco_più volume=1 grade=8 cefr=A1 prefix=ecco1 publisher=Cornelsen
   @thema <id> | <Unità 1> | <Abschnitt, z. B. 1A> | <Titel> | <Reihenfolge>
+  @mehr <id>        weitere Übungen zu einem Thema weiter oben anhängen (IDs der vorhandenen bleiben gleich)
   #regel            danach Merkkasten (Absätze, „- “-Listen, „| a | b |“-Tabellen, **fett**) bis zur nächsten #/%-Zeile
   #einstieg         danach „- “-Zeilen (Impulse zum Einstieg, für Lehrkräfte und Lernende)
   %übung <leicht|mittel|schwer> | <Titel>
@@ -185,6 +186,13 @@ def parse(path):
             tid, unit, sect, title, order = [x.strip() for x in line[6:].split('|')]
             cur = {'id': tid, 'unit': unit, 'section': sect, 'title': title, 'order': int(order), 'rule': [], 'warmup': [], 'ex': []}
             topics.append(cur)
+            mode, ex, q = None, None, None
+            continue
+        if line.startswith('@mehr'):
+            tid = line[5:].strip()
+            cur = next((t for t in topics if t['id'] == tid), None)
+            if cur is None:
+                raise ValueError(f'{path.name}: @mehr {tid}: Thema nicht gefunden')
             mode, ex, q = None, None, None
             continue
         if line.startswith('#regel'):

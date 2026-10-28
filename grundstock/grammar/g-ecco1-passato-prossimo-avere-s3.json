@@ -1,0 +1,98 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-prossimo-avere-s3",
+ "title": "Fehler im Bericht",
+ "language": "it",
+ "level": "A1",
+ "description": "Das passato prossimo mit avere · Fehler im Bericht (schwer).",
+ "topics": [
+  "Das passato prossimo mit avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-avere",
+  "topicTitle": "Das passato prossimo mit avere",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 33,
+  "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Korrigiere die sechs Fehler.",
+   "type": "error_correction",
+   "text": "Ieri io [[g1]] tanto.\nMarta [[g2]] un libro.\nNoi [[g3]] poco.\nI ragazzi [[g4]] le magliette.\nVoi [[g5]] bene.\nTu [[g6]] la radio?",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "ho studiata",
+     "acceptedAnswers": [
+      "ho studiato"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "è comprato",
+     "acceptedAnswers": [
+      "ha comprato"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "abbiamo dormuto",
+     "acceptedAnswers": [
+      "abbiamo dormito"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "hanno vendito",
+     "acceptedAnswers": [
+      "hanno venduto"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "avete giocati",
+     "acceptedAnswers": [
+      "avete giocato"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "ha ascoltato",
+     "acceptedAnswers": [
+      "hai ascoltato"
+     ]
+    }
+   ]
+  }
+ ]
+}

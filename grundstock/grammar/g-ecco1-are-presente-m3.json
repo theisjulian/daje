@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-are-presente-m3",
+ "title": "Un'email di Giulia",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -are im Präsens · Un'email di Giulia (mittel).",
+ "topics": [
+  "Verben auf -are im Präsens",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-are-presente",
+  "topicTitle": "Verben auf -are im Präsens",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 23,
+  "rule": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an:\n\n| Person | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** Bei _loro_ liegt die Betonung vorn: **a**bitano, **par**lano."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Setze die Verben in der richtigen Form ein.",
+   "explanation": "giocare → giochiamo (h bleibt beim harten Laut) · studiare → studiamo (nur ein i).",
+   "type": "gap_fill",
+   "text": "Ciao Tim!\nIo (abitare) [[g1]] a Torino con la mia famiglia.\nMio padre (lavorare) [[g2]] in un museo, mia madre (insegnare) [[g3]] inglese.\nIl pomeriggio io e mia sorella (studiare) [[g4]] insieme.\nPoi (giocare) [[g5]] a pallavolo nel parco.\nE tu? Dove (abitare) [[g6]]? Che lingue (parlare) [[g7]]?\nI miei amici (parlare) [[g8]] anche un po' di tedesco.\n(Aspettare) [[g9]] la tua risposta!\nGiulia",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "abito"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "lavora"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "insegna"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "studiamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "giochiamo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "abiti"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "parli"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "parlano"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Aspetto"
+     ]
+    }
+   ]
+  }
+ ]
+}

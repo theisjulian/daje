@@ -1,0 +1,152 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-artikel-sg-l3",
+ "title": "Ein Spaziergang durch Torino",
+ "language": "it",
+ "level": "A1",
+ "description": "Der bestimmte Artikel im Singular · Ein Spaziergang durch Torino (einfach).",
+ "topics": [
+  "Der bestimmte Artikel im Singular",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-artikel-sg",
+  "topicTitle": "Der bestimmte Artikel im Singular",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 13,
+  "rule": "Im Italienischen hat jedes Nomen ein Geschlecht: **männlich** (meist auf -o) oder **weiblich** (meist auf -a). Nomen auf -e können beides sein.\n\n| Artikel | wann? | Beispiel |\n| il | männlich, vor Konsonant | il fiume, il ponte |\n| lo | männlich, vor s + Konsonant, z, ps, gn, y | lo stadio, lo zaino |\n| la | weiblich, vor Konsonant | la piazza, la città |\n| l' | männlich und weiblich vor Vokal | l'amico, l'industria |\n\n**Tipp:** Lerne jedes Nomen mit Artikel: _la città_, _il parco_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle den richtigen bestimmten Artikel.",
+   "explanation": "il vor Konsonant (il museo, il bar) · lo vor s + Konsonant und z (lo studente, lo zaino) · la bei weiblichen Wörtern · l' vor Vokal (l'albero, l'ospedale).",
+   "type": "gap_choice",
+   "text": "Ecco [[g1]] stazione Porta Nuova.\nQui c'è [[g2]] museo del cinema.\n[[g3]] studente abita in centro.\n[[g4]] albero in piazza è molto vecchio.\n[[g5]] bar in via Po è famoso.\n[[g6]] chiesa è vicino al fiume.\n[[g7]] zaino di Marco è nero.\n[[g8]] ospedale è grande.\n[[g9]] negozio di bici è in via Roma.\n[[g10]] scuola di Giulia è un liceo.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "la",
+      "il",
+      "lo"
+     ],
+     "answer": "la"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "il",
+      "lo",
+      "la"
+     ],
+     "answer": "il"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Lo",
+      "Il",
+      "L'"
+     ],
+     "answer": "Lo"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "L'",
+      "Il",
+      "La"
+     ],
+     "answer": "L'"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Il",
+      "Lo",
+      "La"
+     ],
+     "answer": "Il"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "La",
+      "L'",
+      "Il"
+     ],
+     "answer": "La"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "Lo",
+      "Il",
+      "La"
+     ],
+     "answer": "Lo"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "L'",
+      "La",
+      "Lo"
+     ],
+     "answer": "L'"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "Il",
+      "La",
+      "Lo"
+     ],
+     "answer": "Il"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "La",
+      "Il",
+      "L'"
+     ],
+     "answer": "La"
+    }
+   ]
+  }
+ ],
+ "teacherNotes": {
+  "warmup": [
+   "Welche Wörter aus Torino kennst du schon? Sammelt sie mit Artikel an der Tafel."
+  ]
+ }
+}

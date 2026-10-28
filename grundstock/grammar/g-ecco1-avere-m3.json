@@ -1,0 +1,116 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-avere-m3",
+ "title": "Una chat",
+ "language": "it",
+ "level": "A1",
+ "description": "Das Verb avere · Una chat (mittel).",
+ "topics": [
+  "Das Verb avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-avere",
+  "topicTitle": "Das Verb avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 13,
+  "rule": "**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.\n| io | tu | lui / lei | noi | voi | loro |\n| ho | hai | ha | abbiamo | avete | hanno |\n\nDas Alter sagt man mit avere: _Quanti anni **hai**? – **Ho** quattordici anni._\n**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze die Chat-Nachrichten mit den Formen von avere.",
+   "explanation": "Achtung, Ablenker: anno (Jahr) und a (nach, in) haben kein h.",
+   "type": "gap_fill",
+   "text": "Sara: Ciao! Quanti anni [[g1]]?\nTim: [[g2]] quattordici anni. E tu?\nSara: Io [[g3]] tredici anni. [[g4]] fratelli?\nTim: Sì, un fratello. Lui [[g5]] diciotto anni e [[g6]] la patente.\nSara: Che bello! Noi non [[g7]] la macchina.\nTim: I miei genitori [[g8]] una bici elettrica. E voi [[g9]] animali?",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "hai"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Ho"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ho"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Hai"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "ha"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ha"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "abbiamo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "hanno"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "avete"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "extraWords": [
+    "anno",
+    "a"
+   ]
+  }
+ ]
+}

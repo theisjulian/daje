@@ -240,3 +240,310 @@ ancora
 fatto
 i
 compiti
+
+## ───────── Ausbau: weitere, längere Übungen je Thema ─────────
+
+@mehr quando-perche
+
+%übung leicht | Quando …
+?zuordnen | Verbinde die Satzhälften.
+Quando piove, = guardo un film a casa.
+Quando fa caldo, = vado in piscina.
+Quando ho fame, = mangio un panino.
+Quando nevica, = facciamo un pupazzo di neve.
+Quando sono triste, = telefono alla mia migliore amica.
+Quando ho tempo libero, = leggo fumetti.
++ perché mi piace.
+
+%übung leicht | Perché?
+?auswahl | Welche Antwort passt?
+Perché resti a casa? – {Perché sono malato.*|Quando sono malato.|Perché resto a casa.}
+Perché studi tanto? – {Perché domani ho un test.*|Quando domani ho un test.|Perché studio.}
+Perché vai in montagna? – {Perché mi piace sciare.*|Quando mi piace sciare.|Perché sciare mi piace.}
+Perché non vieni? – {Perché devo aiutare la mamma.*|Perché la mamma aiutare devo.|Quando devo aiutare.}
+Perché sei contento? – {Perché ho un bel voto.*|Perché un bel voto ho.|Quando ho un bel voto.}
+! Nach perché bleibt die normale Wortstellung: perché ho un bel voto (nicht: perché un bel voto ho).
+
+%übung mittel | Il mio tempo libero
+?luecke wortkasten | Ergänze quando oder perché.
+[Quando] ho tempo libero, vado in skatepark con i miei amici.
+Mi piace lo skateboard [perché] è uno sport veloce.
+[Quando] piove, invece, gioco ai videogiochi.
+Non vado in piscina [perché] non so nuotare bene.
+Il sabato sera esco [quando] i miei genitori dicono di sì.
+Studio la chitarra [perché] voglio suonare in una band.
++ ma, e
+
+%übung mittel | Sätze verbinden
+?ergaenzen | Verbinde die beiden Sätze mit perché.
+Resto a casa. Sono stanco. → Resto a casa … | perché sono stanco | Resto a casa perché sono stanco.
+Vado a letto presto. Domani ho scuola. → Vado a letto presto … | perché domani ho scuola | Vado a letto presto perché domani ho scuola.
+Mangio una pizza. Ho fame. → Mangio una pizza … | perché ho fame | Mangio una pizza perché ho fame.
+Non esco. Piove. → Non esco … | perché piove | Non esco perché piove.
+Studio l'italiano. Mi piace l'Italia. → Studio l'italiano … | perché mi piace l'Italia | Studio l'italiano perché mi piace l'Italia.
+
+%übung schwer | Wortstellung im Nebensatz
+?ordnen | Bringe die Wörter in die richtige Reihenfolge: „Ich gehe nicht ins Kino, weil ich keine Zeit habe.“
+Non
+vado
+al
+cinema
+perché
+non
+ho
+tempo
+?ordnen | Bringe die Wörter in die richtige Reihenfolge: „Wenn es schneit, fahren wir in die Berge.“
+Quando
+nevica,
+andiamo
+in
+montagna
+
+%übung schwer | Fehler finden
+?fehler | Korrigiere die fünf Fehler.
+Vado al mare [quando=>perché] mi piace nuotare. (weil)
+[Perché=>Quando] fa freddo, resto a casa. (wenn)
+Non vengo perché [studiare devo=>devo studiare].
+Perché studi? – [Quando=>Perché] voglio diventare medico.
+Mi piace l'estate [quando=>perché] non c'è scuola. (weil)
+
+@mehr modali
+
+%übung leicht | Formen sortieren
+?sortieren | Zu welchem Verb gehört die Form?
+Kategorien: vo=volere; po=potere; do=dovere
+voglio > vo
+vuoi > vo
+vogliono > vo
+posso > po
+può > po
+possiamo > po
+devo > do
+deve > do
+dobbiamo > do
+
+%übung leicht | Was möchtest du?
+?auswahl | Wähle die richtige Form.
+Io {voglio*|vuoi|vuole} un gelato al cioccolato.
+Tu {vuoi*|voglio|vuole} venire al cinema?
+Mia sorella {vuole*|voglio|vogliono} un cane.
+Noi {vogliamo*|volete|vogliono} andare al mare.
+Voi {volete*|vogliamo|vuoi} giocare con noi?
+I miei amici {vogliono*|vuole|volete} fare una festa.
+Scusi, {posso*|può|puoi} entrare?
+Mamma, {posso*|può|possono} uscire stasera?
+
+%übung mittel | Ein Wochenendplan
+?luecke | Ergänze die Modalverben in der richtigen Form.
+– Marco, sabato (volere, tu) [vuoi] venire in piscina?
+– Mi dispiace, non (potere, io) [posso]. (dovere, io) [Devo] studiare per il test di storia.
+– E domenica? (potere, tu) [Puoi] venire?
+– Sì, domenica (potere, io) [posso]. Anche Luca (volere) [vuole] venire.
+– Benissimo! Allora (dovere, noi) [dobbiamo] comprare i biglietti.
+– Ma Luca non (sapere) [sa] nuotare!
+– Non importa, (potere, lui) [può] restare al bar.
+! Nach volere, potere, dovere, sapere folgt der Infinitiv: devo studiare, sa nuotare.
+
+%übung mittel | venire und sapere
+?tabelle | Ergänze die Formen.
+Spalten: Person | venire | sapere
+io | [vengo] | [so]
+tu | [vieni] | [sai]
+lui / lei | [viene] | [sa]
+noi | [veniamo] | [sappiamo]
+voi | [venite] | [sapete]
+loro | [vengono] | [sanno]
+
+%übung schwer | Was darf, kann, muss man?
+?ergaenzen | Bilde Sätze mit dem Modalverb (Präsens) und dem Infinitiv.
+(io / dovere / fare i compiti) | Devo fare i compiti | Devo fare i compiti.
+(tu / potere / venire alla festa?) | Puoi venire alla festa | Puoi venire alla festa?
+(noi / volere / andare in montagna) | Vogliamo andare in montagna | Vogliamo andare in montagna.
+(Sara / sapere / suonare la chitarra) | Sara sa suonare la chitarra | Sara sa suonare la chitarra.
+(voi / dovere / studiare) | Dovete studiare | Dovete studiare.
+(i ragazzi / non potere / uscire) | I ragazzi non possono uscire | I ragazzi non possono uscire.
+
+%übung schwer | Una chat di gruppo
+?luecke | Ergänze die Verben (volere, potere, dovere, sapere, venire).
+Chiara: Ragazzi, stasera (venire, voi) [venite] al concerto?
+Paolo: Io (volere) [voglio] venire, ma i miei genitori dicono che (dovere, io) [devo] tornare alle dieci.
+Sara: Io non (potere) [posso], ho la febbre.
+Luca: Io (venire) [vengo]! Ma non (sapere, io) [so] dov'è il concerto.
+Chiara: È in piazza Vittorio. Noi (potere) [possiamo] andare insieme in tram.
+Luca: Perfetto! (Volere, voi) [Volete] mangiare una pizza prima?
+
+@mehr passato-prossimo-avere
+
+%übung leicht | Partizipien bilden
+?tabelle | Bilde das Partizip.
+Spalten: Infinitiv | Partizip
+parlare | [parlato]
+mangiare | [mangiato]
+ascoltare | [ascoltato]
+avere | [avuto]
+vendere | [venduto]
+ricevere | [ricevuto]
+dormire | [dormito]
+finire | [finito]
+! -are → -ato, -ere → -uto, -ire → -ito.
+
+%übung leicht | Gestern
+?auswahl | Wähle die richtige Form.
+Ieri io {ho studiato*|ho studiata|sono studiato} per il test.
+Tu {hai ascoltato*|hai ascoltata|ha ascoltato} la nuova canzone?
+Sara {ha comprato*|ha comprata|è comprato} una maglietta.
+Noi {abbiamo mangiato*|avete mangiato|abbiamo mangiati} un gelato.
+Voi {avete dormito*|avete dormiti|abbiamo dormito} bene?
+I ragazzi {hanno giocato*|hanno giocati|ha giocato} a basket.
+Io {ho finito*|ho finita|ho finisco} i compiti alle sei.
+Mio padre {ha lavorato*|è lavorato|ha lavorata} tutto il giorno.
+! Mit avere bleibt das Partizip auf -o: Sara ha comprato.
+
+%übung mittel | Il diario di Giulia
+?luecke | Setze die Verben ins passato prossimo.
+Caro diario, oggi (avere) [ho avuto] una giornata fantastica!
+La mattina (ricevere) [ho ricevuto] un bel voto in matematica.
+A pranzo mia madre (cucinare) [ha cucinato] le lasagne.
+Nel pomeriggio io e Marta (giocare) [abbiamo giocato] a tennis.
+Poi (ascoltare, noi) [abbiamo ascoltato] musica nella mia camera.
+I miei fratelli (guardare) [hanno guardato] la partita.
+La sera (telefonare, io) [ho telefonato] alla nonna.
+! avere → avuto, ricevere → ricevuto.
+
+%übung mittel | Was hast du gestern gemacht?
+?ergaenzen | Antworte im passato prossimo.
+Hai studiato? (sì) – … | ho studiato | Sì, ho studiato.
+Avete mangiato? (sì, una pizza) – … | abbiamo mangiato | Sì, abbiamo mangiato una pizza.
+Ha telefonato Luca? (no) – … | non ha telefonato | No, Luca non ha telefonato.
+Hanno giocato a calcio? (sì) – … | hanno giocato | Sì, hanno giocato a calcio.
+Hai dormito bene? (no) – … | non ho dormito bene | No, non ho dormito bene.
+! non steht vor dem Hilfsverb: non ho dormito.
+
+%übung schwer | Präsens oder passato prossimo?
+?luecke | Setze die Verben im Präsens oder im passato prossimo ein. Achte auf die Zeitangaben.
+Di solito il sabato io (giocare) [gioco] a calcio.
+Ma sabato scorso (giocare) [ho giocato] a tennis.
+Ogni giorno mia sorella (ascoltare) [ascolta] la radio.
+Ieri però (ascoltare) [ha ascoltato] un podcast.
+Adesso noi (mangiare) [mangiamo] in cucina.
+Ieri sera (mangiare, noi) [abbiamo mangiato] in pizzeria.
+L'anno scorso voi (studiare) [avete studiato] il francese?
+! di solito, ogni giorno, adesso → Präsens · ieri, sabato scorso, l'anno scorso → passato prossimo.
+
+%übung schwer | Fehler im Bericht
+?fehler | Korrigiere die sechs Fehler.
+Ieri io [ho studiata=>ho studiato] tanto.
+Marta [è comprato=>ha comprato] un libro.
+Noi [abbiamo dormuto=>abbiamo dormito] poco.
+I ragazzi [hanno vendito=>hanno venduto] le magliette.
+Voi [avete giocati=>avete giocato] bene.
+Tu [ha ascoltato=>hai ascoltato] la radio?
+
+@mehr passato-prossimo-essere
+
+%übung leicht | Hilfsverb essere
+?auswahl | Wähle die richtige Form von essere.
+Io {sono*|è|siamo} andato al cinema.
+Tu {sei*|è|siete} uscita con Marta?
+Luca {è*|sono|sei} partito alle otto.
+Noi {siamo*|siete|sono} tornati tardi.
+Voi {siete*|siamo|sono} arrivate in tempo?
+Le ragazze {sono*|è|siamo} rimaste a casa.
+Mia madre {è*|ha|sono} stata in Italia.
+I miei nonni {sono*|hanno|siamo} venuti a trovarci.
+
+%übung leicht | Unregelmäßige Partizipien
+?zuordnen | Ordne das Partizip zu.
+leggere = letto
+venire = venuto
+essere = stato
+decidere = deciso
+vincere = vinto
+ridere = riso
++ leggiuto
++ venito
+
+%übung mittel | -o, -a, -i oder -e?
+?luecke | Ergänze die Endung des Partizips.
+Marta è andat[a] in piscina.
+Paolo è tornat[o] alle sette.
+Io (Sara) sono uscit[a] con le amiche.
+Le mie amiche sono arrivat[e] tardi.
+Noi (Luca e Marco) siamo partit[i] presto.
+Voi (Anna e Chiara) siete stat[e] a Roma?
+I bambini sono cadut[i] dalla bici.
+Tu (Giulia) sei rimast[a] a casa?
+! Partizip mit essere = Endung wie bei einem Adjektiv: -o, -a, -i, -e.
+
+%übung mittel | Una gita a Milano
+?luecke | Setze die Verben ins passato prossimo (essere oder avere).
+Domenica io e mia sorella (andare) [siamo andate] a Milano.
+(Prendere, noi) [Abbiamo preso] il treno alle otto.
+(Arrivare, noi) [Siamo arrivate] alle nove e mezza.
+Prima (vedere, noi) [abbiamo visto] il Duomo.
+Poi (fare, noi) [abbiamo fatto] shopping in Galleria.
+Mia sorella (perdere) [ha perso] il biglietto del treno!
+Per fortuna (rimanere, noi) [siamo rimaste] calme.
+La sera (tornare, noi) [siamo tornate] a casa stanche ma felici.
+! io e mia sorella = noi (weiblich) → siamo andate, siamo arrivate.
+
+%übung schwer | avere oder essere?
+?auswahl | Wähle das richtige Hilfsverb und die richtige Endung.
+Ieri Giulia {è uscita*|ha uscito|è uscito} con le amiche.
+Noi {abbiamo fatto*|siamo fatti|abbiamo fatti} una passeggiata.
+I ragazzi {sono venuti*|hanno venuto|sono venute} alla festa.
+Marco {ha letto*|è letto|ha leggiuto} un libro.
+Le mie cugine {sono partite*|hanno partito|sono partiti} per Napoli.
+Io (Marta) {sono stata*|ho stato|sono stato} malata.
+Voi {avete vinto*|siete vinti|avete vincito} la partita?
+Tu (Luca) {sei caduto*|hai caduto|sei caduta} dalla bici?
+
+%übung schwer | Ein Tag in den Bergen
+?luecke | Erzähle im passato prossimo (essere oder avere, unregelmäßige Partizipien beachten).
+Sabato scorso (io, Luca) (andare) [sono andato] in montagna con la classe.
+(Partire, noi) [Siamo partiti] alle sette con il pullman.
+Sulla neve (fare, noi) [abbiamo fatto] una gara di slittino.
+Marco (vincere) [ha vinto] e Sara (ridere) [ha riso] tanto.
+Io (cadere) [sono caduto] due volte!
+A pranzo (prendere, noi) [abbiamo preso] una cioccolata calda.
+Il prof (scrivere) [ha scritto] una cartolina alla preside.
+La sera (essere, noi) [siamo stati] molto stanchi.
+! essere → stato, vincere → vinto, ridere → riso, scrivere → scritto, prendere → preso.
+
+@mehr gia-ancora
+
+%übung leicht | Schon oder noch nicht?
+?zuordnen | Was bedeutet das?
+Ho già mangiato. = Ich habe schon gegessen.
+Non ho ancora mangiato. = Ich habe noch nicht gegessen.
+Sei già arrivato? = Bist du schon angekommen?
+Non sono ancora partita. = Ich bin noch nicht abgefahren.
+Abbiamo già finito. = Wir sind schon fertig.
++ Ich esse noch.
+
+%übung mittel | Prima della festa
+?auswahl | Wähle già oder ancora.
+Abbiamo {già*|ancora} comprato le bibite. ✓
+Non abbiamo {ancora*|già} preparato la torta. ✗
+Luca ha {già*|ancora} mandato gli inviti. ✓
+Sara non è {ancora*|già} arrivata. ✗
+Ho {già*|ancora} messo la musica. ✓
+I ragazzi non hanno {ancora*|già} pulito la cucina. ✗
+! ✓ = già · ✗ = non … ancora.
+
+%übung mittel | Antworte
+?ergaenzen | Antworte mit già (sì) oder non … ancora (no).
+Hai fatto i compiti? (sì) – Sì, … | ho già fatto i compiti | Sì, ho già fatto i compiti.
+Hai visto il film? (no) – No, … | non ho ancora visto il film | No, non ho ancora visto il film.
+Marco è tornato? (sì) – Sì, … | è già tornato | Sì, Marco è già tornato.
+Avete mangiato? (no) – No, … | non abbiamo ancora mangiato | No, non abbiamo ancora mangiato.
+Le ragazze sono partite? (sì) – Sì, … | sono già partite | Sì, sono già partite.
+! già und ancora stehen zwischen Hilfsverb und Partizip.
+
+%übung schwer | Fehler finden
+?fehler | Korrigiere die Wortstellung bzw. das falsche Wort.
+Ho [visto già=>già visto] il film.
+[Ancora=>Non] ho ancora finito.
+Non sono [già=>ancora] partito, parto domani.
+Hai [mangiato già=>già mangiato]?
+Siamo [ancora=>già] arrivati, eccoci qui!

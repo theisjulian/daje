@@ -1,0 +1,128 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-prossimo-essere-s3",
+ "title": "avere oder essere?",
+ "language": "it",
+ "level": "A1",
+ "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · avere oder essere? (schwer).",
+ "topics": [
+  "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-essere",
+  "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 43,
+  "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle das richtige Hilfsverb und die richtige Endung.",
+   "type": "gap_choice",
+   "text": "Ieri Giulia [[g1]] con le amiche.\nNoi [[g2]] una passeggiata.\nI ragazzi [[g3]] alla festa.\nMarco [[g4]] un libro.\nLe mie cugine [[g5]] per Napoli.\nIo (Marta) [[g6]] malata.\nVoi [[g7]] la partita?\nTu (Luca) [[g8]] dalla bici?",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "è uscita",
+      "ha uscito",
+      "è uscito"
+     ],
+     "answer": "è uscita"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "abbiamo fatto",
+      "siamo fatti",
+      "abbiamo fatti"
+     ],
+     "answer": "abbiamo fatto"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "sono venuti",
+      "hanno venuto",
+      "sono venute"
+     ],
+     "answer": "sono venuti"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "ha letto",
+      "è letto",
+      "ha leggiuto"
+     ],
+     "answer": "ha letto"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "sono partite",
+      "hanno partito",
+      "sono partiti"
+     ],
+     "answer": "sono partite"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "sono stata",
+      "ho stato",
+      "sono stato"
+     ],
+     "answer": "sono stata"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "avete vinto",
+      "siete vinti",
+      "avete vincito"
+     ],
+     "answer": "avete vinto"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "sei caduto",
+      "hai caduto",
+      "sei caduta"
+     ],
+     "answer": "sei caduto"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-avere-l3",
+ "title": "Person und Form",
+ "language": "it",
+ "level": "A1",
+ "description": "Das Verb avere · Person und Form (einfach).",
+ "topics": [
+  "Das Verb avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-avere",
+  "topicTitle": "Das Verb avere",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 13,
+  "rule": "**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.\n| io | tu | lui / lei | noi | voi | loro |\n| ho | hai | ha | abbiamo | avete | hanno |\n\nDas Alter sagt man mit avere: _Quanti anni **hai**? – **Ho** quattordici anni._\n**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Was gehört zusammen?",
+   "explanation": "Achtung: anno (Jahr) und a (Präposition) sind keine Formen von avere.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "io",
+     "right": "ho"
+    },
+    {
+     "id": "p2",
+     "left": "tu",
+     "right": "hai"
+    },
+    {
+     "id": "p3",
+     "left": "lui / lei",
+     "right": "ha"
+    },
+    {
+     "id": "p4",
+     "left": "noi",
+     "right": "abbiamo"
+    },
+    {
+     "id": "p5",
+     "left": "voi",
+     "right": "avete"
+    },
+    {
+     "id": "p6",
+     "left": "loro",
+     "right": "hanno"
+    }
+   ],
+   "distractors": [
+    "anno",
+    "a"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-non-m2",
+ "title": "Nein, …",
+ "language": "it",
+ "level": "A1",
+ "description": "Die Verneinung mit non · Nein, … (mittel).",
+ "topics": [
+  "Die Verneinung mit non",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-non",
+  "topicTitle": "Die Verneinung mit non",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 62,
+  "rule": "**non** steht **vor dem Verb**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nAntwort auf eine Frage: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Antworte mit „No, non …“.",
+   "explanation": "Frage mit tu → Antwort mit io; Frage mit voi → Antwort mit noi.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Sei di Roma?",
+     "acceptedAnswers": [
+      "No, non sono di Roma."
+     ],
+     "modelAnswer": "No, non sono di Roma."
+    },
+    {
+     "id": "s2",
+     "start": "Parli spagnolo?",
+     "acceptedAnswers": [
+      "No, non parlo spagnolo."
+     ],
+     "modelAnswer": "No, non parlo spagnolo."
+    },
+    {
+     "id": "s3",
+     "start": "Abitate in centro?",
+     "acceptedAnswers": [
+      "No, non abitiamo in centro."
+     ],
+     "modelAnswer": "No, non abitiamo in centro."
+    },
+    {
+     "id": "s4",
+     "start": "Luca è a casa?",
+     "acceptedAnswers": [
+      "No, non è a casa."
+     ],
+     "modelAnswer": "No, Luca non è a casa."
+    },
+    {
+     "id": "s5",
+     "start": "Giochi a tennis?",
+     "acceptedAnswers": [
+      "No, non gioco a tennis."
+     ],
+     "modelAnswer": "No, non gioco a tennis."
+    },
+    {
+     "id": "s6",
+     "start": "Guardate la partita?",
+     "acceptedAnswers": [
+      "No, non guardiamo la partita."
+     ],
+     "modelAnswer": "No, non guardiamo la partita."
+    }
+   ]
+  }
+ ]
+}

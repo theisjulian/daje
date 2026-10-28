@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-modali-l2",
+ "title": "Formen sortieren",
+ "language": "it",
+ "level": "A1",
+ "description": "venire, sapere und die Modalverben · Formen sortieren (einfach).",
+ "topics": [
+  "venire, sapere und die Modalverben",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-modali",
+  "topicTitle": "venire, sapere und die Modalverben",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 22,
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Zu welchem Verb gehört die Form?",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "vo",
+     "label": "volere"
+    },
+    {
+     "id": "po",
+     "label": "potere"
+    },
+    {
+     "id": "do",
+     "label": "dovere"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "voglio",
+     "category": "vo"
+    },
+    {
+     "id": "i2",
+     "text": "vuoi",
+     "category": "vo"
+    },
+    {
+     "id": "i3",
+     "text": "vogliono",
+     "category": "vo"
+    },
+    {
+     "id": "i4",
+     "text": "posso",
+     "category": "po"
+    },
+    {
+     "id": "i5",
+     "text": "può",
+     "category": "po"
+    },
+    {
+     "id": "i6",
+     "text": "possiamo",
+     "category": "po"
+    },
+    {
+     "id": "i7",
+     "text": "devo",
+     "category": "do"
+    },
+    {
+     "id": "i8",
+     "text": "deve",
+     "category": "do"
+    },
+    {
+     "id": "i9",
+     "text": "dobbiamo",
+     "category": "do"
+    }
+   ]
+  }
+ ]
+}

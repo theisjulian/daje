@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-pp-modali-m2",
+ "title": "avere oder essere?",
+ "language": "it",
+ "level": "A1",
+ "description": "Das passato prossimo der Modalverben · avere oder essere? (mittel).",
+ "topics": [
+  "Das passato prossimo der Modalverben",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-pp-modali",
+  "topicTitle": "Das passato prossimo der Modalverben",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 42,
+  "rule": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nIm Alltag hört man auch: _Ho dovuto partire._ – In der Schule lernst du die Regel oben."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle das Hilfsverb und die passende Endung.",
+   "explanation": "andare, venire, restare, tornare → essere (Endung anpassen) · vedere, fare → avere.",
+   "type": "gap_choice",
+   "text": "Ieri Marta [[g1]] andare dal dentista.\nNoi [[g2]] vedere il museo.\nI miei cugini [[g3]] venire alla festa.\nTu [[g4]] fare i compiti?\nLe ragazze [[g5]] restare a casa.\nIo (Luca) [[g6]] tornare presto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "è dovuta",
+      "ha dovuta",
+      "è dovuto"
+     ],
+     "answer": "è dovuta"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "abbiamo voluto",
+      "siamo voluti",
+      "abbiamo voluti"
+     ],
+     "answer": "abbiamo voluto"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "sono potuti",
+      "hanno potuti",
+      "sono potute"
+     ],
+     "answer": "sono potuti"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "hai dovuto",
+      "sei dovuto",
+      "hai dovuta"
+     ],
+     "answer": "hai dovuto"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "sono volute",
+      "hanno volute",
+      "sono voluti"
+     ],
+     "answer": "sono volute"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "sono dovuto",
+      "ho dovuto essere",
+      "sono dovuta"
+     ],
+     "answer": "sono dovuto"
+    }
+   ]
+  }
+ ]
+}

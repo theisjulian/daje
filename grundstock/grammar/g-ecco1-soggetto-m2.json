@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-soggetto-m2",
+ "title": "Wer?",
+ "language": "it",
+ "level": "A1",
+ "description": "Die Subjektpronomen · Wer? (mittel).",
+ "topics": [
+  "Die Subjektpronomen",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-soggetto",
+  "topicTitle": "Die Subjektpronomen",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 52,
+  "rule": "| io | tu | lui / lei / Lei | noi | voi | loro |\n| ich | du | er / sie / Sie | wir | ihr | sie |\n\nIm Italienischen lässt man das Pronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._\n**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Welches Pronomen ersetzt die markierten Wörter?",
+   "explanation": "Ist „ich“ dabei, heißt es noi. Ist „du“ dabei (ohne ich), heißt es voi.",
+   "type": "gap_choice",
+   "text": "Marco e io = [[g1]]\ntu e Sara = [[g2]]\nla professoressa = [[g3]]\ni miei amici = [[g4]]\nmio padre = [[g5]]\nAnna e Giulia = [[g6]]\ntu e io = [[g7]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "noi",
+      "voi",
+      "loro"
+     ],
+     "answer": "noi"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "voi",
+      "noi",
+      "loro"
+     ],
+     "answer": "voi"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "lei",
+      "lui",
+      "loro"
+     ],
+     "answer": "lei"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "loro",
+      "voi",
+      "noi"
+     ],
+     "answer": "loro"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "lui",
+      "lei",
+      "loro"
+     ],
+     "answer": "lui"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "loro",
+      "voi",
+      "lei"
+     ],
+     "answer": "loro"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "noi",
+      "voi",
+      "loro"
+     ],
+     "answer": "noi"
+    }
+   ]
+  }
+ ]
+}

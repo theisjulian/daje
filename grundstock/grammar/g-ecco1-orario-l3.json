@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-orario-l3",
+ "title": "Wie spät ist es?",
+ "language": "it",
+ "level": "A1",
+ "description": "Uhrzeit und Wochentage · Wie spät ist es? (einfach).",
+ "topics": [
+  "Uhrzeit und Wochentage",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-orario",
+  "topicTitle": "Uhrzeit und Wochentage",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 13,
+  "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle die richtige Uhrzeit.",
+   "explanation": "È l'una / è mezzogiorno / è mezzanotte (Singular), sonst sono le …",
+   "type": "gap_choice",
+   "text": "2.00 → [[g1]]\n1.00 → [[g2]]\n4.30 → [[g3]]\n6.15 → [[g4]]\n8.45 → [[g5]]\n10.10 → [[g6]]\n11.50 → [[g7]]\n12.00 → [[g8]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Sono le due.",
+      "È le due.",
+      "Sono le dodici."
+     ],
+     "answer": "Sono le due."
+    },
+    {
+     "id": "g2",
+     "options": [
+      "È l'una.",
+      "Sono l'una.",
+      "È le una."
+     ],
+     "answer": "È l'una."
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Sono le quattro e mezza.",
+      "Sono le quattro e un quarto.",
+      "Sono le cinque meno mezza."
+     ],
+     "answer": "Sono le quattro e mezza."
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Sono le sei e un quarto.",
+      "Sono le sei meno un quarto.",
+      "Sono le sei e mezza."
+     ],
+     "answer": "Sono le sei e un quarto."
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Sono le nove meno un quarto.",
+      "Sono le otto meno un quarto.",
+      "Sono le nove e un quarto."
+     ],
+     "answer": "Sono le nove meno un quarto."
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Sono le dieci e dieci.",
+      "Sono le dieci meno dieci.",
+      "Sono le undici e dieci."
+     ],
+     "answer": "Sono le dieci e dieci."
+    },
+    {
+     "id": "g7",
+     "options": [
+      "Sono le dodici meno dieci.",
+      "Sono le undici meno dieci.",
+      "Sono le dieci e cinquanta."
+     ],
+     "answer": "Sono le dodici meno dieci."
+    },
+    {
+     "id": "g8",
+     "options": [
+      "È mezzogiorno.",
+      "Sono mezzogiorno.",
+      "È la mezzanotte."
+     ],
+     "answer": "È mezzogiorno."
+    }
+   ]
+  }
+ ]
+}

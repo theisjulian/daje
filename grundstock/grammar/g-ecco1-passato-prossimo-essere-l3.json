@@ -1,0 +1,128 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-prossimo-essere-l3",
+ "title": "Hilfsverb essere",
+ "language": "it",
+ "level": "A1",
+ "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Hilfsverb essere (einfach).",
+ "topics": [
+  "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-essere",
+  "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 43,
+  "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle die richtige Form von essere.",
+   "type": "gap_choice",
+   "text": "Io [[g1]] andato al cinema.\nTu [[g2]] uscita con Marta?\nLuca [[g3]] partito alle otto.\nNoi [[g4]] tornati tardi.\nVoi [[g5]] arrivate in tempo?\nLe ragazze [[g6]] rimaste a casa.\nMia madre [[g7]] stata in Italia.\nI miei nonni [[g8]] venuti a trovarci.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "sono",
+      "è",
+      "siamo"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "sei",
+      "è",
+      "siete"
+     ],
+     "answer": "sei"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "è",
+      "sono",
+      "sei"
+     ],
+     "answer": "è"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "siamo",
+      "siete",
+      "sono"
+     ],
+     "answer": "siamo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "siete",
+      "siamo",
+      "sono"
+     ],
+     "answer": "siete"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "sono",
+      "è",
+      "siamo"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "è",
+      "ha",
+      "sono"
+     ],
+     "answer": "è"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "sono",
+      "hanno",
+      "siamo"
+     ],
+     "answer": "sono"
+    }
+   ]
+  }
+ ]
+}

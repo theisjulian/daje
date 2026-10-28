@@ -1,0 +1,103 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-modali-s3",
+ "title": "Was darf, kann, muss man?",
+ "language": "it",
+ "level": "A1",
+ "description": "venire, sapere und die Modalverben · Was darf, kann, muss man? (schwer).",
+ "topics": [
+  "venire, sapere und die Modalverben",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-modali",
+  "topicTitle": "venire, sapere und die Modalverben",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 23,
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Bilde Sätze mit dem Modalverb (Präsens) und dem Infinitiv.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "(io / dovere / fare i compiti)",
+     "acceptedAnswers": [
+      "Devo fare i compiti"
+     ],
+     "modelAnswer": "Devo fare i compiti."
+    },
+    {
+     "id": "s2",
+     "start": "(tu / potere / venire alla festa?)",
+     "acceptedAnswers": [
+      "Puoi venire alla festa"
+     ],
+     "modelAnswer": "Puoi venire alla festa?"
+    },
+    {
+     "id": "s3",
+     "start": "(noi / volere / andare in montagna)",
+     "acceptedAnswers": [
+      "Vogliamo andare in montagna"
+     ],
+     "modelAnswer": "Vogliamo andare in montagna."
+    },
+    {
+     "id": "s4",
+     "start": "(Sara / sapere / suonare la chitarra)",
+     "acceptedAnswers": [
+      "Sara sa suonare la chitarra"
+     ],
+     "modelAnswer": "Sara sa suonare la chitarra."
+    },
+    {
+     "id": "s5",
+     "start": "(voi / dovere / studiare)",
+     "acceptedAnswers": [
+      "Dovete studiare"
+     ],
+     "modelAnswer": "Dovete studiare."
+    },
+    {
+     "id": "s6",
+     "start": "(i ragazzi / non potere / uscire)",
+     "acceptedAnswers": [
+      "I ragazzi non possono uscire"
+     ],
+     "modelAnswer": "I ragazzi non possono uscire."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-dare-dire-indiretto-s2",
+ "title": "Pronomen statt Name",
+ "language": "it",
+ "level": "A1",
+ "description": "dare, dire und das indirekte Objekt · Pronomen statt Name (schwer).",
+ "topics": [
+  "dare, dire und das indirekte Objekt",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-dare-dire-indiretto",
+  "topicTitle": "dare, dire und das indirekte Objekt",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 42,
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ersetze die markierten Wörter durch ein Pronomen.",
+   "explanation": "Das Pronomen steht vor dem Verb.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Scrivo a Luca. → … scrivo.",
+     "acceptedAnswers": [
+      "Gli"
+     ],
+     "modelAnswer": "Gli scrivo."
+    },
+    {
+     "id": "s2",
+     "start": "Telefono a Sara. → … telefono.",
+     "acceptedAnswers": [
+      "Le"
+     ],
+     "modelAnswer": "Le telefono."
+    },
+    {
+     "id": "s3",
+     "start": "Do il libro a te. → … do il libro.",
+     "acceptedAnswers": [
+      "Ti"
+     ],
+     "modelAnswer": "Ti do il libro."
+    },
+    {
+     "id": "s4",
+     "start": "La prof dà i compiti a noi. → La prof … dà i compiti.",
+     "acceptedAnswers": [
+      "ci"
+     ],
+     "modelAnswer": "La prof ci dà i compiti."
+    },
+    {
+     "id": "s5",
+     "start": "Dico la verità a voi. → … dico la verità.",
+     "acceptedAnswers": [
+      "Vi"
+     ],
+     "modelAnswer": "Vi dico la verità."
+    },
+    {
+     "id": "s6",
+     "start": "Rispondo alla signora Rossi (höflich). → … rispondo.",
+     "acceptedAnswers": [
+      "Le"
+     ],
+     "modelAnswer": "Le rispondo."
+    }
+   ]
+  }
+ ]
+}

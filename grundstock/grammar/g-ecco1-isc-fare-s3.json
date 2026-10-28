@@ -1,0 +1,187 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-isc-fare-s3",
+ "title": "Tabelle mit -isc-",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -ire mit -isc- und fare · Tabelle mit -isc- (schwer).",
+ "topics": [
+  "Verben auf -ire mit -isc- und fare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-isc-fare",
+  "topicTitle": "Verben auf -ire mit -isc- und fare",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 23,
+  "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze die Formen.",
+   "type": "table_fill",
+   "columns": [
+    "Person",
+    "capire",
+    "preferire",
+    "pulire"
+   ],
+   "rows": [
+    [
+     "io",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "capisco"
+      ]
+     },
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "preferisco"
+      ]
+     },
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "pulisco"
+      ]
+     }
+    ],
+    [
+     "tu",
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "capisci"
+      ]
+     },
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "preferisci"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "pulisci"
+      ]
+     }
+    ],
+    [
+     "lui / lei",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "capisce"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "preferisce"
+      ]
+     },
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "pulisce"
+      ]
+     }
+    ],
+    [
+     "noi",
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "capiamo"
+      ]
+     },
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "preferiamo"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "puliamo"
+      ]
+     }
+    ],
+    [
+     "voi",
+     {
+      "id": "c13",
+      "acceptedAnswers": [
+       "capite"
+      ]
+     },
+     {
+      "id": "c14",
+      "acceptedAnswers": [
+       "preferite"
+      ]
+     },
+     {
+      "id": "c15",
+      "acceptedAnswers": [
+       "pulite"
+      ]
+     }
+    ],
+    [
+     "loro",
+     {
+      "id": "c16",
+      "acceptedAnswers": [
+       "capiscono"
+      ]
+     },
+     {
+      "id": "c17",
+      "acceptedAnswers": [
+       "preferiscono"
+      ]
+     },
+     {
+      "id": "c18",
+      "acceptedAnswers": [
+       "puliscono"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

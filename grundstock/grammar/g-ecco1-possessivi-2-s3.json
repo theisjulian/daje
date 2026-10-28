@@ -1,0 +1,96 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-possessivi-2-s3",
+ "title": "Interview über die Familie",
+ "language": "it",
+ "level": "A1",
+ "description": "Possessivbegleiter bei Verwandten · Interview über die Familie (schwer).",
+ "topics": [
+  "Possessivbegleiter bei Verwandten",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-possessivi-2",
+  "topicTitle": "Possessivbegleiter bei Verwandten",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 23,
+  "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Antworte in ganzen Sätzen mit dem passenden Possessivbegleiter.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Come si chiama tua madre? (Laura) – …",
+     "acceptedAnswers": [
+      "Mia madre si chiama Laura"
+     ],
+     "modelAnswer": "Mia madre si chiama Laura."
+    },
+    {
+     "id": "s2",
+     "start": "Dove abitano i tuoi nonni? (a Roma) – …",
+     "acceptedAnswers": [
+      "I miei nonni abitano a Roma"
+     ],
+     "modelAnswer": "I miei nonni abitano a Roma."
+    },
+    {
+     "id": "s3",
+     "start": "Quanti anni ha tuo fratello? (12) – …",
+     "acceptedAnswers": [
+      "Mio fratello ha dodici anni"
+     ],
+     "modelAnswer": "Mio fratello ha dodici anni."
+    },
+    {
+     "id": "s4",
+     "start": "Com'è la tua famiglia? (grande) – …",
+     "acceptedAnswers": [
+      "La mia famiglia è grande"
+     ],
+     "modelAnswer": "La mia famiglia è grande."
+    },
+    {
+     "id": "s5",
+     "start": "Che lavoro fa vostro padre? (medico) – …",
+     "acceptedAnswers": [
+      "Nostro padre è medico",
+      "Nostro padre fa il medico"
+     ],
+     "modelAnswer": "Nostro padre è medico."
+    }
+   ]
+  }
+ ]
+}

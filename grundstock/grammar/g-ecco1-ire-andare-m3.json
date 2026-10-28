@@ -1,0 +1,93 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-ire-andare-m3",
+ "title": "Dove vanno?",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -ire und andare · Dove vanno? (mittel).",
+ "topics": [
+  "Verben auf -ire und andare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-ire-andare",
+  "topicTitle": "Verben auf -ire und andare",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 63,
+  "rule": "**Verben auf -ire** (ohne Stammerweiterung):\n| Person | dormire | sentire |\n| io | dorm**o** | sent**o** |\n| tu | dorm**i** | sent**i** |\n| lui / lei | dorm**e** | sent**e** |\n| noi | dorm**iamo** | sent**iamo** |\n| voi | dorm**ite** | sent**ite** |\n| loro | dorm**ono** | sent**ono** |\n\nWie -ere, nur **voi -ite**.\n**andare** (gehen, fahren) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| vado | vai | va | andiamo | andate | vanno |\n\n_Vado a scuola. Andiamo al concerto._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze andare in der richtigen Form.",
+   "explanation": "andare: vado, vai, va, andiamo, andate, vanno.",
+   "type": "gap_fill",
+   "text": "Io [[g1]] a scuola a piedi.\nTu [[g2]] in palestra oggi?\nMarco [[g3]] al mare con la famiglia.\nNoi [[g4]] al cinema stasera.\nVoi [[g5]] in vacanza in Sicilia?\nI miei genitori [[g6]] al lavoro in macchina.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "vado"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "vai"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "va"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "andiamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "andate"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "vanno"
+     ]
+    }
+   ]
+  }
+ ]
+}

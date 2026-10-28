@@ -1,0 +1,83 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-gia-ancora-l2",
+ "title": "Schon oder noch nicht?",
+ "language": "it",
+ "level": "A1",
+ "description": "già und (non …) ancora · Schon oder noch nicht? (einfach).",
+ "topics": [
+  "già und (non …) ancora",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 5,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-gia-ancora",
+  "topicTitle": "già und (non …) ancora",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 52,
+  "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Was bedeutet das?",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Ho già mangiato.",
+     "right": "Ich habe schon gegessen."
+    },
+    {
+     "id": "p2",
+     "left": "Non ho ancora mangiato.",
+     "right": "Ich habe noch nicht gegessen."
+    },
+    {
+     "id": "p3",
+     "left": "Sei già arrivato?",
+     "right": "Bist du schon angekommen?"
+    },
+    {
+     "id": "p4",
+     "left": "Non sono ancora partita.",
+     "right": "Ich bin noch nicht abgefahren."
+    },
+    {
+     "id": "p5",
+     "left": "Abbiamo già finito.",
+     "right": "Wir sind schon fertig."
+    }
+   ],
+   "distractors": [
+    "Ich esse noch."
+   ]
+  }
+ ]
+}

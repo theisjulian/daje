@@ -1,0 +1,197 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-preposizioni-articolate-s2",
+ "title": "Die große Tabelle",
+ "language": "it",
+ "level": "A1",
+ "description": "Präpositionen mit Artikel · Die große Tabelle (schwer).",
+ "topics": [
+  "Präpositionen mit Artikel",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-preposizioni-articolate",
+  "topicTitle": "Präpositionen mit Artikel",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 42,
+  "rule": "Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel:\n| | il | lo | l' | la | i | gli | le |\n| a | al | allo | all' | alla | ai | agli | alle |\n| da | dal | dallo | dall' | dalla | dai | dagli | dalle |\n| di | del | dello | dell' | della | dei | degli | delle |\n| in | nel | nello | nell' | nella | nei | negli | nelle |\n| su | sul | sullo | sull' | sulla | sui | sugli | sulle |\n\n**con** und **per** verschmelzen nicht: _con il papà, per la mamma._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze die Formen.",
+   "type": "table_fill",
+   "columns": [
+    "Präposition",
+    "il",
+    "la",
+    "i",
+    "le"
+   ],
+   "rows": [
+    [
+     "in",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "nel"
+      ]
+     },
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "nella"
+      ]
+     },
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "nei"
+      ]
+     },
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "nelle"
+      ]
+     }
+    ],
+    [
+     "su",
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "sul"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "sulla"
+      ]
+     },
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "sui"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "sulle"
+      ]
+     }
+    ],
+    [
+     "di",
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "del"
+      ]
+     },
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "della"
+      ]
+     },
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "dei"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "delle"
+      ]
+     }
+    ],
+    [
+     "a",
+     {
+      "id": "c13",
+      "acceptedAnswers": [
+       "al"
+      ]
+     },
+     {
+      "id": "c14",
+      "acceptedAnswers": [
+       "alla"
+      ]
+     },
+     {
+      "id": "c15",
+      "acceptedAnswers": [
+       "ai"
+      ]
+     },
+     {
+      "id": "c16",
+      "acceptedAnswers": [
+       "alle"
+      ]
+     }
+    ],
+    [
+     "da",
+     {
+      "id": "c17",
+      "acceptedAnswers": [
+       "dal"
+      ]
+     },
+     {
+      "id": "c18",
+      "acceptedAnswers": [
+       "dalla"
+      ]
+     },
+     {
+      "id": "c19",
+      "acceptedAnswers": [
+       "dai"
+      ]
+     },
+     {
+      "id": "c20",
+      "acceptedAnswers": [
+       "dalle"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

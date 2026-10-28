@@ -197,6 +197,20 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - **Verbtrainer (verbs.js) neu:** Band-Wahl Ecco più 1/2/3 (kumulativ, gespeichert in `daje-verben-v1`). Zeiten mit Band: 1 Presente, Passato prossimo · 2 Imperfetto, Futuro, Condizionale, Imperativo (tu/Lei/noi/voi), stare + Gerundio, Trapassato · 3 Congiuntivo presente/passato/imperfetto/trapassato, Condizionale passato. Formen regelbasiert (Congiuntivo aus 1. Person Präsens, Congiuntivo imperfetto aus Imperfekt-Stamm, Imperativ reflexiv mit angehängtem Pronomen), Ausnahmen in VB_DATA. 30 Verben aus Ecco più 3 ergänzt; VB_LATER/VB_NO steuern Band und fehlende Formen.
 - **Übungen:** Tabelle, Blitzrunde (auch „Gemischt“), Im Satz (Lücke tippen, VB_SENT mit ~95 Sätzen), Welche Form? (antippen; Ablenker = dieselbe Person in anderen Zeiten + andere Personen), Hilfsverb (avere/essere antippen, dann Partizip). Akzenttasten (à è é ì ò ù '), Tipp-Knopf (Anfang der Form). Tests: verbs.test.cjs (Formen, Sätze, Band), e2e „Verben“.
 
+## 6q. Grammatik, Zahlen, Arbeitsblatt-Mappe (28.10.2026)
+
+- Grammatik-Bereich (`grammatik.js`): Ecco più 1 Unità 1–5, 32 Themen mit Merkkasten, 279 Übungen in drei Stufen (einfach, mittel, schwer). Pakete `kind: "grammar"` (`grammar.topic`, `topicTitle`, `difficulty`, `origin`, `rule`, `order`), Ansicht über `renderListening` ohne Player.
+- Quelle: `werkzeuge/grammatik/ecco1/unita*.txt` (DSL, siehe Kopf von `werkzeuge/grammatik.py`), erzeugt `grundstock/grammar/g-ecco1-*.json`. `@mehr <thema>` hängt Übungen an ein Thema an, ohne vorhandene IDs (und damit Lernstände) zu verschieben. Nach Änderungen: `python3 werkzeuge/grammatik.py && node werkzeuge/bundle_stock.cjs`.
+- Trainer: Verben (`verbs.js`, nach Band), Zahlen/Uhrzeit/Datum (`zahlen.js`).
+- Arbeitsblatt-Mappe (`worksheet.js`): Lehrkräfte sammeln Übungen, ordnen per Ziehen auf mehrere Blätter, drucken mit Lösungsblatt.
+- Lückenbreite richtet sich nach der Lösung (`gapSize` in `views.js`); Satzergänzung wertet ohne Satzzeichen.
+
+## 6r. Grammatik mit KI, Betreiber-Korrekturen (28.10.2026)
+
+- Redaktion „Grammatik mit KI einlesen“: Modus eigen (neue Übungen nach Buchvorlage, `origin: adapted`), genau (Buchübungen unverändert, `origin: original`, bleibt privat: nicht einreichbar, nicht live stellbar, vom Bündler und qualitaet.py abgewiesen), thema (ohne Vorlage). Kommandodatei `imports/KI-Grammatik.md`, `DajeKI.buildGrammar`/`promptForGrammar`. Editor kann Grammatikübungen (Thema, Stufe, Herkunft, Merkkasten).
+- Veröffentlichte Inhalte bearbeiten/entfernen (nur mit GitHub-Token im Browser): Knopf „Veröffentlichte Fassung bearbeiten“; „Live stellen“ schreibt dann nach `grundstock/korrekturen/<id>.json` (ersetzt das Paket gleicher ID, auch eingebaute Hörübungen), „Entfernen“ schreibt `{ "format": "daje-entfernt", "id" }`. Die Generatoren schreiben nie in `korrekturen/`; `STOCK_REMOVED` in stock-data.js filtert in `contentList`.
+- Wortliste bearbeiten: unveränderte Zeilen behalten alle Felder; Reihenname „Ecco 3 più“ wird Ecco più Band 3 zugeordnet.
+
 ## 7. Offene Punkte
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.
 - Ecco 3 più importieren (nach Scan, exakte Kapitelzuordnung).

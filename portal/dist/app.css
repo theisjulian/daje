@@ -8366,3 +8366,6 @@ img.yt-thumb.yt-box {
 .hb-rule p{margin:.3em 0}
 .hb-note{list-style:none;font-size:.85em;margin:2px 0 8px}
 .hb-gap{white-space:pre-line}
+
+/* Kurze Lücken (Endungen wie -a, -i, Artikel l') schmal halten */
+.gap.gap-short { width: 3.4em; min-width: 0; padding: 0 4px; }

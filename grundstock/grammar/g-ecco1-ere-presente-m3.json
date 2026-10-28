@@ -1,0 +1,99 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-ere-presente-m3",
+ "title": "Nach der Schule",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -ere im Präsens · Nach der Schule (mittel).",
+ "topics": [
+  "Verben auf -ere im Präsens",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-ere-presente",
+  "topicTitle": "Verben auf -ere im Präsens",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 93,
+  "rule": "| Person | prendere | vedere |\n| io | prend**o** | ved**o** |\n| tu | prend**i** | ved**i** |\n| lui / lei | prend**e** | ved**e** |\n| noi | prend**iamo** | ved**iamo** |\n| voi | prend**ete** | ved**ete** |\n| loro | prend**ono** | ved**ono** |\n\nUnterschied zu -are: **lui/lei -e** (nicht -a), **voi -ete**, **loro -ono**."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Setze die Verben in der richtigen Form ein.",
+   "explanation": "leggere: io leggo (hart, gg+o), tu leggi, lui legge (weich).",
+   "type": "gap_fill",
+   "text": "Dopo la scuola io (prendere) [[g1]] l'autobus.\nA casa (leggere) [[g2]] un fumetto.\nMia sorella (scrivere) [[g3]] un messaggio a un'amica.\nNoi (vedere) [[g4]] un film insieme.\nVoi (leggere) [[g5]] molto?\nI miei genitori (prendere) [[g6]] un caffè in cucina.\nTu (scrivere) [[g7]] le email in italiano?",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "prendo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "leggo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "scrive"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "vediamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "leggete"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "prendono"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "scrivi"
+     ]
+    }
+   ]
+  }
+ ]
+}

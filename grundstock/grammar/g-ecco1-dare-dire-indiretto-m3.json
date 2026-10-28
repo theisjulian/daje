@@ -1,0 +1,151 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-dare-dire-indiretto-m3",
+ "title": "Formen von dare und dire",
+ "language": "it",
+ "level": "A1",
+ "description": "dare, dire und das indirekte Objekt · Formen von dare und dire (mittel).",
+ "topics": [
+  "dare, dire und das indirekte Objekt",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-dare-dire-indiretto",
+  "topicTitle": "dare, dire und das indirekte Objekt",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 43,
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze die Formen.",
+   "explanation": "dà mit Akzent, do und da ohne.",
+   "type": "table_fill",
+   "columns": [
+    "Person",
+    "dare",
+    "dire"
+   ],
+   "rows": [
+    [
+     "io",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "do"
+      ]
+     },
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "dico"
+      ]
+     }
+    ],
+    [
+     "tu",
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "dai"
+      ]
+     },
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "dici"
+      ]
+     }
+    ],
+    [
+     "lui / lei",
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "dà"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "dice"
+      ]
+     }
+    ],
+    [
+     "noi",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "diamo"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "diciamo"
+      ]
+     }
+    ],
+    [
+     "voi",
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "date"
+      ]
+     },
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "dite"
+      ]
+     }
+    ],
+    [
+     "loro",
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "danno"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "dicono"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

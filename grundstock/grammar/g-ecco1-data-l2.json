@@ -1,0 +1,110 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-data-l2",
+ "title": "Die Monate",
+ "language": "it",
+ "level": "A1",
+ "description": "Das Datum · Die Monate (einfach).",
+ "topics": [
+  "Das Datum",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 9,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-data",
+  "topicTitle": "Das Datum",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 12,
+  "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Bringe die Monate von Januar bis Juni in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "gennaio"
+    },
+    {
+     "id": "i2",
+     "text": "febbraio"
+    },
+    {
+     "id": "i3",
+     "text": "marzo"
+    },
+    {
+     "id": "i4",
+     "text": "aprile"
+    },
+    {
+     "id": "i5",
+     "text": "maggio"
+    },
+    {
+     "id": "i6",
+     "text": "giugno"
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Und jetzt Juli bis Dezember.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "luglio"
+    },
+    {
+     "id": "i2",
+     "text": "agosto"
+    },
+    {
+     "id": "i3",
+     "text": "settembre"
+    },
+    {
+     "id": "i4",
+     "text": "ottobre"
+    },
+    {
+     "id": "i5",
+     "text": "novembre"
+    },
+    {
+     "id": "i6",
+     "text": "dicembre"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-a-in-s2",
+ "title": "Eine Reise",
+ "language": "it",
+ "level": "A1",
+ "description": "Die Präpositionen a und in · Eine Reise (schwer).",
+ "topics": [
+  "Die Präpositionen a und in",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-a-in",
+  "topicTitle": "Die Präpositionen a und in",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 42,
+  "rule": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino, a Roma, a Berlino_\n- **in** + Land oder Region: _in Italia, in Germania, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_\n- **a** + bestimmte Orte ohne Artikel: _a scuola, a casa_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Korrigiere die sechs falschen Präpositionen.",
+   "explanation": "Land und Region → in Italia, in Toscana · Stadt → a Milano · casa → a casa.",
+   "type": "error_correction",
+   "text": "In estate andiamo [[g1]] Italia.\nPrima siamo [[g2]] Milano, poi [[g3]] Toscana.\nA Firenze la nostra casa è [[g4]] via dei Neri.\nIl pomeriggio andiamo [[g5]] centro.\nLa sera siamo stanchi e restiamo [[g6]] casa.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "a",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "in",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "a",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "a",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "a",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "in",
+     "acceptedAnswers": [
+      "a"
+     ]
+    }
+   ]
+  }
+ ]
+}

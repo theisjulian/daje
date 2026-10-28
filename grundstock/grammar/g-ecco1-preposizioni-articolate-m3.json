@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-preposizioni-articolate-m3",
+ "title": "Dove sono le cose?",
+ "language": "it",
+ "level": "A1",
+ "description": "Präpositionen mit Artikel · Dove sono le cose? (mittel).",
+ "topics": [
+  "Präpositionen mit Artikel",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-preposizioni-articolate",
+  "topicTitle": "Präpositionen mit Artikel",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 43,
+  "rule": "Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel:\n| | il | lo | l' | la | i | gli | le |\n| a | al | allo | all' | alla | ai | agli | alle |\n| da | dal | dallo | dall' | dalla | dai | dagli | dalle |\n| di | del | dello | dell' | della | dei | degli | delle |\n| in | nel | nello | nell' | nella | nei | negli | nelle |\n| su | sul | sullo | sull' | sulla | sui | sugli | sulle |\n\n**con** und **per** verschmelzen nicht: _con il papà, per la mamma._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle die richtige Form.",
+   "explanation": "sotto verschmilzt nicht: sotto il letto. su + gli = sugli (gli scaffali).",
+   "type": "gap_choice",
+   "text": "Le scarpe sono [[g1]] letto.\nIl gatto dorme [[g2]] divano.\nI quaderni sono [[g3]] zaino.\nLe chiavi sono [[g4]] scrivania.\nIl pallone è [[g5]] armadio.\nIl poster è [[g6]] parete.\nLe foto sono [[g7]] cassetto.\nI libri sono [[g8]] scaffali.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "sotto il",
+      "sotto al",
+      "sotto nel"
+     ],
+     "answer": "sotto il"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "sul",
+      "sulla",
+      "sullo"
+     ],
+     "answer": "sul"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "nello",
+      "nel",
+      "nella"
+     ],
+     "answer": "nello"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "sulla",
+      "sul",
+      "sulle"
+     ],
+     "answer": "sulla"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "nell'",
+      "nella",
+      "nello"
+     ],
+     "answer": "nell'"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "sulla",
+      "sul",
+      "sulle"
+     ],
+     "answer": "sulla"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "nel",
+      "nello",
+      "nella"
+     ],
+     "answer": "nel"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "sugli",
+      "sui",
+      "sulle"
+     ],
+     "answer": "sugli"
+    }
+   ]
+  }
+ ]
+}

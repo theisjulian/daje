@@ -1,0 +1,151 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quantita-m2",
+ "title": "Die Endungen",
+ "language": "it",
+ "level": "A1",
+ "description": "Mengenangaben: molto, poco, tanto, troppo · Die Endungen (mittel).",
+ "topics": [
+  "Mengenangaben: molto, poco, tanto, troppo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quantita",
+  "topicTitle": "Mengenangaben: molto, poco, tanto, troppo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 62,
+  "rule": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Als Begleiter** (vor einem Nomen) passen sie sich an:\n| | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C'è **troppa** gente._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze die Formen.",
+   "explanation": "poco → pochi, poche (mit h).",
+   "type": "table_fill",
+   "columns": [
+    "Wort",
+    "m. Sg.",
+    "w. Sg.",
+    "m. Pl.",
+    "w. Pl."
+   ],
+   "rows": [
+    [
+     "molto",
+     "molto",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "molta"
+      ]
+     },
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "molti"
+      ]
+     },
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "molte"
+      ]
+     }
+    ],
+    [
+     "poco",
+     "poco",
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "poca"
+      ]
+     },
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "pochi"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "poche"
+      ]
+     }
+    ],
+    [
+     "tanto",
+     "tanto",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "tanta"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "tanti"
+      ]
+     },
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "tante"
+      ]
+     }
+    ],
+    [
+     "troppo",
+     "troppo",
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "troppa"
+      ]
+     },
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "troppi"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "troppe"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-data-l3",
+ "title": "Feste in Italien",
+ "language": "it",
+ "level": "A1",
+ "description": "Das Datum · Feste in Italien (einfach).",
+ "topics": [
+  "Das Datum",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-data",
+  "topicTitle": "Das Datum",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 13,
+  "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle das richtige Datum.",
+   "explanation": "Nur der Erste wird mit Ordnungszahl gesagt (il primo). Sonst Grundzahl mit il, vor Vokal l' (l'otto, l'undici).",
+   "type": "gap_choice",
+   "text": "Capodanno: [[g1]]\nLa festa della donna: [[g2]]\nLa festa della Repubblica: [[g3]]\nFerragosto: [[g4]]\nSan Martino: [[g5]]\nNatale: [[g6]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "il primo gennaio",
+      "l'uno gennaio",
+      "il uno gennaio"
+     ],
+     "answer": "il primo gennaio"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "l'otto marzo",
+      "il otto marzo",
+      "lo otto marzo"
+     ],
+     "answer": "l'otto marzo"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "il due giugno",
+      "il secondo giugno",
+      "i due giugno"
+     ],
+     "answer": "il due giugno"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "il quindici agosto",
+      "la quindici agosto",
+      "il quindicesimo agosto"
+     ],
+     "answer": "il quindici agosto"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "l'undici novembre",
+      "il undici novembre",
+      "l'undicesimo novembre"
+     ],
+     "answer": "l'undici novembre"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "il venticinque dicembre",
+      "il venticinquesimo dicembre",
+      "la venticinque dicembre"
+     ],
+     "answer": "il venticinque dicembre"
+    }
+   ]
+  }
+ ]
+}

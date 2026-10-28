@@ -1,0 +1,137 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-essere-stare-s3",
+ "title": "essere oder stare im Text",
+ "language": "it",
+ "level": "A1",
+ "description": "essere und stare · essere oder stare im Text (schwer).",
+ "topics": [
+  "essere und stare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-essere-stare",
+  "topicTitle": "essere und stare",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 33,
+  "rule": "**essere** (sein) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| sono | sei | è | siamo | siete | sono |\n\n**stare** benutzt man für das Befinden: _Come stai? – Sto bene / male._\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n\n- _Sono di Torino._ (Herkunft) · _Sono Luca._ (Name) · _È bello._ (Eigenschaft)\n- _Come sta Anna? – Sta bene._ (Befinden)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Lies die Mail und wähle essere oder stare.",
+   "explanation": "stanco sein (Eigenschaft im Moment) → essere stanco; nur bene/male/così così → stare.",
+   "type": "gap_choice",
+   "text": "Ciao Lena, io [[g1]] Marta e [[g2]] di Torino.\nOggi non [[g3]] bene, ho mal di testa.\nMio fratello Paolo [[g4]] molto simpatico.\nLui [[g5]] bene, ma [[g6]] stanco.\nI miei genitori [[g7]] al lavoro.\nE tu come [[g8]]? [[g9]] a casa oggi?\nNoi [[g10]] amici da un mese, che bello!",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "sono",
+      "sto"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "sono",
+      "sto"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "sto",
+      "sono"
+     ],
+     "answer": "sto"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "è",
+      "sta"
+     ],
+     "answer": "è"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "sta",
+      "è"
+     ],
+     "answer": "sta"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "è",
+      "sta"
+     ],
+     "answer": "è"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "sono",
+      "stanno"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "stai",
+      "sei"
+     ],
+     "answer": "stai"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "Sei",
+      "Stai"
+     ],
+     "answer": "Sei"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "siamo",
+      "stiamo"
+     ],
+     "answer": "siamo"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-aggettivi-m3",
+ "title": "Vor oder nach dem Nomen?",
+ "language": "it",
+ "level": "A1",
+ "description": "Adjektive und ihre Stellung · Vor oder nach dem Nomen? (mittel).",
+ "topics": [
+  "Adjektive und ihre Stellung",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-aggettivi",
+  "topicTitle": "Adjektive und ihre Stellung",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 73,
+  "rule": "Adjektive richten sich nach dem Nomen (Geschlecht und Zahl):\n| Typ | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| -o/-a | nuovo | nuova | nuovi | nuove |\n| -e | grande | grande | grandi | grandi |\n\n**Stellung:** meist **nach** dem Nomen: _un libro **interessante**, una camera **grande**._ Einige kurze, häufige Adjektive stehen oft davor: _un **bel** posto, un **piccolo** problema, una **vecchia** foto._\n**Achtung:** _bello_ vor dem Nomen verändert sich wie der Artikel: _un bel gatto, un bello zaino, i bei libri._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Ho un computer nuovo."
+    },
+    {
+     "id": "o2",
+     "text": "Ho un nuovo computer nuovo."
+    },
+    {
+     "id": "o3",
+     "text": "Ho computer un nuovo."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q2",
+   "prompt": "Welcher Satz klingt richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Sara ha una camera grande."
+    },
+    {
+     "id": "o2",
+     "text": "Sara ha una grande camera grandi."
+    },
+    {
+     "id": "o3",
+     "text": "Sara ha grande una camera."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q3",
+   "prompt": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Ho tanti libri interessanti."
+    },
+    {
+     "id": "o2",
+     "text": "Ho tanti interessante libri."
+    },
+    {
+     "id": "o3",
+     "text": "Ho tanti libri interessante."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q4",
+   "prompt": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Ecco un bel posto!"
+    },
+    {
+     "id": "o2",
+     "text": "Ecco un bello posto!"
+    },
+    {
+     "id": "o3",
+     "text": "Ecco un posto bel!"
+    }
+   ],
+   "correctOptionId": "o1"
+  }
+ ]
+}

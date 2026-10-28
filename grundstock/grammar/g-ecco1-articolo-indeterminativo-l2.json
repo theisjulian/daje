@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-articolo-indeterminativo-l2",
+ "title": "Was ist im Zaino?",
+ "language": "it",
+ "level": "A1",
+ "description": "Der unbestimmte Artikel · Was ist im Zaino? (einfach).",
+ "topics": [
+  "Der unbestimmte Artikel",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-articolo-indeterminativo",
+  "topicTitle": "Der unbestimmte Artikel",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 72,
+  "rule": "| Artikel | wann? | Beispiel |\n| un | männlich (auch vor Vokal) | un ragazzo, un amico |\n| uno | männlich vor s + Konsonant, z | uno stadio, uno zaino |\n| una | weiblich vor Konsonant | una città, una ragazza |\n| un' | weiblich vor Vokal | un'amica, un'idea |\n\nAchtung: _un amico_ (männlich, ohne Apostroph), aber _un'amica_ (weiblich, mit Apostroph)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle den unbestimmten Artikel.",
+   "explanation": "un astuccio (m, vor Vokal ohne Apostroph) · un'agenda (f, vor Vokal mit Apostroph) · uno spuntino (s + Konsonant).",
+   "type": "gap_choice",
+   "text": "Nello zaino c'è [[g1]] libro.\nC'è anche [[g2]] penna.\nC'è [[g3]] quaderno.\nC'è [[g4]] spuntino.\nC'è [[g5]] agenda.\nC'è [[g6]] astuccio.\nC'è [[g7]] bottiglia d'acqua.\nC'è [[g8]] zaino piccolo per la palestra.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "un",
+      "uno",
+      "una"
+     ],
+     "answer": "un"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "una",
+      "un",
+      "un'"
+     ],
+     "answer": "una"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "un",
+      "uno",
+      "un'"
+     ],
+     "answer": "un"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "uno",
+      "un",
+      "una"
+     ],
+     "answer": "uno"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "un'",
+      "una",
+      "un"
+     ],
+     "answer": "un'"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "un",
+      "un'",
+      "uno"
+     ],
+     "answer": "un"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "una",
+      "un",
+      "uno"
+     ],
+     "answer": "una"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "uno",
+      "un",
+      "una"
+     ],
+     "answer": "uno"
+    }
+   ]
+  }
+ ]
+}

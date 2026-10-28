@@ -1,0 +1,102 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-che-relativo-l2",
+ "title": "Welcher Nebensatz passt?",
+ "language": "it",
+ "level": "A1",
+ "description": "Das Relativpronomen che · Welcher Nebensatz passt? (einfach).",
+ "topics": [
+  "Das Relativpronomen che",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 5,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-che-relativo",
+  "topicTitle": "Das Relativpronomen che",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 32,
+  "rule": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):\n- _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** bleibt immer gleich (für Personen und Sachen, Singular und Plural)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle den passenden Relativsatz.",
+   "explanation": "che bleibt gleich; das Verb danach richtet sich nach dem Nomen: amici che giocano.",
+   "type": "gap_choice",
+   "text": "Ho una sorella [[g1]]\nEcco il ragazzo [[g2]]\nIl film [[g3]]\nÈ un libro [[g4]]\nSono amici [[g5]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "che ha otto anni.",
+      "che ho otto anni.",
+      "chi ha otto anni."
+     ],
+     "answer": "che ha otto anni."
+    },
+    {
+     "id": "g2",
+     "options": [
+      "che abita qui.",
+      "che abito qui.",
+      "chi abita qui."
+     ],
+     "answer": "che abita qui."
+    },
+    {
+     "id": "g3",
+     "options": [
+      "che guardiamo è bello.",
+      "che guardiamo sono belli.",
+      "chi guardiamo è bello."
+     ],
+     "answer": "che guardiamo è bello."
+    },
+    {
+     "id": "g4",
+     "options": [
+      "che mi piace.",
+      "chi mi piace.",
+      "che mi piacciono."
+     ],
+     "answer": "che mi piace."
+    },
+    {
+     "id": "g5",
+     "options": [
+      "che giocano a calcio.",
+      "che gioca a calcio.",
+      "chi giocano a calcio."
+     ],
+     "answer": "che giocano a calcio."
+    }
+   ]
+  }
+ ]
+}
