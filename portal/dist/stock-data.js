@@ -4,6 +4,2705 @@ const STOCK_PACKAGES = [
  {
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "eigen-interview-with-a-101-year--k5lj",
+  "title": "Interview with a 101-Year-Old",
+  "language": "en",
+  "level": "B1",
+  "description": "Learn about the life, memories, and secrets of a woman who is 101 years old.",
+  "topics": [
+   "Longevity",
+   "History",
+   "Life experience"
+  ],
+  "sources": [
+   {
+    "kind": "external",
+    "citation": "Video auf YouTube; Aufgaben erstellt mit KI-Unterstützung, redaktionell geprüft.",
+    "url": "https://www.youtube.com/watch?v=69HgC2KghBc",
+    "rights": "cleared"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "estimatedMinutes": 20,
+  "media": {
+   "type": "youtube",
+   "videoId": "69HgC2KghBc"
+  },
+  "transcript": "Capitolo 1: Introductions\n0:000 secondi- Did you have forks or knives in the old days? - Forks and knives? Oh, sure, and spoons.\n0:088 secondi(lighthearted music) Hello. - Hi.\nCapitolo 2: Age and background\n0:1717 secondi- Hi, Micah. - Hi. - I'm Alice. - Nice to meet you, Malice. - Alice. - Alice, oh, sorry. - What is your name?\n0:2525 secondi- Clara. - Clara? I'm very happy to meet you. - What are we here to talk about? - Well, I think it might be how old I am.\n0:3535 secondi- How old are you? - I'm in my hundred and first year.\n0:3939 secondi101. (gasps) - 101? - Right. Did you ever know anybody else that old?\n0:4949 secondi- No. - I don't even know anybody else that old. - Where are you from?\nCapitolo 3: Life in the old days\n0:5454 secondi- Well, originally, I was born in Philadelphia, way, way over on the east coast. - I was born in New York City.\n1:031 minuto e 3 secondi- Oh, you were? So, you were born in the east too. - Yeah. - How was it like back then?\n1:111 minuto e 11 secondi- We didn't have radio, we didn't have television. No telephones, when I was a little girl.\n1:191 minuto e 19 secondiThere were not any trucks. They had wagons, and horses pulled them. - Wow, that must've been a long time ago.\n1:271 minuto e 27 secondi- It was a long, long time ago. - Back then, did you see any wars? - I did, and I was in the war.\nCapitolo 4: Wartime experience\n1:361 minuto e 36 secondiI was in the second World War.\n1:381 minuto e 38 secondiWe worked on decoding and encoding machines, very secret work.\n1:441 minuto e 44 secondiThe officers had guns, and they said, if you told any of the secrets, they would shoot you dead.\n1:551 minuto e 55 secondiBut nobody got shot. - Good then. - Yeah. - What would you do for fun? - Oh, when I was a little girl?\nCapitolo 5: Childhood and gender roles\n2:032 minuti e 3 secondiI had dolls and blocks. But I really liked boys' things. I liked marbles and tops.\n2:112 minuti e 11 secondiAnd I thought boys were much luckier than girls.\n2:142 minuti e 14 secondiWe had to wear skirts and stockings, even in the coldest weather. They didn't have slacks or pants for girls.\n2:232 minuti e 23 secondi- Girls couldn't wear pants? - That's true. - That is not fair. - No. - What is your job?\nCapitolo 6: Career as a teacher\n2:312 minuti e 31 secondi- Oh, my job was teaching in a college. But I retired a long time ago. And I taught biology.\n2:392 minuti e 39 secondiAnd if you look at my shirt, you'll see some of the things I've taught about. Could you possibly know what this one is?\n2:472 minuti e 47 secondi- [Micah] Oh, that's a spider. - Well, wonderful. - What's your favorite insect? - Ants, I did research on ants.\n2:552 minuti e 55 secondiBut you know what an ant looks like, don't you? - Yeah, it's like this tiny. They can carry a big thing, like a banana.\n3:053 minuti e 5 secondiLike, three of them can, even though they're this tiny. - You're very good, and you're only six years old? - What do you like to do for fun?\nCapitolo 7: Daily routine and health\n3:133 minuti e 13 secondi- Well, right now, I'm watching the Olympics. And I write books, I do puzzles. I enjoy email, I write to a lot of friends.\n3:233 minuti e 23 secondiI even play Scrabble, do you know how to play Scrabble? No? - No. - You should ask somebody to play Scrabble.\n3:313 minuti e 31 secondiIt's lots of fun. Also, I try to get exercise every day. - Every day? - Yep. - Good.\n3:393 minuti e 39 secondi- Some old people aren't very well anymore.\n3:433 minuti e 43 secondi- Yeah. - Some of them can't remember things.\n3:463 minuti e 46 secondiSome of them are really lame, and they have to have somebody help them. But I can do everything myself. - That's good. - And that's good.\nCapitolo 8: Challenges of longevity\n3:553 minuti e 55 secondi- And that means you're really old, but you're really good at it. - Yeah, and I enjoy life.\n4:034 minuti e 3 secondi- What is the hardest part about getting old? - You miss people.\n4:084 minuti e 8 secondiAnd especially when you live over 100 years, most of the people I ever knew, in my family, are already dead.\n4:164 minuti e 16 secondiBut that happens, doesn't it? - Yeah, a person in my family died. - And did you know the person?\n4:244 minuti e 24 secondi- Yeah, it's my great grandfather.\n4:274 minuti e 27 secondiAnd we still have a picture of him up on our mantel to remind us of when I was playing with him.\n4:364 minuti e 36 secondi- That's wonderful. - Are you afraid of dying? - No, I'm not afraid of dying. I feel very healthy and happy.\nCapitolo 9: Secrets to a long life\n4:434 minuti e 43 secondiMy doctor said, \"Maybe you'll just die in your sleep.\" (chuckles) So, I'm not afraid 'cause I have a good life.\n4:524 minuti e 52 secondi- What's the secret to living a long life?\n4:564 minuti e 56 secondi- Being happy, working hard, getting exercise, doing things for yourself, not expecting other people to do everything for you.\n5:075 minuti e 7 secondiAnd all of those things make you live a long time. - Nice to meet you. - It's wonderful to meet you.\n5:155 minuti e 15 secondiHave a great life. I'm very proud of you. - Thank you. - You're welcome. - [Girl] Nice to meet you.",
+  "teacherNotes": {
+   "warmup": [
+    "Discuss with students what life might have been like 100 years ago without modern technology like smartphones or television."
+   ],
+   "steps": [
+    "1. Pre-teach key vocabulary related to history and aging.",
+    "2. First listening for global understanding and general mood (Questions 1 to 4).",
+    "3. Second listening for specific details about her childhood, career, and daily life (Questions 5 to 10).",
+    "4. Third listening for exact statements and deeper comprehension (Questions 11 to 13)."
+   ],
+   "tips": [
+    "Encourage students to listen closely to how everyday life has changed from her childhood to modern times."
+   ],
+   "followUp": [
+    "Ask students to write down three questions they would ask a 100-year-old person if they had the chance."
+   ]
+  },
+  "transcriptOrigin": "provider",
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Before listening: What is the main topic of the conversation?",
+    "explanation": "The video features children interviewing an elderly woman about her long life and past experiences.",
+    "options": [
+     {
+      "id": "a",
+      "text": "A young girl talking about her school."
+     },
+     {
+      "id": "b",
+      "text": "An interview with a 101-year-old woman."
+     },
+     {
+      "id": "c",
+      "text": "A history lesson about modern technology."
+     },
+     {
+      "id": "d",
+      "text": "A discussion about raising pets."
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q2",
+    "type": "true_false",
+    "prompt": "Before listening: The woman being interviewed is over one hundred years old.",
+    "explanation": "She states early in the conversation that she is in her hundred and first year.",
+    "answer": true
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "First listening: Where was the woman originally born?",
+    "explanation": "She mentions that she was originally born in Philadelphia.",
+    "evidenceAt": 54,
+    "evidence": "originally, I was born in Philadelphia, way, way over on the east coast",
+    "options": [
+     {
+      "id": "a",
+      "text": "In New York City"
+     },
+     {
+      "id": "b",
+      "text": "In Philadelphia"
+     },
+     {
+      "id": "c",
+      "text": "In Washington"
+     },
+     {
+      "id": "d",
+      "text": "In Boston"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "First listening: What general tone or mood best describes the interview?",
+    "explanation": "The interview has a warm, curious, and lighthearted atmosphere with friendly exchanges between the generations.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Sad and pessimistic"
+     },
+     {
+      "id": "b",
+      "text": "Angry and defensive"
+     },
+     {
+      "id": "c",
+      "text": "Friendly and lighthearted"
+     },
+     {
+      "id": "d",
+      "text": "Formal and strict"
+     }
+    ],
+    "correctOptionId": "c"
+   },
+   {
+    "id": "q5",
+    "type": "short_answer",
+    "prompt": "Second listening: What transportation was used instead of trucks when she was a little girl?",
+    "explanation": "She explains that instead of trucks, people used wagons pulled by horses.",
+    "evidenceAt": 79,
+    "evidence": "There were not any trucks. They had wagons, and horses pulled them.",
+    "acceptedAnswers": [
+     "wagons and horses",
+     "horses and wagons",
+     "wagons"
+    ],
+    "modelAnswer": "Wagons and horses"
+   },
+   {
+    "id": "q6",
+    "type": "single_choice",
+    "prompt": "Second listening: What kind of work did she do during the Second World War?",
+    "explanation": "She shares that she did very secret work on decoding and encoding machines during WWII.",
+    "evidenceAt": 98,
+    "evidence": "We worked on decoding and encoding machines, very secret work.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Cooking for soldiers"
+     },
+     {
+      "id": "b",
+      "text": "Nursing wounded people"
+     },
+     {
+      "id": "c",
+      "text": "Working on decoding and encoding machines"
+     },
+     {
+      "id": "d",
+      "text": "Flying airplanes"
+     }
+    ],
+    "correctOptionId": "c"
+   },
+   {
+    "id": "q7",
+    "type": "true_false",
+    "prompt": "Second listening: As a young girl, she was allowed to wear pants and slacks.",
+    "explanation": "She notes that girls had to wear skirts and stockings because pants were not available for them.",
+    "evidenceAt": 134,
+    "evidence": "We had to wear skirts and stockings, even in the coldest weather. They didn't have slacks or pants for girls.",
+    "answer": false
+   },
+   {
+    "id": "q8",
+    "type": "gap_fill",
+    "prompt": "Second listening: Complete the sentence about her professional career.",
+    "explanation": "She worked as a college teacher and taught the subject of biology.",
+    "evidenceAt": 151,
+    "evidence": "Oh, my job was teaching in a college. But I retired a long time ago. And I taught biology.",
+    "text": "She used to work as a [[g1]] in a college and taught [[g2]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "teacher"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "biology"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q9",
+    "type": "table_fill",
+    "prompt": "Second listening: Match the activities to whether she does them now or did them in the past.",
+    "explanation": "Dolls and blocks were from her childhood, while watching the Olympics and writing books are her current activities.",
+    "evidenceAt": 123,
+    "evidence": "I had dolls and blocks. [...] Well, right now, I'm watching the Olympics. And I write books, I do puzzles.",
+    "columns": [
+     "Activity",
+     "Time period"
+    ],
+    "rows": [
+     [
+      "Playing with dolls and blocks",
+      {
+       "id": "t1",
+       "acceptedAnswers": [
+        "past",
+        "when she was a little girl"
+       ]
+      }
+     ],
+     [
+      "Watching the Olympics and writing books",
+      {
+       "id": "t2",
+       "acceptedAnswers": [
+        "now",
+        "present"
+       ]
+      }
+     ]
+    ]
+   },
+   {
+    "id": "q10",
+    "type": "single_choice",
+    "prompt": "Second listening: What insect did she do research on?",
+    "explanation": "She states specifically that she conducted scientific research on ants.",
+    "evidenceAt": 174,
+    "evidence": "Ants, I did research on ants.",
+    "options": [
+     {
+      "id": "a",
+      "text": "Spiders"
+     },
+     {
+      "id": "b",
+      "text": "Bees"
+     },
+     {
+      "id": "c",
+      "text": "Ants"
+     },
+     {
+      "id": "d",
+      "text": "Butterflies"
+     }
+    ],
+    "correctOptionId": "c"
+   },
+   {
+    "id": "q11",
+    "type": "sentence_completion",
+    "prompt": "Third listening: Complete the sentences about aging based on the interview.",
+    "explanation": "She shares that losing people is hard, but she lacks fear of death due to living a happy and fulfilling life.",
+    "evidenceAt": 247,
+    "evidence": "You miss people. [...] No, I'm not afraid of dying. I feel very healthy and happy. [...] 'cause I have a good life.",
+    "items": [
+     {
+      "id": "z1",
+      "start": "According to her, the hardest part about getting old is that",
+      "acceptedAnswers": [
+       "miss people",
+       "you miss people"
+      ],
+      "modelAnswer": "you miss people because most family and friends have passed away."
+     },
+     {
+      "id": "z2",
+      "start": "She is not afraid of dying because she feels healthy and happy and",
+      "acceptedAnswers": [
+       "good life",
+       "has a good life"
+      ],
+      "modelAnswer": "has a good life."
+     }
+    ]
+   },
+   {
+    "id": "q12",
+    "type": "word_select",
+    "prompt": "Language: Which of these words or topics appear in the video transcript? (Choose multiple answers)",
+    "explanation": "Philadelphia, biology, and Scrabble are explicitly mentioned in the text, whereas smartphones, airplanes, and the internet are not.",
+    "evidenceAt": 54,
+    "evidence": "originally, I was born in Philadelphia [...] And I taught biology. [...] I even play Scrabble",
+    "options": [
+     {
+      "id": "a",
+      "text": "biology"
+     },
+     {
+      "id": "b",
+      "text": "smartphone"
+     },
+     {
+      "id": "c",
+      "text": "Scrabble"
+     },
+     {
+      "id": "d",
+      "text": "airplane"
+     },
+     {
+      "id": "e",
+      "text": "Philadelphia"
+     },
+     {
+      "id": "f",
+      "text": "internet"
+     }
+    ],
+    "correctOptionIds": [
+     "a",
+     "c",
+     "e"
+    ]
+   },
+   {
+    "id": "q13",
+    "type": "open_answer",
+    "prompt": "After listening: What do you think is the most important secret to a long and happy life? Write 2 to 3 sentences.",
+    "explanation": "Students formulate their own thoughts on longevity in English based on the themes of the interview.",
+    "modelAnswer": "I think staying active and having a positive attitude are very important. Being independent and enjoying small daily activities also help people live longer.",
+    "lines": 4,
+    "points": 3
+   }
+  ],
+  "vocabulary": [
+   {
+    "id": "w1",
+    "target": "the century",
+    "translations": [
+     "das Jahrhundert"
+    ],
+    "acceptedAnswers": [],
+    "example": "She has lived for over a century.",
+    "definition": "A period of one hundred years."
+   },
+   {
+    "id": "w2",
+    "target": "the carriage",
+    "translations": [
+     "die Kutsche",
+     "der Wagen"
+    ],
+    "acceptedAnswers": [],
+    "example": "In the old days, horses pulled wagons.",
+    "definition": "A vehicle pulled by horses."
+   },
+   {
+    "id": "w3",
+    "target": "secret",
+    "translations": [
+     "geheim"
+    ],
+    "acceptedAnswers": [],
+    "example": "She worked on secret machines during the war.",
+    "definition": "Known about by only a few people and kept hidden."
+   },
+   {
+    "id": "w4",
+    "target": "retirement",
+    "translations": [
+     "der Ruhestand"
+    ],
+    "acceptedAnswers": [],
+    "example": "She retired from teaching a long time ago.",
+    "definition": "The period after leaving a job permanently."
+   },
+   {
+    "id": "w5",
+    "target": "research",
+    "translations": [
+     "die Forschung"
+    ],
+    "acceptedAnswers": [],
+    "example": "She did scientific research on ants.",
+    "definition": "Detailed study of a subject to discover new information."
+   },
+   {
+    "id": "w6",
+    "target": "exercise",
+    "translations": [
+     "die Bewegung",
+     "das Training"
+    ],
+    "acceptedAnswers": [],
+    "example": "She tries to get exercise every day.",
+    "definition": "Physical activity to keep healthy and strong."
+   },
+   {
+    "id": "w7",
+    "target": "independent",
+    "translations": [
+     "unabhängig",
+     "selbstständig"
+    ],
+    "acceptedAnswers": [],
+    "example": "She can do everything herself.",
+    "definition": "Able to do things without needing help from others."
+   },
+   {
+    "id": "w8",
+    "target": "longevity",
+    "translations": [
+     "die Langlebigkeit"
+    ],
+    "acceptedAnswers": [],
+    "example": "Her longevity is inspiring.",
+    "definition": "Living for a long time."
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "listening",
+  "id": "eigen-roma-monumenti-e-luoghi-fa-4c9x",
+  "title": "Roma: monumenti e luoghi famosi",
+  "language": "it",
+  "level": "A2",
+  "description": "Scopri i monumenti più importanti, le piazze e le strade storiche di Roma.",
+  "topics": [
+   "Roma",
+   "Monumenti",
+   "Cultura italiana"
+  ],
+  "sources": [
+   {
+    "kind": "external",
+    "citation": "Video auf YouTube; Aufgaben erstellt mit KI-Unterstützung, redaktionell geprüft.",
+    "url": "https://www.youtube.com/watch?v=HckSho-OOtA",
+    "rights": "cleared"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "estimatedMinutes": 19,
+  "media": {
+   "type": "youtube",
+   "videoId": "HckSho-OOtA"
+  },
+  "transcript": "0:000 secondi[Musica]\n0:2222 secondiRoma è la capitale d'Italia una delle strade più importanti è via del Corso\n0:3131 secondiè conosciuta come la via dello shopping ma anche per le chiese e i suoi palazzi molto belli via del Corso è lunga 1 km e\n0:4040 secondiMeo dalla porta del Popolo arriva all'altare della Patria chiamato anche Il\n0:4949 secondiVittoriano è un grande monumento costruito per ricordare Vittorio Emanuele I il primo re\n0:5656 secondi[Musica]\n0:5858 secondid'Italia poco più avanti troviamo il foro romano e i Fori Imperiali una serie di\n1:051 minuto e 5 secondimonumenti e piazze dell'antica Roma di fronte il monumento più famoso e simbolo dell'Italia il Colosseo un grande\n1:151 minuto e 15 secondianfiteatro di 2000 anni e dietro al Colosseo Ecco il grande\n1:211 minuto e 21 secondiArco di trionfo di Costantino Roma è una città ricca di monumenti musei teatri e\n1:311 minuto e 31 secondipiazze tra le più importanti Piazza di Spagna famosa per la sua scalinata che\n1:381 minuto e 38 secondidalla fontana La Barcaccia arriva alla chiesa della Trinità dei\n1:441 minuto e 44 secondiMonti e Piazza Navona conosciuta per la Fontana dei quattro fiumi del Bernini e\n1:531 minuto e 53 secondiil mercatino di Natale che la riempie di luci e colori\n2:032 minuti e 3 secondiEcco poi lungo il Tevere il bellissimo Castel Sant'Angelo qui potete visitare il museo\n2:102 minuti e 10 secondinazionale e guardare tutta la città dall'alto in particolare la stupenda Basilica di San Pietro della Città del\n2:192 minuti e 19 secondiVaticano e se volete tornare a Roma ricordate di lanciare una moneta nella fontana di\n2:262 minuti e 26 secondi[Musica]\n2:282 minuti e 28 secondiTrevi\n2:422 minuti e 42 secondi[Musica]\n2:482 minuti e 48 secondiK",
+  "teacherNotes": {
+   "warmup": [
+    "Fragen Sie die Lernenden, welche Sehenswürdigkeiten sie in Rom bereits kennen oder gerne sehen würden."
+   ],
+   "steps": [
+    "1. Vorentlastung des Wortschatzes (Vokabeln im Anhang kurz besprechen).",
+    "2. Erstes Hören (Globalverstehen: Aufgaben q1 bis q4).",
+    "3. Zweites Hören (Detailverstehen: Aufgaben q5 bis q10).",
+    "4. Drittes Hören / Spracharbeit (Wortschatz und Details: Aufgaben q11 und q12)."
+   ],
+   "tips": [
+    "Bei Niveau A2 kann das Video für das zweite Hören einmal angehalten werden, falls die Abfolge der Sehenswürdigkeiten zu schnell ist."
+   ],
+   "followUp": [
+    "Die Lernenden erstellen in Partnerarbeit einen kurzen Reiseführer (3 Sätze) zu ihrer Lieblingsstadt."
+   ]
+  },
+  "transcriptOrigin": "provider",
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Prima dell'ascolto: Qual è l'argomento principale del video?",
+    "explanation": "Il video presenta le strade, i monumenti e le piazze principali della città di Roma.",
+    "options": [
+     {
+      "id": "a",
+      "text": "La vita quotidiana a Milano"
+     },
+     {
+      "id": "b",
+      "text": "I monumenti e i luoghi importanti di Roma"
+     },
+     {
+      "id": "c",
+      "text": "La cucina tipica italiana"
+     },
+     {
+      "id": "d",
+      "text": "Le spiagge più belle d'Italia"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q2",
+    "type": "true_false",
+    "prompt": "Prima dell'ascolto: Il video parla della capitale d'Italia.",
+    "explanation": "Roma è la capitale d'Italia, come viene detto all'inizio del video.",
+    "answer": true
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Primo ascolto: Quanto è lunga via del Corso?",
+    "explanation": "Nel testo viene specificato che via del Corso ha una lunghezza di un chilometro.",
+    "evidenceAt": 38,
+    "evidence": "via del Corso è lunga 1 km",
+    "options": [
+     {
+      "id": "a",
+      "text": "500 metri"
+     },
+     {
+      "id": "b",
+      "text": "1 chilometro"
+     },
+     {
+      "id": "c",
+      "text": "2 chilometri"
+     },
+     {
+      "id": "d",
+      "text": "5 chilometri"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Primo ascolto: Qual è il monumento simbolo dell'Italia menzionato nel video?",
+    "explanation": "Il Colosseo viene descritto come il monumento più famoso e simbolo del paese.",
+    "evidenceAt": 105,
+    "evidence": "il monumento più famoso e simbolo dell'Italia il Colosseo",
+    "options": [
+     {
+      "id": "a",
+      "text": "Il Colosseo"
+     },
+     {
+      "id": "b",
+      "text": "Castel Sant'Angelo"
+     },
+     {
+      "id": "c",
+      "text": "L'altare della Patria"
+     },
+     {
+      "id": "d",
+      "text": "La Basilica di San Pietro"
+     }
+    ],
+    "correctOptionId": "a"
+   },
+   {
+    "id": "q5",
+    "type": "table_fill",
+    "prompt": "Secondo ascolto: Associa i luoghi alle loro caratteristiche o descrizioni.",
+    "explanation": "Via del Corso è nota per lo shopping, mentre il Colosseo è definito un grande anfiteatro.",
+    "evidenceAt": 31,
+    "evidence": "è conosciuta come la via dello shopping ma anche per le chiese e i suoi palazzi molto belli via del Corso è lunga 1 km",
+    "columns": [
+     "Luogo",
+     "Caratteristica / Descrizione"
+    ],
+    "rows": [
+     [
+      "Via del Corso",
+      {
+       "id": "t1",
+       "acceptedAnswers": [
+        "shopping"
+       ]
+      }
+     ],
+     [
+      "Il Colosseo",
+      {
+       "id": "t2",
+       "acceptedAnswers": [
+        "anfiteatro"
+       ]
+      }
+     ]
+    ]
+   },
+   {
+    "id": "q6",
+    "type": "short_answer",
+    "prompt": "Secondo ascolto: Come si chiama l'arco che si trova dietro al Colosseo?",
+    "explanation": "Il narratore indica la presenza dell'Arco di trionfo di Costantino subito dietro il Colosseo.",
+    "evidenceAt": 121,
+    "evidence": "dietro al Colosseo Ecco il grande Arco di trionfo di Costantino",
+    "acceptedAnswers": [
+     "Arco di trionfo di Costantino",
+     "Costantino",
+     "Arco di Costantino"
+    ],
+    "modelAnswer": "Arco di trionfo di Costantino"
+   },
+   {
+    "id": "q7",
+    "type": "single_choice",
+    "prompt": "Secondo ascolto: Per cosa è famosa Piazza di Spagna?",
+    "explanation": "Piazza di Spagna è celebre in particolare per la sua scalinata che porta alla chiesa della Trinità dei Monti.",
+    "evidenceAt": 131,
+    "evidence": "Piazza di Spagna famosa per la sua scalinata",
+    "options": [
+     {
+      "id": "a",
+      "text": "Per la sua grande fontana dei quattro fiumi"
+     },
+     {
+      "id": "b",
+      "text": "Per la sua scalinata"
+     },
+     {
+      "id": "c",
+      "text": "Per il mercatino di Natale"
+     },
+     {
+      "id": "d",
+      "text": "Per il museo nazionale"
+     }
+    ],
+    "correctOptionId": "b"
+   },
+   {
+    "id": "q8",
+    "type": "gap_fill",
+    "prompt": "Secondo ascolto: Completa la frase su Piazza Navona.",
+    "explanation": "Piazza Navona ospita la Fontana dei quattro fiumi e si riempie di luci e colori grazie al mercatino di Natale.",
+    "evidenceAt": 144,
+    "evidence": "Piazza Navona conosciuta per la Fontana dei quattro fiumi del Bernini e il mercatino di Natale",
+    "text": "Piazza Navona è conosciuta per la Fontana [[g1]] del Bernini e il mercatino di [[g2]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "dei quattro fiumi",
+       "quattro fiumi"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Natale"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "q9",
+    "type": "true_false",
+    "prompt": "Secondo ascolto: Da Castel Sant'Angelo è possibile ammirare la città dall'alto.",
+    "explanation": "Il video spiega che da Castel Sant'Angelo si può guardare tutta la città dall'alto, inclusa la Basilica di San Pietro.",
+    "evidenceAt": 210,
+    "evidence": "guardare tutta la città dall'alto in particolare la stupenda Basilica di San Pietro",
+    "answer": true
+   },
+   {
+    "id": "q10",
+    "type": "short_answer",
+    "prompt": "Secondo ascolto: Cosa bisogna lanciare nella fontana di Trevi per tornare a Roma?",
+    "explanation": "La tradizione menzionata nel video prevede il lancio di una moneta nella fontana di Trevi per poter tornare a Roma.",
+    "evidenceAt": 219,
+    "evidence": "ricordate di lanciare una moneta nella fontana di Trevi",
+    "acceptedAnswers": [
+     "una moneta",
+     "moneta"
+    ],
+    "modelAnswer": "Una moneta"
+   },
+   {
+    "id": "q11",
+    "type": "word_select",
+    "prompt": "Lessico e lingua: Quali tra queste parole compaiono nel testo del video? (Scegli più risposte)",
+    "explanation": "Nel testo vengono citati esplicitamente monumenti, musei e piazze (ma non spiaggia, montagna o aeroporto).",
+    "evidenceAt": 121,
+    "evidence": "Roma è una città ricca di monumenti musei teatri e piazze",
+    "options": [
+     {
+      "id": "a",
+      "text": "monumento"
+     },
+     {
+      "id": "b",
+      "text": "spiaggia"
+     },
+     {
+      "id": "c",
+      "text": "piazza"
+     },
+     {
+      "id": "d",
+      "text": "montagna"
+     },
+     {
+      "id": "e",
+      "text": "museo"
+     },
+     {
+      "id": "f",
+      "text": "aeroporto"
+     }
+    ],
+    "correctOptionIds": [
+     "a",
+     "c",
+     "e"
+    ]
+   },
+   {
+    "id": "q12",
+    "type": "open_answer",
+    "prompt": "Dopo l'ascolto: Quale tra i luoghi menzionati nel video ti piacerebbe visitare di più e perché? Scrivi 2-3 frasi.",
+    "explanation": "Gli studenti esprimono una preferenza personale motivandola in lingua italiana, senza valutazione automatica.",
+    "modelAnswer": "Mi piacerebbe visitare il Colosseo perché è il simbolo di Roma ed è un monumento antico molto affascinante. Vorrei anche vedere la fontana di Trevi per lanciare una moneta.",
+    "lines": 4,
+    "points": 3
+   }
+  ],
+  "vocabulary": [
+   {
+    "id": "w1",
+    "target": "la capitale",
+    "translations": [
+     "die Hauptstadt"
+    ],
+    "acceptedAnswers": [],
+    "example": "Roma è la capitale d'Italia.",
+    "definition": "La città principale di uno stato."
+   },
+   {
+    "id": "w2",
+    "target": "la strada",
+    "translations": [
+     "die Straße"
+    ],
+    "acceptedAnswers": [],
+    "example": "Via del Corso è una strada importante.",
+    "definition": "Spazio pubblico per camminare o viaggiare in città."
+   },
+   {
+    "id": "w3",
+    "target": "il monumento",
+    "translations": [
+     "das Denkmal",
+     "die Sehenswürdigkeit"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il Colosseo è un famoso monumento.",
+    "definition": "Un'opera o edificio storico importante."
+   },
+   {
+    "id": "w4",
+    "target": "la piazza",
+    "translations": [
+     "der Platz"
+    ],
+    "acceptedAnswers": [],
+    "example": "Piazza Navona è molto bella.",
+    "definition": "Uno spazio aperto e largo in una città."
+   },
+   {
+    "id": "w5",
+    "target": "la chiesa",
+    "translations": [
+     "die Kirche"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ci sono molte chiese a Roma.",
+    "definition": "Edificio destinato al culto religioso cristiano."
+   },
+   {
+    "id": "w6",
+    "target": "la fontana",
+    "translations": [
+     "der Brunnen"
+    ],
+    "acceptedAnswers": [],
+    "example": "La fontana di Trevi è molto famosa.",
+    "definition": "Struttura da cui sgorga acqua per decorazione o uso pubblico."
+   },
+   {
+    "id": "w7",
+    "target": "il museo",
+    "translations": [
+     "das Museum"
+    ],
+    "acceptedAnswers": [],
+    "example": "A Castel Sant'Angelo si visita il museo.",
+    "definition": "Luogo dove si conservano ed espongono oggetti d'arte o storici."
+   },
+   {
+    "id": "w8",
+    "target": "la moneta",
+    "translations": [
+     "die Münze"
+    ],
+    "acceptedAnswers": [],
+    "example": "Lancia una moneta nella fontana.",
+    "definition": "Denaro di metallo."
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "eigen-mvrwii4ucilr",
+  "title": "Ecco 3 più · Unità 1 (S. 166–170)",
+  "language": "it",
+  "level": "B1",
+  "description": "Vokabelliste zur Unità 1 des Lehrwerks Ecco 3 più (Seiten 166 bis 170).",
+  "topics": [
+   "Tradizione",
+   "Roma e Venezia",
+   "Cultura e società"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco 3 più, S. 166-170 (Vokabelteil); Beispielsätze mit KI-Unterstützung eigens formuliert.",
+    "url": "",
+    "rights": "cleared"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Ecco 3 più",
+    "section": "Unità 1",
+    "pages": "166-170"
+   },
+   "grade": 10,
+   "cefr": "B1"
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco 3 più",
+  "section": "Ecco 3 più · Unità 1 (S. 166–170)",
+  "entries": [
+   {
+    "id": "w1",
+    "target": "la maledizione",
+    "translations": [
+     "der Fluch"
+    ],
+    "acceptedAnswers": [],
+    "example": "La pioggia continua sembra una vera maledizione per i contadini.",
+    "definition": "",
+    "page": "166",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w2",
+    "target": "la benedizione",
+    "translations": [
+     "der Segen"
+    ],
+    "acceptedAnswers": [],
+    "example": "L'arrivo del nuovo medico è stato una benedizione per il paese.",
+    "definition": "",
+    "page": "166",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w3",
+    "target": "l'intellettuale",
+    "translations": [
+     "der",
+     "die Intellektuelle"
+    ],
+    "acceptedAnswers": [],
+    "example": "Molti intellettuali hanno partecipato al dibattito politico.",
+    "definition": "",
+    "page": "166",
+    "say": "l'intellettuale, il collega, la collega",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "unknown"
+    }
+   },
+   {
+    "id": "w4",
+    "target": "la civiltà",
+    "translations": [
+     "die Gesellschaft",
+     "die Kultur"
+    ],
+    "acceptedAnswers": [],
+    "example": "La civiltà greca ha influenzato molto la storia europea.",
+    "definition": "",
+    "page": "166",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w5",
+    "target": "da vicino",
+    "translations": [
+     "aus der Nähe"
+    ],
+    "acceptedAnswers": [],
+    "example": "Vorrei osservare quel quadro da vicino.",
+    "definition": "",
+    "page": "166",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w6",
+    "target": "la testimonianza",
+    "translations": [
+     "das Zeugnis",
+     "das Kulturdenkmal"
+    ],
+    "acceptedAnswers": [],
+    "example": "I monumenti antichi sono una testimonianza del passato.",
+    "definition": "",
+    "page": "166",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w7",
+    "target": "il letterato",
+    "translations": [
+     "der Literat"
+    ],
+    "acceptedAnswers": [],
+    "example": "Quel famoso letterato ha scritto diversi romanzi.",
+    "definition": "",
+    "page": "166",
+    "say": "il letterato, la letterata",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w8",
+    "target": "il volume",
+    "translations": [
+     "der Band"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ho comprato l'ultimo volume dell'enciclopedia.",
+    "definition": "",
+    "page": "166",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w9",
+    "target": "l'elaborazione",
+    "translations": [
+     "die Ausarbeitung"
+    ],
+    "acceptedAnswers": [],
+    "example": "L'elaborazione del progetto ha richiesto due mesi.",
+    "definition": "",
+    "page": "166",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w10",
+    "target": "il diario",
+    "translations": [
+     "das Tagebuch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Scrivo i miei pensieri nel diario ogni sera.",
+    "definition": "",
+    "page": "166",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w11",
+    "target": "il lido",
+    "translations": [
+     "der Strand"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ieri abbiamo trascorso una giornata rilassante al lido.",
+    "definition": "",
+    "page": "166",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w12",
+    "target": "il quarto",
+    "translations": [
+     "das Viertel"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ci vediamo tra un quarto d'ora davanti al bar.",
+    "definition": "",
+    "page": "166",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w13",
+    "target": "il cipresso",
+    "translations": [
+     "die Zypresse"
+    ],
+    "acceptedAnswers": [],
+    "example": "Lungo la strada di campagna c'è un lungo filare di cipressi.",
+    "definition": "",
+    "page": "166",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w14",
+    "target": "il casale",
+    "translations": [
+     "das Bauernhaus"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abbiamo affittato un antico casale in Toscana per le vacanze.",
+    "definition": "",
+    "page": "166",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w15",
+    "target": "caratteristico",
+    "translations": [
+     "charakteristisch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questo piatto ha un sapore molto caratteristico.",
+    "definition": "",
+    "page": "166",
+    "say": "caratteristico, caratteristica",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w16",
+    "target": "così come",
+    "translations": [
+     "so wie (auch)"
+    ],
+    "acceptedAnswers": [],
+    "example": "Amo la montagna, così come amo il mare.",
+    "definition": "",
+    "page": "166",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w17",
+    "target": "intatto",
+    "translations": [
+     "intakt",
+     "unberührt"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il centro storico del paese è rimasto intatto negli anni.",
+    "definition": "",
+    "page": "166",
+    "say": "intatto, intatta",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w18",
+    "target": "la specie",
+    "translations": [
+     "die Art",
+     "die Sorte"
+    ],
+    "acceptedAnswers": [],
+    "example": "In questo parco proteggono una specie rara di uccelli.",
+    "definition": "",
+    "page": "166",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w19",
+    "target": "violento",
+    "translations": [
+     "brutal",
+     "grausam"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il temporale di ieri sera è stato molto violento.",
+    "definition": "",
+    "page": "167",
+    "say": "violento, violenta",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w20",
+    "target": "la contrada",
+    "translations": [
+     "das Viertel"
+    ],
+    "acceptedAnswers": [],
+    "example": "Oggi c'è una grande festa nella nostra contrada.",
+    "definition": "",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w21",
+    "target": "la bandiera",
+    "translations": [
+     "die Fahne"
+    ],
+    "acceptedAnswers": [],
+    "example": "La bandiera italiana è verde, bianca e rossa.",
+    "definition": "",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w22",
+    "target": "difendere",
+    "translations": [
+     "verteidigen"
+    ],
+    "acceptedAnswers": [],
+    "example": "L'avvocato cerca di difendere il suo cliente in tribunale.",
+    "definition": "",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w23",
+    "target": "la manifestazione",
+    "translations": [
+     "die Veranstaltung"
+    ],
+    "acceptedAnswers": [],
+    "example": "La manifestazione culturale attira molti visitatori.",
+    "definition": "",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w24",
+    "target": "essere sufficiente",
+    "translations": [
+     "genügen",
+     "ausreichen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non è sufficiente studiare solo un'ora prima dell'esame.",
+    "definition": "",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w25",
+    "target": "prima che",
+    "translations": [
+     "bevor"
+    ],
+    "acceptedAnswers": [],
+    "example": "Chiudiamo le finestre prima che cominci a piovere.",
+    "definition": "",
+    "usage": "+ congiuntivo",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w26",
+    "target": "innanzitutto",
+    "translations": [
+     "insbesondere",
+     "zuerst"
+    ],
+    "acceptedAnswers": [],
+    "example": "Innanzitutto vorrei salutare tutti gli ospiti presenti.",
+    "definition": "",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "other"
+    }
+   },
+   {
+    "id": "w27",
+    "target": "globalizzato",
+    "translations": [
+     "globalisiert"
+    ],
+    "acceptedAnswers": [],
+    "example": "Viviamo in un mondo sempre più globalizzato.",
+    "definition": "",
+    "page": "167",
+    "say": "globalizzato, globalizzata",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w28",
+    "target": "la diversità",
+    "translations": [
+     "die Verschiedenheit",
+     "die Vielfalt"
+    ],
+    "acceptedAnswers": [],
+    "example": "La diversità culturale arricchisce la nostra società.",
+    "definition": "",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w29",
+    "target": "correre il rischio",
+    "translations": [
+     "ein Risiko eingehen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non voglio correre il rischio di arrivare in ritardo.",
+    "definition": "",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w30",
+    "target": "il popolo",
+    "translations": [
+     "das Volk"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il popolo ha festeggiato la vittoria della squadra.",
+    "definition": "",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w31",
+    "target": "sopravvivere",
+    "translations": [
+     "überleben"
+    ],
+    "acceptedAnswers": [],
+    "example": "Molti animali riescono a sopravvivere anche durante l'inverno rigido.",
+    "definition": "",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w32",
+    "target": "l'identità",
+    "translations": [
+     "die Identität"
+    ],
+    "acceptedAnswers": [],
+    "example": "La lingua è un elemento fondamentale dell'identità nazionale.",
+    "definition": "",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w33",
+    "target": "la ragione",
+    "translations": [
+     "der Grund"
+    ],
+    "acceptedAnswers": [],
+    "example": "Qual è la ragione di questa tua decisione?",
+    "definition": "",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w34",
+    "target": "l'elemento",
+    "translations": [
+     "der Bestandteil",
+     "das Element"
+    ],
+    "acceptedAnswers": [],
+    "example": "L'acqua è un elemento essenziale per la vita.",
+    "definition": "",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w35",
+    "target": "positivo",
+    "translations": [
+     "positiv"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abbiamo ottenuto un risultato molto positivo.",
+    "definition": "",
+    "page": "167",
+    "say": "positivo, positiva",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w36",
+    "target": "il punto di vista",
+    "translations": [
+     "die Sichtweise",
+     "der Standpunkt"
+    ],
+    "acceptedAnswers": [],
+    "example": "Capisco il tuo punto di vista, ma la penso diversamente.",
+    "definition": "",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w37",
+    "target": "la meta",
+    "translations": [
+     "das Ziel"
+    ],
+    "acceptedAnswers": [],
+    "example": "Firenze è una meta ideale per gli amanti dell'arte.",
+    "definition": "",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w38",
+    "target": "ricco",
+    "translations": [
+     "reich"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questo territorio è ricco di risorse naturali.",
+    "definition": "",
+    "page": "167",
+    "say": "ricco, ricca",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w39",
+    "target": "grazie a",
+    "translations": [
+     "dank"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abbiamo vinto la partita grazie a te.",
+    "definition": "",
+    "page": "167",
+    "say": "grazie a qualcuno, qualcosa",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w40",
+    "target": "l'aiuto",
+    "translations": [
+     "die Hilfe"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ti ringrazio molto per il tuo aiuto.",
+    "definition": "",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w41",
+    "target": "l'opinione",
+    "translations": [
+     "die Meinung"
+    ],
+    "acceptedAnswers": [],
+    "example": "Secondo la mia opinione dovremmo accettare l'offerta.",
+    "definition": "",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w42",
+    "target": "pubblico",
+    "translations": [
+     "öffentlich"
+    ],
+    "acceptedAnswers": [],
+    "example": "L'autobus è un mezzo di trasporto pubblico.",
+    "definition": "",
+    "page": "167",
+    "say": "pubblico, pubblica",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w43",
+    "target": "apprezzare",
+    "translations": [
+     "schätzen",
+     "würdigen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Apprezzo molto la tua gentilezza e la tua disponibilità.",
+    "definition": "",
+    "page": "167",
+    "say": "apprezzare qualcuno, qualcosa",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w44",
+    "target": "proteggere",
+    "translations": [
+     "schützen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dobbiamo fare di tutto per proteggere l'ambiente.",
+    "definition": "",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w45",
+    "target": "affinché",
+    "translations": [
+     "damit"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ti ho spiegato la regola affinché tu non faccia errori.",
+    "definition": "",
+    "usage": "+ congiuntivo",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "other"
+    }
+   },
+   {
+    "id": "w46",
+    "target": "la curva",
+    "translations": [
+     "die Kurve"
+    ],
+    "acceptedAnswers": [],
+    "example": "Frena prima di entrare in curva!",
+    "definition": "",
+    "page": "167",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w47",
+    "target": "sebbene",
+    "translations": [
+     "obwohl"
+    ],
+    "acceptedAnswers": [],
+    "example": "È uscito di casa sebbene stesse piovendo forte.",
+    "definition": "",
+    "usage": "+ congiuntivo",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "other"
+    }
+   },
+   {
+    "id": "w48",
+    "target": "perché",
+    "translations": [
+     "damit"
+    ],
+    "acceptedAnswers": [],
+    "example": "Parlo piano perché il bambino possa dormire.",
+    "definition": "",
+    "usage": "+ congiuntivo",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "other"
+    }
+   },
+   {
+    "id": "w49",
+    "target": "lo spettatore",
+    "translations": [
+     "der",
+     "die Zuschauer",
+     "in"
+    ],
+    "acceptedAnswers": [],
+    "example": "Gli spettatori hanno applaudito alla fine dello spettacolo.",
+    "definition": "",
+    "page": "168",
+    "say": "lo spettatore, la spettatrice",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w50",
+    "target": "principale",
+    "translations": [
+     "Haupt-",
+     "hauptsächlich"
+    ],
+    "acceptedAnswers": [],
+    "example": "La ragione principale del mio viaggio è lo studio.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w51",
+    "target": "stupirsi",
+    "translations": [
+     "sich wundern",
+     "erstaunen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non mi stupisco della sua reazione improvvisa.",
+    "definition": "",
+    "usage": "isc-Verb",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w52",
+    "target": "ciò nonostante",
+    "translations": [
+     "trotzdem",
+     "dennoch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ero molto stanco; ciò nonostante ho continuato a lavorare.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w53",
+    "target": "accettare",
+    "translations": [
+     "annehmen",
+     "gelten lassen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ha deciso di accettare l'invito a cena.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w54",
+    "target": "l'affermazione",
+    "translations": [
+     "die Behauptung"
+    ],
+    "acceptedAnswers": [],
+    "example": "La sua affermazione non corrisponde alla realtà dei fatti.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w55",
+    "target": "attivo",
+    "translations": [
+     "aktiv"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mio nonno è ancora una persona molto attiva.",
+    "definition": "",
+    "page": "168",
+    "say": "attivo, attiva",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w56",
+    "target": "la protezione animali",
+    "translations": [
+     "Tierschutz"
+    ],
+    "acceptedAnswers": [],
+    "example": "L'associazione per la protezione animali si occupa dei cani randagi.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w57",
+    "target": "straordinario",
+    "translations": [
+     "außergewöhnlich"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abbiamo assistito a un concerto davvero straordinario.",
+    "definition": "",
+    "page": "168",
+    "say": "straordinario, straordinaria",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w58",
+    "target": "prima di tutto",
+    "translations": [
+     "zuallererst",
+     "vorneweg"
+    ],
+    "acceptedAnswers": [],
+    "example": "Prima di tutto dobbiamo controllare che tutto sia pronto.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w59",
+    "target": "in secondo luogo",
+    "translations": [
+     "zweitens",
+     "an zweiter Stelle"
+    ],
+    "acceptedAnswers": [],
+    "example": "In secondo luogo vorrei sottolineare i costi del progetto.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w60",
+    "target": "legare",
+    "translations": [
+     "verbinden",
+     "binden"
+    ],
+    "acceptedAnswers": [],
+    "example": "Un'amicizia profonda riesce a legare due persone per sempre.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w61",
+    "target": "soltanto",
+    "translations": [
+     "nur"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ci vorranno soltanto pochi minuti per finire il compito.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "other"
+    }
+   },
+   {
+    "id": "w62",
+    "target": "la corruzione",
+    "translations": [
+     "die Korruption",
+     "die Bestechung"
+    ],
+    "acceptedAnswers": [],
+    "example": "La lotta contro la corruzione è una sfida fondamentale.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w63",
+    "target": "tutto sommato",
+    "translations": [
+     "alles in allem"
+    ],
+    "acceptedAnswers": [],
+    "example": "Tutto sommato è stata una bellissima esperienza.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w64",
+    "target": "abolire",
+    "translations": [
+     "abschaffen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il governo vuole abolire questa vecchia legge.",
+    "definition": "",
+    "usage": "isc-Verb",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w65",
+    "target": "concentrarsi",
+    "translations": [
+     "sich konzentrieren"
+    ],
+    "acceptedAnswers": [],
+    "example": "Devo concentrarmi per superare la prova di domani.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w66",
+    "target": "centrare",
+    "translations": [
+     "treffen",
+     "erfassen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Con le sue parole è riuscito a centrare l'argomento principale.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w67",
+    "target": "adatto",
+    "translations": [
+     "geeignet"
+    ],
+    "acceptedAnswers": [],
+    "example": "Cerchiamo un luogo adatto per organizzare il pic-nic.",
+    "definition": "",
+    "page": "168",
+    "say": "adatto, adatta",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w68",
+    "target": "realizzare",
+    "translations": [
+     "durchführen",
+     "verwirchlichen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dopo anni è finalmente riuscito a realizzare il suo sogno.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w69",
+    "target": "il negozio di souvenir",
+    "translations": [
+     "der Souvenir-Laden"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ho comprato una cartolina nel negozio di souvenir.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w70",
+    "target": "benché",
+    "translations": [
+     "obwohl"
+    ],
+    "acceptedAnswers": [],
+    "example": "Benché sia faticoso, mi piace fare sport ogni mattina.",
+    "definition": "",
+    "usage": "+ congiuntivo",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "other"
+    }
+   },
+   {
+    "id": "w71",
+    "target": "cattivo",
+    "translations": [
+     "schlecht"
+    ],
+    "acceptedAnswers": [],
+    "example": "Oggi c'è davvero un cattivo tempo.",
+    "definition": "",
+    "page": "168",
+    "say": "cattivo, cattiva",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w72",
+    "target": "il colore",
+    "translations": [
+     "die Farbe"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il blu è il mio colore preferito.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w73",
+    "target": "significare",
+    "translations": [
+     "bedeuten"
+    ],
+    "acceptedAnswers": [],
+    "example": "Che cosa significa questa parola in italiano?",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w74",
+    "target": "temere",
+    "translations": [
+     "fürchten"
+    ],
+    "acceptedAnswers": [],
+    "example": "Temo che domani non ci sarà bel tempo.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w75",
+    "target": "rendersi conto di",
+    "translations": [
+     "sich über etwas klar werden"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mi rendo conto di aver commesso un errore.",
+    "definition": "",
+    "page": "168",
+    "say": "rendersi conto di qualcosa",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w76",
+    "target": "man mano",
+    "translations": [
+     "allmählich"
+    ],
+    "acceptedAnswers": [],
+    "example": "Man mano che passa il tempo, la situazione migliora.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w77",
+    "target": "la maschera",
+    "translations": [
+     "die Maske"
+    ],
+    "acceptedAnswers": [],
+    "example": "A Carnevale tutti indossano una maschera colorata.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w78",
+    "target": "fotografare",
+    "translations": [
+     "fotografieren"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mi piace fotografare i paesaggi durante le vacanze.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w79",
+    "target": "la posizione",
+    "translations": [
+     "die Position",
+     "die Haltung"
+    ],
+    "acceptedAnswers": [],
+    "example": "Cerca di mantenere una posizione corretta mentre studi.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w80",
+    "target": "l'account",
+    "translations": [
+     "der Account"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ho creato un nuovo account sulla piattaforma digitale.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w81",
+    "target": "segreto",
+    "translations": [
+     "geheim"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ci siamo incontrati in un luogo segreto.",
+    "definition": "",
+    "page": "168",
+    "say": "segreto, segreta",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w82",
+    "target": "abbandonato",
+    "translations": [
+     "verlassen",
+     "vereinsamt"
+    ],
+    "acceptedAnswers": [],
+    "example": "In quella strada c'è un casale completamente abbandonato.",
+    "definition": "",
+    "page": "168",
+    "say": "abbandonato, abbandonata",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w83",
+    "target": "pieno",
+    "translations": [
+     "voll"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il cesto è pieno di frutta fresca.",
+    "definition": "",
+    "page": "168",
+    "say": "pieno, piena",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w84",
+    "target": "il carnevale",
+    "translations": [
+     "der Karneval"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il carnevale di Venezia è celebre in tutto il mondo.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w85",
+    "target": "stratosferico",
+    "translations": [
+     "astronomisch",
+     "überhöht"
+    ],
+    "acceptedAnswers": [],
+    "example": "Gli hotel durante l'evento hanno prezzi stratosferici.",
+    "definition": "",
+    "page": "168",
+    "say": "stratosferico, stratosferica",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w86",
+    "target": "l'atmosfera",
+    "translations": [
+     "die Atmosphäre"
+    ],
+    "acceptedAnswers": [],
+    "example": "In quel piccolo ristorante c'è un'atmosfera davvero accogliente.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w87",
+    "target": "generale",
+    "translations": [
+     "allgemein"
+    ],
+    "acceptedAnswers": [],
+    "example": "L'impressione generale del pubblico è stata positiva.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w88",
+    "target": "estremo",
+    "translations": [
+     "extrem",
+     "äußerst"
+    ],
+    "acceptedAnswers": [],
+    "example": "I piloti devono guidare con un'estrema attenzione.",
+    "definition": "",
+    "page": "168",
+    "say": "estremo, estrema",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w89",
+    "target": "rilassato",
+    "translations": [
+     "entspannt"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dopo le vacanze mi sento molto più rilassato.",
+    "definition": "",
+    "page": "168",
+    "say": "rilassato, rilassata",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w90",
+    "target": "avere a che vedere con",
+    "translations": [
+     "zu tun haben mit"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il mio lavoro non ha niente a che vedere con la matematica.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w91",
+    "target": "qualsiasi",
+    "translations": [
+     "jede(r,s)",
+     "beliebige(r,s)"
+    ],
+    "acceptedAnswers": [],
+    "example": "Puoi chiamarmi a qualsiasi ora della giornata.",
+    "definition": "",
+    "page": "168",
+    "grammar": {
+     "partOfSpeech": "other"
+    }
+   },
+   {
+    "id": "w92",
+    "target": "la nave",
+    "translations": [
+     "das Schiff"
+    ],
+    "acceptedAnswers": [],
+    "example": "La grande nave è entrata lentamente nel porto.",
+    "definition": "",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w93",
+    "target": "spaventare",
+    "translations": [
+     "erschrecken"
+    ],
+    "acceptedAnswers": [],
+    "example": "Quel rumore improvviso ha spaventato tutti.",
+    "definition": "",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w94",
+    "target": "spaventarsi",
+    "translations": [
+     "sich erschrecken"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non spaventarti, è soltanto un piccolo gatto!",
+    "definition": "",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w95",
+    "target": "la nave da crociera",
+    "translations": [
+     "das Kreuzfahrtschiff"
+    ],
+    "acceptedAnswers": [],
+    "example": "Una gigantesca nave da crociera ha attraversato il canale.",
+    "definition": "",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w96",
+    "target": "a forza",
+    "translations": [
+     "mit Gewalt"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non puoi convincere le persone a forza.",
+    "definition": "",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w97",
+    "target": "per forza",
+    "translations": [
+     "unbedingt"
+    ],
+    "acceptedAnswers": [],
+    "example": "Se vai a Roma devi per forza visitare il Colosseo.",
+    "definition": "",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w98",
+    "target": "fuori luogo",
+    "translations": [
+     "unangebracht",
+     "fehl am Platz"
+    ],
+    "acceptedAnswers": [],
+    "example": "La sua battuta durante la riunione mi è sembrata fuori luogo.",
+    "definition": "",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w99",
+    "target": "fuori tempo",
+    "translations": [
+     "nicht zeitgemäß"
+    ],
+    "acceptedAnswers": [],
+    "example": "Certi pregiudizi oggi sono del tutto fuori tempo.",
+    "definition": "",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w100",
+    "target": "fuori stagione",
+    "translations": [
+     "außerhalb der Saison"
+    ],
+    "acceptedAnswers": [],
+    "example": "Viaggiare fuori stagione costa molto meno.",
+    "definition": "",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w101",
+    "target": "fuori moda",
+    "translations": [
+     "aus der Mode",
+     "unmodisch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Quel vestito è ormai totalmente fuori moda.",
+    "definition": "",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w102",
+    "target": "enorme",
+    "translations": [
+     "enorm",
+     "gewaltig"
+    ],
+    "acceptedAnswers": [],
+    "example": "C'è un enorme parco vicino alla casa di Marco.",
+    "definition": "",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w103",
+    "target": "il cartellone",
+    "translations": [
+     "das Plakat"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abbiamo visto un cartellone pubblicitario lungo la strada.",
+    "definition": "",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w104",
+    "target": "il passato",
+    "translations": [
+     "Vergangenheit"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non dobbiamo mai dimenticare le lezioni del passato.",
+    "definition": "",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w105",
+    "target": "il mostro",
+    "translations": [
+     "das Monster"
+    ],
+    "acceptedAnswers": [],
+    "example": "I bambini raccontano spesso storie di mostri inventati.",
+    "definition": "",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w106",
+    "target": "la dimensione",
+    "translations": [
+     "die Dimension"
+    ],
+    "acceptedAnswers": [],
+    "example": "Quel problema sta prendendo una dimensione preoccupante.",
+    "definition": "",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w107",
+    "target": "lento",
+    "translations": [
+     "langsam"
+    ],
+    "acceptedAnswers": [],
+    "example": "Quel treno regionale è davvero molto lento.",
+    "definition": "",
+    "page": "169",
+    "say": "lento, lenta",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w108",
+    "target": "il canale",
+    "translations": [
+     "der Kanal"
+    ],
+    "acceptedAnswers": [],
+    "example": "Le gondole navigano sui canali di Venezia.",
+    "definition": "",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w109",
+    "target": "il fascino",
+    "translations": [
+     "der Charme"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questa vecchia città storica ha un fascino unico.",
+    "definition": "",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w110",
+    "target": "sbattere",
+    "translations": [
+     "gegen qualcosa stoßen",
+     "knallen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ha chiuso la porta sbattendola forte per la rabbia.",
+    "definition": "",
+    "usage": "anche: sbattere contro",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w111",
+    "target": "nonostante",
+    "translations": [
+     "trotz"
+    ],
+    "acceptedAnswers": [],
+    "example": "Siamo usciti nonostante la pioggia battente.",
+    "definition": "",
+    "usage": "+ congiuntivo / sostantivo",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "other"
+    }
+   },
+   {
+    "id": "w112",
+    "target": "il lato",
+    "translations": [
+     "die Seite"
+    ],
+    "acceptedAnswers": [],
+    "example": "Bisogna considerare la questione da ogni lato.",
+    "definition": "",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine"
+    }
+   },
+   {
+    "id": "w113",
+    "target": "negativo",
+    "translations": [
+     "negativ"
+    ],
+    "acceptedAnswers": [],
+    "example": "Cerca di evitare di avere sempre pensieri negativi.",
+    "definition": "",
+    "page": "169",
+    "say": "negativo, negativa",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w114",
+    "target": "proporre",
+    "translations": [
+     "vorschlagen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Vorrei proporre un'idea per la nostra prossima gita.",
+    "definition": "",
+    "page": "169",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w115",
+    "target": "fare piacere a",
+    "translations": [
+     "jemanden erfreuen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mi fa molto piacere rivederti dopo tutto questo tempo.",
+    "definition": "",
+    "page": "170",
+    "say": "fare piacere a qualcuno",
+    "grammar": {
+     "partOfSpeech": "phrase"
+    }
+   },
+   {
+    "id": "w116",
+    "target": "natale",
+    "translations": [
+     "Geburts-"
+    ],
+    "acceptedAnswers": [],
+    "example": "Vorrei tornare nella mia terra natale per le vacanze.",
+    "definition": "",
+    "page": "170",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w117",
+    "target": "ricominciare",
+    "translations": [
+     "wieder anfangen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dopo una breve pausa possiamo ricominciare la lezione.",
+    "definition": "",
+    "page": "170",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w118",
+    "target": "rubare",
+    "translations": [
+     "stehlen"
+    ],
+    "acceptedAnswers": [],
+    "example": "I ladri hanno provato a rubare una bicicletta nel cortile.",
+    "definition": "",
+    "page": "170",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   },
+   {
+    "id": "w119",
+    "target": "la fama",
+    "translations": [
+     "der Ruf"
+    ],
+    "acceptedAnswers": [],
+    "example": "Quel ristorante ha la fama di servire la miglior pizza della città.",
+    "definition": "",
+    "page": "170",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w120",
+    "target": "la pubblicazione",
+    "translations": [
+     "die Veröffentlichung"
+    ],
+    "acceptedAnswers": [],
+    "example": "La pubblicazione del suo nuovo romanzo è prevista per maggio.",
+    "definition": "",
+    "page": "170",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w121",
+    "target": "l'integrazione",
+    "translations": [
+     "die Integration",
+     "die Eingliederung"
+    ],
+    "acceptedAnswers": [],
+    "example": "L'integrazione sociale è un tema molto importante.",
+    "definition": "",
+    "page": "170",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine"
+    }
+   },
+   {
+    "id": "w122",
+    "target": "caotico",
+    "translations": [
+     "chaotisch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il traffico del lunedì mattina è sempre caotico.",
+    "definition": "",
+    "page": "170",
+    "say": "caotico, caotica",
+    "grammar": {
+     "partOfSpeech": "adjective"
+    }
+   },
+   {
+    "id": "w123",
+    "target": "soffocare",
+    "translations": [
+     "ersticken"
+    ],
+    "acceptedAnswers": [],
+    "example": "Si soffoca in questa stanza senza aria condizionata.",
+    "definition": "",
+    "page": "170",
+    "grammar": {
+     "partOfSpeech": "verb"
+    }
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
   "kind": "vocabulary",
   "id": "it-ecco1-aa-arbeitsauftraege",
   "title": "Ecco più 1 · Arbeitsaufträge",
