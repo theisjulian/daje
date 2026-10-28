@@ -1,0 +1,125 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-tutto-l2",
+ "title": "Tutto, tutta, tutti, tutte",
+ "language": "it",
+ "level": "A1",
+ "description": "Tutto + articolo · Tutto, tutta, tutti, tutte · livello facile.",
+ "topics": [
+  "Tutto + articolo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · tutto + Artikel"
+ },
+ "grammar": {
+  "topic": "ecco1-tutto",
+  "topicTitle": "Tutto + articolo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 22,
+  "rule": "**tutto** + **articolo** + nome; tutto cambia come il nome:\n| | singolare | plurale |\n| maschile | tutto **il** giorno | tutti **i** giorni |\n| femminile | tutta **la** sera | tutte **le** sere |\n\n_Tutti i ragazzi sono al mare. · Mangio tutta la pizza. · Tutte le mattine vado a correre._\nDa solo: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+  "ruleHelp": "**tutto** + **Artikel** + Nomen, angepasst an das Nomen: tutto il giorno, tutta la sera, tutti i giorni, tutte le sere.\nAllein: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Quale forma va con il nome?",
+   "promptHelp": "Welche Form passt zum Nomen?",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "o",
+     "label": "tutto"
+    },
+    {
+     "id": "a",
+     "label": "tutta"
+    },
+    {
+     "id": "i",
+     "label": "tutti"
+    },
+    {
+     "id": "e",
+     "label": "tutte"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "il giorno",
+     "category": "o"
+    },
+    {
+     "id": "i2",
+     "text": "il tempo",
+     "category": "o"
+    },
+    {
+     "id": "i3",
+     "text": "la sera",
+     "category": "a"
+    },
+    {
+     "id": "i4",
+     "text": "la famiglia",
+     "category": "a"
+    },
+    {
+     "id": "i5",
+     "text": "i ragazzi",
+     "category": "i"
+    },
+    {
+     "id": "i6",
+     "text": "i giorni",
+     "category": "i"
+    },
+    {
+     "id": "i7",
+     "text": "gli amici",
+     "category": "i"
+    },
+    {
+     "id": "i8",
+     "text": "le mattine",
+     "category": "e"
+    },
+    {
+     "id": "i9",
+     "text": "le amiche",
+     "category": "e"
+    },
+    {
+     "id": "i10",
+     "text": "la classe",
+     "category": "a"
+    }
+   ]
+  }
+ ]
+}

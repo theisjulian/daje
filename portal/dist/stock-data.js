@@ -54578,7 +54578,7 @@ const STOCK_PACKAGES = [
     "prompt": "Completa il dialogo.",
     "explanation": "",
     "promptHelp": "Ergänze den Dialog.",
-    "text": "Commessa: Buongiorno, mi [[g1]]!\nCliente: Buongiorno. [[g2]] una felpa grigia.\nCommessa: Che taglia porta?\nCliente: La M. Posso [[g3]]?\nCommessa: Certo, [[g4]]! Il camerino è lì.\nCliente: [[g5]], ha una taglia più grande? Questa è piccola.\nCommessa: Sì, ecco la L. Le [[g6]] benissimo!\nCliente: Grazie! Quanto [[g7]]?\nCommessa: Trenta euro. Paga alla [[g8]], grazie.",
+    "text": "Commessa: Buongiorno, mi [[g1]]!\nCliente: Buongiorno. [[g2]] una felpa grigia.\nCommessa: Che taglia porta?\nCliente: La M. Posso [[g3]]?\nCommessa: Certo, [[g4]]! Il camerino è lì.\nCliente: [[g5]], ha una taglia più grande? Questa è piccola.\nCommessa: Sì, ecco la L. Le [[g6]] benissimo!\nCliente: Grazie! Quanto [[g7]]?\nCommessa: Trenta euro. Può pagare alla [[g8]], grazie.",
     "gaps": [
      {
       "id": "g1",
@@ -83873,6 +83873,1092 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco1-qualche-alcuni-l1",
+  "title": "Qualche o alcuni / alcune?",
+  "language": "it",
+  "level": "A1",
+  "description": "Qualche e alcuni / alcune · Qualche o alcuni / alcune? · livello facile.",
+  "topics": [
+   "Qualche e alcuni / alcune",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitbegleiter qualche, alcuni / alcune"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-qualche-alcuni",
+   "topicTitle": "Qualche e alcuni / alcune",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**qualche** (einige) non cambia e va con il **singolare**: _qualche giorno, qualche amica._\n**alcuni / alcune** vanno con il **plurale**: _alcuni giorni, alcune amiche._\nIl significato è uguale: _Ho qualche amico a Roma = Ho alcuni amici a Roma._\nDa solo (pronome): _**Alcuni** di noi vanno in spiaggia, altri in centro._",
+   "ruleHelp": "**qualche** (einige) bleibt gleich und steht mit dem **Singular**: _qualche giorno, qualche amica._\n**alcuni / alcune** stehen mit dem **Plural**: _alcuni giorni, alcune amiche._ Gleiche Bedeutung.\nAllein: _Alcuni di noi vanno in spiaggia, altri in centro._",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "qualche + singolare, alcuni/alcune + plurale.",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "qualche + Singular, alcuni/alcune + Plural.",
+    "text": "Ho [[g1]] amico a Roma.\nHo [[g2]] amici a Milano.\nRestiamo [[g3]] giorno al mare.\nRestiamo [[g4]] giorni al mare.\nHo comprato [[g5]] cartoline.\nMando [[g6]] cartolina.\n[[g7]] ragazze giocano a pallavolo.\nC’è [[g8]] nuvola in cielo.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "qualche",
+       "alcuni",
+       "alcune"
+      ],
+      "answer": "qualche"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "alcuni",
+       "qualche",
+       "alcune"
+      ],
+      "answer": "alcuni"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "qualche",
+       "alcuni",
+       "alcune"
+      ],
+      "answer": "qualche"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "alcuni",
+       "alcune",
+       "qualche"
+      ],
+      "answer": "alcuni"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "alcune",
+       "alcuni",
+       "qualche"
+      ],
+      "answer": "alcune"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "qualche",
+       "alcune",
+       "alcuni"
+      ],
+      "answer": "qualche"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "Alcune",
+       "Alcuni",
+       "Qualche"
+      ],
+      "answer": "Alcune"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "qualche",
+       "alcuni",
+       "alcune"
+      ],
+      "answer": "qualche"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-qualche-alcuni-l2",
+  "title": "Singolare o plurale?",
+  "language": "it",
+  "level": "A1",
+  "description": "Qualche e alcuni / alcune · Singolare o plurale? · livello facile.",
+  "topics": [
+   "Qualche e alcuni / alcune",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitbegleiter qualche, alcuni / alcune"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-qualche-alcuni",
+   "topicTitle": "Qualche e alcuni / alcune",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**qualche** (einige) non cambia e va con il **singolare**: _qualche giorno, qualche amica._\n**alcuni / alcune** vanno con il **plurale**: _alcuni giorni, alcune amiche._\nIl significato è uguale: _Ho qualche amico a Roma = Ho alcuni amici a Roma._\nDa solo (pronome): _**Alcuni** di noi vanno in spiaggia, altri in centro._",
+   "ruleHelp": "**qualche** (einige) bleibt gleich und steht mit dem **Singular**: _qualche giorno, qualche amica._\n**alcuni / alcune** stehen mit dem **Plural**: _alcuni giorni, alcune amiche._ Gleiche Bedeutung.\nAllein: _Alcuni di noi vanno in spiaggia, altri in centro._",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Va con qualche o con alcuni / alcune?",
+    "explanation": "",
+    "promptHelp": "Passt zu qualche oder zu alcuni / alcune?",
+    "categories": [
+     {
+      "id": "q",
+      "label": "qualche"
+     },
+     {
+      "id": "a",
+      "label": "alcuni / alcune"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "giorno",
+      "category": "q"
+     },
+     {
+      "id": "i2",
+      "text": "amica",
+      "category": "q"
+     },
+     {
+      "id": "i3",
+      "text": "foto",
+      "category": "q"
+     },
+     {
+      "id": "i4",
+      "text": "volta",
+      "category": "q"
+     },
+     {
+      "id": "i5",
+      "text": "libro",
+      "category": "q"
+     },
+     {
+      "id": "i6",
+      "text": "giorni",
+      "category": "a"
+     },
+     {
+      "id": "i7",
+      "text": "amiche",
+      "category": "a"
+     },
+     {
+      "id": "i8",
+      "text": "foto (plurale)",
+      "category": "a"
+     },
+     {
+      "id": "i9",
+      "text": "volte",
+      "category": "a"
+     },
+     {
+      "id": "i10",
+      "text": "libri",
+      "category": "a"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-qualche-alcuni-l3",
+  "title": "Alcuni o alcune?",
+  "language": "it",
+  "level": "A1",
+  "description": "Qualche e alcuni / alcune · Alcuni o alcune? · livello facile.",
+  "topics": [
+   "Qualche e alcuni / alcune",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitbegleiter qualche, alcuni / alcune"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-qualche-alcuni",
+   "topicTitle": "Qualche e alcuni / alcune",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**qualche** (einige) non cambia e va con il **singolare**: _qualche giorno, qualche amica._\n**alcuni / alcune** vanno con il **plurale**: _alcuni giorni, alcune amiche._\nIl significato è uguale: _Ho qualche amico a Roma = Ho alcuni amici a Roma._\nDa solo (pronome): _**Alcuni** di noi vanno in spiaggia, altri in centro._",
+   "ruleHelp": "**qualche** (einige) bleibt gleich und steht mit dem **Singular**: _qualche giorno, qualche amica._\n**alcuni / alcune** stehen mit dem **Plural**: _alcuni giorni, alcune amiche._ Gleiche Bedeutung.\nAllein: _Alcuni di noi vanno in spiaggia, altri in centro._",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli alcuni o alcune.",
+    "explanation": "",
+    "promptHelp": "Wähle alcuni oder alcune.",
+    "text": "[[g1]] ragazzi vanno in centro.\n[[g2]] ragazze vanno in spiaggia.\nHo visitato [[g3]] monumenti.\nAbbiamo fatto [[g4]] spese.\nCi sono [[g5]] nuvole.\nLeggo [[g6]] libri in vacanza.\nConosco [[g7]] canzoni italiane.\nMangiamo [[g8]] panini.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Alcuni",
+       "Alcune"
+      ],
+      "answer": "Alcuni"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Alcune",
+       "Alcuni"
+      ],
+      "answer": "Alcune"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "alcuni",
+       "alcune"
+      ],
+      "answer": "alcuni"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "alcune",
+       "alcuni"
+      ],
+      "answer": "alcune"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "alcune",
+       "alcuni"
+      ],
+      "answer": "alcune"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "alcuni",
+       "alcune"
+      ],
+      "answer": "alcuni"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "alcune",
+       "alcuni"
+      ],
+      "answer": "alcune"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "alcuni",
+       "alcune"
+      ],
+      "answer": "alcuni"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-qualche-alcuni-m1",
+  "title": "Da qualche ad alcuni",
+  "language": "it",
+  "level": "A1",
+  "description": "Qualche e alcuni / alcune · Da qualche ad alcuni · livello medio.",
+  "topics": [
+   "Qualche e alcuni / alcune",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitbegleiter qualche, alcuni / alcune"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-qualche-alcuni",
+   "topicTitle": "Qualche e alcuni / alcune",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**qualche** (einige) non cambia e va con il **singolare**: _qualche giorno, qualche amica._\n**alcuni / alcune** vanno con il **plurale**: _alcuni giorni, alcune amiche._\nIl significato è uguale: _Ho qualche amico a Roma = Ho alcuni amici a Roma._\nDa solo (pronome): _**Alcuni** di noi vanno in spiaggia, altri in centro._",
+   "ruleHelp": "**qualche** (einige) bleibt gleich und steht mit dem **Singular**: _qualche giorno, qualche amica._\n**alcuni / alcune** stehen mit dem **Plural**: _alcuni giorni, alcune amiche._ Gleiche Bedeutung.\nAllein: _Alcuni di noi vanno in spiaggia, altri in centro._",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Riscrivi con alcuni / alcune.",
+    "explanation": "qualche + singolare → alcuni/alcune + plurale.",
+    "promptHelp": "Schreibe mit alcuni / alcune um.",
+    "explanationHelp": "qualche + Singular → alcuni/alcune + Plural.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "qualche giorno",
+      "acceptedAnswers": [
+       "alcuni giorni"
+      ],
+      "modelAnswer": "alcuni giorni"
+     },
+     {
+      "id": "s2",
+      "start": "qualche amica",
+      "acceptedAnswers": [
+       "alcune amiche"
+      ],
+      "modelAnswer": "alcune amiche"
+     },
+     {
+      "id": "s3",
+      "start": "qualche libro",
+      "acceptedAnswers": [
+       "alcuni libri"
+      ],
+      "modelAnswer": "alcuni libri"
+     },
+     {
+      "id": "s4",
+      "start": "qualche spiaggia",
+      "acceptedAnswers": [
+       "alcune spiagge"
+      ],
+      "modelAnswer": "alcune spiagge"
+     },
+     {
+      "id": "s5",
+      "start": "qualche città",
+      "acceptedAnswers": [
+       "alcune città"
+      ],
+      "modelAnswer": "alcune città"
+     },
+     {
+      "id": "s6",
+      "start": "qualche gelato",
+      "acceptedAnswers": [
+       "alcuni gelati"
+      ],
+      "modelAnswer": "alcuni gelati"
+     },
+     {
+      "id": "s7",
+      "start": "qualche foto",
+      "acceptedAnswers": [
+       "alcune foto"
+      ],
+      "modelAnswer": "alcune foto"
+     },
+     {
+      "id": "s8",
+      "start": "qualche museo",
+      "acceptedAnswers": [
+       "alcuni musei"
+      ],
+      "modelAnswer": "alcuni musei"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-qualche-alcuni-m2",
+  "title": "In Liguria",
+  "language": "it",
+  "level": "A1",
+  "description": "Qualche e alcuni / alcune · In Liguria · livello medio.",
+  "topics": [
+   "Qualche e alcuni / alcune",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitbegleiter qualche, alcuni / alcune"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-qualche-alcuni",
+   "topicTitle": "Qualche e alcuni / alcune",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**qualche** (einige) non cambia e va con il **singolare**: _qualche giorno, qualche amica._\n**alcuni / alcune** vanno con il **plurale**: _alcuni giorni, alcune amiche._\nIl significato è uguale: _Ho qualche amico a Roma = Ho alcuni amici a Roma._\nDa solo (pronome): _**Alcuni** di noi vanno in spiaggia, altri in centro._",
+   "ruleHelp": "**qualche** (einige) bleibt gleich und steht mit dem **Singular**: _qualche giorno, qualche amica._\n**alcuni / alcune** stehen mit dem **Plural**: _alcuni giorni, alcune amiche._ Gleiche Bedeutung.\nAllein: _Alcuni di noi vanno in spiaggia, altri in centro._",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi qualche, alcuni o alcune.",
+    "explanation": "",
+    "promptHelp": "Ergänze qualche, alcuni oder alcune.",
+    "text": "Restiamo in Liguria [[g1]] giorno.\n[[g2]] amici di Filippo sono qui.\nAndiamo a San Remo per [[g3]] ora.\nCompriamo [[g4]] bottiglie d’acqua.\n[[g5]] ragazze fanno il bagno, altre prendono il sole.\nMando [[g6]] messaggio ai nonni.\nAbbiamo fatto [[g7]] foto bellissime.\n[[g8]] volta andiamo in bici.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "qualche"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Alcuni"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "qualche"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "alcune"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Alcune"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "qualche"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "alcune"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Qualche"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-qualche-alcuni-m3",
+  "title": "Per strada",
+  "language": "it",
+  "level": "A1",
+  "description": "Qualche e alcuni / alcune · Per strada · livello medio.",
+  "topics": [
+   "Qualche e alcuni / alcune",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitbegleiter qualche, alcuni / alcune"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-qualche-alcuni",
+   "topicTitle": "Qualche e alcuni / alcune",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**qualche** (einige) non cambia e va con il **singolare**: _qualche giorno, qualche amica._\n**alcuni / alcune** vanno con il **plurale**: _alcuni giorni, alcune amiche._\nIl significato è uguale: _Ho qualche amico a Roma = Ho alcuni amici a Roma._\nDa solo (pronome): _**Alcuni** di noi vanno in spiaggia, altri in centro._",
+   "ruleHelp": "**qualche** (einige) bleibt gleich und steht mit dem **Singular**: _qualche giorno, qualche amica._\n**alcuni / alcune** stehen mit dem **Plural**: _alcuni giorni, alcune amiche._ Gleiche Bedeutung.\nAllein: _Alcuni di noi vanno in spiaggia, altri in centro._",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le frasi con qualche o alcuni / alcune.",
+    "explanation": "",
+    "promptHelp": "Ergänze qualche oder alcuni / alcune.",
+    "text": "Dopo [[g1]] metro girate a sinistra.\n[[g2]] di noi prendono le biciclette, altri i pattini.\nTra [[g3]] giorno comincia la scuola.\nI ragazzi attraversano [[g4]] strada e arrivano al parcheggio.\n[[g5]] dei ragazzi vanno in centro, altri in spiaggia.\nDopo [[g6]] giorno i ragazzi tornano a casa.\nFilippo ha passato [[g7]] giorni a casa.\nAttraversate [[g8]] strade e poi girate a destra.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "qualche"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Alcuni"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "qualche"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "qualche"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Alcuni"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "qualche"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "alcuni"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "alcune"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-qualche-alcuni-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "Qualche e alcuni / alcune · Trova gli errori · livello difficile.",
+  "topics": [
+   "Qualche e alcuni / alcune",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitbegleiter qualche, alcuni / alcune"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-qualche-alcuni",
+   "topicTitle": "Qualche e alcuni / alcune",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**qualche** (einige) non cambia e va con il **singolare**: _qualche giorno, qualche amica._\n**alcuni / alcune** vanno con il **plurale**: _alcuni giorni, alcune amiche._\nIl significato è uguale: _Ho qualche amico a Roma = Ho alcuni amici a Roma._\nDa solo (pronome): _**Alcuni** di noi vanno in spiaggia, altri in centro._",
+   "ruleHelp": "**qualche** (einige) bleibt gleich und steht mit dem **Singular**: _qualche giorno, qualche amica._\n**alcuni / alcune** stehen mit dem **Plural**: _alcuni giorni, alcune amiche._ Gleiche Bedeutung.\nAllein: _Alcuni di noi vanno in spiaggia, altri in centro._",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi gli otto errori.",
+    "explanation": "",
+    "promptHelp": "Korrigiere die acht Fehler.",
+    "text": "Ho [[g1]] amici a Roma.\nResto [[g2]] giorno.\nHo [[g3]] amiche in Italia.\nCi sono [[g4]] nuvole.\nHo fatto [[g5]] foto.\nMando [[g6]] cartolina.\n[[g7]] ragazzi giocano.\nTra [[g8]] ora partiamo.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "qualche",
+      "acceptedAnswers": [
+       "alcuni"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "alcuni",
+      "acceptedAnswers": [
+       "qualche"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "alcuni",
+      "acceptedAnswers": [
+       "alcune"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "qualche",
+      "acceptedAnswers": [
+       "alcune"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "qualche",
+      "acceptedAnswers": [
+       "alcune"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "alcune",
+      "acceptedAnswers": [
+       "qualche"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "Alcune",
+      "acceptedAnswers": [
+       "Alcuni"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "alcuni",
+      "acceptedAnswers": [
+       "qualche"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-qualche-alcuni-s2",
+  "title": "Gli acquisti delle vacanze",
+  "language": "it",
+  "level": "A1",
+  "description": "Qualche e alcuni / alcune · Gli acquisti delle vacanze · livello difficile.",
+  "topics": [
+   "Qualche e alcuni / alcune",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitbegleiter qualche, alcuni / alcune"
+  },
+  "estimatedMinutes": 13,
+  "grammar": {
+   "topic": "ecco1-qualche-alcuni",
+   "topicTitle": "Qualche e alcuni / alcune",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**qualche** (einige) non cambia e va con il **singolare**: _qualche giorno, qualche amica._\n**alcuni / alcune** vanno con il **plurale**: _alcuni giorni, alcune amiche._\nIl significato è uguale: _Ho qualche amico a Roma = Ho alcuni amici a Roma._\nDa solo (pronome): _**Alcuni** di noi vanno in spiaggia, altri in centro._",
+   "ruleHelp": "**qualche** (einige) bleibt gleich und steht mit dem **Singular**: _qualche giorno, qualche amica._\n**alcuni / alcune** stehen mit dem **Plural**: _alcuni giorni, alcune amiche._ Gleiche Bedeutung.\nAllein: _Alcuni di noi vanno in spiaggia, altri in centro._",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi i verbi e qualche / alcuni / alcune.",
+    "explanation": "qualche panino (singolare), alcune bottiglie (plurale).",
+    "promptHelp": "Ergänze Verben und qualche / alcuni / alcune.",
+    "explanationHelp": "qualche + Singular, alcune + Plural.",
+    "text": "[[g1]] amici di Filippo vanno in Liguria.\n[[g2]] volta Filippo (scrivere) [[g3]] cartoline o messaggi.\n[[g4]] giorni gli amici fanno delle gite, [[g5]] giorni invece stanno in spiaggia.\nIeri Anna e Giulia (andare) [[g6]] a San Remo in bici.\nLì (comprare, loro) [[g7]] [[g8]] bottiglie d’acqua e [[g9]] panino.\nE poi (fare, loro) [[g10]] [[g11]] foto molto belle.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Alcuni"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Qualche"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "scrive"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Alcuni"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "alcuni"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "sono andate"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "hanno comprato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "alcune"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "qualche"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "hanno fatto"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "alcune"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-qualche-alcuni-s3",
+  "title": "Le tue vacanze",
+  "language": "it",
+  "level": "A1",
+  "description": "Qualche e alcuni / alcune · Le tue vacanze · livello difficile.",
+  "topics": [
+   "Qualche e alcuni / alcune",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitbegleiter qualche, alcuni / alcune"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-qualche-alcuni",
+   "topicTitle": "Qualche e alcuni / alcune",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**qualche** (einige) non cambia e va con il **singolare**: _qualche giorno, qualche amica._\n**alcuni / alcune** vanno con il **plurale**: _alcuni giorni, alcune amiche._\nIl significato è uguale: _Ho qualche amico a Roma = Ho alcuni amici a Roma._\nDa solo (pronome): _**Alcuni** di noi vanno in spiaggia, altri in centro._",
+   "ruleHelp": "**qualche** (einige) bleibt gleich und steht mit dem **Singular**: _qualche giorno, qualche amica._\n**alcuni / alcune** stehen mit dem **Plural**: _alcuni giorni, alcune amiche._ Gleiche Bedeutung.\nAllein: _Alcuni di noi vanno in spiaggia, altri in centro._",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Racconta le tue ultime vacanze con qualche, alcuni e alcune.",
+    "explanation": "",
+    "promptHelp": "Erzähle von deinen letzten Ferien mit qualche, alcuni, alcune.",
+    "modelAnswer": "Sono stato al mare per qualche giorno. Ho conosciuto alcuni ragazzi simpatici. Abbiamo fatto alcune gite. Qualche volta siamo andati in pizzeria.",
+    "lines": 5
+   },
+   {
+    "id": "q2",
+    "type": "sentence_completion",
+    "prompt": "E adesso riscrivi con qualche.",
+    "explanation": "",
+    "promptHelp": "Und jetzt schreibe mit qualche um.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "alcuni giorni",
+      "acceptedAnswers": [
+       "qualche giorno"
+      ],
+      "modelAnswer": "qualche giorno"
+     },
+     {
+      "id": "s2",
+      "start": "alcune volte",
+      "acceptedAnswers": [
+       "qualche volta"
+      ],
+      "modelAnswer": "qualche volta"
+     },
+     {
+      "id": "s3",
+      "start": "alcuni amici",
+      "acceptedAnswers": [
+       "qualche amico"
+      ],
+      "modelAnswer": "qualche amico"
+     },
+     {
+      "id": "s4",
+      "start": "alcune gite",
+      "acceptedAnswers": [
+       "qualche gita"
+      ],
+      "modelAnswer": "qualche gita"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco1-quando-perche-l1",
   "title": "Quando o perché?",
   "language": "it",
@@ -89425,6 +90511,1163 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco1-riflessivi-l1",
+  "title": "Quale pronome?",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi riflessivi · Quale pronome? · livello facile.",
+  "topics": [
+   "I verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · reflexive Verben im Präsens"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-riflessivi",
+   "topicTitle": "I verbi riflessivi",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "I verbi riflessivi hanno un **pronome riflessivo** prima del verbo:\n| io | tu | lui / lei | noi | voi | loro |\n| **mi** sveglio | **ti** svegli | **si** sveglia | **ci** svegliamo | **vi** svegliate | **si** svegliano |\n\nAltri verbi: _alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi, mettersi, annoiarsi, sentirsi_.\nCon non: _**Non mi** alzo presto._ · Con un modale: _**Mi** devo alzare = Devo alzar**mi**._",
+   "ruleHelp": "Reflexive Verben haben ein **Reflexivpronomen** vor dem Verb: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano.\nWeitere: alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi … · Verneint: _Non mi alzo presto._ · Mit Modalverb: _Mi devo alzare = Devo alzarmi._",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli il pronome riflessivo.",
+    "explanation": "mi, ti, si, ci, vi, si: il pronome va con la persona.",
+    "promptHelp": "Wähle das Reflexivpronomen.",
+    "explanationHelp": "Das Pronomen passt zur Person.",
+    "text": "Io [[g1]] sveglio alle sette.\nTu [[g2]] alzi presto?\nMarco [[g3]] lava i denti.\nNoi [[g4]] divertiamo al mare.\nVoi [[g5]] riposate in spiaggia?\nLe ragazze [[g6]] vestono in fretta.\nCome [[g7]] chiami?\nIo [[g8]] chiamo Giulia.\nMia madre [[g9]] sente stanca.\nNoi [[g10]] mettiamo la crema solare.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "mi",
+       "ti",
+       "si"
+      ],
+      "answer": "mi"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "ti",
+       "mi",
+       "si"
+      ],
+      "answer": "ti"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "si",
+       "mi",
+       "ci"
+      ],
+      "answer": "si"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "ci",
+       "vi",
+       "si"
+      ],
+      "answer": "ci"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "vi",
+       "ci",
+       "si"
+      ],
+      "answer": "vi"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "si",
+       "ci",
+       "vi"
+      ],
+      "answer": "si"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "ti",
+       "mi",
+       "si"
+      ],
+      "answer": "ti"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "mi",
+       "si",
+       "ti"
+      ],
+      "answer": "mi"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "si",
+       "mi",
+       "vi"
+      ],
+      "answer": "si"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "ci",
+       "si",
+       "vi"
+      ],
+      "answer": "ci"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-riflessivi-l2",
+  "title": "La mattina di Leo",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi riflessivi · La mattina di Leo · livello facile.",
+  "topics": [
+   "I verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · reflexive Verben im Präsens"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-riflessivi",
+   "topicTitle": "I verbi riflessivi",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "I verbi riflessivi hanno un **pronome riflessivo** prima del verbo:\n| io | tu | lui / lei | noi | voi | loro |\n| **mi** sveglio | **ti** svegli | **si** sveglia | **ci** svegliamo | **vi** svegliate | **si** svegliano |\n\nAltri verbi: _alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi, mettersi, annoiarsi, sentirsi_.\nCon non: _**Non mi** alzo presto._ · Con un modale: _**Mi** devo alzare = Devo alzar**mi**._",
+   "ruleHelp": "Reflexive Verben haben ein **Reflexivpronomen** vor dem Verb: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano.\nWeitere: alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi … · Verneint: _Non mi alzo presto._ · Mit Modalverb: _Mi devo alzare = Devo alzarmi._",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina persona e forma.",
+    "explanation": "",
+    "promptHelp": "Verbinde Person und Form.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "io",
+      "right": "mi alzo"
+     },
+     {
+      "id": "p2",
+      "left": "tu",
+      "right": "ti alzi"
+     },
+     {
+      "id": "p3",
+      "left": "lui / lei",
+      "right": "si alza"
+     },
+     {
+      "id": "p4",
+      "left": "noi",
+      "right": "ci alziamo"
+     },
+     {
+      "id": "p5",
+      "left": "voi",
+      "right": "vi alzate"
+     },
+     {
+      "id": "p6",
+      "left": "loro",
+      "right": "si alzano"
+     },
+     {
+      "id": "p7",
+      "left": "Leo e io",
+      "right": "ci alziamo"
+     },
+     {
+      "id": "p8",
+      "left": "tu e Sara",
+      "right": "vi alzate"
+     }
+    ],
+    "distractors": [
+     "si alziamo"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-riflessivi-l3",
+  "title": "La giornata in ordine",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi riflessivi · La giornata in ordine · livello facile.",
+  "topics": [
+   "I verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · reflexive Verben im Präsens"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-riflessivi",
+   "topicTitle": "I verbi riflessivi",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "I verbi riflessivi hanno un **pronome riflessivo** prima del verbo:\n| io | tu | lui / lei | noi | voi | loro |\n| **mi** sveglio | **ti** svegli | **si** sveglia | **ci** svegliamo | **vi** svegliate | **si** svegliano |\n\nAltri verbi: _alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi, mettersi, annoiarsi, sentirsi_.\nCon non: _**Non mi** alzo presto._ · Con un modale: _**Mi** devo alzare = Devo alzar**mi**._",
+   "ruleHelp": "Reflexive Verben haben ein **Reflexivpronomen** vor dem Verb: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano.\nWeitere: alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi … · Verneint: _Non mi alzo presto._ · Mit Modalverb: _Mi devo alzare = Devo alzarmi._",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Metti in ordine la mattina di Anna.",
+    "explanation": "",
+    "promptHelp": "Ordne Annas Morgen.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Si sveglia alle sette."
+     },
+     {
+      "id": "i2",
+      "text": "Si alza dal letto."
+     },
+     {
+      "id": "i3",
+      "text": "Si lava la faccia."
+     },
+     {
+      "id": "i4",
+      "text": "Si veste."
+     },
+     {
+      "id": "i5",
+      "text": "Fa colazione."
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "type": "ordering",
+    "prompt": "E la sera?",
+    "explanation": "",
+    "promptHelp": "Und am Abend?",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Torna a casa."
+     },
+     {
+      "id": "i2",
+      "text": "Si fa la doccia."
+     },
+     {
+      "id": "i3",
+      "text": "Si mette il pigiama."
+     },
+     {
+      "id": "i4",
+      "text": "Si addormenta."
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "type": "ordering",
+    "prompt": "Metti le parole in ordine: „Wir amüsieren uns am Strand.“",
+    "explanation": "",
+    "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Ci"
+     },
+     {
+      "id": "i2",
+      "text": "divertiamo"
+     },
+     {
+      "id": "i3",
+      "text": "in"
+     },
+     {
+      "id": "i4",
+      "text": "spiaggia"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-riflessivi-m1",
+  "title": "Una giornata d’estate",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi riflessivi · Una giornata d’estate · livello medio.",
+  "topics": [
+   "I verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · reflexive Verben im Präsens"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-riflessivi",
+   "topicTitle": "I verbi riflessivi",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "I verbi riflessivi hanno un **pronome riflessivo** prima del verbo:\n| io | tu | lui / lei | noi | voi | loro |\n| **mi** sveglio | **ti** svegli | **si** sveglia | **ci** svegliamo | **vi** svegliate | **si** svegliano |\n\nAltri verbi: _alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi, mettersi, annoiarsi, sentirsi_.\nCon non: _**Non mi** alzo presto._ · Con un modale: _**Mi** devo alzare = Devo alzar**mi**._",
+   "ruleHelp": "Reflexive Verben haben ein **Reflexivpronomen** vor dem Verb: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano.\nWeitere: alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi … · Verneint: _Non mi alzo presto._ · Mit Modalverb: _Mi devo alzare = Devo alzarmi._",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi il verbo riflessivo nella forma giusta.",
+    "explanation": "Pronome riflessivo + verbo: mi sveglio, si alza, ci laviamo.",
+    "promptHelp": "Setze das reflexive Verb in die richtige Form.",
+    "explanationHelp": "Reflexivpronomen + Verb.",
+    "text": "In vacanza io (svegliarsi) [[g1]] tardi.\nMia sorella (alzarsi) [[g2]] alle dieci.\nNoi (lavarsi) [[g3]] e poi andiamo in spiaggia.\nAl mare (divertirsi, noi) [[g4]] molto.\nI miei genitori (riposarsi) [[g5]] sotto l’ombrellone.\nTu (annoiarsi) [[g6]] in vacanza?\nVoi (mettersi) [[g7]] la crema?\nLa sera Luca (vestirsi) [[g8]] elegante per la festa.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "mi sveglio"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "si alza"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ci laviamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ci divertiamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "si riposano"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ti annoi"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "vi mettete"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "si veste"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-riflessivi-m2",
+  "title": "Domande e risposte",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi riflessivi · Domande e risposte · livello medio.",
+  "topics": [
+   "I verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · reflexive Verben im Präsens"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-riflessivi",
+   "topicTitle": "I verbi riflessivi",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "I verbi riflessivi hanno un **pronome riflessivo** prima del verbo:\n| io | tu | lui / lei | noi | voi | loro |\n| **mi** sveglio | **ti** svegli | **si** sveglia | **ci** svegliamo | **vi** svegliate | **si** svegliano |\n\nAltri verbi: _alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi, mettersi, annoiarsi, sentirsi_.\nCon non: _**Non mi** alzo presto._ · Con un modale: _**Mi** devo alzare = Devo alzar**mi**._",
+   "ruleHelp": "Reflexive Verben haben ein **Reflexivpronomen** vor dem Verb: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano.\nWeitere: alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi … · Verneint: _Non mi alzo presto._ · Mit Modalverb: _Mi devo alzare = Devo alzarmi._",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Rispondi con il verbo riflessivo.",
+    "explanation": "",
+    "promptHelp": "Antworte mit dem reflexiven Verb.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "A che ora ti svegli? (alle sette) – …",
+      "acceptedAnswers": [
+       "Mi sveglio alle sette"
+      ],
+      "modelAnswer": "Mi sveglio alle sette."
+     },
+     {
+      "id": "s2",
+      "start": "Come si chiama tua sorella? (Anna) – …",
+      "acceptedAnswers": [
+       "Si chiama Anna"
+      ],
+      "modelAnswer": "Si chiama Anna."
+     },
+     {
+      "id": "s3",
+      "start": "Vi divertite al mare? (sì) – …",
+      "acceptedAnswers": [
+       "Sì, ci divertiamo"
+      ],
+      "modelAnswer": "Sì, ci divertiamo."
+     },
+     {
+      "id": "s4",
+      "start": "A che ora si alzano i tuoi? (alle sei) – …",
+      "acceptedAnswers": [
+       "Si alzano alle sei"
+      ],
+      "modelAnswer": "Si alzano alle sei."
+     },
+     {
+      "id": "s5",
+      "start": "Ti annoi a scuola? (no) – …",
+      "acceptedAnswers": [
+       "No, non mi annoio"
+      ],
+      "modelAnswer": "No, non mi annoio."
+     },
+     {
+      "id": "s6",
+      "start": "Quando vi riposate? (il pomeriggio) – …",
+      "acceptedAnswers": [
+       "Ci riposiamo il pomeriggio"
+      ],
+      "modelAnswer": "Ci riposiamo il pomeriggio."
+     },
+     {
+      "id": "s7",
+      "start": "Come ti senti? (bene) – …",
+      "acceptedAnswers": [
+       "Mi sento bene"
+      ],
+      "modelAnswer": "Mi sento bene."
+     },
+     {
+      "id": "s8",
+      "start": "Ti metti il cappello? (sì) – …",
+      "acceptedAnswers": [
+       "Sì, mi metto il cappello"
+      ],
+      "modelAnswer": "Sì, mi metto il cappello."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-riflessivi-m3",
+  "title": "La tabella",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi riflessivi · La tabella · livello medio.",
+  "topics": [
+   "I verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · reflexive Verben im Präsens"
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-riflessivi",
+   "topicTitle": "I verbi riflessivi",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "I verbi riflessivi hanno un **pronome riflessivo** prima del verbo:\n| io | tu | lui / lei | noi | voi | loro |\n| **mi** sveglio | **ti** svegli | **si** sveglia | **ci** svegliamo | **vi** svegliate | **si** svegliano |\n\nAltri verbi: _alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi, mettersi, annoiarsi, sentirsi_.\nCon non: _**Non mi** alzo presto._ · Con un modale: _**Mi** devo alzare = Devo alzar**mi**._",
+   "ruleHelp": "Reflexive Verben haben ein **Reflexivpronomen** vor dem Verb: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano.\nWeitere: alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi … · Verneint: _Non mi alzo presto._ · Mit Modalverb: _Mi devo alzare = Devo alzarmi._",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Completa le forme.",
+    "explanation": "",
+    "promptHelp": "Ergänze die Formen.",
+    "columns": [
+     "persona",
+     "alzarsi",
+     "mettersi",
+     "divertirsi"
+    ],
+    "rows": [
+     [
+      "io",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "mi alzo"
+       ]
+      },
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "mi metto"
+       ]
+      },
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "mi diverto"
+       ]
+      }
+     ],
+     [
+      "tu",
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "ti alzi"
+       ]
+      },
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "ti metti"
+       ]
+      },
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "ti diverti"
+       ]
+      }
+     ],
+     [
+      "lui / lei",
+      {
+       "id": "c7",
+       "acceptedAnswers": [
+        "si alza"
+       ]
+      },
+      {
+       "id": "c8",
+       "acceptedAnswers": [
+        "si mette"
+       ]
+      },
+      {
+       "id": "c9",
+       "acceptedAnswers": [
+        "si diverte"
+       ]
+      }
+     ],
+     [
+      "noi",
+      {
+       "id": "c10",
+       "acceptedAnswers": [
+        "ci alziamo"
+       ]
+      },
+      {
+       "id": "c11",
+       "acceptedAnswers": [
+        "ci mettiamo"
+       ]
+      },
+      {
+       "id": "c12",
+       "acceptedAnswers": [
+        "ci divertiamo"
+       ]
+      }
+     ],
+     [
+      "voi",
+      {
+       "id": "c13",
+       "acceptedAnswers": [
+        "vi alzate"
+       ]
+      },
+      {
+       "id": "c14",
+       "acceptedAnswers": [
+        "vi mettete"
+       ]
+      },
+      {
+       "id": "c15",
+       "acceptedAnswers": [
+        "vi divertite"
+       ]
+      }
+     ],
+     [
+      "loro",
+      {
+       "id": "c16",
+       "acceptedAnswers": [
+        "si alzano"
+       ]
+      },
+      {
+       "id": "c17",
+       "acceptedAnswers": [
+        "si mettono"
+       ]
+      },
+      {
+       "id": "c18",
+       "acceptedAnswers": [
+        "si divertono"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-riflessivi-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi riflessivi · Trova gli errori · livello difficile.",
+  "topics": [
+   "I verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · reflexive Verben im Präsens"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-riflessivi",
+   "topicTitle": "I verbi riflessivi",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "I verbi riflessivi hanno un **pronome riflessivo** prima del verbo:\n| io | tu | lui / lei | noi | voi | loro |\n| **mi** sveglio | **ti** svegli | **si** sveglia | **ci** svegliamo | **vi** svegliate | **si** svegliano |\n\nAltri verbi: _alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi, mettersi, annoiarsi, sentirsi_.\nCon non: _**Non mi** alzo presto._ · Con un modale: _**Mi** devo alzare = Devo alzar**mi**._",
+   "ruleHelp": "Reflexive Verben haben ein **Reflexivpronomen** vor dem Verb: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano.\nWeitere: alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi … · Verneint: _Non mi alzo presto._ · Mit Modalverb: _Mi devo alzare = Devo alzarmi._",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi gli otto errori.",
+    "explanation": "Il pronome va prima del verbo; con il modale anche attaccato: devo alzarmi.",
+    "promptHelp": "Korrigiere die acht Fehler.",
+    "explanationHelp": "Pronomen vor dem Verb; mit Modalverb auch angehängt.",
+    "text": "Io [[g1]] sveglio presto.\nNoi [[g2]] divertiamo molto.\nTu [[g3]] chiami Marco?\nLe ragazze [[g4]] vestono.\nVoi [[g5]] riposate?\nMio padre [[g6]] alza alle sei.\nIo non [[g7]] presto in vacanza.\nDevo [[g8]] presto domani.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "si",
+      "acceptedAnswers": [
+       "mi"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "si",
+      "acceptedAnswers": [
+       "ci"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "mi",
+      "acceptedAnswers": [
+       "ti"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "ci",
+      "acceptedAnswers": [
+       "si"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "si",
+      "acceptedAnswers": [
+       "vi"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "ti",
+      "acceptedAnswers": [
+       "si"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "alzo mi",
+      "acceptedAnswers": [
+       "mi alzo"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "mi alzare",
+      "acceptedAnswers": [
+       "alzarmi"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-riflessivi-s2",
+  "title": "Una mail dalla Liguria",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi riflessivi · Una mail dalla Liguria · livello difficile.",
+  "topics": [
+   "I verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · reflexive Verben im Präsens"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-riflessivi",
+   "topicTitle": "I verbi riflessivi",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "I verbi riflessivi hanno un **pronome riflessivo** prima del verbo:\n| io | tu | lui / lei | noi | voi | loro |\n| **mi** sveglio | **ti** svegli | **si** sveglia | **ci** svegliamo | **vi** svegliate | **si** svegliano |\n\nAltri verbi: _alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi, mettersi, annoiarsi, sentirsi_.\nCon non: _**Non mi** alzo presto._ · Con un modale: _**Mi** devo alzare = Devo alzar**mi**._",
+   "ruleHelp": "Reflexive Verben haben ein **Reflexivpronomen** vor dem Verb: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano.\nWeitere: alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi … · Verneint: _Non mi alzo presto._ · Mit Modalverb: _Mi devo alzare = Devo alzarmi._",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi i verbi nella forma giusta.",
+    "explanation": "",
+    "promptHelp": "Setze die Verben in die richtige Form.",
+    "text": "Ciao Lena! Qui in Liguria (divertirsi, noi) [[g1]] tantissimo.\nLa mattina io (svegliarsi) [[g2]] alle nove,\nmio fratello invece (alzarsi) [[g3]] a mezzogiorno!\nPoi (mettersi, noi) [[g4]] il costume e andiamo in spiaggia.\nMia madre (riposarsi) [[g5]] sotto l’ombrellone.\nIl pomeriggio (annoiarsi, io) [[g6]] un po’, perché fa caldo.\nMa la sera (vestirsi, noi) [[g7]] bene e usciamo.\nE tu? Come (sentirsi) [[g8]] in vacanza?",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ci divertiamo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "mi sveglio"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "si alza"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ci mettiamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "si riposa"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "mi annoio"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ci vestiamo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ti senti"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-riflessivi-s3",
+  "title": "La tua giornata",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi riflessivi · La tua giornata · livello difficile.",
+  "topics": [
+   "I verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · reflexive Verben im Präsens"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-riflessivi",
+   "topicTitle": "I verbi riflessivi",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "I verbi riflessivi hanno un **pronome riflessivo** prima del verbo:\n| io | tu | lui / lei | noi | voi | loro |\n| **mi** sveglio | **ti** svegli | **si** sveglia | **ci** svegliamo | **vi** svegliate | **si** svegliano |\n\nAltri verbi: _alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi, mettersi, annoiarsi, sentirsi_.\nCon non: _**Non mi** alzo presto._ · Con un modale: _**Mi** devo alzare = Devo alzar**mi**._",
+   "ruleHelp": "Reflexive Verben haben ein **Reflexivpronomen** vor dem Verb: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano.\nWeitere: alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi … · Verneint: _Non mi alzo presto._ · Mit Modalverb: _Mi devo alzare = Devo alzarmi._",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Descrivi una tua giornata tipica con almeno sei verbi riflessivi.",
+    "explanation": "",
+    "promptHelp": "Beschreibe einen typischen Tag mit mindestens sechs reflexiven Verben.",
+    "modelAnswer": "Mi sveglio alle sei e mezza. Mi alzo subito e mi lavo. Poi mi vesto e faccio colazione. Il pomeriggio mi riposo un po’. La sera mi diverto con i miei amici. Alle dieci mi metto a letto.",
+    "lines": 6
+   },
+   {
+    "id": "q2",
+    "type": "sentence_completion",
+    "prompt": "E adesso scrivi le frasi.",
+    "explanation": "",
+    "promptHelp": "Und jetzt schreibe die Sätze.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "(io / svegliarsi / alle sette)",
+      "acceptedAnswers": [
+       "Mi sveglio alle sette"
+      ],
+      "modelAnswer": "Mi sveglio alle sette."
+     },
+     {
+      "id": "s2",
+      "start": "(noi / divertirsi / al parco)",
+      "acceptedAnswers": [
+       "Ci divertiamo al parco"
+      ],
+      "modelAnswer": "Ci divertiamo al parco."
+     },
+     {
+      "id": "s3",
+      "start": "(mia sorella / vestirsi / in fretta)",
+      "acceptedAnswers": [
+       "Mia sorella si veste in fretta"
+      ],
+      "modelAnswer": "Mia sorella si veste in fretta."
+     },
+     {
+      "id": "s4",
+      "start": "(tu / riposarsi / il sabato?)",
+      "acceptedAnswers": [
+       "Ti riposi il sabato"
+      ],
+      "modelAnswer": "Ti riposi il sabato?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco1-soggetto-l1",
   "title": "Chi è?",
   "language": "it",
@@ -90595,6 +92838,1104 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "Loro"
       ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-tutto-l1",
+  "title": "Quale forma di tutto?",
+  "language": "it",
+  "level": "A1",
+  "description": "Tutto + articolo · Quale forma di tutto? · livello facile.",
+  "topics": [
+   "Tutto + articolo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · tutto + Artikel"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-tutto",
+   "topicTitle": "Tutto + articolo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**tutto** + **articolo** + nome; tutto cambia come il nome:\n| | singolare | plurale |\n| maschile | tutto **il** giorno | tutti **i** giorni |\n| femminile | tutta **la** sera | tutte **le** sere |\n\n_Tutti i ragazzi sono al mare. · Mangio tutta la pizza. · Tutte le mattine vado a correre._\nDa solo: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+   "ruleHelp": "**tutto** + **Artikel** + Nomen, angepasst an das Nomen: tutto il giorno, tutta la sera, tutti i giorni, tutte le sere.\nAllein: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "tutto + articolo cambia come il nome: tutti i giorni, tutte le sere.",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "tutto passt sich an.",
+    "text": "[[g1]] i giorni vado a scuola.\n[[g2]] le mattine sono stanco.\nDomenica viene [[g3]] la famiglia.\n[[g4]] le mie amiche sono in vacanza.\n[[g5]] i ragazzi si divertono in spiaggia.\nI ragazzi discutono [[g6]] il tempo.\nHo mangiato [[g7]] la torta!\nDormo [[g8]] il pomeriggio.\n[[g9]] le sere usciamo.\nLeggo [[g10]] i libri di Harry Potter.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Tutti",
+       "Tutto",
+       "Tutte"
+      ],
+      "answer": "Tutti"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Tutte",
+       "Tutta",
+       "Tutti"
+      ],
+      "answer": "Tutte"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "tutta",
+       "tutto",
+       "tutte"
+      ],
+      "answer": "tutta"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Tutte",
+       "Tutti",
+       "Tutta"
+      ],
+      "answer": "Tutte"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "Tutti",
+       "Tutte",
+       "Tutto"
+      ],
+      "answer": "Tutti"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "tutto",
+       "tutta",
+       "tutti"
+      ],
+      "answer": "tutto"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "tutta",
+       "tutto",
+       "tutte"
+      ],
+      "answer": "tutta"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "tutto",
+       "tutta",
+       "tutti"
+      ],
+      "answer": "tutto"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "Tutte",
+       "Tutti",
+       "Tutta"
+      ],
+      "answer": "Tutte"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "tutti",
+       "tutte",
+       "tutto"
+      ],
+      "answer": "tutti"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-tutto-l2",
+  "title": "Tutto, tutta, tutti, tutte",
+  "language": "it",
+  "level": "A1",
+  "description": "Tutto + articolo · Tutto, tutta, tutti, tutte · livello facile.",
+  "topics": [
+   "Tutto + articolo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · tutto + Artikel"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-tutto",
+   "topicTitle": "Tutto + articolo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**tutto** + **articolo** + nome; tutto cambia come il nome:\n| | singolare | plurale |\n| maschile | tutto **il** giorno | tutti **i** giorni |\n| femminile | tutta **la** sera | tutte **le** sere |\n\n_Tutti i ragazzi sono al mare. · Mangio tutta la pizza. · Tutte le mattine vado a correre._\nDa solo: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+   "ruleHelp": "**tutto** + **Artikel** + Nomen, angepasst an das Nomen: tutto il giorno, tutta la sera, tutti i giorni, tutte le sere.\nAllein: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Quale forma va con il nome?",
+    "explanation": "",
+    "promptHelp": "Welche Form passt zum Nomen?",
+    "categories": [
+     {
+      "id": "o",
+      "label": "tutto"
+     },
+     {
+      "id": "a",
+      "label": "tutta"
+     },
+     {
+      "id": "i",
+      "label": "tutti"
+     },
+     {
+      "id": "e",
+      "label": "tutte"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "il giorno",
+      "category": "o"
+     },
+     {
+      "id": "i2",
+      "text": "il tempo",
+      "category": "o"
+     },
+     {
+      "id": "i3",
+      "text": "la sera",
+      "category": "a"
+     },
+     {
+      "id": "i4",
+      "text": "la famiglia",
+      "category": "a"
+     },
+     {
+      "id": "i5",
+      "text": "i ragazzi",
+      "category": "i"
+     },
+     {
+      "id": "i6",
+      "text": "i giorni",
+      "category": "i"
+     },
+     {
+      "id": "i7",
+      "text": "gli amici",
+      "category": "i"
+     },
+     {
+      "id": "i8",
+      "text": "le mattine",
+      "category": "e"
+     },
+     {
+      "id": "i9",
+      "text": "le amiche",
+      "category": "e"
+     },
+     {
+      "id": "i10",
+      "text": "la classe",
+      "category": "a"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-tutto-l3",
+  "title": "Che cosa vuol dire?",
+  "language": "it",
+  "level": "A1",
+  "description": "Tutto + articolo · Che cosa vuol dire? · livello facile.",
+  "topics": [
+   "Tutto + articolo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · tutto + Artikel"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-tutto",
+   "topicTitle": "Tutto + articolo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**tutto** + **articolo** + nome; tutto cambia come il nome:\n| | singolare | plurale |\n| maschile | tutto **il** giorno | tutti **i** giorni |\n| femminile | tutta **la** sera | tutte **le** sere |\n\n_Tutti i ragazzi sono al mare. · Mangio tutta la pizza. · Tutte le mattine vado a correre._\nDa solo: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+   "ruleHelp": "**tutto** + **Artikel** + Nomen, angepasst an das Nomen: tutto il giorno, tutta la sera, tutti i giorni, tutte le sere.\nAllein: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Che cosa vuol dire?",
+    "explanation": "",
+    "promptHelp": "Was bedeutet das?",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "tutto il giorno",
+      "right": "den ganzen Tag"
+     },
+     {
+      "id": "p2",
+      "left": "tutti i giorni",
+      "right": "jeden Tag"
+     },
+     {
+      "id": "p3",
+      "left": "tutta la sera",
+      "right": "den ganzen Abend"
+     },
+     {
+      "id": "p4",
+      "left": "tutte le sere",
+      "right": "jeden Abend"
+     },
+     {
+      "id": "p5",
+      "left": "tutta la famiglia",
+      "right": "die ganze Familie"
+     },
+     {
+      "id": "p6",
+      "left": "tutti i ragazzi",
+      "right": "alle Jungen"
+     },
+     {
+      "id": "p7",
+      "left": "Ho capito tutto.",
+      "right": "Ich habe alles verstanden."
+     },
+     {
+      "id": "p8",
+      "left": "Tutti sono qui.",
+      "right": "Alle sind da."
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-tutto-m1",
+  "title": "Le vacanze al mare",
+  "language": "it",
+  "level": "A1",
+  "description": "Tutto + articolo · Le vacanze al mare · livello medio.",
+  "topics": [
+   "Tutto + articolo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · tutto + Artikel"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-tutto",
+   "topicTitle": "Tutto + articolo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**tutto** + **articolo** + nome; tutto cambia come il nome:\n| | singolare | plurale |\n| maschile | tutto **il** giorno | tutti **i** giorni |\n| femminile | tutta **la** sera | tutte **le** sere |\n\n_Tutti i ragazzi sono al mare. · Mangio tutta la pizza. · Tutte le mattine vado a correre._\nDa solo: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+   "ruleHelp": "**tutto** + **Artikel** + Nomen, angepasst an das Nomen: tutto il giorno, tutta la sera, tutti i giorni, tutte le sere.\nAllein: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi tutto, tutta, tutti o tutte.",
+    "explanation": "tutto + articolo + nome.",
+    "promptHelp": "Ergänze die richtige Form von tutto.",
+    "explanationHelp": "tutto + Artikel + Nomen.",
+    "text": "In vacanza dormo [[g1]] la mattina.\n[[g2]] i giorni andiamo in spiaggia.\n[[g3]] la famiglia è contenta.\nMio fratello gioca a beach volley [[g4]] il pomeriggio.\n[[g5]] le sere mangiamo un gelato.\n[[g6]] gli amici di mia sorella sono qui.\nMia madre legge [[g7]] il giorno.\n[[g8]] le ragazze del campeggio parlano tedesco.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "tutta"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Tutti"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Tutta"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "tutto"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Tutte"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Tutti"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "tutto"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Tutte"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-tutto-m2",
+  "title": "Con l’articolo giusto",
+  "language": "it",
+  "level": "A1",
+  "description": "Tutto + articolo · Con l’articolo giusto · livello medio.",
+  "topics": [
+   "Tutto + articolo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · tutto + Artikel"
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-tutto",
+   "topicTitle": "Tutto + articolo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**tutto** + **articolo** + nome; tutto cambia come il nome:\n| | singolare | plurale |\n| maschile | tutto **il** giorno | tutti **i** giorni |\n| femminile | tutta **la** sera | tutte **le** sere |\n\n_Tutti i ragazzi sono al mare. · Mangio tutta la pizza. · Tutte le mattine vado a correre._\nDa solo: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+   "ruleHelp": "**tutto** + **Artikel** + Nomen, angepasst an das Nomen: tutto il giorno, tutta la sera, tutti i giorni, tutte le sere.\nAllein: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Scrivi tutto con l’articolo.",
+    "explanation": "",
+    "promptHelp": "Schreibe tutto mit Artikel.",
+    "columns": [
+     "nome",
+     "con tutto"
+    ],
+    "rows": [
+     [
+      "il giorno",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "tutto il giorno"
+       ]
+      }
+     ],
+     [
+      "la notte",
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "tutta la notte"
+       ]
+      }
+     ],
+     [
+      "i compagni",
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "tutti i compagni"
+       ]
+      }
+     ],
+     [
+      "le vacanze",
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "tutte le vacanze"
+       ]
+      }
+     ],
+     [
+      "gli zii",
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "tutti gli zii"
+       ]
+      }
+     ],
+     [
+      "l’estate",
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "tutta l’estate"
+       ]
+      }
+     ],
+     [
+      "lo zaino",
+      {
+       "id": "c7",
+       "acceptedAnswers": [
+        "tutto lo zaino"
+       ]
+      }
+     ],
+     [
+      "le cugine",
+      {
+       "id": "c8",
+       "acceptedAnswers": [
+        "tutte le cugine"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-tutto-m3",
+  "title": "Sempre o tutto il tempo?",
+  "language": "it",
+  "level": "A1",
+  "description": "Tutto + articolo · Sempre o tutto il tempo? · livello medio.",
+  "topics": [
+   "Tutto + articolo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · tutto + Artikel"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-tutto",
+   "topicTitle": "Tutto + articolo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**tutto** + **articolo** + nome; tutto cambia come il nome:\n| | singolare | plurale |\n| maschile | tutto **il** giorno | tutti **i** giorni |\n| femminile | tutta **la** sera | tutte **le** sere |\n\n_Tutti i ragazzi sono al mare. · Mangio tutta la pizza. · Tutte le mattine vado a correre._\nDa solo: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+   "ruleHelp": "**tutto** + **Artikel** + Nomen, angepasst an das Nomen: tutto il giorno, tutta la sera, tutti i giorni, tutte le sere.\nAllein: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Riscrivi con tutto: «ogni giorno» → «tutti i giorni».",
+    "explanation": "ogni + singolare = tutti/tutte + articolo + plurale.",
+    "promptHelp": "Schreibe mit tutto um.",
+    "explanationHelp": "ogni + Singular = tutti/tutte + Artikel + Plural.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "ogni giorno",
+      "acceptedAnswers": [
+       "tutti i giorni"
+      ],
+      "modelAnswer": "tutti i giorni"
+     },
+     {
+      "id": "s2",
+      "start": "ogni sera",
+      "acceptedAnswers": [
+       "tutte le sere"
+      ],
+      "modelAnswer": "tutte le sere"
+     },
+     {
+      "id": "s3",
+      "start": "ogni mattina",
+      "acceptedAnswers": [
+       "tutte le mattine"
+      ],
+      "modelAnswer": "tutte le mattine"
+     },
+     {
+      "id": "s4",
+      "start": "ogni settimana",
+      "acceptedAnswers": [
+       "tutte le settimane"
+      ],
+      "modelAnswer": "tutte le settimane"
+     },
+     {
+      "id": "s5",
+      "start": "ogni estate",
+      "acceptedAnswers": [
+       "tutte le estati"
+      ],
+      "modelAnswer": "tutte le estati"
+     },
+     {
+      "id": "s6",
+      "start": "ogni domenica",
+      "acceptedAnswers": [
+       "tutte le domeniche"
+      ],
+      "modelAnswer": "tutte le domeniche"
+     },
+     {
+      "id": "s7",
+      "start": "ogni mese",
+      "acceptedAnswers": [
+       "tutti i mesi"
+      ],
+      "modelAnswer": "tutti i mesi"
+     },
+     {
+      "id": "s8",
+      "start": "ogni anno",
+      "acceptedAnswers": [
+       "tutti gli anni"
+      ],
+      "modelAnswer": "tutti gli anni"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-tutto-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "Tutto + articolo · Trova gli errori · livello difficile.",
+  "topics": [
+   "Tutto + articolo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · tutto + Artikel"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-tutto",
+   "topicTitle": "Tutto + articolo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**tutto** + **articolo** + nome; tutto cambia come il nome:\n| | singolare | plurale |\n| maschile | tutto **il** giorno | tutti **i** giorni |\n| femminile | tutta **la** sera | tutte **le** sere |\n\n_Tutti i ragazzi sono al mare. · Mangio tutta la pizza. · Tutte le mattine vado a correre._\nDa solo: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+   "ruleHelp": "**tutto** + **Artikel** + Nomen, angepasst an das Nomen: tutto il giorno, tutta la sera, tutti i giorni, tutte le sere.\nAllein: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi gli otto errori.",
+    "explanation": "",
+    "promptHelp": "Korrigiere die acht Fehler.",
+    "text": "[[g1]] i ragazzi sono in spiaggia.\n[[g2]] le sere usciamo.\nHo mangiato [[g3]] la pizza.\n[[g4]] il giorno piove.\nViene [[g5]] la classe.\n[[g6]] miei amici sono qui.\nStudio [[g7]] pomeriggio.\n[[g8]] le mie cugine abitano a Napoli.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "Tutto",
+      "acceptedAnswers": [
+       "Tutti"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "Tutti",
+      "acceptedAnswers": [
+       "Tutte"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "tutto",
+      "acceptedAnswers": [
+       "tutta"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "Tutta",
+      "acceptedAnswers": [
+       "Tutto"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "tutte",
+      "acceptedAnswers": [
+       "tutta"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "Tutte i",
+      "acceptedAnswers": [
+       "Tutti i"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "tutti i",
+      "acceptedAnswers": [
+       "tutto il"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "Tutti",
+      "acceptedAnswers": [
+       "Tutte"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-tutto-s2",
+  "title": "Una giornata perfetta",
+  "language": "it",
+  "level": "A1",
+  "description": "Tutto + articolo · Una giornata perfetta · livello difficile.",
+  "topics": [
+   "Tutto + articolo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · tutto + Artikel"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-tutto",
+   "topicTitle": "Tutto + articolo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**tutto** + **articolo** + nome; tutto cambia come il nome:\n| | singolare | plurale |\n| maschile | tutto **il** giorno | tutti **i** giorni |\n| femminile | tutta **la** sera | tutte **le** sere |\n\n_Tutti i ragazzi sono al mare. · Mangio tutta la pizza. · Tutte le mattine vado a correre._\nDa solo: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+   "ruleHelp": "**tutto** + **Artikel** + Nomen, angepasst an das Nomen: tutto il giorno, tutta la sera, tutti i giorni, tutte le sere.\nAllein: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi tutto nella forma giusta e l’articolo.",
+    "explanation": "",
+    "promptHelp": "Ergänze tutto und den Artikel.",
+    "text": "In estate passo [[g1]] mattine in spiaggia.\nDormo [[g2]] pomeriggio sotto l’ombrellone.\n[[g3]] miei amici sono in Liguria con me.\nLa sera [[g4]] compagnia va in pizzeria.\nMangiamo [[g5]] pizze del menù!\nPoi balliamo [[g6]] notte.\n[[g7]] amici sono stanchi ma felici.\nDormiamo [[g8]] mattina dopo!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "tutte le"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "tutto il"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Tutti i"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "tutta la"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "tutte le"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "tutta la"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Tutti gli"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "tutta la"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-tutto-s3",
+  "title": "Le tue vacanze",
+  "language": "it",
+  "level": "A1",
+  "description": "Tutto + articolo · Le tue vacanze · livello difficile.",
+  "topics": [
+   "Tutto + articolo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "7 · Estate in Italia",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · tutto + Artikel"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-tutto",
+   "topicTitle": "Tutto + articolo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**tutto** + **articolo** + nome; tutto cambia come il nome:\n| | singolare | plurale |\n| maschile | tutto **il** giorno | tutti **i** giorni |\n| femminile | tutta **la** sera | tutte **le** sere |\n\n_Tutti i ragazzi sono al mare. · Mangio tutta la pizza. · Tutte le mattine vado a correre._\nDa solo: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+   "ruleHelp": "**tutto** + **Artikel** + Nomen, angepasst an das Nomen: tutto il giorno, tutta la sera, tutti i giorni, tutte le sere.\nAllein: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Scrivi 4 frasi sulle tue vacanze ideali con tutto, tutta, tutti, tutte.",
+    "explanation": "",
+    "promptHelp": "Schreibe 4 Sätze über deine idealen Ferien.",
+    "modelAnswer": "Tutti i giorni vado al mare. Dormo tutta la mattina. Tutte le sere mangio un gelato. Tutta la famiglia è contenta.",
+    "lines": 4
+   },
+   {
+    "id": "q2",
+    "type": "gap_choice",
+    "prompt": "Controlla: quale forma?",
+    "explanation": "",
+    "promptHelp": "Prüfe: welche Form?",
+    "text": "[[g1]] i giorni sono belli.\nDormo [[g2]] la mattina.\n[[g3]] le sere esco.\n[[g4]] la famiglia viene.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Tutti",
+       "Tutte"
+      ],
+      "answer": "Tutti"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "tutta",
+       "tutto"
+      ],
+      "answer": "tutta"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Tutte",
+       "Tutti"
+      ],
+      "answer": "Tutte"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Tutta",
+       "Tutto"
+      ],
+      "answer": "Tutta"
      }
     ]
    }

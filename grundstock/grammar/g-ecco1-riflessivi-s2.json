@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-riflessivi-s2",
+ "title": "Una mail dalla Liguria",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi riflessivi · Una mail dalla Liguria · livello difficile.",
+ "topics": [
+  "I verbi riflessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · reflexive Verben im Präsens"
+ },
+ "grammar": {
+  "topic": "ecco1-riflessivi",
+  "topicTitle": "I verbi riflessivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 12,
+  "rule": "I verbi riflessivi hanno un **pronome riflessivo** prima del verbo:\n| io | tu | lui / lei | noi | voi | loro |\n| **mi** sveglio | **ti** svegli | **si** sveglia | **ci** svegliamo | **vi** svegliate | **si** svegliano |\n\nAltri verbi: _alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi, mettersi, annoiarsi, sentirsi_.\nCon non: _**Non mi** alzo presto._ · Con un modale: _**Mi** devo alzare = Devo alzar**mi**._",
+  "ruleHelp": "Reflexive Verben haben ein **Reflexivpronomen** vor dem Verb: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano.\nWeitere: alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi … · Verneint: _Non mi alzo presto._ · Mit Modalverb: _Mi devo alzare = Devo alzarmi._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi i verbi nella forma giusta.",
+   "promptHelp": "Setze die Verben in die richtige Form.",
+   "type": "gap_fill",
+   "text": "Ciao Lena! Qui in Liguria (divertirsi, noi) [[g1]] tantissimo.\nLa mattina io (svegliarsi) [[g2]] alle nove,\nmio fratello invece (alzarsi) [[g3]] a mezzogiorno!\nPoi (mettersi, noi) [[g4]] il costume e andiamo in spiaggia.\nMia madre (riposarsi) [[g5]] sotto l’ombrellone.\nIl pomeriggio (annoiarsi, io) [[g6]] un po’, perché fa caldo.\nMa la sera (vestirsi, noi) [[g7]] bene e usciamo.\nE tu? Come (sentirsi) [[g8]] in vacanza?",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ci divertiamo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "mi sveglio"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "si alza"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ci mettiamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "si riposa"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "mi annoio"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ci vestiamo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ti senti"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-tutto-s2",
+ "title": "Una giornata perfetta",
+ "language": "it",
+ "level": "A1",
+ "description": "Tutto + articolo · Una giornata perfetta · livello difficile.",
+ "topics": [
+  "Tutto + articolo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · tutto + Artikel"
+ },
+ "grammar": {
+  "topic": "ecco1-tutto",
+  "topicTitle": "Tutto + articolo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 22,
+  "rule": "**tutto** + **articolo** + nome; tutto cambia come il nome:\n| | singolare | plurale |\n| maschile | tutto **il** giorno | tutti **i** giorni |\n| femminile | tutta **la** sera | tutte **le** sere |\n\n_Tutti i ragazzi sono al mare. · Mangio tutta la pizza. · Tutte le mattine vado a correre._\nDa solo: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+  "ruleHelp": "**tutto** + **Artikel** + Nomen, angepasst an das Nomen: tutto il giorno, tutta la sera, tutti i giorni, tutte le sere.\nAllein: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi tutto nella forma giusta e l’articolo.",
+   "promptHelp": "Ergänze tutto und den Artikel.",
+   "type": "gap_fill",
+   "text": "In estate passo [[g1]] mattine in spiaggia.\nDormo [[g2]] pomeriggio sotto l’ombrellone.\n[[g3]] miei amici sono in Liguria con me.\nLa sera [[g4]] compagnia va in pizzeria.\nMangiamo [[g5]] pizze del menù!\nPoi balliamo [[g6]] notte.\n[[g7]] amici sono stanchi ma felici.\nDormiamo [[g8]] mattina dopo!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "tutte le"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "tutto il"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Tutti i"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "tutta la"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "tutte le"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "tutta la"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Tutti gli"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "tutta la"
+     ]
+    }
+   ]
+  }
+ ]
+}

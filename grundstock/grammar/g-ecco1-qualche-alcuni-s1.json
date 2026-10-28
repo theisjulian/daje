@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-qualche-alcuni-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A1",
+ "description": "Qualche e alcuni / alcune · Trova gli errori · livello difficile.",
+ "topics": [
+  "Qualche e alcuni / alcune",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitbegleiter qualche, alcuni / alcune"
+ },
+ "grammar": {
+  "topic": "ecco1-qualche-alcuni",
+  "topicTitle": "Qualche e alcuni / alcune",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 31,
+  "rule": "**qualche** (einige) non cambia e va con il **singolare**: _qualche giorno, qualche amica._\n**alcuni / alcune** vanno con il **plurale**: _alcuni giorni, alcune amiche._\nIl significato è uguale: _Ho qualche amico a Roma = Ho alcuni amici a Roma._\nDa solo (pronome): _**Alcuni** di noi vanno in spiaggia, altri in centro._",
+  "ruleHelp": "**qualche** (einige) bleibt gleich und steht mit dem **Singular**: _qualche giorno, qualche amica._\n**alcuni / alcune** stehen mit dem **Plural**: _alcuni giorni, alcune amiche._ Gleiche Bedeutung.\nAllein: _Alcuni di noi vanno in spiaggia, altri in centro._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi gli otto errori.",
+   "promptHelp": "Korrigiere die acht Fehler.",
+   "type": "error_correction",
+   "text": "Ho [[g1]] amici a Roma.\nResto [[g2]] giorno.\nHo [[g3]] amiche in Italia.\nCi sono [[g4]] nuvole.\nHo fatto [[g5]] foto.\nMando [[g6]] cartolina.\n[[g7]] ragazzi giocano.\nTra [[g8]] ora partiamo.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "qualche",
+     "acceptedAnswers": [
+      "alcuni"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "alcuni",
+     "acceptedAnswers": [
+      "qualche"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "alcuni",
+     "acceptedAnswers": [
+      "alcune"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "qualche",
+     "acceptedAnswers": [
+      "alcune"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "qualche",
+     "acceptedAnswers": [
+      "alcune"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "alcune",
+     "acceptedAnswers": [
+      "qualche"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "Alcune",
+     "acceptedAnswers": [
+      "Alcuni"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "alcuni",
+     "acceptedAnswers": [
+      "qualche"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-riflessivi-m2",
+ "title": "Domande e risposte",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi riflessivi · Domande e risposte · livello medio.",
+ "topics": [
+  "I verbi riflessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · reflexive Verben im Präsens"
+ },
+ "grammar": {
+  "topic": "ecco1-riflessivi",
+  "topicTitle": "I verbi riflessivi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 12,
+  "rule": "I verbi riflessivi hanno un **pronome riflessivo** prima del verbo:\n| io | tu | lui / lei | noi | voi | loro |\n| **mi** sveglio | **ti** svegli | **si** sveglia | **ci** svegliamo | **vi** svegliate | **si** svegliano |\n\nAltri verbi: _alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi, mettersi, annoiarsi, sentirsi_.\nCon non: _**Non mi** alzo presto._ · Con un modale: _**Mi** devo alzare = Devo alzar**mi**._",
+  "ruleHelp": "Reflexive Verben haben ein **Reflexivpronomen** vor dem Verb: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano.\nWeitere: alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi … · Verneint: _Non mi alzo presto._ · Mit Modalverb: _Mi devo alzare = Devo alzarmi._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi con il verbo riflessivo.",
+   "promptHelp": "Antworte mit dem reflexiven Verb.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "A che ora ti svegli? (alle sette) – …",
+     "acceptedAnswers": [
+      "Mi sveglio alle sette"
+     ],
+     "modelAnswer": "Mi sveglio alle sette."
+    },
+    {
+     "id": "s2",
+     "start": "Come si chiama tua sorella? (Anna) – …",
+     "acceptedAnswers": [
+      "Si chiama Anna"
+     ],
+     "modelAnswer": "Si chiama Anna."
+    },
+    {
+     "id": "s3",
+     "start": "Vi divertite al mare? (sì) – …",
+     "acceptedAnswers": [
+      "Sì, ci divertiamo"
+     ],
+     "modelAnswer": "Sì, ci divertiamo."
+    },
+    {
+     "id": "s4",
+     "start": "A che ora si alzano i tuoi? (alle sei) – …",
+     "acceptedAnswers": [
+      "Si alzano alle sei"
+     ],
+     "modelAnswer": "Si alzano alle sei."
+    },
+    {
+     "id": "s5",
+     "start": "Ti annoi a scuola? (no) – …",
+     "acceptedAnswers": [
+      "No, non mi annoio"
+     ],
+     "modelAnswer": "No, non mi annoio."
+    },
+    {
+     "id": "s6",
+     "start": "Quando vi riposate? (il pomeriggio) – …",
+     "acceptedAnswers": [
+      "Ci riposiamo il pomeriggio"
+     ],
+     "modelAnswer": "Ci riposiamo il pomeriggio."
+    },
+    {
+     "id": "s7",
+     "start": "Come ti senti? (bene) – …",
+     "acceptedAnswers": [
+      "Mi sento bene"
+     ],
+     "modelAnswer": "Mi sento bene."
+    },
+    {
+     "id": "s8",
+     "start": "Ti metti il cappello? (sì) – …",
+     "acceptedAnswers": [
+      "Sì, mi metto il cappello"
+     ],
+     "modelAnswer": "Sì, mi metto il cappello."
+    }
+   ]
+  }
+ ]
+}

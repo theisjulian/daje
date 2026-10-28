@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-tutto-m3",
+ "title": "Sempre o tutto il tempo?",
+ "language": "it",
+ "level": "A1",
+ "description": "Tutto + articolo · Sempre o tutto il tempo? · livello medio.",
+ "topics": [
+  "Tutto + articolo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · tutto + Artikel"
+ },
+ "grammar": {
+  "topic": "ecco1-tutto",
+  "topicTitle": "Tutto + articolo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 23,
+  "rule": "**tutto** + **articolo** + nome; tutto cambia come il nome:\n| | singolare | plurale |\n| maschile | tutto **il** giorno | tutti **i** giorni |\n| femminile | tutta **la** sera | tutte **le** sere |\n\n_Tutti i ragazzi sono al mare. · Mangio tutta la pizza. · Tutte le mattine vado a correre._\nDa solo: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+  "ruleHelp": "**tutto** + **Artikel** + Nomen, angepasst an das Nomen: tutto il giorno, tutta la sera, tutti i giorni, tutte le sere.\nAllein: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Riscrivi con tutto: «ogni giorno» → «tutti i giorni».",
+   "promptHelp": "Schreibe mit tutto um.",
+   "explanation": "ogni + singolare = tutti/tutte + articolo + plurale.",
+   "explanationHelp": "ogni + Singular = tutti/tutte + Artikel + Plural.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "ogni giorno",
+     "acceptedAnswers": [
+      "tutti i giorni"
+     ],
+     "modelAnswer": "tutti i giorni"
+    },
+    {
+     "id": "s2",
+     "start": "ogni sera",
+     "acceptedAnswers": [
+      "tutte le sere"
+     ],
+     "modelAnswer": "tutte le sere"
+    },
+    {
+     "id": "s3",
+     "start": "ogni mattina",
+     "acceptedAnswers": [
+      "tutte le mattine"
+     ],
+     "modelAnswer": "tutte le mattine"
+    },
+    {
+     "id": "s4",
+     "start": "ogni settimana",
+     "acceptedAnswers": [
+      "tutte le settimane"
+     ],
+     "modelAnswer": "tutte le settimane"
+    },
+    {
+     "id": "s5",
+     "start": "ogni estate",
+     "acceptedAnswers": [
+      "tutte le estati"
+     ],
+     "modelAnswer": "tutte le estati"
+    },
+    {
+     "id": "s6",
+     "start": "ogni domenica",
+     "acceptedAnswers": [
+      "tutte le domeniche"
+     ],
+     "modelAnswer": "tutte le domeniche"
+    },
+    {
+     "id": "s7",
+     "start": "ogni mese",
+     "acceptedAnswers": [
+      "tutti i mesi"
+     ],
+     "modelAnswer": "tutti i mesi"
+    },
+    {
+     "id": "s8",
+     "start": "ogni anno",
+     "acceptedAnswers": [
+      "tutti gli anni"
+     ],
+     "modelAnswer": "tutti gli anni"
+    }
+   ]
+  }
+ ]
+}

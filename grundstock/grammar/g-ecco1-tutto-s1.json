@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-tutto-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A1",
+ "description": "Tutto + articolo · Trova gli errori · livello difficile.",
+ "topics": [
+  "Tutto + articolo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · tutto + Artikel"
+ },
+ "grammar": {
+  "topic": "ecco1-tutto",
+  "topicTitle": "Tutto + articolo",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 21,
+  "rule": "**tutto** + **articolo** + nome; tutto cambia come il nome:\n| | singolare | plurale |\n| maschile | tutto **il** giorno | tutti **i** giorni |\n| femminile | tutta **la** sera | tutte **le** sere |\n\n_Tutti i ragazzi sono al mare. · Mangio tutta la pizza. · Tutte le mattine vado a correre._\nDa solo: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+  "ruleHelp": "**tutto** + **Artikel** + Nomen, angepasst an das Nomen: tutto il giorno, tutta la sera, tutti i giorni, tutte le sere.\nAllein: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi gli otto errori.",
+   "promptHelp": "Korrigiere die acht Fehler.",
+   "type": "error_correction",
+   "text": "[[g1]] i ragazzi sono in spiaggia.\n[[g2]] le sere usciamo.\nHo mangiato [[g3]] la pizza.\n[[g4]] il giorno piove.\nViene [[g5]] la classe.\n[[g6]] miei amici sono qui.\nStudio [[g7]] pomeriggio.\n[[g8]] le mie cugine abitano a Napoli.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "Tutto",
+     "acceptedAnswers": [
+      "Tutti"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "Tutti",
+     "acceptedAnswers": [
+      "Tutte"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "tutto",
+     "acceptedAnswers": [
+      "tutta"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "Tutta",
+     "acceptedAnswers": [
+      "Tutto"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "tutte",
+     "acceptedAnswers": [
+      "tutta"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "Tutte i",
+     "acceptedAnswers": [
+      "Tutti i"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "tutti i",
+     "acceptedAnswers": [
+      "tutto il"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "Tutti",
+     "acceptedAnswers": [
+      "Tutte"
+     ]
+    }
+   ]
+  }
+ ]
+}

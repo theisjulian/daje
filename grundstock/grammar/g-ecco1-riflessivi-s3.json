@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-riflessivi-s3",
+ "title": "La tua giornata",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi riflessivi · La tua giornata · livello difficile.",
+ "topics": [
+  "I verbi riflessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · reflexive Verben im Präsens"
+ },
+ "grammar": {
+  "topic": "ecco1-riflessivi",
+  "topicTitle": "I verbi riflessivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 13,
+  "rule": "I verbi riflessivi hanno un **pronome riflessivo** prima del verbo:\n| io | tu | lui / lei | noi | voi | loro |\n| **mi** sveglio | **ti** svegli | **si** sveglia | **ci** svegliamo | **vi** svegliate | **si** svegliano |\n\nAltri verbi: _alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi, mettersi, annoiarsi, sentirsi_.\nCon non: _**Non mi** alzo presto._ · Con un modale: _**Mi** devo alzare = Devo alzar**mi**._",
+  "ruleHelp": "Reflexive Verben haben ein **Reflexivpronomen** vor dem Verb: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano.\nWeitere: alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi … · Verneint: _Non mi alzo presto._ · Mit Modalverb: _Mi devo alzare = Devo alzarmi._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Descrivi una tua giornata tipica con almeno sei verbi riflessivi.",
+   "promptHelp": "Beschreibe einen typischen Tag mit mindestens sechs reflexiven Verben.",
+   "type": "open_answer",
+   "modelAnswer": "Mi sveglio alle sei e mezza. Mi alzo subito e mi lavo. Poi mi vesto e faccio colazione. Il pomeriggio mi riposo un po’. La sera mi diverto con i miei amici. Alle dieci mi metto a letto.",
+   "lines": 6
+  },
+  {
+   "id": "q2",
+   "prompt": "E adesso scrivi le frasi.",
+   "promptHelp": "Und jetzt schreibe die Sätze.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "(io / svegliarsi / alle sette)",
+     "acceptedAnswers": [
+      "Mi sveglio alle sette"
+     ],
+     "modelAnswer": "Mi sveglio alle sette."
+    },
+    {
+     "id": "s2",
+     "start": "(noi / divertirsi / al parco)",
+     "acceptedAnswers": [
+      "Ci divertiamo al parco"
+     ],
+     "modelAnswer": "Ci divertiamo al parco."
+    },
+    {
+     "id": "s3",
+     "start": "(mia sorella / vestirsi / in fretta)",
+     "acceptedAnswers": [
+      "Mia sorella si veste in fretta"
+     ],
+     "modelAnswer": "Mia sorella si veste in fretta."
+    },
+    {
+     "id": "s4",
+     "start": "(tu / riposarsi / il sabato?)",
+     "acceptedAnswers": [
+      "Ti riposi il sabato"
+     ],
+     "modelAnswer": "Ti riposi il sabato?"
+    }
+   ]
+  }
+ ]
+}

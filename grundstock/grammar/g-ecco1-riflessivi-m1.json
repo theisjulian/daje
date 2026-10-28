@@ -1,0 +1,108 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-riflessivi-m1",
+ "title": "Una giornata d’estate",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi riflessivi · Una giornata d’estate · livello medio.",
+ "topics": [
+  "I verbi riflessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · reflexive Verben im Präsens"
+ },
+ "grammar": {
+  "topic": "ecco1-riflessivi",
+  "topicTitle": "I verbi riflessivi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 11,
+  "rule": "I verbi riflessivi hanno un **pronome riflessivo** prima del verbo:\n| io | tu | lui / lei | noi | voi | loro |\n| **mi** sveglio | **ti** svegli | **si** sveglia | **ci** svegliamo | **vi** svegliate | **si** svegliano |\n\nAltri verbi: _alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi, mettersi, annoiarsi, sentirsi_.\nCon non: _**Non mi** alzo presto._ · Con un modale: _**Mi** devo alzare = Devo alzar**mi**._",
+  "ruleHelp": "Reflexive Verben haben ein **Reflexivpronomen** vor dem Verb: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano.\nWeitere: alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi … · Verneint: _Non mi alzo presto._ · Mit Modalverb: _Mi devo alzare = Devo alzarmi._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi il verbo riflessivo nella forma giusta.",
+   "promptHelp": "Setze das reflexive Verb in die richtige Form.",
+   "explanation": "Pronome riflessivo + verbo: mi sveglio, si alza, ci laviamo.",
+   "explanationHelp": "Reflexivpronomen + Verb.",
+   "type": "gap_fill",
+   "text": "In vacanza io (svegliarsi) [[g1]] tardi.\nMia sorella (alzarsi) [[g2]] alle dieci.\nNoi (lavarsi) [[g3]] e poi andiamo in spiaggia.\nAl mare (divertirsi, noi) [[g4]] molto.\nI miei genitori (riposarsi) [[g5]] sotto l’ombrellone.\nTu (annoiarsi) [[g6]] in vacanza?\nVoi (mettersi) [[g7]] la crema?\nLa sera Luca (vestirsi) [[g8]] elegante per la festa.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "mi sveglio"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "si alza"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ci laviamo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ci divertiamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "si riposano"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "ti annoi"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "vi mettete"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "si veste"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-qualche-alcuni-l1",
+ "title": "Qualche o alcuni / alcune?",
+ "language": "it",
+ "level": "A1",
+ "description": "Qualche e alcuni / alcune · Qualche o alcuni / alcune? · livello facile.",
+ "topics": [
+  "Qualche e alcuni / alcune",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitbegleiter qualche, alcuni / alcune"
+ },
+ "grammar": {
+  "topic": "ecco1-qualche-alcuni",
+  "topicTitle": "Qualche e alcuni / alcune",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 31,
+  "rule": "**qualche** (einige) non cambia e va con il **singolare**: _qualche giorno, qualche amica._\n**alcuni / alcune** vanno con il **plurale**: _alcuni giorni, alcune amiche._\nIl significato è uguale: _Ho qualche amico a Roma = Ho alcuni amici a Roma._\nDa solo (pronome): _**Alcuni** di noi vanno in spiaggia, altri in centro._",
+  "ruleHelp": "**qualche** (einige) bleibt gleich und steht mit dem **Singular**: _qualche giorno, qualche amica._\n**alcuni / alcune** stehen mit dem **Plural**: _alcuni giorni, alcune amiche._ Gleiche Bedeutung.\nAllein: _Alcuni di noi vanno in spiaggia, altri in centro._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "qualche + singolare, alcuni/alcune + plurale.",
+   "explanationHelp": "qualche + Singular, alcuni/alcune + Plural.",
+   "type": "gap_choice",
+   "text": "Ho [[g1]] amico a Roma.\nHo [[g2]] amici a Milano.\nRestiamo [[g3]] giorno al mare.\nRestiamo [[g4]] giorni al mare.\nHo comprato [[g5]] cartoline.\nMando [[g6]] cartolina.\n[[g7]] ragazze giocano a pallavolo.\nC’è [[g8]] nuvola in cielo.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "qualche",
+      "alcuni",
+      "alcune"
+     ],
+     "answer": "qualche"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "alcuni",
+      "qualche",
+      "alcune"
+     ],
+     "answer": "alcuni"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "qualche",
+      "alcuni",
+      "alcune"
+     ],
+     "answer": "qualche"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "alcuni",
+      "alcune",
+      "qualche"
+     ],
+     "answer": "alcuni"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "alcune",
+      "alcuni",
+      "qualche"
+     ],
+     "answer": "alcune"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "qualche",
+      "alcune",
+      "alcuni"
+     ],
+     "answer": "qualche"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "Alcune",
+      "Alcuni",
+      "Qualche"
+     ],
+     "answer": "Alcune"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "qualche",
+      "alcuni",
+      "alcune"
+     ],
+     "answer": "qualche"
+    }
+   ]
+  }
+ ]
+}

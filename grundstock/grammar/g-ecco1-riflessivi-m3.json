@@ -1,0 +1,189 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-riflessivi-m3",
+ "title": "La tabella",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi riflessivi · La tabella · livello medio.",
+ "topics": [
+  "I verbi riflessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · reflexive Verben im Präsens"
+ },
+ "grammar": {
+  "topic": "ecco1-riflessivi",
+  "topicTitle": "I verbi riflessivi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 13,
+  "rule": "I verbi riflessivi hanno un **pronome riflessivo** prima del verbo:\n| io | tu | lui / lei | noi | voi | loro |\n| **mi** sveglio | **ti** svegli | **si** sveglia | **ci** svegliamo | **vi** svegliate | **si** svegliano |\n\nAltri verbi: _alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi, mettersi, annoiarsi, sentirsi_.\nCon non: _**Non mi** alzo presto._ · Con un modale: _**Mi** devo alzare = Devo alzar**mi**._",
+  "ruleHelp": "Reflexive Verben haben ein **Reflexivpronomen** vor dem Verb: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano.\nWeitere: alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi … · Verneint: _Non mi alzo presto._ · Mit Modalverb: _Mi devo alzare = Devo alzarmi._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa le forme.",
+   "promptHelp": "Ergänze die Formen.",
+   "type": "table_fill",
+   "columns": [
+    "persona",
+    "alzarsi",
+    "mettersi",
+    "divertirsi"
+   ],
+   "rows": [
+    [
+     "io",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "mi alzo"
+      ]
+     },
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "mi metto"
+      ]
+     },
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "mi diverto"
+      ]
+     }
+    ],
+    [
+     "tu",
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "ti alzi"
+      ]
+     },
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "ti metti"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "ti diverti"
+      ]
+     }
+    ],
+    [
+     "lui / lei",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "si alza"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "si mette"
+      ]
+     },
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "si diverte"
+      ]
+     }
+    ],
+    [
+     "noi",
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "ci alziamo"
+      ]
+     },
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "ci mettiamo"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "ci divertiamo"
+      ]
+     }
+    ],
+    [
+     "voi",
+     {
+      "id": "c13",
+      "acceptedAnswers": [
+       "vi alzate"
+      ]
+     },
+     {
+      "id": "c14",
+      "acceptedAnswers": [
+       "vi mettete"
+      ]
+     },
+     {
+      "id": "c15",
+      "acceptedAnswers": [
+       "vi divertite"
+      ]
+     }
+    ],
+    [
+     "loro",
+     {
+      "id": "c16",
+      "acceptedAnswers": [
+       "si alzano"
+      ]
+     },
+     {
+      "id": "c17",
+      "acceptedAnswers": [
+       "si mettono"
+      ]
+     },
+     {
+      "id": "c18",
+      "acceptedAnswers": [
+       "si divertono"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

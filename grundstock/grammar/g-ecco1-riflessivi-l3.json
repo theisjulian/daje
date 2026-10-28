@@ -1,0 +1,125 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-riflessivi-l3",
+ "title": "La giornata in ordine",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi riflessivi · La giornata in ordine · livello facile.",
+ "topics": [
+  "I verbi riflessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · reflexive Verben im Präsens"
+ },
+ "grammar": {
+  "topic": "ecco1-riflessivi",
+  "topicTitle": "I verbi riflessivi",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 13,
+  "rule": "I verbi riflessivi hanno un **pronome riflessivo** prima del verbo:\n| io | tu | lui / lei | noi | voi | loro |\n| **mi** sveglio | **ti** svegli | **si** sveglia | **ci** svegliamo | **vi** svegliate | **si** svegliano |\n\nAltri verbi: _alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi, mettersi, annoiarsi, sentirsi_.\nCon non: _**Non mi** alzo presto._ · Con un modale: _**Mi** devo alzare = Devo alzar**mi**._",
+  "ruleHelp": "Reflexive Verben haben ein **Reflexivpronomen** vor dem Verb: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano.\nWeitere: alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi … · Verneint: _Non mi alzo presto._ · Mit Modalverb: _Mi devo alzare = Devo alzarmi._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti in ordine la mattina di Anna.",
+   "promptHelp": "Ordne Annas Morgen.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Si sveglia alle sette."
+    },
+    {
+     "id": "i2",
+     "text": "Si alza dal letto."
+    },
+    {
+     "id": "i3",
+     "text": "Si lava la faccia."
+    },
+    {
+     "id": "i4",
+     "text": "Si veste."
+    },
+    {
+     "id": "i5",
+     "text": "Fa colazione."
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "E la sera?",
+   "promptHelp": "Und am Abend?",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Torna a casa."
+    },
+    {
+     "id": "i2",
+     "text": "Si fa la doccia."
+    },
+    {
+     "id": "i3",
+     "text": "Si mette il pigiama."
+    },
+    {
+     "id": "i4",
+     "text": "Si addormenta."
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti le parole in ordine: „Wir amüsieren uns am Strand.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Ci"
+    },
+    {
+     "id": "i2",
+     "text": "divertiamo"
+    },
+    {
+     "id": "i3",
+     "text": "in"
+    },
+    {
+     "id": "i4",
+     "text": "spiaggia"
+    }
+   ]
+  }
+ ]
+}

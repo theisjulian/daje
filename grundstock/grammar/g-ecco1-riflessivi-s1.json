@@ -1,0 +1,116 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-riflessivi-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi riflessivi · Trova gli errori · livello difficile.",
+ "topics": [
+  "I verbi riflessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · reflexive Verben im Präsens"
+ },
+ "grammar": {
+  "topic": "ecco1-riflessivi",
+  "topicTitle": "I verbi riflessivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 11,
+  "rule": "I verbi riflessivi hanno un **pronome riflessivo** prima del verbo:\n| io | tu | lui / lei | noi | voi | loro |\n| **mi** sveglio | **ti** svegli | **si** sveglia | **ci** svegliamo | **vi** svegliate | **si** svegliano |\n\nAltri verbi: _alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi, mettersi, annoiarsi, sentirsi_.\nCon non: _**Non mi** alzo presto._ · Con un modale: _**Mi** devo alzare = Devo alzar**mi**._",
+  "ruleHelp": "Reflexive Verben haben ein **Reflexivpronomen** vor dem Verb: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano.\nWeitere: alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi … · Verneint: _Non mi alzo presto._ · Mit Modalverb: _Mi devo alzare = Devo alzarmi._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi gli otto errori.",
+   "promptHelp": "Korrigiere die acht Fehler.",
+   "explanation": "Il pronome va prima del verbo; con il modale anche attaccato: devo alzarmi.",
+   "explanationHelp": "Pronomen vor dem Verb; mit Modalverb auch angehängt.",
+   "type": "error_correction",
+   "text": "Io [[g1]] sveglio presto.\nNoi [[g2]] divertiamo molto.\nTu [[g3]] chiami Marco?\nLe ragazze [[g4]] vestono.\nVoi [[g5]] riposate?\nMio padre [[g6]] alza alle sei.\nIo non [[g7]] presto in vacanza.\nDevo [[g8]] presto domani.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "si",
+     "acceptedAnswers": [
+      "mi"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "si",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "mi",
+     "acceptedAnswers": [
+      "ti"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "ci",
+     "acceptedAnswers": [
+      "si"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "si",
+     "acceptedAnswers": [
+      "vi"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "ti",
+     "acceptedAnswers": [
+      "si"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "alzo mi",
+     "acceptedAnswers": [
+      "mi alzo"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "mi alzare",
+     "acceptedAnswers": [
+      "alzarmi"
+     ]
+    }
+   ]
+  }
+ ]
+}

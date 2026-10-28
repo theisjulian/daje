@@ -1,0 +1,360 @@
+#!buch series=Corso_daje volume=1 grade=8 cefr=A1 prefix=ecco1
+## Primo anno · Lektion 7 · Estate in Italia · Grammatikthemen (Lehrplan Jgst. 8). Eigene Übungen.
+
+@thema riflessivi | 7 · Estate in Italia | Parte A | I verbi riflessivi | 1
+#lehrplan Jgst. 8 · reflexive Verben im Präsens
+#regel
+I verbi riflessivi hanno un **pronome riflessivo** prima del verbo:
+| io | tu | lui / lei | noi | voi | loro |
+| **mi** sveglio | **ti** svegli | **si** sveglia | **ci** svegliamo | **vi** svegliate | **si** svegliano |
+
+Altri verbi: _alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi, mettersi, annoiarsi, sentirsi_.
+Con non: _**Non mi** alzo presto._ · Con un modale: _**Mi** devo alzare = Devo alzar**mi**._
+#regel-de
+Reflexive Verben haben ein **Reflexivpronomen** vor dem Verb: mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano.
+Weitere: alzarsi, lavarsi, vestirsi, chiamarsi, divertirsi, riposarsi … · Verneint: _Non mi alzo presto._ · Mit Modalverb: _Mi devo alzare = Devo alzarmi._
+
+%übung leicht | Quale pronome?
+?auswahl | Scegli il pronome riflessivo. || Wähle das Reflexivpronomen.
+Io {mi*|ti|si} sveglio alle sette.
+Tu {ti*|mi|si} alzi presto?
+Marco {si*|mi|ci} lava i denti.
+Noi {ci*|vi|si} divertiamo al mare.
+Voi {vi*|ci|si} riposate in spiaggia?
+Le ragazze {si*|ci|vi} vestono in fretta.
+Come {ti*|mi|si} chiami?
+Io {mi*|si|ti} chiamo Giulia.
+Mia madre {si*|mi|vi} sente stanca.
+Noi {ci*|si|vi} mettiamo la crema solare.
+! mi, ti, si, ci, vi, si: il pronome va con la persona. || Das Pronomen passt zur Person.
+
+%übung leicht | La mattina di Leo
+?zuordnen | Abbina persona e forma. || Verbinde Person und Form.
+io = mi alzo
+tu = ti alzi
+lui / lei = si alza
+noi = ci alziamo
+voi = vi alzate
+loro = si alzano
+Leo e io = ci alziamo
+tu e Sara = vi alzate
++ si alziamo
+
+%übung leicht | La giornata in ordine
+?ordnen | Metti in ordine la mattina di Anna. || Ordne Annas Morgen.
+Si sveglia alle sette.
+Si alza dal letto.
+Si lava la faccia.
+Si veste.
+Fa colazione.
+?ordnen | E la sera? || Und am Abend?
+Torna a casa.
+Si fa la doccia.
+Si mette il pigiama.
+Si addormenta.
+?ordnen | Metti le parole in ordine: „Wir amüsieren uns am Strand.“ || Bringe die Wörter in die richtige Reihenfolge.
+Ci
+divertiamo
+in
+spiaggia
+
+%übung mittel | Una giornata d’estate
+?luecke | Scrivi il verbo riflessivo nella forma giusta. || Setze das reflexive Verb in die richtige Form.
+In vacanza io (svegliarsi) [mi sveglio] tardi.
+Mia sorella (alzarsi) [si alza] alle dieci.
+Noi (lavarsi) [ci laviamo] e poi andiamo in spiaggia.
+Al mare (divertirsi, noi) [ci divertiamo] molto.
+I miei genitori (riposarsi) [si riposano] sotto l’ombrellone.
+Tu (annoiarsi) [ti annoi] in vacanza?
+Voi (mettersi) [vi mettete] la crema?
+La sera Luca (vestirsi) [si veste] elegante per la festa.
+! Pronome riflessivo + verbo: mi sveglio, si alza, ci laviamo. || Reflexivpronomen + Verb.
+
+%übung mittel | Domande e risposte
+?ergaenzen | Rispondi con il verbo riflessivo. || Antworte mit dem reflexiven Verb.
+A che ora ti svegli? (alle sette) – … | Mi sveglio alle sette | Mi sveglio alle sette.
+Come si chiama tua sorella? (Anna) – … | Si chiama Anna | Si chiama Anna.
+Vi divertite al mare? (sì) – … | Sì, ci divertiamo | Sì, ci divertiamo.
+A che ora si alzano i tuoi? (alle sei) – … | Si alzano alle sei | Si alzano alle sei.
+Ti annoi a scuola? (no) – … | No, non mi annoio | No, non mi annoio.
+Quando vi riposate? (il pomeriggio) – … | Ci riposiamo il pomeriggio | Ci riposiamo il pomeriggio.
+Come ti senti? (bene) – … | Mi sento bene | Mi sento bene.
+Ti metti il cappello? (sì) – … | Sì, mi metto il cappello | Sì, mi metto il cappello.
+
+%übung mittel | La tabella
+?tabelle | Completa le forme. || Ergänze die Formen.
+Spalten: persona | alzarsi | mettersi | divertirsi
+io | [mi alzo] | [mi metto] | [mi diverto]
+tu | [ti alzi] | [ti metti] | [ti diverti]
+lui / lei | [si alza] | [si mette] | [si diverte]
+noi | [ci alziamo] | [ci mettiamo] | [ci divertiamo]
+voi | [vi alzate] | [vi mettete] | [vi divertite]
+loro | [si alzano] | [si mettono] | [si divertono]
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+Io [si=>mi] sveglio presto.
+Noi [si=>ci] divertiamo molto.
+Tu [mi=>ti] chiami Marco?
+Le ragazze [ci=>si] vestono.
+Voi [si=>vi] riposate?
+Mio padre [ti=>si] alza alle sei.
+Io non [alzo mi=>mi alzo] presto in vacanza.
+Devo [mi alzare=>alzarmi] presto domani.
+! Il pronome va prima del verbo; con il modale anche attaccato: devo alzarmi. || Pronomen vor dem Verb; mit Modalverb auch angehängt.
+
+%übung schwer | Una mail dalla Liguria
+?luecke | Scrivi i verbi nella forma giusta. || Setze die Verben in die richtige Form.
+Ciao Lena! Qui in Liguria (divertirsi, noi) [ci divertiamo] tantissimo.
+La mattina io (svegliarsi) [mi sveglio] alle nove,
+mio fratello invece (alzarsi) [si alza] a mezzogiorno!
+Poi (mettersi, noi) [ci mettiamo] il costume e andiamo in spiaggia.
+Mia madre (riposarsi) [si riposa] sotto l’ombrellone.
+Il pomeriggio (annoiarsi, io) [mi annoio] un po’, perché fa caldo.
+Ma la sera (vestirsi, noi) [ci vestiamo] bene e usciamo.
+E tu? Come (sentirsi) [ti senti] in vacanza?
+
+%übung schwer | La tua giornata
+?frei | Descrivi una tua giornata tipica con almeno sei verbi riflessivi. || Beschreibe einen typischen Tag mit mindestens sechs reflexiven Verben.
+Mi sveglio alle sei e mezza. Mi alzo subito e mi lavo. Poi mi vesto e faccio colazione. Il pomeriggio mi riposo un po’. La sera mi diverto con i miei amici. Alle dieci mi metto a letto.
+Zeilen: 6
+?ergaenzen | E adesso scrivi le frasi. || Und jetzt schreibe die Sätze.
+(io / svegliarsi / alle sette) | Mi sveglio alle sette | Mi sveglio alle sette.
+(noi / divertirsi / al parco) | Ci divertiamo al parco | Ci divertiamo al parco.
+(mia sorella / vestirsi / in fretta) | Mia sorella si veste in fretta | Mia sorella si veste in fretta.
+(tu / riposarsi / il sabato?) | Ti riposi il sabato | Ti riposi il sabato?
+
+@thema tutto | 7 · Estate in Italia | Parte A | Tutto + articolo | 2
+#lehrplan Jgst. 8 · tutto + Artikel
+#regel
+**tutto** + **articolo** + nome; tutto cambia come il nome:
+| | singolare | plurale |
+| maschile | tutto **il** giorno | tutti **i** giorni |
+| femminile | tutta **la** sera | tutte **le** sere |
+
+_Tutti i ragazzi sono al mare. · Mangio tutta la pizza. · Tutte le mattine vado a correre._
+Da solo: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)
+#regel-de
+**tutto** + **Artikel** + Nomen, angepasst an das Nomen: tutto il giorno, tutta la sera, tutti i giorni, tutte le sere.
+Allein: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)
+
+%übung leicht | Quale forma di tutto?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+{Tutti*|Tutto|Tutte} i giorni vado a scuola.
+{Tutte*|Tutta|Tutti} le mattine sono stanco.
+Domenica viene {tutta*|tutto|tutte} la famiglia.
+{Tutte*|Tutti|Tutta} le mie amiche sono in vacanza.
+{Tutti*|Tutte|Tutto} i ragazzi si divertono in spiaggia.
+I ragazzi discutono {tutto*|tutta|tutti} il tempo.
+Ho mangiato {tutta*|tutto|tutte} la torta!
+Dormo {tutto*|tutta|tutti} il pomeriggio.
+{Tutte*|Tutti|Tutta} le sere usciamo.
+Leggo {tutti*|tutte|tutto} i libri di Harry Potter.
+! tutto + articolo cambia come il nome: tutti i giorni, tutte le sere. || tutto passt sich an.
+
+%übung leicht | Tutto, tutta, tutti, tutte
+?sortieren | Quale forma va con il nome? || Welche Form passt zum Nomen?
+Kategorien: o=tutto; a=tutta; i=tutti; e=tutte
+il giorno > o
+il tempo > o
+la sera > a
+la famiglia > a
+i ragazzi > i
+i giorni > i
+gli amici > i
+le mattine > e
+le amiche > e
+la classe > a
+
+%übung leicht | Che cosa vuol dire?
+?zuordnen | Che cosa vuol dire? || Was bedeutet das?
+tutto il giorno = den ganzen Tag
+tutti i giorni = jeden Tag
+tutta la sera = den ganzen Abend
+tutte le sere = jeden Abend
+tutta la famiglia = die ganze Familie
+tutti i ragazzi = alle Jungen
+Ho capito tutto. = Ich habe alles verstanden.
+Tutti sono qui. = Alle sind da.
+
+%übung mittel | Le vacanze al mare
+?luecke | Scrivi tutto, tutta, tutti o tutte. || Ergänze die richtige Form von tutto.
+In vacanza dormo [tutta] la mattina.
+[Tutti] i giorni andiamo in spiaggia.
+[Tutta] la famiglia è contenta.
+Mio fratello gioca a beach volley [tutto] il pomeriggio.
+[Tutte] le sere mangiamo un gelato.
+[Tutti] gli amici di mia sorella sono qui.
+Mia madre legge [tutto] il giorno.
+[Tutte] le ragazze del campeggio parlano tedesco.
+! tutto + articolo + nome. || tutto + Artikel + Nomen.
+
+%übung mittel | Con l’articolo giusto
+?tabelle | Scrivi tutto con l’articolo. || Schreibe tutto mit Artikel.
+Spalten: nome | con tutto
+il giorno | [tutto il giorno]
+la notte | [tutta la notte]
+i compagni | [tutti i compagni]
+le vacanze | [tutte le vacanze]
+gli zii | [tutti gli zii]
+l’estate | [tutta l’estate]
+lo zaino | [tutto lo zaino]
+le cugine | [tutte le cugine]
+
+%übung mittel | Sempre o tutto il tempo?
+?ergaenzen | Riscrivi con tutto: «ogni giorno» → «tutti i giorni». || Schreibe mit tutto um.
+ogni giorno | tutti i giorni | tutti i giorni
+ogni sera | tutte le sere | tutte le sere
+ogni mattina | tutte le mattine | tutte le mattine
+ogni settimana | tutte le settimane | tutte le settimane
+ogni estate | tutte le estati | tutte le estati
+ogni domenica | tutte le domeniche | tutte le domeniche
+ogni mese | tutti i mesi | tutti i mesi
+ogni anno | tutti gli anni | tutti gli anni
+! ogni + singolare = tutti/tutte + articolo + plurale. || ogni + Singular = tutti/tutte + Artikel + Plural.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+[Tutto=>Tutti] i ragazzi sono in spiaggia.
+[Tutti=>Tutte] le sere usciamo.
+Ho mangiato [tutto=>tutta] la pizza.
+[Tutta=>Tutto] il giorno piove.
+Viene [tutte=>tutta] la classe.
+[Tutte i=>Tutti i] miei amici sono qui.
+Studio [tutti i=>tutto il] pomeriggio.
+[Tutti=>Tutte] le mie cugine abitano a Napoli.
+
+%übung schwer | Una giornata perfetta
+?luecke | Scrivi tutto nella forma giusta e l’articolo. || Ergänze tutto und den Artikel.
+In estate passo [tutte le] mattine in spiaggia.
+Dormo [tutto il] pomeriggio sotto l’ombrellone.
+[Tutti i] miei amici sono in Liguria con me.
+La sera [tutta la] compagnia va in pizzeria.
+Mangiamo [tutte le] pizze del menù!
+Poi balliamo [tutta la] notte.
+[Tutti gli] amici sono stanchi ma felici.
+Dormiamo [tutta la] mattina dopo!
+
+%übung schwer | Le tue vacanze
+?frei | Scrivi 4 frasi sulle tue vacanze ideali con tutto, tutta, tutti, tutte. || Schreibe 4 Sätze über deine idealen Ferien.
+Tutti i giorni vado al mare. Dormo tutta la mattina. Tutte le sere mangio un gelato. Tutta la famiglia è contenta.
+Zeilen: 4
+?auswahl | Controlla: quale forma? || Prüfe: welche Form?
+{Tutti*|Tutte} i giorni sono belli.
+Dormo {tutta*|tutto} la mattina.
+{Tutte*|Tutti} le sere esco.
+{Tutta*|Tutto} la famiglia viene.
+
+@thema qualche-alcuni | 7 · Estate in Italia | Parte B | Qualche e alcuni / alcune | 3
+#lehrplan Jgst. 8 · Indefinitbegleiter qualche, alcuni / alcune
+#regel
+**qualche** (einige) non cambia e va con il **singolare**: _qualche giorno, qualche amica._
+**alcuni / alcune** vanno con il **plurale**: _alcuni giorni, alcune amiche._
+Il significato è uguale: _Ho qualche amico a Roma = Ho alcuni amici a Roma._
+Da solo (pronome): _**Alcuni** di noi vanno in spiaggia, altri in centro._
+#regel-de
+**qualche** (einige) bleibt gleich und steht mit dem **Singular**: _qualche giorno, qualche amica._
+**alcuni / alcune** stehen mit dem **Plural**: _alcuni giorni, alcune amiche._ Gleiche Bedeutung.
+Allein: _Alcuni di noi vanno in spiaggia, altri in centro._
+
+%übung leicht | Qualche o alcuni / alcune?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Ho {qualche*|alcuni|alcune} amico a Roma.
+Ho {alcuni*|qualche|alcune} amici a Milano.
+Restiamo {qualche*|alcuni|alcune} giorno al mare.
+Restiamo {alcuni*|alcune|qualche} giorni al mare.
+Ho comprato {alcune*|alcuni|qualche} cartoline.
+Mando {qualche*|alcune|alcuni} cartolina.
+{Alcune*|Alcuni|Qualche} ragazze giocano a pallavolo.
+C’è {qualche*|alcuni|alcune} nuvola in cielo.
+! qualche + singolare, alcuni/alcune + plurale. || qualche + Singular, alcuni/alcune + Plural.
+
+%übung leicht | Singolare o plurale?
+?sortieren | Va con qualche o con alcuni / alcune? || Passt zu qualche oder zu alcuni / alcune?
+Kategorien: q=qualche; a=alcuni / alcune
+giorno > q
+amica > q
+foto > q
+volta > q
+libro > q
+giorni > a
+amiche > a
+foto (plurale) > a
+volte > a
+libri > a
+
+%übung leicht | Alcuni o alcune?
+?auswahl | Scegli alcuni o alcune. || Wähle alcuni oder alcune.
+{Alcuni*|Alcune} ragazzi vanno in centro.
+{Alcune*|Alcuni} ragazze vanno in spiaggia.
+Ho visitato {alcuni*|alcune} monumenti.
+Abbiamo fatto {alcune*|alcuni} spese.
+Ci sono {alcune*|alcuni} nuvole.
+Leggo {alcuni*|alcune} libri in vacanza.
+Conosco {alcune*|alcuni} canzoni italiane.
+Mangiamo {alcuni*|alcune} panini.
+
+%übung mittel | Da qualche ad alcuni
+?ergaenzen | Riscrivi con alcuni / alcune. || Schreibe mit alcuni / alcune um.
+qualche giorno | alcuni giorni | alcuni giorni
+qualche amica | alcune amiche | alcune amiche
+qualche libro | alcuni libri | alcuni libri
+qualche spiaggia | alcune spiagge | alcune spiagge
+qualche città | alcune città | alcune città
+qualche gelato | alcuni gelati | alcuni gelati
+qualche foto | alcune foto | alcune foto
+qualche museo | alcuni musei | alcuni musei
+! qualche + singolare → alcuni/alcune + plurale. || qualche + Singular → alcuni/alcune + Plural.
+
+%übung mittel | In Liguria
+?luecke | Scrivi qualche, alcuni o alcune. || Ergänze qualche, alcuni oder alcune.
+Restiamo in Liguria [qualche] giorno.
+[Alcuni] amici di Filippo sono qui.
+Andiamo a San Remo per [qualche] ora.
+Compriamo [alcune] bottiglie d’acqua.
+[Alcune] ragazze fanno il bagno, altre prendono il sole.
+Mando [qualche] messaggio ai nonni.
+Abbiamo fatto [alcune] foto bellissime.
+[Qualche] volta andiamo in bici.
+
+%übung mittel | Per strada
+?luecke | Completa le frasi con qualche o alcuni / alcune. || Ergänze qualche oder alcuni / alcune.
+Dopo [qualche] metro girate a sinistra.
+[Alcuni] di noi prendono le biciclette, altri i pattini.
+Tra [qualche] giorno comincia la scuola.
+I ragazzi attraversano [qualche] strada e arrivano al parcheggio.
+[Alcuni] dei ragazzi vanno in centro, altri in spiaggia.
+Dopo [qualche] giorno i ragazzi tornano a casa.
+Filippo ha passato [alcuni] giorni a casa.
+Attraversate [alcune] strade e poi girate a destra.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+Ho [qualche=>alcuni] amici a Roma.
+Resto [alcuni=>qualche] giorno.
+Ho [alcuni=>alcune] amiche in Italia.
+Ci sono [qualche=>alcune] nuvole.
+Ho fatto [qualche=>alcune] foto.
+Mando [alcune=>qualche] cartolina.
+[Alcune=>Alcuni] ragazzi giocano.
+Tra [alcuni=>qualche] ora partiamo.
+
+%übung schwer | Gli acquisti delle vacanze
+?luecke | Scrivi i verbi e qualche / alcuni / alcune. || Ergänze Verben und qualche / alcuni / alcune.
+[Alcuni] amici di Filippo vanno in Liguria.
+[Qualche] volta Filippo (scrivere) [scrive] cartoline o messaggi.
+[Alcuni] giorni gli amici fanno delle gite, [alcuni] giorni invece stanno in spiaggia.
+Ieri Anna e Giulia (andare) [sono andate] a San Remo in bici.
+Lì (comprare, loro) [hanno comprato] [alcune] bottiglie d’acqua e [qualche] panino.
+E poi (fare, loro) [hanno fatto] [alcune] foto molto belle.
+! qualche panino (singolare), alcune bottiglie (plurale). || qualche + Singular, alcune + Plural.
+
+%übung schwer | Le tue vacanze
+?frei | Racconta le tue ultime vacanze con qualche, alcuni e alcune. || Erzähle von deinen letzten Ferien mit qualche, alcuni, alcune.
+Sono stato al mare per qualche giorno. Ho conosciuto alcuni ragazzi simpatici. Abbiamo fatto alcune gite. Qualche volta siamo andati in pizzeria.
+Zeilen: 5
+?ergaenzen | E adesso riscrivi con qualche. || Und jetzt schreibe mit qualche um.
+alcuni giorni | qualche giorno | qualche giorno
+alcune volte | qualche volta | qualche volta
+alcuni amici | qualche amico | qualche amico
+alcune gite | qualche gita | qualche gita

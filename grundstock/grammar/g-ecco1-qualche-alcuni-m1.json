@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-qualche-alcuni-m1",
+ "title": "Da qualche ad alcuni",
+ "language": "it",
+ "level": "A1",
+ "description": "Qualche e alcuni / alcune · Da qualche ad alcuni · livello medio.",
+ "topics": [
+  "Qualche e alcuni / alcune",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitbegleiter qualche, alcuni / alcune"
+ },
+ "grammar": {
+  "topic": "ecco1-qualche-alcuni",
+  "topicTitle": "Qualche e alcuni / alcune",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 31,
+  "rule": "**qualche** (einige) non cambia e va con il **singolare**: _qualche giorno, qualche amica._\n**alcuni / alcune** vanno con il **plurale**: _alcuni giorni, alcune amiche._\nIl significato è uguale: _Ho qualche amico a Roma = Ho alcuni amici a Roma._\nDa solo (pronome): _**Alcuni** di noi vanno in spiaggia, altri in centro._",
+  "ruleHelp": "**qualche** (einige) bleibt gleich und steht mit dem **Singular**: _qualche giorno, qualche amica._\n**alcuni / alcune** stehen mit dem **Plural**: _alcuni giorni, alcune amiche._ Gleiche Bedeutung.\nAllein: _Alcuni di noi vanno in spiaggia, altri in centro._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Riscrivi con alcuni / alcune.",
+   "promptHelp": "Schreibe mit alcuni / alcune um.",
+   "explanation": "qualche + singolare → alcuni/alcune + plurale.",
+   "explanationHelp": "qualche + Singular → alcuni/alcune + Plural.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "qualche giorno",
+     "acceptedAnswers": [
+      "alcuni giorni"
+     ],
+     "modelAnswer": "alcuni giorni"
+    },
+    {
+     "id": "s2",
+     "start": "qualche amica",
+     "acceptedAnswers": [
+      "alcune amiche"
+     ],
+     "modelAnswer": "alcune amiche"
+    },
+    {
+     "id": "s3",
+     "start": "qualche libro",
+     "acceptedAnswers": [
+      "alcuni libri"
+     ],
+     "modelAnswer": "alcuni libri"
+    },
+    {
+     "id": "s4",
+     "start": "qualche spiaggia",
+     "acceptedAnswers": [
+      "alcune spiagge"
+     ],
+     "modelAnswer": "alcune spiagge"
+    },
+    {
+     "id": "s5",
+     "start": "qualche città",
+     "acceptedAnswers": [
+      "alcune città"
+     ],
+     "modelAnswer": "alcune città"
+    },
+    {
+     "id": "s6",
+     "start": "qualche gelato",
+     "acceptedAnswers": [
+      "alcuni gelati"
+     ],
+     "modelAnswer": "alcuni gelati"
+    },
+    {
+     "id": "s7",
+     "start": "qualche foto",
+     "acceptedAnswers": [
+      "alcune foto"
+     ],
+     "modelAnswer": "alcune foto"
+    },
+    {
+     "id": "s8",
+     "start": "qualche museo",
+     "acceptedAnswers": [
+      "alcuni musei"
+     ],
+     "modelAnswer": "alcuni musei"
+    }
+   ]
+  }
+ ]
+}

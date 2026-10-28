@@ -1,0 +1,122 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-qualche-alcuni-l3",
+ "title": "Alcuni o alcune?",
+ "language": "it",
+ "level": "A1",
+ "description": "Qualche e alcuni / alcune · Alcuni o alcune? · livello facile.",
+ "topics": [
+  "Qualche e alcuni / alcune",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitbegleiter qualche, alcuni / alcune"
+ },
+ "grammar": {
+  "topic": "ecco1-qualche-alcuni",
+  "topicTitle": "Qualche e alcuni / alcune",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 33,
+  "rule": "**qualche** (einige) non cambia e va con il **singolare**: _qualche giorno, qualche amica._\n**alcuni / alcune** vanno con il **plurale**: _alcuni giorni, alcune amiche._\nIl significato è uguale: _Ho qualche amico a Roma = Ho alcuni amici a Roma._\nDa solo (pronome): _**Alcuni** di noi vanno in spiaggia, altri in centro._",
+  "ruleHelp": "**qualche** (einige) bleibt gleich und steht mit dem **Singular**: _qualche giorno, qualche amica._\n**alcuni / alcune** stehen mit dem **Plural**: _alcuni giorni, alcune amiche._ Gleiche Bedeutung.\nAllein: _Alcuni di noi vanno in spiaggia, altri in centro._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli alcuni o alcune.",
+   "promptHelp": "Wähle alcuni oder alcune.",
+   "type": "gap_choice",
+   "text": "[[g1]] ragazzi vanno in centro.\n[[g2]] ragazze vanno in spiaggia.\nHo visitato [[g3]] monumenti.\nAbbiamo fatto [[g4]] spese.\nCi sono [[g5]] nuvole.\nLeggo [[g6]] libri in vacanza.\nConosco [[g7]] canzoni italiane.\nMangiamo [[g8]] panini.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Alcuni",
+      "Alcune"
+     ],
+     "answer": "Alcuni"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Alcune",
+      "Alcuni"
+     ],
+     "answer": "Alcune"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "alcuni",
+      "alcune"
+     ],
+     "answer": "alcuni"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "alcune",
+      "alcuni"
+     ],
+     "answer": "alcune"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "alcune",
+      "alcuni"
+     ],
+     "answer": "alcune"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "alcuni",
+      "alcune"
+     ],
+     "answer": "alcuni"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "alcune",
+      "alcuni"
+     ],
+     "answer": "alcune"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "alcuni",
+      "alcune"
+     ],
+     "answer": "alcuni"
+    }
+   ]
+  }
+ ]
+}

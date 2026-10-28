@@ -1,0 +1,126 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-qualche-alcuni-s2",
+ "title": "Gli acquisti delle vacanze",
+ "language": "it",
+ "level": "A1",
+ "description": "Qualche e alcuni / alcune · Gli acquisti delle vacanze · livello difficile.",
+ "topics": [
+  "Qualche e alcuni / alcune",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 13,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitbegleiter qualche, alcuni / alcune"
+ },
+ "grammar": {
+  "topic": "ecco1-qualche-alcuni",
+  "topicTitle": "Qualche e alcuni / alcune",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 32,
+  "rule": "**qualche** (einige) non cambia e va con il **singolare**: _qualche giorno, qualche amica._\n**alcuni / alcune** vanno con il **plurale**: _alcuni giorni, alcune amiche._\nIl significato è uguale: _Ho qualche amico a Roma = Ho alcuni amici a Roma._\nDa solo (pronome): _**Alcuni** di noi vanno in spiaggia, altri in centro._",
+  "ruleHelp": "**qualche** (einige) bleibt gleich und steht mit dem **Singular**: _qualche giorno, qualche amica._\n**alcuni / alcune** stehen mit dem **Plural**: _alcuni giorni, alcune amiche._ Gleiche Bedeutung.\nAllein: _Alcuni di noi vanno in spiaggia, altri in centro._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi i verbi e qualche / alcuni / alcune.",
+   "promptHelp": "Ergänze Verben und qualche / alcuni / alcune.",
+   "explanation": "qualche panino (singolare), alcune bottiglie (plurale).",
+   "explanationHelp": "qualche + Singular, alcune + Plural.",
+   "type": "gap_fill",
+   "text": "[[g1]] amici di Filippo vanno in Liguria.\n[[g2]] volta Filippo (scrivere) [[g3]] cartoline o messaggi.\n[[g4]] giorni gli amici fanno delle gite, [[g5]] giorni invece stanno in spiaggia.\nIeri Anna e Giulia (andare) [[g6]] a San Remo in bici.\nLì (comprare, loro) [[g7]] [[g8]] bottiglie d’acqua e [[g9]] panino.\nE poi (fare, loro) [[g10]] [[g11]] foto molto belle.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Alcuni"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Qualche"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "scrive"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Alcuni"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "alcuni"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "sono andate"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "hanno comprato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "alcune"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "qualche"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "hanno fatto"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "alcune"
+     ]
+    }
+   ]
+  }
+ ]
+}

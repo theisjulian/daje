@@ -1,0 +1,108 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-tutto-m1",
+ "title": "Le vacanze al mare",
+ "language": "it",
+ "level": "A1",
+ "description": "Tutto + articolo · Le vacanze al mare · livello medio.",
+ "topics": [
+  "Tutto + articolo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · tutto + Artikel"
+ },
+ "grammar": {
+  "topic": "ecco1-tutto",
+  "topicTitle": "Tutto + articolo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 21,
+  "rule": "**tutto** + **articolo** + nome; tutto cambia come il nome:\n| | singolare | plurale |\n| maschile | tutto **il** giorno | tutti **i** giorni |\n| femminile | tutta **la** sera | tutte **le** sere |\n\n_Tutti i ragazzi sono al mare. · Mangio tutta la pizza. · Tutte le mattine vado a correre._\nDa solo: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+  "ruleHelp": "**tutto** + **Artikel** + Nomen, angepasst an das Nomen: tutto il giorno, tutta la sera, tutti i giorni, tutte le sere.\nAllein: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi tutto, tutta, tutti o tutte.",
+   "promptHelp": "Ergänze die richtige Form von tutto.",
+   "explanation": "tutto + articolo + nome.",
+   "explanationHelp": "tutto + Artikel + Nomen.",
+   "type": "gap_fill",
+   "text": "In vacanza dormo [[g1]] la mattina.\n[[g2]] i giorni andiamo in spiaggia.\n[[g3]] la famiglia è contenta.\nMio fratello gioca a beach volley [[g4]] il pomeriggio.\n[[g5]] le sere mangiamo un gelato.\n[[g6]] gli amici di mia sorella sono qui.\nMia madre legge [[g7]] il giorno.\n[[g8]] le ragazze del campeggio parlano tedesco.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "tutta"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Tutti"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Tutta"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "tutto"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Tutte"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Tutti"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "tutto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Tutte"
+     ]
+    }
+   ]
+  }
+ ]
+}

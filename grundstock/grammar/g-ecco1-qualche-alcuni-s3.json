@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-qualche-alcuni-s3",
+ "title": "Le tue vacanze",
+ "language": "it",
+ "level": "A1",
+ "description": "Qualche e alcuni / alcune · Le tue vacanze · livello difficile.",
+ "topics": [
+  "Qualche e alcuni / alcune",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitbegleiter qualche, alcuni / alcune"
+ },
+ "grammar": {
+  "topic": "ecco1-qualche-alcuni",
+  "topicTitle": "Qualche e alcuni / alcune",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 33,
+  "rule": "**qualche** (einige) non cambia e va con il **singolare**: _qualche giorno, qualche amica._\n**alcuni / alcune** vanno con il **plurale**: _alcuni giorni, alcune amiche._\nIl significato è uguale: _Ho qualche amico a Roma = Ho alcuni amici a Roma._\nDa solo (pronome): _**Alcuni** di noi vanno in spiaggia, altri in centro._",
+  "ruleHelp": "**qualche** (einige) bleibt gleich und steht mit dem **Singular**: _qualche giorno, qualche amica._\n**alcuni / alcune** stehen mit dem **Plural**: _alcuni giorni, alcune amiche._ Gleiche Bedeutung.\nAllein: _Alcuni di noi vanno in spiaggia, altri in centro._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Racconta le tue ultime vacanze con qualche, alcuni e alcune.",
+   "promptHelp": "Erzähle von deinen letzten Ferien mit qualche, alcuni, alcune.",
+   "type": "open_answer",
+   "modelAnswer": "Sono stato al mare per qualche giorno. Ho conosciuto alcuni ragazzi simpatici. Abbiamo fatto alcune gite. Qualche volta siamo andati in pizzeria.",
+   "lines": 5
+  },
+  {
+   "id": "q2",
+   "prompt": "E adesso riscrivi con qualche.",
+   "promptHelp": "Und jetzt schreibe mit qualche um.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "alcuni giorni",
+     "acceptedAnswers": [
+      "qualche giorno"
+     ],
+     "modelAnswer": "qualche giorno"
+    },
+    {
+     "id": "s2",
+     "start": "alcune volte",
+     "acceptedAnswers": [
+      "qualche volta"
+     ],
+     "modelAnswer": "qualche volta"
+    },
+    {
+     "id": "s3",
+     "start": "alcuni amici",
+     "acceptedAnswers": [
+      "qualche amico"
+     ],
+     "modelAnswer": "qualche amico"
+    },
+    {
+     "id": "s4",
+     "start": "alcune gite",
+     "acceptedAnswers": [
+      "qualche gita"
+     ],
+     "modelAnswer": "qualche gita"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-tutto-l1",
+ "title": "Quale forma di tutto?",
+ "language": "it",
+ "level": "A1",
+ "description": "Tutto + articolo · Quale forma di tutto? · livello facile.",
+ "topics": [
+  "Tutto + articolo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 7 · Estate in Italia · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "7 · Estate in Italia",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · tutto + Artikel"
+ },
+ "grammar": {
+  "topic": "ecco1-tutto",
+  "topicTitle": "Tutto + articolo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 21,
+  "rule": "**tutto** + **articolo** + nome; tutto cambia come il nome:\n| | singolare | plurale |\n| maschile | tutto **il** giorno | tutti **i** giorni |\n| femminile | tutta **la** sera | tutte **le** sere |\n\n_Tutti i ragazzi sono al mare. · Mangio tutta la pizza. · Tutte le mattine vado a correre._\nDa solo: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)",
+  "ruleHelp": "**tutto** + **Artikel** + Nomen, angepasst an das Nomen: tutto il giorno, tutta la sera, tutti i giorni, tutte le sere.\nAllein: _Tutti sono qui._ (alle) · _Ho capito tutto._ (alles)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "tutto + articolo cambia come il nome: tutti i giorni, tutte le sere.",
+   "explanationHelp": "tutto passt sich an.",
+   "type": "gap_choice",
+   "text": "[[g1]] i giorni vado a scuola.\n[[g2]] le mattine sono stanco.\nDomenica viene [[g3]] la famiglia.\n[[g4]] le mie amiche sono in vacanza.\n[[g5]] i ragazzi si divertono in spiaggia.\nI ragazzi discutono [[g6]] il tempo.\nHo mangiato [[g7]] la torta!\nDormo [[g8]] il pomeriggio.\n[[g9]] le sere usciamo.\nLeggo [[g10]] i libri di Harry Potter.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Tutti",
+      "Tutto",
+      "Tutte"
+     ],
+     "answer": "Tutti"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Tutte",
+      "Tutta",
+      "Tutti"
+     ],
+     "answer": "Tutte"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "tutta",
+      "tutto",
+      "tutte"
+     ],
+     "answer": "tutta"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Tutte",
+      "Tutti",
+      "Tutta"
+     ],
+     "answer": "Tutte"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Tutti",
+      "Tutte",
+      "Tutto"
+     ],
+     "answer": "Tutti"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "tutto",
+      "tutta",
+      "tutti"
+     ],
+     "answer": "tutto"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "tutta",
+      "tutto",
+      "tutte"
+     ],
+     "answer": "tutta"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "tutto",
+      "tutta",
+      "tutti"
+     ],
+     "answer": "tutto"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "Tutte",
+      "Tutti",
+      "Tutta"
+     ],
+     "answer": "Tutte"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "tutti",
+      "tutte",
+      "tutto"
+     ],
+     "answer": "tutti"
+    }
+   ]
+  }
+ ]
+}
