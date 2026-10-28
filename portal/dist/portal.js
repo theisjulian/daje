@@ -150,9 +150,9 @@ function transcriptForDisplay(text) {
 const COVER_HUE = { it: 10, en: 228, fr: 196, es: 38, de: 150 };
 const COVER_SONG = /^(musik|musica|music|musique|lied|song|canzone)$/i;
 function coverKind(x) {
-  if (x.media.type === 'film') return 'Film';
+  if (x.media?.type === 'film') return 'Film';
   if ((x.topics || []).some(t => COVER_SONG.test(t))) return 'Lied';
-  return { youtube: 'Video', audio: 'Audio', link: 'Weblink' }[x.media.type] || 'Dialog';
+  return { youtube: 'Video', audio: 'Audio', link: 'Weblink' }[x.media?.type] || 'Dialog';
 }
 function coverSeed(id) {
   let h = 0;
@@ -775,7 +775,7 @@ function portalClick(e) {
         ? WORDS.filter(
             w =>
               x.vocabularyIds.includes(w.id) ||
-              (x.media.type === 'speech' &&
+              (x.media?.type === 'speech' &&
                 x.media.text
                   .toLocaleLowerCase()
                   .includes(w.target.replace(/^(il |la |lo |l’)/, '').toLocaleLowerCase()) &&
@@ -861,7 +861,7 @@ function showTeaching(id) {
     document.body.append(dialog);
   }
   const formats = [...new Set(x.questions.map(q => LISTENING_FORMAT_LABELS[q.type]))];
-  dialog.innerHTML = `<div class="dialog-head"><h2 id="teaching-title">Für deinen Unterricht</h2><button class="button secondary" data-close="teaching-dialog">Schließen</button></div><div class="eyebrow">${portalLang(x.language)} · ${x.level}</div><h3>${esc(x.title)}</h3><div class="teaching-facts"><div><b>${x.estimatedMinutes} Minuten</b><span>geschätzte Übungszeit</span></div><div><b>${x.questions.length} Aufgaben</b><span>${formats.join(' · ')}</span></div></div><p>${esc(x.description)}</p>${workingLessonNotice(x)}${x.media.type === 'speech' ? '<div class="editor-banner">Demomaterial mit synthetischer Browserstimme. Keine redaktionell freigegebene authentische Prüfungsaufnahme.</div>' : ''}<h3>Drucken oder als PDF speichern</h3><p>In der Vorschau wählst du Design, Schrift und die Sprache der Arbeitsanweisungen.</p><div class="studio-actions"><button class="button primary" data-portal="print-questions">Aufgabenblatt</button><button class="button secondary" data-portal="print-solutions">Lösungen</button><button class="button secondary" data-portal="print-key">Kurzer Schlüssel</button></div><h3>Vor dem Einsatz</h3><p>Passen Niveau, Länge und Medium zu deiner Lerngruppe? Lösungen sind über die Lehrkräfte-Ansicht grundsätzlich zugänglich; für Prüfungen das Aufgabenblatt ausdrucken und das Medium im Unterricht abspielen.</p><button class="button secondary" data-portal="back-lesson">Hörübung ansehen und Link teilen</button>`;
+  dialog.innerHTML = `<div class="dialog-head"><h2 id="teaching-title">Für deinen Unterricht</h2><button class="button secondary" data-close="teaching-dialog">Schließen</button></div><div class="eyebrow">${portalLang(x.language)} · ${x.level}</div><h3>${esc(x.title)}</h3><div class="teaching-facts"><div><b>${x.estimatedMinutes} Minuten</b><span>geschätzte Übungszeit</span></div><div><b>${x.questions.length} Aufgaben</b><span>${formats.join(' · ')}</span></div></div><p>${esc(x.description)}</p>${workingLessonNotice(x)}${x.media?.type === 'speech' ? '<div class="editor-banner">Demomaterial mit synthetischer Browserstimme. Keine redaktionell freigegebene authentische Prüfungsaufnahme.</div>' : ''}<h3>Drucken oder als PDF speichern</h3><p>In der Vorschau wählst du Design, Schrift und die Sprache der Arbeitsanweisungen.</p><div class="studio-actions"><button class="button primary" data-portal="print-questions">Aufgabenblatt</button><button class="button secondary" data-portal="print-solutions">Lösungen</button><button class="button secondary" data-portal="print-key">Kurzer Schlüssel</button></div><h3>Vor dem Einsatz</h3><p>Passen Niveau, Länge und Medium zu deiner Lerngruppe? Lösungen sind über die Lehrkräfte-Ansicht grundsätzlich zugänglich; für Prüfungen das Aufgabenblatt ausdrucken und das Medium im Unterricht abspielen.</p><button class="button secondary" data-portal="back-lesson">${x.kind === 'grammar' ? 'Übung ansehen und Link teilen' : 'Hörübung ansehen und Link teilen'}</button>`;
   dialog.showModal();
 }
 function printTeaching(solutions) {

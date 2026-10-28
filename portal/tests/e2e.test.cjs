@@ -525,6 +525,49 @@ async function step(name, fn) {
     assert.match(await pp.textContent('.vb-fb'), /Richtig/);
   });
 
+  await step('Arbeitsblatt-Mappe: sammeln, ordnen, zwei Blätter, PDF-Vorschau und Lösungen', async () => {
+    await pp.goto(base + '?seite=grammatik', { waitUntil: 'networkidle' });
+    await pp.click('[data-audience="teach"]');
+    await pp.waitForTimeout(200);
+    await pp.click('[data-gr-topic="ecco1-are-presente"]');
+    const adds = await pp.$$('[data-ws-add]');
+    for (const b of adds.slice(0, 3)) await b.click();
+    assert.match(await pp.textContent('#ws-pill'), /3/);
+    await pp.click('#ws-pill');
+    await pp.click('[data-ws-new]');
+    const last = await pp.evaluate(() => wsDraft.sheets[0][2]);
+    await pp.selectOption(`[data-ws-to="${last}"]`, '1');
+    assert.deepEqual(await pp.evaluate(() => wsDraft.sheets.map(s => s.length)), [2, 1]);
+    // Ziehen: zweite Übung von Blatt 1 nach oben
+    const grip = await pp.$$('.ws-items[data-sheet="0"] .ws-grip');
+    const first = await (await pp.$('.ws-items[data-sheet="0"] .ws-item')).boundingBox();
+    const g = await grip[1].boundingBox();
+    const before = await pp.evaluate(() => wsDraft.sheets[0].slice());
+    await pp.mouse.move(g.x + g.width / 2, g.y + g.height / 2);
+    await pp.mouse.down();
+    await pp.mouse.move(g.x + g.width / 2, first.y + 4, { steps: 8 });
+    await pp.mouse.up();
+    assert.deepEqual(await pp.evaluate(() => wsDraft.sheets[0]), [before[1], before[0]]);
+    await pp.fill('#ws-name', 'Test Mappe');
+    await pp.click('[data-ws-print="0"]');
+    await pp.waitForSelector('#teaching-print .paper.pg');
+    const pages = await pp.$$eval('#teaching-print .paper.pg', p => p.map(x => x.textContent));
+    assert.ok(pages.length >= 2, 'Seiten: ' + pages.length);
+    assert.ok(pages[pages.length - 1].includes('Foglio 2') || pages.some((t, i) => i > 0 && t.includes('Foglio 2')), 'Blatt 2 auf eigener Seite');
+    assert.ok(!pages[0].includes('Foglio 2'));
+    await pp.click('[data-dlg-side]');
+    await pp.click('label:has(input[data-ws-mode][value="1"])');
+    await pp.waitForSelector('#teaching-print .gp.filled, #teaching-print .ok');
+    await pp.click('[data-portal="close-print"]');
+    // Einzelne Grammatikübung drucken
+    await pp.evaluate(() => openListening('g-ecco1-artikel-sg-m1'));
+    await pp.click('[data-teaching]');
+    await pp.click('[data-portal="print-questions"]');
+    await pp.waitForSelector('#teaching-print .hb-rule');
+    await pp.click('[data-portal="close-print"]');
+    await pp.evaluate(() => { localStorage.removeItem('daje-arbeitsblatt-v1'); wsDraft = { title: '', sheets: [[]], rule: true }; wsRefresh(); });
+  });
+
   await step('Verben: Band 3, „Welche Form?“ und „Im Satz“ lösen', async () => {
     await pp.goto(base, { waitUntil: 'networkidle' });
     await pp.evaluate(() => nav('verben'));

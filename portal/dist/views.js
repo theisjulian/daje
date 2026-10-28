@@ -819,12 +819,22 @@ function followHTML(x) {
 /* Merkkasten einer Grammatikübung: Absätze, Listen („- “), Tabellen („| a | b |“), **fett**, _kursiv_. */
 function ruleHTML(text, lang) {
   const inline = t => esc(t).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/(^|[\s(])_(.+?)_(?=[\s.,;:)!?]|$)/g, '$1<i>$2</i>');
-  return String(text || '')
-    .split(/\n{2,}/)
-    .map(block => {
-      const lines = block.split('\n').filter(l => l.trim());
+  // Zeilen nach Art gruppieren (Text, Liste, Tabelle), auch ohne Leerzeile dazwischen.
+  const kind = l => (/^\s*\|/.test(l) ? 't' : /^\s*- /.test(l) ? 'l' : 'p');
+  const blocks = [];
+  String(text || '')
+    .split('\n')
+    .forEach(l => {
+      if (!l.trim()) return blocks.push(null);
+      const k = kind(l), last = blocks[blocks.length - 1];
+      if (last && last.k === k) last.lines.push(l);
+      else blocks.push({ k, lines: [l] });
+    });
+  return blocks
+    .filter(Boolean)
+    .map(({ lines }) => {
       if (lines.every(l => /^\s*\|/.test(l))) {
-        const rows = lines.filter(l => !/^\s*\|[\s:-]+\|/.test(l)).map(l => l.trim().replace(/^\||\|$/g, '').split('|').map(c => c.trim()));
+        const rows = lines.filter(l => !/^\s*\|[\s:|-]*-[\s:|-]*$/.test(l)).map(l => l.trim().replace(/^\||\|$/g, '').split('|').map(c => c.trim()));
         return `<table class="rule-table"><thead><tr>${rows[0].map(c => `<th>${inline(c)}</th>`).join('')}</tr></thead><tbody>${rows.slice(1).map(r => `<tr>${r.map(c => `<td lang="${lang}">${inline(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
       }
       if (lines.every(l => /^\s*- /.test(l))) return `<ul>${lines.map(l => `<li>${inline(l.replace(/^\s*- /, ''))}</li>`).join('')}</ul>`;

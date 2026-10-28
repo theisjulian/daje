@@ -8333,3 +8333,36 @@ img.yt-thumb.yt-box {
 .nu-m{stroke:var(--accent2,var(--blue));stroke-width:3;stroke-linecap:round}
 .nu-dot{fill:var(--label)}
 .gap-text{white-space:pre-line}
+/* Arbeitsblatt-Mappe */
+.ws-pill{bottom:calc(76px + env(safe-area-inset-bottom))}
+@media (max-width:899px){.ws-pill{bottom:calc(144px + env(safe-area-inset-bottom))}}
+.ws-add[aria-pressed='true']{background:color-mix(in srgb,var(--accent2,var(--blue)) 14%,transparent);color:var(--accent2,var(--blue))}
+.ws-dialog{width:min(760px,96vw)}
+.ws-opts{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:end;margin:10px 0}
+.ws-sheets{max-height:min(58vh,560px);overflow:auto;display:grid;gap:14px;padding:2px}
+.ws-sheet{border:1px dashed var(--hairline);border-radius:var(--opt-r,14px);padding:10px 12px;background:var(--fill)}
+.ws-sheet-h{display:flex;align-items:baseline;gap:10px;margin-bottom:6px}
+.ws-sheet-h h3{margin:0;font-size:1rem}
+.ws-sheet-h small{color:var(--label-2);margin-right:auto}
+.ws-items{list-style:none;margin:0;padding:0;display:grid;gap:8px;min-height:44px}
+.ws-item{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:12px;background:var(--glass-solid);border:1px solid var(--hairline)}
+.ws-item.ws-dragging{opacity:.35}
+.ws-ghost{position:fixed;z-index:1000;pointer-events:none;box-shadow:var(--lift-2);opacity:.95}
+.ws-grip{cursor:grab;touch-action:none;font-size:1.3rem;line-height:1;padding:8px 6px;color:var(--label-2);user-select:none}
+.ws-text{display:grid;gap:2px;flex:1;min-width:0}
+.ws-text small{color:var(--label-2)}
+.ws-acts{display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+.ws-to{min-height:36px;border-radius:10px;border:1px solid var(--hairline);background:var(--glass-solid);color:inherit;font:inherit;font-size:.85rem}
+.ws-empty{color:var(--label-2);font-size:.9rem;padding:10px;text-align:center}
+.ws-bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px}
+.ws-sp{flex:1}
+@media (max-width:560px){.ws-opts{grid-template-columns:1fr}.ws-item{flex-wrap:wrap}.ws-acts{width:100%;justify-content:flex-end}}
+/* Druck: Übungstitel und Merkkasten in der Mappe */
+.hb-ex-title small{display:block;font-weight:400;font-size:.8em;opacity:.7}
+.hb-sheet{font-size:1.1em}
+.hb-rule{list-style:none;border:1px solid #0003;border-radius:8px;padding:6px 10px;margin:4px 0 10px;font-size:.9em}
+.hb-rule>b{display:block;font-size:.75em;text-transform:uppercase;letter-spacing:.06em;margin-bottom:2px}
+.hb-rule .rule-table{font-size:.95em;margin:.3em 0}
+.hb-rule p{margin:.3em 0}
+.hb-note{list-style:none;font-size:.85em;margin:2px 0 8px}
+.hb-gap{white-space:pre-line}

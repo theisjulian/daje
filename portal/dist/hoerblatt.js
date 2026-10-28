@@ -163,7 +163,7 @@ function hbHTML(x, sol) {
     const prompt = m ? q.prompt.slice(m[0].length) : q.prompt;
     return `${head}<li class="hb-q"><div class="hb-qh"><b class="n">${i + 1}</b><span class="hb-pt">${esc(t.pt(hbPoints(q)))}</span><div class="hb-ins">${esc(ins)}</div><div class="hb-p">${esc(prompt)}</div></div>${hbBody(q, t, sol)}${sol && q.explanation ? `<p class="hb-ex">${esc(visibleText(q.explanation))}</p>` : ''}</li>`;
   }).join('');
-  const speech = x.media.type === 'speech';
+  const speech = x.media?.type === 'speech';
   return `<div class="hb${sol && hbOpt.compact ? ' hb-compact' : ''}"><header class="hb-top"><b>theis · ${DOC_BRAND}</b><span>${esc(sol ? (hbOpt.compact ? t.kKey : t.key) : t.sheet)}</span></header>
   <h1>${esc(x.title)}</h1>
   <div class="hb-meta"><span>${esc(lang)}</span><span>${esc(x.level)}</span><span>${esc(t.min(x.estimatedMinutes))}</span></div>

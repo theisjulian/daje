@@ -115,7 +115,7 @@ function hbPaginate() {
   const after = el => el.nextElementSibling || foot;
   const measure = () => {
     const u = [];
-    if (list) [...list.children].forEach((li, i, a) => u.push({ box: 'list', node: li, h: y(a[i + 1] || after(list)) - y(li), glue: li.classList.contains('hb-phase') }));
+    if (list) [...list.children].forEach((li, i, a) => u.push({ box: 'list', node: li, h: y(a[i + 1] || after(list)) - y(li), glue: li.classList.contains('hb-phase'), brk: li.classList.contains('hb-sheet') }));
     if (key) {
       const rows = [...key.tBodies[0].rows], tf = key.tFoot;
       rows.forEach((r, i) => u.push({ box: 'key', node: r, h: y(rows[i + 1] || tf || after(key)) - y(r) }));
@@ -147,13 +147,14 @@ function hbPaginate() {
     let cur = [], used = 0, cap = INNER - footH - headH, phase = null;
     for (const b of blocks) {
       const bh = b.reduce((s, x) => s + x.h, 0);
-      if (used + bh > cap && cur.length) {
+      // Neues Blatt (Arbeitsblatt-Mappe) beginnt immer auf einer neuen Seite.
+      if ((used + bh > cap || b[0].brk) && cur.length) {
         out.push(cur);
         cur = [];
         used = 0;
         cap = INNER - footH - runH;
         // Abschnitt läuft auf der neuen Seite weiter: Überschrift wiederholen.
-        if (phase && b[0].box === 'list' && !b[0].glue) {
+        if (phase && b[0].box === 'list' && !b[0].glue && !b[0].brk) {
           cur.push({ ...phase, repeat: true });
           used += phase.h;
         }
@@ -238,7 +239,7 @@ printTeaching = function (solutions) {
     dlgBlock('Ausgabe', dlgSeg('data-hb="mode"', 'hb-mode', [[0, 'Aufgabenblatt'], [1, 'Lösungen'], [2, 'Kurzer Schlüssel']], solutions === 2 ? 2 : solutions ? 1 : 0)) +
     dlgBlock('Sprache der Anweisungen', dlgSeg('data-instr="pref"', 'instr', [['target', 'Zielsprache'], ['de', 'Deutsch']], instrPref)) +
     dlgBlock('Design', dlgDesigns()) + dlgBlock('Schrift', dlgFonts()) + dlgBlock('Farbe', dlgAccents()) +
-    dlgBlock('Zusätze', `<label class="dlg-check"><input type="checkbox" data-hb-opt="link" ${hbOpt.link ? 'checked' : ''}><span>Link zum Anhören aufdrucken</span></label>${x.transcript ? `<label class="dlg-check"><input type="checkbox" data-hb-opt="transcript" ${hbOpt.transcript ? 'checked' : ''}><span>Transkript bei den Lösungen</span></label>` : ''}`);
+    dlgBlock('Zusätze', x.kind === 'grammar' ? `<label class="dlg-check"><input type="checkbox" data-hb-opt="rule" ${hbOpt.rule !== false ? 'checked' : ''}><span>Merkkasten mitdrucken</span></label>` : `<label class="dlg-check"><input type="checkbox" data-hb-opt="link" ${hbOpt.link ? 'checked' : ''}><span>Link zum Anhören aufdrucken</span></label>${x.transcript ? `<label class="dlg-check"><input type="checkbox" data-hb-opt="transcript" ${hbOpt.transcript ? 'checked' : ''}><span>Transkript bei den Lösungen</span></label>` : ''}`);
   if ($('teaching-dialog')?.open) $('teaching-dialog').close();
   dlgShow({ title: x.title, side, paper: hbHTML(x, !!solutions) });
 };
