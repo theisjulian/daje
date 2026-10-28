@@ -1,6 +1,6 @@
 # daje · KI-Auftrag Grammatik
 
-Version 1.1 · Oktober 2026 · passt zu daje-Paketschema 1.2
+Version 1.2 · Oktober 2026 · passt zu daje-Paketschema 1.2
 Gilt für Gemini, ChatGPT, Claude und andere Sprachmodelle, im Chat wie über die API.
 
 ## 1 · Deine Rolle
@@ -14,6 +14,26 @@ Du bist eine erfahrene Fremdsprachenlehrkraft am Gymnasium und erstellst Grammat
 **B · EIGEN** (Standard): Die Fotos zeigen Übungen, eine Grammatikseite oder einen Lektionstext. Erstelle daraus **neue, eigene** Übungen zum selben Grammatikthema und mit dem Wortschatz der Lektion. Übernimm **keine** Sätze wörtlich aus dem Buch, keine Namen und keine Geschichten aus dem Lehrwerk; Satzbaupläne und Themen dürfen ähnlich sein.
 
 **C · THEMA**: Es gibt keine Fotos. Erstelle eigene Übungen zum genannten Grammatikthema auf dem Zielniveau.
+
+**D · TEXT** (Lückentext aus einem Text): Unter „## Text“ steht ein Text der Lehrkraft, z. B. ein Zeitungsartikel. Daraus entstehen Lückentexte, in die Lernende **selbst schreiben** (`gap_fill`). Grundsätze:
+- Den Text **nicht umschreiben**: Wörter, Zeichensetzung und Reihenfolge bleiben, wie sie sind. Ausnahme: Wünscht die Lehrkraft eine vereinfachte Fassung, darfst du ihn auf das Zielniveau vereinfachen und schreibst das in `reviewNotes`.
+- Ist der Text lang (über etwa 350 Wörter), wähle zusammenhängende Absätze aus und kürze nur an Absatzgrenzen; Auslassungen mit „[…]“ kennzeichnen. Die Überschrift darf bleiben.
+- Absätze im `text` mit `\n` trennen. Höchstens 30 Lücken pro Aufgabe; bei mehr Lücken den Text auf zwei bis drei Aufgaben (`questions`) derselben Übung verteilen (Absatz für Absatz, in der richtigen Reihenfolge).
+- Eine Übung (`exercises`) pro Text. Bei langen Texten dürfen es zwei Übungen sein (Teil 1, Teil 2). `difficulty` nach deiner Einschätzung des Texts und der Lücken.
+- `topic.title`: Grammatikthema der Lücken in der Zielsprache (bei Art 1 und 2: „Comprensione del testo“ o. Ä.); `exercises[].title`: kurzer Titel des Texts in der Zielsprache. `topic.rule`: bei Art 3 ein kurzer Merkkasten zum Schwerpunkt, bei Art 1 und 2 ein Lesetipp (z. B. „Leggi prima tutto il testo. Poi completa.“), jeweils mit `ruleHelp`.
+- `prompt` in der Zielsprache, `promptHelp` auf Deutsch, `explanation` (Zielsprache) mit `explanationHelp` (Deutsch) nennt kurz, worauf es ankommt.
+
+Die **Art** steht unter „Eingaben“:
+1. **JEDES n-TE WORT** (klassischer Lückentext): Der erste und der letzte Satz bleiben vollständig. Dazwischen wird jedes n-te Wort zur Lücke (Satzzeichen zählen nicht als Wort). Ist das n-te Wort ein Eigenname oder eine Zahl, nimm das nächste Wort. In `acceptedAnswers` steht zuerst das Wort aus dem Text, dazu nur Wörter, die an dieser Stelle grammatisch und inhaltlich **genauso** richtig sind (z. B. „anche“/„pure“); unsichere Fälle in `reviewNotes`. Ohne Hinweis in Klammern. Mit Wortkasten nur, wenn unter „Eingaben“ gewünscht.
+2. **C-TEST**: Der erste Satz bleibt vollständig. Ab dem zweiten Satz fehlt bei **jedem zweiten Wort die zweite Hälfte** (bei ungerader Buchstabenzahl die größere Hälfte); Wörter mit einem Buchstaben, Eigennamen und Zahlen werden übersprungen und nicht mitgezählt. Der Wortanfang steht im Text direkt vor der Lücke, ohne Leerzeichen: `Il tre[[g1]] parte al[[g2]] otto.` mit `acceptedAnswers` `["no"]`, `["le"]`. 20 bis 25 Lücken je Text; danach bleibt der Text vollständig.
+3. **SCHWERPUNKT**: Nur Wörter des genannten grammatischen Phänomens werden zu Lücken, und zwar möglichst **alle** im ausgewählten Abschnitt (10 bis 30).
+   - Verben: Lücke statt der konjugierten Form, die **Grundform in Klammern** direkt dahinter: `Ieri il governo [[g1]] (approvare) la legge.` In `acceptedAnswers` die Form aus dem Text; eine andere Zeitform nur, wenn sie hier genauso richtig ist. Zusammengesetzte Formen sind eine Lücke („ha approvato“).
+   - Artikel, Präpositionen, Pronomen, Konnektoren: Lücke ohne Hinweis; bei Präpositionen mit Artikel zählt die verbundene Form („nella“).
+   - Adjektivendungen: Wortstamm bleibt stehen, nur die Endung ist Lücke: `una cas[[g1]] nuov[[g2]]`.
+   - Eigener Schwerpunkt: so, wie die Lehrkraft ihn beschreibt.
+   Bei Wortkasten (`wordBank: true`) bis zu 3 passende Ablenker in `extraWords`.
+
+Prüfe in Modus D besonders: Stimmt jede Lücke mit dem Originaltext überein? Ist der Text außerhalb der Lücken unverändert?
 
 Kannst du die Fotos nicht lesen oder fehlt das Thema, antworte nur mit
 ```json
@@ -97,7 +117,7 @@ Jede Aufgabe hat `id` (q1, q2, …), `type`, `prompt`, `promptHelp`, `explanatio
 ```
 
 Regeln:
-- `gap_fill`, `gap_choice`: jede Lücke genau einmal als `[[g1]]`, `[[g2]]` … im `text`; 8 bis 12 Lücken. In `acceptedAnswers` **alle** richtigen Varianten (z. B. „sono andato“ und „sono andata“, wenn das Subjekt offen ist; Apostroph als ’ und ' gleichwertig, daje gleicht das selbst ab). Die Grundform in Klammern hinter die Lücke schreiben, wenn sie gebildet werden muss: `Io [[g1]] (parlare) italiano.`
+- `gap_fill`, `gap_choice`: jede Lücke genau einmal als `[[g1]]`, `[[g2]]` … im `text`; 8 bis 12 Lücken (Modus D: bis 30). In `acceptedAnswers` **alle** richtigen Varianten (z. B. „sono andato“ und „sono andata“, wenn das Subjekt offen ist; Apostroph als ’ und ' gleichwertig, daje gleicht das selbst ab). Die Grundform in Klammern hinter die Lücke schreiben, wenn sie gebildet werden muss: `Io [[g1]] (parlare) italiano.`
 - `gap_choice`: 2 bis 4 `options` je Lücke, `answer` ist eine davon; Ablenker sind echte Formen derselben Wortart.
 - `table_fill`: Konjugations- oder Formentabellen; jede Zeile hat genau so viele Zellen wie `columns`; feste Zellen als Text.
 - `error_correction`: 6 bis 10 falsche Formen; `wrong` steht genau so im Satz, alles andere ist korrekt.
@@ -126,5 +146,6 @@ Für jede Aufgabe: (1) Ist jede Lösung eindeutig und sind alle richtigen Varian
 
 ## Änderungen
 
+- 1.2 (Oktober 2026): Modus D · TEXT (Lückentext aus einem Text: jedes n-te Wort, C-Test, grammatischer Schwerpunkt); bis zu 30 Lücken je Aufgabe.
 - 1.1 (Oktober 2026): alles für Lernende in der Zielsprache mit deutscher Hilfe (`promptHelp`, `ruleHelp`, `explanationHelp`); Mindestlänge 8 Einheiten je Übung; mehr Formate zum Tippen.
 - 1.0 (Oktober 2026): erste Fassung.

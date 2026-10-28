@@ -606,20 +606,35 @@ async function step(name, fn) {
   await step('Stunden-Link: Mappe als Link, Lernende arbeiten die Aufgaben der Reihe nach ab', async () => {
     await pp.goto(base + '?seite=grammatik', { waitUntil: 'networkidle' });
     await pp.evaluate(() => {
-      localStorage.setItem('daje-arbeitsblatt-v1', JSON.stringify({ title: 'Stunde Artikel', sheets: [['g-ecco1-artikel-sg-l1', 'g-ecco1-artikel-sg-l2']], rule: true }));
+      localStorage.setItem('daje-arbeitsblatt-v1', JSON.stringify({ title: 'Stunde Artikel', sheets: [['g-ecco1-artikel-sg-l1', 'g-ecco1-artikel-sg-l2', 'eigen-stunde1']], rule: true }));
     });
     await pp.reload({ waitUntil: 'networkidle' });
+    // Eigene Übung (z. B. Lückentext aus einem Artikel) reist gepackt im Link mit
+    await pp.evaluate(() => {
+      const p = JSON.parse(JSON.stringify(findTask('g-ecco1-artikel-sg-l3')));
+      Object.assign(p, { id: 'eigen-stunde1', title: 'Mein Zeitungstext' });
+      p.grammar = { ...p.grammar, origin: 'original' };
+      editorState.items.push({ payload: p, status: 'published', updatedAt: new Date().toISOString() });
+      saveEditorState();
+    });
     await pp.click('[data-audience="teach"]');
     await pp.click('#ws-pill');
     await pp.click('#ws-dialog [data-ws-link]');
     await pp.waitForSelector('#hw-dialog[open]');
     const url = await pp.getAttribute('#hw-dialog [data-qr-copy]', 'data-qr-copy');
-    await pp.click('#hw-dialog [data-hw-beamer]');
-    assert.ok(await pp.$('#hw-beamer[open] .hw-beamer-qr svg'), 'Beamer-QR');
-    await pp.click('#hw-beamer [data-close]');
+    if (url.length <= 1800) {
+      await pp.click('#hw-dialog [data-hw-beamer]');
+      assert.ok(await pp.$('#hw-beamer[open] .hw-beamer-qr svg'), 'Beamer-QR');
+      await pp.click('#hw-beamer [data-close]');
+    } else assert.ok(await pp.$('#hw-dialog .hw-long'), 'Hinweis: Link zu lang für QR');
+    await pp.click('#hw-dialog [data-close]');
     await pp.click('[data-audience="learn"]');
+    assert.match(url, /pakete=/);
+    await pp.evaluate(() => { editorState.items = editorState.items.filter(i => i.payload?.id !== 'eigen-stunde1'); saveEditorState(); localStorage.removeItem('daje-geteilt-v1'); });
     await pp.goto(url, { waitUntil: 'networkidle' });
-    assert.equal(await pp.locator('.hw-tasks li').count(), 2);
+    await pp.waitForSelector('.hw-tasks li');
+    assert.equal(await pp.locator('.hw-tasks li').count(), 3);
+    assert.match(await pp.textContent('.hw-tasks'), /Mein Zeitungstext/);
     await pp.click('.hw-tasks li >> nth=0 >> [data-lesson]');
     const answers = await pp.evaluate(() => currentLesson().questions[0].gaps.map(g => g.answer));
     for (let i = 0; i < answers.length; i++) {
@@ -632,6 +647,35 @@ async function step(name, fn) {
     await pp.click('.hw-next [data-lesson]');
     assert.equal(await pp.evaluate(() => currentLesson().id), 'g-ecco1-artikel-sg-l2');
     await pp.evaluate(() => localStorage.removeItem('daje-arbeitsblatt-v1'));
+  });
+
+  await step('Lückentext aus eigenem Text: Auftrag mit Text, C-Test anlegen und lösen', async () => {
+    await pp.goto(base, { waitUntil: 'networkidle' });
+    await pp.evaluate(() => { save('daje-lehrkraft-ok', true); setPortalAudience('teach'); refreshAudience(); nav('redaktion'); });
+    await pp.click('[data-gk-open]');
+    await pp.click('label:has(input[data-gk="mode"][value="text"])');
+    await pp.click('label:has(input[data-gk="cloze"][value="ctest"])');
+    const text = 'Il treno per Roma parte alle otto. La stazione è piena di turisti e studenti che tornano a casa per il fine settimana. '.repeat(3);
+    await pp.fill('[data-gk="sourceText"]', text);
+    assert.match(await pp.textContent('#gk-text-count'), /\d+ Wörter/);
+    await pp.fill('[data-gk="sourceName"]', 'Il Fatto Quotidiano');
+    const prompt = await pp.evaluate(() => DajeKI.promptForGrammar('CMD', gkInputs()));
+    assert.match(prompt, /C-TEST/);
+    assert.match(prompt, /## Text\n\nIl treno per Roma/);
+    const answer = '```json\n' + JSON.stringify({
+      topic: { title: 'Comprensione del testo', rule: 'Leggi prima tutto il testo.', ruleHelp: 'Lies zuerst den ganzen Text.' },
+      exercises: [{ title: 'In stazione', difficulty: 'mittel', questions: [{ id: 'q1', type: 'gap_fill', prompt: 'Completa le parole.', promptHelp: 'Ergänze die Wörter.', text: 'Il treno per Roma parte alle otto.\nLa staz[[g1]] è pie[[g2]] di turi[[g3]] e stud[[g4]] che tor[[g5]] a ca[[g6]] per il fi[[g7]] settimana. Il tr[[g8]] parte.', gaps: ['ione', 'na', 'sti', 'enti', 'nano', 'sa', 'ne', 'eno'].map((a, i) => ({ id: 'g' + (i + 1), acceptedAnswers: [a] })) }] }]
+    }) + '\n```';
+    await pp.fill('[data-gk="answer"]', answer);
+    await pp.click('[data-gk-build]');
+    const it = await pp.evaluate(() => editorState.items.find(i => i.payload?.title === 'In stazione'));
+    assert.equal(it.payload.grammar.origin, 'original');
+    assert.match(it.payload.sources[0].citation, /Il Fatto Quotidiano/);
+    await pp.evaluate(id => openListening(id), it.payload.id);
+    for (const [i, a] of ['ione', 'na', 'sti', 'enti', 'nano', 'sa', 'ne', 'eno'].entries()) await pp.fill(`#listening-form input[data-part="g${i + 1}"]`, a);
+    await pp.click('#listening-form [type=submit]');
+    assert.match(await pp.textContent('.result-banner'), /1/);
+    await pp.evaluate(() => { editorState.items = editorState.items.filter(i => i.payload?.title !== 'In stazione'); saveEditorState(); });
   });
 
   await step('Grammatik mit KI einlesen: Antwort → Übungen im Grammatikbereich, Original bleibt privat', async () => {

@@ -8466,3 +8466,4 @@ input.gap.is-over { outline: 3px solid color-mix(in srgb, var(--blue) 55%, trans
 .hw-beamer p { font-size: clamp(16px, 2vw, 22px); color: var(--label-2); margin: 0 0 16px; }
 .hw-beamer-qr { width: min(70vh, 80vw, 620px); margin: 0 auto 18px; background: #fff; padding: 18px; border-radius: 20px; }
 .hw-beamer-qr svg { width: 100%; height: auto; display: block; }
+.hw-long { margin: 0; padding: 14px; font-size: 14px; color: var(--label-2); text-align: center; }

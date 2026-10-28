@@ -120,5 +120,18 @@ console.log('KI-Import: Antwort lesen, Paket ergänzen, Belege prüfen passed.')
   assert.doesNotMatch(pt, /- Stufen:/);
   assert.doesNotMatch(pt, /\n\n- Seiten/);
   assert.match(KI.promptForGrammar(cmd, { ...inp, levels: ['leicht', 'schwer'], perLevel: '3' }), /Stufen: leicht, schwer · je Stufe 3/);
+  // Lückentext aus einem Text: Auftrag enthält Art und Text; fremder Text bleibt privat, eigener nicht.
+  const text = 'Ieri il governo ha approvato la nuova legge sulla scuola. '.repeat(8);
+  const tp = KI.promptForGrammar(cmd, { ...inp, mode: 'text', cloze: 'phaen', phaen: 'verbi', bank: 'nein', sourceText: text, sourceName: 'Il Fatto Quotidiano' });
+  assert.match(tp, /Modus: TEXT/);
+  assert.match(tp, /SCHWERPUNKT .*Grundform steht in Klammern/);
+  assert.match(tp, /## Text\n\nIeri il governo/);
+  assert.doesNotMatch(tp, /Stufen:/);
+  assert.match(KI.promptForGrammar(cmd, { ...inp, mode: 'text', cloze: 'nth', nth: '7', sourceText: text }), /JEDES 7\. WORT/);
+  assert.match(KI.promptForGrammar(cmd, { ...inp, mode: 'text', cloze: 'ctest', sourceText: text }), /C-TEST/);
+  const tf = KI.buildGrammar(ai, { ...inp, mode: 'text', textRights: 'fremd', sourceName: 'Il Fatto Quotidiano' }).pkgs[0].pkg;
+  assert.equal(tf.grammar.origin, 'original');
+  assert.match(tf.sources[0].citation, /Il Fatto Quotidiano.*nicht zur Veröffentlichung/);
+  assert.equal(KI.buildGrammar(ai, { ...inp, mode: 'text', textRights: 'eigen' }).pkgs[0].pkg.grammar.origin, 'own');
   console.log('KI Grammatik passed.');
 }

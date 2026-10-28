@@ -337,10 +337,10 @@
           if (new Set(z.correctOptionIds).size >= z.options.length)
             fail(path + '.correctOptionIds', 'mindestens ein Wort darf nicht vorkommen');
         } else if (q.type === 'gap_fill' || q.type === 'note_fill' || q.type === 'error_correction' || q.type === 'gap_choice') {
-          z.text = str(q.text, path + '.text', 3000);
+          z.text = str(q.text, path + '.text', 6000);
           const ids = new Set();
           const key = q.type === 'error_correction' ? 'errors' : 'gaps';
-          z[key] = arr(q[key], path + '.' + key, 1, 15).map((v, j) => {
+          z[key] = arr(q[key], path + '.' + key, 1, 30).map((v, j) => {
             const gp = path + '.' + key + '[' + j + ']';
             v = obj(v, gp);
             const g = { id: id(v.id, gp + '.id') };

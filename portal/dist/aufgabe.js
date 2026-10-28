@@ -30,11 +30,21 @@ function hwDecode(code) {
     return null;
   }
 }
+/* Eigene Übungen (Redaktion, z. B. Lückentext aus einem Zeitungsartikel) reisen gepackt im selben Link mit. */
+let hwPacked = { key: '', code: '' };
+const hwOwn = items => items.map(k => editorState.items.find(i => edId(i) === k.slice(2))?.payload).filter(Boolean);
+async function hwPackOwn(items) {
+  const own = hwOwn(items);
+  const key = own.map(p => p.id + ':' + (p.updatedAt || JSON.stringify(p).length)).join(',');
+  if (hwPacked.key !== key) hwPacked = { key, code: own.length ? await edPack(own) : '' };
+  return hwPacked.code;
+}
 function hwURL(a) {
   const u = new URL(location.href);
   u.search = '';
   u.hash = '';
   u.searchParams.set('aufgabe', hwEncode({ t: a.title || a.t, i: a.items || a.i }));
+  if (hwPacked.code && hwOwn(a.items || a.i).length) u.searchParams.set('pakete', hwPacked.code);
   return u.href;
 }
 function hwResolve(key) {
@@ -56,13 +66,8 @@ function hwSaveDraft() {
 /* ---------- Lehrkräfte: zusammenstellen ---------- */
 
 function hwButton(key) {
-  // Eigene Übungen reisen mit eigenem Link (Redaktion → Mit Klasse teilen), nicht in der Hausaufgabe.
-  if (
-    !isTeacher() ||
-    /^[lvg]:eigen-/.test(key) ||
-    editorState.items.some(i => 'l:' + edId(i) === key || 'v:' + edId(i) === key)
-  )
-    return '';
+  // Eigene Übungen reisen gepackt im Link mit (hwPackOwn).
+  if (!isTeacher()) return '';
   const on = hwDraft.items.includes(key);
   return `<button class="button secondary hw-add" data-hw="${esc(key)}" aria-pressed="${on}">${on ? 'In der Hausaufgabe' : 'Zur Hausaufgabe'}</button>`;
 }
@@ -92,7 +97,12 @@ function hwRefresh() {
   }
   pill.innerHTML = `Hausaufgabe <b>${hwDraft.items.length}</b>`;
 }
-function hwComposer() {
+async function hwComposer() {
+  try {
+    await hwPackOwn(hwDraft.items);
+  } catch (e) {
+    hwPacked = { key: '', code: '' };
+  }
   let d = $('hw-dialog');
   if (!d) {
     d = document.createElement('dialog');
@@ -113,11 +123,19 @@ function hwComposer() {
                 `<li><span><b>${esc(r.x.title)}</b><small>${HW_KIND[r.kind]} · ${esc(portalLang(r.x.language))} · ${esc(r.x.level)}</small></span><span class="hw-row-actions"><button class="quiet" data-hw-move="${i}" data-dir="-1" aria-label="Nach oben" ${i === 0 ? 'disabled' : ''}>↑</button><button class="quiet" data-hw-move="${i}" data-dir="1" aria-label="Nach unten" ${i === rows.length - 1 ? 'disabled' : ''}>↓</button><button class="quiet" data-hw="${esc(r.key)}" aria-label="Entfernen">✕</button></span></li>`
             )
             .join('')}</ol>
-      <div class="qr-card hw-qr">${qrSVG(url, 'QR-Code zur Hausaufgabe')}</div>
-      <div class="hw-actions"><button class="button primary" data-qr-copy="${esc(url)}">Link kopieren</button><button class="button secondary" data-hw-beamer>Groß zeigen (Beamer)</button><a class="button secondary" href="${esc(url)}" target="_blank" rel="noopener">So sehen es Lernende</a><button class="quiet" data-hw-clear>Leeren</button></div>`
+      <div class="qr-card hw-qr">${hwQR(url)}</div>
+      <div class="hw-actions"><button class="button primary" data-qr-copy="${esc(url)}">Link kopieren</button>${url.length <= HW_QR_MAX ? '<button class="button secondary" data-hw-beamer>Groß zeigen (Beamer)</button>' : ''}<a class="button secondary" href="${esc(url)}" target="_blank" rel="noopener">So sehen es Lernende</a><button class="quiet" data-hw-clear>Leeren</button></div>`
         : '<p class="hw-empty">Noch leer. Tippe bei einer Hörübung oder Wortliste auf „Zur Hausaufgabe“.</p>'
     }`;
   if (!d.open) d.showModal();
+}
+
+/* Mit eigenen Übungen wird der Link lang: dann statt QR-Code ein Hinweis zum Teilen per Link. */
+const HW_QR_MAX = 1800;
+function hwQR(url) {
+  return url.length <= HW_QR_MAX
+    ? qrSVG(url, 'QR-Code zur Hausaufgabe')
+    : '<p class="hw-long">Mit eigenen Übungen ist der Link zu lang für einen QR-Code. Teile ihn per AirDrop, Mail oder Lernplattform.</p>';
 }
 
 /* ---------- Lernende: Aufgabenliste ---------- */
@@ -241,7 +259,7 @@ function hwFromSheet() {
   const keys = ids
     .map(id => findTask(id))
     .filter(Boolean)
-    .filter(x => !/^eigene?-/.test(x.id) && !editorState.items.some(i => edId(i) === x.id))
+    .filter(x => !editorState.items.some(i => edId(i) === x.id && !i.payload))
     .map(x => (x.kind === 'grammar' ? 'g:' : 'l:') + x.id)
     .slice(0, 30);
   const left = ids.length - keys.length;
@@ -249,7 +267,7 @@ function hwFromSheet() {
   hwSaveDraft();
   $('ws-dialog')?.close();
   hwComposer();
-  if (left) toast(plural(left, 'eigene Übung ist', 'eigene Übungen sind') + ' nicht im Link: Eigene Übungen über „Mit Klasse teilen“ in der Redaktion verschicken.');
+  if (left) toast(plural(left, 'Entwurf ist', 'Entwürfe sind') + ' nicht im Link: bitte zuerst in der Redaktion fertigstellen.');
 }
 document.addEventListener('click', e => {
   if (e.target.closest('[data-ws-link]')) return hwFromSheet();
@@ -281,18 +299,34 @@ document.addEventListener('input', e => {
   save(HW_DRAFT, hwDraft);
   const url = hwURL(hwDraft);
   const d = $('hw-dialog');
-  d.querySelector('.hw-qr').innerHTML = qrSVG(url, 'QR-Code zur Hausaufgabe');
+  d.querySelector('.hw-qr').innerHTML = hwQR(url);
   d.querySelector('[data-qr-copy]').dataset.qrCopy = url;
   d.querySelector('.hw-actions a').href = url;
 });
 hwRefresh();
 if (params.get('aufgabe')) {
   const a = hwDecode(params.get('aufgabe'));
-  if (a) {
+  const open = () => {
     hwReceive(a);
     hwCurrent = a;
     nav('aufgabe');
-  } else toast('Dieser Hausaufgaben-Link ist unvollständig.');
+  };
+  if (!a) toast('Dieser Hausaufgaben-Link ist unvollständig.');
+  else if (params.get('pakete'))
+    // Mitgeschickte eigene Übungen der Lehrkraft speichern (wie „Mit Klasse teilen“), dann die Liste zeigen.
+    edUnpack(params.get('pakete'))
+      .then(list => {
+        const got = (Array.isArray(list) ? list : []).map(x => TheisContent.validatePackage(x)).filter(v => v.ok).map(v => v.value);
+        const ids = new Set(got.map(p => p.id));
+        const keep = read('daje-geteilt-v1', []).filter(x => !ids.has(x.payload?.id));
+        save('daje-geteilt-v1', [...got.map(p => ({ payload: p, at: new Date().toISOString() })), ...keep].slice(0, 60));
+        open();
+      })
+      .catch(err => {
+        toast(err.message === 'Browser zu alt' ? 'Dein Browser kann diesen Link nicht öffnen. Bitte aktualisiere ihn.' : 'Einige Aufgaben im Link sind unvollständig.');
+        open();
+      });
+  else open();
 }
 if (params.get('eigene')) receiveShared(params.get('eigene'));
 if (params.get('einreichung')) receiveSubmission(params.get('einreichung'));

@@ -219,6 +219,7 @@
       '### Transkript',
       '',
       String(inp.transcript || '(kein Transkript)').trim(),
+      inp.mode === 'text' ? '\n## Text\n\n' + String(inp.sourceText || '').trim() : null,
       '',
       'Antworte jetzt mit genau einem JSON-Codeblock nach Abschnitt 3.'
     ];
@@ -370,6 +371,7 @@
       book ? '' : '### Text',
       book ? '' : '',
       book ? '' : String(inp.text || '(kein Text)').trim(),
+      inp.mode === 'text' ? '\n## Text\n\n' + String(inp.sourceText || '').trim() : null,
       '',
       'Antworte jetzt mit genau einem JSON-Codeblock nach Abschnitt 3.'
     ];
@@ -389,13 +391,19 @@
     const exercises = arr(ai && ai.exercises).filter(e => e && arr(e.questions).length);
     if (!exercises.length) throw new Error('In der Antwort stehen keine Übungen („exercises“ fehlt oder ist leer).');
     const warnings = [];
-    const origin = inp.mode === 'genau' ? 'original' : inp.mode === 'eigen' ? 'adapted' : 'own';
+    // Lückentext aus einem fremden Text (Zeitung, Buch): bleibt privat wie unverändert übernommene Buchübungen.
+    const origin = inp.mode === 'genau' || (inp.mode === 'text' && inp.textRights !== 'eigen') ? 'original' : inp.mode === 'eigen' ? 'adapted' : 'own';
     const topicTitle = String(inp.topicTitle || topic.title || 'Grammatik').trim().slice(0, 120);
     const topicId = inp.topicId || ('eigen-' + slug(topicTitle).slice(0, 20) + '-' + Math.random().toString(36).slice(2, 6));
     const book = [inp.series, inp.volume].filter(Boolean).join(' ');
     const where = [book && book + (inp.publisher ? ' (' + inp.publisher + ')' : ''), inp.unit, inp.pages ? 'S. ' + inp.pages : ''].filter(Boolean).join(', ');
+    const src = String(inp.sourceName || '').trim().slice(0, 200);
     const citation =
-      origin === 'original'
+      inp.mode === 'text'
+        ? origin === 'original'
+          ? 'Lückentext nach ' + (src || 'einem fremden Text') + '. Nur für den eigenen Unterricht, nicht zur Veröffentlichung.'
+          : 'Eigener Lückentext' + (src ? ' nach ' + src : '') + '.'
+        : origin === 'original'
         ? 'Übung aus ' + (where || 'einem Schulbuch') + ', unverändert übernommen. Nur für den eigenen Unterricht, nicht zur Veröffentlichung.'
         : origin === 'adapted'
           ? 'Eigene Übung auf Grundlage von ' + (where || 'Schulbuchübungen') + '.'
@@ -453,6 +461,14 @@
   }
 
   /* Auftrag Grammatik: Kommandodatei + Eingaben. */
+  const CLOZE_FOCUS = {
+    verbi: 'Verben – alle konjugierten Verben werden Lücken, die Grundform steht in Klammern dahinter; gesucht ist die Form aus dem Text (richtige Zeit und Person)',
+    articoli: 'Artikel – bestimmte und unbestimmte Artikel (auch l’, un’), ohne Hinweis in Klammern',
+    preposizioni: 'Präpositionen – einfache und mit Artikel verbundene Präpositionen (di, a, da, in, su, del, nella …)',
+    pronomi: 'Pronomen – Objekt-, Reflexiv- und Relativpronomen (lo, gli, si, che, cui …)',
+    aggettivi: 'Adjektivendungen – das Adjektiv steht ohne Endung im Text, z. B. „bell[[g1]]“',
+    connettivi: 'Konnektoren – Bindewörter und Satzverknüpfer (perché, quindi, però, mentre, anche se …), mit Wortkasten'
+  };
   function promptForGrammar(command, inp) {
     const book = [inp.series, inp.volume].filter(Boolean).join(' ');
     const per = inp.perLevel || '2';
@@ -464,7 +480,9 @@
       '',
       '- Sprache: ' + inp.language,
       '- Zielniveau: ' + inp.level,
-      inp.mode === 'genau'
+      inp.mode === 'text'
+        ? '- Modus: TEXT (Abschnitt 2 D): Lückentext aus dem Text unten'
+        : inp.mode === 'genau'
         ? '- Modus: GENAU (Abschnitt 2 A): die Übungen auf den angehängten Fotos unverändert übernehmen'
         : inp.mode === 'eigen'
           ? '- Modus: EIGEN (Abschnitt 2 B): eigene Übungen auf Grundlage der angehängten Fotos'
@@ -475,8 +493,19 @@
       inp.section ? '- Abschnitt: ' + inp.section : null,
       inp.pages ? '- Seiten: ' + inp.pages : null,
       inp.grade ? '- Klassenstufe: ' + inp.grade : null,
-      inp.mode === 'genau' ? null : '- Stufen: ' + lv + ' · je Stufe ' + per + ' Übungen',
+      inp.mode === 'genau' || inp.mode === 'text' ? null : '- Stufen: ' + lv + ' · je Stufe ' + per + ' Übungen',
+      inp.mode === 'text'
+        ? '- Art: ' +
+          (inp.cloze === 'nth'
+            ? 'JEDES ' + (inp.nth || '7') + '. WORT (Abschnitt 2 D, Art 1)'
+            : inp.cloze === 'ctest'
+              ? 'C-TEST (Abschnitt 2 D, Art 2)'
+              : 'SCHWERPUNKT (Abschnitt 2 D, Art 3): ' + (inp.phaen === 'frei' ? String(inp.phaenFree || '').trim() : CLOZE_FOCUS[inp.phaen] || CLOZE_FOCUS.verbi))
+        : null,
+      inp.mode === 'text' && inp.cloze !== 'ctest' ? '- Wortkasten: ' + (inp.bank === 'ja' ? 'ja (wordBank: true)' : 'nein, frei schreiben') : null,
+      inp.mode === 'text' && inp.sourceName ? '- Quelle des Texts: ' + inp.sourceName : null,
       inp.wishes ? '- Wünsche der Lehrkraft: ' + inp.wishes : null,
+      inp.mode === 'text' ? '\n## Text\n\n' + String(inp.sourceText || '').trim() : null,
       '',
       'Antworte jetzt mit genau einem JSON-Codeblock nach Abschnitt 3.'
     ];

@@ -781,7 +781,7 @@ function edQuestionHTML(q, i, n) {
       edField(
         'Text mit Lücken',
         `<textarea data-ed-q="${i}" data-k="gaptext" rows="${Math.min(10, Math.max(3, Math.ceil(edGapText(q).length / 70)))}" placeholder="Il treno parte alle [sette / 7] dal binario [tre / 3].">${esc(edGapText(q))}</textarea>`,
-        'Lösung in eckige Klammern setzen. Mehrere richtige Schreibweisen mit „/“ trennen. Auch längere Texte mit bis zu 15 Lücken.'
+        'Lösung in eckige Klammern setzen. Mehrere richtige Schreibweisen mit „/“ trennen. Auch längere Texte mit bis zu 30 Lücken.'
       ) +
       `<label class="dlg-check"><input type="checkbox" data-ed-q="${i}" data-k="wordBank" ${q.wordBank ? 'checked' : ''}><span>Wortkasten anzeigen (Lösungswörter zum Auswählen)</span></label>` +
       (q.wordBank ? edField('Zusätzliche Wörter im Wortkasten (optional)', `<textarea data-ed-q="${i}" data-k="extraWords" rows="2" placeholder="eine Zeile pro Wort">${esc((q.extraWords || []).join('\n'))}</textarea>`, 'Ablenker, die nicht in den Text gehören. Höchstens 8.') : '');
@@ -1486,6 +1486,7 @@ function vkPanelHTML() {
     <div class="ki-step"><span class="ki-n">1</span><div>
       <h3>Woher kommen die Wörter?</h3>
       <div class="dlg-seg ki-mode">${[['buch', 'Schulbuchseiten (Fotos)'], ['text', 'Aus einem Text']].map(([v, l]) => `<label><input type="radio" name="vk-mode" data-vk="mode" value="${v}" ${f.mode === v ? 'checked' : ''}><span>${l}</span></label>`).join('')}</div>
+      ${f.mode === 'text' ? gkTextHTML(f, sel, inp) : ''}
       <div class="ed-grid">
         <label class="field">Sprache${sel('language', Object.entries(TheisContent.LANGUAGES))}</label>
         <label class="field">Niveau${sel('level', ED_LEVELS.map(l => [l, l]))}</label>
@@ -1558,7 +1559,11 @@ document.addEventListener('input', e => {
   vkState();
   vkForm[k] = e.target.value;
   save(VK_KEY, vkForm);
-  if (k === 'mode') renderStudio();
+  if (['mode', 'cloze', 'phaen', 'textRights'].includes(k)) renderStudio();
+  if (k === 'sourceText' && $('gk-text-count')) {
+    const n = gkWords(gkForm.sourceText);
+    $('gk-text-count').textContent = n + ' Wörter' + (n > 900 ? ' · lang: die KI wählt passende Abschnitte aus' : '');
+  }
 });
 document.addEventListener('change', e => {
   if (e.target.dataset?.vk && e.target.tagName === 'SELECT') e.target.dispatchEvent(new Event('input', { bubbles: true }));
@@ -1589,14 +1594,29 @@ document.addEventListener('click', e => {
    „Genau“ ist die Ausnahme: solche Übungen bleiben privat (origin original), lassen sich weder einreichen
    noch live stellen. Eine Antwort der KI ergibt mehrere Übungen zu einem Thema, je Stufe. */
 const GK_KEY = 'daje-ki-grammatik-v1';
-const GK_DEFAULT = { mode: 'eigen', language: 'it', level: 'A1', topicTitle: '', series: 'Corso daje', volume: '1', publisher: '', unit: '', section: '', pages: '', grade: '', levels: 'leicht,mittel,schwer', perLevel: '2', wishes: '', answer: '' };
+const GK_DEFAULT = { mode: 'eigen', language: 'it', level: 'A1', topicTitle: '', series: 'Corso daje', volume: '1', publisher: '', unit: '', section: '', pages: '', grade: '', levels: 'leicht,mittel,schwer', perLevel: '2', wishes: '', answer: '', cloze: 'phaen', nth: '7', phaen: 'verbi', phaenFree: '', bank: 'nein', textRights: 'fremd', sourceName: '', sourceText: '' };
+/* Lückentext aus eigenem Text: Arten und grammatische Schwerpunkte (Werte gehen in den Auftrag). */
+const GK_CLOZE = [
+  ['phaen', 'Grammatischer Schwerpunkt', 'Nur Wörter einer Art werden zu Lücken, z. B. alle Verben (Grundform in Klammern) oder alle Artikel.'],
+  ['nth', 'Jedes n-te Wort', 'Klassischer Lückentext: erster und letzter Satz bleiben stehen, dazwischen fehlt jedes n-te Wort.'],
+  ['ctest', 'C-Test', 'Ab dem zweiten Satz fehlt bei jedem zweiten Wort die zweite Hälfte.']
+];
+const GK_PHAEN = [
+  ['verbi', 'Verben: richtige Zeitform (Grundform in Klammern)'],
+  ['articoli', 'Artikel (bestimmt und unbestimmt)'],
+  ['preposizioni', 'Präpositionen, auch mit Artikel (del, nella …)'],
+  ['pronomi', 'Pronomen (Objekt-, Reflexiv-, Relativpronomen)'],
+  ['aggettivi', 'Adjektivendungen'],
+  ['connettivi', 'Konnektoren (perché, quindi, però …)'],
+  ['frei', 'Eigener Schwerpunkt …']
+];
 let gkOpen = false,
   gkForm = null,
   gkCommand = null;
 const gkState = () => (gkForm ??= Object.assign({}, GK_DEFAULT, read(GK_KEY, {})));
 function gkPanelHTML() {
   const f = gkState();
-  const scan = f.mode !== 'thema';
+  const scan = f.mode !== 'thema' && f.mode !== 'text';
   const sel = (k, list) =>
     `<select data-gk="${k}">${list.map(([v, t]) => `<option value="${esc(v)}" ${String(f[k]) === String(v) ? 'selected' : ''}>${esc(t)}</option>`).join('')}</select>`;
   const inp = (k, label, ph, extra = '') => `<label class="field">${label}<input data-gk="${k}" value="${esc(f[k])}" placeholder="${esc(ph)}" ${extra}></label>`;
@@ -1608,25 +1628,27 @@ function gkPanelHTML() {
       <div class="ed-rights-opts gk-mode" role="radiogroup" aria-label="Modus">${[
         ['eigen', 'Eigene Übungen nach Buchvorlage', 'Du fotografierst Buchübungen oder die Grammatikseite. Die KI erstellt neue Übungen zum selben Thema mit dem Wortschatz der Lektion. Teilbar und veröffentlichbar.'],
         ['genau', 'Buchübungen genau übernehmen (Ausnahme)', 'Die Übungen von den Fotos werden unverändert digital. Sie bleiben privat: für dich und deine Klasse, nicht im öffentlichen Katalog.'],
-        ['thema', 'Ohne Vorlage, nur Thema', 'Die KI erstellt Übungen zu einem Grammatikthema, das du nennst.']
+        ['thema', 'Ohne Vorlage, nur Thema', 'Die KI erstellt Übungen zu einem Grammatikthema, das du nennst.'],
+        ['text', 'Lückentext aus einem Text', 'Du fügst einen Text ein (z. B. einen Zeitungsartikel). Die KI macht daraus Lückentexte zum Selbstschreiben: jedes n-te Wort, C-Test oder ein grammatischer Schwerpunkt.']
       ].map(([v, l, d]) => `<label class="ed-right ${f.mode === v ? 'on' : ''}"><input type="radio" name="gk-mode" data-gk="mode" value="${v}" ${f.mode === v ? 'checked' : ''}><span><b>${l}</b><small>${d}</small></span></label>`).join('')}</div>
+      ${f.mode === 'text' ? gkTextHTML(f, sel, inp) : ''}
       <div class="ed-grid">
         <label class="field">Sprache${sel('language', Object.entries(TheisContent.LANGUAGES))}</label>
         <label class="field">Niveau${sel('level', ED_LEVELS.map(l => [l, l]))}</label>
-        ${inp('topicTitle', scan ? 'Grammatikthema (optional)' : 'Grammatikthema', 'z. B. Passato prossimo mit essere', 'list="gk-topics"')}
+        ${inp('topicTitle', f.mode === 'text' ? 'Thema im Grammatikbereich (optional)' : scan ? 'Grammatikthema (optional)' : 'Grammatikthema', f.mode === 'text' ? 'z. B. Il passato prossimo' : 'z. B. Passato prossimo mit essere', 'list="gk-topics"')}
         ${inp('series', 'Lehrwerk (Reihe)', 'z. B. Corso daje')}${inp('volume', 'Band', 'z. B. 1', 'inputmode="numeric"')}${inp('unit', 'Lektion', 'z. B. Unità 4')}
         ${scan ? inp('section', 'Abschnitt (optional)', 'z. B. B') + inp('pages', 'Seiten', 'z. B. 64–65') : ''}
-        ${f.mode === 'genau' ? '' : `<label class="field">Übungen je Stufe${sel('perLevel', [['1', '1'], ['2', '2'], ['3', '3']])}</label>`}
+        ${f.mode === 'genau' || f.mode === 'text' ? '' : `<label class="field">Übungen je Stufe${sel('perLevel', [['1', '1'], ['2', '2'], ['3', '3']])}</label>`}
         <label class="field">Klassenstufe (optional)${sel('grade', [['', '–'], ...[5, 6, 7, 8, 9, 10, 11, 12, 13].map(n => [String(n), String(n)])])}</label>
       </div>
       <datalist id="gk-topics">${[...new Set(topics.map(t => t.title))].map(t => `<option value="${esc(t)}">`).join('')}</datalist>
-      ${f.mode === 'genau' ? '' : `<div class="chip-row" role="group" aria-label="Stufen">${[['leicht', 'einfach'], ['mittel', 'mittel'], ['schwer', 'schwer']].map(([k, l]) => `<button type="button" class="chip" data-gk-level="${k}" aria-pressed="${lv.includes(k)}">${l}</button>`).join('')}</div>`}
+      ${f.mode === 'genau' || f.mode === 'text' ? '' : `<div class="chip-row" role="group" aria-label="Stufen">${[['leicht', 'einfach'], ['mittel', 'mittel'], ['schwer', 'schwer']].map(([k, l]) => `<button type="button" class="chip" data-gk-level="${k}" aria-pressed="${lv.includes(k)}">${l}</button>`).join('')}</div>`}
       ${scan ? '<p class="ki-help">Die Fotos hängst du in Schritt 2 direkt im Chat an (Büroklammer oder Plus-Zeichen): gerade fotografiert, gut lesbar, eine Seite pro Foto.</p>' : ''}
       <label class="field">Wünsche (optional)<input data-gk="wishes" value="${esc(f.wishes)}" placeholder="z. B. nur Übung 3 und 4, Wortschatz Schule"></label>
     </div></div>
     <div class="ki-step"><span class="ki-n">2</span><div>
       <h3>Auftrag an die KI</h3>
-      <p class="muted small">${scan ? 'Auftrag kopieren, im Chat die Fotos anhängen, Auftrag einfügen und absenden.' : 'Auftrag kopieren, im Chat einfügen und absenden.'}</p>
+      <p class="muted small">${scan ? 'Auftrag kopieren, im Chat die Fotos anhängen, Auftrag einfügen und absenden.' : f.mode === 'text' ? 'Auftrag kopieren (dein Text ist schon drin), im Chat einfügen und absenden.' : 'Auftrag kopieren, im Chat einfügen und absenden.'}</p>
       <div class="ki-actions"><button class="button primary" data-gk-copy>Auftrag kopieren</button>${KI_CHATS.map(([n, u]) => `<a class="button secondary" href="${u}" target="_blank" rel="noopener">${n} öffnen</a>`).join('')}</div>
       <p class="small" id="gk-copy-status" role="status"></p>
     </div></div>
@@ -1638,6 +1660,22 @@ function gkPanelHTML() {
     </div></div>
   </section>`;
 }
+function gkTextHTML(f, sel, inp) {
+  return `<div class="gk-text">
+    <div class="ed-rights-opts" role="radiogroup" aria-label="Art des Lückentexts">${GK_CLOZE.map(([v, l, d]) => `<label class="ed-right ${f.cloze === v ? 'on' : ''}"><input type="radio" name="gk-cloze" data-gk="cloze" value="${v}" ${f.cloze === v ? 'checked' : ''}><span><b>${l}</b><small>${d}</small></span></label>`).join('')}</div>
+    <div class="ed-grid">
+      ${f.cloze === 'nth' ? `<label class="field">Jedes … Wort${sel('nth', ['5', '6', '7', '8', '9', '10'].map(n => [n, n + '.']))}</label>` : ''}
+      ${f.cloze === 'phaen' ? `<label class="field">Schwerpunkt${sel('phaen', GK_PHAEN)}</label>${f.phaen === 'frei' ? inp('phaenFree', 'Eigener Schwerpunkt', 'z. B. passato prossimo und imperfetto') : ''}` : ''}
+      ${f.cloze === 'ctest' ? '' : `<label class="field">Wortkasten${sel('bank', [['nein', 'ohne (frei schreiben)'], ['ja', 'mit Wortkasten']])}</label>`}
+      <label class="field">Herkunft des Texts${sel('textRights', [['fremd', 'Fremder Text (Zeitung, Buch, Internet)'], ['eigen', 'Eigener oder frei nutzbarer Text']])}</label>
+      ${inp('sourceName', 'Quelle (optional)', 'z. B. Il Fatto Quotidiano, 12. Oktober 2026')}
+    </div>
+    <p class="ki-help">${f.textRights === 'fremd' ? 'Fremde Texte bleiben privat: für dich und deine Klasse (Link, Arbeitsblatt), nicht im öffentlichen Katalog.' : 'Eigene oder frei nutzbare Texte (z. B. mit CC-Lizenz) darfst du auch einreichen.'}</p>
+    <label class="field">Dein Text<textarea data-gk="sourceText" rows="8" placeholder="Artikel oder Ausschnitt hier einfügen (Überschrift darf mit hinein).">${esc(f.sourceText)}</textarea></label>
+    <p class="small muted" id="gk-text-count">${gkWords(f.sourceText)} Wörter${gkWords(f.sourceText) > 900 ? ' · lang: die KI wählt passende Abschnitte aus' : ''}</p>
+  </div>`;
+}
+const gkWords = t => (String(t || '').trim().match(/\S+/g) || []).length;
 function gkInputs() {
   const f = gkState();
   const t = f.topicTitle.trim().toLowerCase();
@@ -1649,8 +1687,10 @@ function gkInputs() {
     series: f.series.trim(),
     volume: f.volume.trim(),
     unit: f.unit.trim(),
-    section: f.mode === 'thema' ? '' : f.section.trim(),
-    pages: f.mode === 'thema' ? '' : f.pages.trim(),
+    section: f.mode === 'thema' || f.mode === 'text' ? '' : f.section.trim(),
+    pages: f.mode === 'thema' || f.mode === 'text' ? '' : f.pages.trim(),
+    sourceText: f.mode === 'text' ? f.sourceText.trim() : '',
+    sourceName: f.mode === 'text' ? f.sourceName.trim() : '',
     publisher: '',
     levels: f.levels.split(',').filter(Boolean)
   };
@@ -1659,11 +1699,13 @@ async function gkCopy() {
   const status = $('gk-copy-status');
   try {
     if (gkForm.mode === 'thema' && !gkForm.topicTitle.trim()) throw new Error('Bitte zuerst das Grammatikthema eintragen.');
+    if (gkForm.mode === 'text' && gkWords(gkForm.sourceText) < 40) throw new Error('Bitte zuerst den Text einfügen (mindestens etwa 40 Wörter).');
+    if (gkForm.mode === 'text' && gkForm.cloze === 'phaen' && gkForm.phaen === 'frei' && !gkForm.phaenFree.trim()) throw new Error('Bitte den eigenen Schwerpunkt eintragen.');
     if (gkForm.mode !== 'genau' && !gkForm.levels) throw new Error('Bitte mindestens eine Stufe wählen.');
     const job = kiLoad('imports/KI-Grammatik.md', gkCommand).then(c => DajeKI.promptForGrammar((gkCommand = c), gkInputs()));
     const copied = await copyLater(job);
     const text = await job;
-    if (copied) status.textContent = gkForm.mode === 'thema' ? 'Auftrag kopiert. Jetzt im Chat einfügen und absenden.' : 'Auftrag kopiert. Im Chat zuerst die Fotos anhängen, dann den Auftrag einfügen und absenden.';
+    if (copied) status.textContent = gkForm.mode === 'thema' || gkForm.mode === 'text' ? 'Auftrag kopiert. Jetzt im Chat einfügen und absenden.' : 'Auftrag kopiert. Im Chat zuerst die Fotos anhängen, dann den Auftrag einfügen und absenden.';
     else {
       status.innerHTML = 'Kopieren wurde blockiert. Bitte hier markieren und kopieren:<textarea class="ki-fallback" rows="5" readonly>' + esc(text) + '</textarea>';
       status.querySelector('textarea').select();
@@ -1695,7 +1737,11 @@ function gkBuild() {
     renderStudio();
     const ok = r.pkgs.filter(p => p.result?.ok).length;
     const orig = r.pkgs[0].pkg.grammar.origin === 'original';
-    toast(`${plural(r.pkgs.length, 'Übung', 'Übungen')} angelegt zum Thema „${r.pkgs[0].pkg.grammar.topicTitle}“.${ok < r.pkgs.length ? ` ${r.pkgs.length - ok} noch als Entwurf: bitte prüfen.` : ' Sie stehen in deinem Grammatikbereich.'}${orig ? ' Unverändert übernommen: bleibt privat.' : ''}`);
+    if (gkForm.mode === 'text') {
+      gkForm.sourceText = '';
+      save(GK_KEY, gkForm);
+    }
+    toast(`${plural(r.pkgs.length, 'Übung', 'Übungen')} angelegt zum Thema „${r.pkgs[0].pkg.grammar.topicTitle}“.${ok < r.pkgs.length ? ` ${r.pkgs.length - ok} noch als Entwurf: bitte prüfen.` : ' Sie stehen in deinem Grammatikbereich.'}${orig ? (gkForm.mode === 'text' ? ' Fremder Text: bleibt privat.' : ' Unverändert übernommen: bleibt privat.') : ''}`);
   } catch (err) {
     out.innerHTML = `<div class="validation-errors"><b>Noch nicht übernommen</b><p>${esc(err.message)}</p></div>`;
   }
@@ -1706,7 +1752,11 @@ document.addEventListener('input', e => {
   gkState();
   gkForm[k] = e.target.value;
   save(GK_KEY, gkForm);
-  if (k === 'mode') renderStudio();
+  if (['mode', 'cloze', 'phaen', 'textRights'].includes(k)) renderStudio();
+  if (k === 'sourceText' && $('gk-text-count')) {
+    const n = gkWords(gkForm.sourceText);
+    $('gk-text-count').textContent = n + ' Wörter' + (n > 900 ? ' · lang: die KI wählt passende Abschnitte aus' : '');
+  }
 });
 document.addEventListener('change', e => {
   if (e.target.dataset?.gk && e.target.tagName === 'SELECT') e.target.dispatchEvent(new Event('input', { bubbles: true }));
