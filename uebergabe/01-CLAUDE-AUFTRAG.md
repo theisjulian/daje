@@ -4,7 +4,7 @@ Du übernimmst Julians browserbasiertes Sprachlernportal ripassà. Zuerst das ge
 
 ## Produkt und Gestaltung
 
-Hörverstehen richtet sich gleichwertig an Lehrkräfte und Lernende. Lehrkräfte finden Unterrichts- und Prüfungsmaterial; Lernende üben selbstständig. Der Wortschatzbereich ripassà. soll mit passenden Wörtern aus jeder Hörübung verknüpft sein. Lehrwerkslisten und weitere Sprachen bleiben zusätzlich möglich. Aktuell enthält Ecco più 1 nur Ciao! und Unità 1, nicht Ecco 1 bis 3 vollständig.
+Hörverstehen richtet sich gleichwertig an Lehrkräfte und Lernende. Lehrkräfte finden Unterrichts- und Prüfungsmaterial; Lernende üben selbstständig. Der Wortschatzbereich ripassà. soll mit passenden Wörtern aus jeder Hörübung verknüpft sein. Lehrwerkslisten und weitere Sprachen bleiben zusätzlich möglich. Aktuell enthält Primo anno nur Ciao! und Unità 1, nicht Lernjahr bis 3 vollständig.
 
 Alle zwölf Gruppo-Farbwelten erhalten: Standard, Apple, Neon, Heft, Salbei, Terrakotta, Graphit, Laguna, Klar, Glut, Wald, Tageslicht. Hochwertige, ruhige, professionelle Gestaltung; intuitive Bedienung auf Desktop, Tablet und Smartphone. Bestehende Schrift-, Komponenten- und Iconwelt beachten. Keine Emojis oder dekorativen Trennlinien hinzufügen. Verständliche Navigation und klare Fehlerzustände sind Teil des Designs.
 

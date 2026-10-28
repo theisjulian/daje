@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco1-u1-approccio",
- "title": "Ecco più 1 · Unità 1 · Approccio",
+ "title": "Primo anno · 1 · La città · Per cominciare",
  "language": "it",
  "translationLanguage": "de",
  "level": "A1",
- "description": "Wortschatz zu „Benvenuti a Torino“ aus Ecco più 1 (Unità 1, Approccio).",
+ "description": "Wortschatz Primo anno (1. Lernjahr), 1 · La città, Per cominciare.",
  "topics": [
   "Stadt",
   "Vorstellen",
   "Orte"
  ],
- "collection": "Ecco più 1 (Cornelsen)",
- "section": "Unità 1 · Approccio",
+ "collection": "Primo anno",
+ "section": "1 · La città · Per cominciare",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 168-169 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Primo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "willkommen"
    ],
-   "page": "168-169",
    "definition": "Si dice a chi arriva per far sentire accolta una persona.",
    "example": "Benvenuta a Roma!",
    "related": "F bienvenue"
@@ -47,7 +44,6 @@
     "Hier ist …!",
     "Da sind …!"
    ],
-   "page": "168-169",
    "definition": "Si dice per mostrare una persona o una cosa.",
    "example": "Ecco il mio amico Luca!",
    "related": "L ecce"
@@ -59,7 +55,6 @@
     "der Platz",
     "die Straße"
    ],
-   "page": "168-169",
    "definition": "Spazio aperto al centro di una città, circondato da edifici.",
    "example": "In piazza ci sono molte persone.",
    "grammar": {
@@ -78,7 +73,6 @@
    "translations": [
     "das Zentrum"
    ],
-   "page": "168-169",
    "definition": "La zona più importante e centrale di una città.",
    "example": "Il centro è bello.",
    "grammar": {
@@ -97,7 +91,6 @@
    "translations": [
     "von (Genitiv)"
    ],
-   "page": "168-169",
    "definition": "Piccola parola che indica provenienza o appartenenza.",
    "related": "F de"
   },
@@ -107,7 +100,6 @@
    "translations": [
     "der Fluss"
    ],
-   "page": "168-169",
    "definition": "Acqua che scorre dalla montagna al mare, come il Tevere.",
    "example": "Il fiume attraversa la città.",
    "related": "L flumen",
@@ -127,7 +119,6 @@
    "translations": [
     "mit"
    ],
-   "page": "168-169",
    "definition": "Piccola parola per dire “insieme a”.",
    "example": "Vado con Anna.",
    "related": "L cum"
@@ -138,7 +129,6 @@
    "translations": [
     "die Brücke"
    ],
-   "page": "168-169",
    "definition": "Costruzione che permette di attraversare un fiume.",
    "example": "Attraversiamo il ponte a piedi.",
    "related": "F le pont; L pons",
@@ -158,7 +148,6 @@
    "translations": [
     "die Industrie"
    ],
-   "page": "168-169",
    "definition": "Attività dove si producono molte merci con le macchine.",
    "example": "A Torino c’è un’industria di automobili.",
    "related": "E industry"
@@ -169,7 +158,6 @@
    "translations": [
     "(er/sie/es) ist"
    ],
-   "page": "168-169",
    "definition": "Forma del verbo “essere” per una persona o una cosa.",
    "example": "Roma è una città grande.",
    "contrast": "è – er, sie, es ist; e – und"
@@ -180,7 +168,6 @@
    "translations": [
     "wichtig"
    ],
-   "page": "168-169",
    "definition": "Che ha molto valore o che conta molto.",
    "example": "È una persona importante per me.",
    "related": "E important"
@@ -191,7 +178,6 @@
    "translations": [
     "für"
    ],
-   "page": "168-169",
    "definition": "Piccola parola che indica scopo o destinatario.",
    "example": "Questo regalo è per te.",
    "related": "F pour; L per"
@@ -202,7 +188,6 @@
    "translations": [
     "die Stadt"
    ],
-   "page": "168-169",
    "definition": "Luogo grande dove vivono molte persone, con strade e negozi.",
    "example": "Milano è una grande città.",
    "related": "E city; L civitas",
@@ -223,7 +208,6 @@
    "translations": [
     "der Park"
    ],
-   "page": "168-169",
    "definition": "Spazio verde con alberi, dove si cammina o si gioca.",
    "example": "Giochiamo nel parco.",
    "grammar": {
@@ -242,7 +226,6 @@
    "translations": [
     "Sehr schön!"
    ],
-   "page": "168-169",
    "definition": "Esclamazione quando una cosa piace molto.",
    "example": "Il mare è bellissimo!"
   },
@@ -252,7 +235,6 @@
    "translations": [
     "das Symbol"
    ],
-   "page": "168-169",
    "definition": "Cosa che rappresenta un’idea, un luogo o un gruppo.",
    "example": "La Torre Eiffel è il simbolo di Parigi.",
    "grammar": {
@@ -271,7 +253,6 @@
    "translations": [
     "das Stadion"
    ],
-   "page": "168-169",
    "definition": "Grande struttura dove si guardano le partite.",
    "example": "Andiamo allo stadio con papà.",
    "grammar": {
@@ -291,7 +272,6 @@
     "Auf geht’s!",
     "Nur Mut!"
    ],
-   "page": "168-169",
    "definition": "Esclamazione per incoraggiare qualcuno.",
    "example": "Forza, ragazzi, ce la fate!"
   },
@@ -301,7 +281,6 @@
    "translations": [
     "der/die Freund/-in"
    ],
-   "page": "168-169",
    "definition": "Persona che conosci bene e con cui stai volentieri.",
    "example": "Anna è la mia migliore amica.",
    "related": "F l’ami/e"
@@ -312,7 +291,6 @@
    "translations": [
     "in"
    ],
-   "page": "168-169",
    "definition": "Piccola parola che indica luogo o tempo.",
    "example": "Abito in Italia."
   },
@@ -322,7 +300,6 @@
    "translations": [
     "die Straße"
    ],
-   "page": "168-169",
    "definition": "Strada di una città, con case e negozi.",
    "example": "Abito in via Garibaldi.",
    "grammar": {
@@ -341,7 +318,6 @@
    "translations": [
     "spazieren gehen"
    ],
-   "page": "168-169",
    "definition": "Camminare con calma, per piacere.",
    "example": "Passeggiamo nel parco."
   },
@@ -351,7 +327,6 @@
    "translations": [
     "hier"
    ],
-   "page": "168-169",
    "definition": "Nel posto dove sono io.",
    "example": "Qui c’è un bar.",
    "usage": "avv."
@@ -360,12 +335,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Unità 1",
-   "section": "Approccio",
-   "pages": "168-169"
+   "unit": "1 · La città",
+   "section": "Per cominciare"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -376,7 +349,7 @@
    "Orte"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

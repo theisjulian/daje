@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco1-u7-approccio",
- "title": "Ecco più 1 · Unità 7 · Approccio",
+ "title": "Primo anno · 7 · Estate in Italia · Per cominciare",
  "language": "it",
  "translationLanguage": "de",
  "level": "A1",
- "description": "Wortschatz zu „Vacanze italiane“ aus Ecco più 1 (Unità 7, Approccio).",
+ "description": "Wortschatz Primo anno (1. Lernjahr), 7 · Estate in Italia, Per cominciare.",
  "topics": [
   "Ferien",
   "Wetter",
   "Reisen"
  ],
- "collection": "Ecco più 1 (Cornelsen)",
- "section": "Unità 7 · Approccio",
+ "collection": "Primo anno",
+ "section": "7 · Estate in Italia · Per cominciare",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 194-195 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Primo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,7 +33,6 @@
     "jede/r",
     "jedes"
    ],
-   "page": "194-195",
    "definition": "Parola che significa “tutti, uno per uno”.",
    "example": "Ogni estate andiamo in montagna.",
    "related": "L omnis"
@@ -46,7 +43,6 @@
    "translations": [
     "ruhig"
    ],
-   "page": "194-195",
    "definition": "Senza agitazione.",
    "example": "Il quartiere è tranquillo.",
    "related": "F tranquille; L tranquillus"
@@ -58,7 +54,6 @@
     "sie",
     "ihnen (nach Präp.)"
    ],
-   "page": "194-195",
    "definition": "Pronome per più persone.",
    "example": "È molto interessante per loro."
   },
@@ -69,7 +64,6 @@
     "Ich kann es nicht erwarten!",
     "Ich freue mich darauf!"
    ],
-   "page": "194-195",
    "definition": "Espressione per dire che aspetti con impazienza.",
    "example": "Non vedo l’ora di andare in vacanza!"
   },
@@ -79,7 +73,6 @@
    "translations": [
     "hier: meine Eltern"
    ],
-   "page": "194-195",
    "definition": "I genitori di chi parla.",
    "example": "I miei sono in vacanza.",
    "grammar": {
@@ -99,7 +92,6 @@
     "lang",
     "weit"
    ],
-   "page": "194-195",
    "definition": "Che si estende molto nello spazio o nel tempo.",
    "example": "Da Torino a Lecce è un viaggio lungo.",
    "related": "L longus",
@@ -111,7 +103,6 @@
    "translations": [
     "die Prüfung"
    ],
-   "page": "194-195",
    "definition": "Verifica importante.",
    "example": "Sono nervoso – domani ho l’esame.",
    "related": "E exam",
@@ -123,7 +114,6 @@
    "translations": [
     "die Nachprüfung"
    ],
-   "page": "194-195",
    "definition": "Prova da ripetere a settembre dopo un’insufficienza.",
    "example": "Dopo le vacanze ho l’esame di riparazione.",
    "usage": "m."
@@ -134,7 +124,6 @@
    "translations": [
     "Verdammt!"
    ],
-   "page": "194-195",
    "definition": "Esclamazione di rabbia.",
    "example": "Maledizione, ho perso le chiavi!"
   },
@@ -145,7 +134,6 @@
     "der Raum",
     "der Platz"
    ],
-   "page": "194-195",
    "definition": "Area libera.",
    "example": "Non c’è spazio nella borsa.",
    "related": "E space; F l’espace; L spatium",
@@ -166,7 +154,6 @@
    "translations": [
     "baden (gehen)"
    ],
-   "page": "194-195",
    "definition": "Entrare nell’acqua, al mare o in piscina.",
    "example": "Mi piace fare il bagno nel mare.",
    "usage": "Abc"
@@ -177,7 +164,6 @@
    "translations": [
     "die Sonne"
    ],
-   "page": "194-195",
    "definition": "Stella che dà luce e calore alla Terra.",
    "example": "In Italia c’è tanto sole.",
    "related": "F le soleil; L sol",
@@ -197,7 +183,6 @@
    "translations": [
     "sich sonnen"
    ],
-   "page": "194-195",
    "definition": "Stare al sole per abbronzarsi.",
    "example": "In spiaggia Anna prende il sole."
   },
@@ -207,7 +192,6 @@
    "translations": [
     "Beachvolleyball"
    ],
-   "page": "194-195",
    "definition": "Pallavolo che si gioca sulla sabbia.",
    "example": "Giochiamo a beach volley in spiaggia.",
    "grammar": {
@@ -227,7 +211,6 @@
     "Wie langweilig!",
     "Wie öde!"
    ],
-   "page": "194-195",
    "definition": "Espressione per dire che una cosa annoia.",
    "example": "Devo studiare. Che barba!"
   },
@@ -237,7 +220,6 @@
    "translations": [
     "abreisen nach"
    ],
-   "page": "194-195",
    "definition": "Andare via verso un luogo.",
    "example": "Giorgia parte per la Liguria."
   },
@@ -247,7 +229,6 @@
    "translations": [
     "normal"
    ],
-   "page": "194-195",
    "definition": "Che non è strano.",
    "example": "È una giornata normale."
   },
@@ -257,7 +238,6 @@
    "translations": [
     "kurz"
    ],
-   "page": "194-195",
    "definition": "Che dura poco.",
    "example": "Il film è breve.",
    "antonyms": "lungo/-a",
@@ -269,7 +249,6 @@
    "translations": [
     "das Hotel"
    ],
-   "page": "194-195",
    "definition": "Edificio dove si dorme viaggiando.",
    "example": "In vacanza prendiamo una camera in albergo.",
    "usage": "pl. gli alberghi"
@@ -280,7 +259,6 @@
    "translations": [
     "der Spaziergang"
    ],
-   "page": "194-195",
    "definition": "Camminata tranquilla.",
    "example": "Facciamo una passeggiata.",
    "family": "passeggiare",
@@ -301,7 +279,6 @@
     "bevorzugen",
     "lieber machen"
    ],
-   "page": "194-195",
    "definition": "Scegliere una cosa piuttosto che un’altra.",
    "example": "Non amo la montagna. Preferisco andare al mare.",
    "related": "E to prefer; F préférer",
@@ -317,7 +294,6 @@
     "daher",
     "deshalb"
    ],
-   "page": "194-195",
    "definition": "Per questo motivo.",
    "example": "Non mi piace la montagna, perciò vado al mare.",
    "usage": "avv."
@@ -330,7 +306,6 @@
     "wechseln",
     "sich ändern"
    ],
-   "page": "194-195",
    "definition": "Trasformare o sostituire.",
    "example": "Ho cambiato il numero di cellulare. Guarda! Il tempo cambia."
   },
@@ -340,7 +315,6 @@
    "translations": [
     "die Meinung ändern"
    ],
-   "page": "194-195",
    "definition": "Pensare in modo diverso da prima.",
    "example": "Ho cambiato idea: vengo anch’io."
   },
@@ -350,7 +324,6 @@
    "translations": [
     "der Campingplatz"
    ],
-   "page": "194-195",
    "definition": "Luogo dove si dorme in tenda.",
    "example": "Quest’anno andiamo in campeggio.",
    "usage": "pl. i campeggi",
@@ -370,7 +343,6 @@
    "translations": [
     "das Zelt"
    ],
-   "page": "194-195",
    "definition": "Casa leggera di tela per dormire all’aperto.",
    "example": "In campeggio dormo in una tenda.",
    "related": "E tent",
@@ -390,7 +362,6 @@
    "translations": [
     "für alte Leute"
    ],
-   "page": "194-195",
    "definition": "Adatto a persone anziane.",
    "example": "Il bridge è un gioco da vecchi."
   }
@@ -398,12 +369,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Unità 7",
-   "section": "Approccio",
-   "pages": "194-195"
+   "unit": "7 · Estate in Italia",
+   "section": "Per cominciare"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -414,7 +383,7 @@
    "Reisen"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco3-u3-3a",
- "title": "Ecco più 3 · Unità 3 · 3A Tre settimane ad Amatrice",
+ "title": "Terzo anno · 3 · Società e solidarietà · Parte A",
  "language": "it",
  "translationLanguage": "de",
  "level": "B1",
- "description": "Wortschatz zu „Drei Wochen in Amatrice“ aus Ecco più 3 (Unità 3, 3A Tre settimane ad Amatrice).",
+ "description": "Wortschatz Terzo anno (3. Lernjahr), 3 · Società e solidarietà, Parte A.",
  "topics": [
   "Erdbeben",
   "Hilfe",
   "Freiwillige"
  ],
- "collection": "Ecco più 3 (Cornelsen)",
- "section": "Unità 3 · 3A Tre settimane ad Amatrice",
+ "collection": "Terzo anno",
+ "section": "3 · Società e solidarietà · Parte A",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 177-178 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Terzo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,7 +33,6 @@
     "das Grauen",
     "der Schrecken"
    ],
-   "page": "177-178",
    "definition": "Una paura fortissima davanti a una cosa terribile.",
    "example": "Che orrore vedere le case distrutte!",
    "related": "E horror; F horreur",
@@ -47,7 +44,6 @@
    "translations": [
     "komplett"
    ],
-   "page": "177-178",
    "definition": "Intero, a cui non manca niente.",
    "example": "Finalmente il mio album di figurine è completo."
   },
@@ -57,7 +53,6 @@
    "translations": [
     "zerstört"
    ],
-   "page": "177-178",
    "definition": "Rotto del tutto.",
    "example": "Dopo il terremoto la chiesa era distrutta.",
    "related": "E destroyed; F détruit/-e"
@@ -68,7 +63,6 @@
    "translations": [
     "verzweifelt"
    ],
-   "page": "177-178",
    "definition": "Senza speranza.",
    "example": "Era disperato perché aveva perso tutto.",
    "related": "E desperate; F désespéré(e)"
@@ -80,7 +74,6 @@
     "retten",
     "sicherstellen"
    ],
-   "page": "177-178",
    "definition": "Riuscire a riavere una cosa persa.",
    "example": "Sono riuscito a recuperare le foto dal vecchio telefono."
   },
@@ -90,7 +83,6 @@
    "translations": [
     "die Trümmer"
    ],
-   "page": "177-178",
    "definition": "Quello che resta di un edificio crollato.",
    "example": "I volontari cercano tra le macerie.",
    "usage": "nur pl.",
@@ -110,7 +102,6 @@
    "translations": [
     "einschreiten"
    ],
-   "page": "177-178",
    "definition": "Entrare in azione per aiutare o fermare.",
    "example": "I pompieri sono intervenuti subito.",
    "family": "venire",
@@ -123,7 +114,6 @@
    "translations": [
     "das Erdbeben"
    ],
-   "page": "177-178",
    "definition": "Un altro modo per dire terremoto.",
    "example": "Il sisma ha colpito tutto il centro Italia.",
    "usage": "pl. i sismi",
@@ -143,7 +133,6 @@
    "translations": [
     "der Zielort"
    ],
-   "page": "177-178",
    "definition": "Il posto dove si va.",
    "example": "Qual è la destinazione del vostro viaggio?",
    "related": "E destination; F destination",
@@ -164,7 +153,6 @@
     "aufgeregt",
     "gerührt"
    ],
-   "page": "177-178",
    "definition": "Pieno di emozione.",
    "example": "Ero molto emozionato prima del concerto."
   },
@@ -174,7 +162,6 @@
    "translations": [
     "das Unglück"
    ],
-   "page": "177-178",
    "definition": "Un fatto terribile con molti danni.",
    "example": "L’alluvione è stata un disastro per la città.",
    "related": "E disaster",
@@ -194,7 +181,6 @@
    "translations": [
     "entsetzlich"
    ],
-   "page": "177-178",
    "definition": "Che fa paura e orrore.",
    "example": "In tv hanno mostrato immagini agghiaccianti."
   },
@@ -205,7 +191,6 @@
     "die Ruine",
     "der Trümmerhaufen"
    ],
-   "page": "177-178",
    "definition": "Quello che resta di un edificio distrutto.",
    "example": "Tra le rovine abbiamo trovato una vecchia foto.",
    "grammar": {
@@ -224,7 +209,6 @@
    "translations": [
     "jdn vorstellen"
    ],
-   "page": "177-178",
    "definition": "Presentare una persona a un’altra.",
    "example": "Ti faccio conoscere la mia migliore amica.",
    "acceptedAnswers": [
@@ -237,7 +221,6 @@
    "translations": [
     "der Jahrgang"
    ],
-   "page": "177-178",
    "definition": "Le persone nate nello stesso anno.",
    "example": "Mio nonno è della classe 1950.",
    "usage": "hier",
@@ -257,7 +240,6 @@
    "translations": [
     "der Hund"
    ],
-   "page": "177-178",
    "definition": "Un animale domestico che abbaia.",
    "example": "Ogni sera porto fuori il cane.",
    "grammar": {
@@ -276,7 +258,6 @@
    "translations": [
     "bellen"
    ],
-   "page": "177-178",
    "definition": "Fare il verso del cane.",
    "example": "Il cane abbaia quando suona il campanello."
   },
@@ -286,7 +267,6 @@
    "translations": [
     "verrückt"
    ],
-   "page": "177-178",
    "definition": "Che non ragiona; anche: esagerato.",
    "example": "Sei pazzo a uscire con questo freddo!"
   },
@@ -297,7 +277,6 @@
     "flüchten",
     "entkommen"
    ],
-   "page": "177-178",
    "definition": "Correre via da un pericolo.",
    "example": "Il gatto è scappato dalla finestra.",
    "related": "E to escape"
@@ -308,7 +287,6 @@
    "translations": [
     "kurz davor sein, etw. zu tun"
    ],
-   "page": "177-178",
    "definition": "Essere sul punto di fare una cosa.",
    "example": "Stavo per uscire quando hai chiamato.",
    "usage": "+ inf."
@@ -320,7 +298,6 @@
     "einstürzen",
     "zusammenbrechen"
    ],
-   "page": "177-178",
    "definition": "Cadere giù, rompersi.",
    "example": "Durante il terremoto è crollato il campanile."
   },
@@ -330,7 +307,6 @@
    "translations": [
     "sich entfernen"
    ],
-   "page": "177-178",
    "definition": "Andare lontano da un posto.",
    "example": "Non allontanatevi dal gruppo!"
   },
@@ -341,7 +317,6 @@
     "mindestens",
     "gelinde gesagt"
    ],
-   "page": "177-178",
    "definition": "Per non esagerare; in realtà era ancora di più.",
    "example": "È stata una giornata a dir poco difficile.",
    "usage": "hier: gelinde gesagt"
@@ -352,7 +327,6 @@
    "translations": [
     "entsetzlich"
    ],
-   "page": "177-178",
    "definition": "Terribile.",
    "example": "Ho un mal di testa tremendo."
   },
@@ -362,7 +336,6 @@
    "translations": [
     "traurig"
    ],
-   "page": "177-178",
    "definition": "Che non è felice.",
    "example": "Sono triste perché la mia amica si trasferisce.",
    "related": "F triste; L tristis"
@@ -373,7 +346,6 @@
    "translations": [
     "sich mit etw. abfinden"
    ],
-   "page": "177-178",
    "definition": "Accettare una cosa che non si può cambiare.",
    "example": "Devi farti una ragione del brutto voto.",
    "acceptedAnswers": [
@@ -386,7 +358,6 @@
    "translations": [
     "jdn besuchen"
    ],
-   "page": "177-178",
    "definition": "Visitare una persona.",
    "example": "Domenica vado a trovare la nonna.",
    "acceptedAnswers": [
@@ -399,7 +370,6 @@
    "translations": [
     "wahrscheinlich"
    ],
-   "page": "177-178",
    "definition": "Che succederà quasi sicuramente.",
    "example": "È probabile che domani piova.",
    "related": "E probable; F probable"
@@ -410,7 +380,6 @@
    "translations": [
     "sterben"
    ],
-   "page": "177-178",
    "definition": "Finire di vivere.",
    "example": "Purtroppo il mio gatto è morto la settimana scorsa.",
    "related": "F mourir; L mori",
@@ -422,7 +391,6 @@
    "translations": [
     "tot"
    ],
-   "page": "177-178",
    "definition": "Che non vive più.",
    "example": "Abbiamo trovato un uccello morto in giardino.",
    "related": "F mort(e)"
@@ -434,7 +402,6 @@
     "retten",
     "in Sicherheit bringen"
    ],
-   "page": "177-178",
    "definition": "Portare fuori da un pericolo.",
    "example": "I pompieri hanno salvato una famiglia.",
    "related": "E to save; F sauver"
@@ -445,7 +412,6 @@
    "translations": [
     "die Liste"
    ],
-   "page": "177-178",
    "definition": "Un elenco di cose scritte una sotto l’altra.",
    "example": "Ho fatto una lista delle cose da comprare.",
    "grammar": {
@@ -464,7 +430,6 @@
    "translations": [
     "der/die Überlebende"
    ],
-   "page": "177-178",
    "definition": "Una persona che è rimasta viva dopo un disastro.",
    "example": "I superstiti del terremoto vivono nelle tende."
   },
@@ -474,7 +439,6 @@
    "translations": [
     "das Krankenhaus"
    ],
-   "page": "177-178",
    "definition": "Il posto dove si curano i malati.",
    "example": "Mia zia lavora in ospedale.",
    "related": "E hospital; F hôpital",
@@ -486,7 +450,6 @@
    "translations": [
     "umarmen"
    ],
-   "page": "177-178",
    "definition": "Stringere qualcuno tra le braccia.",
    "example": "Ho abbracciato forte mia madre."
   },
@@ -497,7 +460,6 @@
     "die Verpflichtung",
     "die Pflicht"
    ],
-   "page": "177-178",
    "definition": "Quello che si deve fare.",
    "example": "Fare i compiti è un dovere.",
    "grammar": {
@@ -516,7 +478,6 @@
    "translations": [
     "moralisch"
    ],
-   "page": "177-178",
    "definition": "Che riguarda il bene e il male.",
    "example": "Aiutare gli altri è un dovere morale."
   },
@@ -527,7 +488,6 @@
     "sich wünschen",
     "hoffen, dass"
    ],
-   "page": "177-178",
    "definition": "Sperare che succeda una cosa.",
    "example": "Mi auguro che tu stia meglio presto.",
    "usage": "+ cong."
@@ -538,7 +498,6 @@
    "translations": [
     "wiederfinden"
    ],
-   "page": "177-178",
    "definition": "Trovare di nuovo una cosa persa.",
    "example": "Ho ritrovato il mio vecchio diario."
   },
@@ -548,7 +507,6 @@
    "translations": [
     "so schnell wie möglich"
    ],
-   "page": "177-178",
    "definition": "Il prima possibile.",
    "example": "Rispondimi al più presto, per favore."
   },
@@ -558,7 +516,6 @@
    "translations": [
     "die Normalität"
    ],
-   "page": "177-178",
    "definition": "Lo stato normale delle cose.",
    "example": "Dopo il terremoto, la città torna piano piano alla normalità.",
    "family": "normale",
@@ -578,7 +535,6 @@
    "translations": [
     "Hoffen wir das Beste!"
    ],
-   "page": "177-178",
    "definition": "Si dice quando si spera che una cosa vada bene.",
    "example": "Domani ho l’esame. Speriamo bene!"
   },
@@ -588,7 +544,6 @@
    "translations": [
     "aus-, verteilen"
    ],
-   "page": "177-178",
    "definition": "Dare una parte a ciascuno.",
    "example": "I volontari distribuiscono acqua e cibo.",
    "related": "E to distribute; F distribuer",
@@ -600,7 +555,6 @@
    "translations": [
     "die Mahlzeit"
    ],
-   "page": "177-178",
    "definition": "Il momento in cui si mangia: colazione, pranzo, cena.",
    "example": "Facciamo tre pasti al giorno.",
    "grammar": {
@@ -619,7 +573,6 @@
    "translations": [
     "die Decke"
    ],
-   "page": "177-178",
    "definition": "Una cosa calda per coprirsi a letto.",
    "example": "Mi serve una coperta, ho freddo.",
    "grammar": {
@@ -638,7 +591,6 @@
    "translations": [
     "die Notunterkunft"
    ],
-   "page": "177-178",
    "definition": "Un posto dove dormire dopo un disastro.",
    "example": "Il comune ha preparato alloggi di emergenza."
   },
@@ -648,7 +600,6 @@
    "translations": [
     "die Gelegenheit nutzen"
    ],
-   "page": "177-178",
    "definition": "Approfittare di un buon momento.",
    "example": "Colgo l’occasione per ringraziarvi tutti.",
    "usage": "p.p. colto"
@@ -660,7 +611,6 @@
     "die Zufriedenheit",
     "die Genugtuung"
    ],
-   "page": "177-178",
    "definition": "Il piacere di aver fatto bene una cosa.",
    "example": "Che soddisfazione finire il progetto!",
    "related": "E satisfaction; F satisfaction",
@@ -678,12 +628,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "3",
-   "unit": "Unità 3",
-   "section": "3A Tre settimane ad Amatrice",
-   "pages": "177-178"
+   "unit": "3 · Società e solidarietà",
+   "section": "Parte A"
   },
   "grade": 10,
   "foreignLanguageNo": 3,
@@ -694,7 +642,7 @@
    "Freiwillige"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

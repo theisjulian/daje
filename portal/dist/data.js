@@ -1,4 +1,4 @@
-/* Redaktionell aufbereiteter Auszug der bereitgestellten Lista cronologica.
+/* Redaktionell aufbereiteter Grundwortschatz (Primo anno, Anfang).
    Kapitelzuordnung: Ciao! sowie Unità 1, Approccio, 1A und 1B.
    Zusätzliche Beispielsätze und Definitionen sind eigene Übungsformulierungen. */
 const GROUPS = [
@@ -285,8 +285,7 @@ const CONTENT_CATALOG = {
     {
       id: 'ecco-piu-1-9783060229062',
       language: 'it',
-      name: 'Ecco più 1',
-      isbn: '978-3-06-022906-2',
+      name: 'Primo anno',
       availableSections: ['ciao', 'approccio', '1a', '1b']
     }
   ]

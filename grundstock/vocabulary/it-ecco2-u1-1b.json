@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-u1-1b",
- "title": "Ecco più 2 · Unità 1 · 1B L’incontro d’estate",
+ "title": "Secondo anno · 1 · Ricordi · Parte B",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Die Begegnung im Sommer“ aus Ecco più 2 (Unità 1, 1B L’incontro d’estate).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), 1 · Ricordi, Parte B.",
  "topics": [
   "Sommer",
   "Begegnung",
   "Erzählen"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Unità 1 · 1B L’incontro d’estate",
+ "collection": "Secondo anno",
+ "section": "1 · Ricordi · Parte B",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 201-202 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "der Wettbewerb"
    ],
-   "page": "201-202",
    "definition": "Gara in cui si vince un premio.",
    "example": "Partecipo a un concorso di disegno.",
    "related": "F le concours",
@@ -55,7 +52,6 @@
     "die Erzählung",
     "die Geschichte"
    ],
-   "page": "201-202",
    "definition": "Storia breve.",
    "example": "Leggo un racconto di fantascienza.",
    "family": "raccontare",
@@ -75,7 +71,6 @@
    "translations": [
     "das Abenteuer"
    ],
-   "page": "201-202",
    "definition": "Esperienza insolita e emozionante.",
    "example": "Che avventura è stata la gita!",
    "related": "E adventure; F l’aventure"
@@ -86,7 +81,6 @@
    "translations": [
     "eines Tages"
    ],
-   "page": "201-202",
    "definition": "In un momento qualsiasi del passato o del futuro.",
    "example": "Un giorno visiterò Roma.",
    "usage": "avv."
@@ -97,7 +91,6 @@
    "translations": [
     "während"
    ],
-   "page": "201-202",
    "definition": "Nello stesso tempo in cui.",
    "example": "Mentre mangio, ascolto la radio."
   },
@@ -108,7 +101,6 @@
     "plötzlich",
     "auf einmal"
    ],
-   "page": "201-202",
    "definition": "Improvvisamente.",
    "example": "Ad un tratto è andata via la luce."
   },
@@ -120,7 +112,6 @@
     "schlagen",
     "beeindrucken"
    ],
-   "page": "201-202",
    "definition": "Dare un colpo; impressionare.",
    "example": "Il film mi ha colpito molto.",
    "acceptedAnswers": [
@@ -134,7 +125,6 @@
    "translations": [
     "fliegen"
    ],
-   "page": "201-202",
    "definition": "Muoversi nell’aria con le ali.",
    "example": "Gli uccelli volano.",
    "related": "F voler"
@@ -146,7 +136,6 @@
     "sich ärgern",
     "wütend werden"
    ],
-   "page": "201-202",
    "definition": "Provare rabbia.",
    "example": "Mamma si arrabbia quando faccio tardi."
   },
@@ -157,7 +146,6 @@
     "natürlich",
     "selbstverständlich"
    ],
-   "page": "201-202",
    "definition": "Come è ovvio.",
    "example": "Naturalmente vengo alla festa!",
    "usage": "avv."
@@ -168,7 +156,6 @@
    "translations": [
     "der Kopf"
    ],
-   "page": "201-202",
    "definition": "Parte del corpo con il cervello.",
    "example": "Ho mal di testa.",
    "related": "F la tête",
@@ -189,7 +176,6 @@
     "klein (Körpergröße)",
     "niedrig"
    ],
-   "page": "201-202",
    "definition": "Poco alto.",
    "example": "Il mio fratellino è ancora basso.",
    "related": "F bas, basse"
@@ -200,7 +186,6 @@
    "translations": [
     "kurz"
    ],
-   "page": "201-202",
    "definition": "Poco lungo.",
    "example": "Ho i capelli corti.",
    "related": "F court/e",
@@ -213,7 +198,6 @@
    "translations": [
     "sich entschuldigen"
    ],
-   "page": "201-202",
    "definition": "Chiedere perdono.",
    "example": "Mi scuso per il ritardo."
   },
@@ -223,7 +207,6 @@
    "translations": [
     "österreichisch"
    ],
-   "page": "201-202",
    "definition": "Che viene dal paese di cui Vienna è la capitale.",
    "example": "Il mio amico è austriaco."
   },
@@ -233,7 +216,6 @@
    "translations": [
     "Wien (Hauptstadt von Österreich)"
    ],
-   "page": "201-202",
    "definition": "Capitale dell’Austria.",
    "example": "Vienna è una città elegante."
   },
@@ -243,7 +225,6 @@
    "translations": [
     "jdn anlächeln"
    ],
-   "page": "201-202",
    "definition": "Mostrare allegria con il viso.",
    "example": "Sorrido a mia nonna.",
    "related": "F sourire",
@@ -258,7 +239,6 @@
    "translations": [
     "sich etw. entfernen"
    ],
-   "page": "201-202",
    "definition": "Levarsi un indumento.",
    "example": "Mi tolgo la giacca.",
    "acceptedAnswers": [
@@ -273,7 +253,6 @@
    "translations": [
     "das Kino"
    ],
-   "page": "201-202",
    "definition": "Luogo dove si guardano i film.",
    "example": "Andiamo al cinema sabato.",
    "related": "E/F cinema",
@@ -295,7 +274,6 @@
     "das Freiluftkino",
     "das Open-air-Kino"
    ],
-   "page": "201-202",
    "definition": "Sala dove si guardano film sotto le stelle.",
    "example": "D’estate c’è il cinema all’aperto.",
    "grammar": {
@@ -314,7 +292,6 @@
    "translations": [
     "jdn abholen"
    ],
-   "page": "201-202",
    "definition": "Venire a prendere una persona in un luogo.",
    "example": "Papà arriva a prendermi alle sei.",
    "acceptedAnswers": [
@@ -328,7 +305,6 @@
     "grüßen",
     "begrüßen"
    ],
-   "page": "201-202",
    "definition": "Dire “ciao”.",
    "example": "Saluto i miei compagni.",
    "related": "F saluer"
@@ -339,7 +315,6 @@
    "translations": [
     "der Moment"
    ],
-   "page": "201-202",
    "definition": "Breve periodo di tempo.",
    "example": "Un momento, arrivo subito!",
    "grammar": {
@@ -359,7 +334,6 @@
     "geschehen",
     "passieren"
    ],
-   "page": "201-202",
    "definition": "Accadere.",
    "example": "Che cosa è successo?",
    "usage": "p.p. successo"
@@ -371,7 +345,6 @@
     "peinlich",
     "unangenehm"
    ],
-   "page": "201-202",
    "definition": "Che mette a disagio.",
    "example": "Che situazione imbarazzante!",
    "related": "E embarrassing"
@@ -383,7 +356,6 @@
     "anhalten",
     "stoppen"
    ],
-   "page": "201-202",
    "definition": "Far smettere di muoversi.",
    "example": "Fermo l’autobus."
   },
@@ -393,7 +365,6 @@
    "translations": [
     "unbekannt"
    ],
-   "page": "201-202",
    "definition": "Che non si conosce.",
    "example": "Un uomo sconosciuto bussa alla porta.",
    "antonyms": "conosciuto/-a"
@@ -405,7 +376,6 @@
     "der Augenblick",
     "der Moment"
    ],
-   "page": "201-202",
    "definition": "Un tempo brevissimo.",
    "example": "In un attimo è finito tutto.",
    "synonyms": "il momento"
@@ -416,7 +386,6 @@
    "translations": [
     "die Angst"
    ],
-   "page": "201-202",
    "definition": "Sensazione che si prova davanti a un pericolo.",
    "example": "Ho paura del buio.",
    "grammar": {
@@ -437,7 +406,6 @@
     "verpassen",
     "sich verlaufen"
    ],
-   "page": "201-202",
    "definition": "Non partecipare a qualcosa di bello.",
    "example": "Non voglio perdermi la festa.",
    "acceptedAnswers": [
@@ -450,7 +418,6 @@
    "translations": [
     "schaffen (etw. zu tun)"
    ],
-   "page": "201-202",
    "definition": "Avere successo in qualcosa.",
    "example": "Riesco a nuotare per un’ora.",
    "related": "F réussir",
@@ -466,7 +433,6 @@
     "überzeugen",
     "überreden"
    ],
-   "page": "201-202",
    "definition": "Far cambiare idea a qualcuno.",
    "example": "Mi hanno convinto a venire.",
    "related": "E to convince; F convaincre",
@@ -481,7 +447,6 @@
    "translations": [
     "der Tag (Verlauf)"
    ],
-   "page": "201-202",
    "definition": "Il giorno dal mattino alla sera.",
    "example": "È stata una bella giornata.",
    "synonyms": "il giorno",
@@ -501,7 +466,6 @@
    "translations": [
     "der Abschied"
    ],
-   "page": "201-202",
    "definition": "Saluto di chi parte per sempre.",
    "example": "Un triste addio alla stazione.",
    "usage": "pl. gli addii"
@@ -512,7 +476,6 @@
    "translations": [
     "der Kontakt"
    ],
-   "page": "201-202",
    "definition": "Rapporto con una persona.",
    "example": "Resto in contatto con i miei amici.",
    "grammar": {
@@ -531,7 +494,6 @@
    "translations": [
     "sich etw. austauschen"
    ],
-   "page": "201-202",
    "definition": "Darsi a vicenda qualcosa.",
    "example": "Ci scambiamo i numeri di telefono.",
    "acceptedAnswers": [
@@ -545,7 +507,6 @@
     "das Päckchen",
     "das Paket"
    ],
-   "page": "201-202",
    "definition": "Piccola scatola o confezione.",
    "example": "Ho un pacchetto di biscotti.",
    "grammar": {
@@ -564,7 +525,6 @@
    "translations": [
     "die Erinnerung an etw./jmd"
    ],
-   "page": "201-202",
    "definition": "Cosa che resta nella memoria.",
    "example": "Ho un bel ricordo di quell’estate.",
    "acceptedAnswers": [
@@ -584,12 +544,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Unità 1",
-   "section": "1B L’incontro d’estate",
-   "pages": "201-202"
+   "unit": "1 · Ricordi",
+   "section": "Parte B"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -600,7 +558,7 @@
    "Erzählen"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

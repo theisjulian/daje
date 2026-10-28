@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-u5-approccio",
- "title": "Ecco più 2 · Unità 5 · Approccio",
+ "title": "Secondo anno · 5 · Ieri e oggi · Per cominciare",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Nel centro d’Italia“ aus Ecco più 2 (Unità 5, Approccio).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), 5 · Ieri e oggi, Per cominciare.",
  "topics": [
   "Mittelitalien",
   "Urlaub",
   "Camping"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Unità 5 · Approccio",
+ "collection": "Secondo anno",
+ "section": "5 · Ieri e oggi · Per cominciare",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 217-218 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "der Schritt"
    ],
-   "page": "217-218",
    "definition": "Movimento di un piede quando si cammina.",
    "example": "Faccio due passi.",
    "related": "L passus",
@@ -54,7 +51,6 @@
    "translations": [
     "(zwei Schritte) entfernt von"
    ],
-   "page": "217-218",
    "definition": "Molto vicino a.",
    "example": "Casa mia è a due passi da scuola.",
    "acceptedAnswers": [
@@ -67,7 +63,6 @@
    "translations": [
     "der Pinienwald"
    ],
-   "page": "217-218",
    "definition": "Bosco di pini.",
    "example": "Passeggiamo nella pineta.",
    "related": "F la pinière",
@@ -87,7 +82,6 @@
    "translations": [
     "(ver)mieten"
    ],
-   "page": "217-218",
    "definition": "Prendere o dare in uso una casa pagando.",
    "example": "Affitto un appartamento."
   },
@@ -97,7 +91,6 @@
    "translations": [
     "der Wohnwagen"
    ],
-   "page": "217-218",
    "definition": "Piccola casa su ruote.",
    "example": "Andiamo in vacanza in roulotte.",
    "grammar": {
@@ -117,7 +110,6 @@
     "zugänglich",
     "erreichbar"
    ],
-   "page": "217-218",
    "definition": "Facile da raggiungere o da usare.",
    "example": "Il museo è accessibile a tutti.",
    "related": "E accessible"
@@ -128,7 +120,6 @@
    "translations": [
     "der/die (Körper-)Behinderte"
    ],
-   "page": "217-218",
    "definition": "Persona con una disabilità.",
    "example": "Il bagno è per portatori di handicap."
   },
@@ -139,7 +130,6 @@
     "die Struktur",
     "das Gebäude"
    ],
-   "page": "217-218",
    "definition": "Costruzione organizzata.",
    "example": "La struttura ha una piscina.",
    "grammar": {
@@ -159,7 +149,6 @@
     "das Schwimmbad",
     "der Pool"
    ],
-   "page": "217-218",
    "definition": "Grande vasca per nuotare.",
    "example": "D’estate vado in piscina.",
    "related": "F la piscine",
@@ -179,7 +168,6 @@
    "translations": [
     "der Spielplatz"
    ],
-   "page": "217-218",
    "definition": "Spazio con altalene per bambini.",
    "example": "I bambini giocano nel parco giochi.",
    "usage": "pl. i parchi giochi",
@@ -199,7 +187,6 @@
    "translations": [
     "ausgestattet"
    ],
-   "page": "217-218",
    "definition": "Dotato dei mezzi necessari.",
    "example": "Il campeggio è attrezzato."
   },
@@ -209,7 +196,6 @@
    "translations": [
     "in der Umgebung"
    ],
-   "page": "217-218",
    "definition": "Nella zona vicina.",
    "example": "Ci sono molti negozi nei dintorni."
   },
@@ -219,7 +205,6 @@
    "translations": [
     "der Einkaufsladen"
    ],
-   "page": "217-218",
    "definition": "Piccolo negozio di alimentari.",
    "example": "Compro il pane al mini market.",
    "grammar": {
@@ -238,7 +223,6 @@
    "translations": [
     "Tennis-/Beachvolleyball-Platz"
    ],
-   "page": "217-218",
    "definition": "Area per giocare a tennis o pallavolo sulla sabbia.",
    "example": "Giochiamo sul campo da beach volley."
   },
@@ -248,7 +232,6 @@
    "translations": [
     "die Insel"
    ],
-   "page": "217-218",
    "definition": "Terra circondata dal mare.",
    "example": "La Sicilia è un’isola.",
    "related": "L insula"
@@ -259,7 +242,6 @@
    "translations": [
     "der Ausflug"
    ],
-   "page": "217-218",
    "definition": "Gita breve in luoghi naturali.",
    "example": "Facciamo un’escursione in montagna.",
    "usage": "f."
@@ -271,7 +253,6 @@
     "der Agrotourismus",
     "Urlaub auf dem Bauernhof"
    ],
-   "page": "217-218",
    "definition": "Azienda agricola che accoglie turisti.",
    "example": "Passiamo il weekend in un agriturismo."
   },
@@ -281,7 +262,6 @@
    "translations": [
     "der Olivenhain"
    ],
-   "page": "217-218",
    "definition": "Terreno con ulivi.",
    "example": "Il casale è in mezzo a un uliveto."
   },
@@ -292,7 +272,6 @@
     "die Zone",
     "die Gegend"
    ],
-   "page": "217-218",
    "definition": "Parte di un territorio.",
    "example": "È una zona tranquilla.",
    "grammar": {
@@ -312,7 +291,6 @@
     "in der Mitte",
     "inmitten (von)"
    ],
-   "page": "217-218",
    "definition": "Nel centro di qualcosa.",
    "example": "La casa è in mezzo al bosco.",
    "acceptedAnswers": [
@@ -326,7 +304,6 @@
    "translations": [
     "der Garten"
    ],
-   "page": "217-218",
    "definition": "Area verde vicino a una casa.",
    "example": "Giochiamo in giardino.",
    "related": "F le jardin",
@@ -346,7 +323,6 @@
    "translations": [
     "die Natur"
    ],
-   "page": "217-218",
    "definition": "Tutto quello che esiste senza l’uomo: piante, animali, montagne.",
    "example": "Amo la natura.",
    "grammar": {
@@ -365,7 +341,6 @@
    "translations": [
     "das Produkt"
    ],
-   "page": "217-218",
    "definition": "Cosa fabbricata o coltivata.",
    "example": "Compriamo prodotti locali.",
    "grammar": {
@@ -384,7 +359,6 @@
    "translations": [
     "erreichbar"
    ],
-   "page": "217-218",
    "definition": "Che si può raggiungere.",
    "example": "Il paese è raggiungibile in autobus."
   },
@@ -394,7 +368,6 @@
    "translations": [
     "entlang"
    ],
-   "page": "217-218",
    "definition": "Per tutta l’estensione.",
    "example": "Camminiamo lungo il fiume.",
    "usage": "prep."
@@ -405,7 +378,6 @@
    "translations": [
     "der Franziskusweg"
    ],
-   "page": "217-218",
    "tags": [
     "fakultativ"
    ],
@@ -427,7 +399,6 @@
    "translations": [
     "man braucht"
    ],
-   "page": "217-218",
    "definition": "Dice che serve una certa quantità.",
    "example": "Ci vogliono tre ore per arrivare.",
    "contrast": "ci vuole (man braucht) – bisogna (man muss) – ho bisogno di / mi serve (ich brauche)"
@@ -438,7 +409,6 @@
    "translations": [
     "das Pferd"
    ],
-   "page": "217-218",
    "definition": "Grande animale con la criniera che si monta.",
    "example": "Il cavallo corre nel campo.",
    "grammar": {
@@ -458,7 +428,6 @@
     "zu Pferd",
     "mit dem Pferd"
    ],
-   "page": "217-218",
    "definition": "Montando un cavallo.",
    "example": "Facciamo un giro a cavallo."
   },
@@ -468,7 +437,6 @@
    "translations": [
     "das Grüne"
    ],
-   "page": "217-218",
    "definition": "Colore o area con piante.",
    "example": "C’è molto verde in questa città.",
    "grammar": {
@@ -487,7 +455,6 @@
    "translations": [
     "das Fernrohr"
    ],
-   "page": "217-218",
    "definition": "Strumento con lenti per guardare lontano.",
    "example": "Galileo usò il cannocchiale.",
    "grammar": {
@@ -506,7 +473,6 @@
    "translations": [
     "der/die Wissenschaftler/in"
    ],
-   "page": "217-218",
    "definition": "Persona che fa ricerche scientifiche.",
    "example": "Galileo era uno scienziato.",
    "related": "E scientist"
@@ -518,7 +484,6 @@
     "erwerben",
     "kaufen"
    ],
-   "page": "217-218",
    "definition": "Comprare.",
    "example": "Acquisto un biglietto."
   },
@@ -528,7 +493,6 @@
    "translations": [
     "reduziert"
    ],
-   "page": "217-218",
    "definition": "Più basso.",
    "example": "Il biglietto ridotto costa meno."
   },
@@ -539,7 +503,6 @@
     "die Ermäßigung",
     "der Rabatt"
    ],
-   "page": "217-218",
    "definition": "Riduzione di prezzo.",
    "example": "C’è uno sconto del dieci per cento.",
    "grammar": {
@@ -558,7 +521,6 @@
    "translations": [
     "der Aufenthalt"
    ],
-   "page": "217-218",
    "definition": "Periodo che si passa in un luogo.",
    "example": "Il soggiorno dura una settimana.",
    "grammar": {
@@ -578,7 +540,6 @@
     "die Periode",
     "der Zeitabschnitt"
    ],
-   "page": "217-218",
    "definition": "Intervallo di tempo.",
    "example": "È un periodo di vacanza.",
    "related": "E period",
@@ -598,7 +559,6 @@
    "translations": [
     "kontaktieren"
    ],
-   "page": "217-218",
    "definition": "Mettersi in comunicazione con qualcuno.",
    "example": "Contatto l’hotel via mail."
   },
@@ -608,7 +568,6 @@
    "translations": [
     "verfügbar"
    ],
-   "page": "217-218",
    "definition": "Libero, che si può avere.",
    "example": "La camera è disponibile."
   },
@@ -618,7 +577,6 @@
    "translations": [
     "das Zimmer"
    ],
-   "page": "217-218",
    "definition": "Parte di un appartamento.",
    "example": "La mia stanza è grande.",
    "grammar": {
@@ -637,7 +595,6 @@
    "translations": [
     "das Flugzeug"
    ],
-   "page": "217-218",
    "definition": "Veicolo che vola.",
    "example": "L’aereo parte alle dieci."
   },
@@ -647,7 +604,6 @@
    "translations": [
     "Miet-"
    ],
-   "page": "217-218",
    "definition": "Che si prende in affitto per un tempo.",
    "example": "Prendo un’auto a noleggio."
   },
@@ -657,7 +613,6 @@
    "translations": [
     "der Shuttlebus"
    ],
-   "page": "217-218",
    "definition": "Piccolo autobus che collega due punti.",
    "example": "La navetta porta all’aeroporto.",
    "grammar": {
@@ -676,7 +631,6 @@
    "translations": [
     "Mit freundlichen Grüßen (Brief)"
    ],
-   "page": "217-218",
    "definition": "Formula finale di una lettera.",
    "example": "Cordialmente, Marco Rossi."
   },
@@ -686,7 +640,6 @@
    "translations": [
     "danken"
    ],
-   "page": "217-218",
    "definition": "Dire grazie.",
    "example": "Ringrazio i miei amici."
   },
@@ -696,7 +649,6 @@
    "translations": [
     "im Voraus"
    ],
-   "page": "217-218",
    "definition": "Prima del tempo previsto.",
    "example": "Arrivo in anticipo."
   }
@@ -704,12 +656,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Unità 5",
-   "section": "Approccio",
-   "pages": "217-218"
+   "unit": "5 · Ieri e oggi",
+   "section": "Per cominciare"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -720,7 +670,7 @@
    "Camping"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

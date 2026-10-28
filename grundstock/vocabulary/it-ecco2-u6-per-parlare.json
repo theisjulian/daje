@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-u6-per-parlare",
- "title": "Ecco più 2 · Unità 6 · Per parlare",
+ "title": "Secondo anno · 6 · Città e creatività · Frasi utili",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Berühmte Persönlichkeiten und Statistik“ aus Ecco più 2 (Unità 6, Per parlare).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), 6 · Città e creatività, Frasi utili.",
  "topics": [
   "Berufe",
   "Kunst",
   "Medien"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Unità 6 · Per parlare",
+ "collection": "Secondo anno",
+ "section": "6 · Città e creatività · Frasi utili",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 227-228 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "der/die Schauspieler/in"
    ],
-   "page": "227-228",
    "definition": "Persona che recita in un film o a teatro.",
    "example": "L’attrice è molto brava."
   },
@@ -44,7 +41,6 @@
    "translations": [
     "der/die Rocksänger/in"
    ],
-   "page": "227-228",
    "definition": "Cantante di musica rock.",
    "example": "Il cantante rock urla sul palco."
   },
@@ -54,7 +50,6 @@
    "translations": [
     "der/die Hip-Hop-Sänger/in"
    ],
-   "page": "227-228",
    "definition": "Cantante di musica hip hop.",
    "example": "Il cantante hip hop fa rap."
   },
@@ -64,7 +59,6 @@
    "translations": [
     "der/die Pop-Sänger/in"
    ],
-   "page": "227-228",
    "definition": "Cantante di musica leggera.",
    "example": "La cantante pop è famosa."
   },
@@ -74,7 +68,6 @@
    "translations": [
     "Opernsänger"
    ],
-   "page": "227-228",
    "definition": "Cantante d’opera.",
    "example": "La cantante lirica ha una voce potente."
   },
@@ -84,7 +77,6 @@
    "translations": [
     "der/die Unternehmer/in"
    ],
-   "page": "227-228",
    "definition": "Persona che gestisce una ditta.",
    "example": "L’imprenditore ha cento dipendenti."
   },
@@ -94,7 +86,6 @@
    "translations": [
     "der/die Gründer/in"
    ],
-   "page": "227-228",
    "definition": "Persona che ha creato qualcosa.",
    "example": "Il fondatore dell’azienda è anziano."
   },
@@ -104,7 +95,6 @@
    "translations": [
     "der Fußballer"
    ],
-   "page": "227-228",
    "definition": "Giocatore di calcio.",
    "example": "Il calciatore segna un gol.",
    "grammar": {
@@ -123,7 +113,6 @@
    "translations": [
     "der Torwart"
    ],
-   "page": "227-228",
    "definition": "Giocatore che difende la porta.",
    "example": "Il portiere para il rigore.",
    "grammar": {
@@ -142,7 +131,6 @@
    "translations": [
     "der/die Künstler/in"
    ],
-   "page": "227-228",
    "definition": "Persona che crea opere d’arte.",
    "example": "L’artista dipinge un quadro.",
    "usage": "m./f."
@@ -153,7 +141,6 @@
    "translations": [
     "der/die Designer/in"
    ],
-   "page": "227-228",
    "definition": "Persona che disegna vestiti.",
    "example": "La stilista presenta la collezione."
   },
@@ -163,7 +150,6 @@
    "translations": [
     "der/die Regisseur/in"
    ],
-   "page": "227-228",
    "definition": "Persona che dirige un film.",
    "example": "Il regista gira un film."
   },
@@ -173,7 +159,6 @@
    "translations": [
     "der/die Musiker/in"
    ],
-   "page": "227-228",
    "definition": "Persona che suona.",
    "example": "La musicista suona il violino."
   },
@@ -183,7 +168,6 @@
    "translations": [
     "der/die Entertainer/in"
    ],
-   "page": "227-228",
    "definition": "Persona che diverte il pubblico.",
    "example": "L’intrattenitore fa ridere tutti."
   },
@@ -193,7 +177,6 @@
    "translations": [
     "der/die Moderator/in"
    ],
-   "page": "227-228",
    "definition": "Persona che guida un dibattito.",
    "example": "La moderatrice presenta gli ospiti."
   },
@@ -203,7 +186,6 @@
    "translations": [
     "der/die Sportler/in"
    ],
-   "page": "227-228",
    "definition": "Persona che pratica sport.",
    "example": "Lo sportivo si allena ogni giorno."
   },
@@ -213,7 +195,6 @@
    "translations": [
     "der/die Wissenschaftler/in"
    ],
-   "page": "227-228",
    "definition": "Persona che fa ricerca scientifica.",
    "example": "La scienziata fa esperimenti."
   },
@@ -223,7 +204,6 @@
    "translations": [
     "gründen"
    ],
-   "page": "227-228",
    "definition": "Creare una città o un’organizzazione.",
    "example": "Romolo fondò Roma.",
    "related": "E to found; F fonder"
@@ -234,7 +214,6 @@
    "translations": [
     "auftreten"
    ],
-   "page": "227-228",
    "definition": "Comparire sul palco.",
    "example": "Il cantante entra in scena."
   },
@@ -244,7 +223,6 @@
    "translations": [
     "spielen (Film)"
    ],
-   "page": "227-228",
    "definition": "Interpretare un personaggio.",
    "example": "Recita in un film."
   },
@@ -254,7 +232,6 @@
    "translations": [
     "ein Konzert geben"
    ],
-   "page": "227-228",
    "definition": "Esibirsi in pubblico con la musica.",
    "example": "Dà un concerto in piazza."
   },
@@ -264,7 +241,6 @@
    "translations": [
     "zeichnen"
    ],
-   "page": "227-228",
    "definition": "Fare un disegno.",
    "example": "Disegno un cavallo.",
    "family": "il disegno",
@@ -276,7 +252,6 @@
    "translations": [
     "entdecken"
    ],
-   "page": "227-228",
    "definition": "Trovare qualcosa di nuovo.",
    "example": "Scopro un nuovo cantante."
   },
@@ -286,7 +261,6 @@
    "translations": [
     "im Fernsehen auftreten"
    ],
-   "page": "227-228",
    "definition": "Comparire in TV.",
    "example": "Appare in televisione ogni sera."
   },
@@ -296,7 +270,6 @@
    "translations": [
     "eine eigene Sendung haben"
    ],
-   "page": "227-228",
    "definition": "Condurre un programma tutto suo.",
    "example": "Ha una propria trasmissione."
   },
@@ -306,7 +279,6 @@
    "translations": [
     "die Mehrheit"
    ],
-   "page": "227-228",
    "definition": "La parte più grande.",
    "example": "La maggioranza vota sì.",
    "grammar": {
@@ -325,7 +297,6 @@
    "translations": [
     "die Minderheit"
    ],
-   "page": "227-228",
    "definition": "La parte più piccola.",
    "example": "Una minoranza dice no.",
    "grammar": {
@@ -344,7 +315,6 @@
    "translations": [
     "die Hälfte"
    ],
-   "page": "227-228",
    "definition": "Una delle due parti uguali.",
    "example": "Metà della classe è assente.",
    "grammar": {
@@ -363,7 +333,6 @@
    "translations": [
     "ein Drittel"
    ],
-   "page": "227-228",
    "definition": "Una parte su tre.",
    "example": "Un terzo della classe è assente."
   },
@@ -373,7 +342,6 @@
    "translations": [
     "die Grafik"
    ],
-   "page": "227-228",
    "definition": "Disegno che mostra dati.",
    "example": "Il grafico mostra i risultati.",
    "grammar": {
@@ -392,7 +360,6 @@
    "translations": [
     "die Umfrage"
    ],
-   "page": "227-228",
    "definition": "Indagine fatta con domande a molte persone.",
    "example": "Il sondaggio è sui giovani.",
    "grammar": {
@@ -411,7 +378,6 @@
    "translations": [
     "das Kreis-(Diagramm)"
    ],
-   "page": "227-228",
    "definition": "Grafico circolare diviso in spicchi.",
    "example": "Il diagramma a torta è chiaro.",
    "acceptedAnswers": [
@@ -433,7 +399,6 @@
    "translations": [
     "die Grafik veranschaulicht, dass …"
    ],
-   "page": "227-228",
    "definition": "Frase per introdurre i dati di un grafico.",
    "example": "Il grafico mostra che molti usano il telefono."
   },
@@ -443,7 +408,6 @@
    "translations": [
     "Fast zwei Drittel glauben, dass …"
    ],
-   "page": "227-228",
    "definition": "Frase con una percentuale approssimata.",
    "example": "Circa due terzi credono che sia giusto."
   },
@@ -453,7 +417,6 @@
    "translations": [
     "Die gefragtesten Berufe sind laut Grafik …"
    ],
-   "page": "227-228",
    "definition": "Frase per descrivere i dati sui lavori.",
    "example": "Le professioni più ricercate sono l’ingegnere e il medico."
   }
@@ -461,12 +424,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Unità 6",
-   "section": "Per parlare",
-   "pages": "227-228"
+   "unit": "6 · Città e creatività",
+   "section": "Frasi utili"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -477,7 +438,7 @@
    "Medien"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

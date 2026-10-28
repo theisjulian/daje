@@ -14,7 +14,7 @@
  "sources": [
   {
    "kind": "own",
-   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+   "citation": "Eigene Übung (daje), Primo anno, 4 · Tempo libero · Parte B.",
    "rights": "own"
   }
  ],
@@ -22,11 +22,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Unità 4",
-   "section": "B"
+   "unit": "4 · Tempo libero",
+   "section": "Parte B"
   },
   "grade": 8,
   "foreignLanguageNo": 3,

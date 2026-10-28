@@ -3,27 +3,25 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco1-aa-arbeitsauftraege",
- "title": "Ecco più 1 · Arbeitsaufträge",
+ "title": "Primo anno · Extra · In classe · Le consegne",
  "language": "it",
  "translationLanguage": "de",
  "level": "A1",
- "description": "Wortschatz zu „Hinweise zu den Arbeitsaufträgen“ aus Ecco più 1 (Anhang A, Arbeitsaufträge).",
+ "description": "Wortschatz Primo anno (1. Lernjahr), Extra · In classe, Le consegne.",
  "topics": [
   "Arbeitsaufträge",
   "Unterricht"
  ],
- "collection": "Ecco più 1 (Cornelsen)",
- "section": "Anhang A · Arbeitsaufträge",
+ "collection": "Primo anno",
+ "section": "Extra · In classe · Le consegne",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 162-163 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Primo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -33,7 +31,6 @@
    "translations": [
     "Verbinde die (Wörter/Sätze) mit den (Bildern)."
    ],
-   "page": "162-163",
    "definition": "Consegna di un esercizio: collega le parole alle immagini.",
    "acceptedAnswers": [
     "Abbina alle vignette."
@@ -45,7 +42,6 @@
    "translations": [
     "Ergänze die richtige/passende Form von …"
    ],
-   "page": "162-163",
    "definition": "Consegna: completa con la forma giusta."
   },
   {
@@ -54,7 +50,6 @@
    "translations": [
     "Ergänze die fehlenden Formen."
    ],
-   "page": "162-163",
    "definition": "Consegna: completa le parti mancanti."
   },
   {
@@ -63,7 +58,6 @@
    "translations": [
     "Höre zu …"
    ],
-   "page": "162-163",
    "definition": "Consegna: fai attenzione ai suoni."
   },
   {
@@ -72,7 +66,6 @@
    "translations": [
     "Suche die Formen im Text."
    ],
-   "page": "162-163",
    "definition": "Consegna: trova le forme nel testo."
   },
   {
@@ -81,7 +74,6 @@
    "translations": [
     "Was steht im Text?"
    ],
-   "page": "162-163",
    "definition": "Domanda per sapere il contenuto."
   },
   {
@@ -90,7 +82,6 @@
    "translations": [
     "Frage (deine/n Mitschüler/in)."
    ],
-   "page": "162-163",
    "definition": "Consegna: fai una domanda a un compagno.",
    "acceptedAnswers": [
     "Chiedi."
@@ -102,7 +93,6 @@
    "translations": [
     "Fragt euch abwechselnd/gegenseitig."
    ],
-   "page": "162-163",
    "definition": "Consegna: fate domande l’uno all’altro."
   },
   {
@@ -111,7 +101,6 @@
    "translations": [
     "Vervollständige den Dialog / die Tabelle / die Sätze mit …"
    ],
-   "page": "162-163",
    "definition": "Consegna: scrivi le parti mancanti."
   },
   {
@@ -120,7 +109,6 @@
    "translations": [
     "Setze die Sätze richtig fort."
    ],
-   "page": "162-163",
    "definition": "Consegna: finisci le frasi."
   },
   {
@@ -129,7 +117,6 @@
    "translations": [
     "Kopiere (die Liste) in dein Arbeitsheft."
    ],
-   "page": "162-163",
    "definition": "Consegna: riscrivi la lista sul quaderno.",
    "acceptedAnswers": [
     "Copia nel tuo quaderno."
@@ -141,7 +128,6 @@
    "translations": [
     "Korrigiere die Sätze. / den Fehler."
    ],
-   "page": "162-163",
    "definition": "Consegna: sistema gli sbagli."
   },
   {
@@ -150,7 +136,6 @@
    "translations": [
     "Erstellt (einen Dialog)."
    ],
-   "page": "162-163",
    "definition": "Consegna: inventate e scrivete un dialogo.",
    "acceptedAnswers": [
     "Create."
@@ -162,7 +147,6 @@
    "translations": [
     "Entscheide, welche Form passt."
    ],
-   "page": "162-163",
    "definition": "Consegna: scegli quella giusta."
   },
   {
@@ -171,7 +155,6 @@
    "translations": [
     "Beschreibe (den Unterschied zwischen … und …)."
    ],
-   "page": "162-163",
    "definition": "Consegna: spiega come sono diverse.",
    "acceptedAnswers": [
     "Descrivi."
@@ -183,7 +166,6 @@
    "translations": [
     "Erstelle eine Liste."
    ],
-   "page": "162-163",
    "definition": "Consegna: scrivi un elenco."
   },
   {
@@ -192,7 +174,6 @@
    "translations": [
     "Erstelle ein Wortfeld zum Thema …"
    ],
-   "page": "162-163",
    "definition": "Consegna: raccogli parole su un tema."
   },
   {
@@ -201,7 +182,6 @@
    "translations": [
     "Bilde richtige Sätze."
    ],
-   "page": "162-163",
    "definition": "Consegna: costruisci frasi giuste."
   },
   {
@@ -210,7 +190,6 @@
    "translations": [
     "Sieh dir den Text / das Bild / das Foto an."
    ],
-   "page": "162-163",
    "definition": "Consegna: osserva con attenzione."
   },
   {
@@ -219,7 +198,6 @@
    "translations": [
     "Gib die Zeile an."
    ],
-   "page": "162-163",
    "definition": "Consegna: dì in quale riga si trova."
   },
   {
@@ -228,7 +206,6 @@
    "translations": [
     "Lies den Text auf S. xx."
    ],
-   "page": "162-163",
    "definition": "Consegna: leggi la pagina indicata."
   },
   {
@@ -237,7 +214,6 @@
    "translations": [
     "Setze die Verben in (den Singular / das Perfekt)."
    ],
-   "page": "162-163",
    "definition": "Consegna: cambia la forma dei verbi.",
    "acceptedAnswers": [
     "Metti i verbi."
@@ -249,7 +225,6 @@
    "translations": [
     "Setze die richtige Form des Verbs ein."
    ],
-   "page": "162-163",
    "definition": "Consegna: scegli la forma corretta."
   },
   {
@@ -259,7 +234,6 @@
     "Ordne (die Sätze).",
     "Bringe (die Sätze) in die richtige Reihenfolge."
    ],
-   "page": "162-163",
    "definition": "Consegna: metti in sequenza corretta.",
    "acceptedAnswers": [
     "Metti nell’ordine giusto."
@@ -271,7 +245,6 @@
    "translations": [
     "Sprich über …"
    ],
-   "page": "162-163",
    "definition": "Consegna: racconta a voce."
   },
   {
@@ -280,7 +253,6 @@
    "translations": [
     "Präsentiere die Ergebnisse in der Klasse."
    ],
-   "page": "162-163",
    "definition": "Consegna: mostra il lavoro alla classe."
   },
   {
@@ -289,7 +261,6 @@
    "translations": [
     "Erzähl über …"
    ],
-   "page": "162-163",
    "definition": "Consegna: racconta a voce."
   },
   {
@@ -299,7 +270,6 @@
     "Wiederhole.",
     "Sprich nach."
    ],
-   "page": "162-163",
    "definition": "Consegna: dì di nuovo."
   },
   {
@@ -308,7 +278,6 @@
    "translations": [
     "Beantworte die Fragen."
    ],
-   "page": "162-163",
    "definition": "Consegna: dai le risposte."
   },
   {
@@ -317,7 +286,6 @@
    "translations": [
     "Wähle die richtige Zusammenfassung aus."
    ],
-   "page": "162-163",
    "definition": "Consegna: scegli quello giusto."
   },
   {
@@ -326,7 +294,6 @@
    "translations": [
     "Schreibe …"
    ],
-   "page": "162-163",
    "definition": "Consegna: metti per iscritto."
   },
   {
@@ -335,7 +302,6 @@
    "translations": [
     "Begründe."
    ],
-   "page": "162-163",
    "definition": "Consegna: dai una ragione."
   },
   {
@@ -344,7 +310,6 @@
    "translations": [
     "Finde die Wortpaare."
    ],
-   "page": "162-163",
    "definition": "Consegna: collega le parole che vanno insieme."
   },
   {
@@ -353,19 +318,16 @@
    "translations": [
     "Benutze die Ausdrücke aus dem Text."
    ],
-   "page": "162-163",
    "definition": "Consegna: usa le frasi che hai letto."
   }
  ],
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Anhang A",
-   "section": "Arbeitsaufträge",
-   "pages": "162-163"
+   "unit": "Extra · In classe",
+   "section": "Le consegne"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -375,7 +337,7 @@
    "Unterricht"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

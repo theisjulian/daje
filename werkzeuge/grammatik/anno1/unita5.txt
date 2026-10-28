@@ -1,7 +1,7 @@
-#!buch series=Ecco_più volume=1 grade=8 cefr=A1 prefix=ecco1 publisher=Cornelsen
-## Ecco più 1 · Unità 5 „La mia famiglia“ · Grammatikthemen laut Inhaltsverzeichnis (S. 72–87). Datum: auch im Trainer.
+#!buch series=Corso_daje volume=1 grade=8 cefr=A1 prefix=ecco1
+## Primo anno · Lektion 5 · Famiglia e gite · Grammatikthemen (Lehrplan Jgst. 8)
 
-@thema data | Unità 5 | Approccio | Das Datum | 1
+@thema data | 5 · Famiglia e gite | Per cominciare | Das Datum | 1
 #regel
 - _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._
 - Der erste Tag des Monats: **il primo** (aprile).
@@ -29,7 +29,7 @@ Natale è (25.12.) [il venticinque dicembre].
 Il mio compleanno è il dodici luglio. Il compleanno di mia madre è il primo marzo. Mio padre festeggia l'otto settembre.
 Zeilen: 4
 
-@thema possessivi-2 | Unità 5 | A | Possessivbegleiter bei Verwandten | 2
+@thema possessivi-2 | 5 · Famiglia e gite | Parte A | Possessivbegleiter bei Verwandten | 2
 #regel
 Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._
 **Mit Artikel** steht der Possessivbegleiter
@@ -69,7 +69,7 @@ Giulia presenta (ihre) [la sua] famiglia.
 La mia famiglia non è grande. Mia madre si chiama Sabine e mio padre Thomas. Ho un fratello. Mio fratello ha dieci anni. I miei nonni abitano a Monaco.
 Zeilen: 6
 
-@thema che-relativo | Unità 5 | A | Das Relativpronomen che | 3
+@thema che-relativo | 5 · Famiglia e gite | Parte A | Das Relativpronomen che | 3
 #regel
 **che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):
 - _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._
@@ -96,7 +96,7 @@ Ho un amico. L'amico abita a Milano. → Ho un amico … | che abita a Milano
 Ho un fratello che ama il calcio. Mia nonna è una donna che racconta storie bellissime. Ho un'amica che parla italiano.
 Zeilen: 4
 
-@thema pp-modali | Unità 5 | B | Das passato prossimo der Modalverben | 4
+@thema pp-modali | 5 · Famiglia e gite | Parte B | Das passato prossimo der Modalverben | 4
 #regel
 Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:
 - _Ho dovuto **studiare**._ (studiare → avere)
@@ -126,7 +126,7 @@ Non [sono=>ho] potuto fare i compiti.
 Marta [ha=>è] dovuta andare dal medico.
 I ragazzi hanno [voluti=>voluto] giocare.
 
-@thema imperativo-noi | Unità 5 | B | Der Imperativ der 1. Person Plural | 5
+@thema imperativo-noi | 5 · Famiglia e gite | Parte B | Der Imperativ der 1. Person Plural | 5
 #regel
 Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens:
 - _**Andiamo** al cinema!_ · _**Prendiamo** l'autobus!_ · _**Facciamo** una pausa!_
@@ -151,7 +151,7 @@ Non (aspettare) [aspettiamo] l'autobus, (camminare) [camminiamo]!
 Andiamo in montagna! Prendiamo il treno alle otto. Facciamo una gita in bici. Mangiamo in un ristorante. Non torniamo troppo tardi!
 Zeilen: 5
 
-@thema quantita | Unità 5 | B | Mengenangaben: molto, poco, tanto, troppo | 6
+@thema quantita | 5 · Famiglia e gite | Parte B | Mengenangaben: molto, poco, tanto, troppo | 6
 #regel
 **Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**:
 _Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._

@@ -14,7 +14,7 @@
  "sources": [
   {
    "kind": "own",
-   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · Approccio.",
+   "citation": "Eigene Übung (daje), Primo anno, 1 · La città · Per cominciare.",
    "rights": "own"
   }
  ],
@@ -22,11 +22,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Unità 1",
-   "section": "Approccio"
+   "unit": "1 · La città",
+   "section": "Per cominciare"
   },
   "grade": 8,
   "foreignLanguageNo": 3,

@@ -3,27 +3,25 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-aa-giorni",
- "title": "Ecco più 2 · I giorni della settimana",
+ "title": "Secondo anno · Extra · Numeri e calendario · I giorni della settimana",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Die Wochentage“ aus Ecco più 2 (Anhang A, I giorni della settimana).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), Extra · Numeri e calendario, I giorni della settimana.",
  "topics": [
   "Wochentage",
   "Zeit"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Anhang A · I giorni della settimana",
+ "collection": "Secondo anno",
+ "section": "Extra · Numeri e calendario · I giorni della settimana",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 184 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -33,7 +31,6 @@
    "translations": [
     "der Montag, montags"
    ],
-   "page": "184",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -50,7 +47,6 @@
    "translations": [
     "der Dienstag, dienstags"
    ],
-   "page": "184",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -67,7 +63,6 @@
    "translations": [
     "der Mittwoch, mittwochs"
    ],
-   "page": "184",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -84,7 +79,6 @@
    "translations": [
     "der Donnerstag, donnerstags"
    ],
-   "page": "184",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -101,7 +95,6 @@
    "translations": [
     "der Freitag, freitags"
    ],
-   "page": "184",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -118,7 +111,6 @@
    "translations": [
     "der Samstag/Sonnabend, samstags"
    ],
-   "page": "184",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -135,7 +127,6 @@
    "translations": [
     "der Sonntag, sonntags"
    ],
-   "page": "184",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -150,12 +141,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Anhang A",
-   "section": "I giorni della settimana",
-   "pages": "184"
+   "unit": "Extra · Numeri e calendario",
+   "section": "I giorni della settimana"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -165,7 +154,7 @@
    "Zeit"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

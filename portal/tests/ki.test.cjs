@@ -45,7 +45,7 @@ console.log('KI-Import: Antwort lesen, Paket ergänzen, Belege prüfen passed.')
   assert.equal(v.collection, 'Oberstufe');
   assert.ok(!('evidence' in v.entries[0]));
   // Buchseiten: Lehrwerk und Seiten in Quelle und Katalog, Nutzung im Unterricht erlaubt
-  const b = KI.buildVocabulary(ai, { language: 'it', level: 'A2', mode: 'buch', collection: 'Ecco più 2', section: 'Unità 3 · 3a', pages: '170-171' }, validatePackage);
+  const b = KI.buildVocabulary(ai, { language: 'it', level: 'A2', mode: 'buch', collection: 'Corso daje 2', section: 'Unità 3 · 3a', pages: '170-171' }, validatePackage);
   assert.ok(b.result.ok, JSON.stringify(b.result.errors));
   assert.equal(b.result.value.sources[0].rights, 'cleared');
   assert.equal(b.result.value.catalog.textbook.pages, '170-171');
@@ -57,13 +57,13 @@ console.log('KI-Import: Antwort lesen, Paket ergänzen, Belege prüfen passed.')
       { target: 'lo spettatore', translations: ['der/die Zuschauer/in'], say: '' },
       { target: 'grazie a qc', translations: ['dank etw.'], say: 'grazie a qualcosa' }
     ] },
-    { language: 'it', level: 'B1', mode: 'buch', collection: 'Ecco 3 più', unit: 'Unità 1', pages: '166-170', publisher: 'Cornelsen' },
+    { language: 'it', level: 'B1', mode: 'buch', collection: 'Corso 3 daje', unit: 'Unità 1', pages: '166-170', publisher: 'Verlag X' },
     validatePackage
   );
   assert.ok(e3.result.ok, JSON.stringify(e3.result.errors));
   const v3 = e3.result.value;
-  assert.deepEqual(v3.catalog.textbook, { publisher: 'Cornelsen', series: 'Ecco più', volume: '3', unit: 'Unità 1', pages: '166-170' });
-  assert.equal(v3.title, 'Ecco più 3 · Unità 1');
+  assert.deepEqual(v3.catalog.textbook, { publisher: 'Verlag X', series: 'Corso daje', volume: '3', unit: 'Unità 1', pages: '166-170' });
+  assert.equal(v3.title, 'Corso daje 3 · Unità 1');
   assert.deepEqual(v3.entries[0].translations, ['der/die Intellektuelle']);
   assert.deepEqual(v3.entries[1].translations, ['der/die Zuschauer/in']);
   assert.ok(!('say' in v3.entries[0]), 'kopiertes Muster entfernt');
@@ -93,7 +93,7 @@ console.log('KI-Import: Antwort lesen, Paket ergänzen, Belege prüfen passed.')
     reviewNotes: ['Übung 5 weggelassen']
   };
   let n = 0;
-  const inp = { language: 'it', level: 'A1', mode: 'eigen', series: 'Ecco più', volume: '1', publisher: 'Cornelsen', unit: 'Unità 1', pages: '20', grade: '8', id: () => 'eigen-test-' + ++n };
+  const inp = { language: 'it', level: 'A1', mode: 'eigen', series: 'Corso daje', volume: '1', publisher: 'Verlag X', unit: 'Unità 1', pages: '20', grade: '8', id: () => 'eigen-test-' + ++n };
   const r = KI.buildGrammar(ai, inp, validatePackage);
   assert.equal(r.pkgs.length, 2);
   assert.ok(r.pkgs.every(p => p.result.ok), JSON.stringify(r.warnings));

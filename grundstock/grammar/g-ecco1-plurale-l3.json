@@ -14,7 +14,7 @@
  "sources": [
   {
    "kind": "own",
-   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+   "citation": "Eigene Übung (daje), Primo anno, 1 · La città · Parte B.",
    "rights": "own"
   }
  ],
@@ -22,11 +22,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Unità 1",
-   "section": "B"
+   "unit": "1 · La città",
+   "section": "Parte B"
   },
   "grade": 8,
   "foreignLanguageNo": 3,

@@ -1,6 +1,6 @@
 'use strict';
 /*
- * Grammatik: Übersicht nach Lehrwerk (Ecco più 1–3) → Unità → Thema; Themenseite mit Merkkasten und
+ * Grammatik: Übersicht nach Lernjahr (Primo, Secondo, Terzo anno) → Lektion → Thema; Themenseite mit Merkkasten und
  * Übungen in den Stufen einfach, mittel, schwer. Die Übungen selbst sind Pakete (kind „grammar“) und
  * laufen über dieselbe Aufgabenansicht wie die Hörübungen (renderListening), nur ohne Player.
  * Dazu die Trainer: Verben (verbs.js) und Zahlen, Uhrzeit, Datum (zahlen.js).
@@ -32,17 +32,13 @@ function grGo(topic) {
   }
 }
 
-const GR_UNITS = {
-  'Ecco più 1': { 'Ciao!': 'Ciao!', 'Unità 1': 'Benvenuti a Torino', 'Unità 2': 'Il mio mondo', 'Unità 3': 'A scuola', 'Unità 4': 'Il tempo libero', 'Unità 5': 'La mia famiglia', 'Unità 6': '', 'Unità 7': '' },
-  'Ecco più 3': { 'Unità 1': 'Tradizione – benedizione o maledizione?', 'Unità 2': 'Ampliare gli orizzonti', 'Unità 3': 'Le sfide alla società', 'Unità 4': 'Tra Nord e Sud' }
-};
 const GR_LEVELS = [['leicht', 'einfach'], ['mittel', 'mittel'], ['schwer', 'schwer']];
 const grBand = x => {
   const t = x.catalog?.textbook || {};
-  return /ecco/i.test(t.series || '') ? Number(t.volume) || 0 : 0;
+  return isCourseSeries(t.series) ? Number(t.volume) || 0 : 0;
 };
 const grUnitKey = x => x.catalog?.textbook?.unit || 'Weitere Themen';
-const grUnitNo = u => (/^ciao/i.test(u) ? 0 : Number((u.match(/\d+/) || [99])[0]));
+const grUnitNo = u => (/^extra/i.test(u) ? 100 + (Number((u.match(/\d+/) || [0])[0]) || 0) : /^ciao/i.test(u) ? 0 : Number((u.match(/\d+/) || [99])[0]));
 
 /* Themen aus allen Grammatikpaketen: { id, title, band, unit, section, order, rule, items: [Pakete] } */
 function grTopics() {
@@ -65,7 +61,7 @@ const grBar = (n, d) => `<div class="lcard-progress" aria-hidden="true"><i style
 
 function grTrainers() {
   return `<section class="gr-trainers">
-    <button class="gr-trainer" data-nav="verben">${icon('verben')}<span><b>Verben</b><small>Alle Zeiten, gestaffelt nach Band</small></span></button>
+    <button class="gr-trainer" data-nav="verben">${icon('verben')}<span><b>Verben</b><small>Alle Zeiten, gestaffelt nach Lernjahr</small></span></button>
     <button class="gr-trainer" data-nav="zahlen">${icon('zahlen')}<span><b>Zahlen, Uhrzeit, Datum</b><small>Hören, lesen, schreiben</small></span></button>
   </section>`;
 }
@@ -89,15 +85,14 @@ function grOverview() {
     const done = grDone(items);
     return `<button class="gr-topic" data-gr-topic="${esc(t.id)}"><span class="gr-sec">${esc(t.section || t.unit)}</span><b>${esc(t.title)}</b><span class="gr-counts">${counts.map(([l, n, k]) => `<span class="gr-level gr-${k}">${l} ${n}</span>`).join('')}</span>${grBar(items.length, done)}<span class="gr-state">${done} von ${items.length} geübt</span></button>`;
   };
-  const bandSeg = `<div class="ws-seg gr-band" role="tablist" aria-label="Lehrwerk">${[1, 2, 3, 0].filter(b => bands.includes(b) || b === 1).map(b => `<button role="tab" aria-selected="${GR_STATE.band === b}" data-gr-band="${b}">${b ? 'Ecco più ' + b : 'Weitere'}</button>`).join('')}</div>`;
+  const bandSeg = `<div class="ws-seg gr-band" role="tablist" aria-label="Lernjahr">${[1, 2, 3, 0].filter(b => bands.includes(b) || b === 1).map(b => `<button role="tab" aria-selected="${GR_STATE.band === b}" data-gr-band="${b}">${b ? ANNO_NAMES[b] : 'Weitere'}</button>`).join('')}</div>`;
   const lvlChips = `<div class="chip-row gr-filter" role="group" aria-label="Stufe">${[['alle', 'Alle Stufen'], ...GR_LEVELS].map(([k, l]) => `<button class="chip" data-gr-level="${k}" aria-pressed="${lvl === k}">${l}</button>`).join('')}</div>`;
   const body = units.length
     ? units
         .map(u => {
           const cards = u.topics.map(card).join('');
           if (!cards) return '';
-          const title = (GR_UNITS[u.series] || {})[u.key];
-          return `<section class="gr-unit">${sectionHead('', u.key + (title ? ' · ' + title : ''))}<div class="gr-topics">${cards}</div></section>`;
+          return `<section class="gr-unit">${sectionHead('', u.key)}<div class="gr-topics">${cards}</div></section>`;
         })
         .join('') || '<p class="muted">In dieser Stufe gibt es hier noch keine Übungen.</p>'
     : `<p class="muted">${GR_STATE.band === 2 || GR_STATE.band === 3 ? 'Für diesen Band kommen die Grammatikübungen als Nächstes. Verben und Zahlen kannst du schon üben.' : 'Noch keine Übungen.'}</p>`;
@@ -125,10 +120,9 @@ function grTopicPage() {
     const items = t.items.filter(x => x.grammar.difficulty === k);
     return items.length ? `<section class="gr-lvl"><h2><span class="gr-level gr-${k}">${l}</span></h2><ol class="gr-list">${items.map(row).join('')}</ol></section>` : '';
   }).join('');
-  const title = (GR_UNITS[t.series] || {})[t.unit];
   $('main').innerHTML = `<div class="page gr-page">
     <button class="quiet back-link" data-gr-home>Grammatik</button>
-    <header class="page-head"><div class="eyebrow">${esc([t.series && t.band ? t.series : '', t.unit + (title ? ' · ' + title : ''), t.section].filter(Boolean).join(' · '))}</div><h1>${esc(t.title)}</h1></header>
+    <header class="page-head"><div class="eyebrow">${esc([t.band ? ANNO_NAMES[t.band] : t.series, t.unit, t.section].filter(Boolean).join(' · '))}</div><h1>${esc(t.title)}</h1></header>
     ${t.rule ? `<section class="rule-card is-page"><div class="eyebrow">Merkkasten</div><div class="rule-body">${ruleHTML(t.rule, t.lang)}</div></section>` : ''}
     ${levels}
   </div>`;

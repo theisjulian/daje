@@ -3,27 +3,25 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-aa-numeri-21-102",
- "title": "Ecco più 2 · I numeri 21–102",
+ "title": "Secondo anno · Extra · Numeri e calendario · I numeri 21–102",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Zahlen von 21 bis 102“ aus Ecco più 2 (Anhang A, I numeri 21–102).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), Extra · Numeri e calendario, I numeri 21–102.",
  "topics": [
   "Zahlen",
   "Grundzahlen"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Anhang A · I numeri 21–102",
+ "collection": "Secondo anno",
+ "section": "Extra · Numeri e calendario · I numeri 21–102",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 183 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -33,7 +31,6 @@
    "translations": [
     "einundzwanzig"
    ],
-   "page": "183",
    "usage": "21"
   },
   {
@@ -42,7 +39,6 @@
    "translations": [
     "zweiundzwanzig"
    ],
-   "page": "183",
    "usage": "22"
   },
   {
@@ -51,7 +47,6 @@
    "translations": [
     "dreiundzwanzig"
    ],
-   "page": "183",
    "usage": "23"
   },
   {
@@ -60,7 +55,6 @@
    "translations": [
     "vierundzwanzig"
    ],
-   "page": "183",
    "usage": "24"
   },
   {
@@ -69,7 +63,6 @@
    "translations": [
     "fünfundzwanzig"
    ],
-   "page": "183",
    "usage": "25"
   },
   {
@@ -78,7 +71,6 @@
    "translations": [
     "sechsundzwanzig"
    ],
-   "page": "183",
    "usage": "26"
   },
   {
@@ -87,7 +79,6 @@
    "translations": [
     "siebenundzwanzig"
    ],
-   "page": "183",
    "usage": "27"
   },
   {
@@ -96,7 +87,6 @@
    "translations": [
     "achtundzwanzig"
    ],
-   "page": "183",
    "usage": "28"
   },
   {
@@ -105,7 +95,6 @@
    "translations": [
     "neunundzwanzig"
    ],
-   "page": "183",
    "usage": "29"
   },
   {
@@ -114,7 +103,6 @@
    "translations": [
     "dreißig"
    ],
-   "page": "183",
    "usage": "30"
   },
   {
@@ -123,7 +111,6 @@
    "translations": [
     "einunddreißig"
    ],
-   "page": "183",
    "usage": "31"
   },
   {
@@ -132,7 +119,6 @@
    "translations": [
     "zweiunddreißig"
    ],
-   "page": "183",
    "usage": "32"
   },
   {
@@ -141,7 +127,6 @@
    "translations": [
     "dreiunddreißig"
    ],
-   "page": "183",
    "usage": "33"
   },
   {
@@ -150,7 +135,6 @@
    "translations": [
     "vierzig"
    ],
-   "page": "183",
    "usage": "40"
   },
   {
@@ -159,7 +143,6 @@
    "translations": [
     "fünfzig"
    ],
-   "page": "183",
    "usage": "50"
   },
   {
@@ -168,7 +151,6 @@
    "translations": [
     "sechzig"
    ],
-   "page": "183",
    "usage": "60"
   },
   {
@@ -177,7 +159,6 @@
    "translations": [
     "siebzig"
    ],
-   "page": "183",
    "usage": "70"
   },
   {
@@ -186,7 +167,6 @@
    "translations": [
     "achtzig"
    ],
-   "page": "183",
    "usage": "80"
   },
   {
@@ -195,7 +175,6 @@
    "translations": [
     "neunzig"
    ],
-   "page": "183",
    "usage": "90"
   },
   {
@@ -204,7 +183,6 @@
    "translations": [
     "hundert"
    ],
-   "page": "183",
    "usage": "100"
   },
   {
@@ -213,7 +191,6 @@
    "translations": [
     "hunderteins"
    ],
-   "page": "183",
    "acceptedAnswers": [
     "centuno"
    ],
@@ -225,19 +202,16 @@
    "translations": [
     "hundertzwei"
    ],
-   "page": "183",
    "usage": "102"
   }
  ],
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Anhang A",
-   "section": "I numeri 21–102",
-   "pages": "183"
+   "unit": "Extra · Numeri e calendario",
+   "section": "I numeri 21–102"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -247,7 +221,7 @@
    "Grundzahlen"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

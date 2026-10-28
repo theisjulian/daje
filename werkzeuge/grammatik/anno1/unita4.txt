@@ -1,7 +1,7 @@
-#!buch series=Ecco_più volume=1 grade=8 cefr=A1 prefix=ecco1 publisher=Cornelsen
-## Ecco più 1 · Unità 4 „Il tempo libero“ · Grammatikthemen laut Inhaltsverzeichnis (S. 58–71)
+#!buch series=Corso_daje volume=1 grade=8 cefr=A1 prefix=ecco1
+## Primo anno · Lektion 4 · Tempo libero · Grammatikthemen (Lehrplan Jgst. 8)
 
-@thema quando-perche | Unità 4 | Approccio | Nebensätze mit quando und perché | 1
+@thema quando-perche | 4 · Tempo libero | Per cominciare | Nebensätze mit quando und perché | 1
 #regel
 - **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._
 - **perché** = weil: _Vado in montagna **perché** mi piace sciare._
@@ -33,7 +33,7 @@ Perché resti a casa? – Perché devo studiare.
 Perché vai in montagna? – Perché amo la neve.
 Zeilen: 3
 
-@thema modali | Unità 4 | A | venire, sapere und die Modalverben | 2
+@thema modali | 4 · Tempo libero | Parte A | venire, sapere und die Modalverben | 2
 #regel
 | | io | tu | lui / lei | noi | voi | loro |
 | volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |
@@ -87,7 +87,7 @@ Noi [dovemo=>dobbiamo] fare i compiti.
 Loro [venono=>vengono] alle otto.
 Mia madre [puo=>può] aiutarti.
 
-@thema passato-prossimo-avere | Unità 4 | A | Das passato prossimo mit avere | 3
+@thema passato-prossimo-avere | 4 · Tempo libero | Parte A | Das passato prossimo mit avere | 3
 #regel
 Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):
 **avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._
@@ -143,7 +143,7 @@ Sabato scorso Anna {ha cantato*|canta} al concerto.
 Sabato ho dormito fino alle dieci. Poi ho giocato a calcio. Ho mangiato una pizza con i miei amici. Domenica ho studiato. La sera ho guardato un film.
 Zeilen: 5
 
-@thema passato-prossimo-essere | Unità 4 | B | Das passato prossimo mit essere, unregelmäßige Partizipien | 4
+@thema passato-prossimo-essere | 4 · Tempo libero | Parte B | Das passato prossimo mit essere, unregelmäßige Partizipien | 4
 #regel
 Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:
 _andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_
@@ -209,7 +209,7 @@ Abbiamo [vedito=>visto] un bel film.
 Sabato sono andata in montagna con mia sorella. Siamo partite alle sette. Abbiamo preso il treno. Ho sciato tutto il giorno e sono caduta due volte! Siamo tornate a casa la sera.
 Zeilen: 6
 
-@thema gia-ancora | Unità 4 | B | già und (non …) ancora | 5
+@thema gia-ancora | 4 · Tempo libero | Parte B | già und (non …) ancora | 5
 #regel
 Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:
 - _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)

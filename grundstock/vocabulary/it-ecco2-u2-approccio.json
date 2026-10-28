@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-u2-approccio",
- "title": "Ecco più 2 · Unità 2 · Approccio",
+ "title": "Secondo anno · 2 · Vita online · Per cominciare",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „I giovani oggi – Media e impegno sociale“ aus Ecco più 2 (Unità 2, Approccio).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), 2 · Vita online, Per cominciare.",
  "topics": [
   "Medien",
   "Jugend",
   "Kommunikation"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Unità 2 · Approccio",
+ "collection": "Secondo anno",
+ "section": "2 · Vita online · Per cominciare",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 203 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "das Mittel"
    ],
-   "page": "203",
    "definition": "Strumento per fare qualcosa.",
    "example": "Il treno è un mezzo di trasporto.",
    "grammar": {
@@ -53,7 +50,6 @@
    "translations": [
     "die Kommunikation"
    ],
-   "page": "203",
    "definition": "Scambio di informazioni.",
    "example": "La comunicazione è importante.",
    "family": "comunicare",
@@ -73,7 +69,6 @@
    "translations": [
     "die Zeitung"
    ],
-   "page": "203",
    "definition": "Pubblicazione quotidiana con le notizie.",
    "example": "Mio padre legge il giornale.",
    "related": "F le journal",
@@ -93,7 +88,6 @@
    "translations": [
     "das Radio"
    ],
-   "page": "203",
    "definition": "Mezzo che trasmette suoni e musica.",
    "example": "Ascolto la radio in macchina.",
    "grammar": {
@@ -113,7 +107,6 @@
     "die Übertragung",
     "die Sendung (Fernsehen)"
    ],
-   "page": "203",
    "definition": "Programma che va in onda.",
    "example": "Guardo una trasmissione sugli animali.",
    "related": "E transmission",
@@ -133,7 +126,6 @@
    "translations": [
     "die Talentshow"
    ],
-   "page": "203",
    "definition": "Programma televisivo in cui si cercano nuovi artisti.",
    "example": "Guardo un talent show di canto.",
    "grammar": {
@@ -152,7 +144,6 @@
    "translations": [
     "die Seifenoper"
    ],
-   "page": "203",
    "definition": "Serie TV con storie d’amore e drammi.",
    "example": "Mia nonna guarda una soap opera.",
    "grammar": {
@@ -171,7 +162,6 @@
    "translations": [
     "selten"
    ],
-   "page": "203",
    "definition": "Molto poche volte.",
    "example": "Raramente guardo la TV.",
    "related": "F rarement",
@@ -184,7 +174,6 @@
     "der Dokumentarfilm",
     "die Dokumentation"
    ],
-   "page": "203",
    "definition": "Film che parla di fatti veri.",
    "example": "Guardo un documentario sull’Antartide.",
    "related": "E documentary",
@@ -205,7 +194,6 @@
    "translations": [
     "die (Fernseh-)Nachrichten"
    ],
-   "page": "203",
    "definition": "Programma TV con le notizie.",
    "example": "Il telegiornale comincia alle otto.",
    "grammar": {
@@ -224,7 +212,6 @@
    "translations": [
     "nie(mals)"
    ],
-   "page": "203",
    "definition": "In nessun momento.",
    "example": "Non guardo mai la TV al mattino."
   },
@@ -235,7 +222,6 @@
     "der Titel",
     "die Überschrift"
    ],
-   "page": "203",
    "definition": "Nome di un libro, di un film o di un articolo.",
    "example": "Qual è il titolo del film?",
    "grammar": {
@@ -255,7 +241,6 @@
     "vergleichen",
     "gegenüberstellen"
    ],
-   "page": "203",
    "definition": "Guardare due cose per vedere le differenze.",
    "example": "Confrontiamo i nostri risultati.",
    "related": "E to confront"
@@ -266,7 +251,6 @@
    "translations": [
     "der/die Klassenkamerad/in"
    ],
-   "page": "203",
    "definition": "Persona della stessa classe.",
    "example": "Il mio compagno di classe si chiama Luca.",
    "acceptedAnswers": [
@@ -281,7 +265,6 @@
     "nützen",
     "brauchen"
    ],
-   "page": "203",
    "definition": "Essere utile a qualcosa.",
    "example": "Il computer serve per lavorare.",
    "related": "F servir à qqn; L servire",
@@ -296,7 +279,6 @@
     "bearbeiten",
     "retuschieren"
    ],
-   "page": "203",
    "definition": "Migliorare una foto con un programma.",
    "example": "Ritocco la foto con il telefono."
   },
@@ -306,7 +288,6 @@
    "translations": [
     "der Bildschirm"
    ],
-   "page": "203",
    "definition": "Superficie su cui si vedono le immagini.",
    "example": "Lo schermo del telefono è rotto.",
    "grammar": {
@@ -325,7 +306,6 @@
    "translations": [
     "niemand"
    ],
-   "page": "203",
    "definition": "Non una persona.",
    "example": "Nessuno risponde al telefono."
   },
@@ -336,7 +316,6 @@
     "die Recherche",
     "die Suche"
    ],
-   "page": "203",
    "definition": "Attività per trovare informazioni.",
    "example": "Faccio una ricerca su internet.",
    "grammar": {
@@ -355,7 +334,6 @@
    "translations": [
     "herunterladen"
    ],
-   "page": "203",
    "definition": "Prendere un file dalla rete e metterlo sul proprio dispositivo.",
    "example": "Scarico una canzone."
   },
@@ -366,7 +344,6 @@
     "aufnehmen",
     "aufzeichnen"
    ],
-   "page": "203",
    "definition": "Salvare un suono o un video.",
    "example": "Registro la lezione.",
    "related": "E to register; F enregistrer"
@@ -377,7 +354,6 @@
    "translations": [
     "das Musikstück"
    ],
-   "page": "203",
    "definition": "Pezzo musicale.",
    "example": "Ascolto il mio brano preferito.",
    "grammar": {
@@ -396,7 +372,6 @@
    "translations": [
     "das Streaming"
    ],
-   "page": "203",
    "definition": "Ascolto o visione online, senza scaricare.",
    "example": "Ascolto musica in streaming.",
    "grammar": {
@@ -415,7 +390,6 @@
    "translations": [
     "sportlich"
    ],
-   "page": "203",
    "definition": "Che ama lo sport.",
    "example": "Mia sorella è molto sportiva.",
    "family": "lo sport",
@@ -425,12 +399,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Unità 2",
-   "section": "Approccio",
-   "pages": "203"
+   "unit": "2 · Vita online",
+   "section": "Per cominciare"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -441,7 +413,7 @@
    "Kommunikation"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

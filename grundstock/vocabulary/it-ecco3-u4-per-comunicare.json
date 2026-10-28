@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco3-u4-per-comunicare",
- "title": "Ecco più 3 · Unità 4 · Per comunicare",
+ "title": "Terzo anno · 4 · Nord e Sud · Frasi utili",
  "language": "it",
  "translationLanguage": "de",
  "level": "B1",
- "description": "Wortschatz zu „Wirtschaft, Aussagen wiedergeben, Sport, Zeitangaben“ aus Ecco più 3 (Unità 4, Per comunicare).",
+ "description": "Wortschatz Terzo anno (3. Lernjahr), 4 · Nord e Sud, Frasi utili.",
  "topics": [
   "Redemittel",
   "Wirtschaft",
   "Sport"
  ],
- "collection": "Ecco più 3 (Cornelsen)",
- "section": "Unità 4 · Per comunicare",
+ "collection": "Terzo anno",
+ "section": "4 · Nord e Sud · Frasi utili",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 184-185 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Terzo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "… spielt eine wichtige Rolle in der Wirtschaft."
    ],
-   "page": "184-185",
    "definition": "Si usa per dire che un settore è importante.",
    "example": "Il turismo ha un ruolo importante nell’economia."
   },
@@ -44,7 +41,6 @@
    "translations": [
     "… gilt als die Heimat von …"
    ],
-   "page": "184-185",
    "definition": "Si usa per dire da dove viene una cosa.",
    "example": "Il Nord è considerato la patria dell’industria italiana."
   },
@@ -54,7 +50,6 @@
    "translations": [
     "Ein trauriges Beispiel ist …"
    ],
-   "page": "184-185",
    "definition": "Si usa per dare un esempio negativo.",
    "example": "Un triste esempio è l’autostrada mai finita."
   },
@@ -64,7 +59,6 @@
    "translations": [
     "Er/Sie hat mir erklärt, dass …"
    ],
-   "page": "184-185",
    "definition": "Si usa per riportare quello che ha detto qualcuno.",
    "example": "Mi ha spiegato che la cooperativa è nata nel 2001."
   },
@@ -74,7 +68,6 @@
    "translations": [
     "Er/Sie hat erzählt, dass …"
    ],
-   "page": "184-185",
    "definition": "Si usa per riportare un racconto.",
    "example": "Ha raccontato che da piccolo giocava sempre a calcio."
   },
@@ -84,7 +77,6 @@
    "translations": [
     "… ist eines der beliebtesten Mannschaftsspiele."
    ],
-   "page": "184-185",
    "definition": "Si usa per parlare di uno sport molto praticato.",
    "example": "La pallavolo è uno dei giochi sportivi più diffusi."
   },
@@ -94,7 +86,6 @@
    "translations": [
     "Die Leidenschaft wird fast zum Fanatismus."
    ],
-   "page": "184-185",
    "definition": "Si usa per dire che una passione è esagerata.",
    "example": "Per alcuni tifosi la passione diventa quasi fanatismo."
   },
@@ -104,7 +95,6 @@
    "translations": [
     "vor etwa 70 Jahren"
    ],
-   "page": "184-185",
    "definition": "Si usa per dire quando è successa una cosa.",
    "example": "Mio nonno è nato circa settanta anni fa."
   },
@@ -114,7 +104,6 @@
    "translations": [
     "Obwohl seine Erfolge in die 50er-Jahre zurückreichen, …"
    ],
-   "page": "184-185",
    "definition": "Si usa per collegare un fatto del passato a oggi.",
    "example": "Benché i suoi successi risalgano agli anni ’50, è ancora famoso.",
    "usage": "+ cong."
@@ -123,12 +112,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "3",
-   "unit": "Unità 4",
-   "section": "Per comunicare",
-   "pages": "184-185"
+   "unit": "4 · Nord e Sud",
+   "section": "Frasi utili"
   },
   "grade": 10,
   "foreignLanguageNo": 3,
@@ -139,7 +126,7 @@
    "Sport"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

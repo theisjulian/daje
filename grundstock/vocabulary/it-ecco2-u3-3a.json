@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-u3-3a",
- "title": "Ecco più 2 · Unità 3 · 3A In giro per Roma",
+ "title": "Secondo anno · 3 · Roma ed Europa · Parte A",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Unterwegs in Rom“ aus Ecco più 2 (Unità 3, 3A In giro per Roma).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), 3 · Roma ed Europa, Parte A.",
  "topics": [
   "Rom",
   "Geschichte",
   "Stadt"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Unità 3 · 3A In giro per Roma",
+ "collection": "Secondo anno",
+ "section": "3 · Roma ed Europa · Parte A",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 208-209 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "sich erstrecken"
    ],
-   "page": "208-209",
    "definition": "Occupare un grande spazio.",
    "example": "La pianura si estende fino al mare.",
    "related": "F s’étendre",
@@ -46,7 +43,6 @@
    "translations": [
     "der Hügel"
    ],
-   "page": "208-209",
    "definition": "Piccola montagna dolce, non molto alta.",
    "example": "Roma è costruita su sette colli.",
    "related": "F la colline; L collis",
@@ -66,7 +62,6 @@
    "translations": [
     "hier: führen zu/nach"
    ],
-   "page": "208-209",
    "definition": "Condurre verso un luogo.",
    "example": "Questa strada porta in centro."
   },
@@ -77,7 +72,6 @@
     "ewig",
     "zeitlos"
    ],
-   "page": "208-209",
    "definition": "Che non finisce mai.",
    "example": "Roma è la città eterna.",
    "related": "E eternal; F éternel"
@@ -89,7 +83,6 @@
     "die Legende",
     "die Sage"
    ],
-   "page": "208-209",
    "definition": "Racconto fantastico del passato.",
    "example": "Secondo la leggenda Roma fu fondata da Romolo.",
    "grammar": {
@@ -108,7 +101,6 @@
    "translations": [
     "gründen"
    ],
-   "page": "208-209",
    "definition": "Creare una città o un’organizzazione.",
    "example": "Romolo fondò Roma.",
    "related": "E to found; F fonder"
@@ -119,7 +111,6 @@
    "translations": [
     "vor/nach Christus"
    ],
-   "page": "208-209",
    "definition": "Indicazione della data rispetto alla nascita di Gesù.",
    "example": "Cesare è morto nel 44 avanti Cristo.",
    "acceptedAnswers": [
@@ -132,7 +123,6 @@
    "translations": [
     "die Basilika"
    ],
-   "page": "208-209",
    "definition": "Grande chiesa importante.",
    "example": "Visito la basilica di San Pietro.",
    "usage": "pl. le basiliche",
@@ -152,7 +142,6 @@
    "translations": [
     "Europa"
    ],
-   "page": "208-209",
    "definition": "Continente dove si trova l’Italia.",
    "example": "L’Europa ha molti stati."
   },
@@ -163,7 +152,6 @@
     "stimmungsvoll",
     "beeindruckend"
    ],
-   "page": "208-209",
    "definition": "Che crea un’atmosfera speciale.",
    "example": "Il tramonto è suggestivo."
   },
@@ -173,7 +161,6 @@
    "translations": [
     "das Loch"
    ],
-   "page": "208-209",
    "definition": "Apertura in un oggetto.",
    "example": "C’è un buco nella calza.",
    "usage": "pl. i buchi",
@@ -193,7 +180,6 @@
    "translations": [
     "das (Tür-)Schloss"
    ],
-   "page": "208-209",
    "definition": "Meccanismo di una porta che si apre con la chiave.",
    "example": "La chiave non entra nella serratura.",
    "related": "F la serrure",
@@ -213,7 +199,6 @@
    "translations": [
     "wunderbar"
    ],
-   "page": "208-209",
    "definition": "Che suscita grande ammirazione.",
    "example": "Che panorama meraviglioso!",
    "related": "F merveilleux"
@@ -224,7 +209,6 @@
    "translations": [
     "der Staat"
    ],
-   "page": "208-209",
    "definition": "Paese con un governo.",
    "example": "L’Italia è uno stato europeo.",
    "grammar": {
@@ -245,7 +229,6 @@
     "unabhängig",
     "selbstständig"
    ],
-   "page": "208-209",
    "definition": "Che decide da solo.",
    "example": "Il Vaticano è uno stato autonomo."
   },
@@ -255,7 +238,6 @@
    "translations": [
     "katholisch"
    ],
-   "page": "208-209",
    "definition": "Che appartiene alla religione del papa.",
    "example": "Molti italiani sono cattolici."
   },
@@ -265,7 +247,6 @@
    "translations": [
     "das Museum"
    ],
-   "page": "208-209",
    "definition": "Luogo dove si conservano opere d’arte.",
    "example": "Visitiamo il museo di storia.",
    "grammar": {
@@ -284,7 +265,6 @@
    "translations": [
     "(er)bauen"
    ],
-   "page": "208-209",
    "definition": "Fare un edificio.",
    "example": "Costruiscono una nuova scuola.",
    "related": "F construire",
@@ -299,7 +279,6 @@
    "translations": [
     "malen"
    ],
-   "page": "208-209",
    "definition": "Fare un quadro con i colori.",
    "example": "Leonardo dipinse la Gioconda.",
    "usage": "p.p. dipinto"
@@ -310,7 +289,6 @@
    "translations": [
     "der Tempel"
    ],
-   "page": "208-209",
    "definition": "Edificio dedicato a un dio.",
    "example": "Il tempio è molto antico.",
    "related": "E/F temple; L templum",
@@ -331,7 +309,6 @@
    "translations": [
     "der Gott"
    ],
-   "page": "208-209",
    "definition": "Essere divino in cui si crede.",
    "example": "Gli antichi Romani adoravano molti dei.",
    "related": "F le dieu; L deus",
@@ -352,7 +329,6 @@
    "translations": [
     "das Jahrhundert"
    ],
-   "page": "208-209",
    "definition": "Periodo di cento anni.",
    "example": "Il Colosseo è del primo secolo.",
    "related": "F le siècle; L saeculum",
@@ -373,7 +349,6 @@
     "umwandeln",
     "umbauen"
    ],
-   "page": "208-209",
    "definition": "Cambiare forma o aspetto.",
    "example": "Trasformano la stanza in uno studio.",
    "synonyms": "cambiare",
@@ -386,7 +361,6 @@
     "stark",
     "gewaltig"
    ],
-   "page": "208-209",
    "definition": "Che ha potenza o intensità.",
    "example": "Il vento è forte.",
    "related": "F fort"
@@ -397,7 +371,6 @@
    "translations": [
     "die Kuppel"
    ],
-   "page": "208-209",
    "definition": "Tetto di forma sferica.",
    "example": "La cupola della chiesa è enorme.",
    "grammar": {
@@ -417,7 +390,6 @@
     "ungemütlich",
     "unbequem"
    ],
-   "page": "208-209",
    "definition": "Non confortevole.",
    "example": "Questa sedia è scomoda.",
    "antonyms": "comodo/-a",
@@ -429,7 +401,6 @@
    "translations": [
     "werfen"
    ],
-   "page": "208-209",
    "definition": "Buttare, lanciare.",
    "example": "Getto la moneta nella fontana.",
    "related": "F jeter"
@@ -441,7 +412,6 @@
     "barock",
     "Barock-"
    ],
-   "page": "208-209",
    "definition": "Stile artistico ricco di decorazioni del Seicento.",
    "example": "La chiesa è in stile barocco.",
    "usage": "pl. barocchi/-e"
@@ -452,7 +422,6 @@
    "translations": [
     "verdienen"
    ],
-   "page": "208-209",
    "definition": "Ricevere soldi per un lavoro.",
    "example": "Guadagno poco.",
    "related": "F gagner"
@@ -463,7 +432,6 @@
    "translations": [
     "das Geld"
    ],
-   "page": "208-209",
    "definition": "Mezzo con cui si pagano le cose.",
    "example": "Non ho soldi con me.",
    "usage": "pl.",
@@ -483,7 +451,6 @@
    "translations": [
     "der Ministerpräsident"
    ],
-   "page": "208-209",
    "definition": "Capo del governo italiano.",
    "example": "Il Presidente del Consiglio parla in TV.",
    "grammar": {
@@ -503,7 +470,6 @@
     "schick",
     "flott"
    ],
-   "page": "208-209",
    "definition": "Elegante e alla moda.",
    "example": "Che vestito chic!"
   },
@@ -513,7 +479,6 @@
    "translations": [
     "Donnerwetter!"
    ],
-   "page": "208-209",
    "definition": "Esclamazione di sorpresa o fastidio.",
    "example": "Accidenti, ho perso l’autobus!"
   }
@@ -521,12 +486,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Unità 3",
-   "section": "3A In giro per Roma",
-   "pages": "208-209"
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte A"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -537,7 +500,7 @@
    "Stadt"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

@@ -3,27 +3,25 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco1-aa-italiano-in-classe",
- "title": "Ecco più 1 · L’italiano in classe",
+ "title": "Primo anno · Extra · In classe · L’italiano in classe",
  "language": "it",
  "translationLanguage": "de",
  "level": "A1",
- "description": "Wortschatz zu „L’italiano in classe“ aus Ecco più 1 (Anhang A, L’italiano in classe).",
+ "description": "Wortschatz Primo anno (1. Lernjahr), Extra · In classe, L’italiano in classe.",
  "topics": [
   "Unterricht",
   "Redemittel"
  ],
- "collection": "Ecco più 1 (Cornelsen)",
- "section": "Anhang A · L’italiano in classe",
+ "collection": "Primo anno",
+ "section": "Extra · In classe · L’italiano in classe",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 161-162 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Primo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -33,7 +31,6 @@
    "translations": [
     "Kannst du mir helfen?"
    ],
-   "page": "161-162",
    "definition": "Domanda per chiedere aiuto a una persona a cui dai del tu."
   },
   {
@@ -42,7 +39,6 @@
    "translations": [
     "Kann ich dir helfen?"
    ],
-   "page": "161-162",
    "definition": "Domanda per offrire aiuto."
   },
   {
@@ -51,7 +47,6 @@
    "translations": [
     "Hilfst du mir?"
    ],
-   "page": "161-162",
    "definition": "Domanda per chiedere una mano."
   },
   {
@@ -60,7 +55,6 @@
    "translations": [
     "Hast du einen Stift?"
    ],
-   "page": "161-162",
    "definition": "Domanda per chiedere uno strumento per scrivere."
   },
   {
@@ -69,7 +63,6 @@
    "translations": [
     "Können Sie das bitte wiederholen?"
    ],
-   "page": "161-162",
    "definition": "Domanda cortese per sentire di nuovo."
   },
   {
@@ -78,7 +71,6 @@
    "translations": [
     "Können Sie das noch einmal erklären?"
    ],
-   "page": "161-162",
    "definition": "Domanda cortese per avere un’altra spiegazione."
   },
   {
@@ -87,7 +79,6 @@
    "translations": [
     "Ich verstehe das nicht."
    ],
-   "page": "161-162",
    "definition": "Frase per dire che non hai compreso."
   },
   {
@@ -96,7 +87,6 @@
    "translations": [
     "Ich habe das nicht verstanden."
    ],
-   "page": "161-162",
    "definition": "Frase per dire che non hai compreso."
   },
   {
@@ -105,7 +95,6 @@
    "translations": [
     "Können Sie bitte langsamer sprechen?"
    ],
-   "page": "161-162",
    "definition": "Domanda cortese per chiedere meno velocità."
   },
   {
@@ -114,7 +103,6 @@
    "translations": [
     "Könnten Sie … erklären?"
    ],
-   "page": "161-162",
    "definition": "Domanda cortese per avere una spiegazione."
   },
   {
@@ -123,7 +111,6 @@
    "translations": [
     "Ich habe eine Frage."
    ],
-   "page": "161-162",
    "definition": "Frase per dire che vuoi chiedere qualcosa."
   },
   {
@@ -132,7 +119,6 @@
    "translations": [
     "Wie bitte?"
    ],
-   "page": "161-162",
    "definition": "Domanda cortese quando non hai sentito bene."
   },
   {
@@ -141,7 +127,6 @@
    "translations": [
     "Was ist das?"
    ],
-   "page": "161-162",
    "definition": "Domanda per sapere come si chiama un oggetto."
   },
   {
@@ -150,7 +135,6 @@
    "translations": [
     "Ich habe die Aufgabe nicht verstanden."
    ],
-   "page": "161-162",
    "definition": "Frase per dire che la consegna non è chiara."
   },
   {
@@ -159,7 +143,6 @@
    "translations": [
     "Ich verstehe das Wort / den Satz … nicht."
    ],
-   "page": "161-162",
    "definition": "Frase per segnalare una difficoltà."
   },
   {
@@ -168,7 +151,6 @@
    "translations": [
     "Was bedeutet … auf Deutsch?"
    ],
-   "page": "161-162",
    "definition": "Domanda per conoscere la traduzione."
   },
   {
@@ -177,7 +159,6 @@
    "translations": [
     "Was heißt … auf Italienisch?"
    ],
-   "page": "161-162",
    "definition": "Domanda per conoscere la parola italiana."
   },
   {
@@ -186,7 +167,6 @@
    "translations": [
     "Kann man auch … sagen?"
    ],
-   "page": "161-162",
    "definition": "Domanda per sapere se una variante è possibile."
   },
   {
@@ -195,7 +175,6 @@
    "translations": [
     "Wie schreibt man …?"
    ],
-   "page": "161-162",
    "definition": "Domanda per sapere la grafia."
   },
   {
@@ -204,7 +183,6 @@
    "translations": [
     "Schreibt man … mit oder ohne „h“?"
    ],
-   "page": "161-162",
    "definition": "Domanda sulla lettera h."
   },
   {
@@ -213,7 +191,6 @@
    "translations": [
     "Wie spricht man … aus?"
    ],
-   "page": "161-162",
    "definition": "Domanda per sapere come si dice a voce."
   },
   {
@@ -222,7 +199,6 @@
    "translations": [
     "Können Sie bitte ein Beispiel nennen?"
    ],
-   "page": "161-162",
    "definition": "Domanda cortese per avere un esempio."
   },
   {
@@ -231,7 +207,6 @@
    "translations": [
     "Auf welcher Seite?"
    ],
-   "page": "161-162",
    "definition": "Domanda per sapere il numero della pagina."
   },
   {
@@ -240,7 +215,6 @@
    "translations": [
     "Ist das richtig?"
    ],
-   "page": "161-162",
    "definition": "Domanda per verificare una risposta."
   },
   {
@@ -249,7 +223,6 @@
    "translations": [
     "Ist das falsch?"
    ],
-   "page": "161-162",
    "definition": "Domanda per sapere se c’è un errore."
   },
   {
@@ -258,7 +231,6 @@
    "translations": [
     "Wie viel Zeit haben wir?"
    ],
-   "page": "161-162",
    "definition": "Domanda sul tempo disponibile."
   },
   {
@@ -267,7 +239,6 @@
    "translations": [
     "Was machen wir jetzt?"
    ],
-   "page": "161-162",
    "definition": "Domanda sul prossimo compito."
   },
   {
@@ -276,7 +247,6 @@
    "translations": [
     "Soll ich weitermachen?"
    ],
-   "page": "161-162",
    "definition": "Domanda per proporre di continuare."
   },
   {
@@ -285,7 +255,6 @@
    "translations": [
     "Wir fangen von vorne an."
    ],
-   "page": "161-162",
    "definition": "Frase per proporre di ripartire da capo."
   },
   {
@@ -294,7 +263,6 @@
    "translations": [
     "Jetzt bist du dran, danach ist er/sie dran."
    ],
-   "page": "161-162",
    "definition": "Frase per dire chi ha il turno."
   },
   {
@@ -303,7 +271,6 @@
    "translations": [
     "Tut mir leid, das habe ich nicht mit Absicht getan."
    ],
-   "page": "161-162",
    "definition": "Frase per dire che non era volontario."
   },
   {
@@ -312,7 +279,6 @@
    "translations": [
     "Tut mir leid, das ist (nicht) meine Schuld."
    ],
-   "page": "161-162",
    "definition": "Frase per ammettere o negare una responsabilità.",
    "acceptedAnswers": [
     "Mi scusi, è colpa mia."
@@ -324,19 +290,16 @@
    "translations": [
     "Entschuldige."
    ],
-   "page": "161-162",
    "definition": "Frase per chiedere perdono a una persona che dai del tu."
   }
  ],
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Anhang A",
-   "section": "L’italiano in classe",
-   "pages": "161-162"
+   "unit": "Extra · In classe",
+   "section": "L’italiano in classe"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -346,7 +309,7 @@
    "Redemittel"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

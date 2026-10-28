@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco1-u2-2a",
- "title": "Ecco più 1 · Unità 2 · 2A",
+ "title": "Primo anno · 2 · La mia camera · Parte A",
  "language": "it",
  "translationLanguage": "de",
  "level": "A1",
- "description": "Wortschatz zu „Mamma che caos!“ aus Ecco più 1 (Unità 2, 2A).",
+ "description": "Wortschatz Primo anno (1. Lernjahr), 2 · La mia camera, Parte A.",
  "topics": [
   "Wohnen",
   "Familie",
   "Alltag"
  ],
- "collection": "Ecco più 1 (Cornelsen)",
- "section": "Unità 2 · 2A",
+ "collection": "Primo anno",
+ "section": "2 · La mia camera · Parte A",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 173-174 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Primo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,7 +33,6 @@
     "die Mama",
     "die Mutter"
    ],
-   "page": "173-174",
    "definition": "La madre, detta in modo affettuoso.",
    "example": "La mamma cucina molto bene.",
    "antonyms": "papà",
@@ -55,7 +52,6 @@
    "translations": [
     "das Chaos"
    ],
-   "page": "173-174",
    "definition": "Grande confusione, senza ordine.",
    "example": "In classe c’è il caos!",
    "grammar": {
@@ -75,7 +71,6 @@
     "die Frau",
     "die Dame"
    ],
-   "page": "173-174",
    "definition": "Donna adulta, a cui si dà del Lei.",
    "example": "La signora Rossi è la mia vicina.",
    "grammar": {
@@ -94,7 +89,6 @@
    "translations": [
     "der Herr"
    ],
-   "page": "173-174",
    "definition": "Uomo adulto, a cui si dà del Lei.",
    "example": "Il signore compra il giornale.",
    "grammar": {
@@ -115,7 +109,6 @@
     "aus",
     "seit"
    ],
-   "page": "173-174",
    "definition": "Piccola parola per “a casa di” o per un punto di partenza.",
    "example": "Torno da Lecce."
   },
@@ -125,7 +118,6 @@
    "translations": [
     "der Markt"
    ],
-   "page": "173-174",
    "definition": "Luogo con tante bancarelle dove si vendono frutta, verdura e altro.",
    "example": "Al mercato compro la frutta.",
    "grammar": {
@@ -144,7 +136,6 @@
    "translations": [
     "die Tasche (zum Tragen)"
    ],
-   "page": "173-174",
    "definition": "Sacca per portare le proprie cose.",
    "example": "Metto il libro nella borsa.",
    "grammar": {
@@ -163,7 +154,6 @@
    "translations": [
     "der Einkauf"
    ],
-   "page": "173-174",
    "definition": "Acquisto di cibo e prodotti per la casa.",
    "example": "Torno dal mercato con la spesa.",
    "grammar": {
@@ -182,7 +172,6 @@
    "translations": [
     "die Einkaufstasche"
    ],
-   "page": "173-174",
    "definition": "Sacca per portare a casa il cibo comprato.",
    "example": "Porto la borsa della spesa al supermercato.",
    "grammar": {
@@ -201,7 +190,6 @@
    "translations": [
     "hereinkommen (in)"
    ],
-   "page": "173-174",
    "definition": "Andare dentro un luogo.",
    "example": "Entro in casa.",
    "related": "E to enter; F entrer",
@@ -215,7 +203,6 @@
    "translations": [
     "diese(r, s)"
    ],
-   "page": "173-174",
    "definition": "Indica una cosa o una persona vicina.",
    "example": "Di chi è questo cellulare? – È mio."
   },
@@ -225,7 +212,6 @@
    "translations": [
     "Warum?"
    ],
-   "page": "173-174",
    "definition": "Domanda per conoscere la causa o lo scopo.",
    "example": "Perché sei contento? – Perché è sabato!",
    "related": "F pourquoi",
@@ -237,7 +223,6 @@
    "translations": [
     "der Rucksack"
    ],
-   "page": "173-174",
    "definition": "Borsa che si porta sulle spalle.",
    "example": "Metto i quaderni nello zaino.",
    "grammar": {
@@ -257,7 +242,6 @@
     "der Flur",
     "der Korridor"
    ],
-   "page": "173-174",
    "definition": "Passaggio lungo dentro un edificio, tra le stanze.",
    "example": "Il corridoio è lungo.",
    "related": "E corridor",
@@ -278,7 +262,6 @@
    "translations": [
     "die Sache"
    ],
-   "page": "173-174",
    "definition": "Oggetto o fatto, quando non si dice il nome preciso.",
    "example": "Che cosa è questa cosa?",
    "related": "F la chose",
@@ -299,7 +282,6 @@
     "der Boden",
     "die Erde"
    ],
-   "page": "173-174",
    "definition": "Superficie su cui si cammina.",
    "example": "La palla cade a terra.",
    "related": "F la terre; L terra",
@@ -320,7 +302,6 @@
     "auf dem Boden",
     "auf der Erde"
    ],
-   "page": "173-174",
    "definition": "Sul pavimento o sul suolo.",
    "example": "Il libro è per terra."
   },
@@ -330,7 +311,6 @@
    "translations": [
     "die Unordnung"
    ],
-   "page": "173-174",
    "definition": "Situazione in cui le cose non sono al loro posto.",
    "example": "Dov’è lo zaino? Che disordine!",
    "synonyms": "caos",
@@ -351,7 +331,6 @@
    "translations": [
     "die Küche"
    ],
-   "page": "173-174",
    "definition": "Stanza dove si prepara il cibo.",
    "example": "Mamma è in cucina.",
    "related": "F la cuisine",
@@ -372,7 +351,6 @@
     "legen",
     "stellen"
    ],
-   "page": "173-174",
    "definition": "Collocare una cosa in un posto.",
    "example": "Filippo mette lo zaino in corridoio.",
    "related": "F mettre"
@@ -383,7 +361,6 @@
    "translations": [
     "der Tisch"
    ],
-   "page": "173-174",
    "definition": "Mobile con quattro gambe dove si mangia o si lavora.",
    "example": "La borsa è sul tavolo.",
    "related": "E table; F la table",
@@ -403,7 +380,6 @@
    "translations": [
     "noch"
    ],
-   "page": "173-174",
    "definition": "Parola che indica che qualcosa continua o si ripete.",
    "example": "Dormo ancora.",
    "related": "F encore",
@@ -416,7 +392,6 @@
     "der Snack",
     "die Brotzeit"
    ],
-   "page": "173-174",
    "definition": "Piccolo pasto del pomeriggio.",
    "example": "Per merenda mangio un panino.",
    "grammar": {
@@ -435,7 +410,6 @@
    "translations": [
     "der Fön"
    ],
-   "page": "173-174",
    "definition": "Apparecchio che asciuga i capelli con aria calda.",
    "example": "Uso il fon dopo la doccia.",
    "grammar": {
@@ -454,7 +428,6 @@
    "translations": [
     "auf"
    ],
-   "page": "173-174",
    "definition": "Piccola parola che indica posizione sopra qualcosa.",
    "example": "Il libro è sul tavolo.",
    "related": "F sur"
@@ -465,7 +438,6 @@
    "translations": [
     "der Stuhl"
    ],
-   "page": "173-174",
    "definition": "Mobile su cui ci si siede.",
    "example": "Siediti sulla sedia.",
    "grammar": {
@@ -484,7 +456,6 @@
    "translations": [
     "möglich"
    ],
-   "page": "173-174",
    "definition": "Che può succedere, che si può fare.",
    "example": "È possibile venire domani?",
    "related": "E possible; F possible"
@@ -495,7 +466,6 @@
    "translations": [
     "das Handtuch"
    ],
-   "page": "173-174",
    "definition": "Telo per asciugarsi dopo il bagno.",
    "example": "L’asciugamano è nel bagno."
   },
@@ -505,7 +475,6 @@
    "translations": [
     "die (Bade-)Wanne"
    ],
-   "page": "173-174",
    "definition": "Grande contenitore dove ci si lava nell’acqua.",
    "example": "Faccio il bagno nella vasca.",
    "acceptedAnswers": [
@@ -528,7 +497,6 @@
    "translations": [
     "das Bad"
    ],
-   "page": "173-174",
    "definition": "Stanza dove ci si lava; anche il tuffarsi in acqua.",
    "example": "La vasca è in bagno.",
    "related": "F le bain",
@@ -548,7 +516,6 @@
    "translations": [
     "suchen"
    ],
-   "page": "173-174",
    "definition": "Fare attenzione per trovare qualcosa o qualcuno.",
    "example": "Cerco il mio cellulare. Dov’è?",
    "related": "F chercher",
@@ -563,7 +530,6 @@
    "translations": [
     "unglaublich"
    ],
-   "page": "173-174",
    "definition": "Che sembra impossibile da credere.",
    "example": "È incredibile: ho vinto!",
    "related": "E incredible; F incroyable"
@@ -574,7 +540,6 @@
    "translations": [
     "das Wohnzimmer"
    ],
-   "page": "173-174",
    "definition": "Stanza della casa dove si riceve e ci si rilassa.",
    "example": "Guardiamo la TV in salotto.",
    "grammar": {
@@ -593,7 +558,6 @@
    "translations": [
     "das Zeug"
    ],
-   "page": "173-174",
    "definition": "Insieme di cose, vestiti o oggetti, senza nome preciso.",
    "example": "Che roba è questa?",
    "grammar": {
@@ -612,7 +576,6 @@
    "translations": [
     "die Fußballtasche"
    ],
-   "page": "173-174",
    "definition": "Sacca dove si mettono scarpe e vestiti per giocare a calcio.",
    "example": "Metto le scarpe nella borsa da calcio.",
    "grammar": {
@@ -631,7 +594,6 @@
    "translations": [
     "neben"
    ],
-   "page": "173-174",
    "definition": "Vicino, al fianco di qualcosa.",
    "example": "Il gatto è accanto al divano."
   },
@@ -641,7 +603,6 @@
    "translations": [
     "der Fernseher"
    ],
-   "page": "173-174",
    "definition": "Apparecchio con uno schermo per guardare i programmi.",
    "example": "Il televisore è in salotto.",
    "related": "E television",
@@ -661,7 +622,6 @@
    "translations": [
     "der Ball"
    ],
-   "page": "173-174",
    "definition": "Grande palla per giocare a calcio.",
    "example": "Il pallone è nella borsa da calcio.",
    "related": "F le ballon",
@@ -681,7 +641,6 @@
    "translations": [
     "unter"
    ],
-   "page": "173-174",
    "definition": "Più in basso rispetto a qualcosa.",
    "example": "Il pallone è sotto il tavolo.",
    "antonyms": "su"
@@ -692,7 +651,6 @@
    "translations": [
     "die Kleidung"
    ],
-   "page": "173-174",
    "definition": "Cose che si indossano: pantaloni, magliette, giacche.",
    "example": "I vestiti sono nell’armadio.",
    "related": "L vestis",
@@ -713,7 +671,6 @@
    "translations": [
     "der Schrank"
    ],
-   "page": "173-174",
    "definition": "Grande mobile dove si tengono i vestiti.",
    "example": "Il cappotto è nell’armadio.",
    "related": "F l’armoire",
@@ -725,7 +682,6 @@
    "translations": [
     "die Zeitschrift"
    ],
-   "page": "173-174",
    "definition": "Pubblicazione con articoli e immagini che esce ogni settimana o ogni mese.",
    "example": "Leggo una rivista di musica.",
    "related": "F la revue",
@@ -745,7 +701,6 @@
    "translations": [
     "das Regal"
    ],
-   "page": "173-174",
    "definition": "Ripiano dove si mettono libri o oggetti.",
    "example": "Le riviste sono sullo scaffale.",
    "grammar": {
@@ -764,7 +719,6 @@
    "translations": [
     "die Kommode"
    ],
-   "page": "173-174",
    "definition": "Mobile basso con cassetti per la biancheria.",
    "example": "La maglietta è nel comò.",
    "related": "F la commode",
@@ -785,7 +739,6 @@
    "translations": [
     "der Lippenstift"
    ],
-   "page": "173-174",
    "definition": "Cosmetico colorato per le labbra.",
    "example": "Il rossetto è rosso.",
    "grammar": {
@@ -804,7 +757,6 @@
    "translations": [
     "so"
    ],
-   "page": "173-174",
    "definition": "In questo modo.",
    "example": "Fai così!",
    "usage": "avv."
@@ -815,7 +767,6 @@
    "translations": [
     "So läuft das nicht!"
    ],
-   "page": "173-174",
    "definition": "Si dice quando una situazione non è accettabile.",
    "example": "Hai sempre ritardo: così non va!"
   },
@@ -825,7 +776,6 @@
    "translations": [
     "etwas"
    ],
-   "page": "173-174",
    "definition": "Una cosa non precisata.",
    "example": "Cerchi qualcosa? – Sì, lo zaino."
   }
@@ -833,12 +783,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Unità 2",
-   "section": "2A",
-   "pages": "173-174"
+   "unit": "2 · La mia camera",
+   "section": "Parte A"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -849,7 +797,7 @@
    "Alltag"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

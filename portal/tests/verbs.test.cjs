@@ -13,7 +13,7 @@ assert.equal(g('chiamarsi').pres[0][0], 'mi chiamo');
 assert.equal(vbJudge(['è'], 'e'), 'accent');
 assert.equal(vbJudge(['sono andato', 'sono andata'], 'Sono andata'), 'ok');
 assert.equal(vbJudge(['parlo'], ''), 'empty');
-// Neue Zeiten (Ecco più 2 und 3)
+// Neue Zeiten (Lernjahr 2 und 3)
 assert.equal(g('andare').cong[0][0], 'vada');
 assert.equal(g('cercare').cong[5][0], 'cerchino');
 assert.equal(g('finire').cong[5][0], 'finiscano');

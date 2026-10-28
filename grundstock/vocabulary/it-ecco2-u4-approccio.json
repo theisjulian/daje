@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-u4-approccio",
- "title": "Ecco più 2 · Unità 4 · Approccio",
+ "title": "Secondo anno · 4 · Lavoro e futuro · Per cominciare",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Andare a scuola e lavorare“ aus Ecco più 2 (Unità 4, Approccio).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), 4 · Lavoro e futuro, Per cominciare.",
  "topics": [
   "Schule",
   "Arbeit",
   "Beruf"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Unità 4 · Approccio",
+ "collection": "Secondo anno",
+ "section": "4 · Lavoro e futuro · Per cominciare",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 212-214 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "die Grundschule"
    ],
-   "page": "212-214",
    "definition": "Scuola per i bambini da sei a dieci anni.",
    "example": "Alla scuola elementare ho imparato a leggere.",
    "related": "E elementary school",
@@ -54,7 +51,6 @@
    "translations": [
     "3-jährige Schule der Sekundarstufe I"
    ],
-   "page": "212-214",
    "definition": "Scuola per ragazzi da undici a quattordici anni.",
    "example": "Alla scuola media studio tre lingue.",
    "grammar": {
@@ -73,7 +69,6 @@
    "translations": [
     "Schul-"
    ],
-   "page": "212-214",
    "definition": "Che riguarda la scuola.",
    "example": "L’anno scolastico comincia a settembre.",
    "usage": "pl. scolastici, scolastiche"
@@ -84,7 +79,6 @@
    "translations": [
     "die Schulpflicht"
    ],
-   "page": "212-214",
    "definition": "Dovere di frequentare la scuola fino a una certa età.",
    "example": "L’obbligo scolastico dura dieci anni."
   },
@@ -94,7 +88,6 @@
    "translations": [
     "die Hälfte"
    ],
-   "page": "212-214",
    "definition": "Una delle due parti uguali.",
    "example": "Metà della classe è assente.",
    "grammar": {
@@ -113,7 +106,6 @@
    "translations": [
     "dritte Klasse der Sek. I (entspricht 8. Schuljahr)"
    ],
-   "page": "212-214",
    "definition": "Ultimo anno della scuola media italiana.",
    "example": "In terza media faccio l’esame.",
    "grammar": {
@@ -132,7 +124,6 @@
    "translations": [
     "das Prozent"
    ],
-   "page": "212-214",
    "definition": "Parte su cento.",
    "example": "Il venti percento degli studenti viene in bici.",
    "related": "E percent; F pour cent",
@@ -153,7 +144,6 @@
    "translations": [
     "die Möglichkeit"
    ],
-   "page": "212-214",
    "definition": "Occasione di fare qualcosa.",
    "example": "Ho la possibilità di studiare all’estero.",
    "related": "E possibility",
@@ -173,7 +163,6 @@
    "translations": [
     "die Berufsfachschule (Sekundarstufe II)"
    ],
-   "page": "212-214",
    "definition": "Scuola superiore che prepara a un mestiere.",
    "example": "Frequento l’istituto professionale."
   },
@@ -183,7 +172,6 @@
    "translations": [
     "die Fachoberschule (Sekundarstufe II)"
    ],
-   "page": "212-214",
    "definition": "Scuola superiore che prepara a lavori tecnici.",
    "example": "Mio fratello va all’istituto tecnico."
   },
@@ -193,7 +181,6 @@
    "translations": [
     "technisch"
    ],
-   "page": "212-214",
    "definition": "Che riguarda le macchine e le tecnologie.",
    "example": "È un lavoro tecnico.",
    "related": "E technical; F technique",
@@ -205,7 +192,6 @@
    "translations": [
     "der/die Journalist/in"
    ],
-   "page": "212-214",
    "definition": "Persona che scrive notizie.",
    "example": "La giornalista intervista il sindaco."
   },
@@ -215,7 +201,6 @@
    "translations": [
     "interviewen"
    ],
-   "page": "212-214",
    "definition": "Fare domande a qualcuno per un articolo.",
    "example": "Intervisto un calciatore."
   },
@@ -225,7 +210,6 @@
    "translations": [
     "der Traum"
    ],
-   "page": "212-214",
    "definition": "Immagine nel sonno o desiderio grande.",
    "example": "Il mio sogno è viaggiare.",
    "related": "L somnium",
@@ -246,7 +230,6 @@
     "Jura",
     "die Rechtswissenschaft"
    ],
-   "page": "212-214",
    "definition": "Studio del diritto e delle leggi.",
    "example": "Mio zio studia giurisprudenza.",
    "grammar": {
@@ -265,7 +248,6 @@
    "translations": [
     "der/die Notar/in"
    ],
-   "page": "212-214",
    "definition": "Professionista che certifica documenti.",
    "example": "Il notaio firma il contratto.",
    "usage": "pl. i notai"
@@ -276,7 +258,6 @@
    "translations": [
     "der Beruf"
    ],
-   "page": "212-214",
    "definition": "Lavoro che si fa per vivere.",
    "example": "Qual è la tua professione?",
    "related": "E profession",
@@ -297,7 +278,6 @@
     "angesehen",
     "respektiert"
    ],
-   "page": "212-214",
    "definition": "Considerato con stima.",
    "example": "Il medico è molto rispettato."
   },
@@ -307,7 +287,6 @@
    "translations": [
     "der/die Restaurator/in"
    ],
-   "page": "212-214",
    "definition": "Persona che ripara opere antiche.",
    "example": "La restauratrice lavora su un quadro."
   },
@@ -317,7 +296,6 @@
    "translations": [
     "das Möbel(-stück)"
    ],
-   "page": "212-214",
    "definition": "Oggetto di legno per la casa.",
    "example": "Un mobile antico.",
    "grammar": {
@@ -337,7 +315,6 @@
     "der (Handwerks-)Beruf",
     "das Gewerbe"
    ],
-   "page": "212-214",
    "definition": "Lavoro manuale o artigianale.",
    "example": "Il falegname fa un bel mestiere.",
    "contrast": "il mestiere (handwerklich) – la professione (erlernt)",
@@ -357,7 +334,6 @@
    "translations": [
     "die Arbeit"
    ],
-   "page": "212-214",
    "definition": "Attività che si fa per guadagnare.",
    "example": "Il mio lavoro è interessante.",
    "related": "L labor",
@@ -377,7 +353,6 @@
    "translations": [
     "jdn stören"
    ],
-   "page": "212-214",
    "definition": "Disturbare qualcuno.",
    "example": "Il rumore mi dà fastidio.",
    "acceptedAnswers": [
@@ -391,7 +366,6 @@
    "translations": [
     "das Büro"
    ],
-   "page": "212-214",
    "definition": "Luogo dove si lavora con carte e computer.",
    "example": "Lavoro in un ufficio.",
    "related": "E office",
@@ -403,7 +377,6 @@
    "translations": [
     "reisen"
    ],
-   "page": "212-214",
    "definition": "Spostarsi in luoghi lontani.",
    "example": "Mi piace viaggiare."
   },
@@ -413,7 +386,6 @@
    "translations": [
     "das (Export-)Unternehmen"
    ],
-   "page": "212-214",
    "definition": "Impresa che vende prodotti all’estero.",
    "example": "Lavora in un’azienda di export.",
    "acceptedAnswers": [
@@ -428,7 +400,6 @@
     "unzählig",
     "kinderreich"
    ],
-   "page": "212-214",
    "definition": "Con molti membri.",
    "example": "Ho una famiglia numerosa.",
    "related": "E numerous"
@@ -439,7 +410,6 @@
    "translations": [
     "der Kindergarten"
    ],
-   "page": "212-214",
    "definition": "Scuola per bambini piccoli.",
    "example": "Mia sorella va all’asilo."
   },
@@ -449,7 +419,6 @@
    "translations": [
     "der Stress"
    ],
-   "page": "212-214",
    "definition": "Tensione dovuta a troppo lavoro.",
    "example": "Il lavoro mi dà stress.",
    "grammar": {
@@ -468,7 +437,6 @@
    "translations": [
     "die Wahrheit"
    ],
-   "page": "212-214",
    "definition": "Quello che è vero.",
    "example": "Dimmi la verità!",
    "related": "F la vérité; L veritas",
@@ -489,7 +457,6 @@
     "das Abitur",
     "die Reife"
    ],
-   "page": "212-214",
    "definition": "Esame finale della scuola superiore.",
    "example": "Faccio la maturità in estate.",
    "grammar": {
@@ -508,7 +475,6 @@
    "translations": [
     "die Karriere"
    ],
-   "page": "212-214",
    "definition": "Percorso professionale di una persona.",
    "example": "Vuole fare carriera.",
    "related": "E career",
@@ -528,7 +494,6 @@
    "translations": [
     "(ganz und) gar nicht"
    ],
-   "page": "212-214",
    "definition": "Per niente.",
    "example": "Non sono affatto stanco."
   },
@@ -538,7 +503,6 @@
    "translations": [
     "etwas würde jdm gefallen / gefiele jdm"
    ],
-   "page": "212-214",
    "definition": "Forma di condizionale per dire che qualcosa è gradito.",
    "example": "Mi piacerebbe viaggiare.",
    "family": "piacere",
@@ -553,7 +517,6 @@
     "befehlen",
     "kommandieren"
    ],
-   "page": "212-214",
    "definition": "Dare ordini.",
    "example": "Il capo comanda.",
    "related": "E command; F commander"
@@ -565,7 +528,6 @@
     "er/sie/es möchte",
     "hätte gern"
    ],
-   "page": "212-214",
    "definition": "Forma gentile di “vuole”.",
    "example": "Vorrebbe un caffè.",
    "family": "3. Pers. von vorrei",
@@ -577,7 +539,6 @@
    "translations": [
     "der/die Chef/in"
    ],
-   "page": "212-214",
    "definition": "Persona che guida un gruppo.",
    "example": "Il capo è severo.",
    "related": "L caput",
@@ -598,7 +559,6 @@
     "ergänzen",
     "hinzufügen"
    ],
-   "page": "212-214",
    "definition": "Mettere in più.",
    "example": "Aggiungo un po’ di sale.",
    "related": "L adiungere",
@@ -614,7 +574,6 @@
     "da",
     "weil"
    ],
-   "page": "212-214",
    "definition": "Poiché, dato che.",
    "example": "Siccome piove, non esco."
   },
@@ -624,7 +583,6 @@
    "translations": [
     "apulisch"
    ],
-   "page": "212-214",
    "tags": [
     "fakultativ"
    ],
@@ -637,7 +595,6 @@
    "translations": [
     "die Spezialität"
    ],
-   "page": "212-214",
    "definition": "Cibo o prodotto tipico.",
    "example": "La specialità della casa è la lasagna.",
    "related": "F la spécialité; E speciality",
@@ -657,7 +614,6 @@
    "translations": [
     "im Ausland"
    ],
-   "page": "212-214",
    "definition": "In un altro paese.",
    "example": "Mio zio lavora all’estero."
   }
@@ -665,12 +621,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Unità 4",
-   "section": "Approccio",
-   "pages": "212-214"
+   "unit": "4 · Lavoro e futuro",
+   "section": "Per cominciare"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -681,7 +635,7 @@
    "Beruf"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

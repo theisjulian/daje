@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco1-m3-la-toscana",
- "title": "Ecco più 1 · Modulo · La Toscana",
+ "title": "Primo anno · Extra 3 · In Toscana · Lessico",
  "language": "it",
  "translationLanguage": "de",
  "level": "A1",
- "description": "Wortschatz zu „La Toscana“ aus Ecco più 1 (Modulo, La Toscana).",
+ "description": "Wortschatz Primo anno (1. Lernjahr), Extra 3 · In Toscana, Lessico.",
  "topics": [
   "Reisen",
   "Toskana",
   "Kultur"
  ],
- "collection": "Ecco più 1 (Cornelsen)",
- "section": "Modulo · La Toscana",
+ "collection": "Primo anno",
+ "section": "Extra 3 · In Toscana · Lessico",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 201 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Primo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "zum Beispiel"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -48,7 +45,6 @@
    "translations": [
     "der Dom"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -70,7 +66,6 @@
    "translations": [
     "die Kuppel"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -93,7 +88,6 @@
     "der Besuch",
     "die Besichtigung"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -116,7 +110,6 @@
    "translations": [
     "normalerweise"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -131,7 +124,6 @@
     "versäumen",
     "verlieren"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -145,7 +137,6 @@
    "translations": [
     "besonders"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -159,7 +150,6 @@
    "translations": [
     "je(mals)"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -173,7 +163,6 @@
     "das Souvenir",
     "das Andenken"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -196,7 +185,6 @@
    "translations": [
     "voll von etw./jdm"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -212,7 +200,6 @@
    "translations": [
     "der/die Tourist/-in"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -236,7 +223,6 @@
    "translations": [
     "der Garten"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -259,7 +245,6 @@
    "translations": [
     "der Turm"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -283,7 +268,6 @@
     "nämlich",
     "tatsächlich"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -296,7 +280,6 @@
    "translations": [
     "der Glockenturm"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -318,7 +301,6 @@
    "translations": [
     "(be)zahlen"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -336,7 +318,6 @@
    "translations": [
     "der Karneval"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -358,7 +339,6 @@
    "translations": [
     "der Festzug"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -380,7 +360,6 @@
    "translations": [
     "sich über jdn lustig machen"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -397,7 +376,6 @@
    "translations": [
     "früher oder später"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -410,7 +388,6 @@
    "translations": [
     "die Ruhe"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -433,7 +410,6 @@
    "translations": [
     "die Landschaft"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -457,7 +433,6 @@
    "translations": [
     "bestaunen"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -471,7 +446,6 @@
    "translations": [
     "der Wein"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -495,7 +469,6 @@
     "das Hostel",
     "die (Jugend-)Herberge"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -511,7 +484,6 @@
     "draußen",
     "hinaus"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -524,7 +496,6 @@
    "translations": [
     "an deiner Stelle"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -537,7 +508,6 @@
    "translations": [
     "das Dorf"
    ],
-   "page": "201",
    "tags": [
     "fakultativ"
    ],
@@ -558,12 +528,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Modulo",
-   "section": "La Toscana",
-   "pages": "201"
+   "unit": "Extra 3 · In Toscana",
+   "section": "Lessico"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -574,7 +542,7 @@
    "Kultur"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

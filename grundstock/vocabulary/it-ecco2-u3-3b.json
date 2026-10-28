@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-u3-3b",
- "title": "Ecco più 2 · Unità 3 · 3B Un progetto culturale europeo",
+ "title": "Secondo anno · 3 · Roma ed Europa · Parte B",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Ein europäisches Kulturprojekt“ aus Ecco più 2 (Unità 3, 3B Un progetto culturale europeo).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), 3 · Roma ed Europa, Parte B.",
  "topics": [
   "Europa",
   "Kultur",
   "Projekt"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Unità 3 · 3B Un progetto culturale europeo",
+ "collection": "Secondo anno",
+ "section": "3 · Roma ed Europa · Parte B",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 209-210 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "europäisch"
    ],
-   "page": "209-210",
    "definition": "Che appartiene al continente di cui l’Italia fa parte.",
    "example": "È una squadra europea.",
    "usage": "pl. f. europee"
@@ -45,7 +42,6 @@
    "translations": [
     "(das,) was"
    ],
-   "page": "209-210",
    "definition": "Espressione che introduce una cosa non nominata.",
    "example": "Ciò che dici è giusto."
   },
@@ -55,7 +51,6 @@
    "translations": [
     "die Kultur"
    ],
-   "page": "209-210",
    "definition": "Insieme di tradizioni di un popolo.",
    "example": "Mi interessa la cultura italiana.",
    "related": "E culture",
@@ -75,7 +70,6 @@
    "translations": [
     "der/die Partner/in"
    ],
-   "page": "209-210",
    "definition": "Persona con cui si ha una relazione.",
    "example": "Il mio partner è molto gentile."
   },
@@ -85,7 +79,6 @@
    "translations": [
     "persönlich"
    ],
-   "page": "209-210",
    "definition": "Per quanto mi riguarda.",
    "example": "Personalmente preferisco il mare."
   },
@@ -96,7 +89,6 @@
     "der Charakter",
     "die Eigenheit"
    ],
-   "page": "209-210",
    "definition": "Modo di essere di una persona.",
    "example": "Mia sorella ha un buon carattere.",
    "related": "E character",
@@ -116,7 +108,6 @@
    "translations": [
     "national"
    ],
-   "page": "209-210",
    "definition": "Di uno Stato intero.",
    "example": "La squadra nazionale gioca stasera.",
    "related": "E national"
@@ -127,7 +118,6 @@
    "translations": [
     "das Parlament"
    ],
-   "page": "209-210",
    "definition": "Assemblea che fa le leggi.",
    "example": "Il parlamento italiano è a Roma.",
    "related": "E parliament",
@@ -148,7 +138,6 @@
     "Olympia-",
     "olympisch"
    ],
-   "page": "209-210",
    "definition": "Che riguarda i grandi Giochi sportivi internazionali ogni quattro anni.",
    "example": "Il campione olimpico è italiano."
   },
@@ -159,7 +148,6 @@
     "sich erholen",
     "sich entspannen"
    ],
-   "page": "209-210",
    "definition": "Riposarsi e distendersi.",
    "example": "Mi rilasso ascoltando musica."
   },
@@ -170,7 +158,6 @@
     "heute früh",
     "heute Morgen"
    ],
-   "page": "209-210",
    "definition": "Questa mattina.",
    "example": "Stamattina ho fatto colazione presto.",
    "family": "la mattina"
@@ -182,7 +169,6 @@
     "die Besichtigung",
     "der Besuch"
    ],
-   "page": "209-210",
    "definition": "Andare a vedere qualcosa o qualcuno.",
    "example": "La visita al museo è bellissima.",
    "family": "visitare",
@@ -203,7 +189,6 @@
    "translations": [
     "der Fragebogen"
    ],
-   "page": "209-210",
    "definition": "Lista di domande a cui rispondere.",
    "example": "Compilo un questionario sulla scuola.",
    "related": "F le questionnaire",
@@ -224,7 +209,6 @@
    "translations": [
     "ausfüllen"
    ],
-   "page": "209-210",
    "definition": "Riempire un modulo.",
    "example": "Compilo il modulo con il mio nome."
   },
@@ -234,7 +218,6 @@
    "translations": [
     "gefallen"
    ],
-   "page": "209-210",
    "definition": "Essere gradito.",
    "example": "Mi piace la musica.",
    "related": "F plaire; L placere",
@@ -247,7 +230,6 @@
     "offensichtlich",
     "natürlich"
    ],
-   "page": "209-210",
    "definition": "In modo chiaro per tutti.",
    "example": "Ovviamente vengo con voi.",
    "related": "E obviously"
@@ -258,7 +240,6 @@
    "translations": [
     "ausgeben"
    ],
-   "page": "209-210",
    "definition": "Usare i soldi per comprare.",
    "example": "Spendo troppo per i vestiti.",
    "usage": "p.p. speso"
@@ -269,7 +250,6 @@
    "translations": [
     "die Speisekarte"
    ],
-   "page": "209-210",
    "definition": "Lista dei piatti di un ristorante.",
    "example": "Il cameriere porta il menù.",
    "related": "E menu",
@@ -289,7 +269,6 @@
    "translations": [
     "Wasser mit Kohlensäure"
    ],
-   "page": "209-210",
    "definition": "Acqua con le bollicine.",
    "example": "Preferisco l’acqua frizzante."
   },
@@ -299,7 +278,6 @@
    "translations": [
     "italienische Gaststättenart"
    ],
-   "page": "209-210",
    "definition": "Ristorante semplice con cucina tradizionale.",
    "example": "Mangiamo in una trattoria.",
    "grammar": {
@@ -319,7 +297,6 @@
     "vorbestellen",
     "reservieren"
    ],
-   "page": "209-210",
    "definition": "Riservare un posto in anticipo.",
    "example": "Prenoto un tavolo per quattro."
   },
@@ -329,7 +306,6 @@
    "translations": [
     "entdecken"
    ],
-   "page": "209-210",
    "definition": "Trovare qualcosa di nuovo.",
    "example": "Scopro un bel ristorante.",
    "usage": "p.p. scoperto"
@@ -340,7 +316,6 @@
    "translations": [
     "Gebühr für Tischgedeck"
    ],
-   "page": "209-210",
    "definition": "Piccola somma da pagare al ristorante per il servizio.",
    "example": "Il coperto costa due euro.",
    "grammar": {
@@ -359,7 +334,6 @@
    "translations": [
     "was bedeutet (es) / …"
    ],
-   "page": "209-210",
    "definition": "Domanda per capire il significato.",
    "example": "Che cosa vuol dire “coperto”?"
   },
@@ -370,7 +344,6 @@
     "die Rechnung",
     "die Summe"
    ],
-   "page": "209-210",
    "definition": "Foglio con la somma da pagare.",
    "example": "Il conto, per favore!",
    "grammar": {
@@ -389,7 +362,6 @@
    "translations": [
     "getrennt"
    ],
-   "page": "209-210",
    "definition": "Non unito.",
    "example": "Facciamo conti separati."
   },
@@ -400,7 +372,6 @@
     "also",
     "daher"
    ],
-   "page": "209-210",
    "definition": "Per questa ragione.",
    "example": "Piove, quindi resto a casa."
   },
@@ -410,7 +381,6 @@
    "translations": [
     "funktionieren"
    ],
-   "page": "209-210",
    "definition": "Lavorare bene, come previsto.",
    "example": "Il telefono non funziona."
   },
@@ -420,7 +390,6 @@
    "translations": [
     "Zahlungsart aller Teilnehmer/innen zu gleichen Anteilen"
    ],
-   "page": "209-210",
    "definition": "Dividere il conto in parti uguali.",
    "example": "Paghiamo alla romana."
   },
@@ -431,7 +400,6 @@
     "die Art",
     "die Weise"
    ],
-   "page": "209-210",
    "definition": "Maniera di fare qualcosa.",
    "example": "Questo è il modo giusto.",
    "grammar": {
@@ -450,7 +418,6 @@
    "translations": [
     "weit"
    ],
-   "page": "209-210",
    "definition": "A grande distanza.",
    "example": "La stazione è lontana.",
    "antonyms": "vicino/-a",
@@ -463,7 +430,6 @@
     "von Weitem",
     "aus der Ferne"
    ],
-   "page": "209-210",
    "definition": "Da un posto distante.",
    "example": "Vengo da lontano."
   },
@@ -473,7 +439,6 @@
    "translations": [
     "in jeder Hinsicht"
    ],
-   "page": "209-210",
    "definition": "Sotto ogni aspetto.",
    "example": "È bellissimo, in tutti i sensi."
   },
@@ -484,7 +449,6 @@
     "seltsam",
     "merkwürdig"
    ],
-   "page": "209-210",
    "definition": "Che non è normale.",
    "example": "Che rumore strano!",
    "related": "E strange"
@@ -497,7 +461,6 @@
     "die Speise",
     "der Teller"
    ],
-   "page": "209-210",
    "definition": "Contenitore per il cibo; anche il cibo stesso.",
    "example": "Questo piatto è delizioso.",
    "grammar": {
@@ -516,7 +479,6 @@
    "translations": [
     "stilles Wasser"
    ],
-   "page": "209-210",
    "definition": "Acqua senza bollicine.",
    "example": "Prendo l’acqua naturale."
   },
@@ -526,7 +488,6 @@
    "translations": [
     "der Unterschied"
    ],
-   "page": "209-210",
    "definition": "Elemento che rende due cose diverse.",
    "example": "Qual è la differenza tra i due?",
    "related": "E difference",
@@ -546,7 +507,6 @@
    "translations": [
     "etw. gemeinsam haben"
    ],
-   "page": "209-210",
    "definition": "Condividere con altri.",
    "example": "Abbiamo in comune la passione per il calcio.",
    "acceptedAnswers": [
@@ -560,7 +520,6 @@
     "überraschend",
     "erstaunlich"
    ],
-   "page": "209-210",
    "definition": "Che stupisce.",
    "example": "È un risultato sorprendente."
   },
@@ -570,7 +529,6 @@
    "translations": [
     "da"
    ],
-   "page": "209-210",
    "definition": "Poiché.",
    "example": "Visto che piove, restiamo a casa.",
    "synonyms": "perché"
@@ -581,7 +539,6 @@
    "translations": [
     "der/die Alters-/Zeitgenosse/-in"
    ],
-   "page": "209-210",
    "definition": "Persona della stessa età.",
    "example": "I miei coetanei ascoltano questa musica.",
    "usage": "pl. f. le coetanee"
@@ -590,12 +547,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Unità 3",
-   "section": "3B Un progetto culturale europeo",
-   "pages": "209-210"
+   "unit": "3 · Roma ed Europa",
+   "section": "Parte B"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -606,7 +561,7 @@
    "Projekt"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

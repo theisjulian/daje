@@ -1482,8 +1482,8 @@ function vkPanelHTML() {
         <label class="field">Sprache${sel('language', Object.entries(TheisContent.LANGUAGES))}</label>
         <label class="field">Niveau${sel('level', ED_LEVELS.map(l => [l, l]))}</label>
         ${book
-          ? `${inp('collection', 'Lehrwerk (Reihe)', 'z. B. Ecco più', 'list="vk-series"')}${inp('volume', 'Band', 'z. B. 3', 'inputmode="numeric"')}${inp('publisher', 'Verlag (optional)', 'z. B. Cornelsen', 'list="vk-publishers"')}${inp('unit', 'Lektion', 'z. B. Unità 1')}${inp('section', 'Abschnitt (optional)', 'z. B. 1A')}
-             <datalist id="vk-series">${[...new Set(contentList('vocabulary').map(x => x.catalog?.textbook?.series).filter(Boolean))].map(v => `<option value="${esc(v)}">`).join('')}</datalist><datalist id="vk-publishers"><option value="Cornelsen"><option value="Klett"><option value="C.C. Buchner"><option value="Westermann"></datalist>`
+          ? `${inp('collection', 'Lehrwerk (Reihe)', 'z. B. Corso daje oder eigener Name', 'list="vk-series"')}${inp('volume', 'Band', 'z. B. 3', 'inputmode="numeric"')}${inp('publisher', 'Verlag (optional)', 'optional', 'list="vk-publishers"')}${inp('unit', 'Lektion', 'z. B. Unità 1')}${inp('section', 'Abschnitt (optional)', 'z. B. 1A')}
+             <datalist id="vk-series">${[...new Set(contentList('vocabulary').map(x => x.catalog?.textbook?.series).filter(Boolean))].map(v => `<option value="${esc(v)}">`).join('')}</datalist><datalist id="vk-publishers"></datalist>`
           : `${inp('collection', 'Sammlung', 'z. B. Oberstufe Q11')}${inp('section', 'Titel der Liste', 'z. B. Lettura: Le città invisibili')}`}
         ${book ? inp('pages', 'Seiten', 'z. B. 170–171', 'inputmode="numeric"') : `<label class="field">Umfang${sel('count', [['15', 'knapp · etwa 15'], ['25', 'normal · etwa 25'], ['40', 'ausführlich · etwa 40']])}</label>`}
         <label class="field">Klassenstufe (optional)${sel('grade', [['', '–'], ...[5, 6, 7, 8, 9, 10, 11, 12, 13].map(n => [String(n), String(n)])])}</label>
@@ -1581,7 +1581,7 @@ document.addEventListener('click', e => {
    „Genau“ ist die Ausnahme: solche Übungen bleiben privat (origin original), lassen sich weder einreichen
    noch live stellen. Eine Antwort der KI ergibt mehrere Übungen zu einem Thema, je Stufe. */
 const GK_KEY = 'daje-ki-grammatik-v1';
-const GK_DEFAULT = { mode: 'eigen', language: 'it', level: 'A1', topicTitle: '', series: 'Ecco più', volume: '1', publisher: 'Cornelsen', unit: '', section: '', pages: '', grade: '', levels: 'leicht,mittel,schwer', perLevel: '2', wishes: '', answer: '' };
+const GK_DEFAULT = { mode: 'eigen', language: 'it', level: 'A1', topicTitle: '', series: 'Corso daje', volume: '1', publisher: '', unit: '', section: '', pages: '', grade: '', levels: 'leicht,mittel,schwer', perLevel: '2', wishes: '', answer: '' };
 let gkOpen = false,
   gkForm = null,
   gkCommand = null;
@@ -1606,7 +1606,7 @@ function gkPanelHTML() {
         <label class="field">Sprache${sel('language', Object.entries(TheisContent.LANGUAGES))}</label>
         <label class="field">Niveau${sel('level', ED_LEVELS.map(l => [l, l]))}</label>
         ${inp('topicTitle', scan ? 'Grammatikthema (optional)' : 'Grammatikthema', 'z. B. Passato prossimo mit essere', 'list="gk-topics"')}
-        ${inp('series', 'Lehrwerk (Reihe)', 'z. B. Ecco più')}${inp('volume', 'Band', 'z. B. 1', 'inputmode="numeric"')}${inp('unit', 'Lektion', 'z. B. Unità 4')}
+        ${inp('series', 'Lehrwerk (Reihe)', 'z. B. Corso daje')}${inp('volume', 'Band', 'z. B. 1', 'inputmode="numeric"')}${inp('unit', 'Lektion', 'z. B. Unità 4')}
         ${scan ? inp('section', 'Abschnitt (optional)', 'z. B. B') + inp('pages', 'Seiten', 'z. B. 64–65') : ''}
         ${f.mode === 'genau' ? '' : `<label class="field">Übungen je Stufe${sel('perLevel', [['1', '1'], ['2', '2'], ['3', '3']])}</label>`}
         <label class="field">Klassenstufe (optional)${sel('grade', [['', '–'], ...[5, 6, 7, 8, 9, 10, 11, 12, 13].map(n => [String(n), String(n)])])}</label>
@@ -1643,7 +1643,7 @@ function gkInputs() {
     unit: f.unit.trim(),
     section: f.mode === 'thema' ? '' : f.section.trim(),
     pages: f.mode === 'thema' ? '' : f.pages.trim(),
-    publisher: /ecco/i.test(f.series) ? 'Cornelsen' : '',
+    publisher: '',
     levels: f.levels.split(',').filter(Boolean)
   };
 }

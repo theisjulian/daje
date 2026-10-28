@@ -6,7 +6,7 @@ Dieses Dokument ersetzt für den Einstieg `START-HIER.md` und die älteren Datei
 
 Buildlose Browser-Anwendung für Lehrkräfte und Lernende (viel iPad/iPhone) von Julian Theis (Marke „theis“, Lehrer für Englisch/Italienisch, OVMG München):
 - **Hörverstehen**: Katalog von Hörübungen (Audio, YouTube-Einbettung, Film-Karte, Weblink-Karte, Browser-Sprachausgabe) mit Aufgaben (7 Typen), Korrektur mit Erklärungen, Transkript-Hilfe, Lehrkräfteansicht (Aufgabenblatt/Lösungsschlüssel als A4/PDF/Word, QR-Code, Einbett-Link).
-- **Wortschatz**: Lehrbuch-Listen (Ecco più 1 und 2, Cornelsen; Ecco 3 folgt) nach Buch → Unità/Lezione/Seiten wählbar; Üben (Karten, Schreiben, Zuordnen, Definitionen, Bildimpulse), Spaced Repetition, Druck/Word-Dokumente, Verbentrainer (5 Zeiten, regelmäßig + unregelmäßig).
+- **Wortschatz**: Lehrbuch-Listen (Primo anno und 2,; Lernjahr folgt) nach Buch → Unità/Lezione/Seiten wählbar; Üben (Karten, Schreiben, Zuordnen, Definitionen, Bildimpulse), Spaced Repetition, Druck/Word-Dokumente, Verbentrainer (5 Zeiten, regelmäßig + unregelmäßig).
 - Lernprofile lokal im Browser (Export/Import), 12 Farbwelten, wählbare Schriften, UI-Sprachen DE/IT/EN/FR + einfache Formen (IT/EN/FR).
 - Repo: `https://github.com/theisjulian/daje` (nur dorthin pushen). Veröffentlichung: GitHub Pages über `.github/workflows/veroeffentlichen.yml` (bündelt den Grundstock, lädt `portal/dist` hoch). Geplante Adresse `daje.theisapps.de`; aktuell `theisjulian.github.io/daje/`.
 
@@ -19,7 +19,7 @@ Buildlose Browser-Anwendung für Lehrkräfte und Lernende (viel iPad/iPhone) von
 - Updates dürfen nie Nutzerdaten verlieren (localStorage-Schlüssel behalten ihre alten Namen `ripassa-*` **absichtlich**).
 - Erfundene Namen nur in Demos. DE→IT-Übersetzungstests unerwünscht. Nicht mit Funktionen überladen – bei Überladung „Stopp“ sagen.
 - Inhalte: nichts erfinden; Quellen nennen; Herkunft/Prüfhinweise nie in den sichtbaren Transkripttext.
-- Ecco-Importe: jedes Wort muss dem richtigen Kapitel/der richtigen Seite zugeordnet sein; bei Zweifel Scan erneut lesen.
+- Lehrwerk-Importe: jedes Wort muss dem richtigen Kapitel/der richtigen Seite zugeordnet sein; bei Zweifel Scan erneut lesen.
 - Commits enden mit `Co-Authored-By: Claude … <noreply@anthropic.com>` und `Claude-Session: …`.
 
 ## 3. Aufbau des Quellcodes
@@ -68,7 +68,7 @@ Reihenfolge nach Inhaltsänderung: Generator → `bundle_stock.cjs` → Tests �
 1. Generierte `stock-data.js` (43.000 Zeilen) liegt im Git; Doppelpflege Generator/Ausgabe. Idee: nur Quellen committen, CI generiert, oder Pakete als JSON nachladen (Ladezeit, Offline!).
 2. CI führt **keine Tests** und `bundle_stock.cjs … || true` verschluckt Fehler. Besser: Tests + Validierung brechen den Deploy ab.
 3. Hörpakete entstehen aus Python-Quelltext (`Q`-Helfer). Es gibt kein Format „Aufgabe schreiben, ohne Python zu können“. Überlegen: YAML/Markdown-Quelle + Prüfer.
-4. Ecco-Import ist manuelle Abschrift aus Scans. OCR + Gegenprüfung (Seitenzuordnung!) automatisieren; Ecco 3 più folgt, Kapitelzuordnung muss exakt sein.
+4. Lehrwerk-Import ist manuelle Abschrift aus Scans. OCR + Gegenprüfung (Seitenzuordnung!) automatisieren; Kapitelzuordnung muss exakt sein.
 5. KI-Pipeline (Gemini) ist gebaut, aber nie gelaufen; Schlüssel liegt bei Julian. Ablauf, Prompt-Qualität (10–20 Aufgaben in Blöcken, Typenmix, Transkript-Treue) und Validierung gegen `qualitaet.py` testen.
 6. Aufgabenqualität: Die 25 Lied-/Film-Pakete wurden **ohne Zugriff auf Audio/Video** geschrieben (nur Fakten/Allgemeinwissen). Echte Hör-Aufgaben brauchen Transkript (privater Import) → Pipeline „Transkript → Aufgaben → Prüfung“ bauen.
 7. `qualitaet.py` findet: bei 74 Einzelauswahl-Aufgaben ist die richtige Option die längste (Test-Trick), 167 Wörter ohne Beispielsatz (v. a. Redemittel/Arbeitsaufträge).
@@ -77,8 +77,8 @@ Reihenfolge nach Inhaltsänderung: Generator → `bundle_stock.cjs` → Tests �
 
 ## 5. Stand der Inhalte
 - Hören: 25 Lied-/Film-Pakete (50 Special, American Pie, C’è ancora domani, Don’t Look Back in Anger, Don’t Look Up, Fairytale of New York, I Want It That Way, La vita è bella, Lay All Your Love On Me, Perfetti sconosciuti, Stan, Tu si a fine do’ munno) in Stufen; 15 ältere Pakete mit Transkript (davon 12 erweitert; Rai-Paket entfernt). Katalog zeigt 42.
-- Wortschatz: Ecco più 1 und 2 vollständig (Lista cronologica), Anhang A (Alphabet-Redemittel, Arbeitsaufträge, **Zahlen 0–2 Mrd., Ordnungszahlen, Wochentage, Monate**). Feld `contrast` = „Unterscheide“-Kasten, `related` = E/F/L-Verwandte, `definition`/`example` eigene Texte.
-- Verben: ~80 Verben; Abgleich mit Ecco-2-Scan S. 186–191 und 194–195 erfolgt; **S. 188–189, 192–193, 196–197 nicht gesichtet**.
+- Wortschatz: Primo anno und 2 vollständig (Wortliste), Anhang A (Alphabet-Redemittel, Arbeitsaufträge, **Zahlen 0–2 Mrd., Ordnungszahlen, Wochentage, Monate**). Feld `contrast` = „Unterscheide“-Kasten, `related` = E/F/L-Verwandte, `definition`/`example` eigene Texte.
+- Verben: ~80 Verben; Abgleich mit Scan Lernjahr 2 S. 186–191 und 194–195 erfolgt; **S. 188–189, 192–193, 196–197 nicht gesichtet**.
 - Medientyp `link` (BBC/NPR/TED) vorhanden, aber noch ohne Paket.
 
 ## 6. Letzte Änderungen (diese Sitzung)
@@ -86,7 +86,7 @@ Cover-Kacheln; 50 Special nur Lied; alte Pakete 11–24 Aufgaben; Rai entfernt; 
 
 ## 7. Offene Punkte
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.
-- Ecco 3 più importieren (nach Scan, exakte Kapitelzuordnung).
+- Lernjahr più importieren (nach Scan, exakte Kapitelzuordnung).
 - Hör-Aufgaben mit Transkript/Audio neu ableiten; Pipeline automatisieren (siehe 4).
 - mebis-Einbettung (`?hoeren=ID&embed=1`) in mebis selbst testen; BBC/NPR/TED-Pakete anlegen.
 - Supabase/gemeinsames theis-Login: nur Konzept (`uebergabe/08`), nichts gebaut/angelegt.

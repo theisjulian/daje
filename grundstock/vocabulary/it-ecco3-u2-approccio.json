@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco3-u2-approccio",
- "title": "Ecco più 3 · Unità 2 · Approccio",
+ "title": "Terzo anno · 2 · Vivere all’estero · Per cominciare",
  "language": "it",
  "translationLanguage": "de",
  "level": "B1",
- "description": "Wortschatz zu „Ampliare gli orizzonti“ aus Ecco più 3 (Unità 2, Approccio).",
+ "description": "Wortschatz Terzo anno (3. Lernjahr), 2 · Vivere all’estero, Per cominciare.",
  "topics": [
   "Medien",
   "Internet",
   "Einkaufen"
  ],
- "collection": "Ecco più 3 (Cornelsen)",
- "section": "Unità 2 · Approccio",
+ "collection": "Terzo anno",
+ "section": "2 · Vivere all’estero · Per cominciare",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 171 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Terzo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "die Quelle"
    ],
-   "page": "171",
    "definition": "Il posto da cui viene un’informazione o l’acqua.",
    "example": "Devi sempre controllare la fonte di una notizia.",
    "related": "L fons",
@@ -54,7 +51,6 @@
    "translations": [
     "unvollständig"
    ],
-   "page": "171",
    "definition": "A cui manca una parte.",
    "example": "La tua risposta è incompleta.",
    "related": "E incomplete; F incomplet(-ète)"
@@ -66,7 +62,6 @@
     "falsch",
     "fehlerhaft"
    ],
-   "page": "171",
    "definition": "Che non è giusto.",
    "example": "Questa informazione è scorretta.",
    "antonyms": "corretto",
@@ -78,7 +73,6 @@
    "translations": [
     "kompliziert"
    ],
-   "page": "171",
    "definition": "Difficile da capire.",
    "example": "Le regole di questo gioco sono complicate.",
    "related": "E complicated; F compliqué(e)"
@@ -89,7 +83,6 @@
    "translations": [
     "das Material"
    ],
-   "page": "171",
    "definition": "Le cose che servono per un lavoro.",
    "example": "Ho tutto il materiale per la presentazione.",
    "related": "E material",
@@ -109,7 +102,6 @@
    "translations": [
     "der Nachteil"
    ],
-   "page": "171",
    "definition": "Un aspetto negativo.",
    "example": "Abitare in campagna ha anche degli svantaggi.",
    "related": "E disadvantage; F désavantage",
@@ -131,7 +123,6 @@
     "anspruchsvoll",
     "fordernd"
    ],
-   "page": "171",
    "definition": "Che vuole sempre il massimo.",
    "example": "La nostra prof di matematica è molto esigente.",
    "related": "E exigent; F exigeant(e)"
@@ -142,7 +133,6 @@
    "translations": [
     "das Abonnement"
    ],
-   "page": "171",
    "definition": "Un contratto per usare un servizio per un certo tempo.",
    "example": "Ho un abbonamento per lo streaming di musica."
   },
@@ -153,7 +143,6 @@
     "jetzt",
     "nunmehr"
    ],
-   "page": "171",
    "definition": "A questo punto, adesso.",
    "example": "Ormai è tardi, andiamo a dormire."
   },
@@ -163,7 +152,6 @@
    "translations": [
     "praktisch, dass"
    ],
-   "page": "171",
    "definition": "Comodo che.",
    "example": "È pratico che il supermercato sia vicino a casa.",
    "usage": "+ cong."
@@ -175,7 +163,6 @@
     "das Sofa",
     "die Couch"
    ],
-   "page": "171",
    "definition": "Un posto comodo per sedersi in salotto.",
    "example": "La sera guardo le serie sul divano.",
    "grammar": {
@@ -194,7 +181,6 @@
    "translations": [
     "bestellen"
    ],
-   "page": "171",
    "definition": "Chiedere di portare o mandare una cosa.",
    "example": "Abbiamo ordinato due pizze.",
    "family": "l’ordine"
@@ -205,7 +191,6 @@
    "translations": [
     "der (Waren-)Artikel"
    ],
-   "page": "171",
    "definition": "Una cosa che si vende in un negozio.",
    "example": "Questo articolo è in offerta.",
    "related": "E article; F article"
@@ -216,7 +201,6 @@
    "translations": [
     "zurück"
    ],
-   "page": "171",
    "definition": "Verso il punto da cui si è partiti.",
    "example": "Mi ha dato indietro il libro.",
    "usage": "avv."
@@ -227,7 +211,6 @@
    "translations": [
     "es schaffen"
    ],
-   "page": "171",
    "definition": "Riuscire a fare una cosa difficile.",
    "example": "Ce la faccio a finire i compiti prima di cena.",
    "family": "fare",
@@ -239,7 +222,6 @@
    "translations": [
     "der Vorteil"
    ],
-   "page": "171",
    "definition": "Un aspetto positivo.",
    "example": "Il vantaggio della bici è che non inquina.",
    "related": "E advantage; F avantage",
@@ -260,7 +242,6 @@
    "translations": [
     "sparen"
    ],
-   "page": "171",
    "definition": "Non spendere soldi per averne di più dopo.",
    "example": "Risparmio per comprare una chitarra."
   },
@@ -270,7 +251,6 @@
    "translations": [
     "der (Ein-)Kauf"
    ],
-   "page": "171",
    "definition": "Una cosa che hai comprato.",
    "example": "Le scarpe nuove sono state un buon acquisto.",
    "family": "acquistare"
@@ -281,7 +261,6 @@
    "translations": [
     "privat"
    ],
-   "page": "171",
    "definition": "Di una sola persona, non di tutti.",
    "example": "Questa è una spiaggia privata.",
    "antonyms": "pubblico/-a"
@@ -292,7 +271,6 @@
    "translations": [
     "auf der einen Seite … auf der anderen Seite …"
    ],
-   "page": "171",
    "definition": "Si usa per presentare due aspetti diversi.",
    "example": "Da una parte internet è utile, dall’altra parte è pericoloso."
   },
@@ -302,7 +280,6 @@
    "translations": [
     "austauschen"
    ],
-   "page": "171",
    "definition": "Dare una cosa e riceverne un’altra.",
    "example": "Ci scambiamo le figurine.",
    "family": "cambiare"
@@ -313,7 +290,6 @@
    "translations": [
     "der Inhalt"
    ],
-   "page": "171",
    "definition": "Quello che c’è dentro.",
    "example": "Il contenuto del video è interessante.",
    "related": "E content; F contenu",
@@ -333,7 +309,6 @@
    "translations": [
     "die Antwort"
    ],
-   "page": "171",
    "definition": "Quello che dici dopo una domanda.",
    "example": "Aspetto ancora la tua risposta.",
    "family": "rispondere",
@@ -355,7 +330,6 @@
     "der Beitrag",
     "der Post"
    ],
-   "page": "171",
    "definition": "Un messaggio pubblicato sui social.",
    "example": "Il suo ultimo post ha tanti like.",
    "family": "postare",
@@ -377,7 +351,6 @@
    "translations": [
     "etw. genießen"
    ],
-   "page": "171",
    "definition": "Trovare piacere in una cosa.",
    "example": "Mi godo le vacanze al mare.",
    "acceptedAnswers": [
@@ -390,7 +363,6 @@
    "translations": [
     "weder … noch"
    ],
-   "page": "171",
    "definition": "Non questo e non quello.",
    "example": "Non mi piace né il pesce né la carne."
   },
@@ -400,7 +372,6 @@
    "translations": [
     "vielleicht"
    ],
-   "page": "171",
    "definition": "Forse, chissà.",
    "example": "Magari domani andiamo al cinema.",
    "synonyms": "forse"
@@ -411,7 +382,6 @@
    "translations": [
     "der Spaß"
    ],
-   "page": "171",
    "definition": "Una cosa che piace e fa ridere.",
    "example": "Il divertimento è assicurato!",
    "family": "divertirsi",
@@ -429,12 +399,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "3",
-   "unit": "Unità 2",
-   "section": "Approccio",
-   "pages": "171"
+   "unit": "2 · Vivere all’estero",
+   "section": "Per cominciare"
   },
   "grade": 10,
   "foreignLanguageNo": 3,
@@ -445,7 +413,7 @@
    "Einkaufen"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

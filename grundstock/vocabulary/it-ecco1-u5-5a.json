@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco1-u5-5a",
- "title": "Ecco più 1 · Unità 5 · 5A",
+ "title": "Primo anno · 5 · Famiglia e gite · Parte A",
  "language": "it",
  "translationLanguage": "de",
  "level": "A1",
- "description": "Wortschatz zu „Gli angeli biondi“ aus Ecco più 1 (Unità 5, 5A).",
+ "description": "Wortschatz Primo anno (1. Lernjahr), 5 · Famiglia e gite, Parte A.",
  "topics": [
   "Familie",
   "Charakter",
   "Geburtstag"
  ],
- "collection": "Ecco più 1 (Cornelsen)",
- "section": "Unità 5 · 5A",
+ "collection": "Primo anno",
+ "section": "5 · Famiglia e gite · Parte A",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 187-188 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Primo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "der Engel"
    ],
-   "page": "187-188",
    "definition": "Essere con le ali nelle storie religiose.",
    "example": "Un angelo veglia su di te.",
    "related": "E angel; F l’ange"
@@ -46,7 +43,6 @@
     "unglaublich",
     "verrückt"
    ],
-   "page": "187-188",
    "definition": "Incredibile, fuori dal normale.",
    "example": "Ho una novità pazzesca!",
    "usage": "pl. pazzeschi/-che"
@@ -57,7 +53,6 @@
    "translations": [
     "der Anfang"
    ],
-   "page": "187-188",
    "definition": "Il momento in cui comincia qualcosa.",
    "example": "Partiamo dall’inizio.",
    "antonyms": "la fine",
@@ -70,7 +65,6 @@
    "translations": [
     "gestern"
    ],
-   "page": "187-188",
    "definition": "Il giorno prima di oggi.",
    "example": "Ieri ho visto un film.",
    "antonyms": "domani",
@@ -83,7 +77,6 @@
    "translations": [
     "der/die Verwandte"
    ],
-   "page": "187-188",
    "definition": "Persona della stessa famiglia.",
    "example": "Unterscheide: it. i parenti – die Verwandten; engl. parents – die Eltern",
    "usage": "pl. i parenti",
@@ -103,7 +96,6 @@
    "translations": [
     "einladen"
    ],
-   "page": "187-188",
    "definition": "Chiedere a qualcuno di venire a una festa.",
    "example": "Alla festa invito gli amici.",
    "related": "E invite; F inviter"
@@ -117,7 +109,6 @@
     "das",
     "den"
    ],
-   "page": "187-188",
    "definition": "Piccola parola che introduce una frase.",
    "example": "La nonna, che ha 82 anni, ha ballato.",
    "related": "F qui/-e",
@@ -130,7 +121,6 @@
     "normalerweise",
     "meistens"
    ],
-   "page": "187-188",
    "definition": "Quasi sempre, in genere.",
    "example": "Mia cugina di solito è simpatica.",
    "usage": "avv."
@@ -142,7 +132,6 @@
     "kaputt machen",
     "hier: nerven"
    ],
-   "page": "187-188",
    "definition": "Fare in pezzi un oggetto.",
    "example": "Ho rotto un bicchiere.",
    "related": "L rumpere",
@@ -155,7 +144,6 @@
     "bewahren",
     "aufrechterhalten"
    ],
-   "page": "187-188",
    "definition": "Conservare qualcosa nel tempo.",
    "example": "Puoi mantenere un segreto?",
    "related": "E to maintain",
@@ -171,7 +159,6 @@
    "translations": [
     "das Geheimnis"
    ],
-   "page": "187-188",
    "definition": "Cosa che non si deve dire a nessuno.",
    "example": "Non dirlo a nessuno: è un segreto!",
    "related": "E secret; F le secret",
@@ -191,7 +178,6 @@
    "translations": [
     "halten"
    ],
-   "page": "187-188",
    "definition": "Stringere o conservare qualcosa.",
    "example": "Tengo il libro in mano.",
    "related": "F tenir; L tenere",
@@ -207,7 +193,6 @@
     "die Rede",
     "der Vortrag"
    ],
-   "page": "187-188",
    "definition": "Parole che una persona dice a un pubblico.",
    "example": "Mio zio ha tenuto un discorso.",
    "grammar": {
@@ -227,7 +212,6 @@
     "die Frau",
     "Dame"
    ],
-   "page": "187-188",
    "definition": "Persona adulta di sesso femminile.",
    "example": "La donna aspetta l’autobus.",
    "related": "L domina",
@@ -247,7 +231,6 @@
    "translations": [
     "lebhaft"
    ],
-   "page": "187-188",
    "definition": "Pieno di energia.",
    "example": "Il bambino è molto vivace.",
    "family": "la vita"
@@ -258,7 +241,6 @@
    "translations": [
     "für sein/ihr Alter"
    ],
-   "page": "187-188",
    "definition": "Considerata l’età di una persona.",
    "example": "Mia nonna è molto vivace alla sua età."
   },
@@ -268,7 +250,6 @@
    "translations": [
     "ehrlich"
    ],
-   "page": "187-188",
    "definition": "Che dice la verità.",
    "example": "Sii sincero con me.",
    "related": "E sincere; F sincère"
@@ -279,7 +260,6 @@
    "translations": [
     "erfahren haben"
    ],
-   "page": "187-188",
    "definition": "Aver ricevuto una notizia.",
    "example": "Ho saputo che sei in Italia.",
    "usage": "Abc: so – ich weiß; ho saputo – ich habe erfahren"
@@ -290,7 +270,6 @@
    "translations": [
     "das/die Schaufenster(scheibe)"
    ],
-   "page": "187-188",
    "definition": "Grande vetro di un negozio.",
    "example": "Papà ha rotto una vetrina con il pallone.",
    "grammar": {
@@ -309,7 +288,6 @@
    "translations": [
     "der Abend (Verlauf)"
    ],
-   "page": "187-188",
    "definition": "L’intero periodo che va dal tramonto alla notte.",
    "example": "Abbiamo passato una bella serata.",
    "family": "la sera",
@@ -331,7 +309,6 @@
    "translations": [
     "das Abendessen"
    ],
-   "page": "187-188",
    "definition": "Pasto della sera.",
    "example": "Stasera mio padre prepara la cena.",
    "related": "L cena",
@@ -351,7 +328,6 @@
    "translations": [
     "der Kellner"
    ],
-   "page": "187-188",
    "definition": "Persona che serve ai tavoli di un ristorante.",
    "example": "Il cameriere del ristorante porta la cena.",
    "usage": "f. la cameriera",
@@ -371,7 +347,6 @@
    "translations": [
     "der/die Nachbar/-in"
    ],
-   "page": "187-188",
    "definition": "Persona che abita nella casa accanto.",
    "example": "Il mio vicino ha un cane.",
    "family": "vicino a",
@@ -393,7 +368,6 @@
    "translations": [
     "schüchtern"
    ],
-   "page": "187-188",
    "definition": "Che si imbarazza con le altre persone.",
    "example": "Il ragazzo parla poco – è timido.",
    "related": "E timid"
@@ -405,7 +379,6 @@
     "sich blamieren",
     "einen schlechten Eindruck machen"
    ],
-   "page": "187-188",
    "definition": "Fare una brutta impressione davanti agli altri.",
    "example": "Ho fatto una figuraccia davanti a tutti.",
    "usage": "Abc"
@@ -416,7 +389,6 @@
    "translations": [
     "öffnen"
    ],
-   "page": "187-188",
    "definition": "Rendere accessibile qualcosa.",
    "example": "Il cameriere apre la bottiglia.",
    "family": "aperto/-a",
@@ -429,7 +401,6 @@
    "translations": [
     "die Flasche"
    ],
-   "page": "187-188",
    "definition": "Contenitore di vetro per i liquidi.",
    "example": "Il cameriere apre la bottiglia.",
    "related": "E bottle; F la bouteille",
@@ -450,7 +421,6 @@
     "(ab)waschen",
     "hier: nass spritzen"
    ],
-   "page": "187-188",
    "definition": "Pulire con l’acqua.",
    "example": "Lavo le mani prima di mangiare.",
    "related": "F laver; L lavare"
@@ -461,7 +431,6 @@
    "translations": [
     "arm"
    ],
-   "page": "187-188",
    "definition": "Che ha pochi soldi.",
    "example": "Il povero cane è bagnato.",
    "related": "E poor; F pauvre; L pauper/-eris"
@@ -472,7 +441,6 @@
    "translations": [
     "plötzlich"
    ],
-   "page": "187-188",
    "definition": "All’improvviso, senza avvisare.",
    "example": "Improvvisamente la porta si apre.",
    "usage": "avv."
@@ -483,7 +451,6 @@
    "translations": [
     "Herzlichen Glückwunsch!"
    ],
-   "page": "187-188",
    "definition": "Frase per festeggiare una persona.",
    "example": "Tanti auguri, nonna!"
   },
@@ -493,7 +460,6 @@
    "translations": [
     "Alles Gute zum Geburtstag!"
    ],
-   "page": "187-188",
    "definition": "Frase per augurare un bel compleanno.",
    "example": "Buon compleanno, Anna!"
   },
@@ -503,7 +469,6 @@
    "translations": [
     "wiedererkennen"
    ],
-   "page": "187-188",
    "definition": "Capire chi è una persona che già si conosce.",
    "example": "Ti riconosco dalla voce.",
    "family": "conoscere",
@@ -515,7 +480,6 @@
    "translations": [
     "viel"
    ],
-   "page": "187-188",
    "definition": "In grande quantità.",
    "example": "Ho tanti amici.",
    "antonyms": "poco/-a",
@@ -527,7 +491,6 @@
    "translations": [
     "vor (zeitlich)"
    ],
-   "page": "187-188",
    "definition": "Parola che indica un tempo già passato.",
    "example": "L’autobus è partito cinque minuti fa.",
    "usage": "prep. (nachgestellt). Unterscheide: due anni fa – vor zwei Jahren; Anna fa i compiti. – Anna macht Hausaufgaben."
@@ -538,7 +501,6 @@
    "translations": [
     "der Zwilling"
    ],
-   "page": "187-188",
    "definition": "Fratello nato lo stesso giorno.",
    "example": "Anna ha due fratelli gemelli.",
    "related": "F les jumeaux; L gemelli",
@@ -560,7 +522,6 @@
     "jdm/etw. ähnlich",
     "gleich"
    ],
-   "page": "187-188",
    "definition": "Identico, senza differenza.",
    "example": "Frank è uguale a Matthias. Sono come gemelli.",
    "acceptedAnswers": [
@@ -575,7 +536,6 @@
     "der Typ",
     "die Art"
    ],
-   "page": "187-188",
    "definition": "Persona o categoria di cose.",
    "example": "Il calcio è un tipo di sport.",
    "grammar": {
@@ -595,7 +555,6 @@
     "humorvoll",
     "witzig"
    ],
-   "page": "187-188",
    "definition": "Che fa ridere con le parole.",
    "example": "Mio zio è molto divertente e spiritoso."
   },
@@ -605,7 +564,6 @@
    "translations": [
     "Deutschland"
    ],
-   "page": "187-188",
    "definition": "Paese europeo con capitale Berlino.",
    "example": "La Germania è a nord dell’Italia.",
    "grammar": {
@@ -624,7 +582,6 @@
    "translations": [
     "schwierig"
    ],
-   "page": "187-188",
    "definition": "Che richiede molta fatica.",
    "example": "Il compito di latino è difficile.",
    "antonyms": "facile",
@@ -637,7 +594,6 @@
    "translations": [
     "Italien"
    ],
-   "page": "187-188",
    "definition": "Paese europeo con forma di stivale.",
    "example": "L’Italia si affaccia sul Mediterraneo."
   },
@@ -648,7 +604,6 @@
     "sich vertragen",
     "gut verstehen"
    ],
-   "page": "187-188",
    "definition": "Avere buoni rapporti con qualcuno.",
    "example": "Io e mia sorella andiamo d’accordo.",
    "related": "F être d’accord",
@@ -660,7 +615,6 @@
    "translations": [
     "das Profil"
    ],
-   "page": "187-188",
    "definition": "Scheda con le informazioni su una persona.",
    "example": "Quasi tutti hanno un profilo in Internet.",
    "grammar": {
@@ -680,7 +634,6 @@
     "die Umarmung",
     "Herzliche Grüße (Brief)"
    ],
-   "page": "187-188",
    "definition": "Gesto di stringere qualcuno tra le braccia.",
    "example": "Un abbraccio dalla tua amica!",
    "related": "E embrace",
@@ -692,7 +645,6 @@
    "translations": [
     "Bis bald!"
    ],
-   "page": "187-188",
    "definition": "Saluto che dice: ci vediamo molto presto.",
    "example": "A presto, ragazzi!"
   },
@@ -702,7 +654,6 @@
    "translations": [
     "der Gruß"
    ],
-   "page": "187-188",
    "definition": "Parola o gesto per dire “ciao”.",
    "example": "Tanti saluti a tutti!",
    "related": "F le salut; L salut",
@@ -723,7 +674,6 @@
     "der Rat",
     "Tipp"
    ],
-   "page": "187-188",
    "definition": "Suggerimento per aiutare qualcuno.",
    "example": "Hai un consiglio per me?",
    "related": "F le conseil; L consilium",
@@ -744,7 +694,6 @@
    "translations": [
     "Rom (die Hauptstadt von Italien)"
    ],
-   "page": "187-188",
    "definition": "Capitale d’Italia.",
    "example": "Roma è famosa per il Colosseo."
   }
@@ -752,12 +701,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Unità 5",
-   "section": "5A",
-   "pages": "187-188"
+   "unit": "5 · Famiglia e gite",
+   "section": "Parte A"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -768,7 +715,7 @@
    "Geburtstag"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

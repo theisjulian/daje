@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco1-m2-arte-cultura-scienze",
- "title": "Ecco più 1 · Modulo · Arte, cultura e scienze",
+ "title": "Primo anno · Extra 2 · Arte e scienza · Lessico",
  "language": "it",
  "translationLanguage": "de",
  "level": "A1",
- "description": "Wortschatz zu „Arte, cultura e scienze“ aus Ecco più 1 (Modulo, Arte, cultura e scienze).",
+ "description": "Wortschatz Primo anno (1. Lernjahr), Extra 2 · Arte e scienza, Lessico.",
  "topics": [
   "Kultur",
   "Kunst",
   "Wissenschaft"
  ],
- "collection": "Ecco più 1 (Cornelsen)",
- "section": "Modulo · Arte, cultura e scienze",
+ "collection": "Primo anno",
+ "section": "Extra 2 · Arte e scienza · Lessico",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 200 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Primo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "die Kultur"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -58,7 +55,6 @@
     "etw./jdn betrachten als",
     "halten für"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -75,7 +71,6 @@
    "translations": [
     "deshalb"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -88,7 +83,6 @@
    "translations": [
     "reisen"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -101,7 +95,6 @@
    "translations": [
     "das Jenseits"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -115,7 +108,6 @@
     "das Zeitalter",
     "die Epoche"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -130,7 +122,6 @@
     "klug",
     "intelligent"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -144,7 +135,6 @@
    "translations": [
     "aktiv"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -158,7 +148,6 @@
    "translations": [
     "unter anderem"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -171,7 +160,6 @@
    "translations": [
     "die 1-Euro-Münze"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -193,7 +181,6 @@
    "translations": [
     "geboren werden"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -206,7 +193,6 @@
    "translations": [
     "berühmt"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -221,7 +207,6 @@
     "die Zeichnung",
     "das Bild"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -243,7 +228,6 @@
    "translations": [
     "das Genie"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -268,7 +252,6 @@
     "das Gemälde",
     "das Bild"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -290,7 +273,6 @@
    "translations": [
     "aufbewahren"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -303,7 +285,6 @@
    "translations": [
     "ungefähr"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -317,7 +298,6 @@
     "die Notizen",
     "die Aufzeichnungen"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -340,7 +320,6 @@
    "translations": [
     "der Hubschrauber"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -354,7 +333,6 @@
    "translations": [
     "alle"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -368,7 +346,6 @@
    "translations": [
     "das Lächeln"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -391,7 +368,6 @@
    "translations": [
     "geheimnisvoll"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -404,7 +380,6 @@
    "translations": [
     "das Museum"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -428,7 +403,6 @@
     "der Holländer",
     "die Holländerin"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -442,7 +416,6 @@
    "translations": [
     "bauen"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -460,7 +433,6 @@
    "translations": [
     "das Fernrohr"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -482,7 +454,6 @@
    "translations": [
     "die Kopie"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -504,7 +475,6 @@
    "translations": [
     "die Hilfe"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -518,7 +488,6 @@
     "das Universum",
     "das Weltall"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -532,7 +501,6 @@
    "translations": [
     "die Kirche"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -554,7 +522,6 @@
    "translations": [
     "das Urteil aufheben"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -567,7 +534,6 @@
    "translations": [
     "die Nationalhymne"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -580,7 +546,6 @@
    "translations": [
     "offiziell"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -594,7 +559,6 @@
    "translations": [
     "Oper"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -607,7 +571,6 @@
    "translations": [
     "der Erfolg"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -630,7 +593,6 @@
    "translations": [
     "der/die Schriftsteller/in"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -654,7 +616,6 @@
     "der Operntext",
     "das Libretto"
    ],
-   "page": "200",
    "tags": [
     "fakultativ"
    ],
@@ -674,12 +635,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Modulo",
-   "section": "Arte, cultura e scienze",
-   "pages": "200"
+   "unit": "Extra 2 · Arte e scienza",
+   "section": "Lessico"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -690,7 +649,7 @@
    "Wissenschaft"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco3-u2-per-comunicare",
- "title": "Ecco più 3 · Unità 2 · Per comunicare",
+ "title": "Terzo anno · 2 · Vivere all’estero · Frasi utili",
  "language": "it",
  "translationLanguage": "de",
  "level": "B1",
- "description": "Wortschatz zu „Vor- und Nachteile, Mediennutzung, Erlebnisse“ aus Ecco più 3 (Unità 2, Per comunicare).",
+ "description": "Wortschatz Terzo anno (3. Lernjahr), 2 · Vivere all’estero, Frasi utili.",
  "topics": [
   "Redemittel",
   "Medien",
   "Argumentieren"
  ],
- "collection": "Ecco più 3 (Cornelsen)",
- "section": "Unità 2 · Per comunicare",
+ "collection": "Terzo anno",
+ "section": "2 · Vivere all’estero · Frasi utili",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 175 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Terzo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,7 +33,6 @@
     "auch wenn",
     "obwohl"
    ],
-   "page": "175",
    "definition": "Si usa per dire un limite o un contrasto.",
    "example": "Trovo tutto online, anche se non tutte le fonti sono utili."
   },
@@ -45,7 +42,6 @@
    "translations": [
     "Der Nachteil ist, dass …"
    ],
-   "page": "175",
    "definition": "Si usa per presentare un aspetto negativo.",
    "example": "Lo svantaggio è che si passa troppo tempo al telefono."
   },
@@ -55,7 +51,6 @@
    "translations": [
     "Der Vorteil ist, dass …"
    ],
-   "page": "175",
    "definition": "Si usa per presentare un aspetto positivo.",
    "example": "Il vantaggio è che si risparmia tempo."
   },
@@ -65,7 +60,6 @@
    "translations": [
     "Es ist so praktisch …"
    ],
-   "page": "175",
    "definition": "Si usa per dire che una cosa è comoda.",
    "example": "È così pratico fare la spesa online."
   },
@@ -75,7 +69,6 @@
    "translations": [
     "Wenn es das Internet nicht gäbe, …"
    ],
-   "page": "175",
    "definition": "Si usa per immaginare una situazione diversa.",
    "example": "Se non ci fosse Internet, sarebbe tutto più complicato.",
    "usage": "+ condizionale"
@@ -86,7 +79,6 @@
    "translations": [
     "Wenn ich keinen Sinn darin sähe, würde ich es nicht tun."
    ],
-   "page": "175",
    "definition": "Si usa per formulare una condizione.",
    "example": "Se non ci vedessi un senso, non lo farei mai."
   },
@@ -96,7 +88,6 @@
    "translations": [
     "Das Erste, was mir aufgefallen ist …"
    ],
-   "page": "175",
    "definition": "Si usa per raccontare un’impressione.",
    "example": "La prima cosa che ho notato erano le tante biciclette."
   },
@@ -106,7 +97,6 @@
    "translations": [
     "Anfangs konnte ich es nicht glauben."
    ],
-   "page": "175",
    "definition": "Si usa per dire che una cosa ti ha sorpreso molto.",
    "example": "All’inizio non ci potevo credere: la scuola finiva alle tre!"
   },
@@ -116,7 +106,6 @@
    "translations": [
     "Es war auch ein Abenteuer …"
    ],
-   "page": "175",
    "definition": "Si usa per raccontare un’esperienza speciale.",
    "example": "È stata anche un’avventura vedere il mare del Nord."
   }
@@ -124,12 +113,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "3",
-   "unit": "Unità 2",
-   "section": "Per comunicare",
-   "pages": "175"
+   "unit": "2 · Vivere all’estero",
+   "section": "Frasi utili"
   },
   "grade": 10,
   "foreignLanguageNo": 3,
@@ -140,7 +127,7 @@
    "Argumentieren"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

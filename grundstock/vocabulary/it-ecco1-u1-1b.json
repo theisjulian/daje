@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco1-u1-1b",
- "title": "Ecco più 1 · Unità 1 · 1B",
+ "title": "Primo anno · 1 · La città · Parte B",
  "language": "it",
  "translationLanguage": "de",
  "level": "A1",
- "description": "Wortschatz zu „In giro per il quartiere“ aus Ecco più 1 (Unità 1, 1B).",
+ "description": "Wortschatz Primo anno (1. Lernjahr), 1 · La città, Parte B.",
  "topics": [
   "Stadt",
   "Freizeit",
   "Sport"
  ],
- "collection": "Ecco più 1 (Cornelsen)",
- "section": "Unità 1 · 1B",
+ "collection": "Primo anno",
+ "section": "1 · La città · Parte B",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 170-171 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Primo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,7 +33,6 @@
     "die Rundfahrt",
     "der Spaziergang"
    ],
-   "page": "170-171",
    "definition": "Percorso breve per vedere un posto o per passeggiare.",
    "example": "Facciamo un giro in centro.",
    "grammar": {
@@ -54,7 +51,6 @@
    "translations": [
     "das Wohnviertel"
    ],
-   "page": "170-171",
    "definition": "Parte di una città dove abitano molte persone.",
    "example": "Il mio quartiere è tranquillo.",
    "related": "F le quartier",
@@ -74,7 +70,6 @@
    "translations": [
     "heute"
    ],
-   "page": "170-171",
    "definition": "Il giorno in cui siamo adesso.",
    "example": "Oggi è sabato.",
    "usage": "avv."
@@ -85,7 +80,6 @@
    "translations": [
     "nehmen"
    ],
-   "page": "170-171",
    "definition": "Mettere in mano o usare un mezzo di trasporto.",
    "example": "Prendo un caffè.",
    "related": "F prendre"
@@ -96,7 +90,6 @@
    "translations": [
     "das Fahrrad"
    ],
-   "page": "170-171",
    "definition": "Mezzo con due ruote e pedali.",
    "example": "Vado a scuola in bicicletta.",
    "related": "E bicycle; F la bicyclette",
@@ -116,7 +109,6 @@
    "translations": [
     "etw. besichtigen"
    ],
-   "page": "170-171",
    "definition": "Andare a vedere un luogo con curiosità.",
    "example": "Visitiamo il museo.",
    "related": "E to visit; F visiter",
@@ -132,7 +124,6 @@
     "es gibt",
     "da/dort ist + Sg."
    ],
-   "page": "170-171",
    "definition": "Si usa per dire che una cosa o una persona è presente in un luogo.",
    "example": "A Roma c’è il Colosseo.",
    "contrast": "c’è – es gibt, da ist; che? – was?"
@@ -144,7 +135,6 @@
     "es gibt",
     "da/dort sind + Pl."
    ],
-   "page": "170-171",
    "definition": "Si usa per dire che più cose o persone sono presenti in un luogo.",
    "example": "Nel parco ci sono due bambini."
   },
@@ -155,7 +145,6 @@
     "das Geschäft",
     "der Laden"
    ],
-   "page": "170-171",
    "definition": "Luogo dove si comprano le cose.",
    "example": "Il negozio apre alle nove.",
    "usage": "pl. i negozi",
@@ -175,7 +164,6 @@
    "translations": [
     "der Papa"
    ],
-   "page": "170-171",
    "definition": "Il padre, detto in modo affettuoso.",
    "example": "Il papà prepara la cena.",
    "contrast": "il papà – der Papa; il papa – der Papst",
@@ -195,7 +183,6 @@
    "translations": [
     "fantastisch"
    ],
-   "page": "170-171",
    "definition": "Bellissimo, meraviglioso.",
    "example": "Che film fantastico!",
    "usage": "pl. fantastici/fantastiche"
@@ -206,7 +193,6 @@
    "translations": [
     "verkaufen"
    ],
-   "page": "170-171",
    "definition": "Dare una cosa in cambio di soldi.",
    "example": "Il negozio vende scarpe.",
    "related": "F vendre; L vendere"
@@ -217,7 +203,6 @@
    "translations": [
     "der Sport"
    ],
-   "page": "170-171",
    "definition": "Attività fisica come il calcio o il nuoto.",
    "example": "Il mio sport preferito è il tennis.",
    "usage": "pl. gli sport",
@@ -238,7 +223,6 @@
     "der Fußballer",
     "der Fußballspieler"
    ],
-   "page": "170-171",
    "definition": "Persona che gioca a calcio.",
    "example": "Il calciatore segna un gol.",
    "family": "il calcio",
@@ -259,7 +243,6 @@
     "ansehen",
     "schauen"
    ],
-   "page": "170-171",
    "definition": "Usare gli occhi per vedere con attenzione.",
    "example": "Guardo un film."
   },
@@ -269,7 +252,6 @@
    "translations": [
     "oft"
    ],
-   "page": "170-171",
    "definition": "Molte volte, di frequente.",
    "example": "Vado spesso al parco.",
    "usage": "avv."
@@ -281,7 +263,6 @@
     "die Partie",
     "das Spiel (Ballsport)"
    ],
-   "page": "170-171",
    "definition": "Gara tra due squadre o due giocatori.",
    "example": "La partita comincia alle cinque.",
    "grammar": {
@@ -301,7 +282,6 @@
     "danach",
     "dann"
    ],
-   "page": "170-171",
    "definition": "In un momento successivo.",
    "example": "Dopo la scuola faccio i compiti.",
    "usage": "avv."
@@ -312,7 +292,6 @@
    "translations": [
     "durch etw. durchfahren/-gehen"
    ],
-   "page": "170-171",
    "definition": "Attraversare un luogo mentre vai in un altro.",
    "example": "Per andare in centro passo per il parco.",
    "related": "F passer (par)",
@@ -327,7 +306,6 @@
     "das Feld",
     "das Spielfeld (Ballsport)"
    ],
-   "page": "170-171",
    "definition": "Terreno dove si gioca una partita o dove crescono le piante.",
    "example": "I ragazzi giocano nel campo.",
    "related": "F le champ; L campus",
@@ -347,7 +325,6 @@
    "translations": [
     "der Sportplatz"
    ],
-   "page": "170-171",
    "definition": "Area attrezzata per fare sport.",
    "example": "Il campo sportivo è vicino alla scuola.",
    "family": "lo sport",
@@ -367,7 +344,6 @@
    "translations": [
     "die Skaterbahn"
    ],
-   "page": "170-171",
    "definition": "Area speciale dove si va sullo skateboard.",
    "example": "La pista di skateboard è sempre piena.",
    "grammar": {
@@ -386,7 +362,6 @@
    "translations": [
     "der Fußballplatz"
    ],
-   "page": "170-171",
    "definition": "Terreno con le porte dove si gioca a calcio.",
    "example": "Il campo di calcio è di erba.",
    "grammar": {
@@ -405,7 +380,6 @@
    "translations": [
     "der Basketballplatz"
    ],
-   "page": "170-171",
    "definition": "Area con due canestri dove si gioca a pallacanestro.",
    "example": "Il campo di basket è all’aperto.",
    "grammar": {
@@ -424,7 +398,6 @@
    "translations": [
     "ideal"
    ],
-   "page": "170-171",
    "definition": "Perfetto per uno scopo.",
    "example": "È il posto ideale per un picnic."
   },
@@ -435,7 +408,6 @@
     "für",
     "um … zu"
    ],
-   "page": "170-171",
    "definition": "Costruzione che indica lo scopo di un’azione.",
    "example": "Il parco è ideale per giocare."
   },
@@ -445,7 +417,6 @@
    "translations": [
     "inlineskaten"
    ],
-   "page": "170-171",
    "definition": "Muoversi su ruote o su ghiaccio con speciali scarpe.",
    "example": "Mi piace pattinare nel parco.",
    "acceptedAnswers": [
@@ -459,7 +430,6 @@
     "sehen",
     "wahrnehmen"
    ],
-   "page": "170-171",
    "definition": "Percepire con gli occhi.",
    "example": "Vedo un bel film.",
    "related": "F voir; L videre"
@@ -470,7 +440,6 @@
    "translations": [
     "die Inlineskates"
    ],
-   "page": "170-171",
    "definition": "Scarpe con ruote in fila, per muoversi veloci.",
    "example": "Metto i pattini e vado al parco.",
    "family": "pattinare inline",
@@ -496,7 +465,6 @@
     "bereits",
     "gewiss"
    ],
-   "page": "170-171",
    "definition": "Parola per dire che qualcosa è successo prima.",
    "example": "Ho già fatto i compiti.",
    "usage": "avv."
@@ -508,7 +476,6 @@
     "zurückkehren",
     "zurückkommen"
    ],
-   "page": "170-171",
    "definition": "Andare di nuovo nel posto da cui sei partito.",
    "example": "Torno a casa alle tre."
   },
@@ -519,7 +486,6 @@
     "dann",
     "danach"
    ],
-   "page": "170-171",
    "definition": "Dopo, in seguito.",
    "example": "Prima faccio i compiti, poi gioco.",
    "synonyms": "dopo",
@@ -533,7 +499,6 @@
     "zu",
     "nach (Richtung)"
    ],
-   "page": "170-171",
    "definition": "Piccola parola che indica luogo o tempo.",
    "example": "Vivo in Germania.",
    "contrast": "1. bei Ländern/Regionen: Abito in Italia (Wo?); Torno in Italia (Wohin?) – 2. bei Städten: Abito a Torino (Wo?); Torno a Torino (Wohin?) – 3. auch: Sono a scuola (Wo?); Torno a scuola (Wohin?)"
@@ -544,7 +509,6 @@
    "translations": [
     "die Attraktion"
    ],
-   "page": "170-171",
    "definition": "Luogo o cosa che interessa molto i turisti.",
    "example": "La torre è un’attrazione famosa.",
    "usage": "f."
@@ -555,7 +519,6 @@
    "translations": [
     "das Gebäude"
    ],
-   "page": "170-171",
    "definition": "Costruzione grande, come una casa o una scuola.",
    "example": "L’edificio ha cinque piani.",
    "related": "F l’édifice; L aedificium",
@@ -567,7 +530,6 @@
    "translations": [
     "der Palast"
    ],
-   "page": "170-171",
    "definition": "Edificio grande e importante, antico o moderno.",
    "example": "Il palazzo è in centro.",
    "grammar": {
@@ -586,7 +548,6 @@
    "translations": [
     "Warum nicht?"
    ],
-   "page": "170-171",
    "definition": "Risposta che significa “certo!”.",
    "example": "Vieni con noi? – Come no?"
   },
@@ -597,7 +558,6 @@
     "hinten",
     "im Hintergrund"
    ],
-   "page": "170-171",
    "definition": "Nella parte più lontana o più bassa di qualcosa.",
    "example": "In fondo alla strada c’è un parco.",
    "usage": "avv."
@@ -608,7 +568,6 @@
    "translations": [
     "bei + Pers."
    ],
-   "page": "170-171",
    "definition": "Piccola parola per “a casa di” o per un punto di partenza.",
    "example": "Sono da Marco."
   },
@@ -618,7 +577,6 @@
    "translations": [
     "Los!"
    ],
-   "page": "170-171",
    "definition": "Esclamazione per incoraggiare o per insistere.",
    "example": "Dai, andiamo!",
    "usage": "richtet sich an eine Person"
@@ -629,7 +587,6 @@
    "translations": [
     "Hallo alle zusammen!"
    ],
-   "page": "170-171",
    "definition": "Saluto rivolto a un gruppo di persone.",
    "example": "Ciao a tutti! Come state?"
   }
@@ -637,12 +594,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Unità 1",
-   "section": "1B",
-   "pages": "170-171"
+   "unit": "1 · La città",
+   "section": "Parte B"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -653,7 +608,7 @@
    "Sport"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

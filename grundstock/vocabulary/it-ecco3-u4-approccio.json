@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco3-u4-approccio",
- "title": "Ecco più 3 · Unità 4 · Approccio",
+ "title": "Terzo anno · 4 · Nord e Sud · Per cominciare",
  "language": "it",
  "translationLanguage": "de",
  "level": "B1",
- "description": "Wortschatz zu „Tra Nord e Sud“ aus Ecco più 3 (Unità 4, Approccio).",
+ "description": "Wortschatz Terzo anno (3. Lernjahr), 4 · Nord e Sud, Per cominciare.",
  "topics": [
   "Wirtschaft",
   "Nord",
   "Süd"
  ],
- "collection": "Ecco più 3 (Cornelsen)",
- "section": "Unità 4 · Approccio",
+ "collection": "Terzo anno",
+ "section": "4 · Nord e Sud · Per cominciare",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 181-182 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Terzo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,7 +33,6 @@
     "die Heimat",
     "der (Wohn-)Sitz"
    ],
-   "page": "181-182",
    "definition": "Il paese dove si è nati; il posto di origine di una cosa.",
    "example": "Napoli è la patria della pizza.",
    "related": "F la patrie",
@@ -55,7 +52,6 @@
    "translations": [
     "Auto(mobil)-"
    ],
-   "page": "181-182",
    "definition": "Che riguarda le automobili.",
    "example": "Torino è famosa per l’industria automobilistica.",
    "usage": "pl. automobilistici/-istiche"
@@ -66,7 +62,6 @@
    "translations": [
     "Textil-"
    ],
-   "page": "181-182",
    "definition": "Che riguarda le stoffe.",
    "example": "A Prato ci sono molte aziende tessili."
   },
@@ -76,7 +71,6 @@
    "translations": [
     "Lebensmittel-"
    ],
-   "page": "181-182",
    "definition": "Che riguarda il cibo.",
    "example": "L’industria alimentare è importante in Emilia-Romagna."
   },
@@ -87,7 +81,6 @@
     "Schiffs-",
     "See-"
    ],
-   "page": "181-182",
    "definition": "Che riguarda le navi.",
    "example": "A Genova c’è un grande cantiere navale."
   },
@@ -97,7 +90,6 @@
    "translations": [
     "die Krise"
    ],
-   "page": "181-182",
    "definition": "Un periodo difficile.",
    "example": "Durante la crisi molte persone hanno perso il lavoro.",
    "usage": "pl. le crisi",
@@ -118,7 +110,6 @@
     "ortsansässig",
     "heimisch"
    ],
-   "page": "181-182",
    "definition": "Del posto.",
    "example": "Compro frutta e verdura dai contadini locali.",
    "related": "E local"
@@ -129,7 +120,6 @@
    "translations": [
     "weiterverwenden"
    ],
-   "page": "181-182",
    "definition": "Usare di nuovo.",
    "example": "Riutilizziamo le bottiglie di vetro."
   },
@@ -139,7 +129,6 @@
    "translations": [
     "die Fabrik"
    ],
-   "page": "181-182",
    "definition": "Un edificio dove si producono cose con le macchine.",
    "example": "Mio zio lavora in una fabbrica di scarpe.",
    "usage": "pl. le fabbriche",
@@ -159,7 +148,6 @@
    "translations": [
     "die Messe"
    ],
-   "page": "181-182",
    "definition": "Una grande esposizione di prodotti.",
    "example": "Alla fiera del libro c’erano tanti autori.",
    "grammar": {
@@ -178,7 +166,6 @@
    "translations": [
     "das Einkaufszentrum"
    ],
-   "page": "181-182",
    "definition": "Un grande edificio con tanti negozi.",
    "example": "Sabato andiamo al centro commerciale.",
    "grammar": {
@@ -198,7 +185,6 @@
     "die Rolle",
     "die Funktion"
    ],
-   "page": "181-182",
    "definition": "La parte o il compito di una persona o di una cosa.",
    "example": "Il turismo ha un ruolo importante al Sud.",
    "grammar": {
@@ -217,7 +203,6 @@
    "translations": [
     "die Wirtschaft"
    ],
-   "page": "181-182",
    "definition": "L’insieme di produzione, lavoro e soldi di un paese.",
    "example": "L’economia italiana dipende molto dalle esportazioni.",
    "related": "E economy; F économie",
@@ -229,7 +214,6 @@
    "translations": [
     "das Niveau"
    ],
-   "page": "181-182",
    "definition": "L’altezza o la qualità di una cosa.",
    "example": "Il livello di questo corso è B1.",
    "related": "E level",
@@ -249,7 +233,6 @@
    "translations": [
     "bilden"
    ],
-   "page": "181-182",
    "definition": "Creare, fare nascere un gruppo o una cosa.",
    "example": "Abbiamo formato una band."
   },
@@ -259,7 +242,6 @@
    "translations": [
     "die Genossenschaft"
    ],
-   "page": "181-182",
    "definition": "Un gruppo di aziende che lavorano insieme.",
    "example": "Il consorzio protegge la qualità del Parmigiano.",
    "usage": "pl. i consorzi",
@@ -280,7 +262,6 @@
     "festlegen",
     "definieren"
    ],
-   "page": "181-182",
    "definition": "Dire con precisione che cos’è una cosa.",
    "example": "È difficile definire la felicità.",
    "usage": "(-isc-)"
@@ -291,7 +272,6 @@
    "translations": [
     "die Qualität"
    ],
-   "page": "181-182",
    "definition": "Quanto una cosa è buona.",
    "example": "Questo olio è di ottima qualità.",
    "grammar": {
@@ -310,7 +290,6 @@
    "translations": [
     "die Infrastruktur"
    ],
-   "page": "181-182",
    "definition": "Strade, treni, reti: le strutture di base di un paese.",
    "example": "Al Sud mancano ancora molte infrastrutture."
   },
@@ -322,7 +301,6 @@
     "uneinheitlich",
     "unklar"
    ],
-   "page": "181-182",
    "definition": "Che si può capire in modi diversi.",
    "example": "La sua risposta era ambigua.",
    "related": "E ambiguous"
@@ -333,7 +311,6 @@
    "translations": [
     "die Autobahn"
    ],
-   "page": "181-182",
    "definition": "Una strada grande e veloce tra le città.",
    "example": "In autostrada c’è sempre traffico ad agosto."
   },
@@ -343,7 +320,6 @@
    "translations": [
     "die Baustelle"
    ],
-   "page": "181-182",
    "definition": "Il posto dove si costruisce qualcosa.",
    "example": "Davanti a casa mia c’è un cantiere rumoroso.",
    "grammar": {
@@ -362,7 +338,6 @@
    "translations": [
     "die Dauer"
    ],
-   "page": "181-182",
    "definition": "Quanto tempo dura una cosa.",
    "example": "La durata del film è di due ore.",
    "grammar": {
@@ -381,7 +356,6 @@
    "translations": [
     "die Mafia"
    ],
-   "page": "181-182",
    "definition": "Un’organizzazione criminale molto potente.",
    "example": "Molti giovani si impegnano contro la mafia.",
    "grammar": {
@@ -401,7 +375,6 @@
     "darstellen",
     "verkörpern"
    ],
-   "page": "181-182",
    "definition": "Essere il simbolo di qualcosa; mostrare.",
    "example": "Il Colosseo rappresenta la storia di Roma."
   },
@@ -412,7 +385,6 @@
     "die Leistungsfähigkeit",
     "die Wirksamkeit"
    ],
-   "page": "181-182",
    "definition": "La capacità di fare bene un lavoro senza sprecare tempo.",
    "example": "L’efficienza dei treni tedeschi è famosa."
   },
@@ -422,7 +394,6 @@
    "translations": [
     "die Modernität"
    ],
-   "page": "181-182",
    "definition": "Il fatto di essere moderno.",
    "example": "Milano è il simbolo della modernità italiana.",
    "grammar": {
@@ -442,7 +413,6 @@
     "ländlich",
     "bäuerlich"
    ],
-   "page": "181-182",
    "definition": "Della campagna.",
    "example": "Molte zone rurali del Sud si stanno svuotando.",
    "related": "E rural"
@@ -453,7 +423,6 @@
    "translations": [
     "verbessern"
    ],
-   "page": "181-182",
    "definition": "Rendere migliore.",
    "example": "Voglio migliorare il mio italiano.",
    "family": "meglio"
@@ -464,7 +433,6 @@
    "translations": [
     "der Arbeitsplatz"
    ],
-   "page": "181-182",
    "definition": "Il lavoro di una persona; il luogo dove lavora.",
    "example": "La nuova fabbrica ha creato cento posti di lavoro.",
    "grammar": {
@@ -484,7 +452,6 @@
     "bewirken",
     "hervorrufen"
    ],
-   "page": "181-182",
    "definition": "Essere la causa di una cosa.",
    "example": "Il traffico provoca inquinamento."
   },
@@ -494,7 +461,6 @@
    "translations": [
     "der Mangel"
    ],
-   "page": "181-182",
    "definition": "Il fatto che una cosa non c’è.",
    "example": "La mancanza di lavoro spinge molti giovani a partire.",
    "family": "mancare",
@@ -514,7 +480,6 @@
    "translations": [
     "die Arbeitskraft"
    ],
-   "page": "181-182",
    "definition": "Tutte le persone che lavorano o possono lavorare.",
    "example": "Le donne sono metà della forza lavoro.",
    "grammar": {
@@ -531,12 +496,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "3",
-   "unit": "Unità 4",
-   "section": "Approccio",
-   "pages": "181-182"
+   "unit": "4 · Nord e Sud",
+   "section": "Per cominciare"
   },
   "grade": 10,
   "foreignLanguageNo": 3,
@@ -547,7 +510,7 @@
    "Süd"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

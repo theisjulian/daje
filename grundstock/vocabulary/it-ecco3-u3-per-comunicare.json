@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco3-u3-per-comunicare",
- "title": "Ecco più 3 · Unità 3 · Per comunicare",
+ "title": "Terzo anno · 3 · Società e solidarietà · Frasi utili",
  "language": "it",
  "translationLanguage": "de",
  "level": "B1",
- "description": "Wortschatz zu „Sachverhalte, Bedingungen der Vergangenheit, Gefühle“ aus Ecco più 3 (Unità 3, Per comunicare).",
+ "description": "Wortschatz Terzo anno (3. Lernjahr), 3 · Società e solidarietà, Frasi utili.",
  "topics": [
   "Redemittel",
   "Bedingungen",
   "Gefühle"
  ],
- "collection": "Ecco più 3 (Cornelsen)",
- "section": "Unità 3 · Per comunicare",
+ "collection": "Terzo anno",
+ "section": "3 · Società e solidarietà · Frasi utili",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 180-181 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Terzo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "Es besteht kein Zweifel daran, dass …"
    ],
-   "page": "180-181",
    "definition": "Si usa per presentare una cosa sicura.",
    "example": "Non c’è dubbio sul fatto che il turismo aiuti l’economia."
   },
@@ -44,7 +41,6 @@
    "translations": [
     "Das betrifft vor allem …"
    ],
-   "page": "180-181",
    "definition": "Si usa per dire chi o che cosa è interessato.",
    "example": "Ciò riguarda soprattutto le persone anziane."
   },
@@ -54,7 +50,6 @@
    "translations": [
     "Das führt zu …"
    ],
-   "page": "180-181",
    "definition": "Si usa per dire una conseguenza.",
    "example": "Ciò porta a seri problemi di traffico."
   },
@@ -64,7 +59,6 @@
    "translations": [
     "Schon seit Jahren …"
    ],
-   "page": "180-181",
    "definition": "Da molto tempo.",
    "example": "Già da anni la città si dedica al turismo sostenibile."
   },
@@ -74,7 +68,6 @@
    "translations": [
     "Hätte ich es nicht mit eigenen Augen gesehen, hätte ich es nie geglaubt."
    ],
-   "page": "180-181",
    "definition": "Si usa per una condizione nel passato.",
    "example": "Se non l’avessi visto con i miei occhi, non ci avrei mai creduto: Venezia era vuota!"
   },
@@ -84,7 +77,6 @@
    "translations": [
     "Wäre ich nicht weggefahren, hätte ich nie …"
    ],
-   "page": "180-181",
    "definition": "Si usa per immaginare un passato diverso.",
    "example": "Se non fossi partita, non avrei mai conosciuto questi amici."
   },
@@ -94,7 +86,6 @@
    "translations": [
     "Wie schrecklich!"
    ],
-   "page": "180-181",
    "definition": "Si dice quando una cosa fa paura o schifo.",
    "example": "Che orrore questo film!"
   },
@@ -104,7 +95,6 @@
    "translations": [
     "Ich hatte wirklich große Angst."
    ],
-   "page": "180-181",
    "definition": "Si usa per raccontare uno spavento.",
    "example": "Durante il temporale ho avuto davvero tanta paura."
   },
@@ -114,7 +104,6 @@
    "translations": [
     "Auch wenn ich eigentlich nicht glaube, dass …"
    ],
-   "page": "180-181",
    "definition": "Si usa per relativizzare un’opinione.",
    "example": "Speriamo bene, anche se in realtà non credo che cambierà molto.",
    "usage": "+ cong."
@@ -125,7 +114,6 @@
    "translations": [
     "Unsere Region ist bekannt für …"
    ],
-   "page": "180-181",
    "definition": "Si usa per presentare una regione.",
    "example": "La nostra regione è conosciuta per il vino."
   },
@@ -135,7 +123,6 @@
    "translations": [
     "Der perfekte Ort für …"
    ],
-   "page": "180-181",
    "definition": "Si usa per consigliare un luogo.",
    "example": "Le Dolomiti sono il posto perfetto per sciare."
   },
@@ -145,7 +132,6 @@
    "translations": [
     "Aus diesen Gründen …"
    ],
-   "page": "180-181",
    "definition": "Si usa per riassumere le ragioni.",
    "example": "Per questi motivi la mia regione è molto visitata."
   },
@@ -155,7 +141,6 @@
    "translations": [
     "Das Problem ist, dass …"
    ],
-   "page": "180-181",
    "definition": "Si usa per presentare una difficoltà.",
    "example": "Il problema è che l’isola dipende dal turismo estivo."
   }
@@ -163,12 +148,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "3",
-   "unit": "Unità 3",
-   "section": "Per comunicare",
-   "pages": "180-181"
+   "unit": "3 · Società e solidarietà",
+   "section": "Frasi utili"
   },
   "grade": 10,
   "foreignLanguageNo": 3,
@@ -179,7 +162,7 @@
    "Gefühle"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

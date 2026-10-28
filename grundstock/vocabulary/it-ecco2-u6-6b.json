@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-u6-6b",
- "title": "Ecco più 2 · Unità 6 · 6B Creatività italiana: due ritratti",
+ "title": "Secondo anno · 6 · Città e creatività · Parte B",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Zwei Porträts“ aus Ecco più 2 (Unità 6, 6B Creatività italiana: due ritratti).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), 6 · Città e creatività, Parte B.",
  "topics": [
   "Kunst",
   "Musik",
   "Kreativität"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Unità 6 · 6B Creatività italiana: due ritratti",
+ "collection": "Secondo anno",
+ "section": "6 · Città e creatività · Parte B",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 225-226 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "das Gesicht"
    ],
-   "page": "225-226",
    "definition": "Faccia.",
    "example": "Ha un volto sereno.",
    "grammar": {
@@ -54,7 +51,6 @@
     "das lyrische Theater",
     "die Oper"
    ],
-   "page": "225-226",
    "definition": "Teatro dove si fanno le opere.",
    "example": "Il teatro lirico di Milano è la Scala.",
    "grammar": {
@@ -73,7 +69,6 @@
    "translations": [
     "der/die Opernsänger/in"
    ],
-   "page": "225-226",
    "definition": "Cantante d’opera.",
    "example": "La cantante lirica ha una voce potente."
   },
@@ -83,7 +78,6 @@
    "translations": [
     "hier: der Auftritt"
    ],
-   "page": "225-226",
    "definition": "Momento in cui qualcuno compare in scena.",
    "example": "L’entrata del cantante è molto attesa."
   },
@@ -93,7 +87,6 @@
    "translations": [
     "die Bühne"
    ],
-   "page": "225-226",
    "definition": "Parte del teatro dove si recita.",
    "example": "Il cantante è in scena.",
    "related": "E scene",
@@ -113,7 +106,6 @@
    "translations": [
     "der/die Statist/in"
    ],
-   "page": "225-226",
    "definition": "Persona che appare in scena senza parlare.",
    "example": "Faccio la comparsa in un’opera.",
    "grammar": {
@@ -132,7 +124,6 @@
    "translations": [
     "die Jugend(-zeit)"
    ],
-   "page": "225-226",
    "definition": "Periodo tra infanzia ed età adulta.",
    "example": "L’adolescenza è un periodo di cambiamento.",
    "related": "E adolescence; L adulescentia"
@@ -143,7 +134,6 @@
    "translations": [
     "das Interesse"
    ],
-   "page": "225-226",
    "definition": "Attenzione per qualcosa.",
    "example": "Ho interesse per la musica.",
    "usage": "m."
@@ -154,7 +144,6 @@
    "translations": [
     "künstlerisch"
    ],
-   "page": "225-226",
    "definition": "Che riguarda l’arte.",
    "example": "Frequento il liceo artistico.",
    "related": "E artistic"
@@ -166,7 +155,6 @@
     "der Gesang",
     "das Singen"
    ],
-   "page": "225-226",
    "definition": "Arte di produrre melodie con la voce.",
    "example": "Studio canto.",
    "family": "cantare, il/la cantante",
@@ -187,7 +175,6 @@
    "translations": [
     "die Teilnahme"
    ],
-   "page": "225-226",
    "definition": "Il prendere parte a qualcosa.",
    "example": "La partecipazione è gratuita.",
    "related": "E participation",
@@ -207,7 +194,6 @@
    "translations": [
     "auf sich aufmerksam machen"
    ],
-   "page": "225-226",
    "definition": "Attirare l’attenzione.",
    "example": "Si fa notare per la voce."
   },
@@ -218,7 +204,6 @@
     "die Epoche",
     "die Zeit"
    ],
-   "page": "225-226",
    "definition": "Periodo storico.",
    "example": "È l’epoca di internet.",
    "usage": "pl. le epoche"
@@ -230,7 +215,6 @@
     "debütieren",
     "zum ersten Mal öffentlich auftreten"
    ],
-   "page": "225-226",
    "definition": "Esibirsi per la prima volta.",
    "example": "Debutta a diciotto anni.",
    "related": "F débuter"
@@ -242,7 +226,6 @@
     "die Reihe",
     "die Serie"
    ],
-   "page": "225-226",
    "definition": "Successione di cose simili.",
    "example": "Una serie di concerti.",
    "related": "E series",
@@ -264,7 +247,6 @@
     "die Oper",
     "das Werk"
    ],
-   "page": "225-226",
    "definition": "Lavoro artistico o spettacolo cantato.",
    "example": "L’opera dura tre ore.",
    "related": "E opera"
@@ -275,7 +257,6 @@
    "translations": [
     "aufnehmen (Ton)"
    ],
-   "page": "225-226",
    "definition": "Registrare su disco.",
    "example": "Incide un disco.",
    "usage": "p.p. inciso"
@@ -286,7 +267,6 @@
    "translations": [
     "die CD"
    ],
-   "page": "225-226",
    "definition": "Disco con musica registrata.",
    "example": "Compro un CD.",
    "grammar": {
@@ -306,7 +286,6 @@
     "die Partitur",
     "die Noten"
    ],
-   "page": "225-226",
    "definition": "Pagine con le note per l’orchestra.",
    "example": "La partitura è difficile.",
    "grammar": {
@@ -325,7 +304,6 @@
    "translations": [
     "die Aufnahme"
    ],
-   "page": "225-226",
    "definition": "Raccolta di suoni o immagini.",
    "example": "La registrazione è chiara.",
    "grammar": {
@@ -344,7 +322,6 @@
    "translations": [
     "verheiratet"
    ],
-   "page": "225-226",
    "definition": "Che ha un marito o una moglie.",
    "example": "Mio fratello è sposato."
   },
@@ -354,7 +331,6 @@
    "translations": [
     "außer jdm/etw."
    ],
-   "page": "225-226",
    "definition": "In aggiunta a.",
    "example": "Oltre a te, viene anche Marco.",
    "acceptedAnswers": [
@@ -368,7 +344,6 @@
     "die Gründung",
     "die Stiftung"
    ],
-   "page": "225-226",
    "definition": "Atto di creare un’organizzazione.",
    "example": "La fondazione aiuta i giovani.",
    "family": "fondare",
@@ -390,7 +365,6 @@
     "promoten",
     "befördern"
    ],
-   "page": "225-226",
    "definition": "Sostenere e diffondere.",
    "example": "Promuove la musica.",
    "usage": "p.p. promosso"
@@ -401,7 +375,6 @@
    "translations": [
     "die Spitzenklasse"
    ],
-   "page": "225-226",
    "definition": "Qualità molto alta.",
    "example": "Questo ristorante è un’eccellenza.",
    "related": "E excellence"
@@ -412,7 +385,6 @@
    "translations": [
     "die Architektur"
    ],
-   "page": "225-226",
    "definition": "Arte di progettare edifici.",
    "example": "Studio architettura."
   },
@@ -422,7 +394,6 @@
    "translations": [
     "zeitgenössisch"
    ],
-   "page": "225-226",
    "definition": "Del nostro tempo.",
    "example": "È arte contemporanea.",
    "related": "E contemporary"
@@ -433,7 +404,6 @@
    "translations": [
     "der/die Bauunternehmer/in"
    ],
-   "page": "225-226",
    "definition": "Persona che costruisce edifici.",
    "example": "Il costruttore fa una casa.",
    "grammar": {
@@ -452,7 +422,6 @@
    "translations": [
     "gezeichnet"
    ],
-   "page": "225-226",
    "definition": "Con un segno.",
    "example": "Un’infanzia segnata dalla guerra."
   },
@@ -462,7 +431,6 @@
    "translations": [
     "die Kindheit"
    ],
-   "page": "225-226",
    "definition": "Periodo della vita da bambino.",
    "example": "Ho ricordi belli dell’infanzia."
   },
@@ -473,7 +441,6 @@
     "lehren",
     "unterrichten"
    ],
-   "page": "225-226",
    "definition": "Trasmettere conoscenze.",
    "example": "Insegno italiano."
   },
@@ -483,7 +450,6 @@
    "translations": [
     "hier: Ingenieurbüro"
    ],
-   "page": "225-226",
    "definition": "Ufficio di un professionista.",
    "example": "Lo studio dell’ingegnere è in centro.",
    "grammar": {
@@ -503,7 +469,6 @@
     "die Bekanntheit",
     "die Berühmtheit"
    ],
-   "page": "225-226",
    "definition": "Il fatto di essere conosciuto.",
    "example": "Ha raggiunto la notorietà.",
    "grammar": {
@@ -523,7 +488,6 @@
     "entwerfen",
     "planen"
    ],
-   "page": "225-226",
    "definition": "Pianificare la costruzione di qualcosa.",
    "example": "Progetto una casa.",
    "family": "il progetto",
@@ -536,7 +500,6 @@
     "avantgardistisch",
     "bahnbrechend"
    ],
-   "page": "225-226",
    "definition": "Molto moderno, innovativo.",
    "example": "È un edificio avanguardistico."
   },
@@ -546,7 +509,6 @@
    "translations": [
     "der Weltruhm"
    ],
-   "page": "225-226",
    "definition": "Notorietà in tutto il mondo.",
    "example": "Ha fama mondiale.",
    "grammar": {
@@ -566,7 +528,6 @@
     "das Hochhaus",
     "der Wolkenkratzer"
    ],
-   "page": "225-226",
    "definition": "Edificio molto alto.",
    "example": "A New York ci sono tanti grattacieli.",
    "grammar": {
@@ -585,7 +546,6 @@
    "translations": [
     "ernennen"
    ],
-   "page": "225-226",
    "definition": "Scegliere qualcuno per una carica.",
    "example": "Lo nominano presidente.",
    "related": "L nominare"
@@ -598,7 +558,6 @@
     "das Gehalt",
     "das Arbeitsentgelt"
    ],
-   "page": "225-226",
    "definition": "Soldi che si ricevono ogni mese.",
    "example": "Lo stipendio arriva a fine mese.",
    "usage": "pl. gli stipendi",
@@ -618,7 +577,6 @@
    "translations": [
     "finanzieren"
    ],
-   "page": "225-226",
    "definition": "Dare soldi per un progetto.",
    "example": "Finanzio un progetto.",
    "related": "E to finance"
@@ -631,7 +589,6 @@
     "der Stadtrand",
     "die Vorstadt"
    ],
-   "page": "225-226",
    "definition": "Zona lontana dal centro di una città.",
    "example": "Abito in periferia.",
    "grammar": {
@@ -650,7 +607,6 @@
    "translations": [
     "die Erfahrung"
    ],
-   "page": "225-226",
    "definition": "Conoscenza che nasce dalla pratica.",
    "example": "Ho molta esperienza.",
    "related": "E experience"
@@ -661,7 +617,6 @@
    "translations": [
     "zur Verfügung stellen"
    ],
-   "page": "225-226",
    "definition": "Offrire.",
    "example": "Metto a disposizione la mia casa."
   }
@@ -669,12 +624,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Unità 6",
-   "section": "6B Creatività italiana: due ritratti",
-   "pages": "225-226"
+   "unit": "6 · Città e creatività",
+   "section": "Parte B"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -685,7 +638,7 @@
    "Kreativität"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

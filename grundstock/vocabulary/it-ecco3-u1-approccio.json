@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco3-u1-approccio",
- "title": "Ecco più 3 · Unità 1 · Approccio",
+ "title": "Terzo anno · 1 · Tradizioni · Per cominciare",
  "language": "it",
  "translationLanguage": "de",
  "level": "B1",
- "description": "Wortschatz zu „Tradizione – benedizione o maledizione?“ aus Ecco più 3 (Unità 1, Approccio).",
+ "description": "Wortschatz Terzo anno (3. Lernjahr), 1 · Tradizioni, Per cominciare.",
  "topics": [
   "Tradition",
   "Kultur",
   "Toskana"
  ],
- "collection": "Ecco più 3 (Cornelsen)",
- "section": "Unità 1 · Approccio",
+ "collection": "Terzo anno",
+ "section": "1 · Tradizioni · Per cominciare",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 166-167 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Terzo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "der Fluch"
    ],
-   "page": "166-167",
    "definition": "Una cosa che porta solo problemi e dolore.",
    "example": "Per i contadini la siccità è una vera maledizione.",
    "antonyms": "la benedizione",
@@ -54,7 +51,6 @@
    "translations": [
     "der Segen"
    ],
-   "page": "166-167",
    "definition": "Una cosa molto buona che arriva al momento giusto.",
    "example": "La pioggia di ieri è stata una benedizione per il giardino.",
    "antonyms": "la maledizione",
@@ -74,7 +70,6 @@
    "translations": [
     "der/die Intellektuelle"
    ],
-   "page": "166-167",
    "definition": "Una persona che lavora con le idee, per esempio scrittori e filosofi.",
    "example": "Molti intellettuali scrivono articoli sui giornali.",
    "related": "E intellectual; F intellectuel(le)",
@@ -87,7 +82,6 @@
     "die Gesellschaft",
     "die Kultur"
    ],
-   "page": "166-167",
    "definition": "Il modo di vivere, l’arte e le regole di un popolo.",
    "example": "A scuola studiamo la civiltà degli antichi Romani.",
    "grammar": {
@@ -106,7 +100,6 @@
    "translations": [
     "aus der Nähe"
    ],
-   "page": "166-167",
    "definition": "Non da lontano, a poca distanza.",
    "example": "Voglio vedere il quadro da vicino.",
    "usage": "avv."
@@ -118,7 +111,6 @@
     "das Zeugnis",
     "das Kulturdenkmal"
    ],
-   "page": "166-167",
    "definition": "Una cosa che mostra com’era il passato.",
    "example": "Questa chiesa è una testimonianza del Medioevo.",
    "grammar": {
@@ -137,7 +129,6 @@
    "translations": [
     "der/die Literat/in"
    ],
-   "page": "166-167",
    "definition": "Una persona che scrive libri o studia la letteratura.",
    "example": "Dante è il letterato italiano più famoso."
   },
@@ -147,7 +138,6 @@
    "translations": [
     "der Band"
    ],
-   "page": "166-167",
    "definition": "Uno dei libri di un’opera divisa in più parti.",
    "example": "La saga di Harry Potter ha sette volumi.",
    "grammar": {
@@ -166,7 +156,6 @@
    "translations": [
     "die Ausarbeitung"
    ],
-   "page": "166-167",
    "definition": "Il lavoro per preparare bene un testo o un progetto.",
    "example": "L’elaborazione della presentazione ci ha preso tre giorni.",
    "family": "lavorare",
@@ -178,7 +167,6 @@
    "translations": [
     "das Tagebuch"
    ],
-   "page": "166-167",
    "definition": "Un quaderno dove scrivi ogni giorno quello che ti succede.",
    "example": "Da piccola scrivevo tutto nel mio diario.",
    "related": "E diary",
@@ -199,7 +187,6 @@
    "translations": [
     "der Strand"
    ],
-   "page": "166-167",
    "definition": "Una spiaggia con ombrelloni e bar.",
    "example": "D’estate andiamo spesso al lido con gli amici.",
    "grammar": {
@@ -218,7 +205,6 @@
    "translations": [
     "das Viertel"
    ],
-   "page": "166-167",
    "definition": "Una delle quattro parti uguali di una cosa.",
    "example": "Un quarto della classe va in palestra il pomeriggio.",
    "usage": "Bruchteil",
@@ -238,7 +224,6 @@
    "translations": [
     "die Zypresse"
    ],
-   "page": "166-167",
    "definition": "Un albero alto e stretto, tipico della Toscana.",
    "example": "Lungo la strada ci sono tanti cipressi.",
    "grammar": {
@@ -257,7 +242,6 @@
    "translations": [
     "das Bauernhaus"
    ],
-   "page": "166-167",
    "definition": "Una grande casa di campagna, spesso antica.",
    "example": "I miei nonni vivono in un vecchio casale in Toscana.",
    "family": "la casa",
@@ -277,7 +261,6 @@
    "translations": [
     "charakteristisch"
    ],
-   "page": "166-167",
    "definition": "Tipico di un luogo o di una persona.",
    "example": "Il Palio è una festa caratteristica di Siena."
   },
@@ -287,7 +270,6 @@
    "translations": [
     "so wie (auch)"
    ],
-   "page": "166-167",
    "definition": "Nello stesso modo di.",
    "example": "Mi piace il mare, così come la montagna."
   },
@@ -298,7 +280,6 @@
     "intakt",
     "unberührt"
    ],
-   "page": "166-167",
    "definition": "Ancora come era all’inizio, senza danni.",
    "example": "Il centro storico è rimasto intatto."
   },
@@ -309,7 +290,6 @@
     "die Art",
     "die Sorte"
    ],
-   "page": "166-167",
    "definition": "Un gruppo di animali o piante simili.",
    "example": "In questo parco vivono molte specie di uccelli.",
    "usage": "pl. le specie",
@@ -329,7 +309,6 @@
    "translations": [
     "das Tier"
    ],
-   "page": "166-167",
    "definition": "Un essere vivente che non è una pianta né una persona.",
    "example": "Il cane è il mio animale preferito.",
    "related": "E animal; F animal",
@@ -341,7 +320,6 @@
    "translations": [
     "die Pflanze"
    ],
-   "page": "166-167",
    "definition": "Un essere vivente verde che cresce nella terra.",
    "example": "Sul balcone ho tante piante.",
    "related": "E plant",
@@ -362,7 +340,6 @@
     "die Zahl",
     "die Ziffer"
    ],
-   "page": "166-167",
    "definition": "Un numero, anche una somma di soldi.",
    "example": "Ha pagato una cifra alta per il telefono.",
    "grammar": {
@@ -381,7 +358,6 @@
    "translations": [
     "der/die Besucher/in"
    ],
-   "page": "166-167",
    "definition": "Una persona che va a vedere un museo o una città.",
    "example": "Il museo ha avuto mille visitatori oggi.",
    "usage": "pl. i visitatori, le visitatrici"
@@ -393,7 +369,6 @@
     "steigen",
     "wachsen"
    ],
-   "page": "166-167",
    "definition": "Diventare di più o più grande.",
    "example": "Il numero dei turisti aumenta ogni anno."
   },
@@ -403,7 +378,6 @@
    "translations": [
     "von Jahr zu Jahr"
    ],
-   "page": "166-167",
    "definition": "Ogni anno un po’ di più o un po’ di meno.",
    "example": "Di anno in anno la festa diventa più famosa."
   },
@@ -413,7 +387,6 @@
    "translations": [
     "das Erdbeben"
    ],
-   "page": "166-167",
    "definition": "Quando la terra si muove forte e le case possono cadere.",
    "example": "Il terremoto ha distrutto molte case.",
    "grammar": {
@@ -430,12 +403,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "3",
-   "unit": "Unità 1",
-   "section": "Approccio",
-   "pages": "166-167"
+   "unit": "1 · Tradizioni",
+   "section": "Per cominciare"
   },
   "grade": 10,
   "foreignLanguageNo": 3,
@@ -446,7 +417,7 @@
    "Toskana"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

@@ -37,6 +37,10 @@ function withExtra(x) {
     estimatedMinutes: Math.max(x.estimatedMinutes || 0, Math.round((x.questions.length + add.length) * 1.2))
   };
 }
+/* Eigene Gliederung der Wortlisten und Grammatik nach Lernjahren (früher nach Lehrwerk benannt). */
+const COURSE_SERIES = 'Corso daje';
+const ANNO_NAMES = { 1: 'Primo anno', 2: 'Secondo anno', 3: 'Terzo anno' };
+const isCourseSeries = s => s === COURSE_SERIES || /ecco/i.test(String(s || ''));
 function contentList(kind) {
   const reviewIds = new Set(LISTENING_REVIEW_SEEDS.map(x => x.id));
   // Betreiber-Korrekturen (grundstock/korrekturen): entfernte IDs fehlen, korrigierte ersetzen eingebaute Hörübungen.

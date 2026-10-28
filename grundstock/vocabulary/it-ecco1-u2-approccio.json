@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco1-u2-approccio",
- "title": "Ecco più 1 · Unità 2 · Approccio",
+ "title": "Primo anno · 2 · La mia camera · Per cominciare",
  "language": "it",
  "translationLanguage": "de",
  "level": "A1",
- "description": "Wortschatz zu „Il mio mondo“ aus Ecco più 1 (Unità 2, Approccio).",
+ "description": "Wortschatz Primo anno (1. Lernjahr), 2 · La mia camera, Per cominciare.",
  "topics": [
   "Familie",
   "Vorlieben",
   "Schule"
  ],
- "collection": "Ecco più 1 (Cornelsen)",
- "section": "Unità 2 · Approccio",
+ "collection": "Primo anno",
+ "section": "2 · La mia camera · Per cominciare",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 172-173 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Primo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "mein"
    ],
-   "page": "172-173",
    "definition": "Aggettivo che indica che qualcosa appartiene a me.",
    "example": "Questo è il mio zaino.",
    "related": "F mon/ma"
@@ -45,7 +42,6 @@
    "translations": [
     "die Welt"
    ],
-   "page": "172-173",
    "definition": "Il pianeta Terra con tutti i suoi paesi.",
    "example": "Viaggio per il mondo.",
    "related": "F le monde; L mundus",
@@ -65,7 +61,6 @@
    "translations": [
     "der Name"
    ],
-   "page": "172-173",
    "definition": "Parola con cui si chiama una persona o una cosa.",
    "example": "Il mio nome è Tina.",
    "related": "L nomen",
@@ -85,7 +80,6 @@
    "translations": [
     "der Nachname"
    ],
-   "page": "172-173",
    "definition": "Il nome della famiglia, per esempio Rossi.",
    "example": "Il mio cognome è Bianchi.",
    "family": "il nome",
@@ -105,7 +99,6 @@
    "translations": [
     "das Alter"
    ],
-   "page": "172-173",
    "definition": "Numero di anni che una persona ha vissuto.",
    "example": "L’età di Marta è quattordici anni.",
    "related": "L aetas"
@@ -116,7 +109,6 @@
    "translations": [
     "haben"
    ],
-   "page": "172-173",
    "definition": "Verbo che indica possesso o età.",
    "example": "Voglio avere un cane.",
    "related": "F avoir",
@@ -128,7 +120,6 @@
    "translations": [
     "das Jahr"
    ],
-   "page": "172-173",
    "definition": "Periodo di dodici mesi.",
    "example": "L’anno ha dodici mesi.",
    "related": "F l’an; L annus"
@@ -139,7 +130,6 @@
    "translations": [
     "Ich bin … Jahre alt."
    ],
-   "page": "172-173",
    "definition": "Frase per dire quanti anni hai.",
    "example": "Ho quattordici anni."
   },
@@ -149,7 +139,6 @@
    "translations": [
     "die Adresse"
    ],
-   "page": "172-173",
    "definition": "Via e numero della casa dove abiti.",
    "example": "Qual è il tuo indirizzo?"
   },
@@ -160,7 +149,6 @@
     "die Zahl",
     "die Nummer"
    ],
-   "page": "172-173",
    "definition": "Cifra che serve per contare o per identificare.",
    "example": "Il numero di casa è il 12.",
    "related": "E number; F le numéro; L numerus",
@@ -180,7 +168,6 @@
    "translations": [
     "das Handy"
    ],
-   "page": "172-173",
    "definition": "Piccolo telefono che porti con te.",
    "example": "Il mio cellulare è nuovo.",
    "related": "E cell phone",
@@ -200,7 +187,6 @@
    "translations": [
     "die Familie"
    ],
-   "page": "172-173",
    "definition": "Genitori, figli e altri parenti che vivono insieme.",
    "example": "La mia famiglia è grande.",
    "related": "E family; F la famille; L familia",
@@ -220,7 +206,6 @@
    "translations": [
     "der Vater"
    ],
-   "page": "172-173",
    "definition": "L’uomo che ha un figlio.",
    "example": "Mio padre è medico.",
    "related": "L pater",
@@ -240,7 +225,6 @@
    "translations": [
     "die Mutter"
    ],
-   "page": "172-173",
    "definition": "La donna che ha un figlio.",
    "example": "Mia madre lavora in ospedale.",
    "related": "L mater",
@@ -261,7 +245,6 @@
     "mir gefällt + Sg.",
     "ich mag"
    ],
-   "page": "172-173",
    "definition": "Si dice per esprimere una cosa che trovi bella o buona.",
    "example": "Mi piace la pizza.",
    "family": "piacere",
@@ -274,7 +257,6 @@
     "mir gefallen + Pl.",
     "ich mag"
    ],
-   "page": "172-173",
    "definition": "Si dice per esprimere che più cose ti piacciono.",
    "example": "Mi piacciono i film.",
    "usage": "+ pl."
@@ -285,7 +267,6 @@
    "translations": [
     "das Schulfach"
    ],
-   "page": "172-173",
    "definition": "Disciplina che si studia a scuola, come la matematica.",
    "example": "La mia materia preferita è l’italiano.",
    "grammar": {
@@ -304,7 +285,6 @@
    "translations": [
     "wie"
    ],
-   "page": "172-173",
    "definition": "Piccola parola per fare un confronto o per chiedere il modo.",
    "example": "Come stai?",
    "usage": "avv."
@@ -315,7 +295,6 @@
    "translations": [
     "Geschichte (Schulfach)"
    ],
-   "page": "172-173",
    "definition": "Materia che racconta il passato.",
    "example": "Studio la storia di Roma.",
    "related": "E history; F l’histoire",
@@ -335,7 +314,6 @@
    "translations": [
     "Philosophie (Schulfach)"
    ],
-   "page": "172-173",
    "definition": "Materia che si interroga sulle grandi domande della vita.",
    "example": "La filosofia è difficile.",
    "related": "E philosophy; F la philosophie",
@@ -356,7 +334,6 @@
     "Snowboard fahren",
     "snowboarden"
    ],
-   "page": "172-173",
    "definition": "Scendere dalla montagna sulla neve con una tavola.",
    "example": "D’inverno vado sullo snowboard.",
    "usage": "Abc"
@@ -367,7 +344,6 @@
    "translations": [
     "das Snowboard"
    ],
-   "page": "172-173",
    "definition": "Tavola per scivolare sulla neve.",
    "example": "Ho uno snowboard nuovo.",
    "grammar": {
@@ -386,7 +362,6 @@
    "translations": [
     "das Haus"
    ],
-   "page": "172-173",
    "definition": "Edificio dove si abita.",
    "example": "La mia famiglia ha una casa a Lecce.",
    "contrast": "Sono a casa. – Ich bin zu Hause. / Torno a casa. – Ich komme nach Hause zurück.",
@@ -406,7 +381,6 @@
    "translations": [
     "die Ordnung"
    ],
-   "page": "172-173",
    "definition": "Situazione in cui ogni cosa è al suo posto.",
    "example": "In camera mia c’è ordine.",
    "usage": "m."
@@ -417,7 +391,6 @@
    "translations": [
     "aufräumen"
    ],
-   "page": "172-173",
    "definition": "Rimettere ogni cosa al suo posto.",
    "example": "Non mi piace mettere in ordine!"
   },
@@ -427,7 +400,6 @@
    "translations": [
     "Wie viel?"
    ],
-   "page": "172-173",
    "definition": "Domanda per conoscere un numero o una misura.",
    "example": "Quanto costa?",
    "related": "L quantus"
@@ -438,7 +410,6 @@
    "translations": [
     "Wie alt bist du?"
    ],
-   "page": "172-173",
    "definition": "Domanda per sapere l’età.",
    "example": "Quanti anni hai? – Ho tredici anni.",
    "usage": "Nach dem Alter fragt man im Italienischen anders als im Deutschen: Quanti anni hai? – Ho 14 anni."
@@ -449,7 +420,6 @@
    "translations": [
     "Welche(r, s)?"
    ],
-   "page": "172-173",
    "definition": "Domanda per scegliere tra più cose.",
    "example": "Quale preferisci?",
    "related": "L qualis",
@@ -461,7 +431,6 @@
    "translations": [
     "dein(e/r/s)"
    ],
-   "page": "172-173",
    "definition": "Aggettivo che indica che qualcosa appartiene a te.",
    "example": "Questo è il tuo libro?",
    "related": "F ton/ta; L tuus"
@@ -473,7 +442,6 @@
     "Was magst du?",
     "Was gefällt dir?"
    ],
-   "page": "172-173",
    "definition": "Domanda per sapere i tuoi gusti.",
    "example": "Che cosa ti piace? – Mi piace la musica."
   },
@@ -483,7 +451,6 @@
    "translations": [
     "die Schwester"
    ],
-   "page": "172-173",
    "definition": "Figlia degli stessi genitori.",
    "example": "Mia sorella ha otto anni.",
    "related": "F la soeur; L soror",
@@ -503,7 +470,6 @@
    "translations": [
     "Fußball"
    ],
-   "page": "172-173",
    "definition": "Sport con una palla e due porte.",
    "example": "Il calcio è lo sport più amato.",
    "grammar": {
@@ -522,7 +488,6 @@
    "translations": [
     "lieben"
    ],
-   "page": "172-173",
    "definition": "Voler bene molto a qualcuno o a qualcosa.",
    "example": "Amo la mia famiglia.",
    "related": "F aimer; L amare"
@@ -533,7 +498,6 @@
    "translations": [
     "die Musik"
    ],
-   "page": "172-173",
    "definition": "Suoni organizzati in melodia.",
    "example": "La musica mi rilassa.",
    "grammar": {
@@ -553,7 +517,6 @@
     "kennen",
     "kennen lernen"
    ],
-   "page": "172-173",
    "definition": "Sapere chi è una persona o come è un luogo.",
    "example": "Conosci Giorgia?",
    "related": "L cognoscere"
@@ -564,7 +527,6 @@
    "translations": [
     "die Aufgabe"
    ],
-   "page": "172-173",
    "definition": "Lavoro che si fa a scuola o a casa.",
    "example": "Il compito di oggi è facile.",
    "grammar": {
@@ -584,7 +546,6 @@
     "die Schularbeit",
     "die Klassenarbeit"
    ],
-   "page": "172-173",
    "definition": "Prova scritta che si fa a scuola.",
    "example": "Domani c’è il compito in classe di italiano.",
    "grammar": {
@@ -603,7 +564,6 @@
    "translations": [
     "die Hausaufgaben"
    ],
-   "page": "172-173",
    "definition": "Lavori da fare a casa per la scuola.",
    "example": "Faccio i compiti dopo pranzo.",
    "usage": "pl.",
@@ -623,7 +583,6 @@
    "translations": [
     "der Bruder"
    ],
-   "page": "172-173",
    "definition": "Figlio degli stessi genitori.",
    "example": "Mio fratello gioca a calcio.",
    "related": "F le frère; L frater",
@@ -645,7 +604,6 @@
     "der Unterricht",
     "die Unterrichtsstunde"
    ],
-   "page": "172-173",
    "definition": "Ora in cui un insegnante spiega qualcosa.",
    "example": "La lezione dura cinquanta minuti.",
    "related": "E lesson; F la leçon",
@@ -665,7 +623,6 @@
    "translations": [
     "der Tanz"
    ],
-   "page": "172-173",
    "definition": "Arte di muoversi a ritmo di musica.",
    "example": "La danza è la mia passione.",
    "related": "E dance; F la danse",
@@ -685,7 +642,6 @@
    "translations": [
     "der Tanzunterricht"
    ],
-   "page": "172-173",
    "definition": "Corso dove si impara a ballare.",
    "example": "La lezione di danza è il martedì.",
    "grammar": {
@@ -705,7 +661,6 @@
     "das Lernen",
     "das Studium"
    ],
-   "page": "172-173",
    "definition": "Attività di chi impara leggendo e ripetendo.",
    "example": "Lo studio richiede tempo.",
    "related": "L studium",
@@ -726,7 +681,6 @@
    "translations": [
     "tanzen"
    ],
-   "page": "172-173",
    "definition": "Muoversi a ritmo di musica.",
    "example": "Mi piace ballare."
   },
@@ -737,7 +691,6 @@
     "der Song",
     "das Lied"
    ],
-   "page": "172-173",
    "definition": "Brano musicale con parole.",
    "example": "Mi piacciono le canzoni italiane.",
    "related": "F la chanson",
@@ -756,12 +709,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Unità 2",
-   "section": "Approccio",
-   "pages": "172-173"
+   "unit": "2 · La mia camera",
+   "section": "Per cominciare"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -772,7 +723,7 @@
    "Schule"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

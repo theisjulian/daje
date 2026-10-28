@@ -3,29 +3,27 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-u6-approccio",
- "title": "Ecco più 2 · Unità 6 · Approccio",
+ "title": "Secondo anno · 6 · Città e creatività · Per cominciare",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „L’Italia creativa e moderna“ aus Ecco più 2 (Unità 6, Approccio).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), 6 · Città e creatività, Per cominciare.",
  "topics": [
   "Industrie",
   "Norditalien",
   "Süditalien",
   "Landschaft"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Unità 6 · Approccio",
+ "collection": "Secondo anno",
+ "section": "6 · Città e creatività · Per cominciare",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 222-223 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,7 +33,6 @@
    "translations": [
     "das Industriedreieck (Mailand-Genua-Turin)"
    ],
-   "page": "222-223",
    "definition": "Zona del nord Italia con molte industrie.",
    "example": "Il triangolo industriale è molto produttivo.",
    "related": "E triangle",
@@ -55,7 +52,6 @@
    "translations": [
     "die Konzentration"
    ],
-   "page": "222-223",
    "definition": "Raggruppamento di molte cose in un luogo; attenzione.",
    "example": "C’è una grande concentrazione di fabbriche.",
    "grammar": {
@@ -74,7 +70,6 @@
    "translations": [
     "die Dienstleistung"
    ],
-   "page": "222-223",
    "definition": "Attività che si fa per gli altri.",
    "example": "Il servizio al ristorante è ottimo.",
    "family": "servire",
@@ -95,7 +90,6 @@
    "translations": [
     "das Auto(mobil)"
    ],
-   "page": "222-223",
    "definition": "Veicolo con quattro ruote.",
    "example": "L’automobile è nuova.",
    "acceptedAnswers": [
@@ -110,7 +104,6 @@
     "die Börse",
     "Aktien"
    ],
-   "page": "222-223",
    "definition": "Mercato dove si vendono azioni.",
    "example": "La borsa di Milano è importante.",
    "grammar": {
@@ -129,7 +122,6 @@
    "translations": [
     "der Norden"
    ],
-   "page": "222-223",
    "definition": "La parte nord di un paese.",
    "example": "Il settentrione è ricco di industrie.",
    "grammar": {
@@ -148,7 +140,6 @@
    "translations": [
     "etwa zehn"
    ],
-   "page": "222-223",
    "definition": "Gruppo di dieci.",
    "example": "Ci sono una decina di persone.",
    "usage": "il centinaio = etwa hundert, pl. le centinaia; il migliaio = etwa tausend, pl. le migliaia",
@@ -169,7 +160,6 @@
     "die Ebene",
     "das Flachland"
    ],
-   "page": "222-223",
    "definition": "Grande zona piatta.",
    "example": "La pianura è fertile.",
    "grammar": {
@@ -189,7 +179,6 @@
     "die Landwirtschaft",
     "der Ackerbau"
    ],
-   "page": "222-223",
    "definition": "Coltivazione della terra.",
    "example": "L’agricoltura è importante.",
    "related": "E agriculture"
@@ -201,7 +190,6 @@
     "die Tierhaltung",
     "die Tierzucht"
    ],
-   "page": "222-223",
    "definition": "Attività di crescere animali.",
    "example": "L’allevamento dei maiali è diffuso."
   },
@@ -211,7 +199,6 @@
    "translations": [
     "liefern"
    ],
-   "page": "222-223",
    "definition": "Dare, procurare.",
    "example": "La fabbrica fornisce i materiali.",
    "acceptedAnswers": [
@@ -226,7 +213,6 @@
     "fließen",
     "strömen"
    ],
-   "page": "222-223",
    "definition": "Muoversi come un liquido.",
    "example": "Il fiume scorre lento.",
    "usage": "p.p. scorso"
@@ -237,7 +223,6 @@
    "translations": [
     "der See"
    ],
-   "page": "222-223",
    "definition": "Grande massa d’acqua circondata da terra.",
    "example": "I laghi del nord sono belli.",
    "related": "E lake",
@@ -258,7 +243,6 @@
    "translations": [
     "der Apennin (Gebirge)"
    ],
-   "page": "222-223",
    "definition": "Catena montuosa che attraversa l’Italia.",
    "example": "L’Appennino divide l’Italia in due."
   },
@@ -268,7 +252,6 @@
    "translations": [
     "nördlich"
    ],
-   "page": "222-223",
    "definition": "Del nord.",
    "example": "Milano è una città settentrionale.",
    "synonyms": "a nord"
@@ -280,7 +263,6 @@
     "die Anbindung",
     "der Zugang"
    ],
-   "page": "222-223",
    "definition": "Possibilità di entrare.",
    "example": "L’accesso al museo è gratuito.",
    "related": "E access"
@@ -292,7 +274,6 @@
     "ziehen",
     "entnehmen"
    ],
-   "page": "222-223",
    "definition": "Prendere, ricavare.",
    "example": "Traggo vantaggio dallo studio.",
    "related": "L trahere",
@@ -308,7 +289,6 @@
     "der Nutzen",
     "der Profit"
    ],
-   "page": "222-223",
    "definition": "Guadagno economico.",
    "example": "L’azienda ha un buon profitto.",
    "related": "E profit",
@@ -328,7 +308,6 @@
    "translations": [
     "der (Bade-)Tourismus"
    ],
-   "page": "222-223",
    "definition": "Viaggi per piacere, sulle spiagge.",
    "example": "Il turismo balneare è importante.",
    "family": "il/la turista",
@@ -352,7 +331,6 @@
    "translations": [
     "anziehen"
    ],
-   "page": "222-223",
    "definition": "Tirare a sé, attirare.",
    "example": "La città attrae molti turisti.",
    "related": "E to attract",
@@ -367,7 +345,6 @@
    "translations": [
     "die Landschaft"
    ],
-   "page": "222-223",
    "definition": "Aspetto di un territorio.",
    "example": "I paesaggi italiani sono stupendi.",
    "related": "F le paysage",
@@ -388,7 +365,6 @@
    "translations": [
     "der Abschnitt"
    ],
-   "page": "222-223",
    "definition": "Parte di un percorso.",
    "example": "Questo tratto di strada è lungo.",
    "related": "F le trait",
@@ -408,7 +384,6 @@
    "translations": [
     "der Hügel"
    ],
-   "page": "222-223",
    "definition": "Piccola altura.",
    "example": "La casa è sulla collina.",
    "related": "L collis",
@@ -428,7 +403,6 @@
    "translations": [
     "die Gebirgskette"
    ],
-   "page": "222-223",
    "definition": "Serie di montagne collegate.",
    "example": "Le Alpi sono una catena montuosa.",
    "grammar": {
@@ -447,7 +421,6 @@
    "translations": [
     "der Süden"
    ],
-   "page": "222-223",
    "definition": "La parte sud di un paese.",
    "example": "Il Mezzogiorno è molto caldo.",
    "antonyms": "settentrione"
@@ -458,7 +431,6 @@
    "translations": [
     "einbeziehen"
    ],
-   "page": "222-223",
    "definition": "Comprendere, contenere.",
    "example": "Il prezzo include la colazione.",
    "related": "E to include; L includere",
@@ -470,7 +442,6 @@
    "translations": [
     "südlich"
    ],
-   "page": "222-223",
    "definition": "Del sud.",
    "example": "La cucina meridionale è saporita."
   },
@@ -481,7 +452,6 @@
     "besonderer",
     "besondere/-s"
    ],
-   "page": "222-223",
    "definition": "Speciale.",
    "example": "Ha una caratteristica particolare.",
    "related": "E particular"
@@ -493,7 +463,6 @@
     "die Wichtigkeit",
     "die Bedeutung"
    ],
-   "page": "222-223",
    "definition": "Valore o peso di qualcosa.",
    "example": "L’importanza della salute è grande.",
    "family": "importante",
@@ -505,7 +474,6 @@
    "translations": [
     "die Fischerei"
    ],
-   "page": "222-223",
    "definition": "Mestiere di chi prende i pesci.",
    "example": "La pesca è un’attività del Sud.",
    "grammar": {
@@ -524,7 +492,6 @@
    "translations": [
     "der Verdienst"
    ],
-   "page": "222-223",
    "definition": "Quanto si riceve per un lavoro.",
    "example": "Il guadagno è buono.",
    "family": "guadagnare",
@@ -544,7 +511,6 @@
    "translations": [
     "der Vulkan"
    ],
-   "page": "222-223",
    "definition": "Montagna da cui esce la lava.",
    "example": "L’Etna è un vulcano.",
    "related": "E volcano",
@@ -564,7 +530,6 @@
    "translations": [
     "die Arbeitslosigkeit"
    ],
-   "page": "222-223",
    "definition": "Mancanza di lavoro.",
    "example": "La disoccupazione è alta.",
    "related": "E disoccupation",
@@ -584,7 +549,6 @@
    "translations": [
     "die Kriminalität"
    ],
-   "page": "222-223",
    "definition": "Presenza di reati.",
    "example": "La criminalità è un problema.",
    "grammar": {
@@ -603,7 +567,6 @@
    "translations": [
     "ursprünglich aus"
    ],
-   "page": "222-223",
    "definition": "Che viene da un luogo.",
    "example": "Sono originario di Bari.",
    "family": "l’origine"
@@ -612,12 +575,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Unità 6",
-   "section": "Approccio",
-   "pages": "222-223"
+   "unit": "6 · Città e creatività",
+   "section": "Per cominciare"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -629,7 +590,7 @@
    "Landschaft"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

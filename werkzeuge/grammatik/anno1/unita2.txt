@@ -1,7 +1,7 @@
-#!buch series=Ecco_più volume=1 grade=8 cefr=A1 prefix=ecco1 publisher=Cornelsen
-## Ecco più 1 · Unità 2 „Il mio mondo“ · Grammatikthemen laut Inhaltsverzeichnis (S. 26–39). Zahlen 1–100: Trainer „Zahlen, Uhrzeit, Datum“.
+#!buch series=Corso_daje volume=1 grade=8 cefr=A1 prefix=ecco1
+## Primo anno · Lektion 2 · La mia camera · Grammatikthemen (Lehrplan Jgst. 8)
 
-@thema avere | Unità 2 | Approccio | Das Verb avere | 1
+@thema avere | 2 · La mia camera | Per cominciare | Das Verb avere | 1
 #regel
 **avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.
 | io | tu | lui / lei | noi | voi | loro |
@@ -51,7 +51,7 @@ Vado {a*|ha} scuola in bici.
 Ho tredici anni. Ho una sorella. Mia sorella ha dieci anni. Abbiamo un cane.
 Zeilen: 4
 
-@thema mi-piace | Unità 2 | Approccio | (non) mi piace / mi piacciono | 2
+@thema mi-piace | 2 · La mia camera | Per cominciare | (non) mi piace / mi piacciono | 2
 #regel
 - **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._
 - **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._
@@ -94,7 +94,7 @@ le materie scientifiche > p
 Mi piace la musica. Mi piace ballare. Mi piacciono i film italiani. Mi piacciono gli animali. Non mi piace il calcio. Non mi piacciono i compiti.
 Zeilen: 6
 
-@thema questo | Unità 2 | A | questo, questa, questi, queste | 3
+@thema questo | 2 · La mia camera | Parte A | questo, questa, questi, queste | 3
 #regel
 **questo** (dieser, diese, dieses) richtet sich nach dem Nomen:
 | | Singular | Plural |
@@ -131,7 +131,7 @@ E [queste] riviste? Sono sul divano.
 [Questo/Quest'] asciugamano è nel salotto!
 ! Vor Vokal kann man questo zu quest' verkürzen: quest'asciugamano.
 
-@thema preposizioni-articolate | Unità 2 | A | Präpositionen mit Artikel | 4
+@thema preposizioni-articolate | 2 · La mia camera | Parte A | Präpositionen mit Artikel | 4
 #regel
 Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel:
 | | il | lo | l' | la | i | gli | le |
@@ -182,7 +182,7 @@ Il pallone è [sul=>sulla] sedia.
 Torno [dalla=>dal] mercato.
 La foto [di il=>del] cantante è bellissima.
 
-@thema possessivi-1 | Unità 2 | A | Possessivbegleiter (I) | 5
+@thema possessivi-1 | 2 · La mia camera | Parte A | Possessivbegleiter (I) | 5
 #regel
 Vor dem Possessivbegleiter steht im Italienischen meist der **Artikel**:
 | | männlich Sg. | weiblich Sg. | männlich Pl. | weiblich Pl. |
@@ -228,7 +228,7 @@ Giulia cerca [la sua=>il suo] zaino.
 Ragazzi, dov'è [la nostra=>la vostra] classe?
 [Le mie=>I miei] vestiti sono per terra.
 
-@thema ire-andare | Unità 2 | B | Verben auf -ire und andare | 6
+@thema ire-andare | 2 · La mia camera | Parte B | Verben auf -ire und andare | 6
 #regel
 **Verben auf -ire** (ohne Stammerweiterung):
 | Person | dormire | sentire |
@@ -282,7 +282,7 @@ Noi [vanno=>andiamo] al cinema.
 Luca [senta=>sente] la musica.
 Tu [va=>vai] al concerto?
 
-@thema aggettivi | Unità 2 | B | Adjektive und ihre Stellung | 7
+@thema aggettivi | 2 · La mia camera | Parte B | Adjektive und ihre Stellung | 7
 #regel
 Adjektive richten sich nach dem Nomen (Geschlecht und Zahl):
 | Typ | m. Sg. | w. Sg. | m. Pl. | w. Pl. |

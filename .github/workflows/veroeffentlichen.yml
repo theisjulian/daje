@@ -16,10 +16,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Generatoren ausführen (ältere Pakete, Ecco)
+      - name: Generatoren ausführen (ältere Hörpakete, Grammatik)
         run: |
           python3 werkzeuge/hoeren/alt.py
-          python3 werkzeuge/ecco_import.py
+          python3 werkzeuge/grammatik.py
       - name: Grundstock prüfen und bündeln (ungültige Pakete brechen ab)
         run: node werkzeuge/bundle_stock.cjs
       - name: Generierte Dateien sind aktuell committet

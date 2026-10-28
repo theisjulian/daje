@@ -1,7 +1,7 @@
-#!buch series=Ecco_più volume=1 grade=8 cefr=A1 prefix=ecco1 publisher=Cornelsen
-## Ecco più 1 · Unità 1 „Benvenuti a Torino“ · Grammatikthemen laut Inhaltsverzeichnis (S. 10–21)
+#!buch series=Corso_daje volume=1 grade=8 cefr=A1 prefix=ecco1
+## Primo anno · Lektion 1 · La città · Grammatikthemen (Lehrplan Jgst. 8)
 
-@thema artikel-sg | Unità 1 | Approccio | Der bestimmte Artikel im Singular | 1
+@thema artikel-sg | 1 · La città | Per cominciare | Der bestimmte Artikel im Singular | 1
 #regel
 Im Italienischen hat jedes Nomen ein Geschlecht: **männlich** (meist auf -o) oder **weiblich** (meist auf -a). Nomen auf -e können beides sein.
 
@@ -75,7 +75,7 @@ Ecco [lo=>il] ponte sul Po.
 Il fiume si chiama … · La piazza è grande. · Lo stadio è nuovo. · L'industria è importante. · Il parco è bello.
 Zeilen: 5
 
-@thema are-presente | Unità 1 | A | Verben auf -are im Präsens | 2
+@thema are-presente | 1 · La città | Parte A | Verben auf -are im Präsens | 2
 #regel
 Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an:
 
@@ -145,7 +145,7 @@ Tu [guardo=>guardi] la partita?
 Marta e Paolo [passeggia=>passeggiano] in piazza.
 Voi [arrivano=>arrivate] adesso?
 
-@thema essere-stare | Unità 1 | A | essere und stare | 3
+@thema essere-stare | 1 · La città | Parte A | essere und stare | 3
 #regel
 **essere** (sein) ist unregelmäßig:
 | io | tu | lui / lei | noi | voi | loro |
@@ -209,7 +209,7 @@ Oggi la nonna [è=>sta] male.
 Ciao, sono Lena. Sono di Amburgo. Oggi sto bene. Il mio amico è Tim.
 Zeilen: 4
 
-@thema a-in | Unità 1 | A | Die Präpositionen a und in | 4
+@thema a-in | 1 · La città | Parte A | Die Präpositionen a und in | 4
 #regel
 Bei Orten unterscheidet man:
 - **a** + Stadt: _abito a Torino, a Roma, a Berlino_
@@ -244,7 +244,7 @@ Sono [in=>a] scuola.
 Il negozio è [a=>in] via Roma.
 ! Stadt → a, Land → in, Straße → in, a scuola.
 
-@thema soggetto | Unità 1 | A | Die Subjektpronomen | 5
+@thema soggetto | 1 · La città | Parte A | Die Subjektpronomen | 5
 #regel
 | io | tu | lui / lei / Lei | noi | voi | loro |
 | ich | du | er / sie / Sie | wir | ihr | sie |
@@ -277,7 +277,7 @@ Noi abitiamo a Roma, voi … a Torino. | abitate | voi abitate a Torino
 Lui sta bene, lei … male. | sta | lei sta male
 Io sono di Torino, loro … di Napoli. | sono | loro sono di Napoli
 
-@thema non | Unità 1 | A | Die Verneinung mit non | 6
+@thema non | 1 · La città | Parte A | Die Verneinung mit non | 6
 #regel
 **non** steht **vor dem Verb**:
 - _Abito a Torino._ → _**Non** abito a Torino._
@@ -315,7 +315,7 @@ abita
 a
 Torino
 
-@thema articolo-indeterminativo | Unità 1 | A | Der unbestimmte Artikel | 7
+@thema articolo-indeterminativo | 1 · La città | Parte A | Der unbestimmte Artikel | 7
 #regel
 | Artikel | wann? | Beispiel |
 | un | männlich (auch vor Vokal) | un ragazzo, un amico |
@@ -355,7 +355,7 @@ Lisa è [una] ragazza simpatica.
 Questo è [un] ponte importante.
 ! uno vor s + Konsonant; un' nur bei weiblichen Wörtern vor Vokal.
 
-@thema plurale | Unità 1 | B | Der Plural: Artikel und Nomen | 8
+@thema plurale | 1 · La città | Parte B | Der Plural: Artikel und Nomen | 8
 #regel
 **Nomen:**
 | Singular | Plural | Beispiel |
@@ -419,7 +419,7 @@ Ci sono molti [negozie=>negozi].
 [Gli=>Le] amiche abitano qui.
 Le [cittè=>città] italiane sono antiche.
 
-@thema ere-presente | Unità 1 | B | Verben auf -ere im Präsens | 9
+@thema ere-presente | 1 · La città | Parte B | Verben auf -ere im Präsens | 9
 #regel
 | Person | prendere | vedere |
 | io | prend**o** | ved**o** |
@@ -463,7 +463,7 @@ Noi [vediete=>vediamo] lo stadio.
 Voi [vendate=>vendete] i pattini?
 Loro [prendano=>prendono] l'autobus.
 
-@thema ce-ci-sono | Unità 1 | B | c'è und ci sono | 10
+@thema ce-ci-sono | 1 · La città | Parte B | c'è und ci sono | 10
 #regel
 - **c'è** + Singular: _In piazza **c'è** un bar._ (Es gibt / da ist)
 - **ci sono** + Plural: _Nel quartiere **ci sono** due negozi._ (Es gibt / da sind)

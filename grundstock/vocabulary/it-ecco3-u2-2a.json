@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco3-u2-2a",
- "title": "Ecco più 3 · Unità 2 · 2A Noi nel mondo – radio per ragazzi",
+ "title": "Terzo anno · 2 · Vivere all’estero · Parte A",
  "language": "it",
  "translationLanguage": "de",
  "level": "B1",
- "description": "Wortschatz zu „Wir in der Welt – Radio für Jugendliche“ aus Ecco più 3 (Unità 2, 2A Noi nel mondo – radio per ragazzi).",
+ "description": "Wortschatz Terzo anno (3. Lernjahr), 2 · Vivere all’estero, Parte A.",
  "topics": [
   "Medien",
   "Internet",
   "Radio"
  ],
- "collection": "Ecco più 3 (Cornelsen)",
- "section": "Unità 2 · 2A Noi nel mondo – radio per ragazzi",
+ "collection": "Terzo anno",
+ "section": "2 · Vivere all’estero · Parte A",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 172-173 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Terzo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "die Folge"
    ],
-   "page": "172-173",
    "definition": "Una parte di una serie o di un programma.",
    "example": "Stasera esce la nuova puntata della mia serie preferita.",
    "usage": "Fernsehen, Rundfunk",
@@ -54,7 +51,6 @@
    "translations": [
     "der Gast"
    ],
-   "page": "172-173",
    "definition": "Una persona invitata a casa o in un programma.",
    "example": "Oggi in radio c’è un ospite famoso.",
    "related": "L hospes",
@@ -68,7 +64,6 @@
     "währenddessen",
     "zunächst einmal"
    ],
-   "page": "172-173",
    "definition": "Nello stesso momento; per ora.",
    "example": "Tu prepari la pasta, io intanto apparecchio.",
    "usage": "avv."
@@ -79,7 +74,6 @@
    "translations": [
     "das Erklärvideo"
    ],
-   "page": "172-173",
    "definition": "Un video che spiega come funziona una cosa.",
    "example": "Ho capito la regola grazie a un video esplicativo.",
    "usage": "pl. i video esplicativi",
@@ -100,7 +94,6 @@
     "etw. suchen",
     "nachsehen"
    ],
-   "page": "172-173",
    "definition": "Cercare con attenzione informazioni.",
    "example": "Per la tesina devo ricercare molte informazioni.",
    "family": "cercare",
@@ -116,7 +109,6 @@
    "translations": [
     "der Film (kurz)"
    ],
-   "page": "172-173",
    "definition": "Un breve video.",
    "example": "Ho girato un filmato con il cellulare.",
    "family": "il film",
@@ -136,7 +128,6 @@
    "translations": [
     "zufrieden"
    ],
-   "page": "172-173",
    "definition": "Contento di quello che hai fatto o avuto.",
    "example": "Sono soddisfatto del mio voto.",
    "related": "E satisfied"
@@ -148,7 +139,6 @@
     "aus etw. werden",
     "aus etw. hervorgehen"
    ],
-   "page": "172-173",
    "definition": "Venire fuori come conseguenza.",
    "example": "Dal sondaggio risulta che i ragazzi usano molto i social.",
    "family": "il risultato",
@@ -164,7 +154,6 @@
     "herstellen",
     "produzieren"
    ],
-   "page": "172-173",
    "definition": "Fare, fabbricare una cosa.",
    "example": "Questa azienda produce biciclette.",
    "family": "il prodotto",
@@ -178,7 +167,6 @@
     "online posten",
     "ins Internet stellen"
    ],
-   "page": "172-173",
    "definition": "Pubblicare una foto o un testo sui social.",
    "example": "Non postare online le foto dei tuoi amici senza chiedere.",
    "related": "E to post"
@@ -189,7 +177,6 @@
    "translations": [
     "davon träumen, etw. zu tun"
    ],
-   "page": "172-173",
    "definition": "Desiderare molto una cosa.",
    "example": "Sogno di fare un viaggio in Giappone.",
    "family": "il sogno",
@@ -205,7 +192,6 @@
    "translations": [
     "der/die Gitarrist/in"
    ],
-   "page": "172-173",
    "definition": "Una persona che suona la chitarra.",
    "example": "Il chitarrista della band ha solo quindici anni.",
    "family": "la chitarra"
@@ -217,7 +203,6 @@
     "beruflich",
     "professionell"
    ],
-   "page": "172-173",
    "definition": "Che fa una cosa come lavoro, molto bene.",
    "example": "Mio cugino è un fotografo professionista.",
    "family": "la professione",
@@ -230,7 +215,6 @@
     "aufmunternd",
     "ermutigend"
    ],
-   "page": "172-173",
    "definition": "Che dà coraggio e speranza.",
    "example": "La prof mi ha scritto un commento incoraggiante.",
    "family": "il coraggio",
@@ -242,7 +226,6 @@
    "translations": [
     "naiv"
    ],
-   "page": "172-173",
    "definition": "Che crede troppo facilmente agli altri.",
    "example": "Non essere ingenuo, quella notizia è falsa."
   },
@@ -252,7 +235,6 @@
    "translations": [
     "romantisch"
    ],
-   "page": "172-173",
    "definition": "Pieno di sentimenti e di amore.",
    "example": "Abbiamo visto un film molto romantico."
   },
@@ -263,7 +245,6 @@
     "wirksam",
     "wertvoll"
    ],
-   "page": "172-173",
    "definition": "Che funziona, che ha valore.",
    "example": "È un’idea valida, proviamo!",
    "family": "valere",
@@ -276,7 +257,6 @@
     "derartig",
     "ähnlich"
    ],
-   "page": "172-173",
    "definition": "Di questo tipo.",
    "example": "Non ho mai visto una cosa del genere."
   },
@@ -287,7 +267,6 @@
     "verwenden",
     "brauchen (Zeit)"
    ],
-   "page": "172-173",
    "definition": "Usare; anche: avere bisogno di un certo tempo.",
    "example": "Impiego venti minuti per andare a scuola.",
    "usage": "(-ghi-)"
@@ -298,7 +277,6 @@
    "translations": [
     "die Sekunde"
    ],
-   "page": "172-173",
    "definition": "Una piccola parte di un minuto.",
    "example": "Aspetta un secondo, arrivo!",
    "related": "E second; F seconde",
@@ -319,7 +297,6 @@
     "das Netz",
     "das Internet"
    ],
-   "page": "172-173",
    "definition": "Internet; anche una cosa fatta di fili.",
    "example": "In rete si trovano tante informazioni.",
    "grammar": {
@@ -339,7 +316,6 @@
     "wirklich",
     "real"
    ],
-   "page": "172-173",
    "definition": "Vero, che esiste davvero.",
    "example": "Questa storia è basata su fatti reali.",
    "family": "in realtà",
@@ -352,7 +328,6 @@
     "ja",
     "doch (in Verneinungen)"
    ],
-   "page": "172-173",
    "definition": "Si usa con non per rafforzare la negazione.",
    "example": "Non sono mica stupido!",
    "usage": "Non è mica lontano. – Es ist ja nicht weit weg."
@@ -363,7 +338,6 @@
    "translations": [
     "abgelenkt von etw."
    ],
-   "page": "172-173",
    "definition": "Che non riesce a stare attento a causa di altro.",
    "example": "Sono distratto dal telefono quando studio.",
    "related": "E distracted; F distrait(e)",
@@ -377,7 +351,6 @@
    "translations": [
     "digital"
    ],
-   "page": "172-173",
    "definition": "Che usa computer e internet.",
    "example": "Leggo i libri in formato digitale."
   },
@@ -387,7 +360,6 @@
    "translations": [
     "akzeptabel"
    ],
-   "page": "172-173",
    "definition": "Che si può accettare.",
    "example": "Il prezzo è accettabile.",
    "related": "E acceptable; F acceptable"
@@ -398,7 +370,6 @@
    "translations": [
     "unterstützen"
    ],
-   "page": "172-173",
    "definition": "Aiutare qualcuno, stare dalla sua parte.",
    "example": "I miei genitori mi sostengono sempre.",
    "family": "tenere",
@@ -412,7 +383,6 @@
     "die Unternehmung",
     "die Initiative"
    ],
-   "page": "172-173",
    "definition": "Un’idea o un progetto che qualcuno comincia.",
    "example": "La classe ha preso l’iniziativa di pulire il parco.",
    "family": "l’inizio"
@@ -423,7 +393,6 @@
    "translations": [
     "einverstanden sein"
    ],
-   "page": "172-173",
    "definition": "Avere la stessa opinione.",
    "example": "Sono d’accordo con te.",
    "related": "F être d’accord"
@@ -434,7 +403,6 @@
    "translations": [
     "der/die Minderjährige"
    ],
-   "page": "172-173",
    "definition": "Una persona che ha meno di diciotto anni.",
    "example": "I minorenni non possono votare.",
    "related": "F mineur(e)"
@@ -445,7 +413,6 @@
    "translations": [
     "die Grenze"
    ],
-   "page": "172-173",
    "definition": "Il punto che non si deve superare.",
    "example": "Anche la pazienza ha un limite!",
    "related": "E limit; F limite",
@@ -466,7 +433,6 @@
     "aufrichtig",
     "ehrlich"
    ],
-   "page": "172-173",
    "definition": "Che dice la verità.",
    "example": "Sii onesto: ti piace il mio disegno?",
    "antonyms": "disonesto/-a",
@@ -479,7 +445,6 @@
     "der Störenfried",
     "die Nervensäge"
    ],
-   "page": "172-173",
    "definition": "Una persona che dà fastidio.",
    "example": "Mio fratello è un vero rompiscatole.",
    "family": "rompere",
@@ -491,7 +456,6 @@
    "translations": [
     "sichtbar"
    ],
-   "page": "172-173",
    "definition": "Che si può vedere.",
    "example": "Il tuo profilo è visibile a tutti.",
    "family": "vedere"
@@ -503,7 +467,6 @@
     "auf jdn/etw. verzichten",
     "ohne jdn/etw. auskommen"
    ],
-   "page": "172-173",
    "definition": "Vivere senza una persona o una cosa.",
    "example": "Non posso fare a meno del caffè la mattina.",
    "acceptedAnswers": [
@@ -516,7 +479,6 @@
    "translations": [
     "zu tun haben mit"
    ],
-   "page": "172-173",
    "definition": "Avere un rapporto con.",
    "example": "Questo problema non ha a che fare con te."
   },
@@ -526,7 +488,6 @@
    "translations": [
     "sich anfreunden"
    ],
-   "page": "172-173",
    "definition": "Diventare amici.",
    "example": "In vacanza ho fatto amicizia con due ragazze."
   },
@@ -536,7 +497,6 @@
    "translations": [
     "aufpassen"
    ],
-   "page": "172-173",
    "definition": "Stare attento.",
    "example": "Fai attenzione quando attraversi la strada!"
   },
@@ -546,7 +506,6 @@
    "translations": [
     "einen guten / schlechten Eindruck machen"
    ],
-   "page": "172-173",
    "definition": "Fare un’impressione buona o brutta.",
    "example": "All’esame orale ho fatto bella figura."
   },
@@ -556,7 +515,6 @@
    "translations": [
     "warm/kalt/kühl sein"
    ],
-   "page": "172-173",
    "definition": "Si usa per parlare del tempo.",
    "example": "Oggi fa molto freddo."
   },
@@ -566,7 +524,6 @@
    "translations": [
     "ein Schwätzchen halten"
    ],
-   "page": "172-173",
    "definition": "Parlare un po’ senza fretta.",
    "example": "Dopo scuola facciamo due chiacchiere al bar."
   },
@@ -576,7 +533,6 @@
    "translations": [
     "Mühe haben"
    ],
-   "page": "172-173",
    "definition": "Avere difficoltà a fare una cosa.",
    "example": "Faccio fatica ad alzarmi la mattina."
   },
@@ -586,7 +542,6 @@
    "translations": [
     "baden"
    ],
-   "page": "172-173",
    "definition": "Entrare nell’acqua del mare o della vasca.",
    "example": "Al lago abbiamo fatto il bagno."
   },
@@ -596,7 +551,6 @@
    "translations": [
     "heucheln"
    ],
-   "page": "172-173",
    "definition": "Fingere sentimenti che non si hanno.",
    "example": "Non fare l’ipocrita, so che non ti piace."
   },
@@ -606,7 +560,6 @@
    "translations": [
     "wehtun"
    ],
-   "page": "172-173",
    "definition": "Causare dolore.",
    "example": "Mi fa male la testa."
   },
@@ -617,7 +570,6 @@
     "teilnehmen an",
     "ein Teil sein von"
    ],
-   "page": "172-173",
    "definition": "Essere dentro un gruppo.",
    "example": "Faccio parte della squadra di pallavolo."
   },
@@ -627,7 +579,6 @@
    "translations": [
     "eklig sein"
    ],
-   "page": "172-173",
    "definition": "Essere molto brutto o cattivo.",
    "example": "Questa minestra fa schifo!",
    "usage": "fam."
@@ -639,7 +590,6 @@
     "einkaufen",
     "shoppen"
    ],
-   "page": "172-173",
    "definition": "Andare per negozi a comprare cose.",
    "example": "Sabato faccio shopping con mia sorella."
   },
@@ -649,7 +599,6 @@
    "translations": [
     "Snowboard fahren"
    ],
-   "page": "172-173",
    "definition": "Scendere sulla neve con una tavola.",
    "example": "D’inverno faccio snowboard sulle Alpi."
   },
@@ -659,7 +608,6 @@
    "translations": [
     "bei jdm vorbeischauen"
    ],
-   "page": "172-173",
    "definition": "Andare a trovare qualcuno per poco tempo.",
    "example": "Dopo scuola faccio un salto da Marta.",
    "acceptedAnswers": [
@@ -672,7 +620,6 @@
    "translations": [
     "zeigen"
    ],
-   "page": "172-173",
    "definition": "Mostrare.",
    "example": "Mi fai vedere le foto della vacanza?"
   },
@@ -682,7 +629,6 @@
    "translations": [
     "größtenteils"
    ],
-   "page": "172-173",
    "definition": "Per la maggior parte.",
    "example": "I commenti sono in gran parte positivi.",
    "usage": "avv."
@@ -694,7 +640,6 @@
     "unehrlich",
     "unaufrichtig"
    ],
-   "page": "172-173",
    "definition": "Che non dice la verità.",
    "example": "È disonesto copiare durante il compito.",
    "antonyms": "onesto/-a"
@@ -705,7 +650,6 @@
    "translations": [
     "die Daten"
    ],
-   "page": "172-173",
    "definition": "Le informazioni, per esempio su una persona.",
    "example": "Non dare i tuoi dati a sconosciuti.",
    "related": "E data",
@@ -726,7 +670,6 @@
     "persönlich",
     "eigen"
    ],
-   "page": "172-173",
    "definition": "Che riguarda una sola persona.",
    "example": "Questa è la mia opinione personale.",
    "family": "la persona"
@@ -738,7 +681,6 @@
     "gewisse/-r/-s",
     "sicher"
    ],
-   "page": "172-173",
    "definition": "Sicuro; anche: alcuni, non tutti.",
    "example": "Certe persone parlano troppo.",
    "related": "L certus"
@@ -750,7 +692,6 @@
     "das Urheberrecht",
     "das Copyright"
    ],
-   "page": "172-173",
    "definition": "Il diritto dell’autore sulla sua opera.",
    "example": "Non puoi usare questa foto, ha il copyright.",
    "usage": "pl. i copyright",
@@ -770,7 +711,6 @@
    "translations": [
     "Bis zum nächsten Mal!"
    ],
-   "page": "172-173",
    "definition": "Si dice per salutare.",
    "example": "Ciao ragazzi, alla prossima!",
    "acceptedAnswers": [
@@ -782,12 +722,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "3",
-   "unit": "Unità 2",
-   "section": "2A Noi nel mondo – radio per ragazzi",
-   "pages": "172-173"
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte A"
   },
   "grade": 10,
   "foreignLanguageNo": 3,
@@ -798,7 +736,7 @@
    "Radio"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

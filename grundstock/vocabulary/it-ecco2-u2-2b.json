@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-u2-2b",
- "title": "Ecco più 2 · Unità 2 · 2B Che ne pensi?",
+ "title": "Secondo anno · 2 · Vita online · Parte B",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Soziales Engagement“ aus Ecco più 2 (Unità 2, 2B Che ne pensi?).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), 2 · Vita online, Parte B.",
  "topics": [
   "Engagement",
   "Gesellschaft",
   "Freiwillige"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Unità 2 · 2B Che ne pensi?",
+ "collection": "Secondo anno",
+ "section": "2 · Vita online · Parte B",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 205-206 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "teilnehmen an"
    ],
-   "page": "205-206",
    "definition": "Prendere parte a un’attività.",
    "example": "Partecipo a un corso di teatro.",
    "related": "E to participate"
@@ -45,7 +42,6 @@
    "translations": [
     "die Diskussion"
    ],
-   "page": "205-206",
    "definition": "Conversazione con opinioni diverse.",
    "example": "La discussione è molto animata.",
    "family": "discutere",
@@ -65,7 +61,6 @@
    "translations": [
     "das Programm"
    ],
-   "page": "205-206",
    "definition": "Piano di attività o trasmissione.",
    "example": "Il programma della gita è bellissimo.",
    "grammar": {
@@ -85,7 +80,6 @@
     "das Engagement",
     "der Einsatz"
    ],
-   "page": "205-206",
    "definition": "Lavoro che si deve fare; serietà nel farlo.",
    "example": "Studio con impegno."
   },
@@ -95,7 +89,6 @@
    "translations": [
     "sozial"
    ],
-   "page": "205-206",
    "definition": "Che riguarda la società.",
    "example": "È un progetto sociale."
   },
@@ -105,7 +98,6 @@
    "translations": [
     "hier: der Pater (Kirche)"
    ],
-   "page": "205-206",
    "definition": "Sacerdote cattolico, in alcuni casi.",
    "example": "Il padre parla alla messa.",
    "grammar": {
@@ -125,7 +117,6 @@
     "sich kümmern um jdn/etw.",
     "sich beschäftigen mit"
    ],
-   "page": "205-206",
    "definition": "Dedicare tempo e attenzione.",
    "example": "Mi occupo del mio fratellino.",
    "related": "F s’occuper de qn/qc",
@@ -139,7 +130,6 @@
    "translations": [
     "das Projekt"
    ],
-   "page": "205-206",
    "definition": "Piano di lavoro.",
    "example": "Il progetto ha successo.",
    "related": "E project",
@@ -159,7 +149,6 @@
    "translations": [
     "präsentieren"
    ],
-   "page": "205-206",
    "definition": "Far conoscere o mostrare.",
    "example": "Presento il mio lavoro alla classe."
   },
@@ -170,7 +159,6 @@
     "live",
     "direkt (Medien)"
    ],
-   "page": "205-206",
    "definition": "Mentre succede, non registrato.",
    "example": "La partita è in diretta."
   },
@@ -180,7 +168,6 @@
    "translations": [
     "bereit (etw. zu tun)"
    ],
-   "page": "205-206",
    "definition": "Pronto a fare qualcosa.",
    "example": "Sono disposto ad aiutarti.",
    "related": "F disposé à"
@@ -192,7 +179,6 @@
     "viele",
     "mehrere"
    ],
-   "page": "205-206",
    "definition": "Un buon numero.",
    "example": "Ho parecchi amici."
   },
@@ -202,7 +188,6 @@
    "translations": [
     "der/die Freiwillige"
    ],
-   "page": "205-206",
    "definition": "Persona che aiuta gli altri senza essere pagata.",
    "example": "Sono volontario alla Croce Rossa.",
    "related": "F volontaire",
@@ -215,7 +200,6 @@
     "die Aktivität",
     "die Tätigkeit"
    ],
-   "page": "205-206",
    "definition": "Cosa che si fa.",
    "example": "Le attività sono divertenti."
   },
@@ -225,7 +209,6 @@
    "translations": [
     "der/die Einwanderer/-in"
    ],
-   "page": "205-206",
    "definition": "Persona che arriva in un paese per viverci.",
    "example": "Gli immigrati cercano lavoro.",
    "related": "E immigrant"
@@ -237,7 +220,6 @@
     "ausländisch",
     "fremd"
    ],
-   "page": "205-206",
    "definition": "Di un altro paese.",
    "example": "Ho amici stranieri.",
    "related": "E strange; F étranger"
@@ -249,7 +231,6 @@
     "die Mannschaft",
     "das Team"
    ],
-   "page": "205-206",
    "definition": "Gruppo che gioca insieme.",
    "example": "Facciamo parte della stessa squadra.",
    "grammar": {
@@ -268,7 +249,6 @@
    "translations": [
     "der Eindruck"
    ],
-   "page": "205-206",
    "definition": "Idea che ci si fa di qualcosa.",
    "example": "Ho una buona impressione di lui.",
    "related": "E impression; F l’impression",
@@ -281,7 +261,6 @@
     "sich engagieren",
     "sich für etw. einsetzen"
    ],
-   "page": "205-206",
    "definition": "Dedicarsi con serietà a qualcosa.",
    "example": "Mi impegno nel volontariato.",
    "synonyms": "l’impegno",
@@ -295,7 +274,6 @@
    "translations": [
     "teilweise"
    ],
-   "page": "205-206",
    "definition": "Non del tutto.",
    "example": "Sono d’accordo in parte."
   },
@@ -306,7 +284,6 @@
     "mit jdm einer Meinung sein",
     "einig sein"
    ],
-   "page": "205-206",
    "definition": "Avere la stessa opinione.",
    "example": "Sono d’accordo con te.",
    "related": "F être d’accord avec qn",
@@ -321,7 +298,6 @@
     "erfordern",
     "verlangen"
    ],
-   "page": "205-206",
    "definition": "Domandare con forza.",
    "example": "Questo lavoro richiede tempo.",
    "usage": "p.p. richiesto"
@@ -332,7 +308,6 @@
    "translations": [
     "regelmäßig"
    ],
-   "page": "205-206",
    "definition": "Che avviene sempre allo stesso modo.",
    "example": "Faccio sport in modo regolare.",
    "related": "E regular; F régulier",
@@ -346,7 +321,6 @@
     "das Festessen",
     "das Mahl"
    ],
-   "page": "205-206",
    "definition": "Pasto di mezzogiorno.",
    "example": "Il pranzo è alle una.",
    "grammar": {
@@ -365,7 +339,6 @@
    "translations": [
     "Weihnachten"
    ],
-   "page": "205-206",
    "definition": "Festa cristiana del 25 dicembre.",
    "example": "A Natale stiamo con la famiglia.",
    "related": "F le Noël",
@@ -377,7 +350,6 @@
    "translations": [
     "unterbrechen"
    ],
-   "page": "205-206",
    "definition": "Fermare per un po’.",
    "example": "Non interrompermi!",
    "related": "F interrompre",
@@ -389,7 +361,6 @@
    "translations": [
     "der/die Pfadfinder/in"
    ],
-   "page": "205-206",
    "definition": "Giovane che fa parte degli scout.",
    "example": "Mio fratello è boy-scout."
   },
@@ -400,7 +371,6 @@
     "ansonsten",
     "sonst"
    ],
-   "page": "205-206",
    "definition": "Se no, in caso contrario.",
    "example": "Sbrigati, altrimenti perdi il treno."
   },
@@ -411,7 +381,6 @@
     "existieren",
     "vorhanden sein"
    ],
-   "page": "205-206",
    "definition": "Essere presente nella realtà.",
    "example": "Gli unicorni non esistono.",
    "related": "E to exist",
@@ -423,7 +392,6 @@
    "translations": [
     "sinnvoll"
    ],
-   "page": "205-206",
    "definition": "Ragionevole, che ha senso.",
    "example": "È una proposta sensata.",
    "related": "F sensé"
@@ -434,7 +402,6 @@
    "translations": [
     "konkret"
    ],
-   "page": "205-206",
    "definition": "Reale, non astratto.",
    "example": "Voglio un esempio concreto."
   },
@@ -444,7 +411,6 @@
    "translations": [
     "(auf-/ein-)sammeln"
    ],
-   "page": "205-206",
    "definition": "Prendere qualcosa da terra o da più posti.",
    "example": "Raccolgo le mele nel frutteto.",
    "acceptedAnswers": [
@@ -459,7 +425,6 @@
     "der Abfall",
     "der Müll"
    ],
-   "page": "205-206",
    "definition": "Cose che si buttano via.",
    "example": "Separiamo i rifiuti per la raccolta differenziata.",
    "grammar": {
@@ -478,7 +443,6 @@
    "translations": [
     "Umwelt-"
    ],
-   "page": "205-206",
    "definition": "Che riguarda la natura e il suo equilibrio.",
    "example": "Il problema ambientale è serio.",
    "usage": "agg."
@@ -490,7 +454,6 @@
     "sich einsetzen",
     "sich engagieren"
    ],
-   "page": "205-206",
    "definition": "Impegnarsi con energia.",
    "example": "Mi do da fare per aiutare la mia scuola.",
    "synonyms": "impegnarsi",
@@ -502,7 +465,6 @@
    "translations": [
     "beschäftigt"
    ],
-   "page": "205-206",
    "definition": "Che ha molte cose da fare.",
    "example": "Oggi sono molto impegnato."
   },
@@ -512,7 +474,6 @@
    "translations": [
     "bezweifeln"
    ],
-   "page": "205-206",
    "definition": "Non essere sicuri.",
    "example": "Dubito che arrivi in tempo.",
    "related": "E to doubt; F douter; L dubitare"
@@ -523,7 +484,6 @@
    "translations": [
     "gelten"
    ],
-   "page": "205-206",
    "definition": "Avere un certo valore.",
    "example": "Questa moneta vale due euro.",
    "acceptedAnswers": [
@@ -537,7 +497,6 @@
    "translations": [
     "die Leute"
    ],
-   "page": "205-206",
    "definition": "Insieme di persone.",
    "example": "C’è molta gente in piazza.",
    "related": "F les gens",
@@ -557,7 +516,6 @@
    "translations": [
     "scheinen"
    ],
-   "page": "205-206",
    "definition": "Dare l’impressione di essere.",
    "example": "Mi pare una buona idea.",
    "usage": "p.p. parso"
@@ -569,7 +527,6 @@
     "meinen",
     "beabsichtigen etw. zu tun"
    ],
-   "page": "205-206",
    "definition": "Voler dire, avere in mente.",
    "example": "Che cosa intendi con questo?",
    "related": "E to intend",
@@ -579,12 +536,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Unità 2",
-   "section": "2B Che ne pensi?",
-   "pages": "205-206"
+   "unit": "2 · Vita online",
+   "section": "Parte B"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -595,7 +550,7 @@
    "Freiwillige"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

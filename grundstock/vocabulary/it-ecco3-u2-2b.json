@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco3-u2-2b",
- "title": "Ecco più 3 · Unità 2 · 2B Vivere alla tedesca",
+ "title": "Terzo anno · 2 · Vivere all’estero · Parte B",
  "language": "it",
  "translationLanguage": "de",
  "level": "B1",
- "description": "Wortschatz zu „Leben auf Deutsch“ aus Ecco più 3 (Unità 2, 2B Vivere alla tedesca).",
+ "description": "Wortschatz Terzo anno (3. Lernjahr), 2 · Vivere all’estero, Parte B.",
  "topics": [
   "Deutschland",
   "Studium",
   "Arbeit"
  ],
- "collection": "Ecco più 3 (Cornelsen)",
- "section": "Unità 2 · 2B Vivere alla tedesca",
+ "collection": "Terzo anno",
+ "section": "2 · Vivere all’estero · Parte B",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 173-175 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Terzo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "Hamburg"
    ],
-   "page": "173-175",
    "definition": "Una grande città del nord della Germania con il porto.",
    "example": "Amburgo ha un porto molto grande.",
    "usage": "f."
@@ -46,7 +43,6 @@
     "die Wahl",
     "die Entscheidung"
    ],
-   "page": "173-175",
    "definition": "Il fatto di scegliere tra più cose.",
    "example": "Dopo la scuola devo fare una scelta importante.",
    "family": "scegliere",
@@ -66,7 +62,6 @@
    "translations": [
     "die Unterkunft"
    ],
-   "page": "173-175",
    "definition": "Un posto dove dormire e vivere.",
    "example": "Gli studenti cercano un alloggio vicino all’università."
   },
@@ -76,7 +71,6 @@
    "translations": [
     "bei"
    ],
-   "page": "173-175",
    "definition": "Vicino a, nel luogo di.",
    "example": "Lavora presso un’azienda di Milano."
   },
@@ -87,7 +81,6 @@
     "die Mischung",
     "das Durcheinander"
    ],
-   "page": "173-175",
    "definition": "Un insieme di cose diverse.",
    "example": "Nella mia classe c’è un mix di culture.",
    "grammar": {
@@ -106,7 +99,6 @@
    "translations": [
     "Wer weiß …!"
    ],
-   "page": "173-175",
    "definition": "Si usa quando non si sa una cosa.",
    "example": "Chissà dove ho messo le chiavi!"
   },
@@ -116,7 +108,6 @@
    "translations": [
     "Gast-"
    ],
-   "page": "173-175",
    "definition": "Che accoglie un ospite a casa.",
    "example": "La mia famiglia ospitante ad Amburgo era molto gentile.",
    "family": "l’ospite"
@@ -127,7 +118,6 @@
    "translations": [
     "behandeln"
    ],
-   "page": "173-175",
    "definition": "Comportarsi in un certo modo con qualcuno.",
    "example": "Mi hanno trattato come un figlio.",
    "related": "E to treat; F traiter"
@@ -138,7 +128,6 @@
    "translations": [
     "vom ersten Moment an"
    ],
-   "page": "173-175",
    "definition": "Subito, dall’inizio.",
    "example": "Mi sono trovata bene fin dal primo momento."
   },
@@ -149,7 +138,6 @@
     "bis auf jdn/etw.",
     "außer jdm/etw."
    ],
-   "page": "173-175",
    "definition": "Tranne, escluso.",
    "example": "A parte Luca, sono venuti tutti.",
    "acceptedAnswers": [
@@ -162,7 +150,6 @@
    "translations": [
     "gegenseitig"
    ],
-   "page": "173-175",
    "definition": "L’uno con l’altro.",
    "example": "Io e mia sorella ci aiutiamo a vicenda.",
    "usage": "avv."
@@ -173,7 +160,6 @@
    "translations": [
     "sich jdn/etw. vorstellen"
    ],
-   "page": "173-175",
    "definition": "Pensare a una cosa che non si vede.",
    "example": "Non mi immaginavo una città così grande.",
    "related": "E to imagine; F s’imaginer",
@@ -187,7 +173,6 @@
    "translations": [
     "der Regen"
    ],
-   "page": "173-175",
    "definition": "L’acqua che cade dal cielo.",
    "example": "Con questa pioggia restiamo a casa.",
    "grammar": {
@@ -207,7 +192,6 @@
     "da",
     "weil"
    ],
-   "page": "173-175",
    "definition": "Per il motivo che.",
    "example": "Poiché pioveva, abbiamo preso l’autobus."
   },
@@ -217,7 +201,6 @@
    "translations": [
     "in Vollzeit"
    ],
-   "page": "173-175",
    "definition": "Per tutta la giornata di lavoro.",
    "example": "Mia madre lavora a tempo pieno."
   },
@@ -227,7 +210,6 @@
    "translations": [
     "anwesend"
    ],
-   "page": "173-175",
    "definition": "Che è nel posto, non assente.",
    "example": "Oggi tutti gli studenti sono presenti."
   },
@@ -237,7 +219,6 @@
    "translations": [
     "von Hand"
    ],
-   "page": "173-175",
    "definition": "Senza macchine, con le mani.",
    "example": "La nonna fa la pasta a mano."
   },
@@ -248,7 +229,6 @@
     "der Hausschuh",
     "der Pantoffel"
    ],
-   "page": "173-175",
    "definition": "Una scarpa morbida da usare in casa.",
    "example": "In Germania molti mettono le pantofole in casa.",
    "grammar": {
@@ -267,7 +247,6 @@
    "translations": [
     "sich gewöhnen"
    ],
-   "page": "173-175",
    "definition": "Fare diventare normale una cosa nuova.",
    "example": "Mi sono abituato presto al freddo.",
    "related": "F s’habituer"
@@ -278,7 +257,6 @@
    "translations": [
     "bemerken"
    ],
-   "page": "173-175",
    "definition": "Vedere, accorgersi di una cosa.",
    "example": "Hai notato il nuovo taglio di capelli di Sara?",
    "related": "E to notice; F noter"
@@ -290,7 +268,6 @@
     "auch",
     "sogar"
    ],
-   "page": "173-175",
    "definition": "Anche.",
    "example": "È venuto pure il nonno."
   },
@@ -300,7 +277,6 @@
    "translations": [
     "bestätigen"
    ],
-   "page": "173-175",
    "definition": "Dire che una cosa è vera o sicura.",
    "example": "Ti confermo che domani vengo.",
    "related": "E to confirm; F confirmer"
@@ -311,7 +287,6 @@
    "translations": [
     "Freundschaft schließen"
    ],
-   "page": "173-175",
    "definition": "Diventare amici.",
    "example": "Ad Amburgo ho fatto amicizia con due ragazzi."
   },
@@ -322,7 +297,6 @@
     "der Schwede",
     "die Schwedin"
    ],
-   "page": "173-175",
    "definition": "Una persona della Svezia.",
    "example": "Nella mia classe c’era una svedese simpatica."
   },
@@ -332,7 +306,6 @@
    "translations": [
     "der/die Japaner/in"
    ],
-   "page": "173-175",
    "definition": "Una persona del Giappone.",
    "example": "Il mio vicino è giapponese."
   },
@@ -342,7 +315,6 @@
    "translations": [
     "etw. schaffen"
    ],
-   "page": "173-175",
    "definition": "Essere capaci di fare una cosa.",
    "example": "Ho provato tante volte e alla fine ci sono riuscito."
   },
@@ -352,7 +324,6 @@
    "translations": [
     "die Nordsee"
    ],
-   "page": "173-175",
    "definition": "Il mare al nord della Germania.",
    "example": "D’estate siamo andati al mare del Nord.",
    "grammar": {
@@ -372,7 +343,6 @@
     "so",
     "derart"
    ],
-   "page": "173-175",
    "definition": "In modo così forte.",
    "example": "Ero talmente stanco che mi sono addormentato."
   },
@@ -383,7 +353,6 @@
     "Schutz suchen",
     "sich schützen"
    ],
-   "page": "173-175",
    "definition": "Andare in un posto dove non ci sono pericoli.",
    "example": "Quando ha cominciato a piovere ci siamo messi al riparo."
   },
@@ -393,7 +362,6 @@
    "translations": [
     "der Strandkorb"
    ],
-   "page": "173-175",
    "definition": "Una grande sedia per la spiaggia che protegge dal vento.",
    "example": "Al mare del Nord ci sono tante poltrone da spiaggia.",
    "grammar": {
@@ -412,7 +380,6 @@
    "translations": [
     "jdm/etw. ähnlich sehen"
    ],
-   "page": "173-175",
    "definition": "Essere simile a qualcuno.",
    "example": "Assomigli molto a tuo padre.",
    "acceptedAnswers": [
@@ -426,7 +393,6 @@
     "steif",
     "starr"
    ],
-   "page": "173-175",
    "definition": "Duro, che non si piega; anche: severo.",
    "example": "Le regole di questa scuola sono rigide.",
    "related": "F rigide"
@@ -437,7 +403,6 @@
    "translations": [
     "zurückkehren"
    ],
-   "page": "173-175",
    "definition": "Tornare a casa o nel proprio paese.",
    "example": "Siamo rientrati in Italia ieri sera."
   },
@@ -448,7 +413,6 @@
     "erweitern",
     "vergrößern"
    ],
-   "page": "173-175",
    "definition": "Fare diventare più grande.",
    "example": "Un anno all’estero accresce le tue competenze.",
    "usage": "p.p. accresciuto"
@@ -457,12 +421,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "3",
-   "unit": "Unità 2",
-   "section": "2B Vivere alla tedesca",
-   "pages": "173-175"
+   "unit": "2 · Vivere all’estero",
+   "section": "Parte B"
   },
   "grade": 10,
   "foreignLanguageNo": 3,
@@ -473,7 +435,7 @@
    "Arbeit"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

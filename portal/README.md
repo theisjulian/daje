@@ -8,7 +8,7 @@ Die Anwendung ist buildlos. Den Inhalt von `dist` auf einem statischen Webserver
 
 ## Funktionsumfang
 
-- 133 aufbereitete Einträge aus Ciao! und Unità 1 von Ecco più 1, ISBN 978-3-06-022906-2. Weitere Kapitel und Bände sind noch nicht enthalten.
+- 133 aufbereitete Einträge aus Ciao! und Unità 1 von Primo anno. Weitere Kapitel und Bände sind noch nicht enthalten.
 - Karten, Schreiben, Zuordnen, drei Bildimpulse und zwanzig italienische Definitionen.
 - Kapitel, Teilkapitel oder kumulatives Lernen; beide Sprachrichtungen, Runden mit 5, 10 oder 20 Wörtern, begrenzt auf den vorhandenen Bestand.
 - Fünf Verben im Presente als erste Erweiterung.

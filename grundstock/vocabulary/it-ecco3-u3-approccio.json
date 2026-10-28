@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco3-u3-approccio",
- "title": "Ecco più 3 · Unità 3 · Approccio",
+ "title": "Terzo anno · 3 · Società e solidarietà · Per cominciare",
  "language": "it",
  "translationLanguage": "de",
  "level": "B1",
- "description": "Wortschatz zu „Le sfide alla società“ aus Ecco più 3 (Unità 3, Approccio).",
+ "description": "Wortschatz Terzo anno (3. Lernjahr), 3 · Società e solidarietà, Per cominciare.",
  "topics": [
   "Gesellschaft",
   "Neapel",
   "Probleme"
  ],
- "collection": "Ecco più 3 (Cornelsen)",
- "section": "Unità 3 · Approccio",
+ "collection": "Terzo anno",
+ "section": "3 · Società e solidarietà · Per cominciare",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 175-176 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Terzo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "die Herausforderung"
    ],
-   "page": "175-176",
    "definition": "Una cosa difficile che bisogna affrontare.",
    "example": "Il cambiamento climatico è una grande sfida.",
    "grammar": {
@@ -53,7 +50,6 @@
    "translations": [
     "die Gesellschaft"
    ],
-   "page": "175-176",
    "definition": "Tutte le persone che vivono insieme in un paese.",
    "example": "Internet sta cambiando la nostra società.",
    "related": "E society",
@@ -73,7 +69,6 @@
    "translations": [
     "der/die Gymnasiast/in"
    ],
-   "page": "175-176",
    "definition": "Uno studente o una studentessa del liceo.",
    "example": "I liceali di quinta preparano la maturità.",
    "usage": "m./f."
@@ -84,7 +79,6 @@
    "translations": [
     "die Tatsache"
    ],
-   "page": "175-176",
    "definition": "Una cosa che è successa davvero.",
    "example": "Il fatto è che non ho tempo.",
    "related": "E fact; F fait",
@@ -104,7 +98,6 @@
    "translations": [
     "das Mittelmeer(gebiet)"
    ],
-   "page": "175-176",
    "definition": "Il mare tra Europa, Africa e Asia.",
    "example": "La Sicilia è la più grande isola del Mediterraneo.",
    "grammar": {
@@ -123,7 +116,6 @@
    "translations": [
     "der Massentourismus"
    ],
-   "page": "175-176",
    "definition": "Quando troppi turisti vanno nello stesso posto.",
    "example": "Il turismo di massa è un problema per Venezia.",
    "grammar": {
@@ -142,7 +134,6 @@
    "translations": [
     "sich etw. bewusst sein"
    ],
-   "page": "175-176",
    "definition": "Sapere bene una cosa e capirne l’importanza.",
    "example": "Sono consapevole dei rischi di internet.",
    "acceptedAnswers": [
@@ -155,7 +146,6 @@
    "translations": [
     "gegenüber jdm/etw."
    ],
-   "page": "175-176",
    "definition": "Verso, rispetto a qualcuno.",
    "example": "Sei sempre gentile nei confronti di tutti.",
    "acceptedAnswers": [
@@ -169,7 +159,6 @@
     "das Dorf",
     "das Viertel"
    ],
-   "page": "175-176",
    "definition": "Un piccolo paese antico.",
    "example": "In Umbria ci sono tanti borghi medievali.",
    "usage": "pl. i borghi",
@@ -189,7 +178,6 @@
    "translations": [
     "das Opfer"
    ],
-   "page": "175-176",
    "definition": "Una persona che subisce un danno.",
    "example": "Il terremoto ha fatto molte vittime.",
    "related": "E victim",
@@ -209,7 +197,6 @@
    "translations": [
     "wirksam"
    ],
-   "page": "175-176",
    "definition": "Che funziona bene.",
    "example": "Questo metodo di studio è molto efficace."
   },
@@ -219,7 +206,6 @@
    "translations": [
     "die Vorbeugung"
    ],
-   "page": "175-176",
    "definition": "Quello che si fa prima per evitare un problema.",
    "example": "La prevenzione è importante per la salute.",
    "grammar": {
@@ -238,7 +224,6 @@
    "translations": [
     "Vorkehrungen treffen"
    ],
-   "page": "175-176",
    "definition": "Fare qualcosa per risolvere un problema.",
    "example": "Il comune deve prendere provvedimenti contro il traffico."
   },
@@ -248,7 +233,6 @@
    "translations": [
     "jdn/etw. betreffen"
    ],
-   "page": "175-176",
    "definition": "Avere a che fare con qualcuno.",
    "example": "Questa regola riguarda tutti gli studenti.",
    "acceptedAnswers": [
@@ -262,7 +246,6 @@
     "der Bau",
     "die Errichtung"
    ],
-   "page": "175-176",
    "definition": "Il lavoro per fare un edificio.",
    "example": "La costruzione del nuovo stadio dura due anni.",
    "related": "E construction; F construction",
@@ -282,7 +265,6 @@
    "translations": [
     "in der Lage sein, etw. zu tun"
    ],
-   "page": "175-176",
    "definition": "Essere capaci di fare una cosa.",
    "example": "Sei in grado di risolvere questo esercizio?",
    "usage": "+ inf."
@@ -293,7 +275,6 @@
    "translations": [
     "jdm/etw. standhalten"
    ],
-   "page": "175-176",
    "definition": "Resistere, non cadere.",
    "example": "La vecchia casa ha retto al terremoto.",
    "acceptedAnswers": [
@@ -307,7 +288,6 @@
    "translations": [
     "der Erdstoß"
    ],
-   "page": "175-176",
    "definition": "Un movimento forte della terra.",
    "example": "Stanotte abbiamo sentito una scossa.",
    "grammar": {
@@ -327,7 +307,6 @@
     "die Entwicklung",
     "die Entstehung"
    ],
-   "page": "175-176",
    "definition": "Il processo di crescita e di cambiamento.",
    "example": "Lo sviluppo della tecnologia è velocissimo.",
    "grammar": {
@@ -347,7 +326,6 @@
     "vertretbar",
     "nachhaltig"
    ],
-   "page": "175-176",
    "definition": "Che non fa male all’ambiente per il futuro.",
    "example": "Vogliamo un turismo più sostenibile."
   },
@@ -358,7 +336,6 @@
     "schonen",
     "respektieren"
    ],
-   "page": "175-176",
    "definition": "Trattare con attenzione e rispetto.",
    "example": "Bisogna rispettare la natura."
   },
@@ -368,7 +345,6 @@
    "translations": [
     "das Gebiet"
    ],
-   "page": "175-176",
    "definition": "Una zona di terra.",
    "example": "Il territorio della Campania è molto vario.",
    "related": "E territory; F terroir",
@@ -389,7 +365,6 @@
    "translations": [
     "wunderbar"
    ],
-   "page": "175-176",
    "definition": "Bellissimo.",
    "example": "Oggi è una giornata splendida."
   },
@@ -400,7 +375,6 @@
     "klar",
     "offensichtlich"
    ],
-   "page": "175-176",
    "definition": "Facile da capire, evidente.",
    "example": "È chiaro che non vuole venire."
   },
@@ -410,7 +384,6 @@
    "translations": [
     "die Liebe"
    ],
-   "page": "175-176",
    "definition": "Un sentimento forte per una persona.",
    "example": "L’amore per la musica ci unisce.",
    "related": "F amour; L amor",
@@ -422,7 +395,6 @@
    "translations": [
     "die Meeresküste"
    ],
-   "page": "175-176",
    "definition": "La costa del mare con spiagge e paesi.",
    "example": "D’estate andiamo in riviera.",
    "grammar": {
@@ -441,7 +413,6 @@
    "translations": [
     "ligurisch"
    ],
-   "page": "175-176",
    "definition": "Della Liguria.",
    "example": "La costa ligure ha paesi molto colorati."
   },
@@ -451,7 +422,6 @@
    "translations": [
     "magisch"
    ],
-   "page": "175-176",
    "definition": "Che sembra fuori dalla realtà, bellissimo.",
    "example": "Il tramonto sul mare era magico.",
    "usage": "pl. magici/-iche"
@@ -462,7 +432,6 @@
    "translations": [
     "der Aussichtspunkt"
    ],
-   "page": "175-176",
    "definition": "Un posto da cui si vede un bel paesaggio.",
    "example": "Dal punto panoramico si vede tutta Napoli.",
    "grammar": {
@@ -481,7 +450,6 @@
    "translations": [
     "anziehen"
    ],
-   "page": "175-176",
    "definition": "Fare venire, interessare.",
    "example": "Le spiagge attirano molti turisti.",
    "related": "F attirer"
@@ -492,7 +460,6 @@
    "translations": [
     "so weit/sehr/viel, dass"
    ],
-   "page": "175-176",
    "definition": "Così tanto che.",
    "example": "Era stanco al punto che si è addormentato in classe."
   },
@@ -502,7 +469,6 @@
    "translations": [
     "verboten"
    ],
-   "page": "175-176",
    "definition": "Che non si può fare.",
    "example": "È proibito fumare a scuola.",
    "related": "E prohibited"
@@ -513,7 +479,6 @@
    "translations": [
     "das Feuer"
    ],
-   "page": "175-176",
    "definition": "Quello che brucia e fa luce e calore.",
    "example": "Abbiamo acceso il fuoco in spiaggia.",
    "usage": "pl. i fuochi",
@@ -533,7 +498,6 @@
    "translations": [
     "die Praktik"
    ],
-   "page": "175-176",
    "definition": "Un modo di fare, un’abitudine.",
    "example": "Rubare è una pratica criminale.",
    "usage": "pl. le pratiche",
@@ -553,7 +517,6 @@
    "translations": [
     "kriminell"
    ],
-   "page": "175-176",
    "definition": "Contro la legge.",
    "example": "La polizia combatte le organizzazioni criminali."
   },
@@ -563,7 +526,6 @@
    "translations": [
     "verbrennen"
    ],
-   "page": "175-176",
    "definition": "Distruggere con il fuoco.",
    "example": "Non si devono bruciare i rifiuti."
   },
@@ -573,7 +535,6 @@
    "translations": [
     "giftig"
    ],
-   "page": "175-176",
    "definition": "Che fa molto male alla salute.",
    "example": "Questi rifiuti sono tossici.",
    "related": "E toxic; F toxique"
@@ -584,7 +545,6 @@
    "translations": [
     "führen zu etw."
    ],
-   "page": "175-176",
    "definition": "Avere come risultato.",
    "example": "Lo stress può portare a problemi di salute.",
    "acceptedAnswers": [
@@ -597,7 +557,6 @@
    "translations": [
     "ernsthaft"
    ],
-   "page": "175-176",
    "definition": "Che non scherza; importante.",
    "example": "Questo è un problema serio.",
    "related": "E serious; F sérieux"
@@ -608,7 +567,6 @@
    "translations": [
     "der Protest"
    ],
-   "page": "175-176",
    "definition": "Quando le persone dicono pubblicamente che non sono d’accordo.",
    "example": "I ragazzi hanno organizzato una protesta per il clima.",
    "grammar": {
@@ -627,7 +585,6 @@
    "translations": [
     "die (Umwelt-)Verschmutzung"
    ],
-   "page": "175-176",
    "definition": "Quando aria, acqua o terra diventano sporche.",
    "example": "L’inquinamento dell’aria è alto in città."
   }
@@ -635,12 +592,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "3",
-   "unit": "Unità 3",
-   "section": "Approccio",
-   "pages": "175-176"
+   "unit": "3 · Società e solidarietà",
+   "section": "Per cominciare"
   },
   "grade": 10,
   "foreignLanguageNo": 3,
@@ -651,7 +606,7 @@
    "Probleme"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

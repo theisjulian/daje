@@ -3,27 +3,25 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco1-u5-5b",
- "title": "Ecco più 1 · Unità 5 · 5B",
+ "title": "Primo anno · 5 · Famiglia e gite · Parte B",
  "language": "it",
  "translationLanguage": "de",
  "level": "A1",
- "description": "Wortschatz zu „Vacanze romane“ aus Ecco più 1 (Unità 5, 5B).",
+ "description": "Wortschatz Primo anno (1. Lernjahr), 5 · Famiglia e gite, Parte B.",
  "topics": [
   "Reisen",
   "Verkehr"
  ],
- "collection": "Ecco più 1 (Cornelsen)",
- "section": "Unità 5 · 5B",
+ "collection": "Primo anno",
+ "section": "5 · Famiglia e gite · Parte B",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 188-190 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Primo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -33,7 +31,6 @@
    "translations": [
     "römisch"
    ],
-   "page": "188-190",
    "definition": "Che viene dalla capitale d’Italia.",
    "example": "La mia amica è di Roma. È romana."
   },
@@ -44,7 +41,6 @@
     "neulich",
     "vor kurzem"
    ],
-   "page": "188-190",
    "definition": "In questi ultimi tempi.",
    "example": "Ultimamente studio molto.",
    "family": "ultimo/-a",
@@ -57,7 +53,6 @@
     "sehr",
     "viel"
    ],
-   "page": "188-190",
    "definition": "In grande quantità; molto.",
    "example": "A scuola devo studiare tanto!",
    "synonyms": "molto",
@@ -70,7 +65,6 @@
    "translations": [
     "(das) Ostern"
    ],
-   "page": "188-190",
    "definition": "Festa della primavera, con le uova di cioccolato.",
    "example": "A Pasqua ci sono le vacanze.",
    "grammar": {
@@ -89,7 +83,6 @@
    "translations": [
     "die Reise"
    ],
-   "page": "188-190",
    "definition": "Spostamento da un posto a un altro lontano.",
    "example": "In vacanza voglio fare un viaggio a Roma.",
    "usage": "pl. i viaggi",
@@ -109,7 +102,6 @@
    "translations": [
     "die Ruhe"
    ],
-   "page": "188-190",
    "definition": "Stato di chi non è agitato.",
    "example": "Mantieni la calma!",
    "related": "E calm; F le calme",
@@ -129,7 +121,6 @@
    "translations": [
     "der Flug"
    ],
-   "page": "188-190",
    "definition": "Viaggio in aereo.",
    "example": "Cerco un volo per Roma in Internet.",
    "related": "F le vol",
@@ -149,7 +140,6 @@
    "translations": [
     "der Preis"
    ],
-   "page": "188-190",
    "definition": "Quanto costa una cosa.",
    "example": "Ho trovato un volo a buon prezzo.",
    "related": "E price; L pretium",
@@ -170,7 +160,6 @@
     "günstig",
     "billig"
    ],
-   "page": "188-190",
    "definition": "Che costa poco.",
    "example": "Ho comprato la giacca a buon prezzo."
   },
@@ -180,7 +169,6 @@
    "translations": [
     "kaufen"
    ],
-   "page": "188-190",
    "definition": "Prendere qualcosa pagando.",
    "example": "Compro un vestito al negozio.",
    "antonyms": "vendere"
@@ -192,7 +180,6 @@
     "die Fahrkarte",
     "das Ticket"
    ],
-   "page": "188-190",
    "definition": "Pezzetto di carta per viaggiare o per entrare.",
    "example": "Filippo organizza i biglietti per il volo.",
    "related": "F le billet",
@@ -212,7 +199,6 @@
    "translations": [
     "der Flughafen"
    ],
-   "page": "188-190",
    "definition": "Luogo da cui partono gli aerei.",
    "example": "All’aeroporto ci sono molti aerei.",
    "related": "E airport; F l’aéroport"
@@ -223,7 +209,6 @@
    "translations": [
     "der Bus"
    ],
-   "page": "188-190",
    "definition": "Mezzo pubblico per la città.",
    "example": "Abbiamo perso l’autobus.",
    "usage": "pl. gli autobus"
@@ -234,7 +219,6 @@
    "translations": [
     "der Bahnhof"
    ],
-   "page": "188-190",
    "definition": "Luogo da cui partono e arrivano i treni.",
    "example": "Prendo l’autobus dalla stazione.",
    "related": "E station",
@@ -254,7 +238,6 @@
    "translations": [
     "sofort"
    ],
-   "page": "188-190",
    "definition": "Immediatamente.",
    "example": "Vieni subito!",
    "usage": "avv."
@@ -265,7 +248,6 @@
    "translations": [
     "versprechen"
    ],
-   "page": "188-190",
    "definition": "Dire che farai sicuramente qualcosa.",
    "example": "Telefono subito, promesso!",
    "related": "L promittere",
@@ -277,7 +259,6 @@
    "translations": [
     "die Haltestelle"
    ],
-   "page": "188-190",
    "definition": "Punto dove si sale e si scende dal bus.",
    "example": "Devo scendere alla prossima fermata.",
    "grammar": {
@@ -297,7 +278,6 @@
     "warten",
     "erwarten"
    ],
-   "page": "188-190",
    "definition": "Stare in un luogo finché arriva qualcosa.",
    "example": "I ragazzi aspettano l’autobus alla fermata."
   },
@@ -308,7 +288,6 @@
     "kontrollieren",
     "(über)prüfen"
    ],
-   "page": "188-190",
    "definition": "Verificare che tutto sia a posto.",
    "example": "Devo controllare l’orario dell’autobus.",
    "related": "E to control"
@@ -320,7 +299,6 @@
     "der Zug",
     "die Bahn"
    ],
-   "page": "188-190",
    "definition": "Mezzo che corre sui binari.",
    "example": "Prendiamo il treno per il centro.",
    "related": "E train",
@@ -340,7 +318,6 @@
    "translations": [
     "Was für ein Schlamassel!"
    ],
-   "page": "188-190",
    "definition": "Esclamazione per una situazione confusa.",
    "example": "Che pasticcio, ho perso il biglietto!"
   },
@@ -350,7 +327,6 @@
    "translations": [
     "das Taxi"
    ],
-   "page": "188-190",
    "definition": "Auto pubblica con un conducente che si paga.",
    "example": "Prendiamo un taxi per l’aeroporto.",
    "usage": "pl. i taxi",
@@ -370,7 +346,6 @@
    "translations": [
     "kosten"
    ],
-   "page": "188-190",
    "definition": "Avere un certo prezzo.",
    "example": "Il biglietto per il volo costa tanto.",
    "related": "E to cost"
@@ -382,7 +357,6 @@
     "viel",
     "eine Menge"
    ],
-   "page": "188-190",
    "definition": "Espressione informale per dire: moltissimo.",
    "example": "Il taxi costa un sacco! Ho un sacco di compiti per domani.",
    "usage": "fam."
@@ -393,7 +367,6 @@
    "translations": [
     "die Verspätung"
    ],
-   "page": "188-190",
    "definition": "Arrivo dopo l’ora prevista.",
    "example": "Il treno ha un ritardo di dieci minuti.",
    "family": "essere in ritardo",
@@ -413,7 +386,6 @@
    "translations": [
     "nichts"
    ],
-   "page": "188-190",
    "definition": "Nessuna cosa.",
    "example": "Non ho niente da fare.",
    "usage": "avv."
@@ -424,7 +396,6 @@
    "translations": [
     "Das macht nichts!"
    ],
-   "page": "188-190",
    "definition": "Si dice per dire: non è importante.",
    "example": "Scusa! Sono in ritardo. – Non fa niente!"
   },
@@ -434,7 +405,6 @@
    "translations": [
     "Es hat wirklich gut angefangen."
    ],
-   "page": "188-190",
    "definition": "Frase ironica quando l’inizio non è buono.",
    "example": "La gita? È cominciato proprio bene: piove!"
   },
@@ -445,7 +415,6 @@
     "das Auto",
     "die Maschine"
    ],
-   "page": "188-190",
    "definition": "Veicolo con quattro ruote.",
    "example": "Vado all’aeroporto in macchina.",
    "grammar": {
@@ -464,7 +433,6 @@
    "translations": [
     "ohne"
    ],
-   "page": "188-190",
    "definition": "Piccola parola che indica mancanza.",
    "example": "Esco senza ombrello.",
    "antonyms": "con",
@@ -477,7 +445,6 @@
     "hinaufgehen",
     "einsteigen"
    ],
-   "page": "188-190",
    "definition": "Andare verso l’alto o entrare in un mezzo.",
    "example": "Il treno parte. Devo salire.",
    "antonyms": "scendere",
@@ -493,7 +460,6 @@
     "gleich",
     "in Kürze"
    ],
-   "page": "188-190",
    "definition": "Fra pochissimo tempo.",
    "example": "Tra poco siamo arrivati."
   },
@@ -504,7 +470,6 @@
     "laufen",
     "gehen"
    ],
-   "page": "188-190",
    "definition": "Muoversi a piedi.",
    "example": "Dalla stazione dobbiamo camminare un po’.",
    "contrast": "Devo camminare circa 35 minuti per arrivare a scuola. – Ich muss etwa 35 Minuten gehen/laufen, um in die Schule zu gelangen. La mattina devo andare a scuola. – Morgens muss ich in die Schule gehen. Mit camminare ist die Bewegung oder Bewegungsart gemeint. Einige Verben bilden das passato prossimo unregelmäßig: Ho camminato un’ora. – Ich bin eine Stunde lang spazieren gegangen."
@@ -513,12 +478,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Unità 5",
-   "section": "5B",
-   "pages": "188-190"
+   "unit": "5 · Famiglia e gite",
+   "section": "Parte B"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -528,7 +491,7 @@
    "Verkehr"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

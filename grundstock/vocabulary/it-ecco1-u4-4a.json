@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco1-u4-4a",
- "title": "Ecco più 1 · Unità 4 · 4A",
+ "title": "Primo anno · 4 · Tempo libero · Parte A",
  "language": "it",
  "translationLanguage": "de",
  "level": "A1",
- "description": "Wortschatz zu „Weekend a Sestriere?“ aus Ecco più 1 (Unità 4, 4A).",
+ "description": "Wortschatz Primo anno (1. Lernjahr), 4 · Tempo libero, Parte A.",
  "topics": [
   "Freizeit",
   "Winter",
   "Verabredung"
  ],
- "collection": "Ecco più 1 (Cornelsen)",
- "section": "Unità 4 · 4A",
+ "collection": "Primo anno",
+ "section": "4 · Tempo libero · Parte A",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 183-185 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Primo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "der Ski"
    ],
-   "page": "183-185",
    "definition": "Attrezzo per scivolare sulla neve.",
    "example": "Mi piace fare sci.",
    "usage": "pl. gli sci",
@@ -54,7 +51,6 @@
    "translations": [
     "frisch"
    ],
-   "page": "183-185",
    "definition": "Un po’ freddo; appena preparato.",
    "example": "La neve è fresca.",
    "related": "E fresh; F frais, fraîche",
@@ -66,7 +62,6 @@
    "translations": [
     "der Zentimeter"
    ],
-   "page": "183-185",
    "definition": "Misura di lunghezza; centesima parte del metro.",
    "example": "Questo libro è lungo venti centimetri.",
    "grammar": {
@@ -85,7 +80,6 @@
    "translations": [
     "die Alpen"
    ],
-   "page": "183-185",
    "definition": "Catena di montagne a nord dell’Italia.",
    "example": "Sulle Alpi c’è la neve.",
    "usage": "pl.",
@@ -105,7 +99,6 @@
    "translations": [
     "nach"
    ],
-   "page": "183-185",
    "definition": "In un momento successivo.",
    "example": "Dopo la scuola vado a casa."
   },
@@ -115,7 +108,6 @@
    "translations": [
     "die Tür"
    ],
-   "page": "183-185",
    "definition": "Apertura di una stanza che si chiude.",
    "example": "Chiudi la porta!",
    "related": "F la porte; L porta",
@@ -135,7 +127,6 @@
    "translations": [
     "offen"
    ],
-   "page": "183-185",
    "definition": "Non chiuso.",
    "example": "La porta è aperta."
   },
@@ -145,7 +136,6 @@
    "translations": [
     "uns/euch (nach Präp.)"
    ],
-   "page": "183-185",
    "definition": "Pronomi che sostituiscono “noi” o “voi” dopo una preposizione.",
    "example": "Vieni con noi in montagna?"
   },
@@ -156,7 +146,6 @@
     "müssen",
     "sollen"
    ],
-   "page": "183-185",
    "definition": "Essere obbligato a fare qualcosa.",
    "example": "Devo studiare.",
    "related": "F devoir; L debere",
@@ -171,7 +160,6 @@
    "translations": [
     "kommen"
    ],
-   "page": "183-185",
    "definition": "Andare verso chi parla.",
    "example": "Anna, vieni anche tu?",
    "related": "F venir; L venire",
@@ -188,7 +176,6 @@
     "dort",
     "dorthin"
    ],
-   "page": "183-185",
    "definition": "Piccola parola che sostituisce un luogo.",
    "example": "Vieni a casa mia? – Sì, ci vengo.",
    "usage": "avv. Beachte: ci steht unmittelbar vor dem konjugierten Verb: Vieni in spiaggia con noi? – No, non ci vengo. Non ho tempo."
@@ -200,7 +187,6 @@
     "Ich bin dabei!",
     "Ich mache mit!"
    ],
-   "page": "183-185",
    "definition": "Risposta per accettare una proposta con entusiasmo.",
    "example": "Devi venire anche tu! – Sì, ci sto!",
    "usage": "Das Verb stare hat viele unterschiedliche Verwendungen: Come stai? – Sto bene. / State attenti! – Gebt Acht! / Leo sta volentieri in montagna. – Leo ist gerne im Gebirge. / Giorgia sta spesso con i suoi amici. – Giorgia ist häufig mit ihren Freunden zusammen. / Chi viene a sciare con me? – Ci sto. – Ich bin dabei."
@@ -211,7 +197,6 @@
    "translations": [
     "vorbereiten"
    ],
-   "page": "183-185",
    "definition": "Rendere pronto qualcosa.",
    "example": "Preparo la cena.",
    "related": "E to prepare; F préparer"
@@ -222,7 +207,6 @@
    "translations": [
     "die Piste"
    ],
-   "page": "183-185",
    "definition": "Percorso per sciare, correre o pattinare.",
    "example": "In montagna ci sono le piste da sci.",
    "grammar": {
@@ -241,7 +225,6 @@
    "translations": [
     "allein"
    ],
-   "page": "183-185",
    "definition": "Senza altre persone.",
    "example": "Anna, non vengo. Devi andare da sola.",
    "related": "L solus",
@@ -256,7 +239,6 @@
    "translations": [
     "ich habe bekommen"
    ],
-   "page": "183-185",
    "definition": "Forma del passato: ho ricevuto.",
    "example": "Per il mio compleanno ho avuto uno snowboard.",
    "usage": "Abc"
@@ -267,7 +249,6 @@
    "translations": [
     "der Geburtstag"
    ],
-   "page": "183-185",
    "definition": "Giorno in cui si festeggia l’anno di nascita.",
    "example": "Ho avuto uno snowboard per il mio compleanno.",
    "grammar": {
@@ -287,7 +268,6 @@
     "fertig",
     "vorbereitet"
    ],
-   "page": "183-185",
    "definition": "Preparato, già a posto.",
    "example": "Partiamo! Siete pronti?"
   },
@@ -297,7 +277,6 @@
    "translations": [
     "jdm helfen"
    ],
-   "page": "183-185",
    "definition": "Dare una mano a qualcuno.",
    "example": "Khalid aiuta il suo papà.",
    "related": "F aider qn",
@@ -313,7 +292,6 @@
    "translations": [
     "können"
    ],
-   "page": "183-185",
    "definition": "Avere la possibilità di fare qualcosa.",
    "example": "Devo fare i compiti. Non posso venire.",
    "related": "F pouvoir; L posse",
@@ -328,7 +306,6 @@
    "translations": [
     "Schade!"
    ],
-   "page": "183-185",
    "definition": "Esclamazione per dire che dispiace.",
    "example": "Peccato, piove!"
   },
@@ -338,7 +315,6 @@
    "translations": [
     "jedenfalls"
    ],
-   "page": "183-185",
    "definition": "In ogni caso.",
    "example": "Comunque è stata una bella partita.",
    "usage": "avv."
@@ -349,7 +325,6 @@
    "translations": [
     "nächste(r, s)"
    ],
-   "page": "183-185",
    "definition": "Quello che viene dopo.",
    "example": "Il prossimo treno parte alle otto.",
    "related": "F prochain(e); L proximus"
@@ -360,7 +335,6 @@
    "translations": [
     "das Mal"
    ],
-   "page": "183-185",
    "definition": "Occasione in cui succede qualcosa.",
    "example": "Oggi non posso. Vengo la prossima volta.",
    "grammar": {
@@ -379,7 +353,6 @@
    "translations": [
     "antworten"
    ],
-   "page": "183-185",
    "definition": "Dare una risposta a una domanda.",
    "example": "Rispondo alla tua lettera.",
    "antonyms": "interrogare",
@@ -391,7 +364,6 @@
    "translations": [
     "Entschuldige!"
    ],
-   "page": "183-185",
    "definition": "Per chiedere perdono o attirare l’attenzione, a una persona che dai del tu.",
    "example": "Scusa! Ma non posso venire.",
    "family": "scusi"
@@ -402,7 +374,6 @@
    "translations": [
     "der/die Künstler/-in"
    ],
-   "page": "183-185",
    "definition": "Persona che crea opere d’arte, di musica o di spettacolo.",
    "example": "L’artista dipinge un quadro.",
    "family": "l’arte",
@@ -415,7 +386,6 @@
    "translations": [
     "wollen"
    ],
-   "page": "183-185",
    "definition": "Desiderare di avere o di fare qualcosa.",
    "example": "Voglio un gelato.",
    "related": "F vouloir; L velle",
@@ -431,7 +401,6 @@
     "wissen",
     "auch: können"
    ],
-   "page": "183-185",
    "definition": "Avere conoscenza di qualcosa.",
    "example": "Anna non sa pattinare.",
    "related": "F savoir",
@@ -446,7 +415,6 @@
    "translations": [
     "heute Abend"
    ],
-   "page": "183-185",
    "definition": "Questa sera.",
    "example": "Stasera vado al cinema.",
    "usage": "avv."
@@ -457,7 +425,6 @@
    "translations": [
     "organisieren"
    ],
-   "page": "183-185",
    "definition": "Preparare le cose per un evento.",
    "example": "La madre di Anna organizza un concerto."
   },
@@ -468,7 +435,6 @@
     "studieren",
     "lernen"
    ],
-   "page": "183-185",
    "definition": "Imparare con l’aiuto dei libri.",
    "example": "Studio per la verifica.",
    "family": "lo studente",
@@ -480,7 +446,6 @@
    "translations": [
     "die Gesundheit"
    ],
-   "page": "183-185",
    "definition": "Condizione del corpo di chi sta bene.",
    "example": "La salute è importante.",
    "related": "L salus",
@@ -501,7 +466,6 @@
     "das Lernen",
     "das Studium"
    ],
-   "page": "183-185",
    "definition": "Attività di chi impara leggendo e ripetendo.",
    "example": "Lo studio richiede tempo.",
    "related": "L studium",
@@ -522,7 +486,6 @@
    "translations": [
     "töten"
    ],
-   "page": "183-185",
    "definition": "Togliere la vita a una persona o a un animale.",
    "example": "Il gatto non può uccidere il leone.",
    "related": "L occidere"
@@ -534,7 +497,6 @@
     "Hallo!",
     "Hey!"
    ],
-   "page": "183-185",
    "definition": "Per attirare l’attenzione.",
    "example": "Ehi, aspettami!",
    "acceptedAnswers": [
@@ -547,7 +509,6 @@
    "translations": [
     "endlich"
    ],
-   "page": "183-185",
    "definition": "Dopo molta attesa.",
    "example": "Adesso arriva Khalid. Finalmente!",
    "family": "finire",
@@ -560,7 +521,6 @@
    "translations": [
     "Ski fahren"
    ],
-   "page": "183-185",
    "definition": "Scivolare sulla neve con gli sci.",
    "example": "D’inverno vado a sciare.",
    "acceptedAnswers": [
@@ -573,7 +533,6 @@
    "translations": [
     "schneien"
    ],
-   "page": "183-185",
    "definition": "Cadere della neve dal cielo.",
    "example": "A Lecce non nevica spesso."
   },
@@ -583,7 +542,6 @@
    "translations": [
     "der Norden"
    ],
-   "page": "183-185",
    "definition": "Punto cardinale in alto sulla carta.",
    "example": "Al nord tutti sanno sciare.",
    "grammar": {
@@ -602,7 +560,6 @@
    "translations": [
     "notfalls"
    ],
-   "page": "183-185",
    "definition": "Se non c’è altra soluzione.",
    "example": "Al limite possiamo andare domani.",
    "usage": "avv."
@@ -614,7 +571,6 @@
     "erlernen",
     "lernen (etw. zu tun)"
    ],
-   "page": "183-185",
    "definition": "Acquisire una nuova conoscenza o capacità.",
    "example": "Filippo vuole imparare a sciare.",
    "acceptedAnswers": [
@@ -628,7 +584,6 @@
    "translations": [
     "interessant"
    ],
-   "page": "183-185",
    "definition": "Che attira l’attenzione.",
    "example": "Il libro è molto interessante."
   },
@@ -638,7 +593,6 @@
    "translations": [
     "sicher"
    ],
-   "page": "183-185",
    "definition": "Sicuro, senza dubbio.",
    "example": "Vuoi venire anche tu? – Sì, certo!",
    "usage": "avv."
@@ -649,7 +603,6 @@
    "translations": [
     "vergessen"
    ],
-   "page": "183-185",
    "definition": "Non ricordare più.",
    "example": "Non dimenticare i compiti a casa!",
    "acceptedAnswers": [
@@ -665,7 +618,6 @@
     "bringen",
     "mitbringen"
    ],
-   "page": "183-185",
    "definition": "Avere qualcosa con sé e spostarlo.",
    "example": "A scuola dobbiamo portare i libri.",
    "related": "F porter; L portare"
@@ -676,7 +628,6 @@
    "translations": [
     "absolut"
    ],
-   "page": "183-185",
    "definition": "In modo completo, senza dubbio.",
    "example": "Dovete assolutamente venire!",
    "related": "E absolutely",
@@ -686,12 +637,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Unità 4",
-   "section": "4A",
-   "pages": "183-185"
+   "unit": "4 · Tempo libero",
+   "section": "Parte A"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -702,7 +651,7 @@
    "Verabredung"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

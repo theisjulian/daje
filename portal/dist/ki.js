@@ -291,7 +291,7 @@
       warnings.push(raw.length - entries.length === 1 ? 'Ein doppelter Eintrag wurde zusammengefasst.' : raw.length - entries.length + ' doppelte Einträge wurden zusammengefasst.');
     if (!entries.length) throw new Error('In der Antwort stehen keine Wörter (entries).');
     const pages = String(inp.pages || '').trim();
-    // Lehrwerk wie im Grundstock: Reihe + Band (z. B. „Ecco più“ + 3), Lektion, Abschnitt. Ältere Eingabe „Ecco 3 più“ wird zerlegt.
+    // Lehrwerk: Reihe + Band, Lektion, Abschnitt. Eingabe mit Band im Reihennamen („Reihe 3 …“) wird zerlegt.
     let series = String(inp.collection || '').trim();
     let volume = String(inp.volume || '').trim();
     if (book && !volume) {

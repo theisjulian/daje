@@ -139,8 +139,8 @@ const vocabCard = x => setCard(x, 'package');
 function baseVocabCard() {
   const seen = WORDS.filter(w => records[w.id]).length;
   return `<article class="set-card">
-    <div class="eyebrow">Italienisch · Lehrwerk</div>
-    <h3>Ecco più 1</h3>
+    <div class="eyebrow">Italienisch · 1. Lernjahr</div>
+    <h3>Primo anno</h3>
     <p>Ciao! und Unità 1 · ${WORDS.length} aufbereitete Einträge</p>
     <div class="lcard-progress" role="progressbar" aria-label="Geübte Einträge" aria-valuemin="0" aria-valuemax="${WORDS.length}" aria-valuenow="${seen}"><i style="width:${Math.round((100 * seen) / WORDS.length)}%"></i></div>
     <div class="lcard-state">${seen} von ${WORDS.length} schon geübt</div>

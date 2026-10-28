@@ -1,7 +1,7 @@
 'use strict';
 /*
  * Verbentrainer: Formen werden aus Regeln erzeugt, Ausnahmen stehen ausdrücklich in der Liste.
- * Gestaffelt nach Ecco più 1–3: jede Zeit und jedes Verb hat einen Band, ab dem es geübt wird (kumulativ).
+ * Gestaffelt nach Lernjahr (Primo, Secondo, Terzo anno): jede Zeit und jedes Verb hat einen Band, ab dem es geübt wird (kumulativ).
  *   Band 1: Presente, Passato prossimo · Band 2: Imperfetto, Futuro, Condizionale, Imperativo, stare + Gerundio,
  *   Trapassato prossimo, Congiuntivo presente (laut Verbtabelle im Anhang von Band 2) · Band 3: Congiuntivo
  *   passato/imperfetto/trapassato, Condizionale passato.
@@ -25,7 +25,7 @@ const VB_TENSES = [
   ['congt', 'Congiuntivo trapassato', 3],
   ['condp', 'Condizionale passato', 3]
 ];
-const VB_BANDS = [[1, 'Ecco più 1'], [2, 'Ecco più 2'], [3, 'Ecco più 3']];
+const VB_BANDS = [[1, 'Primo anno'], [2, 'Secondo anno'], [3, 'Terzo anno']];
 const vbPersons = t => (t === 'imp' ? VB_IMP_PERSONS : VB_PERSONS);
 const VB_GROUPS = [
   ['reg', 'Regelmäßig'],
@@ -163,7 +163,7 @@ const VB_DATA = [
   ['divertirsi', 'sich amüsieren', 'refl', 'ire', {}],
   ['sentirsi', 'sich fühlen', 'refl', 'ire', {}],
   ['mettersi', 'sich (etw.) anziehen, sich setzen', 'refl', 'ere', { pp: 'messo' }],
-  // Ecco più 3 (in der Lista cronologica blau oder mit besonderen Formen)
+  // Terzo anno
   ['accettare', 'annehmen', 'reg', 'are', {}, 3],
   ['apprezzare', 'schätzen', 'reg', 'are', {}, 3],
   ['realizzare', 'verwirklichen', 'reg', 'are', {}, 3],

@@ -12,3 +12,6 @@ werkzeuge/transkripte/
 werkzeuge/auftraege/
 werkzeuge/antworten/
 werkzeuge/entwuerfe/
+
+# Abschriften aus Lehrwerken und Werkzeuge dazu: nur lokal, nie ins öffentliche Repository
+werkzeuge/privat/

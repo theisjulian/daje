@@ -2,7 +2,7 @@
 /*
  * Zahlen, Uhrzeit, Datum (Italienisch): Aufgaben werden erzeugt, Antworten mit Varianten geprüft.
  * Stufen: einfach (antippen, kleine Zahlen), mittel (tippen, bis 100), schwer (tippen, große Zahlen, jede Uhrzeit).
- * Bezug Ecco più 1: Zahlen 1–100 (Unità 2), Uhrzeit, Wochentage, Ordinalzahlen 1–10 (Unità 3), Datum, Monate (Unità 5);
+ * Bezug Primo anno: Zahlen 1–100 (Unità 2), Uhrzeit, Wochentage, Ordinalzahlen 1–10 (Unità 3), Datum, Monate (Unità 5);
  * große Zahlen und Ordinalzahlen über 10 wie im Anhang von Band 2.
  */
 const NU_ONES = ['zero', 'uno', 'due', 'tre', 'quattro', 'cinque', 'sei', 'sette', 'otto', 'nove', 'dieci', 'undici', 'dodici', 'tredici', 'quattordici', 'quindici', 'sedici', 'diciassette', 'diciotto', 'diciannove'];

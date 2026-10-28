@@ -3,27 +3,25 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco1-u6-6a",
- "title": "Ecco più 1 · Unità 6 · 6A",
+ "title": "Primo anno · 6 · Vestiti e cibo · Parte A",
  "language": "it",
  "translationLanguage": "de",
  "level": "A1",
- "description": "Wortschatz zu „Essere gelosi“ aus Ecco più 1 (Unità 6, 6A).",
+ "description": "Wortschatz Primo anno (1. Lernjahr), 6 · Vestiti e cibo, Parte A.",
  "topics": [
   "Aussehen",
   "Einkaufen"
  ],
- "collection": "Ecco più 1 (Cornelsen)",
- "section": "Unità 6 · 6A",
+ "collection": "Primo anno",
+ "section": "6 · Vestiti e cibo · Parte A",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 191-192 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Primo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -33,7 +31,6 @@
    "translations": [
     "eifersüchtig"
    ],
-   "page": "191-192",
    "definition": "Che soffre perché ha paura di perdere una persona.",
    "example": "Sono geloso del mio amico.",
    "related": "E jealous; F jaloux, jalouse"
@@ -44,7 +41,6 @@
    "translations": [
     "die Haare"
    ],
-   "page": "191-192",
    "definition": "Peli lunghi sulla testa.",
    "example": "Vedi i ragazzi con i capelli neri?",
    "usage": "pl.",
@@ -64,7 +60,6 @@
    "translations": [
     "lockig"
    ],
-   "page": "191-192",
    "definition": "Con i capelli o la lana a boccoli.",
    "example": "Khalid ha i capelli ricci.",
    "usage": "pl. ricci/-e"
@@ -75,7 +70,6 @@
    "translations": [
     "jene(r, s)"
    ],
-   "page": "191-192",
    "definition": "Indica una persona o una cosa lontana.",
    "example": "Quale ragazzo? – Quel ragazzo là!"
   },
@@ -85,7 +79,6 @@
    "translations": [
     "hinausgehen/-kommen"
    ],
-   "page": "191-192",
    "definition": "Andare fuori da un luogo.",
    "example": "Il ragazzo esce dal negozio.",
    "antonyms": "entrare",
@@ -101,7 +94,6 @@
    "translations": [
     "das Auge"
    ],
-   "page": "191-192",
    "definition": "Organo della vista.",
    "example": "Vedo con gli occhi.",
    "related": "L oculus",
@@ -113,7 +105,6 @@
    "translations": [
     "braun"
    ],
-   "page": "191-192",
    "definition": "Colore del cioccolato.",
    "example": "Gli occhi di Khalid sono marroni.",
    "usage": "agg."
@@ -124,7 +115,6 @@
    "translations": [
     "verstecken"
    ],
-   "page": "191-192",
    "definition": "Mettere qualcosa dove nessuno la vede.",
    "example": "Khalid nasconde gli occhi sotto gli occhiali.",
    "usage": "p.p. nascosto"
@@ -135,7 +125,6 @@
    "translations": [
     "übertreiben"
    ],
-   "page": "191-192",
    "definition": "Fare o dire più del necessario.",
    "example": "Non esagerare con i dolci!",
    "related": "E to exaggerate; F exagérer"
@@ -146,7 +135,6 @@
    "translations": [
     "die Kasse"
    ],
-   "page": "191-192",
    "definition": "Posto dove si paga in un negozio.",
    "example": "Al negozio c’è una cassa.",
    "grammar": {
@@ -165,7 +153,6 @@
    "translations": [
     "der/die Verkäufer/-in"
    ],
-   "page": "191-192",
    "definition": "Persona che lavora in un negozio.",
    "example": "Il commesso vende i vestiti.",
    "usage": "f. la commessa",
@@ -185,7 +172,6 @@
    "translations": [
     "die externe Festplatte"
    ],
-   "page": "191-192",
    "tags": [
     "fakultativ"
    ],
@@ -198,7 +184,6 @@
    "translations": [
     "der Film"
    ],
-   "page": "191-192",
    "definition": "Storia mostrata al cinema o in TV.",
    "example": "Ho visto un film in tv.",
    "usage": "pl. i film",
@@ -218,7 +203,6 @@
    "translations": [
     "spät"
    ],
-   "page": "191-192",
    "definition": "Dopo l’ora giusta.",
    "example": "Sono stanco. Sono andato al letto tardi.",
    "antonyms": "presto",
@@ -232,7 +216,6 @@
     "der Kollege",
     "die Kollegin"
    ],
-   "page": "191-192",
    "definition": "Persona che lavora con te.",
    "example": "C’è tanto da fare, colleghi!",
    "usage": "f. la collega; pl. i colleghi/le colleghe",
@@ -252,7 +235,6 @@
    "translations": [
     "zu"
    ],
-   "page": "191-192",
    "definition": "Piccola parola per “a casa di” o per un punto di partenza.",
    "example": "C’è tanto da fare.",
    "usage": "Die Präposition da hat verschiedene Verwendungen: Filippo è da Leonardo. – Filippo ist bei Leonardo. / Giorgia parte da Roma. – Giorgia reist aus Rom ab. / Ci sono molte cose da mangiare. – Es gibt viele Dinge zu essen."
@@ -263,7 +245,6 @@
    "translations": [
     "essen"
    ],
-   "page": "191-192",
    "definition": "Mettere cibo in bocca.",
    "example": "A cena la famiglia mangia insieme.",
    "related": "F manger"
@@ -274,7 +255,6 @@
    "translations": [
     "trinken"
    ],
-   "page": "191-192",
    "definition": "Prendere un liquido.",
    "example": "Tutti portano qualcosa da mangiare e da bere.",
    "related": "L bibere",
@@ -290,7 +270,6 @@
     "rufen",
     "anrufen"
    ],
-   "page": "191-192",
    "definition": "Dire il nome ad alta voce o telefonare.",
    "example": "Invito anche Anna. La chiamo subito.",
    "related": "L clamare",
@@ -300,12 +279,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Unità 6",
-   "section": "6A",
-   "pages": "191-192"
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -315,7 +292,7 @@
    "Einkaufen"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

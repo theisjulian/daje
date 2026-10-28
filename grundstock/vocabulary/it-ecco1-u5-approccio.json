@@ -3,27 +3,25 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco1-u5-approccio",
- "title": "Ecco più 1 · Unità 5 · Approccio",
+ "title": "Primo anno · 5 · Famiglia e gite · Per cominciare",
  "language": "it",
  "translationLanguage": "de",
  "level": "A1",
- "description": "Wortschatz zu „La mia famiglia“ aus Ecco più 1 (Unità 5, Approccio).",
+ "description": "Wortschatz Primo anno (1. Lernjahr), 5 · Famiglia e gite, Per cominciare.",
  "topics": [
   "Familie",
   "Feiern"
  ],
- "collection": "Ecco più 1 (Cornelsen)",
- "section": "Unità 5 · Approccio",
+ "collection": "Primo anno",
+ "section": "5 · Famiglia e gite · Per cominciare",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 186 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Primo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -33,7 +31,6 @@
    "translations": [
     "das Fest"
    ],
-   "page": "186",
    "definition": "Occasione per stare insieme e divertirsi.",
    "example": "Per il mio compleanno faccio una festa.",
    "grammar": {
@@ -54,7 +51,6 @@
     "die Tochter",
     "das Kind"
    ],
-   "page": "186",
    "definition": "Persona rispetto ai suoi genitori.",
    "example": "Il figlio di Anna ha sei anni.",
    "usage": "f. la figlia; pl. i figli",
@@ -74,7 +70,6 @@
    "translations": [
     "das Einzelkind"
    ],
-   "page": "186",
    "definition": "Ragazzo senza fratelli né sorelle.",
    "example": "Anna non ha fratelli. È figlia unica.",
    "related": "L filius/-a",
@@ -96,7 +91,6 @@
     "der Opa",
     "die Oma"
    ],
-   "page": "186",
    "definition": "Padre del padre o della madre.",
    "example": "Mia nonna ha 70 anni.",
    "usage": "f. la nonna",
@@ -116,7 +110,6 @@
    "translations": [
     "der/die Kusin/-e"
    ],
-   "page": "186",
    "definition": "Figlio di uno zio.",
    "example": "Mio cugino Frank è tedesco.",
    "usage": "f. la cugina",
@@ -136,7 +129,6 @@
    "translations": [
     "die Überraschung"
    ],
-   "page": "186",
    "definition": "Cosa inattesa.",
    "example": "Ho una sorpresa per te!",
    "related": "E surprise; F la surprise",
@@ -156,7 +148,6 @@
    "translations": [
     "feiern"
    ],
-   "page": "186",
    "definition": "Celebrare un evento con una festa.",
    "example": "I ragazzi festeggiano il compleanno di Anna."
   },
@@ -166,7 +157,6 @@
    "translations": [
     "das Restaurant"
    ],
-   "page": "186",
    "definition": "Locale dove si mangia pagando.",
    "example": "Stasera andiamo al ristorante.",
    "grammar": {
@@ -185,7 +175,6 @@
    "translations": [
     "wann?"
    ],
-   "page": "186",
    "definition": "Domanda per sapere il momento.",
    "example": "Quando finisce la scuola?",
    "related": "F quand; L quando"
@@ -196,7 +185,6 @@
    "translations": [
     "es wird gebeten"
    ],
-   "page": "186",
    "definition": "Formula che si trova negli avvisi per chiedere gentilmente.",
    "example": "Si prega di rispondere."
   },
@@ -207,7 +195,6 @@
     "binnen",
     "bis spätestens"
    ],
-   "page": "186",
    "definition": "Prima o al più tardi di un certo momento.",
    "example": "Si prega di rispondere entro il primo marzo.",
    "usage": "avv."
@@ -216,12 +203,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Unità 5",
-   "section": "Approccio",
-   "pages": "186"
+   "unit": "5 · Famiglia e gite",
+   "section": "Per cominciare"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -231,7 +216,7 @@
    "Feiern"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

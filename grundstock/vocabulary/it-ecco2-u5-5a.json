@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-u5-5a",
- "title": "Ecco più 2 · Unità 5 · 5A Eppur si muove",
+ "title": "Secondo anno · 5 · Ieri e oggi · Parte A",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Galileo Galilei“ aus Ecco più 2 (Unità 5, 5A Eppur si muove).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), 5 · Ieri e oggi, Parte A.",
  "topics": [
   "Galilei",
   "Wissenschaft",
   "Geschichte"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Unità 5 · 5A Eppur si muove",
+ "collection": "Secondo anno",
+ "section": "5 · Ieri e oggi · Parte A",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 219-220 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "Und sie bewegt sich doch! (Zitat)"
    ],
-   "page": "219-220",
    "definition": "Frase attribuita a Galileo: la Terra gira.",
    "example": "Eppur si muove! disse Galileo."
   },
@@ -44,7 +41,6 @@
    "translations": [
     "geboren werden"
    ],
-   "page": "219-220",
    "definition": "Venire al mondo.",
    "example": "Sono nato a Torino.",
    "related": "L nasci",
@@ -56,7 +52,6 @@
    "translations": [
     "besuchen"
    ],
-   "page": "219-220",
    "definition": "Andare spesso in un luogo.",
    "example": "Frequento la scuola di danza.",
    "contrast": "frequentare (Kurs, Unterricht) – andare a trovare / visitare"
@@ -67,7 +62,6 @@
    "translations": [
     "die Medizin (hier: Studium)"
    ],
-   "page": "219-220",
    "definition": "Scienza che cura le malattie.",
    "example": "Studia medicina.",
    "grammar": {
@@ -86,7 +80,6 @@
    "translations": [
     "die Mechanik"
    ],
-   "page": "219-220",
    "definition": "Studio delle macchine.",
    "example": "Mi interessa la meccanica.",
    "grammar": {
@@ -105,7 +98,6 @@
    "translations": [
     "teilnehmen an etw."
    ],
-   "page": "219-220",
    "definition": "Essere membro di un gruppo.",
    "example": "Faccio parte della squadra di calcio.",
    "family": "la parte, partecipare",
@@ -119,7 +111,6 @@
    "translations": [
     "sich mit etw. auseinandersetzen"
    ],
-   "page": "219-220",
    "definition": "Affrontare e paragonare con altro.",
    "example": "Mi confronto con i compagni.",
    "acceptedAnswers": [
@@ -132,7 +123,6 @@
    "translations": [
     "der Apparat"
    ],
-   "page": "219-220",
    "definition": "Strumento per fare qualcosa.",
    "example": "Questo apparecchio è nuovo.",
    "usage": "pl. gli apparecchi"
@@ -144,7 +134,6 @@
     "der Hof",
     "der Fürstenhof"
    ],
-   "page": "219-220",
    "definition": "Ambiente di un re.",
    "example": "Vive alla corte del re.",
    "related": "E court",
@@ -164,7 +153,6 @@
    "translations": [
     "behaupten"
    ],
-   "page": "219-220",
    "definition": "Dire con convinzione.",
    "example": "Afferma di essere innocente."
   },
@@ -174,7 +162,6 @@
    "translations": [
     "das Universum"
    ],
-   "page": "219-220",
    "definition": "Spazio con stelle e pianeti.",
    "example": "L’universo è infinito."
   },
@@ -184,7 +171,6 @@
    "translations": [
     "die Schwierigkeit"
    ],
-   "page": "219-220",
    "definition": "Cosa che non è facile.",
    "example": "Ho difficoltà in matematica.",
    "related": "E difficulty",
@@ -205,7 +191,6 @@
     "schließlich",
     "letztendlich"
    ],
-   "page": "219-220",
    "definition": "Alla fine.",
    "example": "Infine abbiamo vinto.",
    "related": "F enfin"
@@ -216,7 +201,6 @@
    "translations": [
     "der Prozess"
    ],
-   "page": "219-220",
    "definition": "Procedimento legale; sviluppo di un fenomeno.",
    "example": "Il processo è lungo.",
    "grammar": {
@@ -235,7 +219,6 @@
    "translations": [
     "das Gefängnis"
    ],
-   "page": "219-220",
    "definition": "Luogo dove vivono i condannati.",
    "example": "Il ladro è in prigione.",
    "related": "E prison",
@@ -255,7 +238,6 @@
    "translations": [
     "veröffentlichen"
    ],
-   "page": "219-220",
    "definition": "Mettere a disposizione del pubblico.",
    "example": "Pubblico un libro.",
    "related": "E to publish"
@@ -266,7 +248,6 @@
    "translations": [
     "die Theorie"
    ],
-   "page": "219-220",
    "definition": "Insieme di idee per spiegare qualcosa.",
    "example": "La teoria è difficile.",
    "grammar": {
@@ -286,7 +267,6 @@
     "das Landhaus",
     "die Villa"
    ],
-   "page": "219-220",
    "definition": "Grande casa con giardino.",
    "example": "La villa ha una piscina.",
    "grammar": {
@@ -305,7 +285,6 @@
    "translations": [
     "der Tod"
    ],
-   "page": "219-220",
    "definition": "Fine della vita.",
    "example": "La morte del poeta è triste.",
    "related": "F la mort; L mors",
@@ -325,7 +304,6 @@
    "translations": [
     "zukünftig"
    ],
-   "page": "219-220",
    "definition": "Che verrà.",
    "example": "Nei giorni futuri.",
    "related": "E future"
@@ -336,7 +314,6 @@
    "translations": [
     "interessieren"
    ],
-   "page": "219-220",
    "definition": "Attirare l’attenzione.",
    "example": "Mi interessa la storia."
   },
@@ -347,7 +324,6 @@
     "die Zeichnung",
     "das Bild"
    ],
-   "page": "219-220",
    "definition": "Immagine fatta con la matita.",
    "example": "Il bambino fa un disegno.",
    "related": "E design; F le dessin",
@@ -367,7 +343,6 @@
    "translations": [
     "der Himmel"
    ],
-   "page": "219-220",
    "definition": "Spazio sopra la Terra.",
    "example": "Il cielo è azzurro.",
    "related": "F le ciel; L caelum",
@@ -387,7 +362,6 @@
    "translations": [
     "der Krieg"
    ],
-   "page": "219-220",
    "definition": "Conflitto armato tra stati.",
    "example": "La guerra è terribile.",
    "grammar": {
@@ -407,7 +381,6 @@
     "der Kampf",
     "die Schlacht"
    ],
-   "page": "219-220",
    "definition": "Scontro armato.",
    "example": "La battaglia è finita.",
    "related": "E battle",
@@ -427,7 +400,6 @@
    "translations": [
     "das Labor"
    ],
-   "page": "219-220",
    "definition": "Luogo di ricerca o di esperimenti.",
    "example": "Lavoriamo in laboratorio.",
    "related": "E laboratory",
@@ -448,7 +420,6 @@
    "translations": [
     "der Punkt"
    ],
-   "page": "219-220",
    "definition": "Piccolo segno rotondo a fine frase; anche luogo preciso.",
    "example": "Metto un punto alla fine.",
    "grammar": {
@@ -467,7 +438,6 @@
    "translations": [
     "die Milchstraße"
    ],
-   "page": "219-220",
    "tags": [
     "fakultativ"
    ],
@@ -489,7 +459,6 @@
    "translations": [
     "der Stern"
    ],
-   "page": "219-220",
    "definition": "Corpo luminoso nel cielo.",
    "example": "Di notte vedo molte stelle.",
    "grammar": {
@@ -509,7 +478,6 @@
     "die Entdeckung",
     "die Erfindung"
    ],
-   "page": "219-220",
    "definition": "Cosa nuova che si trova.",
    "example": "È una grande scoperta scientifica.",
    "grammar": {
@@ -528,7 +496,6 @@
    "translations": [
     "der Einklang"
    ],
-   "page": "219-220",
    "definition": "Accordo perfetto tra persone.",
    "example": "Siamo in sintonia.",
    "grammar": {
@@ -547,7 +514,6 @@
    "translations": [
     "die Bibel"
    ],
-   "page": "219-220",
    "definition": "Libro sacro dei cristiani.",
    "example": "La Bibbia è un libro antico.",
    "grammar": {
@@ -566,7 +532,6 @@
    "translations": [
     "eine Entscheidung fassen"
    ],
-   "page": "219-220",
    "definition": "Scegliere.",
    "example": "Prendo una decisione importante."
   },
@@ -576,7 +541,6 @@
    "translations": [
     "die Entscheidung"
    ],
-   "page": "219-220",
    "definition": "Scelta fatta.",
    "example": "La decisione è presa.",
    "related": "E decision",
@@ -597,7 +561,6 @@
     "der Ignorant",
     "der Banause"
    ],
-   "page": "219-220",
    "definition": "Persona che non sa.",
    "example": "Non essere ignorante!",
    "usage": "m./f."
@@ -609,7 +572,6 @@
     "offensichtlich",
     "selbstverständlich"
    ],
-   "page": "219-220",
    "definition": "Chiaro a tutti.",
    "example": "È ovvio che hai ragione.",
    "related": "E obvious"
@@ -622,7 +584,6 @@
     "ablehnen",
     "seine Überzeugung aufgeben"
    ],
-   "page": "219-220",
    "definition": "Dire che non si crede più a qualcosa.",
    "example": "Non rinnego le mie idee."
   },
@@ -632,7 +593,6 @@
    "translations": [
     "offiziell"
    ],
-   "page": "219-220",
    "definition": "Riconosciuto dalle autorità.",
    "example": "È un documento ufficiale."
   },
@@ -642,7 +602,6 @@
    "translations": [
     "um jdn/etw. herum"
    ],
-   "page": "219-220",
    "definition": "Tutto attorno.",
    "example": "I bambini sono intorno al maestro.",
    "acceptedAnswers": [
@@ -656,7 +615,6 @@
     "sich irren",
     "sich täuschen"
    ],
-   "page": "219-220",
    "definition": "Commettere un errore.",
    "example": "Mi sono sbagliato."
   }
@@ -664,12 +622,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Unità 5",
-   "section": "5A Eppur si muove",
-   "pages": "219-220"
+   "unit": "5 · Ieri e oggi",
+   "section": "Parte A"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -680,7 +636,7 @@
    "Geschichte"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

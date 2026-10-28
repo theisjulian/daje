@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-u6-6a",
- "title": "Ecco più 2 · Unità 6 · 6A Le tante facce di Milano",
+ "title": "Secondo anno · 6 · Città e creatività · Parte A",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Die vielen Gesichter Mailands“ aus Ecco più 2 (Unità 6, 6A Le tante facce di Milano).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), 6 · Città e creatività, Parte A.",
  "topics": [
   "Mailand",
   "Mode",
   "Stadt"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Unità 6 · 6A Le tante facce di Milano",
+ "collection": "Secondo anno",
+ "section": "6 · Città e creatività · Parte A",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 223-225 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "das Gesicht"
    ],
-   "page": "223-225",
    "definition": "Parte anteriore della testa.",
    "example": "Ha una faccia simpatica.",
    "related": "E face",
@@ -54,7 +51,6 @@
    "translations": [
     "der/die Designer/in"
    ],
-   "page": "223-225",
    "definition": "Persona che crea moda.",
    "example": "La stilista presenta la collezione.",
    "related": "E stylist"
@@ -65,7 +61,6 @@
    "translations": [
     "arbeitslos"
    ],
-   "page": "223-225",
    "definition": "Senza lavoro.",
    "example": "Mio zio è disoccupato.",
    "related": "E disoccupied"
@@ -76,7 +71,6 @@
    "translations": [
     "die Miete"
    ],
-   "page": "223-225",
    "definition": "Somma da pagare per usare una casa.",
    "example": "L’affitto è caro.",
    "family": "affittare"
@@ -87,7 +81,6 @@
    "translations": [
     "der/die Pendler/in"
    ],
-   "page": "223-225",
    "definition": "Persona che ogni giorno viaggia per lavoro.",
    "example": "I pendolari prendono il treno."
   },
@@ -97,7 +90,6 @@
    "translations": [
     "Es lohnt sich."
    ],
-   "page": "223-225",
    "definition": "Espressione per dire che qualcosa merita.",
    "example": "Vale la pena visitare Venezia."
   },
@@ -107,7 +99,6 @@
    "translations": [
     "begeistert"
    ],
-   "page": "223-225",
    "definition": "Che ama molto qualcosa.",
    "example": "Sono appassionato di calcio.",
    "related": "E passionate",
@@ -120,7 +111,6 @@
     "die Marke",
     "das Label"
    ],
-   "page": "223-225",
    "definition": "Nome di un produttore.",
    "example": "Che marca è questo telefono?",
    "usage": "pl. le marche",
@@ -140,7 +130,6 @@
    "translations": [
     "die Kreativität"
    ],
-   "page": "223-225",
    "definition": "Capacità di inventare.",
    "example": "Ha molta creatività.",
    "family": "creativo/-a",
@@ -161,7 +150,6 @@
    "translations": [
     "der Trend"
    ],
-   "page": "223-225",
    "definition": "Tendenza del momento.",
    "example": "Il trend di quest’anno è il verde.",
    "related": "E trend",
@@ -181,7 +169,6 @@
    "translations": [
     "die Modenschau"
    ],
-   "page": "223-225",
    "definition": "Presentazione di abiti con modelle.",
    "example": "La sfilata è a Milano.",
    "grammar": {
@@ -200,7 +187,6 @@
    "translations": [
     "das Event"
    ],
-   "page": "223-225",
    "definition": "Fatto importante.",
    "example": "È un evento unico."
   },
@@ -210,7 +196,6 @@
    "translations": [
     "der/die Barkeeper/in"
    ],
-   "page": "223-225",
    "definition": "Persona che prepara bevande al bar.",
    "example": "Il barista prepara un caffè."
   },
@@ -221,7 +206,6 @@
     "zeichnen",
     "entwerfen"
    ],
-   "page": "223-225",
    "definition": "Fare un disegno.",
    "example": "Disegno un cavallo.",
    "family": "il disegno",
@@ -233,7 +217,6 @@
    "translations": [
     "das Porträt"
    ],
-   "page": "223-225",
    "definition": "Immagine di una persona.",
    "example": "Il ritratto è bellissimo.",
    "grammar": {
@@ -252,7 +235,6 @@
    "translations": [
     "der/die Banker/in"
    ],
-   "page": "223-225",
    "definition": "Persona che lavora in banca.",
    "example": "Mio padre è bancario.",
    "usage": "pl. i bancari, le bancarie",
@@ -272,7 +254,6 @@
    "translations": [
     "verliebt"
    ],
-   "page": "223-225",
    "definition": "Che prova amore.",
    "example": "Sono innamorato di una ragazza."
   },
@@ -283,7 +264,6 @@
     "Finanz-",
     "finanziell"
    ],
-   "page": "223-225",
    "definition": "Che riguarda i soldi; anche a poco prezzo.",
    "example": "È una crisi economica.",
    "related": "E economic",
@@ -296,7 +276,6 @@
     "die Bank",
     "Kreditinstitut"
    ],
-   "page": "223-225",
    "definition": "Istituto che custodisce i soldi.",
    "example": "Vado in banca.",
    "usage": "pl. le banche",
@@ -317,7 +296,6 @@
     "das Investment",
     "die Investition"
    ],
-   "page": "223-225",
    "definition": "Uso di soldi per guadagnare.",
    "example": "È un buon investimento."
   },
@@ -329,7 +307,6 @@
     "die",
     "das"
    ],
-   "page": "223-225",
    "definition": "Pronome relativo.",
    "example": "La persona alla quale scrivo è gentile.",
    "related": "L qualis",
@@ -341,7 +318,6 @@
    "translations": [
     "das Ausland"
    ],
-   "page": "223-225",
    "definition": "Paesi diversi dal proprio.",
    "example": "Vivo all’estero."
   },
@@ -352,7 +328,6 @@
     "das Geschäft",
     "die Firma"
    ],
-   "page": "223-225",
    "definition": "Azienda.",
    "example": "Lavora in una ditta.",
    "grammar": {
@@ -371,7 +346,6 @@
    "translations": [
     "der Monat"
    ],
-   "page": "223-225",
    "definition": "Periodo di circa trenta giorni.",
    "example": "Luglio è un mese caldo.",
    "related": "L mensis",
@@ -391,7 +365,6 @@
    "translations": [
     "die Ausstellung"
    ],
-   "page": "223-225",
    "definition": "Esposizione di opere.",
    "example": "Visitiamo una mostra.",
    "grammar": {
@@ -410,7 +383,6 @@
    "translations": [
     "der Fan"
    ],
-   "page": "223-225",
    "definition": "Persona che sostiene una squadra.",
    "example": "I tifosi cantano.",
    "grammar": {
@@ -430,7 +402,6 @@
     "jdn/etw. anfeuern",
     "zu jdm/etw. halten"
    ],
-   "page": "223-225",
    "definition": "Sostenere una squadra.",
    "example": "Tifo per l’Inter.",
    "acceptedAnswers": [
@@ -443,7 +414,6 @@
    "translations": [
     "die Ingenieurwissenschaft"
    ],
-   "page": "223-225",
    "definition": "Studio per costruire macchine e strutture.",
    "example": "Studio ingegneria."
   },
@@ -453,7 +423,6 @@
    "translations": [
     "das Wohnheim"
    ],
-   "page": "223-225",
    "definition": "Alloggio per studenti.",
    "example": "Vivo in residenza.",
    "related": "E residence",
@@ -474,7 +443,6 @@
     "die Ingenieurakademie",
     "technische Hochschule"
    ],
-   "page": "223-225",
    "tags": [
     "fakultativ"
    ],
@@ -498,7 +466,6 @@
     "die Umgebung",
     "die Umwelt"
    ],
-   "page": "223-225",
    "definition": "Ciò che ci circonda.",
    "example": "Dobbiamo proteggere l’ambiente.",
    "usage": "m."
@@ -509,7 +476,6 @@
    "translations": [
     "sowohl … als auch"
    ],
-   "page": "223-225",
    "definition": "Costruzione che unisce due elementi.",
    "example": "Parlo sia italiano che inglese."
   },
@@ -519,7 +485,6 @@
    "translations": [
     "kennengelernt haben"
    ],
-   "page": "223-225",
    "definition": "Aver incontrato una persona.",
    "example": "Ho conosciuto un ragazzo.",
    "usage": "conosco = ich kenne; ho conosciuto = ich habe kennengelernt"
@@ -530,7 +495,6 @@
    "translations": [
     "international"
    ],
-   "page": "223-225",
    "definition": "Di più nazioni.",
    "example": "Frequento una scuola internazionale."
   },
@@ -541,7 +505,6 @@
     "aus etw. kommen",
     "herkommen"
    ],
-   "page": "223-225",
    "definition": "Venire da un luogo.",
    "example": "Provengo dalla Francia.",
    "acceptedAnswers": [
@@ -555,7 +518,6 @@
    "translations": [
     "glücklich"
    ],
-   "page": "223-225",
    "definition": "Che ha la buona sorte dalla sua parte.",
    "example": "Sei fortunato!",
    "related": "E fortunate",
@@ -568,7 +530,6 @@
     "der Verkehr",
     "der Stau"
    ],
-   "page": "223-225",
    "definition": "Insieme dei veicoli che circolano.",
    "example": "C’è molto traffico.",
    "related": "E traffic; F la trafic",
@@ -590,7 +551,6 @@
     "der Motorroller",
     "der Roller"
    ],
-   "page": "223-225",
    "definition": "Veicolo a due ruote con motore.",
    "example": "Vado a scuola in scooter.",
    "grammar": {
@@ -609,7 +569,6 @@
    "translations": [
     "angesichts/aufgrund der Tatsache, dass"
    ],
-   "page": "223-225",
    "definition": "Poiché.",
    "example": "Dato che piove, resto a casa."
   },
@@ -619,7 +578,6 @@
    "translations": [
     "der Kontinent"
    ],
-   "page": "223-225",
    "definition": "Grande massa di terra.",
    "example": "L’Europa è un continente.",
    "grammar": {
@@ -640,7 +598,6 @@
     "der Ursprung",
     "die Quelle"
    ],
-   "page": "223-225",
    "definition": "Punto di partenza.",
    "example": "L’origine della festa è antica.",
    "related": "E origin; L origo",
@@ -652,7 +609,6 @@
    "translations": [
     "das Drittel"
    ],
-   "page": "223-225",
    "definition": "Una delle tre parti uguali.",
    "example": "Un terzo dei ragazzi viene in bici.",
    "usage": "Bruchzahlen: (un) mezzo, un terzo, un quarto …",
@@ -672,7 +628,6 @@
    "translations": [
     "der/die Immatrikulierte"
    ],
-   "page": "223-225",
    "definition": "Persona registrata.",
    "example": "Gli iscritti sono cento."
   },
@@ -683,7 +638,6 @@
     "nicht EU-",
     "nicht zur EU gehörend"
    ],
-   "page": "223-225",
    "definition": "Che viene da un paese fuori dall’Unione Europea.",
    "example": "Gli studenti extracomunitari hanno bisogno di un visto."
   }
@@ -691,12 +645,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Unità 6",
-   "section": "6A Le tante facce di Milano",
-   "pages": "223-225"
+   "unit": "6 · Città e creatività",
+   "section": "Parte A"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -707,7 +659,7 @@
    "Stadt"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

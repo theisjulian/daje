@@ -3,27 +3,25 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-aa-numeri-ordinali",
- "title": "Ecco più 2 · I numeri ordinali",
+ "title": "Secondo anno · Extra · Numeri e calendario · I numeri ordinali",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Die Ordnungszahlen“ aus Ecco più 2 (Anhang A, I numeri ordinali).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), Extra · Numeri e calendario, I numeri ordinali.",
  "topics": [
   "Zahlen",
   "Ordnungszahlen"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Anhang A · I numeri ordinali",
+ "collection": "Secondo anno",
+ "section": "Extra · Numeri e calendario · I numeri ordinali",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 184 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -33,7 +31,6 @@
    "translations": [
     "der/die Erste"
    ],
-   "page": "184",
    "usage": "1°"
   },
   {
@@ -42,7 +39,6 @@
    "translations": [
     "der/die Zweite"
    ],
-   "page": "184",
    "usage": "2°"
   },
   {
@@ -51,7 +47,6 @@
    "translations": [
     "der/die Dritte"
    ],
-   "page": "184",
    "usage": "3°"
   },
   {
@@ -60,7 +55,6 @@
    "translations": [
     "der/die Vierte"
    ],
-   "page": "184",
    "usage": "4°"
   },
   {
@@ -69,7 +63,6 @@
    "translations": [
     "der/die Fünfte"
    ],
-   "page": "184",
    "usage": "5°"
   },
   {
@@ -78,7 +71,6 @@
    "translations": [
     "der/die Sechste"
    ],
-   "page": "184",
    "usage": "6°"
   },
   {
@@ -87,7 +79,6 @@
    "translations": [
     "der/die Siebte"
    ],
-   "page": "184",
    "usage": "7°"
   },
   {
@@ -96,7 +87,6 @@
    "translations": [
     "der/die Achte"
    ],
-   "page": "184",
    "usage": "8°"
   },
   {
@@ -105,7 +95,6 @@
    "translations": [
     "der/die Neunte"
    ],
-   "page": "184",
    "usage": "9°"
   },
   {
@@ -114,7 +103,6 @@
    "translations": [
     "der/die Zehnte"
    ],
-   "page": "184",
    "usage": "10°"
   },
   {
@@ -123,7 +111,6 @@
    "translations": [
     "elfte(r)"
    ],
-   "page": "184",
    "usage": "11°"
   },
   {
@@ -132,7 +119,6 @@
    "translations": [
     "zwölfte(r)"
    ],
-   "page": "184",
    "usage": "12°"
   },
   {
@@ -141,7 +127,6 @@
    "translations": [
     "dreizehnte(r)"
    ],
-   "page": "184",
    "usage": "13°"
   },
   {
@@ -150,7 +135,6 @@
    "translations": [
     "zwanzigste(r)"
    ],
-   "page": "184",
    "usage": "20°"
   },
   {
@@ -159,7 +143,6 @@
    "translations": [
     "einundzwanzigste(r)"
    ],
-   "page": "184",
    "usage": "21°"
   },
   {
@@ -168,19 +151,16 @@
    "translations": [
     "vierhundertsechsundsechzigste(r)"
    ],
-   "page": "184",
    "usage": "466°"
   }
  ],
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Anhang A",
-   "section": "I numeri ordinali",
-   "pages": "184"
+   "unit": "Extra · Numeri e calendario",
+   "section": "I numeri ordinali"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -190,7 +170,7 @@
    "Ordnungszahlen"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

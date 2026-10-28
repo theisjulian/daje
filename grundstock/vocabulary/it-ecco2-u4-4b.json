@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-u4-4b",
- "title": "Ecco più 2 · Unità 4 · 4B Due carriere",
+ "title": "Secondo anno · 4 · Lavoro e futuro · Parte B",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Zwei Karrieren“ aus Ecco più 2 (Unità 4, 4B Due carriere).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), 4 · Lavoro e futuro, Parte B.",
  "topics": [
   "Beruf",
   "Karriere",
   "Tourismus"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Unità 4 · 4B Due carriere",
+ "collection": "Secondo anno",
+ "section": "4 · Lavoro e futuro · Parte B",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 215-216 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "der/die Unternehmer/in"
    ],
-   "page": "215-216",
    "definition": "Persona che gestisce un’azienda.",
    "example": "L’imprenditrice ha tre negozi."
   },
@@ -44,7 +41,6 @@
    "translations": [
     "der/die Eigentümer/in"
    ],
-   "page": "215-216",
    "definition": "Persona a cui appartiene qualcosa.",
    "example": "Il proprietario del negozio è gentile."
   },
@@ -54,7 +50,6 @@
    "translations": [
     "die Führung"
    ],
-   "page": "215-216",
    "definition": "Giro con una guida che spiega.",
    "example": "Facciamo una visita guidata al castello.",
    "grammar": {
@@ -73,7 +68,6 @@
    "translations": [
     "die Agentur"
    ],
-   "page": "215-216",
    "definition": "Ufficio che offre servizi, come viaggi.",
    "example": "Prenoto il viaggio in un’agenzia.",
    "related": "E agency"
@@ -84,7 +78,6 @@
    "translations": [
     "sich duzen/siezen"
    ],
-   "page": "215-216",
    "definition": "Usare il tu o il Lei parlando.",
    "example": "Ci diamo del tu.",
    "usage": "Abc"
@@ -95,7 +88,6 @@
    "translations": [
     "in etw. seinen (Universitäts-)Abschluss machen"
    ],
-   "page": "215-216",
    "definition": "Finire gli studi all’università.",
    "example": "Mi laureo in medicina.",
    "acceptedAnswers": [
@@ -108,7 +100,6 @@
    "translations": [
     "wiederholen"
    ],
-   "page": "215-216",
    "definition": "Dire o fare di nuovo.",
    "example": "Ripeto la parola.",
    "related": "E to repeat; L repetere"
@@ -120,7 +111,6 @@
     "dauernd",
     "ständig"
    ],
-   "page": "215-216",
    "definition": "Che non si ferma.",
    "example": "C’è un rumore continuo.",
    "related": "E continuous; L continuus"
@@ -131,7 +121,6 @@
    "translations": [
     "der Abschluss (Universität)"
    ],
-   "page": "215-216",
    "definition": "Titolo ottenuto all’università.",
    "example": "Ha una laurea in lettere.",
    "usage": "pl. le lauree",
@@ -151,7 +140,6 @@
    "translations": [
     "der Reise-/Fremdenführer"
    ],
-   "page": "215-216",
    "definition": "Persona che accompagna i turisti; anche il libro.",
    "example": "La guida racconta la storia della città.",
    "related": "E guide",
@@ -176,7 +164,6 @@
     "Touristen-",
     "touristisch"
    ],
-   "page": "215-216",
    "definition": "Che serve ai visitatori e ai viaggiatori.",
    "example": "È un luogo turistico.",
    "usage": "pl. turistici, turistiche"
@@ -187,7 +174,6 @@
    "translations": [
     "ursprünglich"
    ],
-   "page": "215-216",
    "definition": "In origine.",
    "example": "Originalmente era una chiesa.",
    "related": "E originally",
@@ -201,7 +187,6 @@
     "der Lauf",
     "der Lehrgang"
    ],
-   "page": "215-216",
    "definition": "Serie di lezioni su un tema.",
    "example": "Faccio un corso di tedesco.",
    "related": "E course; L cursus",
@@ -221,7 +206,6 @@
    "translations": [
     "das Unternehmen"
    ],
-   "page": "215-216",
    "definition": "Azienda, attività economica.",
    "example": "Mio padre ha un’impresa.",
    "family": "imprenditore/imprenditrice"
@@ -233,7 +217,6 @@
     "richtig",
     "genau"
    ],
-   "page": "215-216",
    "definition": "Giusto, senza errori.",
    "example": "La risposta è esatta.",
    "related": "E exact"
@@ -244,7 +227,6 @@
    "translations": [
     "Kompliment (für etw.)"
    ],
-   "page": "215-216",
    "definition": "Parole di lode.",
    "example": "Complimenti per il voto!",
    "related": "F/E compliment",
@@ -258,7 +240,6 @@
    "translations": [
     "der Erfolg"
    ],
-   "page": "215-216",
    "definition": "Esito molto positivo.",
    "example": "Il concerto ha avuto successo.",
    "related": "E success",
@@ -278,7 +259,6 @@
    "translations": [
     "der/die Angestellte"
    ],
-   "page": "215-216",
    "definition": "Persona che lavora in un ufficio.",
    "example": "Mia madre è impiegata."
   },
@@ -288,7 +268,6 @@
    "translations": [
     "das Kanu"
    ],
-   "page": "215-216",
    "definition": "Piccola barca stretta con il remo.",
    "example": "Andiamo in canoa sul lago.",
    "related": "E canoe; F canoë",
@@ -308,7 +287,6 @@
    "translations": [
     "venezianisch"
    ],
-   "page": "215-216",
    "definition": "Che viene dalla città dei canali.",
    "example": "Il carnevale veneziano è famoso."
   },
@@ -318,7 +296,6 @@
    "translations": [
     "das Interview"
    ],
-   "page": "215-216",
    "definition": "Conversazione fatta per raccogliere informazioni.",
    "example": "Il giornalista fa un’intervista al cantante.",
    "related": "E the interview; F le interview"
@@ -329,7 +306,6 @@
    "translations": [
     "das Web-Design"
    ],
-   "page": "215-216",
    "definition": "Progettazione grafica di siti internet.",
    "example": "Studio web design.",
    "related": "E web design",
@@ -349,7 +325,6 @@
    "translations": [
     "die Zukunft"
    ],
-   "page": "215-216",
    "definition": "Il tempo che verrà.",
    "example": "Nel futuro voglio viaggiare.",
    "antonyms": "il passato",
@@ -372,7 +347,6 @@
     "die Präsenz",
     "die Anwesenheit"
    ],
-   "page": "215-216",
    "definition": "Il fatto di essere in un luogo.",
    "example": "La presenza è obbligatoria.",
    "related": "E presence",
@@ -393,7 +367,6 @@
     "grundlegend",
     "wichtig"
    ],
-   "page": "215-216",
    "definition": "Molto importante.",
    "example": "È fondamentale studiare.",
    "related": "E fundamental"
@@ -404,7 +377,6 @@
    "translations": [
     "überall"
    ],
-   "page": "215-216",
    "definition": "In qualunque luogo.",
    "example": "Dovunque vada, trovo amici."
   },
@@ -415,7 +387,6 @@
     "kombinieren",
     "vereinen"
    ],
-   "page": "215-216",
    "definition": "Mettere insieme.",
    "example": "Combino due colori.",
    "related": "E to combine; F combiner"
@@ -426,7 +397,6 @@
    "translations": [
     "die Kenntnis"
    ],
-   "page": "215-216",
    "definition": "Quello che si sa.",
    "example": "La conoscenza delle lingue è utile.",
    "grammar": {
@@ -446,7 +416,6 @@
     "der Geist",
     "hier: Sinn"
    ],
-   "page": "215-216",
    "definition": "Parte immateriale della persona; senso.",
    "example": "Ha un bello spirito di squadra.",
    "related": "E spirit",
@@ -467,7 +436,6 @@
     "durch",
     "über"
    ],
-   "page": "215-216",
    "definition": "Da una parte all’altra.",
    "example": "Passo attraverso il parco."
   },
@@ -477,7 +445,6 @@
    "translations": [
     "das Au-pair-Mädchen"
    ],
-   "page": "215-216",
    "definition": "Giovane straniera che vive in una famiglia e aiuta con i bambini.",
    "example": "Mia cugina è ragazza alla pari a Londra.",
    "grammar": {
@@ -497,7 +464,6 @@
     "sich eintragen",
     "sich anmelden"
    ],
-   "page": "215-216",
    "definition": "Registrarsi a un corso.",
    "example": "Mi iscrivo all’università.",
    "usage": "p.p. iscritto"
@@ -508,7 +474,6 @@
    "translations": [
     "die Fakultät"
    ],
-   "page": "215-216",
    "definition": "Settore di studi di un’università.",
    "example": "Studio alla facoltà di lettere.",
    "related": "E faculty; F la faculté",
@@ -528,7 +493,6 @@
    "translations": [
     "Osteuropa"
    ],
-   "page": "215-216",
    "definition": "Parte orientale dell’Europa.",
    "example": "Viaggio nell’Europa dell’Est."
   },
@@ -538,7 +502,6 @@
    "translations": [
     "die Informatik"
    ],
-   "page": "215-216",
    "definition": "Scienza dei computer.",
    "example": "Studio informatica.",
    "related": "E informatics; F l’informatique"
@@ -550,7 +513,6 @@
     "die Gelegenheit",
     "die Chance"
    ],
-   "page": "215-216",
    "definition": "Momento favorevole.",
    "example": "È un’occasione da non perdere.",
    "related": "E occasion; L occasio",
@@ -563,7 +525,6 @@
     "der Preis",
     "die Auszeichnung"
    ],
-   "page": "215-216",
    "definition": "Ricompensa per chi vince.",
    "example": "Ho vinto un premio.",
    "related": "L praemium",
@@ -584,7 +545,6 @@
     "besonders",
     "speziell"
    ],
-   "page": "215-216",
    "definition": "Fuori dal comune.",
    "example": "È un giorno speciale.",
    "antonyms": "normale",
@@ -597,7 +557,6 @@
    "translations": [
     "schnell"
    ],
-   "page": "215-216",
    "definition": "Che si muove in poco tempo, rapido.",
    "example": "La macchina è veloce.",
    "antonyms": "lento",
@@ -610,7 +569,6 @@
     "im Vergleich zu",
     "in Bezug auf jdn/etw."
    ],
-   "page": "215-216",
    "definition": "In confronto a.",
    "example": "Rispetto a ieri fa più caldo.",
    "acceptedAnswers": [
@@ -623,7 +581,6 @@
    "translations": [
     "die Internetseite"
    ],
-   "page": "215-216",
    "definition": "Insieme di pagine web.",
    "example": "Visito il sito della scuola.",
    "grammar": {
@@ -642,7 +599,6 @@
    "translations": [
     "sich jdm/etw. widmen"
    ],
-   "page": "215-216",
    "definition": "Dare tempo e attenzione.",
    "example": "Mi dedico alla musica.",
    "related": "E to dedicate",
@@ -657,7 +613,6 @@
     "ausschließlich",
     "exklusiv"
    ],
-   "page": "215-216",
    "definition": "Riservato a pochi.",
    "example": "È un club esclusivo."
   }
@@ -665,12 +620,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Unità 4",
-   "section": "4B Due carriere",
-   "pages": "215-216"
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte B"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -681,7 +634,7 @@
    "Tourismus"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

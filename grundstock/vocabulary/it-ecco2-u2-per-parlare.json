@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-u2-per-parlare",
- "title": "Ecco più 2 · Unità 2 · Per parlare",
+ "title": "Secondo anno · 2 · Vita online · Frasi utili",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Medien“ aus Ecco più 2 (Unità 2, Per parlare).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), 2 · Vita online, Frasi utili.",
  "topics": [
   "Medien",
   "Fernsehen",
   "Presse"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Unità 2 · Per parlare",
+ "collection": "Secondo anno",
+ "section": "2 · Vita online · Frasi utili",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 207 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "die Reportage"
    ],
-   "page": "207",
    "definition": "Servizio giornalistico su un fatto.",
    "example": "Guardo un reportage sulla Sicilia.",
    "grammar": {
@@ -53,7 +50,6 @@
    "translations": [
     "die Nachrichten"
    ],
-   "page": "207",
    "definition": "Programma TV con le notizie.",
    "example": "Il telegiornale comincia alle otto.",
    "grammar": {
@@ -72,7 +68,6 @@
    "translations": [
     "die Sportsendung"
    ],
-   "page": "207",
    "definition": "Programma televisivo sullo sport.",
    "example": "Guardo una trasmissione sportiva ogni lunedì.",
    "grammar": {
@@ -91,7 +86,6 @@
    "translations": [
     "eine Sendung über"
    ],
-   "page": "207",
    "definition": "Programma che parla di un argomento.",
    "example": "Guardo una trasmissione di cucina."
   },
@@ -101,7 +95,6 @@
    "translations": [
     "die Seifenoper"
    ],
-   "page": "207",
    "definition": "Serie TV con storie d’amore e drammi.",
    "example": "Mia nonna guarda una soap opera.",
    "grammar": {
@@ -120,7 +113,6 @@
    "translations": [
     "die Werbung"
    ],
-   "page": "207",
    "definition": "Messaggio che serve a far comprare un prodotto.",
    "example": "La pubblicità interrompe il film.",
    "grammar": {
@@ -139,7 +131,6 @@
    "translations": [
     "der (Fernseh-)Film"
    ],
-   "page": "207",
    "definition": "Storia girata per essere vista sul piccolo schermo.",
    "example": "Stasera c’è un telefilm divertente.",
    "acceptedAnswers": [
@@ -161,7 +152,6 @@
    "translations": [
     "die Serie"
    ],
-   "page": "207",
    "definition": "Storia divisa in tanti episodi.",
    "example": "Questa serie ha dieci episodi.",
    "grammar": {
@@ -180,7 +170,6 @@
    "translations": [
     "die Komödie"
    ],
-   "page": "207",
    "definition": "Film o spettacolo che fa ridere.",
    "example": "Guardiamo una commedia italiana.",
    "grammar": {
@@ -199,7 +188,6 @@
    "translations": [
     "der/die Schauspieler/in"
    ],
-   "page": "207",
    "definition": "Persona che recita in un film o a teatro.",
    "example": "L’attrice è molto brava."
   },
@@ -209,7 +197,6 @@
    "translations": [
     "der Fernsehsender"
    ],
-   "page": "207",
    "definition": "Canale che manda in onda programmi TV.",
    "example": "Rai Uno è un’emittente televisiva."
   },
@@ -219,7 +206,6 @@
    "translations": [
     "der Radiosender"
    ],
-   "page": "207",
    "definition": "Stazione che trasmette programmi radio.",
    "example": "Ascolto un’emittente radiofonica locale."
   },
@@ -229,7 +215,6 @@
    "translations": [
     "das Fernsehprogramm"
    ],
-   "page": "207",
    "definition": "Trasmissione che va in onda in TV.",
    "example": "Il mio programma televisivo preferito è la sera.",
    "grammar": {
@@ -248,7 +233,6 @@
    "translations": [
     "der Film dauert (90 Minuten)"
    ],
-   "page": "207",
    "definition": "Dice quanto tempo occupa un film.",
    "example": "Il film dura novanta minuti.",
    "acceptedAnswers": [
@@ -270,7 +254,6 @@
    "translations": [
     "die Jugendzeitschrift"
    ],
-   "page": "207",
    "definition": "Giornale con articoli per ragazzi.",
    "example": "Compro una rivista per giovani.",
    "grammar": {
@@ -289,7 +272,6 @@
    "translations": [
     "das Interview"
    ],
-   "page": "207",
    "definition": "Conversazione fatta per raccogliere informazioni.",
    "example": "Il giornalista fa un’intervista al cantante.",
    "related": "E the interview; F le interview"
@@ -300,7 +282,6 @@
    "translations": [
     "das Horoskop"
    ],
-   "page": "207",
    "definition": "Previsione astrologica basata sul segno zodiacale.",
    "example": "Leggo l’oroscopo sul giornale."
   },
@@ -310,7 +291,6 @@
    "translations": [
     "die Anzeige"
    ],
-   "page": "207",
    "definition": "Messaggio pubblicato per offrire o cercare qualcosa.",
    "example": "Leggo un annuncio di lavoro."
   }
@@ -318,12 +298,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Unità 2",
-   "section": "Per parlare",
-   "pages": "207"
+   "unit": "2 · Vita online",
+   "section": "Frasi utili"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -334,7 +312,7 @@
    "Presse"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

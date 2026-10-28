@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco3-u1-1b",
- "title": "Ecco più 3 · Unità 1 · 1B Serena nella Serenissima",
+ "title": "Terzo anno · 1 · Tradizioni · Parte B",
  "language": "it",
  "translationLanguage": "de",
  "level": "B1",
- "description": "Wortschatz zu „Heiter in Venedig“ aus Ecco più 3 (Unità 1, 1B Serena nella Serenissima).",
+ "description": "Wortschatz Terzo anno (3. Lernjahr), 1 · Tradizioni, Parte B.",
  "topics": [
   "Venedig",
   "Tourismus",
   "Karneval"
  ],
- "collection": "Ecco più 3 (Cornelsen)",
- "section": "Unità 1 · 1B Serena nella Serenissima",
+ "collection": "Terzo anno",
+ "section": "1 · Tradizioni · Parte B",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 168-170 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Terzo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "Venedig"
    ],
-   "page": "168-170",
    "definition": "La città italiana costruita sull’acqua.",
    "example": "Venezia ha più di cento isole.",
    "related": "E Venice; F Venise"
@@ -45,7 +42,6 @@
    "translations": [
     "mit Gewalt"
    ],
-   "page": "168-170",
    "definition": "Usando la forza, contro la volontà.",
    "example": "Il bambino non voleva andare, l’hanno portato via quasi a forza.",
    "contrast": "per forza – unbedingt; Forza! – Auf geht’s! Los!"
@@ -56,7 +52,6 @@
    "translations": [
     "Zweifel (an der Tatsache) haben, dass"
    ],
-   "page": "168-170",
    "definition": "Non essere sicuri di una cosa.",
    "example": "Ho dubbi che lui dica la verità.",
    "acceptedAnswers": [
@@ -70,7 +65,6 @@
    "translations": [
     "die Nacht"
    ],
-   "page": "168-170",
    "definition": "Il tempo in cui è buio e si dorme.",
    "example": "Di notte la città è molto tranquilla.",
    "related": "L nox",
@@ -90,7 +84,6 @@
    "translations": [
     "fürchten"
    ],
-   "page": "168-170",
    "definition": "Avere paura di una cosa.",
    "example": "Temo che domani piova.",
    "related": "L timere"
@@ -101,7 +94,6 @@
    "translations": [
     "sich über etw. klar werden"
    ],
-   "page": "168-170",
    "definition": "Capire una cosa all’improvviso.",
    "example": "Mi sono reso conto di aver dimenticato le chiavi.",
    "acceptedAnswers": [
@@ -115,7 +107,6 @@
    "translations": [
     "allmählich"
    ],
-   "page": "168-170",
    "definition": "Un po’ alla volta.",
    "example": "Man mano arrivano tutti gli ospiti."
   },
@@ -125,7 +116,6 @@
    "translations": [
     "die Maske"
    ],
-   "page": "168-170",
    "definition": "Una cosa che copre il viso, tipica del Carnevale.",
    "example": "A Carnevale porto una maschera bianca.",
    "grammar": {
@@ -144,7 +134,6 @@
    "translations": [
     "fotografieren"
    ],
-   "page": "168-170",
    "definition": "Fare una foto.",
    "example": "Mi piace fotografare i tramonti."
   },
@@ -155,7 +144,6 @@
     "die Position",
     "die Haltung"
    ],
-   "page": "168-170",
    "definition": "Il modo in cui stai o il posto dove sei.",
    "example": "Siediti in una posizione comoda.",
    "grammar": {
@@ -174,7 +162,6 @@
    "translations": [
     "der Account"
    ],
-   "page": "168-170",
    "definition": "Il profilo personale su un sito o una app.",
    "example": "Ho creato un nuovo account per il gioco.",
    "usage": "m."
@@ -185,7 +172,6 @@
    "translations": [
     "geheim"
    ],
-   "page": "168-170",
    "definition": "Che gli altri non devono sapere.",
    "example": "Abbiamo un posto segreto nel bosco.",
    "related": "E secret; F secret(-ète)"
@@ -197,7 +183,6 @@
     "verlassen",
     "vereinsamt"
    ],
-   "page": "168-170",
    "definition": "Lasciato solo, dove non c’è più nessuno.",
    "example": "Abbiamo visitato un villaggio abbandonato."
   },
@@ -207,7 +192,6 @@
    "translations": [
     "voll"
    ],
-   "page": "168-170",
    "definition": "Che non ha più posto.",
    "example": "Il treno è pieno di turisti.",
    "related": "L plenus"
@@ -218,7 +202,6 @@
    "translations": [
     "der Karneval"
    ],
-   "page": "168-170",
    "definition": "La festa con maschere e costumi prima della Quaresima.",
    "example": "Il carnevale di Venezia è famoso in tutto il mondo.",
    "grammar": {
@@ -238,7 +221,6 @@
     "überhöht",
     "astronomisch"
    ],
-   "page": "168-170",
    "definition": "Altissimo, esagerato.",
    "example": "I prezzi a Venezia sono stratosferici.",
    "usage": "hier"
@@ -249,7 +231,6 @@
    "translations": [
     "die Atmosphäre"
    ],
-   "page": "168-170",
    "definition": "Lo stato d’animo che si sente in un luogo.",
    "example": "In questo locale c’è un’atmosfera piacevole."
   },
@@ -259,7 +240,6 @@
    "translations": [
     "allgemein"
    ],
-   "page": "168-170",
    "definition": "Che riguarda tutto, non i dettagli.",
    "example": "In generale sono contento della scuola."
   },
@@ -270,7 +250,6 @@
     "extrem",
     "äußerst"
    ],
-   "page": "168-170",
    "definition": "Molto forte, al limite.",
    "example": "Oggi il caldo è estremo."
   },
@@ -280,7 +259,6 @@
    "translations": [
     "entspannt"
    ],
-   "page": "168-170",
    "definition": "Tranquillo, senza stress.",
    "example": "In vacanza sono sempre rilassato.",
    "related": "E relaxed"
@@ -291,7 +269,6 @@
    "translations": [
     "zu tun haben mit"
    ],
-   "page": "168-170",
    "definition": "Avere un rapporto con.",
    "example": "Questo film non ha niente a che vedere con il libro."
   },
@@ -301,7 +278,6 @@
    "translations": [
     "jede(r,s) (beliebige)"
    ],
-   "page": "168-170",
    "definition": "Non importa quale.",
    "example": "Puoi chiamarmi a qualsiasi ora."
   },
@@ -311,7 +287,6 @@
    "translations": [
     "das Schiff"
    ],
-   "page": "168-170",
    "definition": "Una grande barca per il mare.",
    "example": "Siamo andati in Sardegna con la nave.",
    "related": "L navis",
@@ -331,7 +306,6 @@
    "translations": [
     "erschrecken (jdn)"
    ],
-   "page": "168-170",
    "definition": "Fare paura a qualcuno.",
    "example": "Il cane ha spaventato il bambino."
   },
@@ -341,7 +315,6 @@
    "translations": [
     "sich erschrecken"
    ],
-   "page": "168-170",
    "definition": "Avere paura all’improvviso.",
    "example": "Mi sono spaventata per il rumore."
   },
@@ -351,7 +324,6 @@
    "translations": [
     "das Kreuzfahrtschiff"
    ],
-   "page": "168-170",
    "definition": "Una nave enorme per le vacanze in mare.",
    "example": "Le navi da crociera sono un problema per Venezia.",
    "grammar": {
@@ -370,7 +342,6 @@
    "translations": [
     "unangebracht"
    ],
-   "page": "168-170",
    "definition": "Non adatto alla situazione.",
    "example": "La tua battuta era fuori luogo.",
    "contrast": "fuori stagione – außerhalb der Saison; fuori tempo – nicht zeitgemäß; fuori moda – aus der Mode"
@@ -382,7 +353,6 @@
     "enorm",
     "gewaltig"
    ],
-   "page": "168-170",
    "definition": "Grandissimo.",
    "example": "C’è un cartellone enorme sulla piazza."
   },
@@ -392,7 +362,6 @@
    "translations": [
     "das Plakat"
    ],
-   "page": "168-170",
    "definition": "Un grande foglio con immagini e informazioni.",
    "example": "Sul cartellone c’è il programma della festa.",
    "grammar": {
@@ -411,7 +380,6 @@
    "translations": [
     "die Vergangenheit"
    ],
-   "page": "168-170",
    "definition": "Il tempo che è già passato.",
    "example": "Nel passato Venezia era una città molto potente.",
    "related": "E past; F le passé",
@@ -431,7 +399,6 @@
    "translations": [
     "das Monster"
    ],
-   "page": "168-170",
    "definition": "Un essere brutto e pericoloso delle favole.",
    "example": "Da piccolo avevo paura dei mostri.",
    "grammar": {
@@ -450,7 +417,6 @@
    "translations": [
     "die Dimension"
    ],
-   "page": "168-170",
    "definition": "La grandezza di una cosa.",
    "example": "Le dimensioni di queste navi sono incredibili.",
    "related": "E dimension; F dimension",
@@ -470,7 +436,6 @@
    "translations": [
     "langsam"
    ],
-   "page": "168-170",
    "definition": "Che non va veloce.",
    "example": "Il vaporetto è lento ma bello.",
    "antonyms": "veloce"
@@ -481,7 +446,6 @@
    "translations": [
     "der Kanal"
    ],
-   "page": "168-170",
    "definition": "Una strada d’acqua.",
    "example": "A Venezia si va in barca sui canali.",
    "grammar": {
@@ -500,7 +464,6 @@
    "translations": [
     "der Charme"
    ],
-   "page": "168-170",
    "definition": "Una forza che attira e piace.",
    "example": "Venezia ha un fascino speciale.",
    "grammar": {
@@ -520,7 +483,6 @@
     "gegen etw. stoßen",
     "etw. knallen"
    ],
-   "page": "168-170",
    "definition": "Colpire forte una cosa.",
    "example": "Ho sbattuto la testa contro la porta.",
    "acceptedAnswers": [
@@ -536,7 +498,6 @@
     "trotz",
     "obwohl"
    ],
-   "page": "168-170",
    "definition": "Anche se.",
    "example": "Nonostante la pioggia siamo andati in centro.",
    "usage": "cong."
@@ -547,7 +508,6 @@
    "translations": [
     "die Seite"
    ],
-   "page": "168-170",
    "definition": "Una delle parti di una cosa.",
    "example": "Guarda la cosa da un altro lato.",
    "related": "L latus",
@@ -567,7 +527,6 @@
    "translations": [
     "negativ"
    ],
-   "page": "168-170",
    "definition": "Non buono.",
    "example": "Luca vede sempre il lato negativo.",
    "antonyms": "positivo/-a"
@@ -578,7 +537,6 @@
    "translations": [
     "vorschlagen"
    ],
-   "page": "168-170",
    "definition": "Dire un’idea agli altri.",
    "example": "Propongo di andare al cinema stasera.",
    "related": "L proponere",
@@ -590,7 +548,6 @@
    "translations": [
     "jdn (er)freuen"
    ],
-   "page": "168-170",
    "definition": "Rendere contento qualcuno.",
    "example": "Mi fa piacere vederti!",
    "acceptedAnswers": [
@@ -603,7 +560,6 @@
    "translations": [
     "Geburts-"
    ],
-   "page": "168-170",
    "definition": "Che riguarda il luogo o il giorno in cui si nasce.",
    "example": "Venezia è la città natale di Marco Polo.",
    "family": "nascere"
@@ -614,7 +570,6 @@
    "translations": [
     "wieder anfangen"
    ],
-   "page": "168-170",
    "definition": "Cominciare di nuovo.",
    "example": "Dopo la pausa la lezione ricomincia."
   },
@@ -624,7 +579,6 @@
    "translations": [
     "stehlen"
    ],
-   "page": "168-170",
    "definition": "Prendere una cosa che non è tua.",
    "example": "Mi hanno rubato la bici davanti alla scuola."
   },
@@ -634,7 +588,6 @@
    "translations": [
     "der Ruf"
    ],
-   "page": "168-170",
    "definition": "Il fatto di essere conosciuti da molte persone.",
    "example": "La fama di Venezia è enorme.",
    "family": "famoso/-a",
@@ -654,7 +607,6 @@
    "translations": [
     "die Veröffentlichung"
    ],
-   "page": "168-170",
    "definition": "Quando un libro o un articolo esce e tutti lo possono leggere.",
    "example": "Dopo la pubblicazione del libro, l’autrice è diventata famosa.",
    "grammar": {
@@ -674,7 +626,6 @@
     "die Integration",
     "die Eingliederung"
    ],
-   "page": "168-170",
    "definition": "Quando una persona diventa parte di un gruppo o di una società.",
    "example": "La scuola aiuta l’integrazione dei ragazzi stranieri.",
    "usage": "f."
@@ -685,7 +636,6 @@
    "translations": [
     "chaotisch"
    ],
-   "page": "168-170",
    "definition": "Senza ordine, molto confuso.",
    "example": "Il traffico in città è caotico.",
    "family": "il caos"
@@ -696,7 +646,6 @@
    "translations": [
     "ersticken"
    ],
-   "page": "168-170",
    "definition": "Non riuscire a respirare.",
    "example": "In questa stanza si soffoca, apri la finestra!"
   }
@@ -704,12 +653,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "3",
-   "unit": "Unità 1",
-   "section": "1B Serena nella Serenissima",
-   "pages": "168-170"
+   "unit": "1 · Tradizioni",
+   "section": "Parte B"
   },
   "grade": 10,
   "foreignLanguageNo": 3,
@@ -720,7 +667,7 @@
    "Karneval"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

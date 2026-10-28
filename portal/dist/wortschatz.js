@@ -21,10 +21,12 @@ let wsBook = { get: () => null, set() {} };
   function collectionOf(x) {
     const t = x.catalog && x.catalog.textbook;
     if (t && t.series) {
-      // „Ecco 3 più“ (Band im Reihennamen) gehört zum Buch „Ecco più“ Band 3.
+      // Eigene Listen mit Band im Reihennamen („Reihe 3 …“) und ältere Lehrwerksnamen gehören zum passenden Lernjahr.
       const inName = !t.volume && String(t.series).match(/^(.*?)\s+(\d+)\s+(.*)$/);
       if (inName) return collectionOf({ ...x, catalog: { ...x.catalog, textbook: { ...t, series: inName[1] + ' ' + inName[3], volume: inName[2] } } });
       const vol = Number(t.volume) || 0;
+      const own = isCourseSeries(t.series) && ANNO_NAMES[vol];
+      if (own) return { id: 'tb:' + COURSE_SERIES + ':' + vol, title: ANNO_NAMES[vol], label: ANNO_NAMES[vol], kind: 'Lehrwerk', sub: vol + '. Lernjahr', series: COURSE_SERIES, volume: vol, grade: x.catalog.grade || 0 };
       return { id: 'tb:' + t.series + ':' + vol, title: t.series + (vol ? ' ' + vol : ''), kind: 'Lehrwerk', sub: t.publisher || '', series: t.series, volume: vol, grade: x.catalog.grade || 0 };
     }
     const name = x.collection || 'Weitere Listen';
@@ -33,15 +35,17 @@ let wsBook = { get: () => null, set() {} };
       : { id: 'c:' + name, title: name, kind: 'Themenliste', sub: '', volume: 0 };
   }
 
+  const unitRank = u => (/^extra/i.test(u || '') ? 100 + (Number((u.match(/\d+/) || [0])[0]) || 0) : /^\d/.test(u || '') ? Number(u.match(/^\d+/)[0]) : 50);
+  const secRank = t => (/^per cominciare/i.test(t) ? 0 : /^parte ([a-c])/i.test(t) ? ' abc'.indexOf(t.match(/^parte ([a-c])/i)[1].toLowerCase()) : /^frasi utili/i.test(t) ? 9 : 5);
   function sections() {
     const map = new Map();
     const add = (c, s) => {
       if (!map.has(c.id)) map.set(c.id, { ...c, secs: [] });
       map.get(c.id).secs.push({ ...s, coll: c.title, order: map.get(c.id).secs.length });
     };
-    const bookId = 'tb:Ecco più:1';
+    const bookId = 'tb:' + COURSE_SERIES + ':1';
     const eccoIn = contentList('vocabulary').some(x => collectionOf(x).id === bookId);
-    const baseColl = { id: bookId, title: 'Ecco più 1', kind: 'Lehrwerk', sub: 'Cornelsen', series: 'Ecco più', volume: 1, grade: 8 };
+    const baseColl = { id: bookId, title: ANNO_NAMES[1], label: ANNO_NAMES[1], kind: 'Lehrwerk', sub: '1. Lernjahr', series: COURSE_SERIES, volume: 1, grade: 8 };
     const packaged = contentList('vocabulary').some(x => /^it-ecco1-(ciao|u1-)/.test(x.id));
     (packaged ? [] : GROUPS).forEach(([g, , label]) => {
       const ws0 = WORDS.filter(w => w.group === g);
@@ -53,7 +57,7 @@ let wsBook = { get: () => null, set() {} };
       const t = (x.catalog && x.catalog.textbook) || {};
       add(collectionOf(x), {
         key: x.id, id: x.id,
-        title: String(x.section || x.title).replace(/^Ecco più \d+ · /, '').replace(/^Wortschatz · /, ''),
+        title: t.unit && t.section ? t.section : String(x.section || x.title).replace(/^Wortschatz · /, ''),
         unit: t.unit || '',
         pages: pageSpan(t.pages),
         n: x.entries.length,
@@ -64,7 +68,8 @@ let wsBook = { get: () => null, set() {} };
       if (x.coverImage && !c.img) c.img = x.coverImage;
     });
     map.forEach(c => {
-      c.secs.sort((a, b) => (a.pages ? a.pages[0] : 1e6) - (b.pages ? b.pages[0] : 1e6) || a.order - b.order);
+      // Reihenfolge: Lektion (0, 1, 2 …, dann Extra), darin Per cominciare, Parte A, B, C, Frasi utili; sonst Seiten.
+      c.secs.sort((a, b) => unitRank(a.unit) - unitRank(b.unit) || secRank(a.title) - secRank(b.title) || (a.pages ? a.pages[0] : 1e6) - (b.pages ? b.pages[0] : 1e6) || a.order - b.order);
       c.n = c.secs.reduce((s, z) => s + z.n, 0);
       c.seen = c.secs.reduce((s, z) => s + z.seen, 0);
     });
@@ -83,7 +88,7 @@ let wsBook = { get: () => null, set() {} };
     const lead = teacher
       ? ''
       : `<section class="feature-card"><div><div class="eyebrow">Heute</div><h2>${due ? plural(due, 'Wort wartet', 'Wörter warten') + ' auf ein Wiedersehen.' : 'Eine kleine Runde passt immer.'}</h2><p>${done} von ${goal} Wörtern heute geübt.</p>${bar(goal, Math.min(goal, done))}</div><button class="button primary large" data-extra="recommend">${due ? 'Jetzt wiederholen' : 'Runde starten'}</button></section>`;
-    const books = cs => `<div class="ws-books">${cs.map(c => `<button class="ws-cover ${c.img ? 'has-img' : ''}" data-ws="open" data-coll="${esc(c.id)}" data-vol="${c.volume}" aria-label="${esc(c.title)} öffnen">${c.img ? `<img class="wc-img" src="${esc(c.img)}" alt="" loading="lazy">` : ''}<span class="wc-pub">${esc(c.sub || 'Lehrwerk')}</span><span class="wc-series">${esc(c.series)}</span><span class="wc-num">${c.volume || ''}</span><span class="wc-foot"><span>${c.grade ? 'Klasse ' + c.grade : 'Lehrwerk'}</span><span>${plural(c.n, 'Wort', 'Wörter')}</span></span><span class="wc-bar" aria-hidden="true"><i style="width:${c.n ? Math.round((100 * c.seen) / c.n) : 0}%"></i></span></button>`).join('')}</div>`;
+    const books = cs => `<div class="ws-books">${cs.map(c => `<button class="ws-cover ${c.img ? 'has-img' : ''}" data-ws="open" data-coll="${esc(c.id)}" data-vol="${c.volume}" aria-label="${esc(c.title)} öffnen">${c.img ? `<img class="wc-img" src="${esc(c.img)}" alt="" loading="lazy">` : ''}<span class="wc-pub">${esc(c.sub || 'Lehrwerk')}</span><span class="wc-series">${esc(c.label || c.series)}</span><span class="wc-num">${c.volume || ''}</span><span class="wc-foot"><span>${c.grade ? 'Klasse ' + c.grade : 'Lehrwerk'}</span><span>${plural(c.n, 'Wort', 'Wörter')}</span></span><span class="wc-bar" aria-hidden="true"><i style="width:${c.n ? Math.round((100 * c.seen) / c.n) : 0}%"></i></span></button>`).join('')}</div>`;
     const group = (title, kinds) => {
       const cs = all.filter(c => kinds.includes(c.kind));
       if (kinds[0] === 'Lehrwerk' && cs.length) return `${sectionHead('', title)}${books(cs)}`;
@@ -92,9 +97,9 @@ let wsBook = { get: () => null, set() {} };
         : '';
     };
     $('main').innerHTML = `<div class="page">
-      <header class="page-head"><div class="eyebrow">Wortschatz</div><h1>Wörter, die bleiben.</h1><p>Wähle ein Buch oder eine Liste. Dort suchst du dir Lektionen oder Seiten aus und übst.</p></header>
+      <header class="page-head"><div class="eyebrow">Wortschatz</div><h1>Wörter, die bleiben.</h1><p>Wähle ein Lernjahr oder eine Liste. Dort suchst du dir Lektionen aus und übst.</p></header>
       ${lead}
-      ${group('Bücher', ['Lehrwerk'])}${group('Themenlisten', ['Themenliste'])}${group('Automatisch erzeugt', ['Automatisch'])}
+      ${group('Lernjahre', ['Lehrwerk'])}${group('Themenlisten', ['Themenliste'])}${group('Automatisch erzeugt', ['Automatisch'])}
       <section class="lookup-grid">
         <article class="lookup-card"><div><h3>Wörter nachschlagen</h3><p class="muted">In allen Listen suchen, auf Italienisch, Englisch oder Deutsch.</p></div><button class="button secondary" data-nav="wortschatz">Öffnen</button></article>
         <article class="lookup-card"><div><h3>Verben im Presente</h3><p class="muted">Formen üben und überprüfen.</p></div><button class="button secondary" data-nav="verben">Öffnen</button></article>
@@ -140,15 +145,15 @@ let wsBook = { get: () => null, set() {} };
     const row = s => `<div class="ws-row"><label class="ws-pick"><input type="checkbox" data-ws="pick" data-key="${esc(s.key)}" ${ws.sel.has(s.key) ? 'checked' : ''}><span><b>${esc(s.title)}</b><small>${[pagesText(s.pages), plural(s.n, 'Wort', 'Wörter')].filter(Boolean).join(' · ')}</small></span></label>${bar(s.n, s.seen)}${s.id && typeof hwButton === 'function' ? hwButton('v:' + s.id) : ''}${s.id && isTeacher() ? (editorState.items.some(i => edId(i) === s.id) ? `<button class="quiet" data-ed-edit="${esc(s.id)}" title="Eigene Liste auf diesem Gerät">Eigene Liste · bearbeiten</button>` : typeof liveEditButton === 'function' ? liveEditButton(s.id, 'quiet') : '') : ''}<button class="button secondary" data-ws="one" data-key="${esc(s.key)}">Üben</button></div>`;
     const lessonView = `<div class="ws-tools"><label>Alles bis einschließlich <select data-ws="upto"><option value="">–</option>${c.secs.map(s => `<option value="${esc(s.key)}">${esc((s.unit ? s.unit + ' · ' : '') + s.title)}</option>`).join('')}</select></label><button class="quiet" data-ws="all">Alle</button><button class="quiet" data-ws="none">Keine</button></div>${units.map(u => `<section class="ws-unit">${u.name ? `<h3>${esc(u.name)}</h3>` : ''}${u.items.map(row).join('')}</section>`).join('')}`;
     const inRange = chosen(c);
-    const pageView = `<div class="ws-tools"><label>von Seite <input type="number" inputmode="numeric" data-ws="from" min="${pMin}" max="${pMax}" value="${esc(String(ws.from))}"></label><label>bis einschließlich Seite <input type="number" inputmode="numeric" data-ws="to" min="${pMin}" max="${pMax}" value="${esc(String(ws.to))}"></label><button class="quiet" data-ws="allpages">Ganzes Buch</button></div><p class="muted small">Seitenzahlen beziehen sich auf die Lista cronologica im Anhang des Buchs. Abschnitte, die den Bereich berühren, sind enthalten.</p>${inRange.map(s => `<div class="ws-row"><span class="ws-pick"><span><b>${esc(s.title)}</b><small>${[s.unit, pagesText(s.pages), plural(s.n, 'Wort', 'Wörter')].filter(Boolean).join(' · ')}</small></span></span></div>`).join('') || '<p class="muted">In diesem Bereich liegt noch kein Abschnitt.</p>'}`;
+    const pageView = `<div class="ws-tools"><label>von Seite <input type="number" inputmode="numeric" data-ws="from" min="${pMin}" max="${pMax}" value="${esc(String(ws.from))}"></label><label>bis einschließlich Seite <input type="number" inputmode="numeric" data-ws="to" min="${pMin}" max="${pMax}" value="${esc(String(ws.to))}"></label><button class="quiet" data-ws="allpages">Ganzes Buch</button></div><p class="muted small">Abschnitte, die den Seitenbereich berühren, sind enthalten.</p>${inRange.map(s => `<div class="ws-row"><span class="ws-pick"><span><b>${esc(s.title)}</b><small>${[s.unit, pagesText(s.pages), plural(s.n, 'Wort', 'Wörter')].filter(Boolean).join(' · ')}</small></span></span></div>`).join('') || '<p class="muted">In diesem Bereich liegt noch kein Abschnitt.</p>'}`;
     const prior = earlierVolumes(c);
     const cumBox = c.volume > 1 && priorVolumes(c).length ? `<label class="ws-cum"><input type="checkbox" data-ws="cum" ${ws.cum ? 'checked' : ''}> <b>${esc(priorVolumes(c).map(z => z.title).join(', '))}</b> <span>als bekannt voraussetzen und mitrechnen</span></label>` : '';
     const sel = chosen(c);
     const words = [...prior.flatMap(z => z.secs), ...sel].reduce((s, z) => s + secWords(z).length, 0);
-    const optBox = c.secs.some(z => z.id && (contentList('vocabulary').find(x => x.id === z.id) || { entries: [] }).entries.some(w => (w.tags || []).includes('fakultativ'))) ? `<label class="ws-cum"><input type="checkbox" data-ws="opt" ${ws.opt ? 'checked' : ''}> Fakultativen Wortschatz (im Buch kursiv) einbeziehen</label>` : '';
+    const optBox = c.secs.some(z => z.id && (contentList('vocabulary').find(x => x.id === z.id) || { entries: [] }).entries.some(w => (w.tags || []).includes('fakultativ'))) ? `<label class="ws-cum"><input type="checkbox" data-ws="opt" ${ws.opt ? 'checked' : ''}> Zusatzwörter (fakultativ) einbeziehen</label>` : '';
     $('main').innerHTML = `<div class="page ws-page">
       <button class="quiet" data-ws="home">← Wortschatz</button>
-      <header class="page-head"><div class="eyebrow">${esc(c.kind)}${c.sub ? ' · ' + esc(c.sub) : ''}</div><h1>${esc(c.title)}</h1><p>${plural(c.secs.length, 'Abschnitt', 'Abschnitte')} · ${plural(c.n, 'Wort', 'Wörter')} · ${c.seen} geübt</p></header>
+      <header class="page-head"><div class="eyebrow">${esc(c.label ? 'Italienisch' : c.kind)}${c.sub ? ' · ' + esc(c.sub) : ''}</div><h1>${esc(c.title)}</h1><p>${plural(c.secs.length, 'Abschnitt', 'Abschnitte')} · ${plural(c.n, 'Wort', 'Wörter')} · ${c.seen} geübt</p></header>
       ${hasPages ? `<div class="ws-seg" role="tablist"><button role="tab" aria-selected="${ws.mode === 'lesson'}" data-ws="mode" data-wsmode="lesson">Nach Lektion</button><button role="tab" aria-selected="${ws.mode === 'page'}" data-ws="mode" data-wsmode="page">Nach Seiten</button></div>` : ''}
       ${cumBox}
       ${optBox}

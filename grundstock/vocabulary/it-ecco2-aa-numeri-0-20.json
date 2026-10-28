@@ -3,27 +3,25 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-aa-numeri-0-20",
- "title": "Ecco più 2 · I numeri 0–20",
+ "title": "Secondo anno · Extra · Numeri e calendario · I numeri 0–20",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Die Zahlen von 0 bis 20“ aus Ecco più 2 (Anhang A, I numeri 0–20).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), Extra · Numeri e calendario, I numeri 0–20.",
  "topics": [
   "Zahlen",
   "Grundzahlen"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Anhang A · I numeri 0–20",
+ "collection": "Secondo anno",
+ "section": "Extra · Numeri e calendario · I numeri 0–20",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 183 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -33,7 +31,6 @@
    "translations": [
     "null"
    ],
-   "page": "183",
    "usage": "0"
   },
   {
@@ -42,7 +39,6 @@
    "translations": [
     "eins"
    ],
-   "page": "183",
    "usage": "1"
   },
   {
@@ -51,7 +47,6 @@
    "translations": [
     "zwei"
    ],
-   "page": "183",
    "usage": "2"
   },
   {
@@ -60,7 +55,6 @@
    "translations": [
     "drei"
    ],
-   "page": "183",
    "usage": "3"
   },
   {
@@ -69,7 +63,6 @@
    "translations": [
     "vier"
    ],
-   "page": "183",
    "usage": "4"
   },
   {
@@ -78,7 +71,6 @@
    "translations": [
     "fünf"
    ],
-   "page": "183",
    "usage": "5"
   },
   {
@@ -87,7 +79,6 @@
    "translations": [
     "sechs"
    ],
-   "page": "183",
    "usage": "6"
   },
   {
@@ -96,7 +87,6 @@
    "translations": [
     "sieben"
    ],
-   "page": "183",
    "usage": "7"
   },
   {
@@ -105,7 +95,6 @@
    "translations": [
     "acht"
    ],
-   "page": "183",
    "usage": "8"
   },
   {
@@ -114,7 +103,6 @@
    "translations": [
     "neun"
    ],
-   "page": "183",
    "usage": "9"
   },
   {
@@ -123,7 +111,6 @@
    "translations": [
     "zehn"
    ],
-   "page": "183",
    "usage": "10"
   },
   {
@@ -132,7 +119,6 @@
    "translations": [
     "elf"
    ],
-   "page": "183",
    "usage": "11"
   },
   {
@@ -141,7 +127,6 @@
    "translations": [
     "zwölf"
    ],
-   "page": "183",
    "usage": "12"
   },
   {
@@ -150,7 +135,6 @@
    "translations": [
     "dreizehn"
    ],
-   "page": "183",
    "usage": "13"
   },
   {
@@ -159,7 +143,6 @@
    "translations": [
     "vierzehn"
    ],
-   "page": "183",
    "usage": "14"
   },
   {
@@ -168,7 +151,6 @@
    "translations": [
     "fünfzehn"
    ],
-   "page": "183",
    "usage": "15"
   },
   {
@@ -177,7 +159,6 @@
    "translations": [
     "sechzehn"
    ],
-   "page": "183",
    "usage": "16"
   },
   {
@@ -186,7 +167,6 @@
    "translations": [
     "siebzehn"
    ],
-   "page": "183",
    "usage": "17"
   },
   {
@@ -195,7 +175,6 @@
    "translations": [
     "achtzehn"
    ],
-   "page": "183",
    "usage": "18"
   },
   {
@@ -204,7 +183,6 @@
    "translations": [
     "neunzehn"
    ],
-   "page": "183",
    "usage": "19"
   },
   {
@@ -213,19 +191,16 @@
    "translations": [
     "zwanzig"
    ],
-   "page": "183",
    "usage": "20"
   }
  ],
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Anhang A",
-   "section": "I numeri 0–20",
-   "pages": "183"
+   "unit": "Extra · Numeri e calendario",
+   "section": "I numeri 0–20"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -235,7 +210,7 @@
    "Grundzahlen"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco3-u4-4a",
- "title": "Ecco più 3 · Unità 4 · 4A Libera Terra",
+ "title": "Terzo anno · 4 · Nord e Sud · Parte A",
  "language": "it",
  "translationLanguage": "de",
  "level": "B1",
- "description": "Wortschatz zu „Libera Terra – gegen die Mafia“ aus Ecco più 3 (Unità 4, 4A Libera Terra).",
+ "description": "Wortschatz Terzo anno (3. Lernjahr), 4 · Nord e Sud, Parte A.",
  "topics": [
   "Mafia",
   "Legalität",
   "Landwirtschaft"
  ],
- "collection": "Ecco più 3 (Cornelsen)",
- "section": "Unità 4 · 4A Libera Terra",
+ "collection": "Terzo anno",
+ "section": "4 · Nord e Sud · Parte A",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 182-183 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Terzo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "die Droge"
    ],
-   "page": "182-183",
    "definition": "Una sostanza che fa male e crea dipendenza.",
    "example": "La droga distrugge molte vite.",
    "usage": "pl. le droghe",
@@ -54,7 +51,6 @@
    "translations": [
     "die Einwanderung"
    ],
-   "page": "182-183",
    "definition": "L’arrivo di persone da altri paesi.",
    "example": "L’immigrazione cambia la società italiana.",
    "usage": "f."
@@ -65,7 +61,6 @@
    "translations": [
     "der Kampf"
    ],
-   "page": "182-183",
    "definition": "Lo sforzo contro un nemico o un problema.",
    "example": "La lotta contro la mafia è difficile.",
    "related": "F lutte",
@@ -85,7 +80,6 @@
    "translations": [
     "die Zusammenarbeit"
    ],
-   "page": "182-183",
    "definition": "Il lavoro fatto insieme.",
    "example": "Con la cooperazione di tutti il progetto è riuscito.",
    "grammar": {
@@ -104,7 +98,6 @@
    "translations": [
     "der/die Bürger/in"
    ],
-   "page": "182-183",
    "definition": "Una persona che vive in una città o in uno stato.",
    "example": "Ogni cittadino ha diritti e doveri."
   },
@@ -114,7 +107,6 @@
    "translations": [
     "die Rechtmäßigkeit"
    ],
-   "page": "182-183",
    "definition": "Il rispetto delle leggi.",
    "example": "A scuola facciamo un progetto sulla legalità.",
    "grammar": {
@@ -133,7 +125,6 @@
    "translations": [
     "die Gerechtigkeit"
    ],
-   "page": "182-183",
    "definition": "Il fatto che tutti abbiano quello che è giusto.",
    "example": "Le vittime chiedono giustizia.",
    "related": "E justice; F justice",
@@ -154,7 +145,6 @@
     "bewirtschaften",
     "anbauen"
    ],
-   "page": "182-183",
    "definition": "Lavorare la terra per far crescere piante.",
    "example": "I miei nonni coltivano pomodori."
   },
@@ -165,7 +155,6 @@
     "verschieden",
     "vielfältig"
    ],
-   "page": "182-183",
    "definition": "Diverso, di molti tipi.",
    "example": "Il menù è molto vario.",
    "related": "E varied"
@@ -176,7 +165,6 @@
    "translations": [
     "der Wein"
    ],
-   "page": "182-183",
    "definition": "Una bevanda alcolica fatta con l’uva.",
    "example": "La Toscana produce vini famosi.",
    "related": "F vin",
@@ -196,7 +184,6 @@
    "translations": [
     "die Soße"
    ],
-   "page": "182-183",
    "definition": "Un condimento liquido per la pasta o la carne.",
    "example": "La salsa di pomodoro è fatta in casa.",
    "grammar": {
@@ -216,7 +203,6 @@
     "entschuldigen",
     "verzeihen"
    ],
-   "page": "182-183",
    "definition": "Non essere più arrabbiati con qualcuno.",
    "example": "Perdonami, non volevo offenderti.",
    "related": "F pardonner"
@@ -227,7 +213,6 @@
    "translations": [
     "zu tun haben mit etw."
    ],
-   "page": "182-183",
    "definition": "Avere un rapporto con qualcosa.",
    "example": "Non voglio avere niente a che fare con questa storia.",
    "acceptedAnswers": [
@@ -240,7 +225,6 @@
    "translations": [
     "die Gesamtheit"
    ],
-   "page": "182-183",
    "definition": "Tutte le parti considerate insieme.",
    "example": "L’insieme dei dati mostra un problema.",
    "usage": "m."
@@ -251,7 +235,6 @@
    "translations": [
     "die Genossenschaft"
    ],
-   "page": "182-183",
    "definition": "Un’azienda che appartiene a chi ci lavora.",
    "example": "I ragazzi lavorano in una cooperativa agricola.",
    "grammar": {
@@ -270,7 +253,6 @@
    "translations": [
     "bewirtschaften"
    ],
-   "page": "182-183",
    "definition": "Coltivare la terra.",
    "example": "In autunno si lavora la terra.",
    "usage": "hier"
@@ -282,7 +264,6 @@
     "das Feld",
     "der Boden"
    ],
-   "page": "182-183",
    "definition": "Un pezzo di terra.",
    "example": "La cooperativa coltiva i terreni confiscati alla mafia.",
    "grammar": {
@@ -301,7 +282,6 @@
    "translations": [
     "beschlagnahmen"
    ],
-   "page": "182-183",
    "definition": "Prendere un bene a qualcuno per legge.",
    "example": "Lo stato ha confiscato le case del boss."
   },
@@ -311,7 +291,6 @@
    "translations": [
     "der Boss"
    ],
-   "page": "182-183",
    "definition": "Il capo di un’organizzazione criminale.",
    "example": "Il boss è stato arrestato dopo anni.",
    "usage": "pl. i boss",
@@ -331,7 +310,6 @@
    "translations": [
     "die Antimafia"
    ],
-   "page": "182-183",
    "definition": "La lotta organizzata contro la mafia.",
    "example": "L’antimafia lavora con la polizia e i giudici."
   },
@@ -341,7 +319,6 @@
    "translations": [
     "jdn verhaften"
    ],
-   "page": "182-183",
    "definition": "Prendere una persona e portarla in prigione.",
    "example": "La polizia ha arrestato due ladri.",
    "related": "E to arrest; F arrêter",
@@ -355,7 +332,6 @@
    "translations": [
     "Mafia-"
    ],
-   "page": "182-183",
    "definition": "Della mafia.",
    "example": "È un’organizzazione di tipo mafioso."
   },
@@ -365,7 +341,6 @@
    "translations": [
     "anti-"
    ],
-   "page": "182-183",
    "definition": "Contro.",
    "example": "Organizziamo una manifestazione antirazzista."
   },
@@ -375,7 +350,6 @@
    "translations": [
     "die Nutzung"
    ],
-   "page": "182-183",
    "definition": "L’uso.",
    "example": "L’utilizzo del cellulare in classe è vietato."
   },
@@ -385,7 +359,6 @@
    "translations": [
     "das Bewusstsein"
    ],
-   "page": "182-183",
    "definition": "Il fatto di sapere e capire bene una cosa.",
    "example": "La scuola deve creare consapevolezza sull’ambiente.",
    "family": "consapevole",
@@ -405,7 +378,6 @@
    "translations": [
     "die Perspektive"
    ],
-   "page": "182-183",
    "definition": "Il modo di vedere una cosa; possibilità per il futuro.",
    "example": "Prova a vedere le cose dalla mia prospettiva.",
    "grammar": {
@@ -424,7 +396,6 @@
    "translations": [
     "die Herkunft"
    ],
-   "page": "182-183",
    "definition": "Il luogo da cui viene una persona o una cosa.",
    "example": "Sul pacchetto c’è la provenienza del caffè.",
    "grammar": {
@@ -443,7 +414,6 @@
    "translations": [
     "die Besonderheit"
    ],
-   "page": "182-183",
    "definition": "Una caratteristica speciale.",
    "example": "La peculiarità di questa città sono i portici.",
    "related": "E peculiarity",
@@ -463,7 +433,6 @@
    "translations": [
     "sich an etw. halten"
    ],
-   "page": "182-183",
    "definition": "Seguire regole o istruzioni.",
    "example": "Bisogna attenersi alle regole del gioco.",
    "acceptedAnswers": [
@@ -477,7 +446,6 @@
    "translations": [
     "biologisch"
    ],
-   "page": "182-183",
    "definition": "Prodotto senza chimica.",
    "example": "Compriamo solo frutta biologica."
   },
@@ -487,7 +455,6 @@
    "translations": [
     "der/die Verbraucher/in"
    ],
-   "page": "182-183",
    "definition": "Una persona che compra e usa prodotti.",
    "example": "I consumatori vogliono prodotti sani.",
    "family": "consumare"
@@ -498,7 +465,6 @@
    "translations": [
     "gesund"
    ],
-   "page": "182-183",
    "definition": "Che fa bene alla salute; che non è malato.",
    "example": "Mangiare frutta è sano."
   },
@@ -509,7 +475,6 @@
     "wer auch immer",
     "jede(r,s)"
    ],
-   "page": "182-183",
    "definition": "Qualsiasi persona.",
    "example": "Chiunque venga, è il benvenuto.",
    "usage": "+ cong."
@@ -521,7 +486,6 @@
     "die Entfernung",
     "die Distanz"
    ],
-   "page": "182-183",
    "definition": "Lo spazio tra due posti.",
    "example": "La scuola è a una distanza di due chilometri.",
    "grammar": {
@@ -540,7 +504,6 @@
    "translations": [
     "spezialisiert"
    ],
-   "page": "182-183",
    "definition": "Che conosce molto bene un settore.",
    "example": "È un medico specializzato in sport."
   },
@@ -550,7 +513,6 @@
    "translations": [
     "über (per)"
    ],
-   "page": "182-183",
    "definition": "Attraverso, per mezzo di.",
    "example": "Ti mando le foto via e-mail.",
    "usage": "prep."
@@ -561,7 +523,6 @@
    "translations": [
     "der Beitrag"
    ],
-   "page": "182-183",
    "definition": "Quello che una persona dà a un progetto.",
    "example": "Ognuno ha dato il suo contributo.",
    "related": "E contribution",
@@ -579,12 +540,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "3",
-   "unit": "Unità 4",
-   "section": "4A Libera Terra",
-   "pages": "182-183"
+   "unit": "4 · Nord e Sud",
+   "section": "Parte A"
   },
   "grade": 10,
   "foreignLanguageNo": 3,
@@ -595,7 +554,7 @@
    "Landwirtschaft"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

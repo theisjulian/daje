@@ -3,7 +3,7 @@
 grundstock/grammar/ umwandeln. Aufruf:  python3 werkzeuge/grammatik.py [datei.txt ...]   Danach: node werkzeuge/bundle_stock.cjs
 
 Format (eine Datei je Unità, mehrere Themen):
-  #!buch series=Ecco_più volume=1 grade=8 cefr=A1 prefix=ecco1 publisher=Cornelsen
+  #!buch series=Corso_daje volume=1 grade=8 cefr=A1 prefix=ecco1   (prefix nur für IDs; IDs nie ändern, sonst gehen Lernstände verloren)
   @thema <id> | <Unità 1> | <Abschnitt, z. B. 1A> | <Titel> | <Reihenfolge>
   @mehr <id>        weitere Übungen zu einem Thema weiter oben anhängen (IDs der vorhandenen bleiben gleich)
   #regel            danach Merkkasten (Absätze, „- “-Listen, „| a | b |“-Tabellen, **fett**) bis zur nächsten #/%-Zeile
@@ -29,6 +29,7 @@ import json, re, sys, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / 'grundstock' / 'grammar'
+ANNO = {'1': 'Primo anno', '2': 'Secondo anno', '3': 'Terzo anno'}
 LEVEL_MIN = {'leicht': 1.0, 'mittel': 1.3, 'schwer': 1.6}
 
 
@@ -171,7 +172,7 @@ def build_question(q, qid):
 
 
 def parse(path):
-    book = {'series': 'Ecco più', 'volume': '1', 'grade': 8, 'cefr': 'A1', 'prefix': 'ecco1', 'publisher': 'Cornelsen'}
+    book = {'series': 'Corso daje', 'volume': '1', 'grade': 8, 'cefr': 'A1', 'prefix': 'ecco1'}
     topics, cur, ex, q, mode = [], None, None, None, None
     for raw in path.read_text(encoding='utf-8').splitlines():
         line = raw.rstrip()
@@ -244,9 +245,9 @@ def packages(book, topics):
                 'title': e['title'], 'language': 'it', 'level': book['cefr'],
                 'description': f"{t['title']} · {e['title']} ({ {'leicht': 'einfach', 'mittel': 'mittel', 'schwer': 'schwer'}[e['level']] }).",
                 'topics': [t['title'], 'Grammatik'],
-                'sources': [{'kind': 'own', 'citation': f"Eigene Übung zum Grammatikthema aus {book['series']} {vol} ({book['publisher']}), {unit_label}.", 'rights': 'own'}],
+                'sources': [{'kind': 'own', 'citation': f"Eigene Übung (daje), {ANNO[vol]}, {unit_label}.", 'rights': 'own'}],
                 'estimatedMinutes': minutes,
-                'catalog': {'origin': 'textbook', 'textbook': {'publisher': book['publisher'], 'series': book['series'], 'volume': vol, 'unit': t['unit'], **({'section': t['section']} if t['section'] else {})},
+                'catalog': {'origin': 'textbook', 'textbook': {'series': book['series'], 'volume': vol, 'unit': t['unit'], **({'section': t['section']} if t['section'] else {})},
                             'grade': book['grade'], 'foreignLanguageNo': 3, 'cefr': book['cefr'], 'tags': ['grammatik']},
                 'grammar': {'topic': f"{book['prefix']}-{t['id']}", 'topicTitle': t['title'], 'difficulty': e['level'], 'origin': 'own', 'order': t['order'] * 10 + n, **({'rule': rule} if rule else {})},
                 'questions': qs,

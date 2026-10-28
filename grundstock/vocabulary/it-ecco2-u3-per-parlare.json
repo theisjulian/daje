@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-u3-per-parlare",
- "title": "Ecco più 2 · Unità 3 · Per parlare",
+ "title": "Secondo anno · 3 · Roma ed Europa · Frasi utili",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Verkehrsmittel und Restaurant“ aus Ecco più 2 (Unità 3, Per parlare).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), 3 · Roma ed Europa, Frasi utili.",
  "topics": [
   "Verkehr",
   "Reisen",
   "Stadt"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Unità 3 · Per parlare",
+ "collection": "Secondo anno",
+ "section": "3 · Roma ed Europa · Frasi utili",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 211-212 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "fliegen"
    ],
-   "page": "211-212",
    "definition": "Viaggiare con il velivolo.",
    "example": "Vado in aereo a Londra."
   },
@@ -44,7 +41,6 @@
    "translations": [
     "mit dem Zug fahren"
    ],
-   "page": "211-212",
    "definition": "Viaggiare con il treno.",
    "example": "Vado in treno a Milano."
   },
@@ -54,7 +50,6 @@
    "translations": [
     "mit der U-Bahn fahren"
    ],
-   "page": "211-212",
    "definition": "Spostarsi con la metro.",
    "example": "Vado in metropolitana in centro."
   },
@@ -64,7 +59,6 @@
    "translations": [
     "mit der Straßenbahn fahren"
    ],
-   "page": "211-212",
    "definition": "Spostarsi con il tram.",
    "example": "Vado in tram a scuola."
   },
@@ -74,7 +68,6 @@
    "translations": [
     "mit dem Fahrrad fahren"
    ],
-   "page": "211-212",
    "definition": "Spostarsi con la bicicletta.",
    "example": "Vado in bici al parco."
   },
@@ -84,7 +77,6 @@
    "translations": [
     "zu Fuß gehen"
    ],
-   "page": "211-212",
    "definition": "Spostarsi camminando.",
    "example": "Vado a piedi alla fermata."
   },
@@ -94,7 +86,6 @@
    "translations": [
     "den Bus nehmen"
    ],
-   "page": "211-212",
    "definition": "Salire su un autobus.",
    "example": "Prendo l’autobus alle sette."
   },
@@ -104,7 +95,6 @@
    "translations": [
     "den Zug nehmen"
    ],
-   "page": "211-212",
    "definition": "Salire sul treno.",
    "example": "Prendo il treno per Roma."
   },
@@ -114,7 +104,6 @@
    "translations": [
     "die Linie (A) nehmen"
    ],
-   "page": "211-212",
    "definition": "Salire su una linea della metro o del bus.",
    "example": "Prendo la linea A.",
    "acceptedAnswers": [
@@ -127,7 +116,6 @@
    "translations": [
     "die Straßenbahn nehmen"
    ],
-   "page": "211-212",
    "definition": "Salire sul tram.",
    "example": "Prendo il tram numero 5."
   },
@@ -137,7 +125,6 @@
    "translations": [
     "das Flugzeug nehmen"
    ],
-   "page": "211-212",
    "definition": "Salire su un aereo.",
    "example": "Prendo l’aereo domani."
   },
@@ -147,7 +134,6 @@
    "translations": [
     "das Taxi nehmen"
    ],
-   "page": "211-212",
    "definition": "Salire su un taxi.",
    "example": "Prendiamo il taxi per l’aeroporto."
   },
@@ -157,7 +143,6 @@
    "translations": [
     "die Haltestelle"
    ],
-   "page": "211-212",
    "definition": "Punto dove si sale e si scende dal bus.",
    "example": "Aspetto alla fermata.",
    "grammar": {
@@ -176,7 +161,6 @@
    "translations": [
     "der Bahnhof"
    ],
-   "page": "211-212",
    "definition": "Luogo dove arrivano i treni.",
    "example": "La stazione è grande.",
    "grammar": {
@@ -195,7 +179,6 @@
    "translations": [
     "ein Ticket kaufen"
    ],
-   "page": "211-212",
    "definition": "Acquistare il documento per viaggiare.",
    "example": "Compro un biglietto per Napoli."
   },
@@ -205,7 +188,6 @@
    "translations": [
     "pünktlich / zu spät kommen"
    ],
-   "page": "211-212",
    "definition": "Arrivare all’ora giusta o dopo.",
    "example": "Il treno arriva puntuale."
   },
@@ -215,7 +197,6 @@
    "translations": [
     "Die U-Bahn fährt alle 10 Minuten."
    ],
-   "page": "211-212",
    "definition": "Frase che indica la frequenza della metro.",
    "example": "La metro parte ogni 10 minuti."
   },
@@ -225,7 +206,6 @@
    "translations": [
     "Die U-Bahn ist außer Betrieb."
    ],
-   "page": "211-212",
    "definition": "Frase che dice che la metro non funziona.",
    "example": "Oggi la metro è fuori servizio."
   },
@@ -235,7 +215,6 @@
    "translations": [
     "Es ist Berufsverkehr."
    ],
-   "page": "211-212",
    "definition": "Frase che dice che c’è molto traffico.",
    "example": "È l’ora di punta: la metro è piena."
   },
@@ -245,7 +224,6 @@
    "translations": [
     "Es ist (viel) Verkehr."
    ],
-   "page": "211-212",
    "definition": "Frase che dice che le strade sono piene di auto.",
    "example": "C’è traffico sulla tangenziale."
   },
@@ -255,7 +233,6 @@
    "translations": [
     "Der Automat funktioniert nicht."
    ],
-   "page": "211-212",
    "definition": "Frase per dire che la macchina dei biglietti è guasta.",
    "example": "L’apparecchio automatico non funziona: compro il biglietto allo sportello."
   },
@@ -265,7 +242,6 @@
    "translations": [
     "die Speisekarte"
    ],
-   "page": "211-212",
    "definition": "Lista dei piatti di un ristorante.",
    "example": "Il cameriere porta il menù.",
    "related": "E menu",
@@ -285,7 +261,6 @@
    "translations": [
     "die Vorspeise"
    ],
-   "page": "211-212",
    "definition": "Piatto che si mangia prima della pasta.",
    "example": "Come antipasto prendo il prosciutto."
   },
@@ -295,7 +270,6 @@
    "translations": [
     "der erste Gang"
    ],
-   "page": "211-212",
    "definition": "Pasta, riso o minestra.",
    "example": "Come primo piatto prendo le tagliatelle.",
    "grammar": {
@@ -314,7 +288,6 @@
    "translations": [
     "der zweite Gang"
    ],
-   "page": "211-212",
    "definition": "Carne o pesce.",
    "example": "Come secondo piatto prendo il pesce.",
    "grammar": {
@@ -333,7 +306,6 @@
    "translations": [
     "die Beilage"
    ],
-   "page": "211-212",
    "definition": "Verdura o patate che accompagnano la carne.",
    "example": "Come contorno prendo l’insalata.",
    "grammar": {
@@ -353,7 +325,6 @@
     "das Dessert",
     "die Süßspeise"
    ],
-   "page": "211-212",
    "definition": "Parte finale del pasto, con zucchero.",
    "example": "Come dolce prendo il tiramisù.",
    "grammar": {
@@ -372,7 +343,6 @@
    "translations": [
     "das Fleisch"
    ],
-   "page": "211-212",
    "definition": "Cibo che viene dagli animali.",
    "example": "Non mangio molta carne.",
    "grammar": {
@@ -391,7 +361,6 @@
    "translations": [
     "der Fisch"
    ],
-   "page": "211-212",
    "definition": "Animale del mare o del fiume che si mangia.",
    "example": "Il pesce è fresco.",
    "grammar": {
@@ -410,7 +379,6 @@
    "translations": [
     "gegrillt"
    ],
-   "page": "211-212",
    "definition": "Cotto sul fuoco senza olio.",
    "example": "Mangio carne alla griglia."
   },
@@ -420,7 +388,6 @@
    "translations": [
     "frittiert"
    ],
-   "page": "211-212",
    "definition": "Cotto in olio caldo.",
    "example": "Mi piacciono le patate fritte."
   },
@@ -430,7 +397,6 @@
    "translations": [
     "der Salat"
    ],
-   "page": "211-212",
    "definition": "Piatto di verdure crude.",
    "example": "Condisco l’insalata con olio."
   },
@@ -440,7 +406,6 @@
    "translations": [
     "die Suppe"
    ],
-   "page": "211-212",
    "definition": "Piatto caldo di verdure o legumi in brodo.",
    "example": "Ceno con una minestra.",
    "grammar": {
@@ -459,7 +424,6 @@
    "translations": [
     "die Gabel"
    ],
-   "page": "211-212",
    "definition": "Posata con denti per prendere il cibo.",
    "example": "Mangio la pasta con la forchetta.",
    "grammar": {
@@ -478,7 +442,6 @@
    "translations": [
     "das Messer"
    ],
-   "page": "211-212",
    "definition": "Posata con lama per tagliare.",
    "example": "Taglio la carne con il coltello.",
    "grammar": {
@@ -497,7 +460,6 @@
    "translations": [
     "der Löffel"
    ],
-   "page": "211-212",
    "definition": "Posata concava per mangiare la minestra.",
    "example": "Mangio la zuppa con il cucchiaio.",
    "grammar": {
@@ -516,7 +478,6 @@
    "translations": [
     "der Teelöffel"
    ],
-   "page": "211-212",
    "definition": "Posata minuscola per il tè o il caffè.",
    "example": "Mescolo il caffè con il cucchiaino.",
    "grammar": {
@@ -535,7 +496,6 @@
    "translations": [
     "das Gedeck"
    ],
-   "page": "211-212",
    "definition": "Piccola somma da pagare al ristorante per il servizio.",
    "example": "Il coperto costa due euro.",
    "grammar": {
@@ -554,7 +514,6 @@
    "translations": [
     "das Glas"
    ],
-   "page": "211-212",
    "definition": "Recipiente di vetro per bere.",
    "example": "Un bicchiere d’acqua, per favore.",
    "grammar": {
@@ -573,7 +532,6 @@
    "translations": [
     "das Trinkgeld"
    ],
-   "page": "211-212",
    "definition": "Piccola somma lasciata al cameriere.",
    "example": "Lascio la mancia al cameriere.",
    "grammar": {
@@ -592,7 +550,6 @@
    "translations": [
     "Es ist sehr/zu scharf."
    ],
-   "page": "211-212",
    "definition": "Dice che il cibo brucia in bocca.",
    "example": "Questa salsa è troppo piccante."
   },
@@ -602,7 +559,6 @@
    "translations": [
     "Es ist sehr/zu salzig."
    ],
-   "page": "211-212",
    "definition": "Dice che c’è troppo sale.",
    "example": "La zuppa è troppo salata."
   },
@@ -612,7 +568,6 @@
    "translations": [
     "Mir tut der Bauch weh."
    ],
-   "page": "211-212",
    "definition": "Dice che hai dolore all’addome.",
    "example": "Ho mangiato troppo: mi fa male la pancia."
   },
@@ -622,7 +577,6 @@
    "translations": [
     "Magst du kosten?"
    ],
-   "page": "211-212",
    "definition": "Domanda per offrire un piccolo assaggio.",
    "example": "Vuoi assaggiare il mio dolce?"
   },
@@ -632,7 +586,6 @@
    "translations": [
     "Es war sehr lecker."
    ],
-   "page": "211-212",
    "definition": "Frase per fare i complimenti al cuoco.",
    "example": "La cena è stata buonissima."
   }
@@ -640,12 +593,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Unità 3",
-   "section": "Per parlare",
-   "pages": "211-212"
+   "unit": "3 · Roma ed Europa",
+   "section": "Frasi utili"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -656,7 +607,7 @@
    "Stadt"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

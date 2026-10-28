@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-m-uno-stage",
- "title": "Ecco più 2 · Modulo · Uno stage",
+ "title": "Secondo anno · Extra 1 · Esperienze di lavoro · Lessico",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Das Praktikum (Modul, fakultativ)“ aus Ecco più 2 (Modulo, Uno stage).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), Extra 1 · Esperienze di lavoro, Lessico.",
  "topics": [
   "Praktikum",
   "Bewerbung",
   "Arbeit"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Modulo · Uno stage",
+ "collection": "Secondo anno",
+ "section": "Extra 1 · Esperienze di lavoro · Lessico",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 228-229 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "das Praktikum"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -57,7 +54,6 @@
    "translations": [
     "die Hauptfigur"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -70,7 +66,6 @@
    "translations": [
     "das Marketing"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -92,7 +87,6 @@
    "translations": [
     "bekannt"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -105,7 +99,6 @@
    "translations": [
     "entwickeln"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -118,7 +111,6 @@
    "translations": [
     "bekannt"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -134,7 +126,6 @@
    "translations": [
     "der Betreff (Mail)"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -147,7 +138,6 @@
    "translations": [
     "Sehr geehrte/r (Anrede: Brief, Mail)"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -160,7 +150,6 @@
    "translations": [
     "staatlich"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -173,7 +162,6 @@
    "translations": [
     "die Anzeige (Stellensuche)"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -186,7 +174,6 @@
    "translations": [
     "fließend (Sprache)"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -200,7 +187,6 @@
    "translations": [
     "neben jdm/etw."
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -217,7 +203,6 @@
     "Basis-",
     "Grund-"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -231,7 +216,6 @@
    "translations": [
     "besuchen"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -245,7 +229,6 @@
     "benutzen",
     "anwenden"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -258,7 +241,6 @@
    "translations": [
     "gewöhnlich"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -271,7 +253,6 @@
    "translations": [
     "die Muttersprache"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -293,7 +274,6 @@
    "translations": [
     "intensiv"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -308,7 +288,6 @@
     "das Niveau",
     "das Level"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -331,7 +310,6 @@
     "Schul-",
     "schulisch"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -344,7 +322,6 @@
    "translations": [
     "der Sinn"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -368,7 +345,6 @@
    "translations": [
     "die Organisation"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -384,7 +360,6 @@
    "translations": [
     "individuell"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -398,7 +373,6 @@
    "translations": [
     "realisieren"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -411,7 +385,6 @@
    "translations": [
     "die Präsentation"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -435,7 +408,6 @@
     "die Fähigkeit",
     "das Geschick"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -449,7 +421,6 @@
    "translations": [
     "die Erfahrung"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -464,7 +435,6 @@
     "der Kunde",
     "die Kundin"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -478,7 +448,6 @@
    "translations": [
     "in der Lage sein (etw. zu tun)"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -494,7 +463,6 @@
    "translations": [
     "zufriedenstellend"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -507,7 +475,6 @@
    "translations": [
     "der Zeitraum"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -530,7 +497,6 @@
    "translations": [
     "die Begeisterung"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -544,7 +510,6 @@
    "translations": [
     "in Erwartung (Brief)"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -557,7 +522,6 @@
    "translations": [
     "freundlich"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -570,7 +534,6 @@
    "translations": [
     "die Antwort"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -592,7 +555,6 @@
    "translations": [
     "jdn begrüßen (formell in Briefen)"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -608,7 +570,6 @@
    "translations": [
     "herzlich"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -622,7 +583,6 @@
    "translations": [
     "das Geburtsdatum"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -644,7 +604,6 @@
    "translations": [
     "das (Abschluss-)Zeugnis"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -666,7 +625,6 @@
    "translations": [
     "erreichen"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -680,7 +638,6 @@
     "bei",
     "hier: an"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -693,7 +650,6 @@
    "translations": [
     "fließend (Sprache)"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -708,7 +664,6 @@
    "translations": [
     "schriftlich"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -721,7 +676,6 @@
    "translations": [
     "mündlich"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -734,7 +688,6 @@
    "translations": [
     "die Anwendung"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -749,7 +702,6 @@
    "translations": [
     "die Unterstützung"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -772,7 +724,6 @@
    "translations": [
     "der Anhang (Mail)"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -785,7 +736,6 @@
    "translations": [
     "der Lebenslauf"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -811,7 +761,6 @@
     "die Ausbildung",
     "die Weiterbildung"
    ],
-   "page": "228-229",
    "tags": [
     "fakultativ"
    ],
@@ -823,12 +772,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Modulo",
-   "section": "Uno stage",
-   "pages": "228-229"
+   "unit": "Extra 1 · Esperienze di lavoro",
+   "section": "Lessico"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -839,7 +786,7 @@
    "Arbeit"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco1-m4-incontro-con-liga",
- "title": "Ecco più 1 · Modulo · Incontro con Liga",
+ "title": "Primo anno · Extra 4 · Musica dal vivo · Lessico",
  "language": "it",
  "translationLanguage": "de",
  "level": "A1",
- "description": "Wortschatz zu „Incontro con Liga“ aus Ecco più 1 (Modulo, Incontro con Liga).",
+ "description": "Wortschatz Primo anno (1. Lernjahr), Extra 4 · Musica dal vivo, Lessico.",
  "topics": [
   "Musik",
   "Gefühle",
   "Alltag"
  ],
- "collection": "Ecco più 1 (Cornelsen)",
- "section": "Modulo · Incontro con Liga",
+ "collection": "Primo anno",
+ "section": "Extra 4 · Musica dal vivo · Lessico",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 201-202 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Primo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,7 +33,6 @@
     "einigermaßen gut",
     "so lala"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -48,7 +45,6 @@
    "translations": [
     "nicht einmal"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -61,7 +57,6 @@
    "translations": [
     "das Drittel"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -83,7 +78,6 @@
    "translations": [
     "die Hälfte"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -105,7 +99,6 @@
    "translations": [
     "der Tag (Verlauf)"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -127,7 +120,6 @@
    "translations": [
     "das Treffen"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -141,7 +133,6 @@
     "nämlich",
     "tatsächlich"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -154,7 +145,6 @@
    "translations": [
     "mehr als"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -167,7 +157,6 @@
    "translations": [
     "jemand"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -180,7 +169,6 @@
    "translations": [
     "Das glaube ich nicht!"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -193,7 +181,6 @@
    "translations": [
     "beneiden"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -206,7 +193,6 @@
    "translations": [
     "sich langweilen"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -220,7 +206,6 @@
    "translations": [
     "sich beruhigen"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -234,7 +219,6 @@
     "nur",
     "extra für jdn"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -247,7 +231,6 @@
    "translations": [
     "Ich werde verrückt!"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -261,7 +244,6 @@
     "dran sein",
     "an der Reihe sein"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -274,7 +256,6 @@
    "translations": [
     "Geben Sie mir …"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -287,7 +268,6 @@
    "translations": [
     "sich duzen"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -300,7 +280,6 @@
    "translations": [
     "sich siezen"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -313,7 +292,6 @@
    "translations": [
     "genügen"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -326,7 +304,6 @@
    "translations": [
     "der Lärm"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -348,7 +325,6 @@
    "translations": [
     "der Saal"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -371,7 +347,6 @@
    "translations": [
     "die Hälfte von (½)"
    ],
-   "page": "201-202",
    "tags": [
     "fakultativ"
    ],
@@ -392,12 +367,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Modulo",
-   "section": "Incontro con Liga",
-   "pages": "201-202"
+   "unit": "Extra 4 · Musica dal vivo",
+   "section": "Lessico"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -408,7 +381,7 @@
    "Alltag"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-m-musica",
- "title": "Ecco più 2 · Modulo · La musica popolare e la musica leggera italiana",
+ "title": "Secondo anno · Extra 2 · Musica italiana · Lessico",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Volksmusik und Schlager (Modul, fakultativ)“ aus Ecco più 2 (Modulo, La musica popolare e la musica leggera italiana).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), Extra 2 · Musica italiana, Lessico.",
  "topics": [
   "Musik",
   "Lied",
   "Kultur"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Modulo · La musica popolare e la musica leggera italiana",
+ "collection": "Secondo anno",
+ "section": "Extra 2 · Musica italiana · Lessico",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 229-230 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "sich um etw. handeln"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -51,7 +48,6 @@
     "Volks-",
     "populär"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -66,7 +62,6 @@
    "translations": [
     "die Melodie"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -89,7 +84,6 @@
    "translations": [
     "bekannt"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -105,7 +99,6 @@
    "translations": [
     "der Text"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -128,7 +121,6 @@
     "Original-",
     "ursprünglich"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -142,7 +134,6 @@
    "translations": [
     "der Dialekt"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -165,7 +156,6 @@
    "translations": [
     "widerspiegeln"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -179,7 +169,6 @@
     "Musik-",
     "musikalisch"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -194,7 +183,6 @@
     "solche(r,s)",
     "gewisse(r,s)"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -209,7 +197,6 @@
    "translations": [
     "etw. komponieren"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -227,7 +214,6 @@
    "translations": [
     "die Nation"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -250,7 +236,6 @@
    "translations": [
     "überraschen"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -266,7 +251,6 @@
    "translations": [
     "regional"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -281,7 +265,6 @@
    "translations": [
     "der Gesang"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -305,7 +288,6 @@
    "translations": [
     "die Stanze (typische Gedichtform)"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -318,7 +300,6 @@
    "translations": [
     "die Bühne"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -340,7 +321,6 @@
    "translations": [
     "der/die Liedermacher/in"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -365,7 +345,6 @@
     "die Kreation",
     "die Schöpfung"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -389,7 +368,6 @@
    "translations": [
     "eigene(r/s)"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -404,7 +382,6 @@
    "translations": [
     "die Generation"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -427,7 +404,6 @@
    "translations": [
     "die (Musik-)Platte"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -452,7 +428,6 @@
     "die Art",
     "die Sorte"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -476,7 +451,6 @@
     "stattfinden",
     "sich abspielen"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -490,7 +464,6 @@
    "translations": [
     "der/die Sieger/in"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -514,7 +487,6 @@
     "neben jdm./etw.",
     "außer jdm./etw."
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -530,7 +502,6 @@
    "translations": [
     "der Saal"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -553,7 +524,6 @@
    "translations": [
     "das Kasino"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -577,7 +547,6 @@
     "die Ausgabe",
     "die Veranstaltung"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -590,7 +559,6 @@
    "translations": [
     "die Kategorie"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -612,7 +580,6 @@
    "translations": [
     "tot"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -626,7 +593,6 @@
    "translations": [
     "das Orchester"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -641,7 +607,6 @@
     "der Rekord",
     "die Bestmarke"
    ],
-   "page": "229-230",
    "tags": [
     "fakultativ"
    ],
@@ -662,12 +627,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Modulo",
-   "section": "La musica popolare e la musica leggera italiana",
-   "pages": "229-230"
+   "unit": "Extra 2 · Musica italiana",
+   "section": "Lessico"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -678,7 +641,7 @@
    "Kultur"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

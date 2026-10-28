@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-u3-approccio",
- "title": "Ecco più 2 · Unità 3 · Approccio",
+ "title": "Secondo anno · 3 · Roma ed Europa · Per cominciare",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Roma, capitale d’Italia“ aus Ecco più 2 (Unità 3, Approccio).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), 3 · Roma ed Europa, Per cominciare.",
  "topics": [
   "Rom",
   "Stadt",
   "Sehenswürdigkeiten"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Unità 3 · Approccio",
+ "collection": "Secondo anno",
+ "section": "3 · Roma ed Europa · Per cominciare",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 207-208 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "die Hauptstadt"
    ],
-   "page": "207-208",
    "definition": "Città principale di un paese.",
    "example": "Roma è la capitale d’Italia.",
    "related": "E capital city; F la capitale; L caput",
@@ -56,7 +53,6 @@
     "der Wohnsitz",
     "der Firmensitz"
    ],
-   "page": "207-208",
    "definition": "Luogo principale di un’organizzazione.",
    "example": "La sede della banca è a Milano.",
    "family": "sedersi",
@@ -77,7 +73,6 @@
    "translations": [
     "der Papst"
    ],
-   "page": "207-208",
    "definition": "Capo della Chiesa cattolica.",
    "example": "Il papa vive in Vaticano.",
    "related": "E pope; F le pape",
@@ -99,7 +94,6 @@
     "shoppen",
     "bummeln"
    ],
-   "page": "207-208",
    "definition": "Andare a comprare vestiti o altre cose per piacere.",
    "example": "Sabato facciamo shopping in centro."
   },
@@ -109,7 +103,6 @@
    "translations": [
     "elegant"
    ],
-   "page": "207-208",
    "definition": "Che ha stile e buon gusto.",
    "example": "Mia madre porta un vestito elegante."
   },
@@ -119,7 +112,6 @@
    "translations": [
     "das Lokal"
    ],
-   "page": "207-208",
    "definition": "Posto pubblico come un bar o una discoteca.",
    "example": "Questo locale è molto famoso.",
    "grammar": {
@@ -138,7 +130,6 @@
    "translations": [
     "wunderbar"
    ],
-   "page": "207-208",
    "definition": "Bellissimo, magnifico.",
    "example": "Che vista stupenda!"
   },
@@ -148,7 +139,6 @@
    "translations": [
     "das Treffen"
    ],
-   "page": "207-208",
    "definition": "Momento in cui due persone si vedono.",
    "example": "L’incontro è alle cinque.",
    "family": "incontrare",
@@ -160,7 +150,6 @@
    "translations": [
     "der Brunnen"
    ],
-   "page": "207-208",
    "definition": "Struttura con acqua che esce, in una piazza.",
    "example": "La fontana di Trevi è a Roma.",
    "related": "E fountain; F la fontaine",
@@ -180,7 +169,6 @@
    "translations": [
     "der/die Musiker/in"
    ],
-   "page": "207-208",
    "definition": "Persona che suona uno strumento.",
    "example": "Il musicista suona il violino.",
    "family": "la musica",
@@ -192,7 +180,6 @@
    "translations": [
     "die Spur"
    ],
-   "page": "207-208",
    "definition": "Segno lasciato da qualcuno o qualcosa; brano di un disco.",
    "example": "Ci sono tracce di fango.",
    "related": "E trace; F la trace",
@@ -214,7 +201,6 @@
     "altertümlich",
     "alt"
    ],
-   "page": "207-208",
    "definition": "Molto vecchio, di tempi lontani.",
    "example": "Visito un monumento antico.",
    "usage": "pl. antichi/-e"
@@ -225,7 +211,6 @@
    "translations": [
     "das Römische Reich"
    ],
-   "page": "207-208",
    "definition": "Grande stato dell’antica Roma.",
    "example": "L’Impero Romano era molto vasto.",
    "related": "L Imperium Romanum"
@@ -236,7 +221,6 @@
    "translations": [
     "erreichen"
    ],
-   "page": "207-208",
    "definition": "Arrivare in un luogo.",
    "example": "Raggiungo la stazione in dieci minuti.",
    "acceptedAnswers": [
@@ -250,7 +234,6 @@
    "translations": [
     "das Gleis"
    ],
-   "page": "207-208",
    "definition": "Linea di ferro su cui corre il treno; piattaforma alla stazione.",
    "example": "Il treno parte dal binario tre.",
    "usage": "pl. i binari",
@@ -270,7 +253,6 @@
    "translations": [
     "der Rollstuhl"
    ],
-   "page": "207-208",
    "definition": "Sedia con ruote per chi non può camminare.",
    "example": "L’ascensore è per chi usa la sedia a rotelle.",
    "grammar": {
@@ -290,7 +272,6 @@
     "der Fahrstuhl",
     "der Aufzug"
    ],
-   "page": "207-208",
    "definition": "Cabina che porta ai piani di un palazzo.",
    "example": "Prendo l’ascensore al quinto piano.",
    "related": "F l’ascenseur (m.)",
@@ -302,7 +283,6 @@
    "translations": [
     "die Treppe"
    ],
-   "page": "207-208",
    "definition": "Gradini che collegano i piani.",
    "example": "Faccio le scale a piedi.",
    "usage": "pl.",
@@ -322,7 +302,6 @@
    "translations": [
     "die Rolltreppe"
    ],
-   "page": "207-208",
    "definition": "Scala che si muove da sola.",
    "example": "Prendiamo la scala mobile.",
    "grammar": {
@@ -342,7 +321,6 @@
     "die Metro",
     "die U-Bahn"
    ],
-   "page": "207-208",
    "definition": "Treno sotterraneo di una città.",
    "example": "Prendo la metro per andare a scuola.",
    "related": "F le métropolitain",
@@ -365,7 +343,6 @@
    "translations": [
     "die Linie (Bahn)"
    ],
-   "page": "207-208",
    "definition": "Percorso di un mezzo pubblico.",
    "example": "La linea A va in centro.",
    "usage": "pl. le linee",
@@ -385,7 +362,6 @@
    "translations": [
     "die Richtung"
    ],
-   "page": "207-208",
    "definition": "Verso dove si va.",
    "example": "In quale direzione vai?",
    "related": "E direction; F la direction",
@@ -405,7 +381,6 @@
    "translations": [
     "(be)zahlen"
    ],
-   "page": "207-208",
    "definition": "Dare soldi per un acquisto.",
    "example": "Pago il biglietto.",
    "related": "E to pay; F payer"
@@ -417,7 +392,6 @@
     "einfach",
     "Einzel-"
    ],
-   "page": "207-208",
    "definition": "Per una sola persona.",
    "example": "Compro un biglietto singolo.",
    "related": "E single; F singulier"
@@ -429,7 +403,6 @@
     "die Hauptverkehrszeit",
     "der Berufsverkehr"
    ],
-   "page": "207-208",
    "definition": "Momento della giornata con più traffico.",
    "example": "All’ora di punta il bus è pieno."
   },
@@ -439,7 +412,6 @@
    "translations": [
     "Sinn haben"
    ],
-   "page": "207-208",
    "definition": "Essere ragionevole.",
    "example": "La tua idea ha senso.",
    "contrast": "to make sense (engl.) – avere senso (ital.)"
@@ -450,7 +422,6 @@
    "translations": [
     "die Ecke"
    ],
-   "page": "207-208",
    "definition": "Punto dove due strade o due pareti si incontrano.",
    "example": "Ci vediamo all’angolo."
   }
@@ -458,12 +429,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Unità 3",
-   "section": "Approccio",
-   "pages": "207-208"
+   "unit": "3 · Roma ed Europa",
+   "section": "Per cominciare"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -474,7 +443,7 @@
    "Sehenswürdigkeiten"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

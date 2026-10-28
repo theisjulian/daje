@@ -3,27 +3,25 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco1-m1-giro-ditalia",
- "title": "Ecco più 1 · Modulo · Giro d’Italia",
+ "title": "Primo anno · Extra 1 · In giro per l’Italia · Lessico",
  "language": "it",
  "translationLanguage": "de",
  "level": "A1",
- "description": "Wortschatz zu „Giro d’Italia“ aus Ecco più 1 (Modulo, Giro d’Italia).",
+ "description": "Wortschatz Primo anno (1. Lernjahr), Extra 1 · In giro per l’Italia, Lessico.",
  "topics": [
   "Sport",
   "Italien"
  ],
- "collection": "Ecco più 1 (Cornelsen)",
- "section": "Modulo · Giro d’Italia",
+ "collection": "Primo anno",
+ "section": "Extra 1 · In giro per l’Italia · Lessico",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 199 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Primo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -33,7 +31,6 @@
    "translations": [
     "Guten Abend!"
    ],
-   "page": "199",
    "definition": "Saluto della sera.",
    "example": "Buonasera, signora!",
    "antonyms": "buongiorno",
@@ -45,7 +42,6 @@
    "translations": [
     "das Radio"
    ],
-   "page": "199",
    "definition": "Apparecchio che diffonde musica e notizie.",
    "example": "Ascolto la radio in auto.",
    "grammar": {
@@ -64,7 +60,6 @@
    "translations": [
     "die Provinz"
    ],
-   "page": "199",
    "definition": "Territorio più piccolo di una regione.",
    "example": "Rivarolo Canavese è in provincia di Torino.",
    "usage": "Eine italienische Provinz entspricht in etwa einem deutschen Landkreis.",
@@ -84,7 +79,6 @@
    "translations": [
     "live"
    ],
-   "page": "199",
    "tags": [
     "fakultativ"
    ],
@@ -98,7 +92,6 @@
    "translations": [
     "die Ankunft"
    ],
-   "page": "199",
    "tags": [
     "fakultativ"
    ],
@@ -114,7 +107,6 @@
    "translations": [
     "die Etappe"
    ],
-   "page": "199",
    "tags": [
     "fakultativ"
    ],
@@ -136,7 +128,6 @@
    "translations": [
     "die Menschenmenge"
    ],
-   "page": "199",
    "tags": [
     "fakultativ"
    ],
@@ -158,7 +149,6 @@
    "translations": [
     "(er)warten"
    ],
-   "page": "199",
    "tags": [
     "fakultativ"
    ],
@@ -171,7 +161,6 @@
    "translations": [
     "der/die Fahrradfahrer/-in"
    ],
-   "page": "199",
    "tags": [
     "fakultativ"
    ],
@@ -196,7 +185,6 @@
    "translations": [
     "momentan"
    ],
-   "page": "199",
    "tags": [
     "fakultativ"
    ],
@@ -209,7 +197,6 @@
    "translations": [
     "niemand"
    ],
-   "page": "199",
    "tags": [
     "fakultativ"
    ],
@@ -222,7 +209,6 @@
    "translations": [
     "nie(mals)"
    ],
-   "page": "199",
    "tags": [
     "fakultativ"
    ],
@@ -235,7 +221,6 @@
    "translations": [
     "wir hören uns"
    ],
-   "page": "199",
    "tags": [
     "fakultativ"
    ],
@@ -248,7 +233,6 @@
    "translations": [
     "ansonsten"
    ],
-   "page": "199",
    "tags": [
     "fakultativ"
    ],
@@ -262,7 +246,6 @@
     "wegbewegen",
     "hier: Platz machen"
    ],
-   "page": "199",
    "tags": [
     "fakultativ"
    ],
@@ -276,7 +259,6 @@
    "translations": [
     "mehr"
    ],
-   "page": "199",
    "tags": [
     "fakultativ"
    ],
@@ -289,12 +271,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Modulo",
-   "section": "Giro d’Italia",
-   "pages": "199"
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Lessico"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -304,7 +284,7 @@
    "Italien"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco1-u7-7a",
- "title": "Ecco più 1 · Unità 7 · 7A",
+ "title": "Primo anno · 7 · Estate in Italia · Parte A",
  "language": "it",
  "translationLanguage": "de",
  "level": "A1",
- "description": "Wortschatz zu „Fa caldo in città – Che nervi!“ aus Ecco più 1 (Unità 7, 7A).",
+ "description": "Wortschatz Primo anno (1. Lernjahr), 7 · Estate in Italia, Parte A.",
  "topics": [
   "Wetter",
   "Tagesablauf",
   "Ferien"
  ],
- "collection": "Ecco più 1 (Cornelsen)",
- "section": "Unità 7 · 7A",
+ "collection": "Primo anno",
+ "section": "7 · Estate in Italia · Parte A",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 195-197 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Primo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -35,7 +33,6 @@
     "warm",
     "heiß"
    ],
-   "page": "195-197",
    "definition": "Con alta temperatura.",
    "example": "Il tè è caldo.",
    "related": "F chaud; L calidus"
@@ -47,7 +44,6 @@
     "warm sein",
     "heiß sein"
    ],
-   "page": "195-197",
    "definition": "Dire che la temperatura è alta.",
    "example": "In estate fa caldo.",
    "usage": "Abc"
@@ -58,7 +54,6 @@
    "translations": [
     "Wie nervig!"
    ],
-   "page": "195-197",
    "definition": "Esclamazione di irritazione.",
    "example": "Che nervi, ho perso l’autobus!"
   },
@@ -70,7 +65,6 @@
     "jede(r, s)",
     "pl.: alle"
    ],
-   "page": "195-197",
    "definition": "Intero, completo.",
    "example": "Ho mangiato tutta la pizza.",
    "usage": "Beachte die Stellung: tutto + [bestimmter Artikel] + [Substantiv]: tutto l’anno – das ganze Jahr. Unterscheide: Voglio vedere tutta la partita. – Ich will das ganze Spiel sehen. / Voglio vedere tutto. – Ich will alles sehen."
@@ -84,7 +78,6 @@
     "am Morgen",
     "am Vormittag"
    ],
-   "page": "195-197",
    "definition": "Parte del giorno dopo l’alba.",
    "example": "La mattina vado a scuola.",
    "antonyms": "la sera",
@@ -106,7 +99,6 @@
    "translations": [
     "aufwachen"
    ],
-   "page": "195-197",
    "definition": "Smettere di dormire.",
    "example": "Durante le vacanze Filippo si sveglia tardi."
   },
@@ -116,7 +108,6 @@
    "translations": [
     "kühl sein"
    ],
-   "page": "195-197",
    "definition": "Dire che la temperatura è bassa ma piacevole.",
    "example": "La sera fa fresco. Vado dentro.",
    "family": "fresco",
@@ -128,7 +119,6 @@
    "translations": [
     "aufstehen"
    ],
-   "page": "195-197",
    "definition": "Uscire dal letto.",
    "example": "Durante la settimana Anna si alza presto."
   },
@@ -139,7 +129,6 @@
     "mit etw. anfangen",
     "anfangen zu + Inf."
    ],
-   "page": "195-197",
    "definition": "Iniziare a fare qualcosa.",
    "example": "Filippo si mette a studiare.",
    "family": "mettere",
@@ -155,7 +144,6 @@
     "mittags",
     "am Mittag"
    ],
-   "page": "195-197",
    "definition": "Alle dodici del giorno.",
    "example": "A mezzogiorno mangio un panino.",
    "usage": "avv."
@@ -166,7 +154,6 @@
    "translations": [
     "die Pause"
    ],
-   "page": "195-197",
    "definition": "Momento di riposo.",
    "example": "Sono stanca. Adesso faccio una pausa.",
    "grammar": {
@@ -185,7 +172,6 @@
    "translations": [
     "sich ausruhen"
    ],
-   "page": "195-197",
    "definition": "Fermarsi per recuperare le energie.",
    "example": "Dopo il lavoro mi riposo.",
    "related": "F se reposer"
@@ -196,7 +182,6 @@
    "translations": [
     "bis"
    ],
-   "page": "195-197",
    "definition": "Limite di tempo o di luogo.",
    "example": "Filippo studia fino a tardi.",
    "usage": "prep."
@@ -207,7 +192,6 @@
    "translations": [
     "vor etw."
    ],
-   "page": "195-197",
    "definition": "Prima di fare un’azione.",
    "example": "Prima di andare a letto Filippo si fa la doccia."
   },
@@ -217,7 +201,6 @@
    "translations": [
     "(sich) duschen"
    ],
-   "page": "195-197",
    "definition": "Lavarsi sotto l’acqua.",
    "example": "Dopo lo sport mi faccio la doccia.",
    "usage": "Abc"
@@ -228,7 +211,6 @@
    "translations": [
     "sich erfrischen"
    ],
-   "page": "195-197",
    "definition": "Sentirsi meno caldo.",
    "example": "Faccio una doccia per rinfrescarmi.",
    "family": "fresco/-a",
@@ -244,7 +226,6 @@
    "translations": [
     "erhalten"
    ],
-   "page": "195-197",
    "definition": "Ottenere qualcosa che viene mandato.",
    "example": "Anna riceve un messaggio da Leo.",
    "related": "E to receive"
@@ -256,7 +237,6 @@
     "die Postkarte",
     "Ansichtskarte"
    ],
-   "page": "195-197",
    "definition": "Cartoncino illustrato che si spedisce.",
    "example": "Filippo ha ricevuto una cartolina da Anna.",
    "grammar": {
@@ -275,7 +255,6 @@
    "translations": [
     "oder"
    ],
-   "page": "195-197",
    "definition": "Parola che indica alternativa.",
    "example": "Tè o caffè?"
   },
@@ -285,7 +264,6 @@
    "translations": [
     "der Anruf"
    ],
-   "page": "195-197",
    "definition": "Telefonata.",
    "example": "Aspetto una chiamata importante.",
    "family": "chiamare",
@@ -307,7 +285,6 @@
     "teuer",
     "auch: liebe/-r (Brief)"
    ],
-   "page": "195-197",
    "definition": "Persona amata; oggetto che costa molto.",
    "example": "Cara Greta, caro Filippo, …",
    "related": "F cher, chère; L carus"
@@ -318,7 +295,6 @@
    "translations": [
     "regnen"
    ],
-   "page": "195-197",
    "definition": "Cadere della pioggia.",
    "example": "A Monaco piove spesso.",
    "related": "F pleuvoir"
@@ -329,7 +305,6 @@
    "translations": [
     "sich befinden"
    ],
-   "page": "195-197",
    "definition": "Essere in un luogo.",
    "example": "La Mole Antonelliana si trova a Torino."
   },
@@ -339,7 +314,6 @@
    "translations": [
     "sich gut fühlen"
    ],
-   "page": "195-197",
    "definition": "Sentirsi a proprio agio.",
    "example": "Mi trovo bene al mare.",
    "family": "trovare"
@@ -350,7 +324,6 @@
    "translations": [
     "der Ausflug"
    ],
-   "page": "195-197",
    "definition": "Piccolo viaggio di un giorno.",
    "example": "Il fine settimana facciamo una gita.",
    "grammar": {
@@ -369,7 +342,6 @@
    "translations": [
     "schweizerisch"
    ],
-   "page": "195-197",
    "definition": "Che viene da un paese alpino a nord dell’Italia, famoso per il cioccolato.",
    "example": "Il mio amico è svizzero."
   },
@@ -379,7 +351,6 @@
    "translations": [
     "Mit herzlichem Gruß!"
    ],
-   "page": "195-197",
    "definition": "Formula finale di una lettera a una persona cara.",
    "example": "Ti scrivo presto. Con affetto, Anna."
   },
@@ -389,7 +360,6 @@
    "translations": [
     "Alles in Ordnung!/?"
    ],
-   "page": "195-197",
    "definition": "Frase per dire o chiedere che va tutto bene.",
    "example": "Tutto a posto? – Sì, grazie!",
    "synonyms": "va bene"
@@ -400,7 +370,6 @@
    "translations": [
     "das Grad (Temperatur)"
    ],
-   "page": "195-197",
    "definition": "Unità di misura della temperatura.",
    "example": "Che fresco! Sono solo 12 gradi!",
    "grammar": {
@@ -419,7 +388,6 @@
    "translations": [
     "das Meer"
    ],
-   "page": "195-197",
    "definition": "Grande distesa di acqua salata.",
    "example": "Il mare è azzurro.",
    "related": "F la mer; L mare",
@@ -439,7 +407,6 @@
    "translations": [
     "das Kitesurfing"
    ],
-   "page": "195-197",
    "definition": "Sport con una tavola e un grande aquilone.",
    "example": "Faccio kitesurf in vacanza.",
    "acceptedAnswers": [
@@ -461,7 +428,6 @@
    "translations": [
     "der Wind"
    ],
-   "page": "195-197",
    "definition": "Aria che si muove.",
    "example": "Oggi c’è molto vento.",
    "related": "F le vent; L ventus",
@@ -481,7 +447,6 @@
    "translations": [
     "Viel Spaß beim Lernen!"
    ],
-   "page": "195-197",
    "definition": "Augurio a chi deve studiare.",
    "example": "Buono studio, ci vediamo domani!"
   },
@@ -491,7 +456,6 @@
    "translations": [
     "das Tretboot"
    ],
-   "page": "195-197",
    "definition": "Piccola barca a pedali che si noleggia in spiaggia.",
    "example": "In spiaggia abbiamo preso un pedalò.",
    "usage": "pl. i pedalò",
@@ -512,7 +476,6 @@
     "sich vergnügen",
     "Spaß haben"
    ],
-   "page": "195-197",
    "definition": "Passare un tempo piacevole.",
    "example": "Mi diverto con gli amici."
   },
@@ -522,7 +485,6 @@
    "translations": [
     "weh tun"
    ],
-   "page": "195-197",
    "definition": "Provocare dolore.",
    "example": "Sono caduta. Mi fa male il piede.",
    "usage": "Abc"
@@ -533,7 +495,6 @@
    "translations": [
     "der Rücken"
    ],
-   "page": "195-197",
    "definition": "Parte posteriore del corpo.",
    "example": "Mi fa male la schiena.",
    "grammar": {
@@ -553,7 +514,6 @@
     "abscheulich",
     "eklig sein"
    ],
-   "page": "195-197",
    "definition": "Essere disgustoso.",
    "example": "Il caffè non è abbastanza caldo. Così fa schifo!",
    "usage": "Abc"
@@ -565,7 +525,6 @@
     "die Hitze",
     "die Wärme"
    ],
-   "page": "195-197",
    "definition": "Temperatura alta.",
    "example": "Che caldo oggi!",
    "grammar": {
@@ -584,7 +543,6 @@
    "translations": [
     "der Mut"
    ],
-   "page": "195-197",
    "definition": "Capacità di affrontare il pericolo.",
    "example": "Ci vuole coraggio!",
    "related": "E courage; F le courage",
@@ -605,7 +563,6 @@
     "Los!",
     "Vorwärts!"
    ],
-   "page": "195-197",
    "definition": "Esclamazione per invitare qualcuno a entrare o a muoversi.",
    "example": "Avanti, entra pure!"
   },
@@ -615,7 +572,6 @@
    "translations": [
     "zeigen"
    ],
-   "page": "195-197",
    "definition": "Mostrare qualcosa.",
    "example": "Leo, fai vedere la cartolina di Anna!",
    "acceptedAnswers": [
@@ -630,7 +586,6 @@
     "machen",
     "tun"
    ],
-   "page": "195-197",
    "definition": "Costruire, produrre, realizzare.",
    "example": "Faccio una torta.",
    "usage": "Verschiedene Verwendungen: Che cosa facciamo? – Was machen wir? / fare attenzione – aufpassen / fare una figuraccia – sich blamieren / fare un salto da qn – bei jdm vorbeischauen / fare il bagno – baden / fa caldo – es ist heiß / mi fa male la schiena – ich habe Rückenschmerzen / fa schifo – es ist eklig"
@@ -641,7 +596,6 @@
    "translations": [
     "der Sonnenbrand"
    ],
-   "page": "195-197",
    "definition": "Pelle rossa per troppo sole.",
    "example": "Ho preso troppo sole. Adesso ho una scottatura.",
    "grammar": {
@@ -661,7 +615,6 @@
     "jammern",
     "sich beschweren"
    ],
-   "page": "195-197",
    "definition": "Dire che qualcosa non va.",
    "example": "A Leo fa male la schiena. Si lamenta tutto il tempo."
   },
@@ -672,7 +625,6 @@
     "schlimm",
     "schwerwiegend"
    ],
-   "page": "195-197",
    "definition": "Molto serio.",
    "example": "È un problema grave.",
    "related": "F grave; L gravis/-e"
@@ -683,7 +635,6 @@
    "translations": [
     "die Kopfschmerzen"
    ],
-   "page": "195-197",
    "definition": "Dolore alla testa.",
    "example": "Ho studiato troppo: ho mal di testa.",
    "related": "F le mal de tête",
@@ -704,7 +655,6 @@
     "schließen",
     "hier: aufhören"
    ],
-   "page": "195-197",
    "definition": "Contrario di aprire.",
    "example": "Chiudo la finestra.",
    "antonyms": "aprire",
@@ -717,7 +667,6 @@
    "translations": [
     "Wie ist das Wetter?"
    ],
-   "page": "195-197",
    "definition": "Domanda sul meteo.",
    "example": "Che tempo fa oggi? – Fa bel tempo.",
    "usage": "C’è il sole. / Piove. / Nevica. Fa freddo. / Fa caldo. / Fa fresco. / C’è vento."
@@ -726,12 +675,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Unità 7",
-   "section": "7A",
-   "pages": "195-197"
+   "unit": "7 · Estate in Italia",
+   "section": "Parte A"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -742,7 +689,7 @@
    "Ferien"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

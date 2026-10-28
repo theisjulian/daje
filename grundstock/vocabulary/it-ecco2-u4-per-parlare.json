@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-u4-per-parlare",
- "title": "Ecco più 2 · Unità 4 · Per parlare",
+ "title": "Secondo anno · 4 · Lavoro e futuro · Frasi utili",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Jobs und Berufe“ aus Ecco più 2 (Unità 4, Per parlare).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), 4 · Lavoro e futuro, Frasi utili.",
  "topics": [
   "Beruf",
   "Jobs",
   "Ausbildung"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Unità 4 · Per parlare",
+ "collection": "Secondo anno",
+ "section": "4 · Lavoro e futuro · Frasi utili",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 217 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "babysitten"
    ],
-   "page": "217",
    "definition": "Badare ai bambini in assenza dei genitori.",
    "example": "Faccio la baby-sitter il sabato."
   },
@@ -44,7 +41,6 @@
    "translations": [
     "dogsitten"
    ],
-   "page": "217",
    "definition": "Prendersi cura dei cani degli altri.",
    "example": "D’estate faccio il dog-sitter."
   },
@@ -54,7 +50,6 @@
    "translations": [
     "Nachhilfeunterricht geben"
    ],
-   "page": "217",
    "definition": "Dare lezioni private di una materia.",
    "example": "Do ripetizioni di inglese."
   },
@@ -64,7 +59,6 @@
    "translations": [
     "(Klavier-)Unterricht geben"
    ],
-   "page": "217",
    "definition": "Insegnare uno strumento.",
    "example": "Do lezioni di pianoforte.",
    "acceptedAnswers": [
@@ -77,7 +71,6 @@
    "translations": [
     "Zeitungen austragen"
    ],
-   "page": "217",
    "definition": "Portare i giornali alle persone.",
    "example": "Consegno giornali al mattino."
   },
@@ -87,7 +80,6 @@
    "translations": [
     "(Fahrräder) reparieren"
    ],
-   "page": "217",
    "definition": "Aggiustare le biciclette rotte.",
    "example": "Riparo biciclette.",
    "acceptedAnswers": [
@@ -100,7 +92,6 @@
    "translations": [
     "Autos waschen"
    ],
-   "page": "217",
    "definition": "Pulire le automobili.",
    "example": "Lavo le macchine dei vicini."
   },
@@ -110,7 +101,6 @@
    "translations": [
     "sich um ältere Menschen kümmern"
    ],
-   "page": "217",
    "definition": "Assistere persone vecchie.",
    "example": "Mi occupo di mia nonna."
   },
@@ -120,7 +110,6 @@
    "translations": [
     "für jdn einkaufen gehen"
    ],
-   "page": "217",
    "definition": "Comprare cibo per un’altra persona.",
    "example": "Faccio la spesa per la vicina.",
    "acceptedAnswers": [
@@ -133,7 +122,6 @@
    "translations": [
     "Rasen mähen"
    ],
-   "page": "217",
    "definition": "Accorciare il prato.",
    "example": "Taglio l’erba nel giardino."
   },
@@ -143,7 +131,6 @@
    "translations": [
     "kellnern"
    ],
-   "page": "217",
    "definition": "Servire ai tavoli.",
    "example": "Faccio il cameriere d’estate."
   },
@@ -153,7 +140,6 @@
    "translations": [
     "in einem (Supermarkt) arbeiten"
    ],
-   "page": "217",
    "definition": "Avere un impiego in un negozio.",
    "example": "Lavoro al supermercato.",
    "acceptedAnswers": [
@@ -166,7 +152,6 @@
    "translations": [
     "der/die Sekretär/in"
    ],
-   "page": "217",
    "definition": "Persona che organizza il lavoro di un ufficio.",
    "example": "La segretaria risponde al telefono."
   },
@@ -177,7 +162,6 @@
     "der/die Pilot/in",
     "der/die Rennfahrer/in"
    ],
-   "page": "217",
    "definition": "Persona che guida un aereo o un’auto da corsa.",
    "example": "Il pilota vola a Roma."
   },
@@ -187,7 +171,6 @@
    "translations": [
     "der/die Fotograf/in"
    ],
-   "page": "217",
    "definition": "Persona che scatta immagini con la macchina fotografica.",
    "example": "La fotografa lavora per una rivista."
   },
@@ -197,7 +180,6 @@
    "translations": [
     "der/die Polizist/in"
    ],
-   "page": "217",
    "definition": "Persona che garantisce la sicurezza.",
    "example": "Il poliziotto aiuta i turisti."
   },
@@ -207,7 +189,6 @@
    "translations": [
     "der/die Kellner/in"
    ],
-   "page": "217",
    "definition": "Persona che serve in un ristorante.",
    "example": "La cameriera porta il menù."
   },
@@ -217,7 +198,6 @@
    "translations": [
     "der Koch / die Köchin"
    ],
-   "page": "217",
    "definition": "Persona che cucina professionalmente.",
    "example": "Il cuoco prepara la pasta."
   },
@@ -227,7 +207,6 @@
    "translations": [
     "der Arzt / die Ärztin"
    ],
-   "page": "217",
    "definition": "Persona che cura i malati.",
    "example": "Il medico visita il paziente.",
    "grammar": {
@@ -246,7 +225,6 @@
    "translations": [
     "der/die Künstler/in"
    ],
-   "page": "217",
    "definition": "Persona che crea opere d’arte.",
    "example": "L’artista dipinge un quadro.",
    "usage": "m./f."
@@ -257,7 +235,6 @@
    "translations": [
     "der/die Designer/in"
    ],
-   "page": "217",
    "definition": "Persona che disegna vestiti.",
    "example": "La stilista presenta la collezione."
   },
@@ -267,7 +244,6 @@
    "translations": [
     "der/die Lehrer/in"
    ],
-   "page": "217",
    "definition": "Persona che insegna.",
    "example": "L’insegnante spiega la lezione.",
    "related": "F enseignant",
@@ -279,7 +255,6 @@
    "translations": [
     "der Anwalt / die Anwältin"
    ],
-   "page": "217",
    "definition": "Persona che difende qualcuno in tribunale.",
    "example": "L’avvocato difende il cliente."
   },
@@ -289,7 +264,6 @@
    "translations": [
     "der/die Architekt/in"
    ],
-   "page": "217",
    "definition": "Persona che progetta case e edifici.",
    "example": "L’architetto progetta una casa."
   },
@@ -299,7 +273,6 @@
    "translations": [
     "der Ingenieur"
    ],
-   "page": "217",
    "definition": "Persona che progetta macchine e costruzioni.",
    "example": "L’ingegnere costruisce un ponte."
   },
@@ -309,7 +282,6 @@
    "translations": [
     "einen Hochschulabschluss erwerben in …"
    ],
-   "page": "217",
    "definition": "Finire gli studi universitari in una materia.",
    "example": "Mi laureo in biologia."
   },
@@ -319,7 +291,6 @@
    "translations": [
     "einen Lehrgang machen in …"
    ],
-   "page": "217",
    "definition": "Seguire lezioni su un tema.",
    "example": "Faccio un corso di cucina."
   },
@@ -329,7 +300,6 @@
    "translations": [
     "eine Prüfung ablegen"
    ],
-   "page": "217",
    "definition": "Sostenere una prova.",
    "example": "Domani faccio un esame."
   },
@@ -339,7 +309,6 @@
    "translations": [
     "sich für einen Studiengang in … einschreiben"
    ],
-   "page": "217",
    "definition": "Registrarsi a un corso universitario.",
    "example": "Mi iscrivo alla facoltà di lettere."
   },
@@ -349,7 +318,6 @@
    "translations": [
     "(ein Jahr) in … verbringen"
    ],
-   "page": "217",
    "definition": "Trascorrere un periodo in un luogo.",
    "example": "Passo un anno in Italia.",
    "acceptedAnswers": [
@@ -362,7 +330,6 @@
    "translations": [
     "teilnehmen an"
    ],
-   "page": "217",
    "definition": "Prendere parte a un evento.",
    "example": "Partecipo a una gara."
   },
@@ -372,7 +339,6 @@
    "translations": [
     "studieren"
    ],
-   "page": "217",
    "definition": "Dedicarsi a una disciplina.",
    "example": "Studio lingue."
   },
@@ -382,7 +348,6 @@
    "translations": [
     "einen Kurs in … besuchen"
    ],
-   "page": "217",
    "definition": "Andare regolarmente a lezione.",
    "example": "Frequento un corso di francese."
   }
@@ -390,12 +355,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Unità 4",
-   "section": "Per parlare",
-   "pages": "217"
+   "unit": "4 · Lavoro e futuro",
+   "section": "Frasi utili"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -406,7 +369,7 @@
    "Ausbildung"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

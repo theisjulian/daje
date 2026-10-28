@@ -3,27 +3,25 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-aa-numeri-grandi",
- "title": "Ecco più 2 · I numeri grandi",
+ "title": "Secondo anno · Extra · Numeri e calendario · I numeri grandi",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Hunderter, Tausender, Millionen“ aus Ecco più 2 (Anhang A, I numeri grandi).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), Extra · Numeri e calendario, I numeri grandi.",
  "topics": [
   "Zahlen",
   "Grundzahlen"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Anhang A · I numeri grandi",
+ "collection": "Secondo anno",
+ "section": "Extra · Numeri e calendario · I numeri grandi",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 183 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -33,7 +31,6 @@
    "translations": [
     "zweihundert"
    ],
-   "page": "183",
    "usage": "200"
   },
   {
@@ -42,7 +39,6 @@
    "translations": [
     "zweihundertfünfzig"
    ],
-   "page": "183",
    "usage": "250"
   },
   {
@@ -51,7 +47,6 @@
    "translations": [
     "dreihundert"
    ],
-   "page": "183",
    "usage": "300"
   },
   {
@@ -60,7 +55,6 @@
    "translations": [
     "vierhundert"
    ],
-   "page": "183",
    "usage": "400"
   },
   {
@@ -69,7 +63,6 @@
    "translations": [
     "fünfhundert"
    ],
-   "page": "183",
    "usage": "500"
   },
   {
@@ -78,7 +71,6 @@
    "translations": [
     "sechshundert"
    ],
-   "page": "183",
    "usage": "600"
   },
   {
@@ -87,7 +79,6 @@
    "translations": [
     "siebenhundert"
    ],
-   "page": "183",
    "usage": "700"
   },
   {
@@ -96,7 +87,6 @@
    "translations": [
     "achthundert"
    ],
-   "page": "183",
    "usage": "800"
   },
   {
@@ -105,7 +95,6 @@
    "translations": [
     "neunhundert"
    ],
-   "page": "183",
    "usage": "900"
   },
   {
@@ -114,7 +103,6 @@
    "translations": [
     "tausend"
    ],
-   "page": "183",
    "example": "pl.: mila",
    "usage": "1.000"
   },
@@ -124,7 +112,6 @@
    "translations": [
     "eintausendeins"
    ],
-   "page": "183",
    "usage": "1.001"
   },
   {
@@ -133,7 +120,6 @@
    "translations": [
     "eintausendeinhundert"
    ],
-   "page": "183",
    "usage": "1.100"
   },
   {
@@ -142,7 +128,6 @@
    "translations": [
     "zweitausend"
    ],
-   "page": "183",
    "usage": "2.000"
   },
   {
@@ -151,7 +136,6 @@
    "translations": [
     "dreitausend"
    ],
-   "page": "183",
    "usage": "3.000"
   },
   {
@@ -160,7 +144,6 @@
    "translations": [
     "zehntausend"
    ],
-   "page": "183",
    "usage": "10.000"
   },
   {
@@ -169,7 +152,6 @@
    "translations": [
     "eine Million"
    ],
-   "page": "183",
    "usage": "1.000.000"
   },
   {
@@ -178,7 +160,6 @@
    "translations": [
     "zwei Millionen"
    ],
-   "page": "183",
    "usage": "2.000.000"
   },
   {
@@ -187,7 +168,6 @@
    "translations": [
     "eine Milliarde"
    ],
-   "page": "183",
    "usage": "1.000.000.000"
   },
   {
@@ -196,19 +176,16 @@
    "translations": [
     "zwei Milliarden"
    ],
-   "page": "183",
    "usage": "2.000.000.000"
   }
  ],
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Anhang A",
-   "section": "I numeri grandi",
-   "pages": "183"
+   "unit": "Extra · Numeri e calendario",
+   "section": "I numeri grandi"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -218,7 +195,7 @@
    "Grundzahlen"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

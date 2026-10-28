@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco2-u4-4a",
- "title": "Ecco più 2 · Unità 4 · 4A Ragazzi, mi serve un consiglio",
+ "title": "Secondo anno · 4 · Lavoro e futuro · Parte A",
  "language": "it",
  "translationLanguage": "de",
  "level": "A2",
- "description": "Wortschatz zu „Hilfe und Ratschläge“ aus Ecco più 2 (Unità 4, 4A Ragazzi, mi serve un consiglio).",
+ "description": "Wortschatz Secondo anno (2. Lernjahr), 4 · Lavoro e futuro, Parte A.",
  "topics": [
   "Hilfe",
   "Jobs",
   "Technik"
  ],
- "collection": "Ecco più 2 (Cornelsen)",
- "section": "Unità 4 · 4A Ragazzi, mi serve un consiglio",
+ "collection": "Secondo anno",
+ "section": "4 · Lavoro e futuro · Parte A",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 2, Cornelsen, Lista cronologica / Anhang, S. 214 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Secondo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "das Display"
    ],
-   "page": "214",
    "definition": "Schermo di un apparecchio.",
    "example": "Il display è rotto.",
    "grammar": {
@@ -53,7 +50,6 @@
    "translations": [
     "reparieren"
    ],
-   "page": "214",
    "definition": "Aggiustare qualcosa di rotto.",
    "example": "Ripariamo la bicicletta.",
    "related": "E to repair"
@@ -65,7 +61,6 @@
     "der Experte",
     "die Expertin"
    ],
-   "page": "214",
    "definition": "Persona che conosce molto bene qualcosa.",
    "example": "È un esperto di computer."
   },
@@ -75,7 +70,6 @@
    "translations": [
     "sicher sein"
    ],
-   "page": "214",
    "definition": "Non avere dubbi.",
    "example": "Sono sicuro di venire.",
    "acceptedAnswers": [
@@ -89,7 +83,6 @@
    "translations": [
     "jdm helfen"
    ],
-   "page": "214",
    "definition": "Aiutare qualcuno.",
    "example": "Mi dai una mano con i compiti?",
    "acceptedAnswers": [
@@ -103,7 +96,6 @@
    "translations": [
     "kaputtgehen"
    ],
-   "page": "214",
    "definition": "Diventare inutilizzabile per una rottura.",
    "example": "Il telefono si è rotto.",
    "usage": "p.p. rotto"
@@ -114,7 +106,6 @@
    "translations": [
     "das Eisen"
    ],
-   "page": "214",
    "definition": "Metallo duro e grigio.",
    "example": "Il cancello è di ferro.",
    "related": "F le fer; L ferrum",
@@ -135,7 +126,6 @@
     "das Angebot",
     "die Spende"
    ],
-   "page": "214",
    "definition": "Proposta di vendita; qualcosa che si dà.",
    "example": "C’è un’offerta speciale.",
    "related": "E offer"
@@ -146,7 +136,6 @@
    "translations": [
     "der/die Ladenbesitzer/in"
    ],
-   "page": "214",
    "definition": "Proprietario di un negozio.",
    "example": "La titolare del negozio è gentile."
   },
@@ -156,7 +145,6 @@
    "translations": [
     "das Modell"
    ],
-   "page": "214",
    "definition": "Tipo particolare di un prodotto.",
    "example": "Questo modello è nuovo.",
    "grammar": {
@@ -175,7 +163,6 @@
    "translations": [
     "gebraucht"
    ],
-   "page": "214",
    "definition": "Già utilizzato da altri.",
    "example": "Compro un libro usato.",
    "antonyms": "nuovo",
@@ -188,7 +175,6 @@
    "translations": [
     "der Job"
    ],
-   "page": "214",
    "definition": "Piccolo lavoro occasionale.",
    "example": "Faccio un lavoretto d’estate.",
    "family": "il lavoro",
@@ -208,7 +194,6 @@
    "translations": [
     "babysitten"
    ],
-   "page": "214",
    "definition": "Badare ai bambini in assenza dei genitori.",
    "example": "Faccio la baby-sitter il sabato.",
    "usage": "Abc"
@@ -219,7 +204,6 @@
    "translations": [
     "der/die Hundesitter/in"
    ],
-   "page": "214",
    "definition": "Persona che si occupa dei cani degli altri.",
    "example": "Faccio il dog-sitter in vacanza."
   },
@@ -229,7 +213,6 @@
    "translations": [
     "das Tablet"
    ],
-   "page": "214",
    "definition": "Computer portatile con schermo tattile.",
    "example": "Leggo sul tablet.",
    "grammar": {
@@ -248,7 +231,6 @@
    "translations": [
     "jemand"
    ],
-   "page": "214",
    "definition": "Una persona non precisata.",
    "example": "Qualcuno bussa alla porta."
   },
@@ -259,7 +241,6 @@
     "Wieso?",
     "Wie kommt es?"
    ],
-   "page": "214",
    "definition": "Domanda per sapere il motivo.",
    "example": "Come mai sei in ritardo?"
   },
@@ -270,7 +251,6 @@
     "kaputt",
     "gebrochen"
    ],
-   "page": "214",
    "definition": "Danneggiato, non funziona.",
    "example": "Il vaso è rotto."
   },
@@ -280,7 +260,6 @@
    "translations": [
     "vorgestern"
    ],
-   "page": "214",
    "definition": "Due giorni fa.",
    "example": "L’altro ieri ho giocato a calcio.",
    "usage": "avv."
@@ -291,7 +270,6 @@
    "translations": [
     "von Angesicht zu Angesicht"
    ],
-   "page": "214",
    "definition": "Direttamente, di persona.",
    "example": "Parliamo faccia a faccia.",
    "related": "E face to face"
@@ -303,7 +281,6 @@
     "im Ernst",
     "ernsthaft"
    ],
-   "page": "214",
    "definition": "Senza scherzare.",
    "example": "Dici sul serio?"
   },
@@ -313,7 +290,6 @@
    "translations": [
     "aufpassen auf jdn/etw."
    ],
-   "page": "214",
    "definition": "Fare attenzione a qualcuno o qualcosa.",
    "example": "Sta’ attento alla strada!",
    "acceptedAnswers": [
@@ -327,7 +303,6 @@
    "translations": [
     "teuer"
    ],
-   "page": "214",
    "definition": "Che costa molto.",
    "example": "È un orologio molto costoso."
   },
@@ -337,7 +312,6 @@
    "translations": [
     "das Geschenk"
    ],
-   "page": "214",
    "definition": "Oggetto che si dà a qualcuno per fargli piacere.",
    "example": "Compro un regalo per mia madre.",
    "grammar": {
@@ -356,7 +330,6 @@
    "translations": [
     "leidtun"
    ],
-   "page": "214",
    "definition": "Provare tristezza per qualcosa.",
    "example": "Mi dispiace molto.",
    "antonyms": "piacere",
@@ -368,7 +341,6 @@
    "translations": [
     "der Unfall"
    ],
-   "page": "214",
    "definition": "Evento improvviso e spiacevole.",
    "example": "C’è stato un incidente sulla strada.",
    "usage": "m."
@@ -379,7 +351,6 @@
    "translations": [
     "verbunden"
    ],
-   "page": "214",
    "definition": "Collegato, in rete.",
    "example": "Sono connesso a internet.",
    "related": "E connected"
@@ -390,7 +361,6 @@
    "translations": [
     "krank"
    ],
-   "page": "214",
    "definition": "Che non sta bene.",
    "example": "Oggi sono malato e resto a letto.",
    "related": "F malade"
@@ -399,12 +369,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "2",
-   "unit": "Unità 4",
-   "section": "4A Ragazzi, mi serve un consiglio",
-   "pages": "214"
+   "unit": "4 · Lavoro e futuro",
+   "section": "Parte A"
   },
   "grade": 9,
   "foreignLanguageNo": 3,
@@ -415,7 +383,7 @@
    "Technik"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

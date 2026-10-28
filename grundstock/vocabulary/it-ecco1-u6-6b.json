@@ -3,28 +3,26 @@
  "schemaVersion": "1.2",
  "kind": "vocabulary",
  "id": "it-ecco1-u6-6b",
- "title": "Ecco più 1 · Unità 6 · 6B",
+ "title": "Primo anno · 6 · Vestiti e cibo · Parte B",
  "language": "it",
  "translationLanguage": "de",
  "level": "A1",
- "description": "Wortschatz zu „Preparare la cena“ aus Ecco più 1 (Unità 6, 6B).",
+ "description": "Wortschatz Primo anno (1. Lernjahr), 6 · Vestiti e cibo, Parte B.",
  "topics": [
   "Essen",
   "Einkaufen",
   "Lebensmittel"
  ],
- "collection": "Ecco più 1 (Cornelsen)",
- "section": "Unità 6 · 6B",
+ "collection": "Primo anno",
+ "section": "6 · Vestiti e cibo · Parte B",
  "sources": [
   {
-   "kind": "provided",
-   "citation": "Ecco più 1, Cornelsen, Lista cronologica / Anhang, S. 192-194 (vom Nutzer bereitgestellte Seiten)",
+   "kind": "own",
+   "citation": "Wortschatz Primo anno · daje",
    "rights": "needs_review"
   }
  ],
  "reviewNotes": [
-  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
-  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
  ],
  "entries": [
@@ -34,7 +32,6 @@
    "translations": [
     "das Brot"
    ],
-   "page": "192-194",
    "definition": "Alimento fatto con la farina.",
    "example": "Compro il pane dal panettiere.",
    "related": "F le pain; L panis",
@@ -55,7 +52,6 @@
     "das Brötchen",
     "die Semmel"
    ],
-   "page": "192-194",
    "definition": "Piccolo pane con dentro prosciutto o formaggio.",
    "example": "A scuola mangio un panino.",
    "grammar": {
@@ -74,7 +70,6 @@
    "translations": [
     "100 Gramm"
    ],
-   "page": "192-194",
    "definition": "Cento grammi.",
    "example": "Vorrei un etto di prosciutto.",
    "usage": "un etto – 100 Gramm; due etti – 200 Gramm; tre etti – 300 Gramm etc."
@@ -85,7 +80,6 @@
    "translations": [
     "der Schinken"
    ],
-   "page": "192-194",
    "definition": "Carne di maiale che si mangia a fette.",
    "example": "Prendo un etto di prosciutto.",
    "grammar": {
@@ -104,7 +98,6 @@
    "translations": [
     "roh"
    ],
-   "page": "192-194",
    "definition": "Non cotto.",
    "example": "Mangio la verdura cruda.",
    "related": "F cru(e)"
@@ -115,7 +108,6 @@
    "translations": [
     "die Orangenlimonade"
    ],
-   "page": "192-194",
    "definition": "Bevanda gassata dolce, di colore arancio.",
    "example": "Da bere ho portato una bottiglia di aranciata."
   },
@@ -125,7 +117,6 @@
    "translations": [
     "die Tüte"
    ],
-   "page": "192-194",
    "definition": "Sacchetto di carta o di plastica.",
    "example": "Per la spesa prendo una busta.",
    "grammar": {
@@ -144,7 +135,6 @@
    "translations": [
     "die Chips"
    ],
-   "page": "192-194",
    "definition": "Fettine di patata fritta da mangiare con le dita.",
    "example": "Amo mangiare le patatine davanti alla tv.",
    "usage": "pl.",
@@ -164,7 +154,6 @@
    "translations": [
     "die Person"
    ],
-   "page": "192-194",
    "definition": "Essere umano.",
    "example": "Prepariamo una cena per sei persone.",
    "grammar": {
@@ -183,7 +172,6 @@
    "translations": [
     "das Ei"
    ],
-   "page": "192-194",
    "definition": "Cibo che fa la gallina.",
    "example": "A Pasqua mangio le uova.",
    "related": "F l’œuf",
@@ -195,7 +183,6 @@
    "translations": [
     "die Tomate"
    ],
-   "page": "192-194",
    "definition": "Ortaggio rosso per la salsa.",
    "example": "Il pomodoro è rosso.",
    "grammar": {
@@ -214,7 +201,6 @@
    "translations": [
     "die Butter"
    ],
-   "page": "192-194",
    "definition": "Grasso del latte che si spalma sul pane.",
    "example": "Mi piace il pane con burro.",
    "grammar": {
@@ -233,7 +219,6 @@
    "translations": [
     "der Saft"
    ],
-   "page": "192-194",
    "definition": "Liquido che si ottiene dalla frutta.",
    "example": "Bevo un succo.",
    "usage": "pl. i succhi",
@@ -253,7 +238,6 @@
    "translations": [
     "das Obst"
    ],
-   "page": "192-194",
    "definition": "Mele, pere, arance...",
    "example": "La frutta è sana.",
    "related": "E fruit; F le fruit",
@@ -274,7 +258,6 @@
     "ein paar (von)",
     "einige"
    ],
-   "page": "192-194",
    "definition": "Parole che indicano una quantità non precisata.",
    "example": "Ho portato delle mele."
   },
@@ -284,7 +267,6 @@
    "translations": [
     "der Salat"
    ],
-   "page": "192-194",
    "definition": "Piatto di verdure crude.",
    "example": "Anna prepara un’insalata di pomodori."
   },
@@ -294,7 +276,6 @@
    "translations": [
     "das Fleisch"
    ],
-   "page": "192-194",
    "definition": "Alimento che si ricava dagli animali.",
    "example": "La carne si cuoce in padella.",
    "grammar": {
@@ -313,7 +294,6 @@
    "translations": [
     "das Schwein"
    ],
-   "page": "192-194",
    "definition": "Animale da cui si ricava il prosciutto.",
    "example": "Khalid non mangia la carne di maiale.",
    "grammar": {
@@ -333,7 +313,6 @@
     "der Käse",
     "die Käsesorten"
    ],
-   "page": "192-194",
    "definition": "Cibo fatto con il latte.",
    "example": "Il formaggio è buono con il pane.",
    "related": "F le fromage",
@@ -355,7 +334,6 @@
     "davon",
     "dazu"
    ],
-   "page": "192-194",
    "definition": "Piccola parola che sostituisce una quantità.",
    "example": "Mi mancano delle mele. Ne prendo cinque.",
    "usage": "avv. Beachte die Satzstellung: Mi piace questo formaggio. Ne prendo due etti. Ne steht unmittelbar vor dem konjugierten Verb."
@@ -367,7 +345,6 @@
     "apropos",
     "übrigens"
    ],
-   "page": "192-194",
    "definition": "Espressione per introdurre un nuovo argomento.",
    "example": "A proposito di musica: ti piace il rock?"
   },
@@ -377,7 +354,6 @@
    "translations": [
     "fehlen"
    ],
-   "page": "192-194",
    "definition": "Non esserci.",
    "example": "Per l’insalata mancano i pomodori.",
    "related": "F manquer",
@@ -392,7 +368,6 @@
    "translations": [
     "besser"
    ],
-   "page": "192-194",
    "definition": "Più bene.",
    "example": "Questa pizza è meglio.",
    "related": "F meilleur(e); L melior",
@@ -405,7 +380,6 @@
     "schicken",
     "senden"
    ],
-   "page": "192-194",
    "definition": "Far arrivare qualcosa a una persona.",
    "example": "Anna manda un messaggio a Leo.",
    "related": "L mandare"
@@ -417,7 +391,6 @@
     "jdn etw. fragen",
     "bitten"
    ],
-   "page": "192-194",
    "definition": "Domandare qualcosa a una persona.",
    "example": "Giorgia chiama Leo e gli chiede di venire.",
    "acceptedAnswers": [
@@ -432,7 +405,6 @@
     "jdn/etw. brauchen",
     "benötigen"
    ],
-   "page": "192-194",
    "definition": "Aver necessità di qualcosa.",
    "example": "Ho bisogno di pane per la cena.",
    "related": "F avoir besoin",
@@ -447,7 +419,6 @@
    "translations": [
     "der Knoblauch"
    ],
-   "page": "192-194",
    "definition": "Piccola pianta con spicchi dal sapore forte.",
    "example": "Metto l’aglio nel sugo.",
    "related": "F l’ail"
@@ -458,7 +429,6 @@
    "translations": [
     "die Zwiebel"
    ],
-   "page": "192-194",
    "definition": "Ortaggio tondo che fa piangere.",
    "example": "La cipolla è nell’insalata.",
    "grammar": {
@@ -477,7 +447,6 @@
    "translations": [
     "der Liter"
    ],
-   "page": "192-194",
    "definition": "Unità di misura dei liquidi.",
    "example": "Compro un litro di latte.",
    "grammar": {
@@ -496,7 +465,6 @@
    "translations": [
     "das (Mineral-)Wasser"
    ],
-   "page": "192-194",
    "definition": "Acqua da bere che viene da una fonte.",
    "example": "D’estate bevo due litri di acqua.",
    "related": "L aqua",
@@ -510,7 +478,6 @@
    "translations": [
     "das Bund Basilikum"
    ],
-   "page": "192-194",
    "definition": "Piccolo mazzetto di una pianta aromatica verde.",
    "example": "Aggiungo un ciuffo di basilico.",
    "grammar": {
@@ -529,7 +496,6 @@
    "translations": [
     "Käseorte"
    ],
-   "page": "192-194",
    "tags": [
     "fakultativ"
    ],
@@ -551,7 +517,6 @@
    "translations": [
     "bei jdm vorbeischauen"
    ],
-   "page": "192-194",
    "definition": "Visitare una persona brevemente.",
    "example": "Khalid fa un salto da suo padre.",
    "acceptedAnswers": [
@@ -565,7 +530,6 @@
    "translations": [
     "perfekt"
    ],
-   "page": "192-194",
    "definition": "Senza difetti.",
    "example": "La pizza è perfetta!"
   },
@@ -575,7 +539,6 @@
    "translations": [
     "Tausend Dank!"
    ],
-   "page": "192-194",
    "definition": "Per ringraziare moltissimo.",
    "example": "Grazie mille per il regalo!"
   },
@@ -585,7 +548,6 @@
    "translations": [
     "bitte"
    ],
-   "page": "192-194",
    "definition": "Risposta a “grazie”.",
    "example": "Grazie! – Prego!",
    "antonyms": "grazie",
@@ -598,7 +560,6 @@
     "ich möchte",
     "ich hätte gerne"
    ],
-   "page": "192-194",
    "definition": "Forma gentile per chiedere qualcosa.",
    "example": "Vorrei un etto di prosciutto."
   },
@@ -608,7 +569,6 @@
    "translations": [
     "halb"
    ],
-   "page": "192-194",
    "definition": "Metà di qualcosa.",
    "example": "Vorrei mezzo chilo di funghi."
   },
@@ -618,7 +578,6 @@
    "translations": [
     "das Kilo(-gramm)"
    ],
-   "page": "192-194",
    "definition": "Mille grammi.",
    "example": "Prendo un chilo di pomodori.",
    "grammar": {
@@ -637,7 +596,6 @@
    "translations": [
     "der Pilz"
    ],
-   "page": "192-194",
    "definition": "Organismo che cresce nel bosco, spesso commestibile.",
    "example": "Raccolgo i funghi nel bosco.",
    "usage": "pl. i funghi",
@@ -657,7 +615,6 @@
    "translations": [
     "Es reicht!"
    ],
-   "page": "192-194",
    "definition": "Esclamazione per dire che non vuoi più.",
    "example": "Basta, non voglio più giocare!"
   },
@@ -667,7 +624,6 @@
    "translations": [
     "der Apfel"
    ],
-   "page": "192-194",
    "definition": "Frutto rosso o verde.",
    "example": "Mangio una mela.",
    "grammar": {
@@ -686,7 +642,6 @@
    "translations": [
     "Hier bin ich!"
    ],
-   "page": "192-194",
    "definition": "Per dire che sei arrivato.",
    "example": "Eccomi qua, sono arrivato!"
   },
@@ -697,7 +652,6 @@
     "die Torte",
     "der Kuchen"
    ],
-   "page": "192-194",
    "definition": "Dolce grande, per le feste.",
    "example": "Per il compleanno mangiamo la torta.",
    "grammar": {
@@ -716,7 +670,6 @@
    "translations": [
     "die Mandel"
    ],
-   "page": "192-194",
    "definition": "Frutto secco con il guscio duro.",
    "example": "Mangio una mandorla.",
    "grammar": {
@@ -735,7 +688,6 @@
    "translations": [
     "kochen"
    ],
-   "page": "192-194",
    "definition": "Preparare il cibo con il fuoco.",
    "example": "La madre sa cucinare bene.",
    "family": "la cucina",
@@ -748,7 +700,6 @@
     "die Süßspeise",
     "der Nachtisch"
    ],
-   "page": "192-194",
    "definition": "Cibo con molto zucchero.",
    "example": "La torta è un dolce.",
    "related": "L dulcis/-e",
@@ -769,7 +720,6 @@
     "Meine Güte!",
     "Mannomann!"
    ],
-   "page": "192-194",
    "definition": "Esclamazione di sorpresa.",
    "example": "Mamma mia, che bello!"
   },
@@ -779,7 +729,6 @@
    "translations": [
     "der (Bären-)Hunger"
    ],
-   "page": "192-194",
    "definition": "Grande desiderio di mangiare.",
    "example": "È pronta la cena? Ho una fame da lupi!",
    "related": "F la faim",
@@ -803,7 +752,6 @@
     "der Duft",
     "das Parfüm"
    ],
-   "page": "192-194",
    "definition": "Odore piacevole.",
    "example": "Che buon profumo!",
    "related": "F le parfum",
@@ -823,7 +771,6 @@
    "translations": [
     "Guten Appetit!"
    ],
-   "page": "192-194",
    "definition": "Augurio prima di mangiare.",
    "example": "Buon appetito, ragazzi!",
    "related": "F Bon appétit!"
@@ -834,7 +781,6 @@
    "translations": [
     "das Gemüse"
    ],
-   "page": "192-194",
    "definition": "Cibo vegetale: carote, spinaci, zucchine...",
    "example": "Mangio tanta frutta e verdura.",
    "grammar": {
@@ -853,7 +799,6 @@
    "translations": [
     "du könntest"
    ],
-   "page": "192-194",
    "definition": "Forma gentile di “puoi”.",
    "example": "Khalid, potresti portare i pomodori?"
   }
@@ -861,12 +806,10 @@
  "catalog": {
   "origin": "textbook",
   "textbook": {
-   "publisher": "Cornelsen",
-   "series": "Ecco più",
+   "series": "Corso daje",
    "volume": "1",
-   "unit": "Unità 6",
-   "section": "6B",
-   "pages": "192-194"
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
   },
   "grade": 8,
   "foreignLanguageNo": 3,
@@ -877,7 +820,7 @@
    "Lebensmittel"
   ],
   "tags": [
-   "lehrwerk",
+   "lernjahr",
    "vokabeln"
   ]
  }

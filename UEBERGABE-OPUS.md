@@ -6,7 +6,7 @@ Dieses Dokument ersetzt für den Einstieg `START-HIER.md` und die älteren Datei
 
 Buildlose Browser-Anwendung für Lehrkräfte und Lernende (viel iPad/iPhone) von Julian Theis (Marke „theis“, Lehrer für Englisch/Italienisch, OVMG München):
 - **Hörverstehen**: Katalog von Hörübungen (Audio, YouTube-Einbettung, Film-Karte, Weblink-Karte, Browser-Sprachausgabe) mit Aufgaben (7 Typen), Korrektur mit Erklärungen, Transkript-Hilfe, Lehrkräfteansicht (Aufgabenblatt/Lösungsschlüssel als A4/PDF/Word, QR-Code, Einbett-Link).
-- **Wortschatz**: Lehrbuch-Listen (Ecco più 1 und 2, Cornelsen; Ecco 3 folgt) nach Buch → Unità/Lezione/Seiten wählbar; Üben (Karten, Schreiben, Zuordnen, Definitionen, Bildimpulse), Spaced Repetition, Druck/Word-Dokumente, Verbentrainer (5 Zeiten, regelmäßig + unregelmäßig).
+- **Wortschatz**: Lehrbuch-Listen (Primo anno und 2,; Lernjahr folgt) nach Buch → Unità/Lezione/Seiten wählbar; Üben (Karten, Schreiben, Zuordnen, Definitionen, Bildimpulse), Spaced Repetition, Druck/Word-Dokumente, Verbentrainer (5 Zeiten, regelmäßig + unregelmäßig).
 - Lernprofile lokal im Browser (Export/Import), 12 Farbwelten, wählbare Schriften, UI-Sprachen DE/IT/EN/FR + einfache Formen (IT/EN/FR).
 - Repo: `https://github.com/theisjulian/daje` (nur dorthin pushen). Veröffentlichung: GitHub Pages über `.github/workflows/veroeffentlichen.yml` (bündelt den Grundstock, lädt `portal/dist` hoch). Geplante Adresse `daje.theisapps.de`; aktuell `theisjulian.github.io/daje/`.
 
@@ -19,7 +19,7 @@ Buildlose Browser-Anwendung für Lehrkräfte und Lernende (viel iPad/iPhone) von
 - Updates dürfen nie Nutzerdaten verlieren (localStorage-Schlüssel behalten ihre alten Namen `ripassa-*` **absichtlich**).
 - Erfundene Namen nur in Demos. DE→IT-Übersetzungstests unerwünscht. Nicht mit Funktionen überladen – bei Überladung „Stopp“ sagen.
 - Inhalte: nichts erfinden; Quellen nennen; Herkunft/Prüfhinweise nie in den sichtbaren Transkripttext.
-- Ecco-Importe: jedes Wort muss dem richtigen Kapitel/der richtigen Seite zugeordnet sein; bei Zweifel Scan erneut lesen.
+- Lehrwerk-Importe: jedes Wort muss dem richtigen Kapitel/der richtigen Seite zugeordnet sein; bei Zweifel Scan erneut lesen.
 - Commits enden mit `Co-Authored-By: Claude … <noreply@anthropic.com>` und `Claude-Session: …`.
 
 ## 3. Aufbau des Quellcodes
@@ -72,7 +72,7 @@ Reihenfolge nach Inhaltsänderung: Generator → `bundle_stock.cjs` → Tests �
 1. Generierte `stock-data.js` (43.000 Zeilen) liegt im Git; Doppelpflege Generator/Ausgabe. Idee: nur Quellen committen, CI generiert, oder Pakete als JSON nachladen (Ladezeit, Offline!).
 2. ~~CI führt keine Tests~~ **erledigt (26.10.2026):** Job `pruefen` läuft bei jedem Push/PR: Generatoren neu ausführen → `bundle_stock.cjs` (bricht bei ungültigem Paket ab) → Abgleich, ob generierte Dateien committet sind → `qualitaet.py` → `npm test` → e2e. Veröffentlicht wird nur von `main` und nur, wenn alles grün ist.
 3. Hörpakete entstehen aus Python-Quelltext (`Q`-Helfer). Es gibt kein Format „Aufgabe schreiben, ohne Python zu können“. Überlegen: YAML/Markdown-Quelle + Prüfer.
-4. Ecco-Import ist manuelle Abschrift aus Scans. OCR + Gegenprüfung (Seitenzuordnung!) automatisieren; Ecco 3 più folgt, Kapitelzuordnung muss exakt sein.
+4. Lehrwerk-Import ist manuelle Abschrift aus Scans. OCR + Gegenprüfung (Seitenzuordnung!) automatisieren; Kapitelzuordnung muss exakt sein.
 5. KI-Pipeline (Gemini) ist gebaut, aber nie gelaufen; Schlüssel liegt bei Julian. Ablauf, Prompt-Qualität (10–20 Aufgaben in Blöcken, Typenmix, Transkript-Treue) und Validierung gegen `qualitaet.py` testen.
 6. Aufgabenqualität: Die 25 Lied-/Film-Pakete wurden **ohne Zugriff auf Audio/Video** geschrieben (nur Fakten/Allgemeinwissen). Echte Hör-Aufgaben brauchen Transkript (privater Import) → Pipeline „Transkript → Aufgaben → Prüfung“ bauen.
 7. `qualitaet.py` findet: bei 74 Einzelauswahl-Aufgaben ist die richtige Option die längste (Test-Trick), 167 Wörter ohne Beispielsatz (v. a. Redemittel/Arbeitsaufträge).
@@ -81,8 +81,8 @@ Reihenfolge nach Inhaltsänderung: Generator → `bundle_stock.cjs` → Tests �
 
 ## 5. Stand der Inhalte
 - Hören: 25 Lied-/Film-Pakete (50 Special, American Pie, C’è ancora domani, Don’t Look Back in Anger, Don’t Look Up, Fairytale of New York, I Want It That Way, La vita è bella, Lay All Your Love On Me, Perfetti sconosciuti, Stan, Tu si a fine do’ munno) in Stufen; 15 ältere Pakete mit Transkript (davon 12 erweitert; Rai-Paket entfernt). Katalog zeigt 42.
-- Wortschatz: Ecco più 1 und 2 vollständig (Lista cronologica), Anhang A (Alphabet-Redemittel, Arbeitsaufträge, **Zahlen 0–2 Mrd., Ordnungszahlen, Wochentage, Monate**). Feld `contrast` = „Unterscheide“-Kasten, `related` = E/F/L-Verwandte, `definition`/`example` eigene Texte.
-- Verben: ~80 Verben; Abgleich mit Ecco-2-Scan S. 186–191 und 194–195 erfolgt; **S. 188–189, 192–193, 196–197 nicht gesichtet**.
+- Wortschatz: Primo anno und 2 vollständig (Wortliste), Anhang A (Alphabet-Redemittel, Arbeitsaufträge, **Zahlen 0–2 Mrd., Ordnungszahlen, Wochentage, Monate**). Feld `contrast` = „Unterscheide“-Kasten, `related` = E/F/L-Verwandte, `definition`/`example` eigene Texte.
+- Verben: ~80 Verben; Abgleich mit Scan Lernjahr 2 S. 186–191 und 194–195 erfolgt; **S. 188–189, 192–193, 196–197 nicht gesichtet**.
 - Medientyp `link` (BBC/NPR/TED) vorhanden, aber noch ohne Paket.
 
 ## 6. Letzte Änderungen (diese Sitzung)
@@ -98,7 +98,7 @@ Behoben:
 - Meldung nach der Korrektur lag über dem Prüfknopf → am Handy oben; Text „x von y richtig“.
 - „Mehr“-Blatt ohne Lücken im Raster.
 - **Zurück-Taste/Wischgeste** verließ die App → `verlauf.js`; Ansichten sind direkt verlinkbar (`?seite=fortschritt`, `?seite=vokabeln&buch=…`).
-Bewusst nicht geändert: Reihenfolge im Buch (Anhang A zuerst) folgt der Lista cronologica (S. 161 ff.).
+Bewusst nicht geändert: Reihenfolge im Buch (Anhang A zuerst) folgt der Wortliste (S. 161 ff.).
 Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur schließen; Startseite für neue Nutzer ohne „0/0/0“-Kacheln; CSS-Schichten (10 Dateien, spätere überschreiben frühere) zusammenführen.
 
 ## 6b. Neues Erscheinungsbild (26.10.2026)
@@ -181,26 +181,26 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 
 - **Schema:** Wortlisteneinträge haben zusätzlich `synonyms` (≈), `antonyms` (↔), `family` (Wortfamilie, →), jeweils Text bis 300 Zeichen; dazu wie bisher `related` (E/F/L/S/D), `contrast`, `usage`, `definition`. Karteikarte zeigt sie auf der Rückseite, Druck/Word als wählbare Spalten. `coverImage`/`coverCredit` jetzt auch für Wortlisten (`coverFields()` in content-contract.js).
 - **KI-Wortschatz 1.2:** `definition` Pflicht, dritte Spalte wie im Schulbuch (bei Buchseiten übernehmen, sonst ergänzen), Abschnitt 4a „Beispielsätze auf dem Können der Lernenden“ (Niveau, Länge, Lebenswelt 13–18), `say` nur mit Wörtern des Eintrags.
-- **Import (ki.js `buildVocabulary`):** Lehrwerk als Reihe + Band + Lektion + Abschnitt + Verlag (Formular hat diese Felder; „Ecco 3 più“ wird zu Reihe „Ecco più“, Band 3). Titel „Ecco più 3 · Unità 1“, Sammlung „Ecco più 3 (Cornelsen)“, damit das Buch neben Ecco più 1 und 2 steht. Übersetzungen „der/die X“ und „Zuschauer/in“ bleiben zusammen. `cleanSay` entfernt Sprechformen, die nicht zum Eintrag gehören.
-- **Ecco più 3 · Unità 1** (grundstock/vocabulary/eigen-mvrwii4ucilr.json, ID unverändert wegen Lernstand): Angaben angeglichen, zwei Übersetzungen und eine falsche Sprechform korrigiert. Erklärungen und dritte Spalte fehlen noch: mit KI-Wortschatz 1.2 neu einlesen.
+- **Import (ki.js `buildVocabulary`):** Lehrwerk als Reihe + Band + Lektion + Abschnitt + Verlag (Formular hat diese Felder; „Lernjahr più“ wird zu Reihe „Lernjahr“, Band 3). Titel „Terzo anno · Unità 1“, Sammlung „Terzo anno“, damit das Buch neben Primo anno und 2 steht. Übersetzungen „der/die X“ und „Zuschauer/in“ bleiben zusammen. `cleanSay` entfernt Sprechformen, die nicht zum Eintrag gehören.
+- **Terzo anno · Unità 1** (grundstock/vocabulary/eigen-mvrwii4ucilr.json, ID unverändert wegen Lernstand): Angaben angeglichen, zwei Übersetzungen und eine falsche Sprechform korrigiert. Erklärungen und dritte Spalte fehlen noch: mit KI-Wortschatz 1.2 neu einlesen.
 - **Titelbild für Listen:** Redaktion → „Titelbild“: eigenes Foto (wird verkleinert eingebettet), freies Foto suchen (Openverse) oder entfernen. Im Wortschatz erscheint das erste Foto einer Sammlung auf dem Buch bzw. oben auf der Themenkarte.
 
-## 6o. Ecco più 3 komplett (28.10.2026)
+## 6o. Terzo anno komplett (28.10.2026)
 
-- **Quelle:** `werkzeuge/ecco3/quelle-ecco3.txt` (aus dem Scan der Lista cronologica S. 166–185 abgetippt). Eine Datei mit sechs Spalten: Zielwort | Übersetzungen | Hinweis | dritte Spalte laut Buch | eigene Erklärung | eigener Beispielsatz (B1, Lebenswelt 13–18; die Lückensätze des Buchs wurden nicht übernommen). „Per comunicare“-Kästen als eigene Abschnitte mit Redemitteln.
+- **Quelle:** `werkzeuge/ecco3/quelle-ecco3.txt` (aus dem Scan der Wortliste S. 166–185 abgetippt). Eine Datei mit sechs Spalten: Zielwort | Übersetzungen | Hinweis | dritte Spalte laut Buch | eigene Erklärung | eigener Beispielsatz (B1, Lebenswelt 13–18; die Lückensätze des Buchs wurden nicht übernommen). „Per comunicare“-Kästen als eigene Abschnitte mit Redemitteln.
 - **Import:** `werkzeuge/ecco_import.py` liest jetzt auch `quelle-*.txt`; die dritte Spalte wird für alle Bände aufgeteilt (`≠` → antonyms, `▸` → family, `=` → synonyms, Rest → related). „qn/qs“ wird als Antwort nicht verlangt (`acceptedAnswers`). 16 Pakete `it-ecco3-*`, 549 Einträge; die vorläufige Liste `eigen-mvrwii4ucilr` (nur Unità 1) ist entfernt.
 - **Training:** Karteikarten erhalten jetzt dritte Spalte und Sprechform (`say`) aus allen drei Wortzuordnungen (portal.js, wortschatz.js); vorher fehlte `say` beim Üben. Lange Wörter brechen nach „/“ um.
 
-## 6p. Ecco più 3 korrigiert, Verbtrainer nach Band (28.10.2026)
+## 6p. Terzo anno korrigiert, Verbtrainer nach Band (28.10.2026)
 
 - **Fehler „Deutsch in den verwandten Wörtern“:** `ecco_import.py` las `quelle-*.txt` zusätzlich als related-/defs-Datei; jeder Eintrag ohne dritte Spalte bekam den Rest der Zeile als `related`. Behoben (related/defs nur für `lista-*.txt`). Fünf Beispielsätze verbessert. Vollständigkeit gegen die Wortpositionen im Scan geprüft (pdftotext -bbox): alle Stichwörter enthalten; Band 3 hat laut Verlag vier Lektionen.
-- **Verbtrainer (verbs.js) neu:** Band-Wahl Ecco più 1/2/3 (kumulativ, gespeichert in `daje-verben-v1`). Zeiten mit Band: 1 Presente, Passato prossimo · 2 Imperfetto, Futuro, Condizionale, Imperativo (tu/Lei/noi/voi), stare + Gerundio, Trapassato · 3 Congiuntivo presente/passato/imperfetto/trapassato, Condizionale passato. Formen regelbasiert (Congiuntivo aus 1. Person Präsens, Congiuntivo imperfetto aus Imperfekt-Stamm, Imperativ reflexiv mit angehängtem Pronomen), Ausnahmen in VB_DATA. 30 Verben aus Ecco più 3 ergänzt; VB_LATER/VB_NO steuern Band und fehlende Formen.
+- **Verbtrainer (verbs.js) neu:** Band-Wahl Primo anno/2/3 (kumulativ, gespeichert in `daje-verben-v1`). Zeiten mit Band: 1 Presente, Passato prossimo · 2 Imperfetto, Futuro, Condizionale, Imperativo (tu/Lei/noi/voi), stare + Gerundio, Trapassato · 3 Congiuntivo presente/passato/imperfetto/trapassato, Condizionale passato. Formen regelbasiert (Congiuntivo aus 1. Person Präsens, Congiuntivo imperfetto aus Imperfekt-Stamm, Imperativ reflexiv mit angehängtem Pronomen), Ausnahmen in VB_DATA. 30 Verben aus Terzo anno ergänzt; VB_LATER/VB_NO steuern Band und fehlende Formen.
 - **Übungen:** Tabelle, Blitzrunde (auch „Gemischt“), Im Satz (Lücke tippen, VB_SENT mit ~95 Sätzen), Welche Form? (antippen; Ablenker = dieselbe Person in anderen Zeiten + andere Personen), Hilfsverb (avere/essere antippen, dann Partizip). Akzenttasten (à è é ì ò ù '), Tipp-Knopf (Anfang der Form). Tests: verbs.test.cjs (Formen, Sätze, Band), e2e „Verben“.
 
 ## 6q. Grammatik, Zahlen, Arbeitsblatt-Mappe (28.10.2026)
 
-- Grammatik-Bereich (`grammatik.js`): Ecco più 1 Unità 1–5, 32 Themen mit Merkkasten, 279 Übungen in drei Stufen (einfach, mittel, schwer). Pakete `kind: "grammar"` (`grammar.topic`, `topicTitle`, `difficulty`, `origin`, `rule`, `order`), Ansicht über `renderListening` ohne Player.
-- Quelle: `werkzeuge/grammatik/ecco1/unita*.txt` (DSL, siehe Kopf von `werkzeuge/grammatik.py`), erzeugt `grundstock/grammar/g-ecco1-*.json`. `@mehr <thema>` hängt Übungen an ein Thema an, ohne vorhandene IDs (und damit Lernstände) zu verschieben. Nach Änderungen: `python3 werkzeuge/grammatik.py && node werkzeuge/bundle_stock.cjs`.
+- Grammatik-Bereich (`grammatik.js`): Primo anno Unità 1–5, 32 Themen mit Merkkasten, 279 Übungen in drei Stufen (einfach, mittel, schwer). Pakete `kind: "grammar"` (`grammar.topic`, `topicTitle`, `difficulty`, `origin`, `rule`, `order`), Ansicht über `renderListening` ohne Player.
+- Quelle: `werkzeuge/grammatik/anno1/unita*.txt` (DSL, siehe Kopf von `werkzeuge/grammatik.py`), erzeugt `grundstock/grammar/g-ecco1-*.json`. `@mehr <thema>` hängt Übungen an ein Thema an, ohne vorhandene IDs (und damit Lernstände) zu verschieben. Nach Änderungen: `python3 werkzeuge/grammatik.py && node werkzeuge/bundle_stock.cjs`.
 - Trainer: Verben (`verbs.js`, nach Band), Zahlen/Uhrzeit/Datum (`zahlen.js`).
 - Arbeitsblatt-Mappe (`worksheet.js`): Lehrkräfte sammeln Übungen, ordnen per Ziehen auf mehrere Blätter, drucken mit Lösungsblatt.
 - Lückenbreite richtet sich nach der Lösung (`gapSize` in `views.js`); Satzergänzung wertet ohne Satzzeichen.
@@ -209,11 +209,11 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 
 - Redaktion „Grammatik mit KI einlesen“: Modus eigen (neue Übungen nach Buchvorlage, `origin: adapted`), genau (Buchübungen unverändert, `origin: original`, bleibt privat: nicht einreichbar, nicht live stellbar, vom Bündler und qualitaet.py abgewiesen), thema (ohne Vorlage). Kommandodatei `imports/KI-Grammatik.md`, `DajeKI.buildGrammar`/`promptForGrammar`. Editor kann Grammatikübungen (Thema, Stufe, Herkunft, Merkkasten).
 - Veröffentlichte Inhalte bearbeiten/entfernen (nur mit GitHub-Token im Browser): Knopf „Veröffentlichte Fassung bearbeiten“; „Live stellen“ schreibt dann nach `grundstock/korrekturen/<id>.json` (ersetzt das Paket gleicher ID, auch eingebaute Hörübungen), „Entfernen“ schreibt `{ "format": "daje-entfernt", "id" }`. Die Generatoren schreiben nie in `korrekturen/`; `STOCK_REMOVED` in stock-data.js filtert in `contentList`.
-- Wortliste bearbeiten: unveränderte Zeilen behalten alle Felder; Reihenname „Ecco 3 più“ wird Ecco più Band 3 zugeordnet.
+- Wortliste bearbeiten: unveränderte Zeilen behalten alle Felder; Reihenname „Lernjahr più“ wird Lernjahr Band 3 zugeordnet.
 
 ## 7. Offene Punkte
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.
-- Ecco 3 più importieren (nach Scan, exakte Kapitelzuordnung).
+- Lernjahr più importieren (nach Scan, exakte Kapitelzuordnung).
 - Grundstock mit `ki_grundstock.py` aufbauen (erst `--limit 3`); echter API-Lauf noch nicht erfolgt (nur mit simulierter Antwort getestet).
 - mebis-Einbettung (`?hoeren=ID&embed=1`) in mebis selbst testen; BBC/NPR/TED-Pakete anlegen.
 - Supabase/gemeinsames theis-Login: nur Konzept (`uebergabe/08`), nichts gebaut/angelegt.
