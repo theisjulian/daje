@@ -51,7 +51,8 @@ const fontList = [
   ['lora', 'Lora · wie im Buch']
 ];
 const themeList = [
-  ['daje', 'daje', '#f6f2ea', '#b8237f'],
+  ['daje', 'daje', 'linear-gradient(135deg, #f8e3f0, #f6f5fb 55%, #e6e2ff)', '#5136d6'],
+  ['pop', 'Pop', 'linear-gradient(135deg, #ff9fd0, #b9a2ff 50%, #8ff0c4)', '#ff2e93'],
   ['heft', 'Heft', '#f4efe2', '#2c4a9a'],
   ['graphit', 'Graphit', '#ffffff', '#0040d0'],
   ['wald', 'Wald', '#e8f3e9', '#2c8851'],

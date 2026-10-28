@@ -165,6 +165,13 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - publish.js neu: „Live stellen“ immer aktiv, gibt im eigenen Katalog automatisch frei, Token wird beim Eintippen gespeichert, „Zugang prüfen“, verständliche Fehlermeldungen (401/403/404/409/422), einmaliger Neuversuch bei Konflikt, Link zum Actions-Fortschritt.
 - qualitaet.py: doppelte Aufgabenstellung nur noch Hinweis (hätte sonst bei Live gestellten Übungen die ganze Veröffentlichung blockiert).
 
+## 6l. Rechte vereinfacht, Farbwelten daje und Pop (28.10.2026)
+
+- **YouTube = Nutzung erlaubt.** `edAutoRights(x)` in studio.js setzt bei Hörübungen mit gültigem YouTube-Link `needs_review` automatisch auf `cleared` (beim Öffnen, Speichern und Kopieren aus dem Katalog; bestehende Entwürfe werden so mit umgestellt). Keine Rückfrage mehr. ki.js: KI-Pakete mit YouTube und Wortlisten aus Buchseiten starten mit `cleared`. Die Rückfrage erscheint nur noch bei Audio- oder Textquellen mit „Noch unklar“.
+- **daje neu:** Porzellanweiß (#f6f5fb) mit Farbschleiern in Fuchsia, Violett und Aprikose statt Beige; weiße Karten, violette Knöpfe mit Verlauf, Fuchsia als Markenakzent, Fortschritt als Verlauf. Dunkel: Aubergine mit Leuchten. theme-color #f6f5fb.
+- **Pop (neu, für Jüngere):** Sticker-Look mit 2-px-Kontur und versetztem Schatten, bunter Verlauf im Hintergrund, Violett/Pink, gelber Marker für Auswahl und Navigation, kräftige Überschriften. Dunkel: Neon auf Nachtblau mit pinken Konturen. Variablen `--ink` (Kontur) und `--marker` (Auswahl).
+- e2e: Farbwelten-Test mit 6 Welten; Live-Test prüft, dass eine YouTube-Kopie ohne Rückfrage `cleared` ist.
+
 ## 7. Offene Punkte
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.
 - Ecco 3 più importieren (nach Scan, exakte Kapitelzuordnung).

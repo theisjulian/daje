@@ -388,57 +388,122 @@
   --lift-2: 0 20px 50px -20px rgba(0, 0, 0, 0.85);
 }
 
-/* daje: eigene Farbwelt (Standard ab Oktober 2026). Warmes Papier, Tinte, Tomatenrot als Akzent. */
+/* daje: eigene Farbwelt (Standard). Porzellanweiß mit sanften Farbschleiern in Fuchsia (Icon), Violett
+   und Aprikose; weiße Karten, violette Knöpfe, Fuchsia als Markenakzent. Dunkel: Aubergine mit Leuchten. */
 :root[data-skin='daje'] {
-  --canvas: #f6f2ea;
-  --wash-a: transparent;
-  --wash-b: transparent;
-  --wash-c: transparent;
-  --glass: #fffdf9;
-  --glass-solid: #fffdf9;
-  --sheet: #fffdf9;
+  --canvas: #f6f5fb;
+  --wash-a: rgba(214, 51, 160, 0.13);
+  --wash-b: rgba(108, 86, 255, 0.13);
+  --wash-c: rgba(255, 168, 120, 0.12);
+  --glass: rgba(255, 255, 255, 0.86);
+  --glass-solid: #ffffff;
+  --sheet: #ffffff;
   --glass-hi: #ffffff;
-  --hairline: rgba(40, 32, 20, 0.11);
-  --tile: #fffdf9;
-  --label: #1c1a17;
-  --label-2: rgba(28, 26, 23, 0.64);
-  --label-3: rgba(28, 26, 23, 0.36);
-  --fill: rgba(60, 45, 20, 0.06);
-  --fill-2: rgba(60, 45, 20, 0.11);
-  --track: rgba(60, 45, 20, 0.14);
-  --blue: #2b3bb5;
+  --hairline: rgba(38, 28, 82, 0.1);
+  --tile: #ffffff;
+  --label: #1b1730;
+  --label-2: rgba(27, 23, 48, 0.66);
+  --label-3: rgba(27, 23, 48, 0.38);
+  --fill: rgba(76, 52, 160, 0.06);
+  --fill-2: rgba(76, 52, 160, 0.11);
+  --track: rgba(76, 52, 160, 0.12);
+  --blue: #5136d6;
   --on-accent: #fff;
-  --accent2: #b8237f;
-  --green: #22874f;
+  --accent2: #c2268a;
+  --green: #1f8a55;
   --orange: #c4621a;
-  --red: #c8321f;
-  --lift: 0 1px 2px rgba(40, 30, 10, 0.05), 0 6px 18px -10px rgba(40, 30, 10, 0.18);
-  --lift-2: 0 2px 6px rgba(40, 30, 10, 0.06), 0 24px 48px -20px rgba(40, 30, 10, 0.3);
-  --blur: none;
+  --red: #cc2f3f;
+  --lift: 0 1px 2px rgba(48, 30, 110, 0.05), 0 8px 22px -12px rgba(48, 30, 110, 0.22);
+  --lift-2: 0 2px 6px rgba(48, 30, 110, 0.06), 0 26px 52px -22px rgba(48, 30, 110, 0.34);
+  --blur: saturate(160%) blur(18px);
   color-scheme: light;
 }
 :root[data-skin='daje'][data-theme='dark'] {
-  --canvas: #141210;
-  --glass: #1f1c18;
-  --glass-solid: #1f1c18;
-  --sheet: #1f1c18;
+  --canvas: #121019;
+  --wash-a: rgba(214, 51, 160, 0.2);
+  --wash-b: rgba(108, 86, 255, 0.2);
+  --wash-c: rgba(255, 140, 90, 0.07);
+  --glass: rgba(30, 26, 44, 0.86);
+  --glass-solid: #1d1a29;
+  --sheet: #1d1a29;
   --glass-hi: rgba(255, 255, 255, 0.08);
-  --hairline: rgba(255, 245, 230, 0.1);
-  --tile: #1f1c18;
-  --label: #f4efe7;
-  --label-2: rgba(244, 239, 231, 0.66);
-  --label-3: rgba(244, 239, 231, 0.36);
-  --fill: rgba(255, 245, 230, 0.07);
-  --fill-2: rgba(255, 245, 230, 0.13);
-  --track: rgba(255, 245, 230, 0.16);
-  --blue: #a3adff;
-  --on-accent: #14163a;
+  --hairline: rgba(235, 225, 255, 0.11);
+  --tile: #1d1a29;
+  --label: #f4f1fb;
+  --label-2: rgba(244, 241, 251, 0.68);
+  --label-3: rgba(244, 241, 251, 0.38);
+  --fill: rgba(235, 225, 255, 0.07);
+  --fill-2: rgba(235, 225, 255, 0.13);
+  --track: rgba(235, 225, 255, 0.16);
+  --blue: #a99bff;
+  --on-accent: #17123a;
   --accent2: #ff7ac8;
   --green: #5fd38d;
   --orange: #f5a35c;
-  --red: #ff7b6b;
+  --red: #ff7b7b;
   --lift: 0 1px 2px rgba(0, 0, 0, 0.5);
   --lift-2: 0 20px 50px -20px rgba(0, 0, 0, 0.8);
+  color-scheme: dark;
+}
+/* Pop: für Jugendliche. Kräftige Konturen mit versetztem Schatten (wie Sticker), bunter Verlauf im
+   Hintergrund, Pink und Violett, gelber Marker. Dunkel: Neon auf Nachtblau. */
+:root[data-skin='pop'] {
+  --ink: #1b1033;
+  --canvas: #f2edff;
+  --wash-a: rgba(255, 82, 170, 0.34);
+  --wash-b: rgba(70, 196, 255, 0.34);
+  --wash-c: rgba(120, 245, 180, 0.38);
+  --glass: #ffffff;
+  --glass-solid: #ffffff;
+  --sheet: #ffffff;
+  --glass-hi: #ffffff;
+  --hairline: rgba(27, 16, 51, 0.16);
+  --tile: #ffffff;
+  --label: #1b1033;
+  --label-2: rgba(27, 16, 51, 0.7);
+  --label-3: rgba(27, 16, 51, 0.42);
+  --fill: rgba(107, 43, 255, 0.07);
+  --fill-2: rgba(107, 43, 255, 0.13);
+  --track: rgba(27, 16, 51, 0.12);
+  --blue: #6b2bff;
+  --on-accent: #fff;
+  --accent2: #ff2e93;
+  --green: #00a36c;
+  --orange: #ff7a00;
+  --red: #ff3355;
+  --marker: #ffe94a;
+  --lift: 4px 4px 0 var(--ink);
+  --lift-2: 6px 6px 0 var(--ink);
+  --blur: none;
+  color-scheme: light;
+}
+:root[data-skin='pop'][data-theme='dark'] {
+  --ink: #ff2e93;
+  --canvas: #110a28;
+  --wash-a: rgba(255, 46, 147, 0.3);
+  --wash-b: rgba(70, 196, 255, 0.24);
+  --wash-c: rgba(120, 245, 180, 0.16);
+  --glass: #1d1442;
+  --glass-solid: #1d1442;
+  --sheet: #1d1442;
+  --glass-hi: rgba(255, 255, 255, 0.08);
+  --hairline: rgba(170, 150, 255, 0.28);
+  --tile: #1d1442;
+  --label: #fbf8ff;
+  --label-2: rgba(251, 248, 255, 0.74);
+  --label-3: rgba(251, 248, 255, 0.44);
+  --fill: rgba(155, 123, 255, 0.12);
+  --fill-2: rgba(155, 123, 255, 0.2);
+  --track: rgba(155, 123, 255, 0.22);
+  --blue: #9b7bff;
+  --on-accent: #10082a;
+  --accent2: #ff5fb0;
+  --green: #3ee69a;
+  --orange: #ffad4a;
+  --red: #ff6a86;
+  --marker: #ff2e93;
+  --lift: 4px 4px 0 var(--ink);
+  --lift-2: 6px 6px 0 var(--ink);
   color-scheme: dark;
 }
 
@@ -7387,9 +7452,9 @@ body.in-session .flashcard {
   letter-spacing: -0.02em;
 }
 
-/* daje: flach und ruhig, runde Knöpfe, Akzent nur für Marke, Fortschritt und Hervorhebung */
+/* daje: weiche Karten auf Farbschleiern, runde Knöpfe, Fuchsia für Marke, Fortschritt und Hervorhebung */
 :root[data-skin='daje'] {
-  --sk-r: 20px;
+  --sk-r: 22px;
   --sk-border: 1px solid var(--hairline);
   --sk-shadow: var(--lift);
   --btn-r: 999px;
@@ -7398,21 +7463,16 @@ body.in-session .flashcard {
   --nav-active-bg: color-mix(in srgb, var(--accent2) 11%, transparent);
   --nav-active-color: var(--label);
 }
-:root[data-skin='daje'] body {
-  background: var(--canvas);
-}
-:root[data-skin='daje'] .glass,
-:root[data-skin='daje'] .tabbar,
-:root[data-skin='daje'] .sidebar {
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
-}
 :root[data-skin='daje'] .sidebar {
   background: transparent;
   border-right: 1px solid var(--hairline);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 :root[data-skin='daje'] .tabbar {
-  background: var(--canvas);
+  background: color-mix(in srgb, var(--glass-solid) 84%, transparent);
+  backdrop-filter: saturate(160%) blur(18px);
+  -webkit-backdrop-filter: saturate(160%) blur(18px);
   border-top: 1px solid var(--hairline);
 }
 :root[data-skin='daje'] .xhero h1 em,
@@ -7429,7 +7489,115 @@ body.in-session .flashcard {
 :root[data-skin='daje'] .lcard-progress i,
 :root[data-skin='daje'] .progress-fill,
 :root[data-skin='daje'] .wc-bar i {
+  background: linear-gradient(90deg, var(--accent2), var(--blue));
+}
+:root[data-skin='daje'] .primary {
+  background: linear-gradient(135deg, var(--blue), color-mix(in srgb, var(--blue) 70%, var(--accent2)));
+}
+
+/* Pop: Sticker-Look für Jugendliche */
+:root[data-skin='pop'] {
+  --sk-r: 22px;
+  --sk-border: 2px solid var(--ink);
+  --sk-shadow: 4px 4px 0 var(--ink);
+  --btn-r: 999px;
+  --opt-r: 16px;
+  --nav-r: 14px;
+  --h-weight: 800;
+  --eyebrow-ls: 0.1em;
+  --nav-active-bg: var(--marker);
+  --nav-active-color: #1b1033;
+}
+:root[data-skin='pop'] .glass,
+:root[data-skin='pop'] .sidebar {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+:root[data-skin='pop'] .sidebar {
+  background: transparent;
+  border-right: 2px solid var(--ink);
+}
+:root[data-skin='pop'] .tabbar {
+  background: var(--glass-solid);
+  border-top: 2px solid var(--ink);
+  backdrop-filter: none;
+}
+:root[data-skin='pop'] .tabbar [aria-current='page'] {
+  background: var(--marker);
+  color: #1b1033;
+  border-radius: 14px;
+}
+:root[data-skin='pop'] .eyebrow,
+:root[data-skin='pop'] .top-brand {
+  color: var(--accent2);
+  font-weight: 800;
+}
+:root[data-skin='pop'] :is(.xhero, .today, .page-head) h1 em {
+  font-style: normal;
+  background: linear-gradient(90deg, var(--accent2), var(--blue) 55%, #18b6ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+:root[data-skin='pop'] .button {
+  border: 2px solid var(--ink);
+  box-shadow: 3px 3px 0 var(--ink);
+  font-weight: 700;
+  transition: transform 0.08s, box-shadow 0.08s;
+}
+:root[data-skin='pop'] .button:active:not(:disabled) {
+  transform: translate(3px, 3px);
+  box-shadow: 0 0 0 var(--ink);
+}
+:root[data-skin='pop'] .secondary {
+  background: var(--glass-solid);
+}
+:root[data-skin='pop'] .quiet {
+  border: 0;
+  box-shadow: none;
+}
+:root[data-skin='pop'] :is(.opt, .pair-row, .cat-row, .sc-row, .chip-opt span, .cat-opt span, .ed-right) {
+  border: 2px solid var(--ink);
+}
+:root[data-skin='pop'] .opt:has(input:checked),
+:root[data-skin='pop'] .chip-opt:has(input:checked) span,
+:root[data-skin='pop'] .cat-opt input:checked + span {
+  background: var(--marker);
+  color: #1b1033;
+  box-shadow: 3px 3px 0 var(--ink);
+}
+:root[data-skin='pop'] :is(.opt.is-correct, .pair-row.is-correct, .cat-row.is-correct, .sc-row.is-correct) {
+  background: color-mix(in srgb, var(--green) 22%, var(--glass-solid));
+}
+:root[data-skin='pop'] :is(.lcard-progress i, .progress-fill, .wc-bar i) {
+  background: linear-gradient(90deg, var(--accent2), var(--blue), #18b6ff);
+}
+:root[data-skin='pop'] .nav-list [aria-current='page'] .ico,
+:root[data-skin='pop'] .tabbar [aria-current='page'] .ico {
+  color: #1b1033;
+}
+:root[data-skin='pop'] .gap,
+:root[data-skin='pop'] .sc-input {
+  border: 2px solid var(--ink);
+  border-bottom-width: 4px;
+}
+:root[data-skin='pop'] .q-num {
   background: var(--accent2);
+  color: #fff;
+  border: 2px solid var(--ink);
+}
+:root[data-skin='pop'] .q-section {
+  color: var(--accent2);
+}
+:root[data-skin='pop'] .flashcard .word-display {
+  font-weight: 800;
+}
+:root[data-skin='pop'][data-theme='dark'] .button,
+:root[data-skin='pop'][data-theme='dark'] .opt:has(input:checked) {
+  color: inherit;
+}
+:root[data-skin='pop'][data-theme='dark'] .primary {
+  color: var(--on-accent);
 }
 
 /* ===================== docs.css ===================== */
@@ -8026,3 +8194,27 @@ main:focus, main:focus-visible, [tabindex='-1']:focus, [tabindex='-1']:focus-vis
 .ed-rights.flash { animation: ed-flash 1.2s ease 2; }
 @keyframes ed-flash { 50% { box-shadow: 0 0 0 4px color-mix(in srgb, var(--orange, #f59e0b) 55%, transparent); } }
 .ed-status .warn + .quiet { font-weight: 600; text-decoration: underline; }
+:root[data-skin='pop'][data-theme='dark'] {
+  --nav-active-color: #fff;
+}
+:root[data-skin='pop'][data-theme='dark'] :is(.nav-list, .tabbar) [aria-current='page'],
+:root[data-skin='pop'][data-theme='dark'] :is(.nav-list, .tabbar) [aria-current='page'] .ico {
+  color: #fff;
+}
+:root[data-skin='pop'][data-theme='dark'] .opt:has(input:checked),
+:root[data-skin='pop'][data-theme='dark'] .chip-opt:has(input:checked) span,
+:root[data-skin='pop'][data-theme='dark'] .cat-opt input:checked + span {
+  color: #fff;
+}
+:root[data-skin='pop'] .chip {
+  border: 2px solid var(--ink);
+  font-weight: 700;
+}
+:root[data-skin='pop'] .chip[aria-pressed='true'] {
+  background: var(--marker);
+  color: #1b1033;
+  box-shadow: 2px 2px 0 var(--ink);
+}
+:root[data-skin='pop'][data-theme='dark'] .chip[aria-pressed='true'] {
+  color: #fff;
+}

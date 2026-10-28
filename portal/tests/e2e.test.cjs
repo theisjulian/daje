@@ -166,11 +166,11 @@ async function step(name, fn) {
     assert.deepEqual(r, ['hint', 'hint', 'correct']);
   });
 
-  await step('Alle 5 Farbwelten, Hell/Dunkel und Tageslicht ohne Fehler', async () => {
+  await step('Alle 6 Farbwelten, Hell/Dunkel und Tageslicht ohne Fehler', async () => {
     await dp.goto(base, { waitUntil: 'networkidle' });
     await dp.click('#look-open');
     const skins = await dp.$$eval('#theme-grid button', b => b.map(x => x.dataset.skin));
-    assert.deepEqual(skins, ['daje', 'heft', 'graphit', 'wald', 'tag']);
+    assert.deepEqual(skins, ['daje', 'pop', 'heft', 'graphit', 'wald', 'tag']);
     assert.ok(skins.includes('tag'));
     // Tageslicht bestimmt Hell/Dunkel selbst und wird deshalb getrennt geprüft.
     const fixed = skins.filter(s => s !== 'tag');
@@ -544,7 +544,7 @@ async function step(name, fn) {
     assert.equal(await pp.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
   });
 
-  await step('Redaktion: Rechte klären, dann Live stellen (GitHub simuliert)', async () => {
+  await step('Redaktion: YouTube-Kopie ohne Rechte-Rückfrage live stellen (GitHub simuliert)', async () => {
     const puts = [];
     await pp.route('https://api.github.com/**', r => {
       const m = r.request().method(), u = r.request().url();
@@ -555,10 +555,10 @@ async function step(name, fn) {
     await pp.goto(base, { waitUntil: 'networkidle' });
     await pp.click('[data-audience="teach"]');
     await pp.evaluate(() => edCopyFrom('it-a2-roma-citta'));
-    await pp.waitForSelector('#ed-rights.warn');
-    assert.match(await pp.textContent('#ed-status'), /Quelle und Rechte/);
-    await pp.click('.ed-right:has(input[value="cleared"])');
     await pp.waitForSelector('details#ed-rights');
+    assert.equal(await pp.$('#ed-rights.warn'), null);
+    await pp.waitForTimeout(500);
+    assert.equal(await pp.evaluate(() => edItem().payload.sources[0].rights), 'cleared');
     assert.match(await pp.textContent('#ed-status'), /bereit zum Teilen/);
     await pp.evaluate(() => (document.getElementById('live-box').open = true));
     await pp.fill('#live-token', 'github_pat_TEST');

@@ -160,7 +160,7 @@
             media.type === 'youtube'
               ? 'https://www.youtube.com/watch?v=' + media.videoId
               : media.url,
-          rights: inp.rights || 'needs_review'
+          rights: inp.rights || (media.type === 'youtube' ? 'cleared' : 'needs_review')
         }
       ],
       reviewNotes: arr(ai.reviewNotes).map(String).slice(0, 20),
@@ -285,7 +285,7 @@
       catalog: { origin: book ? 'textbook' : 'own', cefr: inp.level || ai.level },
       sources: [
         book
-          ? { kind: 'provided', citation: collection + (pages ? ', S. ' + pages : '') + ' (Vokabelteil); Beispielsätze mit KI-Unterstützung eigens formuliert.', rights: 'needs_review' }
+          ? { kind: 'provided', citation: collection + (pages ? ', S. ' + pages : '') + ' (Vokabelteil); Beispielsätze mit KI-Unterstützung eigens formuliert.', rights: 'cleared' }
           : { kind: 'own', citation: 'Wortliste zu einem Text, erstellt mit KI-Unterstützung.', rights: 'own' }
       ],
       reviewNotes: arr(ai.reviewNotes).map(String).slice(0, 20),

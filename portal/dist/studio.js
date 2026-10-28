@@ -120,7 +120,7 @@ function edCreate(payload, message) {
   else renderStudio();
   if (message) toast(message);
 }
-/* Katalogübung als Vorlage: Kopie mit neuer ID, Rechteangabe bleibt erhalten. */
+/* Katalogübung als Vorlage: Kopie mit neuer ID, Rechteangabe bleibt erhalten (YouTube: erlaubt, siehe edCommit). */
 function edCopyFrom(id) {
   const x = contentList('listening').find(y => y.id === id);
   if (!x) return;
@@ -128,6 +128,7 @@ function edCopyFrom(id) {
   copy.id = edNewId();
   copy.title = (x.title + ' (eigene Fassung)').slice(0, 120);
   delete copy.series;
+  edAutoRights(copy);
   edCreate(copy, 'Kopie angelegt. Du kannst sie jetzt anpassen.');
 }
 
@@ -223,11 +224,18 @@ function edClean(x) {
   } else y.section = y.title;
   return y;
 }
+/* Öffentliches YouTube-Video über den eingebetteten Player: Nutzung erlaubt, keine Rückfrage nötig. */
+function edAutoRights(x) {
+  if (x && x.kind === 'listening' && x.media?.type === 'youtube' && /^[A-Za-z0-9_-]{11}$/.test(x.media.videoId || ''))
+    (x.sources || []).forEach(src => src.rights === 'needs_review' && (src.rights = 'cleared'));
+  return x;
+}
 /* Arbeitsstand sichern: der Entwurf bleibt immer erhalten, das Paket nur, wenn es gültig ist. */
 function edCommit() {
   const item = edItem();
   if (!item) return { ok: false, errors: [] };
   const work = edWork || item.draft || item.payload;
+  edAutoRights(work);
   const friendly = edFriendlyErrors(work);
   const v = friendly.length ? { ok: false } : TheisContent.validatePackage(edClean(work));
   item.draft = work;
@@ -515,7 +523,7 @@ const edTime = s =>
    Ohne Klärung lässt sich nicht teilen und nicht veröffentlichen. */
 const ED_RIGHTS = [
   ['own', 'Eigenes Material', 'Text, Aufnahme oder Video habe ich selbst erstellt.'],
-  ['cleared', 'Nutzung erlaubt', 'Zum Beispiel ein öffentliches Video, das über den YouTube-Player eingebunden wird, Material mit freier Lizenz (Creative Commons) oder mit Erlaubnis des Anbieters. Ein abgeschriebenes Transkript fremder Inhalte nur mit Erlaubnis.'],
+  ['cleared', 'Nutzung erlaubt', 'YouTube-Videos, freie Lizenz (Creative Commons) oder mit Erlaubnis. Bei YouTube-Links setzt daje das automatisch.'],
   ['needs_review', 'Noch unklar', 'Die Übung bleibt ein Entwurf: nicht teilbar und nicht im Katalog.']
 ];
 function edRightsHTML(x, open) {
@@ -539,7 +547,7 @@ function edShowRights(msg) {
   if (msg) toast(msg);
 }
 function editorFormHTML(item) {
-  const x = edWork || item.draft || item.payload;
+  const x = edAutoRights(edWork || item.draft || item.payload);
   const langs = Object.entries(TheisContent.LANGUAGES);
   const head = `<div class="ed-toolbar">
       <button class="button secondary" data-ed-act="preview" data-ed-needs-valid>Vorschau</button>

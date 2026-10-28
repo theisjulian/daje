@@ -44,10 +44,10 @@ console.log('KI-Import: Antwort lesen, Paket ergänzen, Belege prüfen passed.')
   assert.equal(v.catalog.grade, 11);
   assert.equal(v.collection, 'Oberstufe');
   assert.ok(!('evidence' in v.entries[0]));
-  // Buchseiten: Lehrwerk und Seiten in Quelle und Katalog, Rechte offen
+  // Buchseiten: Lehrwerk und Seiten in Quelle und Katalog, Nutzung im Unterricht erlaubt
   const b = KI.buildVocabulary(ai, { language: 'it', level: 'A2', mode: 'buch', collection: 'Ecco più 2', section: 'Unità 3 · 3a', pages: '170-171' }, validatePackage);
   assert.ok(b.result.ok, JSON.stringify(b.result.errors));
-  assert.equal(b.result.value.sources[0].rights, 'needs_review');
+  assert.equal(b.result.value.sources[0].rights, 'cleared');
   assert.equal(b.result.value.catalog.textbook.pages, '170-171');
   assert.equal(b.evidence.length, 0);
   const cmd = fs.readFileSync(__dirname + '/../dist/imports/KI-Wortschatz.md', 'utf8');
