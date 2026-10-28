@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-posizione-pronomi-m3",
+ "title": "Con il pronome",
+ "language": "it",
+ "level": "A1",
+ "description": "La posizione dei pronomi · Con il pronome · livello medio.",
+ "topics": [
+  "La posizione dei pronomi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Stellung der Objektpronomen bei Verneinung, Modalverben und Infinitiv"
+ },
+ "grammar": {
+  "topic": "ecco1-posizione-pronomi",
+  "topicTitle": "La posizione dei pronomi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 73,
+  "rule": "- Di solito il pronome va **prima del verbo**: _**Lo** compro._ · con non: _**Non lo** compro._\n- Con **dovere, potere, volere** ci sono due possibilità:\n  _**Lo** voglio comprare._ = _Voglio comprar**lo**._ (l’infinito perde la -e: comprare → comprar + lo)\n- Con un **infinito** senza modale il pronome va attaccato: _È bello veder**ti**!_ · _Ho voglia di mangiar**la**._",
+  "ruleHelp": "Meist steht das Pronomen **vor dem Verb**: _Lo compro. Non lo compro._\nBei **dovere, potere, volere** zwei Möglichkeiten: _Lo voglio comprare = Voglio comprarlo_ (Infinitiv ohne -e + Pronomen).\nBeim **Infinitiv** wird das Pronomen angehängt: _È bello vederti!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi con modale + pronome (due modi possibili).",
+   "promptHelp": "Antworte mit Modalverb + Pronomen.",
+   "explanation": "Tutte e due le posizioni sono giuste.",
+   "explanationHelp": "Beide Stellungen sind richtig.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Vuoi comprare la maglietta? – Sì, …",
+     "acceptedAnswers": [
+      "la voglio comprare",
+      "voglio comprarla"
+     ],
+     "modelAnswer": "Sì, voglio comprarla."
+    },
+    {
+     "id": "s2",
+     "start": "Devi fare i compiti? – Sì, …",
+     "acceptedAnswers": [
+      "li devo fare",
+      "devo farli"
+     ],
+     "modelAnswer": "Sì, devo farli."
+    },
+    {
+     "id": "s3",
+     "start": "Puoi chiamare Marco? – Sì, …",
+     "acceptedAnswers": [
+      "lo posso chiamare",
+      "posso chiamarlo"
+     ],
+     "modelAnswer": "Sì, posso chiamarlo."
+    },
+    {
+     "id": "s4",
+     "start": "Volete vedere il film? – Sì, …",
+     "acceptedAnswers": [
+      "lo vogliamo vedere",
+      "vogliamo vederlo"
+     ],
+     "modelAnswer": "Sì, vogliamo vederlo."
+    },
+    {
+     "id": "s5",
+     "start": "Devi prendere le chiavi? – Sì, …",
+     "acceptedAnswers": [
+      "le devo prendere",
+      "devo prenderle"
+     ],
+     "modelAnswer": "Sì, devo prenderle."
+    },
+    {
+     "id": "s6",
+     "start": "Puoi aiutare me? – Sì, …",
+     "acceptedAnswers": [
+      "ti posso aiutare",
+      "posso aiutarti"
+     ],
+     "modelAnswer": "Sì, posso aiutarti."
+    },
+    {
+     "id": "s7",
+     "start": "Vuoi invitare Anna? – No, …",
+     "acceptedAnswers": [
+      "non la voglio invitare",
+      "non voglio invitarla"
+     ],
+     "modelAnswer": "No, non voglio invitarla."
+    },
+    {
+     "id": "s8",
+     "start": "Dovete comprare il pane? – No, …",
+     "acceptedAnswers": [
+      "non lo dobbiamo comprare",
+      "non dobbiamo comprarlo"
+     ],
+     "modelAnswer": "No, non dobbiamo comprarlo."
+    }
+   ]
+  }
+ ]
+}

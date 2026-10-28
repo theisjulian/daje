@@ -1,0 +1,126 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-colori-s2",
+ "title": "In vetrina",
+ "language": "it",
+ "level": "A1",
+ "description": "I colori · In vetrina · livello difficile.",
+ "topics": [
+  "I colori",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 13,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Farbadjektive"
+ },
+ "grammar": {
+  "topic": "ecco1-colori",
+  "topicTitle": "I colori",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 12,
+  "rule": "I colori sono aggettivi: vanno **dopo** il nome e cambiano come il nome.\n| -o/-a | rosso, rossa, rossi, rosse · nero · bianco (bianchi, bianche) · giallo · grigio (grigi, grigie) · azzurro |\n| -e | verde, verdi · marrone, marroni · arancione, arancioni |\n| non cambiano | blu · rosa · viola · beige |\n\n_una maglietta **rossa**, due magliette **rosse**, i pantaloni **blu**, le scarpe **rosa**._",
+  "ruleHelp": "Farben sind Adjektive: Sie stehen **nach** dem Nomen und passen sich an (rosso/rossa/rossi/rosse; verde/verdi).\n**Unveränderlich** sind blu, rosa, viola, beige: _i pantaloni blu, le scarpe rosa._ Achtung: bianco → bianchi/bianche, grigio → grigi/grigie."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Descrivi la vetrina. Scrivi i colori nella forma giusta.",
+   "promptHelp": "Beschreibe das Schaufenster.",
+   "explanation": "Ogni colore va con il suo nome: genere e numero.",
+   "explanationHelp": "Jede Farbe passt sich an ihr Nomen an.",
+   "type": "gap_fill",
+   "text": "In vetrina c’è un manichino con una camicia (bianco) [[g1]] e dei pantaloni (blu) [[g2]].\nVicino ci sono tre magliette (verde) [[g3]] e due felpe (rosa) [[g4]].\nSotto ci sono scarpe (nero) [[g5]] e calzini (rosso) [[g6]].\nA destra c’è un vestito (viola) [[g7]] con una sciarpa (giallo) [[g8]].\nI cappelli sono (marrone) [[g9]] e (grigio) [[g10]].\nGuarda la maglietta (grigio) [[g11]]! Quanto costa?",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "bianca"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "blu"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "verdi"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "rosa"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "nere"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "rossi"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "viola"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "gialla"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "marroni"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "grigi"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "grigia"
+     ]
+    }
+   ]
+  }
+ ]
+}

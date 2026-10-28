@@ -1,0 +1,112 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-pronomi-diretti-s3",
+ "title": "Prepariamo la cena",
+ "language": "it",
+ "level": "A1",
+ "description": "I pronomi diretti (lo, la, li, le …) · Prepariamo la cena · livello difficile.",
+ "topics": [
+  "I pronomi diretti (lo, la, li, le …)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte direkte Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-pronomi-diretti",
+  "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 33,
+  "rule": "I pronomi diretti sostituiscono un **oggetto diretto** (chi? che cosa?) e vanno **prima del verbo**:\n| mi | ti | lo | la | ci | vi | li | le |\n| mich | dich | ihn / es | sie / es | uns | euch | sie (m.) | sie (f.) |\n\n- _Compri la gonna? – Sì, **la** compro._\n- _Vedi Marco? – Sì, **lo** vedo._\n- _Prendi i pomodori? – Sì, **li** prendo._ · _Le mele? – **Le** prendo io._\n- Davanti a vocale: **l’**: _L’aspetto._ · Negazione: _Non **lo** vedo._",
+  "ruleHelp": "Direkte Objektpronomen ersetzen ein **direktes Objekt** (wen? was?) und stehen **vor dem Verb**: mi, ti, lo, la, ci, vi, li, le.\n_Compri la gonna? – Sì, la compro._ · Vor Vokal: _l’_ (L’aspetto). · Verneinung: _Non lo vedo._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi il pronome diretto giusto.",
+   "promptHelp": "Ergänze das richtige Pronomen.",
+   "type": "gap_fill",
+   "text": "Mamma: Allora, la pasta [[g1]] prepara Luca.\nLuca: Va bene, ma il sugo chi [[g2]] fa?\nMamma: [[g3]] faccio io. E tu, Sara, compri le uova?\nSara: Sì, [[g4]] compro al negozio sotto casa.\nPapà: E i pomodori? Chi [[g5]] taglia?\nLuca: [[g6]] taglio io! E il basilico? Dov’è?\nMamma: Non [[g7]] vedi? È sul tavolo!\nPapà: E i nonni? [[g8]] chiamiamo per la cena?\nSara: Sì, [[g9]] chiamo adesso!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "lo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Lo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "li"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Li"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "lo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Li"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "li"
+     ]
+    }
+   ]
+  }
+ ]
+}

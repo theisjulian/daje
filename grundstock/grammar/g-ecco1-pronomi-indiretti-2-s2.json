@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-pronomi-indiretti-2-s2",
+ "title": "Un regalo per tutti",
+ "language": "it",
+ "level": "A1",
+ "description": "Pronomi indiretti e pronomi tonici · Un regalo per tutti · livello difficile.",
+ "topics": [
+  "Pronomi indiretti e pronomi tonici",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte indirekte und betonte Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-pronomi-indiretti-2",
+  "topicTitle": "Pronomi indiretti e pronomi tonici",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 62,
+  "rule": "**Pronomi indiretti** (a chi?) prima del verbo:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n_Gli preparo la cena. · Le piace il rosso. · Ci manca la pizza._\n\n**Pronomi tonici** dopo una preposizione o per sottolineare:\n| me | te | lui | lei | Lei | noi | voi | loro |\n_Vieni **con me**? · Questo è **per te**. · **A me** piace, **a lui** no._",
+  "ruleHelp": "**Indirekte Pronomen** (wem?) stehen vor dem Verb: mi, ti, gli, le, Le, ci, vi, gli. _Gli preparo la cena. Le piace il rosso._\n**Betonte Pronomen** nach Präpositionen oder zur Betonung: me, te, lui, lei, Lei, noi, voi, loro: _con me, per te, a me piace, a lui no._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi i pronomi giusti (indiretti o tonici).",
+   "promptHelp": "Ergänze die richtigen Pronomen.",
+   "type": "gap_fill",
+   "text": "Domani è Natale. A mio padre [[g1]] regalo una sciarpa.\nPer mia madre ho un libro: lo compro per [[g2]] in libreria.\nMia sorella? [[g3]] piacciono i braccialetti.\nE i nonni? Per [[g4]] faccio una torta.\nIl mio amico Leo viene con [[g5]] al mercatino.\n[[g6]] piace la musica: [[g7]] regalo un CD.\nE a me? Chi pensa a [[g8]]?",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "lei"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Le"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "loro"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "me"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Gli"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "me"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-posizione-pronomi-s3",
+ "title": "Un messaggio",
+ "language": "it",
+ "level": "A1",
+ "description": "La posizione dei pronomi · Un messaggio · livello difficile.",
+ "topics": [
+  "La posizione dei pronomi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Stellung der Objektpronomen bei Verneinung, Modalverben und Infinitiv"
+ },
+ "grammar": {
+  "topic": "ecco1-posizione-pronomi",
+  "topicTitle": "La posizione dei pronomi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 73,
+  "rule": "- Di solito il pronome va **prima del verbo**: _**Lo** compro._ · con non: _**Non lo** compro._\n- Con **dovere, potere, volere** ci sono due possibilità:\n  _**Lo** voglio comprare._ = _Voglio comprar**lo**._ (l’infinito perde la -e: comprare → comprar + lo)\n- Con un **infinito** senza modale il pronome va attaccato: _È bello veder**ti**!_ · _Ho voglia di mangiar**la**._",
+  "ruleHelp": "Meist steht das Pronomen **vor dem Verb**: _Lo compro. Non lo compro._\nBei **dovere, potere, volere** zwei Möglichkeiten: _Lo voglio comprare = Voglio comprarlo_ (Infinitiv ohne -e + Pronomen).\nBeim **Infinitiv** wird das Pronomen angehängt: _È bello vederti!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi un messaggio a un amico: lo vuoi invitare a cena. Usa almeno quattro pronomi (lo, la, li, le, ti, vi …).",
+   "promptHelp": "Schreibe eine Nachricht mit mindestens vier Pronomen.",
+   "type": "open_answer",
+   "modelAnswer": "Ciao Leo, sabato faccio una cena. Ti voglio invitare! La pizza la preparo io. Le bibite puoi portarle tu? Anche Sara e Paolo vengono: li chiamo stasera.",
+   "lines": 5
+  },
+  {
+   "id": "q2",
+   "prompt": "E adesso riscrivi con il pronome attaccato.",
+   "promptHelp": "Und jetzt mit angehängtem Pronomen.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Ti voglio invitare. → Voglio …",
+     "acceptedAnswers": [
+      "invitarti"
+     ],
+     "modelAnswer": "Voglio invitarti."
+    },
+    {
+     "id": "s2",
+     "start": "Le puoi portare? → Puoi …",
+     "acceptedAnswers": [
+      "portarle"
+     ],
+     "modelAnswer": "Puoi portarle?"
+    },
+    {
+     "id": "s3",
+     "start": "Li devo chiamare. → Devo …",
+     "acceptedAnswers": [
+      "chiamarli"
+     ],
+     "modelAnswer": "Devo chiamarli."
+    },
+    {
+     "id": "s4",
+     "start": "La voglio preparare. → Voglio …",
+     "acceptedAnswers": [
+      "prepararla"
+     ],
+     "modelAnswer": "Voglio prepararla."
+    }
+   ]
+  }
+ ]
+}

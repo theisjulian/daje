@@ -1,0 +1,124 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-cortesia-l1",
+ "title": "Tu o Lei?",
+ "language": "it",
+ "level": "A1",
+ "description": "La forma di cortesia e l’imperativo di cortesia · Tu o Lei? · livello facile.",
+ "topics": [
+  "La forma di cortesia e l’imperativo di cortesia",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · höfliche Anrede in Singular und Plural; imperativo di cortesia (scusi, mi dica, mi dia); avere bisogno/voglia di"
+ },
+ "grammar": {
+  "topic": "ecco1-cortesia",
+  "topicTitle": "La forma di cortesia e l’imperativo di cortesia",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 81,
+  "rule": "Con gli adulti che non conosci usiamo **Lei** (terza persona singolare): _Come **sta**? Che cosa **desidera**?_\nCon più persone si usa **voi**: _Ragazzi, che cosa **prendete**?_\n**Imperativo di cortesia** (frasi fisse):\n| Scusi! | Senta! | Mi dica! | Mi dia … | Prego! | Venga! | Prenda! |\nPer chiedere gentilmente: _**Vorrei** un caffè. · **Potrebbe** aiutarmi?_\nAltre frasi: _**Ho bisogno di** una taglia più grande. · **Ho voglia di** un gelato._",
+  "ruleHelp": "Erwachsene, die man nicht kennt, spricht man mit **Lei** an (3. Person Singular): _Come sta? Che cosa desidera?_ Mehrere Personen: **voi**.\nFeste höfliche Imperative: _Scusi! Senta! Mi dica! Mi dia … Prego! Venga! Prenda!_ · Höflich bitten: _Vorrei …, Potrebbe …?_\n_Ho bisogno di_ (ich brauche) · _Ho voglia di_ (ich habe Lust auf)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Parli con la commessa (Lei) o con un amico (tu)? Scegli la forma giusta.",
+   "promptHelp": "Lei oder tu? Wähle die passende Form.",
+   "explanation": "Lei = terza persona: Lei ha, Lei sta, Lei può.",
+   "explanationHelp": "Lei = 3. Person: Lei ha, Lei sta, Lei può.",
+   "type": "gap_choice",
+   "text": "(commessa) Scusi, [[g1]] questa maglietta in taglia M?\n(amico) Luca, [[g2]] un gelato?\n(signore) Buongiorno, come [[g3]]?\n(amica) Sara, [[g4]] con me?\n(cameriere) Che cosa [[g5]], signora?\n(compagno) [[g6]] la penna?\n(professoressa) Prof, [[g7]] ripetere?\n(nonna di un amico) Signora, [[g8]] di Torino?",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "ha",
+      "hai"
+     ],
+     "answer": "ha"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "vuoi",
+      "vuole"
+     ],
+     "answer": "vuoi"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "sta",
+      "stai"
+     ],
+     "answer": "sta"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "vieni",
+      "viene"
+     ],
+     "answer": "vieni"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "desidera",
+      "desideri"
+     ],
+     "answer": "desidera"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Hai",
+      "Ha"
+     ],
+     "answer": "Hai"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "può",
+      "puoi"
+     ],
+     "answer": "può"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "è",
+      "sei"
+     ],
+     "answer": "è"
+    }
+   ]
+  }
+ ]
+}

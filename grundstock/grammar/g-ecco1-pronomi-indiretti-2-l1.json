@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-pronomi-indiretti-2-l1",
+ "title": "Indiretto: quale pronome?",
+ "language": "it",
+ "level": "A1",
+ "description": "Pronomi indiretti e pronomi tonici · Indiretto: quale pronome? · livello facile.",
+ "topics": [
+  "Pronomi indiretti e pronomi tonici",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte indirekte und betonte Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-pronomi-indiretti-2",
+  "topicTitle": "Pronomi indiretti e pronomi tonici",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 61,
+  "rule": "**Pronomi indiretti** (a chi?) prima del verbo:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n_Gli preparo la cena. · Le piace il rosso. · Ci manca la pizza._\n\n**Pronomi tonici** dopo una preposizione o per sottolineare:\n| me | te | lui | lei | Lei | noi | voi | loro |\n_Vieni **con me**? · Questo è **per te**. · **A me** piace, **a lui** no._",
+  "ruleHelp": "**Indirekte Pronomen** (wem?) stehen vor dem Verb: mi, ti, gli, le, Le, ci, vi, gli. _Gli preparo la cena. Le piace il rosso._\n**Betonte Pronomen** nach Präpositionen oder zur Betonung: me, te, lui, lei, Lei, noi, voi, loro: _con me, per te, a me piace, a lui no._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli il pronome indiretto.",
+   "promptHelp": "Wähle das indirekte Pronomen.",
+   "explanation": "a lui → gli, a lei → le, a Lei → Le, a loro → gli.",
+   "explanationHelp": "a lui → gli, a lei → le, a Lei → Le, a loro → gli.",
+   "type": "gap_choice",
+   "text": "Marco ha fame: [[g1]] preparo un panino.\nAnna ha freddo: [[g2]] do la mia giacca.\nRagazzi, [[g3]] piace la pizza?\nMamma, [[g4]] compri un gelato?\nAi nonni [[g5]] porto i fiori.\nSignora, [[g6]] piace questo vestito?\nLuca, [[g7]] sta bene quella felpa!\nA noi [[g8]] manca l’Italia.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "gli",
+      "le",
+      "vi"
+     ],
+     "answer": "gli"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "le",
+      "gli",
+      "ci"
+     ],
+     "answer": "le"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "vi",
+      "ci",
+      "gli"
+     ],
+     "answer": "vi"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "mi",
+      "ti",
+      "le"
+     ],
+     "answer": "mi"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "gli",
+      "le",
+      "ci"
+     ],
+     "answer": "gli"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Le",
+      "gli",
+      "ti"
+     ],
+     "answer": "Le"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "ti",
+      "mi",
+      "vi"
+     ],
+     "answer": "ti"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "ci",
+      "vi",
+      "gli"
+     ],
+     "answer": "ci"
+    }
+   ]
+  }
+ ]
+}

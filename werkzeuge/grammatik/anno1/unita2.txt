@@ -2,6 +2,7 @@
 ## Primo anno · Lektion 2 · La mia camera · Grammatikthemen (Lehrplan Jgst. 8). Zahlen 1–100: Trainer „Zahlen, Uhrzeit, Datum“.
 
 @thema avere | 2 · La mia camera | Per cominciare | Il verbo avere | 1
+#lehrplan Jgst. 8 · Hilfsverb avere
 #regel
 **avere** è irregolare. La **h** non si pronuncia.
 | io | tu | lui / lei | noi | voi | loro |
@@ -158,6 +159,7 @@ Io [hai=>ho] una bici nuova.
 ! Domande con «quanti anni» + avere. || Fragen mit „quanti anni“ + avere.
 
 @thema mi-piace | 2 · La mia camera | Per cominciare | (Non) mi piace / mi piacciono | 2
+#lehrplan Jgst. 8 · Vorlieben und Abneigungen: mi piace / mi piacciono, auch mit Infinitiv
 #regel
 - **mi piace** + singolare o verbo all’infinito: _Mi piace la musica. Mi piace ballare._
 - **mi piacciono** + plurale: _Mi piacciono le canzoni italiane._
@@ -292,6 +294,7 @@ ballare (☺) e cantare (☹) | Mi piace ballare, ma non mi piace cantare | Mi p
 ! Ogni parte della frase ha la sua forma. || Jeder Satzteil hat seine eigene Form.
 
 @thema questo | 2 · La mia camera | Parte A | Questo, questa, questi, queste | 3
+#lehrplan Jgst. 8 · Demonstrativbegleiter und -pronomen questo
 #regel
 **questo** cambia come il nome:
 | | singolare | plurale |
@@ -410,6 +413,7 @@ E [queste] calze? Sono in cucina!
 (riviste) … sono le mie riviste. | Queste | Queste sono le mie riviste.
 
 @thema preposizioni-articolate | 2 · La mia camera | Parte A | Le preposizioni articolate | 4
+#lehrplan Jgst. 8 · preposizioni articolate
 #regel
 Le preposizioni **a, da, di, in, su** si uniscono all’articolo determinativo:
 | | il | lo | l’ | la | i | gli | le |
@@ -540,6 +544,7 @@ Ah no, il cellulare è (su + la) [sulla] sedia (in + la) [nella] cucina!
 Poi lo porto (a + la) [alla] nonna (in + il) [nel] salotto.
 
 @thema possessivi-1 | 2 · La mia camera | Parte A | Gli aggettivi possessivi (1) | 5
+#lehrplan Jgst. 8 · Possessivbegleiter
 #regel
 Prima del possessivo di solito c’è **l’articolo**:
 | | m. sing. | f. sing. | m. plur. | f. plur. |
@@ -667,6 +672,7 @@ I nostri genitori dicono: «Ragazzi, [la vostra] camera è un caos!»
 (io / amici / simpatici) | I miei amici sono simpatici | I miei amici sono simpatici.
 
 @thema ire-andare | 2 · La mia camera | Parte B | I verbi in -ire e andare | 6
+#lehrplan Jgst. 8 · Präsens: andare und Verben auf -ire
 #regel
 **Verbi in -ire** (senza -isc-):
 | persona | dormire | sentire |
@@ -798,6 +804,7 @@ I miei genitori [vanno] al mercato.
 Noi [partiamo] alle dieci per la gita.
 
 @thema aggettivi | 2 · La mia camera | Parte B | Gli aggettivi e la loro posizione | 7
+#lehrplan Jgst. 8 · Adjektive
 #regel
 L’aggettivo cambia come il nome (genere e numero):
 | tipo | m. sing. | f. sing. | m. plur. | f. plur. |

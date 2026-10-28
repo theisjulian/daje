@@ -2,6 +2,7 @@
 ## Primo anno · Lektion 5 · Famiglia e gite · Grammatikthemen (Lehrplan Jgst. 8). Datum: auch im Trainer.
 
 @thema data | 5 · Famiglia e gite | Per cominciare | La data | 1
+#lehrplan Jgst. 8 · Daten und Jahreszahlen
 #regel
 - _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._
 - Il primo giorno del mese: **il primo** (aprile).
@@ -128,6 +129,7 @@ La mia festa è (25.4.) [il venticinque aprile].
 ! Con il giorno della settimana: niente articolo (sabato venti aprile). || Mit Wochentag kein Artikel.
 
 @thema possessivi-2 | 5 · Famiglia e gite | Parte A | I possessivi con i nomi di famiglia | 2
+#lehrplan Jgst. 8 · Possessivbegleiter bei Verwandtschaftsbezeichnungen
 #regel
 Con i **parenti al singolare** non c’è l’articolo: _mia madre, tuo padre, suo fratello, nostra zia._
 **Con l’articolo** il possessivo sta
@@ -253,6 +255,7 @@ zio | [mio zio]
 cugine | [le mie cugine]
 
 @thema che-relativo | 5 · Famiglia e gite | Parte A | Il pronome relativo che | 3
+#lehrplan Jgst. 8 · Relativsätze mit che
 #regel
 **che** unisce due frasi e si riferisce a un nome:
 - _Ho un’amica. L’amica abita a Roma._ → _Ho un’amica **che** abita a Roma._
@@ -362,6 +365,7 @@ Il nonno che [raccontano=>racconta] storie è simpatico.
 ! che non cambia mai; il verbo va con il nome. || che bleibt gleich; das Verb richtet sich nach dem Nomen.
 
 @thema pp-modali | 5 · Famiglia e gite | Parte B | Il passato prossimo dei verbi modali | 4
+#lehrplan Jgst. 8 · passato prossimo der Modalverben
 #regel
 I verbi modali al passato prossimo prendono l’ausiliare del **verbo che segue**:
 - _Ho dovuto **studiare**._ (studiare → avere)
@@ -478,6 +482,7 @@ Poi (dovere) [sono dovuto/sono dovuta] andare dai nonni.
 (Volere) [Ho voluto] telefonarti.
 
 @thema imperativo-noi | 5 · Famiglia e gite | Parte B | L’imperativo della prima persona plurale | 5
+#lehrplan Jgst. 8 · Imperativ der 1. Person Plural
 #regel
 Con la **prima persona plurale** facciamo una proposta («Lass uns …!»). La forma è come al presente:
 - _**Andiamo** al cinema!_ · _**Prendiamo** l’autobus!_ · _**Facciamo** una pausa!_
@@ -587,6 +592,7 @@ Non [prendete=>prendiamo] il taxi, è caro!
 ! Proposta con noi: andiamo, mangiamo, facciamo. || Vorschlag mit noi.
 
 @thema quantita | 5 · Famiglia e gite | Parte B | Molto, poco, tanto, troppo | 6
+#lehrplan Jgst. 8 · molto, poco, tanto, troppo als Adverb und Begleiter
 #regel
 **Come avverbio** (con un verbo o un aggettivo) **non cambiano**:
 _Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._

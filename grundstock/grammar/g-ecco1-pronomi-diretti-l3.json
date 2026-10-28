@@ -1,0 +1,125 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-pronomi-diretti-l3",
+ "title": "Pronome giusto",
+ "language": "it",
+ "level": "A1",
+ "description": "I pronomi diretti (lo, la, li, le …) · Pronome giusto · livello facile.",
+ "topics": [
+  "I pronomi diretti (lo, la, li, le …)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte direkte Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-pronomi-diretti",
+  "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 33,
+  "rule": "I pronomi diretti sostituiscono un **oggetto diretto** (chi? che cosa?) e vanno **prima del verbo**:\n| mi | ti | lo | la | ci | vi | li | le |\n| mich | dich | ihn / es | sie / es | uns | euch | sie (m.) | sie (f.) |\n\n- _Compri la gonna? – Sì, **la** compro._\n- _Vedi Marco? – Sì, **lo** vedo._\n- _Prendi i pomodori? – Sì, **li** prendo._ · _Le mele? – **Le** prendo io._\n- Davanti a vocale: **l’**: _L’aspetto._ · Negazione: _Non **lo** vedo._",
+  "ruleHelp": "Direkte Objektpronomen ersetzen ein **direktes Objekt** (wen? was?) und stehen **vor dem Verb**: mi, ti, lo, la, ci, vi, li, le.\n_Compri la gonna? – Sì, la compro._ · Vor Vokal: _l’_ (L’aspetto). · Verneinung: _Non lo vedo._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Quale pronome? Metti le parole nel gruppo giusto.",
+   "promptHelp": "Welches Pronomen? Ordne zu.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "lo",
+     "label": "lo"
+    },
+    {
+     "id": "la",
+     "label": "la"
+    },
+    {
+     "id": "li",
+     "label": "li"
+    },
+    {
+     "id": "le",
+     "label": "le"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "il pane",
+     "category": "lo"
+    },
+    {
+     "id": "i2",
+     "text": "il formaggio",
+     "category": "lo"
+    },
+    {
+     "id": "i3",
+     "text": "lo zaino",
+     "category": "lo"
+    },
+    {
+     "id": "i4",
+     "text": "la pasta",
+     "category": "la"
+    },
+    {
+     "id": "i5",
+     "text": "la gonna",
+     "category": "la"
+    },
+    {
+     "id": "i6",
+     "text": "i biscotti",
+     "category": "li"
+    },
+    {
+     "id": "i7",
+     "text": "i jeans",
+     "category": "li"
+    },
+    {
+     "id": "i8",
+     "text": "le mele",
+     "category": "le"
+    },
+    {
+     "id": "i9",
+     "text": "le scarpe",
+     "category": "le"
+    },
+    {
+     "id": "i10",
+     "text": "la frutta",
+     "category": "la"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-colori-m2",
+ "title": "Singolare e plurale",
+ "language": "it",
+ "level": "A1",
+ "description": "I colori · Singolare e plurale · livello medio.",
+ "topics": [
+  "I colori",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Farbadjektive"
+ },
+ "grammar": {
+  "topic": "ecco1-colori",
+  "topicTitle": "I colori",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 12,
+  "rule": "I colori sono aggettivi: vanno **dopo** il nome e cambiano come il nome.\n| -o/-a | rosso, rossa, rossi, rosse · nero · bianco (bianchi, bianche) · giallo · grigio (grigi, grigie) · azzurro |\n| -e | verde, verdi · marrone, marroni · arancione, arancioni |\n| non cambiano | blu · rosa · viola · beige |\n\n_una maglietta **rossa**, due magliette **rosse**, i pantaloni **blu**, le scarpe **rosa**._",
+  "ruleHelp": "Farben sind Adjektive: Sie stehen **nach** dem Nomen und passen sich an (rosso/rossa/rossi/rosse; verde/verdi).\n**Unveränderlich** sind blu, rosa, viola, beige: _i pantaloni blu, le scarpe rosa._ Achtung: bianco → bianchi/bianche, grigio → grigi/grigie."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi il plurale.",
+   "promptHelp": "Schreibe den Plural.",
+   "type": "table_fill",
+   "columns": [
+    "singolare",
+    "plurale"
+   ],
+   "rows": [
+    [
+     "una gonna bianca",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "due gonne bianche"
+      ]
+     }
+    ],
+    [
+     "un maglione grigio",
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "due maglioni grigi"
+      ]
+     }
+    ],
+    [
+     "una maglietta rosa",
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "due magliette rosa"
+      ]
+     }
+    ],
+    [
+     "un vestito blu",
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "due vestiti blu"
+      ]
+     }
+    ],
+    [
+     "una scarpa verde",
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "due scarpe verdi"
+      ]
+     }
+    ],
+    [
+     "un cappello nero",
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "due cappelli neri"
+      ]
+     }
+    ],
+    [
+     "una felpa arancione",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "due felpe arancioni"
+      ]
+     }
+    ],
+    [
+     "un pantalone marrone",
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "due pantaloni marroni"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

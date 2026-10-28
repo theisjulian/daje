@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-cortesia-s1",
+ "title": "Al bar",
+ "language": "it",
+ "level": "A1",
+ "description": "La forma di cortesia e l’imperativo di cortesia · Al bar · livello difficile.",
+ "topics": [
+  "La forma di cortesia e l’imperativo di cortesia",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · höfliche Anrede in Singular und Plural; imperativo di cortesia (scusi, mi dica, mi dia); avere bisogno/voglia di"
+ },
+ "grammar": {
+  "topic": "ecco1-cortesia",
+  "topicTitle": "La forma di cortesia e l’imperativo di cortesia",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 81,
+  "rule": "Con gli adulti che non conosci usiamo **Lei** (terza persona singolare): _Come **sta**? Che cosa **desidera**?_\nCon più persone si usa **voi**: _Ragazzi, che cosa **prendete**?_\n**Imperativo di cortesia** (frasi fisse):\n| Scusi! | Senta! | Mi dica! | Mi dia … | Prego! | Venga! | Prenda! |\nPer chiedere gentilmente: _**Vorrei** un caffè. · **Potrebbe** aiutarmi?_\nAltre frasi: _**Ho bisogno di** una taglia più grande. · **Ho voglia di** un gelato._",
+  "ruleHelp": "Erwachsene, die man nicht kennt, spricht man mit **Lei** an (3. Person Singular): _Come sta? Che cosa desidera?_ Mehrere Personen: **voi**.\nFeste höfliche Imperative: _Scusi! Senta! Mi dica! Mi dia … Prego! Venga! Prenda!_ · Höflich bitten: _Vorrei …, Potrebbe …?_\n_Ho bisogno di_ (ich brauche) · _Ho voglia di_ (ich habe Lust auf)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa il dialogo al bar con le forme di cortesia.",
+   "promptHelp": "Ergänze den Dialog im Café.",
+   "type": "gap_fill",
+   "text": "Cameriere: Buongiorno, che cosa (desiderare, Lei) [[g1]]?\nSignora: [[g2]] un cappuccino e una brioche, per favore.\nCameriere: Certo. E Lei, signore, che cosa (prendere) [[g3]]?\nSignore: Mi (dare) [[g4]] un caffè, grazie.\nCameriere: Ecco a [[g5]].\nSignora: (Scusare) [[g6]], quanto (costare) [[g7]] tutto?\nCameriere: Cinque euro e cinquanta.\nSignora: Ecco. [[g8]], tenga il resto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "desidera"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Vorrei"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "prende"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "dia"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Lei"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Scusi"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "costa"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Prego"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-cortesia-l2",
+ "title": "Frasi utili al negozio",
+ "language": "it",
+ "level": "A1",
+ "description": "La forma di cortesia e l’imperativo di cortesia · Frasi utili al negozio · livello facile.",
+ "topics": [
+  "La forma di cortesia e l’imperativo di cortesia",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · höfliche Anrede in Singular und Plural; imperativo di cortesia (scusi, mi dica, mi dia); avere bisogno/voglia di"
+ },
+ "grammar": {
+  "topic": "ecco1-cortesia",
+  "topicTitle": "La forma di cortesia e l’imperativo di cortesia",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 82,
+  "rule": "Con gli adulti che non conosci usiamo **Lei** (terza persona singolare): _Come **sta**? Che cosa **desidera**?_\nCon più persone si usa **voi**: _Ragazzi, che cosa **prendete**?_\n**Imperativo di cortesia** (frasi fisse):\n| Scusi! | Senta! | Mi dica! | Mi dia … | Prego! | Venga! | Prenda! |\nPer chiedere gentilmente: _**Vorrei** un caffè. · **Potrebbe** aiutarmi?_\nAltre frasi: _**Ho bisogno di** una taglia più grande. · **Ho voglia di** un gelato._",
+  "ruleHelp": "Erwachsene, die man nicht kennt, spricht man mit **Lei** an (3. Person Singular): _Come sta? Che cosa desidera?_ Mehrere Personen: **voi**.\nFeste höfliche Imperative: _Scusi! Senta! Mi dica! Mi dia … Prego! Venga! Prenda!_ · Höflich bitten: _Vorrei …, Potrebbe …?_\n_Ho bisogno di_ (ich brauche) · _Ho voglia di_ (ich habe Lust auf)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Che cosa vuol dire?",
+   "promptHelp": "Was bedeutet das?",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Mi dica!",
+     "right": "Was darf es sein?"
+    },
+    {
+     "id": "p2",
+     "left": "Scusi!",
+     "right": "Entschuldigung!"
+    },
+    {
+     "id": "p3",
+     "left": "Mi dia un etto di prosciutto.",
+     "right": "Geben Sie mir 100 g Schinken."
+    },
+    {
+     "id": "p4",
+     "left": "Prego!",
+     "right": "Bitte sehr!"
+    },
+    {
+     "id": "p5",
+     "left": "Vorrei una felpa.",
+     "right": "Ich hätte gern einen Pullover."
+    },
+    {
+     "id": "p6",
+     "left": "Quanto costa?",
+     "right": "Wie viel kostet das?"
+    },
+    {
+     "id": "p7",
+     "left": "Ho bisogno di una taglia più grande.",
+     "right": "Ich brauche eine größere Größe."
+    },
+    {
+     "id": "p8",
+     "left": "Ho voglia di un gelato.",
+     "right": "Ich habe Lust auf ein Eis."
+    }
+   ]
+  }
+ ]
+}

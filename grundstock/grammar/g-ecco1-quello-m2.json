@@ -1,0 +1,122 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quello-m2",
+ "title": "Quale vuoi?",
+ "language": "it",
+ "level": "A1",
+ "description": "Quello: aggettivo e pronome · Quale vuoi? · livello medio.",
+ "topics": [
+  "Quello: aggettivo e pronome",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quello",
+  "topicTitle": "Quello: aggettivo e pronome",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 22,
+  "rule": "**quello** (dort, jener) indica una cosa **lontana**. Davanti al nome cambia come l’articolo:\n| il → **quel** cappello | lo → **quello** zaino | l’ → **quell’**armadio / **quell’**amica | la → **quella** gonna |\n| i → **quei** cappelli | gli → **quegli** zaini / **quegli** amici | le → **quelle** gonne |\n\nDa solo (pronome): **quello, quella, quelli, quelle**: _Quale maglietta? – Quella rossa._ · _Chi è quello lì?_\n**questo** = vicino · **quello** = lontano.",
+  "ruleHelp": "**quello** zeigt auf etwas **Entferntes**. Vor dem Nomen geht es wie der Artikel: quel cappello, quello zaino, quell’armadio, quella gonna, quei cappelli, quegli zaini, quelle gonne.\nAllein (Pronomen): quello, quella, quelli, quelle: _Quale maglietta? – Quella rossa._ questo = nah, quello = fern."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi con il pronome quello / quella / quelli / quelle + colore.",
+   "promptHelp": "Antworte mit dem Pronomen + Farbe.",
+   "explanation": "Come pronome: quello, quella, quelli, quelle (non quel, quei).",
+   "explanationHelp": "Als Pronomen: quello, quella, quelli, quelle.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Quale maglietta vuoi? (rot) – …",
+     "acceptedAnswers": [
+      "Quella rossa"
+     ],
+     "modelAnswer": "Quella rossa."
+    },
+    {
+     "id": "s2",
+     "start": "Quali pantaloni prendi? (schwarz) – …",
+     "acceptedAnswers": [
+      "Quelli neri"
+     ],
+     "modelAnswer": "Quelli neri."
+    },
+    {
+     "id": "s3",
+     "start": "Quale cappello ti piace? (blau) – …",
+     "acceptedAnswers": [
+      "Quello blu"
+     ],
+     "modelAnswer": "Quello blu."
+    },
+    {
+     "id": "s4",
+     "start": "Quali scarpe compri? (weiß) – …",
+     "acceptedAnswers": [
+      "Quelle bianche"
+     ],
+     "modelAnswer": "Quelle bianche."
+    },
+    {
+     "id": "s5",
+     "start": "Quale gonna provi? (grün) – …",
+     "acceptedAnswers": [
+      "Quella verde"
+     ],
+     "modelAnswer": "Quella verde."
+    },
+    {
+     "id": "s6",
+     "start": "Quali calzini vuoi? (gelb) – …",
+     "acceptedAnswers": [
+      "Quelli gialli"
+     ],
+     "modelAnswer": "Quelli gialli."
+    },
+    {
+     "id": "s7",
+     "start": "Quale vestito porti? (lila) – …",
+     "acceptedAnswers": [
+      "Quello viola"
+     ],
+     "modelAnswer": "Quello viola."
+    },
+    {
+     "id": "s8",
+     "start": "Quali felpe ti piacciono? (grau) – …",
+     "acceptedAnswers": [
+      "Quelle grigie"
+     ],
+     "modelAnswer": "Quelle grigie."
+    }
+   ]
+  }
+ ]
+}

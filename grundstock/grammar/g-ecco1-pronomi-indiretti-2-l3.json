@@ -1,0 +1,117 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-pronomi-indiretti-2-l3",
+ "title": "Indiretto o tonico?",
+ "language": "it",
+ "level": "A1",
+ "description": "Pronomi indiretti e pronomi tonici · Indiretto o tonico? · livello facile.",
+ "topics": [
+  "Pronomi indiretti e pronomi tonici",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte indirekte und betonte Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-pronomi-indiretti-2",
+  "topicTitle": "Pronomi indiretti e pronomi tonici",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 63,
+  "rule": "**Pronomi indiretti** (a chi?) prima del verbo:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n_Gli preparo la cena. · Le piace il rosso. · Ci manca la pizza._\n\n**Pronomi tonici** dopo una preposizione o per sottolineare:\n| me | te | lui | lei | Lei | noi | voi | loro |\n_Vieni **con me**? · Questo è **per te**. · **A me** piace, **a lui** no._",
+  "ruleHelp": "**Indirekte Pronomen** (wem?) stehen vor dem Verb: mi, ti, gli, le, Le, ci, vi, gli. _Gli preparo la cena. Le piace il rosso._\n**Betonte Pronomen** nach Präpositionen oder zur Betonung: me, te, lui, lei, Lei, noi, voi, loro: _con me, per te, a me piace, a lui no._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "È un pronome indiretto (prima del verbo) o tonico (dopo una preposizione)?",
+   "promptHelp": "Unbetont (vor dem Verb) oder betont (nach Präposition)?",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "ind",
+     "label": "indiretto"
+    },
+    {
+     "id": "ton",
+     "label": "tonico"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "gli",
+     "category": "ind"
+    },
+    {
+     "id": "i2",
+     "text": "le",
+     "category": "ind"
+    },
+    {
+     "id": "i3",
+     "text": "mi",
+     "category": "ind"
+    },
+    {
+     "id": "i4",
+     "text": "ci",
+     "category": "ind"
+    },
+    {
+     "id": "i5",
+     "text": "vi",
+     "category": "ind"
+    },
+    {
+     "id": "i6",
+     "text": "me",
+     "category": "ton"
+    },
+    {
+     "id": "i7",
+     "text": "te",
+     "category": "ton"
+    },
+    {
+     "id": "i8",
+     "text": "lui",
+     "category": "ton"
+    },
+    {
+     "id": "i9",
+     "text": "lei",
+     "category": "ton"
+    },
+    {
+     "id": "i10",
+     "text": "loro",
+     "category": "ton"
+    }
+   ]
+  }
+ ]
+}

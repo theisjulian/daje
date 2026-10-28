@@ -1,0 +1,100 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-uscire-bere-l3",
+ "title": "Persona e forma",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi irregolari uscire, bere, tenere · Persona e forma · livello facile.",
+ "topics": [
+  "I verbi irregolari uscire, bere, tenere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: uscire, bere, tenere"
+ },
+ "grammar": {
+  "topic": "ecco1-uscire-bere",
+  "topicTitle": "I verbi irregolari uscire, bere, tenere",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 43,
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| uscire | esco | esci | esce | usciamo | uscite | escono |\n| bere | bevo | bevi | beve | beviamo | bevete | bevono |\n| tenere | tengo | tieni | tiene | teniamo | tenete | tengono |\n\n_Esco con gli amici. · Bevo un succo. · Tengo il cane al guinzaglio._\n**Attenzione:** uscire: e- con io, tu, lui, loro (esco), ma u- con noi e voi (usciamo).",
+  "ruleHelp": "uscire (ausgehen): esco, esci, esce, usciamo, uscite, escono · bere (trinken): bevo, bevi, beve … (Stamm bev-) · tenere (halten): tengo, tieni, tiene, teniamo, tenete, tengono.\n**Achtung:** uscire hat e- bei io, tu, lui, loro, aber u- bei noi und voi."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina persona e forma di uscire.",
+   "promptHelp": "Verbinde Person und Form von uscire.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "io",
+     "right": "esco"
+    },
+    {
+     "id": "p2",
+     "left": "tu",
+     "right": "esci"
+    },
+    {
+     "id": "p3",
+     "left": "lui / lei",
+     "right": "esce"
+    },
+    {
+     "id": "p4",
+     "left": "noi",
+     "right": "usciamo"
+    },
+    {
+     "id": "p5",
+     "left": "voi",
+     "right": "uscite"
+    },
+    {
+     "id": "p6",
+     "left": "loro",
+     "right": "escono"
+    },
+    {
+     "id": "p7",
+     "left": "Marco e io",
+     "right": "usciamo"
+    },
+    {
+     "id": "p8",
+     "left": "tu e Sara",
+     "right": "uscite"
+    }
+   ],
+   "distractors": [
+    "uscono"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-cortesia-s2",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A1",
+ "description": "La forma di cortesia e l’imperativo di cortesia · Trova gli errori · livello difficile.",
+ "topics": [
+  "La forma di cortesia e l’imperativo di cortesia",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · höfliche Anrede in Singular und Plural; imperativo di cortesia (scusi, mi dica, mi dia); avere bisogno/voglia di"
+ },
+ "grammar": {
+  "topic": "ecco1-cortesia",
+  "topicTitle": "La forma di cortesia e l’imperativo di cortesia",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 82,
+  "rule": "Con gli adulti che non conosci usiamo **Lei** (terza persona singolare): _Come **sta**? Che cosa **desidera**?_\nCon più persone si usa **voi**: _Ragazzi, che cosa **prendete**?_\n**Imperativo di cortesia** (frasi fisse):\n| Scusi! | Senta! | Mi dica! | Mi dia … | Prego! | Venga! | Prenda! |\nPer chiedere gentilmente: _**Vorrei** un caffè. · **Potrebbe** aiutarmi?_\nAltre frasi: _**Ho bisogno di** una taglia più grande. · **Ho voglia di** un gelato._",
+  "ruleHelp": "Erwachsene, die man nicht kennt, spricht man mit **Lei** an (3. Person Singular): _Come sta? Che cosa desidera?_ Mehrere Personen: **voi**.\nFeste höfliche Imperative: _Scusi! Senta! Mi dica! Mi dia … Prego! Venga! Prenda!_ · Höflich bitten: _Vorrei …, Potrebbe …?_\n_Ho bisogno di_ (ich brauche) · _Ho voglia di_ (ich habe Lust auf)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Parli con la signora Rossi (Lei). Correggi gli errori.",
+   "promptHelp": "Du sprichst mit Frau Rossi (Lei). Korrigiere.",
+   "type": "error_correction",
+   "text": "Buongiorno signora, come [[g1]]?\n[[g2]], dov’è la stazione?\n[[g3]] un caffè?\n[[g4]] figli?\n[[g5]], che ore sono?\n[[g6]] ripetere, per favore?\n[[g7]] qui vicino?\n[[g8]] un etto di prosciutto, per favore.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "stai",
+     "acceptedAnswers": [
+      "sta"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "Senti",
+     "acceptedAnswers": [
+      "Senta"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "Vuoi",
+     "acceptedAnswers": [
+      "Vuole"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "Hai",
+     "acceptedAnswers": [
+      "Ha"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "Scusa",
+     "acceptedAnswers": [
+      "Scusi"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "Puoi",
+     "acceptedAnswers": [
+      "Può"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "Abiti",
+     "acceptedAnswers": [
+      "Abita"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "Dammi",
+     "acceptedAnswers": [
+      "Mi dia"
+     ]
+    }
+   ]
+  }
+ ]
+}

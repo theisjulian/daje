@@ -3,6 +3,7 @@
 ## Alles für Lernende auf Italienisch, Deutsch als Hilfe (|| …). Jede Übung mindestens 8 Einheiten.
 
 @thema artikel-sg | 1 · La città | Per cominciare | L’articolo determinativo singolare (il, lo, la, l’) | 1
+#lehrplan Jgst. 8 · Substantive und bestimmter Artikel
 #regel
 Ogni nome ha un genere: **maschile** (spesso in -o) o **femminile** (spesso in -a). I nomi in -e possono essere maschili o femminili.
 
@@ -182,6 +183,7 @@ Il fiume si chiama … · La piazza è grande. · Lo stadio è nuovo. · L’osp
 Zeilen: 5
 
 @thema are-presente | 1 · La città | Parte A | I verbi in -are al presente | 2
+#lehrplan Jgst. 8 · Präsens: regelmäßige Verben
 #regel
 I verbi in **-are** sono il gruppo più grande. Togli -are e aggiungi la desinenza:
 
@@ -351,6 +353,7 @@ Io [aspetti=>aspetto] la tua email!
 ! Prima chiediti chi fa l’azione: io → -o, mio padre → -a, io e mio fratello = noi → -iamo. || Zuerst klären, wer handelt: io → -o, mio padre → -a, io e mio fratello = noi → -iamo.
 
 @thema essere-stare | 1 · La città | Parte A | I verbi essere e stare | 3
+#lehrplan Jgst. 8 · Präsens: essere, stare
 #regel
 **essere** è irregolare:
 | io | tu | lui / lei | noi | voi | loro |
@@ -511,6 +514,7 @@ Noi [siamo] amiche da un mese, che bello!
 ! Come va → stare. Tutto il resto qui → essere. || Befinden → stare. Alles andere hier → essere.
 
 @thema a-in | 1 · La città | Parte A | Le preposizioni a e in | 4
+#lehrplan Jgst. 8 · wichtige Präpositionen
 #regel
 Per i luoghi usiamo:
 - **a** + città: _abito a Torino, a Roma, a Berlino_
@@ -636,6 +640,7 @@ La domenica resto [a] casa.
 ! Città → a, regione e via → in. || Stadt → a, Region und Straße → in.
 
 @thema soggetto | 1 · La città | Parte A | I pronomi soggetto | 5
+#lehrplan Jgst. 8 · Subjektpronomen
 #regel
 | io | tu | lui / lei / Lei | noi | voi | loro |
 | ich | du | er / sie / Sie | wir | ihr | sie |
@@ -754,6 +759,7 @@ Giulia e Sara? [Voi=>Loro] arrivano adesso.
 ! Con io → noi, con tu → voi, persone di cui parlo → loro. || Mit io → noi, mit tu → voi, Leute, über die ich spreche → loro.
 
 @thema non | 1 · La città | Parte A | La negazione con non | 6
+#lehrplan Jgst. 8 · Negation
 #regel
 **non** va **prima del verbo**:
 - _Abito a Torino._ → _**Non** abito a Torino._
@@ -907,6 +913,7 @@ Studi tedesco? (italiano) | No, non studio tedesco. Studio italiano | No, non st
 ! Rispondi con io (domanda con tu) o con noi (domanda con voi). || Antworte mit io (Frage mit tu) oder mit noi (Frage mit voi).
 
 @thema articolo-indeterminativo | 1 · La città | Parte A | L’articolo indeterminativo (un, uno, una, un’) | 7
+#lehrplan Jgst. 8 · unbestimmter Artikel
 #regel
 | articolo | quando? | esempio |
 | un | maschile (anche + vocale) | un ragazzo, un amico |
@@ -1034,6 +1041,7 @@ C’è … (Freundin) | un’amica | C’è un’amica.
 ! Pensa al genere e alla prima lettera. || Denk an das Geschlecht und den Anfangsbuchstaben.
 
 @thema plurale | 1 · La città | Parte B | Il plurale: articolo e nome | 8
+#lehrplan Jgst. 8 · Singular/Plural der Substantive
 #regel
 **Nomi:**
 | singolare | plurale | esempio |
@@ -1173,6 +1181,7 @@ Lo studente parla inglese. → … | Gli studenti parlano inglese | Gli studenti
 ! Cambia articolo, nome, verbo e aggettivo. || Artikel, Nomen, Verb und Adjektiv ändern sich.
 
 @thema ere-presente | 1 · La città | Parte B | I verbi in -ere al presente | 9
+#lehrplan Jgst. 8 · Präsens: regelmäßige Verben
 #regel
 | persona | prendere | vedere |
 | io | prend**o** | ved**o** |
@@ -1296,6 +1305,7 @@ voi | [parlate] | [leggete] | [scrivete]
 loro | [parlano] | [leggono] | [scrivono]
 
 @thema ce-ci-sono | 1 · La città | Parte B | C’è e ci sono | 10
+#lehrplan Jgst. 8 · deiktische Elemente: c’è / ci sono im Kontrast zu è / sono
 #regel
 - **c’è** + singolare: _In piazza **c’è** un bar._
 - **ci sono** + plurale: _Nel quartiere **ci sono** due negozi._

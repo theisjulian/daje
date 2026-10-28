@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-posizione-pronomi-s2",
+ "title": "Una cena da preparare",
+ "language": "it",
+ "level": "A1",
+ "description": "La posizione dei pronomi · Una cena da preparare · livello difficile.",
+ "topics": [
+  "La posizione dei pronomi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Stellung der Objektpronomen bei Verneinung, Modalverben und Infinitiv"
+ },
+ "grammar": {
+  "topic": "ecco1-posizione-pronomi",
+  "topicTitle": "La posizione dei pronomi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 72,
+  "rule": "- Di solito il pronome va **prima del verbo**: _**Lo** compro._ · con non: _**Non lo** compro._\n- Con **dovere, potere, volere** ci sono due possibilità:\n  _**Lo** voglio comprare._ = _Voglio comprar**lo**._ (l’infinito perde la -e: comprare → comprar + lo)\n- Con un **infinito** senza modale il pronome va attaccato: _È bello veder**ti**!_ · _Ho voglia di mangiar**la**._",
+  "ruleHelp": "Meist steht das Pronomen **vor dem Verb**: _Lo compro. Non lo compro._\nBei **dovere, potere, volere** zwei Möglichkeiten: _Lo voglio comprare = Voglio comprarlo_ (Infinitiv ohne -e + Pronomen).\nBeim **Infinitiv** wird das Pronomen angehängt: _È bello vederti!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con i pronomi (prima del verbo o attaccati all’infinito).",
+   "promptHelp": "Ergänze die Pronomen.",
+   "explanation": "Prima del verbo coniugato o attaccato all’infinito.",
+   "explanationHelp": "Vor dem konjugierten Verb oder an den Infinitiv angehängt.",
+   "type": "gap_fill",
+   "text": "Il sugo? [[g1]] preparo io. Ma prima devo comprar[[g2]], i pomodori.\nLa pasta? Non [[g3]] trovo! Puoi cercar[[g4]] tu?\nIl formaggio? Voglio grattugiar[[g5]] adesso.\nI nonni? [[g6]] devo chiamare: arrivano alle otto.\nLe candele? Possiamo metter[[g7]] sul tavolo.\nMarco? Non [[g8]] invito, è in vacanza.\nLe mie amiche? Voglio invitar[[g9]] tutte!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Lo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "li"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "lo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Li"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "lo"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "le"
+     ]
+    }
+   ]
+  }
+ ]
+}

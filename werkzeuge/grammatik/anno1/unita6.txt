@@ -1,0 +1,972 @@
+#!buch series=Corso_daje volume=1 grade=8 cefr=A1 prefix=ecco1
+## Primo anno · Lektion 6 · Vestiti e cibo · Grammatikthemen (Lehrplan Jgst. 8). Eigene Übungen.
+
+@thema colori | 6 · Vestiti e cibo | Per cominciare | I colori | 1
+#lehrplan Jgst. 8 · Farbadjektive
+#regel
+I colori sono aggettivi: vanno **dopo** il nome e cambiano come il nome.
+| -o/-a | rosso, rossa, rossi, rosse · nero · bianco (bianchi, bianche) · giallo · grigio (grigi, grigie) · azzurro |
+| -e | verde, verdi · marrone, marroni · arancione, arancioni |
+| non cambiano | blu · rosa · viola · beige |
+
+_una maglietta **rossa**, due magliette **rosse**, i pantaloni **blu**, le scarpe **rosa**._
+#regel-de
+Farben sind Adjektive: Sie stehen **nach** dem Nomen und passen sich an (rosso/rossa/rossi/rosse; verde/verdi).
+**Unveränderlich** sind blu, rosa, viola, beige: _i pantaloni blu, le scarpe rosa._ Achtung: bianco → bianchi/bianche, grigio → grigi/grigie.
+
+%übung leicht | Di che colore è?
+?auswahl | Scegli la forma giusta del colore. || Wähle die richtige Farbform.
+una maglietta {rossa*|rosso|rosse}
+un cappello {nero*|nera|neri}
+due gonne {bianche*|bianchi|bianca}
+i pantaloni {blu*|blui|bla}
+le scarpe {rosa*|rose|rosi}
+una giacca {verde*|verda|verdi}
+le calze {gialle*|gialli|gialla}
+un vestito {viola*|violo|viole}
+i maglioni {grigi*|grigie|grigio}
+una felpa {arancione*|aranciona|arancioni}
+! blu, rosa, viola non cambiano mai. bianco → bianchi/bianche. || blu, rosa, viola bleiben gleich. bianco → bianchi/bianche.
+
+%übung leicht | Colori che cambiano e colori che non cambiano
+?sortieren | Il colore cambia al plurale o no? || Ändert sich die Farbe im Plural oder nicht?
+Kategorien: si=cambia; no=non cambia
+rosso > si
+verde > si
+bianco > si
+giallo > si
+marrone > si
+nero > si
+blu > no
+rosa > no
+viola > no
+beige > no
+
+%übung leicht | Nel negozio
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Vorrei una camicia {bianca*|bianco|bianche}.
+Cerco dei jeans {neri*|nere|nero}.
+Mi piacciono le scarpe {verdi*|verde|verda}.
+Questa sciarpa {rossa*|rosso|rosse} costa 15 euro.
+I calzini {blu*|blui|blue} sono in offerta.
+Ha una gonna {grigia*|grigio|grigie}?
+Le felpe {rosa*|rose|rosse} sono bellissime.
+Il cappotto {marrone*|marrona|marroni} è caro.
+! Il colore va dopo il nome: una camicia bianca. || Die Farbe steht nach dem Nomen.
+
+%übung mittel | Il mio guardaroba
+?luecke | Scrivi il colore nella forma giusta. || Ergänze die Farbe in der richtigen Form.
+Ho una giacca (nero) [nera] e due magliette (bianco) [bianche].
+Le mie scarpe preferite sono (rosso) [rosse].
+I miei jeans sono (blu) [blu].
+Mia sorella ha un vestito (viola) [viola].
+Le sue calze sono (giallo) [gialle].
+Mio padre porta sempre camicie (azzurro) [azzurre].
+Ho anche due cappelli (grigio) [grigi].
+La mia felpa preferita è (verde) [verde].
+I miei calzini sono (rosa) [rosa].
+Le sciarpe della nonna sono (marrone) [marroni].
+
+%übung mittel | Singolare e plurale
+?tabelle | Scrivi il plurale. || Schreibe den Plural.
+Spalten: singolare | plurale
+una gonna bianca | [due gonne bianche]
+un maglione grigio | [due maglioni grigi]
+una maglietta rosa | [due magliette rosa]
+un vestito blu | [due vestiti blu]
+una scarpa verde | [due scarpe verdi]
+un cappello nero | [due cappelli neri]
+una felpa arancione | [due felpe arancioni]
+un pantalone marrone | [due pantaloni marroni]
+
+%übung mittel | Che cosa portano?
+?ergaenzen | Descrivi i vestiti con il colore giusto. || Beschreibe die Kleidung mit der richtigen Farbe.
+Luca porta … (Hose, blau) | i pantaloni blu | Luca porta i pantaloni blu.
+Sara porta … (Rock, rot) | una gonna rossa | Sara porta una gonna rossa.
+Paolo porta … (Schuhe, schwarz) | le scarpe nere/scarpe nere | Paolo porta le scarpe nere.
+Anna porta … (Pullover, grau) | un maglione grigio | Anna porta un maglione grigio.
+Marco porta … (Mütze, grün) | un cappello verde | Marco porta un cappello verde.
+Giulia porta … (Socken, rosa) | le calze rosa/calze rosa | Giulia porta le calze rosa.
+La prof porta … (Jacke, weiß) | una giacca bianca | La prof porta una giacca bianca.
+Il nonno porta … (Hemden, hellblau) | camicie azzurre | Il nonno porta camicie azzurre.
+! Il colore va dopo il nome e cambia (tranne blu, rosa, viola). || Farbe nach dem Nomen und angepasst (außer blu, rosa, viola).
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto colori sbagliati. || Korrigiere die acht falschen Farben.
+Ho due magliette [bianchi=>bianche].
+Le scarpe [rose=>rosa] sono nuove.
+I pantaloni [blui=>blu] sono in offerta.
+Mia madre ha una giacca [nero=>nera].
+Ci sono tre cappelli [grige=>grigi].
+Le felpe [verde=>verdi] costano poco.
+Il vestito [viole=>viola] è elegante.
+Due sciarpe [gialli=>gialle], per favore.
+! bianco → bianche (f. plur.), grigio → grigi (m. plur.); blu, rosa, viola non cambiano. || bianco → bianche, grigio → grigi; blu, rosa, viola unverändert.
+
+%übung schwer | In vetrina
+?luecke | Descrivi la vetrina. Scrivi i colori nella forma giusta. || Beschreibe das Schaufenster.
+In vetrina c’è un manichino con una camicia (bianco) [bianca] e dei pantaloni (blu) [blu].
+Vicino ci sono tre magliette (verde) [verdi] e due felpe (rosa) [rosa].
+Sotto ci sono scarpe (nero) [nere] e calzini (rosso) [rossi].
+A destra c’è un vestito (viola) [viola] con una sciarpa (giallo) [gialla].
+I cappelli sono (marrone) [marroni] e (grigio) [grigi].
+Guarda la maglietta (grigio) [grigia]! Quanto costa?
+! Ogni colore va con il suo nome: genere e numero. || Jede Farbe passt sich an ihr Nomen an.
+
+%übung schwer | Il mio look preferito
+?frei | Descrivi che cosa porti oggi o il tuo look preferito. Usa almeno sei colori. || Beschreibe, was du heute trägst oder deinen Lieblingslook (mindestens sechs Farben).
+Oggi porto una felpa grigia, i jeans blu e le scarpe bianche. Ho anche una sciarpa rossa e un cappello nero. La mia borsa è verde.
+Zeilen: 5
+?luecke | E adesso completa con i colori. || Und jetzt ergänze die Farben.
+Oggi porto una maglietta (bianco) [bianca].
+I miei jeans sono (nero) [neri].
+Le mie scarpe sono (rosa) [rosa].
+La mia giacca è (verde) [verde].
+
+@thema quello | 6 · Vestiti e cibo | Parte A | Quello: aggettivo e pronome | 2
+#regel
+**quello** (dort, jener) indica una cosa **lontana**. Davanti al nome cambia come l’articolo:
+| il → **quel** cappello | lo → **quello** zaino | l’ → **quell’**armadio / **quell’**amica | la → **quella** gonna |
+| i → **quei** cappelli | gli → **quegli** zaini / **quegli** amici | le → **quelle** gonne |
+
+Da solo (pronome): **quello, quella, quelli, quelle**: _Quale maglietta? – Quella rossa._ · _Chi è quello lì?_
+**questo** = vicino · **quello** = lontano.
+#regel-de
+**quello** zeigt auf etwas **Entferntes**. Vor dem Nomen geht es wie der Artikel: quel cappello, quello zaino, quell’armadio, quella gonna, quei cappelli, quegli zaini, quelle gonne.
+Allein (Pronomen): quello, quella, quelli, quelle: _Quale maglietta? – Quella rossa._ questo = nah, quello = fern.
+
+%übung leicht | Quale forma di quello?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+{Quel*|Quello|Quella} cappello è bello.
+{Quello*|Quel|Quell’} zaino è caro.
+{Quella*|Quel|Quelle} gonna è corta.
+{Quell’*|Quel|Quella} armadio è vecchio.
+{Quei*|Quegli|Quelle} pantaloni sono lunghi.
+{Quegli*|Quei|Quelle} stivali sono comodi.
+{Quelle*|Quella|Quei} scarpe sono rosse.
+{Quell’*|Quella|Quel} amica è simpatica.
+{Quegli*|Quei|Quelli} amici sono di Roma.
+{Quel*|Quello|Quelli} negozio è chiuso.
+! quello cambia come l’articolo: il → quel, lo → quello, i → quei, gli → quegli. || quello geht wie der Artikel.
+
+%übung leicht | Articolo e quello
+?zuordnen | Abbina articolo e forma di quello. || Verbinde Artikel und Form von quello.
+il cappello = quel cappello
+lo zaino = quello zaino
+l’armadio = quell’armadio
+la gonna = quella gonna
+i jeans = quei jeans
+gli stivali = quegli stivali
+le scarpe = quelle scarpe
+gli amici = quegli amici
+
+%übung leicht | Questo o quello?
+?auswahl | Vicino (questo) o lontano (quello)? || Nah (questo) oder fern (quello)?
+(qui, in mano) {Questa*|Quella} maglietta è morbida.
+(là, in vetrina) {Quel*|Questo} vestito è elegante.
+(qui, ai miei piedi) {Queste*|Quelle} scarpe sono comode.
+(laggiù) {Quella*|Questa} ragazza è mia cugina.
+(qui, sul tavolo) {Questo*|Quel} pane è fresco.
+(là, sullo scaffale) {Quei*|Questi} biscotti sono buoni.
+(qui, nella borsa) {Questi*|Quei} soldi sono miei.
+(là, dall’altra parte) {Quel*|Questo} negozio è nuovo.
+
+%übung mittel | Al mercato
+?luecke | Scrivi la forma giusta di quello (quel, quello, quell’, quella, quei, quegli, quelle). || Ergänze die richtige Form von quello.
+Quanto costa [quel] formaggio?
+E [quella] mozzarella?
+Mi dà due chili di [quelle] mele, per favore?
+[Quei] pomodori sono freschi?
+[Quell’] olio è italiano?
+Vorrei un etto di [quello] speck.
+[Quegli] spinaci sono molto buoni.
+E [quell’] insalata quanto costa?
+! quell’ davanti a vocale; quello e quegli con s + consonante, z, e (quegli) vocale. || quell’ vor Vokal; quello/quegli vor s + Konsonant, z; quegli auch vor Vokal (Plural).
+
+%übung mittel | Quale vuoi?
+?ergaenzen | Rispondi con il pronome quello / quella / quelli / quelle + colore. || Antworte mit dem Pronomen + Farbe.
+Quale maglietta vuoi? (rot) – … | Quella rossa | Quella rossa.
+Quali pantaloni prendi? (schwarz) – … | Quelli neri | Quelli neri.
+Quale cappello ti piace? (blau) – … | Quello blu | Quello blu.
+Quali scarpe compri? (weiß) – … | Quelle bianche | Quelle bianche.
+Quale gonna provi? (grün) – … | Quella verde | Quella verde.
+Quali calzini vuoi? (gelb) – … | Quelli gialli | Quelli gialli.
+Quale vestito porti? (lila) – … | Quello viola | Quello viola.
+Quali felpe ti piacciono? (grau) – … | Quelle grigie | Quelle grigie.
+! Come pronome: quello, quella, quelli, quelle (non quel, quei). || Als Pronomen: quello, quella, quelli, quelle.
+
+%übung mittel | Quello davanti al nome
+?tabelle | Scrivi la forma di quello con il nome. || Schreibe die Form von quello mit dem Nomen.
+Spalten: nome | con quello
+il negozio | [quel negozio]
+lo specchio | [quello specchio]
+l’orologio | [quell’orologio]
+la borsa | [quella borsa]
+i guanti | [quei guanti]
+gli occhiali | [quegli occhiali]
+le giacche | [quelle giacche]
+l’amica | [quell’amica]
+
+%übung schwer | Trova gli errori
+?fehler | Correggi le forme di quello. || Korrigiere die Formen von quello.
+[Quello=>Quel] maglione è troppo caro.
+[Quel=>Quello] zaino è di Marco.
+[Quei=>Quegli] occhiali sono di mia madre.
+[Quelli=>Quei] pantaloni sono lunghi.
+[Quella=>Quell’] amica abita a Roma.
+Quale maglietta vuoi? – [Quel=>Quella] rossa.
+[Quegli=>Quei] ragazzi giocano a calcio.
+Quali scarpe? – [Quei=>Quelle] bianche.
+! Davanti al nome come l’articolo; da solo: quello, quella, quelli, quelle. || Vor dem Nomen wie der Artikel; allein: quello, quella, quelli, quelle.
+
+%übung schwer | Chi è quello?
+?luecke | Scrivi la forma giusta di quello. || Ergänze die richtige Form von quello.
+– Chi è [quello] lì, con la camicia rossa?
+– È Marco! E [quella] ragazza vicino a lui è sua sorella.
+– E [quei] ragazzi con i cappelli neri?
+– Sono i suoi cugini. [Quegli] occhiali sono di Paolo, sai?
+– Ah, e [quell’] uomo alto?
+– È il papà di Marco. E [quelle] signore sono le sue zie.
+– Che famiglia grande! E [quel] cane?
+– [Quello] è Bobo!
+
+%übung schwer | Fare shopping
+?frei | Sei in un negozio con un’amica. Scrivi un piccolo dialogo con questo e quello. || Schreibe einen kleinen Dialog im Geschäft mit questo und quello.
+– Ti piace questa felpa? – No, preferisco quella grigia. – E quei jeans? – Sì, ma questi sono più belli. – Quanto costa quel cappello? – Venti euro.
+Zeilen: 5
+?auswahl | Controlla: quale forma? || Prüfe: welche Form?
+Preferisco {quella*|quel|quelle} grigia.
+{Quei*|Quegli|Quelle} jeans sono belli.
+Quanto costa {quel*|quello|quella} cappello?
+Mi piacciono {quelle*|quei|quelli} scarpe.
+
+@thema pronomi-diretti | 6 · Vestiti e cibo | Parte A | I pronomi diretti (lo, la, li, le …) | 3
+#lehrplan Jgst. 8 · unbetonte direkte Objektpronomen
+#regel
+I pronomi diretti sostituiscono un **oggetto diretto** (chi? che cosa?) e vanno **prima del verbo**:
+| mi | ti | lo | la | ci | vi | li | le |
+| mich | dich | ihn / es | sie / es | uns | euch | sie (m.) | sie (f.) |
+
+- _Compri la gonna? – Sì, **la** compro._
+- _Vedi Marco? – Sì, **lo** vedo._
+- _Prendi i pomodori? – Sì, **li** prendo._ · _Le mele? – **Le** prendo io._
+- Davanti a vocale: **l’**: _L’aspetto._ · Negazione: _Non **lo** vedo._
+#regel-de
+Direkte Objektpronomen ersetzen ein **direktes Objekt** (wen? was?) und stehen **vor dem Verb**: mi, ti, lo, la, ci, vi, li, le.
+_Compri la gonna? – Sì, la compro._ · Vor Vokal: _l’_ (L’aspetto). · Verneinung: _Non lo vedo._
+
+%übung leicht | Lo, la, li o le?
+?auswahl | Scegli il pronome giusto. || Wähle das richtige Pronomen.
+Compri il pane? – Sì, {lo*|la|li} compro.
+Prendi la pizza? – Sì, {la*|lo|le} prendo.
+Mangi i biscotti? – Sì, {li*|le|lo} mangio.
+Vuoi le mele? – Sì, {le*|li|la} voglio.
+Vedi Marco? – Sì, {lo*|la|li} vedo.
+Conosci Giulia? – Sì, {la*|lo|le} conosco.
+Inviti i tuoi amici? – Sì, {li*|le|lo} invito.
+Porti le scarpe nuove? – Sì, {le*|li|la} porto.
+Bevi il latte? – No, non {lo*|la|li} bevo.
+Prendi la giacca? – No, non {la*|lo|le} prendo.
+! il → lo, la → la, i → li, le → le. || il → lo, la → la, i → li, le → le.
+
+%übung leicht | Che cosa sostituisce?
+?zuordnen | Che cosa sostituisce il pronome? || Was ersetzt das Pronomen?
+Lo compro. = il formaggio
+La compro. = la mozzarella
+Li compro. = i pomodori
+Le compro. = le uova
+Ti chiamo. = te
+Vi aspetto. = voi
+Mi vedi? = me
+Ci invitate? = noi
++ le mele e i pomodori
+
+%übung leicht | Pronome giusto
+?sortieren | Quale pronome? Metti le parole nel gruppo giusto. || Welches Pronomen? Ordne zu.
+Kategorien: lo=lo; la=la; li=li; le=le
+il pane > lo
+il formaggio > lo
+lo zaino > lo
+la pasta > la
+la gonna > la
+i biscotti > li
+i jeans > li
+le mele > le
+le scarpe > le
+la frutta > la
+
+%übung mittel | La lista della spesa
+?luecke | Scrivi il pronome diretto. || Ergänze das direkte Objektpronomen.
+– Il pane? – [Lo] compro io.
+– E la mozzarella? – [La] prende Marco.
+– I pomodori? – [Li] porto dal mercato.
+– E le uova? – [Le] ho già in frigo.
+– Il basilico? – Non [lo] trovo!
+– La frutta? – [La] compriamo dopo.
+– E i biscotti? – [Li] mangiamo stasera!
+– Le banane? – Non [le] voglio, grazie.
+! Il pronome va prima del verbo; con non: non lo trovo. || Das Pronomen steht vor dem Verb; mit non: non lo trovo.
+
+%übung mittel | Rispondi con il pronome
+?ergaenzen | Rispondi con il pronome diretto. || Antworte mit dem direkten Objektpronomen.
+Compri la maglietta? – Sì, … | la compro | Sì, la compro.
+Prendi i jeans? – Sì, … | li prendo | Sì, li prendo.
+Provi le scarpe? – Sì, … | le provo | Sì, le provo.
+Vedi il cappello? – No, … | non lo vedo | No, non lo vedo.
+Aspetti Sara? – Sì, … | la aspetto/l’aspetto | Sì, l’aspetto.
+Chiami i nonni? – Sì, … | li chiamo | Sì, li chiamo.
+Mangi la pasta? – No, … | non la mangio | No, non la mangio.
+Inviti le tue amiche? – Sì, … | le invito | Sì, le invito.
+! la + aspetto → l’aspetto (davanti a vocale). || Vor Vokal wird lo/la zu l’.
+
+%übung mittel | Mi, ti, ci, vi
+?auswahl | Scegli il pronome. || Wähle das Pronomen.
+Mamma, {mi*|ti|ci} aiuti con i compiti?
+Ciao Luca, {ti*|mi|vi} chiamo stasera!
+Ragazzi, {vi*|ci|li} aspettiamo in piazza.
+I nonni {ci*|vi|li} invitano a pranzo. (noi)
+Sara, {ti*|la|mi} vedo domani?
+Prof, {ci*|vi|li} aiuta con l’esercizio? (noi)
+Paolo {mi*|ti|lo} saluta sempre. (me)
+Io e Marco {vi*|ci|li} portiamo al cinema. (voi)
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i pronomi sbagliati. || Korrigiere die falschen Pronomen.
+Il formaggio? [La=>Lo] compro io.
+Le scarpe? [Li=>Le] provo subito.
+I biscotti? [Lo=>Li] mangiamo tutti.
+La gonna? Non [lo=>la] voglio.
+Marco? [Li=>Lo] vedo domani.
+Le amiche? [Lo=>Le] invito sabato.
+Il latte? Non [li=>lo] bevo.
+I pantaloni? [Le=>Li] prendo blu.
+
+%übung schwer | Dal nome al pronome
+?ergaenzen | Riscrivi la frase con il pronome. || Schreibe den Satz mit Pronomen.
+Compro il pane. → … | Lo compro | Lo compro.
+Prendo la mozzarella. → … | La prendo | La prendo.
+Mangiamo i biscotti. → … | Li mangiamo | Li mangiamo.
+Prova le scarpe! (Lei: prova) → … | Le prova | Le prova.
+Non vedo Marco. → … | Non lo vedo | Non lo vedo.
+Chiamiamo le nonne. → … | Le chiamiamo | Le chiamiamo.
+Aspetto Giulia. → … | La aspetto/L’aspetto | L’aspetto.
+Invitate i vostri amici? → … | Li invitate | Li invitate?
+! Il pronome va prima del verbo coniugato. || Das Pronomen steht vor dem konjugierten Verb.
+
+%übung schwer | Prepariamo la cena
+?luecke | Scrivi il pronome diretto giusto. || Ergänze das richtige Pronomen.
+Mamma: Allora, la pasta [la] prepara Luca.
+Luca: Va bene, ma il sugo chi [lo] fa?
+Mamma: [Lo] faccio io. E tu, Sara, compri le uova?
+Sara: Sì, [le] compro al negozio sotto casa.
+Papà: E i pomodori? Chi [li] taglia?
+Luca: [Li] taglio io! E il basilico? Dov’è?
+Mamma: Non [lo] vedi? È sul tavolo!
+Papà: E i nonni? [Li] chiamiamo per la cena?
+Sara: Sì, [li] chiamo adesso!
+
+@thema uscire-bere | 6 · Vestiti e cibo | Parte A | I verbi irregolari uscire, bere, tenere | 4
+#lehrplan Jgst. 8 · Präsens: uscire, bere, tenere
+#regel
+| | io | tu | lui / lei | noi | voi | loro |
+| uscire | esco | esci | esce | usciamo | uscite | escono |
+| bere | bevo | bevi | beve | beviamo | bevete | bevono |
+| tenere | tengo | tieni | tiene | teniamo | tenete | tengono |
+
+_Esco con gli amici. · Bevo un succo. · Tengo il cane al guinzaglio._
+**Attenzione:** uscire: e- con io, tu, lui, loro (esco), ma u- con noi e voi (usciamo).
+#regel-de
+uscire (ausgehen): esco, esci, esce, usciamo, uscite, escono · bere (trinken): bevo, bevi, beve … (Stamm bev-) · tenere (halten): tengo, tieni, tiene, teniamo, tenete, tengono.
+**Achtung:** uscire hat e- bei io, tu, lui, loro, aber u- bei noi und voi.
+
+%übung leicht | Quale forma?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Io {esco*|usco|esci} con Marta stasera.
+Tu {esci*|uscii|esce} dopo cena?
+Noi {usciamo*|esciamo|escono} alle otto.
+Voi {uscite*|escite|usciamo} con noi?
+I ragazzi {escono*|uscono|uscite} tardi.
+Io {bevo*|beve|bero} un tè.
+Tu {bevi*|bere|beve} il caffè?
+Loro {bevono*|berono|bevete} acqua.
+Io {tengo*|teno|tiene} la porta.
+Tu {tieni*|teni|tiene} il cane?
+! uscire: esco, esci, esce, escono · usciamo, uscite. || uscire: e- bei io/tu/lui/loro, u- bei noi/voi.
+
+%übung leicht | Quale verbo?
+?sortieren | Uscire, bere o tenere? || Welches Verb?
+Kategorien: u=uscire; b=bere; t=tenere
+esco > u
+usciamo > u
+escono > u
+bevo > b
+bevete > b
+bevono > b
+tengo > t
+tieni > t
+tengono > t
+esci > u
+
+%übung leicht | Persona e forma
+?zuordnen | Abbina persona e forma di uscire. || Verbinde Person und Form von uscire.
+io = esco
+tu = esci
+lui / lei = esce
+noi = usciamo
+voi = uscite
+loro = escono
+Marco e io = usciamo
+tu e Sara = uscite
++ uscono
+
+%übung mittel | La tabella
+?tabelle | Completa le forme. || Ergänze die Formen.
+Spalten: persona | uscire | bere | tenere
+io | [esco] | [bevo] | [tengo]
+tu | [esci] | [bevi] | [tieni]
+lui / lei | [esce] | [beve] | [tiene]
+noi | [usciamo] | [beviamo] | [teniamo]
+voi | [uscite] | [bevete] | [tenete]
+loro | [escono] | [bevono] | [tengono]
+
+%übung mittel | Il sabato sera
+?luecke | Scrivi i verbi nella forma giusta. || Setze die Verben in der richtigen Form ein.
+Il sabato sera io (uscire) [esco] con i miei amici.
+Prima (noi, bere) [beviamo] qualcosa in piazza.
+Marco (bere) [beve] sempre un’aranciata.
+Le ragazze (uscire) [escono] alle otto e mezza.
+Voi (uscire) [uscite] anche la domenica?
+Mia sorella (tenere) [tiene] il cellulare sempre in mano.
+Tu (bere) [bevi] il caffè la sera? Io no!
+Noi (tenere) [teniamo] i biglietti nello zaino.
+
+%übung mittel | Domande
+?ergaenzen | Rispondi con la forma giusta. || Antworte mit der richtigen Form.
+Esci stasera? (sì) – … | Sì, esco | Sì, esco stasera.
+Uscite con noi? (sì) – … | Sì, usciamo | Sì, usciamo con voi.
+Che cosa bevi? (un succo) – … | Bevo un succo | Bevo un succo.
+Che cosa bevete? (acqua) – … | Beviamo acqua | Beviamo acqua.
+A che ora escono i ragazzi? (alle nove) – … | Escono alle nove | Escono alle nove.
+Tieni tu le chiavi? (sì) – … | Sì, tengo io le chiavi/Sì, le tengo io | Sì, le tengo io.
+Beve il latte tuo fratello? (no) – … | No, non beve il latte | No, non beve il latte.
+Esce spesso tua sorella? (sì) – … | Sì, esce spesso | Sì, esce spesso.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi le forme sbagliate. || Korrigiere die falschen Formen.
+Io [usco=>esco] alle sette.
+Noi [esciamo=>usciamo] insieme.
+Loro [uscono=>escono] tardi.
+Tu [beri=>bevi] il tè?
+Voi [berete=>bevete] acqua?
+Io [teno=>tengo] il cane.
+Lui [tene=>tiene] il libro.
+Loro [tenono=>tengono] la porta aperta.
+
+%übung schwer | Una serata con gli amici
+?luecke | Scrivi uscire, bere, tenere, andare e fare nella forma giusta. || Ergänze die Verben.
+Venerdì sera io e Sara (uscire) [usciamo] presto.
+(Andare, noi) [Andiamo] in un bar in centro.
+Io (bere) [bevo] una limonata, Sara (bere) [beve] un tè freddo.
+Poi (arrivare) [arrivano] Luca e Paolo: loro (uscire) [escono] dal cinema.
+Luca (tenere) [tiene] in mano due biglietti per un concerto!
+«Ragazze, (uscire, voi) [uscite] anche domani?» chiede.
+Sì, ma prima (fare, noi) [facciamo] i compiti!
+
+%übung schwer | E tu?
+?frei | Quando esci con gli amici? Che cosa bevete? Scrivi 4 frasi con uscire e bere. || Wann gehst du mit Freunden aus? Was trinkt ihr? Schreibe 4 Sätze.
+Il sabato esco con i miei amici. Usciamo alle cinque. Di solito beviamo un succo in piazza. Mia sorella esce poco.
+Zeilen: 4
+?luecke | E adesso completa. || Und jetzt ergänze.
+Io (uscire) [esco] il sabato.
+I miei amici (bere) [bevono] l’aranciata.
+Noi (uscire) [usciamo] insieme.
+Mio padre (bere) [beve] il caffè.
+
+@thema quantita-di | 6 · Vestiti e cibo | Parte B | Le quantità: un chilo di, un etto di … | 5
+#lehrplan Jgst. 8 · Mengenangaben
+#regel
+Dopo una quantità precisa usiamo **di** (senza articolo):
+- _un chilo **di** mele · mezzo chilo **di** pane · un etto **di** prosciutto_ (100 g)
+- _un litro **di** latte · una bottiglia **d’**acqua · un pacco **di** pasta · una scatola **di** biscotti_
+- _un pezzo **di** formaggio · una fetta **di** torta · un vasetto **di** miele · un mazzo **di** basilico_
+Davanti a vocale: **d’**: _una bottiglia d’acqua, un litro d’olio._
+_Quanto costa? / Quanto costano?_ · _Quanti ne vuole?_ (più avanti)
+#regel-de
+Nach einer genauen Menge steht **di** (ohne Artikel): _un chilo di mele, un etto di prosciutto (100 g), un litro di latte, una bottiglia d’acqua, un pacco di pasta, una fetta di torta._ Vor Vokal: **d’**.
+
+%übung leicht | Quale quantità?
+?zuordnen | Abbina la quantità al prodotto. || Was passt zusammen?
+un litro di = latte
+un chilo di = mele
+un etto di = prosciutto
+una bottiglia di = acqua
+un pacco di = pasta
+una scatola di = biscotti
+una fetta di = torta
+un mazzo di = basilico
++ un litro di pane
+
+%übung leicht | Di o d’?
+?auswahl | Scegli di o d’. || Wähle di oder d’.
+una bottiglia {d’*|di} acqua
+un litro {di*|d’} latte
+un chilo {di*|d’} pomodori
+un litro {d’*|di} olio
+un etto {di*|d’} formaggio
+un pacco {di*|d’} riso
+una scatola {di*|d’} uova
+un vasetto {di*|d’} miele
+! Davanti a vocale: d’ (d’acqua, d’olio). || Vor Vokal: d’ (d’acqua, d’olio).
+
+%übung leicht | Che cosa compri?
+?auswahl | Scegli la quantità giusta. || Wähle die passende Menge.
+Vorrei un {litro*|etto|pacco} di latte.
+Mi dà due {etti*|litri|bottiglie} di prosciutto?
+Prendo un {chilo*|litro|mazzo} di mele.
+Una {bottiglia*|fetta|chilo} di acqua minerale, per favore.
+Compro un {pacco*|litro|etto} di spaghetti.
+Mi dà una {fetta*|bottiglia|litro} di torta?
+Ci vuole un {mazzo*|litro|etto} di basilico.
+Vorrei mezzo {chilo*|litro|fetta} di pane.
+
+%übung mittel | La lista della mamma
+?luecke | Scrivi di o d’ e la quantità. || Ergänze di / d’ und die Menge.
+250 g Tomaten → due etti e mezzo [di] pomodori
+1 kg Äpfel → un [chilo] di mele
+1 l Milch → un [litro] di latte
+1 l Olivenöl → un litro [d’] olio d’oliva
+400 g roher Schinken → quattro [etti] di prosciutto crudo
+1 Bund Basilikum → un [mazzo] di basilico
+2 Flaschen Wasser → due [bottiglie] d’acqua
+1 Packung Nudeln → un [pacco] di pasta
+! 100 g = un etto, 1 kg = un chilo, 1 l = un litro. || 100 g = un etto, 1 kg = un chilo, 1 l = un litro.
+
+%übung mittel | Al mercato
+?luecke | Completa il dialogo con le quantità e di. || Ergänze den Dialog mit Mengen und di.
+Commessa: Buongiorno! Che cosa desidera?
+Cliente: Buongiorno, vorrei un [chilo] [di] mele.
+Commessa: Ecco. Altro?
+Cliente: Sì, due [etti] [di] prosciutto e un pezzo [di] parmigiano.
+Commessa: Benissimo. Nient’altro?
+Cliente: Ah sì, una [bottiglia] [d’] acqua e un [pacco] [di] biscotti.
+Commessa: Sono dodici euro.
+! Dopo la quantità: di senza articolo (un pezzo di parmigiano). || Nach der Menge: di ohne Artikel.
+
+%übung mittel | Quanto?
+?ergaenzen | Scrivi la quantità in italiano. || Schreibe die Menge auf Italienisch.
+(1 kg Kartoffeln) | un chilo di patate | un chilo di patate
+(200 g Käse) | due etti di formaggio | due etti di formaggio
+(1 Liter Saft) | un litro di succo | un litro di succo
+(1 Flasche Öl) | una bottiglia d’olio/una bottiglia di olio | una bottiglia d’olio
+(3 Scheiben Brot) | tre fette di pane | tre fette di pane
+(1 Packung Reis) | un pacco di riso | un pacco di riso
+(ein Stück Kuchen) | un pezzo di torta/una fetta di torta | un pezzo di torta
+(ein halbes Kilo Kirschen) | mezzo chilo di ciliegie | mezzo chilo di ciliegie
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli errori. || Korrigiere die Fehler.
+Vorrei un chilo [delle=>di] mele.
+Un litro [del=>di] latte, per favore.
+Una bottiglia [di=>d’] acqua.
+Due etti [dello=>di] speck.
+Un pacco [della=>di] pasta.
+Una fetta [del=>di] formaggio.
+Un mazzo [del=>di] basilico.
+Mezzo chilo [dei=>di] pomodori.
+! Dopo una quantità precisa: solo di (o d’), senza articolo. || Nach genauer Menge: nur di (oder d’), ohne Artikel.
+
+%übung schwer | La ricetta: bruschetta
+?luecke | Completa la ricetta con le quantità e di / d’. || Ergänze das Rezept mit Mengen und di / d’.
+Per quattro persone ci vogliono:
+otto fette [di] pane,
+mezzo [chilo] di pomodori maturi,
+un mazzo [di] basilico,
+due spicchi [d’] aglio,
+un po’ [d’] olio d’oliva
+e un pizzico [di] sale.
+Per finire, una foglia [di] basilico su ogni fetta.
+Prima tagliamo i pomodori, poi mettiamo tutto sulle fette [di] pane.
+! un po’ di, un pizzico di, uno spicchio d’aglio. || un po’ di, un pizzico di, uno spicchio d’aglio.
+
+%übung schwer | La tua lista
+?frei | Prepari una cena per gli amici. Scrivi la lista della spesa con almeno sei quantità. || Schreibe eine Einkaufsliste mit mindestens sechs Mengen.
+un chilo di pasta, mezzo chilo di pomodori, due etti di parmigiano, una bottiglia d’olio, un mazzo di basilico, una scatola di biscotti, due litri d’acqua
+Zeilen: 5
+?ergaenzen | E adesso scrivi in italiano. || Und jetzt auf Italienisch.
+(2 Liter Wasser) | due litri d’acqua/due litri di acqua | due litri d’acqua
+(500 g Nudeln) | mezzo chilo di pasta/cinque etti di pasta | mezzo chilo di pasta
+(1 Packung Kekse) | un pacco di biscotti/una scatola di biscotti | un pacco di biscotti
+(300 g Schinken) | tre etti di prosciutto | tre etti di prosciutto
+
+@thema pronomi-indiretti-2 | 6 · Vestiti e cibo | Parte B | Pronomi indiretti e pronomi tonici | 6
+#lehrplan Jgst. 8 · unbetonte indirekte und betonte Objektpronomen
+#regel
+**Pronomi indiretti** (a chi?) prima del verbo:
+| mi | ti | gli | le | Le | ci | vi | gli |
+| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |
+_Gli preparo la cena. · Le piace il rosso. · Ci manca la pizza._
+
+**Pronomi tonici** dopo una preposizione o per sottolineare:
+| me | te | lui | lei | Lei | noi | voi | loro |
+_Vieni **con me**? · Questo è **per te**. · **A me** piace, **a lui** no._
+#regel-de
+**Indirekte Pronomen** (wem?) stehen vor dem Verb: mi, ti, gli, le, Le, ci, vi, gli. _Gli preparo la cena. Le piace il rosso._
+**Betonte Pronomen** nach Präpositionen oder zur Betonung: me, te, lui, lei, Lei, noi, voi, loro: _con me, per te, a me piace, a lui no._
+
+%übung leicht | Indiretto: quale pronome?
+?auswahl | Scegli il pronome indiretto. || Wähle das indirekte Pronomen.
+Marco ha fame: {gli*|le|vi} preparo un panino.
+Anna ha freddo: {le*|gli|ci} do la mia giacca.
+Ragazzi, {vi*|ci|gli} piace la pizza?
+Mamma, {mi*|ti|le} compri un gelato?
+Ai nonni {gli*|le|ci} porto i fiori.
+Signora, {Le*|gli|ti} piace questo vestito?
+Luca, {ti*|mi|vi} sta bene quella felpa!
+A noi {ci*|vi|gli} manca l’Italia.
+! a lui → gli, a lei → le, a Lei → Le, a loro → gli. || a lui → gli, a lei → le, a Lei → Le, a loro → gli.
+
+%übung leicht | Pronome tonico
+?auswahl | Scegli il pronome tonico. || Wähle das betonte Pronomen.
+Vieni al cinema con {me*|mi|io}?
+Questo regalo è per {te*|ti|tu}.
+Esco con {lui*|gli|lo} stasera.
+Abito vicino a {loro*|gli|li}.
+Senza di {te*|ti|tu} non vado!
+Parlo di {lei*|le|la}.
+Questa torta è per {noi*|ci|nostri}.
+A {me*|mi|io} piace il blu, a {lui*|gli|lo} piace il rosso.
+! Dopo con, per, senza, di, a → me, te, lui, lei, noi, voi, loro. || Nach Präpositionen: betonte Pronomen.
+
+%übung leicht | Indiretto o tonico?
+?sortieren | È un pronome indiretto (prima del verbo) o tonico (dopo una preposizione)? || Unbetont (vor dem Verb) oder betont (nach Präposition)?
+Kategorien: ind=indiretto; ton=tonico
+gli > ind
+le > ind
+mi > ind
+ci > ind
+vi > ind
+me > ton
+te > ton
+lui > ton
+lei > ton
+loro > ton
+
+%übung mittel | Che cosa regali?
+?luecke | Scrivi il pronome indiretto. || Ergänze das indirekte Pronomen.
+Mio fratello ama il calcio: [gli] regalo un pallone.
+Mia madre ama i fiori: [le] regalo una pianta.
+Ai miei amici piace la musica: [gli] regalo un biglietto per il concerto.
+E a te? Che cosa [ti] regalo?
+Signora, [Le] posso dare un consiglio?
+Ragazzi, [vi] regalo dei biscotti.
+La nonna [ci] regala sempre i soldi. (a noi)
+E a me? Nessuno [mi] regala niente!
+
+%übung mittel | Con chi?
+?luecke | Scrivi il pronome tonico. || Ergänze das betonte Pronomen.
+Marco viene al mare con [noi]. (wir)
+Questo pacco è per [te]. (du)
+Mia sorella? Esco sempre con [lei].
+I nonni? Abitiamo vicino a [loro].
+Paolo? Parliamo spesso di [lui].
+Senza di [me] non partite! (ich)
+Signora, questa lettera è per [Lei].
+Ragazzi, vengo con [voi]!
+! con, per, di, a, senza + me, te, lui, lei, Lei, noi, voi, loro. || Nach Präpositionen: me, te, lui, lei, Lei, noi, voi, loro.
+
+%übung mittel | A me sì, a te no
+?ergaenzen | Completa con il pronome tonico, come nell’esempio: A me piace il rosso, a lui (no) … || Ergänze wie im Beispiel.
+A me piace il rosso, a lui (no) … | a lui no | A me piace il rosso, a lui no.
+A Sara piacciono i gatti, a me (anche) … | anche a me | Anche a me.
+A noi piace la pasta, a voi (no?) … | a voi no | A voi no?
+A te piace il caffè? A me (no) … | a me no | A me no.
+A loro piace il mare, a noi (la montagna) … | a noi la montagna | A noi la montagna.
+A lei piacciono i gialli, a lui (i fumetti) … | a lui i fumetti | A lui i fumetti.
+A voi piace ballare? A noi (sì) … | a noi sì | A noi sì!
+A me piacciono i cani, a te (i gatti) … | a te i gatti | A te i gatti.
+! Per sottolineare o fare un contrasto: a me, a te, a lui … || Zur Betonung oder für einen Gegensatz.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi i pronomi sbagliati. || Korrigiere die falschen Pronomen.
+Esci con [mi=>me]?
+A Marco? [Le=>Gli] telefono stasera.
+Questo è per [ti=>te].
+Sara ha fame, [gli=>le] do un panino.
+Vengo con [tu=>te].
+[Me=>Mi] piace molto questo vestito.
+Abitiamo vicino a [gli=>loro].
+Signora, [ti=>Le] piace il rosso?
+! Prima del verbo: mi, ti, gli, le … · dopo una preposizione: me, te, lui, lei, loro. || Vor dem Verb unbetont, nach Präposition betont.
+
+%übung schwer | Un regalo per tutti
+?luecke | Scrivi i pronomi giusti (indiretti o tonici). || Ergänze die richtigen Pronomen.
+Domani è Natale. A mio padre [gli] regalo una sciarpa.
+Per mia madre ho un libro: lo compro per [lei] in libreria.
+Mia sorella? [Le] piacciono i braccialetti.
+E i nonni? Per [loro] faccio una torta.
+Il mio amico Leo viene con [me] al mercatino.
+[Gli] piace la musica: [gli] regalo un CD.
+E a me? Chi pensa a [me]?
+
+%übung schwer | Dal nome al pronome
+?ergaenzen | Riscrivi con il pronome indiretto. || Schreibe mit indirektem Pronomen.
+Preparo la cena a Marco. → … | Gli preparo la cena | Gli preparo la cena.
+Do il libro a Sara. → … | Le do il libro | Le do il libro.
+Telefono ai nonni. → … | Gli telefono/Telefono loro | Gli telefono.
+Scrivo una mail a te. → … | Ti scrivo una mail | Ti scrivo una mail.
+Il vestito piace a mia madre. → … | Le piace il vestito/Il vestito le piace | Le piace il vestito.
+Porto i fiori alla prof. → … | Le porto i fiori | Le porto i fiori.
+Rispondo a voi domani. → … | Vi rispondo domani | Vi rispondo domani.
+Il gelato piace a noi. → … | Ci piace il gelato/Il gelato ci piace | Ci piace il gelato.
+
+@thema posizione-pronomi | 6 · Vestiti e cibo | Parte B | La posizione dei pronomi | 7
+#lehrplan Jgst. 8 · Stellung der Objektpronomen bei Verneinung, Modalverben und Infinitiv
+#regel
+- Di solito il pronome va **prima del verbo**: _**Lo** compro._ · con non: _**Non lo** compro._
+- Con **dovere, potere, volere** ci sono due possibilità:
+  _**Lo** voglio comprare._ = _Voglio comprar**lo**._ (l’infinito perde la -e: comprare → comprar + lo)
+- Con un **infinito** senza modale il pronome va attaccato: _È bello veder**ti**!_ · _Ho voglia di mangiar**la**._
+#regel-de
+Meist steht das Pronomen **vor dem Verb**: _Lo compro. Non lo compro._
+Bei **dovere, potere, volere** zwei Möglichkeiten: _Lo voglio comprare = Voglio comprarlo_ (Infinitiv ohne -e + Pronomen).
+Beim **Infinitiv** wird das Pronomen angehängt: _È bello vederti!_
+
+%übung leicht | Dove va il pronome?
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Non lo compro.
+- Lo non compro.
+- Non compro lo.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Voglio comprarlo.
+- Voglio lo comprare.
+- Voglio comprare lo.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* La devo chiamare.
+- Devo la chiamare.
+- Devo chiamare la.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Posso aiutarti?
+- Posso ti aiutare?
+- Ti posso aiutarti?
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* È bello vederti!
+- È bello ti vedere!
+- È bello vedere ti!
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Non li voglio mangiare.
+- Non voglio li mangiare.
+- Li non voglio mangiare.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Vi possiamo aiutare.
+- Possiamo vi aiutare.
+- Possiamo aiutare vi.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Devo prenderle.
+- Devo le prendere.
+- Devo prendere le.
+
+%übung leicht | Due possibilità
+?zuordnen | Abbina le frasi che vogliono dire la stessa cosa. || Verbinde gleichbedeutende Sätze.
+Lo voglio comprare. = Voglio comprarlo.
+La devo chiamare. = Devo chiamarla.
+Li posso prendere. = Posso prenderli.
+Le vogliamo vedere. = Vogliamo vederle.
+Ti posso aiutare? = Posso aiutarti?
+Mi devi ascoltare! = Devi ascoltarmi!
+Vi voglio invitare. = Voglio invitarvi.
+Ci puoi chiamare? = Puoi chiamarci?
+
+%übung leicht | Prima o dopo?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Il vestito? {Lo provo*|Provo lo} subito.
+La gonna? Non {la compro*|compro la}.
+Le scarpe? Voglio {provarle*|le provare}.
+Il pane? {Lo devo*|Devo lo} comprare.
+I biscotti? Possiamo {mangiarli*|li mangiare}?
+Marco? {Lo voglio*|Voglio lo} invitare.
+Sara? Devo {chiamarla*|la chiamare}.
+Il latte? Non {lo bevo*|bevo lo}.
+
+%übung mittel | Riscrivi in un altro modo
+?ergaenzen | Scrivi la frase nell’altro modo. || Schreibe den Satz auf die andere Art.
+Lo voglio comprare. → Voglio … | comprarlo | Voglio comprarlo.
+La devo chiamare. → Devo … | chiamarla | Devo chiamarla.
+Li posso prendere. → Posso … | prenderli | Posso prenderli.
+Le vogliamo vedere. → Vogliamo … | vederle | Vogliamo vederle.
+Voglio invitarti. → … voglio invitare. | Ti | Ti voglio invitare.
+Devo aiutarvi. → … devo aiutare. | Vi | Vi devo aiutare.
+Possiamo provarlo? → … possiamo provare? | Lo | Lo possiamo provare?
+Puoi chiamarmi? → … puoi chiamare? | Mi | Mi puoi chiamare?
+! L’infinito perde la -e: comprare + lo → comprarlo. || Der Infinitiv verliert das -e.
+
+%übung mittel | Nel negozio
+?luecke | Scrivi il pronome attaccato all’infinito. || Hänge das Pronomen an den Infinitiv an.
+Questa felpa è bella. Posso (provare + la) [provarla]?
+I pantaloni sono lunghi. Devo (cambiare + li) [cambiarli].
+Le scarpe? Voglio (comprare + le) [comprarle] subito!
+Il cappello è caro. Non posso (prendere + lo) [prenderlo].
+Mamma, puoi (aiutare + mi) [aiutarmi]?
+Sara è alla cassa. Dobbiamo (aspettare + la) [aspettarla].
+Il commesso è gentile. Vogliamo (ringraziare + lo) [ringraziarlo].
+Ragazzi, posso (accompagnare + vi) [accompagnarvi]?
+
+%übung mittel | Con il pronome
+?ergaenzen | Rispondi con modale + pronome (due modi possibili). || Antworte mit Modalverb + Pronomen.
+Vuoi comprare la maglietta? – Sì, … | la voglio comprare/voglio comprarla | Sì, voglio comprarla.
+Devi fare i compiti? – Sì, … | li devo fare/devo farli | Sì, devo farli.
+Puoi chiamare Marco? – Sì, … | lo posso chiamare/posso chiamarlo | Sì, posso chiamarlo.
+Volete vedere il film? – Sì, … | lo vogliamo vedere/vogliamo vederlo | Sì, vogliamo vederlo.
+Devi prendere le chiavi? – Sì, … | le devo prendere/devo prenderle | Sì, devo prenderle.
+Puoi aiutare me? – Sì, … | ti posso aiutare/posso aiutarti | Sì, posso aiutarti.
+Vuoi invitare Anna? – No, … | non la voglio invitare/non voglio invitarla | No, non voglio invitarla.
+Dovete comprare il pane? – No, … | non lo dobbiamo comprare/non dobbiamo comprarlo | No, non dobbiamo comprarlo.
+! Tutte e due le posizioni sono giuste. || Beide Stellungen sind richtig.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+Voglio [lo comprare=>comprarlo].
+Devo [la chiamare=>chiamarla].
+[Lo non=>Non lo] vedo.
+Posso [ti aiutare=>aiutarti]?
+È bello [ti vedere=>vederti].
+Vogliamo [comprare li=>comprarli].
+Non [voglio la=>la voglio] mangiare.
+Dobbiamo [aspettare vi=>aspettarvi]?
+
+%übung schwer | Una cena da preparare
+?luecke | Completa con i pronomi (prima del verbo o attaccati all’infinito). || Ergänze die Pronomen.
+Il sugo? [Lo] preparo io. Ma prima devo comprar[li], i pomodori.
+La pasta? Non [la] trovo! Puoi cercar[la] tu?
+Il formaggio? Voglio grattugiar[lo] adesso.
+I nonni? [Li] devo chiamare: arrivano alle otto.
+Le candele? Possiamo metter[le] sul tavolo.
+Marco? Non [lo] invito, è in vacanza.
+Le mie amiche? Voglio invitar[le] tutte!
+! Prima del verbo coniugato o attaccato all’infinito. || Vor dem konjugierten Verb oder an den Infinitiv angehängt.
+
+%übung schwer | Un messaggio
+?frei | Scrivi un messaggio a un amico: lo vuoi invitare a cena. Usa almeno quattro pronomi (lo, la, li, le, ti, vi …). || Schreibe eine Nachricht mit mindestens vier Pronomen.
+Ciao Leo, sabato faccio una cena. Ti voglio invitare! La pizza la preparo io. Le bibite puoi portarle tu? Anche Sara e Paolo vengono: li chiamo stasera.
+Zeilen: 5
+?ergaenzen | E adesso riscrivi con il pronome attaccato. || Und jetzt mit angehängtem Pronomen.
+Ti voglio invitare. → Voglio … | invitarti | Voglio invitarti.
+Le puoi portare? → Puoi … | portarle | Puoi portarle?
+Li devo chiamare. → Devo … | chiamarli | Devo chiamarli.
+La voglio preparare. → Voglio … | prepararla | Voglio prepararla.
+
+@thema cortesia | 6 · Vestiti e cibo | Parte B | La forma di cortesia e l’imperativo di cortesia | 8
+#lehrplan Jgst. 8 · höfliche Anrede in Singular und Plural; imperativo di cortesia (scusi, mi dica, mi dia); avere bisogno/voglia di
+#regel
+Con gli adulti che non conosci usiamo **Lei** (terza persona singolare): _Come **sta**? Che cosa **desidera**?_
+Con più persone si usa **voi**: _Ragazzi, che cosa **prendete**?_
+**Imperativo di cortesia** (frasi fisse):
+| Scusi! | Senta! | Mi dica! | Mi dia … | Prego! | Venga! | Prenda! |
+Per chiedere gentilmente: _**Vorrei** un caffè. · **Potrebbe** aiutarmi?_
+Altre frasi: _**Ho bisogno di** una taglia più grande. · **Ho voglia di** un gelato._
+#regel-de
+Erwachsene, die man nicht kennt, spricht man mit **Lei** an (3. Person Singular): _Come sta? Che cosa desidera?_ Mehrere Personen: **voi**.
+Feste höfliche Imperative: _Scusi! Senta! Mi dica! Mi dia … Prego! Venga! Prenda!_ · Höflich bitten: _Vorrei …, Potrebbe …?_
+_Ho bisogno di_ (ich brauche) · _Ho voglia di_ (ich habe Lust auf).
+
+%übung leicht | Tu o Lei?
+?auswahl | Parli con la commessa (Lei) o con un amico (tu)? Scegli la forma giusta. || Lei oder tu? Wähle die passende Form.
+(commessa) Scusi, {ha*|hai} questa maglietta in taglia M?
+(amico) Luca, {vuoi*|vuole} un gelato?
+(signore) Buongiorno, come {sta*|stai}?
+(amica) Sara, {vieni*|viene} con me?
+(cameriere) Che cosa {desidera*|desideri}, signora?
+(compagno) {Hai*|Ha} la penna?
+(professoressa) Prof, {può*|puoi} ripetere?
+(nonna di un amico) Signora, {è*|sei} di Torino?
+! Lei = terza persona: Lei ha, Lei sta, Lei può. || Lei = 3. Person: Lei ha, Lei sta, Lei può.
+
+%übung leicht | Frasi utili al negozio
+?zuordnen | Che cosa vuol dire? || Was bedeutet das?
+Mi dica! = Was darf es sein?
+Scusi! = Entschuldigung!
+Mi dia un etto di prosciutto. = Geben Sie mir 100 g Schinken.
+Prego! = Bitte sehr!
+Vorrei una felpa. = Ich hätte gern einen Pullover.
+Quanto costa? = Wie viel kostet das?
+Ho bisogno di una taglia più grande. = Ich brauche eine größere Größe.
+Ho voglia di un gelato. = Ich habe Lust auf ein Eis.
+
+%übung leicht | Gentile o no?
+?auswahl | Scegli la frase più gentile per un negozio. || Wähle den höflicheren Satz.
+{Vorrei un caffè, per favore.*|Voglio un caffè!}
+{Scusi, quanto costa?*|Ehi, quanto costa?}
+{Mi dia due etti di formaggio.*|Dammi due etti di formaggio.}
+{Potrebbe aiutarmi?*|Aiutami!}
+{Senta, ha questa giacca in blu?*|Senti, hai questa giacca in blu?}
+{Grazie, arrivederci!*|Ciao, ciao!}
+{Prego, si accomodi.*|Siediti.}
+{Mi scusi, dov’è la cassa?*|Dov’è la cassa?!}
+
+%übung mittel | In un negozio di vestiti
+?luecke wortkasten | Completa il dialogo. || Ergänze den Dialog.
+Commessa: Buongiorno, mi [dica]!
+Cliente: Buongiorno. [Vorrei] una felpa grigia.
+Commessa: Che taglia porta?
+Cliente: La M. Posso [provarla]?
+Commessa: Certo, [prego]! Il camerino è lì.
+Cliente: [Scusi], ha una taglia più grande? Questa è piccola.
+Commessa: Sì, ecco la L. Le [sta] benissimo!
+Cliente: Grazie! Quanto [costa]?
+Commessa: Trenta euro. Può pagare alla [cassa], grazie.
++ voglio, dai, stai
+
+%übung mittel | Bisogno o voglia?
+?auswahl | Scegli ho bisogno di o ho voglia di. || Wähle ho bisogno di oder ho voglia di.
+Fa caldo: {ho voglia di*|ho bisogno di} un gelato!
+Domani c’è il test: {ho bisogno di*|ho voglia di} studiare.
+Le scarpe sono rotte: {ho bisogno di*|ho voglia di} scarpe nuove.
+Che bella giornata! {Ho voglia di*|Ho bisogno di} andare al mare.
+Non vedo bene: {ho bisogno di*|ho voglia di} occhiali.
+Stasera {ho voglia di*|ho bisogno di} una pizza!
+Per la ricetta {ho bisogno di*|ho voglia di} due uova.
+Sono stanco: {ho bisogno di*|ho voglia di} dormire.
+! bisogno = è necessario; voglia = mi piacerebbe. || bisogno = brauchen; voglia = Lust haben.
+
+%übung mittel | Dal tu al Lei
+?ergaenzen | Trasforma la domanda in forma di cortesia (Lei). || Forme die Frage in die Höflichkeitsform um.
+Come stai? → … | Come sta | Come sta?
+Di dove sei? → … | Di dov’è/Di dove è | Di dov’è?
+Che cosa vuoi? → … | Che cosa vuole | Che cosa vuole?
+Hai una penna? → … | Ha una penna | Ha una penna?
+Puoi aiutarmi? → … | Può aiutarmi | Può aiutarmi?
+Parli inglese? → … | Parla inglese | Parla inglese?
+Dove abiti? → … | Dove abita | Dove abita?
+Che cosa prendi? → … | Che cosa prende | Che cosa prende?
+! Con Lei: terza persona singolare (sta, è, vuole, ha). || Mit Lei: 3. Person Singular.
+
+%übung schwer | Al bar
+?luecke | Completa il dialogo al bar con le forme di cortesia. || Ergänze den Dialog im Café.
+Cameriere: Buongiorno, che cosa (desiderare, Lei) [desidera]?
+Signora: [Vorrei] un cappuccino e una brioche, per favore.
+Cameriere: Certo. E Lei, signore, che cosa (prendere) [prende]?
+Signore: Mi (dare) [dia] un caffè, grazie.
+Cameriere: Ecco a [Lei].
+Signora: (Scusare) [Scusi], quanto (costare) [costa] tutto?
+Cameriere: Cinque euro e cinquanta.
+Signora: Ecco. [Prego], tenga il resto.
+
+%übung schwer | Trova gli errori
+?fehler | Parli con la signora Rossi (Lei). Correggi gli errori. || Du sprichst mit Frau Rossi (Lei). Korrigiere.
+Buongiorno signora, come [stai=>sta]?
+[Senti=>Senta], dov’è la stazione?
+[Vuoi=>Vuole] un caffè?
+[Hai=>Ha] figli?
+[Scusa=>Scusi], che ore sono?
+[Puoi=>Può] ripetere, per favore?
+[Abiti=>Abita] qui vicino?
+[Dammi=>Mi dia] un etto di prosciutto, per favore.
+
+%übung schwer | Un dialogo al mercato
+?frei | Scrivi un dialogo al mercato tra te e un venditore (forma di cortesia). Usa vorrei, mi dia, quanto costa, ho bisogno di. || Schreibe einen Dialog auf dem Markt.
+– Buongiorno, mi dica! – Buongiorno, vorrei un chilo di mele. – Ecco. Altro? – Mi dia anche due etti di formaggio. Ho bisogno di basilico per la cena. – Ecco il basilico. – Quanto costa tutto? – Otto euro.
+Zeilen: 6
+?ergaenzen | E adesso scrivi in forma di cortesia. || Und jetzt in der Höflichkeitsform.
+Gib mir zwei Äpfel! → … | Mi dia due mele | Mi dia due mele, per favore.
+Entschuldigung! (zu einem Herrn) → … | Scusi | Scusi!
+Können Sie mir helfen? → … | Può aiutarmi/Potrebbe aiutarmi | Può aiutarmi?
+Ich hätte gern ein Wasser. → … | Vorrei un’acqua/Vorrei una bottiglia d’acqua | Vorrei un’acqua.

@@ -1,0 +1,116 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-colori-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A1",
+ "description": "I colori · Trova gli errori · livello difficile.",
+ "topics": [
+  "I colori",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Farbadjektive"
+ },
+ "grammar": {
+  "topic": "ecco1-colori",
+  "topicTitle": "I colori",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 11,
+  "rule": "I colori sono aggettivi: vanno **dopo** il nome e cambiano come il nome.\n| -o/-a | rosso, rossa, rossi, rosse · nero · bianco (bianchi, bianche) · giallo · grigio (grigi, grigie) · azzurro |\n| -e | verde, verdi · marrone, marroni · arancione, arancioni |\n| non cambiano | blu · rosa · viola · beige |\n\n_una maglietta **rossa**, due magliette **rosse**, i pantaloni **blu**, le scarpe **rosa**._",
+  "ruleHelp": "Farben sind Adjektive: Sie stehen **nach** dem Nomen und passen sich an (rosso/rossa/rossi/rosse; verde/verdi).\n**Unveränderlich** sind blu, rosa, viola, beige: _i pantaloni blu, le scarpe rosa._ Achtung: bianco → bianchi/bianche, grigio → grigi/grigie."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi gli otto colori sbagliati.",
+   "promptHelp": "Korrigiere die acht falschen Farben.",
+   "explanation": "bianco → bianche (f. plur.), grigio → grigi (m. plur.); blu, rosa, viola non cambiano.",
+   "explanationHelp": "bianco → bianche, grigio → grigi; blu, rosa, viola unverändert.",
+   "type": "error_correction",
+   "text": "Ho due magliette [[g1]].\nLe scarpe [[g2]] sono nuove.\nI pantaloni [[g3]] sono in offerta.\nMia madre ha una giacca [[g4]].\nCi sono tre cappelli [[g5]].\nLe felpe [[g6]] costano poco.\nIl vestito [[g7]] è elegante.\nDue sciarpe [[g8]], per favore.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "bianchi",
+     "acceptedAnswers": [
+      "bianche"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "rose",
+     "acceptedAnswers": [
+      "rosa"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "blui",
+     "acceptedAnswers": [
+      "blu"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "nero",
+     "acceptedAnswers": [
+      "nera"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "grige",
+     "acceptedAnswers": [
+      "grigi"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "verde",
+     "acceptedAnswers": [
+      "verdi"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "viole",
+     "acceptedAnswers": [
+      "viola"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "gialli",
+     "acceptedAnswers": [
+      "gialle"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -50,6 +50,7 @@ function grTopics() {
     const t = map.get(g.topic);
     t.items.push(x);
     if (!t.rule && g.rule) (t.rule = g.rule), (t.ruleHelp = g.ruleHelp || '');
+    if (!t.curriculum && x.catalog?.curriculum) t.curriculum = x.catalog.curriculum.replace(/^LehrplanPLUS Gymnasium Bayern, Italienisch \(3\. Fremdsprache\), /, '');
     t.order = Math.min(t.order, g.order ?? 9999);
   }
   const lv = { leicht: 0, mittel: 1, schwer: 2 };
@@ -122,7 +123,7 @@ function grTopicPage() {
   }).join('');
   $('main').innerHTML = `<div class="page gr-page">
     <button class="quiet back-link" data-gr-home>Grammatik</button>
-    <header class="page-head"><div class="eyebrow">${esc([t.band ? ANNO_NAMES[t.band] : t.series, t.unit, t.section].filter(Boolean).join(' · '))}</div><h1>${esc(t.title)}</h1></header>
+    <header class="page-head"><div class="eyebrow">${esc([t.band ? ANNO_NAMES[t.band] : t.series, t.unit, t.section].filter(Boolean).join(' · '))}</div><h1>${esc(t.title)}</h1>${teacher && t.curriculum ? `<p class="small muted gr-lp"><b>Lehrplan:</b> ${esc(t.curriculum)}</p>` : ''}</header>
     ${t.rule ? `<section class="rule-card is-page"><div class="eyebrow">Merkkasten</div>${ruleBodyHTML(t.rule, t.ruleHelp, t.lang)}</section>` : ''}
     ${levels}
   </div>`;

@@ -1,0 +1,124 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-pronomi-diretti-s2",
+ "title": "Dal nome al pronome",
+ "language": "it",
+ "level": "A1",
+ "description": "I pronomi diretti (lo, la, li, le …) · Dal nome al pronome · livello difficile.",
+ "topics": [
+  "I pronomi diretti (lo, la, li, le …)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte direkte Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-pronomi-diretti",
+  "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 32,
+  "rule": "I pronomi diretti sostituiscono un **oggetto diretto** (chi? che cosa?) e vanno **prima del verbo**:\n| mi | ti | lo | la | ci | vi | li | le |\n| mich | dich | ihn / es | sie / es | uns | euch | sie (m.) | sie (f.) |\n\n- _Compri la gonna? – Sì, **la** compro._\n- _Vedi Marco? – Sì, **lo** vedo._\n- _Prendi i pomodori? – Sì, **li** prendo._ · _Le mele? – **Le** prendo io._\n- Davanti a vocale: **l’**: _L’aspetto._ · Negazione: _Non **lo** vedo._",
+  "ruleHelp": "Direkte Objektpronomen ersetzen ein **direktes Objekt** (wen? was?) und stehen **vor dem Verb**: mi, ti, lo, la, ci, vi, li, le.\n_Compri la gonna? – Sì, la compro._ · Vor Vokal: _l’_ (L’aspetto). · Verneinung: _Non lo vedo._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Riscrivi la frase con il pronome.",
+   "promptHelp": "Schreibe den Satz mit Pronomen.",
+   "explanation": "Il pronome va prima del verbo coniugato.",
+   "explanationHelp": "Das Pronomen steht vor dem konjugierten Verb.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Compro il pane. → …",
+     "acceptedAnswers": [
+      "Lo compro"
+     ],
+     "modelAnswer": "Lo compro."
+    },
+    {
+     "id": "s2",
+     "start": "Prendo la mozzarella. → …",
+     "acceptedAnswers": [
+      "La prendo"
+     ],
+     "modelAnswer": "La prendo."
+    },
+    {
+     "id": "s3",
+     "start": "Mangiamo i biscotti. → …",
+     "acceptedAnswers": [
+      "Li mangiamo"
+     ],
+     "modelAnswer": "Li mangiamo."
+    },
+    {
+     "id": "s4",
+     "start": "Prova le scarpe! (Lei: prova) → …",
+     "acceptedAnswers": [
+      "Le prova"
+     ],
+     "modelAnswer": "Le prova."
+    },
+    {
+     "id": "s5",
+     "start": "Non vedo Marco. → …",
+     "acceptedAnswers": [
+      "Non lo vedo"
+     ],
+     "modelAnswer": "Non lo vedo."
+    },
+    {
+     "id": "s6",
+     "start": "Chiamiamo le nonne. → …",
+     "acceptedAnswers": [
+      "Le chiamiamo"
+     ],
+     "modelAnswer": "Le chiamiamo."
+    },
+    {
+     "id": "s7",
+     "start": "Aspetto Giulia. → …",
+     "acceptedAnswers": [
+      "La aspetto",
+      "L’aspetto"
+     ],
+     "modelAnswer": "L’aspetto."
+    },
+    {
+     "id": "s8",
+     "start": "Invitate i vostri amici? → …",
+     "acceptedAnswers": [
+      "Li invitate"
+     ],
+     "modelAnswer": "Li invitate?"
+    }
+   ]
+  }
+ ]
+}

@@ -2,6 +2,7 @@
 ## Primo anno · Lektion 4 · Tempo libero · Grammatikthemen (Lehrplan Jgst. 8)
 
 @thema quando-perche | 4 · Tempo libero | Per cominciare | Le frasi con quando e perché | 1
+#lehrplan Jgst. 8 · Begründen mit perché; einfache Nebensätze
 #regel
 - **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._
 - **perché** = weil: _Vado in montagna **perché** mi piace sciare._
@@ -129,6 +130,7 @@ Perché sei contento? (ho un bel voto) | perché ho un bel voto | Perché ho un 
 ! La risposta comincia con perché. || Die Antwort beginnt mit perché.
 
 @thema modali | 4 · Tempo libero | Parte A | Venire, sapere e i verbi modali | 2
+#lehrplan Jgst. 8 · Modalverben dovere, potere, volere, sapere; venire
 #regel
 | | io | tu | lui / lei | noi | voi | loro |
 | volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |
@@ -267,6 +269,7 @@ Chiara: È in piazza Vittorio. Noi (potere) [possiamo] andare insieme in tram.
 Luca: Perfetto! (Volere, voi) [Volete] mangiare una pizza prima?
 
 @thema passato-prossimo-avere | 4 · Tempo libero | Parte A | Il passato prossimo con avere | 3
+#lehrplan Jgst. 8 · passato prossimo mit avere
 #regel
 Il **passato prossimo** racconta azioni finite nel passato (come il «Perfekt» tedesco):
 **avere** (presente) + **participio**: _Ieri **ho giocato** a calcio._
@@ -413,6 +416,7 @@ Io [ho finisco=>ho finito] alle sei.
 Mia madre [hai lavorato=>ha lavorato] molto.
 
 @thema passato-prossimo-essere | 4 · Tempo libero | Parte B | Il passato prossimo con essere e i participi irregolari | 4
+#lehrplan Jgst. 8 · passato prossimo mit essere, unregelmäßige Partizipien
 #regel
 Con **essere** fanno il passato prossimo soprattutto i verbi di **movimento** e di **cambiamento**, e **rimanere**, **stare**, **essere**:
 _andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_
@@ -573,6 +577,7 @@ Mia sorella [è] rimasta in albergo.
 I miei genitori [hanno] fatto una passeggiata.
 
 @thema gia-ancora | 4 · Tempo libero | Parte B | Già e (non …) ancora | 5
+#lehrplan Jgst. 8 · passato prossimo: già, ancora
 #regel
 Nel passato prossimo **già** e **ancora** stanno **tra l’ausiliare e il participio**:
 - _Ho **già** fatto i compiti._

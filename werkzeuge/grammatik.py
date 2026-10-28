@@ -8,6 +8,7 @@ Format (eine Datei je Unità, mehrere Themen):
   @mehr <id>        weitere Übungen zu einem Thema weiter oben anhängen (IDs der vorhandenen bleiben gleich)
   #regel            danach Merkkasten in der Zielsprache (einfach!) (Absätze, „- “-Listen, „| a | b |“-Tabellen, **fett**) bis zur nächsten #/%-Zeile
   #regel-de         derselbe Merkkasten auf Deutsch (per Knopf „Deutsch“)
+  #lehrplan <Text>  Lehrplanbezug (z. B. „Jgst. 8 · Präsens regelmäßiger Verben“), für Lehrkräfte sichtbar
   #einstieg         danach „- “-Zeilen (Impulse zum Einstieg, für Lehrkräfte und Lernende)
   %übung <leicht|mittel|schwer> | <Titel>
   ?<typ> [wortkasten] | <Aufgabenstellung in der Zielsprache> || <dieselbe Anweisung auf Deutsch>
@@ -193,7 +194,7 @@ def parse(path):
             continue
         if line.startswith('@thema'):
             tid, unit, sect, title, order = [x.strip() for x in line[6:].split('|')]
-            cur = {'id': tid, 'unit': unit, 'section': sect, 'title': title, 'order': int(order), 'rule': [], 'ruleDe': [], 'warmup': [], 'ex': []}
+            cur = {'id': tid, 'unit': unit, 'section': sect, 'title': title, 'order': int(order), 'rule': [], 'ruleDe': [], 'warmup': [], 'ex': [], 'lehrplan': ''}
             topics.append(cur)
             mode, ex, q = None, None, None
             continue
@@ -203,6 +204,10 @@ def parse(path):
             if cur is None:
                 raise ValueError(f'{path.name}: @mehr {tid}: Thema nicht gefunden')
             mode, ex, q = None, None, None
+            continue
+        if line.startswith('#lehrplan'):
+            cur['lehrplan'] = line[9:].strip()
+            mode = None
             continue
         if line.startswith('#regel-de'):
             mode = 'ruleDe'
@@ -262,7 +267,8 @@ def packages(book, topics):
                 'sources': [{'kind': 'own', 'citation': f"Eigene Übung (daje), {ANNO[vol]}, {unit_label}.", 'rights': 'own'}],
                 'estimatedMinutes': minutes,
                 'catalog': {'origin': 'textbook', 'textbook': {'series': book['series'], 'volume': vol, 'unit': t['unit'], **({'section': t['section']} if t['section'] else {})},
-                            'grade': book['grade'], 'foreignLanguageNo': 3, 'cefr': book['cefr'], 'tags': ['grammatik']},
+                            'grade': book['grade'], 'foreignLanguageNo': 3, 'cefr': book['cefr'], 'tags': ['grammatik'],
+                            **({'curriculum': 'LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), ' + t['lehrplan']} if t['lehrplan'] else {})},
                 'grammar': {'topic': f"{book['prefix']}-{t['id']}", 'topicTitle': t['title'], 'difficulty': e['level'], 'origin': 'own', 'order': t['order'] * 10 + n, **({'rule': rule} if rule else {}), **({'ruleHelp': rule_de} if rule_de else {})},
                 'questions': qs,
             }

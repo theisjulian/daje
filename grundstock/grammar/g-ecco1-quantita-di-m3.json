@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quantita-di-m3",
+ "title": "Quanto?",
+ "language": "it",
+ "level": "A1",
+ "description": "Le quantità: un chilo di, un etto di … · Quanto? · livello medio.",
+ "topics": [
+  "Le quantità: un chilo di, un etto di …",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Mengenangaben"
+ },
+ "grammar": {
+  "topic": "ecco1-quantita-di",
+  "topicTitle": "Le quantità: un chilo di, un etto di …",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 53,
+  "rule": "Dopo una quantità precisa usiamo **di** (senza articolo):\n- _un chilo **di** mele · mezzo chilo **di** pane · un etto **di** prosciutto_ (100 g)\n- _un litro **di** latte · una bottiglia **d’**acqua · un pacco **di** pasta · una scatola **di** biscotti_\n- _un pezzo **di** formaggio · una fetta **di** torta · un vasetto **di** miele · un mazzo **di** basilico_\nDavanti a vocale: **d’**: _una bottiglia d’acqua, un litro d’olio._\n_Quanto costa? / Quanto costano?_ · _Quanti ne vuole?_ (più avanti)",
+  "ruleHelp": "Nach einer genauen Menge steht **di** (ohne Artikel): _un chilo di mele, un etto di prosciutto (100 g), un litro di latte, una bottiglia d’acqua, un pacco di pasta, una fetta di torta._ Vor Vokal: **d’**."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi la quantità in italiano.",
+   "promptHelp": "Schreibe die Menge auf Italienisch.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "(1 kg Kartoffeln)",
+     "acceptedAnswers": [
+      "un chilo di patate"
+     ],
+     "modelAnswer": "un chilo di patate"
+    },
+    {
+     "id": "s2",
+     "start": "(200 g Käse)",
+     "acceptedAnswers": [
+      "due etti di formaggio"
+     ],
+     "modelAnswer": "due etti di formaggio"
+    },
+    {
+     "id": "s3",
+     "start": "(1 Liter Saft)",
+     "acceptedAnswers": [
+      "un litro di succo"
+     ],
+     "modelAnswer": "un litro di succo"
+    },
+    {
+     "id": "s4",
+     "start": "(1 Flasche Öl)",
+     "acceptedAnswers": [
+      "una bottiglia d’olio",
+      "una bottiglia di olio"
+     ],
+     "modelAnswer": "una bottiglia d’olio"
+    },
+    {
+     "id": "s5",
+     "start": "(3 Scheiben Brot)",
+     "acceptedAnswers": [
+      "tre fette di pane"
+     ],
+     "modelAnswer": "tre fette di pane"
+    },
+    {
+     "id": "s6",
+     "start": "(1 Packung Reis)",
+     "acceptedAnswers": [
+      "un pacco di riso"
+     ],
+     "modelAnswer": "un pacco di riso"
+    },
+    {
+     "id": "s7",
+     "start": "(ein Stück Kuchen)",
+     "acceptedAnswers": [
+      "un pezzo di torta",
+      "una fetta di torta"
+     ],
+     "modelAnswer": "un pezzo di torta"
+    },
+    {
+     "id": "s8",
+     "start": "(ein halbes Kilo Kirschen)",
+     "acceptedAnswers": [
+      "mezzo chilo di ciliegie"
+     ],
+     "modelAnswer": "mezzo chilo di ciliegie"
+    }
+   ]
+  }
+ ]
+}

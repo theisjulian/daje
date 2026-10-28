@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quello-m3",
+ "title": "Quello davanti al nome",
+ "language": "it",
+ "level": "A1",
+ "description": "Quello: aggettivo e pronome · Quello davanti al nome · livello medio.",
+ "topics": [
+  "Quello: aggettivo e pronome",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quello",
+  "topicTitle": "Quello: aggettivo e pronome",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 23,
+  "rule": "**quello** (dort, jener) indica una cosa **lontana**. Davanti al nome cambia come l’articolo:\n| il → **quel** cappello | lo → **quello** zaino | l’ → **quell’**armadio / **quell’**amica | la → **quella** gonna |\n| i → **quei** cappelli | gli → **quegli** zaini / **quegli** amici | le → **quelle** gonne |\n\nDa solo (pronome): **quello, quella, quelli, quelle**: _Quale maglietta? – Quella rossa._ · _Chi è quello lì?_\n**questo** = vicino · **quello** = lontano.",
+  "ruleHelp": "**quello** zeigt auf etwas **Entferntes**. Vor dem Nomen geht es wie der Artikel: quel cappello, quello zaino, quell’armadio, quella gonna, quei cappelli, quegli zaini, quelle gonne.\nAllein (Pronomen): quello, quella, quelli, quelle: _Quale maglietta? – Quella rossa._ questo = nah, quello = fern."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi la forma di quello con il nome.",
+   "promptHelp": "Schreibe die Form von quello mit dem Nomen.",
+   "type": "table_fill",
+   "columns": [
+    "nome",
+    "con quello"
+   ],
+   "rows": [
+    [
+     "il negozio",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "quel negozio"
+      ]
+     }
+    ],
+    [
+     "lo specchio",
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "quello specchio"
+      ]
+     }
+    ],
+    [
+     "l’orologio",
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "quell’orologio"
+      ]
+     }
+    ],
+    [
+     "la borsa",
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "quella borsa"
+      ]
+     }
+    ],
+    [
+     "i guanti",
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "quei guanti"
+      ]
+     }
+    ],
+    [
+     "gli occhiali",
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "quegli occhiali"
+      ]
+     }
+    ],
+    [
+     "le giacche",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "quelle giacche"
+      ]
+     }
+    ],
+    [
+     "l’amica",
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "quell’amica"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

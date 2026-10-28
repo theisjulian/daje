@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quello-l3",
+ "title": "Questo o quello?",
+ "language": "it",
+ "level": "A1",
+ "description": "Quello: aggettivo e pronome · Questo o quello? · livello facile.",
+ "topics": [
+  "Quello: aggettivo e pronome",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quello",
+  "topicTitle": "Quello: aggettivo e pronome",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 23,
+  "rule": "**quello** (dort, jener) indica una cosa **lontana**. Davanti al nome cambia come l’articolo:\n| il → **quel** cappello | lo → **quello** zaino | l’ → **quell’**armadio / **quell’**amica | la → **quella** gonna |\n| i → **quei** cappelli | gli → **quegli** zaini / **quegli** amici | le → **quelle** gonne |\n\nDa solo (pronome): **quello, quella, quelli, quelle**: _Quale maglietta? – Quella rossa._ · _Chi è quello lì?_\n**questo** = vicino · **quello** = lontano.",
+  "ruleHelp": "**quello** zeigt auf etwas **Entferntes**. Vor dem Nomen geht es wie der Artikel: quel cappello, quello zaino, quell’armadio, quella gonna, quei cappelli, quegli zaini, quelle gonne.\nAllein (Pronomen): quello, quella, quelli, quelle: _Quale maglietta? – Quella rossa._ questo = nah, quello = fern."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Vicino (questo) o lontano (quello)?",
+   "promptHelp": "Nah (questo) oder fern (quello)?",
+   "type": "gap_choice",
+   "text": "(qui, in mano) [[g1]] maglietta è morbida.\n(là, in vetrina) [[g2]] vestito è elegante.\n(qui, ai miei piedi) [[g3]] scarpe sono comode.\n(laggiù) [[g4]] ragazza è mia cugina.\n(qui, sul tavolo) [[g5]] pane è fresco.\n(là, sullo scaffale) [[g6]] biscotti sono buoni.\n(qui, nella borsa) [[g7]] soldi sono miei.\n(là, dall’altra parte) [[g8]] negozio è nuovo.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Questa",
+      "Quella"
+     ],
+     "answer": "Questa"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Quel",
+      "Questo"
+     ],
+     "answer": "Quel"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Queste",
+      "Quelle"
+     ],
+     "answer": "Queste"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Quella",
+      "Questa"
+     ],
+     "answer": "Quella"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Questo",
+      "Quel"
+     ],
+     "answer": "Questo"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Quei",
+      "Questi"
+     ],
+     "answer": "Quei"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "Questi",
+      "Quei"
+     ],
+     "answer": "Questi"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "Quel",
+      "Questo"
+     ],
+     "answer": "Quel"
+    }
+   ]
+  }
+ ]
+}

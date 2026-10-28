@@ -1,0 +1,96 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quello-l2",
+ "title": "Articolo e quello",
+ "language": "it",
+ "level": "A1",
+ "description": "Quello: aggettivo e pronome · Articolo e quello · livello facile.",
+ "topics": [
+  "Quello: aggettivo e pronome",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quello",
+  "topicTitle": "Quello: aggettivo e pronome",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 22,
+  "rule": "**quello** (dort, jener) indica una cosa **lontana**. Davanti al nome cambia come l’articolo:\n| il → **quel** cappello | lo → **quello** zaino | l’ → **quell’**armadio / **quell’**amica | la → **quella** gonna |\n| i → **quei** cappelli | gli → **quegli** zaini / **quegli** amici | le → **quelle** gonne |\n\nDa solo (pronome): **quello, quella, quelli, quelle**: _Quale maglietta? – Quella rossa._ · _Chi è quello lì?_\n**questo** = vicino · **quello** = lontano.",
+  "ruleHelp": "**quello** zeigt auf etwas **Entferntes**. Vor dem Nomen geht es wie der Artikel: quel cappello, quello zaino, quell’armadio, quella gonna, quei cappelli, quegli zaini, quelle gonne.\nAllein (Pronomen): quello, quella, quelli, quelle: _Quale maglietta? – Quella rossa._ questo = nah, quello = fern."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina articolo e forma di quello.",
+   "promptHelp": "Verbinde Artikel und Form von quello.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "il cappello",
+     "right": "quel cappello"
+    },
+    {
+     "id": "p2",
+     "left": "lo zaino",
+     "right": "quello zaino"
+    },
+    {
+     "id": "p3",
+     "left": "l’armadio",
+     "right": "quell’armadio"
+    },
+    {
+     "id": "p4",
+     "left": "la gonna",
+     "right": "quella gonna"
+    },
+    {
+     "id": "p5",
+     "left": "i jeans",
+     "right": "quei jeans"
+    },
+    {
+     "id": "p6",
+     "left": "gli stivali",
+     "right": "quegli stivali"
+    },
+    {
+     "id": "p7",
+     "left": "le scarpe",
+     "right": "quelle scarpe"
+    },
+    {
+     "id": "p8",
+     "left": "gli amici",
+     "right": "quegli amici"
+    }
+   ]
+  }
+ ]
+}

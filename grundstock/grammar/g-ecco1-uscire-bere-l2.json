@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-uscire-bere-l2",
+ "title": "Quale verbo?",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi irregolari uscire, bere, tenere · Quale verbo? · livello facile.",
+ "topics": [
+  "I verbi irregolari uscire, bere, tenere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: uscire, bere, tenere"
+ },
+ "grammar": {
+  "topic": "ecco1-uscire-bere",
+  "topicTitle": "I verbi irregolari uscire, bere, tenere",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 42,
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| uscire | esco | esci | esce | usciamo | uscite | escono |\n| bere | bevo | bevi | beve | beviamo | bevete | bevono |\n| tenere | tengo | tieni | tiene | teniamo | tenete | tengono |\n\n_Esco con gli amici. · Bevo un succo. · Tengo il cane al guinzaglio._\n**Attenzione:** uscire: e- con io, tu, lui, loro (esco), ma u- con noi e voi (usciamo).",
+  "ruleHelp": "uscire (ausgehen): esco, esci, esce, usciamo, uscite, escono · bere (trinken): bevo, bevi, beve … (Stamm bev-) · tenere (halten): tengo, tieni, tiene, teniamo, tenete, tengono.\n**Achtung:** uscire hat e- bei io, tu, lui, loro, aber u- bei noi und voi."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Uscire, bere o tenere?",
+   "promptHelp": "Welches Verb?",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "u",
+     "label": "uscire"
+    },
+    {
+     "id": "b",
+     "label": "bere"
+    },
+    {
+     "id": "t",
+     "label": "tenere"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "esco",
+     "category": "u"
+    },
+    {
+     "id": "i2",
+     "text": "usciamo",
+     "category": "u"
+    },
+    {
+     "id": "i3",
+     "text": "escono",
+     "category": "u"
+    },
+    {
+     "id": "i4",
+     "text": "bevo",
+     "category": "b"
+    },
+    {
+     "id": "i5",
+     "text": "bevete",
+     "category": "b"
+    },
+    {
+     "id": "i6",
+     "text": "bevono",
+     "category": "b"
+    },
+    {
+     "id": "i7",
+     "text": "tengo",
+     "category": "t"
+    },
+    {
+     "id": "i8",
+     "text": "tieni",
+     "category": "t"
+    },
+    {
+     "id": "i9",
+     "text": "tengono",
+     "category": "t"
+    },
+    {
+     "id": "i10",
+     "text": "esci",
+     "category": "u"
+    }
+   ]
+  }
+ ]
+}

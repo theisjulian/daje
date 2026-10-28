@@ -2,6 +2,7 @@
 ## Primo anno · Lektion 3 · La scuola · Grammatikthemen (Lehrplan Jgst. 8). Wochentage, Uhrzeit, Ordinalzahlen 1–10: auch im Trainer.
 
 @thema orario | 3 · La scuola | Per cominciare | L’ora e i giorni della settimana | 1
+#lehrplan Jgst. 8 · Uhrzeit, Wochentage, Ordnungszahlen 1–10
 #regel
 **Che ore sono?**
 - _È l’una._ · _Sono le due / le tre …_
@@ -154,6 +155,7 @@ La prima ora comincia (8.00) [alle otto].
 Torno a casa (13.45) [alle due meno un quarto/all’una e quarantacinque].
 
 @thema isc-fare | 3 · La scuola | Parte A | I verbi in -isc- e fare | 2
+#lehrplan Jgst. 8 · Präsens: fare, Verben auf -isc-
 #regel
 Molti verbi in -ire hanno **-isc-**, ma **non** con noi e voi:
 | persona | capire | finire |
@@ -290,6 +292,7 @@ I miei compagni (preferire) [preferiscono] il basket.
 ! dormire non ha -isc-: lui dorme. || dormire hat kein -isc-: lui dorme.
 
 @thema imperativo | 3 · La scuola | Parte A | L’imperativo (tu, voi) e la negazione | 3
+#lehrplan Jgst. 8 · Imperativ 2. Person Singular und Plural, verneint
 #regel
 **Affermativo:**
 | | -are | -ere | -ire |
@@ -424,6 +427,7 @@ Non (usare) [usate] il cellulare!
 Non (copiare) [copiate] i compiti!
 
 @thema dare-dire-indiretto | 3 · La scuola | Parte B | Dare, dire e i pronomi indiretti | 4
+#lehrplan Jgst. 8 · dare, dire; indirektes Objekt, unbetonte indirekte Objektpronomen
 #regel
 | | io | tu | lui / lei | noi | voi | loro |
 | dare | do | dai | dà | diamo | date | danno |

@@ -1,0 +1,101 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quello-s3",
+ "title": "Fare shopping",
+ "language": "it",
+ "level": "A1",
+ "description": "Quello: aggettivo e pronome · Fare shopping · livello difficile.",
+ "topics": [
+  "Quello: aggettivo e pronome",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quello",
+  "topicTitle": "Quello: aggettivo e pronome",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 23,
+  "rule": "**quello** (dort, jener) indica una cosa **lontana**. Davanti al nome cambia come l’articolo:\n| il → **quel** cappello | lo → **quello** zaino | l’ → **quell’**armadio / **quell’**amica | la → **quella** gonna |\n| i → **quei** cappelli | gli → **quegli** zaini / **quegli** amici | le → **quelle** gonne |\n\nDa solo (pronome): **quello, quella, quelli, quelle**: _Quale maglietta? – Quella rossa._ · _Chi è quello lì?_\n**questo** = vicino · **quello** = lontano.",
+  "ruleHelp": "**quello** zeigt auf etwas **Entferntes**. Vor dem Nomen geht es wie der Artikel: quel cappello, quello zaino, quell’armadio, quella gonna, quei cappelli, quegli zaini, quelle gonne.\nAllein (Pronomen): quello, quella, quelli, quelle: _Quale maglietta? – Quella rossa._ questo = nah, quello = fern."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Sei in un negozio con un’amica. Scrivi un piccolo dialogo con questo e quello.",
+   "promptHelp": "Schreibe einen kleinen Dialog im Geschäft mit questo und quello.",
+   "type": "open_answer",
+   "modelAnswer": "– Ti piace questa felpa? – No, preferisco quella grigia. – E quei jeans? – Sì, ma questi sono più belli. – Quanto costa quel cappello? – Venti euro.",
+   "lines": 5
+  },
+  {
+   "id": "q2",
+   "prompt": "Controlla: quale forma?",
+   "promptHelp": "Prüfe: welche Form?",
+   "type": "gap_choice",
+   "text": "Preferisco [[g1]] grigia.\n[[g2]] jeans sono belli.\nQuanto costa [[g3]] cappello?\nMi piacciono [[g4]] scarpe.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "quella",
+      "quel",
+      "quelle"
+     ],
+     "answer": "quella"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Quei",
+      "Quegli",
+      "Quelle"
+     ],
+     "answer": "Quei"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "quel",
+      "quello",
+      "quella"
+     ],
+     "answer": "quel"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "quelle",
+      "quei",
+      "quelli"
+     ],
+     "answer": "quelle"
+    }
+   ]
+  }
+ ]
+}

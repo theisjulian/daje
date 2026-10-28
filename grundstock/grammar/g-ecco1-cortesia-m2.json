@@ -1,0 +1,124 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-cortesia-m2",
+ "title": "Bisogno o voglia?",
+ "language": "it",
+ "level": "A1",
+ "description": "La forma di cortesia e l’imperativo di cortesia · Bisogno o voglia? · livello medio.",
+ "topics": [
+  "La forma di cortesia e l’imperativo di cortesia",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · höfliche Anrede in Singular und Plural; imperativo di cortesia (scusi, mi dica, mi dia); avere bisogno/voglia di"
+ },
+ "grammar": {
+  "topic": "ecco1-cortesia",
+  "topicTitle": "La forma di cortesia e l’imperativo di cortesia",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 82,
+  "rule": "Con gli adulti che non conosci usiamo **Lei** (terza persona singolare): _Come **sta**? Che cosa **desidera**?_\nCon più persone si usa **voi**: _Ragazzi, che cosa **prendete**?_\n**Imperativo di cortesia** (frasi fisse):\n| Scusi! | Senta! | Mi dica! | Mi dia … | Prego! | Venga! | Prenda! |\nPer chiedere gentilmente: _**Vorrei** un caffè. · **Potrebbe** aiutarmi?_\nAltre frasi: _**Ho bisogno di** una taglia più grande. · **Ho voglia di** un gelato._",
+  "ruleHelp": "Erwachsene, die man nicht kennt, spricht man mit **Lei** an (3. Person Singular): _Come sta? Che cosa desidera?_ Mehrere Personen: **voi**.\nFeste höfliche Imperative: _Scusi! Senta! Mi dica! Mi dia … Prego! Venga! Prenda!_ · Höflich bitten: _Vorrei …, Potrebbe …?_\n_Ho bisogno di_ (ich brauche) · _Ho voglia di_ (ich habe Lust auf)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli ho bisogno di o ho voglia di.",
+   "promptHelp": "Wähle ho bisogno di oder ho voglia di.",
+   "explanation": "bisogno = è necessario; voglia = mi piacerebbe.",
+   "explanationHelp": "bisogno = brauchen; voglia = Lust haben.",
+   "type": "gap_choice",
+   "text": "Fa caldo: [[g1]] un gelato!\nDomani c’è il test: [[g2]] studiare.\nLe scarpe sono rotte: [[g3]] scarpe nuove.\nChe bella giornata! [[g4]] andare al mare.\nNon vedo bene: [[g5]] occhiali.\nStasera [[g6]] una pizza!\nPer la ricetta [[g7]] due uova.\nSono stanco: [[g8]] dormire.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "ho voglia di",
+      "ho bisogno di"
+     ],
+     "answer": "ho voglia di"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "ho bisogno di",
+      "ho voglia di"
+     ],
+     "answer": "ho bisogno di"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "ho bisogno di",
+      "ho voglia di"
+     ],
+     "answer": "ho bisogno di"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Ho voglia di",
+      "Ho bisogno di"
+     ],
+     "answer": "Ho voglia di"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "ho bisogno di",
+      "ho voglia di"
+     ],
+     "answer": "ho bisogno di"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "ho voglia di",
+      "ho bisogno di"
+     ],
+     "answer": "ho voglia di"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "ho bisogno di",
+      "ho voglia di"
+     ],
+     "answer": "ho bisogno di"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "ho bisogno di",
+      "ho voglia di"
+     ],
+     "answer": "ho bisogno di"
+    }
+   ]
+  }
+ ]
+}

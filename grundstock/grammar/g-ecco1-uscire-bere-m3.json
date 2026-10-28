@@ -1,0 +1,122 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-uscire-bere-m3",
+ "title": "Domande",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi irregolari uscire, bere, tenere · Domande · livello medio.",
+ "topics": [
+  "I verbi irregolari uscire, bere, tenere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: uscire, bere, tenere"
+ },
+ "grammar": {
+  "topic": "ecco1-uscire-bere",
+  "topicTitle": "I verbi irregolari uscire, bere, tenere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 43,
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| uscire | esco | esci | esce | usciamo | uscite | escono |\n| bere | bevo | bevi | beve | beviamo | bevete | bevono |\n| tenere | tengo | tieni | tiene | teniamo | tenete | tengono |\n\n_Esco con gli amici. · Bevo un succo. · Tengo il cane al guinzaglio._\n**Attenzione:** uscire: e- con io, tu, lui, loro (esco), ma u- con noi e voi (usciamo).",
+  "ruleHelp": "uscire (ausgehen): esco, esci, esce, usciamo, uscite, escono · bere (trinken): bevo, bevi, beve … (Stamm bev-) · tenere (halten): tengo, tieni, tiene, teniamo, tenete, tengono.\n**Achtung:** uscire hat e- bei io, tu, lui, loro, aber u- bei noi und voi."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi con la forma giusta.",
+   "promptHelp": "Antworte mit der richtigen Form.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Esci stasera? (sì) – …",
+     "acceptedAnswers": [
+      "Sì, esco"
+     ],
+     "modelAnswer": "Sì, esco stasera."
+    },
+    {
+     "id": "s2",
+     "start": "Uscite con noi? (sì) – …",
+     "acceptedAnswers": [
+      "Sì, usciamo"
+     ],
+     "modelAnswer": "Sì, usciamo con voi."
+    },
+    {
+     "id": "s3",
+     "start": "Che cosa bevi? (un succo) – …",
+     "acceptedAnswers": [
+      "Bevo un succo"
+     ],
+     "modelAnswer": "Bevo un succo."
+    },
+    {
+     "id": "s4",
+     "start": "Che cosa bevete? (acqua) – …",
+     "acceptedAnswers": [
+      "Beviamo acqua"
+     ],
+     "modelAnswer": "Beviamo acqua."
+    },
+    {
+     "id": "s5",
+     "start": "A che ora escono i ragazzi? (alle nove) – …",
+     "acceptedAnswers": [
+      "Escono alle nove"
+     ],
+     "modelAnswer": "Escono alle nove."
+    },
+    {
+     "id": "s6",
+     "start": "Tieni tu le chiavi? (sì) – …",
+     "acceptedAnswers": [
+      "Sì, tengo io le chiavi",
+      "Sì, le tengo io"
+     ],
+     "modelAnswer": "Sì, le tengo io."
+    },
+    {
+     "id": "s7",
+     "start": "Beve il latte tuo fratello? (no) – …",
+     "acceptedAnswers": [
+      "No, non beve il latte"
+     ],
+     "modelAnswer": "No, non beve il latte."
+    },
+    {
+     "id": "s8",
+     "start": "Esce spesso tua sorella? (sì) – …",
+     "acceptedAnswers": [
+      "Sì, esce spesso"
+     ],
+     "modelAnswer": "Sì, esce spesso."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quello-s2",
+ "title": "Chi è quello?",
+ "language": "it",
+ "level": "A1",
+ "description": "Quello: aggettivo e pronome · Chi è quello? · livello difficile.",
+ "topics": [
+  "Quello: aggettivo e pronome",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quello",
+  "topicTitle": "Quello: aggettivo e pronome",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 22,
+  "rule": "**quello** (dort, jener) indica una cosa **lontana**. Davanti al nome cambia come l’articolo:\n| il → **quel** cappello | lo → **quello** zaino | l’ → **quell’**armadio / **quell’**amica | la → **quella** gonna |\n| i → **quei** cappelli | gli → **quegli** zaini / **quegli** amici | le → **quelle** gonne |\n\nDa solo (pronome): **quello, quella, quelli, quelle**: _Quale maglietta? – Quella rossa._ · _Chi è quello lì?_\n**questo** = vicino · **quello** = lontano.",
+  "ruleHelp": "**quello** zeigt auf etwas **Entferntes**. Vor dem Nomen geht es wie der Artikel: quel cappello, quello zaino, quell’armadio, quella gonna, quei cappelli, quegli zaini, quelle gonne.\nAllein (Pronomen): quello, quella, quelli, quelle: _Quale maglietta? – Quella rossa._ questo = nah, quello = fern."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi la forma giusta di quello.",
+   "promptHelp": "Ergänze die richtige Form von quello.",
+   "type": "gap_fill",
+   "text": "– Chi è [[g1]] lì, con la camicia rossa?\n– È Marco! E [[g2]] ragazza vicino a lui è sua sorella.\n– E [[g3]] ragazzi con i cappelli neri?\n– Sono i suoi cugini. [[g4]] occhiali sono di Paolo, sai?\n– Ah, e [[g5]] uomo alto?\n– È il papà di Marco. E [[g6]] signore sono le sue zie.\n– Che famiglia grande! E [[g7]] cane?\n– [[g8]] è Bobo!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "quello"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "quella"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "quei"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Quegli"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "quell’"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "quelle"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "quel"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Quello"
+     ]
+    }
+   ]
+  }
+ ]
+}

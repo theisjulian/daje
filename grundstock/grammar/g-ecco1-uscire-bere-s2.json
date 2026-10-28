@@ -1,0 +1,112 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-uscire-bere-s2",
+ "title": "Una serata con gli amici",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi irregolari uscire, bere, tenere · Una serata con gli amici · livello difficile.",
+ "topics": [
+  "I verbi irregolari uscire, bere, tenere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: uscire, bere, tenere"
+ },
+ "grammar": {
+  "topic": "ecco1-uscire-bere",
+  "topicTitle": "I verbi irregolari uscire, bere, tenere",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 42,
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| uscire | esco | esci | esce | usciamo | uscite | escono |\n| bere | bevo | bevi | beve | beviamo | bevete | bevono |\n| tenere | tengo | tieni | tiene | teniamo | tenete | tengono |\n\n_Esco con gli amici. · Bevo un succo. · Tengo il cane al guinzaglio._\n**Attenzione:** uscire: e- con io, tu, lui, loro (esco), ma u- con noi e voi (usciamo).",
+  "ruleHelp": "uscire (ausgehen): esco, esci, esce, usciamo, uscite, escono · bere (trinken): bevo, bevi, beve … (Stamm bev-) · tenere (halten): tengo, tieni, tiene, teniamo, tenete, tengono.\n**Achtung:** uscire hat e- bei io, tu, lui, loro, aber u- bei noi und voi."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi uscire, bere, tenere, andare e fare nella forma giusta.",
+   "promptHelp": "Ergänze die Verben.",
+   "type": "gap_fill",
+   "text": "Venerdì sera io e Sara (uscire) [[g1]] presto.\n(Andare, noi) [[g2]] in un bar in centro.\nIo (bere) [[g3]] una limonata, Sara (bere) [[g4]] un tè freddo.\nPoi (arrivare) [[g5]] Luca e Paolo: loro (uscire) [[g6]] dal cinema.\nLuca (tenere) [[g7]] in mano due biglietti per un concerto!\n«Ragazze, (uscire, voi) [[g8]] anche domani?» chiede.\nSì, ma prima (fare, noi) [[g9]] i compiti!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "usciamo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Andiamo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "bevo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "beve"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "arrivano"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "escono"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "tiene"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "uscite"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "facciamo"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-colori-s3",
+ "title": "Il mio look preferito",
+ "language": "it",
+ "level": "A1",
+ "description": "I colori · Il mio look preferito · livello difficile.",
+ "topics": [
+  "I colori",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Farbadjektive"
+ },
+ "grammar": {
+  "topic": "ecco1-colori",
+  "topicTitle": "I colori",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 13,
+  "rule": "I colori sono aggettivi: vanno **dopo** il nome e cambiano come il nome.\n| -o/-a | rosso, rossa, rossi, rosse · nero · bianco (bianchi, bianche) · giallo · grigio (grigi, grigie) · azzurro |\n| -e | verde, verdi · marrone, marroni · arancione, arancioni |\n| non cambiano | blu · rosa · viola · beige |\n\n_una maglietta **rossa**, due magliette **rosse**, i pantaloni **blu**, le scarpe **rosa**._",
+  "ruleHelp": "Farben sind Adjektive: Sie stehen **nach** dem Nomen und passen sich an (rosso/rossa/rossi/rosse; verde/verdi).\n**Unveränderlich** sind blu, rosa, viola, beige: _i pantaloni blu, le scarpe rosa._ Achtung: bianco → bianchi/bianche, grigio → grigi/grigie."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Descrivi che cosa porti oggi o il tuo look preferito. Usa almeno sei colori.",
+   "promptHelp": "Beschreibe, was du heute trägst oder deinen Lieblingslook (mindestens sechs Farben).",
+   "type": "open_answer",
+   "modelAnswer": "Oggi porto una felpa grigia, i jeans blu e le scarpe bianche. Ho anche una sciarpa rossa e un cappello nero. La mia borsa è verde.",
+   "lines": 5
+  },
+  {
+   "id": "q2",
+   "prompt": "E adesso completa con i colori.",
+   "promptHelp": "Und jetzt ergänze die Farben.",
+   "type": "gap_fill",
+   "text": "Oggi porto una maglietta (bianco) [[g1]].\nI miei jeans sono (nero) [[g2]].\nLe mie scarpe sono (rosa) [[g3]].\nLa mia giacca è (verde) [[g4]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "bianca"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "neri"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "rosa"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "verde"
+     ]
+    }
+   ]
+  }
+ ]
+}

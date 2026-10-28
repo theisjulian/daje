@@ -1,0 +1,124 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-cortesia-m3",
+ "title": "Dal tu al Lei",
+ "language": "it",
+ "level": "A1",
+ "description": "La forma di cortesia e l’imperativo di cortesia · Dal tu al Lei · livello medio.",
+ "topics": [
+  "La forma di cortesia e l’imperativo di cortesia",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · höfliche Anrede in Singular und Plural; imperativo di cortesia (scusi, mi dica, mi dia); avere bisogno/voglia di"
+ },
+ "grammar": {
+  "topic": "ecco1-cortesia",
+  "topicTitle": "La forma di cortesia e l’imperativo di cortesia",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 83,
+  "rule": "Con gli adulti che non conosci usiamo **Lei** (terza persona singolare): _Come **sta**? Che cosa **desidera**?_\nCon più persone si usa **voi**: _Ragazzi, che cosa **prendete**?_\n**Imperativo di cortesia** (frasi fisse):\n| Scusi! | Senta! | Mi dica! | Mi dia … | Prego! | Venga! | Prenda! |\nPer chiedere gentilmente: _**Vorrei** un caffè. · **Potrebbe** aiutarmi?_\nAltre frasi: _**Ho bisogno di** una taglia più grande. · **Ho voglia di** un gelato._",
+  "ruleHelp": "Erwachsene, die man nicht kennt, spricht man mit **Lei** an (3. Person Singular): _Come sta? Che cosa desidera?_ Mehrere Personen: **voi**.\nFeste höfliche Imperative: _Scusi! Senta! Mi dica! Mi dia … Prego! Venga! Prenda!_ · Höflich bitten: _Vorrei …, Potrebbe …?_\n_Ho bisogno di_ (ich brauche) · _Ho voglia di_ (ich habe Lust auf)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Trasforma la domanda in forma di cortesia (Lei).",
+   "promptHelp": "Forme die Frage in die Höflichkeitsform um.",
+   "explanation": "Con Lei: terza persona singolare (sta, è, vuole, ha).",
+   "explanationHelp": "Mit Lei: 3. Person Singular.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Come stai? → …",
+     "acceptedAnswers": [
+      "Come sta"
+     ],
+     "modelAnswer": "Come sta?"
+    },
+    {
+     "id": "s2",
+     "start": "Di dove sei? → …",
+     "acceptedAnswers": [
+      "Di dov’è",
+      "Di dove è"
+     ],
+     "modelAnswer": "Di dov’è?"
+    },
+    {
+     "id": "s3",
+     "start": "Che cosa vuoi? → …",
+     "acceptedAnswers": [
+      "Che cosa vuole"
+     ],
+     "modelAnswer": "Che cosa vuole?"
+    },
+    {
+     "id": "s4",
+     "start": "Hai una penna? → …",
+     "acceptedAnswers": [
+      "Ha una penna"
+     ],
+     "modelAnswer": "Ha una penna?"
+    },
+    {
+     "id": "s5",
+     "start": "Puoi aiutarmi? → …",
+     "acceptedAnswers": [
+      "Può aiutarmi"
+     ],
+     "modelAnswer": "Può aiutarmi?"
+    },
+    {
+     "id": "s6",
+     "start": "Parli inglese? → …",
+     "acceptedAnswers": [
+      "Parla inglese"
+     ],
+     "modelAnswer": "Parla inglese?"
+    },
+    {
+     "id": "s7",
+     "start": "Dove abiti? → …",
+     "acceptedAnswers": [
+      "Dove abita"
+     ],
+     "modelAnswer": "Dove abita?"
+    },
+    {
+     "id": "s8",
+     "start": "Che cosa prendi? → …",
+     "acceptedAnswers": [
+      "Che cosa prende"
+     ],
+     "modelAnswer": "Che cosa prende?"
+    }
+   ]
+  }
+ ]
+}

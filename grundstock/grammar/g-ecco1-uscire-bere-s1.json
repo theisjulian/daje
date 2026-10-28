@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-uscire-bere-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi irregolari uscire, bere, tenere · Trova gli errori · livello difficile.",
+ "topics": [
+  "I verbi irregolari uscire, bere, tenere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: uscire, bere, tenere"
+ },
+ "grammar": {
+  "topic": "ecco1-uscire-bere",
+  "topicTitle": "I verbi irregolari uscire, bere, tenere",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 41,
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| uscire | esco | esci | esce | usciamo | uscite | escono |\n| bere | bevo | bevi | beve | beviamo | bevete | bevono |\n| tenere | tengo | tieni | tiene | teniamo | tenete | tengono |\n\n_Esco con gli amici. · Bevo un succo. · Tengo il cane al guinzaglio._\n**Attenzione:** uscire: e- con io, tu, lui, loro (esco), ma u- con noi e voi (usciamo).",
+  "ruleHelp": "uscire (ausgehen): esco, esci, esce, usciamo, uscite, escono · bere (trinken): bevo, bevi, beve … (Stamm bev-) · tenere (halten): tengo, tieni, tiene, teniamo, tenete, tengono.\n**Achtung:** uscire hat e- bei io, tu, lui, loro, aber u- bei noi und voi."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi le forme sbagliate.",
+   "promptHelp": "Korrigiere die falschen Formen.",
+   "type": "error_correction",
+   "text": "Io [[g1]] alle sette.\nNoi [[g2]] insieme.\nLoro [[g3]] tardi.\nTu [[g4]] il tè?\nVoi [[g5]] acqua?\nIo [[g6]] il cane.\nLui [[g7]] il libro.\nLoro [[g8]] la porta aperta.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "usco",
+     "acceptedAnswers": [
+      "esco"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "esciamo",
+     "acceptedAnswers": [
+      "usciamo"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "uscono",
+     "acceptedAnswers": [
+      "escono"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "beri",
+     "acceptedAnswers": [
+      "bevi"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "berete",
+     "acceptedAnswers": [
+      "bevete"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "teno",
+     "acceptedAnswers": [
+      "tengo"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "tene",
+     "acceptedAnswers": [
+      "tiene"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "tenono",
+     "acceptedAnswers": [
+      "tengono"
+     ]
+    }
+   ]
+  }
+ ]
+}

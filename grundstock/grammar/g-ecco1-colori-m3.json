@@ -1,0 +1,125 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-colori-m3",
+ "title": "Che cosa portano?",
+ "language": "it",
+ "level": "A1",
+ "description": "I colori · Che cosa portano? · livello medio.",
+ "topics": [
+  "I colori",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Farbadjektive"
+ },
+ "grammar": {
+  "topic": "ecco1-colori",
+  "topicTitle": "I colori",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 13,
+  "rule": "I colori sono aggettivi: vanno **dopo** il nome e cambiano come il nome.\n| -o/-a | rosso, rossa, rossi, rosse · nero · bianco (bianchi, bianche) · giallo · grigio (grigi, grigie) · azzurro |\n| -e | verde, verdi · marrone, marroni · arancione, arancioni |\n| non cambiano | blu · rosa · viola · beige |\n\n_una maglietta **rossa**, due magliette **rosse**, i pantaloni **blu**, le scarpe **rosa**._",
+  "ruleHelp": "Farben sind Adjektive: Sie stehen **nach** dem Nomen und passen sich an (rosso/rossa/rossi/rosse; verde/verdi).\n**Unveränderlich** sind blu, rosa, viola, beige: _i pantaloni blu, le scarpe rosa._ Achtung: bianco → bianchi/bianche, grigio → grigi/grigie."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Descrivi i vestiti con il colore giusto.",
+   "promptHelp": "Beschreibe die Kleidung mit der richtigen Farbe.",
+   "explanation": "Il colore va dopo il nome e cambia (tranne blu, rosa, viola).",
+   "explanationHelp": "Farbe nach dem Nomen und angepasst (außer blu, rosa, viola).",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Luca porta … (Hose, blau)",
+     "acceptedAnswers": [
+      "i pantaloni blu"
+     ],
+     "modelAnswer": "Luca porta i pantaloni blu."
+    },
+    {
+     "id": "s2",
+     "start": "Sara porta … (Rock, rot)",
+     "acceptedAnswers": [
+      "una gonna rossa"
+     ],
+     "modelAnswer": "Sara porta una gonna rossa."
+    },
+    {
+     "id": "s3",
+     "start": "Paolo porta … (Schuhe, schwarz)",
+     "acceptedAnswers": [
+      "le scarpe nere",
+      "scarpe nere"
+     ],
+     "modelAnswer": "Paolo porta le scarpe nere."
+    },
+    {
+     "id": "s4",
+     "start": "Anna porta … (Pullover, grau)",
+     "acceptedAnswers": [
+      "un maglione grigio"
+     ],
+     "modelAnswer": "Anna porta un maglione grigio."
+    },
+    {
+     "id": "s5",
+     "start": "Marco porta … (Mütze, grün)",
+     "acceptedAnswers": [
+      "un cappello verde"
+     ],
+     "modelAnswer": "Marco porta un cappello verde."
+    },
+    {
+     "id": "s6",
+     "start": "Giulia porta … (Socken, rosa)",
+     "acceptedAnswers": [
+      "le calze rosa",
+      "calze rosa"
+     ],
+     "modelAnswer": "Giulia porta le calze rosa."
+    },
+    {
+     "id": "s7",
+     "start": "La prof porta … (Jacke, weiß)",
+     "acceptedAnswers": [
+      "una giacca bianca"
+     ],
+     "modelAnswer": "La prof porta una giacca bianca."
+    },
+    {
+     "id": "s8",
+     "start": "Il nonno porta … (Hemden, hellblau)",
+     "acceptedAnswers": [
+      "camicie azzurre"
+     ],
+     "modelAnswer": "Il nonno porta camicie azzurre."
+    }
+   ]
+  }
+ ]
+}

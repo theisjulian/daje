@@ -1,0 +1,217 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-posizione-pronomi-l1",
+ "title": "Dove va il pronome?",
+ "language": "it",
+ "level": "A1",
+ "description": "La posizione dei pronomi · Dove va il pronome? · livello facile.",
+ "topics": [
+  "La posizione dei pronomi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 16,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Stellung der Objektpronomen bei Verneinung, Modalverben und Infinitiv"
+ },
+ "grammar": {
+  "topic": "ecco1-posizione-pronomi",
+  "topicTitle": "La posizione dei pronomi",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 71,
+  "rule": "- Di solito il pronome va **prima del verbo**: _**Lo** compro._ · con non: _**Non lo** compro._\n- Con **dovere, potere, volere** ci sono due possibilità:\n  _**Lo** voglio comprare._ = _Voglio comprar**lo**._ (l’infinito perde la -e: comprare → comprar + lo)\n- Con un **infinito** senza modale il pronome va attaccato: _È bello veder**ti**!_ · _Ho voglia di mangiar**la**._",
+  "ruleHelp": "Meist steht das Pronomen **vor dem Verb**: _Lo compro. Non lo compro._\nBei **dovere, potere, volere** zwei Möglichkeiten: _Lo voglio comprare = Voglio comprarlo_ (Infinitiv ohne -e + Pronomen).\nBeim **Infinitiv** wird das Pronomen angehängt: _È bello vederti!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non lo compro."
+    },
+    {
+     "id": "o2",
+     "text": "Lo non compro."
+    },
+    {
+     "id": "o3",
+     "text": "Non compro lo."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q2",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Voglio comprarlo."
+    },
+    {
+     "id": "o2",
+     "text": "Voglio lo comprare."
+    },
+    {
+     "id": "o3",
+     "text": "Voglio comprare lo."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q3",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "La devo chiamare."
+    },
+    {
+     "id": "o2",
+     "text": "Devo la chiamare."
+    },
+    {
+     "id": "o3",
+     "text": "Devo chiamare la."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q4",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Posso aiutarti?"
+    },
+    {
+     "id": "o2",
+     "text": "Posso ti aiutare?"
+    },
+    {
+     "id": "o3",
+     "text": "Ti posso aiutarti?"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q5",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "È bello vederti!"
+    },
+    {
+     "id": "o2",
+     "text": "È bello ti vedere!"
+    },
+    {
+     "id": "o3",
+     "text": "È bello vedere ti!"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q6",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non li voglio mangiare."
+    },
+    {
+     "id": "o2",
+     "text": "Non voglio li mangiare."
+    },
+    {
+     "id": "o3",
+     "text": "Li non voglio mangiare."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q7",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Vi possiamo aiutare."
+    },
+    {
+     "id": "o2",
+     "text": "Possiamo vi aiutare."
+    },
+    {
+     "id": "o3",
+     "text": "Possiamo aiutare vi."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q8",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Devo prenderle."
+    },
+    {
+     "id": "o2",
+     "text": "Devo le prendere."
+    },
+    {
+     "id": "o3",
+     "text": "Devo prendere le."
+    }
+   ],
+   "correctOptionId": "o1"
+  }
+ ]
+}

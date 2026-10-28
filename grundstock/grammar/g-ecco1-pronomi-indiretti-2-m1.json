@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-pronomi-indiretti-2-m1",
+ "title": "Che cosa regali?",
+ "language": "it",
+ "level": "A1",
+ "description": "Pronomi indiretti e pronomi tonici · Che cosa regali? · livello medio.",
+ "topics": [
+  "Pronomi indiretti e pronomi tonici",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte indirekte und betonte Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-pronomi-indiretti-2",
+  "topicTitle": "Pronomi indiretti e pronomi tonici",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 61,
+  "rule": "**Pronomi indiretti** (a chi?) prima del verbo:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n_Gli preparo la cena. · Le piace il rosso. · Ci manca la pizza._\n\n**Pronomi tonici** dopo una preposizione o per sottolineare:\n| me | te | lui | lei | Lei | noi | voi | loro |\n_Vieni **con me**? · Questo è **per te**. · **A me** piace, **a lui** no._",
+  "ruleHelp": "**Indirekte Pronomen** (wem?) stehen vor dem Verb: mi, ti, gli, le, Le, ci, vi, gli. _Gli preparo la cena. Le piace il rosso._\n**Betonte Pronomen** nach Präpositionen oder zur Betonung: me, te, lui, lei, Lei, noi, voi, loro: _con me, per te, a me piace, a lui no._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi il pronome indiretto.",
+   "promptHelp": "Ergänze das indirekte Pronomen.",
+   "type": "gap_fill",
+   "text": "Mio fratello ama il calcio: [[g1]] regalo un pallone.\nMia madre ama i fiori: [[g2]] regalo una pianta.\nAi miei amici piace la musica: [[g3]] regalo un biglietto per il concerto.\nE a te? Che cosa [[g4]] regalo?\nSignora, [[g5]] posso dare un consiglio?\nRagazzi, [[g6]] regalo dei biscotti.\nLa nonna [[g7]] regala sempre i soldi. (a noi)\nE a me? Nessuno [[g8]] regala niente!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "ti"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Le"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "vi"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "mi"
+     ]
+    }
+   ]
+  }
+ ]
+}

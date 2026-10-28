@@ -114,6 +114,7 @@ UI_ROWS_EXTRA.push(
 ["Die Auswahl enthält alles bis einschließlich:", "La scelta contiene tutto fino a:", "The selection includes everything up to:", "La sélection comprend tout jusqu’à :", "Qui c’è tutto fino a:"],
 ["Zeit", "Tempo", "Tense", "Temps", "Tempo"],
 ["Verb", "Verbo", "Verb", "Verbe", "Verbo"],
+["Lehrplan:", "Programma:", "Curriculum:", "Programme :", "Programma:"],
 ["Erstelle Hörübungen, Wortlisten und Grammatikübungen für deine Klasse. Alles bleibt in diesem Browser, bis du es als Link teilst.", "Crea ascolti, liste di parole ed esercizi di grammatica per la tua classe. Tutto resta in questo browser finché non lo condividi con un link.", "Create listening activities, word lists and grammar exercises for your class. Everything stays in this browser until you share it as a link.", "Crée des activités d’écoute, des listes de mots et des exercices de grammaire pour ta classe. Tout reste dans ce navigateur jusqu’au partage par lien.", "Crea esercizi per la tua classe. Tutto resta qui finché non lo condividi."],
 ["Hörübung mit KI erstellen", "Crea un ascolto con l’IA", "Create listening activity with AI", "Créer une écoute avec l’IA", "Ascolto con l’IA"],
 ["Wortliste mit KI erstellen", "Crea una lista di parole con l’IA", "Create word list with AI", "Créer une liste de mots avec l’IA", "Lista con l’IA"],

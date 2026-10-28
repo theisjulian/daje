@@ -1,0 +1,100 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quantita-di-s3",
+ "title": "La tua lista",
+ "language": "it",
+ "level": "A1",
+ "description": "Le quantità: un chilo di, un etto di … · La tua lista · livello difficile.",
+ "topics": [
+  "Le quantità: un chilo di, un etto di …",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Mengenangaben"
+ },
+ "grammar": {
+  "topic": "ecco1-quantita-di",
+  "topicTitle": "Le quantità: un chilo di, un etto di …",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 53,
+  "rule": "Dopo una quantità precisa usiamo **di** (senza articolo):\n- _un chilo **di** mele · mezzo chilo **di** pane · un etto **di** prosciutto_ (100 g)\n- _un litro **di** latte · una bottiglia **d’**acqua · un pacco **di** pasta · una scatola **di** biscotti_\n- _un pezzo **di** formaggio · una fetta **di** torta · un vasetto **di** miele · un mazzo **di** basilico_\nDavanti a vocale: **d’**: _una bottiglia d’acqua, un litro d’olio._\n_Quanto costa? / Quanto costano?_ · _Quanti ne vuole?_ (più avanti)",
+  "ruleHelp": "Nach einer genauen Menge steht **di** (ohne Artikel): _un chilo di mele, un etto di prosciutto (100 g), un litro di latte, una bottiglia d’acqua, un pacco di pasta, una fetta di torta._ Vor Vokal: **d’**."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Prepari una cena per gli amici. Scrivi la lista della spesa con almeno sei quantità.",
+   "promptHelp": "Schreibe eine Einkaufsliste mit mindestens sechs Mengen.",
+   "type": "open_answer",
+   "modelAnswer": "un chilo di pasta, mezzo chilo di pomodori, due etti di parmigiano, una bottiglia d’olio, un mazzo di basilico, una scatola di biscotti, due litri d’acqua",
+   "lines": 5
+  },
+  {
+   "id": "q2",
+   "prompt": "E adesso scrivi in italiano.",
+   "promptHelp": "Und jetzt auf Italienisch.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "(2 Liter Wasser)",
+     "acceptedAnswers": [
+      "due litri d’acqua",
+      "due litri di acqua"
+     ],
+     "modelAnswer": "due litri d’acqua"
+    },
+    {
+     "id": "s2",
+     "start": "(500 g Nudeln)",
+     "acceptedAnswers": [
+      "mezzo chilo di pasta",
+      "cinque etti di pasta"
+     ],
+     "modelAnswer": "mezzo chilo di pasta"
+    },
+    {
+     "id": "s3",
+     "start": "(1 Packung Kekse)",
+     "acceptedAnswers": [
+      "un pacco di biscotti",
+      "una scatola di biscotti"
+     ],
+     "modelAnswer": "un pacco di biscotti"
+    },
+    {
+     "id": "s4",
+     "start": "(300 g Schinken)",
+     "acceptedAnswers": [
+      "tre etti di prosciutto"
+     ],
+     "modelAnswer": "tre etti di prosciutto"
+    }
+   ]
+  }
+ ]
+}

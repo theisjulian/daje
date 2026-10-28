@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-posizione-pronomi-l2",
+ "title": "Due possibilità",
+ "language": "it",
+ "level": "A1",
+ "description": "La posizione dei pronomi · Due possibilità · livello facile.",
+ "topics": [
+  "La posizione dei pronomi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Stellung der Objektpronomen bei Verneinung, Modalverben und Infinitiv"
+ },
+ "grammar": {
+  "topic": "ecco1-posizione-pronomi",
+  "topicTitle": "La posizione dei pronomi",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 72,
+  "rule": "- Di solito il pronome va **prima del verbo**: _**Lo** compro._ · con non: _**Non lo** compro._\n- Con **dovere, potere, volere** ci sono due possibilità:\n  _**Lo** voglio comprare._ = _Voglio comprar**lo**._ (l’infinito perde la -e: comprare → comprar + lo)\n- Con un **infinito** senza modale il pronome va attaccato: _È bello veder**ti**!_ · _Ho voglia di mangiar**la**._",
+  "ruleHelp": "Meist steht das Pronomen **vor dem Verb**: _Lo compro. Non lo compro._\nBei **dovere, potere, volere** zwei Möglichkeiten: _Lo voglio comprare = Voglio comprarlo_ (Infinitiv ohne -e + Pronomen).\nBeim **Infinitiv** wird das Pronomen angehängt: _È bello vederti!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina le frasi che vogliono dire la stessa cosa.",
+   "promptHelp": "Verbinde gleichbedeutende Sätze.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Lo voglio comprare.",
+     "right": "Voglio comprarlo."
+    },
+    {
+     "id": "p2",
+     "left": "La devo chiamare.",
+     "right": "Devo chiamarla."
+    },
+    {
+     "id": "p3",
+     "left": "Li posso prendere.",
+     "right": "Posso prenderli."
+    },
+    {
+     "id": "p4",
+     "left": "Le vogliamo vedere.",
+     "right": "Vogliamo vederle."
+    },
+    {
+     "id": "p5",
+     "left": "Ti posso aiutare?",
+     "right": "Posso aiutarti?"
+    },
+    {
+     "id": "p6",
+     "left": "Mi devi ascoltare!",
+     "right": "Devi ascoltarmi!"
+    },
+    {
+     "id": "p7",
+     "left": "Vi voglio invitare.",
+     "right": "Voglio invitarvi."
+    },
+    {
+     "id": "p8",
+     "left": "Ci puoi chiamare?",
+     "right": "Puoi chiamarci?"
+    }
+   ]
+  }
+ ]
+}

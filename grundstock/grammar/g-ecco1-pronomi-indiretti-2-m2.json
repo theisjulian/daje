@@ -1,0 +1,108 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-pronomi-indiretti-2-m2",
+ "title": "Con chi?",
+ "language": "it",
+ "level": "A1",
+ "description": "Pronomi indiretti e pronomi tonici · Con chi? · livello medio.",
+ "topics": [
+  "Pronomi indiretti e pronomi tonici",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte indirekte und betonte Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-pronomi-indiretti-2",
+  "topicTitle": "Pronomi indiretti e pronomi tonici",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 62,
+  "rule": "**Pronomi indiretti** (a chi?) prima del verbo:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n_Gli preparo la cena. · Le piace il rosso. · Ci manca la pizza._\n\n**Pronomi tonici** dopo una preposizione o per sottolineare:\n| me | te | lui | lei | Lei | noi | voi | loro |\n_Vieni **con me**? · Questo è **per te**. · **A me** piace, **a lui** no._",
+  "ruleHelp": "**Indirekte Pronomen** (wem?) stehen vor dem Verb: mi, ti, gli, le, Le, ci, vi, gli. _Gli preparo la cena. Le piace il rosso._\n**Betonte Pronomen** nach Präpositionen oder zur Betonung: me, te, lui, lei, Lei, noi, voi, loro: _con me, per te, a me piace, a lui no._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi il pronome tonico.",
+   "promptHelp": "Ergänze das betonte Pronomen.",
+   "explanation": "con, per, di, a, senza + me, te, lui, lei, Lei, noi, voi, loro.",
+   "explanationHelp": "Nach Präpositionen: me, te, lui, lei, Lei, noi, voi, loro.",
+   "type": "gap_fill",
+   "text": "Marco viene al mare con [[g1]]. (wir)\nQuesto pacco è per [[g2]]. (du)\nMia sorella? Esco sempre con [[g3]].\nI nonni? Abitiamo vicino a [[g4]].\nPaolo? Parliamo spesso di [[g5]].\nSenza di [[g6]] non partite! (ich)\nSignora, questa lettera è per [[g7]].\nRagazzi, vengo con [[g8]]!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "noi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "te"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "lei"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "loro"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "lui"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "me"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Lei"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "voi"
+     ]
+    }
+   ]
+  }
+ ]
+}

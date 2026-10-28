@@ -117,3 +117,6 @@ ROWS += [
 ["Zeit","Tempo","Tense","Temps","Tempo"],
 ["Verb","Verbo","Verb","Verbe","Verbo"],
 ]
+ROWS += [
+["Lehrplan:","Programma:","Curriculum:","Programme :","Programma:"],
+]

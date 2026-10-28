@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-posizione-pronomi-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A1",
+ "description": "La posizione dei pronomi · Trova gli errori · livello difficile.",
+ "topics": [
+  "La posizione dei pronomi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Stellung der Objektpronomen bei Verneinung, Modalverben und Infinitiv"
+ },
+ "grammar": {
+  "topic": "ecco1-posizione-pronomi",
+  "topicTitle": "La posizione dei pronomi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 71,
+  "rule": "- Di solito il pronome va **prima del verbo**: _**Lo** compro._ · con non: _**Non lo** compro._\n- Con **dovere, potere, volere** ci sono due possibilità:\n  _**Lo** voglio comprare._ = _Voglio comprar**lo**._ (l’infinito perde la -e: comprare → comprar + lo)\n- Con un **infinito** senza modale il pronome va attaccato: _È bello veder**ti**!_ · _Ho voglia di mangiar**la**._",
+  "ruleHelp": "Meist steht das Pronomen **vor dem Verb**: _Lo compro. Non lo compro._\nBei **dovere, potere, volere** zwei Möglichkeiten: _Lo voglio comprare = Voglio comprarlo_ (Infinitiv ohne -e + Pronomen).\nBeim **Infinitiv** wird das Pronomen angehängt: _È bello vederti!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi gli otto errori.",
+   "promptHelp": "Korrigiere die acht Fehler.",
+   "type": "error_correction",
+   "text": "Voglio [[g1]].\nDevo [[g2]].\n[[g3]] vedo.\nPosso [[g4]]?\nÈ bello [[g5]].\nVogliamo [[g6]].\nNon [[g7]] mangiare.\nDobbiamo [[g8]]?",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "lo comprare",
+     "acceptedAnswers": [
+      "comprarlo"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "la chiamare",
+     "acceptedAnswers": [
+      "chiamarla"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "Lo non",
+     "acceptedAnswers": [
+      "Non lo"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "ti aiutare",
+     "acceptedAnswers": [
+      "aiutarti"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "ti vedere",
+     "acceptedAnswers": [
+      "vederti"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "comprare li",
+     "acceptedAnswers": [
+      "comprarli"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "voglio la",
+     "acceptedAnswers": [
+      "la voglio"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "aspettare vi",
+     "acceptedAnswers": [
+      "aspettarvi"
+     ]
+    }
+   ]
+  }
+ ]
+}

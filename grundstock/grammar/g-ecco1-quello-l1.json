@@ -1,0 +1,149 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quello-l1",
+ "title": "Quale forma di quello?",
+ "language": "it",
+ "level": "A1",
+ "description": "Quello: aggettivo e pronome · Quale forma di quello? · livello facile.",
+ "topics": [
+  "Quello: aggettivo e pronome",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quello",
+  "topicTitle": "Quello: aggettivo e pronome",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 21,
+  "rule": "**quello** (dort, jener) indica una cosa **lontana**. Davanti al nome cambia come l’articolo:\n| il → **quel** cappello | lo → **quello** zaino | l’ → **quell’**armadio / **quell’**amica | la → **quella** gonna |\n| i → **quei** cappelli | gli → **quegli** zaini / **quegli** amici | le → **quelle** gonne |\n\nDa solo (pronome): **quello, quella, quelli, quelle**: _Quale maglietta? – Quella rossa._ · _Chi è quello lì?_\n**questo** = vicino · **quello** = lontano.",
+  "ruleHelp": "**quello** zeigt auf etwas **Entferntes**. Vor dem Nomen geht es wie der Artikel: quel cappello, quello zaino, quell’armadio, quella gonna, quei cappelli, quegli zaini, quelle gonne.\nAllein (Pronomen): quello, quella, quelli, quelle: _Quale maglietta? – Quella rossa._ questo = nah, quello = fern."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "quello cambia come l’articolo: il → quel, lo → quello, i → quei, gli → quegli.",
+   "explanationHelp": "quello geht wie der Artikel.",
+   "type": "gap_choice",
+   "text": "[[g1]] cappello è bello.\n[[g2]] zaino è caro.\n[[g3]] gonna è corta.\n[[g4]] armadio è vecchio.\n[[g5]] pantaloni sono lunghi.\n[[g6]] stivali sono comodi.\n[[g7]] scarpe sono rosse.\n[[g8]] amica è simpatica.\n[[g9]] amici sono di Roma.\n[[g10]] negozio è chiuso.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Quel",
+      "Quello",
+      "Quella"
+     ],
+     "answer": "Quel"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Quello",
+      "Quel",
+      "Quell’"
+     ],
+     "answer": "Quello"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Quella",
+      "Quel",
+      "Quelle"
+     ],
+     "answer": "Quella"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Quell’",
+      "Quel",
+      "Quella"
+     ],
+     "answer": "Quell’"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Quei",
+      "Quegli",
+      "Quelle"
+     ],
+     "answer": "Quei"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Quegli",
+      "Quei",
+      "Quelle"
+     ],
+     "answer": "Quegli"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "Quelle",
+      "Quella",
+      "Quei"
+     ],
+     "answer": "Quelle"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "Quell’",
+      "Quella",
+      "Quel"
+     ],
+     "answer": "Quell’"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "Quegli",
+      "Quei",
+      "Quelli"
+     ],
+     "answer": "Quegli"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "Quel",
+      "Quello",
+      "Quelli"
+     ],
+     "answer": "Quel"
+    }
+   ]
+  }
+ ]
+}

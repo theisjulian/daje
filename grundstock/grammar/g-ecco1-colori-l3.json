@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-colori-l3",
+ "title": "Nel negozio",
+ "language": "it",
+ "level": "A1",
+ "description": "I colori · Nel negozio · livello facile.",
+ "topics": [
+  "I colori",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Farbadjektive"
+ },
+ "grammar": {
+  "topic": "ecco1-colori",
+  "topicTitle": "I colori",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 13,
+  "rule": "I colori sono aggettivi: vanno **dopo** il nome e cambiano come il nome.\n| -o/-a | rosso, rossa, rossi, rosse · nero · bianco (bianchi, bianche) · giallo · grigio (grigi, grigie) · azzurro |\n| -e | verde, verdi · marrone, marroni · arancione, arancioni |\n| non cambiano | blu · rosa · viola · beige |\n\n_una maglietta **rossa**, due magliette **rosse**, i pantaloni **blu**, le scarpe **rosa**._",
+  "ruleHelp": "Farben sind Adjektive: Sie stehen **nach** dem Nomen und passen sich an (rosso/rossa/rossi/rosse; verde/verdi).\n**Unveränderlich** sind blu, rosa, viola, beige: _i pantaloni blu, le scarpe rosa._ Achtung: bianco → bianchi/bianche, grigio → grigi/grigie."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "Il colore va dopo il nome: una camicia bianca.",
+   "explanationHelp": "Die Farbe steht nach dem Nomen.",
+   "type": "gap_choice",
+   "text": "Vorrei una camicia [[g1]].\nCerco dei jeans [[g2]].\nMi piacciono le scarpe [[g3]].\nQuesta sciarpa [[g4]] costa 15 euro.\nI calzini [[g5]] sono in offerta.\nHa una gonna [[g6]]?\nLe felpe [[g7]] sono bellissime.\nIl cappotto [[g8]] è caro.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "bianca",
+      "bianco",
+      "bianche"
+     ],
+     "answer": "bianca"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "neri",
+      "nere",
+      "nero"
+     ],
+     "answer": "neri"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "verdi",
+      "verde",
+      "verda"
+     ],
+     "answer": "verdi"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "rossa",
+      "rosso",
+      "rosse"
+     ],
+     "answer": "rossa"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "blu",
+      "blui",
+      "blue"
+     ],
+     "answer": "blu"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "grigia",
+      "grigio",
+      "grigie"
+     ],
+     "answer": "grigia"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "rosa",
+      "rose",
+      "rosse"
+     ],
+     "answer": "rosa"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "marrone",
+      "marrona",
+      "marroni"
+     ],
+     "answer": "marrone"
+    }
+   ]
+  }
+ ]
+}

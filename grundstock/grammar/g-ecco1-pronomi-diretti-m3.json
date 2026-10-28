@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-pronomi-diretti-m3",
+ "title": "Mi, ti, ci, vi",
+ "language": "it",
+ "level": "A1",
+ "description": "I pronomi diretti (lo, la, li, le …) · Mi, ti, ci, vi · livello medio.",
+ "topics": [
+  "I pronomi diretti (lo, la, li, le …)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte direkte Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-pronomi-diretti",
+  "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 33,
+  "rule": "I pronomi diretti sostituiscono un **oggetto diretto** (chi? che cosa?) e vanno **prima del verbo**:\n| mi | ti | lo | la | ci | vi | li | le |\n| mich | dich | ihn / es | sie / es | uns | euch | sie (m.) | sie (f.) |\n\n- _Compri la gonna? – Sì, **la** compro._\n- _Vedi Marco? – Sì, **lo** vedo._\n- _Prendi i pomodori? – Sì, **li** prendo._ · _Le mele? – **Le** prendo io._\n- Davanti a vocale: **l’**: _L’aspetto._ · Negazione: _Non **lo** vedo._",
+  "ruleHelp": "Direkte Objektpronomen ersetzen ein **direktes Objekt** (wen? was?) und stehen **vor dem Verb**: mi, ti, lo, la, ci, vi, li, le.\n_Compri la gonna? – Sì, la compro._ · Vor Vokal: _l’_ (L’aspetto). · Verneinung: _Non lo vedo._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli il pronome.",
+   "promptHelp": "Wähle das Pronomen.",
+   "type": "gap_choice",
+   "text": "Mamma, [[g1]] aiuti con i compiti?\nCiao Luca, [[g2]] chiamo stasera!\nRagazzi, [[g3]] aspettiamo in piazza.\nI nonni [[g4]] invitano a pranzo. (noi)\nSara, [[g5]] vedo domani?\nProf, [[g6]] aiuta con l’esercizio? (noi)\nPaolo [[g7]] saluta sempre. (me)\nIo e Marco [[g8]] portiamo al cinema. (voi)",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "mi",
+      "ti",
+      "ci"
+     ],
+     "answer": "mi"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "ti",
+      "mi",
+      "vi"
+     ],
+     "answer": "ti"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "vi",
+      "ci",
+      "li"
+     ],
+     "answer": "vi"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "ci",
+      "vi",
+      "li"
+     ],
+     "answer": "ci"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "ti",
+      "la",
+      "mi"
+     ],
+     "answer": "ti"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "ci",
+      "vi",
+      "li"
+     ],
+     "answer": "ci"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "mi",
+      "ti",
+      "lo"
+     ],
+     "answer": "mi"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "vi",
+      "ci",
+      "li"
+     ],
+     "answer": "vi"
+    }
+   ]
+  }
+ ]
+}

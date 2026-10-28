@@ -1,0 +1,115 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quello-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A1",
+ "description": "Quello: aggettivo e pronome · Trova gli errori · livello difficile.",
+ "topics": [
+  "Quello: aggettivo e pronome",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quello",
+  "topicTitle": "Quello: aggettivo e pronome",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 21,
+  "rule": "**quello** (dort, jener) indica una cosa **lontana**. Davanti al nome cambia come l’articolo:\n| il → **quel** cappello | lo → **quello** zaino | l’ → **quell’**armadio / **quell’**amica | la → **quella** gonna |\n| i → **quei** cappelli | gli → **quegli** zaini / **quegli** amici | le → **quelle** gonne |\n\nDa solo (pronome): **quello, quella, quelli, quelle**: _Quale maglietta? – Quella rossa._ · _Chi è quello lì?_\n**questo** = vicino · **quello** = lontano.",
+  "ruleHelp": "**quello** zeigt auf etwas **Entferntes**. Vor dem Nomen geht es wie der Artikel: quel cappello, quello zaino, quell’armadio, quella gonna, quei cappelli, quegli zaini, quelle gonne.\nAllein (Pronomen): quello, quella, quelli, quelle: _Quale maglietta? – Quella rossa._ questo = nah, quello = fern."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi le forme di quello.",
+   "promptHelp": "Korrigiere die Formen von quello.",
+   "explanation": "Davanti al nome come l’articolo; da solo: quello, quella, quelli, quelle.",
+   "explanationHelp": "Vor dem Nomen wie der Artikel; allein: quello, quella, quelli, quelle.",
+   "type": "error_correction",
+   "text": "[[g1]] maglione è troppo caro.\n[[g2]] zaino è di Marco.\n[[g3]] occhiali sono di mia madre.\n[[g4]] pantaloni sono lunghi.\n[[g5]] amica abita a Roma.\nQuale maglietta vuoi? – [[g6]] rossa.\n[[g7]] ragazzi giocano a calcio.\nQuali scarpe? – [[g8]] bianche.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "Quello",
+     "acceptedAnswers": [
+      "Quel"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "Quel",
+     "acceptedAnswers": [
+      "Quello"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "Quei",
+     "acceptedAnswers": [
+      "Quegli"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "Quelli",
+     "acceptedAnswers": [
+      "Quei"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "Quella",
+     "acceptedAnswers": [
+      "Quell’"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "Quel",
+     "acceptedAnswers": [
+      "Quella"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "Quegli",
+     "acceptedAnswers": [
+      "Quei"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "Quei",
+     "acceptedAnswers": [
+      "Quelle"
+     ]
+    }
+   ]
+  }
+ ]
+}

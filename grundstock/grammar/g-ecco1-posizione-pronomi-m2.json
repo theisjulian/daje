@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-posizione-pronomi-m2",
+ "title": "Nel negozio",
+ "language": "it",
+ "level": "A1",
+ "description": "La posizione dei pronomi · Nel negozio · livello medio.",
+ "topics": [
+  "La posizione dei pronomi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Stellung der Objektpronomen bei Verneinung, Modalverben und Infinitiv"
+ },
+ "grammar": {
+  "topic": "ecco1-posizione-pronomi",
+  "topicTitle": "La posizione dei pronomi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 72,
+  "rule": "- Di solito il pronome va **prima del verbo**: _**Lo** compro._ · con non: _**Non lo** compro._\n- Con **dovere, potere, volere** ci sono due possibilità:\n  _**Lo** voglio comprare._ = _Voglio comprar**lo**._ (l’infinito perde la -e: comprare → comprar + lo)\n- Con un **infinito** senza modale il pronome va attaccato: _È bello veder**ti**!_ · _Ho voglia di mangiar**la**._",
+  "ruleHelp": "Meist steht das Pronomen **vor dem Verb**: _Lo compro. Non lo compro._\nBei **dovere, potere, volere** zwei Möglichkeiten: _Lo voglio comprare = Voglio comprarlo_ (Infinitiv ohne -e + Pronomen).\nBeim **Infinitiv** wird das Pronomen angehängt: _È bello vederti!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi il pronome attaccato all’infinito.",
+   "promptHelp": "Hänge das Pronomen an den Infinitiv an.",
+   "type": "gap_fill",
+   "text": "Questa felpa è bella. Posso (provare + la) [[g1]]?\nI pantaloni sono lunghi. Devo (cambiare + li) [[g2]].\nLe scarpe? Voglio (comprare + le) [[g3]] subito!\nIl cappello è caro. Non posso (prendere + lo) [[g4]].\nMamma, puoi (aiutare + mi) [[g5]]?\nSara è alla cassa. Dobbiamo (aspettare + la) [[g6]].\nIl commesso è gentile. Vogliamo (ringraziare + lo) [[g7]].\nRagazzi, posso (accompagnare + vi) [[g8]]?",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "provarla"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "cambiarli"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "comprarle"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "prenderlo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "aiutarmi"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "aspettarla"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ringraziarlo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "accompagnarvi"
+     ]
+    }
+   ]
+  }
+ ]
+}

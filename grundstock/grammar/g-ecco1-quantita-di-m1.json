@@ -1,0 +1,108 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quantita-di-m1",
+ "title": "La lista della mamma",
+ "language": "it",
+ "level": "A1",
+ "description": "Le quantità: un chilo di, un etto di … · La lista della mamma · livello medio.",
+ "topics": [
+  "Le quantità: un chilo di, un etto di …",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Mengenangaben"
+ },
+ "grammar": {
+  "topic": "ecco1-quantita-di",
+  "topicTitle": "Le quantità: un chilo di, un etto di …",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 51,
+  "rule": "Dopo una quantità precisa usiamo **di** (senza articolo):\n- _un chilo **di** mele · mezzo chilo **di** pane · un etto **di** prosciutto_ (100 g)\n- _un litro **di** latte · una bottiglia **d’**acqua · un pacco **di** pasta · una scatola **di** biscotti_\n- _un pezzo **di** formaggio · una fetta **di** torta · un vasetto **di** miele · un mazzo **di** basilico_\nDavanti a vocale: **d’**: _una bottiglia d’acqua, un litro d’olio._\n_Quanto costa? / Quanto costano?_ · _Quanti ne vuole?_ (più avanti)",
+  "ruleHelp": "Nach einer genauen Menge steht **di** (ohne Artikel): _un chilo di mele, un etto di prosciutto (100 g), un litro di latte, una bottiglia d’acqua, un pacco di pasta, una fetta di torta._ Vor Vokal: **d’**."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi di o d’ e la quantità.",
+   "promptHelp": "Ergänze di / d’ und die Menge.",
+   "explanation": "100 g = un etto, 1 kg = un chilo, 1 l = un litro.",
+   "explanationHelp": "100 g = un etto, 1 kg = un chilo, 1 l = un litro.",
+   "type": "gap_fill",
+   "text": "250 g Tomaten → due etti e mezzo [[g1]] pomodori\n1 kg Äpfel → un [[g2]] di mele\n1 l Milch → un [[g3]] di latte\n1 l Olivenöl → un litro [[g4]] olio d’oliva\n400 g roher Schinken → quattro [[g5]] di prosciutto crudo\n1 Bund Basilikum → un [[g6]] di basilico\n2 Flaschen Wasser → due [[g7]] d’acqua\n1 Packung Nudeln → un [[g8]] di pasta",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "chilo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "litro"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "d’"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "etti"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "mazzo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "bottiglie"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "pacco"
+     ]
+    }
+   ]
+  }
+ ]
+}

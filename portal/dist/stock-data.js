@@ -42385,7 +42385,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · wichtige Präpositionen"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -42528,7 +42529,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · wichtige Präpositionen"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -42650,7 +42652,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · wichtige Präpositionen"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -42777,7 +42780,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · wichtige Präpositionen"
   },
   "estimatedMinutes": 11,
   "grammar": {
@@ -42912,7 +42916,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · wichtige Präpositionen"
   },
   "estimatedMinutes": 9,
   "grammar": {
@@ -43029,7 +43034,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · wichtige Präpositionen"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -43155,7 +43161,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · wichtige Präpositionen"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -43274,7 +43281,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · wichtige Präpositionen"
   },
   "estimatedMinutes": 11,
   "grammar": {
@@ -43400,7 +43408,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · wichtige Präpositionen"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -43502,7 +43511,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Adjektive"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -43655,7 +43665,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Adjektive"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -43790,7 +43801,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Adjektive"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -43892,7 +43904,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Adjektive"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -44014,7 +44027,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Adjektive"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -44187,7 +44201,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Adjektive"
   },
   "estimatedMinutes": 21,
   "grammar": {
@@ -44415,7 +44430,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Adjektive"
   },
   "estimatedMinutes": 19,
   "grammar": {
@@ -44575,7 +44591,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Adjektive"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -44670,7 +44687,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Adjektive"
   },
   "estimatedMinutes": 13,
   "grammar": {
@@ -44798,7 +44816,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Adjektive"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -44916,7 +44935,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -45069,7 +45089,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -45174,7 +45195,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -45280,7 +45302,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -45415,7 +45438,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -45538,7 +45562,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -45664,7 +45689,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 9,
   "grammar": {
@@ -45781,7 +45807,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -45907,7 +45934,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -46064,7 +46092,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -46183,7 +46212,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -46377,7 +46407,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -46496,7 +46527,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbestimmter Artikel"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -46649,7 +46681,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbestimmter Artikel"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -46784,7 +46817,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbestimmter Artikel"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -46914,7 +46948,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbestimmter Artikel"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -47052,7 +47087,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbestimmter Artikel"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -47189,7 +47225,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbestimmter Artikel"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -47300,7 +47337,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbestimmter Artikel"
   },
   "estimatedMinutes": 11,
   "grammar": {
@@ -47417,7 +47455,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbestimmter Artikel"
   },
   "estimatedMinutes": 11,
   "grammar": {
@@ -47543,7 +47582,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbestimmter Artikel"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -47669,7 +47709,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Substantive und bestimmter Artikel"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -47827,7 +47868,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Substantive und bestimmter Artikel"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -47954,7 +47996,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Substantive und bestimmter Artikel"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -48112,7 +48155,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Substantive und bestimmter Artikel"
   },
   "estimatedMinutes": 9,
   "grammar": {
@@ -48257,7 +48301,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Substantive und bestimmter Artikel"
   },
   "estimatedMinutes": 11,
   "grammar": {
@@ -48391,7 +48436,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Substantive und bestimmter Artikel"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -48552,7 +48598,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Substantive und bestimmter Artikel"
   },
   "estimatedMinutes": 11,
   "grammar": {
@@ -48686,7 +48733,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Substantive und bestimmter Artikel"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -48878,7 +48926,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Substantive und bestimmter Artikel"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -49002,7 +49051,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Substantive und bestimmter Artikel"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -49126,7 +49176,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Substantive und bestimmter Artikel"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -49257,7 +49308,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Substantive und bestimmter Artikel"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -49323,7 +49375,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Hilfsverb avere"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -49476,7 +49529,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Hilfsverb avere"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -49581,7 +49635,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Hilfsverb avere"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -49687,7 +49742,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Hilfsverb avere"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -49821,7 +49877,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Hilfsverb avere"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -49932,7 +49989,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Hilfsverb avere"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -50058,7 +50116,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Hilfsverb avere"
   },
   "estimatedMinutes": 9,
   "grammar": {
@@ -50180,7 +50239,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Hilfsverb avere"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -50307,7 +50367,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Hilfsverb avere"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -50403,7 +50464,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Hilfsverb avere"
   },
   "estimatedMinutes": 14,
   "grammar": {
@@ -50562,7 +50624,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Hilfsverb avere"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -50680,7 +50743,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Hilfsverb avere"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -50811,7 +50875,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · deiktische Elemente: c’è / ci sono im Kontrast zu è / sono"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -50938,7 +51003,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · deiktische Elemente: c’è / ci sono im Kontrast zu è / sono"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -51064,7 +51130,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · deiktische Elemente: c’è / ci sono im Kontrast zu è / sono"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -51185,7 +51252,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · deiktische Elemente: c’è / ci sono im Kontrast zu è / sono"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -51301,7 +51369,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · deiktische Elemente: c’è / ci sono im Kontrast zu è / sono"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -51417,7 +51486,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · deiktische Elemente: c’è / ci sono im Kontrast zu è / sono"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -51544,7 +51614,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · deiktische Elemente: c’è / ci sono im Kontrast zu è / sono"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -51669,7 +51740,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · deiktische Elemente: c’è / ci sono im Kontrast zu è / sono"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -51788,7 +51860,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · deiktische Elemente: c’è / ci sono im Kontrast zu è / sono"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -51889,7 +51962,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Relativsätze mit che"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -51991,7 +52065,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Relativsätze mit che"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -52126,7 +52201,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Relativsätze mit che"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -52230,7 +52306,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Relativsätze mit che"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -52355,7 +52432,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Relativsätze mit che"
   },
   "estimatedMinutes": 11,
   "grammar": {
@@ -52490,7 +52568,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Relativsätze mit che"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -52617,7 +52696,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Relativsätze mit che"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -52719,7 +52799,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Relativsätze mit che"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -52844,7 +52925,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Relativsätze mit che"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -52931,6 +53013,2226 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco1-colori-l1",
+  "title": "Di che colore è?",
+  "language": "it",
+  "level": "A1",
+  "description": "I colori · Di che colore è? · livello facile.",
+  "topics": [
+   "I colori",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Farbadjektive"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-colori",
+   "topicTitle": "I colori",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "I colori sono aggettivi: vanno **dopo** il nome e cambiano come il nome.\n| -o/-a | rosso, rossa, rossi, rosse · nero · bianco (bianchi, bianche) · giallo · grigio (grigi, grigie) · azzurro |\n| -e | verde, verdi · marrone, marroni · arancione, arancioni |\n| non cambiano | blu · rosa · viola · beige |\n\n_una maglietta **rossa**, due magliette **rosse**, i pantaloni **blu**, le scarpe **rosa**._",
+   "ruleHelp": "Farben sind Adjektive: Sie stehen **nach** dem Nomen und passen sich an (rosso/rossa/rossi/rosse; verde/verdi).\n**Unveränderlich** sind blu, rosa, viola, beige: _i pantaloni blu, le scarpe rosa._ Achtung: bianco → bianchi/bianche, grigio → grigi/grigie.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta del colore.",
+    "explanation": "blu, rosa, viola non cambiano mai. bianco → bianchi/bianche.",
+    "promptHelp": "Wähle die richtige Farbform.",
+    "explanationHelp": "blu, rosa, viola bleiben gleich. bianco → bianchi/bianche.",
+    "text": "una maglietta [[g1]]\nun cappello [[g2]]\ndue gonne [[g3]]\ni pantaloni [[g4]]\nle scarpe [[g5]]\nuna giacca [[g6]]\nle calze [[g7]]\nun vestito [[g8]]\ni maglioni [[g9]]\nuna felpa [[g10]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "rossa",
+       "rosso",
+       "rosse"
+      ],
+      "answer": "rossa"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "nero",
+       "nera",
+       "neri"
+      ],
+      "answer": "nero"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "bianche",
+       "bianchi",
+       "bianca"
+      ],
+      "answer": "bianche"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "blu",
+       "blui",
+       "bla"
+      ],
+      "answer": "blu"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "rosa",
+       "rose",
+       "rosi"
+      ],
+      "answer": "rosa"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "verde",
+       "verda",
+       "verdi"
+      ],
+      "answer": "verde"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "gialle",
+       "gialli",
+       "gialla"
+      ],
+      "answer": "gialle"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "viola",
+       "violo",
+       "viole"
+      ],
+      "answer": "viola"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "grigi",
+       "grigie",
+       "grigio"
+      ],
+      "answer": "grigi"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "arancione",
+       "aranciona",
+       "arancioni"
+      ],
+      "answer": "arancione"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-colori-l2",
+  "title": "Colori che cambiano e colori che non cambiano",
+  "language": "it",
+  "level": "A1",
+  "description": "I colori · Colori che cambiano e colori che non cambiano · livello facile.",
+  "topics": [
+   "I colori",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Farbadjektive"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-colori",
+   "topicTitle": "I colori",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "I colori sono aggettivi: vanno **dopo** il nome e cambiano come il nome.\n| -o/-a | rosso, rossa, rossi, rosse · nero · bianco (bianchi, bianche) · giallo · grigio (grigi, grigie) · azzurro |\n| -e | verde, verdi · marrone, marroni · arancione, arancioni |\n| non cambiano | blu · rosa · viola · beige |\n\n_una maglietta **rossa**, due magliette **rosse**, i pantaloni **blu**, le scarpe **rosa**._",
+   "ruleHelp": "Farben sind Adjektive: Sie stehen **nach** dem Nomen und passen sich an (rosso/rossa/rossi/rosse; verde/verdi).\n**Unveränderlich** sind blu, rosa, viola, beige: _i pantaloni blu, le scarpe rosa._ Achtung: bianco → bianchi/bianche, grigio → grigi/grigie.",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Il colore cambia al plurale o no?",
+    "explanation": "",
+    "promptHelp": "Ändert sich die Farbe im Plural oder nicht?",
+    "categories": [
+     {
+      "id": "si",
+      "label": "cambia"
+     },
+     {
+      "id": "no",
+      "label": "non cambia"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "rosso",
+      "category": "si"
+     },
+     {
+      "id": "i2",
+      "text": "verde",
+      "category": "si"
+     },
+     {
+      "id": "i3",
+      "text": "bianco",
+      "category": "si"
+     },
+     {
+      "id": "i4",
+      "text": "giallo",
+      "category": "si"
+     },
+     {
+      "id": "i5",
+      "text": "marrone",
+      "category": "si"
+     },
+     {
+      "id": "i6",
+      "text": "nero",
+      "category": "si"
+     },
+     {
+      "id": "i7",
+      "text": "blu",
+      "category": "no"
+     },
+     {
+      "id": "i8",
+      "text": "rosa",
+      "category": "no"
+     },
+     {
+      "id": "i9",
+      "text": "viola",
+      "category": "no"
+     },
+     {
+      "id": "i10",
+      "text": "beige",
+      "category": "no"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-colori-l3",
+  "title": "Nel negozio",
+  "language": "it",
+  "level": "A1",
+  "description": "I colori · Nel negozio · livello facile.",
+  "topics": [
+   "I colori",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Farbadjektive"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-colori",
+   "topicTitle": "I colori",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "I colori sono aggettivi: vanno **dopo** il nome e cambiano come il nome.\n| -o/-a | rosso, rossa, rossi, rosse · nero · bianco (bianchi, bianche) · giallo · grigio (grigi, grigie) · azzurro |\n| -e | verde, verdi · marrone, marroni · arancione, arancioni |\n| non cambiano | blu · rosa · viola · beige |\n\n_una maglietta **rossa**, due magliette **rosse**, i pantaloni **blu**, le scarpe **rosa**._",
+   "ruleHelp": "Farben sind Adjektive: Sie stehen **nach** dem Nomen und passen sich an (rosso/rossa/rossi/rosse; verde/verdi).\n**Unveränderlich** sind blu, rosa, viola, beige: _i pantaloni blu, le scarpe rosa._ Achtung: bianco → bianchi/bianche, grigio → grigi/grigie.",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "Il colore va dopo il nome: una camicia bianca.",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "Die Farbe steht nach dem Nomen.",
+    "text": "Vorrei una camicia [[g1]].\nCerco dei jeans [[g2]].\nMi piacciono le scarpe [[g3]].\nQuesta sciarpa [[g4]] costa 15 euro.\nI calzini [[g5]] sono in offerta.\nHa una gonna [[g6]]?\nLe felpe [[g7]] sono bellissime.\nIl cappotto [[g8]] è caro.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "bianca",
+       "bianco",
+       "bianche"
+      ],
+      "answer": "bianca"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "neri",
+       "nere",
+       "nero"
+      ],
+      "answer": "neri"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "verdi",
+       "verde",
+       "verda"
+      ],
+      "answer": "verdi"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "rossa",
+       "rosso",
+       "rosse"
+      ],
+      "answer": "rossa"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "blu",
+       "blui",
+       "blue"
+      ],
+      "answer": "blu"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "grigia",
+       "grigio",
+       "grigie"
+      ],
+      "answer": "grigia"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "rosa",
+       "rose",
+       "rosse"
+      ],
+      "answer": "rosa"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "marrone",
+       "marrona",
+       "marroni"
+      ],
+      "answer": "marrone"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-colori-m1",
+  "title": "Il mio guardaroba",
+  "language": "it",
+  "level": "A1",
+  "description": "I colori · Il mio guardaroba · livello medio.",
+  "topics": [
+   "I colori",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Farbadjektive"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco1-colori",
+   "topicTitle": "I colori",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "I colori sono aggettivi: vanno **dopo** il nome e cambiano come il nome.\n| -o/-a | rosso, rossa, rossi, rosse · nero · bianco (bianchi, bianche) · giallo · grigio (grigi, grigie) · azzurro |\n| -e | verde, verdi · marrone, marroni · arancione, arancioni |\n| non cambiano | blu · rosa · viola · beige |\n\n_una maglietta **rossa**, due magliette **rosse**, i pantaloni **blu**, le scarpe **rosa**._",
+   "ruleHelp": "Farben sind Adjektive: Sie stehen **nach** dem Nomen und passen sich an (rosso/rossa/rossi/rosse; verde/verdi).\n**Unveränderlich** sind blu, rosa, viola, beige: _i pantaloni blu, le scarpe rosa._ Achtung: bianco → bianchi/bianche, grigio → grigi/grigie.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi il colore nella forma giusta.",
+    "explanation": "",
+    "promptHelp": "Ergänze die Farbe in der richtigen Form.",
+    "text": "Ho una giacca (nero) [[g1]] e due magliette (bianco) [[g2]].\nLe mie scarpe preferite sono (rosso) [[g3]].\nI miei jeans sono (blu) [[g4]].\nMia sorella ha un vestito (viola) [[g5]].\nLe sue calze sono (giallo) [[g6]].\nMio padre porta sempre camicie (azzurro) [[g7]].\nHo anche due cappelli (grigio) [[g8]].\nLa mia felpa preferita è (verde) [[g9]].\nI miei calzini sono (rosa) [[g10]].\nLe sciarpe della nonna sono (marrone) [[g11]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "nera"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "bianche"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "rosse"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "blu"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "viola"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "gialle"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "azzurre"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "grigi"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "verde"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "rosa"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "marroni"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-colori-m2",
+  "title": "Singolare e plurale",
+  "language": "it",
+  "level": "A1",
+  "description": "I colori · Singolare e plurale · livello medio.",
+  "topics": [
+   "I colori",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Farbadjektive"
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-colori",
+   "topicTitle": "I colori",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "I colori sono aggettivi: vanno **dopo** il nome e cambiano come il nome.\n| -o/-a | rosso, rossa, rossi, rosse · nero · bianco (bianchi, bianche) · giallo · grigio (grigi, grigie) · azzurro |\n| -e | verde, verdi · marrone, marroni · arancione, arancioni |\n| non cambiano | blu · rosa · viola · beige |\n\n_una maglietta **rossa**, due magliette **rosse**, i pantaloni **blu**, le scarpe **rosa**._",
+   "ruleHelp": "Farben sind Adjektive: Sie stehen **nach** dem Nomen und passen sich an (rosso/rossa/rossi/rosse; verde/verdi).\n**Unveränderlich** sind blu, rosa, viola, beige: _i pantaloni blu, le scarpe rosa._ Achtung: bianco → bianchi/bianche, grigio → grigi/grigie.",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Scrivi il plurale.",
+    "explanation": "",
+    "promptHelp": "Schreibe den Plural.",
+    "columns": [
+     "singolare",
+     "plurale"
+    ],
+    "rows": [
+     [
+      "una gonna bianca",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "due gonne bianche"
+       ]
+      }
+     ],
+     [
+      "un maglione grigio",
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "due maglioni grigi"
+       ]
+      }
+     ],
+     [
+      "una maglietta rosa",
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "due magliette rosa"
+       ]
+      }
+     ],
+     [
+      "un vestito blu",
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "due vestiti blu"
+       ]
+      }
+     ],
+     [
+      "una scarpa verde",
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "due scarpe verdi"
+       ]
+      }
+     ],
+     [
+      "un cappello nero",
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "due cappelli neri"
+       ]
+      }
+     ],
+     [
+      "una felpa arancione",
+      {
+       "id": "c7",
+       "acceptedAnswers": [
+        "due felpe arancioni"
+       ]
+      }
+     ],
+     [
+      "un pantalone marrone",
+      {
+       "id": "c8",
+       "acceptedAnswers": [
+        "due pantaloni marroni"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-colori-m3",
+  "title": "Che cosa portano?",
+  "language": "it",
+  "level": "A1",
+  "description": "I colori · Che cosa portano? · livello medio.",
+  "topics": [
+   "I colori",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Farbadjektive"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-colori",
+   "topicTitle": "I colori",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "I colori sono aggettivi: vanno **dopo** il nome e cambiano come il nome.\n| -o/-a | rosso, rossa, rossi, rosse · nero · bianco (bianchi, bianche) · giallo · grigio (grigi, grigie) · azzurro |\n| -e | verde, verdi · marrone, marroni · arancione, arancioni |\n| non cambiano | blu · rosa · viola · beige |\n\n_una maglietta **rossa**, due magliette **rosse**, i pantaloni **blu**, le scarpe **rosa**._",
+   "ruleHelp": "Farben sind Adjektive: Sie stehen **nach** dem Nomen und passen sich an (rosso/rossa/rossi/rosse; verde/verdi).\n**Unveränderlich** sind blu, rosa, viola, beige: _i pantaloni blu, le scarpe rosa._ Achtung: bianco → bianchi/bianche, grigio → grigi/grigie.",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Descrivi i vestiti con il colore giusto.",
+    "explanation": "Il colore va dopo il nome e cambia (tranne blu, rosa, viola).",
+    "promptHelp": "Beschreibe die Kleidung mit der richtigen Farbe.",
+    "explanationHelp": "Farbe nach dem Nomen und angepasst (außer blu, rosa, viola).",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Luca porta … (Hose, blau)",
+      "acceptedAnswers": [
+       "i pantaloni blu"
+      ],
+      "modelAnswer": "Luca porta i pantaloni blu."
+     },
+     {
+      "id": "s2",
+      "start": "Sara porta … (Rock, rot)",
+      "acceptedAnswers": [
+       "una gonna rossa"
+      ],
+      "modelAnswer": "Sara porta una gonna rossa."
+     },
+     {
+      "id": "s3",
+      "start": "Paolo porta … (Schuhe, schwarz)",
+      "acceptedAnswers": [
+       "le scarpe nere",
+       "scarpe nere"
+      ],
+      "modelAnswer": "Paolo porta le scarpe nere."
+     },
+     {
+      "id": "s4",
+      "start": "Anna porta … (Pullover, grau)",
+      "acceptedAnswers": [
+       "un maglione grigio"
+      ],
+      "modelAnswer": "Anna porta un maglione grigio."
+     },
+     {
+      "id": "s5",
+      "start": "Marco porta … (Mütze, grün)",
+      "acceptedAnswers": [
+       "un cappello verde"
+      ],
+      "modelAnswer": "Marco porta un cappello verde."
+     },
+     {
+      "id": "s6",
+      "start": "Giulia porta … (Socken, rosa)",
+      "acceptedAnswers": [
+       "le calze rosa",
+       "calze rosa"
+      ],
+      "modelAnswer": "Giulia porta le calze rosa."
+     },
+     {
+      "id": "s7",
+      "start": "La prof porta … (Jacke, weiß)",
+      "acceptedAnswers": [
+       "una giacca bianca"
+      ],
+      "modelAnswer": "La prof porta una giacca bianca."
+     },
+     {
+      "id": "s8",
+      "start": "Il nonno porta … (Hemden, hellblau)",
+      "acceptedAnswers": [
+       "camicie azzurre"
+      ],
+      "modelAnswer": "Il nonno porta camicie azzurre."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-colori-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "I colori · Trova gli errori · livello difficile.",
+  "topics": [
+   "I colori",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Farbadjektive"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-colori",
+   "topicTitle": "I colori",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "I colori sono aggettivi: vanno **dopo** il nome e cambiano come il nome.\n| -o/-a | rosso, rossa, rossi, rosse · nero · bianco (bianchi, bianche) · giallo · grigio (grigi, grigie) · azzurro |\n| -e | verde, verdi · marrone, marroni · arancione, arancioni |\n| non cambiano | blu · rosa · viola · beige |\n\n_una maglietta **rossa**, due magliette **rosse**, i pantaloni **blu**, le scarpe **rosa**._",
+   "ruleHelp": "Farben sind Adjektive: Sie stehen **nach** dem Nomen und passen sich an (rosso/rossa/rossi/rosse; verde/verdi).\n**Unveränderlich** sind blu, rosa, viola, beige: _i pantaloni blu, le scarpe rosa._ Achtung: bianco → bianchi/bianche, grigio → grigi/grigie.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi gli otto colori sbagliati.",
+    "explanation": "bianco → bianche (f. plur.), grigio → grigi (m. plur.); blu, rosa, viola non cambiano.",
+    "promptHelp": "Korrigiere die acht falschen Farben.",
+    "explanationHelp": "bianco → bianche, grigio → grigi; blu, rosa, viola unverändert.",
+    "text": "Ho due magliette [[g1]].\nLe scarpe [[g2]] sono nuove.\nI pantaloni [[g3]] sono in offerta.\nMia madre ha una giacca [[g4]].\nCi sono tre cappelli [[g5]].\nLe felpe [[g6]] costano poco.\nIl vestito [[g7]] è elegante.\nDue sciarpe [[g8]], per favore.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "bianchi",
+      "acceptedAnswers": [
+       "bianche"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "rose",
+      "acceptedAnswers": [
+       "rosa"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "blui",
+      "acceptedAnswers": [
+       "blu"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "nero",
+      "acceptedAnswers": [
+       "nera"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "grige",
+      "acceptedAnswers": [
+       "grigi"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "verde",
+      "acceptedAnswers": [
+       "verdi"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "viole",
+      "acceptedAnswers": [
+       "viola"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "gialli",
+      "acceptedAnswers": [
+       "gialle"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-colori-s2",
+  "title": "In vetrina",
+  "language": "it",
+  "level": "A1",
+  "description": "I colori · In vetrina · livello difficile.",
+  "topics": [
+   "I colori",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Farbadjektive"
+  },
+  "estimatedMinutes": 13,
+  "grammar": {
+   "topic": "ecco1-colori",
+   "topicTitle": "I colori",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "I colori sono aggettivi: vanno **dopo** il nome e cambiano come il nome.\n| -o/-a | rosso, rossa, rossi, rosse · nero · bianco (bianchi, bianche) · giallo · grigio (grigi, grigie) · azzurro |\n| -e | verde, verdi · marrone, marroni · arancione, arancioni |\n| non cambiano | blu · rosa · viola · beige |\n\n_una maglietta **rossa**, due magliette **rosse**, i pantaloni **blu**, le scarpe **rosa**._",
+   "ruleHelp": "Farben sind Adjektive: Sie stehen **nach** dem Nomen und passen sich an (rosso/rossa/rossi/rosse; verde/verdi).\n**Unveränderlich** sind blu, rosa, viola, beige: _i pantaloni blu, le scarpe rosa._ Achtung: bianco → bianchi/bianche, grigio → grigi/grigie.",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Descrivi la vetrina. Scrivi i colori nella forma giusta.",
+    "explanation": "Ogni colore va con il suo nome: genere e numero.",
+    "promptHelp": "Beschreibe das Schaufenster.",
+    "explanationHelp": "Jede Farbe passt sich an ihr Nomen an.",
+    "text": "In vetrina c’è un manichino con una camicia (bianco) [[g1]] e dei pantaloni (blu) [[g2]].\nVicino ci sono tre magliette (verde) [[g3]] e due felpe (rosa) [[g4]].\nSotto ci sono scarpe (nero) [[g5]] e calzini (rosso) [[g6]].\nA destra c’è un vestito (viola) [[g7]] con una sciarpa (giallo) [[g8]].\nI cappelli sono (marrone) [[g9]] e (grigio) [[g10]].\nGuarda la maglietta (grigio) [[g11]]! Quanto costa?",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "bianca"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "blu"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "verdi"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "rosa"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "nere"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "rossi"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "viola"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "gialla"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "marroni"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "grigi"
+      ]
+     },
+     {
+      "id": "g11",
+      "acceptedAnswers": [
+       "grigia"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-colori-s3",
+  "title": "Il mio look preferito",
+  "language": "it",
+  "level": "A1",
+  "description": "I colori · Il mio look preferito · livello difficile.",
+  "topics": [
+   "I colori",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Per cominciare.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Per cominciare"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Farbadjektive"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-colori",
+   "topicTitle": "I colori",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "I colori sono aggettivi: vanno **dopo** il nome e cambiano come il nome.\n| -o/-a | rosso, rossa, rossi, rosse · nero · bianco (bianchi, bianche) · giallo · grigio (grigi, grigie) · azzurro |\n| -e | verde, verdi · marrone, marroni · arancione, arancioni |\n| non cambiano | blu · rosa · viola · beige |\n\n_una maglietta **rossa**, due magliette **rosse**, i pantaloni **blu**, le scarpe **rosa**._",
+   "ruleHelp": "Farben sind Adjektive: Sie stehen **nach** dem Nomen und passen sich an (rosso/rossa/rossi/rosse; verde/verdi).\n**Unveränderlich** sind blu, rosa, viola, beige: _i pantaloni blu, le scarpe rosa._ Achtung: bianco → bianchi/bianche, grigio → grigi/grigie.",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Descrivi che cosa porti oggi o il tuo look preferito. Usa almeno sei colori.",
+    "explanation": "",
+    "promptHelp": "Beschreibe, was du heute trägst oder deinen Lieblingslook (mindestens sechs Farben).",
+    "modelAnswer": "Oggi porto una felpa grigia, i jeans blu e le scarpe bianche. Ho anche una sciarpa rossa e un cappello nero. La mia borsa è verde.",
+    "lines": 5
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "E adesso completa con i colori.",
+    "explanation": "",
+    "promptHelp": "Und jetzt ergänze die Farben.",
+    "text": "Oggi porto una maglietta (bianco) [[g1]].\nI miei jeans sono (nero) [[g2]].\nLe mie scarpe sono (rosa) [[g3]].\nLa mia giacca è (verde) [[g4]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "bianca"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "neri"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "rosa"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "verde"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-cortesia-l1",
+  "title": "Tu o Lei?",
+  "language": "it",
+  "level": "A1",
+  "description": "La forma di cortesia e l’imperativo di cortesia · Tu o Lei? · livello facile.",
+  "topics": [
+   "La forma di cortesia e l’imperativo di cortesia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · höfliche Anrede in Singular und Plural; imperativo di cortesia (scusi, mi dica, mi dia); avere bisogno/voglia di"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-cortesia",
+   "topicTitle": "La forma di cortesia e l’imperativo di cortesia",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Con gli adulti che non conosci usiamo **Lei** (terza persona singolare): _Come **sta**? Che cosa **desidera**?_\nCon più persone si usa **voi**: _Ragazzi, che cosa **prendete**?_\n**Imperativo di cortesia** (frasi fisse):\n| Scusi! | Senta! | Mi dica! | Mi dia … | Prego! | Venga! | Prenda! |\nPer chiedere gentilmente: _**Vorrei** un caffè. · **Potrebbe** aiutarmi?_\nAltre frasi: _**Ho bisogno di** una taglia più grande. · **Ho voglia di** un gelato._",
+   "ruleHelp": "Erwachsene, die man nicht kennt, spricht man mit **Lei** an (3. Person Singular): _Come sta? Che cosa desidera?_ Mehrere Personen: **voi**.\nFeste höfliche Imperative: _Scusi! Senta! Mi dica! Mi dia … Prego! Venga! Prenda!_ · Höflich bitten: _Vorrei …, Potrebbe …?_\n_Ho bisogno di_ (ich brauche) · _Ho voglia di_ (ich habe Lust auf).",
+   "order": 81
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Parli con la commessa (Lei) o con un amico (tu)? Scegli la forma giusta.",
+    "explanation": "Lei = terza persona: Lei ha, Lei sta, Lei può.",
+    "promptHelp": "Lei oder tu? Wähle die passende Form.",
+    "explanationHelp": "Lei = 3. Person: Lei ha, Lei sta, Lei può.",
+    "text": "(commessa) Scusi, [[g1]] questa maglietta in taglia M?\n(amico) Luca, [[g2]] un gelato?\n(signore) Buongiorno, come [[g3]]?\n(amica) Sara, [[g4]] con me?\n(cameriere) Che cosa [[g5]], signora?\n(compagno) [[g6]] la penna?\n(professoressa) Prof, [[g7]] ripetere?\n(nonna di un amico) Signora, [[g8]] di Torino?",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "ha",
+       "hai"
+      ],
+      "answer": "ha"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "vuoi",
+       "vuole"
+      ],
+      "answer": "vuoi"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "sta",
+       "stai"
+      ],
+      "answer": "sta"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "vieni",
+       "viene"
+      ],
+      "answer": "vieni"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "desidera",
+       "desideri"
+      ],
+      "answer": "desidera"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Hai",
+       "Ha"
+      ],
+      "answer": "Hai"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "può",
+       "puoi"
+      ],
+      "answer": "può"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "è",
+       "sei"
+      ],
+      "answer": "è"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-cortesia-l2",
+  "title": "Frasi utili al negozio",
+  "language": "it",
+  "level": "A1",
+  "description": "La forma di cortesia e l’imperativo di cortesia · Frasi utili al negozio · livello facile.",
+  "topics": [
+   "La forma di cortesia e l’imperativo di cortesia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · höfliche Anrede in Singular und Plural; imperativo di cortesia (scusi, mi dica, mi dia); avere bisogno/voglia di"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-cortesia",
+   "topicTitle": "La forma di cortesia e l’imperativo di cortesia",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Con gli adulti che non conosci usiamo **Lei** (terza persona singolare): _Come **sta**? Che cosa **desidera**?_\nCon più persone si usa **voi**: _Ragazzi, che cosa **prendete**?_\n**Imperativo di cortesia** (frasi fisse):\n| Scusi! | Senta! | Mi dica! | Mi dia … | Prego! | Venga! | Prenda! |\nPer chiedere gentilmente: _**Vorrei** un caffè. · **Potrebbe** aiutarmi?_\nAltre frasi: _**Ho bisogno di** una taglia più grande. · **Ho voglia di** un gelato._",
+   "ruleHelp": "Erwachsene, die man nicht kennt, spricht man mit **Lei** an (3. Person Singular): _Come sta? Che cosa desidera?_ Mehrere Personen: **voi**.\nFeste höfliche Imperative: _Scusi! Senta! Mi dica! Mi dia … Prego! Venga! Prenda!_ · Höflich bitten: _Vorrei …, Potrebbe …?_\n_Ho bisogno di_ (ich brauche) · _Ho voglia di_ (ich habe Lust auf).",
+   "order": 82
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Che cosa vuol dire?",
+    "explanation": "",
+    "promptHelp": "Was bedeutet das?",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Mi dica!",
+      "right": "Was darf es sein?"
+     },
+     {
+      "id": "p2",
+      "left": "Scusi!",
+      "right": "Entschuldigung!"
+     },
+     {
+      "id": "p3",
+      "left": "Mi dia un etto di prosciutto.",
+      "right": "Geben Sie mir 100 g Schinken."
+     },
+     {
+      "id": "p4",
+      "left": "Prego!",
+      "right": "Bitte sehr!"
+     },
+     {
+      "id": "p5",
+      "left": "Vorrei una felpa.",
+      "right": "Ich hätte gern einen Pullover."
+     },
+     {
+      "id": "p6",
+      "left": "Quanto costa?",
+      "right": "Wie viel kostet das?"
+     },
+     {
+      "id": "p7",
+      "left": "Ho bisogno di una taglia più grande.",
+      "right": "Ich brauche eine größere Größe."
+     },
+     {
+      "id": "p8",
+      "left": "Ho voglia di un gelato.",
+      "right": "Ich habe Lust auf ein Eis."
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-cortesia-l3",
+  "title": "Gentile o no?",
+  "language": "it",
+  "level": "A1",
+  "description": "La forma di cortesia e l’imperativo di cortesia · Gentile o no? · livello facile.",
+  "topics": [
+   "La forma di cortesia e l’imperativo di cortesia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · höfliche Anrede in Singular und Plural; imperativo di cortesia (scusi, mi dica, mi dia); avere bisogno/voglia di"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-cortesia",
+   "topicTitle": "La forma di cortesia e l’imperativo di cortesia",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Con gli adulti che non conosci usiamo **Lei** (terza persona singolare): _Come **sta**? Che cosa **desidera**?_\nCon più persone si usa **voi**: _Ragazzi, che cosa **prendete**?_\n**Imperativo di cortesia** (frasi fisse):\n| Scusi! | Senta! | Mi dica! | Mi dia … | Prego! | Venga! | Prenda! |\nPer chiedere gentilmente: _**Vorrei** un caffè. · **Potrebbe** aiutarmi?_\nAltre frasi: _**Ho bisogno di** una taglia più grande. · **Ho voglia di** un gelato._",
+   "ruleHelp": "Erwachsene, die man nicht kennt, spricht man mit **Lei** an (3. Person Singular): _Come sta? Che cosa desidera?_ Mehrere Personen: **voi**.\nFeste höfliche Imperative: _Scusi! Senta! Mi dica! Mi dia … Prego! Venga! Prenda!_ · Höflich bitten: _Vorrei …, Potrebbe …?_\n_Ho bisogno di_ (ich brauche) · _Ho voglia di_ (ich habe Lust auf).",
+   "order": 83
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la frase più gentile per un negozio.",
+    "explanation": "",
+    "promptHelp": "Wähle den höflicheren Satz.",
+    "text": "[[g1]]\n[[g2]]\n[[g3]]\n[[g4]]\n[[g5]]\n[[g6]]\n[[g7]]\n[[g8]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Vorrei un caffè, per favore.",
+       "Voglio un caffè!"
+      ],
+      "answer": "Vorrei un caffè, per favore."
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Scusi, quanto costa?",
+       "Ehi, quanto costa?"
+      ],
+      "answer": "Scusi, quanto costa?"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Mi dia due etti di formaggio.",
+       "Dammi due etti di formaggio."
+      ],
+      "answer": "Mi dia due etti di formaggio."
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Potrebbe aiutarmi?",
+       "Aiutami!"
+      ],
+      "answer": "Potrebbe aiutarmi?"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "Senta, ha questa giacca in blu?",
+       "Senti, hai questa giacca in blu?"
+      ],
+      "answer": "Senta, ha questa giacca in blu?"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Grazie, arrivederci!",
+       "Ciao, ciao!"
+      ],
+      "answer": "Grazie, arrivederci!"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "Prego, si accomodi.",
+       "Siediti."
+      ],
+      "answer": "Prego, si accomodi."
+     },
+     {
+      "id": "g8",
+      "options": [
+       "Mi scusi, dov’è la cassa?",
+       "Dov’è la cassa?!"
+      ],
+      "answer": "Mi scusi, dov’è la cassa?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-cortesia-m1",
+  "title": "In un negozio di vestiti",
+  "language": "it",
+  "level": "A1",
+  "description": "La forma di cortesia e l’imperativo di cortesia · In un negozio di vestiti · livello medio.",
+  "topics": [
+   "La forma di cortesia e l’imperativo di cortesia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · höfliche Anrede in Singular und Plural; imperativo di cortesia (scusi, mi dica, mi dia); avere bisogno/voglia di"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-cortesia",
+   "topicTitle": "La forma di cortesia e l’imperativo di cortesia",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Con gli adulti che non conosci usiamo **Lei** (terza persona singolare): _Come **sta**? Che cosa **desidera**?_\nCon più persone si usa **voi**: _Ragazzi, che cosa **prendete**?_\n**Imperativo di cortesia** (frasi fisse):\n| Scusi! | Senta! | Mi dica! | Mi dia … | Prego! | Venga! | Prenda! |\nPer chiedere gentilmente: _**Vorrei** un caffè. · **Potrebbe** aiutarmi?_\nAltre frasi: _**Ho bisogno di** una taglia più grande. · **Ho voglia di** un gelato._",
+   "ruleHelp": "Erwachsene, die man nicht kennt, spricht man mit **Lei** an (3. Person Singular): _Come sta? Che cosa desidera?_ Mehrere Personen: **voi**.\nFeste höfliche Imperative: _Scusi! Senta! Mi dica! Mi dia … Prego! Venga! Prenda!_ · Höflich bitten: _Vorrei …, Potrebbe …?_\n_Ho bisogno di_ (ich brauche) · _Ho voglia di_ (ich habe Lust auf).",
+   "order": 81
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il dialogo.",
+    "explanation": "",
+    "promptHelp": "Ergänze den Dialog.",
+    "text": "Commessa: Buongiorno, mi [[g1]]!\nCliente: Buongiorno. [[g2]] una felpa grigia.\nCommessa: Che taglia porta?\nCliente: La M. Posso [[g3]]?\nCommessa: Certo, [[g4]]! Il camerino è lì.\nCliente: [[g5]], ha una taglia più grande? Questa è piccola.\nCommessa: Sì, ecco la L. Le [[g6]] benissimo!\nCliente: Grazie! Quanto [[g7]]?\nCommessa: Trenta euro. Paga alla [[g8]], grazie.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "dica"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Vorrei"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "provarla"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "prego"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Scusi"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "sta"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "costa"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "cassa"
+      ]
+     }
+    ],
+    "wordBank": true,
+    "extraWords": [
+     "voglio",
+     "dai",
+     "stai"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-cortesia-m2",
+  "title": "Bisogno o voglia?",
+  "language": "it",
+  "level": "A1",
+  "description": "La forma di cortesia e l’imperativo di cortesia · Bisogno o voglia? · livello medio.",
+  "topics": [
+   "La forma di cortesia e l’imperativo di cortesia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · höfliche Anrede in Singular und Plural; imperativo di cortesia (scusi, mi dica, mi dia); avere bisogno/voglia di"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-cortesia",
+   "topicTitle": "La forma di cortesia e l’imperativo di cortesia",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Con gli adulti che non conosci usiamo **Lei** (terza persona singolare): _Come **sta**? Che cosa **desidera**?_\nCon più persone si usa **voi**: _Ragazzi, che cosa **prendete**?_\n**Imperativo di cortesia** (frasi fisse):\n| Scusi! | Senta! | Mi dica! | Mi dia … | Prego! | Venga! | Prenda! |\nPer chiedere gentilmente: _**Vorrei** un caffè. · **Potrebbe** aiutarmi?_\nAltre frasi: _**Ho bisogno di** una taglia più grande. · **Ho voglia di** un gelato._",
+   "ruleHelp": "Erwachsene, die man nicht kennt, spricht man mit **Lei** an (3. Person Singular): _Come sta? Che cosa desidera?_ Mehrere Personen: **voi**.\nFeste höfliche Imperative: _Scusi! Senta! Mi dica! Mi dia … Prego! Venga! Prenda!_ · Höflich bitten: _Vorrei …, Potrebbe …?_\n_Ho bisogno di_ (ich brauche) · _Ho voglia di_ (ich habe Lust auf).",
+   "order": 82
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli ho bisogno di o ho voglia di.",
+    "explanation": "bisogno = è necessario; voglia = mi piacerebbe.",
+    "promptHelp": "Wähle ho bisogno di oder ho voglia di.",
+    "explanationHelp": "bisogno = brauchen; voglia = Lust haben.",
+    "text": "Fa caldo: [[g1]] un gelato!\nDomani c’è il test: [[g2]] studiare.\nLe scarpe sono rotte: [[g3]] scarpe nuove.\nChe bella giornata! [[g4]] andare al mare.\nNon vedo bene: [[g5]] occhiali.\nStasera [[g6]] una pizza!\nPer la ricetta [[g7]] due uova.\nSono stanco: [[g8]] dormire.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "ho voglia di",
+       "ho bisogno di"
+      ],
+      "answer": "ho voglia di"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "ho bisogno di",
+       "ho voglia di"
+      ],
+      "answer": "ho bisogno di"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "ho bisogno di",
+       "ho voglia di"
+      ],
+      "answer": "ho bisogno di"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Ho voglia di",
+       "Ho bisogno di"
+      ],
+      "answer": "Ho voglia di"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "ho bisogno di",
+       "ho voglia di"
+      ],
+      "answer": "ho bisogno di"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "ho voglia di",
+       "ho bisogno di"
+      ],
+      "answer": "ho voglia di"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "ho bisogno di",
+       "ho voglia di"
+      ],
+      "answer": "ho bisogno di"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "ho bisogno di",
+       "ho voglia di"
+      ],
+      "answer": "ho bisogno di"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-cortesia-m3",
+  "title": "Dal tu al Lei",
+  "language": "it",
+  "level": "A1",
+  "description": "La forma di cortesia e l’imperativo di cortesia · Dal tu al Lei · livello medio.",
+  "topics": [
+   "La forma di cortesia e l’imperativo di cortesia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · höfliche Anrede in Singular und Plural; imperativo di cortesia (scusi, mi dica, mi dia); avere bisogno/voglia di"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-cortesia",
+   "topicTitle": "La forma di cortesia e l’imperativo di cortesia",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Con gli adulti che non conosci usiamo **Lei** (terza persona singolare): _Come **sta**? Che cosa **desidera**?_\nCon più persone si usa **voi**: _Ragazzi, che cosa **prendete**?_\n**Imperativo di cortesia** (frasi fisse):\n| Scusi! | Senta! | Mi dica! | Mi dia … | Prego! | Venga! | Prenda! |\nPer chiedere gentilmente: _**Vorrei** un caffè. · **Potrebbe** aiutarmi?_\nAltre frasi: _**Ho bisogno di** una taglia più grande. · **Ho voglia di** un gelato._",
+   "ruleHelp": "Erwachsene, die man nicht kennt, spricht man mit **Lei** an (3. Person Singular): _Come sta? Che cosa desidera?_ Mehrere Personen: **voi**.\nFeste höfliche Imperative: _Scusi! Senta! Mi dica! Mi dia … Prego! Venga! Prenda!_ · Höflich bitten: _Vorrei …, Potrebbe …?_\n_Ho bisogno di_ (ich brauche) · _Ho voglia di_ (ich habe Lust auf).",
+   "order": 83
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Trasforma la domanda in forma di cortesia (Lei).",
+    "explanation": "Con Lei: terza persona singolare (sta, è, vuole, ha).",
+    "promptHelp": "Forme die Frage in die Höflichkeitsform um.",
+    "explanationHelp": "Mit Lei: 3. Person Singular.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Come stai? → …",
+      "acceptedAnswers": [
+       "Come sta"
+      ],
+      "modelAnswer": "Come sta?"
+     },
+     {
+      "id": "s2",
+      "start": "Di dove sei? → …",
+      "acceptedAnswers": [
+       "Di dov’è",
+       "Di dove è"
+      ],
+      "modelAnswer": "Di dov’è?"
+     },
+     {
+      "id": "s3",
+      "start": "Che cosa vuoi? → …",
+      "acceptedAnswers": [
+       "Che cosa vuole"
+      ],
+      "modelAnswer": "Che cosa vuole?"
+     },
+     {
+      "id": "s4",
+      "start": "Hai una penna? → …",
+      "acceptedAnswers": [
+       "Ha una penna"
+      ],
+      "modelAnswer": "Ha una penna?"
+     },
+     {
+      "id": "s5",
+      "start": "Puoi aiutarmi? → …",
+      "acceptedAnswers": [
+       "Può aiutarmi"
+      ],
+      "modelAnswer": "Può aiutarmi?"
+     },
+     {
+      "id": "s6",
+      "start": "Parli inglese? → …",
+      "acceptedAnswers": [
+       "Parla inglese"
+      ],
+      "modelAnswer": "Parla inglese?"
+     },
+     {
+      "id": "s7",
+      "start": "Dove abiti? → …",
+      "acceptedAnswers": [
+       "Dove abita"
+      ],
+      "modelAnswer": "Dove abita?"
+     },
+     {
+      "id": "s8",
+      "start": "Che cosa prendi? → …",
+      "acceptedAnswers": [
+       "Che cosa prende"
+      ],
+      "modelAnswer": "Che cosa prende?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-cortesia-s1",
+  "title": "Al bar",
+  "language": "it",
+  "level": "A1",
+  "description": "La forma di cortesia e l’imperativo di cortesia · Al bar · livello difficile.",
+  "topics": [
+   "La forma di cortesia e l’imperativo di cortesia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · höfliche Anrede in Singular und Plural; imperativo di cortesia (scusi, mi dica, mi dia); avere bisogno/voglia di"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-cortesia",
+   "topicTitle": "La forma di cortesia e l’imperativo di cortesia",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Con gli adulti che non conosci usiamo **Lei** (terza persona singolare): _Come **sta**? Che cosa **desidera**?_\nCon più persone si usa **voi**: _Ragazzi, che cosa **prendete**?_\n**Imperativo di cortesia** (frasi fisse):\n| Scusi! | Senta! | Mi dica! | Mi dia … | Prego! | Venga! | Prenda! |\nPer chiedere gentilmente: _**Vorrei** un caffè. · **Potrebbe** aiutarmi?_\nAltre frasi: _**Ho bisogno di** una taglia più grande. · **Ho voglia di** un gelato._",
+   "ruleHelp": "Erwachsene, die man nicht kennt, spricht man mit **Lei** an (3. Person Singular): _Come sta? Che cosa desidera?_ Mehrere Personen: **voi**.\nFeste höfliche Imperative: _Scusi! Senta! Mi dica! Mi dia … Prego! Venga! Prenda!_ · Höflich bitten: _Vorrei …, Potrebbe …?_\n_Ho bisogno di_ (ich brauche) · _Ho voglia di_ (ich habe Lust auf).",
+   "order": 81
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il dialogo al bar con le forme di cortesia.",
+    "explanation": "",
+    "promptHelp": "Ergänze den Dialog im Café.",
+    "text": "Cameriere: Buongiorno, che cosa (desiderare, Lei) [[g1]]?\nSignora: [[g2]] un cappuccino e una brioche, per favore.\nCameriere: Certo. E Lei, signore, che cosa (prendere) [[g3]]?\nSignore: Mi (dare) [[g4]] un caffè, grazie.\nCameriere: Ecco a [[g5]].\nSignora: (Scusare) [[g6]], quanto (costare) [[g7]] tutto?\nCameriere: Cinque euro e cinquanta.\nSignora: Ecco. [[g8]], tenga il resto.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "desidera"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Vorrei"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "prende"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "dia"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Lei"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Scusi"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "costa"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Prego"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-cortesia-s2",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "La forma di cortesia e l’imperativo di cortesia · Trova gli errori · livello difficile.",
+  "topics": [
+   "La forma di cortesia e l’imperativo di cortesia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · höfliche Anrede in Singular und Plural; imperativo di cortesia (scusi, mi dica, mi dia); avere bisogno/voglia di"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-cortesia",
+   "topicTitle": "La forma di cortesia e l’imperativo di cortesia",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Con gli adulti che non conosci usiamo **Lei** (terza persona singolare): _Come **sta**? Che cosa **desidera**?_\nCon più persone si usa **voi**: _Ragazzi, che cosa **prendete**?_\n**Imperativo di cortesia** (frasi fisse):\n| Scusi! | Senta! | Mi dica! | Mi dia … | Prego! | Venga! | Prenda! |\nPer chiedere gentilmente: _**Vorrei** un caffè. · **Potrebbe** aiutarmi?_\nAltre frasi: _**Ho bisogno di** una taglia più grande. · **Ho voglia di** un gelato._",
+   "ruleHelp": "Erwachsene, die man nicht kennt, spricht man mit **Lei** an (3. Person Singular): _Come sta? Che cosa desidera?_ Mehrere Personen: **voi**.\nFeste höfliche Imperative: _Scusi! Senta! Mi dica! Mi dia … Prego! Venga! Prenda!_ · Höflich bitten: _Vorrei …, Potrebbe …?_\n_Ho bisogno di_ (ich brauche) · _Ho voglia di_ (ich habe Lust auf).",
+   "order": 82
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Parli con la signora Rossi (Lei). Correggi gli errori.",
+    "explanation": "",
+    "promptHelp": "Du sprichst mit Frau Rossi (Lei). Korrigiere.",
+    "text": "Buongiorno signora, come [[g1]]?\n[[g2]], dov’è la stazione?\n[[g3]] un caffè?\n[[g4]] figli?\n[[g5]], che ore sono?\n[[g6]] ripetere, per favore?\n[[g7]] qui vicino?\n[[g8]] un etto di prosciutto, per favore.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "stai",
+      "acceptedAnswers": [
+       "sta"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "Senti",
+      "acceptedAnswers": [
+       "Senta"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "Vuoi",
+      "acceptedAnswers": [
+       "Vuole"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "Hai",
+      "acceptedAnswers": [
+       "Ha"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "Scusa",
+      "acceptedAnswers": [
+       "Scusi"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "Puoi",
+      "acceptedAnswers": [
+       "Può"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "Abiti",
+      "acceptedAnswers": [
+       "Abita"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "Dammi",
+      "acceptedAnswers": [
+       "Mi dia"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-cortesia-s3",
+  "title": "Un dialogo al mercato",
+  "language": "it",
+  "level": "A1",
+  "description": "La forma di cortesia e l’imperativo di cortesia · Un dialogo al mercato · livello difficile.",
+  "topics": [
+   "La forma di cortesia e l’imperativo di cortesia",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · höfliche Anrede in Singular und Plural; imperativo di cortesia (scusi, mi dica, mi dia); avere bisogno/voglia di"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-cortesia",
+   "topicTitle": "La forma di cortesia e l’imperativo di cortesia",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Con gli adulti che non conosci usiamo **Lei** (terza persona singolare): _Come **sta**? Che cosa **desidera**?_\nCon più persone si usa **voi**: _Ragazzi, che cosa **prendete**?_\n**Imperativo di cortesia** (frasi fisse):\n| Scusi! | Senta! | Mi dica! | Mi dia … | Prego! | Venga! | Prenda! |\nPer chiedere gentilmente: _**Vorrei** un caffè. · **Potrebbe** aiutarmi?_\nAltre frasi: _**Ho bisogno di** una taglia più grande. · **Ho voglia di** un gelato._",
+   "ruleHelp": "Erwachsene, die man nicht kennt, spricht man mit **Lei** an (3. Person Singular): _Come sta? Che cosa desidera?_ Mehrere Personen: **voi**.\nFeste höfliche Imperative: _Scusi! Senta! Mi dica! Mi dia … Prego! Venga! Prenda!_ · Höflich bitten: _Vorrei …, Potrebbe …?_\n_Ho bisogno di_ (ich brauche) · _Ho voglia di_ (ich habe Lust auf).",
+   "order": 83
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Scrivi un dialogo al mercato tra te e un venditore (forma di cortesia). Usa vorrei, mi dia, quanto costa, ho bisogno di.",
+    "explanation": "",
+    "promptHelp": "Schreibe einen Dialog auf dem Markt.",
+    "modelAnswer": "– Buongiorno, mi dica! – Buongiorno, vorrei un chilo di mele. – Ecco. Altro? – Mi dia anche due etti di formaggio. Ho bisogno di basilico per la cena. – Ecco il basilico. – Quanto costa tutto? – Otto euro.",
+    "lines": 6
+   },
+   {
+    "id": "q2",
+    "type": "sentence_completion",
+    "prompt": "E adesso scrivi in forma di cortesia.",
+    "explanation": "",
+    "promptHelp": "Und jetzt in der Höflichkeitsform.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Gib mir zwei Äpfel! → …",
+      "acceptedAnswers": [
+       "Mi dia due mele"
+      ],
+      "modelAnswer": "Mi dia due mele, per favore."
+     },
+     {
+      "id": "s2",
+      "start": "Entschuldigung! (zu einem Herrn) → …",
+      "acceptedAnswers": [
+       "Scusi"
+      ],
+      "modelAnswer": "Scusi!"
+     },
+     {
+      "id": "s3",
+      "start": "Können Sie mir helfen? → …",
+      "acceptedAnswers": [
+       "Può aiutarmi",
+       "Potrebbe aiutarmi"
+      ],
+      "modelAnswer": "Può aiutarmi?"
+     },
+     {
+      "id": "s4",
+      "start": "Ich hätte gern ein Wasser. → …",
+      "acceptedAnswers": [
+       "Vorrei un’acqua",
+       "Vorrei una bottiglia d’acqua"
+      ],
+      "modelAnswer": "Vorrei un’acqua."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco1-dare-dire-indiretto-l1",
   "title": "dare e dire",
   "language": "it",
@@ -52963,7 +55265,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · dare, dire; indirektes Objekt, unbetonte indirekte Objektpronomen"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -53098,7 +55401,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · dare, dire; indirektes Objekt, unbetonte indirekte Objektpronomen"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -53203,7 +55507,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · dare, dire; indirektes Objekt, unbetonte indirekte Objektpronomen"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -53338,7 +55643,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · dare, dire; indirektes Objekt, unbetonte indirekte Objektpronomen"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -53473,7 +55779,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · dare, dire; indirektes Objekt, unbetonte indirekte Objektpronomen"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -53584,7 +55891,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · dare, dire; indirektes Objekt, unbetonte indirekte Objektpronomen"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -53741,7 +56049,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · dare, dire; indirektes Objekt, unbetonte indirekte Objektpronomen"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -53867,7 +56176,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · dare, dire; indirektes Objekt, unbetonte indirekte Objektpronomen"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -53985,7 +56295,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · dare, dire; indirektes Objekt, unbetonte indirekte Objektpronomen"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -54095,7 +56406,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · dare, dire; indirektes Objekt, unbetonte indirekte Objektpronomen"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -54222,7 +56534,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Daten und Jahreszahlen"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -54326,7 +56639,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Daten und Jahreszahlen"
   },
   "estimatedMinutes": 12,
   "grammar": {
@@ -54469,7 +56783,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Daten und Jahreszahlen"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -54604,7 +56919,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Daten und Jahreszahlen"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -54714,7 +57030,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Daten und Jahreszahlen"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -54824,7 +57141,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Daten und Jahreszahlen"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -54949,7 +57267,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Daten und Jahreszahlen"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -55044,7 +57363,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Daten und Jahreszahlen"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -55163,7 +57483,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Daten und Jahreszahlen"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -55274,7 +57595,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -55427,7 +57749,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -55532,7 +57855,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -55654,7 +57978,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -55811,7 +58136,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -55922,7 +58248,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -56033,7 +58360,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -56152,7 +58480,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 14,
   "grammar": {
@@ -56287,7 +58616,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: regelmäßige Verben"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -56480,7 +58810,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: essere, stare"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -56633,7 +58964,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: essere, stare"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -56768,7 +59100,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: essere, stare"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -56890,7 +59223,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: essere, stare"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -57025,7 +59359,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: essere, stare"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -57168,7 +59503,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: essere, stare"
   },
   "estimatedMinutes": 9,
   "grammar": {
@@ -57291,7 +59627,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: essere, stare"
   },
   "estimatedMinutes": 9,
   "grammar": {
@@ -57413,7 +59750,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: essere, stare"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -57539,7 +59877,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: essere, stare"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -57658,7 +59997,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: essere, stare"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -57719,7 +60059,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: essere, stare"
   },
   "estimatedMinutes": 12,
   "grammar": {
@@ -57842,7 +60183,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: essere, stare"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -57969,7 +60311,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo: già, ancora"
   },
   "estimatedMinutes": 16,
   "grammar": {
@@ -58197,7 +60540,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo: già, ancora"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -58301,7 +60645,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo: già, ancora"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -58428,7 +60773,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo: già, ancora"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -58554,7 +60900,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo: già, ancora"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -58680,7 +61027,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo: già, ancora"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -58790,7 +61138,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo: già, ancora"
   },
   "estimatedMinutes": 15,
   "grammar": {
@@ -58925,7 +61274,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo: già, ancora"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -59043,7 +61393,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo: già, ancora"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -59168,7 +61519,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ 2. Person Singular und Plural, verneint"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -59303,7 +61655,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ 2. Person Singular und Plural, verneint"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -59405,7 +61758,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ 2. Person Singular und Plural, verneint"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -59526,7 +61880,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ 2. Person Singular und Plural, verneint"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -59661,7 +62016,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ 2. Person Singular und Plural, verneint"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -59772,7 +62128,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ 2. Person Singular und Plural, verneint"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -59898,7 +62255,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ 2. Person Singular und Plural, verneint"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -60008,7 +62366,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ der 1. Person Plural"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -60142,7 +62501,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ der 1. Person Plural"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -60244,7 +62604,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ der 1. Person Plural"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -60378,7 +62739,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ der 1. Person Plural"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -60488,7 +62850,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ der 1. Person Plural"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -60599,7 +62962,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ der 1. Person Plural"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -60725,7 +63089,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ der 1. Person Plural"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -60860,7 +63225,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ der 1. Person Plural"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -60955,7 +63321,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ der 1. Person Plural"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -61074,7 +63441,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ 2. Person Singular und Plural, verneint"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -61199,7 +63567,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ 2. Person Singular und Plural, verneint"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -61311,7 +63680,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ 2. Person Singular und Plural, verneint"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -61406,7 +63776,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: andare und Verben auf -ire"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -61558,7 +63929,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: andare und Verben auf -ire"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -61683,7 +64055,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: andare und Verben auf -ire"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -61817,7 +64190,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: andare und Verben auf -ire"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -61973,7 +64347,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: andare und Verben auf -ire"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -62083,7 +64458,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: andare und Verben auf -ire"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -62194,7 +64570,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: andare und Verben auf -ire"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -62319,7 +64696,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: andare und Verben auf -ire"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -62437,7 +64815,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: andare und Verben auf -ire"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -62589,7 +64968,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: andare und Verben auf -ire"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -62684,7 +65064,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: fare, Verben auf -isc-"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -62836,7 +65217,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: fare, Verben auf -isc-"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -62958,7 +65340,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: fare, Verben auf -isc-"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -63063,7 +65446,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: fare, Verben auf -isc-"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -63173,7 +65557,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: fare, Verben auf -isc-"
   },
   "estimatedMinutes": 9,
   "grammar": {
@@ -63290,7 +65675,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: fare, Verben auf -isc-"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -63401,7 +65787,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: fare, Verben auf -isc-"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -63557,7 +65944,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: fare, Verben auf -isc-"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -63675,7 +66063,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: fare, Verben auf -isc-"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -63868,7 +66257,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: fare, Verben auf -isc-"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -63979,7 +66369,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Vorlieben und Abneigungen: mi piace / mi piacciono, auch mit Infinitiv"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -64122,7 +66513,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Vorlieben und Abneigungen: mi piace / mi piacciono, auch mit Infinitiv"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -64243,7 +66635,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Vorlieben und Abneigungen: mi piace / mi piacciono, auch mit Infinitiv"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -64370,7 +66763,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Vorlieben und Abneigungen: mi piace / mi piacciono, auch mit Infinitiv"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -64494,7 +66888,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Vorlieben und Abneigungen: mi piace / mi piacciono, auch mit Infinitiv"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -64604,7 +66999,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Vorlieben und Abneigungen: mi piace / mi piacciono, auch mit Infinitiv"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -64729,7 +67125,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Vorlieben und Abneigungen: mi piace / mi piacciono, auch mit Infinitiv"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -64854,7 +67251,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Vorlieben und Abneigungen: mi piace / mi piacciono, auch mit Infinitiv"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -64958,7 +67356,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Vorlieben und Abneigungen: mi piace / mi piacciono, auch mit Infinitiv"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -65077,7 +67476,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Vorlieben und Abneigungen: mi piace / mi piacciono, auch mit Infinitiv"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -65203,7 +67603,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Modalverben dovere, potere, volere, sapere; venire"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -65355,7 +67756,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Modalverben dovere, potere, volere, sapere; venire"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -65480,7 +67882,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Modalverben dovere, potere, volere, sapere; venire"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -65614,7 +68017,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Modalverben dovere, potere, volere, sapere; venire"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -65741,7 +68145,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Modalverben dovere, potere, volere, sapere; venire"
   },
   "estimatedMinutes": 9,
   "grammar": {
@@ -65857,7 +68262,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Modalverben dovere, potere, volere, sapere; venire"
   },
   "estimatedMinutes": 9,
   "grammar": {
@@ -65974,7 +68380,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Modalverben dovere, potere, volere, sapere; venire"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -66130,7 +68537,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Modalverben dovere, potere, volere, sapere; venire"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -66323,7 +68731,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Modalverben dovere, potere, volere, sapere; venire"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -66441,7 +68850,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Modalverben dovere, potere, volere, sapere; venire"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -66566,7 +68976,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Modalverben dovere, potere, volere, sapere; venire"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -66676,7 +69087,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation"
   },
   "estimatedMinutes": 16,
   "grammar": {
@@ -66904,7 +69316,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -67047,7 +69460,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -67173,7 +69587,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -67300,7 +69715,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -67427,7 +69843,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -67553,7 +69970,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation"
   },
   "estimatedMinutes": 19,
   "grammar": {
@@ -67713,7 +70131,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -67824,7 +70243,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -67950,7 +70370,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Uhrzeit, Wochentage, Ordnungszahlen 1–10"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -68054,7 +70475,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Uhrzeit, Wochentage, Ordnungszahlen 1–10"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -68193,7 +70615,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Uhrzeit, Wochentage, Ordnungszahlen 1–10"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -68328,7 +70751,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Uhrzeit, Wochentage, Ordnungszahlen 1–10"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -68432,7 +70856,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Uhrzeit, Wochentage, Ordnungszahlen 1–10"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -68548,7 +70973,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Uhrzeit, Wochentage, Ordnungszahlen 1–10"
   },
   "estimatedMinutes": 11,
   "grammar": {
@@ -68675,7 +71101,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Uhrzeit, Wochentage, Ordnungszahlen 1–10"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -68793,7 +71220,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Uhrzeit, Wochentage, Ordnungszahlen 1–10"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -68923,7 +71351,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Uhrzeit, Wochentage, Ordnungszahlen 1–10"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -69050,7 +71479,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Uhrzeit, Wochentage, Ordnungszahlen 1–10"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -69169,7 +71599,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Uhrzeit, Wochentage, Ordnungszahlen 1–10"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -69267,7 +71698,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit avere"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -69369,7 +71801,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit avere"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -69503,7 +71936,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit avere"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -69641,7 +72075,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit avere"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -69776,7 +72211,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit avere"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -69886,7 +72322,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit avere"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -70013,7 +72450,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit avere"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -70124,7 +72562,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit avere"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -70250,7 +72689,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit avere"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -70345,7 +72785,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit avere"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -70456,7 +72897,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit avere"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -70574,7 +73016,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit essere, unregelmäßige Partizipien"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -70696,7 +73139,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit essere, unregelmäßige Partizipien"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -70801,7 +73245,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit essere, unregelmäßige Partizipien"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -70935,7 +73380,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit essere, unregelmäßige Partizipien"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -71040,7 +73486,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit essere, unregelmäßige Partizipien"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -71151,7 +73598,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit essere, unregelmäßige Partizipien"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -71285,7 +73733,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit essere, unregelmäßige Partizipien"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -71396,7 +73845,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit essere, unregelmäßige Partizipien"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -71507,7 +73957,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit essere, unregelmäßige Partizipien"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -71625,7 +74076,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit essere, unregelmäßige Partizipien"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -71759,7 +74211,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit essere, unregelmäßige Partizipien"
   },
   "estimatedMinutes": 11,
   "grammar": {
@@ -71876,7 +74329,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo mit essere, unregelmäßige Partizipien"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -71971,7 +74425,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Singular/Plural der Substantive"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -72124,7 +74579,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Singular/Plural der Substantive"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -72229,7 +74685,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Singular/Plural der Substantive"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -72364,7 +74821,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Singular/Plural der Substantive"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -72502,7 +74960,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Singular/Plural der Substantive"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -72614,7 +75073,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Singular/Plural der Substantive"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -72740,7 +75200,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Singular/Plural der Substantive"
   },
   "estimatedMinutes": 12,
   "grammar": {
@@ -72863,7 +75324,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Singular/Plural der Substantive"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -72982,7 +75444,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Singular/Plural der Substantive"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -73076,6 +75539,1178 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco1-posizione-pronomi-l1",
+  "title": "Dove va il pronome?",
+  "language": "it",
+  "level": "A1",
+  "description": "La posizione dei pronomi · Dove va il pronome? · livello facile.",
+  "topics": [
+   "La posizione dei pronomi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Stellung der Objektpronomen bei Verneinung, Modalverben und Infinitiv"
+  },
+  "estimatedMinutes": 16,
+  "grammar": {
+   "topic": "ecco1-posizione-pronomi",
+   "topicTitle": "La posizione dei pronomi",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "- Di solito il pronome va **prima del verbo**: _**Lo** compro._ · con non: _**Non lo** compro._\n- Con **dovere, potere, volere** ci sono due possibilità:\n  _**Lo** voglio comprare._ = _Voglio comprar**lo**._ (l’infinito perde la -e: comprare → comprar + lo)\n- Con un **infinito** senza modale il pronome va attaccato: _È bello veder**ti**!_ · _Ho voglia di mangiar**la**._",
+   "ruleHelp": "Meist steht das Pronomen **vor dem Verb**: _Lo compro. Non lo compro._\nBei **dovere, potere, volere** zwei Möglichkeiten: _Lo voglio comprare = Voglio comprarlo_ (Infinitiv ohne -e + Pronomen).\nBeim **Infinitiv** wird das Pronomen angehängt: _È bello vederti!_",
+   "order": 71
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Non lo compro."
+     },
+     {
+      "id": "o2",
+      "text": "Lo non compro."
+     },
+     {
+      "id": "o3",
+      "text": "Non compro lo."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q2",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Voglio comprarlo."
+     },
+     {
+      "id": "o2",
+      "text": "Voglio lo comprare."
+     },
+     {
+      "id": "o3",
+      "text": "Voglio comprare lo."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "La devo chiamare."
+     },
+     {
+      "id": "o2",
+      "text": "Devo la chiamare."
+     },
+     {
+      "id": "o3",
+      "text": "Devo chiamare la."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Posso aiutarti?"
+     },
+     {
+      "id": "o2",
+      "text": "Posso ti aiutare?"
+     },
+     {
+      "id": "o3",
+      "text": "Ti posso aiutarti?"
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "È bello vederti!"
+     },
+     {
+      "id": "o2",
+      "text": "È bello ti vedere!"
+     },
+     {
+      "id": "o3",
+      "text": "È bello vedere ti!"
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q6",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Non li voglio mangiare."
+     },
+     {
+      "id": "o2",
+      "text": "Non voglio li mangiare."
+     },
+     {
+      "id": "o3",
+      "text": "Li non voglio mangiare."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q7",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Vi possiamo aiutare."
+     },
+     {
+      "id": "o2",
+      "text": "Possiamo vi aiutare."
+     },
+     {
+      "id": "o3",
+      "text": "Possiamo aiutare vi."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q8",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Devo prenderle."
+     },
+     {
+      "id": "o2",
+      "text": "Devo le prendere."
+     },
+     {
+      "id": "o3",
+      "text": "Devo prendere le."
+     }
+    ],
+    "correctOptionId": "o1"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-posizione-pronomi-l2",
+  "title": "Due possibilità",
+  "language": "it",
+  "level": "A1",
+  "description": "La posizione dei pronomi · Due possibilità · livello facile.",
+  "topics": [
+   "La posizione dei pronomi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Stellung der Objektpronomen bei Verneinung, Modalverben und Infinitiv"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-posizione-pronomi",
+   "topicTitle": "La posizione dei pronomi",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "- Di solito il pronome va **prima del verbo**: _**Lo** compro._ · con non: _**Non lo** compro._\n- Con **dovere, potere, volere** ci sono due possibilità:\n  _**Lo** voglio comprare._ = _Voglio comprar**lo**._ (l’infinito perde la -e: comprare → comprar + lo)\n- Con un **infinito** senza modale il pronome va attaccato: _È bello veder**ti**!_ · _Ho voglia di mangiar**la**._",
+   "ruleHelp": "Meist steht das Pronomen **vor dem Verb**: _Lo compro. Non lo compro._\nBei **dovere, potere, volere** zwei Möglichkeiten: _Lo voglio comprare = Voglio comprarlo_ (Infinitiv ohne -e + Pronomen).\nBeim **Infinitiv** wird das Pronomen angehängt: _È bello vederti!_",
+   "order": 72
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina le frasi che vogliono dire la stessa cosa.",
+    "explanation": "",
+    "promptHelp": "Verbinde gleichbedeutende Sätze.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Lo voglio comprare.",
+      "right": "Voglio comprarlo."
+     },
+     {
+      "id": "p2",
+      "left": "La devo chiamare.",
+      "right": "Devo chiamarla."
+     },
+     {
+      "id": "p3",
+      "left": "Li posso prendere.",
+      "right": "Posso prenderli."
+     },
+     {
+      "id": "p4",
+      "left": "Le vogliamo vedere.",
+      "right": "Vogliamo vederle."
+     },
+     {
+      "id": "p5",
+      "left": "Ti posso aiutare?",
+      "right": "Posso aiutarti?"
+     },
+     {
+      "id": "p6",
+      "left": "Mi devi ascoltare!",
+      "right": "Devi ascoltarmi!"
+     },
+     {
+      "id": "p7",
+      "left": "Vi voglio invitare.",
+      "right": "Voglio invitarvi."
+     },
+     {
+      "id": "p8",
+      "left": "Ci puoi chiamare?",
+      "right": "Puoi chiamarci?"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-posizione-pronomi-l3",
+  "title": "Prima o dopo?",
+  "language": "it",
+  "level": "A1",
+  "description": "La posizione dei pronomi · Prima o dopo? · livello facile.",
+  "topics": [
+   "La posizione dei pronomi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Stellung der Objektpronomen bei Verneinung, Modalverben und Infinitiv"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-posizione-pronomi",
+   "topicTitle": "La posizione dei pronomi",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "- Di solito il pronome va **prima del verbo**: _**Lo** compro._ · con non: _**Non lo** compro._\n- Con **dovere, potere, volere** ci sono due possibilità:\n  _**Lo** voglio comprare._ = _Voglio comprar**lo**._ (l’infinito perde la -e: comprare → comprar + lo)\n- Con un **infinito** senza modale il pronome va attaccato: _È bello veder**ti**!_ · _Ho voglia di mangiar**la**._",
+   "ruleHelp": "Meist steht das Pronomen **vor dem Verb**: _Lo compro. Non lo compro._\nBei **dovere, potere, volere** zwei Möglichkeiten: _Lo voglio comprare = Voglio comprarlo_ (Infinitiv ohne -e + Pronomen).\nBeim **Infinitiv** wird das Pronomen angehängt: _È bello vederti!_",
+   "order": 73
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "",
+    "promptHelp": "Wähle die richtige Form.",
+    "text": "Il vestito? [[g1]] subito.\nLa gonna? Non [[g2]].\nLe scarpe? Voglio [[g3]].\nIl pane? [[g4]] comprare.\nI biscotti? Possiamo [[g5]]?\nMarco? [[g6]] invitare.\nSara? Devo [[g7]].\nIl latte? Non [[g8]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Lo provo",
+       "Provo lo"
+      ],
+      "answer": "Lo provo"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "la compro",
+       "compro la"
+      ],
+      "answer": "la compro"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "provarle",
+       "le provare"
+      ],
+      "answer": "provarle"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Lo devo",
+       "Devo lo"
+      ],
+      "answer": "Lo devo"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "mangiarli",
+       "li mangiare"
+      ],
+      "answer": "mangiarli"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Lo voglio",
+       "Voglio lo"
+      ],
+      "answer": "Lo voglio"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "chiamarla",
+       "la chiamare"
+      ],
+      "answer": "chiamarla"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "lo bevo",
+       "bevo lo"
+      ],
+      "answer": "lo bevo"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-posizione-pronomi-m1",
+  "title": "Riscrivi in un altro modo",
+  "language": "it",
+  "level": "A1",
+  "description": "La posizione dei pronomi · Riscrivi in un altro modo · livello medio.",
+  "topics": [
+   "La posizione dei pronomi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Stellung der Objektpronomen bei Verneinung, Modalverben und Infinitiv"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-posizione-pronomi",
+   "topicTitle": "La posizione dei pronomi",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "- Di solito il pronome va **prima del verbo**: _**Lo** compro._ · con non: _**Non lo** compro._\n- Con **dovere, potere, volere** ci sono due possibilità:\n  _**Lo** voglio comprare._ = _Voglio comprar**lo**._ (l’infinito perde la -e: comprare → comprar + lo)\n- Con un **infinito** senza modale il pronome va attaccato: _È bello veder**ti**!_ · _Ho voglia di mangiar**la**._",
+   "ruleHelp": "Meist steht das Pronomen **vor dem Verb**: _Lo compro. Non lo compro._\nBei **dovere, potere, volere** zwei Möglichkeiten: _Lo voglio comprare = Voglio comprarlo_ (Infinitiv ohne -e + Pronomen).\nBeim **Infinitiv** wird das Pronomen angehängt: _È bello vederti!_",
+   "order": 71
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Scrivi la frase nell’altro modo.",
+    "explanation": "L’infinito perde la -e: comprare + lo → comprarlo.",
+    "promptHelp": "Schreibe den Satz auf die andere Art.",
+    "explanationHelp": "Der Infinitiv verliert das -e.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Lo voglio comprare. → Voglio …",
+      "acceptedAnswers": [
+       "comprarlo"
+      ],
+      "modelAnswer": "Voglio comprarlo."
+     },
+     {
+      "id": "s2",
+      "start": "La devo chiamare. → Devo …",
+      "acceptedAnswers": [
+       "chiamarla"
+      ],
+      "modelAnswer": "Devo chiamarla."
+     },
+     {
+      "id": "s3",
+      "start": "Li posso prendere. → Posso …",
+      "acceptedAnswers": [
+       "prenderli"
+      ],
+      "modelAnswer": "Posso prenderli."
+     },
+     {
+      "id": "s4",
+      "start": "Le vogliamo vedere. → Vogliamo …",
+      "acceptedAnswers": [
+       "vederle"
+      ],
+      "modelAnswer": "Vogliamo vederle."
+     },
+     {
+      "id": "s5",
+      "start": "Voglio invitarti. → … voglio invitare.",
+      "acceptedAnswers": [
+       "Ti"
+      ],
+      "modelAnswer": "Ti voglio invitare."
+     },
+     {
+      "id": "s6",
+      "start": "Devo aiutarvi. → … devo aiutare.",
+      "acceptedAnswers": [
+       "Vi"
+      ],
+      "modelAnswer": "Vi devo aiutare."
+     },
+     {
+      "id": "s7",
+      "start": "Possiamo provarlo? → … possiamo provare?",
+      "acceptedAnswers": [
+       "Lo"
+      ],
+      "modelAnswer": "Lo possiamo provare?"
+     },
+     {
+      "id": "s8",
+      "start": "Puoi chiamarmi? → … puoi chiamare?",
+      "acceptedAnswers": [
+       "Mi"
+      ],
+      "modelAnswer": "Mi puoi chiamare?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-posizione-pronomi-m2",
+  "title": "Nel negozio",
+  "language": "it",
+  "level": "A1",
+  "description": "La posizione dei pronomi · Nel negozio · livello medio.",
+  "topics": [
+   "La posizione dei pronomi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Stellung der Objektpronomen bei Verneinung, Modalverben und Infinitiv"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-posizione-pronomi",
+   "topicTitle": "La posizione dei pronomi",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "- Di solito il pronome va **prima del verbo**: _**Lo** compro._ · con non: _**Non lo** compro._\n- Con **dovere, potere, volere** ci sono due possibilità:\n  _**Lo** voglio comprare._ = _Voglio comprar**lo**._ (l’infinito perde la -e: comprare → comprar + lo)\n- Con un **infinito** senza modale il pronome va attaccato: _È bello veder**ti**!_ · _Ho voglia di mangiar**la**._",
+   "ruleHelp": "Meist steht das Pronomen **vor dem Verb**: _Lo compro. Non lo compro._\nBei **dovere, potere, volere** zwei Möglichkeiten: _Lo voglio comprare = Voglio comprarlo_ (Infinitiv ohne -e + Pronomen).\nBeim **Infinitiv** wird das Pronomen angehängt: _È bello vederti!_",
+   "order": 72
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi il pronome attaccato all’infinito.",
+    "explanation": "",
+    "promptHelp": "Hänge das Pronomen an den Infinitiv an.",
+    "text": "Questa felpa è bella. Posso (provare + la) [[g1]]?\nI pantaloni sono lunghi. Devo (cambiare + li) [[g2]].\nLe scarpe? Voglio (comprare + le) [[g3]] subito!\nIl cappello è caro. Non posso (prendere + lo) [[g4]].\nMamma, puoi (aiutare + mi) [[g5]]?\nSara è alla cassa. Dobbiamo (aspettare + la) [[g6]].\nIl commesso è gentile. Vogliamo (ringraziare + lo) [[g7]].\nRagazzi, posso (accompagnare + vi) [[g8]]?",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "provarla"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "cambiarli"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "comprarle"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "prenderlo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "aiutarmi"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "aspettarla"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ringraziarlo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "accompagnarvi"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-posizione-pronomi-m3",
+  "title": "Con il pronome",
+  "language": "it",
+  "level": "A1",
+  "description": "La posizione dei pronomi · Con il pronome · livello medio.",
+  "topics": [
+   "La posizione dei pronomi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Stellung der Objektpronomen bei Verneinung, Modalverben und Infinitiv"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-posizione-pronomi",
+   "topicTitle": "La posizione dei pronomi",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "- Di solito il pronome va **prima del verbo**: _**Lo** compro._ · con non: _**Non lo** compro._\n- Con **dovere, potere, volere** ci sono due possibilità:\n  _**Lo** voglio comprare._ = _Voglio comprar**lo**._ (l’infinito perde la -e: comprare → comprar + lo)\n- Con un **infinito** senza modale il pronome va attaccato: _È bello veder**ti**!_ · _Ho voglia di mangiar**la**._",
+   "ruleHelp": "Meist steht das Pronomen **vor dem Verb**: _Lo compro. Non lo compro._\nBei **dovere, potere, volere** zwei Möglichkeiten: _Lo voglio comprare = Voglio comprarlo_ (Infinitiv ohne -e + Pronomen).\nBeim **Infinitiv** wird das Pronomen angehängt: _È bello vederti!_",
+   "order": 73
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Rispondi con modale + pronome (due modi possibili).",
+    "explanation": "Tutte e due le posizioni sono giuste.",
+    "promptHelp": "Antworte mit Modalverb + Pronomen.",
+    "explanationHelp": "Beide Stellungen sind richtig.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Vuoi comprare la maglietta? – Sì, …",
+      "acceptedAnswers": [
+       "la voglio comprare",
+       "voglio comprarla"
+      ],
+      "modelAnswer": "Sì, voglio comprarla."
+     },
+     {
+      "id": "s2",
+      "start": "Devi fare i compiti? – Sì, …",
+      "acceptedAnswers": [
+       "li devo fare",
+       "devo farli"
+      ],
+      "modelAnswer": "Sì, devo farli."
+     },
+     {
+      "id": "s3",
+      "start": "Puoi chiamare Marco? – Sì, …",
+      "acceptedAnswers": [
+       "lo posso chiamare",
+       "posso chiamarlo"
+      ],
+      "modelAnswer": "Sì, posso chiamarlo."
+     },
+     {
+      "id": "s4",
+      "start": "Volete vedere il film? – Sì, …",
+      "acceptedAnswers": [
+       "lo vogliamo vedere",
+       "vogliamo vederlo"
+      ],
+      "modelAnswer": "Sì, vogliamo vederlo."
+     },
+     {
+      "id": "s5",
+      "start": "Devi prendere le chiavi? – Sì, …",
+      "acceptedAnswers": [
+       "le devo prendere",
+       "devo prenderle"
+      ],
+      "modelAnswer": "Sì, devo prenderle."
+     },
+     {
+      "id": "s6",
+      "start": "Puoi aiutare me? – Sì, …",
+      "acceptedAnswers": [
+       "ti posso aiutare",
+       "posso aiutarti"
+      ],
+      "modelAnswer": "Sì, posso aiutarti."
+     },
+     {
+      "id": "s7",
+      "start": "Vuoi invitare Anna? – No, …",
+      "acceptedAnswers": [
+       "non la voglio invitare",
+       "non voglio invitarla"
+      ],
+      "modelAnswer": "No, non voglio invitarla."
+     },
+     {
+      "id": "s8",
+      "start": "Dovete comprare il pane? – No, …",
+      "acceptedAnswers": [
+       "non lo dobbiamo comprare",
+       "non dobbiamo comprarlo"
+      ],
+      "modelAnswer": "No, non dobbiamo comprarlo."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-posizione-pronomi-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "La posizione dei pronomi · Trova gli errori · livello difficile.",
+  "topics": [
+   "La posizione dei pronomi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Stellung der Objektpronomen bei Verneinung, Modalverben und Infinitiv"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-posizione-pronomi",
+   "topicTitle": "La posizione dei pronomi",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "- Di solito il pronome va **prima del verbo**: _**Lo** compro._ · con non: _**Non lo** compro._\n- Con **dovere, potere, volere** ci sono due possibilità:\n  _**Lo** voglio comprare._ = _Voglio comprar**lo**._ (l’infinito perde la -e: comprare → comprar + lo)\n- Con un **infinito** senza modale il pronome va attaccato: _È bello veder**ti**!_ · _Ho voglia di mangiar**la**._",
+   "ruleHelp": "Meist steht das Pronomen **vor dem Verb**: _Lo compro. Non lo compro._\nBei **dovere, potere, volere** zwei Möglichkeiten: _Lo voglio comprare = Voglio comprarlo_ (Infinitiv ohne -e + Pronomen).\nBeim **Infinitiv** wird das Pronomen angehängt: _È bello vederti!_",
+   "order": 71
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi gli otto errori.",
+    "explanation": "",
+    "promptHelp": "Korrigiere die acht Fehler.",
+    "text": "Voglio [[g1]].\nDevo [[g2]].\n[[g3]] vedo.\nPosso [[g4]]?\nÈ bello [[g5]].\nVogliamo [[g6]].\nNon [[g7]] mangiare.\nDobbiamo [[g8]]?",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "lo comprare",
+      "acceptedAnswers": [
+       "comprarlo"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "la chiamare",
+      "acceptedAnswers": [
+       "chiamarla"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "Lo non",
+      "acceptedAnswers": [
+       "Non lo"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "ti aiutare",
+      "acceptedAnswers": [
+       "aiutarti"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "ti vedere",
+      "acceptedAnswers": [
+       "vederti"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "comprare li",
+      "acceptedAnswers": [
+       "comprarli"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "voglio la",
+      "acceptedAnswers": [
+       "la voglio"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "aspettare vi",
+      "acceptedAnswers": [
+       "aspettarvi"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-posizione-pronomi-s2",
+  "title": "Una cena da preparare",
+  "language": "it",
+  "level": "A1",
+  "description": "La posizione dei pronomi · Una cena da preparare · livello difficile.",
+  "topics": [
+   "La posizione dei pronomi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Stellung der Objektpronomen bei Verneinung, Modalverben und Infinitiv"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco1-posizione-pronomi",
+   "topicTitle": "La posizione dei pronomi",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "- Di solito il pronome va **prima del verbo**: _**Lo** compro._ · con non: _**Non lo** compro._\n- Con **dovere, potere, volere** ci sono due possibilità:\n  _**Lo** voglio comprare._ = _Voglio comprar**lo**._ (l’infinito perde la -e: comprare → comprar + lo)\n- Con un **infinito** senza modale il pronome va attaccato: _È bello veder**ti**!_ · _Ho voglia di mangiar**la**._",
+   "ruleHelp": "Meist steht das Pronomen **vor dem Verb**: _Lo compro. Non lo compro._\nBei **dovere, potere, volere** zwei Möglichkeiten: _Lo voglio comprare = Voglio comprarlo_ (Infinitiv ohne -e + Pronomen).\nBeim **Infinitiv** wird das Pronomen angehängt: _È bello vederti!_",
+   "order": 72
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con i pronomi (prima del verbo o attaccati all’infinito).",
+    "explanation": "Prima del verbo coniugato o attaccato all’infinito.",
+    "promptHelp": "Ergänze die Pronomen.",
+    "explanationHelp": "Vor dem konjugierten Verb oder an den Infinitiv angehängt.",
+    "text": "Il sugo? [[g1]] preparo io. Ma prima devo comprar[[g2]], i pomodori.\nLa pasta? Non [[g3]] trovo! Puoi cercar[[g4]] tu?\nIl formaggio? Voglio grattugiar[[g5]] adesso.\nI nonni? [[g6]] devo chiamare: arrivano alle otto.\nLe candele? Possiamo metter[[g7]] sul tavolo.\nMarco? Non [[g8]] invito, è in vacanza.\nLe mie amiche? Voglio invitar[[g9]] tutte!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Lo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "li"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "la"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "la"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "lo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Li"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "lo"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "le"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-posizione-pronomi-s3",
+  "title": "Un messaggio",
+  "language": "it",
+  "level": "A1",
+  "description": "La posizione dei pronomi · Un messaggio · livello difficile.",
+  "topics": [
+   "La posizione dei pronomi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Stellung der Objektpronomen bei Verneinung, Modalverben und Infinitiv"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-posizione-pronomi",
+   "topicTitle": "La posizione dei pronomi",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "- Di solito il pronome va **prima del verbo**: _**Lo** compro._ · con non: _**Non lo** compro._\n- Con **dovere, potere, volere** ci sono due possibilità:\n  _**Lo** voglio comprare._ = _Voglio comprar**lo**._ (l’infinito perde la -e: comprare → comprar + lo)\n- Con un **infinito** senza modale il pronome va attaccato: _È bello veder**ti**!_ · _Ho voglia di mangiar**la**._",
+   "ruleHelp": "Meist steht das Pronomen **vor dem Verb**: _Lo compro. Non lo compro._\nBei **dovere, potere, volere** zwei Möglichkeiten: _Lo voglio comprare = Voglio comprarlo_ (Infinitiv ohne -e + Pronomen).\nBeim **Infinitiv** wird das Pronomen angehängt: _È bello vederti!_",
+   "order": 73
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Scrivi un messaggio a un amico: lo vuoi invitare a cena. Usa almeno quattro pronomi (lo, la, li, le, ti, vi …).",
+    "explanation": "",
+    "promptHelp": "Schreibe eine Nachricht mit mindestens vier Pronomen.",
+    "modelAnswer": "Ciao Leo, sabato faccio una cena. Ti voglio invitare! La pizza la preparo io. Le bibite puoi portarle tu? Anche Sara e Paolo vengono: li chiamo stasera.",
+    "lines": 5
+   },
+   {
+    "id": "q2",
+    "type": "sentence_completion",
+    "prompt": "E adesso riscrivi con il pronome attaccato.",
+    "explanation": "",
+    "promptHelp": "Und jetzt mit angehängtem Pronomen.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Ti voglio invitare. → Voglio …",
+      "acceptedAnswers": [
+       "invitarti"
+      ],
+      "modelAnswer": "Voglio invitarti."
+     },
+     {
+      "id": "s2",
+      "start": "Le puoi portare? → Puoi …",
+      "acceptedAnswers": [
+       "portarle"
+      ],
+      "modelAnswer": "Puoi portarle?"
+     },
+     {
+      "id": "s3",
+      "start": "Li devo chiamare. → Devo …",
+      "acceptedAnswers": [
+       "chiamarli"
+      ],
+      "modelAnswer": "Devo chiamarli."
+     },
+     {
+      "id": "s4",
+      "start": "La voglio preparare. → Voglio …",
+      "acceptedAnswers": [
+       "prepararla"
+      ],
+      "modelAnswer": "Voglio prepararla."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco1-possessivi-1-l1",
   "title": "Mio, mia, miei, mie?",
   "language": "it",
@@ -73108,7 +76743,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -73242,7 +76878,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -73377,7 +77014,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -73504,7 +77142,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -73614,7 +77253,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -73790,7 +77430,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter"
   },
   "estimatedMinutes": 9,
   "grammar": {
@@ -73907,7 +77548,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -74033,7 +77675,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -74152,7 +77795,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter"
   },
   "estimatedMinutes": 12,
   "grammar": {
@@ -74275,7 +77919,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -74400,7 +78045,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter bei Verwandtschaftsbezeichnungen"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -74527,7 +78173,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter bei Verwandtschaftsbezeichnungen"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -74631,7 +78278,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter bei Verwandtschaftsbezeichnungen"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -74758,7 +78406,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter bei Verwandtschaftsbezeichnungen"
   },
   "estimatedMinutes": 9,
   "grammar": {
@@ -74875,7 +78524,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter bei Verwandtschaftsbezeichnungen"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -74985,7 +78635,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter bei Verwandtschaftsbezeichnungen"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -75111,7 +78762,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter bei Verwandtschaftsbezeichnungen"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -75229,7 +78881,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter bei Verwandtschaftsbezeichnungen"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -75324,7 +78977,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter bei Verwandtschaftsbezeichnungen"
   },
   "estimatedMinutes": 12,
   "grammar": {
@@ -75447,7 +79101,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Possessivbegleiter bei Verwandtschaftsbezeichnungen"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -75584,7 +79239,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo der Modalverben"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -75711,7 +79367,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo der Modalverben"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -75815,7 +79472,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo der Modalverben"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -75936,7 +79594,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo der Modalverben"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -76071,7 +79730,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo der Modalverben"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -76184,7 +79844,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo der Modalverben"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -76294,7 +79955,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo der Modalverben"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -76412,7 +80074,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo der Modalverben"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -76537,7 +80200,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo der Modalverben"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -76634,7 +80298,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · preposizioni articolate"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -76787,7 +80452,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · preposizioni articolate"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -76892,7 +80558,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · preposizioni articolate"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -77026,7 +80693,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · preposizioni articolate"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -77181,7 +80849,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · preposizioni articolate"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -77304,7 +80973,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · preposizioni articolate"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -77415,7 +81085,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · preposizioni articolate"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -77540,7 +81211,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · preposizioni articolate"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -77659,7 +81331,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · preposizioni articolate"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -77862,7 +81535,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · preposizioni articolate"
   },
   "estimatedMinutes": 13,
   "grammar": {
@@ -77958,6 +81632,2247 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco1-pronomi-diretti-l1",
+  "title": "Lo, la, li o le?",
+  "language": "it",
+  "level": "A1",
+  "description": "I pronomi diretti (lo, la, li, le …) · Lo, la, li o le? · livello facile.",
+  "topics": [
+   "I pronomi diretti (lo, la, li, le …)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte direkte Objektpronomen"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-pronomi-diretti",
+   "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "I pronomi diretti sostituiscono un **oggetto diretto** (chi? che cosa?) e vanno **prima del verbo**:\n| mi | ti | lo | la | ci | vi | li | le |\n| mich | dich | ihn / es | sie / es | uns | euch | sie (m.) | sie (f.) |\n\n- _Compri la gonna? – Sì, **la** compro._\n- _Vedi Marco? – Sì, **lo** vedo._\n- _Prendi i pomodori? – Sì, **li** prendo._ · _Le mele? – **Le** prendo io._\n- Davanti a vocale: **l’**: _L’aspetto._ · Negazione: _Non **lo** vedo._",
+   "ruleHelp": "Direkte Objektpronomen ersetzen ein **direktes Objekt** (wen? was?) und stehen **vor dem Verb**: mi, ti, lo, la, ci, vi, li, le.\n_Compri la gonna? – Sì, la compro._ · Vor Vokal: _l’_ (L’aspetto). · Verneinung: _Non lo vedo._",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli il pronome giusto.",
+    "explanation": "il → lo, la → la, i → li, le → le.",
+    "promptHelp": "Wähle das richtige Pronomen.",
+    "explanationHelp": "il → lo, la → la, i → li, le → le.",
+    "text": "Compri il pane? – Sì, [[g1]] compro.\nPrendi la pizza? – Sì, [[g2]] prendo.\nMangi i biscotti? – Sì, [[g3]] mangio.\nVuoi le mele? – Sì, [[g4]] voglio.\nVedi Marco? – Sì, [[g5]] vedo.\nConosci Giulia? – Sì, [[g6]] conosco.\nInviti i tuoi amici? – Sì, [[g7]] invito.\nPorti le scarpe nuove? – Sì, [[g8]] porto.\nBevi il latte? – No, non [[g9]] bevo.\nPrendi la giacca? – No, non [[g10]] prendo.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "lo",
+       "la",
+       "li"
+      ],
+      "answer": "lo"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "la",
+       "lo",
+       "le"
+      ],
+      "answer": "la"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "li",
+       "le",
+       "lo"
+      ],
+      "answer": "li"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "le",
+       "li",
+       "la"
+      ],
+      "answer": "le"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "lo",
+       "la",
+       "li"
+      ],
+      "answer": "lo"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "la",
+       "lo",
+       "le"
+      ],
+      "answer": "la"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "li",
+       "le",
+       "lo"
+      ],
+      "answer": "li"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "le",
+       "li",
+       "la"
+      ],
+      "answer": "le"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "lo",
+       "la",
+       "li"
+      ],
+      "answer": "lo"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "la",
+       "lo",
+       "le"
+      ],
+      "answer": "la"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pronomi-diretti-l2",
+  "title": "Che cosa sostituisce?",
+  "language": "it",
+  "level": "A1",
+  "description": "I pronomi diretti (lo, la, li, le …) · Che cosa sostituisce? · livello facile.",
+  "topics": [
+   "I pronomi diretti (lo, la, li, le …)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte direkte Objektpronomen"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-pronomi-diretti",
+   "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "I pronomi diretti sostituiscono un **oggetto diretto** (chi? che cosa?) e vanno **prima del verbo**:\n| mi | ti | lo | la | ci | vi | li | le |\n| mich | dich | ihn / es | sie / es | uns | euch | sie (m.) | sie (f.) |\n\n- _Compri la gonna? – Sì, **la** compro._\n- _Vedi Marco? – Sì, **lo** vedo._\n- _Prendi i pomodori? – Sì, **li** prendo._ · _Le mele? – **Le** prendo io._\n- Davanti a vocale: **l’**: _L’aspetto._ · Negazione: _Non **lo** vedo._",
+   "ruleHelp": "Direkte Objektpronomen ersetzen ein **direktes Objekt** (wen? was?) und stehen **vor dem Verb**: mi, ti, lo, la, ci, vi, li, le.\n_Compri la gonna? – Sì, la compro._ · Vor Vokal: _l’_ (L’aspetto). · Verneinung: _Non lo vedo._",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Che cosa sostituisce il pronome?",
+    "explanation": "",
+    "promptHelp": "Was ersetzt das Pronomen?",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Lo compro.",
+      "right": "il formaggio"
+     },
+     {
+      "id": "p2",
+      "left": "La compro.",
+      "right": "la mozzarella"
+     },
+     {
+      "id": "p3",
+      "left": "Li compro.",
+      "right": "i pomodori"
+     },
+     {
+      "id": "p4",
+      "left": "Le compro.",
+      "right": "le uova"
+     },
+     {
+      "id": "p5",
+      "left": "Ti chiamo.",
+      "right": "te"
+     },
+     {
+      "id": "p6",
+      "left": "Vi aspetto.",
+      "right": "voi"
+     },
+     {
+      "id": "p7",
+      "left": "Mi vedi?",
+      "right": "me"
+     },
+     {
+      "id": "p8",
+      "left": "Ci invitate?",
+      "right": "noi"
+     }
+    ],
+    "distractors": [
+     "le mele e i pomodori"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pronomi-diretti-l3",
+  "title": "Pronome giusto",
+  "language": "it",
+  "level": "A1",
+  "description": "I pronomi diretti (lo, la, li, le …) · Pronome giusto · livello facile.",
+  "topics": [
+   "I pronomi diretti (lo, la, li, le …)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte direkte Objektpronomen"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-pronomi-diretti",
+   "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "I pronomi diretti sostituiscono un **oggetto diretto** (chi? che cosa?) e vanno **prima del verbo**:\n| mi | ti | lo | la | ci | vi | li | le |\n| mich | dich | ihn / es | sie / es | uns | euch | sie (m.) | sie (f.) |\n\n- _Compri la gonna? – Sì, **la** compro._\n- _Vedi Marco? – Sì, **lo** vedo._\n- _Prendi i pomodori? – Sì, **li** prendo._ · _Le mele? – **Le** prendo io._\n- Davanti a vocale: **l’**: _L’aspetto._ · Negazione: _Non **lo** vedo._",
+   "ruleHelp": "Direkte Objektpronomen ersetzen ein **direktes Objekt** (wen? was?) und stehen **vor dem Verb**: mi, ti, lo, la, ci, vi, li, le.\n_Compri la gonna? – Sì, la compro._ · Vor Vokal: _l’_ (L’aspetto). · Verneinung: _Non lo vedo._",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Quale pronome? Metti le parole nel gruppo giusto.",
+    "explanation": "",
+    "promptHelp": "Welches Pronomen? Ordne zu.",
+    "categories": [
+     {
+      "id": "lo",
+      "label": "lo"
+     },
+     {
+      "id": "la",
+      "label": "la"
+     },
+     {
+      "id": "li",
+      "label": "li"
+     },
+     {
+      "id": "le",
+      "label": "le"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "il pane",
+      "category": "lo"
+     },
+     {
+      "id": "i2",
+      "text": "il formaggio",
+      "category": "lo"
+     },
+     {
+      "id": "i3",
+      "text": "lo zaino",
+      "category": "lo"
+     },
+     {
+      "id": "i4",
+      "text": "la pasta",
+      "category": "la"
+     },
+     {
+      "id": "i5",
+      "text": "la gonna",
+      "category": "la"
+     },
+     {
+      "id": "i6",
+      "text": "i biscotti",
+      "category": "li"
+     },
+     {
+      "id": "i7",
+      "text": "i jeans",
+      "category": "li"
+     },
+     {
+      "id": "i8",
+      "text": "le mele",
+      "category": "le"
+     },
+     {
+      "id": "i9",
+      "text": "le scarpe",
+      "category": "le"
+     },
+     {
+      "id": "i10",
+      "text": "la frutta",
+      "category": "la"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pronomi-diretti-m1",
+  "title": "La lista della spesa",
+  "language": "it",
+  "level": "A1",
+  "description": "I pronomi diretti (lo, la, li, le …) · La lista della spesa · livello medio.",
+  "topics": [
+   "I pronomi diretti (lo, la, li, le …)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte direkte Objektpronomen"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-pronomi-diretti",
+   "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "I pronomi diretti sostituiscono un **oggetto diretto** (chi? che cosa?) e vanno **prima del verbo**:\n| mi | ti | lo | la | ci | vi | li | le |\n| mich | dich | ihn / es | sie / es | uns | euch | sie (m.) | sie (f.) |\n\n- _Compri la gonna? – Sì, **la** compro._\n- _Vedi Marco? – Sì, **lo** vedo._\n- _Prendi i pomodori? – Sì, **li** prendo._ · _Le mele? – **Le** prendo io._\n- Davanti a vocale: **l’**: _L’aspetto._ · Negazione: _Non **lo** vedo._",
+   "ruleHelp": "Direkte Objektpronomen ersetzen ein **direktes Objekt** (wen? was?) und stehen **vor dem Verb**: mi, ti, lo, la, ci, vi, li, le.\n_Compri la gonna? – Sì, la compro._ · Vor Vokal: _l’_ (L’aspetto). · Verneinung: _Non lo vedo._",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi il pronome diretto.",
+    "explanation": "Il pronome va prima del verbo; con non: non lo trovo.",
+    "promptHelp": "Ergänze das direkte Objektpronomen.",
+    "explanationHelp": "Das Pronomen steht vor dem Verb; mit non: non lo trovo.",
+    "text": "– Il pane? – [[g1]] compro io.\n– E la mozzarella? – [[g2]] prende Marco.\n– I pomodori? – [[g3]] porto dal mercato.\n– E le uova? – [[g4]] ho già in frigo.\n– Il basilico? – Non [[g5]] trovo!\n– La frutta? – [[g6]] compriamo dopo.\n– E i biscotti? – [[g7]] mangiamo stasera!\n– Le banane? – Non [[g8]] voglio, grazie.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Lo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "La"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Li"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Le"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "lo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "La"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Li"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "le"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pronomi-diretti-m2",
+  "title": "Rispondi con il pronome",
+  "language": "it",
+  "level": "A1",
+  "description": "I pronomi diretti (lo, la, li, le …) · Rispondi con il pronome · livello medio.",
+  "topics": [
+   "I pronomi diretti (lo, la, li, le …)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte direkte Objektpronomen"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-pronomi-diretti",
+   "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "I pronomi diretti sostituiscono un **oggetto diretto** (chi? che cosa?) e vanno **prima del verbo**:\n| mi | ti | lo | la | ci | vi | li | le |\n| mich | dich | ihn / es | sie / es | uns | euch | sie (m.) | sie (f.) |\n\n- _Compri la gonna? – Sì, **la** compro._\n- _Vedi Marco? – Sì, **lo** vedo._\n- _Prendi i pomodori? – Sì, **li** prendo._ · _Le mele? – **Le** prendo io._\n- Davanti a vocale: **l’**: _L’aspetto._ · Negazione: _Non **lo** vedo._",
+   "ruleHelp": "Direkte Objektpronomen ersetzen ein **direktes Objekt** (wen? was?) und stehen **vor dem Verb**: mi, ti, lo, la, ci, vi, li, le.\n_Compri la gonna? – Sì, la compro._ · Vor Vokal: _l’_ (L’aspetto). · Verneinung: _Non lo vedo._",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Rispondi con il pronome diretto.",
+    "explanation": "la + aspetto → l’aspetto (davanti a vocale).",
+    "promptHelp": "Antworte mit dem direkten Objektpronomen.",
+    "explanationHelp": "Vor Vokal wird lo/la zu l’.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Compri la maglietta? – Sì, …",
+      "acceptedAnswers": [
+       "la compro"
+      ],
+      "modelAnswer": "Sì, la compro."
+     },
+     {
+      "id": "s2",
+      "start": "Prendi i jeans? – Sì, …",
+      "acceptedAnswers": [
+       "li prendo"
+      ],
+      "modelAnswer": "Sì, li prendo."
+     },
+     {
+      "id": "s3",
+      "start": "Provi le scarpe? – Sì, …",
+      "acceptedAnswers": [
+       "le provo"
+      ],
+      "modelAnswer": "Sì, le provo."
+     },
+     {
+      "id": "s4",
+      "start": "Vedi il cappello? – No, …",
+      "acceptedAnswers": [
+       "non lo vedo"
+      ],
+      "modelAnswer": "No, non lo vedo."
+     },
+     {
+      "id": "s5",
+      "start": "Aspetti Sara? – Sì, …",
+      "acceptedAnswers": [
+       "la aspetto",
+       "l’aspetto"
+      ],
+      "modelAnswer": "Sì, l’aspetto."
+     },
+     {
+      "id": "s6",
+      "start": "Chiami i nonni? – Sì, …",
+      "acceptedAnswers": [
+       "li chiamo"
+      ],
+      "modelAnswer": "Sì, li chiamo."
+     },
+     {
+      "id": "s7",
+      "start": "Mangi la pasta? – No, …",
+      "acceptedAnswers": [
+       "non la mangio"
+      ],
+      "modelAnswer": "No, non la mangio."
+     },
+     {
+      "id": "s8",
+      "start": "Inviti le tue amiche? – Sì, …",
+      "acceptedAnswers": [
+       "le invito"
+      ],
+      "modelAnswer": "Sì, le invito."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pronomi-diretti-m3",
+  "title": "Mi, ti, ci, vi",
+  "language": "it",
+  "level": "A1",
+  "description": "I pronomi diretti (lo, la, li, le …) · Mi, ti, ci, vi · livello medio.",
+  "topics": [
+   "I pronomi diretti (lo, la, li, le …)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte direkte Objektpronomen"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-pronomi-diretti",
+   "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "I pronomi diretti sostituiscono un **oggetto diretto** (chi? che cosa?) e vanno **prima del verbo**:\n| mi | ti | lo | la | ci | vi | li | le |\n| mich | dich | ihn / es | sie / es | uns | euch | sie (m.) | sie (f.) |\n\n- _Compri la gonna? – Sì, **la** compro._\n- _Vedi Marco? – Sì, **lo** vedo._\n- _Prendi i pomodori? – Sì, **li** prendo._ · _Le mele? – **Le** prendo io._\n- Davanti a vocale: **l’**: _L’aspetto._ · Negazione: _Non **lo** vedo._",
+   "ruleHelp": "Direkte Objektpronomen ersetzen ein **direktes Objekt** (wen? was?) und stehen **vor dem Verb**: mi, ti, lo, la, ci, vi, li, le.\n_Compri la gonna? – Sì, la compro._ · Vor Vokal: _l’_ (L’aspetto). · Verneinung: _Non lo vedo._",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli il pronome.",
+    "explanation": "",
+    "promptHelp": "Wähle das Pronomen.",
+    "text": "Mamma, [[g1]] aiuti con i compiti?\nCiao Luca, [[g2]] chiamo stasera!\nRagazzi, [[g3]] aspettiamo in piazza.\nI nonni [[g4]] invitano a pranzo. (noi)\nSara, [[g5]] vedo domani?\nProf, [[g6]] aiuta con l’esercizio? (noi)\nPaolo [[g7]] saluta sempre. (me)\nIo e Marco [[g8]] portiamo al cinema. (voi)",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "mi",
+       "ti",
+       "ci"
+      ],
+      "answer": "mi"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "ti",
+       "mi",
+       "vi"
+      ],
+      "answer": "ti"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "vi",
+       "ci",
+       "li"
+      ],
+      "answer": "vi"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "ci",
+       "vi",
+       "li"
+      ],
+      "answer": "ci"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "ti",
+       "la",
+       "mi"
+      ],
+      "answer": "ti"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "ci",
+       "vi",
+       "li"
+      ],
+      "answer": "ci"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "mi",
+       "ti",
+       "lo"
+      ],
+      "answer": "mi"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "vi",
+       "ci",
+       "li"
+      ],
+      "answer": "vi"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pronomi-diretti-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "I pronomi diretti (lo, la, li, le …) · Trova gli errori · livello difficile.",
+  "topics": [
+   "I pronomi diretti (lo, la, li, le …)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte direkte Objektpronomen"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-pronomi-diretti",
+   "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "I pronomi diretti sostituiscono un **oggetto diretto** (chi? che cosa?) e vanno **prima del verbo**:\n| mi | ti | lo | la | ci | vi | li | le |\n| mich | dich | ihn / es | sie / es | uns | euch | sie (m.) | sie (f.) |\n\n- _Compri la gonna? – Sì, **la** compro._\n- _Vedi Marco? – Sì, **lo** vedo._\n- _Prendi i pomodori? – Sì, **li** prendo._ · _Le mele? – **Le** prendo io._\n- Davanti a vocale: **l’**: _L’aspetto._ · Negazione: _Non **lo** vedo._",
+   "ruleHelp": "Direkte Objektpronomen ersetzen ein **direktes Objekt** (wen? was?) und stehen **vor dem Verb**: mi, ti, lo, la, ci, vi, li, le.\n_Compri la gonna? – Sì, la compro._ · Vor Vokal: _l’_ (L’aspetto). · Verneinung: _Non lo vedo._",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi i pronomi sbagliati.",
+    "explanation": "",
+    "promptHelp": "Korrigiere die falschen Pronomen.",
+    "text": "Il formaggio? [[g1]] compro io.\nLe scarpe? [[g2]] provo subito.\nI biscotti? [[g3]] mangiamo tutti.\nLa gonna? Non [[g4]] voglio.\nMarco? [[g5]] vedo domani.\nLe amiche? [[g6]] invito sabato.\nIl latte? Non [[g7]] bevo.\nI pantaloni? [[g8]] prendo blu.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "La",
+      "acceptedAnswers": [
+       "Lo"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "Li",
+      "acceptedAnswers": [
+       "Le"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "Lo",
+      "acceptedAnswers": [
+       "Li"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "lo",
+      "acceptedAnswers": [
+       "la"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "Li",
+      "acceptedAnswers": [
+       "Lo"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "Lo",
+      "acceptedAnswers": [
+       "Le"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "li",
+      "acceptedAnswers": [
+       "lo"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "Le",
+      "acceptedAnswers": [
+       "Li"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pronomi-diretti-s2",
+  "title": "Dal nome al pronome",
+  "language": "it",
+  "level": "A1",
+  "description": "I pronomi diretti (lo, la, li, le …) · Dal nome al pronome · livello difficile.",
+  "topics": [
+   "I pronomi diretti (lo, la, li, le …)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte direkte Objektpronomen"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-pronomi-diretti",
+   "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "I pronomi diretti sostituiscono un **oggetto diretto** (chi? che cosa?) e vanno **prima del verbo**:\n| mi | ti | lo | la | ci | vi | li | le |\n| mich | dich | ihn / es | sie / es | uns | euch | sie (m.) | sie (f.) |\n\n- _Compri la gonna? – Sì, **la** compro._\n- _Vedi Marco? – Sì, **lo** vedo._\n- _Prendi i pomodori? – Sì, **li** prendo._ · _Le mele? – **Le** prendo io._\n- Davanti a vocale: **l’**: _L’aspetto._ · Negazione: _Non **lo** vedo._",
+   "ruleHelp": "Direkte Objektpronomen ersetzen ein **direktes Objekt** (wen? was?) und stehen **vor dem Verb**: mi, ti, lo, la, ci, vi, li, le.\n_Compri la gonna? – Sì, la compro._ · Vor Vokal: _l’_ (L’aspetto). · Verneinung: _Non lo vedo._",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Riscrivi la frase con il pronome.",
+    "explanation": "Il pronome va prima del verbo coniugato.",
+    "promptHelp": "Schreibe den Satz mit Pronomen.",
+    "explanationHelp": "Das Pronomen steht vor dem konjugierten Verb.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Compro il pane. → …",
+      "acceptedAnswers": [
+       "Lo compro"
+      ],
+      "modelAnswer": "Lo compro."
+     },
+     {
+      "id": "s2",
+      "start": "Prendo la mozzarella. → …",
+      "acceptedAnswers": [
+       "La prendo"
+      ],
+      "modelAnswer": "La prendo."
+     },
+     {
+      "id": "s3",
+      "start": "Mangiamo i biscotti. → …",
+      "acceptedAnswers": [
+       "Li mangiamo"
+      ],
+      "modelAnswer": "Li mangiamo."
+     },
+     {
+      "id": "s4",
+      "start": "Prova le scarpe! (Lei: prova) → …",
+      "acceptedAnswers": [
+       "Le prova"
+      ],
+      "modelAnswer": "Le prova."
+     },
+     {
+      "id": "s5",
+      "start": "Non vedo Marco. → …",
+      "acceptedAnswers": [
+       "Non lo vedo"
+      ],
+      "modelAnswer": "Non lo vedo."
+     },
+     {
+      "id": "s6",
+      "start": "Chiamiamo le nonne. → …",
+      "acceptedAnswers": [
+       "Le chiamiamo"
+      ],
+      "modelAnswer": "Le chiamiamo."
+     },
+     {
+      "id": "s7",
+      "start": "Aspetto Giulia. → …",
+      "acceptedAnswers": [
+       "La aspetto",
+       "L’aspetto"
+      ],
+      "modelAnswer": "L’aspetto."
+     },
+     {
+      "id": "s8",
+      "start": "Invitate i vostri amici? → …",
+      "acceptedAnswers": [
+       "Li invitate"
+      ],
+      "modelAnswer": "Li invitate?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pronomi-diretti-s3",
+  "title": "Prepariamo la cena",
+  "language": "it",
+  "level": "A1",
+  "description": "I pronomi diretti (lo, la, li, le …) · Prepariamo la cena · livello difficile.",
+  "topics": [
+   "I pronomi diretti (lo, la, li, le …)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte direkte Objektpronomen"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco1-pronomi-diretti",
+   "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "I pronomi diretti sostituiscono un **oggetto diretto** (chi? che cosa?) e vanno **prima del verbo**:\n| mi | ti | lo | la | ci | vi | li | le |\n| mich | dich | ihn / es | sie / es | uns | euch | sie (m.) | sie (f.) |\n\n- _Compri la gonna? – Sì, **la** compro._\n- _Vedi Marco? – Sì, **lo** vedo._\n- _Prendi i pomodori? – Sì, **li** prendo._ · _Le mele? – **Le** prendo io._\n- Davanti a vocale: **l’**: _L’aspetto._ · Negazione: _Non **lo** vedo._",
+   "ruleHelp": "Direkte Objektpronomen ersetzen ein **direktes Objekt** (wen? was?) und stehen **vor dem Verb**: mi, ti, lo, la, ci, vi, li, le.\n_Compri la gonna? – Sì, la compro._ · Vor Vokal: _l’_ (L’aspetto). · Verneinung: _Non lo vedo._",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi il pronome diretto giusto.",
+    "explanation": "",
+    "promptHelp": "Ergänze das richtige Pronomen.",
+    "text": "Mamma: Allora, la pasta [[g1]] prepara Luca.\nLuca: Va bene, ma il sugo chi [[g2]] fa?\nMamma: [[g3]] faccio io. E tu, Sara, compri le uova?\nSara: Sì, [[g4]] compro al negozio sotto casa.\nPapà: E i pomodori? Chi [[g5]] taglia?\nLuca: [[g6]] taglio io! E il basilico? Dov’è?\nMamma: Non [[g7]] vedi? È sul tavolo!\nPapà: E i nonni? [[g8]] chiamiamo per la cena?\nSara: Sì, [[g9]] chiamo adesso!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "la"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "lo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Lo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "li"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Li"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "lo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Li"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "li"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pronomi-indiretti-2-l1",
+  "title": "Indiretto: quale pronome?",
+  "language": "it",
+  "level": "A1",
+  "description": "Pronomi indiretti e pronomi tonici · Indiretto: quale pronome? · livello facile.",
+  "topics": [
+   "Pronomi indiretti e pronomi tonici",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte indirekte und betonte Objektpronomen"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-pronomi-indiretti-2",
+   "topicTitle": "Pronomi indiretti e pronomi tonici",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Pronomi indiretti** (a chi?) prima del verbo:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n_Gli preparo la cena. · Le piace il rosso. · Ci manca la pizza._\n\n**Pronomi tonici** dopo una preposizione o per sottolineare:\n| me | te | lui | lei | Lei | noi | voi | loro |\n_Vieni **con me**? · Questo è **per te**. · **A me** piace, **a lui** no._",
+   "ruleHelp": "**Indirekte Pronomen** (wem?) stehen vor dem Verb: mi, ti, gli, le, Le, ci, vi, gli. _Gli preparo la cena. Le piace il rosso._\n**Betonte Pronomen** nach Präpositionen oder zur Betonung: me, te, lui, lei, Lei, noi, voi, loro: _con me, per te, a me piace, a lui no._",
+   "order": 61
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli il pronome indiretto.",
+    "explanation": "a lui → gli, a lei → le, a Lei → Le, a loro → gli.",
+    "promptHelp": "Wähle das indirekte Pronomen.",
+    "explanationHelp": "a lui → gli, a lei → le, a Lei → Le, a loro → gli.",
+    "text": "Marco ha fame: [[g1]] preparo un panino.\nAnna ha freddo: [[g2]] do la mia giacca.\nRagazzi, [[g3]] piace la pizza?\nMamma, [[g4]] compri un gelato?\nAi nonni [[g5]] porto i fiori.\nSignora, [[g6]] piace questo vestito?\nLuca, [[g7]] sta bene quella felpa!\nA noi [[g8]] manca l’Italia.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "gli",
+       "le",
+       "vi"
+      ],
+      "answer": "gli"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "le",
+       "gli",
+       "ci"
+      ],
+      "answer": "le"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "vi",
+       "ci",
+       "gli"
+      ],
+      "answer": "vi"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "mi",
+       "ti",
+       "le"
+      ],
+      "answer": "mi"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "gli",
+       "le",
+       "ci"
+      ],
+      "answer": "gli"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Le",
+       "gli",
+       "ti"
+      ],
+      "answer": "Le"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "ti",
+       "mi",
+       "vi"
+      ],
+      "answer": "ti"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "ci",
+       "vi",
+       "gli"
+      ],
+      "answer": "ci"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pronomi-indiretti-2-l2",
+  "title": "Pronome tonico",
+  "language": "it",
+  "level": "A1",
+  "description": "Pronomi indiretti e pronomi tonici · Pronome tonico · livello facile.",
+  "topics": [
+   "Pronomi indiretti e pronomi tonici",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte indirekte und betonte Objektpronomen"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-pronomi-indiretti-2",
+   "topicTitle": "Pronomi indiretti e pronomi tonici",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Pronomi indiretti** (a chi?) prima del verbo:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n_Gli preparo la cena. · Le piace il rosso. · Ci manca la pizza._\n\n**Pronomi tonici** dopo una preposizione o per sottolineare:\n| me | te | lui | lei | Lei | noi | voi | loro |\n_Vieni **con me**? · Questo è **per te**. · **A me** piace, **a lui** no._",
+   "ruleHelp": "**Indirekte Pronomen** (wem?) stehen vor dem Verb: mi, ti, gli, le, Le, ci, vi, gli. _Gli preparo la cena. Le piace il rosso._\n**Betonte Pronomen** nach Präpositionen oder zur Betonung: me, te, lui, lei, Lei, noi, voi, loro: _con me, per te, a me piace, a lui no._",
+   "order": 62
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli il pronome tonico.",
+    "explanation": "Dopo con, per, senza, di, a → me, te, lui, lei, noi, voi, loro.",
+    "promptHelp": "Wähle das betonte Pronomen.",
+    "explanationHelp": "Nach Präpositionen: betonte Pronomen.",
+    "text": "Vieni al cinema con [[g1]]?\nQuesto regalo è per [[g2]].\nEsco con [[g3]] stasera.\nAbito vicino a [[g4]].\nSenza di [[g5]] non vado!\nParlo di [[g6]].\nQuesta torta è per [[g7]].\nA [[g8]] piace il blu, a [[g9]] piace il rosso.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "me",
+       "mi",
+       "io"
+      ],
+      "answer": "me"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "te",
+       "ti",
+       "tu"
+      ],
+      "answer": "te"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "lui",
+       "gli",
+       "lo"
+      ],
+      "answer": "lui"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "loro",
+       "gli",
+       "li"
+      ],
+      "answer": "loro"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "te",
+       "ti",
+       "tu"
+      ],
+      "answer": "te"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "lei",
+       "le",
+       "la"
+      ],
+      "answer": "lei"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "noi",
+       "ci",
+       "nostri"
+      ],
+      "answer": "noi"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "me",
+       "mi",
+       "io"
+      ],
+      "answer": "me"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "lui",
+       "gli",
+       "lo"
+      ],
+      "answer": "lui"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pronomi-indiretti-2-l3",
+  "title": "Indiretto o tonico?",
+  "language": "it",
+  "level": "A1",
+  "description": "Pronomi indiretti e pronomi tonici · Indiretto o tonico? · livello facile.",
+  "topics": [
+   "Pronomi indiretti e pronomi tonici",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte indirekte und betonte Objektpronomen"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-pronomi-indiretti-2",
+   "topicTitle": "Pronomi indiretti e pronomi tonici",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Pronomi indiretti** (a chi?) prima del verbo:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n_Gli preparo la cena. · Le piace il rosso. · Ci manca la pizza._\n\n**Pronomi tonici** dopo una preposizione o per sottolineare:\n| me | te | lui | lei | Lei | noi | voi | loro |\n_Vieni **con me**? · Questo è **per te**. · **A me** piace, **a lui** no._",
+   "ruleHelp": "**Indirekte Pronomen** (wem?) stehen vor dem Verb: mi, ti, gli, le, Le, ci, vi, gli. _Gli preparo la cena. Le piace il rosso._\n**Betonte Pronomen** nach Präpositionen oder zur Betonung: me, te, lui, lei, Lei, noi, voi, loro: _con me, per te, a me piace, a lui no._",
+   "order": 63
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "È un pronome indiretto (prima del verbo) o tonico (dopo una preposizione)?",
+    "explanation": "",
+    "promptHelp": "Unbetont (vor dem Verb) oder betont (nach Präposition)?",
+    "categories": [
+     {
+      "id": "ind",
+      "label": "indiretto"
+     },
+     {
+      "id": "ton",
+      "label": "tonico"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "gli",
+      "category": "ind"
+     },
+     {
+      "id": "i2",
+      "text": "le",
+      "category": "ind"
+     },
+     {
+      "id": "i3",
+      "text": "mi",
+      "category": "ind"
+     },
+     {
+      "id": "i4",
+      "text": "ci",
+      "category": "ind"
+     },
+     {
+      "id": "i5",
+      "text": "vi",
+      "category": "ind"
+     },
+     {
+      "id": "i6",
+      "text": "me",
+      "category": "ton"
+     },
+     {
+      "id": "i7",
+      "text": "te",
+      "category": "ton"
+     },
+     {
+      "id": "i8",
+      "text": "lui",
+      "category": "ton"
+     },
+     {
+      "id": "i9",
+      "text": "lei",
+      "category": "ton"
+     },
+     {
+      "id": "i10",
+      "text": "loro",
+      "category": "ton"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pronomi-indiretti-2-m1",
+  "title": "Che cosa regali?",
+  "language": "it",
+  "level": "A1",
+  "description": "Pronomi indiretti e pronomi tonici · Che cosa regali? · livello medio.",
+  "topics": [
+   "Pronomi indiretti e pronomi tonici",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte indirekte und betonte Objektpronomen"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-pronomi-indiretti-2",
+   "topicTitle": "Pronomi indiretti e pronomi tonici",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Pronomi indiretti** (a chi?) prima del verbo:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n_Gli preparo la cena. · Le piace il rosso. · Ci manca la pizza._\n\n**Pronomi tonici** dopo una preposizione o per sottolineare:\n| me | te | lui | lei | Lei | noi | voi | loro |\n_Vieni **con me**? · Questo è **per te**. · **A me** piace, **a lui** no._",
+   "ruleHelp": "**Indirekte Pronomen** (wem?) stehen vor dem Verb: mi, ti, gli, le, Le, ci, vi, gli. _Gli preparo la cena. Le piace il rosso._\n**Betonte Pronomen** nach Präpositionen oder zur Betonung: me, te, lui, lei, Lei, noi, voi, loro: _con me, per te, a me piace, a lui no._",
+   "order": 61
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi il pronome indiretto.",
+    "explanation": "",
+    "promptHelp": "Ergänze das indirekte Pronomen.",
+    "text": "Mio fratello ama il calcio: [[g1]] regalo un pallone.\nMia madre ama i fiori: [[g2]] regalo una pianta.\nAi miei amici piace la musica: [[g3]] regalo un biglietto per il concerto.\nE a te? Che cosa [[g4]] regalo?\nSignora, [[g5]] posso dare un consiglio?\nRagazzi, [[g6]] regalo dei biscotti.\nLa nonna [[g7]] regala sempre i soldi. (a noi)\nE a me? Nessuno [[g8]] regala niente!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "gli"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "gli"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ti"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Le"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "vi"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ci"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "mi"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pronomi-indiretti-2-m2",
+  "title": "Con chi?",
+  "language": "it",
+  "level": "A1",
+  "description": "Pronomi indiretti e pronomi tonici · Con chi? · livello medio.",
+  "topics": [
+   "Pronomi indiretti e pronomi tonici",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte indirekte und betonte Objektpronomen"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-pronomi-indiretti-2",
+   "topicTitle": "Pronomi indiretti e pronomi tonici",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Pronomi indiretti** (a chi?) prima del verbo:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n_Gli preparo la cena. · Le piace il rosso. · Ci manca la pizza._\n\n**Pronomi tonici** dopo una preposizione o per sottolineare:\n| me | te | lui | lei | Lei | noi | voi | loro |\n_Vieni **con me**? · Questo è **per te**. · **A me** piace, **a lui** no._",
+   "ruleHelp": "**Indirekte Pronomen** (wem?) stehen vor dem Verb: mi, ti, gli, le, Le, ci, vi, gli. _Gli preparo la cena. Le piace il rosso._\n**Betonte Pronomen** nach Präpositionen oder zur Betonung: me, te, lui, lei, Lei, noi, voi, loro: _con me, per te, a me piace, a lui no._",
+   "order": 62
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi il pronome tonico.",
+    "explanation": "con, per, di, a, senza + me, te, lui, lei, Lei, noi, voi, loro.",
+    "promptHelp": "Ergänze das betonte Pronomen.",
+    "explanationHelp": "Nach Präpositionen: me, te, lui, lei, Lei, noi, voi, loro.",
+    "text": "Marco viene al mare con [[g1]]. (wir)\nQuesto pacco è per [[g2]]. (du)\nMia sorella? Esco sempre con [[g3]].\nI nonni? Abitiamo vicino a [[g4]].\nPaolo? Parliamo spesso di [[g5]].\nSenza di [[g6]] non partite! (ich)\nSignora, questa lettera è per [[g7]].\nRagazzi, vengo con [[g8]]!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "noi"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "te"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "lei"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "loro"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "lui"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "me"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Lei"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "voi"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pronomi-indiretti-2-m3",
+  "title": "A me sì, a te no",
+  "language": "it",
+  "level": "A1",
+  "description": "Pronomi indiretti e pronomi tonici · A me sì, a te no · livello medio.",
+  "topics": [
+   "Pronomi indiretti e pronomi tonici",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte indirekte und betonte Objektpronomen"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-pronomi-indiretti-2",
+   "topicTitle": "Pronomi indiretti e pronomi tonici",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Pronomi indiretti** (a chi?) prima del verbo:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n_Gli preparo la cena. · Le piace il rosso. · Ci manca la pizza._\n\n**Pronomi tonici** dopo una preposizione o per sottolineare:\n| me | te | lui | lei | Lei | noi | voi | loro |\n_Vieni **con me**? · Questo è **per te**. · **A me** piace, **a lui** no._",
+   "ruleHelp": "**Indirekte Pronomen** (wem?) stehen vor dem Verb: mi, ti, gli, le, Le, ci, vi, gli. _Gli preparo la cena. Le piace il rosso._\n**Betonte Pronomen** nach Präpositionen oder zur Betonung: me, te, lui, lei, Lei, noi, voi, loro: _con me, per te, a me piace, a lui no._",
+   "order": 63
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Completa con il pronome tonico, come nell’esempio: A me piace il rosso, a lui (no) …",
+    "explanation": "Per sottolineare o fare un contrasto: a me, a te, a lui …",
+    "promptHelp": "Ergänze wie im Beispiel.",
+    "explanationHelp": "Zur Betonung oder für einen Gegensatz.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "A me piace il rosso, a lui (no) …",
+      "acceptedAnswers": [
+       "a lui no"
+      ],
+      "modelAnswer": "A me piace il rosso, a lui no."
+     },
+     {
+      "id": "s2",
+      "start": "A Sara piacciono i gatti, a me (anche) …",
+      "acceptedAnswers": [
+       "anche a me"
+      ],
+      "modelAnswer": "Anche a me."
+     },
+     {
+      "id": "s3",
+      "start": "A noi piace la pasta, a voi (no?) …",
+      "acceptedAnswers": [
+       "a voi no"
+      ],
+      "modelAnswer": "A voi no?"
+     },
+     {
+      "id": "s4",
+      "start": "A te piace il caffè? A me (no) …",
+      "acceptedAnswers": [
+       "a me no"
+      ],
+      "modelAnswer": "A me no."
+     },
+     {
+      "id": "s5",
+      "start": "A loro piace il mare, a noi (la montagna) …",
+      "acceptedAnswers": [
+       "a noi la montagna"
+      ],
+      "modelAnswer": "A noi la montagna."
+     },
+     {
+      "id": "s6",
+      "start": "A lei piacciono i gialli, a lui (i fumetti) …",
+      "acceptedAnswers": [
+       "a lui i fumetti"
+      ],
+      "modelAnswer": "A lui i fumetti."
+     },
+     {
+      "id": "s7",
+      "start": "A voi piace ballare? A noi (sì) …",
+      "acceptedAnswers": [
+       "a noi sì"
+      ],
+      "modelAnswer": "A noi sì!"
+     },
+     {
+      "id": "s8",
+      "start": "A me piacciono i cani, a te (i gatti) …",
+      "acceptedAnswers": [
+       "a te i gatti"
+      ],
+      "modelAnswer": "A te i gatti."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pronomi-indiretti-2-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "Pronomi indiretti e pronomi tonici · Trova gli errori · livello difficile.",
+  "topics": [
+   "Pronomi indiretti e pronomi tonici",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte indirekte und betonte Objektpronomen"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-pronomi-indiretti-2",
+   "topicTitle": "Pronomi indiretti e pronomi tonici",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Pronomi indiretti** (a chi?) prima del verbo:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n_Gli preparo la cena. · Le piace il rosso. · Ci manca la pizza._\n\n**Pronomi tonici** dopo una preposizione o per sottolineare:\n| me | te | lui | lei | Lei | noi | voi | loro |\n_Vieni **con me**? · Questo è **per te**. · **A me** piace, **a lui** no._",
+   "ruleHelp": "**Indirekte Pronomen** (wem?) stehen vor dem Verb: mi, ti, gli, le, Le, ci, vi, gli. _Gli preparo la cena. Le piace il rosso._\n**Betonte Pronomen** nach Präpositionen oder zur Betonung: me, te, lui, lei, Lei, noi, voi, loro: _con me, per te, a me piace, a lui no._",
+   "order": 61
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi i pronomi sbagliati.",
+    "explanation": "Prima del verbo: mi, ti, gli, le … · dopo una preposizione: me, te, lui, lei, loro.",
+    "promptHelp": "Korrigiere die falschen Pronomen.",
+    "explanationHelp": "Vor dem Verb unbetont, nach Präposition betont.",
+    "text": "Esci con [[g1]]?\nA Marco? [[g2]] telefono stasera.\nQuesto è per [[g3]].\nSara ha fame, [[g4]] do un panino.\nVengo con [[g5]].\n[[g6]] piace molto questo vestito.\nAbitiamo vicino a [[g7]].\nSignora, [[g8]] piace il rosso?",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "mi",
+      "acceptedAnswers": [
+       "me"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "Le",
+      "acceptedAnswers": [
+       "Gli"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "ti",
+      "acceptedAnswers": [
+       "te"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "gli",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "tu",
+      "acceptedAnswers": [
+       "te"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "Me",
+      "acceptedAnswers": [
+       "Mi"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "gli",
+      "acceptedAnswers": [
+       "loro"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "ti",
+      "acceptedAnswers": [
+       "Le"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pronomi-indiretti-2-s2",
+  "title": "Un regalo per tutti",
+  "language": "it",
+  "level": "A1",
+  "description": "Pronomi indiretti e pronomi tonici · Un regalo per tutti · livello difficile.",
+  "topics": [
+   "Pronomi indiretti e pronomi tonici",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte indirekte und betonte Objektpronomen"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-pronomi-indiretti-2",
+   "topicTitle": "Pronomi indiretti e pronomi tonici",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Pronomi indiretti** (a chi?) prima del verbo:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n_Gli preparo la cena. · Le piace il rosso. · Ci manca la pizza._\n\n**Pronomi tonici** dopo una preposizione o per sottolineare:\n| me | te | lui | lei | Lei | noi | voi | loro |\n_Vieni **con me**? · Questo è **per te**. · **A me** piace, **a lui** no._",
+   "ruleHelp": "**Indirekte Pronomen** (wem?) stehen vor dem Verb: mi, ti, gli, le, Le, ci, vi, gli. _Gli preparo la cena. Le piace il rosso._\n**Betonte Pronomen** nach Präpositionen oder zur Betonung: me, te, lui, lei, Lei, noi, voi, loro: _con me, per te, a me piace, a lui no._",
+   "order": 62
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi i pronomi giusti (indiretti o tonici).",
+    "explanation": "",
+    "promptHelp": "Ergänze die richtigen Pronomen.",
+    "text": "Domani è Natale. A mio padre [[g1]] regalo una sciarpa.\nPer mia madre ho un libro: lo compro per [[g2]] in libreria.\nMia sorella? [[g3]] piacciono i braccialetti.\nE i nonni? Per [[g4]] faccio una torta.\nIl mio amico Leo viene con [[g5]] al mercatino.\n[[g6]] piace la musica: [[g7]] regalo un CD.\nE a me? Chi pensa a [[g8]]?",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "gli"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "lei"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Le"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "loro"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "me"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Gli"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "gli"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "me"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pronomi-indiretti-2-s3",
+  "title": "Dal nome al pronome",
+  "language": "it",
+  "level": "A1",
+  "description": "Pronomi indiretti e pronomi tonici · Dal nome al pronome · livello difficile.",
+  "topics": [
+   "Pronomi indiretti e pronomi tonici",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte indirekte und betonte Objektpronomen"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-pronomi-indiretti-2",
+   "topicTitle": "Pronomi indiretti e pronomi tonici",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Pronomi indiretti** (a chi?) prima del verbo:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n_Gli preparo la cena. · Le piace il rosso. · Ci manca la pizza._\n\n**Pronomi tonici** dopo una preposizione o per sottolineare:\n| me | te | lui | lei | Lei | noi | voi | loro |\n_Vieni **con me**? · Questo è **per te**. · **A me** piace, **a lui** no._",
+   "ruleHelp": "**Indirekte Pronomen** (wem?) stehen vor dem Verb: mi, ti, gli, le, Le, ci, vi, gli. _Gli preparo la cena. Le piace il rosso._\n**Betonte Pronomen** nach Präpositionen oder zur Betonung: me, te, lui, lei, Lei, noi, voi, loro: _con me, per te, a me piace, a lui no._",
+   "order": 63
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Riscrivi con il pronome indiretto.",
+    "explanation": "",
+    "promptHelp": "Schreibe mit indirektem Pronomen.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Preparo la cena a Marco. → …",
+      "acceptedAnswers": [
+       "Gli preparo la cena"
+      ],
+      "modelAnswer": "Gli preparo la cena."
+     },
+     {
+      "id": "s2",
+      "start": "Do il libro a Sara. → …",
+      "acceptedAnswers": [
+       "Le do il libro"
+      ],
+      "modelAnswer": "Le do il libro."
+     },
+     {
+      "id": "s3",
+      "start": "Telefono ai nonni. → …",
+      "acceptedAnswers": [
+       "Gli telefono",
+       "Telefono loro"
+      ],
+      "modelAnswer": "Gli telefono."
+     },
+     {
+      "id": "s4",
+      "start": "Scrivo una mail a te. → …",
+      "acceptedAnswers": [
+       "Ti scrivo una mail"
+      ],
+      "modelAnswer": "Ti scrivo una mail."
+     },
+     {
+      "id": "s5",
+      "start": "Il vestito piace a mia madre. → …",
+      "acceptedAnswers": [
+       "Le piace il vestito",
+       "Il vestito le piace"
+      ],
+      "modelAnswer": "Le piace il vestito."
+     },
+     {
+      "id": "s6",
+      "start": "Porto i fiori alla prof. → …",
+      "acceptedAnswers": [
+       "Le porto i fiori"
+      ],
+      "modelAnswer": "Le porto i fiori."
+     },
+     {
+      "id": "s7",
+      "start": "Rispondo a voi domani. → …",
+      "acceptedAnswers": [
+       "Vi rispondo domani"
+      ],
+      "modelAnswer": "Vi rispondo domani."
+     },
+     {
+      "id": "s8",
+      "start": "Il gelato piace a noi. → …",
+      "acceptedAnswers": [
+       "Ci piace il gelato",
+       "Il gelato ci piace"
+      ],
+      "modelAnswer": "Ci piace il gelato."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco1-quando-perche-l1",
   "title": "Quando o perché?",
   "language": "it",
@@ -77990,7 +83905,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Begründen mit perché; einfache Nebensätze"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -78117,7 +84033,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Begründen mit perché; einfache Nebensätze"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -78221,7 +84138,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Begründen mit perché; einfache Nebensätze"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -78356,7 +84274,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Begründen mit perché; einfache Nebensätze"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -78458,7 +84377,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Begründen mit perché; einfache Nebensätze"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -78573,7 +84493,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Begründen mit perché; einfache Nebensätze"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -78698,7 +84619,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Begründen mit perché; einfache Nebensätze"
   },
   "estimatedMinutes": 19,
   "grammar": {
@@ -78849,7 +84771,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Begründen mit perché; einfache Nebensätze"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -78967,7 +84890,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Begründen mit perché; einfache Nebensätze"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -79061,6 +84985,1070 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco1-quantita-di-l1",
+  "title": "Quale quantità?",
+  "language": "it",
+  "level": "A1",
+  "description": "Le quantità: un chilo di, un etto di … · Quale quantità? · livello facile.",
+  "topics": [
+   "Le quantità: un chilo di, un etto di …",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Mengenangaben"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-quantita-di",
+   "topicTitle": "Le quantità: un chilo di, un etto di …",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Dopo una quantità precisa usiamo **di** (senza articolo):\n- _un chilo **di** mele · mezzo chilo **di** pane · un etto **di** prosciutto_ (100 g)\n- _un litro **di** latte · una bottiglia **d’**acqua · un pacco **di** pasta · una scatola **di** biscotti_\n- _un pezzo **di** formaggio · una fetta **di** torta · un vasetto **di** miele · un mazzo **di** basilico_\nDavanti a vocale: **d’**: _una bottiglia d’acqua, un litro d’olio._\n_Quanto costa? / Quanto costano?_ · _Quanti ne vuole?_ (più avanti)",
+   "ruleHelp": "Nach einer genauen Menge steht **di** (ohne Artikel): _un chilo di mele, un etto di prosciutto (100 g), un litro di latte, una bottiglia d’acqua, un pacco di pasta, una fetta di torta._ Vor Vokal: **d’**.",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina la quantità al prodotto.",
+    "explanation": "",
+    "promptHelp": "Was passt zusammen?",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "un litro di",
+      "right": "latte"
+     },
+     {
+      "id": "p2",
+      "left": "un chilo di",
+      "right": "mele"
+     },
+     {
+      "id": "p3",
+      "left": "un etto di",
+      "right": "prosciutto"
+     },
+     {
+      "id": "p4",
+      "left": "una bottiglia di",
+      "right": "acqua"
+     },
+     {
+      "id": "p5",
+      "left": "un pacco di",
+      "right": "pasta"
+     },
+     {
+      "id": "p6",
+      "left": "una scatola di",
+      "right": "biscotti"
+     },
+     {
+      "id": "p7",
+      "left": "una fetta di",
+      "right": "torta"
+     },
+     {
+      "id": "p8",
+      "left": "un mazzo di",
+      "right": "basilico"
+     }
+    ],
+    "distractors": [
+     "un litro di pane"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quantita-di-l2",
+  "title": "Di o d’?",
+  "language": "it",
+  "level": "A1",
+  "description": "Le quantità: un chilo di, un etto di … · Di o d’? · livello facile.",
+  "topics": [
+   "Le quantità: un chilo di, un etto di …",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Mengenangaben"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-quantita-di",
+   "topicTitle": "Le quantità: un chilo di, un etto di …",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Dopo una quantità precisa usiamo **di** (senza articolo):\n- _un chilo **di** mele · mezzo chilo **di** pane · un etto **di** prosciutto_ (100 g)\n- _un litro **di** latte · una bottiglia **d’**acqua · un pacco **di** pasta · una scatola **di** biscotti_\n- _un pezzo **di** formaggio · una fetta **di** torta · un vasetto **di** miele · un mazzo **di** basilico_\nDavanti a vocale: **d’**: _una bottiglia d’acqua, un litro d’olio._\n_Quanto costa? / Quanto costano?_ · _Quanti ne vuole?_ (più avanti)",
+   "ruleHelp": "Nach einer genauen Menge steht **di** (ohne Artikel): _un chilo di mele, un etto di prosciutto (100 g), un litro di latte, una bottiglia d’acqua, un pacco di pasta, una fetta di torta._ Vor Vokal: **d’**.",
+   "order": 52
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli di o d’.",
+    "explanation": "Davanti a vocale: d’ (d’acqua, d’olio).",
+    "promptHelp": "Wähle di oder d’.",
+    "explanationHelp": "Vor Vokal: d’ (d’acqua, d’olio).",
+    "text": "una bottiglia [[g1]] acqua\nun litro [[g2]] latte\nun chilo [[g3]] pomodori\nun litro [[g4]] olio\nun etto [[g5]] formaggio\nun pacco [[g6]] riso\nuna scatola [[g7]] uova\nun vasetto [[g8]] miele",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "d’",
+       "di"
+      ],
+      "answer": "d’"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "di",
+       "d’"
+      ],
+      "answer": "di"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "di",
+       "d’"
+      ],
+      "answer": "di"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "d’",
+       "di"
+      ],
+      "answer": "d’"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "di",
+       "d’"
+      ],
+      "answer": "di"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "di",
+       "d’"
+      ],
+      "answer": "di"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "di",
+       "d’"
+      ],
+      "answer": "di"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "di",
+       "d’"
+      ],
+      "answer": "di"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quantita-di-l3",
+  "title": "Che cosa compri?",
+  "language": "it",
+  "level": "A1",
+  "description": "Le quantità: un chilo di, un etto di … · Che cosa compri? · livello facile.",
+  "topics": [
+   "Le quantità: un chilo di, un etto di …",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Mengenangaben"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-quantita-di",
+   "topicTitle": "Le quantità: un chilo di, un etto di …",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Dopo una quantità precisa usiamo **di** (senza articolo):\n- _un chilo **di** mele · mezzo chilo **di** pane · un etto **di** prosciutto_ (100 g)\n- _un litro **di** latte · una bottiglia **d’**acqua · un pacco **di** pasta · una scatola **di** biscotti_\n- _un pezzo **di** formaggio · una fetta **di** torta · un vasetto **di** miele · un mazzo **di** basilico_\nDavanti a vocale: **d’**: _una bottiglia d’acqua, un litro d’olio._\n_Quanto costa? / Quanto costano?_ · _Quanti ne vuole?_ (più avanti)",
+   "ruleHelp": "Nach einer genauen Menge steht **di** (ohne Artikel): _un chilo di mele, un etto di prosciutto (100 g), un litro di latte, una bottiglia d’acqua, un pacco di pasta, una fetta di torta._ Vor Vokal: **d’**.",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la quantità giusta.",
+    "explanation": "",
+    "promptHelp": "Wähle die passende Menge.",
+    "text": "Vorrei un [[g1]] di latte.\nMi dà due [[g2]] di prosciutto?\nPrendo un [[g3]] di mele.\nUna [[g4]] di acqua minerale, per favore.\nCompro un [[g5]] di spaghetti.\nMi dà una [[g6]] di torta?\nCi vuole un [[g7]] di basilico.\nVorrei mezzo [[g8]] di pane.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "litro",
+       "etto",
+       "pacco"
+      ],
+      "answer": "litro"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "etti",
+       "litri",
+       "bottiglie"
+      ],
+      "answer": "etti"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "chilo",
+       "litro",
+       "mazzo"
+      ],
+      "answer": "chilo"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "bottiglia",
+       "fetta",
+       "chilo"
+      ],
+      "answer": "bottiglia"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "pacco",
+       "litro",
+       "etto"
+      ],
+      "answer": "pacco"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "fetta",
+       "bottiglia",
+       "litro"
+      ],
+      "answer": "fetta"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "mazzo",
+       "litro",
+       "etto"
+      ],
+      "answer": "mazzo"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "chilo",
+       "litro",
+       "fetta"
+      ],
+      "answer": "chilo"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quantita-di-m1",
+  "title": "La lista della mamma",
+  "language": "it",
+  "level": "A1",
+  "description": "Le quantità: un chilo di, un etto di … · La lista della mamma · livello medio.",
+  "topics": [
+   "Le quantità: un chilo di, un etto di …",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Mengenangaben"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-quantita-di",
+   "topicTitle": "Le quantità: un chilo di, un etto di …",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Dopo una quantità precisa usiamo **di** (senza articolo):\n- _un chilo **di** mele · mezzo chilo **di** pane · un etto **di** prosciutto_ (100 g)\n- _un litro **di** latte · una bottiglia **d’**acqua · un pacco **di** pasta · una scatola **di** biscotti_\n- _un pezzo **di** formaggio · una fetta **di** torta · un vasetto **di** miele · un mazzo **di** basilico_\nDavanti a vocale: **d’**: _una bottiglia d’acqua, un litro d’olio._\n_Quanto costa? / Quanto costano?_ · _Quanti ne vuole?_ (più avanti)",
+   "ruleHelp": "Nach einer genauen Menge steht **di** (ohne Artikel): _un chilo di mele, un etto di prosciutto (100 g), un litro di latte, una bottiglia d’acqua, un pacco di pasta, una fetta di torta._ Vor Vokal: **d’**.",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi di o d’ e la quantità.",
+    "explanation": "100 g = un etto, 1 kg = un chilo, 1 l = un litro.",
+    "promptHelp": "Ergänze di / d’ und die Menge.",
+    "explanationHelp": "100 g = un etto, 1 kg = un chilo, 1 l = un litro.",
+    "text": "250 g Tomaten → due etti e mezzo [[g1]] pomodori\n1 kg Äpfel → un [[g2]] di mele\n1 l Milch → un [[g3]] di latte\n1 l Olivenöl → un litro [[g4]] olio d’oliva\n400 g roher Schinken → quattro [[g5]] di prosciutto crudo\n1 Bund Basilikum → un [[g6]] di basilico\n2 Flaschen Wasser → due [[g7]] d’acqua\n1 Packung Nudeln → un [[g8]] di pasta",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "chilo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "litro"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "d’"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "etti"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "mazzo"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "bottiglie"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "pacco"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quantita-di-m2",
+  "title": "Al mercato",
+  "language": "it",
+  "level": "A1",
+  "description": "Le quantità: un chilo di, un etto di … · Al mercato · livello medio.",
+  "topics": [
+   "Le quantità: un chilo di, un etto di …",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Mengenangaben"
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "ecco1-quantita-di",
+   "topicTitle": "Le quantità: un chilo di, un etto di …",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Dopo una quantità precisa usiamo **di** (senza articolo):\n- _un chilo **di** mele · mezzo chilo **di** pane · un etto **di** prosciutto_ (100 g)\n- _un litro **di** latte · una bottiglia **d’**acqua · un pacco **di** pasta · una scatola **di** biscotti_\n- _un pezzo **di** formaggio · una fetta **di** torta · un vasetto **di** miele · un mazzo **di** basilico_\nDavanti a vocale: **d’**: _una bottiglia d’acqua, un litro d’olio._\n_Quanto costa? / Quanto costano?_ · _Quanti ne vuole?_ (più avanti)",
+   "ruleHelp": "Nach einer genauen Menge steht **di** (ohne Artikel): _un chilo di mele, un etto di prosciutto (100 g), un litro di latte, una bottiglia d’acqua, un pacco di pasta, una fetta di torta._ Vor Vokal: **d’**.",
+   "order": 52
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il dialogo con le quantità e di.",
+    "explanation": "Dopo la quantità: di senza articolo (un pezzo di parmigiano).",
+    "promptHelp": "Ergänze den Dialog mit Mengen und di.",
+    "explanationHelp": "Nach der Menge: di ohne Artikel.",
+    "text": "Commessa: Buongiorno! Che cosa desidera?\nCliente: Buongiorno, vorrei un [[g1]] [[g2]] mele.\nCommessa: Ecco. Altro?\nCliente: Sì, due [[g3]] [[g4]] prosciutto e un pezzo [[g5]] parmigiano.\nCommessa: Benissimo. Nient’altro?\nCliente: Ah sì, una [[g6]] [[g7]] acqua e un [[g8]] [[g9]] biscotti.\nCommessa: Sono dodici euro.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "chilo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "etti"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "bottiglia"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "d’"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "pacco"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "di"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quantita-di-m3",
+  "title": "Quanto?",
+  "language": "it",
+  "level": "A1",
+  "description": "Le quantità: un chilo di, un etto di … · Quanto? · livello medio.",
+  "topics": [
+   "Le quantità: un chilo di, un etto di …",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Mengenangaben"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-quantita-di",
+   "topicTitle": "Le quantità: un chilo di, un etto di …",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Dopo una quantità precisa usiamo **di** (senza articolo):\n- _un chilo **di** mele · mezzo chilo **di** pane · un etto **di** prosciutto_ (100 g)\n- _un litro **di** latte · una bottiglia **d’**acqua · un pacco **di** pasta · una scatola **di** biscotti_\n- _un pezzo **di** formaggio · una fetta **di** torta · un vasetto **di** miele · un mazzo **di** basilico_\nDavanti a vocale: **d’**: _una bottiglia d’acqua, un litro d’olio._\n_Quanto costa? / Quanto costano?_ · _Quanti ne vuole?_ (più avanti)",
+   "ruleHelp": "Nach einer genauen Menge steht **di** (ohne Artikel): _un chilo di mele, un etto di prosciutto (100 g), un litro di latte, una bottiglia d’acqua, un pacco di pasta, una fetta di torta._ Vor Vokal: **d’**.",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Scrivi la quantità in italiano.",
+    "explanation": "",
+    "promptHelp": "Schreibe die Menge auf Italienisch.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "(1 kg Kartoffeln)",
+      "acceptedAnswers": [
+       "un chilo di patate"
+      ],
+      "modelAnswer": "un chilo di patate"
+     },
+     {
+      "id": "s2",
+      "start": "(200 g Käse)",
+      "acceptedAnswers": [
+       "due etti di formaggio"
+      ],
+      "modelAnswer": "due etti di formaggio"
+     },
+     {
+      "id": "s3",
+      "start": "(1 Liter Saft)",
+      "acceptedAnswers": [
+       "un litro di succo"
+      ],
+      "modelAnswer": "un litro di succo"
+     },
+     {
+      "id": "s4",
+      "start": "(1 Flasche Öl)",
+      "acceptedAnswers": [
+       "una bottiglia d’olio",
+       "una bottiglia di olio"
+      ],
+      "modelAnswer": "una bottiglia d’olio"
+     },
+     {
+      "id": "s5",
+      "start": "(3 Scheiben Brot)",
+      "acceptedAnswers": [
+       "tre fette di pane"
+      ],
+      "modelAnswer": "tre fette di pane"
+     },
+     {
+      "id": "s6",
+      "start": "(1 Packung Reis)",
+      "acceptedAnswers": [
+       "un pacco di riso"
+      ],
+      "modelAnswer": "un pacco di riso"
+     },
+     {
+      "id": "s7",
+      "start": "(ein Stück Kuchen)",
+      "acceptedAnswers": [
+       "un pezzo di torta",
+       "una fetta di torta"
+      ],
+      "modelAnswer": "un pezzo di torta"
+     },
+     {
+      "id": "s8",
+      "start": "(ein halbes Kilo Kirschen)",
+      "acceptedAnswers": [
+       "mezzo chilo di ciliegie"
+      ],
+      "modelAnswer": "mezzo chilo di ciliegie"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quantita-di-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "Le quantità: un chilo di, un etto di … · Trova gli errori · livello difficile.",
+  "topics": [
+   "Le quantità: un chilo di, un etto di …",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Mengenangaben"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-quantita-di",
+   "topicTitle": "Le quantità: un chilo di, un etto di …",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Dopo una quantità precisa usiamo **di** (senza articolo):\n- _un chilo **di** mele · mezzo chilo **di** pane · un etto **di** prosciutto_ (100 g)\n- _un litro **di** latte · una bottiglia **d’**acqua · un pacco **di** pasta · una scatola **di** biscotti_\n- _un pezzo **di** formaggio · una fetta **di** torta · un vasetto **di** miele · un mazzo **di** basilico_\nDavanti a vocale: **d’**: _una bottiglia d’acqua, un litro d’olio._\n_Quanto costa? / Quanto costano?_ · _Quanti ne vuole?_ (più avanti)",
+   "ruleHelp": "Nach einer genauen Menge steht **di** (ohne Artikel): _un chilo di mele, un etto di prosciutto (100 g), un litro di latte, una bottiglia d’acqua, un pacco di pasta, una fetta di torta._ Vor Vokal: **d’**.",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi gli errori.",
+    "explanation": "Dopo una quantità precisa: solo di (o d’), senza articolo.",
+    "promptHelp": "Korrigiere die Fehler.",
+    "explanationHelp": "Nach genauer Menge: nur di (oder d’), ohne Artikel.",
+    "text": "Vorrei un chilo [[g1]] mele.\nUn litro [[g2]] latte, per favore.\nUna bottiglia [[g3]] acqua.\nDue etti [[g4]] speck.\nUn pacco [[g5]] pasta.\nUna fetta [[g6]] formaggio.\nUn mazzo [[g7]] basilico.\nMezzo chilo [[g8]] pomodori.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "delle",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "del",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "di",
+      "acceptedAnswers": [
+       "d’"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "dello",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "della",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "del",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "del",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "dei",
+      "acceptedAnswers": [
+       "di"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quantita-di-s2",
+  "title": "La ricetta: bruschetta",
+  "language": "it",
+  "level": "A1",
+  "description": "Le quantità: un chilo di, un etto di … · La ricetta: bruschetta · livello difficile.",
+  "topics": [
+   "Le quantità: un chilo di, un etto di …",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Mengenangaben"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-quantita-di",
+   "topicTitle": "Le quantità: un chilo di, un etto di …",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Dopo una quantità precisa usiamo **di** (senza articolo):\n- _un chilo **di** mele · mezzo chilo **di** pane · un etto **di** prosciutto_ (100 g)\n- _un litro **di** latte · una bottiglia **d’**acqua · un pacco **di** pasta · una scatola **di** biscotti_\n- _un pezzo **di** formaggio · una fetta **di** torta · un vasetto **di** miele · un mazzo **di** basilico_\nDavanti a vocale: **d’**: _una bottiglia d’acqua, un litro d’olio._\n_Quanto costa? / Quanto costano?_ · _Quanti ne vuole?_ (più avanti)",
+   "ruleHelp": "Nach einer genauen Menge steht **di** (ohne Artikel): _un chilo di mele, un etto di prosciutto (100 g), un litro di latte, una bottiglia d’acqua, un pacco di pasta, una fetta di torta._ Vor Vokal: **d’**.",
+   "order": 52
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa la ricetta con le quantità e di / d’.",
+    "explanation": "un po’ di, un pizzico di, uno spicchio d’aglio.",
+    "promptHelp": "Ergänze das Rezept mit Mengen und di / d’.",
+    "explanationHelp": "un po’ di, un pizzico di, uno spicchio d’aglio.",
+    "text": "Per quattro persone ci vogliono:\notto fette [[g1]] pane,\nmezzo [[g2]] di pomodori maturi,\nun mazzo [[g3]] basilico,\ndue spicchi [[g4]] aglio,\nun po’ [[g5]] olio d’oliva\ne un pizzico [[g6]] sale.\nPer finire, una foglia [[g7]] basilico su ogni fetta.\nPrima tagliamo i pomodori, poi mettiamo tutto sulle fette [[g8]] pane.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "chilo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "d’"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "d’"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "di"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quantita-di-s3",
+  "title": "La tua lista",
+  "language": "it",
+  "level": "A1",
+  "description": "Le quantità: un chilo di, un etto di … · La tua lista · livello difficile.",
+  "topics": [
+   "Le quantità: un chilo di, un etto di …",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Mengenangaben"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-quantita-di",
+   "topicTitle": "Le quantità: un chilo di, un etto di …",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Dopo una quantità precisa usiamo **di** (senza articolo):\n- _un chilo **di** mele · mezzo chilo **di** pane · un etto **di** prosciutto_ (100 g)\n- _un litro **di** latte · una bottiglia **d’**acqua · un pacco **di** pasta · una scatola **di** biscotti_\n- _un pezzo **di** formaggio · una fetta **di** torta · un vasetto **di** miele · un mazzo **di** basilico_\nDavanti a vocale: **d’**: _una bottiglia d’acqua, un litro d’olio._\n_Quanto costa? / Quanto costano?_ · _Quanti ne vuole?_ (più avanti)",
+   "ruleHelp": "Nach einer genauen Menge steht **di** (ohne Artikel): _un chilo di mele, un etto di prosciutto (100 g), un litro di latte, una bottiglia d’acqua, un pacco di pasta, una fetta di torta._ Vor Vokal: **d’**.",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Prepari una cena per gli amici. Scrivi la lista della spesa con almeno sei quantità.",
+    "explanation": "",
+    "promptHelp": "Schreibe eine Einkaufsliste mit mindestens sechs Mengen.",
+    "modelAnswer": "un chilo di pasta, mezzo chilo di pomodori, due etti di parmigiano, una bottiglia d’olio, un mazzo di basilico, una scatola di biscotti, due litri d’acqua",
+    "lines": 5
+   },
+   {
+    "id": "q2",
+    "type": "sentence_completion",
+    "prompt": "E adesso scrivi in italiano.",
+    "explanation": "",
+    "promptHelp": "Und jetzt auf Italienisch.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "(2 Liter Wasser)",
+      "acceptedAnswers": [
+       "due litri d’acqua",
+       "due litri di acqua"
+      ],
+      "modelAnswer": "due litri d’acqua"
+     },
+     {
+      "id": "s2",
+      "start": "(500 g Nudeln)",
+      "acceptedAnswers": [
+       "mezzo chilo di pasta",
+       "cinque etti di pasta"
+      ],
+      "modelAnswer": "mezzo chilo di pasta"
+     },
+     {
+      "id": "s3",
+      "start": "(1 Packung Kekse)",
+      "acceptedAnswers": [
+       "un pacco di biscotti",
+       "una scatola di biscotti"
+      ],
+      "modelAnswer": "un pacco di biscotti"
+     },
+     {
+      "id": "s4",
+      "start": "(300 g Schinken)",
+      "acceptedAnswers": [
+       "tre etti di prosciutto"
+      ],
+      "modelAnswer": "tre etti di prosciutto"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco1-quantita-l1",
   "title": "Avverbio o con il nome?",
   "language": "it",
@@ -79093,7 +86081,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · molto, poco, tanto, troppo als Adverb und Begleiter"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -79228,7 +86217,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · molto, poco, tanto, troppo als Adverb und Begleiter"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -79332,7 +86322,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · molto, poco, tanto, troppo als Adverb und Begleiter"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -79467,7 +86458,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · molto, poco, tanto, troppo als Adverb und Begleiter"
   },
   "estimatedMinutes": 9,
   "grammar": {
@@ -79584,7 +86576,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · molto, poco, tanto, troppo als Adverb und Begleiter"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -79741,7 +86734,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · molto, poco, tanto, troppo als Adverb und Begleiter"
   },
   "estimatedMinutes": 9,
   "grammar": {
@@ -79858,7 +86852,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · molto, poco, tanto, troppo als Adverb und Begleiter"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -79976,7 +86971,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · molto, poco, tanto, troppo als Adverb und Begleiter"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -80111,7 +87107,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · molto, poco, tanto, troppo als Adverb und Begleiter"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -80204,6 +87201,1097 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco1-quello-l1",
+  "title": "Quale forma di quello?",
+  "language": "it",
+  "level": "A1",
+  "description": "Quello: aggettivo e pronome · Quale forma di quello? · livello facile.",
+  "topics": [
+   "Quello: aggettivo e pronome",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-quello",
+   "topicTitle": "Quello: aggettivo e pronome",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**quello** (dort, jener) indica una cosa **lontana**. Davanti al nome cambia come l’articolo:\n| il → **quel** cappello | lo → **quello** zaino | l’ → **quell’**armadio / **quell’**amica | la → **quella** gonna |\n| i → **quei** cappelli | gli → **quegli** zaini / **quegli** amici | le → **quelle** gonne |\n\nDa solo (pronome): **quello, quella, quelli, quelle**: _Quale maglietta? – Quella rossa._ · _Chi è quello lì?_\n**questo** = vicino · **quello** = lontano.",
+   "ruleHelp": "**quello** zeigt auf etwas **Entferntes**. Vor dem Nomen geht es wie der Artikel: quel cappello, quello zaino, quell’armadio, quella gonna, quei cappelli, quegli zaini, quelle gonne.\nAllein (Pronomen): quello, quella, quelli, quelle: _Quale maglietta? – Quella rossa._ questo = nah, quello = fern.",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "quello cambia come l’articolo: il → quel, lo → quello, i → quei, gli → quegli.",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "quello geht wie der Artikel.",
+    "text": "[[g1]] cappello è bello.\n[[g2]] zaino è caro.\n[[g3]] gonna è corta.\n[[g4]] armadio è vecchio.\n[[g5]] pantaloni sono lunghi.\n[[g6]] stivali sono comodi.\n[[g7]] scarpe sono rosse.\n[[g8]] amica è simpatica.\n[[g9]] amici sono di Roma.\n[[g10]] negozio è chiuso.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Quel",
+       "Quello",
+       "Quella"
+      ],
+      "answer": "Quel"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Quello",
+       "Quel",
+       "Quell’"
+      ],
+      "answer": "Quello"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Quella",
+       "Quel",
+       "Quelle"
+      ],
+      "answer": "Quella"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Quell’",
+       "Quel",
+       "Quella"
+      ],
+      "answer": "Quell’"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "Quei",
+       "Quegli",
+       "Quelle"
+      ],
+      "answer": "Quei"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Quegli",
+       "Quei",
+       "Quelle"
+      ],
+      "answer": "Quegli"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "Quelle",
+       "Quella",
+       "Quei"
+      ],
+      "answer": "Quelle"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "Quell’",
+       "Quella",
+       "Quel"
+      ],
+      "answer": "Quell’"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "Quegli",
+       "Quei",
+       "Quelli"
+      ],
+      "answer": "Quegli"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "Quel",
+       "Quello",
+       "Quelli"
+      ],
+      "answer": "Quel"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quello-l2",
+  "title": "Articolo e quello",
+  "language": "it",
+  "level": "A1",
+  "description": "Quello: aggettivo e pronome · Articolo e quello · livello facile.",
+  "topics": [
+   "Quello: aggettivo e pronome",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-quello",
+   "topicTitle": "Quello: aggettivo e pronome",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**quello** (dort, jener) indica una cosa **lontana**. Davanti al nome cambia come l’articolo:\n| il → **quel** cappello | lo → **quello** zaino | l’ → **quell’**armadio / **quell’**amica | la → **quella** gonna |\n| i → **quei** cappelli | gli → **quegli** zaini / **quegli** amici | le → **quelle** gonne |\n\nDa solo (pronome): **quello, quella, quelli, quelle**: _Quale maglietta? – Quella rossa._ · _Chi è quello lì?_\n**questo** = vicino · **quello** = lontano.",
+   "ruleHelp": "**quello** zeigt auf etwas **Entferntes**. Vor dem Nomen geht es wie der Artikel: quel cappello, quello zaino, quell’armadio, quella gonna, quei cappelli, quegli zaini, quelle gonne.\nAllein (Pronomen): quello, quella, quelli, quelle: _Quale maglietta? – Quella rossa._ questo = nah, quello = fern.",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina articolo e forma di quello.",
+    "explanation": "",
+    "promptHelp": "Verbinde Artikel und Form von quello.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "il cappello",
+      "right": "quel cappello"
+     },
+     {
+      "id": "p2",
+      "left": "lo zaino",
+      "right": "quello zaino"
+     },
+     {
+      "id": "p3",
+      "left": "l’armadio",
+      "right": "quell’armadio"
+     },
+     {
+      "id": "p4",
+      "left": "la gonna",
+      "right": "quella gonna"
+     },
+     {
+      "id": "p5",
+      "left": "i jeans",
+      "right": "quei jeans"
+     },
+     {
+      "id": "p6",
+      "left": "gli stivali",
+      "right": "quegli stivali"
+     },
+     {
+      "id": "p7",
+      "left": "le scarpe",
+      "right": "quelle scarpe"
+     },
+     {
+      "id": "p8",
+      "left": "gli amici",
+      "right": "quegli amici"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quello-l3",
+  "title": "Questo o quello?",
+  "language": "it",
+  "level": "A1",
+  "description": "Quello: aggettivo e pronome · Questo o quello? · livello facile.",
+  "topics": [
+   "Quello: aggettivo e pronome",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-quello",
+   "topicTitle": "Quello: aggettivo e pronome",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**quello** (dort, jener) indica una cosa **lontana**. Davanti al nome cambia come l’articolo:\n| il → **quel** cappello | lo → **quello** zaino | l’ → **quell’**armadio / **quell’**amica | la → **quella** gonna |\n| i → **quei** cappelli | gli → **quegli** zaini / **quegli** amici | le → **quelle** gonne |\n\nDa solo (pronome): **quello, quella, quelli, quelle**: _Quale maglietta? – Quella rossa._ · _Chi è quello lì?_\n**questo** = vicino · **quello** = lontano.",
+   "ruleHelp": "**quello** zeigt auf etwas **Entferntes**. Vor dem Nomen geht es wie der Artikel: quel cappello, quello zaino, quell’armadio, quella gonna, quei cappelli, quegli zaini, quelle gonne.\nAllein (Pronomen): quello, quella, quelli, quelle: _Quale maglietta? – Quella rossa._ questo = nah, quello = fern.",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Vicino (questo) o lontano (quello)?",
+    "explanation": "",
+    "promptHelp": "Nah (questo) oder fern (quello)?",
+    "text": "(qui, in mano) [[g1]] maglietta è morbida.\n(là, in vetrina) [[g2]] vestito è elegante.\n(qui, ai miei piedi) [[g3]] scarpe sono comode.\n(laggiù) [[g4]] ragazza è mia cugina.\n(qui, sul tavolo) [[g5]] pane è fresco.\n(là, sullo scaffale) [[g6]] biscotti sono buoni.\n(qui, nella borsa) [[g7]] soldi sono miei.\n(là, dall’altra parte) [[g8]] negozio è nuovo.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Questa",
+       "Quella"
+      ],
+      "answer": "Questa"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Quel",
+       "Questo"
+      ],
+      "answer": "Quel"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Queste",
+       "Quelle"
+      ],
+      "answer": "Queste"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Quella",
+       "Questa"
+      ],
+      "answer": "Quella"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "Questo",
+       "Quel"
+      ],
+      "answer": "Questo"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Quei",
+       "Questi"
+      ],
+      "answer": "Quei"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "Questi",
+       "Quei"
+      ],
+      "answer": "Questi"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "Quel",
+       "Questo"
+      ],
+      "answer": "Quel"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quello-m1",
+  "title": "Al mercato",
+  "language": "it",
+  "level": "A1",
+  "description": "Quello: aggettivo e pronome · Al mercato · livello medio.",
+  "topics": [
+   "Quello: aggettivo e pronome",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-quello",
+   "topicTitle": "Quello: aggettivo e pronome",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**quello** (dort, jener) indica una cosa **lontana**. Davanti al nome cambia come l’articolo:\n| il → **quel** cappello | lo → **quello** zaino | l’ → **quell’**armadio / **quell’**amica | la → **quella** gonna |\n| i → **quei** cappelli | gli → **quegli** zaini / **quegli** amici | le → **quelle** gonne |\n\nDa solo (pronome): **quello, quella, quelli, quelle**: _Quale maglietta? – Quella rossa._ · _Chi è quello lì?_\n**questo** = vicino · **quello** = lontano.",
+   "ruleHelp": "**quello** zeigt auf etwas **Entferntes**. Vor dem Nomen geht es wie der Artikel: quel cappello, quello zaino, quell’armadio, quella gonna, quei cappelli, quegli zaini, quelle gonne.\nAllein (Pronomen): quello, quella, quelli, quelle: _Quale maglietta? – Quella rossa._ questo = nah, quello = fern.",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi la forma giusta di quello (quel, quello, quell’, quella, quei, quegli, quelle).",
+    "explanation": "quell’ davanti a vocale; quello e quegli con s + consonante, z, e (quegli) vocale.",
+    "promptHelp": "Ergänze die richtige Form von quello.",
+    "explanationHelp": "quell’ vor Vokal; quello/quegli vor s + Konsonant, z; quegli auch vor Vokal (Plural).",
+    "text": "Quanto costa [[g1]] formaggio?\nE [[g2]] mozzarella?\nMi dà due chili di [[g3]] mele, per favore?\n[[g4]] pomodori sono freschi?\n[[g5]] olio è italiano?\nVorrei un etto di [[g6]] speck.\n[[g7]] spinaci sono molto buoni.\nE [[g8]] insalata quanto costa?",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "quel"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "quella"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "quelle"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Quei"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Quell’"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "quello"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Quegli"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "quell’"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quello-m2",
+  "title": "Quale vuoi?",
+  "language": "it",
+  "level": "A1",
+  "description": "Quello: aggettivo e pronome · Quale vuoi? · livello medio.",
+  "topics": [
+   "Quello: aggettivo e pronome",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-quello",
+   "topicTitle": "Quello: aggettivo e pronome",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**quello** (dort, jener) indica una cosa **lontana**. Davanti al nome cambia come l’articolo:\n| il → **quel** cappello | lo → **quello** zaino | l’ → **quell’**armadio / **quell’**amica | la → **quella** gonna |\n| i → **quei** cappelli | gli → **quegli** zaini / **quegli** amici | le → **quelle** gonne |\n\nDa solo (pronome): **quello, quella, quelli, quelle**: _Quale maglietta? – Quella rossa._ · _Chi è quello lì?_\n**questo** = vicino · **quello** = lontano.",
+   "ruleHelp": "**quello** zeigt auf etwas **Entferntes**. Vor dem Nomen geht es wie der Artikel: quel cappello, quello zaino, quell’armadio, quella gonna, quei cappelli, quegli zaini, quelle gonne.\nAllein (Pronomen): quello, quella, quelli, quelle: _Quale maglietta? – Quella rossa._ questo = nah, quello = fern.",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Rispondi con il pronome quello / quella / quelli / quelle + colore.",
+    "explanation": "Come pronome: quello, quella, quelli, quelle (non quel, quei).",
+    "promptHelp": "Antworte mit dem Pronomen + Farbe.",
+    "explanationHelp": "Als Pronomen: quello, quella, quelli, quelle.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Quale maglietta vuoi? (rot) – …",
+      "acceptedAnswers": [
+       "Quella rossa"
+      ],
+      "modelAnswer": "Quella rossa."
+     },
+     {
+      "id": "s2",
+      "start": "Quali pantaloni prendi? (schwarz) – …",
+      "acceptedAnswers": [
+       "Quelli neri"
+      ],
+      "modelAnswer": "Quelli neri."
+     },
+     {
+      "id": "s3",
+      "start": "Quale cappello ti piace? (blau) – …",
+      "acceptedAnswers": [
+       "Quello blu"
+      ],
+      "modelAnswer": "Quello blu."
+     },
+     {
+      "id": "s4",
+      "start": "Quali scarpe compri? (weiß) – …",
+      "acceptedAnswers": [
+       "Quelle bianche"
+      ],
+      "modelAnswer": "Quelle bianche."
+     },
+     {
+      "id": "s5",
+      "start": "Quale gonna provi? (grün) – …",
+      "acceptedAnswers": [
+       "Quella verde"
+      ],
+      "modelAnswer": "Quella verde."
+     },
+     {
+      "id": "s6",
+      "start": "Quali calzini vuoi? (gelb) – …",
+      "acceptedAnswers": [
+       "Quelli gialli"
+      ],
+      "modelAnswer": "Quelli gialli."
+     },
+     {
+      "id": "s7",
+      "start": "Quale vestito porti? (lila) – …",
+      "acceptedAnswers": [
+       "Quello viola"
+      ],
+      "modelAnswer": "Quello viola."
+     },
+     {
+      "id": "s8",
+      "start": "Quali felpe ti piacciono? (grau) – …",
+      "acceptedAnswers": [
+       "Quelle grigie"
+      ],
+      "modelAnswer": "Quelle grigie."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quello-m3",
+  "title": "Quello davanti al nome",
+  "language": "it",
+  "level": "A1",
+  "description": "Quello: aggettivo e pronome · Quello davanti al nome · livello medio.",
+  "topics": [
+   "Quello: aggettivo e pronome",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-quello",
+   "topicTitle": "Quello: aggettivo e pronome",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**quello** (dort, jener) indica una cosa **lontana**. Davanti al nome cambia come l’articolo:\n| il → **quel** cappello | lo → **quello** zaino | l’ → **quell’**armadio / **quell’**amica | la → **quella** gonna |\n| i → **quei** cappelli | gli → **quegli** zaini / **quegli** amici | le → **quelle** gonne |\n\nDa solo (pronome): **quello, quella, quelli, quelle**: _Quale maglietta? – Quella rossa._ · _Chi è quello lì?_\n**questo** = vicino · **quello** = lontano.",
+   "ruleHelp": "**quello** zeigt auf etwas **Entferntes**. Vor dem Nomen geht es wie der Artikel: quel cappello, quello zaino, quell’armadio, quella gonna, quei cappelli, quegli zaini, quelle gonne.\nAllein (Pronomen): quello, quella, quelli, quelle: _Quale maglietta? – Quella rossa._ questo = nah, quello = fern.",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Scrivi la forma di quello con il nome.",
+    "explanation": "",
+    "promptHelp": "Schreibe die Form von quello mit dem Nomen.",
+    "columns": [
+     "nome",
+     "con quello"
+    ],
+    "rows": [
+     [
+      "il negozio",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "quel negozio"
+       ]
+      }
+     ],
+     [
+      "lo specchio",
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "quello specchio"
+       ]
+      }
+     ],
+     [
+      "l’orologio",
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "quell’orologio"
+       ]
+      }
+     ],
+     [
+      "la borsa",
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "quella borsa"
+       ]
+      }
+     ],
+     [
+      "i guanti",
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "quei guanti"
+       ]
+      }
+     ],
+     [
+      "gli occhiali",
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "quegli occhiali"
+       ]
+      }
+     ],
+     [
+      "le giacche",
+      {
+       "id": "c7",
+       "acceptedAnswers": [
+        "quelle giacche"
+       ]
+      }
+     ],
+     [
+      "l’amica",
+      {
+       "id": "c8",
+       "acceptedAnswers": [
+        "quell’amica"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quello-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "Quello: aggettivo e pronome · Trova gli errori · livello difficile.",
+  "topics": [
+   "Quello: aggettivo e pronome",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-quello",
+   "topicTitle": "Quello: aggettivo e pronome",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**quello** (dort, jener) indica una cosa **lontana**. Davanti al nome cambia come l’articolo:\n| il → **quel** cappello | lo → **quello** zaino | l’ → **quell’**armadio / **quell’**amica | la → **quella** gonna |\n| i → **quei** cappelli | gli → **quegli** zaini / **quegli** amici | le → **quelle** gonne |\n\nDa solo (pronome): **quello, quella, quelli, quelle**: _Quale maglietta? – Quella rossa._ · _Chi è quello lì?_\n**questo** = vicino · **quello** = lontano.",
+   "ruleHelp": "**quello** zeigt auf etwas **Entferntes**. Vor dem Nomen geht es wie der Artikel: quel cappello, quello zaino, quell’armadio, quella gonna, quei cappelli, quegli zaini, quelle gonne.\nAllein (Pronomen): quello, quella, quelli, quelle: _Quale maglietta? – Quella rossa._ questo = nah, quello = fern.",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi le forme di quello.",
+    "explanation": "Davanti al nome come l’articolo; da solo: quello, quella, quelli, quelle.",
+    "promptHelp": "Korrigiere die Formen von quello.",
+    "explanationHelp": "Vor dem Nomen wie der Artikel; allein: quello, quella, quelli, quelle.",
+    "text": "[[g1]] maglione è troppo caro.\n[[g2]] zaino è di Marco.\n[[g3]] occhiali sono di mia madre.\n[[g4]] pantaloni sono lunghi.\n[[g5]] amica abita a Roma.\nQuale maglietta vuoi? – [[g6]] rossa.\n[[g7]] ragazzi giocano a calcio.\nQuali scarpe? – [[g8]] bianche.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "Quello",
+      "acceptedAnswers": [
+       "Quel"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "Quel",
+      "acceptedAnswers": [
+       "Quello"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "Quei",
+      "acceptedAnswers": [
+       "Quegli"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "Quelli",
+      "acceptedAnswers": [
+       "Quei"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "Quella",
+      "acceptedAnswers": [
+       "Quell’"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "Quel",
+      "acceptedAnswers": [
+       "Quella"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "Quegli",
+      "acceptedAnswers": [
+       "Quei"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "Quei",
+      "acceptedAnswers": [
+       "Quelle"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quello-s2",
+  "title": "Chi è quello?",
+  "language": "it",
+  "level": "A1",
+  "description": "Quello: aggettivo e pronome · Chi è quello? · livello difficile.",
+  "topics": [
+   "Quello: aggettivo e pronome",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-quello",
+   "topicTitle": "Quello: aggettivo e pronome",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**quello** (dort, jener) indica una cosa **lontana**. Davanti al nome cambia come l’articolo:\n| il → **quel** cappello | lo → **quello** zaino | l’ → **quell’**armadio / **quell’**amica | la → **quella** gonna |\n| i → **quei** cappelli | gli → **quegli** zaini / **quegli** amici | le → **quelle** gonne |\n\nDa solo (pronome): **quello, quella, quelli, quelle**: _Quale maglietta? – Quella rossa._ · _Chi è quello lì?_\n**questo** = vicino · **quello** = lontano.",
+   "ruleHelp": "**quello** zeigt auf etwas **Entferntes**. Vor dem Nomen geht es wie der Artikel: quel cappello, quello zaino, quell’armadio, quella gonna, quei cappelli, quegli zaini, quelle gonne.\nAllein (Pronomen): quello, quella, quelli, quelle: _Quale maglietta? – Quella rossa._ questo = nah, quello = fern.",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi la forma giusta di quello.",
+    "explanation": "",
+    "promptHelp": "Ergänze die richtige Form von quello.",
+    "text": "– Chi è [[g1]] lì, con la camicia rossa?\n– È Marco! E [[g2]] ragazza vicino a lui è sua sorella.\n– E [[g3]] ragazzi con i cappelli neri?\n– Sono i suoi cugini. [[g4]] occhiali sono di Paolo, sai?\n– Ah, e [[g5]] uomo alto?\n– È il papà di Marco. E [[g6]] signore sono le sue zie.\n– Che famiglia grande! E [[g7]] cane?\n– [[g8]] è Bobo!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "quello"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "quella"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "quei"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Quegli"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "quell’"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "quelle"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "quel"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Quello"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quello-s3",
+  "title": "Fare shopping",
+  "language": "it",
+  "level": "A1",
+  "description": "Quello: aggettivo e pronome · Fare shopping · livello difficile.",
+  "topics": [
+   "Quello: aggettivo e pronome",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-quello",
+   "topicTitle": "Quello: aggettivo e pronome",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**quello** (dort, jener) indica una cosa **lontana**. Davanti al nome cambia come l’articolo:\n| il → **quel** cappello | lo → **quello** zaino | l’ → **quell’**armadio / **quell’**amica | la → **quella** gonna |\n| i → **quei** cappelli | gli → **quegli** zaini / **quegli** amici | le → **quelle** gonne |\n\nDa solo (pronome): **quello, quella, quelli, quelle**: _Quale maglietta? – Quella rossa._ · _Chi è quello lì?_\n**questo** = vicino · **quello** = lontano.",
+   "ruleHelp": "**quello** zeigt auf etwas **Entferntes**. Vor dem Nomen geht es wie der Artikel: quel cappello, quello zaino, quell’armadio, quella gonna, quei cappelli, quegli zaini, quelle gonne.\nAllein (Pronomen): quello, quella, quelli, quelle: _Quale maglietta? – Quella rossa._ questo = nah, quello = fern.",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Sei in un negozio con un’amica. Scrivi un piccolo dialogo con questo e quello.",
+    "explanation": "",
+    "promptHelp": "Schreibe einen kleinen Dialog im Geschäft mit questo und quello.",
+    "modelAnswer": "– Ti piace questa felpa? – No, preferisco quella grigia. – E quei jeans? – Sì, ma questi sono più belli. – Quanto costa quel cappello? – Venti euro.",
+    "lines": 5
+   },
+   {
+    "id": "q2",
+    "type": "gap_choice",
+    "prompt": "Controlla: quale forma?",
+    "explanation": "",
+    "promptHelp": "Prüfe: welche Form?",
+    "text": "Preferisco [[g1]] grigia.\n[[g2]] jeans sono belli.\nQuanto costa [[g3]] cappello?\nMi piacciono [[g4]] scarpe.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "quella",
+       "quel",
+       "quelle"
+      ],
+      "answer": "quella"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Quei",
+       "Quegli",
+       "Quelle"
+      ],
+      "answer": "Quei"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "quel",
+       "quello",
+       "quella"
+      ],
+      "answer": "quel"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "quelle",
+       "quei",
+       "quelli"
+      ],
+      "answer": "quelle"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco1-questo-l1",
   "title": "Quale forma?",
   "language": "it",
@@ -80236,7 +88324,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Demonstrativbegleiter und -pronomen questo"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -80370,7 +88459,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Demonstrativbegleiter und -pronomen questo"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -80500,7 +88590,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Demonstrativbegleiter und -pronomen questo"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -80626,7 +88717,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Demonstrativbegleiter und -pronomen questo"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -80763,7 +88855,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Demonstrativbegleiter und -pronomen questo"
   },
   "estimatedMinutes": 9,
   "grammar": {
@@ -80880,7 +88973,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Demonstrativbegleiter und -pronomen questo"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -81005,7 +89099,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Demonstrativbegleiter und -pronomen questo"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -81117,7 +89212,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Demonstrativbegleiter und -pronomen questo"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -81235,7 +89331,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Demonstrativbegleiter und -pronomen questo"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -81360,7 +89457,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Subjektpronomen"
   },
   "estimatedMinutes": 8,
   "grammar": {
@@ -81513,7 +89611,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Subjektpronomen"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -81615,7 +89714,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Subjektpronomen"
   },
   "estimatedMinutes": 7,
   "grammar": {
@@ -81750,7 +89850,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Subjektpronomen"
   },
   "estimatedMinutes": 9,
   "grammar": {
@@ -81894,7 +89995,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Subjektpronomen"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -82017,7 +90119,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Subjektpronomen"
   },
   "estimatedMinutes": 3,
   "grammar": {
@@ -82174,7 +90277,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Subjektpronomen"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -82300,7 +90404,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Subjektpronomen"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -82411,7 +90516,8 @@ const STOCK_PACKAGES = [
    "cefr": "A1",
    "tags": [
     "grammatik"
-   ]
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Subjektpronomen"
   },
   "estimatedMinutes": 10,
   "grammar": {
@@ -82488,6 +90594,1155 @@ const STOCK_PACKAGES = [
       "wrong": "Voi",
       "acceptedAnswers": [
        "Loro"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-uscire-bere-l1",
+  "title": "Quale forma?",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi irregolari uscire, bere, tenere · Quale forma? · livello facile.",
+  "topics": [
+   "I verbi irregolari uscire, bere, tenere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: uscire, bere, tenere"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-uscire-bere",
+   "topicTitle": "I verbi irregolari uscire, bere, tenere",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| uscire | esco | esci | esce | usciamo | uscite | escono |\n| bere | bevo | bevi | beve | beviamo | bevete | bevono |\n| tenere | tengo | tieni | tiene | teniamo | tenete | tengono |\n\n_Esco con gli amici. · Bevo un succo. · Tengo il cane al guinzaglio._\n**Attenzione:** uscire: e- con io, tu, lui, loro (esco), ma u- con noi e voi (usciamo).",
+   "ruleHelp": "uscire (ausgehen): esco, esci, esce, usciamo, uscite, escono · bere (trinken): bevo, bevi, beve … (Stamm bev-) · tenere (halten): tengo, tieni, tiene, teniamo, tenete, tengono.\n**Achtung:** uscire hat e- bei io, tu, lui, loro, aber u- bei noi und voi.",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "uscire: esco, esci, esce, escono · usciamo, uscite.",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "uscire: e- bei io/tu/lui/loro, u- bei noi/voi.",
+    "text": "Io [[g1]] con Marta stasera.\nTu [[g2]] dopo cena?\nNoi [[g3]] alle otto.\nVoi [[g4]] con noi?\nI ragazzi [[g5]] tardi.\nIo [[g6]] un tè.\nTu [[g7]] il caffè?\nLoro [[g8]] acqua.\nIo [[g9]] la porta.\nTu [[g10]] il cane?",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "esco",
+       "usco",
+       "esci"
+      ],
+      "answer": "esco"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "esci",
+       "uscii",
+       "esce"
+      ],
+      "answer": "esci"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "usciamo",
+       "esciamo",
+       "escono"
+      ],
+      "answer": "usciamo"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "uscite",
+       "escite",
+       "usciamo"
+      ],
+      "answer": "uscite"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "escono",
+       "uscono",
+       "uscite"
+      ],
+      "answer": "escono"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "bevo",
+       "beve",
+       "bero"
+      ],
+      "answer": "bevo"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "bevi",
+       "bere",
+       "beve"
+      ],
+      "answer": "bevi"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "bevono",
+       "berono",
+       "bevete"
+      ],
+      "answer": "bevono"
+     },
+     {
+      "id": "g9",
+      "options": [
+       "tengo",
+       "teno",
+       "tiene"
+      ],
+      "answer": "tengo"
+     },
+     {
+      "id": "g10",
+      "options": [
+       "tieni",
+       "teni",
+       "tiene"
+      ],
+      "answer": "tieni"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-uscire-bere-l2",
+  "title": "Quale verbo?",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi irregolari uscire, bere, tenere · Quale verbo? · livello facile.",
+  "topics": [
+   "I verbi irregolari uscire, bere, tenere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: uscire, bere, tenere"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-uscire-bere",
+   "topicTitle": "I verbi irregolari uscire, bere, tenere",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| uscire | esco | esci | esce | usciamo | uscite | escono |\n| bere | bevo | bevi | beve | beviamo | bevete | bevono |\n| tenere | tengo | tieni | tiene | teniamo | tenete | tengono |\n\n_Esco con gli amici. · Bevo un succo. · Tengo il cane al guinzaglio._\n**Attenzione:** uscire: e- con io, tu, lui, loro (esco), ma u- con noi e voi (usciamo).",
+   "ruleHelp": "uscire (ausgehen): esco, esci, esce, usciamo, uscite, escono · bere (trinken): bevo, bevi, beve … (Stamm bev-) · tenere (halten): tengo, tieni, tiene, teniamo, tenete, tengono.\n**Achtung:** uscire hat e- bei io, tu, lui, loro, aber u- bei noi und voi.",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Uscire, bere o tenere?",
+    "explanation": "",
+    "promptHelp": "Welches Verb?",
+    "categories": [
+     {
+      "id": "u",
+      "label": "uscire"
+     },
+     {
+      "id": "b",
+      "label": "bere"
+     },
+     {
+      "id": "t",
+      "label": "tenere"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "esco",
+      "category": "u"
+     },
+     {
+      "id": "i2",
+      "text": "usciamo",
+      "category": "u"
+     },
+     {
+      "id": "i3",
+      "text": "escono",
+      "category": "u"
+     },
+     {
+      "id": "i4",
+      "text": "bevo",
+      "category": "b"
+     },
+     {
+      "id": "i5",
+      "text": "bevete",
+      "category": "b"
+     },
+     {
+      "id": "i6",
+      "text": "bevono",
+      "category": "b"
+     },
+     {
+      "id": "i7",
+      "text": "tengo",
+      "category": "t"
+     },
+     {
+      "id": "i8",
+      "text": "tieni",
+      "category": "t"
+     },
+     {
+      "id": "i9",
+      "text": "tengono",
+      "category": "t"
+     },
+     {
+      "id": "i10",
+      "text": "esci",
+      "category": "u"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-uscire-bere-l3",
+  "title": "Persona e forma",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi irregolari uscire, bere, tenere · Persona e forma · livello facile.",
+  "topics": [
+   "I verbi irregolari uscire, bere, tenere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: uscire, bere, tenere"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-uscire-bere",
+   "topicTitle": "I verbi irregolari uscire, bere, tenere",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| uscire | esco | esci | esce | usciamo | uscite | escono |\n| bere | bevo | bevi | beve | beviamo | bevete | bevono |\n| tenere | tengo | tieni | tiene | teniamo | tenete | tengono |\n\n_Esco con gli amici. · Bevo un succo. · Tengo il cane al guinzaglio._\n**Attenzione:** uscire: e- con io, tu, lui, loro (esco), ma u- con noi e voi (usciamo).",
+   "ruleHelp": "uscire (ausgehen): esco, esci, esce, usciamo, uscite, escono · bere (trinken): bevo, bevi, beve … (Stamm bev-) · tenere (halten): tengo, tieni, tiene, teniamo, tenete, tengono.\n**Achtung:** uscire hat e- bei io, tu, lui, loro, aber u- bei noi und voi.",
+   "order": 43
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina persona e forma di uscire.",
+    "explanation": "",
+    "promptHelp": "Verbinde Person und Form von uscire.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "io",
+      "right": "esco"
+     },
+     {
+      "id": "p2",
+      "left": "tu",
+      "right": "esci"
+     },
+     {
+      "id": "p3",
+      "left": "lui / lei",
+      "right": "esce"
+     },
+     {
+      "id": "p4",
+      "left": "noi",
+      "right": "usciamo"
+     },
+     {
+      "id": "p5",
+      "left": "voi",
+      "right": "uscite"
+     },
+     {
+      "id": "p6",
+      "left": "loro",
+      "right": "escono"
+     },
+     {
+      "id": "p7",
+      "left": "Marco e io",
+      "right": "usciamo"
+     },
+     {
+      "id": "p8",
+      "left": "tu e Sara",
+      "right": "uscite"
+     }
+    ],
+    "distractors": [
+     "uscono"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-uscire-bere-m1",
+  "title": "La tabella",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi irregolari uscire, bere, tenere · La tabella · livello medio.",
+  "topics": [
+   "I verbi irregolari uscire, bere, tenere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: uscire, bere, tenere"
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-uscire-bere",
+   "topicTitle": "I verbi irregolari uscire, bere, tenere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| uscire | esco | esci | esce | usciamo | uscite | escono |\n| bere | bevo | bevi | beve | beviamo | bevete | bevono |\n| tenere | tengo | tieni | tiene | teniamo | tenete | tengono |\n\n_Esco con gli amici. · Bevo un succo. · Tengo il cane al guinzaglio._\n**Attenzione:** uscire: e- con io, tu, lui, loro (esco), ma u- con noi e voi (usciamo).",
+   "ruleHelp": "uscire (ausgehen): esco, esci, esce, usciamo, uscite, escono · bere (trinken): bevo, bevi, beve … (Stamm bev-) · tenere (halten): tengo, tieni, tiene, teniamo, tenete, tengono.\n**Achtung:** uscire hat e- bei io, tu, lui, loro, aber u- bei noi und voi.",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Completa le forme.",
+    "explanation": "",
+    "promptHelp": "Ergänze die Formen.",
+    "columns": [
+     "persona",
+     "uscire",
+     "bere",
+     "tenere"
+    ],
+    "rows": [
+     [
+      "io",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "esco"
+       ]
+      },
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "bevo"
+       ]
+      },
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "tengo"
+       ]
+      }
+     ],
+     [
+      "tu",
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "esci"
+       ]
+      },
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "bevi"
+       ]
+      },
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "tieni"
+       ]
+      }
+     ],
+     [
+      "lui / lei",
+      {
+       "id": "c7",
+       "acceptedAnswers": [
+        "esce"
+       ]
+      },
+      {
+       "id": "c8",
+       "acceptedAnswers": [
+        "beve"
+       ]
+      },
+      {
+       "id": "c9",
+       "acceptedAnswers": [
+        "tiene"
+       ]
+      }
+     ],
+     [
+      "noi",
+      {
+       "id": "c10",
+       "acceptedAnswers": [
+        "usciamo"
+       ]
+      },
+      {
+       "id": "c11",
+       "acceptedAnswers": [
+        "beviamo"
+       ]
+      },
+      {
+       "id": "c12",
+       "acceptedAnswers": [
+        "teniamo"
+       ]
+      }
+     ],
+     [
+      "voi",
+      {
+       "id": "c13",
+       "acceptedAnswers": [
+        "uscite"
+       ]
+      },
+      {
+       "id": "c14",
+       "acceptedAnswers": [
+        "bevete"
+       ]
+      },
+      {
+       "id": "c15",
+       "acceptedAnswers": [
+        "tenete"
+       ]
+      }
+     ],
+     [
+      "loro",
+      {
+       "id": "c16",
+       "acceptedAnswers": [
+        "escono"
+       ]
+      },
+      {
+       "id": "c17",
+       "acceptedAnswers": [
+        "bevono"
+       ]
+      },
+      {
+       "id": "c18",
+       "acceptedAnswers": [
+        "tengono"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-uscire-bere-m2",
+  "title": "Il sabato sera",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi irregolari uscire, bere, tenere · Il sabato sera · livello medio.",
+  "topics": [
+   "I verbi irregolari uscire, bere, tenere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: uscire, bere, tenere"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-uscire-bere",
+   "topicTitle": "I verbi irregolari uscire, bere, tenere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| uscire | esco | esci | esce | usciamo | uscite | escono |\n| bere | bevo | bevi | beve | beviamo | bevete | bevono |\n| tenere | tengo | tieni | tiene | teniamo | tenete | tengono |\n\n_Esco con gli amici. · Bevo un succo. · Tengo il cane al guinzaglio._\n**Attenzione:** uscire: e- con io, tu, lui, loro (esco), ma u- con noi e voi (usciamo).",
+   "ruleHelp": "uscire (ausgehen): esco, esci, esce, usciamo, uscite, escono · bere (trinken): bevo, bevi, beve … (Stamm bev-) · tenere (halten): tengo, tieni, tiene, teniamo, tenete, tengono.\n**Achtung:** uscire hat e- bei io, tu, lui, loro, aber u- bei noi und voi.",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi i verbi nella forma giusta.",
+    "explanation": "",
+    "promptHelp": "Setze die Verben in der richtigen Form ein.",
+    "text": "Il sabato sera io (uscire) [[g1]] con i miei amici.\nPrima (noi, bere) [[g2]] qualcosa in piazza.\nMarco (bere) [[g3]] sempre un’aranciata.\nLe ragazze (uscire) [[g4]] alle otto e mezza.\nVoi (uscire) [[g5]] anche la domenica?\nMia sorella (tenere) [[g6]] il cellulare sempre in mano.\nTu (bere) [[g7]] il caffè la sera? Io no!\nNoi (tenere) [[g8]] i biglietti nello zaino.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "esco"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "beviamo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "beve"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "escono"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "uscite"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "tiene"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "bevi"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "teniamo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-uscire-bere-m3",
+  "title": "Domande",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi irregolari uscire, bere, tenere · Domande · livello medio.",
+  "topics": [
+   "I verbi irregolari uscire, bere, tenere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: uscire, bere, tenere"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-uscire-bere",
+   "topicTitle": "I verbi irregolari uscire, bere, tenere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| uscire | esco | esci | esce | usciamo | uscite | escono |\n| bere | bevo | bevi | beve | beviamo | bevete | bevono |\n| tenere | tengo | tieni | tiene | teniamo | tenete | tengono |\n\n_Esco con gli amici. · Bevo un succo. · Tengo il cane al guinzaglio._\n**Attenzione:** uscire: e- con io, tu, lui, loro (esco), ma u- con noi e voi (usciamo).",
+   "ruleHelp": "uscire (ausgehen): esco, esci, esce, usciamo, uscite, escono · bere (trinken): bevo, bevi, beve … (Stamm bev-) · tenere (halten): tengo, tieni, tiene, teniamo, tenete, tengono.\n**Achtung:** uscire hat e- bei io, tu, lui, loro, aber u- bei noi und voi.",
+   "order": 43
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Rispondi con la forma giusta.",
+    "explanation": "",
+    "promptHelp": "Antworte mit der richtigen Form.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Esci stasera? (sì) – …",
+      "acceptedAnswers": [
+       "Sì, esco"
+      ],
+      "modelAnswer": "Sì, esco stasera."
+     },
+     {
+      "id": "s2",
+      "start": "Uscite con noi? (sì) – …",
+      "acceptedAnswers": [
+       "Sì, usciamo"
+      ],
+      "modelAnswer": "Sì, usciamo con voi."
+     },
+     {
+      "id": "s3",
+      "start": "Che cosa bevi? (un succo) – …",
+      "acceptedAnswers": [
+       "Bevo un succo"
+      ],
+      "modelAnswer": "Bevo un succo."
+     },
+     {
+      "id": "s4",
+      "start": "Che cosa bevete? (acqua) – …",
+      "acceptedAnswers": [
+       "Beviamo acqua"
+      ],
+      "modelAnswer": "Beviamo acqua."
+     },
+     {
+      "id": "s5",
+      "start": "A che ora escono i ragazzi? (alle nove) – …",
+      "acceptedAnswers": [
+       "Escono alle nove"
+      ],
+      "modelAnswer": "Escono alle nove."
+     },
+     {
+      "id": "s6",
+      "start": "Tieni tu le chiavi? (sì) – …",
+      "acceptedAnswers": [
+       "Sì, tengo io le chiavi",
+       "Sì, le tengo io"
+      ],
+      "modelAnswer": "Sì, le tengo io."
+     },
+     {
+      "id": "s7",
+      "start": "Beve il latte tuo fratello? (no) – …",
+      "acceptedAnswers": [
+       "No, non beve il latte"
+      ],
+      "modelAnswer": "No, non beve il latte."
+     },
+     {
+      "id": "s8",
+      "start": "Esce spesso tua sorella? (sì) – …",
+      "acceptedAnswers": [
+       "Sì, esce spesso"
+      ],
+      "modelAnswer": "Sì, esce spesso."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-uscire-bere-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi irregolari uscire, bere, tenere · Trova gli errori · livello difficile.",
+  "topics": [
+   "I verbi irregolari uscire, bere, tenere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: uscire, bere, tenere"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-uscire-bere",
+   "topicTitle": "I verbi irregolari uscire, bere, tenere",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| uscire | esco | esci | esce | usciamo | uscite | escono |\n| bere | bevo | bevi | beve | beviamo | bevete | bevono |\n| tenere | tengo | tieni | tiene | teniamo | tenete | tengono |\n\n_Esco con gli amici. · Bevo un succo. · Tengo il cane al guinzaglio._\n**Attenzione:** uscire: e- con io, tu, lui, loro (esco), ma u- con noi e voi (usciamo).",
+   "ruleHelp": "uscire (ausgehen): esco, esci, esce, usciamo, uscite, escono · bere (trinken): bevo, bevi, beve … (Stamm bev-) · tenere (halten): tengo, tieni, tiene, teniamo, tenete, tengono.\n**Achtung:** uscire hat e- bei io, tu, lui, loro, aber u- bei noi und voi.",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi le forme sbagliate.",
+    "explanation": "",
+    "promptHelp": "Korrigiere die falschen Formen.",
+    "text": "Io [[g1]] alle sette.\nNoi [[g2]] insieme.\nLoro [[g3]] tardi.\nTu [[g4]] il tè?\nVoi [[g5]] acqua?\nIo [[g6]] il cane.\nLui [[g7]] il libro.\nLoro [[g8]] la porta aperta.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "usco",
+      "acceptedAnswers": [
+       "esco"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "esciamo",
+      "acceptedAnswers": [
+       "usciamo"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "uscono",
+      "acceptedAnswers": [
+       "escono"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "beri",
+      "acceptedAnswers": [
+       "bevi"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "berete",
+      "acceptedAnswers": [
+       "bevete"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "teno",
+      "acceptedAnswers": [
+       "tengo"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "tene",
+      "acceptedAnswers": [
+       "tiene"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "tenono",
+      "acceptedAnswers": [
+       "tengono"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-uscire-bere-s2",
+  "title": "Una serata con gli amici",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi irregolari uscire, bere, tenere · Una serata con gli amici · livello difficile.",
+  "topics": [
+   "I verbi irregolari uscire, bere, tenere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: uscire, bere, tenere"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco1-uscire-bere",
+   "topicTitle": "I verbi irregolari uscire, bere, tenere",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| uscire | esco | esci | esce | usciamo | uscite | escono |\n| bere | bevo | bevi | beve | beviamo | bevete | bevono |\n| tenere | tengo | tieni | tiene | teniamo | tenete | tengono |\n\n_Esco con gli amici. · Bevo un succo. · Tengo il cane al guinzaglio._\n**Attenzione:** uscire: e- con io, tu, lui, loro (esco), ma u- con noi e voi (usciamo).",
+   "ruleHelp": "uscire (ausgehen): esco, esci, esce, usciamo, uscite, escono · bere (trinken): bevo, bevi, beve … (Stamm bev-) · tenere (halten): tengo, tieni, tiene, teniamo, tenete, tengono.\n**Achtung:** uscire hat e- bei io, tu, lui, loro, aber u- bei noi und voi.",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi uscire, bere, tenere, andare e fare nella forma giusta.",
+    "explanation": "",
+    "promptHelp": "Ergänze die Verben.",
+    "text": "Venerdì sera io e Sara (uscire) [[g1]] presto.\n(Andare, noi) [[g2]] in un bar in centro.\nIo (bere) [[g3]] una limonata, Sara (bere) [[g4]] un tè freddo.\nPoi (arrivare) [[g5]] Luca e Paolo: loro (uscire) [[g6]] dal cinema.\nLuca (tenere) [[g7]] in mano due biglietti per un concerto!\n«Ragazze, (uscire, voi) [[g8]] anche domani?» chiede.\nSì, ma prima (fare, noi) [[g9]] i compiti!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "usciamo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Andiamo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "bevo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "beve"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "arrivano"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "escono"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "tiene"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "uscite"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "facciamo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-uscire-bere-s3",
+  "title": "E tu?",
+  "language": "it",
+  "level": "A1",
+  "description": "I verbi irregolari uscire, bere, tenere · E tu? · livello difficile.",
+  "topics": [
+   "I verbi irregolari uscire, bere, tenere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "6 · Vestiti e cibo",
+    "section": "Parte A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Präsens: uscire, bere, tenere"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-uscire-bere",
+   "topicTitle": "I verbi irregolari uscire, bere, tenere",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| uscire | esco | esci | esce | usciamo | uscite | escono |\n| bere | bevo | bevi | beve | beviamo | bevete | bevono |\n| tenere | tengo | tieni | tiene | teniamo | tenete | tengono |\n\n_Esco con gli amici. · Bevo un succo. · Tengo il cane al guinzaglio._\n**Attenzione:** uscire: e- con io, tu, lui, loro (esco), ma u- con noi e voi (usciamo).",
+   "ruleHelp": "uscire (ausgehen): esco, esci, esce, usciamo, uscite, escono · bere (trinken): bevo, bevi, beve … (Stamm bev-) · tenere (halten): tengo, tieni, tiene, teniamo, tenete, tengono.\n**Achtung:** uscire hat e- bei io, tu, lui, loro, aber u- bei noi und voi.",
+   "order": 43
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Quando esci con gli amici? Che cosa bevete? Scrivi 4 frasi con uscire e bere.",
+    "explanation": "",
+    "promptHelp": "Wann gehst du mit Freunden aus? Was trinkt ihr? Schreibe 4 Sätze.",
+    "modelAnswer": "Il sabato esco con i miei amici. Usciamo alle cinque. Di solito beviamo un succo in piazza. Mia sorella esce poco.",
+    "lines": 4
+   },
+   {
+    "id": "q2",
+    "type": "gap_fill",
+    "prompt": "E adesso completa.",
+    "explanation": "",
+    "promptHelp": "Und jetzt ergänze.",
+    "text": "Io (uscire) [[g1]] il sabato.\nI miei amici (bere) [[g2]] l’aranciata.\nNoi (uscire) [[g3]] insieme.\nMio padre (bere) [[g4]] il caffè.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "esco"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "bevono"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "usciamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "beve"
       ]
      }
     ]

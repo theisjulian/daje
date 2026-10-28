@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-posizione-pronomi-m1",
+ "title": "Riscrivi in un altro modo",
+ "language": "it",
+ "level": "A1",
+ "description": "La posizione dei pronomi · Riscrivi in un altro modo · livello medio.",
+ "topics": [
+  "La posizione dei pronomi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Stellung der Objektpronomen bei Verneinung, Modalverben und Infinitiv"
+ },
+ "grammar": {
+  "topic": "ecco1-posizione-pronomi",
+  "topicTitle": "La posizione dei pronomi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 71,
+  "rule": "- Di solito il pronome va **prima del verbo**: _**Lo** compro._ · con non: _**Non lo** compro._\n- Con **dovere, potere, volere** ci sono due possibilità:\n  _**Lo** voglio comprare._ = _Voglio comprar**lo**._ (l’infinito perde la -e: comprare → comprar + lo)\n- Con un **infinito** senza modale il pronome va attaccato: _È bello veder**ti**!_ · _Ho voglia di mangiar**la**._",
+  "ruleHelp": "Meist steht das Pronomen **vor dem Verb**: _Lo compro. Non lo compro._\nBei **dovere, potere, volere** zwei Möglichkeiten: _Lo voglio comprare = Voglio comprarlo_ (Infinitiv ohne -e + Pronomen).\nBeim **Infinitiv** wird das Pronomen angehängt: _È bello vederti!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi la frase nell’altro modo.",
+   "promptHelp": "Schreibe den Satz auf die andere Art.",
+   "explanation": "L’infinito perde la -e: comprare + lo → comprarlo.",
+   "explanationHelp": "Der Infinitiv verliert das -e.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Lo voglio comprare. → Voglio …",
+     "acceptedAnswers": [
+      "comprarlo"
+     ],
+     "modelAnswer": "Voglio comprarlo."
+    },
+    {
+     "id": "s2",
+     "start": "La devo chiamare. → Devo …",
+     "acceptedAnswers": [
+      "chiamarla"
+     ],
+     "modelAnswer": "Devo chiamarla."
+    },
+    {
+     "id": "s3",
+     "start": "Li posso prendere. → Posso …",
+     "acceptedAnswers": [
+      "prenderli"
+     ],
+     "modelAnswer": "Posso prenderli."
+    },
+    {
+     "id": "s4",
+     "start": "Le vogliamo vedere. → Vogliamo …",
+     "acceptedAnswers": [
+      "vederle"
+     ],
+     "modelAnswer": "Vogliamo vederle."
+    },
+    {
+     "id": "s5",
+     "start": "Voglio invitarti. → … voglio invitare.",
+     "acceptedAnswers": [
+      "Ti"
+     ],
+     "modelAnswer": "Ti voglio invitare."
+    },
+    {
+     "id": "s6",
+     "start": "Devo aiutarvi. → … devo aiutare.",
+     "acceptedAnswers": [
+      "Vi"
+     ],
+     "modelAnswer": "Vi devo aiutare."
+    },
+    {
+     "id": "s7",
+     "start": "Possiamo provarlo? → … possiamo provare?",
+     "acceptedAnswers": [
+      "Lo"
+     ],
+     "modelAnswer": "Lo possiamo provare?"
+    },
+    {
+     "id": "s8",
+     "start": "Puoi chiamarmi? → … puoi chiamare?",
+     "acceptedAnswers": [
+      "Mi"
+     ],
+     "modelAnswer": "Mi puoi chiamare?"
+    }
+   ]
+  }
+ ]
+}

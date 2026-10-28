@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-pronomi-diretti-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A1",
+ "description": "I pronomi diretti (lo, la, li, le …) · Trova gli errori · livello difficile.",
+ "topics": [
+  "I pronomi diretti (lo, la, li, le …)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte direkte Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-pronomi-diretti",
+  "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 31,
+  "rule": "I pronomi diretti sostituiscono un **oggetto diretto** (chi? che cosa?) e vanno **prima del verbo**:\n| mi | ti | lo | la | ci | vi | li | le |\n| mich | dich | ihn / es | sie / es | uns | euch | sie (m.) | sie (f.) |\n\n- _Compri la gonna? – Sì, **la** compro._\n- _Vedi Marco? – Sì, **lo** vedo._\n- _Prendi i pomodori? – Sì, **li** prendo._ · _Le mele? – **Le** prendo io._\n- Davanti a vocale: **l’**: _L’aspetto._ · Negazione: _Non **lo** vedo._",
+  "ruleHelp": "Direkte Objektpronomen ersetzen ein **direktes Objekt** (wen? was?) und stehen **vor dem Verb**: mi, ti, lo, la, ci, vi, li, le.\n_Compri la gonna? – Sì, la compro._ · Vor Vokal: _l’_ (L’aspetto). · Verneinung: _Non lo vedo._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi i pronomi sbagliati.",
+   "promptHelp": "Korrigiere die falschen Pronomen.",
+   "type": "error_correction",
+   "text": "Il formaggio? [[g1]] compro io.\nLe scarpe? [[g2]] provo subito.\nI biscotti? [[g3]] mangiamo tutti.\nLa gonna? Non [[g4]] voglio.\nMarco? [[g5]] vedo domani.\nLe amiche? [[g6]] invito sabato.\nIl latte? Non [[g7]] bevo.\nI pantaloni? [[g8]] prendo blu.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "La",
+     "acceptedAnswers": [
+      "Lo"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "Li",
+     "acceptedAnswers": [
+      "Le"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "Lo",
+     "acceptedAnswers": [
+      "Li"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "lo",
+     "acceptedAnswers": [
+      "la"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "Li",
+     "acceptedAnswers": [
+      "Lo"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "Lo",
+     "acceptedAnswers": [
+      "Le"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "li",
+     "acceptedAnswers": [
+      "lo"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "Le",
+     "acceptedAnswers": [
+      "Li"
+     ]
+    }
+   ]
+  }
+ ]
+}

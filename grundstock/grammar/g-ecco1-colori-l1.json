@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-colori-l1",
+ "title": "Di che colore è?",
+ "language": "it",
+ "level": "A1",
+ "description": "I colori · Di che colore è? · livello facile.",
+ "topics": [
+  "I colori",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Farbadjektive"
+ },
+ "grammar": {
+  "topic": "ecco1-colori",
+  "topicTitle": "I colori",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 11,
+  "rule": "I colori sono aggettivi: vanno **dopo** il nome e cambiano come il nome.\n| -o/-a | rosso, rossa, rossi, rosse · nero · bianco (bianchi, bianche) · giallo · grigio (grigi, grigie) · azzurro |\n| -e | verde, verdi · marrone, marroni · arancione, arancioni |\n| non cambiano | blu · rosa · viola · beige |\n\n_una maglietta **rossa**, due magliette **rosse**, i pantaloni **blu**, le scarpe **rosa**._",
+  "ruleHelp": "Farben sind Adjektive: Sie stehen **nach** dem Nomen und passen sich an (rosso/rossa/rossi/rosse; verde/verdi).\n**Unveränderlich** sind blu, rosa, viola, beige: _i pantaloni blu, le scarpe rosa._ Achtung: bianco → bianchi/bianche, grigio → grigi/grigie."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta del colore.",
+   "promptHelp": "Wähle die richtige Farbform.",
+   "explanation": "blu, rosa, viola non cambiano mai. bianco → bianchi/bianche.",
+   "explanationHelp": "blu, rosa, viola bleiben gleich. bianco → bianchi/bianche.",
+   "type": "gap_choice",
+   "text": "una maglietta [[g1]]\nun cappello [[g2]]\ndue gonne [[g3]]\ni pantaloni [[g4]]\nle scarpe [[g5]]\nuna giacca [[g6]]\nle calze [[g7]]\nun vestito [[g8]]\ni maglioni [[g9]]\nuna felpa [[g10]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "rossa",
+      "rosso",
+      "rosse"
+     ],
+     "answer": "rossa"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "nero",
+      "nera",
+      "neri"
+     ],
+     "answer": "nero"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "bianche",
+      "bianchi",
+      "bianca"
+     ],
+     "answer": "bianche"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "blu",
+      "blui",
+      "bla"
+     ],
+     "answer": "blu"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "rosa",
+      "rose",
+      "rosi"
+     ],
+     "answer": "rosa"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "verde",
+      "verda",
+      "verdi"
+     ],
+     "answer": "verde"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "gialle",
+      "gialli",
+      "gialla"
+     ],
+     "answer": "gialle"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "viola",
+      "violo",
+      "viole"
+     ],
+     "answer": "viola"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "grigi",
+      "grigie",
+      "grigio"
+     ],
+     "answer": "grigi"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "arancione",
+      "aranciona",
+      "arancioni"
+     ],
+     "answer": "arancione"
+    }
+   ]
+  }
+ ]
+}

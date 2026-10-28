@@ -1,0 +1,124 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-pronomi-indiretti-2-s3",
+ "title": "Dal nome al pronome",
+ "language": "it",
+ "level": "A1",
+ "description": "Pronomi indiretti e pronomi tonici · Dal nome al pronome · livello difficile.",
+ "topics": [
+  "Pronomi indiretti e pronomi tonici",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte indirekte und betonte Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-pronomi-indiretti-2",
+  "topicTitle": "Pronomi indiretti e pronomi tonici",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 63,
+  "rule": "**Pronomi indiretti** (a chi?) prima del verbo:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n_Gli preparo la cena. · Le piace il rosso. · Ci manca la pizza._\n\n**Pronomi tonici** dopo una preposizione o per sottolineare:\n| me | te | lui | lei | Lei | noi | voi | loro |\n_Vieni **con me**? · Questo è **per te**. · **A me** piace, **a lui** no._",
+  "ruleHelp": "**Indirekte Pronomen** (wem?) stehen vor dem Verb: mi, ti, gli, le, Le, ci, vi, gli. _Gli preparo la cena. Le piace il rosso._\n**Betonte Pronomen** nach Präpositionen oder zur Betonung: me, te, lui, lei, Lei, noi, voi, loro: _con me, per te, a me piace, a lui no._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Riscrivi con il pronome indiretto.",
+   "promptHelp": "Schreibe mit indirektem Pronomen.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Preparo la cena a Marco. → …",
+     "acceptedAnswers": [
+      "Gli preparo la cena"
+     ],
+     "modelAnswer": "Gli preparo la cena."
+    },
+    {
+     "id": "s2",
+     "start": "Do il libro a Sara. → …",
+     "acceptedAnswers": [
+      "Le do il libro"
+     ],
+     "modelAnswer": "Le do il libro."
+    },
+    {
+     "id": "s3",
+     "start": "Telefono ai nonni. → …",
+     "acceptedAnswers": [
+      "Gli telefono",
+      "Telefono loro"
+     ],
+     "modelAnswer": "Gli telefono."
+    },
+    {
+     "id": "s4",
+     "start": "Scrivo una mail a te. → …",
+     "acceptedAnswers": [
+      "Ti scrivo una mail"
+     ],
+     "modelAnswer": "Ti scrivo una mail."
+    },
+    {
+     "id": "s5",
+     "start": "Il vestito piace a mia madre. → …",
+     "acceptedAnswers": [
+      "Le piace il vestito",
+      "Il vestito le piace"
+     ],
+     "modelAnswer": "Le piace il vestito."
+    },
+    {
+     "id": "s6",
+     "start": "Porto i fiori alla prof. → …",
+     "acceptedAnswers": [
+      "Le porto i fiori"
+     ],
+     "modelAnswer": "Le porto i fiori."
+    },
+    {
+     "id": "s7",
+     "start": "Rispondo a voi domani. → …",
+     "acceptedAnswers": [
+      "Vi rispondo domani"
+     ],
+     "modelAnswer": "Vi rispondo domani."
+    },
+    {
+     "id": "s8",
+     "start": "Il gelato piace a noi. → …",
+     "acceptedAnswers": [
+      "Ci piace il gelato",
+      "Il gelato ci piace"
+     ],
+     "modelAnswer": "Ci piace il gelato."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quantita-di-s2",
+ "title": "La ricetta: bruschetta",
+ "language": "it",
+ "level": "A1",
+ "description": "Le quantità: un chilo di, un etto di … · La ricetta: bruschetta · livello difficile.",
+ "topics": [
+  "Le quantità: un chilo di, un etto di …",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Mengenangaben"
+ },
+ "grammar": {
+  "topic": "ecco1-quantita-di",
+  "topicTitle": "Le quantità: un chilo di, un etto di …",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 52,
+  "rule": "Dopo una quantità precisa usiamo **di** (senza articolo):\n- _un chilo **di** mele · mezzo chilo **di** pane · un etto **di** prosciutto_ (100 g)\n- _un litro **di** latte · una bottiglia **d’**acqua · un pacco **di** pasta · una scatola **di** biscotti_\n- _un pezzo **di** formaggio · una fetta **di** torta · un vasetto **di** miele · un mazzo **di** basilico_\nDavanti a vocale: **d’**: _una bottiglia d’acqua, un litro d’olio._\n_Quanto costa? / Quanto costano?_ · _Quanti ne vuole?_ (più avanti)",
+  "ruleHelp": "Nach einer genauen Menge steht **di** (ohne Artikel): _un chilo di mele, un etto di prosciutto (100 g), un litro di latte, una bottiglia d’acqua, un pacco di pasta, una fetta di torta._ Vor Vokal: **d’**."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la ricetta con le quantità e di / d’.",
+   "promptHelp": "Ergänze das Rezept mit Mengen und di / d’.",
+   "explanation": "un po’ di, un pizzico di, uno spicchio d’aglio.",
+   "explanationHelp": "un po’ di, un pizzico di, uno spicchio d’aglio.",
+   "type": "gap_fill",
+   "text": "Per quattro persone ci vogliono:\notto fette [[g1]] pane,\nmezzo [[g2]] di pomodori maturi,\nun mazzo [[g3]] basilico,\ndue spicchi [[g4]] aglio,\nun po’ [[g5]] olio d’oliva\ne un pizzico [[g6]] sale.\nPer finire, una foglia [[g7]] basilico su ogni fetta.\nPrima tagliamo i pomodori, poi mettiamo tutto sulle fette [[g8]] pane.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "chilo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "d’"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "d’"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "di"
+     ]
+    }
+   ]
+  }
+ ]
+}

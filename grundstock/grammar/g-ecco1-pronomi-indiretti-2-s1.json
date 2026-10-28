@@ -1,0 +1,116 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-pronomi-indiretti-2-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A1",
+ "description": "Pronomi indiretti e pronomi tonici · Trova gli errori · livello difficile.",
+ "topics": [
+  "Pronomi indiretti e pronomi tonici",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte indirekte und betonte Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-pronomi-indiretti-2",
+  "topicTitle": "Pronomi indiretti e pronomi tonici",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 61,
+  "rule": "**Pronomi indiretti** (a chi?) prima del verbo:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n_Gli preparo la cena. · Le piace il rosso. · Ci manca la pizza._\n\n**Pronomi tonici** dopo una preposizione o per sottolineare:\n| me | te | lui | lei | Lei | noi | voi | loro |\n_Vieni **con me**? · Questo è **per te**. · **A me** piace, **a lui** no._",
+  "ruleHelp": "**Indirekte Pronomen** (wem?) stehen vor dem Verb: mi, ti, gli, le, Le, ci, vi, gli. _Gli preparo la cena. Le piace il rosso._\n**Betonte Pronomen** nach Präpositionen oder zur Betonung: me, te, lui, lei, Lei, noi, voi, loro: _con me, per te, a me piace, a lui no._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi i pronomi sbagliati.",
+   "promptHelp": "Korrigiere die falschen Pronomen.",
+   "explanation": "Prima del verbo: mi, ti, gli, le … · dopo una preposizione: me, te, lui, lei, loro.",
+   "explanationHelp": "Vor dem Verb unbetont, nach Präposition betont.",
+   "type": "error_correction",
+   "text": "Esci con [[g1]]?\nA Marco? [[g2]] telefono stasera.\nQuesto è per [[g3]].\nSara ha fame, [[g4]] do un panino.\nVengo con [[g5]].\n[[g6]] piace molto questo vestito.\nAbitiamo vicino a [[g7]].\nSignora, [[g8]] piace il rosso?",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "mi",
+     "acceptedAnswers": [
+      "me"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "Le",
+     "acceptedAnswers": [
+      "Gli"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "ti",
+     "acceptedAnswers": [
+      "te"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "gli",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "tu",
+     "acceptedAnswers": [
+      "te"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "Me",
+     "acceptedAnswers": [
+      "Mi"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "gli",
+     "acceptedAnswers": [
+      "loro"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "ti",
+     "acceptedAnswers": [
+      "Le"
+     ]
+    }
+   ]
+  }
+ ]
+}

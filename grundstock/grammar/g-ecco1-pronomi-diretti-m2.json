@@ -1,0 +1,124 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-pronomi-diretti-m2",
+ "title": "Rispondi con il pronome",
+ "language": "it",
+ "level": "A1",
+ "description": "I pronomi diretti (lo, la, li, le …) · Rispondi con il pronome · livello medio.",
+ "topics": [
+  "I pronomi diretti (lo, la, li, le …)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte direkte Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-pronomi-diretti",
+  "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 32,
+  "rule": "I pronomi diretti sostituiscono un **oggetto diretto** (chi? che cosa?) e vanno **prima del verbo**:\n| mi | ti | lo | la | ci | vi | li | le |\n| mich | dich | ihn / es | sie / es | uns | euch | sie (m.) | sie (f.) |\n\n- _Compri la gonna? – Sì, **la** compro._\n- _Vedi Marco? – Sì, **lo** vedo._\n- _Prendi i pomodori? – Sì, **li** prendo._ · _Le mele? – **Le** prendo io._\n- Davanti a vocale: **l’**: _L’aspetto._ · Negazione: _Non **lo** vedo._",
+  "ruleHelp": "Direkte Objektpronomen ersetzen ein **direktes Objekt** (wen? was?) und stehen **vor dem Verb**: mi, ti, lo, la, ci, vi, li, le.\n_Compri la gonna? – Sì, la compro._ · Vor Vokal: _l’_ (L’aspetto). · Verneinung: _Non lo vedo._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi con il pronome diretto.",
+   "promptHelp": "Antworte mit dem direkten Objektpronomen.",
+   "explanation": "la + aspetto → l’aspetto (davanti a vocale).",
+   "explanationHelp": "Vor Vokal wird lo/la zu l’.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Compri la maglietta? – Sì, …",
+     "acceptedAnswers": [
+      "la compro"
+     ],
+     "modelAnswer": "Sì, la compro."
+    },
+    {
+     "id": "s2",
+     "start": "Prendi i jeans? – Sì, …",
+     "acceptedAnswers": [
+      "li prendo"
+     ],
+     "modelAnswer": "Sì, li prendo."
+    },
+    {
+     "id": "s3",
+     "start": "Provi le scarpe? – Sì, …",
+     "acceptedAnswers": [
+      "le provo"
+     ],
+     "modelAnswer": "Sì, le provo."
+    },
+    {
+     "id": "s4",
+     "start": "Vedi il cappello? – No, …",
+     "acceptedAnswers": [
+      "non lo vedo"
+     ],
+     "modelAnswer": "No, non lo vedo."
+    },
+    {
+     "id": "s5",
+     "start": "Aspetti Sara? – Sì, …",
+     "acceptedAnswers": [
+      "la aspetto",
+      "l’aspetto"
+     ],
+     "modelAnswer": "Sì, l’aspetto."
+    },
+    {
+     "id": "s6",
+     "start": "Chiami i nonni? – Sì, …",
+     "acceptedAnswers": [
+      "li chiamo"
+     ],
+     "modelAnswer": "Sì, li chiamo."
+    },
+    {
+     "id": "s7",
+     "start": "Mangi la pasta? – No, …",
+     "acceptedAnswers": [
+      "non la mangio"
+     ],
+     "modelAnswer": "No, non la mangio."
+    },
+    {
+     "id": "s8",
+     "start": "Inviti le tue amiche? – Sì, …",
+     "acceptedAnswers": [
+      "le invito"
+     ],
+     "modelAnswer": "Sì, le invito."
+    }
+   ]
+  }
+ ]
+}

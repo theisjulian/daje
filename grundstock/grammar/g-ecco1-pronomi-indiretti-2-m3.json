@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-pronomi-indiretti-2-m3",
+ "title": "A me sì, a te no",
+ "language": "it",
+ "level": "A1",
+ "description": "Pronomi indiretti e pronomi tonici · A me sì, a te no · livello medio.",
+ "topics": [
+  "Pronomi indiretti e pronomi tonici",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte indirekte und betonte Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-pronomi-indiretti-2",
+  "topicTitle": "Pronomi indiretti e pronomi tonici",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 63,
+  "rule": "**Pronomi indiretti** (a chi?) prima del verbo:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| a me | a te | a lui | a lei | a Lei | a noi | a voi | a loro |\n_Gli preparo la cena. · Le piace il rosso. · Ci manca la pizza._\n\n**Pronomi tonici** dopo una preposizione o per sottolineare:\n| me | te | lui | lei | Lei | noi | voi | loro |\n_Vieni **con me**? · Questo è **per te**. · **A me** piace, **a lui** no._",
+  "ruleHelp": "**Indirekte Pronomen** (wem?) stehen vor dem Verb: mi, ti, gli, le, Le, ci, vi, gli. _Gli preparo la cena. Le piace il rosso._\n**Betonte Pronomen** nach Präpositionen oder zur Betonung: me, te, lui, lei, Lei, noi, voi, loro: _con me, per te, a me piace, a lui no._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con il pronome tonico, come nell’esempio: A me piace il rosso, a lui (no) …",
+   "promptHelp": "Ergänze wie im Beispiel.",
+   "explanation": "Per sottolineare o fare un contrasto: a me, a te, a lui …",
+   "explanationHelp": "Zur Betonung oder für einen Gegensatz.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "A me piace il rosso, a lui (no) …",
+     "acceptedAnswers": [
+      "a lui no"
+     ],
+     "modelAnswer": "A me piace il rosso, a lui no."
+    },
+    {
+     "id": "s2",
+     "start": "A Sara piacciono i gatti, a me (anche) …",
+     "acceptedAnswers": [
+      "anche a me"
+     ],
+     "modelAnswer": "Anche a me."
+    },
+    {
+     "id": "s3",
+     "start": "A noi piace la pasta, a voi (no?) …",
+     "acceptedAnswers": [
+      "a voi no"
+     ],
+     "modelAnswer": "A voi no?"
+    },
+    {
+     "id": "s4",
+     "start": "A te piace il caffè? A me (no) …",
+     "acceptedAnswers": [
+      "a me no"
+     ],
+     "modelAnswer": "A me no."
+    },
+    {
+     "id": "s5",
+     "start": "A loro piace il mare, a noi (la montagna) …",
+     "acceptedAnswers": [
+      "a noi la montagna"
+     ],
+     "modelAnswer": "A noi la montagna."
+    },
+    {
+     "id": "s6",
+     "start": "A lei piacciono i gialli, a lui (i fumetti) …",
+     "acceptedAnswers": [
+      "a lui i fumetti"
+     ],
+     "modelAnswer": "A lui i fumetti."
+    },
+    {
+     "id": "s7",
+     "start": "A voi piace ballare? A noi (sì) …",
+     "acceptedAnswers": [
+      "a noi sì"
+     ],
+     "modelAnswer": "A noi sì!"
+    },
+    {
+     "id": "s8",
+     "start": "A me piacciono i cani, a te (i gatti) …",
+     "acceptedAnswers": [
+      "a te i gatti"
+     ],
+     "modelAnswer": "A te i gatti."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quantita-di-l1",
+ "title": "Quale quantità?",
+ "language": "it",
+ "level": "A1",
+ "description": "Le quantità: un chilo di, un etto di … · Quale quantità? · livello facile.",
+ "topics": [
+  "Le quantità: un chilo di, un etto di …",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Mengenangaben"
+ },
+ "grammar": {
+  "topic": "ecco1-quantita-di",
+  "topicTitle": "Le quantità: un chilo di, un etto di …",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 51,
+  "rule": "Dopo una quantità precisa usiamo **di** (senza articolo):\n- _un chilo **di** mele · mezzo chilo **di** pane · un etto **di** prosciutto_ (100 g)\n- _un litro **di** latte · una bottiglia **d’**acqua · un pacco **di** pasta · una scatola **di** biscotti_\n- _un pezzo **di** formaggio · una fetta **di** torta · un vasetto **di** miele · un mazzo **di** basilico_\nDavanti a vocale: **d’**: _una bottiglia d’acqua, un litro d’olio._\n_Quanto costa? / Quanto costano?_ · _Quanti ne vuole?_ (più avanti)",
+  "ruleHelp": "Nach einer genauen Menge steht **di** (ohne Artikel): _un chilo di mele, un etto di prosciutto (100 g), un litro di latte, una bottiglia d’acqua, un pacco di pasta, una fetta di torta._ Vor Vokal: **d’**."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina la quantità al prodotto.",
+   "promptHelp": "Was passt zusammen?",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "un litro di",
+     "right": "latte"
+    },
+    {
+     "id": "p2",
+     "left": "un chilo di",
+     "right": "mele"
+    },
+    {
+     "id": "p3",
+     "left": "un etto di",
+     "right": "prosciutto"
+    },
+    {
+     "id": "p4",
+     "left": "una bottiglia di",
+     "right": "acqua"
+    },
+    {
+     "id": "p5",
+     "left": "un pacco di",
+     "right": "pasta"
+    },
+    {
+     "id": "p6",
+     "left": "una scatola di",
+     "right": "biscotti"
+    },
+    {
+     "id": "p7",
+     "left": "una fetta di",
+     "right": "torta"
+    },
+    {
+     "id": "p8",
+     "left": "un mazzo di",
+     "right": "basilico"
+    }
+   ],
+   "distractors": [
+    "un litro di pane"
+   ]
+  }
+ ]
+}

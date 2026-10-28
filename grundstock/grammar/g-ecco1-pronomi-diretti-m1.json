@@ -1,0 +1,108 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-pronomi-diretti-m1",
+ "title": "La lista della spesa",
+ "language": "it",
+ "level": "A1",
+ "description": "I pronomi diretti (lo, la, li, le …) · La lista della spesa · livello medio.",
+ "topics": [
+  "I pronomi diretti (lo, la, li, le …)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · unbetonte direkte Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-pronomi-diretti",
+  "topicTitle": "I pronomi diretti (lo, la, li, le …)",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 31,
+  "rule": "I pronomi diretti sostituiscono un **oggetto diretto** (chi? che cosa?) e vanno **prima del verbo**:\n| mi | ti | lo | la | ci | vi | li | le |\n| mich | dich | ihn / es | sie / es | uns | euch | sie (m.) | sie (f.) |\n\n- _Compri la gonna? – Sì, **la** compro._\n- _Vedi Marco? – Sì, **lo** vedo._\n- _Prendi i pomodori? – Sì, **li** prendo._ · _Le mele? – **Le** prendo io._\n- Davanti a vocale: **l’**: _L’aspetto._ · Negazione: _Non **lo** vedo._",
+  "ruleHelp": "Direkte Objektpronomen ersetzen ein **direktes Objekt** (wen? was?) und stehen **vor dem Verb**: mi, ti, lo, la, ci, vi, li, le.\n_Compri la gonna? – Sì, la compro._ · Vor Vokal: _l’_ (L’aspetto). · Verneinung: _Non lo vedo._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi il pronome diretto.",
+   "promptHelp": "Ergänze das direkte Objektpronomen.",
+   "explanation": "Il pronome va prima del verbo; con non: non lo trovo.",
+   "explanationHelp": "Das Pronomen steht vor dem Verb; mit non: non lo trovo.",
+   "type": "gap_fill",
+   "text": "– Il pane? – [[g1]] compro io.\n– E la mozzarella? – [[g2]] prende Marco.\n– I pomodori? – [[g3]] porto dal mercato.\n– E le uova? – [[g4]] ho già in frigo.\n– Il basilico? – Non [[g5]] trovo!\n– La frutta? – [[g6]] compriamo dopo.\n– E i biscotti? – [[g7]] mangiamo stasera!\n– Le banane? – Non [[g8]] voglio, grazie.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Lo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "La"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Li"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Le"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "lo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "La"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Li"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "le"
+     ]
+    }
+   ]
+  }
+ ]
+}

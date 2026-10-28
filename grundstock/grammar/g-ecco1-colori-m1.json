@@ -1,0 +1,124 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-colori-m1",
+ "title": "Il mio guardaroba",
+ "language": "it",
+ "level": "A1",
+ "description": "I colori · Il mio guardaroba · livello medio.",
+ "topics": [
+  "I colori",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 6 · Vestiti e cibo · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "6 · Vestiti e cibo",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Farbadjektive"
+ },
+ "grammar": {
+  "topic": "ecco1-colori",
+  "topicTitle": "I colori",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 11,
+  "rule": "I colori sono aggettivi: vanno **dopo** il nome e cambiano come il nome.\n| -o/-a | rosso, rossa, rossi, rosse · nero · bianco (bianchi, bianche) · giallo · grigio (grigi, grigie) · azzurro |\n| -e | verde, verdi · marrone, marroni · arancione, arancioni |\n| non cambiano | blu · rosa · viola · beige |\n\n_una maglietta **rossa**, due magliette **rosse**, i pantaloni **blu**, le scarpe **rosa**._",
+  "ruleHelp": "Farben sind Adjektive: Sie stehen **nach** dem Nomen und passen sich an (rosso/rossa/rossi/rosse; verde/verdi).\n**Unveränderlich** sind blu, rosa, viola, beige: _i pantaloni blu, le scarpe rosa._ Achtung: bianco → bianchi/bianche, grigio → grigi/grigie."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi il colore nella forma giusta.",
+   "promptHelp": "Ergänze die Farbe in der richtigen Form.",
+   "type": "gap_fill",
+   "text": "Ho una giacca (nero) [[g1]] e due magliette (bianco) [[g2]].\nLe mie scarpe preferite sono (rosso) [[g3]].\nI miei jeans sono (blu) [[g4]].\nMia sorella ha un vestito (viola) [[g5]].\nLe sue calze sono (giallo) [[g6]].\nMio padre porta sempre camicie (azzurro) [[g7]].\nHo anche due cappelli (grigio) [[g8]].\nLa mia felpa preferita è (verde) [[g9]].\nI miei calzini sono (rosa) [[g10]].\nLe sciarpe della nonna sono (marrone) [[g11]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "nera"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "bianche"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "rosse"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "blu"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "viola"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "gialle"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "azzurre"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "grigi"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "verde"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "rosa"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "marroni"
+     ]
+    }
+   ]
+  }
+ ]
+}
