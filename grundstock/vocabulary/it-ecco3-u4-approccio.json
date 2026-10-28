@@ -58,7 +58,6 @@
    "page": "181-182",
    "definition": "Che riguarda le automobili.",
    "example": "Torino è famosa per l’industria automobilistica.",
-   "related": "Auto(mobil)-|pl. automobilistici/-istiche||Che riguarda le automobili.|Torino è famosa per l’industria automobilistica.",
    "usage": "pl. automobilistici/-istiche"
   },
   {
@@ -69,8 +68,7 @@
    ],
    "page": "181-182",
    "definition": "Che riguarda le stoffe.",
-   "example": "A Prato ci sono molte aziende tessili.",
-   "related": "Textil-|||Che riguarda le stoffe.|A Prato ci sono molte aziende tessili."
+   "example": "A Prato ci sono molte aziende tessili."
   },
   {
    "id": "u4-approccio-004",
@@ -80,8 +78,7 @@
    ],
    "page": "181-182",
    "definition": "Che riguarda il cibo.",
-   "example": "L’industria alimentare è importante in Emilia-Romagna.",
-   "related": "Lebensmittel-|||Che riguarda il cibo.|L’industria alimentare è importante in Emilia-Romagna."
+   "example": "L’industria alimentare è importante in Emilia-Romagna."
   },
   {
    "id": "u4-approccio-005",
@@ -92,8 +89,7 @@
    ],
    "page": "181-182",
    "definition": "Che riguarda le navi.",
-   "example": "A Genova c’è un grande cantiere navale.",
-   "related": "Schiffs-; See-|||Che riguarda le navi.|A Genova c’è un grande cantiere navale."
+   "example": "A Genova c’è un grande cantiere navale."
   },
   {
    "id": "u4-approccio-006",
@@ -104,7 +100,6 @@
    "page": "181-182",
    "definition": "Un periodo difficile.",
    "example": "Durante la crisi molte persone hanno perso il lavoro.",
-   "related": "die Krise|pl. le crisi||Un periodo difficile.|Durante la crisi molte persone hanno perso il lavoro.",
    "usage": "pl. le crisi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -136,8 +131,7 @@
    ],
    "page": "181-182",
    "definition": "Usare di nuovo.",
-   "example": "Riutilizziamo le bottiglie di vetro.",
-   "related": "weiterverwenden|||Usare di nuovo.|Riutilizziamo le bottiglie di vetro."
+   "example": "Riutilizziamo le bottiglie di vetro."
   },
   {
    "id": "u4-approccio-009",
@@ -148,7 +142,6 @@
    "page": "181-182",
    "definition": "Un edificio dove si producono cose con le macchine.",
    "example": "Mio zio lavora in una fabbrica di scarpe.",
-   "related": "die Fabrik|pl. le fabbriche||Un edificio dove si producono cose con le macchine.|Mio zio lavora in una fabbrica di scarpe.",
    "usage": "pl. le fabbriche",
    "grammar": {
     "partOfSpeech": "noun",
@@ -169,7 +162,6 @@
    "page": "181-182",
    "definition": "Una grande esposizione di prodotti.",
    "example": "Alla fiera del libro c’erano tanti autori.",
-   "related": "die Messe|||Una grande esposizione di prodotti.|Alla fiera del libro c’erano tanti autori.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -189,7 +181,6 @@
    "page": "181-182",
    "definition": "Un grande edificio con tanti negozi.",
    "example": "Sabato andiamo al centro commerciale.",
-   "related": "das Einkaufszentrum|||Un grande edificio con tanti negozi.|Sabato andiamo al centro commerciale.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -210,7 +201,6 @@
    "page": "181-182",
    "definition": "La parte o il compito di una persona o di una cosa.",
    "example": "Il turismo ha un ruolo importante al Sud.",
-   "related": "die Rolle; die Funktion|||La parte o il compito di una persona o di una cosa.|Il turismo ha un ruolo importante al Sud.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -261,8 +251,7 @@
    ],
    "page": "181-182",
    "definition": "Creare, fare nascere un gruppo o una cosa.",
-   "example": "Abbiamo formato una band.",
-   "related": "bilden|||Creare, fare nascere un gruppo o una cosa.|Abbiamo formato una band."
+   "example": "Abbiamo formato una band."
   },
   {
    "id": "u4-approccio-016",
@@ -273,7 +262,6 @@
    "page": "181-182",
    "definition": "Un gruppo di aziende che lavorano insieme.",
    "example": "Il consorzio protegge la qualità del Parmigiano.",
-   "related": "die Genossenschaft|pl. i consorzi||Un gruppo di aziende che lavorano insieme.|Il consorzio protegge la qualità del Parmigiano.",
    "usage": "pl. i consorzi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -295,7 +283,6 @@
    "page": "181-182",
    "definition": "Dire con precisione che cos’è una cosa.",
    "example": "È difficile definire la felicità.",
-   "related": "festlegen; definieren|(-isc-)||Dire con precisione che cos’è una cosa.|È difficile definire la felicità.",
    "usage": "(-isc-)"
   },
   {
@@ -307,7 +294,6 @@
    "page": "181-182",
    "definition": "Quanto una cosa è buona.",
    "example": "Questo olio è di ottima qualità.",
-   "related": "die Qualität|||Quanto una cosa è buona.|Questo olio è di ottima qualità.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -326,8 +312,7 @@
    ],
    "page": "181-182",
    "definition": "Strade, treni, reti: le strutture di base di un paese.",
-   "example": "Al Sud mancano ancora molte infrastrutture.",
-   "related": "die Infrastruktur|||Strade, treni, reti: le strutture di base di un paese.|Al Sud mancano ancora molte infrastrutture."
+   "example": "Al Sud mancano ancora molte infrastrutture."
   },
   {
    "id": "u4-approccio-020",
@@ -350,8 +335,7 @@
    ],
    "page": "181-182",
    "definition": "Una strada grande e veloce tra le città.",
-   "example": "In autostrada c’è sempre traffico ad agosto.",
-   "related": "die Autobahn|||Una strada grande e veloce tra le città.|In autostrada c’è sempre traffico ad agosto."
+   "example": "In autostrada c’è sempre traffico ad agosto."
   },
   {
    "id": "u4-approccio-022",
@@ -362,7 +346,6 @@
    "page": "181-182",
    "definition": "Il posto dove si costruisce qualcosa.",
    "example": "Davanti a casa mia c’è un cantiere rumoroso.",
-   "related": "die Baustelle|||Il posto dove si costruisce qualcosa.|Davanti a casa mia c’è un cantiere rumoroso.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -382,7 +365,6 @@
    "page": "181-182",
    "definition": "Quanto tempo dura una cosa.",
    "example": "La durata del film è di due ore.",
-   "related": "die Dauer|||Quanto tempo dura una cosa.|La durata del film è di due ore.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -402,7 +384,6 @@
    "page": "181-182",
    "definition": "Un’organizzazione criminale molto potente.",
    "example": "Molti giovani si impegnano contro la mafia.",
-   "related": "die Mafia|||Un’organizzazione criminale molto potente.|Molti giovani si impegnano contro la mafia.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -422,8 +403,7 @@
    ],
    "page": "181-182",
    "definition": "Essere il simbolo di qualcosa; mostrare.",
-   "example": "Il Colosseo rappresenta la storia di Roma.",
-   "related": "darstellen; verkörpern|||Essere il simbolo di qualcosa; mostrare.|Il Colosseo rappresenta la storia di Roma."
+   "example": "Il Colosseo rappresenta la storia di Roma."
   },
   {
    "id": "u4-approccio-026",
@@ -434,8 +414,7 @@
    ],
    "page": "181-182",
    "definition": "La capacità di fare bene un lavoro senza sprecare tempo.",
-   "example": "L’efficienza dei treni tedeschi è famosa.",
-   "related": "die Leistungsfähigkeit; die Wirksamkeit|||La capacità di fare bene un lavoro senza sprecare tempo.|L’efficienza dei treni tedeschi è famosa."
+   "example": "L’efficienza dei treni tedeschi è famosa."
   },
   {
    "id": "u4-approccio-027",
@@ -446,7 +425,6 @@
    "page": "181-182",
    "definition": "Il fatto di essere moderno.",
    "example": "Milano è il simbolo della modernità italiana.",
-   "related": "die Modernität|||Il fatto di essere moderno.|Milano è il simbolo della modernità italiana.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -489,7 +467,6 @@
    "page": "181-182",
    "definition": "Il lavoro di una persona; il luogo dove lavora.",
    "example": "La nuova fabbrica ha creato cento posti di lavoro.",
-   "related": "der Arbeitsplatz|||Il lavoro di una persona; il luogo dove lavora.|La nuova fabbrica ha creato cento posti di lavoro.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -509,8 +486,7 @@
    ],
    "page": "181-182",
    "definition": "Essere la causa di una cosa.",
-   "example": "Il traffico provoca inquinamento.",
-   "related": "bewirken; hervorrufen|||Essere la causa di una cosa.|Il traffico provoca inquinamento."
+   "example": "Il traffico provoca inquinamento."
   },
   {
    "id": "u4-approccio-032",
@@ -541,7 +517,6 @@
    "page": "181-182",
    "definition": "Tutte le persone che lavorano o possono lavorare.",
    "example": "Le donne sono metà della forza lavoro.",
-   "related": "die Arbeitskraft|||Tutte le persone che lavorano o possono lavorare.|Le donne sono metà della forza lavoro.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",

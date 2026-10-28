@@ -49,7 +49,6 @@
    "page": "167-168",
    "definition": "Una zona di Siena con il suo nome e la sua bandiera.",
    "example": "Ogni contrada di Siena ha i suoi colori.",
-   "related": "das Viertel|||Una zona di Siena con il suo nome e la sua bandiera.|Ogni contrada di Siena ha i suoi colori.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -69,7 +68,6 @@
    "page": "167-168",
    "definition": "Un pezzo di stoffa con i colori di un paese o di un gruppo.",
    "example": "La bandiera italiana è verde, bianca e rossa.",
-   "related": "die Fahne|||Un pezzo di stoffa con i colori di un paese o di un gruppo.|La bandiera italiana è verde, bianca e rossa.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -101,7 +99,6 @@
    "page": "167-168",
    "definition": "Un evento pubblico, per esempio una festa o una gara.",
    "example": "In piazza c’è una manifestazione per la festa della città.",
-   "related": "die Veranstaltung|||Un evento pubblico, per esempio una festa o una gara.|In piazza c’è una manifestazione per la festa della città.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -133,7 +130,6 @@
    "page": "167-168",
    "definition": "Indica che una cosa succede più presto di un’altra.",
    "example": "Torniamo a casa prima che cominci a piovere.",
-   "related": "bevor|+ cong.||Indica che una cosa succede più presto di un’altra.|Torniamo a casa prima che cominci a piovere.",
    "usage": "+ cong."
   },
   {
@@ -145,8 +141,7 @@
    ],
    "page": "167-168",
    "definition": "Prima di tutte le altre cose.",
-   "example": "Innanzitutto grazie a tutti per essere venuti.",
-   "related": "insbesondere; zuallererst|||Prima di tutte le altre cose.|Innanzitutto grazie a tutti per essere venuti."
+   "example": "Innanzitutto grazie a tutti per essere venuti."
   },
   {
    "id": "u1-1a-009",
@@ -156,8 +151,7 @@
    ],
    "page": "167-168",
    "definition": "Collegato con tutto il mondo.",
-   "example": "Viviamo in un mondo globalizzato.",
-   "related": "globalisiert|||Collegato con tutto il mondo.|Viviamo in un mondo globalizzato."
+   "example": "Viviamo in un mondo globalizzato."
   },
   {
    "id": "u1-1a-010",
@@ -169,7 +163,6 @@
    "page": "167-168",
    "definition": "Il fatto di essere diversi.",
    "example": "La diversità delle culture rende la città interessante.",
-   "related": "die Verschiedenheit; die Vielfalt|||Il fatto di essere diversi.|La diversità delle culture rende la città interessante.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -188,8 +181,7 @@
    ],
    "page": "167-168",
    "definition": "Fare una cosa anche se può andare male.",
-   "example": "Se non studi, corri il rischio di prendere un brutto voto.",
-   "related": "ein Risiko eingehen|||Fare una cosa anche se può andare male.|Se non studi, corri il rischio di prendere un brutto voto."
+   "example": "Se non studi, corri il rischio di prendere un brutto voto."
   },
   {
    "id": "u1-1a-012",
@@ -219,8 +211,7 @@
    ],
    "page": "167-168",
    "definition": "Restare vivo dopo un pericolo.",
-   "example": "Molte tradizioni antiche sopravvivono ancora oggi.",
-   "related": "überleben|||Restare vivo dopo un pericolo.|Molte tradizioni antiche sopravvivono ancora oggi."
+   "example": "Molte tradizioni antiche sopravvivono ancora oggi."
   },
   {
    "id": "u1-1a-014",
@@ -230,8 +221,7 @@
    ],
    "page": "167-168",
    "definition": "Chi sei, quello che ti rende diverso dagli altri.",
-   "example": "La lingua è una parte importante della nostra identità.",
-   "related": "die Identität|||Chi sei, quello che ti rende diverso dagli altri.|La lingua è una parte importante della nostra identità."
+   "example": "La lingua è una parte importante della nostra identità."
   },
   {
    "id": "u1-1a-015",
@@ -242,7 +232,6 @@
    "page": "167-168",
    "definition": "Il perché di una cosa.",
    "example": "Per quale ragione non sei venuto alla festa?",
-   "related": "der Grund|||Il perché di una cosa.|Per quale ragione non sei venuto alla festa?",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -262,8 +251,7 @@
    ],
    "page": "167-168",
    "definition": "Una parte di un insieme.",
-   "example": "La musica è un elemento importante della festa.",
-   "related": "der Bestandteil; das Element|||Una parte di un insieme.|La musica è un elemento importante della festa."
+   "example": "La musica è un elemento importante della festa."
   },
   {
    "id": "u1-1a-017",
@@ -286,7 +274,6 @@
    "page": "167-168",
    "definition": "Il modo in cui una persona vede una cosa.",
    "example": "Dal mio punto di vista il Palio è una bella tradizione.",
-   "related": "die Sichtweise; der Standpunkt|||Il modo in cui una persona vede una cosa.|Dal mio punto di vista il Palio è una bella tradizione.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -306,7 +293,6 @@
    "page": "167-168",
    "definition": "Il posto dove vuoi arrivare.",
    "example": "Venezia è una meta molto amata dai turisti.",
-   "related": "das Ziel|||Il posto dove vuoi arrivare.|Venezia è una meta molto amata dai turisti.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -339,7 +325,6 @@
    "page": "167-168",
    "definition": "Per merito di qualcuno o qualcosa.",
    "example": "Grazie a Laura ho capito l’esercizio.",
-   "related": "dank jds/etw.|||Per merito di qualcuno o qualcosa.|Grazie a Laura ho capito l’esercizio.",
    "acceptedAnswers": [
     "grazie a"
    ]
@@ -352,8 +337,7 @@
    ],
    "page": "167-168",
    "definition": "Quello che fai per una persona che ha un problema.",
-   "example": "Grazie per il tuo aiuto!",
-   "related": "die Hilfe|||Quello che fai per una persona che ha un problema.|Grazie per il tuo aiuto!"
+   "example": "Grazie per il tuo aiuto!"
   },
   {
    "id": "u1-1a-023",
@@ -415,7 +399,6 @@
    "page": "167-168",
    "definition": "Con lo scopo che.",
    "example": "Parlo piano affinché tutti capiscano.",
-   "related": "damit|+ cong.||Con lo scopo che.|Parlo piano affinché tutti capiscano.",
    "usage": "+ cong."
   },
   {
@@ -427,7 +410,6 @@
    "page": "167-168",
    "definition": "Una parte della strada che non va dritta.",
    "example": "Il cavallo è caduto in curva.",
-   "related": "die Kurve|||Una parte della strada che non va dritta.|Il cavallo è caduto in curva.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -447,7 +429,6 @@
    "page": "167-168",
    "definition": "Anche se.",
    "example": "Sebbene sia stanco, esco con gli amici.",
-   "related": "obwohl|+ cong.||Anche se.|Sebbene sia stanco, esco con gli amici.",
    "usage": "+ cong."
   },
   {
@@ -459,7 +440,6 @@
    "page": "167-168",
    "definition": "Con lo scopo che (con il congiuntivo).",
    "example": "Ti do il mio numero perché tu mi possa chiamare.",
-   "related": "damit|+ cong.||Con lo scopo che (con il congiuntivo).|Ti do il mio numero perché tu mi possa chiamare.",
    "usage": "+ cong."
   },
   {
@@ -482,8 +462,7 @@
    ],
    "page": "167-168",
    "definition": "Il più importante.",
-   "example": "La piazza principale di Siena si chiama Piazza del Campo.",
-   "related": "Haupt-; hauptsächlich|||Il più importante.|La piazza principale di Siena si chiama Piazza del Campo."
+   "example": "La piazza principale di Siena si chiama Piazza del Campo."
   },
   {
    "id": "u1-1a-033",
@@ -495,7 +474,6 @@
    "page": "167-168",
    "definition": "Essere sorpresi.",
    "example": "Mi stupisco che tu non conosca questa canzone.",
-   "related": "sich wundern; erstaunen|(-isc-)||Essere sorpresi.|Mi stupisco che tu non conosca questa canzone.",
    "usage": "(-isc-)"
   },
   {
@@ -507,8 +485,7 @@
    ],
    "page": "167-168",
    "definition": "Anche se è così.",
-   "example": "Pioveva, ciò nonostante siamo usciti.",
-   "related": "trotzdem; dennoch|||Anche se è così.|Pioveva, ciò nonostante siamo usciti."
+   "example": "Pioveva, ciò nonostante siamo usciti."
   },
   {
    "id": "u1-1a-035",
@@ -542,8 +519,7 @@
    ],
    "page": "167-168",
    "definition": "Che fa tante cose, che si muove molto.",
-   "example": "Mia nonna è ancora molto attiva.",
-   "related": "aktiv|||Che fa tante cose, che si muove molto.|Mia nonna è ancora molto attiva."
+   "example": "Mia nonna è ancora molto attiva."
   },
   {
    "id": "u1-1a-038",
@@ -554,7 +530,6 @@
    "page": "167-168",
    "definition": "L’impegno per difendere gli animali.",
    "example": "Lavoro come volontaria per la protezione animali.",
-   "related": "der Tierschutz|||L’impegno per difendere gli animali.|Lavoro come volontaria per la protezione animali.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -573,8 +548,7 @@
    ],
    "page": "167-168",
    "definition": "Molto speciale, non normale.",
-   "example": "È stata una giornata straordinaria.",
-   "related": "außergewöhnlich|||Molto speciale, non normale.|È stata una giornata straordinaria."
+   "example": "È stata una giornata straordinaria."
   },
   {
    "id": "u1-1a-040",
@@ -585,8 +559,7 @@
    ],
    "page": "167-168",
    "definition": "Come prima cosa.",
-   "example": "Prima di tutto vorrei presentarmi.",
-   "related": "zuallererst; vorneweg|||Come prima cosa.|Prima di tutto vorrei presentarmi."
+   "example": "Prima di tutto vorrei presentarmi."
   },
   {
    "id": "u1-1a-041",
@@ -597,8 +570,7 @@
    ],
    "page": "167-168",
    "definition": "Come seconda cosa.",
-   "example": "In secondo luogo parlo dei problemi della città.",
-   "related": "zweitens; an zweiter Stelle|||Come seconda cosa.|In secondo luogo parlo dei problemi della città."
+   "example": "In secondo luogo parlo dei problemi della città."
   },
   {
    "id": "u1-1a-042",
@@ -608,8 +580,7 @@
    ],
    "page": "167-168",
    "definition": "Unire con una corda, anche tenere unito.",
-   "example": "Questa canzone mi lega a tanti bei ricordi.",
-   "related": "(ver)binden|||Unire con una corda, anche tenere unito.|Questa canzone mi lega a tanti bei ricordi."
+   "example": "Questa canzone mi lega a tanti bei ricordi."
   },
   {
    "id": "u1-1a-043",
@@ -620,7 +591,6 @@
    "page": "167-168",
    "definition": "Non di più.",
    "example": "Ho soltanto dieci euro.",
-   "related": "nur|avv.||Non di più.|Ho soltanto dieci euro.",
    "usage": "avv."
   },
   {
@@ -633,7 +603,6 @@
    "page": "167-168",
    "definition": "Quando qualcuno dà soldi per avere un vantaggio illegale.",
    "example": "La corruzione è un grande problema in politica.",
-   "related": "die Korruption; die Bestechung|||Quando qualcuno dà soldi per avere un vantaggio illegale.|La corruzione è un grande problema in politica.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -652,8 +621,7 @@
    ],
    "page": "167-168",
    "definition": "Considerando tutto.",
-   "example": "Tutto sommato la gita è stata bella.",
-   "related": "alles in allem|||Considerando tutto.|Tutto sommato la gita è stata bella."
+   "example": "Tutto sommato la gita è stata bella."
   },
   {
    "id": "u1-1a-046",
@@ -687,8 +655,7 @@
    ],
    "page": "167-168",
    "definition": "Colpire il punto giusto.",
-   "example": "Il tuo commento centra il problema.",
-   "related": "treffen; erfassen|||Colpire il punto giusto.|Il tuo commento centra il problema."
+   "example": "Il tuo commento centra il problema."
   },
   {
    "id": "u1-1a-049",
@@ -698,8 +665,7 @@
    ],
    "page": "167-168",
    "definition": "Giusto per una certa cosa.",
-   "example": "Queste scarpe non sono adatte per la montagna.",
-   "related": "geeignet|||Giusto per una certa cosa.|Queste scarpe non sono adatte per la montagna."
+   "example": "Queste scarpe non sono adatte per la montagna."
   },
   {
    "id": "u1-1a-050",
@@ -710,8 +676,7 @@
    ],
    "page": "167-168",
    "definition": "Fare diventare vero un progetto o un sogno.",
-   "example": "Finalmente ho realizzato il mio sogno: un viaggio in Sicilia.",
-   "related": "durchführen; verwirklichen|||Fare diventare vero un progetto o un sogno.|Finalmente ho realizzato il mio sogno: un viaggio in Sicilia."
+   "example": "Finalmente ho realizzato il mio sogno: un viaggio in Sicilia."
   },
   {
    "id": "u1-1a-051",
@@ -722,7 +687,6 @@
    "page": "167-168",
    "definition": "Un negozio che vende ricordi per turisti.",
    "example": "Nel negozio di souvenir ho comprato una cartolina.",
-   "related": "der Souvenir-Laden|||Un negozio che vende ricordi per turisti.|Nel negozio di souvenir ho comprato una cartolina.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -742,7 +706,6 @@
    "page": "167-168",
    "definition": "Anche se.",
    "example": "Benché sia tardi, non ho sonno.",
-   "related": "obwohl|+ cong.||Anche se.|Benché sia tardi, non ho sonno.",
    "usage": "+ cong."
   },
   {
@@ -753,8 +716,7 @@
    ],
    "page": "167-168",
    "definition": "Non buono.",
-   "example": "Questa pizza è proprio cattiva.",
-   "related": "schlecht|||Non buono.|Questa pizza è proprio cattiva."
+   "example": "Questa pizza è proprio cattiva."
   },
   {
    "id": "u1-1a-054",
@@ -784,8 +746,7 @@
    ],
    "page": "167-168",
    "definition": "Avere un certo senso.",
-   "example": "Che cosa significa questa parola?",
-   "related": "bedeuten|||Avere un certo senso.|Che cosa significa questa parola?"
+   "example": "Che cosa significa questa parola?"
   }
  ],
  "catalog": {

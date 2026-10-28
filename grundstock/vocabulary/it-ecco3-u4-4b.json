@@ -37,8 +37,7 @@
    ],
    "page": "183-185",
    "definition": "Presente in molti posti.",
-   "example": "Il calcio è lo sport più diffuso in Italia.",
-   "related": "beliebt; verbreitet|||Presente in molti posti.|Il calcio è lo sport più diffuso in Italia."
+   "example": "Il calcio è lo sport più diffuso in Italia."
   },
   {
    "id": "u4-4b-002",
@@ -82,7 +81,6 @@
    "page": "183-185",
    "definition": "Riuscire a fare una cosa abbastanza bene.",
    "example": "Non parlo benissimo tedesco, ma me la cavo.",
-   "related": "sich zurechtfinden; klarkommen|me la cavo, te la cavi …||Riuscire a fare una cosa abbastanza bene.|Non parlo benissimo tedesco, ma me la cavo.",
    "usage": "me la cavo, te la cavi …"
   },
   {
@@ -105,7 +103,6 @@
    "page": "183-185",
    "definition": "Un gruppo di persone con un interesse comune, spesso sportivo.",
    "example": "Gioco a tennis in un club vicino a casa.",
-   "related": "der Verein|pl. i club||Un gruppo di persone con un interesse comune, spesso sportivo.|Gioco a tennis in un club vicino a casa.",
    "usage": "pl. i club",
    "grammar": {
     "partOfSpeech": "noun",
@@ -145,7 +142,7 @@
    ],
    "page": "183-185",
    "definition": "Che si chiama così.",
-   "example": "È il cosiddetto “Giro d’Italia”.",
+   "example": "Il cosiddetto “Bel Paese” è l’Italia.",
    "family": "così, dire"
   },
   {
@@ -450,7 +447,6 @@
    "page": "183-185",
    "definition": "Una persona famosissima.",
    "example": "Questa cantante è una star internazionale.",
-   "related": "der (Welt-)Star|pl. le star||Una persona famosissima.|Questa cantante è una star internazionale.",
    "usage": "pl. le star",
    "grammar": {
     "partOfSpeech": "noun",
@@ -470,8 +466,7 @@
    ],
    "page": "183-185",
    "definition": "Allo stesso livello di.",
-   "example": "Per i tifosi, Maradona è al pari di un santo.",
-   "related": "(genauso) wie|||Allo stesso livello di.|Per i tifosi, Maradona è al pari di un santo."
+   "example": "Per i tifosi, Maradona è al pari di un santo."
   },
   {
    "id": "u4-4b-031",
@@ -502,7 +497,6 @@
    "page": "183-185",
    "definition": "Avere come base.",
    "example": "Il film è basato su una storia vera.",
-   "related": "basieren auf etw.|||Avere come base.|Il film è basato su una storia vera.",
    "acceptedAnswers": [
     "basare su"
    ]
@@ -573,7 +567,6 @@
    "page": "183-185",
    "definition": "Arrabbiarsi con qualcuno.",
    "example": "Non prendertela con me, non è colpa mia!",
-   "related": "sich aufregen über jdn/etw.|me la prendo, te la prendi …||Arrabbiarsi con qualcuno.|Non prendertela con me, non è colpa mia!",
    "acceptedAnswers": [
     "prendersela con"
    ],
@@ -588,7 +581,6 @@
    "page": "183-185",
    "definition": "Fare solo una cosa e non di più.",
    "example": "Mi limito a guardare, non gioco.",
-   "related": "sich beschränken auf etw.|||Fare solo una cosa e non di più.|Mi limito a guardare, non gioco.",
    "acceptedAnswers": [
     "limitarsi a"
    ]
@@ -642,7 +634,6 @@
    "page": "183-185",
    "definition": "La parte più grande di un gruppo.",
    "example": "La maggioranza della classe vuole andare a Roma.",
-   "related": "die Mehrheit|||La parte più grande di un gruppo.|La maggioranza della classe vuole andare a Roma.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -676,8 +667,7 @@
    ],
    "page": "183-185",
    "definition": "Condurre una macchina o una bici.",
-   "example": "Mio fratello sta imparando a guidare.",
-   "related": "fahren; steuern|||Condurre una macchina o una bici.|Mio fratello sta imparando a guidare."
+   "example": "Mio fratello sta imparando a guidare."
   },
   {
    "id": "u4-4b-045",
@@ -731,8 +721,7 @@
    ],
    "page": "183-185",
    "definition": "Una persona che guida un’auto da corsa o un aereo.",
-   "example": "Da grande voglio fare il pilota.",
-   "related": "der/die Fahrer/in; der/die Pilot/in|||Una persona che guida un’auto da corsa o un aereo.|Da grande voglio fare il pilota."
+   "example": "Da grande voglio fare il pilota."
   },
   {
    "id": "u4-4b-049",

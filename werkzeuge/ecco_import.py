@@ -113,8 +113,10 @@ def load_related(path):
                 RELATED[k.strip().replace("'", '’')] = v.strip()
 
 def parse(path):
-    load_related(path)
-    load_defs(path)
+    RELATED.clear(); DEFS.clear()
+    if path.name.startswith('lista-'):  # quelle-*.txt enthält alles selbst
+        load_related(path)
+        load_defs(path)
     pk, cur = [], None
     for line in path.read_text(encoding='utf-8').splitlines():
         if not line.strip(): continue

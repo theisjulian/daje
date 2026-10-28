@@ -37,7 +37,6 @@
    "page": "173-175",
    "definition": "Una grande città del nord della Germania con il porto.",
    "example": "Amburgo ha un porto molto grande.",
-   "related": "Hamburg|f.||Una grande città del nord della Germania con il porto.|Amburgo ha un porto molto grande.",
    "usage": "f."
   },
   {
@@ -69,8 +68,7 @@
    ],
    "page": "173-175",
    "definition": "Un posto dove dormire e vivere.",
-   "example": "Gli studenti cercano un alloggio vicino all’università.",
-   "related": "die Unterkunft|||Un posto dove dormire e vivere.|Gli studenti cercano un alloggio vicino all’università."
+   "example": "Gli studenti cercano un alloggio vicino all’università."
   },
   {
    "id": "u2-2b-004",
@@ -80,8 +78,7 @@
    ],
    "page": "173-175",
    "definition": "Vicino a, nel luogo di.",
-   "example": "Lavora presso un’azienda di Milano.",
-   "related": "bei|||Vicino a, nel luogo di.|Lavora presso un’azienda di Milano."
+   "example": "Lavora presso un’azienda di Milano."
   },
   {
    "id": "u2-2b-005",
@@ -93,7 +90,6 @@
    "page": "173-175",
    "definition": "Un insieme di cose diverse.",
    "example": "Nella mia classe c’è un mix di culture.",
-   "related": "die Mischung; das Durcheinander|||Un insieme di cose diverse.|Nella mia classe c’è un mix di culture.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -112,8 +108,7 @@
    ],
    "page": "173-175",
    "definition": "Si usa quando non si sa una cosa.",
-   "example": "Chissà dove ho messo le chiavi!",
-   "related": "Wer weiß …!|||Si usa quando non si sa una cosa.|Chissà dove ho messo le chiavi!"
+   "example": "Chissà dove ho messo le chiavi!"
   },
   {
    "id": "u2-2b-007",
@@ -145,8 +140,7 @@
    ],
    "page": "173-175",
    "definition": "Subito, dall’inizio.",
-   "example": "Mi sono trovata bene fin dal primo momento.",
-   "related": "vom ersten Moment an|||Subito, dall’inizio.|Mi sono trovata bene fin dal primo momento."
+   "example": "Mi sono trovata bene fin dal primo momento."
   },
   {
    "id": "u2-2b-010",
@@ -158,7 +152,6 @@
    "page": "173-175",
    "definition": "Tranne, escluso.",
    "example": "A parte Luca, sono venuti tutti.",
-   "related": "bis auf jdn/etw.; außer jdm/etw.|||Tranne, escluso.|A parte Luca, sono venuti tutti.",
    "acceptedAnswers": [
     "a parte"
    ]
@@ -172,7 +165,6 @@
    "page": "173-175",
    "definition": "L’uno con l’altro.",
    "example": "Io e mia sorella ci aiutiamo a vicenda.",
-   "related": "gegenseitig|avv.||L’uno con l’altro.|Io e mia sorella ci aiutiamo a vicenda.",
    "usage": "avv."
   },
   {
@@ -198,7 +190,6 @@
    "page": "173-175",
    "definition": "L’acqua che cade dal cielo.",
    "example": "Con questa pioggia restiamo a casa.",
-   "related": "der Regen|||L’acqua che cade dal cielo.|Con questa pioggia restiamo a casa.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -218,8 +209,7 @@
    ],
    "page": "173-175",
    "definition": "Per il motivo che.",
-   "example": "Poiché pioveva, abbiamo preso l’autobus.",
-   "related": "da; weil|||Per il motivo che.|Poiché pioveva, abbiamo preso l’autobus."
+   "example": "Poiché pioveva, abbiamo preso l’autobus."
   },
   {
    "id": "u2-2b-015",
@@ -229,8 +219,7 @@
    ],
    "page": "173-175",
    "definition": "Per tutta la giornata di lavoro.",
-   "example": "Mia madre lavora a tempo pieno.",
-   "related": "in Vollzeit|||Per tutta la giornata di lavoro.|Mia madre lavora a tempo pieno."
+   "example": "Mia madre lavora a tempo pieno."
   },
   {
    "id": "u2-2b-016",
@@ -240,8 +229,7 @@
    ],
    "page": "173-175",
    "definition": "Che è nel posto, non assente.",
-   "example": "Oggi tutti gli studenti sono presenti.",
-   "related": "anwesend|||Che è nel posto, non assente.|Oggi tutti gli studenti sono presenti."
+   "example": "Oggi tutti gli studenti sono presenti."
   },
   {
    "id": "u2-2b-017",
@@ -251,8 +239,7 @@
    ],
    "page": "173-175",
    "definition": "Senza macchine, con le mani.",
-   "example": "La nonna fa la pasta a mano.",
-   "related": "von Hand|||Senza macchine, con le mani.|La nonna fa la pasta a mano."
+   "example": "La nonna fa la pasta a mano."
   },
   {
    "id": "u2-2b-018",
@@ -264,7 +251,6 @@
    "page": "173-175",
    "definition": "Una scarpa morbida da usare in casa.",
    "example": "In Germania molti mettono le pantofole in casa.",
-   "related": "der Hausschuh; der Pantoffel|||Una scarpa morbida da usare in casa.|In Germania molti mettono le pantofole in casa.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -306,8 +292,7 @@
    ],
    "page": "173-175",
    "definition": "Anche.",
-   "example": "È venuto pure il nonno.",
-   "related": "auch; sogar|||Anche.|È venuto pure il nonno."
+   "example": "È venuto pure il nonno."
   },
   {
    "id": "u2-2b-022",
@@ -328,8 +313,7 @@
    ],
    "page": "173-175",
    "definition": "Diventare amici.",
-   "example": "Ad Amburgo ho fatto amicizia con due ragazzi.",
-   "related": "Freundschaft schließen|||Diventare amici.|Ad Amburgo ho fatto amicizia con due ragazzi."
+   "example": "Ad Amburgo ho fatto amicizia con due ragazzi."
   },
   {
    "id": "u2-2b-024",
@@ -340,8 +324,7 @@
    ],
    "page": "173-175",
    "definition": "Una persona della Svezia.",
-   "example": "Nella mia classe c’era una svedese simpatica.",
-   "related": "der Schwede; die Schwedin|||Una persona della Svezia.|Nella mia classe c’era una svedese simpatica."
+   "example": "Nella mia classe c’era una svedese simpatica."
   },
   {
    "id": "u2-2b-025",
@@ -351,8 +334,7 @@
    ],
    "page": "173-175",
    "definition": "Una persona del Giappone.",
-   "example": "Il mio vicino è giapponese.",
-   "related": "der/die Japaner/in|||Una persona del Giappone.|Il mio vicino è giapponese."
+   "example": "Il mio vicino è giapponese."
   },
   {
    "id": "u2-2b-026",
@@ -362,8 +344,7 @@
    ],
    "page": "173-175",
    "definition": "Essere capaci di fare una cosa.",
-   "example": "Ho provato tante volte e alla fine ci sono riuscito.",
-   "related": "etw. schaffen|||Essere capaci di fare una cosa.|Ho provato tante volte e alla fine ci sono riuscito."
+   "example": "Ho provato tante volte e alla fine ci sono riuscito."
   },
   {
    "id": "u2-2b-027",
@@ -374,7 +355,6 @@
    "page": "173-175",
    "definition": "Il mare al nord della Germania.",
    "example": "D’estate siamo andati al mare del Nord.",
-   "related": "die Nordsee|||Il mare al nord della Germania.|D’estate siamo andati al mare del Nord.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -394,8 +374,7 @@
    ],
    "page": "173-175",
    "definition": "In modo così forte.",
-   "example": "Ero talmente stanco che mi sono addormentato.",
-   "related": "so; derart|||In modo così forte.|Ero talmente stanco che mi sono addormentato."
+   "example": "Ero talmente stanco che mi sono addormentato."
   },
   {
    "id": "u2-2b-029",
@@ -406,8 +385,7 @@
    ],
    "page": "173-175",
    "definition": "Andare in un posto dove non ci sono pericoli.",
-   "example": "Quando ha cominciato a piovere ci siamo messi al riparo.",
-   "related": "Schutz suchen; sich schützen|||Andare in un posto dove non ci sono pericoli.|Quando ha cominciato a piovere ci siamo messi al riparo."
+   "example": "Quando ha cominciato a piovere ci siamo messi al riparo."
   },
   {
    "id": "u2-2b-030",
@@ -418,7 +396,6 @@
    "page": "173-175",
    "definition": "Una grande sedia per la spiaggia che protegge dal vento.",
    "example": "Al mare del Nord ci sono tante poltrone da spiaggia.",
-   "related": "der Strandkorb|||Una grande sedia per la spiaggia che protegge dal vento.|Al mare del Nord ci sono tante poltrone da spiaggia.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -438,7 +415,6 @@
    "page": "173-175",
    "definition": "Essere simile a qualcuno.",
    "example": "Assomigli molto a tuo padre.",
-   "related": "jdm/etw. ähnlich sehen|||Essere simile a qualcuno.|Assomigli molto a tuo padre.",
    "acceptedAnswers": [
     "assomigliare a"
    ]
@@ -463,8 +439,7 @@
    ],
    "page": "173-175",
    "definition": "Tornare a casa o nel proprio paese.",
-   "example": "Siamo rientrati in Italia ieri sera.",
-   "related": "zurückkehren|||Tornare a casa o nel proprio paese.|Siamo rientrati in Italia ieri sera."
+   "example": "Siamo rientrati in Italia ieri sera."
   },
   {
    "id": "u2-2b-034",
@@ -476,7 +451,6 @@
    "page": "173-175",
    "definition": "Fare diventare più grande.",
    "example": "Un anno all’estero accresce le tue competenze.",
-   "related": "erweitern; vergrößern|p.p. accresciuto||Fare diventare più grande.|Un anno all’estero accresce le tue competenze.",
    "usage": "p.p. accresciuto"
   }
  ],

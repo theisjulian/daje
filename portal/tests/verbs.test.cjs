@@ -1,6 +1,7 @@
 const assert = require('node:assert/strict');
 global.document = { addEventListener() {} };
-const { VB_VERBS, vbJudge } = require('../dist/verbs.js');
+global.localStorage = { getItem: () => null, setItem() {} };
+const { VB_VERBS, VB_SENT, vbJudge } = require('../dist/verbs.js');
 const g = n => VB_VERBS.find(v => v.inf === n).tenses;
 assert.equal(g('parlare').fut[0][0], 'parlerò');
 assert.equal(g('cercare').pres[1][0], 'cerchi');
@@ -12,4 +13,33 @@ assert.equal(g('chiamarsi').pres[0][0], 'mi chiamo');
 assert.equal(vbJudge(['è'], 'e'), 'accent');
 assert.equal(vbJudge(['sono andato', 'sono andata'], 'Sono andata'), 'ok');
 assert.equal(vbJudge(['parlo'], ''), 'empty');
+// Neue Zeiten (Ecco più 2 und 3)
+assert.equal(g('andare').cong[0][0], 'vada');
+assert.equal(g('cercare').cong[5][0], 'cerchino');
+assert.equal(g('finire').cong[5][0], 'finiscano');
+assert.deepEqual(g('dovere').cong[0], ['debba', 'deva']);
+assert.equal(g('morire').cong[0][0], 'muoia');
+assert.equal(g('fare').congi[3][0], 'facessimo');
+assert.equal(g('essere').congi[2][0], 'fosse');
+assert.equal(g('produrre').congi[0][0], 'producessi');
+assert.equal(g('prendere').imp[1][0], 'prenda');
+assert.deepEqual(g('andare').imp[0], ["va'", 'vai']);
+assert.equal(g('alzarsi').imp[3][0], 'alzatevi');
+assert.equal(g('fare').ger[1][0], 'stai facendo');
+assert.equal(g('lavarsi').ger[0][0], 'mi sto lavando');
+assert.equal(g('mangiare').trap[0][0], 'avevo mangiato');
+assert.equal(g('partire').congp[2][1], 'sia partita');
+assert.equal(g('sapere').congt[0][0], 'avessi saputo');
+assert.equal(g('arrivare').condp[2][0], 'sarebbe arrivato');
+assert.equal(g('impiegare').pres[1][0], 'impieghi');
+assert.ok(!g('potere').imp, 'kein Imperativ bei Modalverben');
+// Gestaffelt: Band und Sätze
+assert.equal(VB_VERBS.find(v => v.inf === 'proporre').band, 3);
+assert.equal(VB_VERBS.find(v => v.inf === 'scegliere').band, 2);
+VB_SENT.forEach(([b, t, inf, p, text]) => {
+  const v = VB_VERBS.find(x => x.inf === inf);
+  assert.ok(v && v.tenses[t] && v.tenses[t][p], 'Satz ohne Form: ' + text);
+  assert.ok(text.includes('___'), 'Satz ohne Lücke: ' + text);
+  assert.ok(v.band <= b, 'Verb erst später: ' + text);
+});
 console.log('Verben passed.');

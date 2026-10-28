@@ -37,7 +37,6 @@
    "page": "175-176",
    "definition": "Una cosa difficile che bisogna affrontare.",
    "example": "Il cambiamento climatico è una grande sfida.",
-   "related": "die Herausforderung|||Una cosa difficile che bisogna affrontare.|Il cambiamento climatico è una grande sfida.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -77,7 +76,6 @@
    "page": "175-176",
    "definition": "Uno studente o una studentessa del liceo.",
    "example": "I liceali di quinta preparano la maturità.",
-   "related": "der/die Gymnasiast/in|m./f.||Uno studente o una studentessa del liceo.|I liceali di quinta preparano la maturità.",
    "usage": "m./f."
   },
   {
@@ -109,7 +107,6 @@
    "page": "175-176",
    "definition": "Il mare tra Europa, Africa e Asia.",
    "example": "La Sicilia è la più grande isola del Mediterraneo.",
-   "related": "das Mittelmeer(gebiet)|||Il mare tra Europa, Africa e Asia.|La Sicilia è la più grande isola del Mediterraneo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -129,7 +126,6 @@
    "page": "175-176",
    "definition": "Quando troppi turisti vanno nello stesso posto.",
    "example": "Il turismo di massa è un problema per Venezia.",
-   "related": "der Massentourismus|||Quando troppi turisti vanno nello stesso posto.|Il turismo di massa è un problema per Venezia.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -149,7 +145,6 @@
    "page": "175-176",
    "definition": "Sapere bene una cosa e capirne l’importanza.",
    "example": "Sono consapevole dei rischi di internet.",
-   "related": "sich etw. bewusst sein|||Sapere bene una cosa e capirne l’importanza.|Sono consapevole dei rischi di internet.",
    "acceptedAnswers": [
     "essere consapevole di"
    ]
@@ -163,7 +158,6 @@
    "page": "175-176",
    "definition": "Verso, rispetto a qualcuno.",
    "example": "Sei sempre gentile nei confronti di tutti.",
-   "related": "gegenüber jdm/etw.|||Verso, rispetto a qualcuno.|Sei sempre gentile nei confronti di tutti.",
    "acceptedAnswers": [
     "nei confronti di"
    ]
@@ -178,7 +172,6 @@
    "page": "175-176",
    "definition": "Un piccolo paese antico.",
    "example": "In Umbria ci sono tanti borghi medievali.",
-   "related": "das Dorf; das Viertel|pl. i borghi||Un piccolo paese antico.|In Umbria ci sono tanti borghi medievali.",
    "usage": "pl. i borghi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -218,8 +211,7 @@
    ],
    "page": "175-176",
    "definition": "Che funziona bene.",
-   "example": "Questo metodo di studio è molto efficace.",
-   "related": "wirksam|||Che funziona bene.|Questo metodo di studio è molto efficace."
+   "example": "Questo metodo di studio è molto efficace."
   },
   {
    "id": "u3-approccio-012",
@@ -230,7 +222,6 @@
    "page": "175-176",
    "definition": "Quello che si fa prima per evitare un problema.",
    "example": "La prevenzione è importante per la salute.",
-   "related": "die Vorbeugung|||Quello che si fa prima per evitare un problema.|La prevenzione è importante per la salute.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -249,8 +240,7 @@
    ],
    "page": "175-176",
    "definition": "Fare qualcosa per risolvere un problema.",
-   "example": "Il comune deve prendere provvedimenti contro il traffico.",
-   "related": "Vorkehrungen treffen|||Fare qualcosa per risolvere un problema.|Il comune deve prendere provvedimenti contro il traffico."
+   "example": "Il comune deve prendere provvedimenti contro il traffico."
   },
   {
    "id": "u3-approccio-014",
@@ -261,7 +251,6 @@
    "page": "175-176",
    "definition": "Avere a che fare con qualcuno.",
    "example": "Questa regola riguarda tutti gli studenti.",
-   "related": "jdn/etw. betreffen|||Avere a che fare con qualcuno.|Questa regola riguarda tutti gli studenti.",
    "acceptedAnswers": [
     "riguardare"
    ]
@@ -296,7 +285,6 @@
    "page": "175-176",
    "definition": "Essere capaci di fare una cosa.",
    "example": "Sei in grado di risolvere questo esercizio?",
-   "related": "in der Lage sein, etw. zu tun|+ inf.||Essere capaci di fare una cosa.|Sei in grado di risolvere questo esercizio?",
    "usage": "+ inf."
   },
   {
@@ -308,7 +296,6 @@
    "page": "175-176",
    "definition": "Resistere, non cadere.",
    "example": "La vecchia casa ha retto al terremoto.",
-   "related": "jdm/etw. standhalten|p.p. retto||Resistere, non cadere.|La vecchia casa ha retto al terremoto.",
    "acceptedAnswers": [
     "reggere a"
    ],
@@ -323,7 +310,6 @@
    "page": "175-176",
    "definition": "Un movimento forte della terra.",
    "example": "Stanotte abbiamo sentito una scossa.",
-   "related": "der Erdstoß|||Un movimento forte della terra.|Stanotte abbiamo sentito una scossa.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -344,7 +330,6 @@
    "page": "175-176",
    "definition": "Il processo di crescita e di cambiamento.",
    "example": "Lo sviluppo della tecnologia è velocissimo.",
-   "related": "die Entwicklung; die Entstehung|||Il processo di crescita e di cambiamento.|Lo sviluppo della tecnologia è velocissimo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "lo",
@@ -364,8 +349,7 @@
    ],
    "page": "175-176",
    "definition": "Che non fa male all’ambiente per il futuro.",
-   "example": "Vogliamo un turismo più sostenibile.",
-   "related": "vertretbar; nachhaltig|||Che non fa male all’ambiente per il futuro.|Vogliamo un turismo più sostenibile."
+   "example": "Vogliamo un turismo più sostenibile."
   },
   {
    "id": "u3-approccio-021",
@@ -376,8 +360,7 @@
    ],
    "page": "175-176",
    "definition": "Trattare con attenzione e rispetto.",
-   "example": "Bisogna rispettare la natura.",
-   "related": "schonen; respektieren|||Trattare con attenzione e rispetto.|Bisogna rispettare la natura."
+   "example": "Bisogna rispettare la natura."
   },
   {
    "id": "u3-approccio-022",
@@ -408,8 +391,7 @@
    ],
    "page": "175-176",
    "definition": "Bellissimo.",
-   "example": "Oggi è una giornata splendida.",
-   "related": "wunderbar|||Bellissimo.|Oggi è una giornata splendida."
+   "example": "Oggi è una giornata splendida."
   },
   {
    "id": "u3-approccio-024",
@@ -420,8 +402,7 @@
    ],
    "page": "175-176",
    "definition": "Facile da capire, evidente.",
-   "example": "È chiaro che non vuole venire.",
-   "related": "klar; offensichtlich|||Facile da capire, evidente.|È chiaro che non vuole venire."
+   "example": "È chiaro che non vuole venire."
   },
   {
    "id": "u3-approccio-025",
@@ -444,7 +425,6 @@
    "page": "175-176",
    "definition": "La costa del mare con spiagge e paesi.",
    "example": "D’estate andiamo in riviera.",
-   "related": "die Meeresküste|||La costa del mare con spiagge e paesi.|D’estate andiamo in riviera.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -463,8 +443,7 @@
    ],
    "page": "175-176",
    "definition": "Della Liguria.",
-   "example": "La costa ligure ha paesi molto colorati.",
-   "related": "ligurisch|||Della Liguria.|La costa ligure ha paesi molto colorati."
+   "example": "La costa ligure ha paesi molto colorati."
   },
   {
    "id": "u3-approccio-028",
@@ -475,7 +454,6 @@
    "page": "175-176",
    "definition": "Che sembra fuori dalla realtà, bellissimo.",
    "example": "Il tramonto sul mare era magico.",
-   "related": "magisch|pl. magici/-iche||Che sembra fuori dalla realtà, bellissimo.|Il tramonto sul mare era magico.",
    "usage": "pl. magici/-iche"
   },
   {
@@ -487,7 +465,6 @@
    "page": "175-176",
    "definition": "Un posto da cui si vede un bel paesaggio.",
    "example": "Dal punto panoramico si vede tutta Napoli.",
-   "related": "der Aussichtspunkt|||Un posto da cui si vede un bel paesaggio.|Dal punto panoramico si vede tutta Napoli.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -517,8 +494,7 @@
    ],
    "page": "175-176",
    "definition": "Così tanto che.",
-   "example": "Era stanco al punto che si è addormentato in classe.",
-   "related": "so weit/sehr/viel, dass|||Così tanto che.|Era stanco al punto che si è addormentato in classe."
+   "example": "Era stanco al punto che si è addormentato in classe."
   },
   {
    "id": "u3-approccio-032",
@@ -540,7 +516,6 @@
    "page": "175-176",
    "definition": "Quello che brucia e fa luce e calore.",
    "example": "Abbiamo acceso il fuoco in spiaggia.",
-   "related": "das Feuer|pl. i fuochi||Quello che brucia e fa luce e calore.|Abbiamo acceso il fuoco in spiaggia.",
    "usage": "pl. i fuochi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -561,7 +536,6 @@
    "page": "175-176",
    "definition": "Un modo di fare, un’abitudine.",
    "example": "Rubare è una pratica criminale.",
-   "related": "die Praktik|pl. le pratiche||Un modo di fare, un’abitudine.|Rubare è una pratica criminale.",
    "usage": "pl. le pratiche",
    "grammar": {
     "partOfSpeech": "noun",
@@ -581,8 +555,7 @@
    ],
    "page": "175-176",
    "definition": "Contro la legge.",
-   "example": "La polizia combatte le organizzazioni criminali.",
-   "related": "kriminell|||Contro la legge.|La polizia combatte le organizzazioni criminali."
+   "example": "La polizia combatte le organizzazioni criminali."
   },
   {
    "id": "u3-approccio-036",
@@ -592,8 +565,7 @@
    ],
    "page": "175-176",
    "definition": "Distruggere con il fuoco.",
-   "example": "Non si devono bruciare i rifiuti.",
-   "related": "verbrennen|||Distruggere con il fuoco.|Non si devono bruciare i rifiuti."
+   "example": "Non si devono bruciare i rifiuti."
   },
   {
    "id": "u3-approccio-037",
@@ -615,7 +587,6 @@
    "page": "175-176",
    "definition": "Avere come risultato.",
    "example": "Lo stress può portare a problemi di salute.",
-   "related": "führen zu etw.|||Avere come risultato.|Lo stress può portare a problemi di salute.",
    "acceptedAnswers": [
     "portare a"
    ]
@@ -640,7 +611,6 @@
    "page": "175-176",
    "definition": "Quando le persone dicono pubblicamente che non sono d’accordo.",
    "example": "I ragazzi hanno organizzato una protesta per il clima.",
-   "related": "der Protest|||Quando le persone dicono pubblicamente che non sono d’accordo.|I ragazzi hanno organizzato una protesta per il clima.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -659,8 +629,7 @@
    ],
    "page": "175-176",
    "definition": "Quando aria, acqua o terra diventano sporche.",
-   "example": "L’inquinamento dell’aria è alto in città.",
-   "related": "die (Umwelt-)Verschmutzung|||Quando aria, acqua o terra diventano sporche.|L’inquinamento dell’aria è alto in città."
+   "example": "L’inquinamento dell’aria è alto in città."
   }
  ],
  "catalog": {

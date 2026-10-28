@@ -38,7 +38,6 @@
    "page": "170",
    "definition": "Più della metà di un gruppo.",
    "example": "La maggior parte dei miei amici gioca a calcio.",
-   "related": "der größte Teil von; die meisten|||Più della metà di un gruppo.|La maggior parte dei miei amici gioca a calcio.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -57,8 +56,7 @@
    ],
    "page": "170",
    "definition": "Un po’ meno del cinquanta per cento.",
-   "example": "Quasi la metà della classe ha un cane.",
-   "related": "fast die Hälfte von|||Un po’ meno del cinquanta per cento.|Quasi la metà della classe ha un cane."
+   "example": "Quasi la metà della classe ha un cane."
   },
   {
    "id": "u1-per-comunicare-003",
@@ -68,8 +66,7 @@
    ],
    "page": "170",
    "definition": "Più del venticinque per cento.",
-   "example": "Più di un quarto dei turisti va al mare.",
-   "related": "mehr als ein Viertel von|||Più del venticinque per cento.|Più di un quarto dei turisti va al mare."
+   "example": "Più di un quarto dei turisti va al mare."
   },
   {
    "id": "u1-per-comunicare-004",
@@ -79,8 +76,7 @@
    ],
    "page": "170",
    "definition": "Si usa per dire che un argomento non basta.",
-   "example": "Non è sufficiente dire che è una tradizione antica.",
-   "related": "Es genügt nicht zu sagen, dass …|||Si usa per dire che un argomento non basta.|Non è sufficiente dire che è una tradizione antica."
+   "example": "Non è sufficiente dire che è una tradizione antica."
   },
   {
    "id": "u1-per-comunicare-005",
@@ -90,8 +86,7 @@
    ],
    "page": "170",
    "definition": "Si usa per spiegare meglio un’idea.",
-   "example": "Voglio dire che il Palio è anche pericoloso.",
-   "related": "Ich will damit sagen, dass …|||Si usa per spiegare meglio un’idea.|Voglio dire che il Palio è anche pericoloso."
+   "example": "Voglio dire che il Palio è anche pericoloso."
   },
   {
    "id": "u1-per-comunicare-006",
@@ -101,8 +96,7 @@
    ],
    "page": "170",
    "definition": "Si usa per riportare l’opinione di tante persone.",
-   "example": "Molti affermano che i social sono pericolosi.",
-   "related": "Viele behaupten, dass …|||Si usa per riportare l’opinione di tante persone.|Molti affermano che i social sono pericolosi."
+   "example": "Molti affermano che i social sono pericolosi."
   },
   {
    "id": "u1-per-comunicare-007",
@@ -112,8 +106,7 @@
    ],
    "page": "170",
    "definition": "Si usa per dire che non si è d’accordo.",
-   "example": "Ciò nonostante vorrei contestare la tua idea.",
-   "related": "Dennoch möchte ich … widersprechen|||Si usa per dire che non si è d’accordo.|Ciò nonostante vorrei contestare la tua idea."
+   "example": "Ciò nonostante vorrei contestare la tua idea."
   },
   {
    "id": "u1-per-comunicare-008",
@@ -123,8 +116,7 @@
    ],
    "page": "170",
    "definition": "Si usa per presentare l’ultimo argomento.",
-   "example": "Infine il punto più importante è la salute degli animali.",
-   "related": "Schließlich ist der wichtigste Punkt …|||Si usa per presentare l’ultimo argomento.|Infine il punto più importante è la salute degli animali."
+   "example": "Infine il punto più importante è la salute degli animali."
   },
   {
    "id": "u1-per-comunicare-009",
@@ -134,8 +126,7 @@
    ],
    "page": "170",
    "definition": "Si usa per aggiungere un altro aspetto.",
-   "example": "Nello stesso tempo capisco chi ama questa festa.",
-   "related": "Gleichzeitig …|||Si usa per aggiungere un altro aspetto.|Nello stesso tempo capisco chi ama questa festa."
+   "example": "Nello stesso tempo capisco chi ama questa festa."
   },
   {
    "id": "u1-per-comunicare-010",
@@ -145,8 +136,7 @@
    ],
    "page": "170",
    "definition": "Si usa per proporre un compromesso.",
-   "example": "Si potrebbe forse trovare un’altra soluzione per i cavalli.",
-   "related": "Man könnte vielleicht eine andere Lösung finden.|||Si usa per proporre un compromesso.|Si potrebbe forse trovare un’altra soluzione per i cavalli."
+   "example": "Si potrebbe forse trovare un’altra soluzione per i cavalli."
   },
   {
    "id": "u1-per-comunicare-011",
@@ -157,7 +147,6 @@
    "page": "170",
    "definition": "Si usa per dire che una cosa ti ha sorpreso.",
    "example": "Non pensavo che fosse così divertente.",
-   "related": "Ich dachte nicht, dass …|+ cong. imperfetto||Si usa per dire che una cosa ti ha sorpreso.|Non pensavo che fosse così divertente.",
    "usage": "+ cong. imperfetto"
   },
   {
@@ -169,7 +158,6 @@
    "page": "170",
    "definition": "Si usa per dire che avevi paura di una cosa.",
    "example": "Temevo che il treno partisse senza di me.",
-   "related": "Ich befürchtete, dass …|+ cong. imperfetto||Si usa per dire che avevi paura di una cosa.|Temevo che il treno partisse senza di me.",
    "usage": "+ cong. imperfetto"
   },
   {
@@ -181,7 +169,6 @@
    "page": "170",
    "definition": "Si usa per dire un’impressione del passato.",
    "example": "Mi pareva che nessuno mi ascoltasse.",
-   "related": "Es kam mir so vor, als ob …|+ cong. imperfetto||Si usa per dire un’impressione del passato.|Mi pareva che nessuno mi ascoltasse.",
    "usage": "+ cong. imperfetto"
   }
  ],

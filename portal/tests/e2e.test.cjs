@@ -497,6 +497,28 @@ async function step(name, fn) {
     assert.equal(await pp.locator('.hw-home').count(), 1);
   });
 
+  await step('Verben: Band 3, „Welche Form?“ und „Im Satz“ lösen', async () => {
+    await pp.goto(base, { waitUntil: 'networkidle' });
+    await pp.evaluate(() => nav('verben'));
+    await pp.click('[data-vb="band"][data-v="3"]');
+    assert.ok(await pp.$('[data-vb="tense"][data-v="cong"]'), 'Congiuntivo ab Band 3');
+    await pp.click('[data-vb="mode"][data-v="choice"]');
+    await pp.click('[data-vb="tense"][data-v="cong"]');
+    await pp.click('[data-vb="quiz-start"]');
+    const right = await pp.evaluate(() => VB_STATE.quiz.items[0].forms[0]);
+    await pp.click(`.vb-opt[data-v="${right}"]`);
+    assert.match(await pp.textContent('.vb-fb'), /Richtig/);
+    await pp.click('[data-vb="mode"][data-v="sent"]');
+    await pp.click('[data-vb="quiz-start"]');
+    const form = await pp.evaluate(() => VB_STATE.quiz.items[0].forms[0]);
+    await pp.fill('#vb-q', form);
+    await pp.click('#vb-qform button[type="submit"]');
+    assert.match(await pp.textContent('.vb-fb'), /Richtig/);
+    await pp.click('[data-vb="band"][data-v="1"]');
+    assert.equal(await pp.$('[data-vb="tense"][data-v="cong"]'), null);
+    assert.equal(await pp.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
+  });
+
   await step('Redaktion: Wortliste mit KI aus einem Text, an daje schicken, Einreichung übernehmen', async () => {
     const text = 'Negli ultimi anni le librerie hanno preso piede in città, in ogni quartiere del centro.';
     await pp.goto(base, { waitUntil: 'networkidle' });

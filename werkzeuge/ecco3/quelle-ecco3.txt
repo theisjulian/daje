@@ -166,7 +166,7 @@ indietro|zurück|avv.||Verso il punto da cui si è partiti.|Mi ha dato indietro 
 farcela|es schaffen|ce la faccio, ce la fai …|▸ fare|Riuscire a fare una cosa difficile.|Ce la faccio a finire i compiti prima di cena.
 il vantaggio|der Vorteil||E advantage; F avantage; ≠ lo svantaggio|Un aspetto positivo.|Il vantaggio della bici è che non inquina.
 risparmiare|sparen|||Non spendere soldi per averne di più dopo.|Risparmio per comprare una chitarra.
-l’acquisto|der (Ein-)Kauf||▸ acquistare|Una cosa che hai comprato.|Le scarpe nuove sono stato un buon acquisto.
+l’acquisto|der (Ein-)Kauf||▸ acquistare|Una cosa che hai comprato.|Le scarpe nuove sono state un buon acquisto.
 privato/-a|privat||≠ pubblico/-a|Di una sola persona, non di tutti.|Questa è una spiaggia privata.
 da una parte … dall’altra parte …|auf der einen Seite … auf der anderen Seite …|||Si usa per presentare due aspetti diversi.|Da una parte internet è utile, dall’altra parte è pericoloso.
 scambiare|austauschen||▸ cambiare|Dare una cosa e riceverne un’altra.|Ci scambiamo le figurine.
@@ -325,7 +325,7 @@ la protesta|der Protest|||Quando le persone dicono pubblicamente che non sono d�
 l’inquinamento|die (Umwelt-)Verschmutzung|||Quando aria, acqua o terra diventano sporche.|L’inquinamento dell’aria è alto in città.
 @ u3-3a | Unità 3 | 3A Tre settimane ad Amatrice | Drei Wochen in Amatrice | 177-178 | Erdbeben,Hilfe,Freiwillige
 l’orrore|das Grauen;der Schrecken|m.|E horror; F horreur|Una paura fortissima davanti a una cosa terribile.|Che orrore vedere le case distrutte!
-completo/-a|komplett|||Intero, a cui non manca niente.|Abbiamo dovuto rifare completamente la stanza.
+completo/-a|komplett|||Intero, a cui non manca niente.|Finalmente il mio album di figurine è completo.
 distrutto/-a|zerstört||E destroyed; F détruit/-e|Rotto del tutto.|Dopo il terremoto la chiesa era distrutta.
 disperato/-a|verzweifelt||E desperate; F désespéré(e)|Senza speranza.|Era disperato perché aveva perso tutto.
 recuperare|retten;sicherstellen|||Riuscire a riavere una cosa persa.|Sono riuscito a recuperare le foto dal vecchio telefono.
@@ -421,11 +421,11 @@ limpido/-a|klar|||Pulito e trasparente.|L’acqua del lago è limpida.
 mitico/-a|fantastisch;Wahnsinns-|Jugendsprache||Fantastico, bellissimo.|Il concerto è stato mitico!
 andarsene|weggehen|me ne vado, te ne vai …||Lasciare un posto.|È tardi, me ne vado.
 @ u3-per-comunicare | Unità 3 | Per comunicare | Sachverhalte, Bedingungen der Vergangenheit, Gefühle | 180-181 | Redemittel,Bedingungen,Gefühle
-Non c’è dubbio sul fatto che …|Es besteht kein Zweifel daran, dass …|||Si usa per presentare una cosa sicura.|Non c’è dubbio sul fatto che il turismo aiuta l’economia.
+Non c’è dubbio sul fatto che …|Es besteht kein Zweifel daran, dass …|||Si usa per presentare una cosa sicura.|Non c’è dubbio sul fatto che il turismo aiuti l’economia.
 Ciò riguarda soprattutto …|Das betrifft vor allem …|||Si usa per dire chi o che cosa è interessato.|Ciò riguarda soprattutto le persone anziane.
 Ciò porta a …|Das führt zu …|||Si usa per dire una conseguenza.|Ciò porta a seri problemi di traffico.
 Già da anni …|Schon seit Jahren …|||Da molto tempo.|Già da anni la città si dedica al turismo sostenibile.
-Se non l’avessi visto con i miei occhi, non ci avrei mai creduto.|Hätte ich es nicht mit eigenen Augen gesehen, hätte ich es nie geglaubt.|||Si usa per una condizione nel passato.|Se non l’avessi visto con i miei occhi, non ci avrei mai creduto.
+Se non l’avessi visto con i miei occhi, non ci avrei mai creduto.|Hätte ich es nicht mit eigenen Augen gesehen, hätte ich es nie geglaubt.|||Si usa per una condizione nel passato.|Se non l’avessi visto con i miei occhi, non ci avrei mai creduto: Venezia era vuota!
 Se non fossi partito/-a, non avrei mai …|Wäre ich nicht weggefahren, hätte ich nie …|||Si usa per immaginare un passato diverso.|Se non fossi partita, non avrei mai conosciuto questi amici.
 Che orrore!|Wie schrecklich!|||Si dice quando una cosa fa paura o schifo.|Che orrore questo film!
 Ho avuto davvero tanta paura.|Ich hatte wirklich große Angst.|||Si usa per raccontare uno spavento.|Durante il temporale ho avuto davvero tanta paura.
@@ -514,7 +514,7 @@ cavarsela|sich zurechtfinden;klarkommen|me la cavo, te la cavi …||Riuscire a f
 maschile/femminile|männlich/weiblich||▸ il maschio / la femmina|Degli uomini / delle donne.|La squadra femminile ha vinto il campionato.
 il club|der Verein|pl. i club||Un gruppo di persone con un interesse comune, spesso sportivo.|Gioco a tennis in un club vicino a casa.
 il finale|das Finale||▸ finire|La partita decisiva di un torneo.|Abbiamo guardato il finale insieme.
-cosiddetto/-a|sogenannte/-r/-s||▸ così; ▸ dire|Che si chiama così.|È il cosiddetto “Giro d’Italia”.
+cosiddetto/-a|sogenannte/-r/-s||▸ così; ▸ dire|Che si chiama così.|Il cosiddetto “Bel Paese” è l’Italia.
 il fenomeno|das Phänomen||E phenomenon; F phénomène|Un fatto speciale; anche una persona bravissima.|Questo giocatore è un fenomeno.
 l’atleta|der/die Sportler/in|m./f.|E athlete|Una persona che fa sport a livello alto.|Gli atleti si allenano ogni giorno.
 il/la giocatore/giocatrice|der/die Spieler/in|pl. i giocatori, le giocatrici|▸ giocare|Una persona che gioca, per esempio a calcio.|La giocatrice ha segnato due gol.

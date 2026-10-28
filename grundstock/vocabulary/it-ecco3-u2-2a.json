@@ -37,7 +37,6 @@
    "page": "172-173",
    "definition": "Una parte di una serie o di un programma.",
    "example": "Stasera esce la nuova puntata della mia serie preferita.",
-   "related": "die Folge|Fernsehen, Rundfunk||Una parte di una serie o di un programma.|Stasera esce la nuova puntata della mia serie preferita.",
    "usage": "Fernsehen, Rundfunk",
    "grammar": {
     "partOfSpeech": "noun",
@@ -72,7 +71,6 @@
    "page": "172-173",
    "definition": "Nello stesso momento; per ora.",
    "example": "Tu prepari la pasta, io intanto apparecchio.",
-   "related": "unterdessen; währenddessen; zunächst einmal|avv.||Nello stesso momento; per ora.|Tu prepari la pasta, io intanto apparecchio.",
    "usage": "avv."
   },
   {
@@ -84,7 +82,6 @@
    "page": "172-173",
    "definition": "Un video che spiega come funziona una cosa.",
    "example": "Ho capito la regola grazie a un video esplicativo.",
-   "related": "das Erklärvideo|pl. i video esplicativi||Un video che spiega come funziona una cosa.|Ho capito la regola grazie a un video esplicativo.",
    "usage": "pl. i video esplicativi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -247,8 +244,7 @@
    ],
    "page": "172-173",
    "definition": "Che crede troppo facilmente agli altri.",
-   "example": "Non essere ingenuo, quella notizia è falsa.",
-   "related": "naiv|||Che crede troppo facilmente agli altri.|Non essere ingenuo, quella notizia è falsa."
+   "example": "Non essere ingenuo, quella notizia è falsa."
   },
   {
    "id": "u2-2a-016",
@@ -258,8 +254,7 @@
    ],
    "page": "172-173",
    "definition": "Pieno di sentimenti e di amore.",
-   "example": "Abbiamo visto un film molto romantico.",
-   "related": "romantisch|||Pieno di sentimenti e di amore.|Abbiamo visto un film molto romantico."
+   "example": "Abbiamo visto un film molto romantico."
   },
   {
    "id": "u2-2a-017",
@@ -283,8 +278,7 @@
    ],
    "page": "172-173",
    "definition": "Di questo tipo.",
-   "example": "Non ho mai visto una cosa del genere.",
-   "related": "derartig; ähnlich|||Di questo tipo.|Non ho mai visto una cosa del genere."
+   "example": "Non ho mai visto una cosa del genere."
   },
   {
    "id": "u2-2a-019",
@@ -296,7 +290,6 @@
    "page": "172-173",
    "definition": "Usare; anche: avere bisogno di un certo tempo.",
    "example": "Impiego venti minuti per andare a scuola.",
-   "related": "verwenden; brauchen (Zeit)|(-ghi-)||Usare; anche: avere bisogno di un certo tempo.|Impiego venti minuti per andare a scuola.",
    "usage": "(-ghi-)"
   },
   {
@@ -329,7 +322,6 @@
    "page": "172-173",
    "definition": "Internet; anche una cosa fatta di fili.",
    "example": "In rete si trovano tante informazioni.",
-   "related": "das Netz; das Internet|||Internet; anche una cosa fatta di fili.|In rete si trovano tante informazioni.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -363,7 +355,6 @@
    "page": "172-173",
    "definition": "Si usa con non per rafforzare la negazione.",
    "example": "Non sono mica stupido!",
-   "related": "ja; doch (in Verneinungen)|Non è mica lontano. – Es ist ja nicht weit weg.||Si usa con non per rafforzare la negazione.|Non sono mica stupido!",
    "usage": "Non è mica lontano. – Es ist ja nicht weit weg."
   },
   {
@@ -388,8 +379,7 @@
    ],
    "page": "172-173",
    "definition": "Che usa computer e internet.",
-   "example": "Leggo i libri in formato digitale.",
-   "related": "digital|||Che usa computer e internet.|Leggo i libri in formato digitale."
+   "example": "Leggo i libri in formato digitale."
   },
   {
    "id": "u2-2a-026",
@@ -516,7 +506,6 @@
    "page": "172-173",
    "definition": "Vivere senza una persona o una cosa.",
    "example": "Non posso fare a meno del caffè la mattina.",
-   "related": "auf jdn/etw. verzichten; ohne jdn/etw. auskommen|||Vivere senza una persona o una cosa.|Non posso fare a meno del caffè la mattina.",
    "acceptedAnswers": [
     "fare a meno di"
    ]
@@ -529,8 +518,7 @@
    ],
    "page": "172-173",
    "definition": "Avere un rapporto con.",
-   "example": "Questo problema non ha a che fare con te.",
-   "related": "zu tun haben mit|||Avere un rapporto con.|Questo problema non ha a che fare con te."
+   "example": "Questo problema non ha a che fare con te."
   },
   {
    "id": "u2-2a-037",
@@ -540,8 +528,7 @@
    ],
    "page": "172-173",
    "definition": "Diventare amici.",
-   "example": "In vacanza ho fatto amicizia con due ragazze.",
-   "related": "Freundschaft schließen|||Diventare amici.|Ad Amburgo ho fatto amicizia con due ragazzi."
+   "example": "In vacanza ho fatto amicizia con due ragazze."
   },
   {
    "id": "u2-2a-038",
@@ -551,8 +538,7 @@
    ],
    "page": "172-173",
    "definition": "Stare attento.",
-   "example": "Fai attenzione quando attraversi la strada!",
-   "related": "aufpassen|||Stare attento.|Fai attenzione quando attraversi la strada!"
+   "example": "Fai attenzione quando attraversi la strada!"
   },
   {
    "id": "u2-2a-039",
@@ -562,8 +548,7 @@
    ],
    "page": "172-173",
    "definition": "Fare un’impressione buona o brutta.",
-   "example": "All’esame orale ho fatto bella figura.",
-   "related": "einen guten / schlechten Eindruck machen|||Fare un’impressione buona o brutta.|All’esame orale ho fatto bella figura."
+   "example": "All’esame orale ho fatto bella figura."
   },
   {
    "id": "u2-2a-040",
@@ -573,8 +558,7 @@
    ],
    "page": "172-173",
    "definition": "Si usa per parlare del tempo.",
-   "example": "Oggi fa molto freddo.",
-   "related": "warm/kalt/kühl sein|||Si usa per parlare del tempo.|Oggi fa molto freddo."
+   "example": "Oggi fa molto freddo."
   },
   {
    "id": "u2-2a-041",
@@ -584,8 +568,7 @@
    ],
    "page": "172-173",
    "definition": "Parlare un po’ senza fretta.",
-   "example": "Dopo scuola facciamo due chiacchiere al bar.",
-   "related": "ein Schwätzchen halten|||Parlare un po’ senza fretta.|Dopo scuola facciamo due chiacchiere al bar."
+   "example": "Dopo scuola facciamo due chiacchiere al bar."
   },
   {
    "id": "u2-2a-042",
@@ -595,8 +578,7 @@
    ],
    "page": "172-173",
    "definition": "Avere difficoltà a fare una cosa.",
-   "example": "Faccio fatica ad alzarmi la mattina.",
-   "related": "Mühe haben|||Avere difficoltà a fare una cosa.|Faccio fatica ad alzarmi la mattina."
+   "example": "Faccio fatica ad alzarmi la mattina."
   },
   {
    "id": "u2-2a-043",
@@ -606,8 +588,7 @@
    ],
    "page": "172-173",
    "definition": "Entrare nell’acqua del mare o della vasca.",
-   "example": "Al lago abbiamo fatto il bagno.",
-   "related": "baden|||Entrare nell’acqua del mare o della vasca.|Al lago abbiamo fatto il bagno."
+   "example": "Al lago abbiamo fatto il bagno."
   },
   {
    "id": "u2-2a-044",
@@ -617,8 +598,7 @@
    ],
    "page": "172-173",
    "definition": "Fingere sentimenti che non si hanno.",
-   "example": "Non fare l’ipocrita, so che non ti piace.",
-   "related": "heucheln|||Fingere sentimenti che non si hanno.|Non fare l’ipocrita, so che non ti piace."
+   "example": "Non fare l’ipocrita, so che non ti piace."
   },
   {
    "id": "u2-2a-045",
@@ -628,8 +608,7 @@
    ],
    "page": "172-173",
    "definition": "Causare dolore.",
-   "example": "Mi fa male la testa.",
-   "related": "wehtun|||Causare dolore.|Mi fa male la testa."
+   "example": "Mi fa male la testa."
   },
   {
    "id": "u2-2a-046",
@@ -640,8 +619,7 @@
    ],
    "page": "172-173",
    "definition": "Essere dentro un gruppo.",
-   "example": "Faccio parte della squadra di pallavolo.",
-   "related": "teilnehmen an; ein Teil sein von|||Essere dentro un gruppo.|Faccio parte della squadra di pallavolo."
+   "example": "Faccio parte della squadra di pallavolo."
   },
   {
    "id": "u2-2a-047",
@@ -652,7 +630,6 @@
    "page": "172-173",
    "definition": "Essere molto brutto o cattivo.",
    "example": "Questa minestra fa schifo!",
-   "related": "eklig sein|fam.||Essere molto brutto o cattivo.|Questa minestra fa schifo!",
    "usage": "fam."
   },
   {
@@ -664,8 +641,7 @@
    ],
    "page": "172-173",
    "definition": "Andare per negozi a comprare cose.",
-   "example": "Sabato faccio shopping con mia sorella.",
-   "related": "einkaufen; shoppen|||Andare per negozi a comprare cose.|Sabato faccio shopping con mia sorella."
+   "example": "Sabato faccio shopping con mia sorella."
   },
   {
    "id": "u2-2a-049",
@@ -675,8 +651,7 @@
    ],
    "page": "172-173",
    "definition": "Scendere sulla neve con una tavola.",
-   "example": "D’inverno faccio snowboard sulle Alpi.",
-   "related": "Snowboard fahren|||Scendere sulla neve con una tavola.|D’inverno faccio snowboard sulle Alpi."
+   "example": "D’inverno faccio snowboard sulle Alpi."
   },
   {
    "id": "u2-2a-050",
@@ -687,7 +662,6 @@
    "page": "172-173",
    "definition": "Andare a trovare qualcuno per poco tempo.",
    "example": "Dopo scuola faccio un salto da Marta.",
-   "related": "bei jdm vorbeischauen|||Andare a trovare qualcuno per poco tempo.|Dopo scuola faccio un salto da Marta.",
    "acceptedAnswers": [
     "fare un salto da"
    ]
@@ -700,8 +674,7 @@
    ],
    "page": "172-173",
    "definition": "Mostrare.",
-   "example": "Mi fai vedere le foto della vacanza?",
-   "related": "zeigen|||Mostrare.|Mi fai vedere le foto della vacanza?"
+   "example": "Mi fai vedere le foto della vacanza?"
   },
   {
    "id": "u2-2a-052",
@@ -712,7 +685,6 @@
    "page": "172-173",
    "definition": "Per la maggior parte.",
    "example": "I commenti sono in gran parte positivi.",
-   "related": "größtenteils|avv.||Per la maggior parte.|I commenti sono in gran parte positivi.",
    "usage": "avv."
   },
   {
@@ -781,7 +753,6 @@
    "page": "172-173",
    "definition": "Il diritto dell’autore sulla sua opera.",
    "example": "Non puoi usare questa foto, ha il copyright.",
-   "related": "das Urheberrecht; das Copyright|pl. i copyright||Il diritto dell’autore sulla sua opera.|Non puoi usare questa foto, ha il copyright.",
    "usage": "pl. i copyright",
    "grammar": {
     "partOfSpeech": "noun",
@@ -802,7 +773,6 @@
    "page": "172-173",
    "definition": "Si dice per salutare.",
    "example": "Ciao ragazzi, alla prossima!",
-   "related": "Bis zum nächsten Mal!|espr.||Si dice per salutare.|Ciao ragazzi, alla prossima!",
    "acceptedAnswers": [
     "Alla prossima!"
    ],

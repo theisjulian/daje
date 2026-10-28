@@ -37,7 +37,6 @@
    "page": "178-180",
    "definition": "Il fatto di essere bello.",
    "example": "Napoli è famosa per la bellezza del suo golfo.",
-   "related": "die Schönheit|||Il fatto di essere bello.|Napoli è famosa per la bellezza del suo golfo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -57,7 +56,6 @@
    "page": "178-180",
    "definition": "Il vulcano vicino a Napoli.",
    "example": "Dalla finestra vedo il Vesuvio.",
-   "related": "der Vesuv|||Il vulcano vicino a Napoli.|Dalla finestra vedo il Vesuvio.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -76,8 +74,7 @@
    ],
    "page": "178-180",
    "definition": "Che dorme.",
-   "example": "Il bambino è addormentato sul divano.",
-   "related": "schlafend|||Che dorme.|Il bambino è addormentato sul divano."
+   "example": "Il bambino è addormentato sul divano."
   },
   {
    "id": "u3-3b-004",
@@ -88,7 +85,6 @@
    "page": "178-180",
    "definition": "Quando un vulcano butta fuori fuoco e lava.",
    "example": "L’ultima eruzione del Vesuvio è stata nel 1944.",
-   "related": "der Ausbruch|f.||Quando un vulcano butta fuori fuoco e lava.|L’ultima eruzione del Vesuvio è stata nel 1944.",
    "usage": "f."
   },
   {
@@ -100,7 +96,6 @@
    "page": "178-180",
    "definition": "Che ama troppo la propria città e pensa che sia la migliore.",
    "example": "Mio nonno è molto campanilista: per lui Napoli è la città più bella.",
-   "related": "lokalpatriotisch|agg.||Che ama troppo la propria città e pensa che sia la migliore.|Mio nonno è molto campanilista: per lui Napoli è la città più bella.",
    "usage": "agg."
   },
   {
@@ -113,7 +108,6 @@
    "page": "178-180",
    "definition": "Quello che una persona sente o pensa.",
    "example": "È un sentimento difficile da spiegare.",
-   "related": "das Gefühl; die Einstellung|hier: die Einstellung, Haltung||Quello che una persona sente o pensa.|È un sentimento difficile da spiegare.",
    "usage": "hier: die Einstellung, Haltung",
    "grammar": {
     "partOfSpeech": "noun",
@@ -146,7 +140,6 @@
    "page": "178-180",
    "definition": "Più di.",
    "example": "Al concerto c’erano oltre diecimila persone.",
-   "related": "über; mehr als|prep.||Più di.|Al concerto c’erano oltre diecimila persone.",
    "usage": "prep."
   },
   {
@@ -157,8 +150,7 @@
    ],
    "page": "178-180",
    "definition": "In pericolo.",
-   "example": "Molte specie animali sono minacciate.",
-   "related": "bedroht|||In pericolo.|Molte specie animali sono minacciate."
+   "example": "Molte specie animali sono minacciate."
   },
   {
    "id": "u3-3b-010",
@@ -170,7 +162,6 @@
    "page": "178-180",
    "definition": "Avere come causa.",
    "example": "Il ritardo è dovuto al traffico.",
-   "related": "durch etw. bedingt sein; verursacht sein|Unterscheide: Devo partire presto. – Ich muss früh gehen. Ti devo 20 euro. – Ich schulde dir 20 Euro.||Avere come causa.|Il ritardo è dovuto al traffico.",
    "acceptedAnswers": [
     "essere dovuto/-a a"
    ],
@@ -197,8 +188,7 @@
    ],
    "page": "178-180",
    "definition": "Fatto senza permesso.",
-   "example": "Molte case abusive sono state costruite vicino al vulcano.",
-   "related": "unerlaubt; illegal|||Fatto senza permesso.|Molte case abusive sono state costruite vicino al vulcano."
+   "example": "Molte case abusive sono state costruite vicino al vulcano."
   },
   {
    "id": "u3-3b-013",
@@ -208,8 +198,7 @@
    ],
    "page": "178-180",
    "definition": "Ma nonostante questo.",
-   "example": "È pericoloso, eppure la gente ci vive volentieri.",
-   "related": "dennoch|||Ma nonostante questo.|È pericoloso, eppure la gente ci vive volentieri."
+   "example": "È pericoloso, eppure la gente ci vive volentieri."
   },
   {
    "id": "u3-3b-014",
@@ -252,7 +241,6 @@
    "page": "178-180",
    "definition": "Così bello che toglie il respiro.",
    "example": "Dalla collina abbiamo una vista mozzafiato.",
-   "related": "atemberaubend|unveränderlich: i panorami mozzafiato||Così bello che toglie il respiro.|Dalla collina abbiamo una vista mozzafiato.",
    "usage": "unveränderlich: i panorami mozzafiato"
   },
   {
@@ -263,8 +251,7 @@
    ],
    "page": "178-180",
    "definition": "Lasciare un posto.",
-   "example": "Non voglio andare via da Napoli.",
-   "related": "weggehen|||Lasciare un posto.|Non voglio andare via da Napoli."
+   "example": "Non voglio andare via da Napoli."
   },
   {
    "id": "u3-3b-018",
@@ -274,8 +261,7 @@
    ],
    "page": "178-180",
    "definition": "In nessun posto.",
-   "example": "Non trovo il mio telefono da nessuna parte.",
-   "related": "nirgends|||In nessun posto.|Non trovo il mio telefono da nessuna parte."
+   "example": "Non trovo il mio telefono da nessuna parte."
   },
   {
    "id": "u3-3b-019",
@@ -286,8 +272,7 @@
    ],
    "page": "178-180",
    "definition": "In un altro posto.",
-   "example": "Se qui è troppo caro, mangiamo altrove.",
-   "related": "anderswo; woanders|||In un altro posto.|Se qui è troppo caro, mangiamo altrove."
+   "example": "Se qui è troppo caro, mangiamo altrove."
   },
   {
    "id": "u3-3b-020",
@@ -298,7 +283,6 @@
    "page": "178-180",
    "definition": "Quando l’acqua di un fiume copre la terra e le case.",
    "example": "L’alluvione ha distrutto molte strade.",
-   "related": "die Überschwemmung|f.||Quando l’acqua di un fiume copre la terra e le case.|L’alluvione ha distrutto molte strade.",
    "usage": "f."
   },
   {
@@ -310,7 +294,6 @@
    "page": "178-180",
    "definition": "Una grande massa di neve che scende dalla montagna.",
    "example": "Oggi c’è pericolo di valanghe.",
-   "related": "die Lawine|pl. le valanghe||Una grande massa di neve che scende dalla montagna.|Oggi c’è pericolo di valanghe.",
    "usage": "pl. le valanghe",
    "grammar": {
     "partOfSpeech": "noun",
@@ -331,7 +314,6 @@
    "page": "178-180",
    "definition": "Quanto fa caldo o freddo.",
    "example": "Oggi la temperatura è di trenta gradi.",
-   "related": "die Temperatur|||Quanto fa caldo o freddo.|Oggi la temperatura è di trenta gradi.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -351,7 +333,6 @@
    "page": "178-180",
    "definition": "Pensare con ansia a un problema.",
    "example": "Non preoccuparti, va tutto bene.",
-   "related": "sich um etw. sorgen|||Pensare con ansia a un problema.|Non preoccuparti, va tutto bene.",
    "acceptedAnswers": [
     "preoccuparsi di"
    ]
@@ -378,7 +359,6 @@
    "page": "178-180",
    "definition": "Una lingua parlata in alcune valli delle Dolomiti.",
    "example": "In Val Gardena molte persone parlano il ladino.",
-   "related": "das Ladinische|Minderheitensprache / Dialekt||Una lingua parlata in alcune valli delle Dolomiti.|In Val Gardena molte persone parlano il ladino.",
    "usage": "Minderheitensprache / Dialekt",
    "grammar": {
     "partOfSpeech": "noun",
@@ -399,7 +379,6 @@
    "page": "178-180",
    "definition": "Un posto bellissimo, perfetto.",
    "example": "Questa spiaggia è un paradiso!",
-   "related": "das Paradies|||Un posto bellissimo, perfetto.|Questa spiaggia è un paradiso!",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -419,7 +398,6 @@
    "page": "178-180",
    "definition": "Che riguarda le cose antiche trovate sotto terra.",
    "example": "Abbiamo visitato il parco archeologico di Pompei.",
-   "related": "archäologisch|pl. archeologici, archeologiche||Che riguarda le cose antiche trovate sotto terra.|Abbiamo visitato il parco archeologico di Pompei.",
    "usage": "pl. archeologici, archeologiche"
   },
   {
@@ -431,7 +409,6 @@
    "page": "178-180",
    "definition": "Un corpo antico conservato per molti secoli.",
    "example": "Al museo egizio abbiamo visto una mummia.",
-   "related": "die Mumie|||Un corpo antico conservato per molti secoli.|Al museo egizio abbiamo visto una mummia.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -451,7 +428,6 @@
    "page": "178-180",
    "definition": "La ragione per cui si fa una cosa.",
    "example": "Per quale motivo sei arrivato tardi?",
-   "related": "der Grund|||La ragione per cui si fa una cosa.|Per quale motivo sei arrivato tardi?",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -471,7 +447,6 @@
    "page": "178-180",
    "definition": "Avere come conseguenza.",
    "example": "Vivere vicino al vulcano comporta dei rischi.",
-   "related": "etw. mit sich bringen|||Avere come conseguenza.|Vivere vicino al vulcano comporta dei rischi.",
    "acceptedAnswers": [
     "comportare"
    ]
@@ -485,7 +460,6 @@
    "page": "178-180",
    "definition": "Prendere e portare via con forza.",
    "example": "La valanga ha travolto due sciatori.",
-   "related": "überrollen|p.p. travolto||Prendere e portare via con forza.|La valanga ha travolto due sciatori.",
    "usage": "p.p. travolto"
   },
   {
@@ -497,7 +471,6 @@
    "page": "178-180",
    "definition": "La strada di neve dove si scia.",
    "example": "Le piste da sci sono piene a Natale.",
-   "related": "die Skipiste|||La strada di neve dove si scia.|Le piste da sci sono piene a Natale.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -529,7 +502,6 @@
    "page": "178-180",
    "definition": "Vero, autentico.",
    "example": "Mio padre è un napoletano doc.",
-   "related": "echt; hundertprozentig|fam.||Vero, autentico.|Mio padre è un napoletano doc.",
    "usage": "fam."
   },
   {
@@ -541,7 +513,6 @@
    "page": "178-180",
    "definition": "Il settore che produce stoffe e vestiti.",
    "example": "Il campo tessile è importante per l’economia di Prato.",
-   "related": "die Textilbranche|||Il settore che produce stoffe e vestiti.|Il campo tessile è importante per l’economia di Prato.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -561,7 +532,6 @@
    "page": "178-180",
    "definition": "Un negozio o ufficio che fa parte di una grande azienda.",
    "example": "La banca ha una filiale anche nel mio paese.",
-   "related": "die Filiale|||Un negozio o ufficio che fa parte di una grande azienda.|La banca ha una filiale anche nel mio paese.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -593,7 +563,6 @@
    "page": "178-180",
    "definition": "Una parte dell’economia o di un’attività.",
    "example": "Il turismo è un settore molto importante in Italia.",
-   "related": "der Sektor|||Una parte dell’economia o di un’attività.|Il turismo è un settore molto importante in Italia.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -624,8 +593,7 @@
    ],
    "page": "178-180",
    "definition": "Prendere i pesci.",
-   "example": "Mio nonno va a pescare ogni domenica.",
-   "related": "fischen|||Prendere i pesci.|Mio nonno va a pescare ogni domenica."
+   "example": "Mio nonno va a pescare ogni domenica."
   },
   {
    "id": "u3-3b-041",
@@ -636,8 +604,7 @@
    ],
    "page": "178-180",
    "definition": "Passare tradizioni o storie ai figli e ai nipoti.",
-   "example": "Questa ricetta è tramandata da mia nonna.",
-   "related": "überliefern; weitergeben|||Passare tradizioni o storie ai figli e ai nipoti.|Questa ricetta è tramandata da mia nonna."
+   "example": "Questa ricetta è tramandata da mia nonna."
   },
   {
    "id": "u3-3b-042",
@@ -648,7 +615,6 @@
    "page": "178-180",
    "definition": "Un formaggio fatto con il latte di pecora.",
    "example": "Sulla pasta metto il pecorino.",
-   "related": "der Schafskäse|||Un formaggio fatto con il latte di pecora.|Sulla pasta metto il pecorino.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -680,8 +646,7 @@
    ],
    "page": "178-180",
    "definition": "Dell’estate.",
-   "example": "Le vacanze estive durano tre mesi.",
-   "related": "Sommer-; sommerlich|||Dell’estate.|Le vacanze estive durano tre mesi."
+   "example": "Le vacanze estive durano tre mesi."
   },
   {
    "id": "u3-3b-045",
@@ -691,8 +656,7 @@
    ],
    "page": "178-180",
    "definition": "Pulito e trasparente.",
-   "example": "L’acqua del lago è limpida.",
-   "related": "klar|||Pulito e trasparente.|L’acqua del lago è limpida."
+   "example": "L’acqua del lago è limpida."
   },
   {
    "id": "u3-3b-046",
@@ -704,7 +668,6 @@
    "page": "178-180",
    "definition": "Fantastico, bellissimo.",
    "example": "Il concerto è stato mitico!",
-   "related": "fantastisch; Wahnsinns-|Jugendsprache||Fantastico, bellissimo.|Il concerto è stato mitico!",
    "usage": "Jugendsprache"
   },
   {
@@ -716,7 +679,6 @@
    "page": "178-180",
    "definition": "Lasciare un posto.",
    "example": "È tardi, me ne vado.",
-   "related": "weggehen|me ne vado, te ne vai …||Lasciare un posto.|È tardi, me ne vado.",
    "usage": "me ne vado, te ne vai …"
   }
  ],

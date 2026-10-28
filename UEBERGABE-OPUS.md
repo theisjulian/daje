@@ -191,6 +191,12 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - **Import:** `werkzeuge/ecco_import.py` liest jetzt auch `quelle-*.txt`; die dritte Spalte wird für alle Bände aufgeteilt (`≠` → antonyms, `▸` → family, `=` → synonyms, Rest → related). „qn/qs“ wird als Antwort nicht verlangt (`acceptedAnswers`). 16 Pakete `it-ecco3-*`, 549 Einträge; die vorläufige Liste `eigen-mvrwii4ucilr` (nur Unità 1) ist entfernt.
 - **Training:** Karteikarten erhalten jetzt dritte Spalte und Sprechform (`say`) aus allen drei Wortzuordnungen (portal.js, wortschatz.js); vorher fehlte `say` beim Üben. Lange Wörter brechen nach „/“ um.
 
+## 6p. Ecco più 3 korrigiert, Verbtrainer nach Band (28.10.2026)
+
+- **Fehler „Deutsch in den verwandten Wörtern“:** `ecco_import.py` las `quelle-*.txt` zusätzlich als related-/defs-Datei; jeder Eintrag ohne dritte Spalte bekam den Rest der Zeile als `related`. Behoben (related/defs nur für `lista-*.txt`). Fünf Beispielsätze verbessert. Vollständigkeit gegen die Wortpositionen im Scan geprüft (pdftotext -bbox): alle Stichwörter enthalten; Band 3 hat laut Verlag vier Lektionen.
+- **Verbtrainer (verbs.js) neu:** Band-Wahl Ecco più 1/2/3 (kumulativ, gespeichert in `daje-verben-v1`). Zeiten mit Band: 1 Presente, Passato prossimo · 2 Imperfetto, Futuro, Condizionale, Imperativo (tu/Lei/noi/voi), stare + Gerundio, Trapassato · 3 Congiuntivo presente/passato/imperfetto/trapassato, Condizionale passato. Formen regelbasiert (Congiuntivo aus 1. Person Präsens, Congiuntivo imperfetto aus Imperfekt-Stamm, Imperativ reflexiv mit angehängtem Pronomen), Ausnahmen in VB_DATA. 30 Verben aus Ecco più 3 ergänzt; VB_LATER/VB_NO steuern Band und fehlende Formen.
+- **Übungen:** Tabelle, Blitzrunde (auch „Gemischt“), Im Satz (Lücke tippen, VB_SENT mit ~95 Sätzen), Welche Form? (antippen; Ablenker = dieselbe Person in anderen Zeiten + andere Personen), Hilfsverb (avere/essere antippen, dann Partizip). Akzenttasten (à è é ì ò ù '), Tipp-Knopf (Anfang der Form). Tests: verbs.test.cjs (Formen, Sätze, Band), e2e „Verben“.
+
 ## 7. Offene Punkte
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.
 - Ecco 3 più importieren (nach Scan, exakte Kapitelzuordnung).

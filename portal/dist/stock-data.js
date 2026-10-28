@@ -36463,7 +36463,6 @@ const STOCK_PACKAGES = [
     "example": "Ogni contrada di Siena ha i suoi colori.",
     "definition": "Una zona di Siena con il suo nome e la sua bandiera.",
     "page": "167-168",
-    "related": "das Viertel|||Una zona di Siena con il suo nome e la sua bandiera.|Ogni contrada di Siena ha i suoi colori.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -36484,7 +36483,6 @@ const STOCK_PACKAGES = [
     "example": "La bandiera italiana è verde, bianca e rossa.",
     "definition": "Un pezzo di stoffa con i colori di un paese o di un gruppo.",
     "page": "167-168",
-    "related": "die Fahne|||Un pezzo di stoffa con i colori di un paese o di un gruppo.|La bandiera italiana è verde, bianca e rossa.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -36518,7 +36516,6 @@ const STOCK_PACKAGES = [
     "example": "In piazza c’è una manifestazione per la festa della città.",
     "definition": "Un evento pubblico, per esempio una festa o una gara.",
     "page": "167-168",
-    "related": "die Veranstaltung|||Un evento pubblico, per esempio una festa o una gara.|In piazza c’è una manifestazione per la festa della città.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -36552,8 +36549,7 @@ const STOCK_PACKAGES = [
     "example": "Torniamo a casa prima che cominci a piovere.",
     "definition": "Indica che una cosa succede più presto di un’altra.",
     "usage": "+ cong.",
-    "page": "167-168",
-    "related": "bevor|+ cong.||Indica che una cosa succede più presto di un’altra.|Torniamo a casa prima che cominci a piovere."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-008",
@@ -36565,8 +36561,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Innanzitutto grazie a tutti per essere venuti.",
     "definition": "Prima di tutte le altre cose.",
-    "page": "167-168",
-    "related": "insbesondere; zuallererst|||Prima di tutte le altre cose.|Innanzitutto grazie a tutti per essere venuti."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-009",
@@ -36577,8 +36572,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Viviamo in un mondo globalizzato.",
     "definition": "Collegato con tutto il mondo.",
-    "page": "167-168",
-    "related": "globalisiert|||Collegato con tutto il mondo.|Viviamo in un mondo globalizzato."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-010",
@@ -36591,7 +36585,6 @@ const STOCK_PACKAGES = [
     "example": "La diversità delle culture rende la città interessante.",
     "definition": "Il fatto di essere diversi.",
     "page": "167-168",
-    "related": "die Verschiedenheit; die Vielfalt|||Il fatto di essere diversi.|La diversità delle culture rende la città interessante.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -36611,8 +36604,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Se non studi, corri il rischio di prendere un brutto voto.",
     "definition": "Fare una cosa anche se può andare male.",
-    "page": "167-168",
-    "related": "ein Risiko eingehen|||Fare una cosa anche se può andare male.|Se non studi, corri il rischio di prendere un brutto voto."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-012",
@@ -36644,8 +36636,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Molte tradizioni antiche sopravvivono ancora oggi.",
     "definition": "Restare vivo dopo un pericolo.",
-    "page": "167-168",
-    "related": "überleben|||Restare vivo dopo un pericolo.|Molte tradizioni antiche sopravvivono ancora oggi."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-014",
@@ -36656,8 +36647,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "La lingua è una parte importante della nostra identità.",
     "definition": "Chi sei, quello che ti rende diverso dagli altri.",
-    "page": "167-168",
-    "related": "die Identität|||Chi sei, quello che ti rende diverso dagli altri.|La lingua è una parte importante della nostra identità."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-015",
@@ -36669,7 +36659,6 @@ const STOCK_PACKAGES = [
     "example": "Per quale ragione non sei venuto alla festa?",
     "definition": "Il perché di una cosa.",
     "page": "167-168",
-    "related": "der Grund|||Il perché di una cosa.|Per quale ragione non sei venuto alla festa?",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -36690,8 +36679,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "La musica è un elemento importante della festa.",
     "definition": "Una parte di un insieme.",
-    "page": "167-168",
-    "related": "der Bestandteil; das Element|||Una parte di un insieme.|La musica è un elemento importante della festa."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-017",
@@ -36716,7 +36704,6 @@ const STOCK_PACKAGES = [
     "example": "Dal mio punto di vista il Palio è una bella tradizione.",
     "definition": "Il modo in cui una persona vede una cosa.",
     "page": "167-168",
-    "related": "die Sichtweise; der Standpunkt|||Il modo in cui una persona vede una cosa.|Dal mio punto di vista il Palio è una bella tradizione.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -36737,7 +36724,6 @@ const STOCK_PACKAGES = [
     "example": "Venezia è una meta molto amata dai turisti.",
     "definition": "Il posto dove vuoi arrivare.",
     "page": "167-168",
-    "related": "das Ziel|||Il posto dove vuoi arrivare.|Venezia è una meta molto amata dai turisti.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -36773,8 +36759,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Grazie a Laura ho capito l’esercizio.",
     "definition": "Per merito di qualcuno o qualcosa.",
-    "page": "167-168",
-    "related": "dank jds/etw.|||Per merito di qualcuno o qualcosa.|Grazie a Laura ho capito l’esercizio."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-022",
@@ -36785,8 +36770,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Grazie per il tuo aiuto!",
     "definition": "Quello che fai per una persona che ha un problema.",
-    "page": "167-168",
-    "related": "die Hilfe|||Quello che fai per una persona che ha un problema.|Grazie per il tuo aiuto!"
+    "page": "167-168"
    },
    {
     "id": "u1-1a-023",
@@ -36852,8 +36836,7 @@ const STOCK_PACKAGES = [
     "example": "Parlo piano affinché tutti capiscano.",
     "definition": "Con lo scopo che.",
     "usage": "+ cong.",
-    "page": "167-168",
-    "related": "damit|+ cong.||Con lo scopo che.|Parlo piano affinché tutti capiscano."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-028",
@@ -36865,7 +36848,6 @@ const STOCK_PACKAGES = [
     "example": "Il cavallo è caduto in curva.",
     "definition": "Una parte della strada che non va dritta.",
     "page": "167-168",
-    "related": "die Kurve|||Una parte della strada che non va dritta.|Il cavallo è caduto in curva.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -36886,8 +36868,7 @@ const STOCK_PACKAGES = [
     "example": "Sebbene sia stanco, esco con gli amici.",
     "definition": "Anche se.",
     "usage": "+ cong.",
-    "page": "167-168",
-    "related": "obwohl|+ cong.||Anche se.|Sebbene sia stanco, esco con gli amici."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-030",
@@ -36899,8 +36880,7 @@ const STOCK_PACKAGES = [
     "example": "Ti do il mio numero perché tu mi possa chiamare.",
     "definition": "Con lo scopo che (con il congiuntivo).",
     "usage": "+ cong.",
-    "page": "167-168",
-    "related": "damit|+ cong.||Con lo scopo che (con il congiuntivo).|Ti do il mio numero perché tu mi possa chiamare."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-031",
@@ -36924,8 +36904,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "La piazza principale di Siena si chiama Piazza del Campo.",
     "definition": "Il più importante.",
-    "page": "167-168",
-    "related": "Haupt-; hauptsächlich|||Il più importante.|La piazza principale di Siena si chiama Piazza del Campo."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-033",
@@ -36938,8 +36917,7 @@ const STOCK_PACKAGES = [
     "example": "Mi stupisco che tu non conosca questa canzone.",
     "definition": "Essere sorpresi.",
     "usage": "(-isc-)",
-    "page": "167-168",
-    "related": "sich wundern; erstaunen|(-isc-)||Essere sorpresi.|Mi stupisco che tu non conosca questa canzone."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-034",
@@ -36951,8 +36929,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Pioveva, ciò nonostante siamo usciti.",
     "definition": "Anche se è così.",
-    "page": "167-168",
-    "related": "trotzdem; dennoch|||Anche se è così.|Pioveva, ciò nonostante siamo usciti."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-035",
@@ -36989,8 +36966,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Mia nonna è ancora molto attiva.",
     "definition": "Che fa tante cose, che si muove molto.",
-    "page": "167-168",
-    "related": "aktiv|||Che fa tante cose, che si muove molto.|Mia nonna è ancora molto attiva."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-038",
@@ -37002,7 +36978,6 @@ const STOCK_PACKAGES = [
     "example": "Lavoro come volontaria per la protezione animali.",
     "definition": "L’impegno per difendere gli animali.",
     "page": "167-168",
-    "related": "der Tierschutz|||L’impegno per difendere gli animali.|Lavoro come volontaria per la protezione animali.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -37022,8 +36997,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "È stata una giornata straordinaria.",
     "definition": "Molto speciale, non normale.",
-    "page": "167-168",
-    "related": "außergewöhnlich|||Molto speciale, non normale.|È stata una giornata straordinaria."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-040",
@@ -37035,8 +37009,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Prima di tutto vorrei presentarmi.",
     "definition": "Come prima cosa.",
-    "page": "167-168",
-    "related": "zuallererst; vorneweg|||Come prima cosa.|Prima di tutto vorrei presentarmi."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-041",
@@ -37048,8 +37021,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "In secondo luogo parlo dei problemi della città.",
     "definition": "Come seconda cosa.",
-    "page": "167-168",
-    "related": "zweitens; an zweiter Stelle|||Come seconda cosa.|In secondo luogo parlo dei problemi della città."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-042",
@@ -37060,8 +37032,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Questa canzone mi lega a tanti bei ricordi.",
     "definition": "Unire con una corda, anche tenere unito.",
-    "page": "167-168",
-    "related": "(ver)binden|||Unire con una corda, anche tenere unito.|Questa canzone mi lega a tanti bei ricordi."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-043",
@@ -37073,8 +37044,7 @@ const STOCK_PACKAGES = [
     "example": "Ho soltanto dieci euro.",
     "definition": "Non di più.",
     "usage": "avv.",
-    "page": "167-168",
-    "related": "nur|avv.||Non di più.|Ho soltanto dieci euro."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-044",
@@ -37087,7 +37057,6 @@ const STOCK_PACKAGES = [
     "example": "La corruzione è un grande problema in politica.",
     "definition": "Quando qualcuno dà soldi per avere un vantaggio illegale.",
     "page": "167-168",
-    "related": "die Korruption; die Bestechung|||Quando qualcuno dà soldi per avere un vantaggio illegale.|La corruzione è un grande problema in politica.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -37107,8 +37076,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Tutto sommato la gita è stata bella.",
     "definition": "Considerando tutto.",
-    "page": "167-168",
-    "related": "alles in allem|||Considerando tutto.|Tutto sommato la gita è stata bella."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-046",
@@ -37145,8 +37113,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il tuo commento centra il problema.",
     "definition": "Colpire il punto giusto.",
-    "page": "167-168",
-    "related": "treffen; erfassen|||Colpire il punto giusto.|Il tuo commento centra il problema."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-049",
@@ -37157,8 +37124,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Queste scarpe non sono adatte per la montagna.",
     "definition": "Giusto per una certa cosa.",
-    "page": "167-168",
-    "related": "geeignet|||Giusto per una certa cosa.|Queste scarpe non sono adatte per la montagna."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-050",
@@ -37170,8 +37136,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Finalmente ho realizzato il mio sogno: un viaggio in Sicilia.",
     "definition": "Fare diventare vero un progetto o un sogno.",
-    "page": "167-168",
-    "related": "durchführen; verwirklichen|||Fare diventare vero un progetto o un sogno.|Finalmente ho realizzato il mio sogno: un viaggio in Sicilia."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-051",
@@ -37183,7 +37148,6 @@ const STOCK_PACKAGES = [
     "example": "Nel negozio di souvenir ho comprato una cartolina.",
     "definition": "Un negozio che vende ricordi per turisti.",
     "page": "167-168",
-    "related": "der Souvenir-Laden|||Un negozio che vende ricordi per turisti.|Nel negozio di souvenir ho comprato una cartolina.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -37204,8 +37168,7 @@ const STOCK_PACKAGES = [
     "example": "Benché sia tardi, non ho sonno.",
     "definition": "Anche se.",
     "usage": "+ cong.",
-    "page": "167-168",
-    "related": "obwohl|+ cong.||Anche se.|Benché sia tardi, non ho sonno."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-053",
@@ -37216,8 +37179,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Questa pizza è proprio cattiva.",
     "definition": "Non buono.",
-    "page": "167-168",
-    "related": "schlecht|||Non buono.|Questa pizza è proprio cattiva."
+    "page": "167-168"
    },
    {
     "id": "u1-1a-054",
@@ -37249,8 +37211,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Che cosa significa questa parola?",
     "definition": "Avere un certo senso.",
-    "page": "167-168",
-    "related": "bedeuten|||Avere un certo senso.|Che cosa significa questa parola?"
+    "page": "167-168"
    }
   ]
  },
@@ -37331,8 +37292,7 @@ const STOCK_PACKAGES = [
     "example": "Il bambino non voleva andare, l’hanno portato via quasi a forza.",
     "definition": "Usando la forza, contro la volontà.",
     "contrast": "per forza – unbedingt; Forza! – Auf geht’s! Los!",
-    "page": "168-170",
-    "related": "mit Gewalt|Unterscheide: per forza – unbedingt; Forza! – Auf geht’s! Los!||Usando la forza, contro la volontà.|Il bambino non voleva andare, l’hanno portato via quasi a forza."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-003",
@@ -37346,8 +37306,7 @@ const STOCK_PACKAGES = [
     "example": "Ho dubbi che lui dica la verità.",
     "definition": "Non essere sicuri di una cosa.",
     "usage": "+ cong.",
-    "page": "168-170",
-    "related": "Zweifel (an der Tatsache) haben, dass|+ cong.||Non essere sicuri di una cosa.|Ho dubbi che lui dica la verità."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-004",
@@ -37394,8 +37353,7 @@ const STOCK_PACKAGES = [
     "example": "Mi sono reso conto di aver dimenticato le chiavi.",
     "definition": "Capire una cosa all’improvviso.",
     "usage": "p.p. reso",
-    "page": "168-170",
-    "related": "sich über etw. klar werden|p.p. reso||Capire una cosa all’improvviso.|Mi sono reso conto di aver dimenticato le chiavi."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-007",
@@ -37406,8 +37364,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Man mano arrivano tutti gli ospiti.",
     "definition": "Un po’ alla volta.",
-    "page": "168-170",
-    "related": "allmählich|||Un po’ alla volta.|Man mano arrivano tutti gli ospiti."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-008",
@@ -37419,7 +37376,6 @@ const STOCK_PACKAGES = [
     "example": "A Carnevale porto una maschera bianca.",
     "definition": "Una cosa che copre il viso, tipica del Carnevale.",
     "page": "168-170",
-    "related": "die Maske|||Una cosa che copre il viso, tipica del Carnevale.|A Carnevale porto una maschera bianca.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -37439,8 +37395,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Mi piace fotografare i tramonti.",
     "definition": "Fare una foto.",
-    "page": "168-170",
-    "related": "fotografieren|||Fare una foto.|Mi piace fotografare i tramonti."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-010",
@@ -37453,7 +37408,6 @@ const STOCK_PACKAGES = [
     "example": "Siediti in una posizione comoda.",
     "definition": "Il modo in cui stai o il posto dove sei.",
     "page": "168-170",
-    "related": "die Position; die Haltung|||Il modo in cui stai o il posto dove sei.|Siediti in una posizione comoda.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -37474,8 +37428,7 @@ const STOCK_PACKAGES = [
     "example": "Ho creato un nuovo account per il gioco.",
     "definition": "Il profilo personale su un sito o una app.",
     "usage": "m.",
-    "page": "168-170",
-    "related": "der Account|m.||Il profilo personale su un sito o una app.|Ho creato un nuovo account per il gioco."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-012",
@@ -37499,8 +37452,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Abbiamo visitato un villaggio abbandonato.",
     "definition": "Lasciato solo, dove non c’è più nessuno.",
-    "page": "168-170",
-    "related": "verlassen; vereinsamt|||Lasciato solo, dove non c’è più nessuno.|Abbiamo visitato un villaggio abbandonato."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-014",
@@ -37524,7 +37476,6 @@ const STOCK_PACKAGES = [
     "example": "Il carnevale di Venezia è famoso in tutto il mondo.",
     "definition": "La festa con maschere e costumi prima della Quaresima.",
     "page": "168-170",
-    "related": "der Karneval|||La festa con maschere e costumi prima della Quaresima.|Il carnevale di Venezia è famoso in tutto il mondo.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -37546,8 +37497,7 @@ const STOCK_PACKAGES = [
     "example": "I prezzi a Venezia sono stratosferici.",
     "definition": "Altissimo, esagerato.",
     "usage": "hier",
-    "page": "168-170",
-    "related": "überhöht; astronomisch|hier||Altissimo, esagerato.|I prezzi a Venezia sono stratosferici."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-017",
@@ -37558,8 +37508,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "In questo locale c’è un’atmosfera piacevole.",
     "definition": "Lo stato d’animo che si sente in un luogo.",
-    "page": "168-170",
-    "related": "die Atmosphäre|||Lo stato d’animo che si sente in un luogo.|In questo locale c’è un’atmosfera piacevole."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-018",
@@ -37570,8 +37519,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "In generale sono contento della scuola.",
     "definition": "Che riguarda tutto, non i dettagli.",
-    "page": "168-170",
-    "related": "allgemein|||Che riguarda tutto, non i dettagli.|In generale sono contento della scuola."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-019",
@@ -37583,8 +37531,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Oggi il caldo è estremo.",
     "definition": "Molto forte, al limite.",
-    "page": "168-170",
-    "related": "extrem; äußerst|||Molto forte, al limite.|Oggi il caldo è estremo."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-020",
@@ -37607,8 +37554,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Questo film non ha niente a che vedere con il libro.",
     "definition": "Avere un rapporto con.",
-    "page": "168-170",
-    "related": "zu tun haben mit|||Avere un rapporto con.|Questo film non ha niente a che vedere con il libro."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-022",
@@ -37619,8 +37565,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Puoi chiamarmi a qualsiasi ora.",
     "definition": "Non importa quale.",
-    "page": "168-170",
-    "related": "jede(r,s) (beliebige)|||Non importa quale.|Puoi chiamarmi a qualsiasi ora."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-023",
@@ -37652,8 +37597,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il cane ha spaventato il bambino.",
     "definition": "Fare paura a qualcuno.",
-    "page": "168-170",
-    "related": "erschrecken (jdn)|||Fare paura a qualcuno.|Il cane ha spaventato il bambino."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-025",
@@ -37664,8 +37608,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Mi sono spaventata per il rumore.",
     "definition": "Avere paura all’improvviso.",
-    "page": "168-170",
-    "related": "sich erschrecken|||Avere paura all’improvviso.|Mi sono spaventata per il rumore."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-026",
@@ -37677,7 +37620,6 @@ const STOCK_PACKAGES = [
     "example": "Le navi da crociera sono un problema per Venezia.",
     "definition": "Una nave enorme per le vacanze in mare.",
     "page": "168-170",
-    "related": "das Kreuzfahrtschiff|||Una nave enorme per le vacanze in mare.|Le navi da crociera sono un problema per Venezia.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -37698,8 +37640,7 @@ const STOCK_PACKAGES = [
     "example": "La tua battuta era fuori luogo.",
     "definition": "Non adatto alla situazione.",
     "contrast": "fuori stagione – außerhalb der Saison; fuori tempo – nicht zeitgemäß; fuori moda – aus der Mode",
-    "page": "168-170",
-    "related": "unangebracht|Unterscheide: fuori stagione – außerhalb der Saison; fuori tempo – nicht zeitgemäß; fuori moda – aus der Mode||Non adatto alla situazione.|La tua battuta era fuori luogo."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-028",
@@ -37711,8 +37652,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "C’è un cartellone enorme sulla piazza.",
     "definition": "Grandissimo.",
-    "page": "168-170",
-    "related": "enorm; gewaltig|||Grandissimo.|C’è un cartellone enorme sulla piazza."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-029",
@@ -37724,7 +37664,6 @@ const STOCK_PACKAGES = [
     "example": "Sul cartellone c’è il programma della festa.",
     "definition": "Un grande foglio con immagini e informazioni.",
     "page": "168-170",
-    "related": "das Plakat|||Un grande foglio con immagini e informazioni.|Sul cartellone c’è il programma della festa.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -37766,7 +37705,6 @@ const STOCK_PACKAGES = [
     "example": "Da piccolo avevo paura dei mostri.",
     "definition": "Un essere brutto e pericoloso delle favole.",
     "page": "168-170",
-    "related": "das Monster|||Un essere brutto e pericoloso delle favole.|Da piccolo avevo paura dei mostri.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -37820,7 +37758,6 @@ const STOCK_PACKAGES = [
     "example": "A Venezia si va in barca sui canali.",
     "definition": "Una strada d’acqua.",
     "page": "168-170",
-    "related": "der Kanal|||Una strada d’acqua.|A Venezia si va in barca sui canali.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -37841,7 +37778,6 @@ const STOCK_PACKAGES = [
     "example": "Venezia ha un fascino speciale.",
     "definition": "Una forza che attira e piace.",
     "page": "168-170",
-    "related": "der Charme|||Una forza che attira e piace.|Venezia ha un fascino speciale.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -37866,8 +37802,7 @@ const STOCK_PACKAGES = [
     "example": "Ho sbattuto la testa contro la porta.",
     "definition": "Colpire forte una cosa.",
     "usage": "p.p. sbattuto",
-    "page": "168-170",
-    "related": "gegen etw. stoßen; etw. knallen|p.p. sbattuto||Colpire forte una cosa.|Ho sbattuto la testa contro la porta."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-037",
@@ -37880,8 +37815,7 @@ const STOCK_PACKAGES = [
     "example": "Nonostante la pioggia siamo andati in centro.",
     "definition": "Anche se.",
     "usage": "cong.",
-    "page": "168-170",
-    "related": "trotz; obwohl|cong.||Anche se.|Nonostante la pioggia siamo andati in centro."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-038",
@@ -37940,8 +37874,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Mi fa piacere vederti!",
     "definition": "Rendere contento qualcuno.",
-    "page": "168-170",
-    "related": "jdn (er)freuen|||Rendere contento qualcuno.|Mi fa piacere vederti!"
+    "page": "168-170"
    },
    {
     "id": "u1-1b-042",
@@ -37964,8 +37897,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Dopo la pausa la lezione ricomincia.",
     "definition": "Cominciare di nuovo.",
-    "page": "168-170",
-    "related": "wieder anfangen|||Cominciare di nuovo.|Dopo la pausa la lezione ricomincia."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-044",
@@ -37976,8 +37908,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Mi hanno rubato la bici davanti alla scuola.",
     "definition": "Prendere una cosa che non è tua.",
-    "page": "168-170",
-    "related": "stehlen|||Prendere una cosa che non è tua.|Mi hanno rubato la bici davanti alla scuola."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-045",
@@ -38010,7 +37941,6 @@ const STOCK_PACKAGES = [
     "example": "Dopo la pubblicazione del libro, l’autrice è diventata famosa.",
     "definition": "Quando un libro o un articolo esce e tutti lo possono leggere.",
     "page": "168-170",
-    "related": "die Veröffentlichung|||Quando un libro o un articolo esce e tutti lo possono leggere.|Dopo la pubblicazione del libro, l’autrice è diventata famosa.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -38032,8 +37962,7 @@ const STOCK_PACKAGES = [
     "example": "La scuola aiuta l’integrazione dei ragazzi stranieri.",
     "definition": "Quando una persona diventa parte di un gruppo o di una società.",
     "usage": "f.",
-    "page": "168-170",
-    "related": "die Integration; die Eingliederung|f.||Quando una persona diventa parte di un gruppo o di una società.|La scuola aiuta l’integrazione dei ragazzi stranieri."
+    "page": "168-170"
    },
    {
     "id": "u1-1b-048",
@@ -38056,8 +37985,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "In questa stanza si soffoca, apri la finestra!",
     "definition": "Non riuscire a respirare.",
-    "page": "168-170",
-    "related": "ersticken|||Non riuscire a respirare.|In questa stanza si soffoca, apri la finestra!"
+    "page": "168-170"
    }
   ]
  },
@@ -38182,7 +38110,6 @@ const STOCK_PACKAGES = [
     "example": "A scuola studiamo la civiltà degli antichi Romani.",
     "definition": "Il modo di vivere, l’arte e le regole di un popolo.",
     "page": "166-167",
-    "related": "die Gesellschaft; die Kultur|||Il modo di vivere, l’arte e le regole di un popolo.|A scuola studiamo la civiltà degli antichi Romani.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -38203,8 +38130,7 @@ const STOCK_PACKAGES = [
     "example": "Voglio vedere il quadro da vicino.",
     "definition": "Non da lontano, a poca distanza.",
     "usage": "avv.",
-    "page": "166-167",
-    "related": "aus der Nähe|avv.||Non da lontano, a poca distanza.|Voglio vedere il quadro da vicino."
+    "page": "166-167"
    },
    {
     "id": "u1-approccio-006",
@@ -38217,7 +38143,6 @@ const STOCK_PACKAGES = [
     "example": "Questa chiesa è una testimonianza del Medioevo.",
     "definition": "Una cosa che mostra com’era il passato.",
     "page": "166-167",
-    "related": "das Zeugnis; das Kulturdenkmal|||Una cosa che mostra com’era il passato.|Questa chiesa è una testimonianza del Medioevo.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -38237,8 +38162,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Dante è il letterato italiano più famoso.",
     "definition": "Una persona che scrive libri o studia la letteratura.",
-    "page": "166-167",
-    "related": "der/die Literat/in|||Una persona che scrive libri o studia la letteratura.|Dante è il letterato italiano più famoso."
+    "page": "166-167"
    },
    {
     "id": "u1-approccio-008",
@@ -38250,7 +38174,6 @@ const STOCK_PACKAGES = [
     "example": "La saga di Harry Potter ha sette volumi.",
     "definition": "Uno dei libri di un’opera divisa in più parti.",
     "page": "166-167",
-    "related": "der Band|||Uno dei libri di un’opera divisa in più parti.|La saga di Harry Potter ha sette volumi.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -38306,7 +38229,6 @@ const STOCK_PACKAGES = [
     "example": "D’estate andiamo spesso al lido con gli amici.",
     "definition": "Una spiaggia con ombrelloni e bar.",
     "page": "166-167",
-    "related": "der Strand|||Una spiaggia con ombrelloni e bar.|D’estate andiamo spesso al lido con gli amici.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -38328,7 +38250,6 @@ const STOCK_PACKAGES = [
     "definition": "Una delle quattro parti uguali di una cosa.",
     "usage": "Bruchteil",
     "page": "166-167",
-    "related": "das Viertel|Bruchteil||Una delle quattro parti uguali di una cosa.|Un quarto della classe va in palestra il pomeriggio.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -38349,7 +38270,6 @@ const STOCK_PACKAGES = [
     "example": "Lungo la strada ci sono tanti cipressi.",
     "definition": "Un albero alto e stretto, tipico della Toscana.",
     "page": "166-167",
-    "related": "die Zypresse|||Un albero alto e stretto, tipico della Toscana.|Lungo la strada ci sono tanti cipressi.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -38390,8 +38310,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il Palio è una festa caratteristica di Siena.",
     "definition": "Tipico di un luogo o di una persona.",
-    "page": "166-167",
-    "related": "charakteristisch|||Tipico di un luogo o di una persona.|Il Palio è una festa caratteristica di Siena."
+    "page": "166-167"
    },
    {
     "id": "u1-approccio-016",
@@ -38402,8 +38321,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Mi piace il mare, così come la montagna.",
     "definition": "Nello stesso modo di.",
-    "page": "166-167",
-    "related": "so wie (auch)|||Nello stesso modo di.|Mi piace il mare, così come la montagna."
+    "page": "166-167"
    },
    {
     "id": "u1-approccio-017",
@@ -38415,8 +38333,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il centro storico è rimasto intatto.",
     "definition": "Ancora come era all’inizio, senza danni.",
-    "page": "166-167",
-    "related": "intakt; unberührt|||Ancora come era all’inizio, senza danni.|Il centro storico è rimasto intatto."
+    "page": "166-167"
    },
    {
     "id": "u1-approccio-018",
@@ -38430,7 +38347,6 @@ const STOCK_PACKAGES = [
     "definition": "Un gruppo di animali o piante simili.",
     "usage": "pl. le specie",
     "page": "166-167",
-    "related": "die Art; die Sorte|pl. le specie||Un gruppo di animali o piante simili.|In questo parco vivono molte specie di uccelli.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -38486,7 +38402,6 @@ const STOCK_PACKAGES = [
     "example": "Ha pagato una cifra alta per il telefono.",
     "definition": "Un numero, anche una somma di soldi.",
     "page": "166-167",
-    "related": "die Zahl; die Ziffer|||Un numero, anche una somma di soldi.|Ha pagato una cifra alta per il telefono.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -38507,8 +38422,7 @@ const STOCK_PACKAGES = [
     "example": "Il museo ha avuto mille visitatori oggi.",
     "definition": "Una persona che va a vedere un museo o una città.",
     "usage": "pl. i visitatori, le visitatrici",
-    "page": "166-167",
-    "related": "der/die Besucher/in|pl. i visitatori, le visitatrici||Una persona che va a vedere un museo o una città.|Il museo ha avuto mille visitatori oggi."
+    "page": "166-167"
    },
    {
     "id": "u1-approccio-023",
@@ -38520,8 +38434,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il numero dei turisti aumenta ogni anno.",
     "definition": "Diventare di più o più grande.",
-    "page": "166-167",
-    "related": "steigen; wachsen|||Diventare di più o più grande.|Il numero dei turisti aumenta ogni anno."
+    "page": "166-167"
    },
    {
     "id": "u1-approccio-024",
@@ -38532,8 +38445,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Di anno in anno la festa diventa più famosa.",
     "definition": "Ogni anno un po’ di più o un po’ di meno.",
-    "page": "166-167",
-    "related": "von Jahr zu Jahr|||Ogni anno un po’ di più o un po’ di meno.|Di anno in anno la festa diventa più famosa."
+    "page": "166-167"
    },
    {
     "id": "u1-approccio-025",
@@ -38545,7 +38457,6 @@ const STOCK_PACKAGES = [
     "example": "Il terremoto ha distrutto molte case.",
     "definition": "Quando la terra si muove forte e le case possono cadere.",
     "page": "166-167",
-    "related": "das Erdbeben|||Quando la terra si muove forte e le case possono cadere.|Il terremoto ha distrutto molte case.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -38624,7 +38535,6 @@ const STOCK_PACKAGES = [
     "example": "La maggior parte dei miei amici gioca a calcio.",
     "definition": "Più della metà di un gruppo.",
     "page": "170",
-    "related": "der größte Teil von; die meisten|||Più della metà di un gruppo.|La maggior parte dei miei amici gioca a calcio.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -38644,8 +38554,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Quasi la metà della classe ha un cane.",
     "definition": "Un po’ meno del cinquanta per cento.",
-    "page": "170",
-    "related": "fast die Hälfte von|||Un po’ meno del cinquanta per cento.|Quasi la metà della classe ha un cane."
+    "page": "170"
    },
    {
     "id": "u1-per-comunicare-003",
@@ -38656,8 +38565,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Più di un quarto dei turisti va al mare.",
     "definition": "Più del venticinque per cento.",
-    "page": "170",
-    "related": "mehr als ein Viertel von|||Più del venticinque per cento.|Più di un quarto dei turisti va al mare."
+    "page": "170"
    },
    {
     "id": "u1-per-comunicare-004",
@@ -38668,8 +38576,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Non è sufficiente dire che è una tradizione antica.",
     "definition": "Si usa per dire che un argomento non basta.",
-    "page": "170",
-    "related": "Es genügt nicht zu sagen, dass …|||Si usa per dire che un argomento non basta.|Non è sufficiente dire che è una tradizione antica."
+    "page": "170"
    },
    {
     "id": "u1-per-comunicare-005",
@@ -38680,8 +38587,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Voglio dire che il Palio è anche pericoloso.",
     "definition": "Si usa per spiegare meglio un’idea.",
-    "page": "170",
-    "related": "Ich will damit sagen, dass …|||Si usa per spiegare meglio un’idea.|Voglio dire che il Palio è anche pericoloso."
+    "page": "170"
    },
    {
     "id": "u1-per-comunicare-006",
@@ -38692,8 +38598,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Molti affermano che i social sono pericolosi.",
     "definition": "Si usa per riportare l’opinione di tante persone.",
-    "page": "170",
-    "related": "Viele behaupten, dass …|||Si usa per riportare l’opinione di tante persone.|Molti affermano che i social sono pericolosi."
+    "page": "170"
    },
    {
     "id": "u1-per-comunicare-007",
@@ -38704,8 +38609,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Ciò nonostante vorrei contestare la tua idea.",
     "definition": "Si usa per dire che non si è d’accordo.",
-    "page": "170",
-    "related": "Dennoch möchte ich … widersprechen|||Si usa per dire che non si è d’accordo.|Ciò nonostante vorrei contestare la tua idea."
+    "page": "170"
    },
    {
     "id": "u1-per-comunicare-008",
@@ -38716,8 +38620,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Infine il punto più importante è la salute degli animali.",
     "definition": "Si usa per presentare l’ultimo argomento.",
-    "page": "170",
-    "related": "Schließlich ist der wichtigste Punkt …|||Si usa per presentare l’ultimo argomento.|Infine il punto più importante è la salute degli animali."
+    "page": "170"
    },
    {
     "id": "u1-per-comunicare-009",
@@ -38728,8 +38631,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Nello stesso tempo capisco chi ama questa festa.",
     "definition": "Si usa per aggiungere un altro aspetto.",
-    "page": "170",
-    "related": "Gleichzeitig …|||Si usa per aggiungere un altro aspetto.|Nello stesso tempo capisco chi ama questa festa."
+    "page": "170"
    },
    {
     "id": "u1-per-comunicare-010",
@@ -38740,8 +38642,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Si potrebbe forse trovare un’altra soluzione per i cavalli.",
     "definition": "Si usa per proporre un compromesso.",
-    "page": "170",
-    "related": "Man könnte vielleicht eine andere Lösung finden.|||Si usa per proporre un compromesso.|Si potrebbe forse trovare un’altra soluzione per i cavalli."
+    "page": "170"
    },
    {
     "id": "u1-per-comunicare-011",
@@ -38753,8 +38654,7 @@ const STOCK_PACKAGES = [
     "example": "Non pensavo che fosse così divertente.",
     "definition": "Si usa per dire che una cosa ti ha sorpreso.",
     "usage": "+ cong. imperfetto",
-    "page": "170",
-    "related": "Ich dachte nicht, dass …|+ cong. imperfetto||Si usa per dire che una cosa ti ha sorpreso.|Non pensavo che fosse così divertente."
+    "page": "170"
    },
    {
     "id": "u1-per-comunicare-012",
@@ -38766,8 +38666,7 @@ const STOCK_PACKAGES = [
     "example": "Temevo che il treno partisse senza di me.",
     "definition": "Si usa per dire che avevi paura di una cosa.",
     "usage": "+ cong. imperfetto",
-    "page": "170",
-    "related": "Ich befürchtete, dass …|+ cong. imperfetto||Si usa per dire che avevi paura di una cosa.|Temevo che il treno partisse senza di me."
+    "page": "170"
    },
    {
     "id": "u1-per-comunicare-013",
@@ -38779,8 +38678,7 @@ const STOCK_PACKAGES = [
     "example": "Mi pareva che nessuno mi ascoltasse.",
     "definition": "Si usa per dire un’impressione del passato.",
     "usage": "+ cong. imperfetto",
-    "page": "170",
-    "related": "Es kam mir so vor, als ob …|+ cong. imperfetto||Si usa per dire un’impressione del passato.|Mi pareva che nessuno mi ascoltasse."
+    "page": "170"
    }
   ]
  },
@@ -38850,7 +38748,6 @@ const STOCK_PACKAGES = [
     "definition": "Una parte di una serie o di un programma.",
     "usage": "Fernsehen, Rundfunk",
     "page": "172-173",
-    "related": "die Folge|Fernsehen, Rundfunk||Una parte di una serie o di un programma.|Stasera esce la nuova puntata della mia serie preferita.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -38886,8 +38783,7 @@ const STOCK_PACKAGES = [
     "example": "Tu prepari la pasta, io intanto apparecchio.",
     "definition": "Nello stesso momento; per ora.",
     "usage": "avv.",
-    "page": "172-173",
-    "related": "unterdessen; währenddessen; zunächst einmal|avv.||Nello stesso momento; per ora.|Tu prepari la pasta, io intanto apparecchio."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-004",
@@ -38900,7 +38796,6 @@ const STOCK_PACKAGES = [
     "definition": "Un video che spiega come funziona una cosa.",
     "usage": "pl. i video esplicativi",
     "page": "172-173",
-    "related": "das Erklärvideo|pl. i video esplicativi||Un video che spiega come funziona una cosa.|Ho capito la regola grazie a un video esplicativo.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -39070,8 +38965,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Non essere ingenuo, quella notizia è falsa.",
     "definition": "Che crede troppo facilmente agli altri.",
-    "page": "172-173",
-    "related": "naiv|||Che crede troppo facilmente agli altri.|Non essere ingenuo, quella notizia è falsa."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-016",
@@ -39082,8 +38976,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Abbiamo visto un film molto romantico.",
     "definition": "Pieno di sentimenti e di amore.",
-    "page": "172-173",
-    "related": "romantisch|||Pieno di sentimenti e di amore.|Abbiamo visto un film molto romantico."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-017",
@@ -39109,8 +39002,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Non ho mai visto una cosa del genere.",
     "definition": "Di questo tipo.",
-    "page": "172-173",
-    "related": "derartig; ähnlich|||Di questo tipo.|Non ho mai visto una cosa del genere."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-019",
@@ -39123,8 +39015,7 @@ const STOCK_PACKAGES = [
     "example": "Impiego venti minuti per andare a scuola.",
     "definition": "Usare; anche: avere bisogno di un certo tempo.",
     "usage": "(-ghi-)",
-    "page": "172-173",
-    "related": "verwenden; brauchen (Zeit)|(-ghi-)||Usare; anche: avere bisogno di un certo tempo.|Impiego venti minuti per andare a scuola."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-020",
@@ -39158,7 +39049,6 @@ const STOCK_PACKAGES = [
     "example": "In rete si trovano tante informazioni.",
     "definition": "Internet; anche una cosa fatta di fili.",
     "page": "172-173",
-    "related": "das Netz; das Internet|||Internet; anche una cosa fatta di fili.|In rete si trovano tante informazioni.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -39194,8 +39084,7 @@ const STOCK_PACKAGES = [
     "example": "Non sono mica stupido!",
     "definition": "Si usa con non per rafforzare la negazione.",
     "usage": "Non è mica lontano. – Es ist ja nicht weit weg.",
-    "page": "172-173",
-    "related": "ja; doch (in Verneinungen)|Non è mica lontano. – Es ist ja nicht weit weg.||Si usa con non per rafforzare la negazione.|Non sono mica stupido!"
+    "page": "172-173"
    },
    {
     "id": "u2-2a-024",
@@ -39220,8 +39109,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Leggo i libri in formato digitale.",
     "definition": "Che usa computer e internet.",
-    "page": "172-173",
-    "related": "digital|||Che usa computer e internet.|Leggo i libri in formato digitale."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-026",
@@ -39359,8 +39247,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Non posso fare a meno del caffè la mattina.",
     "definition": "Vivere senza una persona o una cosa.",
-    "page": "172-173",
-    "related": "auf jdn/etw. verzichten; ohne jdn/etw. auskommen|||Vivere senza una persona o una cosa.|Non posso fare a meno del caffè la mattina."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-036",
@@ -39371,8 +39258,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Questo problema non ha a che fare con te.",
     "definition": "Avere un rapporto con.",
-    "page": "172-173",
-    "related": "zu tun haben mit|||Avere un rapporto con.|Questo problema non ha a che fare con te."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-037",
@@ -39383,8 +39269,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "In vacanza ho fatto amicizia con due ragazze.",
     "definition": "Diventare amici.",
-    "page": "172-173",
-    "related": "Freundschaft schließen|||Diventare amici.|Ad Amburgo ho fatto amicizia con due ragazzi."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-038",
@@ -39395,8 +39280,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Fai attenzione quando attraversi la strada!",
     "definition": "Stare attento.",
-    "page": "172-173",
-    "related": "aufpassen|||Stare attento.|Fai attenzione quando attraversi la strada!"
+    "page": "172-173"
    },
    {
     "id": "u2-2a-039",
@@ -39407,8 +39291,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "All’esame orale ho fatto bella figura.",
     "definition": "Fare un’impressione buona o brutta.",
-    "page": "172-173",
-    "related": "einen guten / schlechten Eindruck machen|||Fare un’impressione buona o brutta.|All’esame orale ho fatto bella figura."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-040",
@@ -39419,8 +39302,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Oggi fa molto freddo.",
     "definition": "Si usa per parlare del tempo.",
-    "page": "172-173",
-    "related": "warm/kalt/kühl sein|||Si usa per parlare del tempo.|Oggi fa molto freddo."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-041",
@@ -39431,8 +39313,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Dopo scuola facciamo due chiacchiere al bar.",
     "definition": "Parlare un po’ senza fretta.",
-    "page": "172-173",
-    "related": "ein Schwätzchen halten|||Parlare un po’ senza fretta.|Dopo scuola facciamo due chiacchiere al bar."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-042",
@@ -39443,8 +39324,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Faccio fatica ad alzarmi la mattina.",
     "definition": "Avere difficoltà a fare una cosa.",
-    "page": "172-173",
-    "related": "Mühe haben|||Avere difficoltà a fare una cosa.|Faccio fatica ad alzarmi la mattina."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-043",
@@ -39455,8 +39335,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Al lago abbiamo fatto il bagno.",
     "definition": "Entrare nell’acqua del mare o della vasca.",
-    "page": "172-173",
-    "related": "baden|||Entrare nell’acqua del mare o della vasca.|Al lago abbiamo fatto il bagno."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-044",
@@ -39467,8 +39346,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Non fare l’ipocrita, so che non ti piace.",
     "definition": "Fingere sentimenti che non si hanno.",
-    "page": "172-173",
-    "related": "heucheln|||Fingere sentimenti che non si hanno.|Non fare l’ipocrita, so che non ti piace."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-045",
@@ -39479,8 +39357,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Mi fa male la testa.",
     "definition": "Causare dolore.",
-    "page": "172-173",
-    "related": "wehtun|||Causare dolore.|Mi fa male la testa."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-046",
@@ -39492,8 +39369,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Faccio parte della squadra di pallavolo.",
     "definition": "Essere dentro un gruppo.",
-    "page": "172-173",
-    "related": "teilnehmen an; ein Teil sein von|||Essere dentro un gruppo.|Faccio parte della squadra di pallavolo."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-047",
@@ -39505,8 +39381,7 @@ const STOCK_PACKAGES = [
     "example": "Questa minestra fa schifo!",
     "definition": "Essere molto brutto o cattivo.",
     "usage": "fam.",
-    "page": "172-173",
-    "related": "eklig sein|fam.||Essere molto brutto o cattivo.|Questa minestra fa schifo!"
+    "page": "172-173"
    },
    {
     "id": "u2-2a-048",
@@ -39518,8 +39393,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Sabato faccio shopping con mia sorella.",
     "definition": "Andare per negozi a comprare cose.",
-    "page": "172-173",
-    "related": "einkaufen; shoppen|||Andare per negozi a comprare cose.|Sabato faccio shopping con mia sorella."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-049",
@@ -39530,8 +39404,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "D’inverno faccio snowboard sulle Alpi.",
     "definition": "Scendere sulla neve con una tavola.",
-    "page": "172-173",
-    "related": "Snowboard fahren|||Scendere sulla neve con una tavola.|D’inverno faccio snowboard sulle Alpi."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-050",
@@ -39544,8 +39417,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Dopo scuola faccio un salto da Marta.",
     "definition": "Andare a trovare qualcuno per poco tempo.",
-    "page": "172-173",
-    "related": "bei jdm vorbeischauen|||Andare a trovare qualcuno per poco tempo.|Dopo scuola faccio un salto da Marta."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-051",
@@ -39556,8 +39428,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Mi fai vedere le foto della vacanza?",
     "definition": "Mostrare.",
-    "page": "172-173",
-    "related": "zeigen|||Mostrare.|Mi fai vedere le foto della vacanza?"
+    "page": "172-173"
    },
    {
     "id": "u2-2a-052",
@@ -39569,8 +39440,7 @@ const STOCK_PACKAGES = [
     "example": "I commenti sono in gran parte positivi.",
     "definition": "Per la maggior parte.",
     "usage": "avv.",
-    "page": "172-173",
-    "related": "größtenteils|avv.||Per la maggior parte.|I commenti sono in gran parte positivi."
+    "page": "172-173"
    },
    {
     "id": "u2-2a-053",
@@ -39644,7 +39514,6 @@ const STOCK_PACKAGES = [
     "definition": "Il diritto dell’autore sulla sua opera.",
     "usage": "pl. i copyright",
     "page": "172-173",
-    "related": "das Urheberrecht; das Copyright|pl. i copyright||Il diritto dell’autore sulla sua opera.|Non puoi usare questa foto, ha il copyright.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -39667,8 +39536,7 @@ const STOCK_PACKAGES = [
     "example": "Ciao ragazzi, alla prossima!",
     "definition": "Si dice per salutare.",
     "usage": "espr.",
-    "page": "172-173",
-    "related": "Bis zum nächsten Mal!|espr.||Si dice per salutare.|Ciao ragazzi, alla prossima!"
+    "page": "172-173"
    }
   ]
  },
@@ -39737,8 +39605,7 @@ const STOCK_PACKAGES = [
     "example": "Amburgo ha un porto molto grande.",
     "definition": "Una grande città del nord della Germania con il porto.",
     "usage": "f.",
-    "page": "173-175",
-    "related": "Hamburg|f.||Una grande città del nord della Germania con il porto.|Amburgo ha un porto molto grande."
+    "page": "173-175"
    },
    {
     "id": "u2-2b-002",
@@ -39771,8 +39638,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Gli studenti cercano un alloggio vicino all’università.",
     "definition": "Un posto dove dormire e vivere.",
-    "page": "173-175",
-    "related": "die Unterkunft|||Un posto dove dormire e vivere.|Gli studenti cercano un alloggio vicino all’università."
+    "page": "173-175"
    },
    {
     "id": "u2-2b-004",
@@ -39783,8 +39649,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Lavora presso un’azienda di Milano.",
     "definition": "Vicino a, nel luogo di.",
-    "page": "173-175",
-    "related": "bei|||Vicino a, nel luogo di.|Lavora presso un’azienda di Milano."
+    "page": "173-175"
    },
    {
     "id": "u2-2b-005",
@@ -39797,7 +39662,6 @@ const STOCK_PACKAGES = [
     "example": "Nella mia classe c’è un mix di culture.",
     "definition": "Un insieme di cose diverse.",
     "page": "173-175",
-    "related": "die Mischung; das Durcheinander|||Un insieme di cose diverse.|Nella mia classe c’è un mix di culture.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -39817,8 +39681,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Chissà dove ho messo le chiavi!",
     "definition": "Si usa quando non si sa una cosa.",
-    "page": "173-175",
-    "related": "Wer weiß …!|||Si usa quando non si sa una cosa.|Chissà dove ho messo le chiavi!"
+    "page": "173-175"
    },
    {
     "id": "u2-2b-007",
@@ -39853,8 +39716,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Mi sono trovata bene fin dal primo momento.",
     "definition": "Subito, dall’inizio.",
-    "page": "173-175",
-    "related": "vom ersten Moment an|||Subito, dall’inizio.|Mi sono trovata bene fin dal primo momento."
+    "page": "173-175"
    },
    {
     "id": "u2-2b-010",
@@ -39868,8 +39730,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "A parte Luca, sono venuti tutti.",
     "definition": "Tranne, escluso.",
-    "page": "173-175",
-    "related": "bis auf jdn/etw.; außer jdm/etw.|||Tranne, escluso.|A parte Luca, sono venuti tutti."
+    "page": "173-175"
    },
    {
     "id": "u2-2b-011",
@@ -39881,8 +39742,7 @@ const STOCK_PACKAGES = [
     "example": "Io e mia sorella ci aiutiamo a vicenda.",
     "definition": "L’uno con l’altro.",
     "usage": "avv.",
-    "page": "173-175",
-    "related": "gegenseitig|avv.||L’uno con l’altro.|Io e mia sorella ci aiutiamo a vicenda."
+    "page": "173-175"
    },
    {
     "id": "u2-2b-012",
@@ -39908,7 +39768,6 @@ const STOCK_PACKAGES = [
     "example": "Con questa pioggia restiamo a casa.",
     "definition": "L’acqua che cade dal cielo.",
     "page": "173-175",
-    "related": "der Regen|||L’acqua che cade dal cielo.|Con questa pioggia restiamo a casa.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -39929,8 +39788,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Poiché pioveva, abbiamo preso l’autobus.",
     "definition": "Per il motivo che.",
-    "page": "173-175",
-    "related": "da; weil|||Per il motivo che.|Poiché pioveva, abbiamo preso l’autobus."
+    "page": "173-175"
    },
    {
     "id": "u2-2b-015",
@@ -39941,8 +39799,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Mia madre lavora a tempo pieno.",
     "definition": "Per tutta la giornata di lavoro.",
-    "page": "173-175",
-    "related": "in Vollzeit|||Per tutta la giornata di lavoro.|Mia madre lavora a tempo pieno."
+    "page": "173-175"
    },
    {
     "id": "u2-2b-016",
@@ -39953,8 +39810,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Oggi tutti gli studenti sono presenti.",
     "definition": "Che è nel posto, non assente.",
-    "page": "173-175",
-    "related": "anwesend|||Che è nel posto, non assente.|Oggi tutti gli studenti sono presenti."
+    "page": "173-175"
    },
    {
     "id": "u2-2b-017",
@@ -39965,8 +39821,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "La nonna fa la pasta a mano.",
     "definition": "Senza macchine, con le mani.",
-    "page": "173-175",
-    "related": "von Hand|||Senza macchine, con le mani.|La nonna fa la pasta a mano."
+    "page": "173-175"
    },
    {
     "id": "u2-2b-018",
@@ -39979,7 +39834,6 @@ const STOCK_PACKAGES = [
     "example": "In Germania molti mettono le pantofole in casa.",
     "definition": "Una scarpa morbida da usare in casa.",
     "page": "173-175",
-    "related": "der Hausschuh; der Pantoffel|||Una scarpa morbida da usare in casa.|In Germania molti mettono le pantofole in casa.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -40024,8 +39878,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "È venuto pure il nonno.",
     "definition": "Anche.",
-    "page": "173-175",
-    "related": "auch; sogar|||Anche.|È venuto pure il nonno."
+    "page": "173-175"
    },
    {
     "id": "u2-2b-022",
@@ -40048,8 +39901,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Ad Amburgo ho fatto amicizia con due ragazzi.",
     "definition": "Diventare amici.",
-    "page": "173-175",
-    "related": "Freundschaft schließen|||Diventare amici.|Ad Amburgo ho fatto amicizia con due ragazzi."
+    "page": "173-175"
    },
    {
     "id": "u2-2b-024",
@@ -40061,8 +39913,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Nella mia classe c’era una svedese simpatica.",
     "definition": "Una persona della Svezia.",
-    "page": "173-175",
-    "related": "der Schwede; die Schwedin|||Una persona della Svezia.|Nella mia classe c’era una svedese simpatica."
+    "page": "173-175"
    },
    {
     "id": "u2-2b-025",
@@ -40073,8 +39924,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il mio vicino è giapponese.",
     "definition": "Una persona del Giappone.",
-    "page": "173-175",
-    "related": "der/die Japaner/in|||Una persona del Giappone.|Il mio vicino è giapponese."
+    "page": "173-175"
    },
    {
     "id": "u2-2b-026",
@@ -40085,8 +39935,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Ho provato tante volte e alla fine ci sono riuscito.",
     "definition": "Essere capaci di fare una cosa.",
-    "page": "173-175",
-    "related": "etw. schaffen|||Essere capaci di fare una cosa.|Ho provato tante volte e alla fine ci sono riuscito."
+    "page": "173-175"
    },
    {
     "id": "u2-2b-027",
@@ -40098,7 +39947,6 @@ const STOCK_PACKAGES = [
     "example": "D’estate siamo andati al mare del Nord.",
     "definition": "Il mare al nord della Germania.",
     "page": "173-175",
-    "related": "die Nordsee|||Il mare al nord della Germania.|D’estate siamo andati al mare del Nord.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -40119,8 +39967,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Ero talmente stanco che mi sono addormentato.",
     "definition": "In modo così forte.",
-    "page": "173-175",
-    "related": "so; derart|||In modo così forte.|Ero talmente stanco che mi sono addormentato."
+    "page": "173-175"
    },
    {
     "id": "u2-2b-029",
@@ -40132,8 +39979,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Quando ha cominciato a piovere ci siamo messi al riparo.",
     "definition": "Andare in un posto dove non ci sono pericoli.",
-    "page": "173-175",
-    "related": "Schutz suchen; sich schützen|||Andare in un posto dove non ci sono pericoli.|Quando ha cominciato a piovere ci siamo messi al riparo."
+    "page": "173-175"
    },
    {
     "id": "u2-2b-030",
@@ -40145,7 +39991,6 @@ const STOCK_PACKAGES = [
     "example": "Al mare del Nord ci sono tante poltrone da spiaggia.",
     "definition": "Una grande sedia per la spiaggia che protegge dal vento.",
     "page": "173-175",
-    "related": "der Strandkorb|||Una grande sedia per la spiaggia che protegge dal vento.|Al mare del Nord ci sono tante poltrone da spiaggia.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -40167,8 +40012,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Assomigli molto a tuo padre.",
     "definition": "Essere simile a qualcuno.",
-    "page": "173-175",
-    "related": "jdm/etw. ähnlich sehen|||Essere simile a qualcuno.|Assomigli molto a tuo padre."
+    "page": "173-175"
    },
    {
     "id": "u2-2b-032",
@@ -40192,8 +40036,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Siamo rientrati in Italia ieri sera.",
     "definition": "Tornare a casa o nel proprio paese.",
-    "page": "173-175",
-    "related": "zurückkehren|||Tornare a casa o nel proprio paese.|Siamo rientrati in Italia ieri sera."
+    "page": "173-175"
    },
    {
     "id": "u2-2b-034",
@@ -40206,8 +40049,7 @@ const STOCK_PACKAGES = [
     "example": "Un anno all’estero accresce le tue competenze.",
     "definition": "Fare diventare più grande.",
     "usage": "p.p. accresciuto",
-    "page": "173-175",
-    "related": "erweitern; vergrößern|p.p. accresciuto||Fare diventare più grande.|Un anno all’estero accresce le tue competenze."
+    "page": "173-175"
    }
   ]
  },
@@ -40390,8 +40232,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Ho un abbonamento per lo streaming di musica.",
     "definition": "Un contratto per usare un servizio per un certo tempo.",
-    "page": "171",
-    "related": "das Abonnement|||Un contratto per usare un servizio per un certo tempo.|Ho un abbonamento per lo streaming di musica."
+    "page": "171"
    },
    {
     "id": "u2-approccio-009",
@@ -40403,8 +40244,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Ormai è tardi, andiamo a dormire.",
     "definition": "A questo punto, adesso.",
-    "page": "171",
-    "related": "jetzt; nunmehr|||A questo punto, adesso.|Ormai è tardi, andiamo a dormire."
+    "page": "171"
    },
    {
     "id": "u2-approccio-010",
@@ -40416,8 +40256,7 @@ const STOCK_PACKAGES = [
     "example": "È pratico che il supermercato sia vicino a casa.",
     "definition": "Comodo che.",
     "usage": "+ cong.",
-    "page": "171",
-    "related": "praktisch, dass|+ cong.||Comodo che.|È pratico che il supermercato sia vicino a casa."
+    "page": "171"
    },
    {
     "id": "u2-approccio-011",
@@ -40430,7 +40269,6 @@ const STOCK_PACKAGES = [
     "example": "La sera guardo le serie sul divano.",
     "definition": "Un posto comodo per sedersi in salotto.",
     "page": "171",
-    "related": "das Sofa; die Couch|||Un posto comodo per sedersi in salotto.|La sera guardo le serie sul divano.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -40475,8 +40313,7 @@ const STOCK_PACKAGES = [
     "example": "Mi ha dato indietro il libro.",
     "definition": "Verso il punto da cui si è partiti.",
     "usage": "avv.",
-    "page": "171",
-    "related": "zurück|avv.||Verso il punto da cui si è partiti.|Mi ha dato indietro il libro."
+    "page": "171"
    },
    {
     "id": "u2-approccio-015",
@@ -40522,8 +40359,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Risparmio per comprare una chitarra.",
     "definition": "Non spendere soldi per averne di più dopo.",
-    "page": "171",
-    "related": "sparen|||Non spendere soldi per averne di più dopo.|Risparmio per comprare una chitarra."
+    "page": "171"
    },
    {
     "id": "u2-approccio-018",
@@ -40532,7 +40368,7 @@ const STOCK_PACKAGES = [
      "der (Ein-)Kauf"
     ],
     "acceptedAnswers": [],
-    "example": "Le scarpe nuove sono stato un buon acquisto.",
+    "example": "Le scarpe nuove sono state un buon acquisto.",
     "definition": "Una cosa che hai comprato.",
     "page": "171",
     "family": "acquistare"
@@ -40558,8 +40394,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Da una parte internet è utile, dall’altra parte è pericoloso.",
     "definition": "Si usa per presentare due aspetti diversi.",
-    "page": "171",
-    "related": "auf der einen Seite … auf der anderen Seite …|||Si usa per presentare due aspetti diversi.|Da una parte internet è utile, dall’altra parte è pericoloso."
+    "page": "171"
    },
    {
     "id": "u2-approccio-021",
@@ -40651,8 +40486,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Mi godo le vacanze al mare.",
     "definition": "Trovare piacere in una cosa.",
-    "page": "171",
-    "related": "etw. genießen|||Trovare piacere in una cosa.|Mi godo le vacanze al mare."
+    "page": "171"
    },
    {
     "id": "u2-approccio-026",
@@ -40663,8 +40497,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Non mi piace né il pesce né la carne.",
     "definition": "Non questo e non quello.",
-    "page": "171",
-    "related": "weder … noch|||Non questo e non quello.|Non mi piace né il pesce né la carne."
+    "page": "171"
    },
    {
     "id": "u2-approccio-027",
@@ -40766,8 +40599,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Trovo tutto online, anche se non tutte le fonti sono utili.",
     "definition": "Si usa per dire un limite o un contrasto.",
-    "page": "175",
-    "related": "auch wenn; obwohl|||Si usa per dire un limite o un contrasto.|Trovo tutto online, anche se non tutte le fonti sono utili."
+    "page": "175"
    },
    {
     "id": "u2-per-comunicare-002",
@@ -40778,8 +40610,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Lo svantaggio è che si passa troppo tempo al telefono.",
     "definition": "Si usa per presentare un aspetto negativo.",
-    "page": "175",
-    "related": "Der Nachteil ist, dass …|||Si usa per presentare un aspetto negativo.|Lo svantaggio è che si passa troppo tempo al telefono."
+    "page": "175"
    },
    {
     "id": "u2-per-comunicare-003",
@@ -40790,8 +40621,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il vantaggio è che si risparmia tempo.",
     "definition": "Si usa per presentare un aspetto positivo.",
-    "page": "175",
-    "related": "Der Vorteil ist, dass …|||Si usa per presentare un aspetto positivo.|Il vantaggio è che si risparmia tempo."
+    "page": "175"
    },
    {
     "id": "u2-per-comunicare-004",
@@ -40802,8 +40632,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "È così pratico fare la spesa online.",
     "definition": "Si usa per dire che una cosa è comoda.",
-    "page": "175",
-    "related": "Es ist so praktisch …|||Si usa per dire che una cosa è comoda.|È così pratico fare la spesa online."
+    "page": "175"
    },
    {
     "id": "u2-per-comunicare-005",
@@ -40815,8 +40644,7 @@ const STOCK_PACKAGES = [
     "example": "Se non ci fosse Internet, sarebbe tutto più complicato.",
     "definition": "Si usa per immaginare una situazione diversa.",
     "usage": "+ condizionale",
-    "page": "175",
-    "related": "Wenn es das Internet nicht gäbe, …|+ condizionale||Si usa per immaginare una situazione diversa.|Se non ci fosse Internet, sarebbe tutto più complicato."
+    "page": "175"
    },
    {
     "id": "u2-per-comunicare-006",
@@ -40827,8 +40655,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Se non ci vedessi un senso, non lo farei mai.",
     "definition": "Si usa per formulare una condizione.",
-    "page": "175",
-    "related": "Wenn ich keinen Sinn darin sähe, würde ich es nicht tun.|||Si usa per formulare una condizione.|Se non ci vedessi un senso, non lo farei mai."
+    "page": "175"
    },
    {
     "id": "u2-per-comunicare-007",
@@ -40839,8 +40666,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "La prima cosa che ho notato erano le tante biciclette.",
     "definition": "Si usa per raccontare un’impressione.",
-    "page": "175",
-    "related": "Das Erste, was mir aufgefallen ist …|||Si usa per raccontare un’impressione.|La prima cosa che ho notato erano le tante biciclette."
+    "page": "175"
    },
    {
     "id": "u2-per-comunicare-008",
@@ -40851,8 +40677,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "All’inizio non ci potevo credere: la scuola finiva alle tre!",
     "definition": "Si usa per dire che una cosa ti ha sorpreso molto.",
-    "page": "175",
-    "related": "Anfangs konnte ich es nicht glauben.|||Si usa per dire che una cosa ti ha sorpreso molto.|All’inizio non ci potevo credere: la scuola finiva alle tre!"
+    "page": "175"
    },
    {
     "id": "u2-per-comunicare-009",
@@ -40863,8 +40688,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "È stata anche un’avventura vedere il mare del Nord.",
     "definition": "Si usa per raccontare un’esperienza speciale.",
-    "page": "175",
-    "related": "Es war auch ein Abenteuer …|||Si usa per raccontare un’esperienza speciale.|È stata anche un’avventura vedere il mare del Nord."
+    "page": "175"
    }
   ]
  },
@@ -40944,10 +40768,9 @@ const STOCK_PACKAGES = [
      "komplett"
     ],
     "acceptedAnswers": [],
-    "example": "Abbiamo dovuto rifare completamente la stanza.",
+    "example": "Finalmente il mio album di figurine è completo.",
     "definition": "Intero, a cui non manca niente.",
-    "page": "177-178",
-    "related": "komplett|||Intero, a cui non manca niente.|Abbiamo dovuto rifare completamente la stanza."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-003",
@@ -40983,8 +40806,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Sono riuscito a recuperare le foto dal vecchio telefono.",
     "definition": "Riuscire a riavere una cosa persa.",
-    "page": "177-178",
-    "related": "retten; sicherstellen|||Riuscire a riavere una cosa persa.|Sono riuscito a recuperare le foto dal vecchio telefono."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-006",
@@ -40997,7 +40819,6 @@ const STOCK_PACKAGES = [
     "definition": "Quello che resta di un edificio crollato.",
     "usage": "nur pl.",
     "page": "177-178",
-    "related": "die Trümmer|nur pl.||Quello che resta di un edificio crollato.|I volontari cercano tra le macerie.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -41033,7 +40854,6 @@ const STOCK_PACKAGES = [
     "definition": "Un altro modo per dire terremoto.",
     "usage": "pl. i sismi",
     "page": "177-178",
-    "related": "das Erdbeben|pl. i sismi||Un altro modo per dire terremoto.|Il sisma ha colpito tutto il centro Italia.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -41075,8 +40895,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Ero molto emozionato prima del concerto.",
     "definition": "Pieno di emozione.",
-    "page": "177-178",
-    "related": "aufgeregt; gerührt|||Pieno di emozione.|Ero molto emozionato prima del concerto."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-011",
@@ -41108,8 +40927,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "In tv hanno mostrato immagini agghiaccianti.",
     "definition": "Che fa paura e orrore.",
-    "page": "177-178",
-    "related": "entsetzlich|||Che fa paura e orrore.|In tv hanno mostrato immagini agghiaccianti."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-013",
@@ -41122,7 +40940,6 @@ const STOCK_PACKAGES = [
     "example": "Tra le rovine abbiamo trovato una vecchia foto.",
     "definition": "Quello che resta di un edificio distrutto.",
     "page": "177-178",
-    "related": "die Ruine; der Trümmerhaufen|||Quello che resta di un edificio distrutto.|Tra le rovine abbiamo trovato una vecchia foto.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -41144,8 +40961,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Ti faccio conoscere la mia migliore amica.",
     "definition": "Presentare una persona a un’altra.",
-    "page": "177-178",
-    "related": "jdn vorstellen|||Presentare una persona a un’altra.|Ti faccio conoscere la mia migliore amica."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-015",
@@ -41158,7 +40974,6 @@ const STOCK_PACKAGES = [
     "definition": "Le persone nate nello stesso anno.",
     "usage": "hier",
     "page": "177-178",
-    "related": "der Jahrgang|hier||Le persone nate nello stesso anno.|Mio nonno è della classe 1950.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -41179,7 +40994,6 @@ const STOCK_PACKAGES = [
     "example": "Ogni sera porto fuori il cane.",
     "definition": "Un animale domestico che abbaia.",
     "page": "177-178",
-    "related": "der Hund|||Un animale domestico che abbaia.|Ogni sera porto fuori il cane.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -41199,8 +41013,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il cane abbaia quando suona il campanello.",
     "definition": "Fare il verso del cane.",
-    "page": "177-178",
-    "related": "bellen|||Fare il verso del cane.|Il cane abbaia quando suona il campanello."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-018",
@@ -41211,8 +41024,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Sei pazzo a uscire con questo freddo!",
     "definition": "Che non ragiona; anche: esagerato.",
-    "page": "177-178",
-    "related": "verrückt|||Che non ragiona; anche: esagerato.|Sei pazzo a uscire con questo freddo!"
+    "page": "177-178"
    },
    {
     "id": "u3-3a-019",
@@ -41237,8 +41049,7 @@ const STOCK_PACKAGES = [
     "example": "Stavo per uscire quando hai chiamato.",
     "definition": "Essere sul punto di fare una cosa.",
     "usage": "+ inf.",
-    "page": "177-178",
-    "related": "kurz davor sein, etw. zu tun|+ inf.||Essere sul punto di fare una cosa.|Stavo per uscire quando hai chiamato."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-021",
@@ -41250,8 +41061,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Durante il terremoto è crollato il campanile.",
     "definition": "Cadere giù, rompersi.",
-    "page": "177-178",
-    "related": "einstürzen; zusammenbrechen|||Cadere giù, rompersi.|Durante il terremoto è crollato il campanile."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-022",
@@ -41262,8 +41072,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Non allontanatevi dal gruppo!",
     "definition": "Andare lontano da un posto.",
-    "page": "177-178",
-    "related": "sich entfernen|||Andare lontano da un posto.|Non allontanatevi dal gruppo!"
+    "page": "177-178"
    },
    {
     "id": "u3-3a-023",
@@ -41276,8 +41085,7 @@ const STOCK_PACKAGES = [
     "example": "È stata una giornata a dir poco difficile.",
     "definition": "Per non esagerare; in realtà era ancora di più.",
     "usage": "hier: gelinde gesagt",
-    "page": "177-178",
-    "related": "mindestens; gelinde gesagt|hier: gelinde gesagt||Per non esagerare; in realtà era ancora di più.|È stata una giornata a dir poco difficile."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-024",
@@ -41288,8 +41096,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Ho un mal di testa tremendo.",
     "definition": "Terribile.",
-    "page": "177-178",
-    "related": "entsetzlich|||Terribile.|Ho un mal di testa tremendo."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-025",
@@ -41314,8 +41121,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Devi farti una ragione del brutto voto.",
     "definition": "Accettare una cosa che non si può cambiare.",
-    "page": "177-178",
-    "related": "sich mit etw. abfinden|||Accettare una cosa che non si può cambiare.|Devi farti una ragione del brutto voto."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-027",
@@ -41328,8 +41134,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Domenica vado a trovare la nonna.",
     "definition": "Visitare una persona.",
-    "page": "177-178",
-    "related": "jdn besuchen|||Visitare una persona.|Domenica vado a trovare la nonna."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-028",
@@ -41391,7 +41196,6 @@ const STOCK_PACKAGES = [
     "example": "Ho fatto una lista delle cose da comprare.",
     "definition": "Un elenco di cose scritte una sotto l’altra.",
     "page": "177-178",
-    "related": "die Liste|||Un elenco di cose scritte una sotto l’altra.|Ho fatto una lista delle cose da comprare.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -41411,8 +41215,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "I superstiti del terremoto vivono nelle tende.",
     "definition": "Una persona che è rimasta viva dopo un disastro.",
-    "page": "177-178",
-    "related": "der/die Überlebende|||Una persona che è rimasta viva dopo un disastro.|I superstiti del terremoto vivono nelle tende."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-034",
@@ -41436,8 +41239,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Ho abbracciato forte mia madre.",
     "definition": "Stringere qualcuno tra le braccia.",
-    "page": "177-178",
-    "related": "umarmen|||Stringere qualcuno tra le braccia.|Ho abbracciato forte mia madre."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-036",
@@ -41450,7 +41252,6 @@ const STOCK_PACKAGES = [
     "example": "Fare i compiti è un dovere.",
     "definition": "Quello che si deve fare.",
     "page": "177-178",
-    "related": "die Verpflichtung; die Pflicht|||Quello che si deve fare.|Fare i compiti è un dovere.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -41470,8 +41271,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Aiutare gli altri è un dovere morale.",
     "definition": "Che riguarda il bene e il male.",
-    "page": "177-178",
-    "related": "moralisch|||Che riguarda il bene e il male.|Aiutare gli altri è un dovere morale."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-038",
@@ -41484,8 +41284,7 @@ const STOCK_PACKAGES = [
     "example": "Mi auguro che tu stia meglio presto.",
     "definition": "Sperare che succeda una cosa.",
     "usage": "+ cong.",
-    "page": "177-178",
-    "related": "sich wünschen; hoffen, dass|+ cong.||Sperare che succeda una cosa.|Mi auguro che tu stia meglio presto."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-039",
@@ -41496,8 +41295,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Ho ritrovato il mio vecchio diario.",
     "definition": "Trovare di nuovo una cosa persa.",
-    "page": "177-178",
-    "related": "wiederfinden|||Trovare di nuovo una cosa persa.|Ho ritrovato il mio vecchio diario."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-040",
@@ -41508,8 +41306,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Rispondimi al più presto, per favore.",
     "definition": "Il prima possibile.",
-    "page": "177-178",
-    "related": "so schnell wie möglich|||Il prima possibile.|Rispondimi al più presto, per favore."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-041",
@@ -41541,8 +41338,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Domani ho l’esame. Speriamo bene!",
     "definition": "Si dice quando si spera che una cosa vada bene.",
-    "page": "177-178",
-    "related": "Hoffen wir das Beste!|||Si dice quando si spera che una cosa vada bene.|Domani ho l’esame. Speriamo bene!"
+    "page": "177-178"
    },
    {
     "id": "u3-3a-043",
@@ -41567,7 +41363,6 @@ const STOCK_PACKAGES = [
     "example": "Facciamo tre pasti al giorno.",
     "definition": "Il momento in cui si mangia: colazione, pranzo, cena.",
     "page": "177-178",
-    "related": "die Mahlzeit|||Il momento in cui si mangia: colazione, pranzo, cena.|Facciamo tre pasti al giorno.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -41588,7 +41383,6 @@ const STOCK_PACKAGES = [
     "example": "Mi serve una coperta, ho freddo.",
     "definition": "Una cosa calda per coprirsi a letto.",
     "page": "177-178",
-    "related": "die Decke|||Una cosa calda per coprirsi a letto.|Mi serve una coperta, ho freddo.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -41608,8 +41402,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il comune ha preparato alloggi di emergenza.",
     "definition": "Un posto dove dormire dopo un disastro.",
-    "page": "177-178",
-    "related": "die Notunterkunft|||Un posto dove dormire dopo un disastro.|Il comune ha preparato alloggi di emergenza."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-047",
@@ -41621,8 +41414,7 @@ const STOCK_PACKAGES = [
     "example": "Colgo l’occasione per ringraziarvi tutti.",
     "definition": "Approfittare di un buon momento.",
     "usage": "p.p. colto",
-    "page": "177-178",
-    "related": "die Gelegenheit nutzen|p.p. colto||Approfittare di un buon momento.|Colgo l’occasione per ringraziarvi tutti."
+    "page": "177-178"
    },
    {
     "id": "u3-3a-048",
@@ -41713,7 +41505,6 @@ const STOCK_PACKAGES = [
     "example": "Napoli è famosa per la bellezza del suo golfo.",
     "definition": "Il fatto di essere bello.",
     "page": "178-180",
-    "related": "die Schönheit|||Il fatto di essere bello.|Napoli è famosa per la bellezza del suo golfo.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -41734,7 +41525,6 @@ const STOCK_PACKAGES = [
     "example": "Dalla finestra vedo il Vesuvio.",
     "definition": "Il vulcano vicino a Napoli.",
     "page": "178-180",
-    "related": "der Vesuv|||Il vulcano vicino a Napoli.|Dalla finestra vedo il Vesuvio.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -41754,8 +41544,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il bambino è addormentato sul divano.",
     "definition": "Che dorme.",
-    "page": "178-180",
-    "related": "schlafend|||Che dorme.|Il bambino è addormentato sul divano."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-004",
@@ -41767,8 +41556,7 @@ const STOCK_PACKAGES = [
     "example": "L’ultima eruzione del Vesuvio è stata nel 1944.",
     "definition": "Quando un vulcano butta fuori fuoco e lava.",
     "usage": "f.",
-    "page": "178-180",
-    "related": "der Ausbruch|f.||Quando un vulcano butta fuori fuoco e lava.|L’ultima eruzione del Vesuvio è stata nel 1944."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-005",
@@ -41780,8 +41568,7 @@ const STOCK_PACKAGES = [
     "example": "Mio nonno è molto campanilista: per lui Napoli è la città più bella.",
     "definition": "Che ama troppo la propria città e pensa che sia la migliore.",
     "usage": "agg.",
-    "page": "178-180",
-    "related": "lokalpatriotisch|agg.||Che ama troppo la propria città e pensa che sia la migliore.|Mio nonno è molto campanilista: per lui Napoli è la città più bella."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-006",
@@ -41795,7 +41582,6 @@ const STOCK_PACKAGES = [
     "definition": "Quello che una persona sente o pensa.",
     "usage": "hier: die Einstellung, Haltung",
     "page": "178-180",
-    "related": "das Gefühl; die Einstellung|hier: die Einstellung, Haltung||Quello che una persona sente o pensa.|È un sentimento difficile da spiegare.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -41829,8 +41615,7 @@ const STOCK_PACKAGES = [
     "example": "Al concerto c’erano oltre diecimila persone.",
     "definition": "Più di.",
     "usage": "prep.",
-    "page": "178-180",
-    "related": "über; mehr als|prep.||Più di.|Al concerto c’erano oltre diecimila persone."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-009",
@@ -41841,8 +41626,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Molte specie animali sono minacciate.",
     "definition": "In pericolo.",
-    "page": "178-180",
-    "related": "bedroht|||In pericolo.|Molte specie animali sono minacciate."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-010",
@@ -41857,8 +41641,7 @@ const STOCK_PACKAGES = [
     "example": "Il ritardo è dovuto al traffico.",
     "definition": "Avere come causa.",
     "contrast": "Devo partire presto. – Ich muss früh gehen. Ti devo 20 euro. – Ich schulde dir 20 Euro.",
-    "page": "178-180",
-    "related": "durch etw. bedingt sein; verursacht sein|Unterscheide: Devo partire presto. – Ich muss früh gehen. Ti devo 20 euro. – Ich schulde dir 20 Euro.||Avere come causa.|Il ritardo è dovuto al traffico."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-011",
@@ -41883,8 +41666,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Molte case abusive sono state costruite vicino al vulcano.",
     "definition": "Fatto senza permesso.",
-    "page": "178-180",
-    "related": "unerlaubt; illegal|||Fatto senza permesso.|Molte case abusive sono state costruite vicino al vulcano."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-013",
@@ -41895,8 +41677,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "È pericoloso, eppure la gente ci vive volentieri.",
     "definition": "Ma nonostante questo.",
-    "page": "178-180",
-    "related": "dennoch|||Ma nonostante questo.|È pericoloso, eppure la gente ci vive volentieri."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-014",
@@ -41942,8 +41723,7 @@ const STOCK_PACKAGES = [
     "example": "Dalla collina abbiamo una vista mozzafiato.",
     "definition": "Così bello che toglie il respiro.",
     "usage": "unveränderlich: i panorami mozzafiato",
-    "page": "178-180",
-    "related": "atemberaubend|unveränderlich: i panorami mozzafiato||Così bello che toglie il respiro.|Dalla collina abbiamo una vista mozzafiato."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-017",
@@ -41954,8 +41734,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Non voglio andare via da Napoli.",
     "definition": "Lasciare un posto.",
-    "page": "178-180",
-    "related": "weggehen|||Lasciare un posto.|Non voglio andare via da Napoli."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-018",
@@ -41966,8 +41745,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Non trovo il mio telefono da nessuna parte.",
     "definition": "In nessun posto.",
-    "page": "178-180",
-    "related": "nirgends|||In nessun posto.|Non trovo il mio telefono da nessuna parte."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-019",
@@ -41979,8 +41757,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Se qui è troppo caro, mangiamo altrove.",
     "definition": "In un altro posto.",
-    "page": "178-180",
-    "related": "anderswo; woanders|||In un altro posto.|Se qui è troppo caro, mangiamo altrove."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-020",
@@ -41992,8 +41769,7 @@ const STOCK_PACKAGES = [
     "example": "L’alluvione ha distrutto molte strade.",
     "definition": "Quando l’acqua di un fiume copre la terra e le case.",
     "usage": "f.",
-    "page": "178-180",
-    "related": "die Überschwemmung|f.||Quando l’acqua di un fiume copre la terra e le case.|L’alluvione ha distrutto molte strade."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-021",
@@ -42006,7 +41782,6 @@ const STOCK_PACKAGES = [
     "definition": "Una grande massa di neve che scende dalla montagna.",
     "usage": "pl. le valanghe",
     "page": "178-180",
-    "related": "die Lawine|pl. le valanghe||Una grande massa di neve che scende dalla montagna.|Oggi c’è pericolo di valanghe.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -42027,7 +41802,6 @@ const STOCK_PACKAGES = [
     "example": "Oggi la temperatura è di trenta gradi.",
     "definition": "Quanto fa caldo o freddo.",
     "page": "178-180",
-    "related": "die Temperatur|||Quanto fa caldo o freddo.|Oggi la temperatura è di trenta gradi.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -42049,8 +41823,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Non preoccuparti, va tutto bene.",
     "definition": "Pensare con ansia a un problema.",
-    "page": "178-180",
-    "related": "sich um etw. sorgen|||Pensare con ansia a un problema.|Non preoccuparti, va tutto bene."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-024",
@@ -42077,7 +41850,6 @@ const STOCK_PACKAGES = [
     "definition": "Una lingua parlata in alcune valli delle Dolomiti.",
     "usage": "Minderheitensprache / Dialekt",
     "page": "178-180",
-    "related": "das Ladinische|Minderheitensprache / Dialekt||Una lingua parlata in alcune valli delle Dolomiti.|In Val Gardena molte persone parlano il ladino.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -42098,7 +41870,6 @@ const STOCK_PACKAGES = [
     "example": "Questa spiaggia è un paradiso!",
     "definition": "Un posto bellissimo, perfetto.",
     "page": "178-180",
-    "related": "das Paradies|||Un posto bellissimo, perfetto.|Questa spiaggia è un paradiso!",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -42119,8 +41890,7 @@ const STOCK_PACKAGES = [
     "example": "Abbiamo visitato il parco archeologico di Pompei.",
     "definition": "Che riguarda le cose antiche trovate sotto terra.",
     "usage": "pl. archeologici, archeologiche",
-    "page": "178-180",
-    "related": "archäologisch|pl. archeologici, archeologiche||Che riguarda le cose antiche trovate sotto terra.|Abbiamo visitato il parco archeologico di Pompei."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-028",
@@ -42132,7 +41902,6 @@ const STOCK_PACKAGES = [
     "example": "Al museo egizio abbiamo visto una mummia.",
     "definition": "Un corpo antico conservato per molti secoli.",
     "page": "178-180",
-    "related": "die Mumie|||Un corpo antico conservato per molti secoli.|Al museo egizio abbiamo visto una mummia.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -42153,7 +41922,6 @@ const STOCK_PACKAGES = [
     "example": "Per quale motivo sei arrivato tardi?",
     "definition": "La ragione per cui si fa una cosa.",
     "page": "178-180",
-    "related": "der Grund|||La ragione per cui si fa una cosa.|Per quale motivo sei arrivato tardi?",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -42175,8 +41943,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Vivere vicino al vulcano comporta dei rischi.",
     "definition": "Avere come conseguenza.",
-    "page": "178-180",
-    "related": "etw. mit sich bringen|||Avere come conseguenza.|Vivere vicino al vulcano comporta dei rischi."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-031",
@@ -42188,8 +41955,7 @@ const STOCK_PACKAGES = [
     "example": "La valanga ha travolto due sciatori.",
     "definition": "Prendere e portare via con forza.",
     "usage": "p.p. travolto",
-    "page": "178-180",
-    "related": "überrollen|p.p. travolto||Prendere e portare via con forza.|La valanga ha travolto due sciatori."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-032",
@@ -42201,7 +41967,6 @@ const STOCK_PACKAGES = [
     "example": "Le piste da sci sono piene a Natale.",
     "definition": "La strada di neve dove si scia.",
     "page": "178-180",
-    "related": "die Skipiste|||La strada di neve dove si scia.|Le piste da sci sono piene a Natale.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -42235,8 +42000,7 @@ const STOCK_PACKAGES = [
     "example": "Mio padre è un napoletano doc.",
     "definition": "Vero, autentico.",
     "usage": "fam.",
-    "page": "178-180",
-    "related": "echt; hundertprozentig|fam.||Vero, autentico.|Mio padre è un napoletano doc."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-035",
@@ -42248,7 +42012,6 @@ const STOCK_PACKAGES = [
     "example": "Il campo tessile è importante per l’economia di Prato.",
     "definition": "Il settore che produce stoffe e vestiti.",
     "page": "178-180",
-    "related": "die Textilbranche|||Il settore che produce stoffe e vestiti.|Il campo tessile è importante per l’economia di Prato.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -42269,7 +42032,6 @@ const STOCK_PACKAGES = [
     "example": "La banca ha una filiale anche nel mio paese.",
     "definition": "Un negozio o ufficio che fa parte di una grande azienda.",
     "page": "178-180",
-    "related": "die Filiale|||Un negozio o ufficio che fa parte di una grande azienda.|La banca ha una filiale anche nel mio paese.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -42303,7 +42065,6 @@ const STOCK_PACKAGES = [
     "example": "Il turismo è un settore molto importante in Italia.",
     "definition": "Una parte dell’economia o di un’attività.",
     "page": "178-180",
-    "related": "der Sektor|||Una parte dell’economia o di un’attività.|Il turismo è un settore molto importante in Italia.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -42336,8 +42097,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Mio nonno va a pescare ogni domenica.",
     "definition": "Prendere i pesci.",
-    "page": "178-180",
-    "related": "fischen|||Prendere i pesci.|Mio nonno va a pescare ogni domenica."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-041",
@@ -42349,8 +42109,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Questa ricetta è tramandata da mia nonna.",
     "definition": "Passare tradizioni o storie ai figli e ai nipoti.",
-    "page": "178-180",
-    "related": "überliefern; weitergeben|||Passare tradizioni o storie ai figli e ai nipoti.|Questa ricetta è tramandata da mia nonna."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-042",
@@ -42362,7 +42121,6 @@ const STOCK_PACKAGES = [
     "example": "Sulla pasta metto il pecorino.",
     "definition": "Un formaggio fatto con il latte di pecora.",
     "page": "178-180",
-    "related": "der Schafskäse|||Un formaggio fatto con il latte di pecora.|Sulla pasta metto il pecorino.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -42396,8 +42154,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Le vacanze estive durano tre mesi.",
     "definition": "Dell’estate.",
-    "page": "178-180",
-    "related": "Sommer-; sommerlich|||Dell’estate.|Le vacanze estive durano tre mesi."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-045",
@@ -42408,8 +42165,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "L’acqua del lago è limpida.",
     "definition": "Pulito e trasparente.",
-    "page": "178-180",
-    "related": "klar|||Pulito e trasparente.|L’acqua del lago è limpida."
+    "page": "178-180"
    },
    {
     "id": "u3-3b-046",
@@ -42422,8 +42178,7 @@ const STOCK_PACKAGES = [
     "example": "Il concerto è stato mitico!",
     "definition": "Fantastico, bellissimo.",
     "usage": "Jugendsprache",
-    "page": "178-180",
-    "related": "fantastisch; Wahnsinns-|Jugendsprache||Fantastico, bellissimo.|Il concerto è stato mitico!"
+    "page": "178-180"
    },
    {
     "id": "u3-3b-047",
@@ -42435,8 +42190,7 @@ const STOCK_PACKAGES = [
     "example": "È tardi, me ne vado.",
     "definition": "Lasciare un posto.",
     "usage": "me ne vado, te ne vai …",
-    "page": "178-180",
-    "related": "weggehen|me ne vado, te ne vai …||Lasciare un posto.|È tardi, me ne vado."
+    "page": "178-180"
    }
   ]
  },
@@ -42505,7 +42259,6 @@ const STOCK_PACKAGES = [
     "example": "Il cambiamento climatico è una grande sfida.",
     "definition": "Una cosa difficile che bisogna affrontare.",
     "page": "175-176",
-    "related": "die Herausforderung|||Una cosa difficile che bisogna affrontare.|Il cambiamento climatico è una grande sfida.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -42547,8 +42300,7 @@ const STOCK_PACKAGES = [
     "example": "I liceali di quinta preparano la maturità.",
     "definition": "Uno studente o una studentessa del liceo.",
     "usage": "m./f.",
-    "page": "175-176",
-    "related": "der/die Gymnasiast/in|m./f.||Uno studente o una studentessa del liceo.|I liceali di quinta preparano la maturità."
+    "page": "175-176"
    },
    {
     "id": "u3-approccio-004",
@@ -42581,7 +42333,6 @@ const STOCK_PACKAGES = [
     "example": "La Sicilia è la più grande isola del Mediterraneo.",
     "definition": "Il mare tra Europa, Africa e Asia.",
     "page": "175-176",
-    "related": "das Mittelmeer(gebiet)|||Il mare tra Europa, Africa e Asia.|La Sicilia è la più grande isola del Mediterraneo.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -42602,7 +42353,6 @@ const STOCK_PACKAGES = [
     "example": "Il turismo di massa è un problema per Venezia.",
     "definition": "Quando troppi turisti vanno nello stesso posto.",
     "page": "175-176",
-    "related": "der Massentourismus|||Quando troppi turisti vanno nello stesso posto.|Il turismo di massa è un problema per Venezia.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -42624,8 +42374,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Sono consapevole dei rischi di internet.",
     "definition": "Sapere bene una cosa e capirne l’importanza.",
-    "page": "175-176",
-    "related": "sich etw. bewusst sein|||Sapere bene una cosa e capirne l’importanza.|Sono consapevole dei rischi di internet."
+    "page": "175-176"
    },
    {
     "id": "u3-approccio-008",
@@ -42638,8 +42387,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Sei sempre gentile nei confronti di tutti.",
     "definition": "Verso, rispetto a qualcuno.",
-    "page": "175-176",
-    "related": "gegenüber jdm/etw.|||Verso, rispetto a qualcuno.|Sei sempre gentile nei confronti di tutti."
+    "page": "175-176"
    },
    {
     "id": "u3-approccio-009",
@@ -42653,7 +42401,6 @@ const STOCK_PACKAGES = [
     "definition": "Un piccolo paese antico.",
     "usage": "pl. i borghi",
     "page": "175-176",
-    "related": "das Dorf; das Viertel|pl. i borghi||Un piccolo paese antico.|In Umbria ci sono tanti borghi medievali.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -42694,8 +42441,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Questo metodo di studio è molto efficace.",
     "definition": "Che funziona bene.",
-    "page": "175-176",
-    "related": "wirksam|||Che funziona bene.|Questo metodo di studio è molto efficace."
+    "page": "175-176"
    },
    {
     "id": "u3-approccio-012",
@@ -42707,7 +42453,6 @@ const STOCK_PACKAGES = [
     "example": "La prevenzione è importante per la salute.",
     "definition": "Quello che si fa prima per evitare un problema.",
     "page": "175-176",
-    "related": "die Vorbeugung|||Quello che si fa prima per evitare un problema.|La prevenzione è importante per la salute.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -42727,8 +42472,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il comune deve prendere provvedimenti contro il traffico.",
     "definition": "Fare qualcosa per risolvere un problema.",
-    "page": "175-176",
-    "related": "Vorkehrungen treffen|||Fare qualcosa per risolvere un problema.|Il comune deve prendere provvedimenti contro il traffico."
+    "page": "175-176"
    },
    {
     "id": "u3-approccio-014",
@@ -42741,8 +42485,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Questa regola riguarda tutti gli studenti.",
     "definition": "Avere a che fare con qualcuno.",
-    "page": "175-176",
-    "related": "jdn/etw. betreffen|||Avere a che fare con qualcuno.|Questa regola riguarda tutti gli studenti."
+    "page": "175-176"
    },
    {
     "id": "u3-approccio-015",
@@ -42776,8 +42519,7 @@ const STOCK_PACKAGES = [
     "example": "Sei in grado di risolvere questo esercizio?",
     "definition": "Essere capaci di fare una cosa.",
     "usage": "+ inf.",
-    "page": "175-176",
-    "related": "in der Lage sein, etw. zu tun|+ inf.||Essere capaci di fare una cosa.|Sei in grado di risolvere questo esercizio?"
+    "page": "175-176"
    },
    {
     "id": "u3-approccio-017",
@@ -42791,8 +42533,7 @@ const STOCK_PACKAGES = [
     "example": "La vecchia casa ha retto al terremoto.",
     "definition": "Resistere, non cadere.",
     "usage": "p.p. retto",
-    "page": "175-176",
-    "related": "jdm/etw. standhalten|p.p. retto||Resistere, non cadere.|La vecchia casa ha retto al terremoto."
+    "page": "175-176"
    },
    {
     "id": "u3-approccio-018",
@@ -42804,7 +42545,6 @@ const STOCK_PACKAGES = [
     "example": "Stanotte abbiamo sentito una scossa.",
     "definition": "Un movimento forte della terra.",
     "page": "175-176",
-    "related": "der Erdstoß|||Un movimento forte della terra.|Stanotte abbiamo sentito una scossa.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -42826,7 +42566,6 @@ const STOCK_PACKAGES = [
     "example": "Lo sviluppo della tecnologia è velocissimo.",
     "definition": "Il processo di crescita e di cambiamento.",
     "page": "175-176",
-    "related": "die Entwicklung; die Entstehung|||Il processo di crescita e di cambiamento.|Lo sviluppo della tecnologia è velocissimo.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -42847,8 +42586,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Vogliamo un turismo più sostenibile.",
     "definition": "Che non fa male all’ambiente per il futuro.",
-    "page": "175-176",
-    "related": "vertretbar; nachhaltig|||Che non fa male all’ambiente per il futuro.|Vogliamo un turismo più sostenibile."
+    "page": "175-176"
    },
    {
     "id": "u3-approccio-021",
@@ -42860,8 +42598,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Bisogna rispettare la natura.",
     "definition": "Trattare con attenzione e rispetto.",
-    "page": "175-176",
-    "related": "schonen; respektieren|||Trattare con attenzione e rispetto.|Bisogna rispettare la natura."
+    "page": "175-176"
    },
    {
     "id": "u3-approccio-022",
@@ -42894,8 +42631,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Oggi è una giornata splendida.",
     "definition": "Bellissimo.",
-    "page": "175-176",
-    "related": "wunderbar|||Bellissimo.|Oggi è una giornata splendida."
+    "page": "175-176"
    },
    {
     "id": "u3-approccio-024",
@@ -42907,8 +42643,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "È chiaro che non vuole venire.",
     "definition": "Facile da capire, evidente.",
-    "page": "175-176",
-    "related": "klar; offensichtlich|||Facile da capire, evidente.|È chiaro che non vuole venire."
+    "page": "175-176"
    },
    {
     "id": "u3-approccio-025",
@@ -42933,7 +42668,6 @@ const STOCK_PACKAGES = [
     "example": "D’estate andiamo in riviera.",
     "definition": "La costa del mare con spiagge e paesi.",
     "page": "175-176",
-    "related": "die Meeresküste|||La costa del mare con spiagge e paesi.|D’estate andiamo in riviera.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -42953,8 +42687,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "La costa ligure ha paesi molto colorati.",
     "definition": "Della Liguria.",
-    "page": "175-176",
-    "related": "ligurisch|||Della Liguria.|La costa ligure ha paesi molto colorati."
+    "page": "175-176"
    },
    {
     "id": "u3-approccio-028",
@@ -42966,8 +42699,7 @@ const STOCK_PACKAGES = [
     "example": "Il tramonto sul mare era magico.",
     "definition": "Che sembra fuori dalla realtà, bellissimo.",
     "usage": "pl. magici/-iche",
-    "page": "175-176",
-    "related": "magisch|pl. magici/-iche||Che sembra fuori dalla realtà, bellissimo.|Il tramonto sul mare era magico."
+    "page": "175-176"
    },
    {
     "id": "u3-approccio-029",
@@ -42979,7 +42711,6 @@ const STOCK_PACKAGES = [
     "example": "Dal punto panoramico si vede tutta Napoli.",
     "definition": "Un posto da cui si vede un bel paesaggio.",
     "page": "175-176",
-    "related": "der Aussichtspunkt|||Un posto da cui si vede un bel paesaggio.|Dal punto panoramico si vede tutta Napoli.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -43011,8 +42742,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Era stanco al punto che si è addormentato in classe.",
     "definition": "Così tanto che.",
-    "page": "175-176",
-    "related": "so weit/sehr/viel, dass|||Così tanto che.|Era stanco al punto che si è addormentato in classe."
+    "page": "175-176"
    },
    {
     "id": "u3-approccio-032",
@@ -43037,7 +42767,6 @@ const STOCK_PACKAGES = [
     "definition": "Quello che brucia e fa luce e calore.",
     "usage": "pl. i fuochi",
     "page": "175-176",
-    "related": "das Feuer|pl. i fuochi||Quello che brucia e fa luce e calore.|Abbiamo acceso il fuoco in spiaggia.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -43059,7 +42788,6 @@ const STOCK_PACKAGES = [
     "definition": "Un modo di fare, un’abitudine.",
     "usage": "pl. le pratiche",
     "page": "175-176",
-    "related": "die Praktik|pl. le pratiche||Un modo di fare, un’abitudine.|Rubare è una pratica criminale.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -43079,8 +42807,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "La polizia combatte le organizzazioni criminali.",
     "definition": "Contro la legge.",
-    "page": "175-176",
-    "related": "kriminell|||Contro la legge.|La polizia combatte le organizzazioni criminali."
+    "page": "175-176"
    },
    {
     "id": "u3-approccio-036",
@@ -43091,8 +42818,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Non si devono bruciare i rifiuti.",
     "definition": "Distruggere con il fuoco.",
-    "page": "175-176",
-    "related": "verbrennen|||Distruggere con il fuoco.|Non si devono bruciare i rifiuti."
+    "page": "175-176"
    },
    {
     "id": "u3-approccio-037",
@@ -43117,8 +42843,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Lo stress può portare a problemi di salute.",
     "definition": "Avere come risultato.",
-    "page": "175-176",
-    "related": "führen zu etw.|||Avere come risultato.|Lo stress può portare a problemi di salute."
+    "page": "175-176"
    },
    {
     "id": "u3-approccio-039",
@@ -43142,7 +42867,6 @@ const STOCK_PACKAGES = [
     "example": "I ragazzi hanno organizzato una protesta per il clima.",
     "definition": "Quando le persone dicono pubblicamente che non sono d’accordo.",
     "page": "175-176",
-    "related": "der Protest|||Quando le persone dicono pubblicamente che non sono d’accordo.|I ragazzi hanno organizzato una protesta per il clima.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -43162,8 +42886,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "L’inquinamento dell’aria è alto in città.",
     "definition": "Quando aria, acqua o terra diventano sporche.",
-    "page": "175-176",
-    "related": "die (Umwelt-)Verschmutzung|||Quando aria, acqua o terra diventano sporche.|L’inquinamento dell’aria è alto in città."
+    "page": "175-176"
    }
   ]
  },
@@ -43229,10 +42952,9 @@ const STOCK_PACKAGES = [
      "Es besteht kein Zweifel daran, dass …"
     ],
     "acceptedAnswers": [],
-    "example": "Non c’è dubbio sul fatto che il turismo aiuta l’economia.",
+    "example": "Non c’è dubbio sul fatto che il turismo aiuti l’economia.",
     "definition": "Si usa per presentare una cosa sicura.",
-    "page": "180-181",
-    "related": "Es besteht kein Zweifel daran, dass …|||Si usa per presentare una cosa sicura.|Non c’è dubbio sul fatto che il turismo aiuta l’economia."
+    "page": "180-181"
    },
    {
     "id": "u3-per-comunicare-002",
@@ -43243,8 +42965,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Ciò riguarda soprattutto le persone anziane.",
     "definition": "Si usa per dire chi o che cosa è interessato.",
-    "page": "180-181",
-    "related": "Das betrifft vor allem …|||Si usa per dire chi o che cosa è interessato.|Ciò riguarda soprattutto le persone anziane."
+    "page": "180-181"
    },
    {
     "id": "u3-per-comunicare-003",
@@ -43255,8 +42976,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Ciò porta a seri problemi di traffico.",
     "definition": "Si usa per dire una conseguenza.",
-    "page": "180-181",
-    "related": "Das führt zu …|||Si usa per dire una conseguenza.|Ciò porta a seri problemi di traffico."
+    "page": "180-181"
    },
    {
     "id": "u3-per-comunicare-004",
@@ -43267,8 +42987,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Già da anni la città si dedica al turismo sostenibile.",
     "definition": "Da molto tempo.",
-    "page": "180-181",
-    "related": "Schon seit Jahren …|||Da molto tempo.|Già da anni la città si dedica al turismo sostenibile."
+    "page": "180-181"
    },
    {
     "id": "u3-per-comunicare-005",
@@ -43277,10 +42996,9 @@ const STOCK_PACKAGES = [
      "Hätte ich es nicht mit eigenen Augen gesehen, hätte ich es nie geglaubt."
     ],
     "acceptedAnswers": [],
-    "example": "Se non l’avessi visto con i miei occhi, non ci avrei mai creduto.",
+    "example": "Se non l’avessi visto con i miei occhi, non ci avrei mai creduto: Venezia era vuota!",
     "definition": "Si usa per una condizione nel passato.",
-    "page": "180-181",
-    "related": "Hätte ich es nicht mit eigenen Augen gesehen, hätte ich es nie geglaubt.|||Si usa per una condizione nel passato.|Se non l’avessi visto con i miei occhi, non ci avrei mai creduto."
+    "page": "180-181"
    },
    {
     "id": "u3-per-comunicare-006",
@@ -43291,8 +43009,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Se non fossi partita, non avrei mai conosciuto questi amici.",
     "definition": "Si usa per immaginare un passato diverso.",
-    "page": "180-181",
-    "related": "Wäre ich nicht weggefahren, hätte ich nie …|||Si usa per immaginare un passato diverso.|Se non fossi partita, non avrei mai conosciuto questi amici."
+    "page": "180-181"
    },
    {
     "id": "u3-per-comunicare-007",
@@ -43303,8 +43020,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Che orrore questo film!",
     "definition": "Si dice quando una cosa fa paura o schifo.",
-    "page": "180-181",
-    "related": "Wie schrecklich!|||Si dice quando una cosa fa paura o schifo.|Che orrore questo film!"
+    "page": "180-181"
    },
    {
     "id": "u3-per-comunicare-008",
@@ -43315,8 +43031,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Durante il temporale ho avuto davvero tanta paura.",
     "definition": "Si usa per raccontare uno spavento.",
-    "page": "180-181",
-    "related": "Ich hatte wirklich große Angst.|||Si usa per raccontare uno spavento.|Durante il temporale ho avuto davvero tanta paura."
+    "page": "180-181"
    },
    {
     "id": "u3-per-comunicare-009",
@@ -43328,8 +43043,7 @@ const STOCK_PACKAGES = [
     "example": "Speriamo bene, anche se in realtà non credo che cambierà molto.",
     "definition": "Si usa per relativizzare un’opinione.",
     "usage": "+ cong.",
-    "page": "180-181",
-    "related": "Auch wenn ich eigentlich nicht glaube, dass …|+ cong.||Si usa per relativizzare un’opinione.|Speriamo bene, anche se in realtà non credo che cambierà molto."
+    "page": "180-181"
    },
    {
     "id": "u3-per-comunicare-010",
@@ -43340,8 +43054,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "La nostra regione è conosciuta per il vino.",
     "definition": "Si usa per presentare una regione.",
-    "page": "180-181",
-    "related": "Unsere Region ist bekannt für …|||Si usa per presentare una regione.|La nostra regione è conosciuta per il vino."
+    "page": "180-181"
    },
    {
     "id": "u3-per-comunicare-011",
@@ -43352,8 +43065,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Le Dolomiti sono il posto perfetto per sciare.",
     "definition": "Si usa per consigliare un luogo.",
-    "page": "180-181",
-    "related": "Der perfekte Ort für …|||Si usa per consigliare un luogo.|Le Dolomiti sono il posto perfetto per sciare."
+    "page": "180-181"
    },
    {
     "id": "u3-per-comunicare-012",
@@ -43364,8 +43076,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Per questi motivi la mia regione è molto visitata.",
     "definition": "Si usa per riassumere le ragioni.",
-    "page": "180-181",
-    "related": "Aus diesen Gründen …|||Si usa per riassumere le ragioni.|Per questi motivi la mia regione è molto visitata."
+    "page": "180-181"
    },
    {
     "id": "u3-per-comunicare-013",
@@ -43376,8 +43087,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il problema è che l’isola dipende dal turismo estivo.",
     "definition": "Si usa per presentare una difficoltà.",
-    "page": "180-181",
-    "related": "Das Problem ist, dass …|||Si usa per presentare una difficoltà.|Il problema è che l’isola dipende dal turismo estivo."
+    "page": "180-181"
    }
   ]
  },
@@ -43447,7 +43157,6 @@ const STOCK_PACKAGES = [
     "definition": "Una sostanza che fa male e crea dipendenza.",
     "usage": "pl. le droghe",
     "page": "182-183",
-    "related": "die Droge|pl. le droghe||Una sostanza che fa male e crea dipendenza.|La droga distrugge molte vite.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -43468,8 +43177,7 @@ const STOCK_PACKAGES = [
     "example": "L’immigrazione cambia la società italiana.",
     "definition": "L’arrivo di persone da altri paesi.",
     "usage": "f.",
-    "page": "182-183",
-    "related": "die Einwanderung|f.||L’arrivo di persone da altri paesi.|L’immigrazione cambia la società italiana."
+    "page": "182-183"
    },
    {
     "id": "u4-4a-003",
@@ -43502,7 +43210,6 @@ const STOCK_PACKAGES = [
     "example": "Con la cooperazione di tutti il progetto è riuscito.",
     "definition": "Il lavoro fatto insieme.",
     "page": "182-183",
-    "related": "die Zusammenarbeit|||Il lavoro fatto insieme.|Con la cooperazione di tutti il progetto è riuscito.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -43522,8 +43229,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Ogni cittadino ha diritti e doveri.",
     "definition": "Una persona che vive in una città o in uno stato.",
-    "page": "182-183",
-    "related": "der/die Bürger/in|||Una persona che vive in una città o in uno stato.|Ogni cittadino ha diritti e doveri."
+    "page": "182-183"
    },
    {
     "id": "u4-4a-006",
@@ -43535,7 +43241,6 @@ const STOCK_PACKAGES = [
     "example": "A scuola facciamo un progetto sulla legalità.",
     "definition": "Il rispetto delle leggi.",
     "page": "182-183",
-    "related": "die Rechtmäßigkeit|||Il rispetto delle leggi.|A scuola facciamo un progetto sulla legalità.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -43577,8 +43282,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "I miei nonni coltivano pomodori.",
     "definition": "Lavorare la terra per far crescere piante.",
-    "page": "182-183",
-    "related": "bewirtschaften; anbauen|||Lavorare la terra per far crescere piante.|I miei nonni coltivano pomodori."
+    "page": "182-183"
    },
    {
     "id": "u4-4a-009",
@@ -43624,7 +43328,6 @@ const STOCK_PACKAGES = [
     "example": "La salsa di pomodoro è fatta in casa.",
     "definition": "Un condimento liquido per la pasta o la carne.",
     "page": "182-183",
-    "related": "die Soße|||Un condimento liquido per la pasta o la carne.|La salsa di pomodoro è fatta in casa.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -43659,8 +43362,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Non voglio avere niente a che fare con questa storia.",
     "definition": "Avere un rapporto con qualcosa.",
-    "page": "182-183",
-    "related": "zu tun haben mit etw.|||Avere un rapporto con qualcosa.|Non voglio avere niente a che fare con questa storia."
+    "page": "182-183"
    },
    {
     "id": "u4-4a-014",
@@ -43672,8 +43374,7 @@ const STOCK_PACKAGES = [
     "example": "L’insieme dei dati mostra un problema.",
     "definition": "Tutte le parti considerate insieme.",
     "usage": "m.",
-    "page": "182-183",
-    "related": "die Gesamtheit|m.||Tutte le parti considerate insieme.|L’insieme dei dati mostra un problema."
+    "page": "182-183"
    },
    {
     "id": "u4-4a-015",
@@ -43685,7 +43386,6 @@ const STOCK_PACKAGES = [
     "example": "I ragazzi lavorano in una cooperativa agricola.",
     "definition": "Un’azienda che appartiene a chi ci lavora.",
     "page": "182-183",
-    "related": "die Genossenschaft|||Un’azienda che appartiene a chi ci lavora.|I ragazzi lavorano in una cooperativa agricola.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -43706,8 +43406,7 @@ const STOCK_PACKAGES = [
     "example": "In autunno si lavora la terra.",
     "definition": "Coltivare la terra.",
     "usage": "hier",
-    "page": "182-183",
-    "related": "bewirtschaften|hier||Coltivare la terra.|In autunno si lavora la terra."
+    "page": "182-183"
    },
    {
     "id": "u4-4a-017",
@@ -43720,7 +43419,6 @@ const STOCK_PACKAGES = [
     "example": "La cooperativa coltiva i terreni confiscati alla mafia.",
     "definition": "Un pezzo di terra.",
     "page": "182-183",
-    "related": "das Feld; der Boden|||Un pezzo di terra.|La cooperativa coltiva i terreni confiscati alla mafia.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -43740,8 +43438,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Lo stato ha confiscato le case del boss.",
     "definition": "Prendere un bene a qualcuno per legge.",
-    "page": "182-183",
-    "related": "beschlagnahmen|||Prendere un bene a qualcuno per legge.|Lo stato ha confiscato le case del boss."
+    "page": "182-183"
    },
    {
     "id": "u4-4a-019",
@@ -43754,7 +43451,6 @@ const STOCK_PACKAGES = [
     "definition": "Il capo di un’organizzazione criminale.",
     "usage": "pl. i boss",
     "page": "182-183",
-    "related": "der Boss|pl. i boss||Il capo di un’organizzazione criminale.|Il boss è stato arrestato dopo anni.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -43774,8 +43470,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "L’antimafia lavora con la polizia e i giudici.",
     "definition": "La lotta organizzata contro la mafia.",
-    "page": "182-183",
-    "related": "die Antimafia|||La lotta organizzata contro la mafia.|L’antimafia lavora con la polizia e i giudici."
+    "page": "182-183"
    },
    {
     "id": "u4-4a-021",
@@ -43800,8 +43495,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "È un’organizzazione di tipo mafioso.",
     "definition": "Della mafia.",
-    "page": "182-183",
-    "related": "Mafia-|||Della mafia.|È un’organizzazione di tipo mafioso."
+    "page": "182-183"
    },
    {
     "id": "u4-4a-023",
@@ -43812,8 +43506,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Organizziamo una manifestazione antirazzista.",
     "definition": "Contro.",
-    "page": "182-183",
-    "related": "anti-|||Contro.|Organizziamo una manifestazione antirazzista."
+    "page": "182-183"
    },
    {
     "id": "u4-4a-024",
@@ -43824,8 +43517,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "L’utilizzo del cellulare in classe è vietato.",
     "definition": "L’uso.",
-    "page": "182-183",
-    "related": "die Nutzung|||L’uso.|L’utilizzo del cellulare in classe è vietato."
+    "page": "182-183"
    },
    {
     "id": "u4-4a-025",
@@ -43858,7 +43550,6 @@ const STOCK_PACKAGES = [
     "example": "Prova a vedere le cose dalla mia prospettiva.",
     "definition": "Il modo di vedere una cosa; possibilità per il futuro.",
     "page": "182-183",
-    "related": "die Perspektive|||Il modo di vedere una cosa; possibilità per il futuro.|Prova a vedere le cose dalla mia prospettiva.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -43879,7 +43570,6 @@ const STOCK_PACKAGES = [
     "example": "Sul pacchetto c’è la provenienza del caffè.",
     "definition": "Il luogo da cui viene una persona o una cosa.",
     "page": "182-183",
-    "related": "die Herkunft|||Il luogo da cui viene una persona o una cosa.|Sul pacchetto c’è la provenienza del caffè.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -43923,8 +43613,7 @@ const STOCK_PACKAGES = [
     "example": "Bisogna attenersi alle regole del gioco.",
     "definition": "Seguire regole o istruzioni.",
     "usage": "(mi attengo)",
-    "page": "182-183",
-    "related": "sich an etw. halten|(mi attengo)||Seguire regole o istruzioni.|Bisogna attenersi alle regole del gioco."
+    "page": "182-183"
    },
    {
     "id": "u4-4a-030",
@@ -43935,8 +43624,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Compriamo solo frutta biologica.",
     "definition": "Prodotto senza chimica.",
-    "page": "182-183",
-    "related": "biologisch|||Prodotto senza chimica.|Compriamo solo frutta biologica."
+    "page": "182-183"
    },
    {
     "id": "u4-4a-031",
@@ -43959,8 +43647,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Mangiare frutta è sano.",
     "definition": "Che fa bene alla salute; che non è malato.",
-    "page": "182-183",
-    "related": "gesund|||Che fa bene alla salute; che non è malato.|Mangiare frutta è sano."
+    "page": "182-183"
    },
    {
     "id": "u4-4a-033",
@@ -43973,8 +43660,7 @@ const STOCK_PACKAGES = [
     "example": "Chiunque venga, è il benvenuto.",
     "definition": "Qualsiasi persona.",
     "usage": "+ cong.",
-    "page": "182-183",
-    "related": "wer auch immer; jede(r,s)|+ cong.||Qualsiasi persona.|Chiunque venga, è il benvenuto."
+    "page": "182-183"
    },
    {
     "id": "u4-4a-034",
@@ -43987,7 +43673,6 @@ const STOCK_PACKAGES = [
     "example": "La scuola è a una distanza di due chilometri.",
     "definition": "Lo spazio tra due posti.",
     "page": "182-183",
-    "related": "die Entfernung; die Distanz|||Lo spazio tra due posti.|La scuola è a una distanza di due chilometri.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -44007,8 +43692,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "È un medico specializzato in sport.",
     "definition": "Che conosce molto bene un settore.",
-    "page": "182-183",
-    "related": "spezialisiert|||Che conosce molto bene un settore.|È un medico specializzato in sport."
+    "page": "182-183"
    },
    {
     "id": "u4-4a-036",
@@ -44020,8 +43704,7 @@ const STOCK_PACKAGES = [
     "example": "Ti mando le foto via e-mail.",
     "definition": "Attraverso, per mezzo di.",
     "usage": "prep.",
-    "page": "182-183",
-    "related": "über (per)|prep.||Attraverso, per mezzo di.|Ti mando le foto via e-mail."
+    "page": "182-183"
    },
    {
     "id": "u4-4a-037",
@@ -44111,8 +43794,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il calcio è lo sport più diffuso in Italia.",
     "definition": "Presente in molti posti.",
-    "page": "183-185",
-    "related": "beliebt; verbreitet|||Presente in molti posti.|Il calcio è lo sport più diffuso in Italia."
+    "page": "183-185"
    },
    {
     "id": "u4-4b-002",
@@ -44159,8 +43841,7 @@ const STOCK_PACKAGES = [
     "example": "Non parlo benissimo tedesco, ma me la cavo.",
     "definition": "Riuscire a fare una cosa abbastanza bene.",
     "usage": "me la cavo, te la cavi …",
-    "page": "183-185",
-    "related": "sich zurechtfinden; klarkommen|me la cavo, te la cavi …||Riuscire a fare una cosa abbastanza bene.|Non parlo benissimo tedesco, ma me la cavo."
+    "page": "183-185"
    },
    {
     "id": "u4-4b-005",
@@ -44185,7 +43866,6 @@ const STOCK_PACKAGES = [
     "definition": "Un gruppo di persone con un interesse comune, spesso sportivo.",
     "usage": "pl. i club",
     "page": "183-185",
-    "related": "der Verein|pl. i club||Un gruppo di persone con un interesse comune, spesso sportivo.|Gioco a tennis in un club vicino a casa.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -44224,7 +43904,7 @@ const STOCK_PACKAGES = [
      "sogenannte/-r/-s"
     ],
     "acceptedAnswers": [],
-    "example": "È il cosiddetto “Giro d’Italia”.",
+    "example": "Il cosiddetto “Bel Paese” è l’Italia.",
     "definition": "Che si chiama così.",
     "page": "183-185",
     "family": "così, dire"
@@ -44552,7 +44232,6 @@ const STOCK_PACKAGES = [
     "definition": "Una persona famosissima.",
     "usage": "pl. le star",
     "page": "183-185",
-    "related": "der (Welt-)Star|pl. le star||Una persona famosissima.|Questa cantante è una star internazionale.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -44572,8 +44251,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Per i tifosi, Maradona è al pari di un santo.",
     "definition": "Allo stesso livello di.",
-    "page": "183-185",
-    "related": "(genauso) wie|||Allo stesso livello di.|Per i tifosi, Maradona è al pari di un santo."
+    "page": "183-185"
    },
    {
     "id": "u4-4b-031",
@@ -44607,8 +44285,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Il film è basato su una storia vera.",
     "definition": "Avere come base.",
-    "page": "183-185",
-    "related": "basieren auf etw.|||Avere come base.|Il film è basato su una storia vera."
+    "page": "183-185"
    },
    {
     "id": "u4-4b-033",
@@ -44683,8 +44360,7 @@ const STOCK_PACKAGES = [
     "example": "Non prendertela con me, non è colpa mia!",
     "definition": "Arrabbiarsi con qualcuno.",
     "usage": "me la prendo, te la prendi …",
-    "page": "183-185",
-    "related": "sich aufregen über jdn/etw.|me la prendo, te la prendi …||Arrabbiarsi con qualcuno.|Non prendertela con me, non è colpa mia!"
+    "page": "183-185"
    },
    {
     "id": "u4-4b-038",
@@ -44697,8 +44373,7 @@ const STOCK_PACKAGES = [
     ],
     "example": "Mi limito a guardare, non gioco.",
     "definition": "Fare solo una cosa e non di più.",
-    "page": "183-185",
-    "related": "sich beschränken auf etw.|||Fare solo una cosa e non di più.|Mi limito a guardare, non gioco."
+    "page": "183-185"
    },
    {
     "id": "u4-4b-039",
@@ -44752,7 +44427,6 @@ const STOCK_PACKAGES = [
     "example": "La maggioranza della classe vuole andare a Roma.",
     "definition": "La parte più grande di un gruppo.",
     "page": "183-185",
-    "related": "die Mehrheit|||La parte più grande di un gruppo.|La maggioranza della classe vuole andare a Roma.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -44787,8 +44461,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Mio fratello sta imparando a guidare.",
     "definition": "Condurre una macchina o una bici.",
-    "page": "183-185",
-    "related": "fahren; steuern|||Condurre una macchina o una bici.|Mio fratello sta imparando a guidare."
+    "page": "183-185"
    },
    {
     "id": "u4-4b-045",
@@ -44846,8 +44519,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Da grande voglio fare il pilota.",
     "definition": "Una persona che guida un’auto da corsa o un aereo.",
-    "page": "183-185",
-    "related": "der/die Fahrer/in; der/die Pilot/in|||Una persona che guida un’auto da corsa o un aereo.|Da grande voglio fare il pilota."
+    "page": "183-185"
    },
    {
     "id": "u4-4b-049",
@@ -44963,8 +44635,7 @@ const STOCK_PACKAGES = [
     "example": "Torino è famosa per l’industria automobilistica.",
     "definition": "Che riguarda le automobili.",
     "usage": "pl. automobilistici/-istiche",
-    "page": "181-182",
-    "related": "Auto(mobil)-|pl. automobilistici/-istiche||Che riguarda le automobili.|Torino è famosa per l’industria automobilistica."
+    "page": "181-182"
    },
    {
     "id": "u4-approccio-003",
@@ -44975,8 +44646,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "A Prato ci sono molte aziende tessili.",
     "definition": "Che riguarda le stoffe.",
-    "page": "181-182",
-    "related": "Textil-|||Che riguarda le stoffe.|A Prato ci sono molte aziende tessili."
+    "page": "181-182"
    },
    {
     "id": "u4-approccio-004",
@@ -44987,8 +44657,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "L’industria alimentare è importante in Emilia-Romagna.",
     "definition": "Che riguarda il cibo.",
-    "page": "181-182",
-    "related": "Lebensmittel-|||Che riguarda il cibo.|L’industria alimentare è importante in Emilia-Romagna."
+    "page": "181-182"
    },
    {
     "id": "u4-approccio-005",
@@ -45000,8 +44669,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "A Genova c’è un grande cantiere navale.",
     "definition": "Che riguarda le navi.",
-    "page": "181-182",
-    "related": "Schiffs-; See-|||Che riguarda le navi.|A Genova c’è un grande cantiere navale."
+    "page": "181-182"
    },
    {
     "id": "u4-approccio-006",
@@ -45014,7 +44682,6 @@ const STOCK_PACKAGES = [
     "definition": "Un periodo difficile.",
     "usage": "pl. le crisi",
     "page": "181-182",
-    "related": "die Krise|pl. le crisi||Un periodo difficile.|Durante la crisi molte persone hanno perso il lavoro.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -45047,8 +44714,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Riutilizziamo le bottiglie di vetro.",
     "definition": "Usare di nuovo.",
-    "page": "181-182",
-    "related": "weiterverwenden|||Usare di nuovo.|Riutilizziamo le bottiglie di vetro."
+    "page": "181-182"
    },
    {
     "id": "u4-approccio-009",
@@ -45061,7 +44727,6 @@ const STOCK_PACKAGES = [
     "definition": "Un edificio dove si producono cose con le macchine.",
     "usage": "pl. le fabbriche",
     "page": "181-182",
-    "related": "die Fabrik|pl. le fabbriche||Un edificio dove si producono cose con le macchine.|Mio zio lavora in una fabbrica di scarpe.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -45082,7 +44747,6 @@ const STOCK_PACKAGES = [
     "example": "Alla fiera del libro c’erano tanti autori.",
     "definition": "Una grande esposizione di prodotti.",
     "page": "181-182",
-    "related": "die Messe|||Una grande esposizione di prodotti.|Alla fiera del libro c’erano tanti autori.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -45103,7 +44767,6 @@ const STOCK_PACKAGES = [
     "example": "Sabato andiamo al centro commerciale.",
     "definition": "Un grande edificio con tanti negozi.",
     "page": "181-182",
-    "related": "das Einkaufszentrum|||Un grande edificio con tanti negozi.|Sabato andiamo al centro commerciale.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -45125,7 +44788,6 @@ const STOCK_PACKAGES = [
     "example": "Il turismo ha un ruolo importante al Sud.",
     "definition": "La parte o il compito di una persona o di una cosa.",
     "page": "181-182",
-    "related": "die Rolle; die Funktion|||La parte o il compito di una persona o di una cosa.|Il turismo ha un ruolo importante al Sud.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -45179,8 +44841,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Abbiamo formato una band.",
     "definition": "Creare, fare nascere un gruppo o una cosa.",
-    "page": "181-182",
-    "related": "bilden|||Creare, fare nascere un gruppo o una cosa.|Abbiamo formato una band."
+    "page": "181-182"
    },
    {
     "id": "u4-approccio-016",
@@ -45193,7 +44854,6 @@ const STOCK_PACKAGES = [
     "definition": "Un gruppo di aziende che lavorano insieme.",
     "usage": "pl. i consorzi",
     "page": "181-182",
-    "related": "die Genossenschaft|pl. i consorzi||Un gruppo di aziende che lavorano insieme.|Il consorzio protegge la qualità del Parmigiano.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -45215,8 +44875,7 @@ const STOCK_PACKAGES = [
     "example": "È difficile definire la felicità.",
     "definition": "Dire con precisione che cos’è una cosa.",
     "usage": "(-isc-)",
-    "page": "181-182",
-    "related": "festlegen; definieren|(-isc-)||Dire con precisione che cos’è una cosa.|È difficile definire la felicità."
+    "page": "181-182"
    },
    {
     "id": "u4-approccio-018",
@@ -45228,7 +44887,6 @@ const STOCK_PACKAGES = [
     "example": "Questo olio è di ottima qualità.",
     "definition": "Quanto una cosa è buona.",
     "page": "181-182",
-    "related": "die Qualität|||Quanto una cosa è buona.|Questo olio è di ottima qualità.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -45248,8 +44906,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Al Sud mancano ancora molte infrastrutture.",
     "definition": "Strade, treni, reti: le strutture di base di un paese.",
-    "page": "181-182",
-    "related": "die Infrastruktur|||Strade, treni, reti: le strutture di base di un paese.|Al Sud mancano ancora molte infrastrutture."
+    "page": "181-182"
    },
    {
     "id": "u4-approccio-020",
@@ -45274,8 +44931,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "In autostrada c’è sempre traffico ad agosto.",
     "definition": "Una strada grande e veloce tra le città.",
-    "page": "181-182",
-    "related": "die Autobahn|||Una strada grande e veloce tra le città.|In autostrada c’è sempre traffico ad agosto."
+    "page": "181-182"
    },
    {
     "id": "u4-approccio-022",
@@ -45287,7 +44943,6 @@ const STOCK_PACKAGES = [
     "example": "Davanti a casa mia c’è un cantiere rumoroso.",
     "definition": "Il posto dove si costruisce qualcosa.",
     "page": "181-182",
-    "related": "die Baustelle|||Il posto dove si costruisce qualcosa.|Davanti a casa mia c’è un cantiere rumoroso.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -45308,7 +44963,6 @@ const STOCK_PACKAGES = [
     "example": "La durata del film è di due ore.",
     "definition": "Quanto tempo dura una cosa.",
     "page": "181-182",
-    "related": "die Dauer|||Quanto tempo dura una cosa.|La durata del film è di due ore.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -45329,7 +44983,6 @@ const STOCK_PACKAGES = [
     "example": "Molti giovani si impegnano contro la mafia.",
     "definition": "Un’organizzazione criminale molto potente.",
     "page": "181-182",
-    "related": "die Mafia|||Un’organizzazione criminale molto potente.|Molti giovani si impegnano contro la mafia.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -45350,8 +45003,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il Colosseo rappresenta la storia di Roma.",
     "definition": "Essere il simbolo di qualcosa; mostrare.",
-    "page": "181-182",
-    "related": "darstellen; verkörpern|||Essere il simbolo di qualcosa; mostrare.|Il Colosseo rappresenta la storia di Roma."
+    "page": "181-182"
    },
    {
     "id": "u4-approccio-026",
@@ -45363,8 +45015,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "L’efficienza dei treni tedeschi è famosa.",
     "definition": "La capacità di fare bene un lavoro senza sprecare tempo.",
-    "page": "181-182",
-    "related": "die Leistungsfähigkeit; die Wirksamkeit|||La capacità di fare bene un lavoro senza sprecare tempo.|L’efficienza dei treni tedeschi è famosa."
+    "page": "181-182"
    },
    {
     "id": "u4-approccio-027",
@@ -45376,7 +45027,6 @@ const STOCK_PACKAGES = [
     "example": "Milano è il simbolo della modernità italiana.",
     "definition": "Il fatto di essere moderno.",
     "page": "181-182",
-    "related": "die Modernität|||Il fatto di essere moderno.|Milano è il simbolo della modernità italiana.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -45422,7 +45072,6 @@ const STOCK_PACKAGES = [
     "example": "La nuova fabbrica ha creato cento posti di lavoro.",
     "definition": "Il lavoro di una persona; il luogo dove lavora.",
     "page": "181-182",
-    "related": "der Arbeitsplatz|||Il lavoro di una persona; il luogo dove lavora.|La nuova fabbrica ha creato cento posti di lavoro.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -45443,8 +45092,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il traffico provoca inquinamento.",
     "definition": "Essere la causa di una cosa.",
-    "page": "181-182",
-    "related": "bewirken; hervorrufen|||Essere la causa di una cosa.|Il traffico provoca inquinamento."
+    "page": "181-182"
    },
    {
     "id": "u4-approccio-032",
@@ -45477,7 +45125,6 @@ const STOCK_PACKAGES = [
     "example": "Le donne sono metà della forza lavoro.",
     "definition": "Tutte le persone che lavorano o possono lavorare.",
     "page": "181-182",
-    "related": "die Arbeitskraft|||Tutte le persone che lavorano o possono lavorare.|Le donne sono metà della forza lavoro.",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -45554,8 +45201,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il turismo ha un ruolo importante nell’economia.",
     "definition": "Si usa per dire che un settore è importante.",
-    "page": "184-185",
-    "related": "… spielt eine wichtige Rolle in der Wirtschaft.|||Si usa per dire che un settore è importante.|Il turismo ha un ruolo importante nell’economia."
+    "page": "184-185"
    },
    {
     "id": "u4-per-comunicare-002",
@@ -45566,8 +45212,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Il Nord è considerato la patria dell’industria italiana.",
     "definition": "Si usa per dire da dove viene una cosa.",
-    "page": "184-185",
-    "related": "… gilt als die Heimat von …|||Si usa per dire da dove viene una cosa.|Il Nord è considerato la patria dell’industria italiana."
+    "page": "184-185"
    },
    {
     "id": "u4-per-comunicare-003",
@@ -45578,8 +45223,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Un triste esempio è l’autostrada mai finita.",
     "definition": "Si usa per dare un esempio negativo.",
-    "page": "184-185",
-    "related": "Ein trauriges Beispiel ist …|||Si usa per dare un esempio negativo.|Un triste esempio è l’autostrada mai finita."
+    "page": "184-185"
    },
    {
     "id": "u4-per-comunicare-004",
@@ -45590,8 +45234,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Mi ha spiegato che la cooperativa è nata nel 2001.",
     "definition": "Si usa per riportare quello che ha detto qualcuno.",
-    "page": "184-185",
-    "related": "Er/Sie hat mir erklärt, dass …|||Si usa per riportare quello che ha detto qualcuno.|Mi ha spiegato che la cooperativa è nata nel 2001."
+    "page": "184-185"
    },
    {
     "id": "u4-per-comunicare-005",
@@ -45602,8 +45245,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Ha raccontato che da piccolo giocava sempre a calcio.",
     "definition": "Si usa per riportare un racconto.",
-    "page": "184-185",
-    "related": "Er/Sie hat erzählt, dass …|||Si usa per riportare un racconto.|Ha raccontato che da piccolo giocava sempre a calcio."
+    "page": "184-185"
    },
    {
     "id": "u4-per-comunicare-006",
@@ -45614,8 +45256,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "La pallavolo è uno dei giochi sportivi più diffusi.",
     "definition": "Si usa per parlare di uno sport molto praticato.",
-    "page": "184-185",
-    "related": "… ist eines der beliebtesten Mannschaftsspiele.|||Si usa per parlare di uno sport molto praticato.|La pallavolo è uno dei giochi sportivi più diffusi."
+    "page": "184-185"
    },
    {
     "id": "u4-per-comunicare-007",
@@ -45626,8 +45267,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Per alcuni tifosi la passione diventa quasi fanatismo.",
     "definition": "Si usa per dire che una passione è esagerata.",
-    "page": "184-185",
-    "related": "Die Leidenschaft wird fast zum Fanatismus.|||Si usa per dire che una passione è esagerata.|Per alcuni tifosi la passione diventa quasi fanatismo."
+    "page": "184-185"
    },
    {
     "id": "u4-per-comunicare-008",
@@ -45638,8 +45278,7 @@ const STOCK_PACKAGES = [
     "acceptedAnswers": [],
     "example": "Mio nonno è nato circa settanta anni fa.",
     "definition": "Si usa per dire quando è successa una cosa.",
-    "page": "184-185",
-    "related": "vor etwa 70 Jahren|||Si usa per dire quando è successa una cosa.|Mio nonno è nato circa settanta anni fa."
+    "page": "184-185"
    },
    {
     "id": "u4-per-comunicare-009",
@@ -45651,8 +45290,7 @@ const STOCK_PACKAGES = [
     "example": "Benché i suoi successi risalgano agli anni ’50, è ancora famoso.",
     "definition": "Si usa per collegare un fatto del passato a oggi.",
     "usage": "+ cong.",
-    "page": "184-185",
-    "related": "Obwohl seine Erfolge in die 50er-Jahre zurückreichen, …|+ cong.||Si usa per collegare un fatto del passato a oggi.|Benché i suoi successi risalgano agli anni ’50, è ancora famoso."
+    "page": "184-185"
    }
   ]
  }

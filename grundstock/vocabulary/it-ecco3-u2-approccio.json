@@ -144,8 +144,7 @@
    ],
    "page": "171",
    "definition": "Un contratto per usare un servizio per un certo tempo.",
-   "example": "Ho un abbonamento per lo streaming di musica.",
-   "related": "das Abonnement|||Un contratto per usare un servizio per un certo tempo.|Ho un abbonamento per lo streaming di musica."
+   "example": "Ho un abbonamento per lo streaming di musica."
   },
   {
    "id": "u2-approccio-009",
@@ -156,8 +155,7 @@
    ],
    "page": "171",
    "definition": "A questo punto, adesso.",
-   "example": "Ormai è tardi, andiamo a dormire.",
-   "related": "jetzt; nunmehr|||A questo punto, adesso.|Ormai è tardi, andiamo a dormire."
+   "example": "Ormai è tardi, andiamo a dormire."
   },
   {
    "id": "u2-approccio-010",
@@ -168,7 +166,6 @@
    "page": "171",
    "definition": "Comodo che.",
    "example": "È pratico che il supermercato sia vicino a casa.",
-   "related": "praktisch, dass|+ cong.||Comodo che.|È pratico che il supermercato sia vicino a casa.",
    "usage": "+ cong."
   },
   {
@@ -181,7 +178,6 @@
    "page": "171",
    "definition": "Un posto comodo per sedersi in salotto.",
    "example": "La sera guardo le serie sul divano.",
-   "related": "das Sofa; die Couch|||Un posto comodo per sedersi in salotto.|La sera guardo le serie sul divano.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -223,7 +219,6 @@
    "page": "171",
    "definition": "Verso il punto da cui si è partiti.",
    "example": "Mi ha dato indietro il libro.",
-   "related": "zurück|avv.||Verso il punto da cui si è partiti.|Mi ha dato indietro il libro.",
    "usage": "avv."
   },
   {
@@ -267,8 +262,7 @@
    ],
    "page": "171",
    "definition": "Non spendere soldi per averne di più dopo.",
-   "example": "Risparmio per comprare una chitarra.",
-   "related": "sparen|||Non spendere soldi per averne di più dopo.|Risparmio per comprare una chitarra."
+   "example": "Risparmio per comprare una chitarra."
   },
   {
    "id": "u2-approccio-018",
@@ -278,7 +272,7 @@
    ],
    "page": "171",
    "definition": "Una cosa che hai comprato.",
-   "example": "Le scarpe nuove sono stato un buon acquisto.",
+   "example": "Le scarpe nuove sono state un buon acquisto.",
    "family": "acquistare"
   },
   {
@@ -300,8 +294,7 @@
    ],
    "page": "171",
    "definition": "Si usa per presentare due aspetti diversi.",
-   "example": "Da una parte internet è utile, dall’altra parte è pericoloso.",
-   "related": "auf der einen Seite … auf der anderen Seite …|||Si usa per presentare due aspetti diversi.|Da una parte internet è utile, dall’altra parte è pericoloso."
+   "example": "Da una parte internet è utile, dall’altra parte è pericoloso."
   },
   {
    "id": "u2-approccio-021",
@@ -387,7 +380,6 @@
    "page": "171",
    "definition": "Trovare piacere in una cosa.",
    "example": "Mi godo le vacanze al mare.",
-   "related": "etw. genießen|||Trovare piacere in una cosa.|Mi godo le vacanze al mare.",
    "acceptedAnswers": [
     "godersi"
    ]
@@ -400,8 +392,7 @@
    ],
    "page": "171",
    "definition": "Non questo e non quello.",
-   "example": "Non mi piace né il pesce né la carne.",
-   "related": "weder … noch|||Non questo e non quello.|Non mi piace né il pesce né la carne."
+   "example": "Non mi piace né il pesce né la carne."
   },
   {
    "id": "u2-approccio-027",

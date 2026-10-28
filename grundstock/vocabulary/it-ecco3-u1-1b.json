@@ -48,7 +48,6 @@
    "page": "168-170",
    "definition": "Usando la forza, contro la volontà.",
    "example": "Il bambino non voleva andare, l’hanno portato via quasi a forza.",
-   "related": "mit Gewalt|Unterscheide: per forza – unbedingt; Forza! – Auf geht’s! Los!||Usando la forza, contro la volontà.|Il bambino non voleva andare, l’hanno portato via quasi a forza.",
    "contrast": "per forza – unbedingt; Forza! – Auf geht’s! Los!"
   },
   {
@@ -60,7 +59,6 @@
    "page": "168-170",
    "definition": "Non essere sicuri di una cosa.",
    "example": "Ho dubbi che lui dica la verità.",
-   "related": "Zweifel (an der Tatsache) haben, dass|+ cong.||Non essere sicuri di una cosa.|Ho dubbi che lui dica la verità.",
    "acceptedAnswers": [
     "avere dubbi che"
    ],
@@ -106,7 +104,6 @@
    "page": "168-170",
    "definition": "Capire una cosa all’improvviso.",
    "example": "Mi sono reso conto di aver dimenticato le chiavi.",
-   "related": "sich über etw. klar werden|p.p. reso||Capire una cosa all’improvviso.|Mi sono reso conto di aver dimenticato le chiavi.",
    "acceptedAnswers": [
     "rendersi conto di"
    ],
@@ -120,8 +117,7 @@
    ],
    "page": "168-170",
    "definition": "Un po’ alla volta.",
-   "example": "Man mano arrivano tutti gli ospiti.",
-   "related": "allmählich|||Un po’ alla volta.|Man mano arrivano tutti gli ospiti."
+   "example": "Man mano arrivano tutti gli ospiti."
   },
   {
    "id": "u1-1b-008",
@@ -132,7 +128,6 @@
    "page": "168-170",
    "definition": "Una cosa che copre il viso, tipica del Carnevale.",
    "example": "A Carnevale porto una maschera bianca.",
-   "related": "die Maske|||Una cosa che copre il viso, tipica del Carnevale.|A Carnevale porto una maschera bianca.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -151,8 +146,7 @@
    ],
    "page": "168-170",
    "definition": "Fare una foto.",
-   "example": "Mi piace fotografare i tramonti.",
-   "related": "fotografieren|||Fare una foto.|Mi piace fotografare i tramonti."
+   "example": "Mi piace fotografare i tramonti."
   },
   {
    "id": "u1-1b-010",
@@ -164,7 +158,6 @@
    "page": "168-170",
    "definition": "Il modo in cui stai o il posto dove sei.",
    "example": "Siediti in una posizione comoda.",
-   "related": "die Position; die Haltung|||Il modo in cui stai o il posto dove sei.|Siediti in una posizione comoda.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -184,7 +177,6 @@
    "page": "168-170",
    "definition": "Il profilo personale su un sito o una app.",
    "example": "Ho creato un nuovo account per il gioco.",
-   "related": "der Account|m.||Il profilo personale su un sito o una app.|Ho creato un nuovo account per il gioco.",
    "usage": "m."
   },
   {
@@ -207,8 +199,7 @@
    ],
    "page": "168-170",
    "definition": "Lasciato solo, dove non c’è più nessuno.",
-   "example": "Abbiamo visitato un villaggio abbandonato.",
-   "related": "verlassen; vereinsamt|||Lasciato solo, dove non c’è più nessuno.|Abbiamo visitato un villaggio abbandonato."
+   "example": "Abbiamo visitato un villaggio abbandonato."
   },
   {
    "id": "u1-1b-014",
@@ -230,7 +221,6 @@
    "page": "168-170",
    "definition": "La festa con maschere e costumi prima della Quaresima.",
    "example": "Il carnevale di Venezia è famoso in tutto il mondo.",
-   "related": "der Karneval|||La festa con maschere e costumi prima della Quaresima.|Il carnevale di Venezia è famoso in tutto il mondo.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -251,7 +241,6 @@
    "page": "168-170",
    "definition": "Altissimo, esagerato.",
    "example": "I prezzi a Venezia sono stratosferici.",
-   "related": "überhöht; astronomisch|hier||Altissimo, esagerato.|I prezzi a Venezia sono stratosferici.",
    "usage": "hier"
   },
   {
@@ -262,8 +251,7 @@
    ],
    "page": "168-170",
    "definition": "Lo stato d’animo che si sente in un luogo.",
-   "example": "In questo locale c’è un’atmosfera piacevole.",
-   "related": "die Atmosphäre|||Lo stato d’animo che si sente in un luogo.|In questo locale c’è un’atmosfera piacevole."
+   "example": "In questo locale c’è un’atmosfera piacevole."
   },
   {
    "id": "u1-1b-018",
@@ -273,8 +261,7 @@
    ],
    "page": "168-170",
    "definition": "Che riguarda tutto, non i dettagli.",
-   "example": "In generale sono contento della scuola.",
-   "related": "allgemein|||Che riguarda tutto, non i dettagli.|In generale sono contento della scuola."
+   "example": "In generale sono contento della scuola."
   },
   {
    "id": "u1-1b-019",
@@ -285,8 +272,7 @@
    ],
    "page": "168-170",
    "definition": "Molto forte, al limite.",
-   "example": "Oggi il caldo è estremo.",
-   "related": "extrem; äußerst|||Molto forte, al limite.|Oggi il caldo è estremo."
+   "example": "Oggi il caldo è estremo."
   },
   {
    "id": "u1-1b-020",
@@ -307,8 +293,7 @@
    ],
    "page": "168-170",
    "definition": "Avere un rapporto con.",
-   "example": "Questo film non ha niente a che vedere con il libro.",
-   "related": "zu tun haben mit|||Avere un rapporto con.|Questo film non ha niente a che vedere con il libro."
+   "example": "Questo film non ha niente a che vedere con il libro."
   },
   {
    "id": "u1-1b-022",
@@ -318,8 +303,7 @@
    ],
    "page": "168-170",
    "definition": "Non importa quale.",
-   "example": "Puoi chiamarmi a qualsiasi ora.",
-   "related": "jede(r,s) (beliebige)|||Non importa quale.|Puoi chiamarmi a qualsiasi ora."
+   "example": "Puoi chiamarmi a qualsiasi ora."
   },
   {
    "id": "u1-1b-023",
@@ -349,8 +333,7 @@
    ],
    "page": "168-170",
    "definition": "Fare paura a qualcuno.",
-   "example": "Il cane ha spaventato il bambino.",
-   "related": "erschrecken (jdn)|||Fare paura a qualcuno.|Il cane ha spaventato il bambino."
+   "example": "Il cane ha spaventato il bambino."
   },
   {
    "id": "u1-1b-025",
@@ -360,8 +343,7 @@
    ],
    "page": "168-170",
    "definition": "Avere paura all’improvviso.",
-   "example": "Mi sono spaventata per il rumore.",
-   "related": "sich erschrecken|||Avere paura all’improvviso.|Mi sono spaventata per il rumore."
+   "example": "Mi sono spaventata per il rumore."
   },
   {
    "id": "u1-1b-026",
@@ -372,7 +354,6 @@
    "page": "168-170",
    "definition": "Una nave enorme per le vacanze in mare.",
    "example": "Le navi da crociera sono un problema per Venezia.",
-   "related": "das Kreuzfahrtschiff|||Una nave enorme per le vacanze in mare.|Le navi da crociera sono un problema per Venezia.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -392,7 +373,6 @@
    "page": "168-170",
    "definition": "Non adatto alla situazione.",
    "example": "La tua battuta era fuori luogo.",
-   "related": "unangebracht|Unterscheide: fuori stagione – außerhalb der Saison; fuori tempo – nicht zeitgemäß; fuori moda – aus der Mode||Non adatto alla situazione.|La tua battuta era fuori luogo.",
    "contrast": "fuori stagione – außerhalb der Saison; fuori tempo – nicht zeitgemäß; fuori moda – aus der Mode"
   },
   {
@@ -404,8 +384,7 @@
    ],
    "page": "168-170",
    "definition": "Grandissimo.",
-   "example": "C’è un cartellone enorme sulla piazza.",
-   "related": "enorm; gewaltig|||Grandissimo.|C’è un cartellone enorme sulla piazza."
+   "example": "C’è un cartellone enorme sulla piazza."
   },
   {
    "id": "u1-1b-029",
@@ -416,7 +395,6 @@
    "page": "168-170",
    "definition": "Un grande foglio con immagini e informazioni.",
    "example": "Sul cartellone c’è il programma della festa.",
-   "related": "das Plakat|||Un grande foglio con immagini e informazioni.|Sul cartellone c’è il programma della festa.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -456,7 +434,6 @@
    "page": "168-170",
    "definition": "Un essere brutto e pericoloso delle favole.",
    "example": "Da piccolo avevo paura dei mostri.",
-   "related": "das Monster|||Un essere brutto e pericoloso delle favole.|Da piccolo avevo paura dei mostri.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -507,7 +484,6 @@
    "page": "168-170",
    "definition": "Una strada d’acqua.",
    "example": "A Venezia si va in barca sui canali.",
-   "related": "der Kanal|||Una strada d’acqua.|A Venezia si va in barca sui canali.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -527,7 +503,6 @@
    "page": "168-170",
    "definition": "Una forza che attira e piace.",
    "example": "Venezia ha un fascino speciale.",
-   "related": "der Charme|||Una forza che attira e piace.|Venezia ha un fascino speciale.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -548,7 +523,6 @@
    "page": "168-170",
    "definition": "Colpire forte una cosa.",
    "example": "Ho sbattuto la testa contro la porta.",
-   "related": "gegen etw. stoßen; etw. knallen|p.p. sbattuto||Colpire forte una cosa.|Ho sbattuto la testa contro la porta.",
    "acceptedAnswers": [
     "sbattere qs",
     "sbattere"
@@ -565,7 +539,6 @@
    "page": "168-170",
    "definition": "Anche se.",
    "example": "Nonostante la pioggia siamo andati in centro.",
-   "related": "trotz; obwohl|cong.||Anche se.|Nonostante la pioggia siamo andati in centro.",
    "usage": "cong."
   },
   {
@@ -620,7 +593,6 @@
    "page": "168-170",
    "definition": "Rendere contento qualcuno.",
    "example": "Mi fa piacere vederti!",
-   "related": "jdn (er)freuen|||Rendere contento qualcuno.|Mi fa piacere vederti!",
    "acceptedAnswers": [
     "fare piacere a"
    ]
@@ -644,8 +616,7 @@
    ],
    "page": "168-170",
    "definition": "Cominciare di nuovo.",
-   "example": "Dopo la pausa la lezione ricomincia.",
-   "related": "wieder anfangen|||Cominciare di nuovo.|Dopo la pausa la lezione ricomincia."
+   "example": "Dopo la pausa la lezione ricomincia."
   },
   {
    "id": "u1-1b-044",
@@ -655,8 +626,7 @@
    ],
    "page": "168-170",
    "definition": "Prendere una cosa che non è tua.",
-   "example": "Mi hanno rubato la bici davanti alla scuola.",
-   "related": "stehlen|||Prendere una cosa che non è tua.|Mi hanno rubato la bici davanti alla scuola."
+   "example": "Mi hanno rubato la bici davanti alla scuola."
   },
   {
    "id": "u1-1b-045",
@@ -687,7 +657,6 @@
    "page": "168-170",
    "definition": "Quando un libro o un articolo esce e tutti lo possono leggere.",
    "example": "Dopo la pubblicazione del libro, l’autrice è diventata famosa.",
-   "related": "die Veröffentlichung|||Quando un libro o un articolo esce e tutti lo possono leggere.|Dopo la pubblicazione del libro, l’autrice è diventata famosa.",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -708,7 +677,6 @@
    "page": "168-170",
    "definition": "Quando una persona diventa parte di un gruppo o di una società.",
    "example": "La scuola aiuta l’integrazione dei ragazzi stranieri.",
-   "related": "die Integration; die Eingliederung|f.||Quando una persona diventa parte di un gruppo o di una società.|La scuola aiuta l’integrazione dei ragazzi stranieri.",
    "usage": "f."
   },
   {
@@ -730,8 +698,7 @@
    ],
    "page": "168-170",
    "definition": "Non riuscire a respirare.",
-   "example": "In questa stanza si soffoca, apri la finestra!",
-   "related": "ersticken|||Non riuscire a respirare.|In questa stanza si soffoca, apri la finestra!"
+   "example": "In questa stanza si soffoca, apri la finestra!"
   }
  ],
  "catalog": {
