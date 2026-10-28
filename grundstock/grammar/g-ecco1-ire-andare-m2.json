@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-ire-andare-m2",
- "title": "Am Wochenende",
+ "title": "Il fine settimana",
  "language": "it",
  "level": "A1",
- "description": "Verben auf -ire und andare · Am Wochenende (mittel).",
+ "description": "I verbi in -ire e andare · Il fine settimana · livello medio.",
  "topics": [
-  "Verben auf -ire und andare",
+  "I verbi in -ire e andare",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-ire-andare",
-  "topicTitle": "Verben auf -ire und andare",
+  "topicTitle": "I verbi in -ire e andare",
   "difficulty": "mittel",
   "origin": "own",
   "order": 62,
-  "rule": "**Verben auf -ire** (ohne Stammerweiterung):\n| Person | dormire | sentire |\n| io | dorm**o** | sent**o** |\n| tu | dorm**i** | sent**i** |\n| lui / lei | dorm**e** | sent**e** |\n| noi | dorm**iamo** | sent**iamo** |\n| voi | dorm**ite** | sent**ite** |\n| loro | dorm**ono** | sent**ono** |\n\nWie -ere, nur **voi -ite**.\n**andare** (gehen, fahren) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| vado | vai | va | andiamo | andate | vanno |\n\n_Vado a scuola. Andiamo al concerto._"
+  "rule": "**Verbi in -ire** (senza -isc-):\n| persona | dormire | sentire |\n| io | dorm**o** | sent**o** |\n| tu | dorm**i** | sent**i** |\n| lui / lei | dorm**e** | sent**e** |\n| noi | dorm**iamo** | sent**iamo** |\n| voi | dorm**ite** | sent**ite** |\n| loro | dorm**ono** | sent**ono** |\n\nCome -ere, ma **voi -ite**.\n**andare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| vado | vai | va | andiamo | andate | vanno |\n\n_Vado a scuola. Andiamo al concerto._",
+  "ruleHelp": "Verben auf -ire (ohne Stammerweiterung) gehen wie -ere, nur **voi -ite** (dormite, sentite).\n**andare** (gehen, fahren) ist unregelmäßig: vado, vai, va, andiamo, andate, vanno."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Setze das Verb in der richtigen Form ein.",
+   "prompt": "Scrivi il verbo nella forma giusta.",
+   "promptHelp": "Setze das Verb in der richtigen Form ein.",
    "type": "gap_fill",
-   "text": "Il sabato io (dormire) [[g1]] fino alle dieci.\nPoi (andare) [[g2]] in centro con Luca.\nNoi (sentire) [[g3]] le canzoni nuove.\nVoi (dormire) [[g4]] molto?\nMia sorella (andare) [[g5]] in spiaggia.\nI miei amici (seguire) [[g6]] il loro cantante preferito online.",
+   "text": "Il sabato io (dormire) [[g1]] fino alle dieci.\nPoi (andare) [[g2]] in centro con Luca.\nNoi (sentire) [[g3]] le canzoni nuove.\nVoi (dormire) [[g4]] molto?\nMia sorella (andare) [[g5]] in spiaggia.\nI miei amici (seguire) [[g6]] il loro cantante preferito online.\nTu (aprire) [[g7]] il negozio con tuo padre?\nLa domenica noi (andare) [[g8]] dai nonni.",
    "gaps": [
     {
      "id": "g1",
@@ -83,6 +85,18 @@
      "id": "g6",
      "acceptedAnswers": [
       "seguono"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "apri"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "andiamo"
      ]
     }
    ]

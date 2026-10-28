@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-mi-piace-s2",
- "title": "Fehler im Interview",
+ "title": "Errori nell’intervista",
  "language": "it",
  "level": "A1",
- "description": "(non) mi piace / mi piacciono · Fehler im Interview (schwer).",
+ "description": "(Non) mi piace / mi piacciono · Errori nell’intervista · livello difficile.",
  "topics": [
-  "(non) mi piace / mi piacciono",
+  "(Non) mi piace / mi piacciono",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 8,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-mi-piace",
-  "topicTitle": "(non) mi piace / mi piacciono",
+  "topicTitle": "(Non) mi piace / mi piacciono",
   "difficulty": "schwer",
   "origin": "own",
   "order": 22,
-  "rule": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _**Non** mi piace il calcio._\n- Frage: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono."
+  "rule": "- **mi piace** + singolare o verbo all’infinito: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + plurale: _Mi piacciono le canzoni italiane._\n- Negazione: _**Non** mi piace il calcio._\n- Domanda: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nLa cosa che piace decide la forma: una cosa → piace, più cose → piacciono.",
+  "ruleHelp": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _Non mi piace il calcio._ · Frage: _Ti piace la storia?_\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Korrigiere die sechs Fehler.",
-   "explanation": "Mehrere Verben (ballare e cantare) → trotzdem piace.",
+   "prompt": "Correggi gli otto errori.",
+   "promptHelp": "Korrigiere die acht Fehler.",
+   "explanation": "Più verbi (ballare e cantare) → sempre piace. «No» da solo, «non» prima di mi piace.",
+   "explanationHelp": "Mehrere Verben → trotzdem piace. „no“ allein, „non“ vor mi piace.",
    "type": "error_correction",
-   "text": "Mi [[g1]] molto la musica.\nNon mi [[g2]] le materie scientifiche.\nTi [[g3]] i libri di Harry Potter?\nMi [[g4]] ballare e cantare.\n[[g5]] mi piace il rap.\nMi [[g6]] le feste di compleanno.",
+   "text": "Mi [[g1]] molto la musica.\nNon mi [[g2]] le materie scientifiche.\nTi [[g3]] i libri di Harry Potter?\nMi [[g4]] ballare e cantare.\n[[g5]] mi piace il rap.\nMi [[g6]] le feste di compleanno.\nTi [[g7]] il gelato al limone?\nNon mi [[g8]] i cani grandi.",
    "errors": [
     {
      "id": "g1",
@@ -87,6 +90,20 @@
     },
     {
      "id": "g6",
+     "wrong": "piace",
+     "acceptedAnswers": [
+      "piacciono"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "piacciono",
+     "acceptedAnswers": [
+      "piace"
+     ]
+    },
+    {
+     "id": "g8",
      "wrong": "piace",
      "acceptedAnswers": [
       "piacciono"

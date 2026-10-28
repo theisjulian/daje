@@ -1,0 +1,115 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-soggetto-s3",
+ "title": "Errori con i pronomi",
+ "language": "it",
+ "level": "A1",
+ "description": "I pronomi soggetto · Errori con i pronomi (schwer).",
+ "topics": [
+  "I pronomi soggetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 1 · La città · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-soggetto",
+  "topicTitle": "I pronomi soggetto",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 53,
+  "rule": "| io | tu | lui / lei / Lei | noi | voi | loro |\n| ich | du | er / sie / Sie | wir | ihr | sie |\n\nDi solito non usiamo il pronome: _Abito a Torino._ Lo usiamo per **sottolineare** o per un **contrasto**: _Io abito a Torino, lui abita a Milano._\n**Lei** (con la L maiuscola) è la forma di cortesia: _Come sta, Lei?_",
+  "ruleHelp": "Im Italienischen lässt man das Subjektpronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._\n**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi i pronomi sbagliati.",
+   "promptHelp": "Korrigiere die falschen Pronomen.",
+   "explanation": "Con io → noi, con tu → voi, persone di cui parlo → loro.",
+   "explanationHelp": "Mit io → noi, mit tu → voi, Leute, über die ich spreche → loro.",
+   "type": "error_correction",
+   "text": "Marco e io? [[g1]] siamo amici.\nAnna? [[g2]] è di Roma.\nTu e Luca? [[g3]] siete in classe?\nI ragazzi? [[g4]] giocano a calcio.\nSignora, [[g5]] è di Napoli?\nPaolo? [[g6]] abita qui.\nIo e te? [[g7]] parliamo italiano.\nGiulia e Sara? [[g8]] arrivano adesso.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "Voi",
+     "acceptedAnswers": [
+      "Noi"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "Lui",
+     "acceptedAnswers": [
+      "Lei"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "Loro",
+     "acceptedAnswers": [
+      "Voi"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "Noi",
+     "acceptedAnswers": [
+      "Loro"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "tu",
+     "acceptedAnswers": [
+      "Lei"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "Lei",
+     "acceptedAnswers": [
+      "Lui"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "Voi",
+     "acceptedAnswers": [
+      "Noi"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "Voi",
+     "acceptedAnswers": [
+      "Loro"
+     ]
+    }
+   ]
+  }
+ ]
+}

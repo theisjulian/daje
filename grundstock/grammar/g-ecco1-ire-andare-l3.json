@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-ire-andare-l3",
+ "title": "Dove vanno?",
+ "language": "it",
+ "level": "A1",
+ "description": "I verbi in -ire e andare · Dove vanno? · livello facile.",
+ "topics": [
+  "I verbi in -ire e andare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 2 · La mia camera · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-ire-andare",
+  "topicTitle": "I verbi in -ire e andare",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 63,
+  "rule": "**Verbi in -ire** (senza -isc-):\n| persona | dormire | sentire |\n| io | dorm**o** | sent**o** |\n| tu | dorm**i** | sent**i** |\n| lui / lei | dorm**e** | sent**e** |\n| noi | dorm**iamo** | sent**iamo** |\n| voi | dorm**ite** | sent**ite** |\n| loro | dorm**ono** | sent**ono** |\n\nCome -ere, ma **voi -ite**.\n**andare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| vado | vai | va | andiamo | andate | vanno |\n\n_Vado a scuola. Andiamo al concerto._",
+  "ruleHelp": "Verben auf -ire (ohne Stammerweiterung) gehen wie -ere, nur **voi -ite** (dormite, sentite).\n**andare** (gehen, fahren) ist unregelmäßig: vado, vai, va, andiamo, andate, vanno."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma di andare.",
+   "promptHelp": "Wähle die Form von andare.",
+   "type": "gap_choice",
+   "text": "Io [[g1]] a scuola a piedi.\nTu [[g2]] in palestra oggi?\nMarco [[g3]] al mare con la famiglia.\nNoi [[g4]] al cinema stasera.\nVoi [[g5]] in vacanza in Sicilia?\nI miei genitori [[g6]] al lavoro in macchina.\nIo e Giulia [[g7]] in centro.\nTu e Leo [[g8]] alla festa?",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "vado",
+      "vai",
+      "va"
+     ],
+     "answer": "vado"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "vai",
+      "vado",
+      "andate"
+     ],
+     "answer": "vai"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "va",
+      "vanno",
+      "vai"
+     ],
+     "answer": "va"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "andiamo",
+      "andate",
+      "vanno"
+     ],
+     "answer": "andiamo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "andate",
+      "andiamo",
+      "vanno"
+     ],
+     "answer": "andate"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "vanno",
+      "va",
+      "andiamo"
+     ],
+     "answer": "vanno"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "andiamo",
+      "andate",
+      "vado"
+     ],
+     "answer": "andiamo"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "andate",
+      "andiamo",
+      "vanno"
+     ],
+     "answer": "andate"
+    }
+   ]
+  }
+ ]
+}

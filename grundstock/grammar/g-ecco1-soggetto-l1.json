@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-soggetto-l1",
- "title": "Wer ist das?",
+ "title": "Chi è?",
  "language": "it",
  "level": "A1",
- "description": "Die Subjektpronomen · Wer ist das? (einfach).",
+ "description": "I pronomi soggetto · Chi è? (einfach).",
  "topics": [
-  "Die Subjektpronomen",
+  "I pronomi soggetto",
   "Grammatik"
  ],
  "sources": [
@@ -36,16 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-soggetto",
-  "topicTitle": "Die Subjektpronomen",
+  "topicTitle": "I pronomi soggetto",
   "difficulty": "leicht",
   "origin": "own",
   "order": 51,
-  "rule": "| io | tu | lui / lei / Lei | noi | voi | loro |\n| ich | du | er / sie / Sie | wir | ihr | sie |\n\nIm Italienischen lässt man das Pronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._\n**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_"
+  "rule": "| io | tu | lui / lei / Lei | noi | voi | loro |\n| ich | du | er / sie / Sie | wir | ihr | sie |\n\nDi solito non usiamo il pronome: _Abito a Torino._ Lo usiamo per **sottolineare** o per un **contrasto**: _Io abito a Torino, lui abita a Milano._\n**Lei** (con la L maiuscola) è la forma di cortesia: _Come sta, Lei?_",
+  "ruleHelp": "Im Italienischen lässt man das Subjektpronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._\n**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Welches Pronomen passt?",
+   "prompt": "Quale pronome va con la forma del verbo?",
+   "promptHelp": "Welches Pronomen passt?",
+   "explanation": "La desinenza dice la persona.",
+   "explanationHelp": "Die Endung verrät die Person.",
    "type": "matching",
    "pairs": [
     {
@@ -78,6 +82,9 @@
      "left": "abitano",
      "right": "loro"
     }
+   ],
+   "distractors": [
+    "Lei"
    ]
   }
  ]

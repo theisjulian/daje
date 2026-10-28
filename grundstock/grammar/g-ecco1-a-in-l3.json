@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-a-in-l3",
+ "title": "Città o paese?",
+ "language": "it",
+ "level": "A1",
+ "description": "Le preposizioni a e in · Città o paese? (einfach).",
+ "topics": [
+  "Le preposizioni a e in",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 1 · La città · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-a-in",
+  "topicTitle": "Le preposizioni a e in",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 43,
+  "rule": "Per i luoghi usiamo:\n- **a** + città: _abito a Torino, a Roma, a Berlino_\n- **in** + paese o regione: _in Italia, in Germania, in Piemonte_\n- **in** + via, piazza: _in via Roma, in piazza_\n- **a** + casa, scuola: _a casa, a scuola_\n- **in** + centro, biblioteca, montagna: _in centro, in biblioteca_",
+  "ruleHelp": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino_ · **in** + Land oder Region: _in Italia, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_ · **a** + casa, scuola: _a casa, a scuola_\n- **in** + centro, biblioteca, montagna"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con a o in.",
+   "promptHelp": "Ergänze a oder in.",
+   "explanation": "Napoli, Vienna, Milano → a · Campania, Austria, Toscana → in.",
+   "explanationHelp": "Städte → a · Regionen und Länder → in.",
+   "type": "gap_choice",
+   "text": "Paolo vive [[g1]] Napoli.\nNapoli è [[g2]] Campania.\nMia cugina studia [[g3]] Vienna.\nVienna è [[g4]] Austria.\nIl papà lavora [[g5]] centro.\nI ragazzi giocano [[g6]] piazza.\nDomani andiamo [[g7]] Milano.\nLe vacanze? [[g8]] Toscana!",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "a",
+      "in"
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "in",
+      "a"
+     ],
+     "answer": "in"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "a",
+      "in"
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "in",
+      "a"
+     ],
+     "answer": "in"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "in",
+      "a"
+     ],
+     "answer": "in"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "in",
+      "a"
+     ],
+     "answer": "in"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "a",
+      "in"
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "In",
+      "A"
+     ],
+     "answer": "In"
+    }
+   ]
+  }
+ ]
+}

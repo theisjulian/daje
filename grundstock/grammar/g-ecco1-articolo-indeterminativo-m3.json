@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-articolo-indeterminativo-m3",
- "title": "Was gibt es in Torino?",
+ "title": "Che cosa c’è a Torino?",
  "language": "it",
  "level": "A1",
- "description": "Der unbestimmte Artikel · Was gibt es in Torino? (mittel).",
+ "description": "L’articolo indeterminativo (un, uno, una, un’) · Che cosa c’è a Torino? (mittel).",
  "topics": [
-  "Der unbestimmte Artikel",
+  "L’articolo indeterminativo (un, uno, una, un’)",
   "Grammatik"
  ],
  "sources": [
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-articolo-indeterminativo",
-  "topicTitle": "Der unbestimmte Artikel",
+  "topicTitle": "L’articolo indeterminativo (un, uno, una, un’)",
   "difficulty": "mittel",
   "origin": "own",
   "order": 73,
-  "rule": "| Artikel | wann? | Beispiel |\n| un | männlich (auch vor Vokal) | un ragazzo, un amico |\n| uno | männlich vor s + Konsonant, z | uno stadio, uno zaino |\n| una | weiblich vor Konsonant | una città, una ragazza |\n| un' | weiblich vor Vokal | un'amica, un'idea |\n\nAchtung: _un amico_ (männlich, ohne Apostroph), aber _un'amica_ (weiblich, mit Apostroph)."
+  "rule": "| articolo | quando? | esempio |\n| un | maschile (anche + vocale) | un ragazzo, un amico |\n| uno | maschile + s + consonante, z | uno stadio, uno zaino |\n| una | femminile + consonante | una città, una ragazza |\n| un’ | femminile + vocale | un’amica, un’idea |\n\n**Attenzione:** _un amico_ (maschile, senza apostrofo), ma _un’amica_ (femminile, con apostrofo).",
+  "ruleHelp": "un: männlich (auch vor Vokal) · uno: männlich vor s + Konsonant, z · una: weiblich vor Konsonant · un’: weiblich vor Vokal.\n**Achtung:** _un amico_ (männlich, ohne Apostroph), aber _un’amica_ (weiblich, mit Apostroph)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze den unbestimmten Artikel.",
-   "explanation": "un albergo, un appartamento (m) · un'edicola, un'università (f).",
+   "prompt": "Scrivi l’articolo indeterminativo.",
+   "promptHelp": "Ergänze den unbestimmten Artikel.",
+   "explanation": "un albergo, un appartamento (m) · un’edicola, un’università (f).",
+   "explanationHelp": "un albergo, un appartamento (m) · un’edicola, un’università (f).",
    "type": "gap_fill",
-   "text": "A Torino c'è [[g1]] fiume, il Po.\nC'è anche [[g2]] museo molto famoso.\nIn centro c'è [[g3]] piazza grande.\nVicino alla stazione c'è [[g4]] albergo.\nC'è [[g5]] stadio nuovo.\nIn via Roma c'è [[g6]] edicola.\nMio cugino ha [[g7]] appartamento in centro.\nC'è anche [[g8]] università.",
+   "text": "A Torino c’è [[g1]] fiume, il Po.\nC’è anche [[g2]] museo molto famoso.\nIn centro c’è [[g3]] piazza grande.\nVicino alla stazione c’è [[g4]] albergo.\nC’è [[g5]] stadio nuovo.\nIn via Roma c’è [[g6]] edicola.\nMio cugino ha [[g7]] appartamento in centro.\nC’è anche [[g8]] università.",
    "gaps": [
     {
      "id": "g1",
@@ -83,7 +86,7 @@
     {
      "id": "g6",
      "acceptedAnswers": [
-      "un'"
+      "un’"
      ]
     },
     {
@@ -95,7 +98,7 @@
     {
      "id": "g8",
      "acceptedAnswers": [
-      "un'"
+      "un’"
      ]
     }
    ]

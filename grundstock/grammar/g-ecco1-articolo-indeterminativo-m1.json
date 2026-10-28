@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-articolo-indeterminativo-m1",
- "title": "il oder un?",
+ "title": "Il o un?",
  "language": "it",
  "level": "A1",
- "description": "Der unbestimmte Artikel · il oder un? (mittel).",
+ "description": "L’articolo indeterminativo (un, uno, una, un’) · Il o un? (mittel).",
  "topics": [
-  "Der unbestimmte Artikel",
+  "L’articolo indeterminativo (un, uno, una, un’)",
   "Grammatik"
  ],
  "sources": [
@@ -36,20 +36,24 @@
  },
  "grammar": {
   "topic": "ecco1-articolo-indeterminativo",
-  "topicTitle": "Der unbestimmte Artikel",
+  "topicTitle": "L’articolo indeterminativo (un, uno, una, un’)",
   "difficulty": "mittel",
   "origin": "own",
   "order": 71,
-  "rule": "| Artikel | wann? | Beispiel |\n| un | männlich (auch vor Vokal) | un ragazzo, un amico |\n| uno | männlich vor s + Konsonant, z | uno stadio, uno zaino |\n| una | weiblich vor Konsonant | una città, una ragazza |\n| un' | weiblich vor Vokal | un'amica, un'idea |\n\nAchtung: _un amico_ (männlich, ohne Apostroph), aber _un'amica_ (weiblich, mit Apostroph)."
+  "rule": "| articolo | quando? | esempio |\n| un | maschile (anche + vocale) | un ragazzo, un amico |\n| uno | maschile + s + consonante, z | uno stadio, uno zaino |\n| una | femminile + consonante | una città, una ragazza |\n| un’ | femminile + vocale | un’amica, un’idea |\n\n**Attenzione:** _un amico_ (maschile, senza apostrofo), ma _un’amica_ (femminile, con apostrofo).",
+  "ruleHelp": "un: männlich (auch vor Vokal) · uno: männlich vor s + Konsonant, z · una: weiblich vor Konsonant · un’: weiblich vor Vokal.\n**Achtung:** _un amico_ (männlich, ohne Apostroph), aber _un’amica_ (weiblich, mit Apostroph)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze den unbestimmten Artikel.",
+   "prompt": "Scrivi l’articolo indeterminativo.",
+   "promptHelp": "Ergänze den unbestimmten Artikel.",
+   "explanation": "lo → uno, il → un, la → una, l’ → un (m) o un’ (f).",
+   "explanationHelp": "lo → uno, il → un, la → una, l’ → un (m) oder un’ (f).",
    "type": "table_fill",
    "columns": [
-    "bestimmt",
-    "unbestimmt"
+    "determinativo",
+    "indeterminativo"
    ],
    "rows": [
     [
@@ -80,16 +84,16 @@
      }
     ],
     [
-     "l'amica",
+     "l’amica",
      {
       "id": "c4",
       "acceptedAnswers": [
-       "un'amica"
+       "un’amica"
       ]
      }
     ],
     [
-     "l'amico",
+     "l’amico",
      {
       "id": "c5",
       "acceptedAnswers": [
@@ -103,6 +107,24 @@
       "id": "c6",
       "acceptedAnswers": [
        "uno zaino"
+      ]
+     }
+    ],
+    [
+     "la città",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "una città"
+      ]
+     }
+    ],
+    [
+     "il ponte",
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "un ponte"
       ]
      }
     ]

@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-a-in-l1",
- "title": "a oder in?",
+ "title": "A o in?",
  "language": "it",
  "level": "A1",
- "description": "Die Präpositionen a und in · a oder in? (einfach).",
+ "description": "Le preposizioni a e in · A o in? (einfach).",
  "topics": [
-  "Die Präpositionen a und in",
+  "Le preposizioni a e in",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-a-in",
-  "topicTitle": "Die Präpositionen a und in",
+  "topicTitle": "Le preposizioni a e in",
   "difficulty": "leicht",
   "origin": "own",
   "order": 41,
-  "rule": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino, a Roma, a Berlino_\n- **in** + Land oder Region: _in Italia, in Germania, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_\n- **a** + bestimmte Orte ohne Artikel: _a scuola, a casa_"
+  "rule": "Per i luoghi usiamo:\n- **a** + città: _abito a Torino, a Roma, a Berlino_\n- **in** + paese o regione: _in Italia, in Germania, in Piemonte_\n- **in** + via, piazza: _in via Roma, in piazza_\n- **a** + casa, scuola: _a casa, a scuola_\n- **in** + centro, biblioteca, montagna: _in centro, in biblioteca_",
+  "ruleHelp": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino_ · **in** + Land oder Region: _in Italia, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_ · **a** + casa, scuola: _a casa, a scuola_\n- **in** + centro, biblioteca, montagna"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle a oder in.",
-   "explanation": "Stadt → a; Land und Straße → in; a scuola, a casa.",
+   "prompt": "Scegli a o in.",
+   "promptHelp": "Wähle a oder in.",
+   "explanation": "Città → a; paese, regione, via → in; a scuola, a casa.",
+   "explanationHelp": "Stadt → a; Land, Region und Straße → in; a scuola, a casa.",
    "type": "gap_choice",
-   "text": "Abito [[g1]] Torino.\nMarco abita [[g2]] Italia.\nLa nonna abita [[g3]] Roma.\nLisa abita [[g4]] Germania.\nSiamo [[g5]] scuola.\nAbitiamo [[g6]] via Garibaldi.",
+   "text": "Abito [[g1]] Torino.\nMarco abita [[g2]] Italia.\nLa nonna abita [[g3]] Roma.\nLisa abita [[g4]] Germania.\nSiamo [[g5]] scuola.\nAbitiamo [[g6]] via Garibaldi.\nOggi resto [[g7]] casa.\nIl museo è [[g8]] piazza Castello.\nMio zio abita [[g9]] Sicilia.\nStudio [[g10]] biblioteca.",
    "gaps": [
     {
      "id": "g1",
@@ -92,6 +95,38 @@
     },
     {
      "id": "g6",
+     "options": [
+      "in",
+      "a"
+     ],
+     "answer": "in"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "a",
+      "in"
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "in",
+      "a"
+     ],
+     "answer": "in"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "in",
+      "a"
+     ],
+     "answer": "in"
+    },
+    {
+     "id": "g10",
      "options": [
       "in",
       "a"

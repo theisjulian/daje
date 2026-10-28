@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-mi-piace-m4",
- "title": "Domande e risposte",
+ "title": "Frasi da costruire",
  "language": "it",
  "level": "A1",
- "description": "(non) mi piace / mi piacciono · Domande e risposte (mittel).",
+ "description": "(Non) mi piace / mi piacciono · Frasi da costruire · livello medio.",
  "topics": [
-  "(non) mi piace / mi piacciono",
+  "(Non) mi piace / mi piacciono",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,57 +36,83 @@
  },
  "grammar": {
   "topic": "ecco1-mi-piace",
-  "topicTitle": "(non) mi piace / mi piacciono",
+  "topicTitle": "(Non) mi piace / mi piacciono",
   "difficulty": "mittel",
   "origin": "own",
   "order": 24,
-  "rule": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _**Non** mi piace il calcio._\n- Frage: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono."
+  "rule": "- **mi piace** + singolare o verbo all’infinito: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + plurale: _Mi piacciono le canzoni italiane._\n- Negazione: _**Non** mi piace il calcio._\n- Domanda: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nLa cosa che piace decide la forma: una cosa → piace, più cose → piacciono.",
+  "ruleHelp": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _Non mi piace il calcio._ · Frage: _Ti piace la storia?_\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Antworte wie im Beispiel: Ti piace lo sport? (☺) – Sì, mi piace.",
+   "prompt": "Forma la frase con mi piace / mi piacciono.",
+   "promptHelp": "Bilde den Satz mit mi piace / mi piacciono.",
    "type": "sentence_completion",
    "items": [
     {
      "id": "s1",
-     "start": "Ti piace la scuola? (☺) – …",
+     "start": "(☺ la musica)",
      "acceptedAnswers": [
-      "mi piace"
+      "Mi piace la musica"
      ],
-     "modelAnswer": "Sì, mi piace."
+     "modelAnswer": "Mi piace la musica."
     },
     {
      "id": "s2",
-     "start": "Ti piacciono i compiti? (☹) – …",
+     "start": "(☹ i compiti)",
      "acceptedAnswers": [
-      "non mi piacciono"
+      "Non mi piacciono i compiti"
      ],
-     "modelAnswer": "No, non mi piacciono."
+     "modelAnswer": "Non mi piacciono i compiti."
     },
     {
      "id": "s3",
-     "start": "Ti piace cantare? (☺) – …",
+     "start": "(☺ ballare)",
      "acceptedAnswers": [
-      "mi piace"
+      "Mi piace ballare"
      ],
-     "modelAnswer": "Sì, mi piace."
+     "modelAnswer": "Mi piace ballare."
     },
     {
      "id": "s4",
-     "start": "Ti piacciono i cani? (☺) – …",
+     "start": "(☺ le vacanze)",
      "acceptedAnswers": [
-      "mi piacciono"
+      "Mi piacciono le vacanze"
      ],
-     "modelAnswer": "Sì, mi piacciono."
+     "modelAnswer": "Mi piacciono le vacanze."
     },
     {
      "id": "s5",
-     "start": "Ti piace il calcio? (☹) – …",
+     "start": "(☹ il freddo)",
      "acceptedAnswers": [
-      "non mi piace"
+      "Non mi piace il freddo"
      ],
-     "modelAnswer": "No, non mi piace."
+     "modelAnswer": "Non mi piace il freddo."
+    },
+    {
+     "id": "s6",
+     "start": "(☺ i gatti)",
+     "acceptedAnswers": [
+      "Mi piacciono i gatti"
+     ],
+     "modelAnswer": "Mi piacciono i gatti."
+    },
+    {
+     "id": "s7",
+     "start": "(☹ alzarmi presto)",
+     "acceptedAnswers": [
+      "Non mi piace alzarmi presto"
+     ],
+     "modelAnswer": "Non mi piace alzarmi presto."
+    },
+    {
+     "id": "s8",
+     "start": "(☺ la mia camera)",
+     "acceptedAnswers": [
+      "Mi piace la mia camera"
+     ],
+     "modelAnswer": "Mi piace la mia camera."
     }
    ]
   }

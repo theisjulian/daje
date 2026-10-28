@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-soggetto-s1",
- "title": "Gegensätze",
+ "title": "Contrasti",
  "language": "it",
  "level": "A1",
- "description": "Die Subjektpronomen · Gegensätze (schwer).",
+ "description": "I pronomi soggetto · Contrasti (schwer).",
  "topics": [
-  "Die Subjektpronomen",
+  "I pronomi soggetto",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,16 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-soggetto",
-  "topicTitle": "Die Subjektpronomen",
+  "topicTitle": "I pronomi soggetto",
   "difficulty": "schwer",
   "origin": "own",
   "order": 51,
-  "rule": "| io | tu | lui / lei / Lei | noi | voi | loro |\n| ich | du | er / sie / Sie | wir | ihr | sie |\n\nIm Italienischen lässt man das Pronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._\n**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_"
+  "rule": "| io | tu | lui / lei / Lei | noi | voi | loro |\n| ich | du | er / sie / Sie | wir | ihr | sie |\n\nDi solito non usiamo il pronome: _Abito a Torino._ Lo usiamo per **sottolineare** o per un **contrasto**: _Io abito a Torino, lui abita a Milano._\n**Lei** (con la L maiuscola) è la forma di cortesia: _Come sta, Lei?_",
+  "ruleHelp": "Im Italienischen lässt man das Subjektpronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._\n**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze mit Pronomen und Verb, wie im Beispiel: Io abito a Torino, lui … a Milano.",
+   "prompt": "Completa con pronome e verbo, come nell’esempio: Io abito a Torino, lui … a Milano.",
+   "promptHelp": "Ergänze mit Pronomen und Verb, wie im Beispiel.",
+   "explanation": "Nel contrasto il pronome serve.",
+   "explanationHelp": "Beim Gegensatz braucht man das Pronomen.",
    "type": "sentence_completion",
    "items": [
     {
@@ -54,7 +58,7 @@
      "acceptedAnswers": [
       "parli"
      ],
-     "modelAnswer": "tu parli tedesco"
+     "modelAnswer": "Io parlo italiano, tu parli tedesco."
     },
     {
      "id": "s2",
@@ -62,7 +66,7 @@
      "acceptedAnswers": [
       "abitate"
      ],
-     "modelAnswer": "voi abitate a Torino"
+     "modelAnswer": "Noi abitiamo a Roma, voi abitate a Torino."
     },
     {
      "id": "s3",
@@ -70,7 +74,7 @@
      "acceptedAnswers": [
       "sta"
      ],
-     "modelAnswer": "lei sta male"
+     "modelAnswer": "Lui sta bene, lei sta male."
     },
     {
      "id": "s4",
@@ -78,7 +82,39 @@
      "acceptedAnswers": [
       "sono"
      ],
-     "modelAnswer": "loro sono di Napoli"
+     "modelAnswer": "Io sono di Torino, loro sono di Napoli."
+    },
+    {
+     "id": "s5",
+     "start": "Tu studi inglese, io … francese.",
+     "acceptedAnswers": [
+      "studio"
+     ],
+     "modelAnswer": "Tu studi inglese, io studio francese."
+    },
+    {
+     "id": "s6",
+     "start": "Voi guardate la partita, noi … un film.",
+     "acceptedAnswers": [
+      "guardiamo"
+     ],
+     "modelAnswer": "Voi guardate la partita, noi guardiamo un film."
+    },
+    {
+     "id": "s7",
+     "start": "Lei (Anna) abita in centro, lui (Marco) … in periferia.",
+     "acceptedAnswers": [
+      "abita"
+     ],
+     "modelAnswer": "Lui abita in periferia."
+    },
+    {
+     "id": "s8",
+     "start": "Loro arrivano alle tre, noi … alle quattro.",
+     "acceptedAnswers": [
+      "arriviamo"
+     ],
+     "modelAnswer": "Noi arriviamo alle quattro."
     }
    ]
   }

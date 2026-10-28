@@ -1,0 +1,122 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-articolo-indeterminativo-s3",
+ "title": "Descrivi la foto",
+ "language": "it",
+ "level": "A1",
+ "description": "L’articolo indeterminativo (un, uno, una, un’) · Descrivi la foto (schwer).",
+ "topics": [
+  "L’articolo indeterminativo (un, uno, una, un’)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 1 · La città · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-articolo-indeterminativo",
+  "topicTitle": "L’articolo indeterminativo (un, uno, una, un’)",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 73,
+  "rule": "| articolo | quando? | esempio |\n| un | maschile (anche + vocale) | un ragazzo, un amico |\n| uno | maschile + s + consonante, z | uno stadio, uno zaino |\n| una | femminile + consonante | una città, una ragazza |\n| un’ | femminile + vocale | un’amica, un’idea |\n\n**Attenzione:** _un amico_ (maschile, senza apostrofo), ma _un’amica_ (femminile, con apostrofo).",
+  "ruleHelp": "un: männlich (auch vor Vokal) · uno: männlich vor s + Konsonant, z · una: weiblich vor Konsonant · un’: weiblich vor Vokal.\n**Achtung:** _un amico_ (männlich, ohne Apostroph), aber _un’amica_ (weiblich, mit Apostroph)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Che cosa c’è nella foto della città? Scrivi con l’articolo indeterminativo.",
+   "promptHelp": "Was ist auf dem Stadtfoto? Schreibe mit unbestimmtem Artikel.",
+   "explanation": "Pensa al genere e alla prima lettera.",
+   "explanationHelp": "Denk an das Geschlecht und den Anfangsbuchstaben.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "C’è … (Brücke)",
+     "acceptedAnswers": [
+      "un ponte"
+     ],
+     "modelAnswer": "C’è un ponte."
+    },
+    {
+     "id": "s2",
+     "start": "C’è … (Platz)",
+     "acceptedAnswers": [
+      "una piazza"
+     ],
+     "modelAnswer": "C’è una piazza."
+    },
+    {
+     "id": "s3",
+     "start": "C’è … (Stadion)",
+     "acceptedAnswers": [
+      "uno stadio"
+     ],
+     "modelAnswer": "C’è uno stadio."
+    },
+    {
+     "id": "s4",
+     "start": "C’è … (Kiosk, edicola)",
+     "acceptedAnswers": [
+      "un’edicola"
+     ],
+     "modelAnswer": "C’è un’edicola."
+    },
+    {
+     "id": "s5",
+     "start": "C’è … (Baum)",
+     "acceptedAnswers": [
+      "un albero"
+     ],
+     "modelAnswer": "C’è un albero."
+    },
+    {
+     "id": "s6",
+     "start": "C’è … (Schule)",
+     "acceptedAnswers": [
+      "una scuola"
+     ],
+     "modelAnswer": "C’è una scuola."
+    },
+    {
+     "id": "s7",
+     "start": "C’è … (Student)",
+     "acceptedAnswers": [
+      "uno studente"
+     ],
+     "modelAnswer": "C’è uno studente."
+    },
+    {
+     "id": "s8",
+     "start": "C’è … (Freundin)",
+     "acceptedAnswers": [
+      "un’amica"
+     ],
+     "modelAnswer": "C’è un’amica."
+    }
+   ]
+  }
+ ]
+}

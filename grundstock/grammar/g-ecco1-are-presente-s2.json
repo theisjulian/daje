@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-are-presente-s2",
- "title": "Fehler finden",
+ "title": "Trova gli errori",
  "language": "it",
  "level": "A1",
- "description": "Verben auf -are im Präsens · Fehler finden (schwer).",
+ "description": "I verbi in -are al presente · Trova gli errori (schwer).",
  "topics": [
-  "Verben auf -are im Präsens",
+  "I verbi in -are al presente",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-are-presente",
-  "topicTitle": "Verben auf -are im Präsens",
+  "topicTitle": "I verbi in -are al presente",
   "difficulty": "schwer",
   "origin": "own",
   "order": 22,
-  "rule": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an:\n\n| Person | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** Bei _loro_ liegt die Betonung vorn: **a**bitano, **par**lano."
+  "rule": "I verbi in **-are** sono il gruppo più grande. Togli -are e aggiungi la desinenza:\n\n| persona | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDi solito non diciamo il pronome: _Abito a Torino._ La desinenza dice chi è.\n**Attenzione:** cercare → tu cer**chi**, giocare → noi gio**chiamo** · mangiare → tu mang**i**, noi mang**iamo**.",
+  "ruleHelp": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an (siehe Tabelle).\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** -care/-gare bekommen vor i ein h (cerchi, giochiamo); bei -iare fällt ein i weg (mangi, mangiamo). Bei loro liegt die Betonung vorn: **a**bitano."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Die markierten Formen sind falsch. Schreibe die richtige Form.",
+   "prompt": "Le forme segnate sono sbagliate. Scrivi la forma giusta.",
+   "promptHelp": "Die markierten Formen sind falsch. Schreibe die richtige Form.",
+   "explanation": "Chi fa l’azione? Io e Luca = noi → -iamo. cercare → cerchi.",
+   "explanationHelp": "Wer handelt? Io e Luca = noi → -iamo. cercare → cerchi.",
    "type": "error_correction",
-   "text": "Io [[g1]] a Torino.\nNoi [[g2]] italiano.\nTu [[g3]] la partita?\nMarta e Paolo [[g4]] in piazza.\nVoi [[g5]] adesso?",
+   "text": "Io [[g1]] a Torino.\nNoi [[g2]] italiano.\nTu [[g3]] la partita?\nMarta e Paolo [[g4]] in piazza.\nVoi [[g5]] adesso?\nMia sorella [[g6]] tedesco.\nIo e Luca [[g7]] l’autobus.\nTu [[g8]] il museo?",
    "errors": [
     {
      "id": "g1",
@@ -82,6 +86,27 @@
      "wrong": "arrivano",
      "acceptedAnswers": [
       "arrivate"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "studi",
+     "acceptedAnswers": [
+      "studia"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "aspettate",
+     "acceptedAnswers": [
+      "aspettiamo"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "cerci",
+     "acceptedAnswers": [
+      "cerchi"
      ]
     }
    ]

@@ -1,0 +1,122 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-a-in-m3",
+ "title": "Domande sul luogo",
+ "language": "it",
+ "level": "A1",
+ "description": "Le preposizioni a e in · Domande sul luogo (mittel).",
+ "topics": [
+  "Le preposizioni a e in",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 1 · La città · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-a-in",
+  "topicTitle": "Le preposizioni a e in",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 43,
+  "rule": "Per i luoghi usiamo:\n- **a** + città: _abito a Torino, a Roma, a Berlino_\n- **in** + paese o regione: _in Italia, in Germania, in Piemonte_\n- **in** + via, piazza: _in via Roma, in piazza_\n- **a** + casa, scuola: _a casa, a scuola_\n- **in** + centro, biblioteca, montagna: _in centro, in biblioteca_",
+  "ruleHelp": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino_ · **in** + Land oder Region: _in Italia, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_ · **a** + casa, scuola: _a casa, a scuola_\n- **in** + centro, biblioteca, montagna"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi con a o in.",
+   "promptHelp": "Antworte mit a oder in.",
+   "explanation": "Città, casa, scuola → a. Paesi, regioni, vie, piazze, centro, biblioteca → in.",
+   "explanationHelp": "Stadt, casa, scuola → a. Länder, Regionen, Straßen, Plätze, centro, biblioteca → in.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Dove abita Luca? (Torino)",
+     "acceptedAnswers": [
+      "a Torino"
+     ],
+     "modelAnswer": "Abita a Torino."
+    },
+    {
+     "id": "s2",
+     "start": "Dove sei adesso? (casa)",
+     "acceptedAnswers": [
+      "a casa"
+     ],
+     "modelAnswer": "Sono a casa."
+    },
+    {
+     "id": "s3",
+     "start": "Dove sono i ragazzi? (centro)",
+     "acceptedAnswers": [
+      "in centro"
+     ],
+     "modelAnswer": "Sono in centro."
+    },
+    {
+     "id": "s4",
+     "start": "Dove abita la nonna? (Sicilia)",
+     "acceptedAnswers": [
+      "in Sicilia"
+     ],
+     "modelAnswer": "Abita in Sicilia."
+    },
+    {
+     "id": "s5",
+     "start": "Dov’è il museo? (piazza Castello)",
+     "acceptedAnswers": [
+      "in piazza Castello"
+     ],
+     "modelAnswer": "È in piazza Castello."
+    },
+    {
+     "id": "s6",
+     "start": "Dove studi oggi? (biblioteca)",
+     "acceptedAnswers": [
+      "in biblioteca"
+     ],
+     "modelAnswer": "Studio in biblioteca."
+    },
+    {
+     "id": "s7",
+     "start": "Dove abita Lisa? (Germania)",
+     "acceptedAnswers": [
+      "in Germania"
+     ],
+     "modelAnswer": "Abita in Germania."
+    },
+    {
+     "id": "s8",
+     "start": "Dove siete la mattina? (scuola)",
+     "acceptedAnswers": [
+      "a scuola"
+     ],
+     "modelAnswer": "Siamo a scuola."
+    }
+   ]
+  }
+ ]
+}

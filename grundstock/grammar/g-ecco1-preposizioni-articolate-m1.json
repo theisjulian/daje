@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-preposizioni-articolate-m1",
- "title": "Präposition + Artikel",
+ "title": "Preposizione + articolo",
  "language": "it",
  "level": "A1",
- "description": "Präpositionen mit Artikel · Präposition + Artikel (mittel).",
+ "description": "Le preposizioni articolate · Preposizione + articolo · livello medio.",
  "topics": [
-  "Präpositionen mit Artikel",
+  "Le preposizioni articolate",
   "Grammatik"
  ],
  "sources": [
@@ -36,20 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-preposizioni-articolate",
-  "topicTitle": "Präpositionen mit Artikel",
+  "topicTitle": "Le preposizioni articolate",
   "difficulty": "mittel",
   "origin": "own",
   "order": 41,
-  "rule": "Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel:\n| | il | lo | l' | la | i | gli | le |\n| a | al | allo | all' | alla | ai | agli | alle |\n| da | dal | dallo | dall' | dalla | dai | dagli | dalle |\n| di | del | dello | dell' | della | dei | degli | delle |\n| in | nel | nello | nell' | nella | nei | negli | nelle |\n| su | sul | sullo | sull' | sulla | sui | sugli | sulle |\n\n**con** und **per** verschmelzen nicht: _con il papà, per la mamma._"
+  "rule": "Le preposizioni **a, da, di, in, su** si uniscono all’articolo determinativo:\n| | il | lo | l’ | la | i | gli | le |\n| a | al | allo | all’ | alla | ai | agli | alle |\n| da | dal | dallo | dall’ | dalla | dai | dagli | dalle |\n| di | del | dello | dell’ | della | dei | degli | delle |\n| in | nel | nello | nell’ | nella | nei | negli | nelle |\n| su | sul | sullo | sull’ | sulla | sui | sugli | sulle |\n\n**con** e **per** non si uniscono: _con il papà, per la mamma._ Anche **sotto, davanti, accanto** + a: _accanto al letto, davanti alla scuola, sotto il tavolo._",
+  "ruleHelp": "Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel (z. B. in + il = nel, su + la = sulla, di + i = dei).\n**con** und **per** verschmelzen nicht: _con il papà, per la mamma._ sotto steht ohne a: _sotto il tavolo_; accanto/davanti mit a: _accanto al letto_."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Verbinde Präposition und Artikel.",
+   "prompt": "Scrivi la forma unita.",
+   "promptHelp": "Verbinde Präposition und Artikel.",
    "type": "table_fill",
    "columns": [
-    "Präposition + Artikel",
-    "Form"
+    "preposizione + articolo",
+    "forma"
    ],
    "rows": [
     [
@@ -89,11 +91,11 @@
      }
     ],
     [
-     "in + l'",
+     "in + l’",
      {
       "id": "c5",
       "acceptedAnswers": [
-       "nell'"
+       "nell’"
       ]
      }
     ],
@@ -121,6 +123,24 @@
       "id": "c8",
       "acceptedAnswers": [
        "sullo"
+      ]
+     }
+    ],
+    [
+     "a + gli",
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "agli"
+      ]
+     }
+    ],
+    [
+     "in + le",
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "nelle"
       ]
      }
     ]

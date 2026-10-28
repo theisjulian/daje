@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-preposizioni-articolate-s3",
- "title": "Wo ist mein Handy?",
+ "title": "Dov’è il mio cellulare?",
  "language": "it",
  "level": "A1",
- "description": "Präpositionen mit Artikel · Wo ist mein Handy? (schwer).",
+ "description": "Le preposizioni articolate · Dov’è il mio cellulare? · livello difficile.",
  "topics": [
-  "Präpositionen mit Artikel",
+  "Le preposizioni articolate",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 11,
+ "estimatedMinutes": 13,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-preposizioni-articolate",
-  "topicTitle": "Präpositionen mit Artikel",
+  "topicTitle": "Le preposizioni articolate",
   "difficulty": "schwer",
   "origin": "own",
   "order": 43,
-  "rule": "Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel:\n| | il | lo | l' | la | i | gli | le |\n| a | al | allo | all' | alla | ai | agli | alle |\n| da | dal | dallo | dall' | dalla | dai | dagli | dalle |\n| di | del | dello | dell' | della | dei | degli | delle |\n| in | nel | nello | nell' | nella | nei | negli | nelle |\n| su | sul | sullo | sull' | sulla | sui | sugli | sulle |\n\n**con** und **per** verschmelzen nicht: _con il papà, per la mamma._"
+  "rule": "Le preposizioni **a, da, di, in, su** si uniscono all’articolo determinativo:\n| | il | lo | l’ | la | i | gli | le |\n| a | al | allo | all’ | alla | ai | agli | alle |\n| da | dal | dallo | dall’ | dalla | dai | dagli | dalle |\n| di | del | dello | dell’ | della | dei | degli | delle |\n| in | nel | nello | nell’ | nella | nei | negli | nelle |\n| su | sul | sullo | sull’ | sulla | sui | sugli | sulle |\n\n**con** e **per** non si uniscono: _con il papà, per la mamma._ Anche **sotto, davanti, accanto** + a: _accanto al letto, davanti alla scuola, sotto il tavolo._",
+  "ruleHelp": "Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel (z. B. in + il = nel, su + la = sulla, di + i = dei).\n**con** und **per** verschmelzen nicht: _con il papà, per la mamma._ sotto steht ohne a: _sotto il tavolo_; accanto/davanti mit a: _accanto al letto_."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze die Präpositionen mit Artikel (in, su, di, a, da).",
+   "prompt": "Scrivi le preposizioni articolate (in, su, di, a, da).",
+   "promptHelp": "Ergänze die Präpositionen mit Artikel.",
    "type": "gap_fill",
-   "text": "Mamma, dov'è il mio cellulare? Non è (in + la) [[g1]] mia borsa.\nForse è (su + il) [[g2]] letto o (in + lo) [[g3]] zaino.\nNo, aspetta! È (in + la) [[g4]] tasca (di + la) [[g5]] giacca.\nLa giacca è (in + l') [[g6]] armadio (di + il) [[g7]] corridoio.\nAh no, il cellulare è (su + la) [[g8]] sedia (in + la) [[g9]] cucina!",
+   "text": "Mamma, dov’è il mio cellulare? Non è (in + la) [[g1]] mia borsa.\nForse è (su + il) [[g2]] letto o (in + lo) [[g3]] zaino.\nNo, aspetta! È (in + la) [[g4]] tasca (di + la) [[g5]] giacca.\nLa giacca è (in + l’) [[g6]] armadio (di + il) [[g7]] corridoio.\nAh no, il cellulare è (su + la) [[g8]] sedia (in + la) [[g9]] cucina!\nPoi lo porto (a + la) [[g10]] nonna (in + il) [[g11]] salotto.",
    "gaps": [
     {
      "id": "g1",
@@ -82,7 +84,7 @@
     {
      "id": "g6",
      "acceptedAnswers": [
-      "nell'"
+      "nell’"
      ]
     },
     {
@@ -101,6 +103,18 @@
      "id": "g9",
      "acceptedAnswers": [
       "nella"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "alla"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "nel"
      ]
     }
    ]

@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-articolo-indeterminativo-s1",
- "title": "Was gibt es hier?",
+ "title": "Che cosa c’è qui?",
  "language": "it",
  "level": "A1",
- "description": "Der unbestimmte Artikel · Was gibt es hier? (schwer).",
+ "description": "L’articolo indeterminativo (un, uno, una, un’) · Che cosa c’è qui? (schwer).",
  "topics": [
-  "Der unbestimmte Artikel",
+  "L’articolo indeterminativo (un, uno, una, un’)",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 8,
+ "estimatedMinutes": 11,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-articolo-indeterminativo",
-  "topicTitle": "Der unbestimmte Artikel",
+  "topicTitle": "L’articolo indeterminativo (un, uno, una, un’)",
   "difficulty": "schwer",
   "origin": "own",
   "order": 71,
-  "rule": "| Artikel | wann? | Beispiel |\n| un | männlich (auch vor Vokal) | un ragazzo, un amico |\n| uno | männlich vor s + Konsonant, z | uno stadio, uno zaino |\n| una | weiblich vor Konsonant | una città, una ragazza |\n| un' | weiblich vor Vokal | un'amica, un'idea |\n\nAchtung: _un amico_ (männlich, ohne Apostroph), aber _un'amica_ (weiblich, mit Apostroph)."
+  "rule": "| articolo | quando? | esempio |\n| un | maschile (anche + vocale) | un ragazzo, un amico |\n| uno | maschile + s + consonante, z | uno stadio, uno zaino |\n| una | femminile + consonante | una città, una ragazza |\n| un’ | femminile + vocale | un’amica, un’idea |\n\n**Attenzione:** _un amico_ (maschile, senza apostrofo), ma _un’amica_ (femminile, con apostrofo).",
+  "ruleHelp": "un: männlich (auch vor Vokal) · uno: männlich vor s + Konsonant, z · una: weiblich vor Konsonant · un’: weiblich vor Vokal.\n**Achtung:** _un amico_ (männlich, ohne Apostroph), aber _un’amica_ (weiblich, mit Apostroph)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze den unbestimmten Artikel.",
-   "explanation": "uno vor s + Konsonant; un' nur bei weiblichen Wörtern vor Vokal.",
+   "prompt": "Scrivi l’articolo indeterminativo.",
+   "promptHelp": "Ergänze den unbestimmten Artikel.",
+   "explanation": "uno con s + consonante e z; un’ solo con parole femminili + vocale.",
+   "explanationHelp": "uno vor s + Konsonant; un’ nur bei weiblichen Wörtern vor Vokal.",
    "type": "gap_fill",
-   "text": "A Torino c'è [[g1]] stadio grande.\nMarco ha [[g2]] gatto e [[g3]] amica a Milano.\nIn piazza c'è [[g4]] scuola.\nLisa è [[g5]] ragazza simpatica.\nQuesto è [[g6]] ponte importante.",
+   "text": "A Torino c’è [[g1]] stadio grande.\nMarco ha [[g2]] gatto e [[g3]] amica a Milano.\nIn piazza c’è [[g4]] scuola.\nLisa è [[g5]] ragazza simpatica.\nQuesto è [[g6]] ponte importante.\nLeo ha [[g7]] zaino rosso.\nÈ [[g8]] idea fantastica!\nPaolo è [[g9]] studente di Lecce.",
    "gaps": [
     {
      "id": "g1",
@@ -65,7 +68,7 @@
     {
      "id": "g3",
      "acceptedAnswers": [
-      "un'"
+      "un’"
      ]
     },
     {
@@ -84,6 +87,24 @@
      "id": "g6",
      "acceptedAnswers": [
       "un"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "uno"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "un’"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "uno"
      ]
     }
    ]

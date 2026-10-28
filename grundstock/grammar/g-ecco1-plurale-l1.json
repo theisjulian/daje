@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-plurale-l1",
- "title": "Welcher Plural-Artikel?",
+ "title": "Quale articolo al plurale?",
  "language": "it",
  "level": "A1",
- "description": "Der Plural: Artikel und Nomen · Welcher Plural-Artikel? (einfach).",
+ "description": "Il plurale: articolo e nome · Quale articolo al plurale? (einfach).",
  "topics": [
-  "Der Plural: Artikel und Nomen",
+  "Il plurale: articolo e nome",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-plurale",
-  "topicTitle": "Der Plural: Artikel und Nomen",
+  "topicTitle": "Il plurale: articolo e nome",
   "difficulty": "leicht",
   "origin": "own",
   "order": 81,
-  "rule": "**Nomen:**\n| Singular | Plural | Beispiel |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù (betont) | bleibt | la città → le città |\n\n**Artikel:**\n| Singular | Plural |\n| il | i |\n| lo, l' (männlich) | gli |\n| la, l' (weiblich) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_"
+  "rule": "**Nomi:**\n| singolare | plurale | esempio |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù | non cambia | la città → le città |\n\n**Articoli:**\n| singolare | plurale |\n| il | i |\n| lo, l’ (maschile) | gli |\n| la, l’ (femminile) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_\n**Attenzione:** lo sport → gli sport, il bar → i bar (parole straniere non cambiano).",
+  "ruleHelp": "Nomen: -o → -i, -a → -e, -e → -i; betonte Endung (-à, -ù) bleibt gleich (la città → le città).\nArtikel: il → i · lo, l’ (männlich) → gli · la, l’ (weiblich) → le.\n**Achtung:** Fremdwörter bleiben gleich: lo sport → gli sport, il bar → i bar."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle den Artikel im Plural.",
+   "prompt": "Scegli l’articolo plurale.",
+   "promptHelp": "Wähle den Artikel im Plural.",
+   "explanation": "gli davanti a vocale e a s + consonante / z: gli amici, gli studenti, gli zaini.",
+   "explanationHelp": "gli vor Vokal und vor s + Konsonant / z: gli amici, gli studenti, gli zaini.",
    "type": "gap_choice",
-   "text": "[[g1]] negozi\n[[g2]] stadi\n[[g3]] piazze\n[[g4]] amici\n[[g5]] amiche\n[[g6]] ponti\n[[g7]] città\n[[g8]] zaini",
+   "text": "[[g1]] negozi\n[[g2]] stadi\n[[g3]] piazze\n[[g4]] amici\n[[g5]] amiche\n[[g6]] ponti\n[[g7]] città\n[[g8]] zaini\n[[g9]] ragazzi\n[[g10]] studenti",
    "gaps": [
     {
      "id": "g1",
@@ -114,6 +118,24 @@
     },
     {
      "id": "g8",
+     "options": [
+      "gli",
+      "i",
+      "le"
+     ],
+     "answer": "gli"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "i",
+      "gli",
+      "le"
+     ],
+     "answer": "i"
+    },
+    {
+     "id": "g10",
      "options": [
       "gli",
       "i",

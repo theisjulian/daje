@@ -1,0 +1,122 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-mi-piace-s3",
+ "title": "Gusti diversi",
+ "language": "it",
+ "level": "A1",
+ "description": "(Non) mi piace / mi piacciono · Gusti diversi · livello difficile.",
+ "topics": [
+  "(Non) mi piace / mi piacciono",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 2 · La mia camera · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-mi-piace",
+  "topicTitle": "(Non) mi piace / mi piacciono",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 23,
+  "rule": "- **mi piace** + singolare o verbo all’infinito: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + plurale: _Mi piacciono le canzoni italiane._\n- Negazione: _**Non** mi piace il calcio._\n- Domanda: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nLa cosa che piace decide la forma: una cosa → piace, più cose → piacciono.",
+  "ruleHelp": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _Non mi piace il calcio._ · Frage: _Ti piace la storia?_\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi che cosa piace a te: «Mi piace / Non mi piace …».",
+   "promptHelp": "Schreibe, was dir gefällt.",
+   "explanation": "Ogni parte della frase ha la sua forma.",
+   "explanationHelp": "Jeder Satzteil hat seine eigene Form.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "la pizza (☺) e il pesce (☹)",
+     "acceptedAnswers": [
+      "Mi piace la pizza, ma non mi piace il pesce"
+     ],
+     "modelAnswer": "Mi piace la pizza, ma non mi piace il pesce."
+    },
+    {
+     "id": "s2",
+     "start": "i gatti (☺) e i cani (☹)",
+     "acceptedAnswers": [
+      "Mi piacciono i gatti, ma non mi piacciono i cani"
+     ],
+     "modelAnswer": "Mi piacciono i gatti, ma non mi piacciono i cani."
+    },
+    {
+     "id": "s3",
+     "start": "nuotare (☺) e correre (☹)",
+     "acceptedAnswers": [
+      "Mi piace nuotare, ma non mi piace correre"
+     ],
+     "modelAnswer": "Mi piace nuotare, ma non mi piace correre."
+    },
+    {
+     "id": "s4",
+     "start": "la storia (☺) e le scienze (☹)",
+     "acceptedAnswers": [
+      "Mi piace la storia, ma non mi piacciono le scienze"
+     ],
+     "modelAnswer": "Mi piace la storia, ma non mi piacciono le scienze."
+    },
+    {
+     "id": "s5",
+     "start": "le vacanze (☺) e i compiti (☹)",
+     "acceptedAnswers": [
+      "Mi piacciono le vacanze, ma non mi piacciono i compiti"
+     ],
+     "modelAnswer": "Mi piacciono le vacanze, ma non mi piacciono i compiti."
+    },
+    {
+     "id": "s6",
+     "start": "il rock (☺) e il rap (☹)",
+     "acceptedAnswers": [
+      "Mi piace il rock, ma non mi piace il rap"
+     ],
+     "modelAnswer": "Mi piace il rock, ma non mi piace il rap."
+    },
+    {
+     "id": "s7",
+     "start": "le fragole (☺) e le banane (☹)",
+     "acceptedAnswers": [
+      "Mi piacciono le fragole, ma non mi piacciono le banane"
+     ],
+     "modelAnswer": "Mi piacciono le fragole, ma non mi piacciono le banane."
+    },
+    {
+     "id": "s8",
+     "start": "ballare (☺) e cantare (☹)",
+     "acceptedAnswers": [
+      "Mi piace ballare, ma non mi piace cantare"
+     ],
+     "modelAnswer": "Mi piace ballare, ma non mi piace cantare."
+    }
+   ]
+  }
+ ]
+}

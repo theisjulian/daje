@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-are-presente-m1",
- "title": "Ein Tag in Torino",
+ "title": "Una giornata a Torino",
  "language": "it",
  "level": "A1",
- "description": "Verben auf -are im Präsens · Ein Tag in Torino (mittel).",
+ "description": "I verbi in -are al presente · Una giornata a Torino (mittel).",
  "topics": [
-  "Verben auf -are im Präsens",
+  "I verbi in -are al presente",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-are-presente",
-  "topicTitle": "Verben auf -are im Präsens",
+  "topicTitle": "I verbi in -are al presente",
   "difficulty": "mittel",
   "origin": "own",
   "order": 21,
-  "rule": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an:\n\n| Person | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** Bei _loro_ liegt die Betonung vorn: **a**bitano, **par**lano."
+  "rule": "I verbi in **-are** sono il gruppo più grande. Togli -are e aggiungi la desinenza:\n\n| persona | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDi solito non diciamo il pronome: _Abito a Torino._ La desinenza dice chi è.\n**Attenzione:** cercare → tu cer**chi**, giocare → noi gio**chiamo** · mangiare → tu mang**i**, noi mang**iamo**.",
+  "ruleHelp": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an (siehe Tabelle).\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** -care/-gare bekommen vor i ein h (cerchi, giochiamo); bei -iare fällt ein i weg (mangi, mangiamo). Bei loro liegt die Betonung vorn: **a**bitano."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Setze das Verb in der richtigen Form ein.",
-   "explanation": "abitare, passeggiare, arrivare, guardare und parlare sind regelmäßige Verben auf -are.",
+   "prompt": "Scrivi il verbo nella forma giusta.",
+   "promptHelp": "Setze das Verb in der richtigen Form ein.",
+   "explanation": "abitare, passeggiare, arrivare, guardare, parlare: verbi regolari in -are.",
+   "explanationHelp": "abitare, passeggiare, arrivare, guardare und parlare sind regelmäßige Verben auf -are.",
    "type": "gap_fill",
-   "text": "Ciao, io (abitare) [[g1]] a Torino.\nLa mia amica Giulia (abitare) [[g2]] in centro.\nOggi noi (passeggiare) [[g3]] insieme.\nTu (arrivare) [[g4]] alle tre?\nI ragazzi (guardare) [[g5]] la partita.\nVoi (parlare) [[g6]] inglese?",
+   "text": "Ciao, io (abitare) [[g1]] a Torino.\nLa mia amica Giulia (abitare) [[g2]] in centro.\nOggi noi (passeggiare) [[g3]] insieme.\nTu (arrivare) [[g4]] alle tre?\nI ragazzi (guardare) [[g5]] la partita.\nVoi (parlare) [[g6]] inglese?\nIo (aspettare) [[g7]] il tram in piazza.\nMarco (comprare) [[g8]] un libro.\nNoi (mangiare) [[g9]] un gelato da Fiorio.\nLe ragazze (ascoltare) [[g10]] musica.",
    "gaps": [
     {
      "id": "g1",
@@ -84,6 +87,30 @@
      "id": "g6",
      "acceptedAnswers": [
       "parlate"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "aspetto"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "compra"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "mangiamo"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "ascoltano"
      ]
     }
    ]

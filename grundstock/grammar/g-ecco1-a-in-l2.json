@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-a-in-l2",
- "title": "Wo bist du?",
+ "title": "Dove sei?",
  "language": "it",
  "level": "A1",
- "description": "Die Präpositionen a und in · Wo bist du? (einfach).",
+ "description": "Le preposizioni a e in · Dove sei? (einfach).",
  "topics": [
-  "Die Präpositionen a und in",
+  "Le preposizioni a e in",
   "Grammatik"
  ],
  "sources": [
@@ -36,17 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-a-in",
-  "topicTitle": "Die Präpositionen a und in",
+  "topicTitle": "Le preposizioni a e in",
   "difficulty": "leicht",
   "origin": "own",
   "order": 42,
-  "rule": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino, a Roma, a Berlino_\n- **in** + Land oder Region: _in Italia, in Germania, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_\n- **a** + bestimmte Orte ohne Artikel: _a scuola, a casa_"
+  "rule": "Per i luoghi usiamo:\n- **a** + città: _abito a Torino, a Roma, a Berlino_\n- **in** + paese o regione: _in Italia, in Germania, in Piemonte_\n- **in** + via, piazza: _in via Roma, in piazza_\n- **a** + casa, scuola: _a casa, a scuola_\n- **in** + centro, biblioteca, montagna: _in centro, in biblioteca_",
+  "ruleHelp": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino_ · **in** + Land oder Region: _in Italia, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_ · **a** + casa, scuola: _a casa, a scuola_\n- **in** + centro, biblioteca, montagna"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "a oder in? Ordne zu.",
-   "explanation": "Städte und casa/scuola → a; Länder, Regionen, Straßen, Plätze, centro → in.",
+   "prompt": "A o in? Metti le parole nel gruppo giusto.",
+   "promptHelp": "a oder in? Ordne zu.",
+   "explanation": "Città e casa/scuola → a; paesi, regioni, vie, piazze, centro → in.",
+   "explanationHelp": "Städte und casa/scuola → a; Länder, Regionen, Straßen, Plätze, centro → in.",
    "type": "categorize",
    "categories": [
     {

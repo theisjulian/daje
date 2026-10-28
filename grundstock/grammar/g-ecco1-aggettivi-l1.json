@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-aggettivi-l1",
- "title": "Welche Endung?",
+ "title": "Quale desinenza?",
  "language": "it",
  "level": "A1",
- "description": "Adjektive und ihre Stellung · Welche Endung? (einfach).",
+ "description": "Gli aggettivi e la loro posizione · Quale desinenza? · livello facile.",
  "topics": [
-  "Adjektive und ihre Stellung",
+  "Gli aggettivi e la loro posizione",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-aggettivi",
-  "topicTitle": "Adjektive und ihre Stellung",
+  "topicTitle": "Gli aggettivi e la loro posizione",
   "difficulty": "leicht",
   "origin": "own",
   "order": 71,
-  "rule": "Adjektive richten sich nach dem Nomen (Geschlecht und Zahl):\n| Typ | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| -o/-a | nuovo | nuova | nuovi | nuove |\n| -e | grande | grande | grandi | grandi |\n\n**Stellung:** meist **nach** dem Nomen: _un libro **interessante**, una camera **grande**._ Einige kurze, häufige Adjektive stehen oft davor: _un **bel** posto, un **piccolo** problema, una **vecchia** foto._\n**Achtung:** _bello_ vor dem Nomen verändert sich wie der Artikel: _un bel gatto, un bello zaino, i bei libri._"
+  "rule": "L’aggettivo cambia come il nome (genere e numero):\n| tipo | m. sing. | f. sing. | m. plur. | f. plur. |\n| -o/-a | nuovo | nuova | nuovi | nuove |\n| -e | grande | grande | grandi | grandi |\n\n**Posizione:** di solito **dopo** il nome: _un libro **interessante**, una camera **grande**._ Alcuni aggettivi brevi e frequenti stanno spesso prima: _un **bel** posto, un **piccolo** problema._\n**Attenzione:** _ultimo_ sta sempre prima: _l’ultima novità._",
+  "ruleHelp": "Adjektive richten sich nach dem Nomen (Geschlecht und Zahl): nuovo, nuova, nuovi, nuove · grande, grandi.\n**Stellung:** meist **nach** dem Nomen: _un libro interessante._ Einige kurze, häufige Adjektive oft davor: _un bel posto, un piccolo problema._ _ultimo_ steht immer vorn."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle die passende Form.",
-   "explanation": "Adjektive auf -e haben nur zwei Formen: grande (Sg.) und grandi (Pl.).",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die passende Form.",
+   "explanation": "Gli aggettivi in -e hanno solo due forme: grande (singolare) e grandi (plurale).",
+   "explanationHelp": "Adjektive auf -e haben nur zwei Formen: grande (Sg.) und grandi (Pl.).",
    "type": "gap_choice",
-   "text": "Una camera [[g1]].\nUn computer [[g2]].\nLe foto [[g3]].\nI libri [[g4]].\nUna spiaggia [[g5]].\nDue poster [[g6]].",
+   "text": "Una camera [[g1]].\nUn computer [[g2]].\nLe foto [[g3]].\nI libri [[g4]].\nUna spiaggia [[g5]].\nDue poster [[g6]].\nIl gatto è [[g7]].\nLe scarpe sono [[g8]].\nMia sorella è [[g9]].\nI compiti sono [[g10]].",
    "gaps": [
     {
      "id": "g1",
@@ -103,6 +106,42 @@
       "piccole"
      ],
      "answer": "piccoli"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "nero",
+      "nera",
+      "neri"
+     ],
+     "answer": "nero"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "rosse",
+      "rossi",
+      "rosso"
+     ],
+     "answer": "rosse"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "simpatica",
+      "simpatico",
+      "simpatiche"
+     ],
+     "answer": "simpatica"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "difficili",
+      "difficile",
+      "difficila"
+     ],
+     "answer": "difficili"
     }
    ]
   }

@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-non-s2",
- "title": "Steckbrief: Stimmt das?",
+ "title": "Il profilo: vero o falso?",
  "language": "it",
  "level": "A1",
- "description": "Die Verneinung mit non · Steckbrief: Stimmt das? (schwer).",
+ "description": "La negazione con non · Il profilo: vero o falso? (schwer).",
  "topics": [
-  "Die Verneinung mit non",
+  "La negazione con non",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-non",
-  "topicTitle": "Die Verneinung mit non",
+  "topicTitle": "La negazione con non",
   "difficulty": "schwer",
   "origin": "own",
   "order": 62,
-  "rule": "**non** steht **vor dem Verb**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nAntwort auf eine Frage: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)"
+  "rule": "**non** va **prima del verbo**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nRisposta a una domanda: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)",
+  "ruleHelp": "**non** steht **vor dem Verb**: _Non abito a Torino. Luca non è di Milano._\nAntwort auf eine Frage: _Sei di Roma? – No, non sono di Roma._ (no = nein, non = nicht)"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Lies den Steckbrief und schreibe richtige Sätze. Verwende non, wenn etwas nicht stimmt.",
+   "prompt": "Leggi il profilo e scrivi frasi giuste. Usa non quando qualcosa non è vero.",
+   "promptHelp": "Lies den Steckbrief und schreibe richtige Sätze. Verwende non, wenn etwas nicht stimmt.",
+   "explanation": "non prima del verbo.",
+   "explanationHelp": "non vor dem Verb.",
    "type": "gap_fill",
-   "text": "Steckbrief: Marta, 14 anni, abita a Torino, parla italiano e inglese, non gioca a calcio, gioca a pallavolo.\nMarta [[g1]] abita a Milano, abita a Torino.\nMarta parla inglese, ma [[g2]] parla francese.\nLei [[g3]] gioca a calcio.\nLei gioca a [[g4]].\nMarta [[g5]] ha 16 anni, ha 14 anni.",
+   "text": "Profilo: Marta, 14 anni, abita a Torino, parla italiano e inglese, non gioca a calcio, gioca a pallavolo.\nMarta [[g1]] abita a Milano, abita a Torino.\nMarta parla inglese, ma [[g2]] parla francese.\nLei [[g3]] gioca a calcio.\nLei gioca a [[g4]].\nMarta [[g5]] ha 16 anni, ha 14 anni.\nLei [[g6]] è di Roma.\nMarta [[g7]] a Torino.\nLei [[g8]] italiano e inglese.",
    "gaps": [
     {
      "id": "g1",
@@ -77,6 +81,24 @@
      "id": "g5",
      "acceptedAnswers": [
       "non"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "non"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "abita"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "parla"
      ]
     }
    ]

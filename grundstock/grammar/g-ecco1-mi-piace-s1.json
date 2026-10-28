@@ -6,9 +6,9 @@
  "title": "Mi piace – non mi piace",
  "language": "it",
  "level": "A1",
- "description": "(non) mi piace / mi piacciono · Mi piace – non mi piace (schwer).",
+ "description": "(Non) mi piace / mi piacciono · Mi piace – non mi piace · livello difficile.",
  "topics": [
-  "(non) mi piace / mi piacciono",
+  "(Non) mi piace / mi piacciono",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 3,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,64 @@
  },
  "grammar": {
   "topic": "ecco1-mi-piace",
-  "topicTitle": "(non) mi piace / mi piacciono",
+  "topicTitle": "(Non) mi piace / mi piacciono",
   "difficulty": "schwer",
   "origin": "own",
   "order": 21,
-  "rule": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _**Non** mi piace il calcio._\n- Frage: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono."
+  "rule": "- **mi piace** + singolare o verbo all’infinito: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + plurale: _Mi piacciono le canzoni italiane._\n- Negazione: _**Non** mi piace il calcio._\n- Domanda: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nLa cosa che piace decide la forma: una cosa → piace, più cose → piacciono.",
+  "ruleHelp": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _Non mi piace il calcio._ · Frage: _Ti piace la storia?_\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Was magst du, was nicht? Schreibe je zwei Sätze mit mi piace, mi piacciono, non mi piace, non mi piacciono.",
+   "prompt": "Che cosa ti piace e che cosa no? Scrivi due frasi con mi piace, mi piacciono, non mi piace, non mi piacciono.",
+   "promptHelp": "Was magst du, was nicht? Schreibe je zwei Sätze.",
    "type": "open_answer",
    "modelAnswer": "Mi piace la musica. Mi piace ballare. Mi piacciono i film italiani. Mi piacciono gli animali. Non mi piace il calcio. Non mi piacciono i compiti.",
    "lines": 6
+  },
+  {
+   "id": "q2",
+   "prompt": "Controlla: piace o piacciono?",
+   "promptHelp": "Prüfe: piace oder piacciono?",
+   "explanation": "Anche due verbi (disegnare e cantare) → piace.",
+   "explanationHelp": "Auch zwei Verben → piace.",
+   "type": "gap_choice",
+   "text": "Mi [[g1]] disegnare e cantare.\nNon mi [[g2]] le giornate di pioggia.\nMi [[g3]] tanto la pizza.\nTi [[g4]] i miei disegni?",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "piace",
+      "piacciono"
+     ],
+     "answer": "piace"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "piacciono",
+      "piace"
+     ],
+     "answer": "piacciono"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "piace",
+      "piacciono"
+     ],
+     "answer": "piace"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "piacciono",
+      "piace"
+     ],
+     "answer": "piacciono"
+    }
+   ]
   }
  ]
 }

@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-ire-andare-s3",
- "title": "Was machst du am Wochenende?",
+ "title": "Che cosa fai nel fine settimana?",
  "language": "it",
  "level": "A1",
- "description": "Verben auf -ire und andare · Was machst du am Wochenende? (schwer).",
+ "description": "I verbi in -ire e andare · Che cosa fai nel fine settimana? · livello difficile.",
  "topics": [
-  "Verben auf -ire und andare",
+  "I verbi in -ire e andare",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 3,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,54 @@
  },
  "grammar": {
   "topic": "ecco1-ire-andare",
-  "topicTitle": "Verben auf -ire und andare",
+  "topicTitle": "I verbi in -ire e andare",
   "difficulty": "schwer",
   "origin": "own",
   "order": 63,
-  "rule": "**Verben auf -ire** (ohne Stammerweiterung):\n| Person | dormire | sentire |\n| io | dorm**o** | sent**o** |\n| tu | dorm**i** | sent**i** |\n| lui / lei | dorm**e** | sent**e** |\n| noi | dorm**iamo** | sent**iamo** |\n| voi | dorm**ite** | sent**ite** |\n| loro | dorm**ono** | sent**ono** |\n\nWie -ere, nur **voi -ite**.\n**andare** (gehen, fahren) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| vado | vai | va | andiamo | andate | vanno |\n\n_Vado a scuola. Andiamo al concerto._"
+  "rule": "**Verbi in -ire** (senza -isc-):\n| persona | dormire | sentire |\n| io | dorm**o** | sent**o** |\n| tu | dorm**i** | sent**i** |\n| lui / lei | dorm**e** | sent**e** |\n| noi | dorm**iamo** | sent**iamo** |\n| voi | dorm**ite** | sent**ite** |\n| loro | dorm**ono** | sent**ono** |\n\nCome -ere, ma **voi -ite**.\n**andare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| vado | vai | va | andiamo | andate | vanno |\n\n_Vado a scuola. Andiamo al concerto._",
+  "ruleHelp": "Verben auf -ire (ohne Stammerweiterung) gehen wie -ere, nur **voi -ite** (dormite, sentite).\n**andare** (gehen, fahren) ist unregelmäßig: vado, vai, va, andiamo, andate, vanno."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Schreibe 5 Sätze über dein Wochenende mit dormire, sentire, partire und andare.",
+   "prompt": "Scrivi 5 frasi sul tuo fine settimana con dormire, sentire, partire e andare.",
+   "promptHelp": "Schreibe 5 Sätze über dein Wochenende mit dormire, sentire, partire und andare.",
    "type": "open_answer",
    "modelAnswer": "Il sabato dormo fino alle nove. Poi vado in piscina con mia sorella. Nel pomeriggio sento musica in camera. La domenica andiamo dai nonni. A volte partiamo per una gita.",
    "lines": 5
+  },
+  {
+   "id": "q2",
+   "prompt": "E adesso completa.",
+   "promptHelp": "Und jetzt ergänze.",
+   "type": "gap_fill",
+   "text": "Il sabato io [[g1]] fino a tardi.\nPoi [[g2]] al parco.\nI miei genitori [[g3]] al mercato.\nNoi [[g4]] alle dieci per la gita.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "dormo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "vado"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "vanno"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "partiamo"
+     ]
+    }
+   ]
   }
  ]
 }

@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-preposizioni-articolate-m3",
- "title": "Dove sono le cose?",
+ "title": "Un pomeriggio in città",
  "language": "it",
  "level": "A1",
- "description": "Präpositionen mit Artikel · Dove sono le cose? (mittel).",
+ "description": "Le preposizioni articolate · Un pomeriggio in città · livello medio.",
  "topics": [
-  "Präpositionen mit Artikel",
+  "Le preposizioni articolate",
   "Grammatik"
  ],
  "sources": [
@@ -36,91 +36,70 @@
  },
  "grammar": {
   "topic": "ecco1-preposizioni-articolate",
-  "topicTitle": "Präpositionen mit Artikel",
+  "topicTitle": "Le preposizioni articolate",
   "difficulty": "mittel",
   "origin": "own",
   "order": 43,
-  "rule": "Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel:\n| | il | lo | l' | la | i | gli | le |\n| a | al | allo | all' | alla | ai | agli | alle |\n| da | dal | dallo | dall' | dalla | dai | dagli | dalle |\n| di | del | dello | dell' | della | dei | degli | delle |\n| in | nel | nello | nell' | nella | nei | negli | nelle |\n| su | sul | sullo | sull' | sulla | sui | sugli | sulle |\n\n**con** und **per** verschmelzen nicht: _con il papà, per la mamma._"
+  "rule": "Le preposizioni **a, da, di, in, su** si uniscono all’articolo determinativo:\n| | il | lo | l’ | la | i | gli | le |\n| a | al | allo | all’ | alla | ai | agli | alle |\n| da | dal | dallo | dall’ | dalla | dai | dagli | dalle |\n| di | del | dello | dell’ | della | dei | degli | delle |\n| in | nel | nello | nell’ | nella | nei | negli | nelle |\n| su | sul | sullo | sull’ | sulla | sui | sugli | sulle |\n\n**con** e **per** non si uniscono: _con il papà, per la mamma._ Anche **sotto, davanti, accanto** + a: _accanto al letto, davanti alla scuola, sotto il tavolo._",
+  "ruleHelp": "Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel (z. B. in + il = nel, su + la = sulla, di + i = dei).\n**con** und **per** verschmelzen nicht: _con il papà, per la mamma._ sotto steht ohne a: _sotto il tavolo_; accanto/davanti mit a: _accanto al letto_."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle die richtige Form.",
-   "explanation": "sotto verschmilzt nicht: sotto il letto. su + gli = sugli (gli scaffali).",
-   "type": "gap_choice",
-   "text": "Le scarpe sono [[g1]] letto.\nIl gatto dorme [[g2]] divano.\nI quaderni sono [[g3]] zaino.\nLe chiavi sono [[g4]] scrivania.\nIl pallone è [[g5]] armadio.\nIl poster è [[g6]] parete.\nLe foto sono [[g7]] cassetto.\nI libri sono [[g8]] scaffali.",
+   "prompt": "Scrivi la preposizione articolata.",
+   "promptHelp": "Setze die Präposition mit Artikel ein.",
+   "explanation": "a + il = al, a + la = alla, da + il = dal, di + il = del, in + la = nella, su + il = sul.",
+   "explanationHelp": "a + il = al, a + la = alla, da + il = dal, di + il = del, in + la = nella, su + il = sul.",
+   "type": "gap_fill",
+   "text": "Oggi vado (a + il) [[g1]] cinema con Luca.\nPrima andiamo (a + la) [[g2]] stazione.\nPoi compriamo un gelato (da + il) [[g3]] gelataio.\nIl negozio (di + il) [[g4]] papà di Luca è (in + la) [[g5]] piazza grande.\nTorniamo a casa (da + la) [[g6]] piazza alle sei.\nMettiamo le borse (su + il) [[g7]] tavolo (di + la) [[g8]] cucina.",
    "gaps": [
     {
      "id": "g1",
-     "options": [
-      "sotto il",
-      "sotto al",
-      "sotto nel"
-     ],
-     "answer": "sotto il"
+     "acceptedAnswers": [
+      "al"
+     ]
     },
     {
      "id": "g2",
-     "options": [
-      "sul",
-      "sulla",
-      "sullo"
-     ],
-     "answer": "sul"
+     "acceptedAnswers": [
+      "alla"
+     ]
     },
     {
      "id": "g3",
-     "options": [
-      "nello",
-      "nel",
-      "nella"
-     ],
-     "answer": "nello"
+     "acceptedAnswers": [
+      "dal"
+     ]
     },
     {
      "id": "g4",
-     "options": [
-      "sulla",
-      "sul",
-      "sulle"
-     ],
-     "answer": "sulla"
+     "acceptedAnswers": [
+      "del"
+     ]
     },
     {
      "id": "g5",
-     "options": [
-      "nell'",
-      "nella",
-      "nello"
-     ],
-     "answer": "nell'"
+     "acceptedAnswers": [
+      "nella"
+     ]
     },
     {
      "id": "g6",
-     "options": [
-      "sulla",
-      "sul",
-      "sulle"
-     ],
-     "answer": "sulla"
+     "acceptedAnswers": [
+      "dalla"
+     ]
     },
     {
      "id": "g7",
-     "options": [
-      "nel",
-      "nello",
-      "nella"
-     ],
-     "answer": "nel"
+     "acceptedAnswers": [
+      "sul"
+     ]
     },
     {
      "id": "g8",
-     "options": [
-      "sugli",
-      "sui",
-      "sulle"
-     ],
-     "answer": "sugli"
+     "acceptedAnswers": [
+      "della"
+     ]
     }
    ]
   }

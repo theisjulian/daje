@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-ce-ci-sono-l1",
- "title": "c'è oder ci sono?",
+ "title": "C’è o ci sono?",
  "language": "it",
  "level": "A1",
- "description": "c'è und ci sono · c'è oder ci sono? (einfach).",
+ "description": "C’è e ci sono · C’è o ci sono? (einfach).",
  "topics": [
-  "c'è und ci sono",
+  "C’è e ci sono",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,66 +36,86 @@
  },
  "grammar": {
   "topic": "ecco1-ce-ci-sono",
-  "topicTitle": "c'è und ci sono",
+  "topicTitle": "C’è e ci sono",
   "difficulty": "leicht",
   "origin": "own",
   "order": 101,
-  "rule": "- **c'è** + Singular: _In piazza **c'è** un bar._ (Es gibt / da ist)\n- **ci sono** + Plural: _Nel quartiere **ci sono** due negozi._ (Es gibt / da sind)\n- Frage: _C'è un parco qui?_ · Verneinung: _Non c'è un cinema._"
+  "rule": "- **c’è** + singolare: _In piazza **c’è** un bar._\n- **ci sono** + plurale: _Nel quartiere **ci sono** due negozi._\n- Domanda: _C’è un parco qui?_ · Negazione: _Non c’è un cinema._\n- **c’è** dice che una cosa esiste; **è** dice dove è una cosa precisa: _C’è un museo. Il museo è in piazza._",
+  "ruleHelp": "- **c’è** + Singular: _In piazza c’è un bar._ (Es gibt / da ist)\n- **ci sono** + Plural: _Nel quartiere ci sono due negozi._ (Es gibt / da sind)\n- Frage: _C’è un parco qui?_ · Verneinung: _Non c’è un cinema._\n- **c’è** sagt, dass etwas existiert; **è** sagt, wo etwas Bestimmtes ist: _C’è un museo. Il museo è in piazza._"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle c'è oder ci sono.",
+   "prompt": "Scegli c’è o ci sono.",
+   "promptHelp": "Wähle c’è oder ci sono.",
+   "explanation": "Una cosa (singolare) → c’è; tante cose (plurale) → ci sono.",
+   "explanationHelp": "Ein Ding (Singular) → c’è; mehrere (Plural) → ci sono.",
    "type": "gap_choice",
-   "text": "In centro [[g1]] un parco.\nNel quartiere [[g2]] molti negozi.\nA Torino [[g3]] il fiume Po.\nIn piazza [[g4]] due bar.\n[[g5]] una pista di skateboard?\nQui [[g6]] tre campi sportivi.",
+   "text": "In centro [[g1]] un parco.\nNel quartiere [[g2]] molti negozi.\nA Torino [[g3]] il fiume Po.\nIn piazza [[g4]] due bar.\n[[g5]] una pista di skateboard?\nQui [[g6]] tre campi sportivi.\nIn classe [[g7]] venti ragazzi.\nVicino a casa [[g8]] una fermata.",
    "gaps": [
     {
      "id": "g1",
      "options": [
-      "c'è",
+      "c’è",
       "ci sono"
      ],
-     "answer": "c'è"
+     "answer": "c’è"
     },
     {
      "id": "g2",
      "options": [
       "ci sono",
-      "c'è"
+      "c’è"
      ],
      "answer": "ci sono"
     },
     {
      "id": "g3",
      "options": [
-      "c'è",
+      "c’è",
       "ci sono"
      ],
-     "answer": "c'è"
+     "answer": "c’è"
     },
     {
      "id": "g4",
      "options": [
       "ci sono",
-      "c'è"
+      "c’è"
      ],
      "answer": "ci sono"
     },
     {
      "id": "g5",
      "options": [
-      "C'è",
+      "C’è",
       "Ci sono"
      ],
-     "answer": "C'è"
+     "answer": "C’è"
     },
     {
      "id": "g6",
      "options": [
       "ci sono",
-      "c'è"
+      "c’è"
      ],
      "answer": "ci sono"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "ci sono",
+      "c’è"
+     ],
+     "answer": "ci sono"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "c’è",
+      "ci sono"
+     ],
+     "answer": "c’è"
     }
    ]
   }

@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-a-in-s1",
- "title": "Fehler finden",
+ "title": "Trova gli errori",
  "language": "it",
  "level": "A1",
- "description": "Die Präpositionen a und in · Fehler finden (schwer).",
+ "description": "Le preposizioni a e in · Trova gli errori (schwer).",
  "topics": [
-  "Die Präpositionen a und in",
+  "Le preposizioni a e in",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-a-in",
-  "topicTitle": "Die Präpositionen a und in",
+  "topicTitle": "Le preposizioni a e in",
   "difficulty": "schwer",
   "origin": "own",
   "order": 41,
-  "rule": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino, a Roma, a Berlino_\n- **in** + Land oder Region: _in Italia, in Germania, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_\n- **a** + bestimmte Orte ohne Artikel: _a scuola, a casa_"
+  "rule": "Per i luoghi usiamo:\n- **a** + città: _abito a Torino, a Roma, a Berlino_\n- **in** + paese o regione: _in Italia, in Germania, in Piemonte_\n- **in** + via, piazza: _in via Roma, in piazza_\n- **a** + casa, scuola: _a casa, a scuola_\n- **in** + centro, biblioteca, montagna: _in centro, in biblioteca_",
+  "ruleHelp": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino_ · **in** + Land oder Region: _in Italia, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_ · **a** + casa, scuola: _a casa, a scuola_\n- **in** + centro, biblioteca, montagna"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Korrigiere die falschen Präpositionen.",
-   "explanation": "Stadt → a, Land → in, Straße → in, a scuola.",
+   "prompt": "Correggi le preposizioni sbagliate.",
+   "promptHelp": "Korrigiere die falschen Präpositionen.",
+   "explanation": "Città → a, paese → in, via → in, a scuola, a casa, in biblioteca, in centro.",
+   "explanationHelp": "Stadt → a, Land → in, Straße → in, a scuola, a casa, in biblioteca, in centro.",
    "type": "error_correction",
-   "text": "Abito [[g1]] Torino.\nMio cugino abita [[g2]] Francia.\nSono [[g3]] scuola.\nIl negozio è [[g4]] via Roma.",
+   "text": "Abito [[g1]] Torino.\nMio cugino abita [[g2]] Francia.\nSono [[g3]] scuola.\nIl negozio è [[g4]] via Roma.\nOggi studio [[g5]] biblioteca.\nMia nonna abita [[g6]] Bari.\nAndiamo [[g7]] centro?\nLa sera resto [[g8]] casa.",
    "errors": [
     {
      "id": "g1",
@@ -76,6 +79,34 @@
      "wrong": "a",
      "acceptedAnswers": [
       "in"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "a",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "in",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "a",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "in",
+     "acceptedAnswers": [
+      "a"
      ]
     }
    ]

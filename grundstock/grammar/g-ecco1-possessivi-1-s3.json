@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-possessivi-1-s3",
+ "title": "Presentare le cose",
+ "language": "it",
+ "level": "A1",
+ "description": "Gli aggettivi possessivi (1) · Presentare le cose · livello difficile.",
+ "topics": [
+  "Gli aggettivi possessivi (1)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 2 · La mia camera · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-possessivi-1",
+  "topicTitle": "Gli aggettivi possessivi (1)",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 53,
+  "rule": "Prima del possessivo di solito c’è **l’articolo**:\n| | m. sing. | f. sing. | m. plur. | f. plur. |\n| io | il mio | la mia | i miei | le mie |\n| tu | il tuo | la tua | i tuoi | le tue |\n| lui / lei | il suo | la sua | i suoi | le sue |\n| noi | il nostro | la nostra | i nostri | le nostre |\n| voi | il vostro | la vostra | i vostri | le vostre |\n| loro | il loro | la loro | i loro | le loro |\n\nLa forma dipende dalla **cosa**, non dalla persona: _Marco e **la sua** borsa_, _Giulia e **il suo** zaino_.",
+  "ruleHelp": "Vor dem Possessivbegleiter steht meist der **Artikel**: il mio zaino, la mia borsa, i miei libri, le mie riviste.\nDie Form richtet sich nach dem **Besitz**, nicht nach dem Besitzer: _Marco e la sua borsa_ (seine Tasche), _Giulia e il suo zaino_ (ihr Rucksack). loro bleibt immer gleich."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi la frase con il possessivo.",
+   "promptHelp": "Schreibe den Satz mit dem Possessivbegleiter.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "(io / camera / grande)",
+     "acceptedAnswers": [
+      "La mia camera è grande"
+     ],
+     "modelAnswer": "La mia camera è grande."
+    },
+    {
+     "id": "s2",
+     "start": "(tu / libri / nuovi?)",
+     "acceptedAnswers": [
+      "I tuoi libri sono nuovi"
+     ],
+     "modelAnswer": "I tuoi libri sono nuovi?"
+    },
+    {
+     "id": "s3",
+     "start": "(Marco / bici / rossa)",
+     "acceptedAnswers": [
+      "La sua bici è rossa"
+     ],
+     "modelAnswer": "La sua bici è rossa."
+    },
+    {
+     "id": "s4",
+     "start": "(noi / gatto / nero)",
+     "acceptedAnswers": [
+      "Il nostro gatto è nero"
+     ],
+     "modelAnswer": "Il nostro gatto è nero."
+    },
+    {
+     "id": "s5",
+     "start": "(voi / scarpe / qui)",
+     "acceptedAnswers": [
+      "Le vostre scarpe sono qui"
+     ],
+     "modelAnswer": "Le vostre scarpe sono qui."
+    },
+    {
+     "id": "s6",
+     "start": "(loro / casa / vicino)",
+     "acceptedAnswers": [
+      "La loro casa è vicino"
+     ],
+     "modelAnswer": "La loro casa è vicino."
+    },
+    {
+     "id": "s7",
+     "start": "(Giulia / zaino / pesante)",
+     "acceptedAnswers": [
+      "Il suo zaino è pesante"
+     ],
+     "modelAnswer": "Il suo zaino è pesante."
+    },
+    {
+     "id": "s8",
+     "start": "(io / amici / simpatici)",
+     "acceptedAnswers": [
+      "I miei amici sono simpatici"
+     ],
+     "modelAnswer": "I miei amici sono simpatici."
+    }
+   ]
+  }
+ ]
+}

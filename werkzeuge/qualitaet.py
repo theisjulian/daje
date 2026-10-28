@@ -52,9 +52,28 @@ def check_vocab(p, f):
             if not IPA_OK.match(ipa): hard.append(f'{f}/{t}: IPA enthält ungültige Zeichen: {ipa}')
             elif abs(vowel_groups(t.split()[-1]) - ipa_nuclei(ipa)) > 1: soft.append(f'{f}/{t}: IPA-Silbenzahl passt nicht: {ipa}')
 
+def grammar_units(q):
+    t = q['type']
+    if t in ('gap_fill', 'gap_choice', 'note_fill'): return len(q['gaps'])
+    if t == 'error_correction': return len(q['errors'])
+    if t == 'matching': return len(q['pairs'])
+    if t in ('categorize', 'speaker_match', 'sentence_completion'): return len(q['items'])
+    if t == 'table_fill': return sum(1 for r in q['rows'] for c in r if isinstance(c, dict))
+    if t == 'ordering': return 3  # ein Satz zum Ordnen zählt wie drei Einheiten
+    if t == 'open_answer': return 8
+    return 1
+
+MIN_UNITS = 8
+
 def check_grammar(p, f):
     q = p['questions']
     g = p.get('grammar', {})
+    n = sum(grammar_units(x) for x in q)
+    if n < MIN_UNITS: hard.append(f'{f}: zu kurz ({n} Einheiten, mindestens {MIN_UNITS})')
+    for x in q:
+        if not x.get('promptHelp'): soft.append(f'{f}/{x["id"]}: Anweisung ohne deutsche Hilfe')
+        if x.get('explanation') and not x.get('explanationHelp'): soft.append(f'{f}/{x["id"]}: Erklärung ohne deutsche Hilfe')
+    if g.get('rule') and not g.get('ruleHelp'): soft.append(f'{f}: Merkkasten ohne deutsche Fassung')
     if g.get('origin') == 'original': hard.append(f'{f}: Originalübung aus einem Buch gehört nicht in den Grundstock')
     if not 1 <= len(q) <= 6: soft.append(f'{f}: {len(q)} Aufgaben (Richtwert 1–6)')
     for x in q:

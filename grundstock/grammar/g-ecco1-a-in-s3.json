@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-a-in-s3",
- "title": "Wo wohnst du?",
+ "title": "Dove abiti?",
  "language": "it",
  "level": "A1",
- "description": "Die Präpositionen a und in · Wo wohnst du? (schwer).",
+ "description": "Le preposizioni a e in · Dove abiti? (schwer).",
  "topics": [
-  "Die Präpositionen a und in",
+  "Le preposizioni a e in",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 3,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,62 @@
  },
  "grammar": {
   "topic": "ecco1-a-in",
-  "topicTitle": "Die Präpositionen a und in",
+  "topicTitle": "Le preposizioni a e in",
   "difficulty": "schwer",
   "origin": "own",
   "order": 43,
-  "rule": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino, a Roma, a Berlino_\n- **in** + Land oder Region: _in Italia, in Germania, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_\n- **a** + bestimmte Orte ohne Artikel: _a scuola, a casa_"
+  "rule": "Per i luoghi usiamo:\n- **a** + città: _abito a Torino, a Roma, a Berlino_\n- **in** + paese o regione: _in Italia, in Germania, in Piemonte_\n- **in** + via, piazza: _in via Roma, in piazza_\n- **a** + casa, scuola: _a casa, a scuola_\n- **in** + centro, biblioteca, montagna: _in centro, in biblioteca_",
+  "ruleHelp": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino_ · **in** + Land oder Region: _in Italia, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_ · **a** + casa, scuola: _a casa, a scuola_\n- **in** + centro, biblioteca, montagna"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Schreibe 4 Sätze: Wo wohnst du, wo wohnen Freunde oder Verwandte, wo ist deine Schule? Benutze a und in.",
+   "prompt": "Scrivi 4 frasi: dove abiti, dove abitano amici o parenti, dov’è la tua scuola? Usa a e in.",
+   "promptHelp": "Schreibe 4 Sätze: Wo wohnst du, wo wohnen Freunde oder Verwandte, wo ist deine Schule? Benutze a und in.",
    "type": "open_answer",
    "modelAnswer": "Abito a Monaco, in Germania. Mia nonna abita a Verona, in Italia. La mia scuola è in via Mozart. Il pomeriggio sono a casa.",
    "lines": 4
+  },
+  {
+   "id": "q2",
+   "prompt": "E adesso completa.",
+   "promptHelp": "Und jetzt ergänze.",
+   "explanation": "Città → a, regione e via → in.",
+   "explanationHelp": "Stadt → a, Region und Straße → in.",
+   "type": "gap_fill",
+   "text": "Io abito [[g1]] Monaco, [[g2]] Baviera.\nLa mia scuola è [[g3]] via Mozart.\nIl sabato sono [[g4]] centro con gli amici.\nLa domenica resto [[g5]] casa.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "a"
+     ]
+    }
+   ]
   }
  ]
 }

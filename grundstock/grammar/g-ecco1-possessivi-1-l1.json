@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-possessivi-1-l1",
- "title": "mio, mia, miei, mie?",
+ "title": "Mio, mia, miei, mie?",
  "language": "it",
  "level": "A1",
- "description": "Possessivbegleiter (I) · mio, mia, miei, mie? (einfach).",
+ "description": "Gli aggettivi possessivi (1) · Mio, mia, miei, mie? · livello facile.",
  "topics": [
-  "Possessivbegleiter (I)",
+  "Gli aggettivi possessivi (1)",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-possessivi-1",
-  "topicTitle": "Possessivbegleiter (I)",
+  "topicTitle": "Gli aggettivi possessivi (1)",
   "difficulty": "leicht",
   "origin": "own",
   "order": 51,
-  "rule": "Vor dem Possessivbegleiter steht im Italienischen meist der **Artikel**:\n| | männlich Sg. | weiblich Sg. | männlich Pl. | weiblich Pl. |\n| io | il mio | la mia | i miei | le mie |\n| tu | il tuo | la tua | i tuoi | le tue |\n| lui / lei | il suo | la sua | i suoi | le sue |\n| noi | il nostro | la nostra | i nostri | le nostre |\n| voi | il vostro | la vostra | i vostri | le vostre |\n| loro | il loro | la loro | i loro | le loro |\n\nDie Form richtet sich nach dem **Besitz**, nicht nach dem Besitzer: _Marco e **la sua** borsa_ (seine Tasche), _Giulia e **il suo** zaino_ (ihr Rucksack)."
+  "rule": "Prima del possessivo di solito c’è **l’articolo**:\n| | m. sing. | f. sing. | m. plur. | f. plur. |\n| io | il mio | la mia | i miei | le mie |\n| tu | il tuo | la tua | i tuoi | le tue |\n| lui / lei | il suo | la sua | i suoi | le sue |\n| noi | il nostro | la nostra | i nostri | le nostre |\n| voi | il vostro | la vostra | i vostri | le vostre |\n| loro | il loro | la loro | i loro | le loro |\n\nLa forma dipende dalla **cosa**, non dalla persona: _Marco e **la sua** borsa_, _Giulia e **il suo** zaino_.",
+  "ruleHelp": "Vor dem Possessivbegleiter steht meist der **Artikel**: il mio zaino, la mia borsa, i miei libri, le mie riviste.\nDie Form richtet sich nach dem **Besitz**, nicht nach dem Besitzer: _Marco e la sua borsa_ (seine Tasche), _Giulia e il suo zaino_ (ihr Rucksack). loro bleibt immer gleich."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle die richtige Form.",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
    "type": "gap_choice",
-   "text": "[[g1]] zaino è nero.\n[[g2]] borsa è nuova.\n[[g3]] libri sono sul tavolo.\n[[g4]] riviste sono in camera.\n[[g5]] cellulare è qui.\n[[g6]] camera è grande.",
+   "text": "[[g1]] zaino è nero.\n[[g2]] borsa è nuova.\n[[g3]] libri sono sul tavolo.\n[[g4]] riviste sono in camera.\n[[g5]] cellulare è qui.\n[[g6]] camera è grande.\n[[g7]] amici sono simpatici.\n[[g8]] scarpe sono sotto il letto.",
    "gaps": [
     {
      "id": "g1",
@@ -102,6 +104,24 @@
       "Le tue"
      ],
      "answer": "La tua"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "I tuoi",
+      "Le tue",
+      "Il tuo"
+     ],
+     "answer": "I tuoi"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "Le tue",
+      "I tuoi",
+      "La tua"
+     ],
+     "answer": "Le tue"
     }
    ]
   }

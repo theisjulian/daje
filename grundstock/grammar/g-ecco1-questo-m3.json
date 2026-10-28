@@ -1,0 +1,120 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-questo-m3",
+ "title": "Dal singolare al plurale",
+ "language": "it",
+ "level": "A1",
+ "description": "Questo, questa, questi, queste · Dal singolare al plurale · livello medio.",
+ "topics": [
+  "Questo, questa, questi, queste",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 2 · La mia camera · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-questo",
+  "topicTitle": "Questo, questa, questi, queste",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 33,
+  "rule": "**questo** cambia come il nome:\n| | singolare | plurale |\n| maschile | questo zaino | questi zaini |\n| femminile | questa borsa | queste borse |\n\nDavanti a vocale spesso: _quest’armadio, quest’idea_. Da solo (senza nome): _Questo è il mio zaino._",
+  "ruleHelp": "**questo** (dieser, diese, dieses) richtet sich nach dem Nomen: questo zaino, questa borsa, questi zaini, queste borse.\nVor Vokal oft: _quest’armadio, quest’idea_. Allein (ohne Nomen): _Questo è il mio zaino._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi al plurale.",
+   "promptHelp": "Schreibe im Plural.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "questo libro → …",
+     "acceptedAnswers": [
+      "questi libri"
+     ],
+     "modelAnswer": "questi libri"
+    },
+    {
+     "id": "s2",
+     "start": "questa sedia → …",
+     "acceptedAnswers": [
+      "queste sedie"
+     ],
+     "modelAnswer": "queste sedie"
+    },
+    {
+     "id": "s3",
+     "start": "questo armadio → …",
+     "acceptedAnswers": [
+      "questi armadi"
+     ],
+     "modelAnswer": "questi armadi"
+    },
+    {
+     "id": "s4",
+     "start": "questa rivista → …",
+     "acceptedAnswers": [
+      "queste riviste"
+     ],
+     "modelAnswer": "queste riviste"
+    },
+    {
+     "id": "s5",
+     "start": "questo poster → …",
+     "acceptedAnswers": [
+      "questi poster"
+     ],
+     "modelAnswer": "questi poster"
+    },
+    {
+     "id": "s6",
+     "start": "questa borsa → …",
+     "acceptedAnswers": [
+      "queste borse"
+     ],
+     "modelAnswer": "queste borse"
+    },
+    {
+     "id": "s7",
+     "start": "questo quaderno → …",
+     "acceptedAnswers": [
+      "questi quaderni"
+     ],
+     "modelAnswer": "questi quaderni"
+    },
+    {
+     "id": "s8",
+     "start": "questa città → …",
+     "acceptedAnswers": [
+      "queste città"
+     ],
+     "modelAnswer": "queste città"
+    }
+   ]
+  }
+ ]
+}

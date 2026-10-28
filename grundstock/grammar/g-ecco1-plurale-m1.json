@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-plurale-m1",
- "title": "Plural bilden",
+ "title": "Fare il plurale",
  "language": "it",
  "level": "A1",
- "description": "Der Plural: Artikel und Nomen · Plural bilden (mittel).",
+ "description": "Il plurale: articolo e nome · Fare il plurale (mittel).",
  "topics": [
-  "Der Plural: Artikel und Nomen",
+  "Il plurale: articolo e nome",
   "Grammatik"
  ],
  "sources": [
@@ -36,21 +36,24 @@
  },
  "grammar": {
   "topic": "ecco1-plurale",
-  "topicTitle": "Der Plural: Artikel und Nomen",
+  "topicTitle": "Il plurale: articolo e nome",
   "difficulty": "mittel",
   "origin": "own",
   "order": 81,
-  "rule": "**Nomen:**\n| Singular | Plural | Beispiel |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù (betont) | bleibt | la città → le città |\n\n**Artikel:**\n| Singular | Plural |\n| il | i |\n| lo, l' (männlich) | gli |\n| la, l' (weiblich) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_"
+  "rule": "**Nomi:**\n| singolare | plurale | esempio |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù | non cambia | la città → le città |\n\n**Articoli:**\n| singolare | plurale |\n| il | i |\n| lo, l’ (maschile) | gli |\n| la, l’ (femminile) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_\n**Attenzione:** lo sport → gli sport, il bar → i bar (parole straniere non cambiano).",
+  "ruleHelp": "Nomen: -o → -i, -a → -e, -e → -i; betonte Endung (-à, -ù) bleibt gleich (la città → le città).\nArtikel: il → i · lo, l’ (männlich) → gli · la, l’ (weiblich) → le.\n**Achtung:** Fremdwörter bleiben gleich: lo sport → gli sport, il bar → i bar."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Bilde den Plural mit Artikel.",
-   "explanation": "Fremdwörter (lo sport, il bar) und betonte Endungen (la città) ändern sich im Plural nicht.",
+   "prompt": "Scrivi il plurale con l’articolo.",
+   "promptHelp": "Bilde den Plural mit Artikel.",
+   "explanation": "Le parole straniere (lo sport, il bar) e con accento finale (la città) non cambiano al plurale.",
+   "explanationHelp": "Fremdwörter (lo sport, il bar) und betonte Endungen (la città) ändern sich im Plural nicht.",
    "type": "table_fill",
    "columns": [
-    "Singular",
-    "Plural"
+    "singolare",
+    "plurale"
    ],
    "rows": [
     [
@@ -81,7 +84,7 @@
      }
     ],
     [
-     "l'attrazione",
+     "l’attrazione",
      {
       "id": "c4",
       "acceptedAnswers": [
@@ -104,6 +107,24 @@
       "id": "c6",
       "acceptedAnswers": [
        "le città"
+      ]
+     }
+    ],
+    [
+     "lo studente",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "gli studenti"
+      ]
+     }
+    ],
+    [
+     "l’amico",
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "gli amici"
       ]
      }
     ]

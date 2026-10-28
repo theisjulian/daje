@@ -1,0 +1,129 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-preposizioni-articolate-l3",
+ "title": "Una frase, una forma",
+ "language": "it",
+ "level": "A1",
+ "description": "Le preposizioni articolate · Una frase, una forma · livello facile.",
+ "topics": [
+  "Le preposizioni articolate",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 2 · La mia camera · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-preposizioni-articolate",
+  "topicTitle": "Le preposizioni articolate",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 43,
+  "rule": "Le preposizioni **a, da, di, in, su** si uniscono all’articolo determinativo:\n| | il | lo | l’ | la | i | gli | le |\n| a | al | allo | all’ | alla | ai | agli | alle |\n| da | dal | dallo | dall’ | dalla | dai | dagli | dalle |\n| di | del | dello | dell’ | della | dei | degli | delle |\n| in | nel | nello | nell’ | nella | nei | negli | nelle |\n| su | sul | sullo | sull’ | sulla | sui | sugli | sulle |\n\n**con** e **per** non si uniscono: _con il papà, per la mamma._ Anche **sotto, davanti, accanto** + a: _accanto al letto, davanti alla scuola, sotto il tavolo._",
+  "ruleHelp": "Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel (z. B. in + il = nel, su + la = sulla, di + i = dei).\n**con** und **per** verschmelzen nicht: _con il papà, per la mamma._ sotto steht ohne a: _sotto il tavolo_; accanto/davanti mit a: _accanto al letto_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la preposizione articolata giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "type": "gap_choice",
+   "text": "Vado [[g1]] cinema.\nTorno [[g2]] scuola.\nIl libro [[g3]] professoressa è qui.\nAndiamo [[g4]] stadio.\nIl gatto è [[g5]] giardino.\nTelefono [[g6]] amici.\nIl poster è [[g7]] porta.\nLa casa [[g8]] nonni è grande.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "al",
+      "alla",
+      "allo"
+     ],
+     "answer": "al"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "dalla",
+      "dal",
+      "dallo"
+     ],
+     "answer": "dalla"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "della",
+      "del",
+      "dello"
+     ],
+     "answer": "della"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "allo",
+      "al",
+      "all’"
+     ],
+     "answer": "allo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "nel",
+      "nella",
+      "nei"
+     ],
+     "answer": "nel"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "agli",
+      "ai",
+      "alle"
+     ],
+     "answer": "agli"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "sulla",
+      "sul",
+      "sulle"
+     ],
+     "answer": "sulla"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "dei",
+      "degli",
+      "delle"
+     ],
+     "answer": "dei"
+    }
+   ]
+  }
+ ]
+}

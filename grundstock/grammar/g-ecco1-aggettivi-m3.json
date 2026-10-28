@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-aggettivi-m3",
- "title": "Vor oder nach dem Nomen?",
+ "title": "Prima o dopo il nome?",
  "language": "it",
  "level": "A1",
- "description": "Adjektive und ihre Stellung · Vor oder nach dem Nomen? (mittel).",
+ "description": "Gli aggettivi e la loro posizione · Prima o dopo il nome? · livello medio.",
  "topics": [
-  "Adjektive und ihre Stellung",
+  "Gli aggettivi e la loro posizione",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 11,
+ "estimatedMinutes": 21,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,16 +36,18 @@
  },
  "grammar": {
   "topic": "ecco1-aggettivi",
-  "topicTitle": "Adjektive und ihre Stellung",
+  "topicTitle": "Gli aggettivi e la loro posizione",
   "difficulty": "mittel",
   "origin": "own",
   "order": 73,
-  "rule": "Adjektive richten sich nach dem Nomen (Geschlecht und Zahl):\n| Typ | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| -o/-a | nuovo | nuova | nuovi | nuove |\n| -e | grande | grande | grandi | grandi |\n\n**Stellung:** meist **nach** dem Nomen: _un libro **interessante**, una camera **grande**._ Einige kurze, häufige Adjektive stehen oft davor: _un **bel** posto, un **piccolo** problema, una **vecchia** foto._\n**Achtung:** _bello_ vor dem Nomen verändert sich wie der Artikel: _un bel gatto, un bello zaino, i bei libri._"
+  "rule": "L’aggettivo cambia come il nome (genere e numero):\n| tipo | m. sing. | f. sing. | m. plur. | f. plur. |\n| -o/-a | nuovo | nuova | nuovi | nuove |\n| -e | grande | grande | grandi | grandi |\n\n**Posizione:** di solito **dopo** il nome: _un libro **interessante**, una camera **grande**._ Alcuni aggettivi brevi e frequenti stanno spesso prima: _un **bel** posto, un **piccolo** problema._\n**Attenzione:** _ultimo_ sta sempre prima: _l’ultima novità._",
+  "ruleHelp": "Adjektive richten sich nach dem Nomen (Geschlecht und Zahl): nuovo, nuova, nuovi, nuove · grande, grandi.\n**Stellung:** meist **nach** dem Nomen: _un libro interessante._ Einige kurze, häufige Adjektive oft davor: _un bel posto, un piccolo problema._ _ultimo_ steht immer vorn."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Welcher Satz ist richtig?",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
    "type": "single_choice",
    "options": [
     {
@@ -65,7 +67,8 @@
   },
   {
    "id": "q2",
-   "prompt": "Welcher Satz klingt richtig?",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz klingt richtig?",
    "type": "single_choice",
    "options": [
     {
@@ -85,7 +88,8 @@
   },
   {
    "id": "q3",
-   "prompt": "Welcher Satz ist richtig?",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
    "type": "single_choice",
    "options": [
     {
@@ -105,7 +109,8 @@
   },
   {
    "id": "q4",
-   "prompt": "Welcher Satz ist richtig?",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
    "type": "single_choice",
    "options": [
     {
@@ -119,6 +124,90 @@
     {
      "id": "o3",
      "text": "Ecco un posto bel!"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q5",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Sente le ultime novità."
+    },
+    {
+     "id": "o2",
+     "text": "Sente le novità ultime."
+    },
+    {
+     "id": "o3",
+     "text": "Sente le ultima novità."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q6",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Abbiamo una casa moderna."
+    },
+    {
+     "id": "o2",
+     "text": "Abbiamo una moderno casa."
+    },
+    {
+     "id": "o3",
+     "text": "Abbiamo una casa moderno."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q7",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Ci sono due poster grandi."
+    },
+    {
+     "id": "o2",
+     "text": "Ci sono due grandi poster grande."
+    },
+    {
+     "id": "o3",
+     "text": "Ci sono due poster grande."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q8",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "È una ragazza simpatica."
+    },
+    {
+     "id": "o2",
+     "text": "È una simpatico ragazza."
+    },
+    {
+     "id": "o3",
+     "text": "È una ragazza simpatico."
     }
    ],
    "correctOptionId": "o1"

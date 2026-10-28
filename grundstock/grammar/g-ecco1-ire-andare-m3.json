@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-ire-andare-m3",
- "title": "Dove vanno?",
+ "title": "Un sabato",
  "language": "it",
  "level": "A1",
- "description": "Verben auf -ire und andare · Dove vanno? (mittel).",
+ "description": "I verbi in -ire e andare · Un sabato · livello medio.",
  "topics": [
-  "Verben auf -ire und andare",
+  "I verbi in -ire e andare",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,52 +36,67 @@
  },
  "grammar": {
   "topic": "ecco1-ire-andare",
-  "topicTitle": "Verben auf -ire und andare",
+  "topicTitle": "I verbi in -ire e andare",
   "difficulty": "mittel",
   "origin": "own",
   "order": 63,
-  "rule": "**Verben auf -ire** (ohne Stammerweiterung):\n| Person | dormire | sentire |\n| io | dorm**o** | sent**o** |\n| tu | dorm**i** | sent**i** |\n| lui / lei | dorm**e** | sent**e** |\n| noi | dorm**iamo** | sent**iamo** |\n| voi | dorm**ite** | sent**ite** |\n| loro | dorm**ono** | sent**ono** |\n\nWie -ere, nur **voi -ite**.\n**andare** (gehen, fahren) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| vado | vai | va | andiamo | andate | vanno |\n\n_Vado a scuola. Andiamo al concerto._"
+  "rule": "**Verbi in -ire** (senza -isc-):\n| persona | dormire | sentire |\n| io | dorm**o** | sent**o** |\n| tu | dorm**i** | sent**i** |\n| lui / lei | dorm**e** | sent**e** |\n| noi | dorm**iamo** | sent**iamo** |\n| voi | dorm**ite** | sent**ite** |\n| loro | dorm**ono** | sent**ono** |\n\nCome -ere, ma **voi -ite**.\n**andare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| vado | vai | va | andiamo | andate | vanno |\n\n_Vado a scuola. Andiamo al concerto._",
+  "ruleHelp": "Verben auf -ire (ohne Stammerweiterung) gehen wie -ere, nur **voi -ite** (dormite, sentite).\n**andare** (gehen, fahren) ist unregelmäßig: vado, vai, va, andiamo, andate, vanno."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze andare in der richtigen Form.",
-   "explanation": "andare: vado, vai, va, andiamo, andate, vanno.",
+   "prompt": "Scrivi i verbi nella forma giusta.",
+   "promptHelp": "Setze die Verben in die richtige Form.",
+   "explanation": "venire è irregolare: voi venite.",
+   "explanationHelp": "venire ist unregelmäßig: voi venite.",
    "type": "gap_fill",
-   "text": "Io [[g1]] a scuola a piedi.\nTu [[g2]] in palestra oggi?\nMarco [[g3]] al mare con la famiglia.\nNoi [[g4]] al cinema stasera.\nVoi [[g5]] in vacanza in Sicilia?\nI miei genitori [[g6]] al lavoro in macchina.",
+   "text": "Il sabato mattina io (dormire) [[g1]] a lungo.\nPoi (aprire) [[g2]] la finestra e (sentire) [[g3]] la musica dei vicini.\nMio fratello (partire) [[g4]] per una gita.\nNel pomeriggio noi (andare) [[g5]] in centro.\nVoi (venire) [[g6]] con noi? – No, noi (dormire) [[g7]]!\nLa sera i miei amici (andare) [[g8]] a una festa.",
    "gaps": [
     {
      "id": "g1",
      "acceptedAnswers": [
-      "vado"
+      "dormo"
      ]
     },
     {
      "id": "g2",
      "acceptedAnswers": [
-      "vai"
+      "apro"
      ]
     },
     {
      "id": "g3",
      "acceptedAnswers": [
-      "va"
+      "sento"
      ]
     },
     {
      "id": "g4",
      "acceptedAnswers": [
-      "andiamo"
+      "parte"
      ]
     },
     {
      "id": "g5",
      "acceptedAnswers": [
-      "andate"
+      "andiamo"
      ]
     },
     {
      "id": "g6",
+     "acceptedAnswers": [
+      "venite"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "dormiamo"
+     ]
+    },
+    {
+     "id": "g8",
      "acceptedAnswers": [
       "vanno"
      ]

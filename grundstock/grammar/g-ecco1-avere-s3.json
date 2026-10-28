@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-avere-s3",
- "title": "avere oder essere?",
+ "title": "Errori nel profilo",
  "language": "it",
  "level": "A1",
- "description": "Das Verb avere · avere oder essere? (schwer).",
+ "description": "Il verbo avere · Errori nel profilo · livello difficile.",
  "topics": [
-  "Das Verb avere",
+  "Il verbo avere",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 12,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,99 +36,76 @@
  },
  "grammar": {
   "topic": "ecco1-avere",
-  "topicTitle": "Das Verb avere",
+  "topicTitle": "Il verbo avere",
   "difficulty": "schwer",
   "origin": "own",
   "order": 13,
-  "rule": "**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.\n| io | tu | lui / lei | noi | voi | loro |\n| ho | hai | ha | abbiamo | avete | hanno |\n\nDas Alter sagt man mit avere: _Quanti anni **hai**? – **Ho** quattordici anni._\n**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr)."
+  "rule": "**avere** è irregolare. La **h** non si pronuncia.\n| io | tu | lui / lei | noi | voi | loro |\n| ho | hai | ha | abbiamo | avete | hanno |\n\nL’età si dice con avere: _Quanti anni **hai**? – **Ho** quattordici anni._\n**Attenzione:** _ha_ (verbo) ≠ _a_ (preposizione) · _hanno_ (verbo) ≠ _anno_ (das Jahr).",
+  "ruleHelp": "**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.\nDas Alter sagt man mit avere: _Quanti anni hai? – Ho quattordici anni._ (nicht „ich bin 14“!)\n**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle avere oder essere in der richtigen Form.",
-   "explanation": "Alter: avere (ho 14 anni) – anders als im Deutschen „ich bin 14“.",
-   "type": "gap_choice",
-   "text": "Io [[g1]] quattordici anni e [[g2]] di Torino.\nMio fratello [[g3]] simpatico e [[g4]] un cane.\nNoi [[g5]] in classe 3A e [[g6]] una professoressa nuova.\nI miei nonni [[g7]] ottant'anni, ma [[g8]] molto attivi.\nTu [[g9]] un fratello? [[g10]] figlio unico?",
-   "gaps": [
+   "prompt": "Correggi gli otto errori.",
+   "promptHelp": "Korrigiere die acht Fehler.",
+   "type": "error_correction",
+   "text": "Mi chiamo Luca e [[g1]] quattordici anni.\nMia sorella [[g2]] undici anni.\nNoi [[g3]] un gatto.\nI miei cugini [[g4]] un cane.\nTu [[g5]] un animale?\nVoi [[g6]] fratelli?\nMio padre [[g7]] un negozio.\nIo [[g8]] una bici nuova.",
+   "errors": [
     {
      "id": "g1",
-     "options": [
-      "ho",
-      "sono"
-     ],
-     "answer": "ho"
+     "wrong": "sono",
+     "acceptedAnswers": [
+      "ho"
+     ]
     },
     {
      "id": "g2",
-     "options": [
-      "sono",
-      "ho"
-     ],
-     "answer": "sono"
+     "wrong": "a",
+     "acceptedAnswers": [
+      "ha"
+     ]
     },
     {
      "id": "g3",
-     "options": [
-      "è",
-      "ha"
-     ],
-     "answer": "è"
+     "wrong": "hanno",
+     "acceptedAnswers": [
+      "abbiamo"
+     ]
     },
     {
      "id": "g4",
-     "options": [
-      "ha",
-      "è"
-     ],
-     "answer": "ha"
+     "wrong": "anno",
+     "acceptedAnswers": [
+      "hanno"
+     ]
     },
     {
      "id": "g5",
-     "options": [
-      "siamo",
-      "abbiamo"
-     ],
-     "answer": "siamo"
+     "wrong": "ha",
+     "acceptedAnswers": [
+      "hai"
+     ]
     },
     {
      "id": "g6",
-     "options": [
-      "abbiamo",
-      "siamo"
-     ],
-     "answer": "abbiamo"
+     "wrong": "abbiamo",
+     "acceptedAnswers": [
+      "avete"
+     ]
     },
     {
      "id": "g7",
-     "options": [
-      "hanno",
-      "sono"
-     ],
-     "answer": "hanno"
+     "wrong": "hanno",
+     "acceptedAnswers": [
+      "ha"
+     ]
     },
     {
      "id": "g8",
-     "options": [
-      "sono",
-      "hanno"
-     ],
-     "answer": "sono"
-    },
-    {
-     "id": "g9",
-     "options": [
-      "hai",
-      "sei"
-     ],
-     "answer": "hai"
-    },
-    {
-     "id": "g10",
-     "options": [
-      "Sei",
-      "Hai"
-     ],
-     "answer": "Sei"
+     "wrong": "hai",
+     "acceptedAnswers": [
+      "ho"
+     ]
     }
    ]
   }

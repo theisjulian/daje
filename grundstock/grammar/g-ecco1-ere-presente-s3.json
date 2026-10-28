@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-ere-presente-s3",
- "title": "Tabelle -are und -ere",
+ "title": "Tabella -are e -ere",
  "language": "it",
  "level": "A1",
- "description": "Verben auf -ere im Präsens · Tabelle -are und -ere (schwer).",
+ "description": "I verbi in -ere al presente · Tabella -are e -ere (schwer).",
  "topics": [
-  "Verben auf -ere im Präsens",
+  "I verbi in -ere al presente",
   "Grammatik"
  ],
  "sources": [
@@ -36,19 +36,21 @@
  },
  "grammar": {
   "topic": "ecco1-ere-presente",
-  "topicTitle": "Verben auf -ere im Präsens",
+  "topicTitle": "I verbi in -ere al presente",
   "difficulty": "schwer",
   "origin": "own",
   "order": 93,
-  "rule": "| Person | prendere | vedere |\n| io | prend**o** | ved**o** |\n| tu | prend**i** | ved**i** |\n| lui / lei | prend**e** | ved**e** |\n| noi | prend**iamo** | ved**iamo** |\n| voi | prend**ete** | ved**ete** |\n| loro | prend**ono** | ved**ono** |\n\nUnterschied zu -are: **lui/lei -e** (nicht -a), **voi -ete**, **loro -ono**."
+  "rule": "| persona | prendere | vedere |\n| io | prend**o** | ved**o** |\n| tu | prend**i** | ved**i** |\n| lui / lei | prend**e** | ved**e** |\n| noi | prend**iamo** | ved**iamo** |\n| voi | prend**ete** | ved**ete** |\n| loro | prend**ono** | ved**ono** |\n\nDifferenza con -are: **lui/lei -e** (non -a), **voi -ete**, **loro -ono**.",
+  "ruleHelp": "Unterschied zu -are: **lui/lei -e** (nicht -a), **voi -ete**, **loro -ono** (siehe Tabelle)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze die Formen.",
+   "prompt": "Completa le forme.",
+   "promptHelp": "Ergänze die Formen.",
    "type": "table_fill",
    "columns": [
-    "Person",
+    "persona",
     "parlare",
     "leggere",
     "scrivere"

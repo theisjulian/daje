@@ -31,6 +31,7 @@ import json, re, sys, pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / 'grundstock' / 'grammar'
 ANNO = {'1': 'Primo anno', '2': 'Secondo anno', '3': 'Terzo anno'}
+LIVELLO = {'leicht': 'facile', 'mittel': 'medio', 'schwer': 'difficile'}
 LEVEL_MIN = {'leicht': 1.0, 'mittel': 1.3, 'schwer': 1.6}
 
 
@@ -256,7 +257,7 @@ def packages(book, topics):
             p = {
                 'format': 'theis-learning-package', 'schemaVersion': '1.2', 'kind': 'grammar', 'id': pid,
                 'title': e['title'], 'language': 'it', 'level': book['cefr'],
-                'description': f"{t['title']} · {e['title']} ({ {'leicht': 'einfach', 'mittel': 'mittel', 'schwer': 'schwer'}[e['level']] }).",
+                'description': f"{t['title']} · {e['title']} · livello {LIVELLO[e['level']]}.",
                 'topics': [t['title'], 'Grammatik'],
                 'sources': [{'kind': 'own', 'citation': f"Eigene Übung (daje), {ANNO[vol]}, {unit_label}.", 'rights': 'own'}],
                 'estimatedMinutes': minutes,
@@ -273,11 +274,18 @@ def packages(book, topics):
 if __name__ == '__main__':
     files = [pathlib.Path(a) for a in sys.argv[1:]] or sorted((ROOT / 'werkzeuge' / 'grammatik').glob('*/*.txt'))
     OUT.mkdir(parents=True, exist_ok=True)
-    count, topics_n = 0, 0
+    count, topics_n, written = 0, 0, set()
     for f in files:
         book, topics = parse(f)
         topics_n += len(topics)
         for pid, p in packages(book, topics):
             (OUT / f'{pid}.json').write_text(json.dumps(p, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+            written.add(pid + '.json')
             count += 1
+    # Vollständiger Lauf: Pakete, die es in den Quellen nicht mehr gibt, entfernen (nur Grammatik aus diesem Werkzeug).
+    if not sys.argv[1:]:
+        for old in OUT.glob('g-*.json'):
+            if old.name not in written:
+                old.unlink()
+                print('entfernt', old.name)
     print(f'{count} Grammatikübungen zu {topics_n} Themen geschrieben')

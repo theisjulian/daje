@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-mi-piace-l1",
- "title": "piace oder piacciono?",
+ "title": "Piace o piacciono?",
  "language": "it",
  "level": "A1",
- "description": "(non) mi piace / mi piacciono · piace oder piacciono? (einfach).",
+ "description": "(Non) mi piace / mi piacciono · Piace o piacciono? · livello facile.",
  "topics": [
-  "(non) mi piace / mi piacciono",
+  "(Non) mi piace / mi piacciono",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-mi-piace",
-  "topicTitle": "(non) mi piace / mi piacciono",
+  "topicTitle": "(Non) mi piace / mi piacciono",
   "difficulty": "leicht",
   "origin": "own",
   "order": 21,
-  "rule": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _**Non** mi piace il calcio._\n- Frage: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono."
+  "rule": "- **mi piace** + singolare o verbo all’infinito: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + plurale: _Mi piacciono le canzoni italiane._\n- Negazione: _**Non** mi piace il calcio._\n- Domanda: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nLa cosa che piace decide la forma: una cosa → piace, più cose → piacciono.",
+  "ruleHelp": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _Non mi piace il calcio._ · Frage: _Ti piace la storia?_\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle piace oder piacciono.",
-   "explanation": "Ein Ding oder ein Verb → piace. Mehrere Dinge (Plural) → piacciono.",
+   "prompt": "Scegli piace o piacciono.",
+   "promptHelp": "Wähle piace oder piacciono.",
+   "explanation": "Una cosa o un verbo → piace. Più cose (plurale) → piacciono.",
+   "explanationHelp": "Ein Ding oder ein Verb → piace. Mehrere Dinge (Plural) → piacciono.",
    "type": "gap_choice",
-   "text": "Mi [[g1]] la musica.\nMi [[g2]] i videogiochi.\nNon mi [[g3]] il calcio.\nTi [[g4]] le canzoni di Laura Pausini?\nMi [[g5]] ballare.\nNon mi [[g6]] i compiti.",
+   "text": "Mi [[g1]] la musica.\nMi [[g2]] i videogiochi.\nNon mi [[g3]] il calcio.\nTi [[g4]] le canzoni di Laura Pausini?\nMi [[g5]] ballare.\nNon mi [[g6]] i compiti.\nTi [[g7]] la pizza?\nMi [[g8]] i gatti.\nTi [[g9]] gli sport invernali?\nMi [[g10]] leggere fumetti.",
    "gaps": [
     {
      "id": "g1",
@@ -97,6 +100,38 @@
       "piace"
      ],
      "answer": "piacciono"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "piace",
+      "piacciono"
+     ],
+     "answer": "piace"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "piacciono",
+      "piace"
+     ],
+     "answer": "piacciono"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "piacciono",
+      "piace"
+     ],
+     "answer": "piacciono"
+    },
+    {
+     "id": "g10",
+     "options": [
+      "piace",
+      "piacciono"
+     ],
+     "answer": "piace"
     }
    ]
   }

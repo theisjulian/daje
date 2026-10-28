@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-are-presente-m2",
- "title": "Fragen und Antworten",
+ "title": "Domande e risposte",
  "language": "it",
  "level": "A1",
- "description": "Verben auf -are im Präsens · Fragen und Antworten (mittel).",
+ "description": "I verbi in -are al presente · Domande e risposte (mittel).",
  "topics": [
-  "Verben auf -are im Präsens",
+  "I verbi in -are al presente",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 5,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,17 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-are-presente",
-  "topicTitle": "Verben auf -are im Präsens",
+  "topicTitle": "I verbi in -are al presente",
   "difficulty": "mittel",
   "origin": "own",
   "order": 22,
-  "rule": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an:\n\n| Person | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** Bei _loro_ liegt die Betonung vorn: **a**bitano, **par**lano."
+  "rule": "I verbi in **-are** sono il gruppo più grande. Togli -are e aggiungi la desinenza:\n\n| persona | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDi solito non diciamo il pronome: _Abito a Torino._ La desinenza dice chi è.\n**Attenzione:** cercare → tu cer**chi**, giocare → noi gio**chiamo** · mangiare → tu mang**i**, noi mang**iamo**.",
+  "ruleHelp": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an (siehe Tabelle).\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** -care/-gare bekommen vor i ein h (cerchi, giochiamo); bei -iare fällt ein i weg (mangi, mangiamo). Bei loro liegt die Betonung vorn: **a**bitano."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Antworte mit derselben Verbform (io).",
-   "explanation": "Auf eine Frage mit tu antwortet man mit io: parli → parlo.",
+   "prompt": "Rispondi con la forma di io.",
+   "promptHelp": "Antworte mit derselben Verbform (io).",
+   "explanation": "A una domanda con tu rispondiamo con io: parli → parlo.",
+   "explanationHelp": "Auf eine Frage mit tu antwortet man mit io: parli → parlo.",
    "type": "sentence_completion",
    "items": [
     {
@@ -54,28 +57,64 @@
      "start": "Abiti a Torino? – Sì, … a Torino.",
      "acceptedAnswers": [
       "abito"
-     ]
+     ],
+     "modelAnswer": "Sì, abito a Torino."
     },
     {
      "id": "s2",
-     "start": "Parli francese? – Sì, … un po' francese.",
+     "start": "Parli francese? – Sì, … un po’ francese.",
      "acceptedAnswers": [
       "parlo"
-     ]
+     ],
+     "modelAnswer": "Sì, parlo un po’ francese."
     },
     {
      "id": "s3",
      "start": "Guardi la partita? – Sì, … la partita.",
      "acceptedAnswers": [
       "guardo"
-     ]
+     ],
+     "modelAnswer": "Sì, guardo la partita."
     },
     {
      "id": "s4",
      "start": "Arrivi adesso? – Sì, … adesso.",
      "acceptedAnswers": [
       "arrivo"
-     ]
+     ],
+     "modelAnswer": "Sì, arrivo adesso."
+    },
+    {
+     "id": "s5",
+     "start": "Studi l’inglese? – Sì, … l’inglese.",
+     "acceptedAnswers": [
+      "studio"
+     ],
+     "modelAnswer": "Sì, studio l’inglese."
+    },
+    {
+     "id": "s6",
+     "start": "Mangi la pizza? – Sì, … la pizza.",
+     "acceptedAnswers": [
+      "mangio"
+     ],
+     "modelAnswer": "Sì, mangio la pizza."
+    },
+    {
+     "id": "s7",
+     "start": "Cerchi la stazione? – Sì, … la stazione.",
+     "acceptedAnswers": [
+      "cerco"
+     ],
+     "modelAnswer": "Sì, cerco la stazione."
+    },
+    {
+     "id": "s8",
+     "start": "Giochi a calcio? – Sì, … a calcio.",
+     "acceptedAnswers": [
+      "gioco"
+     ],
+     "modelAnswer": "Sì, gioco a calcio."
     }
    ]
   }

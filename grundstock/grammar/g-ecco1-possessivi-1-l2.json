@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-possessivi-1-l2",
- "title": "Meine Familie und meine Sachen",
+ "title": "La mia famiglia e le mie cose",
  "language": "it",
  "level": "A1",
- "description": "Possessivbegleiter (I) · Meine Familie und meine Sachen (einfach).",
+ "description": "Gli aggettivi possessivi (1) · La mia famiglia e le mie cose · livello facile.",
  "topics": [
-  "Possessivbegleiter (I)",
+  "Gli aggettivi possessivi (1)",
   "Grammatik"
  ],
  "sources": [
@@ -36,17 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-possessivi-1",
-  "topicTitle": "Possessivbegleiter (I)",
+  "topicTitle": "Gli aggettivi possessivi (1)",
   "difficulty": "leicht",
   "origin": "own",
   "order": 52,
-  "rule": "Vor dem Possessivbegleiter steht im Italienischen meist der **Artikel**:\n| | männlich Sg. | weiblich Sg. | männlich Pl. | weiblich Pl. |\n| io | il mio | la mia | i miei | le mie |\n| tu | il tuo | la tua | i tuoi | le tue |\n| lui / lei | il suo | la sua | i suoi | le sue |\n| noi | il nostro | la nostra | i nostri | le nostre |\n| voi | il vostro | la vostra | i vostri | le vostre |\n| loro | il loro | la loro | i loro | le loro |\n\nDie Form richtet sich nach dem **Besitz**, nicht nach dem Besitzer: _Marco e **la sua** borsa_ (seine Tasche), _Giulia e **il suo** zaino_ (ihr Rucksack)."
+  "rule": "Prima del possessivo di solito c’è **l’articolo**:\n| | m. sing. | f. sing. | m. plur. | f. plur. |\n| io | il mio | la mia | i miei | le mie |\n| tu | il tuo | la tua | i tuoi | le tue |\n| lui / lei | il suo | la sua | i suoi | le sue |\n| noi | il nostro | la nostra | i nostri | le nostre |\n| voi | il vostro | la vostra | i vostri | le vostre |\n| loro | il loro | la loro | i loro | le loro |\n\nLa forma dipende dalla **cosa**, non dalla persona: _Marco e **la sua** borsa_, _Giulia e **il suo** zaino_.",
+  "ruleHelp": "Vor dem Possessivbegleiter steht meist der **Artikel**: il mio zaino, la mia borsa, i miei libri, le mie riviste.\nDie Form richtet sich nach dem **Besitz**, nicht nach dem Besitzer: _Marco e la sua borsa_ (seine Tasche), _Giulia e il suo zaino_ (ihr Rucksack). loro bleibt immer gleich."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle die richtige Form.",
-   "explanation": "loro bleibt immer gleich: il loro gatto, la loro casa, i loro amici.",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "loro non cambia: il loro gatto, la loro casa, i loro amici.",
+   "explanationHelp": "loro bleibt immer gleich: il loro gatto, la loro casa, i loro amici.",
    "type": "gap_choice",
    "text": "[[g1]] cane si chiama Rex.\n[[g2]] scarpe sono nuove.\n[[g3]] casa è grande.\n[[g4]] libri sono qui.\n[[g5]] gatto è nero.\n[[g6]] amiche sono simpatiche.\n[[g7]] computer è nuovo.\n[[g8]] amici abitano a Roma.",
    "gaps": [

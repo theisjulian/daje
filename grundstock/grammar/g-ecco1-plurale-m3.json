@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-plurale-m3",
- "title": "Plural mit Artikel",
+ "title": "Articolo al plurale",
  "language": "it",
  "level": "A1",
- "description": "Der Plural: Artikel und Nomen · Plural mit Artikel (mittel).",
+ "description": "Il plurale: articolo e nome · Articolo al plurale (mittel).",
  "topics": [
-  "Der Plural: Artikel und Nomen",
+  "Il plurale: articolo e nome",
   "Grammatik"
  ],
  "sources": [
@@ -36,17 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-plurale",
-  "topicTitle": "Der Plural: Artikel und Nomen",
+  "topicTitle": "Il plurale: articolo e nome",
   "difficulty": "mittel",
   "origin": "own",
   "order": 83,
-  "rule": "**Nomen:**\n| Singular | Plural | Beispiel |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù (betont) | bleibt | la città → le città |\n\n**Artikel:**\n| Singular | Plural |\n| il | i |\n| lo, l' (männlich) | gli |\n| la, l' (weiblich) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_"
+  "rule": "**Nomi:**\n| singolare | plurale | esempio |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù | non cambia | la città → le città |\n\n**Articoli:**\n| singolare | plurale |\n| il | i |\n| lo, l’ (maschile) | gli |\n| la, l’ (femminile) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_\n**Attenzione:** lo sport → gli sport, il bar → i bar (parole straniere non cambiano).",
+  "ruleHelp": "Nomen: -o → -i, -a → -e, -e → -i; betonte Endung (-à, -ù) bleibt gleich (la città → le città).\nArtikel: il → i · lo, l’ (männlich) → gli · la, l’ (weiblich) → le.\n**Achtung:** Fremdwörter bleiben gleich: lo sport → gli sport, il bar → i bar."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Welcher Artikel steht im Plural?",
-   "explanation": "gli vor Vokal und vor s + Konsonant / z: gli amici, gli studenti, gli zaini.",
+   "prompt": "Quale articolo al plurale?",
+   "promptHelp": "Welcher Artikel steht im Plural?",
+   "explanation": "gli con vocale e s + consonante / z.",
+   "explanationHelp": "gli vor Vokal und vor s + Konsonant / z.",
    "type": "categorize",
    "categories": [
     {

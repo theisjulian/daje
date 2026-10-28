@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-mi-piace-m3",
- "title": "Was mögen sie?",
+ "title": "Domande e risposte",
  "language": "it",
  "level": "A1",
- "description": "(non) mi piace / mi piacciono · Was mögen sie? (mittel).",
+ "description": "(Non) mi piace / mi piacciono · Domande e risposte · livello medio.",
  "topics": [
-  "(non) mi piace / mi piacciono",
+  "(Non) mi piace / mi piacciono",
   "Grammatik"
  ],
  "sources": [
@@ -36,66 +36,83 @@
  },
  "grammar": {
   "topic": "ecco1-mi-piace",
-  "topicTitle": "(non) mi piace / mi piacciono",
+  "topicTitle": "(Non) mi piace / mi piacciono",
   "difficulty": "mittel",
   "origin": "own",
   "order": 23,
-  "rule": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _**Non** mi piace il calcio._\n- Frage: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono."
+  "rule": "- **mi piace** + singolare o verbo all’infinito: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + plurale: _Mi piacciono le canzoni italiane._\n- Negazione: _**Non** mi piace il calcio._\n- Domanda: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nLa cosa che piace decide la forma: una cosa → piace, più cose → piacciono.",
+  "ruleHelp": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _Non mi piace il calcio._ · Frage: _Ti piace la storia?_\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze mi piace / mi piacciono / non mi piace / non mi piacciono (nach dem Smiley).",
-   "type": "gap_fill",
-   "text": "(☺) [[g1]] la musica rock.\n(☹) [[g2]] i film d'orrore.\n(☺) [[g3]] le canzoni di Mahmood.\n(☹) [[g4]] fare i compiti.\n(☺) [[g5]] andare in bici.\n(☺) [[g6]] gli animali.\n(☹) [[g7]] il caffè.\n(☹) [[g8]] le verdure.",
-   "gaps": [
+   "prompt": "Rispondi come nell’esempio: Ti piace lo sport? (☺) – Sì, mi piace.",
+   "promptHelp": "Antworte wie im Beispiel.",
+   "type": "sentence_completion",
+   "items": [
     {
-     "id": "g1",
+     "id": "s1",
+     "start": "Ti piace la scuola? (☺) – …",
      "acceptedAnswers": [
-      "Mi piace"
-     ]
+      "mi piace"
+     ],
+     "modelAnswer": "Sì, mi piace."
     },
     {
-     "id": "g2",
+     "id": "s2",
+     "start": "Ti piacciono i compiti? (☹) – …",
      "acceptedAnswers": [
-      "Non mi piacciono"
-     ]
+      "non mi piacciono"
+     ],
+     "modelAnswer": "No, non mi piacciono."
     },
     {
-     "id": "g3",
+     "id": "s3",
+     "start": "Ti piace cantare? (☺) – …",
      "acceptedAnswers": [
-      "Mi piacciono"
-     ]
+      "mi piace"
+     ],
+     "modelAnswer": "Sì, mi piace."
     },
     {
-     "id": "g4",
+     "id": "s4",
+     "start": "Ti piacciono i cani? (☺) – …",
      "acceptedAnswers": [
-      "Non mi piace"
-     ]
+      "mi piacciono"
+     ],
+     "modelAnswer": "Sì, mi piacciono."
     },
     {
-     "id": "g5",
+     "id": "s5",
+     "start": "Ti piace il calcio? (☹) – …",
      "acceptedAnswers": [
-      "Mi piace"
-     ]
+      "non mi piace"
+     ],
+     "modelAnswer": "No, non mi piace."
     },
     {
-     "id": "g6",
+     "id": "s6",
+     "start": "Ti piacciono le lingue? (☺) – …",
      "acceptedAnswers": [
-      "Mi piacciono"
-     ]
+      "mi piacciono"
+     ],
+     "modelAnswer": "Sì, mi piacciono."
     },
     {
-     "id": "g7",
+     "id": "s7",
+     "start": "Ti piace la pizza ai funghi? (☹) – …",
      "acceptedAnswers": [
-      "Non mi piace"
-     ]
+      "non mi piace"
+     ],
+     "modelAnswer": "No, non mi piace."
     },
     {
-     "id": "g8",
+     "id": "s8",
+     "start": "Ti piacciono i videogiochi? (☺) – …",
      "acceptedAnswers": [
-      "Non mi piacciono"
-     ]
+      "mi piacciono"
+     ],
+     "modelAnswer": "Sì, mi piacciono."
     }
    ]
   }

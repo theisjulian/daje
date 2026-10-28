@@ -1,0 +1,126 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-articolo-indeterminativo-l3",
+ "title": "Quattro gruppi",
+ "language": "it",
+ "level": "A1",
+ "description": "L’articolo indeterminativo (un, uno, una, un’) · Quattro gruppi (einfach).",
+ "topics": [
+  "L’articolo indeterminativo (un, uno, una, un’)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 1 · La città · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-articolo-indeterminativo",
+  "topicTitle": "L’articolo indeterminativo (un, uno, una, un’)",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 73,
+  "rule": "| articolo | quando? | esempio |\n| un | maschile (anche + vocale) | un ragazzo, un amico |\n| uno | maschile + s + consonante, z | uno stadio, uno zaino |\n| una | femminile + consonante | una città, una ragazza |\n| un’ | femminile + vocale | un’amica, un’idea |\n\n**Attenzione:** _un amico_ (maschile, senza apostrofo), ma _un’amica_ (femminile, con apostrofo).",
+  "ruleHelp": "un: männlich (auch vor Vokal) · uno: männlich vor s + Konsonant, z · una: weiblich vor Konsonant · un’: weiblich vor Vokal.\n**Achtung:** _un amico_ (männlich, ohne Apostroph), aber _un’amica_ (weiblich, mit Apostroph)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Quale articolo? Metti i nomi nel gruppo giusto.",
+   "promptHelp": "Welcher Artikel? Ordne die Nomen zu.",
+   "explanation": "Maschile + vocale: un (senza apostrofo). Femminile + vocale: un’.",
+   "explanationHelp": "Männlich vor Vokal: un (ohne Apostroph). Weiblich vor Vokal: un’.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "un",
+     "label": "un"
+    },
+    {
+     "id": "uno",
+     "label": "uno"
+    },
+    {
+     "id": "una",
+     "label": "una"
+    },
+    {
+     "id": "unx",
+     "label": "un’"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "amico",
+     "category": "un"
+    },
+    {
+     "id": "i2",
+     "text": "albero",
+     "category": "un"
+    },
+    {
+     "id": "i3",
+     "text": "negozio",
+     "category": "un"
+    },
+    {
+     "id": "i4",
+     "text": "studente",
+     "category": "uno"
+    },
+    {
+     "id": "i5",
+     "text": "zaino",
+     "category": "uno"
+    },
+    {
+     "id": "i6",
+     "text": "città",
+     "category": "una"
+    },
+    {
+     "id": "i7",
+     "text": "piazza",
+     "category": "una"
+    },
+    {
+     "id": "i8",
+     "text": "amica",
+     "category": "unx"
+    },
+    {
+     "id": "i9",
+     "text": "idea",
+     "category": "unx"
+    },
+    {
+     "id": "i10",
+     "text": "edicola",
+     "category": "unx"
+    }
+   ]
+  }
+ ]
+}

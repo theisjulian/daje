@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-avere-s1",
- "title": "ha oder a, hanno oder anno?",
+ "title": "Su di te",
  "language": "it",
  "level": "A1",
- "description": "Das Verb avere · ha oder a, hanno oder anno? (schwer).",
+ "description": "Il verbo avere · Su di te · livello difficile.",
  "topics": [
-  "Das Verb avere",
+  "Il verbo avere",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 8,
+ "estimatedMinutes": 7,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,67 +36,54 @@
  },
  "grammar": {
   "topic": "ecco1-avere",
-  "topicTitle": "Das Verb avere",
+  "topicTitle": "Il verbo avere",
   "difficulty": "schwer",
   "origin": "own",
   "order": 11,
-  "rule": "**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.\n| io | tu | lui / lei | noi | voi | loro |\n| ho | hai | ha | abbiamo | avete | hanno |\n\nDas Alter sagt man mit avere: _Quanti anni **hai**? – **Ho** quattordici anni._\n**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr)."
+  "rule": "**avere** è irregolare. La **h** non si pronuncia.\n| io | tu | lui / lei | noi | voi | loro |\n| ho | hai | ha | abbiamo | avete | hanno |\n\nL’età si dice con avere: _Quanti anni **hai**? – **Ho** quattordici anni._\n**Attenzione:** _ha_ (verbo) ≠ _a_ (preposizione) · _hanno_ (verbo) ≠ _anno_ (das Jahr).",
+  "ruleHelp": "**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.\nDas Alter sagt man mit avere: _Quanti anni hai? – Ho quattordici anni._ (nicht „ich bin 14“!)\n**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Achte auf die Schreibung.",
-   "explanation": "Verb mit h: ha, hanno. Ohne h: a (Präposition), anno (Jahr).",
-   "type": "gap_choice",
-   "text": "Luca [[g1]] un cellulare nuovo.\nAbito [[g2]] Torino.\nI ragazzi [[g3]] il compito di storia.\nQuest'[[g4]] studio il tedesco.\nSara [[g5]] tredici anni.\nVado [[g6]] scuola in bici.",
+   "prompt": "Scrivi 4 frasi con avere su di te e sulla tua famiglia (età, fratelli, animali …).",
+   "promptHelp": "Schreibe 4 Sätze mit avere über dich und deine Familie (Alter, Geschwister, Haustiere …).",
+   "type": "open_answer",
+   "modelAnswer": "Ho tredici anni. Ho una sorella. Mia sorella ha dieci anni. Abbiamo un cane.",
+   "lines": 4
+  },
+  {
+   "id": "q2",
+   "prompt": "E adesso completa.",
+   "promptHelp": "Und jetzt ergänze.",
+   "explanation": "Usa sempre avere per l’età.",
+   "explanationHelp": "Für das Alter immer avere.",
+   "type": "gap_fill",
+   "text": "Io [[g1]] … anni.\nLa mia famiglia [[g2]] un animale? Sì / No.\nI miei amici [[g3]] tanti videogiochi.\nNoi [[g4]] lezione di italiano il lunedì.",
    "gaps": [
     {
      "id": "g1",
-     "options": [
-      "ha",
-      "a"
-     ],
-     "answer": "ha"
+     "acceptedAnswers": [
+      "ho"
+     ]
     },
     {
      "id": "g2",
-     "options": [
-      "a",
+     "acceptedAnswers": [
       "ha"
-     ],
-     "answer": "a"
+     ]
     },
     {
      "id": "g3",
-     "options": [
-      "hanno",
-      "anno"
-     ],
-     "answer": "hanno"
+     "acceptedAnswers": [
+      "hanno"
+     ]
     },
     {
      "id": "g4",
-     "options": [
-      "anno",
-      "hanno"
-     ],
-     "answer": "anno"
-    },
-    {
-     "id": "g5",
-     "options": [
-      "ha",
-      "a"
-     ],
-     "answer": "ha"
-    },
-    {
-     "id": "g6",
-     "options": [
-      "a",
-      "ha"
-     ],
-     "answer": "a"
+     "acceptedAnswers": [
+      "abbiamo"
+     ]
     }
    ]
   }

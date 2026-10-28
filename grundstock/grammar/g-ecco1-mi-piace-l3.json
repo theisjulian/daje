@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-mi-piace-l3",
+ "title": "Ti piace …?",
+ "language": "it",
+ "level": "A1",
+ "description": "(Non) mi piace / mi piacciono · Ti piace …? · livello facile.",
+ "topics": [
+  "(Non) mi piace / mi piacciono",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 2 · La mia camera · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-mi-piace",
+  "topicTitle": "(Non) mi piace / mi piacciono",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 23,
+  "rule": "- **mi piace** + singolare o verbo all’infinito: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + plurale: _Mi piacciono le canzoni italiane._\n- Negazione: _**Non** mi piace il calcio._\n- Domanda: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nLa cosa che piace decide la forma: una cosa → piace, più cose → piacciono.",
+  "ruleHelp": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _Non mi piace il calcio._ · Frage: _Ti piace la storia?_\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli piace o piacciono.",
+   "promptHelp": "Wähle piace oder piacciono.",
+   "explanation": "Anche con un verbo (nuotare, alzarmi) → piace.",
+   "explanationHelp": "Auch nach Verben (nuotare, alzarmi) → piace.",
+   "type": "gap_choice",
+   "text": "Ti [[g1]] il nuovo film di Pixar?\nNon mi [[g2]] la matematica.\nMi [[g3]] le vacanze al mare.\nNon mi [[g4]] alzarmi presto.\nTi [[g5]] i cani?\nMi [[g6]] molto la mia camera.\nNon mi [[g7]] le verdure.\nTi [[g8]] nuotare?",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "piace",
+      "piacciono"
+     ],
+     "answer": "piace"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "piace",
+      "piacciono"
+     ],
+     "answer": "piace"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "piacciono",
+      "piace"
+     ],
+     "answer": "piacciono"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "piace",
+      "piacciono"
+     ],
+     "answer": "piace"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "piacciono",
+      "piace"
+     ],
+     "answer": "piacciono"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "piace",
+      "piacciono"
+     ],
+     "answer": "piace"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "piacciono",
+      "piace"
+     ],
+     "answer": "piacciono"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "piace",
+      "piacciono"
+     ],
+     "answer": "piace"
+    }
+   ]
+  }
+ ]
+}

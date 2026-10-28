@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-non-s1",
- "title": "Wörter ordnen",
+ "title": "Metti in ordine",
  "language": "it",
  "level": "A1",
- "description": "Die Verneinung mit non · Wörter ordnen (schwer).",
+ "description": "La negazione con non · Metti in ordine (schwer).",
  "topics": [
-  "Die Verneinung mit non",
+  "La negazione con non",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 19,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,16 +36,18 @@
  },
  "grammar": {
   "topic": "ecco1-non",
-  "topicTitle": "Die Verneinung mit non",
+  "topicTitle": "La negazione con non",
   "difficulty": "schwer",
   "origin": "own",
   "order": 61,
-  "rule": "**non** steht **vor dem Verb**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nAntwort auf eine Frage: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)"
+  "rule": "**non** va **prima del verbo**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nRisposta a una domanda: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)",
+  "ruleHelp": "**non** steht **vor dem Verb**: _Non abito a Torino. Luca non è di Milano._\nAntwort auf eine Frage: _Sei di Roma? – No, non sono di Roma._ (no = nein, non = nicht)"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Bringe die Wörter in die richtige Reihenfolge: „Giulia wohnt nicht in Turin.“",
+   "prompt": "Metti le parole in ordine: „Giulia wohnt nicht in Turin.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge: „Giulia wohnt nicht in Turin.“",
    "type": "ordering",
    "items": [
     {
@@ -67,6 +69,82 @@
     {
      "id": "i5",
      "text": "Torino"
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "prompt": "Metti le parole in ordine: „Nein, ich spreche kein Englisch.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge: „Nein, ich spreche kein Englisch.“",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "No,"
+    },
+    {
+     "id": "i2",
+     "text": "non"
+    },
+    {
+     "id": "i3",
+     "text": "parlo"
+    },
+    {
+     "id": "i4",
+     "text": "inglese"
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "prompt": "Metti le parole in ordine: „Die Jungen sind heute nicht in der Schule.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Oggi"
+    },
+    {
+     "id": "i2",
+     "text": "i ragazzi"
+    },
+    {
+     "id": "i3",
+     "text": "non"
+    },
+    {
+     "id": "i4",
+     "text": "sono"
+    },
+    {
+     "id": "i5",
+     "text": "a scuola"
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "prompt": "Metti le parole in ordine: „Wir nehmen nicht den Bus.“",
+   "promptHelp": "Bringe die Wörter in die richtige Reihenfolge.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Noi"
+    },
+    {
+     "id": "i2",
+     "text": "non"
+    },
+    {
+     "id": "i3",
+     "text": "prendiamo"
+    },
+    {
+     "id": "i4",
+     "text": "l’autobus"
     }
    ]
   }

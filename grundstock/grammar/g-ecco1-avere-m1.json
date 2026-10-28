@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-avere-m1",
- "title": "Ein Steckbrief",
+ "title": "Un profilo",
  "language": "it",
  "level": "A1",
- "description": "Das Verb avere · Ein Steckbrief (mittel).",
+ "description": "Il verbo avere · Un profilo · livello medio.",
  "topics": [
-  "Das Verb avere",
+  "Il verbo avere",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-avere",
-  "topicTitle": "Das Verb avere",
+  "topicTitle": "Il verbo avere",
   "difficulty": "mittel",
   "origin": "own",
   "order": 11,
-  "rule": "**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.\n| io | tu | lui / lei | noi | voi | loro |\n| ho | hai | ha | abbiamo | avete | hanno |\n\nDas Alter sagt man mit avere: _Quanti anni **hai**? – **Ho** quattordici anni._\n**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr)."
+  "rule": "**avere** è irregolare. La **h** non si pronuncia.\n| io | tu | lui / lei | noi | voi | loro |\n| ho | hai | ha | abbiamo | avete | hanno |\n\nL’età si dice con avere: _Quanti anni **hai**? – **Ho** quattordici anni._\n**Attenzione:** _ha_ (verbo) ≠ _a_ (preposizione) · _hanno_ (verbo) ≠ _anno_ (das Jahr).",
+  "ruleHelp": "**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.\nDas Alter sagt man mit avere: _Quanti anni hai? – Ho quattordici anni._ (nicht „ich bin 14“!)\n**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze die Formen von avere.",
+   "prompt": "Scrivi le forme di avere.",
+   "promptHelp": "Ergänze die Formen von avere.",
+   "explanation": "ho, hai, ha, abbiamo, avete, hanno.",
+   "explanationHelp": "ho, hai, ha, abbiamo, avete, hanno.",
    "type": "gap_fill",
-   "text": "Mi chiamo Giulia e [[g1]] quattordici anni.\nMia sorella [[g2]] diciassette anni.\nNoi [[g3]] un gatto, si chiama Pippo.\nI miei nonni [[g4]] una casa al mare.\nE tu? Quanti anni [[g5]]?\nVoi [[g6]] fratelli?",
+   "text": "Mi chiamo Giulia e [[g1]] quattordici anni.\nMia sorella [[g2]] diciassette anni.\nNoi [[g3]] un gatto, si chiama Pippo.\nI miei nonni [[g4]] una casa al mare.\nE tu? Quanti anni [[g5]]?\nVoi [[g6]] fratelli?\nMio padre [[g7]] un negozio di bici.\nI miei cugini [[g8]] un cane enorme.",
    "gaps": [
     {
      "id": "g1",
@@ -83,6 +87,18 @@
      "id": "g6",
      "acceptedAnswers": [
       "avete"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ha"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "hanno"
      ]
     }
    ]

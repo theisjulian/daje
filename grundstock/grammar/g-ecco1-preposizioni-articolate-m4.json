@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-preposizioni-articolate-m4",
- "title": "Ein Nachmittag in der Stadt",
+ "title": "Dove metti le cose?",
  "language": "it",
  "level": "A1",
- "description": "Präpositionen mit Artikel · Ein Nachmittag in der Stadt (mittel).",
+ "description": "Le preposizioni articolate · Dove metti le cose? · livello medio.",
  "topics": [
-  "Präpositionen mit Artikel",
+  "Le preposizioni articolate",
   "Grammatik"
  ],
  "sources": [
@@ -36,67 +36,83 @@
  },
  "grammar": {
   "topic": "ecco1-preposizioni-articolate",
-  "topicTitle": "Präpositionen mit Artikel",
+  "topicTitle": "Le preposizioni articolate",
   "difficulty": "mittel",
   "origin": "own",
   "order": 44,
-  "rule": "Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel:\n| | il | lo | l' | la | i | gli | le |\n| a | al | allo | all' | alla | ai | agli | alle |\n| da | dal | dallo | dall' | dalla | dai | dagli | dalle |\n| di | del | dello | dell' | della | dei | degli | delle |\n| in | nel | nello | nell' | nella | nei | negli | nelle |\n| su | sul | sullo | sull' | sulla | sui | sugli | sulle |\n\n**con** und **per** verschmelzen nicht: _con il papà, per la mamma._"
+  "rule": "Le preposizioni **a, da, di, in, su** si uniscono all’articolo determinativo:\n| | il | lo | l’ | la | i | gli | le |\n| a | al | allo | all’ | alla | ai | agli | alle |\n| da | dal | dallo | dall’ | dalla | dai | dagli | dalle |\n| di | del | dello | dell’ | della | dei | degli | delle |\n| in | nel | nello | nell’ | nella | nei | negli | nelle |\n| su | sul | sullo | sull’ | sulla | sui | sugli | sulle |\n\n**con** e **per** non si uniscono: _con il papà, per la mamma._ Anche **sotto, davanti, accanto** + a: _accanto al letto, davanti alla scuola, sotto il tavolo._",
+  "ruleHelp": "Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel (z. B. in + il = nel, su + la = sulla, di + i = dei).\n**con** und **per** verschmelzen nicht: _con il papà, per la mamma._ sotto steht ohne a: _sotto il tavolo_; accanto/davanti mit a: _accanto al letto_."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Setze die Präposition mit Artikel ein.",
-   "explanation": "a + il = al, a + la = alla, da + il = dal, di + il = del, in + la = nella, su + il = sul.",
-   "type": "gap_fill",
-   "text": "Oggi vado (a + il) [[g1]] cinema con Luca.\nPrima andiamo (a + la) [[g2]] stazione.\nPoi compriamo un gelato (da + il) [[g3]] gelataio.\nIl negozio (di + il) [[g4]] papà di Luca è (in + la) [[g5]] piazza grande.\nTorniamo a casa (da + la) [[g6]] piazza alle sei.\nMettiamo le borse (su + il) [[g7]] tavolo (di + la) [[g8]] cucina.",
-   "gaps": [
+   "prompt": "Rispondi con la preposizione articolata.",
+   "promptHelp": "Antworte mit der Präposition mit Artikel.",
+   "type": "sentence_completion",
+   "items": [
     {
-     "id": "g1",
+     "id": "s1",
+     "start": "Dove metti lo zaino? (in + l’armadio)",
      "acceptedAnswers": [
-      "al"
-     ]
+      "nell’armadio"
+     ],
+     "modelAnswer": "Lo metto nell’armadio."
     },
     {
-     "id": "g2",
+     "id": "s2",
+     "start": "Dove metti i libri? (su + lo scaffale)",
      "acceptedAnswers": [
-      "alla"
-     ]
+      "sullo scaffale"
+     ],
+     "modelAnswer": "Sullo scaffale."
     },
     {
-     "id": "g3",
+     "id": "s3",
+     "start": "Dove metti le scarpe? (sotto + il letto)",
      "acceptedAnswers": [
-      "dal"
-     ]
+      "sotto il letto"
+     ],
+     "modelAnswer": "Sotto il letto."
     },
     {
-     "id": "g4",
+     "id": "s4",
+     "start": "Dove metti il cellulare? (su + la scrivania)",
      "acceptedAnswers": [
-      "del"
-     ]
+      "sulla scrivania"
+     ],
+     "modelAnswer": "Sulla scrivania."
     },
     {
-     "id": "g5",
+     "id": "s5",
+     "start": "Dove metti le foto? (in + il cassetto)",
      "acceptedAnswers": [
-      "nella"
-     ]
+      "nel cassetto"
+     ],
+     "modelAnswer": "Nel cassetto."
     },
     {
-     "id": "g6",
+     "id": "s6",
+     "start": "Dove metti la giacca? (su + la sedia)",
      "acceptedAnswers": [
-      "dalla"
-     ]
+      "sulla sedia"
+     ],
+     "modelAnswer": "Sulla sedia."
     },
     {
-     "id": "g7",
+     "id": "s7",
+     "start": "Dove metti i quaderni? (in + lo zaino)",
      "acceptedAnswers": [
-      "sul"
-     ]
+      "nello zaino"
+     ],
+     "modelAnswer": "Nello zaino."
     },
     {
-     "id": "g8",
+     "id": "s8",
+     "start": "Dove metti la lampada? (accanto a + il letto)",
      "acceptedAnswers": [
-      "della"
-     ]
+      "accanto al letto"
+     ],
+     "modelAnswer": "Accanto al letto."
     }
    ]
   }

@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-soggetto-l3",
+ "title": "Quale pronome?",
+ "language": "it",
+ "level": "A1",
+ "description": "I pronomi soggetto · Quale pronome? (einfach).",
+ "topics": [
+  "I pronomi soggetto",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 1 · La città · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-soggetto",
+  "topicTitle": "I pronomi soggetto",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 53,
+  "rule": "| io | tu | lui / lei / Lei | noi | voi | loro |\n| ich | du | er / sie / Sie | wir | ihr | sie |\n\nDi solito non usiamo il pronome: _Abito a Torino._ Lo usiamo per **sottolineare** o per un **contrasto**: _Io abito a Torino, lui abita a Milano._\n**Lei** (con la L maiuscola) è la forma di cortesia: _Come sta, Lei?_",
+  "ruleHelp": "Im Italienischen lässt man das Subjektpronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._\n**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Quale pronome sostituisce le parole?",
+   "promptHelp": "Welches Pronomen ersetzt die Wörter?",
+   "explanation": "Con «io» → noi. Con «tu» (senza io) → voi.",
+   "explanationHelp": "Ist „ich“ dabei, heißt es noi. Ist „du“ dabei (ohne ich), heißt es voi.",
+   "type": "gap_choice",
+   "text": "Marco e io = [[g1]]\ntu e Sara = [[g2]]\nla professoressa = [[g3]]\ni miei amici = [[g4]]\nmio padre = [[g5]]\nAnna e Giulia = [[g6]]\ntu e io = [[g7]]\nla signora Rossi (formale) = [[g8]]",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "noi",
+      "voi",
+      "loro"
+     ],
+     "answer": "noi"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "voi",
+      "noi",
+      "loro"
+     ],
+     "answer": "voi"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "lei",
+      "lui",
+      "loro"
+     ],
+     "answer": "lei"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "loro",
+      "voi",
+      "noi"
+     ],
+     "answer": "loro"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "lui",
+      "lei",
+      "loro"
+     ],
+     "answer": "lui"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "loro",
+      "voi",
+      "lei"
+     ],
+     "answer": "loro"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "noi",
+      "voi",
+      "loro"
+     ],
+     "answer": "noi"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "Lei",
+      "lei",
+      "tu"
+     ],
+     "answer": "Lei"
+    }
+   ]
+  }
+ ]
+}

@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-articolo-indeterminativo-l2",
- "title": "Was ist im Zaino?",
+ "title": "Che cosa c’è nello zaino?",
  "language": "it",
  "level": "A1",
- "description": "Der unbestimmte Artikel · Was ist im Zaino? (einfach).",
+ "description": "L’articolo indeterminativo (un, uno, una, un’) · Che cosa c’è nello zaino? (einfach).",
  "topics": [
-  "Der unbestimmte Artikel",
+  "L’articolo indeterminativo (un, uno, una, un’)",
   "Grammatik"
  ],
  "sources": [
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-articolo-indeterminativo",
-  "topicTitle": "Der unbestimmte Artikel",
+  "topicTitle": "L’articolo indeterminativo (un, uno, una, un’)",
   "difficulty": "leicht",
   "origin": "own",
   "order": 72,
-  "rule": "| Artikel | wann? | Beispiel |\n| un | männlich (auch vor Vokal) | un ragazzo, un amico |\n| uno | männlich vor s + Konsonant, z | uno stadio, uno zaino |\n| una | weiblich vor Konsonant | una città, una ragazza |\n| un' | weiblich vor Vokal | un'amica, un'idea |\n\nAchtung: _un amico_ (männlich, ohne Apostroph), aber _un'amica_ (weiblich, mit Apostroph)."
+  "rule": "| articolo | quando? | esempio |\n| un | maschile (anche + vocale) | un ragazzo, un amico |\n| uno | maschile + s + consonante, z | uno stadio, uno zaino |\n| una | femminile + consonante | una città, una ragazza |\n| un’ | femminile + vocale | un’amica, un’idea |\n\n**Attenzione:** _un amico_ (maschile, senza apostrofo), ma _un’amica_ (femminile, con apostrofo).",
+  "ruleHelp": "un: männlich (auch vor Vokal) · uno: männlich vor s + Konsonant, z · una: weiblich vor Konsonant · un’: weiblich vor Vokal.\n**Achtung:** _un amico_ (männlich, ohne Apostroph), aber _un’amica_ (weiblich, mit Apostroph)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle den unbestimmten Artikel.",
-   "explanation": "un astuccio (m, vor Vokal ohne Apostroph) · un'agenda (f, vor Vokal mit Apostroph) · uno spuntino (s + Konsonant).",
+   "prompt": "Scegli l’articolo indeterminativo.",
+   "promptHelp": "Wähle den unbestimmten Artikel.",
+   "explanation": "un astuccio (maschile + vocale, senza apostrofo) · un’agenda (femminile + vocale, con apostrofo).",
+   "explanationHelp": "un astuccio (m, vor Vokal ohne Apostroph) · un’agenda (f, vor Vokal mit Apostroph) · uno spuntino (s + Konsonant).",
    "type": "gap_choice",
-   "text": "Nello zaino c'è [[g1]] libro.\nC'è anche [[g2]] penna.\nC'è [[g3]] quaderno.\nC'è [[g4]] spuntino.\nC'è [[g5]] agenda.\nC'è [[g6]] astuccio.\nC'è [[g7]] bottiglia d'acqua.\nC'è [[g8]] zaino piccolo per la palestra.",
+   "text": "Nello zaino c’è [[g1]] libro.\nC’è anche [[g2]] penna.\nC’è [[g3]] quaderno.\nC’è [[g4]] spuntino.\nC’è [[g5]] agenda.\nC’è [[g6]] astuccio.\nC’è [[g7]] bottiglia d’acqua.\nC’è [[g8]] zaino piccolo per la palestra.",
    "gaps": [
     {
      "id": "g1",
@@ -64,7 +67,7 @@
      "options": [
       "una",
       "un",
-      "un'"
+      "un’"
      ],
      "answer": "una"
     },
@@ -73,7 +76,7 @@
      "options": [
       "un",
       "uno",
-      "un'"
+      "un’"
      ],
      "answer": "un"
     },
@@ -89,17 +92,17 @@
     {
      "id": "g5",
      "options": [
-      "un'",
+      "un’",
       "una",
       "un"
      ],
-     "answer": "un'"
+     "answer": "un’"
     },
     {
      "id": "g6",
      "options": [
       "un",
-      "un'",
+      "un’",
       "uno"
      ],
      "answer": "un"

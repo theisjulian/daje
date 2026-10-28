@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-questo-s1",
- "title": "Chaos zu Hause",
+ "title": "Caos a casa",
  "language": "it",
  "level": "A1",
- "description": "questo, questa, questi, queste · Chaos zu Hause (schwer).",
+ "description": "Questo, questa, questi, queste · Caos a casa · livello difficile.",
  "topics": [
-  "questo, questa, questi, queste",
+  "Questo, questa, questi, queste",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-questo",
-  "topicTitle": "questo, questa, questi, queste",
+  "topicTitle": "Questo, questa, questi, queste",
   "difficulty": "schwer",
   "origin": "own",
   "order": 31,
-  "rule": "**questo** (dieser, diese, dieses) richtet sich nach dem Nomen:\n| | Singular | Plural |\n| männlich | questo zaino | questi zaini |\n| weiblich | questa borsa | queste borse |\n\nVor Vokal oft: _quest'armadio, quest'idea_. Allein (ohne Nomen): _Questo è il mio zaino._"
+  "rule": "**questo** cambia come il nome:\n| | singolare | plurale |\n| maschile | questo zaino | questi zaini |\n| femminile | questa borsa | queste borse |\n\nDavanti a vocale spesso: _quest’armadio, quest’idea_. Da solo (senza nome): _Questo è il mio zaino._",
+  "ruleHelp": "**questo** (dieser, diese, dieses) richtet sich nach dem Nomen: questo zaino, questa borsa, questi zaini, queste borse.\nVor Vokal oft: _quest’armadio, quest’idea_. Allein (ohne Nomen): _Questo è il mio zaino._"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze questo, questa, questi oder queste.",
-   "explanation": "Vor Vokal kann man questo zu quest' verkürzen: quest'asciugamano.",
+   "prompt": "Scrivi questo, questa, questi o queste.",
+   "promptHelp": "Ergänze questo, questa, questi oder queste.",
+   "explanation": "Davanti a vocale questo può diventare quest’: quest’asciugamano.",
+   "explanationHelp": "Vor Vokal kann man questo zu quest’ verkürzen.",
    "type": "gap_fill",
-   "text": "Mamma mia, che disordine! Di chi è [[g1]] zaino?\nE [[g2]] borsa da calcio?\n[[g3]] vestiti sono per terra!\nE [[g4]] riviste? Sono sul divano.\n[[g5]] asciugamano è nel salotto!",
+   "text": "Mamma mia, che disordine! Di chi è [[g1]] zaino?\nE [[g2]] borsa da calcio?\n[[g3]] vestiti sono per terra!\nE [[g4]] riviste? Sono sul divano.\n[[g5]] asciugamano è nel salotto!\n[[g6]] tazza è sulla scrivania.\n[[g7]] libri sono sotto il letto.\nE [[g8]] calze? Sono in cucina!",
    "gaps": [
     {
      "id": "g1",
@@ -78,7 +81,25 @@
      "id": "g5",
      "acceptedAnswers": [
       "Questo",
-      "Quest'"
+      "Quest’"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Questa"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Questi"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "queste"
      ]
     }
    ]

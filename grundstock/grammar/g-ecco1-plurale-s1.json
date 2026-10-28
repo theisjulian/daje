@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-plurale-s1",
- "title": "Im Quartier",
+ "title": "Nel quartiere",
  "language": "it",
  "level": "A1",
- "description": "Der Plural: Artikel und Nomen · Im Quartier (schwer).",
+ "description": "Il plurale: articolo e nome · Nel quartiere (schwer).",
  "topics": [
-  "Der Plural: Artikel und Nomen",
+  "Il plurale: articolo e nome",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 12,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-plurale",
-  "topicTitle": "Der Plural: Artikel und Nomen",
+  "topicTitle": "Il plurale: articolo e nome",
   "difficulty": "schwer",
   "origin": "own",
   "order": 81,
-  "rule": "**Nomen:**\n| Singular | Plural | Beispiel |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù (betont) | bleibt | la città → le città |\n\n**Artikel:**\n| Singular | Plural |\n| il | i |\n| lo, l' (männlich) | gli |\n| la, l' (weiblich) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_"
+  "rule": "**Nomi:**\n| singolare | plurale | esempio |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù | non cambia | la città → le città |\n\n**Articoli:**\n| singolare | plurale |\n| il | i |\n| lo, l’ (maschile) | gli |\n| la, l’ (femminile) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_\n**Attenzione:** lo sport → gli sport, il bar → i bar (parole straniere non cambiano).",
+  "ruleHelp": "Nomen: -o → -i, -a → -e, -e → -i; betonte Endung (-à, -ù) bleibt gleich (la città → le città).\nArtikel: il → i · lo, l’ (männlich) → gli · la, l’ (weiblich) → le.\n**Achtung:** Fremdwörter bleiben gleich: lo sport → gli sport, il bar → i bar."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Setze die Wörter in den Plural.",
+   "prompt": "Scrivi i nomi tra parentesi al plurale (con l’articolo se c’è).",
+   "promptHelp": "Setze die Wörter in Klammern in den Plural (mit Artikel, wenn einer steht).",
+   "explanation": "il bar → i bar (parola straniera) · la città → le città (accento finale).",
+   "explanationHelp": "il bar → i bar (Fremdwort) · la città → le città (betonte Endung).",
    "type": "gap_fill",
-   "text": "Nel quartiere ci sono molti (il negozio) [[g1]].\n(la piazza) [[g2]] sono belle.\n(lo stadio) [[g3]] di Torino sono grandi.\nCi sono anche due (il campo sportivo) [[g4]].\n(l'amica) [[g5]] di Giulia sono simpatiche.",
+   "text": "Nel quartiere ci sono molti (il negozio) [[g1]].\n(La piazza) [[g2]] sono belle.\n(Lo stadio) [[g3]] di Torino sono grandi.\nCi sono anche due (il campo sportivo) [[g4]].\n(L’amica) [[g5]] di Giulia sono simpatiche.\n(L’albero) [[g6]] in piazza sono molto vecchi.\n(Il ponte) [[g7]] sul Po sono famosi.\n(Lo zaino) [[g8]] sono pesanti!\n(Il bar) [[g9]] in centro sono pieni.\n(La città) [[g10]] italiane sono belle.",
    "gaps": [
     {
      "id": "g1",
@@ -77,6 +81,36 @@
      "id": "g5",
      "acceptedAnswers": [
       "Le amiche"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Gli alberi"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "I ponti"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Gli zaini"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "I bar"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "Le città"
      ]
     }
    ]

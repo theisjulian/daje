@@ -1,517 +1,77 @@
 #!buch series=Corso_daje volume=1 grade=8 cefr=A1 prefix=ecco1
 ## Primo anno · Lektion 1 · La città · Grammatikthemen (Lehrplan Jgst. 8)
+## Alles für Lernende auf Italienisch, Deutsch als Hilfe (|| …). Jede Übung mindestens 8 Einheiten.
 
-@thema artikel-sg | 1 · La città | Per cominciare | Der bestimmte Artikel im Singular | 1
+@thema artikel-sg | 1 · La città | Per cominciare | L’articolo determinativo singolare (il, lo, la, l’) | 1
 #regel
+Ogni nome ha un genere: **maschile** (spesso in -o) o **femminile** (spesso in -a). I nomi in -e possono essere maschili o femminili.
+
+| articolo | quando? | esempio |
+| il | maschile + consonante | il fiume, il ponte |
+| lo | maschile + s + consonante, z, ps, gn, y | lo stadio, lo zaino |
+| la | femminile + consonante | la piazza, la città |
+| l’ | maschile o femminile + vocale | l’amico, l’industria |
+
+**Consiglio:** impara ogni nome con l’articolo: _la città_, _il parco_.
+#regel-de
 Im Italienischen hat jedes Nomen ein Geschlecht: **männlich** (meist auf -o) oder **weiblich** (meist auf -a). Nomen auf -e können beides sein.
 
 | Artikel | wann? | Beispiel |
 | il | männlich, vor Konsonant | il fiume, il ponte |
 | lo | männlich, vor s + Konsonant, z, ps, gn, y | lo stadio, lo zaino |
 | la | weiblich, vor Konsonant | la piazza, la città |
-| l' | männlich und weiblich vor Vokal | l'amico, l'industria |
+| l’ | männlich und weiblich vor Vokal | l’amico, l’industria |
 
 **Tipp:** Lerne jedes Nomen mit Artikel: _la città_, _il parco_.
 #einstieg
-- Welche Wörter aus Torino kennst du schon? Sammelt sie mit Artikel an der Tafel.
+- Quali parole della città conosci già? Scrivetele alla lavagna con l’articolo.
 
-%übung leicht | il, lo, la oder l'?
-?auswahl | Wähle den richtigen Artikel.
+%übung leicht | Il, lo, la o l’?
+?auswahl | Scegli l’articolo giusto. || Wähle den richtigen Artikel.
 {il*|lo|la} parco
 {il|lo|la*} piazza
-{il|lo*|l'} stadio
-{la|l'*|il} industria
+{il|lo*|l’} stadio
+{la|l’*|il} industria
 {il*|lo|la} ponte
-{la*|il|l'} via
-{lo|il|l'*} amico
+{la*|il|l’} via
+{lo|il|l’*} amico
 {il|lo*|la} sport
-! Vor s + Konsonant (st, sp …) und vor z steht lo: lo stadio, lo sport. Vor Vokal wird der Artikel zu l'.
+{il*|lo|la} fiume
+{la*|lo|l’} gelateria
+! Con s + consonante e con z usiamo lo: lo stadio, lo sport. Davanti a vocale l’articolo diventa l’. || Vor s + Konsonant (st, sp …) und vor z steht lo: lo stadio, lo sport. Vor Vokal wird der Artikel zu l’.
 
-%übung leicht | Männlich oder weiblich?
-?sortieren | Ordne die Wörter: männlich oder weiblich?
-Kategorien: m=männlich; f=weiblich
+%übung leicht | Maschile o femminile?
+?sortieren | Maschile o femminile? Metti le parole nel gruppo giusto. || Männlich oder weiblich? Ordne die Wörter zu.
+Kategorien: m=maschile; f=femminile
 il centro > m
 la città > f
 lo stadio > m
-l'industria > f
+l’industria > f
 il fiume > m
 la piazza > f
-l'amico > m
+l’amico > m
 la via > f
-! Den Artikel verrät das Geschlecht. Bei l' hilft die Endung: l'industria (-a) ist weiblich, l'amico (-o) männlich.
+il negozio > m
+la scuola > f
+! L’articolo mostra il genere. Con l’ aiuta la fine della parola: l’industria (-a) è femminile, l’amico (-o) è maschile. || Der Artikel verrät das Geschlecht. Bei l’ hilft die Endung: l’industria (-a) ist weiblich, l’amico (-o) männlich.
 
-%übung mittel | Torino, la città
-?luecke | Setze den bestimmten Artikel ein.
-[Il] Po è [il] fiume di Torino.
-[La] Mole Antonelliana è [il] simbolo della città.
-[Lo] stadio è grande.
-[L'] amica di Marco abita in centro.
-[Il] parco Valentino è bellissimo.
-[La] piazza è importante per [la] città.
-! il fiume, il simbolo, il parco (männlich vor Konsonant) · lo stadio (s + Konsonant) · l'amica (Vokal).
-
-%übung mittel | Artikel und Nomen
-?tabelle | Ergänze den Artikel.
-Spalten: Nomen | Artikel
-fiume | [il]
-zaino | [lo]
-industria | [l']
-città | [la]
-amico | [l']
-ponte | [il]
-stadio | [lo]
-
-%übung schwer | Fehler im Stadtplan
-?fehler | Die markierten Artikel sind falsch. Schreibe den richtigen Artikel.
-Ecco [il=>lo] stadio di Torino.
-[La=>L'] industria è importante.
-Ecco [lo=>il] ponte sul Po.
-[Il=>La] città è bella.
-[La=>Lo] zaino di Marco è qui.
-! lo vor st/z, l' vor Vokal, la bei weiblichen Nomen.
-
-%übung schwer | Meine Stadt
-?frei | Schreibe fünf Sätze über deine Stadt oder dein Dorf. Benutze bestimmte Artikel (il, lo, la, l').
-Il fiume si chiama … · La piazza è grande. · Lo stadio è nuovo. · L'industria è importante. · Il parco è bello.
-Zeilen: 5
-
-@thema are-presente | 1 · La città | Parte A | Verben auf -are im Präsens | 2
-#regel
-Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an:
-
-| Person | abitare | parlare |
-| io | abit**o** | parl**o** |
-| tu | abit**i** | parl**i** |
-| lui / lei | abit**a** | parl**a** |
-| noi | abit**iamo** | parl**iamo** |
-| voi | abit**ate** | parl**ate** |
-| loro | abit**ano** | parl**ano** |
-
-Das Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.
-**Achtung:** Bei _loro_ liegt die Betonung vorn: **a**bitano, **par**lano.
-
-%übung leicht | Welche Form passt?
-?auswahl | Wähle die richtige Verbform.
-Io {abito*|abita|abitano} a Torino.
-Tu {parli*|parlo|parla} italiano?
-Marco {arriva*|arrivi|arrivo} in centro.
-Noi {passeggiamo*|passeggiate|passeggiano} in piazza.
-Voi {parlate*|parliamo|parlano} tedesco?
-Anna e Luca {abitano*|abita|abitate} in via Roma.
-! Die Endung zeigt die Person: -o (io), -i (tu), -a (lui/lei), -iamo (noi), -ate (voi), -ano (loro).
-
-%übung leicht | Person und Endung
-?zuordnen | Was gehört zusammen?
-io = parlo
-tu = parli
-lui / lei = parla
-noi = parliamo
-voi = parlate
-loro = parlano
-
-%übung mittel | Ein Tag in Torino
-?luecke | Setze das Verb in der richtigen Form ein.
-Ciao, io (abitare) [abito] a Torino.
-La mia amica Giulia (abitare) [abita] in centro.
-Oggi noi (passeggiare) [passeggiamo] insieme.
-Tu (arrivare) [arrivi] alle tre?
-I ragazzi (guardare) [guardano] la partita.
-Voi (parlare) [parlate] inglese?
-! abitare, passeggiare, arrivare, guardare und parlare sind regelmäßige Verben auf -are.
-
-%übung mittel | Fragen und Antworten
-?ergaenzen | Antworte mit derselben Verbform (io).
-Abiti a Torino? – Sì, … a Torino. | abito
-Parli francese? – Sì, … un po' francese. | parlo
-Guardi la partita? – Sì, … la partita. | guardo
-Arrivi adesso? – Sì, … adesso. | arrivo
-! Auf eine Frage mit tu antwortet man mit io: parli → parlo.
-
-%übung schwer | Konjugationstabelle
-?tabelle | Ergänze die Formen.
-Spalten: Person | abitare | guardare
-io | [abito] | [guardo]
-tu | [abiti] | [guardi]
-lui / lei | [abita] | [guarda]
-noi | [abitiamo] | [guardiamo]
-voi | [abitate] | [guardate]
-loro | [abitano] | [guardano]
-
-%übung schwer | Fehler finden
-?fehler | Die markierten Formen sind falsch. Schreibe die richtige Form.
-Io [abita=>abito] a Torino.
-Noi [parlano=>parliamo] italiano.
-Tu [guardo=>guardi] la partita?
-Marta e Paolo [passeggia=>passeggiano] in piazza.
-Voi [arrivano=>arrivate] adesso?
-
-@thema essere-stare | 1 · La città | Parte A | essere und stare | 3
-#regel
-**essere** (sein) ist unregelmäßig:
-| io | tu | lui / lei | noi | voi | loro |
-| sono | sei | è | siamo | siete | sono |
-
-**stare** benutzt man für das Befinden: _Come stai? – Sto bene / male._
-| io | tu | lui / lei | noi | voi | loro |
-| sto | stai | sta | stiamo | state | stanno |
-
-- _Sono di Torino._ (Herkunft) · _Sono Luca._ (Name) · _È bello._ (Eigenschaft)
-- _Come sta Anna? – Sta bene._ (Befinden)
-
-%übung leicht | essere: welche Form?
-?auswahl | Wähle die richtige Form von essere.
-Io {sono*|sei|è} Luca.
-Tu {sei*|sono|siamo} di Milano?
-Marco {è*|e|sono} di Torino.
-Noi {siamo*|siete|sono} amici.
-Voi {siete*|siamo|sei} in classe?
-Anna e Sara {sono*|siete|è} a scuola.
-! Achtung: è (er/sie ist) mit Akzent, e (und) ohne Akzent.
-
-%übung leicht | Come stai?
-?auswahl | Wähle die richtige Form von stare.
-Ciao Luca, come {stai*|sta|sto}?
-Io {sto*|stai|stanno} bene, grazie.
-E Anna? Come {sta*|stai|state}?
-Noi {stiamo*|state|stanno} male oggi.
-Ragazzi, come {state*|stiamo|stai}?
-I nonni {stanno*|sta|state} bene.
-
-%übung mittel | essere oder stare?
-?auswahl | essere oder stare? Wähle die passende Form.
-Io {sono*|sto} di Torino.
-Come {stai*|sei}? – Bene, grazie.
-Marco {è*|sta} il mio amico.
-Oggi Giulia non {sta*|è} bene.
-Torino {è*|sta} una città importante.
-Noi {stiamo*|siamo} male oggi.
-! essere: Name, Herkunft, Eigenschaft. stare: Befinden (bene/male).
-
-%übung mittel | Ein Dialog
-?luecke wortkasten | Ergänze den Dialog mit Formen von essere und stare.
-– Ciao! Tu [sei] Paolo?
-– Sì, [sono] Paolo. E tu?
-– Io [sono] Sara. Come [stai]?
-– [Sto] bene, grazie. Anche tu [sei] di Torino?
-– No, [sono] di Milano.
-+ è, sta
-
-%übung schwer | Fehler im Dialog
-?fehler | Korrigiere die markierten Formen.
-Ciao, io [è=>sono] Francesca.
-Come [sei=>stai]? – Sto bene.
-Luca e Marco [è=>sono] di Torino.
-Noi [stiamo=>siamo] amici.
-Oggi la nonna [è=>sta] male.
-
-%übung schwer | Wer bist du?
-?frei | Stell dich vor: Wie heißt du, woher kommst du, wie geht es dir? Schreibe 4 Sätze mit essere und stare.
-Ciao, sono Lena. Sono di Amburgo. Oggi sto bene. Il mio amico è Tim.
-Zeilen: 4
-
-@thema a-in | 1 · La città | Parte A | Die Präpositionen a und in | 4
-#regel
-Bei Orten unterscheidet man:
-- **a** + Stadt: _abito a Torino, a Roma, a Berlino_
-- **in** + Land oder Region: _in Italia, in Germania, in Piemonte_
-- **in** + Straße, Platz: _in via Roma, in piazza_
-- **a** + bestimmte Orte ohne Artikel: _a scuola, a casa_
-
-%übung leicht | a oder in?
-?auswahl | Wähle a oder in.
-Abito {a*|in} Torino.
-Marco abita {in*|a} Italia.
-La nonna abita {a*|in} Roma.
-Lisa abita {in*|a} Germania.
-Siamo {a*|in} scuola.
-Abitiamo {in*|a} via Garibaldi.
-! Stadt → a; Land und Straße → in; a scuola, a casa.
-
-%übung mittel | Wo wohnen sie?
-?luecke | Ergänze a oder in.
-Giulia abita [a] Milano, [in] Italia.
-Tim abita [a] Amburgo, [in] Germania.
-Il liceo è [in] piazza Castello.
-Oggi io sto [a] casa.
-Luca e Anna sono [a] scuola.
-Il papà lavora [in] via Po.
-
-%übung schwer | Fehler finden
-?fehler | Korrigiere die falschen Präpositionen.
-Abito [in=>a] Torino.
-Mio cugino abita [a=>in] Francia.
-Sono [in=>a] scuola.
-Il negozio è [a=>in] via Roma.
-! Stadt → a, Land → in, Straße → in, a scuola.
-
-@thema soggetto | 1 · La città | Parte A | Die Subjektpronomen | 5
-#regel
-| io | tu | lui / lei / Lei | noi | voi | loro |
-| ich | du | er / sie / Sie | wir | ihr | sie |
-
-Im Italienischen lässt man das Pronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._
-**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_
-
-%übung leicht | Wer ist das?
-?zuordnen | Welches Pronomen passt?
-abito = io
-abiti = tu
-abita = lui / lei
-abitiamo = noi
-abitate = voi
-abitano = loro
-
-%übung mittel | Pronomen einsetzen
-?auswahl | Welches Subjektpronomen passt?
-{Io*|Tu|Lui} sono di Torino, e {tu*|io|noi}?
-{Noi*|Voi|Loro} abitiamo in via Roma.
-{Voi*|Noi|Loro} parlate inglese?
-Marco? {Lui*|Lei|Io} è il mio amico.
-Giulia? {Lei*|Lui|Noi} sta bene.
-Anna e Luca? {Loro*|Voi|Noi} sono a scuola.
-
-%übung schwer | Gegensätze
-?ergaenzen | Ergänze mit Pronomen und Verb, wie im Beispiel: Io abito a Torino, lui … a Milano.
-Io parlo italiano, tu … tedesco. | parli | tu parli tedesco
-Noi abitiamo a Roma, voi … a Torino. | abitate | voi abitate a Torino
-Lui sta bene, lei … male. | sta | lei sta male
-Io sono di Torino, loro … di Napoli. | sono | loro sono di Napoli
-
-@thema non | 1 · La città | Parte A | Die Verneinung mit non | 6
-#regel
-**non** steht **vor dem Verb**:
-- _Abito a Torino._ → _**Non** abito a Torino._
-- _Luca è di Milano._ → _Luca **non** è di Milano._
-
-Antwort auf eine Frage: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)
-
-%übung leicht | Wo steht non?
-?mc | Welcher Satz ist richtig?
-* Non abito a Roma.
-- Abito non a Roma.
-- Abito a Roma non.
-?mc | Welcher Satz ist richtig?
-* Marco non è a scuola.
-- Non Marco è a scuola.
-- Marco è non a scuola.
-?mc | Sei di Torino? – …
-* No, non sono di Torino.
-- Non, no sono di Torino.
-- No, sono non di Torino.
-
-%übung mittel | Sätze verneinen
-?ergaenzen | Verneine die Sätze.
-Abito a Torino. → … | Non abito a Torino.
-Luca parla inglese. → … | Luca non parla inglese.
-Siamo di Milano. → … | Non siamo di Milano.
-Oggi sto bene. → … | Oggi non sto bene.
-Anna è a scuola. → … | Anna non è a scuola.
-
-%übung schwer | Wörter ordnen
-?ordnen | Bringe die Wörter in die richtige Reihenfolge: „Giulia wohnt nicht in Turin.“
-Giulia
-non
-abita
-a
-Torino
-
-@thema articolo-indeterminativo | 1 · La città | Parte A | Der unbestimmte Artikel | 7
-#regel
-| Artikel | wann? | Beispiel |
-| un | männlich (auch vor Vokal) | un ragazzo, un amico |
-| uno | männlich vor s + Konsonant, z | uno stadio, uno zaino |
-| una | weiblich vor Konsonant | una città, una ragazza |
-| un' | weiblich vor Vokal | un'amica, un'idea |
-
-Achtung: _un amico_ (männlich, ohne Apostroph), aber _un'amica_ (weiblich, mit Apostroph).
-
-%übung leicht | un, uno, una, un'?
-?auswahl | Wähle den unbestimmten Artikel.
-{un*|uno|una} gatto
-{una*|un|un'} scuola
-{uno*|un|una} stadio
-{un'*|una|un} amica
-{un*|un'|uno} amico
-{una*|uno|un} piazza
-{uno*|un|una} zaino
-{un*|una|uno} parco
-
-%übung mittel | il oder un?
-?tabelle | Ergänze den unbestimmten Artikel.
-Spalten: bestimmt | unbestimmt
-il liceo | [un liceo]
-lo stadio | [uno stadio]
-la classe | [una classe]
-l'amica | [un'amica]
-l'amico | [un amico]
-lo zaino | [uno zaino]
-
-%übung schwer | Was gibt es hier?
-?luecke | Ergänze den unbestimmten Artikel.
-A Torino c'è [uno] stadio grande.
-Marco ha [un] gatto e [un'] amica a Milano.
-In piazza c'è [una] scuola.
-Lisa è [una] ragazza simpatica.
-Questo è [un] ponte importante.
-! uno vor s + Konsonant; un' nur bei weiblichen Wörtern vor Vokal.
-
-@thema plurale | 1 · La città | Parte B | Der Plural: Artikel und Nomen | 8
-#regel
-**Nomen:**
-| Singular | Plural | Beispiel |
-| -o | -i | il ragazzo → i ragazzi |
-| -a | -e | la piazza → le piazze |
-| -e | -i | il ponte → i ponti |
-| -à, -ù (betont) | bleibt | la città → le città |
-
-**Artikel:**
-| Singular | Plural |
-| il | i |
-| lo, l' (männlich) | gli |
-| la, l' (weiblich) | le |
-
-_gli stadi, gli amici, gli zaini_ · _le amiche, le città_
-
-%übung leicht | Welcher Plural-Artikel?
-?auswahl | Wähle den Artikel im Plural.
-{i*|gli|le} negozi
-{gli*|i|le} stadi
-{le*|i|gli} piazze
-{gli*|le|i} amici
-{le*|gli|i} amiche
-{i*|le|gli} ponti
-{le*|i|gli} città
-{gli*|i|le} zaini
-
-%übung leicht | Einzahl und Mehrzahl
-?zuordnen | Was gehört zusammen?
-il negozio = i negozi
-la partita = le partite
-lo stadio = gli stadi
-l'edificio = gli edifici
-la città = le città
-il palazzo = i palazzi
-
-%übung mittel | Plural bilden
-?tabelle | Bilde den Plural mit Artikel.
-Spalten: Singular | Plural
-il campo | [i campi]
-la bicicletta | [le biciclette]
-lo sport | [gli sport]
-l'attrazione | [le attrazioni]
-il quartiere | [i quartieri]
-la città | [le città]
-! Fremdwörter (lo sport, il bar) und betonte Endungen (la città) ändern sich im Plural nicht.
-
-%übung schwer | Im Quartier
-?luecke | Setze die Wörter in den Plural.
-Nel quartiere ci sono molti (il negozio) [negozi].
-(la piazza) [Le piazze] sono belle.
-(lo stadio) [Gli stadi] di Torino sono grandi.
-Ci sono anche due (il campo sportivo) [campi sportivi].
-(l'amica) [Le amiche] di Giulia sono simpatiche.
-
-%übung schwer | Fehler finden
-?fehler | Korrigiere die Pluralformen.
-[I=>Gli] stadi sono grandi.
-Le [piazza=>piazze] di Torino sono belle.
-Ci sono molti [negozie=>negozi].
-[Gli=>Le] amiche abitano qui.
-Le [cittè=>città] italiane sono antiche.
-
-@thema ere-presente | 1 · La città | Parte B | Verben auf -ere im Präsens | 9
-#regel
-| Person | prendere | vedere |
-| io | prend**o** | ved**o** |
-| tu | prend**i** | ved**i** |
-| lui / lei | prend**e** | ved**e** |
-| noi | prend**iamo** | ved**iamo** |
-| voi | prend**ete** | ved**ete** |
-| loro | prend**ono** | ved**ono** |
-
-Unterschied zu -are: **lui/lei -e** (nicht -a), **voi -ete**, **loro -ono**.
-
-%übung leicht | Welche Form?
-?auswahl | Wähle die richtige Form.
-Io {prendo*|prende|prendi} la bicicletta.
-Tu {vedi*|vede|vedo} lo stadio?
-Il papà {vende*|vendi|vendono} biciclette.
-Noi {prendiamo*|prendete|prendono} l'autobus.
-Voi {vedete*|vediamo|vedono} la partita?
-I ragazzi {vendono*|vende|vendete} le magliette.
-
-%übung mittel | -are oder -ere?
-?tabelle | Ergänze die Formen.
-Spalten: Person | guardare | vedere
-lui / lei | [guarda] | [vede]
-voi | [guardate] | [vedete]
-loro | [guardano] | [vedono]
-! -are: guarda, guardate, guardano · -ere: vede, vedete, vedono.
-
-%übung mittel | Im Quartier
-?luecke | Setze das Verb in der richtigen Form ein.
-Oggi io (prendere) [prendo] la bicicletta.
-Il papà di Luca (vendere) [vende] biciclette.
-Noi (vedere) [vediamo] il campo sportivo.
-Voi (prendere) [prendete] l'autobus?
-I ragazzi (vedere) [vedono] la partita.
-
-%übung schwer | Fehler finden
-?fehler | Korrigiere die Verbformen.
-Marco [prenda=>prende] la bici.
-Noi [vediete=>vediamo] lo stadio.
-Voi [vendate=>vendete] i pattini?
-Loro [prendano=>prendono] l'autobus.
-
-@thema ce-ci-sono | 1 · La città | Parte B | c'è und ci sono | 10
-#regel
-- **c'è** + Singular: _In piazza **c'è** un bar._ (Es gibt / da ist)
-- **ci sono** + Plural: _Nel quartiere **ci sono** due negozi._ (Es gibt / da sind)
-- Frage: _C'è un parco qui?_ · Verneinung: _Non c'è un cinema._
-
-%übung leicht | c'è oder ci sono?
-?auswahl | Wähle c'è oder ci sono.
-In centro {c'è*|ci sono} un parco.
-Nel quartiere {ci sono*|c'è} molti negozi.
-A Torino {c'è*|ci sono} il fiume Po.
-In piazza {ci sono*|c'è} due bar.
-{C'è*|Ci sono} una pista di skateboard?
-Qui {ci sono*|c'è} tre campi sportivi.
-
-%übung mittel | Mein Quartier
-?luecke wortkasten | Ergänze c'è oder ci sono.
-Nel mio quartiere [c'è] un campo di calcio.
-[Ci sono] anche due negozi di bici.
-Non [c'è] uno stadio, ma [ci sono] tanti parchi.
-[C'è] un bar in piazza?
-In via Roma [ci sono] molti palazzi.
-
-%übung schwer | Was gibt es in deiner Stadt?
-?frei | Beschreibe deinen Ort in 5 Sätzen mit c'è und ci sono.
-Nel mio quartiere c'è un parco. Ci sono due negozi e un campo di calcio. Non c'è uno stadio. In centro ci sono molti bar.
-Zeilen: 5
-
-## ───────── Ausbau: weitere, längere Übungen je Thema ─────────
-
-@mehr artikel-sg
-
-%übung leicht | Ein Spaziergang durch Torino
-?auswahl | Wähle den richtigen bestimmten Artikel.
+%übung leicht | Una passeggiata per Torino
+?auswahl | Scegli l’articolo giusto. || Wähle den richtigen bestimmten Artikel.
 Ecco {la*|il|lo} stazione Porta Nuova.
-Qui c'è {il*|lo|la} museo del cinema.
-{Lo*|Il|L'} studente abita in centro.
-{L'*|Il|La} albero in piazza è molto vecchio.
+Qui c’è {il*|lo|la} museo del cinema.
+{Lo*|Il|L’} studente abita in centro.
+{L’*|Il|La} albero in piazza è molto vecchio.
 {Il*|Lo|La} bar in via Po è famoso.
-{La*|L'|Il} chiesa è vicino al fiume.
+{La*|L’|Il} chiesa è vicino al fiume.
 {Lo*|Il|La} zaino di Marco è nero.
-{L'*|La|Lo} ospedale è grande.
+{L’*|La|Lo} ospedale è grande.
 {Il*|La|Lo} negozio di bici è in via Roma.
-{La*|Il|L'} scuola di Giulia è un liceo.
-! il vor Konsonant (il museo, il bar) · lo vor s + Konsonant und z (lo studente, lo zaino) · la bei weiblichen Wörtern · l' vor Vokal (l'albero, l'ospedale).
+{La*|Il|L’} scuola di Giulia è un liceo.
+! il museo, il bar · lo studente, lo zaino · la chiesa, la scuola · l’albero, l’ospedale. || il vor Konsonant (il museo, il bar) · lo vor s + Konsonant und z (lo studente, lo zaino) · la bei weiblichen Wörtern · l’ vor Vokal (l’albero, l’ospedale).
 
-%übung leicht | Vier Gruppen
-?sortieren | Welcher Artikel passt? Ordne die Nomen zu.
-Kategorien: il=il; lo=lo; la=la; l=l'
+%übung leicht | Quattro gruppi
+?sortieren | Quale articolo? Metti i nomi nel gruppo giusto. || Welcher Artikel passt? Ordne die Nomen zu.
+Kategorien: il=il; lo=lo; la=la; l=l’
 fiume > il
 parco > il
 ponte > il
@@ -524,71 +84,165 @@ via > la
 amico > l
 industria > l
 attrazione > l
-! lo steht vor s + Konsonant und vor z. Vor Vokal wird il oder la zu l'.
+! Lo con s + consonante e z. Davanti a vocale: l’. || lo vor s + Konsonant und vor z. Vor Vokal wird il oder la zu l’.
+
+%übung mittel | Torino, la città
+?luecke | Scrivi l’articolo giusto (il, lo, la, l’). || Setze den bestimmten Artikel ein.
+[Il] Po è [il] fiume di Torino.
+[La] Mole Antonelliana è [il] simbolo della città.
+[Lo] stadio è grande.
+[L’] amica di Marco abita in centro.
+[Il] parco Valentino è bellissimo.
+[La] piazza è importante per [la] città.
+[Lo] zaino di Anna è in classe.
+[L’] industria del cioccolato è famosa.
+! il fiume, il simbolo, il parco · lo stadio, lo zaino · l’amica, l’industria. || il fiume, il simbolo, il parco (männlich vor Konsonant) · lo stadio, lo zaino (s + Konsonant, z) · l’amica, l’industria (Vokal).
+
+%übung mittel | Articolo e nome
+?tabelle | Scrivi l’articolo. || Ergänze den Artikel.
+Spalten: nome | articolo
+fiume | [il]
+zaino | [lo]
+industria | [l’]
+città | [la]
+amico | [l’]
+ponte | [il]
+stadio | [lo]
+gelato | [il]
+via | [la]
+ospedale | [l’]
+! Con i nomi in -e (fiume, ponte) devi imparare il genere a memoria. || Bei Nomen auf -e (fiume, ponte) musst du das Geschlecht auswendig lernen.
 
 %übung mittel | Una cartolina da Torino
-?luecke | Ergänze den bestimmten Artikel (il, lo, la, l').
+?luecke | Scrivi l’articolo giusto (il, lo, la, l’). || Ergänze den bestimmten Artikel (il, lo, la, l’).
 Cara Lisa,
 oggi visito Torino con [la] mia famiglia.
 Prima vediamo [il] fiume Po e [il] ponte Vittorio Emanuele.
 Poi andiamo in centro: [la] piazza Castello è bellissima.
-Vicino c'è [il] museo egizio, [l'] attrazione più famosa della città.
+Vicino c’è [il] museo egizio, [l’] attrazione più famosa della città.
 Mio fratello vuole vedere [lo] stadio della Juventus.
-[L'] amica di mia madre abita in via Garibaldi.
-[La] via è lunga e c'è [il] tram.
+[L’] amica di mia madre abita in via Garibaldi.
+[La] via è lunga e c’è [il] tram.
 Domani prendiamo [lo] zaino e andiamo al parco.
 Un abbraccio, Sara
-! fiume, ponte, museo, tram → il · stadio, zaino → lo · piazza, via → la · attrazione, amica → l'.
+! fiume, ponte, museo, tram → il · stadio, zaino → lo · piazza, via → la · attrazione, amica → l’. || fiume, ponte, museo, tram → il · stadio, zaino → lo · piazza, via → la · attrazione, amica → l’.
 
-%übung mittel | Männlich oder weiblich? Mit Artikel
-?tabelle | Schreibe den Artikel und kreuze an: m (männlich) oder f (weiblich).
-Spalten: Nomen | Artikel | m oder f
+%übung mittel | Maschile o femminile? Con l’articolo
+?tabelle | Scrivi l’articolo e m (maschile) o f (femminile). || Schreibe den Artikel und m (männlich) oder f (weiblich).
+Spalten: nome | articolo | m o f
 città | [la] | [f]
 stadio | [lo] | [m]
-amica | [l'] | [f]
+amica | [l’] | [f]
 ponte | [il] | [m]
-industria | [l'] | [f]
+industria | [l’] | [f]
 zaino | [lo] | [m]
-attrazione | [l'] | [f]
+attrazione | [l’] | [f]
 fiume | [il] | [m]
-! Bei -e hilft nur das Lernen: il ponte, il fiume (m), l'attrazione (f).
+! I nomi in -e cambiano: il ponte, il fiume (m), l’attrazione (f). || Bei -e hilft nur das Lernen: il ponte, il fiume (m), l’attrazione (f).
 
-%übung schwer | Was stimmt nicht?
-?fehler | In diesem Text sind sieben Artikel falsch. Korrigiere sie.
+%übung schwer | Errori sulla mappa
+?fehler | Gli articoli segnati sono sbagliati. Scrivi l’articolo giusto. || Die markierten Artikel sind falsch. Schreibe den richtigen Artikel.
+Ecco [il=>lo] stadio di Torino.
+[La=>L’] industria è importante.
+Ecco [lo=>il] ponte sul Po.
+[Il=>La] città è bella.
+[La=>Lo] zaino di Marco è qui.
+[Lo=>Il] parco è vicino.
+[Il=>L’] amico di Anna si chiama Leo.
+[Lo=>La] piazza è grande.
+! Prima guarda il genere, poi la prima lettera: s + consonante e z → lo, vocale → l’. || Prüfe zuerst das Geschlecht, dann den Anfangsbuchstaben: s + Konsonant/z → lo, Vokal → l’.
+
+%übung schwer | Che cosa non va?
+?fehler | Nel testo ci sono otto articoli sbagliati. Correggili. || In diesem Text sind acht Artikel falsch. Korrigiere sie.
 [Il=>Lo] stadio di Torino è molto grande.
-[La=>L'] amica di Paolo si chiama Chiara.
-Vicino al fiume c'è [lo=>il] parco Valentino.
+[La=>L’] amica di Paolo si chiama Chiara.
+Vicino al fiume c’è [lo=>il] parco Valentino.
 [Il=>La] città è bella di sera.
 [Lo=>Il] ponte è vecchio.
-In piazza vedo [la=>l'] industria del cioccolato.
+In piazza vedo [la=>l’] industria del cioccolato.
 [Il=>Lo] zaino di Sara è rosso.
-! Prüfe zuerst das Geschlecht, dann den Anfangsbuchstaben: s + Konsonant/z → lo, Vokal → l'.
+[Lo=>Il] museo apre alle nove.
+! Prima il genere, poi la prima lettera del nome. || Erst das Geschlecht, dann den Anfangsbuchstaben prüfen.
 
 %übung schwer | Il mio quartiere
-?ergaenzen | Ergänze die Sätze mit Artikel und Nomen.
+?ergaenzen | Completa le frasi con articolo e nome. || Ergänze die Sätze mit Artikel und Nomen.
 Il mio posto preferito è … (Park) | il parco | Il mio posto preferito è il parco.
-Il mio amico gioca a calcio nel … (Stadion) | stadio | Il mio amico gioca a calcio nello stadio.
-In centro c'è … (Platz) | la piazza | In centro c'è la piazza.
-Vicino a casa mia c'è … (Fluss) | il fiume | Vicino a casa mia c'è il fiume.
-Nella mia città c'è … (Krankenhaus) | l'ospedale | Nella mia città c'è l'ospedale.
-! Nomen immer mit Artikel lernen: il parco, lo stadio, la piazza, il fiume, l'ospedale.
+In centro c’è … (Platz) | la piazza | In centro c’è la piazza.
+Vicino a casa mia c’è … (Fluss) | il fiume | Vicino a casa mia c’è il fiume.
+Nella mia città c’è … (Krankenhaus) | l’ospedale | Nella mia città c’è l’ospedale.
+Mio fratello gioca … (Stadion) | stadio | Mio fratello gioca nello stadio.
+Davanti alla scuola c’è … (Baum) | l’albero | Davanti alla scuola c’è l’albero.
+Il sabato vado … (Eisdiele) | gelateria | Il sabato vado in gelateria.
+Prendo sempre … (Rucksack) | lo zaino | Prendo sempre lo zaino.
+! Scrivi sempre il nome con l’articolo. || Schreibe das Nomen immer mit Artikel.
 
-@mehr are-presente
+%übung schwer | La mia città
+?frei | Scrivi cinque frasi sulla tua città o sul tuo paese. Usa gli articoli il, lo, la, l’. || Schreibe fünf Sätze über deine Stadt oder dein Dorf. Benutze bestimmte Artikel (il, lo, la, l’).
+Il fiume si chiama … · La piazza è grande. · Lo stadio è nuovo. · L’ospedale è vicino. · Il parco è bello.
+Zeilen: 5
 
-%übung leicht | Wer macht was?
-?zuordnen | Verbinde Person und Verbform.
+@thema are-presente | 1 · La città | Parte A | I verbi in -are al presente | 2
+#regel
+I verbi in **-are** sono il gruppo più grande. Togli -are e aggiungi la desinenza:
+
+| persona | abitare | parlare |
+| io | abit**o** | parl**o** |
+| tu | abit**i** | parl**i** |
+| lui / lei | abit**a** | parl**a** |
+| noi | abit**iamo** | parl**iamo** |
+| voi | abit**ate** | parl**ate** |
+| loro | abit**ano** | parl**ano** |
+
+Di solito non diciamo il pronome: _Abito a Torino._ La desinenza dice chi è.
+**Attenzione:** cercare → tu cer**chi**, giocare → noi gio**chiamo** · mangiare → tu mang**i**, noi mang**iamo**.
+#regel-de
+Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an (siehe Tabelle).
+Das Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.
+**Achtung:** -care/-gare bekommen vor i ein h (cerchi, giochiamo); bei -iare fällt ein i weg (mangi, mangiamo). Bei loro liegt die Betonung vorn: **a**bitano.
+
+%übung leicht | Quale forma?
+?auswahl | Scegli la forma giusta del verbo. || Wähle die richtige Verbform.
+Io {abito*|abita|abitano} a Torino.
+Tu {parli*|parlo|parla} italiano?
+Marco {arriva*|arrivi|arrivo} in centro.
+Noi {passeggiamo*|passeggiate|passeggiano} in piazza.
+Voi {parlate*|parliamo|parlano} tedesco?
+Anna e Luca {abitano*|abita|abitate} in via Roma.
+Io {guardo*|guarda|guardi} la partita.
+Mia madre {lavora*|lavoro|lavorano} in un museo.
+Tu {aspetti*|aspetta|aspetto} l’autobus?
+I ragazzi {studiano*|studia|studiamo} in biblioteca.
+! La desinenza mostra la persona: -o (io), -i (tu), -a (lui/lei), -iamo (noi), -ate (voi), -ano (loro). || Die Endung zeigt die Person: -o (io), -i (tu), -a (lui/lei), -iamo (noi), -ate (voi), -ano (loro).
+
+%übung leicht | Persona e desinenza
+?zuordnen | Abbina la persona e la forma del verbo. || Was gehört zusammen?
+io = parlo
+tu = parli
+lui / lei = parla
+noi = parliamo
+voi = parlate
+loro = parlano
+Giulia e io = abitiamo
+tu e Marco = abitate
++ parlare
+! Giulia e io = noi, tu e Marco = voi. || Giulia e io = noi, tu e Marco = voi.
+
+%übung leicht | Chi fa che cosa?
+?zuordnen | Abbina la persona e la forma. || Verbinde Person und Verbform.
 io = lavoro
 tu = cerchi
 Giulia = gioca
 noi = mangiamo
 voi = ascoltate
 i ragazzi = studiano
+Marco e io = guardiamo
+tu e Sara = arrivate
 + studia
 + cerco
-! cercare → tu cerchi (mit h), giocare → gioca; bei mangiare und studiare fällt ein i weg: mangiamo, studiano.
+! cercare → tu cerchi (con h), giocare → gioca; con mangiare e studiare c’è una sola i: mangiamo, studiano. || cercare → tu cerchi (mit h), giocare → gioca; bei mangiare und studiare fällt ein i weg: mangiamo, studiano.
 
 %übung leicht | Sabato in centro
-?auswahl | Wähle die richtige Verbform.
+?auswahl | Scegli la forma giusta del verbo. || Wähle die richtige Verbform.
 Sabato Luca e io {passeggiamo*|passeggiano|passeggi} in centro.
 Io {compro*|compra|comprano} un gelato.
 Luca {guarda*|guardi|guardo} le vetrine.
@@ -597,55 +251,150 @@ Marta {arriva*|arrivano|arrivi} alle quattro.
 Noi {aspettiamo*|aspettate|aspettano} Marta in piazza.
 I genitori di Luca {lavorano*|lavora|lavoriamo} in un negozio.
 Voi {mangiate*|mangiamo|mangiano} una pizza con noi?
-! io -o, tu -i, lui/lei -a, noi -iamo, voi -ate, loro -ano.
+! io -o, tu -i, lui/lei -a, noi -iamo, voi -ate, loro -ano. || io -o, tu -i, lui/lei -a, noi -iamo, voi -ate, loro -ano.
 
-%übung mittel | Un'email di Giulia
-?luecke | Setze die Verben in der richtigen Form ein.
+%übung mittel | Una giornata a Torino
+?luecke | Scrivi il verbo nella forma giusta. || Setze das Verb in der richtigen Form ein.
+Ciao, io (abitare) [abito] a Torino.
+La mia amica Giulia (abitare) [abita] in centro.
+Oggi noi (passeggiare) [passeggiamo] insieme.
+Tu (arrivare) [arrivi] alle tre?
+I ragazzi (guardare) [guardano] la partita.
+Voi (parlare) [parlate] inglese?
+Io (aspettare) [aspetto] il tram in piazza.
+Marco (comprare) [compra] un libro.
+Noi (mangiare) [mangiamo] un gelato da Fiorio.
+Le ragazze (ascoltare) [ascoltano] musica.
+! abitare, passeggiare, arrivare, guardare, parlare: verbi regolari in -are. || abitare, passeggiare, arrivare, guardare und parlare sind regelmäßige Verben auf -are.
+
+%übung mittel | Domande e risposte
+?ergaenzen | Rispondi con la forma di io. || Antworte mit derselben Verbform (io).
+Abiti a Torino? – Sì, … a Torino. | abito | Sì, abito a Torino.
+Parli francese? – Sì, … un po’ francese. | parlo | Sì, parlo un po’ francese.
+Guardi la partita? – Sì, … la partita. | guardo | Sì, guardo la partita.
+Arrivi adesso? – Sì, … adesso. | arrivo | Sì, arrivo adesso.
+Studi l’inglese? – Sì, … l’inglese. | studio | Sì, studio l’inglese.
+Mangi la pizza? – Sì, … la pizza. | mangio | Sì, mangio la pizza.
+Cerchi la stazione? – Sì, … la stazione. | cerco | Sì, cerco la stazione.
+Giochi a calcio? – Sì, … a calcio. | gioco | Sì, gioco a calcio.
+! A una domanda con tu rispondiamo con io: parli → parlo. || Auf eine Frage mit tu antwortet man mit io: parli → parlo.
+
+%übung mittel | Un’email di Giulia
+?luecke | Scrivi il verbo nella forma giusta. || Setze die Verben in der richtigen Form ein.
 Ciao Tim!
 Io (abitare) [abito] a Torino con la mia famiglia.
 Mio padre (lavorare) [lavora] in un museo, mia madre (insegnare) [insegna] inglese.
 Il pomeriggio io e mia sorella (studiare) [studiamo] insieme.
 Poi (giocare) [giochiamo] a pallavolo nel parco.
 E tu? Dove (abitare) [abiti]? Che lingue (parlare) [parli]?
-I miei amici (parlare) [parlano] anche un po' di tedesco.
+I miei amici (parlare) [parlano] anche un po’ di tedesco.
 (Aspettare) [Aspetto] la tua risposta!
 Giulia
-! giocare → giochiamo (h bleibt beim harten Laut) · studiare → studiamo (nur ein i).
+! giocare → giochiamo (la h resta per il suono duro) · studiare → studiamo (una sola i). || giocare → giochiamo (h bleibt beim harten Laut) · studiare → studiamo (nur ein i).
 
-%übung mittel | Fragen stellen
-?ergaenzen | Stelle die Frage mit tu oder voi, wie im Beispiel: (abitare, tu) Dove abiti?
+%übung mittel | Fare domande
+?ergaenzen | Fai la domanda con tu o voi, come nell’esempio: (abitare, tu) Dove abiti? || Stelle die Frage mit tu oder voi, wie im Beispiel: (abitare, tu) Dove abiti?
 (parlare, tu) … tedesco? | Parli | Parli tedesco?
 (lavorare, voi) Dove …? | lavorate | Dove lavorate?
 (arrivare, tu) A che ora …? | arrivi | A che ora arrivi?
 (guardare, voi) … la partita? | Guardate | Guardate la partita?
 (cercare, tu) Che cosa …? | cerchi | Che cosa cerchi?
 (mangiare, voi) … una pizza? | Mangiate | Mangiate una pizza?
+(abitare, voi) Dove …? | abitate | Dove abitate?
+(studiare, tu) … l’italiano? | Studi | Studi l’italiano?
+! tu -i, voi -ate. || tu -i, voi -ate.
 
-%übung schwer | Alle Formen
-?tabelle | Ergänze die Tabelle. Achtung bei cercare, giocare und mangiare!
-Spalten: Person | cercare | giocare | mangiare
+%übung schwer | Tabella dei verbi
+?tabelle | Completa la tabella. || Ergänze die Formen.
+Spalten: persona | abitare | guardare
+io | [abito] | [guardo]
+tu | [abiti] | [guardi]
+lui / lei | [abita] | [guarda]
+noi | [abitiamo] | [guardiamo]
+voi | [abitate] | [guardate]
+loro | [abitano] | [guardano]
+! Le desinenze sono uguali per tutti i verbi regolari in -are. || Die Endungen sind bei allen regelmäßigen Verben auf -are gleich.
+
+%übung schwer | Trova gli errori
+?fehler | Le forme segnate sono sbagliate. Scrivi la forma giusta. || Die markierten Formen sind falsch. Schreibe die richtige Form.
+Io [abita=>abito] a Torino.
+Noi [parlano=>parliamo] italiano.
+Tu [guardo=>guardi] la partita?
+Marta e Paolo [passeggia=>passeggiano] in piazza.
+Voi [arrivano=>arrivate] adesso?
+Mia sorella [studi=>studia] tedesco.
+Io e Luca [aspettate=>aspettiamo] l’autobus.
+Tu [cerci=>cerchi] il museo?
+! Chi fa l’azione? Io e Luca = noi → -iamo. cercare → cerchi. || Wer handelt? Io e Luca = noi → -iamo. cercare → cerchi.
+
+%übung schwer | Tutte le forme
+?tabelle | Completa la tabella. Attenzione a cercare, giocare e mangiare! || Ergänze die Tabelle. Achtung bei cercare, giocare und mangiare!
+Spalten: persona | cercare | giocare | mangiare
 io | [cerco] | [gioco] | [mangio]
 tu | [cerchi] | [giochi] | [mangi]
 lui / lei | [cerca] | [gioca] | [mangia]
 noi | [cerchiamo] | [giochiamo] | [mangiamo]
 voi | [cercate] | [giocate] | [mangiate]
 loro | [cercano] | [giocano] | [mangiano]
-! -care/-gare: vor i ein h (cerchi, giochiamo). -iare: nur ein i (mangi, mangiamo).
+! -care/-gare: prima di i c’è una h (cerchi, giochiamo). -iare: una sola i (mangi, mangiamo). || -care/-gare: vor i ein h (cerchi, giochiamo). -iare: nur ein i (mangi, mangiamo).
 
-%übung schwer | Eine Nachricht mit Fehlern
-?fehler | Tim hat sechs Fehler gemacht. Korrigiere die Verben.
+%übung schwer | Un messaggio con errori
+?fehler | Tim ha fatto otto errori. Correggi i verbi. || Tim hat acht Fehler gemacht. Korrigiere die Verben.
 Ciao Giulia, io [abita=>abito] ad Amburgo.
 Mio padre [lavoro=>lavora] in un ospedale.
 Io e mio fratello [giocano=>giochiamo] a calcio.
 Tu [studia=>studi] tedesco a scuola?
 I miei amici [parla=>parlano] solo tedesco.
 Voi [mangiamo=>mangiate] spesso la pizza?
-! Zuerst klären, wer handelt: io → -o, mio padre → -a, io e mio fratello = noi → -iamo.
+Mia madre [cuciniamo=>cucina] molto bene.
+Io [aspetti=>aspetto] la tua email!
+! Prima chiediti chi fa l’azione: io → -o, mio padre → -a, io e mio fratello = noi → -iamo. || Zuerst klären, wer handelt: io → -o, mio padre → -a, io e mio fratello = noi → -iamo.
 
-@mehr essere-stare
+@thema essere-stare | 1 · La città | Parte A | I verbi essere e stare | 3
+#regel
+**essere** è irregolare:
+| io | tu | lui / lei | noi | voi | loro |
+| sono | sei | è | siamo | siete | sono |
 
-%übung leicht | Formen von essere und stare
-?sortieren | Ist das eine Form von essere oder von stare?
+**stare** serve per dire come va: _Come stai? – Sto bene / male._
+| io | tu | lui / lei | noi | voi | loro |
+| sto | stai | sta | stiamo | state | stanno |
+
+- _Sono di Torino._ (da dove?) · _Sono Luca._ (nome) · _È bello._ (com’è?)
+- _Come sta Anna? – Sta bene._ (come va?)
+#regel-de
+**essere** (sein) ist unregelmäßig. **stare** benutzt man für das Befinden: _Come stai? – Sto bene / male._
+- essere: Herkunft (_Sono di Torino._), Name (_Sono Luca._), Eigenschaft (_È bello._)
+- stare: Befinden (_Come sta Anna? – Sta bene._)
+
+%übung leicht | essere: quale forma?
+?auswahl | Scegli la forma giusta di essere. || Wähle die richtige Form von essere.
+Io {sono*|sei|è} Luca.
+Tu {sei*|sono|siamo} di Milano?
+Marco {è*|e|sono} di Torino.
+Noi {siamo*|siete|sono} amici.
+Voi {siete*|siamo|sei} in classe?
+Anna e Sara {sono*|siete|è} a scuola.
+Il parco {è*|sono|sei} molto bello.
+Io e Giulia {siamo*|siete|sono} di Torino.
+Tu e Leo {siete*|siamo|sono} fratelli?
+La città {è*|e|sono} grande.
+! Attenzione: è (verbo) ha l’accento, e (und) no. || Achtung: è (er/sie ist) mit Akzent, e (und) ohne Akzent.
+
+%übung leicht | Come stai?
+?auswahl | Scegli la forma giusta di stare. || Wähle die richtige Form von stare.
+Ciao Luca, come {stai*|sta|sto}?
+Io {sto*|stai|stanno} bene, grazie.
+E Anna? Come {sta*|stai|state}?
+Noi {stiamo*|state|stanno} male oggi.
+Ragazzi, come {state*|stiamo|stai}?
+I nonni {stanno*|sta|state} bene.
+Signora, come {sta*|stai|state}?
+Oggi tu e Marco {state*|stiamo|stanno} meglio?
+! Formale: Lei sta (terza persona) · informale: tu stai. || Höflich: Lei sta (3. Person) · tu stai.
+
+%übung leicht | Forme di essere e stare
+?sortieren | È una forma di essere o di stare? || Ist das eine Form von essere oder von stare?
 Kategorien: e=essere; s=stare
 sono > e
 sei > e
@@ -657,10 +406,10 @@ stai > s
 sta > s
 stiamo > s
 stanno > s
-! sono gehört zu essere (io sono / loro sono), sto zu stare.
+! sono è di essere (io sono / loro sono), sto è di stare. || sono gehört zu essere (io sono / loro sono), sto zu stare.
 
-%übung leicht | Wer ist wer?
-?auswahl | Wähle die richtige Form.
+%übung leicht | Chi è chi?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
 Ciao, io {sono*|sei|siamo} Marco.
 Lei {è*|sono|sei} la mia professoressa.
 Tu e Luca {siete*|siamo|sono} fratelli?
@@ -669,10 +418,36 @@ Tu {sei*|è|sono} italiano?
 Giulia e Sara {sono*|siamo|è} in classe.
 I ragazzi {stanno*|stiamo|sta} bene.
 Signora, come {sta*|stai|state}?
-! Höflich: Lei sta (3. Person) · tu stai.
+! Formale: Lei sta · informale: tu stai. || Höflich: Lei sta (3. Person) · tu stai.
+
+%übung mittel | essere o stare?
+?auswahl | essere o stare? Scegli la forma giusta. || essere oder stare? Wähle die passende Form.
+Io {sono*|sto} di Torino.
+Come {stai*|sei}? – Bene, grazie.
+Marco {è*|sta} il mio amico.
+Oggi Giulia non {sta*|è} bene.
+Torino {è*|sta} una città importante.
+Noi {stiamo*|siamo} male oggi.
+Voi {siete*|state} in centro?
+Come {state*|siete}, ragazzi?
+Mia nonna {è*|sta} di Napoli.
+I miei amici {stanno*|sono} bene.
+! essere: nome, origine, com’è una cosa. stare: come va (bene/male). || essere: Name, Herkunft, Eigenschaft. stare: Befinden (bene/male).
+
+%übung mittel | Un dialogo
+?luecke wortkasten | Completa il dialogo con le forme di essere e stare. || Ergänze den Dialog mit Formen von essere und stare.
+– Ciao! Tu [sei] Paolo?
+– Sì, [sono] Paolo. E tu?
+– Io [sono] Sara. Come [stai]?
+– [Sto] bene, grazie. Anche tu [sei] di Torino?
+– No, [sono] di Milano. Ma adesso abito qui.
+– E come [sta] la tua famiglia?
+– Bene! I miei genitori [sono] contenti di Torino.
++ è, siete, state
+! Come va → stare. Chi sei, di dove sei → essere. || Befinden → stare. Name, Herkunft → essere.
 
 %übung mittel | Al telefono
-?luecke wortkasten | Ergänze das Telefongespräch mit essere oder stare.
+?luecke wortkasten | Completa la telefonata con essere o stare. || Ergänze das Telefongespräch mit essere oder stare.
 – Pronto, [sono] Chiara. Ciao Luca, come [stai]?
 – Ciao Chiara! Io [sto] bene, grazie. E tu?
 – Così così. Oggi mia madre non [sta] bene.
@@ -681,40 +456,90 @@ Signora, come {sta*|stai|state}?
 – E i tuoi nonni? Come [stanno]?
 – Bene, grazie. Loro [sono] in vacanza a Roma.
 + siamo, stiamo
-! Befinden → stare (come stai, sto bene). Ort, Name, Herkunft → essere (sono a casa, sono Chiara).
+! Come va → stare (come stai, sto bene). Dove, chi, di dove → essere (sono a casa, sono Chiara). || Befinden → stare (come stai, sto bene). Ort, Name, Herkunft → essere (sono a casa, sono Chiara).
 
-%übung mittel | Wie geht es dir?
-?ergaenzen | Antworte mit stare oder essere.
+%übung mittel | Come va?
+?ergaenzen | Rispondi con stare o essere. || Antworte mit stare oder essere.
 Come stai? – … bene, grazie. | Sto | Sto bene, grazie.
 Di dove sei? – … di Napoli. | Sono | Sono di Napoli.
 Come sta tua madre? – … male oggi. | Sta | Sta male oggi.
 Dove siete? – … a scuola. | Siamo | Siamo a scuola.
 Come state? – … benissimo! | Stiamo | Stiamo benissimo!
 Chi è? – … Luca, il mio amico. | È | È Luca, il mio amico.
+Di dove sono i tuoi nonni? – … di Bari. | Sono | Sono di Bari.
+Come stanno i ragazzi? – … bene. | Stanno | Stanno bene.
+! Come va → stare. Chi, dove, di dove → essere. || Befinden → stare. Name, Ort, Herkunft → essere.
 
-%übung schwer | essere oder stare im Text
-?auswahl | Lies die Mail und wähle essere oder stare.
-Ciao Lena, io {sono*|sto} Marta e {sono*|sto} di Torino.
-Oggi non {sto*|sono} bene, ho mal di testa.
-Mio fratello Paolo {è*|sta} molto simpatico.
-Lui {sta*|è} bene, ma {è*|sta} stanco.
-I miei genitori {sono*|stanno} al lavoro.
-E tu come {stai*|sei}? {Sei*|Stai} a casa oggi?
-Noi {siamo*|stiamo} amici da un mese, che bello!
-! stanco sein (Eigenschaft im Moment) → essere stanco; nur bene/male/così così → stare.
+%übung schwer | Errori nel dialogo
+?fehler | Correggi le forme segnate. || Korrigiere die markierten Formen.
+Ciao, io [è=>sono] Francesca.
+Come [sei=>stai]? – Sto bene.
+Luca e Marco [è=>sono] di Torino.
+Noi [stiamo=>siamo] amici.
+Oggi la nonna [è=>sta] male.
+Voi [state=>siete] in classe 2B?
+Mio padre [sto=>è] di Milano.
+Ragazzi, come [siete=>state]?
+! Amici, di Torino, in classe → essere. Bene, male, come va → stare. || Amici, di Torino, in classe → essere. Bene, male, wie geht’s → stare.
 
-%übung schwer | Sätze bilden
-?ordnen | Bringe die Wörter in die richtige Reihenfolge: „Wie geht es deinen Großeltern?“
-Come
-stanno
-i
-tuoi
-nonni?
+%übung schwer | Chi sei?
+?frei | Presentati: come ti chiami, di dove sei, come stai? Scrivi 4 frasi con essere e stare. || Stell dich vor: Wie heißt du, woher kommst du, wie geht es dir? Schreibe 4 Sätze mit essere und stare.
+Ciao, sono Lena. Sono di Amburgo. Oggi sto bene. Il mio amico è Tim.
+Zeilen: 4
 
-@mehr a-in
+%übung schwer | essere o stare nel testo
+?luecke | Leggi la mail e scrivi la forma giusta di essere o stare. || Lies die Mail und setze die richtige Form von essere oder stare ein.
+Ciao Lena, io [sono] Marta e [sono] di Torino.
+Oggi non [sto] bene, ho mal di testa.
+Mio fratello Paolo [è] molto simpatico.
+Lui [sta] bene, ma [è] stanco.
+I miei genitori [sono] al lavoro.
+E tu come [stai]? [Sei] a casa oggi?
+Noi [siamo] amiche da un mese, che bello!
+! Stanco, simpatico, al lavoro → essere. Solo bene, male, così così → stare. || stanco, simpatico, al lavoro → essere. Nur bene/male/così così → stare.
 
-%übung leicht | Wo bist du?
-?sortieren | a oder in? Ordne zu.
+%übung schwer | Frasi da costruire
+?ergaenzen | Scrivi la frase con essere o stare. || Bilde den Satz mit essere oder stare.
+(io / di Monaco) | Sono di Monaco | Sono di Monaco.
+(Marco / bene oggi) | Marco sta bene oggi | Marco sta bene oggi.
+(noi / in centro) | Siamo in centro | Siamo in centro.
+(tu / male?) | Stai male | Stai male?
+(la piazza / grande) | La piazza è grande | La piazza è grande.
+(i nonni / bene) | I nonni stanno bene | I nonni stanno bene.
+(voi / amici?) | Siete amici | Siete amici?
+(io / stanco) | Sono stanco/Sono stanca | Sono stanco.
+! Come va → stare. Tutto il resto qui → essere. || Befinden → stare. Alles andere hier → essere.
+
+@thema a-in | 1 · La città | Parte A | Le preposizioni a e in | 4
+#regel
+Per i luoghi usiamo:
+- **a** + città: _abito a Torino, a Roma, a Berlino_
+- **in** + paese o regione: _in Italia, in Germania, in Piemonte_
+- **in** + via, piazza: _in via Roma, in piazza_
+- **a** + casa, scuola: _a casa, a scuola_
+- **in** + centro, biblioteca, montagna: _in centro, in biblioteca_
+#regel-de
+Bei Orten unterscheidet man:
+- **a** + Stadt: _abito a Torino_ · **in** + Land oder Region: _in Italia, in Piemonte_
+- **in** + Straße, Platz: _in via Roma, in piazza_ · **a** + casa, scuola: _a casa, a scuola_
+- **in** + centro, biblioteca, montagna
+
+%übung leicht | A o in?
+?auswahl | Scegli a o in. || Wähle a oder in.
+Abito {a*|in} Torino.
+Marco abita {in*|a} Italia.
+La nonna abita {a*|in} Roma.
+Lisa abita {in*|a} Germania.
+Siamo {a*|in} scuola.
+Abitiamo {in*|a} via Garibaldi.
+Oggi resto {a*|in} casa.
+Il museo è {in*|a} piazza Castello.
+Mio zio abita {in*|a} Sicilia.
+Studio {in*|a} biblioteca.
+! Città → a; paese, regione, via → in; a scuola, a casa. || Stadt → a; Land, Region und Straße → in; a scuola, a casa.
+
+%übung leicht | Dove sei?
+?sortieren | A o in? Metti le parole nel gruppo giusto. || a oder in? Ordne zu.
 Kategorien: a=a; in=in
 Torino > a
 Roma > a
@@ -726,37 +551,114 @@ piazza > in
 via Roma > in
 centro > in
 Piemonte > in
-! Städte und casa/scuola → a; Länder, Regionen, Straßen, Plätze, centro → in.
+! Città e casa/scuola → a; paesi, regioni, vie, piazze, centro → in. || Städte und casa/scuola → a; Länder, Regionen, Straßen, Plätze, centro → in.
+
+%übung leicht | Città o paese?
+?auswahl | Completa con a o in. || Ergänze a oder in.
+Paolo vive {a*|in} Napoli.
+Napoli è {in*|a} Campania.
+Mia cugina studia {a*|in} Vienna.
+Vienna è {in*|a} Austria.
+Il papà lavora {in*|a} centro.
+I ragazzi giocano {in*|a} piazza.
+Domani andiamo {a*|in} Milano.
+Le vacanze? {In*|A} Toscana!
+! Napoli, Vienna, Milano → a · Campania, Austria, Toscana → in. || Städte → a · Regionen und Länder → in.
 
 %übung mittel | Dove abitano?
-?luecke | Ergänze a oder in.
+?luecke | Scrivi a o in. || Ergänze a oder in.
+Giulia abita [a] Milano, [in] Italia.
+Tim abita [a] Amburgo, [in] Germania.
+Il liceo è [in] piazza Castello.
+Oggi io sto [a] casa.
+Luca e Anna sono [a] scuola.
+Il papà lavora [in] via Po.
 Paolo abita [a] Napoli, [in] Campania.
 Mia zia abita [in] Austria, [a] Vienna.
-Io sono [a] casa, ma mio fratello è [a] scuola.
-Il cinema è [in] centro, [in] piazza Vittorio.
-La mia amica abita [in] via Garibaldi, [a] Torino.
-Andiamo [in] Sicilia in vacanza.
-Oggi studio [in] biblioteca.
-! in biblioteca, in centro, in piazza, in via … · a casa, a scuola.
+! Città → a, paese → in, via/piazza → in, a casa, a scuola. || Stadt → a, Land → in, Straße/Platz → in, a casa, a scuola.
 
-%übung schwer | Eine Reise
-?fehler | Korrigiere die sechs falschen Präpositionen.
+%übung mittel | Una giornata in città
+?luecke | Scrivi a o in. || Ergänze a oder in.
+La mattina sono [a] scuola.
+Il pomeriggio studio [in] biblioteca.
+Poi vado [in] centro con Marta.
+Marta abita [in] via Garibaldi.
+Prendiamo un gelato [in] piazza.
+La sera torno [a] casa.
+Domenica andiamo [in] montagna.
+In estate andiamo [in] Sicilia, [a] Palermo.
+! in biblioteca, in centro, in piazza, in via … · a casa, a scuola. || in biblioteca, in centro, in piazza, in via … · a casa, a scuola.
+
+%übung mittel | Domande sul luogo
+?ergaenzen | Rispondi con a o in. || Antworte mit a oder in.
+Dove abita Luca? (Torino) | a Torino | Abita a Torino.
+Dove sei adesso? (casa) | a casa | Sono a casa.
+Dove sono i ragazzi? (centro) | in centro | Sono in centro.
+Dove abita la nonna? (Sicilia) | in Sicilia | Abita in Sicilia.
+Dov’è il museo? (piazza Castello) | in piazza Castello | È in piazza Castello.
+Dove studi oggi? (biblioteca) | in biblioteca | Studio in biblioteca.
+Dove abita Lisa? (Germania) | in Germania | Abita in Germania.
+Dove siete la mattina? (scuola) | a scuola | Siamo a scuola.
+! Città, casa, scuola → a. Paesi, regioni, vie, piazze, centro, biblioteca → in. || Stadt, casa, scuola → a. Länder, Regionen, Straßen, Plätze, centro, biblioteca → in.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi le preposizioni sbagliate. || Korrigiere die falschen Präpositionen.
+Abito [in=>a] Torino.
+Mio cugino abita [a=>in] Francia.
+Sono [in=>a] scuola.
+Il negozio è [a=>in] via Roma.
+Oggi studio [a=>in] biblioteca.
+Mia nonna abita [in=>a] Bari.
+Andiamo [a=>in] centro?
+La sera resto [in=>a] casa.
+! Città → a, paese → in, via → in, a scuola, a casa, in biblioteca, in centro. || Stadt → a, Land → in, Straße → in, a scuola, a casa, in biblioteca, in centro.
+
+%übung schwer | Un viaggio
+?fehler | Correggi le otto preposizioni sbagliate. || Korrigiere die acht falschen Präpositionen.
 In estate andiamo [a=>in] Italia.
 Prima siamo [in=>a] Milano, poi [a=>in] Toscana.
 A Firenze la nostra casa è [a=>in] via dei Neri.
 Il pomeriggio andiamo [a=>in] centro.
 La sera siamo stanchi e restiamo [in=>a] casa.
-! Land und Region → in Italia, in Toscana · Stadt → a Milano · casa → a casa.
+Domenica andiamo [a=>in] montagna.
+Poi torniamo [in=>a] Monaco, [a=>in] Germania.
+! Paese e regione → in Italia, in Toscana · città → a Milano · a casa. || Land und Region → in Italia, in Toscana · Stadt → a Milano · casa → a casa.
 
-%übung schwer | Wo wohnst du?
-?frei | Schreibe 4 Sätze: Wo wohnst du, wo wohnen Freunde oder Verwandte, wo ist deine Schule? Benutze a und in.
+%übung schwer | Dove abiti?
+?frei | Scrivi 4 frasi: dove abiti, dove abitano amici o parenti, dov’è la tua scuola? Usa a e in. || Schreibe 4 Sätze: Wo wohnst du, wo wohnen Freunde oder Verwandte, wo ist deine Schule? Benutze a und in.
 Abito a Monaco, in Germania. Mia nonna abita a Verona, in Italia. La mia scuola è in via Mozart. Il pomeriggio sono a casa.
 Zeilen: 4
+?luecke | E adesso completa. || Und jetzt ergänze.
+Io abito [a] Monaco, [in] Baviera.
+La mia scuola è [in] via Mozart.
+Il sabato sono [in] centro con gli amici.
+La domenica resto [a] casa.
+! Città → a, regione e via → in. || Stadt → a, Region und Straße → in.
 
-@mehr soggetto
+@thema soggetto | 1 · La città | Parte A | I pronomi soggetto | 5
+#regel
+| io | tu | lui / lei / Lei | noi | voi | loro |
+| ich | du | er / sie / Sie | wir | ihr | sie |
 
-%übung leicht | Ich, du, er …
-?zuordnen | Was bedeutet das Pronomen?
+Di solito non usiamo il pronome: _Abito a Torino._ Lo usiamo per **sottolineare** o per un **contrasto**: _Io abito a Torino, lui abita a Milano._
+**Lei** (con la L maiuscola) è la forma di cortesia: _Come sta, Lei?_
+#regel-de
+Im Italienischen lässt man das Subjektpronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._
+**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_
+
+%übung leicht | Chi è?
+?zuordnen | Quale pronome va con la forma del verbo? || Welches Pronomen passt?
+abito = io
+abiti = tu
+abita = lui / lei
+abitiamo = noi
+abitate = voi
+abitano = loro
++ Lei
+! La desinenza dice la persona. || Die Endung verrät die Person.
+
+%übung leicht | Io, tu, lui …
+?zuordnen | Che cosa vuol dire il pronome? || Was bedeutet das Pronomen?
 io = ich
 tu = du
 lui = er
@@ -766,8 +668,8 @@ voi = ihr
 loro = sie (mehrere)
 Lei = Sie (höflich)
 
-%übung mittel | Wer?
-?auswahl | Welches Pronomen ersetzt die markierten Wörter?
+%übung leicht | Quale pronome?
+?auswahl | Quale pronome sostituisce le parole? || Welches Pronomen ersetzt die Wörter?
 Marco e io = {noi*|voi|loro}
 tu e Sara = {voi*|noi|loro}
 la professoressa = {lei*|lui|loro}
@@ -775,123 +677,443 @@ i miei amici = {loro*|voi|noi}
 mio padre = {lui*|lei|loro}
 Anna e Giulia = {loro*|voi|lei}
 tu e io = {noi*|voi|loro}
-! Ist „ich“ dabei, heißt es noi. Ist „du“ dabei (ohne ich), heißt es voi.
+la signora Rossi (formale) = {Lei*|lei|tu}
+! Con «io» → noi. Con «tu» (senza io) → voi. || Ist „ich“ dabei, heißt es noi. Ist „du“ dabei (ohne ich), heißt es voi.
 
-%übung schwer | Betonen und vergleichen
-?luecke | Ergänze das passende Subjektpronomen.
-[Io] parlo tedesco, ma [lui] parla italiano.
+%übung mittel | Pronomi nella frase
+?auswahl | Quale pronome soggetto va bene? || Welches Subjektpronomen passt?
+{Io*|Tu|Lui} sono di Torino, e {tu*|io|noi}?
+{Noi*|Voi|Loro} abitiamo in via Roma.
+{Voi*|Noi|Loro} parlate inglese?
+Marco? {Lui*|Lei|Io} è il mio amico.
+Giulia? {Lei*|Lui|Noi} sta bene.
+Anna e Luca? {Loro*|Voi|Noi} sono a scuola.
+{Tu*|Lui|Voi} studi tedesco?
+Signora, {Lei*|tu|voi} è di Roma?
+! La forma del verbo aiuta: sono → io, studi → tu, è → lui/lei/Lei. || Die Verbform hilft: sono → io, studi → tu, è → lui/lei/Lei.
+
+%übung mittel | Sottolineare e confrontare
+?luecke | Scrivi il pronome soggetto giusto. || Ergänze das passende Subjektpronomen.
+[Io] parlo tedesco, ma [lui] parla italiano. (Marco)
 Luca? [Lui] abita a Torino, [io] a Berlino.
 Voi siete di Roma? No, [noi] siamo di Milano.
 Signora, [Lei] è di Torino?
 Giulia e Sara? [Loro] arrivano alle tre.
 E [tu]? Tu dove abiti?
-! Pronomen setzt man zum Vergleichen und Betonen. Lei groß = Höflichkeitsform.
+Anna? [Lei] studia in biblioteca.
+Ragazzi, [voi] venite in centro?
+! Il pronome serve per confrontare e sottolineare. Lei maiuscolo = forma di cortesia. || Pronomen setzt man zum Vergleichen und Betonen. Lei groß = Höflichkeitsform.
 
-@mehr non
+%übung mittel | Chi parla?
+?tabelle | Completa con il pronome e la forma di abitare. || Ergänze Pronomen und Form von abitare.
+Spalten: persone | pronome | abitare
+Marco | [lui] | [abita]
+Anna | [lei] | [abita]
+Marco e io | [noi] | [abitiamo]
+tu e Sara | [voi] | [abitate]
+i ragazzi | [loro] | [abitano]
+la signora Rossi (formale) | [Lei] | [abita]
+! Lei di cortesia usa la terza persona: Lei abita. || Das höfliche Lei steht mit der 3. Person: Lei abita.
 
-%übung leicht | No oder non?
-?auswahl | Wähle no oder non.
+%übung schwer | Contrasti
+?ergaenzen | Completa con pronome e verbo, come nell’esempio: Io abito a Torino, lui … a Milano. || Ergänze mit Pronomen und Verb, wie im Beispiel.
+Io parlo italiano, tu … tedesco. | parli | Io parlo italiano, tu parli tedesco.
+Noi abitiamo a Roma, voi … a Torino. | abitate | Noi abitiamo a Roma, voi abitate a Torino.
+Lui sta bene, lei … male. | sta | Lui sta bene, lei sta male.
+Io sono di Torino, loro … di Napoli. | sono | Io sono di Torino, loro sono di Napoli.
+Tu studi inglese, io … francese. | studio | Tu studi inglese, io studio francese.
+Voi guardate la partita, noi … un film. | guardiamo | Voi guardate la partita, noi guardiamo un film.
+Lei (Anna) abita in centro, lui (Marco) … in periferia. | abita | Lui abita in periferia.
+Loro arrivano alle tre, noi … alle quattro. | arriviamo | Noi arriviamo alle quattro.
+! Nel contrasto il pronome serve. || Beim Gegensatz braucht man das Pronomen.
+
+%übung schwer | Chi? Scrivi il pronome
+?luecke | Scrivi il pronome che manca. || Schreibe das fehlende Pronomen.
+Ciao, [io] sono Paolo. E [tu] come ti chiami?
+Questa è Sara: [lei] è la mia amica.
+Questo è Leo: [lui] è di Marrakech.
+[Noi] siamo in classe insieme.
+I nonni? [Loro] abitano a Bari.
+Signor Rossi, [Lei] parla tedesco?
+Ragazzi, [voi] siete pronti?
+! lui = maschile, lei = femminile, Lei = forma di cortesia. || lui = männlich, lei = weiblich, Lei = höfliche Anrede.
+
+%übung schwer | Errori con i pronomi
+?fehler | Correggi i pronomi sbagliati. || Korrigiere die falschen Pronomen.
+Marco e io? [Voi=>Noi] siamo amici.
+Anna? [Lui=>Lei] è di Roma.
+Tu e Luca? [Loro=>Voi] siete in classe?
+I ragazzi? [Noi=>Loro] giocano a calcio.
+Signora, [tu=>Lei] è di Napoli?
+Paolo? [Lei=>Lui] abita qui.
+Io e te? [Voi=>Noi] parliamo italiano.
+Giulia e Sara? [Voi=>Loro] arrivano adesso.
+! Con io → noi, con tu → voi, persone di cui parlo → loro. || Mit io → noi, mit tu → voi, Leute, über die ich spreche → loro.
+
+@thema non | 1 · La città | Parte A | La negazione con non | 6
+#regel
+**non** va **prima del verbo**:
+- _Abito a Torino._ → _**Non** abito a Torino._
+- _Luca è di Milano._ → _Luca **non** è di Milano._
+
+Risposta a una domanda: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)
+#regel-de
+**non** steht **vor dem Verb**: _Non abito a Torino. Luca non è di Milano._
+Antwort auf eine Frage: _Sei di Roma? – No, non sono di Roma._ (no = nein, non = nicht)
+
+%übung leicht | Dove va non?
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Non abito a Roma.
+- Abito non a Roma.
+- Abito a Roma non.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Marco non è a scuola.
+- Non Marco è a scuola.
+- Marco è non a scuola.
+?mc | Sei di Torino? – … || Bist du aus Turin? – …
+* No, non sono di Torino.
+- Non, no sono di Torino.
+- No, sono non di Torino.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Non parliamo francese.
+- Parliamo non francese.
+- Parliamo francese non.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Anna non sta bene.
+- Anna sta non bene.
+- Non Anna sta bene.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* I ragazzi non guardano la partita.
+- I ragazzi guardano non la partita.
+- Non i ragazzi guardano la partita.
+?mc | Abiti qui? – … || Wohnst du hier? – …
+* No, non abito qui.
+- Non, abito qui.
+- No, abito non qui.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Tu non prendi il tram?
+- Tu prendi non il tram?
+- Non tu prendi il tram?
+
+%übung leicht | No o non?
+?auswahl | Scegli no o non. || Wähle no oder non.
 Sei di Milano? – {No*|Non}, sono di Torino.
 Luca {non*|no} parla inglese.
 Abiti qui? – {No*|Non}, abito in via Po.
 Io {non*|no} sto bene oggi.
 Voi {non*|no} siete in classe?
 Giochi a calcio? – {No*|Non}, {non*|no} gioco a calcio.
-! no = nein (allein, am Anfang der Antwort) · non = nicht (vor dem Verb).
+Marco {non*|no} abita in centro.
+Parlate tedesco? – {No*|Non}, {non*|no} parliamo tedesco.
+! no = nein (da solo, all’inizio della risposta) · non = nicht (prima del verbo). || no = nein (allein, am Anfang der Antwort) · non = nicht (vor dem Verb).
 
-%übung mittel | Nein, …
-?ergaenzen | Antworte mit „No, non …“.
-Sei di Roma? | No, non sono di Roma. | No, non sono di Roma.
-Parli spagnolo? | No, non parlo spagnolo. | No, non parlo spagnolo.
-Abitate in centro? | No, non abitiamo in centro. | No, non abitiamo in centro.
-Luca è a casa? | No, non è a casa. | No, Luca non è a casa.
-Giochi a tennis? | No, non gioco a tennis. | No, non gioco a tennis.
-Guardate la partita? | No, non guardiamo la partita. | No, non guardiamo la partita.
-! Frage mit tu → Antwort mit io; Frage mit voi → Antwort mit noi.
+%übung leicht | Vero o no?
+?auswahl | Scegli la frase giusta per la foto: Marco è in piazza, non a scuola. || Wähle den passenden Satz: Marco ist auf dem Platz, nicht in der Schule.
+Marco {non è*|è} a scuola.
+Marco {è*|non è} in piazza.
+Lui {non studia*|studia} in classe.
+Lui {mangia*|non mangia} un gelato.
+I suoi amici {non sono*|sono} a casa.
+I suoi amici {sono*|non sono} con lui.
+Oggi Marco {non ha*|ha} lezione.
+Marco {sta*|non sta} bene.
 
-%übung schwer | Steckbrief: Stimmt das?
-?luecke | Lies den Steckbrief und schreibe richtige Sätze. Verwende non, wenn etwas nicht stimmt.
-Steckbrief: Marta, 14 anni, abita a Torino, parla italiano e inglese, non gioca a calcio, gioca a pallavolo.
+%übung mittel | Frasi negative
+?ergaenzen | Fai la frase negativa. || Verneine die Sätze.
+Abito a Torino. → … | Non abito a Torino | Non abito a Torino.
+Luca parla inglese. → … | Luca non parla inglese | Luca non parla inglese.
+Siamo di Milano. → … | Non siamo di Milano | Non siamo di Milano.
+Oggi sto bene. → … | Oggi non sto bene | Oggi non sto bene.
+Anna è a scuola. → … | Anna non è a scuola | Anna non è a scuola.
+Prendo l’autobus. → … | Non prendo l’autobus | Non prendo l’autobus.
+I ragazzi guardano la TV. → … | I ragazzi non guardano la TV | I ragazzi non guardano la TV.
+Voi abitate qui. → … | Voi non abitate qui/Non abitate qui | Voi non abitate qui.
+! non va sempre prima del verbo. || non steht immer vor dem Verb.
+
+%übung mittel | No, non …
+?ergaenzen | Rispondi con «No, non …». || Antworte mit „No, non …“.
+Sei di Roma? | No, non sono di Roma | No, non sono di Roma.
+Parli spagnolo? | No, non parlo spagnolo | No, non parlo spagnolo.
+Abitate in centro? | No, non abitiamo in centro | No, non abitiamo in centro.
+Luca è a casa? | No, non è a casa/No, Luca non è a casa | No, Luca non è a casa.
+Giochi a tennis? | No, non gioco a tennis | No, non gioco a tennis.
+Guardate la partita? | No, non guardiamo la partita | No, non guardiamo la partita.
+Stai male? | No, non sto male | No, non sto male.
+Mangi la pizza? | No, non mangio la pizza | No, non mangio la pizza.
+! Domanda con tu → risposta con io; domanda con voi → risposta con noi. || Frage mit tu → Antwort mit io; Frage mit voi → Antwort mit noi.
+
+%übung mittel | Filippo sogna
+?ergaenzen | Le frasi sono sbagliate. Correggile: «No, … non …, …». || Die Sätze stimmen nicht. Korrigiere sie mit „No, … non …, …“.
+Giulia abita a Lecce. (Torino) | non abita a Lecce, abita a Torino | No, Giulia non abita a Lecce, abita a Torino.
+Torino è in Puglia. (Piemonte) | non è in Puglia, è in Piemonte | No, Torino non è in Puglia, è in Piemonte.
+Leo parla cinese. (arabo) | non parla cinese, parla arabo | No, Leo non parla cinese, parla arabo.
+Il Po è un lago. (un fiume) | non è un lago, è un fiume | No, il Po non è un lago, è un fiume.
+I ragazzi prendono il treno. (la bici) | non prendono il treno, prendono la bici | No, i ragazzi non prendono il treno, prendono la bici.
+Marco sta male. (bene) | non sta male, sta bene | No, Marco non sta male, sta bene.
+! Prima no, poi la frase con non, poi la frase giusta. || Erst no, dann der Satz mit non, dann die richtige Information.
+
+%übung schwer | Metti in ordine
+?ordnen | Metti le parole in ordine: „Giulia wohnt nicht in Turin.“ || Bringe die Wörter in die richtige Reihenfolge: „Giulia wohnt nicht in Turin.“
+Giulia
+non
+abita
+a
+Torino
+?ordnen | Metti le parole in ordine: „Nein, ich spreche kein Englisch.“ || Bringe die Wörter in die richtige Reihenfolge: „Nein, ich spreche kein Englisch.“
+No,
+non
+parlo
+inglese
+?ordnen | Metti le parole in ordine: „Die Jungen sind heute nicht in der Schule.“ || Bringe die Wörter in die richtige Reihenfolge.
+Oggi
+i ragazzi
+non
+sono
+a scuola
+?ordnen | Metti le parole in ordine: „Wir nehmen nicht den Bus.“ || Bringe die Wörter in die richtige Reihenfolge.
+Noi
+non
+prendiamo
+l’autobus
+
+%übung schwer | Il profilo: vero o falso?
+?luecke | Leggi il profilo e scrivi frasi giuste. Usa non quando qualcosa non è vero. || Lies den Steckbrief und schreibe richtige Sätze. Verwende non, wenn etwas nicht stimmt.
+Profilo: Marta, 14 anni, abita a Torino, parla italiano e inglese, non gioca a calcio, gioca a pallavolo.
 Marta [non] abita a Milano, abita a Torino.
 Marta parla inglese, ma [non] parla francese.
 Lei [non] gioca a calcio.
 Lei gioca a [pallavolo].
 Marta [non] ha 16 anni, ha 14 anni.
+Lei [non] è di Roma.
+Marta [abita] a Torino.
+Lei [parla] italiano e inglese.
+! non prima del verbo. || non vor dem Verb.
 
-@mehr articolo-indeterminativo
+%übung schwer | Rispondi e correggi
+?ergaenzen | Rispondi e correggi, come nell’esempio: Abiti a Milano? (Torino) – No, non abito a Milano. Abito a Torino. || Antworte und korrigiere wie im Beispiel.
+Come stai? Stai male? (bene) | No, non sto male. Sto bene | No, non sto male. Sto bene.
+Abiti a Milano? (Torino) | No, non abito a Milano. Abito a Torino | No, non abito a Milano. Abito a Torino.
+Ti chiami Marco? (Filippo) | No, non mi chiamo Marco. Mi chiamo Filippo | No, non mi chiamo Marco. Mi chiamo Filippo.
+Siete di Roma? (Napoli) | No, non siamo di Roma. Siamo di Napoli | No, non siamo di Roma. Siamo di Napoli.
+Parli francese? (inglese) | No, non parlo francese. Parlo inglese | No, non parlo francese. Parlo inglese.
+Prendi il tram? (la bici) | No, non prendo il tram. Prendo la bici | No, non prendo il tram. Prendo la bici.
+! Rispondi con io (domanda con tu) o con noi (domanda con voi). || Antworte mit io (Frage mit tu) oder mit noi (Frage mit voi).
 
-%übung leicht | Was ist im Zaino?
-?auswahl | Wähle den unbestimmten Artikel.
-Nello zaino c'è {un*|uno|una} libro.
-C'è anche {una*|un|un'} penna.
-C'è {un*|uno|un'} quaderno.
-C'è {uno*|un|una} spuntino.
-C'è {un'*|una|un} agenda.
-C'è {un*|un'|uno} astuccio.
-C'è {una*|un|uno} bottiglia d'acqua.
-C'è {uno*|un|una} zaino piccolo per la palestra.
-! un astuccio (m, vor Vokal ohne Apostroph) · un'agenda (f, vor Vokal mit Apostroph) · uno spuntino (s + Konsonant).
+@thema articolo-indeterminativo | 1 · La città | Parte A | L’articolo indeterminativo (un, uno, una, un’) | 7
+#regel
+| articolo | quando? | esempio |
+| un | maschile (anche + vocale) | un ragazzo, un amico |
+| uno | maschile + s + consonante, z | uno stadio, uno zaino |
+| una | femminile + consonante | una città, una ragazza |
+| un’ | femminile + vocale | un’amica, un’idea |
 
-%übung mittel | Bestimmt und unbestimmt
-?tabelle | Ergänze den fehlenden Artikel.
-Spalten: unbestimmt | bestimmt
+**Attenzione:** _un amico_ (maschile, senza apostrofo), ma _un’amica_ (femminile, con apostrofo).
+#regel-de
+un: männlich (auch vor Vokal) · uno: männlich vor s + Konsonant, z · una: weiblich vor Konsonant · un’: weiblich vor Vokal.
+**Achtung:** _un amico_ (männlich, ohne Apostroph), aber _un’amica_ (weiblich, mit Apostroph).
+
+%übung leicht | Un, uno, una, un’?
+?auswahl | Scegli l’articolo indeterminativo. || Wähle den unbestimmten Artikel.
+{un*|uno|una} gatto
+{una*|un|un’} scuola
+{uno*|un|una} stadio
+{un’*|una|un} amica
+{un*|un’|uno} amico
+{una*|uno|un} piazza
+{uno*|un|una} zaino
+{un*|una|uno} parco
+{un’*|una|un} idea
+{uno*|un|una} studente
+! uno con s + consonante e z; un’ solo con parole femminili + vocale. || uno vor s + Konsonant und z; un’ nur bei weiblichen Wörtern vor Vokal.
+
+%übung leicht | Che cosa c’è nello zaino?
+?auswahl | Scegli l’articolo indeterminativo. || Wähle den unbestimmten Artikel.
+Nello zaino c’è {un*|uno|una} libro.
+C’è anche {una*|un|un’} penna.
+C’è {un*|uno|un’} quaderno.
+C’è {uno*|un|una} spuntino.
+C’è {un’*|una|un} agenda.
+C’è {un*|un’|uno} astuccio.
+C’è {una*|un|uno} bottiglia d’acqua.
+C’è {uno*|un|una} zaino piccolo per la palestra.
+! un astuccio (maschile + vocale, senza apostrofo) · un’agenda (femminile + vocale, con apostrofo). || un astuccio (m, vor Vokal ohne Apostroph) · un’agenda (f, vor Vokal mit Apostroph) · uno spuntino (s + Konsonant).
+
+%übung leicht | Quattro gruppi
+?sortieren | Quale articolo? Metti i nomi nel gruppo giusto. || Welcher Artikel? Ordne die Nomen zu.
+Kategorien: un=un; uno=uno; una=una; unx=un’
+amico > un
+albero > un
+negozio > un
+studente > uno
+zaino > uno
+città > una
+piazza > una
+amica > unx
+idea > unx
+edicola > unx
+! Maschile + vocale: un (senza apostrofo). Femminile + vocale: un’. || Männlich vor Vokal: un (ohne Apostroph). Weiblich vor Vokal: un’.
+
+%übung mittel | Il o un?
+?tabelle | Scrivi l’articolo indeterminativo. || Ergänze den unbestimmten Artikel.
+Spalten: determinativo | indeterminativo
+il liceo | [un liceo]
+lo stadio | [uno stadio]
+la classe | [una classe]
+l’amica | [un’amica]
+l’amico | [un amico]
+lo zaino | [uno zaino]
+la città | [una città]
+il ponte | [un ponte]
+! lo → uno, il → un, la → una, l’ → un (m) o un’ (f). || lo → uno, il → un, la → una, l’ → un (m) oder un’ (f).
+
+%übung mittel | Indeterminativo e determinativo
+?tabelle | Scrivi l’articolo che manca. || Ergänze den fehlenden Artikel.
+Spalten: indeterminativo | determinativo
 [un ragazzo] | il ragazzo
 [uno studente] | lo studente
-[un'isola] | l'isola
-[un albero] | l'albero
+[un’isola] | l’isola
+[un albero] | l’albero
 una festa | [la festa]
 uno zio | [lo zio]
-un'idea | [l'idea]
-un ospedale | [l'ospedale]
+un’idea | [l’idea]
+un ospedale | [l’ospedale]
 
-%übung mittel | Was gibt es in Torino?
-?luecke | Ergänze den unbestimmten Artikel.
-A Torino c'è [un] fiume, il Po.
-C'è anche [un] museo molto famoso.
-In centro c'è [una] piazza grande.
-Vicino alla stazione c'è [un] albergo.
-C'è [uno] stadio nuovo.
-In via Roma c'è [un'] edicola.
+%übung mittel | Che cosa c’è a Torino?
+?luecke | Scrivi l’articolo indeterminativo. || Ergänze den unbestimmten Artikel.
+A Torino c’è [un] fiume, il Po.
+C’è anche [un] museo molto famoso.
+In centro c’è [una] piazza grande.
+Vicino alla stazione c’è [un] albergo.
+C’è [uno] stadio nuovo.
+In via Roma c’è [un’] edicola.
 Mio cugino ha [un] appartamento in centro.
-C'è anche [un'] università.
-! un albergo, un appartamento (m) · un'edicola, un'università (f).
+C’è anche [un’] università.
+! un albergo, un appartamento (m) · un’edicola, un’università (f). || un albergo, un appartamento (m) · un’edicola, un’università (f).
 
-%übung schwer | Apostroph oder nicht?
-?fehler | Hier stimmt bei sechs Wörtern der Artikel nicht. Korrigiere.
-Ho [un'=>un] amico a Roma.
-Lei è [un=>un'] amica di Sara.
-C'è [un=>uno] zaino sotto il banco.
+%übung schwer | Che cosa c’è qui?
+?luecke | Scrivi l’articolo indeterminativo. || Ergänze den unbestimmten Artikel.
+A Torino c’è [uno] stadio grande.
+Marco ha [un] gatto e [un’] amica a Milano.
+In piazza c’è [una] scuola.
+Lisa è [una] ragazza simpatica.
+Questo è [un] ponte importante.
+Leo ha [uno] zaino rosso.
+È [un’] idea fantastica!
+Paolo è [uno] studente di Lecce.
+! uno con s + consonante e z; un’ solo con parole femminili + vocale. || uno vor s + Konsonant; un’ nur bei weiblichen Wörtern vor Vokal.
+
+%übung schwer | Apostrofo o no?
+?fehler | In otto parole l’articolo è sbagliato. Correggi. || Bei acht Wörtern stimmt der Artikel nicht. Korrigiere.
+Ho [un’=>un] amico a Roma.
+Lei è [un=>un’] amica di Sara.
+C’è [un=>uno] zaino sotto il banco.
 Paolo è [una=>uno] studente di Torino.
 Ho [uno=>un] gatto e [un=>una] tartaruga.
-! Männlich vor Vokal: un amico (kein Apostroph). Weiblich vor Vokal: un'amica.
+Abitiamo in [una=>un] appartamento piccolo.
+Vicino c’è [un=>un’] edicola.
+È [una=>un] albero molto vecchio.
+! Maschile + vocale: un amico (senza apostrofo). Femminile + vocale: un’amica. || Männlich vor Vokal: un amico (kein Apostroph). Weiblich vor Vokal: un’amica.
 
-@mehr plurale
+%übung schwer | Descrivi la foto
+?ergaenzen | Che cosa c’è nella foto della città? Scrivi con l’articolo indeterminativo. || Was ist auf dem Stadtfoto? Schreibe mit unbestimmtem Artikel.
+C’è … (Brücke) | un ponte | C’è un ponte.
+C’è … (Platz) | una piazza | C’è una piazza.
+C’è … (Stadion) | uno stadio | C’è uno stadio.
+C’è … (Kiosk, edicola) | un’edicola | C’è un’edicola.
+C’è … (Baum) | un albero | C’è un albero.
+C’è … (Schule) | una scuola | C’è una scuola.
+C’è … (Student) | uno studente | C’è uno studente.
+C’è … (Freundin) | un’amica | C’è un’amica.
+! Pensa al genere e alla prima lettera. || Denk an das Geschlecht und den Anfangsbuchstaben.
 
-%übung leicht | Einer – viele
-?auswahl | Wähle den richtigen Plural.
+@thema plurale | 1 · La città | Parte B | Il plurale: articolo e nome | 8
+#regel
+**Nomi:**
+| singolare | plurale | esempio |
+| -o | -i | il ragazzo → i ragazzi |
+| -a | -e | la piazza → le piazze |
+| -e | -i | il ponte → i ponti |
+| -à, -ù | non cambia | la città → le città |
+
+**Articoli:**
+| singolare | plurale |
+| il | i |
+| lo, l’ (maschile) | gli |
+| la, l’ (femminile) | le |
+
+_gli stadi, gli amici, gli zaini_ · _le amiche, le città_
+**Attenzione:** lo sport → gli sport, il bar → i bar (parole straniere non cambiano).
+#regel-de
+Nomen: -o → -i, -a → -e, -e → -i; betonte Endung (-à, -ù) bleibt gleich (la città → le città).
+Artikel: il → i · lo, l’ (männlich) → gli · la, l’ (weiblich) → le.
+**Achtung:** Fremdwörter bleiben gleich: lo sport → gli sport, il bar → i bar.
+
+%übung leicht | Quale articolo al plurale?
+?auswahl | Scegli l’articolo plurale. || Wähle den Artikel im Plural.
+{i*|gli|le} negozi
+{gli*|i|le} stadi
+{le*|i|gli} piazze
+{gli*|le|i} amici
+{le*|gli|i} amiche
+{i*|le|gli} ponti
+{le*|i|gli} città
+{gli*|i|le} zaini
+{i*|gli|le} ragazzi
+{gli*|i|le} studenti
+! gli davanti a vocale e a s + consonante / z: gli amici, gli studenti, gli zaini. || gli vor Vokal und vor s + Konsonant / z: gli amici, gli studenti, gli zaini.
+
+%übung leicht | Singolare e plurale
+?zuordnen | Abbina singolare e plurale. || Was gehört zusammen?
+il negozio = i negozi
+la partita = le partite
+lo stadio = gli stadi
+l’edificio = gli edifici
+la città = le città
+il palazzo = i palazzi
+l’amica = le amiche
+il ponte = i ponti
++ le ponte
+! l’amica → le amiche (c + h). || l’amica → le amiche (mit h).
+
+%übung leicht | Uno – tanti
+?auswahl | Scegli il plurale giusto. || Wähle den richtigen Plural.
 il ragazzo → {i ragazzi*|le ragazze|gli ragazzi}
 la ragazza → {le ragazze*|le ragazzi|i ragazze}
 lo zaino → {gli zaini*|i zaini|le zaine}
-l'amico → {gli amici*|i amici|le amiche}
+l’amico → {gli amici*|i amici|le amiche}
 la città → {le città*|le citte|i città}
 il ponte → {i ponti*|i ponte|le ponti}
-l'amica → {le amiche*|le amice|gli amiche}
+l’amica → {le amiche*|le amice|gli amiche}
 lo sport → {gli sport*|gli sporti|i sport}
-! -co/-ca: amico → amici, amica → amiche. Betonte Endung und Fremdwörter bleiben gleich.
+! amico → amici, amica → amiche. Le parole con accento finale e le parole straniere non cambiano. || -co/-ca: amico → amici, amica → amiche. Betonte Endung und Fremdwörter bleiben gleich.
 
-%übung mittel | Im Klassenzimmer
-?luecke | Setze Artikel und Nomen in den Plural.
+%übung mittel | Fare il plurale
+?tabelle | Scrivi il plurale con l’articolo. || Bilde den Plural mit Artikel.
+Spalten: singolare | plurale
+il campo | [i campi]
+la bicicletta | [le biciclette]
+lo sport | [gli sport]
+l’attrazione | [le attrazioni]
+il quartiere | [i quartieri]
+la città | [le città]
+lo studente | [gli studenti]
+l’amico | [gli amici]
+! Le parole straniere (lo sport, il bar) e con accento finale (la città) non cambiano al plurale. || Fremdwörter (lo sport, il bar) und betonte Endungen (la città) ändern sich im Plural nicht.
+
+%übung mittel | In classe
+?luecke | Scrivi articolo e nome al plurale. || Setze Artikel und Nomen in den Plural.
 In classe ci sono venti (il banco) [banchi].
 Sul tavolo ci sono (il libro) [i libri] di Marco.
 (La finestra) [Le finestre] sono grandi.
 (Lo zaino) [Gli zaini] sono sotto i banchi.
-(L'amica) [Le amiche] di Sara sono in classe 3B.
+(L’amica) [Le amiche] di Sara sono in classe 3B.
 Ci sono anche due (la lavagna) [lavagne].
-(L'insegnante) [Gli insegnanti/Le insegnanti] sono simpatici.
-! l'insegnante kann m oder f sein: gli insegnanti / le insegnanti.
+(L’insegnante) [Gli insegnanti/Le insegnanti] sono simpatici.
+(Il quaderno) [I quaderni] sono nello zaino.
+! il banco → i banchi (h!) · l’insegnante può essere maschile o femminile. || il banco → i banchi (mit h) · l’insegnante kann m oder f sein.
 
-%übung mittel | Plural mit Artikel
-?sortieren | Welcher Artikel steht im Plural?
+%übung mittel | Articolo al plurale
+?sortieren | Quale articolo al plurale? || Welcher Artikel steht im Plural?
 Kategorien: i=i; gli=gli; le=le
 ragazzi > i
 ponti > i
@@ -903,56 +1125,162 @@ studenti > gli
 piazze > le
 città > le
 amiche > le
-! gli vor Vokal und vor s + Konsonant / z: gli amici, gli studenti, gli zaini.
+! gli con vocale e s + consonante / z. || gli vor Vokal und vor s + Konsonant / z.
 
-%übung schwer | Unser Viertel
-?luecke | Schreibe die Nomen in Klammern im Plural mit Artikel.
-Nel mio quartiere ci sono (il negozio) [i negozi] e (il bar) [i bar].
-(Lo studente) [Gli studenti] prendono l'autobus.
-Vicino al parco ci sono (la casa) [le case] dei miei amici.
-(L'albero) [Gli alberi] in piazza sono molto vecchi.
-(La città) [Le città] italiane sono belle.
-(L'amica) [Le amiche] di mia sorella sono qui.
+%übung schwer | Nel quartiere
+?luecke | Scrivi i nomi tra parentesi al plurale (con l’articolo se c’è). || Setze die Wörter in Klammern in den Plural (mit Artikel, wenn einer steht).
+Nel quartiere ci sono molti (il negozio) [negozi].
+(La piazza) [Le piazze] sono belle.
+(Lo stadio) [Gli stadi] di Torino sono grandi.
+Ci sono anche due (il campo sportivo) [campi sportivi].
+(L’amica) [Le amiche] di Giulia sono simpatiche.
+(L’albero) [Gli alberi] in piazza sono molto vecchi.
 (Il ponte) [I ponti] sul Po sono famosi.
 (Lo zaino) [Gli zaini] sono pesanti!
-! il bar → i bar (Fremdwort) · la città → le città (betonte Endung).
+(Il bar) [I bar] in centro sono pieni.
+(La città) [Le città] italiane sono belle.
+! il bar → i bar (parola straniera) · la città → le città (accento finale). || il bar → i bar (Fremdwort) · la città → le città (betonte Endung).
 
-@mehr ere-presente
+%übung schwer | Trova gli errori
+?fehler | Correggi i plurali. || Korrigiere die Pluralformen.
+[I=>Gli] stadi sono grandi.
+Le [piazza=>piazze] di Torino sono belle.
+Ci sono molti [negozie=>negozi].
+[Gli=>Le] amiche abitano qui.
+Le [cittè=>città] italiane sono antiche.
+[Le=>Gli] amici di Marco sono simpatici.
+Ci sono due [banci=>banchi] vuoti.
+[I=>Gli] zaini sono in classe.
+! amico → amici (gli), banco → banchi (h), città non cambia. || amico → amici (gli), banco → banchi (mit h), città bleibt gleich.
 
-%übung leicht | -ere: Person und Form
-?zuordnen | Was gehört zusammen?
+%übung schwer | Dal singolare al plurale
+?ergaenzen | Scrivi la frase al plurale. || Schreibe den Satz im Plural.
+Il ragazzo è simpatico. → … | I ragazzi sono simpatici | I ragazzi sono simpatici.
+La piazza è grande. → … | Le piazze sono grandi | Le piazze sono grandi.
+Lo stadio è nuovo. → … | Gli stadi sono nuovi | Gli stadi sono nuovi.
+L’amica è qui. → … | Le amiche sono qui | Le amiche sono qui.
+Il ponte è vecchio. → … | I ponti sono vecchi | I ponti sono vecchi.
+La città è bella. → … | Le città sono belle | Le città sono belle.
+L’amico abita a Roma. → … | Gli amici abitano a Roma | Gli amici abitano a Roma.
+Lo studente parla inglese. → … | Gli studenti parlano inglese | Gli studenti parlano inglese.
+! Cambia articolo, nome, verbo e aggettivo. || Artikel, Nomen, Verb und Adjektiv ändern sich.
+
+@thema ere-presente | 1 · La città | Parte B | I verbi in -ere al presente | 9
+#regel
+| persona | prendere | vedere |
+| io | prend**o** | ved**o** |
+| tu | prend**i** | ved**i** |
+| lui / lei | prend**e** | ved**e** |
+| noi | prend**iamo** | ved**iamo** |
+| voi | prend**ete** | ved**ete** |
+| loro | prend**ono** | ved**ono** |
+
+Differenza con -are: **lui/lei -e** (non -a), **voi -ete**, **loro -ono**.
+#regel-de
+Unterschied zu -are: **lui/lei -e** (nicht -a), **voi -ete**, **loro -ono** (siehe Tabelle).
+
+%übung leicht | Quale forma?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Io {prendo*|prende|prendi} la bicicletta.
+Tu {vedi*|vede|vedo} lo stadio?
+Il papà {vende*|vendi|vendono} biciclette.
+Noi {prendiamo*|prendete|prendono} l’autobus.
+Voi {vedete*|vediamo|vedono} la partita?
+I ragazzi {vendono*|vende|vendete} le magliette.
+Marta {legge*|leggo|leggono} un libro.
+Io {scrivo*|scrive|scrivi} una mail.
+Tu {leggi*|legge|leggete} il giornale?
+Loro {scrivono*|scrive|scrivete} un messaggio.
+! -ere: io -o, tu -i, lui/lei -e, noi -iamo, voi -ete, loro -ono. || -ere: io -o, tu -i, lui/lei -e, noi -iamo, voi -ete, loro -ono.
+
+%übung leicht | -ere: persona e forma
+?zuordnen | Abbina persona e forma. || Was gehört zusammen?
 io = leggo
 tu = scrivi
 lui / lei = prende
 noi = vediamo
 voi = vendete
 loro = leggono
+Marco e io = prendiamo
+tu e Anna = scrivete
 + legge
 + scriviamo
 
-%übung mittel | Nach der Schule
-?luecke | Setze die Verben in der richtigen Form ein.
-Dopo la scuola io (prendere) [prendo] l'autobus.
+%übung leicht | -are o -ere?
+?sortieren | È un verbo in -are o in -ere? || Ist das ein Verb auf -are oder auf -ere?
+Kategorien: a=-are; e=-ere
+parla > a
+abita > a
+guardano > a
+abitate > a
+prende > e
+vede > e
+leggono > e
+scrivete > e
+vendono > e
+arriva > a
+! lui/lei: -are → -a, -ere → -e · voi: -ate / -ete · loro: -ano / -ono. || lui/lei: -a bzw. -e · voi: -ate/-ete · loro: -ano/-ono.
+
+%übung mittel | -are o -ere?
+?tabelle | Completa le forme. || Ergänze die Formen.
+Spalten: persona | guardare | vedere
+io | [guardo] | [vedo]
+tu | [guardi] | [vedi]
+lui / lei | [guarda] | [vede]
+noi | [guardiamo] | [vediamo]
+voi | [guardate] | [vedete]
+loro | [guardano] | [vedono]
+! -are: guarda, guardate, guardano · -ere: vede, vedete, vedono. || -are: guarda, guardate, guardano · -ere: vede, vedete, vedono.
+
+%übung mittel | Nel quartiere
+?luecke | Scrivi il verbo nella forma giusta. || Setze das Verb in der richtigen Form ein.
+Oggi io (prendere) [prendo] la bicicletta.
+Il papà di Luca (vendere) [vende] biciclette.
+Noi (vedere) [vediamo] il campo sportivo.
+Voi (prendere) [prendete] l’autobus?
+I ragazzi (vedere) [vedono] la partita.
+Tu (leggere) [leggi] il cartello?
+Giulia (scrivere) [scrive] un messaggio a Leo.
+Loro (vendere) [vendono] gelati in piazza.
+! prendere, vedere, vendere, leggere, scrivere: verbi regolari in -ere. || prendere, vedere, vendere, leggere, scrivere sind regelmäßig.
+
+%übung mittel | Dopo la scuola
+?luecke | Scrivi i verbi nella forma giusta. || Setze die Verben in der richtigen Form ein.
+Dopo la scuola io (prendere) [prendo] l’autobus.
 A casa (leggere) [leggo] un fumetto.
-Mia sorella (scrivere) [scrive] un messaggio a un'amica.
+Mia sorella (scrivere) [scrive] un messaggio a un’amica.
 Noi (vedere) [vediamo] un film insieme.
 Voi (leggere) [leggete] molto?
 I miei genitori (prendere) [prendono] un caffè in cucina.
 Tu (scrivere) [scrivi] le email in italiano?
-! leggere: io leggo (hart, gg+o), tu leggi, lui legge (weich).
+Mio fratello (vedere) [vede] la partita in TV.
+! leggere: io leggo (suono duro), tu leggi, lui legge (suono dolce). || leggere: io leggo (hart), tu leggi, lui legge (weich).
 
-%übung schwer | -are oder -ere? Gemischt
-?luecke | Achtung: Hier mischen sich Verben auf -are und -ere.
+%übung schwer | Trova gli errori
+?fehler | Correggi le forme dei verbi. || Korrigiere die Verbformen.
+Marco [prenda=>prende] la bici.
+Noi [vediete=>vediamo] lo stadio.
+Voi [vendate=>vendete] i pattini?
+Loro [prendano=>prendono] l’autobus.
+Tu [legge=>leggi] il libro?
+Io [scrivi=>scrivo] una cartolina.
+Anna [vedi=>vede] le amiche in piazza.
+I negozi [vendeno=>vendono] magliette.
+! Con -ere: lui -e, voi -ete, loro -ono. || Bei -ere: lui -e, voi -ete, loro -ono.
+
+%übung schwer | -are o -ere? Misto
+?luecke | Attenzione: qui ci sono verbi in -are e in -ere. || Achtung: Hier mischen sich Verben auf -are und -ere.
 Io (abitare) [abito] a Torino e (prendere) [prendo] il tram.
 Marco (guardare) [guarda] la TV e (leggere) [legge] un libro.
 Noi (parlare) [parliamo] italiano e (scrivere) [scriviamo] in tedesco.
 Voi (vedere) [vedete] lo stadio? Voi (abitare) [abitate] vicino?
 Loro (vendere) [vendono] bici e (lavorare) [lavorano] molto.
-! -are: lui guarda, voi abitate, loro lavorano · -ere: lui legge, voi vedete, loro vendono.
+Tu (arrivare) [arrivi] e (prendere) [prendi] un gelato.
+! -are: lui guarda, voi abitate, loro lavorano · -ere: lui legge, voi vedete, loro vendono. || -are: lui guarda, voi abitate, loro lavorano · -ere: lui legge, voi vedete, loro vendono.
 
-%übung schwer | Tabelle -are und -ere
-?tabelle | Ergänze die Formen.
-Spalten: Person | parlare | leggere | scrivere
+%übung schwer | Tabella -are e -ere
+?tabelle | Completa le forme. || Ergänze die Formen.
+Spalten: persona | parlare | leggere | scrivere
 io | [parlo] | [leggo] | [scrivo]
 tu | [parli] | [leggi] | [scrivi]
 lui / lei | [parla] | [legge] | [scrive]
@@ -960,35 +1288,120 @@ noi | [parliamo] | [leggiamo] | [scriviamo]
 voi | [parlate] | [leggete] | [scrivete]
 loro | [parlano] | [leggono] | [scrivono]
 
-@mehr ce-ci-sono
+@thema ce-ci-sono | 1 · La città | Parte B | C’è e ci sono | 10
+#regel
+- **c’è** + singolare: _In piazza **c’è** un bar._
+- **ci sono** + plurale: _Nel quartiere **ci sono** due negozi._
+- Domanda: _C’è un parco qui?_ · Negazione: _Non c’è un cinema._
+- **c’è** dice che una cosa esiste; **è** dice dove è una cosa precisa: _C’è un museo. Il museo è in piazza._
+#regel-de
+- **c’è** + Singular: _In piazza c’è un bar._ (Es gibt / da ist)
+- **ci sono** + Plural: _Nel quartiere ci sono due negozi._ (Es gibt / da sind)
+- Frage: _C’è un parco qui?_ · Verneinung: _Non c’è un cinema._
+- **c’è** sagt, dass etwas existiert; **è** sagt, wo etwas Bestimmtes ist: _C’è un museo. Il museo è in piazza._
 
-%übung leicht | Was gibt es?
-?auswahl | c'è oder ci sono?
-Nella mia classe {ci sono*|c'è} ventidue studenti.
-Sul banco {c'è*|ci sono} un libro.
-In città {ci sono*|c'è} molti parchi.
-Vicino a casa {c'è*|ci sono} una fermata dell'autobus.
-In frigo {ci sono*|c'è} due bottiglie d'acqua.
-{C'è*|Ci sono} un problema?
-Al parco {ci sono*|c'è} tanti bambini.
-Oggi non {c'è*|ci sono} la professoressa.
-! Ein Ding (Singular) → c'è; mehrere (Plural) → ci sono.
+%übung leicht | C’è o ci sono?
+?auswahl | Scegli c’è o ci sono. || Wähle c’è oder ci sono.
+In centro {c’è*|ci sono} un parco.
+Nel quartiere {ci sono*|c’è} molti negozi.
+A Torino {c’è*|ci sono} il fiume Po.
+In piazza {ci sono*|c’è} due bar.
+{C’è*|Ci sono} una pista di skateboard?
+Qui {ci sono*|c’è} tre campi sportivi.
+In classe {ci sono*|c’è} venti ragazzi.
+Vicino a casa {c’è*|ci sono} una fermata.
+! Una cosa (singolare) → c’è; tante cose (plurale) → ci sono. || Ein Ding (Singular) → c’è; mehrere (Plural) → ci sono.
+
+%übung leicht | Che cosa c’è?
+?auswahl | C’è o ci sono? || c’è oder ci sono?
+Nella mia classe {ci sono*|c’è} ventidue studenti.
+Sul banco {c’è*|ci sono} un libro.
+In città {ci sono*|c’è} molti parchi.
+Vicino a casa {c’è*|ci sono} una fermata dell’autobus.
+In frigo {ci sono*|c’è} due bottiglie d’acqua.
+{C’è*|Ci sono} un problema?
+Al parco {ci sono*|c’è} tanti bambini.
+Oggi non {c’è*|ci sono} la professoressa.
+
+%übung leicht | Singolare o plurale?
+?sortieren | C’è o ci sono? Metti le parole nel gruppo giusto. || c’è oder ci sono? Ordne zu.
+Kategorien: c=c’è; s=ci sono
+un bar > c
+una piazza > c
+il fiume > c
+uno stadio > c
+due negozi > s
+molti parchi > s
+tre ponti > s
+tanti bambini > s
+un’edicola > c
+le biciclette > s
+
+%übung mittel | Il mio quartiere
+?luecke wortkasten | Completa con c’è o ci sono. || Ergänze c’è oder ci sono.
+Nel mio quartiere [c’è] un campo di calcio.
+[Ci sono] anche due negozi di bici.
+Non [c’è] uno stadio, ma [ci sono] tanti parchi.
+[C’è] un bar in piazza?
+In via Roma [ci sono] molti palazzi.
+Vicino alla scuola [c’è] una biblioteca.
+[Ci sono] anche tre gelaterie!
++ è, sono
+! Attenzione: è e sono non vanno bene qui, perché diciamo che una cosa esiste. || Achtung: è und sono passen hier nicht, weil man sagt, dass etwas existiert.
 
 %übung mittel | Quartiere San Salvario
-?luecke wortkasten | Ergänze den Text mit c'è, ci sono, non c'è oder non ci sono.
+?luecke wortkasten | Completa il testo con c’è, ci sono, non c’è o non ci sono. || Ergänze den Text mit c’è, ci sono, non c’è oder non ci sono.
 Nel quartiere San Salvario [ci sono] molti ristoranti.
-[C'è] anche un mercato, il sabato.
-Purtroppo [non c'è] una piscina.
-Vicino al fiume [c'è] il parco Valentino.
+[C’è] anche un mercato, il sabato.
+Purtroppo [non c’è] una piscina.
+Vicino al fiume [c’è] il parco Valentino.
 Nel parco [ci sono] tanti alberi e una pista per le bici.
-[Non ci sono] negozi di sport, ma [c'è] un cinema.
-+ ci sono, c'è
-! Verneinung: non steht vor c'è / ci sono.
+[Non ci sono] negozi di sport, ma [c’è] un cinema.
+La sera in piazza [ci sono] tanti ragazzi.
++ ci sono, c’è
+! Negazione: non prima di c’è / ci sono. || Verneinung: non steht vor c’è / ci sono.
 
-%übung schwer | Fragen und Antworten
-?ergaenzen | Antworte mit c'è / ci sono oder non c'è / non ci sono.
-C'è un cinema qui? – No, … | non c'è | No, non c'è un cinema.
+%übung mittel | C’è o è?
+?auswahl | C’è o è? Sono o ci sono? || c’è oder è? sono oder ci sono?
+In centro {c’è*|è} un museo.
+Il museo {è*|c’è} in piazza Castello.
+A Torino {ci sono*|sono} due squadre di calcio.
+Le squadre {sono*|ci sono} famose.
+Nel parco {c’è*|è} un castello.
+Il castello {è*|c’è} molto bello.
+{Ci sono*|Sono} tanti turisti oggi.
+I turisti {sono*|ci sono} in piazza.
+! c’è / ci sono: una cosa esiste. è / sono: dov’è o com’è una cosa precisa. || c’è / ci sono: etwas existiert. è / sono: wo oder wie etwas Bestimmtes ist.
+
+%übung schwer | Domande e risposte
+?ergaenzen | Rispondi con c’è / ci sono o non c’è / non ci sono. || Antworte mit c’è / ci sono oder non c’è / non ci sono.
+C’è un cinema qui? – No, … | non c’è | No, non c’è un cinema.
 Ci sono negozi in centro? – Sì, … | ci sono | Sì, ci sono molti negozi.
-C'è un parco vicino? – Sì, … | c'è | Sì, c'è un parco vicino.
+C’è un parco vicino? – Sì, … | c’è | Sì, c’è un parco vicino.
 Ci sono studenti in classe? – No, … | non ci sono | No, non ci sono studenti.
-C'è il professore? – Sì, … | c'è | Sì, c'è il professore.
+C’è il professore? – Sì, … | c’è | Sì, c’è il professore.
+Ci sono gelaterie? – Sì, … | ci sono | Sì, ci sono tante gelaterie.
+C’è una piscina? – No, … | non c’è | No, non c’è una piscina.
+Ci sono bar in piazza? – Sì, … | ci sono | Sì, ci sono due bar.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli errori con c’è e ci sono. || Korrigiere die Fehler mit c’è und ci sono.
+In piazza [ci sono=>c’è] una fontana.
+Nel quartiere [c’è=>ci sono] tre bar.
+[È=>C’è] un parco vicino a casa mia.
+Non [ci sono=>c’è] uno stadio.
+A scuola [c’è=>ci sono] molti studenti.
+[Sono=>Ci sono] tanti alberi nel parco.
+Il museo [c’è=>è] in via Roma.
+[C’è=>Ci sono] due ponti sul fiume.
+! Una cosa → c’è, più cose → ci sono; dov’è una cosa precisa → è. || Ein Ding → c’è, mehrere → ci sono; wo etwas Bestimmtes ist → è.
+
+%übung schwer | Che cosa c’è nella tua città?
+?frei | Descrivi il tuo paese o la tua città in 5 frasi con c’è e ci sono. || Beschreibe deinen Ort in 5 Sätzen mit c’è und ci sono.
+Nel mio quartiere c’è un parco. Ci sono due negozi e un campo di calcio. Non c’è uno stadio. In centro ci sono molti bar.
+Zeilen: 5
+?luecke | E adesso completa. || Und jetzt ergänze.
+Nella mia città [c’è] una stazione.
+[Ci sono] anche due musei.
+Non [c’è] il mare, ma [c’è] un lago.
+[Ci sono] molti ristoranti italiani.

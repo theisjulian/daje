@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-plurale-l3",
- "title": "Einer – viele",
+ "title": "Uno – tanti",
  "language": "it",
  "level": "A1",
- "description": "Der Plural: Artikel und Nomen · Einer – viele (einfach).",
+ "description": "Il plurale: articolo e nome · Uno – tanti (einfach).",
  "topics": [
-  "Der Plural: Artikel und Nomen",
+  "Il plurale: articolo e nome",
   "Grammatik"
  ],
  "sources": [
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-plurale",
-  "topicTitle": "Der Plural: Artikel und Nomen",
+  "topicTitle": "Il plurale: articolo e nome",
   "difficulty": "leicht",
   "origin": "own",
   "order": 83,
-  "rule": "**Nomen:**\n| Singular | Plural | Beispiel |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù (betont) | bleibt | la città → le città |\n\n**Artikel:**\n| Singular | Plural |\n| il | i |\n| lo, l' (männlich) | gli |\n| la, l' (weiblich) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_"
+  "rule": "**Nomi:**\n| singolare | plurale | esempio |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù | non cambia | la città → le città |\n\n**Articoli:**\n| singolare | plurale |\n| il | i |\n| lo, l’ (maschile) | gli |\n| la, l’ (femminile) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_\n**Attenzione:** lo sport → gli sport, il bar → i bar (parole straniere non cambiano).",
+  "ruleHelp": "Nomen: -o → -i, -a → -e, -e → -i; betonte Endung (-à, -ù) bleibt gleich (la città → le città).\nArtikel: il → i · lo, l’ (männlich) → gli · la, l’ (weiblich) → le.\n**Achtung:** Fremdwörter bleiben gleich: lo sport → gli sport, il bar → i bar."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle den richtigen Plural.",
-   "explanation": "-co/-ca: amico → amici, amica → amiche. Betonte Endung und Fremdwörter bleiben gleich.",
+   "prompt": "Scegli il plurale giusto.",
+   "promptHelp": "Wähle den richtigen Plural.",
+   "explanation": "amico → amici, amica → amiche. Le parole con accento finale e le parole straniere non cambiano.",
+   "explanationHelp": "-co/-ca: amico → amici, amica → amiche. Betonte Endung und Fremdwörter bleiben gleich.",
    "type": "gap_choice",
-   "text": "il ragazzo → [[g1]]\nla ragazza → [[g2]]\nlo zaino → [[g3]]\nl'amico → [[g4]]\nla città → [[g5]]\nil ponte → [[g6]]\nl'amica → [[g7]]\nlo sport → [[g8]]",
+   "text": "il ragazzo → [[g1]]\nla ragazza → [[g2]]\nlo zaino → [[g3]]\nl’amico → [[g4]]\nla città → [[g5]]\nil ponte → [[g6]]\nl’amica → [[g7]]\nlo sport → [[g8]]",
    "gaps": [
     {
      "id": "g1",

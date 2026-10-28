@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-non-m3",
+ "title": "Filippo sogna",
+ "language": "it",
+ "level": "A1",
+ "description": "La negazione con non · Filippo sogna (mittel).",
+ "topics": [
+  "La negazione con non",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 1 · La città · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-non",
+  "topicTitle": "La negazione con non",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 63,
+  "rule": "**non** va **prima del verbo**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nRisposta a una domanda: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)",
+  "ruleHelp": "**non** steht **vor dem Verb**: _Non abito a Torino. Luca non è di Milano._\nAntwort auf eine Frage: _Sei di Roma? – No, non sono di Roma._ (no = nein, non = nicht)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Le frasi sono sbagliate. Correggile: «No, … non …, …».",
+   "promptHelp": "Die Sätze stimmen nicht. Korrigiere sie mit „No, … non …, …“.",
+   "explanation": "Prima no, poi la frase con non, poi la frase giusta.",
+   "explanationHelp": "Erst no, dann der Satz mit non, dann die richtige Information.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Giulia abita a Lecce. (Torino)",
+     "acceptedAnswers": [
+      "non abita a Lecce, abita a Torino"
+     ],
+     "modelAnswer": "No, Giulia non abita a Lecce, abita a Torino."
+    },
+    {
+     "id": "s2",
+     "start": "Torino è in Puglia. (Piemonte)",
+     "acceptedAnswers": [
+      "non è in Puglia, è in Piemonte"
+     ],
+     "modelAnswer": "No, Torino non è in Puglia, è in Piemonte."
+    },
+    {
+     "id": "s3",
+     "start": "Leo parla cinese. (arabo)",
+     "acceptedAnswers": [
+      "non parla cinese, parla arabo"
+     ],
+     "modelAnswer": "No, Leo non parla cinese, parla arabo."
+    },
+    {
+     "id": "s4",
+     "start": "Il Po è un lago. (un fiume)",
+     "acceptedAnswers": [
+      "non è un lago, è un fiume"
+     ],
+     "modelAnswer": "No, il Po non è un lago, è un fiume."
+    },
+    {
+     "id": "s5",
+     "start": "I ragazzi prendono il treno. (la bici)",
+     "acceptedAnswers": [
+      "non prendono il treno, prendono la bici"
+     ],
+     "modelAnswer": "No, i ragazzi non prendono il treno, prendono la bici."
+    },
+    {
+     "id": "s6",
+     "start": "Marco sta male. (bene)",
+     "acceptedAnswers": [
+      "non sta male, sta bene"
+     ],
+     "modelAnswer": "No, Marco non sta male, sta bene."
+    }
+   ]
+  }
+ ]
+}

@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-are-presente-m4",
- "title": "Fragen stellen",
+ "title": "Fare domande",
  "language": "it",
  "level": "A1",
- "description": "Verben auf -are im Präsens · Fragen stellen (mittel).",
+ "description": "I verbi in -are al presente · Fare domande (mittel).",
  "topics": [
-  "Verben auf -are im Präsens",
+  "I verbi in -are al presente",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,16 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-are-presente",
-  "topicTitle": "Verben auf -are im Präsens",
+  "topicTitle": "I verbi in -are al presente",
   "difficulty": "mittel",
   "origin": "own",
   "order": 24,
-  "rule": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an:\n\n| Person | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** Bei _loro_ liegt die Betonung vorn: **a**bitano, **par**lano."
+  "rule": "I verbi in **-are** sono il gruppo più grande. Togli -are e aggiungi la desinenza:\n\n| persona | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDi solito non diciamo il pronome: _Abito a Torino._ La desinenza dice chi è.\n**Attenzione:** cercare → tu cer**chi**, giocare → noi gio**chiamo** · mangiare → tu mang**i**, noi mang**iamo**.",
+  "ruleHelp": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an (siehe Tabelle).\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** -care/-gare bekommen vor i ein h (cerchi, giochiamo); bei -iare fällt ein i weg (mangi, mangiamo). Bei loro liegt die Betonung vorn: **a**bitano."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Stelle die Frage mit tu oder voi, wie im Beispiel: (abitare, tu) Dove abiti?",
+   "prompt": "Fai la domanda con tu o voi, come nell’esempio: (abitare, tu) Dove abiti?",
+   "promptHelp": "Stelle die Frage mit tu oder voi, wie im Beispiel: (abitare, tu) Dove abiti?",
+   "explanation": "tu -i, voi -ate.",
+   "explanationHelp": "tu -i, voi -ate.",
    "type": "sentence_completion",
    "items": [
     {
@@ -95,6 +99,22 @@
       "Mangiate"
      ],
      "modelAnswer": "Mangiate una pizza?"
+    },
+    {
+     "id": "s7",
+     "start": "(abitare, voi) Dove …?",
+     "acceptedAnswers": [
+      "abitate"
+     ],
+     "modelAnswer": "Dove abitate?"
+    },
+    {
+     "id": "s8",
+     "start": "(studiare, tu) … l’italiano?",
+     "acceptedAnswers": [
+      "Studi"
+     ],
+     "modelAnswer": "Studi l’italiano?"
     }
    ]
   }

@@ -1,0 +1,116 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-ce-ci-sono-l3",
+ "title": "Singolare o plurale?",
+ "language": "it",
+ "level": "A1",
+ "description": "C’è e ci sono · Singolare o plurale? (einfach).",
+ "topics": [
+  "C’è e ci sono",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 1 · La città · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-ce-ci-sono",
+  "topicTitle": "C’è e ci sono",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 103,
+  "rule": "- **c’è** + singolare: _In piazza **c’è** un bar._\n- **ci sono** + plurale: _Nel quartiere **ci sono** due negozi._\n- Domanda: _C’è un parco qui?_ · Negazione: _Non c’è un cinema._\n- **c’è** dice che una cosa esiste; **è** dice dove è una cosa precisa: _C’è un museo. Il museo è in piazza._",
+  "ruleHelp": "- **c’è** + Singular: _In piazza c’è un bar._ (Es gibt / da ist)\n- **ci sono** + Plural: _Nel quartiere ci sono due negozi._ (Es gibt / da sind)\n- Frage: _C’è un parco qui?_ · Verneinung: _Non c’è un cinema._\n- **c’è** sagt, dass etwas existiert; **è** sagt, wo etwas Bestimmtes ist: _C’è un museo. Il museo è in piazza._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "C’è o ci sono? Metti le parole nel gruppo giusto.",
+   "promptHelp": "c’è oder ci sono? Ordne zu.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "c",
+     "label": "c’è"
+    },
+    {
+     "id": "s",
+     "label": "ci sono"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "un bar",
+     "category": "c"
+    },
+    {
+     "id": "i2",
+     "text": "una piazza",
+     "category": "c"
+    },
+    {
+     "id": "i3",
+     "text": "il fiume",
+     "category": "c"
+    },
+    {
+     "id": "i4",
+     "text": "uno stadio",
+     "category": "c"
+    },
+    {
+     "id": "i5",
+     "text": "due negozi",
+     "category": "s"
+    },
+    {
+     "id": "i6",
+     "text": "molti parchi",
+     "category": "s"
+    },
+    {
+     "id": "i7",
+     "text": "tre ponti",
+     "category": "s"
+    },
+    {
+     "id": "i8",
+     "text": "tanti bambini",
+     "category": "s"
+    },
+    {
+     "id": "i9",
+     "text": "un’edicola",
+     "category": "c"
+    },
+    {
+     "id": "i10",
+     "text": "le biciclette",
+     "category": "s"
+    }
+   ]
+  }
+ ]
+}

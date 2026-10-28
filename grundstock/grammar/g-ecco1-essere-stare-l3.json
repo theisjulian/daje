@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-essere-stare-l3",
- "title": "Formen von essere und stare",
+ "title": "Forme di essere e stare",
  "language": "it",
  "level": "A1",
- "description": "essere und stare · Formen von essere und stare (einfach).",
+ "description": "I verbi essere e stare · Forme di essere e stare (einfach).",
  "topics": [
-  "essere und stare",
+  "I verbi essere e stare",
   "Grammatik"
  ],
  "sources": [
@@ -36,17 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-essere-stare",
-  "topicTitle": "essere und stare",
+  "topicTitle": "I verbi essere e stare",
   "difficulty": "leicht",
   "origin": "own",
   "order": 33,
-  "rule": "**essere** (sein) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| sono | sei | è | siamo | siete | sono |\n\n**stare** benutzt man für das Befinden: _Come stai? – Sto bene / male._\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n\n- _Sono di Torino._ (Herkunft) · _Sono Luca._ (Name) · _È bello._ (Eigenschaft)\n- _Come sta Anna? – Sta bene._ (Befinden)"
+  "rule": "**essere** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| sono | sei | è | siamo | siete | sono |\n\n**stare** serve per dire come va: _Come stai? – Sto bene / male._\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n\n- _Sono di Torino._ (da dove?) · _Sono Luca._ (nome) · _È bello._ (com’è?)\n- _Come sta Anna? – Sta bene._ (come va?)",
+  "ruleHelp": "**essere** (sein) ist unregelmäßig. **stare** benutzt man für das Befinden: _Come stai? – Sto bene / male._\n- essere: Herkunft (_Sono di Torino._), Name (_Sono Luca._), Eigenschaft (_È bello._)\n- stare: Befinden (_Come sta Anna? – Sta bene._)"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ist das eine Form von essere oder von stare?",
-   "explanation": "sono gehört zu essere (io sono / loro sono), sto zu stare.",
+   "prompt": "È una forma di essere o di stare?",
+   "promptHelp": "Ist das eine Form von essere oder von stare?",
+   "explanation": "sono è di essere (io sono / loro sono), sto è di stare.",
+   "explanationHelp": "sono gehört zu essere (io sono / loro sono), sto zu stare.",
    "type": "categorize",
    "categories": [
     {

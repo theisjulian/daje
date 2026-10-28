@@ -6,9 +6,9 @@
  "title": "Quartiere San Salvario",
  "language": "it",
  "level": "A1",
- "description": "c'è und ci sono · Quartiere San Salvario (mittel).",
+ "description": "C’è e ci sono · Quartiere San Salvario (mittel).",
  "topics": [
-  "c'è und ci sono",
+  "C’è e ci sono",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-ce-ci-sono",
-  "topicTitle": "c'è und ci sono",
+  "topicTitle": "C’è e ci sono",
   "difficulty": "mittel",
   "origin": "own",
   "order": 102,
-  "rule": "- **c'è** + Singular: _In piazza **c'è** un bar._ (Es gibt / da ist)\n- **ci sono** + Plural: _Nel quartiere **ci sono** due negozi._ (Es gibt / da sind)\n- Frage: _C'è un parco qui?_ · Verneinung: _Non c'è un cinema._"
+  "rule": "- **c’è** + singolare: _In piazza **c’è** un bar._\n- **ci sono** + plurale: _Nel quartiere **ci sono** due negozi._\n- Domanda: _C’è un parco qui?_ · Negazione: _Non c’è un cinema._\n- **c’è** dice che una cosa esiste; **è** dice dove è una cosa precisa: _C’è un museo. Il museo è in piazza._",
+  "ruleHelp": "- **c’è** + Singular: _In piazza c’è un bar._ (Es gibt / da ist)\n- **ci sono** + Plural: _Nel quartiere ci sono due negozi._ (Es gibt / da sind)\n- Frage: _C’è un parco qui?_ · Verneinung: _Non c’è un cinema._\n- **c’è** sagt, dass etwas existiert; **è** sagt, wo etwas Bestimmtes ist: _C’è un museo. Il museo è in piazza._"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze den Text mit c'è, ci sono, non c'è oder non ci sono.",
-   "explanation": "Verneinung: non steht vor c'è / ci sono.",
+   "prompt": "Completa il testo con c’è, ci sono, non c’è o non ci sono.",
+   "promptHelp": "Ergänze den Text mit c’è, ci sono, non c’è oder non ci sono.",
+   "explanation": "Negazione: non prima di c’è / ci sono.",
+   "explanationHelp": "Verneinung: non steht vor c’è / ci sono.",
    "type": "gap_fill",
-   "text": "Nel quartiere San Salvario [[g1]] molti ristoranti.\n[[g2]] anche un mercato, il sabato.\nPurtroppo [[g3]] una piscina.\nVicino al fiume [[g4]] il parco Valentino.\nNel parco [[g5]] tanti alberi e una pista per le bici.\n[[g6]] negozi di sport, ma [[g7]] un cinema.",
+   "text": "Nel quartiere San Salvario [[g1]] molti ristoranti.\n[[g2]] anche un mercato, il sabato.\nPurtroppo [[g3]] una piscina.\nVicino al fiume [[g4]] il parco Valentino.\nNel parco [[g5]] tanti alberi e una pista per le bici.\n[[g6]] negozi di sport, ma [[g7]] un cinema.\nLa sera in piazza [[g8]] tanti ragazzi.",
    "gaps": [
     {
      "id": "g1",
@@ -59,19 +62,19 @@
     {
      "id": "g2",
      "acceptedAnswers": [
-      "C'è"
+      "C’è"
      ]
     },
     {
      "id": "g3",
      "acceptedAnswers": [
-      "non c'è"
+      "non c’è"
      ]
     },
     {
      "id": "g4",
      "acceptedAnswers": [
-      "c'è"
+      "c’è"
      ]
     },
     {
@@ -89,14 +92,20 @@
     {
      "id": "g7",
      "acceptedAnswers": [
-      "c'è"
+      "c’è"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ci sono"
      ]
     }
    ],
    "wordBank": true,
    "extraWords": [
     "ci sono",
-    "c'è"
+    "c’è"
    ]
   }
  ]

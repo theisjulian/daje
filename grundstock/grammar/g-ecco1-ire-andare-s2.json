@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-ire-andare-s2",
- "title": "-ere oder -ire?",
+ "title": "-ere o -ire?",
  "language": "it",
  "level": "A1",
- "description": "Verben auf -ire und andare · -ere oder -ire? (schwer).",
+ "description": "I verbi in -ire e andare · -ere o -ire? · livello difficile.",
  "topics": [
-  "Verben auf -ire und andare",
+  "I verbi in -ire e andare",
   "Grammatik"
  ],
  "sources": [
@@ -36,19 +36,23 @@
  },
  "grammar": {
   "topic": "ecco1-ire-andare",
-  "topicTitle": "Verben auf -ire und andare",
+  "topicTitle": "I verbi in -ire e andare",
   "difficulty": "schwer",
   "origin": "own",
   "order": 62,
-  "rule": "**Verben auf -ire** (ohne Stammerweiterung):\n| Person | dormire | sentire |\n| io | dorm**o** | sent**o** |\n| tu | dorm**i** | sent**i** |\n| lui / lei | dorm**e** | sent**e** |\n| noi | dorm**iamo** | sent**iamo** |\n| voi | dorm**ite** | sent**ite** |\n| loro | dorm**ono** | sent**ono** |\n\nWie -ere, nur **voi -ite**.\n**andare** (gehen, fahren) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| vado | vai | va | andiamo | andate | vanno |\n\n_Vado a scuola. Andiamo al concerto._"
+  "rule": "**Verbi in -ire** (senza -isc-):\n| persona | dormire | sentire |\n| io | dorm**o** | sent**o** |\n| tu | dorm**i** | sent**i** |\n| lui / lei | dorm**e** | sent**e** |\n| noi | dorm**iamo** | sent**iamo** |\n| voi | dorm**ite** | sent**ite** |\n| loro | dorm**ono** | sent**ono** |\n\nCome -ere, ma **voi -ite**.\n**andare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| vado | vai | va | andiamo | andate | vanno |\n\n_Vado a scuola. Andiamo al concerto._",
+  "ruleHelp": "Verben auf -ire (ohne Stammerweiterung) gehen wie -ere, nur **voi -ite** (dormite, sentite).\n**andare** (gehen, fahren) ist unregelmäßig: vado, vai, va, andiamo, andate, vanno."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze. Achtung: der Unterschied liegt bei voi.",
+   "prompt": "Completa. La differenza è con voi.",
+   "promptHelp": "Ergänze. Der Unterschied liegt bei voi.",
+   "explanation": "-ere: voi vedete · -ire: voi dormite, partite.",
+   "explanationHelp": "-ere: voi vedete · -ire: voi dormite, partite.",
    "type": "table_fill",
    "columns": [
-    "Person",
+    "persona",
     "vedere",
     "dormire",
     "partire"

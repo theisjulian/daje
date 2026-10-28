@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-mi-piace-l2",
- "title": "Ti piace …?",
+ "title": "Che cosa ti piace?",
  "language": "it",
  "level": "A1",
- "description": "(non) mi piace / mi piacciono · Ti piace …? (einfach).",
+ "description": "(Non) mi piace / mi piacciono · Che cosa ti piace? · livello facile.",
  "topics": [
-  "(non) mi piace / mi piacciono",
+  "(Non) mi piace / mi piacciono",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,83 +36,79 @@
  },
  "grammar": {
   "topic": "ecco1-mi-piace",
-  "topicTitle": "(non) mi piace / mi piacciono",
+  "topicTitle": "(Non) mi piace / mi piacciono",
   "difficulty": "leicht",
   "origin": "own",
   "order": 22,
-  "rule": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _**Non** mi piace il calcio._\n- Frage: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono."
+  "rule": "- **mi piace** + singolare o verbo all’infinito: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + plurale: _Mi piacciono le canzoni italiane._\n- Negazione: _**Non** mi piace il calcio._\n- Domanda: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nLa cosa che piace decide la forma: una cosa → piace, più cose → piacciono.",
+  "ruleHelp": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _Non mi piace il calcio._ · Frage: _Ti piace la storia?_\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Wähle piace oder piacciono.",
-   "explanation": "Auch nach Verben (leggere, alzarmi) → piace.",
-   "type": "gap_choice",
-   "text": "Ti [[g1]] la pizza?\nMi [[g2]] i gatti.\nNon mi [[g3]] la matematica.\nTi [[g4]] gli sport invernali?\nMi [[g5]] leggere fumetti.\nMi [[g6]] le vacanze al mare.\nNon mi [[g7]] alzarmi presto.\nTi [[g8]] il nuovo film di Pixar?",
-   "gaps": [
+   "prompt": "Mi piace o mi piacciono?",
+   "promptHelp": "Sortiere: mi piace oder mi piacciono?",
+   "type": "categorize",
+   "categories": [
     {
-     "id": "g1",
-     "options": [
-      "piace",
-      "piacciono"
-     ],
-     "answer": "piace"
+     "id": "s",
+     "label": "mi piace"
     },
     {
-     "id": "g2",
-     "options": [
-      "piacciono",
-      "piace"
-     ],
-     "answer": "piacciono"
+     "id": "p",
+     "label": "mi piacciono"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "la storia",
+     "category": "s"
     },
     {
-     "id": "g3",
-     "options": [
-      "piace",
-      "piacciono"
-     ],
-     "answer": "piace"
+     "id": "i2",
+     "text": "i libri",
+     "category": "p"
     },
     {
-     "id": "g4",
-     "options": [
-      "piacciono",
-      "piace"
-     ],
-     "answer": "piacciono"
+     "id": "i3",
+     "text": "lo sport",
+     "category": "s"
     },
     {
-     "id": "g5",
-     "options": [
-      "piace",
-      "piacciono"
-     ],
-     "answer": "piace"
+     "id": "i4",
+     "text": "le vacanze",
+     "category": "p"
     },
     {
-     "id": "g6",
-     "options": [
-      "piacciono",
-      "piace"
-     ],
-     "answer": "piacciono"
+     "id": "i5",
+     "text": "cantare",
+     "category": "s"
     },
     {
-     "id": "g7",
-     "options": [
-      "piace",
-      "piacciono"
-     ],
-     "answer": "piace"
+     "id": "i6",
+     "text": "gli animali",
+     "category": "p"
     },
     {
-     "id": "g8",
-     "options": [
-      "piace",
-      "piacciono"
-     ],
-     "answer": "piace"
+     "id": "i7",
+     "text": "la danza",
+     "category": "s"
+    },
+    {
+     "id": "i8",
+     "text": "le materie scientifiche",
+     "category": "p"
+    },
+    {
+     "id": "i9",
+     "text": "giocare a calcio",
+     "category": "s"
+    },
+    {
+     "id": "i10",
+     "text": "i film d’azione",
+     "category": "p"
     }
    ]
   }

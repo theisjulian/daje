@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-ere-presente-m3",
- "title": "Nach der Schule",
+ "title": "Dopo la scuola",
  "language": "it",
  "level": "A1",
- "description": "Verben auf -ere im Präsens · Nach der Schule (mittel).",
+ "description": "I verbi in -ere al presente · Dopo la scuola (mittel).",
  "topics": [
-  "Verben auf -ere im Präsens",
+  "I verbi in -ere al presente",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-ere-presente",
-  "topicTitle": "Verben auf -ere im Präsens",
+  "topicTitle": "I verbi in -ere al presente",
   "difficulty": "mittel",
   "origin": "own",
   "order": 93,
-  "rule": "| Person | prendere | vedere |\n| io | prend**o** | ved**o** |\n| tu | prend**i** | ved**i** |\n| lui / lei | prend**e** | ved**e** |\n| noi | prend**iamo** | ved**iamo** |\n| voi | prend**ete** | ved**ete** |\n| loro | prend**ono** | ved**ono** |\n\nUnterschied zu -are: **lui/lei -e** (nicht -a), **voi -ete**, **loro -ono**."
+  "rule": "| persona | prendere | vedere |\n| io | prend**o** | ved**o** |\n| tu | prend**i** | ved**i** |\n| lui / lei | prend**e** | ved**e** |\n| noi | prend**iamo** | ved**iamo** |\n| voi | prend**ete** | ved**ete** |\n| loro | prend**ono** | ved**ono** |\n\nDifferenza con -are: **lui/lei -e** (non -a), **voi -ete**, **loro -ono**.",
+  "ruleHelp": "Unterschied zu -are: **lui/lei -e** (nicht -a), **voi -ete**, **loro -ono** (siehe Tabelle)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Setze die Verben in der richtigen Form ein.",
-   "explanation": "leggere: io leggo (hart, gg+o), tu leggi, lui legge (weich).",
+   "prompt": "Scrivi i verbi nella forma giusta.",
+   "promptHelp": "Setze die Verben in der richtigen Form ein.",
+   "explanation": "leggere: io leggo (suono duro), tu leggi, lui legge (suono dolce).",
+   "explanationHelp": "leggere: io leggo (hart), tu leggi, lui legge (weich).",
    "type": "gap_fill",
-   "text": "Dopo la scuola io (prendere) [[g1]] l'autobus.\nA casa (leggere) [[g2]] un fumetto.\nMia sorella (scrivere) [[g3]] un messaggio a un'amica.\nNoi (vedere) [[g4]] un film insieme.\nVoi (leggere) [[g5]] molto?\nI miei genitori (prendere) [[g6]] un caffè in cucina.\nTu (scrivere) [[g7]] le email in italiano?",
+   "text": "Dopo la scuola io (prendere) [[g1]] l’autobus.\nA casa (leggere) [[g2]] un fumetto.\nMia sorella (scrivere) [[g3]] un messaggio a un’amica.\nNoi (vedere) [[g4]] un film insieme.\nVoi (leggere) [[g5]] molto?\nI miei genitori (prendere) [[g6]] un caffè in cucina.\nTu (scrivere) [[g7]] le email in italiano?\nMio fratello (vedere) [[g8]] la partita in TV.",
    "gaps": [
     {
      "id": "g1",
@@ -90,6 +93,12 @@
      "id": "g7",
      "acceptedAnswers": [
       "scrivi"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "vede"
      ]
     }
    ]

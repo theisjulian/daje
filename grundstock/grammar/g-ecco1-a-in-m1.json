@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-a-in-m1",
- "title": "Wo wohnen sie?",
+ "title": "Dove abitano?",
  "language": "it",
  "level": "A1",
- "description": "Die Präpositionen a und in · Wo wohnen sie? (mittel).",
+ "description": "Le preposizioni a e in · Dove abitano? (mittel).",
  "topics": [
-  "Die Präpositionen a und in",
+  "Le preposizioni a e in",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 8,
+ "estimatedMinutes": 11,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-a-in",
-  "topicTitle": "Die Präpositionen a und in",
+  "topicTitle": "Le preposizioni a e in",
   "difficulty": "mittel",
   "origin": "own",
   "order": 41,
-  "rule": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino, a Roma, a Berlino_\n- **in** + Land oder Region: _in Italia, in Germania, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_\n- **a** + bestimmte Orte ohne Artikel: _a scuola, a casa_"
+  "rule": "Per i luoghi usiamo:\n- **a** + città: _abito a Torino, a Roma, a Berlino_\n- **in** + paese o regione: _in Italia, in Germania, in Piemonte_\n- **in** + via, piazza: _in via Roma, in piazza_\n- **a** + casa, scuola: _a casa, a scuola_\n- **in** + centro, biblioteca, montagna: _in centro, in biblioteca_",
+  "ruleHelp": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino_ · **in** + Land oder Region: _in Italia, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_ · **a** + casa, scuola: _a casa, a scuola_\n- **in** + centro, biblioteca, montagna"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze a oder in.",
+   "prompt": "Scrivi a o in.",
+   "promptHelp": "Ergänze a oder in.",
+   "explanation": "Città → a, paese → in, via/piazza → in, a casa, a scuola.",
+   "explanationHelp": "Stadt → a, Land → in, Straße/Platz → in, a casa, a scuola.",
    "type": "gap_fill",
-   "text": "Giulia abita [[g1]] Milano, [[g2]] Italia.\nTim abita [[g3]] Amburgo, [[g4]] Germania.\nIl liceo è [[g5]] piazza Castello.\nOggi io sto [[g6]] casa.\nLuca e Anna sono [[g7]] scuola.\nIl papà lavora [[g8]] via Po.",
+   "text": "Giulia abita [[g1]] Milano, [[g2]] Italia.\nTim abita [[g3]] Amburgo, [[g4]] Germania.\nIl liceo è [[g5]] piazza Castello.\nOggi io sto [[g6]] casa.\nLuca e Anna sono [[g7]] scuola.\nIl papà lavora [[g8]] via Po.\nPaolo abita [[g9]] Napoli, [[g10]] Campania.\nMia zia abita [[g11]] Austria, [[g12]] Vienna.",
    "gaps": [
     {
      "id": "g1",
@@ -95,6 +99,30 @@
      "id": "g8",
      "acceptedAnswers": [
       "in"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "a"
      ]
     }
    ]

@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-non-m2",
- "title": "Nein, …",
+ "title": "No, non …",
  "language": "it",
  "level": "A1",
- "description": "Die Verneinung mit non · Nein, … (mittel).",
+ "description": "La negazione con non · No, non … (mittel).",
  "topics": [
-  "Die Verneinung mit non",
+  "La negazione con non",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,24 +36,27 @@
  },
  "grammar": {
   "topic": "ecco1-non",
-  "topicTitle": "Die Verneinung mit non",
+  "topicTitle": "La negazione con non",
   "difficulty": "mittel",
   "origin": "own",
   "order": 62,
-  "rule": "**non** steht **vor dem Verb**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nAntwort auf eine Frage: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)"
+  "rule": "**non** va **prima del verbo**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nRisposta a una domanda: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)",
+  "ruleHelp": "**non** steht **vor dem Verb**: _Non abito a Torino. Luca non è di Milano._\nAntwort auf eine Frage: _Sei di Roma? – No, non sono di Roma._ (no = nein, non = nicht)"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Antworte mit „No, non …“.",
-   "explanation": "Frage mit tu → Antwort mit io; Frage mit voi → Antwort mit noi.",
+   "prompt": "Rispondi con «No, non …».",
+   "promptHelp": "Antworte mit „No, non …“.",
+   "explanation": "Domanda con tu → risposta con io; domanda con voi → risposta con noi.",
+   "explanationHelp": "Frage mit tu → Antwort mit io; Frage mit voi → Antwort mit noi.",
    "type": "sentence_completion",
    "items": [
     {
      "id": "s1",
      "start": "Sei di Roma?",
      "acceptedAnswers": [
-      "No, non sono di Roma."
+      "No, non sono di Roma"
      ],
      "modelAnswer": "No, non sono di Roma."
     },
@@ -61,7 +64,7 @@
      "id": "s2",
      "start": "Parli spagnolo?",
      "acceptedAnswers": [
-      "No, non parlo spagnolo."
+      "No, non parlo spagnolo"
      ],
      "modelAnswer": "No, non parlo spagnolo."
     },
@@ -69,7 +72,7 @@
      "id": "s3",
      "start": "Abitate in centro?",
      "acceptedAnswers": [
-      "No, non abitiamo in centro."
+      "No, non abitiamo in centro"
      ],
      "modelAnswer": "No, non abitiamo in centro."
     },
@@ -77,7 +80,8 @@
      "id": "s4",
      "start": "Luca è a casa?",
      "acceptedAnswers": [
-      "No, non è a casa."
+      "No, non è a casa",
+      "No, Luca non è a casa"
      ],
      "modelAnswer": "No, Luca non è a casa."
     },
@@ -85,7 +89,7 @@
      "id": "s5",
      "start": "Giochi a tennis?",
      "acceptedAnswers": [
-      "No, non gioco a tennis."
+      "No, non gioco a tennis"
      ],
      "modelAnswer": "No, non gioco a tennis."
     },
@@ -93,9 +97,25 @@
      "id": "s6",
      "start": "Guardate la partita?",
      "acceptedAnswers": [
-      "No, non guardiamo la partita."
+      "No, non guardiamo la partita"
      ],
      "modelAnswer": "No, non guardiamo la partita."
+    },
+    {
+     "id": "s7",
+     "start": "Stai male?",
+     "acceptedAnswers": [
+      "No, non sto male"
+     ],
+     "modelAnswer": "No, non sto male."
+    },
+    {
+     "id": "s8",
+     "start": "Mangi la pizza?",
+     "acceptedAnswers": [
+      "No, non mangio la pizza"
+     ],
+     "modelAnswer": "No, non mangio la pizza."
     }
    ]
   }

@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-ce-ci-sono-s2",
- "title": "Fragen und Antworten",
+ "title": "Trova gli errori",
  "language": "it",
  "level": "A1",
- "description": "c'è und ci sono · Fragen und Antworten (schwer).",
+ "description": "C’è e ci sono · Trova gli errori (schwer).",
  "topics": [
-  "c'è und ci sono",
+  "C’è e ci sono",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,57 +36,78 @@
  },
  "grammar": {
   "topic": "ecco1-ce-ci-sono",
-  "topicTitle": "c'è und ci sono",
+  "topicTitle": "C’è e ci sono",
   "difficulty": "schwer",
   "origin": "own",
   "order": 102,
-  "rule": "- **c'è** + Singular: _In piazza **c'è** un bar._ (Es gibt / da ist)\n- **ci sono** + Plural: _Nel quartiere **ci sono** due negozi._ (Es gibt / da sind)\n- Frage: _C'è un parco qui?_ · Verneinung: _Non c'è un cinema._"
+  "rule": "- **c’è** + singolare: _In piazza **c’è** un bar._\n- **ci sono** + plurale: _Nel quartiere **ci sono** due negozi._\n- Domanda: _C’è un parco qui?_ · Negazione: _Non c’è un cinema._\n- **c’è** dice che una cosa esiste; **è** dice dove è una cosa precisa: _C’è un museo. Il museo è in piazza._",
+  "ruleHelp": "- **c’è** + Singular: _In piazza c’è un bar._ (Es gibt / da ist)\n- **ci sono** + Plural: _Nel quartiere ci sono due negozi._ (Es gibt / da sind)\n- Frage: _C’è un parco qui?_ · Verneinung: _Non c’è un cinema._\n- **c’è** sagt, dass etwas existiert; **è** sagt, wo etwas Bestimmtes ist: _C’è un museo. Il museo è in piazza._"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Antworte mit c'è / ci sono oder non c'è / non ci sono.",
-   "type": "sentence_completion",
-   "items": [
+   "prompt": "Correggi gli errori con c’è e ci sono.",
+   "promptHelp": "Korrigiere die Fehler mit c’è und ci sono.",
+   "explanation": "Una cosa → c’è, più cose → ci sono; dov’è una cosa precisa → è.",
+   "explanationHelp": "Ein Ding → c’è, mehrere → ci sono; wo etwas Bestimmtes ist → è.",
+   "type": "error_correction",
+   "text": "In piazza [[g1]] una fontana.\nNel quartiere [[g2]] tre bar.\n[[g3]] un parco vicino a casa mia.\nNon [[g4]] uno stadio.\nA scuola [[g5]] molti studenti.\n[[g6]] tanti alberi nel parco.\nIl museo [[g7]] in via Roma.\n[[g8]] due ponti sul fiume.",
+   "errors": [
     {
-     "id": "s1",
-     "start": "C'è un cinema qui? – No, …",
+     "id": "g1",
+     "wrong": "ci sono",
      "acceptedAnswers": [
-      "non c'è"
-     ],
-     "modelAnswer": "No, non c'è un cinema."
+      "c’è"
+     ]
     },
     {
-     "id": "s2",
-     "start": "Ci sono negozi in centro? – Sì, …",
+     "id": "g2",
+     "wrong": "c’è",
      "acceptedAnswers": [
       "ci sono"
-     ],
-     "modelAnswer": "Sì, ci sono molti negozi."
+     ]
     },
     {
-     "id": "s3",
-     "start": "C'è un parco vicino? – Sì, …",
+     "id": "g3",
+     "wrong": "È",
      "acceptedAnswers": [
-      "c'è"
-     ],
-     "modelAnswer": "Sì, c'è un parco vicino."
+      "C’è"
+     ]
     },
     {
-     "id": "s4",
-     "start": "Ci sono studenti in classe? – No, …",
+     "id": "g4",
+     "wrong": "ci sono",
      "acceptedAnswers": [
-      "non ci sono"
-     ],
-     "modelAnswer": "No, non ci sono studenti."
+      "c’è"
+     ]
     },
     {
-     "id": "s5",
-     "start": "C'è il professore? – Sì, …",
+     "id": "g5",
+     "wrong": "c’è",
      "acceptedAnswers": [
-      "c'è"
-     ],
-     "modelAnswer": "Sì, c'è il professore."
+      "ci sono"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "Sono",
+     "acceptedAnswers": [
+      "Ci sono"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "c’è",
+     "acceptedAnswers": [
+      "è"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "C’è",
+     "acceptedAnswers": [
+      "Ci sono"
+     ]
     }
    ]
   }

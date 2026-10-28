@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-mi-piace-m1",
- "title": "Was gefällt dir?",
+ "title": "Un’intervista",
  "language": "it",
  "level": "A1",
- "description": "(non) mi piace / mi piacciono · Was gefällt dir? (mittel).",
+ "description": "(Non) mi piace / mi piacciono · Un’intervista · livello medio.",
  "topics": [
-  "(non) mi piace / mi piacciono",
+  "(Non) mi piace / mi piacciono",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 8,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,69 +36,85 @@
  },
  "grammar": {
   "topic": "ecco1-mi-piace",
-  "topicTitle": "(non) mi piace / mi piacciono",
+  "topicTitle": "(Non) mi piace / mi piacciono",
   "difficulty": "mittel",
   "origin": "own",
   "order": 21,
-  "rule": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _**Non** mi piace il calcio._\n- Frage: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono."
+  "rule": "- **mi piace** + singolare o verbo all’infinito: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + plurale: _Mi piacciono le canzoni italiane._\n- Negazione: _**Non** mi piace il calcio._\n- Domanda: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nLa cosa che piace decide la forma: una cosa → piace, più cose → piacciono.",
+  "ruleHelp": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _Non mi piace il calcio._ · Frage: _Ti piace la storia?_\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Sortiere: mi piace oder mi piacciono?",
-   "type": "categorize",
-   "categories": [
+   "prompt": "Completa con piace o piacciono.",
+   "promptHelp": "Ergänze mit piace oder piacciono.",
+   "explanation": "Il basket (singolare) → piace, le partite (plurale) → piacciono.",
+   "explanationHelp": "il basket (Singular) → piace, le partite (Plural) → piacciono.",
+   "type": "gap_fill",
+   "text": "– Ti [[g1]] la scuola?\n– Sì, mi [[g2]] molto. Mi [[g3]] soprattutto le lezioni di storia.\n– E la filosofia?\n– No, non mi [[g4]]. E non mi [[g5]] i compiti!\n– Ti [[g6]] gli sport?\n– Sì, mi [[g7]] il basket e mi [[g8]] le partite di pallavolo.\n– E ti [[g9]] cantare?\n– No, ma mi [[g10]] ascoltare musica.",
+   "gaps": [
     {
-     "id": "s",
-     "label": "mi piace"
+     "id": "g1",
+     "acceptedAnswers": [
+      "piace"
+     ]
     },
     {
-     "id": "p",
-     "label": "mi piacciono"
+     "id": "g2",
+     "acceptedAnswers": [
+      "piace"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "piacciono"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "piace"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "piacciono"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "piacciono"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "piace"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "piacciono"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "piace"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "piace"
+     ]
     }
    ],
-   "items": [
-    {
-     "id": "i1",
-     "text": "la storia",
-     "category": "s"
-    },
-    {
-     "id": "i2",
-     "text": "i libri",
-     "category": "p"
-    },
-    {
-     "id": "i3",
-     "text": "lo sport",
-     "category": "s"
-    },
-    {
-     "id": "i4",
-     "text": "le vacanze",
-     "category": "p"
-    },
-    {
-     "id": "i5",
-     "text": "cantare",
-     "category": "s"
-    },
-    {
-     "id": "i6",
-     "text": "gli animali",
-     "category": "p"
-    },
-    {
-     "id": "i7",
-     "text": "la danza",
-     "category": "s"
-    },
-    {
-     "id": "i8",
-     "text": "le materie scientifiche",
-     "category": "p"
-    }
-   ]
+   "wordBank": true
   }
  ]
 }

@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-possessivi-1-s2",
- "title": "Wem gehört was?",
+ "title": "Mio fratello e io",
  "language": "it",
  "level": "A1",
- "description": "Possessivbegleiter (I) · Wem gehört was? (schwer).",
+ "description": "Gli aggettivi possessivi (1) · Mio fratello e io · livello difficile.",
  "topics": [
-  "Possessivbegleiter (I)",
+  "Gli aggettivi possessivi (1)",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 8,
+ "estimatedMinutes": 12,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,58 +36,79 @@
  },
  "grammar": {
   "topic": "ecco1-possessivi-1",
-  "topicTitle": "Possessivbegleiter (I)",
+  "topicTitle": "Gli aggettivi possessivi (1)",
   "difficulty": "schwer",
   "origin": "own",
   "order": 52,
-  "rule": "Vor dem Possessivbegleiter steht im Italienischen meist der **Artikel**:\n| | männlich Sg. | weiblich Sg. | männlich Pl. | weiblich Pl. |\n| io | il mio | la mia | i miei | le mie |\n| tu | il tuo | la tua | i tuoi | le tue |\n| lui / lei | il suo | la sua | i suoi | le sue |\n| noi | il nostro | la nostra | i nostri | le nostre |\n| voi | il vostro | la vostra | i vostri | le vostre |\n| loro | il loro | la loro | i loro | le loro |\n\nDie Form richtet sich nach dem **Besitz**, nicht nach dem Besitzer: _Marco e **la sua** borsa_ (seine Tasche), _Giulia e **il suo** zaino_ (ihr Rucksack)."
+  "rule": "Prima del possessivo di solito c’è **l’articolo**:\n| | m. sing. | f. sing. | m. plur. | f. plur. |\n| io | il mio | la mia | i miei | le mie |\n| tu | il tuo | la tua | i tuoi | le tue |\n| lui / lei | il suo | la sua | i suoi | le sue |\n| noi | il nostro | la nostra | i nostri | le nostre |\n| voi | il vostro | la vostra | i vostri | le vostre |\n| loro | il loro | la loro | i loro | le loro |\n\nLa forma dipende dalla **cosa**, non dalla persona: _Marco e **la sua** borsa_, _Giulia e **il suo** zaino_.",
+  "ruleHelp": "Vor dem Possessivbegleiter steht meist der **Artikel**: il mio zaino, la mia borsa, i miei libri, le mie riviste.\nDie Form richtet sich nach dem **Besitz**, nicht nach dem Besitzer: _Marco e la sua borsa_ (seine Tasche), _Giulia e il suo zaino_ (ihr Rucksack). loro bleibt immer gleich."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Sechs Possessivbegleiter sind falsch. Korrigiere sie.",
-   "explanation": "loro für mehrere Besitzer; Artikel vor dem Possessiv nicht vergessen.",
-   "type": "error_correction",
-   "text": "Paolo ama [[g1]] bici.\nSara mette in ordine [[g2]] armadio.\nRagazzi, dove sono [[g3]] borse?\n[[g4]] amici sono qui.\nLuca e Anna? [[g5]] genitori lavorano molto.\nEcco [[g6]] casa.",
-   "errors": [
+   "prompt": "Scrivi i possessivi con l’articolo.",
+   "promptHelp": "Ergänze die Possessivbegleiter mit Artikel.",
+   "explanation": "Della cosa dipende la forma: il suo letto, i suoi fumetti, le sue scarpe.",
+   "explanationHelp": "Die Form hängt vom Ding ab: il suo letto, i suoi fumetti, le sue scarpe.",
+   "type": "gap_fill",
+   "text": "Io e mio fratello abbiamo una camera insieme. [[g1]] camera è grande.\n[[g2]] letto è vicino alla finestra, [[g3]] letto è vicino alla porta.\n[[g4]] libri sono sullo scaffale, [[g5]] fumetti sono per terra!\n[[g6]] scarpe sono sempre sotto [[g7]] letto.\nI nostri genitori dicono: «Ragazzi, [[g8]] camera è un caos!»\n[[g9]] amici però amano [[g10]] camera.",
+   "gaps": [
     {
      "id": "g1",
-     "wrong": "il suo",
      "acceptedAnswers": [
-      "la sua"
+      "La nostra"
      ]
     },
     {
      "id": "g2",
-     "wrong": "la sua",
+     "acceptedAnswers": [
+      "Il mio"
+     ]
+    },
+    {
+     "id": "g3",
      "acceptedAnswers": [
       "il suo"
      ]
     },
     {
-     "id": "g3",
-     "wrong": "le vostri",
-     "acceptedAnswers": [
-      "le vostre"
-     ]
-    },
-    {
      "id": "g4",
-     "wrong": "I mie",
      "acceptedAnswers": [
       "I miei"
      ]
     },
     {
      "id": "g5",
-     "wrong": "I suoi",
      "acceptedAnswers": [
-      "I loro"
+      "i suoi"
      ]
     },
     {
      "id": "g6",
-     "wrong": "nostra",
+     "acceptedAnswers": [
+      "Le sue"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "il mio"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "la vostra"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "I nostri"
+     ]
+    },
+    {
+     "id": "g10",
      "acceptedAnswers": [
       "la nostra"
      ]

@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-avere-m4",
+ "title": "ha o a, hanno o anno?",
+ "language": "it",
+ "level": "A1",
+ "description": "Il verbo avere · ha o a, hanno o anno? · livello medio.",
+ "topics": [
+  "Il verbo avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 2 · La mia camera · Per cominciare.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Per cominciare"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-avere",
+  "topicTitle": "Il verbo avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 14,
+  "rule": "**avere** è irregolare. La **h** non si pronuncia.\n| io | tu | lui / lei | noi | voi | loro |\n| ho | hai | ha | abbiamo | avete | hanno |\n\nL’età si dice con avere: _Quanti anni **hai**? – **Ho** quattordici anni._\n**Attenzione:** _ha_ (verbo) ≠ _a_ (preposizione) · _hanno_ (verbo) ≠ _anno_ (das Jahr).",
+  "ruleHelp": "**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.\nDas Alter sagt man mit avere: _Quanti anni hai? – Ho quattordici anni._ (nicht „ich bin 14“!)\n**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Attenzione all’ortografia.",
+   "promptHelp": "Achte auf die Schreibung.",
+   "explanation": "Verbo con h: ha, hanno. Senza h: a (preposizione), anno (das Jahr).",
+   "explanationHelp": "Verb mit h: ha, hanno. Ohne h: a (Präposition), anno (Jahr).",
+   "type": "gap_choice",
+   "text": "Luca [[g1]] un cellulare nuovo.\nAbito [[g2]] Torino.\nI ragazzi [[g3]] il compito di storia.\nQuest’[[g4]] studio il tedesco.\nSara [[g5]] tredici anni.\nVado [[g6]] scuola in bici.\nI miei cugini [[g7]] due gatti.\nIl prossimo [[g8]] vado in Italia.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "ha",
+      "a"
+     ],
+     "answer": "ha"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "a",
+      "ha"
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "hanno",
+      "anno"
+     ],
+     "answer": "hanno"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "anno",
+      "hanno"
+     ],
+     "answer": "anno"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "ha",
+      "a"
+     ],
+     "answer": "ha"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "a",
+      "ha"
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "hanno",
+      "anno"
+     ],
+     "answer": "hanno"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "anno",
+      "hanno"
+     ],
+     "answer": "anno"
+    }
+   ]
+  }
+ ]
+}

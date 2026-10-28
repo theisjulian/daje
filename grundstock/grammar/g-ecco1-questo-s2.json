@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-questo-s2",
- "title": "Fehler beim Aufräumen",
+ "title": "Errori in ordine",
  "language": "it",
  "level": "A1",
- "description": "questo, questa, questi, queste · Fehler beim Aufräumen (schwer).",
+ "description": "Questo, questa, questi, queste · Errori in ordine · livello difficile.",
  "topics": [
-  "questo, questa, questi, queste",
+  "Questo, questa, questi, queste",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-questo",
-  "topicTitle": "questo, questa, questi, queste",
+  "topicTitle": "Questo, questa, questi, queste",
   "difficulty": "schwer",
   "origin": "own",
   "order": 32,
-  "rule": "**questo** (dieser, diese, dieses) richtet sich nach dem Nomen:\n| | Singular | Plural |\n| männlich | questo zaino | questi zaini |\n| weiblich | questa borsa | queste borse |\n\nVor Vokal oft: _quest'armadio, quest'idea_. Allein (ohne Nomen): _Questo è il mio zaino._"
+  "rule": "**questo** cambia come il nome:\n| | singolare | plurale |\n| maschile | questo zaino | questi zaini |\n| femminile | questa borsa | queste borse |\n\nDavanti a vocale spesso: _quest’armadio, quest’idea_. Da solo (senza nome): _Questo è il mio zaino._",
+  "ruleHelp": "**questo** (dieser, diese, dieses) richtet sich nach dem Nomen: questo zaino, questa borsa, questi zaini, queste borse.\nVor Vokal oft: _quest’armadio, quest’idea_. Allein (ohne Nomen): _Questo è il mio zaino._"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Korrigiere die fünf falschen Formen.",
+   "prompt": "Correggi le otto forme sbagliate.",
+   "promptHelp": "Korrigiere die acht falschen Formen.",
    "type": "error_correction",
-   "text": "[[g1]] zaino è di Luca.\n[[g2]] scarpe sono nuove.\n[[g3]] libri sono sul tavolo.\n[[g4]] sedia è rotta.\n[[g5]] magliette sono sporche.",
+   "text": "[[g1]] zaino è di Luca.\n[[g2]] scarpe sono nuove.\n[[g3]] libri sono sul tavolo.\n[[g4]] sedia è rotta.\n[[g5]] magliette sono sporche.\n[[g6]] poster sono belli.\n[[g7]] camera è grande.\n[[g8]] armadio è vecchio.",
    "errors": [
     {
      "id": "g1",
@@ -82,6 +84,27 @@
      "wrong": "Questa",
      "acceptedAnswers": [
       "Queste"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "Questo",
+     "acceptedAnswers": [
+      "Questi"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "Queste",
+     "acceptedAnswers": [
+      "Questa"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "Questi",
+     "acceptedAnswers": [
+      "Questo"
      ]
     }
    ]

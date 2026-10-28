@@ -1,0 +1,96 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-aggettivi-l3",
+ "title": "Maschile o femminile, singolare o plurale?",
+ "language": "it",
+ "level": "A1",
+ "description": "Gli aggettivi e la loro posizione · Maschile o femminile, singolare o plurale? · livello facile.",
+ "topics": [
+  "Gli aggettivi e la loro posizione",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 2 · La mia camera · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "2 · La mia camera",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-aggettivi",
+  "topicTitle": "Gli aggettivi e la loro posizione",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 73,
+  "rule": "L’aggettivo cambia come il nome (genere e numero):\n| tipo | m. sing. | f. sing. | m. plur. | f. plur. |\n| -o/-a | nuovo | nuova | nuovi | nuove |\n| -e | grande | grande | grandi | grandi |\n\n**Posizione:** di solito **dopo** il nome: _un libro **interessante**, una camera **grande**._ Alcuni aggettivi brevi e frequenti stanno spesso prima: _un **bel** posto, un **piccolo** problema._\n**Attenzione:** _ultimo_ sta sempre prima: _l’ultima novità._",
+  "ruleHelp": "Adjektive richten sich nach dem Nomen (Geschlecht und Zahl): nuovo, nuova, nuovi, nuove · grande, grandi.\n**Stellung:** meist **nach** dem Nomen: _un libro interessante._ Einige kurze, häufige Adjektive oft davor: _un bel posto, un piccolo problema._ _ultimo_ steht immer vorn."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina nome e aggettivo.",
+   "promptHelp": "Verbinde Nomen und Adjektiv.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "una camera",
+     "right": "piccola"
+    },
+    {
+     "id": "p2",
+     "left": "un letto",
+     "right": "piccolo"
+    },
+    {
+     "id": "p3",
+     "left": "due letti",
+     "right": "piccoli"
+    },
+    {
+     "id": "p4",
+     "left": "due camere",
+     "right": "piccole"
+    },
+    {
+     "id": "p5",
+     "left": "una borsa",
+     "right": "grande"
+    },
+    {
+     "id": "p6",
+     "left": "due zaini",
+     "right": "grandi"
+    },
+    {
+     "id": "p7",
+     "left": "un poster",
+     "right": "vecchio"
+    },
+    {
+     "id": "p8",
+     "left": "le riviste",
+     "right": "vecchie"
+    }
+   ]
+  }
+ ]
+}

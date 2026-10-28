@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-essere-stare-m2",
- "title": "Ein Dialog",
+ "title": "Un dialogo",
  "language": "it",
  "level": "A1",
- "description": "essere und stare · Ein Dialog (mittel).",
+ "description": "I verbi essere e stare · Un dialogo (mittel).",
  "topics": [
-  "essere und stare",
+  "I verbi essere e stare",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 9,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-essere-stare",
-  "topicTitle": "essere und stare",
+  "topicTitle": "I verbi essere e stare",
   "difficulty": "mittel",
   "origin": "own",
   "order": 32,
-  "rule": "**essere** (sein) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| sono | sei | è | siamo | siete | sono |\n\n**stare** benutzt man für das Befinden: _Come stai? – Sto bene / male._\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n\n- _Sono di Torino._ (Herkunft) · _Sono Luca._ (Name) · _È bello._ (Eigenschaft)\n- _Come sta Anna? – Sta bene._ (Befinden)"
+  "rule": "**essere** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| sono | sei | è | siamo | siete | sono |\n\n**stare** serve per dire come va: _Come stai? – Sto bene / male._\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n\n- _Sono di Torino._ (da dove?) · _Sono Luca._ (nome) · _È bello._ (com’è?)\n- _Come sta Anna? – Sta bene._ (come va?)",
+  "ruleHelp": "**essere** (sein) ist unregelmäßig. **stare** benutzt man für das Befinden: _Come stai? – Sto bene / male._\n- essere: Herkunft (_Sono di Torino._), Name (_Sono Luca._), Eigenschaft (_È bello._)\n- stare: Befinden (_Come sta Anna? – Sta bene._)"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze den Dialog mit Formen von essere und stare.",
+   "prompt": "Completa il dialogo con le forme di essere e stare.",
+   "promptHelp": "Ergänze den Dialog mit Formen von essere und stare.",
+   "explanation": "Come va → stare. Chi sei, di dove sei → essere.",
+   "explanationHelp": "Befinden → stare. Name, Herkunft → essere.",
    "type": "gap_fill",
-   "text": "– Ciao! Tu [[g1]] Paolo?\n– Sì, [[g2]] Paolo. E tu?\n– Io [[g3]] Sara. Come [[g4]]?\n– [[g5]] bene, grazie. Anche tu [[g6]] di Torino?\n– No, [[g7]] di Milano.",
+   "text": "– Ciao! Tu [[g1]] Paolo?\n– Sì, [[g2]] Paolo. E tu?\n– Io [[g3]] Sara. Come [[g4]]?\n– [[g5]] bene, grazie. Anche tu [[g6]] di Torino?\n– No, [[g7]] di Milano. Ma adesso abito qui.\n– E come [[g8]] la tua famiglia?\n– Bene! I miei genitori [[g9]] contenti di Torino.",
    "gaps": [
     {
      "id": "g1",
@@ -90,12 +94,25 @@
      "acceptedAnswers": [
       "sono"
      ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "sta"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "sono"
+     ]
     }
    ],
    "wordBank": true,
    "extraWords": [
     "è",
-    "sta"
+    "siete",
+    "state"
    ]
   }
  ]

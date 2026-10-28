@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-articolo-indeterminativo-m2",
- "title": "Bestimmt und unbestimmt",
+ "title": "Indeterminativo e determinativo",
  "language": "it",
  "level": "A1",
- "description": "Der unbestimmte Artikel · Bestimmt und unbestimmt (mittel).",
+ "description": "L’articolo indeterminativo (un, uno, una, un’) · Indeterminativo e determinativo (mittel).",
  "topics": [
-  "Der unbestimmte Artikel",
+  "L’articolo indeterminativo (un, uno, una, un’)",
   "Grammatik"
  ],
  "sources": [
@@ -36,20 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-articolo-indeterminativo",
-  "topicTitle": "Der unbestimmte Artikel",
+  "topicTitle": "L’articolo indeterminativo (un, uno, una, un’)",
   "difficulty": "mittel",
   "origin": "own",
   "order": 72,
-  "rule": "| Artikel | wann? | Beispiel |\n| un | männlich (auch vor Vokal) | un ragazzo, un amico |\n| uno | männlich vor s + Konsonant, z | uno stadio, uno zaino |\n| una | weiblich vor Konsonant | una città, una ragazza |\n| un' | weiblich vor Vokal | un'amica, un'idea |\n\nAchtung: _un amico_ (männlich, ohne Apostroph), aber _un'amica_ (weiblich, mit Apostroph)."
+  "rule": "| articolo | quando? | esempio |\n| un | maschile (anche + vocale) | un ragazzo, un amico |\n| uno | maschile + s + consonante, z | uno stadio, uno zaino |\n| una | femminile + consonante | una città, una ragazza |\n| un’ | femminile + vocale | un’amica, un’idea |\n\n**Attenzione:** _un amico_ (maschile, senza apostrofo), ma _un’amica_ (femminile, con apostrofo).",
+  "ruleHelp": "un: männlich (auch vor Vokal) · uno: männlich vor s + Konsonant, z · una: weiblich vor Konsonant · un’: weiblich vor Vokal.\n**Achtung:** _un amico_ (männlich, ohne Apostroph), aber _un’amica_ (weiblich, mit Apostroph)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze den fehlenden Artikel.",
+   "prompt": "Scrivi l’articolo che manca.",
+   "promptHelp": "Ergänze den fehlenden Artikel.",
    "type": "table_fill",
    "columns": [
-    "unbestimmt",
-    "bestimmt"
+    "indeterminativo",
+    "determinativo"
    ],
    "rows": [
     [
@@ -74,10 +76,10 @@
      {
       "id": "c3",
       "acceptedAnswers": [
-       "un'isola"
+       "un’isola"
       ]
      },
-     "l'isola"
+     "l’isola"
     ],
     [
      {
@@ -86,7 +88,7 @@
        "un albero"
       ]
      },
-     "l'albero"
+     "l’albero"
     ],
     [
      "una festa",
@@ -107,11 +109,11 @@
      }
     ],
     [
-     "un'idea",
+     "un’idea",
      {
       "id": "c7",
       "acceptedAnswers": [
-       "l'idea"
+       "l’idea"
       ]
      }
     ],
@@ -120,7 +122,7 @@
      {
       "id": "c8",
       "acceptedAnswers": [
-       "l'ospedale"
+       "l’ospedale"
       ]
      }
     ]

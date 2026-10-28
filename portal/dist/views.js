@@ -898,7 +898,7 @@ function renderListening(preview = false) {
     ${preview ? '<div class="draftbar"><b>Entwurf</b><span>Lokaler Redaktionsentwurf, nicht freigegeben.</span></div>' : ''}
     <header class="lesson-head">
       <div>
-        <div class="lesson-chips"><span class="chip-solid">${esc(portalLang(x.language))}</span>${levelPill(x.level)}<span class="chip-plain">${x.estimatedMinutes} Min.</span>${gram ? `<span class="chip-plain gr-level gr-${x.grammar.difficulty}">${GRAMMAR_LEVELS[x.grammar.difficulty]}</span>${x.catalog?.textbook?.series ? `<span class="chip-plain">${esc(x.catalog.textbook.series + ' ' + (x.catalog.textbook.volume || '') + ' · ' + (x.catalog.textbook.unit || ''))}</span>` : ''}` : `<span class="chip-plain">${MEDIA_LABELS[mediaKind(x)]}</span>`}</div>
+        <div class="lesson-chips"><span class="chip-solid">${esc(portalLang(x.language))}</span>${levelPill(x.level)}<span class="chip-plain">${x.estimatedMinutes} Min.</span>${gram ? `<span class="chip-plain gr-level gr-${x.grammar.difficulty}">${GRAMMAR_LEVELS[x.grammar.difficulty]}</span>${x.catalog?.textbook?.series ? `<span class="chip-plain">${esc((isCourseSeries(x.catalog.textbook.series) && ANNO_NAMES[x.catalog.textbook.volume] ? ANNO_NAMES[x.catalog.textbook.volume] : x.catalog.textbook.series + ' ' + (x.catalog.textbook.volume || '')) + ' · ' + (x.catalog.textbook.unit || ''))}</span>` : ''}` : `<span class="chip-plain">${MEDIA_LABELS[mediaKind(x)]}</span>`}</div>
         <h1>${esc(x.title)}</h1>
         <p>${esc(visibleText(x.description))}</p>
       </div>

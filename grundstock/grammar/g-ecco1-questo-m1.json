@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-questo-m1",
- "title": "Was ist das?",
+ "title": "Che cos’è? Tabella",
  "language": "it",
  "level": "A1",
- "description": "questo, questa, questi, queste · Was ist das? (mittel).",
+ "description": "Questo, questa, questi, queste · Che cos’è? Tabella · livello medio.",
  "topics": [
-  "questo, questa, questi, queste",
+  "Questo, questa, questi, queste",
   "Grammatik"
  ],
  "sources": [
@@ -36,20 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-questo",
-  "topicTitle": "questo, questa, questi, queste",
+  "topicTitle": "Questo, questa, questi, queste",
   "difficulty": "mittel",
   "origin": "own",
   "order": 31,
-  "rule": "**questo** (dieser, diese, dieses) richtet sich nach dem Nomen:\n| | Singular | Plural |\n| männlich | questo zaino | questi zaini |\n| weiblich | questa borsa | queste borse |\n\nVor Vokal oft: _quest'armadio, quest'idea_. Allein (ohne Nomen): _Questo è il mio zaino._"
+  "rule": "**questo** cambia come il nome:\n| | singolare | plurale |\n| maschile | questo zaino | questi zaini |\n| femminile | questa borsa | queste borse |\n\nDavanti a vocale spesso: _quest’armadio, quest’idea_. Da solo (senza nome): _Questo è il mio zaino._",
+  "ruleHelp": "**questo** (dieser, diese, dieses) richtet sich nach dem Nomen: questo zaino, questa borsa, questi zaini, queste borse.\nVor Vokal oft: _quest’armadio, quest’idea_. Allein (ohne Nomen): _Questo è il mio zaino._"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze questo, questa, questi oder queste.",
+   "prompt": "Scrivi questo, questa, questi o queste con il nome.",
+   "promptHelp": "Ergänze questo, questa, questi oder queste.",
    "type": "table_fill",
    "columns": [
-    "Nomen",
-    "mit questo"
+    "nome",
+    "con questo"
    ],
    "rows": [
     [
@@ -103,6 +105,24 @@
       "id": "c6",
       "acceptedAnswers": [
        "queste cose"
+      ]
+     }
+    ],
+    [
+     "gli armadi",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "questi armadi"
+      ]
+     }
+    ],
+    [
+     "la lampada",
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "questa lampada"
       ]
      }
     ]

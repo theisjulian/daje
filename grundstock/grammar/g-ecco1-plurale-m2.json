@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-plurale-m2",
- "title": "Im Klassenzimmer",
+ "title": "In classe",
  "language": "it",
  "level": "A1",
- "description": "Der Plural: Artikel und Nomen · Im Klassenzimmer (mittel).",
+ "description": "Il plurale: articolo e nome · In classe (mittel).",
  "topics": [
-  "Der Plural: Artikel und Nomen",
+  "Il plurale: articolo e nome",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-plurale",
-  "topicTitle": "Der Plural: Artikel und Nomen",
+  "topicTitle": "Il plurale: articolo e nome",
   "difficulty": "mittel",
   "origin": "own",
   "order": 82,
-  "rule": "**Nomen:**\n| Singular | Plural | Beispiel |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù (betont) | bleibt | la città → le città |\n\n**Artikel:**\n| Singular | Plural |\n| il | i |\n| lo, l' (männlich) | gli |\n| la, l' (weiblich) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_"
+  "rule": "**Nomi:**\n| singolare | plurale | esempio |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù | non cambia | la città → le città |\n\n**Articoli:**\n| singolare | plurale |\n| il | i |\n| lo, l’ (maschile) | gli |\n| la, l’ (femminile) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_\n**Attenzione:** lo sport → gli sport, il bar → i bar (parole straniere non cambiano).",
+  "ruleHelp": "Nomen: -o → -i, -a → -e, -e → -i; betonte Endung (-à, -ù) bleibt gleich (la città → le città).\nArtikel: il → i · lo, l’ (männlich) → gli · la, l’ (weiblich) → le.\n**Achtung:** Fremdwörter bleiben gleich: lo sport → gli sport, il bar → i bar."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Setze Artikel und Nomen in den Plural.",
-   "explanation": "l'insegnante kann m oder f sein: gli insegnanti / le insegnanti.",
+   "prompt": "Scrivi articolo e nome al plurale.",
+   "promptHelp": "Setze Artikel und Nomen in den Plural.",
+   "explanation": "il banco → i banchi (h!) · l’insegnante può essere maschile o femminile.",
+   "explanationHelp": "il banco → i banchi (mit h) · l’insegnante kann m oder f sein.",
    "type": "gap_fill",
-   "text": "In classe ci sono venti (il banco) [[g1]].\nSul tavolo ci sono (il libro) [[g2]] di Marco.\n(La finestra) [[g3]] sono grandi.\n(Lo zaino) [[g4]] sono sotto i banchi.\n(L'amica) [[g5]] di Sara sono in classe 3B.\nCi sono anche due (la lavagna) [[g6]].\n(L'insegnante) [[g7]] sono simpatici.",
+   "text": "In classe ci sono venti (il banco) [[g1]].\nSul tavolo ci sono (il libro) [[g2]] di Marco.\n(La finestra) [[g3]] sono grandi.\n(Lo zaino) [[g4]] sono sotto i banchi.\n(L’amica) [[g5]] di Sara sono in classe 3B.\nCi sono anche due (la lavagna) [[g6]].\n(L’insegnante) [[g7]] sono simpatici.\n(Il quaderno) [[g8]] sono nello zaino.",
    "gaps": [
     {
      "id": "g1",
@@ -91,6 +94,12 @@
      "acceptedAnswers": [
       "Gli insegnanti",
       "Le insegnanti"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "I quaderni"
      ]
     }
    ]

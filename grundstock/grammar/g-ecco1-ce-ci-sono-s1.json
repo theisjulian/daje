@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-ce-ci-sono-s1",
- "title": "Was gibt es in deiner Stadt?",
+ "title": "Domande e risposte",
  "language": "it",
  "level": "A1",
- "description": "c'è und ci sono · Was gibt es in deiner Stadt? (schwer).",
+ "description": "C’è e ci sono · Domande e risposte (schwer).",
  "topics": [
-  "c'è und ci sono",
+  "C’è e ci sono",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 3,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,85 @@
  },
  "grammar": {
   "topic": "ecco1-ce-ci-sono",
-  "topicTitle": "c'è und ci sono",
+  "topicTitle": "C’è e ci sono",
   "difficulty": "schwer",
   "origin": "own",
   "order": 101,
-  "rule": "- **c'è** + Singular: _In piazza **c'è** un bar._ (Es gibt / da ist)\n- **ci sono** + Plural: _Nel quartiere **ci sono** due negozi._ (Es gibt / da sind)\n- Frage: _C'è un parco qui?_ · Verneinung: _Non c'è un cinema._"
+  "rule": "- **c’è** + singolare: _In piazza **c’è** un bar._\n- **ci sono** + plurale: _Nel quartiere **ci sono** due negozi._\n- Domanda: _C’è un parco qui?_ · Negazione: _Non c’è un cinema._\n- **c’è** dice che una cosa esiste; **è** dice dove è una cosa precisa: _C’è un museo. Il museo è in piazza._",
+  "ruleHelp": "- **c’è** + Singular: _In piazza c’è un bar._ (Es gibt / da ist)\n- **ci sono** + Plural: _Nel quartiere ci sono due negozi._ (Es gibt / da sind)\n- Frage: _C’è un parco qui?_ · Verneinung: _Non c’è un cinema._\n- **c’è** sagt, dass etwas existiert; **è** sagt, wo etwas Bestimmtes ist: _C’è un museo. Il museo è in piazza._"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Beschreibe deinen Ort in 5 Sätzen mit c'è und ci sono.",
-   "type": "open_answer",
-   "modelAnswer": "Nel mio quartiere c'è un parco. Ci sono due negozi e un campo di calcio. Non c'è uno stadio. In centro ci sono molti bar.",
-   "lines": 5
+   "prompt": "Rispondi con c’è / ci sono o non c’è / non ci sono.",
+   "promptHelp": "Antworte mit c’è / ci sono oder non c’è / non ci sono.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "C’è un cinema qui? – No, …",
+     "acceptedAnswers": [
+      "non c’è"
+     ],
+     "modelAnswer": "No, non c’è un cinema."
+    },
+    {
+     "id": "s2",
+     "start": "Ci sono negozi in centro? – Sì, …",
+     "acceptedAnswers": [
+      "ci sono"
+     ],
+     "modelAnswer": "Sì, ci sono molti negozi."
+    },
+    {
+     "id": "s3",
+     "start": "C’è un parco vicino? – Sì, …",
+     "acceptedAnswers": [
+      "c’è"
+     ],
+     "modelAnswer": "Sì, c’è un parco vicino."
+    },
+    {
+     "id": "s4",
+     "start": "Ci sono studenti in classe? – No, …",
+     "acceptedAnswers": [
+      "non ci sono"
+     ],
+     "modelAnswer": "No, non ci sono studenti."
+    },
+    {
+     "id": "s5",
+     "start": "C’è il professore? – Sì, …",
+     "acceptedAnswers": [
+      "c’è"
+     ],
+     "modelAnswer": "Sì, c’è il professore."
+    },
+    {
+     "id": "s6",
+     "start": "Ci sono gelaterie? – Sì, …",
+     "acceptedAnswers": [
+      "ci sono"
+     ],
+     "modelAnswer": "Sì, ci sono tante gelaterie."
+    },
+    {
+     "id": "s7",
+     "start": "C’è una piscina? – No, …",
+     "acceptedAnswers": [
+      "non c’è"
+     ],
+     "modelAnswer": "No, non c’è una piscina."
+    },
+    {
+     "id": "s8",
+     "start": "Ci sono bar in piazza? – Sì, …",
+     "acceptedAnswers": [
+      "ci sono"
+     ],
+     "modelAnswer": "Sì, ci sono due bar."
+    }
+   ]
   }
  ]
 }

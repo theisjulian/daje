@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-ce-ci-sono-m3",
+ "title": "C’è o è?",
+ "language": "it",
+ "level": "A1",
+ "description": "C’è e ci sono · C’è o è? (mittel).",
+ "topics": [
+  "C’è e ci sono",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 1 · La città · Parte B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-ce-ci-sono",
+  "topicTitle": "C’è e ci sono",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 103,
+  "rule": "- **c’è** + singolare: _In piazza **c’è** un bar._\n- **ci sono** + plurale: _Nel quartiere **ci sono** due negozi._\n- Domanda: _C’è un parco qui?_ · Negazione: _Non c’è un cinema._\n- **c’è** dice che una cosa esiste; **è** dice dove è una cosa precisa: _C’è un museo. Il museo è in piazza._",
+  "ruleHelp": "- **c’è** + Singular: _In piazza c’è un bar._ (Es gibt / da ist)\n- **ci sono** + Plural: _Nel quartiere ci sono due negozi._ (Es gibt / da sind)\n- Frage: _C’è un parco qui?_ · Verneinung: _Non c’è un cinema._\n- **c’è** sagt, dass etwas existiert; **è** sagt, wo etwas Bestimmtes ist: _C’è un museo. Il museo è in piazza._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "C’è o è? Sono o ci sono?",
+   "promptHelp": "c’è oder è? sono oder ci sono?",
+   "explanation": "c’è / ci sono: una cosa esiste. è / sono: dov’è o com’è una cosa precisa.",
+   "explanationHelp": "c’è / ci sono: etwas existiert. è / sono: wo oder wie etwas Bestimmtes ist.",
+   "type": "gap_choice",
+   "text": "In centro [[g1]] un museo.\nIl museo [[g2]] in piazza Castello.\nA Torino [[g3]] due squadre di calcio.\nLe squadre [[g4]] famose.\nNel parco [[g5]] un castello.\nIl castello [[g6]] molto bello.\n[[g7]] tanti turisti oggi.\nI turisti [[g8]] in piazza.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "c’è",
+      "è"
+     ],
+     "answer": "c’è"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "è",
+      "c’è"
+     ],
+     "answer": "è"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "ci sono",
+      "sono"
+     ],
+     "answer": "ci sono"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "sono",
+      "ci sono"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "c’è",
+      "è"
+     ],
+     "answer": "c’è"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "è",
+      "c’è"
+     ],
+     "answer": "è"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "Ci sono",
+      "Sono"
+     ],
+     "answer": "Ci sono"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "sono",
+      "ci sono"
+     ],
+     "answer": "sono"
+    }
+   ]
+  }
+ ]
+}

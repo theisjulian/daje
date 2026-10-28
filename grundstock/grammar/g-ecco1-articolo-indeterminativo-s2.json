@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-articolo-indeterminativo-s2",
- "title": "Apostroph oder nicht?",
+ "title": "Apostrofo o no?",
  "language": "it",
  "level": "A1",
- "description": "Der unbestimmte Artikel · Apostroph oder nicht? (schwer).",
+ "description": "L’articolo indeterminativo (un, uno, una, un’) · Apostrofo o no? (schwer).",
  "topics": [
-  "Der unbestimmte Artikel",
+  "L’articolo indeterminativo (un, uno, una, un’)",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 8,
+ "estimatedMinutes": 11,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,23 +36,26 @@
  },
  "grammar": {
   "topic": "ecco1-articolo-indeterminativo",
-  "topicTitle": "Der unbestimmte Artikel",
+  "topicTitle": "L’articolo indeterminativo (un, uno, una, un’)",
   "difficulty": "schwer",
   "origin": "own",
   "order": 72,
-  "rule": "| Artikel | wann? | Beispiel |\n| un | männlich (auch vor Vokal) | un ragazzo, un amico |\n| uno | männlich vor s + Konsonant, z | uno stadio, uno zaino |\n| una | weiblich vor Konsonant | una città, una ragazza |\n| un' | weiblich vor Vokal | un'amica, un'idea |\n\nAchtung: _un amico_ (männlich, ohne Apostroph), aber _un'amica_ (weiblich, mit Apostroph)."
+  "rule": "| articolo | quando? | esempio |\n| un | maschile (anche + vocale) | un ragazzo, un amico |\n| uno | maschile + s + consonante, z | uno stadio, uno zaino |\n| una | femminile + consonante | una città, una ragazza |\n| un’ | femminile + vocale | un’amica, un’idea |\n\n**Attenzione:** _un amico_ (maschile, senza apostrofo), ma _un’amica_ (femminile, con apostrofo).",
+  "ruleHelp": "un: männlich (auch vor Vokal) · uno: männlich vor s + Konsonant, z · una: weiblich vor Konsonant · un’: weiblich vor Vokal.\n**Achtung:** _un amico_ (männlich, ohne Apostroph), aber _un’amica_ (weiblich, mit Apostroph)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Hier stimmt bei sechs Wörtern der Artikel nicht. Korrigiere.",
-   "explanation": "Männlich vor Vokal: un amico (kein Apostroph). Weiblich vor Vokal: un'amica.",
+   "prompt": "In otto parole l’articolo è sbagliato. Correggi.",
+   "promptHelp": "Bei acht Wörtern stimmt der Artikel nicht. Korrigiere.",
+   "explanation": "Maschile + vocale: un amico (senza apostrofo). Femminile + vocale: un’amica.",
+   "explanationHelp": "Männlich vor Vokal: un amico (kein Apostroph). Weiblich vor Vokal: un’amica.",
    "type": "error_correction",
-   "text": "Ho [[g1]] amico a Roma.\nLei è [[g2]] amica di Sara.\nC'è [[g3]] zaino sotto il banco.\nPaolo è [[g4]] studente di Torino.\nHo [[g5]] gatto e [[g6]] tartaruga.",
+   "text": "Ho [[g1]] amico a Roma.\nLei è [[g2]] amica di Sara.\nC’è [[g3]] zaino sotto il banco.\nPaolo è [[g4]] studente di Torino.\nHo [[g5]] gatto e [[g6]] tartaruga.\nAbitiamo in [[g7]] appartamento piccolo.\nVicino c’è [[g8]] edicola.\nÈ [[g9]] albero molto vecchio.",
    "errors": [
     {
      "id": "g1",
-     "wrong": "un'",
+     "wrong": "un’",
      "acceptedAnswers": [
       "un"
      ]
@@ -61,7 +64,7 @@
      "id": "g2",
      "wrong": "un",
      "acceptedAnswers": [
-      "un'"
+      "un’"
      ]
     },
     {
@@ -90,6 +93,27 @@
      "wrong": "un",
      "acceptedAnswers": [
       "una"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "una",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "un",
+     "acceptedAnswers": [
+      "un’"
+     ]
+    },
+    {
+     "id": "g9",
+     "wrong": "una",
+     "acceptedAnswers": [
+      "un"
      ]
     }
    ]

@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-ce-ci-sono-l2",
- "title": "Was gibt es?",
+ "title": "Che cosa c’è?",
  "language": "it",
  "level": "A1",
- "description": "c'è und ci sono · Was gibt es? (einfach).",
+ "description": "C’è e ci sono · Che cosa c’è? (einfach).",
  "topics": [
-  "c'è und ci sono",
+  "C’è e ci sono",
   "Grammatik"
  ],
  "sources": [
@@ -36,83 +36,84 @@
  },
  "grammar": {
   "topic": "ecco1-ce-ci-sono",
-  "topicTitle": "c'è und ci sono",
+  "topicTitle": "C’è e ci sono",
   "difficulty": "leicht",
   "origin": "own",
   "order": 102,
-  "rule": "- **c'è** + Singular: _In piazza **c'è** un bar._ (Es gibt / da ist)\n- **ci sono** + Plural: _Nel quartiere **ci sono** due negozi._ (Es gibt / da sind)\n- Frage: _C'è un parco qui?_ · Verneinung: _Non c'è un cinema._"
+  "rule": "- **c’è** + singolare: _In piazza **c’è** un bar._\n- **ci sono** + plurale: _Nel quartiere **ci sono** due negozi._\n- Domanda: _C’è un parco qui?_ · Negazione: _Non c’è un cinema._\n- **c’è** dice che una cosa esiste; **è** dice dove è una cosa precisa: _C’è un museo. Il museo è in piazza._",
+  "ruleHelp": "- **c’è** + Singular: _In piazza c’è un bar._ (Es gibt / da ist)\n- **ci sono** + Plural: _Nel quartiere ci sono due negozi._ (Es gibt / da sind)\n- Frage: _C’è un parco qui?_ · Verneinung: _Non c’è un cinema._\n- **c’è** sagt, dass etwas existiert; **è** sagt, wo etwas Bestimmtes ist: _C’è un museo. Il museo è in piazza._"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "c'è oder ci sono?",
-   "explanation": "Ein Ding (Singular) → c'è; mehrere (Plural) → ci sono.",
+   "prompt": "C’è o ci sono?",
+   "promptHelp": "c’è oder ci sono?",
    "type": "gap_choice",
-   "text": "Nella mia classe [[g1]] ventidue studenti.\nSul banco [[g2]] un libro.\nIn città [[g3]] molti parchi.\nVicino a casa [[g4]] una fermata dell'autobus.\nIn frigo [[g5]] due bottiglie d'acqua.\n[[g6]] un problema?\nAl parco [[g7]] tanti bambini.\nOggi non [[g8]] la professoressa.",
+   "text": "Nella mia classe [[g1]] ventidue studenti.\nSul banco [[g2]] un libro.\nIn città [[g3]] molti parchi.\nVicino a casa [[g4]] una fermata dell’autobus.\nIn frigo [[g5]] due bottiglie d’acqua.\n[[g6]] un problema?\nAl parco [[g7]] tanti bambini.\nOggi non [[g8]] la professoressa.",
    "gaps": [
     {
      "id": "g1",
      "options": [
       "ci sono",
-      "c'è"
+      "c’è"
      ],
      "answer": "ci sono"
     },
     {
      "id": "g2",
      "options": [
-      "c'è",
+      "c’è",
       "ci sono"
      ],
-     "answer": "c'è"
+     "answer": "c’è"
     },
     {
      "id": "g3",
      "options": [
       "ci sono",
-      "c'è"
+      "c’è"
      ],
      "answer": "ci sono"
     },
     {
      "id": "g4",
      "options": [
-      "c'è",
+      "c’è",
       "ci sono"
      ],
-     "answer": "c'è"
+     "answer": "c’è"
     },
     {
      "id": "g5",
      "options": [
       "ci sono",
-      "c'è"
+      "c’è"
      ],
      "answer": "ci sono"
     },
     {
      "id": "g6",
      "options": [
-      "C'è",
+      "C’è",
       "Ci sono"
      ],
-     "answer": "C'è"
+     "answer": "C’è"
     },
     {
      "id": "g7",
      "options": [
       "ci sono",
-      "c'è"
+      "c’è"
      ],
      "answer": "ci sono"
     },
     {
      "id": "g8",
      "options": [
-      "c'è",
+      "c’è",
       "ci sono"
      ],
-     "answer": "c'è"
+     "answer": "c’è"
     }
    ]
   }

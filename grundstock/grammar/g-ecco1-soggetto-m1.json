@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-soggetto-m1",
- "title": "Pronomen einsetzen",
+ "title": "Pronomi nella frase",
  "language": "it",
  "level": "A1",
- "description": "Die Subjektpronomen · Pronomen einsetzen (mittel).",
+ "description": "I pronomi soggetto · Pronomi nella frase (mittel).",
  "topics": [
-  "Die Subjektpronomen",
+  "I pronomi soggetto",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 9,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-soggetto",
-  "topicTitle": "Die Subjektpronomen",
+  "topicTitle": "I pronomi soggetto",
   "difficulty": "mittel",
   "origin": "own",
   "order": 51,
-  "rule": "| io | tu | lui / lei / Lei | noi | voi | loro |\n| ich | du | er / sie / Sie | wir | ihr | sie |\n\nIm Italienischen lässt man das Pronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._\n**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_"
+  "rule": "| io | tu | lui / lei / Lei | noi | voi | loro |\n| ich | du | er / sie / Sie | wir | ihr | sie |\n\nDi solito non usiamo il pronome: _Abito a Torino._ Lo usiamo per **sottolineare** o per un **contrasto**: _Io abito a Torino, lui abita a Milano._\n**Lei** (con la L maiuscola) è la forma di cortesia: _Come sta, Lei?_",
+  "ruleHelp": "Im Italienischen lässt man das Subjektpronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._\n**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Welches Subjektpronomen passt?",
+   "prompt": "Quale pronome soggetto va bene?",
+   "promptHelp": "Welches Subjektpronomen passt?",
+   "explanation": "La forma del verbo aiuta: sono → io, studi → tu, è → lui/lei/Lei.",
+   "explanationHelp": "Die Verbform hilft: sono → io, studi → tu, è → lui/lei/Lei.",
    "type": "gap_choice",
-   "text": "[[g1]] sono di Torino, e [[g2]]?\n[[g3]] abitiamo in via Roma.\n[[g4]] parlate inglese?\nMarco? [[g5]] è il mio amico.\nGiulia? [[g6]] sta bene.\nAnna e Luca? [[g7]] sono a scuola.",
+   "text": "[[g1]] sono di Torino, e [[g2]]?\n[[g3]] abitiamo in via Roma.\n[[g4]] parlate inglese?\nMarco? [[g5]] è il mio amico.\nGiulia? [[g6]] sta bene.\nAnna e Luca? [[g7]] sono a scuola.\n[[g8]] studi tedesco?\nSignora, [[g9]] è di Roma?",
    "gaps": [
     {
      "id": "g1",
@@ -111,6 +115,24 @@
       "Noi"
      ],
      "answer": "Loro"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "Tu",
+      "Lui",
+      "Voi"
+     ],
+     "answer": "Tu"
+    },
+    {
+     "id": "g9",
+     "options": [
+      "Lei",
+      "tu",
+      "voi"
+     ],
+     "answer": "Lei"
     }
    ]
   }

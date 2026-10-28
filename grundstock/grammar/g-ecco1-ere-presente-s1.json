@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-ere-presente-s1",
- "title": "Fehler finden",
+ "title": "Trova gli errori",
  "language": "it",
  "level": "A1",
- "description": "Verben auf -ere im Präsens · Fehler finden (schwer).",
+ "description": "I verbi in -ere al presente · Trova gli errori (schwer).",
  "topics": [
-  "Verben auf -ere im Präsens",
+  "I verbi in -ere al presente",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-ere-presente",
-  "topicTitle": "Verben auf -ere im Präsens",
+  "topicTitle": "I verbi in -ere al presente",
   "difficulty": "schwer",
   "origin": "own",
   "order": 91,
-  "rule": "| Person | prendere | vedere |\n| io | prend**o** | ved**o** |\n| tu | prend**i** | ved**i** |\n| lui / lei | prend**e** | ved**e** |\n| noi | prend**iamo** | ved**iamo** |\n| voi | prend**ete** | ved**ete** |\n| loro | prend**ono** | ved**ono** |\n\nUnterschied zu -are: **lui/lei -e** (nicht -a), **voi -ete**, **loro -ono**."
+  "rule": "| persona | prendere | vedere |\n| io | prend**o** | ved**o** |\n| tu | prend**i** | ved**i** |\n| lui / lei | prend**e** | ved**e** |\n| noi | prend**iamo** | ved**iamo** |\n| voi | prend**ete** | ved**ete** |\n| loro | prend**ono** | ved**ono** |\n\nDifferenza con -are: **lui/lei -e** (non -a), **voi -ete**, **loro -ono**.",
+  "ruleHelp": "Unterschied zu -are: **lui/lei -e** (nicht -a), **voi -ete**, **loro -ono** (siehe Tabelle)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Korrigiere die Verbformen.",
+   "prompt": "Correggi le forme dei verbi.",
+   "promptHelp": "Korrigiere die Verbformen.",
+   "explanation": "Con -ere: lui -e, voi -ete, loro -ono.",
+   "explanationHelp": "Bei -ere: lui -e, voi -ete, loro -ono.",
    "type": "error_correction",
-   "text": "Marco [[g1]] la bici.\nNoi [[g2]] lo stadio.\nVoi [[g3]] i pattini?\nLoro [[g4]] l'autobus.",
+   "text": "Marco [[g1]] la bici.\nNoi [[g2]] lo stadio.\nVoi [[g3]] i pattini?\nLoro [[g4]] l’autobus.\nTu [[g5]] il libro?\nIo [[g6]] una cartolina.\nAnna [[g7]] le amiche in piazza.\nI negozi [[g8]] magliette.",
    "errors": [
     {
      "id": "g1",
@@ -75,6 +79,34 @@
      "wrong": "prendano",
      "acceptedAnswers": [
       "prendono"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "legge",
+     "acceptedAnswers": [
+      "leggi"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "scrivi",
+     "acceptedAnswers": [
+      "scrivo"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "vedi",
+     "acceptedAnswers": [
+      "vede"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "vendeno",
+     "acceptedAnswers": [
+      "vendono"
      ]
     }
    ]

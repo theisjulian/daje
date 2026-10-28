@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-ire-andare-m4",
- "title": "Ein Samstag",
+ "title": "Dove vai?",
  "language": "it",
  "level": "A1",
- "description": "Verben auf -ire und andare · Ein Samstag (mittel).",
+ "description": "I verbi in -ire e andare · Dove vai? · livello medio.",
  "topics": [
-  "Verben auf -ire und andare",
+  "I verbi in -ire e andare",
   "Grammatik"
  ],
  "sources": [
@@ -36,67 +36,83 @@
  },
  "grammar": {
   "topic": "ecco1-ire-andare",
-  "topicTitle": "Verben auf -ire und andare",
+  "topicTitle": "I verbi in -ire e andare",
   "difficulty": "mittel",
   "origin": "own",
   "order": 64,
-  "rule": "**Verben auf -ire** (ohne Stammerweiterung):\n| Person | dormire | sentire |\n| io | dorm**o** | sent**o** |\n| tu | dorm**i** | sent**i** |\n| lui / lei | dorm**e** | sent**e** |\n| noi | dorm**iamo** | sent**iamo** |\n| voi | dorm**ite** | sent**ite** |\n| loro | dorm**ono** | sent**ono** |\n\nWie -ere, nur **voi -ite**.\n**andare** (gehen, fahren) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| vado | vai | va | andiamo | andate | vanno |\n\n_Vado a scuola. Andiamo al concerto._"
+  "rule": "**Verbi in -ire** (senza -isc-):\n| persona | dormire | sentire |\n| io | dorm**o** | sent**o** |\n| tu | dorm**i** | sent**i** |\n| lui / lei | dorm**e** | sent**e** |\n| noi | dorm**iamo** | sent**iamo** |\n| voi | dorm**ite** | sent**ite** |\n| loro | dorm**ono** | sent**ono** |\n\nCome -ere, ma **voi -ite**.\n**andare** è irregolare:\n| io | tu | lui / lei | noi | voi | loro |\n| vado | vai | va | andiamo | andate | vanno |\n\n_Vado a scuola. Andiamo al concerto._",
+  "ruleHelp": "Verben auf -ire (ohne Stammerweiterung) gehen wie -ere, nur **voi -ite** (dormite, sentite).\n**andare** (gehen, fahren) ist unregelmäßig: vado, vai, va, andiamo, andate, vanno."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Setze die Verben in die richtige Form.",
-   "explanation": "venire ist unregelmäßig: voi venite.",
-   "type": "gap_fill",
-   "text": "Il sabato mattina io (dormire) [[g1]] a lungo.\nPoi (aprire) [[g2]] la finestra e (sentire) [[g3]] la musica dei vicini.\nMio fratello (partire) [[g4]] per una gita.\nNel pomeriggio noi (andare) [[g5]] in centro.\nVoi (venire) [[g6]] con noi? – No, noi (dormire) [[g7]]!\nLa sera i miei amici (andare) [[g8]] a una festa.",
-   "gaps": [
+   "prompt": "Rispondi con la forma giusta di andare.",
+   "promptHelp": "Antworte mit der richtigen Form von andare.",
+   "type": "sentence_completion",
+   "items": [
     {
-     "id": "g1",
+     "id": "s1",
+     "start": "Dove vai oggi? (al cinema)",
      "acceptedAnswers": [
-      "dormo"
-     ]
+      "Vado al cinema"
+     ],
+     "modelAnswer": "Vado al cinema."
     },
     {
-     "id": "g2",
+     "id": "s2",
+     "start": "Dove andate domenica? (al mare)",
      "acceptedAnswers": [
-      "apro"
-     ]
+      "Andiamo al mare"
+     ],
+     "modelAnswer": "Andiamo al mare."
     },
     {
-     "id": "g3",
+     "id": "s3",
+     "start": "Dove va Marco? (in palestra)",
      "acceptedAnswers": [
-      "sento"
-     ]
+      "Va in palestra"
+     ],
+     "modelAnswer": "Marco va in palestra."
     },
     {
-     "id": "g4",
+     "id": "s4",
+     "start": "Dove vanno i ragazzi? (al parco)",
      "acceptedAnswers": [
-      "parte"
-     ]
+      "Vanno al parco"
+     ],
+     "modelAnswer": "I ragazzi vanno al parco."
     },
     {
-     "id": "g5",
+     "id": "s5",
+     "start": "Dove vai dopo la scuola? (a casa)",
      "acceptedAnswers": [
-      "andiamo"
-     ]
+      "Vado a casa"
+     ],
+     "modelAnswer": "Vado a casa."
     },
     {
-     "id": "g6",
+     "id": "s6",
+     "start": "Dove andate in vacanza? (in Sicilia)",
      "acceptedAnswers": [
-      "venite"
-     ]
+      "Andiamo in Sicilia"
+     ],
+     "modelAnswer": "Andiamo in Sicilia."
     },
     {
-     "id": "g7",
+     "id": "s7",
+     "start": "Dove va tua madre? (al lavoro)",
      "acceptedAnswers": [
-      "dormiamo"
-     ]
+      "Va al lavoro"
+     ],
+     "modelAnswer": "Mia madre va al lavoro."
     },
     {
-     "id": "g8",
+     "id": "s8",
+     "start": "Dove vanno i tuoi amici? (in centro)",
      "acceptedAnswers": [
-      "vanno"
-     ]
+      "Vanno in centro"
+     ],
+     "modelAnswer": "Vanno in centro."
     }
    ]
   }

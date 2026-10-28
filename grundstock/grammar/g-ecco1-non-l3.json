@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-non-l3",
+ "title": "Vero o no?",
+ "language": "it",
+ "level": "A1",
+ "description": "La negazione con non · Vero o no? (einfach).",
+ "topics": [
+  "La negazione con non",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, 1 · La città · Parte A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "1 · La città",
+   "section": "Parte A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-non",
+  "topicTitle": "La negazione con non",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 63,
+  "rule": "**non** va **prima del verbo**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nRisposta a una domanda: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)",
+  "ruleHelp": "**non** steht **vor dem Verb**: _Non abito a Torino. Luca non è di Milano._\nAntwort auf eine Frage: _Sei di Roma? – No, non sono di Roma._ (no = nein, non = nicht)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la frase giusta per la foto: Marco è in piazza, non a scuola.",
+   "promptHelp": "Wähle den passenden Satz: Marco ist auf dem Platz, nicht in der Schule.",
+   "type": "gap_choice",
+   "text": "Marco [[g1]] a scuola.\nMarco [[g2]] in piazza.\nLui [[g3]] in classe.\nLui [[g4]] un gelato.\nI suoi amici [[g5]] a casa.\nI suoi amici [[g6]] con lui.\nOggi Marco [[g7]] lezione.\nMarco [[g8]] bene.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "non è",
+      "è"
+     ],
+     "answer": "non è"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "è",
+      "non è"
+     ],
+     "answer": "è"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "non studia",
+      "studia"
+     ],
+     "answer": "non studia"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "mangia",
+      "non mangia"
+     ],
+     "answer": "mangia"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "non sono",
+      "sono"
+     ],
+     "answer": "non sono"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "sono",
+      "non sono"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "non ha",
+      "ha"
+     ],
+     "answer": "non ha"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "sta",
+      "non sta"
+     ],
+     "answer": "sta"
+    }
+   ]
+  }
+ ]
+}

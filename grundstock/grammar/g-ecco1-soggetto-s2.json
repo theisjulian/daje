@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-soggetto-s2",
- "title": "Betonen und vergleichen",
+ "title": "Chi? Scrivi il pronome",
  "language": "it",
  "level": "A1",
- "description": "Die Subjektpronomen · Betonen und vergleichen (schwer).",
+ "description": "I pronomi soggetto · Chi? Scrivi il pronome (schwer).",
  "topics": [
-  "Die Subjektpronomen",
+  "I pronomi soggetto",
   "Grammatik"
  ],
  "sources": [
@@ -36,66 +36,69 @@
  },
  "grammar": {
   "topic": "ecco1-soggetto",
-  "topicTitle": "Die Subjektpronomen",
+  "topicTitle": "I pronomi soggetto",
   "difficulty": "schwer",
   "origin": "own",
   "order": 52,
-  "rule": "| io | tu | lui / lei / Lei | noi | voi | loro |\n| ich | du | er / sie / Sie | wir | ihr | sie |\n\nIm Italienischen lässt man das Pronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._\n**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_"
+  "rule": "| io | tu | lui / lei / Lei | noi | voi | loro |\n| ich | du | er / sie / Sie | wir | ihr | sie |\n\nDi solito non usiamo il pronome: _Abito a Torino._ Lo usiamo per **sottolineare** o per un **contrasto**: _Io abito a Torino, lui abita a Milano._\n**Lei** (con la L maiuscola) è la forma di cortesia: _Come sta, Lei?_",
+  "ruleHelp": "Im Italienischen lässt man das Subjektpronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._\n**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze das passende Subjektpronomen.",
-   "explanation": "Pronomen setzt man zum Vergleichen und Betonen. Lei groß = Höflichkeitsform.",
+   "prompt": "Scrivi il pronome che manca.",
+   "promptHelp": "Schreibe das fehlende Pronomen.",
+   "explanation": "lui = maschile, lei = femminile, Lei = forma di cortesia.",
+   "explanationHelp": "lui = männlich, lei = weiblich, Lei = höfliche Anrede.",
    "type": "gap_fill",
-   "text": "[[g1]] parlo tedesco, ma [[g2]] parla italiano.\nLuca? [[g3]] abita a Torino, [[g4]] a Berlino.\nVoi siete di Roma? No, [[g5]] siamo di Milano.\nSignora, [[g6]] è di Torino?\nGiulia e Sara? [[g7]] arrivano alle tre.\nE [[g8]]? Tu dove abiti?",
+   "text": "Ciao, [[g1]] sono Paolo. E [[g2]] come ti chiami?\nQuesta è Sara: [[g3]] è la mia amica.\nQuesto è Leo: [[g4]] è di Marrakech.\n[[g5]] siamo in classe insieme.\nI nonni? [[g6]] abitano a Bari.\nSignor Rossi, [[g7]] parla tedesco?\nRagazzi, [[g8]] siete pronti?",
    "gaps": [
     {
      "id": "g1",
-     "acceptedAnswers": [
-      "Io"
-     ]
-    },
-    {
-     "id": "g2",
-     "acceptedAnswers": [
-      "lui"
-     ]
-    },
-    {
-     "id": "g3",
-     "acceptedAnswers": [
-      "Lui"
-     ]
-    },
-    {
-     "id": "g4",
      "acceptedAnswers": [
       "io"
      ]
     },
     {
+     "id": "g2",
+     "acceptedAnswers": [
+      "tu"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "lei"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "lui"
+     ]
+    },
+    {
      "id": "g5",
      "acceptedAnswers": [
-      "noi"
+      "Noi"
      ]
     },
     {
      "id": "g6",
      "acceptedAnswers": [
-      "Lei"
+      "Loro"
      ]
     },
     {
      "id": "g7",
      "acceptedAnswers": [
-      "Loro"
+      "Lei"
      ]
     },
     {
      "id": "g8",
      "acceptedAnswers": [
-      "tu"
+      "voi"
      ]
     }
    ]

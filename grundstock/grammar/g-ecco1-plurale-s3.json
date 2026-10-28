@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-plurale-s3",
- "title": "Unser Viertel",
+ "title": "Dal singolare al plurale",
  "language": "it",
  "level": "A1",
- "description": "Der Plural: Artikel und Nomen · Unser Viertel (schwer).",
+ "description": "Il plurale: articolo e nome · Dal singolare al plurale (schwer).",
  "topics": [
-  "Der Plural: Artikel und Nomen",
+  "Il plurale: articolo e nome",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 11,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,73 +36,85 @@
  },
  "grammar": {
   "topic": "ecco1-plurale",
-  "topicTitle": "Der Plural: Artikel und Nomen",
+  "topicTitle": "Il plurale: articolo e nome",
   "difficulty": "schwer",
   "origin": "own",
   "order": 83,
-  "rule": "**Nomen:**\n| Singular | Plural | Beispiel |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù (betont) | bleibt | la città → le città |\n\n**Artikel:**\n| Singular | Plural |\n| il | i |\n| lo, l' (männlich) | gli |\n| la, l' (weiblich) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_"
+  "rule": "**Nomi:**\n| singolare | plurale | esempio |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù | non cambia | la città → le città |\n\n**Articoli:**\n| singolare | plurale |\n| il | i |\n| lo, l’ (maschile) | gli |\n| la, l’ (femminile) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_\n**Attenzione:** lo sport → gli sport, il bar → i bar (parole straniere non cambiano).",
+  "ruleHelp": "Nomen: -o → -i, -a → -e, -e → -i; betonte Endung (-à, -ù) bleibt gleich (la città → le città).\nArtikel: il → i · lo, l’ (männlich) → gli · la, l’ (weiblich) → le.\n**Achtung:** Fremdwörter bleiben gleich: lo sport → gli sport, il bar → i bar."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Schreibe die Nomen in Klammern im Plural mit Artikel.",
-   "explanation": "il bar → i bar (Fremdwort) · la città → le città (betonte Endung).",
-   "type": "gap_fill",
-   "text": "Nel mio quartiere ci sono (il negozio) [[g1]] e (il bar) [[g2]].\n(Lo studente) [[g3]] prendono l'autobus.\nVicino al parco ci sono (la casa) [[g4]] dei miei amici.\n(L'albero) [[g5]] in piazza sono molto vecchi.\n(La città) [[g6]] italiane sono belle.\n(L'amica) [[g7]] di mia sorella sono qui.\n(Il ponte) [[g8]] sul Po sono famosi.\n(Lo zaino) [[g9]] sono pesanti!",
-   "gaps": [
+   "prompt": "Scrivi la frase al plurale.",
+   "promptHelp": "Schreibe den Satz im Plural.",
+   "explanation": "Cambia articolo, nome, verbo e aggettivo.",
+   "explanationHelp": "Artikel, Nomen, Verb und Adjektiv ändern sich.",
+   "type": "sentence_completion",
+   "items": [
     {
-     "id": "g1",
+     "id": "s1",
+     "start": "Il ragazzo è simpatico. → …",
      "acceptedAnswers": [
-      "i negozi"
-     ]
+      "I ragazzi sono simpatici"
+     ],
+     "modelAnswer": "I ragazzi sono simpatici."
     },
     {
-     "id": "g2",
+     "id": "s2",
+     "start": "La piazza è grande. → …",
      "acceptedAnswers": [
-      "i bar"
-     ]
+      "Le piazze sono grandi"
+     ],
+     "modelAnswer": "Le piazze sono grandi."
     },
     {
-     "id": "g3",
+     "id": "s3",
+     "start": "Lo stadio è nuovo. → …",
      "acceptedAnswers": [
-      "Gli studenti"
-     ]
+      "Gli stadi sono nuovi"
+     ],
+     "modelAnswer": "Gli stadi sono nuovi."
     },
     {
-     "id": "g4",
+     "id": "s4",
+     "start": "L’amica è qui. → …",
      "acceptedAnswers": [
-      "le case"
-     ]
+      "Le amiche sono qui"
+     ],
+     "modelAnswer": "Le amiche sono qui."
     },
     {
-     "id": "g5",
+     "id": "s5",
+     "start": "Il ponte è vecchio. → …",
      "acceptedAnswers": [
-      "Gli alberi"
-     ]
+      "I ponti sono vecchi"
+     ],
+     "modelAnswer": "I ponti sono vecchi."
     },
     {
-     "id": "g6",
+     "id": "s6",
+     "start": "La città è bella. → …",
      "acceptedAnswers": [
-      "Le città"
-     ]
+      "Le città sono belle"
+     ],
+     "modelAnswer": "Le città sono belle."
     },
     {
-     "id": "g7",
+     "id": "s7",
+     "start": "L’amico abita a Roma. → …",
      "acceptedAnswers": [
-      "Le amiche"
-     ]
+      "Gli amici abitano a Roma"
+     ],
+     "modelAnswer": "Gli amici abitano a Roma."
     },
     {
-     "id": "g8",
+     "id": "s8",
+     "start": "Lo studente parla inglese. → …",
      "acceptedAnswers": [
-      "I ponti"
-     ]
-    },
-    {
-     "id": "g9",
-     "acceptedAnswers": [
-      "Gli zaini"
-     ]
+      "Gli studenti parlano inglese"
+     ],
+     "modelAnswer": "Gli studenti parlano inglese."
     }
    ]
   }

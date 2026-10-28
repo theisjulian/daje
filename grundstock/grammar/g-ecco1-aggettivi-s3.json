@@ -6,9 +6,9 @@
  "title": "Il mio amico Paolo",
  "language": "it",
  "level": "A1",
- "description": "Adjektive und ihre Stellung · Il mio amico Paolo (schwer).",
+ "description": "Gli aggettivi e la loro posizione · Il mio amico Paolo · livello difficile.",
  "topics": [
-  "Adjektive und ihre Stellung",
+  "Gli aggettivi e la loro posizione",
   "Grammatik"
  ],
  "sources": [
@@ -36,16 +36,18 @@
  },
  "grammar": {
   "topic": "ecco1-aggettivi",
-  "topicTitle": "Adjektive und ihre Stellung",
+  "topicTitle": "Gli aggettivi e la loro posizione",
   "difficulty": "schwer",
   "origin": "own",
   "order": 73,
-  "rule": "Adjektive richten sich nach dem Nomen (Geschlecht und Zahl):\n| Typ | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| -o/-a | nuovo | nuova | nuovi | nuove |\n| -e | grande | grande | grandi | grandi |\n\n**Stellung:** meist **nach** dem Nomen: _un libro **interessante**, una camera **grande**._ Einige kurze, häufige Adjektive stehen oft davor: _un **bel** posto, un **piccolo** problema, una **vecchia** foto._\n**Achtung:** _bello_ vor dem Nomen verändert sich wie der Artikel: _un bel gatto, un bello zaino, i bei libri._"
+  "rule": "L’aggettivo cambia come il nome (genere e numero):\n| tipo | m. sing. | f. sing. | m. plur. | f. plur. |\n| -o/-a | nuovo | nuova | nuovi | nuove |\n| -e | grande | grande | grandi | grandi |\n\n**Posizione:** di solito **dopo** il nome: _un libro **interessante**, una camera **grande**._ Alcuni aggettivi brevi e frequenti stanno spesso prima: _un **bel** posto, un **piccolo** problema._\n**Attenzione:** _ultimo_ sta sempre prima: _l’ultima novità._",
+  "ruleHelp": "Adjektive richten sich nach dem Nomen (Geschlecht und Zahl): nuovo, nuova, nuovi, nuove · grande, grandi.\n**Stellung:** meist **nach** dem Nomen: _un libro interessante._ Einige kurze, häufige Adjektive oft davor: _un bel posto, un piccolo problema._ _ultimo_ steht immer vorn."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze die Adjektive in der richtigen Form.",
+   "prompt": "Scrivi gli aggettivi nella forma giusta.",
+   "promptHelp": "Ergänze die Adjektive in der richtigen Form.",
    "type": "gap_fill",
    "text": "Il mio amico Paolo è (alto) [[g1]] e (simpatico) [[g2]].\nHa i capelli (nero) [[g3]] e gli occhi (verde) [[g4]].\nSua sorella Laura è (piccolo) [[g5]] e molto (allegro) [[g6]].\nI genitori di Paolo sono (gentile) [[g7]].\nAbitano in una casa (vecchio) [[g8]] con un giardino (grande) [[g9]].\nLe loro bici sono (nuovo) [[g10]] e (veloce) [[g11]].",
    "gaps": [

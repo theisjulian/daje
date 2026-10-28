@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-non-m1",
- "title": "Sätze verneinen",
+ "title": "Frasi negative",
  "language": "it",
  "level": "A1",
- "description": "Die Verneinung mit non · Sätze verneinen (mittel).",
+ "description": "La negazione con non · Frasi negative (mittel).",
  "topics": [
-  "Die Verneinung mit non",
+  "La negazione con non",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 6,
+ "estimatedMinutes": 8,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,52 +36,86 @@
  },
  "grammar": {
   "topic": "ecco1-non",
-  "topicTitle": "Die Verneinung mit non",
+  "topicTitle": "La negazione con non",
   "difficulty": "mittel",
   "origin": "own",
   "order": 61,
-  "rule": "**non** steht **vor dem Verb**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nAntwort auf eine Frage: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)"
+  "rule": "**non** va **prima del verbo**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nRisposta a una domanda: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)",
+  "ruleHelp": "**non** steht **vor dem Verb**: _Non abito a Torino. Luca non è di Milano._\nAntwort auf eine Frage: _Sei di Roma? – No, non sono di Roma._ (no = nein, non = nicht)"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Verneine die Sätze.",
+   "prompt": "Fai la frase negativa.",
+   "promptHelp": "Verneine die Sätze.",
+   "explanation": "non va sempre prima del verbo.",
+   "explanationHelp": "non steht immer vor dem Verb.",
    "type": "sentence_completion",
    "items": [
     {
      "id": "s1",
      "start": "Abito a Torino. → …",
      "acceptedAnswers": [
-      "Non abito a Torino."
-     ]
+      "Non abito a Torino"
+     ],
+     "modelAnswer": "Non abito a Torino."
     },
     {
      "id": "s2",
      "start": "Luca parla inglese. → …",
      "acceptedAnswers": [
-      "Luca non parla inglese."
-     ]
+      "Luca non parla inglese"
+     ],
+     "modelAnswer": "Luca non parla inglese."
     },
     {
      "id": "s3",
      "start": "Siamo di Milano. → …",
      "acceptedAnswers": [
-      "Non siamo di Milano."
-     ]
+      "Non siamo di Milano"
+     ],
+     "modelAnswer": "Non siamo di Milano."
     },
     {
      "id": "s4",
      "start": "Oggi sto bene. → …",
      "acceptedAnswers": [
-      "Oggi non sto bene."
-     ]
+      "Oggi non sto bene"
+     ],
+     "modelAnswer": "Oggi non sto bene."
     },
     {
      "id": "s5",
      "start": "Anna è a scuola. → …",
      "acceptedAnswers": [
-      "Anna non è a scuola."
-     ]
+      "Anna non è a scuola"
+     ],
+     "modelAnswer": "Anna non è a scuola."
+    },
+    {
+     "id": "s6",
+     "start": "Prendo l’autobus. → …",
+     "acceptedAnswers": [
+      "Non prendo l’autobus"
+     ],
+     "modelAnswer": "Non prendo l’autobus."
+    },
+    {
+     "id": "s7",
+     "start": "I ragazzi guardano la TV. → …",
+     "acceptedAnswers": [
+      "I ragazzi non guardano la TV"
+     ],
+     "modelAnswer": "I ragazzi non guardano la TV."
+    },
+    {
+     "id": "s8",
+     "start": "Voi abitate qui. → …",
+     "acceptedAnswers": [
+      "Voi non abitate qui",
+      "Non abitate qui"
+     ],
+     "modelAnswer": "Voi non abitate qui."
     }
    ]
   }

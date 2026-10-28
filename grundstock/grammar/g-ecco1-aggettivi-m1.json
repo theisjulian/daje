@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-aggettivi-m1",
- "title": "Mein Zimmer",
+ "title": "La mia camera",
  "language": "it",
  "level": "A1",
- "description": "Adjektive und ihre Stellung · Mein Zimmer (mittel).",
+ "description": "Gli aggettivi e la loro posizione · La mia camera · livello medio.",
  "topics": [
-  "Adjektive und ihre Stellung",
+  "Gli aggettivi e la loro posizione",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,18 +36,20 @@
  },
  "grammar": {
   "topic": "ecco1-aggettivi",
-  "topicTitle": "Adjektive und ihre Stellung",
+  "topicTitle": "Gli aggettivi e la loro posizione",
   "difficulty": "mittel",
   "origin": "own",
   "order": 71,
-  "rule": "Adjektive richten sich nach dem Nomen (Geschlecht und Zahl):\n| Typ | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| -o/-a | nuovo | nuova | nuovi | nuove |\n| -e | grande | grande | grandi | grandi |\n\n**Stellung:** meist **nach** dem Nomen: _un libro **interessante**, una camera **grande**._ Einige kurze, häufige Adjektive stehen oft davor: _un **bel** posto, un **piccolo** problema, una **vecchia** foto._\n**Achtung:** _bello_ vor dem Nomen verändert sich wie der Artikel: _un bel gatto, un bello zaino, i bei libri._"
+  "rule": "L’aggettivo cambia come il nome (genere e numero):\n| tipo | m. sing. | f. sing. | m. plur. | f. plur. |\n| -o/-a | nuovo | nuova | nuovi | nuove |\n| -e | grande | grande | grandi | grandi |\n\n**Posizione:** di solito **dopo** il nome: _un libro **interessante**, una camera **grande**._ Alcuni aggettivi brevi e frequenti stanno spesso prima: _un **bel** posto, un **piccolo** problema._\n**Attenzione:** _ultimo_ sta sempre prima: _l’ultima novità._",
+  "ruleHelp": "Adjektive richten sich nach dem Nomen (Geschlecht und Zahl): nuovo, nuova, nuovi, nuove · grande, grandi.\n**Stellung:** meist **nach** dem Nomen: _un libro interessante._ Einige kurze, häufige Adjektive oft davor: _un bel posto, un piccolo problema._ _ultimo_ steht immer vorn."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Ergänze die Adjektive in der richtigen Form.",
+   "prompt": "Scrivi gli aggettivi nella forma giusta.",
+   "promptHelp": "Ergänze die Adjektive in der richtigen Form.",
    "type": "gap_fill",
-   "text": "La mia camera è (piccolo) [[g1]], ma è (bello) [[g2]].\nIl letto è (nuovo) [[g3]] e la scrivania è (grande) [[g4]].\nSulla parete ci sono due poster (vecchio) [[g5]].\nHo anche tante foto (bellissimo) [[g6]] della vacanza.\nI miei videogiochi sono (nuovo) [[g7]].",
+   "text": "La mia camera è (piccolo) [[g1]], ma è (bello) [[g2]].\nIl letto è (nuovo) [[g3]] e la scrivania è (grande) [[g4]].\nSulla parete ci sono due poster (vecchio) [[g5]].\nHo anche tante foto (bellissimo) [[g6]] della vacanza.\nI miei videogiochi sono (nuovo) [[g7]].\nLe tende sono (giallo) [[g8]].\nLa sedia è (comodo) [[g9]].\nI libri sono (interessante) [[g10]].",
    "gaps": [
     {
      "id": "g1",
@@ -89,6 +91,24 @@
      "id": "g7",
      "acceptedAnswers": [
       "nuovi"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "gialle"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "comoda"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "interessanti"
      ]
     }
    ]

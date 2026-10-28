@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-non-l1",
- "title": "Wo steht non?",
+ "title": "Dove va non?",
  "language": "it",
  "level": "A1",
- "description": "Die Verneinung mit non · Wo steht non? (einfach).",
+ "description": "La negazione con non · Dove va non? (einfach).",
  "topics": [
-  "Die Verneinung mit non",
+  "La negazione con non",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 16,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,16 +36,18 @@
  },
  "grammar": {
   "topic": "ecco1-non",
-  "topicTitle": "Die Verneinung mit non",
+  "topicTitle": "La negazione con non",
   "difficulty": "leicht",
   "origin": "own",
   "order": 61,
-  "rule": "**non** steht **vor dem Verb**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nAntwort auf eine Frage: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)"
+  "rule": "**non** va **prima del verbo**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nRisposta a una domanda: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)",
+  "ruleHelp": "**non** steht **vor dem Verb**: _Non abito a Torino. Luca non è di Milano._\nAntwort auf eine Frage: _Sei di Roma? – No, non sono di Roma._ (no = nein, non = nicht)"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Welcher Satz ist richtig?",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
    "type": "single_choice",
    "options": [
     {
@@ -65,7 +67,8 @@
   },
   {
    "id": "q2",
-   "prompt": "Welcher Satz ist richtig?",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
    "type": "single_choice",
    "options": [
     {
@@ -86,6 +89,7 @@
   {
    "id": "q3",
    "prompt": "Sei di Torino? – …",
+   "promptHelp": "Bist du aus Turin? – …",
    "type": "single_choice",
    "options": [
     {
@@ -99,6 +103,111 @@
     {
      "id": "o3",
      "text": "No, sono non di Torino."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q4",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non parliamo francese."
+    },
+    {
+     "id": "o2",
+     "text": "Parliamo non francese."
+    },
+    {
+     "id": "o3",
+     "text": "Parliamo francese non."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q5",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Anna non sta bene."
+    },
+    {
+     "id": "o2",
+     "text": "Anna sta non bene."
+    },
+    {
+     "id": "o3",
+     "text": "Non Anna sta bene."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q6",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "I ragazzi non guardano la partita."
+    },
+    {
+     "id": "o2",
+     "text": "I ragazzi guardano non la partita."
+    },
+    {
+     "id": "o3",
+     "text": "Non i ragazzi guardano la partita."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q7",
+   "prompt": "Abiti qui? – …",
+   "promptHelp": "Wohnst du hier? – …",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "No, non abito qui."
+    },
+    {
+     "id": "o2",
+     "text": "Non, abito qui."
+    },
+    {
+     "id": "o3",
+     "text": "No, abito non qui."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q8",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Tu non prendi il tram?"
+    },
+    {
+     "id": "o2",
+     "text": "Tu prendi non il tram?"
+    },
+    {
+     "id": "o3",
+     "text": "Non tu prendi il tram?"
     }
    ],
    "correctOptionId": "o1"

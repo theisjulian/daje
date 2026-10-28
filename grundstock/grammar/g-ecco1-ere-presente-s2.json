@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-ere-presente-s2",
- "title": "-are oder -ere? Gemischt",
+ "title": "-are o -ere? Misto",
  "language": "it",
  "level": "A1",
- "description": "Verben auf -ere im Präsens · -are oder -ere? Gemischt (schwer).",
+ "description": "I verbi in -ere al presente · -are o -ere? Misto (schwer).",
  "topics": [
-  "Verben auf -ere im Präsens",
+  "I verbi in -ere al presente",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 12,
+ "estimatedMinutes": 14,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,19 +36,22 @@
  },
  "grammar": {
   "topic": "ecco1-ere-presente",
-  "topicTitle": "Verben auf -ere im Präsens",
+  "topicTitle": "I verbi in -ere al presente",
   "difficulty": "schwer",
   "origin": "own",
   "order": 92,
-  "rule": "| Person | prendere | vedere |\n| io | prend**o** | ved**o** |\n| tu | prend**i** | ved**i** |\n| lui / lei | prend**e** | ved**e** |\n| noi | prend**iamo** | ved**iamo** |\n| voi | prend**ete** | ved**ete** |\n| loro | prend**ono** | ved**ono** |\n\nUnterschied zu -are: **lui/lei -e** (nicht -a), **voi -ete**, **loro -ono**."
+  "rule": "| persona | prendere | vedere |\n| io | prend**o** | ved**o** |\n| tu | prend**i** | ved**i** |\n| lui / lei | prend**e** | ved**e** |\n| noi | prend**iamo** | ved**iamo** |\n| voi | prend**ete** | ved**ete** |\n| loro | prend**ono** | ved**ono** |\n\nDifferenza con -are: **lui/lei -e** (non -a), **voi -ete**, **loro -ono**.",
+  "ruleHelp": "Unterschied zu -are: **lui/lei -e** (nicht -a), **voi -ete**, **loro -ono** (siehe Tabelle)."
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Achtung: Hier mischen sich Verben auf -are und -ere.",
+   "prompt": "Attenzione: qui ci sono verbi in -are e in -ere.",
+   "promptHelp": "Achtung: Hier mischen sich Verben auf -are und -ere.",
    "explanation": "-are: lui guarda, voi abitate, loro lavorano · -ere: lui legge, voi vedete, loro vendono.",
+   "explanationHelp": "-are: lui guarda, voi abitate, loro lavorano · -ere: lui legge, voi vedete, loro vendono.",
    "type": "gap_fill",
-   "text": "Io (abitare) [[g1]] a Torino e (prendere) [[g2]] il tram.\nMarco (guardare) [[g3]] la TV e (leggere) [[g4]] un libro.\nNoi (parlare) [[g5]] italiano e (scrivere) [[g6]] in tedesco.\nVoi (vedere) [[g7]] lo stadio? Voi (abitare) [[g8]] vicino?\nLoro (vendere) [[g9]] bici e (lavorare) [[g10]] molto.",
+   "text": "Io (abitare) [[g1]] a Torino e (prendere) [[g2]] il tram.\nMarco (guardare) [[g3]] la TV e (leggere) [[g4]] un libro.\nNoi (parlare) [[g5]] italiano e (scrivere) [[g6]] in tedesco.\nVoi (vedere) [[g7]] lo stadio? Voi (abitare) [[g8]] vicino?\nLoro (vendere) [[g9]] bici e (lavorare) [[g10]] molto.\nTu (arrivare) [[g11]] e (prendere) [[g12]] un gelato.",
    "gaps": [
     {
      "id": "g1",
@@ -108,6 +111,18 @@
      "id": "g10",
      "acceptedAnswers": [
       "lavorano"
+     ]
+    },
+    {
+     "id": "g11",
+     "acceptedAnswers": [
+      "arrivi"
+     ]
+    },
+    {
+     "id": "g12",
+     "acceptedAnswers": [
+      "prendi"
      ]
     }
    ]

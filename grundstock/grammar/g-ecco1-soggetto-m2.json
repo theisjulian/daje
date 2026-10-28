@@ -3,12 +3,12 @@
  "schemaVersion": "1.2",
  "kind": "grammar",
  "id": "g-ecco1-soggetto-m2",
- "title": "Wer?",
+ "title": "Sottolineare e confrontare",
  "language": "it",
  "level": "A1",
- "description": "Die Subjektpronomen · Wer? (mittel).",
+ "description": "I pronomi soggetto · Sottolineare e confrontare (mittel).",
  "topics": [
-  "Die Subjektpronomen",
+  "I pronomi soggetto",
   "Grammatik"
  ],
  "sources": [
@@ -18,7 +18,7 @@
    "rights": "own"
   }
  ],
- "estimatedMinutes": 7,
+ "estimatedMinutes": 10,
  "catalog": {
   "origin": "textbook",
   "textbook": {
@@ -36,82 +36,82 @@
  },
  "grammar": {
   "topic": "ecco1-soggetto",
-  "topicTitle": "Die Subjektpronomen",
+  "topicTitle": "I pronomi soggetto",
   "difficulty": "mittel",
   "origin": "own",
   "order": 52,
-  "rule": "| io | tu | lui / lei / Lei | noi | voi | loro |\n| ich | du | er / sie / Sie | wir | ihr | sie |\n\nIm Italienischen lässt man das Pronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._\n**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_"
+  "rule": "| io | tu | lui / lei / Lei | noi | voi | loro |\n| ich | du | er / sie / Sie | wir | ihr | sie |\n\nDi solito non usiamo il pronome: _Abito a Torino._ Lo usiamo per **sottolineare** o per un **contrasto**: _Io abito a Torino, lui abita a Milano._\n**Lei** (con la L maiuscola) è la forma di cortesia: _Come sta, Lei?_",
+  "ruleHelp": "Im Italienischen lässt man das Subjektpronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._\n**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_"
  },
  "questions": [
   {
    "id": "q1",
-   "prompt": "Welches Pronomen ersetzt die markierten Wörter?",
-   "explanation": "Ist „ich“ dabei, heißt es noi. Ist „du“ dabei (ohne ich), heißt es voi.",
-   "type": "gap_choice",
-   "text": "Marco e io = [[g1]]\ntu e Sara = [[g2]]\nla professoressa = [[g3]]\ni miei amici = [[g4]]\nmio padre = [[g5]]\nAnna e Giulia = [[g6]]\ntu e io = [[g7]]",
+   "prompt": "Scrivi il pronome soggetto giusto.",
+   "promptHelp": "Ergänze das passende Subjektpronomen.",
+   "explanation": "Il pronome serve per confrontare e sottolineare. Lei maiuscolo = forma di cortesia.",
+   "explanationHelp": "Pronomen setzt man zum Vergleichen und Betonen. Lei groß = Höflichkeitsform.",
+   "type": "gap_fill",
+   "text": "[[g1]] parlo tedesco, ma [[g2]] parla italiano. (Marco)\nLuca? [[g3]] abita a Torino, [[g4]] a Berlino.\nVoi siete di Roma? No, [[g5]] siamo di Milano.\nSignora, [[g6]] è di Torino?\nGiulia e Sara? [[g7]] arrivano alle tre.\nE [[g8]]? Tu dove abiti?\nAnna? [[g9]] studia in biblioteca.\nRagazzi, [[g10]] venite in centro?",
    "gaps": [
     {
      "id": "g1",
-     "options": [
-      "noi",
-      "voi",
-      "loro"
-     ],
-     "answer": "noi"
+     "acceptedAnswers": [
+      "Io"
+     ]
     },
     {
      "id": "g2",
-     "options": [
-      "voi",
-      "noi",
-      "loro"
-     ],
-     "answer": "voi"
+     "acceptedAnswers": [
+      "lui"
+     ]
     },
     {
      "id": "g3",
-     "options": [
-      "lei",
-      "lui",
-      "loro"
-     ],
-     "answer": "lei"
+     "acceptedAnswers": [
+      "Lui"
+     ]
     },
     {
      "id": "g4",
-     "options": [
-      "loro",
-      "voi",
-      "noi"
-     ],
-     "answer": "loro"
+     "acceptedAnswers": [
+      "io"
+     ]
     },
     {
      "id": "g5",
-     "options": [
-      "lui",
-      "lei",
-      "loro"
-     ],
-     "answer": "lui"
+     "acceptedAnswers": [
+      "noi"
+     ]
     },
     {
      "id": "g6",
-     "options": [
-      "loro",
-      "voi",
-      "lei"
-     ],
-     "answer": "loro"
+     "acceptedAnswers": [
+      "Lei"
+     ]
     },
     {
      "id": "g7",
-     "options": [
-      "noi",
-      "voi",
-      "loro"
-     ],
-     "answer": "noi"
+     "acceptedAnswers": [
+      "Loro"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "tu"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "Lei"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "voi"
+     ]
     }
    ]
   }
