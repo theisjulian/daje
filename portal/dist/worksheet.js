@@ -247,7 +247,7 @@ function wsSheetHTML(sheets, sol, { title = '', rule = true } = {}) {
                 const ins = (t.ins[q.type] || '').replace('{n}', q.items ? q.items.length : '');
                 const m = q.prompt.match(QUESTION_PHASE);
                 const prompt = m ? q.prompt.slice(m[0].length) : q.prompt;
-                return `<li class="hb-q"><div class="hb-qh"><b class="n">${no}</b><span class="hb-pt">${esc(t.pt(hbPoints(q)))}</span><div class="hb-ins">${esc(ins)}</div><div class="hb-p">${esc(prompt)}${q.promptHelp ? ` <span class="hb-help">(${esc(q.promptHelp)})</span>` : ''}</div></div>${hbBody(q, t, !!sol)}${sol && q.explanation ? `<p class="hb-ex">${esc(visibleText(q.explanation))}</p>` : ''}</li>`;
+                return `<li class="hb-q"><div class="hb-qh"><b class="n">${no}</b><div class="hb-ins">${esc(ins)}</div><div class="hb-p">${esc(prompt)}${q.promptHelp ? ` <span class="hb-help">(${esc(q.promptHelp)})</span>` : ''}</div></div>${hbBody(q, t, !!sol)}${sol && q.explanation ? `<p class="hb-ex">${esc(visibleText(q.explanation))}</p>` : ''}</li>`;
               })
               .join('');
             return sol === 2 ? '' : sec + r + link + qs;
@@ -258,14 +258,14 @@ function wsSheetHTML(sheets, sol, { title = '', rule = true } = {}) {
     .join('');
   const key =
     sol === 2
-      ? `<table class="hb-key"><thead><tr><th>${esc(t.kNo)}</th><th>${esc(t.kAns)}</th><th>${esc(t.kPts)}</th></tr></thead><tbody>${keyRows.map(({ no: n, q }) => `<tr><td>${n}</td><td>${hbAnswer(q, t)}</td><td>${hbPoints(q)}</td></tr>`).join('')}</tbody><tfoot><tr><td></td><td></td><td>${total}</td></tr></tfoot></table>`
+      ? `<table class="hb-key"><thead><tr><th>${esc(t.kNo)}</th><th>${esc(t.kAns)}</th></tr></thead><tbody>${keyRows.map(({ no: n, q }) => `<tr><td>${n}</td><td>${hbAnswer(q, t)}</td></tr>`).join('')}</tbody></table>`
       : '';
   const levels = [...new Set(all.map(x => x.level))].join(', ');
   const sources = [...new Set(all.flatMap(x => x.sources.map(s => visibleText(s.citation))).filter(Boolean))];
   return `<div class="hb${sol === 2 ? ' hb-compact' : ''}"><header class="hb-top"><b>theis · ${DOC_BRAND}</b><span>${esc(sol ? w[1] : w[0])}</span></header>
   <h1>${esc(title || (all.length === 1 ? all[0].title : w[0]))}</h1>
   <div class="hb-meta"><span>${esc(L === 'de' ? portalLang(lang) : { it: 'Italiano', en: 'English', fr: 'Français', es: 'Español' }[lang] || portalLang(lang))}</span><span>${esc(levels)}</span><span>${esc(t.min(all.reduce((s, x) => s + (x.estimatedMinutes || 0), 0)))}</span></div>
-  ${sol ? '' : `<table class="hb-id"><tr><td>${esc(t.name)}</td><td>${esc(t.cls)}</td><td>${esc(t.date)}</td><td class="pts">${esc(t.pts)} &nbsp; / ${total}</td></tr></table>`}
+  ${sol ? '' : `<table class="hb-id"><tr><td>${esc(t.name)}</td><td>${esc(t.cls)}</td><td>${esc(t.date)}</td></tr></table>`}
   ${sol === 2 ? key : `<ol class="hb-list">${body}</ol>`}
   <footer class="hb-src"><b>${esc(t.src)}</b> ${sources.map(esc).join(' · ')}</footer>
   ${docFooter()}</div>`;

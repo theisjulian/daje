@@ -140,9 +140,9 @@ function hbAnswer(q, t) {
   }
 }
 function hbKeyTable(x, t) {
-  return `<table class="hb-key"><thead><tr><th>${esc(t.kNo)}</th><th>${esc(t.kAns)}</th><th>${esc(t.kPts)}</th></tr></thead><tbody>${x.questions
-    .map((q, i) => `<tr><td>${i + 1}</td><td>${hbAnswer(q, t)}${q.explanation ? `<small>${esc(visibleText(q.explanation))}</small>` : ''}</td><td>${hbPoints(q)}</td></tr>`)
-    .join('')}</tbody><tfoot><tr><td></td><td></td><td>${x.questions.reduce((s, q) => s + hbPoints(q), 0)}</td></tr></tfoot></table>`;
+  return `<table class="hb-key"><thead><tr><th>${esc(t.kNo)}</th><th>${esc(t.kAns)}</th></tr></thead><tbody>${x.questions
+    .map((q, i) => `<tr><td>${i + 1}</td><td>${hbAnswer(q, t)}${q.explanation ? `<small>${esc(visibleText(q.explanation))}</small>` : ''}</td></tr>`)
+    .join('')}</tbody></table>`;
 }
 function hbHTML(x, sol) {
   const L = instrFor(x.language) === 'de' ? 'de' : x.language;
@@ -161,13 +161,13 @@ function hbHTML(x, sol) {
     const head = m && m[1] !== phase ? `<li class="hb-phase">${esc(m[1])}</li>` : '';
     if (m) phase = m[1];
     const prompt = m ? q.prompt.slice(m[0].length) : q.prompt;
-    return `${head}<li class="hb-q"><div class="hb-qh"><b class="n">${i + 1}</b><span class="hb-pt">${esc(t.pt(hbPoints(q)))}</span><div class="hb-ins">${esc(ins)}</div><div class="hb-p">${esc(prompt)}${q.promptHelp ? ` <span class="hb-help">(${esc(q.promptHelp)})</span>` : ''}</div></div>${hbBody(q, t, sol)}${sol && q.explanation ? `<p class="hb-ex">${esc(visibleText(q.explanation))}</p>` : ''}</li>`;
+    return `${head}<li class="hb-q"><div class="hb-qh"><b class="n">${i + 1}</b><div class="hb-ins">${esc(ins)}</div><div class="hb-p">${esc(prompt)}${q.promptHelp ? ` <span class="hb-help">(${esc(q.promptHelp)})</span>` : ''}</div></div>${hbBody(q, t, sol)}${sol && q.explanation ? `<p class="hb-ex">${esc(visibleText(q.explanation))}</p>` : ''}</li>`;
   }).join('');
   const speech = x.media?.type === 'speech';
   return `<div class="hb${sol && hbOpt.compact ? ' hb-compact' : ''}"><header class="hb-top"><b>theis · ${DOC_BRAND}</b><span>${esc(sol ? (hbOpt.compact ? t.kKey : t.key) : t.sheet)}</span></header>
   <h1>${esc(x.title)}</h1>
   <div class="hb-meta"><span>${esc(lang)}</span><span>${esc(x.level)}</span><span>${esc(t.min(x.estimatedMinutes))}</span></div>
-  ${sol ? '' : `<table class="hb-id"><tr><td>${esc(t.name)}</td><td>${esc(t.cls)}</td><td>${esc(t.date)}</td><td class="pts">${esc(t.pts)} &nbsp; / ${total}</td></tr></table>`}
+  ${sol ? '' : `<table class="hb-id"><tr><td>${esc(t.name)}</td><td>${esc(t.cls)}</td><td>${esc(t.date)}</td></tr></table>`}
   ${sol ? '' : `<div class="hb-box"><div class="hb-box-t"><b>${esc(t.listen)}</b>${hbOpt.link && !local && !speech ? `<span>${esc(t.online)}: ${esc(link)}</span>` : ''}</div>${hbOpt.link && !local && !speech && typeof qrSVG === 'function' ? `<i class="hb-qr">${qrSVG(link, 'QR')}</i>` : ''}</div>`}
   ${sol && hbOpt.compact ? hbKeyTable(x, t) : `<ol class="hb-list">${qs}</ol>`}
   ${sol && hbOpt.transcript && x.transcript ? `<section class="hb-tr"><h3>${esc(t.tr)}</h3>${transcriptForDisplay(x.transcript).split(/\n+/).filter(l => l.trim()).map(l => `<p>${esc(l)}</p>`).join('')}</section>` : ''}
