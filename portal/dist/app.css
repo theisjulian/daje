@@ -8228,6 +8228,10 @@ img.yt-thumb {
 img.yt-thumb.yt-box {
   scale: 1.34;
 }
+/* In 16:9-Flächen schneidet object-fit die Balken bereits ab. */
+.lcard-media img.yt-thumb.yt-box {
+  scale: 1;
+}
 .resume-media img,
 .xhero-art img.yt-thumb {
   object-fit: cover;

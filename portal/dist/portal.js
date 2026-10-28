@@ -166,7 +166,8 @@ function youtubeThumb(x) {
   const built = (typeof YT_THUMBS === 'object' && YT_THUMBS[id]) || null;
   if (built) return { src: built.src, box: built.box, next: LOCAL_VIDEO_THUMBNAILS[id] || '' };
   if (LOCAL_VIDEO_THUMBNAILS[id]) return { src: LOCAL_VIDEO_THUMBNAILS[id], next: '' };
-  return { src: `https://i.ytimg.com/vi/${id}/maxresdefault.jpg`, next: `https://i.ytimg.com/vi/${id}/mqdefault.jpg` };
+  // hqdefault gibt es zu jedem Video (480×360 mit Balken, die yt-box abschneidet); maxres nicht immer.
+  return { src: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`, box: true, next: '' };
 }
 /* Hat die Übung ein echtes Bild (Foto oder Video-Titelbild)? Dann steht der Titel neben dem Bild. */
 const hasPhotoCover = x => !!(x.coverImage || PHOTOS[x.cover] || youtubeThumb(x));
