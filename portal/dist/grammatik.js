@@ -49,7 +49,7 @@ function grTopics() {
       map.set(g.topic, { id: g.topic, title: g.topicTitle, band: grBand(x), unit: grUnitKey(x), section: x.catalog?.textbook?.section || '', series: x.catalog?.textbook?.series || '', order: g.order ?? 9999, rule: '', lang: x.language, items: [] });
     const t = map.get(g.topic);
     t.items.push(x);
-    if (!t.rule && g.rule) t.rule = g.rule;
+    if (!t.rule && g.rule) (t.rule = g.rule), (t.ruleHelp = g.ruleHelp || '');
     t.order = Math.min(t.order, g.order ?? 9999);
   }
   const lv = { leicht: 0, mittel: 1, schwer: 2 };
@@ -123,7 +123,7 @@ function grTopicPage() {
   $('main').innerHTML = `<div class="page gr-page">
     <button class="quiet back-link" data-gr-home>Grammatik</button>
     <header class="page-head"><div class="eyebrow">${esc([t.band ? ANNO_NAMES[t.band] : t.series, t.unit, t.section].filter(Boolean).join(' · '))}</div><h1>${esc(t.title)}</h1></header>
-    ${t.rule ? `<section class="rule-card is-page"><div class="eyebrow">Merkkasten</div><div class="rule-body">${ruleHTML(t.rule, t.lang)}</div></section>` : ''}
+    ${t.rule ? `<section class="rule-card is-page"><div class="eyebrow">Merkkasten</div>${ruleBodyHTML(t.rule, t.ruleHelp, t.lang)}</section>` : ''}
     ${levels}
   </div>`;
 }

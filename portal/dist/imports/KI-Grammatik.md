@@ -1,6 +1,6 @@
 # daje · KI-Auftrag Grammatik
 
-Version 1.0 · Oktober 2026 · passt zu daje-Paketschema 1.2
+Version 1.1 · Oktober 2026 · passt zu daje-Paketschema 1.2
 Gilt für Gemini, ChatGPT, Claude und andere Sprachmodelle, im Chat wie über die API.
 
 ## 1 · Deine Rolle
@@ -27,12 +27,13 @@ Antworte mit **genau einem JSON-Codeblock** (```json … ```) und sonst nichts. 
 ```json
 {
   "topic": {
-    "title": "Der bestimmte Artikel im Singular",
-    "rule": "Merkkasten (siehe Abschnitt 4)"
+    "title": "L’articolo determinativo singolare",
+    "rule": "Merkkasten in einfacher Zielsprache (siehe Abschnitt 4)",
+    "ruleHelp": "Derselbe Merkkasten auf Deutsch"
   },
   "exercises": [
     {
-      "title": "il, lo, la oder l’?",
+      "title": "Il, lo, la o l’?",
       "difficulty": "leicht",
       "questions": [ ... ]
     }
@@ -41,17 +42,22 @@ Antworte mit **genau einem JSON-Codeblock** (```json … ```) und sonst nichts. 
 }
 ```
 
-- `topic.title`: Name des Grammatikthemas auf Deutsch, kurz (max. 120 Zeichen).
-- `exercises[].title`: kurzer, lernendenfreundlicher Titel der Übung (Zielsprache oder Deutsch).
+**Grundsatz: so viel wie möglich in der Zielsprache.** Alles, was Lernende sehen, steht in der Zielsprache, sprachlich einfacher als das Zielniveau. Die deutsche Fassung steht jeweils daneben und wird erst nach einem Tipp auf „Auf Deutsch“ angezeigt.
+
+- `topic.title`: Name des Grammatikthemas **in der Zielsprache**, mit den üblichen Fachbegriffen (z. B. „Il passato prossimo con essere“), kurz (max. 120 Zeichen).
+- `topic.rule` (Zielsprache) und `topic.ruleHelp` (Deutsch): siehe Abschnitt 4.
+- `exercises[].title`: kurzer, lernendenfreundlicher Titel in der Zielsprache.
 - `exercises[].difficulty`: `leicht`, `mittel` oder `schwer`.
-- `questions`: 1 bis 3 Aufgaben pro Übung (meist eine). Ein Lückentext mit 6 bis 10 Lücken ist **eine** Aufgabe.
+- `questions`: 1 bis 3 Aufgaben pro Übung.
+
+**Länge (sehr wichtig):** Jede Übung braucht eine ordentliche Länge, **mindestens 8, besser 10 bis 12 Einheiten** (Lücken, Sätze, Paare, Tabellenzellen, Einträge). Keine Übungen mit nur 3 oder 4 Sätzen. Ein Lückentext hat 8 bis 12 Lücken, eine Tabelle mindestens 6 Zeilen, Zuordnen mindestens 6 Paare, Sortieren mindestens 8 Einträge. Ordnen (`ordering`) prüft nur einen Satz: Gib dann 3 bis 4 `ordering`-Aufgaben in derselben Übung. Nur `open_answer` darf allein stehen, und nur in der Stufe schwer.
 
 ## 4 · Merkkasten (`topic.rule`)
 
-Kurz, korrekt und schülergerecht auf Deutsch, höchstens etwa 12 Zeilen. Zeilen mit `\n` trennen. Möglich sind:
-- Fließtext: `Nach **essere** richtet sich das Partizip nach dem Subjekt.`
+`rule`: kurz, korrekt und schülergerecht in **einfacher Zielsprache** (A1: sehr kurze Sätze, Beispiele statt Erklärungen; später ausführlicher), höchstens etwa 12 Zeilen. `ruleHelp`: derselbe Inhalt auf Deutsch. Zeilen mit `\n` trennen. Möglich sind:
+- Fließtext: `Con **essere** il participio cambia: _Marco è andato, Giulia è andata._`
 - Listen: Zeilen, die mit `- ` beginnen.
-- Tabellen: Zeilen mit `|` als Trenner, erste Zeile ist die Kopfzeile, z. B. `| | maskulin | feminin`, dann `| Singular | il ragazzo | la ragazza`.
+- Tabellen: Zeilen mit `|` als Trenner, erste Zeile ist die Kopfzeile, z. B. `| | maschile | femminile`, dann `| singolare | il ragazzo | la ragazza`.
 - **fett** für die Form, _kursiv_ für Beispiele in der Zielsprache.
 
 Im Modus GENAU fasst du den Merkkasten in eigenen Worten (nicht den Buchtext abschreiben).
@@ -66,15 +72,17 @@ Unter „Eingaben“ steht, welche Stufen und wie viele Übungen je Stufe gewün
 
 ## 6 · Aufgaben (`questions`)
 
-Jede Aufgabe hat `id` (q1, q2, …), `type`, `prompt` und `explanation`:
-- `prompt`: Arbeitsanweisung in der Zielsprache, einfach und eindeutig (z. B. „Completa con la forma giusta del verbo.“). Bei A1/A2 dürfen deutsche Hilfen in Klammern stehen.
-- `explanation`: 1 bis 2 Sätze auf Deutsch, die die Regel hinter der Lösung nennen. Keine Hinweise auf KI, Buch oder Quellen.
+Jede Aufgabe hat `id` (q1, q2, …), `type`, `prompt`, `promptHelp`, `explanation` und `explanationHelp`:
+- `prompt`: Arbeitsanweisung **in der Zielsprache**, einfach und eindeutig (z. B. „Completa con la forma giusta del verbo.“). Immer gleiche, wiederkehrende Formulierungen verwenden (completa, scegli, abbina, metti in ordine, correggi, trasforma, scrivi …).
+- `promptHelp`: dieselbe Anweisung auf Deutsch (z. B. „Ergänze die richtige Verbform.“).
+- `explanation`: 1 bis 2 kurze Sätze **in einfacher Zielsprache**, die die Regel hinter der Lösung nennen (z. B. „Con le città usiamo a: a Roma.“).
+- `explanationHelp`: dieselbe Erklärung auf Deutsch. Keine Hinweise auf KI, Buch oder Quellen.
 - Mehrere Sätze im `text` stehen jeweils in einer eigenen Zeile (`\n`).
 
 ### Die Aufgabentypen (genau so schreiben)
 
 ```json
-{"id":"q1","type":"gap_choice","prompt":"Scegli la forma giusta.","text":"[[g1]] ragazzo abita a Torino.\nHo [[g2]] amica a Roma.","gaps":[{"id":"g1","options":["Il","Lo","La"],"answer":"Il"},{"id":"g2","options":["un","un’","una"],"answer":"un’"}],"explanation":"…"}
+{"id":"q1","type":"gap_choice","prompt":"Scegli la forma giusta.","promptHelp":"Wähle die richtige Form.","explanationHelp":"…","text":"[[g1]] ragazzo abita a Torino.\nHo [[g2]] amica a Roma.","gaps":[{"id":"g1","options":["Il","Lo","La"],"answer":"Il"},{"id":"g2","options":["un","un’","una"],"answer":"un’"}],"explanation":"…"}
 {"id":"q2","type":"gap_fill","prompt":"Completa con la forma giusta di essere.","text":"Io [[g1]] di Berlino.\nMarco e Luca [[g2]] a scuola.","gaps":[{"id":"g1","acceptedAnswers":["sono"]},{"id":"g2","acceptedAnswers":["sono"]}],"explanation":"…"}
 {"id":"q3","type":"gap_fill","prompt":"Completa. Usa le parole nel riquadro.","text":"…[[g1]]…\n…[[g2]]…","gaps":[{"id":"g1","acceptedAnswers":["abito"]},{"id":"g2","acceptedAnswers":["parli"]}],"wordBank":true,"extraWords":["abiti","parla"],"explanation":"…"}
 {"id":"q4","type":"table_fill","prompt":"Completa la tabella.","columns":["","parlare","prendere"],"rows":[["io",{"id":"t1","acceptedAnswers":["parlo"]},{"id":"t2","acceptedAnswers":["prendo"]}],["tu",{"id":"t3","acceptedAnswers":["parli"]},"prendi"]],"explanation":"…"}
@@ -89,14 +97,17 @@ Jede Aufgabe hat `id` (q1, q2, …), `type`, `prompt` und `explanation`:
 ```
 
 Regeln:
-- `gap_fill`, `gap_choice`: jede Lücke genau einmal als `[[g1]]`, `[[g2]]` … im `text`; 4 bis 10 Lücken. In `acceptedAnswers` **alle** richtigen Varianten (z. B. „sono andato“ und „sono andata“, wenn das Subjekt offen ist; Apostroph als ’ und ' gleichwertig, daje gleicht das selbst ab). Die Grundform in Klammern hinter die Lücke schreiben, wenn sie gebildet werden muss: `Io [[g1]] (parlare) italiano.`
+- `gap_fill`, `gap_choice`: jede Lücke genau einmal als `[[g1]]`, `[[g2]]` … im `text`; 8 bis 12 Lücken. In `acceptedAnswers` **alle** richtigen Varianten (z. B. „sono andato“ und „sono andata“, wenn das Subjekt offen ist; Apostroph als ’ und ' gleichwertig, daje gleicht das selbst ab). Die Grundform in Klammern hinter die Lücke schreiben, wenn sie gebildet werden muss: `Io [[g1]] (parlare) italiano.`
 - `gap_choice`: 2 bis 4 `options` je Lücke, `answer` ist eine davon; Ablenker sind echte Formen derselben Wortart.
 - `table_fill`: Konjugations- oder Formentabellen; jede Zeile hat genau so viele Zellen wie `columns`; feste Zellen als Text.
-- `error_correction`: 3 bis 6 falsche Formen; `wrong` steht genau so im Satz, alles andere ist korrekt.
-- `categorize`: 2 bis 4 Kategorien, 6 bis 12 Einträge.
-- `matching`: 3 bis 8 Paare, bis zu 2 `distractors`.
+- `error_correction`: 6 bis 10 falsche Formen; `wrong` steht genau so im Satz, alles andere ist korrekt.
+- `categorize`: 2 bis 4 Kategorien, 8 bis 12 Einträge.
+- `matching`: 6 bis 8 Paare, bis zu 2 `distractors`.
+- `table_fill`: 6 bis 8 Zeilen.
+- `sentence_completion`: 6 bis 10 Sätze; gut für Umformungen („Trasforma al plurale“, „Rispondi con no, non …“).
+- `short_answer`: nur als Reihe von mindestens 6 Aufgaben in einer Übung.
 - `ordering`: 3 bis 8 Wörter oder Satzteile in der **richtigen** Reihenfolge angeben; daje mischt sie. Nur wenn genau eine Reihenfolge richtig ist.
-- `single_choice`: 3 bis 4 Optionen, genau eine richtig, Position abwechseln.
+- `single_choice`: 3 bis 4 Optionen, genau eine richtig, Position abwechseln; nur als Reihe von mindestens 6 Aufgaben in einer Übung.
 - `open_answer`: höchstens eine pro Thema, nur in der Stufe schwer; wird nicht automatisch bewertet.
 
 ## 7 · Sprache und Wortschatz
@@ -105,10 +116,15 @@ Regeln:
 - Natürliche, alltagsnahe Sätze aus der Welt von Jugendlichen (Schule, Freunde, Familie, Freizeit, Reisen). Keine Wort-für-Wort-Übersetzungen aus dem Deutschen.
 - Akzente und Apostrophe korrekt (è, perché, un’amica, po’).
 
+## 7a · Tippen statt nur Klicken
+
+Lernende sollen viel selbst schreiben. In den Stufen mittel und schwer überwiegen Formate zum Tippen (`gap_fill` ohne Wortkasten, `table_fill`, `error_correction`, `sentence_completion`). Auswahlformate (`gap_choice`, `single_choice`, `categorize`, `matching`) vor allem in der Stufe leicht. Gute Formen zum Tippen: Satz verneinen und korrigieren („No, non abito a Milano, abito a Torino.“), Sätze aus Bausteinen bilden, Fragen zu Antworten schreiben, Umformen (Singular → Plural, Präsens → passato prossimo), gemischte Lückentexte mit Grundform in Klammern.
+
 ## 8 · Eigenkontrolle vor der Ausgabe
 
-Für jede Aufgabe: (1) Ist jede Lösung eindeutig und sind alle richtigen Varianten erfasst? (2) Übt sie wirklich das Thema? (3) Passen Wortschatz und Niveau? (4) Im Modus EIGEN: kein Satz wörtlich aus dem Buch? (5) Im Modus GENAU: nichts verändert außer der Form? Aufgaben mit einem „Nein“ überarbeiten oder streichen.
+Für jede Aufgabe: (1) Ist jede Lösung eindeutig und sind alle richtigen Varianten erfasst? (2) Übt sie wirklich das Thema? (3) Passen Wortschatz und Niveau? (4) Hat jede Übung mindestens 8 Einheiten? (5) Stehen Anweisung, Merkkasten und Erklärung in der Zielsprache, jeweils mit deutscher Fassung (`promptHelp`, `ruleHelp`, `explanationHelp`)? (6) Im Modus EIGEN: kein Satz wörtlich aus dem Buch? (7) Im Modus GENAU: nichts verändert außer der Form; die Anweisung bleibt die aus dem Buch, die deutsche Hilfe ergänzt du. Aufgaben mit einem „Nein“ überarbeiten oder streichen.
 
 ## Änderungen
 
+- 1.1 (Oktober 2026): alles für Lernende in der Zielsprache mit deutscher Hilfe (`promptHelp`, `ruleHelp`, `explanationHelp`); Mindestlänge 8 Einheiten je Übung; mehr Formate zum Tippen.
 - 1.0 (Oktober 2026): erste Fassung.

@@ -6,12 +6,13 @@ Format (eine Datei je Unità, mehrere Themen):
   #!buch series=Corso_daje volume=1 grade=8 cefr=A1 prefix=ecco1   (prefix nur für IDs; IDs nie ändern, sonst gehen Lernstände verloren)
   @thema <id> | <Unità 1> | <Abschnitt, z. B. 1A> | <Titel> | <Reihenfolge>
   @mehr <id>        weitere Übungen zu einem Thema weiter oben anhängen (IDs der vorhandenen bleiben gleich)
-  #regel            danach Merkkasten (Absätze, „- “-Listen, „| a | b |“-Tabellen, **fett**) bis zur nächsten #/%-Zeile
+  #regel            danach Merkkasten in der Zielsprache (einfach!) (Absätze, „- “-Listen, „| a | b |“-Tabellen, **fett**) bis zur nächsten #/%-Zeile
+  #regel-de         derselbe Merkkasten auf Deutsch (per Knopf „Deutsch“)
   #einstieg         danach „- “-Zeilen (Impulse zum Einstieg, für Lehrkräfte und Lernende)
   %übung <leicht|mittel|schwer> | <Titel>
-  ?<typ> [wortkasten] | <Aufgabenstellung>
+  ?<typ> [wortkasten] | <Aufgabenstellung in der Zielsprache> || <dieselbe Anweisung auf Deutsch>
   … Zeilen je Typ …
-  ! Erklärung zur Aufgabe (optional, erscheint nach der Korrektur)
+  ! Erklärung in der Zielsprache || dieselbe Erklärung auf Deutsch (erscheint nach der Korrektur)
 
 Typen:
   auswahl    Satz mit {richtig*|falsch|falsch}; mehrere Lücken je Zeile möglich             → gap_choice
@@ -46,14 +47,20 @@ def alts(s):
 
 class Q:
     def __init__(self, typ, flags, prompt):
-        self.typ, self.flags, self.prompt, self.lines, self.expl = typ, flags, prompt, [], ''
+        prompt, _, help_ = prompt.partition('||')
+        self.typ, self.flags, self.prompt, self.help, self.lines, self.expl = typ, flags, prompt.strip(), help_.strip(), [], ''
 
 
 def build_question(q, qid):
     t, L = q.typ, [l for l in q.lines if l.strip()]
     z = {'id': qid, 'prompt': q.prompt}
+    if q.help:
+        z['promptHelp'] = q.help
     if q.expl:
-        z['explanation'] = q.expl
+        it, _, de = q.expl.partition('||')
+        z['explanation'] = it.strip()
+        if de.strip():
+            z['explanationHelp'] = de.strip()
     if t == 'auswahl':
         gaps, n = [], 0
         def rep(m):
@@ -185,7 +192,7 @@ def parse(path):
             continue
         if line.startswith('@thema'):
             tid, unit, sect, title, order = [x.strip() for x in line[6:].split('|')]
-            cur = {'id': tid, 'unit': unit, 'section': sect, 'title': title, 'order': int(order), 'rule': [], 'warmup': [], 'ex': []}
+            cur = {'id': tid, 'unit': unit, 'section': sect, 'title': title, 'order': int(order), 'rule': [], 'ruleDe': [], 'warmup': [], 'ex': []}
             topics.append(cur)
             mode, ex, q = None, None, None
             continue
@@ -195,6 +202,9 @@ def parse(path):
             if cur is None:
                 raise ValueError(f'{path.name}: @mehr {tid}: Thema nicht gefunden')
             mode, ex, q = None, None, None
+            continue
+        if line.startswith('#regel-de'):
+            mode = 'ruleDe'
             continue
         if line.startswith('#regel'):
             mode = 'rule'
@@ -216,6 +226,8 @@ def parse(path):
             continue
         if mode == 'rule':
             cur['rule'].append(line)
+        elif mode == 'ruleDe':
+            cur['ruleDe'].append(line)
         elif mode == 'warm':
             if line.startswith('- '):
                 cur['warmup'].append(line[2:].strip())
@@ -231,6 +243,7 @@ def packages(book, topics):
     vol = book['volume']
     for t in topics:
         rule = '\n'.join(t['rule']).strip()
+        rule_de = '\n'.join(t['ruleDe']).strip()
         counter = {}
         for e in t['ex']:
             counter[e['level']] = counter.get(e['level'], 0) + 1
@@ -249,7 +262,7 @@ def packages(book, topics):
                 'estimatedMinutes': minutes,
                 'catalog': {'origin': 'textbook', 'textbook': {'series': book['series'], 'volume': vol, 'unit': t['unit'], **({'section': t['section']} if t['section'] else {})},
                             'grade': book['grade'], 'foreignLanguageNo': 3, 'cefr': book['cefr'], 'tags': ['grammatik']},
-                'grammar': {'topic': f"{book['prefix']}-{t['id']}", 'topicTitle': t['title'], 'difficulty': e['level'], 'origin': 'own', 'order': t['order'] * 10 + n, **({'rule': rule} if rule else {})},
+                'grammar': {'topic': f"{book['prefix']}-{t['id']}", 'topicTitle': t['title'], 'difficulty': e['level'], 'origin': 'own', 'order': t['order'] * 10 + n, **({'rule': rule} if rule else {}), **({'ruleHelp': rule_de} if rule_de else {})},
                 'questions': qs,
             }
             if t['warmup']:

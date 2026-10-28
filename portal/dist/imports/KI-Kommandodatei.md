@@ -1,6 +1,6 @@
 # daje · KI-Auftrag Hörverstehen
 
-Version 2.2 · Oktober 2026 · passt zu daje-Paketschema 1.2
+Version 2.3 · Oktober 2026 · passt zu daje-Paketschema 1.2
 Gilt für Gemini, ChatGPT, Claude und andere Sprachmodelle, im Chat wie über die API.
 
 ## 1 · Deine Rolle
@@ -49,10 +49,13 @@ Unbekannte Felder werden ignoriert. Wenn dir ein Feld fehlt, erfinde keins: Schr
 
 ## 4 · Aufgaben (`questions`)
 
-Jede Aufgabe hat `id` (q1, q2, …), `type`, `prompt`, `explanation` und **`evidence`**:
+Jede Aufgabe hat `id` (q1, q2, …), `type`, `prompt`, `promptHelp`, `explanation`, `explanationHelp` und **`evidence`**:
 - `prompt`: Aufgabe in der Zielsprache, sprachlich höchstens auf Zielniveau (bei A1/A2 einfacher als der Hörtext). Beginne mit dem Abschnitt und einem Doppelpunkt (siehe „Aufbau“ unten), z. B. `Primo ascolto: …`.
 - `evidence`: die Stelle aus dem Transkript, an der die Lösung steht, **wörtlich kopiert** (5 bis 25 Wörter, nichts verändern, keine Auslassungspunkte). daje prüft automatisch, ob das Zitat im Transkript vorkommt. Nur bei Aufgaben „vor dem Hören“ darf `evidence` fehlen.
-- `explanation`: 1 bis 2 Sätze auf Deutsch: was gesagt wird und warum die Lösung stimmt. Keine Hinweise auf KI, Prüfstand oder Quellen.
+- `promptHelp`: dieselbe Arbeitsanweisung auf Deutsch (Lernende sehen sie erst nach einem Tipp auf „Auf Deutsch“).
+- `explanation`: 1 bis 2 kurze Sätze **in einfacher Zielsprache**: was gesagt wird und warum die Lösung stimmt.
+- `explanationHelp`: dieselbe Erklärung auf Deutsch. Keine Hinweise auf KI, Prüfstand oder Quellen.
+- Grundsatz: Alles, was Lernende sehen, steht in der Zielsprache; Deutsch nur als zuschaltbare Hilfe.
 - optional `evidenceAt`: Sekunden ab Beginn, nur wenn das Transkript Zeitmarken hat.
 
 ### Die Aufgabentypen (genau so schreiben)
@@ -160,6 +163,8 @@ Bei Liedern (Liedtext) und Filmdialogen: keine Zeilen aus dem Text in `prompt`, 
 Wenn die Lehrkraft Vorschläge für neue Medien möchte (statt Aufgaben): Liste je Kandidat Link, Titel, Anbieter, Sprache, vermutetes Niveau mit kurzer Begründung, Länge (nur wenn ermittelt), ob ein Transkript bzw. Untertitel vorhanden sind, und ob das Video eingebettet werden darf (nur wenn geprüft, sonst „ungeprüft“). Bevorzugt: kurze Originalbeiträge (1 bis 5 Minuten) für ein allgemeines Publikum, ab B1 auch authentische Medien; für A1/A2 klar gesprochene Lernmaterialien. Keine Aufgaben in diesem Schritt.
 
 ## Änderungen
+
+- 2.3: Erklärungen in einfacher Zielsprache, dazu `promptHelp` und `explanationHelp` auf Deutsch.
 
 - 2.2 (Oktober 2026): Aufbau nach Hördurchgängen (Primo, Secondo, Terzo ascolto: global → Detail → genau) oder vor/während/nach; neuer Typ `sentence_completion`; Wortkasten beim Lückentext.
 

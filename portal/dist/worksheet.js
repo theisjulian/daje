@@ -247,7 +247,7 @@ function wsSheetHTML(sheets, sol, { title = '', rule = true } = {}) {
                 const ins = (t.ins[q.type] || '').replace('{n}', q.items ? q.items.length : '');
                 const m = q.prompt.match(QUESTION_PHASE);
                 const prompt = m ? q.prompt.slice(m[0].length) : q.prompt;
-                return `<li class="hb-q"><div class="hb-qh"><b class="n">${no}</b><span class="hb-pt">${esc(t.pt(hbPoints(q)))}</span><div class="hb-ins">${esc(ins)}</div><div class="hb-p">${esc(prompt)}</div></div>${hbBody(q, t, !!sol)}${sol && q.explanation ? `<p class="hb-ex">${esc(visibleText(q.explanation))}</p>` : ''}</li>`;
+                return `<li class="hb-q"><div class="hb-qh"><b class="n">${no}</b><span class="hb-pt">${esc(t.pt(hbPoints(q)))}</span><div class="hb-ins">${esc(ins)}</div><div class="hb-p">${esc(prompt)}${q.promptHelp ? ` <span class="hb-help">(${esc(q.promptHelp)})</span>` : ''}</div></div>${hbBody(q, t, !!sol)}${sol && q.explanation ? `<p class="hb-ex">${esc(visibleText(q.explanation))}</p>` : ''}</li>`;
               })
               .join('');
             return sol === 2 ? '' : sec + r + link + qs;

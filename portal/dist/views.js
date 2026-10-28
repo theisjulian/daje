@@ -644,16 +644,39 @@ function questionHTML(x, q, index, state) {
       ? `<div class="q-key"><b>Lösung:</b> ${esc(solutionText(q))}${q.type === 'short_answer' ? `<br><span class="muted">Weitere Varianten: ${esc(q.acceptedAnswers.join(' / '))}</span>` : ''}</div>`
       : '';
   const feedback = state.checked && q.type === 'open_answer'
-    ? `<div class="listen-feedback open"><b>Mögliche Lösung</b>${q.modelAnswer ? `<p lang="${x.language}">${esc(q.modelAnswer)}</p>` : ''}<small>Vergleiche deine Antwort selbst mit der möglichen Lösung.</small>${q.explanation ? `<p>${timeLinks(esc(visibleText(q.explanation)))}</p>` : ''}</div>`
+    ? `<div class="listen-feedback open"><b>Mögliche Lösung</b>${q.modelAnswer ? `<p lang="${x.language}">${esc(q.modelAnswer)}</p>` : ''}<small>Vergleiche deine Antwort selbst mit der möglichen Lösung.</small>${q.explanation ? `<p>${timeLinks(esc(visibleText(q.explanation)))}</p>` : ''}${q.explanationHelp ? helpToggleHTML(q.explanationHelp) : ''}</div>`
     : state.checked
-    ? `<div class="listen-feedback ${correct ? 'correct' : 'wrong'}"><b>${correct ? 'Richtig erkannt' : value ? 'Noch nicht erkannt' : 'Noch keine Antwort'}</b>${correct ? '' : `<div>Lösung: ${esc(solutionText(q))}</div>`}<p>${timeLinks(esc(visibleText(q.explanation)))}</p>${q.type === 'short_answer' && !correct ? '<small>Andere passende Formulierungen sind möglich. Vergleiche selbst mit der Musterlösung.</small>' : ''}</div>`
+    ? `<div class="listen-feedback ${correct ? 'correct' : 'wrong'}"><b>${correct ? 'Richtig erkannt' : value ? 'Noch nicht erkannt' : 'Noch keine Antwort'}</b>${correct ? '' : `<div>Lösung: ${esc(solutionText(q))}</div>`}<p${q.explanationHelp ? ` lang="${x.language}"` : ''}>${timeLinks(esc(visibleText(q.explanation)))}</p>${q.explanationHelp ? helpToggleHTML(q.explanationHelp) : ''}${q.type === 'short_answer' && !correct ? '<small>Andere passende Formulierungen sind möglich. Vergleiche selbst mit der Musterlösung.</small>' : ''}</div>`
     : '';
   const phase = q.prompt.match(QUESTION_PHASE);
   const prompt = phase ? q.prompt.slice(phase[0].length) : q.prompt;
   return `<fieldset class="q${index === focusIndex ? ' is-current' : ''}" id="q-${esc(q.id)}" data-index="${index}"><legend class="sr-only">Frage ${index + 1}: ${esc(q.prompt)}</legend>
     <div class="q-head" aria-hidden="true"><span class="q-num">${index + 1}</span><div><div class="q-type">${phase ? `<span class="q-phase">${esc(phase[1])}</span>` : ''}${LISTENING_FORMAT_LABELS[q.type]}</div><div class="q-prompt">${esc(prompt)}</div></div></div>
-    <div class="q-options">${field}</div>${key}${feedback}</fieldset>`;
+    ${q.promptHelp ? helpToggleHTML(q.promptHelp) : ''}<div class="q-options">${field}</div>${key}${feedback}</fieldset>`;
 }
+/* Hilfe in der Muttersprache: Anweisung bzw. Merkkasten bleiben in der Zielsprache, ein Tipp zeigt die deutsche Fassung. */
+function helpToggleHTML(text) {
+  return `<div class="q-help-row"><button type="button" class="q-help-btn" data-help-toggle aria-expanded="false">Auf Deutsch</button><p class="q-help" lang="de" hidden>${esc(text)}</p></div>`;
+}
+function ruleBodyHTML(rule, ruleHelp, lang) {
+  return ruleHelp
+    ? `<div class="rule-langs" role="group" aria-label="Sprache des Merkkastens"><button type="button" class="chip" data-rule-lang="it" aria-pressed="true">Italiano</button><button type="button" class="chip" data-rule-lang="de" aria-pressed="false">Deutsch</button></div><div class="rule-body" data-rule-body="it" lang="${lang}">${ruleHTML(rule, lang)}</div><div class="rule-body" data-rule-body="de" lang="de" hidden>${ruleHTML(ruleHelp, lang)}</div>`
+    : `<div class="rule-body">${ruleHTML(rule, lang)}</div>`;
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-help-toggle],[data-rule-lang]');
+  if (!b) return;
+  if (b.hasAttribute('data-help-toggle')) {
+    const p = b.nextElementSibling;
+    p.hidden = !p.hidden;
+    b.setAttribute('aria-expanded', String(!p.hidden));
+    b.textContent = p.hidden ? 'Auf Deutsch' : 'Ausblenden';
+    return;
+  }
+  const box = b.closest('.rule-card');
+  box.querySelectorAll('[data-rule-lang]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+  box.querySelectorAll('[data-rule-body]').forEach(x => (x.hidden = x.dataset.ruleBody !== b.dataset.ruleLang));
+});
 
 /* Abschnitt am Anfang einer Aufgabe („Prima dell’ascolto: …“) wird als Etikett gezeigt. */
 const QUESTION_PHASE =
@@ -851,7 +874,7 @@ function ruleHTML(text, lang) {
 const GRAMMAR_LEVELS = { leicht: 'einfach', mittel: 'mittel', schwer: 'schwer' };
 function grammarSideHTML(x) {
   const g = x.grammar;
-  return g.rule ? `<details class="rule-card" open><summary><span class="eyebrow">Merkkasten</span><b>${esc(g.topicTitle)}</b></summary><div class="rule-body">${ruleHTML(g.rule, x.language)}</div></details>` : '';
+  return g.rule ? `<details class="rule-card" open><summary><span class="eyebrow">Merkkasten</span><b>${esc(g.topicTitle)}</b></summary>${ruleBodyHTML(g.rule, g.ruleHelp, x.language)}</details>` : '';
 }
 function renderListening(preview = false) {
   const x = currentLesson();

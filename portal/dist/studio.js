@@ -226,6 +226,7 @@ function edClean(x) {
   if (y.kind === 'grammar') {
     y.grammar.topicTitle = y.grammar.topicTitle.trim();
     if (!(y.grammar.rule || '').trim()) delete y.grammar.rule;
+    if (!(y.grammar.ruleHelp || '').trim()) delete y.grammar.ruleHelp;
   }
   if (y.kind === 'listening' || y.kind === 'grammar') {
     y.questions = y.questions.map(q => {
@@ -630,7 +631,8 @@ function editorFormHTML(item) {
         ['original', 'Unverändert aus dem Buch', 'Bleibt privat: nur für dich und deine Klasse, nicht einreichbar und nicht veröffentlichbar.']
       ].map(([v, l, d]) => `<label class="ed-right ${g.origin === v ? 'on' : ''}"><input type="radio" name="ed-origin" data-ed="gOrigin" value="${v}" ${g.origin === v ? 'checked' : ''}><span><b>${l}</b><small>${d}</small></span></label>`).join('')}</div>
       ${orig ? '<p class="small warn">Unveränderte Buchübung: bleibt privat.</p>' : ''}
-      ${edField('Merkkasten (optional)', `<textarea data-ed="gRule" rows="6" maxlength="4000" spellcheck="false" placeholder="Kurze Regel. Listen mit „- “, Tabellen mit „|“, **fett**, _Beispiel_">${esc(g.rule || '')}</textarea>`, 'Erscheint über den Übungen des Themas. Ein Merkkasten pro Thema genügt.')}
+      ${edField('Merkkasten (optional, in der Zielsprache)', `<textarea data-ed="gRule" rows="6" maxlength="4000" spellcheck="false" placeholder="Kurze Regel. Listen mit „- “, Tabellen mit „|“, **fett**, _Beispiel_">${esc(g.rule || '')}</textarea>`, 'Erscheint über den Übungen des Themas. Ein Merkkasten pro Thema genügt.')}
+      ${edField('Merkkasten auf Deutsch (Hilfe, optional)', `<textarea data-ed="gRuleHelp" rows="4" maxlength="4000" spellcheck="false">${esc(g.ruleHelp || '')}</textarea>`)}
     </section>
     ${tasksBox()}${open ? '' : rights}`;
   }
@@ -865,9 +867,10 @@ function edQuestionHTML(q, i, n) {
   return `<div class="ed-q"><div class="ed-qhead"><b>${i + 1}</b>${editable ? `<select data-ed-q="${i}" data-k="type">${FORMAT_GROUPS.map(([g, list]) => `<optgroup label="${esc(g)}">${list.map(([t]) => `<option value="${t}" ${t === q.type ? 'selected' : ''}>${esc(edTypeLabel(t))}</option>`).join('')}</optgroup>`).join('')}</select>` : ''}${tools}</div>
     ${edField('Abschnitt', `<select data-ed-q="${i}" data-k="phase"><option value="">ohne Abschnitt</option>${PHASE_LABELS.map(([k, l]) => `<option value="${k}" ${promptPhase(q.prompt)[0] === k ? 'selected' : ''}>${l}</option>`).join('')}</select>`)}
     ${edField(['true_false', 'true_false_ng'].includes(q.type) ? 'Aussage' : ['single_choice', 'multiple_choice', 'short_answer', 'open_answer'].includes(q.type) ? 'Frage' : 'Arbeitsanweisung', `<input data-ed-q="${i}" data-k="prompt" maxlength="1000" value="${esc(promptPhase(q.prompt)[2])}" placeholder="${esc(ED_PROMPT_HINT[q.type] || '')}">`)}
+    ${edField('Anweisung auf Deutsch (Hilfe, optional)', `<input data-ed-q="${i}" data-k="promptHelp" maxlength="500" value="${esc(q.promptHelp || '')}" placeholder="erscheint nach Tipp auf „Auf Deutsch“">`)}
     ${body}
     ${q.evidence ? edEvidenceHTML(q) : ''}
-    ${editable ? edField('Erklärung nach der Korrektur (optional)', `<input data-ed-q="${i}" data-k="explanation" maxlength="1500" value="${esc(q.explanation || '')}">`) : ''}
+    ${editable ? edField('Erklärung nach der Korrektur (optional)', `<input data-ed-q="${i}" data-k="explanation" maxlength="1500" value="${esc(q.explanation || '')}">`) + edField('Erklärung auf Deutsch (Hilfe, optional)', `<input data-ed-q="${i}" data-k="explanationHelp" maxlength="1500" value="${esc(q.explanationHelp || '')}">`) : ''}
   </div>`;
 }
 /* Belegzitat der KI: grün, wenn es im Transkript steht; sonst zur Prüfung markiert. */
@@ -1042,6 +1045,7 @@ document.addEventListener('input', e => {
   else if (k === 'transcript') x.transcript = t.value;
   else if (k === 'gTopic') edSetTopic(x, t.value);
   else if (k === 'gRule') x.grammar.rule = t.value;
+  else if (k === 'gRuleHelp') x.grammar.ruleHelp = t.value;
   else if (k === 'lines') {
     x.entries = edLines(t.value);
     const c = $('ed-count');
@@ -1051,6 +1055,10 @@ document.addEventListener('input', e => {
     const f = t.dataset.k;
     if (f === 'prompt') q.prompt = promptPhase(q.prompt)[1] + t.value;
     else if (f === 'explanation') q.explanation = t.value;
+    else if (f === 'promptHelp' || f === 'explanationHelp') {
+      if (t.value.trim()) q[f] = t.value;
+      else delete q[f];
+    }
     else if (f === 'scItems')
       q.items = edLinesOf(t.value).slice(0, 8).map((l, j) => {
         const k = l.lastIndexOf('=');

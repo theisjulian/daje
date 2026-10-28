@@ -160,6 +160,7 @@
         if (!['own', 'adapted', 'original'].includes(g.origin || 'own')) fail('grammar.origin', 'own, adapted oder original erwartet');
         else out.grammar.origin = g.origin || 'own';
         if (g.rule !== undefined && g.rule !== '') out.grammar.rule = str(g.rule, 'grammar.rule', 4000);
+        if (g.ruleHelp !== undefined && g.ruleHelp !== '') out.grammar.ruleHelp = str(g.ruleHelp, 'grammar.ruleHelp', 4000);
         if (g.order !== undefined) {
           if (!Number.isInteger(g.order) || g.order < 0 || g.order > 9999) fail('grammar.order', 'ganze Zahl erwartet');
           else out.grammar.order = g.order;
@@ -241,6 +242,9 @@
           prompt: str(q.prompt, path + '.prompt', 1000),
           explanation: str(q.explanation, path + '.explanation', 1500, true)
         };
+        // Hilfe zur Arbeitsanweisung in der Muttersprache (z. B. Deutsch), per Knopf einblendbar.
+        if (q.promptHelp !== undefined && q.promptHelp !== '') z.promptHelp = str(q.promptHelp, path + '.promptHelp', 500);
+        if (q.explanationHelp !== undefined && q.explanationHelp !== '') z.explanationHelp = str(q.explanationHelp, path + '.explanationHelp', 1500);
         if (q.evidenceAt !== undefined) {
           if (!Number.isInteger(q.evidenceAt) || q.evidenceAt < 0 || q.evidenceAt > 86400)
             fail(path + '.evidenceAt', 'ganze Sekunden erwartet');

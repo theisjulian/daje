@@ -161,7 +161,7 @@ function hbHTML(x, sol) {
     const head = m && m[1] !== phase ? `<li class="hb-phase">${esc(m[1])}</li>` : '';
     if (m) phase = m[1];
     const prompt = m ? q.prompt.slice(m[0].length) : q.prompt;
-    return `${head}<li class="hb-q"><div class="hb-qh"><b class="n">${i + 1}</b><span class="hb-pt">${esc(t.pt(hbPoints(q)))}</span><div class="hb-ins">${esc(ins)}</div><div class="hb-p">${esc(prompt)}</div></div>${hbBody(q, t, sol)}${sol && q.explanation ? `<p class="hb-ex">${esc(visibleText(q.explanation))}</p>` : ''}</li>`;
+    return `${head}<li class="hb-q"><div class="hb-qh"><b class="n">${i + 1}</b><span class="hb-pt">${esc(t.pt(hbPoints(q)))}</span><div class="hb-ins">${esc(ins)}</div><div class="hb-p">${esc(prompt)}${q.promptHelp ? ` <span class="hb-help">(${esc(q.promptHelp)})</span>` : ''}</div></div>${hbBody(q, t, sol)}${sol && q.explanation ? `<p class="hb-ex">${esc(visibleText(q.explanation))}</p>` : ''}</li>`;
   }).join('');
   const speech = x.media?.type === 'speech';
   return `<div class="hb${sol && hbOpt.compact ? ' hb-compact' : ''}"><header class="hb-top"><b>theis · ${DOC_BRAND}</b><span>${esc(sol ? (hbOpt.compact ? t.kKey : t.key) : t.sheet)}</span></header>

@@ -440,6 +440,7 @@
         questions: qs
       };
       if (topic.rule && !n) pkg.grammar.rule = String(topic.rule).slice(0, 4000);
+      if (topic.ruleHelp && !n) pkg.grammar.ruleHelp = String(topic.ruleHelp).slice(0, 4000);
       if (textbook) pkg.catalog = { origin: 'textbook', textbook: { ...textbook }, tags: ['grammatik'] };
       if (inp.grade && pkg.catalog) pkg.catalog.grade = Number(inp.grade);
       if (ex.teacherNotes && typeof ex.teacherNotes === 'object') pkg.teacherNotes = ex.teacherNotes;

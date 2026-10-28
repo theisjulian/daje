@@ -8369,3 +8369,11 @@ img.yt-thumb.yt-box {
 
 /* Kurze Lücken (Endungen wie -a, -i, Artikel l') schmal halten */
 .gap.gap-short { width: 3.4em; min-width: 0; padding: 0 4px; }
+
+/* Hilfe auf Deutsch zu Anweisung und Merkkasten */
+.q-help-row { margin: -2px 0 10px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; }
+.q-help-btn { border: 0; background: none; color: var(--blue); font: inherit; font-size: 13px; font-weight: 600; padding: 2px 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.q-help { margin: 0; font-size: 14px; color: var(--label-2); flex-basis: 100%; }
+.rule-langs { display: flex; gap: 6px; margin: 4px 0 10px; }
+.rule-langs .chip { min-height: 30px; padding: 0 12px; font-size: 13px; }
+.hb-help { font-size: .85em; color: #555; font-style: italic; }

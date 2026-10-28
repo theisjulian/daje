@@ -785,6 +785,12 @@ function uiTranslateText(source) {
   if (uiLocale === 'de') return source;
   const exact = uiExact(source);
   if (exact !== null) return exact;
+  // Vorsatz „+ “ (Knöpfe) und „· “ (Aufzählung) abtrennen und den Rest übersetzen.
+  const pre = source.match(/^([+·]\s*)(.+)$/);
+  if (pre) {
+    const rest = uiTranslateText(pre[2]);
+    if (rest !== pre[2]) return pre[1] + rest;
+  }
   if (source.includes(' · ')) {
     const parts = source.split(' · ');
     const mapped = parts.map(p => uiTranslateText(p));
@@ -810,6 +816,7 @@ function uiTranslateText(source) {
       ['Abbina a «$1»', 'Matches “$1”', 'Correspond à « $1 »', 'Va con «$1»']
     ],
     [/^Lücke (\d+)$/, ['Spazio $1', 'Gap $1', 'Trou $1', 'Spazio $1']],
+    [/^QR-Code zu (.+)$/, ['Codice QR per $1', 'QR code for $1', 'Code QR pour $1', 'Codice QR: $1']],
     [
       /^Position für „(.+)“$/,
       ['Posizione per «$1»', 'Position for “$1”', 'Position pour « $1 »', 'Posizione per «$1»']
