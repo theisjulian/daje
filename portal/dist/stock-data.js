@@ -825,10 +825,10 @@ const STOCK_PACKAGES = [
   "schemaVersion": "1.2",
   "kind": "vocabulary",
   "id": "eigen-mvrwii4ucilr",
-  "title": "Ecco 3 più · Unità 1 (S. 166–170)",
+  "title": "Ecco più 3 · Unità 1",
   "language": "it",
   "level": "B1",
-  "description": "Vokabelliste zur Unità 1 des Lehrwerks Ecco 3 più (Seiten 166 bis 170).",
+  "description": "Wortschatz zur Unità 1 aus Ecco più 3 (Lista cronologica, S. 166–170).",
   "topics": [
    "Tradizione",
    "Roma e Venezia",
@@ -837,7 +837,7 @@ const STOCK_PACKAGES = [
   "sources": [
    {
     "kind": "provided",
-    "citation": "Ecco 3 più, S. 166-170 (Vokabelteil); Beispielsätze mit KI-Unterstützung eigens formuliert.",
+    "citation": "Ecco più 3, Cornelsen, Lista cronologica, S. 166-170 (Vokabelteil); Beispielsätze mit KI-Unterstützung eigens formuliert.",
     "url": "",
     "rights": "cleared"
    }
@@ -847,16 +847,28 @@ const STOCK_PACKAGES = [
   "catalog": {
    "origin": "textbook",
    "textbook": {
-    "series": "Ecco 3 più",
-    "section": "Unità 1",
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "3",
+    "unit": "Unità 1",
     "pages": "166-170"
    },
    "grade": 10,
-   "cefr": "B1"
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "themes": [
+    "Tradizione",
+    "Roma e Venezia",
+    "Cultura e società"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
   },
   "translationLanguage": "de",
-  "collection": "Ecco 3 più",
-  "section": "Ecco 3 più · Unità 1 (S. 166–170)",
+  "collection": "Ecco più 3 (Cornelsen)",
+  "section": "Unità 1",
   "entries": [
    {
     "id": "w1",
@@ -892,14 +904,12 @@ const STOCK_PACKAGES = [
     "id": "w3",
     "target": "l'intellettuale",
     "translations": [
-     "der",
-     "die Intellektuelle"
+     "der/die Intellektuelle"
     ],
     "acceptedAnswers": [],
     "example": "Molti intellettuali hanno partecipato al dibattito politico.",
     "definition": "",
     "page": "166",
-    "say": "l'intellettuale, il collega, la collega",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "unknown"
@@ -1587,9 +1597,7 @@ const STOCK_PACKAGES = [
     "id": "w49",
     "target": "lo spettatore",
     "translations": [
-     "der",
-     "die Zuschauer",
-     "in"
+     "der/die Zuschauer/in"
     ],
     "acceptedAnswers": [],
     "example": "Gli spettatori hanno applaudito alla fine dello spettacolo.",

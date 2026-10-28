@@ -50,6 +50,27 @@ console.log('KI-Import: Antwort lesen, Paket ergänzen, Belege prüfen passed.')
   assert.equal(b.result.value.sources[0].rights, 'cleared');
   assert.equal(b.result.value.catalog.textbook.pages, '170-171');
   assert.equal(b.evidence.length, 0);
+  // Lehrwerk wie im Grundstock (Reihe + Band), dritte Spalte, Schrägstrich-Formen, Sprechform nur zum Eintrag
+  const e3 = KI.buildVocabulary(
+    { entries: [
+      { target: "l'intellettuale", translations: ['der/die Intellektuelle'], partOfSpeech: 'noun', example: 'Molti intellettuali scrivono.', definition: 'Una persona che pensa e scrive.', say: "l'intellettuale, il collega, la collega", synonyms: 'il pensatore', antonyms: '', family: "l'intelletto", related: 'E intellectual; F intellectuel' },
+      { target: 'lo spettatore', translations: ['der/die Zuschauer/in'], say: '' },
+      { target: 'grazie a qc', translations: ['dank etw.'], say: 'grazie a qualcosa' }
+    ] },
+    { language: 'it', level: 'B1', mode: 'buch', collection: 'Ecco 3 più', unit: 'Unità 1', pages: '166-170', publisher: 'Cornelsen' },
+    validatePackage
+  );
+  assert.ok(e3.result.ok, JSON.stringify(e3.result.errors));
+  const v3 = e3.result.value;
+  assert.deepEqual(v3.catalog.textbook, { publisher: 'Cornelsen', series: 'Ecco più', volume: '3', unit: 'Unità 1', pages: '166-170' });
+  assert.equal(v3.title, 'Ecco più 3 · Unità 1');
+  assert.deepEqual(v3.entries[0].translations, ['der/die Intellektuelle']);
+  assert.deepEqual(v3.entries[1].translations, ['der/die Zuschauer/in']);
+  assert.ok(!('say' in v3.entries[0]), 'kopiertes Muster entfernt');
+  assert.equal(v3.entries[2].say, 'grazie a qualcosa');
+  assert.equal(v3.entries[0].synonyms, 'il pensatore');
+  assert.equal(v3.entries[0].family, "l'intelletto");
+  assert.equal(v3.entries[0].related, 'E intellectual; F intellectuel');
   const cmd = fs.readFileSync(__dirname + '/../dist/imports/KI-Wortschatz.md', 'utf8');
   const pt = KI.promptForVocab(cmd, { language: 'it', level: 'B2', mode: 'text', text, count: 20 });
   assert.match(pt, /### Text\n\nNegli ultimi anni/);

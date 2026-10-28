@@ -339,15 +339,52 @@ document.addEventListener('click', async e => {
   renderStudio();
 });
 
+/* Eigenes Foto als Titelbild (verkleinert und eingebettet) oder Foto entfernen. */
+function edSetCover(change, message) {
+  const item = edItem();
+  if (!item) return;
+  edCommit();
+  const base = structuredClone(item.draft || item.payload);
+  change(base);
+  base.sources = (base.sources || []).filter(s => !String(s.citation || '').startsWith('Titelbild:'));
+  item.draft = base;
+  const v = TheisContent.validatePackage(base);
+  if (v.ok) item.payload = v.value;
+  edWork = null;
+  saveEditorState();
+  editorMessage = message;
+  renderStudio();
+}
+document.addEventListener('change', async e => {
+  const input = e.target.closest('[data-portal="cover-upload"]');
+  if (!input || !input.files[0]) return;
+  try {
+    const dataUrl = await shrinkToDataUrl(input.files[0]);
+    if (!dataUrl) throw new Error('Das Foto ist zu groß.');
+    edSetCover(p => {
+      p.coverImage = dataUrl;
+      p.coverCredit = 'Eigenes Foto';
+      delete p.coverQuery;
+    }, 'Foto als Titelbild gespeichert.');
+  } catch (err) {
+    toast('Foto nicht übernommen: ' + (err.message || 'unbekanntes Format'));
+  }
+});
+document.addEventListener('click', e => {
+  if (!e.target.closest('[data-portal="cover-remove"]')) return;
+  edSetCover(p => {
+    delete p.coverImage;
+    delete p.coverCredit;
+  }, 'Titelbild entfernt.');
+});
+
 /* ---------- Alles bearbeiten (JSON) ---------- */
 {
   const formBase = editorFormHTML;
   editorFormHTML = function (item) {
-    const x = edWork || item.draft || item.payload,
-      cover =
-        x.kind === 'listening'
-          ? `<details class="editor-cover ed-box"><summary>Titelbild (optional)</summary><p class="small muted">Ohne Foto erhält die Übung ein gestaltetes Titelbild in der Farbe der Sprache.</p>${x.coverImage ? `<img src="${esc(x.coverImage)}" alt="" loading="lazy">` : '<p class="small muted">Noch kein eigenes Titelbild.</p>'}<label class="field">Suchbegriff (Englisch, konkretes Motiv)<input id="edit-cover-query" maxlength="120" value="${esc(x.coverQuery || '')}" placeholder="z. B. italian fruit market"></label><button type="button" class="button secondary" data-portal="cover-find">Freies Foto suchen</button>${x.coverCredit ? `<p class="small muted">${esc(x.coverCredit)}</p>` : ''}</details>`
-          : '';
+    const x = edWork || item.draft || item.payload;
+    const voc = x.kind === 'vocabulary';
+    const cover = `<details class="editor-cover ed-box"><summary>Titelbild${x.coverImage ? ' · eigenes Foto' : ' (optional)'}</summary><p class="small muted">${voc ? 'Erscheint auf der Karte der Liste im Wortschatz (bei Lehrwerken auf dem Buch).' : 'YouTube-Videos zeigen ihr eigenes Titelbild.'} Ohne Foto erhält ${voc ? 'die Liste' : 'die Übung'} ein gestaltetes Titelbild in der Farbe der Sprache.</p>${x.coverImage ? `<img src="${esc(x.coverImage)}" alt="" loading="lazy">` : ''}<div class="ki-actions"><label class="button secondary">Eigenes Foto wählen<input type="file" accept="image/*" data-portal="cover-upload" hidden></label>${x.coverImage ? '<button type="button" class="quiet danger" data-portal="cover-remove">Foto entfernen</button>' : ''}</div><label class="field">Oder ein freies Foto suchen (Englisch, konkretes Motiv)<input id="edit-cover-query" maxlength="120" value="${esc(x.coverQuery || '')}" placeholder="${voc ? 'z. B. rome colosseum' : 'z. B. italian fruit market'}"></label><button type="button" class="button secondary" data-portal="cover-find">Freies Foto suchen</button>${x.coverCredit ? `<p class="small muted">${esc(x.coverCredit)}</p>` : ''}</details>`;
     const raw = `<details class="editor-media editor-raw ed-box"><summary>Alles bearbeiten (JSON, für Fortgeschrittene)</summary><p class="small muted">Hier lässt sich jedes Feld ändern, auch Aufgabentypen und Bilder. Gespeichert wird erst nach erfolgreicher Prüfung.</p><textarea id="edit-raw" rows="16" spellcheck="false">${esc(JSON.stringify(x, null, 2))}</textarea><button type="button" class="button secondary" data-portal="raw-save">JSON prüfen und speichern</button></details>`;
     return formBase(item) + cover + raw;
   };

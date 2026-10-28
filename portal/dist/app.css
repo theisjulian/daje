@@ -8236,3 +8236,14 @@ img.yt-thumb.yt-box {
 .xhero-art img.yt-thumb {
   object-fit: cover;
 }
+/* Synonyme, Gegenteil, Wortfamilie auf der Karteikarte */
+.card-links{display:flex;flex-direction:column;align-items:center;gap:4px;margin:10px 0 0;font-size:.92rem}
+.card-links .lnk b{display:inline-block;min-width:1.4em;color:var(--accent2,var(--blue));font-weight:700}
+/* Wortlisten mit Foto: Buch mit Bild (Text bleibt lesbar), Themenkarte mit Bild oben */
+.ws-cover.has-img{background:var(--bk)}
+.ws-cover .wc-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.ws-cover.has-img::before{content:'';position:absolute;inset:0;z-index:0;background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,.05) 45%,rgba(0,0,0,.65))}
+.ws-cover.has-img>span{position:relative;z-index:1;text-shadow:0 1px 6px rgba(0,0,0,.45)}
+.ws-coll.has-img{padding-top:0;overflow:hidden}
+.ws-coll .ws-img{display:block;margin:0 -22px 6px;aspect-ratio:16/7;overflow:hidden}
+.ws-coll .ws-img img{width:100%;height:100%;object-fit:cover;display:block}

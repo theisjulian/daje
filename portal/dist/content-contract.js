@@ -124,6 +124,23 @@
       if (c.curriculum !== undefined) k.curriculum = str(c.curriculum, 'catalog.curriculum', 200);
       out.catalog = k;
     }
+    // Titelbild (Hörübungen und Wortlisten): Pfad im Projekt oder eingebettetes, verkleinertes Foto.
+    const coverFields = () => {
+      if (a.coverImage !== undefined) {
+        if (
+          typeof a.coverImage !== 'string' ||
+          !(
+            /^assets\/covers\/[a-z0-9][a-z0-9-]*\.(jpg|jpeg|png|webp)$/.test(a.coverImage) ||
+            (a.coverImage.length < 400000 &&
+              /^data:image\/(jpeg|webp|png);base64,[A-Za-z0-9+/=]+$/.test(a.coverImage))
+          )
+        )
+          fail('coverImage', 'Pfad assets/covers/<id>.jpg oder eingebettetes Bild erwartet');
+        else out.coverImage = a.coverImage;
+      }
+      if (a.coverQuery !== undefined) out.coverQuery = str(a.coverQuery, 'coverQuery', 120);
+      if (a.coverCredit !== undefined) out.coverCredit = str(a.coverCredit, 'coverCredit', 1000);
+  };
     if (a.kind === 'listening') {
       out.estimatedMinutes = a.estimatedMinutes;
       if (
@@ -178,20 +195,7 @@
         for (const f of ['steps', 'tips', 'followUp'])
           if (t[f] !== undefined) out.teacherNotes[f] = strings(t[f], 'teacherNotes.' + f, 10);
       }
-      if (a.coverImage !== undefined) {
-        if (
-          typeof a.coverImage !== 'string' ||
-          !(
-            /^assets\/covers\/[a-z0-9][a-z0-9-]*\.(jpg|jpeg|png|webp)$/.test(a.coverImage) ||
-            (a.coverImage.length < 400000 &&
-              /^data:image\/(jpeg|webp|png);base64,[A-Za-z0-9+/=]+$/.test(a.coverImage))
-          )
-        )
-          fail('coverImage', 'Pfad assets/covers/<id>.jpg oder eingebettetes Bild erwartet');
-        else out.coverImage = a.coverImage;
-      }
-      if (a.coverQuery !== undefined) out.coverQuery = str(a.coverQuery, 'coverQuery', 120);
-      if (a.coverCredit !== undefined) out.coverCredit = str(a.coverCredit, 'coverCredit', 1000);
+      coverFields();
       if (a.transcriptOrigin !== undefined) {
         if (!['provider', 'auto', 'own', 'reviewed'].includes(a.transcriptOrigin))
           fail('transcriptOrigin', 'provider, auto, own oder reviewed erwartet');
@@ -401,6 +405,7 @@
         fail('translationLanguage', 'Version 1 unterstützt Deutsch als Übersetzungssprache');
       out.collection = str(a.collection, 'collection', 160);
       out.section = str(a.section, 'section', 120);
+      coverFields();
       const seen = new Set();
       out.entries = arr(a.entries, 'entries', 1, 1000).map((w, i) => {
         const path = 'entries[' + i + ']';
@@ -423,6 +428,9 @@
         if (w.tags !== undefined) z.tags = strings(w.tags, path + '.tags', 8);
         if (w.page !== undefined && w.page !== '') z.page = str(w.page, path + '.page', 30);
         if (w.related !== undefined && w.related !== '') z.related = str(w.related, path + '.related', 300);
+        // Wie die dritte Spalte im Schulbuch: Synonyme (≈), Gegenteil (↔), Wortfamilie (→).
+        for (const f of ['synonyms', 'antonyms', 'family'])
+          if (w[f] !== undefined && w[f] !== '') z[f] = str(w[f], path + '.' + f, 300);
         // Sprechform für die Sprachausgabe, wenn die Schreibweise so nicht vorlesbar ist (z. B. „bello/-a“ → „bello, bella“).
         if (w.say !== undefined && w.say !== '') z.say = str(w.say, path + '.say', 300);
         if (w.ipa !== undefined && w.ipa !== '') z.ipa = str(w.ipa, path + '.ipa', 120);

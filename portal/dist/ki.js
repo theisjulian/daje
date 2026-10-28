@@ -230,6 +230,18 @@
    * inp: { language, level, mode ('buch' | 'text'), text, id, collection, section, pages, grade }
    * Ergebnis wie buildPackage; evidence nur bei Quelle Text (Fundstelle im Text).
    */
+  /* Sprechform nur übernehmen, wenn sie zum Wort gehört: Teile ohne gemeinsamen Wortanfang mit dem Eintrag
+     (z. B. ein aus der Anleitung kopiertes Beispiel „il collega, la collega“) fallen weg, einzelne Wörter wie „qualcosa“ bleiben; bleibt nur das Wort selbst, ist sie überflüssig. */
+  function cleanSay(say, target) {
+    const norm = t => String(t).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    const stems = norm(target).split(/[^\p{L}]+/u).filter(x => x.length >= 3).map(x => x.slice(0, 3));
+    const parts = String(say || '')
+      .split(/\s*,\s*/)
+      .map(x => x.trim())
+      .filter(x => x && (!stems.length || !/\s/.test(x) || norm(x).split(/[^\p{L}]+/u).some(word => stems.some(st => word.startsWith(st)))));
+    const out = parts.join(', ').slice(0, 300);
+    return out && norm(out) !== norm(target) ? out : '';
+  }
   const POS = ['noun', 'verb', 'adjective', 'phrase', 'other'];
   const GENDER = ['masculine', 'feminine', 'neuter', 'common', 'unknown'];
   function buildVocabulary(ai, inp, validate) {
@@ -245,13 +257,26 @@
       const k = target.toLowerCase();
       if (seen.has(k)) return;
       seen.add(k);
+      // „das Viertel / der Stadtteil“ trennen, „der/die Intellektuelle“ aber zusammenlassen (Artikel vor dem Schrägstrich).
       const tr = arr(w.translations)
-        .flatMap(t => String(t).split(/\s*\/\s*/))
+        .flatMap(t =>
+          String(t)
+            .split(/\s*\/\s*/)
+            .reduce((out, part) => {
+              const prev = out[out.length - 1];
+              if (prev !== undefined && (/^(der|die|das|ein|eine|einer|jd|jdn|jdm|etw)\.?$/i.test(prev.trim()) || /^(in|innen|e|r|n)$/.test(part.trim())))
+                out[out.length - 1] = prev.trim() + '/' + part.trim();
+              else out.push(part);
+              return out;
+            }, [])
+        )
         .map(t => t.trim())
         .filter(Boolean);
       const z = { id: 'w' + (entries.length + 1), target: target.slice(0, 300), translations: tr.length ? tr : ['?'] };
-      for (const f of ['example', 'definition', 'usage', 'say'])
-        if (w[f] && String(w[f]).trim()) z[f] = String(w[f]).trim().slice(0, f === 'usage' ? 500 : 1000);
+      for (const f of ['example', 'definition', 'usage', 'contrast', 'related', 'synonyms', 'antonyms', 'family'])
+        if (w[f] && String(w[f]).trim()) z[f] = String(w[f]).trim().slice(0, ['example', 'definition'].includes(f) ? 1000 : f === 'usage' || f === 'contrast' ? 500 : 300);
+      const say = cleanSay(w.say, target);
+      if (say) z.say = say;
       if (book && w.page) z.page = String(w.page).slice(0, 30);
       if (POS.includes(w.partOfSpeech)) {
         z.grammar = { partOfSpeech: w.partOfSpeech };
@@ -265,9 +290,24 @@
     if (raw.length > entries.length)
       warnings.push(raw.length - entries.length === 1 ? 'Ein doppelter Eintrag wurde zusammengefasst.' : raw.length - entries.length + ' doppelte Einträge wurden zusammengefasst.');
     if (!entries.length) throw new Error('In der Antwort stehen keine Wörter (entries).');
-    const title = String(ai.title || inp.section || 'Wortliste').slice(0, 120);
     const pages = String(inp.pages || '').trim();
-    const collection = String(inp.collection || '').trim() || (book ? 'Schulbuch' : 'Eigene Listen');
+    // Lehrwerk wie im Grundstock: Reihe + Band (z. B. „Ecco più“ + 3), Lektion, Abschnitt. Ältere Eingabe „Ecco 3 più“ wird zerlegt.
+    let series = String(inp.collection || '').trim();
+    let volume = String(inp.volume || '').trim();
+    if (book && !volume) {
+      const m = series.match(/^(.*?)\s*\b(\d{1,2})\b\s*(.*)$/);
+      if (m) {
+        series = (m[1] + ' ' + m[3]).replace(/\s+/g, ' ').trim();
+        volume = m[2];
+      }
+    }
+    const publisher = String(inp.publisher || '').trim();
+    const unit = String(inp.unit || '').trim();
+    const part = String(inp.section || '').trim();
+    const bookName = series + (volume ? ' ' + volume : '');
+    const sectionLabel = book ? [unit, part].filter(Boolean).join(' · ') : part;
+    const title = (book && bookName && sectionLabel ? bookName + ' · ' + sectionLabel : String(ai.title || part || 'Wortliste')).slice(0, 120);
+    const collection = book ? (bookName ? bookName + (publisher ? ' (' + publisher + ')' : '') : 'Schulbuch') : series || 'Eigene Listen';
     const grade = Number(inp.grade);
     const pkg = {
       format: 'theis-learning-package',
@@ -281,18 +321,26 @@
       topics: arr(ai.topics).slice(0, 8).map(String).filter(Boolean),
       translationLanguage: 'de',
       collection: collection.slice(0, 160),
-      section: (String(inp.section || '').trim() || title).slice(0, 120),
+      section: (sectionLabel || title).slice(0, 120),
       catalog: { origin: book ? 'textbook' : 'own', cefr: inp.level || ai.level },
       sources: [
         book
-          ? { kind: 'provided', citation: collection + (pages ? ', S. ' + pages : '') + ' (Vokabelteil); Beispielsätze mit KI-Unterstützung eigens formuliert.', rights: 'cleared' }
+          ? { kind: 'provided', citation: (bookName || 'Schulbuch') + (publisher ? ', ' + publisher : '') + (pages ? ', S. ' + pages : '') + ' (Vokabelteil); Beispielsätze und Erklärungen mit KI-Unterstützung eigens formuliert.', rights: 'cleared' }
           : { kind: 'own', citation: 'Wortliste zu einem Text, erstellt mit KI-Unterstützung.', rights: 'own' }
       ],
       reviewNotes: arr(ai.reviewNotes).map(String).slice(0, 20),
       entries
     };
     if (!pkg.topics.length) pkg.topics = ['Wortschatz'];
-    if (book) pkg.catalog.textbook = { series: collection.slice(0, 80), ...(inp.section ? { section: String(inp.section).slice(0, 60) } : {}), ...(pages ? { pages: pages.slice(0, 30) } : {}) };
+    if (book)
+      pkg.catalog.textbook = {
+        ...(publisher ? { publisher: publisher.slice(0, 60) } : {}),
+        series: (series || 'Schulbuch').slice(0, 80),
+        ...(volume ? { volume: volume.slice(0, 10) } : {}),
+        ...(unit ? { unit: unit.slice(0, 60) } : {}),
+        ...(part ? { section: part.slice(0, 60) } : {}),
+        ...(pages ? { pages: pages.slice(0, 30) } : {})
+      };
     if (Number.isInteger(grade) && grade >= 5 && grade <= 13) pkg.catalog.grade = grade;
     const missing = evidence.filter(e => e.status === 'fehlt' || e.status === 'leer');
     if (missing.length) warnings.push('Nicht im Text gefunden: ' + missing.map(e => e.target).join(', ') + '.');
@@ -311,7 +359,8 @@
       '- Sprache: ' + inp.language,
       '- Zielniveau: ' + inp.level,
       '- Quelle: ' + (book ? 'Buchseiten (Fotos sind angehängt)' : 'Text (siehe unten)'),
-      inp.collection ? (book ? '- Lehrwerk: ' : '- Sammlung: ') + inp.collection : '',
+      inp.collection ? (book ? '- Lehrwerk: ' : '- Sammlung: ') + inp.collection + (book && inp.volume ? ' ' + inp.volume : '') + (book && inp.publisher ? ' (' + inp.publisher + ')' : '') : '',
+      book && inp.unit ? '- Lektion: ' + inp.unit : '',
       inp.section ? '- Abschnitt: ' + inp.section : '',
       book && inp.pages ? '- Seiten: ' + inp.pages : '',
       inp.grade ? '- Klassenstufe: ' + inp.grade : '',

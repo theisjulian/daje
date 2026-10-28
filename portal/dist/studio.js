@@ -1390,7 +1390,7 @@ document.addEventListener('click', e => {
    Quelle Buchseiten (Fotos im Chat anhängen) oder ein Text (z. B. Oberstufe ohne Vokabelteil).
    Ablauf wie bei der Hörübung: Angaben → Auftrag kopieren → Antwort einfügen → Liste prüfen. */
 const VK_KEY = 'daje-ki-wortschatz-v1';
-const VK_DEFAULT = { mode: 'buch', language: 'it', level: 'A2', collection: '', section: '', pages: '', grade: '', count: '25', text: '', wishes: '', answer: '' };
+const VK_DEFAULT = { mode: 'buch', language: 'it', level: 'A2', collection: '', volume: '', publisher: '', unit: '', section: '', pages: '', grade: '', count: '25', text: '', wishes: '', answer: '' };
 let vkOpen = false,
   vkForm = null,
   vkCommand = null;
@@ -1408,8 +1408,10 @@ function vkPanelHTML() {
       <div class="ed-grid">
         <label class="field">Sprache${sel('language', Object.entries(TheisContent.LANGUAGES))}</label>
         <label class="field">Niveau${sel('level', ED_LEVELS.map(l => [l, l]))}</label>
-        ${inp('collection', book ? 'Lehrwerk' : 'Sammlung', book ? 'z. B. Ecco più 2' : 'z. B. Oberstufe Q11')}
-        ${inp('section', book ? 'Abschnitt' : 'Titel der Liste', book ? 'z. B. Unità 3 · 3a' : 'z. B. Lettura: Le città invisibili')}
+        ${book
+          ? `${inp('collection', 'Lehrwerk (Reihe)', 'z. B. Ecco più', 'list="vk-series"')}${inp('volume', 'Band', 'z. B. 3', 'inputmode="numeric"')}${inp('publisher', 'Verlag (optional)', 'z. B. Cornelsen', 'list="vk-publishers"')}${inp('unit', 'Lektion', 'z. B. Unità 1')}${inp('section', 'Abschnitt (optional)', 'z. B. 1A')}
+             <datalist id="vk-series">${[...new Set(contentList('vocabulary').map(x => x.catalog?.textbook?.series).filter(Boolean))].map(v => `<option value="${esc(v)}">`).join('')}</datalist><datalist id="vk-publishers"><option value="Cornelsen"><option value="Klett"><option value="C.C. Buchner"><option value="Westermann"></datalist>`
+          : `${inp('collection', 'Sammlung', 'z. B. Oberstufe Q11')}${inp('section', 'Titel der Liste', 'z. B. Lettura: Le città invisibili')}`}
         ${book ? inp('pages', 'Seiten', 'z. B. 170–171', 'inputmode="numeric"') : `<label class="field">Umfang${sel('count', [['15', 'knapp · etwa 15'], ['25', 'normal · etwa 25'], ['40', 'ausführlich · etwa 40']])}</label>`}
         <label class="field">Klassenstufe (optional)${sel('grade', [['', '–'], ...[5, 6, 7, 8, 9, 10, 11, 12, 13].map(n => [String(n), String(n)])])}</label>
       </div>
@@ -1491,7 +1493,7 @@ document.addEventListener('click', e => {
   } else if (b.hasAttribute('data-vk-copy')) vkCopy();
   else if (b.hasAttribute('data-vk-build')) vkBuild();
   else if (confirm('Alle Eingaben im Formular löschen?')) {
-    vkForm = { ...vkForm, section: '', pages: '', text: '', wishes: '', answer: '' };
+    vkForm = { ...vkForm, unit: '', section: '', pages: '', text: '', wishes: '', answer: '' };
     save(VK_KEY, vkForm);
     renderStudio();
   }

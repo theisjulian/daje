@@ -177,6 +177,14 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - **Video-Titelbilder überall** (Kacheln, Weitermachen, Player): `youtubeThumb(x)` in portal.js. Reihenfolge: `YT_THUMBS` (yt-thumbs.js, beim Veröffentlichen von `werkzeuge/yt_titelbilder.cjs` mit 1280×720-Bildern nach `assets/yt/` gefüllt; im Repo ein leerer Platzhalter) → `LOCAL_VIDEO_THUMBNAILS` (480×270, schwarze Balken abgeschnitten) → direkt von i.ytimg.com (maxresdefault, Ersatz mqdefault) für eigene Übungen. Lädt nichts, erscheint das gestaltete Cover (`<template>` hinter dem Bild). `hasPhotoCover(x)` blendet dann den Titel unter dem Bild ein. Eigene Fotos (`coverImage`) haben Vorrang.
 - **Kopieren blockiert (Safari):** Der KI-Auftrag wurde erst nach dem Laden der Kommandodatei kopiert; Safari erlaubt Kopieren nur direkt nach dem Tippen. `copyLater(promise)` in studio.js nutzt `ClipboardItem` mit Promise, sonst `writeText`, sonst `execCommand('copy')`; erst danach das Textfeld zum Markieren.
 
+## 6n. Wortschatz: dritte Spalte, Lehrwerk-Angaben, Titelbilder für Listen (28.10.2026)
+
+- **Schema:** Wortlisteneinträge haben zusätzlich `synonyms` (≈), `antonyms` (↔), `family` (Wortfamilie, →), jeweils Text bis 300 Zeichen; dazu wie bisher `related` (E/F/L/S/D), `contrast`, `usage`, `definition`. Karteikarte zeigt sie auf der Rückseite, Druck/Word als wählbare Spalten. `coverImage`/`coverCredit` jetzt auch für Wortlisten (`coverFields()` in content-contract.js).
+- **KI-Wortschatz 1.2:** `definition` Pflicht, dritte Spalte wie im Schulbuch (bei Buchseiten übernehmen, sonst ergänzen), Abschnitt 4a „Beispielsätze auf dem Können der Lernenden“ (Niveau, Länge, Lebenswelt 13–18), `say` nur mit Wörtern des Eintrags.
+- **Import (ki.js `buildVocabulary`):** Lehrwerk als Reihe + Band + Lektion + Abschnitt + Verlag (Formular hat diese Felder; „Ecco 3 più“ wird zu Reihe „Ecco più“, Band 3). Titel „Ecco più 3 · Unità 1“, Sammlung „Ecco più 3 (Cornelsen)“, damit das Buch neben Ecco più 1 und 2 steht. Übersetzungen „der/die X“ und „Zuschauer/in“ bleiben zusammen. `cleanSay` entfernt Sprechformen, die nicht zum Eintrag gehören.
+- **Ecco più 3 · Unità 1** (grundstock/vocabulary/eigen-mvrwii4ucilr.json, ID unverändert wegen Lernstand): Angaben angeglichen, zwei Übersetzungen und eine falsche Sprechform korrigiert. Erklärungen und dritte Spalte fehlen noch: mit KI-Wortschatz 1.2 neu einlesen.
+- **Titelbild für Listen:** Redaktion → „Titelbild“: eigenes Foto (wird verkleinert eingebettet), freies Foto suchen (Openverse) oder entfernen. Im Wortschatz erscheint das erste Foto einer Sammlung auf dem Buch bzw. oben auf der Themenkarte.
+
 ## 7. Offene Punkte
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.
 - Ecco 3 più importieren (nach Scan, exakte Kapitelzuordnung).
