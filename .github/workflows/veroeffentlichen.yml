@@ -55,6 +55,8 @@ jobs:
           node-version: 22
       - name: Grundstock bündeln
         run: node werkzeuge/bundle_stock.cjs
+      - name: YouTube-Titelbilder in guter Auflösung laden
+        run: node werkzeuge/yt_titelbilder.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

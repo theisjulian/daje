@@ -138,8 +138,9 @@ function transcriptForDisplay(text) {
     .replace(/\[(?:Wortlaut zu prüfen|Wortlaut unsicher|unverständlich)\]/g, '[…]')
     .trim();
 }
-/* Titelbild einer Hörübung. Eigene Fotos bleiben; sonst ein gestaltetes Cover in der Farbe der
-   Sprache. Vorschaubilder werden nie von YouTube geladen (Datenschutz an Schulen, Bildrechte). */
+/* Titelbild einer Hörübung. Eigene Fotos zuerst; bei YouTube-Videos das Titelbild des Videos (beim
+   Veröffentlichen in guter Auflösung mitgeliefert, sonst lokal oder direkt von YouTube); sonst ein gestaltetes
+   Cover in der Farbe der Sprache. Lädt ein Bild nicht, springt das gestaltete Cover ein. */
 const COVER_HUE = { it: 10, en: 228, fr: 196, es: 38, de: 150 };
 const COVER_SONG = /^(musik|musica|music|musique|lied|song|canzone)$/i;
 function coverKind(x) {
@@ -158,15 +159,59 @@ function generatedCoverHTML(x) {
   const [main, ...rest] = String(x.title).split(' · ');
   return `<span class="hcover" style="--hc:${hue};--hc-l:${38 + (seed % 3) * 4}%;--hc-x:${55 + (seed % 4) * 12}%" aria-hidden="true"><span class="hc-kind">${esc(coverKind(x))}</span><span class="hc-title">${esc(main)}</span>${rest.length ? `<span class="hc-sub">${esc(rest.join(' · '))}</span>` : ''}</span>`;
 }
-function lessonCoverHTML(x, { poster = false } = {}) {
+/* Bildquelle des Video-Titelbilds; Ersatz-Adresse für den Fall, dass die große Fassung fehlt. */
+function youtubeThumb(x) {
+  const id = x.media?.type === 'youtube' && /^[A-Za-z0-9_-]{11}$/.test(x.media.videoId || '') ? x.media.videoId : '';
+  if (!id) return null;
+  const built = (typeof YT_THUMBS === 'object' && YT_THUMBS[id]) || null;
+  if (built) return { src: built.src, box: built.box, next: LOCAL_VIDEO_THUMBNAILS[id] || '' };
+  if (LOCAL_VIDEO_THUMBNAILS[id]) return { src: LOCAL_VIDEO_THUMBNAILS[id], next: '' };
+  return { src: `https://i.ytimg.com/vi/${id}/maxresdefault.jpg`, next: `https://i.ytimg.com/vi/${id}/mqdefault.jpg` };
+}
+/* Hat die Übung ein echtes Bild (Foto oder Video-Titelbild)? Dann steht der Titel neben dem Bild. */
+const hasPhotoCover = x => !!(x.coverImage || PHOTOS[x.cover] || youtubeThumb(x));
+function lessonCoverHTML(x) {
   const own = x.coverImage || PHOTOS[x.cover]?.file;
-  const still = poster && x.media.type === 'youtube' ? LOCAL_VIDEO_THUMBNAILS[x.media.videoId] : '';
-  if (own || still) {
-    const alt = x.coverImage ? 'Titelbild: ' + x.title : still ? 'Videovorschau: ' + x.title : PHOTOS[x.cover].alt;
-    return `<img src="${esc(own || still)}" alt="${esc(alt)}" loading="lazy" decoding="async">`;
+  if (own) {
+    const alt = x.coverImage ? 'Titelbild: ' + x.title : PHOTOS[x.cover].alt;
+    return `<img src="${esc(own)}" alt="${esc(alt)}" loading="lazy" decoding="async">`;
   }
+  const yt = youtubeThumb(x);
+  if (yt)
+    return `<img class="yt-thumb${yt.box ? ' yt-box' : ''}" src="${esc(yt.src)}" data-next="${esc(yt.next)}" alt="${esc('Videovorschau: ' + x.title)}" loading="lazy" decoding="async" referrerpolicy="no-referrer"><template>${generatedCoverHTML(x)}</template>`;
   return generatedCoverHTML(x);
 }
+/* Fehlt ein Video-Titelbild: erst die Ersatz-Adresse, dann das gestaltete Cover. */
+document.addEventListener(
+  'error',
+  e => {
+    const img = e.target;
+    if (!(img instanceof HTMLImageElement) || !img.classList.contains('yt-thumb')) return;
+    const next = img.dataset.next;
+    if (next) {
+      img.dataset.next = '';
+      img.classList.remove('yt-box');
+      img.src = next;
+      return;
+    }
+    const tpl = img.nextElementSibling;
+    if (tpl && tpl.tagName === 'TEMPLATE') {
+      img.replaceWith(tpl.content.cloneNode(true));
+      tpl.remove();
+    } else img.remove();
+  },
+  true
+);
+/* Vom maxres-Bild liefert YouTube bei fehlender Fassung ein graues 120×90-Bild ohne Fehler: wie Fehler behandeln. */
+document.addEventListener(
+  'load',
+  e => {
+    const img = e.target;
+    if (img instanceof HTMLImageElement && img.classList.contains('yt-thumb') && img.naturalWidth && img.naturalWidth <= 120)
+      img.dispatchEvent(new Event('error'));
+  },
+  true
+);
 const LISTENING_FORMAT_LABELS = {
   single_choice: 'Einfachauswahl',
   multiple_choice: 'Mehrfachauswahl',
@@ -434,6 +479,7 @@ function setupPortal() {
       const img = e.target;
       if (
         !(img instanceof HTMLImageElement) ||
+        img.classList.contains('yt-thumb') ||
         !img.closest('.lcard-media, .player-poster, .step-media, .lesson-cover')
       )
         return;

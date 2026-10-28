@@ -1273,6 +1273,40 @@ function kiInputs() {
   };
 }
 let kiCommand = null;
+/* In die Zwischenablage kopieren. Safari erlaubt das nur direkt nach dem Tippen, deshalb darf vor dem
+   Kopieren nichts geladen werden: Der Text kommt als Promise in ein ClipboardItem (Safari, Chrome), sonst
+   wird nach dem Laden kopiert und notfalls über eine markierte Textauswahl. */
+async function copyLater(textPromise) {
+  if (typeof ClipboardItem === 'function' && navigator.clipboard?.write) {
+    try {
+      await navigator.clipboard.write([new ClipboardItem({ 'text/plain': textPromise.then(t => new Blob([t], { type: 'text/plain' })) })]);
+      return true;
+    } catch (e) {}
+  }
+  const text = await textPromise;
+  try {
+    await navigator.clipboard.writeText(text);
+    return true;
+  } catch (e) {}
+  const ta = document.createElement('textarea');
+  ta.value = text;
+  ta.setAttribute('readonly', '');
+  ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0';
+  document.body.appendChild(ta);
+  ta.select();
+  ta.setSelectionRange(0, text.length);
+  let ok = false;
+  try {
+    ok = document.execCommand('copy');
+  } catch (e) {}
+  ta.remove();
+  return ok;
+}
+const kiLoad = (file, cache) =>
+  cache ? Promise.resolve(cache) : fetch(file, { cache: 'no-cache' }).then(r => {
+    if (!r.ok) throw new Error('Die Kommandodatei konnte nicht geladen werden.');
+    return r.text();
+  });
 async function kiCopy() {
   const status = $('ki-copy-status');
   try {
@@ -1281,20 +1315,17 @@ async function kiCopy() {
     if (!kiForm.transcript.trim())
       status.textContent =
         'Hinweis: Ohne Transkript kann nur Gemini das Video selbst anhören. Mit Transkript wird es deutlich besser.';
-    if (!kiCommand) {
-      const r = await fetch('imports/KI-Kommandodatei.md', { cache: 'no-cache' });
-      if (!r.ok) throw new Error('Die Kommandodatei konnte nicht geladen werden.');
-      kiCommand = await r.text();
-    }
-    const text = DajeKI.promptFor(kiCommand, kiInputs());
-    try {
-      await navigator.clipboard.writeText(text);
+    const inputs = kiInputs();
+    const job = kiLoad('imports/KI-Kommandodatei.md', kiCommand).then(c => DajeKI.promptFor((kiCommand = c), inputs));
+    const copied = await copyLater(job);
+    const text = await job;
+    if (copied) {
       status.textContent =
         (status.textContent ? status.textContent + ' ' : '') +
         'Auftrag kopiert (' +
         Math.round(text.length / 1000) +
         '000 Zeichen). Jetzt im Chat einfügen und absenden.';
-    } catch {
+    } else {
       status.innerHTML =
         'Kopieren wurde blockiert. Bitte hier markieren und kopieren:<textarea class="ki-fallback" rows="5" readonly>' +
         esc(text) +
@@ -1407,16 +1438,13 @@ async function vkCopy() {
   const status = $('vk-copy-status');
   try {
     if (vkForm.mode === 'text' && !vkForm.text.trim()) throw new Error('Bitte zuerst den Text einfügen.');
-    if (!vkCommand) {
-      const r = await fetch('imports/KI-Wortschatz.md', { cache: 'no-cache' });
-      if (!r.ok) throw new Error('Die Kommandodatei konnte nicht geladen werden.');
-      vkCommand = await r.text();
-    }
-    const text = DajeKI.promptForVocab(vkCommand, vkInputs());
-    try {
-      await navigator.clipboard.writeText(text);
+    const inputs = vkInputs();
+    const job = kiLoad('imports/KI-Wortschatz.md', vkCommand).then(c => DajeKI.promptForVocab((vkCommand = c), inputs));
+    const copied = await copyLater(job);
+    const text = await job;
+    if (copied) {
       status.textContent = vkForm.mode === 'buch' ? 'Auftrag kopiert. Im Chat zuerst die Fotos anhängen, dann den Auftrag einfügen und absenden.' : 'Auftrag kopiert. Jetzt im Chat einfügen und absenden.';
-    } catch {
+    } else {
       status.innerHTML = 'Kopieren wurde blockiert. Bitte hier markieren und kopieren:<textarea class="ki-fallback" rows="5" readonly>' + esc(text) + '</textarea>';
       status.querySelector('textarea').select();
     }

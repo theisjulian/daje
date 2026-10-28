@@ -110,7 +110,7 @@ function lessonCard(x) {
     </button>
     <div class="lcard-body">
       <div class="lcard-meta"><span>${x.estimatedMinutes} Min.</span><span>${plural(x.questions.length, 'Aufgabe', 'Aufgaben')}</span>${working ? '<span class="flag">Arbeitsfassung</span>' : ''}</div>
-      <h3 ${x.coverImage || PHOTOS[x.cover] ? '' : 'class="sr-only"'}><button data-lesson="${esc(x.id)}">${esc(x.title)}</button></h3>
+      <h3 ${hasPhotoCover(x) ? '' : 'class="sr-only"'}><button data-lesson="${esc(x.id)}">${esc(x.title)}</button></h3>
       <p>${esc(visibleText(x.description))}</p>
       ${teacher ? '' : `<div class="lcard-progress" aria-hidden="true"><i style="width:${st.percent}%"></i></div>`}
       <div class="lcard-state">${esc(state)}</div>
@@ -207,7 +207,7 @@ function learnerHome(list, p) {
       <button class="resume-media" data-lesson="${esc(suggestion.id)}" tabindex="-1" aria-hidden="true">${lessonCoverHTML(suggestion)}</button>
       <div class="resume-body">
         <div class="eyebrow">${resume ? 'Weitermachen' : 'Zum Einstieg'}</div>
-        <h2 ${suggestion.coverImage || PHOTOS[suggestion.cover] ? '' : 'class="sr-only"'}>${esc(suggestion.title)}</h2>
+        <h2 ${hasPhotoCover(suggestion) ? '' : 'class="sr-only"'}>${esc(suggestion.title)}</h2>
         <p>${esc(portalLang(suggestion.language))} · ${esc(suggestion.level)} · ${suggestion.estimatedMinutes} Min. · ${plural(suggestion.questions.length, 'Aufgabe', 'Aufgaben')}</p>
         ${st.percent ? `<div class="lcard-progress" aria-hidden="true"><i style="width:${st.percent}%"></i></div>` : ''}
         <button class="button primary large" data-lesson="${esc(suggestion.id)}">${resume ? 'Weiterhören' : 'Jetzt anhören'}</button>
@@ -375,7 +375,7 @@ function playerHTML(x) {
   if (x.media.type === 'youtube') {
     return `<div class="player-frame" id="youtube-container" data-cover>
         <button class="player-poster" data-portal="load-youtube" aria-label="Video laden und abspielen">
-          ${lessonCoverHTML(x, { poster: true })}<span class="player-play" aria-hidden="true"></span><span class="player-hint">Video abspielen</span>
+          ${lessonCoverHTML(x)}<span class="player-play" aria-hidden="true"></span><span class="player-hint">Video abspielen</span>
         </button>
       </div>
       <p class="player-note">Beim Abspielen wird eine Verbindung zu YouTube hergestellt. Falls das Video gesperrt ist: <a href="https://www.youtube.com/watch?v=${x.media.videoId}" target="_blank" rel="noopener">Originalquelle öffnen</a></p>`;

@@ -8218,3 +8218,17 @@ main:focus, main:focus-visible, [tabindex='-1']:focus, [tabindex='-1']:focus-vis
 :root[data-skin='pop'][data-theme='dark'] .chip[aria-pressed='true'] {
   color: #fff;
 }
+/* Video-Titelbilder: gleiche Fläche wie Fotos; Fassungen mit schwarzen Balken etwas vergrößert. */
+img.yt-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+img.yt-thumb.yt-box {
+  scale: 1.34;
+}
+.resume-media img,
+.xhero-art img.yt-thumb {
+  object-fit: cover;
+}

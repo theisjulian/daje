@@ -103,7 +103,7 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 
 ## 6b. Neues Erscheinungsbild (26.10.2026)
 - **Farbwelt „daje“** (themes.css/skins.css, Standard für neue Nutzer; gespeicherte Wahl bleibt): warmes Papier `#f6f2ea`, Tinte `#1c1a17`, Indigo `#2b3bb5` für Aktionen, Tomatenrot `#c7361d` (accent2) für Marke, Fortschritt, Hervorhebung; flache Karten ohne Glas/Unschärfe; Dunkelmodus. Kontraste ≥ 4,7:1.
-- **Hör-Cover** (portal.js `generatedCoverHTML`): typografische Titelbilder, Farbe nach Sprache (IT rot, EN blau, FR türkis), Art (Lied/Film/Video/Audio/Dialog). Keine Bilder mehr von img.youtube.com (Datenschutz, Bildrechte); lokale Standbilder nur noch im Player.
+- **Hör-Cover** (portal.js `generatedCoverHTML`): typografische Titelbilder, Farbe nach Sprache (IT rot, EN blau, FR türkis), Art (Lied/Film/Video/Audio/Dialog). Seit 6m wieder mit Video-Titelbildern (siehe dort).
 - **Startseite Lernende**: Tagesziel-Ring, „Weitermachen/Zum Einstieg“, drei Schnellzugriffe, „Für dich“ als waagerechte Leiste am Handy; Zähler erst, wenn es etwas zu zählen gibt.
 - Zurückwischen schließt geöffnete Dialoge/Blätter, ohne die Seite zu wechseln.
 
@@ -171,6 +171,11 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - **daje neu:** Porzellanweiß (#f6f5fb) mit Farbschleiern in Fuchsia, Violett und Aprikose statt Beige; weiße Karten, violette Knöpfe mit Verlauf, Fuchsia als Markenakzent, Fortschritt als Verlauf. Dunkel: Aubergine mit Leuchten. theme-color #f6f5fb.
 - **Pop (neu, für Jüngere):** Sticker-Look mit 2-px-Kontur und versetztem Schatten, bunter Verlauf im Hintergrund, Violett/Pink, gelber Marker für Auswahl und Navigation, kräftige Überschriften. Dunkel: Neon auf Nachtblau mit pinken Konturen. Variablen `--ink` (Kontur) und `--marker` (Auswahl).
 - e2e: Farbwelten-Test mit 6 Welten; Live-Test prüft, dass eine YouTube-Kopie ohne Rückfrage `cleared` ist.
+
+## 6m. YouTube-Titelbilder, Kopieren auf dem iPad (28.10.2026)
+
+- **Video-Titelbilder überall** (Kacheln, Weitermachen, Player): `youtubeThumb(x)` in portal.js. Reihenfolge: `YT_THUMBS` (yt-thumbs.js, beim Veröffentlichen von `werkzeuge/yt_titelbilder.cjs` mit 1280×720-Bildern nach `assets/yt/` gefüllt; im Repo ein leerer Platzhalter) → `LOCAL_VIDEO_THUMBNAILS` (480×270, schwarze Balken abgeschnitten) → direkt von i.ytimg.com (maxresdefault, Ersatz mqdefault) für eigene Übungen. Lädt nichts, erscheint das gestaltete Cover (`<template>` hinter dem Bild). `hasPhotoCover(x)` blendet dann den Titel unter dem Bild ein. Eigene Fotos (`coverImage`) haben Vorrang.
+- **Kopieren blockiert (Safari):** Der KI-Auftrag wurde erst nach dem Laden der Kommandodatei kopiert; Safari erlaubt Kopieren nur direkt nach dem Tippen. `copyLater(promise)` in studio.js nutzt `ClipboardItem` mit Promise, sonst `writeText`, sonst `execCommand('copy')`; erst danach das Textfeld zum Markieren.
 
 ## 7. Offene Punkte
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.
