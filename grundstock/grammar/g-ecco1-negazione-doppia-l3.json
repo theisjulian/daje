@@ -1,0 +1,217 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-negazione-doppia-l3",
+ "title": "Dove va non?",
+ "language": "it",
+ "level": "A1",
+ "description": "Non … niente, nessuno, mai, più · Dove va non? · livello facile.",
+ "topics": [
+  "Non … niente, nessuno, mai, più",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 16,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation, u. a. doppia negazione bei niente, nessuno, mai"
+ },
+ "grammar": {
+  "topic": "ecco1-negazione-doppia",
+  "topicTitle": "Non … niente, nessuno, mai, più",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 23,
+  "rule": "In italiano diciamo **due negazioni**: **non** prima del verbo e la seconda parola dopo il verbo.\n- _**Non** vedo **niente**._ (nichts)\n- _**Non** c’è **nessuno**._ (niemand)\n- _**Non** vado **mai** in palestra._ (nie)\n- _**Non** abito **più** a Roma._ (nicht mehr)\nSe **niente** o **nessuno** sono all’inizio, **non** non c’è: _**Nessuno** parla._",
+  "ruleHelp": "Im Italienischen verneint man **doppelt**: **non** vor dem Verb und dann **niente** (nichts), **nessuno** (niemand), **mai** (nie), **più** (nicht mehr) nach dem Verb: _Non vedo niente. Non c’è nessuno._\nStehen niente/nessuno am Satzanfang, fällt non weg: _Nessuno parla._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non vedo niente."
+    },
+    {
+     "id": "o2",
+     "text": "Vedo niente."
+    },
+    {
+     "id": "o3",
+     "text": "Niente non vedo."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q2",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non c’è nessuno."
+    },
+    {
+     "id": "o2",
+     "text": "C’è nessuno."
+    },
+    {
+     "id": "o3",
+     "text": "Nessuno non c’è."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q3",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non vado mai al mare."
+    },
+    {
+     "id": "o2",
+     "text": "Vado mai al mare."
+    },
+    {
+     "id": "o3",
+     "text": "Mai non vado al mare."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q4",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Nessuno parla."
+    },
+    {
+     "id": "o2",
+     "text": "Nessuno non parla."
+    },
+    {
+     "id": "o3",
+     "text": "Non nessuno parla."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q5",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non abito più a Roma."
+    },
+    {
+     "id": "o2",
+     "text": "Abito più a Roma."
+    },
+    {
+     "id": "o3",
+     "text": "Non più abito a Roma."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q6",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Niente è facile."
+    },
+    {
+     "id": "o2",
+     "text": "Niente non è facile."
+    },
+    {
+     "id": "o3",
+     "text": "Non niente è facile."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q7",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non mangio mai la carne."
+    },
+    {
+     "id": "o2",
+     "text": "Mangio mai la carne."
+    },
+    {
+     "id": "o3",
+     "text": "Non mai mangio la carne."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q8",
+   "prompt": "Qual è la frase giusta?",
+   "promptHelp": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non conosco nessuno qui."
+    },
+    {
+     "id": "o2",
+     "text": "Conosco nessuno qui."
+    },
+    {
+     "id": "o3",
+     "text": "Nessuno conosco qui."
+    }
+   ],
+   "correctOptionId": "o1"
+  }
+ ]
+}

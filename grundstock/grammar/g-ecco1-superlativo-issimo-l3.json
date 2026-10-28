@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-superlativo-issimo-l3",
+ "title": "Esagera!",
+ "language": "it",
+ "level": "A1",
+ "description": "Bellissimo! – L’aggettivo con -issimo · Esagera! · livello facile.",
+ "topics": [
+  "Bellissimo! – L’aggettivo con -issimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · absoluter Superlativ (-issimo), Steigerung mit molto"
+ },
+ "grammar": {
+  "topic": "ecco1-superlativo-issimo",
+  "topicTitle": "Bellissimo! – L’aggettivo con -issimo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 63,
+  "rule": "Per dire **molto** + aggettivo usiamo **-issimo**:\n| bello → **bellissimo** | molto bello |\n| buono → **buonissimo** | molto buono |\n| facile → **facilissimo** | molto facile |\n| lungo → **lunghissimo** | molto lungo |\n**-issimo** concorda: _una pizza buon**issima**, due ragazzi simpatic**issimi**._\nAnche con avverbi: _**benissimo**, **malissimo**, **tantissimo**_. E si può ripetere: _**piano piano**_ (molto piano).",
+  "ruleHelp": "**-issimo** heißt „sehr“: _bellissimo_ = sehr schön. Es passt sich an (-issimo/-issima/-issimi/-issime).\n-co/-go → **-chissimo/-ghissimo** (lunghissimo). Auch: benissimo, tantissimo. Verdopplung: _piano piano_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi l’aggettivo con -issimo.",
+   "promptHelp": "Schreibe das Adjektiv mit -issimo.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Il gelato è molto buono. → Il gelato è …",
+     "acceptedAnswers": [
+      "buonissimo"
+     ],
+     "modelAnswer": "Il gelato è buonissimo."
+    },
+    {
+     "id": "s2",
+     "start": "La città è molto bella. → La città è …",
+     "acceptedAnswers": [
+      "bellissima"
+     ],
+     "modelAnswer": "La città è bellissima."
+    },
+    {
+     "id": "s3",
+     "start": "Il test è molto facile. → Il test è …",
+     "acceptedAnswers": [
+      "facilissimo"
+     ],
+     "modelAnswer": "Il test è facilissimo."
+    },
+    {
+     "id": "s4",
+     "start": "Le ragazze sono molto brave. → Le ragazze sono …",
+     "acceptedAnswers": [
+      "bravissime"
+     ],
+     "modelAnswer": "Le ragazze sono bravissime."
+    },
+    {
+     "id": "s5",
+     "start": "Il viaggio è molto lungo. → Il viaggio è …",
+     "acceptedAnswers": [
+      "lunghissimo"
+     ],
+     "modelAnswer": "Il viaggio è lunghissimo."
+    },
+    {
+     "id": "s6",
+     "start": "I libri sono molto cari. → I libri sono …",
+     "acceptedAnswers": [
+      "carissimi"
+     ],
+     "modelAnswer": "I libri sono carissimi."
+    },
+    {
+     "id": "s7",
+     "start": "La lezione è molto noiosa. → La lezione è …",
+     "acceptedAnswers": [
+      "noiosissima"
+     ],
+     "modelAnswer": "La lezione è noiosissima."
+    },
+    {
+     "id": "s8",
+     "start": "Il cane è molto piccolo. → Il cane è …",
+     "acceptedAnswers": [
+      "piccolissimo"
+     ],
+     "modelAnswer": "Il cane è piccolissimo."
+    }
+   ]
+  }
+ ]
+}

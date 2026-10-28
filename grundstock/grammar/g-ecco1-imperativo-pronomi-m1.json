@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-imperativo-pronomi-m1",
+ "title": "Sì, fallo!",
+ "language": "it",
+ "level": "A1",
+ "description": "L’imperativo con i pronomi: dimmi, fallo! · Sì, fallo! · livello medio.",
+ "topics": [
+  "L’imperativo con i pronomi: dimmi, fallo!",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo-pronomi",
+  "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 41,
+  "rule": "Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:\n- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_\nCon **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:\n- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_\nCon il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_",
+  "ruleHelp": "Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_\nBei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.\nVerneint (tu): _Non lo comprare!_ oder _Non comprarlo!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi con l’imperativo e il pronome.",
+   "promptHelp": "Antworte mit Imperativ + Pronomen.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Compro il pane? – Sì, …",
+     "acceptedAnswers": [
+      "compralo"
+     ],
+     "modelAnswer": "Sì, compralo!"
+    },
+    {
+     "id": "s2",
+     "start": "Chiamo la nonna? – Sì, …",
+     "acceptedAnswers": [
+      "chiamala"
+     ],
+     "modelAnswer": "Sì, chiamala!"
+    },
+    {
+     "id": "s3",
+     "start": "Apro le finestre? – Sì, …",
+     "acceptedAnswers": [
+      "aprile"
+     ],
+     "modelAnswer": "Sì, aprile!"
+    },
+    {
+     "id": "s4",
+     "start": "Invito i miei amici? – Sì, …",
+     "acceptedAnswers": [
+      "invitali"
+     ],
+     "modelAnswer": "Sì, invitali!"
+    },
+    {
+     "id": "s5",
+     "start": "Ti aspetto? – Sì, …",
+     "acceptedAnswers": [
+      "aspettami"
+     ],
+     "modelAnswer": "Sì, aspettami!"
+    },
+    {
+     "id": "s6",
+     "start": "Faccio i compiti adesso? – Sì, …",
+     "acceptedAnswers": [
+      "falli"
+     ],
+     "modelAnswer": "Sì, falli adesso!"
+    },
+    {
+     "id": "s7",
+     "start": "Ti dico la verità? – Sì, …",
+     "acceptedAnswers": [
+      "dimmela"
+     ],
+     "modelAnswer": "Sì, dimmela!"
+    },
+    {
+     "id": "s8",
+     "start": "Scrivo a Marco? – Sì, …",
+     "acceptedAnswers": [
+      "scrivigli"
+     ],
+     "modelAnswer": "Sì, scrivigli!"
+    }
+   ]
+  }
+ ]
+}

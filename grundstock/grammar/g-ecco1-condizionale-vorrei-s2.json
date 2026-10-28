@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-condizionale-vorrei-s2",
+ "title": "Una telefonata all’hotel",
+ "language": "it",
+ "level": "A1",
+ "description": "Vorrei, potrei, dovrei: chiedere con gentilezza · Una telefonata all’hotel · livello difficile.",
+ "topics": [
+  "Vorrei, potrei, dovrei: chiedere con gentilezza",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Höflichkeitsformen (vorrei, potrebbe …)"
+ },
+ "grammar": {
+  "topic": "ecco1-condizionale-vorrei",
+  "topicTitle": "Vorrei, potrei, dovrei: chiedere con gentilezza",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 32,
+  "rule": "Per chiedere **con gentilezza** usiamo il **condizionale**:\n| io | tu | Lei / lui / lei | noi | voi | loro |\n| vorrei | vorresti | vorrebbe | vorremmo | vorreste | vorrebbero |\n- _**Vorrei** un gelato, per favore._\n- _**Potrebbe** ripetere?_ (Lei)\n- _**Dovresti** studiare di più._ (consiglio)\nLe forme di **potere** e **dovere** sono uguali: potr**ei**, potr**esti**, potr**ebbe** … / dovr**ei**, dovr**esti**, dovr**ebbe** …",
+  "ruleHelp": "Höfliche Bitten mit dem **Konditional**: _Vorrei un gelato_ (Ich hätte gern …), _Potrebbe ripetere?_ (Könnten Sie …?), _Dovresti …_ (Du solltest …).\nEndungen: -ei, -esti, -ebbe, -emmo, -este, -ebbero."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con il condizionale di volere, potere o dovere.",
+   "promptHelp": "Ergänze das Konditional.",
+   "type": "gap_fill",
+   "text": "– Hotel Bellavista, buongiorno!\n– Buongiorno, (volere, io) [[g1]] prenotare una camera.\n– Certo. Per quante persone?\n– Siamo in tre: noi (volere) [[g2]] una camera tripla.\n– (potere, Lei) [[g3]] dirmi le date?\n– Dal 3 al 6 agosto. (potere, voi) [[g4]] anche preparare la colazione senza glutine?\n– Sì, ma (dovere, Lei) [[g5]] scriverci una mail.\n– Va bene. Mio figlio (volere) [[g6]] sapere se c’è la piscina.\n– Sì, c’è! (volere, voi) [[g7]] anche il parcheggio?\n– No, grazie, arriviamo in treno. (potere, io) [[g8]] pagare con la carta?",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "vorrei"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "vorremmo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Potrebbe"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Potreste"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "dovrebbe"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "vorrebbe"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Vorreste"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Potrei"
+     ]
+    }
+   ]
+  }
+ ]
+}

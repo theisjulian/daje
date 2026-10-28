@@ -1,0 +1,108 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-riflessivo-m3",
+ "title": "Ti è piaciuto?",
+ "language": "it",
+ "level": "A1",
+ "description": "Mi sono alzato: il passato prossimo dei verbi riflessivi · Ti è piaciuto? · livello medio.",
+ "topics": [
+  "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo (reflexive Verben, piacere)"
+ },
+ "grammar": {
+  "topic": "ecco1-passato-riflessivo",
+  "topicTitle": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 73,
+  "rule": "I verbi riflessivi formano il passato prossimo con **essere**. Il participio **concorda** con il soggetto:\n| io | **mi sono** alzato/-a |\n| tu | **ti sei** alzato/-a |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati/-e |\n| voi | **vi siete** alzati/-e |\n| loro | **si sono** alzati/-e |\nAnche **piacere** usa essere: _La pizza mi è piaciut**a**. I film mi sono piaciut**i**._",
+  "ruleHelp": "Reflexive Verben bilden das passato prossimo mit **essere**; das Partizip richtet sich nach dem Subjekt: _Anna si è alzata. Ci siamo divertiti._\nAuch **piacere** mit essere: _La pizza mi è piaciuta._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con piacere al passato prossimo.",
+   "promptHelp": "Ergänze piacere im passato prossimo.",
+   "explanation": "Il participio concorda con la cosa che piace.",
+   "explanationHelp": "Das Partizip richtet sich nach dem, was gefällt.",
+   "type": "gap_fill",
+   "text": "Il film ti [[g1]]?\nLa pizza mi [[g2]] tantissimo.\nLe canzoni ci [[g3]].\nI musei vi [[g4]]?\nA Marco non [[g5]] la gita.\nAi miei genitori [[g6]] l’albergo.\nA me [[g7]] i gelati di Roma.\nA Lucia [[g8]] le spiagge.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "è piaciuto"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "è piaciuta"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sono piaciute"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "sono piaciuti"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "è piaciuta"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "è piaciuto"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "sono piaciuti"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "sono piaciute"
+     ]
+    }
+   ]
+  }
+ ]
+}

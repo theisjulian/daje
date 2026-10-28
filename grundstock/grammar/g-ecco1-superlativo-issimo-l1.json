@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-superlativo-issimo-l1",
+ "title": "Molto = -issimo",
+ "language": "it",
+ "level": "A1",
+ "description": "Bellissimo! – L’aggettivo con -issimo · Molto = -issimo · livello facile.",
+ "topics": [
+  "Bellissimo! – L’aggettivo con -issimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · absoluter Superlativ (-issimo), Steigerung mit molto"
+ },
+ "grammar": {
+  "topic": "ecco1-superlativo-issimo",
+  "topicTitle": "Bellissimo! – L’aggettivo con -issimo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 61,
+  "rule": "Per dire **molto** + aggettivo usiamo **-issimo**:\n| bello → **bellissimo** | molto bello |\n| buono → **buonissimo** | molto buono |\n| facile → **facilissimo** | molto facile |\n| lungo → **lunghissimo** | molto lungo |\n**-issimo** concorda: _una pizza buon**issima**, due ragazzi simpatic**issimi**._\nAnche con avverbi: _**benissimo**, **malissimo**, **tantissimo**_. E si può ripetere: _**piano piano**_ (molto piano).",
+  "ruleHelp": "**-issimo** heißt „sehr“: _bellissimo_ = sehr schön. Es passt sich an (-issimo/-issima/-issimi/-issime).\n-co/-go → **-chissimo/-ghissimo** (lunghissimo). Auch: benissimo, tantissimo. Verdopplung: _piano piano_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina.",
+   "promptHelp": "Verbinde.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "molto bello",
+     "right": "bellissimo"
+    },
+    {
+     "id": "p2",
+     "left": "molto buono",
+     "right": "buonissimo"
+    },
+    {
+     "id": "p3",
+     "left": "molto facile",
+     "right": "facilissimo"
+    },
+    {
+     "id": "p4",
+     "left": "molto caro",
+     "right": "carissimo"
+    },
+    {
+     "id": "p5",
+     "left": "molto lungo",
+     "right": "lunghissimo"
+    },
+    {
+     "id": "p6",
+     "left": "molto simpatico",
+     "right": "simpaticissimo"
+    },
+    {
+     "id": "p7",
+     "left": "molto bene",
+     "right": "benissimo"
+    },
+    {
+     "id": "p8",
+     "left": "molto alto",
+     "right": "altissimo"
+    }
+   ]
+  }
+ ]
+}

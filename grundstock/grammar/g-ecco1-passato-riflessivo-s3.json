@@ -1,0 +1,98 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-riflessivo-s3",
+ "title": "La mia giornata di ieri",
+ "language": "it",
+ "level": "A1",
+ "description": "Mi sono alzato: il passato prossimo dei verbi riflessivi · La mia giornata di ieri · livello difficile.",
+ "topics": [
+  "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo (reflexive Verben, piacere)"
+ },
+ "grammar": {
+  "topic": "ecco1-passato-riflessivo",
+  "topicTitle": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 73,
+  "rule": "I verbi riflessivi formano il passato prossimo con **essere**. Il participio **concorda** con il soggetto:\n| io | **mi sono** alzato/-a |\n| tu | **ti sei** alzato/-a |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati/-e |\n| voi | **vi siete** alzati/-e |\n| loro | **si sono** alzati/-e |\nAnche **piacere** usa essere: _La pizza mi è piaciut**a**. I film mi sono piaciut**i**._",
+  "ruleHelp": "Reflexive Verben bilden das passato prossimo mit **essere**; das Partizip richtet sich nach dem Subjekt: _Anna si è alzata. Ci siamo divertiti._\nAuch **piacere** mit essere: _La pizza mi è piaciuta._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Racconta la tua giornata di ieri. Usa almeno 5 verbi riflessivi e piacere al passato prossimo.",
+   "promptHelp": "Erzähle deinen gestrigen Tag mit 5 reflexiven Verben.",
+   "type": "open_answer",
+   "modelAnswer": "Ieri mi sono svegliata alle sette. Mi sono lavata e mi sono vestita. A scuola mi sono annoiata un po’. Il pomeriggio mi sono incontrata con Sara. Il film di sera mi è piaciuto molto. Mi sono addormentata alle dieci.",
+   "lines": 6
+  },
+  {
+   "id": "q2",
+   "prompt": "Controlla: quale forma?",
+   "promptHelp": "Welche Form?",
+   "type": "gap_choice",
+   "text": "Ieri (io, Lena) mi [[g1]].\nIl film mi [[g2]].\nIo e Sara ci [[g3]].\nLe lezioni mi [[g4]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "sono svegliata",
+      "ho svegliata"
+     ],
+     "answer": "sono svegliata"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "è piaciuto",
+      "è piaciuta"
+     ],
+     "answer": "è piaciuto"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "siamo incontrate",
+      "siamo incontrati"
+     ],
+     "answer": "siamo incontrate"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "sono piaciute",
+      "sono piaciuti"
+     ],
+     "answer": "sono piaciute"
+    }
+   ]
+  }
+ ]
+}

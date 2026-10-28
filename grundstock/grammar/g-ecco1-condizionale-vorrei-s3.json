@@ -1,0 +1,98 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-condizionale-vorrei-s3",
+ "title": "Il mio desiderio",
+ "language": "it",
+ "level": "A1",
+ "description": "Vorrei, potrei, dovrei: chiedere con gentilezza · Il mio desiderio · livello difficile.",
+ "topics": [
+  "Vorrei, potrei, dovrei: chiedere con gentilezza",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Höflichkeitsformen (vorrei, potrebbe …)"
+ },
+ "grammar": {
+  "topic": "ecco1-condizionale-vorrei",
+  "topicTitle": "Vorrei, potrei, dovrei: chiedere con gentilezza",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 33,
+  "rule": "Per chiedere **con gentilezza** usiamo il **condizionale**:\n| io | tu | Lei / lui / lei | noi | voi | loro |\n| vorrei | vorresti | vorrebbe | vorremmo | vorreste | vorrebbero |\n- _**Vorrei** un gelato, per favore._\n- _**Potrebbe** ripetere?_ (Lei)\n- _**Dovresti** studiare di più._ (consiglio)\nLe forme di **potere** e **dovere** sono uguali: potr**ei**, potr**esti**, potr**ebbe** … / dovr**ei**, dovr**esti**, dovr**ebbe** …",
+  "ruleHelp": "Höfliche Bitten mit dem **Konditional**: _Vorrei un gelato_ (Ich hätte gern …), _Potrebbe ripetere?_ (Könnten Sie …?), _Dovresti …_ (Du solltest …).\nEndungen: -ei, -esti, -ebbe, -emmo, -este, -ebbero."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi una mail gentile a un albergo o a una scuola di lingua in Italia. Usa almeno 4 forme del condizionale (vorrei, potrebbe, …).",
+   "promptHelp": "Schreibe eine höfliche Mail. Mindestens 4 Konditionalformen.",
+   "type": "open_answer",
+   "modelAnswer": "Gentile signora, vorrei fare un corso di italiano a luglio. Potrebbe mandarmi il programma? Vorrei anche sapere il prezzo. Potrei abitare in famiglia? Grazie mille, cordiali saluti.",
+   "lines": 6
+  },
+  {
+   "id": "q2",
+   "prompt": "Quale forma?",
+   "promptHelp": "Welche Form?",
+   "type": "gap_choice",
+   "text": "[[g1]] fare un corso. (io)\n[[g2]] mandarmi il programma? (Lei)\n[[g3]] abitare in famiglia? (io)\n[[g4]] venire in due. (noi)",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Vorrei",
+      "Vorrebbe"
+     ],
+     "answer": "Vorrei"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Potrebbe",
+      "Potresti"
+     ],
+     "answer": "Potrebbe"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Potrei",
+      "Potrebbe"
+     ],
+     "answer": "Potrei"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Vorremmo",
+      "Vorrebbero"
+     ],
+     "answer": "Vorremmo"
+    }
+   ]
+  }
+ ]
+}

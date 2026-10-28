@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-negazione-doppia-l2",
+ "title": "Niente, nessuno, mai o più?",
+ "language": "it",
+ "level": "A1",
+ "description": "Non … niente, nessuno, mai, più · Niente, nessuno, mai o più? · livello facile.",
+ "topics": [
+  "Non … niente, nessuno, mai, più",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation, u. a. doppia negazione bei niente, nessuno, mai"
+ },
+ "grammar": {
+  "topic": "ecco1-negazione-doppia",
+  "topicTitle": "Non … niente, nessuno, mai, più",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 22,
+  "rule": "In italiano diciamo **due negazioni**: **non** prima del verbo e la seconda parola dopo il verbo.\n- _**Non** vedo **niente**._ (nichts)\n- _**Non** c’è **nessuno**._ (niemand)\n- _**Non** vado **mai** in palestra._ (nie)\n- _**Non** abito **più** a Roma._ (nicht mehr)\nSe **niente** o **nessuno** sono all’inizio, **non** non c’è: _**Nessuno** parla._",
+  "ruleHelp": "Im Italienischen verneint man **doppelt**: **non** vor dem Verb und dann **niente** (nichts), **nessuno** (niemand), **mai** (nie), **più** (nicht mehr) nach dem Verb: _Non vedo niente. Non c’è nessuno._\nStehen niente/nessuno am Satzanfang, fällt non weg: _Nessuno parla._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la parola giusta.",
+   "promptHelp": "Wähle das passende Wort.",
+   "type": "gap_choice",
+   "text": "Ho fame, ma in frigo non c’è [[g1]].\nLa piazza è vuota: non c’è [[g2]].\nOdio il pesce: non lo mangio [[g3]].\nDa ottobre non abito [[g4]] a Torino.\nSono al buio, non vedo [[g5]].\nSono nuovo, non conosco [[g6]].\nMio padre non beve [[g7]] la Coca-Cola.\nNon gioco [[g8]] a tennis, ora faccio nuoto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "niente",
+      "nessuno",
+      "mai"
+     ],
+     "answer": "niente"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "nessuno",
+      "niente",
+      "più"
+     ],
+     "answer": "nessuno"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "mai",
+      "nessuno",
+      "niente"
+     ],
+     "answer": "mai"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "più",
+      "nessuno",
+      "niente"
+     ],
+     "answer": "più"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "niente",
+      "nessuno",
+      "più"
+     ],
+     "answer": "niente"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "nessuno",
+      "niente",
+      "mai"
+     ],
+     "answer": "nessuno"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "mai",
+      "nessuno",
+      "niente"
+     ],
+     "answer": "mai"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "più",
+      "mai",
+      "nessuno"
+     ],
+     "answer": "più"
+    }
+   ]
+  }
+ ]
+}

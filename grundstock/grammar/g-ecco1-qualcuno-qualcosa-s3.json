@@ -1,0 +1,98 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-qualcuno-qualcosa-s3",
+ "title": "Il mio weekend ideale",
+ "language": "it",
+ "level": "A1",
+ "description": "Qualcuno, qualcosa, ognuno, ogni · Il mio weekend ideale · livello difficile.",
+ "topics": [
+  "Qualcuno, qualcosa, ognuno, ogni",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-qualcuno-qualcosa",
+  "topicTitle": "Qualcuno, qualcosa, ognuno, ogni",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 83,
+  "rule": "- **qualcuno** = una persona (non so chi): _C’è **qualcuno**?_\n- **qualcosa** = una cosa (non so cosa): _Vuoi **qualcosa** da bere?_\n- **ognuno** = ogni persona: _**Ognuno** porta un panino._\n- **ogni** + nome singolare: _**ogni** giorno, **ogni** settimana_\n- **qualcosa di** + aggettivo: _qualcosa **di** bello_ · **qualcosa da** + infinito: _qualcosa **da** mangiare_",
+  "ruleHelp": "**qualcuno** = jemand, **qualcosa** = etwas, **ognuno** = jeder (Person), **ogni** + Singular = jede(r/s).\n_qualcosa di nuovo_ (etwas Neues), _qualcosa da bere_ (etwas zu trinken)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Descrivi il tuo weekend ideale. Usa qualcuno, qualcosa (di/da), ognuno e ogni.",
+   "promptHelp": "Beschreibe dein ideales Wochenende.",
+   "type": "open_answer",
+   "modelAnswer": "Il mio weekend ideale: sabato mattina faccio qualcosa di sportivo. Poi incontro qualcuno al parco. La sera ogni amico porta qualcosa da mangiare e ognuno racconta una storia.",
+   "lines": 5
+  },
+  {
+   "id": "q2",
+   "prompt": "Controlla.",
+   "promptHelp": "Prüfe.",
+   "type": "gap_choice",
+   "text": "Faccio qualcosa [[g1]] sportivo.\nPorto qualcosa [[g2]] mangiare.\n[[g3]] racconta una storia.\n[[g4]] sabato vado al parco.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "di",
+      "da"
+     ],
+     "answer": "di"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "da",
+      "di"
+     ],
+     "answer": "da"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Ognuno",
+      "Ogni"
+     ],
+     "answer": "Ognuno"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Ogni",
+      "Ognuno"
+     ],
+     "answer": "Ogni"
+    }
+   ]
+  }
+ ]
+}

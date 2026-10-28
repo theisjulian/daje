@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-negazione-doppia-m3",
+ "title": "Il contrario",
+ "language": "it",
+ "level": "A1",
+ "description": "Non … niente, nessuno, mai, più · Il contrario · livello medio.",
+ "topics": [
+  "Non … niente, nessuno, mai, più",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation, u. a. doppia negazione bei niente, nessuno, mai"
+ },
+ "grammar": {
+  "topic": "ecco1-negazione-doppia",
+  "topicTitle": "Non … niente, nessuno, mai, più",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 23,
+  "rule": "In italiano diciamo **due negazioni**: **non** prima del verbo e la seconda parola dopo il verbo.\n- _**Non** vedo **niente**._ (nichts)\n- _**Non** c’è **nessuno**._ (niemand)\n- _**Non** vado **mai** in palestra._ (nie)\n- _**Non** abito **più** a Roma._ (nicht mehr)\nSe **niente** o **nessuno** sono all’inizio, **non** non c’è: _**Nessuno** parla._",
+  "ruleHelp": "Im Italienischen verneint man **doppelt**: **non** vor dem Verb und dann **niente** (nichts), **nessuno** (niemand), **mai** (nie), **più** (nicht mehr) nach dem Verb: _Non vedo niente. Non c’è nessuno._\nStehen niente/nessuno am Satzanfang, fällt non weg: _Nessuno parla._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi il contrario con la doppia negazione.",
+   "promptHelp": "Schreibe das Gegenteil mit doppelter Verneinung.",
+   "explanation": "sempre ↔ non … mai · qualcuno ↔ non … nessuno · qualcosa ↔ non … niente · ancora ↔ non … più.",
+   "explanationHelp": "Gegensätze merken.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Vado sempre in palestra. → …",
+     "acceptedAnswers": [
+      "Non vado mai in palestra"
+     ],
+     "modelAnswer": "Non vado mai in palestra."
+    },
+    {
+     "id": "s2",
+     "start": "C’è qualcuno in classe. → …",
+     "acceptedAnswers": [
+      "Non c’è nessuno in classe"
+     ],
+     "modelAnswer": "Non c’è nessuno in classe."
+    },
+    {
+     "id": "s3",
+     "start": "Vedo qualcosa. → …",
+     "acceptedAnswers": [
+      "Non vedo niente"
+     ],
+     "modelAnswer": "Non vedo niente."
+    },
+    {
+     "id": "s4",
+     "start": "Abito ancora qui. → …",
+     "acceptedAnswers": [
+      "Non abito più qui"
+     ],
+     "modelAnswer": "Non abito più qui."
+    },
+    {
+     "id": "s5",
+     "start": "Mangio sempre la pizza. → …",
+     "acceptedAnswers": [
+      "Non mangio mai la pizza"
+     ],
+     "modelAnswer": "Non mangio mai la pizza."
+    },
+    {
+     "id": "s6",
+     "start": "Conosco qualcuno a Roma. → …",
+     "acceptedAnswers": [
+      "Non conosco nessuno a Roma"
+     ],
+     "modelAnswer": "Non conosco nessuno a Roma."
+    },
+    {
+     "id": "s7",
+     "start": "Compro qualcosa. → …",
+     "acceptedAnswers": [
+      "Non compro niente"
+     ],
+     "modelAnswer": "Non compro niente."
+    },
+    {
+     "id": "s8",
+     "start": "Studio ancora il francese. → …",
+     "acceptedAnswers": [
+      "Non studio più il francese"
+     ],
+     "modelAnswer": "Non studio più il francese."
+    }
+   ]
+  }
+ ]
+}

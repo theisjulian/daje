@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-qualcuno-qualcosa-m2",
+ "title": "Alla festa di Matteo",
+ "language": "it",
+ "level": "A1",
+ "description": "Qualcuno, qualcosa, ognuno, ogni · Alla festa di Matteo · livello medio.",
+ "topics": [
+  "Qualcuno, qualcosa, ognuno, ogni",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-qualcuno-qualcosa",
+  "topicTitle": "Qualcuno, qualcosa, ognuno, ogni",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 82,
+  "rule": "- **qualcuno** = una persona (non so chi): _C’è **qualcuno**?_\n- **qualcosa** = una cosa (non so cosa): _Vuoi **qualcosa** da bere?_\n- **ognuno** = ogni persona: _**Ognuno** porta un panino._\n- **ogni** + nome singolare: _**ogni** giorno, **ogni** settimana_\n- **qualcosa di** + aggettivo: _qualcosa **di** bello_ · **qualcosa da** + infinito: _qualcosa **da** mangiare_",
+  "ruleHelp": "**qualcuno** = jemand, **qualcosa** = etwas, **ognuno** = jeder (Person), **ogni** + Singular = jede(r/s).\n_qualcosa di nuovo_ (etwas Neues), _qualcosa da bere_ (etwas zu trinken)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con qualcuno, qualcosa, ognuno o ogni.",
+   "promptHelp": "Ergänze.",
+   "type": "gap_fill",
+   "text": "Sabato c’è la festa di Matteo. [[g1]] porta [[g2]] da mangiare.\nIo porto una torta: la faccio [[g3]] anno.\nMatteo chiede: «C’è [[g4]] che porta la musica?»\nLia dice: «Io! Ho [[g5]] di nuovo da ascoltare.»\nAlla festa [[g6]] suona la chitarra.\nAlle undici [[g7]] torna a casa, stanco ma felice.\nMatteo dice: «Facciamo una festa [[g8]] mese!»",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Ognuno"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "qualcosa"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ogni"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "qualcuno"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "qualcosa"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "qualcuno"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "ognuno"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ogni"
+     ]
+    }
+   ],
+   "wordBank": true,
+   "extraWords": [
+    "nessuno",
+    "niente"
+   ]
+  }
+ ]
+}

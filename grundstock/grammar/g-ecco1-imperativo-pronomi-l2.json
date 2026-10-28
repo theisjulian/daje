@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-imperativo-pronomi-l2",
+ "title": "Attaccato!",
+ "language": "it",
+ "level": "A1",
+ "description": "L’imperativo con i pronomi: dimmi, fallo! · Attaccato! · livello facile.",
+ "topics": [
+  "L’imperativo con i pronomi: dimmi, fallo!",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo-pronomi",
+  "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 42,
+  "rule": "Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:\n- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_\nCon **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:\n- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_\nCon il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_",
+  "ruleHelp": "Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_\nBei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.\nVerneint (tu): _Non lo comprare!_ oder _Non comprarlo!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "type": "gap_choice",
+   "text": "Hai il mio numero? [[g1]] stasera!\nLa pizza è buona: [[g2]]!\nDov’è Paolo? [[g3]] qui!\nChe cosa è successo? [[g4]] tutto!\nÈ tardi, [[g5]] subito!\nHo bisogno della penna: [[g6]], per favore.\nÈ il compleanno di Anna: [[g7]] un messaggio!\nRagazzi, i compiti: [[g8]] adesso!",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Chiamami",
+      "Mi chiama",
+      "Chiama mi"
+     ],
+     "answer": "Chiamami"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "mangiala",
+      "la mangia",
+      "mangia la"
+     ],
+     "answer": "mangiala"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Aspettalo",
+      "Lo aspetta",
+      "Aspetta lo"
+     ],
+     "answer": "Aspettalo"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Dimmi",
+      "Dimi",
+      "Di mi"
+     ],
+     "answer": "Dimmi"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "fallo",
+      "falo",
+      "fa lo"
+     ],
+     "answer": "fallo"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "dammela",
+      "dami la",
+      "da me la"
+     ],
+     "answer": "dammela"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "scrivile",
+      "le scrivi",
+      "scrivi le"
+     ],
+     "answer": "scrivile"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "fateli",
+      "li fate",
+      "fate li"
+     ],
+     "answer": "fateli"
+    }
+   ]
+  }
+ ]
+}

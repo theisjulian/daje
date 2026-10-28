@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-stare-gerundio-m2",
+ "title": "Adesso!",
+ "language": "it",
+ "level": "A1",
+ "description": "Stare + gerundio · Adesso! · livello medio.",
+ "topics": [
+  "Stare + gerundio",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · stare + Gerundium"
+ },
+ "grammar": {
+  "topic": "ecco1-stare-gerundio",
+  "topicTitle": "Stare + gerundio",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 12,
+  "rule": "Per dire che cosa **succede proprio adesso** usiamo **stare + gerundio**:\n| -are → **-ando** | parlare → parlando |\n| -ere → **-endo** | leggere → leggendo |\n| -ire → **-endo** | dormire → dormendo |\n\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n_Che cosa **stai facendo**? – **Sto scrivendo** un messaggio._\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**.",
+  "ruleHelp": "Was **gerade jetzt** passiert: **stare + Gerundium**. -are → -ando, -ere/-ire → -endo: _Sto scrivendo un messaggio._ (Ich schreibe gerade …)\nUnregelmäßig: fare → facendo, dire → dicendo, bere → bevendo."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Che cosa stanno facendo adesso? Scrivi con stare + gerundio.",
+   "promptHelp": "Was machen sie gerade?",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "(io / scrivere una mail)",
+     "acceptedAnswers": [
+      "Sto scrivendo una mail"
+     ],
+     "modelAnswer": "Sto scrivendo una mail."
+    },
+    {
+     "id": "s2",
+     "start": "(Marco / dormire)",
+     "acceptedAnswers": [
+      "Marco sta dormendo"
+     ],
+     "modelAnswer": "Marco sta dormendo."
+    },
+    {
+     "id": "s3",
+     "start": "(noi / mangiare la pizza)",
+     "acceptedAnswers": [
+      "Stiamo mangiando la pizza"
+     ],
+     "modelAnswer": "Stiamo mangiando la pizza."
+    },
+    {
+     "id": "s4",
+     "start": "(tu / studiare?)",
+     "acceptedAnswers": [
+      "Stai studiando"
+     ],
+     "modelAnswer": "Stai studiando?"
+    },
+    {
+     "id": "s5",
+     "start": "(le ragazze / fare shopping)",
+     "acceptedAnswers": [
+      "Le ragazze stanno facendo shopping"
+     ],
+     "modelAnswer": "Le ragazze stanno facendo shopping."
+    },
+    {
+     "id": "s6",
+     "start": "(voi / bere un caffè?)",
+     "acceptedAnswers": [
+      "State bevendo un caffè"
+     ],
+     "modelAnswer": "State bevendo un caffè?"
+    },
+    {
+     "id": "s7",
+     "start": "(la prof / spiegare la regola)",
+     "acceptedAnswers": [
+      "La prof sta spiegando la regola"
+     ],
+     "modelAnswer": "La prof sta spiegando la regola."
+    },
+    {
+     "id": "s8",
+     "start": "(i ragazzi / correre al parco)",
+     "acceptedAnswers": [
+      "I ragazzi stanno correndo al parco"
+     ],
+     "modelAnswer": "I ragazzi stanno correndo al parco."
+    }
+   ]
+  }
+ ]
+}

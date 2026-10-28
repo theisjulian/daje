@@ -1,0 +1,57 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-domande-s3",
+ "title": "Intervista una star",
+ "language": "it",
+ "level": "A1",
+ "description": "Le domande: chi, che cosa, dove, quando … · Intervista una star · livello difficile.",
+ "topics": [
+  "Le domande: chi, che cosa, dove, quando …",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 7/8 · Fragewörter, Fragesätze"
+ },
+ "grammar": {
+  "topic": "ecco1-domande",
+  "topicTitle": "Le domande: chi, che cosa, dove, quando …",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 53,
+  "rule": "| **chi?** | wer? | **dove?** | wo? wohin? |\n| **che cosa?** | was? | **quando?** | wann? |\n| **come?** | wie? | **perché?** | warum? |\n| **quanto/-a/-i/-e?** | wie viel(e)? | **quale/-i?** | welche(r)? |\n| **di dove?** | woher? | **a che ora?** | um wie viel Uhr? |\n_**Dove** abiti? · **Quanti** anni hai? · **Quale** zaino preferisci?_\n**Quanto** concorda con il nome: _quant**e** sorelle?_ · **Qual è** senza apostrofo!",
+  "ruleHelp": "Die wichtigsten **Fragewörter** (siehe Tabelle). **quanto** passt sich an: _quanti anni, quante sorelle_. **quale** → Plural **quali**; vor è: **qual è** (ohne Apostroph)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi 8 domande per intervistare un cantante o una sportiva italiana. Usa parole interrogative diverse.",
+   "promptHelp": "8 Fragen an einen Star mit verschiedenen Fragewörtern.",
+   "type": "open_answer",
+   "modelAnswer": "Come stai? Di dove sei? Quanti anni hai? Dove abiti adesso? Quando hai cominciato a cantare? Perché ami la musica? Qual è la tua canzone preferita? Che cosa fai nel tempo libero?",
+   "lines": 8
+  }
+ ]
+}

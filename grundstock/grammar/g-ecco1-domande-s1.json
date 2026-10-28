@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-domande-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A1",
+ "description": "Le domande: chi, che cosa, dove, quando … · Trova gli errori · livello difficile.",
+ "topics": [
+  "Le domande: chi, che cosa, dove, quando …",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 7/8 · Fragewörter, Fragesätze"
+ },
+ "grammar": {
+  "topic": "ecco1-domande",
+  "topicTitle": "Le domande: chi, che cosa, dove, quando …",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 51,
+  "rule": "| **chi?** | wer? | **dove?** | wo? wohin? |\n| **che cosa?** | was? | **quando?** | wann? |\n| **come?** | wie? | **perché?** | warum? |\n| **quanto/-a/-i/-e?** | wie viel(e)? | **quale/-i?** | welche(r)? |\n| **di dove?** | woher? | **a che ora?** | um wie viel Uhr? |\n_**Dove** abiti? · **Quanti** anni hai? · **Quale** zaino preferisci?_\n**Quanto** concorda con il nome: _quant**e** sorelle?_ · **Qual è** senza apostrofo!",
+  "ruleHelp": "Die wichtigsten **Fragewörter** (siehe Tabelle). **quanto** passt sich an: _quanti anni, quante sorelle_. **quale** → Plural **quali**; vor è: **qual è** (ohne Apostroph)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi gli otto errori.",
+   "promptHelp": "Korrigiere die acht Fehler.",
+   "type": "error_correction",
+   "text": "[[g1]] il tuo nome?\n[[g2]] fratelli hai?\n[[g3]] mangi a pranzo?\n[[g4]] sei? – Sono di Torino.\n[[g5]] costa la maglietta?\n[[g6]] parti? – Domani.\n[[g7]] lingue parli?\n[[g8]] arriva il treno? – Alle 10.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "Qual’è",
+     "acceptedAnswers": [
+      "Qual è"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "Quante",
+     "acceptedAnswers": [
+      "Quanti"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "Chi",
+     "acceptedAnswers": [
+      "Che cosa"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "Dove",
+     "acceptedAnswers": [
+      "Di dove"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "Quanti",
+     "acceptedAnswers": [
+      "Quanto"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "Come",
+     "acceptedAnswers": [
+      "Quando"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "Quale",
+     "acceptedAnswers": [
+      "Quali"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "Quando",
+     "acceptedAnswers": [
+      "A che ora"
+     ]
+    }
+   ]
+  }
+ ]
+}

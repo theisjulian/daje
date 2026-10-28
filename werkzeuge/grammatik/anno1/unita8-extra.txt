@@ -1,0 +1,943 @@
+#!buch series=Corso_daje volume=1 grade=8 cefr=A1 prefix=ecco1
+## Primo anno · Extra-Kapitel · Grammatikthemen aus dem Lehrplan Jgst. 8 (ab Lektion 4–7). Eigene Übungen.
+
+@thema stare-gerundio | Extra 1 · In giro per l’Italia | Grammatica | Stare + gerundio | 1
+#lehrplan Jgst. 8 · stare + Gerundium
+#regel
+Per dire che cosa **succede proprio adesso** usiamo **stare + gerundio**:
+| -are → **-ando** | parlare → parlando |
+| -ere → **-endo** | leggere → leggendo |
+| -ire → **-endo** | dormire → dormendo |
+
+| io | tu | lui / lei | noi | voi | loro |
+| sto | stai | sta | stiamo | state | stanno |
+_Che cosa **stai facendo**? – **Sto scrivendo** un messaggio._
+**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**.
+#regel-de
+Was **gerade jetzt** passiert: **stare + Gerundium**. -are → -ando, -ere/-ire → -endo: _Sto scrivendo un messaggio._ (Ich schreibe gerade …)
+Unregelmäßig: fare → facendo, dire → dicendo, bere → bevendo.
+
+%übung leicht | Il gerundio
+?zuordnen | Abbina l’infinito e il gerundio. || Verbinde Infinitiv und Gerundium.
+parlare = parlando
+leggere = leggendo
+dormire = dormendo
+mangiare = mangiando
+scrivere = scrivendo
+fare = facendo
+dire = dicendo
+bere = bevendo
+
+%übung leicht | Che cosa stanno facendo?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Io {sto*|stai|stanno} leggendo un libro.
+Tu {stai*|sto|sta} dormendo?
+Marco {sta*|stai|stiamo} guardando la partita.
+Noi {stiamo*|state|stanno} mangiando.
+Voi {state*|stiamo|stai} studiando?
+Le ragazze {stanno*|sta|state} ballando.
+Che cosa {stai*|sta|sto} facendo, Luca?
+La nonna {sta*|stanno|sto} cucinando.
+! stare: sto, stai, sta, stiamo, state, stanno + gerundio. || stare + Gerundium.
+
+%übung leicht | -ando o -endo?
+?auswahl | Scegli il gerundio giusto. || Wähle das richtige Gerundium.
+cantare → {cantando*|cantendo|cantato}
+prendere → {prendendo*|prendando|preso}
+partire → {partendo*|partando|partito}
+guardare → {guardando*|guardendo|guardato}
+scrivere → {scrivendo*|scrivando|scritto}
+sentire → {sentendo*|sentando|sentito}
+giocare → {giocando*|giochendo|giocato}
+fare → {facendo*|fando|fatto}
+
+%übung mittel | Al telefono
+?luecke | Scrivi stare + gerundio. || Setze stare + Gerundium ein.
+– Ciao Filippo, che cosa (fare, tu) [stai facendo]?
+– (guardare, io) [Sto guardando] un film su Internet.
+– E la mamma? – (preparare) [Sta preparando] la cena.
+– E Greta? Che cosa (fare) [sta facendo]?
+– (leggere) [Sta leggendo] un libro.
+– E i tuoi fratelli? – (giocare) [Stanno giocando] in giardino.
+– E voi due? – Noi (aspettare) [stiamo aspettando] il papà.
+– Ok, ci sentiamo dopo! Io (uscire) [sto uscendo].
+
+%übung mittel | Adesso!
+?ergaenzen | Che cosa stanno facendo adesso? Scrivi con stare + gerundio. || Was machen sie gerade?
+(io / scrivere una mail) | Sto scrivendo una mail | Sto scrivendo una mail.
+(Marco / dormire) | Marco sta dormendo | Marco sta dormendo.
+(noi / mangiare la pizza) | Stiamo mangiando la pizza | Stiamo mangiando la pizza.
+(tu / studiare?) | Stai studiando | Stai studiando?
+(le ragazze / fare shopping) | Le ragazze stanno facendo shopping | Le ragazze stanno facendo shopping.
+(voi / bere un caffè?) | State bevendo un caffè | State bevendo un caffè?
+(la prof / spiegare la regola) | La prof sta spiegando la regola | La prof sta spiegando la regola.
+(i ragazzi / correre al parco) | I ragazzi stanno correndo al parco | I ragazzi stanno correndo al parco.
+
+%übung mittel | Presente o stare + gerundio?
+?auswahl | Abitudine (presente) o proprio adesso (stare + gerundio)? || Gewohnheit oder gerade jetzt?
+Di solito {leggo*|sto leggendo} la sera.
+Silenzio! {Sto studiando*|Studio} per il test.
+Ogni giorno Marco {va*|sta andando} a scuola in bici.
+Guarda! Il gatto {sta dormendo*|dorme} sul tavolo.
+Il sabato {giochiamo*|stiamo giocando} a calcio.
+Non posso parlare, {sto guidando*|guido}!
+In estate {andiamo*|stiamo andando} al mare.
+Ascolta: qualcuno {sta suonando*|suona} alla porta.
+! di solito, ogni giorno → presente; proprio adesso → stare + gerundio. || Gewohnheit → Präsens; gerade jetzt → stare + Gerundium.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+Io [sono=>sto] leggendo.
+Marco sta [leggiando=>leggendo] un fumetto.
+Noi [stanno=>stiamo] mangiando.
+Che cosa stai [fando=>facendo]?
+Le ragazze [sta=>stanno] ballando.
+Sto [scrivando=>scrivendo] un messaggio.
+Voi state [dormando=>dormendo]?
+Mio padre sta [beviendo=>bevendo] un caffè.
+
+%übung schwer | Un messaggio dalla gita
+?luecke | Scrivi stare + gerundio. || Ergänze stare + Gerundium.
+Ciao mamma! Adesso (visitare, noi) [stiamo visitando] il Duomo di Firenze.
+Il prof (spiegare) [sta spiegando] la storia della città.
+Luca e Marco (fare) [stanno facendo] foto a tutto.
+Io (mangiare) [sto mangiando] un gelato buonissimo.
+Giulia (scrivere) [sta scrivendo] una cartolina alla nonna.
+E voi? Che cosa (fare) [state facendo] a casa?
+Papà (lavorare) [sta lavorando], vero?
+Ti chiamo stasera, adesso (partire, noi) [stiamo partendo] per Siena!
+
+%übung schwer | Che cosa stanno facendo?
+?frei | Guarda fuori dalla finestra o pensa alla tua famiglia: che cosa stanno facendo adesso? Scrivi 5 frasi con stare + gerundio. || Was machen deine Familie oder Leute draußen gerade? 5 Sätze.
+Mia madre sta lavorando. Mio fratello sta giocando ai videogiochi. Il cane sta dormendo. Due bambini stanno correndo nel parco. Io sto scrivendo questo testo.
+Zeilen: 5
+?ergaenzen | E adesso scrivi il gerundio. || Und jetzt das Gerundium.
+(fare) | facendo | facendo
+(bere) | bevendo | bevendo
+(dire) | dicendo | dicendo
+(uscire) | uscendo | uscendo
+
+@thema negazione-doppia | Extra 1 · In giro per l’Italia | Grammatica | Non … niente, nessuno, mai, più | 2
+#lehrplan Jgst. 8 · Negation, u. a. doppia negazione bei niente, nessuno, mai
+#regel
+In italiano diciamo **due negazioni**: **non** prima del verbo e la seconda parola dopo il verbo.
+- _**Non** vedo **niente**._ (nichts)
+- _**Non** c’è **nessuno**._ (niemand)
+- _**Non** vado **mai** in palestra._ (nie)
+- _**Non** abito **più** a Roma._ (nicht mehr)
+Se **niente** o **nessuno** sono all’inizio, **non** non c’è: _**Nessuno** parla._
+#regel-de
+Im Italienischen verneint man **doppelt**: **non** vor dem Verb und dann **niente** (nichts), **nessuno** (niemand), **mai** (nie), **più** (nicht mehr) nach dem Verb: _Non vedo niente. Non c’è nessuno._
+Stehen niente/nessuno am Satzanfang, fällt non weg: _Nessuno parla._
+
+%übung leicht | Che cosa vuol dire?
+?zuordnen | Che cosa vuol dire? || Was bedeutet das?
+Non vedo niente. = Ich sehe nichts.
+Non c’è nessuno. = Es ist niemand da.
+Non vado mai al cinema. = Ich gehe nie ins Kino.
+Non abito più qui. = Ich wohne nicht mehr hier.
+Non mangio niente. = Ich esse nichts.
+Non conosco nessuno. = Ich kenne niemanden.
+Non bevo mai caffè. = Ich trinke nie Kaffee.
+Non gioco più a calcio. = Ich spiele nicht mehr Fußball.
+
+%übung leicht | Niente, nessuno, mai o più?
+?auswahl | Scegli la parola giusta. || Wähle das passende Wort.
+Ho fame, ma in frigo non c’è {niente*|nessuno|mai}.
+La piazza è vuota: non c’è {nessuno*|niente|più}.
+Odio il pesce: non lo mangio {mai*|nessuno|niente}.
+Da ottobre non abito {più*|nessuno|niente} a Torino.
+Sono al buio, non vedo {niente*|nessuno|più}.
+Sono nuovo, non conosco {nessuno*|niente|mai}.
+Mio padre non beve {mai*|nessuno|niente} la Coca-Cola.
+Non gioco {più*|mai|nessuno} a tennis, ora faccio nuoto.
+
+%übung leicht | Dove va non?
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Non vedo niente.
+- Vedo niente.
+- Niente non vedo.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Non c’è nessuno.
+- C’è nessuno.
+- Nessuno non c’è.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Non vado mai al mare.
+- Vado mai al mare.
+- Mai non vado al mare.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Nessuno parla.
+- Nessuno non parla.
+- Non nessuno parla.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Non abito più a Roma.
+- Abito più a Roma.
+- Non più abito a Roma.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Niente è facile.
+- Niente non è facile.
+- Non niente è facile.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Non mangio mai la carne.
+- Mangio mai la carne.
+- Non mai mangio la carne.
+?mc | Qual è la frase giusta? || Welcher Satz ist richtig?
+* Non conosco nessuno qui.
+- Conosco nessuno qui.
+- Nessuno conosco qui.
+
+%übung mittel | Rispondi di no
+?ergaenzen | Rispondi con la doppia negazione. || Antworte mit doppelter Verneinung.
+Vedi qualcosa? (niente) – No, … | non vedo niente | No, non vedo niente.
+C’è qualcuno? (nessuno) – No, … | non c’è nessuno | No, non c’è nessuno.
+Vai spesso al cinema? (mai) – No, … | non vado mai al cinema | No, non vado mai al cinema.
+Abiti ancora a Roma? (più) – No, … | non abito più a Roma | No, non abito più a Roma.
+Mangi qualcosa? (niente) – No, … | non mangio niente | No, non mangio niente.
+Conosci qualcuno qui? (nessuno) – No, … | non conosco nessuno | No, non conosco nessuno.
+Bevi il caffè? (mai) – No, … | non bevo mai il caffè | No, non bevo mai il caffè.
+Giochi ancora a tennis? (più) – No, … | non gioco più a tennis | No, non gioco più a tennis.
+! non prima del verbo, niente / nessuno / mai / più dopo. || non vor dem Verb, niente / nessuno / mai / più danach.
+
+%übung mittel | Una giornata storta
+?luecke wortkasten | Completa con niente, nessuno, mai o più. || Ergänze niente, nessuno, mai oder più.
+Oggi è una giornata storta. Apro il frigo: non c’è [niente].
+Telefono a Marta, ma non risponde [nessuno].
+Vado alla fermata, ma l’autobus non arriva [più]: è passato!
+A scuola non capisco [niente] di matematica.
+In mensa non c’è [nessuno] dei miei amici.
+La sera mio fratello dice: «Non mi aiuti [mai]!»
+Io rispondo: «Non è vero!» Ma non dico [niente] di più.
+Stasera non voglio vedere [nessuno]: vado a letto presto!
++ qualcosa, sempre
+
+%übung mittel | Il contrario
+?ergaenzen | Scrivi il contrario con la doppia negazione. || Schreibe das Gegenteil mit doppelter Verneinung.
+Vado sempre in palestra. → … | Non vado mai in palestra | Non vado mai in palestra.
+C’è qualcuno in classe. → … | Non c’è nessuno in classe | Non c’è nessuno in classe.
+Vedo qualcosa. → … | Non vedo niente | Non vedo niente.
+Abito ancora qui. → … | Non abito più qui | Non abito più qui.
+Mangio sempre la pizza. → … | Non mangio mai la pizza | Non mangio mai la pizza.
+Conosco qualcuno a Roma. → … | Non conosco nessuno a Roma | Non conosco nessuno a Roma.
+Compro qualcosa. → … | Non compro niente | Non compro niente.
+Studio ancora il francese. → … | Non studio più il francese | Non studio più il francese.
+! sempre ↔ non … mai · qualcuno ↔ non … nessuno · qualcosa ↔ non … niente · ancora ↔ non … più. || Gegensätze merken.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+[Vedo=>Non vedo] niente.
+[C’è=>Non c’è] nessuno.
+Non vado [niente=>mai] al cinema.
+[Nessuno non parla=>Nessuno parla].
+Non conosco [niente=>nessuno] qui.
+[Mangio=>Non mangio] mai il pesce.
+Non abito [mai=>più] a Torino, ora abito a Roma.
+Non compro [nessuno=>niente].
+! niente = cose, nessuno = persone, mai = tempo, più = non ancora. || niente = Dinge, nessuno = Personen, mai = Zeit, più = nicht mehr.
+
+%übung schwer | Un vecchio paese
+?luecke | Completa il testo con non e niente / nessuno / mai / più. || Ergänze mit non und niente / nessuno / mai / più.
+Il nonno racconta: «Oggi nel mio paese [non] abita [più] nessuno.
+I giovani [non] tornano [mai].
+In piazza [non] c’è [nessuno], la sera.
+Il negozio è chiuso: [non] vende [più] niente.
+Ma io [non] voglio andare via: è casa mia!»
+
+%übung schwer | Mai, mai, mai!
+?frei | Scrivi 5 cose che non fai mai, che non fai più e che non vuoi fare per niente. || Schreibe 5 Dinge, die du nie / nicht mehr machst.
+Non mangio mai il fegato. Non gioco più con le bambole. Non vado mai a letto prima delle nove. Non conosco nessuno in Cina. Non capisco niente di fisica.
+Zeilen: 5
+?auswahl | Controlla: quale parola? || Prüfe: welches Wort?
+Non mangio {mai*|nessuno} il fegato.
+Non conosco {nessuno*|niente} in Cina.
+Non capisco {niente*|nessuno} di fisica.
+Non gioco {più*|niente} con le bambole.
+
+@thema condizionale-vorrei | Extra 1 · In giro per l’Italia | Grammatica | Vorrei, potrei, dovrei: chiedere con gentilezza | 3
+#lehrplan Jgst. 8 · Höflichkeitsformen (vorrei, potrebbe …)
+#regel
+Per chiedere **con gentilezza** usiamo il **condizionale**:
+| io | tu | Lei / lui / lei | noi | voi | loro |
+| vorrei | vorresti | vorrebbe | vorremmo | vorreste | vorrebbero |
+- _**Vorrei** un gelato, per favore._
+- _**Potrebbe** ripetere?_ (Lei)
+- _**Dovresti** studiare di più._ (consiglio)
+Le forme di **potere** e **dovere** sono uguali: potr**ei**, potr**esti**, potr**ebbe** … / dovr**ei**, dovr**esti**, dovr**ebbe** …
+#regel-de
+Höfliche Bitten mit dem **Konditional**: _Vorrei un gelato_ (Ich hätte gern …), _Potrebbe ripetere?_ (Könnten Sie …?), _Dovresti …_ (Du solltest …).
+Endungen: -ei, -esti, -ebbe, -emmo, -este, -ebbero.
+
+%übung leicht | Che cosa vuol dire?
+?zuordnen | Abbina le frasi. || Verbinde die Sätze mit der Übersetzung.
+Vorrei un caffè. = Ich hätte gern einen Kaffee.
+Vorresti venire? = Möchtest du mitkommen?
+Potrebbe aiutarmi? = Könnten Sie mir helfen?
+Potresti chiudere la finestra? = Könntest du das Fenster schließen?
+Dovresti dormire di più. = Du solltest mehr schlafen.
+Vorremmo due biglietti. = Wir hätten gern zwei Karten.
+Potreste parlare piano? = Könntet ihr leise sprechen?
+Dovrei studiare. = Ich sollte lernen.
+
+%übung leicht | Al bar
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Io {vorrei*|vorresti|vorrebbe} un cappuccino.
+Signora, che cosa {vorrebbe*|vorrei|vorresti}?
+Noi {vorremmo*|vorreste|vorrei} due cornetti.
+Luca, {vorresti*|vorrebbe|vorrei} una spremuta?
+Ragazzi, {vorreste*|vorremmo|vorrebbero} qualcosa da bere?
+I miei amici {vorrebbero*|vorrebbe|vorremmo} un tavolo fuori.
+Scusi, {potrebbe*|potresti|potrei} portare il conto?
+Mamma, {potresti*|potrebbe|potrei} darmi due euro?
+
+%übung leicht | Gentile o no?
+?mc | Qual è la frase più gentile? || Welcher Satz ist höflicher?
+* Vorrei un panino, per favore.
+- Voglio un panino.
+?mc | Qual è la frase più gentile? || Welcher Satz ist höflicher?
+* Potrebbe ripetere, per favore?
+- Ripeta!
+?mc | Qual è la frase più gentile? || Welcher Satz ist höflicher?
+* Potresti aprire la finestra?
+- Apri la finestra!
+?mc | Qual è la frase più gentile? || Welcher Satz ist höflicher?
+* Vorremmo prenotare un tavolo.
+- Vogliamo un tavolo.
+?mc | Qual è la frase più gentile? || Welcher Satz ist höflicher?
+* Scusi, potrebbe dirmi dov’è la stazione?
+- Dov’è la stazione?
+?mc | Qual è la frase più gentile? || Welcher Satz ist höflicher?
+* Potreste fare silenzio, per favore?
+- Silenzio!
+?mc | Qual è la frase più gentile? || Welcher Satz ist höflicher?
+* Vorrei provare questa maglietta.
+- Voglio provare questa maglietta.
+?mc | Qual è la frase più gentile? || Welcher Satz ist höflicher?
+* Mi potresti prestare la penna?
+- Dammi la penna!
+
+%übung mittel | In gelateria
+?luecke | Completa con il condizionale (volere / potere). || Ergänze das Konditional von volere / potere.
+– Buongiorno, che cosa (volere, Lei) [vorrebbe]?
+– (volere, io) [Vorrei] un cono da due euro.
+– E i gusti? – (potere, io) [Potrei] avere fragola e limone?
+– Certo. E tu, piccola, che cosa (volere) [vorresti]?
+– Noi (volere) [vorremmo] anche due coppette.
+– (potere, voi) [Potreste] aspettare un momento?
+– I miei genitori (volere) [vorrebbero] anche un caffè.
+– Scusi, (potere, Lei) [potrebbe] darmi un tovagliolo?
+
+%übung mittel | Chiedi con gentilezza
+?ergaenzen | Trasforma in una domanda gentile con potresti / potrebbe. || Mach eine höfliche Frage daraus.
+Chiudi la porta! (tu) | Potresti chiudere la porta | Potresti chiudere la porta?
+Ripeta! (Lei) | Potrebbe ripetere | Potrebbe ripetere?
+Aiutami! (tu) | Potresti aiutarmi | Potresti aiutarmi?
+Parli più piano! (Lei) | Potrebbe parlare più piano | Potrebbe parlare più piano?
+Spegni la musica! (tu) | Potresti spegnere la musica | Potresti spegnere la musica?
+Mi dica l’ora! (Lei) | Potrebbe dirmi l’ora | Potrebbe dirmi l’ora?
+Prestami il libro! (tu) | Potresti prestarmi il libro | Potresti prestarmi il libro?
+Apra la finestra! (Lei) | Potrebbe aprire la finestra | Potrebbe aprire la finestra?
+! potresti + infinito (tu) · potrebbe + infinito (Lei). || potresti / potrebbe + Infinitiv.
+
+%übung mittel | Consigli
+?luecke | Dai un consiglio con dovresti / dovreste. || Gib einen Rat mit dovresti / dovreste.
+Sei stanco? (dormire, tu) [Dovresti dormire] di più.
+Avete fame? (mangiare, voi) [Dovreste mangiare] qualcosa.
+Hai mal di testa? (bere, tu) [Dovresti bere] più acqua.
+Hai un brutto voto? (studiare, tu) [Dovresti studiare] un po’ di più.
+Avete freddo? (mettere, voi) [Dovreste mettere] la giacca.
+Sei sempre al telefono? (uscire, tu) [Dovresti uscire] con gli amici.
+Arrivate sempre tardi? (partire, voi) [Dovreste partire] prima.
+Non capisci? (chiedere, tu) [Dovresti chiedere] alla prof.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+Io [vorrebbe=>vorrei] un tè.
+Signora, [vorresti=>vorrebbe] un caffè?
+Noi [vorrebbero=>vorremmo] due biglietti.
+Ragazzi, [potresti=>potreste] aiutarmi?
+Tu [dovrebbe=>dovresti] dormire di più.
+Scusi, [potresti=>potrebbe] ripetere?
+I miei amici [vorremmo=>vorrebbero] una pizza.
+Io [potrebbe=>potrei] avere il conto?
+
+%übung schwer | Una telefonata all’hotel
+?luecke | Completa con il condizionale di volere, potere o dovere. || Ergänze das Konditional.
+– Hotel Bellavista, buongiorno!
+– Buongiorno, (volere, io) [vorrei] prenotare una camera.
+– Certo. Per quante persone?
+– Siamo in tre: noi (volere) [vorremmo] una camera tripla.
+– (potere, Lei) [Potrebbe] dirmi le date?
+– Dal 3 al 6 agosto. (potere, voi) [Potreste] anche preparare la colazione senza glutine?
+– Sì, ma (dovere, Lei) [dovrebbe] scriverci una mail.
+– Va bene. Mio figlio (volere) [vorrebbe] sapere se c’è la piscina.
+– Sì, c’è! (volere, voi) [Vorreste] anche il parcheggio?
+– No, grazie, arriviamo in treno. (potere, io) [Potrei] pagare con la carta?
+
+%übung schwer | Il mio desiderio
+?frei | Scrivi una mail gentile a un albergo o a una scuola di lingua in Italia. Usa almeno 4 forme del condizionale (vorrei, potrebbe, …). || Schreibe eine höfliche Mail. Mindestens 4 Konditionalformen.
+Gentile signora, vorrei fare un corso di italiano a luglio. Potrebbe mandarmi il programma? Vorrei anche sapere il prezzo. Potrei abitare in famiglia? Grazie mille, cordiali saluti.
+Zeilen: 6
+?auswahl | Quale forma? || Welche Form?
+{Vorrei*|Vorrebbe} fare un corso. (io)
+{Potrebbe*|Potresti} mandarmi il programma? (Lei)
+{Potrei*|Potrebbe} abitare in famiglia? (io)
+{Vorremmo*|Vorrebbero} venire in due. (noi)
+
+@thema imperativo-pronomi | Extra 1 · In giro per l’Italia | Grammatica | L’imperativo con i pronomi: dimmi, fallo! | 4
+#lehrplan Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen
+#regel
+Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:
+- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_
+Con **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:
+- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_
+Con il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_
+#regel-de
+Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_
+Bei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.
+Verneint (tu): _Non lo comprare!_ oder _Non comprarlo!_
+
+%übung leicht | Che cosa vuol dire?
+?zuordnen | Abbina. || Verbinde.
+Dimmi! = Sag es mir!
+Fallo! = Mach es!
+Dammi la penna! = Gib mir den Stift!
+Chiamami! = Ruf mich an!
+Aspettaci! = Warte auf uns!
+Compralo! = Kauf ihn / es!
+Scrivile! = Schreib ihr!
+Non toccarlo! = Fass es nicht an!
+
+%übung leicht | Attaccato!
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+Hai il mio numero? {Chiamami*|Mi chiama|Chiama mi} stasera!
+La pizza è buona: {mangiala*|la mangia|mangia la}!
+Dov’è Paolo? {Aspettalo*|Lo aspetta|Aspetta lo} qui!
+Che cosa è successo? {Dimmi*|Dimi|Di mi} tutto!
+È tardi, {fallo*|falo|fa lo} subito!
+Ho bisogno della penna: {dammela*|dami la|da me la}, per favore.
+È il compleanno di Anna: {scrivile*|le scrivi|scrivi le} un messaggio!
+Ragazzi, i compiti: {fateli*|li fate|fate li} adesso!
+
+%übung leicht | Raddoppia!
+?ergaenzen | Unisci verbo e pronome. || Verbinde Verb und Pronomen.
+di’ + mi | dimmi | dimmi
+fa’ + lo | fallo | fallo
+da’ + mi | dammi | dammi
+va’ + ci | vacci | vacci
+sta’ + mi (a sentire) | stammi | stammi
+di’ + le | dille | dille
+fa’ + la | falla | falla
+da’ + ci | dacci | dacci
+! da’, di’, fa’, sta’, va’ + pronome → consonante doppia (tranne gli). || Doppelter Konsonant (außer bei gli).
+
+%übung mittel | Sì, fallo!
+?ergaenzen | Rispondi con l’imperativo e il pronome. || Antworte mit Imperativ + Pronomen.
+Compro il pane? – Sì, … | compralo | Sì, compralo!
+Chiamo la nonna? – Sì, … | chiamala | Sì, chiamala!
+Apro le finestre? – Sì, … | aprile | Sì, aprile!
+Invito i miei amici? – Sì, … | invitali | Sì, invitali!
+Ti aspetto? – Sì, … | aspettami | Sì, aspettami!
+Faccio i compiti adesso? – Sì, … | falli | Sì, falli adesso!
+Ti dico la verità? – Sì, … | dimmela | Sì, dimmela!
+Scrivo a Marco? – Sì, … | scrivigli | Sì, scrivigli!
+
+%übung mittel | No, non farlo!
+?ergaenzen | Rispondi al negativo: non + infinito + pronome. || Verneinter Imperativ.
+Mangio la torta? – No, … | non mangiarla | No, non mangiarla!
+Prendo l’autobus? – No, … | non prenderlo | No, non prenderlo!
+Compro le scarpe? – No, … | non comprarle | No, non comprarle!
+Chiamo Luca? – No, … | non chiamarlo | No, non chiamarlo!
+Bevo il latte? – No, … | non berlo | No, non berlo!
+Apro la porta? – No, … | non aprirla | No, non aprirla!
+Invito Sara e Ada? – No, … | non invitarle | No, non invitarle!
+Faccio la foto? – No, … | non farla | No, non farla!
+! non + infinito senza -e + pronome: non mangiar-la. || Infinitiv ohne -e + Pronomen.
+
+%übung mittel | In cucina con il nonno
+?luecke | Completa l’imperativo con il pronome. || Ergänze Imperativ + Pronomen.
+Prendi le uova e (rompere, le) [rompile] in una ciotola.
+Ecco lo zucchero: (mettere, lo) [mettilo] con le uova.
+La farina? (aggiungere, la) [Aggiungila] piano piano.
+Il latte? (versare, lo) [Versalo] adesso.
+Hai una domanda? (fare, la) [Falla]!
+Non sai dov’è il burro? (chiedere, lo) [Chiedilo] alla nonna.
+Il forno? (accendere, lo) [Accendilo] a 180 gradi.
+E quando la torta è pronta, (dare, mi) [dammi] un pezzo!
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+[Dimi=>Dimmi] la verità!
+[Falo=>Fallo] subito!
+[Mi chiama=>Chiamami] stasera, Anna!
+La torta? [La mangia=>Mangiala], Marco!
+[Dami=>Dammi] il libro, per favore!
+Ragazzi, i compiti? [Li fate=>Fateli] adesso!
+Non [mangiarlola=>mangiarla], la torta è per la festa!
+[Vaci=>Vacci] in bici, è vicino!
+
+%übung schwer | Consigli a un amico
+?luecke | Tommaso va per la prima volta a Roma. Completa i consigli. || Ergänze die Tipps.
+Il Colosseo? (visitare, lo) [Visitalo] la mattina presto!
+I biglietti? (comprare, li) [Comprali] online.
+La pizza al taglio? (provare, la) [Provala] a Trastevere!
+Le cartoline? (scrivere, le) [Scrivile] ai nonni.
+Il gelato? (mangiare, lo) [Mangialo] in Piazza Navona.
+La metro? (prendere, la) [Prendila], è comoda.
+E quando arrivi, (chiamare, mi) [chiamami]!
+E non (dimenticare, mi) [dimenticarmi]: (mandare, mi) [mandami] una foto!
+
+%übung schwer | Istruzioni
+?frei | Scrivi a un compagno nuovo 5 consigli per la vostra scuola. Usa l’imperativo con i pronomi. || 5 Tipps für einen neuen Mitschüler mit Imperativ + Pronomen.
+La mensa? Provala, è buona! Il prof di matematica? Ascoltalo bene. I compiti? Falli subito. Se hai problemi, chiamami! Il libro di storia? Non dimenticarlo!
+Zeilen: 5
+?auswahl | Controlla: quale forma? || Welche Form?
+La mensa? {Provala*|La prova}!
+I compiti? {Falli*|Fali} subito!
+Se hai problemi, {chiamami*|mi chiama}!
+Il libro? Non {dimenticarlo*|dimenticalo}!
+
+@thema domande | Extra 1 · In giro per l’Italia | Grammatica | Le domande: chi, che cosa, dove, quando … | 5
+#lehrplan Jgst. 7/8 · Fragewörter, Fragesätze
+#regel
+| **chi?** | wer? | **dove?** | wo? wohin? |
+| **che cosa?** | was? | **quando?** | wann? |
+| **come?** | wie? | **perché?** | warum? |
+| **quanto/-a/-i/-e?** | wie viel(e)? | **quale/-i?** | welche(r)? |
+| **di dove?** | woher? | **a che ora?** | um wie viel Uhr? |
+_**Dove** abiti? · **Quanti** anni hai? · **Quale** zaino preferisci?_
+**Quanto** concorda con il nome: _quant**e** sorelle?_ · **Qual è** senza apostrofo!
+#regel-de
+Die wichtigsten **Fragewörter** (siehe Tabelle). **quanto** passt sich an: _quanti anni, quante sorelle_. **quale** → Plural **quali**; vor è: **qual è** (ohne Apostroph).
+
+%übung leicht | Le parole interrogative
+?zuordnen | Abbina. || Verbinde.
+chi? = wer?
+che cosa? = was?
+dove? = wo?
+quando? = wann?
+come? = wie?
+perché? = warum?
+quanto? = wie viel?
+di dove? = woher?
+
+%übung leicht | Domanda e risposta
+?auswahl | Scegli la parola interrogativa giusta. || Wähle das passende Fragewort.
+{Come*|Dove|Chi} ti chiami? – Mi chiamo Elena.
+{Di dove*|Dove|Quando} sei? – Sono di Bari.
+{Quanti*|Quante|Quanto} anni hai? – Ho tredici anni.
+{Dove*|Come|Chi} abiti? – Abito in via Roma.
+{Chi*|Che cosa|Quale} è quella ragazza? – È mia cugina.
+{Che cosa*|Chi|Dove} fai domani? – Vado al mare.
+{Perché*|Quando|Come} non vieni? – Perché sono malato.
+{A che ora*|Quanto|Dove} comincia il film? – Alle nove.
+
+%übung leicht | Quanto, quanta, quanti, quante?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+{Quanti*|Quante|Quanto} fratelli hai?
+{Quante*|Quanti|Quanta} sorelle ha Paola?
+{Quanto*|Quanta|Quanti} costa il gelato?
+{Quanta*|Quanto|Quante} acqua bevi al giorno?
+{Quanti*|Quante|Quanta} studenti ci sono in classe?
+{Quante*|Quanti|Quanto} ore dormi?
+{Quanto*|Quanta|Quante} tempo hai?
+{Quanta*|Quante|Quanto} pasta mangi?
+! quanto + nome maschile singolare, quanta + femminile, quanti / quante + plurale. || quanto passt sich an.
+
+%übung mittel | Un’intervista
+?luecke wortkasten | Completa le domande. || Ergänze die Fragewörter.
+– [Come] ti chiami? – Mi chiamo Davide.
+– [Quanti] anni hai? – Ne ho quattordici.
+– [Di dove] sei? – Sono di Palermo.
+– [Dove] abiti adesso? – A Monaco, con la mia famiglia.
+– [Perché] sei in Germania? – Perché mio padre lavora qui.
+– [Che cosa] fai nel tempo libero? – Gioco a pallavolo.
+– [Quando] vai in Italia? – In estate.
+– [Qual] è il tuo piatto preferito? – Gli arancini!
++ chi, quale
+
+%übung mittel | Fai la domanda
+?ergaenzen | Leggi la risposta e scrivi la domanda. || Lies die Antwort und schreibe die Frage.
+Mi chiamo Sara. | Come ti chiami | Come ti chiami?
+Ho quindici anni. | Quanti anni hai | Quanti anni hai?
+Abito a Napoli. | Dove abiti | Dove abiti?
+Sono di Genova. | Di dove sei | Di dove sei?
+Il film comincia alle otto. | A che ora comincia il film | A che ora comincia il film?
+Il gelato costa due euro. | Quanto costa il gelato | Quanto costa il gelato?
+Domani vado al cinema. | Che cosa fai domani | Che cosa fai domani?
+Vado a casa perché sono stanca. | Perché vai a casa | Perché vai a casa?
+
+%übung mittel | Quale o quali?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+{Qual*|Quale|Qual’} è il tuo colore preferito?
+{Quali*|Quale|Qual} sport fai?
+{Quale*|Quali|Qual} zaino compri, il rosso o il blu?
+{Quali*|Quale|Qual} lingue parli?
+{Qual*|Quale|Quali} è la tua materia preferita?
+{Quale*|Quali|Qual} giorno vieni?
+{Quali*|Quale|Qual} sono i tuoi film preferiti?
+{Quale*|Quali|Qual} gusto vuoi?
+! qual è senza apostrofo; quali al plurale. || qual è ohne Apostroph.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+[Qual’è=>Qual è] il tuo nome?
+[Quante=>Quanti] fratelli hai?
+[Chi=>Che cosa] mangi a pranzo?
+[Dove=>Di dove] sei? – Sono di Torino.
+[Quanti=>Quanto] costa la maglietta?
+[Come=>Quando] parti? – Domani.
+[Quale=>Quali] lingue parli?
+[Quando=>A che ora] arriva il treno? – Alle 10.
+
+%übung schwer | Un nuovo compagno
+?ergaenzen | Un compagno nuovo arriva da Firenze. Scrivi le domande. || Schreibe die Fragen.
+(nome) | Come ti chiami | Come ti chiami?
+(età) | Quanti anni hai | Quanti anni hai?
+(città di origine) | Di dove sei | Di dove sei?
+(fratelli) | Hai fratelli | Hai fratelli?
+(sport) | Quale sport fai | Quale sport fai?
+(perché in Germania) | Perché sei in Germania | Perché sei in Germania?
+(materia preferita) | Qual è la tua materia preferita | Qual è la tua materia preferita?
+(tempo libero) | Che cosa fai nel tempo libero | Che cosa fai nel tempo libero?
+
+%übung schwer | Intervista una star
+?frei | Scrivi 8 domande per intervistare un cantante o una sportiva italiana. Usa parole interrogative diverse. || 8 Fragen an einen Star mit verschiedenen Fragewörtern.
+Come stai? Di dove sei? Quanti anni hai? Dove abiti adesso? Quando hai cominciato a cantare? Perché ami la musica? Qual è la tua canzone preferita? Che cosa fai nel tempo libero?
+Zeilen: 8
+
+@thema superlativo-issimo | Extra 1 · In giro per l’Italia | Grammatica | Bellissimo! – L’aggettivo con -issimo | 6
+#lehrplan Jgst. 8 · absoluter Superlativ (-issimo), Steigerung mit molto
+#regel
+Per dire **molto** + aggettivo usiamo **-issimo**:
+| bello → **bellissimo** | molto bello |
+| buono → **buonissimo** | molto buono |
+| facile → **facilissimo** | molto facile |
+| lungo → **lunghissimo** | molto lungo |
+**-issimo** concorda: _una pizza buon**issima**, due ragazzi simpatic**issimi**._
+Anche con avverbi: _**benissimo**, **malissimo**, **tantissimo**_. E si può ripetere: _**piano piano**_ (molto piano).
+#regel-de
+**-issimo** heißt „sehr“: _bellissimo_ = sehr schön. Es passt sich an (-issimo/-issima/-issimi/-issime).
+-co/-go → **-chissimo/-ghissimo** (lunghissimo). Auch: benissimo, tantissimo. Verdopplung: _piano piano_.
+
+%übung leicht | Molto = -issimo
+?zuordnen | Abbina. || Verbinde.
+molto bello = bellissimo
+molto buono = buonissimo
+molto facile = facilissimo
+molto caro = carissimo
+molto lungo = lunghissimo
+molto simpatico = simpaticissimo
+molto bene = benissimo
+molto alto = altissimo
+
+%übung leicht | Che forma?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+La pizza è {buonissima*|buonissimo|buonissime}.
+Il film è {bellissimo*|bellissima|bellissimi}.
+Le scarpe sono {carissime*|carissimi|carissima}.
+I compiti sono {facilissimi*|facilissime|facilissimo}.
+La strada è {lunghissima*|lungissima|lunghissimo}.
+Gli zii sono {simpaticissimi*|simpatichissimi|simpaticissime}.
+Oggi sto {benissimo*|buonissimo|benissima}!
+La casa della nonna è {grandissima*|grandissimo|grandissime}.
+
+%übung leicht | Esagera!
+?ergaenzen | Scrivi l’aggettivo con -issimo. || Schreibe das Adjektiv mit -issimo.
+Il gelato è molto buono. → Il gelato è … | buonissimo | Il gelato è buonissimo.
+La città è molto bella. → La città è … | bellissima | La città è bellissima.
+Il test è molto facile. → Il test è … | facilissimo | Il test è facilissimo.
+Le ragazze sono molto brave. → Le ragazze sono … | bravissime | Le ragazze sono bravissime.
+Il viaggio è molto lungo. → Il viaggio è … | lunghissimo | Il viaggio è lunghissimo.
+I libri sono molto cari. → I libri sono … | carissimi | I libri sono carissimi.
+La lezione è molto noiosa. → La lezione è … | noiosissima | La lezione è noiosissima.
+Il cane è molto piccolo. → Il cane è … | piccolissimo | Il cane è piccolissimo.
+
+%übung mittel | Una cartolina da Venezia
+?luecke | Completa con -issimo nella forma giusta. || Ergänze -issimo in der richtigen Form.
+Cara Lisa, Venezia è (bello) [bellissima]!
+I canali sono (stretto) [strettissimi] e le gondole (elegante) [elegantissime].
+Il gelato qui è (buono) [buonissimo], ma (caro) [carissimo]!
+Ieri abbiamo fatto una passeggiata (lungo) [lunghissima].
+Le persone sono (gentile) [gentilissime].
+Il nostro albergo è (piccolo) [piccolissimo], ma (pulito) [pulitissimo].
+Sto (bene) [benissimo]! Un abbraccio, Mia
+
+%übung mittel | -issimo o -hissimo?
+?auswahl | Scegli la forma giusta. || Wähle die richtige Form.
+lungo → {lunghissimo*|lungissimo}
+ricco → {ricchissimo*|riccissimo}
+stanco → {stanchissimo*|stancissimo}
+simpatico → {simpaticissimo*|simpatichissimo}
+largo → {larghissimo*|largissimo}
+bianco → {bianchissimo*|biancissimo}
+antico → {antichissimo*|anticissimo}
+poco → {pochissimo*|pocissimo}
+! -co/-go → -chissimo/-ghissimo, ma simpatico → simpaticissimo. || Achtung bei simpatico.
+
+%übung mittel | Piano piano
+?zuordnen | Abbina la ripetizione al significato. || Verbinde.
+piano piano = sehr langsam / ganz allmählich
+presto presto = ganz schnell
+pian pianino = ganz sachte
+caldo caldo = ganz warm
+vicino vicino = ganz nah
+zitto zitto = ganz still
+bello bello = richtig schön
+forte forte = ganz fest
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+La pizza è [buonissimo=>buonissima].
+Le montagne sono [altissimi=>altissime].
+Il fiume è [lungissimo=>lunghissimo].
+Sto [buonissimo=>benissimo], grazie!
+I miei cugini sono [simpatichissimi=>simpaticissimi].
+Sono [stancissima=>stanchissima] dopo la gita.
+È una città [anticissima=>antichissima].
+Il test è [molto facilissimo=>facilissimo].
+! Non usare molto con -issimo. || Nicht molto + -issimo.
+
+%übung schwer | Recensione di un ristorante
+?luecke | Scrivi l’aggettivo con -issimo. || Ergänze mit -issimo.
+Il ristorante «Da Gigi» è (piccolo) [piccolissimo], ma (accogliente) [accoglientissimo].
+Il cameriere è (simpatico) [simpaticissimo].
+La pasta è (fresco) [freschissima] e le pizze sono (buono) [buonissime].
+I prezzi sono (basso) [bassissimi].
+Il tiramisù? (buono) [Buonissimo]!
+Peccato: la musica è (forte) [fortissima]…
+Voto: 9! Ci torniamo (presto) [prestissimo].
+
+%übung schwer | Il mio posto del cuore
+?frei | Descrivi il tuo posto preferito (una città, un parco, una spiaggia). Usa almeno 5 aggettivi con -issimo. || Beschreibe deinen Lieblingsort mit mindestens 5 Formen auf -issimo.
+Il mio posto preferito è il lago di Garda. L’acqua è pulitissima e azzurrissima. I paesi sono bellissimi e il gelato è buonissimo. In estate fa caldissimo, ma la sera è freschissimo.
+Zeilen: 6
+?auswahl | Controlla: quale forma? || Welche Form?
+L’acqua è {pulitissima*|pulitissimo}.
+I paesi sono {bellissimi*|bellissime}.
+In estate fa {caldissimo*|caldissima}.
+Le spiagge sono {lunghissime*|lungissime}.
+
+@thema passato-riflessivo | Extra 1 · In giro per l’Italia | Grammatica | Mi sono alzato: il passato prossimo dei verbi riflessivi | 7
+#lehrplan Jgst. 8 · passato prossimo (reflexive Verben, piacere)
+#regel
+I verbi riflessivi formano il passato prossimo con **essere**. Il participio **concorda** con il soggetto:
+| io | **mi sono** alzato/-a |
+| tu | **ti sei** alzato/-a |
+| lui / lei | **si è** alzato / alzata |
+| noi | **ci siamo** alzati/-e |
+| voi | **vi siete** alzati/-e |
+| loro | **si sono** alzati/-e |
+Anche **piacere** usa essere: _La pizza mi è piaciut**a**. I film mi sono piaciut**i**._
+#regel-de
+Reflexive Verben bilden das passato prossimo mit **essere**; das Partizip richtet sich nach dem Subjekt: _Anna si è alzata. Ci siamo divertiti._
+Auch **piacere** mit essere: _La pizza mi è piaciuta._
+
+%übung leicht | Essere o avere?
+?auswahl | Scegli l’ausiliare giusto. || Wähle das richtige Hilfsverb.
+Stamattina mi {sono*|ho} alzato alle sette.
+Anna si {è*|ha} vestita in fretta.
+Ci {siamo*|abbiamo} divertiti alla festa.
+Ragazzi, vi {siete*|avete} lavati le mani?
+I bambini si {sono*|hanno} addormentati presto.
+Tu ti {sei*|hai} svegliata tardi?
+Ieri Marco {ha*|è} mangiato la pizza.
+Il film mi {è*|ha} piaciuto molto.
+
+%übung leicht | La desinenza
+?auswahl | Scegli il participio giusto. || Wähle das richtige Partizip.
+Giulia si è {alzata*|alzato|alzati} presto.
+I ragazzi si sono {divertiti*|divertito|divertite}.
+Le mie sorelle si sono {preparate*|preparati|preparata}.
+Paolo si è {lavato*|lavata|lavati}.
+Noi (Anna e io) ci siamo {incontrate*|incontrato|incontrati}.
+La torta mi è {piaciuta*|piaciuto|piaciute}.
+I libri ti sono {piaciuti*|piaciuto|piaciute}?
+Le vacanze ci sono {piaciute*|piaciuti|piaciuta}.
+! Con essere il participio prende -o, -a, -i, -e come il soggetto. || Mit essere passt sich das Partizip an.
+
+%übung leicht | Che cosa vuol dire?
+?zuordnen | Abbina. || Verbinde.
+Mi sono alzato. = Ich bin aufgestanden.
+Ti sei divertita? = Hast du dich amüsiert?
+Si è vestito. = Er hat sich angezogen.
+Ci siamo incontrati. = Wir haben uns getroffen.
+Vi siete lavati? = Habt ihr euch gewaschen?
+Si sono addormentate. = Sie sind eingeschlafen.
+Mi è piaciuto. = Es hat mir gefallen.
+Ci sono piaciute. = Sie haben uns gefallen.
+
+%übung mittel | La mattina di Chiara
+?luecke | Metti i verbi al passato prossimo. || Setze die Verben ins passato prossimo.
+Ieri Chiara (svegliarsi) [si è svegliata] alle sei e mezza.
+(alzarsi) [Si è alzata] subito e (lavarsi) [si è lavata].
+Poi (vestirsi) [si è vestita] e ha fatto colazione.
+Lei e suo fratello (prepararsi) [si sono preparati] per la scuola.
+A scuola le ragazze (sedersi) [si sono sedute] vicino alla finestra.
+Dopo la lezione Chiara e Ada (incontrarsi) [si sono incontrate] in piazza.
+La sera Chiara (addormentarsi) [si è addormentata] presto.
+
+%übung mittel | E tu?
+?ergaenzen | Scrivi le frasi al passato prossimo. || Schreibe die Sätze ins passato prossimo.
+Mi alzo alle sette. (Marco) | Mi sono alzato alle sette | Mi sono alzato alle sette.
+Ti diverti alla festa? (Lisa) | Ti sei divertita alla festa | Ti sei divertita alla festa?
+Si veste in fretta. (Paolo) | Si è vestito in fretta | Si è vestito in fretta.
+Ci incontriamo al bar. (Luca e io) | Ci siamo incontrati al bar | Ci siamo incontrati al bar.
+Vi lavate le mani? (voi ragazze) | Vi siete lavate le mani | Vi siete lavate le mani?
+Si addormentano subito. (i bambini) | Si sono addormentati subito | Si sono addormentati subito.
+Mi preparo per la gita. (Elena) | Mi sono preparata per la gita | Mi sono preparata per la gita.
+Si riposa sul divano. (il nonno) | Si è riposato sul divano | Si è riposato sul divano.
+
+%übung mittel | Ti è piaciuto?
+?luecke | Completa con piacere al passato prossimo. || Ergänze piacere im passato prossimo.
+Il film ti [è piaciuto]?
+La pizza mi [è piaciuta] tantissimo.
+Le canzoni ci [sono piaciute].
+I musei vi [sono piaciuti]?
+A Marco non [è piaciuta] la gita.
+Ai miei genitori [è piaciuto] l’albergo.
+A me [sono piaciuti] i gelati di Roma.
+A Lucia [sono piaciute] le spiagge.
+! Il participio concorda con la cosa che piace. || Das Partizip richtet sich nach dem, was gefällt.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+Mi [ho=>sono] alzato tardi.
+Anna si è [alzato=>alzata] presto.
+Ci [abbiamo=>siamo] divertiti.
+Le ragazze si sono [preparati=>preparate].
+La pizza mi è [piaciuto=>piaciuta].
+I ragazzi [si hanno=>si sono] lavati.
+Vi [siamo=>siete] incontrati in centro?
+Le vacanze mi sono [piaciuti=>piaciute].
+
+%übung schwer | Una gita a Verona
+?luecke | Racconta al passato prossimo. || Erzähle im passato prossimo.
+Sabato io e la mia classe (svegliarsi) [ci siamo svegliati] prestissimo.
+Il pullman (partire) [è partito] alle sei.
+Durante il viaggio Luca (addormentarsi) [si è addormentato].
+A Verona (noi, vedere) [abbiamo visto] l’Arena.
+La casa di Giulietta mi (piacere) [è piaciuta] molto.
+Le ragazze (fermarsi) [si sono fermate] in un negozio di souvenir.
+A pranzo (noi, mangiare) [abbiamo mangiato] in una pizzeria.
+Tutti (divertirsi) [si sono divertiti] tantissimo!
+
+%übung schwer | La mia giornata di ieri
+?frei | Racconta la tua giornata di ieri. Usa almeno 5 verbi riflessivi e piacere al passato prossimo. || Erzähle deinen gestrigen Tag mit 5 reflexiven Verben.
+Ieri mi sono svegliata alle sette. Mi sono lavata e mi sono vestita. A scuola mi sono annoiata un po’. Il pomeriggio mi sono incontrata con Sara. Il film di sera mi è piaciuto molto. Mi sono addormentata alle dieci.
+Zeilen: 6
+?auswahl | Controlla: quale forma? || Welche Form?
+Ieri (io, Lena) mi {sono svegliata*|ho svegliata}.
+Il film mi {è piaciuto*|è piaciuta}.
+Io e Sara ci {siamo incontrate*|siamo incontrati}.
+Le lezioni mi {sono piaciute*|sono piaciuti}.
+
+@thema qualcuno-qualcosa | Extra 1 · In giro per l’Italia | Grammatica | Qualcuno, qualcosa, ognuno, ogni | 8
+#lehrplan Jgst. 8 · Indefinitpronomen
+#regel
+- **qualcuno** = una persona (non so chi): _C’è **qualcuno**?_
+- **qualcosa** = una cosa (non so cosa): _Vuoi **qualcosa** da bere?_
+- **ognuno** = ogni persona: _**Ognuno** porta un panino._
+- **ogni** + nome singolare: _**ogni** giorno, **ogni** settimana_
+- **qualcosa di** + aggettivo: _qualcosa **di** bello_ · **qualcosa da** + infinito: _qualcosa **da** mangiare_
+#regel-de
+**qualcuno** = jemand, **qualcosa** = etwas, **ognuno** = jeder (Person), **ogni** + Singular = jede(r/s).
+_qualcosa di nuovo_ (etwas Neues), _qualcosa da bere_ (etwas zu trinken).
+
+%übung leicht | Che cosa vuol dire?
+?zuordnen | Abbina. || Verbinde.
+qualcuno = jemand
+qualcosa = etwas
+ognuno = jeder (Person)
+ogni giorno = jeden Tag
+qualcosa di bello = etwas Schönes
+qualcosa da bere = etwas zu trinken
+non … nessuno = niemand
+non … niente = nichts
+
+%übung leicht | Qualcuno o qualcosa?
+?auswahl | Scegli la parola giusta. || Wähle das passende Wort.
+Hai fame? Vuoi {qualcosa*|qualcuno} da mangiare?
+Ascolta! C’è {qualcuno*|qualcosa} alla porta.
+Hai {qualcosa*|qualcuno} per il mal di testa?
+{Qualcuno*|Qualcosa} ha preso la mia penna!
+Ho comprato {qualcosa*|qualcuno} per la mamma.
+Conosci {qualcuno*|qualcosa} a Milano?
+Dimmi {qualcosa*|qualcuno} di bello!
+Cerco {qualcuno*|qualcosa} per giocare a tennis.
+
+%übung leicht | Ogni o ognuno?
+?auswahl | Scegli la parola giusta. || Wähle das passende Wort.
+Vado in palestra {ogni*|ognuno} martedì.
+{Ognuno*|Ogni} porta qualcosa alla festa.
+{Ogni*|Ognuno} mattina bevo un tè.
+In classe {ognuno*|ogni} ha il suo tablet.
+{Ogni*|Ognuno} anno andiamo in Puglia.
+{Ognuno*|Ogni} paga il suo gelato.
+Leggo {ogni*|ognuno} sera.
+{Ognuno*|Ogni} di noi ha un compito.
+! ogni + nome (singolare); ognuno da solo. || ogni + Nomen, ognuno allein.
+
+%übung mittel | Di o da?
+?auswahl | Scegli di o da. || Wähle di oder da.
+Vuoi qualcosa {da*|di} bere?
+Ho visto qualcosa {di*|da} strano.
+Mi racconti qualcosa {di*|da} nuovo?
+Non ho niente {da*|di} fare.
+Prendo qualcosa {da*|di} leggere per il viaggio.
+È successo qualcosa {di*|da} grave?
+Cerco qualcosa {di*|da} economico.
+Hai qualcosa {da*|di} mangiare?
+! qualcosa di + aggettivo, qualcosa da + infinito. || di + Adjektiv, da + Infinitiv.
+
+%übung mittel | Alla festa di Matteo
+?luecke wortkasten | Completa con qualcuno, qualcosa, ognuno o ogni. || Ergänze.
+Sabato c’è la festa di Matteo. [Ognuno] porta [qualcosa] da mangiare.
+Io porto una torta: la faccio [ogni] anno.
+Matteo chiede: «C’è [qualcuno] che porta la musica?»
+Lia dice: «Io! Ho [qualcosa] di nuovo da ascoltare.»
+Alla festa [qualcuno] suona la chitarra.
+Alle undici [ognuno] torna a casa, stanco ma felice.
+Matteo dice: «Facciamo una festa [ogni] mese!»
++ nessuno, niente
+
+%übung mittel | Domanda e risposta
+?ergaenzen | Rispondi di no con nessuno o niente. || Antworte verneinend.
+C’è qualcuno in cucina? – No, … | non c’è nessuno | No, non c’è nessuno.
+Hai mangiato qualcosa? – No, … | non ho mangiato niente | No, non ho mangiato niente.
+Conosci qualcuno qui? – No, … | non conosco nessuno | No, non conosco nessuno.
+Vuoi qualcosa da bere? – No, … | non voglio niente | No, non voglio niente.
+Hai visto qualcuno? – No, … | non ho visto nessuno | No, non ho visto nessuno.
+Compri qualcosa? – No, … | non compro niente | No, non compro niente.
+Ha telefonato qualcuno? – No, … | non ha telefonato nessuno | No, non ha telefonato nessuno.
+Hai fatto qualcosa di bello? – No, … | non ho fatto niente di bello | No, non ho fatto niente di bello.
+
+%übung schwer | Trova gli errori
+?fehler | Correggi gli otto errori. || Korrigiere die acht Fehler.
+C’è [qualcosa=>qualcuno] alla porta?
+Vuoi qualcosa [di=>da] bere?
+Ho visto qualcosa [da=>di] strano.
+[Ognuno=>Ogni] giorno vado a scuola.
+[Ogni=>Ognuno] porta un panino.
+Vado al cinema ogni [settimane=>settimana].
+Hai mangiato qualcosa? – No, [ho mangiato niente=>non ho mangiato niente].
+C’è qualcuno? – No, non c’è [niente=>nessuno].
+
+%übung schwer | Un mistero in classe
+?luecke | Completa la storia. || Ergänze die Geschichte.
+Lunedì mattina in classe c’è [qualcosa] di strano: la lavagna è piena di disegni.
+«Chi è stato? [Qualcuno] è entrato di notte!», dice la prof.
+Nessuno sa [niente].
+[Ognuno] guarda il compagno vicino.
+Poi Pietro dice: «Ho visto [qualcuno] con un cappello nero ieri sera.»
+La prof chiama il bidello: anche lui non ha visto [nessuno].
+Alla fine si scopre: è il nuovo professore di arte! Ha fatto [qualcosa] di bello per la classe.
+E da allora disegna sulla lavagna [ogni] lunedì.
+
+%übung schwer | Il mio weekend ideale
+?frei | Descrivi il tuo weekend ideale. Usa qualcuno, qualcosa (di/da), ognuno e ogni. || Beschreibe dein ideales Wochenende.
+Il mio weekend ideale: sabato mattina faccio qualcosa di sportivo. Poi incontro qualcuno al parco. La sera ogni amico porta qualcosa da mangiare e ognuno racconta una storia.
+Zeilen: 5
+?auswahl | Controlla. || Prüfe.
+Faccio qualcosa {di*|da} sportivo.
+Porto qualcosa {da*|di} mangiare.
+{Ognuno*|Ogni} racconta una storia.
+{Ogni*|Ognuno} sabato vado al parco.

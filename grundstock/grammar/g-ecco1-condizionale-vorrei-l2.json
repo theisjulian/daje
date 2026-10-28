@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-condizionale-vorrei-l2",
+ "title": "Al bar",
+ "language": "it",
+ "level": "A1",
+ "description": "Vorrei, potrei, dovrei: chiedere con gentilezza · Al bar · livello facile.",
+ "topics": [
+  "Vorrei, potrei, dovrei: chiedere con gentilezza",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Höflichkeitsformen (vorrei, potrebbe …)"
+ },
+ "grammar": {
+  "topic": "ecco1-condizionale-vorrei",
+  "topicTitle": "Vorrei, potrei, dovrei: chiedere con gentilezza",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 32,
+  "rule": "Per chiedere **con gentilezza** usiamo il **condizionale**:\n| io | tu | Lei / lui / lei | noi | voi | loro |\n| vorrei | vorresti | vorrebbe | vorremmo | vorreste | vorrebbero |\n- _**Vorrei** un gelato, per favore._\n- _**Potrebbe** ripetere?_ (Lei)\n- _**Dovresti** studiare di più._ (consiglio)\nLe forme di **potere** e **dovere** sono uguali: potr**ei**, potr**esti**, potr**ebbe** … / dovr**ei**, dovr**esti**, dovr**ebbe** …",
+  "ruleHelp": "Höfliche Bitten mit dem **Konditional**: _Vorrei un gelato_ (Ich hätte gern …), _Potrebbe ripetere?_ (Könnten Sie …?), _Dovresti …_ (Du solltest …).\nEndungen: -ei, -esti, -ebbe, -emmo, -este, -ebbero."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "type": "gap_choice",
+   "text": "Io [[g1]] un cappuccino.\nSignora, che cosa [[g2]]?\nNoi [[g3]] due cornetti.\nLuca, [[g4]] una spremuta?\nRagazzi, [[g5]] qualcosa da bere?\nI miei amici [[g6]] un tavolo fuori.\nScusi, [[g7]] portare il conto?\nMamma, [[g8]] darmi due euro?",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "vorrei",
+      "vorresti",
+      "vorrebbe"
+     ],
+     "answer": "vorrei"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "vorrebbe",
+      "vorrei",
+      "vorresti"
+     ],
+     "answer": "vorrebbe"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "vorremmo",
+      "vorreste",
+      "vorrei"
+     ],
+     "answer": "vorremmo"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "vorresti",
+      "vorrebbe",
+      "vorrei"
+     ],
+     "answer": "vorresti"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "vorreste",
+      "vorremmo",
+      "vorrebbero"
+     ],
+     "answer": "vorreste"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "vorrebbero",
+      "vorrebbe",
+      "vorremmo"
+     ],
+     "answer": "vorrebbero"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "potrebbe",
+      "potresti",
+      "potrei"
+     ],
+     "answer": "potrebbe"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "potresti",
+      "potrebbe",
+      "potrei"
+     ],
+     "answer": "potresti"
+    }
+   ]
+  }
+ ]
+}

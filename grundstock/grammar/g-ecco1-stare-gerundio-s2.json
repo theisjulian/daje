@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-stare-gerundio-s2",
+ "title": "Un messaggio dalla gita",
+ "language": "it",
+ "level": "A1",
+ "description": "Stare + gerundio · Un messaggio dalla gita · livello difficile.",
+ "topics": [
+  "Stare + gerundio",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · stare + Gerundium"
+ },
+ "grammar": {
+  "topic": "ecco1-stare-gerundio",
+  "topicTitle": "Stare + gerundio",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 12,
+  "rule": "Per dire che cosa **succede proprio adesso** usiamo **stare + gerundio**:\n| -are → **-ando** | parlare → parlando |\n| -ere → **-endo** | leggere → leggendo |\n| -ire → **-endo** | dormire → dormendo |\n\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n_Che cosa **stai facendo**? – **Sto scrivendo** un messaggio._\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**.",
+  "ruleHelp": "Was **gerade jetzt** passiert: **stare + Gerundium**. -are → -ando, -ere/-ire → -endo: _Sto scrivendo un messaggio._ (Ich schreibe gerade …)\nUnregelmäßig: fare → facendo, dire → dicendo, bere → bevendo."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi stare + gerundio.",
+   "promptHelp": "Ergänze stare + Gerundium.",
+   "type": "gap_fill",
+   "text": "Ciao mamma! Adesso (visitare, noi) [[g1]] il Duomo di Firenze.\nIl prof (spiegare) [[g2]] la storia della città.\nLuca e Marco (fare) [[g3]] foto a tutto.\nIo (mangiare) [[g4]] un gelato buonissimo.\nGiulia (scrivere) [[g5]] una cartolina alla nonna.\nE voi? Che cosa (fare) [[g6]] a casa?\nPapà (lavorare) [[g7]], vero?\nTi chiamo stasera, adesso (partire, noi) [[g8]] per Siena!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "stiamo visitando"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "sta spiegando"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "stanno facendo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "sto mangiando"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "sta scrivendo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "state facendo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "sta lavorando"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "stiamo partendo"
+     ]
+    }
+   ]
+  }
+ ]
+}

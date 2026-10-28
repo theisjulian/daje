@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-qualcuno-qualcosa-m3",
+ "title": "Domanda e risposta",
+ "language": "it",
+ "level": "A1",
+ "description": "Qualcuno, qualcosa, ognuno, ogni · Domanda e risposta · livello medio.",
+ "topics": [
+  "Qualcuno, qualcosa, ognuno, ogni",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-qualcuno-qualcosa",
+  "topicTitle": "Qualcuno, qualcosa, ognuno, ogni",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 83,
+  "rule": "- **qualcuno** = una persona (non so chi): _C’è **qualcuno**?_\n- **qualcosa** = una cosa (non so cosa): _Vuoi **qualcosa** da bere?_\n- **ognuno** = ogni persona: _**Ognuno** porta un panino._\n- **ogni** + nome singolare: _**ogni** giorno, **ogni** settimana_\n- **qualcosa di** + aggettivo: _qualcosa **di** bello_ · **qualcosa da** + infinito: _qualcosa **da** mangiare_",
+  "ruleHelp": "**qualcuno** = jemand, **qualcosa** = etwas, **ognuno** = jeder (Person), **ogni** + Singular = jede(r/s).\n_qualcosa di nuovo_ (etwas Neues), _qualcosa da bere_ (etwas zu trinken)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi di no con nessuno o niente.",
+   "promptHelp": "Antworte verneinend.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "C’è qualcuno in cucina? – No, …",
+     "acceptedAnswers": [
+      "non c’è nessuno"
+     ],
+     "modelAnswer": "No, non c’è nessuno."
+    },
+    {
+     "id": "s2",
+     "start": "Hai mangiato qualcosa? – No, …",
+     "acceptedAnswers": [
+      "non ho mangiato niente"
+     ],
+     "modelAnswer": "No, non ho mangiato niente."
+    },
+    {
+     "id": "s3",
+     "start": "Conosci qualcuno qui? – No, …",
+     "acceptedAnswers": [
+      "non conosco nessuno"
+     ],
+     "modelAnswer": "No, non conosco nessuno."
+    },
+    {
+     "id": "s4",
+     "start": "Vuoi qualcosa da bere? – No, …",
+     "acceptedAnswers": [
+      "non voglio niente"
+     ],
+     "modelAnswer": "No, non voglio niente."
+    },
+    {
+     "id": "s5",
+     "start": "Hai visto qualcuno? – No, …",
+     "acceptedAnswers": [
+      "non ho visto nessuno"
+     ],
+     "modelAnswer": "No, non ho visto nessuno."
+    },
+    {
+     "id": "s6",
+     "start": "Compri qualcosa? – No, …",
+     "acceptedAnswers": [
+      "non compro niente"
+     ],
+     "modelAnswer": "No, non compro niente."
+    },
+    {
+     "id": "s7",
+     "start": "Ha telefonato qualcuno? – No, …",
+     "acceptedAnswers": [
+      "non ha telefonato nessuno"
+     ],
+     "modelAnswer": "No, non ha telefonato nessuno."
+    },
+    {
+     "id": "s8",
+     "start": "Hai fatto qualcosa di bello? – No, …",
+     "acceptedAnswers": [
+      "non ho fatto niente di bello"
+     ],
+     "modelAnswer": "No, non ho fatto niente di bello."
+    }
+   ]
+  }
+ ]
+}

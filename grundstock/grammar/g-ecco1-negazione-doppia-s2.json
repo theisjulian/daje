@@ -1,0 +1,112 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-negazione-doppia-s2",
+ "title": "Un vecchio paese",
+ "language": "it",
+ "level": "A1",
+ "description": "Non … niente, nessuno, mai, più · Un vecchio paese · livello difficile.",
+ "topics": [
+  "Non … niente, nessuno, mai, più",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation, u. a. doppia negazione bei niente, nessuno, mai"
+ },
+ "grammar": {
+  "topic": "ecco1-negazione-doppia",
+  "topicTitle": "Non … niente, nessuno, mai, più",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 22,
+  "rule": "In italiano diciamo **due negazioni**: **non** prima del verbo e la seconda parola dopo il verbo.\n- _**Non** vedo **niente**._ (nichts)\n- _**Non** c’è **nessuno**._ (niemand)\n- _**Non** vado **mai** in palestra._ (nie)\n- _**Non** abito **più** a Roma._ (nicht mehr)\nSe **niente** o **nessuno** sono all’inizio, **non** non c’è: _**Nessuno** parla._",
+  "ruleHelp": "Im Italienischen verneint man **doppelt**: **non** vor dem Verb und dann **niente** (nichts), **nessuno** (niemand), **mai** (nie), **più** (nicht mehr) nach dem Verb: _Non vedo niente. Non c’è nessuno._\nStehen niente/nessuno am Satzanfang, fällt non weg: _Nessuno parla._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa il testo con non e niente / nessuno / mai / più.",
+   "promptHelp": "Ergänze mit non und niente / nessuno / mai / più.",
+   "type": "gap_fill",
+   "text": "Il nonno racconta: «Oggi nel mio paese [[g1]] abita [[g2]] nessuno.\nI giovani [[g3]] tornano [[g4]].\nIn piazza [[g5]] c’è [[g6]], la sera.\nIl negozio è chiuso: [[g7]] vende [[g8]] niente.\nMa io [[g9]] voglio andare via: è casa mia!»",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "non"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "più"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "non"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "mai"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "non"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "nessuno"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "non"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "più"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "non"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -211,7 +211,17 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - Veröffentlichte Inhalte bearbeiten/entfernen (nur mit GitHub-Token im Browser): Knopf „Veröffentlichte Fassung bearbeiten“; „Live stellen“ schreibt dann nach `grundstock/korrekturen/<id>.json` (ersetzt das Paket gleicher ID, auch eingebaute Hörübungen), „Entfernen“ schreibt `{ "format": "daje-entfernt", "id" }`. Die Generatoren schreiben nie in `korrekturen/`; `STOCK_REMOVED` in stock-data.js filtert in `contentList`.
 - Wortliste bearbeiten: unveränderte Zeilen behalten alle Felder; Reihenname „Lernjahr più“ wird Lernjahr Band 3 zugeordnet.
 
+## 6s. Zielsprachige Grammatik, Lernjahre, Lehrplan (28.10.2026)
+
+- Vokabel-/Grammatikreihe heißt intern `Corso daje` (`COURSE_SERIES`, `ANNO_NAMES` in `portal.js`; `isCourseSeries` erkennt auch alte Reihennamen). Anzeige: „Primo/Secondo/Terzo anno“, Lektionen „1 · La città“ usw. (`werkzeuge/lernjahre.py`), keine Buchseiten. Paket-IDs (`ecco1-…`, `g-ecco1-…`) bleiben, damit Lernstände erhalten bleiben.
+- Rohlisten der Bücher liegen nur noch lokal in `werkzeuge/privat/` (gitignored); in der Git-Historie sind sie noch enthalten.
+- Grammatik komplett auf Italienisch: Anweisung, Merkkasten, Erklärung; Deutsch per Knopf (`promptHelp`, `ruleHelp`, `explanationHelp`; DSL `… || deutsch`, `#regel-de`). `#lehrplan` → `catalog.curriculum` (LehrplanPLUS, nur für Lehrkräfte sichtbar).
+- Primo anno: Lektionen 0–7 plus „Extra 1 · In giro per l’Italia“ (`unita8-extra.txt`: stare + gerundio, doppia negazione, condizionale, imperativo + pronomi, domande, -issimo, passato prossimo riflessivo/piacere, qualcuno/qualcosa). Zusammen 51 Themen, 489 Übungen, je Stufe mindestens drei.
+- Mindestlänge: `qualitaet.py` meldet Grammatikübungen unter 8 Einheiten als Fehler (CI bricht ab). Die KI-Kommandos (`KI-Grammatik.md` 1.1, `KI-Kommandodatei.md` 2.3) verlangen dieselbe Länge und Anweisungen/Erklärungen in der Zielsprache mit deutscher Hilfe.
+- Übersetzungen der Oberfläche: Zeilen in `werkzeuge/i18n/rows_*.py`, `python3 werkzeuge/i18n/bauen.py` schreibt `portal/dist/i18n-rows-2.js`.
+
 ## 7. Offene Punkte
+- Grammatik Secondo/Terzo anno: Themen nach Inhaltsverzeichnis anlegen (Vorlage `werkzeuge/grammatik/anno1`).
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.
 - Lernjahr più importieren (nach Scan, exakte Kapitelzuordnung).
 - Grundstock mit `ki_grundstock.py` aufbauen (erst `--limit 3`); echter API-Lauf noch nicht erfolgt (nur mit simulierter Antwort getestet).

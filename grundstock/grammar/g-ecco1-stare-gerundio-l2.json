@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-stare-gerundio-l2",
+ "title": "Che cosa stanno facendo?",
+ "language": "it",
+ "level": "A1",
+ "description": "Stare + gerundio · Che cosa stanno facendo? · livello facile.",
+ "topics": [
+  "Stare + gerundio",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · stare + Gerundium"
+ },
+ "grammar": {
+  "topic": "ecco1-stare-gerundio",
+  "topicTitle": "Stare + gerundio",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 12,
+  "rule": "Per dire che cosa **succede proprio adesso** usiamo **stare + gerundio**:\n| -are → **-ando** | parlare → parlando |\n| -ere → **-endo** | leggere → leggendo |\n| -ire → **-endo** | dormire → dormendo |\n\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n_Che cosa **stai facendo**? – **Sto scrivendo** un messaggio._\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**.",
+  "ruleHelp": "Was **gerade jetzt** passiert: **stare + Gerundium**. -are → -ando, -ere/-ire → -endo: _Sto scrivendo un messaggio._ (Ich schreibe gerade …)\nUnregelmäßig: fare → facendo, dire → dicendo, bere → bevendo."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "stare: sto, stai, sta, stiamo, state, stanno + gerundio.",
+   "explanationHelp": "stare + Gerundium.",
+   "type": "gap_choice",
+   "text": "Io [[g1]] leggendo un libro.\nTu [[g2]] dormendo?\nMarco [[g3]] guardando la partita.\nNoi [[g4]] mangiando.\nVoi [[g5]] studiando?\nLe ragazze [[g6]] ballando.\nChe cosa [[g7]] facendo, Luca?\nLa nonna [[g8]] cucinando.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "sto",
+      "stai",
+      "stanno"
+     ],
+     "answer": "sto"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "stai",
+      "sto",
+      "sta"
+     ],
+     "answer": "stai"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "sta",
+      "stai",
+      "stiamo"
+     ],
+     "answer": "sta"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "stiamo",
+      "state",
+      "stanno"
+     ],
+     "answer": "stiamo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "state",
+      "stiamo",
+      "stai"
+     ],
+     "answer": "state"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "stanno",
+      "sta",
+      "state"
+     ],
+     "answer": "stanno"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "stai",
+      "sta",
+      "sto"
+     ],
+     "answer": "stai"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "sta",
+      "stanno",
+      "sto"
+     ],
+     "answer": "sta"
+    }
+   ]
+  }
+ ]
+}

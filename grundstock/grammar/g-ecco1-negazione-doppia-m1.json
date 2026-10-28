@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-negazione-doppia-m1",
+ "title": "Rispondi di no",
+ "language": "it",
+ "level": "A1",
+ "description": "Non … niente, nessuno, mai, più · Rispondi di no · livello medio.",
+ "topics": [
+  "Non … niente, nessuno, mai, più",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation, u. a. doppia negazione bei niente, nessuno, mai"
+ },
+ "grammar": {
+  "topic": "ecco1-negazione-doppia",
+  "topicTitle": "Non … niente, nessuno, mai, più",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 21,
+  "rule": "In italiano diciamo **due negazioni**: **non** prima del verbo e la seconda parola dopo il verbo.\n- _**Non** vedo **niente**._ (nichts)\n- _**Non** c’è **nessuno**._ (niemand)\n- _**Non** vado **mai** in palestra._ (nie)\n- _**Non** abito **più** a Roma._ (nicht mehr)\nSe **niente** o **nessuno** sono all’inizio, **non** non c’è: _**Nessuno** parla._",
+  "ruleHelp": "Im Italienischen verneint man **doppelt**: **non** vor dem Verb und dann **niente** (nichts), **nessuno** (niemand), **mai** (nie), **più** (nicht mehr) nach dem Verb: _Non vedo niente. Non c’è nessuno._\nStehen niente/nessuno am Satzanfang, fällt non weg: _Nessuno parla._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi con la doppia negazione.",
+   "promptHelp": "Antworte mit doppelter Verneinung.",
+   "explanation": "non prima del verbo, niente / nessuno / mai / più dopo.",
+   "explanationHelp": "non vor dem Verb, niente / nessuno / mai / più danach.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Vedi qualcosa? (niente) – No, …",
+     "acceptedAnswers": [
+      "non vedo niente"
+     ],
+     "modelAnswer": "No, non vedo niente."
+    },
+    {
+     "id": "s2",
+     "start": "C’è qualcuno? (nessuno) – No, …",
+     "acceptedAnswers": [
+      "non c’è nessuno"
+     ],
+     "modelAnswer": "No, non c’è nessuno."
+    },
+    {
+     "id": "s3",
+     "start": "Vai spesso al cinema? (mai) – No, …",
+     "acceptedAnswers": [
+      "non vado mai al cinema"
+     ],
+     "modelAnswer": "No, non vado mai al cinema."
+    },
+    {
+     "id": "s4",
+     "start": "Abiti ancora a Roma? (più) – No, …",
+     "acceptedAnswers": [
+      "non abito più a Roma"
+     ],
+     "modelAnswer": "No, non abito più a Roma."
+    },
+    {
+     "id": "s5",
+     "start": "Mangi qualcosa? (niente) – No, …",
+     "acceptedAnswers": [
+      "non mangio niente"
+     ],
+     "modelAnswer": "No, non mangio niente."
+    },
+    {
+     "id": "s6",
+     "start": "Conosci qualcuno qui? (nessuno) – No, …",
+     "acceptedAnswers": [
+      "non conosco nessuno"
+     ],
+     "modelAnswer": "No, non conosco nessuno."
+    },
+    {
+     "id": "s7",
+     "start": "Bevi il caffè? (mai) – No, …",
+     "acceptedAnswers": [
+      "non bevo mai il caffè"
+     ],
+     "modelAnswer": "No, non bevo mai il caffè."
+    },
+    {
+     "id": "s8",
+     "start": "Giochi ancora a tennis? (più) – No, …",
+     "acceptedAnswers": [
+      "non gioco più a tennis"
+     ],
+     "modelAnswer": "No, non gioco più a tennis."
+    }
+   ]
+  }
+ ]
+}

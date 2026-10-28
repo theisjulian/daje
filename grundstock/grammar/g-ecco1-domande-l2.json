@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-domande-l2",
+ "title": "Domanda e risposta",
+ "language": "it",
+ "level": "A1",
+ "description": "Le domande: chi, che cosa, dove, quando … · Domanda e risposta · livello facile.",
+ "topics": [
+  "Le domande: chi, che cosa, dove, quando …",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 7/8 · Fragewörter, Fragesätze"
+ },
+ "grammar": {
+  "topic": "ecco1-domande",
+  "topicTitle": "Le domande: chi, che cosa, dove, quando …",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 52,
+  "rule": "| **chi?** | wer? | **dove?** | wo? wohin? |\n| **che cosa?** | was? | **quando?** | wann? |\n| **come?** | wie? | **perché?** | warum? |\n| **quanto/-a/-i/-e?** | wie viel(e)? | **quale/-i?** | welche(r)? |\n| **di dove?** | woher? | **a che ora?** | um wie viel Uhr? |\n_**Dove** abiti? · **Quanti** anni hai? · **Quale** zaino preferisci?_\n**Quanto** concorda con il nome: _quant**e** sorelle?_ · **Qual è** senza apostrofo!",
+  "ruleHelp": "Die wichtigsten **Fragewörter** (siehe Tabelle). **quanto** passt sich an: _quanti anni, quante sorelle_. **quale** → Plural **quali**; vor è: **qual è** (ohne Apostroph)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la parola interrogativa giusta.",
+   "promptHelp": "Wähle das passende Fragewort.",
+   "type": "gap_choice",
+   "text": "[[g1]] ti chiami? – Mi chiamo Elena.\n[[g2]] sei? – Sono di Bari.\n[[g3]] anni hai? – Ho tredici anni.\n[[g4]] abiti? – Abito in via Roma.\n[[g5]] è quella ragazza? – È mia cugina.\n[[g6]] fai domani? – Vado al mare.\n[[g7]] non vieni? – Perché sono malato.\n[[g8]] comincia il film? – Alle nove.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Come",
+      "Dove",
+      "Chi"
+     ],
+     "answer": "Come"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Di dove",
+      "Dove",
+      "Quando"
+     ],
+     "answer": "Di dove"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Quanti",
+      "Quante",
+      "Quanto"
+     ],
+     "answer": "Quanti"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Dove",
+      "Come",
+      "Chi"
+     ],
+     "answer": "Dove"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Chi",
+      "Che cosa",
+      "Quale"
+     ],
+     "answer": "Chi"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Che cosa",
+      "Chi",
+      "Dove"
+     ],
+     "answer": "Che cosa"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "Perché",
+      "Quando",
+      "Come"
+     ],
+     "answer": "Perché"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "A che ora",
+      "Quanto",
+      "Dove"
+     ],
+     "answer": "A che ora"
+    }
+   ]
+  }
+ ]
+}

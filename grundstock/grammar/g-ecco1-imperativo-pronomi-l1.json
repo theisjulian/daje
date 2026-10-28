@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-imperativo-pronomi-l1",
+ "title": "Che cosa vuol dire?",
+ "language": "it",
+ "level": "A1",
+ "description": "L’imperativo con i pronomi: dimmi, fallo! · Che cosa vuol dire? · livello facile.",
+ "topics": [
+  "L’imperativo con i pronomi: dimmi, fallo!",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo-pronomi",
+  "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 41,
+  "rule": "Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:\n- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_\nCon **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:\n- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_\nCon il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_",
+  "ruleHelp": "Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_\nBei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.\nVerneint (tu): _Non lo comprare!_ oder _Non comprarlo!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abbina.",
+   "promptHelp": "Verbinde.",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Dimmi!",
+     "right": "Sag es mir!"
+    },
+    {
+     "id": "p2",
+     "left": "Fallo!",
+     "right": "Mach es!"
+    },
+    {
+     "id": "p3",
+     "left": "Dammi la penna!",
+     "right": "Gib mir den Stift!"
+    },
+    {
+     "id": "p4",
+     "left": "Chiamami!",
+     "right": "Ruf mich an!"
+    },
+    {
+     "id": "p5",
+     "left": "Aspettaci!",
+     "right": "Warte auf uns!"
+    },
+    {
+     "id": "p6",
+     "left": "Compralo!",
+     "right": "Kauf ihn / es!"
+    },
+    {
+     "id": "p7",
+     "left": "Scrivile!",
+     "right": "Schreib ihr!"
+    },
+    {
+     "id": "p8",
+     "left": "Non toccarlo!",
+     "right": "Fass es nicht an!"
+    }
+   ]
+  }
+ ]
+}

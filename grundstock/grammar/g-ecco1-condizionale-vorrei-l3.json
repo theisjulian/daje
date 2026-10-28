@@ -1,0 +1,185 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-condizionale-vorrei-l3",
+ "title": "Gentile o no?",
+ "language": "it",
+ "level": "A1",
+ "description": "Vorrei, potrei, dovrei: chiedere con gentilezza · Gentile o no? · livello facile.",
+ "topics": [
+  "Vorrei, potrei, dovrei: chiedere con gentilezza",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 12,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Höflichkeitsformen (vorrei, potrebbe …)"
+ },
+ "grammar": {
+  "topic": "ecco1-condizionale-vorrei",
+  "topicTitle": "Vorrei, potrei, dovrei: chiedere con gentilezza",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 33,
+  "rule": "Per chiedere **con gentilezza** usiamo il **condizionale**:\n| io | tu | Lei / lui / lei | noi | voi | loro |\n| vorrei | vorresti | vorrebbe | vorremmo | vorreste | vorrebbero |\n- _**Vorrei** un gelato, per favore._\n- _**Potrebbe** ripetere?_ (Lei)\n- _**Dovresti** studiare di più._ (consiglio)\nLe forme di **potere** e **dovere** sono uguali: potr**ei**, potr**esti**, potr**ebbe** … / dovr**ei**, dovr**esti**, dovr**ebbe** …",
+  "ruleHelp": "Höfliche Bitten mit dem **Konditional**: _Vorrei un gelato_ (Ich hätte gern …), _Potrebbe ripetere?_ (Könnten Sie …?), _Dovresti …_ (Du solltest …).\nEndungen: -ei, -esti, -ebbe, -emmo, -este, -ebbero."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Qual è la frase più gentile?",
+   "promptHelp": "Welcher Satz ist höflicher?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Vorrei un panino, per favore."
+    },
+    {
+     "id": "o2",
+     "text": "Voglio un panino."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q2",
+   "prompt": "Qual è la frase più gentile?",
+   "promptHelp": "Welcher Satz ist höflicher?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Potrebbe ripetere, per favore?"
+    },
+    {
+     "id": "o2",
+     "text": "Ripeta!"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q3",
+   "prompt": "Qual è la frase più gentile?",
+   "promptHelp": "Welcher Satz ist höflicher?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Potresti aprire la finestra?"
+    },
+    {
+     "id": "o2",
+     "text": "Apri la finestra!"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q4",
+   "prompt": "Qual è la frase più gentile?",
+   "promptHelp": "Welcher Satz ist höflicher?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Vorremmo prenotare un tavolo."
+    },
+    {
+     "id": "o2",
+     "text": "Vogliamo un tavolo."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q5",
+   "prompt": "Qual è la frase più gentile?",
+   "promptHelp": "Welcher Satz ist höflicher?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Scusi, potrebbe dirmi dov’è la stazione?"
+    },
+    {
+     "id": "o2",
+     "text": "Dov’è la stazione?"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q6",
+   "prompt": "Qual è la frase più gentile?",
+   "promptHelp": "Welcher Satz ist höflicher?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Potreste fare silenzio, per favore?"
+    },
+    {
+     "id": "o2",
+     "text": "Silenzio!"
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q7",
+   "prompt": "Qual è la frase più gentile?",
+   "promptHelp": "Welcher Satz ist höflicher?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Vorrei provare questa maglietta."
+    },
+    {
+     "id": "o2",
+     "text": "Voglio provare questa maglietta."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q8",
+   "prompt": "Qual è la frase più gentile?",
+   "promptHelp": "Welcher Satz ist höflicher?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Mi potresti prestare la penna?"
+    },
+    {
+     "id": "o2",
+     "text": "Dammi la penna!"
+    }
+   ],
+   "correctOptionId": "o1"
+  }
+ ]
+}

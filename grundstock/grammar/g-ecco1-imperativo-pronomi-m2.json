@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-imperativo-pronomi-m2",
+ "title": "No, non farlo!",
+ "language": "it",
+ "level": "A1",
+ "description": "L’imperativo con i pronomi: dimmi, fallo! · No, non farlo! · livello medio.",
+ "topics": [
+  "L’imperativo con i pronomi: dimmi, fallo!",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo-pronomi",
+  "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 42,
+  "rule": "Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:\n- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_\nCon **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:\n- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_\nCon il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_",
+  "ruleHelp": "Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_\nBei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.\nVerneint (tu): _Non lo comprare!_ oder _Non comprarlo!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Rispondi al negativo: non + infinito + pronome.",
+   "promptHelp": "Verneinter Imperativ.",
+   "explanation": "non + infinito senza -e + pronome: non mangiar-la.",
+   "explanationHelp": "Infinitiv ohne -e + Pronomen.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Mangio la torta? – No, …",
+     "acceptedAnswers": [
+      "non mangiarla"
+     ],
+     "modelAnswer": "No, non mangiarla!"
+    },
+    {
+     "id": "s2",
+     "start": "Prendo l’autobus? – No, …",
+     "acceptedAnswers": [
+      "non prenderlo"
+     ],
+     "modelAnswer": "No, non prenderlo!"
+    },
+    {
+     "id": "s3",
+     "start": "Compro le scarpe? – No, …",
+     "acceptedAnswers": [
+      "non comprarle"
+     ],
+     "modelAnswer": "No, non comprarle!"
+    },
+    {
+     "id": "s4",
+     "start": "Chiamo Luca? – No, …",
+     "acceptedAnswers": [
+      "non chiamarlo"
+     ],
+     "modelAnswer": "No, non chiamarlo!"
+    },
+    {
+     "id": "s5",
+     "start": "Bevo il latte? – No, …",
+     "acceptedAnswers": [
+      "non berlo"
+     ],
+     "modelAnswer": "No, non berlo!"
+    },
+    {
+     "id": "s6",
+     "start": "Apro la porta? – No, …",
+     "acceptedAnswers": [
+      "non aprirla"
+     ],
+     "modelAnswer": "No, non aprirla!"
+    },
+    {
+     "id": "s7",
+     "start": "Invito Sara e Ada? – No, …",
+     "acceptedAnswers": [
+      "non invitarle"
+     ],
+     "modelAnswer": "No, non invitarle!"
+    },
+    {
+     "id": "s8",
+     "start": "Faccio la foto? – No, …",
+     "acceptedAnswers": [
+      "non farla"
+     ],
+     "modelAnswer": "No, non farla!"
+    }
+   ]
+  }
+ ]
+}

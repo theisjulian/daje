@@ -1,0 +1,121 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-riflessivo-m2",
+ "title": "E tu?",
+ "language": "it",
+ "level": "A1",
+ "description": "Mi sono alzato: il passato prossimo dei verbi riflessivi · E tu? · livello medio.",
+ "topics": [
+  "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo (reflexive Verben, piacere)"
+ },
+ "grammar": {
+  "topic": "ecco1-passato-riflessivo",
+  "topicTitle": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 72,
+  "rule": "I verbi riflessivi formano il passato prossimo con **essere**. Il participio **concorda** con il soggetto:\n| io | **mi sono** alzato/-a |\n| tu | **ti sei** alzato/-a |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati/-e |\n| voi | **vi siete** alzati/-e |\n| loro | **si sono** alzati/-e |\nAnche **piacere** usa essere: _La pizza mi è piaciut**a**. I film mi sono piaciut**i**._",
+  "ruleHelp": "Reflexive Verben bilden das passato prossimo mit **essere**; das Partizip richtet sich nach dem Subjekt: _Anna si è alzata. Ci siamo divertiti._\nAuch **piacere** mit essere: _La pizza mi è piaciuta._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi le frasi al passato prossimo.",
+   "promptHelp": "Schreibe die Sätze ins passato prossimo.",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "Mi alzo alle sette. (Marco)",
+     "acceptedAnswers": [
+      "Mi sono alzato alle sette"
+     ],
+     "modelAnswer": "Mi sono alzato alle sette."
+    },
+    {
+     "id": "s2",
+     "start": "Ti diverti alla festa? (Lisa)",
+     "acceptedAnswers": [
+      "Ti sei divertita alla festa"
+     ],
+     "modelAnswer": "Ti sei divertita alla festa?"
+    },
+    {
+     "id": "s3",
+     "start": "Si veste in fretta. (Paolo)",
+     "acceptedAnswers": [
+      "Si è vestito in fretta"
+     ],
+     "modelAnswer": "Si è vestito in fretta."
+    },
+    {
+     "id": "s4",
+     "start": "Ci incontriamo al bar. (Luca e io)",
+     "acceptedAnswers": [
+      "Ci siamo incontrati al bar"
+     ],
+     "modelAnswer": "Ci siamo incontrati al bar."
+    },
+    {
+     "id": "s5",
+     "start": "Vi lavate le mani? (voi ragazze)",
+     "acceptedAnswers": [
+      "Vi siete lavate le mani"
+     ],
+     "modelAnswer": "Vi siete lavate le mani?"
+    },
+    {
+     "id": "s6",
+     "start": "Si addormentano subito. (i bambini)",
+     "acceptedAnswers": [
+      "Si sono addormentati subito"
+     ],
+     "modelAnswer": "Si sono addormentati subito."
+    },
+    {
+     "id": "s7",
+     "start": "Mi preparo per la gita. (Elena)",
+     "acceptedAnswers": [
+      "Mi sono preparata per la gita"
+     ],
+     "modelAnswer": "Mi sono preparata per la gita."
+    },
+    {
+     "id": "s8",
+     "start": "Si riposa sul divano. (il nonno)",
+     "acceptedAnswers": [
+      "Si è riposato sul divano"
+     ],
+     "modelAnswer": "Si è riposato sul divano."
+    }
+   ]
+  }
+ ]
+}

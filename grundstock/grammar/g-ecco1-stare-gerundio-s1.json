@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-stare-gerundio-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A1",
+ "description": "Stare + gerundio · Trova gli errori · livello difficile.",
+ "topics": [
+  "Stare + gerundio",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · stare + Gerundium"
+ },
+ "grammar": {
+  "topic": "ecco1-stare-gerundio",
+  "topicTitle": "Stare + gerundio",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 11,
+  "rule": "Per dire che cosa **succede proprio adesso** usiamo **stare + gerundio**:\n| -are → **-ando** | parlare → parlando |\n| -ere → **-endo** | leggere → leggendo |\n| -ire → **-endo** | dormire → dormendo |\n\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n_Che cosa **stai facendo**? – **Sto scrivendo** un messaggio._\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**.",
+  "ruleHelp": "Was **gerade jetzt** passiert: **stare + Gerundium**. -are → -ando, -ere/-ire → -endo: _Sto scrivendo un messaggio._ (Ich schreibe gerade …)\nUnregelmäßig: fare → facendo, dire → dicendo, bere → bevendo."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi gli otto errori.",
+   "promptHelp": "Korrigiere die acht Fehler.",
+   "type": "error_correction",
+   "text": "Io [[g1]] leggendo.\nMarco sta [[g2]] un fumetto.\nNoi [[g3]] mangiando.\nChe cosa stai [[g4]]?\nLe ragazze [[g5]] ballando.\nSto [[g6]] un messaggio.\nVoi state [[g7]]?\nMio padre sta [[g8]] un caffè.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "sono",
+     "acceptedAnswers": [
+      "sto"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "leggiando",
+     "acceptedAnswers": [
+      "leggendo"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "stanno",
+     "acceptedAnswers": [
+      "stiamo"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "fando",
+     "acceptedAnswers": [
+      "facendo"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "sta",
+     "acceptedAnswers": [
+      "stanno"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "scrivando",
+     "acceptedAnswers": [
+      "scrivendo"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "dormando",
+     "acceptedAnswers": [
+      "dormendo"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "beviendo",
+     "acceptedAnswers": [
+      "bevendo"
+     ]
+    }
+   ]
+  }
+ ]
+}

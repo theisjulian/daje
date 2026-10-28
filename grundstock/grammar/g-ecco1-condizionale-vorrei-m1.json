@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-condizionale-vorrei-m1",
+ "title": "In gelateria",
+ "language": "it",
+ "level": "A1",
+ "description": "Vorrei, potrei, dovrei: chiedere con gentilezza · In gelateria · livello medio.",
+ "topics": [
+  "Vorrei, potrei, dovrei: chiedere con gentilezza",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Höflichkeitsformen (vorrei, potrebbe …)"
+ },
+ "grammar": {
+  "topic": "ecco1-condizionale-vorrei",
+  "topicTitle": "Vorrei, potrei, dovrei: chiedere con gentilezza",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 31,
+  "rule": "Per chiedere **con gentilezza** usiamo il **condizionale**:\n| io | tu | Lei / lui / lei | noi | voi | loro |\n| vorrei | vorresti | vorrebbe | vorremmo | vorreste | vorrebbero |\n- _**Vorrei** un gelato, per favore._\n- _**Potrebbe** ripetere?_ (Lei)\n- _**Dovresti** studiare di più._ (consiglio)\nLe forme di **potere** e **dovere** sono uguali: potr**ei**, potr**esti**, potr**ebbe** … / dovr**ei**, dovr**esti**, dovr**ebbe** …",
+  "ruleHelp": "Höfliche Bitten mit dem **Konditional**: _Vorrei un gelato_ (Ich hätte gern …), _Potrebbe ripetere?_ (Könnten Sie …?), _Dovresti …_ (Du solltest …).\nEndungen: -ei, -esti, -ebbe, -emmo, -este, -ebbero."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con il condizionale (volere / potere).",
+   "promptHelp": "Ergänze das Konditional von volere / potere.",
+   "type": "gap_fill",
+   "text": "– Buongiorno, che cosa (volere, Lei) [[g1]]?\n– (volere, io) [[g2]] un cono da due euro.\n– E i gusti? – (potere, io) [[g3]] avere fragola e limone?\n– Certo. E tu, piccola, che cosa (volere) [[g4]]?\n– Noi (volere) [[g5]] anche due coppette.\n– (potere, voi) [[g6]] aspettare un momento?\n– I miei genitori (volere) [[g7]] anche un caffè.\n– Scusi, (potere, Lei) [[g8]] darmi un tovagliolo?",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "vorrebbe"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Vorrei"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Potrei"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "vorresti"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "vorremmo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Potreste"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "vorrebbero"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "potrebbe"
+     ]
+    }
+   ]
+  }
+ ]
+}

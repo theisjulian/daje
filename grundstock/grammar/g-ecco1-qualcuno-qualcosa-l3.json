@@ -1,0 +1,124 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-qualcuno-qualcosa-l3",
+ "title": "Ogni o ognuno?",
+ "language": "it",
+ "level": "A1",
+ "description": "Qualcuno, qualcosa, ognuno, ogni · Ogni o ognuno? · livello facile.",
+ "topics": [
+  "Qualcuno, qualcosa, ognuno, ogni",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-qualcuno-qualcosa",
+  "topicTitle": "Qualcuno, qualcosa, ognuno, ogni",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 83,
+  "rule": "- **qualcuno** = una persona (non so chi): _C’è **qualcuno**?_\n- **qualcosa** = una cosa (non so cosa): _Vuoi **qualcosa** da bere?_\n- **ognuno** = ogni persona: _**Ognuno** porta un panino._\n- **ogni** + nome singolare: _**ogni** giorno, **ogni** settimana_\n- **qualcosa di** + aggettivo: _qualcosa **di** bello_ · **qualcosa da** + infinito: _qualcosa **da** mangiare_",
+  "ruleHelp": "**qualcuno** = jemand, **qualcosa** = etwas, **ognuno** = jeder (Person), **ogni** + Singular = jede(r/s).\n_qualcosa di nuovo_ (etwas Neues), _qualcosa da bere_ (etwas zu trinken)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la parola giusta.",
+   "promptHelp": "Wähle das passende Wort.",
+   "explanation": "ogni + nome (singolare); ognuno da solo.",
+   "explanationHelp": "ogni + Nomen, ognuno allein.",
+   "type": "gap_choice",
+   "text": "Vado in palestra [[g1]] martedì.\n[[g2]] porta qualcosa alla festa.\n[[g3]] mattina bevo un tè.\nIn classe [[g4]] ha il suo tablet.\n[[g5]] anno andiamo in Puglia.\n[[g6]] paga il suo gelato.\nLeggo [[g7]] sera.\n[[g8]] di noi ha un compito.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "ogni",
+      "ognuno"
+     ],
+     "answer": "ogni"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Ognuno",
+      "Ogni"
+     ],
+     "answer": "Ognuno"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Ogni",
+      "Ognuno"
+     ],
+     "answer": "Ogni"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "ognuno",
+      "ogni"
+     ],
+     "answer": "ognuno"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Ogni",
+      "Ognuno"
+     ],
+     "answer": "Ogni"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Ognuno",
+      "Ogni"
+     ],
+     "answer": "Ognuno"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "ogni",
+      "ognuno"
+     ],
+     "answer": "ogni"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "Ognuno",
+      "Ogni"
+     ],
+     "answer": "Ognuno"
+    }
+   ]
+  }
+ ]
+}

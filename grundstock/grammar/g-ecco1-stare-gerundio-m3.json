@@ -1,0 +1,124 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-stare-gerundio-m3",
+ "title": "Presente o stare + gerundio?",
+ "language": "it",
+ "level": "A1",
+ "description": "Stare + gerundio · Presente o stare + gerundio? · livello medio.",
+ "topics": [
+  "Stare + gerundio",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · stare + Gerundium"
+ },
+ "grammar": {
+  "topic": "ecco1-stare-gerundio",
+  "topicTitle": "Stare + gerundio",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 13,
+  "rule": "Per dire che cosa **succede proprio adesso** usiamo **stare + gerundio**:\n| -are → **-ando** | parlare → parlando |\n| -ere → **-endo** | leggere → leggendo |\n| -ire → **-endo** | dormire → dormendo |\n\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n_Che cosa **stai facendo**? – **Sto scrivendo** un messaggio._\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**.",
+  "ruleHelp": "Was **gerade jetzt** passiert: **stare + Gerundium**. -are → -ando, -ere/-ire → -endo: _Sto scrivendo un messaggio._ (Ich schreibe gerade …)\nUnregelmäßig: fare → facendo, dire → dicendo, bere → bevendo."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Abitudine (presente) o proprio adesso (stare + gerundio)?",
+   "promptHelp": "Gewohnheit oder gerade jetzt?",
+   "explanation": "di solito, ogni giorno → presente; proprio adesso → stare + gerundio.",
+   "explanationHelp": "Gewohnheit → Präsens; gerade jetzt → stare + Gerundium.",
+   "type": "gap_choice",
+   "text": "Di solito [[g1]] la sera.\nSilenzio! [[g2]] per il test.\nOgni giorno Marco [[g3]] a scuola in bici.\nGuarda! Il gatto [[g4]] sul tavolo.\nIl sabato [[g5]] a calcio.\nNon posso parlare, [[g6]]!\nIn estate [[g7]] al mare.\nAscolta: qualcuno [[g8]] alla porta.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "leggo",
+      "sto leggendo"
+     ],
+     "answer": "leggo"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Sto studiando",
+      "Studio"
+     ],
+     "answer": "Sto studiando"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "va",
+      "sta andando"
+     ],
+     "answer": "va"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "sta dormendo",
+      "dorme"
+     ],
+     "answer": "sta dormendo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "giochiamo",
+      "stiamo giocando"
+     ],
+     "answer": "giochiamo"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "sto guidando",
+      "guido"
+     ],
+     "answer": "sto guidando"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "andiamo",
+      "stiamo andando"
+     ],
+     "answer": "andiamo"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "sta suonando",
+      "suona"
+     ],
+     "answer": "sta suonando"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-superlativo-issimo-l2",
+ "title": "Che forma?",
+ "language": "it",
+ "level": "A1",
+ "description": "Bellissimo! – L’aggettivo con -issimo · Che forma? · livello facile.",
+ "topics": [
+  "Bellissimo! – L’aggettivo con -issimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · absoluter Superlativ (-issimo), Steigerung mit molto"
+ },
+ "grammar": {
+  "topic": "ecco1-superlativo-issimo",
+  "topicTitle": "Bellissimo! – L’aggettivo con -issimo",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 62,
+  "rule": "Per dire **molto** + aggettivo usiamo **-issimo**:\n| bello → **bellissimo** | molto bello |\n| buono → **buonissimo** | molto buono |\n| facile → **facilissimo** | molto facile |\n| lungo → **lunghissimo** | molto lungo |\n**-issimo** concorda: _una pizza buon**issima**, due ragazzi simpatic**issimi**._\nAnche con avverbi: _**benissimo**, **malissimo**, **tantissimo**_. E si può ripetere: _**piano piano**_ (molto piano).",
+  "ruleHelp": "**-issimo** heißt „sehr“: _bellissimo_ = sehr schön. Es passt sich an (-issimo/-issima/-issimi/-issime).\n-co/-go → **-chissimo/-ghissimo** (lunghissimo). Auch: benissimo, tantissimo. Verdopplung: _piano piano_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "type": "gap_choice",
+   "text": "La pizza è [[g1]].\nIl film è [[g2]].\nLe scarpe sono [[g3]].\nI compiti sono [[g4]].\nLa strada è [[g5]].\nGli zii sono [[g6]].\nOggi sto [[g7]]!\nLa casa della nonna è [[g8]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "buonissima",
+      "buonissimo",
+      "buonissime"
+     ],
+     "answer": "buonissima"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "bellissimo",
+      "bellissima",
+      "bellissimi"
+     ],
+     "answer": "bellissimo"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "carissime",
+      "carissimi",
+      "carissima"
+     ],
+     "answer": "carissime"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "facilissimi",
+      "facilissime",
+      "facilissimo"
+     ],
+     "answer": "facilissimi"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "lunghissima",
+      "lungissima",
+      "lunghissimo"
+     ],
+     "answer": "lunghissima"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "simpaticissimi",
+      "simpatichissimi",
+      "simpaticissime"
+     ],
+     "answer": "simpaticissimi"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "benissimo",
+      "buonissimo",
+      "benissima"
+     ],
+     "answer": "benissimo"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "grandissima",
+      "grandissimo",
+      "grandissime"
+     ],
+     "answer": "grandissima"
+    }
+   ]
+  }
+ ]
+}

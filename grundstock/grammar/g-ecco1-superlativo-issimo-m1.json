@@ -1,0 +1,118 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-superlativo-issimo-m1",
+ "title": "Una cartolina da Venezia",
+ "language": "it",
+ "level": "A1",
+ "description": "Bellissimo! – L’aggettivo con -issimo · Una cartolina da Venezia · livello medio.",
+ "topics": [
+  "Bellissimo! – L’aggettivo con -issimo",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · absoluter Superlativ (-issimo), Steigerung mit molto"
+ },
+ "grammar": {
+  "topic": "ecco1-superlativo-issimo",
+  "topicTitle": "Bellissimo! – L’aggettivo con -issimo",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 61,
+  "rule": "Per dire **molto** + aggettivo usiamo **-issimo**:\n| bello → **bellissimo** | molto bello |\n| buono → **buonissimo** | molto buono |\n| facile → **facilissimo** | molto facile |\n| lungo → **lunghissimo** | molto lungo |\n**-issimo** concorda: _una pizza buon**issima**, due ragazzi simpatic**issimi**._\nAnche con avverbi: _**benissimo**, **malissimo**, **tantissimo**_. E si può ripetere: _**piano piano**_ (molto piano).",
+  "ruleHelp": "**-issimo** heißt „sehr“: _bellissimo_ = sehr schön. Es passt sich an (-issimo/-issima/-issimi/-issime).\n-co/-go → **-chissimo/-ghissimo** (lunghissimo). Auch: benissimo, tantissimo. Verdopplung: _piano piano_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa con -issimo nella forma giusta.",
+   "promptHelp": "Ergänze -issimo in der richtigen Form.",
+   "type": "gap_fill",
+   "text": "Cara Lisa, Venezia è (bello) [[g1]]!\nI canali sono (stretto) [[g2]] e le gondole (elegante) [[g3]].\nIl gelato qui è (buono) [[g4]], ma (caro) [[g5]]!\nIeri abbiamo fatto una passeggiata (lungo) [[g6]].\nLe persone sono (gentile) [[g7]].\nIl nostro albergo è (piccolo) [[g8]], ma (pulito) [[g9]].\nSto (bene) [[g10]]! Un abbraccio, Mia",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "bellissima"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "strettissimi"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "elegantissime"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "buonissimo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "carissimo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "lunghissima"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "gentilissime"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "piccolissimo"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "pulitissimo"
+     ]
+    },
+    {
+     "id": "g10",
+     "acceptedAnswers": [
+      "benissimo"
+     ]
+    }
+   ]
+  }
+ ]
+}

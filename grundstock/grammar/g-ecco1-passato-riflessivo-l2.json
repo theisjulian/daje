@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-riflessivo-l2",
+ "title": "La desinenza",
+ "language": "it",
+ "level": "A1",
+ "description": "Mi sono alzato: il passato prossimo dei verbi riflessivi · La desinenza · livello facile.",
+ "topics": [
+  "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo (reflexive Verben, piacere)"
+ },
+ "grammar": {
+  "topic": "ecco1-passato-riflessivo",
+  "topicTitle": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 72,
+  "rule": "I verbi riflessivi formano il passato prossimo con **essere**. Il participio **concorda** con il soggetto:\n| io | **mi sono** alzato/-a |\n| tu | **ti sei** alzato/-a |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati/-e |\n| voi | **vi siete** alzati/-e |\n| loro | **si sono** alzati/-e |\nAnche **piacere** usa essere: _La pizza mi è piaciut**a**. I film mi sono piaciut**i**._",
+  "ruleHelp": "Reflexive Verben bilden das passato prossimo mit **essere**; das Partizip richtet sich nach dem Subjekt: _Anna si è alzata. Ci siamo divertiti._\nAuch **piacere** mit essere: _La pizza mi è piaciuta._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli il participio giusto.",
+   "promptHelp": "Wähle das richtige Partizip.",
+   "explanation": "Con essere il participio prende -o, -a, -i, -e come il soggetto.",
+   "explanationHelp": "Mit essere passt sich das Partizip an.",
+   "type": "gap_choice",
+   "text": "Giulia si è [[g1]] presto.\nI ragazzi si sono [[g2]].\nLe mie sorelle si sono [[g3]].\nPaolo si è [[g4]].\nNoi (Anna e io) ci siamo [[g5]].\nLa torta mi è [[g6]].\nI libri ti sono [[g7]]?\nLe vacanze ci sono [[g8]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "alzata",
+      "alzato",
+      "alzati"
+     ],
+     "answer": "alzata"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "divertiti",
+      "divertito",
+      "divertite"
+     ],
+     "answer": "divertiti"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "preparate",
+      "preparati",
+      "preparata"
+     ],
+     "answer": "preparate"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "lavato",
+      "lavata",
+      "lavati"
+     ],
+     "answer": "lavato"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "incontrate",
+      "incontrato",
+      "incontrati"
+     ],
+     "answer": "incontrate"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "piaciuta",
+      "piaciuto",
+      "piaciute"
+     ],
+     "answer": "piaciuta"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "piaciuti",
+      "piaciuto",
+      "piaciute"
+     ],
+     "answer": "piaciuti"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "piaciute",
+      "piaciuti",
+      "piaciuta"
+     ],
+     "answer": "piaciute"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-domande-l3",
+ "title": "Quanto, quanta, quanti, quante?",
+ "language": "it",
+ "level": "A1",
+ "description": "Le domande: chi, che cosa, dove, quando … · Quanto, quanta, quanti, quante? · livello facile.",
+ "topics": [
+  "Le domande: chi, che cosa, dove, quando …",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 7/8 · Fragewörter, Fragesätze"
+ },
+ "grammar": {
+  "topic": "ecco1-domande",
+  "topicTitle": "Le domande: chi, che cosa, dove, quando …",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 53,
+  "rule": "| **chi?** | wer? | **dove?** | wo? wohin? |\n| **che cosa?** | was? | **quando?** | wann? |\n| **come?** | wie? | **perché?** | warum? |\n| **quanto/-a/-i/-e?** | wie viel(e)? | **quale/-i?** | welche(r)? |\n| **di dove?** | woher? | **a che ora?** | um wie viel Uhr? |\n_**Dove** abiti? · **Quanti** anni hai? · **Quale** zaino preferisci?_\n**Quanto** concorda con il nome: _quant**e** sorelle?_ · **Qual è** senza apostrofo!",
+  "ruleHelp": "Die wichtigsten **Fragewörter** (siehe Tabelle). **quanto** passt sich an: _quanti anni, quante sorelle_. **quale** → Plural **quali**; vor è: **qual è** (ohne Apostroph)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli la forma giusta.",
+   "promptHelp": "Wähle die richtige Form.",
+   "explanation": "quanto + nome maschile singolare, quanta + femminile, quanti / quante + plurale.",
+   "explanationHelp": "quanto passt sich an.",
+   "type": "gap_choice",
+   "text": "[[g1]] fratelli hai?\n[[g2]] sorelle ha Paola?\n[[g3]] costa il gelato?\n[[g4]] acqua bevi al giorno?\n[[g5]] studenti ci sono in classe?\n[[g6]] ore dormi?\n[[g7]] tempo hai?\n[[g8]] pasta mangi?",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Quanti",
+      "Quante",
+      "Quanto"
+     ],
+     "answer": "Quanti"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Quante",
+      "Quanti",
+      "Quanta"
+     ],
+     "answer": "Quante"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Quanto",
+      "Quanta",
+      "Quanti"
+     ],
+     "answer": "Quanto"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Quanta",
+      "Quanto",
+      "Quante"
+     ],
+     "answer": "Quanta"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Quanti",
+      "Quante",
+      "Quanta"
+     ],
+     "answer": "Quanti"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Quante",
+      "Quanti",
+      "Quanto"
+     ],
+     "answer": "Quante"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "Quanto",
+      "Quanta",
+      "Quante"
+     ],
+     "answer": "Quanto"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "Quanta",
+      "Quante",
+      "Quanto"
+     ],
+     "answer": "Quanta"
+    }
+   ]
+  }
+ ]
+}

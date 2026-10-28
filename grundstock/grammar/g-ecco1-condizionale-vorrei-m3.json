@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-condizionale-vorrei-m3",
+ "title": "Consigli",
+ "language": "it",
+ "level": "A1",
+ "description": "Vorrei, potrei, dovrei: chiedere con gentilezza · Consigli · livello medio.",
+ "topics": [
+  "Vorrei, potrei, dovrei: chiedere con gentilezza",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Höflichkeitsformen (vorrei, potrebbe …)"
+ },
+ "grammar": {
+  "topic": "ecco1-condizionale-vorrei",
+  "topicTitle": "Vorrei, potrei, dovrei: chiedere con gentilezza",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 33,
+  "rule": "Per chiedere **con gentilezza** usiamo il **condizionale**:\n| io | tu | Lei / lui / lei | noi | voi | loro |\n| vorrei | vorresti | vorrebbe | vorremmo | vorreste | vorrebbero |\n- _**Vorrei** un gelato, per favore._\n- _**Potrebbe** ripetere?_ (Lei)\n- _**Dovresti** studiare di più._ (consiglio)\nLe forme di **potere** e **dovere** sono uguali: potr**ei**, potr**esti**, potr**ebbe** … / dovr**ei**, dovr**esti**, dovr**ebbe** …",
+  "ruleHelp": "Höfliche Bitten mit dem **Konditional**: _Vorrei un gelato_ (Ich hätte gern …), _Potrebbe ripetere?_ (Könnten Sie …?), _Dovresti …_ (Du solltest …).\nEndungen: -ei, -esti, -ebbe, -emmo, -este, -ebbero."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Dai un consiglio con dovresti / dovreste.",
+   "promptHelp": "Gib einen Rat mit dovresti / dovreste.",
+   "type": "gap_fill",
+   "text": "Sei stanco? (dormire, tu) [[g1]] di più.\nAvete fame? (mangiare, voi) [[g2]] qualcosa.\nHai mal di testa? (bere, tu) [[g3]] più acqua.\nHai un brutto voto? (studiare, tu) [[g4]] un po’ di più.\nAvete freddo? (mettere, voi) [[g5]] la giacca.\nSei sempre al telefono? (uscire, tu) [[g6]] con gli amici.\nArrivate sempre tardi? (partire, voi) [[g7]] prima.\nNon capisci? (chiedere, tu) [[g8]] alla prof.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Dovresti dormire"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Dovreste mangiare"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Dovresti bere"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Dovresti studiare"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Dovreste mettere"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Dovresti uscire"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Dovreste partire"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "Dovresti chiedere"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-imperativo-pronomi-s2",
+ "title": "Consigli a un amico",
+ "language": "it",
+ "level": "A1",
+ "description": "L’imperativo con i pronomi: dimmi, fallo! · Consigli a un amico · livello difficile.",
+ "topics": [
+  "L’imperativo con i pronomi: dimmi, fallo!",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 11,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo-pronomi",
+  "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 42,
+  "rule": "Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:\n- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_\nCon **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:\n- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_\nCon il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_",
+  "ruleHelp": "Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_\nBei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.\nVerneint (tu): _Non lo comprare!_ oder _Non comprarlo!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Tommaso va per la prima volta a Roma. Completa i consigli.",
+   "promptHelp": "Ergänze die Tipps.",
+   "type": "gap_fill",
+   "text": "Il Colosseo? (visitare, lo) [[g1]] la mattina presto!\nI biglietti? (comprare, li) [[g2]] online.\nLa pizza al taglio? (provare, la) [[g3]] a Trastevere!\nLe cartoline? (scrivere, le) [[g4]] ai nonni.\nIl gelato? (mangiare, lo) [[g5]] in Piazza Navona.\nLa metro? (prendere, la) [[g6]], è comoda.\nE quando arrivi, (chiamare, mi) [[g7]]!\nE non (dimenticare, mi) [[g8]]: (mandare, mi) [[g9]] una foto!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Visitalo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Comprali"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Provala"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Scrivile"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Mangialo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Prendila"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "chiamami"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "dimenticarmi"
+     ]
+    },
+    {
+     "id": "g9",
+     "acceptedAnswers": [
+      "mandami"
+     ]
+    }
+   ]
+  }
+ ]
+}

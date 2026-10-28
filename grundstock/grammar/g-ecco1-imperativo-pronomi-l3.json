@@ -1,0 +1,123 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-imperativo-pronomi-l3",
+ "title": "Raddoppia!",
+ "language": "it",
+ "level": "A1",
+ "description": "L’imperativo con i pronomi: dimmi, fallo! · Raddoppia! · livello facile.",
+ "topics": [
+  "L’imperativo con i pronomi: dimmi, fallo!",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo-pronomi",
+  "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 43,
+  "rule": "Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:\n- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_\nCon **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:\n- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_\nCon il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_",
+  "ruleHelp": "Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_\nBei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.\nVerneint (tu): _Non lo comprare!_ oder _Non comprarlo!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Unisci verbo e pronome.",
+   "promptHelp": "Verbinde Verb und Pronomen.",
+   "explanation": "da’, di’, fa’, sta’, va’ + pronome → consonante doppia (tranne gli).",
+   "explanationHelp": "Doppelter Konsonant (außer bei gli).",
+   "type": "sentence_completion",
+   "items": [
+    {
+     "id": "s1",
+     "start": "di’ + mi",
+     "acceptedAnswers": [
+      "dimmi"
+     ],
+     "modelAnswer": "dimmi"
+    },
+    {
+     "id": "s2",
+     "start": "fa’ + lo",
+     "acceptedAnswers": [
+      "fallo"
+     ],
+     "modelAnswer": "fallo"
+    },
+    {
+     "id": "s3",
+     "start": "da’ + mi",
+     "acceptedAnswers": [
+      "dammi"
+     ],
+     "modelAnswer": "dammi"
+    },
+    {
+     "id": "s4",
+     "start": "va’ + ci",
+     "acceptedAnswers": [
+      "vacci"
+     ],
+     "modelAnswer": "vacci"
+    },
+    {
+     "id": "s5",
+     "start": "sta’ + mi (a sentire)",
+     "acceptedAnswers": [
+      "stammi"
+     ],
+     "modelAnswer": "stammi"
+    },
+    {
+     "id": "s6",
+     "start": "di’ + le",
+     "acceptedAnswers": [
+      "dille"
+     ],
+     "modelAnswer": "dille"
+    },
+    {
+     "id": "s7",
+     "start": "fa’ + la",
+     "acceptedAnswers": [
+      "falla"
+     ],
+     "modelAnswer": "falla"
+    },
+    {
+     "id": "s8",
+     "start": "da’ + ci",
+     "acceptedAnswers": [
+      "dacci"
+     ],
+     "modelAnswer": "dacci"
+    }
+   ]
+  }
+ ]
+}

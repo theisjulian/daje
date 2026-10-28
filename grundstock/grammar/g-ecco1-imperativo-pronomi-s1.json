@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-imperativo-pronomi-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A1",
+ "description": "L’imperativo con i pronomi: dimmi, fallo! · Trova gli errori · livello difficile.",
+ "topics": [
+  "L’imperativo con i pronomi: dimmi, fallo!",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo-pronomi",
+  "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 41,
+  "rule": "Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:\n- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_\nCon **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:\n- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_\nCon il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_",
+  "ruleHelp": "Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_\nBei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.\nVerneint (tu): _Non lo comprare!_ oder _Non comprarlo!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi gli otto errori.",
+   "promptHelp": "Korrigiere die acht Fehler.",
+   "type": "error_correction",
+   "text": "[[g1]] la verità!\n[[g2]] subito!\n[[g3]] stasera, Anna!\nLa torta? [[g4]], Marco!\n[[g5]] il libro, per favore!\nRagazzi, i compiti? [[g6]] adesso!\nNon [[g7]], la torta è per la festa!\n[[g8]] in bici, è vicino!",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "Dimi",
+     "acceptedAnswers": [
+      "Dimmi"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "Falo",
+     "acceptedAnswers": [
+      "Fallo"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "Mi chiama",
+     "acceptedAnswers": [
+      "Chiamami"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "La mangia",
+     "acceptedAnswers": [
+      "Mangiala"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "Dami",
+     "acceptedAnswers": [
+      "Dammi"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "Li fate",
+     "acceptedAnswers": [
+      "Fateli"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "mangiarlola",
+     "acceptedAnswers": [
+      "mangiarla"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "Vaci",
+     "acceptedAnswers": [
+      "Vacci"
+     ]
+    }
+   ]
+  }
+ ]
+}

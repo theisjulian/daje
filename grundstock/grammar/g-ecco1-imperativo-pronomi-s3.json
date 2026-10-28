@@ -1,0 +1,98 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-imperativo-pronomi-s3",
+ "title": "Istruzioni",
+ "language": "it",
+ "level": "A1",
+ "description": "L’imperativo con i pronomi: dimmi, fallo! · Istruzioni · livello difficile.",
+ "topics": [
+  "L’imperativo con i pronomi: dimmi, fallo!",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo-pronomi",
+  "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 43,
+  "rule": "Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:\n- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_\nCon **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:\n- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_\nCon il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_",
+  "ruleHelp": "Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_\nBei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.\nVerneint (tu): _Non lo comprare!_ oder _Non comprarlo!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scrivi a un compagno nuovo 5 consigli per la vostra scuola. Usa l’imperativo con i pronomi.",
+   "promptHelp": "5 Tipps für einen neuen Mitschüler mit Imperativ + Pronomen.",
+   "type": "open_answer",
+   "modelAnswer": "La mensa? Provala, è buona! Il prof di matematica? Ascoltalo bene. I compiti? Falli subito. Se hai problemi, chiamami! Il libro di storia? Non dimenticarlo!",
+   "lines": 5
+  },
+  {
+   "id": "q2",
+   "prompt": "Controlla: quale forma?",
+   "promptHelp": "Welche Form?",
+   "type": "gap_choice",
+   "text": "La mensa? [[g1]]!\nI compiti? [[g2]] subito!\nSe hai problemi, [[g3]]!\nIl libro? Non [[g4]]!",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Provala",
+      "La prova"
+     ],
+     "answer": "Provala"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Falli",
+      "Fali"
+     ],
+     "answer": "Falli"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "chiamami",
+      "mi chiama"
+     ],
+     "answer": "chiamami"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "dimenticarlo",
+      "dimenticalo"
+     ],
+     "answer": "dimenticarlo"
+    }
+   ]
+  }
+ ]
+}

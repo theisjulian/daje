@@ -54167,6 +54167,1124 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco1-condizionale-vorrei-l1",
+  "title": "Che cosa vuol dire?",
+  "language": "it",
+  "level": "A1",
+  "description": "Vorrei, potrei, dovrei: chiedere con gentilezza · Che cosa vuol dire? · livello facile.",
+  "topics": [
+   "Vorrei, potrei, dovrei: chiedere con gentilezza",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Höflichkeitsformen (vorrei, potrebbe …)"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-condizionale-vorrei",
+   "topicTitle": "Vorrei, potrei, dovrei: chiedere con gentilezza",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Per chiedere **con gentilezza** usiamo il **condizionale**:\n| io | tu | Lei / lui / lei | noi | voi | loro |\n| vorrei | vorresti | vorrebbe | vorremmo | vorreste | vorrebbero |\n- _**Vorrei** un gelato, per favore._\n- _**Potrebbe** ripetere?_ (Lei)\n- _**Dovresti** studiare di più._ (consiglio)\nLe forme di **potere** e **dovere** sono uguali: potr**ei**, potr**esti**, potr**ebbe** … / dovr**ei**, dovr**esti**, dovr**ebbe** …",
+   "ruleHelp": "Höfliche Bitten mit dem **Konditional**: _Vorrei un gelato_ (Ich hätte gern …), _Potrebbe ripetere?_ (Könnten Sie …?), _Dovresti …_ (Du solltest …).\nEndungen: -ei, -esti, -ebbe, -emmo, -este, -ebbero.",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina le frasi.",
+    "explanation": "",
+    "promptHelp": "Verbinde die Sätze mit der Übersetzung.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Vorrei un caffè.",
+      "right": "Ich hätte gern einen Kaffee."
+     },
+     {
+      "id": "p2",
+      "left": "Vorresti venire?",
+      "right": "Möchtest du mitkommen?"
+     },
+     {
+      "id": "p3",
+      "left": "Potrebbe aiutarmi?",
+      "right": "Könnten Sie mir helfen?"
+     },
+     {
+      "id": "p4",
+      "left": "Potresti chiudere la finestra?",
+      "right": "Könntest du das Fenster schließen?"
+     },
+     {
+      "id": "p5",
+      "left": "Dovresti dormire di più.",
+      "right": "Du solltest mehr schlafen."
+     },
+     {
+      "id": "p6",
+      "left": "Vorremmo due biglietti.",
+      "right": "Wir hätten gern zwei Karten."
+     },
+     {
+      "id": "p7",
+      "left": "Potreste parlare piano?",
+      "right": "Könntet ihr leise sprechen?"
+     },
+     {
+      "id": "p8",
+      "left": "Dovrei studiare.",
+      "right": "Ich sollte lernen."
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-condizionale-vorrei-l2",
+  "title": "Al bar",
+  "language": "it",
+  "level": "A1",
+  "description": "Vorrei, potrei, dovrei: chiedere con gentilezza · Al bar · livello facile.",
+  "topics": [
+   "Vorrei, potrei, dovrei: chiedere con gentilezza",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Höflichkeitsformen (vorrei, potrebbe …)"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-condizionale-vorrei",
+   "topicTitle": "Vorrei, potrei, dovrei: chiedere con gentilezza",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Per chiedere **con gentilezza** usiamo il **condizionale**:\n| io | tu | Lei / lui / lei | noi | voi | loro |\n| vorrei | vorresti | vorrebbe | vorremmo | vorreste | vorrebbero |\n- _**Vorrei** un gelato, per favore._\n- _**Potrebbe** ripetere?_ (Lei)\n- _**Dovresti** studiare di più._ (consiglio)\nLe forme di **potere** e **dovere** sono uguali: potr**ei**, potr**esti**, potr**ebbe** … / dovr**ei**, dovr**esti**, dovr**ebbe** …",
+   "ruleHelp": "Höfliche Bitten mit dem **Konditional**: _Vorrei un gelato_ (Ich hätte gern …), _Potrebbe ripetere?_ (Könnten Sie …?), _Dovresti …_ (Du solltest …).\nEndungen: -ei, -esti, -ebbe, -emmo, -este, -ebbero.",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "",
+    "promptHelp": "Wähle die richtige Form.",
+    "text": "Io [[g1]] un cappuccino.\nSignora, che cosa [[g2]]?\nNoi [[g3]] due cornetti.\nLuca, [[g4]] una spremuta?\nRagazzi, [[g5]] qualcosa da bere?\nI miei amici [[g6]] un tavolo fuori.\nScusi, [[g7]] portare il conto?\nMamma, [[g8]] darmi due euro?",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "vorrei",
+       "vorresti",
+       "vorrebbe"
+      ],
+      "answer": "vorrei"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "vorrebbe",
+       "vorrei",
+       "vorresti"
+      ],
+      "answer": "vorrebbe"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "vorremmo",
+       "vorreste",
+       "vorrei"
+      ],
+      "answer": "vorremmo"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "vorresti",
+       "vorrebbe",
+       "vorrei"
+      ],
+      "answer": "vorresti"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "vorreste",
+       "vorremmo",
+       "vorrebbero"
+      ],
+      "answer": "vorreste"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "vorrebbero",
+       "vorrebbe",
+       "vorremmo"
+      ],
+      "answer": "vorrebbero"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "potrebbe",
+       "potresti",
+       "potrei"
+      ],
+      "answer": "potrebbe"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "potresti",
+       "potrebbe",
+       "potrei"
+      ],
+      "answer": "potresti"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-condizionale-vorrei-l3",
+  "title": "Gentile o no?",
+  "language": "it",
+  "level": "A1",
+  "description": "Vorrei, potrei, dovrei: chiedere con gentilezza · Gentile o no? · livello facile.",
+  "topics": [
+   "Vorrei, potrei, dovrei: chiedere con gentilezza",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Höflichkeitsformen (vorrei, potrebbe …)"
+  },
+  "estimatedMinutes": 12,
+  "grammar": {
+   "topic": "ecco1-condizionale-vorrei",
+   "topicTitle": "Vorrei, potrei, dovrei: chiedere con gentilezza",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Per chiedere **con gentilezza** usiamo il **condizionale**:\n| io | tu | Lei / lui / lei | noi | voi | loro |\n| vorrei | vorresti | vorrebbe | vorremmo | vorreste | vorrebbero |\n- _**Vorrei** un gelato, per favore._\n- _**Potrebbe** ripetere?_ (Lei)\n- _**Dovresti** studiare di più._ (consiglio)\nLe forme di **potere** e **dovere** sono uguali: potr**ei**, potr**esti**, potr**ebbe** … / dovr**ei**, dovr**esti**, dovr**ebbe** …",
+   "ruleHelp": "Höfliche Bitten mit dem **Konditional**: _Vorrei un gelato_ (Ich hätte gern …), _Potrebbe ripetere?_ (Könnten Sie …?), _Dovresti …_ (Du solltest …).\nEndungen: -ei, -esti, -ebbe, -emmo, -este, -ebbero.",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Qual è la frase più gentile?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist höflicher?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Vorrei un panino, per favore."
+     },
+     {
+      "id": "o2",
+      "text": "Voglio un panino."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q2",
+    "type": "single_choice",
+    "prompt": "Qual è la frase più gentile?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist höflicher?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Potrebbe ripetere, per favore?"
+     },
+     {
+      "id": "o2",
+      "text": "Ripeta!"
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Qual è la frase più gentile?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist höflicher?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Potresti aprire la finestra?"
+     },
+     {
+      "id": "o2",
+      "text": "Apri la finestra!"
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Qual è la frase più gentile?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist höflicher?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Vorremmo prenotare un tavolo."
+     },
+     {
+      "id": "o2",
+      "text": "Vogliamo un tavolo."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "Qual è la frase più gentile?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist höflicher?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Scusi, potrebbe dirmi dov’è la stazione?"
+     },
+     {
+      "id": "o2",
+      "text": "Dov’è la stazione?"
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q6",
+    "type": "single_choice",
+    "prompt": "Qual è la frase più gentile?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist höflicher?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Potreste fare silenzio, per favore?"
+     },
+     {
+      "id": "o2",
+      "text": "Silenzio!"
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q7",
+    "type": "single_choice",
+    "prompt": "Qual è la frase più gentile?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist höflicher?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Vorrei provare questa maglietta."
+     },
+     {
+      "id": "o2",
+      "text": "Voglio provare questa maglietta."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q8",
+    "type": "single_choice",
+    "prompt": "Qual è la frase più gentile?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist höflicher?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Mi potresti prestare la penna?"
+     },
+     {
+      "id": "o2",
+      "text": "Dammi la penna!"
+     }
+    ],
+    "correctOptionId": "o1"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-condizionale-vorrei-m1",
+  "title": "In gelateria",
+  "language": "it",
+  "level": "A1",
+  "description": "Vorrei, potrei, dovrei: chiedere con gentilezza · In gelateria · livello medio.",
+  "topics": [
+   "Vorrei, potrei, dovrei: chiedere con gentilezza",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Höflichkeitsformen (vorrei, potrebbe …)"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-condizionale-vorrei",
+   "topicTitle": "Vorrei, potrei, dovrei: chiedere con gentilezza",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Per chiedere **con gentilezza** usiamo il **condizionale**:\n| io | tu | Lei / lui / lei | noi | voi | loro |\n| vorrei | vorresti | vorrebbe | vorremmo | vorreste | vorrebbero |\n- _**Vorrei** un gelato, per favore._\n- _**Potrebbe** ripetere?_ (Lei)\n- _**Dovresti** studiare di più._ (consiglio)\nLe forme di **potere** e **dovere** sono uguali: potr**ei**, potr**esti**, potr**ebbe** … / dovr**ei**, dovr**esti**, dovr**ebbe** …",
+   "ruleHelp": "Höfliche Bitten mit dem **Konditional**: _Vorrei un gelato_ (Ich hätte gern …), _Potrebbe ripetere?_ (Könnten Sie …?), _Dovresti …_ (Du solltest …).\nEndungen: -ei, -esti, -ebbe, -emmo, -este, -ebbero.",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con il condizionale (volere / potere).",
+    "explanation": "",
+    "promptHelp": "Ergänze das Konditional von volere / potere.",
+    "text": "– Buongiorno, che cosa (volere, Lei) [[g1]]?\n– (volere, io) [[g2]] un cono da due euro.\n– E i gusti? – (potere, io) [[g3]] avere fragola e limone?\n– Certo. E tu, piccola, che cosa (volere) [[g4]]?\n– Noi (volere) [[g5]] anche due coppette.\n– (potere, voi) [[g6]] aspettare un momento?\n– I miei genitori (volere) [[g7]] anche un caffè.\n– Scusi, (potere, Lei) [[g8]] darmi un tovagliolo?",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "vorrebbe"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Vorrei"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Potrei"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "vorresti"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "vorremmo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Potreste"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "vorrebbero"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "potrebbe"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-condizionale-vorrei-m2",
+  "title": "Chiedi con gentilezza",
+  "language": "it",
+  "level": "A1",
+  "description": "Vorrei, potrei, dovrei: chiedere con gentilezza · Chiedi con gentilezza · livello medio.",
+  "topics": [
+   "Vorrei, potrei, dovrei: chiedere con gentilezza",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Höflichkeitsformen (vorrei, potrebbe …)"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-condizionale-vorrei",
+   "topicTitle": "Vorrei, potrei, dovrei: chiedere con gentilezza",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Per chiedere **con gentilezza** usiamo il **condizionale**:\n| io | tu | Lei / lui / lei | noi | voi | loro |\n| vorrei | vorresti | vorrebbe | vorremmo | vorreste | vorrebbero |\n- _**Vorrei** un gelato, per favore._\n- _**Potrebbe** ripetere?_ (Lei)\n- _**Dovresti** studiare di più._ (consiglio)\nLe forme di **potere** e **dovere** sono uguali: potr**ei**, potr**esti**, potr**ebbe** … / dovr**ei**, dovr**esti**, dovr**ebbe** …",
+   "ruleHelp": "Höfliche Bitten mit dem **Konditional**: _Vorrei un gelato_ (Ich hätte gern …), _Potrebbe ripetere?_ (Könnten Sie …?), _Dovresti …_ (Du solltest …).\nEndungen: -ei, -esti, -ebbe, -emmo, -este, -ebbero.",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Trasforma in una domanda gentile con potresti / potrebbe.",
+    "explanation": "potresti + infinito (tu) · potrebbe + infinito (Lei).",
+    "promptHelp": "Mach eine höfliche Frage daraus.",
+    "explanationHelp": "potresti / potrebbe + Infinitiv.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Chiudi la porta! (tu)",
+      "acceptedAnswers": [
+       "Potresti chiudere la porta"
+      ],
+      "modelAnswer": "Potresti chiudere la porta?"
+     },
+     {
+      "id": "s2",
+      "start": "Ripeta! (Lei)",
+      "acceptedAnswers": [
+       "Potrebbe ripetere"
+      ],
+      "modelAnswer": "Potrebbe ripetere?"
+     },
+     {
+      "id": "s3",
+      "start": "Aiutami! (tu)",
+      "acceptedAnswers": [
+       "Potresti aiutarmi"
+      ],
+      "modelAnswer": "Potresti aiutarmi?"
+     },
+     {
+      "id": "s4",
+      "start": "Parli più piano! (Lei)",
+      "acceptedAnswers": [
+       "Potrebbe parlare più piano"
+      ],
+      "modelAnswer": "Potrebbe parlare più piano?"
+     },
+     {
+      "id": "s5",
+      "start": "Spegni la musica! (tu)",
+      "acceptedAnswers": [
+       "Potresti spegnere la musica"
+      ],
+      "modelAnswer": "Potresti spegnere la musica?"
+     },
+     {
+      "id": "s6",
+      "start": "Mi dica l’ora! (Lei)",
+      "acceptedAnswers": [
+       "Potrebbe dirmi l’ora"
+      ],
+      "modelAnswer": "Potrebbe dirmi l’ora?"
+     },
+     {
+      "id": "s7",
+      "start": "Prestami il libro! (tu)",
+      "acceptedAnswers": [
+       "Potresti prestarmi il libro"
+      ],
+      "modelAnswer": "Potresti prestarmi il libro?"
+     },
+     {
+      "id": "s8",
+      "start": "Apra la finestra! (Lei)",
+      "acceptedAnswers": [
+       "Potrebbe aprire la finestra"
+      ],
+      "modelAnswer": "Potrebbe aprire la finestra?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-condizionale-vorrei-m3",
+  "title": "Consigli",
+  "language": "it",
+  "level": "A1",
+  "description": "Vorrei, potrei, dovrei: chiedere con gentilezza · Consigli · livello medio.",
+  "topics": [
+   "Vorrei, potrei, dovrei: chiedere con gentilezza",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Höflichkeitsformen (vorrei, potrebbe …)"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-condizionale-vorrei",
+   "topicTitle": "Vorrei, potrei, dovrei: chiedere con gentilezza",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Per chiedere **con gentilezza** usiamo il **condizionale**:\n| io | tu | Lei / lui / lei | noi | voi | loro |\n| vorrei | vorresti | vorrebbe | vorremmo | vorreste | vorrebbero |\n- _**Vorrei** un gelato, per favore._\n- _**Potrebbe** ripetere?_ (Lei)\n- _**Dovresti** studiare di più._ (consiglio)\nLe forme di **potere** e **dovere** sono uguali: potr**ei**, potr**esti**, potr**ebbe** … / dovr**ei**, dovr**esti**, dovr**ebbe** …",
+   "ruleHelp": "Höfliche Bitten mit dem **Konditional**: _Vorrei un gelato_ (Ich hätte gern …), _Potrebbe ripetere?_ (Könnten Sie …?), _Dovresti …_ (Du solltest …).\nEndungen: -ei, -esti, -ebbe, -emmo, -este, -ebbero.",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Dai un consiglio con dovresti / dovreste.",
+    "explanation": "",
+    "promptHelp": "Gib einen Rat mit dovresti / dovreste.",
+    "text": "Sei stanco? (dormire, tu) [[g1]] di più.\nAvete fame? (mangiare, voi) [[g2]] qualcosa.\nHai mal di testa? (bere, tu) [[g3]] più acqua.\nHai un brutto voto? (studiare, tu) [[g4]] un po’ di più.\nAvete freddo? (mettere, voi) [[g5]] la giacca.\nSei sempre al telefono? (uscire, tu) [[g6]] con gli amici.\nArrivate sempre tardi? (partire, voi) [[g7]] prima.\nNon capisci? (chiedere, tu) [[g8]] alla prof.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Dovresti dormire"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Dovreste mangiare"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Dovresti bere"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Dovresti studiare"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Dovreste mettere"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Dovresti uscire"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Dovreste partire"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Dovresti chiedere"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-condizionale-vorrei-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "Vorrei, potrei, dovrei: chiedere con gentilezza · Trova gli errori · livello difficile.",
+  "topics": [
+   "Vorrei, potrei, dovrei: chiedere con gentilezza",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Höflichkeitsformen (vorrei, potrebbe …)"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-condizionale-vorrei",
+   "topicTitle": "Vorrei, potrei, dovrei: chiedere con gentilezza",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Per chiedere **con gentilezza** usiamo il **condizionale**:\n| io | tu | Lei / lui / lei | noi | voi | loro |\n| vorrei | vorresti | vorrebbe | vorremmo | vorreste | vorrebbero |\n- _**Vorrei** un gelato, per favore._\n- _**Potrebbe** ripetere?_ (Lei)\n- _**Dovresti** studiare di più._ (consiglio)\nLe forme di **potere** e **dovere** sono uguali: potr**ei**, potr**esti**, potr**ebbe** … / dovr**ei**, dovr**esti**, dovr**ebbe** …",
+   "ruleHelp": "Höfliche Bitten mit dem **Konditional**: _Vorrei un gelato_ (Ich hätte gern …), _Potrebbe ripetere?_ (Könnten Sie …?), _Dovresti …_ (Du solltest …).\nEndungen: -ei, -esti, -ebbe, -emmo, -este, -ebbero.",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi gli otto errori.",
+    "explanation": "",
+    "promptHelp": "Korrigiere die acht Fehler.",
+    "text": "Io [[g1]] un tè.\nSignora, [[g2]] un caffè?\nNoi [[g3]] due biglietti.\nRagazzi, [[g4]] aiutarmi?\nTu [[g5]] dormire di più.\nScusi, [[g6]] ripetere?\nI miei amici [[g7]] una pizza.\nIo [[g8]] avere il conto?",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "vorrebbe",
+      "acceptedAnswers": [
+       "vorrei"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "vorresti",
+      "acceptedAnswers": [
+       "vorrebbe"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "vorrebbero",
+      "acceptedAnswers": [
+       "vorremmo"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "potresti",
+      "acceptedAnswers": [
+       "potreste"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "dovrebbe",
+      "acceptedAnswers": [
+       "dovresti"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "potresti",
+      "acceptedAnswers": [
+       "potrebbe"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "vorremmo",
+      "acceptedAnswers": [
+       "vorrebbero"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "potrebbe",
+      "acceptedAnswers": [
+       "potrei"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-condizionale-vorrei-s2",
+  "title": "Una telefonata all’hotel",
+  "language": "it",
+  "level": "A1",
+  "description": "Vorrei, potrei, dovrei: chiedere con gentilezza · Una telefonata all’hotel · livello difficile.",
+  "topics": [
+   "Vorrei, potrei, dovrei: chiedere con gentilezza",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Höflichkeitsformen (vorrei, potrebbe …)"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-condizionale-vorrei",
+   "topicTitle": "Vorrei, potrei, dovrei: chiedere con gentilezza",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Per chiedere **con gentilezza** usiamo il **condizionale**:\n| io | tu | Lei / lui / lei | noi | voi | loro |\n| vorrei | vorresti | vorrebbe | vorremmo | vorreste | vorrebbero |\n- _**Vorrei** un gelato, per favore._\n- _**Potrebbe** ripetere?_ (Lei)\n- _**Dovresti** studiare di più._ (consiglio)\nLe forme di **potere** e **dovere** sono uguali: potr**ei**, potr**esti**, potr**ebbe** … / dovr**ei**, dovr**esti**, dovr**ebbe** …",
+   "ruleHelp": "Höfliche Bitten mit dem **Konditional**: _Vorrei un gelato_ (Ich hätte gern …), _Potrebbe ripetere?_ (Könnten Sie …?), _Dovresti …_ (Du solltest …).\nEndungen: -ei, -esti, -ebbe, -emmo, -este, -ebbero.",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con il condizionale di volere, potere o dovere.",
+    "explanation": "",
+    "promptHelp": "Ergänze das Konditional.",
+    "text": "– Hotel Bellavista, buongiorno!\n– Buongiorno, (volere, io) [[g1]] prenotare una camera.\n– Certo. Per quante persone?\n– Siamo in tre: noi (volere) [[g2]] una camera tripla.\n– (potere, Lei) [[g3]] dirmi le date?\n– Dal 3 al 6 agosto. (potere, voi) [[g4]] anche preparare la colazione senza glutine?\n– Sì, ma (dovere, Lei) [[g5]] scriverci una mail.\n– Va bene. Mio figlio (volere) [[g6]] sapere se c’è la piscina.\n– Sì, c’è! (volere, voi) [[g7]] anche il parcheggio?\n– No, grazie, arriviamo in treno. (potere, io) [[g8]] pagare con la carta?",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "vorrei"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "vorremmo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Potrebbe"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Potreste"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "dovrebbe"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "vorrebbe"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Vorreste"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Potrei"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-condizionale-vorrei-s3",
+  "title": "Il mio desiderio",
+  "language": "it",
+  "level": "A1",
+  "description": "Vorrei, potrei, dovrei: chiedere con gentilezza · Il mio desiderio · livello difficile.",
+  "topics": [
+   "Vorrei, potrei, dovrei: chiedere con gentilezza",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Höflichkeitsformen (vorrei, potrebbe …)"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-condizionale-vorrei",
+   "topicTitle": "Vorrei, potrei, dovrei: chiedere con gentilezza",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Per chiedere **con gentilezza** usiamo il **condizionale**:\n| io | tu | Lei / lui / lei | noi | voi | loro |\n| vorrei | vorresti | vorrebbe | vorremmo | vorreste | vorrebbero |\n- _**Vorrei** un gelato, per favore._\n- _**Potrebbe** ripetere?_ (Lei)\n- _**Dovresti** studiare di più._ (consiglio)\nLe forme di **potere** e **dovere** sono uguali: potr**ei**, potr**esti**, potr**ebbe** … / dovr**ei**, dovr**esti**, dovr**ebbe** …",
+   "ruleHelp": "Höfliche Bitten mit dem **Konditional**: _Vorrei un gelato_ (Ich hätte gern …), _Potrebbe ripetere?_ (Könnten Sie …?), _Dovresti …_ (Du solltest …).\nEndungen: -ei, -esti, -ebbe, -emmo, -este, -ebbero.",
+   "order": 33
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Scrivi una mail gentile a un albergo o a una scuola di lingua in Italia. Usa almeno 4 forme del condizionale (vorrei, potrebbe, …).",
+    "explanation": "",
+    "promptHelp": "Schreibe eine höfliche Mail. Mindestens 4 Konditionalformen.",
+    "modelAnswer": "Gentile signora, vorrei fare un corso di italiano a luglio. Potrebbe mandarmi il programma? Vorrei anche sapere il prezzo. Potrei abitare in famiglia? Grazie mille, cordiali saluti.",
+    "lines": 6
+   },
+   {
+    "id": "q2",
+    "type": "gap_choice",
+    "prompt": "Quale forma?",
+    "explanation": "",
+    "promptHelp": "Welche Form?",
+    "text": "[[g1]] fare un corso. (io)\n[[g2]] mandarmi il programma? (Lei)\n[[g3]] abitare in famiglia? (io)\n[[g4]] venire in due. (noi)",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Vorrei",
+       "Vorrebbe"
+      ],
+      "answer": "Vorrei"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Potrebbe",
+       "Potresti"
+      ],
+      "answer": "Potrebbe"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Potrei",
+       "Potrebbe"
+      ],
+      "answer": "Potrei"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Vorremmo",
+       "Vorrebbero"
+      ],
+      "answer": "Vorremmo"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco1-cortesia-l1",
   "title": "Tu o Lei?",
   "language": "it",
@@ -57556,6 +58674,1065 @@ const STOCK_PACKAGES = [
       ]
      }
     ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-domande-l1",
+  "title": "Le parole interrogative",
+  "language": "it",
+  "level": "A1",
+  "description": "Le domande: chi, che cosa, dove, quando … · Le parole interrogative · livello facile.",
+  "topics": [
+   "Le domande: chi, che cosa, dove, quando …",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 7/8 · Fragewörter, Fragesätze"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-domande",
+   "topicTitle": "Le domande: chi, che cosa, dove, quando …",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "| **chi?** | wer? | **dove?** | wo? wohin? |\n| **che cosa?** | was? | **quando?** | wann? |\n| **come?** | wie? | **perché?** | warum? |\n| **quanto/-a/-i/-e?** | wie viel(e)? | **quale/-i?** | welche(r)? |\n| **di dove?** | woher? | **a che ora?** | um wie viel Uhr? |\n_**Dove** abiti? · **Quanti** anni hai? · **Quale** zaino preferisci?_\n**Quanto** concorda con il nome: _quant**e** sorelle?_ · **Qual è** senza apostrofo!",
+   "ruleHelp": "Die wichtigsten **Fragewörter** (siehe Tabelle). **quanto** passt sich an: _quanti anni, quante sorelle_. **quale** → Plural **quali**; vor è: **qual è** (ohne Apostroph).",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina.",
+    "explanation": "",
+    "promptHelp": "Verbinde.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "chi?",
+      "right": "wer?"
+     },
+     {
+      "id": "p2",
+      "left": "che cosa?",
+      "right": "was?"
+     },
+     {
+      "id": "p3",
+      "left": "dove?",
+      "right": "wo?"
+     },
+     {
+      "id": "p4",
+      "left": "quando?",
+      "right": "wann?"
+     },
+     {
+      "id": "p5",
+      "left": "come?",
+      "right": "wie?"
+     },
+     {
+      "id": "p6",
+      "left": "perché?",
+      "right": "warum?"
+     },
+     {
+      "id": "p7",
+      "left": "quanto?",
+      "right": "wie viel?"
+     },
+     {
+      "id": "p8",
+      "left": "di dove?",
+      "right": "woher?"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-domande-l2",
+  "title": "Domanda e risposta",
+  "language": "it",
+  "level": "A1",
+  "description": "Le domande: chi, che cosa, dove, quando … · Domanda e risposta · livello facile.",
+  "topics": [
+   "Le domande: chi, che cosa, dove, quando …",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 7/8 · Fragewörter, Fragesätze"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-domande",
+   "topicTitle": "Le domande: chi, che cosa, dove, quando …",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "| **chi?** | wer? | **dove?** | wo? wohin? |\n| **che cosa?** | was? | **quando?** | wann? |\n| **come?** | wie? | **perché?** | warum? |\n| **quanto/-a/-i/-e?** | wie viel(e)? | **quale/-i?** | welche(r)? |\n| **di dove?** | woher? | **a che ora?** | um wie viel Uhr? |\n_**Dove** abiti? · **Quanti** anni hai? · **Quale** zaino preferisci?_\n**Quanto** concorda con il nome: _quant**e** sorelle?_ · **Qual è** senza apostrofo!",
+   "ruleHelp": "Die wichtigsten **Fragewörter** (siehe Tabelle). **quanto** passt sich an: _quanti anni, quante sorelle_. **quale** → Plural **quali**; vor è: **qual è** (ohne Apostroph).",
+   "order": 52
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la parola interrogativa giusta.",
+    "explanation": "",
+    "promptHelp": "Wähle das passende Fragewort.",
+    "text": "[[g1]] ti chiami? – Mi chiamo Elena.\n[[g2]] sei? – Sono di Bari.\n[[g3]] anni hai? – Ho tredici anni.\n[[g4]] abiti? – Abito in via Roma.\n[[g5]] è quella ragazza? – È mia cugina.\n[[g6]] fai domani? – Vado al mare.\n[[g7]] non vieni? – Perché sono malato.\n[[g8]] comincia il film? – Alle nove.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Come",
+       "Dove",
+       "Chi"
+      ],
+      "answer": "Come"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Di dove",
+       "Dove",
+       "Quando"
+      ],
+      "answer": "Di dove"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Quanti",
+       "Quante",
+       "Quanto"
+      ],
+      "answer": "Quanti"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Dove",
+       "Come",
+       "Chi"
+      ],
+      "answer": "Dove"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "Chi",
+       "Che cosa",
+       "Quale"
+      ],
+      "answer": "Chi"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Che cosa",
+       "Chi",
+       "Dove"
+      ],
+      "answer": "Che cosa"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "Perché",
+       "Quando",
+       "Come"
+      ],
+      "answer": "Perché"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "A che ora",
+       "Quanto",
+       "Dove"
+      ],
+      "answer": "A che ora"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-domande-l3",
+  "title": "Quanto, quanta, quanti, quante?",
+  "language": "it",
+  "level": "A1",
+  "description": "Le domande: chi, che cosa, dove, quando … · Quanto, quanta, quanti, quante? · livello facile.",
+  "topics": [
+   "Le domande: chi, che cosa, dove, quando …",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 7/8 · Fragewörter, Fragesätze"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-domande",
+   "topicTitle": "Le domande: chi, che cosa, dove, quando …",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "| **chi?** | wer? | **dove?** | wo? wohin? |\n| **che cosa?** | was? | **quando?** | wann? |\n| **come?** | wie? | **perché?** | warum? |\n| **quanto/-a/-i/-e?** | wie viel(e)? | **quale/-i?** | welche(r)? |\n| **di dove?** | woher? | **a che ora?** | um wie viel Uhr? |\n_**Dove** abiti? · **Quanti** anni hai? · **Quale** zaino preferisci?_\n**Quanto** concorda con il nome: _quant**e** sorelle?_ · **Qual è** senza apostrofo!",
+   "ruleHelp": "Die wichtigsten **Fragewörter** (siehe Tabelle). **quanto** passt sich an: _quanti anni, quante sorelle_. **quale** → Plural **quali**; vor è: **qual è** (ohne Apostroph).",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "quanto + nome maschile singolare, quanta + femminile, quanti / quante + plurale.",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "quanto passt sich an.",
+    "text": "[[g1]] fratelli hai?\n[[g2]] sorelle ha Paola?\n[[g3]] costa il gelato?\n[[g4]] acqua bevi al giorno?\n[[g5]] studenti ci sono in classe?\n[[g6]] ore dormi?\n[[g7]] tempo hai?\n[[g8]] pasta mangi?",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Quanti",
+       "Quante",
+       "Quanto"
+      ],
+      "answer": "Quanti"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Quante",
+       "Quanti",
+       "Quanta"
+      ],
+      "answer": "Quante"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Quanto",
+       "Quanta",
+       "Quanti"
+      ],
+      "answer": "Quanto"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Quanta",
+       "Quanto",
+       "Quante"
+      ],
+      "answer": "Quanta"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "Quanti",
+       "Quante",
+       "Quanta"
+      ],
+      "answer": "Quanti"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Quante",
+       "Quanti",
+       "Quanto"
+      ],
+      "answer": "Quante"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "Quanto",
+       "Quanta",
+       "Quante"
+      ],
+      "answer": "Quanto"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "Quanta",
+       "Quante",
+       "Quanto"
+      ],
+      "answer": "Quanta"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-domande-m1",
+  "title": "Un’intervista",
+  "language": "it",
+  "level": "A1",
+  "description": "Le domande: chi, che cosa, dove, quando … · Un’intervista · livello medio.",
+  "topics": [
+   "Le domande: chi, che cosa, dove, quando …",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 7/8 · Fragewörter, Fragesätze"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-domande",
+   "topicTitle": "Le domande: chi, che cosa, dove, quando …",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| **chi?** | wer? | **dove?** | wo? wohin? |\n| **che cosa?** | was? | **quando?** | wann? |\n| **come?** | wie? | **perché?** | warum? |\n| **quanto/-a/-i/-e?** | wie viel(e)? | **quale/-i?** | welche(r)? |\n| **di dove?** | woher? | **a che ora?** | um wie viel Uhr? |\n_**Dove** abiti? · **Quanti** anni hai? · **Quale** zaino preferisci?_\n**Quanto** concorda con il nome: _quant**e** sorelle?_ · **Qual è** senza apostrofo!",
+   "ruleHelp": "Die wichtigsten **Fragewörter** (siehe Tabelle). **quanto** passt sich an: _quanti anni, quante sorelle_. **quale** → Plural **quali**; vor è: **qual è** (ohne Apostroph).",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa le domande.",
+    "explanation": "",
+    "promptHelp": "Ergänze die Fragewörter.",
+    "text": "– [[g1]] ti chiami? – Mi chiamo Davide.\n– [[g2]] anni hai? – Ne ho quattordici.\n– [[g3]] sei? – Sono di Palermo.\n– [[g4]] abiti adesso? – A Monaco, con la mia famiglia.\n– [[g5]] sei in Germania? – Perché mio padre lavora qui.\n– [[g6]] fai nel tempo libero? – Gioco a pallavolo.\n– [[g7]] vai in Italia? – In estate.\n– [[g8]] è il tuo piatto preferito? – Gli arancini!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Come"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Quanti"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Di dove"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Dove"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Perché"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Che cosa"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Quando"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "Qual"
+      ]
+     }
+    ],
+    "wordBank": true,
+    "extraWords": [
+     "chi",
+     "quale"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-domande-m2",
+  "title": "Fai la domanda",
+  "language": "it",
+  "level": "A1",
+  "description": "Le domande: chi, che cosa, dove, quando … · Fai la domanda · livello medio.",
+  "topics": [
+   "Le domande: chi, che cosa, dove, quando …",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 7/8 · Fragewörter, Fragesätze"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-domande",
+   "topicTitle": "Le domande: chi, che cosa, dove, quando …",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| **chi?** | wer? | **dove?** | wo? wohin? |\n| **che cosa?** | was? | **quando?** | wann? |\n| **come?** | wie? | **perché?** | warum? |\n| **quanto/-a/-i/-e?** | wie viel(e)? | **quale/-i?** | welche(r)? |\n| **di dove?** | woher? | **a che ora?** | um wie viel Uhr? |\n_**Dove** abiti? · **Quanti** anni hai? · **Quale** zaino preferisci?_\n**Quanto** concorda con il nome: _quant**e** sorelle?_ · **Qual è** senza apostrofo!",
+   "ruleHelp": "Die wichtigsten **Fragewörter** (siehe Tabelle). **quanto** passt sich an: _quanti anni, quante sorelle_. **quale** → Plural **quali**; vor è: **qual è** (ohne Apostroph).",
+   "order": 52
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Leggi la risposta e scrivi la domanda.",
+    "explanation": "",
+    "promptHelp": "Lies die Antwort und schreibe die Frage.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Mi chiamo Sara.",
+      "acceptedAnswers": [
+       "Come ti chiami"
+      ],
+      "modelAnswer": "Come ti chiami?"
+     },
+     {
+      "id": "s2",
+      "start": "Ho quindici anni.",
+      "acceptedAnswers": [
+       "Quanti anni hai"
+      ],
+      "modelAnswer": "Quanti anni hai?"
+     },
+     {
+      "id": "s3",
+      "start": "Abito a Napoli.",
+      "acceptedAnswers": [
+       "Dove abiti"
+      ],
+      "modelAnswer": "Dove abiti?"
+     },
+     {
+      "id": "s4",
+      "start": "Sono di Genova.",
+      "acceptedAnswers": [
+       "Di dove sei"
+      ],
+      "modelAnswer": "Di dove sei?"
+     },
+     {
+      "id": "s5",
+      "start": "Il film comincia alle otto.",
+      "acceptedAnswers": [
+       "A che ora comincia il film"
+      ],
+      "modelAnswer": "A che ora comincia il film?"
+     },
+     {
+      "id": "s6",
+      "start": "Il gelato costa due euro.",
+      "acceptedAnswers": [
+       "Quanto costa il gelato"
+      ],
+      "modelAnswer": "Quanto costa il gelato?"
+     },
+     {
+      "id": "s7",
+      "start": "Domani vado al cinema.",
+      "acceptedAnswers": [
+       "Che cosa fai domani"
+      ],
+      "modelAnswer": "Che cosa fai domani?"
+     },
+     {
+      "id": "s8",
+      "start": "Vado a casa perché sono stanca.",
+      "acceptedAnswers": [
+       "Perché vai a casa"
+      ],
+      "modelAnswer": "Perché vai a casa?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-domande-m3",
+  "title": "Quale o quali?",
+  "language": "it",
+  "level": "A1",
+  "description": "Le domande: chi, che cosa, dove, quando … · Quale o quali? · livello medio.",
+  "topics": [
+   "Le domande: chi, che cosa, dove, quando …",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 7/8 · Fragewörter, Fragesätze"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-domande",
+   "topicTitle": "Le domande: chi, che cosa, dove, quando …",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| **chi?** | wer? | **dove?** | wo? wohin? |\n| **che cosa?** | was? | **quando?** | wann? |\n| **come?** | wie? | **perché?** | warum? |\n| **quanto/-a/-i/-e?** | wie viel(e)? | **quale/-i?** | welche(r)? |\n| **di dove?** | woher? | **a che ora?** | um wie viel Uhr? |\n_**Dove** abiti? · **Quanti** anni hai? · **Quale** zaino preferisci?_\n**Quanto** concorda con il nome: _quant**e** sorelle?_ · **Qual è** senza apostrofo!",
+   "ruleHelp": "Die wichtigsten **Fragewörter** (siehe Tabelle). **quanto** passt sich an: _quanti anni, quante sorelle_. **quale** → Plural **quali**; vor è: **qual è** (ohne Apostroph).",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "qual è senza apostrofo; quali al plurale.",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "qual è ohne Apostroph.",
+    "text": "[[g1]] è il tuo colore preferito?\n[[g2]] sport fai?\n[[g3]] zaino compri, il rosso o il blu?\n[[g4]] lingue parli?\n[[g5]] è la tua materia preferita?\n[[g6]] giorno vieni?\n[[g7]] sono i tuoi film preferiti?\n[[g8]] gusto vuoi?",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Qual",
+       "Quale",
+       "Qual’"
+      ],
+      "answer": "Qual"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Quali",
+       "Quale",
+       "Qual"
+      ],
+      "answer": "Quali"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Quale",
+       "Quali",
+       "Qual"
+      ],
+      "answer": "Quale"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Quali",
+       "Quale",
+       "Qual"
+      ],
+      "answer": "Quali"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "Qual",
+       "Quale",
+       "Quali"
+      ],
+      "answer": "Qual"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Quale",
+       "Quali",
+       "Qual"
+      ],
+      "answer": "Quale"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "Quali",
+       "Quale",
+       "Qual"
+      ],
+      "answer": "Quali"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "Quale",
+       "Quali",
+       "Qual"
+      ],
+      "answer": "Quale"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-domande-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "Le domande: chi, che cosa, dove, quando … · Trova gli errori · livello difficile.",
+  "topics": [
+   "Le domande: chi, che cosa, dove, quando …",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 7/8 · Fragewörter, Fragesätze"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-domande",
+   "topicTitle": "Le domande: chi, che cosa, dove, quando …",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| **chi?** | wer? | **dove?** | wo? wohin? |\n| **che cosa?** | was? | **quando?** | wann? |\n| **come?** | wie? | **perché?** | warum? |\n| **quanto/-a/-i/-e?** | wie viel(e)? | **quale/-i?** | welche(r)? |\n| **di dove?** | woher? | **a che ora?** | um wie viel Uhr? |\n_**Dove** abiti? · **Quanti** anni hai? · **Quale** zaino preferisci?_\n**Quanto** concorda con il nome: _quant**e** sorelle?_ · **Qual è** senza apostrofo!",
+   "ruleHelp": "Die wichtigsten **Fragewörter** (siehe Tabelle). **quanto** passt sich an: _quanti anni, quante sorelle_. **quale** → Plural **quali**; vor è: **qual è** (ohne Apostroph).",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi gli otto errori.",
+    "explanation": "",
+    "promptHelp": "Korrigiere die acht Fehler.",
+    "text": "[[g1]] il tuo nome?\n[[g2]] fratelli hai?\n[[g3]] mangi a pranzo?\n[[g4]] sei? – Sono di Torino.\n[[g5]] costa la maglietta?\n[[g6]] parti? – Domani.\n[[g7]] lingue parli?\n[[g8]] arriva il treno? – Alle 10.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "Qual’è",
+      "acceptedAnswers": [
+       "Qual è"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "Quante",
+      "acceptedAnswers": [
+       "Quanti"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "Chi",
+      "acceptedAnswers": [
+       "Che cosa"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "Dove",
+      "acceptedAnswers": [
+       "Di dove"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "Quanti",
+      "acceptedAnswers": [
+       "Quanto"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "Come",
+      "acceptedAnswers": [
+       "Quando"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "Quale",
+      "acceptedAnswers": [
+       "Quali"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "Quando",
+      "acceptedAnswers": [
+       "A che ora"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-domande-s2",
+  "title": "Un nuovo compagno",
+  "language": "it",
+  "level": "A1",
+  "description": "Le domande: chi, che cosa, dove, quando … · Un nuovo compagno · livello difficile.",
+  "topics": [
+   "Le domande: chi, che cosa, dove, quando …",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 7/8 · Fragewörter, Fragesätze"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-domande",
+   "topicTitle": "Le domande: chi, che cosa, dove, quando …",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| **chi?** | wer? | **dove?** | wo? wohin? |\n| **che cosa?** | was? | **quando?** | wann? |\n| **come?** | wie? | **perché?** | warum? |\n| **quanto/-a/-i/-e?** | wie viel(e)? | **quale/-i?** | welche(r)? |\n| **di dove?** | woher? | **a che ora?** | um wie viel Uhr? |\n_**Dove** abiti? · **Quanti** anni hai? · **Quale** zaino preferisci?_\n**Quanto** concorda con il nome: _quant**e** sorelle?_ · **Qual è** senza apostrofo!",
+   "ruleHelp": "Die wichtigsten **Fragewörter** (siehe Tabelle). **quanto** passt sich an: _quanti anni, quante sorelle_. **quale** → Plural **quali**; vor è: **qual è** (ohne Apostroph).",
+   "order": 52
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Un compagno nuovo arriva da Firenze. Scrivi le domande.",
+    "explanation": "",
+    "promptHelp": "Schreibe die Fragen.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "(nome)",
+      "acceptedAnswers": [
+       "Come ti chiami"
+      ],
+      "modelAnswer": "Come ti chiami?"
+     },
+     {
+      "id": "s2",
+      "start": "(età)",
+      "acceptedAnswers": [
+       "Quanti anni hai"
+      ],
+      "modelAnswer": "Quanti anni hai?"
+     },
+     {
+      "id": "s3",
+      "start": "(città di origine)",
+      "acceptedAnswers": [
+       "Di dove sei"
+      ],
+      "modelAnswer": "Di dove sei?"
+     },
+     {
+      "id": "s4",
+      "start": "(fratelli)",
+      "acceptedAnswers": [
+       "Hai fratelli"
+      ],
+      "modelAnswer": "Hai fratelli?"
+     },
+     {
+      "id": "s5",
+      "start": "(sport)",
+      "acceptedAnswers": [
+       "Quale sport fai"
+      ],
+      "modelAnswer": "Quale sport fai?"
+     },
+     {
+      "id": "s6",
+      "start": "(perché in Germania)",
+      "acceptedAnswers": [
+       "Perché sei in Germania"
+      ],
+      "modelAnswer": "Perché sei in Germania?"
+     },
+     {
+      "id": "s7",
+      "start": "(materia preferita)",
+      "acceptedAnswers": [
+       "Qual è la tua materia preferita"
+      ],
+      "modelAnswer": "Qual è la tua materia preferita?"
+     },
+     {
+      "id": "s8",
+      "start": "(tempo libero)",
+      "acceptedAnswers": [
+       "Che cosa fai nel tempo libero"
+      ],
+      "modelAnswer": "Che cosa fai nel tempo libero?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-domande-s3",
+  "title": "Intervista una star",
+  "language": "it",
+  "level": "A1",
+  "description": "Le domande: chi, che cosa, dove, quando … · Intervista una star · livello difficile.",
+  "topics": [
+   "Le domande: chi, che cosa, dove, quando …",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 7/8 · Fragewörter, Fragesätze"
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-domande",
+   "topicTitle": "Le domande: chi, che cosa, dove, quando …",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| **chi?** | wer? | **dove?** | wo? wohin? |\n| **che cosa?** | was? | **quando?** | wann? |\n| **come?** | wie? | **perché?** | warum? |\n| **quanto/-a/-i/-e?** | wie viel(e)? | **quale/-i?** | welche(r)? |\n| **di dove?** | woher? | **a che ora?** | um wie viel Uhr? |\n_**Dove** abiti? · **Quanti** anni hai? · **Quale** zaino preferisci?_\n**Quanto** concorda con il nome: _quant**e** sorelle?_ · **Qual è** senza apostrofo!",
+   "ruleHelp": "Die wichtigsten **Fragewörter** (siehe Tabelle). **quanto** passt sich an: _quanti anni, quante sorelle_. **quale** → Plural **quali**; vor è: **qual è** (ohne Apostroph).",
+   "order": 53
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Scrivi 8 domande per intervistare un cantante o una sportiva italiana. Usa parole interrogative diverse.",
+    "explanation": "",
+    "promptHelp": "8 Fragen an einen Star mit verschiedenen Fragewörtern.",
+    "modelAnswer": "Come stai? Di dove sei? Quanti anni hai? Dove abiti adesso? Quando hai cominciato a cantare? Perché ami la musica? Qual è la tua canzone preferita? Che cosa fai nel tempo libero?",
+    "lines": 8
    }
   ]
  },
@@ -63409,6 +65586,1075 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco1-imperativo-pronomi-l1",
+  "title": "Che cosa vuol dire?",
+  "language": "it",
+  "level": "A1",
+  "description": "L’imperativo con i pronomi: dimmi, fallo! · Che cosa vuol dire? · livello facile.",
+  "topics": [
+   "L’imperativo con i pronomi: dimmi, fallo!",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-imperativo-pronomi",
+   "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:\n- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_\nCon **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:\n- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_\nCon il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_",
+   "ruleHelp": "Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_\nBei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.\nVerneint (tu): _Non lo comprare!_ oder _Non comprarlo!_",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina.",
+    "explanation": "",
+    "promptHelp": "Verbinde.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Dimmi!",
+      "right": "Sag es mir!"
+     },
+     {
+      "id": "p2",
+      "left": "Fallo!",
+      "right": "Mach es!"
+     },
+     {
+      "id": "p3",
+      "left": "Dammi la penna!",
+      "right": "Gib mir den Stift!"
+     },
+     {
+      "id": "p4",
+      "left": "Chiamami!",
+      "right": "Ruf mich an!"
+     },
+     {
+      "id": "p5",
+      "left": "Aspettaci!",
+      "right": "Warte auf uns!"
+     },
+     {
+      "id": "p6",
+      "left": "Compralo!",
+      "right": "Kauf ihn / es!"
+     },
+     {
+      "id": "p7",
+      "left": "Scrivile!",
+      "right": "Schreib ihr!"
+     },
+     {
+      "id": "p8",
+      "left": "Non toccarlo!",
+      "right": "Fass es nicht an!"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-pronomi-l2",
+  "title": "Attaccato!",
+  "language": "it",
+  "level": "A1",
+  "description": "L’imperativo con i pronomi: dimmi, fallo! · Attaccato! · livello facile.",
+  "topics": [
+   "L’imperativo con i pronomi: dimmi, fallo!",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-imperativo-pronomi",
+   "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:\n- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_\nCon **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:\n- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_\nCon il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_",
+   "ruleHelp": "Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_\nBei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.\nVerneint (tu): _Non lo comprare!_ oder _Non comprarlo!_",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "",
+    "promptHelp": "Wähle die richtige Form.",
+    "text": "Hai il mio numero? [[g1]] stasera!\nLa pizza è buona: [[g2]]!\nDov’è Paolo? [[g3]] qui!\nChe cosa è successo? [[g4]] tutto!\nÈ tardi, [[g5]] subito!\nHo bisogno della penna: [[g6]], per favore.\nÈ il compleanno di Anna: [[g7]] un messaggio!\nRagazzi, i compiti: [[g8]] adesso!",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Chiamami",
+       "Mi chiama",
+       "Chiama mi"
+      ],
+      "answer": "Chiamami"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "mangiala",
+       "la mangia",
+       "mangia la"
+      ],
+      "answer": "mangiala"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Aspettalo",
+       "Lo aspetta",
+       "Aspetta lo"
+      ],
+      "answer": "Aspettalo"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Dimmi",
+       "Dimi",
+       "Di mi"
+      ],
+      "answer": "Dimmi"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "fallo",
+       "falo",
+       "fa lo"
+      ],
+      "answer": "fallo"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "dammela",
+       "dami la",
+       "da me la"
+      ],
+      "answer": "dammela"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "scrivile",
+       "le scrivi",
+       "scrivi le"
+      ],
+      "answer": "scrivile"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "fateli",
+       "li fate",
+       "fate li"
+      ],
+      "answer": "fateli"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-pronomi-l3",
+  "title": "Raddoppia!",
+  "language": "it",
+  "level": "A1",
+  "description": "L’imperativo con i pronomi: dimmi, fallo! · Raddoppia! · livello facile.",
+  "topics": [
+   "L’imperativo con i pronomi: dimmi, fallo!",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-imperativo-pronomi",
+   "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:\n- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_\nCon **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:\n- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_\nCon il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_",
+   "ruleHelp": "Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_\nBei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.\nVerneint (tu): _Non lo comprare!_ oder _Non comprarlo!_",
+   "order": 43
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Unisci verbo e pronome.",
+    "explanation": "da’, di’, fa’, sta’, va’ + pronome → consonante doppia (tranne gli).",
+    "promptHelp": "Verbinde Verb und Pronomen.",
+    "explanationHelp": "Doppelter Konsonant (außer bei gli).",
+    "items": [
+     {
+      "id": "s1",
+      "start": "di’ + mi",
+      "acceptedAnswers": [
+       "dimmi"
+      ],
+      "modelAnswer": "dimmi"
+     },
+     {
+      "id": "s2",
+      "start": "fa’ + lo",
+      "acceptedAnswers": [
+       "fallo"
+      ],
+      "modelAnswer": "fallo"
+     },
+     {
+      "id": "s3",
+      "start": "da’ + mi",
+      "acceptedAnswers": [
+       "dammi"
+      ],
+      "modelAnswer": "dammi"
+     },
+     {
+      "id": "s4",
+      "start": "va’ + ci",
+      "acceptedAnswers": [
+       "vacci"
+      ],
+      "modelAnswer": "vacci"
+     },
+     {
+      "id": "s5",
+      "start": "sta’ + mi (a sentire)",
+      "acceptedAnswers": [
+       "stammi"
+      ],
+      "modelAnswer": "stammi"
+     },
+     {
+      "id": "s6",
+      "start": "di’ + le",
+      "acceptedAnswers": [
+       "dille"
+      ],
+      "modelAnswer": "dille"
+     },
+     {
+      "id": "s7",
+      "start": "fa’ + la",
+      "acceptedAnswers": [
+       "falla"
+      ],
+      "modelAnswer": "falla"
+     },
+     {
+      "id": "s8",
+      "start": "da’ + ci",
+      "acceptedAnswers": [
+       "dacci"
+      ],
+      "modelAnswer": "dacci"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-pronomi-m1",
+  "title": "Sì, fallo!",
+  "language": "it",
+  "level": "A1",
+  "description": "L’imperativo con i pronomi: dimmi, fallo! · Sì, fallo! · livello medio.",
+  "topics": [
+   "L’imperativo con i pronomi: dimmi, fallo!",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-imperativo-pronomi",
+   "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:\n- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_\nCon **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:\n- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_\nCon il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_",
+   "ruleHelp": "Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_\nBei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.\nVerneint (tu): _Non lo comprare!_ oder _Non comprarlo!_",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Rispondi con l’imperativo e il pronome.",
+    "explanation": "",
+    "promptHelp": "Antworte mit Imperativ + Pronomen.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Compro il pane? – Sì, …",
+      "acceptedAnswers": [
+       "compralo"
+      ],
+      "modelAnswer": "Sì, compralo!"
+     },
+     {
+      "id": "s2",
+      "start": "Chiamo la nonna? – Sì, …",
+      "acceptedAnswers": [
+       "chiamala"
+      ],
+      "modelAnswer": "Sì, chiamala!"
+     },
+     {
+      "id": "s3",
+      "start": "Apro le finestre? – Sì, …",
+      "acceptedAnswers": [
+       "aprile"
+      ],
+      "modelAnswer": "Sì, aprile!"
+     },
+     {
+      "id": "s4",
+      "start": "Invito i miei amici? – Sì, …",
+      "acceptedAnswers": [
+       "invitali"
+      ],
+      "modelAnswer": "Sì, invitali!"
+     },
+     {
+      "id": "s5",
+      "start": "Ti aspetto? – Sì, …",
+      "acceptedAnswers": [
+       "aspettami"
+      ],
+      "modelAnswer": "Sì, aspettami!"
+     },
+     {
+      "id": "s6",
+      "start": "Faccio i compiti adesso? – Sì, …",
+      "acceptedAnswers": [
+       "falli"
+      ],
+      "modelAnswer": "Sì, falli adesso!"
+     },
+     {
+      "id": "s7",
+      "start": "Ti dico la verità? – Sì, …",
+      "acceptedAnswers": [
+       "dimmela"
+      ],
+      "modelAnswer": "Sì, dimmela!"
+     },
+     {
+      "id": "s8",
+      "start": "Scrivo a Marco? – Sì, …",
+      "acceptedAnswers": [
+       "scrivigli"
+      ],
+      "modelAnswer": "Sì, scrivigli!"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-pronomi-m2",
+  "title": "No, non farlo!",
+  "language": "it",
+  "level": "A1",
+  "description": "L’imperativo con i pronomi: dimmi, fallo! · No, non farlo! · livello medio.",
+  "topics": [
+   "L’imperativo con i pronomi: dimmi, fallo!",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-imperativo-pronomi",
+   "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:\n- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_\nCon **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:\n- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_\nCon il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_",
+   "ruleHelp": "Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_\nBei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.\nVerneint (tu): _Non lo comprare!_ oder _Non comprarlo!_",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Rispondi al negativo: non + infinito + pronome.",
+    "explanation": "non + infinito senza -e + pronome: non mangiar-la.",
+    "promptHelp": "Verneinter Imperativ.",
+    "explanationHelp": "Infinitiv ohne -e + Pronomen.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Mangio la torta? – No, …",
+      "acceptedAnswers": [
+       "non mangiarla"
+      ],
+      "modelAnswer": "No, non mangiarla!"
+     },
+     {
+      "id": "s2",
+      "start": "Prendo l’autobus? – No, …",
+      "acceptedAnswers": [
+       "non prenderlo"
+      ],
+      "modelAnswer": "No, non prenderlo!"
+     },
+     {
+      "id": "s3",
+      "start": "Compro le scarpe? – No, …",
+      "acceptedAnswers": [
+       "non comprarle"
+      ],
+      "modelAnswer": "No, non comprarle!"
+     },
+     {
+      "id": "s4",
+      "start": "Chiamo Luca? – No, …",
+      "acceptedAnswers": [
+       "non chiamarlo"
+      ],
+      "modelAnswer": "No, non chiamarlo!"
+     },
+     {
+      "id": "s5",
+      "start": "Bevo il latte? – No, …",
+      "acceptedAnswers": [
+       "non berlo"
+      ],
+      "modelAnswer": "No, non berlo!"
+     },
+     {
+      "id": "s6",
+      "start": "Apro la porta? – No, …",
+      "acceptedAnswers": [
+       "non aprirla"
+      ],
+      "modelAnswer": "No, non aprirla!"
+     },
+     {
+      "id": "s7",
+      "start": "Invito Sara e Ada? – No, …",
+      "acceptedAnswers": [
+       "non invitarle"
+      ],
+      "modelAnswer": "No, non invitarle!"
+     },
+     {
+      "id": "s8",
+      "start": "Faccio la foto? – No, …",
+      "acceptedAnswers": [
+       "non farla"
+      ],
+      "modelAnswer": "No, non farla!"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-pronomi-m3",
+  "title": "In cucina con il nonno",
+  "language": "it",
+  "level": "A1",
+  "description": "L’imperativo con i pronomi: dimmi, fallo! · In cucina con il nonno · livello medio.",
+  "topics": [
+   "L’imperativo con i pronomi: dimmi, fallo!",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-imperativo-pronomi",
+   "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:\n- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_\nCon **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:\n- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_\nCon il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_",
+   "ruleHelp": "Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_\nBei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.\nVerneint (tu): _Non lo comprare!_ oder _Non comprarlo!_",
+   "order": 43
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa l’imperativo con il pronome.",
+    "explanation": "",
+    "promptHelp": "Ergänze Imperativ + Pronomen.",
+    "text": "Prendi le uova e (rompere, le) [[g1]] in una ciotola.\nEcco lo zucchero: (mettere, lo) [[g2]] con le uova.\nLa farina? (aggiungere, la) [[g3]] piano piano.\nIl latte? (versare, lo) [[g4]] adesso.\nHai una domanda? (fare, la) [[g5]]!\nNon sai dov’è il burro? (chiedere, lo) [[g6]] alla nonna.\nIl forno? (accendere, lo) [[g7]] a 180 gradi.\nE quando la torta è pronta, (dare, mi) [[g8]] un pezzo!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "rompile"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "mettilo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Aggiungila"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Versalo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Falla"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Chiedilo"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Accendilo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "dammi"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-pronomi-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "L’imperativo con i pronomi: dimmi, fallo! · Trova gli errori · livello difficile.",
+  "topics": [
+   "L’imperativo con i pronomi: dimmi, fallo!",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-imperativo-pronomi",
+   "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:\n- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_\nCon **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:\n- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_\nCon il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_",
+   "ruleHelp": "Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_\nBei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.\nVerneint (tu): _Non lo comprare!_ oder _Non comprarlo!_",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi gli otto errori.",
+    "explanation": "",
+    "promptHelp": "Korrigiere die acht Fehler.",
+    "text": "[[g1]] la verità!\n[[g2]] subito!\n[[g3]] stasera, Anna!\nLa torta? [[g4]], Marco!\n[[g5]] il libro, per favore!\nRagazzi, i compiti? [[g6]] adesso!\nNon [[g7]], la torta è per la festa!\n[[g8]] in bici, è vicino!",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "Dimi",
+      "acceptedAnswers": [
+       "Dimmi"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "Falo",
+      "acceptedAnswers": [
+       "Fallo"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "Mi chiama",
+      "acceptedAnswers": [
+       "Chiamami"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "La mangia",
+      "acceptedAnswers": [
+       "Mangiala"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "Dami",
+      "acceptedAnswers": [
+       "Dammi"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "Li fate",
+      "acceptedAnswers": [
+       "Fateli"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "mangiarlola",
+      "acceptedAnswers": [
+       "mangiarla"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "Vaci",
+      "acceptedAnswers": [
+       "Vacci"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-pronomi-s2",
+  "title": "Consigli a un amico",
+  "language": "it",
+  "level": "A1",
+  "description": "L’imperativo con i pronomi: dimmi, fallo! · Consigli a un amico · livello difficile.",
+  "topics": [
+   "L’imperativo con i pronomi: dimmi, fallo!",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco1-imperativo-pronomi",
+   "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:\n- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_\nCon **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:\n- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_\nCon il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_",
+   "ruleHelp": "Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_\nBei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.\nVerneint (tu): _Non lo comprare!_ oder _Non comprarlo!_",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Tommaso va per la prima volta a Roma. Completa i consigli.",
+    "explanation": "",
+    "promptHelp": "Ergänze die Tipps.",
+    "text": "Il Colosseo? (visitare, lo) [[g1]] la mattina presto!\nI biglietti? (comprare, li) [[g2]] online.\nLa pizza al taglio? (provare, la) [[g3]] a Trastevere!\nLe cartoline? (scrivere, le) [[g4]] ai nonni.\nIl gelato? (mangiare, lo) [[g5]] in Piazza Navona.\nLa metro? (prendere, la) [[g6]], è comoda.\nE quando arrivi, (chiamare, mi) [[g7]]!\nE non (dimenticare, mi) [[g8]]: (mandare, mi) [[g9]] una foto!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Visitalo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Comprali"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Provala"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Scrivile"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Mangialo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Prendila"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "chiamami"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "dimenticarmi"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "mandami"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-pronomi-s3",
+  "title": "Istruzioni",
+  "language": "it",
+  "level": "A1",
+  "description": "L’imperativo con i pronomi: dimmi, fallo! · Istruzioni · livello difficile.",
+  "topics": [
+   "L’imperativo con i pronomi: dimmi, fallo!",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-imperativo-pronomi",
+   "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:\n- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_\nCon **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:\n- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_\nCon il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_",
+   "ruleHelp": "Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_\nBei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.\nVerneint (tu): _Non lo comprare!_ oder _Non comprarlo!_",
+   "order": 43
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Scrivi a un compagno nuovo 5 consigli per la vostra scuola. Usa l’imperativo con i pronomi.",
+    "explanation": "",
+    "promptHelp": "5 Tipps für einen neuen Mitschüler mit Imperativ + Pronomen.",
+    "modelAnswer": "La mensa? Provala, è buona! Il prof di matematica? Ascoltalo bene. I compiti? Falli subito. Se hai problemi, chiamami! Il libro di storia? Non dimenticarlo!",
+    "lines": 5
+   },
+   {
+    "id": "q2",
+    "type": "gap_choice",
+    "prompt": "Controlla: quale forma?",
+    "explanation": "",
+    "promptHelp": "Welche Form?",
+    "text": "La mensa? [[g1]]!\nI compiti? [[g2]] subito!\nSe hai problemi, [[g3]]!\nIl libro? Non [[g4]]!",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Provala",
+       "La prova"
+      ],
+      "answer": "Provala"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Falli",
+       "Fali"
+      ],
+      "answer": "Falli"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "chiamami",
+       "mi chiama"
+      ],
+      "answer": "chiamami"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "dimenticarlo",
+       "dimenticalo"
+      ],
+      "answer": "dimenticarlo"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco1-imperativo-s1",
   "title": "Regole per la classe",
   "language": "it",
@@ -69055,6 +72301,1184 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco1-negazione-doppia-l1",
+  "title": "Che cosa vuol dire?",
+  "language": "it",
+  "level": "A1",
+  "description": "Non … niente, nessuno, mai, più · Che cosa vuol dire? · livello facile.",
+  "topics": [
+   "Non … niente, nessuno, mai, più",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation, u. a. doppia negazione bei niente, nessuno, mai"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-negazione-doppia",
+   "topicTitle": "Non … niente, nessuno, mai, più",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "In italiano diciamo **due negazioni**: **non** prima del verbo e la seconda parola dopo il verbo.\n- _**Non** vedo **niente**._ (nichts)\n- _**Non** c’è **nessuno**._ (niemand)\n- _**Non** vado **mai** in palestra._ (nie)\n- _**Non** abito **più** a Roma._ (nicht mehr)\nSe **niente** o **nessuno** sono all’inizio, **non** non c’è: _**Nessuno** parla._",
+   "ruleHelp": "Im Italienischen verneint man **doppelt**: **non** vor dem Verb und dann **niente** (nichts), **nessuno** (niemand), **mai** (nie), **più** (nicht mehr) nach dem Verb: _Non vedo niente. Non c’è nessuno._\nStehen niente/nessuno am Satzanfang, fällt non weg: _Nessuno parla._",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Che cosa vuol dire?",
+    "explanation": "",
+    "promptHelp": "Was bedeutet das?",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Non vedo niente.",
+      "right": "Ich sehe nichts."
+     },
+     {
+      "id": "p2",
+      "left": "Non c’è nessuno.",
+      "right": "Es ist niemand da."
+     },
+     {
+      "id": "p3",
+      "left": "Non vado mai al cinema.",
+      "right": "Ich gehe nie ins Kino."
+     },
+     {
+      "id": "p4",
+      "left": "Non abito più qui.",
+      "right": "Ich wohne nicht mehr hier."
+     },
+     {
+      "id": "p5",
+      "left": "Non mangio niente.",
+      "right": "Ich esse nichts."
+     },
+     {
+      "id": "p6",
+      "left": "Non conosco nessuno.",
+      "right": "Ich kenne niemanden."
+     },
+     {
+      "id": "p7",
+      "left": "Non bevo mai caffè.",
+      "right": "Ich trinke nie Kaffee."
+     },
+     {
+      "id": "p8",
+      "left": "Non gioco più a calcio.",
+      "right": "Ich spiele nicht mehr Fußball."
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-negazione-doppia-l2",
+  "title": "Niente, nessuno, mai o più?",
+  "language": "it",
+  "level": "A1",
+  "description": "Non … niente, nessuno, mai, più · Niente, nessuno, mai o più? · livello facile.",
+  "topics": [
+   "Non … niente, nessuno, mai, più",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation, u. a. doppia negazione bei niente, nessuno, mai"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-negazione-doppia",
+   "topicTitle": "Non … niente, nessuno, mai, più",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "In italiano diciamo **due negazioni**: **non** prima del verbo e la seconda parola dopo il verbo.\n- _**Non** vedo **niente**._ (nichts)\n- _**Non** c’è **nessuno**._ (niemand)\n- _**Non** vado **mai** in palestra._ (nie)\n- _**Non** abito **più** a Roma._ (nicht mehr)\nSe **niente** o **nessuno** sono all’inizio, **non** non c’è: _**Nessuno** parla._",
+   "ruleHelp": "Im Italienischen verneint man **doppelt**: **non** vor dem Verb und dann **niente** (nichts), **nessuno** (niemand), **mai** (nie), **più** (nicht mehr) nach dem Verb: _Non vedo niente. Non c’è nessuno._\nStehen niente/nessuno am Satzanfang, fällt non weg: _Nessuno parla._",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la parola giusta.",
+    "explanation": "",
+    "promptHelp": "Wähle das passende Wort.",
+    "text": "Ho fame, ma in frigo non c’è [[g1]].\nLa piazza è vuota: non c’è [[g2]].\nOdio il pesce: non lo mangio [[g3]].\nDa ottobre non abito [[g4]] a Torino.\nSono al buio, non vedo [[g5]].\nSono nuovo, non conosco [[g6]].\nMio padre non beve [[g7]] la Coca-Cola.\nNon gioco [[g8]] a tennis, ora faccio nuoto.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "niente",
+       "nessuno",
+       "mai"
+      ],
+      "answer": "niente"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "nessuno",
+       "niente",
+       "più"
+      ],
+      "answer": "nessuno"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "mai",
+       "nessuno",
+       "niente"
+      ],
+      "answer": "mai"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "più",
+       "nessuno",
+       "niente"
+      ],
+      "answer": "più"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "niente",
+       "nessuno",
+       "più"
+      ],
+      "answer": "niente"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "nessuno",
+       "niente",
+       "mai"
+      ],
+      "answer": "nessuno"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "mai",
+       "nessuno",
+       "niente"
+      ],
+      "answer": "mai"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "più",
+       "mai",
+       "nessuno"
+      ],
+      "answer": "più"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-negazione-doppia-l3",
+  "title": "Dove va non?",
+  "language": "it",
+  "level": "A1",
+  "description": "Non … niente, nessuno, mai, più · Dove va non? · livello facile.",
+  "topics": [
+   "Non … niente, nessuno, mai, più",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation, u. a. doppia negazione bei niente, nessuno, mai"
+  },
+  "estimatedMinutes": 16,
+  "grammar": {
+   "topic": "ecco1-negazione-doppia",
+   "topicTitle": "Non … niente, nessuno, mai, più",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "In italiano diciamo **due negazioni**: **non** prima del verbo e la seconda parola dopo il verbo.\n- _**Non** vedo **niente**._ (nichts)\n- _**Non** c’è **nessuno**._ (niemand)\n- _**Non** vado **mai** in palestra._ (nie)\n- _**Non** abito **più** a Roma._ (nicht mehr)\nSe **niente** o **nessuno** sono all’inizio, **non** non c’è: _**Nessuno** parla._",
+   "ruleHelp": "Im Italienischen verneint man **doppelt**: **non** vor dem Verb und dann **niente** (nichts), **nessuno** (niemand), **mai** (nie), **più** (nicht mehr) nach dem Verb: _Non vedo niente. Non c’è nessuno._\nStehen niente/nessuno am Satzanfang, fällt non weg: _Nessuno parla._",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Non vedo niente."
+     },
+     {
+      "id": "o2",
+      "text": "Vedo niente."
+     },
+     {
+      "id": "o3",
+      "text": "Niente non vedo."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q2",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Non c’è nessuno."
+     },
+     {
+      "id": "o2",
+      "text": "C’è nessuno."
+     },
+     {
+      "id": "o3",
+      "text": "Nessuno non c’è."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Non vado mai al mare."
+     },
+     {
+      "id": "o2",
+      "text": "Vado mai al mare."
+     },
+     {
+      "id": "o3",
+      "text": "Mai non vado al mare."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q4",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Nessuno parla."
+     },
+     {
+      "id": "o2",
+      "text": "Nessuno non parla."
+     },
+     {
+      "id": "o3",
+      "text": "Non nessuno parla."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q5",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Non abito più a Roma."
+     },
+     {
+      "id": "o2",
+      "text": "Abito più a Roma."
+     },
+     {
+      "id": "o3",
+      "text": "Non più abito a Roma."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q6",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Niente è facile."
+     },
+     {
+      "id": "o2",
+      "text": "Niente non è facile."
+     },
+     {
+      "id": "o3",
+      "text": "Non niente è facile."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q7",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Non mangio mai la carne."
+     },
+     {
+      "id": "o2",
+      "text": "Mangio mai la carne."
+     },
+     {
+      "id": "o3",
+      "text": "Non mai mangio la carne."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q8",
+    "type": "single_choice",
+    "prompt": "Qual è la frase giusta?",
+    "explanation": "",
+    "promptHelp": "Welcher Satz ist richtig?",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Non conosco nessuno qui."
+     },
+     {
+      "id": "o2",
+      "text": "Conosco nessuno qui."
+     },
+     {
+      "id": "o3",
+      "text": "Nessuno conosco qui."
+     }
+    ],
+    "correctOptionId": "o1"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-negazione-doppia-m1",
+  "title": "Rispondi di no",
+  "language": "it",
+  "level": "A1",
+  "description": "Non … niente, nessuno, mai, più · Rispondi di no · livello medio.",
+  "topics": [
+   "Non … niente, nessuno, mai, più",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation, u. a. doppia negazione bei niente, nessuno, mai"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-negazione-doppia",
+   "topicTitle": "Non … niente, nessuno, mai, più",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "In italiano diciamo **due negazioni**: **non** prima del verbo e la seconda parola dopo il verbo.\n- _**Non** vedo **niente**._ (nichts)\n- _**Non** c’è **nessuno**._ (niemand)\n- _**Non** vado **mai** in palestra._ (nie)\n- _**Non** abito **più** a Roma._ (nicht mehr)\nSe **niente** o **nessuno** sono all’inizio, **non** non c’è: _**Nessuno** parla._",
+   "ruleHelp": "Im Italienischen verneint man **doppelt**: **non** vor dem Verb und dann **niente** (nichts), **nessuno** (niemand), **mai** (nie), **più** (nicht mehr) nach dem Verb: _Non vedo niente. Non c’è nessuno._\nStehen niente/nessuno am Satzanfang, fällt non weg: _Nessuno parla._",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Rispondi con la doppia negazione.",
+    "explanation": "non prima del verbo, niente / nessuno / mai / più dopo.",
+    "promptHelp": "Antworte mit doppelter Verneinung.",
+    "explanationHelp": "non vor dem Verb, niente / nessuno / mai / più danach.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Vedi qualcosa? (niente) – No, …",
+      "acceptedAnswers": [
+       "non vedo niente"
+      ],
+      "modelAnswer": "No, non vedo niente."
+     },
+     {
+      "id": "s2",
+      "start": "C’è qualcuno? (nessuno) – No, …",
+      "acceptedAnswers": [
+       "non c’è nessuno"
+      ],
+      "modelAnswer": "No, non c’è nessuno."
+     },
+     {
+      "id": "s3",
+      "start": "Vai spesso al cinema? (mai) – No, …",
+      "acceptedAnswers": [
+       "non vado mai al cinema"
+      ],
+      "modelAnswer": "No, non vado mai al cinema."
+     },
+     {
+      "id": "s4",
+      "start": "Abiti ancora a Roma? (più) – No, …",
+      "acceptedAnswers": [
+       "non abito più a Roma"
+      ],
+      "modelAnswer": "No, non abito più a Roma."
+     },
+     {
+      "id": "s5",
+      "start": "Mangi qualcosa? (niente) – No, …",
+      "acceptedAnswers": [
+       "non mangio niente"
+      ],
+      "modelAnswer": "No, non mangio niente."
+     },
+     {
+      "id": "s6",
+      "start": "Conosci qualcuno qui? (nessuno) – No, …",
+      "acceptedAnswers": [
+       "non conosco nessuno"
+      ],
+      "modelAnswer": "No, non conosco nessuno."
+     },
+     {
+      "id": "s7",
+      "start": "Bevi il caffè? (mai) – No, …",
+      "acceptedAnswers": [
+       "non bevo mai il caffè"
+      ],
+      "modelAnswer": "No, non bevo mai il caffè."
+     },
+     {
+      "id": "s8",
+      "start": "Giochi ancora a tennis? (più) – No, …",
+      "acceptedAnswers": [
+       "non gioco più a tennis"
+      ],
+      "modelAnswer": "No, non gioco più a tennis."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-negazione-doppia-m2",
+  "title": "Una giornata storta",
+  "language": "it",
+  "level": "A1",
+  "description": "Non … niente, nessuno, mai, più · Una giornata storta · livello medio.",
+  "topics": [
+   "Non … niente, nessuno, mai, più",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation, u. a. doppia negazione bei niente, nessuno, mai"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-negazione-doppia",
+   "topicTitle": "Non … niente, nessuno, mai, più",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "In italiano diciamo **due negazioni**: **non** prima del verbo e la seconda parola dopo il verbo.\n- _**Non** vedo **niente**._ (nichts)\n- _**Non** c’è **nessuno**._ (niemand)\n- _**Non** vado **mai** in palestra._ (nie)\n- _**Non** abito **più** a Roma._ (nicht mehr)\nSe **niente** o **nessuno** sono all’inizio, **non** non c’è: _**Nessuno** parla._",
+   "ruleHelp": "Im Italienischen verneint man **doppelt**: **non** vor dem Verb und dann **niente** (nichts), **nessuno** (niemand), **mai** (nie), **più** (nicht mehr) nach dem Verb: _Non vedo niente. Non c’è nessuno._\nStehen niente/nessuno am Satzanfang, fällt non weg: _Nessuno parla._",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con niente, nessuno, mai o più.",
+    "explanation": "",
+    "promptHelp": "Ergänze niente, nessuno, mai oder più.",
+    "text": "Oggi è una giornata storta. Apro il frigo: non c’è [[g1]].\nTelefono a Marta, ma non risponde [[g2]].\nVado alla fermata, ma l’autobus non arriva [[g3]]: è passato!\nA scuola non capisco [[g4]] di matematica.\nIn mensa non c’è [[g5]] dei miei amici.\nLa sera mio fratello dice: «Non mi aiuti [[g6]]!»\nIo rispondo: «Non è vero!» Ma non dico [[g7]] di più.\nStasera non voglio vedere [[g8]]: vado a letto presto!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "niente"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "nessuno"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "più"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "niente"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "nessuno"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "mai"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "niente"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "nessuno"
+      ]
+     }
+    ],
+    "wordBank": true,
+    "extraWords": [
+     "qualcosa",
+     "sempre"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-negazione-doppia-m3",
+  "title": "Il contrario",
+  "language": "it",
+  "level": "A1",
+  "description": "Non … niente, nessuno, mai, più · Il contrario · livello medio.",
+  "topics": [
+   "Non … niente, nessuno, mai, più",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation, u. a. doppia negazione bei niente, nessuno, mai"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-negazione-doppia",
+   "topicTitle": "Non … niente, nessuno, mai, più",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "In italiano diciamo **due negazioni**: **non** prima del verbo e la seconda parola dopo il verbo.\n- _**Non** vedo **niente**._ (nichts)\n- _**Non** c’è **nessuno**._ (niemand)\n- _**Non** vado **mai** in palestra._ (nie)\n- _**Non** abito **più** a Roma._ (nicht mehr)\nSe **niente** o **nessuno** sono all’inizio, **non** non c’è: _**Nessuno** parla._",
+   "ruleHelp": "Im Italienischen verneint man **doppelt**: **non** vor dem Verb und dann **niente** (nichts), **nessuno** (niemand), **mai** (nie), **più** (nicht mehr) nach dem Verb: _Non vedo niente. Non c’è nessuno._\nStehen niente/nessuno am Satzanfang, fällt non weg: _Nessuno parla._",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Scrivi il contrario con la doppia negazione.",
+    "explanation": "sempre ↔ non … mai · qualcuno ↔ non … nessuno · qualcosa ↔ non … niente · ancora ↔ non … più.",
+    "promptHelp": "Schreibe das Gegenteil mit doppelter Verneinung.",
+    "explanationHelp": "Gegensätze merken.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Vado sempre in palestra. → …",
+      "acceptedAnswers": [
+       "Non vado mai in palestra"
+      ],
+      "modelAnswer": "Non vado mai in palestra."
+     },
+     {
+      "id": "s2",
+      "start": "C’è qualcuno in classe. → …",
+      "acceptedAnswers": [
+       "Non c’è nessuno in classe"
+      ],
+      "modelAnswer": "Non c’è nessuno in classe."
+     },
+     {
+      "id": "s3",
+      "start": "Vedo qualcosa. → …",
+      "acceptedAnswers": [
+       "Non vedo niente"
+      ],
+      "modelAnswer": "Non vedo niente."
+     },
+     {
+      "id": "s4",
+      "start": "Abito ancora qui. → …",
+      "acceptedAnswers": [
+       "Non abito più qui"
+      ],
+      "modelAnswer": "Non abito più qui."
+     },
+     {
+      "id": "s5",
+      "start": "Mangio sempre la pizza. → …",
+      "acceptedAnswers": [
+       "Non mangio mai la pizza"
+      ],
+      "modelAnswer": "Non mangio mai la pizza."
+     },
+     {
+      "id": "s6",
+      "start": "Conosco qualcuno a Roma. → …",
+      "acceptedAnswers": [
+       "Non conosco nessuno a Roma"
+      ],
+      "modelAnswer": "Non conosco nessuno a Roma."
+     },
+     {
+      "id": "s7",
+      "start": "Compro qualcosa. → …",
+      "acceptedAnswers": [
+       "Non compro niente"
+      ],
+      "modelAnswer": "Non compro niente."
+     },
+     {
+      "id": "s8",
+      "start": "Studio ancora il francese. → …",
+      "acceptedAnswers": [
+       "Non studio più il francese"
+      ],
+      "modelAnswer": "Non studio più il francese."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-negazione-doppia-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "Non … niente, nessuno, mai, più · Trova gli errori · livello difficile.",
+  "topics": [
+   "Non … niente, nessuno, mai, più",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation, u. a. doppia negazione bei niente, nessuno, mai"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-negazione-doppia",
+   "topicTitle": "Non … niente, nessuno, mai, più",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "In italiano diciamo **due negazioni**: **non** prima del verbo e la seconda parola dopo il verbo.\n- _**Non** vedo **niente**._ (nichts)\n- _**Non** c’è **nessuno**._ (niemand)\n- _**Non** vado **mai** in palestra._ (nie)\n- _**Non** abito **più** a Roma._ (nicht mehr)\nSe **niente** o **nessuno** sono all’inizio, **non** non c’è: _**Nessuno** parla._",
+   "ruleHelp": "Im Italienischen verneint man **doppelt**: **non** vor dem Verb und dann **niente** (nichts), **nessuno** (niemand), **mai** (nie), **più** (nicht mehr) nach dem Verb: _Non vedo niente. Non c’è nessuno._\nStehen niente/nessuno am Satzanfang, fällt non weg: _Nessuno parla._",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi gli otto errori.",
+    "explanation": "niente = cose, nessuno = persone, mai = tempo, più = non ancora.",
+    "promptHelp": "Korrigiere die acht Fehler.",
+    "explanationHelp": "niente = Dinge, nessuno = Personen, mai = Zeit, più = nicht mehr.",
+    "text": "[[g1]] niente.\n[[g2]] nessuno.\nNon vado [[g3]] al cinema.\n[[g4]].\nNon conosco [[g5]] qui.\n[[g6]] mai il pesce.\nNon abito [[g7]] a Torino, ora abito a Roma.\nNon compro [[g8]].",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "Vedo",
+      "acceptedAnswers": [
+       "Non vedo"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "C’è",
+      "acceptedAnswers": [
+       "Non c’è"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "niente",
+      "acceptedAnswers": [
+       "mai"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "Nessuno non parla",
+      "acceptedAnswers": [
+       "Nessuno parla"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "niente",
+      "acceptedAnswers": [
+       "nessuno"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "Mangio",
+      "acceptedAnswers": [
+       "Non mangio"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "mai",
+      "acceptedAnswers": [
+       "più"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "nessuno",
+      "acceptedAnswers": [
+       "niente"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-negazione-doppia-s2",
+  "title": "Un vecchio paese",
+  "language": "it",
+  "level": "A1",
+  "description": "Non … niente, nessuno, mai, più · Un vecchio paese · livello difficile.",
+  "topics": [
+   "Non … niente, nessuno, mai, più",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation, u. a. doppia negazione bei niente, nessuno, mai"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco1-negazione-doppia",
+   "topicTitle": "Non … niente, nessuno, mai, più",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "In italiano diciamo **due negazioni**: **non** prima del verbo e la seconda parola dopo il verbo.\n- _**Non** vedo **niente**._ (nichts)\n- _**Non** c’è **nessuno**._ (niemand)\n- _**Non** vado **mai** in palestra._ (nie)\n- _**Non** abito **più** a Roma._ (nicht mehr)\nSe **niente** o **nessuno** sono all’inizio, **non** non c’è: _**Nessuno** parla._",
+   "ruleHelp": "Im Italienischen verneint man **doppelt**: **non** vor dem Verb und dann **niente** (nichts), **nessuno** (niemand), **mai** (nie), **più** (nicht mehr) nach dem Verb: _Non vedo niente. Non c’è nessuno._\nStehen niente/nessuno am Satzanfang, fällt non weg: _Nessuno parla._",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa il testo con non e niente / nessuno / mai / più.",
+    "explanation": "",
+    "promptHelp": "Ergänze mit non und niente / nessuno / mai / più.",
+    "text": "Il nonno racconta: «Oggi nel mio paese [[g1]] abita [[g2]] nessuno.\nI giovani [[g3]] tornano [[g4]].\nIn piazza [[g5]] c’è [[g6]], la sera.\nIl negozio è chiuso: [[g7]] vende [[g8]] niente.\nMa io [[g9]] voglio andare via: è casa mia!»",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "non"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "più"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "non"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "mai"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "non"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "nessuno"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "non"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "più"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "non"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-negazione-doppia-s3",
+  "title": "Mai, mai, mai!",
+  "language": "it",
+  "level": "A1",
+  "description": "Non … niente, nessuno, mai, più · Mai, mai, mai! · livello difficile.",
+  "topics": [
+   "Non … niente, nessuno, mai, più",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Negation, u. a. doppia negazione bei niente, nessuno, mai"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-negazione-doppia",
+   "topicTitle": "Non … niente, nessuno, mai, più",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "In italiano diciamo **due negazioni**: **non** prima del verbo e la seconda parola dopo il verbo.\n- _**Non** vedo **niente**._ (nichts)\n- _**Non** c’è **nessuno**._ (niemand)\n- _**Non** vado **mai** in palestra._ (nie)\n- _**Non** abito **più** a Roma._ (nicht mehr)\nSe **niente** o **nessuno** sono all’inizio, **non** non c’è: _**Nessuno** parla._",
+   "ruleHelp": "Im Italienischen verneint man **doppelt**: **non** vor dem Verb und dann **niente** (nichts), **nessuno** (niemand), **mai** (nie), **più** (nicht mehr) nach dem Verb: _Non vedo niente. Non c’è nessuno._\nStehen niente/nessuno am Satzanfang, fällt non weg: _Nessuno parla._",
+   "order": 23
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Scrivi 5 cose che non fai mai, che non fai più e che non vuoi fare per niente.",
+    "explanation": "",
+    "promptHelp": "Schreibe 5 Dinge, die du nie / nicht mehr machst.",
+    "modelAnswer": "Non mangio mai il fegato. Non gioco più con le bambole. Non vado mai a letto prima delle nove. Non conosco nessuno in Cina. Non capisco niente di fisica.",
+    "lines": 5
+   },
+   {
+    "id": "q2",
+    "type": "gap_choice",
+    "prompt": "Controlla: quale parola?",
+    "explanation": "",
+    "promptHelp": "Prüfe: welches Wort?",
+    "text": "Non mangio [[g1]] il fegato.\nNon conosco [[g2]] in Cina.\nNon capisco [[g3]] di fisica.\nNon gioco [[g4]] con le bambole.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "mai",
+       "nessuno"
+      ],
+      "answer": "mai"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "nessuno",
+       "niente"
+      ],
+      "answer": "nessuno"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "niente",
+       "nessuno"
+      ],
+      "answer": "niente"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "più",
+       "niente"
+      ],
+      "answer": "più"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco1-non-l1",
   "title": "Dove va non?",
   "language": "it",
@@ -74384,6 +78808,1055 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "hanno"
       ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-riflessivo-l1",
+  "title": "Essere o avere?",
+  "language": "it",
+  "level": "A1",
+  "description": "Mi sono alzato: il passato prossimo dei verbi riflessivi · Essere o avere? · livello facile.",
+  "topics": [
+   "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo (reflexive Verben, piacere)"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-passato-riflessivo",
+   "topicTitle": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "I verbi riflessivi formano il passato prossimo con **essere**. Il participio **concorda** con il soggetto:\n| io | **mi sono** alzato/-a |\n| tu | **ti sei** alzato/-a |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati/-e |\n| voi | **vi siete** alzati/-e |\n| loro | **si sono** alzati/-e |\nAnche **piacere** usa essere: _La pizza mi è piaciut**a**. I film mi sono piaciut**i**._",
+   "ruleHelp": "Reflexive Verben bilden das passato prossimo mit **essere**; das Partizip richtet sich nach dem Subjekt: _Anna si è alzata. Ci siamo divertiti._\nAuch **piacere** mit essere: _La pizza mi è piaciuta._",
+   "order": 71
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli l’ausiliare giusto.",
+    "explanation": "",
+    "promptHelp": "Wähle das richtige Hilfsverb.",
+    "text": "Stamattina mi [[g1]] alzato alle sette.\nAnna si [[g2]] vestita in fretta.\nCi [[g3]] divertiti alla festa.\nRagazzi, vi [[g4]] lavati le mani?\nI bambini si [[g5]] addormentati presto.\nTu ti [[g6]] svegliata tardi?\nIeri Marco [[g7]] mangiato la pizza.\nIl film mi [[g8]] piaciuto molto.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "sono",
+       "ho"
+      ],
+      "answer": "sono"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "è",
+       "ha"
+      ],
+      "answer": "è"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "siamo",
+       "abbiamo"
+      ],
+      "answer": "siamo"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "siete",
+       "avete"
+      ],
+      "answer": "siete"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "sono",
+       "hanno"
+      ],
+      "answer": "sono"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "sei",
+       "hai"
+      ],
+      "answer": "sei"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "ha",
+       "è"
+      ],
+      "answer": "ha"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "è",
+       "ha"
+      ],
+      "answer": "è"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-riflessivo-l2",
+  "title": "La desinenza",
+  "language": "it",
+  "level": "A1",
+  "description": "Mi sono alzato: il passato prossimo dei verbi riflessivi · La desinenza · livello facile.",
+  "topics": [
+   "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo (reflexive Verben, piacere)"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-passato-riflessivo",
+   "topicTitle": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "I verbi riflessivi formano il passato prossimo con **essere**. Il participio **concorda** con il soggetto:\n| io | **mi sono** alzato/-a |\n| tu | **ti sei** alzato/-a |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati/-e |\n| voi | **vi siete** alzati/-e |\n| loro | **si sono** alzati/-e |\nAnche **piacere** usa essere: _La pizza mi è piaciut**a**. I film mi sono piaciut**i**._",
+   "ruleHelp": "Reflexive Verben bilden das passato prossimo mit **essere**; das Partizip richtet sich nach dem Subjekt: _Anna si è alzata. Ci siamo divertiti._\nAuch **piacere** mit essere: _La pizza mi è piaciuta._",
+   "order": 72
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli il participio giusto.",
+    "explanation": "Con essere il participio prende -o, -a, -i, -e come il soggetto.",
+    "promptHelp": "Wähle das richtige Partizip.",
+    "explanationHelp": "Mit essere passt sich das Partizip an.",
+    "text": "Giulia si è [[g1]] presto.\nI ragazzi si sono [[g2]].\nLe mie sorelle si sono [[g3]].\nPaolo si è [[g4]].\nNoi (Anna e io) ci siamo [[g5]].\nLa torta mi è [[g6]].\nI libri ti sono [[g7]]?\nLe vacanze ci sono [[g8]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "alzata",
+       "alzato",
+       "alzati"
+      ],
+      "answer": "alzata"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "divertiti",
+       "divertito",
+       "divertite"
+      ],
+      "answer": "divertiti"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "preparate",
+       "preparati",
+       "preparata"
+      ],
+      "answer": "preparate"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "lavato",
+       "lavata",
+       "lavati"
+      ],
+      "answer": "lavato"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "incontrate",
+       "incontrato",
+       "incontrati"
+      ],
+      "answer": "incontrate"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "piaciuta",
+       "piaciuto",
+       "piaciute"
+      ],
+      "answer": "piaciuta"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "piaciuti",
+       "piaciuto",
+       "piaciute"
+      ],
+      "answer": "piaciuti"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "piaciute",
+       "piaciuti",
+       "piaciuta"
+      ],
+      "answer": "piaciute"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-riflessivo-l3",
+  "title": "Che cosa vuol dire?",
+  "language": "it",
+  "level": "A1",
+  "description": "Mi sono alzato: il passato prossimo dei verbi riflessivi · Che cosa vuol dire? · livello facile.",
+  "topics": [
+   "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo (reflexive Verben, piacere)"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-passato-riflessivo",
+   "topicTitle": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "I verbi riflessivi formano il passato prossimo con **essere**. Il participio **concorda** con il soggetto:\n| io | **mi sono** alzato/-a |\n| tu | **ti sei** alzato/-a |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati/-e |\n| voi | **vi siete** alzati/-e |\n| loro | **si sono** alzati/-e |\nAnche **piacere** usa essere: _La pizza mi è piaciut**a**. I film mi sono piaciut**i**._",
+   "ruleHelp": "Reflexive Verben bilden das passato prossimo mit **essere**; das Partizip richtet sich nach dem Subjekt: _Anna si è alzata. Ci siamo divertiti._\nAuch **piacere** mit essere: _La pizza mi è piaciuta._",
+   "order": 73
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina.",
+    "explanation": "",
+    "promptHelp": "Verbinde.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Mi sono alzato.",
+      "right": "Ich bin aufgestanden."
+     },
+     {
+      "id": "p2",
+      "left": "Ti sei divertita?",
+      "right": "Hast du dich amüsiert?"
+     },
+     {
+      "id": "p3",
+      "left": "Si è vestito.",
+      "right": "Er hat sich angezogen."
+     },
+     {
+      "id": "p4",
+      "left": "Ci siamo incontrati.",
+      "right": "Wir haben uns getroffen."
+     },
+     {
+      "id": "p5",
+      "left": "Vi siete lavati?",
+      "right": "Habt ihr euch gewaschen?"
+     },
+     {
+      "id": "p6",
+      "left": "Si sono addormentate.",
+      "right": "Sie sind eingeschlafen."
+     },
+     {
+      "id": "p7",
+      "left": "Mi è piaciuto.",
+      "right": "Es hat mir gefallen."
+     },
+     {
+      "id": "p8",
+      "left": "Ci sono piaciute.",
+      "right": "Sie haben uns gefallen."
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-riflessivo-m1",
+  "title": "La mattina di Chiara",
+  "language": "it",
+  "level": "A1",
+  "description": "Mi sono alzato: il passato prossimo dei verbi riflessivi · La mattina di Chiara · livello medio.",
+  "topics": [
+   "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo (reflexive Verben, piacere)"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-passato-riflessivo",
+   "topicTitle": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "I verbi riflessivi formano il passato prossimo con **essere**. Il participio **concorda** con il soggetto:\n| io | **mi sono** alzato/-a |\n| tu | **ti sei** alzato/-a |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati/-e |\n| voi | **vi siete** alzati/-e |\n| loro | **si sono** alzati/-e |\nAnche **piacere** usa essere: _La pizza mi è piaciut**a**. I film mi sono piaciut**i**._",
+   "ruleHelp": "Reflexive Verben bilden das passato prossimo mit **essere**; das Partizip richtet sich nach dem Subjekt: _Anna si è alzata. Ci siamo divertiti._\nAuch **piacere** mit essere: _La pizza mi è piaciuta._",
+   "order": 71
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Metti i verbi al passato prossimo.",
+    "explanation": "",
+    "promptHelp": "Setze die Verben ins passato prossimo.",
+    "text": "Ieri Chiara (svegliarsi) [[g1]] alle sei e mezza.\n(alzarsi) [[g2]] subito e (lavarsi) [[g3]].\nPoi (vestirsi) [[g4]] e ha fatto colazione.\nLei e suo fratello (prepararsi) [[g5]] per la scuola.\nA scuola le ragazze (sedersi) [[g6]] vicino alla finestra.\nDopo la lezione Chiara e Ada (incontrarsi) [[g7]] in piazza.\nLa sera Chiara (addormentarsi) [[g8]] presto.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "si è svegliata"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Si è alzata"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "si è lavata"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "si è vestita"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "si sono preparati"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "si sono sedute"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "si sono incontrate"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "si è addormentata"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-riflessivo-m2",
+  "title": "E tu?",
+  "language": "it",
+  "level": "A1",
+  "description": "Mi sono alzato: il passato prossimo dei verbi riflessivi · E tu? · livello medio.",
+  "topics": [
+   "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo (reflexive Verben, piacere)"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-passato-riflessivo",
+   "topicTitle": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "I verbi riflessivi formano il passato prossimo con **essere**. Il participio **concorda** con il soggetto:\n| io | **mi sono** alzato/-a |\n| tu | **ti sei** alzato/-a |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati/-e |\n| voi | **vi siete** alzati/-e |\n| loro | **si sono** alzati/-e |\nAnche **piacere** usa essere: _La pizza mi è piaciut**a**. I film mi sono piaciut**i**._",
+   "ruleHelp": "Reflexive Verben bilden das passato prossimo mit **essere**; das Partizip richtet sich nach dem Subjekt: _Anna si è alzata. Ci siamo divertiti._\nAuch **piacere** mit essere: _La pizza mi è piaciuta._",
+   "order": 72
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Scrivi le frasi al passato prossimo.",
+    "explanation": "",
+    "promptHelp": "Schreibe die Sätze ins passato prossimo.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Mi alzo alle sette. (Marco)",
+      "acceptedAnswers": [
+       "Mi sono alzato alle sette"
+      ],
+      "modelAnswer": "Mi sono alzato alle sette."
+     },
+     {
+      "id": "s2",
+      "start": "Ti diverti alla festa? (Lisa)",
+      "acceptedAnswers": [
+       "Ti sei divertita alla festa"
+      ],
+      "modelAnswer": "Ti sei divertita alla festa?"
+     },
+     {
+      "id": "s3",
+      "start": "Si veste in fretta. (Paolo)",
+      "acceptedAnswers": [
+       "Si è vestito in fretta"
+      ],
+      "modelAnswer": "Si è vestito in fretta."
+     },
+     {
+      "id": "s4",
+      "start": "Ci incontriamo al bar. (Luca e io)",
+      "acceptedAnswers": [
+       "Ci siamo incontrati al bar"
+      ],
+      "modelAnswer": "Ci siamo incontrati al bar."
+     },
+     {
+      "id": "s5",
+      "start": "Vi lavate le mani? (voi ragazze)",
+      "acceptedAnswers": [
+       "Vi siete lavate le mani"
+      ],
+      "modelAnswer": "Vi siete lavate le mani?"
+     },
+     {
+      "id": "s6",
+      "start": "Si addormentano subito. (i bambini)",
+      "acceptedAnswers": [
+       "Si sono addormentati subito"
+      ],
+      "modelAnswer": "Si sono addormentati subito."
+     },
+     {
+      "id": "s7",
+      "start": "Mi preparo per la gita. (Elena)",
+      "acceptedAnswers": [
+       "Mi sono preparata per la gita"
+      ],
+      "modelAnswer": "Mi sono preparata per la gita."
+     },
+     {
+      "id": "s8",
+      "start": "Si riposa sul divano. (il nonno)",
+      "acceptedAnswers": [
+       "Si è riposato sul divano"
+      ],
+      "modelAnswer": "Si è riposato sul divano."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-riflessivo-m3",
+  "title": "Ti è piaciuto?",
+  "language": "it",
+  "level": "A1",
+  "description": "Mi sono alzato: il passato prossimo dei verbi riflessivi · Ti è piaciuto? · livello medio.",
+  "topics": [
+   "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo (reflexive Verben, piacere)"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-passato-riflessivo",
+   "topicTitle": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "I verbi riflessivi formano il passato prossimo con **essere**. Il participio **concorda** con il soggetto:\n| io | **mi sono** alzato/-a |\n| tu | **ti sei** alzato/-a |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati/-e |\n| voi | **vi siete** alzati/-e |\n| loro | **si sono** alzati/-e |\nAnche **piacere** usa essere: _La pizza mi è piaciut**a**. I film mi sono piaciut**i**._",
+   "ruleHelp": "Reflexive Verben bilden das passato prossimo mit **essere**; das Partizip richtet sich nach dem Subjekt: _Anna si è alzata. Ci siamo divertiti._\nAuch **piacere** mit essere: _La pizza mi è piaciuta._",
+   "order": 73
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con piacere al passato prossimo.",
+    "explanation": "Il participio concorda con la cosa che piace.",
+    "promptHelp": "Ergänze piacere im passato prossimo.",
+    "explanationHelp": "Das Partizip richtet sich nach dem, was gefällt.",
+    "text": "Il film ti [[g1]]?\nLa pizza mi [[g2]] tantissimo.\nLe canzoni ci [[g3]].\nI musei vi [[g4]]?\nA Marco non [[g5]] la gita.\nAi miei genitori [[g6]] l’albergo.\nA me [[g7]] i gelati di Roma.\nA Lucia [[g8]] le spiagge.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "è piaciuto"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "è piaciuta"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sono piaciute"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "sono piaciuti"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "è piaciuta"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "è piaciuto"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "sono piaciuti"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "sono piaciute"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-riflessivo-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "Mi sono alzato: il passato prossimo dei verbi riflessivi · Trova gli errori · livello difficile.",
+  "topics": [
+   "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo (reflexive Verben, piacere)"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-passato-riflessivo",
+   "topicTitle": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "I verbi riflessivi formano il passato prossimo con **essere**. Il participio **concorda** con il soggetto:\n| io | **mi sono** alzato/-a |\n| tu | **ti sei** alzato/-a |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati/-e |\n| voi | **vi siete** alzati/-e |\n| loro | **si sono** alzati/-e |\nAnche **piacere** usa essere: _La pizza mi è piaciut**a**. I film mi sono piaciut**i**._",
+   "ruleHelp": "Reflexive Verben bilden das passato prossimo mit **essere**; das Partizip richtet sich nach dem Subjekt: _Anna si è alzata. Ci siamo divertiti._\nAuch **piacere** mit essere: _La pizza mi è piaciuta._",
+   "order": 71
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi gli otto errori.",
+    "explanation": "",
+    "promptHelp": "Korrigiere die acht Fehler.",
+    "text": "Mi [[g1]] alzato tardi.\nAnna si è [[g2]] presto.\nCi [[g3]] divertiti.\nLe ragazze si sono [[g4]].\nLa pizza mi è [[g5]].\nI ragazzi [[g6]] lavati.\nVi [[g7]] incontrati in centro?\nLe vacanze mi sono [[g8]].",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "ho",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "alzato",
+      "acceptedAnswers": [
+       "alzata"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "abbiamo",
+      "acceptedAnswers": [
+       "siamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "preparati",
+      "acceptedAnswers": [
+       "preparate"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "piaciuto",
+      "acceptedAnswers": [
+       "piaciuta"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "si hanno",
+      "acceptedAnswers": [
+       "si sono"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "siamo",
+      "acceptedAnswers": [
+       "siete"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "piaciuti",
+      "acceptedAnswers": [
+       "piaciute"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-riflessivo-s2",
+  "title": "Una gita a Verona",
+  "language": "it",
+  "level": "A1",
+  "description": "Mi sono alzato: il passato prossimo dei verbi riflessivi · Una gita a Verona · livello difficile.",
+  "topics": [
+   "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo (reflexive Verben, piacere)"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-passato-riflessivo",
+   "topicTitle": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "I verbi riflessivi formano il passato prossimo con **essere**. Il participio **concorda** con il soggetto:\n| io | **mi sono** alzato/-a |\n| tu | **ti sei** alzato/-a |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati/-e |\n| voi | **vi siete** alzati/-e |\n| loro | **si sono** alzati/-e |\nAnche **piacere** usa essere: _La pizza mi è piaciut**a**. I film mi sono piaciut**i**._",
+   "ruleHelp": "Reflexive Verben bilden das passato prossimo mit **essere**; das Partizip richtet sich nach dem Subjekt: _Anna si è alzata. Ci siamo divertiti._\nAuch **piacere** mit essere: _La pizza mi è piaciuta._",
+   "order": 72
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Racconta al passato prossimo.",
+    "explanation": "",
+    "promptHelp": "Erzähle im passato prossimo.",
+    "text": "Sabato io e la mia classe (svegliarsi) [[g1]] prestissimo.\nIl pullman (partire) [[g2]] alle sei.\nDurante il viaggio Luca (addormentarsi) [[g3]].\nA Verona (noi, vedere) [[g4]] l’Arena.\nLa casa di Giulietta mi (piacere) [[g5]] molto.\nLe ragazze (fermarsi) [[g6]] in un negozio di souvenir.\nA pranzo (noi, mangiare) [[g7]] in una pizzeria.\nTutti (divertirsi) [[g8]] tantissimo!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ci siamo svegliati"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "è partito"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "si è addormentato"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "abbiamo visto"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "è piaciuta"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "si sono fermate"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "abbiamo mangiato"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "si sono divertiti"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-riflessivo-s3",
+  "title": "La mia giornata di ieri",
+  "language": "it",
+  "level": "A1",
+  "description": "Mi sono alzato: il passato prossimo dei verbi riflessivi · La mia giornata di ieri · livello difficile.",
+  "topics": [
+   "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo (reflexive Verben, piacere)"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-passato-riflessivo",
+   "topicTitle": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "I verbi riflessivi formano il passato prossimo con **essere**. Il participio **concorda** con il soggetto:\n| io | **mi sono** alzato/-a |\n| tu | **ti sei** alzato/-a |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati/-e |\n| voi | **vi siete** alzati/-e |\n| loro | **si sono** alzati/-e |\nAnche **piacere** usa essere: _La pizza mi è piaciut**a**. I film mi sono piaciut**i**._",
+   "ruleHelp": "Reflexive Verben bilden das passato prossimo mit **essere**; das Partizip richtet sich nach dem Subjekt: _Anna si è alzata. Ci siamo divertiti._\nAuch **piacere** mit essere: _La pizza mi è piaciuta._",
+   "order": 73
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Racconta la tua giornata di ieri. Usa almeno 5 verbi riflessivi e piacere al passato prossimo.",
+    "explanation": "",
+    "promptHelp": "Erzähle deinen gestrigen Tag mit 5 reflexiven Verben.",
+    "modelAnswer": "Ieri mi sono svegliata alle sette. Mi sono lavata e mi sono vestita. A scuola mi sono annoiata un po’. Il pomeriggio mi sono incontrata con Sara. Il film di sera mi è piaciuto molto. Mi sono addormentata alle dieci.",
+    "lines": 6
+   },
+   {
+    "id": "q2",
+    "type": "gap_choice",
+    "prompt": "Controlla: quale forma?",
+    "explanation": "",
+    "promptHelp": "Welche Form?",
+    "text": "Ieri (io, Lena) mi [[g1]].\nIl film mi [[g2]].\nIo e Sara ci [[g3]].\nLe lezioni mi [[g4]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "sono svegliata",
+       "ho svegliata"
+      ],
+      "answer": "sono svegliata"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "è piaciuto",
+       "è piaciuta"
+      ],
+      "answer": "è piaciuto"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "siamo incontrate",
+       "siamo incontrati"
+      ],
+      "answer": "siamo incontrate"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "sono piaciute",
+       "sono piaciuti"
+      ],
+      "answer": "sono piaciute"
      }
     ]
    }
@@ -84959,6 +90432,1068 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "grammar",
+  "id": "g-ecco1-qualcuno-qualcosa-l1",
+  "title": "Che cosa vuol dire?",
+  "language": "it",
+  "level": "A1",
+  "description": "Qualcuno, qualcosa, ognuno, ogni · Che cosa vuol dire? · livello facile.",
+  "topics": [
+   "Qualcuno, qualcosa, ognuno, ogni",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitpronomen"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-qualcuno-qualcosa",
+   "topicTitle": "Qualcuno, qualcosa, ognuno, ogni",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "- **qualcuno** = una persona (non so chi): _C’è **qualcuno**?_\n- **qualcosa** = una cosa (non so cosa): _Vuoi **qualcosa** da bere?_\n- **ognuno** = ogni persona: _**Ognuno** porta un panino._\n- **ogni** + nome singolare: _**ogni** giorno, **ogni** settimana_\n- **qualcosa di** + aggettivo: _qualcosa **di** bello_ · **qualcosa da** + infinito: _qualcosa **da** mangiare_",
+   "ruleHelp": "**qualcuno** = jemand, **qualcosa** = etwas, **ognuno** = jeder (Person), **ogni** + Singular = jede(r/s).\n_qualcosa di nuovo_ (etwas Neues), _qualcosa da bere_ (etwas zu trinken).",
+   "order": 81
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina.",
+    "explanation": "",
+    "promptHelp": "Verbinde.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "qualcuno",
+      "right": "jemand"
+     },
+     {
+      "id": "p2",
+      "left": "qualcosa",
+      "right": "etwas"
+     },
+     {
+      "id": "p3",
+      "left": "ognuno",
+      "right": "jeder (Person)"
+     },
+     {
+      "id": "p4",
+      "left": "ogni giorno",
+      "right": "jeden Tag"
+     },
+     {
+      "id": "p5",
+      "left": "qualcosa di bello",
+      "right": "etwas Schönes"
+     },
+     {
+      "id": "p6",
+      "left": "qualcosa da bere",
+      "right": "etwas zu trinken"
+     },
+     {
+      "id": "p7",
+      "left": "non … nessuno",
+      "right": "niemand"
+     },
+     {
+      "id": "p8",
+      "left": "non … niente",
+      "right": "nichts"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-qualcuno-qualcosa-l2",
+  "title": "Qualcuno o qualcosa?",
+  "language": "it",
+  "level": "A1",
+  "description": "Qualcuno, qualcosa, ognuno, ogni · Qualcuno o qualcosa? · livello facile.",
+  "topics": [
+   "Qualcuno, qualcosa, ognuno, ogni",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitpronomen"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-qualcuno-qualcosa",
+   "topicTitle": "Qualcuno, qualcosa, ognuno, ogni",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "- **qualcuno** = una persona (non so chi): _C’è **qualcuno**?_\n- **qualcosa** = una cosa (non so cosa): _Vuoi **qualcosa** da bere?_\n- **ognuno** = ogni persona: _**Ognuno** porta un panino._\n- **ogni** + nome singolare: _**ogni** giorno, **ogni** settimana_\n- **qualcosa di** + aggettivo: _qualcosa **di** bello_ · **qualcosa da** + infinito: _qualcosa **da** mangiare_",
+   "ruleHelp": "**qualcuno** = jemand, **qualcosa** = etwas, **ognuno** = jeder (Person), **ogni** + Singular = jede(r/s).\n_qualcosa di nuovo_ (etwas Neues), _qualcosa da bere_ (etwas zu trinken).",
+   "order": 82
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la parola giusta.",
+    "explanation": "",
+    "promptHelp": "Wähle das passende Wort.",
+    "text": "Hai fame? Vuoi [[g1]] da mangiare?\nAscolta! C’è [[g2]] alla porta.\nHai [[g3]] per il mal di testa?\n[[g4]] ha preso la mia penna!\nHo comprato [[g5]] per la mamma.\nConosci [[g6]] a Milano?\nDimmi [[g7]] di bello!\nCerco [[g8]] per giocare a tennis.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "qualcosa",
+       "qualcuno"
+      ],
+      "answer": "qualcosa"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "qualcuno",
+       "qualcosa"
+      ],
+      "answer": "qualcuno"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "qualcosa",
+       "qualcuno"
+      ],
+      "answer": "qualcosa"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Qualcuno",
+       "Qualcosa"
+      ],
+      "answer": "Qualcuno"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "qualcosa",
+       "qualcuno"
+      ],
+      "answer": "qualcosa"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "qualcuno",
+       "qualcosa"
+      ],
+      "answer": "qualcuno"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "qualcosa",
+       "qualcuno"
+      ],
+      "answer": "qualcosa"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "qualcuno",
+       "qualcosa"
+      ],
+      "answer": "qualcuno"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-qualcuno-qualcosa-l3",
+  "title": "Ogni o ognuno?",
+  "language": "it",
+  "level": "A1",
+  "description": "Qualcuno, qualcosa, ognuno, ogni · Ogni o ognuno? · livello facile.",
+  "topics": [
+   "Qualcuno, qualcosa, ognuno, ogni",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitpronomen"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-qualcuno-qualcosa",
+   "topicTitle": "Qualcuno, qualcosa, ognuno, ogni",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "- **qualcuno** = una persona (non so chi): _C’è **qualcuno**?_\n- **qualcosa** = una cosa (non so cosa): _Vuoi **qualcosa** da bere?_\n- **ognuno** = ogni persona: _**Ognuno** porta un panino._\n- **ogni** + nome singolare: _**ogni** giorno, **ogni** settimana_\n- **qualcosa di** + aggettivo: _qualcosa **di** bello_ · **qualcosa da** + infinito: _qualcosa **da** mangiare_",
+   "ruleHelp": "**qualcuno** = jemand, **qualcosa** = etwas, **ognuno** = jeder (Person), **ogni** + Singular = jede(r/s).\n_qualcosa di nuovo_ (etwas Neues), _qualcosa da bere_ (etwas zu trinken).",
+   "order": 83
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la parola giusta.",
+    "explanation": "ogni + nome (singolare); ognuno da solo.",
+    "promptHelp": "Wähle das passende Wort.",
+    "explanationHelp": "ogni + Nomen, ognuno allein.",
+    "text": "Vado in palestra [[g1]] martedì.\n[[g2]] porta qualcosa alla festa.\n[[g3]] mattina bevo un tè.\nIn classe [[g4]] ha il suo tablet.\n[[g5]] anno andiamo in Puglia.\n[[g6]] paga il suo gelato.\nLeggo [[g7]] sera.\n[[g8]] di noi ha un compito.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "ogni",
+       "ognuno"
+      ],
+      "answer": "ogni"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Ognuno",
+       "Ogni"
+      ],
+      "answer": "Ognuno"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Ogni",
+       "Ognuno"
+      ],
+      "answer": "Ogni"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "ognuno",
+       "ogni"
+      ],
+      "answer": "ognuno"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "Ogni",
+       "Ognuno"
+      ],
+      "answer": "Ogni"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Ognuno",
+       "Ogni"
+      ],
+      "answer": "Ognuno"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "ogni",
+       "ognuno"
+      ],
+      "answer": "ogni"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "Ognuno",
+       "Ogni"
+      ],
+      "answer": "Ognuno"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-qualcuno-qualcosa-m1",
+  "title": "Di o da?",
+  "language": "it",
+  "level": "A1",
+  "description": "Qualcuno, qualcosa, ognuno, ogni · Di o da? · livello medio.",
+  "topics": [
+   "Qualcuno, qualcosa, ognuno, ogni",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitpronomen"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-qualcuno-qualcosa",
+   "topicTitle": "Qualcuno, qualcosa, ognuno, ogni",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "- **qualcuno** = una persona (non so chi): _C’è **qualcuno**?_\n- **qualcosa** = una cosa (non so cosa): _Vuoi **qualcosa** da bere?_\n- **ognuno** = ogni persona: _**Ognuno** porta un panino._\n- **ogni** + nome singolare: _**ogni** giorno, **ogni** settimana_\n- **qualcosa di** + aggettivo: _qualcosa **di** bello_ · **qualcosa da** + infinito: _qualcosa **da** mangiare_",
+   "ruleHelp": "**qualcuno** = jemand, **qualcosa** = etwas, **ognuno** = jeder (Person), **ogni** + Singular = jede(r/s).\n_qualcosa di nuovo_ (etwas Neues), _qualcosa da bere_ (etwas zu trinken).",
+   "order": 81
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli di o da.",
+    "explanation": "qualcosa di + aggettivo, qualcosa da + infinito.",
+    "promptHelp": "Wähle di oder da.",
+    "explanationHelp": "di + Adjektiv, da + Infinitiv.",
+    "text": "Vuoi qualcosa [[g1]] bere?\nHo visto qualcosa [[g2]] strano.\nMi racconti qualcosa [[g3]] nuovo?\nNon ho niente [[g4]] fare.\nPrendo qualcosa [[g5]] leggere per il viaggio.\nÈ successo qualcosa [[g6]] grave?\nCerco qualcosa [[g7]] economico.\nHai qualcosa [[g8]] mangiare?",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "da",
+       "di"
+      ],
+      "answer": "da"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "di",
+       "da"
+      ],
+      "answer": "di"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "di",
+       "da"
+      ],
+      "answer": "di"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "da",
+       "di"
+      ],
+      "answer": "da"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "da",
+       "di"
+      ],
+      "answer": "da"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "di",
+       "da"
+      ],
+      "answer": "di"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "di",
+       "da"
+      ],
+      "answer": "di"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "da",
+       "di"
+      ],
+      "answer": "da"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-qualcuno-qualcosa-m2",
+  "title": "Alla festa di Matteo",
+  "language": "it",
+  "level": "A1",
+  "description": "Qualcuno, qualcosa, ognuno, ogni · Alla festa di Matteo · livello medio.",
+  "topics": [
+   "Qualcuno, qualcosa, ognuno, ogni",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitpronomen"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-qualcuno-qualcosa",
+   "topicTitle": "Qualcuno, qualcosa, ognuno, ogni",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "- **qualcuno** = una persona (non so chi): _C’è **qualcuno**?_\n- **qualcosa** = una cosa (non so cosa): _Vuoi **qualcosa** da bere?_\n- **ognuno** = ogni persona: _**Ognuno** porta un panino._\n- **ogni** + nome singolare: _**ogni** giorno, **ogni** settimana_\n- **qualcosa di** + aggettivo: _qualcosa **di** bello_ · **qualcosa da** + infinito: _qualcosa **da** mangiare_",
+   "ruleHelp": "**qualcuno** = jemand, **qualcosa** = etwas, **ognuno** = jeder (Person), **ogni** + Singular = jede(r/s).\n_qualcosa di nuovo_ (etwas Neues), _qualcosa da bere_ (etwas zu trinken).",
+   "order": 82
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con qualcuno, qualcosa, ognuno o ogni.",
+    "explanation": "",
+    "promptHelp": "Ergänze.",
+    "text": "Sabato c’è la festa di Matteo. [[g1]] porta [[g2]] da mangiare.\nIo porto una torta: la faccio [[g3]] anno.\nMatteo chiede: «C’è [[g4]] che porta la musica?»\nLia dice: «Io! Ho [[g5]] di nuovo da ascoltare.»\nAlla festa [[g6]] suona la chitarra.\nAlle undici [[g7]] torna a casa, stanco ma felice.\nMatteo dice: «Facciamo una festa [[g8]] mese!»",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Ognuno"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "qualcosa"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ogni"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "qualcuno"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "qualcosa"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "qualcuno"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "ognuno"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ogni"
+      ]
+     }
+    ],
+    "wordBank": true,
+    "extraWords": [
+     "nessuno",
+     "niente"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-qualcuno-qualcosa-m3",
+  "title": "Domanda e risposta",
+  "language": "it",
+  "level": "A1",
+  "description": "Qualcuno, qualcosa, ognuno, ogni · Domanda e risposta · livello medio.",
+  "topics": [
+   "Qualcuno, qualcosa, ognuno, ogni",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitpronomen"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-qualcuno-qualcosa",
+   "topicTitle": "Qualcuno, qualcosa, ognuno, ogni",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "- **qualcuno** = una persona (non so chi): _C’è **qualcuno**?_\n- **qualcosa** = una cosa (non so cosa): _Vuoi **qualcosa** da bere?_\n- **ognuno** = ogni persona: _**Ognuno** porta un panino._\n- **ogni** + nome singolare: _**ogni** giorno, **ogni** settimana_\n- **qualcosa di** + aggettivo: _qualcosa **di** bello_ · **qualcosa da** + infinito: _qualcosa **da** mangiare_",
+   "ruleHelp": "**qualcuno** = jemand, **qualcosa** = etwas, **ognuno** = jeder (Person), **ogni** + Singular = jede(r/s).\n_qualcosa di nuovo_ (etwas Neues), _qualcosa da bere_ (etwas zu trinken).",
+   "order": 83
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Rispondi di no con nessuno o niente.",
+    "explanation": "",
+    "promptHelp": "Antworte verneinend.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "C’è qualcuno in cucina? – No, …",
+      "acceptedAnswers": [
+       "non c’è nessuno"
+      ],
+      "modelAnswer": "No, non c’è nessuno."
+     },
+     {
+      "id": "s2",
+      "start": "Hai mangiato qualcosa? – No, …",
+      "acceptedAnswers": [
+       "non ho mangiato niente"
+      ],
+      "modelAnswer": "No, non ho mangiato niente."
+     },
+     {
+      "id": "s3",
+      "start": "Conosci qualcuno qui? – No, …",
+      "acceptedAnswers": [
+       "non conosco nessuno"
+      ],
+      "modelAnswer": "No, non conosco nessuno."
+     },
+     {
+      "id": "s4",
+      "start": "Vuoi qualcosa da bere? – No, …",
+      "acceptedAnswers": [
+       "non voglio niente"
+      ],
+      "modelAnswer": "No, non voglio niente."
+     },
+     {
+      "id": "s5",
+      "start": "Hai visto qualcuno? – No, …",
+      "acceptedAnswers": [
+       "non ho visto nessuno"
+      ],
+      "modelAnswer": "No, non ho visto nessuno."
+     },
+     {
+      "id": "s6",
+      "start": "Compri qualcosa? – No, …",
+      "acceptedAnswers": [
+       "non compro niente"
+      ],
+      "modelAnswer": "No, non compro niente."
+     },
+     {
+      "id": "s7",
+      "start": "Ha telefonato qualcuno? – No, …",
+      "acceptedAnswers": [
+       "non ha telefonato nessuno"
+      ],
+      "modelAnswer": "No, non ha telefonato nessuno."
+     },
+     {
+      "id": "s8",
+      "start": "Hai fatto qualcosa di bello? – No, …",
+      "acceptedAnswers": [
+       "non ho fatto niente di bello"
+      ],
+      "modelAnswer": "No, non ho fatto niente di bello."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-qualcuno-qualcosa-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "Qualcuno, qualcosa, ognuno, ogni · Trova gli errori · livello difficile.",
+  "topics": [
+   "Qualcuno, qualcosa, ognuno, ogni",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitpronomen"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-qualcuno-qualcosa",
+   "topicTitle": "Qualcuno, qualcosa, ognuno, ogni",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "- **qualcuno** = una persona (non so chi): _C’è **qualcuno**?_\n- **qualcosa** = una cosa (non so cosa): _Vuoi **qualcosa** da bere?_\n- **ognuno** = ogni persona: _**Ognuno** porta un panino._\n- **ogni** + nome singolare: _**ogni** giorno, **ogni** settimana_\n- **qualcosa di** + aggettivo: _qualcosa **di** bello_ · **qualcosa da** + infinito: _qualcosa **da** mangiare_",
+   "ruleHelp": "**qualcuno** = jemand, **qualcosa** = etwas, **ognuno** = jeder (Person), **ogni** + Singular = jede(r/s).\n_qualcosa di nuovo_ (etwas Neues), _qualcosa da bere_ (etwas zu trinken).",
+   "order": 81
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi gli otto errori.",
+    "explanation": "",
+    "promptHelp": "Korrigiere die acht Fehler.",
+    "text": "C’è [[g1]] alla porta?\nVuoi qualcosa [[g2]] bere?\nHo visto qualcosa [[g3]] strano.\n[[g4]] giorno vado a scuola.\n[[g5]] porta un panino.\nVado al cinema ogni [[g6]].\nHai mangiato qualcosa? – No, [[g7]].\nC’è qualcuno? – No, non c’è [[g8]].",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "qualcosa",
+      "acceptedAnswers": [
+       "qualcuno"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "di",
+      "acceptedAnswers": [
+       "da"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "da",
+      "acceptedAnswers": [
+       "di"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "Ognuno",
+      "acceptedAnswers": [
+       "Ogni"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "Ogni",
+      "acceptedAnswers": [
+       "Ognuno"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "settimane",
+      "acceptedAnswers": [
+       "settimana"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "ho mangiato niente",
+      "acceptedAnswers": [
+       "non ho mangiato niente"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "niente",
+      "acceptedAnswers": [
+       "nessuno"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-qualcuno-qualcosa-s2",
+  "title": "Un mistero in classe",
+  "language": "it",
+  "level": "A1",
+  "description": "Qualcuno, qualcosa, ognuno, ogni · Un mistero in classe · livello difficile.",
+  "topics": [
+   "Qualcuno, qualcosa, ognuno, ogni",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitpronomen"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-qualcuno-qualcosa",
+   "topicTitle": "Qualcuno, qualcosa, ognuno, ogni",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "- **qualcuno** = una persona (non so chi): _C’è **qualcuno**?_\n- **qualcosa** = una cosa (non so cosa): _Vuoi **qualcosa** da bere?_\n- **ognuno** = ogni persona: _**Ognuno** porta un panino._\n- **ogni** + nome singolare: _**ogni** giorno, **ogni** settimana_\n- **qualcosa di** + aggettivo: _qualcosa **di** bello_ · **qualcosa da** + infinito: _qualcosa **da** mangiare_",
+   "ruleHelp": "**qualcuno** = jemand, **qualcosa** = etwas, **ognuno** = jeder (Person), **ogni** + Singular = jede(r/s).\n_qualcosa di nuovo_ (etwas Neues), _qualcosa da bere_ (etwas zu trinken).",
+   "order": 82
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa la storia.",
+    "explanation": "",
+    "promptHelp": "Ergänze die Geschichte.",
+    "text": "Lunedì mattina in classe c’è [[g1]] di strano: la lavagna è piena di disegni.\n«Chi è stato? [[g2]] è entrato di notte!», dice la prof.\nNessuno sa [[g3]].\n[[g4]] guarda il compagno vicino.\nPoi Pietro dice: «Ho visto [[g5]] con un cappello nero ieri sera.»\nLa prof chiama il bidello: anche lui non ha visto [[g6]].\nAlla fine si scopre: è il nuovo professore di arte! Ha fatto [[g7]] di bello per la classe.\nE da allora disegna sulla lavagna [[g8]] lunedì.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "qualcosa"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Qualcuno"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "niente"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Ognuno"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "qualcuno"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "nessuno"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "qualcosa"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "ogni"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-qualcuno-qualcosa-s3",
+  "title": "Il mio weekend ideale",
+  "language": "it",
+  "level": "A1",
+  "description": "Qualcuno, qualcosa, ognuno, ogni · Il mio weekend ideale · livello difficile.",
+  "topics": [
+   "Qualcuno, qualcosa, ognuno, ogni",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitpronomen"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-qualcuno-qualcosa",
+   "topicTitle": "Qualcuno, qualcosa, ognuno, ogni",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "- **qualcuno** = una persona (non so chi): _C’è **qualcuno**?_\n- **qualcosa** = una cosa (non so cosa): _Vuoi **qualcosa** da bere?_\n- **ognuno** = ogni persona: _**Ognuno** porta un panino._\n- **ogni** + nome singolare: _**ogni** giorno, **ogni** settimana_\n- **qualcosa di** + aggettivo: _qualcosa **di** bello_ · **qualcosa da** + infinito: _qualcosa **da** mangiare_",
+   "ruleHelp": "**qualcuno** = jemand, **qualcosa** = etwas, **ognuno** = jeder (Person), **ogni** + Singular = jede(r/s).\n_qualcosa di nuovo_ (etwas Neues), _qualcosa da bere_ (etwas zu trinken).",
+   "order": 83
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Descrivi il tuo weekend ideale. Usa qualcuno, qualcosa (di/da), ognuno e ogni.",
+    "explanation": "",
+    "promptHelp": "Beschreibe dein ideales Wochenende.",
+    "modelAnswer": "Il mio weekend ideale: sabato mattina faccio qualcosa di sportivo. Poi incontro qualcuno al parco. La sera ogni amico porta qualcosa da mangiare e ognuno racconta una storia.",
+    "lines": 5
+   },
+   {
+    "id": "q2",
+    "type": "gap_choice",
+    "prompt": "Controlla.",
+    "explanation": "",
+    "promptHelp": "Prüfe.",
+    "text": "Faccio qualcosa [[g1]] sportivo.\nPorto qualcosa [[g2]] mangiare.\n[[g3]] racconta una storia.\n[[g4]] sabato vado al parco.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "di",
+       "da"
+      ],
+      "answer": "di"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "da",
+       "di"
+      ],
+      "answer": "da"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Ognuno",
+       "Ogni"
+      ],
+      "answer": "Ognuno"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Ogni",
+       "Ognuno"
+      ],
+      "answer": "Ogni"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
   "id": "g-ecco1-quando-perche-l1",
   "title": "Quando o perché?",
   "language": "it",
@@ -92838,6 +99373,2137 @@ const STOCK_PACKAGES = [
       "acceptedAnswers": [
        "Loro"
       ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-stare-gerundio-l1",
+  "title": "Il gerundio",
+  "language": "it",
+  "level": "A1",
+  "description": "Stare + gerundio · Il gerundio · livello facile.",
+  "topics": [
+   "Stare + gerundio",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · stare + Gerundium"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-stare-gerundio",
+   "topicTitle": "Stare + gerundio",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Per dire che cosa **succede proprio adesso** usiamo **stare + gerundio**:\n| -are → **-ando** | parlare → parlando |\n| -ere → **-endo** | leggere → leggendo |\n| -ire → **-endo** | dormire → dormendo |\n\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n_Che cosa **stai facendo**? – **Sto scrivendo** un messaggio._\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**.",
+   "ruleHelp": "Was **gerade jetzt** passiert: **stare + Gerundium**. -are → -ando, -ere/-ire → -endo: _Sto scrivendo un messaggio._ (Ich schreibe gerade …)\nUnregelmäßig: fare → facendo, dire → dicendo, bere → bevendo.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina l’infinito e il gerundio.",
+    "explanation": "",
+    "promptHelp": "Verbinde Infinitiv und Gerundium.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "parlare",
+      "right": "parlando"
+     },
+     {
+      "id": "p2",
+      "left": "leggere",
+      "right": "leggendo"
+     },
+     {
+      "id": "p3",
+      "left": "dormire",
+      "right": "dormendo"
+     },
+     {
+      "id": "p4",
+      "left": "mangiare",
+      "right": "mangiando"
+     },
+     {
+      "id": "p5",
+      "left": "scrivere",
+      "right": "scrivendo"
+     },
+     {
+      "id": "p6",
+      "left": "fare",
+      "right": "facendo"
+     },
+     {
+      "id": "p7",
+      "left": "dire",
+      "right": "dicendo"
+     },
+     {
+      "id": "p8",
+      "left": "bere",
+      "right": "bevendo"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-stare-gerundio-l2",
+  "title": "Che cosa stanno facendo?",
+  "language": "it",
+  "level": "A1",
+  "description": "Stare + gerundio · Che cosa stanno facendo? · livello facile.",
+  "topics": [
+   "Stare + gerundio",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · stare + Gerundium"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-stare-gerundio",
+   "topicTitle": "Stare + gerundio",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Per dire che cosa **succede proprio adesso** usiamo **stare + gerundio**:\n| -are → **-ando** | parlare → parlando |\n| -ere → **-endo** | leggere → leggendo |\n| -ire → **-endo** | dormire → dormendo |\n\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n_Che cosa **stai facendo**? – **Sto scrivendo** un messaggio._\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**.",
+   "ruleHelp": "Was **gerade jetzt** passiert: **stare + Gerundium**. -are → -ando, -ere/-ire → -endo: _Sto scrivendo un messaggio._ (Ich schreibe gerade …)\nUnregelmäßig: fare → facendo, dire → dicendo, bere → bevendo.",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "stare: sto, stai, sta, stiamo, state, stanno + gerundio.",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "stare + Gerundium.",
+    "text": "Io [[g1]] leggendo un libro.\nTu [[g2]] dormendo?\nMarco [[g3]] guardando la partita.\nNoi [[g4]] mangiando.\nVoi [[g5]] studiando?\nLe ragazze [[g6]] ballando.\nChe cosa [[g7]] facendo, Luca?\nLa nonna [[g8]] cucinando.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "sto",
+       "stai",
+       "stanno"
+      ],
+      "answer": "sto"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "stai",
+       "sto",
+       "sta"
+      ],
+      "answer": "stai"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "sta",
+       "stai",
+       "stiamo"
+      ],
+      "answer": "sta"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "stiamo",
+       "state",
+       "stanno"
+      ],
+      "answer": "stiamo"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "state",
+       "stiamo",
+       "stai"
+      ],
+      "answer": "state"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "stanno",
+       "sta",
+       "state"
+      ],
+      "answer": "stanno"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "stai",
+       "sta",
+       "sto"
+      ],
+      "answer": "stai"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "sta",
+       "stanno",
+       "sto"
+      ],
+      "answer": "sta"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-stare-gerundio-l3",
+  "title": "-ando o -endo?",
+  "language": "it",
+  "level": "A1",
+  "description": "Stare + gerundio · -ando o -endo? · livello facile.",
+  "topics": [
+   "Stare + gerundio",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · stare + Gerundium"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-stare-gerundio",
+   "topicTitle": "Stare + gerundio",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Per dire che cosa **succede proprio adesso** usiamo **stare + gerundio**:\n| -are → **-ando** | parlare → parlando |\n| -ere → **-endo** | leggere → leggendo |\n| -ire → **-endo** | dormire → dormendo |\n\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n_Che cosa **stai facendo**? – **Sto scrivendo** un messaggio._\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**.",
+   "ruleHelp": "Was **gerade jetzt** passiert: **stare + Gerundium**. -are → -ando, -ere/-ire → -endo: _Sto scrivendo un messaggio._ (Ich schreibe gerade …)\nUnregelmäßig: fare → facendo, dire → dicendo, bere → bevendo.",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli il gerundio giusto.",
+    "explanation": "",
+    "promptHelp": "Wähle das richtige Gerundium.",
+    "text": "cantare → [[g1]]\nprendere → [[g2]]\npartire → [[g3]]\nguardare → [[g4]]\nscrivere → [[g5]]\nsentire → [[g6]]\ngiocare → [[g7]]\nfare → [[g8]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "cantando",
+       "cantendo",
+       "cantato"
+      ],
+      "answer": "cantando"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "prendendo",
+       "prendando",
+       "preso"
+      ],
+      "answer": "prendendo"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "partendo",
+       "partando",
+       "partito"
+      ],
+      "answer": "partendo"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "guardando",
+       "guardendo",
+       "guardato"
+      ],
+      "answer": "guardando"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "scrivendo",
+       "scrivando",
+       "scritto"
+      ],
+      "answer": "scrivendo"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "sentendo",
+       "sentando",
+       "sentito"
+      ],
+      "answer": "sentendo"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "giocando",
+       "giochendo",
+       "giocato"
+      ],
+      "answer": "giocando"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "facendo",
+       "fando",
+       "fatto"
+      ],
+      "answer": "facendo"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-stare-gerundio-m1",
+  "title": "Al telefono",
+  "language": "it",
+  "level": "A1",
+  "description": "Stare + gerundio · Al telefono · livello medio.",
+  "topics": [
+   "Stare + gerundio",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · stare + Gerundium"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-stare-gerundio",
+   "topicTitle": "Stare + gerundio",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Per dire che cosa **succede proprio adesso** usiamo **stare + gerundio**:\n| -are → **-ando** | parlare → parlando |\n| -ere → **-endo** | leggere → leggendo |\n| -ire → **-endo** | dormire → dormendo |\n\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n_Che cosa **stai facendo**? – **Sto scrivendo** un messaggio._\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**.",
+   "ruleHelp": "Was **gerade jetzt** passiert: **stare + Gerundium**. -are → -ando, -ere/-ire → -endo: _Sto scrivendo un messaggio._ (Ich schreibe gerade …)\nUnregelmäßig: fare → facendo, dire → dicendo, bere → bevendo.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi stare + gerundio.",
+    "explanation": "",
+    "promptHelp": "Setze stare + Gerundium ein.",
+    "text": "– Ciao Filippo, che cosa (fare, tu) [[g1]]?\n– (guardare, io) [[g2]] un film su Internet.\n– E la mamma? – (preparare) [[g3]] la cena.\n– E Greta? Che cosa (fare) [[g4]]?\n– (leggere) [[g5]] un libro.\n– E i tuoi fratelli? – (giocare) [[g6]] in giardino.\n– E voi due? – Noi (aspettare) [[g7]] il papà.\n– Ok, ci sentiamo dopo! Io (uscire) [[g8]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "stai facendo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Sto guardando"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Sta preparando"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "sta facendo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Sta leggendo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "Stanno giocando"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "stiamo aspettando"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "sto uscendo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-stare-gerundio-m2",
+  "title": "Adesso!",
+  "language": "it",
+  "level": "A1",
+  "description": "Stare + gerundio · Adesso! · livello medio.",
+  "topics": [
+   "Stare + gerundio",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · stare + Gerundium"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-stare-gerundio",
+   "topicTitle": "Stare + gerundio",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Per dire che cosa **succede proprio adesso** usiamo **stare + gerundio**:\n| -are → **-ando** | parlare → parlando |\n| -ere → **-endo** | leggere → leggendo |\n| -ire → **-endo** | dormire → dormendo |\n\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n_Che cosa **stai facendo**? – **Sto scrivendo** un messaggio._\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**.",
+   "ruleHelp": "Was **gerade jetzt** passiert: **stare + Gerundium**. -are → -ando, -ere/-ire → -endo: _Sto scrivendo un messaggio._ (Ich schreibe gerade …)\nUnregelmäßig: fare → facendo, dire → dicendo, bere → bevendo.",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Che cosa stanno facendo adesso? Scrivi con stare + gerundio.",
+    "explanation": "",
+    "promptHelp": "Was machen sie gerade?",
+    "items": [
+     {
+      "id": "s1",
+      "start": "(io / scrivere una mail)",
+      "acceptedAnswers": [
+       "Sto scrivendo una mail"
+      ],
+      "modelAnswer": "Sto scrivendo una mail."
+     },
+     {
+      "id": "s2",
+      "start": "(Marco / dormire)",
+      "acceptedAnswers": [
+       "Marco sta dormendo"
+      ],
+      "modelAnswer": "Marco sta dormendo."
+     },
+     {
+      "id": "s3",
+      "start": "(noi / mangiare la pizza)",
+      "acceptedAnswers": [
+       "Stiamo mangiando la pizza"
+      ],
+      "modelAnswer": "Stiamo mangiando la pizza."
+     },
+     {
+      "id": "s4",
+      "start": "(tu / studiare?)",
+      "acceptedAnswers": [
+       "Stai studiando"
+      ],
+      "modelAnswer": "Stai studiando?"
+     },
+     {
+      "id": "s5",
+      "start": "(le ragazze / fare shopping)",
+      "acceptedAnswers": [
+       "Le ragazze stanno facendo shopping"
+      ],
+      "modelAnswer": "Le ragazze stanno facendo shopping."
+     },
+     {
+      "id": "s6",
+      "start": "(voi / bere un caffè?)",
+      "acceptedAnswers": [
+       "State bevendo un caffè"
+      ],
+      "modelAnswer": "State bevendo un caffè?"
+     },
+     {
+      "id": "s7",
+      "start": "(la prof / spiegare la regola)",
+      "acceptedAnswers": [
+       "La prof sta spiegando la regola"
+      ],
+      "modelAnswer": "La prof sta spiegando la regola."
+     },
+     {
+      "id": "s8",
+      "start": "(i ragazzi / correre al parco)",
+      "acceptedAnswers": [
+       "I ragazzi stanno correndo al parco"
+      ],
+      "modelAnswer": "I ragazzi stanno correndo al parco."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-stare-gerundio-m3",
+  "title": "Presente o stare + gerundio?",
+  "language": "it",
+  "level": "A1",
+  "description": "Stare + gerundio · Presente o stare + gerundio? · livello medio.",
+  "topics": [
+   "Stare + gerundio",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · stare + Gerundium"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-stare-gerundio",
+   "topicTitle": "Stare + gerundio",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Per dire che cosa **succede proprio adesso** usiamo **stare + gerundio**:\n| -are → **-ando** | parlare → parlando |\n| -ere → **-endo** | leggere → leggendo |\n| -ire → **-endo** | dormire → dormendo |\n\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n_Che cosa **stai facendo**? – **Sto scrivendo** un messaggio._\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**.",
+   "ruleHelp": "Was **gerade jetzt** passiert: **stare + Gerundium**. -are → -ando, -ere/-ire → -endo: _Sto scrivendo un messaggio._ (Ich schreibe gerade …)\nUnregelmäßig: fare → facendo, dire → dicendo, bere → bevendo.",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Abitudine (presente) o proprio adesso (stare + gerundio)?",
+    "explanation": "di solito, ogni giorno → presente; proprio adesso → stare + gerundio.",
+    "promptHelp": "Gewohnheit oder gerade jetzt?",
+    "explanationHelp": "Gewohnheit → Präsens; gerade jetzt → stare + Gerundium.",
+    "text": "Di solito [[g1]] la sera.\nSilenzio! [[g2]] per il test.\nOgni giorno Marco [[g3]] a scuola in bici.\nGuarda! Il gatto [[g4]] sul tavolo.\nIl sabato [[g5]] a calcio.\nNon posso parlare, [[g6]]!\nIn estate [[g7]] al mare.\nAscolta: qualcuno [[g8]] alla porta.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "leggo",
+       "sto leggendo"
+      ],
+      "answer": "leggo"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Sto studiando",
+       "Studio"
+      ],
+      "answer": "Sto studiando"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "va",
+       "sta andando"
+      ],
+      "answer": "va"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "sta dormendo",
+       "dorme"
+      ],
+      "answer": "sta dormendo"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "giochiamo",
+       "stiamo giocando"
+      ],
+      "answer": "giochiamo"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "sto guidando",
+       "guido"
+      ],
+      "answer": "sto guidando"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "andiamo",
+       "stiamo andando"
+      ],
+      "answer": "andiamo"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "sta suonando",
+       "suona"
+      ],
+      "answer": "sta suonando"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-stare-gerundio-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "Stare + gerundio · Trova gli errori · livello difficile.",
+  "topics": [
+   "Stare + gerundio",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · stare + Gerundium"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-stare-gerundio",
+   "topicTitle": "Stare + gerundio",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Per dire che cosa **succede proprio adesso** usiamo **stare + gerundio**:\n| -are → **-ando** | parlare → parlando |\n| -ere → **-endo** | leggere → leggendo |\n| -ire → **-endo** | dormire → dormendo |\n\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n_Che cosa **stai facendo**? – **Sto scrivendo** un messaggio._\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**.",
+   "ruleHelp": "Was **gerade jetzt** passiert: **stare + Gerundium**. -are → -ando, -ere/-ire → -endo: _Sto scrivendo un messaggio._ (Ich schreibe gerade …)\nUnregelmäßig: fare → facendo, dire → dicendo, bere → bevendo.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi gli otto errori.",
+    "explanation": "",
+    "promptHelp": "Korrigiere die acht Fehler.",
+    "text": "Io [[g1]] leggendo.\nMarco sta [[g2]] un fumetto.\nNoi [[g3]] mangiando.\nChe cosa stai [[g4]]?\nLe ragazze [[g5]] ballando.\nSto [[g6]] un messaggio.\nVoi state [[g7]]?\nMio padre sta [[g8]] un caffè.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "sono",
+      "acceptedAnswers": [
+       "sto"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "leggiando",
+      "acceptedAnswers": [
+       "leggendo"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "stanno",
+      "acceptedAnswers": [
+       "stiamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "fando",
+      "acceptedAnswers": [
+       "facendo"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "sta",
+      "acceptedAnswers": [
+       "stanno"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "scrivando",
+      "acceptedAnswers": [
+       "scrivendo"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "dormando",
+      "acceptedAnswers": [
+       "dormendo"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "beviendo",
+      "acceptedAnswers": [
+       "bevendo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-stare-gerundio-s2",
+  "title": "Un messaggio dalla gita",
+  "language": "it",
+  "level": "A1",
+  "description": "Stare + gerundio · Un messaggio dalla gita · livello difficile.",
+  "topics": [
+   "Stare + gerundio",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · stare + Gerundium"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-stare-gerundio",
+   "topicTitle": "Stare + gerundio",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Per dire che cosa **succede proprio adesso** usiamo **stare + gerundio**:\n| -are → **-ando** | parlare → parlando |\n| -ere → **-endo** | leggere → leggendo |\n| -ire → **-endo** | dormire → dormendo |\n\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n_Che cosa **stai facendo**? – **Sto scrivendo** un messaggio._\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**.",
+   "ruleHelp": "Was **gerade jetzt** passiert: **stare + Gerundium**. -are → -ando, -ere/-ire → -endo: _Sto scrivendo un messaggio._ (Ich schreibe gerade …)\nUnregelmäßig: fare → facendo, dire → dicendo, bere → bevendo.",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi stare + gerundio.",
+    "explanation": "",
+    "promptHelp": "Ergänze stare + Gerundium.",
+    "text": "Ciao mamma! Adesso (visitare, noi) [[g1]] il Duomo di Firenze.\nIl prof (spiegare) [[g2]] la storia della città.\nLuca e Marco (fare) [[g3]] foto a tutto.\nIo (mangiare) [[g4]] un gelato buonissimo.\nGiulia (scrivere) [[g5]] una cartolina alla nonna.\nE voi? Che cosa (fare) [[g6]] a casa?\nPapà (lavorare) [[g7]], vero?\nTi chiamo stasera, adesso (partire, noi) [[g8]] per Siena!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "stiamo visitando"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "sta spiegando"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "stanno facendo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "sto mangiando"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "sta scrivendo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "state facendo"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "sta lavorando"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "stiamo partendo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-stare-gerundio-s3",
+  "title": "Che cosa stanno facendo?",
+  "language": "it",
+  "level": "A1",
+  "description": "Stare + gerundio · Che cosa stanno facendo? · livello difficile.",
+  "topics": [
+   "Stare + gerundio",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · stare + Gerundium"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-stare-gerundio",
+   "topicTitle": "Stare + gerundio",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Per dire che cosa **succede proprio adesso** usiamo **stare + gerundio**:\n| -are → **-ando** | parlare → parlando |\n| -ere → **-endo** | leggere → leggendo |\n| -ire → **-endo** | dormire → dormendo |\n\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n_Che cosa **stai facendo**? – **Sto scrivendo** un messaggio._\n**Irregolari:** fare → **facendo**, dire → **dicendo**, bere → **bevendo**.",
+   "ruleHelp": "Was **gerade jetzt** passiert: **stare + Gerundium**. -are → -ando, -ere/-ire → -endo: _Sto scrivendo un messaggio._ (Ich schreibe gerade …)\nUnregelmäßig: fare → facendo, dire → dicendo, bere → bevendo.",
+   "order": 13
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Guarda fuori dalla finestra o pensa alla tua famiglia: che cosa stanno facendo adesso? Scrivi 5 frasi con stare + gerundio.",
+    "explanation": "",
+    "promptHelp": "Was machen deine Familie oder Leute draußen gerade? 5 Sätze.",
+    "modelAnswer": "Mia madre sta lavorando. Mio fratello sta giocando ai videogiochi. Il cane sta dormendo. Due bambini stanno correndo nel parco. Io sto scrivendo questo testo.",
+    "lines": 5
+   },
+   {
+    "id": "q2",
+    "type": "sentence_completion",
+    "prompt": "E adesso scrivi il gerundio.",
+    "explanation": "",
+    "promptHelp": "Und jetzt das Gerundium.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "(fare)",
+      "acceptedAnswers": [
+       "facendo"
+      ],
+      "modelAnswer": "facendo"
+     },
+     {
+      "id": "s2",
+      "start": "(bere)",
+      "acceptedAnswers": [
+       "bevendo"
+      ],
+      "modelAnswer": "bevendo"
+     },
+     {
+      "id": "s3",
+      "start": "(dire)",
+      "acceptedAnswers": [
+       "dicendo"
+      ],
+      "modelAnswer": "dicendo"
+     },
+     {
+      "id": "s4",
+      "start": "(uscire)",
+      "acceptedAnswers": [
+       "uscendo"
+      ],
+      "modelAnswer": "uscendo"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-superlativo-issimo-l1",
+  "title": "Molto = -issimo",
+  "language": "it",
+  "level": "A1",
+  "description": "Bellissimo! – L’aggettivo con -issimo · Molto = -issimo · livello facile.",
+  "topics": [
+   "Bellissimo! – L’aggettivo con -issimo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · absoluter Superlativ (-issimo), Steigerung mit molto"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-superlativo-issimo",
+   "topicTitle": "Bellissimo! – L’aggettivo con -issimo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Per dire **molto** + aggettivo usiamo **-issimo**:\n| bello → **bellissimo** | molto bello |\n| buono → **buonissimo** | molto buono |\n| facile → **facilissimo** | molto facile |\n| lungo → **lunghissimo** | molto lungo |\n**-issimo** concorda: _una pizza buon**issima**, due ragazzi simpatic**issimi**._\nAnche con avverbi: _**benissimo**, **malissimo**, **tantissimo**_. E si può ripetere: _**piano piano**_ (molto piano).",
+   "ruleHelp": "**-issimo** heißt „sehr“: _bellissimo_ = sehr schön. Es passt sich an (-issimo/-issima/-issimi/-issime).\n-co/-go → **-chissimo/-ghissimo** (lunghissimo). Auch: benissimo, tantissimo. Verdopplung: _piano piano_.",
+   "order": 61
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina.",
+    "explanation": "",
+    "promptHelp": "Verbinde.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "molto bello",
+      "right": "bellissimo"
+     },
+     {
+      "id": "p2",
+      "left": "molto buono",
+      "right": "buonissimo"
+     },
+     {
+      "id": "p3",
+      "left": "molto facile",
+      "right": "facilissimo"
+     },
+     {
+      "id": "p4",
+      "left": "molto caro",
+      "right": "carissimo"
+     },
+     {
+      "id": "p5",
+      "left": "molto lungo",
+      "right": "lunghissimo"
+     },
+     {
+      "id": "p6",
+      "left": "molto simpatico",
+      "right": "simpaticissimo"
+     },
+     {
+      "id": "p7",
+      "left": "molto bene",
+      "right": "benissimo"
+     },
+     {
+      "id": "p8",
+      "left": "molto alto",
+      "right": "altissimo"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-superlativo-issimo-l2",
+  "title": "Che forma?",
+  "language": "it",
+  "level": "A1",
+  "description": "Bellissimo! – L’aggettivo con -issimo · Che forma? · livello facile.",
+  "topics": [
+   "Bellissimo! – L’aggettivo con -issimo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · absoluter Superlativ (-issimo), Steigerung mit molto"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-superlativo-issimo",
+   "topicTitle": "Bellissimo! – L’aggettivo con -issimo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Per dire **molto** + aggettivo usiamo **-issimo**:\n| bello → **bellissimo** | molto bello |\n| buono → **buonissimo** | molto buono |\n| facile → **facilissimo** | molto facile |\n| lungo → **lunghissimo** | molto lungo |\n**-issimo** concorda: _una pizza buon**issima**, due ragazzi simpatic**issimi**._\nAnche con avverbi: _**benissimo**, **malissimo**, **tantissimo**_. E si può ripetere: _**piano piano**_ (molto piano).",
+   "ruleHelp": "**-issimo** heißt „sehr“: _bellissimo_ = sehr schön. Es passt sich an (-issimo/-issima/-issimi/-issime).\n-co/-go → **-chissimo/-ghissimo** (lunghissimo). Auch: benissimo, tantissimo. Verdopplung: _piano piano_.",
+   "order": 62
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "",
+    "promptHelp": "Wähle die richtige Form.",
+    "text": "La pizza è [[g1]].\nIl film è [[g2]].\nLe scarpe sono [[g3]].\nI compiti sono [[g4]].\nLa strada è [[g5]].\nGli zii sono [[g6]].\nOggi sto [[g7]]!\nLa casa della nonna è [[g8]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "buonissima",
+       "buonissimo",
+       "buonissime"
+      ],
+      "answer": "buonissima"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "bellissimo",
+       "bellissima",
+       "bellissimi"
+      ],
+      "answer": "bellissimo"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "carissime",
+       "carissimi",
+       "carissima"
+      ],
+      "answer": "carissime"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "facilissimi",
+       "facilissime",
+       "facilissimo"
+      ],
+      "answer": "facilissimi"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "lunghissima",
+       "lungissima",
+       "lunghissimo"
+      ],
+      "answer": "lunghissima"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "simpaticissimi",
+       "simpatichissimi",
+       "simpaticissime"
+      ],
+      "answer": "simpaticissimi"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "benissimo",
+       "buonissimo",
+       "benissima"
+      ],
+      "answer": "benissimo"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "grandissima",
+       "grandissimo",
+       "grandissime"
+      ],
+      "answer": "grandissima"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-superlativo-issimo-l3",
+  "title": "Esagera!",
+  "language": "it",
+  "level": "A1",
+  "description": "Bellissimo! – L’aggettivo con -issimo · Esagera! · livello facile.",
+  "topics": [
+   "Bellissimo! – L’aggettivo con -issimo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · absoluter Superlativ (-issimo), Steigerung mit molto"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-superlativo-issimo",
+   "topicTitle": "Bellissimo! – L’aggettivo con -issimo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Per dire **molto** + aggettivo usiamo **-issimo**:\n| bello → **bellissimo** | molto bello |\n| buono → **buonissimo** | molto buono |\n| facile → **facilissimo** | molto facile |\n| lungo → **lunghissimo** | molto lungo |\n**-issimo** concorda: _una pizza buon**issima**, due ragazzi simpatic**issimi**._\nAnche con avverbi: _**benissimo**, **malissimo**, **tantissimo**_. E si può ripetere: _**piano piano**_ (molto piano).",
+   "ruleHelp": "**-issimo** heißt „sehr“: _bellissimo_ = sehr schön. Es passt sich an (-issimo/-issima/-issimi/-issime).\n-co/-go → **-chissimo/-ghissimo** (lunghissimo). Auch: benissimo, tantissimo. Verdopplung: _piano piano_.",
+   "order": 63
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Scrivi l’aggettivo con -issimo.",
+    "explanation": "",
+    "promptHelp": "Schreibe das Adjektiv mit -issimo.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Il gelato è molto buono. → Il gelato è …",
+      "acceptedAnswers": [
+       "buonissimo"
+      ],
+      "modelAnswer": "Il gelato è buonissimo."
+     },
+     {
+      "id": "s2",
+      "start": "La città è molto bella. → La città è …",
+      "acceptedAnswers": [
+       "bellissima"
+      ],
+      "modelAnswer": "La città è bellissima."
+     },
+     {
+      "id": "s3",
+      "start": "Il test è molto facile. → Il test è …",
+      "acceptedAnswers": [
+       "facilissimo"
+      ],
+      "modelAnswer": "Il test è facilissimo."
+     },
+     {
+      "id": "s4",
+      "start": "Le ragazze sono molto brave. → Le ragazze sono …",
+      "acceptedAnswers": [
+       "bravissime"
+      ],
+      "modelAnswer": "Le ragazze sono bravissime."
+     },
+     {
+      "id": "s5",
+      "start": "Il viaggio è molto lungo. → Il viaggio è …",
+      "acceptedAnswers": [
+       "lunghissimo"
+      ],
+      "modelAnswer": "Il viaggio è lunghissimo."
+     },
+     {
+      "id": "s6",
+      "start": "I libri sono molto cari. → I libri sono …",
+      "acceptedAnswers": [
+       "carissimi"
+      ],
+      "modelAnswer": "I libri sono carissimi."
+     },
+     {
+      "id": "s7",
+      "start": "La lezione è molto noiosa. → La lezione è …",
+      "acceptedAnswers": [
+       "noiosissima"
+      ],
+      "modelAnswer": "La lezione è noiosissima."
+     },
+     {
+      "id": "s8",
+      "start": "Il cane è molto piccolo. → Il cane è …",
+      "acceptedAnswers": [
+       "piccolissimo"
+      ],
+      "modelAnswer": "Il cane è piccolissimo."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-superlativo-issimo-m1",
+  "title": "Una cartolina da Venezia",
+  "language": "it",
+  "level": "A1",
+  "description": "Bellissimo! – L’aggettivo con -issimo · Una cartolina da Venezia · livello medio.",
+  "topics": [
+   "Bellissimo! – L’aggettivo con -issimo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · absoluter Superlativ (-issimo), Steigerung mit molto"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-superlativo-issimo",
+   "topicTitle": "Bellissimo! – L’aggettivo con -issimo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Per dire **molto** + aggettivo usiamo **-issimo**:\n| bello → **bellissimo** | molto bello |\n| buono → **buonissimo** | molto buono |\n| facile → **facilissimo** | molto facile |\n| lungo → **lunghissimo** | molto lungo |\n**-issimo** concorda: _una pizza buon**issima**, due ragazzi simpatic**issimi**._\nAnche con avverbi: _**benissimo**, **malissimo**, **tantissimo**_. E si può ripetere: _**piano piano**_ (molto piano).",
+   "ruleHelp": "**-issimo** heißt „sehr“: _bellissimo_ = sehr schön. Es passt sich an (-issimo/-issima/-issimi/-issime).\n-co/-go → **-chissimo/-ghissimo** (lunghissimo). Auch: benissimo, tantissimo. Verdopplung: _piano piano_.",
+   "order": 61
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Completa con -issimo nella forma giusta.",
+    "explanation": "",
+    "promptHelp": "Ergänze -issimo in der richtigen Form.",
+    "text": "Cara Lisa, Venezia è (bello) [[g1]]!\nI canali sono (stretto) [[g2]] e le gondole (elegante) [[g3]].\nIl gelato qui è (buono) [[g4]], ma (caro) [[g5]]!\nIeri abbiamo fatto una passeggiata (lungo) [[g6]].\nLe persone sono (gentile) [[g7]].\nIl nostro albergo è (piccolo) [[g8]], ma (pulito) [[g9]].\nSto (bene) [[g10]]! Un abbraccio, Mia",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "bellissima"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "strettissimi"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "elegantissime"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "buonissimo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "carissimo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "lunghissima"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "gentilissime"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "piccolissimo"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "pulitissimo"
+      ]
+     },
+     {
+      "id": "g10",
+      "acceptedAnswers": [
+       "benissimo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-superlativo-issimo-m2",
+  "title": "-issimo o -hissimo?",
+  "language": "it",
+  "level": "A1",
+  "description": "Bellissimo! – L’aggettivo con -issimo · -issimo o -hissimo? · livello medio.",
+  "topics": [
+   "Bellissimo! – L’aggettivo con -issimo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · absoluter Superlativ (-issimo), Steigerung mit molto"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-superlativo-issimo",
+   "topicTitle": "Bellissimo! – L’aggettivo con -issimo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Per dire **molto** + aggettivo usiamo **-issimo**:\n| bello → **bellissimo** | molto bello |\n| buono → **buonissimo** | molto buono |\n| facile → **facilissimo** | molto facile |\n| lungo → **lunghissimo** | molto lungo |\n**-issimo** concorda: _una pizza buon**issima**, due ragazzi simpatic**issimi**._\nAnche con avverbi: _**benissimo**, **malissimo**, **tantissimo**_. E si può ripetere: _**piano piano**_ (molto piano).",
+   "ruleHelp": "**-issimo** heißt „sehr“: _bellissimo_ = sehr schön. Es passt sich an (-issimo/-issima/-issimi/-issime).\n-co/-go → **-chissimo/-ghissimo** (lunghissimo). Auch: benissimo, tantissimo. Verdopplung: _piano piano_.",
+   "order": 62
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Scegli la forma giusta.",
+    "explanation": "-co/-go → -chissimo/-ghissimo, ma simpatico → simpaticissimo.",
+    "promptHelp": "Wähle die richtige Form.",
+    "explanationHelp": "Achtung bei simpatico.",
+    "text": "lungo → [[g1]]\nricco → [[g2]]\nstanco → [[g3]]\nsimpatico → [[g4]]\nlargo → [[g5]]\nbianco → [[g6]]\nantico → [[g7]]\npoco → [[g8]]",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "lunghissimo",
+       "lungissimo"
+      ],
+      "answer": "lunghissimo"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "ricchissimo",
+       "riccissimo"
+      ],
+      "answer": "ricchissimo"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "stanchissimo",
+       "stancissimo"
+      ],
+      "answer": "stanchissimo"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "simpaticissimo",
+       "simpatichissimo"
+      ],
+      "answer": "simpaticissimo"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "larghissimo",
+       "largissimo"
+      ],
+      "answer": "larghissimo"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "bianchissimo",
+       "biancissimo"
+      ],
+      "answer": "bianchissimo"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "antichissimo",
+       "anticissimo"
+      ],
+      "answer": "antichissimo"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "pochissimo",
+       "pocissimo"
+      ],
+      "answer": "pochissimo"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-superlativo-issimo-m3",
+  "title": "Piano piano",
+  "language": "it",
+  "level": "A1",
+  "description": "Bellissimo! – L’aggettivo con -issimo · Piano piano · livello medio.",
+  "topics": [
+   "Bellissimo! – L’aggettivo con -issimo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · absoluter Superlativ (-issimo), Steigerung mit molto"
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-superlativo-issimo",
+   "topicTitle": "Bellissimo! – L’aggettivo con -issimo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Per dire **molto** + aggettivo usiamo **-issimo**:\n| bello → **bellissimo** | molto bello |\n| buono → **buonissimo** | molto buono |\n| facile → **facilissimo** | molto facile |\n| lungo → **lunghissimo** | molto lungo |\n**-issimo** concorda: _una pizza buon**issima**, due ragazzi simpatic**issimi**._\nAnche con avverbi: _**benissimo**, **malissimo**, **tantissimo**_. E si può ripetere: _**piano piano**_ (molto piano).",
+   "ruleHelp": "**-issimo** heißt „sehr“: _bellissimo_ = sehr schön. Es passt sich an (-issimo/-issima/-issimi/-issime).\n-co/-go → **-chissimo/-ghissimo** (lunghissimo). Auch: benissimo, tantissimo. Verdopplung: _piano piano_.",
+   "order": 63
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Abbina la ripetizione al significato.",
+    "explanation": "",
+    "promptHelp": "Verbinde.",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "piano piano",
+      "right": "sehr langsam / ganz allmählich"
+     },
+     {
+      "id": "p2",
+      "left": "presto presto",
+      "right": "ganz schnell"
+     },
+     {
+      "id": "p3",
+      "left": "pian pianino",
+      "right": "ganz sachte"
+     },
+     {
+      "id": "p4",
+      "left": "caldo caldo",
+      "right": "ganz warm"
+     },
+     {
+      "id": "p5",
+      "left": "vicino vicino",
+      "right": "ganz nah"
+     },
+     {
+      "id": "p6",
+      "left": "zitto zitto",
+      "right": "ganz still"
+     },
+     {
+      "id": "p7",
+      "left": "bello bello",
+      "right": "richtig schön"
+     },
+     {
+      "id": "p8",
+      "left": "forte forte",
+      "right": "ganz fest"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-superlativo-issimo-s1",
+  "title": "Trova gli errori",
+  "language": "it",
+  "level": "A1",
+  "description": "Bellissimo! – L’aggettivo con -issimo · Trova gli errori · livello difficile.",
+  "topics": [
+   "Bellissimo! – L’aggettivo con -issimo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · absoluter Superlativ (-issimo), Steigerung mit molto"
+  },
+  "estimatedMinutes": 10,
+  "grammar": {
+   "topic": "ecco1-superlativo-issimo",
+   "topicTitle": "Bellissimo! – L’aggettivo con -issimo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Per dire **molto** + aggettivo usiamo **-issimo**:\n| bello → **bellissimo** | molto bello |\n| buono → **buonissimo** | molto buono |\n| facile → **facilissimo** | molto facile |\n| lungo → **lunghissimo** | molto lungo |\n**-issimo** concorda: _una pizza buon**issima**, due ragazzi simpatic**issimi**._\nAnche con avverbi: _**benissimo**, **malissimo**, **tantissimo**_. E si può ripetere: _**piano piano**_ (molto piano).",
+   "ruleHelp": "**-issimo** heißt „sehr“: _bellissimo_ = sehr schön. Es passt sich an (-issimo/-issima/-issimi/-issime).\n-co/-go → **-chissimo/-ghissimo** (lunghissimo). Auch: benissimo, tantissimo. Verdopplung: _piano piano_.",
+   "order": 61
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Correggi gli otto errori.",
+    "explanation": "Non usare molto con -issimo.",
+    "promptHelp": "Korrigiere die acht Fehler.",
+    "explanationHelp": "Nicht molto + -issimo.",
+    "text": "La pizza è [[g1]].\nLe montagne sono [[g2]].\nIl fiume è [[g3]].\nSto [[g4]], grazie!\nI miei cugini sono [[g5]].\nSono [[g6]] dopo la gita.\nÈ una città [[g7]].\nIl test è [[g8]].",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "buonissimo",
+      "acceptedAnswers": [
+       "buonissima"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "altissimi",
+      "acceptedAnswers": [
+       "altissime"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "lungissimo",
+      "acceptedAnswers": [
+       "lunghissimo"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "buonissimo",
+      "acceptedAnswers": [
+       "benissimo"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "simpatichissimi",
+      "acceptedAnswers": [
+       "simpaticissimi"
+      ]
+     },
+     {
+      "id": "g6",
+      "wrong": "stancissima",
+      "acceptedAnswers": [
+       "stanchissima"
+      ]
+     },
+     {
+      "id": "g7",
+      "wrong": "anticissima",
+      "acceptedAnswers": [
+       "antichissima"
+      ]
+     },
+     {
+      "id": "g8",
+      "wrong": "molto facilissimo",
+      "acceptedAnswers": [
+       "facilissimo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-superlativo-issimo-s2",
+  "title": "Recensione di un ristorante",
+  "language": "it",
+  "level": "A1",
+  "description": "Bellissimo! – L’aggettivo con -issimo · Recensione di un ristorante · livello difficile.",
+  "topics": [
+   "Bellissimo! – L’aggettivo con -issimo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · absoluter Superlativ (-issimo), Steigerung mit molto"
+  },
+  "estimatedMinutes": 11,
+  "grammar": {
+   "topic": "ecco1-superlativo-issimo",
+   "topicTitle": "Bellissimo! – L’aggettivo con -issimo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Per dire **molto** + aggettivo usiamo **-issimo**:\n| bello → **bellissimo** | molto bello |\n| buono → **buonissimo** | molto buono |\n| facile → **facilissimo** | molto facile |\n| lungo → **lunghissimo** | molto lungo |\n**-issimo** concorda: _una pizza buon**issima**, due ragazzi simpatic**issimi**._\nAnche con avverbi: _**benissimo**, **malissimo**, **tantissimo**_. E si può ripetere: _**piano piano**_ (molto piano).",
+   "ruleHelp": "**-issimo** heißt „sehr“: _bellissimo_ = sehr schön. Es passt sich an (-issimo/-issima/-issimi/-issime).\n-co/-go → **-chissimo/-ghissimo** (lunghissimo). Auch: benissimo, tantissimo. Verdopplung: _piano piano_.",
+   "order": 62
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Scrivi l’aggettivo con -issimo.",
+    "explanation": "",
+    "promptHelp": "Ergänze mit -issimo.",
+    "text": "Il ristorante «Da Gigi» è (piccolo) [[g1]], ma (accogliente) [[g2]].\nIl cameriere è (simpatico) [[g3]].\nLa pasta è (fresco) [[g4]] e le pizze sono (buono) [[g5]].\nI prezzi sono (basso) [[g6]].\nIl tiramisù? (buono) [[g7]]!\nPeccato: la musica è (forte) [[g8]]…\nVoto: 9! Ci torniamo (presto) [[g9]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "piccolissimo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "accoglientissimo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "simpaticissimo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "freschissima"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "buonissime"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "bassissimi"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Buonissimo"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "fortissima"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "prestissimo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-superlativo-issimo-s3",
+  "title": "Il mio posto del cuore",
+  "language": "it",
+  "level": "A1",
+  "description": "Bellissimo! – L’aggettivo con -issimo · Il mio posto del cuore · livello difficile.",
+  "topics": [
+   "Bellissimo! – L’aggettivo con -issimo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "series": "Corso daje",
+    "volume": "1",
+    "unit": "Extra 1 · In giro per l’Italia",
+    "section": "Grammatica"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ],
+   "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · absoluter Superlativ (-issimo), Steigerung mit molto"
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-superlativo-issimo",
+   "topicTitle": "Bellissimo! – L’aggettivo con -issimo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Per dire **molto** + aggettivo usiamo **-issimo**:\n| bello → **bellissimo** | molto bello |\n| buono → **buonissimo** | molto buono |\n| facile → **facilissimo** | molto facile |\n| lungo → **lunghissimo** | molto lungo |\n**-issimo** concorda: _una pizza buon**issima**, due ragazzi simpatic**issimi**._\nAnche con avverbi: _**benissimo**, **malissimo**, **tantissimo**_. E si può ripetere: _**piano piano**_ (molto piano).",
+   "ruleHelp": "**-issimo** heißt „sehr“: _bellissimo_ = sehr schön. Es passt sich an (-issimo/-issima/-issimi/-issime).\n-co/-go → **-chissimo/-ghissimo** (lunghissimo). Auch: benissimo, tantissimo. Verdopplung: _piano piano_.",
+   "order": 63
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Descrivi il tuo posto preferito (una città, un parco, una spiaggia). Usa almeno 5 aggettivi con -issimo.",
+    "explanation": "",
+    "promptHelp": "Beschreibe deinen Lieblingsort mit mindestens 5 Formen auf -issimo.",
+    "modelAnswer": "Il mio posto preferito è il lago di Garda. L’acqua è pulitissima e azzurrissima. I paesi sono bellissimi e il gelato è buonissimo. In estate fa caldissimo, ma la sera è freschissimo.",
+    "lines": 6
+   },
+   {
+    "id": "q2",
+    "type": "gap_choice",
+    "prompt": "Controlla: quale forma?",
+    "explanation": "",
+    "promptHelp": "Welche Form?",
+    "text": "L’acqua è [[g1]].\nI paesi sono [[g2]].\nIn estate fa [[g3]].\nLe spiagge sono [[g4]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "pulitissima",
+       "pulitissimo"
+      ],
+      "answer": "pulitissima"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "bellissimi",
+       "bellissime"
+      ],
+      "answer": "bellissimi"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "caldissimo",
+       "caldissima"
+      ],
+      "answer": "caldissimo"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "lunghissime",
+       "lungissime"
+      ],
+      "answer": "lunghissime"
      }
     ]
    }

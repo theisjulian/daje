@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-qualcuno-qualcosa-s2",
+ "title": "Un mistero in classe",
+ "language": "it",
+ "level": "A1",
+ "description": "Qualcuno, qualcosa, ognuno, ogni · Un mistero in classe · livello difficile.",
+ "topics": [
+  "Qualcuno, qualcosa, ognuno, ogni",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-qualcuno-qualcosa",
+  "topicTitle": "Qualcuno, qualcosa, ognuno, ogni",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 82,
+  "rule": "- **qualcuno** = una persona (non so chi): _C’è **qualcuno**?_\n- **qualcosa** = una cosa (non so cosa): _Vuoi **qualcosa** da bere?_\n- **ognuno** = ogni persona: _**Ognuno** porta un panino._\n- **ogni** + nome singolare: _**ogni** giorno, **ogni** settimana_\n- **qualcosa di** + aggettivo: _qualcosa **di** bello_ · **qualcosa da** + infinito: _qualcosa **da** mangiare_",
+  "ruleHelp": "**qualcuno** = jemand, **qualcosa** = etwas, **ognuno** = jeder (Person), **ogni** + Singular = jede(r/s).\n_qualcosa di nuovo_ (etwas Neues), _qualcosa da bere_ (etwas zu trinken)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa la storia.",
+   "promptHelp": "Ergänze die Geschichte.",
+   "type": "gap_fill",
+   "text": "Lunedì mattina in classe c’è [[g1]] di strano: la lavagna è piena di disegni.\n«Chi è stato? [[g2]] è entrato di notte!», dice la prof.\nNessuno sa [[g3]].\n[[g4]] guarda il compagno vicino.\nPoi Pietro dice: «Ho visto [[g5]] con un cappello nero ieri sera.»\nLa prof chiama il bidello: anche lui non ha visto [[g6]].\nAlla fine si scopre: è il nuovo professore di arte! Ha fatto [[g7]] di bello per la classe.\nE da allora disegna sulla lavagna [[g8]] lunedì.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "qualcosa"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Qualcuno"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "niente"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Ognuno"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "qualcuno"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "nessuno"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "qualcosa"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "ogni"
+     ]
+    }
+   ]
+  }
+ ]
+}

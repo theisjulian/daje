@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-riflessivo-m1",
+ "title": "La mattina di Chiara",
+ "language": "it",
+ "level": "A1",
+ "description": "Mi sono alzato: il passato prossimo dei verbi riflessivi · La mattina di Chiara · livello medio.",
+ "topics": [
+  "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo (reflexive Verben, piacere)"
+ },
+ "grammar": {
+  "topic": "ecco1-passato-riflessivo",
+  "topicTitle": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 71,
+  "rule": "I verbi riflessivi formano il passato prossimo con **essere**. Il participio **concorda** con il soggetto:\n| io | **mi sono** alzato/-a |\n| tu | **ti sei** alzato/-a |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati/-e |\n| voi | **vi siete** alzati/-e |\n| loro | **si sono** alzati/-e |\nAnche **piacere** usa essere: _La pizza mi è piaciut**a**. I film mi sono piaciut**i**._",
+  "ruleHelp": "Reflexive Verben bilden das passato prossimo mit **essere**; das Partizip richtet sich nach dem Subjekt: _Anna si è alzata. Ci siamo divertiti._\nAuch **piacere** mit essere: _La pizza mi è piaciuta._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Metti i verbi al passato prossimo.",
+   "promptHelp": "Setze die Verben ins passato prossimo.",
+   "type": "gap_fill",
+   "text": "Ieri Chiara (svegliarsi) [[g1]] alle sei e mezza.\n(alzarsi) [[g2]] subito e (lavarsi) [[g3]].\nPoi (vestirsi) [[g4]] e ha fatto colazione.\nLei e suo fratello (prepararsi) [[g5]] per la scuola.\nA scuola le ragazze (sedersi) [[g6]] vicino alla finestra.\nDopo la lezione Chiara e Ada (incontrarsi) [[g7]] in piazza.\nLa sera Chiara (addormentarsi) [[g8]] presto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "si è svegliata"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Si è alzata"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "si è lavata"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "si è vestita"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "si sono preparati"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "si sono sedute"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "si sono incontrate"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "si è addormentata"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-qualcuno-qualcosa-s1",
+ "title": "Trova gli errori",
+ "language": "it",
+ "level": "A1",
+ "description": "Qualcuno, qualcosa, ognuno, ogni · Trova gli errori · livello difficile.",
+ "topics": [
+  "Qualcuno, qualcosa, ognuno, ogni",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-qualcuno-qualcosa",
+  "topicTitle": "Qualcuno, qualcosa, ognuno, ogni",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 81,
+  "rule": "- **qualcuno** = una persona (non so chi): _C’è **qualcuno**?_\n- **qualcosa** = una cosa (non so cosa): _Vuoi **qualcosa** da bere?_\n- **ognuno** = ogni persona: _**Ognuno** porta un panino._\n- **ogni** + nome singolare: _**ogni** giorno, **ogni** settimana_\n- **qualcosa di** + aggettivo: _qualcosa **di** bello_ · **qualcosa da** + infinito: _qualcosa **da** mangiare_",
+  "ruleHelp": "**qualcuno** = jemand, **qualcosa** = etwas, **ognuno** = jeder (Person), **ogni** + Singular = jede(r/s).\n_qualcosa di nuovo_ (etwas Neues), _qualcosa da bere_ (etwas zu trinken)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Correggi gli otto errori.",
+   "promptHelp": "Korrigiere die acht Fehler.",
+   "type": "error_correction",
+   "text": "C’è [[g1]] alla porta?\nVuoi qualcosa [[g2]] bere?\nHo visto qualcosa [[g3]] strano.\n[[g4]] giorno vado a scuola.\n[[g5]] porta un panino.\nVado al cinema ogni [[g6]].\nHai mangiato qualcosa? – No, [[g7]].\nC’è qualcuno? – No, non c’è [[g8]].",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "qualcosa",
+     "acceptedAnswers": [
+      "qualcuno"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "di",
+     "acceptedAnswers": [
+      "da"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "da",
+     "acceptedAnswers": [
+      "di"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "Ognuno",
+     "acceptedAnswers": [
+      "Ogni"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "Ogni",
+     "acceptedAnswers": [
+      "Ognuno"
+     ]
+    },
+    {
+     "id": "g6",
+     "wrong": "settimane",
+     "acceptedAnswers": [
+      "settimana"
+     ]
+    },
+    {
+     "id": "g7",
+     "wrong": "ho mangiato niente",
+     "acceptedAnswers": [
+      "non ho mangiato niente"
+     ]
+    },
+    {
+     "id": "g8",
+     "wrong": "niente",
+     "acceptedAnswers": [
+      "nessuno"
+     ]
+    }
+   ]
+  }
+ ]
+}

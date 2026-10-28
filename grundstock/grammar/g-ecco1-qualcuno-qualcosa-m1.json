@@ -1,0 +1,124 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-qualcuno-qualcosa-m1",
+ "title": "Di o da?",
+ "language": "it",
+ "level": "A1",
+ "description": "Qualcuno, qualcosa, ognuno, ogni · Di o da? · livello medio.",
+ "topics": [
+  "Qualcuno, qualcosa, ognuno, ogni",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Indefinitpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-qualcuno-qualcosa",
+  "topicTitle": "Qualcuno, qualcosa, ognuno, ogni",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 81,
+  "rule": "- **qualcuno** = una persona (non so chi): _C’è **qualcuno**?_\n- **qualcosa** = una cosa (non so cosa): _Vuoi **qualcosa** da bere?_\n- **ognuno** = ogni persona: _**Ognuno** porta un panino._\n- **ogni** + nome singolare: _**ogni** giorno, **ogni** settimana_\n- **qualcosa di** + aggettivo: _qualcosa **di** bello_ · **qualcosa da** + infinito: _qualcosa **da** mangiare_",
+  "ruleHelp": "**qualcuno** = jemand, **qualcosa** = etwas, **ognuno** = jeder (Person), **ogni** + Singular = jede(r/s).\n_qualcosa di nuovo_ (etwas Neues), _qualcosa da bere_ (etwas zu trinken)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli di o da.",
+   "promptHelp": "Wähle di oder da.",
+   "explanation": "qualcosa di + aggettivo, qualcosa da + infinito.",
+   "explanationHelp": "di + Adjektiv, da + Infinitiv.",
+   "type": "gap_choice",
+   "text": "Vuoi qualcosa [[g1]] bere?\nHo visto qualcosa [[g2]] strano.\nMi racconti qualcosa [[g3]] nuovo?\nNon ho niente [[g4]] fare.\nPrendo qualcosa [[g5]] leggere per il viaggio.\nÈ successo qualcosa [[g6]] grave?\nCerco qualcosa [[g7]] economico.\nHai qualcosa [[g8]] mangiare?",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "da",
+      "di"
+     ],
+     "answer": "da"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "di",
+      "da"
+     ],
+     "answer": "di"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "di",
+      "da"
+     ],
+     "answer": "di"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "da",
+      "di"
+     ],
+     "answer": "da"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "da",
+      "di"
+     ],
+     "answer": "da"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "di",
+      "da"
+     ],
+     "answer": "di"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "di",
+      "da"
+     ],
+     "answer": "di"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "da",
+      "di"
+     ],
+     "answer": "da"
+    }
+   ]
+  }
+ ]
+}

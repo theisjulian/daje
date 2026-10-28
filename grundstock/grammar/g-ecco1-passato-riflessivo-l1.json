@@ -1,0 +1,122 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-riflessivo-l1",
+ "title": "Essere o avere?",
+ "language": "it",
+ "level": "A1",
+ "description": "Mi sono alzato: il passato prossimo dei verbi riflessivi · Essere o avere? · livello facile.",
+ "topics": [
+  "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo (reflexive Verben, piacere)"
+ },
+ "grammar": {
+  "topic": "ecco1-passato-riflessivo",
+  "topicTitle": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 71,
+  "rule": "I verbi riflessivi formano il passato prossimo con **essere**. Il participio **concorda** con il soggetto:\n| io | **mi sono** alzato/-a |\n| tu | **ti sei** alzato/-a |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati/-e |\n| voi | **vi siete** alzati/-e |\n| loro | **si sono** alzati/-e |\nAnche **piacere** usa essere: _La pizza mi è piaciut**a**. I film mi sono piaciut**i**._",
+  "ruleHelp": "Reflexive Verben bilden das passato prossimo mit **essere**; das Partizip richtet sich nach dem Subjekt: _Anna si è alzata. Ci siamo divertiti._\nAuch **piacere** mit essere: _La pizza mi è piaciuta._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Scegli l’ausiliare giusto.",
+   "promptHelp": "Wähle das richtige Hilfsverb.",
+   "type": "gap_choice",
+   "text": "Stamattina mi [[g1]] alzato alle sette.\nAnna si [[g2]] vestita in fretta.\nCi [[g3]] divertiti alla festa.\nRagazzi, vi [[g4]] lavati le mani?\nI bambini si [[g5]] addormentati presto.\nTu ti [[g6]] svegliata tardi?\nIeri Marco [[g7]] mangiato la pizza.\nIl film mi [[g8]] piaciuto molto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "sono",
+      "ho"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "è",
+      "ha"
+     ],
+     "answer": "è"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "siamo",
+      "abbiamo"
+     ],
+     "answer": "siamo"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "siete",
+      "avete"
+     ],
+     "answer": "siete"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "sono",
+      "hanno"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "sei",
+      "hai"
+     ],
+     "answer": "sei"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "ha",
+      "è"
+     ],
+     "answer": "ha"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "è",
+      "ha"
+     ],
+     "answer": "è"
+    }
+   ]
+  }
+ ]
+}

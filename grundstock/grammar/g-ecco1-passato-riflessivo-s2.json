@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-riflessivo-s2",
+ "title": "Una gita a Verona",
+ "language": "it",
+ "level": "A1",
+ "description": "Mi sono alzato: il passato prossimo dei verbi riflessivi · Una gita a Verona · livello difficile.",
+ "topics": [
+  "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 10,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · passato prossimo (reflexive Verben, piacere)"
+ },
+ "grammar": {
+  "topic": "ecco1-passato-riflessivo",
+  "topicTitle": "Mi sono alzato: il passato prossimo dei verbi riflessivi",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 72,
+  "rule": "I verbi riflessivi formano il passato prossimo con **essere**. Il participio **concorda** con il soggetto:\n| io | **mi sono** alzato/-a |\n| tu | **ti sei** alzato/-a |\n| lui / lei | **si è** alzato / alzata |\n| noi | **ci siamo** alzati/-e |\n| voi | **vi siete** alzati/-e |\n| loro | **si sono** alzati/-e |\nAnche **piacere** usa essere: _La pizza mi è piaciut**a**. I film mi sono piaciut**i**._",
+  "ruleHelp": "Reflexive Verben bilden das passato prossimo mit **essere**; das Partizip richtet sich nach dem Subjekt: _Anna si è alzata. Ci siamo divertiti._\nAuch **piacere** mit essere: _La pizza mi è piaciuta._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Racconta al passato prossimo.",
+   "promptHelp": "Erzähle im passato prossimo.",
+   "type": "gap_fill",
+   "text": "Sabato io e la mia classe (svegliarsi) [[g1]] prestissimo.\nIl pullman (partire) [[g2]] alle sei.\nDurante il viaggio Luca (addormentarsi) [[g3]].\nA Verona (noi, vedere) [[g4]] l’Arena.\nLa casa di Giulietta mi (piacere) [[g5]] molto.\nLe ragazze (fermarsi) [[g6]] in un negozio di souvenir.\nA pranzo (noi, mangiare) [[g7]] in una pizzeria.\nTutti (divertirsi) [[g8]] tantissimo!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ci siamo svegliati"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "è partito"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "si è addormentato"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "abbiamo visto"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "è piaciuta"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "si sono fermate"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "abbiamo mangiato"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "si sono divertiti"
+     ]
+    }
+   ]
+  }
+ ]
+}

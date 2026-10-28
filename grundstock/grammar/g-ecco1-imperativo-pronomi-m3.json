@@ -1,0 +1,106 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-imperativo-pronomi-m3",
+ "title": "In cucina con il nonno",
+ "language": "it",
+ "level": "A1",
+ "description": "L’imperativo con i pronomi: dimmi, fallo! · In cucina con il nonno · livello medio.",
+ "topics": [
+  "L’imperativo con i pronomi: dimmi, fallo!",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung (daje), Primo anno, Extra 1 · In giro per l’Italia · Grammatica.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "series": "Corso daje",
+   "volume": "1",
+   "unit": "Extra 1 · In giro per l’Italia",
+   "section": "Grammatica"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ],
+  "curriculum": "LehrplanPLUS Gymnasium Bayern, Italienisch (3. Fremdsprache), Jgst. 8 · Imperativ (tu, voi) mit Objektpronomen"
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo-pronomi",
+  "topicTitle": "L’imperativo con i pronomi: dimmi, fallo!",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 43,
+  "rule": "Con l’**imperativo** (tu, noi, voi) il pronome va **attaccato** al verbo:\n- _Compra**lo**!_ · _Chiama**mi**!_ · _Scrivete**le**!_\nCon **da’, di’, fa’, sta’, va’** la consonante del pronome **raddoppia**:\n- _di’ + mi → **dimmi**_ · _fa’ + lo → **fallo**_ · _da’ + mi → **dammi**_\nCon il **negativo** (tu): _**Non** lo comprare!_ o _Non comprar**lo**!_",
+  "ruleHelp": "Beim **Imperativ** (tu, noi, voi) hängt das Pronomen **am Verb**: _Compralo! Chiamami!_\nBei da’, di’, fa’, sta’, va’ verdoppelt sich der Anlaut: **dimmi, fallo, dammi**.\nVerneint (tu): _Non lo comprare!_ oder _Non comprarlo!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Completa l’imperativo con il pronome.",
+   "promptHelp": "Ergänze Imperativ + Pronomen.",
+   "type": "gap_fill",
+   "text": "Prendi le uova e (rompere, le) [[g1]] in una ciotola.\nEcco lo zucchero: (mettere, lo) [[g2]] con le uova.\nLa farina? (aggiungere, la) [[g3]] piano piano.\nIl latte? (versare, lo) [[g4]] adesso.\nHai una domanda? (fare, la) [[g5]]!\nNon sai dov’è il burro? (chiedere, lo) [[g6]] alla nonna.\nIl forno? (accendere, lo) [[g7]] a 180 gradi.\nE quando la torta è pronta, (dare, mi) [[g8]] un pezzo!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "rompile"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "mettilo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Aggiungila"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "Versalo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Falla"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "Chiedilo"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "Accendilo"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "dammi"
+     ]
+    }
+   ]
+  }
+ ]
+}
