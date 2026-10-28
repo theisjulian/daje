@@ -420,6 +420,9 @@
    "page": "192-194",
    "definition": "Domandare qualcosa a una persona.",
    "example": "Giorgia chiama Leo e gli chiede di venire.",
+   "acceptedAnswers": [
+    "chiedere a"
+   ],
    "usage": "p.p. chiesto. Beachte die verschiedenen Verwendungen: Khalid chiede un po’ di pane a suo padre. – Khalid bittet seinen Vater um etwas Brot. / Anna chiede a Khalid: „Vieni stasera?“ – Anna fragt Khalid: „Kommst du heute Abend?“ / Anna chiede a Khalid di venire alla festa. – Anna bittet Khalid zum Fest zu kommen. Ein Infinitiv wird an chiedere mit der Präposition di angeschlossen."
   },
   {
@@ -433,6 +436,9 @@
    "definition": "Aver necessità di qualcosa.",
    "example": "Ho bisogno di pane per la cena.",
    "related": "F avoir besoin",
+   "acceptedAnswers": [
+    "avere bisogno di"
+   ],
    "usage": "Abc"
   },
   {
@@ -548,6 +554,9 @@
    "page": "192-194",
    "definition": "Visitare una persona brevemente.",
    "example": "Khalid fa un salto da suo padre.",
+   "acceptedAnswers": [
+    "fare un salto da"
+   ],
    "usage": "Abc"
   },
   {
@@ -579,7 +588,7 @@
    "page": "192-194",
    "definition": "Risposta a “grazie”.",
    "example": "Grazie! – Prego!",
-   "related": "≠ grazie",
+   "antonyms": "grazie",
    "usage": "avv. Unterscheide: Mi puoi passare l’acqua, per favore? – Kannst Du mir bitte das Wasser reichen? / Grazie di tutto! – Prego! – Danke für alles – Bitteschön!"
   },
   {
@@ -729,7 +738,8 @@
    "page": "192-194",
    "definition": "Preparare il cibo con il fuoco.",
    "example": "La madre sa cucinare bene.",
-   "related": "▸ la cucina; F cuisiner"
+   "family": "la cucina",
+   "related": "F cuisiner"
   },
   {
    "id": "u6-6b-047",

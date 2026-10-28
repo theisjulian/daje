@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
-"""Wandelt werkzeuge/ecco1/*.txt (transkribierte Lehrwerksseiten) in Wortschatz-Pakete (Schema 1.2)
-unter grundstock/vocabulary/. Aufruf:  python3 werkzeuge/ecco_import.py [datei.txt ...]
+"""Wandelt werkzeuge/ecco*/lista-*.txt bzw. quelle-*.txt (transkribierte Lehrwerksseiten) in Wortschatz-Pakete
+(Schema 1.2) unter grundstock/vocabulary/. Aufruf:  python3 werkzeuge/ecco_import.py [datei.txt ...]
+lista-*.txt: Zielwort|Übersetzungen|Hinweis|Beispiel|Dritte Spalte (+ defs-/related-Dateien)
+quelle-*.txt: Zielwort|Übersetzungen|Hinweis|Dritte Spalte|Erklärung|Beispiel (alles in einer Datei)
+Dritte Spalte: „E …; F …; L …“ → related, „= …“ → synonyms, „≠ …“ → antonyms, „▸ …“ → family.
 Danach:  node werkzeuge/bundle_stock.cjs"""
 import json, re, sys, pathlib
 
@@ -20,6 +23,10 @@ def variants(t):
     s = re.sub(r'\s*\([^)]*\)', '', t).strip()
     if s != t and s:
         out.append(s)
+    # „apprezzare qn/qs“ → auch „apprezzare“ gilt
+    q = re.sub(r'\s*\b(qn|qs|qc)(/(qn|qs|qc))?\b', '', s or t).strip()
+    if q and q != t and q != s:
+        out.append(q)
     m = re.match(r'^\((il|la|lo|l’)\) (.+)$', t)
     if m:
         out += [m.group(2), m.group(1) + ' ' + m.group(2)]
@@ -29,14 +36,15 @@ def build(header, rows):
     sid, unit, sect, title, pages, themes = [x.strip() for x in header.split('|')][:6]
     pkg_id = f"it-{BOOK['prefix']}-" + sid
     entries = []
-    for i, (t, trs, hint, opt, ex, rel) in enumerate(rows, 1):
+    for i, (t, trs, hint, opt, ex, rel, de) in enumerate(rows, 1):
         e = {'id': f'{sid}-{i:03d}', 'target': t, 'translations': trs, 'page': pages}
         if opt: e['tags'] = ['fakultativ']
         d = DEFS.get(t)
-        if d and d[0]: e['definition'] = d[0]
+        if not de and d and d[0]: de = d[0]
+        if de: e['definition'] = de
         if not ex and d and d[1]: ex = d[1]
         if ex: e['example'] = ex
-        if rel: e['related'] = rel
+        e.update(split_third(rel))
         acc = variants(t)
         if acc: e['acceptedAnswers'] = acc
         if hint.startswith('Unterscheide:'): e['contrast'] = hint[len('Unterscheide:'):].strip()
@@ -70,6 +78,19 @@ def build(header, rows):
                     'themes': [x.strip() for x in themes.split(',')][:5], 'tags': ['lehrwerk', 'vokabeln']}
     }
     return pkg_id, p
+
+def split_third(rel):
+    """Dritte Spalte des Buchs in die Felder der App aufteilen."""
+    out = {}
+    for part in [p.strip() for p in re.split(r';\s*', rel or '') if p.strip()]:
+        for sym, key in (('≠', 'antonyms'), ('▸', 'family'), ('=', 'synonyms')):
+            if part.startswith(sym):
+                v = part[len(sym):].strip()
+                out[key] = (out[key] + ', ' + v) if key in out else v
+                break
+        else:
+            out['related'] = (out['related'] + '; ' + part) if 'related' in out else part
+    return out
 
 DEFS = {}
 def load_defs(path):
@@ -111,14 +132,18 @@ def parse(path):
         t = t.lstrip('*').strip()
         trs = [x.strip() for x in parts[1].split(';') if x.strip()]
         hint = parts[2].strip() if len(parts) > 2 else ''
-        ex = parts[3].strip() if len(parts) > 3 else ''
-        rel = parts[4].strip() if len(parts) > 4 else ''
+        if path.name.startswith('quelle-'):
+            rel, de, ex = [(parts[k].strip() if len(parts) > k else '') for k in (3, 4, 5)]
+        else:
+            ex = parts[3].strip() if len(parts) > 3 else ''
+            rel = parts[4].strip() if len(parts) > 4 else ''
+            de = ''
         if not rel: rel = RELATED.get(t, '')
-        cur[1].append((t, trs, hint, opt, ex, rel))
+        cur[1].append((t, trs, hint, opt, ex, rel, de))
     return pk
 
 if __name__ == '__main__':
-    files = [pathlib.Path(a) for a in sys.argv[1:]] or sorted((ROOT / 'werkzeuge').glob('ecco[0-9]/lista-*.txt'))
+    files = [pathlib.Path(a) for a in sys.argv[1:]] or sorted((ROOT / 'werkzeuge').glob('ecco[0-9]/lista-*.txt')) + sorted((ROOT / 'werkzeuge').glob('ecco[0-9]/quelle-*.txt'))
     OUT.mkdir(parents=True, exist_ok=True)
     n = 0
     DEFAULT = dict(BOOK)

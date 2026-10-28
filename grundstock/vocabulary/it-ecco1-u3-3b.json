@@ -147,7 +147,7 @@
    "page": "180-181",
    "definition": "In alcune occasioni, non sempre.",
    "example": "Qualche volta leggo libri, ma non spesso.",
-   "related": "≠ spesso",
+   "antonyms": "spesso",
    "usage": "avv."
   },
   {
@@ -275,7 +275,8 @@
    "page": "180-181",
    "definition": "Mettere una cosa nelle mani di un altro.",
    "example": "Il prof dà i voti ai ragazzi.",
-   "related": "≠ prendere; L dare",
+   "antonyms": "prendere",
+   "related": "L dare",
    "acceptedAnswers": [
     "dare"
    ],
@@ -312,7 +313,10 @@
    ],
    "page": "180-181",
    "definition": "Espressione che indica il turno di qualcuno.",
-   "example": "Adesso tocca a me."
+   "example": "Adesso tocca a me.",
+   "acceptedAnswers": [
+    "tocca a"
+   ]
   },
   {
    "id": "u3-3b-023",
@@ -406,7 +410,8 @@
    "page": "180-181",
    "definition": "Che ha pochi anni.",
    "example": "Mia sorella è giovane.",
-   "related": "≠ vecchio; F jeune"
+   "antonyms": "vecchio",
+   "related": "F jeune"
   },
   {
    "id": "u3-3b-031",

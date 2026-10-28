@@ -49,7 +49,8 @@
    "page": "185-186",
    "definition": "Colore della notte.",
    "example": "Il gatto è nero.",
-   "related": "≠ bianco; F noir/e"
+   "antonyms": "bianco",
+   "related": "F noir/e"
   },
   {
    "id": "u4-4b-003",
@@ -262,6 +263,9 @@
    "page": "185-186",
    "definition": "Chiamare una persona con il telefono.",
    "example": "Giorgia telefona a Filippo.",
+   "acceptedAnswers": [
+    "telefonare a"
+   ],
    "usage": "Das Verb telefonare steht im Italienischen anders als im Deutschen mit indirektem Objekt: Ich rufe Giorgia an. – Telefono a Giorgia."
   },
   {
@@ -273,7 +277,7 @@
    "page": "185-186",
    "definition": "Parola con cui si risponde al telefono.",
    "example": "Pronto? Chi parla?",
-   "related": "▸ pronto/-a"
+   "family": "pronto/-a"
   },
   {
    "id": "u4-4b-019",

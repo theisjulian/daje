@@ -97,7 +97,10 @@
    ],
    "page": "215-216",
    "definition": "Finire gli studi all’università.",
-   "example": "Mi laureo in medicina."
+   "example": "Mi laureo in medicina.",
+   "acceptedAnswers": [
+    "laurearsi in"
+   ]
   },
   {
    "id": "u4-4b-007",
@@ -221,7 +224,7 @@
    "page": "215-216",
    "definition": "Azienda, attività economica.",
    "example": "Mio padre ha un’impresa.",
-   "related": "▸ imprenditore/imprenditrice"
+   "family": "imprenditore/imprenditrice"
   },
   {
    "id": "u4-4b-015",
@@ -244,7 +247,10 @@
    "page": "215-216",
    "definition": "Parole di lode.",
    "example": "Complimenti per il voto!",
-   "related": "F/E compliment"
+   "related": "F/E compliment",
+   "acceptedAnswers": [
+    "complimenti per"
+   ]
   },
   {
    "id": "u4-4b-017",
@@ -346,7 +352,8 @@
    "page": "215-216",
    "definition": "Il tempo che verrà.",
    "example": "Nel futuro voglio viaggiare.",
-   "related": "≠ il passato; E future",
+   "antonyms": "il passato",
+   "related": "E future",
    "usage": "≠ il passato",
    "grammar": {
     "partOfSpeech": "noun",
@@ -580,7 +587,8 @@
    "page": "215-216",
    "definition": "Fuori dal comune.",
    "example": "È un giorno speciale.",
-   "related": "≠ normale; E special",
+   "antonyms": "normale",
+   "related": "E special",
    "usage": "≠ normale"
   },
   {
@@ -592,7 +600,7 @@
    "page": "215-216",
    "definition": "Che si muove in poco tempo, rapido.",
    "example": "La macchina è veloce.",
-   "related": "≠ lento",
+   "antonyms": "lento",
    "usage": "≠ lento"
   },
   {
@@ -604,7 +612,10 @@
    ],
    "page": "215-216",
    "definition": "In confronto a.",
-   "example": "Rispetto a ieri fa più caldo."
+   "example": "Rispetto a ieri fa più caldo.",
+   "acceptedAnswers": [
+    "rispetto a"
+   ]
   },
   {
    "id": "u4-4b-041",
@@ -634,7 +645,10 @@
    "page": "215-216",
    "definition": "Dare tempo e attenzione.",
    "example": "Mi dedico alla musica.",
-   "related": "E to dedicate"
+   "related": "E to dedicate",
+   "acceptedAnswers": [
+    "dedicarsi a"
+   ]
   },
   {
    "id": "u4-4b-043",

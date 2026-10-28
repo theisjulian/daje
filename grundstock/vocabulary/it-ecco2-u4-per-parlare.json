@@ -122,7 +122,10 @@
    ],
    "page": "217",
    "definition": "Comprare cibo per un’altra persona.",
-   "example": "Faccio la spesa per la vicina."
+   "example": "Faccio la spesa per la vicina.",
+   "acceptedAnswers": [
+    "fare la spesa per"
+   ]
   },
   {
    "id": "u4-per-parlare-010",
@@ -267,7 +270,8 @@
    "page": "217",
    "definition": "Persona che insegna.",
    "example": "L’insegnante spiega la lezione.",
-   "related": "F enseignant; = il/la prof(essore/-ssa)"
+   "related": "F enseignant",
+   "synonyms": "il/la prof(essore/-ssa)"
   },
   {
    "id": "u4-per-parlare-023",

@@ -120,6 +120,9 @@
    "definition": "Andare a vedere un luogo con curiosità.",
    "example": "Visitiamo il museo.",
    "related": "E to visit; F visiter",
+   "acceptedAnswers": [
+    "visitare"
+   ],
    "contrast": "visitare heißt nur „etw. besichtigen“, nicht „jdn besuchen“"
   },
   {
@@ -238,7 +241,7 @@
    "page": "170-171",
    "definition": "Persona che gioca a calcio.",
    "example": "Il calciatore segna un gol.",
-   "related": "▸ il calcio",
+   "family": "il calcio",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -312,7 +315,10 @@
    "page": "170-171",
    "definition": "Attraversare un luogo mentre vai in un altro.",
    "example": "Per andare in centro passo per il parco.",
-   "related": "F passer (par)"
+   "related": "F passer (par)",
+   "acceptedAnswers": [
+    "passare per"
+   ]
   },
   {
    "id": "u1-1b-020",
@@ -344,7 +350,7 @@
    "page": "170-171",
    "definition": "Area attrezzata per fare sport.",
    "example": "Il campo sportivo è vicino alla scuola.",
-   "related": "▸ lo sport",
+   "family": "lo sport",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -467,7 +473,7 @@
    "page": "170-171",
    "definition": "Scarpe con ruote in fila, per muoversi veloci.",
    "example": "Metto i pattini e vado al parco.",
-   "related": "▸ pattinare inline",
+   "family": "pattinare inline",
    "acceptedAnswers": [
     "i pattini"
    ],
@@ -516,7 +522,7 @@
    "page": "170-171",
    "definition": "Dopo, in seguito.",
    "example": "Prima faccio i compiti, poi gioco.",
-   "related": "= dopo",
+   "synonyms": "dopo",
    "usage": "avv."
   },
   {

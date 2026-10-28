@@ -48,7 +48,7 @@
    "page": "205-206",
    "definition": "Conversazione con opinioni diverse.",
    "example": "La discussione è molto animata.",
-   "related": "▸ discutere",
+   "family": "discutere",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -128,7 +128,10 @@
    "page": "205-206",
    "definition": "Dedicare tempo e attenzione.",
    "example": "Mi occupo del mio fratellino.",
-   "related": "F s’occuper de qn/qc"
+   "related": "F s’occuper de qn/qc",
+   "acceptedAnswers": [
+    "occuparsi di"
+   ]
   },
   {
    "id": "u2-2b-008",
@@ -281,7 +284,7 @@
    "page": "205-206",
    "definition": "Dedicarsi con serietà a qualcosa.",
    "example": "Mi impegno nel volontariato.",
-   "related": "= l’impegno",
+   "synonyms": "l’impegno",
    "acceptedAnswers": [
     "impegnarsi"
    ]
@@ -306,7 +309,10 @@
    "page": "205-206",
    "definition": "Avere la stessa opinione.",
    "example": "Sono d’accordo con te.",
-   "related": "F être d’accord avec qn"
+   "related": "F être d’accord avec qn",
+   "acceptedAnswers": [
+    "essere d’accordo con"
+   ]
   },
   {
    "id": "u2-2b-022",
@@ -487,7 +493,7 @@
    "page": "205-206",
    "definition": "Impegnarsi con energia.",
    "example": "Mi do da fare per aiutare la mia scuola.",
-   "related": "= impegnarsi",
+   "synonyms": "impegnarsi",
    "usage": "=impegnarsi"
   },
   {

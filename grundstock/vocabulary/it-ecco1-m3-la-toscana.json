@@ -201,7 +201,10 @@
     "fakultativ"
    ],
    "definition": "Che contiene molto di qualcosa.",
-   "example": "La piazza è piena di gente."
+   "example": "La piazza è piena di gente.",
+   "acceptedAnswers": [
+    "pieno/-a di"
+   ]
   },
   {
    "id": "m3-la-toscana-011",
@@ -383,6 +386,9 @@
    ],
    "definition": "Scherzare su qualcuno.",
    "example": "Luca prende in giro suo fratello.",
+   "acceptedAnswers": [
+    "prendere in giro"
+   ],
    "usage": "Abc"
   },
   {
@@ -537,7 +543,7 @@
    ],
    "definition": "Piccolo centro abitato.",
    "example": "Luca abita in un paese vicino a Torino.",
-   "related": "≠ città",
+   "antonyms": "città",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",

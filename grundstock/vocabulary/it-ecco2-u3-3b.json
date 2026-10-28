@@ -173,7 +173,7 @@
    "page": "209-210",
    "definition": "Questa mattina.",
    "example": "Stamattina ho fatto colazione presto.",
-   "related": "▸ la mattina"
+   "family": "la mattina"
   },
   {
    "id": "u3-3b-012",
@@ -185,7 +185,8 @@
    "page": "209-210",
    "definition": "Andare a vedere qualcosa o qualcuno.",
    "example": "La visita al museo è bellissima.",
-   "related": "▸ visitare; E visit; F la visite",
+   "family": "visitare",
+   "related": "E visit; F la visite",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -452,7 +453,7 @@
    "page": "209-210",
    "definition": "A grande distanza.",
    "example": "La stazione è lontana.",
-   "related": "≠ vicino/-a",
+   "antonyms": "vicino/-a",
    "usage": "≠ vicino/-a"
   },
   {
@@ -547,7 +548,10 @@
    ],
    "page": "209-210",
    "definition": "Condividere con altri.",
-   "example": "Abbiamo in comune la passione per il calcio."
+   "example": "Abbiamo in comune la passione per il calcio.",
+   "acceptedAnswers": [
+    "avere in comune"
+   ]
   },
   {
    "id": "u3-3b-039",
@@ -569,7 +573,7 @@
    "page": "209-210",
    "definition": "Poiché.",
    "example": "Visto che piove, restiamo a casa.",
-   "related": "= perché"
+   "synonyms": "perché"
   },
   {
    "id": "u3-3b-041",

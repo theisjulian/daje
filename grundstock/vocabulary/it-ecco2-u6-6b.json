@@ -169,7 +169,8 @@
    "page": "225-226",
    "definition": "Arte di produrre melodie con la voce.",
    "example": "Studio canto.",
-   "related": "▸ cantare, il/la cantante; F le chant; L cantus",
+   "family": "cantare, il/la cantante",
+   "related": "F le chant; L cantus",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -355,7 +356,10 @@
    ],
    "page": "225-226",
    "definition": "In aggiunta a.",
-   "example": "Oltre a te, viene anche Marco."
+   "example": "Oltre a te, viene anche Marco.",
+   "acceptedAnswers": [
+    "oltre a"
+   ]
   },
   {
    "id": "u6-6b-023",
@@ -367,7 +371,8 @@
    "page": "225-226",
    "definition": "Atto di creare un’organizzazione.",
    "example": "La fondazione aiuta i giovani.",
-   "related": "▸ fondare; E foundation",
+   "family": "fondare",
+   "related": "E foundation",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -521,7 +526,8 @@
    "page": "225-226",
    "definition": "Pianificare la costruzione di qualcosa.",
    "example": "Progetto una casa.",
-   "related": "▸ il progetto; E to project"
+   "family": "il progetto",
+   "related": "E to project"
   },
   {
    "id": "u6-6b-035",

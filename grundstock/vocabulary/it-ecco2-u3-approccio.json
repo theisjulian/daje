@@ -59,7 +59,8 @@
    "page": "207-208",
    "definition": "Luogo principale di un’organizzazione.",
    "example": "La sede della banca è a Milano.",
-   "related": "▸ sedersi; F le siège; L sedes",
+   "family": "sedersi",
+   "related": "F le siège; L sedes",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -150,7 +151,8 @@
    "page": "207-208",
    "definition": "Momento in cui due persone si vedono.",
    "example": "L’incontro è alle cinque.",
-   "related": "▸ incontrare; E encounter; F la rencontre"
+   "family": "incontrare",
+   "related": "E encounter; F la rencontre"
   },
   {
    "id": "u3-approccio-009",
@@ -181,7 +183,7 @@
    "page": "207-208",
    "definition": "Persona che suona uno strumento.",
    "example": "Il musicista suona il violino.",
-   "related": "▸ la musica",
+   "family": "la musica",
    "usage": "pl. i musicisti"
   },
   {

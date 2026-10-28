@@ -124,7 +124,9 @@
    ],
    "definition": "Noto a molti.",
    "example": "È uno scrittore conosciuto.",
-   "related": "▸ conoscere; ≠ sconosciuto/-a; L cognoscere; F connu/connue"
+   "family": "conoscere",
+   "antonyms": "sconosciuto/-a",
+   "related": "L cognoscere; F connu/connue"
   },
   {
    "id": "m-uno-stage-007",
@@ -203,7 +205,10 @@
     "fakultativ"
    ],
    "definition": "In aggiunta a.",
-   "example": "Oltre a te, viene anche Marco."
+   "example": "Oltre a te, viene anche Marco.",
+   "acceptedAnswers": [
+    "oltre a"
+   ]
   },
   {
    "id": "m-uno-stage-013",
@@ -345,7 +350,8 @@
    ],
    "definition": "Significato.",
    "example": "Questa frase ha senso.",
-   "related": "▸ sentire; E sense; F le sens; L sensus",
+   "family": "sentire",
+   "related": "E sense; F le sens; L sensus",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -368,7 +374,8 @@
    ],
    "definition": "Modo di pianificare le cose; anche gruppo.",
    "example": "L’organizzazione è perfetta.",
-   "related": "▸ organizzare; E organisation",
+   "family": "organizzare",
+   "related": "E organisation",
    "usage": "f."
   },
   {
@@ -590,7 +597,10 @@
     "fakultativ"
    ],
    "definition": "Mandare saluti.",
-   "example": "Porgo i miei saluti alla signora."
+   "example": "Porgo i miei saluti alla signora.",
+   "acceptedAnswers": [
+    "porgere i saluti a"
+   ]
   },
   {
    "id": "m-uno-stage-037",
@@ -689,7 +699,8 @@
    ],
    "definition": "Che scorre senza difficoltà.",
    "example": "Parla un italiano fluente.",
-   "related": "E fluent; = corrente"
+   "related": "E fluent",
+   "synonyms": "corrente"
   },
   {
    "id": "m-uno-stage-043",

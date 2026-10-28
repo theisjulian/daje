@@ -380,6 +380,9 @@
    "page": "212-214",
    "definition": "Disturbare qualcuno.",
    "example": "Il rumore mi dà fastidio.",
+   "acceptedAnswers": [
+    "dare fastidio a"
+   ],
    "usage": "Abc"
   },
   {
@@ -538,7 +541,10 @@
    "page": "212-214",
    "definition": "Forma di condizionale per dire che qualcosa è gradito.",
    "example": "Mi piacerebbe viaggiare.",
-   "related": "▸ piacere"
+   "family": "piacere",
+   "acceptedAnswers": [
+    "piacerebbe a"
+   ]
   },
   {
    "id": "u4-approccio-035",
@@ -562,7 +568,7 @@
    "page": "212-214",
    "definition": "Forma gentile di “vuole”.",
    "example": "Vorrebbe un caffè.",
-   "related": "▸ 3. Pers. von vorrei",
+   "family": "3. Pers. von vorrei",
    "usage": "3. Pers. von vorrei"
   },
   {

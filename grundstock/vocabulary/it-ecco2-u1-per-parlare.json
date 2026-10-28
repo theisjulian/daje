@@ -369,7 +369,8 @@
    "page": "202",
    "definition": "Zona fuori dalla città, con campi e fattorie.",
    "example": "Mio nonno vive in campagna.",
-   "related": "≠ la città; F la champagne",
+   "antonyms": "la città",
+   "related": "F la champagne",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -429,7 +430,8 @@
    "page": "202",
    "definition": "Persona che vive in una città o in un paese.",
    "example": "Questa città ha centomila abitanti.",
-   "related": "▸ abitare; E inhabitant; F l’habitant"
+   "family": "abitare",
+   "related": "E inhabitant; F l’habitant"
   },
   {
    "id": "u1-per-parlare-024",

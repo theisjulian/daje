@@ -260,7 +260,8 @@
    "page": "194-195",
    "definition": "Che dura poco.",
    "example": "Il film è breve.",
-   "related": "≠ lungo/-a; F bref, brève; L brevis/-e"
+   "antonyms": "lungo/-a",
+   "related": "F bref, brève; L brevis/-e"
   },
   {
    "id": "u7-approccio-019",
@@ -282,7 +283,7 @@
    "page": "194-195",
    "definition": "Camminata tranquilla.",
    "example": "Facciamo una passeggiata.",
-   "related": "▸ passeggiare",
+   "family": "passeggiare",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",

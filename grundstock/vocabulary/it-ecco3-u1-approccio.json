@@ -1,0 +1,470 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco3-u1-approccio",
+ "title": "Ecco più 3 · Unità 1 · Approccio",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "B1",
+ "description": "Wortschatz zu „Tradizione – benedizione o maledizione?“ aus Ecco più 3 (Unità 1, Approccio).",
+ "topics": [
+  "Tradition",
+  "Kultur",
+  "Toskana"
+ ],
+ "collection": "Ecco più 3 (Cornelsen)",
+ "section": "Unità 1 · Approccio",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 166-167 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u1-approccio-001",
+   "target": "la maledizione",
+   "translations": [
+    "der Fluch"
+   ],
+   "page": "166-167",
+   "definition": "Una cosa che porta solo problemi e dolore.",
+   "example": "Per i contadini la siccità è una vera maledizione.",
+   "antonyms": "la benedizione",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-002",
+   "target": "la benedizione",
+   "translations": [
+    "der Segen"
+   ],
+   "page": "166-167",
+   "definition": "Una cosa molto buona che arriva al momento giusto.",
+   "example": "La pioggia di ieri è stata una benedizione per il giardino.",
+   "antonyms": "la maledizione",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-003",
+   "target": "l’intellettuale",
+   "translations": [
+    "der/die Intellektuelle"
+   ],
+   "page": "166-167",
+   "definition": "Una persona che lavora con le idee, per esempio scrittori e filosofi.",
+   "example": "Molti intellettuali scrivono articoli sui giornali.",
+   "related": "E intellectual; F intellectuel(le)",
+   "usage": "m./f."
+  },
+  {
+   "id": "u1-approccio-004",
+   "target": "la civiltà",
+   "translations": [
+    "die Gesellschaft",
+    "die Kultur"
+   ],
+   "page": "166-167",
+   "definition": "Il modo di vivere, l’arte e le regole di un popolo.",
+   "example": "A scuola studiamo la civiltà degli antichi Romani.",
+   "related": "die Gesellschaft; die Kultur|||Il modo di vivere, l’arte e le regole di un popolo.|A scuola studiamo la civiltà degli antichi Romani.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-005",
+   "target": "da vicino",
+   "translations": [
+    "aus der Nähe"
+   ],
+   "page": "166-167",
+   "definition": "Non da lontano, a poca distanza.",
+   "example": "Voglio vedere il quadro da vicino.",
+   "related": "aus der Nähe|avv.||Non da lontano, a poca distanza.|Voglio vedere il quadro da vicino.",
+   "usage": "avv."
+  },
+  {
+   "id": "u1-approccio-006",
+   "target": "la testimonianza",
+   "translations": [
+    "das Zeugnis",
+    "das Kulturdenkmal"
+   ],
+   "page": "166-167",
+   "definition": "Una cosa che mostra com’era il passato.",
+   "example": "Questa chiesa è una testimonianza del Medioevo.",
+   "related": "das Zeugnis; das Kulturdenkmal|||Una cosa che mostra com’era il passato.|Questa chiesa è una testimonianza del Medioevo.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-007",
+   "target": "il/la letterato/-a",
+   "translations": [
+    "der/die Literat/in"
+   ],
+   "page": "166-167",
+   "definition": "Una persona che scrive libri o studia la letteratura.",
+   "example": "Dante è il letterato italiano più famoso.",
+   "related": "der/die Literat/in|||Una persona che scrive libri o studia la letteratura.|Dante è il letterato italiano più famoso."
+  },
+  {
+   "id": "u1-approccio-008",
+   "target": "il volume",
+   "translations": [
+    "der Band"
+   ],
+   "page": "166-167",
+   "definition": "Uno dei libri di un’opera divisa in più parti.",
+   "example": "La saga di Harry Potter ha sette volumi.",
+   "related": "der Band|||Uno dei libri di un’opera divisa in più parti.|La saga di Harry Potter ha sette volumi.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-009",
+   "target": "l’elaborazione",
+   "translations": [
+    "die Ausarbeitung"
+   ],
+   "page": "166-167",
+   "definition": "Il lavoro per preparare bene un testo o un progetto.",
+   "example": "L’elaborazione della presentazione ci ha preso tre giorni.",
+   "family": "lavorare",
+   "usage": "f."
+  },
+  {
+   "id": "u1-approccio-010",
+   "target": "il diario",
+   "translations": [
+    "das Tagebuch"
+   ],
+   "page": "166-167",
+   "definition": "Un quaderno dove scrivi ogni giorno quello che ti succede.",
+   "example": "Da piccola scrivevo tutto nel mio diario.",
+   "related": "E diary",
+   "usage": "pl. i diari",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-011",
+   "target": "il lido",
+   "translations": [
+    "der Strand"
+   ],
+   "page": "166-167",
+   "definition": "Una spiaggia con ombrelloni e bar.",
+   "example": "D’estate andiamo spesso al lido con gli amici.",
+   "related": "der Strand|||Una spiaggia con ombrelloni e bar.|D’estate andiamo spesso al lido con gli amici.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-012",
+   "target": "il quarto",
+   "translations": [
+    "das Viertel"
+   ],
+   "page": "166-167",
+   "definition": "Una delle quattro parti uguali di una cosa.",
+   "example": "Un quarto della classe va in palestra il pomeriggio.",
+   "related": "das Viertel|Bruchteil||Una delle quattro parti uguali di una cosa.|Un quarto della classe va in palestra il pomeriggio.",
+   "usage": "Bruchteil",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-013",
+   "target": "il cipresso",
+   "translations": [
+    "die Zypresse"
+   ],
+   "page": "166-167",
+   "definition": "Un albero alto e stretto, tipico della Toscana.",
+   "example": "Lungo la strada ci sono tanti cipressi.",
+   "related": "die Zypresse|||Un albero alto e stretto, tipico della Toscana.|Lungo la strada ci sono tanti cipressi.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-014",
+   "target": "il casale",
+   "translations": [
+    "das Bauernhaus"
+   ],
+   "page": "166-167",
+   "definition": "Una grande casa di campagna, spesso antica.",
+   "example": "I miei nonni vivono in un vecchio casale in Toscana.",
+   "family": "la casa",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-015",
+   "target": "caratteristico/-a",
+   "translations": [
+    "charakteristisch"
+   ],
+   "page": "166-167",
+   "definition": "Tipico di un luogo o di una persona.",
+   "example": "Il Palio è una festa caratteristica di Siena.",
+   "related": "charakteristisch|||Tipico di un luogo o di una persona.|Il Palio è una festa caratteristica di Siena."
+  },
+  {
+   "id": "u1-approccio-016",
+   "target": "così come",
+   "translations": [
+    "so wie (auch)"
+   ],
+   "page": "166-167",
+   "definition": "Nello stesso modo di.",
+   "example": "Mi piace il mare, così come la montagna.",
+   "related": "so wie (auch)|||Nello stesso modo di.|Mi piace il mare, così come la montagna."
+  },
+  {
+   "id": "u1-approccio-017",
+   "target": "intatto/-a",
+   "translations": [
+    "intakt",
+    "unberührt"
+   ],
+   "page": "166-167",
+   "definition": "Ancora come era all’inizio, senza danni.",
+   "example": "Il centro storico è rimasto intatto.",
+   "related": "intakt; unberührt|||Ancora come era all’inizio, senza danni.|Il centro storico è rimasto intatto."
+  },
+  {
+   "id": "u1-approccio-018",
+   "target": "la specie",
+   "translations": [
+    "die Art",
+    "die Sorte"
+   ],
+   "page": "166-167",
+   "definition": "Un gruppo di animali o piante simili.",
+   "example": "In questo parco vivono molte specie di uccelli.",
+   "related": "die Art; die Sorte|pl. le specie||Un gruppo di animali o piante simili.|In questo parco vivono molte specie di uccelli.",
+   "usage": "pl. le specie",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-019",
+   "target": "l’animale",
+   "translations": [
+    "das Tier"
+   ],
+   "page": "166-167",
+   "definition": "Un essere vivente che non è una pianta né una persona.",
+   "example": "Il cane è il mio animale preferito.",
+   "related": "E animal; F animal",
+   "usage": "m."
+  },
+  {
+   "id": "u1-approccio-020",
+   "target": "la pianta",
+   "translations": [
+    "die Pflanze"
+   ],
+   "page": "166-167",
+   "definition": "Un essere vivente verde che cresce nella terra.",
+   "example": "Sul balcone ho tante piante.",
+   "related": "E plant",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-021",
+   "target": "la cifra",
+   "translations": [
+    "die Zahl",
+    "die Ziffer"
+   ],
+   "page": "166-167",
+   "definition": "Un numero, anche una somma di soldi.",
+   "example": "Ha pagato una cifra alta per il telefono.",
+   "related": "die Zahl; die Ziffer|||Un numero, anche una somma di soldi.|Ha pagato una cifra alta per il telefono.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-approccio-022",
+   "target": "il/la visitatore/visitatrice",
+   "translations": [
+    "der/die Besucher/in"
+   ],
+   "page": "166-167",
+   "definition": "Una persona che va a vedere un museo o una città.",
+   "example": "Il museo ha avuto mille visitatori oggi.",
+   "related": "der/die Besucher/in|pl. i visitatori, le visitatrici||Una persona che va a vedere un museo o una città.|Il museo ha avuto mille visitatori oggi.",
+   "usage": "pl. i visitatori, le visitatrici"
+  },
+  {
+   "id": "u1-approccio-023",
+   "target": "aumentare",
+   "translations": [
+    "steigen",
+    "wachsen"
+   ],
+   "page": "166-167",
+   "definition": "Diventare di più o più grande.",
+   "example": "Il numero dei turisti aumenta ogni anno.",
+   "related": "steigen; wachsen|||Diventare di più o più grande.|Il numero dei turisti aumenta ogni anno."
+  },
+  {
+   "id": "u1-approccio-024",
+   "target": "di anno in anno",
+   "translations": [
+    "von Jahr zu Jahr"
+   ],
+   "page": "166-167",
+   "definition": "Ogni anno un po’ di più o un po’ di meno.",
+   "example": "Di anno in anno la festa diventa più famosa.",
+   "related": "von Jahr zu Jahr|||Ogni anno un po’ di più o un po’ di meno.|Di anno in anno la festa diventa più famosa."
+  },
+  {
+   "id": "u1-approccio-025",
+   "target": "il terremoto",
+   "translations": [
+    "das Erdbeben"
+   ],
+   "page": "166-167",
+   "definition": "Quando la terra si muove forte e le case possono cadere.",
+   "example": "Il terremoto ha distrutto molte case.",
+   "related": "das Erdbeben|||Quando la terra si muove forte e le case possono cadere.|Il terremoto ha distrutto molte case.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "3",
+   "unit": "Unità 1",
+   "section": "Approccio",
+   "pages": "166-167"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "themes": [
+   "Tradition",
+   "Kultur",
+   "Toskana"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

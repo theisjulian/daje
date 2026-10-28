@@ -1,0 +1,506 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco3-u2-2b",
+ "title": "Ecco più 3 · Unità 2 · 2B Vivere alla tedesca",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "B1",
+ "description": "Wortschatz zu „Leben auf Deutsch“ aus Ecco più 3 (Unità 2, 2B Vivere alla tedesca).",
+ "topics": [
+  "Deutschland",
+  "Studium",
+  "Arbeit"
+ ],
+ "collection": "Ecco più 3 (Cornelsen)",
+ "section": "Unità 2 · 2B Vivere alla tedesca",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 173-175 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u2-2b-001",
+   "target": "Amburgo",
+   "translations": [
+    "Hamburg"
+   ],
+   "page": "173-175",
+   "definition": "Una grande città del nord della Germania con il porto.",
+   "example": "Amburgo ha un porto molto grande.",
+   "related": "Hamburg|f.||Una grande città del nord della Germania con il porto.|Amburgo ha un porto molto grande.",
+   "usage": "f."
+  },
+  {
+   "id": "u2-2b-002",
+   "target": "la scelta",
+   "translations": [
+    "die Wahl",
+    "die Entscheidung"
+   ],
+   "page": "173-175",
+   "definition": "Il fatto di scegliere tra più cose.",
+   "example": "Dopo la scuola devo fare una scelta importante.",
+   "family": "scegliere",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-003",
+   "target": "l’alloggio",
+   "translations": [
+    "die Unterkunft"
+   ],
+   "page": "173-175",
+   "definition": "Un posto dove dormire e vivere.",
+   "example": "Gli studenti cercano un alloggio vicino all’università.",
+   "related": "die Unterkunft|||Un posto dove dormire e vivere.|Gli studenti cercano un alloggio vicino all’università."
+  },
+  {
+   "id": "u2-2b-004",
+   "target": "presso",
+   "translations": [
+    "bei"
+   ],
+   "page": "173-175",
+   "definition": "Vicino a, nel luogo di.",
+   "example": "Lavora presso un’azienda di Milano.",
+   "related": "bei|||Vicino a, nel luogo di.|Lavora presso un’azienda di Milano."
+  },
+  {
+   "id": "u2-2b-005",
+   "target": "il mix",
+   "translations": [
+    "die Mischung",
+    "das Durcheinander"
+   ],
+   "page": "173-175",
+   "definition": "Un insieme di cose diverse.",
+   "example": "Nella mia classe c’è un mix di culture.",
+   "related": "die Mischung; das Durcheinander|||Un insieme di cose diverse.|Nella mia classe c’è un mix di culture.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-006",
+   "target": "Chissà …!",
+   "translations": [
+    "Wer weiß …!"
+   ],
+   "page": "173-175",
+   "definition": "Si usa quando non si sa una cosa.",
+   "example": "Chissà dove ho messo le chiavi!",
+   "related": "Wer weiß …!|||Si usa quando non si sa una cosa.|Chissà dove ho messo le chiavi!"
+  },
+  {
+   "id": "u2-2b-007",
+   "target": "ospitante",
+   "translations": [
+    "Gast-"
+   ],
+   "page": "173-175",
+   "definition": "Che accoglie un ospite a casa.",
+   "example": "La mia famiglia ospitante ad Amburgo era molto gentile.",
+   "family": "l’ospite"
+  },
+  {
+   "id": "u2-2b-008",
+   "target": "trattare",
+   "translations": [
+    "behandeln"
+   ],
+   "page": "173-175",
+   "definition": "Comportarsi in un certo modo con qualcuno.",
+   "example": "Mi hanno trattato come un figlio.",
+   "related": "E to treat; F traiter"
+  },
+  {
+   "id": "u2-2b-009",
+   "target": "fin dal primo momento",
+   "translations": [
+    "vom ersten Moment an"
+   ],
+   "page": "173-175",
+   "definition": "Subito, dall’inizio.",
+   "example": "Mi sono trovata bene fin dal primo momento.",
+   "related": "vom ersten Moment an|||Subito, dall’inizio.|Mi sono trovata bene fin dal primo momento."
+  },
+  {
+   "id": "u2-2b-010",
+   "target": "a parte qn/qs",
+   "translations": [
+    "bis auf jdn/etw.",
+    "außer jdm/etw."
+   ],
+   "page": "173-175",
+   "definition": "Tranne, escluso.",
+   "example": "A parte Luca, sono venuti tutti.",
+   "related": "bis auf jdn/etw.; außer jdm/etw.|||Tranne, escluso.|A parte Luca, sono venuti tutti.",
+   "acceptedAnswers": [
+    "a parte"
+   ]
+  },
+  {
+   "id": "u2-2b-011",
+   "target": "a vicenda",
+   "translations": [
+    "gegenseitig"
+   ],
+   "page": "173-175",
+   "definition": "L’uno con l’altro.",
+   "example": "Io e mia sorella ci aiutiamo a vicenda.",
+   "related": "gegenseitig|avv.||L’uno con l’altro.|Io e mia sorella ci aiutiamo a vicenda.",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-2b-012",
+   "target": "immaginarsi qn/qs",
+   "translations": [
+    "sich jdn/etw. vorstellen"
+   ],
+   "page": "173-175",
+   "definition": "Pensare a una cosa che non si vede.",
+   "example": "Non mi immaginavo una città così grande.",
+   "related": "E to imagine; F s’imaginer",
+   "acceptedAnswers": [
+    "immaginarsi"
+   ]
+  },
+  {
+   "id": "u2-2b-013",
+   "target": "la pioggia",
+   "translations": [
+    "der Regen"
+   ],
+   "page": "173-175",
+   "definition": "L’acqua che cade dal cielo.",
+   "example": "Con questa pioggia restiamo a casa.",
+   "related": "der Regen|||L’acqua che cade dal cielo.|Con questa pioggia restiamo a casa.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-014",
+   "target": "poiché",
+   "translations": [
+    "da",
+    "weil"
+   ],
+   "page": "173-175",
+   "definition": "Per il motivo che.",
+   "example": "Poiché pioveva, abbiamo preso l’autobus.",
+   "related": "da; weil|||Per il motivo che.|Poiché pioveva, abbiamo preso l’autobus."
+  },
+  {
+   "id": "u2-2b-015",
+   "target": "a tempo pieno",
+   "translations": [
+    "in Vollzeit"
+   ],
+   "page": "173-175",
+   "definition": "Per tutta la giornata di lavoro.",
+   "example": "Mia madre lavora a tempo pieno.",
+   "related": "in Vollzeit|||Per tutta la giornata di lavoro.|Mia madre lavora a tempo pieno."
+  },
+  {
+   "id": "u2-2b-016",
+   "target": "presente",
+   "translations": [
+    "anwesend"
+   ],
+   "page": "173-175",
+   "definition": "Che è nel posto, non assente.",
+   "example": "Oggi tutti gli studenti sono presenti.",
+   "related": "anwesend|||Che è nel posto, non assente.|Oggi tutti gli studenti sono presenti."
+  },
+  {
+   "id": "u2-2b-017",
+   "target": "a mano",
+   "translations": [
+    "von Hand"
+   ],
+   "page": "173-175",
+   "definition": "Senza macchine, con le mani.",
+   "example": "La nonna fa la pasta a mano.",
+   "related": "von Hand|||Senza macchine, con le mani.|La nonna fa la pasta a mano."
+  },
+  {
+   "id": "u2-2b-018",
+   "target": "la pantofola",
+   "translations": [
+    "der Hausschuh",
+    "der Pantoffel"
+   ],
+   "page": "173-175",
+   "definition": "Una scarpa morbida da usare in casa.",
+   "example": "In Germania molti mettono le pantofole in casa.",
+   "related": "der Hausschuh; der Pantoffel|||Una scarpa morbida da usare in casa.|In Germania molti mettono le pantofole in casa.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-019",
+   "target": "abituarsi",
+   "translations": [
+    "sich gewöhnen"
+   ],
+   "page": "173-175",
+   "definition": "Fare diventare normale una cosa nuova.",
+   "example": "Mi sono abituato presto al freddo.",
+   "related": "F s’habituer"
+  },
+  {
+   "id": "u2-2b-020",
+   "target": "notare",
+   "translations": [
+    "bemerken"
+   ],
+   "page": "173-175",
+   "definition": "Vedere, accorgersi di una cosa.",
+   "example": "Hai notato il nuovo taglio di capelli di Sara?",
+   "related": "E to notice; F noter"
+  },
+  {
+   "id": "u2-2b-021",
+   "target": "pure",
+   "translations": [
+    "auch",
+    "sogar"
+   ],
+   "page": "173-175",
+   "definition": "Anche.",
+   "example": "È venuto pure il nonno.",
+   "related": "auch; sogar|||Anche.|È venuto pure il nonno."
+  },
+  {
+   "id": "u2-2b-022",
+   "target": "confermare",
+   "translations": [
+    "bestätigen"
+   ],
+   "page": "173-175",
+   "definition": "Dire che una cosa è vera o sicura.",
+   "example": "Ti confermo che domani vengo.",
+   "related": "E to confirm; F confirmer"
+  },
+  {
+   "id": "u2-2b-023",
+   "target": "fare amicizia",
+   "translations": [
+    "Freundschaft schließen"
+   ],
+   "page": "173-175",
+   "definition": "Diventare amici.",
+   "example": "Ad Amburgo ho fatto amicizia con due ragazzi.",
+   "related": "Freundschaft schließen|||Diventare amici.|Ad Amburgo ho fatto amicizia con due ragazzi."
+  },
+  {
+   "id": "u2-2b-024",
+   "target": "il/la svedese",
+   "translations": [
+    "der Schwede",
+    "die Schwedin"
+   ],
+   "page": "173-175",
+   "definition": "Una persona della Svezia.",
+   "example": "Nella mia classe c’era una svedese simpatica.",
+   "related": "der Schwede; die Schwedin|||Una persona della Svezia.|Nella mia classe c’era una svedese simpatica."
+  },
+  {
+   "id": "u2-2b-025",
+   "target": "il/la giapponese",
+   "translations": [
+    "der/die Japaner/in"
+   ],
+   "page": "173-175",
+   "definition": "Una persona del Giappone.",
+   "example": "Il mio vicino è giapponese.",
+   "related": "der/die Japaner/in|||Una persona del Giappone.|Il mio vicino è giapponese."
+  },
+  {
+   "id": "u2-2b-026",
+   "target": "riuscirci",
+   "translations": [
+    "etw. schaffen"
+   ],
+   "page": "173-175",
+   "definition": "Essere capaci di fare una cosa.",
+   "example": "Ho provato tante volte e alla fine ci sono riuscito.",
+   "related": "etw. schaffen|||Essere capaci di fare una cosa.|Ho provato tante volte e alla fine ci sono riuscito."
+  },
+  {
+   "id": "u2-2b-027",
+   "target": "il mare del Nord",
+   "translations": [
+    "die Nordsee"
+   ],
+   "page": "173-175",
+   "definition": "Il mare al nord della Germania.",
+   "example": "D’estate siamo andati al mare del Nord.",
+   "related": "die Nordsee|||Il mare al nord della Germania.|D’estate siamo andati al mare del Nord.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-028",
+   "target": "talmente",
+   "translations": [
+    "so",
+    "derart"
+   ],
+   "page": "173-175",
+   "definition": "In modo così forte.",
+   "example": "Ero talmente stanco che mi sono addormentato.",
+   "related": "so; derart|||In modo così forte.|Ero talmente stanco che mi sono addormentato."
+  },
+  {
+   "id": "u2-2b-029",
+   "target": "mettersi al riparo",
+   "translations": [
+    "Schutz suchen",
+    "sich schützen"
+   ],
+   "page": "173-175",
+   "definition": "Andare in un posto dove non ci sono pericoli.",
+   "example": "Quando ha cominciato a piovere ci siamo messi al riparo.",
+   "related": "Schutz suchen; sich schützen|||Andare in un posto dove non ci sono pericoli.|Quando ha cominciato a piovere ci siamo messi al riparo."
+  },
+  {
+   "id": "u2-2b-030",
+   "target": "la poltrona da spiaggia",
+   "translations": [
+    "der Strandkorb"
+   ],
+   "page": "173-175",
+   "definition": "Una grande sedia per la spiaggia che protegge dal vento.",
+   "example": "Al mare del Nord ci sono tante poltrone da spiaggia.",
+   "related": "der Strandkorb|||Una grande sedia per la spiaggia che protegge dal vento.|Al mare del Nord ci sono tante poltrone da spiaggia.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2b-031",
+   "target": "assomigliare a qn/qs",
+   "translations": [
+    "jdm/etw. ähnlich sehen"
+   ],
+   "page": "173-175",
+   "definition": "Essere simile a qualcuno.",
+   "example": "Assomigli molto a tuo padre.",
+   "related": "jdm/etw. ähnlich sehen|||Essere simile a qualcuno.|Assomigli molto a tuo padre.",
+   "acceptedAnswers": [
+    "assomigliare a"
+   ]
+  },
+  {
+   "id": "u2-2b-032",
+   "target": "rigido/-a",
+   "translations": [
+    "steif",
+    "starr"
+   ],
+   "page": "173-175",
+   "definition": "Duro, che non si piega; anche: severo.",
+   "example": "Le regole di questa scuola sono rigide.",
+   "related": "F rigide"
+  },
+  {
+   "id": "u2-2b-033",
+   "target": "rientrare",
+   "translations": [
+    "zurückkehren"
+   ],
+   "page": "173-175",
+   "definition": "Tornare a casa o nel proprio paese.",
+   "example": "Siamo rientrati in Italia ieri sera.",
+   "related": "zurückkehren|||Tornare a casa o nel proprio paese.|Siamo rientrati in Italia ieri sera."
+  },
+  {
+   "id": "u2-2b-034",
+   "target": "accrescere",
+   "translations": [
+    "erweitern",
+    "vergrößern"
+   ],
+   "page": "173-175",
+   "definition": "Fare diventare più grande.",
+   "example": "Un anno all’estero accresce le tue competenze.",
+   "related": "erweitern; vergrößern|p.p. accresciuto||Fare diventare più grande.|Un anno all’estero accresce le tue competenze.",
+   "usage": "p.p. accresciuto"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "3",
+   "unit": "Unità 2",
+   "section": "2B Vivere alla tedesca",
+   "pages": "173-175"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "themes": [
+   "Deutschland",
+   "Studium",
+   "Arbeit"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

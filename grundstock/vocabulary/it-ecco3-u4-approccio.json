@@ -1,0 +1,579 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco3-u4-approccio",
+ "title": "Ecco più 3 · Unità 4 · Approccio",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "B1",
+ "description": "Wortschatz zu „Tra Nord e Sud“ aus Ecco più 3 (Unità 4, Approccio).",
+ "topics": [
+  "Wirtschaft",
+  "Nord",
+  "Süd"
+ ],
+ "collection": "Ecco più 3 (Cornelsen)",
+ "section": "Unità 4 · Approccio",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 181-182 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u4-approccio-001",
+   "target": "la patria",
+   "translations": [
+    "die Heimat",
+    "der (Wohn-)Sitz"
+   ],
+   "page": "181-182",
+   "definition": "Il paese dove si è nati; il posto di origine di una cosa.",
+   "example": "Napoli è la patria della pizza.",
+   "related": "F la patrie",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-002",
+   "target": "automobilistico/-a",
+   "translations": [
+    "Auto(mobil)-"
+   ],
+   "page": "181-182",
+   "definition": "Che riguarda le automobili.",
+   "example": "Torino è famosa per l’industria automobilistica.",
+   "related": "Auto(mobil)-|pl. automobilistici/-istiche||Che riguarda le automobili.|Torino è famosa per l’industria automobilistica.",
+   "usage": "pl. automobilistici/-istiche"
+  },
+  {
+   "id": "u4-approccio-003",
+   "target": "tessile",
+   "translations": [
+    "Textil-"
+   ],
+   "page": "181-182",
+   "definition": "Che riguarda le stoffe.",
+   "example": "A Prato ci sono molte aziende tessili.",
+   "related": "Textil-|||Che riguarda le stoffe.|A Prato ci sono molte aziende tessili."
+  },
+  {
+   "id": "u4-approccio-004",
+   "target": "alimentare",
+   "translations": [
+    "Lebensmittel-"
+   ],
+   "page": "181-182",
+   "definition": "Che riguarda il cibo.",
+   "example": "L’industria alimentare è importante in Emilia-Romagna.",
+   "related": "Lebensmittel-|||Che riguarda il cibo.|L’industria alimentare è importante in Emilia-Romagna."
+  },
+  {
+   "id": "u4-approccio-005",
+   "target": "navale",
+   "translations": [
+    "Schiffs-",
+    "See-"
+   ],
+   "page": "181-182",
+   "definition": "Che riguarda le navi.",
+   "example": "A Genova c’è un grande cantiere navale.",
+   "related": "Schiffs-; See-|||Che riguarda le navi.|A Genova c’è un grande cantiere navale."
+  },
+  {
+   "id": "u4-approccio-006",
+   "target": "la crisi",
+   "translations": [
+    "die Krise"
+   ],
+   "page": "181-182",
+   "definition": "Un periodo difficile.",
+   "example": "Durante la crisi molte persone hanno perso il lavoro.",
+   "related": "die Krise|pl. le crisi||Un periodo difficile.|Durante la crisi molte persone hanno perso il lavoro.",
+   "usage": "pl. le crisi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-007",
+   "target": "locale",
+   "translations": [
+    "ortsansässig",
+    "heimisch"
+   ],
+   "page": "181-182",
+   "definition": "Del posto.",
+   "example": "Compro frutta e verdura dai contadini locali.",
+   "related": "E local"
+  },
+  {
+   "id": "u4-approccio-008",
+   "target": "riutilizzare",
+   "translations": [
+    "weiterverwenden"
+   ],
+   "page": "181-182",
+   "definition": "Usare di nuovo.",
+   "example": "Riutilizziamo le bottiglie di vetro.",
+   "related": "weiterverwenden|||Usare di nuovo.|Riutilizziamo le bottiglie di vetro."
+  },
+  {
+   "id": "u4-approccio-009",
+   "target": "la fabbrica",
+   "translations": [
+    "die Fabrik"
+   ],
+   "page": "181-182",
+   "definition": "Un edificio dove si producono cose con le macchine.",
+   "example": "Mio zio lavora in una fabbrica di scarpe.",
+   "related": "die Fabrik|pl. le fabbriche||Un edificio dove si producono cose con le macchine.|Mio zio lavora in una fabbrica di scarpe.",
+   "usage": "pl. le fabbriche",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-010",
+   "target": "la fiera",
+   "translations": [
+    "die Messe"
+   ],
+   "page": "181-182",
+   "definition": "Una grande esposizione di prodotti.",
+   "example": "Alla fiera del libro c’erano tanti autori.",
+   "related": "die Messe|||Una grande esposizione di prodotti.|Alla fiera del libro c’erano tanti autori.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-011",
+   "target": "il centro commerciale",
+   "translations": [
+    "das Einkaufszentrum"
+   ],
+   "page": "181-182",
+   "definition": "Un grande edificio con tanti negozi.",
+   "example": "Sabato andiamo al centro commerciale.",
+   "related": "das Einkaufszentrum|||Un grande edificio con tanti negozi.|Sabato andiamo al centro commerciale.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-012",
+   "target": "il ruolo",
+   "translations": [
+    "die Rolle",
+    "die Funktion"
+   ],
+   "page": "181-182",
+   "definition": "La parte o il compito di una persona o di una cosa.",
+   "example": "Il turismo ha un ruolo importante al Sud.",
+   "related": "die Rolle; die Funktion|||La parte o il compito di una persona o di una cosa.|Il turismo ha un ruolo importante al Sud.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-013",
+   "target": "l’economia",
+   "translations": [
+    "die Wirtschaft"
+   ],
+   "page": "181-182",
+   "definition": "L’insieme di produzione, lavoro e soldi di un paese.",
+   "example": "L’economia italiana dipende molto dalle esportazioni.",
+   "related": "E economy; F économie",
+   "usage": "pl. le economie"
+  },
+  {
+   "id": "u4-approccio-014",
+   "target": "il livello",
+   "translations": [
+    "das Niveau"
+   ],
+   "page": "181-182",
+   "definition": "L’altezza o la qualità di una cosa.",
+   "example": "Il livello di questo corso è B1.",
+   "related": "E level",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-015",
+   "target": "formare",
+   "translations": [
+    "bilden"
+   ],
+   "page": "181-182",
+   "definition": "Creare, fare nascere un gruppo o una cosa.",
+   "example": "Abbiamo formato una band.",
+   "related": "bilden|||Creare, fare nascere un gruppo o una cosa.|Abbiamo formato una band."
+  },
+  {
+   "id": "u4-approccio-016",
+   "target": "il consorzio",
+   "translations": [
+    "die Genossenschaft"
+   ],
+   "page": "181-182",
+   "definition": "Un gruppo di aziende che lavorano insieme.",
+   "example": "Il consorzio protegge la qualità del Parmigiano.",
+   "related": "die Genossenschaft|pl. i consorzi||Un gruppo di aziende che lavorano insieme.|Il consorzio protegge la qualità del Parmigiano.",
+   "usage": "pl. i consorzi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-017",
+   "target": "definire",
+   "translations": [
+    "festlegen",
+    "definieren"
+   ],
+   "page": "181-182",
+   "definition": "Dire con precisione che cos’è una cosa.",
+   "example": "È difficile definire la felicità.",
+   "related": "festlegen; definieren|(-isc-)||Dire con precisione che cos’è una cosa.|È difficile definire la felicità.",
+   "usage": "(-isc-)"
+  },
+  {
+   "id": "u4-approccio-018",
+   "target": "la qualità",
+   "translations": [
+    "die Qualität"
+   ],
+   "page": "181-182",
+   "definition": "Quanto una cosa è buona.",
+   "example": "Questo olio è di ottima qualità.",
+   "related": "die Qualität|||Quanto una cosa è buona.|Questo olio è di ottima qualità.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-019",
+   "target": "l’infrastruttura",
+   "translations": [
+    "die Infrastruktur"
+   ],
+   "page": "181-182",
+   "definition": "Strade, treni, reti: le strutture di base di un paese.",
+   "example": "Al Sud mancano ancora molte infrastrutture.",
+   "related": "die Infrastruktur|||Strade, treni, reti: le strutture di base di un paese.|Al Sud mancano ancora molte infrastrutture."
+  },
+  {
+   "id": "u4-approccio-020",
+   "target": "ambiguo/-a",
+   "translations": [
+    "mehrdeutig",
+    "uneinheitlich",
+    "unklar"
+   ],
+   "page": "181-182",
+   "definition": "Che si può capire in modi diversi.",
+   "example": "La sua risposta era ambigua.",
+   "related": "E ambiguous"
+  },
+  {
+   "id": "u4-approccio-021",
+   "target": "l’autostrada",
+   "translations": [
+    "die Autobahn"
+   ],
+   "page": "181-182",
+   "definition": "Una strada grande e veloce tra le città.",
+   "example": "In autostrada c’è sempre traffico ad agosto.",
+   "related": "die Autobahn|||Una strada grande e veloce tra le città.|In autostrada c’è sempre traffico ad agosto."
+  },
+  {
+   "id": "u4-approccio-022",
+   "target": "il cantiere",
+   "translations": [
+    "die Baustelle"
+   ],
+   "page": "181-182",
+   "definition": "Il posto dove si costruisce qualcosa.",
+   "example": "Davanti a casa mia c’è un cantiere rumoroso.",
+   "related": "die Baustelle|||Il posto dove si costruisce qualcosa.|Davanti a casa mia c’è un cantiere rumoroso.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-023",
+   "target": "la durata",
+   "translations": [
+    "die Dauer"
+   ],
+   "page": "181-182",
+   "definition": "Quanto tempo dura una cosa.",
+   "example": "La durata del film è di due ore.",
+   "related": "die Dauer|||Quanto tempo dura una cosa.|La durata del film è di due ore.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-024",
+   "target": "la mafia",
+   "translations": [
+    "die Mafia"
+   ],
+   "page": "181-182",
+   "definition": "Un’organizzazione criminale molto potente.",
+   "example": "Molti giovani si impegnano contro la mafia.",
+   "related": "die Mafia|||Un’organizzazione criminale molto potente.|Molti giovani si impegnano contro la mafia.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-025",
+   "target": "rappresentare",
+   "translations": [
+    "darstellen",
+    "verkörpern"
+   ],
+   "page": "181-182",
+   "definition": "Essere il simbolo di qualcosa; mostrare.",
+   "example": "Il Colosseo rappresenta la storia di Roma.",
+   "related": "darstellen; verkörpern|||Essere il simbolo di qualcosa; mostrare.|Il Colosseo rappresenta la storia di Roma."
+  },
+  {
+   "id": "u4-approccio-026",
+   "target": "l’efficienza",
+   "translations": [
+    "die Leistungsfähigkeit",
+    "die Wirksamkeit"
+   ],
+   "page": "181-182",
+   "definition": "La capacità di fare bene un lavoro senza sprecare tempo.",
+   "example": "L’efficienza dei treni tedeschi è famosa.",
+   "related": "die Leistungsfähigkeit; die Wirksamkeit|||La capacità di fare bene un lavoro senza sprecare tempo.|L’efficienza dei treni tedeschi è famosa."
+  },
+  {
+   "id": "u4-approccio-027",
+   "target": "la modernità",
+   "translations": [
+    "die Modernität"
+   ],
+   "page": "181-182",
+   "definition": "Il fatto di essere moderno.",
+   "example": "Milano è il simbolo della modernità italiana.",
+   "related": "die Modernität|||Il fatto di essere moderno.|Milano è il simbolo della modernità italiana.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-028",
+   "target": "rurale",
+   "translations": [
+    "ländlich",
+    "bäuerlich"
+   ],
+   "page": "181-182",
+   "definition": "Della campagna.",
+   "example": "Molte zone rurali del Sud si stanno svuotando.",
+   "related": "E rural"
+  },
+  {
+   "id": "u4-approccio-029",
+   "target": "migliorare",
+   "translations": [
+    "verbessern"
+   ],
+   "page": "181-182",
+   "definition": "Rendere migliore.",
+   "example": "Voglio migliorare il mio italiano.",
+   "family": "meglio"
+  },
+  {
+   "id": "u4-approccio-030",
+   "target": "il posto di lavoro",
+   "translations": [
+    "der Arbeitsplatz"
+   ],
+   "page": "181-182",
+   "definition": "Il lavoro di una persona; il luogo dove lavora.",
+   "example": "La nuova fabbrica ha creato cento posti di lavoro.",
+   "related": "der Arbeitsplatz|||Il lavoro di una persona; il luogo dove lavora.|La nuova fabbrica ha creato cento posti di lavoro.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-031",
+   "target": "provocare",
+   "translations": [
+    "bewirken",
+    "hervorrufen"
+   ],
+   "page": "181-182",
+   "definition": "Essere la causa di una cosa.",
+   "example": "Il traffico provoca inquinamento.",
+   "related": "bewirken; hervorrufen|||Essere la causa di una cosa.|Il traffico provoca inquinamento."
+  },
+  {
+   "id": "u4-approccio-032",
+   "target": "la mancanza",
+   "translations": [
+    "der Mangel"
+   ],
+   "page": "181-182",
+   "definition": "Il fatto che una cosa non c’è.",
+   "example": "La mancanza di lavoro spinge molti giovani a partire.",
+   "family": "mancare",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-approccio-033",
+   "target": "la forza lavoro",
+   "translations": [
+    "die Arbeitskraft"
+   ],
+   "page": "181-182",
+   "definition": "Tutte le persone che lavorano o possono lavorare.",
+   "example": "Le donne sono metà della forza lavoro.",
+   "related": "die Arbeitskraft|||Tutte le persone che lavorano o possono lavorare.|Le donne sono metà della forza lavoro.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "3",
+   "unit": "Unità 4",
+   "section": "Approccio",
+   "pages": "181-182"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "themes": [
+   "Wirtschaft",
+   "Nord",
+   "Süd"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

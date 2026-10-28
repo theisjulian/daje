@@ -47,7 +47,7 @@
    "page": "188-190",
    "definition": "In questi ultimi tempi.",
    "example": "Ultimamente studio molto.",
-   "related": "▸ ultimo/-a",
+   "family": "ultimo/-a",
    "usage": "avv."
   },
   {
@@ -60,7 +60,8 @@
    "page": "188-190",
    "definition": "In grande quantità; molto.",
    "example": "A scuola devo studiare tanto!",
-   "related": "= molto; F tant",
+   "synonyms": "molto",
+   "related": "F tant",
    "usage": "avv. Unterscheide: Il film è poco interessante. – Der Film ist wenig/kaum interessant. La pizza è molto buona. – Die Pizza ist sehr gut. I cugini sono tanto carini. – Die Cousins sind sehr süß. La mia camera è troppo piccola. – Mein Zimmer ist zu klein."
   },
   {
@@ -182,7 +183,7 @@
    "page": "188-190",
    "definition": "Prendere qualcosa pagando.",
    "example": "Compro un vestito al negozio.",
-   "related": "≠ vendere"
+   "antonyms": "vendere"
   },
   {
    "id": "u5-5b-011",
@@ -395,7 +396,7 @@
    "page": "188-190",
    "definition": "Arrivo dopo l’ora prevista.",
    "example": "Il treno ha un ritardo di dieci minuti.",
-   "related": "▸ essere in ritardo",
+   "family": "essere in ritardo",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -466,7 +467,8 @@
    "page": "188-190",
    "definition": "Piccola parola che indica mancanza.",
    "example": "Esco senza ombrello.",
-   "related": "≠ con; F sans"
+   "antonyms": "con",
+   "related": "F sans"
   },
   {
    "id": "u5-5b-031",
@@ -478,7 +480,7 @@
    "page": "188-190",
    "definition": "Andare verso l’alto o entrare in un mezzo.",
    "example": "Il treno parte. Devo salire.",
-   "related": "≠ scendere",
+   "antonyms": "scendere",
    "acceptedAnswers": [
     "salire"
    ],

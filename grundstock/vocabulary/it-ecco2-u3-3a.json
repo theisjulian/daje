@@ -376,7 +376,8 @@
    "page": "208-209",
    "definition": "Cambiare forma o aspetto.",
    "example": "Trasformano la stanza in uno studio.",
-   "related": "= cambiare; E to transform"
+   "synonyms": "cambiare",
+   "related": "E to transform"
   },
   {
    "id": "u3-3a-024",
@@ -419,7 +420,7 @@
    "page": "208-209",
    "definition": "Non confortevole.",
    "example": "Questa sedia è scomoda.",
-   "related": "≠ comodo/-a",
+   "antonyms": "comodo/-a",
    "usage": "≠ comodo/-a"
   },
   {

@@ -62,7 +62,8 @@
    "page": "199-200",
    "definition": "Abitare o passare la propria vita in un posto.",
    "example": "Vivo a Monaco.",
-   "related": "▸ la vita; F vivre; L vivere",
+   "family": "la vita",
+   "related": "F vivre; L vivere",
    "usage": "p.p. vissuto"
   },
   {
@@ -181,7 +182,8 @@
    "page": "199-200",
    "definition": "Zona fuori dalla città, con campi e fattorie.",
    "example": "Mio nonno vive in campagna.",
-   "related": "≠ la città; F la champagne",
+   "antonyms": "la città",
+   "related": "F la champagne",
    "usage": "≠ la città",
    "grammar": {
     "partOfSpeech": "noun",
@@ -214,7 +216,7 @@
    "page": "199-200",
    "definition": "Persona molto giovane.",
    "example": "Il bambino gioca con la palla.",
-   "related": "≠ adulto"
+   "antonyms": "adulto"
   },
   {
    "id": "u1-1a-015",
@@ -269,7 +271,8 @@
    "page": "199-200",
    "definition": "Sapere chi è l’altro.",
    "example": "Ci conosciamo da tre anni.",
-   "related": "▸ conoscere; F se connaître"
+   "family": "conoscere",
+   "related": "F se connaître"
   },
   {
    "id": "u1-1a-019",
@@ -491,6 +494,9 @@
    "page": "199-200",
    "definition": "Avere un impegno.",
    "example": "Oggi ho molto da fare.",
+   "acceptedAnswers": [
+    "avere da fare"
+   ],
    "usage": "Abc"
   },
   {

@@ -1,0 +1,733 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco3-u3-3a",
+ "title": "Ecco più 3 · Unità 3 · 3A Tre settimane ad Amatrice",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "B1",
+ "description": "Wortschatz zu „Drei Wochen in Amatrice“ aus Ecco più 3 (Unità 3, 3A Tre settimane ad Amatrice).",
+ "topics": [
+  "Erdbeben",
+  "Hilfe",
+  "Freiwillige"
+ ],
+ "collection": "Ecco più 3 (Cornelsen)",
+ "section": "Unità 3 · 3A Tre settimane ad Amatrice",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 177-178 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u3-3a-001",
+   "target": "l’orrore",
+   "translations": [
+    "das Grauen",
+    "der Schrecken"
+   ],
+   "page": "177-178",
+   "definition": "Una paura fortissima davanti a una cosa terribile.",
+   "example": "Che orrore vedere le case distrutte!",
+   "related": "E horror; F horreur",
+   "usage": "m."
+  },
+  {
+   "id": "u3-3a-002",
+   "target": "completo/-a",
+   "translations": [
+    "komplett"
+   ],
+   "page": "177-178",
+   "definition": "Intero, a cui non manca niente.",
+   "example": "Abbiamo dovuto rifare completamente la stanza.",
+   "related": "komplett|||Intero, a cui non manca niente.|Abbiamo dovuto rifare completamente la stanza."
+  },
+  {
+   "id": "u3-3a-003",
+   "target": "distrutto/-a",
+   "translations": [
+    "zerstört"
+   ],
+   "page": "177-178",
+   "definition": "Rotto del tutto.",
+   "example": "Dopo il terremoto la chiesa era distrutta.",
+   "related": "E destroyed; F détruit/-e"
+  },
+  {
+   "id": "u3-3a-004",
+   "target": "disperato/-a",
+   "translations": [
+    "verzweifelt"
+   ],
+   "page": "177-178",
+   "definition": "Senza speranza.",
+   "example": "Era disperato perché aveva perso tutto.",
+   "related": "E desperate; F désespéré(e)"
+  },
+  {
+   "id": "u3-3a-005",
+   "target": "recuperare",
+   "translations": [
+    "retten",
+    "sicherstellen"
+   ],
+   "page": "177-178",
+   "definition": "Riuscire a riavere una cosa persa.",
+   "example": "Sono riuscito a recuperare le foto dal vecchio telefono.",
+   "related": "retten; sicherstellen|||Riuscire a riavere una cosa persa.|Sono riuscito a recuperare le foto dal vecchio telefono."
+  },
+  {
+   "id": "u3-3a-006",
+   "target": "le macerie",
+   "translations": [
+    "die Trümmer"
+   ],
+   "page": "177-178",
+   "definition": "Quello che resta di un edificio crollato.",
+   "example": "I volontari cercano tra le macerie.",
+   "related": "die Trümmer|nur pl.||Quello che resta di un edificio crollato.|I volontari cercano tra le macerie.",
+   "usage": "nur pl.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "le",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-007",
+   "target": "intervenire",
+   "translations": [
+    "einschreiten"
+   ],
+   "page": "177-178",
+   "definition": "Entrare in azione per aiutare o fermare.",
+   "example": "I pompieri sono intervenuti subito.",
+   "family": "venire",
+   "related": "E intervene",
+   "usage": "(intervengo)"
+  },
+  {
+   "id": "u3-3a-008",
+   "target": "il sisma",
+   "translations": [
+    "das Erdbeben"
+   ],
+   "page": "177-178",
+   "definition": "Un altro modo per dire terremoto.",
+   "example": "Il sisma ha colpito tutto il centro Italia.",
+   "related": "das Erdbeben|pl. i sismi||Un altro modo per dire terremoto.|Il sisma ha colpito tutto il centro Italia.",
+   "usage": "pl. i sismi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-009",
+   "target": "la destinazione",
+   "translations": [
+    "der Zielort"
+   ],
+   "page": "177-178",
+   "definition": "Il posto dove si va.",
+   "example": "Qual è la destinazione del vostro viaggio?",
+   "related": "E destination; F destination",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-010",
+   "target": "emozionato/-a",
+   "translations": [
+    "aufgeregt",
+    "gerührt"
+   ],
+   "page": "177-178",
+   "definition": "Pieno di emozione.",
+   "example": "Ero molto emozionato prima del concerto.",
+   "related": "aufgeregt; gerührt|||Pieno di emozione.|Ero molto emozionato prima del concerto."
+  },
+  {
+   "id": "u3-3a-011",
+   "target": "il disastro",
+   "translations": [
+    "das Unglück"
+   ],
+   "page": "177-178",
+   "definition": "Un fatto terribile con molti danni.",
+   "example": "L’alluvione è stata un disastro per la città.",
+   "related": "E disaster",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-012",
+   "target": "agghiacciante",
+   "translations": [
+    "entsetzlich"
+   ],
+   "page": "177-178",
+   "definition": "Che fa paura e orrore.",
+   "example": "In tv hanno mostrato immagini agghiaccianti.",
+   "related": "entsetzlich|||Che fa paura e orrore.|In tv hanno mostrato immagini agghiaccianti."
+  },
+  {
+   "id": "u3-3a-013",
+   "target": "la rovina",
+   "translations": [
+    "die Ruine",
+    "der Trümmerhaufen"
+   ],
+   "page": "177-178",
+   "definition": "Quello che resta di un edificio distrutto.",
+   "example": "Tra le rovine abbiamo trovato una vecchia foto.",
+   "related": "die Ruine; der Trümmerhaufen|||Quello che resta di un edificio distrutto.|Tra le rovine abbiamo trovato una vecchia foto.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-014",
+   "target": "fare conoscere qn",
+   "translations": [
+    "jdn vorstellen"
+   ],
+   "page": "177-178",
+   "definition": "Presentare una persona a un’altra.",
+   "example": "Ti faccio conoscere la mia migliore amica.",
+   "related": "jdn vorstellen|||Presentare una persona a un’altra.|Ti faccio conoscere la mia migliore amica.",
+   "acceptedAnswers": [
+    "fare conoscere"
+   ]
+  },
+  {
+   "id": "u3-3a-015",
+   "target": "la classe",
+   "translations": [
+    "der Jahrgang"
+   ],
+   "page": "177-178",
+   "definition": "Le persone nate nello stesso anno.",
+   "example": "Mio nonno è della classe 1950.",
+   "related": "der Jahrgang|hier||Le persone nate nello stesso anno.|Mio nonno è della classe 1950.",
+   "usage": "hier",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-016",
+   "target": "il cane",
+   "translations": [
+    "der Hund"
+   ],
+   "page": "177-178",
+   "definition": "Un animale domestico che abbaia.",
+   "example": "Ogni sera porto fuori il cane.",
+   "related": "der Hund|||Un animale domestico che abbaia.|Ogni sera porto fuori il cane.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-017",
+   "target": "abbaiare",
+   "translations": [
+    "bellen"
+   ],
+   "page": "177-178",
+   "definition": "Fare il verso del cane.",
+   "example": "Il cane abbaia quando suona il campanello.",
+   "related": "bellen|||Fare il verso del cane.|Il cane abbaia quando suona il campanello."
+  },
+  {
+   "id": "u3-3a-018",
+   "target": "pazzo/-a",
+   "translations": [
+    "verrückt"
+   ],
+   "page": "177-178",
+   "definition": "Che non ragiona; anche: esagerato.",
+   "example": "Sei pazzo a uscire con questo freddo!",
+   "related": "verrückt|||Che non ragiona; anche: esagerato.|Sei pazzo a uscire con questo freddo!"
+  },
+  {
+   "id": "u3-3a-019",
+   "target": "scappare",
+   "translations": [
+    "flüchten",
+    "entkommen"
+   ],
+   "page": "177-178",
+   "definition": "Correre via da un pericolo.",
+   "example": "Il gatto è scappato dalla finestra.",
+   "related": "E to escape"
+  },
+  {
+   "id": "u3-3a-020",
+   "target": "stare per",
+   "translations": [
+    "kurz davor sein, etw. zu tun"
+   ],
+   "page": "177-178",
+   "definition": "Essere sul punto di fare una cosa.",
+   "example": "Stavo per uscire quando hai chiamato.",
+   "related": "kurz davor sein, etw. zu tun|+ inf.||Essere sul punto di fare una cosa.|Stavo per uscire quando hai chiamato.",
+   "usage": "+ inf."
+  },
+  {
+   "id": "u3-3a-021",
+   "target": "crollare",
+   "translations": [
+    "einstürzen",
+    "zusammenbrechen"
+   ],
+   "page": "177-178",
+   "definition": "Cadere giù, rompersi.",
+   "example": "Durante il terremoto è crollato il campanile.",
+   "related": "einstürzen; zusammenbrechen|||Cadere giù, rompersi.|Durante il terremoto è crollato il campanile."
+  },
+  {
+   "id": "u3-3a-022",
+   "target": "allontanarsi",
+   "translations": [
+    "sich entfernen"
+   ],
+   "page": "177-178",
+   "definition": "Andare lontano da un posto.",
+   "example": "Non allontanatevi dal gruppo!",
+   "related": "sich entfernen|||Andare lontano da un posto.|Non allontanatevi dal gruppo!"
+  },
+  {
+   "id": "u3-3a-023",
+   "target": "a dir poco",
+   "translations": [
+    "mindestens",
+    "gelinde gesagt"
+   ],
+   "page": "177-178",
+   "definition": "Per non esagerare; in realtà era ancora di più.",
+   "example": "È stata una giornata a dir poco difficile.",
+   "related": "mindestens; gelinde gesagt|hier: gelinde gesagt||Per non esagerare; in realtà era ancora di più.|È stata una giornata a dir poco difficile.",
+   "usage": "hier: gelinde gesagt"
+  },
+  {
+   "id": "u3-3a-024",
+   "target": "tremendo/-a",
+   "translations": [
+    "entsetzlich"
+   ],
+   "page": "177-178",
+   "definition": "Terribile.",
+   "example": "Ho un mal di testa tremendo.",
+   "related": "entsetzlich|||Terribile.|Ho un mal di testa tremendo."
+  },
+  {
+   "id": "u3-3a-025",
+   "target": "triste",
+   "translations": [
+    "traurig"
+   ],
+   "page": "177-178",
+   "definition": "Che non è felice.",
+   "example": "Sono triste perché la mia amica si trasferisce.",
+   "related": "F triste; L tristis"
+  },
+  {
+   "id": "u3-3a-026",
+   "target": "farsi una ragione di qs",
+   "translations": [
+    "sich mit etw. abfinden"
+   ],
+   "page": "177-178",
+   "definition": "Accettare una cosa che non si può cambiare.",
+   "example": "Devi farti una ragione del brutto voto.",
+   "related": "sich mit etw. abfinden|||Accettare una cosa che non si può cambiare.|Devi farti una ragione del brutto voto.",
+   "acceptedAnswers": [
+    "farsi una ragione di"
+   ]
+  },
+  {
+   "id": "u3-3a-027",
+   "target": "andare a trovare qn",
+   "translations": [
+    "jdn besuchen"
+   ],
+   "page": "177-178",
+   "definition": "Visitare una persona.",
+   "example": "Domenica vado a trovare la nonna.",
+   "related": "jdn besuchen|||Visitare una persona.|Domenica vado a trovare la nonna.",
+   "acceptedAnswers": [
+    "andare a trovare"
+   ]
+  },
+  {
+   "id": "u3-3a-028",
+   "target": "probabile",
+   "translations": [
+    "wahrscheinlich"
+   ],
+   "page": "177-178",
+   "definition": "Che succederà quasi sicuramente.",
+   "example": "È probabile che domani piova.",
+   "related": "E probable; F probable"
+  },
+  {
+   "id": "u3-3a-029",
+   "target": "morire",
+   "translations": [
+    "sterben"
+   ],
+   "page": "177-178",
+   "definition": "Finire di vivere.",
+   "example": "Purtroppo il mio gatto è morto la settimana scorsa.",
+   "related": "F mourir; L mori",
+   "usage": "p.p. morto"
+  },
+  {
+   "id": "u3-3a-030",
+   "target": "morto/-a",
+   "translations": [
+    "tot"
+   ],
+   "page": "177-178",
+   "definition": "Che non vive più.",
+   "example": "Abbiamo trovato un uccello morto in giardino.",
+   "related": "F mort(e)"
+  },
+  {
+   "id": "u3-3a-031",
+   "target": "salvare",
+   "translations": [
+    "retten",
+    "in Sicherheit bringen"
+   ],
+   "page": "177-178",
+   "definition": "Portare fuori da un pericolo.",
+   "example": "I pompieri hanno salvato una famiglia.",
+   "related": "E to save; F sauver"
+  },
+  {
+   "id": "u3-3a-032",
+   "target": "la lista",
+   "translations": [
+    "die Liste"
+   ],
+   "page": "177-178",
+   "definition": "Un elenco di cose scritte una sotto l’altra.",
+   "example": "Ho fatto una lista delle cose da comprare.",
+   "related": "die Liste|||Un elenco di cose scritte una sotto l’altra.|Ho fatto una lista delle cose da comprare.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-033",
+   "target": "il/la superstite",
+   "translations": [
+    "der/die Überlebende"
+   ],
+   "page": "177-178",
+   "definition": "Una persona che è rimasta viva dopo un disastro.",
+   "example": "I superstiti del terremoto vivono nelle tende.",
+   "related": "der/die Überlebende|||Una persona che è rimasta viva dopo un disastro.|I superstiti del terremoto vivono nelle tende."
+  },
+  {
+   "id": "u3-3a-034",
+   "target": "l’ospedale",
+   "translations": [
+    "das Krankenhaus"
+   ],
+   "page": "177-178",
+   "definition": "Il posto dove si curano i malati.",
+   "example": "Mia zia lavora in ospedale.",
+   "related": "E hospital; F hôpital",
+   "usage": "m."
+  },
+  {
+   "id": "u3-3a-035",
+   "target": "abbracciare",
+   "translations": [
+    "umarmen"
+   ],
+   "page": "177-178",
+   "definition": "Stringere qualcuno tra le braccia.",
+   "example": "Ho abbracciato forte mia madre.",
+   "related": "umarmen|||Stringere qualcuno tra le braccia.|Ho abbracciato forte mia madre."
+  },
+  {
+   "id": "u3-3a-036",
+   "target": "il dovere",
+   "translations": [
+    "die Verpflichtung",
+    "die Pflicht"
+   ],
+   "page": "177-178",
+   "definition": "Quello che si deve fare.",
+   "example": "Fare i compiti è un dovere.",
+   "related": "die Verpflichtung; die Pflicht|||Quello che si deve fare.|Fare i compiti è un dovere.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-037",
+   "target": "morale",
+   "translations": [
+    "moralisch"
+   ],
+   "page": "177-178",
+   "definition": "Che riguarda il bene e il male.",
+   "example": "Aiutare gli altri è un dovere morale.",
+   "related": "moralisch|||Che riguarda il bene e il male.|Aiutare gli altri è un dovere morale."
+  },
+  {
+   "id": "u3-3a-038",
+   "target": "augurarsi che",
+   "translations": [
+    "sich wünschen",
+    "hoffen, dass"
+   ],
+   "page": "177-178",
+   "definition": "Sperare che succeda una cosa.",
+   "example": "Mi auguro che tu stia meglio presto.",
+   "related": "sich wünschen; hoffen, dass|+ cong.||Sperare che succeda una cosa.|Mi auguro che tu stia meglio presto.",
+   "usage": "+ cong."
+  },
+  {
+   "id": "u3-3a-039",
+   "target": "ritrovare",
+   "translations": [
+    "wiederfinden"
+   ],
+   "page": "177-178",
+   "definition": "Trovare di nuovo una cosa persa.",
+   "example": "Ho ritrovato il mio vecchio diario.",
+   "related": "wiederfinden|||Trovare di nuovo una cosa persa.|Ho ritrovato il mio vecchio diario."
+  },
+  {
+   "id": "u3-3a-040",
+   "target": "al più presto",
+   "translations": [
+    "so schnell wie möglich"
+   ],
+   "page": "177-178",
+   "definition": "Il prima possibile.",
+   "example": "Rispondimi al più presto, per favore.",
+   "related": "so schnell wie möglich|||Il prima possibile.|Rispondimi al più presto, per favore."
+  },
+  {
+   "id": "u3-3a-041",
+   "target": "la normalità",
+   "translations": [
+    "die Normalität"
+   ],
+   "page": "177-178",
+   "definition": "Lo stato normale delle cose.",
+   "example": "Dopo il terremoto, la città torna piano piano alla normalità.",
+   "family": "normale",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-042",
+   "target": "Speriamo bene!",
+   "translations": [
+    "Hoffen wir das Beste!"
+   ],
+   "page": "177-178",
+   "definition": "Si dice quando si spera che una cosa vada bene.",
+   "example": "Domani ho l’esame. Speriamo bene!",
+   "related": "Hoffen wir das Beste!|||Si dice quando si spera che una cosa vada bene.|Domani ho l’esame. Speriamo bene!"
+  },
+  {
+   "id": "u3-3a-043",
+   "target": "distribuire",
+   "translations": [
+    "aus-, verteilen"
+   ],
+   "page": "177-178",
+   "definition": "Dare una parte a ciascuno.",
+   "example": "I volontari distribuiscono acqua e cibo.",
+   "related": "E to distribute; F distribuer",
+   "usage": "(-isc-)"
+  },
+  {
+   "id": "u3-3a-044",
+   "target": "il pasto",
+   "translations": [
+    "die Mahlzeit"
+   ],
+   "page": "177-178",
+   "definition": "Il momento in cui si mangia: colazione, pranzo, cena.",
+   "example": "Facciamo tre pasti al giorno.",
+   "related": "die Mahlzeit|||Il momento in cui si mangia: colazione, pranzo, cena.|Facciamo tre pasti al giorno.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-045",
+   "target": "la coperta",
+   "translations": [
+    "die Decke"
+   ],
+   "page": "177-178",
+   "definition": "Una cosa calda per coprirsi a letto.",
+   "example": "Mi serve una coperta, ho freddo.",
+   "related": "die Decke|||Una cosa calda per coprirsi a letto.|Mi serve una coperta, ho freddo.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3a-046",
+   "target": "l’alloggio di emergenza",
+   "translations": [
+    "die Notunterkunft"
+   ],
+   "page": "177-178",
+   "definition": "Un posto dove dormire dopo un disastro.",
+   "example": "Il comune ha preparato alloggi di emergenza.",
+   "related": "die Notunterkunft|||Un posto dove dormire dopo un disastro.|Il comune ha preparato alloggi di emergenza."
+  },
+  {
+   "id": "u3-3a-047",
+   "target": "cogliere l’occasione",
+   "translations": [
+    "die Gelegenheit nutzen"
+   ],
+   "page": "177-178",
+   "definition": "Approfittare di un buon momento.",
+   "example": "Colgo l’occasione per ringraziarvi tutti.",
+   "related": "die Gelegenheit nutzen|p.p. colto||Approfittare di un buon momento.|Colgo l’occasione per ringraziarvi tutti.",
+   "usage": "p.p. colto"
+  },
+  {
+   "id": "u3-3a-048",
+   "target": "la soddisfazione",
+   "translations": [
+    "die Zufriedenheit",
+    "die Genugtuung"
+   ],
+   "page": "177-178",
+   "definition": "Il piacere di aver fatto bene una cosa.",
+   "example": "Che soddisfazione finire il progetto!",
+   "related": "E satisfaction; F satisfaction",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "3",
+   "unit": "Unità 3",
+   "section": "3A Tre settimane ad Amatrice",
+   "pages": "177-178"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "themes": [
+   "Erdbeben",
+   "Hilfe",
+   "Freiwillige"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

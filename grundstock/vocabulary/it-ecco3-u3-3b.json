@@ -1,0 +1,746 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco3-u3-3b",
+ "title": "Ecco più 3 · Unità 3 · 3B La mia casa è qui",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "B1",
+ "description": "Wortschatz zu „Mein Zuhause ist hier“ aus Ecco più 3 (Unità 3, 3B La mia casa è qui).",
+ "topics": [
+  "Neapel",
+  "Heimat",
+  "Naturgefahren"
+ ],
+ "collection": "Ecco più 3 (Cornelsen)",
+ "section": "Unità 3 · 3B La mia casa è qui",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 178-180 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u3-3b-001",
+   "target": "la bellezza",
+   "translations": [
+    "die Schönheit"
+   ],
+   "page": "178-180",
+   "definition": "Il fatto di essere bello.",
+   "example": "Napoli è famosa per la bellezza del suo golfo.",
+   "related": "die Schönheit|||Il fatto di essere bello.|Napoli è famosa per la bellezza del suo golfo.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-002",
+   "target": "il Vesuvio",
+   "translations": [
+    "der Vesuv"
+   ],
+   "page": "178-180",
+   "definition": "Il vulcano vicino a Napoli.",
+   "example": "Dalla finestra vedo il Vesuvio.",
+   "related": "der Vesuv|||Il vulcano vicino a Napoli.|Dalla finestra vedo il Vesuvio.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-003",
+   "target": "addormentato/-a",
+   "translations": [
+    "schlafend"
+   ],
+   "page": "178-180",
+   "definition": "Che dorme.",
+   "example": "Il bambino è addormentato sul divano.",
+   "related": "schlafend|||Che dorme.|Il bambino è addormentato sul divano."
+  },
+  {
+   "id": "u3-3b-004",
+   "target": "l’eruzione",
+   "translations": [
+    "der Ausbruch"
+   ],
+   "page": "178-180",
+   "definition": "Quando un vulcano butta fuori fuoco e lava.",
+   "example": "L’ultima eruzione del Vesuvio è stata nel 1944.",
+   "related": "der Ausbruch|f.||Quando un vulcano butta fuori fuoco e lava.|L’ultima eruzione del Vesuvio è stata nel 1944.",
+   "usage": "f."
+  },
+  {
+   "id": "u3-3b-005",
+   "target": "campanilista",
+   "translations": [
+    "lokalpatriotisch"
+   ],
+   "page": "178-180",
+   "definition": "Che ama troppo la propria città e pensa che sia la migliore.",
+   "example": "Mio nonno è molto campanilista: per lui Napoli è la città più bella.",
+   "related": "lokalpatriotisch|agg.||Che ama troppo la propria città e pensa che sia la migliore.|Mio nonno è molto campanilista: per lui Napoli è la città più bella.",
+   "usage": "agg."
+  },
+  {
+   "id": "u3-3b-006",
+   "target": "il sentimento",
+   "translations": [
+    "das Gefühl",
+    "die Einstellung"
+   ],
+   "page": "178-180",
+   "definition": "Quello che una persona sente o pensa.",
+   "example": "È un sentimento difficile da spiegare.",
+   "related": "das Gefühl; die Einstellung|hier: die Einstellung, Haltung||Quello che una persona sente o pensa.|È un sentimento difficile da spiegare.",
+   "usage": "hier: die Einstellung, Haltung",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-007",
+   "target": "l’emergenza",
+   "translations": [
+    "der Notfall"
+   ],
+   "page": "178-180",
+   "definition": "Una situazione di pericolo improvviso.",
+   "example": "In caso di emergenza chiama il 112.",
+   "related": "E emergency"
+  },
+  {
+   "id": "u3-3b-008",
+   "target": "oltre",
+   "translations": [
+    "über",
+    "mehr als"
+   ],
+   "page": "178-180",
+   "definition": "Più di.",
+   "example": "Al concerto c’erano oltre diecimila persone.",
+   "related": "über; mehr als|prep.||Più di.|Al concerto c’erano oltre diecimila persone.",
+   "usage": "prep."
+  },
+  {
+   "id": "u3-3b-009",
+   "target": "minacciato/-a",
+   "translations": [
+    "bedroht"
+   ],
+   "page": "178-180",
+   "definition": "In pericolo.",
+   "example": "Molte specie animali sono minacciate.",
+   "related": "bedroht|||In pericolo.|Molte specie animali sono minacciate."
+  },
+  {
+   "id": "u3-3b-010",
+   "target": "essere dovuto/-a a qs",
+   "translations": [
+    "durch etw. bedingt sein",
+    "verursacht sein"
+   ],
+   "page": "178-180",
+   "definition": "Avere come causa.",
+   "example": "Il ritardo è dovuto al traffico.",
+   "related": "durch etw. bedingt sein; verursacht sein|Unterscheide: Devo partire presto. – Ich muss früh gehen. Ti devo 20 euro. – Ich schulde dir 20 Euro.||Avere come causa.|Il ritardo è dovuto al traffico.",
+   "acceptedAnswers": [
+    "essere dovuto/-a a"
+   ],
+   "contrast": "Devo partire presto. – Ich muss früh gehen. Ti devo 20 euro. – Ich schulde dir 20 Euro."
+  },
+  {
+   "id": "u3-3b-011",
+   "target": "l’area",
+   "translations": [
+    "die Zone",
+    "das Gebiet"
+   ],
+   "page": "178-180",
+   "definition": "Una zona.",
+   "example": "Quest’area è pericolosa per le frane.",
+   "related": "E area"
+  },
+  {
+   "id": "u3-3b-012",
+   "target": "abusivo/-a",
+   "translations": [
+    "unerlaubt",
+    "illegal"
+   ],
+   "page": "178-180",
+   "definition": "Fatto senza permesso.",
+   "example": "Molte case abusive sono state costruite vicino al vulcano.",
+   "related": "unerlaubt; illegal|||Fatto senza permesso.|Molte case abusive sono state costruite vicino al vulcano."
+  },
+  {
+   "id": "u3-3b-013",
+   "target": "eppure",
+   "translations": [
+    "dennoch"
+   ],
+   "page": "178-180",
+   "definition": "Ma nonostante questo.",
+   "example": "È pericoloso, eppure la gente ci vive volentieri.",
+   "related": "dennoch|||Ma nonostante questo.|È pericoloso, eppure la gente ci vive volentieri."
+  },
+  {
+   "id": "u3-3b-014",
+   "target": "colorato/-a",
+   "translations": [
+    "farbenfroh"
+   ],
+   "page": "178-180",
+   "definition": "Con tanti colori.",
+   "example": "Le case di Procida sono molto colorate.",
+   "related": "E coloured"
+  },
+  {
+   "id": "u3-3b-015",
+   "target": "il panorama",
+   "translations": [
+    "der Ausblick"
+   ],
+   "page": "178-180",
+   "definition": "Quello che si vede da un posto alto.",
+   "example": "Dal castello c’è un panorama bellissimo.",
+   "family": "panoramico/-a",
+   "usage": "pl. i panorami",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-016",
+   "target": "mozzafiato",
+   "translations": [
+    "atemberaubend"
+   ],
+   "page": "178-180",
+   "definition": "Così bello che toglie il respiro.",
+   "example": "Dalla collina abbiamo una vista mozzafiato.",
+   "related": "atemberaubend|unveränderlich: i panorami mozzafiato||Così bello che toglie il respiro.|Dalla collina abbiamo una vista mozzafiato.",
+   "usage": "unveränderlich: i panorami mozzafiato"
+  },
+  {
+   "id": "u3-3b-017",
+   "target": "andare via",
+   "translations": [
+    "weggehen"
+   ],
+   "page": "178-180",
+   "definition": "Lasciare un posto.",
+   "example": "Non voglio andare via da Napoli.",
+   "related": "weggehen|||Lasciare un posto.|Non voglio andare via da Napoli."
+  },
+  {
+   "id": "u3-3b-018",
+   "target": "da nessuna parte",
+   "translations": [
+    "nirgends"
+   ],
+   "page": "178-180",
+   "definition": "In nessun posto.",
+   "example": "Non trovo il mio telefono da nessuna parte.",
+   "related": "nirgends|||In nessun posto.|Non trovo il mio telefono da nessuna parte."
+  },
+  {
+   "id": "u3-3b-019",
+   "target": "altrove",
+   "translations": [
+    "anderswo",
+    "woanders"
+   ],
+   "page": "178-180",
+   "definition": "In un altro posto.",
+   "example": "Se qui è troppo caro, mangiamo altrove.",
+   "related": "anderswo; woanders|||In un altro posto.|Se qui è troppo caro, mangiamo altrove."
+  },
+  {
+   "id": "u3-3b-020",
+   "target": "l’alluvione",
+   "translations": [
+    "die Überschwemmung"
+   ],
+   "page": "178-180",
+   "definition": "Quando l’acqua di un fiume copre la terra e le case.",
+   "example": "L’alluvione ha distrutto molte strade.",
+   "related": "die Überschwemmung|f.||Quando l’acqua di un fiume copre la terra e le case.|L’alluvione ha distrutto molte strade.",
+   "usage": "f."
+  },
+  {
+   "id": "u3-3b-021",
+   "target": "la valanga",
+   "translations": [
+    "die Lawine"
+   ],
+   "page": "178-180",
+   "definition": "Una grande massa di neve che scende dalla montagna.",
+   "example": "Oggi c’è pericolo di valanghe.",
+   "related": "die Lawine|pl. le valanghe||Una grande massa di neve che scende dalla montagna.|Oggi c’è pericolo di valanghe.",
+   "usage": "pl. le valanghe",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-022",
+   "target": "la temperatura",
+   "translations": [
+    "die Temperatur"
+   ],
+   "page": "178-180",
+   "definition": "Quanto fa caldo o freddo.",
+   "example": "Oggi la temperatura è di trenta gradi.",
+   "related": "die Temperatur|||Quanto fa caldo o freddo.|Oggi la temperatura è di trenta gradi.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-023",
+   "target": "preoccuparsi di qs",
+   "translations": [
+    "sich um etw. sorgen"
+   ],
+   "page": "178-180",
+   "definition": "Pensare con ansia a un problema.",
+   "example": "Non preoccuparti, va tutto bene.",
+   "related": "sich um etw. sorgen|||Pensare con ansia a un problema.|Non preoccuparti, va tutto bene.",
+   "acceptedAnswers": [
+    "preoccuparsi di"
+   ]
+  },
+  {
+   "id": "u3-3b-024",
+   "target": "unico/-a",
+   "translations": [
+    "einzig",
+    "einzigartig"
+   ],
+   "page": "178-180",
+   "definition": "Solo uno; speciale.",
+   "example": "Questa città è unica al mondo.",
+   "related": "E unique; F unique",
+   "usage": "pl. unici, uniche"
+  },
+  {
+   "id": "u3-3b-025",
+   "target": "il ladino",
+   "translations": [
+    "das Ladinische"
+   ],
+   "page": "178-180",
+   "definition": "Una lingua parlata in alcune valli delle Dolomiti.",
+   "example": "In Val Gardena molte persone parlano il ladino.",
+   "related": "das Ladinische|Minderheitensprache / Dialekt||Una lingua parlata in alcune valli delle Dolomiti.|In Val Gardena molte persone parlano il ladino.",
+   "usage": "Minderheitensprache / Dialekt",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-026",
+   "target": "il paradiso",
+   "translations": [
+    "das Paradies"
+   ],
+   "page": "178-180",
+   "definition": "Un posto bellissimo, perfetto.",
+   "example": "Questa spiaggia è un paradiso!",
+   "related": "das Paradies|||Un posto bellissimo, perfetto.|Questa spiaggia è un paradiso!",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-027",
+   "target": "archeologico/-a",
+   "translations": [
+    "archäologisch"
+   ],
+   "page": "178-180",
+   "definition": "Che riguarda le cose antiche trovate sotto terra.",
+   "example": "Abbiamo visitato il parco archeologico di Pompei.",
+   "related": "archäologisch|pl. archeologici, archeologiche||Che riguarda le cose antiche trovate sotto terra.|Abbiamo visitato il parco archeologico di Pompei.",
+   "usage": "pl. archeologici, archeologiche"
+  },
+  {
+   "id": "u3-3b-028",
+   "target": "la mummia",
+   "translations": [
+    "die Mumie"
+   ],
+   "page": "178-180",
+   "definition": "Un corpo antico conservato per molti secoli.",
+   "example": "Al museo egizio abbiamo visto una mummia.",
+   "related": "die Mumie|||Un corpo antico conservato per molti secoli.|Al museo egizio abbiamo visto una mummia.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-029",
+   "target": "il motivo",
+   "translations": [
+    "der Grund"
+   ],
+   "page": "178-180",
+   "definition": "La ragione per cui si fa una cosa.",
+   "example": "Per quale motivo sei arrivato tardi?",
+   "related": "der Grund|||La ragione per cui si fa una cosa.|Per quale motivo sei arrivato tardi?",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-030",
+   "target": "comportare qs",
+   "translations": [
+    "etw. mit sich bringen"
+   ],
+   "page": "178-180",
+   "definition": "Avere come conseguenza.",
+   "example": "Vivere vicino al vulcano comporta dei rischi.",
+   "related": "etw. mit sich bringen|||Avere come conseguenza.|Vivere vicino al vulcano comporta dei rischi.",
+   "acceptedAnswers": [
+    "comportare"
+   ]
+  },
+  {
+   "id": "u3-3b-031",
+   "target": "travolgere",
+   "translations": [
+    "überrollen"
+   ],
+   "page": "178-180",
+   "definition": "Prendere e portare via con forza.",
+   "example": "La valanga ha travolto due sciatori.",
+   "related": "überrollen|p.p. travolto||Prendere e portare via con forza.|La valanga ha travolto due sciatori.",
+   "usage": "p.p. travolto"
+  },
+  {
+   "id": "u3-3b-032",
+   "target": "la pista da sci",
+   "translations": [
+    "die Skipiste"
+   ],
+   "page": "178-180",
+   "definition": "La strada di neve dove si scia.",
+   "example": "Le piste da sci sono piene a Natale.",
+   "related": "die Skipiste|||La strada di neve dove si scia.|Le piste da sci sono piene a Natale.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-033",
+   "target": "consumare",
+   "translations": [
+    "verbrauchen"
+   ],
+   "page": "178-180",
+   "definition": "Usare qualcosa fino a finirlo.",
+   "example": "La mia vecchia macchina consuma troppa benzina.",
+   "related": "E to consume"
+  },
+  {
+   "id": "u3-3b-034",
+   "target": "doc",
+   "translations": [
+    "echt",
+    "hundertprozentig"
+   ],
+   "page": "178-180",
+   "definition": "Vero, autentico.",
+   "example": "Mio padre è un napoletano doc.",
+   "related": "echt; hundertprozentig|fam.||Vero, autentico.|Mio padre è un napoletano doc.",
+   "usage": "fam."
+  },
+  {
+   "id": "u3-3b-035",
+   "target": "il campo tessile",
+   "translations": [
+    "die Textilbranche"
+   ],
+   "page": "178-180",
+   "definition": "Il settore che produce stoffe e vestiti.",
+   "example": "Il campo tessile è importante per l’economia di Prato.",
+   "related": "die Textilbranche|||Il settore che produce stoffe e vestiti.|Il campo tessile è importante per l’economia di Prato.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-036",
+   "target": "la filiale",
+   "translations": [
+    "die Filiale"
+   ],
+   "page": "178-180",
+   "definition": "Un negozio o ufficio che fa parte di una grande azienda.",
+   "example": "La banca ha una filiale anche nel mio paese.",
+   "related": "die Filiale|||Un negozio o ufficio che fa parte di una grande azienda.|La banca ha una filiale anche nel mio paese.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-037",
+   "target": "risolvere",
+   "translations": [
+    "lösen"
+   ],
+   "page": "178-180",
+   "definition": "Trovare la soluzione.",
+   "example": "Abbiamo risolto il problema insieme.",
+   "related": "E to resolve",
+   "usage": "p.p. risolto"
+  },
+  {
+   "id": "u3-3b-038",
+   "target": "il settore",
+   "translations": [
+    "der Sektor"
+   ],
+   "page": "178-180",
+   "definition": "Una parte dell’economia o di un’attività.",
+   "example": "Il turismo è un settore molto importante in Italia.",
+   "related": "der Sektor|||Una parte dell’economia o di un’attività.|Il turismo è un settore molto importante in Italia.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-039",
+   "target": "semplice",
+   "translations": [
+    "einfach"
+   ],
+   "page": "178-180",
+   "definition": "Facile, non complicato.",
+   "example": "Le domande dell’esame erano semplici.",
+   "related": "E simple; F simple",
+   "usage": "agg."
+  },
+  {
+   "id": "u3-3b-040",
+   "target": "pescare",
+   "translations": [
+    "fischen"
+   ],
+   "page": "178-180",
+   "definition": "Prendere i pesci.",
+   "example": "Mio nonno va a pescare ogni domenica.",
+   "related": "fischen|||Prendere i pesci.|Mio nonno va a pescare ogni domenica."
+  },
+  {
+   "id": "u3-3b-041",
+   "target": "tramandare",
+   "translations": [
+    "überliefern",
+    "weitergeben"
+   ],
+   "page": "178-180",
+   "definition": "Passare tradizioni o storie ai figli e ai nipoti.",
+   "example": "Questa ricetta è tramandata da mia nonna.",
+   "related": "überliefern; weitergeben|||Passare tradizioni o storie ai figli e ai nipoti.|Questa ricetta è tramandata da mia nonna."
+  },
+  {
+   "id": "u3-3b-042",
+   "target": "il pecorino",
+   "translations": [
+    "der Schafskäse"
+   ],
+   "page": "178-180",
+   "definition": "Un formaggio fatto con il latte di pecora.",
+   "example": "Sulla pasta metto il pecorino.",
+   "related": "der Schafskäse|||Un formaggio fatto con il latte di pecora.|Sulla pasta metto il pecorino.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u3-3b-043",
+   "target": "dipendere da",
+   "translations": [
+    "abhängen von"
+   ],
+   "page": "178-180",
+   "definition": "Avere bisogno di qualcosa per esistere; essere deciso da.",
+   "example": "Dipende dal tempo: se piove restiamo a casa.",
+   "family": "dipendente",
+   "related": "E to depend"
+  },
+  {
+   "id": "u3-3b-044",
+   "target": "estivo/-a",
+   "translations": [
+    "Sommer-",
+    "sommerlich"
+   ],
+   "page": "178-180",
+   "definition": "Dell’estate.",
+   "example": "Le vacanze estive durano tre mesi.",
+   "related": "Sommer-; sommerlich|||Dell’estate.|Le vacanze estive durano tre mesi."
+  },
+  {
+   "id": "u3-3b-045",
+   "target": "limpido/-a",
+   "translations": [
+    "klar"
+   ],
+   "page": "178-180",
+   "definition": "Pulito e trasparente.",
+   "example": "L’acqua del lago è limpida.",
+   "related": "klar|||Pulito e trasparente.|L’acqua del lago è limpida."
+  },
+  {
+   "id": "u3-3b-046",
+   "target": "mitico/-a",
+   "translations": [
+    "fantastisch",
+    "Wahnsinns-"
+   ],
+   "page": "178-180",
+   "definition": "Fantastico, bellissimo.",
+   "example": "Il concerto è stato mitico!",
+   "related": "fantastisch; Wahnsinns-|Jugendsprache||Fantastico, bellissimo.|Il concerto è stato mitico!",
+   "usage": "Jugendsprache"
+  },
+  {
+   "id": "u3-3b-047",
+   "target": "andarsene",
+   "translations": [
+    "weggehen"
+   ],
+   "page": "178-180",
+   "definition": "Lasciare un posto.",
+   "example": "È tardi, me ne vado.",
+   "related": "weggehen|me ne vado, te ne vai …||Lasciare un posto.|È tardi, me ne vado.",
+   "usage": "me ne vado, te ne vai …"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "3",
+   "unit": "Unità 3",
+   "section": "3B La mia casa è qui",
+   "pages": "178-180"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "themes": [
+   "Neapel",
+   "Heimat",
+   "Naturgefahren"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

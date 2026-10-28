@@ -824,1894 +824,6 @@ const STOCK_PACKAGES = [
   "format": "theis-learning-package",
   "schemaVersion": "1.2",
   "kind": "vocabulary",
-  "id": "eigen-mvrwii4ucilr",
-  "title": "Ecco più 3 · Unità 1",
-  "language": "it",
-  "level": "B1",
-  "description": "Wortschatz zur Unità 1 aus Ecco più 3 (Lista cronologica, S. 166–170).",
-  "topics": [
-   "Tradizione",
-   "Roma e Venezia",
-   "Cultura e società"
-  ],
-  "sources": [
-   {
-    "kind": "provided",
-    "citation": "Ecco più 3, Cornelsen, Lista cronologica, S. 166-170 (Vokabelteil); Beispielsätze mit KI-Unterstützung eigens formuliert.",
-    "url": "",
-    "rights": "cleared"
-   }
-  ],
-  "reviewNotes": [],
-  "cover": "wave",
-  "catalog": {
-   "origin": "textbook",
-   "textbook": {
-    "publisher": "Cornelsen",
-    "series": "Ecco più",
-    "volume": "3",
-    "unit": "Unità 1",
-    "pages": "166-170"
-   },
-   "grade": 10,
-   "foreignLanguageNo": 3,
-   "cefr": "B1",
-   "themes": [
-    "Tradizione",
-    "Roma e Venezia",
-    "Cultura e società"
-   ],
-   "tags": [
-    "lehrwerk",
-    "vokabeln"
-   ]
-  },
-  "translationLanguage": "de",
-  "collection": "Ecco più 3 (Cornelsen)",
-  "section": "Unità 1",
-  "entries": [
-   {
-    "id": "w1",
-    "target": "la maledizione",
-    "translations": [
-     "der Fluch"
-    ],
-    "acceptedAnswers": [],
-    "example": "La pioggia continua sembra una vera maledizione per i contadini.",
-    "definition": "",
-    "page": "166",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w2",
-    "target": "la benedizione",
-    "translations": [
-     "der Segen"
-    ],
-    "acceptedAnswers": [],
-    "example": "L'arrivo del nuovo medico è stato una benedizione per il paese.",
-    "definition": "",
-    "page": "166",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w3",
-    "target": "l'intellettuale",
-    "translations": [
-     "der/die Intellektuelle"
-    ],
-    "acceptedAnswers": [],
-    "example": "Molti intellettuali hanno partecipato al dibattito politico.",
-    "definition": "",
-    "page": "166",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "unknown"
-    }
-   },
-   {
-    "id": "w4",
-    "target": "la civiltà",
-    "translations": [
-     "die Gesellschaft",
-     "die Kultur"
-    ],
-    "acceptedAnswers": [],
-    "example": "La civiltà greca ha influenzato molto la storia europea.",
-    "definition": "",
-    "page": "166",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w5",
-    "target": "da vicino",
-    "translations": [
-     "aus der Nähe"
-    ],
-    "acceptedAnswers": [],
-    "example": "Vorrei osservare quel quadro da vicino.",
-    "definition": "",
-    "page": "166",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w6",
-    "target": "la testimonianza",
-    "translations": [
-     "das Zeugnis",
-     "das Kulturdenkmal"
-    ],
-    "acceptedAnswers": [],
-    "example": "I monumenti antichi sono una testimonianza del passato.",
-    "definition": "",
-    "page": "166",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w7",
-    "target": "il letterato",
-    "translations": [
-     "der Literat"
-    ],
-    "acceptedAnswers": [],
-    "example": "Quel famoso letterato ha scritto diversi romanzi.",
-    "definition": "",
-    "page": "166",
-    "say": "il letterato, la letterata",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w8",
-    "target": "il volume",
-    "translations": [
-     "der Band"
-    ],
-    "acceptedAnswers": [],
-    "example": "Ho comprato l'ultimo volume dell'enciclopedia.",
-    "definition": "",
-    "page": "166",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w9",
-    "target": "l'elaborazione",
-    "translations": [
-     "die Ausarbeitung"
-    ],
-    "acceptedAnswers": [],
-    "example": "L'elaborazione del progetto ha richiesto due mesi.",
-    "definition": "",
-    "page": "166",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w10",
-    "target": "il diario",
-    "translations": [
-     "das Tagebuch"
-    ],
-    "acceptedAnswers": [],
-    "example": "Scrivo i miei pensieri nel diario ogni sera.",
-    "definition": "",
-    "page": "166",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w11",
-    "target": "il lido",
-    "translations": [
-     "der Strand"
-    ],
-    "acceptedAnswers": [],
-    "example": "Ieri abbiamo trascorso una giornata rilassante al lido.",
-    "definition": "",
-    "page": "166",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w12",
-    "target": "il quarto",
-    "translations": [
-     "das Viertel"
-    ],
-    "acceptedAnswers": [],
-    "example": "Ci vediamo tra un quarto d'ora davanti al bar.",
-    "definition": "",
-    "page": "166",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w13",
-    "target": "il cipresso",
-    "translations": [
-     "die Zypresse"
-    ],
-    "acceptedAnswers": [],
-    "example": "Lungo la strada di campagna c'è un lungo filare di cipressi.",
-    "definition": "",
-    "page": "166",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w14",
-    "target": "il casale",
-    "translations": [
-     "das Bauernhaus"
-    ],
-    "acceptedAnswers": [],
-    "example": "Abbiamo affittato un antico casale in Toscana per le vacanze.",
-    "definition": "",
-    "page": "166",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w15",
-    "target": "caratteristico",
-    "translations": [
-     "charakteristisch"
-    ],
-    "acceptedAnswers": [],
-    "example": "Questo piatto ha un sapore molto caratteristico.",
-    "definition": "",
-    "page": "166",
-    "say": "caratteristico, caratteristica",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w16",
-    "target": "così come",
-    "translations": [
-     "so wie (auch)"
-    ],
-    "acceptedAnswers": [],
-    "example": "Amo la montagna, così come amo il mare.",
-    "definition": "",
-    "page": "166",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w17",
-    "target": "intatto",
-    "translations": [
-     "intakt",
-     "unberührt"
-    ],
-    "acceptedAnswers": [],
-    "example": "Il centro storico del paese è rimasto intatto negli anni.",
-    "definition": "",
-    "page": "166",
-    "say": "intatto, intatta",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w18",
-    "target": "la specie",
-    "translations": [
-     "die Art",
-     "die Sorte"
-    ],
-    "acceptedAnswers": [],
-    "example": "In questo parco proteggono una specie rara di uccelli.",
-    "definition": "",
-    "page": "166",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w19",
-    "target": "violento",
-    "translations": [
-     "brutal",
-     "grausam"
-    ],
-    "acceptedAnswers": [],
-    "example": "Il temporale di ieri sera è stato molto violento.",
-    "definition": "",
-    "page": "167",
-    "say": "violento, violenta",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w20",
-    "target": "la contrada",
-    "translations": [
-     "das Viertel"
-    ],
-    "acceptedAnswers": [],
-    "example": "Oggi c'è una grande festa nella nostra contrada.",
-    "definition": "",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w21",
-    "target": "la bandiera",
-    "translations": [
-     "die Fahne"
-    ],
-    "acceptedAnswers": [],
-    "example": "La bandiera italiana è verde, bianca e rossa.",
-    "definition": "",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w22",
-    "target": "difendere",
-    "translations": [
-     "verteidigen"
-    ],
-    "acceptedAnswers": [],
-    "example": "L'avvocato cerca di difendere il suo cliente in tribunale.",
-    "definition": "",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w23",
-    "target": "la manifestazione",
-    "translations": [
-     "die Veranstaltung"
-    ],
-    "acceptedAnswers": [],
-    "example": "La manifestazione culturale attira molti visitatori.",
-    "definition": "",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w24",
-    "target": "essere sufficiente",
-    "translations": [
-     "genügen",
-     "ausreichen"
-    ],
-    "acceptedAnswers": [],
-    "example": "Non è sufficiente studiare solo un'ora prima dell'esame.",
-    "definition": "",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w25",
-    "target": "prima che",
-    "translations": [
-     "bevor"
-    ],
-    "acceptedAnswers": [],
-    "example": "Chiudiamo le finestre prima che cominci a piovere.",
-    "definition": "",
-    "usage": "+ congiuntivo",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w26",
-    "target": "innanzitutto",
-    "translations": [
-     "insbesondere",
-     "zuerst"
-    ],
-    "acceptedAnswers": [],
-    "example": "Innanzitutto vorrei salutare tutti gli ospiti presenti.",
-    "definition": "",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "other"
-    }
-   },
-   {
-    "id": "w27",
-    "target": "globalizzato",
-    "translations": [
-     "globalisiert"
-    ],
-    "acceptedAnswers": [],
-    "example": "Viviamo in un mondo sempre più globalizzato.",
-    "definition": "",
-    "page": "167",
-    "say": "globalizzato, globalizzata",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w28",
-    "target": "la diversità",
-    "translations": [
-     "die Verschiedenheit",
-     "die Vielfalt"
-    ],
-    "acceptedAnswers": [],
-    "example": "La diversità culturale arricchisce la nostra società.",
-    "definition": "",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w29",
-    "target": "correre il rischio",
-    "translations": [
-     "ein Risiko eingehen"
-    ],
-    "acceptedAnswers": [],
-    "example": "Non voglio correre il rischio di arrivare in ritardo.",
-    "definition": "",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w30",
-    "target": "il popolo",
-    "translations": [
-     "das Volk"
-    ],
-    "acceptedAnswers": [],
-    "example": "Il popolo ha festeggiato la vittoria della squadra.",
-    "definition": "",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w31",
-    "target": "sopravvivere",
-    "translations": [
-     "überleben"
-    ],
-    "acceptedAnswers": [],
-    "example": "Molti animali riescono a sopravvivere anche durante l'inverno rigido.",
-    "definition": "",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w32",
-    "target": "l'identità",
-    "translations": [
-     "die Identität"
-    ],
-    "acceptedAnswers": [],
-    "example": "La lingua è un elemento fondamentale dell'identità nazionale.",
-    "definition": "",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w33",
-    "target": "la ragione",
-    "translations": [
-     "der Grund"
-    ],
-    "acceptedAnswers": [],
-    "example": "Qual è la ragione di questa tua decisione?",
-    "definition": "",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w34",
-    "target": "l'elemento",
-    "translations": [
-     "der Bestandteil",
-     "das Element"
-    ],
-    "acceptedAnswers": [],
-    "example": "L'acqua è un elemento essenziale per la vita.",
-    "definition": "",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w35",
-    "target": "positivo",
-    "translations": [
-     "positiv"
-    ],
-    "acceptedAnswers": [],
-    "example": "Abbiamo ottenuto un risultato molto positivo.",
-    "definition": "",
-    "page": "167",
-    "say": "positivo, positiva",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w36",
-    "target": "il punto di vista",
-    "translations": [
-     "die Sichtweise",
-     "der Standpunkt"
-    ],
-    "acceptedAnswers": [],
-    "example": "Capisco il tuo punto di vista, ma la penso diversamente.",
-    "definition": "",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w37",
-    "target": "la meta",
-    "translations": [
-     "das Ziel"
-    ],
-    "acceptedAnswers": [],
-    "example": "Firenze è una meta ideale per gli amanti dell'arte.",
-    "definition": "",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w38",
-    "target": "ricco",
-    "translations": [
-     "reich"
-    ],
-    "acceptedAnswers": [],
-    "example": "Questo territorio è ricco di risorse naturali.",
-    "definition": "",
-    "page": "167",
-    "say": "ricco, ricca",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w39",
-    "target": "grazie a",
-    "translations": [
-     "dank"
-    ],
-    "acceptedAnswers": [],
-    "example": "Abbiamo vinto la partita grazie a te.",
-    "definition": "",
-    "page": "167",
-    "say": "grazie a qualcuno, qualcosa",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w40",
-    "target": "l'aiuto",
-    "translations": [
-     "die Hilfe"
-    ],
-    "acceptedAnswers": [],
-    "example": "Ti ringrazio molto per il tuo aiuto.",
-    "definition": "",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w41",
-    "target": "l'opinione",
-    "translations": [
-     "die Meinung"
-    ],
-    "acceptedAnswers": [],
-    "example": "Secondo la mia opinione dovremmo accettare l'offerta.",
-    "definition": "",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w42",
-    "target": "pubblico",
-    "translations": [
-     "öffentlich"
-    ],
-    "acceptedAnswers": [],
-    "example": "L'autobus è un mezzo di trasporto pubblico.",
-    "definition": "",
-    "page": "167",
-    "say": "pubblico, pubblica",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w43",
-    "target": "apprezzare",
-    "translations": [
-     "schätzen",
-     "würdigen"
-    ],
-    "acceptedAnswers": [],
-    "example": "Apprezzo molto la tua gentilezza e la tua disponibilità.",
-    "definition": "",
-    "page": "167",
-    "say": "apprezzare qualcuno, qualcosa",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w44",
-    "target": "proteggere",
-    "translations": [
-     "schützen"
-    ],
-    "acceptedAnswers": [],
-    "example": "Dobbiamo fare di tutto per proteggere l'ambiente.",
-    "definition": "",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w45",
-    "target": "affinché",
-    "translations": [
-     "damit"
-    ],
-    "acceptedAnswers": [],
-    "example": "Ti ho spiegato la regola affinché tu non faccia errori.",
-    "definition": "",
-    "usage": "+ congiuntivo",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "other"
-    }
-   },
-   {
-    "id": "w46",
-    "target": "la curva",
-    "translations": [
-     "die Kurve"
-    ],
-    "acceptedAnswers": [],
-    "example": "Frena prima di entrare in curva!",
-    "definition": "",
-    "page": "167",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w47",
-    "target": "sebbene",
-    "translations": [
-     "obwohl"
-    ],
-    "acceptedAnswers": [],
-    "example": "È uscito di casa sebbene stesse piovendo forte.",
-    "definition": "",
-    "usage": "+ congiuntivo",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "other"
-    }
-   },
-   {
-    "id": "w48",
-    "target": "perché",
-    "translations": [
-     "damit"
-    ],
-    "acceptedAnswers": [],
-    "example": "Parlo piano perché il bambino possa dormire.",
-    "definition": "",
-    "usage": "+ congiuntivo",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "other"
-    }
-   },
-   {
-    "id": "w49",
-    "target": "lo spettatore",
-    "translations": [
-     "der/die Zuschauer/in"
-    ],
-    "acceptedAnswers": [],
-    "example": "Gli spettatori hanno applaudito alla fine dello spettacolo.",
-    "definition": "",
-    "page": "168",
-    "say": "lo spettatore, la spettatrice",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w50",
-    "target": "principale",
-    "translations": [
-     "Haupt-",
-     "hauptsächlich"
-    ],
-    "acceptedAnswers": [],
-    "example": "La ragione principale del mio viaggio è lo studio.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w51",
-    "target": "stupirsi",
-    "translations": [
-     "sich wundern",
-     "erstaunen"
-    ],
-    "acceptedAnswers": [],
-    "example": "Non mi stupisco della sua reazione improvvisa.",
-    "definition": "",
-    "usage": "isc-Verb",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w52",
-    "target": "ciò nonostante",
-    "translations": [
-     "trotzdem",
-     "dennoch"
-    ],
-    "acceptedAnswers": [],
-    "example": "Ero molto stanco; ciò nonostante ho continuato a lavorare.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w53",
-    "target": "accettare",
-    "translations": [
-     "annehmen",
-     "gelten lassen"
-    ],
-    "acceptedAnswers": [],
-    "example": "Ha deciso di accettare l'invito a cena.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w54",
-    "target": "l'affermazione",
-    "translations": [
-     "die Behauptung"
-    ],
-    "acceptedAnswers": [],
-    "example": "La sua affermazione non corrisponde alla realtà dei fatti.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w55",
-    "target": "attivo",
-    "translations": [
-     "aktiv"
-    ],
-    "acceptedAnswers": [],
-    "example": "Mio nonno è ancora una persona molto attiva.",
-    "definition": "",
-    "page": "168",
-    "say": "attivo, attiva",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w56",
-    "target": "la protezione animali",
-    "translations": [
-     "Tierschutz"
-    ],
-    "acceptedAnswers": [],
-    "example": "L'associazione per la protezione animali si occupa dei cani randagi.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w57",
-    "target": "straordinario",
-    "translations": [
-     "außergewöhnlich"
-    ],
-    "acceptedAnswers": [],
-    "example": "Abbiamo assistito a un concerto davvero straordinario.",
-    "definition": "",
-    "page": "168",
-    "say": "straordinario, straordinaria",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w58",
-    "target": "prima di tutto",
-    "translations": [
-     "zuallererst",
-     "vorneweg"
-    ],
-    "acceptedAnswers": [],
-    "example": "Prima di tutto dobbiamo controllare che tutto sia pronto.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w59",
-    "target": "in secondo luogo",
-    "translations": [
-     "zweitens",
-     "an zweiter Stelle"
-    ],
-    "acceptedAnswers": [],
-    "example": "In secondo luogo vorrei sottolineare i costi del progetto.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w60",
-    "target": "legare",
-    "translations": [
-     "verbinden",
-     "binden"
-    ],
-    "acceptedAnswers": [],
-    "example": "Un'amicizia profonda riesce a legare due persone per sempre.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w61",
-    "target": "soltanto",
-    "translations": [
-     "nur"
-    ],
-    "acceptedAnswers": [],
-    "example": "Ci vorranno soltanto pochi minuti per finire il compito.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "other"
-    }
-   },
-   {
-    "id": "w62",
-    "target": "la corruzione",
-    "translations": [
-     "die Korruption",
-     "die Bestechung"
-    ],
-    "acceptedAnswers": [],
-    "example": "La lotta contro la corruzione è una sfida fondamentale.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w63",
-    "target": "tutto sommato",
-    "translations": [
-     "alles in allem"
-    ],
-    "acceptedAnswers": [],
-    "example": "Tutto sommato è stata una bellissima esperienza.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w64",
-    "target": "abolire",
-    "translations": [
-     "abschaffen"
-    ],
-    "acceptedAnswers": [],
-    "example": "Il governo vuole abolire questa vecchia legge.",
-    "definition": "",
-    "usage": "isc-Verb",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w65",
-    "target": "concentrarsi",
-    "translations": [
-     "sich konzentrieren"
-    ],
-    "acceptedAnswers": [],
-    "example": "Devo concentrarmi per superare la prova di domani.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w66",
-    "target": "centrare",
-    "translations": [
-     "treffen",
-     "erfassen"
-    ],
-    "acceptedAnswers": [],
-    "example": "Con le sue parole è riuscito a centrare l'argomento principale.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w67",
-    "target": "adatto",
-    "translations": [
-     "geeignet"
-    ],
-    "acceptedAnswers": [],
-    "example": "Cerchiamo un luogo adatto per organizzare il pic-nic.",
-    "definition": "",
-    "page": "168",
-    "say": "adatto, adatta",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w68",
-    "target": "realizzare",
-    "translations": [
-     "durchführen",
-     "verwirchlichen"
-    ],
-    "acceptedAnswers": [],
-    "example": "Dopo anni è finalmente riuscito a realizzare il suo sogno.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w69",
-    "target": "il negozio di souvenir",
-    "translations": [
-     "der Souvenir-Laden"
-    ],
-    "acceptedAnswers": [],
-    "example": "Ho comprato una cartolina nel negozio di souvenir.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w70",
-    "target": "benché",
-    "translations": [
-     "obwohl"
-    ],
-    "acceptedAnswers": [],
-    "example": "Benché sia faticoso, mi piace fare sport ogni mattina.",
-    "definition": "",
-    "usage": "+ congiuntivo",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "other"
-    }
-   },
-   {
-    "id": "w71",
-    "target": "cattivo",
-    "translations": [
-     "schlecht"
-    ],
-    "acceptedAnswers": [],
-    "example": "Oggi c'è davvero un cattivo tempo.",
-    "definition": "",
-    "page": "168",
-    "say": "cattivo, cattiva",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w72",
-    "target": "il colore",
-    "translations": [
-     "die Farbe"
-    ],
-    "acceptedAnswers": [],
-    "example": "Il blu è il mio colore preferito.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w73",
-    "target": "significare",
-    "translations": [
-     "bedeuten"
-    ],
-    "acceptedAnswers": [],
-    "example": "Che cosa significa questa parola in italiano?",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w74",
-    "target": "temere",
-    "translations": [
-     "fürchten"
-    ],
-    "acceptedAnswers": [],
-    "example": "Temo che domani non ci sarà bel tempo.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w75",
-    "target": "rendersi conto di",
-    "translations": [
-     "sich über etwas klar werden"
-    ],
-    "acceptedAnswers": [],
-    "example": "Mi rendo conto di aver commesso un errore.",
-    "definition": "",
-    "page": "168",
-    "say": "rendersi conto di qualcosa",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w76",
-    "target": "man mano",
-    "translations": [
-     "allmählich"
-    ],
-    "acceptedAnswers": [],
-    "example": "Man mano che passa il tempo, la situazione migliora.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w77",
-    "target": "la maschera",
-    "translations": [
-     "die Maske"
-    ],
-    "acceptedAnswers": [],
-    "example": "A Carnevale tutti indossano una maschera colorata.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w78",
-    "target": "fotografare",
-    "translations": [
-     "fotografieren"
-    ],
-    "acceptedAnswers": [],
-    "example": "Mi piace fotografare i paesaggi durante le vacanze.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w79",
-    "target": "la posizione",
-    "translations": [
-     "die Position",
-     "die Haltung"
-    ],
-    "acceptedAnswers": [],
-    "example": "Cerca di mantenere una posizione corretta mentre studi.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w80",
-    "target": "l'account",
-    "translations": [
-     "der Account"
-    ],
-    "acceptedAnswers": [],
-    "example": "Ho creato un nuovo account sulla piattaforma digitale.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w81",
-    "target": "segreto",
-    "translations": [
-     "geheim"
-    ],
-    "acceptedAnswers": [],
-    "example": "Ci siamo incontrati in un luogo segreto.",
-    "definition": "",
-    "page": "168",
-    "say": "segreto, segreta",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w82",
-    "target": "abbandonato",
-    "translations": [
-     "verlassen",
-     "vereinsamt"
-    ],
-    "acceptedAnswers": [],
-    "example": "In quella strada c'è un casale completamente abbandonato.",
-    "definition": "",
-    "page": "168",
-    "say": "abbandonato, abbandonata",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w83",
-    "target": "pieno",
-    "translations": [
-     "voll"
-    ],
-    "acceptedAnswers": [],
-    "example": "Il cesto è pieno di frutta fresca.",
-    "definition": "",
-    "page": "168",
-    "say": "pieno, piena",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w84",
-    "target": "il carnevale",
-    "translations": [
-     "der Karneval"
-    ],
-    "acceptedAnswers": [],
-    "example": "Il carnevale di Venezia è celebre in tutto il mondo.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w85",
-    "target": "stratosferico",
-    "translations": [
-     "astronomisch",
-     "überhöht"
-    ],
-    "acceptedAnswers": [],
-    "example": "Gli hotel durante l'evento hanno prezzi stratosferici.",
-    "definition": "",
-    "page": "168",
-    "say": "stratosferico, stratosferica",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w86",
-    "target": "l'atmosfera",
-    "translations": [
-     "die Atmosphäre"
-    ],
-    "acceptedAnswers": [],
-    "example": "In quel piccolo ristorante c'è un'atmosfera davvero accogliente.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w87",
-    "target": "generale",
-    "translations": [
-     "allgemein"
-    ],
-    "acceptedAnswers": [],
-    "example": "L'impressione generale del pubblico è stata positiva.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w88",
-    "target": "estremo",
-    "translations": [
-     "extrem",
-     "äußerst"
-    ],
-    "acceptedAnswers": [],
-    "example": "I piloti devono guidare con un'estrema attenzione.",
-    "definition": "",
-    "page": "168",
-    "say": "estremo, estrema",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w89",
-    "target": "rilassato",
-    "translations": [
-     "entspannt"
-    ],
-    "acceptedAnswers": [],
-    "example": "Dopo le vacanze mi sento molto più rilassato.",
-    "definition": "",
-    "page": "168",
-    "say": "rilassato, rilassata",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w90",
-    "target": "avere a che vedere con",
-    "translations": [
-     "zu tun haben mit"
-    ],
-    "acceptedAnswers": [],
-    "example": "Il mio lavoro non ha niente a che vedere con la matematica.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w91",
-    "target": "qualsiasi",
-    "translations": [
-     "jede(r,s)",
-     "beliebige(r,s)"
-    ],
-    "acceptedAnswers": [],
-    "example": "Puoi chiamarmi a qualsiasi ora della giornata.",
-    "definition": "",
-    "page": "168",
-    "grammar": {
-     "partOfSpeech": "other"
-    }
-   },
-   {
-    "id": "w92",
-    "target": "la nave",
-    "translations": [
-     "das Schiff"
-    ],
-    "acceptedAnswers": [],
-    "example": "La grande nave è entrata lentamente nel porto.",
-    "definition": "",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w93",
-    "target": "spaventare",
-    "translations": [
-     "erschrecken"
-    ],
-    "acceptedAnswers": [],
-    "example": "Quel rumore improvviso ha spaventato tutti.",
-    "definition": "",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w94",
-    "target": "spaventarsi",
-    "translations": [
-     "sich erschrecken"
-    ],
-    "acceptedAnswers": [],
-    "example": "Non spaventarti, è soltanto un piccolo gatto!",
-    "definition": "",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w95",
-    "target": "la nave da crociera",
-    "translations": [
-     "das Kreuzfahrtschiff"
-    ],
-    "acceptedAnswers": [],
-    "example": "Una gigantesca nave da crociera ha attraversato il canale.",
-    "definition": "",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w96",
-    "target": "a forza",
-    "translations": [
-     "mit Gewalt"
-    ],
-    "acceptedAnswers": [],
-    "example": "Non puoi convincere le persone a forza.",
-    "definition": "",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w97",
-    "target": "per forza",
-    "translations": [
-     "unbedingt"
-    ],
-    "acceptedAnswers": [],
-    "example": "Se vai a Roma devi per forza visitare il Colosseo.",
-    "definition": "",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w98",
-    "target": "fuori luogo",
-    "translations": [
-     "unangebracht",
-     "fehl am Platz"
-    ],
-    "acceptedAnswers": [],
-    "example": "La sua battuta durante la riunione mi è sembrata fuori luogo.",
-    "definition": "",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w99",
-    "target": "fuori tempo",
-    "translations": [
-     "nicht zeitgemäß"
-    ],
-    "acceptedAnswers": [],
-    "example": "Certi pregiudizi oggi sono del tutto fuori tempo.",
-    "definition": "",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w100",
-    "target": "fuori stagione",
-    "translations": [
-     "außerhalb der Saison"
-    ],
-    "acceptedAnswers": [],
-    "example": "Viaggiare fuori stagione costa molto meno.",
-    "definition": "",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w101",
-    "target": "fuori moda",
-    "translations": [
-     "aus der Mode",
-     "unmodisch"
-    ],
-    "acceptedAnswers": [],
-    "example": "Quel vestito è ormai totalmente fuori moda.",
-    "definition": "",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w102",
-    "target": "enorme",
-    "translations": [
-     "enorm",
-     "gewaltig"
-    ],
-    "acceptedAnswers": [],
-    "example": "C'è un enorme parco vicino alla casa di Marco.",
-    "definition": "",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w103",
-    "target": "il cartellone",
-    "translations": [
-     "das Plakat"
-    ],
-    "acceptedAnswers": [],
-    "example": "Abbiamo visto un cartellone pubblicitario lungo la strada.",
-    "definition": "",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w104",
-    "target": "il passato",
-    "translations": [
-     "Vergangenheit"
-    ],
-    "acceptedAnswers": [],
-    "example": "Non dobbiamo mai dimenticare le lezioni del passato.",
-    "definition": "",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w105",
-    "target": "il mostro",
-    "translations": [
-     "das Monster"
-    ],
-    "acceptedAnswers": [],
-    "example": "I bambini raccontano spesso storie di mostri inventati.",
-    "definition": "",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w106",
-    "target": "la dimensione",
-    "translations": [
-     "die Dimension"
-    ],
-    "acceptedAnswers": [],
-    "example": "Quel problema sta prendendo una dimensione preoccupante.",
-    "definition": "",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w107",
-    "target": "lento",
-    "translations": [
-     "langsam"
-    ],
-    "acceptedAnswers": [],
-    "example": "Quel treno regionale è davvero molto lento.",
-    "definition": "",
-    "page": "169",
-    "say": "lento, lenta",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w108",
-    "target": "il canale",
-    "translations": [
-     "der Kanal"
-    ],
-    "acceptedAnswers": [],
-    "example": "Le gondole navigano sui canali di Venezia.",
-    "definition": "",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w109",
-    "target": "il fascino",
-    "translations": [
-     "der Charme"
-    ],
-    "acceptedAnswers": [],
-    "example": "Questa vecchia città storica ha un fascino unico.",
-    "definition": "",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w110",
-    "target": "sbattere",
-    "translations": [
-     "gegen qualcosa stoßen",
-     "knallen"
-    ],
-    "acceptedAnswers": [],
-    "example": "Ha chiuso la porta sbattendola forte per la rabbia.",
-    "definition": "",
-    "usage": "anche: sbattere contro",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w111",
-    "target": "nonostante",
-    "translations": [
-     "trotz"
-    ],
-    "acceptedAnswers": [],
-    "example": "Siamo usciti nonostante la pioggia battente.",
-    "definition": "",
-    "usage": "+ congiuntivo / sostantivo",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "other"
-    }
-   },
-   {
-    "id": "w112",
-    "target": "il lato",
-    "translations": [
-     "die Seite"
-    ],
-    "acceptedAnswers": [],
-    "example": "Bisogna considerare la questione da ogni lato.",
-    "definition": "",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "masculine"
-    }
-   },
-   {
-    "id": "w113",
-    "target": "negativo",
-    "translations": [
-     "negativ"
-    ],
-    "acceptedAnswers": [],
-    "example": "Cerca di evitare di avere sempre pensieri negativi.",
-    "definition": "",
-    "page": "169",
-    "say": "negativo, negativa",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w114",
-    "target": "proporre",
-    "translations": [
-     "vorschlagen"
-    ],
-    "acceptedAnswers": [],
-    "example": "Vorrei proporre un'idea per la nostra prossima gita.",
-    "definition": "",
-    "page": "169",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w115",
-    "target": "fare piacere a",
-    "translations": [
-     "jemanden erfreuen"
-    ],
-    "acceptedAnswers": [],
-    "example": "Mi fa molto piacere rivederti dopo tutto questo tempo.",
-    "definition": "",
-    "page": "170",
-    "say": "fare piacere a qualcuno",
-    "grammar": {
-     "partOfSpeech": "phrase"
-    }
-   },
-   {
-    "id": "w116",
-    "target": "natale",
-    "translations": [
-     "Geburts-"
-    ],
-    "acceptedAnswers": [],
-    "example": "Vorrei tornare nella mia terra natale per le vacanze.",
-    "definition": "",
-    "page": "170",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w117",
-    "target": "ricominciare",
-    "translations": [
-     "wieder anfangen"
-    ],
-    "acceptedAnswers": [],
-    "example": "Dopo una breve pausa possiamo ricominciare la lezione.",
-    "definition": "",
-    "page": "170",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w118",
-    "target": "rubare",
-    "translations": [
-     "stehlen"
-    ],
-    "acceptedAnswers": [],
-    "example": "I ladri hanno provato a rubare una bicicletta nel cortile.",
-    "definition": "",
-    "page": "170",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   },
-   {
-    "id": "w119",
-    "target": "la fama",
-    "translations": [
-     "der Ruf"
-    ],
-    "acceptedAnswers": [],
-    "example": "Quel ristorante ha la fama di servire la miglior pizza della città.",
-    "definition": "",
-    "page": "170",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w120",
-    "target": "la pubblicazione",
-    "translations": [
-     "die Veröffentlichung"
-    ],
-    "acceptedAnswers": [],
-    "example": "La pubblicazione del suo nuovo romanzo è prevista per maggio.",
-    "definition": "",
-    "page": "170",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w121",
-    "target": "l'integrazione",
-    "translations": [
-     "die Integration",
-     "die Eingliederung"
-    ],
-    "acceptedAnswers": [],
-    "example": "L'integrazione sociale è un tema molto importante.",
-    "definition": "",
-    "page": "170",
-    "grammar": {
-     "partOfSpeech": "noun",
-     "gender": "feminine"
-    }
-   },
-   {
-    "id": "w122",
-    "target": "caotico",
-    "translations": [
-     "chaotisch"
-    ],
-    "acceptedAnswers": [],
-    "example": "Il traffico del lunedì mattina è sempre caotico.",
-    "definition": "",
-    "page": "170",
-    "say": "caotico, caotica",
-    "grammar": {
-     "partOfSpeech": "adjective"
-    }
-   },
-   {
-    "id": "w123",
-    "target": "soffocare",
-    "translations": [
-     "ersticken"
-    ],
-    "acceptedAnswers": [],
-    "example": "Si soffoca in questa stanza senza aria condizionata.",
-    "definition": "",
-    "page": "170",
-    "grammar": {
-     "partOfSpeech": "verb"
-    }
-   }
-  ]
- },
- {
-  "format": "theis-learning-package",
-  "schemaVersion": "1.2",
-  "kind": "vocabulary",
   "id": "it-ecco1-aa-arbeitsauftraege",
   "title": "Ecco più 1 · Arbeitsaufträge",
   "language": "it",
@@ -4045,7 +2157,8 @@ const STOCK_PACKAGES = [
     "example": "Buonasera, signora!",
     "definition": "Saluto della sera.",
     "page": "199",
-    "related": "≠ buongiorno; ▸ buono/-a, la sera"
+    "antonyms": "buongiorno",
+    "family": "buono/-a, la sera"
    },
    {
     "id": "m1-giro-ditalia-002",
@@ -4117,7 +2230,8 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "199",
-    "related": "▸ arrivare; E arrival; F l’arrivée"
+    "related": "E arrival; F l’arrivée",
+    "family": "arrivare"
    },
    {
     "id": "m1-giro-ditalia-006",
@@ -4193,7 +2307,8 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "199",
-    "related": "▸ la bicicletta; E cyclist; F le/la cycliste",
+    "related": "E cyclist; F le/la cycliste",
+    "family": "la bicicletta",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -4288,7 +2403,7 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "199",
-    "related": "▸ il posto"
+    "family": "il posto"
    },
    {
     "id": "m1-giro-ditalia-016",
@@ -4394,7 +2509,9 @@ const STOCK_PACKAGES = [
      "etw./jdn betrachten als",
      "halten für"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "considerare"
+    ],
     "example": "Il prof considera Marco un bravo ragazzo.",
     "definition": "Giudicare in un certo modo.",
     "tags": [
@@ -5272,7 +3389,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "voll von etw./jdm"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "pieno/-a di"
+    ],
     "example": "La piazza è piena di gente.",
     "definition": "Che contiene molto di qualcosa.",
     "tags": [
@@ -5461,7 +3580,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "sich über jdn lustig machen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "prendere in giro"
+    ],
     "example": "Luca prende in giro suo fratello.",
     "definition": "Scherzare su qualcuno.",
     "usage": "Abc",
@@ -5631,7 +3752,7 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "201",
-    "related": "≠ città",
+    "antonyms": "città",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -6175,7 +4296,7 @@ const STOCK_PACKAGES = [
     "definition": "In un posto lontano da chi parla.",
     "usage": "avv.",
     "page": "169-170",
-    "related": "≠ qui/qua"
+    "antonyms": "qui/qua"
    },
    {
     "id": "u1-1a-004",
@@ -6222,7 +4343,7 @@ const STOCK_PACKAGES = [
     "example": "Sì, hai ragione!",
     "definition": "Parola per dire che sei d’accordo.",
     "page": "169-170",
-    "related": "≠ no"
+    "antonyms": "no"
    },
    {
     "id": "u1-1a-008",
@@ -6347,7 +4468,8 @@ const STOCK_PACKAGES = [
     "definition": "In modo positivo, senza problemi.",
     "usage": "avv.",
     "page": "169-170",
-    "related": "≠ male; F bien; L bene"
+    "related": "F bien; L bene",
+    "antonyms": "male"
    },
    {
     "id": "u1-1a-018",
@@ -6563,7 +4685,7 @@ const STOCK_PACKAGES = [
     "example": "No, grazie.",
     "definition": "Parola per dire che non sei d’accordo o non vuoi.",
     "page": "169-170",
-    "related": "≠ sì"
+    "antonyms": "sì"
    },
    {
     "id": "u1-1a-035",
@@ -6773,7 +4895,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "etw. besichtigen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "visitare"
+    ],
     "example": "Visitiamo il museo.",
     "definition": "Andare a vedere un luogo con curiosità.",
     "contrast": "visitare heißt nur „etw. besichtigen“, nicht „jdn besuchen“",
@@ -6904,7 +5028,7 @@ const STOCK_PACKAGES = [
     "example": "Il calciatore segna un gol.",
     "definition": "Persona che gioca a calcio.",
     "page": "170-171",
-    "related": "▸ il calcio",
+    "family": "il calcio",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -6979,7 +5103,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "durch etw. durchfahren/-gehen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "passare per"
+    ],
     "example": "Per andare in centro passo per il parco.",
     "definition": "Attraversare un luogo mentre vai in un altro.",
     "page": "170-171",
@@ -7017,7 +5143,7 @@ const STOCK_PACKAGES = [
     "example": "Il campo sportivo è vicino alla scuola.",
     "definition": "Area attrezzata per fare sport.",
     "page": "170-171",
-    "related": "▸ lo sport",
+    "family": "lo sport",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -7150,7 +5276,7 @@ const STOCK_PACKAGES = [
     "definition": "Scarpe con ruote in fila, per muoversi veloci.",
     "usage": "pl.",
     "page": "170-171",
-    "related": "▸ pattinare inline",
+    "family": "pattinare inline",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -7199,7 +5325,7 @@ const STOCK_PACKAGES = [
     "definition": "Dopo, in seguito.",
     "usage": "avv.",
     "page": "170-171",
-    "related": "= dopo"
+    "synonyms": "dopo"
    },
    {
     "id": "u1-1b-033",
@@ -7795,7 +5921,7 @@ const STOCK_PACKAGES = [
     "example": "La mamma cucina molto bene.",
     "definition": "La madre, detta in modo affettuoso.",
     "page": "173-174",
-    "related": "≠ papà",
+    "antonyms": "papà",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -8106,7 +6232,8 @@ const STOCK_PACKAGES = [
     "example": "Dov’è lo zaino? Che disordine!",
     "definition": "Situazione in cui le cose non sono al loro posto.",
     "page": "173-174",
-    "related": "= caos; E disorder",
+    "related": "E disorder",
+    "synonyms": "caos",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -8475,7 +6602,7 @@ const STOCK_PACKAGES = [
     "example": "Il pallone è sotto il tavolo.",
     "definition": "Più in basso rispetto a qualcosa.",
     "page": "173-174",
-    "related": "≠ su"
+    "antonyms": "su"
    },
    {
     "id": "u2-2a-040",
@@ -8807,7 +6934,7 @@ const STOCK_PACKAGES = [
     "example": "Ho un gatto piccolo.",
     "definition": "Di dimensioni inferiori alla media.",
     "page": "175-176",
-    "related": "≠ grande"
+    "antonyms": "grande"
    },
    {
     "id": "u2-2b-008",
@@ -9001,7 +7128,7 @@ const STOCK_PACKAGES = [
     "definition": "Persona che canta.",
     "usage": "f. la cantante; pl. i cantanti/le cantanti",
     "page": "175-176",
-    "related": "▸ la canzone",
+    "family": "la canzone",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -9303,7 +7430,8 @@ const STOCK_PACKAGES = [
     "definition": "Che ha molti anni, non nuovo.",
     "usage": "pl. vecchi m.",
     "page": "175-176",
-    "related": "≠ nuovo/-a; F vieux, vieille"
+    "related": "F vieux, vieille",
+    "antonyms": "nuovo/-a"
    },
    {
     "id": "u2-2b-039",
@@ -9346,7 +7474,9 @@ const STOCK_PACKAGES = [
      "folgen",
      "verfolgen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "seguire"
+    ],
     "example": "Seguo una serie TV.",
     "definition": "Andare dietro a una persona o controllare un’attività.",
     "page": "175-176",
@@ -9467,7 +7597,8 @@ const STOCK_PACKAGES = [
      "etw. spielen"
     ],
     "acceptedAnswers": [
-     "giocare a qs"
+     "giocare a qs",
+     "giocare a"
     ],
     "example": "Filippo gioca a calcio.",
     "definition": "Fare un gioco o praticare uno sport.",
@@ -9608,7 +7739,7 @@ const STOCK_PACKAGES = [
     "example": "Il mio cognome è Bianchi.",
     "definition": "Il nome della famiglia, per esempio Rossi.",
     "page": "172-173",
-    "related": "▸ il nome",
+    "family": "il nome",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -9796,7 +7927,7 @@ const STOCK_PACKAGES = [
     "definition": "Si dice per esprimere una cosa che trovi bella o buona.",
     "usage": "+ sg.",
     "page": "172-173",
-    "related": "▸ piacere"
+    "family": "piacere"
    },
    {
     "id": "u2-approccio-016",
@@ -10181,7 +8312,8 @@ const STOCK_PACKAGES = [
     "example": "Mio fratello gioca a calcio.",
     "definition": "Figlio degli stessi genitori.",
     "page": "172-173",
-    "related": "F le frère; L frater; ≠ la sorella",
+    "related": "F le frère; L frater",
+    "antonyms": "la sorella",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -10496,7 +8628,8 @@ const STOCK_PACKAGES = [
     "example": "Parto da casa alle sette.",
     "definition": "Lasciare un luogo per andare in un altro.",
     "page": "178-180",
-    "related": "F partir; ≠ arrivare"
+    "related": "F partir",
+    "antonyms": "arrivare"
    },
    {
     "id": "u3-3a-011",
@@ -10923,7 +9056,8 @@ const STOCK_PACKAGES = [
     "definition": "Arrivare alla fine di qualcosa.",
     "usage": "Abc",
     "page": "178-180",
-    "related": "≠ cominciare; E to finish"
+    "related": "E to finish",
+    "antonyms": "cominciare"
    },
    {
     "id": "u3-3a-037",
@@ -11013,7 +9147,7 @@ const STOCK_PACKAGES = [
     "example": "Senta, scusi!",
     "definition": "Per attirare l’attenzione di una persona a cui dai del Lei.",
     "page": "178-180",
-    "related": "▸ sentire"
+    "family": "sentire"
    },
    {
     "id": "u3-3a-043",
@@ -11026,7 +9160,8 @@ const STOCK_PACKAGES = [
     "definition": "Il giorno dopo oggi.",
     "usage": "avv.",
     "page": "178-180",
-    "related": "≠ oggi; F demain"
+    "related": "F demain",
+    "antonyms": "oggi"
    },
    {
     "id": "u3-3a-044",
@@ -11051,7 +9186,7 @@ const STOCK_PACKAGES = [
     "example": "Arrivederci, a domani!",
     "definition": "Saluto di commiato.",
     "page": "178-180",
-    "related": "≠ buongiorno"
+    "antonyms": "buongiorno"
    }
   ]
  },
@@ -11239,7 +9374,7 @@ const STOCK_PACKAGES = [
     "definition": "In alcune occasioni, non sempre.",
     "usage": "avv.",
     "page": "180-181",
-    "related": "≠ spesso"
+    "antonyms": "spesso"
    },
    {
     "id": "u3-3b-010",
@@ -11379,7 +9514,8 @@ const STOCK_PACKAGES = [
     "definition": "Mettere una cosa nelle mani di un altro.",
     "usage": "Abc",
     "page": "180-181",
-    "related": "≠ prendere; L dare"
+    "related": "L dare",
+    "antonyms": "prendere"
    },
    {
     "id": "u3-3b-020",
@@ -11412,7 +9548,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "jd ist an der Reihe/dran"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "tocca a"
+    ],
     "example": "Adesso tocca a me.",
     "definition": "Espressione che indica il turno di qualcuno.",
     "page": "180-181"
@@ -11517,7 +9655,8 @@ const STOCK_PACKAGES = [
     "example": "Mia sorella è giovane.",
     "definition": "Che ha pochi anni.",
     "page": "180-181",
-    "related": "≠ vecchio; F jeune"
+    "related": "F jeune",
+    "antonyms": "vecchio"
    },
    {
     "id": "u3-3b-031",
@@ -12464,7 +10603,7 @@ const STOCK_PACKAGES = [
     "definition": "Un’altra volta.",
     "usage": "avv.",
     "page": "177-178",
-    "related": "▸ nuovo"
+    "family": "nuovo"
    },
    {
     "id": "u3-approccio-042",
@@ -12843,12 +10982,15 @@ const STOCK_PACKAGES = [
     "translations": [
      "jdm helfen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "aiutare"
+    ],
     "example": "Khalid aiuta il suo papà.",
     "definition": "Dare una mano a qualcuno.",
     "usage": "Das Verb aiutare steht im Italienischen anders als im Deutschen mit direktem Objekt: Ich helfe den Freunden. – Aiuto gli amici.",
     "page": "183-185",
-    "related": "F aider qn; ▸ Aiuto!"
+    "related": "F aider qn",
+    "family": "Aiuto!"
    },
    {
     "id": "u4-4a-020",
@@ -12930,7 +11072,8 @@ const STOCK_PACKAGES = [
     "example": "Rispondo alla tua lettera.",
     "definition": "Dare una risposta a una domanda.",
     "page": "183-185",
-    "related": "≠ interrogare; F répondre; L respondere"
+    "related": "F répondre; L respondere",
+    "antonyms": "interrogare"
    },
    {
     "id": "u4-4a-026",
@@ -12942,7 +11085,7 @@ const STOCK_PACKAGES = [
     "example": "Scusa! Ma non posso venire.",
     "definition": "Per chiedere perdono o attirare l’attenzione, a una persona che dai del tu.",
     "page": "183-185",
-    "related": "▸ scusi"
+    "family": "scusi"
    },
    {
     "id": "u4-4a-027",
@@ -12955,7 +11098,8 @@ const STOCK_PACKAGES = [
     "definition": "Persona che crea opere d’arte, di musica o di spettacolo.",
     "usage": "m./f.; pl. gli artisti m.",
     "page": "183-185",
-    "related": "▸ l’arte; E artist; F l’artiste"
+    "related": "E artist; F l’artiste",
+    "family": "l’arte"
    },
    {
     "id": "u4-4a-028",
@@ -13022,7 +11166,8 @@ const STOCK_PACKAGES = [
     "example": "Studio per la verifica.",
     "definition": "Imparare con l’aiuto dei libri.",
     "page": "183-185",
-    "related": "▸ lo studente; E study; L studere"
+    "related": "E study; L studere",
+    "family": "lo studente"
    },
    {
     "id": "u4-4a-033",
@@ -13105,7 +11250,8 @@ const STOCK_PACKAGES = [
     "definition": "Dopo molta attesa.",
     "usage": "avv.",
     "page": "183-185",
-    "related": "▸ finire; E finally"
+    "related": "E finally",
+    "family": "finire"
    },
    {
     "id": "u4-4a-038",
@@ -13322,7 +11468,8 @@ const STOCK_PACKAGES = [
     "example": "Il gatto è nero.",
     "definition": "Colore della notte.",
     "page": "185-186",
-    "related": "≠ bianco; F noir/e"
+    "related": "F noir/e",
+    "antonyms": "bianco"
    },
    {
     "id": "u4-4b-003",
@@ -13542,7 +11689,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "jdn anrufen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "telefonare a"
+    ],
     "example": "Giorgia telefona a Filippo.",
     "definition": "Chiamare una persona con il telefono.",
     "usage": "Das Verb telefonare steht im Italienischen anders als im Deutschen mit indirektem Objekt: Ich rufe Giorgia an. – Telefono a Giorgia.",
@@ -13558,7 +11707,7 @@ const STOCK_PACKAGES = [
     "example": "Pronto? Chi parla?",
     "definition": "Parola con cui si risponde al telefono.",
     "page": "185-186",
-    "related": "▸ pronto/-a"
+    "family": "pronto/-a"
    },
    {
     "id": "u4-4b-019",
@@ -14088,7 +12237,8 @@ const STOCK_PACKAGES = [
     "example": "Trovo le chiavi sul tavolo.",
     "definition": "Scoprire qualcosa che si cercava.",
     "page": "182-183",
-    "related": "≠ cercare; F trouver"
+    "related": "F trouver",
+    "antonyms": "cercare"
    },
    {
     "id": "u4-approccio-008",
@@ -14351,7 +12501,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "in Verbindung mit jdm/etw."
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "collegato/-a con"
+    ],
     "example": "Con il computer sono collegato con gli amici.",
     "definition": "Unito, in relazione con qualcosa.",
     "page": "182-183"
@@ -14464,7 +12616,7 @@ const STOCK_PACKAGES = [
     "example": "Sono felice perché è sabato.",
     "definition": "Parola che introduce la causa.",
     "page": "182-183",
-    "related": "▸ perché?"
+    "family": "perché?"
    },
    {
     "id": "u4-approccio-032",
@@ -14552,7 +12704,7 @@ const STOCK_PACKAGES = [
     "definition": "Sabato e domenica.",
     "usage": "pl. i fine settimana",
     "page": "182-183",
-    "related": "▸ la settimana",
+    "family": "la settimana",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -14596,7 +12748,8 @@ const STOCK_PACKAGES = [
     "definition": "Stagione calda dopo la primavera.",
     "usage": "f.",
     "page": "182-183",
-    "related": "≠ l’inverno; F l’été"
+    "related": "F l’été",
+    "antonyms": "l’inverno"
    }
   ]
  },
@@ -14691,7 +12844,8 @@ const STOCK_PACKAGES = [
     "definition": "Il momento in cui comincia qualcosa.",
     "usage": "pl. gli inizi",
     "page": "187-188",
-    "related": "≠ la fine; L initium"
+    "related": "L initium",
+    "antonyms": "la fine"
    },
    {
     "id": "u5-5a-004",
@@ -14704,7 +12858,8 @@ const STOCK_PACKAGES = [
     "definition": "Il giorno prima di oggi.",
     "usage": "avv.",
     "page": "187-188",
-    "related": "≠ domani; F hier; L heri"
+    "related": "F hier; L heri",
+    "antonyms": "domani"
    },
    {
     "id": "u5-5a-005",
@@ -14796,7 +12951,8 @@ const STOCK_PACKAGES = [
     "definition": "Conservare qualcosa nel tempo.",
     "usage": "Abc",
     "page": "187-188",
-    "related": "E to maintain; ▸ tenere"
+    "related": "E to maintain",
+    "family": "tenere"
    },
    {
     "id": "u5-5a-011",
@@ -14887,7 +13043,7 @@ const STOCK_PACKAGES = [
     "example": "Il bambino è molto vivace.",
     "definition": "Pieno di energia.",
     "page": "187-188",
-    "related": "▸ la vita"
+    "family": "la vita"
    },
    {
     "id": "u5-5a-016",
@@ -14955,7 +13111,8 @@ const STOCK_PACKAGES = [
     "definition": "L’intero periodo che va dal tramonto alla notte.",
     "contrast": "1. den Abend in seinem Verlauf: Abbiamo passato una bella serata al ristorante. – Wir haben einen schönen Abend im Restaurant verbracht. 2. den Abend als Zeitangabe: Domani sera andiamo al ristorante. – Morgen Abend gehen wir ins Restaurant.",
     "page": "187-188",
-    "related": "▸ la sera; F la soirée",
+    "related": "F la soirée",
+    "family": "la sera",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -15019,7 +13176,8 @@ const STOCK_PACKAGES = [
     "definition": "Persona che abita nella casa accanto.",
     "usage": "f. la vicina",
     "page": "187-188",
-    "related": "▸ vicino a; L vicinus",
+    "related": "L vicinus",
+    "family": "vicino a",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -15066,7 +13224,8 @@ const STOCK_PACKAGES = [
     "definition": "Rendere accessibile qualcosa.",
     "usage": "p.p. aperto",
     "page": "187-188",
-    "related": "▸ aperto/-a; L aperire"
+    "related": "L aperire",
+    "family": "aperto/-a"
    },
    {
     "id": "u5-5a-027",
@@ -15158,7 +13317,8 @@ const STOCK_PACKAGES = [
     "example": "Ti riconosco dalla voce.",
     "definition": "Capire chi è una persona che già si conosce.",
     "page": "187-188",
-    "related": "▸ conoscere; F reconnaître"
+    "related": "F reconnaître",
+    "family": "conoscere"
    },
    {
     "id": "u5-5a-034",
@@ -15170,7 +13330,8 @@ const STOCK_PACKAGES = [
     "example": "Ho tanti amici.",
     "definition": "In grande quantità.",
     "page": "187-188",
-    "related": "≠ poco/-a; L tantus"
+    "related": "L tantus",
+    "antonyms": "poco/-a"
    },
    {
     "id": "u5-5a-035",
@@ -15213,7 +13374,9 @@ const STOCK_PACKAGES = [
      "jdm/etw. ähnlich",
      "gleich"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "uguale a"
+    ],
     "example": "Frank è uguale a Matthias. Sono come gemelli.",
     "definition": "Identico, senza differenza.",
     "usage": "agg.",
@@ -15283,7 +13446,8 @@ const STOCK_PACKAGES = [
     "definition": "Che richiede molta fatica.",
     "contrast": "Il compito è facile. – Die Aufgabe ist einfach/leicht (vgl. engl. easy). Il compito è difficile. – Die Aufgabe ist schwierig/schwer (vgl. engl. difficult). La borsa è leggera. – Die Tasche ist leicht (Gewicht; vgl. engl. light). La borsa è pesante. – Die Tasche ist schwer (Gewicht; vgl. engl. heavy).",
     "page": "187-188",
-    "related": "≠ facile; L difficilis/-e"
+    "related": "L difficilis/-e",
+    "antonyms": "facile"
    },
    {
     "id": "u5-5a-042",
@@ -15488,7 +13652,7 @@ const STOCK_PACKAGES = [
     "definition": "In questi ultimi tempi.",
     "usage": "avv.",
     "page": "188-190",
-    "related": "▸ ultimo/-a"
+    "family": "ultimo/-a"
    },
    {
     "id": "u5-5b-003",
@@ -15502,7 +13666,8 @@ const STOCK_PACKAGES = [
     "definition": "In grande quantità; molto.",
     "usage": "avv. Unterscheide: Il film è poco interessante. – Der Film ist wenig/kaum interessant. La pizza è molto buona. – Die Pizza ist sehr gut. I cugini sono tanto carini. – Die Cousins sind sehr süß. La mia camera è troppo piccola. – Mein Zimmer ist zu klein.",
     "page": "188-190",
-    "related": "= molto; F tant"
+    "related": "F tant",
+    "synonyms": "molto"
    },
    {
     "id": "u5-5b-004",
@@ -15630,7 +13795,7 @@ const STOCK_PACKAGES = [
     "example": "Compro un vestito al negozio.",
     "definition": "Prendere qualcosa pagando.",
     "page": "188-190",
-    "related": "≠ vendere"
+    "antonyms": "vendere"
    },
    {
     "id": "u5-5b-011",
@@ -15858,7 +14023,7 @@ const STOCK_PACKAGES = [
     "example": "Il treno ha un ritardo di dieci minuti.",
     "definition": "Arrivo dopo l’ora prevista.",
     "page": "188-190",
-    "related": "▸ essere in ritardo",
+    "family": "essere in ritardo",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -15934,7 +14099,8 @@ const STOCK_PACKAGES = [
     "example": "Esco senza ombrello.",
     "definition": "Piccola parola che indica mancanza.",
     "page": "188-190",
-    "related": "≠ con; F sans"
+    "related": "F sans",
+    "antonyms": "con"
    },
    {
     "id": "u5-5b-031",
@@ -15950,7 +14116,7 @@ const STOCK_PACKAGES = [
     "definition": "Andare verso l’alto o entrare in un mezzo.",
     "usage": "Abc",
     "page": "188-190",
-    "related": "≠ scendere"
+    "antonyms": "scendere"
    },
    {
     "id": "u5-5b-032",
@@ -16352,7 +14518,8 @@ const STOCK_PACKAGES = [
     "definition": "Andare fuori da un luogo.",
     "usage": "Abc",
     "page": "191-192",
-    "related": "≠ entrare; L exire"
+    "related": "L exire",
+    "antonyms": "entrare"
    },
    {
     "id": "u6-6a-006",
@@ -16490,7 +14657,8 @@ const STOCK_PACKAGES = [
     "definition": "Dopo l’ora giusta.",
     "usage": "avv.",
     "page": "191-192",
-    "related": "≠ presto; F tard"
+    "related": "F tard",
+    "antonyms": "presto"
    },
    {
     "id": "u6-6a-015",
@@ -17036,7 +15204,9 @@ const STOCK_PACKAGES = [
      "jdn etw. fragen",
      "bitten"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "chiedere a"
+    ],
     "example": "Giorgia chiama Leo e gli chiede di venire.",
     "definition": "Domandare qualcosa a una persona.",
     "usage": "p.p. chiesto. Beachte die verschiedenen Verwendungen: Khalid chiede un po’ di pane a suo padre. – Khalid bittet seinen Vater um etwas Brot. / Anna chiede a Khalid: „Vieni stasera?“ – Anna fragt Khalid: „Kommst du heute Abend?“ / Anna chiede a Khalid di venire alla festa. – Anna bittet Khalid zum Fest zu kommen. Ein Infinitiv wird an chiedere mit der Präposition di angeschlossen.",
@@ -17049,7 +15219,9 @@ const STOCK_PACKAGES = [
      "jdn/etw. brauchen",
      "benötigen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "avere bisogno di"
+    ],
     "example": "Ho bisogno di pane per la cena.",
     "definition": "Aver necessità di qualcosa.",
     "usage": "Abc",
@@ -17171,7 +15343,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "bei jdm vorbeischauen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "fare un salto da"
+    ],
     "example": "Khalid fa un salto da suo padre.",
     "definition": "Visitare una persona brevemente.",
     "usage": "Abc",
@@ -17210,7 +15384,7 @@ const STOCK_PACKAGES = [
     "definition": "Risposta a “grazie”.",
     "usage": "avv. Unterscheide: Mi puoi passare l’acqua, per favore? – Kannst Du mir bitte das Wasser reichen? / Grazie di tutto! – Prego! – Danke für alles – Bitteschön!",
     "page": "192-194",
-    "related": "≠ grazie"
+    "antonyms": "grazie"
    },
    {
     "id": "u6-6b-037",
@@ -17369,7 +15543,8 @@ const STOCK_PACKAGES = [
     "example": "La madre sa cucinare bene.",
     "definition": "Preparare il cibo con il fuoco.",
     "page": "192-194",
-    "related": "▸ la cucina; F cuisiner"
+    "related": "F cuisiner",
+    "family": "la cucina"
    },
    {
     "id": "u6-6b-047",
@@ -17607,7 +15782,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "jdm stehen (Kleidung)"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "stare a"
+    ],
     "example": "Questo vestito mi sta bene.",
     "definition": "Dire se un vestito ti sta bene o male.",
     "page": "190-191",
@@ -17657,7 +15834,7 @@ const STOCK_PACKAGES = [
     "definition": "Molto bene.",
     "usage": "avv.",
     "page": "190-191",
-    "related": "= molto bene"
+    "synonyms": "molto bene"
    },
    {
     "id": "u6-approccio-008",
@@ -18070,7 +16247,7 @@ const STOCK_PACKAGES = [
     "definition": "Lenti per proteggere gli occhi dal sole.",
     "usage": "pl.",
     "page": "190-191",
-    "related": "▸ l’occhio",
+    "family": "l’occhio",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -18203,7 +16380,8 @@ const STOCK_PACKAGES = [
     "definition": "Parte del giorno dopo l’alba.",
     "usage": "avv.",
     "page": "195-197",
-    "related": "≠ la sera; F le matin",
+    "related": "F le matin",
+    "antonyms": "la sera",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -18236,7 +16414,7 @@ const STOCK_PACKAGES = [
     "definition": "Dire che la temperatura è bassa ma piacevole.",
     "usage": "Abc",
     "page": "195-197",
-    "related": "▸ fresco"
+    "family": "fresco"
    },
    {
     "id": "u7-7a-008",
@@ -18257,12 +16435,13 @@ const STOCK_PACKAGES = [
      "anfangen zu + Inf."
     ],
     "acceptedAnswers": [
-     "mettersi a qs"
+     "mettersi a qs",
+     "mettersi a"
     ],
     "example": "Filippo si mette a studiare.",
     "definition": "Iniziare a fare qualcosa.",
     "page": "195-197",
-    "related": "▸ mettere"
+    "family": "mettere"
    },
    {
     "id": "u7-7a-010",
@@ -18357,7 +16536,8 @@ const STOCK_PACKAGES = [
     "definition": "Sentirsi meno caldo.",
     "usage": "Abc",
     "page": "195-197",
-    "related": "▸ fresco/-a; E to refresh"
+    "related": "E to refresh",
+    "family": "fresco/-a"
    },
    {
     "id": "u7-7a-017",
@@ -18413,7 +16593,7 @@ const STOCK_PACKAGES = [
     "example": "Aspetto una chiamata importante.",
     "definition": "Telefonata.",
     "page": "195-197",
-    "related": "▸ chiamare",
+    "family": "chiamare",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -18471,7 +16651,7 @@ const STOCK_PACKAGES = [
     "example": "Mi trovo bene al mare.",
     "definition": "Sentirsi a proprio agio.",
     "page": "195-197",
-    "related": "▸ trovare"
+    "family": "trovare"
    },
    {
     "id": "u7-7a-025",
@@ -18525,7 +16705,7 @@ const STOCK_PACKAGES = [
     "example": "Tutto a posto? – Sì, grazie!",
     "definition": "Frase per dire o chiedere che va tutto bene.",
     "page": "195-197",
-    "related": "= va bene"
+    "synonyms": "va bene"
    },
    {
     "id": "u7-7a-029",
@@ -18859,7 +17039,8 @@ const STOCK_PACKAGES = [
     "definition": "Contrario di aprire.",
     "usage": "p.p. chiuso",
     "page": "195-197",
-    "related": "≠ aprire; L claudere"
+    "related": "L claudere",
+    "antonyms": "aprire"
    },
    {
     "id": "u7-7a-049",
@@ -19102,7 +17283,7 @@ const STOCK_PACKAGES = [
     "example": "La neve è fredda.",
     "definition": "Con bassa temperatura.",
     "page": "197-198",
-    "related": "≠ caldo"
+    "antonyms": "caldo"
    },
    {
     "id": "u7-7b-012",
@@ -19138,7 +17319,7 @@ const STOCK_PACKAGES = [
     "definition": "Mettersi su una sedia.",
     "usage": "Abc",
     "page": "197-198",
-    "related": "▸ la sedia"
+    "family": "la sedia"
    },
    {
     "id": "u7-7b-014",
@@ -19190,7 +17371,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "jdm/(auf) etw. vertrauen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "fidarsi di"
+    ],
     "example": "Io non mi fido del GPS.",
     "definition": "Avere fiducia in qualcuno.",
     "page": "197-198"
@@ -19324,7 +17507,7 @@ const STOCK_PACKAGES = [
     "definition": "Anche, addirittura.",
     "usage": "avv.",
     "page": "197-198",
-    "related": "= addirittura"
+    "synonyms": "addirittura"
    },
    {
     "id": "u7-7b-026",
@@ -19332,7 +17515,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "von jdm/etw. begeistert"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "entusiasta di"
+    ],
     "example": "Tutti sono entusiasti dell’idea.",
     "definition": "Molto contento e pieno di energia per qualcosa.",
     "page": "197-198"
@@ -19387,7 +17572,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "jdn/etw. bemerken"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "accorgersi di"
+    ],
     "example": "Giorgia si accorge di essere in ritardo.",
     "definition": "Notare qualcosa che prima non si vedeva.",
     "usage": "p.p. accorto",
@@ -19446,7 +17633,7 @@ const STOCK_PACKAGES = [
     "example": "La strada è piena di auto.",
     "definition": "Via dove passano le auto.",
     "page": "197-198",
-    "related": "▸ la via",
+    "family": "la via",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -19550,7 +17737,8 @@ const STOCK_PACKAGES = [
     "definition": "Dalla parte del braccio che di solito si usa per scrivere.",
     "usage": "avv.",
     "page": "197-198",
-    "related": "≠ a sinistra; F à droite; L dexter"
+    "related": "F à droite; L dexter",
+    "antonyms": "a sinistra"
    },
    {
     "id": "u7-7b-042",
@@ -19903,7 +18091,8 @@ const STOCK_PACKAGES = [
     "example": "Il film è breve.",
     "definition": "Che dura poco.",
     "page": "194-195",
-    "related": "≠ lungo/-a; F bref, brève; L brevis/-e"
+    "related": "F bref, brève; L brevis/-e",
+    "antonyms": "lungo/-a"
    },
    {
     "id": "u7-approccio-019",
@@ -19927,7 +18116,7 @@ const STOCK_PACKAGES = [
     "example": "Facciamo una passeggiata.",
     "definition": "Camminata tranquilla.",
     "page": "194-195",
-    "related": "▸ passeggiare",
+    "family": "passeggiare",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -21647,7 +19836,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "sich um etw. handeln"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "trattarsi di"
+    ],
     "example": "Si tratta di un progetto.",
     "definition": "Riguardare un tema.",
     "tags": [
@@ -21709,7 +19900,9 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "229-230",
-    "related": "▸ conoscere; ≠ sconosciuto/-a; L cognoscere; F connu/connue"
+    "related": "L cognoscere; F connu/connue",
+    "antonyms": "sconosciuto/-a",
+    "family": "conoscere"
    },
    {
     "id": "m-musica-005",
@@ -21802,7 +19995,7 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "229-230",
-    "related": "▸ la musica"
+    "family": "la musica"
    },
    {
     "id": "m-musica-010",
@@ -21827,7 +20020,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "etw. komponieren"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "comporre, composto"
+    ],
     "example": "Compone una canzone.",
     "definition": "Creare una musica o un testo.",
     "usage": "p.p. composto",
@@ -21875,7 +20070,8 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "229-230",
-    "related": "▸ la sorpresa; E surprise; F surprendre"
+    "related": "E surprise; F surprendre",
+    "family": "la sorpresa"
    },
    {
     "id": "m-musica-014",
@@ -21890,7 +20086,8 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "229-230",
-    "related": "▸ la regione; L regio"
+    "related": "L regio",
+    "family": "la regione"
    },
    {
     "id": "m-musica-015",
@@ -21905,7 +20102,8 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "229-230",
-    "related": "▸ cantare, il/la cantante; F le chant; L cantus",
+    "related": "F le chant; L cantus",
+    "family": "cantare, il/la cantante",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -21967,7 +20165,7 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "229-230",
-    "related": "▸ cantare, il/la cantante",
+    "family": "cantare, il/la cantante",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -21992,7 +20190,8 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "229-230",
-    "related": "▸ creare; E creation; F la création",
+    "related": "E creation; F la création",
+    "family": "creare",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -22140,7 +20339,9 @@ const STOCK_PACKAGES = [
      "neben jdm./etw.",
      "außer jdm./etw."
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "oltre a"
+    ],
     "example": "Oltre a te, viene anche Marco.",
     "definition": "In aggiunta a.",
     "tags": [
@@ -22448,7 +20649,9 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "228-229",
-    "related": "▸ conoscere; ≠ sconosciuto/-a; L cognoscere; F connu/connue"
+    "related": "L cognoscere; F connu/connue",
+    "antonyms": "sconosciuto/-a",
+    "family": "conoscere"
    },
    {
     "id": "m-uno-stage-007",
@@ -22527,7 +20730,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "neben jdm/etw."
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "oltre a"
+    ],
     "example": "Oltre a te, viene anche Marco.",
     "definition": "In aggiunta a.",
     "tags": [
@@ -22684,7 +20889,8 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "228-229",
-    "related": "▸ sentire; E sense; F le sens; L sensus",
+    "related": "E sense; F le sens; L sensus",
+    "family": "sentire",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -22709,7 +20915,8 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "228-229",
-    "related": "▸ organizzare; E organisation"
+    "related": "E organisation",
+    "family": "organizzare"
    },
    {
     "id": "m-uno-stage-023",
@@ -22937,7 +21144,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "jdn begrüßen (formell in Briefen)"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "porgere i saluti a"
+    ],
     "example": "Porgo i miei saluti alla signora.",
     "definition": "Mandare saluti.",
     "tags": [
@@ -23048,7 +21257,8 @@ const STOCK_PACKAGES = [
      "fakultativ"
     ],
     "page": "228-229",
-    "related": "E fluent; = corrente"
+    "related": "E fluent",
+    "synonyms": "corrente"
    },
    {
     "id": "m-uno-stage-043",
@@ -23268,7 +21478,8 @@ const STOCK_PACKAGES = [
     "definition": "Abitare o passare la propria vita in un posto.",
     "usage": "p.p. vissuto",
     "page": "199-200",
-    "related": "▸ la vita; F vivre; L vivere"
+    "related": "F vivre; L vivere",
+    "family": "la vita"
    },
    {
     "id": "u1-1a-004",
@@ -23396,7 +21607,8 @@ const STOCK_PACKAGES = [
     "definition": "Zona fuori dalla città, con campi e fattorie.",
     "usage": "≠ la città",
     "page": "199-200",
-    "related": "≠ la città; F la champagne",
+    "related": "F la champagne",
+    "antonyms": "la città",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -23430,7 +21642,7 @@ const STOCK_PACKAGES = [
     "example": "Il bambino gioca con la palla.",
     "definition": "Persona molto giovane.",
     "page": "199-200",
-    "related": "≠ adulto"
+    "antonyms": "adulto"
    },
    {
     "id": "u1-1a-015",
@@ -23488,7 +21700,8 @@ const STOCK_PACKAGES = [
     "example": "Ci conosciamo da tre anni.",
     "definition": "Sapere chi è l’altro.",
     "page": "199-200",
-    "related": "▸ conoscere; F se connaître"
+    "related": "F se connaître",
+    "family": "conoscere"
    },
    {
     "id": "u1-1a-019",
@@ -23723,7 +21936,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "etw. zu tun haben"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "avere da fare"
+    ],
     "example": "Oggi ho molto da fare.",
     "definition": "Avere un impegno.",
     "usage": "Abc",
@@ -23899,7 +22114,7 @@ const STOCK_PACKAGES = [
     "example": "Leggo un racconto di fantascienza.",
     "definition": "Storia breve.",
     "page": "201-202",
-    "related": "▸ raccontare",
+    "family": "raccontare",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -24055,7 +22270,8 @@ const STOCK_PACKAGES = [
     "definition": "Poco lungo.",
     "usage": "≠ lungo",
     "page": "201-202",
-    "related": "F court/e; ≠ lungo"
+    "related": "F court/e",
+    "antonyms": "lungo"
    },
    {
     "id": "u1-1b-014",
@@ -24096,7 +22312,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "jdn anlächeln"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "sorridere a, sorriso"
+    ],
     "example": "Sorrido a mia nonna.",
     "definition": "Mostrare allegria con il viso.",
     "usage": "p.p. sorriso",
@@ -24110,7 +22328,8 @@ const STOCK_PACKAGES = [
      "sich etw. entfernen"
     ],
     "acceptedAnswers": [
-     "togliersi qs, tolto"
+     "togliersi qs, tolto",
+     "togliersi, tolto"
     ],
     "example": "Mi tolgo la giacca.",
     "definition": "Levarsi un indumento.",
@@ -24166,7 +22385,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "jdn abholen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "arrivare a prendere"
+    ],
     "example": "Papà arriva a prendermi alle sei.",
     "definition": "Venire a prendere una persona in un luogo.",
     "page": "201-202"
@@ -24252,7 +22473,7 @@ const STOCK_PACKAGES = [
     "example": "Un uomo sconosciuto bussa alla porta.",
     "definition": "Che non si conosce.",
     "page": "201-202",
-    "related": "≠ conosciuto/-a"
+    "antonyms": "conosciuto/-a"
    },
    {
     "id": "u1-1b-028",
@@ -24265,7 +22486,7 @@ const STOCK_PACKAGES = [
     "example": "In un attimo è finito tutto.",
     "definition": "Un tempo brevissimo.",
     "page": "201-202",
-    "related": "= il momento"
+    "synonyms": "il momento"
    },
    {
     "id": "u1-1b-029",
@@ -24295,7 +22516,9 @@ const STOCK_PACKAGES = [
      "verpassen",
      "sich verlaufen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "perdersi"
+    ],
     "example": "Non voglio perdermi la festa.",
     "definition": "Non partecipare a qualcosa di bello.",
     "page": "201-202"
@@ -24322,7 +22545,9 @@ const STOCK_PACKAGES = [
      "überzeugen",
      "überreden"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "convincere di + sost. / a fare, convinto"
+    ],
     "example": "Mi hanno convinto a venire.",
     "definition": "Far cambiare idea a qualcuno.",
     "usage": "p.p. convinto",
@@ -24339,7 +22564,7 @@ const STOCK_PACKAGES = [
     "example": "È stata una bella giornata.",
     "definition": "Il giorno dal mattino alla sera.",
     "page": "201-202",
-    "related": "= il giorno",
+    "synonyms": "il giorno",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -24388,7 +22613,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "sich etw. austauschen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "scambiarsi"
+    ],
     "example": "Ci scambiamo i numeri di telefono.",
     "definition": "Darsi a vicenda qualcosa.",
     "page": "201-202"
@@ -24420,7 +22647,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "die Erinnerung an etw./jmd"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "il ricordo di"
+    ],
     "example": "Ho un bel ricordo di quell’estate.",
     "definition": "Cosa che resta nella memoria.",
     "page": "201-202",
@@ -24588,7 +22817,8 @@ const STOCK_PACKAGES = [
     "definition": "Persona che vive in una città o in un paese.",
     "usage": "m./f.",
     "page": "198-199",
-    "related": "▸ abitare; E inhabitant; F l’habitant"
+    "related": "E inhabitant; F l’habitant",
+    "family": "abitare"
    },
    {
     "id": "u1-approccio-006",
@@ -25576,7 +23806,8 @@ const STOCK_PACKAGES = [
     "example": "Mio nonno vive in campagna.",
     "definition": "Zona fuori dalla città, con campi e fattorie.",
     "page": "202",
-    "related": "≠ la città; F la champagne",
+    "related": "F la champagne",
+    "antonyms": "la città",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -25637,7 +23868,8 @@ const STOCK_PACKAGES = [
     "example": "Questa città ha centomila abitanti.",
     "definition": "Persona che vive in una città o in un paese.",
     "page": "202",
-    "related": "▸ abitare; E inhabitant; F l’habitant"
+    "related": "E inhabitant; F l’habitant",
+    "family": "abitare"
    },
    {
     "id": "u1-per-parlare-024",
@@ -25807,7 +24039,7 @@ const STOCK_PACKAGES = [
     "example": "Informo i miei genitori del voto.",
     "definition": "Dare notizie a qualcuno.",
     "page": "203-205",
-    "related": "▸ l’informazione"
+    "family": "l’informazione"
    },
    {
     "id": "u2-2a-005",
@@ -25843,7 +24075,8 @@ const STOCK_PACKAGES = [
     "definition": "Lasciar fare.",
     "usage": "p.p. permesso",
     "page": "203-205",
-    "related": "≠ vietare; E to permit; L permittere"
+    "related": "E to permit; L permittere",
+    "antonyms": "vietare"
    },
    {
     "id": "u2-2a-008",
@@ -26011,7 +24244,7 @@ const STOCK_PACKAGES = [
     "definition": "Che fa del male.",
     "usage": "≠ buono/-a",
     "page": "203-205",
-    "related": "≠ buono/-a"
+    "antonyms": "buono/-a"
    },
    {
     "id": "u2-2a-019",
@@ -26136,7 +24369,8 @@ const STOCK_PACKAGES = [
     "example": "L’insegnante spiega la lezione.",
     "definition": "Persona che insegna.",
     "page": "203-205",
-    "related": "F enseignant; = il/la prof(essore/-ssa)"
+    "related": "F enseignant",
+    "synonyms": "il/la prof(essore/-ssa)"
    },
    {
     "id": "u2-2a-029",
@@ -26155,7 +24389,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "sich auf etw. konzentrieren"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "concentrarsi su"
+    ],
     "example": "Mi concentro sullo studio.",
     "definition": "Fare attenzione solo a una cosa.",
     "page": "203-205",
@@ -26253,7 +24489,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "Lust haben (auf etw./jmd) / (etw. zu tun)"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "avere voglia di / + inf."
+    ],
     "example": "Ho voglia di un gelato.",
     "definition": "Desiderare di fare qualcosa.",
     "page": "203-205"
@@ -26286,7 +24524,7 @@ const STOCK_PACKAGES = [
     "definition": "All’interno di un luogo.",
     "usage": "avv.",
     "page": "203-205",
-    "related": "≠ fuori"
+    "antonyms": "fuori"
    },
    {
     "id": "u2-2a-041",
@@ -26294,7 +24532,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "abhängig von etw."
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "dipendente da"
+    ],
     "example": "Sono dipendente dal caffè.",
     "definition": "Che non può fare a meno di qualcosa.",
     "page": "203-205"
@@ -26305,7 +24545,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "mit etw./jdm zu tun haben"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "avere a che fare con"
+    ],
     "example": "Non voglio avere a che fare con lui.",
     "definition": "Essere in contatto o in relazione.",
     "page": "203-205"
@@ -26422,7 +24664,7 @@ const STOCK_PACKAGES = [
     "example": "La discussione è molto animata.",
     "definition": "Conversazione con opinioni diverse.",
     "page": "205-206",
-    "related": "▸ discutere",
+    "family": "discutere",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -26503,7 +24745,9 @@ const STOCK_PACKAGES = [
      "sich kümmern um jdn/etw.",
      "sich beschäftigen mit"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "occuparsi di"
+    ],
     "example": "Mi occupo del mio fratellino.",
     "definition": "Dedicare tempo e attenzione.",
     "page": "205-206",
@@ -26674,7 +24918,7 @@ const STOCK_PACKAGES = [
     "example": "Mi impegno nel volontariato.",
     "definition": "Dedicarsi con serietà a qualcosa.",
     "page": "205-206",
-    "related": "= l’impegno"
+    "synonyms": "l’impegno"
    },
    {
     "id": "u2-2b-020",
@@ -26694,7 +24938,9 @@ const STOCK_PACKAGES = [
      "mit jdm einer Meinung sein",
      "einig sein"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "essere d’accordo con"
+    ],
     "example": "Sono d’accordo con te.",
     "definition": "Avere la stessa opinione.",
     "page": "205-206",
@@ -26893,7 +25139,7 @@ const STOCK_PACKAGES = [
     "definition": "Impegnarsi con energia.",
     "usage": "=impegnarsi",
     "page": "205-206",
-    "related": "= impegnarsi"
+    "synonyms": "impegnarsi"
    },
    {
     "id": "u2-2b-036",
@@ -27066,7 +25312,7 @@ const STOCK_PACKAGES = [
     "example": "La comunicazione è importante.",
     "definition": "Scambio di informazioni.",
     "page": "203",
-    "related": "▸ comunicare",
+    "family": "comunicare",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -27302,7 +25548,9 @@ const STOCK_PACKAGES = [
      "nützen",
      "brauchen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "servire a"
+    ],
     "example": "Il computer serve per lavorare.",
     "definition": "Essere utile a qualcosa.",
     "page": "203",
@@ -27446,7 +25694,8 @@ const STOCK_PACKAGES = [
     "example": "Mia sorella è molto sportiva.",
     "definition": "Che ama lo sport.",
     "page": "203",
-    "related": "▸ lo sport; F sportif"
+    "related": "F sportif",
+    "family": "lo sport"
    }
   ]
  },
@@ -28233,7 +26482,8 @@ const STOCK_PACKAGES = [
     "example": "Trasformano la stanza in uno studio.",
     "definition": "Cambiare forma o aspetto.",
     "page": "208-209",
-    "related": "= cambiare; E to transform"
+    "related": "E to transform",
+    "synonyms": "cambiare"
    },
    {
     "id": "u3-3a-024",
@@ -28280,7 +26530,7 @@ const STOCK_PACKAGES = [
     "definition": "Non confortevole.",
     "usage": "≠ comodo/-a",
     "page": "208-209",
-    "related": "≠ comodo/-a"
+    "antonyms": "comodo/-a"
    },
    {
     "id": "u3-3a-027",
@@ -28596,7 +26846,7 @@ const STOCK_PACKAGES = [
     "example": "Stamattina ho fatto colazione presto.",
     "definition": "Questa mattina.",
     "page": "209-210",
-    "related": "▸ la mattina"
+    "family": "la mattina"
    },
    {
     "id": "u3-3b-012",
@@ -28609,7 +26859,8 @@ const STOCK_PACKAGES = [
     "example": "La visita al museo è bellissima.",
     "definition": "Andare a vedere qualcosa o qualcuno.",
     "page": "209-210",
-    "related": "▸ visitare; E visit; F la visite",
+    "related": "E visit; F la visite",
+    "family": "visitare",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -28896,7 +27147,7 @@ const STOCK_PACKAGES = [
     "definition": "A grande distanza.",
     "usage": "≠ vicino/-a",
     "page": "209-210",
-    "related": "≠ vicino/-a"
+    "antonyms": "vicino/-a"
    },
    {
     "id": "u3-3b-032",
@@ -28994,7 +27245,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "etw. gemeinsam haben"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "avere in comune"
+    ],
     "example": "Abbiamo in comune la passione per il calcio.",
     "definition": "Condividere con altri.",
     "page": "209-210"
@@ -29021,7 +27274,7 @@ const STOCK_PACKAGES = [
     "example": "Visto che piove, restiamo a casa.",
     "definition": "Poiché.",
     "page": "209-210",
-    "related": "= perché"
+    "synonyms": "perché"
    },
    {
     "id": "u3-3b-041",
@@ -29125,7 +27378,8 @@ const STOCK_PACKAGES = [
     "example": "La sede della banca è a Milano.",
     "definition": "Luogo principale di un’organizzazione.",
     "page": "207-208",
-    "related": "▸ sedersi; F le siège; L sedes",
+    "related": "F le siège; L sedes",
+    "family": "sedersi",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -29222,7 +27476,8 @@ const STOCK_PACKAGES = [
     "example": "L’incontro è alle cinque.",
     "definition": "Momento in cui due persone si vedono.",
     "page": "207-208",
-    "related": "▸ incontrare; E encounter; F la rencontre"
+    "related": "E encounter; F la rencontre",
+    "family": "incontrare"
    },
    {
     "id": "u3-approccio-009",
@@ -29256,7 +27511,7 @@ const STOCK_PACKAGES = [
     "definition": "Persona che suona uno strumento.",
     "usage": "pl. i musicisti",
     "page": "207-208",
-    "related": "▸ la musica"
+    "family": "la musica"
    },
    {
     "id": "u3-approccio-011",
@@ -30357,7 +28612,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "sicher sein"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "essere sicuro/-a di / + inf."
+    ],
     "example": "Sono sicuro di venire.",
     "definition": "Non avere dubbi.",
     "usage": "Abc",
@@ -30369,7 +28626,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "jdm helfen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "dare una mano a"
+    ],
     "example": "Mi dai una mano con i compiti?",
     "definition": "Aiutare qualcuno.",
     "usage": "Abc",
@@ -30463,7 +28722,8 @@ const STOCK_PACKAGES = [
     "definition": "Già utilizzato da altri.",
     "usage": "≠ nuovo",
     "page": "214",
-    "related": "≠ nuovo; E used"
+    "related": "E used",
+    "antonyms": "nuovo"
    },
    {
     "id": "u4-4a-012",
@@ -30475,7 +28735,7 @@ const STOCK_PACKAGES = [
     "example": "Faccio un lavoretto d’estate.",
     "definition": "Piccolo lavoro occasionale.",
     "page": "214",
-    "related": "▸ il lavoro",
+    "family": "il lavoro",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -30606,7 +28866,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "aufpassen auf jdn/etw."
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "stare attento/-a a"
+    ],
     "example": "Sta’ attento alla strada!",
     "definition": "Fare attenzione a qualcuno o qualcosa.",
     "contrast": "stare attento (auf der Hut sein) – fare attenzione (aufmerksam sein)",
@@ -30654,7 +28916,7 @@ const STOCK_PACKAGES = [
     "definition": "Provare tristezza per qualcosa.",
     "usage": "mi dispiace = das tut mir leid",
     "page": "214",
-    "related": "≠ piacere"
+    "antonyms": "piacere"
    },
    {
     "id": "u4-4a-026",
@@ -30821,7 +29083,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "in etw. seinen (Universitäts-)Abschluss machen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "laurearsi in"
+    ],
     "example": "Mi laureo in medicina.",
     "definition": "Finire gli studi all’università.",
     "page": "215-216"
@@ -30955,7 +29219,7 @@ const STOCK_PACKAGES = [
     "example": "Mio padre ha un’impresa.",
     "definition": "Azienda, attività economica.",
     "page": "215-216",
-    "related": "▸ imprenditore/imprenditrice"
+    "family": "imprenditore/imprenditrice"
    },
    {
     "id": "u4-4b-015",
@@ -30976,7 +29240,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "Kompliment (für etw.)"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "complimenti per"
+    ],
     "example": "Complimenti per il voto!",
     "definition": "Parole di lode.",
     "page": "215-216",
@@ -31090,7 +29356,8 @@ const STOCK_PACKAGES = [
     "definition": "Il tempo che verrà.",
     "usage": "≠ il passato",
     "page": "215-216",
-    "related": "≠ il passato; E future",
+    "related": "E future",
+    "antonyms": "il passato",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -31339,7 +29606,8 @@ const STOCK_PACKAGES = [
     "definition": "Fuori dal comune.",
     "usage": "≠ normale",
     "page": "215-216",
-    "related": "≠ normale; E special"
+    "related": "E special",
+    "antonyms": "normale"
    },
    {
     "id": "u4-4b-039",
@@ -31352,7 +29620,7 @@ const STOCK_PACKAGES = [
     "definition": "Che si muove in poco tempo, rapido.",
     "usage": "≠ lento",
     "page": "215-216",
-    "related": "≠ lento"
+    "antonyms": "lento"
    },
    {
     "id": "u4-4b-040",
@@ -31361,7 +29629,9 @@ const STOCK_PACKAGES = [
      "im Vergleich zu",
      "in Bezug auf jdn/etw."
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "rispetto a"
+    ],
     "example": "Rispetto a ieri fa più caldo.",
     "definition": "In confronto a.",
     "page": "215-216"
@@ -31392,7 +29662,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "sich jdm/etw. widmen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "dedicarsi a"
+    ],
     "example": "Mi dedico alla musica.",
     "definition": "Dare tempo e attenzione.",
     "page": "215-216",
@@ -31838,7 +30110,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "jdn stören"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "dare fastidio a"
+    ],
     "example": "Il rumore mi dà fastidio.",
     "definition": "Disturbare qualcuno.",
     "usage": "Abc",
@@ -32006,11 +30280,13 @@ const STOCK_PACKAGES = [
     "translations": [
      "etwas würde jdm gefallen / gefiele jdm"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "piacerebbe a"
+    ],
     "example": "Mi piacerebbe viaggiare.",
     "definition": "Forma di condizionale per dire che qualcosa è gradito.",
     "page": "212-214",
-    "related": "▸ piacere"
+    "family": "piacere"
    },
    {
     "id": "u4-approccio-035",
@@ -32037,7 +30313,7 @@ const STOCK_PACKAGES = [
     "definition": "Forma gentile di “vuole”.",
     "usage": "3. Pers. von vorrei",
     "page": "212-214",
-    "related": "▸ 3. Pers. von vorrei"
+    "family": "3. Pers. von vorrei"
    },
    {
     "id": "u4-approccio-037",
@@ -32289,7 +30565,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "für jdn einkaufen gehen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "fare la spesa per"
+    ],
     "example": "Faccio la spesa per la vicina.",
     "definition": "Comprare cibo per un’altra persona.",
     "page": "217"
@@ -32449,7 +30727,8 @@ const STOCK_PACKAGES = [
     "example": "L’insegnante spiega la lezione.",
     "definition": "Persona che insegna.",
     "page": "217",
-    "related": "F enseignant; = il/la prof(essore/-ssa)"
+    "related": "F enseignant",
+    "synonyms": "il/la prof(essore/-ssa)"
    },
    {
     "id": "u4-per-parlare-023",
@@ -32713,11 +30992,13 @@ const STOCK_PACKAGES = [
     "translations": [
      "teilnehmen an etw."
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "fare parte di"
+    ],
     "example": "Faccio parte della squadra di calcio.",
     "definition": "Essere membro di un gruppo.",
     "page": "219-220",
-    "related": "▸ la parte, partecipare"
+    "family": "la parte, partecipare"
    },
    {
     "id": "u5-5a-007",
@@ -32725,7 +31006,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "sich mit etw. auseinandersetzen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "confrontarsi con"
+    ],
     "example": "Mi confronto con i compagni.",
     "definition": "Affrontare e paragonare con altro.",
     "page": "219-220"
@@ -33277,7 +31560,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "um jdn/etw. herum"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "intorno a"
+    ],
     "example": "I bambini sono intorno al maestro.",
     "definition": "Tutto attorno.",
     "page": "219-220"
@@ -33797,7 +32082,7 @@ const STOCK_PACKAGES = [
     "definition": "Persona di età avanzata.",
     "usage": "= vecchio/-a",
     "page": "220-221",
-    "related": "= vecchio/-a"
+    "synonyms": "vecchio/-a"
    },
    {
     "id": "u5-5b-028",
@@ -33964,7 +32249,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "jdn/etw. + Adj. machen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "rendere + agg., reso"
+    ],
     "example": "La musica mi rende felice.",
     "definition": "Far diventare in un certo modo.",
     "usage": "p.p. reso",
@@ -34070,7 +32357,8 @@ const STOCK_PACKAGES = [
     "definition": "Incertezza.",
     "usage": "pl. i dubbi",
     "page": "220-221",
-    "related": "▸ dubitare; E doubt; L dubium",
+    "related": "E doubt; L dubium",
+    "family": "dubitare",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -35525,7 +33813,7 @@ const STOCK_PACKAGES = [
     "example": "L’affitto è caro.",
     "definition": "Somma da pagare per usare una casa.",
     "page": "223-225",
-    "related": "▸ affittare"
+    "family": "affittare"
    },
    {
     "id": "u6-6a-005",
@@ -35594,7 +33882,8 @@ const STOCK_PACKAGES = [
     "example": "Ha molta creatività.",
     "definition": "Capacità di inventare.",
     "page": "223-225",
-    "related": "▸ creativo/-a; E creativity",
+    "related": "E creativity",
+    "family": "creativo/-a",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -35679,7 +33968,8 @@ const STOCK_PACKAGES = [
     "example": "Disegno un cavallo.",
     "definition": "Fare un disegno.",
     "page": "223-225",
-    "related": "▸ il disegno; E to design; F dessiner"
+    "related": "E to design; F dessiner",
+    "family": "il disegno"
    },
    {
     "id": "u6-6a-015",
@@ -35896,7 +34186,9 @@ const STOCK_PACKAGES = [
      "jdn/etw. anfeuern",
      "zu jdm/etw. halten"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "tifare per"
+    ],
     "example": "Tifo per l’Inter.",
     "definition": "Sostenere una squadra.",
     "page": "223-225"
@@ -36012,7 +34304,9 @@ const STOCK_PACKAGES = [
      "aus etw. kommen",
      "herkommen"
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "provenire da"
+    ],
     "example": "Provengo dalla Francia.",
     "definition": "Venire da un luogo.",
     "usage": "Abc",
@@ -36373,7 +34667,8 @@ const STOCK_PACKAGES = [
     "example": "Studio canto.",
     "definition": "Arte di produrre melodie con la voce.",
     "page": "225-226",
-    "related": "▸ cantare, il/la cantante; F le chant; L cantus",
+    "related": "F le chant; L cantus",
+    "family": "cantare, il/la cantante",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -36568,7 +34863,9 @@ const STOCK_PACKAGES = [
     "translations": [
      "außer jdm/etw."
     ],
-    "acceptedAnswers": [],
+    "acceptedAnswers": [
+     "oltre a"
+    ],
     "example": "Oltre a te, viene anche Marco.",
     "definition": "In aggiunta a.",
     "page": "225-226"
@@ -36584,7 +34881,8 @@ const STOCK_PACKAGES = [
     "example": "La fondazione aiuta i giovani.",
     "definition": "Atto di creare un’organizzazione.",
     "page": "225-226",
-    "related": "▸ fondare; E foundation",
+    "related": "E foundation",
+    "family": "fondare",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "feminine",
@@ -36749,7 +35047,8 @@ const STOCK_PACKAGES = [
     "example": "Progetto una casa.",
     "definition": "Pianificare la costruzione di qualcosa.",
     "page": "225-226",
-    "related": "▸ il progetto; E to project"
+    "related": "E to project",
+    "family": "il progetto"
    },
    {
     "id": "u6-6b-035",
@@ -37007,7 +35306,7 @@ const STOCK_PACKAGES = [
     "definition": "Attività che si fa per gli altri.",
     "usage": "pl. i servizi",
     "page": "222-223",
-    "related": "▸ servire",
+    "family": "servire",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -37210,7 +35509,7 @@ const STOCK_PACKAGES = [
     "example": "Milano è una città settentrionale.",
     "definition": "Del nord.",
     "page": "222-223",
-    "related": "= a nord"
+    "synonyms": "a nord"
    },
    {
     "id": "u6-approccio-016",
@@ -37275,7 +35574,8 @@ const STOCK_PACKAGES = [
     "example": "Il turismo balneare è importante.",
     "definition": "Viaggi per piacere, sulle spiagge.",
     "page": "222-223",
-    "related": "▸ il/la turista; E tourism",
+    "related": "E tourism",
+    "family": "il/la turista",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -37395,7 +35695,7 @@ const STOCK_PACKAGES = [
     "example": "Il Mezzogiorno è molto caldo.",
     "definition": "La parte sud di un paese.",
     "page": "222-223",
-    "related": "≠ settentrione"
+    "antonyms": "settentrione"
    },
    {
     "id": "u6-approccio-026",
@@ -37445,7 +35745,8 @@ const STOCK_PACKAGES = [
     "example": "L’importanza della salute è grande.",
     "definition": "Valore o peso di qualcosa.",
     "page": "222-223",
-    "related": "▸ importante; E importance"
+    "related": "E importance",
+    "family": "importante"
    },
    {
     "id": "u6-approccio-030",
@@ -37477,7 +35778,7 @@ const STOCK_PACKAGES = [
     "example": "Il guadagno è buono.",
     "definition": "Quanto si riceve per un lavoro.",
     "page": "222-223",
-    "related": "▸ guadagnare",
+    "family": "guadagnare",
     "grammar": {
      "partOfSpeech": "noun",
      "gender": "masculine",
@@ -37560,7 +35861,7 @@ const STOCK_PACKAGES = [
     "example": "Sono originario di Bari.",
     "definition": "Che viene da un luogo.",
     "page": "222-223",
-    "related": "▸ l’origine"
+    "family": "l’origine"
    }
   ]
  },
@@ -37880,7 +36181,8 @@ const STOCK_PACKAGES = [
     "example": "Disegno un cavallo.",
     "definition": "Fare un disegno.",
     "page": "227-228",
-    "related": "▸ il disegno; E to design; F dessiner"
+    "related": "E to design; F dessiner",
+    "family": "il disegno"
    },
    {
     "id": "u6-per-parlare-023",
@@ -38080,6 +36382,9277 @@ const STOCK_PACKAGES = [
     "example": "Le professioni più ricercate sono l’ingegnere e il medico.",
     "definition": "Frase per descrivere i dati sui lavori.",
     "page": "227-228"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco3-u1-1a",
+  "title": "Ecco più 3 · Unità 1 · 1A Il Palio – tradizione violenta?",
+  "language": "it",
+  "level": "B1",
+  "description": "Wortschatz zu „Der Palio – eine brutale Tradition?“ aus Ecco più 3 (Unità 1, 1A Il Palio – tradizione violenta?).",
+  "topics": [
+   "Siena",
+   "Palio",
+   "Tradition"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 167-168 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "3",
+    "unit": "Unità 1",
+    "section": "1A Il Palio – tradizione violenta?",
+    "pages": "167-168"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "themes": [
+    "Siena",
+    "Palio",
+    "Tradition"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 3 (Cornelsen)",
+  "section": "Unità 1 · 1A Il Palio – tradizione violenta?",
+  "entries": [
+   {
+    "id": "u1-1a-001",
+    "target": "violento/-a",
+    "translations": [
+     "brutal",
+     "grausam"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non mi piacciono i film violenti.",
+    "definition": "Che usa la forza e fa male agli altri.",
+    "page": "167-168",
+    "related": "E violent"
+   },
+   {
+    "id": "u1-1a-002",
+    "target": "la contrada",
+    "translations": [
+     "das Viertel"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ogni contrada di Siena ha i suoi colori.",
+    "definition": "Una zona di Siena con il suo nome e la sua bandiera.",
+    "page": "167-168",
+    "related": "das Viertel|||Una zona di Siena con il suo nome e la sua bandiera.|Ogni contrada di Siena ha i suoi colori.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1a-003",
+    "target": "la bandiera",
+    "translations": [
+     "die Fahne"
+    ],
+    "acceptedAnswers": [],
+    "example": "La bandiera italiana è verde, bianca e rossa.",
+    "definition": "Un pezzo di stoffa con i colori di un paese o di un gruppo.",
+    "page": "167-168",
+    "related": "die Fahne|||Un pezzo di stoffa con i colori di un paese o di un gruppo.|La bandiera italiana è verde, bianca e rossa.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1a-004",
+    "target": "difendere",
+    "translations": [
+     "verteidigen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Marco difende sempre il suo amico.",
+    "definition": "Proteggere qualcuno o qualcosa da un attacco.",
+    "usage": "p.p. difeso",
+    "page": "167-168",
+    "related": "E to defend"
+   },
+   {
+    "id": "u1-1a-005",
+    "target": "la manifestazione",
+    "translations": [
+     "die Veranstaltung"
+    ],
+    "acceptedAnswers": [],
+    "example": "In piazza c’è una manifestazione per la festa della città.",
+    "definition": "Un evento pubblico, per esempio una festa o una gara.",
+    "page": "167-168",
+    "related": "die Veranstaltung|||Un evento pubblico, per esempio una festa o una gara.|In piazza c’è una manifestazione per la festa della città.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1a-006",
+    "target": "essere sufficiente",
+    "translations": [
+     "genügen",
+     "ausreichen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Un’ora di studio non è sufficiente per l’esame.",
+    "definition": "Bastare, essere abbastanza.",
+    "page": "167-168",
+    "related": "E sufficient; F suffisant/-e"
+   },
+   {
+    "id": "u1-1a-007",
+    "target": "prima che",
+    "translations": [
+     "bevor"
+    ],
+    "acceptedAnswers": [],
+    "example": "Torniamo a casa prima che cominci a piovere.",
+    "definition": "Indica che una cosa succede più presto di un’altra.",
+    "usage": "+ cong.",
+    "page": "167-168",
+    "related": "bevor|+ cong.||Indica che una cosa succede più presto di un’altra.|Torniamo a casa prima che cominci a piovere."
+   },
+   {
+    "id": "u1-1a-008",
+    "target": "innanzitutto",
+    "translations": [
+     "insbesondere",
+     "zuallererst"
+    ],
+    "acceptedAnswers": [],
+    "example": "Innanzitutto grazie a tutti per essere venuti.",
+    "definition": "Prima di tutte le altre cose.",
+    "page": "167-168",
+    "related": "insbesondere; zuallererst|||Prima di tutte le altre cose.|Innanzitutto grazie a tutti per essere venuti."
+   },
+   {
+    "id": "u1-1a-009",
+    "target": "globalizzato/-a",
+    "translations": [
+     "globalisiert"
+    ],
+    "acceptedAnswers": [],
+    "example": "Viviamo in un mondo globalizzato.",
+    "definition": "Collegato con tutto il mondo.",
+    "page": "167-168",
+    "related": "globalisiert|||Collegato con tutto il mondo.|Viviamo in un mondo globalizzato."
+   },
+   {
+    "id": "u1-1a-010",
+    "target": "la diversità",
+    "translations": [
+     "die Verschiedenheit",
+     "die Vielfalt"
+    ],
+    "acceptedAnswers": [],
+    "example": "La diversità delle culture rende la città interessante.",
+    "definition": "Il fatto di essere diversi.",
+    "page": "167-168",
+    "related": "die Verschiedenheit; die Vielfalt|||Il fatto di essere diversi.|La diversità delle culture rende la città interessante.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1a-011",
+    "target": "correre il rischio",
+    "translations": [
+     "ein Risiko eingehen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Se non studi, corri il rischio di prendere un brutto voto.",
+    "definition": "Fare una cosa anche se può andare male.",
+    "page": "167-168",
+    "related": "ein Risiko eingehen|||Fare una cosa anche se può andare male.|Se non studi, corri il rischio di prendere un brutto voto."
+   },
+   {
+    "id": "u1-1a-012",
+    "target": "il popolo",
+    "translations": [
+     "das Volk"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il popolo italiano ama il calcio.",
+    "definition": "Tutte le persone di un paese.",
+    "page": "167-168",
+    "family": "popolare",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1a-013",
+    "target": "sopravvivere",
+    "translations": [
+     "überleben"
+    ],
+    "acceptedAnswers": [],
+    "example": "Molte tradizioni antiche sopravvivono ancora oggi.",
+    "definition": "Restare vivo dopo un pericolo.",
+    "page": "167-168",
+    "related": "überleben|||Restare vivo dopo un pericolo.|Molte tradizioni antiche sopravvivono ancora oggi."
+   },
+   {
+    "id": "u1-1a-014",
+    "target": "l’identità",
+    "translations": [
+     "die Identität"
+    ],
+    "acceptedAnswers": [],
+    "example": "La lingua è una parte importante della nostra identità.",
+    "definition": "Chi sei, quello che ti rende diverso dagli altri.",
+    "page": "167-168",
+    "related": "die Identität|||Chi sei, quello che ti rende diverso dagli altri.|La lingua è una parte importante della nostra identità."
+   },
+   {
+    "id": "u1-1a-015",
+    "target": "la ragione",
+    "translations": [
+     "der Grund"
+    ],
+    "acceptedAnswers": [],
+    "example": "Per quale ragione non sei venuto alla festa?",
+    "definition": "Il perché di una cosa.",
+    "page": "167-168",
+    "related": "der Grund|||Il perché di una cosa.|Per quale ragione non sei venuto alla festa?",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1a-016",
+    "target": "l’elemento",
+    "translations": [
+     "der Bestandteil",
+     "das Element"
+    ],
+    "acceptedAnswers": [],
+    "example": "La musica è un elemento importante della festa.",
+    "definition": "Una parte di un insieme.",
+    "page": "167-168",
+    "related": "der Bestandteil; das Element|||Una parte di un insieme.|La musica è un elemento importante della festa."
+   },
+   {
+    "id": "u1-1a-017",
+    "target": "positivo/-a",
+    "translations": [
+     "positiv"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ho un’impressione positiva della nuova scuola.",
+    "definition": "Buono, che piace.",
+    "page": "167-168",
+    "antonyms": "negativo/-a"
+   },
+   {
+    "id": "u1-1a-018",
+    "target": "il punto di vista",
+    "translations": [
+     "die Sichtweise",
+     "der Standpunkt"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dal mio punto di vista il Palio è una bella tradizione.",
+    "definition": "Il modo in cui una persona vede una cosa.",
+    "page": "167-168",
+    "related": "die Sichtweise; der Standpunkt|||Il modo in cui una persona vede una cosa.|Dal mio punto di vista il Palio è una bella tradizione.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1a-019",
+    "target": "la meta",
+    "translations": [
+     "das Ziel"
+    ],
+    "acceptedAnswers": [],
+    "example": "Venezia è una meta molto amata dai turisti.",
+    "definition": "Il posto dove vuoi arrivare.",
+    "page": "167-168",
+    "related": "das Ziel|||Il posto dove vuoi arrivare.|Venezia è una meta molto amata dai turisti.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1a-020",
+    "target": "ricco/-a",
+    "translations": [
+     "reich"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mio zio è ricco, ha una casa al mare.",
+    "definition": "Che ha molti soldi o molte cose.",
+    "usage": "pl. ricchi/-e",
+    "page": "167-168",
+    "related": "E rich; F riche",
+    "antonyms": "povero/-a"
+   },
+   {
+    "id": "u1-1a-021",
+    "target": "grazie a qn/qs",
+    "translations": [
+     "dank jds/etw."
+    ],
+    "acceptedAnswers": [
+     "grazie a"
+    ],
+    "example": "Grazie a Laura ho capito l’esercizio.",
+    "definition": "Per merito di qualcuno o qualcosa.",
+    "page": "167-168",
+    "related": "dank jds/etw.|||Per merito di qualcuno o qualcosa.|Grazie a Laura ho capito l’esercizio."
+   },
+   {
+    "id": "u1-1a-022",
+    "target": "l’aiuto",
+    "translations": [
+     "die Hilfe"
+    ],
+    "acceptedAnswers": [],
+    "example": "Grazie per il tuo aiuto!",
+    "definition": "Quello che fai per una persona che ha un problema.",
+    "page": "167-168",
+    "related": "die Hilfe|||Quello che fai per una persona che ha un problema.|Grazie per il tuo aiuto!"
+   },
+   {
+    "id": "u1-1a-023",
+    "target": "l’opinione",
+    "translations": [
+     "die Meinung"
+    ],
+    "acceptedAnswers": [],
+    "example": "Qual è la tua opinione su questo film?",
+    "definition": "Quello che una persona pensa di una cosa.",
+    "usage": "f.",
+    "page": "167-168",
+    "related": "E opinion"
+   },
+   {
+    "id": "u1-1a-024",
+    "target": "pubblico/-a",
+    "translations": [
+     "öffentlich"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il parco è un posto pubblico.",
+    "definition": "Per tutti, non privato.",
+    "usage": "pl. pubblici, pubbliche",
+    "page": "167-168",
+    "related": "E public"
+   },
+   {
+    "id": "u1-1a-025",
+    "target": "apprezzare qn/qs",
+    "translations": [
+     "jdn/etw. schätzen",
+     "jdn/etw. würdigen"
+    ],
+    "acceptedAnswers": [
+     "apprezzare"
+    ],
+    "example": "Apprezzo molto la tua sincerità.",
+    "definition": "Trovare buono e importante.",
+    "page": "167-168",
+    "related": "E to appreciate"
+   },
+   {
+    "id": "u1-1a-026",
+    "target": "proteggere",
+    "translations": [
+     "schützen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dobbiamo proteggere gli animali in pericolo.",
+    "definition": "Fare in modo che niente di male succeda.",
+    "usage": "p.p. protetto",
+    "page": "167-168",
+    "related": "E to protect; F protéger"
+   },
+   {
+    "id": "u1-1a-027",
+    "target": "affinché",
+    "translations": [
+     "damit"
+    ],
+    "acceptedAnswers": [],
+    "example": "Parlo piano affinché tutti capiscano.",
+    "definition": "Con lo scopo che.",
+    "usage": "+ cong.",
+    "page": "167-168",
+    "related": "damit|+ cong.||Con lo scopo che.|Parlo piano affinché tutti capiscano."
+   },
+   {
+    "id": "u1-1a-028",
+    "target": "la curva",
+    "translations": [
+     "die Kurve"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il cavallo è caduto in curva.",
+    "definition": "Una parte della strada che non va dritta.",
+    "page": "167-168",
+    "related": "die Kurve|||Una parte della strada che non va dritta.|Il cavallo è caduto in curva.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1a-029",
+    "target": "sebbene",
+    "translations": [
+     "obwohl"
+    ],
+    "acceptedAnswers": [],
+    "example": "Sebbene sia stanco, esco con gli amici.",
+    "definition": "Anche se.",
+    "usage": "+ cong.",
+    "page": "167-168",
+    "related": "obwohl|+ cong.||Anche se.|Sebbene sia stanco, esco con gli amici."
+   },
+   {
+    "id": "u1-1a-030",
+    "target": "perché",
+    "translations": [
+     "damit"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ti do il mio numero perché tu mi possa chiamare.",
+    "definition": "Con lo scopo che (con il congiuntivo).",
+    "usage": "+ cong.",
+    "page": "167-168",
+    "related": "damit|+ cong.||Con lo scopo che (con il congiuntivo).|Ti do il mio numero perché tu mi possa chiamare."
+   },
+   {
+    "id": "u1-1a-031",
+    "target": "lo/la spettatore/spettatrice",
+    "translations": [
+     "der/die Zuschauer/in"
+    ],
+    "acceptedAnswers": [],
+    "example": "Allo stadio c’erano trentamila spettatori.",
+    "definition": "Una persona che guarda uno spettacolo o una gara.",
+    "page": "167-168",
+    "related": "E spectator"
+   },
+   {
+    "id": "u1-1a-032",
+    "target": "principale",
+    "translations": [
+     "Haupt-",
+     "hauptsächlich"
+    ],
+    "acceptedAnswers": [],
+    "example": "La piazza principale di Siena si chiama Piazza del Campo.",
+    "definition": "Il più importante.",
+    "page": "167-168",
+    "related": "Haupt-; hauptsächlich|||Il più importante.|La piazza principale di Siena si chiama Piazza del Campo."
+   },
+   {
+    "id": "u1-1a-033",
+    "target": "stupirsi",
+    "translations": [
+     "sich wundern",
+     "erstaunen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mi stupisco che tu non conosca questa canzone.",
+    "definition": "Essere sorpresi.",
+    "usage": "(-isc-)",
+    "page": "167-168",
+    "related": "sich wundern; erstaunen|(-isc-)||Essere sorpresi.|Mi stupisco che tu non conosca questa canzone."
+   },
+   {
+    "id": "u1-1a-034",
+    "target": "ciò nonostante",
+    "translations": [
+     "trotzdem",
+     "dennoch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Pioveva, ciò nonostante siamo usciti.",
+    "definition": "Anche se è così.",
+    "page": "167-168",
+    "related": "trotzdem; dennoch|||Anche se è così.|Pioveva, ciò nonostante siamo usciti."
+   },
+   {
+    "id": "u1-1a-035",
+    "target": "accettare",
+    "translations": [
+     "annehmen",
+     "gelten lassen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ho accettato l’invito di Giulia.",
+    "definition": "Dire di sì a una cosa.",
+    "page": "167-168",
+    "related": "E to accept"
+   },
+   {
+    "id": "u1-1a-036",
+    "target": "l’affermazione",
+    "translations": [
+     "die Behauptung"
+    ],
+    "acceptedAnswers": [],
+    "example": "La sua affermazione non è vera.",
+    "definition": "Una frase con cui dici che una cosa è vera.",
+    "usage": "f.",
+    "page": "167-168",
+    "family": "affermare"
+   },
+   {
+    "id": "u1-1a-037",
+    "target": "attivo/-a",
+    "translations": [
+     "aktiv"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mia nonna è ancora molto attiva.",
+    "definition": "Che fa tante cose, che si muove molto.",
+    "page": "167-168",
+    "related": "aktiv|||Che fa tante cose, che si muove molto.|Mia nonna è ancora molto attiva."
+   },
+   {
+    "id": "u1-1a-038",
+    "target": "la protezione animali",
+    "translations": [
+     "der Tierschutz"
+    ],
+    "acceptedAnswers": [],
+    "example": "Lavoro come volontaria per la protezione animali.",
+    "definition": "L’impegno per difendere gli animali.",
+    "page": "167-168",
+    "related": "der Tierschutz|||L’impegno per difendere gli animali.|Lavoro come volontaria per la protezione animali.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1a-039",
+    "target": "straordinario/-a",
+    "translations": [
+     "außergewöhnlich"
+    ],
+    "acceptedAnswers": [],
+    "example": "È stata una giornata straordinaria.",
+    "definition": "Molto speciale, non normale.",
+    "page": "167-168",
+    "related": "außergewöhnlich|||Molto speciale, non normale.|È stata una giornata straordinaria."
+   },
+   {
+    "id": "u1-1a-040",
+    "target": "prima di tutto",
+    "translations": [
+     "zuallererst",
+     "vorneweg"
+    ],
+    "acceptedAnswers": [],
+    "example": "Prima di tutto vorrei presentarmi.",
+    "definition": "Come prima cosa.",
+    "page": "167-168",
+    "related": "zuallererst; vorneweg|||Come prima cosa.|Prima di tutto vorrei presentarmi."
+   },
+   {
+    "id": "u1-1a-041",
+    "target": "in secondo luogo",
+    "translations": [
+     "zweitens",
+     "an zweiter Stelle"
+    ],
+    "acceptedAnswers": [],
+    "example": "In secondo luogo parlo dei problemi della città.",
+    "definition": "Come seconda cosa.",
+    "page": "167-168",
+    "related": "zweitens; an zweiter Stelle|||Come seconda cosa.|In secondo luogo parlo dei problemi della città."
+   },
+   {
+    "id": "u1-1a-042",
+    "target": "legare",
+    "translations": [
+     "(ver)binden"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questa canzone mi lega a tanti bei ricordi.",
+    "definition": "Unire con una corda, anche tenere unito.",
+    "page": "167-168",
+    "related": "(ver)binden|||Unire con una corda, anche tenere unito.|Questa canzone mi lega a tanti bei ricordi."
+   },
+   {
+    "id": "u1-1a-043",
+    "target": "soltanto",
+    "translations": [
+     "nur"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ho soltanto dieci euro.",
+    "definition": "Non di più.",
+    "usage": "avv.",
+    "page": "167-168",
+    "related": "nur|avv.||Non di più.|Ho soltanto dieci euro."
+   },
+   {
+    "id": "u1-1a-044",
+    "target": "la corruzione",
+    "translations": [
+     "die Korruption",
+     "die Bestechung"
+    ],
+    "acceptedAnswers": [],
+    "example": "La corruzione è un grande problema in politica.",
+    "definition": "Quando qualcuno dà soldi per avere un vantaggio illegale.",
+    "page": "167-168",
+    "related": "die Korruption; die Bestechung|||Quando qualcuno dà soldi per avere un vantaggio illegale.|La corruzione è un grande problema in politica.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1a-045",
+    "target": "tutto sommato",
+    "translations": [
+     "alles in allem"
+    ],
+    "acceptedAnswers": [],
+    "example": "Tutto sommato la gita è stata bella.",
+    "definition": "Considerando tutto.",
+    "page": "167-168",
+    "related": "alles in allem|||Considerando tutto.|Tutto sommato la gita è stata bella."
+   },
+   {
+    "id": "u1-1a-046",
+    "target": "abolire",
+    "translations": [
+     "abschaffen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Molti vogliono abolire i compiti per le vacanze.",
+    "definition": "Eliminare una legge o un’abitudine.",
+    "usage": "(-isc-)",
+    "page": "167-168",
+    "related": "E to abolish; F abolir"
+   },
+   {
+    "id": "u1-1a-047",
+    "target": "concentrarsi",
+    "translations": [
+     "sich konzentrieren"
+    ],
+    "acceptedAnswers": [],
+    "example": "Con la musica non riesco a concentrarmi.",
+    "definition": "Pensare solo a una cosa.",
+    "page": "167-168",
+    "related": "E to concentrate; F se concentrer"
+   },
+   {
+    "id": "u1-1a-048",
+    "target": "centrare",
+    "translations": [
+     "treffen",
+     "erfassen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il tuo commento centra il problema.",
+    "definition": "Colpire il punto giusto.",
+    "page": "167-168",
+    "related": "treffen; erfassen|||Colpire il punto giusto.|Il tuo commento centra il problema."
+   },
+   {
+    "id": "u1-1a-049",
+    "target": "adatto/-a",
+    "translations": [
+     "geeignet"
+    ],
+    "acceptedAnswers": [],
+    "example": "Queste scarpe non sono adatte per la montagna.",
+    "definition": "Giusto per una certa cosa.",
+    "page": "167-168",
+    "related": "geeignet|||Giusto per una certa cosa.|Queste scarpe non sono adatte per la montagna."
+   },
+   {
+    "id": "u1-1a-050",
+    "target": "realizzare",
+    "translations": [
+     "durchführen",
+     "verwirklichen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Finalmente ho realizzato il mio sogno: un viaggio in Sicilia.",
+    "definition": "Fare diventare vero un progetto o un sogno.",
+    "page": "167-168",
+    "related": "durchführen; verwirklichen|||Fare diventare vero un progetto o un sogno.|Finalmente ho realizzato il mio sogno: un viaggio in Sicilia."
+   },
+   {
+    "id": "u1-1a-051",
+    "target": "il negozio di souvenir",
+    "translations": [
+     "der Souvenir-Laden"
+    ],
+    "acceptedAnswers": [],
+    "example": "Nel negozio di souvenir ho comprato una cartolina.",
+    "definition": "Un negozio che vende ricordi per turisti.",
+    "page": "167-168",
+    "related": "der Souvenir-Laden|||Un negozio che vende ricordi per turisti.|Nel negozio di souvenir ho comprato una cartolina.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1a-052",
+    "target": "benché",
+    "translations": [
+     "obwohl"
+    ],
+    "acceptedAnswers": [],
+    "example": "Benché sia tardi, non ho sonno.",
+    "definition": "Anche se.",
+    "usage": "+ cong.",
+    "page": "167-168",
+    "related": "obwohl|+ cong.||Anche se.|Benché sia tardi, non ho sonno."
+   },
+   {
+    "id": "u1-1a-053",
+    "target": "cattivo/-a",
+    "translations": [
+     "schlecht"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questa pizza è proprio cattiva.",
+    "definition": "Non buono.",
+    "page": "167-168",
+    "related": "schlecht|||Non buono.|Questa pizza è proprio cattiva."
+   },
+   {
+    "id": "u1-1a-054",
+    "target": "il colore",
+    "translations": [
+     "die Farbe"
+    ],
+    "acceptedAnswers": [],
+    "example": "Qual è il tuo colore preferito?",
+    "definition": "Rosso, blu, verde e così via.",
+    "page": "167-168",
+    "related": "E colour; F couleur",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1a-055",
+    "target": "significare",
+    "translations": [
+     "bedeuten"
+    ],
+    "acceptedAnswers": [],
+    "example": "Che cosa significa questa parola?",
+    "definition": "Avere un certo senso.",
+    "page": "167-168",
+    "related": "bedeuten|||Avere un certo senso.|Che cosa significa questa parola?"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco3-u1-1b",
+  "title": "Ecco più 3 · Unità 1 · 1B Serena nella Serenissima",
+  "language": "it",
+  "level": "B1",
+  "description": "Wortschatz zu „Heiter in Venedig“ aus Ecco più 3 (Unità 1, 1B Serena nella Serenissima).",
+  "topics": [
+   "Venedig",
+   "Tourismus",
+   "Karneval"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 168-170 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "3",
+    "unit": "Unità 1",
+    "section": "1B Serena nella Serenissima",
+    "pages": "168-170"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "themes": [
+    "Venedig",
+    "Tourismus",
+    "Karneval"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 3 (Cornelsen)",
+  "section": "Unità 1 · 1B Serena nella Serenissima",
+  "entries": [
+   {
+    "id": "u1-1b-001",
+    "target": "Venezia",
+    "translations": [
+     "Venedig"
+    ],
+    "acceptedAnswers": [],
+    "example": "Venezia ha più di cento isole.",
+    "definition": "La città italiana costruita sull’acqua.",
+    "page": "168-170",
+    "related": "E Venice; F Venise"
+   },
+   {
+    "id": "u1-1b-002",
+    "target": "a forza",
+    "translations": [
+     "mit Gewalt"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il bambino non voleva andare, l’hanno portato via quasi a forza.",
+    "definition": "Usando la forza, contro la volontà.",
+    "contrast": "per forza – unbedingt; Forza! – Auf geht’s! Los!",
+    "page": "168-170",
+    "related": "mit Gewalt|Unterscheide: per forza – unbedingt; Forza! – Auf geht’s! Los!||Usando la forza, contro la volontà.|Il bambino non voleva andare, l’hanno portato via quasi a forza."
+   },
+   {
+    "id": "u1-1b-003",
+    "target": "avere dubbi (sul fatto) che",
+    "translations": [
+     "Zweifel (an der Tatsache) haben, dass"
+    ],
+    "acceptedAnswers": [
+     "avere dubbi che"
+    ],
+    "example": "Ho dubbi che lui dica la verità.",
+    "definition": "Non essere sicuri di una cosa.",
+    "usage": "+ cong.",
+    "page": "168-170",
+    "related": "Zweifel (an der Tatsache) haben, dass|+ cong.||Non essere sicuri di una cosa.|Ho dubbi che lui dica la verità."
+   },
+   {
+    "id": "u1-1b-004",
+    "target": "la notte",
+    "translations": [
+     "die Nacht"
+    ],
+    "acceptedAnswers": [],
+    "example": "Di notte la città è molto tranquilla.",
+    "definition": "Il tempo in cui è buio e si dorme.",
+    "page": "168-170",
+    "related": "L nox",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-005",
+    "target": "temere",
+    "translations": [
+     "fürchten"
+    ],
+    "acceptedAnswers": [],
+    "example": "Temo che domani piova.",
+    "definition": "Avere paura di una cosa.",
+    "page": "168-170",
+    "related": "L timere"
+   },
+   {
+    "id": "u1-1b-006",
+    "target": "rendersi conto di qs",
+    "translations": [
+     "sich über etw. klar werden"
+    ],
+    "acceptedAnswers": [
+     "rendersi conto di"
+    ],
+    "example": "Mi sono reso conto di aver dimenticato le chiavi.",
+    "definition": "Capire una cosa all’improvviso.",
+    "usage": "p.p. reso",
+    "page": "168-170",
+    "related": "sich über etw. klar werden|p.p. reso||Capire una cosa all’improvviso.|Mi sono reso conto di aver dimenticato le chiavi."
+   },
+   {
+    "id": "u1-1b-007",
+    "target": "man mano",
+    "translations": [
+     "allmählich"
+    ],
+    "acceptedAnswers": [],
+    "example": "Man mano arrivano tutti gli ospiti.",
+    "definition": "Un po’ alla volta.",
+    "page": "168-170",
+    "related": "allmählich|||Un po’ alla volta.|Man mano arrivano tutti gli ospiti."
+   },
+   {
+    "id": "u1-1b-008",
+    "target": "la maschera",
+    "translations": [
+     "die Maske"
+    ],
+    "acceptedAnswers": [],
+    "example": "A Carnevale porto una maschera bianca.",
+    "definition": "Una cosa che copre il viso, tipica del Carnevale.",
+    "page": "168-170",
+    "related": "die Maske|||Una cosa che copre il viso, tipica del Carnevale.|A Carnevale porto una maschera bianca.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-009",
+    "target": "fotografare",
+    "translations": [
+     "fotografieren"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mi piace fotografare i tramonti.",
+    "definition": "Fare una foto.",
+    "page": "168-170",
+    "related": "fotografieren|||Fare una foto.|Mi piace fotografare i tramonti."
+   },
+   {
+    "id": "u1-1b-010",
+    "target": "la posizione",
+    "translations": [
+     "die Position",
+     "die Haltung"
+    ],
+    "acceptedAnswers": [],
+    "example": "Siediti in una posizione comoda.",
+    "definition": "Il modo in cui stai o il posto dove sei.",
+    "page": "168-170",
+    "related": "die Position; die Haltung|||Il modo in cui stai o il posto dove sei.|Siediti in una posizione comoda.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-011",
+    "target": "l’account",
+    "translations": [
+     "der Account"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ho creato un nuovo account per il gioco.",
+    "definition": "Il profilo personale su un sito o una app.",
+    "usage": "m.",
+    "page": "168-170",
+    "related": "der Account|m.||Il profilo personale su un sito o una app.|Ho creato un nuovo account per il gioco."
+   },
+   {
+    "id": "u1-1b-012",
+    "target": "segreto/-a",
+    "translations": [
+     "geheim"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abbiamo un posto segreto nel bosco.",
+    "definition": "Che gli altri non devono sapere.",
+    "page": "168-170",
+    "related": "E secret; F secret(-ète)"
+   },
+   {
+    "id": "u1-1b-013",
+    "target": "abbandonato/-a",
+    "translations": [
+     "verlassen",
+     "vereinsamt"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abbiamo visitato un villaggio abbandonato.",
+    "definition": "Lasciato solo, dove non c’è più nessuno.",
+    "page": "168-170",
+    "related": "verlassen; vereinsamt|||Lasciato solo, dove non c’è più nessuno.|Abbiamo visitato un villaggio abbandonato."
+   },
+   {
+    "id": "u1-1b-014",
+    "target": "pieno/-a",
+    "translations": [
+     "voll"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il treno è pieno di turisti.",
+    "definition": "Che non ha più posto.",
+    "page": "168-170",
+    "related": "L plenus"
+   },
+   {
+    "id": "u1-1b-015",
+    "target": "il carnevale",
+    "translations": [
+     "der Karneval"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il carnevale di Venezia è famoso in tutto il mondo.",
+    "definition": "La festa con maschere e costumi prima della Quaresima.",
+    "page": "168-170",
+    "related": "der Karneval|||La festa con maschere e costumi prima della Quaresima.|Il carnevale di Venezia è famoso in tutto il mondo.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-016",
+    "target": "stratosferico/-a",
+    "translations": [
+     "überhöht",
+     "astronomisch"
+    ],
+    "acceptedAnswers": [],
+    "example": "I prezzi a Venezia sono stratosferici.",
+    "definition": "Altissimo, esagerato.",
+    "usage": "hier",
+    "page": "168-170",
+    "related": "überhöht; astronomisch|hier||Altissimo, esagerato.|I prezzi a Venezia sono stratosferici."
+   },
+   {
+    "id": "u1-1b-017",
+    "target": "l’atmosfera",
+    "translations": [
+     "die Atmosphäre"
+    ],
+    "acceptedAnswers": [],
+    "example": "In questo locale c’è un’atmosfera piacevole.",
+    "definition": "Lo stato d’animo che si sente in un luogo.",
+    "page": "168-170",
+    "related": "die Atmosphäre|||Lo stato d’animo che si sente in un luogo.|In questo locale c’è un’atmosfera piacevole."
+   },
+   {
+    "id": "u1-1b-018",
+    "target": "generale",
+    "translations": [
+     "allgemein"
+    ],
+    "acceptedAnswers": [],
+    "example": "In generale sono contento della scuola.",
+    "definition": "Che riguarda tutto, non i dettagli.",
+    "page": "168-170",
+    "related": "allgemein|||Che riguarda tutto, non i dettagli.|In generale sono contento della scuola."
+   },
+   {
+    "id": "u1-1b-019",
+    "target": "estremo/-a",
+    "translations": [
+     "extrem",
+     "äußerst"
+    ],
+    "acceptedAnswers": [],
+    "example": "Oggi il caldo è estremo.",
+    "definition": "Molto forte, al limite.",
+    "page": "168-170",
+    "related": "extrem; äußerst|||Molto forte, al limite.|Oggi il caldo è estremo."
+   },
+   {
+    "id": "u1-1b-020",
+    "target": "rilassato/-a",
+    "translations": [
+     "entspannt"
+    ],
+    "acceptedAnswers": [],
+    "example": "In vacanza sono sempre rilassato.",
+    "definition": "Tranquillo, senza stress.",
+    "page": "168-170",
+    "related": "E relaxed"
+   },
+   {
+    "id": "u1-1b-021",
+    "target": "avere a che vedere con",
+    "translations": [
+     "zu tun haben mit"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questo film non ha niente a che vedere con il libro.",
+    "definition": "Avere un rapporto con.",
+    "page": "168-170",
+    "related": "zu tun haben mit|||Avere un rapporto con.|Questo film non ha niente a che vedere con il libro."
+   },
+   {
+    "id": "u1-1b-022",
+    "target": "qualsiasi",
+    "translations": [
+     "jede(r,s) (beliebige)"
+    ],
+    "acceptedAnswers": [],
+    "example": "Puoi chiamarmi a qualsiasi ora.",
+    "definition": "Non importa quale.",
+    "page": "168-170",
+    "related": "jede(r,s) (beliebige)|||Non importa quale.|Puoi chiamarmi a qualsiasi ora."
+   },
+   {
+    "id": "u1-1b-023",
+    "target": "la nave",
+    "translations": [
+     "das Schiff"
+    ],
+    "acceptedAnswers": [],
+    "example": "Siamo andati in Sardegna con la nave.",
+    "definition": "Una grande barca per il mare.",
+    "page": "168-170",
+    "related": "L navis",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-024",
+    "target": "spaventare",
+    "translations": [
+     "erschrecken (jdn)"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il cane ha spaventato il bambino.",
+    "definition": "Fare paura a qualcuno.",
+    "page": "168-170",
+    "related": "erschrecken (jdn)|||Fare paura a qualcuno.|Il cane ha spaventato il bambino."
+   },
+   {
+    "id": "u1-1b-025",
+    "target": "spaventarsi",
+    "translations": [
+     "sich erschrecken"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mi sono spaventata per il rumore.",
+    "definition": "Avere paura all’improvviso.",
+    "page": "168-170",
+    "related": "sich erschrecken|||Avere paura all’improvviso.|Mi sono spaventata per il rumore."
+   },
+   {
+    "id": "u1-1b-026",
+    "target": "la nave da crociera",
+    "translations": [
+     "das Kreuzfahrtschiff"
+    ],
+    "acceptedAnswers": [],
+    "example": "Le navi da crociera sono un problema per Venezia.",
+    "definition": "Una nave enorme per le vacanze in mare.",
+    "page": "168-170",
+    "related": "das Kreuzfahrtschiff|||Una nave enorme per le vacanze in mare.|Le navi da crociera sono un problema per Venezia.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-027",
+    "target": "fuori luogo",
+    "translations": [
+     "unangebracht"
+    ],
+    "acceptedAnswers": [],
+    "example": "La tua battuta era fuori luogo.",
+    "definition": "Non adatto alla situazione.",
+    "contrast": "fuori stagione – außerhalb der Saison; fuori tempo – nicht zeitgemäß; fuori moda – aus der Mode",
+    "page": "168-170",
+    "related": "unangebracht|Unterscheide: fuori stagione – außerhalb der Saison; fuori tempo – nicht zeitgemäß; fuori moda – aus der Mode||Non adatto alla situazione.|La tua battuta era fuori luogo."
+   },
+   {
+    "id": "u1-1b-028",
+    "target": "enorme",
+    "translations": [
+     "enorm",
+     "gewaltig"
+    ],
+    "acceptedAnswers": [],
+    "example": "C’è un cartellone enorme sulla piazza.",
+    "definition": "Grandissimo.",
+    "page": "168-170",
+    "related": "enorm; gewaltig|||Grandissimo.|C’è un cartellone enorme sulla piazza."
+   },
+   {
+    "id": "u1-1b-029",
+    "target": "il cartellone",
+    "translations": [
+     "das Plakat"
+    ],
+    "acceptedAnswers": [],
+    "example": "Sul cartellone c’è il programma della festa.",
+    "definition": "Un grande foglio con immagini e informazioni.",
+    "page": "168-170",
+    "related": "das Plakat|||Un grande foglio con immagini e informazioni.|Sul cartellone c’è il programma della festa.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-030",
+    "target": "il passato",
+    "translations": [
+     "die Vergangenheit"
+    ],
+    "acceptedAnswers": [],
+    "example": "Nel passato Venezia era una città molto potente.",
+    "definition": "Il tempo che è già passato.",
+    "page": "168-170",
+    "related": "E past; F le passé",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-031",
+    "target": "il mostro",
+    "translations": [
+     "das Monster"
+    ],
+    "acceptedAnswers": [],
+    "example": "Da piccolo avevo paura dei mostri.",
+    "definition": "Un essere brutto e pericoloso delle favole.",
+    "page": "168-170",
+    "related": "das Monster|||Un essere brutto e pericoloso delle favole.|Da piccolo avevo paura dei mostri.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-032",
+    "target": "la dimensione",
+    "translations": [
+     "die Dimension"
+    ],
+    "acceptedAnswers": [],
+    "example": "Le dimensioni di queste navi sono incredibili.",
+    "definition": "La grandezza di una cosa.",
+    "page": "168-170",
+    "related": "E dimension; F dimension",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-033",
+    "target": "lento/-a",
+    "translations": [
+     "langsam"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il vaporetto è lento ma bello.",
+    "definition": "Che non va veloce.",
+    "page": "168-170",
+    "antonyms": "veloce"
+   },
+   {
+    "id": "u1-1b-034",
+    "target": "il canale",
+    "translations": [
+     "der Kanal"
+    ],
+    "acceptedAnswers": [],
+    "example": "A Venezia si va in barca sui canali.",
+    "definition": "Una strada d’acqua.",
+    "page": "168-170",
+    "related": "der Kanal|||Una strada d’acqua.|A Venezia si va in barca sui canali.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-035",
+    "target": "il fascino",
+    "translations": [
+     "der Charme"
+    ],
+    "acceptedAnswers": [],
+    "example": "Venezia ha un fascino speciale.",
+    "definition": "Una forza che attira e piace.",
+    "page": "168-170",
+    "related": "der Charme|||Una forza che attira e piace.|Venezia ha un fascino speciale.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-036",
+    "target": "sbattere (contro) qs",
+    "translations": [
+     "gegen etw. stoßen",
+     "etw. knallen"
+    ],
+    "acceptedAnswers": [
+     "sbattere qs",
+     "sbattere"
+    ],
+    "example": "Ho sbattuto la testa contro la porta.",
+    "definition": "Colpire forte una cosa.",
+    "usage": "p.p. sbattuto",
+    "page": "168-170",
+    "related": "gegen etw. stoßen; etw. knallen|p.p. sbattuto||Colpire forte una cosa.|Ho sbattuto la testa contro la porta."
+   },
+   {
+    "id": "u1-1b-037",
+    "target": "nonostante",
+    "translations": [
+     "trotz",
+     "obwohl"
+    ],
+    "acceptedAnswers": [],
+    "example": "Nonostante la pioggia siamo andati in centro.",
+    "definition": "Anche se.",
+    "usage": "cong.",
+    "page": "168-170",
+    "related": "trotz; obwohl|cong.||Anche se.|Nonostante la pioggia siamo andati in centro."
+   },
+   {
+    "id": "u1-1b-038",
+    "target": "il lato",
+    "translations": [
+     "die Seite"
+    ],
+    "acceptedAnswers": [],
+    "example": "Guarda la cosa da un altro lato.",
+    "definition": "Una delle parti di una cosa.",
+    "page": "168-170",
+    "related": "L latus",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-039",
+    "target": "negativo/-a",
+    "translations": [
+     "negativ"
+    ],
+    "acceptedAnswers": [],
+    "example": "Luca vede sempre il lato negativo.",
+    "definition": "Non buono.",
+    "page": "168-170",
+    "antonyms": "positivo/-a"
+   },
+   {
+    "id": "u1-1b-040",
+    "target": "proporre",
+    "translations": [
+     "vorschlagen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Propongo di andare al cinema stasera.",
+    "definition": "Dire un’idea agli altri.",
+    "usage": "(propongo), p.p. proposto",
+    "page": "168-170",
+    "related": "L proponere"
+   },
+   {
+    "id": "u1-1b-041",
+    "target": "fare piacere a qn",
+    "translations": [
+     "jdn (er)freuen"
+    ],
+    "acceptedAnswers": [
+     "fare piacere a"
+    ],
+    "example": "Mi fa piacere vederti!",
+    "definition": "Rendere contento qualcuno.",
+    "page": "168-170",
+    "related": "jdn (er)freuen|||Rendere contento qualcuno.|Mi fa piacere vederti!"
+   },
+   {
+    "id": "u1-1b-042",
+    "target": "natale",
+    "translations": [
+     "Geburts-"
+    ],
+    "acceptedAnswers": [],
+    "example": "Venezia è la città natale di Marco Polo.",
+    "definition": "Che riguarda il luogo o il giorno in cui si nasce.",
+    "page": "168-170",
+    "family": "nascere"
+   },
+   {
+    "id": "u1-1b-043",
+    "target": "ricominciare",
+    "translations": [
+     "wieder anfangen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dopo la pausa la lezione ricomincia.",
+    "definition": "Cominciare di nuovo.",
+    "page": "168-170",
+    "related": "wieder anfangen|||Cominciare di nuovo.|Dopo la pausa la lezione ricomincia."
+   },
+   {
+    "id": "u1-1b-044",
+    "target": "rubare",
+    "translations": [
+     "stehlen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mi hanno rubato la bici davanti alla scuola.",
+    "definition": "Prendere una cosa che non è tua.",
+    "page": "168-170",
+    "related": "stehlen|||Prendere una cosa che non è tua.|Mi hanno rubato la bici davanti alla scuola."
+   },
+   {
+    "id": "u1-1b-045",
+    "target": "la fama",
+    "translations": [
+     "der Ruf"
+    ],
+    "acceptedAnswers": [],
+    "example": "La fama di Venezia è enorme.",
+    "definition": "Il fatto di essere conosciuti da molte persone.",
+    "page": "168-170",
+    "family": "famoso/-a",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-046",
+    "target": "la pubblicazione",
+    "translations": [
+     "die Veröffentlichung"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dopo la pubblicazione del libro, l’autrice è diventata famosa.",
+    "definition": "Quando un libro o un articolo esce e tutti lo possono leggere.",
+    "page": "168-170",
+    "related": "die Veröffentlichung|||Quando un libro o un articolo esce e tutti lo possono leggere.|Dopo la pubblicazione del libro, l’autrice è diventata famosa.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-1b-047",
+    "target": "l’integrazione",
+    "translations": [
+     "die Integration",
+     "die Eingliederung"
+    ],
+    "acceptedAnswers": [],
+    "example": "La scuola aiuta l’integrazione dei ragazzi stranieri.",
+    "definition": "Quando una persona diventa parte di un gruppo o di una società.",
+    "usage": "f.",
+    "page": "168-170",
+    "related": "die Integration; die Eingliederung|f.||Quando una persona diventa parte di un gruppo o di una società.|La scuola aiuta l’integrazione dei ragazzi stranieri."
+   },
+   {
+    "id": "u1-1b-048",
+    "target": "caotico/-a",
+    "translations": [
+     "chaotisch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il traffico in città è caotico.",
+    "definition": "Senza ordine, molto confuso.",
+    "page": "168-170",
+    "family": "il caos"
+   },
+   {
+    "id": "u1-1b-049",
+    "target": "soffocare",
+    "translations": [
+     "ersticken"
+    ],
+    "acceptedAnswers": [],
+    "example": "In questa stanza si soffoca, apri la finestra!",
+    "definition": "Non riuscire a respirare.",
+    "page": "168-170",
+    "related": "ersticken|||Non riuscire a respirare.|In questa stanza si soffoca, apri la finestra!"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco3-u1-approccio",
+  "title": "Ecco più 3 · Unità 1 · Approccio",
+  "language": "it",
+  "level": "B1",
+  "description": "Wortschatz zu „Tradizione – benedizione o maledizione?“ aus Ecco più 3 (Unità 1, Approccio).",
+  "topics": [
+   "Tradition",
+   "Kultur",
+   "Toskana"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 166-167 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "3",
+    "unit": "Unità 1",
+    "section": "Approccio",
+    "pages": "166-167"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "themes": [
+    "Tradition",
+    "Kultur",
+    "Toskana"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 3 (Cornelsen)",
+  "section": "Unità 1 · Approccio",
+  "entries": [
+   {
+    "id": "u1-approccio-001",
+    "target": "la maledizione",
+    "translations": [
+     "der Fluch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Per i contadini la siccità è una vera maledizione.",
+    "definition": "Una cosa che porta solo problemi e dolore.",
+    "page": "166-167",
+    "antonyms": "la benedizione",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-002",
+    "target": "la benedizione",
+    "translations": [
+     "der Segen"
+    ],
+    "acceptedAnswers": [],
+    "example": "La pioggia di ieri è stata una benedizione per il giardino.",
+    "definition": "Una cosa molto buona che arriva al momento giusto.",
+    "page": "166-167",
+    "antonyms": "la maledizione",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-003",
+    "target": "l’intellettuale",
+    "translations": [
+     "der/die Intellektuelle"
+    ],
+    "acceptedAnswers": [],
+    "example": "Molti intellettuali scrivono articoli sui giornali.",
+    "definition": "Una persona che lavora con le idee, per esempio scrittori e filosofi.",
+    "usage": "m./f.",
+    "page": "166-167",
+    "related": "E intellectual; F intellectuel(le)"
+   },
+   {
+    "id": "u1-approccio-004",
+    "target": "la civiltà",
+    "translations": [
+     "die Gesellschaft",
+     "die Kultur"
+    ],
+    "acceptedAnswers": [],
+    "example": "A scuola studiamo la civiltà degli antichi Romani.",
+    "definition": "Il modo di vivere, l’arte e le regole di un popolo.",
+    "page": "166-167",
+    "related": "die Gesellschaft; die Kultur|||Il modo di vivere, l’arte e le regole di un popolo.|A scuola studiamo la civiltà degli antichi Romani.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-005",
+    "target": "da vicino",
+    "translations": [
+     "aus der Nähe"
+    ],
+    "acceptedAnswers": [],
+    "example": "Voglio vedere il quadro da vicino.",
+    "definition": "Non da lontano, a poca distanza.",
+    "usage": "avv.",
+    "page": "166-167",
+    "related": "aus der Nähe|avv.||Non da lontano, a poca distanza.|Voglio vedere il quadro da vicino."
+   },
+   {
+    "id": "u1-approccio-006",
+    "target": "la testimonianza",
+    "translations": [
+     "das Zeugnis",
+     "das Kulturdenkmal"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questa chiesa è una testimonianza del Medioevo.",
+    "definition": "Una cosa che mostra com’era il passato.",
+    "page": "166-167",
+    "related": "das Zeugnis; das Kulturdenkmal|||Una cosa che mostra com’era il passato.|Questa chiesa è una testimonianza del Medioevo.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-007",
+    "target": "il/la letterato/-a",
+    "translations": [
+     "der/die Literat/in"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dante è il letterato italiano più famoso.",
+    "definition": "Una persona che scrive libri o studia la letteratura.",
+    "page": "166-167",
+    "related": "der/die Literat/in|||Una persona che scrive libri o studia la letteratura.|Dante è il letterato italiano più famoso."
+   },
+   {
+    "id": "u1-approccio-008",
+    "target": "il volume",
+    "translations": [
+     "der Band"
+    ],
+    "acceptedAnswers": [],
+    "example": "La saga di Harry Potter ha sette volumi.",
+    "definition": "Uno dei libri di un’opera divisa in più parti.",
+    "page": "166-167",
+    "related": "der Band|||Uno dei libri di un’opera divisa in più parti.|La saga di Harry Potter ha sette volumi.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-009",
+    "target": "l’elaborazione",
+    "translations": [
+     "die Ausarbeitung"
+    ],
+    "acceptedAnswers": [],
+    "example": "L’elaborazione della presentazione ci ha preso tre giorni.",
+    "definition": "Il lavoro per preparare bene un testo o un progetto.",
+    "usage": "f.",
+    "page": "166-167",
+    "family": "lavorare"
+   },
+   {
+    "id": "u1-approccio-010",
+    "target": "il diario",
+    "translations": [
+     "das Tagebuch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Da piccola scrivevo tutto nel mio diario.",
+    "definition": "Un quaderno dove scrivi ogni giorno quello che ti succede.",
+    "usage": "pl. i diari",
+    "page": "166-167",
+    "related": "E diary",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-011",
+    "target": "il lido",
+    "translations": [
+     "der Strand"
+    ],
+    "acceptedAnswers": [],
+    "example": "D’estate andiamo spesso al lido con gli amici.",
+    "definition": "Una spiaggia con ombrelloni e bar.",
+    "page": "166-167",
+    "related": "der Strand|||Una spiaggia con ombrelloni e bar.|D’estate andiamo spesso al lido con gli amici.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-012",
+    "target": "il quarto",
+    "translations": [
+     "das Viertel"
+    ],
+    "acceptedAnswers": [],
+    "example": "Un quarto della classe va in palestra il pomeriggio.",
+    "definition": "Una delle quattro parti uguali di una cosa.",
+    "usage": "Bruchteil",
+    "page": "166-167",
+    "related": "das Viertel|Bruchteil||Una delle quattro parti uguali di una cosa.|Un quarto della classe va in palestra il pomeriggio.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-013",
+    "target": "il cipresso",
+    "translations": [
+     "die Zypresse"
+    ],
+    "acceptedAnswers": [],
+    "example": "Lungo la strada ci sono tanti cipressi.",
+    "definition": "Un albero alto e stretto, tipico della Toscana.",
+    "page": "166-167",
+    "related": "die Zypresse|||Un albero alto e stretto, tipico della Toscana.|Lungo la strada ci sono tanti cipressi.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-014",
+    "target": "il casale",
+    "translations": [
+     "das Bauernhaus"
+    ],
+    "acceptedAnswers": [],
+    "example": "I miei nonni vivono in un vecchio casale in Toscana.",
+    "definition": "Una grande casa di campagna, spesso antica.",
+    "page": "166-167",
+    "family": "la casa",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-015",
+    "target": "caratteristico/-a",
+    "translations": [
+     "charakteristisch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il Palio è una festa caratteristica di Siena.",
+    "definition": "Tipico di un luogo o di una persona.",
+    "page": "166-167",
+    "related": "charakteristisch|||Tipico di un luogo o di una persona.|Il Palio è una festa caratteristica di Siena."
+   },
+   {
+    "id": "u1-approccio-016",
+    "target": "così come",
+    "translations": [
+     "so wie (auch)"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mi piace il mare, così come la montagna.",
+    "definition": "Nello stesso modo di.",
+    "page": "166-167",
+    "related": "so wie (auch)|||Nello stesso modo di.|Mi piace il mare, così come la montagna."
+   },
+   {
+    "id": "u1-approccio-017",
+    "target": "intatto/-a",
+    "translations": [
+     "intakt",
+     "unberührt"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il centro storico è rimasto intatto.",
+    "definition": "Ancora come era all’inizio, senza danni.",
+    "page": "166-167",
+    "related": "intakt; unberührt|||Ancora come era all’inizio, senza danni.|Il centro storico è rimasto intatto."
+   },
+   {
+    "id": "u1-approccio-018",
+    "target": "la specie",
+    "translations": [
+     "die Art",
+     "die Sorte"
+    ],
+    "acceptedAnswers": [],
+    "example": "In questo parco vivono molte specie di uccelli.",
+    "definition": "Un gruppo di animali o piante simili.",
+    "usage": "pl. le specie",
+    "page": "166-167",
+    "related": "die Art; die Sorte|pl. le specie||Un gruppo di animali o piante simili.|In questo parco vivono molte specie di uccelli.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-019",
+    "target": "l’animale",
+    "translations": [
+     "das Tier"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il cane è il mio animale preferito.",
+    "definition": "Un essere vivente che non è una pianta né una persona.",
+    "usage": "m.",
+    "page": "166-167",
+    "related": "E animal; F animal"
+   },
+   {
+    "id": "u1-approccio-020",
+    "target": "la pianta",
+    "translations": [
+     "die Pflanze"
+    ],
+    "acceptedAnswers": [],
+    "example": "Sul balcone ho tante piante.",
+    "definition": "Un essere vivente verde che cresce nella terra.",
+    "page": "166-167",
+    "related": "E plant",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-021",
+    "target": "la cifra",
+    "translations": [
+     "die Zahl",
+     "die Ziffer"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ha pagato una cifra alta per il telefono.",
+    "definition": "Un numero, anche una somma di soldi.",
+    "page": "166-167",
+    "related": "die Zahl; die Ziffer|||Un numero, anche una somma di soldi.|Ha pagato una cifra alta per il telefono.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-approccio-022",
+    "target": "il/la visitatore/visitatrice",
+    "translations": [
+     "der/die Besucher/in"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il museo ha avuto mille visitatori oggi.",
+    "definition": "Una persona che va a vedere un museo o una città.",
+    "usage": "pl. i visitatori, le visitatrici",
+    "page": "166-167",
+    "related": "der/die Besucher/in|pl. i visitatori, le visitatrici||Una persona che va a vedere un museo o una città.|Il museo ha avuto mille visitatori oggi."
+   },
+   {
+    "id": "u1-approccio-023",
+    "target": "aumentare",
+    "translations": [
+     "steigen",
+     "wachsen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il numero dei turisti aumenta ogni anno.",
+    "definition": "Diventare di più o più grande.",
+    "page": "166-167",
+    "related": "steigen; wachsen|||Diventare di più o più grande.|Il numero dei turisti aumenta ogni anno."
+   },
+   {
+    "id": "u1-approccio-024",
+    "target": "di anno in anno",
+    "translations": [
+     "von Jahr zu Jahr"
+    ],
+    "acceptedAnswers": [],
+    "example": "Di anno in anno la festa diventa più famosa.",
+    "definition": "Ogni anno un po’ di più o un po’ di meno.",
+    "page": "166-167",
+    "related": "von Jahr zu Jahr|||Ogni anno un po’ di più o un po’ di meno.|Di anno in anno la festa diventa più famosa."
+   },
+   {
+    "id": "u1-approccio-025",
+    "target": "il terremoto",
+    "translations": [
+     "das Erdbeben"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il terremoto ha distrutto molte case.",
+    "definition": "Quando la terra si muove forte e le case possono cadere.",
+    "page": "166-167",
+    "related": "das Erdbeben|||Quando la terra si muove forte e le case possono cadere.|Il terremoto ha distrutto molte case.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco3-u1-per-comunicare",
+  "title": "Ecco più 3 · Unità 1 · Per comunicare",
+  "language": "it",
+  "level": "B1",
+  "description": "Wortschatz zu „Statistiken, Argumente, Vermutungen in der Vergangenheit“ aus Ecco più 3 (Unità 1, Per comunicare).",
+  "topics": [
+   "Redemittel",
+   "Argumentieren",
+   "Statistik"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 170 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "3",
+    "unit": "Unità 1",
+    "section": "Per comunicare",
+    "pages": "170"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "themes": [
+    "Redemittel",
+    "Argumentieren",
+    "Statistik"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 3 (Cornelsen)",
+  "section": "Unità 1 · Per comunicare",
+  "entries": [
+   {
+    "id": "u1-per-comunicare-001",
+    "target": "la maggior parte di",
+    "translations": [
+     "der größte Teil von",
+     "die meisten"
+    ],
+    "acceptedAnswers": [],
+    "example": "La maggior parte dei miei amici gioca a calcio.",
+    "definition": "Più della metà di un gruppo.",
+    "page": "170",
+    "related": "der größte Teil von; die meisten|||Più della metà di un gruppo.|La maggior parte dei miei amici gioca a calcio.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u1-per-comunicare-002",
+    "target": "quasi la metà di",
+    "translations": [
+     "fast die Hälfte von"
+    ],
+    "acceptedAnswers": [],
+    "example": "Quasi la metà della classe ha un cane.",
+    "definition": "Un po’ meno del cinquanta per cento.",
+    "page": "170",
+    "related": "fast die Hälfte von|||Un po’ meno del cinquanta per cento.|Quasi la metà della classe ha un cane."
+   },
+   {
+    "id": "u1-per-comunicare-003",
+    "target": "più di un quarto di",
+    "translations": [
+     "mehr als ein Viertel von"
+    ],
+    "acceptedAnswers": [],
+    "example": "Più di un quarto dei turisti va al mare.",
+    "definition": "Più del venticinque per cento.",
+    "page": "170",
+    "related": "mehr als ein Viertel von|||Più del venticinque per cento.|Più di un quarto dei turisti va al mare."
+   },
+   {
+    "id": "u1-per-comunicare-004",
+    "target": "Non è sufficiente dire che …",
+    "translations": [
+     "Es genügt nicht zu sagen, dass …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non è sufficiente dire che è una tradizione antica.",
+    "definition": "Si usa per dire che un argomento non basta.",
+    "page": "170",
+    "related": "Es genügt nicht zu sagen, dass …|||Si usa per dire che un argomento non basta.|Non è sufficiente dire che è una tradizione antica."
+   },
+   {
+    "id": "u1-per-comunicare-005",
+    "target": "Voglio dire che …",
+    "translations": [
+     "Ich will damit sagen, dass …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Voglio dire che il Palio è anche pericoloso.",
+    "definition": "Si usa per spiegare meglio un’idea.",
+    "page": "170",
+    "related": "Ich will damit sagen, dass …|||Si usa per spiegare meglio un’idea.|Voglio dire che il Palio è anche pericoloso."
+   },
+   {
+    "id": "u1-per-comunicare-006",
+    "target": "Molti affermano che …",
+    "translations": [
+     "Viele behaupten, dass …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Molti affermano che i social sono pericolosi.",
+    "definition": "Si usa per riportare l’opinione di tante persone.",
+    "page": "170",
+    "related": "Viele behaupten, dass …|||Si usa per riportare l’opinione di tante persone.|Molti affermano che i social sono pericolosi."
+   },
+   {
+    "id": "u1-per-comunicare-007",
+    "target": "Ciò nonostante vorrei contestare …",
+    "translations": [
+     "Dennoch möchte ich … widersprechen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ciò nonostante vorrei contestare la tua idea.",
+    "definition": "Si usa per dire che non si è d’accordo.",
+    "page": "170",
+    "related": "Dennoch möchte ich … widersprechen|||Si usa per dire che non si è d’accordo.|Ciò nonostante vorrei contestare la tua idea."
+   },
+   {
+    "id": "u1-per-comunicare-008",
+    "target": "Infine il punto più importante è …",
+    "translations": [
+     "Schließlich ist der wichtigste Punkt …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Infine il punto più importante è la salute degli animali.",
+    "definition": "Si usa per presentare l’ultimo argomento.",
+    "page": "170",
+    "related": "Schließlich ist der wichtigste Punkt …|||Si usa per presentare l’ultimo argomento.|Infine il punto più importante è la salute degli animali."
+   },
+   {
+    "id": "u1-per-comunicare-009",
+    "target": "Nello stesso tempo …",
+    "translations": [
+     "Gleichzeitig …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Nello stesso tempo capisco chi ama questa festa.",
+    "definition": "Si usa per aggiungere un altro aspetto.",
+    "page": "170",
+    "related": "Gleichzeitig …|||Si usa per aggiungere un altro aspetto.|Nello stesso tempo capisco chi ama questa festa."
+   },
+   {
+    "id": "u1-per-comunicare-010",
+    "target": "Si potrebbe forse trovare un’altra soluzione.",
+    "translations": [
+     "Man könnte vielleicht eine andere Lösung finden."
+    ],
+    "acceptedAnswers": [],
+    "example": "Si potrebbe forse trovare un’altra soluzione per i cavalli.",
+    "definition": "Si usa per proporre un compromesso.",
+    "page": "170",
+    "related": "Man könnte vielleicht eine andere Lösung finden.|||Si usa per proporre un compromesso.|Si potrebbe forse trovare un’altra soluzione per i cavalli."
+   },
+   {
+    "id": "u1-per-comunicare-011",
+    "target": "Non pensavo che …",
+    "translations": [
+     "Ich dachte nicht, dass …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non pensavo che fosse così divertente.",
+    "definition": "Si usa per dire che una cosa ti ha sorpreso.",
+    "usage": "+ cong. imperfetto",
+    "page": "170",
+    "related": "Ich dachte nicht, dass …|+ cong. imperfetto||Si usa per dire che una cosa ti ha sorpreso.|Non pensavo che fosse così divertente."
+   },
+   {
+    "id": "u1-per-comunicare-012",
+    "target": "Temevo che …",
+    "translations": [
+     "Ich befürchtete, dass …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Temevo che il treno partisse senza di me.",
+    "definition": "Si usa per dire che avevi paura di una cosa.",
+    "usage": "+ cong. imperfetto",
+    "page": "170",
+    "related": "Ich befürchtete, dass …|+ cong. imperfetto||Si usa per dire che avevi paura di una cosa.|Temevo che il treno partisse senza di me."
+   },
+   {
+    "id": "u1-per-comunicare-013",
+    "target": "Mi pareva che …",
+    "translations": [
+     "Es kam mir so vor, als ob …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mi pareva che nessuno mi ascoltasse.",
+    "definition": "Si usa per dire un’impressione del passato.",
+    "usage": "+ cong. imperfetto",
+    "page": "170",
+    "related": "Es kam mir so vor, als ob …|+ cong. imperfetto||Si usa per dire un’impressione del passato.|Mi pareva che nessuno mi ascoltasse."
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco3-u2-2a",
+  "title": "Ecco più 3 · Unità 2 · 2A Noi nel mondo – radio per ragazzi",
+  "language": "it",
+  "level": "B1",
+  "description": "Wortschatz zu „Wir in der Welt – Radio für Jugendliche“ aus Ecco più 3 (Unità 2, 2A Noi nel mondo – radio per ragazzi).",
+  "topics": [
+   "Medien",
+   "Internet",
+   "Radio"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 172-173 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "3",
+    "unit": "Unità 2",
+    "section": "2A Noi nel mondo – radio per ragazzi",
+    "pages": "172-173"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "themes": [
+    "Medien",
+    "Internet",
+    "Radio"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 3 (Cornelsen)",
+  "section": "Unità 2 · 2A Noi nel mondo – radio per ragazzi",
+  "entries": [
+   {
+    "id": "u2-2a-001",
+    "target": "la puntata",
+    "translations": [
+     "die Folge"
+    ],
+    "acceptedAnswers": [],
+    "example": "Stasera esce la nuova puntata della mia serie preferita.",
+    "definition": "Una parte di una serie o di un programma.",
+    "usage": "Fernsehen, Rundfunk",
+    "page": "172-173",
+    "related": "die Folge|Fernsehen, Rundfunk||Una parte di una serie o di un programma.|Stasera esce la nuova puntata della mia serie preferita.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-2a-002",
+    "target": "l’ospite",
+    "translations": [
+     "der Gast"
+    ],
+    "acceptedAnswers": [],
+    "example": "Oggi in radio c’è un ospite famoso.",
+    "definition": "Una persona invitata a casa o in un programma.",
+    "usage": "m./f., pl. gli ospiti",
+    "page": "172-173",
+    "related": "L hospes"
+   },
+   {
+    "id": "u2-2a-003",
+    "target": "intanto",
+    "translations": [
+     "unterdessen",
+     "währenddessen",
+     "zunächst einmal"
+    ],
+    "acceptedAnswers": [],
+    "example": "Tu prepari la pasta, io intanto apparecchio.",
+    "definition": "Nello stesso momento; per ora.",
+    "usage": "avv.",
+    "page": "172-173",
+    "related": "unterdessen; währenddessen; zunächst einmal|avv.||Nello stesso momento; per ora.|Tu prepari la pasta, io intanto apparecchio."
+   },
+   {
+    "id": "u2-2a-004",
+    "target": "il video esplicativo",
+    "translations": [
+     "das Erklärvideo"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ho capito la regola grazie a un video esplicativo.",
+    "definition": "Un video che spiega come funziona una cosa.",
+    "usage": "pl. i video esplicativi",
+    "page": "172-173",
+    "related": "das Erklärvideo|pl. i video esplicativi||Un video che spiega come funziona una cosa.|Ho capito la regola grazie a un video esplicativo.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-2a-005",
+    "target": "ricercare qs",
+    "translations": [
+     "etw. suchen",
+     "nachsehen"
+    ],
+    "acceptedAnswers": [
+     "ricercare"
+    ],
+    "example": "Per la tesina devo ricercare molte informazioni.",
+    "definition": "Cercare con attenzione informazioni.",
+    "usage": "(-chi-)",
+    "page": "172-173",
+    "related": "E to research; F rechercher",
+    "family": "cercare"
+   },
+   {
+    "id": "u2-2a-006",
+    "target": "il filmato",
+    "translations": [
+     "der Film (kurz)"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ho girato un filmato con il cellulare.",
+    "definition": "Un breve video.",
+    "page": "172-173",
+    "family": "il film",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-2a-007",
+    "target": "soddisfatto/-a",
+    "translations": [
+     "zufrieden"
+    ],
+    "acceptedAnswers": [],
+    "example": "Sono soddisfatto del mio voto.",
+    "definition": "Contento di quello che hai fatto o avuto.",
+    "page": "172-173",
+    "related": "E satisfied"
+   },
+   {
+    "id": "u2-2a-008",
+    "target": "risultare da qs",
+    "translations": [
+     "aus etw. werden",
+     "aus etw. hervorgehen"
+    ],
+    "acceptedAnswers": [
+     "risultare da"
+    ],
+    "example": "Dal sondaggio risulta che i ragazzi usano molto i social.",
+    "definition": "Venire fuori come conseguenza.",
+    "page": "172-173",
+    "related": "F résulter",
+    "family": "il risultato"
+   },
+   {
+    "id": "u2-2a-009",
+    "target": "produrre",
+    "translations": [
+     "herstellen",
+     "produzieren"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questa azienda produce biciclette.",
+    "definition": "Fare, fabbricare una cosa.",
+    "usage": "(produco), p.p. prodotto",
+    "page": "172-173",
+    "related": "E produce; L producere; F produire",
+    "family": "il prodotto"
+   },
+   {
+    "id": "u2-2a-010",
+    "target": "postare online",
+    "translations": [
+     "online posten",
+     "ins Internet stellen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non postare online le foto dei tuoi amici senza chiedere.",
+    "definition": "Pubblicare una foto o un testo sui social.",
+    "page": "172-173",
+    "related": "E to post"
+   },
+   {
+    "id": "u2-2a-011",
+    "target": "sognare (di fare) qs",
+    "translations": [
+     "davon träumen, etw. zu tun"
+    ],
+    "acceptedAnswers": [
+     "sognare qs",
+     "sognare"
+    ],
+    "example": "Sogno di fare un viaggio in Giappone.",
+    "definition": "Desiderare molto una cosa.",
+    "contrast": "sognare una vacanza – von einem Urlaub träumen; sognare di andare in vacanza – davon träumen, in den Urlaub zu fahren",
+    "page": "172-173",
+    "family": "il sogno"
+   },
+   {
+    "id": "u2-2a-012",
+    "target": "il/la chitarrista",
+    "translations": [
+     "der/die Gitarrist/in"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il chitarrista della band ha solo quindici anni.",
+    "definition": "Una persona che suona la chitarra.",
+    "page": "172-173",
+    "family": "la chitarra"
+   },
+   {
+    "id": "u2-2a-013",
+    "target": "professionista",
+    "translations": [
+     "beruflich",
+     "professionell"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mio cugino è un fotografo professionista.",
+    "definition": "Che fa una cosa come lavoro, molto bene.",
+    "page": "172-173",
+    "related": "E professional; F professionnel(le)",
+    "family": "la professione"
+   },
+   {
+    "id": "u2-2a-014",
+    "target": "incoraggiante",
+    "translations": [
+     "aufmunternd",
+     "ermutigend"
+    ],
+    "acceptedAnswers": [],
+    "example": "La prof mi ha scritto un commento incoraggiante.",
+    "definition": "Che dà coraggio e speranza.",
+    "page": "172-173",
+    "related": "E encouraging; F encourageant",
+    "family": "il coraggio"
+   },
+   {
+    "id": "u2-2a-015",
+    "target": "ingenuo/-a",
+    "translations": [
+     "naiv"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non essere ingenuo, quella notizia è falsa.",
+    "definition": "Che crede troppo facilmente agli altri.",
+    "page": "172-173",
+    "related": "naiv|||Che crede troppo facilmente agli altri.|Non essere ingenuo, quella notizia è falsa."
+   },
+   {
+    "id": "u2-2a-016",
+    "target": "romantico/-a",
+    "translations": [
+     "romantisch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abbiamo visto un film molto romantico.",
+    "definition": "Pieno di sentimenti e di amore.",
+    "page": "172-173",
+    "related": "romantisch|||Pieno di sentimenti e di amore.|Abbiamo visto un film molto romantico."
+   },
+   {
+    "id": "u2-2a-017",
+    "target": "valido/-a",
+    "translations": [
+     "wirksam",
+     "wertvoll"
+    ],
+    "acceptedAnswers": [],
+    "example": "È un’idea valida, proviamo!",
+    "definition": "Che funziona, che ha valore.",
+    "page": "172-173",
+    "related": "E valid; L validus",
+    "family": "valere"
+   },
+   {
+    "id": "u2-2a-018",
+    "target": "del genere",
+    "translations": [
+     "derartig",
+     "ähnlich"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non ho mai visto una cosa del genere.",
+    "definition": "Di questo tipo.",
+    "page": "172-173",
+    "related": "derartig; ähnlich|||Di questo tipo.|Non ho mai visto una cosa del genere."
+   },
+   {
+    "id": "u2-2a-019",
+    "target": "impiegare",
+    "translations": [
+     "verwenden",
+     "brauchen (Zeit)"
+    ],
+    "acceptedAnswers": [],
+    "example": "Impiego venti minuti per andare a scuola.",
+    "definition": "Usare; anche: avere bisogno di un certo tempo.",
+    "usage": "(-ghi-)",
+    "page": "172-173",
+    "related": "verwenden; brauchen (Zeit)|(-ghi-)||Usare; anche: avere bisogno di un certo tempo.|Impiego venti minuti per andare a scuola."
+   },
+   {
+    "id": "u2-2a-020",
+    "target": "il secondo",
+    "translations": [
+     "die Sekunde"
+    ],
+    "acceptedAnswers": [],
+    "example": "Aspetta un secondo, arrivo!",
+    "definition": "Una piccola parte di un minuto.",
+    "page": "172-173",
+    "related": "E second; F seconde",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-2a-021",
+    "target": "la rete",
+    "translations": [
+     "das Netz",
+     "das Internet"
+    ],
+    "acceptedAnswers": [],
+    "example": "In rete si trovano tante informazioni.",
+    "definition": "Internet; anche una cosa fatta di fili.",
+    "page": "172-173",
+    "related": "das Netz; das Internet|||Internet; anche una cosa fatta di fili.|In rete si trovano tante informazioni.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-2a-022",
+    "target": "reale",
+    "translations": [
+     "wirklich",
+     "real"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questa storia è basata su fatti reali.",
+    "definition": "Vero, che esiste davvero.",
+    "page": "172-173",
+    "related": "E real; F réel(le)",
+    "family": "in realtà"
+   },
+   {
+    "id": "u2-2a-023",
+    "target": "mica",
+    "translations": [
+     "ja",
+     "doch (in Verneinungen)"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non sono mica stupido!",
+    "definition": "Si usa con non per rafforzare la negazione.",
+    "usage": "Non è mica lontano. – Es ist ja nicht weit weg.",
+    "page": "172-173",
+    "related": "ja; doch (in Verneinungen)|Non è mica lontano. – Es ist ja nicht weit weg.||Si usa con non per rafforzare la negazione.|Non sono mica stupido!"
+   },
+   {
+    "id": "u2-2a-024",
+    "target": "distratto/-a da qs",
+    "translations": [
+     "abgelenkt von etw."
+    ],
+    "acceptedAnswers": [
+     "distratto/-a da"
+    ],
+    "example": "Sono distratto dal telefono quando studio.",
+    "definition": "Che non riesce a stare attento a causa di altro.",
+    "page": "172-173",
+    "related": "E distracted; F distrait(e)"
+   },
+   {
+    "id": "u2-2a-025",
+    "target": "digitale",
+    "translations": [
+     "digital"
+    ],
+    "acceptedAnswers": [],
+    "example": "Leggo i libri in formato digitale.",
+    "definition": "Che usa computer e internet.",
+    "page": "172-173",
+    "related": "digital|||Che usa computer e internet.|Leggo i libri in formato digitale."
+   },
+   {
+    "id": "u2-2a-026",
+    "target": "accettabile",
+    "translations": [
+     "akzeptabel"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il prezzo è accettabile.",
+    "definition": "Che si può accettare.",
+    "page": "172-173",
+    "related": "E acceptable; F acceptable"
+   },
+   {
+    "id": "u2-2a-027",
+    "target": "sostenere",
+    "translations": [
+     "unterstützen"
+    ],
+    "acceptedAnswers": [],
+    "example": "I miei genitori mi sostengono sempre.",
+    "definition": "Aiutare qualcuno, stare dalla sua parte.",
+    "usage": "(sostengo), p.p. sostenuto",
+    "page": "172-173",
+    "related": "E sustain; F soutenir",
+    "family": "tenere"
+   },
+   {
+    "id": "u2-2a-028",
+    "target": "l’iniziativa",
+    "translations": [
+     "die Unternehmung",
+     "die Initiative"
+    ],
+    "acceptedAnswers": [],
+    "example": "La classe ha preso l’iniziativa di pulire il parco.",
+    "definition": "Un’idea o un progetto che qualcuno comincia.",
+    "page": "172-173",
+    "family": "l’inizio"
+   },
+   {
+    "id": "u2-2a-029",
+    "target": "essere d’accordo",
+    "translations": [
+     "einverstanden sein"
+    ],
+    "acceptedAnswers": [],
+    "example": "Sono d’accordo con te.",
+    "definition": "Avere la stessa opinione.",
+    "page": "172-173",
+    "related": "F être d’accord"
+   },
+   {
+    "id": "u2-2a-030",
+    "target": "il/la minorenne",
+    "translations": [
+     "der/die Minderjährige"
+    ],
+    "acceptedAnswers": [],
+    "example": "I minorenni non possono votare.",
+    "definition": "Una persona che ha meno di diciotto anni.",
+    "page": "172-173",
+    "related": "F mineur(e)"
+   },
+   {
+    "id": "u2-2a-031",
+    "target": "il limite",
+    "translations": [
+     "die Grenze"
+    ],
+    "acceptedAnswers": [],
+    "example": "Anche la pazienza ha un limite!",
+    "definition": "Il punto che non si deve superare.",
+    "page": "172-173",
+    "related": "E limit; F limite",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-2a-032",
+    "target": "onesto/-a",
+    "translations": [
+     "aufrichtig",
+     "ehrlich"
+    ],
+    "acceptedAnswers": [],
+    "example": "Sii onesto: ti piace il mio disegno?",
+    "definition": "Che dice la verità.",
+    "page": "172-173",
+    "related": "E honest; L honestus",
+    "antonyms": "disonesto/-a"
+   },
+   {
+    "id": "u2-2a-033",
+    "target": "il/la rompiscatole",
+    "translations": [
+     "der Störenfried",
+     "die Nervensäge"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mio fratello è un vero rompiscatole.",
+    "definition": "Una persona che dà fastidio.",
+    "usage": "fam., pl. i rompiscatole",
+    "page": "172-173",
+    "family": "rompere"
+   },
+   {
+    "id": "u2-2a-034",
+    "target": "visibile",
+    "translations": [
+     "sichtbar"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il tuo profilo è visibile a tutti.",
+    "definition": "Che si può vedere.",
+    "page": "172-173",
+    "family": "vedere"
+   },
+   {
+    "id": "u2-2a-035",
+    "target": "fare a meno di qn/qs",
+    "translations": [
+     "auf jdn/etw. verzichten",
+     "ohne jdn/etw. auskommen"
+    ],
+    "acceptedAnswers": [
+     "fare a meno di"
+    ],
+    "example": "Non posso fare a meno del caffè la mattina.",
+    "definition": "Vivere senza una persona o una cosa.",
+    "page": "172-173",
+    "related": "auf jdn/etw. verzichten; ohne jdn/etw. auskommen|||Vivere senza una persona o una cosa.|Non posso fare a meno del caffè la mattina."
+   },
+   {
+    "id": "u2-2a-036",
+    "target": "avere a che fare con",
+    "translations": [
+     "zu tun haben mit"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questo problema non ha a che fare con te.",
+    "definition": "Avere un rapporto con.",
+    "page": "172-173",
+    "related": "zu tun haben mit|||Avere un rapporto con.|Questo problema non ha a che fare con te."
+   },
+   {
+    "id": "u2-2a-037",
+    "target": "fare amicizia",
+    "translations": [
+     "sich anfreunden"
+    ],
+    "acceptedAnswers": [],
+    "example": "In vacanza ho fatto amicizia con due ragazze.",
+    "definition": "Diventare amici.",
+    "page": "172-173",
+    "related": "Freundschaft schließen|||Diventare amici.|Ad Amburgo ho fatto amicizia con due ragazzi."
+   },
+   {
+    "id": "u2-2a-038",
+    "target": "fare attenzione",
+    "translations": [
+     "aufpassen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Fai attenzione quando attraversi la strada!",
+    "definition": "Stare attento.",
+    "page": "172-173",
+    "related": "aufpassen|||Stare attento.|Fai attenzione quando attraversi la strada!"
+   },
+   {
+    "id": "u2-2a-039",
+    "target": "fare bella figura / una figuraccia",
+    "translations": [
+     "einen guten / schlechten Eindruck machen"
+    ],
+    "acceptedAnswers": [],
+    "example": "All’esame orale ho fatto bella figura.",
+    "definition": "Fare un’impressione buona o brutta.",
+    "page": "172-173",
+    "related": "einen guten / schlechten Eindruck machen|||Fare un’impressione buona o brutta.|All’esame orale ho fatto bella figura."
+   },
+   {
+    "id": "u2-2a-040",
+    "target": "fare caldo/freddo/fresco",
+    "translations": [
+     "warm/kalt/kühl sein"
+    ],
+    "acceptedAnswers": [],
+    "example": "Oggi fa molto freddo.",
+    "definition": "Si usa per parlare del tempo.",
+    "page": "172-173",
+    "related": "warm/kalt/kühl sein|||Si usa per parlare del tempo.|Oggi fa molto freddo."
+   },
+   {
+    "id": "u2-2a-041",
+    "target": "fare due chiacchiere",
+    "translations": [
+     "ein Schwätzchen halten"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dopo scuola facciamo due chiacchiere al bar.",
+    "definition": "Parlare un po’ senza fretta.",
+    "page": "172-173",
+    "related": "ein Schwätzchen halten|||Parlare un po’ senza fretta.|Dopo scuola facciamo due chiacchiere al bar."
+   },
+   {
+    "id": "u2-2a-042",
+    "target": "fare fatica",
+    "translations": [
+     "Mühe haben"
+    ],
+    "acceptedAnswers": [],
+    "example": "Faccio fatica ad alzarmi la mattina.",
+    "definition": "Avere difficoltà a fare una cosa.",
+    "page": "172-173",
+    "related": "Mühe haben|||Avere difficoltà a fare una cosa.|Faccio fatica ad alzarmi la mattina."
+   },
+   {
+    "id": "u2-2a-043",
+    "target": "fare il bagno",
+    "translations": [
+     "baden"
+    ],
+    "acceptedAnswers": [],
+    "example": "Al lago abbiamo fatto il bagno.",
+    "definition": "Entrare nell’acqua del mare o della vasca.",
+    "page": "172-173",
+    "related": "baden|||Entrare nell’acqua del mare o della vasca.|Al lago abbiamo fatto il bagno."
+   },
+   {
+    "id": "u2-2a-044",
+    "target": "fare l’ipocrita",
+    "translations": [
+     "heucheln"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non fare l’ipocrita, so che non ti piace.",
+    "definition": "Fingere sentimenti che non si hanno.",
+    "page": "172-173",
+    "related": "heucheln|||Fingere sentimenti che non si hanno.|Non fare l’ipocrita, so che non ti piace."
+   },
+   {
+    "id": "u2-2a-045",
+    "target": "fare male",
+    "translations": [
+     "wehtun"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mi fa male la testa.",
+    "definition": "Causare dolore.",
+    "page": "172-173",
+    "related": "wehtun|||Causare dolore.|Mi fa male la testa."
+   },
+   {
+    "id": "u2-2a-046",
+    "target": "fare parte di",
+    "translations": [
+     "teilnehmen an",
+     "ein Teil sein von"
+    ],
+    "acceptedAnswers": [],
+    "example": "Faccio parte della squadra di pallavolo.",
+    "definition": "Essere dentro un gruppo.",
+    "page": "172-173",
+    "related": "teilnehmen an; ein Teil sein von|||Essere dentro un gruppo.|Faccio parte della squadra di pallavolo."
+   },
+   {
+    "id": "u2-2a-047",
+    "target": "fare schifo",
+    "translations": [
+     "eklig sein"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questa minestra fa schifo!",
+    "definition": "Essere molto brutto o cattivo.",
+    "usage": "fam.",
+    "page": "172-173",
+    "related": "eklig sein|fam.||Essere molto brutto o cattivo.|Questa minestra fa schifo!"
+   },
+   {
+    "id": "u2-2a-048",
+    "target": "fare shopping",
+    "translations": [
+     "einkaufen",
+     "shoppen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Sabato faccio shopping con mia sorella.",
+    "definition": "Andare per negozi a comprare cose.",
+    "page": "172-173",
+    "related": "einkaufen; shoppen|||Andare per negozi a comprare cose.|Sabato faccio shopping con mia sorella."
+   },
+   {
+    "id": "u2-2a-049",
+    "target": "fare snowboard",
+    "translations": [
+     "Snowboard fahren"
+    ],
+    "acceptedAnswers": [],
+    "example": "D’inverno faccio snowboard sulle Alpi.",
+    "definition": "Scendere sulla neve con una tavola.",
+    "page": "172-173",
+    "related": "Snowboard fahren|||Scendere sulla neve con una tavola.|D’inverno faccio snowboard sulle Alpi."
+   },
+   {
+    "id": "u2-2a-050",
+    "target": "fare un salto da qn",
+    "translations": [
+     "bei jdm vorbeischauen"
+    ],
+    "acceptedAnswers": [
+     "fare un salto da"
+    ],
+    "example": "Dopo scuola faccio un salto da Marta.",
+    "definition": "Andare a trovare qualcuno per poco tempo.",
+    "page": "172-173",
+    "related": "bei jdm vorbeischauen|||Andare a trovare qualcuno per poco tempo.|Dopo scuola faccio un salto da Marta."
+   },
+   {
+    "id": "u2-2a-051",
+    "target": "fare vedere",
+    "translations": [
+     "zeigen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mi fai vedere le foto della vacanza?",
+    "definition": "Mostrare.",
+    "page": "172-173",
+    "related": "zeigen|||Mostrare.|Mi fai vedere le foto della vacanza?"
+   },
+   {
+    "id": "u2-2a-052",
+    "target": "in gran parte",
+    "translations": [
+     "größtenteils"
+    ],
+    "acceptedAnswers": [],
+    "example": "I commenti sono in gran parte positivi.",
+    "definition": "Per la maggior parte.",
+    "usage": "avv.",
+    "page": "172-173",
+    "related": "größtenteils|avv.||Per la maggior parte.|I commenti sono in gran parte positivi."
+   },
+   {
+    "id": "u2-2a-053",
+    "target": "disonesto/-a",
+    "translations": [
+     "unehrlich",
+     "unaufrichtig"
+    ],
+    "acceptedAnswers": [],
+    "example": "È disonesto copiare durante il compito.",
+    "definition": "Che non dice la verità.",
+    "page": "172-173",
+    "antonyms": "onesto/-a"
+   },
+   {
+    "id": "u2-2a-054",
+    "target": "i dati",
+    "translations": [
+     "die Daten"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non dare i tuoi dati a sconosciuti.",
+    "definition": "Le informazioni, per esempio su una persona.",
+    "page": "172-173",
+    "related": "E data",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "i"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-2a-055",
+    "target": "personale",
+    "translations": [
+     "persönlich",
+     "eigen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questa è la mia opinione personale.",
+    "definition": "Che riguarda una sola persona.",
+    "page": "172-173",
+    "family": "la persona"
+   },
+   {
+    "id": "u2-2a-056",
+    "target": "certo/-a",
+    "translations": [
+     "gewisse/-r/-s",
+     "sicher"
+    ],
+    "acceptedAnswers": [],
+    "example": "Certe persone parlano troppo.",
+    "definition": "Sicuro; anche: alcuni, non tutti.",
+    "page": "172-173",
+    "related": "L certus"
+   },
+   {
+    "id": "u2-2a-057",
+    "target": "il copyright",
+    "translations": [
+     "das Urheberrecht",
+     "das Copyright"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non puoi usare questa foto, ha il copyright.",
+    "definition": "Il diritto dell’autore sulla sua opera.",
+    "usage": "pl. i copyright",
+    "page": "172-173",
+    "related": "das Urheberrecht; das Copyright|pl. i copyright||Il diritto dell’autore sulla sua opera.|Non puoi usare questa foto, ha il copyright.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-2a-058",
+    "target": "Alla prossima (volta)!",
+    "translations": [
+     "Bis zum nächsten Mal!"
+    ],
+    "acceptedAnswers": [
+     "Alla prossima!"
+    ],
+    "example": "Ciao ragazzi, alla prossima!",
+    "definition": "Si dice per salutare.",
+    "usage": "espr.",
+    "page": "172-173",
+    "related": "Bis zum nächsten Mal!|espr.||Si dice per salutare.|Ciao ragazzi, alla prossima!"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco3-u2-2b",
+  "title": "Ecco più 3 · Unità 2 · 2B Vivere alla tedesca",
+  "language": "it",
+  "level": "B1",
+  "description": "Wortschatz zu „Leben auf Deutsch“ aus Ecco più 3 (Unità 2, 2B Vivere alla tedesca).",
+  "topics": [
+   "Deutschland",
+   "Studium",
+   "Arbeit"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 173-175 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "3",
+    "unit": "Unità 2",
+    "section": "2B Vivere alla tedesca",
+    "pages": "173-175"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "themes": [
+    "Deutschland",
+    "Studium",
+    "Arbeit"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 3 (Cornelsen)",
+  "section": "Unità 2 · 2B Vivere alla tedesca",
+  "entries": [
+   {
+    "id": "u2-2b-001",
+    "target": "Amburgo",
+    "translations": [
+     "Hamburg"
+    ],
+    "acceptedAnswers": [],
+    "example": "Amburgo ha un porto molto grande.",
+    "definition": "Una grande città del nord della Germania con il porto.",
+    "usage": "f.",
+    "page": "173-175",
+    "related": "Hamburg|f.||Una grande città del nord della Germania con il porto.|Amburgo ha un porto molto grande."
+   },
+   {
+    "id": "u2-2b-002",
+    "target": "la scelta",
+    "translations": [
+     "die Wahl",
+     "die Entscheidung"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dopo la scuola devo fare una scelta importante.",
+    "definition": "Il fatto di scegliere tra più cose.",
+    "page": "173-175",
+    "family": "scegliere",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-2b-003",
+    "target": "l’alloggio",
+    "translations": [
+     "die Unterkunft"
+    ],
+    "acceptedAnswers": [],
+    "example": "Gli studenti cercano un alloggio vicino all’università.",
+    "definition": "Un posto dove dormire e vivere.",
+    "page": "173-175",
+    "related": "die Unterkunft|||Un posto dove dormire e vivere.|Gli studenti cercano un alloggio vicino all’università."
+   },
+   {
+    "id": "u2-2b-004",
+    "target": "presso",
+    "translations": [
+     "bei"
+    ],
+    "acceptedAnswers": [],
+    "example": "Lavora presso un’azienda di Milano.",
+    "definition": "Vicino a, nel luogo di.",
+    "page": "173-175",
+    "related": "bei|||Vicino a, nel luogo di.|Lavora presso un’azienda di Milano."
+   },
+   {
+    "id": "u2-2b-005",
+    "target": "il mix",
+    "translations": [
+     "die Mischung",
+     "das Durcheinander"
+    ],
+    "acceptedAnswers": [],
+    "example": "Nella mia classe c’è un mix di culture.",
+    "definition": "Un insieme di cose diverse.",
+    "page": "173-175",
+    "related": "die Mischung; das Durcheinander|||Un insieme di cose diverse.|Nella mia classe c’è un mix di culture.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-2b-006",
+    "target": "Chissà …!",
+    "translations": [
+     "Wer weiß …!"
+    ],
+    "acceptedAnswers": [],
+    "example": "Chissà dove ho messo le chiavi!",
+    "definition": "Si usa quando non si sa una cosa.",
+    "page": "173-175",
+    "related": "Wer weiß …!|||Si usa quando non si sa una cosa.|Chissà dove ho messo le chiavi!"
+   },
+   {
+    "id": "u2-2b-007",
+    "target": "ospitante",
+    "translations": [
+     "Gast-"
+    ],
+    "acceptedAnswers": [],
+    "example": "La mia famiglia ospitante ad Amburgo era molto gentile.",
+    "definition": "Che accoglie un ospite a casa.",
+    "page": "173-175",
+    "family": "l’ospite"
+   },
+   {
+    "id": "u2-2b-008",
+    "target": "trattare",
+    "translations": [
+     "behandeln"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mi hanno trattato come un figlio.",
+    "definition": "Comportarsi in un certo modo con qualcuno.",
+    "page": "173-175",
+    "related": "E to treat; F traiter"
+   },
+   {
+    "id": "u2-2b-009",
+    "target": "fin dal primo momento",
+    "translations": [
+     "vom ersten Moment an"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mi sono trovata bene fin dal primo momento.",
+    "definition": "Subito, dall’inizio.",
+    "page": "173-175",
+    "related": "vom ersten Moment an|||Subito, dall’inizio.|Mi sono trovata bene fin dal primo momento."
+   },
+   {
+    "id": "u2-2b-010",
+    "target": "a parte qn/qs",
+    "translations": [
+     "bis auf jdn/etw.",
+     "außer jdm/etw."
+    ],
+    "acceptedAnswers": [
+     "a parte"
+    ],
+    "example": "A parte Luca, sono venuti tutti.",
+    "definition": "Tranne, escluso.",
+    "page": "173-175",
+    "related": "bis auf jdn/etw.; außer jdm/etw.|||Tranne, escluso.|A parte Luca, sono venuti tutti."
+   },
+   {
+    "id": "u2-2b-011",
+    "target": "a vicenda",
+    "translations": [
+     "gegenseitig"
+    ],
+    "acceptedAnswers": [],
+    "example": "Io e mia sorella ci aiutiamo a vicenda.",
+    "definition": "L’uno con l’altro.",
+    "usage": "avv.",
+    "page": "173-175",
+    "related": "gegenseitig|avv.||L’uno con l’altro.|Io e mia sorella ci aiutiamo a vicenda."
+   },
+   {
+    "id": "u2-2b-012",
+    "target": "immaginarsi qn/qs",
+    "translations": [
+     "sich jdn/etw. vorstellen"
+    ],
+    "acceptedAnswers": [
+     "immaginarsi"
+    ],
+    "example": "Non mi immaginavo una città così grande.",
+    "definition": "Pensare a una cosa che non si vede.",
+    "page": "173-175",
+    "related": "E to imagine; F s’imaginer"
+   },
+   {
+    "id": "u2-2b-013",
+    "target": "la pioggia",
+    "translations": [
+     "der Regen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Con questa pioggia restiamo a casa.",
+    "definition": "L’acqua che cade dal cielo.",
+    "page": "173-175",
+    "related": "der Regen|||L’acqua che cade dal cielo.|Con questa pioggia restiamo a casa.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-2b-014",
+    "target": "poiché",
+    "translations": [
+     "da",
+     "weil"
+    ],
+    "acceptedAnswers": [],
+    "example": "Poiché pioveva, abbiamo preso l’autobus.",
+    "definition": "Per il motivo che.",
+    "page": "173-175",
+    "related": "da; weil|||Per il motivo che.|Poiché pioveva, abbiamo preso l’autobus."
+   },
+   {
+    "id": "u2-2b-015",
+    "target": "a tempo pieno",
+    "translations": [
+     "in Vollzeit"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mia madre lavora a tempo pieno.",
+    "definition": "Per tutta la giornata di lavoro.",
+    "page": "173-175",
+    "related": "in Vollzeit|||Per tutta la giornata di lavoro.|Mia madre lavora a tempo pieno."
+   },
+   {
+    "id": "u2-2b-016",
+    "target": "presente",
+    "translations": [
+     "anwesend"
+    ],
+    "acceptedAnswers": [],
+    "example": "Oggi tutti gli studenti sono presenti.",
+    "definition": "Che è nel posto, non assente.",
+    "page": "173-175",
+    "related": "anwesend|||Che è nel posto, non assente.|Oggi tutti gli studenti sono presenti."
+   },
+   {
+    "id": "u2-2b-017",
+    "target": "a mano",
+    "translations": [
+     "von Hand"
+    ],
+    "acceptedAnswers": [],
+    "example": "La nonna fa la pasta a mano.",
+    "definition": "Senza macchine, con le mani.",
+    "page": "173-175",
+    "related": "von Hand|||Senza macchine, con le mani.|La nonna fa la pasta a mano."
+   },
+   {
+    "id": "u2-2b-018",
+    "target": "la pantofola",
+    "translations": [
+     "der Hausschuh",
+     "der Pantoffel"
+    ],
+    "acceptedAnswers": [],
+    "example": "In Germania molti mettono le pantofole in casa.",
+    "definition": "Una scarpa morbida da usare in casa.",
+    "page": "173-175",
+    "related": "der Hausschuh; der Pantoffel|||Una scarpa morbida da usare in casa.|In Germania molti mettono le pantofole in casa.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-2b-019",
+    "target": "abituarsi",
+    "translations": [
+     "sich gewöhnen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mi sono abituato presto al freddo.",
+    "definition": "Fare diventare normale una cosa nuova.",
+    "page": "173-175",
+    "related": "F s’habituer"
+   },
+   {
+    "id": "u2-2b-020",
+    "target": "notare",
+    "translations": [
+     "bemerken"
+    ],
+    "acceptedAnswers": [],
+    "example": "Hai notato il nuovo taglio di capelli di Sara?",
+    "definition": "Vedere, accorgersi di una cosa.",
+    "page": "173-175",
+    "related": "E to notice; F noter"
+   },
+   {
+    "id": "u2-2b-021",
+    "target": "pure",
+    "translations": [
+     "auch",
+     "sogar"
+    ],
+    "acceptedAnswers": [],
+    "example": "È venuto pure il nonno.",
+    "definition": "Anche.",
+    "page": "173-175",
+    "related": "auch; sogar|||Anche.|È venuto pure il nonno."
+   },
+   {
+    "id": "u2-2b-022",
+    "target": "confermare",
+    "translations": [
+     "bestätigen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ti confermo che domani vengo.",
+    "definition": "Dire che una cosa è vera o sicura.",
+    "page": "173-175",
+    "related": "E to confirm; F confirmer"
+   },
+   {
+    "id": "u2-2b-023",
+    "target": "fare amicizia",
+    "translations": [
+     "Freundschaft schließen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ad Amburgo ho fatto amicizia con due ragazzi.",
+    "definition": "Diventare amici.",
+    "page": "173-175",
+    "related": "Freundschaft schließen|||Diventare amici.|Ad Amburgo ho fatto amicizia con due ragazzi."
+   },
+   {
+    "id": "u2-2b-024",
+    "target": "il/la svedese",
+    "translations": [
+     "der Schwede",
+     "die Schwedin"
+    ],
+    "acceptedAnswers": [],
+    "example": "Nella mia classe c’era una svedese simpatica.",
+    "definition": "Una persona della Svezia.",
+    "page": "173-175",
+    "related": "der Schwede; die Schwedin|||Una persona della Svezia.|Nella mia classe c’era una svedese simpatica."
+   },
+   {
+    "id": "u2-2b-025",
+    "target": "il/la giapponese",
+    "translations": [
+     "der/die Japaner/in"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il mio vicino è giapponese.",
+    "definition": "Una persona del Giappone.",
+    "page": "173-175",
+    "related": "der/die Japaner/in|||Una persona del Giappone.|Il mio vicino è giapponese."
+   },
+   {
+    "id": "u2-2b-026",
+    "target": "riuscirci",
+    "translations": [
+     "etw. schaffen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ho provato tante volte e alla fine ci sono riuscito.",
+    "definition": "Essere capaci di fare una cosa.",
+    "page": "173-175",
+    "related": "etw. schaffen|||Essere capaci di fare una cosa.|Ho provato tante volte e alla fine ci sono riuscito."
+   },
+   {
+    "id": "u2-2b-027",
+    "target": "il mare del Nord",
+    "translations": [
+     "die Nordsee"
+    ],
+    "acceptedAnswers": [],
+    "example": "D’estate siamo andati al mare del Nord.",
+    "definition": "Il mare al nord della Germania.",
+    "page": "173-175",
+    "related": "die Nordsee|||Il mare al nord della Germania.|D’estate siamo andati al mare del Nord.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-2b-028",
+    "target": "talmente",
+    "translations": [
+     "so",
+     "derart"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ero talmente stanco che mi sono addormentato.",
+    "definition": "In modo così forte.",
+    "page": "173-175",
+    "related": "so; derart|||In modo così forte.|Ero talmente stanco che mi sono addormentato."
+   },
+   {
+    "id": "u2-2b-029",
+    "target": "mettersi al riparo",
+    "translations": [
+     "Schutz suchen",
+     "sich schützen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Quando ha cominciato a piovere ci siamo messi al riparo.",
+    "definition": "Andare in un posto dove non ci sono pericoli.",
+    "page": "173-175",
+    "related": "Schutz suchen; sich schützen|||Andare in un posto dove non ci sono pericoli.|Quando ha cominciato a piovere ci siamo messi al riparo."
+   },
+   {
+    "id": "u2-2b-030",
+    "target": "la poltrona da spiaggia",
+    "translations": [
+     "der Strandkorb"
+    ],
+    "acceptedAnswers": [],
+    "example": "Al mare del Nord ci sono tante poltrone da spiaggia.",
+    "definition": "Una grande sedia per la spiaggia che protegge dal vento.",
+    "page": "173-175",
+    "related": "der Strandkorb|||Una grande sedia per la spiaggia che protegge dal vento.|Al mare del Nord ci sono tante poltrone da spiaggia.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-2b-031",
+    "target": "assomigliare a qn/qs",
+    "translations": [
+     "jdm/etw. ähnlich sehen"
+    ],
+    "acceptedAnswers": [
+     "assomigliare a"
+    ],
+    "example": "Assomigli molto a tuo padre.",
+    "definition": "Essere simile a qualcuno.",
+    "page": "173-175",
+    "related": "jdm/etw. ähnlich sehen|||Essere simile a qualcuno.|Assomigli molto a tuo padre."
+   },
+   {
+    "id": "u2-2b-032",
+    "target": "rigido/-a",
+    "translations": [
+     "steif",
+     "starr"
+    ],
+    "acceptedAnswers": [],
+    "example": "Le regole di questa scuola sono rigide.",
+    "definition": "Duro, che non si piega; anche: severo.",
+    "page": "173-175",
+    "related": "F rigide"
+   },
+   {
+    "id": "u2-2b-033",
+    "target": "rientrare",
+    "translations": [
+     "zurückkehren"
+    ],
+    "acceptedAnswers": [],
+    "example": "Siamo rientrati in Italia ieri sera.",
+    "definition": "Tornare a casa o nel proprio paese.",
+    "page": "173-175",
+    "related": "zurückkehren|||Tornare a casa o nel proprio paese.|Siamo rientrati in Italia ieri sera."
+   },
+   {
+    "id": "u2-2b-034",
+    "target": "accrescere",
+    "translations": [
+     "erweitern",
+     "vergrößern"
+    ],
+    "acceptedAnswers": [],
+    "example": "Un anno all’estero accresce le tue competenze.",
+    "definition": "Fare diventare più grande.",
+    "usage": "p.p. accresciuto",
+    "page": "173-175",
+    "related": "erweitern; vergrößern|p.p. accresciuto||Fare diventare più grande.|Un anno all’estero accresce le tue competenze."
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco3-u2-approccio",
+  "title": "Ecco più 3 · Unità 2 · Approccio",
+  "language": "it",
+  "level": "B1",
+  "description": "Wortschatz zu „Ampliare gli orizzonti“ aus Ecco più 3 (Unità 2, Approccio).",
+  "topics": [
+   "Medien",
+   "Internet",
+   "Einkaufen"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 171 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "3",
+    "unit": "Unità 2",
+    "section": "Approccio",
+    "pages": "171"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "themes": [
+    "Medien",
+    "Internet",
+    "Einkaufen"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 3 (Cornelsen)",
+  "section": "Unità 2 · Approccio",
+  "entries": [
+   {
+    "id": "u2-approccio-001",
+    "target": "la fonte",
+    "translations": [
+     "die Quelle"
+    ],
+    "acceptedAnswers": [],
+    "example": "Devi sempre controllare la fonte di una notizia.",
+    "definition": "Il posto da cui viene un’informazione o l’acqua.",
+    "page": "171",
+    "related": "L fons",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-approccio-002",
+    "target": "incompleto/-a",
+    "translations": [
+     "unvollständig"
+    ],
+    "acceptedAnswers": [],
+    "example": "La tua risposta è incompleta.",
+    "definition": "A cui manca una parte.",
+    "page": "171",
+    "related": "E incomplete; F incomplet(-ète)"
+   },
+   {
+    "id": "u2-approccio-003",
+    "target": "scorretto/-a",
+    "translations": [
+     "falsch",
+     "fehlerhaft"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questa informazione è scorretta.",
+    "definition": "Che non è giusto.",
+    "page": "171",
+    "synonyms": "falso/-a",
+    "antonyms": "corretto"
+   },
+   {
+    "id": "u2-approccio-004",
+    "target": "complicato/-a",
+    "translations": [
+     "kompliziert"
+    ],
+    "acceptedAnswers": [],
+    "example": "Le regole di questo gioco sono complicate.",
+    "definition": "Difficile da capire.",
+    "page": "171",
+    "related": "E complicated; F compliqué(e)"
+   },
+   {
+    "id": "u2-approccio-005",
+    "target": "il materiale",
+    "translations": [
+     "das Material"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ho tutto il materiale per la presentazione.",
+    "definition": "Le cose che servono per un lavoro.",
+    "page": "171",
+    "related": "E material",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-approccio-006",
+    "target": "lo svantaggio",
+    "translations": [
+     "der Nachteil"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abitare in campagna ha anche degli svantaggi.",
+    "definition": "Un aspetto negativo.",
+    "usage": "pl. gli svantaggi",
+    "page": "171",
+    "related": "E disadvantage; F désavantage",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "lo"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-approccio-007",
+    "target": "esigente",
+    "translations": [
+     "anspruchsvoll",
+     "fordernd"
+    ],
+    "acceptedAnswers": [],
+    "example": "La nostra prof di matematica è molto esigente.",
+    "definition": "Che vuole sempre il massimo.",
+    "page": "171",
+    "related": "E exigent; F exigeant(e)"
+   },
+   {
+    "id": "u2-approccio-008",
+    "target": "l’abbonamento",
+    "translations": [
+     "das Abonnement"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ho un abbonamento per lo streaming di musica.",
+    "definition": "Un contratto per usare un servizio per un certo tempo.",
+    "page": "171",
+    "related": "das Abonnement|||Un contratto per usare un servizio per un certo tempo.|Ho un abbonamento per lo streaming di musica."
+   },
+   {
+    "id": "u2-approccio-009",
+    "target": "ormai",
+    "translations": [
+     "jetzt",
+     "nunmehr"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ormai è tardi, andiamo a dormire.",
+    "definition": "A questo punto, adesso.",
+    "page": "171",
+    "related": "jetzt; nunmehr|||A questo punto, adesso.|Ormai è tardi, andiamo a dormire."
+   },
+   {
+    "id": "u2-approccio-010",
+    "target": "pratico che",
+    "translations": [
+     "praktisch, dass"
+    ],
+    "acceptedAnswers": [],
+    "example": "È pratico che il supermercato sia vicino a casa.",
+    "definition": "Comodo che.",
+    "usage": "+ cong.",
+    "page": "171",
+    "related": "praktisch, dass|+ cong.||Comodo che.|È pratico che il supermercato sia vicino a casa."
+   },
+   {
+    "id": "u2-approccio-011",
+    "target": "il divano",
+    "translations": [
+     "das Sofa",
+     "die Couch"
+    ],
+    "acceptedAnswers": [],
+    "example": "La sera guardo le serie sul divano.",
+    "definition": "Un posto comodo per sedersi in salotto.",
+    "page": "171",
+    "related": "das Sofa; die Couch|||Un posto comodo per sedersi in salotto.|La sera guardo le serie sul divano.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-approccio-012",
+    "target": "ordinare",
+    "translations": [
+     "bestellen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abbiamo ordinato due pizze.",
+    "definition": "Chiedere di portare o mandare una cosa.",
+    "page": "171",
+    "family": "l’ordine"
+   },
+   {
+    "id": "u2-approccio-013",
+    "target": "l’articolo",
+    "translations": [
+     "der (Waren-)Artikel"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questo articolo è in offerta.",
+    "definition": "Una cosa che si vende in un negozio.",
+    "page": "171",
+    "related": "E article; F article"
+   },
+   {
+    "id": "u2-approccio-014",
+    "target": "indietro",
+    "translations": [
+     "zurück"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mi ha dato indietro il libro.",
+    "definition": "Verso il punto da cui si è partiti.",
+    "usage": "avv.",
+    "page": "171",
+    "related": "zurück|avv.||Verso il punto da cui si è partiti.|Mi ha dato indietro il libro."
+   },
+   {
+    "id": "u2-approccio-015",
+    "target": "farcela",
+    "translations": [
+     "es schaffen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ce la faccio a finire i compiti prima di cena.",
+    "definition": "Riuscire a fare una cosa difficile.",
+    "usage": "ce la faccio, ce la fai …",
+    "page": "171",
+    "family": "fare"
+   },
+   {
+    "id": "u2-approccio-016",
+    "target": "il vantaggio",
+    "translations": [
+     "der Vorteil"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il vantaggio della bici è che non inquina.",
+    "definition": "Un aspetto positivo.",
+    "page": "171",
+    "related": "E advantage; F avantage",
+    "antonyms": "lo svantaggio",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-approccio-017",
+    "target": "risparmiare",
+    "translations": [
+     "sparen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Risparmio per comprare una chitarra.",
+    "definition": "Non spendere soldi per averne di più dopo.",
+    "page": "171",
+    "related": "sparen|||Non spendere soldi per averne di più dopo.|Risparmio per comprare una chitarra."
+   },
+   {
+    "id": "u2-approccio-018",
+    "target": "l’acquisto",
+    "translations": [
+     "der (Ein-)Kauf"
+    ],
+    "acceptedAnswers": [],
+    "example": "Le scarpe nuove sono stato un buon acquisto.",
+    "definition": "Una cosa che hai comprato.",
+    "page": "171",
+    "family": "acquistare"
+   },
+   {
+    "id": "u2-approccio-019",
+    "target": "privato/-a",
+    "translations": [
+     "privat"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questa è una spiaggia privata.",
+    "definition": "Di una sola persona, non di tutti.",
+    "page": "171",
+    "antonyms": "pubblico/-a"
+   },
+   {
+    "id": "u2-approccio-020",
+    "target": "da una parte … dall’altra parte …",
+    "translations": [
+     "auf der einen Seite … auf der anderen Seite …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Da una parte internet è utile, dall’altra parte è pericoloso.",
+    "definition": "Si usa per presentare due aspetti diversi.",
+    "page": "171",
+    "related": "auf der einen Seite … auf der anderen Seite …|||Si usa per presentare due aspetti diversi.|Da una parte internet è utile, dall’altra parte è pericoloso."
+   },
+   {
+    "id": "u2-approccio-021",
+    "target": "scambiare",
+    "translations": [
+     "austauschen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ci scambiamo le figurine.",
+    "definition": "Dare una cosa e riceverne un’altra.",
+    "page": "171",
+    "family": "cambiare"
+   },
+   {
+    "id": "u2-approccio-022",
+    "target": "il contenuto",
+    "translations": [
+     "der Inhalt"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il contenuto del video è interessante.",
+    "definition": "Quello che c’è dentro.",
+    "page": "171",
+    "related": "E content; F contenu",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-approccio-023",
+    "target": "la risposta",
+    "translations": [
+     "die Antwort"
+    ],
+    "acceptedAnswers": [],
+    "example": "Aspetto ancora la tua risposta.",
+    "definition": "Quello che dici dopo una domanda.",
+    "page": "171",
+    "antonyms": "la domanda",
+    "family": "rispondere",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-approccio-024",
+    "target": "il post",
+    "translations": [
+     "der Beitrag",
+     "der Post"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il suo ultimo post ha tanti like.",
+    "definition": "Un messaggio pubblicato sui social.",
+    "usage": "online, pl. i post",
+    "page": "171",
+    "related": "E post",
+    "family": "postare",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u2-approccio-025",
+    "target": "godersi qs",
+    "translations": [
+     "etw. genießen"
+    ],
+    "acceptedAnswers": [
+     "godersi"
+    ],
+    "example": "Mi godo le vacanze al mare.",
+    "definition": "Trovare piacere in una cosa.",
+    "page": "171",
+    "related": "etw. genießen|||Trovare piacere in una cosa.|Mi godo le vacanze al mare."
+   },
+   {
+    "id": "u2-approccio-026",
+    "target": "né … né",
+    "translations": [
+     "weder … noch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non mi piace né il pesce né la carne.",
+    "definition": "Non questo e non quello.",
+    "page": "171",
+    "related": "weder … noch|||Non questo e non quello.|Non mi piace né il pesce né la carne."
+   },
+   {
+    "id": "u2-approccio-027",
+    "target": "magari",
+    "translations": [
+     "vielleicht"
+    ],
+    "acceptedAnswers": [],
+    "example": "Magari domani andiamo al cinema.",
+    "definition": "Forse, chissà.",
+    "page": "171",
+    "synonyms": "forse"
+   },
+   {
+    "id": "u2-approccio-028",
+    "target": "il divertimento",
+    "translations": [
+     "der Spaß"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il divertimento è assicurato!",
+    "definition": "Una cosa che piace e fa ridere.",
+    "page": "171",
+    "family": "divertirsi",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco3-u2-per-comunicare",
+  "title": "Ecco più 3 · Unità 2 · Per comunicare",
+  "language": "it",
+  "level": "B1",
+  "description": "Wortschatz zu „Vor- und Nachteile, Mediennutzung, Erlebnisse“ aus Ecco più 3 (Unità 2, Per comunicare).",
+  "topics": [
+   "Redemittel",
+   "Medien",
+   "Argumentieren"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 175 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "3",
+    "unit": "Unità 2",
+    "section": "Per comunicare",
+    "pages": "175"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "themes": [
+    "Redemittel",
+    "Medien",
+    "Argumentieren"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 3 (Cornelsen)",
+  "section": "Unità 2 · Per comunicare",
+  "entries": [
+   {
+    "id": "u2-per-comunicare-001",
+    "target": "anche se",
+    "translations": [
+     "auch wenn",
+     "obwohl"
+    ],
+    "acceptedAnswers": [],
+    "example": "Trovo tutto online, anche se non tutte le fonti sono utili.",
+    "definition": "Si usa per dire un limite o un contrasto.",
+    "page": "175",
+    "related": "auch wenn; obwohl|||Si usa per dire un limite o un contrasto.|Trovo tutto online, anche se non tutte le fonti sono utili."
+   },
+   {
+    "id": "u2-per-comunicare-002",
+    "target": "Lo svantaggio è che …",
+    "translations": [
+     "Der Nachteil ist, dass …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Lo svantaggio è che si passa troppo tempo al telefono.",
+    "definition": "Si usa per presentare un aspetto negativo.",
+    "page": "175",
+    "related": "Der Nachteil ist, dass …|||Si usa per presentare un aspetto negativo.|Lo svantaggio è che si passa troppo tempo al telefono."
+   },
+   {
+    "id": "u2-per-comunicare-003",
+    "target": "Il vantaggio è che …",
+    "translations": [
+     "Der Vorteil ist, dass …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il vantaggio è che si risparmia tempo.",
+    "definition": "Si usa per presentare un aspetto positivo.",
+    "page": "175",
+    "related": "Der Vorteil ist, dass …|||Si usa per presentare un aspetto positivo.|Il vantaggio è che si risparmia tempo."
+   },
+   {
+    "id": "u2-per-comunicare-004",
+    "target": "È così pratico …",
+    "translations": [
+     "Es ist so praktisch …"
+    ],
+    "acceptedAnswers": [],
+    "example": "È così pratico fare la spesa online.",
+    "definition": "Si usa per dire che una cosa è comoda.",
+    "page": "175",
+    "related": "Es ist so praktisch …|||Si usa per dire che una cosa è comoda.|È così pratico fare la spesa online."
+   },
+   {
+    "id": "u2-per-comunicare-005",
+    "target": "Se non ci fosse Internet, …",
+    "translations": [
+     "Wenn es das Internet nicht gäbe, …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Se non ci fosse Internet, sarebbe tutto più complicato.",
+    "definition": "Si usa per immaginare una situazione diversa.",
+    "usage": "+ condizionale",
+    "page": "175",
+    "related": "Wenn es das Internet nicht gäbe, …|+ condizionale||Si usa per immaginare una situazione diversa.|Se non ci fosse Internet, sarebbe tutto più complicato."
+   },
+   {
+    "id": "u2-per-comunicare-006",
+    "target": "Se non ci vedessi un senso, non lo farei.",
+    "translations": [
+     "Wenn ich keinen Sinn darin sähe, würde ich es nicht tun."
+    ],
+    "acceptedAnswers": [],
+    "example": "Se non ci vedessi un senso, non lo farei mai.",
+    "definition": "Si usa per formulare una condizione.",
+    "page": "175",
+    "related": "Wenn ich keinen Sinn darin sähe, würde ich es nicht tun.|||Si usa per formulare una condizione.|Se non ci vedessi un senso, non lo farei mai."
+   },
+   {
+    "id": "u2-per-comunicare-007",
+    "target": "La prima cosa che ho notato …",
+    "translations": [
+     "Das Erste, was mir aufgefallen ist …"
+    ],
+    "acceptedAnswers": [],
+    "example": "La prima cosa che ho notato erano le tante biciclette.",
+    "definition": "Si usa per raccontare un’impressione.",
+    "page": "175",
+    "related": "Das Erste, was mir aufgefallen ist …|||Si usa per raccontare un’impressione.|La prima cosa che ho notato erano le tante biciclette."
+   },
+   {
+    "id": "u2-per-comunicare-008",
+    "target": "All’inizio non ci potevo credere.",
+    "translations": [
+     "Anfangs konnte ich es nicht glauben."
+    ],
+    "acceptedAnswers": [],
+    "example": "All’inizio non ci potevo credere: la scuola finiva alle tre!",
+    "definition": "Si usa per dire che una cosa ti ha sorpreso molto.",
+    "page": "175",
+    "related": "Anfangs konnte ich es nicht glauben.|||Si usa per dire che una cosa ti ha sorpreso molto.|All’inizio non ci potevo credere: la scuola finiva alle tre!"
+   },
+   {
+    "id": "u2-per-comunicare-009",
+    "target": "È stata anche un’avventura …",
+    "translations": [
+     "Es war auch ein Abenteuer …"
+    ],
+    "acceptedAnswers": [],
+    "example": "È stata anche un’avventura vedere il mare del Nord.",
+    "definition": "Si usa per raccontare un’esperienza speciale.",
+    "page": "175",
+    "related": "Es war auch ein Abenteuer …|||Si usa per raccontare un’esperienza speciale.|È stata anche un’avventura vedere il mare del Nord."
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco3-u3-3a",
+  "title": "Ecco più 3 · Unità 3 · 3A Tre settimane ad Amatrice",
+  "language": "it",
+  "level": "B1",
+  "description": "Wortschatz zu „Drei Wochen in Amatrice“ aus Ecco più 3 (Unità 3, 3A Tre settimane ad Amatrice).",
+  "topics": [
+   "Erdbeben",
+   "Hilfe",
+   "Freiwillige"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 177-178 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "3",
+    "unit": "Unità 3",
+    "section": "3A Tre settimane ad Amatrice",
+    "pages": "177-178"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "themes": [
+    "Erdbeben",
+    "Hilfe",
+    "Freiwillige"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 3 (Cornelsen)",
+  "section": "Unità 3 · 3A Tre settimane ad Amatrice",
+  "entries": [
+   {
+    "id": "u3-3a-001",
+    "target": "l’orrore",
+    "translations": [
+     "das Grauen",
+     "der Schrecken"
+    ],
+    "acceptedAnswers": [],
+    "example": "Che orrore vedere le case distrutte!",
+    "definition": "Una paura fortissima davanti a una cosa terribile.",
+    "usage": "m.",
+    "page": "177-178",
+    "related": "E horror; F horreur"
+   },
+   {
+    "id": "u3-3a-002",
+    "target": "completo/-a",
+    "translations": [
+     "komplett"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abbiamo dovuto rifare completamente la stanza.",
+    "definition": "Intero, a cui non manca niente.",
+    "page": "177-178",
+    "related": "komplett|||Intero, a cui non manca niente.|Abbiamo dovuto rifare completamente la stanza."
+   },
+   {
+    "id": "u3-3a-003",
+    "target": "distrutto/-a",
+    "translations": [
+     "zerstört"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dopo il terremoto la chiesa era distrutta.",
+    "definition": "Rotto del tutto.",
+    "page": "177-178",
+    "related": "E destroyed; F détruit/-e"
+   },
+   {
+    "id": "u3-3a-004",
+    "target": "disperato/-a",
+    "translations": [
+     "verzweifelt"
+    ],
+    "acceptedAnswers": [],
+    "example": "Era disperato perché aveva perso tutto.",
+    "definition": "Senza speranza.",
+    "page": "177-178",
+    "related": "E desperate; F désespéré(e)"
+   },
+   {
+    "id": "u3-3a-005",
+    "target": "recuperare",
+    "translations": [
+     "retten",
+     "sicherstellen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Sono riuscito a recuperare le foto dal vecchio telefono.",
+    "definition": "Riuscire a riavere una cosa persa.",
+    "page": "177-178",
+    "related": "retten; sicherstellen|||Riuscire a riavere una cosa persa.|Sono riuscito a recuperare le foto dal vecchio telefono."
+   },
+   {
+    "id": "u3-3a-006",
+    "target": "le macerie",
+    "translations": [
+     "die Trümmer"
+    ],
+    "acceptedAnswers": [],
+    "example": "I volontari cercano tra le macerie.",
+    "definition": "Quello che resta di un edificio crollato.",
+    "usage": "nur pl.",
+    "page": "177-178",
+    "related": "die Trümmer|nur pl.||Quello che resta di un edificio crollato.|I volontari cercano tra le macerie.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "le"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3a-007",
+    "target": "intervenire",
+    "translations": [
+     "einschreiten"
+    ],
+    "acceptedAnswers": [],
+    "example": "I pompieri sono intervenuti subito.",
+    "definition": "Entrare in azione per aiutare o fermare.",
+    "usage": "(intervengo)",
+    "page": "177-178",
+    "related": "E intervene",
+    "family": "venire"
+   },
+   {
+    "id": "u3-3a-008",
+    "target": "il sisma",
+    "translations": [
+     "das Erdbeben"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il sisma ha colpito tutto il centro Italia.",
+    "definition": "Un altro modo per dire terremoto.",
+    "usage": "pl. i sismi",
+    "page": "177-178",
+    "related": "das Erdbeben|pl. i sismi||Un altro modo per dire terremoto.|Il sisma ha colpito tutto il centro Italia.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3a-009",
+    "target": "la destinazione",
+    "translations": [
+     "der Zielort"
+    ],
+    "acceptedAnswers": [],
+    "example": "Qual è la destinazione del vostro viaggio?",
+    "definition": "Il posto dove si va.",
+    "page": "177-178",
+    "related": "E destination; F destination",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3a-010",
+    "target": "emozionato/-a",
+    "translations": [
+     "aufgeregt",
+     "gerührt"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ero molto emozionato prima del concerto.",
+    "definition": "Pieno di emozione.",
+    "page": "177-178",
+    "related": "aufgeregt; gerührt|||Pieno di emozione.|Ero molto emozionato prima del concerto."
+   },
+   {
+    "id": "u3-3a-011",
+    "target": "il disastro",
+    "translations": [
+     "das Unglück"
+    ],
+    "acceptedAnswers": [],
+    "example": "L’alluvione è stata un disastro per la città.",
+    "definition": "Un fatto terribile con molti danni.",
+    "page": "177-178",
+    "related": "E disaster",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3a-012",
+    "target": "agghiacciante",
+    "translations": [
+     "entsetzlich"
+    ],
+    "acceptedAnswers": [],
+    "example": "In tv hanno mostrato immagini agghiaccianti.",
+    "definition": "Che fa paura e orrore.",
+    "page": "177-178",
+    "related": "entsetzlich|||Che fa paura e orrore.|In tv hanno mostrato immagini agghiaccianti."
+   },
+   {
+    "id": "u3-3a-013",
+    "target": "la rovina",
+    "translations": [
+     "die Ruine",
+     "der Trümmerhaufen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Tra le rovine abbiamo trovato una vecchia foto.",
+    "definition": "Quello che resta di un edificio distrutto.",
+    "page": "177-178",
+    "related": "die Ruine; der Trümmerhaufen|||Quello che resta di un edificio distrutto.|Tra le rovine abbiamo trovato una vecchia foto.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3a-014",
+    "target": "fare conoscere qn",
+    "translations": [
+     "jdn vorstellen"
+    ],
+    "acceptedAnswers": [
+     "fare conoscere"
+    ],
+    "example": "Ti faccio conoscere la mia migliore amica.",
+    "definition": "Presentare una persona a un’altra.",
+    "page": "177-178",
+    "related": "jdn vorstellen|||Presentare una persona a un’altra.|Ti faccio conoscere la mia migliore amica."
+   },
+   {
+    "id": "u3-3a-015",
+    "target": "la classe",
+    "translations": [
+     "der Jahrgang"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mio nonno è della classe 1950.",
+    "definition": "Le persone nate nello stesso anno.",
+    "usage": "hier",
+    "page": "177-178",
+    "related": "der Jahrgang|hier||Le persone nate nello stesso anno.|Mio nonno è della classe 1950.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3a-016",
+    "target": "il cane",
+    "translations": [
+     "der Hund"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ogni sera porto fuori il cane.",
+    "definition": "Un animale domestico che abbaia.",
+    "page": "177-178",
+    "related": "der Hund|||Un animale domestico che abbaia.|Ogni sera porto fuori il cane.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3a-017",
+    "target": "abbaiare",
+    "translations": [
+     "bellen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il cane abbaia quando suona il campanello.",
+    "definition": "Fare il verso del cane.",
+    "page": "177-178",
+    "related": "bellen|||Fare il verso del cane.|Il cane abbaia quando suona il campanello."
+   },
+   {
+    "id": "u3-3a-018",
+    "target": "pazzo/-a",
+    "translations": [
+     "verrückt"
+    ],
+    "acceptedAnswers": [],
+    "example": "Sei pazzo a uscire con questo freddo!",
+    "definition": "Che non ragiona; anche: esagerato.",
+    "page": "177-178",
+    "related": "verrückt|||Che non ragiona; anche: esagerato.|Sei pazzo a uscire con questo freddo!"
+   },
+   {
+    "id": "u3-3a-019",
+    "target": "scappare",
+    "translations": [
+     "flüchten",
+     "entkommen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il gatto è scappato dalla finestra.",
+    "definition": "Correre via da un pericolo.",
+    "page": "177-178",
+    "related": "E to escape"
+   },
+   {
+    "id": "u3-3a-020",
+    "target": "stare per",
+    "translations": [
+     "kurz davor sein, etw. zu tun"
+    ],
+    "acceptedAnswers": [],
+    "example": "Stavo per uscire quando hai chiamato.",
+    "definition": "Essere sul punto di fare una cosa.",
+    "usage": "+ inf.",
+    "page": "177-178",
+    "related": "kurz davor sein, etw. zu tun|+ inf.||Essere sul punto di fare una cosa.|Stavo per uscire quando hai chiamato."
+   },
+   {
+    "id": "u3-3a-021",
+    "target": "crollare",
+    "translations": [
+     "einstürzen",
+     "zusammenbrechen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Durante il terremoto è crollato il campanile.",
+    "definition": "Cadere giù, rompersi.",
+    "page": "177-178",
+    "related": "einstürzen; zusammenbrechen|||Cadere giù, rompersi.|Durante il terremoto è crollato il campanile."
+   },
+   {
+    "id": "u3-3a-022",
+    "target": "allontanarsi",
+    "translations": [
+     "sich entfernen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non allontanatevi dal gruppo!",
+    "definition": "Andare lontano da un posto.",
+    "page": "177-178",
+    "related": "sich entfernen|||Andare lontano da un posto.|Non allontanatevi dal gruppo!"
+   },
+   {
+    "id": "u3-3a-023",
+    "target": "a dir poco",
+    "translations": [
+     "mindestens",
+     "gelinde gesagt"
+    ],
+    "acceptedAnswers": [],
+    "example": "È stata una giornata a dir poco difficile.",
+    "definition": "Per non esagerare; in realtà era ancora di più.",
+    "usage": "hier: gelinde gesagt",
+    "page": "177-178",
+    "related": "mindestens; gelinde gesagt|hier: gelinde gesagt||Per non esagerare; in realtà era ancora di più.|È stata una giornata a dir poco difficile."
+   },
+   {
+    "id": "u3-3a-024",
+    "target": "tremendo/-a",
+    "translations": [
+     "entsetzlich"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ho un mal di testa tremendo.",
+    "definition": "Terribile.",
+    "page": "177-178",
+    "related": "entsetzlich|||Terribile.|Ho un mal di testa tremendo."
+   },
+   {
+    "id": "u3-3a-025",
+    "target": "triste",
+    "translations": [
+     "traurig"
+    ],
+    "acceptedAnswers": [],
+    "example": "Sono triste perché la mia amica si trasferisce.",
+    "definition": "Che non è felice.",
+    "page": "177-178",
+    "related": "F triste; L tristis"
+   },
+   {
+    "id": "u3-3a-026",
+    "target": "farsi una ragione di qs",
+    "translations": [
+     "sich mit etw. abfinden"
+    ],
+    "acceptedAnswers": [
+     "farsi una ragione di"
+    ],
+    "example": "Devi farti una ragione del brutto voto.",
+    "definition": "Accettare una cosa che non si può cambiare.",
+    "page": "177-178",
+    "related": "sich mit etw. abfinden|||Accettare una cosa che non si può cambiare.|Devi farti una ragione del brutto voto."
+   },
+   {
+    "id": "u3-3a-027",
+    "target": "andare a trovare qn",
+    "translations": [
+     "jdn besuchen"
+    ],
+    "acceptedAnswers": [
+     "andare a trovare"
+    ],
+    "example": "Domenica vado a trovare la nonna.",
+    "definition": "Visitare una persona.",
+    "page": "177-178",
+    "related": "jdn besuchen|||Visitare una persona.|Domenica vado a trovare la nonna."
+   },
+   {
+    "id": "u3-3a-028",
+    "target": "probabile",
+    "translations": [
+     "wahrscheinlich"
+    ],
+    "acceptedAnswers": [],
+    "example": "È probabile che domani piova.",
+    "definition": "Che succederà quasi sicuramente.",
+    "page": "177-178",
+    "related": "E probable; F probable"
+   },
+   {
+    "id": "u3-3a-029",
+    "target": "morire",
+    "translations": [
+     "sterben"
+    ],
+    "acceptedAnswers": [],
+    "example": "Purtroppo il mio gatto è morto la settimana scorsa.",
+    "definition": "Finire di vivere.",
+    "usage": "p.p. morto",
+    "page": "177-178",
+    "related": "F mourir; L mori"
+   },
+   {
+    "id": "u3-3a-030",
+    "target": "morto/-a",
+    "translations": [
+     "tot"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abbiamo trovato un uccello morto in giardino.",
+    "definition": "Che non vive più.",
+    "page": "177-178",
+    "related": "F mort(e)"
+   },
+   {
+    "id": "u3-3a-031",
+    "target": "salvare",
+    "translations": [
+     "retten",
+     "in Sicherheit bringen"
+    ],
+    "acceptedAnswers": [],
+    "example": "I pompieri hanno salvato una famiglia.",
+    "definition": "Portare fuori da un pericolo.",
+    "page": "177-178",
+    "related": "E to save; F sauver"
+   },
+   {
+    "id": "u3-3a-032",
+    "target": "la lista",
+    "translations": [
+     "die Liste"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ho fatto una lista delle cose da comprare.",
+    "definition": "Un elenco di cose scritte una sotto l’altra.",
+    "page": "177-178",
+    "related": "die Liste|||Un elenco di cose scritte una sotto l’altra.|Ho fatto una lista delle cose da comprare.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3a-033",
+    "target": "il/la superstite",
+    "translations": [
+     "der/die Überlebende"
+    ],
+    "acceptedAnswers": [],
+    "example": "I superstiti del terremoto vivono nelle tende.",
+    "definition": "Una persona che è rimasta viva dopo un disastro.",
+    "page": "177-178",
+    "related": "der/die Überlebende|||Una persona che è rimasta viva dopo un disastro.|I superstiti del terremoto vivono nelle tende."
+   },
+   {
+    "id": "u3-3a-034",
+    "target": "l’ospedale",
+    "translations": [
+     "das Krankenhaus"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mia zia lavora in ospedale.",
+    "definition": "Il posto dove si curano i malati.",
+    "usage": "m.",
+    "page": "177-178",
+    "related": "E hospital; F hôpital"
+   },
+   {
+    "id": "u3-3a-035",
+    "target": "abbracciare",
+    "translations": [
+     "umarmen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ho abbracciato forte mia madre.",
+    "definition": "Stringere qualcuno tra le braccia.",
+    "page": "177-178",
+    "related": "umarmen|||Stringere qualcuno tra le braccia.|Ho abbracciato forte mia madre."
+   },
+   {
+    "id": "u3-3a-036",
+    "target": "il dovere",
+    "translations": [
+     "die Verpflichtung",
+     "die Pflicht"
+    ],
+    "acceptedAnswers": [],
+    "example": "Fare i compiti è un dovere.",
+    "definition": "Quello che si deve fare.",
+    "page": "177-178",
+    "related": "die Verpflichtung; die Pflicht|||Quello che si deve fare.|Fare i compiti è un dovere.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3a-037",
+    "target": "morale",
+    "translations": [
+     "moralisch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Aiutare gli altri è un dovere morale.",
+    "definition": "Che riguarda il bene e il male.",
+    "page": "177-178",
+    "related": "moralisch|||Che riguarda il bene e il male.|Aiutare gli altri è un dovere morale."
+   },
+   {
+    "id": "u3-3a-038",
+    "target": "augurarsi che",
+    "translations": [
+     "sich wünschen",
+     "hoffen, dass"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mi auguro che tu stia meglio presto.",
+    "definition": "Sperare che succeda una cosa.",
+    "usage": "+ cong.",
+    "page": "177-178",
+    "related": "sich wünschen; hoffen, dass|+ cong.||Sperare che succeda una cosa.|Mi auguro che tu stia meglio presto."
+   },
+   {
+    "id": "u3-3a-039",
+    "target": "ritrovare",
+    "translations": [
+     "wiederfinden"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ho ritrovato il mio vecchio diario.",
+    "definition": "Trovare di nuovo una cosa persa.",
+    "page": "177-178",
+    "related": "wiederfinden|||Trovare di nuovo una cosa persa.|Ho ritrovato il mio vecchio diario."
+   },
+   {
+    "id": "u3-3a-040",
+    "target": "al più presto",
+    "translations": [
+     "so schnell wie möglich"
+    ],
+    "acceptedAnswers": [],
+    "example": "Rispondimi al più presto, per favore.",
+    "definition": "Il prima possibile.",
+    "page": "177-178",
+    "related": "so schnell wie möglich|||Il prima possibile.|Rispondimi al più presto, per favore."
+   },
+   {
+    "id": "u3-3a-041",
+    "target": "la normalità",
+    "translations": [
+     "die Normalität"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dopo il terremoto, la città torna piano piano alla normalità.",
+    "definition": "Lo stato normale delle cose.",
+    "page": "177-178",
+    "family": "normale",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3a-042",
+    "target": "Speriamo bene!",
+    "translations": [
+     "Hoffen wir das Beste!"
+    ],
+    "acceptedAnswers": [],
+    "example": "Domani ho l’esame. Speriamo bene!",
+    "definition": "Si dice quando si spera che una cosa vada bene.",
+    "page": "177-178",
+    "related": "Hoffen wir das Beste!|||Si dice quando si spera che una cosa vada bene.|Domani ho l’esame. Speriamo bene!"
+   },
+   {
+    "id": "u3-3a-043",
+    "target": "distribuire",
+    "translations": [
+     "aus-, verteilen"
+    ],
+    "acceptedAnswers": [],
+    "example": "I volontari distribuiscono acqua e cibo.",
+    "definition": "Dare una parte a ciascuno.",
+    "usage": "(-isc-)",
+    "page": "177-178",
+    "related": "E to distribute; F distribuer"
+   },
+   {
+    "id": "u3-3a-044",
+    "target": "il pasto",
+    "translations": [
+     "die Mahlzeit"
+    ],
+    "acceptedAnswers": [],
+    "example": "Facciamo tre pasti al giorno.",
+    "definition": "Il momento in cui si mangia: colazione, pranzo, cena.",
+    "page": "177-178",
+    "related": "die Mahlzeit|||Il momento in cui si mangia: colazione, pranzo, cena.|Facciamo tre pasti al giorno.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3a-045",
+    "target": "la coperta",
+    "translations": [
+     "die Decke"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mi serve una coperta, ho freddo.",
+    "definition": "Una cosa calda per coprirsi a letto.",
+    "page": "177-178",
+    "related": "die Decke|||Una cosa calda per coprirsi a letto.|Mi serve una coperta, ho freddo.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3a-046",
+    "target": "l’alloggio di emergenza",
+    "translations": [
+     "die Notunterkunft"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il comune ha preparato alloggi di emergenza.",
+    "definition": "Un posto dove dormire dopo un disastro.",
+    "page": "177-178",
+    "related": "die Notunterkunft|||Un posto dove dormire dopo un disastro.|Il comune ha preparato alloggi di emergenza."
+   },
+   {
+    "id": "u3-3a-047",
+    "target": "cogliere l’occasione",
+    "translations": [
+     "die Gelegenheit nutzen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Colgo l’occasione per ringraziarvi tutti.",
+    "definition": "Approfittare di un buon momento.",
+    "usage": "p.p. colto",
+    "page": "177-178",
+    "related": "die Gelegenheit nutzen|p.p. colto||Approfittare di un buon momento.|Colgo l’occasione per ringraziarvi tutti."
+   },
+   {
+    "id": "u3-3a-048",
+    "target": "la soddisfazione",
+    "translations": [
+     "die Zufriedenheit",
+     "die Genugtuung"
+    ],
+    "acceptedAnswers": [],
+    "example": "Che soddisfazione finire il progetto!",
+    "definition": "Il piacere di aver fatto bene una cosa.",
+    "page": "177-178",
+    "related": "E satisfaction; F satisfaction",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco3-u3-3b",
+  "title": "Ecco più 3 · Unità 3 · 3B La mia casa è qui",
+  "language": "it",
+  "level": "B1",
+  "description": "Wortschatz zu „Mein Zuhause ist hier“ aus Ecco più 3 (Unità 3, 3B La mia casa è qui).",
+  "topics": [
+   "Neapel",
+   "Heimat",
+   "Naturgefahren"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 178-180 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "3",
+    "unit": "Unità 3",
+    "section": "3B La mia casa è qui",
+    "pages": "178-180"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "themes": [
+    "Neapel",
+    "Heimat",
+    "Naturgefahren"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 3 (Cornelsen)",
+  "section": "Unità 3 · 3B La mia casa è qui",
+  "entries": [
+   {
+    "id": "u3-3b-001",
+    "target": "la bellezza",
+    "translations": [
+     "die Schönheit"
+    ],
+    "acceptedAnswers": [],
+    "example": "Napoli è famosa per la bellezza del suo golfo.",
+    "definition": "Il fatto di essere bello.",
+    "page": "178-180",
+    "related": "die Schönheit|||Il fatto di essere bello.|Napoli è famosa per la bellezza del suo golfo.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3b-002",
+    "target": "il Vesuvio",
+    "translations": [
+     "der Vesuv"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dalla finestra vedo il Vesuvio.",
+    "definition": "Il vulcano vicino a Napoli.",
+    "page": "178-180",
+    "related": "der Vesuv|||Il vulcano vicino a Napoli.|Dalla finestra vedo il Vesuvio.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3b-003",
+    "target": "addormentato/-a",
+    "translations": [
+     "schlafend"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il bambino è addormentato sul divano.",
+    "definition": "Che dorme.",
+    "page": "178-180",
+    "related": "schlafend|||Che dorme.|Il bambino è addormentato sul divano."
+   },
+   {
+    "id": "u3-3b-004",
+    "target": "l’eruzione",
+    "translations": [
+     "der Ausbruch"
+    ],
+    "acceptedAnswers": [],
+    "example": "L’ultima eruzione del Vesuvio è stata nel 1944.",
+    "definition": "Quando un vulcano butta fuori fuoco e lava.",
+    "usage": "f.",
+    "page": "178-180",
+    "related": "der Ausbruch|f.||Quando un vulcano butta fuori fuoco e lava.|L’ultima eruzione del Vesuvio è stata nel 1944."
+   },
+   {
+    "id": "u3-3b-005",
+    "target": "campanilista",
+    "translations": [
+     "lokalpatriotisch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mio nonno è molto campanilista: per lui Napoli è la città più bella.",
+    "definition": "Che ama troppo la propria città e pensa che sia la migliore.",
+    "usage": "agg.",
+    "page": "178-180",
+    "related": "lokalpatriotisch|agg.||Che ama troppo la propria città e pensa che sia la migliore.|Mio nonno è molto campanilista: per lui Napoli è la città più bella."
+   },
+   {
+    "id": "u3-3b-006",
+    "target": "il sentimento",
+    "translations": [
+     "das Gefühl",
+     "die Einstellung"
+    ],
+    "acceptedAnswers": [],
+    "example": "È un sentimento difficile da spiegare.",
+    "definition": "Quello che una persona sente o pensa.",
+    "usage": "hier: die Einstellung, Haltung",
+    "page": "178-180",
+    "related": "das Gefühl; die Einstellung|hier: die Einstellung, Haltung||Quello che una persona sente o pensa.|È un sentimento difficile da spiegare.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3b-007",
+    "target": "l’emergenza",
+    "translations": [
+     "der Notfall"
+    ],
+    "acceptedAnswers": [],
+    "example": "In caso di emergenza chiama il 112.",
+    "definition": "Una situazione di pericolo improvviso.",
+    "page": "178-180",
+    "related": "E emergency"
+   },
+   {
+    "id": "u3-3b-008",
+    "target": "oltre",
+    "translations": [
+     "über",
+     "mehr als"
+    ],
+    "acceptedAnswers": [],
+    "example": "Al concerto c’erano oltre diecimila persone.",
+    "definition": "Più di.",
+    "usage": "prep.",
+    "page": "178-180",
+    "related": "über; mehr als|prep.||Più di.|Al concerto c’erano oltre diecimila persone."
+   },
+   {
+    "id": "u3-3b-009",
+    "target": "minacciato/-a",
+    "translations": [
+     "bedroht"
+    ],
+    "acceptedAnswers": [],
+    "example": "Molte specie animali sono minacciate.",
+    "definition": "In pericolo.",
+    "page": "178-180",
+    "related": "bedroht|||In pericolo.|Molte specie animali sono minacciate."
+   },
+   {
+    "id": "u3-3b-010",
+    "target": "essere dovuto/-a a qs",
+    "translations": [
+     "durch etw. bedingt sein",
+     "verursacht sein"
+    ],
+    "acceptedAnswers": [
+     "essere dovuto/-a a"
+    ],
+    "example": "Il ritardo è dovuto al traffico.",
+    "definition": "Avere come causa.",
+    "contrast": "Devo partire presto. – Ich muss früh gehen. Ti devo 20 euro. – Ich schulde dir 20 Euro.",
+    "page": "178-180",
+    "related": "durch etw. bedingt sein; verursacht sein|Unterscheide: Devo partire presto. – Ich muss früh gehen. Ti devo 20 euro. – Ich schulde dir 20 Euro.||Avere come causa.|Il ritardo è dovuto al traffico."
+   },
+   {
+    "id": "u3-3b-011",
+    "target": "l’area",
+    "translations": [
+     "die Zone",
+     "das Gebiet"
+    ],
+    "acceptedAnswers": [],
+    "example": "Quest’area è pericolosa per le frane.",
+    "definition": "Una zona.",
+    "page": "178-180",
+    "related": "E area"
+   },
+   {
+    "id": "u3-3b-012",
+    "target": "abusivo/-a",
+    "translations": [
+     "unerlaubt",
+     "illegal"
+    ],
+    "acceptedAnswers": [],
+    "example": "Molte case abusive sono state costruite vicino al vulcano.",
+    "definition": "Fatto senza permesso.",
+    "page": "178-180",
+    "related": "unerlaubt; illegal|||Fatto senza permesso.|Molte case abusive sono state costruite vicino al vulcano."
+   },
+   {
+    "id": "u3-3b-013",
+    "target": "eppure",
+    "translations": [
+     "dennoch"
+    ],
+    "acceptedAnswers": [],
+    "example": "È pericoloso, eppure la gente ci vive volentieri.",
+    "definition": "Ma nonostante questo.",
+    "page": "178-180",
+    "related": "dennoch|||Ma nonostante questo.|È pericoloso, eppure la gente ci vive volentieri."
+   },
+   {
+    "id": "u3-3b-014",
+    "target": "colorato/-a",
+    "translations": [
+     "farbenfroh"
+    ],
+    "acceptedAnswers": [],
+    "example": "Le case di Procida sono molto colorate.",
+    "definition": "Con tanti colori.",
+    "page": "178-180",
+    "related": "E coloured"
+   },
+   {
+    "id": "u3-3b-015",
+    "target": "il panorama",
+    "translations": [
+     "der Ausblick"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dal castello c’è un panorama bellissimo.",
+    "definition": "Quello che si vede da un posto alto.",
+    "usage": "pl. i panorami",
+    "page": "178-180",
+    "family": "panoramico/-a",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3b-016",
+    "target": "mozzafiato",
+    "translations": [
+     "atemberaubend"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dalla collina abbiamo una vista mozzafiato.",
+    "definition": "Così bello che toglie il respiro.",
+    "usage": "unveränderlich: i panorami mozzafiato",
+    "page": "178-180",
+    "related": "atemberaubend|unveränderlich: i panorami mozzafiato||Così bello che toglie il respiro.|Dalla collina abbiamo una vista mozzafiato."
+   },
+   {
+    "id": "u3-3b-017",
+    "target": "andare via",
+    "translations": [
+     "weggehen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non voglio andare via da Napoli.",
+    "definition": "Lasciare un posto.",
+    "page": "178-180",
+    "related": "weggehen|||Lasciare un posto.|Non voglio andare via da Napoli."
+   },
+   {
+    "id": "u3-3b-018",
+    "target": "da nessuna parte",
+    "translations": [
+     "nirgends"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non trovo il mio telefono da nessuna parte.",
+    "definition": "In nessun posto.",
+    "page": "178-180",
+    "related": "nirgends|||In nessun posto.|Non trovo il mio telefono da nessuna parte."
+   },
+   {
+    "id": "u3-3b-019",
+    "target": "altrove",
+    "translations": [
+     "anderswo",
+     "woanders"
+    ],
+    "acceptedAnswers": [],
+    "example": "Se qui è troppo caro, mangiamo altrove.",
+    "definition": "In un altro posto.",
+    "page": "178-180",
+    "related": "anderswo; woanders|||In un altro posto.|Se qui è troppo caro, mangiamo altrove."
+   },
+   {
+    "id": "u3-3b-020",
+    "target": "l’alluvione",
+    "translations": [
+     "die Überschwemmung"
+    ],
+    "acceptedAnswers": [],
+    "example": "L’alluvione ha distrutto molte strade.",
+    "definition": "Quando l’acqua di un fiume copre la terra e le case.",
+    "usage": "f.",
+    "page": "178-180",
+    "related": "die Überschwemmung|f.||Quando l’acqua di un fiume copre la terra e le case.|L’alluvione ha distrutto molte strade."
+   },
+   {
+    "id": "u3-3b-021",
+    "target": "la valanga",
+    "translations": [
+     "die Lawine"
+    ],
+    "acceptedAnswers": [],
+    "example": "Oggi c’è pericolo di valanghe.",
+    "definition": "Una grande massa di neve che scende dalla montagna.",
+    "usage": "pl. le valanghe",
+    "page": "178-180",
+    "related": "die Lawine|pl. le valanghe||Una grande massa di neve che scende dalla montagna.|Oggi c’è pericolo di valanghe.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3b-022",
+    "target": "la temperatura",
+    "translations": [
+     "die Temperatur"
+    ],
+    "acceptedAnswers": [],
+    "example": "Oggi la temperatura è di trenta gradi.",
+    "definition": "Quanto fa caldo o freddo.",
+    "page": "178-180",
+    "related": "die Temperatur|||Quanto fa caldo o freddo.|Oggi la temperatura è di trenta gradi.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3b-023",
+    "target": "preoccuparsi di qs",
+    "translations": [
+     "sich um etw. sorgen"
+    ],
+    "acceptedAnswers": [
+     "preoccuparsi di"
+    ],
+    "example": "Non preoccuparti, va tutto bene.",
+    "definition": "Pensare con ansia a un problema.",
+    "page": "178-180",
+    "related": "sich um etw. sorgen|||Pensare con ansia a un problema.|Non preoccuparti, va tutto bene."
+   },
+   {
+    "id": "u3-3b-024",
+    "target": "unico/-a",
+    "translations": [
+     "einzig",
+     "einzigartig"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questa città è unica al mondo.",
+    "definition": "Solo uno; speciale.",
+    "usage": "pl. unici, uniche",
+    "page": "178-180",
+    "related": "E unique; F unique"
+   },
+   {
+    "id": "u3-3b-025",
+    "target": "il ladino",
+    "translations": [
+     "das Ladinische"
+    ],
+    "acceptedAnswers": [],
+    "example": "In Val Gardena molte persone parlano il ladino.",
+    "definition": "Una lingua parlata in alcune valli delle Dolomiti.",
+    "usage": "Minderheitensprache / Dialekt",
+    "page": "178-180",
+    "related": "das Ladinische|Minderheitensprache / Dialekt||Una lingua parlata in alcune valli delle Dolomiti.|In Val Gardena molte persone parlano il ladino.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3b-026",
+    "target": "il paradiso",
+    "translations": [
+     "das Paradies"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questa spiaggia è un paradiso!",
+    "definition": "Un posto bellissimo, perfetto.",
+    "page": "178-180",
+    "related": "das Paradies|||Un posto bellissimo, perfetto.|Questa spiaggia è un paradiso!",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3b-027",
+    "target": "archeologico/-a",
+    "translations": [
+     "archäologisch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abbiamo visitato il parco archeologico di Pompei.",
+    "definition": "Che riguarda le cose antiche trovate sotto terra.",
+    "usage": "pl. archeologici, archeologiche",
+    "page": "178-180",
+    "related": "archäologisch|pl. archeologici, archeologiche||Che riguarda le cose antiche trovate sotto terra.|Abbiamo visitato il parco archeologico di Pompei."
+   },
+   {
+    "id": "u3-3b-028",
+    "target": "la mummia",
+    "translations": [
+     "die Mumie"
+    ],
+    "acceptedAnswers": [],
+    "example": "Al museo egizio abbiamo visto una mummia.",
+    "definition": "Un corpo antico conservato per molti secoli.",
+    "page": "178-180",
+    "related": "die Mumie|||Un corpo antico conservato per molti secoli.|Al museo egizio abbiamo visto una mummia.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3b-029",
+    "target": "il motivo",
+    "translations": [
+     "der Grund"
+    ],
+    "acceptedAnswers": [],
+    "example": "Per quale motivo sei arrivato tardi?",
+    "definition": "La ragione per cui si fa una cosa.",
+    "page": "178-180",
+    "related": "der Grund|||La ragione per cui si fa una cosa.|Per quale motivo sei arrivato tardi?",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3b-030",
+    "target": "comportare qs",
+    "translations": [
+     "etw. mit sich bringen"
+    ],
+    "acceptedAnswers": [
+     "comportare"
+    ],
+    "example": "Vivere vicino al vulcano comporta dei rischi.",
+    "definition": "Avere come conseguenza.",
+    "page": "178-180",
+    "related": "etw. mit sich bringen|||Avere come conseguenza.|Vivere vicino al vulcano comporta dei rischi."
+   },
+   {
+    "id": "u3-3b-031",
+    "target": "travolgere",
+    "translations": [
+     "überrollen"
+    ],
+    "acceptedAnswers": [],
+    "example": "La valanga ha travolto due sciatori.",
+    "definition": "Prendere e portare via con forza.",
+    "usage": "p.p. travolto",
+    "page": "178-180",
+    "related": "überrollen|p.p. travolto||Prendere e portare via con forza.|La valanga ha travolto due sciatori."
+   },
+   {
+    "id": "u3-3b-032",
+    "target": "la pista da sci",
+    "translations": [
+     "die Skipiste"
+    ],
+    "acceptedAnswers": [],
+    "example": "Le piste da sci sono piene a Natale.",
+    "definition": "La strada di neve dove si scia.",
+    "page": "178-180",
+    "related": "die Skipiste|||La strada di neve dove si scia.|Le piste da sci sono piene a Natale.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3b-033",
+    "target": "consumare",
+    "translations": [
+     "verbrauchen"
+    ],
+    "acceptedAnswers": [],
+    "example": "La mia vecchia macchina consuma troppa benzina.",
+    "definition": "Usare qualcosa fino a finirlo.",
+    "page": "178-180",
+    "related": "E to consume"
+   },
+   {
+    "id": "u3-3b-034",
+    "target": "doc",
+    "translations": [
+     "echt",
+     "hundertprozentig"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mio padre è un napoletano doc.",
+    "definition": "Vero, autentico.",
+    "usage": "fam.",
+    "page": "178-180",
+    "related": "echt; hundertprozentig|fam.||Vero, autentico.|Mio padre è un napoletano doc."
+   },
+   {
+    "id": "u3-3b-035",
+    "target": "il campo tessile",
+    "translations": [
+     "die Textilbranche"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il campo tessile è importante per l’economia di Prato.",
+    "definition": "Il settore che produce stoffe e vestiti.",
+    "page": "178-180",
+    "related": "die Textilbranche|||Il settore che produce stoffe e vestiti.|Il campo tessile è importante per l’economia di Prato.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3b-036",
+    "target": "la filiale",
+    "translations": [
+     "die Filiale"
+    ],
+    "acceptedAnswers": [],
+    "example": "La banca ha una filiale anche nel mio paese.",
+    "definition": "Un negozio o ufficio che fa parte di una grande azienda.",
+    "page": "178-180",
+    "related": "die Filiale|||Un negozio o ufficio che fa parte di una grande azienda.|La banca ha una filiale anche nel mio paese.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3b-037",
+    "target": "risolvere",
+    "translations": [
+     "lösen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abbiamo risolto il problema insieme.",
+    "definition": "Trovare la soluzione.",
+    "usage": "p.p. risolto",
+    "page": "178-180",
+    "related": "E to resolve"
+   },
+   {
+    "id": "u3-3b-038",
+    "target": "il settore",
+    "translations": [
+     "der Sektor"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il turismo è un settore molto importante in Italia.",
+    "definition": "Una parte dell’economia o di un’attività.",
+    "page": "178-180",
+    "related": "der Sektor|||Una parte dell’economia o di un’attività.|Il turismo è un settore molto importante in Italia.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3b-039",
+    "target": "semplice",
+    "translations": [
+     "einfach"
+    ],
+    "acceptedAnswers": [],
+    "example": "Le domande dell’esame erano semplici.",
+    "definition": "Facile, non complicato.",
+    "usage": "agg.",
+    "page": "178-180",
+    "related": "E simple; F simple"
+   },
+   {
+    "id": "u3-3b-040",
+    "target": "pescare",
+    "translations": [
+     "fischen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mio nonno va a pescare ogni domenica.",
+    "definition": "Prendere i pesci.",
+    "page": "178-180",
+    "related": "fischen|||Prendere i pesci.|Mio nonno va a pescare ogni domenica."
+   },
+   {
+    "id": "u3-3b-041",
+    "target": "tramandare",
+    "translations": [
+     "überliefern",
+     "weitergeben"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questa ricetta è tramandata da mia nonna.",
+    "definition": "Passare tradizioni o storie ai figli e ai nipoti.",
+    "page": "178-180",
+    "related": "überliefern; weitergeben|||Passare tradizioni o storie ai figli e ai nipoti.|Questa ricetta è tramandata da mia nonna."
+   },
+   {
+    "id": "u3-3b-042",
+    "target": "il pecorino",
+    "translations": [
+     "der Schafskäse"
+    ],
+    "acceptedAnswers": [],
+    "example": "Sulla pasta metto il pecorino.",
+    "definition": "Un formaggio fatto con il latte di pecora.",
+    "page": "178-180",
+    "related": "der Schafskäse|||Un formaggio fatto con il latte di pecora.|Sulla pasta metto il pecorino.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-3b-043",
+    "target": "dipendere da",
+    "translations": [
+     "abhängen von"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dipende dal tempo: se piove restiamo a casa.",
+    "definition": "Avere bisogno di qualcosa per esistere; essere deciso da.",
+    "page": "178-180",
+    "related": "E to depend",
+    "family": "dipendente"
+   },
+   {
+    "id": "u3-3b-044",
+    "target": "estivo/-a",
+    "translations": [
+     "Sommer-",
+     "sommerlich"
+    ],
+    "acceptedAnswers": [],
+    "example": "Le vacanze estive durano tre mesi.",
+    "definition": "Dell’estate.",
+    "page": "178-180",
+    "related": "Sommer-; sommerlich|||Dell’estate.|Le vacanze estive durano tre mesi."
+   },
+   {
+    "id": "u3-3b-045",
+    "target": "limpido/-a",
+    "translations": [
+     "klar"
+    ],
+    "acceptedAnswers": [],
+    "example": "L’acqua del lago è limpida.",
+    "definition": "Pulito e trasparente.",
+    "page": "178-180",
+    "related": "klar|||Pulito e trasparente.|L’acqua del lago è limpida."
+   },
+   {
+    "id": "u3-3b-046",
+    "target": "mitico/-a",
+    "translations": [
+     "fantastisch",
+     "Wahnsinns-"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il concerto è stato mitico!",
+    "definition": "Fantastico, bellissimo.",
+    "usage": "Jugendsprache",
+    "page": "178-180",
+    "related": "fantastisch; Wahnsinns-|Jugendsprache||Fantastico, bellissimo.|Il concerto è stato mitico!"
+   },
+   {
+    "id": "u3-3b-047",
+    "target": "andarsene",
+    "translations": [
+     "weggehen"
+    ],
+    "acceptedAnswers": [],
+    "example": "È tardi, me ne vado.",
+    "definition": "Lasciare un posto.",
+    "usage": "me ne vado, te ne vai …",
+    "page": "178-180",
+    "related": "weggehen|me ne vado, te ne vai …||Lasciare un posto.|È tardi, me ne vado."
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco3-u3-approccio",
+  "title": "Ecco più 3 · Unità 3 · Approccio",
+  "language": "it",
+  "level": "B1",
+  "description": "Wortschatz zu „Le sfide alla società“ aus Ecco più 3 (Unità 3, Approccio).",
+  "topics": [
+   "Gesellschaft",
+   "Neapel",
+   "Probleme"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 175-176 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "3",
+    "unit": "Unità 3",
+    "section": "Approccio",
+    "pages": "175-176"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "themes": [
+    "Gesellschaft",
+    "Neapel",
+    "Probleme"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 3 (Cornelsen)",
+  "section": "Unità 3 · Approccio",
+  "entries": [
+   {
+    "id": "u3-approccio-001",
+    "target": "la sfida",
+    "translations": [
+     "die Herausforderung"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il cambiamento climatico è una grande sfida.",
+    "definition": "Una cosa difficile che bisogna affrontare.",
+    "page": "175-176",
+    "related": "die Herausforderung|||Una cosa difficile che bisogna affrontare.|Il cambiamento climatico è una grande sfida.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-approccio-002",
+    "target": "la società",
+    "translations": [
+     "die Gesellschaft"
+    ],
+    "acceptedAnswers": [],
+    "example": "Internet sta cambiando la nostra società.",
+    "definition": "Tutte le persone che vivono insieme in un paese.",
+    "page": "175-176",
+    "related": "E society",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-approccio-003",
+    "target": "il/la liceale",
+    "translations": [
+     "der/die Gymnasiast/in"
+    ],
+    "acceptedAnswers": [],
+    "example": "I liceali di quinta preparano la maturità.",
+    "definition": "Uno studente o una studentessa del liceo.",
+    "usage": "m./f.",
+    "page": "175-176",
+    "related": "der/die Gymnasiast/in|m./f.||Uno studente o una studentessa del liceo.|I liceali di quinta preparano la maturità."
+   },
+   {
+    "id": "u3-approccio-004",
+    "target": "il fatto",
+    "translations": [
+     "die Tatsache"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il fatto è che non ho tempo.",
+    "definition": "Una cosa che è successa davvero.",
+    "page": "175-176",
+    "related": "E fact; F fait",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-approccio-005",
+    "target": "il Mediterraneo",
+    "translations": [
+     "das Mittelmeer(gebiet)"
+    ],
+    "acceptedAnswers": [],
+    "example": "La Sicilia è la più grande isola del Mediterraneo.",
+    "definition": "Il mare tra Europa, Africa e Asia.",
+    "page": "175-176",
+    "related": "das Mittelmeer(gebiet)|||Il mare tra Europa, Africa e Asia.|La Sicilia è la più grande isola del Mediterraneo.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-approccio-006",
+    "target": "il turismo di massa",
+    "translations": [
+     "der Massentourismus"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il turismo di massa è un problema per Venezia.",
+    "definition": "Quando troppi turisti vanno nello stesso posto.",
+    "page": "175-176",
+    "related": "der Massentourismus|||Quando troppi turisti vanno nello stesso posto.|Il turismo di massa è un problema per Venezia.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-approccio-007",
+    "target": "essere consapevole di qs",
+    "translations": [
+     "sich etw. bewusst sein"
+    ],
+    "acceptedAnswers": [
+     "essere consapevole di"
+    ],
+    "example": "Sono consapevole dei rischi di internet.",
+    "definition": "Sapere bene una cosa e capirne l’importanza.",
+    "page": "175-176",
+    "related": "sich etw. bewusst sein|||Sapere bene una cosa e capirne l’importanza.|Sono consapevole dei rischi di internet."
+   },
+   {
+    "id": "u3-approccio-008",
+    "target": "nei confronti di qn/qs",
+    "translations": [
+     "gegenüber jdm/etw."
+    ],
+    "acceptedAnswers": [
+     "nei confronti di"
+    ],
+    "example": "Sei sempre gentile nei confronti di tutti.",
+    "definition": "Verso, rispetto a qualcuno.",
+    "page": "175-176",
+    "related": "gegenüber jdm/etw.|||Verso, rispetto a qualcuno.|Sei sempre gentile nei confronti di tutti."
+   },
+   {
+    "id": "u3-approccio-009",
+    "target": "il borgo",
+    "translations": [
+     "das Dorf",
+     "das Viertel"
+    ],
+    "acceptedAnswers": [],
+    "example": "In Umbria ci sono tanti borghi medievali.",
+    "definition": "Un piccolo paese antico.",
+    "usage": "pl. i borghi",
+    "page": "175-176",
+    "related": "das Dorf; das Viertel|pl. i borghi||Un piccolo paese antico.|In Umbria ci sono tanti borghi medievali.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-approccio-010",
+    "target": "la vittima",
+    "translations": [
+     "das Opfer"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il terremoto ha fatto molte vittime.",
+    "definition": "Una persona che subisce un danno.",
+    "page": "175-176",
+    "related": "E victim",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-approccio-011",
+    "target": "efficace",
+    "translations": [
+     "wirksam"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questo metodo di studio è molto efficace.",
+    "definition": "Che funziona bene.",
+    "page": "175-176",
+    "related": "wirksam|||Che funziona bene.|Questo metodo di studio è molto efficace."
+   },
+   {
+    "id": "u3-approccio-012",
+    "target": "la prevenzione",
+    "translations": [
+     "die Vorbeugung"
+    ],
+    "acceptedAnswers": [],
+    "example": "La prevenzione è importante per la salute.",
+    "definition": "Quello che si fa prima per evitare un problema.",
+    "page": "175-176",
+    "related": "die Vorbeugung|||Quello che si fa prima per evitare un problema.|La prevenzione è importante per la salute.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-approccio-013",
+    "target": "prendere provvedimenti",
+    "translations": [
+     "Vorkehrungen treffen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il comune deve prendere provvedimenti contro il traffico.",
+    "definition": "Fare qualcosa per risolvere un problema.",
+    "page": "175-176",
+    "related": "Vorkehrungen treffen|||Fare qualcosa per risolvere un problema.|Il comune deve prendere provvedimenti contro il traffico."
+   },
+   {
+    "id": "u3-approccio-014",
+    "target": "riguardare qn/qs",
+    "translations": [
+     "jdn/etw. betreffen"
+    ],
+    "acceptedAnswers": [
+     "riguardare"
+    ],
+    "example": "Questa regola riguarda tutti gli studenti.",
+    "definition": "Avere a che fare con qualcuno.",
+    "page": "175-176",
+    "related": "jdn/etw. betreffen|||Avere a che fare con qualcuno.|Questa regola riguarda tutti gli studenti."
+   },
+   {
+    "id": "u3-approccio-015",
+    "target": "la costruzione",
+    "translations": [
+     "der Bau",
+     "die Errichtung"
+    ],
+    "acceptedAnswers": [],
+    "example": "La costruzione del nuovo stadio dura due anni.",
+    "definition": "Il lavoro per fare un edificio.",
+    "page": "175-176",
+    "related": "E construction; F construction",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-approccio-016",
+    "target": "essere in grado di",
+    "translations": [
+     "in der Lage sein, etw. zu tun"
+    ],
+    "acceptedAnswers": [],
+    "example": "Sei in grado di risolvere questo esercizio?",
+    "definition": "Essere capaci di fare una cosa.",
+    "usage": "+ inf.",
+    "page": "175-176",
+    "related": "in der Lage sein, etw. zu tun|+ inf.||Essere capaci di fare una cosa.|Sei in grado di risolvere questo esercizio?"
+   },
+   {
+    "id": "u3-approccio-017",
+    "target": "reggere a qn/qs",
+    "translations": [
+     "jdm/etw. standhalten"
+    ],
+    "acceptedAnswers": [
+     "reggere a"
+    ],
+    "example": "La vecchia casa ha retto al terremoto.",
+    "definition": "Resistere, non cadere.",
+    "usage": "p.p. retto",
+    "page": "175-176",
+    "related": "jdm/etw. standhalten|p.p. retto||Resistere, non cadere.|La vecchia casa ha retto al terremoto."
+   },
+   {
+    "id": "u3-approccio-018",
+    "target": "la scossa",
+    "translations": [
+     "der Erdstoß"
+    ],
+    "acceptedAnswers": [],
+    "example": "Stanotte abbiamo sentito una scossa.",
+    "definition": "Un movimento forte della terra.",
+    "page": "175-176",
+    "related": "der Erdstoß|||Un movimento forte della terra.|Stanotte abbiamo sentito una scossa.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-approccio-019",
+    "target": "lo sviluppo",
+    "translations": [
+     "die Entwicklung",
+     "die Entstehung"
+    ],
+    "acceptedAnswers": [],
+    "example": "Lo sviluppo della tecnologia è velocissimo.",
+    "definition": "Il processo di crescita e di cambiamento.",
+    "page": "175-176",
+    "related": "die Entwicklung; die Entstehung|||Il processo di crescita e di cambiamento.|Lo sviluppo della tecnologia è velocissimo.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "lo"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-approccio-020",
+    "target": "sostenibile",
+    "translations": [
+     "vertretbar",
+     "nachhaltig"
+    ],
+    "acceptedAnswers": [],
+    "example": "Vogliamo un turismo più sostenibile.",
+    "definition": "Che non fa male all’ambiente per il futuro.",
+    "page": "175-176",
+    "related": "vertretbar; nachhaltig|||Che non fa male all’ambiente per il futuro.|Vogliamo un turismo più sostenibile."
+   },
+   {
+    "id": "u3-approccio-021",
+    "target": "rispettare",
+    "translations": [
+     "schonen",
+     "respektieren"
+    ],
+    "acceptedAnswers": [],
+    "example": "Bisogna rispettare la natura.",
+    "definition": "Trattare con attenzione e rispetto.",
+    "page": "175-176",
+    "related": "schonen; respektieren|||Trattare con attenzione e rispetto.|Bisogna rispettare la natura."
+   },
+   {
+    "id": "u3-approccio-022",
+    "target": "il territorio",
+    "translations": [
+     "das Gebiet"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il territorio della Campania è molto vario.",
+    "definition": "Una zona di terra.",
+    "usage": "pl. i territori",
+    "page": "175-176",
+    "related": "E territory; F terroir",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-approccio-023",
+    "target": "splendido/-a",
+    "translations": [
+     "wunderbar"
+    ],
+    "acceptedAnswers": [],
+    "example": "Oggi è una giornata splendida.",
+    "definition": "Bellissimo.",
+    "page": "175-176",
+    "related": "wunderbar|||Bellissimo.|Oggi è una giornata splendida."
+   },
+   {
+    "id": "u3-approccio-024",
+    "target": "chiaro/-a",
+    "translations": [
+     "klar",
+     "offensichtlich"
+    ],
+    "acceptedAnswers": [],
+    "example": "È chiaro che non vuole venire.",
+    "definition": "Facile da capire, evidente.",
+    "page": "175-176",
+    "related": "klar; offensichtlich|||Facile da capire, evidente.|È chiaro che non vuole venire."
+   },
+   {
+    "id": "u3-approccio-025",
+    "target": "l’amore",
+    "translations": [
+     "die Liebe"
+    ],
+    "acceptedAnswers": [],
+    "example": "L’amore per la musica ci unisce.",
+    "definition": "Un sentimento forte per una persona.",
+    "usage": "m.",
+    "page": "175-176",
+    "related": "F amour; L amor"
+   },
+   {
+    "id": "u3-approccio-026",
+    "target": "la riviera",
+    "translations": [
+     "die Meeresküste"
+    ],
+    "acceptedAnswers": [],
+    "example": "D’estate andiamo in riviera.",
+    "definition": "La costa del mare con spiagge e paesi.",
+    "page": "175-176",
+    "related": "die Meeresküste|||La costa del mare con spiagge e paesi.|D’estate andiamo in riviera.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-approccio-027",
+    "target": "ligure",
+    "translations": [
+     "ligurisch"
+    ],
+    "acceptedAnswers": [],
+    "example": "La costa ligure ha paesi molto colorati.",
+    "definition": "Della Liguria.",
+    "page": "175-176",
+    "related": "ligurisch|||Della Liguria.|La costa ligure ha paesi molto colorati."
+   },
+   {
+    "id": "u3-approccio-028",
+    "target": "magico/-a",
+    "translations": [
+     "magisch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il tramonto sul mare era magico.",
+    "definition": "Che sembra fuori dalla realtà, bellissimo.",
+    "usage": "pl. magici/-iche",
+    "page": "175-176",
+    "related": "magisch|pl. magici/-iche||Che sembra fuori dalla realtà, bellissimo.|Il tramonto sul mare era magico."
+   },
+   {
+    "id": "u3-approccio-029",
+    "target": "il punto panoramico",
+    "translations": [
+     "der Aussichtspunkt"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dal punto panoramico si vede tutta Napoli.",
+    "definition": "Un posto da cui si vede un bel paesaggio.",
+    "page": "175-176",
+    "related": "der Aussichtspunkt|||Un posto da cui si vede un bel paesaggio.|Dal punto panoramico si vede tutta Napoli.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-approccio-030",
+    "target": "attirare",
+    "translations": [
+     "anziehen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Le spiagge attirano molti turisti.",
+    "definition": "Fare venire, interessare.",
+    "page": "175-176",
+    "related": "F attirer"
+   },
+   {
+    "id": "u3-approccio-031",
+    "target": "al punto che",
+    "translations": [
+     "so weit/sehr/viel, dass"
+    ],
+    "acceptedAnswers": [],
+    "example": "Era stanco al punto che si è addormentato in classe.",
+    "definition": "Così tanto che.",
+    "page": "175-176",
+    "related": "so weit/sehr/viel, dass|||Così tanto che.|Era stanco al punto che si è addormentato in classe."
+   },
+   {
+    "id": "u3-approccio-032",
+    "target": "proibito/-a",
+    "translations": [
+     "verboten"
+    ],
+    "acceptedAnswers": [],
+    "example": "È proibito fumare a scuola.",
+    "definition": "Che non si può fare.",
+    "page": "175-176",
+    "related": "E prohibited"
+   },
+   {
+    "id": "u3-approccio-033",
+    "target": "il fuoco",
+    "translations": [
+     "das Feuer"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abbiamo acceso il fuoco in spiaggia.",
+    "definition": "Quello che brucia e fa luce e calore.",
+    "usage": "pl. i fuochi",
+    "page": "175-176",
+    "related": "das Feuer|pl. i fuochi||Quello che brucia e fa luce e calore.|Abbiamo acceso il fuoco in spiaggia.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-approccio-034",
+    "target": "la pratica",
+    "translations": [
+     "die Praktik"
+    ],
+    "acceptedAnswers": [],
+    "example": "Rubare è una pratica criminale.",
+    "definition": "Un modo di fare, un’abitudine.",
+    "usage": "pl. le pratiche",
+    "page": "175-176",
+    "related": "die Praktik|pl. le pratiche||Un modo di fare, un’abitudine.|Rubare è una pratica criminale.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-approccio-035",
+    "target": "criminale",
+    "translations": [
+     "kriminell"
+    ],
+    "acceptedAnswers": [],
+    "example": "La polizia combatte le organizzazioni criminali.",
+    "definition": "Contro la legge.",
+    "page": "175-176",
+    "related": "kriminell|||Contro la legge.|La polizia combatte le organizzazioni criminali."
+   },
+   {
+    "id": "u3-approccio-036",
+    "target": "bruciare",
+    "translations": [
+     "verbrennen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non si devono bruciare i rifiuti.",
+    "definition": "Distruggere con il fuoco.",
+    "page": "175-176",
+    "related": "verbrennen|||Distruggere con il fuoco.|Non si devono bruciare i rifiuti."
+   },
+   {
+    "id": "u3-approccio-037",
+    "target": "tossico/-a",
+    "translations": [
+     "giftig"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questi rifiuti sono tossici.",
+    "definition": "Che fa molto male alla salute.",
+    "page": "175-176",
+    "related": "E toxic; F toxique"
+   },
+   {
+    "id": "u3-approccio-038",
+    "target": "portare a qs",
+    "translations": [
+     "führen zu etw."
+    ],
+    "acceptedAnswers": [
+     "portare a"
+    ],
+    "example": "Lo stress può portare a problemi di salute.",
+    "definition": "Avere come risultato.",
+    "page": "175-176",
+    "related": "führen zu etw.|||Avere come risultato.|Lo stress può portare a problemi di salute."
+   },
+   {
+    "id": "u3-approccio-039",
+    "target": "serio/-a",
+    "translations": [
+     "ernsthaft"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questo è un problema serio.",
+    "definition": "Che non scherza; importante.",
+    "page": "175-176",
+    "related": "E serious; F sérieux"
+   },
+   {
+    "id": "u3-approccio-040",
+    "target": "la protesta",
+    "translations": [
+     "der Protest"
+    ],
+    "acceptedAnswers": [],
+    "example": "I ragazzi hanno organizzato una protesta per il clima.",
+    "definition": "Quando le persone dicono pubblicamente che non sono d’accordo.",
+    "page": "175-176",
+    "related": "der Protest|||Quando le persone dicono pubblicamente che non sono d’accordo.|I ragazzi hanno organizzato una protesta per il clima.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u3-approccio-041",
+    "target": "l’inquinamento",
+    "translations": [
+     "die (Umwelt-)Verschmutzung"
+    ],
+    "acceptedAnswers": [],
+    "example": "L’inquinamento dell’aria è alto in città.",
+    "definition": "Quando aria, acqua o terra diventano sporche.",
+    "page": "175-176",
+    "related": "die (Umwelt-)Verschmutzung|||Quando aria, acqua o terra diventano sporche.|L’inquinamento dell’aria è alto in città."
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco3-u3-per-comunicare",
+  "title": "Ecco più 3 · Unità 3 · Per comunicare",
+  "language": "it",
+  "level": "B1",
+  "description": "Wortschatz zu „Sachverhalte, Bedingungen der Vergangenheit, Gefühle“ aus Ecco più 3 (Unità 3, Per comunicare).",
+  "topics": [
+   "Redemittel",
+   "Bedingungen",
+   "Gefühle"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 180-181 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "3",
+    "unit": "Unità 3",
+    "section": "Per comunicare",
+    "pages": "180-181"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "themes": [
+    "Redemittel",
+    "Bedingungen",
+    "Gefühle"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 3 (Cornelsen)",
+  "section": "Unità 3 · Per comunicare",
+  "entries": [
+   {
+    "id": "u3-per-comunicare-001",
+    "target": "Non c’è dubbio sul fatto che …",
+    "translations": [
+     "Es besteht kein Zweifel daran, dass …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non c’è dubbio sul fatto che il turismo aiuta l’economia.",
+    "definition": "Si usa per presentare una cosa sicura.",
+    "page": "180-181",
+    "related": "Es besteht kein Zweifel daran, dass …|||Si usa per presentare una cosa sicura.|Non c’è dubbio sul fatto che il turismo aiuta l’economia."
+   },
+   {
+    "id": "u3-per-comunicare-002",
+    "target": "Ciò riguarda soprattutto …",
+    "translations": [
+     "Das betrifft vor allem …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ciò riguarda soprattutto le persone anziane.",
+    "definition": "Si usa per dire chi o che cosa è interessato.",
+    "page": "180-181",
+    "related": "Das betrifft vor allem …|||Si usa per dire chi o che cosa è interessato.|Ciò riguarda soprattutto le persone anziane."
+   },
+   {
+    "id": "u3-per-comunicare-003",
+    "target": "Ciò porta a …",
+    "translations": [
+     "Das führt zu …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ciò porta a seri problemi di traffico.",
+    "definition": "Si usa per dire una conseguenza.",
+    "page": "180-181",
+    "related": "Das führt zu …|||Si usa per dire una conseguenza.|Ciò porta a seri problemi di traffico."
+   },
+   {
+    "id": "u3-per-comunicare-004",
+    "target": "Già da anni …",
+    "translations": [
+     "Schon seit Jahren …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Già da anni la città si dedica al turismo sostenibile.",
+    "definition": "Da molto tempo.",
+    "page": "180-181",
+    "related": "Schon seit Jahren …|||Da molto tempo.|Già da anni la città si dedica al turismo sostenibile."
+   },
+   {
+    "id": "u3-per-comunicare-005",
+    "target": "Se non l’avessi visto con i miei occhi, non ci avrei mai creduto.",
+    "translations": [
+     "Hätte ich es nicht mit eigenen Augen gesehen, hätte ich es nie geglaubt."
+    ],
+    "acceptedAnswers": [],
+    "example": "Se non l’avessi visto con i miei occhi, non ci avrei mai creduto.",
+    "definition": "Si usa per una condizione nel passato.",
+    "page": "180-181",
+    "related": "Hätte ich es nicht mit eigenen Augen gesehen, hätte ich es nie geglaubt.|||Si usa per una condizione nel passato.|Se non l’avessi visto con i miei occhi, non ci avrei mai creduto."
+   },
+   {
+    "id": "u3-per-comunicare-006",
+    "target": "Se non fossi partito/-a, non avrei mai …",
+    "translations": [
+     "Wäre ich nicht weggefahren, hätte ich nie …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Se non fossi partita, non avrei mai conosciuto questi amici.",
+    "definition": "Si usa per immaginare un passato diverso.",
+    "page": "180-181",
+    "related": "Wäre ich nicht weggefahren, hätte ich nie …|||Si usa per immaginare un passato diverso.|Se non fossi partita, non avrei mai conosciuto questi amici."
+   },
+   {
+    "id": "u3-per-comunicare-007",
+    "target": "Che orrore!",
+    "translations": [
+     "Wie schrecklich!"
+    ],
+    "acceptedAnswers": [],
+    "example": "Che orrore questo film!",
+    "definition": "Si dice quando una cosa fa paura o schifo.",
+    "page": "180-181",
+    "related": "Wie schrecklich!|||Si dice quando una cosa fa paura o schifo.|Che orrore questo film!"
+   },
+   {
+    "id": "u3-per-comunicare-008",
+    "target": "Ho avuto davvero tanta paura.",
+    "translations": [
+     "Ich hatte wirklich große Angst."
+    ],
+    "acceptedAnswers": [],
+    "example": "Durante il temporale ho avuto davvero tanta paura.",
+    "definition": "Si usa per raccontare uno spavento.",
+    "page": "180-181",
+    "related": "Ich hatte wirklich große Angst.|||Si usa per raccontare uno spavento.|Durante il temporale ho avuto davvero tanta paura."
+   },
+   {
+    "id": "u3-per-comunicare-009",
+    "target": "Anche se in realtà non credo che …",
+    "translations": [
+     "Auch wenn ich eigentlich nicht glaube, dass …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Speriamo bene, anche se in realtà non credo che cambierà molto.",
+    "definition": "Si usa per relativizzare un’opinione.",
+    "usage": "+ cong.",
+    "page": "180-181",
+    "related": "Auch wenn ich eigentlich nicht glaube, dass …|+ cong.||Si usa per relativizzare un’opinione.|Speriamo bene, anche se in realtà non credo che cambierà molto."
+   },
+   {
+    "id": "u3-per-comunicare-010",
+    "target": "La nostra regione è conosciuta per …",
+    "translations": [
+     "Unsere Region ist bekannt für …"
+    ],
+    "acceptedAnswers": [],
+    "example": "La nostra regione è conosciuta per il vino.",
+    "definition": "Si usa per presentare una regione.",
+    "page": "180-181",
+    "related": "Unsere Region ist bekannt für …|||Si usa per presentare una regione.|La nostra regione è conosciuta per il vino."
+   },
+   {
+    "id": "u3-per-comunicare-011",
+    "target": "Il posto perfetto per …",
+    "translations": [
+     "Der perfekte Ort für …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Le Dolomiti sono il posto perfetto per sciare.",
+    "definition": "Si usa per consigliare un luogo.",
+    "page": "180-181",
+    "related": "Der perfekte Ort für …|||Si usa per consigliare un luogo.|Le Dolomiti sono il posto perfetto per sciare."
+   },
+   {
+    "id": "u3-per-comunicare-012",
+    "target": "Per questi motivi …",
+    "translations": [
+     "Aus diesen Gründen …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Per questi motivi la mia regione è molto visitata.",
+    "definition": "Si usa per riassumere le ragioni.",
+    "page": "180-181",
+    "related": "Aus diesen Gründen …|||Si usa per riassumere le ragioni.|Per questi motivi la mia regione è molto visitata."
+   },
+   {
+    "id": "u3-per-comunicare-013",
+    "target": "Il problema è che …",
+    "translations": [
+     "Das Problem ist, dass …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il problema è che l’isola dipende dal turismo estivo.",
+    "definition": "Si usa per presentare una difficoltà.",
+    "page": "180-181",
+    "related": "Das Problem ist, dass …|||Si usa per presentare una difficoltà.|Il problema è che l’isola dipende dal turismo estivo."
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco3-u4-4a",
+  "title": "Ecco più 3 · Unità 4 · 4A Libera Terra",
+  "language": "it",
+  "level": "B1",
+  "description": "Wortschatz zu „Libera Terra – gegen die Mafia“ aus Ecco più 3 (Unità 4, 4A Libera Terra).",
+  "topics": [
+   "Mafia",
+   "Legalität",
+   "Landwirtschaft"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 182-183 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "3",
+    "unit": "Unità 4",
+    "section": "4A Libera Terra",
+    "pages": "182-183"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "themes": [
+    "Mafia",
+    "Legalität",
+    "Landwirtschaft"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 3 (Cornelsen)",
+  "section": "Unità 4 · 4A Libera Terra",
+  "entries": [
+   {
+    "id": "u4-4a-001",
+    "target": "la droga",
+    "translations": [
+     "die Droge"
+    ],
+    "acceptedAnswers": [],
+    "example": "La droga distrugge molte vite.",
+    "definition": "Una sostanza che fa male e crea dipendenza.",
+    "usage": "pl. le droghe",
+    "page": "182-183",
+    "related": "die Droge|pl. le droghe||Una sostanza che fa male e crea dipendenza.|La droga distrugge molte vite.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4a-002",
+    "target": "l’immigrazione",
+    "translations": [
+     "die Einwanderung"
+    ],
+    "acceptedAnswers": [],
+    "example": "L’immigrazione cambia la società italiana.",
+    "definition": "L’arrivo di persone da altri paesi.",
+    "usage": "f.",
+    "page": "182-183",
+    "related": "die Einwanderung|f.||L’arrivo di persone da altri paesi.|L’immigrazione cambia la società italiana."
+   },
+   {
+    "id": "u4-4a-003",
+    "target": "la lotta",
+    "translations": [
+     "der Kampf"
+    ],
+    "acceptedAnswers": [],
+    "example": "La lotta contro la mafia è difficile.",
+    "definition": "Lo sforzo contro un nemico o un problema.",
+    "page": "182-183",
+    "related": "F lutte",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4a-004",
+    "target": "la cooperazione",
+    "translations": [
+     "die Zusammenarbeit"
+    ],
+    "acceptedAnswers": [],
+    "example": "Con la cooperazione di tutti il progetto è riuscito.",
+    "definition": "Il lavoro fatto insieme.",
+    "page": "182-183",
+    "related": "die Zusammenarbeit|||Il lavoro fatto insieme.|Con la cooperazione di tutti il progetto è riuscito.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4a-005",
+    "target": "il/la cittadino/-a",
+    "translations": [
+     "der/die Bürger/in"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ogni cittadino ha diritti e doveri.",
+    "definition": "Una persona che vive in una città o in uno stato.",
+    "page": "182-183",
+    "related": "der/die Bürger/in|||Una persona che vive in una città o in uno stato.|Ogni cittadino ha diritti e doveri."
+   },
+   {
+    "id": "u4-4a-006",
+    "target": "la legalità",
+    "translations": [
+     "die Rechtmäßigkeit"
+    ],
+    "acceptedAnswers": [],
+    "example": "A scuola facciamo un progetto sulla legalità.",
+    "definition": "Il rispetto delle leggi.",
+    "page": "182-183",
+    "related": "die Rechtmäßigkeit|||Il rispetto delle leggi.|A scuola facciamo un progetto sulla legalità.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4a-007",
+    "target": "la giustizia",
+    "translations": [
+     "die Gerechtigkeit"
+    ],
+    "acceptedAnswers": [],
+    "example": "Le vittime chiedono giustizia.",
+    "definition": "Il fatto che tutti abbiano quello che è giusto.",
+    "page": "182-183",
+    "related": "E justice; F justice",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4a-008",
+    "target": "coltivare",
+    "translations": [
+     "bewirtschaften",
+     "anbauen"
+    ],
+    "acceptedAnswers": [],
+    "example": "I miei nonni coltivano pomodori.",
+    "definition": "Lavorare la terra per far crescere piante.",
+    "page": "182-183",
+    "related": "bewirtschaften; anbauen|||Lavorare la terra per far crescere piante.|I miei nonni coltivano pomodori."
+   },
+   {
+    "id": "u4-4a-009",
+    "target": "vario/-a",
+    "translations": [
+     "verschieden",
+     "vielfältig"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il menù è molto vario.",
+    "definition": "Diverso, di molti tipi.",
+    "page": "182-183",
+    "related": "E varied"
+   },
+   {
+    "id": "u4-4a-010",
+    "target": "il vino",
+    "translations": [
+     "der Wein"
+    ],
+    "acceptedAnswers": [],
+    "example": "La Toscana produce vini famosi.",
+    "definition": "Una bevanda alcolica fatta con l’uva.",
+    "page": "182-183",
+    "related": "F vin",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4a-011",
+    "target": "la salsa",
+    "translations": [
+     "die Soße"
+    ],
+    "acceptedAnswers": [],
+    "example": "La salsa di pomodoro è fatta in casa.",
+    "definition": "Un condimento liquido per la pasta o la carne.",
+    "page": "182-183",
+    "related": "die Soße|||Un condimento liquido per la pasta o la carne.|La salsa di pomodoro è fatta in casa.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4a-012",
+    "target": "perdonare",
+    "translations": [
+     "entschuldigen",
+     "verzeihen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Perdonami, non volevo offenderti.",
+    "definition": "Non essere più arrabbiati con qualcuno.",
+    "page": "182-183",
+    "related": "F pardonner"
+   },
+   {
+    "id": "u4-4a-013",
+    "target": "avere a che fare con qs",
+    "translations": [
+     "zu tun haben mit etw."
+    ],
+    "acceptedAnswers": [
+     "avere a che fare con"
+    ],
+    "example": "Non voglio avere niente a che fare con questa storia.",
+    "definition": "Avere un rapporto con qualcosa.",
+    "page": "182-183",
+    "related": "zu tun haben mit etw.|||Avere un rapporto con qualcosa.|Non voglio avere niente a che fare con questa storia."
+   },
+   {
+    "id": "u4-4a-014",
+    "target": "l’insieme",
+    "translations": [
+     "die Gesamtheit"
+    ],
+    "acceptedAnswers": [],
+    "example": "L’insieme dei dati mostra un problema.",
+    "definition": "Tutte le parti considerate insieme.",
+    "usage": "m.",
+    "page": "182-183",
+    "related": "die Gesamtheit|m.||Tutte le parti considerate insieme.|L’insieme dei dati mostra un problema."
+   },
+   {
+    "id": "u4-4a-015",
+    "target": "la cooperativa",
+    "translations": [
+     "die Genossenschaft"
+    ],
+    "acceptedAnswers": [],
+    "example": "I ragazzi lavorano in una cooperativa agricola.",
+    "definition": "Un’azienda che appartiene a chi ci lavora.",
+    "page": "182-183",
+    "related": "die Genossenschaft|||Un’azienda che appartiene a chi ci lavora.|I ragazzi lavorano in una cooperativa agricola.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4a-016",
+    "target": "lavorare",
+    "translations": [
+     "bewirtschaften"
+    ],
+    "acceptedAnswers": [],
+    "example": "In autunno si lavora la terra.",
+    "definition": "Coltivare la terra.",
+    "usage": "hier",
+    "page": "182-183",
+    "related": "bewirtschaften|hier||Coltivare la terra.|In autunno si lavora la terra."
+   },
+   {
+    "id": "u4-4a-017",
+    "target": "il terreno",
+    "translations": [
+     "das Feld",
+     "der Boden"
+    ],
+    "acceptedAnswers": [],
+    "example": "La cooperativa coltiva i terreni confiscati alla mafia.",
+    "definition": "Un pezzo di terra.",
+    "page": "182-183",
+    "related": "das Feld; der Boden|||Un pezzo di terra.|La cooperativa coltiva i terreni confiscati alla mafia.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4a-018",
+    "target": "confiscare",
+    "translations": [
+     "beschlagnahmen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Lo stato ha confiscato le case del boss.",
+    "definition": "Prendere un bene a qualcuno per legge.",
+    "page": "182-183",
+    "related": "beschlagnahmen|||Prendere un bene a qualcuno per legge.|Lo stato ha confiscato le case del boss."
+   },
+   {
+    "id": "u4-4a-019",
+    "target": "il boss",
+    "translations": [
+     "der Boss"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il boss è stato arrestato dopo anni.",
+    "definition": "Il capo di un’organizzazione criminale.",
+    "usage": "pl. i boss",
+    "page": "182-183",
+    "related": "der Boss|pl. i boss||Il capo di un’organizzazione criminale.|Il boss è stato arrestato dopo anni.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4a-020",
+    "target": "l’antimafia",
+    "translations": [
+     "die Antimafia"
+    ],
+    "acceptedAnswers": [],
+    "example": "L’antimafia lavora con la polizia e i giudici.",
+    "definition": "La lotta organizzata contro la mafia.",
+    "page": "182-183",
+    "related": "die Antimafia|||La lotta organizzata contro la mafia.|L’antimafia lavora con la polizia e i giudici."
+   },
+   {
+    "id": "u4-4a-021",
+    "target": "arrestare qn",
+    "translations": [
+     "jdn verhaften"
+    ],
+    "acceptedAnswers": [
+     "arrestare"
+    ],
+    "example": "La polizia ha arrestato due ladri.",
+    "definition": "Prendere una persona e portarla in prigione.",
+    "page": "182-183",
+    "related": "E to arrest; F arrêter"
+   },
+   {
+    "id": "u4-4a-022",
+    "target": "mafioso/-a",
+    "translations": [
+     "Mafia-"
+    ],
+    "acceptedAnswers": [],
+    "example": "È un’organizzazione di tipo mafioso.",
+    "definition": "Della mafia.",
+    "page": "182-183",
+    "related": "Mafia-|||Della mafia.|È un’organizzazione di tipo mafioso."
+   },
+   {
+    "id": "u4-4a-023",
+    "target": "anti-",
+    "translations": [
+     "anti-"
+    ],
+    "acceptedAnswers": [],
+    "example": "Organizziamo una manifestazione antirazzista.",
+    "definition": "Contro.",
+    "page": "182-183",
+    "related": "anti-|||Contro.|Organizziamo una manifestazione antirazzista."
+   },
+   {
+    "id": "u4-4a-024",
+    "target": "l’utilizzo",
+    "translations": [
+     "die Nutzung"
+    ],
+    "acceptedAnswers": [],
+    "example": "L’utilizzo del cellulare in classe è vietato.",
+    "definition": "L’uso.",
+    "page": "182-183",
+    "related": "die Nutzung|||L’uso.|L’utilizzo del cellulare in classe è vietato."
+   },
+   {
+    "id": "u4-4a-025",
+    "target": "la consapevolezza",
+    "translations": [
+     "das Bewusstsein"
+    ],
+    "acceptedAnswers": [],
+    "example": "La scuola deve creare consapevolezza sull’ambiente.",
+    "definition": "Il fatto di sapere e capire bene una cosa.",
+    "page": "182-183",
+    "family": "consapevole",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4a-026",
+    "target": "la prospettiva",
+    "translations": [
+     "die Perspektive"
+    ],
+    "acceptedAnswers": [],
+    "example": "Prova a vedere le cose dalla mia prospettiva.",
+    "definition": "Il modo di vedere una cosa; possibilità per il futuro.",
+    "page": "182-183",
+    "related": "die Perspektive|||Il modo di vedere una cosa; possibilità per il futuro.|Prova a vedere le cose dalla mia prospettiva.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4a-027",
+    "target": "la provenienza",
+    "translations": [
+     "die Herkunft"
+    ],
+    "acceptedAnswers": [],
+    "example": "Sul pacchetto c’è la provenienza del caffè.",
+    "definition": "Il luogo da cui viene una persona o una cosa.",
+    "page": "182-183",
+    "related": "die Herkunft|||Il luogo da cui viene una persona o una cosa.|Sul pacchetto c’è la provenienza del caffè.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4a-028",
+    "target": "la peculiarità",
+    "translations": [
+     "die Besonderheit"
+    ],
+    "acceptedAnswers": [],
+    "example": "La peculiarità di questa città sono i portici.",
+    "definition": "Una caratteristica speciale.",
+    "page": "182-183",
+    "related": "E peculiarity",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4a-029",
+    "target": "attenersi a qs",
+    "translations": [
+     "sich an etw. halten"
+    ],
+    "acceptedAnswers": [
+     "attenersi a"
+    ],
+    "example": "Bisogna attenersi alle regole del gioco.",
+    "definition": "Seguire regole o istruzioni.",
+    "usage": "(mi attengo)",
+    "page": "182-183",
+    "related": "sich an etw. halten|(mi attengo)||Seguire regole o istruzioni.|Bisogna attenersi alle regole del gioco."
+   },
+   {
+    "id": "u4-4a-030",
+    "target": "biologico/-a",
+    "translations": [
+     "biologisch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Compriamo solo frutta biologica.",
+    "definition": "Prodotto senza chimica.",
+    "page": "182-183",
+    "related": "biologisch|||Prodotto senza chimica.|Compriamo solo frutta biologica."
+   },
+   {
+    "id": "u4-4a-031",
+    "target": "il/la consumatore/consumatrice",
+    "translations": [
+     "der/die Verbraucher/in"
+    ],
+    "acceptedAnswers": [],
+    "example": "I consumatori vogliono prodotti sani.",
+    "definition": "Una persona che compra e usa prodotti.",
+    "page": "182-183",
+    "family": "consumare"
+   },
+   {
+    "id": "u4-4a-032",
+    "target": "sano/-a",
+    "translations": [
+     "gesund"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mangiare frutta è sano.",
+    "definition": "Che fa bene alla salute; che non è malato.",
+    "page": "182-183",
+    "related": "gesund|||Che fa bene alla salute; che non è malato.|Mangiare frutta è sano."
+   },
+   {
+    "id": "u4-4a-033",
+    "target": "chiunque",
+    "translations": [
+     "wer auch immer",
+     "jede(r,s)"
+    ],
+    "acceptedAnswers": [],
+    "example": "Chiunque venga, è il benvenuto.",
+    "definition": "Qualsiasi persona.",
+    "usage": "+ cong.",
+    "page": "182-183",
+    "related": "wer auch immer; jede(r,s)|+ cong.||Qualsiasi persona.|Chiunque venga, è il benvenuto."
+   },
+   {
+    "id": "u4-4a-034",
+    "target": "la distanza",
+    "translations": [
+     "die Entfernung",
+     "die Distanz"
+    ],
+    "acceptedAnswers": [],
+    "example": "La scuola è a una distanza di due chilometri.",
+    "definition": "Lo spazio tra due posti.",
+    "page": "182-183",
+    "related": "die Entfernung; die Distanz|||Lo spazio tra due posti.|La scuola è a una distanza di due chilometri.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4a-035",
+    "target": "specializzato/-a",
+    "translations": [
+     "spezialisiert"
+    ],
+    "acceptedAnswers": [],
+    "example": "È un medico specializzato in sport.",
+    "definition": "Che conosce molto bene un settore.",
+    "page": "182-183",
+    "related": "spezialisiert|||Che conosce molto bene un settore.|È un medico specializzato in sport."
+   },
+   {
+    "id": "u4-4a-036",
+    "target": "via",
+    "translations": [
+     "über (per)"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ti mando le foto via e-mail.",
+    "definition": "Attraverso, per mezzo di.",
+    "usage": "prep.",
+    "page": "182-183",
+    "related": "über (per)|prep.||Attraverso, per mezzo di.|Ti mando le foto via e-mail."
+   },
+   {
+    "id": "u4-4a-037",
+    "target": "il contributo",
+    "translations": [
+     "der Beitrag"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ognuno ha dato il suo contributo.",
+    "definition": "Quello che una persona dà a un progetto.",
+    "page": "182-183",
+    "related": "E contribution",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco3-u4-4b",
+  "title": "Ecco più 3 · Unità 4 · 4B Viva lo sport",
+  "language": "it",
+  "level": "B1",
+  "description": "Wortschatz zu „Es lebe der Sport“ aus Ecco più 3 (Unità 4, 4B Viva lo sport).",
+  "topics": [
+   "Sport",
+   "Radsport",
+   "Fußball"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 183-185 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "3",
+    "unit": "Unità 4",
+    "section": "4B Viva lo sport",
+    "pages": "183-185"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "themes": [
+    "Sport",
+    "Radsport",
+    "Fußball"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 3 (Cornelsen)",
+  "section": "Unità 4 · 4B Viva lo sport",
+  "entries": [
+   {
+    "id": "u4-4b-001",
+    "target": "diffuso/-a",
+    "translations": [
+     "beliebt",
+     "verbreitet"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il calcio è lo sport più diffuso in Italia.",
+    "definition": "Presente in molti posti.",
+    "page": "183-185",
+    "related": "beliebt; verbreitet|||Presente in molti posti.|Il calcio è lo sport più diffuso in Italia."
+   },
+   {
+    "id": "u4-4b-002",
+    "target": "la penisola",
+    "translations": [
+     "die Halbinsel"
+    ],
+    "acceptedAnswers": [],
+    "example": "L’Italia è una penisola.",
+    "definition": "Una terra circondata dal mare su tre lati.",
+    "page": "183-185",
+    "related": "F péninsule",
+    "family": "l’isola",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4b-003",
+    "target": "ognuno",
+    "translations": [
+     "jede/-r/-s"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ognuno porta qualcosa da mangiare.",
+    "definition": "Ogni persona.",
+    "page": "183-185",
+    "antonyms": "nessuno"
+   },
+   {
+    "id": "u4-4b-004",
+    "target": "cavarsela",
+    "translations": [
+     "sich zurechtfinden",
+     "klarkommen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Non parlo benissimo tedesco, ma me la cavo.",
+    "definition": "Riuscire a fare una cosa abbastanza bene.",
+    "usage": "me la cavo, te la cavi …",
+    "page": "183-185",
+    "related": "sich zurechtfinden; klarkommen|me la cavo, te la cavi …||Riuscire a fare una cosa abbastanza bene.|Non parlo benissimo tedesco, ma me la cavo."
+   },
+   {
+    "id": "u4-4b-005",
+    "target": "maschile/femminile",
+    "translations": [
+     "männlich/weiblich"
+    ],
+    "acceptedAnswers": [],
+    "example": "La squadra femminile ha vinto il campionato.",
+    "definition": "Degli uomini / delle donne.",
+    "page": "183-185",
+    "family": "il maschio / la femmina"
+   },
+   {
+    "id": "u4-4b-006",
+    "target": "il club",
+    "translations": [
+     "der Verein"
+    ],
+    "acceptedAnswers": [],
+    "example": "Gioco a tennis in un club vicino a casa.",
+    "definition": "Un gruppo di persone con un interesse comune, spesso sportivo.",
+    "usage": "pl. i club",
+    "page": "183-185",
+    "related": "der Verein|pl. i club||Un gruppo di persone con un interesse comune, spesso sportivo.|Gioco a tennis in un club vicino a casa.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4b-007",
+    "target": "il finale",
+    "translations": [
+     "das Finale"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abbiamo guardato il finale insieme.",
+    "definition": "La partita decisiva di un torneo.",
+    "page": "183-185",
+    "family": "finire",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4b-008",
+    "target": "cosiddetto/-a",
+    "translations": [
+     "sogenannte/-r/-s"
+    ],
+    "acceptedAnswers": [],
+    "example": "È il cosiddetto “Giro d’Italia”.",
+    "definition": "Che si chiama così.",
+    "page": "183-185",
+    "family": "così, dire"
+   },
+   {
+    "id": "u4-4b-009",
+    "target": "il fenomeno",
+    "translations": [
+     "das Phänomen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questo giocatore è un fenomeno.",
+    "definition": "Un fatto speciale; anche una persona bravissima.",
+    "page": "183-185",
+    "related": "E phenomenon; F phénomène",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4b-010",
+    "target": "l’atleta",
+    "translations": [
+     "der/die Sportler/in"
+    ],
+    "acceptedAnswers": [],
+    "example": "Gli atleti si allenano ogni giorno.",
+    "definition": "Una persona che fa sport a livello alto.",
+    "usage": "m./f.",
+    "page": "183-185",
+    "related": "E athlete"
+   },
+   {
+    "id": "u4-4b-011",
+    "target": "il/la giocatore/giocatrice",
+    "translations": [
+     "der/die Spieler/in"
+    ],
+    "acceptedAnswers": [],
+    "example": "La giocatrice ha segnato due gol.",
+    "definition": "Una persona che gioca, per esempio a calcio.",
+    "usage": "pl. i giocatori, le giocatrici",
+    "page": "183-185",
+    "family": "giocare"
+   },
+   {
+    "id": "u4-4b-012",
+    "target": "il ciclismo",
+    "translations": [
+     "der Radsport"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il ciclismo è molto popolare in Italia.",
+    "definition": "Lo sport della bicicletta.",
+    "page": "183-185",
+    "related": "F cyclisme",
+    "family": "la bicicletta",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4b-013",
+    "target": "l’idolo",
+    "translations": [
+     "das Idol"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il mio idolo è un cantante italiano.",
+    "definition": "Una persona famosa che molti ammirano.",
+    "page": "183-185",
+    "related": "E idol"
+   },
+   {
+    "id": "u4-4b-014",
+    "target": "leggendario/-a",
+    "translations": [
+     "legendär",
+     "sagenhaft"
+    ],
+    "acceptedAnswers": [],
+    "example": "Coppi è un ciclista leggendario.",
+    "definition": "Famosissimo, come in una leggenda.",
+    "page": "183-185",
+    "related": "E legendary",
+    "family": "la leggenda"
+   },
+   {
+    "id": "u4-4b-015",
+    "target": "risalire a qs",
+    "translations": [
+     "auf etw. zurückgehen",
+     "aufsteigen"
+    ],
+    "acceptedAnswers": [
+     "risalire a"
+    ],
+    "example": "Questa festa risale al Medioevo.",
+    "definition": "Avere origine in un tempo passato.",
+    "usage": "(risalgo)",
+    "page": "183-185",
+    "family": "salire"
+   },
+   {
+    "id": "u4-4b-016",
+    "target": "il/la campione/campionessa",
+    "translations": [
+     "der/die Champion",
+     "der/die Meister/in"
+    ],
+    "acceptedAnswers": [],
+    "example": "È campionessa italiana di nuoto.",
+    "definition": "Una persona che vince le gare.",
+    "page": "183-185",
+    "related": "E champion"
+   },
+   {
+    "id": "u4-4b-017",
+    "target": "il cuore",
+    "translations": [
+     "das Herz"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ti ringrazio di cuore.",
+    "definition": "L’organo che fa circolare il sangue; il simbolo dell’amore.",
+    "page": "183-185",
+    "related": "F cœur; L cor",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4b-018",
+    "target": "ciclistico/-a",
+    "translations": [
+     "Rad-"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il Giro d’Italia è una gara ciclistica.",
+    "definition": "Del ciclismo.",
+    "page": "183-185",
+    "related": "E cycle",
+    "family": "il ciclismo, la bicicletta"
+   },
+   {
+    "id": "u4-4b-019",
+    "target": "l’eroe/l’eroina",
+    "translations": [
+     "der Held",
+     "die Heldin"
+    ],
+    "acceptedAnswers": [],
+    "example": "Per me i medici sono eroi.",
+    "definition": "Una persona molto coraggiosa e ammirata.",
+    "page": "183-185",
+    "related": "E hero; F héros/héroïne"
+   },
+   {
+    "id": "u4-4b-020",
+    "target": "l’uomo",
+    "translations": [
+     "der Mensch",
+     "der Mann"
+    ],
+    "acceptedAnswers": [],
+    "example": "Quell’uomo è il mio allenatore.",
+    "definition": "Una persona; un maschio adulto.",
+    "usage": "pl. gli uomini",
+    "page": "183-185",
+    "related": "E human; F homme; L homo"
+   },
+   {
+    "id": "u4-4b-021",
+    "target": "praticare",
+    "translations": [
+     "ausüben",
+     "treiben"
+    ],
+    "acceptedAnswers": [],
+    "example": "Pratico nuoto da cinque anni.",
+    "definition": "Fare regolarmente un’attività.",
+    "usage": "(pratichi)",
+    "page": "183-185",
+    "related": "F pratiquer"
+   },
+   {
+    "id": "u4-4b-022",
+    "target": "esplodere",
+    "translations": [
+     "explodieren"
+    ],
+    "acceptedAnswers": [],
+    "example": "Dopo il video, la moda è esplosa tra i ragazzi.",
+    "definition": "Scoppiare con forza; anche: aumentare all’improvviso.",
+    "usage": "p.p. esploso",
+    "page": "183-185",
+    "related": "E to explode; F exploser"
+   },
+   {
+    "id": "u4-4b-023",
+    "target": "contagioso/-a",
+    "translations": [
+     "ansteckend"
+    ],
+    "acceptedAnswers": [],
+    "example": "La sua risata è contagiosa.",
+    "definition": "Che passa facilmente da una persona all’altra.",
+    "page": "183-185",
+    "related": "E contagious"
+   },
+   {
+    "id": "u4-4b-024",
+    "target": "la mountain bike",
+    "translations": [
+     "das Mountainbike"
+    ],
+    "acceptedAnswers": [],
+    "example": "Con la mountain bike facciamo gite nel bosco.",
+    "definition": "Una bicicletta per andare in montagna e su strade difficili.",
+    "usage": "pl. le mountain bike",
+    "page": "183-185",
+    "family": "la montagna",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4b-025",
+    "target": "avvicinare",
+    "translations": [
+     "annähern"
+    ],
+    "acceptedAnswers": [],
+    "example": "Lo sport avvicina le persone.",
+    "definition": "Portare più vicino.",
+    "page": "183-185",
+    "family": "vicino/-a"
+   },
+   {
+    "id": "u4-4b-026",
+    "target": "o … o",
+    "translations": [
+     "entweder … oder"
+    ],
+    "acceptedAnswers": [],
+    "example": "O vieni con noi o resti a casa.",
+    "definition": "Una cosa o l’altra.",
+    "page": "183-185",
+    "antonyms": "né … né"
+   },
+   {
+    "id": "u4-4b-027",
+    "target": "il canale sportivo",
+    "translations": [
+     "der Sportsender"
+    ],
+    "acceptedAnswers": [],
+    "example": "Guardo le partite su un canale sportivo.",
+    "definition": "Un canale tv che trasmette sport.",
+    "page": "183-185",
+    "related": "E sports channel; F chaîne sportive",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4b-028",
+    "target": "il fanatismo",
+    "translations": [
+     "der Fanatismus"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il fanatismo per il calcio a volte è pericoloso.",
+    "definition": "Una passione esagerata.",
+    "page": "183-185",
+    "related": "E fanaticism; F fanatisme",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4b-029",
+    "target": "la star",
+    "translations": [
+     "der (Welt-)Star"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questa cantante è una star internazionale.",
+    "definition": "Una persona famosissima.",
+    "usage": "pl. le star",
+    "page": "183-185",
+    "related": "der (Welt-)Star|pl. le star||Una persona famosissima.|Questa cantante è una star internazionale.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4b-030",
+    "target": "al pari di",
+    "translations": [
+     "(genauso) wie"
+    ],
+    "acceptedAnswers": [],
+    "example": "Per i tifosi, Maradona è al pari di un santo.",
+    "definition": "Allo stesso livello di.",
+    "page": "183-185",
+    "related": "(genauso) wie|||Allo stesso livello di.|Per i tifosi, Maradona è al pari di un santo."
+   },
+   {
+    "id": "u4-4b-031",
+    "target": "la concorrenza",
+    "translations": [
+     "die Konkurrenz"
+    ],
+    "acceptedAnswers": [],
+    "example": "Nel calcio c’è molta concorrenza tra le squadre.",
+    "definition": "Il fatto che più persone o aziende vogliono vincere.",
+    "page": "183-185",
+    "family": "correre",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4b-032",
+    "target": "basare su qs",
+    "translations": [
+     "basieren auf etw."
+    ],
+    "acceptedAnswers": [
+     "basare su"
+    ],
+    "example": "Il film è basato su una storia vera.",
+    "definition": "Avere come base.",
+    "page": "183-185",
+    "related": "basieren auf etw.|||Avere come base.|Il film è basato su una storia vera."
+   },
+   {
+    "id": "u4-4b-033",
+    "target": "la motivazione",
+    "translations": [
+     "der Beweggrund",
+     "die Motivation"
+    ],
+    "acceptedAnswers": [],
+    "example": "La mia motivazione per studiare è il viaggio in Italia.",
+    "definition": "Il motivo che spinge a fare una cosa.",
+    "page": "183-185",
+    "related": "E/F motivation",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4b-034",
+    "target": "politico/-a",
+    "translations": [
+     "politisch"
+    ],
+    "acceptedAnswers": [],
+    "example": "È una decisione politica.",
+    "definition": "Che riguarda la politica.",
+    "usage": "pl. politici, -che",
+    "page": "183-185",
+    "related": "E political; F politique",
+    "family": "la politica"
+   },
+   {
+    "id": "u4-4b-035",
+    "target": "proprio/-a",
+    "translations": [
+     "eigen",
+     "sein/ihr"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ognuno ama la propria squadra.",
+    "definition": "Che appartiene a una persona.",
+    "page": "183-185",
+    "related": "L proprius"
+   },
+   {
+    "id": "u4-4b-036",
+    "target": "avversario/-a",
+    "translations": [
+     "gegnerisch"
+    ],
+    "acceptedAnswers": [],
+    "example": "La squadra avversaria era molto forte.",
+    "definition": "Dell’altra squadra, nemico nella gara.",
+    "page": "183-185",
+    "related": "F adverse"
+   },
+   {
+    "id": "u4-4b-037",
+    "target": "prendersela con qn/qs",
+    "translations": [
+     "sich aufregen über jdn/etw."
+    ],
+    "acceptedAnswers": [
+     "prendersela con"
+    ],
+    "example": "Non prendertela con me, non è colpa mia!",
+    "definition": "Arrabbiarsi con qualcuno.",
+    "usage": "me la prendo, te la prendi …",
+    "page": "183-185",
+    "related": "sich aufregen über jdn/etw.|me la prendo, te la prendi …||Arrabbiarsi con qualcuno.|Non prendertela con me, non è colpa mia!"
+   },
+   {
+    "id": "u4-4b-038",
+    "target": "limitarsi a qs",
+    "translations": [
+     "sich beschränken auf etw."
+    ],
+    "acceptedAnswers": [
+     "limitarsi a"
+    ],
+    "example": "Mi limito a guardare, non gioco.",
+    "definition": "Fare solo una cosa e non di più.",
+    "page": "183-185",
+    "related": "sich beschränken auf etw.|||Fare solo una cosa e non di più.|Mi limito a guardare, non gioco."
+   },
+   {
+    "id": "u4-4b-039",
+    "target": "appartenere a qn/qs",
+    "translations": [
+     "zu etw./jdm gehören"
+    ],
+    "acceptedAnswers": [
+     "appartenere a"
+    ],
+    "example": "Questa bici appartiene a mio fratello.",
+    "definition": "Essere di qualcuno; fare parte di un gruppo.",
+    "usage": "(appartengo)",
+    "page": "183-185",
+    "related": "F appartenir à"
+   },
+   {
+    "id": "u4-4b-040",
+    "target": "spontaneo/-a",
+    "translations": [
+     "ungezwungen",
+     "spontan"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abbiamo fatto una festa spontanea.",
+    "definition": "Che nasce senza essere organizzato.",
+    "page": "183-185",
+    "related": "E spontaneous; F spontané(e)"
+   },
+   {
+    "id": "u4-4b-041",
+    "target": "stragrande",
+    "translations": [
+     "außerordentlich groß"
+    ],
+    "acceptedAnswers": [],
+    "example": "La stragrande maggioranza degli studenti è d’accordo.",
+    "definition": "Molto grande.",
+    "usage": "stra- = sehr: strapieno, stravecchio",
+    "page": "183-185",
+    "synonyms": "grandissimo",
+    "family": "grande"
+   },
+   {
+    "id": "u4-4b-042",
+    "target": "la maggioranza",
+    "translations": [
+     "die Mehrheit"
+    ],
+    "acceptedAnswers": [],
+    "example": "La maggioranza della classe vuole andare a Roma.",
+    "definition": "La parte più grande di un gruppo.",
+    "page": "183-185",
+    "related": "die Mehrheit|||La parte più grande di un gruppo.|La maggioranza della classe vuole andare a Roma.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4b-043",
+    "target": "emozionarsi per qn/qs",
+    "translations": [
+     "sich begeistern für jdn/etw."
+    ],
+    "acceptedAnswers": [
+     "emozionarsi per"
+    ],
+    "example": "Mi emoziono sempre quando sento questa canzone.",
+    "definition": "Provare emozioni forti per qualcosa.",
+    "page": "183-185",
+    "family": "emozionato/-a"
+   },
+   {
+    "id": "u4-4b-044",
+    "target": "guidare",
+    "translations": [
+     "fahren",
+     "steuern"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mio fratello sta imparando a guidare.",
+    "definition": "Condurre una macchina o una bici.",
+    "page": "183-185",
+    "related": "fahren; steuern|||Condurre una macchina o una bici.|Mio fratello sta imparando a guidare."
+   },
+   {
+    "id": "u4-4b-045",
+    "target": "il desiderio",
+    "translations": [
+     "der Wunsch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il mio desiderio è vivere in Italia.",
+    "definition": "Una cosa che si vuole molto.",
+    "page": "183-185",
+    "related": "E desire; F désir",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-4b-046",
+    "target": "risultare",
+    "translations": [
+     "sich als etw. erweisen"
+    ],
+    "acceptedAnswers": [],
+    "example": "La gita è risultata molto interessante.",
+    "definition": "Essere alla fine; dimostrarsi.",
+    "page": "183-185",
+    "related": "E to result; F résulter"
+   },
+   {
+    "id": "u4-4b-047",
+    "target": "mondiale",
+    "translations": [
+     "Welt-"
+    ],
+    "acceptedAnswers": [],
+    "example": "L’Italia ha vinto quattro campionati mondiali di calcio.",
+    "definition": "Di tutto il mondo.",
+    "page": "183-185",
+    "related": "L mundus; F mondial(e)",
+    "family": "il mondo"
+   },
+   {
+    "id": "u4-4b-048",
+    "target": "il/la pilota",
+    "translations": [
+     "der/die Fahrer/in",
+     "der/die Pilot/in"
+    ],
+    "acceptedAnswers": [],
+    "example": "Da grande voglio fare il pilota.",
+    "definition": "Una persona che guida un’auto da corsa o un aereo.",
+    "page": "183-185",
+    "related": "der/die Fahrer/in; der/die Pilot/in|||Una persona che guida un’auto da corsa o un aereo.|Da grande voglio fare il pilota."
+   },
+   {
+    "id": "u4-4b-049",
+    "target": "grandioso/-a",
+    "translations": [
+     "großartig"
+    ],
+    "acceptedAnswers": [],
+    "example": "Lo spettacolo è stato grandioso.",
+    "definition": "Molto grande e bello.",
+    "page": "183-185",
+    "related": "E grand",
+    "family": "grande"
+   },
+   {
+    "id": "u4-4b-050",
+    "target": "avere luogo",
+    "translations": [
+     "stattfinden"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il concerto avrà luogo in piazza.",
+    "definition": "Succedere in un certo posto o momento.",
+    "page": "183-185",
+    "related": "F avoir lieu"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco3-u4-approccio",
+  "title": "Ecco più 3 · Unità 4 · Approccio",
+  "language": "it",
+  "level": "B1",
+  "description": "Wortschatz zu „Tra Nord e Sud“ aus Ecco più 3 (Unità 4, Approccio).",
+  "topics": [
+   "Wirtschaft",
+   "Nord",
+   "Süd"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 181-182 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "3",
+    "unit": "Unità 4",
+    "section": "Approccio",
+    "pages": "181-182"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "themes": [
+    "Wirtschaft",
+    "Nord",
+    "Süd"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 3 (Cornelsen)",
+  "section": "Unità 4 · Approccio",
+  "entries": [
+   {
+    "id": "u4-approccio-001",
+    "target": "la patria",
+    "translations": [
+     "die Heimat",
+     "der (Wohn-)Sitz"
+    ],
+    "acceptedAnswers": [],
+    "example": "Napoli è la patria della pizza.",
+    "definition": "Il paese dove si è nati; il posto di origine di una cosa.",
+    "page": "181-182",
+    "related": "F la patrie",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-approccio-002",
+    "target": "automobilistico/-a",
+    "translations": [
+     "Auto(mobil)-"
+    ],
+    "acceptedAnswers": [],
+    "example": "Torino è famosa per l’industria automobilistica.",
+    "definition": "Che riguarda le automobili.",
+    "usage": "pl. automobilistici/-istiche",
+    "page": "181-182",
+    "related": "Auto(mobil)-|pl. automobilistici/-istiche||Che riguarda le automobili.|Torino è famosa per l’industria automobilistica."
+   },
+   {
+    "id": "u4-approccio-003",
+    "target": "tessile",
+    "translations": [
+     "Textil-"
+    ],
+    "acceptedAnswers": [],
+    "example": "A Prato ci sono molte aziende tessili.",
+    "definition": "Che riguarda le stoffe.",
+    "page": "181-182",
+    "related": "Textil-|||Che riguarda le stoffe.|A Prato ci sono molte aziende tessili."
+   },
+   {
+    "id": "u4-approccio-004",
+    "target": "alimentare",
+    "translations": [
+     "Lebensmittel-"
+    ],
+    "acceptedAnswers": [],
+    "example": "L’industria alimentare è importante in Emilia-Romagna.",
+    "definition": "Che riguarda il cibo.",
+    "page": "181-182",
+    "related": "Lebensmittel-|||Che riguarda il cibo.|L’industria alimentare è importante in Emilia-Romagna."
+   },
+   {
+    "id": "u4-approccio-005",
+    "target": "navale",
+    "translations": [
+     "Schiffs-",
+     "See-"
+    ],
+    "acceptedAnswers": [],
+    "example": "A Genova c’è un grande cantiere navale.",
+    "definition": "Che riguarda le navi.",
+    "page": "181-182",
+    "related": "Schiffs-; See-|||Che riguarda le navi.|A Genova c’è un grande cantiere navale."
+   },
+   {
+    "id": "u4-approccio-006",
+    "target": "la crisi",
+    "translations": [
+     "die Krise"
+    ],
+    "acceptedAnswers": [],
+    "example": "Durante la crisi molte persone hanno perso il lavoro.",
+    "definition": "Un periodo difficile.",
+    "usage": "pl. le crisi",
+    "page": "181-182",
+    "related": "die Krise|pl. le crisi||Un periodo difficile.|Durante la crisi molte persone hanno perso il lavoro.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-approccio-007",
+    "target": "locale",
+    "translations": [
+     "ortsansässig",
+     "heimisch"
+    ],
+    "acceptedAnswers": [],
+    "example": "Compro frutta e verdura dai contadini locali.",
+    "definition": "Del posto.",
+    "page": "181-182",
+    "related": "E local"
+   },
+   {
+    "id": "u4-approccio-008",
+    "target": "riutilizzare",
+    "translations": [
+     "weiterverwenden"
+    ],
+    "acceptedAnswers": [],
+    "example": "Riutilizziamo le bottiglie di vetro.",
+    "definition": "Usare di nuovo.",
+    "page": "181-182",
+    "related": "weiterverwenden|||Usare di nuovo.|Riutilizziamo le bottiglie di vetro."
+   },
+   {
+    "id": "u4-approccio-009",
+    "target": "la fabbrica",
+    "translations": [
+     "die Fabrik"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mio zio lavora in una fabbrica di scarpe.",
+    "definition": "Un edificio dove si producono cose con le macchine.",
+    "usage": "pl. le fabbriche",
+    "page": "181-182",
+    "related": "die Fabrik|pl. le fabbriche||Un edificio dove si producono cose con le macchine.|Mio zio lavora in una fabbrica di scarpe.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-approccio-010",
+    "target": "la fiera",
+    "translations": [
+     "die Messe"
+    ],
+    "acceptedAnswers": [],
+    "example": "Alla fiera del libro c’erano tanti autori.",
+    "definition": "Una grande esposizione di prodotti.",
+    "page": "181-182",
+    "related": "die Messe|||Una grande esposizione di prodotti.|Alla fiera del libro c’erano tanti autori.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-approccio-011",
+    "target": "il centro commerciale",
+    "translations": [
+     "das Einkaufszentrum"
+    ],
+    "acceptedAnswers": [],
+    "example": "Sabato andiamo al centro commerciale.",
+    "definition": "Un grande edificio con tanti negozi.",
+    "page": "181-182",
+    "related": "das Einkaufszentrum|||Un grande edificio con tanti negozi.|Sabato andiamo al centro commerciale.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-approccio-012",
+    "target": "il ruolo",
+    "translations": [
+     "die Rolle",
+     "die Funktion"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il turismo ha un ruolo importante al Sud.",
+    "definition": "La parte o il compito di una persona o di una cosa.",
+    "page": "181-182",
+    "related": "die Rolle; die Funktion|||La parte o il compito di una persona o di una cosa.|Il turismo ha un ruolo importante al Sud.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-approccio-013",
+    "target": "l’economia",
+    "translations": [
+     "die Wirtschaft"
+    ],
+    "acceptedAnswers": [],
+    "example": "L’economia italiana dipende molto dalle esportazioni.",
+    "definition": "L’insieme di produzione, lavoro e soldi di un paese.",
+    "usage": "pl. le economie",
+    "page": "181-182",
+    "related": "E economy; F économie"
+   },
+   {
+    "id": "u4-approccio-014",
+    "target": "il livello",
+    "translations": [
+     "das Niveau"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il livello di questo corso è B1.",
+    "definition": "L’altezza o la qualità di una cosa.",
+    "page": "181-182",
+    "related": "E level",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-approccio-015",
+    "target": "formare",
+    "translations": [
+     "bilden"
+    ],
+    "acceptedAnswers": [],
+    "example": "Abbiamo formato una band.",
+    "definition": "Creare, fare nascere un gruppo o una cosa.",
+    "page": "181-182",
+    "related": "bilden|||Creare, fare nascere un gruppo o una cosa.|Abbiamo formato una band."
+   },
+   {
+    "id": "u4-approccio-016",
+    "target": "il consorzio",
+    "translations": [
+     "die Genossenschaft"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il consorzio protegge la qualità del Parmigiano.",
+    "definition": "Un gruppo di aziende che lavorano insieme.",
+    "usage": "pl. i consorzi",
+    "page": "181-182",
+    "related": "die Genossenschaft|pl. i consorzi||Un gruppo di aziende che lavorano insieme.|Il consorzio protegge la qualità del Parmigiano.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-approccio-017",
+    "target": "definire",
+    "translations": [
+     "festlegen",
+     "definieren"
+    ],
+    "acceptedAnswers": [],
+    "example": "È difficile definire la felicità.",
+    "definition": "Dire con precisione che cos’è una cosa.",
+    "usage": "(-isc-)",
+    "page": "181-182",
+    "related": "festlegen; definieren|(-isc-)||Dire con precisione che cos’è una cosa.|È difficile definire la felicità."
+   },
+   {
+    "id": "u4-approccio-018",
+    "target": "la qualità",
+    "translations": [
+     "die Qualität"
+    ],
+    "acceptedAnswers": [],
+    "example": "Questo olio è di ottima qualità.",
+    "definition": "Quanto una cosa è buona.",
+    "page": "181-182",
+    "related": "die Qualität|||Quanto una cosa è buona.|Questo olio è di ottima qualità.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-approccio-019",
+    "target": "l’infrastruttura",
+    "translations": [
+     "die Infrastruktur"
+    ],
+    "acceptedAnswers": [],
+    "example": "Al Sud mancano ancora molte infrastrutture.",
+    "definition": "Strade, treni, reti: le strutture di base di un paese.",
+    "page": "181-182",
+    "related": "die Infrastruktur|||Strade, treni, reti: le strutture di base di un paese.|Al Sud mancano ancora molte infrastrutture."
+   },
+   {
+    "id": "u4-approccio-020",
+    "target": "ambiguo/-a",
+    "translations": [
+     "mehrdeutig",
+     "uneinheitlich",
+     "unklar"
+    ],
+    "acceptedAnswers": [],
+    "example": "La sua risposta era ambigua.",
+    "definition": "Che si può capire in modi diversi.",
+    "page": "181-182",
+    "related": "E ambiguous"
+   },
+   {
+    "id": "u4-approccio-021",
+    "target": "l’autostrada",
+    "translations": [
+     "die Autobahn"
+    ],
+    "acceptedAnswers": [],
+    "example": "In autostrada c’è sempre traffico ad agosto.",
+    "definition": "Una strada grande e veloce tra le città.",
+    "page": "181-182",
+    "related": "die Autobahn|||Una strada grande e veloce tra le città.|In autostrada c’è sempre traffico ad agosto."
+   },
+   {
+    "id": "u4-approccio-022",
+    "target": "il cantiere",
+    "translations": [
+     "die Baustelle"
+    ],
+    "acceptedAnswers": [],
+    "example": "Davanti a casa mia c’è un cantiere rumoroso.",
+    "definition": "Il posto dove si costruisce qualcosa.",
+    "page": "181-182",
+    "related": "die Baustelle|||Il posto dove si costruisce qualcosa.|Davanti a casa mia c’è un cantiere rumoroso.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-approccio-023",
+    "target": "la durata",
+    "translations": [
+     "die Dauer"
+    ],
+    "acceptedAnswers": [],
+    "example": "La durata del film è di due ore.",
+    "definition": "Quanto tempo dura una cosa.",
+    "page": "181-182",
+    "related": "die Dauer|||Quanto tempo dura una cosa.|La durata del film è di due ore.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-approccio-024",
+    "target": "la mafia",
+    "translations": [
+     "die Mafia"
+    ],
+    "acceptedAnswers": [],
+    "example": "Molti giovani si impegnano contro la mafia.",
+    "definition": "Un’organizzazione criminale molto potente.",
+    "page": "181-182",
+    "related": "die Mafia|||Un’organizzazione criminale molto potente.|Molti giovani si impegnano contro la mafia.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-approccio-025",
+    "target": "rappresentare",
+    "translations": [
+     "darstellen",
+     "verkörpern"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il Colosseo rappresenta la storia di Roma.",
+    "definition": "Essere il simbolo di qualcosa; mostrare.",
+    "page": "181-182",
+    "related": "darstellen; verkörpern|||Essere il simbolo di qualcosa; mostrare.|Il Colosseo rappresenta la storia di Roma."
+   },
+   {
+    "id": "u4-approccio-026",
+    "target": "l’efficienza",
+    "translations": [
+     "die Leistungsfähigkeit",
+     "die Wirksamkeit"
+    ],
+    "acceptedAnswers": [],
+    "example": "L’efficienza dei treni tedeschi è famosa.",
+    "definition": "La capacità di fare bene un lavoro senza sprecare tempo.",
+    "page": "181-182",
+    "related": "die Leistungsfähigkeit; die Wirksamkeit|||La capacità di fare bene un lavoro senza sprecare tempo.|L’efficienza dei treni tedeschi è famosa."
+   },
+   {
+    "id": "u4-approccio-027",
+    "target": "la modernità",
+    "translations": [
+     "die Modernität"
+    ],
+    "acceptedAnswers": [],
+    "example": "Milano è il simbolo della modernità italiana.",
+    "definition": "Il fatto di essere moderno.",
+    "page": "181-182",
+    "related": "die Modernität|||Il fatto di essere moderno.|Milano è il simbolo della modernità italiana.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-approccio-028",
+    "target": "rurale",
+    "translations": [
+     "ländlich",
+     "bäuerlich"
+    ],
+    "acceptedAnswers": [],
+    "example": "Molte zone rurali del Sud si stanno svuotando.",
+    "definition": "Della campagna.",
+    "page": "181-182",
+    "related": "E rural"
+   },
+   {
+    "id": "u4-approccio-029",
+    "target": "migliorare",
+    "translations": [
+     "verbessern"
+    ],
+    "acceptedAnswers": [],
+    "example": "Voglio migliorare il mio italiano.",
+    "definition": "Rendere migliore.",
+    "page": "181-182",
+    "family": "meglio"
+   },
+   {
+    "id": "u4-approccio-030",
+    "target": "il posto di lavoro",
+    "translations": [
+     "der Arbeitsplatz"
+    ],
+    "acceptedAnswers": [],
+    "example": "La nuova fabbrica ha creato cento posti di lavoro.",
+    "definition": "Il lavoro di una persona; il luogo dove lavora.",
+    "page": "181-182",
+    "related": "der Arbeitsplatz|||Il lavoro di una persona; il luogo dove lavora.|La nuova fabbrica ha creato cento posti di lavoro.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "masculine",
+     "article": "il"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-approccio-031",
+    "target": "provocare",
+    "translations": [
+     "bewirken",
+     "hervorrufen"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il traffico provoca inquinamento.",
+    "definition": "Essere la causa di una cosa.",
+    "page": "181-182",
+    "related": "bewirken; hervorrufen|||Essere la causa di una cosa.|Il traffico provoca inquinamento."
+   },
+   {
+    "id": "u4-approccio-032",
+    "target": "la mancanza",
+    "translations": [
+     "der Mangel"
+    ],
+    "acceptedAnswers": [],
+    "example": "La mancanza di lavoro spinge molti giovani a partire.",
+    "definition": "Il fatto che una cosa non c’è.",
+    "page": "181-182",
+    "family": "mancare",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   },
+   {
+    "id": "u4-approccio-033",
+    "target": "la forza lavoro",
+    "translations": [
+     "die Arbeitskraft"
+    ],
+    "acceptedAnswers": [],
+    "example": "Le donne sono metà della forza lavoro.",
+    "definition": "Tutte le persone che lavorano o possono lavorare.",
+    "page": "181-182",
+    "related": "die Arbeitskraft|||Tutte le persone che lavorano o possono lavorare.|Le donne sono metà della forza lavoro.",
+    "grammar": {
+     "partOfSpeech": "noun",
+     "gender": "feminine",
+     "article": "la"
+    },
+    "answerPolicy": {
+     "article": "required",
+     "typo": "hint"
+    }
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "vocabulary",
+  "id": "it-ecco3-u4-per-comunicare",
+  "title": "Ecco più 3 · Unità 4 · Per comunicare",
+  "language": "it",
+  "level": "B1",
+  "description": "Wortschatz zu „Wirtschaft, Aussagen wiedergeben, Sport, Zeitangaben“ aus Ecco più 3 (Unità 4, Per comunicare).",
+  "topics": [
+   "Redemittel",
+   "Wirtschaft",
+   "Sport"
+  ],
+  "sources": [
+   {
+    "kind": "provided",
+    "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 184-185 (vom Nutzer bereitgestellte Seiten)",
+    "url": "",
+    "rights": "needs_review"
+   }
+  ],
+  "reviewNotes": [
+   "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+   "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+   "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+  ],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "3",
+    "unit": "Unità 4",
+    "section": "Per comunicare",
+    "pages": "184-185"
+   },
+   "grade": 10,
+   "foreignLanguageNo": 3,
+   "cefr": "B1",
+   "themes": [
+    "Redemittel",
+    "Wirtschaft",
+    "Sport"
+   ],
+   "tags": [
+    "lehrwerk",
+    "vokabeln"
+   ]
+  },
+  "translationLanguage": "de",
+  "collection": "Ecco più 3 (Cornelsen)",
+  "section": "Unità 4 · Per comunicare",
+  "entries": [
+   {
+    "id": "u4-per-comunicare-001",
+    "target": "… ha un ruolo importante nell’economia.",
+    "translations": [
+     "… spielt eine wichtige Rolle in der Wirtschaft."
+    ],
+    "acceptedAnswers": [],
+    "example": "Il turismo ha un ruolo importante nell’economia.",
+    "definition": "Si usa per dire che un settore è importante.",
+    "page": "184-185",
+    "related": "… spielt eine wichtige Rolle in der Wirtschaft.|||Si usa per dire che un settore è importante.|Il turismo ha un ruolo importante nell’economia."
+   },
+   {
+    "id": "u4-per-comunicare-002",
+    "target": "… è considerato/-a la patria di …",
+    "translations": [
+     "… gilt als die Heimat von …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Il Nord è considerato la patria dell’industria italiana.",
+    "definition": "Si usa per dire da dove viene una cosa.",
+    "page": "184-185",
+    "related": "… gilt als die Heimat von …|||Si usa per dire da dove viene una cosa.|Il Nord è considerato la patria dell’industria italiana."
+   },
+   {
+    "id": "u4-per-comunicare-003",
+    "target": "Un triste esempio è …",
+    "translations": [
+     "Ein trauriges Beispiel ist …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Un triste esempio è l’autostrada mai finita.",
+    "definition": "Si usa per dare un esempio negativo.",
+    "page": "184-185",
+    "related": "Ein trauriges Beispiel ist …|||Si usa per dare un esempio negativo.|Un triste esempio è l’autostrada mai finita."
+   },
+   {
+    "id": "u4-per-comunicare-004",
+    "target": "Mi ha spiegato che …",
+    "translations": [
+     "Er/Sie hat mir erklärt, dass …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mi ha spiegato che la cooperativa è nata nel 2001.",
+    "definition": "Si usa per riportare quello che ha detto qualcuno.",
+    "page": "184-185",
+    "related": "Er/Sie hat mir erklärt, dass …|||Si usa per riportare quello che ha detto qualcuno.|Mi ha spiegato che la cooperativa è nata nel 2001."
+   },
+   {
+    "id": "u4-per-comunicare-005",
+    "target": "Ha raccontato che …",
+    "translations": [
+     "Er/Sie hat erzählt, dass …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Ha raccontato che da piccolo giocava sempre a calcio.",
+    "definition": "Si usa per riportare un racconto.",
+    "page": "184-185",
+    "related": "Er/Sie hat erzählt, dass …|||Si usa per riportare un racconto.|Ha raccontato che da piccolo giocava sempre a calcio."
+   },
+   {
+    "id": "u4-per-comunicare-006",
+    "target": "… è uno dei giochi sportivi più diffusi.",
+    "translations": [
+     "… ist eines der beliebtesten Mannschaftsspiele."
+    ],
+    "acceptedAnswers": [],
+    "example": "La pallavolo è uno dei giochi sportivi più diffusi.",
+    "definition": "Si usa per parlare di uno sport molto praticato.",
+    "page": "184-185",
+    "related": "… ist eines der beliebtesten Mannschaftsspiele.|||Si usa per parlare di uno sport molto praticato.|La pallavolo è uno dei giochi sportivi più diffusi."
+   },
+   {
+    "id": "u4-per-comunicare-007",
+    "target": "La passione diventa quasi fanatismo.",
+    "translations": [
+     "Die Leidenschaft wird fast zum Fanatismus."
+    ],
+    "acceptedAnswers": [],
+    "example": "Per alcuni tifosi la passione diventa quasi fanatismo.",
+    "definition": "Si usa per dire che una passione è esagerata.",
+    "page": "184-185",
+    "related": "Die Leidenschaft wird fast zum Fanatismus.|||Si usa per dire che una passione è esagerata.|Per alcuni tifosi la passione diventa quasi fanatismo."
+   },
+   {
+    "id": "u4-per-comunicare-008",
+    "target": "… circa 70 anni fa",
+    "translations": [
+     "vor etwa 70 Jahren"
+    ],
+    "acceptedAnswers": [],
+    "example": "Mio nonno è nato circa settanta anni fa.",
+    "definition": "Si usa per dire quando è successa una cosa.",
+    "page": "184-185",
+    "related": "vor etwa 70 Jahren|||Si usa per dire quando è successa una cosa.|Mio nonno è nato circa settanta anni fa."
+   },
+   {
+    "id": "u4-per-comunicare-009",
+    "target": "Benché i suoi successi risalgano agli anni ’50, …",
+    "translations": [
+     "Obwohl seine Erfolge in die 50er-Jahre zurückreichen, …"
+    ],
+    "acceptedAnswers": [],
+    "example": "Benché i suoi successi risalgano agli anni ’50, è ancora famoso.",
+    "definition": "Si usa per collegare un fatto del passato a oggi.",
+    "usage": "+ cong.",
+    "page": "184-185",
+    "related": "Obwohl seine Erfolge in die 50er-Jahre zurückreichen, …|+ cong.||Si usa per collegare un fatto del passato a oggi.|Benché i suoi successi risalgano agli anni ’50, è ancora famoso."
    }
   ]
  }

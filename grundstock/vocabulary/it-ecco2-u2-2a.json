@@ -89,7 +89,7 @@
    "page": "203-205",
    "definition": "Dare notizie a qualcuno.",
    "example": "Informo i miei genitori del voto.",
-   "related": "▸ l’informazione"
+   "family": "l’informazione"
   },
   {
    "id": "u2-2a-005",
@@ -121,7 +121,8 @@
    "page": "203-205",
    "definition": "Lasciar fare.",
    "example": "Mamma non mi permette di uscire.",
-   "related": "≠ vietare; E to permit; L permittere",
+   "antonyms": "vietare",
+   "related": "E to permit; L permittere",
    "usage": "p.p. permesso"
   },
   {
@@ -278,7 +279,7 @@
    "page": "203-205",
    "definition": "Che fa del male.",
    "example": "Il lupo è cattivo.",
-   "related": "≠ buono/-a",
+   "antonyms": "buono/-a",
    "usage": "≠ buono/-a"
   },
   {
@@ -394,7 +395,8 @@
    "page": "203-205",
    "definition": "Persona che insegna.",
    "example": "L’insegnante spiega la lezione.",
-   "related": "F enseignant; = il/la prof(essore/-ssa)"
+   "related": "F enseignant",
+   "synonyms": "il/la prof(essore/-ssa)"
   },
   {
    "id": "u2-2a-029",
@@ -415,7 +417,10 @@
    "page": "203-205",
    "definition": "Fare attenzione solo a una cosa.",
    "example": "Mi concentro sullo studio.",
-   "related": "E to concentrate"
+   "related": "E to concentrate",
+   "acceptedAnswers": [
+    "concentrarsi su"
+   ]
   },
   {
    "id": "u2-2a-031",
@@ -504,7 +509,10 @@
    ],
    "page": "203-205",
    "definition": "Desiderare di fare qualcosa.",
-   "example": "Ho voglia di un gelato."
+   "example": "Ho voglia di un gelato.",
+   "acceptedAnswers": [
+    "avere voglia di / + inf."
+   ]
   },
   {
    "id": "u2-2a-039",
@@ -531,7 +539,7 @@
    "page": "203-205",
    "definition": "All’interno di un luogo.",
    "example": "Il gatto è dentro casa.",
-   "related": "≠ fuori",
+   "antonyms": "fuori",
    "usage": "avv."
   },
   {
@@ -542,7 +550,10 @@
    ],
    "page": "203-205",
    "definition": "Che non può fare a meno di qualcosa.",
-   "example": "Sono dipendente dal caffè."
+   "example": "Sono dipendente dal caffè.",
+   "acceptedAnswers": [
+    "dipendente da"
+   ]
   },
   {
    "id": "u2-2a-042",
@@ -552,7 +563,10 @@
    ],
    "page": "203-205",
    "definition": "Essere in contatto o in relazione.",
-   "example": "Non voglio avere a che fare con lui."
+   "example": "Non voglio avere a che fare con lui.",
+   "acceptedAnswers": [
+    "avere a che fare con"
+   ]
   },
   {
    "id": "u2-2a-043",

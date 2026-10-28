@@ -59,7 +59,7 @@
    "page": "169-170",
    "definition": "In un posto lontano da chi parla.",
    "example": "Là c’è la stazione.",
-   "related": "≠ qui/qua",
+   "antonyms": "qui/qua",
    "usage": "avv."
   },
   {
@@ -103,7 +103,7 @@
    "page": "169-170",
    "definition": "Parola per dire che sei d’accordo.",
    "example": "Sì, hai ragione!",
-   "related": "≠ no"
+   "antonyms": "no"
   },
   {
    "id": "u1-1a-008",
@@ -217,7 +217,8 @@
    "page": "169-170",
    "definition": "In modo positivo, senza problemi.",
    "example": "Parlo bene l’italiano.",
-   "related": "≠ male; F bien; L bene",
+   "antonyms": "male",
+   "related": "F bien; L bene",
    "usage": "avv."
   },
   {
@@ -417,7 +418,7 @@
    "page": "169-170",
    "definition": "Parola per dire che non sei d’accordo o non vuoi.",
    "example": "No, grazie.",
-   "related": "≠ sì"
+   "antonyms": "sì"
   },
   {
    "id": "u1-1a-035",

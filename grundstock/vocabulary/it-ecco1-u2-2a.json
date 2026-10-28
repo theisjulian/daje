@@ -38,7 +38,7 @@
    "page": "173-174",
    "definition": "La madre, detta in modo affettuoso.",
    "example": "La mamma cucina molto bene.",
-   "related": "≠ papà",
+   "antonyms": "papà",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -333,7 +333,8 @@
    "page": "173-174",
    "definition": "Situazione in cui le cose non sono al loro posto.",
    "example": "Dov’è lo zaino? Che disordine!",
-   "related": "= caos; E disorder",
+   "synonyms": "caos",
+   "related": "E disorder",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -683,7 +684,7 @@
    "page": "173-174",
    "definition": "Più in basso rispetto a qualcosa.",
    "example": "Il pallone è sotto il tavolo.",
-   "related": "≠ su"
+   "antonyms": "su"
   },
   {
    "id": "u2-2a-040",

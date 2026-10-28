@@ -85,7 +85,10 @@
    "page": "190-191",
    "definition": "Dire se un vestito ti sta bene o male.",
    "example": "Questo vestito mi sta bene.",
-   "related": "L stare"
+   "related": "L stare",
+   "acceptedAnswers": [
+    "stare a"
+   ]
   },
   {
    "id": "u6-approccio-005",
@@ -127,7 +130,7 @@
    "page": "190-191",
    "definition": "Molto bene.",
    "example": "Ti sta benissimo!",
-   "related": "= molto bene",
+   "synonyms": "molto bene",
    "usage": "avv."
   },
   {
@@ -510,7 +513,7 @@
    "page": "190-191",
    "definition": "Lenti per proteggere gli occhi dal sole.",
    "example": "Con gli occhiali vedo bene.",
-   "related": "▸ l’occhio",
+   "family": "l’occhio",
    "acceptedAnswers": [
     "gli occhiali"
    ],

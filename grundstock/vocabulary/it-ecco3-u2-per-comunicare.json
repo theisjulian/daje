@@ -1,0 +1,156 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco3-u2-per-comunicare",
+ "title": "Ecco più 3 · Unità 2 · Per comunicare",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "B1",
+ "description": "Wortschatz zu „Vor- und Nachteile, Mediennutzung, Erlebnisse“ aus Ecco più 3 (Unità 2, Per comunicare).",
+ "topics": [
+  "Redemittel",
+  "Medien",
+  "Argumentieren"
+ ],
+ "collection": "Ecco più 3 (Cornelsen)",
+ "section": "Unità 2 · Per comunicare",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 175 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u2-per-comunicare-001",
+   "target": "anche se",
+   "translations": [
+    "auch wenn",
+    "obwohl"
+   ],
+   "page": "175",
+   "definition": "Si usa per dire un limite o un contrasto.",
+   "example": "Trovo tutto online, anche se non tutte le fonti sono utili.",
+   "related": "auch wenn; obwohl|||Si usa per dire un limite o un contrasto.|Trovo tutto online, anche se non tutte le fonti sono utili."
+  },
+  {
+   "id": "u2-per-comunicare-002",
+   "target": "Lo svantaggio è che …",
+   "translations": [
+    "Der Nachteil ist, dass …"
+   ],
+   "page": "175",
+   "definition": "Si usa per presentare un aspetto negativo.",
+   "example": "Lo svantaggio è che si passa troppo tempo al telefono.",
+   "related": "Der Nachteil ist, dass …|||Si usa per presentare un aspetto negativo.|Lo svantaggio è che si passa troppo tempo al telefono."
+  },
+  {
+   "id": "u2-per-comunicare-003",
+   "target": "Il vantaggio è che …",
+   "translations": [
+    "Der Vorteil ist, dass …"
+   ],
+   "page": "175",
+   "definition": "Si usa per presentare un aspetto positivo.",
+   "example": "Il vantaggio è che si risparmia tempo.",
+   "related": "Der Vorteil ist, dass …|||Si usa per presentare un aspetto positivo.|Il vantaggio è che si risparmia tempo."
+  },
+  {
+   "id": "u2-per-comunicare-004",
+   "target": "È così pratico …",
+   "translations": [
+    "Es ist so praktisch …"
+   ],
+   "page": "175",
+   "definition": "Si usa per dire che una cosa è comoda.",
+   "example": "È così pratico fare la spesa online.",
+   "related": "Es ist so praktisch …|||Si usa per dire che una cosa è comoda.|È così pratico fare la spesa online."
+  },
+  {
+   "id": "u2-per-comunicare-005",
+   "target": "Se non ci fosse Internet, …",
+   "translations": [
+    "Wenn es das Internet nicht gäbe, …"
+   ],
+   "page": "175",
+   "definition": "Si usa per immaginare una situazione diversa.",
+   "example": "Se non ci fosse Internet, sarebbe tutto più complicato.",
+   "related": "Wenn es das Internet nicht gäbe, …|+ condizionale||Si usa per immaginare una situazione diversa.|Se non ci fosse Internet, sarebbe tutto più complicato.",
+   "usage": "+ condizionale"
+  },
+  {
+   "id": "u2-per-comunicare-006",
+   "target": "Se non ci vedessi un senso, non lo farei.",
+   "translations": [
+    "Wenn ich keinen Sinn darin sähe, würde ich es nicht tun."
+   ],
+   "page": "175",
+   "definition": "Si usa per formulare una condizione.",
+   "example": "Se non ci vedessi un senso, non lo farei mai.",
+   "related": "Wenn ich keinen Sinn darin sähe, würde ich es nicht tun.|||Si usa per formulare una condizione.|Se non ci vedessi un senso, non lo farei mai."
+  },
+  {
+   "id": "u2-per-comunicare-007",
+   "target": "La prima cosa che ho notato …",
+   "translations": [
+    "Das Erste, was mir aufgefallen ist …"
+   ],
+   "page": "175",
+   "definition": "Si usa per raccontare un’impressione.",
+   "example": "La prima cosa che ho notato erano le tante biciclette.",
+   "related": "Das Erste, was mir aufgefallen ist …|||Si usa per raccontare un’impressione.|La prima cosa che ho notato erano le tante biciclette."
+  },
+  {
+   "id": "u2-per-comunicare-008",
+   "target": "All’inizio non ci potevo credere.",
+   "translations": [
+    "Anfangs konnte ich es nicht glauben."
+   ],
+   "page": "175",
+   "definition": "Si usa per dire che una cosa ti ha sorpreso molto.",
+   "example": "All’inizio non ci potevo credere: la scuola finiva alle tre!",
+   "related": "Anfangs konnte ich es nicht glauben.|||Si usa per dire che una cosa ti ha sorpreso molto.|All’inizio non ci potevo credere: la scuola finiva alle tre!"
+  },
+  {
+   "id": "u2-per-comunicare-009",
+   "target": "È stata anche un’avventura …",
+   "translations": [
+    "Es war auch ein Abenteuer …"
+   ],
+   "page": "175",
+   "definition": "Si usa per raccontare un’esperienza speciale.",
+   "example": "È stata anche un’avventura vedere il mare del Nord.",
+   "related": "Es war auch ein Abenteuer …|||Si usa per raccontare un’esperienza speciale.|È stata anche un’avventura vedere il mare del Nord."
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "3",
+   "unit": "Unità 2",
+   "section": "Per comunicare",
+   "pages": "175"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "themes": [
+   "Redemittel",
+   "Medien",
+   "Argumentieren"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

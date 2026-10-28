@@ -1,0 +1,629 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco3-u4-4a",
+ "title": "Ecco più 3 · Unità 4 · 4A Libera Terra",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "B1",
+ "description": "Wortschatz zu „Libera Terra – gegen die Mafia“ aus Ecco più 3 (Unità 4, 4A Libera Terra).",
+ "topics": [
+  "Mafia",
+  "Legalität",
+  "Landwirtschaft"
+ ],
+ "collection": "Ecco più 3 (Cornelsen)",
+ "section": "Unità 4 · 4A Libera Terra",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 182-183 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u4-4a-001",
+   "target": "la droga",
+   "translations": [
+    "die Droge"
+   ],
+   "page": "182-183",
+   "definition": "Una sostanza che fa male e crea dipendenza.",
+   "example": "La droga distrugge molte vite.",
+   "related": "die Droge|pl. le droghe||Una sostanza che fa male e crea dipendenza.|La droga distrugge molte vite.",
+   "usage": "pl. le droghe",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-002",
+   "target": "l’immigrazione",
+   "translations": [
+    "die Einwanderung"
+   ],
+   "page": "182-183",
+   "definition": "L’arrivo di persone da altri paesi.",
+   "example": "L’immigrazione cambia la società italiana.",
+   "related": "die Einwanderung|f.||L’arrivo di persone da altri paesi.|L’immigrazione cambia la società italiana.",
+   "usage": "f."
+  },
+  {
+   "id": "u4-4a-003",
+   "target": "la lotta",
+   "translations": [
+    "der Kampf"
+   ],
+   "page": "182-183",
+   "definition": "Lo sforzo contro un nemico o un problema.",
+   "example": "La lotta contro la mafia è difficile.",
+   "related": "F lutte",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-004",
+   "target": "la cooperazione",
+   "translations": [
+    "die Zusammenarbeit"
+   ],
+   "page": "182-183",
+   "definition": "Il lavoro fatto insieme.",
+   "example": "Con la cooperazione di tutti il progetto è riuscito.",
+   "related": "die Zusammenarbeit|||Il lavoro fatto insieme.|Con la cooperazione di tutti il progetto è riuscito.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-005",
+   "target": "il/la cittadino/-a",
+   "translations": [
+    "der/die Bürger/in"
+   ],
+   "page": "182-183",
+   "definition": "Una persona che vive in una città o in uno stato.",
+   "example": "Ogni cittadino ha diritti e doveri.",
+   "related": "der/die Bürger/in|||Una persona che vive in una città o in uno stato.|Ogni cittadino ha diritti e doveri."
+  },
+  {
+   "id": "u4-4a-006",
+   "target": "la legalità",
+   "translations": [
+    "die Rechtmäßigkeit"
+   ],
+   "page": "182-183",
+   "definition": "Il rispetto delle leggi.",
+   "example": "A scuola facciamo un progetto sulla legalità.",
+   "related": "die Rechtmäßigkeit|||Il rispetto delle leggi.|A scuola facciamo un progetto sulla legalità.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-007",
+   "target": "la giustizia",
+   "translations": [
+    "die Gerechtigkeit"
+   ],
+   "page": "182-183",
+   "definition": "Il fatto che tutti abbiano quello che è giusto.",
+   "example": "Le vittime chiedono giustizia.",
+   "related": "E justice; F justice",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-008",
+   "target": "coltivare",
+   "translations": [
+    "bewirtschaften",
+    "anbauen"
+   ],
+   "page": "182-183",
+   "definition": "Lavorare la terra per far crescere piante.",
+   "example": "I miei nonni coltivano pomodori.",
+   "related": "bewirtschaften; anbauen|||Lavorare la terra per far crescere piante.|I miei nonni coltivano pomodori."
+  },
+  {
+   "id": "u4-4a-009",
+   "target": "vario/-a",
+   "translations": [
+    "verschieden",
+    "vielfältig"
+   ],
+   "page": "182-183",
+   "definition": "Diverso, di molti tipi.",
+   "example": "Il menù è molto vario.",
+   "related": "E varied"
+  },
+  {
+   "id": "u4-4a-010",
+   "target": "il vino",
+   "translations": [
+    "der Wein"
+   ],
+   "page": "182-183",
+   "definition": "Una bevanda alcolica fatta con l’uva.",
+   "example": "La Toscana produce vini famosi.",
+   "related": "F vin",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-011",
+   "target": "la salsa",
+   "translations": [
+    "die Soße"
+   ],
+   "page": "182-183",
+   "definition": "Un condimento liquido per la pasta o la carne.",
+   "example": "La salsa di pomodoro è fatta in casa.",
+   "related": "die Soße|||Un condimento liquido per la pasta o la carne.|La salsa di pomodoro è fatta in casa.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-012",
+   "target": "perdonare",
+   "translations": [
+    "entschuldigen",
+    "verzeihen"
+   ],
+   "page": "182-183",
+   "definition": "Non essere più arrabbiati con qualcuno.",
+   "example": "Perdonami, non volevo offenderti.",
+   "related": "F pardonner"
+  },
+  {
+   "id": "u4-4a-013",
+   "target": "avere a che fare con qs",
+   "translations": [
+    "zu tun haben mit etw."
+   ],
+   "page": "182-183",
+   "definition": "Avere un rapporto con qualcosa.",
+   "example": "Non voglio avere niente a che fare con questa storia.",
+   "related": "zu tun haben mit etw.|||Avere un rapporto con qualcosa.|Non voglio avere niente a che fare con questa storia.",
+   "acceptedAnswers": [
+    "avere a che fare con"
+   ]
+  },
+  {
+   "id": "u4-4a-014",
+   "target": "l’insieme",
+   "translations": [
+    "die Gesamtheit"
+   ],
+   "page": "182-183",
+   "definition": "Tutte le parti considerate insieme.",
+   "example": "L’insieme dei dati mostra un problema.",
+   "related": "die Gesamtheit|m.||Tutte le parti considerate insieme.|L’insieme dei dati mostra un problema.",
+   "usage": "m."
+  },
+  {
+   "id": "u4-4a-015",
+   "target": "la cooperativa",
+   "translations": [
+    "die Genossenschaft"
+   ],
+   "page": "182-183",
+   "definition": "Un’azienda che appartiene a chi ci lavora.",
+   "example": "I ragazzi lavorano in una cooperativa agricola.",
+   "related": "die Genossenschaft|||Un’azienda che appartiene a chi ci lavora.|I ragazzi lavorano in una cooperativa agricola.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-016",
+   "target": "lavorare",
+   "translations": [
+    "bewirtschaften"
+   ],
+   "page": "182-183",
+   "definition": "Coltivare la terra.",
+   "example": "In autunno si lavora la terra.",
+   "related": "bewirtschaften|hier||Coltivare la terra.|In autunno si lavora la terra.",
+   "usage": "hier"
+  },
+  {
+   "id": "u4-4a-017",
+   "target": "il terreno",
+   "translations": [
+    "das Feld",
+    "der Boden"
+   ],
+   "page": "182-183",
+   "definition": "Un pezzo di terra.",
+   "example": "La cooperativa coltiva i terreni confiscati alla mafia.",
+   "related": "das Feld; der Boden|||Un pezzo di terra.|La cooperativa coltiva i terreni confiscati alla mafia.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-018",
+   "target": "confiscare",
+   "translations": [
+    "beschlagnahmen"
+   ],
+   "page": "182-183",
+   "definition": "Prendere un bene a qualcuno per legge.",
+   "example": "Lo stato ha confiscato le case del boss.",
+   "related": "beschlagnahmen|||Prendere un bene a qualcuno per legge.|Lo stato ha confiscato le case del boss."
+  },
+  {
+   "id": "u4-4a-019",
+   "target": "il boss",
+   "translations": [
+    "der Boss"
+   ],
+   "page": "182-183",
+   "definition": "Il capo di un’organizzazione criminale.",
+   "example": "Il boss è stato arrestato dopo anni.",
+   "related": "der Boss|pl. i boss||Il capo di un’organizzazione criminale.|Il boss è stato arrestato dopo anni.",
+   "usage": "pl. i boss",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-020",
+   "target": "l’antimafia",
+   "translations": [
+    "die Antimafia"
+   ],
+   "page": "182-183",
+   "definition": "La lotta organizzata contro la mafia.",
+   "example": "L’antimafia lavora con la polizia e i giudici.",
+   "related": "die Antimafia|||La lotta organizzata contro la mafia.|L’antimafia lavora con la polizia e i giudici."
+  },
+  {
+   "id": "u4-4a-021",
+   "target": "arrestare qn",
+   "translations": [
+    "jdn verhaften"
+   ],
+   "page": "182-183",
+   "definition": "Prendere una persona e portarla in prigione.",
+   "example": "La polizia ha arrestato due ladri.",
+   "related": "E to arrest; F arrêter",
+   "acceptedAnswers": [
+    "arrestare"
+   ]
+  },
+  {
+   "id": "u4-4a-022",
+   "target": "mafioso/-a",
+   "translations": [
+    "Mafia-"
+   ],
+   "page": "182-183",
+   "definition": "Della mafia.",
+   "example": "È un’organizzazione di tipo mafioso.",
+   "related": "Mafia-|||Della mafia.|È un’organizzazione di tipo mafioso."
+  },
+  {
+   "id": "u4-4a-023",
+   "target": "anti-",
+   "translations": [
+    "anti-"
+   ],
+   "page": "182-183",
+   "definition": "Contro.",
+   "example": "Organizziamo una manifestazione antirazzista.",
+   "related": "anti-|||Contro.|Organizziamo una manifestazione antirazzista."
+  },
+  {
+   "id": "u4-4a-024",
+   "target": "l’utilizzo",
+   "translations": [
+    "die Nutzung"
+   ],
+   "page": "182-183",
+   "definition": "L’uso.",
+   "example": "L’utilizzo del cellulare in classe è vietato.",
+   "related": "die Nutzung|||L’uso.|L’utilizzo del cellulare in classe è vietato."
+  },
+  {
+   "id": "u4-4a-025",
+   "target": "la consapevolezza",
+   "translations": [
+    "das Bewusstsein"
+   ],
+   "page": "182-183",
+   "definition": "Il fatto di sapere e capire bene una cosa.",
+   "example": "La scuola deve creare consapevolezza sull’ambiente.",
+   "family": "consapevole",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-026",
+   "target": "la prospettiva",
+   "translations": [
+    "die Perspektive"
+   ],
+   "page": "182-183",
+   "definition": "Il modo di vedere una cosa; possibilità per il futuro.",
+   "example": "Prova a vedere le cose dalla mia prospettiva.",
+   "related": "die Perspektive|||Il modo di vedere una cosa; possibilità per il futuro.|Prova a vedere le cose dalla mia prospettiva.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-027",
+   "target": "la provenienza",
+   "translations": [
+    "die Herkunft"
+   ],
+   "page": "182-183",
+   "definition": "Il luogo da cui viene una persona o una cosa.",
+   "example": "Sul pacchetto c’è la provenienza del caffè.",
+   "related": "die Herkunft|||Il luogo da cui viene una persona o una cosa.|Sul pacchetto c’è la provenienza del caffè.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-028",
+   "target": "la peculiarità",
+   "translations": [
+    "die Besonderheit"
+   ],
+   "page": "182-183",
+   "definition": "Una caratteristica speciale.",
+   "example": "La peculiarità di questa città sono i portici.",
+   "related": "E peculiarity",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-029",
+   "target": "attenersi a qs",
+   "translations": [
+    "sich an etw. halten"
+   ],
+   "page": "182-183",
+   "definition": "Seguire regole o istruzioni.",
+   "example": "Bisogna attenersi alle regole del gioco.",
+   "related": "sich an etw. halten|(mi attengo)||Seguire regole o istruzioni.|Bisogna attenersi alle regole del gioco.",
+   "acceptedAnswers": [
+    "attenersi a"
+   ],
+   "usage": "(mi attengo)"
+  },
+  {
+   "id": "u4-4a-030",
+   "target": "biologico/-a",
+   "translations": [
+    "biologisch"
+   ],
+   "page": "182-183",
+   "definition": "Prodotto senza chimica.",
+   "example": "Compriamo solo frutta biologica.",
+   "related": "biologisch|||Prodotto senza chimica.|Compriamo solo frutta biologica."
+  },
+  {
+   "id": "u4-4a-031",
+   "target": "il/la consumatore/consumatrice",
+   "translations": [
+    "der/die Verbraucher/in"
+   ],
+   "page": "182-183",
+   "definition": "Una persona che compra e usa prodotti.",
+   "example": "I consumatori vogliono prodotti sani.",
+   "family": "consumare"
+  },
+  {
+   "id": "u4-4a-032",
+   "target": "sano/-a",
+   "translations": [
+    "gesund"
+   ],
+   "page": "182-183",
+   "definition": "Che fa bene alla salute; che non è malato.",
+   "example": "Mangiare frutta è sano.",
+   "related": "gesund|||Che fa bene alla salute; che non è malato.|Mangiare frutta è sano."
+  },
+  {
+   "id": "u4-4a-033",
+   "target": "chiunque",
+   "translations": [
+    "wer auch immer",
+    "jede(r,s)"
+   ],
+   "page": "182-183",
+   "definition": "Qualsiasi persona.",
+   "example": "Chiunque venga, è il benvenuto.",
+   "related": "wer auch immer; jede(r,s)|+ cong.||Qualsiasi persona.|Chiunque venga, è il benvenuto.",
+   "usage": "+ cong."
+  },
+  {
+   "id": "u4-4a-034",
+   "target": "la distanza",
+   "translations": [
+    "die Entfernung",
+    "die Distanz"
+   ],
+   "page": "182-183",
+   "definition": "Lo spazio tra due posti.",
+   "example": "La scuola è a una distanza di due chilometri.",
+   "related": "die Entfernung; die Distanz|||Lo spazio tra due posti.|La scuola è a una distanza di due chilometri.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4a-035",
+   "target": "specializzato/-a",
+   "translations": [
+    "spezialisiert"
+   ],
+   "page": "182-183",
+   "definition": "Che conosce molto bene un settore.",
+   "example": "È un medico specializzato in sport.",
+   "related": "spezialisiert|||Che conosce molto bene un settore.|È un medico specializzato in sport."
+  },
+  {
+   "id": "u4-4a-036",
+   "target": "via",
+   "translations": [
+    "über (per)"
+   ],
+   "page": "182-183",
+   "definition": "Attraverso, per mezzo di.",
+   "example": "Ti mando le foto via e-mail.",
+   "related": "über (per)|prep.||Attraverso, per mezzo di.|Ti mando le foto via e-mail.",
+   "usage": "prep."
+  },
+  {
+   "id": "u4-4a-037",
+   "target": "il contributo",
+   "translations": [
+    "der Beitrag"
+   ],
+   "page": "182-183",
+   "definition": "Quello che una persona dà a un progetto.",
+   "example": "Ognuno ha dato il suo contributo.",
+   "related": "E contribution",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "3",
+   "unit": "Unità 4",
+   "section": "4A Libera Terra",
+   "pages": "182-183"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "themes": [
+   "Mafia",
+   "Legalität",
+   "Landwirtschaft"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

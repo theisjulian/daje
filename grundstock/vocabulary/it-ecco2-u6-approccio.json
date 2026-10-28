@@ -77,7 +77,7 @@
    "page": "222-223",
    "definition": "Attività che si fa per gli altri.",
    "example": "Il servizio al ristorante è ottimo.",
-   "related": "▸ servire",
+   "family": "servire",
    "usage": "pl. i servizi",
    "grammar": {
     "partOfSpeech": "noun",
@@ -271,7 +271,7 @@
    "page": "222-223",
    "definition": "Del nord.",
    "example": "Milano è una città settentrionale.",
-   "related": "= a nord"
+   "synonyms": "a nord"
   },
   {
    "id": "u6-approccio-016",
@@ -331,7 +331,8 @@
    "page": "222-223",
    "definition": "Viaggi per piacere, sulle spiagge.",
    "example": "Il turismo balneare è importante.",
-   "related": "▸ il/la turista; E tourism",
+   "family": "il/la turista",
+   "related": "E tourism",
    "acceptedAnswers": [
     "il turismo"
    ],
@@ -449,7 +450,7 @@
    "page": "222-223",
    "definition": "La parte sud di un paese.",
    "example": "Il Mezzogiorno è molto caldo.",
-   "related": "≠ settentrione"
+   "antonyms": "settentrione"
   },
   {
    "id": "u6-approccio-026",
@@ -495,7 +496,8 @@
    "page": "222-223",
    "definition": "Valore o peso di qualcosa.",
    "example": "L’importanza della salute è grande.",
-   "related": "▸ importante; E importance"
+   "family": "importante",
+   "related": "E importance"
   },
   {
    "id": "u6-approccio-030",
@@ -525,7 +527,7 @@
    "page": "222-223",
    "definition": "Quanto si riceve per un lavoro.",
    "example": "Il guadagno è buono.",
-   "related": "▸ guadagnare",
+   "family": "guadagnare",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -604,7 +606,7 @@
    "page": "222-223",
    "definition": "Che viene da un luogo.",
    "example": "Sono originario di Bari.",
-   "related": "▸ l’origine"
+   "family": "l’origine"
   }
  ],
  "catalog": {

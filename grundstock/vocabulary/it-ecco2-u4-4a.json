@@ -78,6 +78,9 @@
    "page": "214",
    "definition": "Non avere dubbi.",
    "example": "Sono sicuro di venire.",
+   "acceptedAnswers": [
+    "essere sicuro/-a di / + inf."
+   ],
    "usage": "Abc"
   },
   {
@@ -89,6 +92,9 @@
    "page": "214",
    "definition": "Aiutare qualcuno.",
    "example": "Mi dai una mano con i compiti?",
+   "acceptedAnswers": [
+    "dare una mano a"
+   ],
    "usage": "Abc"
   },
   {
@@ -172,7 +178,8 @@
    "page": "214",
    "definition": "Già utilizzato da altri.",
    "example": "Compro un libro usato.",
-   "related": "≠ nuovo; E used",
+   "antonyms": "nuovo",
+   "related": "E used",
    "usage": "≠ nuovo"
   },
   {
@@ -184,7 +191,7 @@
    "page": "214",
    "definition": "Piccolo lavoro occasionale.",
    "example": "Faccio un lavoretto d’estate.",
-   "related": "▸ il lavoro",
+   "family": "il lavoro",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -309,6 +316,9 @@
    "page": "214",
    "definition": "Fare attenzione a qualcuno o qualcosa.",
    "example": "Sta’ attento alla strada!",
+   "acceptedAnswers": [
+    "stare attento/-a a"
+   ],
    "contrast": "stare attento (auf der Hut sein) – fare attenzione (aufmerksam sein)"
   },
   {
@@ -349,7 +359,7 @@
    "page": "214",
    "definition": "Provare tristezza per qualcosa.",
    "example": "Mi dispiace molto.",
-   "related": "≠ piacere",
+   "antonyms": "piacere",
    "usage": "mi dispiace = das tut mir leid"
   },
   {

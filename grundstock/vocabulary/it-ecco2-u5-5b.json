@@ -447,7 +447,7 @@
    "page": "220-221",
    "definition": "Persona di età avanzata.",
    "example": "La nonna è anziana.",
-   "related": "= vecchio/-a",
+   "synonyms": "vecchio/-a",
    "usage": "= vecchio/-a"
   },
   {
@@ -608,6 +608,9 @@
    "page": "220-221",
    "definition": "Far diventare in un certo modo.",
    "example": "La musica mi rende felice.",
+   "acceptedAnswers": [
+    "rendere + agg., reso"
+   ],
    "usage": "p.p. reso"
   },
   {
@@ -701,7 +704,8 @@
    "page": "220-221",
    "definition": "Incertezza.",
    "example": "Ho un dubbio.",
-   "related": "▸ dubitare; E doubt; L dubium",
+   "family": "dubitare",
+   "related": "E doubt; L dubium",
    "usage": "pl. i dubbi",
    "grammar": {
     "partOfSpeech": "noun",

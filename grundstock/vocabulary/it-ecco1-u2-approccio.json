@@ -88,7 +88,7 @@
    "page": "172-173",
    "definition": "Il nome della famiglia, per esempio Rossi.",
    "example": "Il mio cognome è Bianchi.",
-   "related": "▸ il nome",
+   "family": "il nome",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -264,7 +264,7 @@
    "page": "172-173",
    "definition": "Si dice per esprimere una cosa che trovi bella o buona.",
    "example": "Mi piace la pizza.",
-   "related": "▸ piacere",
+   "family": "piacere",
    "usage": "+ sg."
   },
   {
@@ -626,7 +626,8 @@
    "page": "172-173",
    "definition": "Figlio degli stessi genitori.",
    "example": "Mio fratello gioca a calcio.",
-   "related": "F le frère; L frater; ≠ la sorella",
+   "related": "F le frère; L frater",
+   "antonyms": "la sorella",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",

@@ -39,7 +39,10 @@
     "fakultativ"
    ],
    "definition": "Riguardare un tema.",
-   "example": "Si tratta di un progetto."
+   "example": "Si tratta di un progetto.",
+   "acceptedAnswers": [
+    "trattarsi di"
+   ]
   },
   {
    "id": "m-musica-002",
@@ -92,7 +95,9 @@
    ],
    "definition": "Noto a molti.",
    "example": "È uno scrittore conosciuto.",
-   "related": "▸ conoscere; ≠ sconosciuto/-a; L cognoscere; F connu/connue"
+   "family": "conoscere",
+   "antonyms": "sconosciuto/-a",
+   "related": "L cognoscere; F connu/connue"
   },
   {
    "id": "m-musica-005",
@@ -180,7 +185,7 @@
    ],
    "definition": "Che ha a che fare con suoni e melodie.",
    "example": "Ho un orecchio musicale.",
-   "related": "▸ la musica"
+   "family": "la musica"
   },
   {
    "id": "m-musica-010",
@@ -211,6 +216,9 @@
    "definition": "Creare una musica o un testo.",
    "example": "Compone una canzone.",
    "related": "E to compose; F composer; L componere",
+   "acceptedAnswers": [
+    "comporre, composto"
+   ],
    "usage": "p.p. composto"
   },
   {
@@ -248,7 +256,8 @@
    ],
    "definition": "Meravigliare.",
    "example": "Mi sorprende il risultato.",
-   "related": "▸ la sorpresa; E surprise; F surprendre",
+   "family": "la sorpresa",
+   "related": "E surprise; F surprendre",
    "usage": "p.p. sorpreso"
   },
   {
@@ -263,7 +272,8 @@
    ],
    "definition": "Di una regione.",
    "example": "È una tradizione regionale.",
-   "related": "▸ la regione; L regio"
+   "family": "la regione",
+   "related": "L regio"
   },
   {
    "id": "m-musica-015",
@@ -277,7 +287,8 @@
    ],
    "definition": "Arte di produrre melodie con la voce.",
    "example": "Studio canto.",
-   "related": "▸ cantare, il/la cantante; F le chant; L cantus",
+   "family": "cantare, il/la cantante",
+   "related": "F le chant; L cantus",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -335,7 +346,7 @@
    ],
    "definition": "Artista che scrive e canta le sue canzoni.",
    "example": "Il cantautore canta con la chitarra.",
-   "related": "▸ cantare, il/la cantante",
+   "family": "cantare, il/la cantante",
    "usage": "pl. i cantautori, le cantautrici",
    "grammar": {
     "partOfSpeech": "noun",
@@ -360,7 +371,8 @@
    ],
    "definition": "Atto di creare.",
    "example": "La creazione dell’opera è stata lunga.",
-   "related": "▸ creare; E creation; F la création",
+   "family": "creare",
+   "related": "E creation; F la création",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -507,7 +519,10 @@
     "fakultativ"
    ],
    "definition": "In aggiunta a.",
-   "example": "Oltre a te, viene anche Marco."
+   "example": "Oltre a te, viene anche Marco.",
+   "acceptedAnswers": [
+    "oltre a"
+   ]
   },
   {
    "id": "m-musica-027",

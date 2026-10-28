@@ -147,7 +147,8 @@
    "page": "178-180",
    "definition": "Lasciare un luogo per andare in un altro.",
    "example": "Parto da casa alle sette.",
-   "related": "F partir; ≠ arrivare"
+   "related": "F partir",
+   "antonyms": "arrivare"
   },
   {
    "id": "u3-3a-011",
@@ -549,7 +550,8 @@
    "page": "178-180",
    "definition": "Arrivare alla fine di qualcosa.",
    "example": "La scuola finisce all’una.",
-   "related": "≠ cominciare; E to finish",
+   "antonyms": "cominciare",
+   "related": "E to finish",
    "acceptedAnswers": [
     "finire"
    ],
@@ -637,7 +639,7 @@
    "page": "178-180",
    "definition": "Per attirare l’attenzione di una persona a cui dai del Lei.",
    "example": "Senta, scusi!",
-   "related": "▸ sentire"
+   "family": "sentire"
   },
   {
    "id": "u3-3a-043",
@@ -648,7 +650,8 @@
    "page": "178-180",
    "definition": "Il giorno dopo oggi.",
    "example": "I compiti sono per domani.",
-   "related": "≠ oggi; F demain",
+   "antonyms": "oggi",
+   "related": "F demain",
    "usage": "avv."
   },
   {
@@ -672,7 +675,7 @@
    "page": "178-180",
    "definition": "Saluto di commiato.",
    "example": "Arrivederci, a domani!",
-   "related": "≠ buongiorno"
+   "antonyms": "buongiorno"
   }
  ],
  "catalog": {

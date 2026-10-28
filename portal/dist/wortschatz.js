@@ -162,7 +162,7 @@ let wsBook = { get: () => null, set() {} };
     if (s.base) return WORDS.filter(w => w.group === s.base);
     const x = contentList('vocabulary').find(z => z.id === s.id);
     return x
-      ? x.entries.filter(w => ws.opt || !(w.tags || []).includes('fakultativ')).map(w => ({ id: x.id + '-' + w.id, target: w.target, translations: w.translations, acceptedAnswers: w.acceptedAnswers, grammar: w.grammar, answerPolicy: w.answerPolicy, language: x.language, label: x.title, def: w.definition, example: w.example, related: w.related, synonyms: w.synonyms, antonyms: w.antonyms, family: w.family, usage: w.usage, contrast: w.contrast, ipa: w.ipa, audio: w.audio, image: w.image }))
+      ? x.entries.filter(w => ws.opt || !(w.tags || []).includes('fakultativ')).map(w => ({ id: x.id + '-' + w.id, target: w.target, translations: w.translations, acceptedAnswers: w.acceptedAnswers, grammar: w.grammar, answerPolicy: w.answerPolicy, language: x.language, label: x.title, def: w.definition, example: w.example, related: w.related, synonyms: w.synonyms, antonyms: w.antonyms, family: w.family, usage: w.usage, contrast: w.contrast, say: w.say, ipa: w.ipa, audio: w.audio, image: w.image }))
       : [];
   };
   const allSecs = c => [...earlierVolumes(c).flatMap(z => z.secs), ...chosen(c)];

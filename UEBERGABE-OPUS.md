@@ -185,6 +185,12 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - **Ecco più 3 · Unità 1** (grundstock/vocabulary/eigen-mvrwii4ucilr.json, ID unverändert wegen Lernstand): Angaben angeglichen, zwei Übersetzungen und eine falsche Sprechform korrigiert. Erklärungen und dritte Spalte fehlen noch: mit KI-Wortschatz 1.2 neu einlesen.
 - **Titelbild für Listen:** Redaktion → „Titelbild“: eigenes Foto (wird verkleinert eingebettet), freies Foto suchen (Openverse) oder entfernen. Im Wortschatz erscheint das erste Foto einer Sammlung auf dem Buch bzw. oben auf der Themenkarte.
 
+## 6o. Ecco più 3 komplett (28.10.2026)
+
+- **Quelle:** `werkzeuge/ecco3/quelle-ecco3.txt` (aus dem Scan der Lista cronologica S. 166–185 abgetippt). Eine Datei mit sechs Spalten: Zielwort | Übersetzungen | Hinweis | dritte Spalte laut Buch | eigene Erklärung | eigener Beispielsatz (B1, Lebenswelt 13–18; die Lückensätze des Buchs wurden nicht übernommen). „Per comunicare“-Kästen als eigene Abschnitte mit Redemitteln.
+- **Import:** `werkzeuge/ecco_import.py` liest jetzt auch `quelle-*.txt`; die dritte Spalte wird für alle Bände aufgeteilt (`≠` → antonyms, `▸` → family, `=` → synonyms, Rest → related). „qn/qs“ wird als Antwort nicht verlangt (`acceptedAnswers`). 16 Pakete `it-ecco3-*`, 549 Einträge; die vorläufige Liste `eigen-mvrwii4ucilr` (nur Unità 1) ist entfernt.
+- **Training:** Karteikarten erhalten jetzt dritte Spalte und Sprechform (`say`) aus allen drei Wortzuordnungen (portal.js, wortschatz.js); vorher fehlte `say` beim Üben. Lange Wörter brechen nach „/“ um.
+
 ## 7. Offene Punkte
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.
 - Ecco 3 più importieren (nach Scan, exakte Kapitelzuordnung).

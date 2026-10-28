@@ -189,7 +189,7 @@
    "page": "197-198",
    "definition": "Con bassa temperatura.",
    "example": "La neve è fredda.",
-   "related": "≠ caldo"
+   "antonyms": "caldo"
   },
   {
    "id": "u7-7b-012",
@@ -220,7 +220,7 @@
    "page": "197-198",
    "definition": "Mettersi su una sedia.",
    "example": "Leo si siede sulla sedia.",
-   "related": "▸ la sedia",
+   "family": "la sedia",
    "acceptedAnswers": [
     "sedersi"
    ],
@@ -275,7 +275,10 @@
    ],
    "page": "197-198",
    "definition": "Avere fiducia in qualcuno.",
-   "example": "Io non mi fido del GPS."
+   "example": "Io non mi fido del GPS.",
+   "acceptedAnswers": [
+    "fidarsi di"
+   ]
   },
   {
    "id": "u7-7b-018",
@@ -397,7 +400,7 @@
    "page": "197-198",
    "definition": "Anche, addirittura.",
    "example": "Amo Liga. Ho perfino un autografo.",
-   "related": "= addirittura",
+   "synonyms": "addirittura",
    "usage": "avv."
   },
   {
@@ -408,7 +411,10 @@
    ],
    "page": "197-198",
    "definition": "Molto contento e pieno di energia per qualcosa.",
-   "example": "Tutti sono entusiasti dell’idea."
+   "example": "Tutti sono entusiasti dell’idea.",
+   "acceptedAnswers": [
+    "entusiasta di"
+   ]
   },
   {
    "id": "u7-7b-027",
@@ -460,6 +466,9 @@
    "page": "197-198",
    "definition": "Notare qualcosa che prima non si vedeva.",
    "example": "Giorgia si accorge di essere in ritardo.",
+   "acceptedAnswers": [
+    "accorgersi di"
+   ],
    "usage": "p.p. accorto"
   },
   {
@@ -511,7 +520,7 @@
    "page": "197-198",
    "definition": "Via dove passano le auto.",
    "example": "La strada è piena di auto.",
-   "related": "▸ la via",
+   "family": "la via",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -607,7 +616,8 @@
    "page": "197-198",
    "definition": "Dalla parte del braccio che di solito si usa per scrivere.",
    "example": "Gira a destra.",
-   "related": "≠ a sinistra; F à droite; L dexter",
+   "antonyms": "a sinistra",
+   "related": "F à droite; L dexter",
    "usage": "avv."
   },
   {

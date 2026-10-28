@@ -1,0 +1,784 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco3-u4-4b",
+ "title": "Ecco più 3 · Unità 4 · 4B Viva lo sport",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "B1",
+ "description": "Wortschatz zu „Es lebe der Sport“ aus Ecco più 3 (Unità 4, 4B Viva lo sport).",
+ "topics": [
+  "Sport",
+  "Radsport",
+  "Fußball"
+ ],
+ "collection": "Ecco più 3 (Cornelsen)",
+ "section": "Unità 4 · 4B Viva lo sport",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 183-185 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u4-4b-001",
+   "target": "diffuso/-a",
+   "translations": [
+    "beliebt",
+    "verbreitet"
+   ],
+   "page": "183-185",
+   "definition": "Presente in molti posti.",
+   "example": "Il calcio è lo sport più diffuso in Italia.",
+   "related": "beliebt; verbreitet|||Presente in molti posti.|Il calcio è lo sport più diffuso in Italia."
+  },
+  {
+   "id": "u4-4b-002",
+   "target": "la penisola",
+   "translations": [
+    "die Halbinsel"
+   ],
+   "page": "183-185",
+   "definition": "Una terra circondata dal mare su tre lati.",
+   "example": "L’Italia è una penisola.",
+   "family": "l’isola",
+   "related": "F péninsule",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-003",
+   "target": "ognuno",
+   "translations": [
+    "jede/-r/-s"
+   ],
+   "page": "183-185",
+   "definition": "Ogni persona.",
+   "example": "Ognuno porta qualcosa da mangiare.",
+   "antonyms": "nessuno"
+  },
+  {
+   "id": "u4-4b-004",
+   "target": "cavarsela",
+   "translations": [
+    "sich zurechtfinden",
+    "klarkommen"
+   ],
+   "page": "183-185",
+   "definition": "Riuscire a fare una cosa abbastanza bene.",
+   "example": "Non parlo benissimo tedesco, ma me la cavo.",
+   "related": "sich zurechtfinden; klarkommen|me la cavo, te la cavi …||Riuscire a fare una cosa abbastanza bene.|Non parlo benissimo tedesco, ma me la cavo.",
+   "usage": "me la cavo, te la cavi …"
+  },
+  {
+   "id": "u4-4b-005",
+   "target": "maschile/femminile",
+   "translations": [
+    "männlich/weiblich"
+   ],
+   "page": "183-185",
+   "definition": "Degli uomini / delle donne.",
+   "example": "La squadra femminile ha vinto il campionato.",
+   "family": "il maschio / la femmina"
+  },
+  {
+   "id": "u4-4b-006",
+   "target": "il club",
+   "translations": [
+    "der Verein"
+   ],
+   "page": "183-185",
+   "definition": "Un gruppo di persone con un interesse comune, spesso sportivo.",
+   "example": "Gioco a tennis in un club vicino a casa.",
+   "related": "der Verein|pl. i club||Un gruppo di persone con un interesse comune, spesso sportivo.|Gioco a tennis in un club vicino a casa.",
+   "usage": "pl. i club",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-007",
+   "target": "il finale",
+   "translations": [
+    "das Finale"
+   ],
+   "page": "183-185",
+   "definition": "La partita decisiva di un torneo.",
+   "example": "Abbiamo guardato il finale insieme.",
+   "family": "finire",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-008",
+   "target": "cosiddetto/-a",
+   "translations": [
+    "sogenannte/-r/-s"
+   ],
+   "page": "183-185",
+   "definition": "Che si chiama così.",
+   "example": "È il cosiddetto “Giro d’Italia”.",
+   "family": "così, dire"
+  },
+  {
+   "id": "u4-4b-009",
+   "target": "il fenomeno",
+   "translations": [
+    "das Phänomen"
+   ],
+   "page": "183-185",
+   "definition": "Un fatto speciale; anche una persona bravissima.",
+   "example": "Questo giocatore è un fenomeno.",
+   "related": "E phenomenon; F phénomène",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-010",
+   "target": "l’atleta",
+   "translations": [
+    "der/die Sportler/in"
+   ],
+   "page": "183-185",
+   "definition": "Una persona che fa sport a livello alto.",
+   "example": "Gli atleti si allenano ogni giorno.",
+   "related": "E athlete",
+   "usage": "m./f."
+  },
+  {
+   "id": "u4-4b-011",
+   "target": "il/la giocatore/giocatrice",
+   "translations": [
+    "der/die Spieler/in"
+   ],
+   "page": "183-185",
+   "definition": "Una persona che gioca, per esempio a calcio.",
+   "example": "La giocatrice ha segnato due gol.",
+   "family": "giocare",
+   "usage": "pl. i giocatori, le giocatrici"
+  },
+  {
+   "id": "u4-4b-012",
+   "target": "il ciclismo",
+   "translations": [
+    "der Radsport"
+   ],
+   "page": "183-185",
+   "definition": "Lo sport della bicicletta.",
+   "example": "Il ciclismo è molto popolare in Italia.",
+   "family": "la bicicletta",
+   "related": "F cyclisme",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-013",
+   "target": "l’idolo",
+   "translations": [
+    "das Idol"
+   ],
+   "page": "183-185",
+   "definition": "Una persona famosa che molti ammirano.",
+   "example": "Il mio idolo è un cantante italiano.",
+   "related": "E idol"
+  },
+  {
+   "id": "u4-4b-014",
+   "target": "leggendario/-a",
+   "translations": [
+    "legendär",
+    "sagenhaft"
+   ],
+   "page": "183-185",
+   "definition": "Famosissimo, come in una leggenda.",
+   "example": "Coppi è un ciclista leggendario.",
+   "family": "la leggenda",
+   "related": "E legendary"
+  },
+  {
+   "id": "u4-4b-015",
+   "target": "risalire a qs",
+   "translations": [
+    "auf etw. zurückgehen",
+    "aufsteigen"
+   ],
+   "page": "183-185",
+   "definition": "Avere origine in un tempo passato.",
+   "example": "Questa festa risale al Medioevo.",
+   "family": "salire",
+   "acceptedAnswers": [
+    "risalire a"
+   ],
+   "usage": "(risalgo)"
+  },
+  {
+   "id": "u4-4b-016",
+   "target": "il/la campione/campionessa",
+   "translations": [
+    "der/die Champion",
+    "der/die Meister/in"
+   ],
+   "page": "183-185",
+   "definition": "Una persona che vince le gare.",
+   "example": "È campionessa italiana di nuoto.",
+   "related": "E champion"
+  },
+  {
+   "id": "u4-4b-017",
+   "target": "il cuore",
+   "translations": [
+    "das Herz"
+   ],
+   "page": "183-185",
+   "definition": "L’organo che fa circolare il sangue; il simbolo dell’amore.",
+   "example": "Ti ringrazio di cuore.",
+   "related": "F cœur; L cor",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-018",
+   "target": "ciclistico/-a",
+   "translations": [
+    "Rad-"
+   ],
+   "page": "183-185",
+   "definition": "Del ciclismo.",
+   "example": "Il Giro d’Italia è una gara ciclistica.",
+   "family": "il ciclismo, la bicicletta",
+   "related": "E cycle"
+  },
+  {
+   "id": "u4-4b-019",
+   "target": "l’eroe/l’eroina",
+   "translations": [
+    "der Held",
+    "die Heldin"
+   ],
+   "page": "183-185",
+   "definition": "Una persona molto coraggiosa e ammirata.",
+   "example": "Per me i medici sono eroi.",
+   "related": "E hero; F héros/héroïne"
+  },
+  {
+   "id": "u4-4b-020",
+   "target": "l’uomo",
+   "translations": [
+    "der Mensch",
+    "der Mann"
+   ],
+   "page": "183-185",
+   "definition": "Una persona; un maschio adulto.",
+   "example": "Quell’uomo è il mio allenatore.",
+   "related": "E human; F homme; L homo",
+   "usage": "pl. gli uomini"
+  },
+  {
+   "id": "u4-4b-021",
+   "target": "praticare",
+   "translations": [
+    "ausüben",
+    "treiben"
+   ],
+   "page": "183-185",
+   "definition": "Fare regolarmente un’attività.",
+   "example": "Pratico nuoto da cinque anni.",
+   "related": "F pratiquer",
+   "usage": "(pratichi)"
+  },
+  {
+   "id": "u4-4b-022",
+   "target": "esplodere",
+   "translations": [
+    "explodieren"
+   ],
+   "page": "183-185",
+   "definition": "Scoppiare con forza; anche: aumentare all’improvviso.",
+   "example": "Dopo il video, la moda è esplosa tra i ragazzi.",
+   "related": "E to explode; F exploser",
+   "usage": "p.p. esploso"
+  },
+  {
+   "id": "u4-4b-023",
+   "target": "contagioso/-a",
+   "translations": [
+    "ansteckend"
+   ],
+   "page": "183-185",
+   "definition": "Che passa facilmente da una persona all’altra.",
+   "example": "La sua risata è contagiosa.",
+   "related": "E contagious"
+  },
+  {
+   "id": "u4-4b-024",
+   "target": "la mountain bike",
+   "translations": [
+    "das Mountainbike"
+   ],
+   "page": "183-185",
+   "definition": "Una bicicletta per andare in montagna e su strade difficili.",
+   "example": "Con la mountain bike facciamo gite nel bosco.",
+   "family": "la montagna",
+   "usage": "pl. le mountain bike",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-025",
+   "target": "avvicinare",
+   "translations": [
+    "annähern"
+   ],
+   "page": "183-185",
+   "definition": "Portare più vicino.",
+   "example": "Lo sport avvicina le persone.",
+   "family": "vicino/-a"
+  },
+  {
+   "id": "u4-4b-026",
+   "target": "o … o",
+   "translations": [
+    "entweder … oder"
+   ],
+   "page": "183-185",
+   "definition": "Una cosa o l’altra.",
+   "example": "O vieni con noi o resti a casa.",
+   "antonyms": "né … né"
+  },
+  {
+   "id": "u4-4b-027",
+   "target": "il canale sportivo",
+   "translations": [
+    "der Sportsender"
+   ],
+   "page": "183-185",
+   "definition": "Un canale tv che trasmette sport.",
+   "example": "Guardo le partite su un canale sportivo.",
+   "related": "E sports channel; F chaîne sportive",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-028",
+   "target": "il fanatismo",
+   "translations": [
+    "der Fanatismus"
+   ],
+   "page": "183-185",
+   "definition": "Una passione esagerata.",
+   "example": "Il fanatismo per il calcio a volte è pericoloso.",
+   "related": "E fanaticism; F fanatisme",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-029",
+   "target": "la star",
+   "translations": [
+    "der (Welt-)Star"
+   ],
+   "page": "183-185",
+   "definition": "Una persona famosissima.",
+   "example": "Questa cantante è una star internazionale.",
+   "related": "der (Welt-)Star|pl. le star||Una persona famosissima.|Questa cantante è una star internazionale.",
+   "usage": "pl. le star",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-030",
+   "target": "al pari di",
+   "translations": [
+    "(genauso) wie"
+   ],
+   "page": "183-185",
+   "definition": "Allo stesso livello di.",
+   "example": "Per i tifosi, Maradona è al pari di un santo.",
+   "related": "(genauso) wie|||Allo stesso livello di.|Per i tifosi, Maradona è al pari di un santo."
+  },
+  {
+   "id": "u4-4b-031",
+   "target": "la concorrenza",
+   "translations": [
+    "die Konkurrenz"
+   ],
+   "page": "183-185",
+   "definition": "Il fatto che più persone o aziende vogliono vincere.",
+   "example": "Nel calcio c’è molta concorrenza tra le squadre.",
+   "family": "correre",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-032",
+   "target": "basare su qs",
+   "translations": [
+    "basieren auf etw."
+   ],
+   "page": "183-185",
+   "definition": "Avere come base.",
+   "example": "Il film è basato su una storia vera.",
+   "related": "basieren auf etw.|||Avere come base.|Il film è basato su una storia vera.",
+   "acceptedAnswers": [
+    "basare su"
+   ]
+  },
+  {
+   "id": "u4-4b-033",
+   "target": "la motivazione",
+   "translations": [
+    "der Beweggrund",
+    "die Motivation"
+   ],
+   "page": "183-185",
+   "definition": "Il motivo che spinge a fare una cosa.",
+   "example": "La mia motivazione per studiare è il viaggio in Italia.",
+   "related": "E/F motivation",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-034",
+   "target": "politico/-a",
+   "translations": [
+    "politisch"
+   ],
+   "page": "183-185",
+   "definition": "Che riguarda la politica.",
+   "example": "È una decisione politica.",
+   "family": "la politica",
+   "related": "E political; F politique",
+   "usage": "pl. politici, -che"
+  },
+  {
+   "id": "u4-4b-035",
+   "target": "proprio/-a",
+   "translations": [
+    "eigen",
+    "sein/ihr"
+   ],
+   "page": "183-185",
+   "definition": "Che appartiene a una persona.",
+   "example": "Ognuno ama la propria squadra.",
+   "related": "L proprius"
+  },
+  {
+   "id": "u4-4b-036",
+   "target": "avversario/-a",
+   "translations": [
+    "gegnerisch"
+   ],
+   "page": "183-185",
+   "definition": "Dell’altra squadra, nemico nella gara.",
+   "example": "La squadra avversaria era molto forte.",
+   "related": "F adverse"
+  },
+  {
+   "id": "u4-4b-037",
+   "target": "prendersela con qn/qs",
+   "translations": [
+    "sich aufregen über jdn/etw."
+   ],
+   "page": "183-185",
+   "definition": "Arrabbiarsi con qualcuno.",
+   "example": "Non prendertela con me, non è colpa mia!",
+   "related": "sich aufregen über jdn/etw.|me la prendo, te la prendi …||Arrabbiarsi con qualcuno.|Non prendertela con me, non è colpa mia!",
+   "acceptedAnswers": [
+    "prendersela con"
+   ],
+   "usage": "me la prendo, te la prendi …"
+  },
+  {
+   "id": "u4-4b-038",
+   "target": "limitarsi a qs",
+   "translations": [
+    "sich beschränken auf etw."
+   ],
+   "page": "183-185",
+   "definition": "Fare solo una cosa e non di più.",
+   "example": "Mi limito a guardare, non gioco.",
+   "related": "sich beschränken auf etw.|||Fare solo una cosa e non di più.|Mi limito a guardare, non gioco.",
+   "acceptedAnswers": [
+    "limitarsi a"
+   ]
+  },
+  {
+   "id": "u4-4b-039",
+   "target": "appartenere a qn/qs",
+   "translations": [
+    "zu etw./jdm gehören"
+   ],
+   "page": "183-185",
+   "definition": "Essere di qualcuno; fare parte di un gruppo.",
+   "example": "Questa bici appartiene a mio fratello.",
+   "related": "F appartenir à",
+   "acceptedAnswers": [
+    "appartenere a"
+   ],
+   "usage": "(appartengo)"
+  },
+  {
+   "id": "u4-4b-040",
+   "target": "spontaneo/-a",
+   "translations": [
+    "ungezwungen",
+    "spontan"
+   ],
+   "page": "183-185",
+   "definition": "Che nasce senza essere organizzato.",
+   "example": "Abbiamo fatto una festa spontanea.",
+   "related": "E spontaneous; F spontané(e)"
+  },
+  {
+   "id": "u4-4b-041",
+   "target": "stragrande",
+   "translations": [
+    "außerordentlich groß"
+   ],
+   "page": "183-185",
+   "definition": "Molto grande.",
+   "example": "La stragrande maggioranza degli studenti è d’accordo.",
+   "family": "grande",
+   "synonyms": "grandissimo",
+   "usage": "stra- = sehr: strapieno, stravecchio"
+  },
+  {
+   "id": "u4-4b-042",
+   "target": "la maggioranza",
+   "translations": [
+    "die Mehrheit"
+   ],
+   "page": "183-185",
+   "definition": "La parte più grande di un gruppo.",
+   "example": "La maggioranza della classe vuole andare a Roma.",
+   "related": "die Mehrheit|||La parte più grande di un gruppo.|La maggioranza della classe vuole andare a Roma.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-043",
+   "target": "emozionarsi per qn/qs",
+   "translations": [
+    "sich begeistern für jdn/etw."
+   ],
+   "page": "183-185",
+   "definition": "Provare emozioni forti per qualcosa.",
+   "example": "Mi emoziono sempre quando sento questa canzone.",
+   "family": "emozionato/-a",
+   "acceptedAnswers": [
+    "emozionarsi per"
+   ]
+  },
+  {
+   "id": "u4-4b-044",
+   "target": "guidare",
+   "translations": [
+    "fahren",
+    "steuern"
+   ],
+   "page": "183-185",
+   "definition": "Condurre una macchina o una bici.",
+   "example": "Mio fratello sta imparando a guidare.",
+   "related": "fahren; steuern|||Condurre una macchina o una bici.|Mio fratello sta imparando a guidare."
+  },
+  {
+   "id": "u4-4b-045",
+   "target": "il desiderio",
+   "translations": [
+    "der Wunsch"
+   ],
+   "page": "183-185",
+   "definition": "Una cosa che si vuole molto.",
+   "example": "Il mio desiderio è vivere in Italia.",
+   "related": "E desire; F désir",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u4-4b-046",
+   "target": "risultare",
+   "translations": [
+    "sich als etw. erweisen"
+   ],
+   "page": "183-185",
+   "definition": "Essere alla fine; dimostrarsi.",
+   "example": "La gita è risultata molto interessante.",
+   "related": "E to result; F résulter"
+  },
+  {
+   "id": "u4-4b-047",
+   "target": "mondiale",
+   "translations": [
+    "Welt-"
+   ],
+   "page": "183-185",
+   "definition": "Di tutto il mondo.",
+   "example": "L’Italia ha vinto quattro campionati mondiali di calcio.",
+   "family": "il mondo",
+   "related": "L mundus; F mondial(e)"
+  },
+  {
+   "id": "u4-4b-048",
+   "target": "il/la pilota",
+   "translations": [
+    "der/die Fahrer/in",
+    "der/die Pilot/in"
+   ],
+   "page": "183-185",
+   "definition": "Una persona che guida un’auto da corsa o un aereo.",
+   "example": "Da grande voglio fare il pilota.",
+   "related": "der/die Fahrer/in; der/die Pilot/in|||Una persona che guida un’auto da corsa o un aereo.|Da grande voglio fare il pilota."
+  },
+  {
+   "id": "u4-4b-049",
+   "target": "grandioso/-a",
+   "translations": [
+    "großartig"
+   ],
+   "page": "183-185",
+   "definition": "Molto grande e bello.",
+   "example": "Lo spettacolo è stato grandioso.",
+   "family": "grande",
+   "related": "E grand"
+  },
+  {
+   "id": "u4-4b-050",
+   "target": "avere luogo",
+   "translations": [
+    "stattfinden"
+   ],
+   "page": "183-185",
+   "definition": "Succedere in un certo posto o momento.",
+   "example": "Il concerto avrà luogo in piazza.",
+   "related": "F avoir lieu"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "3",
+   "unit": "Unità 4",
+   "section": "4B Viva lo sport",
+   "pages": "183-185"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "themes": [
+   "Sport",
+   "Radsport",
+   "Fußball"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

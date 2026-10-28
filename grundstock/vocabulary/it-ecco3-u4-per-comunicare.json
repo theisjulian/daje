@@ -1,0 +1,155 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco3-u4-per-comunicare",
+ "title": "Ecco più 3 · Unità 4 · Per comunicare",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "B1",
+ "description": "Wortschatz zu „Wirtschaft, Aussagen wiedergeben, Sport, Zeitangaben“ aus Ecco più 3 (Unità 4, Per comunicare).",
+ "topics": [
+  "Redemittel",
+  "Wirtschaft",
+  "Sport"
+ ],
+ "collection": "Ecco più 3 (Cornelsen)",
+ "section": "Unità 4 · Per comunicare",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 184-185 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u4-per-comunicare-001",
+   "target": "… ha un ruolo importante nell’economia.",
+   "translations": [
+    "… spielt eine wichtige Rolle in der Wirtschaft."
+   ],
+   "page": "184-185",
+   "definition": "Si usa per dire che un settore è importante.",
+   "example": "Il turismo ha un ruolo importante nell’economia.",
+   "related": "… spielt eine wichtige Rolle in der Wirtschaft.|||Si usa per dire che un settore è importante.|Il turismo ha un ruolo importante nell’economia."
+  },
+  {
+   "id": "u4-per-comunicare-002",
+   "target": "… è considerato/-a la patria di …",
+   "translations": [
+    "… gilt als die Heimat von …"
+   ],
+   "page": "184-185",
+   "definition": "Si usa per dire da dove viene una cosa.",
+   "example": "Il Nord è considerato la patria dell’industria italiana.",
+   "related": "… gilt als die Heimat von …|||Si usa per dire da dove viene una cosa.|Il Nord è considerato la patria dell’industria italiana."
+  },
+  {
+   "id": "u4-per-comunicare-003",
+   "target": "Un triste esempio è …",
+   "translations": [
+    "Ein trauriges Beispiel ist …"
+   ],
+   "page": "184-185",
+   "definition": "Si usa per dare un esempio negativo.",
+   "example": "Un triste esempio è l’autostrada mai finita.",
+   "related": "Ein trauriges Beispiel ist …|||Si usa per dare un esempio negativo.|Un triste esempio è l’autostrada mai finita."
+  },
+  {
+   "id": "u4-per-comunicare-004",
+   "target": "Mi ha spiegato che …",
+   "translations": [
+    "Er/Sie hat mir erklärt, dass …"
+   ],
+   "page": "184-185",
+   "definition": "Si usa per riportare quello che ha detto qualcuno.",
+   "example": "Mi ha spiegato che la cooperativa è nata nel 2001.",
+   "related": "Er/Sie hat mir erklärt, dass …|||Si usa per riportare quello che ha detto qualcuno.|Mi ha spiegato che la cooperativa è nata nel 2001."
+  },
+  {
+   "id": "u4-per-comunicare-005",
+   "target": "Ha raccontato che …",
+   "translations": [
+    "Er/Sie hat erzählt, dass …"
+   ],
+   "page": "184-185",
+   "definition": "Si usa per riportare un racconto.",
+   "example": "Ha raccontato che da piccolo giocava sempre a calcio.",
+   "related": "Er/Sie hat erzählt, dass …|||Si usa per riportare un racconto.|Ha raccontato che da piccolo giocava sempre a calcio."
+  },
+  {
+   "id": "u4-per-comunicare-006",
+   "target": "… è uno dei giochi sportivi più diffusi.",
+   "translations": [
+    "… ist eines der beliebtesten Mannschaftsspiele."
+   ],
+   "page": "184-185",
+   "definition": "Si usa per parlare di uno sport molto praticato.",
+   "example": "La pallavolo è uno dei giochi sportivi più diffusi.",
+   "related": "… ist eines der beliebtesten Mannschaftsspiele.|||Si usa per parlare di uno sport molto praticato.|La pallavolo è uno dei giochi sportivi più diffusi."
+  },
+  {
+   "id": "u4-per-comunicare-007",
+   "target": "La passione diventa quasi fanatismo.",
+   "translations": [
+    "Die Leidenschaft wird fast zum Fanatismus."
+   ],
+   "page": "184-185",
+   "definition": "Si usa per dire che una passione è esagerata.",
+   "example": "Per alcuni tifosi la passione diventa quasi fanatismo.",
+   "related": "Die Leidenschaft wird fast zum Fanatismus.|||Si usa per dire che una passione è esagerata.|Per alcuni tifosi la passione diventa quasi fanatismo."
+  },
+  {
+   "id": "u4-per-comunicare-008",
+   "target": "… circa 70 anni fa",
+   "translations": [
+    "vor etwa 70 Jahren"
+   ],
+   "page": "184-185",
+   "definition": "Si usa per dire quando è successa una cosa.",
+   "example": "Mio nonno è nato circa settanta anni fa.",
+   "related": "vor etwa 70 Jahren|||Si usa per dire quando è successa una cosa.|Mio nonno è nato circa settanta anni fa."
+  },
+  {
+   "id": "u4-per-comunicare-009",
+   "target": "Benché i suoi successi risalgano agli anni ’50, …",
+   "translations": [
+    "Obwohl seine Erfolge in die 50er-Jahre zurückreichen, …"
+   ],
+   "page": "184-185",
+   "definition": "Si usa per collegare un fatto del passato a oggi.",
+   "example": "Benché i suoi successi risalgano agli anni ’50, è ancora famoso.",
+   "related": "Obwohl seine Erfolge in die 50er-Jahre zurückreichen, …|+ cong.||Si usa per collegare un fatto del passato a oggi.|Benché i suoi successi risalgano agli anni ’50, è ancora famoso.",
+   "usage": "+ cong."
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "3",
+   "unit": "Unità 4",
+   "section": "Per comunicare",
+   "pages": "184-185"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "themes": [
+   "Redemittel",
+   "Wirtschaft",
+   "Sport"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

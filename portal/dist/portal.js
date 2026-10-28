@@ -403,6 +403,13 @@ function startVocabularySet(id, mode = 'write') {
     label: x.section === x.title ? x.title : x.title + ' · ' + x.section,
     def: w.definition,
     example: w.example,
+    related: w.related,
+    synonyms: w.synonyms,
+    antonyms: w.antonyms,
+    family: w.family,
+    usage: w.usage,
+    contrast: w.contrast,
+    say: w.say,
     ipa: w.ipa,
     audio: w.audio,
     image: w.image
@@ -920,6 +927,7 @@ function allTrainingWords() {
         family: w.family,
         usage: w.usage,
         contrast: w.contrast,
+        say: w.say,
         ipa: w.ipa,
         audio: w.audio,
         image: w.image

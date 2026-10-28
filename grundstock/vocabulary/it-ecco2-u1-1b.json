@@ -58,7 +58,7 @@
    "page": "201-202",
    "definition": "Storia breve.",
    "example": "Leggo un racconto di fantascienza.",
-   "related": "▸ raccontare",
+   "family": "raccontare",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",
@@ -203,7 +203,8 @@
    "page": "201-202",
    "definition": "Poco lungo.",
    "example": "Ho i capelli corti.",
-   "related": "F court/e; ≠ lungo",
+   "related": "F court/e",
+   "antonyms": "lungo",
    "usage": "≠ lungo"
   },
   {
@@ -246,6 +247,9 @@
    "definition": "Mostrare allegria con il viso.",
    "example": "Sorrido a mia nonna.",
    "related": "F sourire",
+   "acceptedAnswers": [
+    "sorridere a, sorriso"
+   ],
    "usage": "p.p. sorriso"
   },
   {
@@ -258,7 +262,8 @@
    "definition": "Levarsi un indumento.",
    "example": "Mi tolgo la giacca.",
    "acceptedAnswers": [
-    "togliersi qs, tolto"
+    "togliersi qs, tolto",
+    "togliersi, tolto"
    ],
    "usage": "p.p. tolto"
   },
@@ -311,7 +316,10 @@
    ],
    "page": "201-202",
    "definition": "Venire a prendere una persona in un luogo.",
-   "example": "Papà arriva a prendermi alle sei."
+   "example": "Papà arriva a prendermi alle sei.",
+   "acceptedAnswers": [
+    "arrivare a prendere"
+   ]
   },
   {
    "id": "u1-1b-022",
@@ -388,7 +396,7 @@
    "page": "201-202",
    "definition": "Che non si conosce.",
    "example": "Un uomo sconosciuto bussa alla porta.",
-   "related": "≠ conosciuto/-a"
+   "antonyms": "conosciuto/-a"
   },
   {
    "id": "u1-1b-028",
@@ -400,7 +408,7 @@
    "page": "201-202",
    "definition": "Un tempo brevissimo.",
    "example": "In un attimo è finito tutto.",
-   "related": "= il momento"
+   "synonyms": "il momento"
   },
   {
    "id": "u1-1b-029",
@@ -431,7 +439,10 @@
    ],
    "page": "201-202",
    "definition": "Non partecipare a qualcosa di bello.",
-   "example": "Non voglio perdermi la festa."
+   "example": "Non voglio perdermi la festa.",
+   "acceptedAnswers": [
+    "perdersi"
+   ]
   },
   {
    "id": "u1-1b-031",
@@ -459,6 +470,9 @@
    "definition": "Far cambiare idea a qualcuno.",
    "example": "Mi hanno convinto a venire.",
    "related": "E to convince; F convaincre",
+   "acceptedAnswers": [
+    "convincere di + sost. / a fare, convinto"
+   ],
    "usage": "p.p. convinto"
   },
   {
@@ -470,7 +484,7 @@
    "page": "201-202",
    "definition": "Il giorno dal mattino alla sera.",
    "example": "È stata una bella giornata.",
-   "related": "= il giorno",
+   "synonyms": "il giorno",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -519,7 +533,10 @@
    ],
    "page": "201-202",
    "definition": "Darsi a vicenda qualcosa.",
-   "example": "Ci scambiamo i numeri di telefono."
+   "example": "Ci scambiamo i numeri di telefono.",
+   "acceptedAnswers": [
+    "scambiarsi"
+   ]
   },
   {
    "id": "u1-1b-037",
@@ -550,6 +567,9 @@
    "page": "201-202",
    "definition": "Cosa che resta nella memoria.",
    "example": "Ho un bel ricordo di quell’estate.",
+   "acceptedAnswers": [
+    "il ricordo di"
+   ],
    "grammar": {
     "partOfSpeech": "noun",
     "article": "il",

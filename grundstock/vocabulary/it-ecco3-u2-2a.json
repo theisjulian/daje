@@ -1,0 +1,835 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco3-u2-2a",
+ "title": "Ecco più 3 · Unità 2 · 2A Noi nel mondo – radio per ragazzi",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "B1",
+ "description": "Wortschatz zu „Wir in der Welt – Radio für Jugendliche“ aus Ecco più 3 (Unità 2, 2A Noi nel mondo – radio per ragazzi).",
+ "topics": [
+  "Medien",
+  "Internet",
+  "Radio"
+ ],
+ "collection": "Ecco più 3 (Cornelsen)",
+ "section": "Unità 2 · 2A Noi nel mondo – radio per ragazzi",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 172-173 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u2-2a-001",
+   "target": "la puntata",
+   "translations": [
+    "die Folge"
+   ],
+   "page": "172-173",
+   "definition": "Una parte di una serie o di un programma.",
+   "example": "Stasera esce la nuova puntata della mia serie preferita.",
+   "related": "die Folge|Fernsehen, Rundfunk||Una parte di una serie o di un programma.|Stasera esce la nuova puntata della mia serie preferita.",
+   "usage": "Fernsehen, Rundfunk",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-002",
+   "target": "l’ospite",
+   "translations": [
+    "der Gast"
+   ],
+   "page": "172-173",
+   "definition": "Una persona invitata a casa o in un programma.",
+   "example": "Oggi in radio c’è un ospite famoso.",
+   "related": "L hospes",
+   "usage": "m./f., pl. gli ospiti"
+  },
+  {
+   "id": "u2-2a-003",
+   "target": "intanto",
+   "translations": [
+    "unterdessen",
+    "währenddessen",
+    "zunächst einmal"
+   ],
+   "page": "172-173",
+   "definition": "Nello stesso momento; per ora.",
+   "example": "Tu prepari la pasta, io intanto apparecchio.",
+   "related": "unterdessen; währenddessen; zunächst einmal|avv.||Nello stesso momento; per ora.|Tu prepari la pasta, io intanto apparecchio.",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-2a-004",
+   "target": "il video esplicativo",
+   "translations": [
+    "das Erklärvideo"
+   ],
+   "page": "172-173",
+   "definition": "Un video che spiega come funziona una cosa.",
+   "example": "Ho capito la regola grazie a un video esplicativo.",
+   "related": "das Erklärvideo|pl. i video esplicativi||Un video che spiega come funziona una cosa.|Ho capito la regola grazie a un video esplicativo.",
+   "usage": "pl. i video esplicativi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-005",
+   "target": "ricercare qs",
+   "translations": [
+    "etw. suchen",
+    "nachsehen"
+   ],
+   "page": "172-173",
+   "definition": "Cercare con attenzione informazioni.",
+   "example": "Per la tesina devo ricercare molte informazioni.",
+   "family": "cercare",
+   "related": "E to research; F rechercher",
+   "acceptedAnswers": [
+    "ricercare"
+   ],
+   "usage": "(-chi-)"
+  },
+  {
+   "id": "u2-2a-006",
+   "target": "il filmato",
+   "translations": [
+    "der Film (kurz)"
+   ],
+   "page": "172-173",
+   "definition": "Un breve video.",
+   "example": "Ho girato un filmato con il cellulare.",
+   "family": "il film",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-007",
+   "target": "soddisfatto/-a",
+   "translations": [
+    "zufrieden"
+   ],
+   "page": "172-173",
+   "definition": "Contento di quello che hai fatto o avuto.",
+   "example": "Sono soddisfatto del mio voto.",
+   "related": "E satisfied"
+  },
+  {
+   "id": "u2-2a-008",
+   "target": "risultare da qs",
+   "translations": [
+    "aus etw. werden",
+    "aus etw. hervorgehen"
+   ],
+   "page": "172-173",
+   "definition": "Venire fuori come conseguenza.",
+   "example": "Dal sondaggio risulta che i ragazzi usano molto i social.",
+   "family": "il risultato",
+   "related": "F résulter",
+   "acceptedAnswers": [
+    "risultare da"
+   ]
+  },
+  {
+   "id": "u2-2a-009",
+   "target": "produrre",
+   "translations": [
+    "herstellen",
+    "produzieren"
+   ],
+   "page": "172-173",
+   "definition": "Fare, fabbricare una cosa.",
+   "example": "Questa azienda produce biciclette.",
+   "family": "il prodotto",
+   "related": "E produce; L producere; F produire",
+   "usage": "(produco), p.p. prodotto"
+  },
+  {
+   "id": "u2-2a-010",
+   "target": "postare online",
+   "translations": [
+    "online posten",
+    "ins Internet stellen"
+   ],
+   "page": "172-173",
+   "definition": "Pubblicare una foto o un testo sui social.",
+   "example": "Non postare online le foto dei tuoi amici senza chiedere.",
+   "related": "E to post"
+  },
+  {
+   "id": "u2-2a-011",
+   "target": "sognare (di fare) qs",
+   "translations": [
+    "davon träumen, etw. zu tun"
+   ],
+   "page": "172-173",
+   "definition": "Desiderare molto una cosa.",
+   "example": "Sogno di fare un viaggio in Giappone.",
+   "family": "il sogno",
+   "acceptedAnswers": [
+    "sognare qs",
+    "sognare"
+   ],
+   "contrast": "sognare una vacanza – von einem Urlaub träumen; sognare di andare in vacanza – davon träumen, in den Urlaub zu fahren"
+  },
+  {
+   "id": "u2-2a-012",
+   "target": "il/la chitarrista",
+   "translations": [
+    "der/die Gitarrist/in"
+   ],
+   "page": "172-173",
+   "definition": "Una persona che suona la chitarra.",
+   "example": "Il chitarrista della band ha solo quindici anni.",
+   "family": "la chitarra"
+  },
+  {
+   "id": "u2-2a-013",
+   "target": "professionista",
+   "translations": [
+    "beruflich",
+    "professionell"
+   ],
+   "page": "172-173",
+   "definition": "Che fa una cosa come lavoro, molto bene.",
+   "example": "Mio cugino è un fotografo professionista.",
+   "family": "la professione",
+   "related": "E professional; F professionnel(le)"
+  },
+  {
+   "id": "u2-2a-014",
+   "target": "incoraggiante",
+   "translations": [
+    "aufmunternd",
+    "ermutigend"
+   ],
+   "page": "172-173",
+   "definition": "Che dà coraggio e speranza.",
+   "example": "La prof mi ha scritto un commento incoraggiante.",
+   "family": "il coraggio",
+   "related": "E encouraging; F encourageant"
+  },
+  {
+   "id": "u2-2a-015",
+   "target": "ingenuo/-a",
+   "translations": [
+    "naiv"
+   ],
+   "page": "172-173",
+   "definition": "Che crede troppo facilmente agli altri.",
+   "example": "Non essere ingenuo, quella notizia è falsa.",
+   "related": "naiv|||Che crede troppo facilmente agli altri.|Non essere ingenuo, quella notizia è falsa."
+  },
+  {
+   "id": "u2-2a-016",
+   "target": "romantico/-a",
+   "translations": [
+    "romantisch"
+   ],
+   "page": "172-173",
+   "definition": "Pieno di sentimenti e di amore.",
+   "example": "Abbiamo visto un film molto romantico.",
+   "related": "romantisch|||Pieno di sentimenti e di amore.|Abbiamo visto un film molto romantico."
+  },
+  {
+   "id": "u2-2a-017",
+   "target": "valido/-a",
+   "translations": [
+    "wirksam",
+    "wertvoll"
+   ],
+   "page": "172-173",
+   "definition": "Che funziona, che ha valore.",
+   "example": "È un’idea valida, proviamo!",
+   "family": "valere",
+   "related": "E valid; L validus"
+  },
+  {
+   "id": "u2-2a-018",
+   "target": "del genere",
+   "translations": [
+    "derartig",
+    "ähnlich"
+   ],
+   "page": "172-173",
+   "definition": "Di questo tipo.",
+   "example": "Non ho mai visto una cosa del genere.",
+   "related": "derartig; ähnlich|||Di questo tipo.|Non ho mai visto una cosa del genere."
+  },
+  {
+   "id": "u2-2a-019",
+   "target": "impiegare",
+   "translations": [
+    "verwenden",
+    "brauchen (Zeit)"
+   ],
+   "page": "172-173",
+   "definition": "Usare; anche: avere bisogno di un certo tempo.",
+   "example": "Impiego venti minuti per andare a scuola.",
+   "related": "verwenden; brauchen (Zeit)|(-ghi-)||Usare; anche: avere bisogno di un certo tempo.|Impiego venti minuti per andare a scuola.",
+   "usage": "(-ghi-)"
+  },
+  {
+   "id": "u2-2a-020",
+   "target": "il secondo",
+   "translations": [
+    "die Sekunde"
+   ],
+   "page": "172-173",
+   "definition": "Una piccola parte di un minuto.",
+   "example": "Aspetta un secondo, arrivo!",
+   "related": "E second; F seconde",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-021",
+   "target": "la rete",
+   "translations": [
+    "das Netz",
+    "das Internet"
+   ],
+   "page": "172-173",
+   "definition": "Internet; anche una cosa fatta di fili.",
+   "example": "In rete si trovano tante informazioni.",
+   "related": "das Netz; das Internet|||Internet; anche una cosa fatta di fili.|In rete si trovano tante informazioni.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-022",
+   "target": "reale",
+   "translations": [
+    "wirklich",
+    "real"
+   ],
+   "page": "172-173",
+   "definition": "Vero, che esiste davvero.",
+   "example": "Questa storia è basata su fatti reali.",
+   "family": "in realtà",
+   "related": "E real; F réel(le)"
+  },
+  {
+   "id": "u2-2a-023",
+   "target": "mica",
+   "translations": [
+    "ja",
+    "doch (in Verneinungen)"
+   ],
+   "page": "172-173",
+   "definition": "Si usa con non per rafforzare la negazione.",
+   "example": "Non sono mica stupido!",
+   "related": "ja; doch (in Verneinungen)|Non è mica lontano. – Es ist ja nicht weit weg.||Si usa con non per rafforzare la negazione.|Non sono mica stupido!",
+   "usage": "Non è mica lontano. – Es ist ja nicht weit weg."
+  },
+  {
+   "id": "u2-2a-024",
+   "target": "distratto/-a da qs",
+   "translations": [
+    "abgelenkt von etw."
+   ],
+   "page": "172-173",
+   "definition": "Che non riesce a stare attento a causa di altro.",
+   "example": "Sono distratto dal telefono quando studio.",
+   "related": "E distracted; F distrait(e)",
+   "acceptedAnswers": [
+    "distratto/-a da"
+   ]
+  },
+  {
+   "id": "u2-2a-025",
+   "target": "digitale",
+   "translations": [
+    "digital"
+   ],
+   "page": "172-173",
+   "definition": "Che usa computer e internet.",
+   "example": "Leggo i libri in formato digitale.",
+   "related": "digital|||Che usa computer e internet.|Leggo i libri in formato digitale."
+  },
+  {
+   "id": "u2-2a-026",
+   "target": "accettabile",
+   "translations": [
+    "akzeptabel"
+   ],
+   "page": "172-173",
+   "definition": "Che si può accettare.",
+   "example": "Il prezzo è accettabile.",
+   "related": "E acceptable; F acceptable"
+  },
+  {
+   "id": "u2-2a-027",
+   "target": "sostenere",
+   "translations": [
+    "unterstützen"
+   ],
+   "page": "172-173",
+   "definition": "Aiutare qualcuno, stare dalla sua parte.",
+   "example": "I miei genitori mi sostengono sempre.",
+   "family": "tenere",
+   "related": "E sustain; F soutenir",
+   "usage": "(sostengo), p.p. sostenuto"
+  },
+  {
+   "id": "u2-2a-028",
+   "target": "l’iniziativa",
+   "translations": [
+    "die Unternehmung",
+    "die Initiative"
+   ],
+   "page": "172-173",
+   "definition": "Un’idea o un progetto che qualcuno comincia.",
+   "example": "La classe ha preso l’iniziativa di pulire il parco.",
+   "family": "l’inizio"
+  },
+  {
+   "id": "u2-2a-029",
+   "target": "essere d’accordo",
+   "translations": [
+    "einverstanden sein"
+   ],
+   "page": "172-173",
+   "definition": "Avere la stessa opinione.",
+   "example": "Sono d’accordo con te.",
+   "related": "F être d’accord"
+  },
+  {
+   "id": "u2-2a-030",
+   "target": "il/la minorenne",
+   "translations": [
+    "der/die Minderjährige"
+   ],
+   "page": "172-173",
+   "definition": "Una persona che ha meno di diciotto anni.",
+   "example": "I minorenni non possono votare.",
+   "related": "F mineur(e)"
+  },
+  {
+   "id": "u2-2a-031",
+   "target": "il limite",
+   "translations": [
+    "die Grenze"
+   ],
+   "page": "172-173",
+   "definition": "Il punto che non si deve superare.",
+   "example": "Anche la pazienza ha un limite!",
+   "related": "E limit; F limite",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-032",
+   "target": "onesto/-a",
+   "translations": [
+    "aufrichtig",
+    "ehrlich"
+   ],
+   "page": "172-173",
+   "definition": "Che dice la verità.",
+   "example": "Sii onesto: ti piace il mio disegno?",
+   "antonyms": "disonesto/-a",
+   "related": "E honest; L honestus"
+  },
+  {
+   "id": "u2-2a-033",
+   "target": "il/la rompiscatole",
+   "translations": [
+    "der Störenfried",
+    "die Nervensäge"
+   ],
+   "page": "172-173",
+   "definition": "Una persona che dà fastidio.",
+   "example": "Mio fratello è un vero rompiscatole.",
+   "family": "rompere",
+   "usage": "fam., pl. i rompiscatole"
+  },
+  {
+   "id": "u2-2a-034",
+   "target": "visibile",
+   "translations": [
+    "sichtbar"
+   ],
+   "page": "172-173",
+   "definition": "Che si può vedere.",
+   "example": "Il tuo profilo è visibile a tutti.",
+   "family": "vedere"
+  },
+  {
+   "id": "u2-2a-035",
+   "target": "fare a meno di qn/qs",
+   "translations": [
+    "auf jdn/etw. verzichten",
+    "ohne jdn/etw. auskommen"
+   ],
+   "page": "172-173",
+   "definition": "Vivere senza una persona o una cosa.",
+   "example": "Non posso fare a meno del caffè la mattina.",
+   "related": "auf jdn/etw. verzichten; ohne jdn/etw. auskommen|||Vivere senza una persona o una cosa.|Non posso fare a meno del caffè la mattina.",
+   "acceptedAnswers": [
+    "fare a meno di"
+   ]
+  },
+  {
+   "id": "u2-2a-036",
+   "target": "avere a che fare con",
+   "translations": [
+    "zu tun haben mit"
+   ],
+   "page": "172-173",
+   "definition": "Avere un rapporto con.",
+   "example": "Questo problema non ha a che fare con te.",
+   "related": "zu tun haben mit|||Avere un rapporto con.|Questo problema non ha a che fare con te."
+  },
+  {
+   "id": "u2-2a-037",
+   "target": "fare amicizia",
+   "translations": [
+    "sich anfreunden"
+   ],
+   "page": "172-173",
+   "definition": "Diventare amici.",
+   "example": "In vacanza ho fatto amicizia con due ragazze.",
+   "related": "Freundschaft schließen|||Diventare amici.|Ad Amburgo ho fatto amicizia con due ragazzi."
+  },
+  {
+   "id": "u2-2a-038",
+   "target": "fare attenzione",
+   "translations": [
+    "aufpassen"
+   ],
+   "page": "172-173",
+   "definition": "Stare attento.",
+   "example": "Fai attenzione quando attraversi la strada!",
+   "related": "aufpassen|||Stare attento.|Fai attenzione quando attraversi la strada!"
+  },
+  {
+   "id": "u2-2a-039",
+   "target": "fare bella figura / una figuraccia",
+   "translations": [
+    "einen guten / schlechten Eindruck machen"
+   ],
+   "page": "172-173",
+   "definition": "Fare un’impressione buona o brutta.",
+   "example": "All’esame orale ho fatto bella figura.",
+   "related": "einen guten / schlechten Eindruck machen|||Fare un’impressione buona o brutta.|All’esame orale ho fatto bella figura."
+  },
+  {
+   "id": "u2-2a-040",
+   "target": "fare caldo/freddo/fresco",
+   "translations": [
+    "warm/kalt/kühl sein"
+   ],
+   "page": "172-173",
+   "definition": "Si usa per parlare del tempo.",
+   "example": "Oggi fa molto freddo.",
+   "related": "warm/kalt/kühl sein|||Si usa per parlare del tempo.|Oggi fa molto freddo."
+  },
+  {
+   "id": "u2-2a-041",
+   "target": "fare due chiacchiere",
+   "translations": [
+    "ein Schwätzchen halten"
+   ],
+   "page": "172-173",
+   "definition": "Parlare un po’ senza fretta.",
+   "example": "Dopo scuola facciamo due chiacchiere al bar.",
+   "related": "ein Schwätzchen halten|||Parlare un po’ senza fretta.|Dopo scuola facciamo due chiacchiere al bar."
+  },
+  {
+   "id": "u2-2a-042",
+   "target": "fare fatica",
+   "translations": [
+    "Mühe haben"
+   ],
+   "page": "172-173",
+   "definition": "Avere difficoltà a fare una cosa.",
+   "example": "Faccio fatica ad alzarmi la mattina.",
+   "related": "Mühe haben|||Avere difficoltà a fare una cosa.|Faccio fatica ad alzarmi la mattina."
+  },
+  {
+   "id": "u2-2a-043",
+   "target": "fare il bagno",
+   "translations": [
+    "baden"
+   ],
+   "page": "172-173",
+   "definition": "Entrare nell’acqua del mare o della vasca.",
+   "example": "Al lago abbiamo fatto il bagno.",
+   "related": "baden|||Entrare nell’acqua del mare o della vasca.|Al lago abbiamo fatto il bagno."
+  },
+  {
+   "id": "u2-2a-044",
+   "target": "fare l’ipocrita",
+   "translations": [
+    "heucheln"
+   ],
+   "page": "172-173",
+   "definition": "Fingere sentimenti che non si hanno.",
+   "example": "Non fare l’ipocrita, so che non ti piace.",
+   "related": "heucheln|||Fingere sentimenti che non si hanno.|Non fare l’ipocrita, so che non ti piace."
+  },
+  {
+   "id": "u2-2a-045",
+   "target": "fare male",
+   "translations": [
+    "wehtun"
+   ],
+   "page": "172-173",
+   "definition": "Causare dolore.",
+   "example": "Mi fa male la testa.",
+   "related": "wehtun|||Causare dolore.|Mi fa male la testa."
+  },
+  {
+   "id": "u2-2a-046",
+   "target": "fare parte di",
+   "translations": [
+    "teilnehmen an",
+    "ein Teil sein von"
+   ],
+   "page": "172-173",
+   "definition": "Essere dentro un gruppo.",
+   "example": "Faccio parte della squadra di pallavolo.",
+   "related": "teilnehmen an; ein Teil sein von|||Essere dentro un gruppo.|Faccio parte della squadra di pallavolo."
+  },
+  {
+   "id": "u2-2a-047",
+   "target": "fare schifo",
+   "translations": [
+    "eklig sein"
+   ],
+   "page": "172-173",
+   "definition": "Essere molto brutto o cattivo.",
+   "example": "Questa minestra fa schifo!",
+   "related": "eklig sein|fam.||Essere molto brutto o cattivo.|Questa minestra fa schifo!",
+   "usage": "fam."
+  },
+  {
+   "id": "u2-2a-048",
+   "target": "fare shopping",
+   "translations": [
+    "einkaufen",
+    "shoppen"
+   ],
+   "page": "172-173",
+   "definition": "Andare per negozi a comprare cose.",
+   "example": "Sabato faccio shopping con mia sorella.",
+   "related": "einkaufen; shoppen|||Andare per negozi a comprare cose.|Sabato faccio shopping con mia sorella."
+  },
+  {
+   "id": "u2-2a-049",
+   "target": "fare snowboard",
+   "translations": [
+    "Snowboard fahren"
+   ],
+   "page": "172-173",
+   "definition": "Scendere sulla neve con una tavola.",
+   "example": "D’inverno faccio snowboard sulle Alpi.",
+   "related": "Snowboard fahren|||Scendere sulla neve con una tavola.|D’inverno faccio snowboard sulle Alpi."
+  },
+  {
+   "id": "u2-2a-050",
+   "target": "fare un salto da qn",
+   "translations": [
+    "bei jdm vorbeischauen"
+   ],
+   "page": "172-173",
+   "definition": "Andare a trovare qualcuno per poco tempo.",
+   "example": "Dopo scuola faccio un salto da Marta.",
+   "related": "bei jdm vorbeischauen|||Andare a trovare qualcuno per poco tempo.|Dopo scuola faccio un salto da Marta.",
+   "acceptedAnswers": [
+    "fare un salto da"
+   ]
+  },
+  {
+   "id": "u2-2a-051",
+   "target": "fare vedere",
+   "translations": [
+    "zeigen"
+   ],
+   "page": "172-173",
+   "definition": "Mostrare.",
+   "example": "Mi fai vedere le foto della vacanza?",
+   "related": "zeigen|||Mostrare.|Mi fai vedere le foto della vacanza?"
+  },
+  {
+   "id": "u2-2a-052",
+   "target": "in gran parte",
+   "translations": [
+    "größtenteils"
+   ],
+   "page": "172-173",
+   "definition": "Per la maggior parte.",
+   "example": "I commenti sono in gran parte positivi.",
+   "related": "größtenteils|avv.||Per la maggior parte.|I commenti sono in gran parte positivi.",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-2a-053",
+   "target": "disonesto/-a",
+   "translations": [
+    "unehrlich",
+    "unaufrichtig"
+   ],
+   "page": "172-173",
+   "definition": "Che non dice la verità.",
+   "example": "È disonesto copiare durante il compito.",
+   "antonyms": "onesto/-a"
+  },
+  {
+   "id": "u2-2a-054",
+   "target": "i dati",
+   "translations": [
+    "die Daten"
+   ],
+   "page": "172-173",
+   "definition": "Le informazioni, per esempio su una persona.",
+   "example": "Non dare i tuoi dati a sconosciuti.",
+   "related": "E data",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "i",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-055",
+   "target": "personale",
+   "translations": [
+    "persönlich",
+    "eigen"
+   ],
+   "page": "172-173",
+   "definition": "Che riguarda una sola persona.",
+   "example": "Questa è la mia opinione personale.",
+   "family": "la persona"
+  },
+  {
+   "id": "u2-2a-056",
+   "target": "certo/-a",
+   "translations": [
+    "gewisse/-r/-s",
+    "sicher"
+   ],
+   "page": "172-173",
+   "definition": "Sicuro; anche: alcuni, non tutti.",
+   "example": "Certe persone parlano troppo.",
+   "related": "L certus"
+  },
+  {
+   "id": "u2-2a-057",
+   "target": "il copyright",
+   "translations": [
+    "das Urheberrecht",
+    "das Copyright"
+   ],
+   "page": "172-173",
+   "definition": "Il diritto dell’autore sulla sua opera.",
+   "example": "Non puoi usare questa foto, ha il copyright.",
+   "related": "das Urheberrecht; das Copyright|pl. i copyright||Il diritto dell’autore sulla sua opera.|Non puoi usare questa foto, ha il copyright.",
+   "usage": "pl. i copyright",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-2a-058",
+   "target": "Alla prossima (volta)!",
+   "translations": [
+    "Bis zum nächsten Mal!"
+   ],
+   "page": "172-173",
+   "definition": "Si dice per salutare.",
+   "example": "Ciao ragazzi, alla prossima!",
+   "related": "Bis zum nächsten Mal!|espr.||Si dice per salutare.|Ciao ragazzi, alla prossima!",
+   "acceptedAnswers": [
+    "Alla prossima!"
+   ],
+   "usage": "espr."
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "3",
+   "unit": "Unità 2",
+   "section": "2A Noi nel mondo – radio per ragazzi",
+   "pages": "172-173"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "themes": [
+   "Medien",
+   "Internet",
+   "Radio"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

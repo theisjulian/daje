@@ -108,7 +108,10 @@
    "page": "219-220",
    "definition": "Essere membro di un gruppo.",
    "example": "Faccio parte della squadra di calcio.",
-   "related": "▸ la parte, partecipare"
+   "family": "la parte, partecipare",
+   "acceptedAnswers": [
+    "fare parte di"
+   ]
   },
   {
    "id": "u5-5a-007",
@@ -118,7 +121,10 @@
    ],
    "page": "219-220",
    "definition": "Affrontare e paragonare con altro.",
-   "example": "Mi confronto con i compagni."
+   "example": "Mi confronto con i compagni.",
+   "acceptedAnswers": [
+    "confrontarsi con"
+   ]
   },
   {
    "id": "u5-5a-008",
@@ -638,7 +644,10 @@
    ],
    "page": "219-220",
    "definition": "Tutto attorno.",
-   "example": "I bambini sono intorno al maestro."
+   "example": "I bambini sono intorno al maestro.",
+   "acceptedAnswers": [
+    "intorno a"
+   ]
   },
   {
    "id": "u5-5a-040",

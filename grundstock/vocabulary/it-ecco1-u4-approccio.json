@@ -120,7 +120,8 @@
    "page": "182-183",
    "definition": "Scoprire qualcosa che si cercava.",
    "example": "Trovo le chiavi sul tavolo.",
-   "related": "≠ cercare; F trouver"
+   "antonyms": "cercare",
+   "related": "F trouver"
   },
   {
    "id": "u4-approccio-008",
@@ -369,7 +370,10 @@
    ],
    "page": "182-183",
    "definition": "Unito, in relazione con qualcosa.",
-   "example": "Con il computer sono collegato con gli amici."
+   "example": "Con il computer sono collegato con gli amici.",
+   "acceptedAnswers": [
+    "collegato/-a con"
+   ]
   },
   {
    "id": "u4-approccio-025",
@@ -472,7 +476,7 @@
    "page": "182-183",
    "definition": "Parola che introduce la causa.",
    "example": "Sono felice perché è sabato.",
-   "related": "▸ perché?"
+   "family": "perché?"
   },
   {
    "id": "u4-approccio-032",
@@ -553,7 +557,7 @@
    "page": "182-183",
    "definition": "Sabato e domenica.",
    "example": "Nel fine settimana gioco a calcio.",
-   "related": "▸ la settimana",
+   "family": "la settimana",
    "usage": "pl. i fine settimana",
    "grammar": {
     "partOfSpeech": "noun",
@@ -595,7 +599,8 @@
    "page": "182-183",
    "definition": "Stagione calda dopo la primavera.",
    "example": "D’estate vado in spiaggia.",
-   "related": "≠ l’inverno; F l’été",
+   "antonyms": "l’inverno",
+   "related": "F l’été",
    "usage": "f."
   }
  ],

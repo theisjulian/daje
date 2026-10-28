@@ -1,0 +1,461 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco3-u2-approccio",
+ "title": "Ecco più 3 · Unità 2 · Approccio",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "B1",
+ "description": "Wortschatz zu „Ampliare gli orizzonti“ aus Ecco più 3 (Unità 2, Approccio).",
+ "topics": [
+  "Medien",
+  "Internet",
+  "Einkaufen"
+ ],
+ "collection": "Ecco più 3 (Cornelsen)",
+ "section": "Unità 2 · Approccio",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 171 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u2-approccio-001",
+   "target": "la fonte",
+   "translations": [
+    "die Quelle"
+   ],
+   "page": "171",
+   "definition": "Il posto da cui viene un’informazione o l’acqua.",
+   "example": "Devi sempre controllare la fonte di una notizia.",
+   "related": "L fons",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-002",
+   "target": "incompleto/-a",
+   "translations": [
+    "unvollständig"
+   ],
+   "page": "171",
+   "definition": "A cui manca una parte.",
+   "example": "La tua risposta è incompleta.",
+   "related": "E incomplete; F incomplet(-ète)"
+  },
+  {
+   "id": "u2-approccio-003",
+   "target": "scorretto/-a",
+   "translations": [
+    "falsch",
+    "fehlerhaft"
+   ],
+   "page": "171",
+   "definition": "Che non è giusto.",
+   "example": "Questa informazione è scorretta.",
+   "antonyms": "corretto",
+   "synonyms": "falso/-a"
+  },
+  {
+   "id": "u2-approccio-004",
+   "target": "complicato/-a",
+   "translations": [
+    "kompliziert"
+   ],
+   "page": "171",
+   "definition": "Difficile da capire.",
+   "example": "Le regole di questo gioco sono complicate.",
+   "related": "E complicated; F compliqué(e)"
+  },
+  {
+   "id": "u2-approccio-005",
+   "target": "il materiale",
+   "translations": [
+    "das Material"
+   ],
+   "page": "171",
+   "definition": "Le cose che servono per un lavoro.",
+   "example": "Ho tutto il materiale per la presentazione.",
+   "related": "E material",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-006",
+   "target": "lo svantaggio",
+   "translations": [
+    "der Nachteil"
+   ],
+   "page": "171",
+   "definition": "Un aspetto negativo.",
+   "example": "Abitare in campagna ha anche degli svantaggi.",
+   "related": "E disadvantage; F désavantage",
+   "usage": "pl. gli svantaggi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "lo",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-007",
+   "target": "esigente",
+   "translations": [
+    "anspruchsvoll",
+    "fordernd"
+   ],
+   "page": "171",
+   "definition": "Che vuole sempre il massimo.",
+   "example": "La nostra prof di matematica è molto esigente.",
+   "related": "E exigent; F exigeant(e)"
+  },
+  {
+   "id": "u2-approccio-008",
+   "target": "l’abbonamento",
+   "translations": [
+    "das Abonnement"
+   ],
+   "page": "171",
+   "definition": "Un contratto per usare un servizio per un certo tempo.",
+   "example": "Ho un abbonamento per lo streaming di musica.",
+   "related": "das Abonnement|||Un contratto per usare un servizio per un certo tempo.|Ho un abbonamento per lo streaming di musica."
+  },
+  {
+   "id": "u2-approccio-009",
+   "target": "ormai",
+   "translations": [
+    "jetzt",
+    "nunmehr"
+   ],
+   "page": "171",
+   "definition": "A questo punto, adesso.",
+   "example": "Ormai è tardi, andiamo a dormire.",
+   "related": "jetzt; nunmehr|||A questo punto, adesso.|Ormai è tardi, andiamo a dormire."
+  },
+  {
+   "id": "u2-approccio-010",
+   "target": "pratico che",
+   "translations": [
+    "praktisch, dass"
+   ],
+   "page": "171",
+   "definition": "Comodo che.",
+   "example": "È pratico che il supermercato sia vicino a casa.",
+   "related": "praktisch, dass|+ cong.||Comodo che.|È pratico che il supermercato sia vicino a casa.",
+   "usage": "+ cong."
+  },
+  {
+   "id": "u2-approccio-011",
+   "target": "il divano",
+   "translations": [
+    "das Sofa",
+    "die Couch"
+   ],
+   "page": "171",
+   "definition": "Un posto comodo per sedersi in salotto.",
+   "example": "La sera guardo le serie sul divano.",
+   "related": "das Sofa; die Couch|||Un posto comodo per sedersi in salotto.|La sera guardo le serie sul divano.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-012",
+   "target": "ordinare",
+   "translations": [
+    "bestellen"
+   ],
+   "page": "171",
+   "definition": "Chiedere di portare o mandare una cosa.",
+   "example": "Abbiamo ordinato due pizze.",
+   "family": "l’ordine"
+  },
+  {
+   "id": "u2-approccio-013",
+   "target": "l’articolo",
+   "translations": [
+    "der (Waren-)Artikel"
+   ],
+   "page": "171",
+   "definition": "Una cosa che si vende in un negozio.",
+   "example": "Questo articolo è in offerta.",
+   "related": "E article; F article"
+  },
+  {
+   "id": "u2-approccio-014",
+   "target": "indietro",
+   "translations": [
+    "zurück"
+   ],
+   "page": "171",
+   "definition": "Verso il punto da cui si è partiti.",
+   "example": "Mi ha dato indietro il libro.",
+   "related": "zurück|avv.||Verso il punto da cui si è partiti.|Mi ha dato indietro il libro.",
+   "usage": "avv."
+  },
+  {
+   "id": "u2-approccio-015",
+   "target": "farcela",
+   "translations": [
+    "es schaffen"
+   ],
+   "page": "171",
+   "definition": "Riuscire a fare una cosa difficile.",
+   "example": "Ce la faccio a finire i compiti prima di cena.",
+   "family": "fare",
+   "usage": "ce la faccio, ce la fai …"
+  },
+  {
+   "id": "u2-approccio-016",
+   "target": "il vantaggio",
+   "translations": [
+    "der Vorteil"
+   ],
+   "page": "171",
+   "definition": "Un aspetto positivo.",
+   "example": "Il vantaggio della bici è che non inquina.",
+   "related": "E advantage; F avantage",
+   "antonyms": "lo svantaggio",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-017",
+   "target": "risparmiare",
+   "translations": [
+    "sparen"
+   ],
+   "page": "171",
+   "definition": "Non spendere soldi per averne di più dopo.",
+   "example": "Risparmio per comprare una chitarra.",
+   "related": "sparen|||Non spendere soldi per averne di più dopo.|Risparmio per comprare una chitarra."
+  },
+  {
+   "id": "u2-approccio-018",
+   "target": "l’acquisto",
+   "translations": [
+    "der (Ein-)Kauf"
+   ],
+   "page": "171",
+   "definition": "Una cosa che hai comprato.",
+   "example": "Le scarpe nuove sono stato un buon acquisto.",
+   "family": "acquistare"
+  },
+  {
+   "id": "u2-approccio-019",
+   "target": "privato/-a",
+   "translations": [
+    "privat"
+   ],
+   "page": "171",
+   "definition": "Di una sola persona, non di tutti.",
+   "example": "Questa è una spiaggia privata.",
+   "antonyms": "pubblico/-a"
+  },
+  {
+   "id": "u2-approccio-020",
+   "target": "da una parte … dall’altra parte …",
+   "translations": [
+    "auf der einen Seite … auf der anderen Seite …"
+   ],
+   "page": "171",
+   "definition": "Si usa per presentare due aspetti diversi.",
+   "example": "Da una parte internet è utile, dall’altra parte è pericoloso.",
+   "related": "auf der einen Seite … auf der anderen Seite …|||Si usa per presentare due aspetti diversi.|Da una parte internet è utile, dall’altra parte è pericoloso."
+  },
+  {
+   "id": "u2-approccio-021",
+   "target": "scambiare",
+   "translations": [
+    "austauschen"
+   ],
+   "page": "171",
+   "definition": "Dare una cosa e riceverne un’altra.",
+   "example": "Ci scambiamo le figurine.",
+   "family": "cambiare"
+  },
+  {
+   "id": "u2-approccio-022",
+   "target": "il contenuto",
+   "translations": [
+    "der Inhalt"
+   ],
+   "page": "171",
+   "definition": "Quello che c’è dentro.",
+   "example": "Il contenuto del video è interessante.",
+   "related": "E content; F contenu",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-023",
+   "target": "la risposta",
+   "translations": [
+    "die Antwort"
+   ],
+   "page": "171",
+   "definition": "Quello che dici dopo una domanda.",
+   "example": "Aspetto ancora la tua risposta.",
+   "family": "rispondere",
+   "antonyms": "la domanda",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-024",
+   "target": "il post",
+   "translations": [
+    "der Beitrag",
+    "der Post"
+   ],
+   "page": "171",
+   "definition": "Un messaggio pubblicato sui social.",
+   "example": "Il suo ultimo post ha tanti like.",
+   "family": "postare",
+   "related": "E post",
+   "usage": "online, pl. i post",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u2-approccio-025",
+   "target": "godersi qs",
+   "translations": [
+    "etw. genießen"
+   ],
+   "page": "171",
+   "definition": "Trovare piacere in una cosa.",
+   "example": "Mi godo le vacanze al mare.",
+   "related": "etw. genießen|||Trovare piacere in una cosa.|Mi godo le vacanze al mare.",
+   "acceptedAnswers": [
+    "godersi"
+   ]
+  },
+  {
+   "id": "u2-approccio-026",
+   "target": "né … né",
+   "translations": [
+    "weder … noch"
+   ],
+   "page": "171",
+   "definition": "Non questo e non quello.",
+   "example": "Non mi piace né il pesce né la carne.",
+   "related": "weder … noch|||Non questo e non quello.|Non mi piace né il pesce né la carne."
+  },
+  {
+   "id": "u2-approccio-027",
+   "target": "magari",
+   "translations": [
+    "vielleicht"
+   ],
+   "page": "171",
+   "definition": "Forse, chissà.",
+   "example": "Magari domani andiamo al cinema.",
+   "synonyms": "forse"
+  },
+  {
+   "id": "u2-approccio-028",
+   "target": "il divertimento",
+   "translations": [
+    "der Spaß"
+   ],
+   "page": "171",
+   "definition": "Una cosa che piace e fa ridere.",
+   "example": "Il divertimento è assicurato!",
+   "family": "divertirsi",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "3",
+   "unit": "Unità 2",
+   "section": "Approccio",
+   "pages": "171"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "themes": [
+   "Medien",
+   "Internet",
+   "Einkaufen"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

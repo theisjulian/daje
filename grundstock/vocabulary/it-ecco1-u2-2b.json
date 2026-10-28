@@ -143,7 +143,7 @@
    "page": "175-176",
    "definition": "Di dimensioni inferiori alla media.",
    "example": "Ho un gatto piccolo.",
-   "related": "≠ grande"
+   "antonyms": "grande"
   },
   {
    "id": "u2-2b-008",
@@ -324,7 +324,7 @@
    "page": "175-176",
    "definition": "Persona che canta.",
    "example": "Il cantante ha una bella voce.",
-   "related": "▸ la canzone",
+   "family": "la canzone",
    "usage": "f. la cantante; pl. i cantanti/le cantanti",
    "grammar": {
     "partOfSpeech": "noun",
@@ -607,7 +607,8 @@
    "page": "175-176",
    "definition": "Che ha molti anni, non nuovo.",
    "example": "Il mio telefono è vecchio.",
-   "related": "≠ nuovo/-a; F vieux, vieille",
+   "antonyms": "nuovo/-a",
+   "related": "F vieux, vieille",
    "usage": "pl. vecchi m."
   },
   {
@@ -652,7 +653,10 @@
    "page": "175-176",
    "definition": "Andare dietro a una persona o controllare un’attività.",
    "example": "Seguo una serie TV.",
-   "related": "L sequi"
+   "related": "L sequi",
+   "acceptedAnswers": [
+    "seguire"
+   ]
   },
   {
    "id": "u2-2b-042",
@@ -767,7 +771,8 @@
    "example": "Filippo gioca a calcio.",
    "related": "F jouer à …",
    "acceptedAnswers": [
-    "giocare a qs"
+    "giocare a qs",
+    "giocare a"
    ],
    "usage": "Abc"
   },

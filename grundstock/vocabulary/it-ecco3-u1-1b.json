@@ -1,0 +1,760 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "vocabulary",
+ "id": "it-ecco3-u1-1b",
+ "title": "Ecco più 3 · Unità 1 · 1B Serena nella Serenissima",
+ "language": "it",
+ "translationLanguage": "de",
+ "level": "B1",
+ "description": "Wortschatz zu „Heiter in Venedig“ aus Ecco più 3 (Unità 1, 1B Serena nella Serenissima).",
+ "topics": [
+  "Venedig",
+  "Tourismus",
+  "Karneval"
+ ],
+ "collection": "Ecco più 3 (Cornelsen)",
+ "section": "Unità 1 · 1B Serena nella Serenissima",
+ "sources": [
+  {
+   "kind": "provided",
+   "citation": "Ecco più 3, Cornelsen, Lista cronologica / Anhang, S. 168-170 (vom Nutzer bereitgestellte Seiten)",
+   "rights": "needs_review"
+  }
+ ],
+ "reviewNotes": [
+  "Aus bereitgestellten Scans abgetippt; Ausgabe und Jahr des Lehrwerks noch eintragen.",
+  "Erklärungen (definition) und Beispielsätze sind eigene Formulierungen in einfachem Italienisch (nicht aus dem Buch) und noch nicht fachlich geprüft; Verwandte Wörter (E/F/L) folgen dem Buch.",
+  "Plural-, Partizip- und Zusatzangaben stehen im Feld usage."
+ ],
+ "entries": [
+  {
+   "id": "u1-1b-001",
+   "target": "Venezia",
+   "translations": [
+    "Venedig"
+   ],
+   "page": "168-170",
+   "definition": "La città italiana costruita sull’acqua.",
+   "example": "Venezia ha più di cento isole.",
+   "related": "E Venice; F Venise"
+  },
+  {
+   "id": "u1-1b-002",
+   "target": "a forza",
+   "translations": [
+    "mit Gewalt"
+   ],
+   "page": "168-170",
+   "definition": "Usando la forza, contro la volontà.",
+   "example": "Il bambino non voleva andare, l’hanno portato via quasi a forza.",
+   "related": "mit Gewalt|Unterscheide: per forza – unbedingt; Forza! – Auf geht’s! Los!||Usando la forza, contro la volontà.|Il bambino non voleva andare, l’hanno portato via quasi a forza.",
+   "contrast": "per forza – unbedingt; Forza! – Auf geht’s! Los!"
+  },
+  {
+   "id": "u1-1b-003",
+   "target": "avere dubbi (sul fatto) che",
+   "translations": [
+    "Zweifel (an der Tatsache) haben, dass"
+   ],
+   "page": "168-170",
+   "definition": "Non essere sicuri di una cosa.",
+   "example": "Ho dubbi che lui dica la verità.",
+   "related": "Zweifel (an der Tatsache) haben, dass|+ cong.||Non essere sicuri di una cosa.|Ho dubbi che lui dica la verità.",
+   "acceptedAnswers": [
+    "avere dubbi che"
+   ],
+   "usage": "+ cong."
+  },
+  {
+   "id": "u1-1b-004",
+   "target": "la notte",
+   "translations": [
+    "die Nacht"
+   ],
+   "page": "168-170",
+   "definition": "Il tempo in cui è buio e si dorme.",
+   "example": "Di notte la città è molto tranquilla.",
+   "related": "L nox",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-005",
+   "target": "temere",
+   "translations": [
+    "fürchten"
+   ],
+   "page": "168-170",
+   "definition": "Avere paura di una cosa.",
+   "example": "Temo che domani piova.",
+   "related": "L timere"
+  },
+  {
+   "id": "u1-1b-006",
+   "target": "rendersi conto di qs",
+   "translations": [
+    "sich über etw. klar werden"
+   ],
+   "page": "168-170",
+   "definition": "Capire una cosa all’improvviso.",
+   "example": "Mi sono reso conto di aver dimenticato le chiavi.",
+   "related": "sich über etw. klar werden|p.p. reso||Capire una cosa all’improvviso.|Mi sono reso conto di aver dimenticato le chiavi.",
+   "acceptedAnswers": [
+    "rendersi conto di"
+   ],
+   "usage": "p.p. reso"
+  },
+  {
+   "id": "u1-1b-007",
+   "target": "man mano",
+   "translations": [
+    "allmählich"
+   ],
+   "page": "168-170",
+   "definition": "Un po’ alla volta.",
+   "example": "Man mano arrivano tutti gli ospiti.",
+   "related": "allmählich|||Un po’ alla volta.|Man mano arrivano tutti gli ospiti."
+  },
+  {
+   "id": "u1-1b-008",
+   "target": "la maschera",
+   "translations": [
+    "die Maske"
+   ],
+   "page": "168-170",
+   "definition": "Una cosa che copre il viso, tipica del Carnevale.",
+   "example": "A Carnevale porto una maschera bianca.",
+   "related": "die Maske|||Una cosa che copre il viso, tipica del Carnevale.|A Carnevale porto una maschera bianca.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-009",
+   "target": "fotografare",
+   "translations": [
+    "fotografieren"
+   ],
+   "page": "168-170",
+   "definition": "Fare una foto.",
+   "example": "Mi piace fotografare i tramonti.",
+   "related": "fotografieren|||Fare una foto.|Mi piace fotografare i tramonti."
+  },
+  {
+   "id": "u1-1b-010",
+   "target": "la posizione",
+   "translations": [
+    "die Position",
+    "die Haltung"
+   ],
+   "page": "168-170",
+   "definition": "Il modo in cui stai o il posto dove sei.",
+   "example": "Siediti in una posizione comoda.",
+   "related": "die Position; die Haltung|||Il modo in cui stai o il posto dove sei.|Siediti in una posizione comoda.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-011",
+   "target": "l’account",
+   "translations": [
+    "der Account"
+   ],
+   "page": "168-170",
+   "definition": "Il profilo personale su un sito o una app.",
+   "example": "Ho creato un nuovo account per il gioco.",
+   "related": "der Account|m.||Il profilo personale su un sito o una app.|Ho creato un nuovo account per il gioco.",
+   "usage": "m."
+  },
+  {
+   "id": "u1-1b-012",
+   "target": "segreto/-a",
+   "translations": [
+    "geheim"
+   ],
+   "page": "168-170",
+   "definition": "Che gli altri non devono sapere.",
+   "example": "Abbiamo un posto segreto nel bosco.",
+   "related": "E secret; F secret(-ète)"
+  },
+  {
+   "id": "u1-1b-013",
+   "target": "abbandonato/-a",
+   "translations": [
+    "verlassen",
+    "vereinsamt"
+   ],
+   "page": "168-170",
+   "definition": "Lasciato solo, dove non c’è più nessuno.",
+   "example": "Abbiamo visitato un villaggio abbandonato.",
+   "related": "verlassen; vereinsamt|||Lasciato solo, dove non c’è più nessuno.|Abbiamo visitato un villaggio abbandonato."
+  },
+  {
+   "id": "u1-1b-014",
+   "target": "pieno/-a",
+   "translations": [
+    "voll"
+   ],
+   "page": "168-170",
+   "definition": "Che non ha più posto.",
+   "example": "Il treno è pieno di turisti.",
+   "related": "L plenus"
+  },
+  {
+   "id": "u1-1b-015",
+   "target": "il carnevale",
+   "translations": [
+    "der Karneval"
+   ],
+   "page": "168-170",
+   "definition": "La festa con maschere e costumi prima della Quaresima.",
+   "example": "Il carnevale di Venezia è famoso in tutto il mondo.",
+   "related": "der Karneval|||La festa con maschere e costumi prima della Quaresima.|Il carnevale di Venezia è famoso in tutto il mondo.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-016",
+   "target": "stratosferico/-a",
+   "translations": [
+    "überhöht",
+    "astronomisch"
+   ],
+   "page": "168-170",
+   "definition": "Altissimo, esagerato.",
+   "example": "I prezzi a Venezia sono stratosferici.",
+   "related": "überhöht; astronomisch|hier||Altissimo, esagerato.|I prezzi a Venezia sono stratosferici.",
+   "usage": "hier"
+  },
+  {
+   "id": "u1-1b-017",
+   "target": "l’atmosfera",
+   "translations": [
+    "die Atmosphäre"
+   ],
+   "page": "168-170",
+   "definition": "Lo stato d’animo che si sente in un luogo.",
+   "example": "In questo locale c’è un’atmosfera piacevole.",
+   "related": "die Atmosphäre|||Lo stato d’animo che si sente in un luogo.|In questo locale c’è un’atmosfera piacevole."
+  },
+  {
+   "id": "u1-1b-018",
+   "target": "generale",
+   "translations": [
+    "allgemein"
+   ],
+   "page": "168-170",
+   "definition": "Che riguarda tutto, non i dettagli.",
+   "example": "In generale sono contento della scuola.",
+   "related": "allgemein|||Che riguarda tutto, non i dettagli.|In generale sono contento della scuola."
+  },
+  {
+   "id": "u1-1b-019",
+   "target": "estremo/-a",
+   "translations": [
+    "extrem",
+    "äußerst"
+   ],
+   "page": "168-170",
+   "definition": "Molto forte, al limite.",
+   "example": "Oggi il caldo è estremo.",
+   "related": "extrem; äußerst|||Molto forte, al limite.|Oggi il caldo è estremo."
+  },
+  {
+   "id": "u1-1b-020",
+   "target": "rilassato/-a",
+   "translations": [
+    "entspannt"
+   ],
+   "page": "168-170",
+   "definition": "Tranquillo, senza stress.",
+   "example": "In vacanza sono sempre rilassato.",
+   "related": "E relaxed"
+  },
+  {
+   "id": "u1-1b-021",
+   "target": "avere a che vedere con",
+   "translations": [
+    "zu tun haben mit"
+   ],
+   "page": "168-170",
+   "definition": "Avere un rapporto con.",
+   "example": "Questo film non ha niente a che vedere con il libro.",
+   "related": "zu tun haben mit|||Avere un rapporto con.|Questo film non ha niente a che vedere con il libro."
+  },
+  {
+   "id": "u1-1b-022",
+   "target": "qualsiasi",
+   "translations": [
+    "jede(r,s) (beliebige)"
+   ],
+   "page": "168-170",
+   "definition": "Non importa quale.",
+   "example": "Puoi chiamarmi a qualsiasi ora.",
+   "related": "jede(r,s) (beliebige)|||Non importa quale.|Puoi chiamarmi a qualsiasi ora."
+  },
+  {
+   "id": "u1-1b-023",
+   "target": "la nave",
+   "translations": [
+    "das Schiff"
+   ],
+   "page": "168-170",
+   "definition": "Una grande barca per il mare.",
+   "example": "Siamo andati in Sardegna con la nave.",
+   "related": "L navis",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-024",
+   "target": "spaventare",
+   "translations": [
+    "erschrecken (jdn)"
+   ],
+   "page": "168-170",
+   "definition": "Fare paura a qualcuno.",
+   "example": "Il cane ha spaventato il bambino.",
+   "related": "erschrecken (jdn)|||Fare paura a qualcuno.|Il cane ha spaventato il bambino."
+  },
+  {
+   "id": "u1-1b-025",
+   "target": "spaventarsi",
+   "translations": [
+    "sich erschrecken"
+   ],
+   "page": "168-170",
+   "definition": "Avere paura all’improvviso.",
+   "example": "Mi sono spaventata per il rumore.",
+   "related": "sich erschrecken|||Avere paura all’improvviso.|Mi sono spaventata per il rumore."
+  },
+  {
+   "id": "u1-1b-026",
+   "target": "la nave da crociera",
+   "translations": [
+    "das Kreuzfahrtschiff"
+   ],
+   "page": "168-170",
+   "definition": "Una nave enorme per le vacanze in mare.",
+   "example": "Le navi da crociera sono un problema per Venezia.",
+   "related": "das Kreuzfahrtschiff|||Una nave enorme per le vacanze in mare.|Le navi da crociera sono un problema per Venezia.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-027",
+   "target": "fuori luogo",
+   "translations": [
+    "unangebracht"
+   ],
+   "page": "168-170",
+   "definition": "Non adatto alla situazione.",
+   "example": "La tua battuta era fuori luogo.",
+   "related": "unangebracht|Unterscheide: fuori stagione – außerhalb der Saison; fuori tempo – nicht zeitgemäß; fuori moda – aus der Mode||Non adatto alla situazione.|La tua battuta era fuori luogo.",
+   "contrast": "fuori stagione – außerhalb der Saison; fuori tempo – nicht zeitgemäß; fuori moda – aus der Mode"
+  },
+  {
+   "id": "u1-1b-028",
+   "target": "enorme",
+   "translations": [
+    "enorm",
+    "gewaltig"
+   ],
+   "page": "168-170",
+   "definition": "Grandissimo.",
+   "example": "C’è un cartellone enorme sulla piazza.",
+   "related": "enorm; gewaltig|||Grandissimo.|C’è un cartellone enorme sulla piazza."
+  },
+  {
+   "id": "u1-1b-029",
+   "target": "il cartellone",
+   "translations": [
+    "das Plakat"
+   ],
+   "page": "168-170",
+   "definition": "Un grande foglio con immagini e informazioni.",
+   "example": "Sul cartellone c’è il programma della festa.",
+   "related": "das Plakat|||Un grande foglio con immagini e informazioni.|Sul cartellone c’è il programma della festa.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-030",
+   "target": "il passato",
+   "translations": [
+    "die Vergangenheit"
+   ],
+   "page": "168-170",
+   "definition": "Il tempo che è già passato.",
+   "example": "Nel passato Venezia era una città molto potente.",
+   "related": "E past; F le passé",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-031",
+   "target": "il mostro",
+   "translations": [
+    "das Monster"
+   ],
+   "page": "168-170",
+   "definition": "Un essere brutto e pericoloso delle favole.",
+   "example": "Da piccolo avevo paura dei mostri.",
+   "related": "das Monster|||Un essere brutto e pericoloso delle favole.|Da piccolo avevo paura dei mostri.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-032",
+   "target": "la dimensione",
+   "translations": [
+    "die Dimension"
+   ],
+   "page": "168-170",
+   "definition": "La grandezza di una cosa.",
+   "example": "Le dimensioni di queste navi sono incredibili.",
+   "related": "E dimension; F dimension",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-033",
+   "target": "lento/-a",
+   "translations": [
+    "langsam"
+   ],
+   "page": "168-170",
+   "definition": "Che non va veloce.",
+   "example": "Il vaporetto è lento ma bello.",
+   "antonyms": "veloce"
+  },
+  {
+   "id": "u1-1b-034",
+   "target": "il canale",
+   "translations": [
+    "der Kanal"
+   ],
+   "page": "168-170",
+   "definition": "Una strada d’acqua.",
+   "example": "A Venezia si va in barca sui canali.",
+   "related": "der Kanal|||Una strada d’acqua.|A Venezia si va in barca sui canali.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-035",
+   "target": "il fascino",
+   "translations": [
+    "der Charme"
+   ],
+   "page": "168-170",
+   "definition": "Una forza che attira e piace.",
+   "example": "Venezia ha un fascino speciale.",
+   "related": "der Charme|||Una forza che attira e piace.|Venezia ha un fascino speciale.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-036",
+   "target": "sbattere (contro) qs",
+   "translations": [
+    "gegen etw. stoßen",
+    "etw. knallen"
+   ],
+   "page": "168-170",
+   "definition": "Colpire forte una cosa.",
+   "example": "Ho sbattuto la testa contro la porta.",
+   "related": "gegen etw. stoßen; etw. knallen|p.p. sbattuto||Colpire forte una cosa.|Ho sbattuto la testa contro la porta.",
+   "acceptedAnswers": [
+    "sbattere qs",
+    "sbattere"
+   ],
+   "usage": "p.p. sbattuto"
+  },
+  {
+   "id": "u1-1b-037",
+   "target": "nonostante",
+   "translations": [
+    "trotz",
+    "obwohl"
+   ],
+   "page": "168-170",
+   "definition": "Anche se.",
+   "example": "Nonostante la pioggia siamo andati in centro.",
+   "related": "trotz; obwohl|cong.||Anche se.|Nonostante la pioggia siamo andati in centro.",
+   "usage": "cong."
+  },
+  {
+   "id": "u1-1b-038",
+   "target": "il lato",
+   "translations": [
+    "die Seite"
+   ],
+   "page": "168-170",
+   "definition": "Una delle parti di una cosa.",
+   "example": "Guarda la cosa da un altro lato.",
+   "related": "L latus",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "il",
+    "gender": "masculine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-039",
+   "target": "negativo/-a",
+   "translations": [
+    "negativ"
+   ],
+   "page": "168-170",
+   "definition": "Non buono.",
+   "example": "Luca vede sempre il lato negativo.",
+   "antonyms": "positivo/-a"
+  },
+  {
+   "id": "u1-1b-040",
+   "target": "proporre",
+   "translations": [
+    "vorschlagen"
+   ],
+   "page": "168-170",
+   "definition": "Dire un’idea agli altri.",
+   "example": "Propongo di andare al cinema stasera.",
+   "related": "L proponere",
+   "usage": "(propongo), p.p. proposto"
+  },
+  {
+   "id": "u1-1b-041",
+   "target": "fare piacere a qn",
+   "translations": [
+    "jdn (er)freuen"
+   ],
+   "page": "168-170",
+   "definition": "Rendere contento qualcuno.",
+   "example": "Mi fa piacere vederti!",
+   "related": "jdn (er)freuen|||Rendere contento qualcuno.|Mi fa piacere vederti!",
+   "acceptedAnswers": [
+    "fare piacere a"
+   ]
+  },
+  {
+   "id": "u1-1b-042",
+   "target": "natale",
+   "translations": [
+    "Geburts-"
+   ],
+   "page": "168-170",
+   "definition": "Che riguarda il luogo o il giorno in cui si nasce.",
+   "example": "Venezia è la città natale di Marco Polo.",
+   "family": "nascere"
+  },
+  {
+   "id": "u1-1b-043",
+   "target": "ricominciare",
+   "translations": [
+    "wieder anfangen"
+   ],
+   "page": "168-170",
+   "definition": "Cominciare di nuovo.",
+   "example": "Dopo la pausa la lezione ricomincia.",
+   "related": "wieder anfangen|||Cominciare di nuovo.|Dopo la pausa la lezione ricomincia."
+  },
+  {
+   "id": "u1-1b-044",
+   "target": "rubare",
+   "translations": [
+    "stehlen"
+   ],
+   "page": "168-170",
+   "definition": "Prendere una cosa che non è tua.",
+   "example": "Mi hanno rubato la bici davanti alla scuola.",
+   "related": "stehlen|||Prendere una cosa che non è tua.|Mi hanno rubato la bici davanti alla scuola."
+  },
+  {
+   "id": "u1-1b-045",
+   "target": "la fama",
+   "translations": [
+    "der Ruf"
+   ],
+   "page": "168-170",
+   "definition": "Il fatto di essere conosciuti da molte persone.",
+   "example": "La fama di Venezia è enorme.",
+   "family": "famoso/-a",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-046",
+   "target": "la pubblicazione",
+   "translations": [
+    "die Veröffentlichung"
+   ],
+   "page": "168-170",
+   "definition": "Quando un libro o un articolo esce e tutti lo possono leggere.",
+   "example": "Dopo la pubblicazione del libro, l’autrice è diventata famosa.",
+   "related": "die Veröffentlichung|||Quando un libro o un articolo esce e tutti lo possono leggere.|Dopo la pubblicazione del libro, l’autrice è diventata famosa.",
+   "grammar": {
+    "partOfSpeech": "noun",
+    "article": "la",
+    "gender": "feminine"
+   },
+   "answerPolicy": {
+    "article": "required",
+    "typo": "hint"
+   }
+  },
+  {
+   "id": "u1-1b-047",
+   "target": "l’integrazione",
+   "translations": [
+    "die Integration",
+    "die Eingliederung"
+   ],
+   "page": "168-170",
+   "definition": "Quando una persona diventa parte di un gruppo o di una società.",
+   "example": "La scuola aiuta l’integrazione dei ragazzi stranieri.",
+   "related": "die Integration; die Eingliederung|f.||Quando una persona diventa parte di un gruppo o di una società.|La scuola aiuta l’integrazione dei ragazzi stranieri.",
+   "usage": "f."
+  },
+  {
+   "id": "u1-1b-048",
+   "target": "caotico/-a",
+   "translations": [
+    "chaotisch"
+   ],
+   "page": "168-170",
+   "definition": "Senza ordine, molto confuso.",
+   "example": "Il traffico in città è caotico.",
+   "family": "il caos"
+  },
+  {
+   "id": "u1-1b-049",
+   "target": "soffocare",
+   "translations": [
+    "ersticken"
+   ],
+   "page": "168-170",
+   "definition": "Non riuscire a respirare.",
+   "example": "In questa stanza si soffoca, apri la finestra!",
+   "related": "ersticken|||Non riuscire a respirare.|In questa stanza si soffoca, apri la finestra!"
+  }
+ ],
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "3",
+   "unit": "Unità 1",
+   "section": "1B Serena nella Serenissima",
+   "pages": "168-170"
+  },
+  "grade": 10,
+  "foreignLanguageNo": 3,
+  "cefr": "B1",
+  "themes": [
+   "Venedig",
+   "Tourismus",
+   "Karneval"
+  ],
+  "tags": [
+   "lehrwerk",
+   "vokabeln"
+  ]
+ }
+}

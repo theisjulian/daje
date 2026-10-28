@@ -79,7 +79,7 @@
    "page": "223-225",
    "definition": "Somma da pagare per usare una casa.",
    "example": "L’affitto è caro.",
-   "related": "▸ affittare"
+   "family": "affittare"
   },
   {
    "id": "u6-6a-005",
@@ -143,7 +143,8 @@
    "page": "223-225",
    "definition": "Capacità di inventare.",
    "example": "Ha molta creatività.",
-   "related": "▸ creativo/-a; E creativity",
+   "family": "creativo/-a",
+   "related": "E creativity",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -223,7 +224,8 @@
    "page": "223-225",
    "definition": "Fare un disegno.",
    "example": "Disegno un cavallo.",
-   "related": "▸ il disegno; E to design; F dessiner"
+   "family": "il disegno",
+   "related": "E to design; F dessiner"
   },
   {
    "id": "u6-6a-015",
@@ -430,7 +432,10 @@
    ],
    "page": "223-225",
    "definition": "Sostenere una squadra.",
-   "example": "Tifo per l’Inter."
+   "example": "Tifo per l’Inter.",
+   "acceptedAnswers": [
+    "tifare per"
+   ]
   },
   {
    "id": "u6-6a-028",
@@ -539,6 +544,9 @@
    "page": "223-225",
    "definition": "Venire da un luogo.",
    "example": "Provengo dalla Francia.",
+   "acceptedAnswers": [
+    "provenire da"
+   ],
    "usage": "Abc"
   },
   {

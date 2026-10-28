@@ -87,7 +87,8 @@
    "page": "195-197",
    "definition": "Parte del giorno dopo l’alba.",
    "example": "La mattina vado a scuola.",
-   "related": "≠ la sera; F le matin",
+   "antonyms": "la sera",
+   "related": "F le matin",
    "usage": "avv.",
    "grammar": {
     "partOfSpeech": "noun",
@@ -118,7 +119,7 @@
    "page": "195-197",
    "definition": "Dire che la temperatura è bassa ma piacevole.",
    "example": "La sera fa fresco. Vado dentro.",
-   "related": "▸ fresco",
+   "family": "fresco",
    "usage": "Abc"
   },
   {
@@ -141,9 +142,10 @@
    "page": "195-197",
    "definition": "Iniziare a fare qualcosa.",
    "example": "Filippo si mette a studiare.",
-   "related": "▸ mettere",
+   "family": "mettere",
    "acceptedAnswers": [
-    "mettersi a qs"
+    "mettersi a qs",
+    "mettersi a"
    ]
   },
   {
@@ -229,7 +231,8 @@
    "page": "195-197",
    "definition": "Sentirsi meno caldo.",
    "example": "Faccio una doccia per rinfrescarmi.",
-   "related": "▸ fresco/-a; E to refresh",
+   "family": "fresco/-a",
+   "related": "E to refresh",
    "acceptedAnswers": [
     "rinfrescarsi"
    ],
@@ -285,7 +288,7 @@
    "page": "195-197",
    "definition": "Telefonata.",
    "example": "Aspetto una chiamata importante.",
-   "related": "▸ chiamare",
+   "family": "chiamare",
    "grammar": {
     "partOfSpeech": "noun",
     "article": "la",
@@ -339,7 +342,7 @@
    "page": "195-197",
    "definition": "Sentirsi a proprio agio.",
    "example": "Mi trovo bene al mare.",
-   "related": "▸ trovare"
+   "family": "trovare"
   },
   {
    "id": "u7-7a-025",
@@ -389,7 +392,7 @@
    "page": "195-197",
    "definition": "Frase per dire o chiedere che va tutto bene.",
    "example": "Tutto a posto? – Sì, grazie!",
-   "related": "= va bene"
+   "synonyms": "va bene"
   },
   {
    "id": "u7-7a-029",
@@ -704,7 +707,8 @@
    "page": "195-197",
    "definition": "Contrario di aprire.",
    "example": "Chiudo la finestra.",
-   "related": "≠ aprire; L claudere",
+   "antonyms": "aprire",
+   "related": "L claudere",
    "usage": "p.p. chiuso"
   },
   {

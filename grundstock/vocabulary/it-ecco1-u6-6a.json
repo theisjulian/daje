@@ -88,7 +88,8 @@
    "page": "191-192",
    "definition": "Andare fuori da un luogo.",
    "example": "Il ragazzo esce dal negozio.",
-   "related": "≠ entrare; L exire",
+   "antonyms": "entrare",
+   "related": "L exire",
    "acceptedAnswers": [
     "uscire"
    ],
@@ -220,7 +221,8 @@
    "page": "191-192",
    "definition": "Dopo l’ora giusta.",
    "example": "Sono stanco. Sono andato al letto tardi.",
-   "related": "≠ presto; F tard",
+   "antonyms": "presto",
+   "related": "F tard",
    "usage": "avv."
   },
   {
