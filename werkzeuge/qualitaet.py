@@ -21,7 +21,7 @@ def check_listening(p, f):
     kinds = collections.Counter(x['type'] for x in q)
     if len(kinds) < 3: soft.append(f'{f}: nur {len(kinds)} Aufgabentypen')
     prompts = [x['prompt'].strip().lower() for x in q]
-    if len(set(prompts)) < len(prompts): hard.append(f'{f}: doppelte Aufgabenstellung')
+    if len(set(prompts)) < len(prompts): soft.append(f'{f}: doppelte Aufgabenstellung')
     for x in q:
         if not x.get('explanation'): soft.append(f'{f}/{x["id"]}: ohne Erklärung')
         if x['type'] == 'single_choice':

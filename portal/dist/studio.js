@@ -236,8 +236,11 @@ function edCommit() {
   else if (item.status === 'published') item.status = 'draft';
   saveEditorState();
   const status = $('ed-status');
+  const unclear = (work.sources?.[0]?.rights || 'own') === 'needs_review';
   if (status)
-    status.innerHTML = v.ok
+    status.innerHTML = v.ok && unclear
+      ? '<span class="warn">Gespeichert · zum Teilen fehlt nur noch: Quelle und Rechte</span> <button type="button" class="quiet" data-ed-rights>Jetzt klären</button>'
+      : v.ok
       ? '<span class="ok">Gespeichert · bereit zum Teilen</span>'
       : `<span class="warn">Gespeichert als Entwurf · noch offen:</span><ul>${(friendly.length
           ? friendly
@@ -285,9 +288,7 @@ async function edShare() {
   const v = edCommit();
   if (!v.ok) return toast('Bitte zuerst die offenen Punkte ergänzen.');
   if (item.payload.sources.some(s => s.rights === 'needs_review'))
-    return toast(
-      'Rechte am Medium und an den Texten bitte erst klären (Abschnitt „Quelle und Rechte“).'
-    );
+    return edShowRights('Vor dem Teilen bitte kurz Quelle und Rechte bestätigen.');
   const u = new URL(location.href);
   u.search = '';
   u.hash = '';
@@ -510,6 +511,33 @@ const edSel = (key, value, list) =>
 const edTime = s =>
   s === undefined || s === '' ? '' : Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0');
 
+/* Quelle und Rechte: solange ungeklärt, oben und aufgeklappt mit klarer Frage; danach unten eingeklappt.
+   Ohne Klärung lässt sich nicht teilen und nicht veröffentlichen. */
+const ED_RIGHTS = [
+  ['own', 'Eigenes Material', 'Text, Aufnahme oder Video habe ich selbst erstellt.'],
+  ['cleared', 'Nutzung erlaubt', 'Zum Beispiel ein öffentliches Video, das über den YouTube-Player eingebunden wird, Material mit freier Lizenz (Creative Commons) oder mit Erlaubnis des Anbieters. Ein abgeschriebenes Transkript fremder Inhalte nur mit Erlaubnis.'],
+  ['needs_review', 'Noch unklar', 'Die Übung bleibt ein Entwurf: nicht teilbar und nicht im Katalog.']
+];
+function edRightsHTML(x, open) {
+  const cur = x.sources[0]?.rights || 'own';
+  const body = `<p class="small">Darfst du das Material für deine Klasse verwenden? Das bestätigst du einmal pro Übung.</p>
+      <div class="ed-rights-opts" role="radiogroup" aria-label="Nutzungsrechte">${ED_RIGHTS.map(([v, l, d]) => `<label class="ed-right ${cur === v ? 'on' : ''}"><input type="radio" name="ed-rights" data-ed="rights" value="${v}" ${cur === v ? 'checked' : ''}><span><b>${l}</b><small>${d}</small></span></label>`).join('')}</div>
+      ${edField('Quelle (steht auf dem Aufgabenblatt)', `<textarea data-ed="citation" rows="2" maxlength="1000">${esc(x.sources[0]?.citation || '')}</textarea>`, 'z. B. „Eigener Text“ oder „Video von RAI Scuola, YouTube“')}`;
+  return open
+    ? `<section class="ed-box ed-rights warn" id="ed-rights"><h3>Quelle und Rechte · noch zu klären</h3>${body}</section>`
+    : `<details class="ed-box ed-rights" id="ed-rights"><summary>Quelle und Rechte · ${esc((ED_RIGHTS.find(r => r[0] === cur) || ED_RIGHTS[0])[1])}</summary>${body}</details>`;
+}
+/* Zum Rechte-Abschnitt springen und ihn kurz hervorheben. */
+function edShowRights(msg) {
+  const r = $('ed-rights');
+  if (!r) return msg && toast(msg);
+  if (r.tagName === 'DETAILS') r.open = true;
+  r.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  r.classList.remove('flash');
+  void r.offsetWidth;
+  r.classList.add('flash');
+  if (msg) toast(msg);
+}
 function editorFormHTML(item) {
   const x = edWork || item.draft || item.payload;
   const langs = Object.entries(TheisContent.LANGUAGES);
@@ -535,27 +563,18 @@ function editorFormHTML(item) {
         )
       )}
     </div>`;
-  const rights = `<details class="ed-box"><summary>Quelle und Rechte</summary>
-      ${edField('Herkunft', `<textarea data-ed="citation" rows="2" maxlength="1000">${esc(x.sources[0]?.citation || '')}</textarea>`, 'z. B. „Eigener Text“ oder „Video von …, YouTube“')}
-      ${edField(
-        'Nutzungsrechte',
-        edSel('rights', x.sources[0]?.rights || 'own', [
-          ['own', 'Eigener Inhalt'],
-          ['cleared', 'Nutzung geklärt'],
-          ['needs_review', 'Noch zu prüfen (nicht teilbar)']
-        ])
-      )}
-    </details>`;
+  const open = (x.sources[0]?.rights || 'own') === 'needs_review';
+  const rights = edRightsHTML(x, open);
   if (x.kind === 'vocabulary') {
     const lines = x.entries
       .map(
         w => w.target + ' = ' + w.translations.join(' / ') + (w.example ? ' | ' + w.example : '')
       )
       .join('\n');
-    return `${head}<section class="ed-box"><h3>Wörter</h3>
+    return `${head}${open ? rights : ''}<section class="ed-box"><h3>Wörter</h3>
       <p class="small muted">Eine Zeile pro Eintrag: <code>Wort = Übersetzung | Beispielsatz</code>. Mehrere Übersetzungen mit „/“ trennen; der Beispielsatz ist freiwillig.</p>
       <textarea data-ed="lines" class="ed-lines" rows="14" spellcheck="false" placeholder="la stazione = der Bahnhof | Il treno parte dalla stazione.">${esc(lines)}</textarea>
-      <p class="small muted" id="ed-count">${plural(x.entries.length, 'Eintrag', 'Einträge')}</p></section>${rights}`;
+      <p class="small muted" id="ed-count">${plural(x.entries.length, 'Eintrag', 'Einträge')}</p></section>${open ? '' : rights}`;
   }
   const m = x.media;
   const mediaFields =
@@ -575,7 +594,7 @@ function editorFormHTML(item) {
             )
           : `<p class="small muted">Dieses Medium (${esc(m.type)}) lässt sich im Bereich „Alles bearbeiten (JSON)“ ändern.</p>`;
   const qs = x.questions.map((q, i) => edQuestionHTML(q, i, x.questions.length)).join('');
-  return `${head}
+  return `${head}${open ? rights : ''}
     <section class="ed-box"><h3>Medium</h3>
       ${edField('Art', edSel('mediaType', ['youtube', 'audio', 'speech'].includes(m.type) ? m.type : m.type, [['youtube', 'YouTube-Video'], ['audio', 'Audiodatei (Link)'], ['speech', 'Text vorlesen lassen'], ...(['youtube', 'audio', 'speech'].includes(m.type) ? [] : [[m.type, m.type]])]))}
       ${mediaFields}
@@ -584,7 +603,7 @@ function editorFormHTML(item) {
     <section class="ed-box"><h3>Aufgaben <span class="muted">(${x.questions.length})</span></h3>${qs}
       <p class="ed-add-h">Aufgabe hinzufügen</p>
       ${FORMAT_GROUPS.map(([g, list]) => `<p class="ed-add-g">${esc(g)}</p><div class="ed-add">${list.map(([t, d]) => `<button class="button secondary" data-ed-add="${t}" title="${esc(d)}">+&nbsp;${esc(edTypeLabel(t))}</button>`).join('')}</div>`).join('')}
-    </section>${rights}`;
+    </section>${open ? '' : rights}`;
 }
 /* Schnelleingabe als Text: Lücken in eckigen Klammern, Paare mit „=“, Reihenfolge zeilenweise. */
 function edGapText(q) {
@@ -878,7 +897,7 @@ function edToggleCatalog() {
   const item = edItem();
   if (!item || !edCommit().ok) return;
   if (item.status !== 'published' && item.payload.sources.some(s => s.rights === 'needs_review'))
-    return toast('Erst die Rechte klären (Abschnitt „Quelle und Rechte“).');
+    return edShowRights('Vor dem Freigeben bitte kurz Quelle und Rechte bestätigen.');
   item.status = item.status === 'published' ? 'draft' : 'published';
   saveEditorState();
   renderStudio();
@@ -1001,7 +1020,13 @@ document.addEventListener('change', e => {
   const x = edWork;
   const k = t.dataset.ed;
   if (k === 'language' || k === 'level') x[k] = t.value;
-  else if (k === 'rights') x.sources[0].rights = t.value;
+  else if (k === 'rights') {
+    x.sources[0].rights = t.value;
+    edCommit();
+    renderStudio();
+    if (t.value !== 'needs_review') toast('Gespeichert. Die Übung lässt sich jetzt teilen.');
+    return;
+  }
   else if (k === 'mediaType') {
     x.media =
       t.value === 'youtube'
@@ -1434,4 +1459,8 @@ document.addEventListener('click', e => {
     save(VK_KEY, vkForm);
     renderStudio();
   }
+});
+
+document.addEventListener('click', e => {
+  if (e.target.closest('[data-ed-rights]')) edShowRights();
 });

@@ -544,6 +544,32 @@ async function step(name, fn) {
     assert.equal(await pp.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
   });
 
+  await step('Redaktion: Rechte klären, dann Live stellen (GitHub simuliert)', async () => {
+    const puts = [];
+    await pp.route('https://api.github.com/**', r => {
+      const m = r.request().method(), u = r.request().url();
+      if (m === 'PUT') { puts.push(u); return r.fulfill({ status: 201, body: '{}' }); }
+      if (/contents\//.test(u)) return r.fulfill({ status: 200, body: '{"sha":"abc123"}' });
+      return r.fulfill({ status: 200, body: '{}' });
+    });
+    await pp.goto(base, { waitUntil: 'networkidle' });
+    await pp.click('[data-audience="teach"]');
+    await pp.evaluate(() => edCopyFrom('it-a2-roma-citta'));
+    await pp.waitForSelector('#ed-rights.warn');
+    assert.match(await pp.textContent('#ed-status'), /Quelle und Rechte/);
+    await pp.click('.ed-right:has(input[value="cleared"])');
+    await pp.waitForSelector('details#ed-rights');
+    assert.match(await pp.textContent('#ed-status'), /bereit zum Teilen/);
+    await pp.evaluate(() => (document.getElementById('live-box').open = true));
+    await pp.fill('#live-token', 'github_pat_TEST');
+    await pp.click('[data-live="push"]');
+    await pp.waitForFunction(() => /Übertragen/.test(document.getElementById('live-msg').textContent));
+    assert.equal(puts.length, 1);
+    assert.match(puts[0], /grundstock\/listening\/eigen-/);
+    await pp.unroute('https://api.github.com/**');
+    await pp.evaluate(() => localStorage.removeItem('daje-github-v1'));
+  });
+
   await step('Redaktion: eigene Hörübung anlegen, teilen und als Lernende öffnen', async () => {
     await pp.goto(base, { waitUntil: 'networkidle' });
     await pp.click('[data-audience="teach"]');

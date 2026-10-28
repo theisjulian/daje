@@ -160,6 +160,11 @@ Weitere Ideen: Dialoge (Übungsauswahl, Darstellung) beim Zurückwischen nur sch
 - Wortlisten-Feld `say` (Sprechform, optional): wird statt `target` gesprochen; KI-Wortschatz.md 1.1 erklärt, wann die KI es füllt.
 - Kein Fokusrahmen um #main und [tabindex=-1] (iOS zeigte bei jedem Tippen einen blauen Rahmen).
 
+## 6k. Rechte und Live stellen (28.10.2026)
+- Quelle und Rechte: `edRightsHTML` (studio.js) als Frage mit drei Antworten (Eigenes Material / Nutzung erlaubt / Noch unklar); solange unklar, oben und hervorgehoben, Status „zum Teilen fehlt nur noch …“ mit „Jetzt klären“; Teilen und Freigeben springen dorthin (`edShowRights`). Kopien von Katalogübungen übernehmen „Noch unklar“.
+- publish.js neu: „Live stellen“ immer aktiv, gibt im eigenen Katalog automatisch frei, Token wird beim Eintippen gespeichert, „Zugang prüfen“, verständliche Fehlermeldungen (401/403/404/409/422), einmaliger Neuversuch bei Konflikt, Link zum Actions-Fortschritt.
+- qualitaet.py: doppelte Aufgabenstellung nur noch Hinweis (hätte sonst bei Live gestellten Übungen die ganze Veröffentlichung blockiert).
+
 ## 7. Offene Punkte
 - Verbtabellen-Scan S. 188–189, 192–193, 196–197 prüfen; fehlende Verben ergänzen.
 - Ecco 3 più importieren (nach Scan, exakte Kapitelzuordnung).

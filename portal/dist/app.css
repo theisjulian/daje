@@ -8013,3 +8013,16 @@ body.previewing-teaching #teaching-print.dlg-mode{position:fixed;inset:0;z-index
 main:focus, main:focus-visible, [tabindex='-1']:focus, [tabindex='-1']:focus-visible { outline: none; }
 .flashcard:focus:not(:focus-visible) { outline: none; }
 @media (hover: none) and (pointer: coarse) { .flashcard:focus-visible { outline: none; } }
+
+/* Redaktion: Quelle und Rechte als klare Frage */
+.ed-rights.warn { border: 2px solid color-mix(in srgb, var(--orange, #f59e0b) 70%, transparent); background: color-mix(in srgb, var(--orange, #f59e0b) 7%, var(--glass-solid)); }
+.ed-rights h3 { margin-top: 0; }
+.ed-rights-opts { display: grid; gap: 8px; margin: 8px 0 12px; }
+.ed-right { display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; border: 1.5px solid var(--hairline); border-radius: 14px; background: var(--glass-solid); cursor: pointer; }
+.ed-right input { flex: none; width: 20px; height: 20px; margin: 2px 0 0; accent-color: var(--blue); }
+.ed-right span { display: grid; gap: 2px; }
+.ed-right small { color: var(--label-2); font-size: 13px; line-height: 1.4; }
+.ed-right.on { border-color: var(--blue); background: color-mix(in srgb, var(--blue) 8%, var(--glass-solid)); }
+.ed-rights.flash { animation: ed-flash 1.2s ease 2; }
+@keyframes ed-flash { 50% { box-shadow: 0 0 0 4px color-mix(in srgb, var(--orange, #f59e0b) 55%, transparent); } }
+.ed-status .warn + .quiet { font-weight: 600; text-decoration: underline; }
