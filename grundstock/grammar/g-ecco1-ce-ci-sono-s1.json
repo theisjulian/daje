@@ -1,0 +1,55 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-ce-ci-sono-s1",
+ "title": "Was gibt es in deiner Stadt?",
+ "language": "it",
+ "level": "A1",
+ "description": "c'è und ci sono · Was gibt es in deiner Stadt? (schwer).",
+ "topics": [
+  "c'è und ci sono",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-ce-ci-sono",
+  "topicTitle": "c'è und ci sono",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 101,
+  "rule": "- **c'è** + Singular: _In piazza **c'è** un bar._ (Es gibt / da ist)\n- **ci sono** + Plural: _Nel quartiere **ci sono** due negozi._ (Es gibt / da sind)\n- Frage: _C'è un parco qui?_ · Verneinung: _Non c'è un cinema._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Beschreibe deinen Ort in 5 Sätzen mit c'è und ci sono.",
+   "type": "open_answer",
+   "modelAnswer": "Nel mio quartiere c'è un parco. Ci sono due negozi e un campo di calcio. Non c'è uno stadio. In centro ci sono molti bar.",
+   "lines": 5
+  }
+ ]
+}

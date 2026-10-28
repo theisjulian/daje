@@ -1,0 +1,55 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-prossimo-avere-s1",
+ "title": "Was hast du gemacht?",
+ "language": "it",
+ "level": "A1",
+ "description": "Das passato prossimo mit avere · Was hast du gemacht? (schwer).",
+ "topics": [
+  "Das passato prossimo mit avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-avere",
+  "topicTitle": "Das passato prossimo mit avere",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 31,
+  "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Was hast du letztes Wochenende gemacht? Schreibe 5 Sätze im passato prossimo mit avere.",
+   "type": "open_answer",
+   "modelAnswer": "Sabato ho dormito fino alle dieci. Poi ho giocato a calcio. Ho mangiato una pizza con i miei amici. Domenica ho studiato. La sera ho guardato un film.",
+   "lines": 5
+  }
+ ]
+}

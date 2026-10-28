@@ -1,0 +1,93 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-possessivi-2-m1",
+ "title": "Die Familie von Giulia",
+ "language": "it",
+ "level": "A1",
+ "description": "Possessivbegleiter bei Verwandten · Die Familie von Giulia (mittel).",
+ "topics": [
+  "Possessivbegleiter bei Verwandten",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-possessivi-2",
+  "topicTitle": "Possessivbegleiter bei Verwandten",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 21,
+  "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze die Possessivbegleiter (mit oder ohne Artikel).",
+   "explanation": "sua madre (Verwandte Singular), aber i suoi fratelli (Plural) und la sua famiglia.",
+   "type": "gap_fill",
+   "text": "Giulia presenta (ihre) [[g1]] famiglia.\n(ihr) [[g2]] padre si chiama Paolo e (ihre) [[g3]] madre Laura.\n(ihre) [[g4]] fratelli sono gemelli.\n(ihr) [[g5]] nonno abita in campagna.\n(unsere) [[g6]] famiglia è piccola, dice Marco.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "la sua"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Suo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sua"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "I suoi"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Suo"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "La nostra"
+     ]
+    }
+   ]
+  }
+ ]
+}

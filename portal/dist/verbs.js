@@ -3,7 +3,8 @@
  * Verbentrainer: Formen werden aus Regeln erzeugt, Ausnahmen stehen ausdrücklich in der Liste.
  * Gestaffelt nach Ecco più 1–3: jede Zeit und jedes Verb hat einen Band, ab dem es geübt wird (kumulativ).
  *   Band 1: Presente, Passato prossimo · Band 2: Imperfetto, Futuro, Condizionale, Imperativo, stare + Gerundio,
- *   Trapassato prossimo · Band 3: Congiuntivo presente/passato/imperfetto/trapassato, Condizionale passato.
+ *   Trapassato prossimo, Congiuntivo presente (laut Verbtabelle im Anhang von Band 2) · Band 3: Congiuntivo
+ *   passato/imperfetto/trapassato, Condizionale passato.
  * Übungen: Tabelle, Blitzrunde, Im Satz (tippen), Welche Form? (antippen), Hilfsverb und Partizip.
  */
 const VB_PERSONS = ['io', 'tu', 'lui / lei', 'noi', 'voi', 'loro'];
@@ -18,7 +19,7 @@ const VB_TENSES = [
   ['imp', 'Imperativo', 2],
   ['ger', 'stare + Gerundio', 2],
   ['trap', 'Trapassato prossimo', 2],
-  ['cong', 'Congiuntivo presente', 3],
+  ['cong', 'Congiuntivo presente', 2],
   ['congp', 'Congiuntivo passato', 3],
   ['congi', 'Congiuntivo imperfetto', 3],
   ['congt', 'Congiuntivo trapassato', 3],
@@ -371,15 +372,15 @@ const VB_SENT = [
   [2, 'trap', 'partire', 2, 'Quando siamo arrivati alla stazione, il treno ___.'],
   [2, 'trap', 'mangiare', 0, 'Non avevo fame perché ___ (io) un panino.'],
   [2, 'trap', 'leggere', 2, 'Anna mi ha detto che ___ il libro.'],
-  [3, 'cong', 'avere', 2, 'Penso che Luca ___ ragione.'],
-  [3, 'cong', 'stare', 1, 'Spero che (tu) ___ meglio.'],
-  [3, 'cong', 'arrivare', 3, 'È importante che (noi) ___ in orario.'],
-  [3, 'cong', 'essere', 5, 'Credo che i miei genitori ___ a casa.'],
-  [3, 'cong', 'essere', 0, 'Benché (io) ___ stanco, esco con gli amici.'],
-  [3, 'cong', 'fare', 4, 'Voglio che (voi) ___ i compiti.'],
-  [3, 'cong', 'partire', 1, 'Prima che (tu) ___, ti voglio salutare.'],
-  [3, 'cong', 'sapere', 2, 'Non credo che Anna ___ la verità.'],
-  [3, 'cong', 'capire', 5, 'Parlo piano affinché tutti ___.'],
+  [2, 'cong', 'avere', 2, 'Penso che Luca ___ ragione.'],
+  [2, 'cong', 'stare', 1, 'Spero che (tu) ___ meglio.'],
+  [2, 'cong', 'arrivare', 3, 'È importante che (noi) ___ in orario.'],
+  [2, 'cong', 'essere', 5, 'Credo che i miei genitori ___ a casa.'],
+  [2, 'cong', 'essere', 0, 'Benché (io) ___ stanco, esco con gli amici.'],
+  [2, 'cong', 'fare', 4, 'Voglio che (voi) ___ i compiti.'],
+  [2, 'cong', 'partire', 1, 'Prima che (tu) ___, ti voglio salutare.'],
+  [2, 'cong', 'sapere', 2, 'Non credo che Anna ___ la verità.'],
+  [2, 'cong', 'capire', 5, 'Parlo piano affinché tutti ___.'],
   [3, 'cong', 'proteggere', 2, 'Spero che il comune ___ il centro storico.'],
   [3, 'cong', 'proporre', 4, 'È necessario che (voi) ___ una soluzione.'],
   [3, 'congi', 'essere', 1, 'Pensavo che (tu) ___ a casa.'],

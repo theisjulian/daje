@@ -1,0 +1,88 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-gia-ancora-l1",
+ "title": "Wo steht già?",
+ "language": "it",
+ "level": "A1",
+ "description": "già und (non …) ancora · Wo steht già? (einfach).",
+ "topics": [
+  "già und (non …) ancora",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-gia-ancora",
+  "topicTitle": "già und (non …) ancora",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 51,
+  "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Ho già visto il film."
+    },
+    {
+     "id": "o2",
+     "text": "Già ho visto il film."
+    },
+    {
+     "id": "o3",
+     "text": "Ho visto già il film."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q2",
+   "prompt": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non ho ancora finito."
+    },
+    {
+     "id": "o2",
+     "text": "Non ancora ho finito."
+    },
+    {
+     "id": "o3",
+     "text": "Ho non ancora finito."
+    }
+   ],
+   "correctOptionId": "o1"
+  }
+ ]
+}

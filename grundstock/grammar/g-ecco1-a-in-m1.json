@@ -1,0 +1,104 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-a-in-m1",
+ "title": "Wo wohnen sie?",
+ "language": "it",
+ "level": "A1",
+ "description": "Die Präpositionen a und in · Wo wohnen sie? (mittel).",
+ "topics": [
+  "Die Präpositionen a und in",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-a-in",
+  "topicTitle": "Die Präpositionen a und in",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 41,
+  "rule": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino, a Roma, a Berlino_\n- **in** + Land oder Region: _in Italia, in Germania, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_\n- **a** + bestimmte Orte ohne Artikel: _a scuola, a casa_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze a oder in.",
+   "type": "gap_fill",
+   "text": "Giulia abita [[g1]] Milano, [[g2]] Italia.\nTim abita [[g3]] Amburgo, [[g4]] Germania.\nIl liceo è [[g5]] piazza Castello.\nOggi io sto [[g6]] casa.\nLuca e Anna sono [[g7]] scuola.\nIl papà lavora [[g8]] via Po.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g8",
+     "acceptedAnswers": [
+      "in"
+     ]
+    }
+   ]
+  }
+ ]
+}

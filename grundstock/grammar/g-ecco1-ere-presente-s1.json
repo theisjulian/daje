@@ -1,0 +1,84 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-ere-presente-s1",
+ "title": "Fehler finden",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -ere im Präsens · Fehler finden (schwer).",
+ "topics": [
+  "Verben auf -ere im Präsens",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-ere-presente",
+  "topicTitle": "Verben auf -ere im Präsens",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 91,
+  "rule": "| Person | prendere | vedere |\n| io | prend**o** | ved**o** |\n| tu | prend**i** | ved**i** |\n| lui / lei | prend**e** | ved**e** |\n| noi | prend**iamo** | ved**iamo** |\n| voi | prend**ete** | ved**ete** |\n| loro | prend**ono** | ved**ono** |\n\nUnterschied zu -are: **lui/lei -e** (nicht -a), **voi -ete**, **loro -ono**."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Korrigiere die Verbformen.",
+   "type": "error_correction",
+   "text": "Marco [[g1]] la bici.\nNoi [[g2]] lo stadio.\nVoi [[g3]] i pattini?\nLoro [[g4]] l'autobus.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "prenda",
+     "acceptedAnswers": [
+      "prende"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "vediete",
+     "acceptedAnswers": [
+      "vediamo"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "vendate",
+     "acceptedAnswers": [
+      "vendete"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "prendano",
+     "acceptedAnswers": [
+      "prendono"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quando-perche-s1",
+ "title": "Warum?",
+ "language": "it",
+ "level": "A1",
+ "description": "Nebensätze mit quando und perché · Warum? (schwer).",
+ "topics": [
+  "Nebensätze mit quando und perché",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quando-perche",
+  "topicTitle": "Nebensätze mit quando und perché",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 11,
+  "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Beantworte die Fragen mit perché. Achte auf die Wortstellung (wie im Hauptsatz).",
+   "type": "open_answer",
+   "modelAnswer": "Perché studi l'italiano? – Perché mi piace l'Italia.\nPerché resti a casa? – Perché devo studiare.\nPerché vai in montagna? – Perché amo la neve.",
+   "lines": 3
+  }
+ ]
+}

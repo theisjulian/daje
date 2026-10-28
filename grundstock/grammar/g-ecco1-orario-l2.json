@@ -1,0 +1,109 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-orario-l2",
+ "title": "alle oder all'?",
+ "language": "it",
+ "level": "A1",
+ "description": "Uhrzeit und Wochentage · alle oder all'? (einfach).",
+ "topics": [
+  "Uhrzeit und Wochentage",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-orario",
+  "topicTitle": "Uhrzeit und Wochentage",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 12,
+  "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle die richtige Form.",
+   "explanation": "all' nur vor una (l'una). Sonst alle: alle otto, alle due.",
+   "type": "gap_choice",
+   "text": "La lezione comincia [[g1]] otto.\nMangio [[g2]] una.\nHo latino [[g3]] dieci [[g4]] undici.\nTorno a casa [[g5]] due.\nLa scuola finisce [[g6]] una e mezza.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "alle",
+      "all'",
+      "al"
+     ],
+     "answer": "alle"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "all'",
+      "alle",
+      "al"
+     ],
+     "answer": "all'"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "dalle",
+      "alle",
+      "all'"
+     ],
+     "answer": "dalle"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "alle",
+      "all'",
+      "dalle"
+     ],
+     "answer": "alle"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "alle",
+      "all'"
+     ],
+     "answer": "alle"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "all'",
+      "alle"
+     ],
+     "answer": "all'"
+    }
+   ]
+  }
+ ]
+}

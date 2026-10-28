@@ -1,0 +1,91 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-are-presente-s2",
+ "title": "Fehler finden",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -are im Präsens · Fehler finden (schwer).",
+ "topics": [
+  "Verben auf -are im Präsens",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-are-presente",
+  "topicTitle": "Verben auf -are im Präsens",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 22,
+  "rule": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an:\n\n| Person | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** Bei _loro_ liegt die Betonung vorn: **a**bitano, **par**lano."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Die markierten Formen sind falsch. Schreibe die richtige Form.",
+   "type": "error_correction",
+   "text": "Io [[g1]] a Torino.\nNoi [[g2]] italiano.\nTu [[g3]] la partita?\nMarta e Paolo [[g4]] in piazza.\nVoi [[g5]] adesso?",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "abita",
+     "acceptedAnswers": [
+      "abito"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "parlano",
+     "acceptedAnswers": [
+      "parliamo"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "guardo",
+     "acceptedAnswers": [
+      "guardi"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "passeggia",
+     "acceptedAnswers": [
+      "passeggiano"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "arrivano",
+     "acceptedAnswers": [
+      "arrivate"
+     ]
+    }
+   ]
+  }
+ ]
+}

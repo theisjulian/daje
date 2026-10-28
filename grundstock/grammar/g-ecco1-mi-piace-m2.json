@@ -1,0 +1,87 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-mi-piace-m2",
+ "title": "Ein Interview",
+ "language": "it",
+ "level": "A1",
+ "description": "(non) mi piace / mi piacciono · Ein Interview (mittel).",
+ "topics": [
+  "(non) mi piace / mi piacciono",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-mi-piace",
+  "topicTitle": "(non) mi piace / mi piacciono",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 22,
+  "rule": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _**Non** mi piace il calcio._\n- Frage: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze mit piace oder piacciono.",
+   "type": "gap_fill",
+   "text": "– Ti [[g1]] la scuola?\n– Sì, mi [[g2]] molto. Mi [[g3]] soprattutto le lezioni di storia.\n– E la filosofia?\n– No, non mi [[g4]]. E non mi [[g5]] i compiti!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "piace"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "piace"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "piacciono"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "piace"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "piacciono"
+     ]
+    }
+   ],
+   "wordBank": true
+  }
+ ]
+}

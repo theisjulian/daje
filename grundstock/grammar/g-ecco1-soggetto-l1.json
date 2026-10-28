@@ -1,0 +1,85 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-soggetto-l1",
+ "title": "Wer ist das?",
+ "language": "it",
+ "level": "A1",
+ "description": "Die Subjektpronomen · Wer ist das? (einfach).",
+ "topics": [
+  "Die Subjektpronomen",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-soggetto",
+  "topicTitle": "Die Subjektpronomen",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 51,
+  "rule": "| io | tu | lui / lei / Lei | noi | voi | loro |\n| ich | du | er / sie / Sie | wir | ihr | sie |\n\nIm Italienischen lässt man das Pronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._\n**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Welches Pronomen passt?",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "abito",
+     "right": "io"
+    },
+    {
+     "id": "p2",
+     "left": "abiti",
+     "right": "tu"
+    },
+    {
+     "id": "p3",
+     "left": "abita",
+     "right": "lui / lei"
+    },
+    {
+     "id": "p4",
+     "left": "abitiamo",
+     "right": "noi"
+    },
+    {
+     "id": "p5",
+     "left": "abitate",
+     "right": "voi"
+    },
+    {
+     "id": "p6",
+     "left": "abitano",
+     "right": "loro"
+    }
+   ]
+  }
+ ]
+}

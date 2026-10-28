@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-essere-stare-l1",
+ "title": "essere: welche Form?",
+ "language": "it",
+ "level": "A1",
+ "description": "essere und stare · essere: welche Form? (einfach).",
+ "topics": [
+  "essere und stare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-essere-stare",
+  "topicTitle": "essere und stare",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 31,
+  "rule": "**essere** (sein) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| sono | sei | è | siamo | siete | sono |\n\n**stare** benutzt man für das Befinden: _Come stai? – Sto bene / male._\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n\n- _Sono di Torino._ (Herkunft) · _Sono Luca._ (Name) · _È bello._ (Eigenschaft)\n- _Come sta Anna? – Sta bene._ (Befinden)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle die richtige Form von essere.",
+   "explanation": "Achtung: è (er/sie ist) mit Akzent, e (und) ohne Akzent.",
+   "type": "gap_choice",
+   "text": "Io [[g1]] Luca.\nTu [[g2]] di Milano?\nMarco [[g3]] di Torino.\nNoi [[g4]] amici.\nVoi [[g5]] in classe?\nAnna e Sara [[g6]] a scuola.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "sono",
+      "sei",
+      "è"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "sei",
+      "sono",
+      "siamo"
+     ],
+     "answer": "sei"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "è",
+      "e",
+      "sono"
+     ],
+     "answer": "è"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "siamo",
+      "siete",
+      "sono"
+     ],
+     "answer": "siamo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "siete",
+      "siamo",
+      "sei"
+     ],
+     "answer": "siete"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "sono",
+      "siete",
+      "è"
+     ],
+     "answer": "sono"
+    }
+   ]
+  }
+ ]
+}

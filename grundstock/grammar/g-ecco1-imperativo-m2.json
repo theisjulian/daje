@@ -1,0 +1,93 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-imperativo-m2",
+ "title": "Die Lehrerin sagt …",
+ "language": "it",
+ "level": "A1",
+ "description": "Der Imperativ (tu, voi) und die Verneinung · Die Lehrerin sagt … (mittel).",
+ "topics": [
+  "Der Imperativ (tu, voi) und die Verneinung",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo",
+  "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 32,
+  "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Setze den Imperativ ein.",
+   "type": "gap_fill",
+   "text": "Marco, (leggere) [[g1]] la pagina dieci!\nRagazzi, (aprire) [[g2]] il libro!\nSara, (scrivere) [[g3]] la soluzione alla LIM!\nLuca, non (parlare) [[g4]]!\nRagazzi, non (gridare) [[g5]]!\nGiulia, (fare) [[g6]] l'esercizio, per favore!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "leggi"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "aprite"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "scrivi"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "parlare"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "gridate"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "fa'",
+      "fai"
+     ]
+    }
+   ]
+  }
+ ]
+}

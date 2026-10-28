@@ -1,0 +1,145 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-modali-s1",
+ "title": "Konjugationstabelle",
+ "language": "it",
+ "level": "A1",
+ "description": "venire, sapere und die Modalverben · Konjugationstabelle (schwer).",
+ "topics": [
+  "venire, sapere und die Modalverben",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-modali",
+  "topicTitle": "venire, sapere und die Modalverben",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 21,
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze die Formen.",
+   "type": "table_fill",
+   "columns": [
+    "Person",
+    "volere",
+    "potere",
+    "dovere"
+   ],
+   "rows": [
+    [
+     "io",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "voglio"
+      ]
+     },
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "posso"
+      ]
+     },
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "devo"
+      ]
+     }
+    ],
+    [
+     "lui / lei",
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "vuole"
+      ]
+     },
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "può"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "deve"
+      ]
+     }
+    ],
+    [
+     "noi",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "vogliamo"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "possiamo"
+      ]
+     },
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "dobbiamo"
+      ]
+     }
+    ],
+    [
+     "loro",
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "vogliono"
+      ]
+     },
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "possono"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "devono"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

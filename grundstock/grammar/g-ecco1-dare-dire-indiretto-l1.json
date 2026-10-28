@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-dare-dire-indiretto-l1",
+ "title": "dare und dire",
+ "language": "it",
+ "level": "A1",
+ "description": "dare, dire und das indirekte Objekt · dare und dire (einfach).",
+ "topics": [
+  "dare, dire und das indirekte Objekt",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-dare-dire-indiretto",
+  "topicTitle": "dare, dire und das indirekte Objekt",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 41,
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle die richtige Form.",
+   "explanation": "dà (er/sie gibt) hat einen Akzent, da (von, bei) nicht.",
+   "type": "gap_choice",
+   "text": "Io ti [[g1]] il mio libro.\nLa prof ci [[g2]] un compito.\nChe cosa [[g3]] tu?\nNoi [[g4]] la verità.\nI prof [[g5]] i voti.\nVoi mi [[g6]] l'ora?",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "do",
+      "da",
+      "dai"
+     ],
+     "answer": "do"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "dà",
+      "da",
+      "danno"
+     ],
+     "answer": "dà"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "dici",
+      "dice",
+      "dite"
+     ],
+     "answer": "dici"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "diciamo",
+      "dicono",
+      "dite"
+     ],
+     "answer": "diciamo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "danno",
+      "dano",
+      "date"
+     ],
+     "answer": "danno"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "dite",
+      "dicete",
+      "dicono"
+     ],
+     "answer": "dite"
+    }
+   ]
+  }
+ ]
+}

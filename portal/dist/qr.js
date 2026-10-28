@@ -34,7 +34,7 @@ function qrEntries(x) {
   return sib;
 }
 function showQR(id, pick) {
-  const x = contentList('listening').find(y => y.id === id);
+  const x = findTask(id);
   if (!x) return;
   const sib = qrEntries(x);
   const cur = sib.find(y => y.id === (pick || id)) || x;

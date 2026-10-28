@@ -1,0 +1,104 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quando-perche-l1",
+ "title": "quando oder perché?",
+ "language": "it",
+ "level": "A1",
+ "description": "Nebensätze mit quando und perché · quando oder perché? (einfach).",
+ "topics": [
+  "Nebensätze mit quando und perché",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quando-perche",
+  "topicTitle": "Nebensätze mit quando und perché",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 11,
+  "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle quando oder perché.",
+   "type": "gap_choice",
+   "text": "[[g1]] nevica, vado sullo snowboard.\nStudio molto [[g2]] domani ho un compito in classe.\n[[g3]] sono stanco, ascolto musica.\nNon vengo [[g4]] devo studiare.\n[[g5]] ho tempo, leggo un libro.\nMi piace l'estate [[g6]] vado al mare.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Quando",
+      "Perché"
+     ],
+     "answer": "Quando"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "perché",
+      "quando"
+     ],
+     "answer": "perché"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Quando",
+      "Perché"
+     ],
+     "answer": "Quando"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "perché",
+      "quando"
+     ],
+     "answer": "perché"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Quando",
+      "Perché"
+     ],
+     "answer": "Quando"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "perché",
+      "quando"
+     ],
+     "answer": "perché"
+    }
+   ]
+  }
+ ]
+}

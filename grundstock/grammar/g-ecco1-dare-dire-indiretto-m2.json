@@ -1,0 +1,87 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-dare-dire-indiretto-m2",
+ "title": "Pronomen einsetzen",
+ "language": "it",
+ "level": "A1",
+ "description": "dare, dire und das indirekte Objekt · Pronomen einsetzen (mittel).",
+ "topics": [
+  "dare, dire und das indirekte Objekt",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-dare-dire-indiretto",
+  "topicTitle": "dare, dire und das indirekte Objekt",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 42,
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze mi, ti, gli, le, ci oder vi.",
+   "type": "gap_fill",
+   "text": "Marco, [[g1]] do il mio numero.\nLa prof è contenta: [[g2]] dà un bel voto.\nGiulia è triste, io [[g3]] racconto una storia.\nPaolo non capisce, la prof [[g4]] spiega la regola.\nRagazzi, [[g5]] dico una cosa importante!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ti"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "ci"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "vi"
+     ]
+    }
+   ],
+   "wordBank": true
+  }
+ ]
+}

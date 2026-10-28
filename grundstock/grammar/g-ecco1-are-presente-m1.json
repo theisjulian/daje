@@ -1,0 +1,93 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-are-presente-m1",
+ "title": "Ein Tag in Torino",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -are im Präsens · Ein Tag in Torino (mittel).",
+ "topics": [
+  "Verben auf -are im Präsens",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-are-presente",
+  "topicTitle": "Verben auf -are im Präsens",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 21,
+  "rule": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an:\n\n| Person | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** Bei _loro_ liegt die Betonung vorn: **a**bitano, **par**lano."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Setze das Verb in der richtigen Form ein.",
+   "explanation": "abitare, passeggiare, arrivare, guardare und parlare sind regelmäßige Verben auf -are.",
+   "type": "gap_fill",
+   "text": "Ciao, io (abitare) [[g1]] a Torino.\nLa mia amica Giulia (abitare) [[g2]] in centro.\nOggi noi (passeggiare) [[g3]] insieme.\nTu (arrivare) [[g4]] alle tre?\nI ragazzi (guardare) [[g5]] la partita.\nVoi (parlare) [[g6]] inglese?",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "abito"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "abita"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "passeggiamo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "arrivi"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "guardano"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "parlate"
+     ]
+    }
+   ]
+  }
+ ]
+}

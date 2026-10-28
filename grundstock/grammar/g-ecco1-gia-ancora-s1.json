@@ -1,0 +1,79 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-gia-ancora-s1",
+ "title": "Wörter ordnen",
+ "language": "it",
+ "level": "A1",
+ "description": "già und (non …) ancora · Wörter ordnen (schwer).",
+ "topics": [
+  "già und (non …) ancora",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-gia-ancora",
+  "topicTitle": "già und (non …) ancora",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 51,
+  "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Bringe die Wörter in die richtige Reihenfolge: „Ich habe die Hausaufgaben noch nicht gemacht.“",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "Non"
+    },
+    {
+     "id": "i2",
+     "text": "ho"
+    },
+    {
+     "id": "i3",
+     "text": "ancora"
+    },
+    {
+     "id": "i4",
+     "text": "fatto"
+    },
+    {
+     "id": "i5",
+     "text": "i"
+    },
+    {
+     "id": "i6",
+     "text": "compiti"
+    }
+   ]
+  }
+ ]
+}

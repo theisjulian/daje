@@ -1,0 +1,92 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-avere-m1",
+ "title": "Ein Steckbrief",
+ "language": "it",
+ "level": "A1",
+ "description": "Das Verb avere · Ein Steckbrief (mittel).",
+ "topics": [
+  "Das Verb avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-avere",
+  "topicTitle": "Das Verb avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 11,
+  "rule": "**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.\n| io | tu | lui / lei | noi | voi | loro |\n| ho | hai | ha | abbiamo | avete | hanno |\n\nDas Alter sagt man mit avere: _Quanti anni **hai**? – **Ho** quattordici anni._\n**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze die Formen von avere.",
+   "type": "gap_fill",
+   "text": "Mi chiamo Giulia e [[g1]] quattordici anni.\nMia sorella [[g2]] diciassette anni.\nNoi [[g3]] un gatto, si chiama Pippo.\nI miei nonni [[g4]] una casa al mare.\nE tu? Quanti anni [[g5]]?\nVoi [[g6]] fratelli?",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ho"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "ha"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "abbiamo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "hanno"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "hai"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "avete"
+     ]
+    }
+   ]
+  }
+ ]
+}

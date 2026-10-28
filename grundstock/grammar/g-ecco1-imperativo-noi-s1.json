@@ -1,0 +1,55 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-imperativo-noi-s1",
+ "title": "Ein Wochenende planen",
+ "language": "it",
+ "level": "A1",
+ "description": "Der Imperativ der 1. Person Plural · Ein Wochenende planen (schwer).",
+ "topics": [
+  "Der Imperativ der 1. Person Plural",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo-noi",
+  "topicTitle": "Der Imperativ der 1. Person Plural",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 51,
+  "rule": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l'autobus!_ · _**Facciamo** una pausa!_\n- verneint: _**Non** prendiamo il taxi!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Du planst mit Freunden ein Wochenende. Schreibe 5 Vorschläge mit der 1. Person Plural.",
+   "type": "open_answer",
+   "modelAnswer": "Andiamo in montagna! Prendiamo il treno alle otto. Facciamo una gita in bici. Mangiamo in un ristorante. Non torniamo troppo tardi!",
+   "lines": 5
+  }
+ ]
+}

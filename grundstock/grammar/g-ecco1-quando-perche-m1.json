@@ -1,0 +1,80 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-quando-perche-m1",
+ "title": "Satzhälften verbinden",
+ "language": "it",
+ "level": "A1",
+ "description": "Nebensätze mit quando und perché · Satzhälften verbinden (mittel).",
+ "topics": [
+  "Nebensätze mit quando und perché",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-quando-perche",
+  "topicTitle": "Nebensätze mit quando und perché",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 11,
+  "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Was passt zusammen?",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "Suono la chitarra",
+     "right": "quando ho tempo libero."
+    },
+    {
+     "id": "p2",
+     "left": "Vado in montagna",
+     "right": "perché mi piace sciare."
+    },
+    {
+     "id": "p3",
+     "left": "Resto a casa",
+     "right": "perché piove."
+    },
+    {
+     "id": "p4",
+     "left": "Ascolto musica",
+     "right": "quando faccio i compiti."
+    },
+    {
+     "id": "p5",
+     "left": "Non vado alla festa",
+     "right": "perché sono stanca."
+    }
+   ]
+  }
+ ]
+}

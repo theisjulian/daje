@@ -1,0 +1,104 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-ce-ci-sono-l1",
+ "title": "c'è oder ci sono?",
+ "language": "it",
+ "level": "A1",
+ "description": "c'è und ci sono · c'è oder ci sono? (einfach).",
+ "topics": [
+  "c'è und ci sono",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-ce-ci-sono",
+  "topicTitle": "c'è und ci sono",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 101,
+  "rule": "- **c'è** + Singular: _In piazza **c'è** un bar._ (Es gibt / da ist)\n- **ci sono** + Plural: _Nel quartiere **ci sono** due negozi._ (Es gibt / da sind)\n- Frage: _C'è un parco qui?_ · Verneinung: _Non c'è un cinema._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle c'è oder ci sono.",
+   "type": "gap_choice",
+   "text": "In centro [[g1]] un parco.\nNel quartiere [[g2]] molti negozi.\nA Torino [[g3]] il fiume Po.\nIn piazza [[g4]] due bar.\n[[g5]] una pista di skateboard?\nQui [[g6]] tre campi sportivi.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "c'è",
+      "ci sono"
+     ],
+     "answer": "c'è"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "ci sono",
+      "c'è"
+     ],
+     "answer": "ci sono"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "c'è",
+      "ci sono"
+     ],
+     "answer": "c'è"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "ci sono",
+      "c'è"
+     ],
+     "answer": "ci sono"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "C'è",
+      "Ci sono"
+     ],
+     "answer": "C'è"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "ci sono",
+      "c'è"
+     ],
+     "answer": "ci sono"
+    }
+   ]
+  }
+ ]
+}

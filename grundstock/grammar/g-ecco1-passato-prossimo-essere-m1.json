@@ -1,0 +1,93 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-prossimo-essere-m1",
+ "title": "Domenica bianca",
+ "language": "it",
+ "level": "A1",
+ "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Domenica bianca (mittel).",
+ "topics": [
+  "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-essere",
+  "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 41,
+  "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Setze die Verben ins passato prossimo.",
+   "explanation": "Mit essere passt sich das Partizip an: Luca è caduto, Giulia è rimasta, i ragazzi sono tornati.",
+   "type": "gap_fill",
+   "text": "Domenica Luca (andare) [[g1]] in montagna.\nAnche Giulia (venire) [[g2]].\nNoi (prendere) [[g3]] il treno alle otto.\nSulla pista Luca (cadere) [[g4]] due volte.\nGiulia (rimanere) [[g5]] al bar.\nLa sera i ragazzi (tornare) [[g6]] a casa stanchi.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "è andato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "è venuta"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "abbiamo preso"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "è caduto"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "è rimasta"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "sono tornati"
+     ]
+    }
+   ]
+  }
+ ]
+}

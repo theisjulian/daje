@@ -37,12 +37,13 @@ function hwURL(a) {
   return u.href;
 }
 function hwResolve(key) {
-  const kind = key[0] === 'l' ? 'listening' : 'vocabulary';
+  const kind = key[0] === 'l' ? 'listening' : key[0] === 'g' ? 'grammar' : 'vocabulary';
   const x = contentList(kind).find(y => y.id === key.slice(2));
   return x ? { key, kind, x } : null;
 }
+const HW_KIND = { listening: 'Hörübung', grammar: 'Grammatik', vocabulary: 'Wortliste' };
 function hwDone(r) {
-  if (r.kind === 'listening') return lessonStatus(r.x).done;
+  if (r.kind === 'listening' || r.kind === 'grammar') return lessonStatus(r.x).done;
   const seen = r.x.entries.filter(w => records[r.x.id + '-' + w.id]).length;
   return seen >= Math.ceil(r.x.entries.length * 0.8);
 }
@@ -57,7 +58,7 @@ function hwButton(key) {
   // Eigene Übungen reisen mit eigenem Link (Redaktion → Mit Klasse teilen), nicht in der Hausaufgabe.
   if (
     !isTeacher() ||
-    /^[lv]:eigen-/.test(key) ||
+    /^[lvg]:eigen-/.test(key) ||
     editorState.items.some(i => 'l:' + edId(i) === key || 'v:' + edId(i) === key)
   )
     return '';
@@ -108,7 +109,7 @@ function hwComposer() {
         ? `<ol class="hw-list">${rows
             .map(
               (r, i) =>
-                `<li><span><b>${esc(r.x.title)}</b><small>${r.kind === 'listening' ? 'Hörübung' : 'Wortliste'} · ${esc(portalLang(r.x.language))} · ${esc(r.x.level)}</small></span><span class="hw-row-actions"><button class="quiet" data-hw-move="${i}" data-dir="-1" aria-label="Nach oben" ${i === 0 ? 'disabled' : ''}>↑</button><button class="quiet" data-hw-move="${i}" data-dir="1" aria-label="Nach unten" ${i === rows.length - 1 ? 'disabled' : ''}>↓</button><button class="quiet" data-hw="${esc(r.key)}" aria-label="Entfernen">✕</button></span></li>`
+                `<li><span><b>${esc(r.x.title)}</b><small>${HW_KIND[r.kind]} · ${esc(portalLang(r.x.language))} · ${esc(r.x.level)}</small></span><span class="hw-row-actions"><button class="quiet" data-hw-move="${i}" data-dir="-1" aria-label="Nach oben" ${i === 0 ? 'disabled' : ''}>↑</button><button class="quiet" data-hw-move="${i}" data-dir="1" aria-label="Nach unten" ${i === rows.length - 1 ? 'disabled' : ''}>↓</button><button class="quiet" data-hw="${esc(r.key)}" aria-label="Entfernen">✕</button></span></li>`
             )
             .join('')}</ol>
       <div class="qr-card hw-qr">${qrSVG(url, 'QR-Code zur Hausaufgabe')}</div>
@@ -144,10 +145,10 @@ function hwPage() {
       .map(r => {
         const ok = hwDone(r);
         const action =
-          r.kind === 'listening'
-            ? `<button class="button ${ok ? 'secondary' : 'primary'}" data-lesson="${esc(r.x.id)}">${ok ? 'Noch einmal' : 'Anhören'}</button>`
+          r.kind !== 'vocabulary'
+            ? `<button class="button ${ok ? 'secondary' : 'primary'}" data-lesson="${esc(r.x.id)}">${ok ? 'Noch einmal' : r.kind === 'grammar' ? 'Üben' : 'Anhören'}</button>`
             : `<button class="button ${ok ? 'secondary' : 'primary'}" data-vocab-set="${esc(r.x.id)}">${ok ? 'Wiederholen' : 'Üben'}</button>`;
-        return `<li class="${ok ? 'is-done' : ''}"><span class="hw-check" aria-hidden="true">${ok ? '✓' : ''}</span><span class="hw-text"><b>${esc(r.x.title)}</b><small><span>${r.kind === 'listening' ? 'Hörübung' : 'Wortliste'}</span> · ${esc(r.x.level)}${ok ? ' · <span>erledigt</span>' : ''}</small></span>${action}</li>`;
+        return `<li class="${ok ? 'is-done' : ''}"><span class="hw-check" aria-hidden="true">${ok ? '✓' : ''}</span><span class="hw-text"><b>${esc(r.x.title)}</b><small><span>${HW_KIND[r.kind]}</span> · ${esc(r.x.level)}${ok ? ' · <span>erledigt</span>' : ''}</small></span>${action}</li>`;
       })
       .join('')}</ol>
   </div>`;

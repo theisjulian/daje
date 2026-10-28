@@ -1,0 +1,86 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-imperativo-noi-m1",
+ "title": "Was machen wir?",
+ "language": "it",
+ "level": "A1",
+ "description": "Der Imperativ der 1. Person Plural · Was machen wir? (mittel).",
+ "topics": [
+  "Der Imperativ der 1. Person Plural",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo-noi",
+  "topicTitle": "Der Imperativ der 1. Person Plural",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 51,
+  "rule": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l'autobus!_ · _**Facciamo** una pausa!_\n- verneint: _**Non** prendiamo il taxi!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Mache Vorschläge mit der 1. Person Plural.",
+   "type": "gap_fill",
+   "text": "(andare) [[g1]] a Roma per Pasqua!\n(prendere) [[g2]] il treno, è più comodo!\n(comprare) [[g3]] i biglietti online!\nNon (aspettare) [[g4]] l'autobus, (camminare) [[g5]]!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "Andiamo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "Prendiamo"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Compriamo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "aspettiamo"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "camminiamo"
+     ]
+    }
+   ]
+  }
+ ]
+}

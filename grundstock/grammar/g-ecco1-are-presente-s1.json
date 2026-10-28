@@ -1,0 +1,150 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-are-presente-s1",
+ "title": "Konjugationstabelle",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -are im Präsens · Konjugationstabelle (schwer).",
+ "topics": [
+  "Verben auf -are im Präsens",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-are-presente",
+  "topicTitle": "Verben auf -are im Präsens",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 21,
+  "rule": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an:\n\n| Person | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** Bei _loro_ liegt die Betonung vorn: **a**bitano, **par**lano."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze die Formen.",
+   "type": "table_fill",
+   "columns": [
+    "Person",
+    "abitare",
+    "guardare"
+   ],
+   "rows": [
+    [
+     "io",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "abito"
+      ]
+     },
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "guardo"
+      ]
+     }
+    ],
+    [
+     "tu",
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "abiti"
+      ]
+     },
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "guardi"
+      ]
+     }
+    ],
+    [
+     "lui / lei",
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "abita"
+      ]
+     },
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "guarda"
+      ]
+     }
+    ],
+    [
+     "noi",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "abitiamo"
+      ]
+     },
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "guardiamo"
+      ]
+     }
+    ],
+    [
+     "voi",
+     {
+      "id": "c9",
+      "acceptedAnswers": [
+       "abitate"
+      ]
+     },
+     {
+      "id": "c10",
+      "acceptedAnswers": [
+       "guardate"
+      ]
+     }
+    ],
+    [
+     "loro",
+     {
+      "id": "c11",
+      "acceptedAnswers": [
+       "abitano"
+      ]
+     },
+     {
+      "id": "c12",
+      "acceptedAnswers": [
+       "guardano"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

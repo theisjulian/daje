@@ -37,7 +37,7 @@ for (const f of ['listening-data.js', 'review-data.js']) {
 const good = [],
   bad = [],
   seen = new Set(seedIds);
-for (const kind of ['listening', 'vocabulary']) {
+for (const kind of ['listening', 'vocabulary', 'grammar']) {
   const dir = path.join(root, 'grundstock', kind);
   if (!fs.existsSync(dir)) continue;
   for (const f of fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort()) {
@@ -45,6 +45,8 @@ for (const kind of ['listening', 'vocabulary']) {
       const r = validatePackage(JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')));
       if (!r.ok) throw new Error(r.errors.slice(0, 4).join(' · '));
       if (r.value.kind !== kind) throw new Error('Paketart passt nicht zum Ordner');
+      // Genau übernommene Buchübungen bleiben privat und kommen nie in den öffentlichen Katalog.
+      if (r.value.grammar && r.value.grammar.origin === 'original') throw new Error('Originalübung aus einem Buch: nur privat, nicht im Grundstock');
       if (seen.has(r.value.id)) throw new Error('ID doppelt: ' + r.value.id);
       seen.add(r.value.id);
       good.push(r.value);
@@ -60,7 +62,7 @@ const out =
 fs.writeFileSync(path.join(dist, 'stock-data.js'), out);
 const working = good.filter(x => x.sources.some(s => s.rights === 'needs_review')).length;
 console.log(
-  `${good.length} Pakete gebündelt (${good.filter(x => x.kind === 'listening').length} Hören, ${good.filter(x => x.kind === 'vocabulary').length} Wortschatz), davon ${working} als Arbeitsfassung markiert.`
+  `${good.length} Pakete gebündelt (${good.filter(x => x.kind === 'listening').length} Hören, ${good.filter(x => x.kind === 'vocabulary').length} Wortschatz, ${good.filter(x => x.kind === 'grammar').length} Grammatik), davon ${working} als Arbeitsfassung markiert.`
 );
 if (bad.length) {
   console.log('\nNICHT übernommen:\n- ' + bad.join('\n- '));

@@ -1,0 +1,98 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-aggettivi-m1",
+ "title": "Mein Zimmer",
+ "language": "it",
+ "level": "A1",
+ "description": "Adjektive und ihre Stellung · Mein Zimmer (mittel).",
+ "topics": [
+  "Adjektive und ihre Stellung",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-aggettivi",
+  "topicTitle": "Adjektive und ihre Stellung",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 71,
+  "rule": "Adjektive richten sich nach dem Nomen (Geschlecht und Zahl):\n| Typ | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| -o/-a | nuovo | nuova | nuovi | nuove |\n| -e | grande | grande | grandi | grandi |\n\n**Stellung:** meist **nach** dem Nomen: _un libro **interessante**, una camera **grande**._ Einige kurze, häufige Adjektive stehen oft davor: _un **bel** posto, un **piccolo** problema, una **vecchia** foto._\n**Achtung:** _bello_ vor dem Nomen verändert sich wie der Artikel: _un bel gatto, un bello zaino, i bei libri._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze die Adjektive in der richtigen Form.",
+   "type": "gap_fill",
+   "text": "La mia camera è (piccolo) [[g1]], ma è (bello) [[g2]].\nIl letto è (nuovo) [[g3]] e la scrivania è (grande) [[g4]].\nSulla parete ci sono due poster (vecchio) [[g5]].\nHo anche tante foto (bellissimo) [[g6]] della vacanza.\nI miei videogiochi sono (nuovo) [[g7]].",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "piccola"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "bella"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "nuovo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "grande"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "vecchi"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "bellissime"
+     ]
+    },
+    {
+     "id": "g7",
+     "acceptedAnswers": [
+      "nuovi"
+     ]
+    }
+   ]
+  }
+ ]
+}

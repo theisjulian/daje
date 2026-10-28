@@ -14,6 +14,8 @@
     'fortschritt',
     'hilfe',
     'verben',
+    'grammatik',
+    'zahlen',
     'quellen',
     'wortschatz',
     'lernen',
@@ -24,7 +26,7 @@
   const snapshot = () => ({
     v: view,
     l: view === 'hoeruebung' ? openedListening : null,
-    b: view === 'vokabeln' ? wsBook.get() : null,
+    b: view === 'vokabeln' ? wsBook.get() : view === 'grammatik' ? grRoute.get() : null,
     a: view === 'aufgabe' && hwCurrent ? hwCurrent.code : null,
     s: !!session
   });
@@ -52,6 +54,7 @@
   const baseNav = nav;
   nav = function (next) {
     if (next === 'vokabeln' && !restoring) wsBook.set(null);
+    if (next === 'grammatik' && !restoring && !grRoute.keep) grRoute.set(null);
     const r = baseNav.apply(this, arguments);
     record();
     return r;
@@ -113,6 +116,7 @@
       else if (st.l) openListening(st.l);
       else {
         if (st.v === 'vokabeln') wsBook.set(st.b || null);
+        if (st.v === 'grammatik') grRoute.set(st.b || null);
         nav(PAGES.includes(st.v) ? st.v : 'start');
       }
     } finally {
@@ -126,6 +130,7 @@
   if (view === 'start' && PAGES.includes(page)) {
     restoring = true;
     if (page === 'vokabeln' && p.get('buch')) wsBook.set(p.get('buch'));
+    if (page === 'grammatik' && p.get('buch')) grRoute.set(p.get('buch'));
     nav(page);
     restoring = false;
   }

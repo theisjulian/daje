@@ -1,0 +1,114 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-plurale-m1",
+ "title": "Plural bilden",
+ "language": "it",
+ "level": "A1",
+ "description": "Der Plural: Artikel und Nomen · Plural bilden (mittel).",
+ "topics": [
+  "Der Plural: Artikel und Nomen",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-plurale",
+  "topicTitle": "Der Plural: Artikel und Nomen",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 81,
+  "rule": "**Nomen:**\n| Singular | Plural | Beispiel |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù (betont) | bleibt | la città → le città |\n\n**Artikel:**\n| Singular | Plural |\n| il | i |\n| lo, l' (männlich) | gli |\n| la, l' (weiblich) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Bilde den Plural mit Artikel.",
+   "explanation": "Fremdwörter (lo sport, il bar) und betonte Endungen (la città) ändern sich im Plural nicht.",
+   "type": "table_fill",
+   "columns": [
+    "Singular",
+    "Plural"
+   ],
+   "rows": [
+    [
+     "il campo",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "i campi"
+      ]
+     }
+    ],
+    [
+     "la bicicletta",
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "le biciclette"
+      ]
+     }
+    ],
+    [
+     "lo sport",
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "gli sport"
+      ]
+     }
+    ],
+    [
+     "l'attrazione",
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "le attrazioni"
+      ]
+     }
+    ],
+    [
+     "il quartiere",
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "i quartieri"
+      ]
+     }
+    ],
+    [
+     "la città",
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "le città"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

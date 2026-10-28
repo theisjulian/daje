@@ -1,0 +1,85 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-prossimo-avere-l1",
+ "title": "Das Partizip",
+ "language": "it",
+ "level": "A1",
+ "description": "Das passato prossimo mit avere · Das Partizip (einfach).",
+ "topics": [
+  "Das passato prossimo mit avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-avere",
+  "topicTitle": "Das passato prossimo mit avere",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 31,
+  "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Welches Partizip gehört zum Verb?",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "giocare",
+     "right": "giocato"
+    },
+    {
+     "id": "p2",
+     "left": "dormire",
+     "right": "dormito"
+    },
+    {
+     "id": "p3",
+     "left": "vendere",
+     "right": "venduto"
+    },
+    {
+     "id": "p4",
+     "left": "studiare",
+     "right": "studiato"
+    },
+    {
+     "id": "p5",
+     "left": "sentire",
+     "right": "sentito"
+    },
+    {
+     "id": "p6",
+     "left": "ascoltare",
+     "right": "ascoltato"
+    }
+   ]
+  }
+ ]
+}

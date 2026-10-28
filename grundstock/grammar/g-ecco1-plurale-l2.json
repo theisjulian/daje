@@ -1,0 +1,85 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-plurale-l2",
+ "title": "Einzahl und Mehrzahl",
+ "language": "it",
+ "level": "A1",
+ "description": "Der Plural: Artikel und Nomen · Einzahl und Mehrzahl (einfach).",
+ "topics": [
+  "Der Plural: Artikel und Nomen",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-plurale",
+  "topicTitle": "Der Plural: Artikel und Nomen",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 82,
+  "rule": "**Nomen:**\n| Singular | Plural | Beispiel |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù (betont) | bleibt | la città → le città |\n\n**Artikel:**\n| Singular | Plural |\n| il | i |\n| lo, l' (männlich) | gli |\n| la, l' (weiblich) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Was gehört zusammen?",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "il negozio",
+     "right": "i negozi"
+    },
+    {
+     "id": "p2",
+     "left": "la partita",
+     "right": "le partite"
+    },
+    {
+     "id": "p3",
+     "left": "lo stadio",
+     "right": "gli stadi"
+    },
+    {
+     "id": "p4",
+     "left": "l'edificio",
+     "right": "gli edifici"
+    },
+    {
+     "id": "p5",
+     "left": "la città",
+     "right": "le città"
+    },
+    {
+     "id": "p6",
+     "left": "il palazzo",
+     "right": "i palazzi"
+    }
+   ]
+  }
+ ]
+}

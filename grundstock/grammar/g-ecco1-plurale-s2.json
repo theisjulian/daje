@@ -1,0 +1,91 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-plurale-s2",
+ "title": "Fehler finden",
+ "language": "it",
+ "level": "A1",
+ "description": "Der Plural: Artikel und Nomen · Fehler finden (schwer).",
+ "topics": [
+  "Der Plural: Artikel und Nomen",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-plurale",
+  "topicTitle": "Der Plural: Artikel und Nomen",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 82,
+  "rule": "**Nomen:**\n| Singular | Plural | Beispiel |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù (betont) | bleibt | la città → le città |\n\n**Artikel:**\n| Singular | Plural |\n| il | i |\n| lo, l' (männlich) | gli |\n| la, l' (weiblich) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Korrigiere die Pluralformen.",
+   "type": "error_correction",
+   "text": "[[g1]] stadi sono grandi.\nLe [[g2]] di Torino sono belle.\nCi sono molti [[g3]].\n[[g4]] amiche abitano qui.\nLe [[g5]] italiane sono antiche.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "I",
+     "acceptedAnswers": [
+      "Gli"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "piazza",
+     "acceptedAnswers": [
+      "piazze"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "negozie",
+     "acceptedAnswers": [
+      "negozi"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "Gli",
+     "acceptedAnswers": [
+      "Le"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "cittè",
+     "acceptedAnswers": [
+      "città"
+     ]
+    }
+   ]
+  }
+ ]
+}

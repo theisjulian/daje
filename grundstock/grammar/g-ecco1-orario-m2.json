@@ -1,0 +1,83 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-orario-m2",
+ "title": "Die Woche",
+ "language": "it",
+ "level": "A1",
+ "description": "Uhrzeit und Wochentage · Die Woche (mittel).",
+ "topics": [
+  "Uhrzeit und Wochentage",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-orario",
+  "topicTitle": "Uhrzeit und Wochentage",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 12,
+  "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ordne die Wochentage.",
+   "type": "ordering",
+   "items": [
+    {
+     "id": "i1",
+     "text": "lunedì"
+    },
+    {
+     "id": "i2",
+     "text": "martedì"
+    },
+    {
+     "id": "i3",
+     "text": "mercoledì"
+    },
+    {
+     "id": "i4",
+     "text": "giovedì"
+    },
+    {
+     "id": "i5",
+     "text": "venerdì"
+    },
+    {
+     "id": "i6",
+     "text": "sabato"
+    },
+    {
+     "id": "i7",
+     "text": "domenica"
+    }
+   ]
+  }
+ ]
+}

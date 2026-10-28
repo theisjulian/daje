@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Qualitätsprüfung des Grundstocks (Hören + Wortschatz) und von Gemini-Stapeln.
+"""Qualitätsprüfung des Grundstocks (Hören, Wortschatz, Grammatik) und von Gemini-Stapeln.
 Aufruf:  python3 werkzeuge/qualitaet.py [ordner ...]     (Standard: grundstock/)
 Meldet je Paket Befunde; Exit-Code 1 bei harten Fehlern.  IPA-Prüfung: --ipa"""
 import json, pathlib, re, sys, collections
@@ -52,6 +52,19 @@ def check_vocab(p, f):
             if not IPA_OK.match(ipa): hard.append(f'{f}/{t}: IPA enthält ungültige Zeichen: {ipa}')
             elif abs(vowel_groups(t.split()[-1]) - ipa_nuclei(ipa)) > 1: soft.append(f'{f}/{t}: IPA-Silbenzahl passt nicht: {ipa}')
 
+def check_grammar(p, f):
+    q = p['questions']
+    g = p.get('grammar', {})
+    if g.get('origin') == 'original': hard.append(f'{f}: Originalübung aus einem Buch gehört nicht in den Grundstock')
+    if not 1 <= len(q) <= 6: soft.append(f'{f}: {len(q)} Aufgaben (Richtwert 1–6)')
+    for x in q:
+        if x['type'] == 'single_choice':
+            texts = [o['text'].strip().lower() for o in x['options']]
+            if len(set(texts)) < len(texts): hard.append(f'{f}/{x["id"]}: doppelte Antwortoption')
+        if x['type'] == 'gap_choice':
+            for gap in x['gaps']:
+                if len(set(gap['options'])) < len(gap['options']): hard.append(f'{f}/{x["id"]}: doppelte Auswahl in Lücke {gap["id"]}')
+
 n = 0
 for d in dirs:
     for fp in sorted(d.rglob('*.json')):
@@ -59,7 +72,7 @@ for d in dirs:
         except Exception as ex: hard.append(f'{fp}: kein gültiges JSON ({ex})'); continue
         if p.get('format') != 'theis-learning-package': continue
         n += 1
-        (check_listening if p['kind'] == 'listening' else check_vocab)(p, fp.stem)
+        {'listening': check_listening, 'grammar': check_grammar}.get(p['kind'], check_vocab)(p, fp.stem)
 print(f'{n} Pakete geprüft: {len(hard)} harte Fehler, {len(soft)} Hinweise')
 for h in hard[:60]: print('FEHLER ', h)
 c = collections.Counter(s.split(': ', 1)[-1].split('/')[-1][:40] if False else re.sub(r'^[^:]+(/[^:]+)?: ', '', s)[:36] for s in soft)

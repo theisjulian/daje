@@ -229,7 +229,7 @@ renderVocabDoc = function () {
   dlgShow({ title: x.title.replace(/^Wortschatz · /, ''), side, paper: vocabDocHTML(x) });
 };
 printTeaching = function (solutions) {
-  const x = contentList('listening').find(x => x.id === teacherLessonId);
+  const x = findTask(teacherLessonId);
   if (!x) return;
   hbOpt.solutions = !!solutions;
   hbOpt.compact = solutions === 2;

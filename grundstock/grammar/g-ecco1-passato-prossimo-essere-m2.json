@@ -1,0 +1,101 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-prossimo-essere-m2",
+ "title": "Die richtige Endung",
+ "language": "it",
+ "level": "A1",
+ "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Die richtige Endung (mittel).",
+ "topics": [
+  "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-essere",
+  "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 42,
+  "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle die richtige Endung.",
+   "type": "gap_choice",
+   "text": "Anna è [[g1]] al cinema.\nI ragazzi sono [[g2]] tardi.\nLe mie amiche sono [[g3]] ieri.\nMarco è [[g4]] con Paolo.\nSara e Lucia sono [[g5]] a casa.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "andata",
+      "andato",
+      "andati"
+     ],
+     "answer": "andata"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "arrivati",
+      "arrivato",
+      "arrivate"
+     ],
+     "answer": "arrivati"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "partite",
+      "partiti",
+      "partita"
+     ],
+     "answer": "partite"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "uscito",
+      "uscita",
+      "usciti"
+     ],
+     "answer": "uscito"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "tornate",
+      "tornati",
+      "tornata"
+     ],
+     "answer": "tornate"
+    }
+   ]
+  }
+ ]
+}

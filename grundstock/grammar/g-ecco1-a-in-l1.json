@@ -1,0 +1,105 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-a-in-l1",
+ "title": "a oder in?",
+ "language": "it",
+ "level": "A1",
+ "description": "Die Präpositionen a und in · a oder in? (einfach).",
+ "topics": [
+  "Die Präpositionen a und in",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-a-in",
+  "topicTitle": "Die Präpositionen a und in",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 41,
+  "rule": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino, a Roma, a Berlino_\n- **in** + Land oder Region: _in Italia, in Germania, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_\n- **a** + bestimmte Orte ohne Artikel: _a scuola, a casa_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle a oder in.",
+   "explanation": "Stadt → a; Land und Straße → in; a scuola, a casa.",
+   "type": "gap_choice",
+   "text": "Abito [[g1]] Torino.\nMarco abita [[g2]] Italia.\nLa nonna abita [[g3]] Roma.\nLisa abita [[g4]] Germania.\nSiamo [[g5]] scuola.\nAbitiamo [[g6]] via Garibaldi.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "a",
+      "in"
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "in",
+      "a"
+     ],
+     "answer": "in"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "a",
+      "in"
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "in",
+      "a"
+     ],
+     "answer": "in"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "a",
+      "in"
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "in",
+      "a"
+     ],
+     "answer": "in"
+    }
+   ]
+  }
+ ]
+}

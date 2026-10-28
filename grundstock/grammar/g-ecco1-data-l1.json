@@ -1,0 +1,80 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-data-l1",
+ "title": "Welches Datum?",
+ "language": "it",
+ "level": "A1",
+ "description": "Das Datum · Welches Datum? (einfach).",
+ "topics": [
+  "Das Datum",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 5,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-data",
+  "topicTitle": "Das Datum",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 11,
+  "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Was gehört zusammen?",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "1.5.",
+     "right": "il primo maggio"
+    },
+    {
+     "id": "p2",
+     "left": "8.3.",
+     "right": "l'otto marzo"
+    },
+    {
+     "id": "p3",
+     "left": "15.8.",
+     "right": "il quindici agosto"
+    },
+    {
+     "id": "p4",
+     "left": "25.12.",
+     "right": "il venticinque dicembre"
+    },
+    {
+     "id": "p5",
+     "left": "11.11.",
+     "right": "l'undici novembre"
+    }
+   ]
+  }
+ ]
+}

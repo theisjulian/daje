@@ -181,6 +181,8 @@ function nav(next) {
       wortschatz: 'Dein Wortschatz',
       fortschritt: 'Dein Fortschritt',
       verben: 'Verben',
+      grammatik: 'Grammatik',
+      zahlen: 'Zahlen, Uhrzeit, Datum',
       quellen: 'Quellen und Bildnachweise',
       hilfe: 'Hilfe · Lerntipps'
     }[next] || 'Dein Lernbereich';
@@ -203,6 +205,8 @@ function render() {
       fortschritt: progress,
       quellen: sources,
       verben: () => verbsPage(),
+      grammatik: () => grammarPage(),
+      zahlen: () => numbersPage(),
       hilfe: help
     })[view] || home
   )();

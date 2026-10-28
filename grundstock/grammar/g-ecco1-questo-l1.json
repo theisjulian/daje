@@ -1,0 +1,110 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-questo-l1",
+ "title": "Welche Form?",
+ "language": "it",
+ "level": "A1",
+ "description": "questo, questa, questi, queste · Welche Form? (einfach).",
+ "topics": [
+  "questo, questa, questi, queste",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-questo",
+  "topicTitle": "questo, questa, questi, queste",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 31,
+  "rule": "**questo** (dieser, diese, dieses) richtet sich nach dem Nomen:\n| | Singular | Plural |\n| männlich | questo zaino | questi zaini |\n| weiblich | questa borsa | queste borse |\n\nVor Vokal oft: _quest'armadio, quest'idea_. Allein (ohne Nomen): _Questo è il mio zaino._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle die richtige Form von questo.",
+   "type": "gap_choice",
+   "text": "[[g1]] zaino è pesante.\n[[g2]] borsa è della mamma.\n[[g3]] vestiti sono per terra.\n[[g4]] riviste sono vecchie.\n[[g5]] cucina è un caos!\n[[g6]] libri sono di Filippo.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Questo",
+      "Questa",
+      "Questi"
+     ],
+     "answer": "Questo"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "Questa",
+      "Questo",
+      "Queste"
+     ],
+     "answer": "Questa"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Questi",
+      "Queste",
+      "Questo"
+     ],
+     "answer": "Questi"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Queste",
+      "Questi",
+      "Questa"
+     ],
+     "answer": "Queste"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Questa",
+      "Questo",
+      "Queste"
+     ],
+     "answer": "Questa"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Questi",
+      "Questo",
+      "Queste"
+     ],
+     "answer": "Questi"
+    }
+   ]
+  }
+ ]
+}

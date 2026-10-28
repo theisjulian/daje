@@ -56,8 +56,8 @@
     if (a.format !== 'theis-learning-package') fail('format', 'theis-learning-package erwartet');
     if (!['1.0', '1.1', '1.2'].includes(a.schemaVersion))
       fail('schemaVersion', 'Version 1.0, 1.1 oder 1.2 erwartet');
-    if (!['listening', 'vocabulary'].includes(a.kind))
-      fail('kind', 'listening oder vocabulary erwartet');
+    if (!['listening', 'vocabulary', 'grammar'].includes(a.kind))
+      fail('kind', 'listening, vocabulary oder grammar erwartet');
     const out = {
       format: 'theis-learning-package',
       schemaVersion: a.schemaVersion,
@@ -140,8 +140,9 @@
       }
       if (a.coverQuery !== undefined) out.coverQuery = str(a.coverQuery, 'coverQuery', 120);
       if (a.coverCredit !== undefined) out.coverCredit = str(a.coverCredit, 'coverCredit', 1000);
-  };
-    if (a.kind === 'listening') {
+    };
+    // Hörübungen und Grammatikübungen teilen sich Aufgaben, Dauer und Unterrichtshinweise; Medium nur beim Hören.
+    if (a.kind === 'listening' || a.kind === 'grammar') {
       out.estimatedMinutes = a.estimatedMinutes;
       if (
         !Number.isInteger(a.estimatedMinutes) ||
@@ -149,6 +150,28 @@
         a.estimatedMinutes > 90
       )
         fail('estimatedMinutes', 'ganze Zahl von 1 bis 90 erwartet');
+      if (a.kind === 'grammar') {
+        // Grammatik: Thema (für den Katalog), Stufe, Merkkasten. origin „original“ = genau aus einem Buch übernommen:
+        // nur privat (eigener Browser, Link an die Klasse), nie im öffentlichen Katalog.
+        const g = obj(a.grammar, 'grammar');
+        out.grammar = { topic: id(g.topic, 'grammar.topic'), topicTitle: str(g.topicTitle, 'grammar.topicTitle', 120) };
+        if (!['leicht', 'mittel', 'schwer'].includes(g.difficulty)) fail('grammar.difficulty', 'leicht, mittel oder schwer erwartet');
+        else out.grammar.difficulty = g.difficulty;
+        if (!['own', 'adapted', 'original'].includes(g.origin || 'own')) fail('grammar.origin', 'own, adapted oder original erwartet');
+        else out.grammar.origin = g.origin || 'own';
+        if (g.rule !== undefined && g.rule !== '') out.grammar.rule = str(g.rule, 'grammar.rule', 4000);
+        if (g.order !== undefined) {
+          if (!Number.isInteger(g.order) || g.order < 0 || g.order > 9999) fail('grammar.order', 'ganze Zahl erwartet');
+          else out.grammar.order = g.order;
+        }
+        if (a.teacherNotes !== undefined) {
+          const t = obj(a.teacherNotes, 'teacherNotes');
+          out.teacherNotes = {};
+          for (const f of ['warmup', 'steps', 'tips', 'followUp'])
+            if (t[f] !== undefined) out.teacherNotes[f] = strings(t[f], 'teacherNotes.' + f, 10);
+        }
+        out.vocabularyIds = [];
+      } else {
       const m = obj(a.media, 'media');
       out.media = { type: m.type };
       if (!['speech', 'audio', 'youtube', 'film', 'link'].includes(m.type))
@@ -207,6 +230,7 @@
           : arr(a.vocabularyIds, 'vocabularyIds', 0, 100).map((s, i) =>
               id(s, 'vocabularyIds[' + i + ']')
             );
+      }
       const seen = new Set();
       out.questions = arr(a.questions, 'questions', 1, 40).map((q, i) => {
         const path = 'questions[' + i + ']';

@@ -1,0 +1,88 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-gia-ancora-m1",
+ "title": "già oder ancora?",
+ "language": "it",
+ "level": "A1",
+ "description": "già und (non …) ancora · già oder ancora? (mittel).",
+ "topics": [
+  "già und (non …) ancora",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 5,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-gia-ancora",
+  "topicTitle": "già und (non …) ancora",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 51,
+  "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle già oder ancora.",
+   "type": "gap_choice",
+   "text": "Hai [[g1]] fatto i compiti? – Sì, li ho fatti ieri.\nNo, non ho [[g2]] mangiato. Ho fame!\nMarco è [[g3]] arrivato? – Sì, è qui.\nNon abbiamo [[g4]] deciso.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "già",
+      "ancora"
+     ],
+     "answer": "già"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "ancora",
+      "già"
+     ],
+     "answer": "ancora"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "già",
+      "ancora"
+     ],
+     "answer": "già"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "ancora",
+      "già"
+     ],
+     "answer": "ancora"
+    }
+   ]
+  }
+ ]
+}

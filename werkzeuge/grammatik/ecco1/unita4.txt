@@ -1,0 +1,242 @@
+#!buch series=Ecco_più volume=1 grade=8 cefr=A1 prefix=ecco1 publisher=Cornelsen
+## Ecco più 1 · Unità 4 „Il tempo libero“ · Grammatikthemen laut Inhaltsverzeichnis (S. 58–71)
+
+@thema quando-perche | Unità 4 | Approccio | Nebensätze mit quando und perché | 1
+#regel
+- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._
+- **perché** = weil: _Vado in montagna **perché** mi piace sciare._
+- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).
+
+Die Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt).
+
+%übung leicht | quando oder perché?
+?auswahl | Wähle quando oder perché.
+{Quando*|Perché} nevica, vado sullo snowboard.
+Studio molto {perché*|quando} domani ho un compito in classe.
+{Quando*|Perché} sono stanco, ascolto musica.
+Non vengo {perché*|quando} devo studiare.
+{Quando*|Perché} ho tempo, leggo un libro.
+Mi piace l'estate {perché*|quando} vado al mare.
+
+%übung mittel | Satzhälften verbinden
+?zuordnen | Was passt zusammen?
+Suono la chitarra = quando ho tempo libero.
+Vado in montagna = perché mi piace sciare.
+Resto a casa = perché piove.
+Ascolto musica = quando faccio i compiti.
+Non vado alla festa = perché sono stanca.
+
+%übung schwer | Warum?
+?frei | Beantworte die Fragen mit perché. Achte auf die Wortstellung (wie im Hauptsatz).
+Perché studi l'italiano? – Perché mi piace l'Italia.
+Perché resti a casa? – Perché devo studiare.
+Perché vai in montagna? – Perché amo la neve.
+Zeilen: 3
+
+@thema modali | Unità 4 | A | venire, sapere und die Modalverben | 2
+#regel
+| | io | tu | lui / lei | noi | voi | loro |
+| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |
+| potere | posso | puoi | può | possiamo | potete | possono |
+| dovere | devo | devi | deve | dobbiamo | dovete | devono |
+| sapere | so | sai | sa | sappiamo | sapete | sanno |
+| venire | vengo | vieni | viene | veniamo | venite | vengono |
+
+Nach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._
+**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._
+
+%übung leicht | Welche Form?
+?auswahl | Wähle die richtige Form.
+Io {voglio*|vuole|volere} andare in montagna.
+Tu {puoi*|può|posso} venire alla festa?
+Luca {deve*|devo|dobbiamo} studiare.
+Noi {sappiamo*|sapete|sanno} sciare.
+Voi {venite*|venete|vengono} con noi?
+I ragazzi {vogliono*|volete|vuole} giocare a calcio.
+
+%übung mittel | sapere oder potere?
+?auswahl | sapere oder potere?
+{So*|Posso} suonare il pianoforte, ho imparato da piccolo.
+Oggi non {posso*|so} uscire, devo studiare.
+{Sai*|Puoi} sciare? – Sì, ho imparato l'anno scorso.
+{Puoi*|Sai} aiutarmi con i compiti?
+Mia sorella {sa*|può} parlare tre lingue.
+! sapere: etwas gelernt haben (Fähigkeit). potere: die Möglichkeit oder Erlaubnis haben.
+
+%übung mittel | Ein Wochenende in Sestriere?
+?luecke | Ergänze die Verben in der richtigen Form.
+– Ragazzi, sabato (venire, voi) [venite] a Sestriere?
+– Io (volere) [voglio] venire, ma (dovere) [devo] studiare.
+– E Marco? (Potere) [Può] venire?
+– Sì, ma non (sapere) [sa] sciare!
+– Non importa, noi (potere) [possiamo] imparare insieme!
+
+%übung schwer | Konjugationstabelle
+?tabelle | Ergänze die Formen.
+Spalten: Person | volere | potere | dovere
+io | [voglio] | [posso] | [devo]
+lui / lei | [vuole] | [può] | [deve]
+noi | [vogliamo] | [possiamo] | [dobbiamo]
+loro | [vogliono] | [possono] | [devono]
+
+%übung schwer | Fehler finden
+?fehler | Korrigiere die markierten Formen.
+Io non [poto=>posso] venire.
+Tu [vole=>vuoi] un gelato?
+Noi [dovemo=>dobbiamo] fare i compiti.
+Loro [venono=>vengono] alle otto.
+Mia madre [puo=>può] aiutarti.
+
+@thema passato-prossimo-avere | Unità 4 | A | Das passato prossimo mit avere | 3
+#regel
+Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):
+**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._
+
+| Infinitiv | Partizip |
+| -are → **-ato** | giocare → giocato |
+| -ere → **-uto** | vendere → venduto |
+| -ire → **-ito** | dormire → dormito |
+
+| io | tu | lui / lei | noi | voi | loro |
+| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |
+
+Mit avere bleibt das Partizip **unverändert**.
+Signalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_.
+
+%übung leicht | Das Partizip
+?zuordnen | Welches Partizip gehört zum Verb?
+giocare = giocato
+dormire = dormito
+vendere = venduto
+studiare = studiato
+sentire = sentito
+ascoltare = ascoltato
+
+%übung leicht | Welche Form von avere?
+?auswahl | Wähle die richtige Form von avere.
+Ieri io {ho*|hai|ha} studiato.
+Tu {hai*|ho|ha} giocato a calcio?
+Marco {ha*|hanno|ho} dormito fino alle dieci.
+Noi {abbiamo*|avete|hanno} ascoltato un concerto.
+Voi {avete*|abbiamo|hai} mangiato la pizza?
+I ragazzi {hanno*|ha|avete} suonato la chitarra.
+
+%übung mittel | Sabato scorso
+?luecke | Setze die Verben ins passato prossimo.
+Sabato scorso io (giocare) [ho giocato] a pallavolo.
+Poi (mangiare) [ho mangiato] una pizza con Luca.
+Luca (suonare) [ha suonato] il pianoforte.
+La sera noi (guardare) [abbiamo guardato] un film.
+E voi? Che cosa (organizzare) [avete organizzato]?
+I miei genitori (dormire) [hanno dormito] tutto il giorno!
+
+%übung mittel | Präsens oder passato prossimo?
+?auswahl | Achte auf die Signalwörter.
+Ieri {ho giocato*|gioco} a tennis.
+Oggi {studio*|ho studiato} matematica.
+L'anno scorso {ho imparato*|imparo} a sciare.
+Adesso {ascolto*|ho ascoltato} la radio.
+Sabato scorso Anna {ha cantato*|canta} al concerto.
+
+%übung schwer | Was hast du gemacht?
+?frei | Was hast du letztes Wochenende gemacht? Schreibe 5 Sätze im passato prossimo mit avere.
+Sabato ho dormito fino alle dieci. Poi ho giocato a calcio. Ho mangiato una pizza con i miei amici. Domenica ho studiato. La sera ho guardato un film.
+Zeilen: 5
+
+@thema passato-prossimo-essere | Unità 4 | B | Das passato prossimo mit essere, unregelmäßige Partizipien | 4
+#regel
+Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:
+_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_
+Das Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):
+- _Marco è andat**o**._ · _Giulia è andat**a**._
+- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._
+
+**Unregelmäßige Partizipien:**
+| fare → fatto | prendere → preso | perdere → perso |
+| vedere → visto | rimanere → rimasto | decidere → deciso |
+| leggere → letto | scrivere → scritto | venire → venuto |
+| essere → stato | vincere → vinto | ridere → riso |
+
+%übung leicht | avere oder essere?
+?sortieren | Mit avere oder mit essere?
+Kategorien: av=avere; es=essere
+giocare > av
+andare > es
+partire > es
+mangiare > av
+tornare > es
+studiare > av
+rimanere > es
+vedere > av
+
+%übung leicht | Das Partizip
+?zuordnen | Ordne das unregelmäßige Partizip zu.
+fare = fatto
+prendere = preso
+vedere = visto
+scrivere = scritto
+rimanere = rimasto
+perdere = perso
+
+%übung mittel | Domenica bianca
+?luecke | Setze die Verben ins passato prossimo.
+Domenica Luca (andare) [è andato] in montagna.
+Anche Giulia (venire) [è venuta].
+Noi (prendere) [abbiamo preso] il treno alle otto.
+Sulla pista Luca (cadere) [è caduto] due volte.
+Giulia (rimanere) [è rimasta] al bar.
+La sera i ragazzi (tornare) [sono tornati] a casa stanchi.
+! Mit essere passt sich das Partizip an: Luca è caduto, Giulia è rimasta, i ragazzi sono tornati.
+
+%übung mittel | Die richtige Endung
+?auswahl | Wähle die richtige Endung.
+Anna è {andata*|andato|andati} al cinema.
+I ragazzi sono {arrivati*|arrivato|arrivate} tardi.
+Le mie amiche sono {partite*|partiti|partita} ieri.
+Marco è {uscito*|uscita|usciti} con Paolo.
+Sara e Lucia sono {tornate*|tornati|tornata} a casa.
+
+%übung schwer | Fehler finden
+?fehler | Korrigiere die markierten Formen.
+Ieri Giulia [ha andata=>è andata] a scuola a piedi.
+I ragazzi [sono giocato=>hanno giocato] a calcio.
+Luca ha [prenduto=>preso] l'autobus.
+Le ragazze sono [tornato=>tornate] alle sei.
+Abbiamo [vedito=>visto] un bel film.
+
+%übung schwer | Ein Ausflug
+?frei | Erzähle von einem Ausflug (Ferien, Schnee, Stadt). Benutze mindestens drei Verben mit essere und drei mit avere.
+Sabato sono andata in montagna con mia sorella. Siamo partite alle sette. Abbiamo preso il treno. Ho sciato tutto il giorno e sono caduta due volte! Siamo tornate a casa la sera.
+Zeilen: 6
+
+@thema gia-ancora | Unità 4 | B | già und (non …) ancora | 5
+#regel
+Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:
+- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)
+- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)
+
+%übung leicht | Wo steht già?
+?mc | Welcher Satz ist richtig?
+* Ho già visto il film.
+- Già ho visto il film.
+- Ho visto già il film.
+?mc | Welcher Satz ist richtig?
+* Non ho ancora finito.
+- Non ancora ho finito.
+- Ho non ancora finito.
+
+%übung mittel | già oder ancora?
+?auswahl | Wähle già oder ancora.
+Hai {già*|ancora} fatto i compiti? – Sì, li ho fatti ieri.
+No, non ho {ancora*|già} mangiato. Ho fame!
+Marco è {già*|ancora} arrivato? – Sì, è qui.
+Non abbiamo {ancora*|già} deciso.
+
+%übung schwer | Wörter ordnen
+?ordnen | Bringe die Wörter in die richtige Reihenfolge: „Ich habe die Hausaufgaben noch nicht gemacht.“
+Non
+ho
+ancora
+fatto
+i
+compiti

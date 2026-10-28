@@ -756,7 +756,7 @@ document.addEventListener('keydown', e => {
 function resultBanner(x, state) {
   if (!state.checked || !state.lastResult) return '';
   const r = state.lastResult;
-  return `<section class="result-banner" role="status"><div class="result-score"><b>${r.correct}</b><span>von ${r.total}</span></div><div><h2>${r.correct === r.total ? 'Alles erkannt.' : r.correct >= r.total / 2 ? 'Gut gehört.' : 'Hör noch einmal hin.'}</h2><p>${r.assisted ? 'Du hast das Transkript als Hilfe geöffnet. ' : ''}Prüfe die Erklärungen unter den Fragen und versuche es bei Bedarf in einer neuen Runde.</p></div></section>`;
+  return `<section class="result-banner" role="status"><div class="result-score"><b>${r.correct}</b><span>von ${r.total}</span></div><div><h2>${x.kind === 'grammar' ? (r.correct === r.total ? 'Alles richtig.' : r.correct >= r.total / 2 ? 'Gut gemacht.' : 'Schau dir den Merkkasten noch einmal an.') : r.correct === r.total ? 'Alles erkannt.' : r.correct >= r.total / 2 ? 'Gut gehört.' : 'Hör noch einmal hin.'}</h2><p>${r.assisted ? 'Du hast das Transkript als Hilfe geöffnet. ' : ''}Prüfe die Erklärungen unter den ${x.kind === 'grammar' ? 'Aufgaben' : 'Fragen'} und versuche es bei Bedarf in einer neuen Runde.</p></div></section>`;
 }
 
 function stepsHTML(x, state) {
@@ -770,7 +770,7 @@ function stepsHTML(x, state) {
 
 function toolsHTML(x, state, preview) {
   const teacher = isTeacher();
-  const hasWords = x.vocabulary?.length || x.vocabularyIds?.length || x.media.type === 'speech';
+  const hasWords = x.vocabulary?.length || x.vocabularyIds?.length || x.media?.type === 'speech';
   const label = transcriptLabel(x);
   const sources = x.sources
     .map(
@@ -783,7 +783,7 @@ function toolsHTML(x, state, preview) {
     ? `<section class="tool-card"><div class="eyebrow">Passend dazu</div><h3>Wörter zu dieser Übung</h3><p>Bereite dich mit Wortschatz vor oder wiederhole nach dem Hören.</p><button class="button secondary" data-portal="related-words">Wörter ansehen${x.vocabulary?.length ? ' · ' + x.vocabulary.length : ''}</button></section>`
     : '';
   const transcript =
-    teacher || transcriptForDisplay(x.transcript)
+    x.kind !== 'grammar' && (teacher || transcriptForDisplay(x.transcript))
       ? `<details class="tool-card listen-transcript" ${state.transcriptOpened || (teacher && x.transcript) ? 'open' : ''}><summary>Transkript</summary>
     ${label ? `<div class="origin-line"><span class="flag">${esc(label)}</span>${teacher && isWorkingLesson(x) ? '<span class="flag">Nicht am Audio geprüft</span>' : ''}</div>` : ''}
     <p class="transcript-text" lang="${x.language}">${esc(transcriptForDisplay(x.transcript) || 'Für diese Übung ist noch kein Transkript hinterlegt.')}</p></details>`
@@ -810,20 +810,42 @@ function teacherNotesHTML(x) {
 }
 function warmupHTML(x) {
   const t = x.teacherNotes;
-  return t && t.warmup ? `<section class="learn-note"><b>Vor dem Hören</b>${noteList('', t.warmup)}</section>` : '';
+  return t && t.warmup ? `<section class="learn-note"><b>${x.kind === 'grammar' ? 'Zum Einstieg' : 'Vor dem Hören'}</b>${noteList('', t.warmup)}</section>` : '';
 }
 function followHTML(x) {
   const t = x.teacherNotes;
   return t && t.followUp ? `<section class="learn-note"><b>Zum Weiterdenken</b>${noteList('', t.followUp)}<small>Mündlich oder schriftlich – ohne automatische Auswertung.</small></section>` : '';
 }
+/* Merkkasten einer Grammatikübung: Absätze, Listen („- “), Tabellen („| a | b |“), **fett**, _kursiv_. */
+function ruleHTML(text, lang) {
+  const inline = t => esc(t).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/(^|[\s(])_(.+?)_(?=[\s.,;:)!?]|$)/g, '$1<i>$2</i>');
+  return String(text || '')
+    .split(/\n{2,}/)
+    .map(block => {
+      const lines = block.split('\n').filter(l => l.trim());
+      if (lines.every(l => /^\s*\|/.test(l))) {
+        const rows = lines.filter(l => !/^\s*\|[\s:-]+\|/.test(l)).map(l => l.trim().replace(/^\||\|$/g, '').split('|').map(c => c.trim()));
+        return `<table class="rule-table"><thead><tr>${rows[0].map(c => `<th>${inline(c)}</th>`).join('')}</tr></thead><tbody>${rows.slice(1).map(r => `<tr>${r.map(c => `<td lang="${lang}">${inline(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+      }
+      if (lines.every(l => /^\s*- /.test(l))) return `<ul>${lines.map(l => `<li>${inline(l.replace(/^\s*- /, ''))}</li>`).join('')}</ul>`;
+      return `<p>${lines.map(inline).join('<br>')}</p>`;
+    })
+    .join('');
+}
+const GRAMMAR_LEVELS = { leicht: 'einfach', mittel: 'mittel', schwer: 'schwer' };
+function grammarSideHTML(x) {
+  const g = x.grammar;
+  return g.rule ? `<details class="rule-card" open><summary><span class="eyebrow">Merkkasten</span><b>${esc(g.topicTitle)}</b></summary><div class="rule-body">${ruleHTML(g.rule, x.language)}</div></details>` : '';
+}
 function renderListening(preview = false) {
   const x = currentLesson();
   if (!x) return nav('hoeren');
-  preview = preview || !contentList('listening').some(item => item.id === x.id);
+  preview = preview || !findTask(x.id);
   const state = lessonProgress();
   const teacher = isTeacher();
   const count = x.questions.filter(q => String(state.answers[q.id] ?? '').trim()).length;
-  $('breadcrumb').textContent = 'Hörverstehen · ' + x.title;
+  const gram = x.kind === 'grammar';
+  $('breadcrumb').textContent = (gram ? 'Grammatik · ' : 'Hörverstehen · ') + x.title;
   const working = teacher && isWorkingLesson(x);
   const focus = !teacher && focusMode() && x.questions.length > 1;
   if (focusLesson !== x.id) {
@@ -832,12 +854,12 @@ function renderListening(preview = false) {
   }
   focusIndex = Math.min(focusIndex, x.questions.length - 1);
   $('main').innerHTML = `<div class="page lesson-page">
-    ${EMBED ? '' : '<button class="quiet back-link" data-nav="hoeren">Alle Hörübungen</button>'}
+    ${EMBED ? '' : gram ? `<button class="quiet back-link" data-gr-topic="${esc(x.grammar.topic)}">${esc(x.grammar.topicTitle)}</button>` : '<button class="quiet back-link" data-nav="hoeren">Alle Hörübungen</button>'}
     ${working ? `<div class="draftbar"><b>Arbeitsfassung</b><span>Aufgaben, Transkript und Nutzungsrechte sind noch nicht abschließend geprüft.${!x.transcript && !x.series ? ' Das Transkript fehlt noch.' : ''}</span>${teacher && editorState.items.some(i => edId(i) === x.id) ? `<button class="quiet" data-ed-edit="${esc(x.id)}">In der Redaktion bearbeiten</button>` : ''}</div>` : ''}
     ${preview ? '<div class="draftbar"><b>Entwurf</b><span>Lokaler Redaktionsentwurf, nicht freigegeben.</span></div>' : ''}
     <header class="lesson-head">
       <div>
-        <div class="lesson-chips"><span class="chip-solid">${esc(portalLang(x.language))}</span>${levelPill(x.level)}<span class="chip-plain">${x.estimatedMinutes} Min.</span><span class="chip-plain">${MEDIA_LABELS[mediaKind(x)]}</span></div>
+        <div class="lesson-chips"><span class="chip-solid">${esc(portalLang(x.language))}</span>${levelPill(x.level)}<span class="chip-plain">${x.estimatedMinutes} Min.</span>${gram ? `<span class="chip-plain gr-level gr-${x.grammar.difficulty}">${GRAMMAR_LEVELS[x.grammar.difficulty]}</span>${x.catalog?.textbook?.series ? `<span class="chip-plain">${esc(x.catalog.textbook.series + ' ' + (x.catalog.textbook.volume || '') + ' · ' + (x.catalog.textbook.unit || ''))}</span>` : ''}` : `<span class="chip-plain">${MEDIA_LABELS[mediaKind(x)]}</span>`}</div>
         <h1>${esc(x.title)}</h1>
         <p>${esc(visibleText(x.description))}</p>
       </div>
@@ -846,18 +868,18 @@ function renderListening(preview = false) {
     ${seriesSwitcher(x)}
     <div class="listening-layout">
       <div class="l-side">
-        <section class="media-box">${playerHTML(x)}</section>
+        ${gram ? grammarSideHTML(x) : `<section class="media-box">${playerHTML(x)}</section>`}
         ${warmupHTML(x)}
         <div class="l-tools">${toolsHTML(x, state, preview)}</div>
       </div>
       <section class="l-tasks">
         ${
           teacher && !preview
-            ? `<section class="teacher-bar"><div><b>Für den Unterricht</b><span>Aufgabenblatt, Lösungsschlüssel und Link</span></div><div class="teacher-actions"><button class="button secondary" data-teaching="${esc(x.id)}">Material und Druck</button><button class="button secondary" data-qr-show="${esc(x.id)}">QR-Code zeigen</button>${typeof hwButton === 'function' ? hwButton('l:' + x.id) : ''}${editorState.items.some(i => edId(i) === x.id) ? `<button class="button secondary" data-ed-edit="${esc(x.id)}">In der Redaktion bearbeiten</button>` : `<button class="button secondary" data-ed-copy="${esc(x.id)}">Als eigene Übung bearbeiten</button>`}<button class="button secondary" data-portal="copy-embed">Einbett-Code kopieren</button><button class="button secondary" data-portal="toggle-key" aria-pressed="${teacherKeyVisible}">${teacherKeyVisible ? 'Lösungen ausblenden' : 'Lösungen einblenden'}</button></div></section>`
+            ? `<section class="teacher-bar"><div><b>Für den Unterricht</b><span>Aufgabenblatt, Lösungsschlüssel und Link</span></div><div class="teacher-actions"><button class="button secondary" data-teaching="${esc(x.id)}">Material und Druck</button><button class="button secondary" data-qr-show="${esc(x.id)}">QR-Code zeigen</button>${typeof hwButton === 'function' ? hwButton((gram ? 'g:' : 'l:') + x.id) : ''}${typeof wsButton === 'function' ? wsButton(x.id) : ''}${editorState.items.some(i => edId(i) === x.id) ? `<button class="button secondary" data-ed-edit="${esc(x.id)}">In der Redaktion bearbeiten</button>` : `<button class="button secondary" data-ed-copy="${esc(x.id)}">Als eigene Übung bearbeiten</button>`}<button class="button secondary" data-portal="copy-embed">Einbett-Code kopieren</button><button class="button secondary" data-portal="toggle-key" aria-pressed="${teacherKeyVisible}">${teacherKeyVisible ? 'Lösungen ausblenden' : 'Lösungen einblenden'}</button></div></section>`
             : ''
         }
         ${teacher && !preview ? teacherNotesHTML(x) : ''}
-        <div class="tasks-head"><h2>${teacher ? 'Aufgaben' : 'Was hast du verstanden?'}</h2><span id="listen-answer-count">${count} / ${x.questions.length} beantwortet</span></div>
+        <div class="tasks-head"><h2>${teacher || gram ? 'Aufgaben' : 'Was hast du verstanden?'}</h2><span id="listen-answer-count">${count} / ${x.questions.length} beantwortet</span></div>
         ${!teacher && x.questions.length > 1 ? `<div class="view-switch" role="group" aria-label="Darstellung der Aufgaben"><button type="button" data-focus="on" aria-pressed="${focus}">Eine nach der anderen</button><button type="button" data-focus="off" aria-pressed="${!focus}">Alle auf einmal</button></div>` : ''}
         <div class="qsteps" id="qsteps" aria-hidden="true">${stepsHTML(x, state)}</div>
         ${resultBanner(x, state)}

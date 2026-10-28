@@ -14,6 +14,8 @@ const ICONS = {
   verlauf: '<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>',
   fortschritt: '<path d="M4 20V10M10 20V4M16 20v-7M21 20H3"/>',
   verben: '<path d="M5 6h14M5 12h14M5 18h9"/>',
+  grammatik: '<path d="M3.5 19 8.5 5h1.5l5 14"/><path d="M5.6 13.5h7.3"/><path d="M17 8.5h4M19 6.5v4"/>',
+  zahlen: '<path d="M9.5 4 7.5 20M16.5 4l-2 16M4.5 9h15M3.5 15h15"/>',
   hilfe:
     '<path d="M9 18h6M10 21h4"/><path d="M12 3.5a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.4 1.1 2.2h5c0-.8.4-1.6 1.1-2.2A6 6 0 0 0 12 3.5Z"/>',
   mehr: '<circle cx="5.5" cy="12" r="1.3"/><circle cx="12" cy="12" r="1.3"/><circle cx="18.5" cy="12" r="1.3"/>',
@@ -34,8 +36,11 @@ const PRIMARY_NAV = [
   ['start', 'Mein Lernbereich'],
   ['hoeren', 'Hörverstehen'],
   ['vokabeln', 'Wortschatz'],
+  ['grammatik', 'Grammatik'],
   ['sammlung', 'Merkliste']
 ];
+// Handy: vier Bereiche unten, die Merkliste wandert ins „Mehr“-Blatt.
+const TAB_NAV = PRIMARY_NAV.filter(([r]) => r !== 'sammlung');
 const SECONDARY_NAV = [
   ['fortschritt', 'Mein Fortschritt'],
   ['hilfe', 'Lerntipps'],
@@ -44,11 +49,12 @@ const SECONDARY_NAV = [
 const NAV_GROUP = {
   lernen: 'vokabeln',
   wortschatz: 'vokabeln',
-  verben: 'vokabeln',
+  verben: 'grammatik',
+  zahlen: 'grammatik',
   hoeruebung: 'hoeren',
   verlauf: 'sammlung'
 };
-const MORE_ROUTES = ['fortschritt', 'hilfe', 'quellen', 'redaktion'];
+const MORE_ROUTES = ['fortschritt', 'hilfe', 'quellen', 'redaktion', 'sammlung', 'verlauf'];
 
 const navButton = ([route, label]) =>
   `<button data-nav="${route}">${icon(route)}<span class="nav-label">${label}</span></button>`;
@@ -133,7 +139,7 @@ function setupShell() {
   tabs.className = 'tabbar';
   tabs.setAttribute('aria-label', 'Schnellzugriff');
   tabs.innerHTML =
-    PRIMARY_NAV.map(
+    TAB_NAV.map(
       ([r, l]) => `<button data-nav="${r}">${icon(r)}<span class="nav-label">${l}</span></button>`
     ).join('') + `<button data-sheet="more">${icon('mehr')}<span>Mehr</span></button>`;
   document.body.append(tabs);
@@ -143,7 +149,7 @@ function setupShell() {
   sheet.className = 'sheet';
   sheet.setAttribute('aria-label', 'Weitere Bereiche');
   sheet.innerHTML = `<div class="sheet-grip" aria-hidden="true"></div>
-    <div class="sheet-grid">${SECONDARY_NAV.map(navButton).join('')}<button data-nav="verlauf">${icon('verlauf')}<span class="nav-label">Verlauf</span></button><button data-nav="quellen">${icon('quellen')}<span class="nav-label">Quellen</span></button></div>
+    <div class="sheet-grid">${navButton(['sammlung', 'Merkliste'])}${SECONDARY_NAV.map(navButton).join('')}<button data-nav="verlauf">${icon('verlauf')}<span class="nav-label">Verlauf</span></button><button data-nav="quellen">${icon('quellen')}<span class="nav-label">Quellen</span></button></div>
     <div class="sheet-grid actions">
       <button data-sheet-click="look-open">${icon('look')}<span>Darstellung</span></button>
       <button data-sheet-click="profile-open">${icon('profile')}<span>Lernprofil</span></button>

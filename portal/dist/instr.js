@@ -37,7 +37,7 @@ function instrApply(html, lang) {
   };
   const baseP = printTeaching;
   printTeaching = function (solutions) {
-    const x = contentList('listening').find(x => x.id === teacherLessonId);
+    const x = findTask(teacherLessonId);
     instrCtx = x ? x.language : 'de';
     baseP(solutions);
     const sheet = $('teaching-print');

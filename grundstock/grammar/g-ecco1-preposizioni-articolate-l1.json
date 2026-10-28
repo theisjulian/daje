@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-preposizioni-articolate-l1",
+ "title": "Wo ist das?",
+ "language": "it",
+ "level": "A1",
+ "description": "Präpositionen mit Artikel · Wo ist das? (einfach).",
+ "topics": [
+  "Präpositionen mit Artikel",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-preposizioni-articolate",
+  "topicTitle": "Präpositionen mit Artikel",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 41,
+  "rule": "Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel:\n| | il | lo | l' | la | i | gli | le |\n| a | al | allo | all' | alla | ai | agli | alle |\n| da | dal | dallo | dall' | dalla | dai | dagli | dalle |\n| di | del | dello | dell' | della | dei | degli | delle |\n| in | nel | nello | nell' | nella | nei | negli | nelle |\n| su | sul | sullo | sull' | sulla | sui | sugli | sulle |\n\n**con** und **per** verschmelzen nicht: _con il papà, per la mamma._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle die richtige Form.",
+   "explanation": "su + il = sul, su + la = sulla, in + il = nel, in + l' = nell', su + lo = sullo.",
+   "type": "gap_choice",
+   "text": "Il libro è [[g1]] tavolo.\nI vestiti sono [[g2]] armadio.\nLa borsa è [[g3]] sedia.\nLo zaino è [[g4]] corridoio.\nIl fon è [[g5]] vasca da bagno.\nLe riviste sono [[g6]] scaffale.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "sul",
+      "sulla",
+      "sui"
+     ],
+     "answer": "sul"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "nell'",
+      "nel",
+      "nella"
+     ],
+     "answer": "nell'"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "sulla",
+      "sul",
+      "sulle"
+     ],
+     "answer": "sulla"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "nel",
+      "nella",
+      "nello"
+     ],
+     "answer": "nel"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "nella",
+      "nel",
+      "nelle"
+     ],
+     "answer": "nella"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "sullo",
+      "sul",
+      "sulla"
+     ],
+     "answer": "sullo"
+    }
+   ]
+  }
+ ]
+}

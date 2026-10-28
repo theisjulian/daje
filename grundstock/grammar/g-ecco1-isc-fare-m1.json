@@ -1,0 +1,92 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-isc-fare-m1",
+ "title": "In classe",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -ire mit -isc- und fare · In classe (mittel).",
+ "topics": [
+  "Verben auf -ire mit -isc- und fare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-isc-fare",
+  "topicTitle": "Verben auf -ire mit -isc- und fare",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 21,
+  "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Setze das Verb in der richtigen Form ein.",
+   "type": "gap_fill",
+   "text": "Prof, non (capire, io) [[g1]] la domanda!\nA che ora (finire) [[g2]] la lezione?\nNoi (fare) [[g3]] un esercizio di geometria.\nLa prof (restituire) [[g4]] le relazioni.\nVoi (capire) [[g5]] la regola?\nI ragazzi (fare) [[g6]] attenzione.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "capisco"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "finisce"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "facciamo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "restituisce"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "capite"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "fanno"
+     ]
+    }
+   ]
+  }
+ ]
+}

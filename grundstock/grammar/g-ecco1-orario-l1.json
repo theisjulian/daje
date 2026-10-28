@@ -1,0 +1,85 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-orario-l1",
+ "title": "Che ore sono?",
+ "language": "it",
+ "level": "A1",
+ "description": "Uhrzeit und Wochentage · Che ore sono? (einfach).",
+ "topics": [
+  "Uhrzeit und Wochentage",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-orario",
+  "topicTitle": "Uhrzeit und Wochentage",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 11,
+  "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Welche Uhrzeit passt?",
+   "type": "matching",
+   "pairs": [
+    {
+     "id": "p1",
+     "left": "8.00",
+     "right": "Sono le otto."
+    },
+    {
+     "id": "p2",
+     "left": "1.00",
+     "right": "È l'una."
+    },
+    {
+     "id": "p3",
+     "left": "3.15",
+     "right": "Sono le tre e un quarto."
+    },
+    {
+     "id": "p4",
+     "left": "5.30",
+     "right": "Sono le cinque e mezza."
+    },
+    {
+     "id": "p5",
+     "left": "7.45",
+     "right": "Sono le otto meno un quarto."
+    },
+    {
+     "id": "p6",
+     "left": "12.00",
+     "right": "È mezzogiorno."
+    }
+   ]
+  }
+ ]
+}

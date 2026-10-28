@@ -1,0 +1,55 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-possessivi-2-s2",
+ "title": "Meine Familie",
+ "language": "it",
+ "level": "A1",
+ "description": "Possessivbegleiter bei Verwandten · Meine Familie (schwer).",
+ "topics": [
+  "Possessivbegleiter bei Verwandten",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-possessivi-2",
+  "topicTitle": "Possessivbegleiter bei Verwandten",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 22,
+  "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Stell deine Familie vor (6 Sätze). Achte auf mio/mia mit und ohne Artikel.",
+   "type": "open_answer",
+   "modelAnswer": "La mia famiglia non è grande. Mia madre si chiama Sabine e mio padre Thomas. Ho un fratello. Mio fratello ha dieci anni. I miei nonni abitano a Monaco.",
+   "lines": 6
+  }
+ ]
+}

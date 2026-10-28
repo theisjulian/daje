@@ -1,0 +1,92 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-prossimo-avere-m1",
+ "title": "Sabato scorso",
+ "language": "it",
+ "level": "A1",
+ "description": "Das passato prossimo mit avere · Sabato scorso (mittel).",
+ "topics": [
+  "Das passato prossimo mit avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-avere",
+  "topicTitle": "Das passato prossimo mit avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 31,
+  "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Setze die Verben ins passato prossimo.",
+   "type": "gap_fill",
+   "text": "Sabato scorso io (giocare) [[g1]] a pallavolo.\nPoi (mangiare) [[g2]] una pizza con Luca.\nLuca (suonare) [[g3]] il pianoforte.\nLa sera noi (guardare) [[g4]] un film.\nE voi? Che cosa (organizzare) [[g5]]?\nI miei genitori (dormire) [[g6]] tutto il giorno!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "ho giocato"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "ho mangiato"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "ha suonato"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "abbiamo guardato"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "avete organizzato"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "hanno dormito"
+     ]
+    }
+   ]
+  }
+ ]
+}

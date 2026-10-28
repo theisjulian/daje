@@ -45293,5 +45293,12712 @@ const STOCK_PACKAGES = [
     "page": "184-185"
    }
   ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-a-in-l1",
+  "title": "a oder in?",
+  "language": "it",
+  "level": "A1",
+  "description": "Die Präpositionen a und in · a oder in? (einfach).",
+  "topics": [
+   "Die Präpositionen a und in",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-a-in",
+   "topicTitle": "Die Präpositionen a und in",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino, a Roma, a Berlino_\n- **in** + Land oder Region: _in Italia, in Germania, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_\n- **a** + bestimmte Orte ohne Artikel: _a scuola, a casa_",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle a oder in.",
+    "explanation": "Stadt → a; Land und Straße → in; a scuola, a casa.",
+    "text": "Abito [[g1]] Torino.\nMarco abita [[g2]] Italia.\nLa nonna abita [[g3]] Roma.\nLisa abita [[g4]] Germania.\nSiamo [[g5]] scuola.\nAbitiamo [[g6]] via Garibaldi.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "a",
+       "in"
+      ],
+      "answer": "a"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "in",
+       "a"
+      ],
+      "answer": "in"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "a",
+       "in"
+      ],
+      "answer": "a"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "in",
+       "a"
+      ],
+      "answer": "in"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "a",
+       "in"
+      ],
+      "answer": "a"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "in",
+       "a"
+      ],
+      "answer": "in"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-a-in-m1",
+  "title": "Wo wohnen sie?",
+  "language": "it",
+  "level": "A1",
+  "description": "Die Präpositionen a und in · Wo wohnen sie? (mittel).",
+  "topics": [
+   "Die Präpositionen a und in",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-a-in",
+   "topicTitle": "Die Präpositionen a und in",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino, a Roma, a Berlino_\n- **in** + Land oder Region: _in Italia, in Germania, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_\n- **a** + bestimmte Orte ohne Artikel: _a scuola, a casa_",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Ergänze a oder in.",
+    "explanation": "",
+    "text": "Giulia abita [[g1]] Milano, [[g2]] Italia.\nTim abita [[g3]] Amburgo, [[g4]] Germania.\nIl liceo è [[g5]] piazza Castello.\nOggi io sto [[g6]] casa.\nLuca e Anna sono [[g7]] scuola.\nIl papà lavora [[g8]] via Po.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "a"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "in"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "a"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "in"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "in"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "a"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "a"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "in"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-a-in-s1",
+  "title": "Fehler finden",
+  "language": "it",
+  "level": "A1",
+  "description": "Die Präpositionen a und in · Fehler finden (schwer).",
+  "topics": [
+   "Die Präpositionen a und in",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-a-in",
+   "topicTitle": "Die Präpositionen a und in",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino, a Roma, a Berlino_\n- **in** + Land oder Region: _in Italia, in Germania, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_\n- **a** + bestimmte Orte ohne Artikel: _a scuola, a casa_",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Korrigiere die falschen Präpositionen.",
+    "explanation": "Stadt → a, Land → in, Straße → in, a scuola.",
+    "text": "Abito [[g1]] Torino.\nMio cugino abita [[g2]] Francia.\nSono [[g3]] scuola.\nIl negozio è [[g4]] via Roma.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "in",
+      "acceptedAnswers": [
+       "a"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "a",
+      "acceptedAnswers": [
+       "in"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "in",
+      "acceptedAnswers": [
+       "a"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "a",
+      "acceptedAnswers": [
+       "in"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-aggettivi-l1",
+  "title": "Welche Endung?",
+  "language": "it",
+  "level": "A1",
+  "description": "Adjektive und ihre Stellung · Welche Endung? (einfach).",
+  "topics": [
+   "Adjektive und ihre Stellung",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-aggettivi",
+   "topicTitle": "Adjektive und ihre Stellung",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Adjektive richten sich nach dem Nomen (Geschlecht und Zahl):\n| Typ | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| -o/-a | nuovo | nuova | nuovi | nuove |\n| -e | grande | grande | grandi | grandi |\n\n**Stellung:** meist **nach** dem Nomen: _un libro **interessante**, una camera **grande**._ Einige kurze, häufige Adjektive stehen oft davor: _un **bel** posto, un **piccolo** problema, una **vecchia** foto._\n**Achtung:** _bello_ vor dem Nomen verändert sich wie der Artikel: _un bel gatto, un bello zaino, i bei libri._",
+   "order": 71
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle die passende Form.",
+    "explanation": "Adjektive auf -e haben nur zwei Formen: grande (Sg.) und grandi (Pl.).",
+    "text": "Una camera [[g1]].\nUn computer [[g2]].\nLe foto [[g3]].\nI libri [[g4]].\nUna spiaggia [[g5]].\nDue poster [[g6]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "grande",
+       "grandi",
+       "granda"
+      ],
+      "answer": "grande"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "nuovo",
+       "nuova",
+       "nuovi"
+      ],
+      "answer": "nuovo"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "vecchie",
+       "vecchia",
+       "vecchi"
+      ],
+      "answer": "vecchie"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "interessanti",
+       "interessante",
+       "interessanta"
+      ],
+      "answer": "interessanti"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "bellissima",
+       "bellissimo",
+       "bellissime"
+      ],
+      "answer": "bellissima"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "piccoli",
+       "piccolo",
+       "piccole"
+      ],
+      "answer": "piccoli"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-aggettivi-m1",
+  "title": "Mein Zimmer",
+  "language": "it",
+  "level": "A1",
+  "description": "Adjektive und ihre Stellung · Mein Zimmer (mittel).",
+  "topics": [
+   "Adjektive und ihre Stellung",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-aggettivi",
+   "topicTitle": "Adjektive und ihre Stellung",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Adjektive richten sich nach dem Nomen (Geschlecht und Zahl):\n| Typ | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| -o/-a | nuovo | nuova | nuovi | nuove |\n| -e | grande | grande | grandi | grandi |\n\n**Stellung:** meist **nach** dem Nomen: _un libro **interessante**, una camera **grande**._ Einige kurze, häufige Adjektive stehen oft davor: _un **bel** posto, un **piccolo** problema, una **vecchia** foto._\n**Achtung:** _bello_ vor dem Nomen verändert sich wie der Artikel: _un bel gatto, un bello zaino, i bei libri._",
+   "order": 71
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Ergänze die Adjektive in der richtigen Form.",
+    "explanation": "",
+    "text": "La mia camera è (piccolo) [[g1]], ma è (bello) [[g2]].\nIl letto è (nuovo) [[g3]] e la scrivania è (grande) [[g4]].\nSulla parete ci sono due poster (vecchio) [[g5]].\nHo anche tante foto (bellissimo) [[g6]] della vacanza.\nI miei videogiochi sono (nuovo) [[g7]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "piccola"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "bella"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "nuovo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "grande"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "vecchi"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "bellissime"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "nuovi"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-aggettivi-s1",
+  "title": "Wörter ordnen",
+  "language": "it",
+  "level": "A1",
+  "description": "Adjektive und ihre Stellung · Wörter ordnen (schwer).",
+  "topics": [
+   "Adjektive und ihre Stellung",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-aggettivi",
+   "topicTitle": "Adjektive und ihre Stellung",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Adjektive richten sich nach dem Nomen (Geschlecht und Zahl):\n| Typ | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| -o/-a | nuovo | nuova | nuovi | nuove |\n| -e | grande | grande | grandi | grandi |\n\n**Stellung:** meist **nach** dem Nomen: _un libro **interessante**, una camera **grande**._ Einige kurze, häufige Adjektive stehen oft davor: _un **bel** posto, un **piccolo** problema, una **vecchia** foto._\n**Achtung:** _bello_ vor dem Nomen verändert sich wie der Artikel: _un bel gatto, un bello zaino, i bei libri._",
+   "order": 71
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Bringe die Wörter in die richtige Reihenfolge: „Filippo hat einen neuen Computer.“",
+    "explanation": "",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Filippo"
+     },
+     {
+      "id": "i2",
+      "text": "ha"
+     },
+     {
+      "id": "i3",
+      "text": "un"
+     },
+     {
+      "id": "i4",
+      "text": "computer"
+     },
+     {
+      "id": "i5",
+      "text": "nuovo"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-aggettivi-s2",
+  "title": "Beschreibe dein Zimmer",
+  "language": "it",
+  "level": "A1",
+  "description": "Adjektive und ihre Stellung · Beschreibe dein Zimmer (schwer).",
+  "topics": [
+   "Adjektive und ihre Stellung",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-aggettivi",
+   "topicTitle": "Adjektive und ihre Stellung",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Adjektive richten sich nach dem Nomen (Geschlecht und Zahl):\n| Typ | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| -o/-a | nuovo | nuova | nuovi | nuove |\n| -e | grande | grande | grandi | grandi |\n\n**Stellung:** meist **nach** dem Nomen: _un libro **interessante**, una camera **grande**._ Einige kurze, häufige Adjektive stehen oft davor: _un **bel** posto, un **piccolo** problema, una **vecchia** foto._\n**Achtung:** _bello_ vor dem Nomen verändert sich wie der Artikel: _un bel gatto, un bello zaino, i bei libri._",
+   "order": 72
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Beschreibe dein Zimmer mit mindestens fünf Adjektiven (grande, piccolo, nuovo, vecchio, bello, moderno …).",
+    "explanation": "",
+    "modelAnswer": "La mia camera è piccola ma bella. Ho un letto nuovo e una scrivania grande. Sulla parete ci sono due poster vecchi.",
+    "lines": 5
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-are-presente-l1",
+  "title": "Welche Form passt?",
+  "language": "it",
+  "level": "A1",
+  "description": "Verben auf -are im Präsens · Welche Form passt? (einfach).",
+  "topics": [
+   "Verben auf -are im Präsens",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-are-presente",
+   "topicTitle": "Verben auf -are im Präsens",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an:\n\n| Person | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** Bei _loro_ liegt die Betonung vorn: **a**bitano, **par**lano.",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle die richtige Verbform.",
+    "explanation": "Die Endung zeigt die Person: -o (io), -i (tu), -a (lui/lei), -iamo (noi), -ate (voi), -ano (loro).",
+    "text": "Io [[g1]] a Torino.\nTu [[g2]] italiano?\nMarco [[g3]] in centro.\nNoi [[g4]] in piazza.\nVoi [[g5]] tedesco?\nAnna e Luca [[g6]] in via Roma.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "abito",
+       "abita",
+       "abitano"
+      ],
+      "answer": "abito"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "parli",
+       "parlo",
+       "parla"
+      ],
+      "answer": "parli"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "arriva",
+       "arrivi",
+       "arrivo"
+      ],
+      "answer": "arriva"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "passeggiamo",
+       "passeggiate",
+       "passeggiano"
+      ],
+      "answer": "passeggiamo"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "parlate",
+       "parliamo",
+       "parlano"
+      ],
+      "answer": "parlate"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "abitano",
+       "abita",
+       "abitate"
+      ],
+      "answer": "abitano"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-are-presente-l2",
+  "title": "Person und Endung",
+  "language": "it",
+  "level": "A1",
+  "description": "Verben auf -are im Präsens · Person und Endung (einfach).",
+  "topics": [
+   "Verben auf -are im Präsens",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-are-presente",
+   "topicTitle": "Verben auf -are im Präsens",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an:\n\n| Person | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** Bei _loro_ liegt die Betonung vorn: **a**bitano, **par**lano.",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Was gehört zusammen?",
+    "explanation": "",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "io",
+      "right": "parlo"
+     },
+     {
+      "id": "p2",
+      "left": "tu",
+      "right": "parli"
+     },
+     {
+      "id": "p3",
+      "left": "lui / lei",
+      "right": "parla"
+     },
+     {
+      "id": "p4",
+      "left": "noi",
+      "right": "parliamo"
+     },
+     {
+      "id": "p5",
+      "left": "voi",
+      "right": "parlate"
+     },
+     {
+      "id": "p6",
+      "left": "loro",
+      "right": "parlano"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-are-presente-m1",
+  "title": "Ein Tag in Torino",
+  "language": "it",
+  "level": "A1",
+  "description": "Verben auf -are im Präsens · Ein Tag in Torino (mittel).",
+  "topics": [
+   "Verben auf -are im Präsens",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-are-presente",
+   "topicTitle": "Verben auf -are im Präsens",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an:\n\n| Person | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** Bei _loro_ liegt die Betonung vorn: **a**bitano, **par**lano.",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Setze das Verb in der richtigen Form ein.",
+    "explanation": "abitare, passeggiare, arrivare, guardare und parlare sind regelmäßige Verben auf -are.",
+    "text": "Ciao, io (abitare) [[g1]] a Torino.\nLa mia amica Giulia (abitare) [[g2]] in centro.\nOggi noi (passeggiare) [[g3]] insieme.\nTu (arrivare) [[g4]] alle tre?\nI ragazzi (guardare) [[g5]] la partita.\nVoi (parlare) [[g6]] inglese?",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "abito"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "abita"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "passeggiamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "arrivi"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "guardano"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "parlate"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-are-presente-m2",
+  "title": "Fragen und Antworten",
+  "language": "it",
+  "level": "A1",
+  "description": "Verben auf -are im Präsens · Fragen und Antworten (mittel).",
+  "topics": [
+   "Verben auf -are im Präsens",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 5,
+  "grammar": {
+   "topic": "ecco1-are-presente",
+   "topicTitle": "Verben auf -are im Präsens",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an:\n\n| Person | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** Bei _loro_ liegt die Betonung vorn: **a**bitano, **par**lano.",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Antworte mit derselben Verbform (io).",
+    "explanation": "Auf eine Frage mit tu antwortet man mit io: parli → parlo.",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Abiti a Torino? – Sì, … a Torino.",
+      "acceptedAnswers": [
+       "abito"
+      ]
+     },
+     {
+      "id": "s2",
+      "start": "Parli francese? – Sì, … un po' francese.",
+      "acceptedAnswers": [
+       "parlo"
+      ]
+     },
+     {
+      "id": "s3",
+      "start": "Guardi la partita? – Sì, … la partita.",
+      "acceptedAnswers": [
+       "guardo"
+      ]
+     },
+     {
+      "id": "s4",
+      "start": "Arrivi adesso? – Sì, … adesso.",
+      "acceptedAnswers": [
+       "arrivo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-are-presente-s1",
+  "title": "Konjugationstabelle",
+  "language": "it",
+  "level": "A1",
+  "description": "Verben auf -are im Präsens · Konjugationstabelle (schwer).",
+  "topics": [
+   "Verben auf -are im Präsens",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-are-presente",
+   "topicTitle": "Verben auf -are im Präsens",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an:\n\n| Person | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** Bei _loro_ liegt die Betonung vorn: **a**bitano, **par**lano.",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Ergänze die Formen.",
+    "explanation": "",
+    "columns": [
+     "Person",
+     "abitare",
+     "guardare"
+    ],
+    "rows": [
+     [
+      "io",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "abito"
+       ]
+      },
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "guardo"
+       ]
+      }
+     ],
+     [
+      "tu",
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "abiti"
+       ]
+      },
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "guardi"
+       ]
+      }
+     ],
+     [
+      "lui / lei",
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "abita"
+       ]
+      },
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "guarda"
+       ]
+      }
+     ],
+     [
+      "noi",
+      {
+       "id": "c7",
+       "acceptedAnswers": [
+        "abitiamo"
+       ]
+      },
+      {
+       "id": "c8",
+       "acceptedAnswers": [
+        "guardiamo"
+       ]
+      }
+     ],
+     [
+      "voi",
+      {
+       "id": "c9",
+       "acceptedAnswers": [
+        "abitate"
+       ]
+      },
+      {
+       "id": "c10",
+       "acceptedAnswers": [
+        "guardate"
+       ]
+      }
+     ],
+     [
+      "loro",
+      {
+       "id": "c11",
+       "acceptedAnswers": [
+        "abitano"
+       ]
+      },
+      {
+       "id": "c12",
+       "acceptedAnswers": [
+        "guardano"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-are-presente-s2",
+  "title": "Fehler finden",
+  "language": "it",
+  "level": "A1",
+  "description": "Verben auf -are im Präsens · Fehler finden (schwer).",
+  "topics": [
+   "Verben auf -are im Präsens",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-are-presente",
+   "topicTitle": "Verben auf -are im Präsens",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Verben auf **-are** sind die größte Gruppe. Man nimmt -are weg und hängt die Endung an:\n\n| Person | abitare | parlare |\n| io | abit**o** | parl**o** |\n| tu | abit**i** | parl**i** |\n| lui / lei | abit**a** | parl**a** |\n| noi | abit**iamo** | parl**iamo** |\n| voi | abit**ate** | parl**ate** |\n| loro | abit**ano** | parl**ano** |\n\nDas Subjektpronomen lässt man meist weg: _Abito a Torino._ Die Endung zeigt, wer gemeint ist.\n**Achtung:** Bei _loro_ liegt die Betonung vorn: **a**bitano, **par**lano.",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Die markierten Formen sind falsch. Schreibe die richtige Form.",
+    "explanation": "",
+    "text": "Io [[g1]] a Torino.\nNoi [[g2]] italiano.\nTu [[g3]] la partita?\nMarta e Paolo [[g4]] in piazza.\nVoi [[g5]] adesso?",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "abita",
+      "acceptedAnswers": [
+       "abito"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "parlano",
+      "acceptedAnswers": [
+       "parliamo"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "guardo",
+      "acceptedAnswers": [
+       "guardi"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "passeggia",
+      "acceptedAnswers": [
+       "passeggiano"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "arrivano",
+      "acceptedAnswers": [
+       "arrivate"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-articolo-indeterminativo-l1",
+  "title": "un, uno, una, un'?",
+  "language": "it",
+  "level": "A1",
+  "description": "Der unbestimmte Artikel · un, uno, una, un'? (einfach).",
+  "topics": [
+   "Der unbestimmte Artikel",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-articolo-indeterminativo",
+   "topicTitle": "Der unbestimmte Artikel",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "| Artikel | wann? | Beispiel |\n| un | männlich (auch vor Vokal) | un ragazzo, un amico |\n| uno | männlich vor s + Konsonant, z | uno stadio, uno zaino |\n| una | weiblich vor Konsonant | una città, una ragazza |\n| un' | weiblich vor Vokal | un'amica, un'idea |\n\nAchtung: _un amico_ (männlich, ohne Apostroph), aber _un'amica_ (weiblich, mit Apostroph).",
+   "order": 71
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle den unbestimmten Artikel.",
+    "explanation": "",
+    "text": "[[g1]] gatto\n[[g2]] scuola\n[[g3]] stadio\n[[g4]] amica\n[[g5]] amico\n[[g6]] piazza\n[[g7]] zaino\n[[g8]] parco",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "un",
+       "uno",
+       "una"
+      ],
+      "answer": "un"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "una",
+       "un",
+       "un'"
+      ],
+      "answer": "una"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "uno",
+       "un",
+       "una"
+      ],
+      "answer": "uno"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "un'",
+       "una",
+       "un"
+      ],
+      "answer": "un'"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "un",
+       "un'",
+       "uno"
+      ],
+      "answer": "un"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "una",
+       "uno",
+       "un"
+      ],
+      "answer": "una"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "uno",
+       "un",
+       "una"
+      ],
+      "answer": "uno"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "un",
+       "una",
+       "uno"
+      ],
+      "answer": "un"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-articolo-indeterminativo-m1",
+  "title": "il oder un?",
+  "language": "it",
+  "level": "A1",
+  "description": "Der unbestimmte Artikel · il oder un? (mittel).",
+  "topics": [
+   "Der unbestimmte Artikel",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-articolo-indeterminativo",
+   "topicTitle": "Der unbestimmte Artikel",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| Artikel | wann? | Beispiel |\n| un | männlich (auch vor Vokal) | un ragazzo, un amico |\n| uno | männlich vor s + Konsonant, z | uno stadio, uno zaino |\n| una | weiblich vor Konsonant | una città, una ragazza |\n| un' | weiblich vor Vokal | un'amica, un'idea |\n\nAchtung: _un amico_ (männlich, ohne Apostroph), aber _un'amica_ (weiblich, mit Apostroph).",
+   "order": 71
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Ergänze den unbestimmten Artikel.",
+    "explanation": "",
+    "columns": [
+     "bestimmt",
+     "unbestimmt"
+    ],
+    "rows": [
+     [
+      "il liceo",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "un liceo"
+       ]
+      }
+     ],
+     [
+      "lo stadio",
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "uno stadio"
+       ]
+      }
+     ],
+     [
+      "la classe",
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "una classe"
+       ]
+      }
+     ],
+     [
+      "l'amica",
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "un'amica"
+       ]
+      }
+     ],
+     [
+      "l'amico",
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "un amico"
+       ]
+      }
+     ],
+     [
+      "lo zaino",
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "uno zaino"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-articolo-indeterminativo-s1",
+  "title": "Was gibt es hier?",
+  "language": "it",
+  "level": "A1",
+  "description": "Der unbestimmte Artikel · Was gibt es hier? (schwer).",
+  "topics": [
+   "Der unbestimmte Artikel",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-articolo-indeterminativo",
+   "topicTitle": "Der unbestimmte Artikel",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| Artikel | wann? | Beispiel |\n| un | männlich (auch vor Vokal) | un ragazzo, un amico |\n| uno | männlich vor s + Konsonant, z | uno stadio, uno zaino |\n| una | weiblich vor Konsonant | una città, una ragazza |\n| un' | weiblich vor Vokal | un'amica, un'idea |\n\nAchtung: _un amico_ (männlich, ohne Apostroph), aber _un'amica_ (weiblich, mit Apostroph).",
+   "order": 71
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Ergänze den unbestimmten Artikel.",
+    "explanation": "uno vor s + Konsonant; un' nur bei weiblichen Wörtern vor Vokal.",
+    "text": "A Torino c'è [[g1]] stadio grande.\nMarco ha [[g2]] gatto e [[g3]] amica a Milano.\nIn piazza c'è [[g4]] scuola.\nLisa è [[g5]] ragazza simpatica.\nQuesto è [[g6]] ponte importante.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "uno"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "un"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "un'"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "una"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "un"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-artikel-sg-l1",
+  "title": "il, lo, la oder l'?",
+  "language": "it",
+  "level": "A1",
+  "description": "Der bestimmte Artikel im Singular · il, lo, la oder l'? (einfach).",
+  "topics": [
+   "Der bestimmte Artikel im Singular",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-artikel-sg",
+   "topicTitle": "Der bestimmte Artikel im Singular",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Im Italienischen hat jedes Nomen ein Geschlecht: **männlich** (meist auf -o) oder **weiblich** (meist auf -a). Nomen auf -e können beides sein.\n\n| Artikel | wann? | Beispiel |\n| il | männlich, vor Konsonant | il fiume, il ponte |\n| lo | männlich, vor s + Konsonant, z, ps, gn, y | lo stadio, lo zaino |\n| la | weiblich, vor Konsonant | la piazza, la città |\n| l' | männlich und weiblich vor Vokal | l'amico, l'industria |\n\n**Tipp:** Lerne jedes Nomen mit Artikel: _la città_, _il parco_.",
+   "order": 11
+  },
+  "teacherNotes": {
+   "warmup": [
+    "Welche Wörter aus Torino kennst du schon? Sammelt sie mit Artikel an der Tafel."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle den richtigen Artikel.",
+    "explanation": "Vor s + Konsonant (st, sp …) und vor z steht lo: lo stadio, lo sport. Vor Vokal wird der Artikel zu l'.",
+    "text": "[[g1]] parco\n[[g2]] piazza\n[[g3]] stadio\n[[g4]] industria\n[[g5]] ponte\n[[g6]] via\n[[g7]] amico\n[[g8]] sport",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "il",
+       "lo",
+       "la"
+      ],
+      "answer": "il"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "il",
+       "lo",
+       "la"
+      ],
+      "answer": "la"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "il",
+       "lo",
+       "l'"
+      ],
+      "answer": "lo"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "la",
+       "l'",
+       "il"
+      ],
+      "answer": "l'"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "il",
+       "lo",
+       "la"
+      ],
+      "answer": "il"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "la",
+       "il",
+       "l'"
+      ],
+      "answer": "la"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "lo",
+       "il",
+       "l'"
+      ],
+      "answer": "l'"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "il",
+       "lo",
+       "la"
+      ],
+      "answer": "lo"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-artikel-sg-l2",
+  "title": "Männlich oder weiblich?",
+  "language": "it",
+  "level": "A1",
+  "description": "Der bestimmte Artikel im Singular · Männlich oder weiblich? (einfach).",
+  "topics": [
+   "Der bestimmte Artikel im Singular",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-artikel-sg",
+   "topicTitle": "Der bestimmte Artikel im Singular",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Im Italienischen hat jedes Nomen ein Geschlecht: **männlich** (meist auf -o) oder **weiblich** (meist auf -a). Nomen auf -e können beides sein.\n\n| Artikel | wann? | Beispiel |\n| il | männlich, vor Konsonant | il fiume, il ponte |\n| lo | männlich, vor s + Konsonant, z, ps, gn, y | lo stadio, lo zaino |\n| la | weiblich, vor Konsonant | la piazza, la città |\n| l' | männlich und weiblich vor Vokal | l'amico, l'industria |\n\n**Tipp:** Lerne jedes Nomen mit Artikel: _la città_, _il parco_.",
+   "order": 12
+  },
+  "teacherNotes": {
+   "warmup": [
+    "Welche Wörter aus Torino kennst du schon? Sammelt sie mit Artikel an der Tafel."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Ordne die Wörter: männlich oder weiblich?",
+    "explanation": "Den Artikel verrät das Geschlecht. Bei l' hilft die Endung: l'industria (-a) ist weiblich, l'amico (-o) männlich.",
+    "categories": [
+     {
+      "id": "m",
+      "label": "männlich"
+     },
+     {
+      "id": "f",
+      "label": "weiblich"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "il centro",
+      "category": "m"
+     },
+     {
+      "id": "i2",
+      "text": "la città",
+      "category": "f"
+     },
+     {
+      "id": "i3",
+      "text": "lo stadio",
+      "category": "m"
+     },
+     {
+      "id": "i4",
+      "text": "l'industria",
+      "category": "f"
+     },
+     {
+      "id": "i5",
+      "text": "il fiume",
+      "category": "m"
+     },
+     {
+      "id": "i6",
+      "text": "la piazza",
+      "category": "f"
+     },
+     {
+      "id": "i7",
+      "text": "l'amico",
+      "category": "m"
+     },
+     {
+      "id": "i8",
+      "text": "la via",
+      "category": "f"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-artikel-sg-m1",
+  "title": "Torino, la città",
+  "language": "it",
+  "level": "A1",
+  "description": "Der bestimmte Artikel im Singular · Torino, la città (mittel).",
+  "topics": [
+   "Der bestimmte Artikel im Singular",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 9,
+  "grammar": {
+   "topic": "ecco1-artikel-sg",
+   "topicTitle": "Der bestimmte Artikel im Singular",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Im Italienischen hat jedes Nomen ein Geschlecht: **männlich** (meist auf -o) oder **weiblich** (meist auf -a). Nomen auf -e können beides sein.\n\n| Artikel | wann? | Beispiel |\n| il | männlich, vor Konsonant | il fiume, il ponte |\n| lo | männlich, vor s + Konsonant, z, ps, gn, y | lo stadio, lo zaino |\n| la | weiblich, vor Konsonant | la piazza, la città |\n| l' | männlich und weiblich vor Vokal | l'amico, l'industria |\n\n**Tipp:** Lerne jedes Nomen mit Artikel: _la città_, _il parco_.",
+   "order": 11
+  },
+  "teacherNotes": {
+   "warmup": [
+    "Welche Wörter aus Torino kennst du schon? Sammelt sie mit Artikel an der Tafel."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Setze den bestimmten Artikel ein.",
+    "explanation": "il fiume, il simbolo, il parco (männlich vor Konsonant) · lo stadio (s + Konsonant) · l'amica (Vokal).",
+    "text": "[[g1]] Po è [[g2]] fiume di Torino.\n[[g3]] Mole Antonelliana è [[g4]] simbolo della città.\n[[g5]] stadio è grande.\n[[g6]] amica di Marco abita in centro.\n[[g7]] parco Valentino è bellissimo.\n[[g8]] piazza è importante per [[g9]] città.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "La"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Lo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "L'"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "Il"
+      ]
+     },
+     {
+      "id": "g8",
+      "acceptedAnswers": [
+       "La"
+      ]
+     },
+     {
+      "id": "g9",
+      "acceptedAnswers": [
+       "la"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-artikel-sg-m2",
+  "title": "Artikel und Nomen",
+  "language": "it",
+  "level": "A1",
+  "description": "Der bestimmte Artikel im Singular · Artikel und Nomen (mittel).",
+  "topics": [
+   "Der bestimmte Artikel im Singular",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-artikel-sg",
+   "topicTitle": "Der bestimmte Artikel im Singular",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Im Italienischen hat jedes Nomen ein Geschlecht: **männlich** (meist auf -o) oder **weiblich** (meist auf -a). Nomen auf -e können beides sein.\n\n| Artikel | wann? | Beispiel |\n| il | männlich, vor Konsonant | il fiume, il ponte |\n| lo | männlich, vor s + Konsonant, z, ps, gn, y | lo stadio, lo zaino |\n| la | weiblich, vor Konsonant | la piazza, la città |\n| l' | männlich und weiblich vor Vokal | l'amico, l'industria |\n\n**Tipp:** Lerne jedes Nomen mit Artikel: _la città_, _il parco_.",
+   "order": 12
+  },
+  "teacherNotes": {
+   "warmup": [
+    "Welche Wörter aus Torino kennst du schon? Sammelt sie mit Artikel an der Tafel."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Ergänze den Artikel.",
+    "explanation": "",
+    "columns": [
+     "Nomen",
+     "Artikel"
+    ],
+    "rows": [
+     [
+      "fiume",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "il"
+       ]
+      }
+     ],
+     [
+      "zaino",
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "lo"
+       ]
+      }
+     ],
+     [
+      "industria",
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "l'"
+       ]
+      }
+     ],
+     [
+      "città",
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "la"
+       ]
+      }
+     ],
+     [
+      "amico",
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "l'"
+       ]
+      }
+     ],
+     [
+      "ponte",
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "il"
+       ]
+      }
+     ],
+     [
+      "stadio",
+      {
+       "id": "c7",
+       "acceptedAnswers": [
+        "lo"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-artikel-sg-s1",
+  "title": "Fehler im Stadtplan",
+  "language": "it",
+  "level": "A1",
+  "description": "Der bestimmte Artikel im Singular · Fehler im Stadtplan (schwer).",
+  "topics": [
+   "Der bestimmte Artikel im Singular",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-artikel-sg",
+   "topicTitle": "Der bestimmte Artikel im Singular",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Im Italienischen hat jedes Nomen ein Geschlecht: **männlich** (meist auf -o) oder **weiblich** (meist auf -a). Nomen auf -e können beides sein.\n\n| Artikel | wann? | Beispiel |\n| il | männlich, vor Konsonant | il fiume, il ponte |\n| lo | männlich, vor s + Konsonant, z, ps, gn, y | lo stadio, lo zaino |\n| la | weiblich, vor Konsonant | la piazza, la città |\n| l' | männlich und weiblich vor Vokal | l'amico, l'industria |\n\n**Tipp:** Lerne jedes Nomen mit Artikel: _la città_, _il parco_.",
+   "order": 11
+  },
+  "teacherNotes": {
+   "warmup": [
+    "Welche Wörter aus Torino kennst du schon? Sammelt sie mit Artikel an der Tafel."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Die markierten Artikel sind falsch. Schreibe den richtigen Artikel.",
+    "explanation": "lo vor st/z, l' vor Vokal, la bei weiblichen Nomen.",
+    "text": "Ecco [[g1]] stadio di Torino.\n[[g2]] industria è importante.\nEcco [[g3]] ponte sul Po.\n[[g4]] città è bella.\n[[g5]] zaino di Marco è qui.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "il",
+      "acceptedAnswers": [
+       "lo"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "La",
+      "acceptedAnswers": [
+       "L'"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "lo",
+      "acceptedAnswers": [
+       "il"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "Il",
+      "acceptedAnswers": [
+       "La"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "La",
+      "acceptedAnswers": [
+       "Lo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-artikel-sg-s2",
+  "title": "Meine Stadt",
+  "language": "it",
+  "level": "A1",
+  "description": "Der bestimmte Artikel im Singular · Meine Stadt (schwer).",
+  "topics": [
+   "Der bestimmte Artikel im Singular",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-artikel-sg",
+   "topicTitle": "Der bestimmte Artikel im Singular",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Im Italienischen hat jedes Nomen ein Geschlecht: **männlich** (meist auf -o) oder **weiblich** (meist auf -a). Nomen auf -e können beides sein.\n\n| Artikel | wann? | Beispiel |\n| il | männlich, vor Konsonant | il fiume, il ponte |\n| lo | männlich, vor s + Konsonant, z, ps, gn, y | lo stadio, lo zaino |\n| la | weiblich, vor Konsonant | la piazza, la città |\n| l' | männlich und weiblich vor Vokal | l'amico, l'industria |\n\n**Tipp:** Lerne jedes Nomen mit Artikel: _la città_, _il parco_.",
+   "order": 12
+  },
+  "teacherNotes": {
+   "warmup": [
+    "Welche Wörter aus Torino kennst du schon? Sammelt sie mit Artikel an der Tafel."
+   ]
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Schreibe fünf Sätze über deine Stadt oder dein Dorf. Benutze bestimmte Artikel (il, lo, la, l').",
+    "explanation": "",
+    "modelAnswer": "Il fiume si chiama … · La piazza è grande. · Lo stadio è nuovo. · L'industria è importante. · Il parco è bello.",
+    "lines": 5
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-avere-l1",
+  "title": "Welche Form von avere?",
+  "language": "it",
+  "level": "A1",
+  "description": "Das Verb avere · Welche Form von avere? (einfach).",
+  "topics": [
+   "Das Verb avere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-avere",
+   "topicTitle": "Das Verb avere",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.\n| io | tu | lui / lei | noi | voi | loro |\n| ho | hai | ha | abbiamo | avete | hanno |\n\nDas Alter sagt man mit avere: _Quanti anni **hai**? – **Ho** quattordici anni._\n**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr).",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle die richtige Form.",
+    "explanation": "ha und hanno schreibt man mit h. a ist eine Präposition, anno heißt Jahr.",
+    "text": "Io [[g1]] un fratello.\nTu [[g2]] un gatto?\nMarco [[g3]] quattordici anni.\nNoi [[g4]] una casa grande.\nVoi [[g5]] il numero di Sara?\nI miei amici [[g6]] un cane.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "ho",
+       "hai",
+       "ha"
+      ],
+      "answer": "ho"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "hai",
+       "ha",
+       "ho"
+      ],
+      "answer": "hai"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "ha",
+       "a",
+       "hanno"
+      ],
+      "answer": "ha"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "abbiamo",
+       "avete",
+       "hanno"
+      ],
+      "answer": "abbiamo"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "avete",
+       "abbiamo",
+       "hai"
+      ],
+      "answer": "avete"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "hanno",
+       "anno",
+       "ha"
+      ],
+      "answer": "hanno"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-avere-l2",
+  "title": "Quanti anni hai?",
+  "language": "it",
+  "level": "A1",
+  "description": "Das Verb avere · Quanti anni hai? (einfach).",
+  "topics": [
+   "Das Verb avere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 4,
+  "grammar": {
+   "topic": "ecco1-avere",
+   "topicTitle": "Das Verb avere",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.\n| io | tu | lui / lei | noi | voi | loro |\n| ho | hai | ha | abbiamo | avete | hanno |\n\nDas Alter sagt man mit avere: _Quanti anni **hai**? – **Ho** quattordici anni._\n**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr).",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Was passt zusammen?",
+    "explanation": "",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Quanti anni hai?",
+      "right": "Ho tredici anni."
+     },
+     {
+      "id": "p2",
+      "left": "Quanti anni ha Luca?",
+      "right": "Ha quindici anni."
+     },
+     {
+      "id": "p3",
+      "left": "Quanti anni avete?",
+      "right": "Abbiamo dodici anni."
+     },
+     {
+      "id": "p4",
+      "left": "Quanti anni hanno i gemelli?",
+      "right": "Hanno dieci anni."
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-avere-m1",
+  "title": "Ein Steckbrief",
+  "language": "it",
+  "level": "A1",
+  "description": "Das Verb avere · Ein Steckbrief (mittel).",
+  "topics": [
+   "Das Verb avere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-avere",
+   "topicTitle": "Das Verb avere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.\n| io | tu | lui / lei | noi | voi | loro |\n| ho | hai | ha | abbiamo | avete | hanno |\n\nDas Alter sagt man mit avere: _Quanti anni **hai**? – **Ho** quattordici anni._\n**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr).",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Ergänze die Formen von avere.",
+    "explanation": "",
+    "text": "Mi chiamo Giulia e [[g1]] quattordici anni.\nMia sorella [[g2]] diciassette anni.\nNoi [[g3]] un gatto, si chiama Pippo.\nI miei nonni [[g4]] una casa al mare.\nE tu? Quanti anni [[g5]]?\nVoi [[g6]] fratelli?",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ho"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "ha"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "abbiamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "hanno"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "hai"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "avete"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-avere-s1",
+  "title": "ha oder a, hanno oder anno?",
+  "language": "it",
+  "level": "A1",
+  "description": "Das Verb avere · ha oder a, hanno oder anno? (schwer).",
+  "topics": [
+   "Das Verb avere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-avere",
+   "topicTitle": "Das Verb avere",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.\n| io | tu | lui / lei | noi | voi | loro |\n| ho | hai | ha | abbiamo | avete | hanno |\n\nDas Alter sagt man mit avere: _Quanti anni **hai**? – **Ho** quattordici anni._\n**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr).",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Achte auf die Schreibung.",
+    "explanation": "Verb mit h: ha, hanno. Ohne h: a (Präposition), anno (Jahr).",
+    "text": "Luca [[g1]] un cellulare nuovo.\nAbito [[g2]] Torino.\nI ragazzi [[g3]] il compito di storia.\nQuest'[[g4]] studio il tedesco.\nSara [[g5]] tredici anni.\nVado [[g6]] scuola in bici.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "ha",
+       "a"
+      ],
+      "answer": "ha"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "a",
+       "ha"
+      ],
+      "answer": "a"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "hanno",
+       "anno"
+      ],
+      "answer": "hanno"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "anno",
+       "hanno"
+      ],
+      "answer": "anno"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "ha",
+       "a"
+      ],
+      "answer": "ha"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "a",
+       "ha"
+      ],
+      "answer": "a"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-avere-s2",
+  "title": "Über dich",
+  "language": "it",
+  "level": "A1",
+  "description": "Das Verb avere · Über dich (schwer).",
+  "topics": [
+   "Das Verb avere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-avere",
+   "topicTitle": "Das Verb avere",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.\n| io | tu | lui / lei | noi | voi | loro |\n| ho | hai | ha | abbiamo | avete | hanno |\n\nDas Alter sagt man mit avere: _Quanti anni **hai**? – **Ho** quattordici anni._\n**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr).",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Schreibe 4 Sätze mit avere über dich und deine Familie (Alter, Geschwister, Haustiere …).",
+    "explanation": "",
+    "modelAnswer": "Ho tredici anni. Ho una sorella. Mia sorella ha dieci anni. Abbiamo un cane.",
+    "lines": 4
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-ce-ci-sono-l1",
+  "title": "c'è oder ci sono?",
+  "language": "it",
+  "level": "A1",
+  "description": "c'è und ci sono · c'è oder ci sono? (einfach).",
+  "topics": [
+   "c'è und ci sono",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-ce-ci-sono",
+   "topicTitle": "c'è und ci sono",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "- **c'è** + Singular: _In piazza **c'è** un bar._ (Es gibt / da ist)\n- **ci sono** + Plural: _Nel quartiere **ci sono** due negozi._ (Es gibt / da sind)\n- Frage: _C'è un parco qui?_ · Verneinung: _Non c'è un cinema._",
+   "order": 101
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle c'è oder ci sono.",
+    "explanation": "",
+    "text": "In centro [[g1]] un parco.\nNel quartiere [[g2]] molti negozi.\nA Torino [[g3]] il fiume Po.\nIn piazza [[g4]] due bar.\n[[g5]] una pista di skateboard?\nQui [[g6]] tre campi sportivi.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "c'è",
+       "ci sono"
+      ],
+      "answer": "c'è"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "ci sono",
+       "c'è"
+      ],
+      "answer": "ci sono"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "c'è",
+       "ci sono"
+      ],
+      "answer": "c'è"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "ci sono",
+       "c'è"
+      ],
+      "answer": "ci sono"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "C'è",
+       "Ci sono"
+      ],
+      "answer": "C'è"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "ci sono",
+       "c'è"
+      ],
+      "answer": "ci sono"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-ce-ci-sono-m1",
+  "title": "Mein Quartier",
+  "language": "it",
+  "level": "A1",
+  "description": "c'è und ci sono · Mein Quartier (mittel).",
+  "topics": [
+   "c'è und ci sono",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-ce-ci-sono",
+   "topicTitle": "c'è und ci sono",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "- **c'è** + Singular: _In piazza **c'è** un bar._ (Es gibt / da ist)\n- **ci sono** + Plural: _Nel quartiere **ci sono** due negozi._ (Es gibt / da sind)\n- Frage: _C'è un parco qui?_ · Verneinung: _Non c'è un cinema._",
+   "order": 101
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Ergänze c'è oder ci sono.",
+    "explanation": "",
+    "text": "Nel mio quartiere [[g1]] un campo di calcio.\n[[g2]] anche due negozi di bici.\nNon [[g3]] uno stadio, ma [[g4]] tanti parchi.\n[[g5]] un bar in piazza?\nIn via Roma [[g6]] molti palazzi.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "c'è"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Ci sono"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "c'è"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "ci sono"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "C'è"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "ci sono"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-ce-ci-sono-s1",
+  "title": "Was gibt es in deiner Stadt?",
+  "language": "it",
+  "level": "A1",
+  "description": "c'è und ci sono · Was gibt es in deiner Stadt? (schwer).",
+  "topics": [
+   "c'è und ci sono",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-ce-ci-sono",
+   "topicTitle": "c'è und ci sono",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "- **c'è** + Singular: _In piazza **c'è** un bar._ (Es gibt / da ist)\n- **ci sono** + Plural: _Nel quartiere **ci sono** due negozi._ (Es gibt / da sind)\n- Frage: _C'è un parco qui?_ · Verneinung: _Non c'è un cinema._",
+   "order": 101
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Beschreibe deinen Ort in 5 Sätzen mit c'è und ci sono.",
+    "explanation": "",
+    "modelAnswer": "Nel mio quartiere c'è un parco. Ci sono due negozi e un campo di calcio. Non c'è uno stadio. In centro ci sono molti bar.",
+    "lines": 5
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-che-relativo-l1",
+  "title": "Satzhälften verbinden",
+  "language": "it",
+  "level": "A1",
+  "description": "Das Relativpronomen che · Satzhälften verbinden (einfach).",
+  "topics": [
+   "Das Relativpronomen che",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 5",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 4,
+  "grammar": {
+   "topic": "ecco1-che-relativo",
+   "topicTitle": "Das Relativpronomen che",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):\n- _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** bleibt immer gleich (für Personen und Sachen, Singular und Plural).",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Was passt zusammen?",
+    "explanation": "",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Ho un cugino",
+      "right": "che abita a Roma."
+     },
+     {
+      "id": "p2",
+      "left": "Ecco il libro",
+      "right": "che mi piace tanto."
+     },
+     {
+      "id": "p3",
+      "left": "Questa è la ragazza",
+      "right": "che parla tre lingue."
+     },
+     {
+      "id": "p4",
+      "left": "Il ristorante",
+      "right": "che preferisco è in centro."
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-che-relativo-m1",
+  "title": "Zwei Sätze, ein Satz",
+  "language": "it",
+  "level": "A1",
+  "description": "Das Relativpronomen che · Zwei Sätze, ein Satz (mittel).",
+  "topics": [
+   "Das Relativpronomen che",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 5",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 5,
+  "grammar": {
+   "topic": "ecco1-che-relativo",
+   "topicTitle": "Das Relativpronomen che",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):\n- _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** bleibt immer gleich (für Personen und Sachen, Singular und Plural).",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Verbinde die Sätze mit che.",
+    "explanation": "",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Ho una sorella. Mia sorella ama la musica. → Ho una sorella …",
+      "acceptedAnswers": [
+       "che ama la musica"
+      ]
+     },
+     {
+      "id": "s2",
+      "start": "Ecco il ragazzo. Il ragazzo gioca a calcio. → Ecco il ragazzo …",
+      "acceptedAnswers": [
+       "che gioca a calcio"
+      ]
+     },
+     {
+      "id": "s3",
+      "start": "Leggo un libro. Il libro è molto interessante. → Leggo un libro …",
+      "acceptedAnswers": [
+       "che è molto interessante"
+      ]
+     },
+     {
+      "id": "s4",
+      "start": "Ho un amico. L'amico abita a Milano. → Ho un amico …",
+      "acceptedAnswers": [
+       "che abita a Milano"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-che-relativo-s1",
+  "title": "Wer ist das?",
+  "language": "it",
+  "level": "A1",
+  "description": "Das Relativpronomen che · Wer ist das? (schwer).",
+  "topics": [
+   "Das Relativpronomen che",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 5",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-che-relativo",
+   "topicTitle": "Das Relativpronomen che",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):\n- _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._\n- _Il libro **che** leggo è interessante._\n\n**che** bleibt immer gleich (für Personen und Sachen, Singular und Plural).",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Beschreibe drei Personen aus deiner Familie oder deinem Freundeskreis mit che.",
+    "explanation": "",
+    "modelAnswer": "Ho un fratello che ama il calcio. Mia nonna è una donna che racconta storie bellissime. Ho un'amica che parla italiano.",
+    "lines": 4
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-dare-dire-indiretto-l1",
+  "title": "dare und dire",
+  "language": "it",
+  "level": "A1",
+  "description": "dare, dire und das indirekte Objekt · dare und dire (einfach).",
+  "topics": [
+   "dare, dire und das indirekte Objekt",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 3",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-dare-dire-indiretto",
+   "topicTitle": "dare, dire und das indirekte Objekt",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle die richtige Form.",
+    "explanation": "dà (er/sie gibt) hat einen Akzent, da (von, bei) nicht.",
+    "text": "Io ti [[g1]] il mio libro.\nLa prof ci [[g2]] un compito.\nChe cosa [[g3]] tu?\nNoi [[g4]] la verità.\nI prof [[g5]] i voti.\nVoi mi [[g6]] l'ora?",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "do",
+       "da",
+       "dai"
+      ],
+      "answer": "do"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "dà",
+       "da",
+       "danno"
+      ],
+      "answer": "dà"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "dici",
+       "dice",
+       "dite"
+      ],
+      "answer": "dici"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "diciamo",
+       "dicono",
+       "dite"
+      ],
+      "answer": "diciamo"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "danno",
+       "dano",
+       "date"
+      ],
+      "answer": "danno"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "dite",
+       "dicete",
+       "dicono"
+      ],
+      "answer": "dite"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-dare-dire-indiretto-m1",
+  "title": "Wem?",
+  "language": "it",
+  "level": "A1",
+  "description": "dare, dire und das indirekte Objekt · Wem? (mittel).",
+  "topics": [
+   "dare, dire und das indirekte Objekt",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 3",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-dare-dire-indiretto",
+   "topicTitle": "dare, dire und das indirekte Objekt",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle das passende Pronomen.",
+    "explanation": "gli = ihm (und ihnen), le = ihr, Le = Ihnen (höflich).",
+    "text": "Luca mi scrive. → Io [[g1]] rispondo.\nSara mi telefona. → Io [[g2]] rispondo.\nRagazzi, [[g3]] do un consiglio.\nMamma, [[g4]] dico una cosa.\nLa prof [[g5]] restituisce le relazioni. (a noi)\nSignora, [[g6]] do il mio posto.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "gli",
+       "le",
+       "vi"
+      ],
+      "answer": "gli"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "le",
+       "gli",
+       "ti"
+      ],
+      "answer": "le"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "vi",
+       "ci",
+       "gli"
+      ],
+      "answer": "vi"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "ti",
+       "mi",
+       "le"
+      ],
+      "answer": "ti"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "ci",
+       "vi",
+       "gli"
+      ],
+      "answer": "ci"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Le",
+       "gli",
+       "ti"
+      ],
+      "answer": "Le"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-dare-dire-indiretto-m2",
+  "title": "Pronomen einsetzen",
+  "language": "it",
+  "level": "A1",
+  "description": "dare, dire und das indirekte Objekt · Pronomen einsetzen (mittel).",
+  "topics": [
+   "dare, dire und das indirekte Objekt",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 3",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-dare-dire-indiretto",
+   "topicTitle": "dare, dire und das indirekte Objekt",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Ergänze mi, ti, gli, le, ci oder vi.",
+    "explanation": "",
+    "text": "Marco, [[g1]] do il mio numero.\nLa prof è contenta: [[g2]] dà un bel voto.\nGiulia è triste, io [[g3]] racconto una storia.\nPaolo non capisce, la prof [[g4]] spiega la regola.\nRagazzi, [[g5]] dico una cosa importante!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ti"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "ci"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "gli"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "vi"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-dare-dire-indiretto-s1",
+  "title": "Fehler finden",
+  "language": "it",
+  "level": "A1",
+  "description": "dare, dire und das indirekte Objekt · Fehler finden (schwer).",
+  "topics": [
+   "dare, dire und das indirekte Objekt",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 3",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-dare-dire-indiretto",
+   "topicTitle": "dare, dire und das indirekte Objekt",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von).",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Korrigiere die markierten Wörter.",
+    "explanation": "",
+    "text": "La prof [[g1]] un compito difficile.\nSara non sta bene, io [[g2]] porto i compiti.\nNoi [[g3]] la verità.\nA Luca? Io [[g4]] do il pallone.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "da",
+      "acceptedAnswers": [
+       "dà"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "gli",
+      "acceptedAnswers": [
+       "le"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "dicono",
+      "acceptedAnswers": [
+       "diciamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "le",
+      "acceptedAnswers": [
+       "gli"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-data-l1",
+  "title": "Welches Datum?",
+  "language": "it",
+  "level": "A1",
+  "description": "Das Datum · Welches Datum? (einfach).",
+  "topics": [
+   "Das Datum",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 5",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 5,
+  "grammar": {
+   "topic": "ecco1-data",
+   "topicTitle": "Das Datum",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Was gehört zusammen?",
+    "explanation": "",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "1.5.",
+      "right": "il primo maggio"
+     },
+     {
+      "id": "p2",
+      "left": "8.3.",
+      "right": "l'otto marzo"
+     },
+     {
+      "id": "p3",
+      "left": "15.8.",
+      "right": "il quindici agosto"
+     },
+     {
+      "id": "p4",
+      "left": "25.12.",
+      "right": "il venticinque dicembre"
+     },
+     {
+      "id": "p5",
+      "left": "11.11.",
+      "right": "l'undici novembre"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-data-m1",
+  "title": "Quando è il compleanno?",
+  "language": "it",
+  "level": "A1",
+  "description": "Das Datum · Quando è il compleanno? (mittel).",
+  "topics": [
+   "Das Datum",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 5",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 5,
+  "grammar": {
+   "topic": "ecco1-data",
+   "topicTitle": "Das Datum",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Schreibe das Datum in Worten.",
+    "explanation": "",
+    "text": "Il compleanno di Giulia è (3.4.) [[g1]].\nIl compleanno di mio fratello è (1.10.) [[g2]].\nIl mio compleanno è (8.2.) [[g3]].\nNatale è (25.12.) [[g4]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "il tre aprile"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "il primo ottobre"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "l'otto febbraio"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "il venticinque dicembre"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-data-s1",
+  "title": "Geburtstage in deiner Familie",
+  "language": "it",
+  "level": "A1",
+  "description": "Das Datum · Geburtstage in deiner Familie (schwer).",
+  "topics": [
+   "Das Datum",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 5",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-data",
+   "topicTitle": "Das Datum",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._\n- Der erste Tag des Monats: **il primo** (aprile).\n- Vor Vokal: **l'otto**, **l'undici** (agosto).\n- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.\n- _Quando è il tuo compleanno?_ – _È il venti giugno._",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Schreibe 4 Sätze: Wann haben du und deine Familie Geburtstag?",
+    "explanation": "",
+    "modelAnswer": "Il mio compleanno è il dodici luglio. Il compleanno di mia madre è il primo marzo. Mio padre festeggia l'otto settembre.",
+    "lines": 4
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-ere-presente-l1",
+  "title": "Welche Form?",
+  "language": "it",
+  "level": "A1",
+  "description": "Verben auf -ere im Präsens · Welche Form? (einfach).",
+  "topics": [
+   "Verben auf -ere im Präsens",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-ere-presente",
+   "topicTitle": "Verben auf -ere im Präsens",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "| Person | prendere | vedere |\n| io | prend**o** | ved**o** |\n| tu | prend**i** | ved**i** |\n| lui / lei | prend**e** | ved**e** |\n| noi | prend**iamo** | ved**iamo** |\n| voi | prend**ete** | ved**ete** |\n| loro | prend**ono** | ved**ono** |\n\nUnterschied zu -are: **lui/lei -e** (nicht -a), **voi -ete**, **loro -ono**.",
+   "order": 91
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle die richtige Form.",
+    "explanation": "",
+    "text": "Io [[g1]] la bicicletta.\nTu [[g2]] lo stadio?\nIl papà [[g3]] biciclette.\nNoi [[g4]] l'autobus.\nVoi [[g5]] la partita?\nI ragazzi [[g6]] le magliette.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "prendo",
+       "prende",
+       "prendi"
+      ],
+      "answer": "prendo"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "vedi",
+       "vede",
+       "vedo"
+      ],
+      "answer": "vedi"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "vende",
+       "vendi",
+       "vendono"
+      ],
+      "answer": "vende"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "prendiamo",
+       "prendete",
+       "prendono"
+      ],
+      "answer": "prendiamo"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "vedete",
+       "vediamo",
+       "vedono"
+      ],
+      "answer": "vedete"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "vendono",
+       "vende",
+       "vendete"
+      ],
+      "answer": "vendono"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-ere-presente-m1",
+  "title": "-are oder -ere?",
+  "language": "it",
+  "level": "A1",
+  "description": "Verben auf -ere im Präsens · -are oder -ere? (mittel).",
+  "topics": [
+   "Verben auf -ere im Präsens",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-ere-presente",
+   "topicTitle": "Verben auf -ere im Präsens",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| Person | prendere | vedere |\n| io | prend**o** | ved**o** |\n| tu | prend**i** | ved**i** |\n| lui / lei | prend**e** | ved**e** |\n| noi | prend**iamo** | ved**iamo** |\n| voi | prend**ete** | ved**ete** |\n| loro | prend**ono** | ved**ono** |\n\nUnterschied zu -are: **lui/lei -e** (nicht -a), **voi -ete**, **loro -ono**.",
+   "order": 91
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Ergänze die Formen.",
+    "explanation": "-are: guarda, guardate, guardano · -ere: vede, vedete, vedono.",
+    "columns": [
+     "Person",
+     "guardare",
+     "vedere"
+    ],
+    "rows": [
+     [
+      "lui / lei",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "guarda"
+       ]
+      },
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "vede"
+       ]
+      }
+     ],
+     [
+      "voi",
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "guardate"
+       ]
+      },
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "vedete"
+       ]
+      }
+     ],
+     [
+      "loro",
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "guardano"
+       ]
+      },
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "vedono"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-ere-presente-m2",
+  "title": "Im Quartier",
+  "language": "it",
+  "level": "A1",
+  "description": "Verben auf -ere im Präsens · Im Quartier (mittel).",
+  "topics": [
+   "Verben auf -ere im Präsens",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-ere-presente",
+   "topicTitle": "Verben auf -ere im Präsens",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| Person | prendere | vedere |\n| io | prend**o** | ved**o** |\n| tu | prend**i** | ved**i** |\n| lui / lei | prend**e** | ved**e** |\n| noi | prend**iamo** | ved**iamo** |\n| voi | prend**ete** | ved**ete** |\n| loro | prend**ono** | ved**ono** |\n\nUnterschied zu -are: **lui/lei -e** (nicht -a), **voi -ete**, **loro -ono**.",
+   "order": 92
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Setze das Verb in der richtigen Form ein.",
+    "explanation": "",
+    "text": "Oggi io (prendere) [[g1]] la bicicletta.\nIl papà di Luca (vendere) [[g2]] biciclette.\nNoi (vedere) [[g3]] il campo sportivo.\nVoi (prendere) [[g4]] l'autobus?\nI ragazzi (vedere) [[g5]] la partita.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "prendo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "vende"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "vediamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "prendete"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "vedono"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-ere-presente-s1",
+  "title": "Fehler finden",
+  "language": "it",
+  "level": "A1",
+  "description": "Verben auf -ere im Präsens · Fehler finden (schwer).",
+  "topics": [
+   "Verben auf -ere im Präsens",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-ere-presente",
+   "topicTitle": "Verben auf -ere im Präsens",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| Person | prendere | vedere |\n| io | prend**o** | ved**o** |\n| tu | prend**i** | ved**i** |\n| lui / lei | prend**e** | ved**e** |\n| noi | prend**iamo** | ved**iamo** |\n| voi | prend**ete** | ved**ete** |\n| loro | prend**ono** | ved**ono** |\n\nUnterschied zu -are: **lui/lei -e** (nicht -a), **voi -ete**, **loro -ono**.",
+   "order": 91
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Korrigiere die Verbformen.",
+    "explanation": "",
+    "text": "Marco [[g1]] la bici.\nNoi [[g2]] lo stadio.\nVoi [[g3]] i pattini?\nLoro [[g4]] l'autobus.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "prenda",
+      "acceptedAnswers": [
+       "prende"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "vediete",
+      "acceptedAnswers": [
+       "vediamo"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "vendate",
+      "acceptedAnswers": [
+       "vendete"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "prendano",
+      "acceptedAnswers": [
+       "prendono"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-essere-stare-l1",
+  "title": "essere: welche Form?",
+  "language": "it",
+  "level": "A1",
+  "description": "essere und stare · essere: welche Form? (einfach).",
+  "topics": [
+   "essere und stare",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-essere-stare",
+   "topicTitle": "essere und stare",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**essere** (sein) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| sono | sei | è | siamo | siete | sono |\n\n**stare** benutzt man für das Befinden: _Come stai? – Sto bene / male._\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n\n- _Sono di Torino._ (Herkunft) · _Sono Luca._ (Name) · _È bello._ (Eigenschaft)\n- _Come sta Anna? – Sta bene._ (Befinden)",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle die richtige Form von essere.",
+    "explanation": "Achtung: è (er/sie ist) mit Akzent, e (und) ohne Akzent.",
+    "text": "Io [[g1]] Luca.\nTu [[g2]] di Milano?\nMarco [[g3]] di Torino.\nNoi [[g4]] amici.\nVoi [[g5]] in classe?\nAnna e Sara [[g6]] a scuola.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "sono",
+       "sei",
+       "è"
+      ],
+      "answer": "sono"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "sei",
+       "sono",
+       "siamo"
+      ],
+      "answer": "sei"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "è",
+       "e",
+       "sono"
+      ],
+      "answer": "è"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "siamo",
+       "siete",
+       "sono"
+      ],
+      "answer": "siamo"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "siete",
+       "siamo",
+       "sei"
+      ],
+      "answer": "siete"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "sono",
+       "siete",
+       "è"
+      ],
+      "answer": "sono"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-essere-stare-l2",
+  "title": "Come stai?",
+  "language": "it",
+  "level": "A1",
+  "description": "essere und stare · Come stai? (einfach).",
+  "topics": [
+   "essere und stare",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-essere-stare",
+   "topicTitle": "essere und stare",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**essere** (sein) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| sono | sei | è | siamo | siete | sono |\n\n**stare** benutzt man für das Befinden: _Come stai? – Sto bene / male._\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n\n- _Sono di Torino._ (Herkunft) · _Sono Luca._ (Name) · _È bello._ (Eigenschaft)\n- _Come sta Anna? – Sta bene._ (Befinden)",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle die richtige Form von stare.",
+    "explanation": "",
+    "text": "Ciao Luca, come [[g1]]?\nIo [[g2]] bene, grazie.\nE Anna? Come [[g3]]?\nNoi [[g4]] male oggi.\nRagazzi, come [[g5]]?\nI nonni [[g6]] bene.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "stai",
+       "sta",
+       "sto"
+      ],
+      "answer": "stai"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "sto",
+       "stai",
+       "stanno"
+      ],
+      "answer": "sto"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "sta",
+       "stai",
+       "state"
+      ],
+      "answer": "sta"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "stiamo",
+       "state",
+       "stanno"
+      ],
+      "answer": "stiamo"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "state",
+       "stiamo",
+       "stai"
+      ],
+      "answer": "state"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "stanno",
+       "sta",
+       "state"
+      ],
+      "answer": "stanno"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-essere-stare-m1",
+  "title": "essere oder stare?",
+  "language": "it",
+  "level": "A1",
+  "description": "essere und stare · essere oder stare? (mittel).",
+  "topics": [
+   "essere und stare",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-essere-stare",
+   "topicTitle": "essere und stare",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**essere** (sein) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| sono | sei | è | siamo | siete | sono |\n\n**stare** benutzt man für das Befinden: _Come stai? – Sto bene / male._\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n\n- _Sono di Torino._ (Herkunft) · _Sono Luca._ (Name) · _È bello._ (Eigenschaft)\n- _Come sta Anna? – Sta bene._ (Befinden)",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "essere oder stare? Wähle die passende Form.",
+    "explanation": "essere: Name, Herkunft, Eigenschaft. stare: Befinden (bene/male).",
+    "text": "Io [[g1]] di Torino.\nCome [[g2]]? – Bene, grazie.\nMarco [[g3]] il mio amico.\nOggi Giulia non [[g4]] bene.\nTorino [[g5]] una città importante.\nNoi [[g6]] male oggi.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "sono",
+       "sto"
+      ],
+      "answer": "sono"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "stai",
+       "sei"
+      ],
+      "answer": "stai"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "è",
+       "sta"
+      ],
+      "answer": "è"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "sta",
+       "è"
+      ],
+      "answer": "sta"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "è",
+       "sta"
+      ],
+      "answer": "è"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "stiamo",
+       "siamo"
+      ],
+      "answer": "stiamo"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-essere-stare-m2",
+  "title": "Ein Dialog",
+  "language": "it",
+  "level": "A1",
+  "description": "essere und stare · Ein Dialog (mittel).",
+  "topics": [
+   "essere und stare",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-essere-stare",
+   "topicTitle": "essere und stare",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**essere** (sein) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| sono | sei | è | siamo | siete | sono |\n\n**stare** benutzt man für das Befinden: _Come stai? – Sto bene / male._\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n\n- _Sono di Torino._ (Herkunft) · _Sono Luca._ (Name) · _È bello._ (Eigenschaft)\n- _Come sta Anna? – Sta bene._ (Befinden)",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Ergänze den Dialog mit Formen von essere und stare.",
+    "explanation": "",
+    "text": "– Ciao! Tu [[g1]] Paolo?\n– Sì, [[g2]] Paolo. E tu?\n– Io [[g3]] Sara. Come [[g4]]?\n– [[g5]] bene, grazie. Anche tu [[g6]] di Torino?\n– No, [[g7]] di Milano.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "sei"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "stai"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Sto"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "sei"
+      ]
+     },
+     {
+      "id": "g7",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     }
+    ],
+    "wordBank": true,
+    "extraWords": [
+     "è",
+     "sta"
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-essere-stare-s1",
+  "title": "Fehler im Dialog",
+  "language": "it",
+  "level": "A1",
+  "description": "essere und stare · Fehler im Dialog (schwer).",
+  "topics": [
+   "essere und stare",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-essere-stare",
+   "topicTitle": "essere und stare",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**essere** (sein) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| sono | sei | è | siamo | siete | sono |\n\n**stare** benutzt man für das Befinden: _Come stai? – Sto bene / male._\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n\n- _Sono di Torino._ (Herkunft) · _Sono Luca._ (Name) · _È bello._ (Eigenschaft)\n- _Come sta Anna? – Sta bene._ (Befinden)",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Korrigiere die markierten Formen.",
+    "explanation": "",
+    "text": "Ciao, io [[g1]] Francesca.\nCome [[g2]]? – Sto bene.\nLuca e Marco [[g3]] di Torino.\nNoi [[g4]] amici.\nOggi la nonna [[g5]] male.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "è",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "sei",
+      "acceptedAnswers": [
+       "stai"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "è",
+      "acceptedAnswers": [
+       "sono"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "stiamo",
+      "acceptedAnswers": [
+       "siamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "è",
+      "acceptedAnswers": [
+       "sta"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-essere-stare-s2",
+  "title": "Wer bist du?",
+  "language": "it",
+  "level": "A1",
+  "description": "essere und stare · Wer bist du? (schwer).",
+  "topics": [
+   "essere und stare",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-essere-stare",
+   "topicTitle": "essere und stare",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**essere** (sein) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| sono | sei | è | siamo | siete | sono |\n\n**stare** benutzt man für das Befinden: _Come stai? – Sto bene / male._\n| io | tu | lui / lei | noi | voi | loro |\n| sto | stai | sta | stiamo | state | stanno |\n\n- _Sono di Torino._ (Herkunft) · _Sono Luca._ (Name) · _È bello._ (Eigenschaft)\n- _Come sta Anna? – Sta bene._ (Befinden)",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Stell dich vor: Wie heißt du, woher kommst du, wie geht es dir? Schreibe 4 Sätze mit essere und stare.",
+    "explanation": "",
+    "modelAnswer": "Ciao, sono Lena. Sono di Amburgo. Oggi sto bene. Il mio amico è Tim.",
+    "lines": 4
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-gia-ancora-l1",
+  "title": "Wo steht già?",
+  "language": "it",
+  "level": "A1",
+  "description": "già und (non …) ancora · Wo steht già? (einfach).",
+  "topics": [
+   "già und (non …) ancora",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-gia-ancora",
+   "topicTitle": "già und (non …) ancora",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Welcher Satz ist richtig?",
+    "explanation": "",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Ho già visto il film."
+     },
+     {
+      "id": "o2",
+      "text": "Già ho visto il film."
+     },
+     {
+      "id": "o3",
+      "text": "Ho visto già il film."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q2",
+    "type": "single_choice",
+    "prompt": "Welcher Satz ist richtig?",
+    "explanation": "",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Non ho ancora finito."
+     },
+     {
+      "id": "o2",
+      "text": "Non ancora ho finito."
+     },
+     {
+      "id": "o3",
+      "text": "Ho non ancora finito."
+     }
+    ],
+    "correctOptionId": "o1"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-gia-ancora-m1",
+  "title": "già oder ancora?",
+  "language": "it",
+  "level": "A1",
+  "description": "già und (non …) ancora · già oder ancora? (mittel).",
+  "topics": [
+   "già und (non …) ancora",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 5,
+  "grammar": {
+   "topic": "ecco1-gia-ancora",
+   "topicTitle": "già und (non …) ancora",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle già oder ancora.",
+    "explanation": "",
+    "text": "Hai [[g1]] fatto i compiti? – Sì, li ho fatti ieri.\nNo, non ho [[g2]] mangiato. Ho fame!\nMarco è [[g3]] arrivato? – Sì, è qui.\nNon abbiamo [[g4]] deciso.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "già",
+       "ancora"
+      ],
+      "answer": "già"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "ancora",
+       "già"
+      ],
+      "answer": "ancora"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "già",
+       "ancora"
+      ],
+      "answer": "già"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "ancora",
+       "già"
+      ],
+      "answer": "ancora"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-gia-ancora-s1",
+  "title": "Wörter ordnen",
+  "language": "it",
+  "level": "A1",
+  "description": "già und (non …) ancora · Wörter ordnen (schwer).",
+  "topics": [
+   "già und (non …) ancora",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-gia-ancora",
+   "topicTitle": "già und (non …) ancora",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Im passato prossimo stehen **già** (schon) und **ancora** (noch) **zwischen Hilfsverb und Partizip**:\n- _Ho **già** fatto i compiti._ (Ich habe die Hausaufgaben schon gemacht.)\n- _**Non** ho **ancora** mangiato._ (Ich habe noch nicht gegessen.)",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Bringe die Wörter in die richtige Reihenfolge: „Ich habe die Hausaufgaben noch nicht gemacht.“",
+    "explanation": "",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Non"
+     },
+     {
+      "id": "i2",
+      "text": "ho"
+     },
+     {
+      "id": "i3",
+      "text": "ancora"
+     },
+     {
+      "id": "i4",
+      "text": "fatto"
+     },
+     {
+      "id": "i5",
+      "text": "i"
+     },
+     {
+      "id": "i6",
+      "text": "compiti"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-l1",
+  "title": "Imperativ tu",
+  "language": "it",
+  "level": "A1",
+  "description": "Der Imperativ (tu, voi) und die Verneinung · Imperativ tu (einfach).",
+  "topics": [
+   "Der Imperativ (tu, voi) und die Verneinung",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 3",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 5,
+  "grammar": {
+   "topic": "ecco1-imperativo",
+   "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle den Imperativ (tu).",
+    "explanation": "",
+    "text": "Luca, [[g1]]!\nSara, [[g2]] il libro!\nMarco, [[g3]] la finestra!\nGiulia, [[g4]] il compito!\nPaolo, [[g5]] attenzione!",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "ascolta",
+       "ascolti",
+       "ascoltare"
+      ],
+      "answer": "ascolta"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "prendi",
+       "prenda",
+       "prende"
+      ],
+      "answer": "prendi"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "apri",
+       "apra",
+       "apre"
+      ],
+      "answer": "apri"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "finisci",
+       "finisce",
+       "finire"
+      ],
+      "answer": "finisci"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "fa'",
+       "fare",
+       "fanno"
+      ],
+      "answer": "fa'"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-m1",
+  "title": "Verneint",
+  "language": "it",
+  "level": "A1",
+  "description": "Der Imperativ (tu, voi) und die Verneinung · Verneint (mittel).",
+  "topics": [
+   "Der Imperativ (tu, voi) und die Verneinung",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 3",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-imperativo",
+   "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle den verneinten Imperativ.",
+    "explanation": "tu verneint: non + Infinitiv (non parlare). voi verneint: non + Imperativ (non parlate).",
+    "text": "Luca, non [[g1]] adesso!\nRagazzi, non [[g2]]!\nSara, non [[g3]] il libro!\nMarco, non [[g4]] nel corridoio!\nRagazzi, non [[g5]] il cellulare!",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "parlare",
+       "parla",
+       "parli"
+      ],
+      "answer": "parlare"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "gridate",
+       "gridare",
+       "grida"
+      ],
+      "answer": "gridate"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "dimenticare",
+       "dimentica",
+       "dimentichi"
+      ],
+      "answer": "dimenticare"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "correre",
+       "corri",
+       "corre"
+      ],
+      "answer": "correre"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "usate",
+       "usare",
+       "usa"
+      ],
+      "answer": "usate"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-m2",
+  "title": "Die Lehrerin sagt …",
+  "language": "it",
+  "level": "A1",
+  "description": "Der Imperativ (tu, voi) und die Verneinung · Die Lehrerin sagt … (mittel).",
+  "topics": [
+   "Der Imperativ (tu, voi) und die Verneinung",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 3",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-imperativo",
+   "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Setze den Imperativ ein.",
+    "explanation": "",
+    "text": "Marco, (leggere) [[g1]] la pagina dieci!\nRagazzi, (aprire) [[g2]] il libro!\nSara, (scrivere) [[g3]] la soluzione alla LIM!\nLuca, non (parlare) [[g4]]!\nRagazzi, non (gridare) [[g5]]!\nGiulia, (fare) [[g6]] l'esercizio, per favore!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "leggi"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "aprite"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "scrivi"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "parlare"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "gridate"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "fa'",
+       "fai"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-noi-l1",
+  "title": "Vorschläge",
+  "language": "it",
+  "level": "A1",
+  "description": "Der Imperativ der 1. Person Plural · Vorschläge (einfach).",
+  "topics": [
+   "Der Imperativ der 1. Person Plural",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 5",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 4,
+  "grammar": {
+   "topic": "ecco1-imperativo-noi",
+   "topicTitle": "Der Imperativ der 1. Person Plural",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l'autobus!_ · _**Facciamo** una pausa!_\n- verneint: _**Non** prendiamo il taxi!_",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle den Vorschlag.",
+    "explanation": "",
+    "text": "Che bella giornata! [[g1]] al parco!\nÈ tardi, [[g2]] un taxi!\nHo fame, [[g3]] una pizza!\nSiamo stanchi, [[g4]] una pausa!",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Andiamo",
+       "Andate",
+       "Vado"
+      ],
+      "answer": "Andiamo"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "prendiamo",
+       "prendete",
+       "prendono"
+      ],
+      "answer": "prendiamo"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "mangiamo",
+       "mangiate",
+       "mangio"
+      ],
+      "answer": "mangiamo"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "facciamo",
+       "fate",
+       "fanno"
+      ],
+      "answer": "facciamo"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-noi-m1",
+  "title": "Was machen wir?",
+  "language": "it",
+  "level": "A1",
+  "description": "Der Imperativ der 1. Person Plural · Was machen wir? (mittel).",
+  "topics": [
+   "Der Imperativ der 1. Person Plural",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 5",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-imperativo-noi",
+   "topicTitle": "Der Imperativ der 1. Person Plural",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l'autobus!_ · _**Facciamo** una pausa!_\n- verneint: _**Non** prendiamo il taxi!_",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Mache Vorschläge mit der 1. Person Plural.",
+    "explanation": "",
+    "text": "(andare) [[g1]] a Roma per Pasqua!\n(prendere) [[g2]] il treno, è più comodo!\n(comprare) [[g3]] i biglietti online!\nNon (aspettare) [[g4]] l'autobus, (camminare) [[g5]]!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "Andiamo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Prendiamo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Compriamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "aspettiamo"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "camminiamo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-noi-s1",
+  "title": "Ein Wochenende planen",
+  "language": "it",
+  "level": "A1",
+  "description": "Der Imperativ der 1. Person Plural · Ein Wochenende planen (schwer).",
+  "topics": [
+   "Der Imperativ der 1. Person Plural",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 5",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-imperativo-noi",
+   "topicTitle": "Der Imperativ der 1. Person Plural",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l'autobus!_ · _**Facciamo** una pausa!_\n- verneint: _**Non** prendiamo il taxi!_",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Du planst mit Freunden ein Wochenende. Schreibe 5 Vorschläge mit der 1. Person Plural.",
+    "explanation": "",
+    "modelAnswer": "Andiamo in montagna! Prendiamo il treno alle otto. Facciamo una gita in bici. Mangiamo in un ristorante. Non torniamo troppo tardi!",
+    "lines": 5
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-imperativo-s1",
+  "title": "Regeln für die Klasse",
+  "language": "it",
+  "level": "A1",
+  "description": "Der Imperativ (tu, voi) und die Verneinung · Regeln für die Klasse (schwer).",
+  "topics": [
+   "Der Imperativ (tu, voi) und die Verneinung",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 3",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-imperativo",
+   "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Schreibe verneinte Regeln für einen Mitschüler (tu).",
+    "explanation": "",
+    "items": [
+     {
+      "id": "s1",
+      "start": "(usare il cellulare) → …",
+      "acceptedAnswers": [
+       "Non usare il cellulare!"
+      ]
+     },
+     {
+      "id": "s2",
+      "start": "(mangiare in classe) → …",
+      "acceptedAnswers": [
+       "Non mangiare in classe!"
+      ]
+     },
+     {
+      "id": "s3",
+      "start": "(correre nel corridoio) → …",
+      "acceptedAnswers": [
+       "Non correre nel corridoio!"
+      ]
+     },
+     {
+      "id": "s4",
+      "start": "(dimenticare i compiti) → …",
+      "acceptedAnswers": [
+       "Non dimenticare i compiti!"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-ire-andare-l1",
+  "title": "dormire, sentire, andare",
+  "language": "it",
+  "level": "A1",
+  "description": "Verben auf -ire und andare · dormire, sentire, andare (einfach).",
+  "topics": [
+   "Verben auf -ire und andare",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-ire-andare",
+   "topicTitle": "Verben auf -ire und andare",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Verben auf -ire** (ohne Stammerweiterung):\n| Person | dormire | sentire |\n| io | dorm**o** | sent**o** |\n| tu | dorm**i** | sent**i** |\n| lui / lei | dorm**e** | sent**e** |\n| noi | dorm**iamo** | sent**iamo** |\n| voi | dorm**ite** | sent**ite** |\n| loro | dorm**ono** | sent**ono** |\n\nWie -ere, nur **voi -ite**.\n**andare** (gehen, fahren) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| vado | vai | va | andiamo | andate | vanno |\n\n_Vado a scuola. Andiamo al concerto._",
+   "order": 61
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle die richtige Form.",
+    "explanation": "",
+    "text": "Io [[g1]] poco.\nTu [[g2]] la canzone?\nFilippo [[g3]] nella sua camera.\nIo [[g4]] a scuola in bici.\nNoi [[g5]] al concerto.\nI ragazzi [[g6]] in spiaggia.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "dormo",
+       "dorme",
+       "dormi"
+      ],
+      "answer": "dormo"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "senti",
+       "sento",
+       "sente"
+      ],
+      "answer": "senti"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "dorme",
+       "dormi",
+       "dormono"
+      ],
+      "answer": "dorme"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "vado",
+       "va",
+       "andiamo"
+      ],
+      "answer": "vado"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "andiamo",
+       "andate",
+       "vanno"
+      ],
+      "answer": "andiamo"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "vanno",
+       "va",
+       "andiamo"
+      ],
+      "answer": "vanno"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-ire-andare-m1",
+  "title": "andare",
+  "language": "it",
+  "level": "A1",
+  "description": "Verben auf -ire und andare · andare (mittel).",
+  "topics": [
+   "Verben auf -ire und andare",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-ire-andare",
+   "topicTitle": "Verben auf -ire und andare",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Verben auf -ire** (ohne Stammerweiterung):\n| Person | dormire | sentire |\n| io | dorm**o** | sent**o** |\n| tu | dorm**i** | sent**i** |\n| lui / lei | dorm**e** | sent**e** |\n| noi | dorm**iamo** | sent**iamo** |\n| voi | dorm**ite** | sent**ite** |\n| loro | dorm**ono** | sent**ono** |\n\nWie -ere, nur **voi -ite**.\n**andare** (gehen, fahren) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| vado | vai | va | andiamo | andate | vanno |\n\n_Vado a scuola. Andiamo al concerto._",
+   "order": 61
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Ergänze die Formen von andare.",
+    "explanation": "",
+    "columns": [
+     "Person",
+     "andare"
+    ],
+    "rows": [
+     [
+      "io",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "vado"
+       ]
+      }
+     ],
+     [
+      "tu",
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "vai"
+       ]
+      }
+     ],
+     [
+      "lui / lei",
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "va"
+       ]
+      }
+     ],
+     [
+      "noi",
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "andiamo"
+       ]
+      }
+     ],
+     [
+      "voi",
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "andate"
+       ]
+      }
+     ],
+     [
+      "loro",
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "vanno"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-ire-andare-m2",
+  "title": "Am Wochenende",
+  "language": "it",
+  "level": "A1",
+  "description": "Verben auf -ire und andare · Am Wochenende (mittel).",
+  "topics": [
+   "Verben auf -ire und andare",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-ire-andare",
+   "topicTitle": "Verben auf -ire und andare",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Verben auf -ire** (ohne Stammerweiterung):\n| Person | dormire | sentire |\n| io | dorm**o** | sent**o** |\n| tu | dorm**i** | sent**i** |\n| lui / lei | dorm**e** | sent**e** |\n| noi | dorm**iamo** | sent**iamo** |\n| voi | dorm**ite** | sent**ite** |\n| loro | dorm**ono** | sent**ono** |\n\nWie -ere, nur **voi -ite**.\n**andare** (gehen, fahren) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| vado | vai | va | andiamo | andate | vanno |\n\n_Vado a scuola. Andiamo al concerto._",
+   "order": 62
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Setze das Verb in der richtigen Form ein.",
+    "explanation": "",
+    "text": "Il sabato io (dormire) [[g1]] fino alle dieci.\nPoi (andare) [[g2]] in centro con Luca.\nNoi (sentire) [[g3]] le canzoni nuove.\nVoi (dormire) [[g4]] molto?\nMia sorella (andare) [[g5]] in spiaggia.\nI miei amici (seguire) [[g6]] il loro cantante preferito online.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "dormo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "vado"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sentiamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "dormite"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "va"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "seguono"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-ire-andare-s1",
+  "title": "Fehler finden",
+  "language": "it",
+  "level": "A1",
+  "description": "Verben auf -ire und andare · Fehler finden (schwer).",
+  "topics": [
+   "Verben auf -ire und andare",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-ire-andare",
+   "topicTitle": "Verben auf -ire und andare",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Verben auf -ire** (ohne Stammerweiterung):\n| Person | dormire | sentire |\n| io | dorm**o** | sent**o** |\n| tu | dorm**i** | sent**i** |\n| lui / lei | dorm**e** | sent**e** |\n| noi | dorm**iamo** | sent**iamo** |\n| voi | dorm**ite** | sent**ite** |\n| loro | dorm**ono** | sent**ono** |\n\nWie -ere, nur **voi -ite**.\n**andare** (gehen, fahren) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| vado | vai | va | andiamo | andate | vanno |\n\n_Vado a scuola. Andiamo al concerto._",
+   "order": 61
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Korrigiere die Verbformen.",
+    "explanation": "",
+    "text": "Voi [[g1]] tanto!\nIo [[g2]] a scuola a piedi.\nNoi [[g3]] al cinema.\nLuca [[g4]] la musica.\nTu [[g5]] al concerto?",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "dormete",
+      "acceptedAnswers": [
+       "dormite"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "ando",
+      "acceptedAnswers": [
+       "vado"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "vanno",
+      "acceptedAnswers": [
+       "andiamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "senta",
+      "acceptedAnswers": [
+       "sente"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "va",
+      "acceptedAnswers": [
+       "vai"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-isc-fare-l1",
+  "title": "capire, finire, fare",
+  "language": "it",
+  "level": "A1",
+  "description": "Verben auf -ire mit -isc- und fare · capire, finire, fare (einfach).",
+  "topics": [
+   "Verben auf -ire mit -isc- und fare",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 3",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-isc-fare",
+   "topicTitle": "Verben auf -ire mit -isc- und fare",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle die richtige Form.",
+    "explanation": "",
+    "text": "Io non [[g1]] l'esercizio.\nTu [[g2]] il problema?\nLa lezione [[g3]] alle due.\nNoi [[g4]] tutto.\nIo [[g5]] i compiti.\nVoi [[g6]] attenzione?",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "capisco",
+       "capo",
+       "capiamo"
+      ],
+      "answer": "capisco"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "capisci",
+       "capisce",
+       "capite"
+      ],
+      "answer": "capisci"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "finisce",
+       "fina",
+       "finiscono"
+      ],
+      "answer": "finisce"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "capiamo",
+       "capisciamo",
+       "capiscono"
+      ],
+      "answer": "capiamo"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "faccio",
+       "fo",
+       "fa"
+      ],
+      "answer": "faccio"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "fate",
+       "facete",
+       "fanno"
+      ],
+      "answer": "fate"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-isc-fare-l2",
+  "title": "Mit oder ohne -isc-?",
+  "language": "it",
+  "level": "A1",
+  "description": "Verben auf -ire mit -isc- und fare · Mit oder ohne -isc-? (einfach).",
+  "topics": [
+   "Verben auf -ire mit -isc- und fare",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 3",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-isc-fare",
+   "topicTitle": "Verben auf -ire mit -isc- und fare",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Mit -isc- oder ohne?",
+    "explanation": "",
+    "categories": [
+     {
+      "id": "isc",
+      "label": "mit -isc-"
+     },
+     {
+      "id": "ohne",
+      "label": "ohne -isc-"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "io capisco",
+      "category": "isc"
+     },
+     {
+      "id": "i2",
+      "text": "noi capiamo",
+      "category": "ohne"
+     },
+     {
+      "id": "i3",
+      "text": "lui finisce",
+      "category": "isc"
+     },
+     {
+      "id": "i4",
+      "text": "voi finite",
+      "category": "ohne"
+     },
+     {
+      "id": "i5",
+      "text": "loro preferiscono",
+      "category": "isc"
+     },
+     {
+      "id": "i6",
+      "text": "tu restituisci",
+      "category": "isc"
+     },
+     {
+      "id": "i7",
+      "text": "noi finiamo",
+      "category": "ohne"
+     },
+     {
+      "id": "i8",
+      "text": "voi capite",
+      "category": "ohne"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-isc-fare-m1",
+  "title": "In classe",
+  "language": "it",
+  "level": "A1",
+  "description": "Verben auf -ire mit -isc- und fare · In classe (mittel).",
+  "topics": [
+   "Verben auf -ire mit -isc- und fare",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 3",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-isc-fare",
+   "topicTitle": "Verben auf -ire mit -isc- und fare",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Setze das Verb in der richtigen Form ein.",
+    "explanation": "",
+    "text": "Prof, non (capire, io) [[g1]] la domanda!\nA che ora (finire) [[g2]] la lezione?\nNoi (fare) [[g3]] un esercizio di geometria.\nLa prof (restituire) [[g4]] le relazioni.\nVoi (capire) [[g5]] la regola?\nI ragazzi (fare) [[g6]] attenzione.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "capisco"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "finisce"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "facciamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "restituisce"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "capite"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "fanno"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-isc-fare-s1",
+  "title": "fare",
+  "language": "it",
+  "level": "A1",
+  "description": "Verben auf -ire mit -isc- und fare · fare (schwer).",
+  "topics": [
+   "Verben auf -ire mit -isc- und fare",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 3",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-isc-fare",
+   "topicTitle": "Verben auf -ire mit -isc- und fare",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Ergänze die Formen.",
+    "explanation": "",
+    "columns": [
+     "Person",
+     "fare",
+     "finire"
+    ],
+    "rows": [
+     [
+      "io",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "faccio"
+       ]
+      },
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "finisco"
+       ]
+      }
+     ],
+     [
+      "tu",
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "fai"
+       ]
+      },
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "finisci"
+       ]
+      }
+     ],
+     [
+      "lui / lei",
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "fa"
+       ]
+      },
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "finisce"
+       ]
+      }
+     ],
+     [
+      "noi",
+      {
+       "id": "c7",
+       "acceptedAnswers": [
+        "facciamo"
+       ]
+      },
+      {
+       "id": "c8",
+       "acceptedAnswers": [
+        "finiamo"
+       ]
+      }
+     ],
+     [
+      "voi",
+      {
+       "id": "c9",
+       "acceptedAnswers": [
+        "fate"
+       ]
+      },
+      {
+       "id": "c10",
+       "acceptedAnswers": [
+        "finite"
+       ]
+      }
+     ],
+     [
+      "loro",
+      {
+       "id": "c11",
+       "acceptedAnswers": [
+        "fanno"
+       ]
+      },
+      {
+       "id": "c12",
+       "acceptedAnswers": [
+        "finiscono"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-isc-fare-s2",
+  "title": "Fehler finden",
+  "language": "it",
+  "level": "A1",
+  "description": "Verben auf -ire mit -isc- und fare · Fehler finden (schwer).",
+  "topics": [
+   "Verben auf -ire mit -isc- und fare",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 3",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-isc-fare",
+   "topicTitle": "Verben auf -ire mit -isc- und fare",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Viele Verben auf -ire schieben **-isc-** ein, aber **nicht** bei noi und voi:\n| Person | capire | finire |\n| io | cap**isc**o | fin**isc**o |\n| tu | cap**isc**i | fin**isc**i |\n| lui / lei | cap**isc**e | fin**isc**e |\n| noi | cap**iamo** | fin**iamo** |\n| voi | cap**ite** | fin**ite** |\n| loro | cap**isc**ono | fin**isc**ono |\n\nAussprache: -isco [isko], aber -isci, -isce [iʃi, iʃe].\n**fare** (machen) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| faccio | fai | fa | facciamo | fate | fanno |",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Korrigiere die markierten Formen.",
+    "explanation": "",
+    "text": "Noi [[g1]] la lezione.\nIo [[g2]] i compiti alle cinque.\nLa scuola [[g3]] all'una.\nVoi [[g4]] attenzione?\nLoro non [[g5]] l'esercizio.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "capisciamo",
+      "acceptedAnswers": [
+       "capiamo"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "fo",
+      "acceptedAnswers": [
+       "faccio"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "fine",
+      "acceptedAnswers": [
+       "finisce"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "faciete",
+      "acceptedAnswers": [
+       "fate"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "capono",
+      "acceptedAnswers": [
+       "capiscono"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-mi-piace-l1",
+  "title": "piace oder piacciono?",
+  "language": "it",
+  "level": "A1",
+  "description": "(non) mi piace / mi piacciono · piace oder piacciono? (einfach).",
+  "topics": [
+   "(non) mi piace / mi piacciono",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-mi-piace",
+   "topicTitle": "(non) mi piace / mi piacciono",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _**Non** mi piace il calcio._\n- Frage: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono.",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle piace oder piacciono.",
+    "explanation": "Ein Ding oder ein Verb → piace. Mehrere Dinge (Plural) → piacciono.",
+    "text": "Mi [[g1]] la musica.\nMi [[g2]] i videogiochi.\nNon mi [[g3]] il calcio.\nTi [[g4]] le canzoni di Laura Pausini?\nMi [[g5]] ballare.\nNon mi [[g6]] i compiti.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "piace",
+       "piacciono"
+      ],
+      "answer": "piace"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "piacciono",
+       "piace"
+      ],
+      "answer": "piacciono"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "piace",
+       "piacciono"
+      ],
+      "answer": "piace"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "piacciono",
+       "piace"
+      ],
+      "answer": "piacciono"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "piace",
+       "piacciono"
+      ],
+      "answer": "piace"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "piacciono",
+       "piace"
+      ],
+      "answer": "piacciono"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-mi-piace-m1",
+  "title": "Was gefällt dir?",
+  "language": "it",
+  "level": "A1",
+  "description": "(non) mi piace / mi piacciono · Was gefällt dir? (mittel).",
+  "topics": [
+   "(non) mi piace / mi piacciono",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 8,
+  "grammar": {
+   "topic": "ecco1-mi-piace",
+   "topicTitle": "(non) mi piace / mi piacciono",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _**Non** mi piace il calcio._\n- Frage: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono.",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Sortiere: mi piace oder mi piacciono?",
+    "explanation": "",
+    "categories": [
+     {
+      "id": "s",
+      "label": "mi piace"
+     },
+     {
+      "id": "p",
+      "label": "mi piacciono"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "la storia",
+      "category": "s"
+     },
+     {
+      "id": "i2",
+      "text": "i libri",
+      "category": "p"
+     },
+     {
+      "id": "i3",
+      "text": "lo sport",
+      "category": "s"
+     },
+     {
+      "id": "i4",
+      "text": "le vacanze",
+      "category": "p"
+     },
+     {
+      "id": "i5",
+      "text": "cantare",
+      "category": "s"
+     },
+     {
+      "id": "i6",
+      "text": "gli animali",
+      "category": "p"
+     },
+     {
+      "id": "i7",
+      "text": "la danza",
+      "category": "s"
+     },
+     {
+      "id": "i8",
+      "text": "le materie scientifiche",
+      "category": "p"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-mi-piace-m2",
+  "title": "Ein Interview",
+  "language": "it",
+  "level": "A1",
+  "description": "(non) mi piace / mi piacciono · Ein Interview (mittel).",
+  "topics": [
+   "(non) mi piace / mi piacciono",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-mi-piace",
+   "topicTitle": "(non) mi piace / mi piacciono",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _**Non** mi piace il calcio._\n- Frage: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono.",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Ergänze mit piace oder piacciono.",
+    "explanation": "",
+    "text": "– Ti [[g1]] la scuola?\n– Sì, mi [[g2]] molto. Mi [[g3]] soprattutto le lezioni di storia.\n– E la filosofia?\n– No, non mi [[g4]]. E non mi [[g5]] i compiti!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "piace"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "piace"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "piacciono"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "piace"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "piacciono"
+      ]
+     }
+    ],
+    "wordBank": true
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-mi-piace-s1",
+  "title": "Mi piace – non mi piace",
+  "language": "it",
+  "level": "A1",
+  "description": "(non) mi piace / mi piacciono · Mi piace – non mi piace (schwer).",
+  "topics": [
+   "(non) mi piace / mi piacciono",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-mi-piace",
+   "topicTitle": "(non) mi piace / mi piacciono",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._\n- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._\n- Verneinung: _**Non** mi piace il calcio._\n- Frage: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._\n\nWörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono.",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Was magst du, was nicht? Schreibe je zwei Sätze mit mi piace, mi piacciono, non mi piace, non mi piacciono.",
+    "explanation": "",
+    "modelAnswer": "Mi piace la musica. Mi piace ballare. Mi piacciono i film italiani. Mi piacciono gli animali. Non mi piace il calcio. Non mi piacciono i compiti.",
+    "lines": 6
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-modali-l1",
+  "title": "Welche Form?",
+  "language": "it",
+  "level": "A1",
+  "description": "venire, sapere und die Modalverben · Welche Form? (einfach).",
+  "topics": [
+   "venire, sapere und die Modalverben",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-modali",
+   "topicTitle": "venire, sapere und die Modalverben",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle die richtige Form.",
+    "explanation": "",
+    "text": "Io [[g1]] andare in montagna.\nTu [[g2]] venire alla festa?\nLuca [[g3]] studiare.\nNoi [[g4]] sciare.\nVoi [[g5]] con noi?\nI ragazzi [[g6]] giocare a calcio.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "voglio",
+       "vuole",
+       "volere"
+      ],
+      "answer": "voglio"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "puoi",
+       "può",
+       "posso"
+      ],
+      "answer": "puoi"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "deve",
+       "devo",
+       "dobbiamo"
+      ],
+      "answer": "deve"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "sappiamo",
+       "sapete",
+       "sanno"
+      ],
+      "answer": "sappiamo"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "venite",
+       "venete",
+       "vengono"
+      ],
+      "answer": "venite"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "vogliono",
+       "volete",
+       "vuole"
+      ],
+      "answer": "vogliono"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-modali-m1",
+  "title": "sapere oder potere?",
+  "language": "it",
+  "level": "A1",
+  "description": "venire, sapere und die Modalverben · sapere oder potere? (mittel).",
+  "topics": [
+   "venire, sapere und die Modalverben",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-modali",
+   "topicTitle": "venire, sapere und die Modalverben",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "sapere oder potere?",
+    "explanation": "sapere: etwas gelernt haben (Fähigkeit). potere: die Möglichkeit oder Erlaubnis haben.",
+    "text": "[[g1]] suonare il pianoforte, ho imparato da piccolo.\nOggi non [[g2]] uscire, devo studiare.\n[[g3]] sciare? – Sì, ho imparato l'anno scorso.\n[[g4]] aiutarmi con i compiti?\nMia sorella [[g5]] parlare tre lingue.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "So",
+       "Posso"
+      ],
+      "answer": "So"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "posso",
+       "so"
+      ],
+      "answer": "posso"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Sai",
+       "Puoi"
+      ],
+      "answer": "Sai"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Puoi",
+       "Sai"
+      ],
+      "answer": "Puoi"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "sa",
+       "può"
+      ],
+      "answer": "sa"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-modali-m2",
+  "title": "Ein Wochenende in Sestriere?",
+  "language": "it",
+  "level": "A1",
+  "description": "venire, sapere und die Modalverben · Ein Wochenende in Sestriere? (mittel).",
+  "topics": [
+   "venire, sapere und die Modalverben",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-modali",
+   "topicTitle": "venire, sapere und die Modalverben",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Ergänze die Verben in der richtigen Form.",
+    "explanation": "",
+    "text": "– Ragazzi, sabato (venire, voi) [[g1]] a Sestriere?\n– Io (volere) [[g2]] venire, ma (dovere) [[g3]] studiare.\n– E Marco? (Potere) [[g4]] venire?\n– Sì, ma non (sapere) [[g5]] sciare!\n– Non importa, noi (potere) [[g6]] imparare insieme!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "venite"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "voglio"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "devo"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "Può"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "sa"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "possiamo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-modali-s1",
+  "title": "Konjugationstabelle",
+  "language": "it",
+  "level": "A1",
+  "description": "venire, sapere und die Modalverben · Konjugationstabelle (schwer).",
+  "topics": [
+   "venire, sapere und die Modalverben",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-modali",
+   "topicTitle": "venire, sapere und die Modalverben",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Ergänze die Formen.",
+    "explanation": "",
+    "columns": [
+     "Person",
+     "volere",
+     "potere",
+     "dovere"
+    ],
+    "rows": [
+     [
+      "io",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "voglio"
+       ]
+      },
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "posso"
+       ]
+      },
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "devo"
+       ]
+      }
+     ],
+     [
+      "lui / lei",
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "vuole"
+       ]
+      },
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "può"
+       ]
+      },
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "deve"
+       ]
+      }
+     ],
+     [
+      "noi",
+      {
+       "id": "c7",
+       "acceptedAnswers": [
+        "vogliamo"
+       ]
+      },
+      {
+       "id": "c8",
+       "acceptedAnswers": [
+        "possiamo"
+       ]
+      },
+      {
+       "id": "c9",
+       "acceptedAnswers": [
+        "dobbiamo"
+       ]
+      }
+     ],
+     [
+      "loro",
+      {
+       "id": "c10",
+       "acceptedAnswers": [
+        "vogliono"
+       ]
+      },
+      {
+       "id": "c11",
+       "acceptedAnswers": [
+        "possono"
+       ]
+      },
+      {
+       "id": "c12",
+       "acceptedAnswers": [
+        "devono"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-modali-s2",
+  "title": "Fehler finden",
+  "language": "it",
+  "level": "A1",
+  "description": "venire, sapere und die Modalverben · Fehler finden (schwer).",
+  "topics": [
+   "venire, sapere und die Modalverben",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-modali",
+   "topicTitle": "venire, sapere und die Modalverben",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Korrigiere die markierten Formen.",
+    "explanation": "",
+    "text": "Io non [[g1]] venire.\nTu [[g2]] un gelato?\nNoi [[g3]] fare i compiti.\nLoro [[g4]] alle otto.\nMia madre [[g5]] aiutarti.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "poto",
+      "acceptedAnswers": [
+       "posso"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "vole",
+      "acceptedAnswers": [
+       "vuoi"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "dovemo",
+      "acceptedAnswers": [
+       "dobbiamo"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "venono",
+      "acceptedAnswers": [
+       "vengono"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "puo",
+      "acceptedAnswers": [
+       "può"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-non-l1",
+  "title": "Wo steht non?",
+  "language": "it",
+  "level": "A1",
+  "description": "Die Verneinung mit non · Wo steht non? (einfach).",
+  "topics": [
+   "Die Verneinung mit non",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-non",
+   "topicTitle": "Die Verneinung mit non",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**non** steht **vor dem Verb**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nAntwort auf eine Frage: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)",
+   "order": 61
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "single_choice",
+    "prompt": "Welcher Satz ist richtig?",
+    "explanation": "",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Non abito a Roma."
+     },
+     {
+      "id": "o2",
+      "text": "Abito non a Roma."
+     },
+     {
+      "id": "o3",
+      "text": "Abito a Roma non."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q2",
+    "type": "single_choice",
+    "prompt": "Welcher Satz ist richtig?",
+    "explanation": "",
+    "options": [
+     {
+      "id": "o1",
+      "text": "Marco non è a scuola."
+     },
+     {
+      "id": "o2",
+      "text": "Non Marco è a scuola."
+     },
+     {
+      "id": "o3",
+      "text": "Marco è non a scuola."
+     }
+    ],
+    "correctOptionId": "o1"
+   },
+   {
+    "id": "q3",
+    "type": "single_choice",
+    "prompt": "Sei di Torino? – …",
+    "explanation": "",
+    "options": [
+     {
+      "id": "o1",
+      "text": "No, non sono di Torino."
+     },
+     {
+      "id": "o2",
+      "text": "Non, no sono di Torino."
+     },
+     {
+      "id": "o3",
+      "text": "No, sono non di Torino."
+     }
+    ],
+    "correctOptionId": "o1"
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-non-m1",
+  "title": "Sätze verneinen",
+  "language": "it",
+  "level": "A1",
+  "description": "Die Verneinung mit non · Sätze verneinen (mittel).",
+  "topics": [
+   "Die Verneinung mit non",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-non",
+   "topicTitle": "Die Verneinung mit non",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**non** steht **vor dem Verb**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nAntwort auf eine Frage: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)",
+   "order": 61
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Verneine die Sätze.",
+    "explanation": "",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Abito a Torino. → …",
+      "acceptedAnswers": [
+       "Non abito a Torino."
+      ]
+     },
+     {
+      "id": "s2",
+      "start": "Luca parla inglese. → …",
+      "acceptedAnswers": [
+       "Luca non parla inglese."
+      ]
+     },
+     {
+      "id": "s3",
+      "start": "Siamo di Milano. → …",
+      "acceptedAnswers": [
+       "Non siamo di Milano."
+      ]
+     },
+     {
+      "id": "s4",
+      "start": "Oggi sto bene. → …",
+      "acceptedAnswers": [
+       "Oggi non sto bene."
+      ]
+     },
+     {
+      "id": "s5",
+      "start": "Anna è a scuola. → …",
+      "acceptedAnswers": [
+       "Anna non è a scuola."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-non-s1",
+  "title": "Wörter ordnen",
+  "language": "it",
+  "level": "A1",
+  "description": "Die Verneinung mit non · Wörter ordnen (schwer).",
+  "topics": [
+   "Die Verneinung mit non",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-non",
+   "topicTitle": "Die Verneinung mit non",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**non** steht **vor dem Verb**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nAntwort auf eine Frage: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)",
+   "order": 61
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Bringe die Wörter in die richtige Reihenfolge: „Giulia wohnt nicht in Turin.“",
+    "explanation": "",
+    "items": [
+     {
+      "id": "i1",
+      "text": "Giulia"
+     },
+     {
+      "id": "i2",
+      "text": "non"
+     },
+     {
+      "id": "i3",
+      "text": "abita"
+     },
+     {
+      "id": "i4",
+      "text": "a"
+     },
+     {
+      "id": "i5",
+      "text": "Torino"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-orario-l1",
+  "title": "Che ore sono?",
+  "language": "it",
+  "level": "A1",
+  "description": "Uhrzeit und Wochentage · Che ore sono? (einfach).",
+  "topics": [
+   "Uhrzeit und Wochentage",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 3",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-orario",
+   "topicTitle": "Uhrzeit und Wochentage",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Welche Uhrzeit passt?",
+    "explanation": "",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "8.00",
+      "right": "Sono le otto."
+     },
+     {
+      "id": "p2",
+      "left": "1.00",
+      "right": "È l'una."
+     },
+     {
+      "id": "p3",
+      "left": "3.15",
+      "right": "Sono le tre e un quarto."
+     },
+     {
+      "id": "p4",
+      "left": "5.30",
+      "right": "Sono le cinque e mezza."
+     },
+     {
+      "id": "p5",
+      "left": "7.45",
+      "right": "Sono le otto meno un quarto."
+     },
+     {
+      "id": "p6",
+      "left": "12.00",
+      "right": "È mezzogiorno."
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-orario-l2",
+  "title": "alle oder all'?",
+  "language": "it",
+  "level": "A1",
+  "description": "Uhrzeit und Wochentage · alle oder all'? (einfach).",
+  "topics": [
+   "Uhrzeit und Wochentage",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 3",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-orario",
+   "topicTitle": "Uhrzeit und Wochentage",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag.",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle die richtige Form.",
+    "explanation": "all' nur vor una (l'una). Sonst alle: alle otto, alle due.",
+    "text": "La lezione comincia [[g1]] otto.\nMangio [[g2]] una.\nHo latino [[g3]] dieci [[g4]] undici.\nTorno a casa [[g5]] due.\nLa scuola finisce [[g6]] una e mezza.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "alle",
+       "all'",
+       "al"
+      ],
+      "answer": "alle"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "all'",
+       "alle",
+       "al"
+      ],
+      "answer": "all'"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "dalle",
+       "alle",
+       "all'"
+      ],
+      "answer": "dalle"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "alle",
+       "all'",
+       "dalle"
+      ],
+      "answer": "alle"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "alle",
+       "all'"
+      ],
+      "answer": "alle"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "all'",
+       "alle"
+      ],
+      "answer": "all'"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-orario-m1",
+  "title": "Il mio orario",
+  "language": "it",
+  "level": "A1",
+  "description": "Uhrzeit und Wochentage · Il mio orario (mittel).",
+  "topics": [
+   "Uhrzeit und Wochentage",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 3",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 5,
+  "grammar": {
+   "topic": "ecco1-orario",
+   "topicTitle": "Uhrzeit und Wochentage",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Ergänze die Uhrzeiten in Worten.",
+    "explanation": "Bei halb sind e mezza und e mezzo beide richtig.",
+    "text": "Il lunedì la scuola comincia (8.00) [[g1]].\nLa pausa è (10.30) [[g2]].\nHo matematica (11.00–12.00) dalle undici [[g3]].\nIl martedì finisco (13.00) [[g4]].",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "alle otto"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "alle dieci e mezza",
+       "alle dieci e mezzo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "alle dodici"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "all'una"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-orario-m2",
+  "title": "Die Woche",
+  "language": "it",
+  "level": "A1",
+  "description": "Uhrzeit und Wochentage · Die Woche (mittel).",
+  "topics": [
+   "Uhrzeit und Wochentage",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 3",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-orario",
+   "topicTitle": "Uhrzeit und Wochentage",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag.",
+   "order": 12
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "ordering",
+    "prompt": "Ordne die Wochentage.",
+    "explanation": "",
+    "items": [
+     {
+      "id": "i1",
+      "text": "lunedì"
+     },
+     {
+      "id": "i2",
+      "text": "martedì"
+     },
+     {
+      "id": "i3",
+      "text": "mercoledì"
+     },
+     {
+      "id": "i4",
+      "text": "giovedì"
+     },
+     {
+      "id": "i5",
+      "text": "venerdì"
+     },
+     {
+      "id": "i6",
+      "text": "sabato"
+     },
+     {
+      "id": "i7",
+      "text": "domenica"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-orario-s1",
+  "title": "Mein Stundenplan",
+  "language": "it",
+  "level": "A1",
+  "description": "Uhrzeit und Wochentage · Mein Stundenplan (schwer).",
+  "topics": [
+   "Uhrzeit und Wochentage",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 3",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-orario",
+   "topicTitle": "Uhrzeit und Wochentage",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Che ore sono?** – Wie spät ist es?\n- _È l'una._ · _Sono le due / le tre …_\n- _Sono le tre **e un quarto**_ (3.15) · _**e mezzo / mezza**_ (3.30) · _le quattro **meno un quarto**_ (3.45)\n- _Sono le tre e dieci_ (3.10) · _le quattro meno venti_ (3.40)\n- _È mezzogiorno_ (12 Uhr mittags) · _È mezzanotte_ (24 Uhr)\n\n**A che ora?** – Um wie viel Uhr?\n- _**all'**una_, _**alle** otto_, _**dalle** otto **alle** due_ (von … bis)\n\n**Wochentage** (ohne Großschreibung): lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica.\n_Il lunedì ho matematica._ = Montags (jeden Montag) · _Lunedì ho un'interrogazione._ = Am (nächsten) Montag.",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Beschreibe deinen Montag: Wann beginnt die Schule, welche Fächer hast du von wann bis wann, wann kommst du nach Hause?",
+    "explanation": "",
+    "modelAnswer": "Il lunedì la scuola comincia alle otto. Dalle otto alle nove e mezza ho matematica. Poi ho inglese. Torno a casa all'una e mezza.",
+    "lines": 5
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-prossimo-avere-l1",
+  "title": "Das Partizip",
+  "language": "it",
+  "level": "A1",
+  "description": "Das passato prossimo mit avere · Das Partizip (einfach).",
+  "topics": [
+   "Das passato prossimo mit avere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-avere",
+   "topicTitle": "Das passato prossimo mit avere",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_.",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Welches Partizip gehört zum Verb?",
+    "explanation": "",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "giocare",
+      "right": "giocato"
+     },
+     {
+      "id": "p2",
+      "left": "dormire",
+      "right": "dormito"
+     },
+     {
+      "id": "p3",
+      "left": "vendere",
+      "right": "venduto"
+     },
+     {
+      "id": "p4",
+      "left": "studiare",
+      "right": "studiato"
+     },
+     {
+      "id": "p5",
+      "left": "sentire",
+      "right": "sentito"
+     },
+     {
+      "id": "p6",
+      "left": "ascoltare",
+      "right": "ascoltato"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-prossimo-avere-l2",
+  "title": "Welche Form von avere?",
+  "language": "it",
+  "level": "A1",
+  "description": "Das passato prossimo mit avere · Welche Form von avere? (einfach).",
+  "topics": [
+   "Das passato prossimo mit avere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-avere",
+   "topicTitle": "Das passato prossimo mit avere",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_.",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle die richtige Form von avere.",
+    "explanation": "",
+    "text": "Ieri io [[g1]] studiato.\nTu [[g2]] giocato a calcio?\nMarco [[g3]] dormito fino alle dieci.\nNoi [[g4]] ascoltato un concerto.\nVoi [[g5]] mangiato la pizza?\nI ragazzi [[g6]] suonato la chitarra.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "ho",
+       "hai",
+       "ha"
+      ],
+      "answer": "ho"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "hai",
+       "ho",
+       "ha"
+      ],
+      "answer": "hai"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "ha",
+       "hanno",
+       "ho"
+      ],
+      "answer": "ha"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "abbiamo",
+       "avete",
+       "hanno"
+      ],
+      "answer": "abbiamo"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "avete",
+       "abbiamo",
+       "hai"
+      ],
+      "answer": "avete"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "hanno",
+       "ha",
+       "avete"
+      ],
+      "answer": "hanno"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-prossimo-avere-m1",
+  "title": "Sabato scorso",
+  "language": "it",
+  "level": "A1",
+  "description": "Das passato prossimo mit avere · Sabato scorso (mittel).",
+  "topics": [
+   "Das passato prossimo mit avere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-avere",
+   "topicTitle": "Das passato prossimo mit avere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_.",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Setze die Verben ins passato prossimo.",
+    "explanation": "",
+    "text": "Sabato scorso io (giocare) [[g1]] a pallavolo.\nPoi (mangiare) [[g2]] una pizza con Luca.\nLuca (suonare) [[g3]] il pianoforte.\nLa sera noi (guardare) [[g4]] un film.\nE voi? Che cosa (organizzare) [[g5]]?\nI miei genitori (dormire) [[g6]] tutto il giorno!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ho giocato"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "ho mangiato"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ha suonato"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "abbiamo guardato"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "avete organizzato"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "hanno dormito"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-prossimo-avere-m2",
+  "title": "Präsens oder passato prossimo?",
+  "language": "it",
+  "level": "A1",
+  "description": "Das passato prossimo mit avere · Präsens oder passato prossimo? (mittel).",
+  "topics": [
+   "Das passato prossimo mit avere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-avere",
+   "topicTitle": "Das passato prossimo mit avere",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_.",
+   "order": 32
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Achte auf die Signalwörter.",
+    "explanation": "",
+    "text": "Ieri [[g1]] a tennis.\nOggi [[g2]] matematica.\nL'anno scorso [[g3]] a sciare.\nAdesso [[g4]] la radio.\nSabato scorso Anna [[g5]] al concerto.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "ho giocato",
+       "gioco"
+      ],
+      "answer": "ho giocato"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "studio",
+       "ho studiato"
+      ],
+      "answer": "studio"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "ho imparato",
+       "imparo"
+      ],
+      "answer": "ho imparato"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "ascolto",
+       "ho ascoltato"
+      ],
+      "answer": "ascolto"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "ha cantato",
+       "canta"
+      ],
+      "answer": "ha cantato"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-prossimo-avere-s1",
+  "title": "Was hast du gemacht?",
+  "language": "it",
+  "level": "A1",
+  "description": "Das passato prossimo mit avere · Was hast du gemacht? (schwer).",
+  "topics": [
+   "Das passato prossimo mit avere",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-avere",
+   "topicTitle": "Das passato prossimo mit avere",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_.",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Was hast du letztes Wochenende gemacht? Schreibe 5 Sätze im passato prossimo mit avere.",
+    "explanation": "",
+    "modelAnswer": "Sabato ho dormito fino alle dieci. Poi ho giocato a calcio. Ho mangiato una pizza con i miei amici. Domenica ho studiato. La sera ho guardato un film.",
+    "lines": 5
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-prossimo-essere-l1",
+  "title": "avere oder essere?",
+  "language": "it",
+  "level": "A1",
+  "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · avere oder essere? (einfach).",
+  "topics": [
+   "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-essere",
+   "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "categorize",
+    "prompt": "Mit avere oder mit essere?",
+    "explanation": "",
+    "categories": [
+     {
+      "id": "av",
+      "label": "avere"
+     },
+     {
+      "id": "es",
+      "label": "essere"
+     }
+    ],
+    "items": [
+     {
+      "id": "i1",
+      "text": "giocare",
+      "category": "av"
+     },
+     {
+      "id": "i2",
+      "text": "andare",
+      "category": "es"
+     },
+     {
+      "id": "i3",
+      "text": "partire",
+      "category": "es"
+     },
+     {
+      "id": "i4",
+      "text": "mangiare",
+      "category": "av"
+     },
+     {
+      "id": "i5",
+      "text": "tornare",
+      "category": "es"
+     },
+     {
+      "id": "i6",
+      "text": "studiare",
+      "category": "av"
+     },
+     {
+      "id": "i7",
+      "text": "rimanere",
+      "category": "es"
+     },
+     {
+      "id": "i8",
+      "text": "vedere",
+      "category": "av"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-prossimo-essere-l2",
+  "title": "Das Partizip",
+  "language": "it",
+  "level": "A1",
+  "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Das Partizip (einfach).",
+  "topics": [
+   "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-essere",
+   "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Ordne das unregelmäßige Partizip zu.",
+    "explanation": "",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "fare",
+      "right": "fatto"
+     },
+     {
+      "id": "p2",
+      "left": "prendere",
+      "right": "preso"
+     },
+     {
+      "id": "p3",
+      "left": "vedere",
+      "right": "visto"
+     },
+     {
+      "id": "p4",
+      "left": "scrivere",
+      "right": "scritto"
+     },
+     {
+      "id": "p5",
+      "left": "rimanere",
+      "right": "rimasto"
+     },
+     {
+      "id": "p6",
+      "left": "perdere",
+      "right": "perso"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-prossimo-essere-m1",
+  "title": "Domenica bianca",
+  "language": "it",
+  "level": "A1",
+  "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Domenica bianca (mittel).",
+  "topics": [
+   "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-essere",
+   "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Setze die Verben ins passato prossimo.",
+    "explanation": "Mit essere passt sich das Partizip an: Luca è caduto, Giulia è rimasta, i ragazzi sono tornati.",
+    "text": "Domenica Luca (andare) [[g1]] in montagna.\nAnche Giulia (venire) [[g2]].\nNoi (prendere) [[g3]] il treno alle otto.\nSulla pista Luca (cadere) [[g4]] due volte.\nGiulia (rimanere) [[g5]] al bar.\nLa sera i ragazzi (tornare) [[g6]] a casa stanchi.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "è andato"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "è venuta"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "abbiamo preso"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "è caduto"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "è rimasta"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "sono tornati"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-prossimo-essere-m2",
+  "title": "Die richtige Endung",
+  "language": "it",
+  "level": "A1",
+  "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Die richtige Endung (mittel).",
+  "topics": [
+   "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-essere",
+   "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle die richtige Endung.",
+    "explanation": "",
+    "text": "Anna è [[g1]] al cinema.\nI ragazzi sono [[g2]] tardi.\nLe mie amiche sono [[g3]] ieri.\nMarco è [[g4]] con Paolo.\nSara e Lucia sono [[g5]] a casa.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "andata",
+       "andato",
+       "andati"
+      ],
+      "answer": "andata"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "arrivati",
+       "arrivato",
+       "arrivate"
+      ],
+      "answer": "arrivati"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "partite",
+       "partiti",
+       "partita"
+      ],
+      "answer": "partite"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "uscito",
+       "uscita",
+       "usciti"
+      ],
+      "answer": "uscito"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "tornate",
+       "tornati",
+       "tornata"
+      ],
+      "answer": "tornate"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-prossimo-essere-s1",
+  "title": "Fehler finden",
+  "language": "it",
+  "level": "A1",
+  "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Fehler finden (schwer).",
+  "topics": [
+   "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-essere",
+   "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Korrigiere die markierten Formen.",
+    "explanation": "",
+    "text": "Ieri Giulia [[g1]] a scuola a piedi.\nI ragazzi [[g2]] a calcio.\nLuca ha [[g3]] l'autobus.\nLe ragazze sono [[g4]] alle sei.\nAbbiamo [[g5]] un bel film.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "ha andata",
+      "acceptedAnswers": [
+       "è andata"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "sono giocato",
+      "acceptedAnswers": [
+       "hanno giocato"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "prenduto",
+      "acceptedAnswers": [
+       "preso"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "tornato",
+      "acceptedAnswers": [
+       "tornate"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "vedito",
+      "acceptedAnswers": [
+       "visto"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-passato-prossimo-essere-s2",
+  "title": "Ein Ausflug",
+  "language": "it",
+  "level": "A1",
+  "description": "Das passato prossimo mit essere, unregelmäßige Partizipien · Ein Ausflug (schwer).",
+  "topics": [
+   "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-passato-prossimo-essere",
+   "topicTitle": "Das passato prossimo mit essere, unregelmäßige Partizipien",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Mit **essere** bilden das passato prossimo vor allem Verben der **Bewegung** und **Veränderung** und **rimanere**, **stare**, **essere**:\n_andare, venire, arrivare, partire, tornare, uscire, entrare, cadere, rimanere, stare, essere_\nDas Partizip richtet sich dann nach dem **Subjekt** (wie ein Adjektiv):\n- _Marco è andat**o**._ · _Giulia è andat**a**._\n- _I ragazzi sono andat**i**._ · _Le ragazze sono andat**e**._\n\n**Unregelmäßige Partizipien:**\n| fare → fatto | prendere → preso | perdere → perso |\n| vedere → visto | rimanere → rimasto | decidere → deciso |\n| leggere → letto | scrivere → scritto | venire → venuto |\n| essere → stato | vincere → vinto | ridere → riso |",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Erzähle von einem Ausflug (Ferien, Schnee, Stadt). Benutze mindestens drei Verben mit essere und drei mit avere.",
+    "explanation": "",
+    "modelAnswer": "Sabato sono andata in montagna con mia sorella. Siamo partite alle sette. Abbiamo preso il treno. Ho sciato tutto il giorno e sono caduta due volte! Siamo tornate a casa la sera.",
+    "lines": 6
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-plurale-l1",
+  "title": "Welcher Plural-Artikel?",
+  "language": "it",
+  "level": "A1",
+  "description": "Der Plural: Artikel und Nomen · Welcher Plural-Artikel? (einfach).",
+  "topics": [
+   "Der Plural: Artikel und Nomen",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-plurale",
+   "topicTitle": "Der Plural: Artikel und Nomen",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Nomen:**\n| Singular | Plural | Beispiel |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù (betont) | bleibt | la città → le città |\n\n**Artikel:**\n| Singular | Plural |\n| il | i |\n| lo, l' (männlich) | gli |\n| la, l' (weiblich) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_",
+   "order": 81
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle den Artikel im Plural.",
+    "explanation": "",
+    "text": "[[g1]] negozi\n[[g2]] stadi\n[[g3]] piazze\n[[g4]] amici\n[[g5]] amiche\n[[g6]] ponti\n[[g7]] città\n[[g8]] zaini",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "i",
+       "gli",
+       "le"
+      ],
+      "answer": "i"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "gli",
+       "i",
+       "le"
+      ],
+      "answer": "gli"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "le",
+       "i",
+       "gli"
+      ],
+      "answer": "le"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "gli",
+       "le",
+       "i"
+      ],
+      "answer": "gli"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "le",
+       "gli",
+       "i"
+      ],
+      "answer": "le"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "i",
+       "le",
+       "gli"
+      ],
+      "answer": "i"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "le",
+       "i",
+       "gli"
+      ],
+      "answer": "le"
+     },
+     {
+      "id": "g8",
+      "options": [
+       "gli",
+       "i",
+       "le"
+      ],
+      "answer": "gli"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-plurale-l2",
+  "title": "Einzahl und Mehrzahl",
+  "language": "it",
+  "level": "A1",
+  "description": "Der Plural: Artikel und Nomen · Einzahl und Mehrzahl (einfach).",
+  "topics": [
+   "Der Plural: Artikel und Nomen",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-plurale",
+   "topicTitle": "Der Plural: Artikel und Nomen",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Nomen:**\n| Singular | Plural | Beispiel |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù (betont) | bleibt | la città → le città |\n\n**Artikel:**\n| Singular | Plural |\n| il | i |\n| lo, l' (männlich) | gli |\n| la, l' (weiblich) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_",
+   "order": 82
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Was gehört zusammen?",
+    "explanation": "",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "il negozio",
+      "right": "i negozi"
+     },
+     {
+      "id": "p2",
+      "left": "la partita",
+      "right": "le partite"
+     },
+     {
+      "id": "p3",
+      "left": "lo stadio",
+      "right": "gli stadi"
+     },
+     {
+      "id": "p4",
+      "left": "l'edificio",
+      "right": "gli edifici"
+     },
+     {
+      "id": "p5",
+      "left": "la città",
+      "right": "le città"
+     },
+     {
+      "id": "p6",
+      "left": "il palazzo",
+      "right": "i palazzi"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-plurale-m1",
+  "title": "Plural bilden",
+  "language": "it",
+  "level": "A1",
+  "description": "Der Plural: Artikel und Nomen · Plural bilden (mittel).",
+  "topics": [
+   "Der Plural: Artikel und Nomen",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-plurale",
+   "topicTitle": "Der Plural: Artikel und Nomen",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Nomen:**\n| Singular | Plural | Beispiel |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù (betont) | bleibt | la città → le città |\n\n**Artikel:**\n| Singular | Plural |\n| il | i |\n| lo, l' (männlich) | gli |\n| la, l' (weiblich) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_",
+   "order": 81
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Bilde den Plural mit Artikel.",
+    "explanation": "Fremdwörter (lo sport, il bar) und betonte Endungen (la città) ändern sich im Plural nicht.",
+    "columns": [
+     "Singular",
+     "Plural"
+    ],
+    "rows": [
+     [
+      "il campo",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "i campi"
+       ]
+      }
+     ],
+     [
+      "la bicicletta",
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "le biciclette"
+       ]
+      }
+     ],
+     [
+      "lo sport",
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "gli sport"
+       ]
+      }
+     ],
+     [
+      "l'attrazione",
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "le attrazioni"
+       ]
+      }
+     ],
+     [
+      "il quartiere",
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "i quartieri"
+       ]
+      }
+     ],
+     [
+      "la città",
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "le città"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-plurale-s1",
+  "title": "Im Quartier",
+  "language": "it",
+  "level": "A1",
+  "description": "Der Plural: Artikel und Nomen · Im Quartier (schwer).",
+  "topics": [
+   "Der Plural: Artikel und Nomen",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-plurale",
+   "topicTitle": "Der Plural: Artikel und Nomen",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Nomen:**\n| Singular | Plural | Beispiel |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù (betont) | bleibt | la città → le città |\n\n**Artikel:**\n| Singular | Plural |\n| il | i |\n| lo, l' (männlich) | gli |\n| la, l' (weiblich) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_",
+   "order": 81
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Setze die Wörter in den Plural.",
+    "explanation": "",
+    "text": "Nel quartiere ci sono molti (il negozio) [[g1]].\n(la piazza) [[g2]] sono belle.\n(lo stadio) [[g3]] di Torino sono grandi.\nCi sono anche due (il campo sportivo) [[g4]].\n(l'amica) [[g5]] di Giulia sono simpatiche.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "negozi"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Le piazze"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Gli stadi"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "campi sportivi"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Le amiche"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-plurale-s2",
+  "title": "Fehler finden",
+  "language": "it",
+  "level": "A1",
+  "description": "Der Plural: Artikel und Nomen · Fehler finden (schwer).",
+  "topics": [
+   "Der Plural: Artikel und Nomen",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-plurale",
+   "topicTitle": "Der Plural: Artikel und Nomen",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Nomen:**\n| Singular | Plural | Beispiel |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù (betont) | bleibt | la città → le città |\n\n**Artikel:**\n| Singular | Plural |\n| il | i |\n| lo, l' (männlich) | gli |\n| la, l' (weiblich) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_",
+   "order": 82
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Korrigiere die Pluralformen.",
+    "explanation": "",
+    "text": "[[g1]] stadi sono grandi.\nLe [[g2]] di Torino sono belle.\nCi sono molti [[g3]].\n[[g4]] amiche abitano qui.\nLe [[g5]] italiane sono antiche.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "I",
+      "acceptedAnswers": [
+       "Gli"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "piazza",
+      "acceptedAnswers": [
+       "piazze"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "negozie",
+      "acceptedAnswers": [
+       "negozi"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "Gli",
+      "acceptedAnswers": [
+       "Le"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "cittè",
+      "acceptedAnswers": [
+       "città"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-possessivi-1-l1",
+  "title": "mio, mia, miei, mie?",
+  "language": "it",
+  "level": "A1",
+  "description": "Possessivbegleiter (I) · mio, mia, miei, mie? (einfach).",
+  "topics": [
+   "Possessivbegleiter (I)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-possessivi-1",
+   "topicTitle": "Possessivbegleiter (I)",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Vor dem Possessivbegleiter steht im Italienischen meist der **Artikel**:\n| | männlich Sg. | weiblich Sg. | männlich Pl. | weiblich Pl. |\n| io | il mio | la mia | i miei | le mie |\n| tu | il tuo | la tua | i tuoi | le tue |\n| lui / lei | il suo | la sua | i suoi | le sue |\n| noi | il nostro | la nostra | i nostri | le nostre |\n| voi | il vostro | la vostra | i vostri | le vostre |\n| loro | il loro | la loro | i loro | le loro |\n\nDie Form richtet sich nach dem **Besitz**, nicht nach dem Besitzer: _Marco e **la sua** borsa_ (seine Tasche), _Giulia e **il suo** zaino_ (ihr Rucksack).",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle die richtige Form.",
+    "explanation": "",
+    "text": "[[g1]] zaino è nero.\n[[g2]] borsa è nuova.\n[[g3]] libri sono sul tavolo.\n[[g4]] riviste sono in camera.\n[[g5]] cellulare è qui.\n[[g6]] camera è grande.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Il mio",
+       "La mia",
+       "I miei"
+      ],
+      "answer": "Il mio"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "La mia",
+       "Il mio",
+       "Le mie"
+      ],
+      "answer": "La mia"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "I miei",
+       "Le mie",
+       "Il mio"
+      ],
+      "answer": "I miei"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Le mie",
+       "I miei",
+       "La mia"
+      ],
+      "answer": "Le mie"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "Il tuo",
+       "La tua",
+       "I tuoi"
+      ],
+      "answer": "Il tuo"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "La tua",
+       "Il tuo",
+       "Le tue"
+      ],
+      "answer": "La tua"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-possessivi-1-m1",
+  "title": "suo oder sua?",
+  "language": "it",
+  "level": "A1",
+  "description": "Possessivbegleiter (I) · suo oder sua? (mittel).",
+  "topics": [
+   "Possessivbegleiter (I)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-possessivi-1",
+   "topicTitle": "Possessivbegleiter (I)",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Vor dem Possessivbegleiter steht im Italienischen meist der **Artikel**:\n| | männlich Sg. | weiblich Sg. | männlich Pl. | weiblich Pl. |\n| io | il mio | la mia | i miei | le mie |\n| tu | il tuo | la tua | i tuoi | le tue |\n| lui / lei | il suo | la sua | i suoi | le sue |\n| noi | il nostro | la nostra | i nostri | le nostre |\n| voi | il vostro | la vostra | i vostri | le vostre |\n| loro | il loro | la loro | i loro | le loro |\n\nDie Form richtet sich nach dem **Besitz**, nicht nach dem Besitzer: _Marco e **la sua** borsa_ (seine Tasche), _Giulia e **il suo** zaino_ (ihr Rucksack).",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Achte auf das Nomen, nicht auf die Person.",
+    "explanation": "Wie im Französischen: suo/sua richtet sich nach dem Ding (la borsa → la sua), nicht nach Marco oder Giulia.",
+    "text": "Marco cerca [[g1]] borsa.\nGiulia cerca [[g2]] zaino.\nLuca mette in ordine [[g3]] camera.\nAnna ama [[g4]] gatto.\nFilippo ascolta [[g5]] canzoni preferite.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "la sua",
+       "il suo"
+      ],
+      "answer": "la sua"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "il suo",
+       "la sua"
+      ],
+      "answer": "il suo"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "la sua",
+       "il suo"
+      ],
+      "answer": "la sua"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "il suo",
+       "la sua"
+      ],
+      "answer": "il suo"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "le sue",
+       "i suoi"
+      ],
+      "answer": "le sue"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-possessivi-1-m2",
+  "title": "Das gehört uns",
+  "language": "it",
+  "level": "A1",
+  "description": "Possessivbegleiter (I) · Das gehört uns (mittel).",
+  "topics": [
+   "Possessivbegleiter (I)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-possessivi-1",
+   "topicTitle": "Possessivbegleiter (I)",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Vor dem Possessivbegleiter steht im Italienischen meist der **Artikel**:\n| | männlich Sg. | weiblich Sg. | männlich Pl. | weiblich Pl. |\n| io | il mio | la mia | i miei | le mie |\n| tu | il tuo | la tua | i tuoi | le tue |\n| lui / lei | il suo | la sua | i suoi | le sue |\n| noi | il nostro | la nostra | i nostri | le nostre |\n| voi | il vostro | la vostra | i vostri | le vostre |\n| loro | il loro | la loro | i loro | le loro |\n\nDie Form richtet sich nach dem **Besitz**, nicht nach dem Besitzer: _Marco e **la sua** borsa_ (seine Tasche), _Giulia e **il suo** zaino_ (ihr Rucksack).",
+   "order": 52
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Ergänze die Possessivbegleiter (mit Artikel).",
+    "explanation": "",
+    "text": "(noi) [[g1]] casa è vicino al centro.\n(voi) [[g2]] gatto è carino!\n(loro) [[g3]] camera è un caos.\n(io) [[g4]] vestiti sono nell'armadio.\n(tu) [[g5]] riviste sono sul divano.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "La nostra"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Il vostro"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "La loro"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "I miei"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Le tue"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-possessivi-1-s1",
+  "title": "Fehler finden",
+  "language": "it",
+  "level": "A1",
+  "description": "Possessivbegleiter (I) · Fehler finden (schwer).",
+  "topics": [
+   "Possessivbegleiter (I)",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-possessivi-1",
+   "topicTitle": "Possessivbegleiter (I)",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Vor dem Possessivbegleiter steht im Italienischen meist der **Artikel**:\n| | männlich Sg. | weiblich Sg. | männlich Pl. | weiblich Pl. |\n| io | il mio | la mia | i miei | le mie |\n| tu | il tuo | la tua | i tuoi | le tue |\n| lui / lei | il suo | la sua | i suoi | le sue |\n| noi | il nostro | la nostra | i nostri | le nostre |\n| voi | il vostro | la vostra | i vostri | le vostre |\n| loro | il loro | la loro | i loro | le loro |\n\nDie Form richtet sich nach dem **Besitz**, nicht nach dem Besitzer: _Marco e **la sua** borsa_ (seine Tasche), _Giulia e **il suo** zaino_ (ihr Rucksack).",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Korrigiere die markierten Formen.",
+    "explanation": "",
+    "text": "Giulia cerca [[g1]] zaino.\n[[g2]] libro è in cucina.\nRagazzi, dov'è [[g3]] classe?\n[[g4]] vestiti sono per terra.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "la sua",
+      "acceptedAnswers": [
+       "il suo"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "Mio",
+      "acceptedAnswers": [
+       "Il mio"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "la nostra",
+      "acceptedAnswers": [
+       "la vostra"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "Le mie",
+      "acceptedAnswers": [
+       "I miei"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-possessivi-2-l1",
+  "title": "Mit oder ohne Artikel?",
+  "language": "it",
+  "level": "A1",
+  "description": "Possessivbegleiter bei Verwandten · Mit oder ohne Artikel? (einfach).",
+  "topics": [
+   "Possessivbegleiter bei Verwandten",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 5",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-possessivi-2",
+   "topicTitle": "Possessivbegleiter bei Verwandten",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle die richtige Form.",
+    "explanation": "Verwandte im Singular ohne Artikel (mia madre). Plural, loro und famiglia mit Artikel.",
+    "text": "[[g1]] madre si chiama Anna.\n[[g2]] fratelli sono simpatici.\n[[g3]] padre è di Napoli.\n[[g4]] famiglia è grande.\n[[g5]] nonno ha ottant'anni.\n[[g6]] cugina abita a Roma.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Mia",
+       "La mia"
+      ],
+      "answer": "Mia"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "I miei",
+       "Miei"
+      ],
+      "answer": "I miei"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Suo",
+       "Il suo"
+      ],
+      "answer": "Suo"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "La mia",
+       "Mia"
+      ],
+      "answer": "La mia"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "Il loro",
+       "Loro"
+      ],
+      "answer": "Il loro"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Mia",
+       "La mia"
+      ],
+      "answer": "Mia"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-possessivi-2-m1",
+  "title": "Die Familie von Giulia",
+  "language": "it",
+  "level": "A1",
+  "description": "Possessivbegleiter bei Verwandten · Die Familie von Giulia (mittel).",
+  "topics": [
+   "Possessivbegleiter bei Verwandten",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 5",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-possessivi-2",
+   "topicTitle": "Possessivbegleiter bei Verwandten",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Ergänze die Possessivbegleiter (mit oder ohne Artikel).",
+    "explanation": "sua madre (Verwandte Singular), aber i suoi fratelli (Plural) und la sua famiglia.",
+    "text": "Giulia presenta (ihre) [[g1]] famiglia.\n(ihr) [[g2]] padre si chiama Paolo e (ihre) [[g3]] madre Laura.\n(ihre) [[g4]] fratelli sono gemelli.\n(ihr) [[g5]] nonno abita in campagna.\n(unsere) [[g6]] famiglia è piccola, dice Marco.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "la sua"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "Suo"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "sua"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "I suoi"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Suo"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "La nostra"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-possessivi-2-s1",
+  "title": "Fehler finden",
+  "language": "it",
+  "level": "A1",
+  "description": "Possessivbegleiter bei Verwandten · Fehler finden (schwer).",
+  "topics": [
+   "Possessivbegleiter bei Verwandten",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 5",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-possessivi-2",
+   "topicTitle": "Possessivbegleiter bei Verwandten",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_",
+   "order": 21
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Korrigiere die markierten Ausdrücke.",
+    "explanation": "",
+    "text": "[[g1]] sorella ha dieci anni.\n[[g2]] cugine abitano a Milano.\n[[g3]] padre è simpatico.\n[[g4]] famiglia è molto grande.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "La mia",
+      "acceptedAnswers": [
+       "Mia"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "Mie",
+      "acceptedAnswers": [
+       "Le mie"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "Loro",
+      "acceptedAnswers": [
+       "Il loro"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "Mia",
+      "acceptedAnswers": [
+       "La mia"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-possessivi-2-s2",
+  "title": "Meine Familie",
+  "language": "it",
+  "level": "A1",
+  "description": "Possessivbegleiter bei Verwandten · Meine Familie (schwer).",
+  "topics": [
+   "Possessivbegleiter bei Verwandten",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 5",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-possessivi-2",
+   "topicTitle": "Possessivbegleiter bei Verwandten",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_",
+   "order": 22
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Stell deine Familie vor (6 Sätze). Achte auf mio/mia mit und ohne Artikel.",
+    "explanation": "",
+    "modelAnswer": "La mia famiglia non è grande. Mia madre si chiama Sabine e mio padre Thomas. Ho un fratello. Mio fratello ha dieci anni. I miei nonni abitano a Monaco.",
+    "lines": 6
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pp-modali-l1",
+  "title": "avere oder essere?",
+  "language": "it",
+  "level": "A1",
+  "description": "Das passato prossimo der Modalverben · avere oder essere? (einfach).",
+  "topics": [
+   "Das passato prossimo der Modalverben",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 5",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 5,
+  "grammar": {
+   "topic": "ecco1-pp-modali",
+   "topicTitle": "Das passato prossimo der Modalverben",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nIm Alltag hört man auch: _Ho dovuto partire._ – In der Schule lernst du die Regel oben.",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Welches Hilfsverb passt?",
+    "explanation": "",
+    "text": "Ieri [[g1]] dovuto studiare.\nGiulia [[g2]] voluta partire presto.\nNon [[g3]] potuto comprare i biglietti.\nI ragazzi [[g4]] dovuti tornare a casa.\n[[g5]] voluto mangiare una pizza.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "ho",
+       "sono"
+      ],
+      "answer": "ho"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "è",
+       "ha"
+      ],
+      "answer": "è"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "abbiamo",
+       "siamo"
+      ],
+      "answer": "abbiamo"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "sono",
+       "hanno"
+      ],
+      "answer": "sono"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "Ho",
+       "Sono"
+      ],
+      "answer": "Ho"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pp-modali-m1",
+  "title": "Che pasticcio!",
+  "language": "it",
+  "level": "A1",
+  "description": "Das passato prossimo der Modalverben · Che pasticcio! (mittel).",
+  "topics": [
+   "Das passato prossimo der Modalverben",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 5",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 5,
+  "grammar": {
+   "topic": "ecco1-pp-modali",
+   "topicTitle": "Das passato prossimo der Modalverben",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nIm Alltag hört man auch: _Ho dovuto partire._ – In der Schule lernst du die Regel oben.",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Setze die Verben ins passato prossimo.",
+    "explanation": "partire → essere (siamo potuti partire); comprare, aspettare → avere.",
+    "text": "Ieri io (dovere) [[g1]] prendere l'autobus.\nIl treno era in ritardo e noi non (potere) [[g2]] partire.\nMia sorella (volere) [[g3]] comprare un biglietto nuovo.\nAlla fine (noi, dovere) [[g4]] aspettare due ore.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "ho dovuto"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "siamo potuti",
+       "siamo potute"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "ha voluto"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "abbiamo dovuto"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-pp-modali-s1",
+  "title": "Fehler finden",
+  "language": "it",
+  "level": "A1",
+  "description": "Das passato prossimo der Modalverben · Fehler finden (schwer).",
+  "topics": [
+   "Das passato prossimo der Modalverben",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 5",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 5,
+  "grammar": {
+   "topic": "ecco1-pp-modali",
+   "topicTitle": "Das passato prossimo der Modalverben",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nIm Alltag hört man auch: _Ho dovuto partire._ – In der Schule lernst du die Regel oben.",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Korrigiere die markierten Formen.",
+    "explanation": "",
+    "text": "Non [[g1]] potuto fare i compiti.\nMarta [[g2]] dovuta andare dal medico.\nI ragazzi hanno [[g3]] giocare.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "sono",
+      "acceptedAnswers": [
+       "ho"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "ha",
+      "acceptedAnswers": [
+       "è"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "voluti",
+      "acceptedAnswers": [
+       "voluto"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-preposizioni-articolate-l1",
+  "title": "Wo ist das?",
+  "language": "it",
+  "level": "A1",
+  "description": "Präpositionen mit Artikel · Wo ist das? (einfach).",
+  "topics": [
+   "Präpositionen mit Artikel",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-preposizioni-articolate",
+   "topicTitle": "Präpositionen mit Artikel",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel:\n| | il | lo | l' | la | i | gli | le |\n| a | al | allo | all' | alla | ai | agli | alle |\n| da | dal | dallo | dall' | dalla | dai | dagli | dalle |\n| di | del | dello | dell' | della | dei | degli | delle |\n| in | nel | nello | nell' | nella | nei | negli | nelle |\n| su | sul | sullo | sull' | sulla | sui | sugli | sulle |\n\n**con** und **per** verschmelzen nicht: _con il papà, per la mamma._",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle die richtige Form.",
+    "explanation": "su + il = sul, su + la = sulla, in + il = nel, in + l' = nell', su + lo = sullo.",
+    "text": "Il libro è [[g1]] tavolo.\nI vestiti sono [[g2]] armadio.\nLa borsa è [[g3]] sedia.\nLo zaino è [[g4]] corridoio.\nIl fon è [[g5]] vasca da bagno.\nLe riviste sono [[g6]] scaffale.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "sul",
+       "sulla",
+       "sui"
+      ],
+      "answer": "sul"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "nell'",
+       "nel",
+       "nella"
+      ],
+      "answer": "nell'"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "sulla",
+       "sul",
+       "sulle"
+      ],
+      "answer": "sulla"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "nel",
+       "nella",
+       "nello"
+      ],
+      "answer": "nel"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "nella",
+       "nel",
+       "nelle"
+      ],
+      "answer": "nella"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "sullo",
+       "sul",
+       "sulla"
+      ],
+      "answer": "sullo"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-preposizioni-articolate-m1",
+  "title": "Präposition + Artikel",
+  "language": "it",
+  "level": "A1",
+  "description": "Präpositionen mit Artikel · Präposition + Artikel (mittel).",
+  "topics": [
+   "Präpositionen mit Artikel",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-preposizioni-articolate",
+   "topicTitle": "Präpositionen mit Artikel",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel:\n| | il | lo | l' | la | i | gli | le |\n| a | al | allo | all' | alla | ai | agli | alle |\n| da | dal | dallo | dall' | dalla | dai | dagli | dalle |\n| di | del | dello | dell' | della | dei | degli | delle |\n| in | nel | nello | nell' | nella | nei | negli | nelle |\n| su | sul | sullo | sull' | sulla | sui | sugli | sulle |\n\n**con** und **per** verschmelzen nicht: _con il papà, per la mamma._",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Verbinde Präposition und Artikel.",
+    "explanation": "",
+    "columns": [
+     "Präposition + Artikel",
+     "Form"
+    ],
+    "rows": [
+     [
+      "in + il",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "nel"
+       ]
+      }
+     ],
+     [
+      "su + la",
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "sulla"
+       ]
+      }
+     ],
+     [
+      "di + il",
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "del"
+       ]
+      }
+     ],
+     [
+      "a + la",
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "alla"
+       ]
+      }
+     ],
+     [
+      "in + l'",
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "nell'"
+       ]
+      }
+     ],
+     [
+      "da + il",
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "dal"
+       ]
+      }
+     ],
+     [
+      "di + i",
+      {
+       "id": "c7",
+       "acceptedAnswers": [
+        "dei"
+       ]
+      }
+     ],
+     [
+      "su + lo",
+      {
+       "id": "c8",
+       "acceptedAnswers": [
+        "sullo"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-preposizioni-articolate-m2",
+  "title": "Die Wohnung von Filippo",
+  "language": "it",
+  "level": "A1",
+  "description": "Präpositionen mit Artikel · Die Wohnung von Filippo (mittel).",
+  "topics": [
+   "Präpositionen mit Artikel",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-preposizioni-articolate",
+   "topicTitle": "Präpositionen mit Artikel",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel:\n| | il | lo | l' | la | i | gli | le |\n| a | al | allo | all' | alla | ai | agli | alle |\n| da | dal | dallo | dall' | dalla | dai | dagli | dalle |\n| di | del | dello | dell' | della | dei | degli | delle |\n| in | nel | nello | nell' | nella | nei | negli | nelle |\n| su | sul | sullo | sull' | sulla | sui | sugli | sulle |\n\n**con** und **per** verschmelzen nicht: _con il papà, per la mamma._",
+   "order": 42
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Ergänze die Präposition mit Artikel.",
+    "explanation": "su + la = sulla, in + la = nella, di + il = del, in + lo = nello, a + il = al.",
+    "text": "Il computer è (su + la) [[g1]] scrivania.\nIl poster è (su + la) [[g2]] parete.\nIl pallone è (in + la) [[g3]] borsa da calcio.\nIl libro (di + il) [[g4]] cantante è (in + lo) [[g5]] zaino.\nAndiamo (a + il) [[g6]] mercato con la mamma.",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "sulla"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "sulla"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "nella"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "del"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "nello"
+      ]
+     },
+     {
+      "id": "g6",
+      "acceptedAnswers": [
+       "al"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-preposizioni-articolate-s1",
+  "title": "Fehler im Zimmer",
+  "language": "it",
+  "level": "A1",
+  "description": "Präpositionen mit Artikel · Fehler im Zimmer (schwer).",
+  "topics": [
+   "Präpositionen mit Artikel",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-preposizioni-articolate",
+   "topicTitle": "Präpositionen mit Artikel",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel:\n| | il | lo | l' | la | i | gli | le |\n| a | al | allo | all' | alla | ai | agli | alle |\n| da | dal | dallo | dall' | dalla | dai | dagli | dalle |\n| di | del | dello | dell' | della | dei | degli | delle |\n| in | nel | nello | nell' | nella | nei | negli | nelle |\n| su | sul | sullo | sull' | sulla | sui | sugli | sulle |\n\n**con** und **per** verschmelzen nicht: _con il papà, per la mamma._",
+   "order": 41
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Korrigiere die markierten Formen.",
+    "explanation": "",
+    "text": "Il gatto dorme [[g1]] letto, non sotto.\nI vestiti sono [[g2]] armadio.\nIl pallone è [[g3]] sedia.\nTorno [[g4]] mercato.\nLa foto [[g5]] cantante è bellissima.",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "nel",
+      "acceptedAnswers": [
+       "sul"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "nella",
+      "acceptedAnswers": [
+       "nell'"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "sul",
+      "acceptedAnswers": [
+       "sulla"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "dalla",
+      "acceptedAnswers": [
+       "dal"
+      ]
+     },
+     {
+      "id": "g5",
+      "wrong": "di il",
+      "acceptedAnswers": [
+       "del"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quando-perche-l1",
+  "title": "quando oder perché?",
+  "language": "it",
+  "level": "A1",
+  "description": "Nebensätze mit quando und perché · quando oder perché? (einfach).",
+  "topics": [
+   "Nebensätze mit quando und perché",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-quando-perche",
+   "topicTitle": "Nebensätze mit quando und perché",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt).",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle quando oder perché.",
+    "explanation": "",
+    "text": "[[g1]] nevica, vado sullo snowboard.\nStudio molto [[g2]] domani ho un compito in classe.\n[[g3]] sono stanco, ascolto musica.\nNon vengo [[g4]] devo studiare.\n[[g5]] ho tempo, leggo un libro.\nMi piace l'estate [[g6]] vado al mare.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Quando",
+       "Perché"
+      ],
+      "answer": "Quando"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "perché",
+       "quando"
+      ],
+      "answer": "perché"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Quando",
+       "Perché"
+      ],
+      "answer": "Quando"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "perché",
+       "quando"
+      ],
+      "answer": "perché"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "Quando",
+       "Perché"
+      ],
+      "answer": "Quando"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "perché",
+       "quando"
+      ],
+      "answer": "perché"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quando-perche-m1",
+  "title": "Satzhälften verbinden",
+  "language": "it",
+  "level": "A1",
+  "description": "Nebensätze mit quando und perché · Satzhälften verbinden (mittel).",
+  "topics": [
+   "Nebensätze mit quando und perché",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-quando-perche",
+   "topicTitle": "Nebensätze mit quando und perché",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt).",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Was passt zusammen?",
+    "explanation": "",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "Suono la chitarra",
+      "right": "quando ho tempo libero."
+     },
+     {
+      "id": "p2",
+      "left": "Vado in montagna",
+      "right": "perché mi piace sciare."
+     },
+     {
+      "id": "p3",
+      "left": "Resto a casa",
+      "right": "perché piove."
+     },
+     {
+      "id": "p4",
+      "left": "Ascolto musica",
+      "right": "quando faccio i compiti."
+     },
+     {
+      "id": "p5",
+      "left": "Non vado alla festa",
+      "right": "perché sono stanca."
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quando-perche-s1",
+  "title": "Warum?",
+  "language": "it",
+  "level": "A1",
+  "description": "Nebensätze mit quando und perché · Warum? (schwer).",
+  "topics": [
+   "Nebensätze mit quando und perché",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · Approccio.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 4",
+    "section": "Approccio"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-quando-perche",
+   "topicTitle": "Nebensätze mit quando und perché",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "- **quando** = wenn, als: _**Quando** ho tempo, suono la chitarra._\n- **perché** = weil: _Vado in montagna **perché** mi piace sciare._\n- **Perché?** = Warum? (Frage) → Antwort mit **perché** (weil).\n\nDie Wortstellung im Nebensatz bleibt wie im Hauptsatz (anders als im Deutschen!): _… perché **mi piace** la musica_ (… weil mir die Musik gefällt).",
+   "order": 11
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "open_answer",
+    "prompt": "Beantworte die Fragen mit perché. Achte auf die Wortstellung (wie im Hauptsatz).",
+    "explanation": "",
+    "modelAnswer": "Perché studi l'italiano? – Perché mi piace l'Italia.\nPerché resti a casa? – Perché devo studiare.\nPerché vai in montagna? – Perché amo la neve.",
+    "lines": 3
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quantita-l1",
+  "title": "Adverb oder Begleiter?",
+  "language": "it",
+  "level": "A1",
+  "description": "Mengenangaben: molto, poco, tanto, troppo · Adverb oder Begleiter? (einfach).",
+  "topics": [
+   "Mengenangaben: molto, poco, tanto, troppo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 5",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-quantita",
+   "topicTitle": "Mengenangaben: molto, poco, tanto, troppo",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Als Begleiter** (vor einem Nomen) passen sie sich an:\n| | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C'è **troppa** gente._",
+   "order": 61
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle die richtige Form.",
+    "explanation": "",
+    "text": "Ho [[g1]] amici.\nMi piace [[g2]] la musica.\nOggi ho [[g3]] tempo.\nCi sono [[g4]] persone in piazza.\nIl viaggio è [[g5]] bello.\nNella mia classe ci sono [[g6]] ragazzi.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "molti",
+       "molto",
+       "molte"
+      ],
+      "answer": "molti"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "molto",
+       "molta",
+       "molti"
+      ],
+      "answer": "molto"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "poco",
+       "poca",
+       "pochi"
+      ],
+      "answer": "poco"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "tante",
+       "tanto",
+       "tanti"
+      ],
+      "answer": "tante"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "molto",
+       "molta",
+       "molte"
+      ],
+      "answer": "molto"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "pochi",
+       "poco",
+       "poche"
+      ],
+      "answer": "pochi"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quantita-m1",
+  "title": "Ein Wochenende in Rom",
+  "language": "it",
+  "level": "A1",
+  "description": "Mengenangaben: molto, poco, tanto, troppo · Ein Wochenende in Rom (mittel).",
+  "topics": [
+   "Mengenangaben: molto, poco, tanto, troppo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 5",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-quantita",
+   "topicTitle": "Mengenangaben: molto, poco, tanto, troppo",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Als Begleiter** (vor einem Nomen) passen sie sich an:\n| | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C'è **troppa** gente._",
+   "order": 61
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Ergänze die richtige Form.",
+    "explanation": "Vor einem Nomen passt sich die Form an (tanti turisti, troppa gente). Beim Verb bleibt sie gleich (costa molto).",
+    "text": "A Roma ci sono (tanto) [[g1]] turisti.\nAbbiamo visto (molto) [[g2]] chiese.\nIl biglietto non costa (molto) [[g3]].\nPurtroppo abbiamo (poco) [[g4]] tempo.\nIn metro c'è (troppo) [[g5]] gente!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "tanti"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "molte"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "molto"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "poco"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "troppa"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-quantita-s1",
+  "title": "Fehler finden",
+  "language": "it",
+  "level": "A1",
+  "description": "Mengenangaben: molto, poco, tanto, troppo · Fehler finden (schwer).",
+  "topics": [
+   "Mengenangaben: molto, poco, tanto, troppo",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · B.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 5",
+    "section": "B"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-quantita",
+   "topicTitle": "Mengenangaben: molto, poco, tanto, troppo",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**:\n_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._\n**Als Begleiter** (vor einem Nomen) passen sie sich an:\n| | m. Sg. | w. Sg. | m. Pl. | w. Pl. |\n| molto | molto | molta | molti | molte |\n| poco | poco | poca | pochi | poche |\n| tanto | tanto | tanta | tanti | tante |\n| troppo | troppo | troppa | troppi | troppe |\n\n_Ho **molti** amici. Ho **poco** tempo. C'è **troppa** gente._",
+   "order": 61
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "error_correction",
+    "prompt": "Korrigiere die markierten Formen.",
+    "explanation": "",
+    "text": "Ho [[g1]] compiti.\nLaura è [[g2]] simpatica.\nC'è [[g3]] gente qui.\nMangio [[g4]].",
+    "errors": [
+     {
+      "id": "g1",
+      "wrong": "molto",
+      "acceptedAnswers": [
+       "molti"
+      ]
+     },
+     {
+      "id": "g2",
+      "wrong": "molta",
+      "acceptedAnswers": [
+       "molto"
+      ]
+     },
+     {
+      "id": "g3",
+      "wrong": "troppo",
+      "acceptedAnswers": [
+       "troppa"
+      ]
+     },
+     {
+      "id": "g4",
+      "wrong": "pochi",
+      "acceptedAnswers": [
+       "poco"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-questo-l1",
+  "title": "Welche Form?",
+  "language": "it",
+  "level": "A1",
+  "description": "questo, questa, questi, queste · Welche Form? (einfach).",
+  "topics": [
+   "questo, questa, questi, queste",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-questo",
+   "topicTitle": "questo, questa, questi, queste",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "**questo** (dieser, diese, dieses) richtet sich nach dem Nomen:\n| | Singular | Plural |\n| männlich | questo zaino | questi zaini |\n| weiblich | questa borsa | queste borse |\n\nVor Vokal oft: _quest'armadio, quest'idea_. Allein (ohne Nomen): _Questo è il mio zaino._",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Wähle die richtige Form von questo.",
+    "explanation": "",
+    "text": "[[g1]] zaino è pesante.\n[[g2]] borsa è della mamma.\n[[g3]] vestiti sono per terra.\n[[g4]] riviste sono vecchie.\n[[g5]] cucina è un caos!\n[[g6]] libri sono di Filippo.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Questo",
+       "Questa",
+       "Questi"
+      ],
+      "answer": "Questo"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "Questa",
+       "Questo",
+       "Queste"
+      ],
+      "answer": "Questa"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Questi",
+       "Queste",
+       "Questo"
+      ],
+      "answer": "Questi"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Queste",
+       "Questi",
+       "Questa"
+      ],
+      "answer": "Queste"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "Questa",
+       "Questo",
+       "Queste"
+      ],
+      "answer": "Questa"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Questi",
+       "Questo",
+       "Queste"
+      ],
+      "answer": "Questi"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-questo-m1",
+  "title": "Was ist das?",
+  "language": "it",
+  "level": "A1",
+  "description": "questo, questa, questi, queste · Was ist das? (mittel).",
+  "topics": [
+   "questo, questa, questi, queste",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 3,
+  "grammar": {
+   "topic": "ecco1-questo",
+   "topicTitle": "questo, questa, questi, queste",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "**questo** (dieser, diese, dieses) richtet sich nach dem Nomen:\n| | Singular | Plural |\n| männlich | questo zaino | questi zaini |\n| weiblich | questa borsa | queste borse |\n\nVor Vokal oft: _quest'armadio, quest'idea_. Allein (ohne Nomen): _Questo è il mio zaino._",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "table_fill",
+    "prompt": "Ergänze questo, questa, questi oder queste.",
+    "explanation": "",
+    "columns": [
+     "Nomen",
+     "mit questo"
+    ],
+    "rows": [
+     [
+      "lo zaino",
+      {
+       "id": "c1",
+       "acceptedAnswers": [
+        "questo zaino"
+       ]
+      }
+     ],
+     [
+      "la sedia",
+      {
+       "id": "c2",
+       "acceptedAnswers": [
+        "questa sedia"
+       ]
+      }
+     ],
+     [
+      "i vestiti",
+      {
+       "id": "c3",
+       "acceptedAnswers": [
+        "questi vestiti"
+       ]
+      }
+     ],
+     [
+      "le riviste",
+      {
+       "id": "c4",
+       "acceptedAnswers": [
+        "queste riviste"
+       ]
+      }
+     ],
+     [
+      "il tavolo",
+      {
+       "id": "c5",
+       "acceptedAnswers": [
+        "questo tavolo"
+       ]
+      }
+     ],
+     [
+      "le cose",
+      {
+       "id": "c6",
+       "acceptedAnswers": [
+        "queste cose"
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-questo-s1",
+  "title": "Chaos zu Hause",
+  "language": "it",
+  "level": "A1",
+  "description": "questo, questa, questi, queste · Chaos zu Hause (schwer).",
+  "topics": [
+   "questo, questa, questi, queste",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 2",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-questo",
+   "topicTitle": "questo, questa, questi, queste",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "**questo** (dieser, diese, dieses) richtet sich nach dem Nomen:\n| | Singular | Plural |\n| männlich | questo zaino | questi zaini |\n| weiblich | questa borsa | queste borse |\n\nVor Vokal oft: _quest'armadio, quest'idea_. Allein (ohne Nomen): _Questo è il mio zaino._",
+   "order": 31
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_fill",
+    "prompt": "Ergänze questo, questa, questi oder queste.",
+    "explanation": "Vor Vokal kann man questo zu quest' verkürzen: quest'asciugamano.",
+    "text": "Mamma mia, che disordine! Di chi è [[g1]] zaino?\nE [[g2]] borsa da calcio?\n[[g3]] vestiti sono per terra!\nE [[g4]] riviste? Sono sul divano.\n[[g5]] asciugamano è nel salotto!",
+    "gaps": [
+     {
+      "id": "g1",
+      "acceptedAnswers": [
+       "questo"
+      ]
+     },
+     {
+      "id": "g2",
+      "acceptedAnswers": [
+       "questa"
+      ]
+     },
+     {
+      "id": "g3",
+      "acceptedAnswers": [
+       "Questi"
+      ]
+     },
+     {
+      "id": "g4",
+      "acceptedAnswers": [
+       "queste"
+      ]
+     },
+     {
+      "id": "g5",
+      "acceptedAnswers": [
+       "Questo",
+       "Quest'"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-soggetto-l1",
+  "title": "Wer ist das?",
+  "language": "it",
+  "level": "A1",
+  "description": "Die Subjektpronomen · Wer ist das? (einfach).",
+  "topics": [
+   "Die Subjektpronomen",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-soggetto",
+   "topicTitle": "Die Subjektpronomen",
+   "difficulty": "leicht",
+   "origin": "own",
+   "rule": "| io | tu | lui / lei / Lei | noi | voi | loro |\n| ich | du | er / sie / Sie | wir | ihr | sie |\n\nIm Italienischen lässt man das Pronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._\n**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "matching",
+    "prompt": "Welches Pronomen passt?",
+    "explanation": "",
+    "pairs": [
+     {
+      "id": "p1",
+      "left": "abito",
+      "right": "io"
+     },
+     {
+      "id": "p2",
+      "left": "abiti",
+      "right": "tu"
+     },
+     {
+      "id": "p3",
+      "left": "abita",
+      "right": "lui / lei"
+     },
+     {
+      "id": "p4",
+      "left": "abitiamo",
+      "right": "noi"
+     },
+     {
+      "id": "p5",
+      "left": "abitate",
+      "right": "voi"
+     },
+     {
+      "id": "p6",
+      "left": "abitano",
+      "right": "loro"
+     }
+    ],
+    "distractors": []
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-soggetto-m1",
+  "title": "Pronomen einsetzen",
+  "language": "it",
+  "level": "A1",
+  "description": "Die Subjektpronomen · Pronomen einsetzen (mittel).",
+  "topics": [
+   "Die Subjektpronomen",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 7,
+  "grammar": {
+   "topic": "ecco1-soggetto",
+   "topicTitle": "Die Subjektpronomen",
+   "difficulty": "mittel",
+   "origin": "own",
+   "rule": "| io | tu | lui / lei / Lei | noi | voi | loro |\n| ich | du | er / sie / Sie | wir | ihr | sie |\n\nIm Italienischen lässt man das Pronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._\n**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "gap_choice",
+    "prompt": "Welches Subjektpronomen passt?",
+    "explanation": "",
+    "text": "[[g1]] sono di Torino, e [[g2]]?\n[[g3]] abitiamo in via Roma.\n[[g4]] parlate inglese?\nMarco? [[g5]] è il mio amico.\nGiulia? [[g6]] sta bene.\nAnna e Luca? [[g7]] sono a scuola.",
+    "gaps": [
+     {
+      "id": "g1",
+      "options": [
+       "Io",
+       "Tu",
+       "Lui"
+      ],
+      "answer": "Io"
+     },
+     {
+      "id": "g2",
+      "options": [
+       "tu",
+       "io",
+       "noi"
+      ],
+      "answer": "tu"
+     },
+     {
+      "id": "g3",
+      "options": [
+       "Noi",
+       "Voi",
+       "Loro"
+      ],
+      "answer": "Noi"
+     },
+     {
+      "id": "g4",
+      "options": [
+       "Voi",
+       "Noi",
+       "Loro"
+      ],
+      "answer": "Voi"
+     },
+     {
+      "id": "g5",
+      "options": [
+       "Lui",
+       "Lei",
+       "Io"
+      ],
+      "answer": "Lui"
+     },
+     {
+      "id": "g6",
+      "options": [
+       "Lei",
+       "Lui",
+       "Noi"
+      ],
+      "answer": "Lei"
+     },
+     {
+      "id": "g7",
+      "options": [
+       "Loro",
+       "Voi",
+       "Noi"
+      ],
+      "answer": "Loro"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "g-ecco1-soggetto-s1",
+  "title": "Gegensätze",
+  "language": "it",
+  "level": "A1",
+  "description": "Die Subjektpronomen · Gegensätze (schwer).",
+  "topics": [
+   "Die Subjektpronomen",
+   "Grammatik"
+  ],
+  "sources": [
+   {
+    "kind": "own",
+    "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+    "url": "",
+    "rights": "own"
+   }
+  ],
+  "reviewNotes": [],
+  "cover": "wave",
+  "catalog": {
+   "origin": "textbook",
+   "textbook": {
+    "publisher": "Cornelsen",
+    "series": "Ecco più",
+    "volume": "1",
+    "unit": "Unità 1",
+    "section": "A"
+   },
+   "grade": 8,
+   "foreignLanguageNo": 3,
+   "cefr": "A1",
+   "tags": [
+    "grammatik"
+   ]
+  },
+  "estimatedMinutes": 6,
+  "grammar": {
+   "topic": "ecco1-soggetto",
+   "topicTitle": "Die Subjektpronomen",
+   "difficulty": "schwer",
+   "origin": "own",
+   "rule": "| io | tu | lui / lei / Lei | noi | voi | loro |\n| ich | du | er / sie / Sie | wir | ihr | sie |\n\nIm Italienischen lässt man das Pronomen meist weg: _Abito a Torino._ Man benutzt es zur **Betonung** oder zum **Gegensatz**: _Io abito a Torino, lui abita a Milano._\n**Lei** (großgeschrieben) ist die Höflichkeitsform: _Come sta, Lei?_",
+   "order": 51
+  },
+  "vocabularyIds": [],
+  "questions": [
+   {
+    "id": "q1",
+    "type": "sentence_completion",
+    "prompt": "Ergänze mit Pronomen und Verb, wie im Beispiel: Io abito a Torino, lui … a Milano.",
+    "explanation": "",
+    "items": [
+     {
+      "id": "s1",
+      "start": "Io parlo italiano, tu … tedesco.",
+      "acceptedAnswers": [
+       "parli"
+      ],
+      "modelAnswer": "tu parli tedesco"
+     },
+     {
+      "id": "s2",
+      "start": "Noi abitiamo a Roma, voi … a Torino.",
+      "acceptedAnswers": [
+       "abitate"
+      ],
+      "modelAnswer": "voi abitate a Torino"
+     },
+     {
+      "id": "s3",
+      "start": "Lui sta bene, lei … male.",
+      "acceptedAnswers": [
+       "sta"
+      ],
+      "modelAnswer": "lei sta male"
+     },
+     {
+      "id": "s4",
+      "start": "Io sono di Torino, loro … di Napoli.",
+      "acceptedAnswers": [
+       "sono"
+      ],
+      "modelAnswer": "loro sono di Napoli"
+     }
+    ]
+   }
+  ]
  }
 ];

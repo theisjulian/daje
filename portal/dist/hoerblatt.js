@@ -175,7 +175,7 @@ function hbHTML(x, sol) {
   ${docFooter()}</div>`;
 }
 printTeaching = function (solutions) {
-  const x = contentList('listening').find(x => x.id === teacherLessonId);
+  const x = findTask(teacherLessonId);
   if (!x) return;
   hbOpt.solutions = !!solutions;
   docCurrent = { kind: 'listening', solutions: !!solutions };

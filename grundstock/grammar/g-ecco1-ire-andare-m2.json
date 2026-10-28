@@ -1,0 +1,92 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-ire-andare-m2",
+ "title": "Am Wochenende",
+ "language": "it",
+ "level": "A1",
+ "description": "Verben auf -ire und andare · Am Wochenende (mittel).",
+ "topics": [
+  "Verben auf -ire und andare",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-ire-andare",
+  "topicTitle": "Verben auf -ire und andare",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 62,
+  "rule": "**Verben auf -ire** (ohne Stammerweiterung):\n| Person | dormire | sentire |\n| io | dorm**o** | sent**o** |\n| tu | dorm**i** | sent**i** |\n| lui / lei | dorm**e** | sent**e** |\n| noi | dorm**iamo** | sent**iamo** |\n| voi | dorm**ite** | sent**ite** |\n| loro | dorm**ono** | sent**ono** |\n\nWie -ere, nur **voi -ite**.\n**andare** (gehen, fahren) ist unregelmäßig:\n| io | tu | lui / lei | noi | voi | loro |\n| vado | vai | va | andiamo | andate | vanno |\n\n_Vado a scuola. Andiamo al concerto._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Setze das Verb in der richtigen Form ein.",
+   "type": "gap_fill",
+   "text": "Il sabato io (dormire) [[g1]] fino alle dieci.\nPoi (andare) [[g2]] in centro con Luca.\nNoi (sentire) [[g3]] le canzoni nuove.\nVoi (dormire) [[g4]] molto?\nMia sorella (andare) [[g5]] in spiaggia.\nI miei amici (seguire) [[g6]] il loro cantante preferito online.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "dormo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "vado"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "sentiamo"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "dormite"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "va"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "seguono"
+     ]
+    }
+   ]
+  }
+ ]
+}

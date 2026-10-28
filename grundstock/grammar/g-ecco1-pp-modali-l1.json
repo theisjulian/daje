@@ -1,0 +1,96 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-pp-modali-l1",
+ "title": "avere oder essere?",
+ "language": "it",
+ "level": "A1",
+ "description": "Das passato prossimo der Modalverben · avere oder essere? (einfach).",
+ "topics": [
+  "Das passato prossimo der Modalverben",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 5,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-pp-modali",
+  "topicTitle": "Das passato prossimo der Modalverben",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 41,
+  "rule": "Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:\n- _Ho dovuto **studiare**._ (studiare → avere)\n- _Sono dovuto/-a **partire**._ (partire → essere)\n\nIm Alltag hört man auch: _Ho dovuto partire._ – In der Schule lernst du die Regel oben."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Welches Hilfsverb passt?",
+   "type": "gap_choice",
+   "text": "Ieri [[g1]] dovuto studiare.\nGiulia [[g2]] voluta partire presto.\nNon [[g3]] potuto comprare i biglietti.\nI ragazzi [[g4]] dovuti tornare a casa.\n[[g5]] voluto mangiare una pizza.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "ho",
+      "sono"
+     ],
+     "answer": "ho"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "è",
+      "ha"
+     ],
+     "answer": "è"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "abbiamo",
+      "siamo"
+     ],
+     "answer": "abbiamo"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "sono",
+      "hanno"
+     ],
+     "answer": "sono"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "Ho",
+      "Sono"
+     ],
+     "answer": "Ho"
+    }
+   ]
+  }
+ ]
+}

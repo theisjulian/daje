@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-artikel-sg-l2",
+ "title": "Männlich oder weiblich?",
+ "language": "it",
+ "level": "A1",
+ "description": "Der bestimmte Artikel im Singular · Männlich oder weiblich? (einfach).",
+ "topics": [
+  "Der bestimmte Artikel im Singular",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · Approccio.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "Approccio"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-artikel-sg",
+  "topicTitle": "Der bestimmte Artikel im Singular",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 12,
+  "rule": "Im Italienischen hat jedes Nomen ein Geschlecht: **männlich** (meist auf -o) oder **weiblich** (meist auf -a). Nomen auf -e können beides sein.\n\n| Artikel | wann? | Beispiel |\n| il | männlich, vor Konsonant | il fiume, il ponte |\n| lo | männlich, vor s + Konsonant, z, ps, gn, y | lo stadio, lo zaino |\n| la | weiblich, vor Konsonant | la piazza, la città |\n| l' | männlich und weiblich vor Vokal | l'amico, l'industria |\n\n**Tipp:** Lerne jedes Nomen mit Artikel: _la città_, _il parco_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ordne die Wörter: männlich oder weiblich?",
+   "explanation": "Den Artikel verrät das Geschlecht. Bei l' hilft die Endung: l'industria (-a) ist weiblich, l'amico (-o) männlich.",
+   "type": "categorize",
+   "categories": [
+    {
+     "id": "m",
+     "label": "männlich"
+    },
+    {
+     "id": "f",
+     "label": "weiblich"
+    }
+   ],
+   "items": [
+    {
+     "id": "i1",
+     "text": "il centro",
+     "category": "m"
+    },
+    {
+     "id": "i2",
+     "text": "la città",
+     "category": "f"
+    },
+    {
+     "id": "i3",
+     "text": "lo stadio",
+     "category": "m"
+    },
+    {
+     "id": "i4",
+     "text": "l'industria",
+     "category": "f"
+    },
+    {
+     "id": "i5",
+     "text": "il fiume",
+     "category": "m"
+    },
+    {
+     "id": "i6",
+     "text": "la piazza",
+     "category": "f"
+    },
+    {
+     "id": "i7",
+     "text": "l'amico",
+     "category": "m"
+    },
+    {
+     "id": "i8",
+     "text": "la via",
+     "category": "f"
+    }
+   ]
+  }
+ ],
+ "teacherNotes": {
+  "warmup": [
+   "Welche Wörter aus Torino kennst du schon? Sammelt sie mit Artikel an der Tafel."
+  ]
+ }
+}

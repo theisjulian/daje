@@ -1,0 +1,131 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-preposizioni-articolate-m1",
+ "title": "Präposition + Artikel",
+ "language": "it",
+ "level": "A1",
+ "description": "Präpositionen mit Artikel · Präposition + Artikel (mittel).",
+ "topics": [
+  "Präpositionen mit Artikel",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-preposizioni-articolate",
+  "topicTitle": "Präpositionen mit Artikel",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 41,
+  "rule": "Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel:\n| | il | lo | l' | la | i | gli | le |\n| a | al | allo | all' | alla | ai | agli | alle |\n| da | dal | dallo | dall' | dalla | dai | dagli | dalle |\n| di | del | dello | dell' | della | dei | degli | delle |\n| in | nel | nello | nell' | nella | nei | negli | nelle |\n| su | sul | sullo | sull' | sulla | sui | sugli | sulle |\n\n**con** und **per** verschmelzen nicht: _con il papà, per la mamma._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Verbinde Präposition und Artikel.",
+   "type": "table_fill",
+   "columns": [
+    "Präposition + Artikel",
+    "Form"
+   ],
+   "rows": [
+    [
+     "in + il",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "nel"
+      ]
+     }
+    ],
+    [
+     "su + la",
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "sulla"
+      ]
+     }
+    ],
+    [
+     "di + il",
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "del"
+      ]
+     }
+    ],
+    [
+     "a + la",
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "alla"
+      ]
+     }
+    ],
+    [
+     "in + l'",
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "nell'"
+      ]
+     }
+    ],
+    [
+     "da + il",
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "dal"
+      ]
+     }
+    ],
+    [
+     "di + i",
+     {
+      "id": "c7",
+      "acceptedAnswers": [
+       "dei"
+      ]
+     }
+    ],
+    [
+     "su + lo",
+     {
+      "id": "c8",
+      "acceptedAnswers": [
+       "sullo"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

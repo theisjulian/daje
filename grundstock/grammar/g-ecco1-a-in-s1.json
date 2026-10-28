@@ -1,0 +1,85 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-a-in-s1",
+ "title": "Fehler finden",
+ "language": "it",
+ "level": "A1",
+ "description": "Die Präpositionen a und in · Fehler finden (schwer).",
+ "topics": [
+  "Die Präpositionen a und in",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-a-in",
+  "topicTitle": "Die Präpositionen a und in",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 41,
+  "rule": "Bei Orten unterscheidet man:\n- **a** + Stadt: _abito a Torino, a Roma, a Berlino_\n- **in** + Land oder Region: _in Italia, in Germania, in Piemonte_\n- **in** + Straße, Platz: _in via Roma, in piazza_\n- **a** + bestimmte Orte ohne Artikel: _a scuola, a casa_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Korrigiere die falschen Präpositionen.",
+   "explanation": "Stadt → a, Land → in, Straße → in, a scuola.",
+   "type": "error_correction",
+   "text": "Abito [[g1]] Torino.\nMio cugino abita [[g2]] Francia.\nSono [[g3]] scuola.\nIl negozio è [[g4]] via Roma.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "in",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "a",
+     "acceptedAnswers": [
+      "in"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "in",
+     "acceptedAnswers": [
+      "a"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "a",
+     "acceptedAnswers": [
+      "in"
+     ]
+    }
+   ]
+  }
+ ]
+}

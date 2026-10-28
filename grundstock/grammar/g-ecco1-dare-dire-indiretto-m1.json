@@ -1,0 +1,111 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-dare-dire-indiretto-m1",
+ "title": "Wem?",
+ "language": "it",
+ "level": "A1",
+ "description": "dare, dire und das indirekte Objekt · Wem? (mittel).",
+ "topics": [
+  "dare, dire und das indirekte Objekt",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-dare-dire-indiretto",
+  "topicTitle": "dare, dire und das indirekte Objekt",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 41,
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle das passende Pronomen.",
+   "explanation": "gli = ihm (und ihnen), le = ihr, Le = Ihnen (höflich).",
+   "type": "gap_choice",
+   "text": "Luca mi scrive. → Io [[g1]] rispondo.\nSara mi telefona. → Io [[g2]] rispondo.\nRagazzi, [[g3]] do un consiglio.\nMamma, [[g4]] dico una cosa.\nLa prof [[g5]] restituisce le relazioni. (a noi)\nSignora, [[g6]] do il mio posto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "gli",
+      "le",
+      "vi"
+     ],
+     "answer": "gli"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "le",
+      "gli",
+      "ti"
+     ],
+     "answer": "le"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "vi",
+      "ci",
+      "gli"
+     ],
+     "answer": "vi"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "ti",
+      "mi",
+      "le"
+     ],
+     "answer": "ti"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "ci",
+      "vi",
+      "gli"
+     ],
+     "answer": "ci"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "Le",
+      "gli",
+      "ti"
+     ],
+     "answer": "Le"
+    }
+   ]
+  }
+ ]
+}

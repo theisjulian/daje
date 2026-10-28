@@ -1,0 +1,324 @@
+#!buch series=Ecco_più volume=1 grade=8 cefr=A1 prefix=ecco1 publisher=Cornelsen
+## Ecco più 1 · Unità 2 „Il mio mondo“ · Grammatikthemen laut Inhaltsverzeichnis (S. 26–39). Zahlen 1–100: Trainer „Zahlen, Uhrzeit, Datum“.
+
+@thema avere | Unità 2 | Approccio | Das Verb avere | 1
+#regel
+**avere** (haben) ist unregelmäßig. Das **h** spricht man nicht.
+| io | tu | lui / lei | noi | voi | loro |
+| ho | hai | ha | abbiamo | avete | hanno |
+
+Das Alter sagt man mit avere: _Quanti anni **hai**? – **Ho** quattordici anni._
+**Achtung:** _ha_ (er hat) ≠ _a_ (in, nach) · _hanno_ (sie haben) ≠ _anno_ (Jahr).
+
+%übung leicht | Welche Form von avere?
+?auswahl | Wähle die richtige Form.
+Io {ho*|hai|ha} un fratello.
+Tu {hai*|ha|ho} un gatto?
+Marco {ha*|a|hanno} quattordici anni.
+Noi {abbiamo*|avete|hanno} una casa grande.
+Voi {avete*|abbiamo|hai} il numero di Sara?
+I miei amici {hanno*|anno|ha} un cane.
+! ha und hanno schreibt man mit h. a ist eine Präposition, anno heißt Jahr.
+
+%übung leicht | Quanti anni hai?
+?zuordnen | Was passt zusammen?
+Quanti anni hai? = Ho tredici anni.
+Quanti anni ha Luca? = Ha quindici anni.
+Quanti anni avete? = Abbiamo dodici anni.
+Quanti anni hanno i gemelli? = Hanno dieci anni.
+
+%übung mittel | Ein Steckbrief
+?luecke | Ergänze die Formen von avere.
+Mi chiamo Giulia e [ho] quattordici anni.
+Mia sorella [ha] diciassette anni.
+Noi [abbiamo] un gatto, si chiama Pippo.
+I miei nonni [hanno] una casa al mare.
+E tu? Quanti anni [hai]?
+Voi [avete] fratelli?
+
+%übung schwer | ha oder a, hanno oder anno?
+?auswahl | Achte auf die Schreibung.
+Luca {ha*|a} un cellulare nuovo.
+Abito {a*|ha} Torino.
+I ragazzi {hanno*|anno} il compito di storia.
+Quest'{anno*|hanno} studio il tedesco.
+Sara {ha*|a} tredici anni.
+Vado {a*|ha} scuola in bici.
+! Verb mit h: ha, hanno. Ohne h: a (Präposition), anno (Jahr).
+
+%übung schwer | Über dich
+?frei | Schreibe 4 Sätze mit avere über dich und deine Familie (Alter, Geschwister, Haustiere …).
+Ho tredici anni. Ho una sorella. Mia sorella ha dieci anni. Abbiamo un cane.
+Zeilen: 4
+
+@thema mi-piace | Unità 2 | Approccio | (non) mi piace / mi piacciono | 2
+#regel
+- **mi piace** + Singular oder Verb im Infinitiv: _Mi piace la musica. Mi piace ballare._
+- **mi piacciono** + Plural: _Mi piacciono le canzoni italiane._
+- Verneinung: _**Non** mi piace il calcio._
+- Frage: _Ti piace la storia? – Sì, mi piace. / No, non mi piace._
+
+Wörtlich: „Mir gefällt …“. Was gefällt, bestimmt die Form: eine Sache → piace, mehrere → piacciono.
+
+%übung leicht | piace oder piacciono?
+?auswahl | Wähle piace oder piacciono.
+Mi {piace*|piacciono} la musica.
+Mi {piacciono*|piace} i videogiochi.
+Non mi {piace*|piacciono} il calcio.
+Ti {piacciono*|piace} le canzoni di Laura Pausini?
+Mi {piace*|piacciono} ballare.
+Non mi {piacciono*|piace} i compiti.
+! Ein Ding oder ein Verb → piace. Mehrere Dinge (Plural) → piacciono.
+
+%übung mittel | Was gefällt dir?
+?sortieren | Sortiere: mi piace oder mi piacciono?
+Kategorien: s=mi piace; p=mi piacciono
+la storia > s
+i libri > p
+lo sport > s
+le vacanze > p
+cantare > s
+gli animali > p
+la danza > s
+le materie scientifiche > p
+
+%übung mittel | Ein Interview
+?luecke wortkasten | Ergänze mit piace oder piacciono.
+– Ti [piace] la scuola?
+– Sì, mi [piace] molto. Mi [piacciono] soprattutto le lezioni di storia.
+– E la filosofia?
+– No, non mi [piace]. E non mi [piacciono] i compiti!
+
+%übung schwer | Mi piace – non mi piace
+?frei | Was magst du, was nicht? Schreibe je zwei Sätze mit mi piace, mi piacciono, non mi piace, non mi piacciono.
+Mi piace la musica. Mi piace ballare. Mi piacciono i film italiani. Mi piacciono gli animali. Non mi piace il calcio. Non mi piacciono i compiti.
+Zeilen: 6
+
+@thema questo | Unità 2 | A | questo, questa, questi, queste | 3
+#regel
+**questo** (dieser, diese, dieses) richtet sich nach dem Nomen:
+| | Singular | Plural |
+| männlich | questo zaino | questi zaini |
+| weiblich | questa borsa | queste borse |
+
+Vor Vokal oft: _quest'armadio, quest'idea_. Allein (ohne Nomen): _Questo è il mio zaino._
+
+%übung leicht | Welche Form?
+?auswahl | Wähle die richtige Form von questo.
+{Questo*|Questa|Questi} zaino è pesante.
+{Questa*|Questo|Queste} borsa è della mamma.
+{Questi*|Queste|Questo} vestiti sono per terra.
+{Queste*|Questi|Questa} riviste sono vecchie.
+{Questa*|Questo|Queste} cucina è un caos!
+{Questi*|Questo|Queste} libri sono di Filippo.
+
+%übung mittel | Was ist das?
+?tabelle | Ergänze questo, questa, questi oder queste.
+Spalten: Nomen | mit questo
+lo zaino | [questo zaino]
+la sedia | [questa sedia]
+i vestiti | [questi vestiti]
+le riviste | [queste riviste]
+il tavolo | [questo tavolo]
+le cose | [queste cose]
+
+%übung schwer | Chaos zu Hause
+?luecke | Ergänze questo, questa, questi oder queste.
+Mamma mia, che disordine! Di chi è [questo] zaino?
+E [questa] borsa da calcio?
+[Questi] vestiti sono per terra!
+E [queste] riviste? Sono sul divano.
+[Questo/Quest'] asciugamano è nel salotto!
+! Vor Vokal kann man questo zu quest' verkürzen: quest'asciugamano.
+
+@thema preposizioni-articolate | Unità 2 | A | Präpositionen mit Artikel | 4
+#regel
+Die Präpositionen **a, da, di, in, su** verschmelzen mit dem bestimmten Artikel:
+| | il | lo | l' | la | i | gli | le |
+| a | al | allo | all' | alla | ai | agli | alle |
+| da | dal | dallo | dall' | dalla | dai | dagli | dalle |
+| di | del | dello | dell' | della | dei | degli | delle |
+| in | nel | nello | nell' | nella | nei | negli | nelle |
+| su | sul | sullo | sull' | sulla | sui | sugli | sulle |
+
+**con** und **per** verschmelzen nicht: _con il papà, per la mamma._
+
+%übung leicht | Wo ist das?
+?auswahl | Wähle die richtige Form.
+Il libro è {sul*|sulla|sui} tavolo.
+I vestiti sono {nell'*|nel|nella} armadio.
+La borsa è {sulla*|sul|sulle} sedia.
+Lo zaino è {nel*|nella|nello} corridoio.
+Il fon è {nella*|nel|nelle} vasca da bagno.
+Le riviste sono {sullo*|sul|sulla} scaffale.
+! su + il = sul, su + la = sulla, in + il = nel, in + l' = nell', su + lo = sullo.
+
+%übung mittel | Präposition + Artikel
+?tabelle | Verbinde Präposition und Artikel.
+Spalten: Präposition + Artikel | Form
+in + il | [nel]
+su + la | [sulla]
+di + il | [del]
+a + la | [alla]
+in + l' | [nell']
+da + il | [dal]
+di + i | [dei]
+su + lo | [sullo]
+
+%übung mittel | Die Wohnung von Filippo
+?luecke | Ergänze die Präposition mit Artikel.
+Il computer è (su + la) [sulla] scrivania.
+Il poster è (su + la) [sulla] parete.
+Il pallone è (in + la) [nella] borsa da calcio.
+Il libro (di + il) [del] cantante è (in + lo) [nello] zaino.
+Andiamo (a + il) [al] mercato con la mamma.
+! su + la = sulla, in + la = nella, di + il = del, in + lo = nello, a + il = al.
+
+%übung schwer | Fehler im Zimmer
+?fehler | Korrigiere die markierten Formen.
+Il gatto dorme [nel=>sul] letto, non sotto.
+I vestiti sono [nella=>nell'] armadio.
+Il pallone è [sul=>sulla] sedia.
+Torno [dalla=>dal] mercato.
+La foto [di il=>del] cantante è bellissima.
+
+@thema possessivi-1 | Unità 2 | A | Possessivbegleiter (I) | 5
+#regel
+Vor dem Possessivbegleiter steht im Italienischen meist der **Artikel**:
+| | männlich Sg. | weiblich Sg. | männlich Pl. | weiblich Pl. |
+| io | il mio | la mia | i miei | le mie |
+| tu | il tuo | la tua | i tuoi | le tue |
+| lui / lei | il suo | la sua | i suoi | le sue |
+| noi | il nostro | la nostra | i nostri | le nostre |
+| voi | il vostro | la vostra | i vostri | le vostre |
+| loro | il loro | la loro | i loro | le loro |
+
+Die Form richtet sich nach dem **Besitz**, nicht nach dem Besitzer: _Marco e **la sua** borsa_ (seine Tasche), _Giulia e **il suo** zaino_ (ihr Rucksack).
+
+%übung leicht | mio, mia, miei, mie?
+?auswahl | Wähle die richtige Form.
+{Il mio*|La mia|I miei} zaino è nero.
+{La mia*|Il mio|Le mie} borsa è nuova.
+{I miei*|Le mie|Il mio} libri sono sul tavolo.
+{Le mie*|I miei|La mia} riviste sono in camera.
+{Il tuo*|La tua|I tuoi} cellulare è qui.
+{La tua*|Il tuo|Le tue} camera è grande.
+
+%übung mittel | suo oder sua?
+?auswahl | Achte auf das Nomen, nicht auf die Person.
+Marco cerca {la sua*|il suo} borsa.
+Giulia cerca {il suo*|la sua} zaino.
+Luca mette in ordine {la sua*|il suo} camera.
+Anna ama {il suo*|la sua} gatto.
+Filippo ascolta {le sue*|i suoi} canzoni preferite.
+! Wie im Französischen: suo/sua richtet sich nach dem Ding (la borsa → la sua), nicht nach Marco oder Giulia.
+
+%übung mittel | Das gehört uns
+?luecke | Ergänze die Possessivbegleiter (mit Artikel).
+(noi) [La nostra] casa è vicino al centro.
+(voi) [Il vostro] gatto è carino!
+(loro) [La loro] camera è un caos.
+(io) [I miei] vestiti sono nell'armadio.
+(tu) [Le tue] riviste sono sul divano.
+
+%übung schwer | Fehler finden
+?fehler | Korrigiere die markierten Formen.
+Giulia cerca [la sua=>il suo] zaino.
+[Mio=>Il mio] libro è in cucina.
+Ragazzi, dov'è [la nostra=>la vostra] classe?
+[Le mie=>I miei] vestiti sono per terra.
+
+@thema ire-andare | Unità 2 | B | Verben auf -ire und andare | 6
+#regel
+**Verben auf -ire** (ohne Stammerweiterung):
+| Person | dormire | sentire |
+| io | dorm**o** | sent**o** |
+| tu | dorm**i** | sent**i** |
+| lui / lei | dorm**e** | sent**e** |
+| noi | dorm**iamo** | sent**iamo** |
+| voi | dorm**ite** | sent**ite** |
+| loro | dorm**ono** | sent**ono** |
+
+Wie -ere, nur **voi -ite**.
+**andare** (gehen, fahren) ist unregelmäßig:
+| io | tu | lui / lei | noi | voi | loro |
+| vado | vai | va | andiamo | andate | vanno |
+
+_Vado a scuola. Andiamo al concerto._
+
+%übung leicht | dormire, sentire, andare
+?auswahl | Wähle die richtige Form.
+Io {dormo*|dorme|dormi} poco.
+Tu {senti*|sento|sente} la canzone?
+Filippo {dorme*|dormi|dormono} nella sua camera.
+Io {vado*|va|andiamo} a scuola in bici.
+Noi {andiamo*|andate|vanno} al concerto.
+I ragazzi {vanno*|va|andiamo} in spiaggia.
+
+%übung mittel | andare
+?tabelle | Ergänze die Formen von andare.
+Spalten: Person | andare
+io | [vado]
+tu | [vai]
+lui / lei | [va]
+noi | [andiamo]
+voi | [andate]
+loro | [vanno]
+
+%übung mittel | Am Wochenende
+?luecke | Setze das Verb in der richtigen Form ein.
+Il sabato io (dormire) [dormo] fino alle dieci.
+Poi (andare) [vado] in centro con Luca.
+Noi (sentire) [sentiamo] le canzoni nuove.
+Voi (dormire) [dormite] molto?
+Mia sorella (andare) [va] in spiaggia.
+I miei amici (seguire) [seguono] il loro cantante preferito online.
+
+%übung schwer | Fehler finden
+?fehler | Korrigiere die Verbformen.
+Voi [dormete=>dormite] tanto!
+Io [ando=>vado] a scuola a piedi.
+Noi [vanno=>andiamo] al cinema.
+Luca [senta=>sente] la musica.
+Tu [va=>vai] al concerto?
+
+@thema aggettivi | Unità 2 | B | Adjektive und ihre Stellung | 7
+#regel
+Adjektive richten sich nach dem Nomen (Geschlecht und Zahl):
+| Typ | m. Sg. | w. Sg. | m. Pl. | w. Pl. |
+| -o/-a | nuovo | nuova | nuovi | nuove |
+| -e | grande | grande | grandi | grandi |
+
+**Stellung:** meist **nach** dem Nomen: _un libro **interessante**, una camera **grande**._ Einige kurze, häufige Adjektive stehen oft davor: _un **bel** posto, un **piccolo** problema, una **vecchia** foto._
+**Achtung:** _bello_ vor dem Nomen verändert sich wie der Artikel: _un bel gatto, un bello zaino, i bei libri._
+
+%übung leicht | Welche Endung?
+?auswahl | Wähle die passende Form.
+Una camera {grande*|grandi|granda}.
+Un computer {nuovo*|nuova|nuovi}.
+Le foto {vecchie*|vecchia|vecchi}.
+I libri {interessanti*|interessante|interessanta}.
+Una spiaggia {bellissima*|bellissimo|bellissime}.
+Due poster {piccoli*|piccolo|piccole}.
+! Adjektive auf -e haben nur zwei Formen: grande (Sg.) und grandi (Pl.).
+
+%übung mittel | Mein Zimmer
+?luecke | Ergänze die Adjektive in der richtigen Form.
+La mia camera è (piccolo) [piccola], ma è (bello) [bella].
+Il letto è (nuovo) [nuovo] e la scrivania è (grande) [grande].
+Sulla parete ci sono due poster (vecchio) [vecchi].
+Ho anche tante foto (bellissimo) [bellissime] della vacanza.
+I miei videogiochi sono (nuovo) [nuovi].
+
+%übung schwer | Wörter ordnen
+?ordnen | Bringe die Wörter in die richtige Reihenfolge: „Filippo hat einen neuen Computer.“
+Filippo
+ha
+un
+computer
+nuovo
+
+%übung schwer | Beschreibe dein Zimmer
+?frei | Beschreibe dein Zimmer mit mindestens fünf Adjektiven (grande, piccolo, nuovo, vecchio, bello, moderno …).
+La mia camera è piccola ma bella. Ho un letto nuovo e una scrivania grande. Sulla parete ci sono due poster vecchi.
+Zeilen: 5

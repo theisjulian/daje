@@ -45,6 +45,8 @@ function contentList(kind) {
           ...[...LISTENING_SEEDS, ...LISTENING_REVIEW_SEEDS].map(withExtra),
           ...STOCK_PACKAGES.filter(x => x.kind === 'listening')
         ]
+      : kind === 'grammar'
+        ? STOCK_PACKAGES.filter(x => x.kind === 'grammar' && x.grammar?.origin !== 'original')
       : kind === 'vocabulary'
         ? [
             ...contentList('listening')
@@ -102,9 +104,13 @@ function workingLessonNotice(x) {
         '</div>'
     : '';
 }
+/* Übung mit Aufgaben (Hörübung oder Grammatikübung) nach ID. */
+function findTask(id) {
+  return contentList('listening').find(x => x.id === id) || contentList('grammar').find(x => x.id === id);
+}
 function currentLesson() {
   return (
-    contentList('listening').find(x => x.id === openedListening) ||
+    findTask(openedListening) ||
     editorState.items.find(x => x.payload?.id === openedListening)?.payload
   );
 }
@@ -270,11 +276,11 @@ function listeningFormatGuide() {
 function openListening(id, preview = false) {
   stopListening();
   const x =
-    contentList('listening').find(x => x.id === id) ||
+    findTask(id) ||
     (preview ? editorState.items.find(x => x.payload?.id === id)?.payload : null);
   if (!x) {
     nav('hoeren');
-    return toast('Diese Hörübung ist hier nicht verfügbar.');
+    return toast('Diese Übung ist hier nicht verfügbar.');
   }
   openedListening = id;
   view = 'hoeruebung';
@@ -288,7 +294,7 @@ function openListening(id, preview = false) {
       ].slice(0, 60);
     persistPortal();
   }
-  markPortalNav('hoeren');
+  markPortalNav(x.kind === 'grammar' ? 'grammatik' : 'hoeren');
   renderListening(preview);
   window.scrollTo({ top: 0, behavior: 'instant' });
 }
@@ -437,7 +443,7 @@ function portalProgressSummary() {
   return `<section class="panel glass portal-spacing"><div class="eyebrow">HÖRVERSTEHEN</div><h2>${checked.length} Hörübungen geprüft.</h2><p class="small muted">Ergebnisse zeigen erkannte Antworten dieser Aufgaben. Sie messen keine GER-Stufe. Ein geöffnetes Transkript wird als Hilfestellung vermerkt.</p><div class="listening-results">${
     checked
       .map(([id, s]) => {
-        const x = contentList('listening').find(x => x.id === id);
+        const x = findTask(id);
         return x
           ? `<div><button class="quiet" data-lesson="${id}">${esc(x.title)}</button><span>${s.lastResult.correct} / ${s.lastResult.total}${s.lastResult.assisted ? ' · mit Transkript' : ''}</span></div>`
           : '';
@@ -836,7 +842,7 @@ function teacherWelcomeHTML() {
 }
 function showTeaching(id) {
   stopListening();
-  const x = contentList('listening').find(x => x.id === id);
+  const x = findTask(id);
   if (!x) return;
   teacherLessonId = id;
   const pp = portalProfile();
@@ -859,7 +865,7 @@ function showTeaching(id) {
   dialog.showModal();
 }
 function printTeaching(solutions) {
-  const x = contentList('listening').find(x => x.id === teacherLessonId);
+  const x = findTask(teacherLessonId);
   if (!x) return;
   let sheet = $('teaching-print');
   if (!sheet) {

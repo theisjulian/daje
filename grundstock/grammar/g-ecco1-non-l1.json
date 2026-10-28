@@ -1,0 +1,108 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-non-l1",
+ "title": "Wo steht non?",
+ "language": "it",
+ "level": "A1",
+ "description": "Die Verneinung mit non · Wo steht non? (einfach).",
+ "topics": [
+  "Die Verneinung mit non",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-non",
+  "topicTitle": "Die Verneinung mit non",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 61,
+  "rule": "**non** steht **vor dem Verb**:\n- _Abito a Torino._ → _**Non** abito a Torino._\n- _Luca è di Milano._ → _Luca **non** è di Milano._\n\nAntwort auf eine Frage: _Sei di Roma? – **No, non** sono di Roma._ (no = nein, non = nicht)"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Non abito a Roma."
+    },
+    {
+     "id": "o2",
+     "text": "Abito non a Roma."
+    },
+    {
+     "id": "o3",
+     "text": "Abito a Roma non."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q2",
+   "prompt": "Welcher Satz ist richtig?",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "Marco non è a scuola."
+    },
+    {
+     "id": "o2",
+     "text": "Non Marco è a scuola."
+    },
+    {
+     "id": "o3",
+     "text": "Marco è non a scuola."
+    }
+   ],
+   "correctOptionId": "o1"
+  },
+  {
+   "id": "q3",
+   "prompt": "Sei di Torino? – …",
+   "type": "single_choice",
+   "options": [
+    {
+     "id": "o1",
+     "text": "No, non sono di Torino."
+    },
+    {
+     "id": "o2",
+     "text": "Non, no sono di Torino."
+    },
+    {
+     "id": "o3",
+     "text": "No, sono non di Torino."
+    }
+   ],
+   "correctOptionId": "o1"
+  }
+ ]
+}

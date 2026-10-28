@@ -1,0 +1,84 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-possessivi-1-s1",
+ "title": "Fehler finden",
+ "language": "it",
+ "level": "A1",
+ "description": "Possessivbegleiter (I) · Fehler finden (schwer).",
+ "topics": [
+  "Possessivbegleiter (I)",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-possessivi-1",
+  "topicTitle": "Possessivbegleiter (I)",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 51,
+  "rule": "Vor dem Possessivbegleiter steht im Italienischen meist der **Artikel**:\n| | männlich Sg. | weiblich Sg. | männlich Pl. | weiblich Pl. |\n| io | il mio | la mia | i miei | le mie |\n| tu | il tuo | la tua | i tuoi | le tue |\n| lui / lei | il suo | la sua | i suoi | le sue |\n| noi | il nostro | la nostra | i nostri | le nostre |\n| voi | il vostro | la vostra | i vostri | le vostre |\n| loro | il loro | la loro | i loro | le loro |\n\nDie Form richtet sich nach dem **Besitz**, nicht nach dem Besitzer: _Marco e **la sua** borsa_ (seine Tasche), _Giulia e **il suo** zaino_ (ihr Rucksack)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Korrigiere die markierten Formen.",
+   "type": "error_correction",
+   "text": "Giulia cerca [[g1]] zaino.\n[[g2]] libro è in cucina.\nRagazzi, dov'è [[g3]] classe?\n[[g4]] vestiti sono per terra.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "la sua",
+     "acceptedAnswers": [
+      "il suo"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "Mio",
+     "acceptedAnswers": [
+      "Il mio"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "la nostra",
+     "acceptedAnswers": [
+      "la vostra"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "Le mie",
+     "acceptedAnswers": [
+      "I miei"
+     ]
+    }
+   ]
+  }
+ ]
+}

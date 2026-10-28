@@ -1,0 +1,110 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-prossimo-avere-l2",
+ "title": "Welche Form von avere?",
+ "language": "it",
+ "level": "A1",
+ "description": "Das passato prossimo mit avere · Welche Form von avere? (einfach).",
+ "topics": [
+  "Das passato prossimo mit avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-avere",
+  "topicTitle": "Das passato prossimo mit avere",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 32,
+  "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle die richtige Form von avere.",
+   "type": "gap_choice",
+   "text": "Ieri io [[g1]] studiato.\nTu [[g2]] giocato a calcio?\nMarco [[g3]] dormito fino alle dieci.\nNoi [[g4]] ascoltato un concerto.\nVoi [[g5]] mangiato la pizza?\nI ragazzi [[g6]] suonato la chitarra.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "ho",
+      "hai",
+      "ha"
+     ],
+     "answer": "ho"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "hai",
+      "ho",
+      "ha"
+     ],
+     "answer": "hai"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "ha",
+      "hanno",
+      "ho"
+     ],
+     "answer": "ha"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "abbiamo",
+      "avete",
+      "hanno"
+     ],
+     "answer": "abbiamo"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "avete",
+      "abbiamo",
+      "hai"
+     ],
+     "answer": "avete"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "hanno",
+      "ha",
+      "avete"
+     ],
+     "answer": "hanno"
+    }
+   ]
+  }
+ ]
+}

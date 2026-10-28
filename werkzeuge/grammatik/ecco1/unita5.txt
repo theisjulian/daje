@@ -1,0 +1,190 @@
+#!buch series=Ecco_più volume=1 grade=8 cefr=A1 prefix=ecco1 publisher=Cornelsen
+## Ecco più 1 · Unità 5 „La mia famiglia“ · Grammatikthemen laut Inhaltsverzeichnis (S. 72–87). Datum: auch im Trainer.
+
+@thema data | Unità 5 | Approccio | Das Datum | 1
+#regel
+- _Oggi è **il** quindici maggio._ · _Il mio compleanno è **il** tre marzo._
+- Der erste Tag des Monats: **il primo** (aprile).
+- Vor Vokal: **l'otto**, **l'undici** (agosto).
+- Monate klein: gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.
+- _Quando è il tuo compleanno?_ – _È il venti giugno._
+
+%übung leicht | Welches Datum?
+?zuordnen | Was gehört zusammen?
+1.5. = il primo maggio
+8.3. = l'otto marzo
+15.8. = il quindici agosto
+25.12. = il venticinque dicembre
+11.11. = l'undici novembre
+
+%übung mittel | Quando è il compleanno?
+?luecke | Schreibe das Datum in Worten.
+Il compleanno di Giulia è (3.4.) [il tre aprile].
+Il compleanno di mio fratello è (1.10.) [il primo ottobre].
+Il mio compleanno è (8.2.) [l'otto febbraio].
+Natale è (25.12.) [il venticinque dicembre].
+
+%übung schwer | Geburtstage in deiner Familie
+?frei | Schreibe 4 Sätze: Wann haben du und deine Familie Geburtstag?
+Il mio compleanno è il dodici luglio. Il compleanno di mia madre è il primo marzo. Mio padre festeggia l'otto settembre.
+Zeilen: 4
+
+@thema possessivi-2 | Unità 5 | A | Possessivbegleiter bei Verwandten | 2
+#regel
+Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._
+**Mit Artikel** steht der Possessivbegleiter
+- im **Plural**: _i miei fratelli, le sue cugine_
+- mit **loro**: _il loro padre_
+- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_
+- bei _famiglia_: _la mia famiglia_
+
+%übung leicht | Mit oder ohne Artikel?
+?auswahl | Wähle die richtige Form.
+{Mia*|La mia} madre si chiama Anna.
+{I miei*|Miei} fratelli sono simpatici.
+{Suo*|Il suo} padre è di Napoli.
+{La mia*|Mia} famiglia è grande.
+{Il loro*|Loro} nonno ha ottant'anni.
+{Mia*|La mia} cugina abita a Roma.
+! Verwandte im Singular ohne Artikel (mia madre). Plural, loro und famiglia mit Artikel.
+
+%übung mittel | Die Familie von Giulia
+?luecke | Ergänze die Possessivbegleiter (mit oder ohne Artikel).
+Giulia presenta (ihre) [la sua] famiglia.
+(ihr) [Suo] padre si chiama Paolo e (ihre) [sua] madre Laura.
+(ihre) [I suoi] fratelli sono gemelli.
+(ihr) [Suo] nonno abita in campagna.
+(unsere) [La nostra] famiglia è piccola, dice Marco.
+! sua madre (Verwandte Singular), aber i suoi fratelli (Plural) und la sua famiglia.
+
+%übung schwer | Fehler finden
+?fehler | Korrigiere die markierten Ausdrücke.
+[La mia=>Mia] sorella ha dieci anni.
+[Mie=>Le mie] cugine abitano a Milano.
+[Loro=>Il loro] padre è simpatico.
+[Mia=>La mia] famiglia è molto grande.
+
+%übung schwer | Meine Familie
+?frei | Stell deine Familie vor (6 Sätze). Achte auf mio/mia mit und ohne Artikel.
+La mia famiglia non è grande. Mia madre si chiama Sabine e mio padre Thomas. Ho un fratello. Mio fratello ha dieci anni. I miei nonni abitano a Monaco.
+Zeilen: 6
+
+@thema che-relativo | Unità 5 | A | Das Relativpronomen che | 3
+#regel
+**che** verbindet zwei Sätze und bezieht sich auf ein Nomen (der, die, das, welche):
+- _Ho un'amica. L'amica abita a Roma._ → _Ho un'amica **che** abita a Roma._
+- _Il libro **che** leggo è interessante._
+
+**che** bleibt immer gleich (für Personen und Sachen, Singular und Plural).
+
+%übung leicht | Satzhälften verbinden
+?zuordnen | Was passt zusammen?
+Ho un cugino = che abita a Roma.
+Ecco il libro = che mi piace tanto.
+Questa è la ragazza = che parla tre lingue.
+Il ristorante = che preferisco è in centro.
+
+%übung mittel | Zwei Sätze, ein Satz
+?ergaenzen | Verbinde die Sätze mit che.
+Ho una sorella. Mia sorella ama la musica. → Ho una sorella … | che ama la musica
+Ecco il ragazzo. Il ragazzo gioca a calcio. → Ecco il ragazzo … | che gioca a calcio
+Leggo un libro. Il libro è molto interessante. → Leggo un libro … | che è molto interessante
+Ho un amico. L'amico abita a Milano. → Ho un amico … | che abita a Milano
+
+%übung schwer | Wer ist das?
+?frei | Beschreibe drei Personen aus deiner Familie oder deinem Freundeskreis mit che.
+Ho un fratello che ama il calcio. Mia nonna è una donna che racconta storie bellissime. Ho un'amica che parla italiano.
+Zeilen: 4
+
+@thema pp-modali | Unità 5 | B | Das passato prossimo der Modalverben | 4
+#regel
+Modalverben im passato prossimo nehmen das Hilfsverb des **folgenden Verbs**:
+- _Ho dovuto **studiare**._ (studiare → avere)
+- _Sono dovuto/-a **partire**._ (partire → essere)
+
+Im Alltag hört man auch: _Ho dovuto partire._ – In der Schule lernst du die Regel oben.
+
+%übung leicht | avere oder essere?
+?auswahl | Welches Hilfsverb passt?
+Ieri {ho*|sono} dovuto studiare.
+Giulia {è*|ha} voluta partire presto.
+Non {abbiamo*|siamo} potuto comprare i biglietti.
+I ragazzi {sono*|hanno} dovuti tornare a casa.
+{Ho*|Sono} voluto mangiare una pizza.
+
+%übung mittel | Che pasticcio!
+?luecke | Setze die Verben ins passato prossimo.
+Ieri io (dovere) [ho dovuto] prendere l'autobus.
+Il treno era in ritardo e noi non (potere) [siamo potuti/siamo potute] partire.
+Mia sorella (volere) [ha voluto] comprare un biglietto nuovo.
+Alla fine (noi, dovere) [abbiamo dovuto] aspettare due ore.
+! partire → essere (siamo potuti partire); comprare, aspettare → avere.
+
+%übung schwer | Fehler finden
+?fehler | Korrigiere die markierten Formen.
+Non [sono=>ho] potuto fare i compiti.
+Marta [ha=>è] dovuta andare dal medico.
+I ragazzi hanno [voluti=>voluto] giocare.
+
+@thema imperativo-noi | Unità 5 | B | Der Imperativ der 1. Person Plural | 5
+#regel
+Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens:
+- _**Andiamo** al cinema!_ · _**Prendiamo** l'autobus!_ · _**Facciamo** una pausa!_
+- verneint: _**Non** prendiamo il taxi!_
+
+%übung leicht | Vorschläge
+?auswahl | Wähle den Vorschlag.
+Che bella giornata! {Andiamo*|Andate|Vado} al parco!
+È tardi, {prendiamo*|prendete|prendono} un taxi!
+Ho fame, {mangiamo*|mangiate|mangio} una pizza!
+Siamo stanchi, {facciamo*|fate|fanno} una pausa!
+
+%übung mittel | Was machen wir?
+?luecke | Mache Vorschläge mit der 1. Person Plural.
+(andare) [Andiamo] a Roma per Pasqua!
+(prendere) [Prendiamo] il treno, è più comodo!
+(comprare) [Compriamo] i biglietti online!
+Non (aspettare) [aspettiamo] l'autobus, (camminare) [camminiamo]!
+
+%übung schwer | Ein Wochenende planen
+?frei | Du planst mit Freunden ein Wochenende. Schreibe 5 Vorschläge mit der 1. Person Plural.
+Andiamo in montagna! Prendiamo il treno alle otto. Facciamo una gita in bici. Mangiamo in un ristorante. Non torniamo troppo tardi!
+Zeilen: 5
+
+@thema quantita | Unità 5 | B | Mengenangaben: molto, poco, tanto, troppo | 6
+#regel
+**Als Adverb** (beim Verb oder Adjektiv) bleiben sie **unverändert**:
+_Studio **molto**. Il viaggio è **molto** bello. Luca mangia **troppo**._
+**Als Begleiter** (vor einem Nomen) passen sie sich an:
+| | m. Sg. | w. Sg. | m. Pl. | w. Pl. |
+| molto | molto | molta | molti | molte |
+| poco | poco | poca | pochi | poche |
+| tanto | tanto | tanta | tanti | tante |
+| troppo | troppo | troppa | troppi | troppe |
+
+_Ho **molti** amici. Ho **poco** tempo. C'è **troppa** gente._
+
+%übung leicht | Adverb oder Begleiter?
+?auswahl | Wähle die richtige Form.
+Ho {molti*|molto|molte} amici.
+Mi piace {molto*|molta|molti} la musica.
+Oggi ho {poco*|poca|pochi} tempo.
+Ci sono {tante*|tanto|tanti} persone in piazza.
+Il viaggio è {molto*|molta|molte} bello.
+Nella mia classe ci sono {pochi*|poco|poche} ragazzi.
+
+%übung mittel | Ein Wochenende in Rom
+?luecke | Ergänze die richtige Form.
+A Roma ci sono (tanto) [tanti] turisti.
+Abbiamo visto (molto) [molte] chiese.
+Il biglietto non costa (molto) [molto].
+Purtroppo abbiamo (poco) [poco] tempo.
+In metro c'è (troppo) [troppa] gente!
+! Vor einem Nomen passt sich die Form an (tanti turisti, troppa gente). Beim Verb bleibt sie gleich (costa molto).
+
+%übung schwer | Fehler finden
+?fehler | Korrigiere die markierten Formen.
+Ho [molto=>molti] compiti.
+Laura è [molta=>molto] simpatica.
+C'è [troppo=>troppa] gente qui.
+Mangio [pochi=>poco].

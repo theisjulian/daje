@@ -1,0 +1,96 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-passato-prossimo-avere-m2",
+ "title": "Präsens oder passato prossimo?",
+ "language": "it",
+ "level": "A1",
+ "description": "Das passato prossimo mit avere · Präsens oder passato prossimo? (mittel).",
+ "topics": [
+  "Das passato prossimo mit avere",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-passato-prossimo-avere",
+  "topicTitle": "Das passato prossimo mit avere",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 32,
+  "rule": "Das **passato prossimo** beschreibt abgeschlossene Handlungen in der Vergangenheit (wie das deutsche Perfekt):\n**avere** (Präsens) + **Partizip**: _Ieri **ho giocato** a calcio._\n\n| Infinitiv | Partizip |\n| -are → **-ato** | giocare → giocato |\n| -ere → **-uto** | vendere → venduto |\n| -ire → **-ito** | dormire → dormito |\n\n| io | tu | lui / lei | noi | voi | loro |\n| ho giocato | hai giocato | ha giocato | abbiamo giocato | avete giocato | hanno giocato |\n\nMit avere bleibt das Partizip **unverändert**.\nSignalwörter: _ieri, l'anno scorso, sabato scorso, la settimana scorsa_."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Achte auf die Signalwörter.",
+   "type": "gap_choice",
+   "text": "Ieri [[g1]] a tennis.\nOggi [[g2]] matematica.\nL'anno scorso [[g3]] a sciare.\nAdesso [[g4]] la radio.\nSabato scorso Anna [[g5]] al concerto.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "ho giocato",
+      "gioco"
+     ],
+     "answer": "ho giocato"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "studio",
+      "ho studiato"
+     ],
+     "answer": "studio"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "ho imparato",
+      "imparo"
+     ],
+     "answer": "ho imparato"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "ascolto",
+      "ho ascoltato"
+     ],
+     "answer": "ascolto"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "ha cantato",
+      "canta"
+     ],
+     "answer": "ha cantato"
+    }
+   ]
+  }
+ ]
+}

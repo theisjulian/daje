@@ -1,0 +1,93 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-articolo-indeterminativo-s1",
+ "title": "Was gibt es hier?",
+ "language": "it",
+ "level": "A1",
+ "description": "Der unbestimmte Artikel · Was gibt es hier? (schwer).",
+ "topics": [
+  "Der unbestimmte Artikel",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 8,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-articolo-indeterminativo",
+  "topicTitle": "Der unbestimmte Artikel",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 71,
+  "rule": "| Artikel | wann? | Beispiel |\n| un | männlich (auch vor Vokal) | un ragazzo, un amico |\n| uno | männlich vor s + Konsonant, z | uno stadio, uno zaino |\n| una | weiblich vor Konsonant | una città, una ragazza |\n| un' | weiblich vor Vokal | un'amica, un'idea |\n\nAchtung: _un amico_ (männlich, ohne Apostroph), aber _un'amica_ (weiblich, mit Apostroph)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze den unbestimmten Artikel.",
+   "explanation": "uno vor s + Konsonant; un' nur bei weiblichen Wörtern vor Vokal.",
+   "type": "gap_fill",
+   "text": "A Torino c'è [[g1]] stadio grande.\nMarco ha [[g2]] gatto e [[g3]] amica a Milano.\nIn piazza c'è [[g4]] scuola.\nLisa è [[g5]] ragazza simpatica.\nQuesto è [[g6]] ponte importante.",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "uno"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "un"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "un'"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "una"
+     ]
+    },
+    {
+     "id": "g6",
+     "acceptedAnswers": [
+      "un"
+     ]
+    }
+   ]
+  }
+ ]
+}

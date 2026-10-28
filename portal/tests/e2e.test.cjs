@@ -497,6 +497,34 @@ async function step(name, fn) {
     assert.equal(await pp.locator('.hw-home').count(), 1);
   });
 
+  await step('Grammatik: Katalog, Thema, alle Übungen öffnen, eine lösen', async () => {
+    await pp.goto(base + '?seite=grammatik', { waitUntil: 'networkidle' });
+    const topics = await pp.$$eval('[data-gr-topic]', b => b.length);
+    assert.ok(topics >= 30, 'Themen: ' + topics);
+    await pp.click('[data-gr-topic="ecco1-artikel-sg"]');
+    await pp.waitForSelector('.rule-card');
+    const ids = await pp.evaluate(() => contentList('grammar').map(x => x.id));
+    assert.ok(ids.length >= 120, 'Übungen: ' + ids.length);
+    for (const id of ids) {
+      await pp.evaluate(i => openListening(i), id);
+      assert.ok(await pp.$('#listening-form .q'), 'ohne Aufgaben: ' + id);
+    }
+    // Eine Auswahl-Übung vollständig richtig lösen
+    await pp.evaluate(() => openListening('g-ecco1-artikel-sg-l1'));
+    const answers = await pp.evaluate(() => findTask('g-ecco1-artikel-sg-l1').questions[0].gaps.map(g => g.answer));
+    const sels = await pp.$$('select.gap-sel');
+    for (let i = 0; i < sels.length; i++) await sels[i].selectOption(answers[i]);
+    await pp.click('#listening-form [type=submit]');
+    assert.match(await pp.textContent('.result-banner'), /1 von 1|alle|Super|richtig/i);
+    await pp.goBack();
+    await pp.waitForTimeout(200);
+    await pp.evaluate(() => nav('zahlen'));
+    await pp.click('[data-nu="start"]');
+    const ans = await pp.evaluate(() => NU_STATE.quiz.items[0].answers[0]);
+    await pp.click(`.vb-opt[data-v="${ans}"]`);
+    assert.match(await pp.textContent('.vb-fb'), /Richtig/);
+  });
+
   await step('Verben: Band 3, „Welche Form?“ und „Im Satz“ lösen', async () => {
     await pp.goto(base, { waitUntil: 'networkidle' });
     await pp.evaluate(() => nav('verben'));

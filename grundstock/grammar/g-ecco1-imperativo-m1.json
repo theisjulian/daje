@@ -1,0 +1,102 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-imperativo-m1",
+ "title": "Verneint",
+ "language": "it",
+ "level": "A1",
+ "description": "Der Imperativ (tu, voi) und die Verneinung · Verneint (mittel).",
+ "topics": [
+  "Der Imperativ (tu, voi) und die Verneinung",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo",
+  "topicTitle": "Der Imperativ (tu, voi) und die Verneinung",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 31,
+  "rule": "**Bejaht:**\n| | -are | -ere | -ire |\n| tu | parl**a**! | prend**i**! | sent**i**! / fin**isci**! |\n| voi | parl**ate**! | prend**ete**! | sent**ite**! |\n\nUnregelmäßig (tu): _fa'/fai!_ · _da'/dai!_ · _di'!_ · _va'/vai!_\n\n**Verneint:**\n- tu: **non** + Infinitiv: _**Non parlare!** · **Non prendere** il libro!_\n- voi: **non** + Imperativ: _**Non parlate!**_\n\nHöflich zu Erwachsenen (Lei): _Scusi! Senta!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle den verneinten Imperativ.",
+   "explanation": "tu verneint: non + Infinitiv (non parlare). voi verneint: non + Imperativ (non parlate).",
+   "type": "gap_choice",
+   "text": "Luca, non [[g1]] adesso!\nRagazzi, non [[g2]]!\nSara, non [[g3]] il libro!\nMarco, non [[g4]] nel corridoio!\nRagazzi, non [[g5]] il cellulare!",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "parlare",
+      "parla",
+      "parli"
+     ],
+     "answer": "parlare"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "gridate",
+      "gridare",
+      "grida"
+     ],
+     "answer": "gridate"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "dimenticare",
+      "dimentica",
+      "dimentichi"
+     ],
+     "answer": "dimenticare"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "correre",
+      "corri",
+      "corre"
+     ],
+     "answer": "correre"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "usate",
+      "usare",
+      "usa"
+     ],
+     "answer": "usate"
+    }
+   ]
+  }
+ ]
+}

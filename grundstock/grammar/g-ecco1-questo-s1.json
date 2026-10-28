@@ -1,0 +1,88 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-questo-s1",
+ "title": "Chaos zu Hause",
+ "language": "it",
+ "level": "A1",
+ "description": "questo, questa, questi, queste · Chaos zu Hause (schwer).",
+ "topics": [
+  "questo, questa, questi, queste",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 2 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 2",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-questo",
+  "topicTitle": "questo, questa, questi, queste",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 31,
+  "rule": "**questo** (dieser, diese, dieses) richtet sich nach dem Nomen:\n| | Singular | Plural |\n| männlich | questo zaino | questi zaini |\n| weiblich | questa borsa | queste borse |\n\nVor Vokal oft: _quest'armadio, quest'idea_. Allein (ohne Nomen): _Questo è il mio zaino._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze questo, questa, questi oder queste.",
+   "explanation": "Vor Vokal kann man questo zu quest' verkürzen: quest'asciugamano.",
+   "type": "gap_fill",
+   "text": "Mamma mia, che disordine! Di chi è [[g1]] zaino?\nE [[g2]] borsa da calcio?\n[[g3]] vestiti sono per terra!\nE [[g4]] riviste? Sono sul divano.\n[[g5]] asciugamano è nel salotto!",
+   "gaps": [
+    {
+     "id": "g1",
+     "acceptedAnswers": [
+      "questo"
+     ]
+    },
+    {
+     "id": "g2",
+     "acceptedAnswers": [
+      "questa"
+     ]
+    },
+    {
+     "id": "g3",
+     "acceptedAnswers": [
+      "Questi"
+     ]
+    },
+    {
+     "id": "g4",
+     "acceptedAnswers": [
+      "queste"
+     ]
+    },
+    {
+     "id": "g5",
+     "acceptedAnswers": [
+      "Questo",
+      "Quest'"
+     ]
+    }
+   ]
+  }
+ ]
+}

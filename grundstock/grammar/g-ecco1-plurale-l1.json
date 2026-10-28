@@ -1,0 +1,128 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-plurale-l1",
+ "title": "Welcher Plural-Artikel?",
+ "language": "it",
+ "level": "A1",
+ "description": "Der Plural: Artikel und Nomen · Welcher Plural-Artikel? (einfach).",
+ "topics": [
+  "Der Plural: Artikel und Nomen",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-plurale",
+  "topicTitle": "Der Plural: Artikel und Nomen",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 81,
+  "rule": "**Nomen:**\n| Singular | Plural | Beispiel |\n| -o | -i | il ragazzo → i ragazzi |\n| -a | -e | la piazza → le piazze |\n| -e | -i | il ponte → i ponti |\n| -à, -ù (betont) | bleibt | la città → le città |\n\n**Artikel:**\n| Singular | Plural |\n| il | i |\n| lo, l' (männlich) | gli |\n| la, l' (weiblich) | le |\n\n_gli stadi, gli amici, gli zaini_ · _le amiche, le città_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle den Artikel im Plural.",
+   "type": "gap_choice",
+   "text": "[[g1]] negozi\n[[g2]] stadi\n[[g3]] piazze\n[[g4]] amici\n[[g5]] amiche\n[[g6]] ponti\n[[g7]] città\n[[g8]] zaini",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "i",
+      "gli",
+      "le"
+     ],
+     "answer": "i"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "gli",
+      "i",
+      "le"
+     ],
+     "answer": "gli"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "le",
+      "i",
+      "gli"
+     ],
+     "answer": "le"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "gli",
+      "le",
+      "i"
+     ],
+     "answer": "gli"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "le",
+      "gli",
+      "i"
+     ],
+     "answer": "le"
+    },
+    {
+     "id": "g6",
+     "options": [
+      "i",
+      "le",
+      "gli"
+     ],
+     "answer": "i"
+    },
+    {
+     "id": "g7",
+     "options": [
+      "le",
+      "i",
+      "gli"
+     ],
+     "answer": "le"
+    },
+    {
+     "id": "g8",
+     "options": [
+      "gli",
+      "i",
+      "le"
+     ],
+     "answer": "gli"
+    }
+   ]
+  }
+ ]
+}

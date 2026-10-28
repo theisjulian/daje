@@ -1,0 +1,92 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-imperativo-noi-l1",
+ "title": "Vorschläge",
+ "language": "it",
+ "level": "A1",
+ "description": "Der Imperativ der 1. Person Plural · Vorschläge (einfach).",
+ "topics": [
+  "Der Imperativ der 1. Person Plural",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 4,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-imperativo-noi",
+  "topicTitle": "Der Imperativ der 1. Person Plural",
+  "difficulty": "leicht",
+  "origin": "own",
+  "order": 51,
+  "rule": "Mit der **1. Person Plural** macht man einen Vorschlag (Lass uns …!). Die Form ist wie im Präsens:\n- _**Andiamo** al cinema!_ · _**Prendiamo** l'autobus!_ · _**Facciamo** una pausa!_\n- verneint: _**Non** prendiamo il taxi!_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Wähle den Vorschlag.",
+   "type": "gap_choice",
+   "text": "Che bella giornata! [[g1]] al parco!\nÈ tardi, [[g2]] un taxi!\nHo fame, [[g3]] una pizza!\nSiamo stanchi, [[g4]] una pausa!",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "Andiamo",
+      "Andate",
+      "Vado"
+     ],
+     "answer": "Andiamo"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "prendiamo",
+      "prendete",
+      "prendono"
+     ],
+     "answer": "prendiamo"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "mangiamo",
+      "mangiate",
+      "mangio"
+     ],
+     "answer": "mangiamo"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "facciamo",
+      "fate",
+      "fanno"
+     ],
+     "answer": "facciamo"
+    }
+   ]
+  }
+ ]
+}

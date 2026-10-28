@@ -1,0 +1,113 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-articolo-indeterminativo-m1",
+ "title": "il oder un?",
+ "language": "it",
+ "level": "A1",
+ "description": "Der unbestimmte Artikel · il oder un? (mittel).",
+ "topics": [
+  "Der unbestimmte Artikel",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 1 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 3,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 1",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-articolo-indeterminativo",
+  "topicTitle": "Der unbestimmte Artikel",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 71,
+  "rule": "| Artikel | wann? | Beispiel |\n| un | männlich (auch vor Vokal) | un ragazzo, un amico |\n| uno | männlich vor s + Konsonant, z | uno stadio, uno zaino |\n| una | weiblich vor Konsonant | una città, una ragazza |\n| un' | weiblich vor Vokal | un'amica, un'idea |\n\nAchtung: _un amico_ (männlich, ohne Apostroph), aber _un'amica_ (weiblich, mit Apostroph)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Ergänze den unbestimmten Artikel.",
+   "type": "table_fill",
+   "columns": [
+    "bestimmt",
+    "unbestimmt"
+   ],
+   "rows": [
+    [
+     "il liceo",
+     {
+      "id": "c1",
+      "acceptedAnswers": [
+       "un liceo"
+      ]
+     }
+    ],
+    [
+     "lo stadio",
+     {
+      "id": "c2",
+      "acceptedAnswers": [
+       "uno stadio"
+      ]
+     }
+    ],
+    [
+     "la classe",
+     {
+      "id": "c3",
+      "acceptedAnswers": [
+       "una classe"
+      ]
+     }
+    ],
+    [
+     "l'amica",
+     {
+      "id": "c4",
+      "acceptedAnswers": [
+       "un'amica"
+      ]
+     }
+    ],
+    [
+     "l'amico",
+     {
+      "id": "c5",
+      "acceptedAnswers": [
+       "un amico"
+      ]
+     }
+    ],
+    [
+     "lo zaino",
+     {
+      "id": "c6",
+      "acceptedAnswers": [
+       "uno zaino"
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-modali-m1",
+ "title": "sapere oder potere?",
+ "language": "it",
+ "level": "A1",
+ "description": "venire, sapere und die Modalverben · sapere oder potere? (mittel).",
+ "topics": [
+  "venire, sapere und die Modalverben",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-modali",
+  "topicTitle": "venire, sapere und die Modalverben",
+  "difficulty": "mittel",
+  "origin": "own",
+  "order": 21,
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "sapere oder potere?",
+   "explanation": "sapere: etwas gelernt haben (Fähigkeit). potere: die Möglichkeit oder Erlaubnis haben.",
+   "type": "gap_choice",
+   "text": "[[g1]] suonare il pianoforte, ho imparato da piccolo.\nOggi non [[g2]] uscire, devo studiare.\n[[g3]] sciare? – Sì, ho imparato l'anno scorso.\n[[g4]] aiutarmi con i compiti?\nMia sorella [[g5]] parlare tre lingue.",
+   "gaps": [
+    {
+     "id": "g1",
+     "options": [
+      "So",
+      "Posso"
+     ],
+     "answer": "So"
+    },
+    {
+     "id": "g2",
+     "options": [
+      "posso",
+      "so"
+     ],
+     "answer": "posso"
+    },
+    {
+     "id": "g3",
+     "options": [
+      "Sai",
+      "Puoi"
+     ],
+     "answer": "Sai"
+    },
+    {
+     "id": "g4",
+     "options": [
+      "Puoi",
+      "Sai"
+     ],
+     "answer": "Puoi"
+    },
+    {
+     "id": "g5",
+     "options": [
+      "sa",
+      "può"
+     ],
+     "answer": "sa"
+    }
+   ]
+  }
+ ]
+}

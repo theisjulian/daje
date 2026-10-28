@@ -1,0 +1,84 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-possessivi-2-s1",
+ "title": "Fehler finden",
+ "language": "it",
+ "level": "A1",
+ "description": "Possessivbegleiter bei Verwandten · Fehler finden (schwer).",
+ "topics": [
+  "Possessivbegleiter bei Verwandten",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 5 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 5",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-possessivi-2",
+  "topicTitle": "Possessivbegleiter bei Verwandten",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 21,
+  "rule": "Bei **Verwandten im Singular** steht **kein Artikel**: _mia madre, tuo padre, suo fratello, nostra zia._\n**Mit Artikel** steht der Possessivbegleiter\n- im **Plural**: _i miei fratelli, le sue cugine_\n- mit **loro**: _il loro padre_\n- bei Koseformen und mit Adjektiv: _la mia mamma, il mio papà, il mio fratello piccolo_\n- bei _famiglia_: _la mia famiglia_"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Korrigiere die markierten Ausdrücke.",
+   "type": "error_correction",
+   "text": "[[g1]] sorella ha dieci anni.\n[[g2]] cugine abitano a Milano.\n[[g3]] padre è simpatico.\n[[g4]] famiglia è molto grande.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "La mia",
+     "acceptedAnswers": [
+      "Mia"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "Mie",
+     "acceptedAnswers": [
+      "Le mie"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "Loro",
+     "acceptedAnswers": [
+      "Il loro"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "Mia",
+     "acceptedAnswers": [
+      "La mia"
+     ]
+    }
+   ]
+  }
+ ]
+}

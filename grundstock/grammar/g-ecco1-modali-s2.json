@@ -1,0 +1,91 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-modali-s2",
+ "title": "Fehler finden",
+ "language": "it",
+ "level": "A1",
+ "description": "venire, sapere und die Modalverben · Fehler finden (schwer).",
+ "topics": [
+  "venire, sapere und die Modalverben",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 4 · A.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 7,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 4",
+   "section": "A"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-modali",
+  "topicTitle": "venire, sapere und die Modalverben",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 22,
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| volere | voglio | vuoi | vuole | vogliamo | volete | vogliono |\n| potere | posso | puoi | può | possiamo | potete | possono |\n| dovere | devo | devi | deve | dobbiamo | dovete | devono |\n| sapere | so | sai | sa | sappiamo | sapete | sanno |\n| venire | vengo | vieni | viene | veniamo | venite | vengono |\n\nNach den Modalverben steht der **Infinitiv**: _Voglio sciare. Non posso venire. Devo studiare._\n**sapere** + Infinitiv = etwas können (gelernt): _So nuotare._ · **potere** = können (dürfen, Gelegenheit haben): _Oggi non posso uscire._"
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Korrigiere die markierten Formen.",
+   "type": "error_correction",
+   "text": "Io non [[g1]] venire.\nTu [[g2]] un gelato?\nNoi [[g3]] fare i compiti.\nLoro [[g4]] alle otto.\nMia madre [[g5]] aiutarti.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "poto",
+     "acceptedAnswers": [
+      "posso"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "vole",
+     "acceptedAnswers": [
+      "vuoi"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "dovemo",
+     "acceptedAnswers": [
+      "dobbiamo"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "venono",
+     "acceptedAnswers": [
+      "vengono"
+     ]
+    },
+    {
+     "id": "g5",
+     "wrong": "puo",
+     "acceptedAnswers": [
+      "può"
+     ]
+    }
+   ]
+  }
+ ]
+}

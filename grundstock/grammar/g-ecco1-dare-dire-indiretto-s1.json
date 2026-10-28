@@ -1,0 +1,84 @@
+{
+ "format": "theis-learning-package",
+ "schemaVersion": "1.2",
+ "kind": "grammar",
+ "id": "g-ecco1-dare-dire-indiretto-s1",
+ "title": "Fehler finden",
+ "language": "it",
+ "level": "A1",
+ "description": "dare, dire und das indirekte Objekt · Fehler finden (schwer).",
+ "topics": [
+  "dare, dire und das indirekte Objekt",
+  "Grammatik"
+ ],
+ "sources": [
+  {
+   "kind": "own",
+   "citation": "Eigene Übung zum Grammatikthema aus Ecco più 1 (Cornelsen), Unità 3 · B.",
+   "rights": "own"
+  }
+ ],
+ "estimatedMinutes": 6,
+ "catalog": {
+  "origin": "textbook",
+  "textbook": {
+   "publisher": "Cornelsen",
+   "series": "Ecco più",
+   "volume": "1",
+   "unit": "Unità 3",
+   "section": "B"
+  },
+  "grade": 8,
+  "foreignLanguageNo": 3,
+  "cefr": "A1",
+  "tags": [
+   "grammatik"
+  ]
+ },
+ "grammar": {
+  "topic": "ecco1-dare-dire-indiretto",
+  "topicTitle": "dare, dire und das indirekte Objekt",
+  "difficulty": "schwer",
+  "origin": "own",
+  "order": 41,
+  "rule": "| | io | tu | lui / lei | noi | voi | loro |\n| dare | do | dai | dà | diamo | date | danno |\n| dire | dico | dici | dice | diciamo | dite | dicono |\n\n**Indirekte Objektpronomen** (wem?) stehen **vor dem Verb**:\n| mi | ti | gli | le | Le | ci | vi | gli |\n| mir | dir | ihm | ihr | Ihnen | uns | euch | ihnen |\n\n_La prof **mi** dà un bel voto._ · _Che cosa **gli** dici?_ · _**Le** scrivo una mail._\n**Achtung:** _dà_ (er gibt) mit Akzent ≠ _da_ (von)."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "prompt": "Korrigiere die markierten Wörter.",
+   "type": "error_correction",
+   "text": "La prof [[g1]] un compito difficile.\nSara non sta bene, io [[g2]] porto i compiti.\nNoi [[g3]] la verità.\nA Luca? Io [[g4]] do il pallone.",
+   "errors": [
+    {
+     "id": "g1",
+     "wrong": "da",
+     "acceptedAnswers": [
+      "dà"
+     ]
+    },
+    {
+     "id": "g2",
+     "wrong": "gli",
+     "acceptedAnswers": [
+      "le"
+     ]
+    },
+    {
+     "id": "g3",
+     "wrong": "dicono",
+     "acceptedAnswers": [
+      "diciamo"
+     ]
+    },
+    {
+     "id": "g4",
+     "wrong": "le",
+     "acceptedAnswers": [
+      "gli"
+     ]
+    }
+   ]
+  }
+ ]
+}
