@@ -1,0 +1,205 @@
+{
+  "format": "theis-learning-package",
+  "schemaVersion": "1.2",
+  "kind": "grammar",
+  "id": "eigen-mvt5ijqhhkbi",
+  "title": "De Cecco, una storia di due fratelli",
+  "language": "it",
+  "level": "A2",
+  "description": "Articoli · schwer",
+  "topics": [
+    "Articoli",
+    "Grammatik"
+  ],
+  "sources": [
+    {
+      "kind": "external",
+      "citation": "Lückentext nach Il Centro. Nur für den eigenen Unterricht, nicht zur Veröffentlichung.",
+      "url": "",
+      "rights": "cleared"
+    }
+  ],
+  "reviewNotes": [
+    "Ausgewählt wurden vier zusammenhängende Absätze von „All’esterno“ bis „produzione di olio“. Auslassungen vor und nach dem Abschnitt sind mit […] gekennzeichnet. Der Text außerhalb der 25 Lücken wurde nicht umgeschrieben.",
+    "Der authentische Zeitungstext liegt sprachlich deutlich über A2. Auftragsgemäß wurde er nicht vereinfacht; deshalb ist die Übung als schwer eingestuft. Für A2 empfiehlt sich eine vorherige Klärung unbekannter Wörter.",
+    "Alle selbstständigen bestimmten und unbestimmten Artikel des Abschnitts wurden erfasst. Verschmolzene Präpositionen wie „del“, „della“ und „alla“ bleiben stehen. „Uno di questi“ ist ein Pronomen und bleibt ebenfalls unverändert. „Le“ in „tutte le altre“ wurde als bestimmter Artikel vor dem substantivierten „altre“ erfasst.",
+    "Der ausgewählte Abschnitt enthält l’, aber kein un’. Eine zusätzliche Lücke für un’ würde einen anderen oder längeren Textausschnitt erfordern.",
+    "Die Lösungen entsprechen dem Originaltext. Bei einzelnen Lücken sind mit veränderter Bedeutungsnuance auch andere Artikel denkbar, etwa „una guida“ statt „la guida“. Solche Varianten sind nicht als inhaltlich gleichwertig aufgenommen.",
+    "Eingereicht am 29.10.2026; Einverständnis zur Veröffentlichung im daje-Katalog erteilt."
+  ],
+  "cover": "wave",
+  "estimatedMinutes": 5,
+  "grammar": {
+    "topic": "eigen-articoli-nor8",
+    "topicTitle": "Articoli",
+    "difficulty": "schwer",
+    "origin": "own",
+    "rule": "L’articolo va prima del nome o dell’aggettivo che lo accompagna.\nGli articoli **determinativi** indicano persone o cose già note: **il, lo, l’, la, i, gli, le**.\nGli articoli **indeterminativi** presentano una persona o una cosa: **un, uno, una, un’**.\n- Maschile: _il fratello, un fratello; lo stereotipo, uno stereotipo; l’attore, un attore_.\n- Femminile: _la guida, una guida; l’agenzia, un’agenzia_.\nDavanti a una vocale: **l’** al maschile e al femminile; **un** al maschile, **un’** al femminile.\nL’articolo concorda con il nome: _il regista, la regista; il nostro rapporto_.",
+    "ruleHelp": "Der Artikel steht vor dem Nomen oder dem dazugehörigen Adjektiv.\n**Bestimmte Artikel** bezeichnen bereits bekannte Personen oder Dinge: **il, lo, l’, la, i, gli, le**.\n**Unbestimmte Artikel** führen eine Person oder eine Sache ein: **un, uno, una, un’**.\n- Maskulin: _il fratello, un fratello; lo stereotipo, uno stereotipo; l’attore, un attore_.\n- Feminin: _la guida, una guida; l’agenzia, un’agenzia_.\nVor einem Vokal steht **l’** bei beiden Geschlechtern; **un** steht bei maskulinen, **un’** bei femininen Nomen.\nDer Artikel richtet sich nach dem Nomen: _il regista, la regista; il nostro rapporto_.",
+    "order": 0
+  },
+  "vocabularyIds": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "gap_fill",
+      "prompt": "Completa il testo con gli articoli determinativi e indeterminativi. Leggi prima tutto il testo e scegli gli articoli adatti al contesto.",
+      "explanation": "Scegli l’articolo in base al nome, al suono iniziale e al contesto. Attenzione: diciamo «uno stereotipo», «l’attore» e «l’agenzia».",
+      "promptHelp": "Ergänze die bestimmten und unbestimmten Artikel. Lies zuerst den ganzen Text und wähle die zum Zusammenhang passenden Artikel.",
+      "explanationHelp": "Wähle den Artikel passend zum Nomen, zum Anfangslaut und zum Zusammenhang. Beachte besonders: „uno stereotipo“, „l’attore“ und „l’agenzia“.",
+      "text": "[…]\nAll’esterno, nota Filippo De Cecco, poteva sembrare che [[g1]] figura del fratello fosse incasellabile in [[g2]] stereotipo minore, quello dell’eterno “numero due” della storica azienda abruzzese.\n«In realtà», sottolinea [[g3]] presidente della De Cecco, «tutte [[g4]] decisioni importanti che io ho preso in questi anni sono sempre passate attraverso [[g5]] suo parere. Ci siamo sempre confrontati, su ogni cosa. Non è mai stato [[g6]] numero due: era [[g7]] mio interlocutore più autorevole, soprattutto nei momenti cruciali».\nUno di questi, racconta, riguardava [[g8]] comunicazione pubblicitaria: «Scegliere [[g9]] campagna è sempre [[g10]] fase delicatissima. [[g11]]attore, [[g12]] regista, [[g13]]agenzia, [[g14]] tono del messaggio: nulla va lasciato al caso. E su questo Peppe aveva [[g15]] talento naturale, [[g16]] sensibilità che io stesso riconoscevo, considerandolo come [[g17]] guida».\nA testimonianza di questa visione e di questo ruolo resta [[g18]] aneddoto esemplare, quello sull’intuizione che segnò [[g19]] nascita della linea olearia De Cecco: «Vent’anni fa, quando decidemmo di entrare nel mercato dell’olio, fu lui ad avere [[g20]]idea che si rivelò vincente. [[g21]] bottiglia squadrata, diversa da tutte [[g22]] altre. [[g23]] scelta era guidata da questa filosofia: più facile da impugnare e più pratica perché meno scivolosa. [[g24]] soluzione semplice e geniale che ha dato [[g25]] segno distintivo anche alla nostra produzione di olio».\n[…]",
+      "gaps": [
+        {
+          "id": "g1",
+          "acceptedAnswers": [
+            "la"
+          ]
+        },
+        {
+          "id": "g2",
+          "acceptedAnswers": [
+            "uno"
+          ]
+        },
+        {
+          "id": "g3",
+          "acceptedAnswers": [
+            "il"
+          ]
+        },
+        {
+          "id": "g4",
+          "acceptedAnswers": [
+            "le"
+          ]
+        },
+        {
+          "id": "g5",
+          "acceptedAnswers": [
+            "il"
+          ]
+        },
+        {
+          "id": "g6",
+          "acceptedAnswers": [
+            "un"
+          ]
+        },
+        {
+          "id": "g7",
+          "acceptedAnswers": [
+            "il"
+          ]
+        },
+        {
+          "id": "g8",
+          "acceptedAnswers": [
+            "la"
+          ]
+        },
+        {
+          "id": "g9",
+          "acceptedAnswers": [
+            "una"
+          ]
+        },
+        {
+          "id": "g10",
+          "acceptedAnswers": [
+            "una"
+          ]
+        },
+        {
+          "id": "g11",
+          "acceptedAnswers": [
+            "L’"
+          ]
+        },
+        {
+          "id": "g12",
+          "acceptedAnswers": [
+            "il"
+          ]
+        },
+        {
+          "id": "g13",
+          "acceptedAnswers": [
+            "l’"
+          ]
+        },
+        {
+          "id": "g14",
+          "acceptedAnswers": [
+            "il"
+          ]
+        },
+        {
+          "id": "g15",
+          "acceptedAnswers": [
+            "un"
+          ]
+        },
+        {
+          "id": "g16",
+          "acceptedAnswers": [
+            "una"
+          ]
+        },
+        {
+          "id": "g17",
+          "acceptedAnswers": [
+            "la"
+          ]
+        },
+        {
+          "id": "g18",
+          "acceptedAnswers": [
+            "un"
+          ]
+        },
+        {
+          "id": "g19",
+          "acceptedAnswers": [
+            "la"
+          ]
+        },
+        {
+          "id": "g20",
+          "acceptedAnswers": [
+            "l’"
+          ]
+        },
+        {
+          "id": "g21",
+          "acceptedAnswers": [
+            "La"
+          ]
+        },
+        {
+          "id": "g22",
+          "acceptedAnswers": [
+            "le"
+          ]
+        },
+        {
+          "id": "g23",
+          "acceptedAnswers": [
+            "La"
+          ]
+        },
+        {
+          "id": "g24",
+          "acceptedAnswers": [
+            "Una"
+          ]
+        },
+        {
+          "id": "g25",
+          "acceptedAnswers": [
+            "un"
+          ]
+        }
+      ]
+    }
+  ]
+}
