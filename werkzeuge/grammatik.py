@@ -291,7 +291,8 @@ if __name__ == '__main__':
     # Vollständiger Lauf: Pakete, die es in den Quellen nicht mehr gibt, entfernen (nur Grammatik aus diesem Werkzeug).
     if not sys.argv[1:]:
         for old in OUT.glob('g-*.json'):
-            if old.name not in written:
+            # Importierte Pakete (werkzeuge/gpt_import.py: g-daje-202-*, g-daje-b1b2-*) stammen nicht aus diesen Quellen
+            if old.name not in written and not old.name.startswith('g-daje-'):
                 old.unlink()
                 print('entfernt', old.name)
     print(f'{count} Grammatikübungen zu {topics_n} Themen geschrieben')

@@ -8855,3 +8855,21 @@ body.kb-open .checkbar { position: static !important; }
 .auth-main .acc-form{gap:12px}
 .auth-main .field input{min-height:46px}
 .auth-main .field{flex:none;font-size:.82rem;font-weight:600;color:var(--label)}.auth-main .field input{font-size:16px;padding:12px 14px;border-radius:12px}
+/* Bereichskacheln: drei gleich breite Spalten, keine halbleeren Reihen */
+@media (min-width: 861px) { .areas { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 561px) and (max-width: 860px) { .areas { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+/* Schwebende Leiste wie bei Kleinanzeigen: Glas, aktiver Bereich als ruhige Pille */
+@media (max-width: 860px) {
+  .tabbar,
+  :root[data-skin] .tabbar {
+    background: color-mix(in srgb, var(--glass-solid) 72%, transparent) !important;
+    -webkit-backdrop-filter: saturate(180%) blur(22px);
+    backdrop-filter: saturate(180%) blur(22px);
+    border: 0.5px solid color-mix(in srgb, var(--label) 10%, transparent);
+  }
+  :root:not([data-skin='pop']) .tabbar [aria-current='page'] {
+    background: color-mix(in srgb, var(--label) 8%, transparent);
+  }
+  .tabbar button { transition: background 0.2s, transform 0.15s var(--spring); }
+  .tabbar button:active { transform: scale(0.94); }
+}
